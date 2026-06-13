@@ -1,1 +1,15 @@
-{"questionId": "98abbb37-6191-475b-986c-2431f021f4a2_15", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The critic claims the lullaby lowered heart rate by capturing attention, not by relaxing the infants. The passage links pupil enlargement to attention. So the correct answer must give data that tests whether the lullaby really captured more attention than the control."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; blinking equally frequent in both conditions</strong>: blinking is an attention marker; equal blink rates mean the lullaby captured no more attention than the control, which directly undercuts the critic&rsquo;s claim. &#10003;</li><li><strong>Choice B</strong>: references a signal the passage does not connect to attention. &#10007;</li><li><strong>Choice C</strong>: provides a background fact rather than evidence about attention. &#10007;</li><li><strong>Choice D</strong>: provides a background fact rather than evidence about attention. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "98abbb37-6191-475b-986c-2431f021f4a2_15",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The critic claims the lullaby lowered heart rate by capturing attention, not by relaxing the infants. The passage links pupil enlargement to attention. The needed evidence must test whether the lullaby really captured more attention than the control."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Blinking, which indicates attention, was equally frequent whether infants were listening to the song in Scottish Gaelic or song in Seri.</strong>: blinking is an attention marker; equal blink rates mean the lullaby captured no more attention than the control, which directly undercuts the critic&rsquo;s claim. &#10003;</li><li><strong>Choice B &mdash; Neither the Scottish Gaelic language nor the melody of the traditional Scots lullaby was familiar to infants in the study.</strong>: references a signal the passage does not connect to attention. &#10007;</li><li><strong>Choice C &mdash; The infants' pupils were smaller when the infants were listening to lullabies than when they were listening to non-lullabies.</strong>: provides a background fact rather than evidence about attention. &#10007;</li><li><strong>Choice D &mdash; Parents of infants in the study chose the lullaby over the non-lullaby when asked which song they would use to calm their child.</strong>: provides a background fact rather than evidence about attention. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

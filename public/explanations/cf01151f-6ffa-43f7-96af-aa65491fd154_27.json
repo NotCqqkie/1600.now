@@ -1,1 +1,15 @@
-{"questionId": "cf01151f-6ffa-43f7-96af-aa65491fd154_27", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the task", "content": "The student's goal is to &quot;provide a specific example of an isthmus&quot; — not define the term or describe geographic facts generally, but explicitly name a labeled example. The key word is <em>specific</em>: the answer must both label the thing as an isthmus and name it.<ul><li><strong>Choice A &mdash; 'There is a land bridge in Greece.'</strong>: mentions a land bridge in Greece but names no specific isthmus — it is vague and provides no example. &#10007;</li><li><strong>Choice B &mdash; 'In Greece, the Kassandra Peninsula is connected to mainland Greece.'</strong>: states a geographic fact from the notes but never identifies anything as an isthmus or land bridge, so it is not an example of the concept. &#10007;</li><li><strong>Choice C &mdash; 'One example of an isthmus is the Isthmus of Potidea in Greece.'</strong>: explicitly labels the Isthmus of Potidea as &quot;one example of an isthmus&quot; and names it — directly accomplishing the goal. &#10003;</li><li><strong>Choice D &mdash; 'An isthmus, also known as a land bridge, is a strip of land that connects two larger pieces of land across an expanse of water.'</strong>: provides the definition of an isthmus, not an example of one. &#10007;</li></ul>"}, {"title": "Confirm the answer", "content": "Only C uses the phrasing &quot;one example of an isthmus is...&quot; followed by a specific named instance, which is precisely what the task requires. That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "cf01151f-6ffa-43f7-96af-aa65491fd154_27",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the task",
+      "content": "The student's goal is to &quot;provide a specific example of an isthmus&quot; — not define the term or describe geographic facts generally, but explicitly name a labeled example. The key word is <em>specific</em>: the answer must both label the thing as an isthmus and name it.<ul><li><strong>Choice A &mdash; There is a land bridge in Greece.</strong>: mentions a land bridge in Greece but names no specific isthmus — it is vague and provides no example. &#10007;</li><li><strong>Choice B &mdash; In Greece, the Kassandra Peninsula is connected to mainland Greece.</strong>: states a geographic fact from the notes but never identifies anything as an isthmus or land bridge, so it is not an example of the concept. &#10007;</li><li><strong>Choice C &mdash; One example of an isthmus is the Isthmus of Potidea in Greece.</strong>: explicitly labels the Isthmus of Potidea as &quot;one example of an isthmus&quot; and names it — directly accomplishing the goal. &#10003;</li><li><strong>Choice D &mdash; An isthmus, also known as a land bridge, is a strip of land that connects two larger pieces of land across an expanse of water.</strong>: provides the definition of an isthmus, not an example of one. &#10007;</li></ul>"
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "Only C uses the phrasing &quot;one example of an isthmus is...&quot; followed by a specific named instance, which is precisely what the task requires. That is the correct answer."
+    }
+  ]
+}

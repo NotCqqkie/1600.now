@@ -1,1 +1,15 @@
-{"questionId":"cf01151f-6ffa-43f7-96af-aa65491fd154_14","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage states that poor lighting deters new or inexperienced cyclists but has little effect on experienced cyclists. The blank completes: &quot;increasing the number of streetlights could potentially ______.&quot; The correct answer must follow logically from those findings."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'decrease the number of experienced cyclists riding in the city.'</strong>: the passage says lighting has little effect on experienced cyclists, so more lights would not decrease their numbers. &#10007;</li><li><strong>Choice B &mdash; 'increase the number of new or inexperienced cyclists riding in the city.'</strong>: poor lighting deters inexperienced cyclists, so better lighting removes that barrier &mdash; directly supported by the passage. &#10003;</li><li><strong>Choice C &mdash; 'increase the number of experienced cyclists riding in the city.'</strong>: experienced cyclists are unaffected by lighting, so more lights would not change their numbers. &#10007;</li><li><strong>Choice D &mdash; 'decrease the number of new or inexperienced cyclists riding in the city.'</strong>: this reverses the logic &mdash; more lights would encourage, not deter, inexperienced cyclists. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "cf01151f-6ffa-43f7-96af-aa65491fd154_14",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage states that poor lighting deters new or inexperienced cyclists but has little effect on experienced cyclists. The blank completes: &quot;increasing the number of streetlights could potentially ______.&quot; The correct answer must follow logically from those findings."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; decrease the number of experienced cyclists riding in the city.</strong>: the passage says lighting has little effect on experienced cyclists, so more lights would not decrease their numbers. &#10007;</li><li><strong>Choice B &mdash; increase the number of new or inexperienced cyclists riding in the city.</strong>: poor lighting deters inexperienced cyclists, so better lighting removes that barrier &mdash; directly supported by the passage. &#10003;</li><li><strong>Choice C &mdash; increase the number of experienced cyclists riding in the city.</strong>: experienced cyclists are unaffected by lighting, so more lights would not change their numbers. &#10007;</li><li><strong>Choice D &mdash; decrease the number of new or inexperienced cyclists riding in the city.</strong>: this reverses the logic &mdash; more lights would encourage, not deter, inexperienced cyclists. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

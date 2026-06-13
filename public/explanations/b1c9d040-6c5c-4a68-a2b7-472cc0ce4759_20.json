@@ -1,1 +1,15 @@
-{"questionId": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_20", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the series with internal punctuation", "content": "The blank separates two appositive noun phrases. The left side is an appositive description: “Italian Renaissance painter of the Venetian School.” The right side is another: “Flemish mannerist painter of the Antwerp School.” These descriptions belong to different people in a coordinate series, and the blank marks where one person's description ends and the next person's information begins.<br/><br/>Both descriptions follow a name and comma, so each item has the structure [NAME], [DESCRIPTION]."}, {"title": "Apply the complex-series punctuation rule", "content": "When series items contain internal commas, use semicolons (not commas) to separate them.<br/><br/>The blank requires a semicolon after “School,” then “Adriaen Brouwer,” with a comma before his description.<br/><br/>Choice B—“School; Adriaen Brouwer,”—provides this structure.<br/><br/>The others violate the rule by either using a comma instead of a semicolon, placing the semicolon between a name and description, or omitting punctuation.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_20",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the series with internal punctuation",
+      "content": "The blank separates two appositive noun phrases. The left side is an appositive description: “Italian Renaissance painter of the Venetian School.” The right side is another: “Flemish mannerist painter of the Antwerp School.” These descriptions belong to different people in a coordinate series, and the blank marks where one person's description ends and the next person's information begins.<br/><br/>Both descriptions follow a name and comma, so each item has the structure [NAME], [DESCRIPTION]."
+    },
+    {
+      "title": "Apply the complex-series punctuation rule",
+      "content": "When series items contain internal commas, use semicolons (not commas) to separate them.<br/><br/>The blank requires a semicolon after “School,” then “Adriaen Brouwer,” with a comma before his description.<br/><br/>Choice B—“School; Adriaen Brouwer,”—provides this structure.<br/><br/>The others violate the rule by either using a comma instead of a semicolon, placing the semicolon between a name and description, or omitting punctuation.<br/><br/>That is the correct answer."
+    }
+  ]
+}

@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the answer",
-      "content": "Choice C is $y=9x+5$. It has the required rate of change $9$, and $9(2)+5=23$, so choice <strong>C</strong> is correct."
+      "content": "The correct answer is $y=9x+5$. It has the required rate of change $9$, and $9(2)+5=23$, so <strong>C</strong> is correct."
     }
   ]
 }

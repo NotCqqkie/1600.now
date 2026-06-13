@@ -1,1 +1,15 @@
-{"questionId":"6e89fd3b-91b4-4432-a6bd-32d79b8e459a_2","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank completes: &quot;there being over 500,000 such bodies known at present, which makes the already challenging task of finding a unique name for each nearly ______.&quot; The signal is the causal chain: 500,000+ minor planets makes the naming task nearly [impossible/unachievable]. The word must convey that the sheer volume makes the task effectively impossible."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;substantial&apos;</strong>: means large or significant. It describes magnitude, not difficulty or impossibility &mdash; and you can&apos;t make a task &quot;nearly substantial.&quot; &#10007;</li><li><strong>Choice B &mdash; &apos;insurmountable&apos;</strong>: means impossible to overcome. &quot;Nearly insurmountable&quot; means almost impossible &mdash; exactly what results when 500,000+ planets must each have a unique name. &#10003;</li><li><strong>Choice C &mdash; &apos;unnecessary&apos;</strong>: contradicts the passage, which treats naming as a meaningful task that has simply become overwhelmingly difficult. &#10007;</li><li><strong>Choice D &mdash; &apos;permissible&apos;</strong>: means allowed. The passage never raises any question of permission. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "6e89fd3b-91b4-4432-a6bd-32d79b8e459a_2",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank completes: &quot;there being over 500,000 such bodies known at present, which makes the already challenging task of finding a unique name for each nearly ______.&quot; The signal is the causal chain: 500,000+ minor planets makes the naming task nearly [impossible/unachievable]. The word must convey that the sheer volume makes the task effectively impossible."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;substantial&rsquo;</strong>: means large or significant. It describes magnitude, not difficulty or impossibility &mdash; and you can&apos;t make a task &quot;nearly substantial.&quot; &#10007;</li><li><strong>Choice B &mdash; &lsquo;insurmountable&rsquo;</strong>: means impossible to overcome. &quot;Nearly insurmountable&quot; means almost impossible &mdash; exactly what results when 500,000+ planets must each have a unique name. &#10003;</li><li><strong>Choice C &mdash; &lsquo;unnecessary&rsquo;</strong>: contradicts the passage, which treats naming as a meaningful task that has simply become overwhelmingly difficult. &#10007;</li><li><strong>Choice D &mdash; &lsquo;permissible&rsquo;</strong>: means allowed. The passage never raises any question of permission. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

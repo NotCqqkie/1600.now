@@ -1,1 +1,15 @@
-{"questionId": "73a6603c", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structures", "content": "The left side of the blank creates an independent clause with a participial phrase at the end (<em>raising the surrounding air temperature</em>). The right side, with <em>Adding</em>, forms an independent clause where a gerund phrase serves as the subject of the verb <em>helps</em>."}, {"title": "Apply the sentence boundary rule", "content": "Two independent clauses require a period to separate them and prevent a run-on sentence.<br/><br/>Choice C correctly places <strong>temperature. Adding</strong> to create this boundary. The other choices fail because they either use inappropriate punctuation (A's semicolon, B's comma) or omit it entirely (D), leaving independent clauses improperly connected.<br/><br/>That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}
+{
+  "questionId": "73a6603c",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures",
+      "content": "The left side of the blank creates an independent clause with a participial phrase at the end (<em>raising the surrounding air temperature</em>). The right side, with <em>Adding</em>, forms an independent clause where a gerund phrase serves as the subject of the verb <em>helps</em>."
+    },
+    {
+      "title": "Apply the sentence boundary rule",
+      "content": "Two independent clauses require a period to separate them and prevent a run-on sentence.<br/><br/>Choice C (&lsquo;temperature. Adding&rsquo;) correctly places <strong>temperature. Adding</strong> to create this boundary. The other choices fail because they either use inappropriate punctuation (A's semicolon, B's comma) or omit it entirely, leaving independent clauses improperly connected.<br/><br/>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

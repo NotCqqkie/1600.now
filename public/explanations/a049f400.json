@@ -8,8 +8,8 @@
       "content": "Every row in the correct table must satisfy $y\\lt5x+6$. Since all choices use $x=3,5,7$, compute the upper bounds once:<br/>$$5(3)+6=21,\\quad 5(5)+6=31,\\quad 5(7)+6=41$$"
     },
     {
-      "title": "Check choice A against the bounds",
-      "content": "Choice A has $y$-values $17,27,37$. Compare them row by row:<br/>$$17\\lt21,\\quad 27\\lt31,\\quad 37\\lt41$$<br/>All three rows work.",
+      "title": "Check the working table against the bounds",
+      "content": "The correct answer has $y$-values $17,27,37$. Compare them row by row:<br/>$$17\\lt21,\\quad 27\\lt31,\\quad 37\\lt41$$<br/>All three rows work.",
       "desmosExpressions": [
         "x_1=[3,5,7]",
         "y_1=[17,27,37]",
@@ -19,7 +19,7 @@
     },
     {
       "title": "Eliminate the other tables",
-      "content": "The other choices each have a row that is not strictly below its bound: choice B has $35\\not\\lt31$, choice C has $25\\not\\lt21$, and choice D has $21\\not\\lt21$. Only choice A satisfies every row, so <strong>A</strong> is correct."
+      "content": "The other tables each have a row that is not strictly below its bound: one has $35\\not\\lt31$, another has $25\\not\\lt21$, and another has $21\\not\\lt21$. The table with $y$-values $17,27,37$ satisfies every row, so <strong>A</strong> is correct."
     }
   ]
 }

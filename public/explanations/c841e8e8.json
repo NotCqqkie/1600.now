@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice B is correct. Choice C adds $12$ instead of subtracting; choice D multiplies; choice A comes from dividing by $12$. The inverse operation for $+12$ is subtraction."
+      "content": "The value $324$ is correct because $336-12=324$. Adding $12$ instead of subtracting, multiplying by $12$, or dividing by $12$ uses the wrong inverse operation. <strong>B</strong> is correct."
     }
   ]
 }

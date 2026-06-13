@@ -1,1 +1,15 @@
-{"questionId": "6997261f", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structures", "content": "On the left is an independent clause: <em>“These are some of the oldest”</em> (subject + verb). On the right is a prepositional phrase: <em>“of pottery ever found,”</em> which modifies the noun <em>“pieces.”</em> The whole sentence reads as one grammatical unit."}, {"title": "Apply the boundary rule", "content": "A noun followed directly by a modifying prepositional phrase requires no punctuation separating them.<br/><br/>A colon would incorrectly introduce an elaboration, a comma would create an unnecessary pause, and an em dash would suggest emphasis or parenthetical content.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "6997261f",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures",
+      "content": "On the left is an independent clause: <em>“These are some of the oldest”</em> (subject + verb). On the right is a prepositional phrase: <em>“of pottery ever found,”</em> which modifies the noun <em>“pieces.”</em> The whole sentence reads as one grammatical unit."
+    },
+    {
+      "title": "Apply the boundary rule",
+      "content": "A noun followed directly by a modifying prepositional phrase requires no punctuation separating them.<br/><br/>A colon would incorrectly introduce an elaboration, a comma would create an unnecessary pause, and an em dash would suggest emphasis or parenthetical content.<br/><br/>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

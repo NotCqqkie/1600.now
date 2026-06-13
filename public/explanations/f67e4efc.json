@@ -9,7 +9,7 @@
     },
     {
       "title": "Isolate and solve for r",
-      "content": "Divide both sides by $5\\pi$:<br/>$$r^2 = \\frac{45\\pi}{5\\pi} = 9$$<br/>Taking the positive square root:<br/>$$r = \\sqrt{9} = 3$$<br/>That matches choice A — <strong>A</strong> is correct."
+      "content": "Divide both sides by $5\\pi$:<br/>$$r^2 = \\frac{45\\pi}{5\\pi} = 9$$<br/>Taking the positive square root:<br/>$$r = \\sqrt{9} = 3$$<br/>That matches the correct answer — <strong>A</strong> is correct."
     }
   ]
 }

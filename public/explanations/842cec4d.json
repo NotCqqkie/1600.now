@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate wrong choices and confirm",
-      "content": "<ul><li><strong>Choice A &mdash; '$s\\le20$'</strong>: This caps speed at 20 mph — far below any real cruising speed. &#10007;</li><li><strong>Choice B &mdash; '$s\\le150$'</strong>: Only an upper bound; allows speeds below 150 and excludes speeds up to 170. &#10007;</li><li><strong>Choice C &mdash; '$s\\le170$'</strong>: Only an upper bound; allows any speed below 170 but ignores the lower bound of 150. &#10007;</li><li><strong>Choice D &mdash; '$150\\le s\\le170$'</strong>: Exactly captures both bounds — speed is between 150 and 170 inclusive. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; $s\\le20$</strong>: This caps speed at 20 mph — far below any real cruising speed. &#10007;</li><li><strong>Choice B &mdash; $s\\le150$</strong>: Only an upper bound; allows speeds below 150 and excludes speeds up to 170. &#10007;</li><li><strong>Choice C &mdash; $s\\le170$</strong>: Only an upper bound; allows any speed below 170 but ignores the lower bound of 150. &#10007;</li><li><strong>Choice D &mdash; $150\\le s\\le170$</strong>: Exactly captures both bounds — speed is between 150 and 170 inclusive. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
     }
   ]
 }

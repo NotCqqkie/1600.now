@@ -9,11 +9,11 @@
     },
     {
       "title": "Read the intercepts",
-      "content": "The shown line crosses the $x$-axis at $(3,0)$ and the $y$-axis at $(0,-5)$. Choice A, $5x-3y=15$, has those same intercepts: setting $y=0$ gives $x=3$, and setting $x=0$ gives $y=-5$."
+      "content": "The shown line crosses the $x$-axis at $(3,0)$ and the $y$-axis at $(0,-5)$. The matching choice, $5x-3y=15$, has those same intercepts: setting $y=0$ gives $x=3$, and setting $x=0$ gives $y=-5$."
     },
     {
       "title": "Eliminate the other equations",
-      "content": "Choice B has the signs reversed, so its intercepts are $(-3,0)$ and $(0,5)$. Choices C and D swap the intercept sizes because the coefficients of $x$ and $y$ are reversed. Only choice <strong>A</strong> matches the graph."
+      "content": "A choice with the signs reversed, so its intercepts are $(-3,0)$ and $(0,5)$. The other choices swap the intercept sizes because the coefficients of $x$ and $y$ are reversed. Only the matching choice matches the graph."
     }
   ]
 }

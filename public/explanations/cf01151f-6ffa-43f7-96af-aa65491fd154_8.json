@@ -1,1 +1,15 @@
-{"questionId":"cf01151f-6ffa-43f7-96af-aa65491fd154_8","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks for one way <em>The Antelope Woman</em> <strong>differs from most of Erdrich&rsquo;s work</strong>. The passage says her typical work focuses on everyday life in Ojibwe communities. <em>The Antelope Woman</em> is described as fantasy fiction set in an urban Indigenous community in Minneapolis &mdash; not a rural Ojibwe community."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;Its main characters are Ojibwe&rsquo;</strong>: the passage does not say this distinguishes it from her typical work. Her other novels also feature Ojibwe characters. &#10007;</li><li><strong>Choice B &mdash; &lsquo;It isn&rsquo;t set in a rural Ojibwe community&rsquo;</strong>: directly supported by the passage. Erdrich&rsquo;s typical work portrays life in Ojibwe communities (rural North Dakota setting of <em>Tracks</em> is given as the example), while <em>The Antelope Woman</em> is set in urban Minneapolis. &#10003;</li><li><strong>Choice C &mdash; &lsquo;It has been adapted into a movie&rsquo;</strong>: not mentioned anywhere in the passage. &#10007;</li><li><strong>Choice D &mdash; &lsquo;It contains very little dialogue&rsquo;</strong>: not mentioned anywhere in the passage. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "cf01151f-6ffa-43f7-96af-aa65491fd154_8",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks for one way <em>The Antelope Woman</em> <strong>differs from most of Erdrich&rsquo;s work</strong>. The passage says her typical work focuses on everyday life in Ojibwe communities. <em>The Antelope Woman</em> is described as fantasy fiction set in an urban Indigenous community in Minneapolis &mdash; not a rural Ojibwe community."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Its main characters are Ojibwe.</strong>: the passage does not say this distinguishes it from her typical work. Her other novels also feature Ojibwe characters. &#10007;</li><li><strong>Choice B &mdash; It isn't set in a rural Ojibwe community.</strong>: directly supported by the passage. Erdrich&rsquo;s typical work portrays life in Ojibwe communities (rural North Dakota setting of <em>Tracks</em> is given as the example), while <em>The Antelope Woman</em> is set in urban Minneapolis. &#10003;</li><li><strong>Choice C &mdash; It has been adapted into a movie.</strong>: not mentioned anywhere in the passage. &#10007;</li><li><strong>Choice D &mdash; It contains very little dialogue.</strong>: not mentioned anywhere in the passage. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

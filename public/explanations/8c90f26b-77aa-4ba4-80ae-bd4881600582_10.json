@@ -1,1 +1,15 @@
-{"questionId":"8c90f26b-77aa-4ba4-80ae-bd4881600582_10","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks which coral is least suited to a full migration to the mesophotic zone (which begins at 30 m). The coral farthest from reaching 30 m — the one with the lowest maximum depth — would be the least capable of making that migration."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; coral with a maximum depth of 25 m</strong>: closer to 30 m than Plerogyra discus; not the most limited. &#10007;</li><li><strong>Choice B &mdash; Plerogyra discus (maximum depth 15 m)</strong>: the shallowest maximum depth among the choices — the farthest from the 30 m mesophotic threshold. &#10003;</li><li><strong>Choice C &mdash; coral with a maximum depth of 40 m</strong>: already reaches the mesophotic zone. &#10007;</li><li><strong>Choice D &mdash; coral cited by minimum depth</strong>: minimum depth shows where the coral starts, not how deep it can go — irrelevant to reaching the mesophotic zone. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "8c90f26b-77aa-4ba4-80ae-bd4881600582_10",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks which coral is least suited to a full migration to the mesophotic zone (which begins at 30 m). The coral farthest from reaching 30 m — the one with the lowest maximum depth — would be the least capable of making that migration."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; *Agaricia undata*, because its minimum depth of 20 meters is in the shallow zone.</strong>: closer to 30 m than Plerogyra discus; not the most limited. &#10007;</li><li><strong>Choice B &mdash; *Plerogyra discus*, because its maximum depth of 15 meters is furthest from the mesophotic zone.</strong>: the shallowest maximum depth among the choices — the farthest from the 30 m mesophotic threshold. &#10003;</li><li><strong>Choice C &mdash; *Acropora echinata*, because its maximum depth of 25 meters is close to but doesn't reach the mesophotic zone.</strong>: already reaches the mesophotic zone. &#10007;</li><li><strong>Choice D &mdash; *Psammocora albopicta*, because its minimum depth of 1 meter is the shallowest of those listed.</strong>: minimum depth shows where the coral starts, not how deep it can go — irrelevant to reaching the mesophotic zone. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

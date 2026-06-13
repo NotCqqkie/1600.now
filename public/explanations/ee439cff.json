@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; '35r + 40j &gt; 220'</strong>: Uses the correct coefficients but the wrong inequality direction &mdash; this would mean the total exceeds 220 miles. &#10007;</li><li><strong>Choice B &mdash; '35r + 40j &lt; 220'</strong>: Rhett&rsquo;s distance (35r) plus Jessica&rsquo;s distance (40j) is less than 220 miles &mdash; exactly the given constraint. &#10003;</li><li><strong>Choice C &mdash; '40r + 35j &gt; 220'</strong>: Swaps the speeds (assigns 40 to Rhett and 35 to Jessica) and uses the wrong inequality direction. &#10007;</li><li><strong>Choice D &mdash; '40r + 35j &lt; 220'</strong>: Has the correct inequality direction but swaps Rhett&rsquo;s and Jessica&rsquo;s speeds. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "<ul><li><strong>\"$35r+40j\\gt 220$\"</strong>: Uses the correct coefficients but the wrong inequality direction &mdash; this would mean the total exceeds 220 miles. &#10007;</li><li><strong>\"$35r+40j\\lt 220$\"</strong>: Rhett&rsquo;s distance (35r) plus Jessica&rsquo;s distance (40j) is less than 220 miles &mdash; exactly the given constraint. &#10003;</li><li><strong>\"$40r+35j\\gt 220$\"</strong>: Swaps the speeds (assigns 40 to Rhett and 35 to Jessica) and uses the wrong inequality direction. &#10007;</li><li><strong>\"$40r+35j\\lt 220$\"</strong>: Has the correct inequality direction but swaps Rhett&rsquo;s and Jessica&rsquo;s speeds. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
     }
   ]
 }

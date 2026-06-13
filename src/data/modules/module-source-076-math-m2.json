@@ -348,7 +348,7 @@
     "difficulty": "Medium",
     "question_number": 14,
     "test_name": "Module Source 076 Math M2",
-    "passage": "$p^{\\frac{4}{7}} = t^{\\frac{5}{6}}$\nIn the given equation, $p > 1$ and $t > 1$. If $t = p^{2n - 1}$, where $n$ is a constant, what is the value of $n$?",
+    "passage": "$p^{\\frac{4}{7}} = t^{\\frac{5}{6}}$\nIn the given equation, $p \\gt 1$ and $t \\gt 1$. If $t = p^{2n - 1}$, where $n$ is a constant, what is the value of $n$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -395,7 +395,7 @@
     "difficulty": "Easy",
     "question_number": 16,
     "test_name": "Module Source 076 Math M2",
-    "passage": "Which expression is equivalent to $15(x+10)$?",
+    "passage": "Which expression is equivalent to $15\\left(x+10\\right)$?",
     "question_text": null,
     "choices": [
       {
@@ -427,7 +427,7 @@
     "difficulty": "Medium",
     "question_number": 18,
     "test_name": "Module Source 076 Math M2",
-    "passage": "A square map has a side length of 45 inches, and 1 inch on the map represents an actual distance of 13 miles. A smaller version of the same map is printed as a square with the side length 70 % shorter than the side length of the previous map. On the smaller map, which of the following is closest to the actual distance, in miles, represented by 1 inch?",
+    "passage": "A square map has a side length of 45 inches, and 1 inch on the map represents an actual distance of 13 miles. A smaller version of the same map is printed as a square with the side length 70% shorter than the side length of the previous map. On the smaller map, which of the following is closest to the actual distance, in miles, represented by 1 inch?",
     "question_text": null,
     "choices": [
       {
@@ -489,7 +489,7 @@
     "difficulty": "Hard",
     "question_number": 21,
     "test_name": "Module Source 076 Math M2",
-    "passage": "The function $f$ is defined by $f(x)=ab^{\\frac{x}{n}}$, where $a$, $b$, and $n$ are constants, and $b$ and $n$ are integers. If $f(2)=6$ and $f(5)=162$, what is the value of $f(7)$?",
+    "passage": "The function $f$ is defined by $f(x)=a\\cdot b^{\\frac{x}{n}}$, where $a$, $b$, and $n$ are constants, and $b$ and $n$ are integers. If $f(2)=6$ and $f(5)=162$, what is the value of $f(7)$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

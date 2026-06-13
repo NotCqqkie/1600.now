@@ -1,1 +1,15 @@
-{"questionId": "4565a53c", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the clue that the blank should express a question", "content": "The phrase “Michel was determined to find out” indicates the blank should pose the question Michel wanted to answer—whether blueberries could thrive in alkaline soil with iron-solubilizing grasses."}, {"title": "Apply the conventions for question formation", "content": "A proper question uses a question mark (not a period or nothing) and inverted word order (verb before subject). “Could the blueberries thrive?” follows both conventions.<br/><br/>The other choices either use wrong punctuation (A uses a period; B uses none, creating a run-on) or apply statement word order with question punctuation (C).<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "4565a53c",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the clue that the blank should express a question",
+      "content": "The phrase “Michel was determined to find out” indicates the blank should pose the question Michel wanted to answer—whether blueberries could thrive in alkaline soil with iron-solubilizing grasses."
+    },
+    {
+      "title": "Apply the conventions for question formation",
+      "content": "A proper question uses a question mark (not a period or nothing) and inverted word order (verb before subject). “Could the blueberries thrive?” follows both conventions.<br/><br/>The other choices either use wrong punctuation (A uses a period; B uses none, creating a run-on) or apply statement word order with question punctuation (C).<br/><br/><strong>D</strong> is correct."
+    }
+  ]
+}

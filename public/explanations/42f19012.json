@@ -1,9 +1,19 @@
 {
   "qid": "42f19012",
+  "questionId": "42f19012",
   "correctAnswer": "B",
   "steps": [
-    "Recall that $a^{p/q} = \\sqrt[q]{a^p}$. Here the exponent is $\\frac{11}{12}$, so $a^{11/12} = \\sqrt[12]{a^{11}}$.",
-    "To match the form $\\sqrt[n]{a^{132}}$ used in the answer choices, scale the exponent so the numerator becomes 132. Multiply numerator and denominator by 12: $$\\frac{11}{12} = \\frac{11 \\times 12}{12 \\times 12} = \\frac{132}{144}$$ so $a^{11/12} = a^{132/144} = \\sqrt[144]{a^{132}}$.",
-    "Evaluate each choice:<ul><li>A: $\\sqrt[12]{a^{132}} = a^{132/12} = a^{11}$. This equals $a^{11}$, not $a^{11/12}$. Eliminated.</li><li>B: $\\sqrt[144]{a^{132}} = a^{132/144} = a^{11/12}$. This equals the given expression exactly. That matches choice B — <strong>B</strong> is correct.</li><li>C: $\\sqrt[121]{a^{132}} = a^{132/121} = a^{12/11}$. The exponent $12/11 \\neq 11/12$. Eliminated.</li><li>D: $\\sqrt[11]{a^{132}} = a^{132/11} = a^{12}$. This equals $a^{12}$, not $a^{11/12}$. Eliminated.</li></ul>"
+    {
+      "title": "Step 1",
+      "content": "Recall that $a^{p/q} = \\sqrt[q]{a^p}$. Here the exponent is $\\frac{11}{12}$, so $a^{11/12} = \\sqrt[12]{a^{11}}$."
+    },
+    {
+      "title": "Step 2",
+      "content": "To match the form $\\sqrt[n]{a^{132}}$ used in the answer choices, scale the exponent so the numerator becomes 132. Multiply numerator and denominator by 12: $$\\frac{11}{12} = \\frac{11 \\times 12}{12 \\times 12} = \\frac{132}{144}$$ so $a^{11/12} = a^{132/144} = \\sqrt[144]{a^{132}}$."
+    },
+    {
+      "title": "Step 3",
+      "content": "Evaluate each choice:<ul><li>A: $\\sqrt[12]{a^{132}} = a^{132/12} = a^{11}$. This equals $a^{11}$, not $a^{11/12}$. Eliminated.</li><li>B: $\\sqrt[144]{a^{132}} = a^{132/144} = a^{11/12}$. This equals the given expression exactly. <strong>B</strong> is correct.</li><li>C: $\\sqrt[121]{a^{132}} = a^{132/121} = a^{12/11}$. The exponent $12/11 \\neq 11/12$. Eliminated.</li><li>D: $\\sqrt[11]{a^{132}} = a^{132/11} = a^{12}$. This equals $a^{12}$, not $a^{11/12}$. Eliminated.</li></ul>"
+    }
   ]
 }

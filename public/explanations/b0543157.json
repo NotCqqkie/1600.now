@@ -13,7 +13,7 @@
     },
     {
       "title": "Solve for b",
-      "content": "From Step 1: $a = 22b$<br/>From Step 2: $a = 506$<br/>Combine these equations:<br/>$$22b = 506$$<br/>$$b = \\frac{506}{22} = 23$$<br/>That matches choice A — <strong>A</strong> is correct."
+      "content": "From Step 1: $a = 22b$<br/>From Step 2: $a = 506$<br/>Combine these equations:<br/>$$22b = 506$$<br/>$$b = \\frac{506}{22} = 23$$<br/>That is the correct answer."
     }
   ]
 }

@@ -271,19 +271,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "(-7,0)"
+        "text": "$(-7, 0)$"
       },
       {
         "label": "B",
-        "text": "(0,16)"
+        "text": "$(0, 16)$"
       },
       {
         "label": "C",
-        "text": "(0,-16)"
+        "text": "$(0, -16)$"
       },
       {
         "label": "D",
-        "text": "(7,0)"
+        "text": "$(7, 0)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -367,24 +367,24 @@
     "difficulty": "Hard",
     "question_number": 14,
     "test_name": "Module Source 124 Math M2",
-    "passage": "$\\frac{3x^{17}y^{5}}{5x^{2}\\sqrt{y^{8}}}$\n\nFor all positive values of $x$ and $y$, the given expression is equivalent to which of the following?\n\nⅠ. $\\frac{x^{\\frac{14}{3}}y^{\\frac{5}{3}}}{3}$\nⅡ. $\\frac{3x^{11}y^{2}}{5}$",
+    "passage": "$\\frac{3x^{17}y^{5}}{5x^{2}\\sqrt{y^{8}}}$\n\nFor all positive values of $x$ and $y$, the given expression is equivalent to which of the following?\n\nI. $\\frac{x^{\\frac{14}{3}}y^{\\frac{5}{3}}}{3}$\nII. $\\frac{3x^{11}y^{2}}{5}$",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "Ⅰ only"
+        "text": "I only"
       },
       {
         "label": "B",
-        "text": "Ⅱ only"
+        "text": "II only"
       },
       {
         "label": "C",
-        "text": "Ⅰ and Ⅱ"
+        "text": "I and II"
       },
       {
         "label": "D",
-        "text": "Neither Ⅰ nor Ⅱ"
+        "text": "Neither I nor II"
       }
     ],
     "is_fill_in_blank": false,
@@ -431,7 +431,7 @@
     "difficulty": "Medium",
     "question_number": 16,
     "test_name": "Module Source 124 Math M2",
-    "passage": "The length of each edge of a box is $48$ centimeters. Each side of the box is in the shape of a square. The box does not have a lid. What is the exterior surface area, in square <u>meters</u>, of this box without a lid? (1 meter = 100 centimeters)",
+    "passage": "The length of each edge of a box is $48$ centimeters. Each side of the box is in the shape of a square. The box does not have a lid. What is the exterior surface area, in square meters, of this box without a lid? (1 meter = 100 centimeters)",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -493,7 +493,7 @@
     "difficulty": "Easy",
     "question_number": 19,
     "test_name": "Module Source 124 Math M2",
-    "passage": "Which expression is equivalent to $10(x + 3)$?",
+    "passage": "Which expression is equivalent to $10\\left(x + 3\\right)$?",
     "question_text": null,
     "choices": [
       {

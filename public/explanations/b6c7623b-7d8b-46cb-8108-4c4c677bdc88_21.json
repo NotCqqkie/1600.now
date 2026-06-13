@@ -1,1 +1,15 @@
-{"questionId": "b6c7623b-7d8b-46cb-8108-4c4c677bdc88_21", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The blank follows the title <em>Home Ground: A Guide to the American ______</em> and is followed by &apos;by Barry Lopez and Debra Gwartney, the book celebrates...&apos; &mdash; a new independent clause. The blank must close the first sentence and allow the second sentence to begin correctly."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; &apos;<em>Landscape</em>, edited&apos;</strong>: a comma before &apos;edited by Barry Lopez...&apos; leaves both clauses joined only by a comma &mdash; a comma splice. &#10007;</li><li><strong>Choice B &mdash; &apos;<em>Landscape</em> and edited&apos;</strong>: &apos;and edited&apos; creates an awkward non-parallel structure that does not grammatically connect to the rest of the sentence. &#10007;</li><li><strong>Choice C &mdash; &apos;<em>Landscape</em> edited&apos;</strong>: places &apos;edited&apos; immediately after the title with no punctuation, fusing both independent clauses without any separator. &#10007;</li><li><strong>Choice D &mdash; &apos;<em>Landscape</em>. Edited&apos;</strong>: a period ends the first sentence cleanly; &apos;Edited by Barry Lopez and Debra Gwartney,&apos; then works as an introductory participial phrase for the new sentence &apos;the book celebrates...&apos; &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "b6c7623b-7d8b-46cb-8108-4c4c677bdc88_21",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank follows the title <em>Home Ground: A Guide to the American ______</em> and is followed by &apos;by Barry Lopez and Debra Gwartney, the book celebrates...&apos; &mdash; a new independent clause. The blank must close the first sentence and allow the second sentence to begin correctly."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; <em>Landscape</em>, edited</strong>: a comma before &apos;edited by Barry Lopez...&apos; leaves both clauses joined only by a comma &mdash; a comma splice. &#10007;</li><li><strong>Choice B &mdash; <em>Landscape</em> and edited</strong>: &apos;and edited&apos; creates an awkward non-parallel structure that does not grammatically connect to the rest of the sentence. &#10007;</li><li><strong>Choice C &mdash; <em>Landscape</em> edited</strong>: places &apos;edited&apos; immediately after the title with no punctuation, fusing both independent clauses without any separator. &#10007;</li><li><strong>Choice D &mdash; <em>Landscape</em>. Edited</strong>: a period ends the first sentence cleanly; &apos;Edited by Barry Lopez and Debra Gwartney,&apos; then works as an introductory participial phrase for the new sentence &apos;the book celebrates...&apos; &#10003;</li></ul>That is the correct answer."
+    }
+  ]
+}

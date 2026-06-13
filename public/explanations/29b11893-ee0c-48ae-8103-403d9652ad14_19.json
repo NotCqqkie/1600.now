@@ -13,7 +13,7 @@
     },
     {
       "title": "Reject the bad matches",
-      "content": "Graph the wrong-looking choices against the shifted point. Choices B and C use the much flatter slope $\\frac{1}{131}$, so they do not match the original best-fit line's slope. Choice D has the right steeper slope, but at $x=640$ it is far above the shifted point because $26+\\frac{35}{1301}(640)\\approx43.2$.",
+      "content": "Graph the wrong-looking choices against the shifted point. The much flatter slope $\\frac{1}{131}$ does not match the original best-fit line's slope. <strong>Choice D &mdash; $y= 26+\\frac{35}{1,301}x$</strong> has the right steeper slope, but at $x=640$ it is far above the shifted point because $26+\\frac{35}{1301}(640)\\approx43.2$.",
       "desmosExpressions": [
         "y=9+\\frac{1}{131}x",
         "y=18+\\frac{1}{131}x",
@@ -23,7 +23,7 @@
     },
     {
       "title": "Confirm the shifted model",
-      "content": "Choice A keeps the steeper slope and passes near the shifted point: $-3+\\frac{35}{1301}(640)\\approx14.2$. That matches data set Q, so choice <strong>A</strong> is correct.",
+      "content": "<strong>Choice A &mdash; $y=-3+\\frac{35}{1,301}x$</strong> keeps the steeper slope and passes near the shifted point: $-3+\\frac{35}{1301}(640)\\approx14.2$. That matches data set Q, so <strong>Choice A &mdash; $y=-3+\\frac{35}{1,301}x$</strong>.",
       "desmosExpressions": [
         "y=-3+\\frac{35}{1301}x",
         "(640,14)",

@@ -9,7 +9,7 @@
     },
     {
       "title": "Scale to 27 days by multiplying by 27",
-      "content": "For the total distance $x$ over 27 days, multiply each part of the inequality by 27: $$(72)(27) \\leq \\text{(daily distance)}(27) \\leq (77)(27)$$ Since $x$ is the total distance: $$(72)(27) \\leq x \\leq (77)(27)$$ That matches choice B — <strong>B</strong> is correct."
+      "content": "For the total distance $x$ over 27 days, multiply each part of the inequality by 27: $$(72)(27) \\leq \\text{(daily distance)}(27) \\leq (77)(27)$$ Since $x$ is the total distance: $$(72)(27) \\leq x \\leq (77)(27)$$ That confirms <strong>B</strong> is correct."
     }
   ]
 }

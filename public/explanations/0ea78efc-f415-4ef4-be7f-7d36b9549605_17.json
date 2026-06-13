@@ -1,1 +1,15 @@
-{"questionId":"0ea78efc-f415-4ef4-be7f-7d36b9549605_17","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"This is a verb form question. &ldquo;Yet&rdquo; is a coordinating conjunction joining two independent clauses: &ldquo;We came to see the famous artworks&rdquo; and &ldquo;the building itself ______ us the most.&rdquo; The blank must be a finite past-tense verb to complete the second independent clause and match the past-tense verb &ldquo;came&rdquo; in the first clause."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;impressed&rsquo;</strong>: Simple past tense &mdash; a finite verb that can serve as the main verb of an independent clause and agrees in tense with &ldquo;came.&rdquo; &#10003;</li><li><strong>Choice B &mdash; &lsquo;impressing&rsquo;</strong>: Present participle &mdash; a non-finite form that cannot stand alone as a main verb; using it creates a clause fragment with no finite verb. &#10007;</li><li><strong>Choice C &mdash; &lsquo;having impressed&rsquo;</strong>: Perfect participle &mdash; another non-finite form; it cannot function as a main verb and would turn the second clause into a participial phrase rather than an independent clause. &#10007;</li><li><strong>Choice D &mdash; &lsquo;to impress&rsquo;</strong>: Infinitive &mdash; a non-finite form that expresses purpose or intent, not a completed action; it cannot serve as the main verb of an independent clause. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "0ea78efc-f415-4ef4-be7f-7d36b9549605_17",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a verb form question. &ldquo;Yet&rdquo; is a coordinating conjunction joining two independent clauses: &ldquo;We came to see the famous artworks&rdquo; and &ldquo;the building itself ______ us the most.&rdquo; The blank must be a finite past-tense verb to complete the second independent clause and match the past-tense verb &ldquo;came&rdquo; in the first clause."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; impressed</strong>: Simple past tense &mdash; a finite verb that can serve as the main verb of an independent clause and agrees in tense with &ldquo;came.&rdquo; &#10003;</li><li><strong>Choice B &mdash; impressing</strong>: Present participle &mdash; a non-finite form that cannot stand alone as a main verb; using it creates a clause fragment with no finite verb. &#10007;</li><li><strong>Choice C &mdash; having impressed</strong>: Perfect participle &mdash; another non-finite form; it cannot function as a main verb and would turn the second clause into a participial phrase rather than an independent clause. &#10007;</li><li><strong>Choice D &mdash; to impress</strong>: Infinitive &mdash; a non-finite form that expresses purpose or intent, not a completed action; it cannot serve as the main verb of an independent clause. &#10007;</li></ul>That matches <strong>Choice A &mdash; impressed</strong>."
+    }
+  ]
+}

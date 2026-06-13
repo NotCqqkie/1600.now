@@ -1,1 +1,19 @@
-{"questionId": "81a3a607", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Read the context after the colon", "content": "The passage lays out three interlocking roles &mdash; maize supports the bean vines, squash shades out weeds, and beans put nitrogen back into the soil. The blank describes the &quot;web of relations&quot; these roles create."},{"title": "Predict the word", "content": "A web in which multiple parts each support the others is best described as complex and densely interconnected. The blank needs a word meaning &quot;having many interrelated parts.&quot;"},{"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; 'indecipherable'</strong>: means impossible to interpret, but the passage clearly lays the system out, so it is not indecipherable. &#10007;</li><li><strong>Choice B &mdash; 'ornamental'</strong>: means decorative, but the roles described are functional, not aesthetic. &#10007;</li><li><strong>Choice C &mdash; 'obscure'</strong>: means hidden or little known, which clashes with a system being explicitly described and named. &#10007;</li><li><strong>Choice D &mdash; 'intricate'</strong>: means having many interconnected parts, matching three plants whose roles each rely on the others. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "81a3a607",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the context after the colon",
+      "content": "The passage lays out three interlocking roles &mdash; maize supports the bean vines, squash shades out weeds, and beans put nitrogen back into the soil. The blank describes the &quot;web of relations&quot; these roles create."
+    },
+    {
+      "title": "Predict the word",
+      "content": "A web in which multiple parts each support the others is best described as complex and densely interconnected. The blank needs a word meaning &quot;having many interrelated parts.&quot;"
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; indecipherable</strong>: means impossible to interpret, but the passage clearly lays the system out, so it is not indecipherable. &#10007;</li><li><strong>Choice B &mdash; ornamental</strong>: means decorative, but the roles described are functional, not aesthetic. &#10007;</li><li><strong>Choice C &mdash; obscure</strong>: means hidden or little known, which clashes with a system being explicitly described and named. &#10007;</li><li><strong>Choice D &mdash; intricate</strong>: means having many interconnected parts, matching three plants whose roles each rely on the others. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

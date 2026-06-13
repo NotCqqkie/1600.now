@@ -9,7 +9,7 @@
     },
     {
       "title": "Customers at least 40 years old",
-      "content": "The row for customers aged 40 or older shows a total of <strong>105</strong> customers (sum across all visit columns).<br/>The probability is therefore $$ \\frac{105}{135} $$.<br/>That matches choice D — <strong>D</strong> is correct."
+      "content": "The row for customers aged 40 or older shows a total of <strong>105</strong> customers. Probability is favorable outcomes divided by total outcomes, so the probability is $$\\frac{105}{135}.$$ This matches <strong>$\\frac{105}{135}$</strong>, so <strong>D</strong> is correct."
     }
   ]
 }

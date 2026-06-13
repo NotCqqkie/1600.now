@@ -9,7 +9,7 @@
     },
     {
       "title": "Solve for t",
-      "content": "Divide both sides by $(u-3)$:<br/>$$t - 2 = \\frac{6}{u-3}$$<br/>Add 2 to both sides:<br/>$$t = 2 + \\frac{6}{u-3} = \\frac{2(u-3) + 6}{u-3} = \\frac{2u - 6 + 6}{u-3} = \\frac{2u}{u-3}$$<br/>That matches choice D — <strong>D</strong> is correct."
+      "content": "Divide both sides by $(u-3)$:<br/>$$t - 2 = \\frac{6}{u-3}$$<br/>Add 2 to both sides:<br/>$$t = 2 + \\frac{6}{u-3} = \\frac{2(u-3) + 6}{u-3} = \\frac{2u - 6 + 6}{u-3} = \\frac{2u}{u-3}$$<br/>That is the correct answer."
     }
   ]
 }

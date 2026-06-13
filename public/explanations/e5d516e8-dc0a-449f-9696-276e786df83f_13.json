@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; Center $(14, k)$, radius $9$</strong>: From $(x - 14)^2$ the $x$-shift is 14, giving $h = 14$. From $(y - k)^2$ the $y$-shift is $k$. And $r^2 = 81$ means $r = 9$. This matches perfectly. &#10003;</li><li><strong>Choice B &mdash; Center $(k, 14)$, radius $9$</strong>: The coordinates of the center are reversed. The $x$-coordinate of the center is 14, not $k$. &#10007;</li><li><strong>Choice C &mdash; Center $(14, k)$, radius $81$</strong>: The center is correct but the radius is wrong. The equation gives $r^2 = 81$, so $r = 9$, not 81. &#10007;</li><li><strong>Choice D &mdash; Center $(k, 14)$, radius $81$</strong>: Both the center coordinates are reversed and the radius is wrong. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li><strong>\"The center is at $(14, k)$ and the radius is 9.\"</strong>: From $(x - 14)^2$ the $x$-shift is 14, giving $h = 14$. From $(y - k)^2$ the $y$-shift is $k$. And $r^2 = 81$ means $r = 9$. This matches perfectly. &#10003;</li><li><strong>\"The center is at $(k, 14)$ and the radius is 9.\"</strong>: The coordinates of the center are reversed. The $x$-coordinate of the center is 14, not $k$. &#10007;</li><li><strong>\"The center is at $(14, k)$ and the radius is 81.\"</strong>: The center is correct but the radius is wrong. The equation gives $r^2 = 81$, so $r = 9$, not 81. &#10007;</li><li><strong>\"The center is at $(k, 14)$ and the radius is 81.\"</strong>: Both the center coordinates are reversed and the radius is wrong. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
     }
   ]
 }

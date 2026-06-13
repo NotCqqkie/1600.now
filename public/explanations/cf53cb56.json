@@ -9,7 +9,7 @@
     },
     {
       "title": "Calculate the area using triangle decomposition",
-      "content": "Each right triangle has legs of length 5 and 5, so its area is:<br/>$$\\text{Area of one triangle} = \\frac{1}{2} \\times 5 \\times 5 = 12.5 \\text{ square units}$$<br/>The total area of the square is the sum of all 4 triangles:<br/>$$\\text{Total area} = 4 \\times 12.5 = 50 \\text{ square units}$$<br/>That matches choice C — <strong>C</strong> is correct."
+      "content": "Each right triangle has legs of length 5 and 5, so its area is:<br/>$$\\text{Area of one triangle} = \\frac{1}{2} \\times 5 \\times 5 = 12.5 \\text{ square units}$$<br/>The total area of the square is the sum of all 4 triangles:<br/>$$\\text{Total area} = 4 \\times 12.5 = 50 \\text{ square units}$$<br/>That is the correct answer."
     }
   ]
 }

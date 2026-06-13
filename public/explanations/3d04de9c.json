@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Backsolving choice B",
-      "content": "Backsolving — testing choice B (20):<br/>$$\\text{Total flags} = \\text{blue} + \\text{yellow} = 20 + 20 = 40$$<br/>Since the problem states there are 25 flags total, 40 ≠ 25, so choice B fails."
+      "title": "Backsolve with 20",
+      "content": "Backsolving with $20$:<br/>$$\\text{Total flags} = \\text{blue} + \\text{yellow} = 20 + 20 = 40$$<br/>Since the problem states there are 25 flags total, $40 \\ne 25$, so this test fails."
     },
     {
-      "title": "Backsolving choice A",
-      "content": "Fails. Testing choice A (5):<br/>$$\\text{Total flags} = 20 + 5 = 25$$<br/>This matches the given total of 25 flags.<br/>That matches choice A — <strong>A</strong> is correct."
+      "title": "Backsolve with 5",
+      "content": "Testing $5$:<br/>$$\\text{Total flags} = 20 + 5 = 25$$<br/>This matches the given total of 25 flags.<br/><strong>A</strong> is correct."
     }
   ]
 }

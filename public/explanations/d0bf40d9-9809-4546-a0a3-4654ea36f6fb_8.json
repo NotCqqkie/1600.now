@@ -22,7 +22,7 @@
     },
     {
       "title": "Evaluate all choices",
-      "content": "<ul><li><strong>Choice A &mdash; '$y = 7x + 3$'</strong>: Slope = 7 (parallel to k), passes through (0, 3). &#10003;</li><li><strong>Choice B &mdash; '$y = -3x + 3$'</strong>: Slope = &minus;3, not parallel to k (slope 7). &#10007;</li><li><strong>Choice C &mdash; '$y = -7x + 3$'</strong>: Slope = &minus;7, not parallel to k. &#10007;</li><li><strong>Choice D &mdash; '$y = 3x + 3$'</strong>: Slope = 3, not parallel to k. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; $y = 7x + 3$</strong>: Slope = 7 (parallel to k), passes through (0, 3). &#10003;</li><li><strong>Choice B &mdash; $y = -3x + 3$</strong>: Slope = &minus;3, not parallel to k (slope 7). &#10007;</li><li><strong>Choice C &mdash; $y = -7x + 3$</strong>: Slope = &minus;7, not parallel to k. &#10007;</li><li><strong>Choice D &mdash; $y = 3x + 3$</strong>: Slope = 3, not parallel to k. &#10007;</li></ul>That is the correct answer."
     }
   ]
 }

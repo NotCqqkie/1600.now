@@ -1,1 +1,15 @@
-{"questionId": "6c5588e4-f326-44d2-afd6-39547f4bb40a_5", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the defining claim", "content": "The second clause reveals what the blank must describe: <em>“we will never be able to answer it”</em>—meaning the question is unanswerable."}, {"title": "Match the word to that requirement", "content": "The blank needs to mean unanswerable — something we can never resolve. Substitute each choice:\n<ul>\n<li><strong>Choice A — irresolvable</strong>: \"the question is <em>irresolvable</em>\" — incapable of being settled or answered. The passage says \"we will never be able to answer it,\" so this fits precisely. ✓</li>\n<li><strong>Choice B — self-contradictory</strong>: \"the question is <em>self-contradictory</em>\" — internally inconsistent, containing a logical conflict. The passage gives no hint of internal contradiction; it's unresolvable because evidence is gone forever. ✗</li>\n<li><strong>Choice C — imperative</strong>: \"the question is <em>imperative</em>\" — urgent or essential. The passage explicitly says the opposite: we can never answer it, not that we must. ✗</li>\n<li><strong>Choice D — unavoidable</strong>: \"the question is <em>unavoidable</em>\" — impossible to escape or ignore. But the passage's point is that we can't answer it, not that we can't avoid asking it. ✗</li>\n</ul>\nThat matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "6c5588e4-f326-44d2-afd6-39547f4bb40a_5",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the defining claim",
+      "content": "The second clause reveals what the blank must describe: <em>“we will never be able to answer it”</em>—meaning the question is unanswerable."
+    },
+    {
+      "title": "Match the word to that requirement",
+      "content": "The blank needs to mean unanswerable — something we can never resolve. Substitute each choice:\n<ul>\n<li><strong>Choice A &mdash; &lsquo;irresolvable&rsquo;</strong>: \"the question is <em>irresolvable</em>\" — incapable of being settled or answered. The passage says \"we will never be able to answer it,\" so this fits precisely. ✓</li>\n<li><strong>Choice B &mdash; &lsquo;self-contradictory&rsquo;</strong>: \"the question is <em>self-contradictory</em>\" — internally inconsistent, containing a logical conflict. The passage gives no hint of internal contradiction; it's unresolvable because evidence is gone forever. ✗</li>\n<li><strong>Choice C &mdash; &lsquo;imperative&rsquo;</strong>: \"the question is <em>imperative</em>\" — urgent or essential. The passage explicitly says the opposite: we can never answer it, not that we must. ✗</li>\n<li><strong>Choice D &mdash; &lsquo;unavoidable&rsquo;</strong>: \"the question is <em>unavoidable</em>\" — impossible to escape or ignore. But the passage's point is that we can't answer it, not that we can't avoid asking it. ✗</li>\n</ul>\nThat confirms <strong>A</strong> is correct."
+    }
+  ]
+}

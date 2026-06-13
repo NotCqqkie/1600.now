@@ -1,1 +1,15 @@
-{"questionId": "406baf08-71da-41c0-bc3d-ddc2c25258ba_3", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find what the narrator was supposed to do", "content": "The passage states: <strong>&ldquo;I was supposed to memorize the whole thing.&rdquo;</strong> That expectation &mdash; performing from memory without looking at the sheet music &mdash; is the standard being violated when the narrator glances up to see the next notes. &ldquo;Cheating&rdquo; refers specifically to breaking that rule."}, {"title": "Eliminate each wrong choice, then confirm the answer", "content": "<ul><li><strong>Choice A &mdash; &lsquo;She was violating an expectation about how to perform the piece.&rsquo;</strong>: The expectation (memorize and play without looking) is stated directly in the text; glancing at the notes violates it. &#10003;</li><li><strong>Choice B &mdash; &lsquo;She was gaining an unfair advantage over other contestants in the talent show.&rsquo;</strong>: Nothing in the passage links looking at the music to gaining an advantage over other performers; the contest is never the focus. &#10007;</li><li><strong>Choice C &mdash; &lsquo;She was deceiving her piano teacher.&rsquo;</strong>: No teacher is present in the scene, and the narrator makes no mention of hiding her behavior from anyone. &#10007;</li><li><strong>Choice D &mdash; &lsquo;She was lying to herself about her musical ability.&rsquo;</strong>: The narrator daydreams about being elsewhere but never claims or denies having a certain level of ability. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "406baf08-71da-41c0-bc3d-ddc2c25258ba_3",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find what the narrator was supposed to do",
+      "content": "The passage states: <strong>&ldquo;I was supposed to memorize the whole thing.&rdquo;</strong> That expectation &mdash; performing from memory without looking at the sheet music &mdash; is the standard being violated when the narrator glances up to see the next notes. &ldquo;Cheating&rdquo; refers specifically to breaking that rule."
+    },
+    {
+      "title": "Eliminate each wrong choice, then confirm the answer",
+      "content": "<ul><li><strong>Choice A — She was violating an expectation about how to perform the piece.</strong>: The expectation (memorize and play without looking) is stated directly in the text; glancing at the notes violates it. &#10003;</li><li><strong>Choice B — She was gaining an unfair advantage over other contestants in the talent show.</strong>: Nothing in the passage links looking at the music to gaining an advantage over other performers; the contest is never the focus. &#10007;</li><li><strong>Choice C — She was deceiving her piano teacher.</strong>: No teacher is present in the scene, and the narrator makes no mention of hiding her behavior from anyone. &#10007;</li><li><strong>Choice D — She was lying to herself about her musical ability.</strong>: The narrator daydreams about being elsewhere but never claims or denies having a certain level of ability. &#10007;</li></ul><strong>A</strong> is correct."
+    }
+  ]
+}

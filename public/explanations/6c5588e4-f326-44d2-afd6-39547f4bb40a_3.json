@@ -1,1 +1,15 @@
-{"questionId":"6c5588e4-f326-44d2-afd6-39547f4bb40a_3","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence opens with 'Though,' setting up a contrast between many prior studies and the researchers' 'novel path.' The blank describes the prior studies, which must be the opposite of novel &mdash; standard and expected."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'eccentric'</strong>: Eccentric means unusual or odd, which would make the prior studies as unconventional as the researchers' new approach &mdash; eliminating the contrast entirely. &#10007;</li><li><strong>Choice B &mdash; 'meager'</strong>: Meager means scarce or insufficient; the passage says 'many' prior studies exist, so scarcity is contradicted by the text. &#10007;</li><li><strong>Choice C &mdash; 'conventional'</strong>: Conventional means following established norms. This creates the precise contrast with 'novel' that 'Though' signals. &#10003;</li><li><strong>Choice D &mdash; 'random'</strong>: Random implies no systematic design, which is irrelevant to the contrast the sentence draws. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "6c5588e4-f326-44d2-afd6-39547f4bb40a_3",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence opens with 'Though,' setting up a contrast between many prior studies and the researchers' 'novel path.' The blank describes the prior studies, which must be the opposite of novel &mdash; standard and expected."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;eccentric&rsquo;</strong>: Eccentric means unusual or odd, which would make the prior studies as unconventional as the researchers' new approach &mdash; eliminating the contrast entirely. &#10007;</li><li><strong>Choice B &mdash; &lsquo;meager&rsquo;</strong>: Meager means scarce or insufficient; the passage says 'many' prior studies exist, so scarcity is contradicted by the text. &#10007;</li><li><strong>Choice C &mdash; &lsquo;conventional&rsquo;</strong>: Conventional means following established norms. This creates the precise contrast with 'novel' that 'Though' signals. &#10003;</li><li><strong>Choice D &mdash; &lsquo;random&rsquo;</strong>: Random implies no systematic design, which is irrelevant to the contrast the sentence draws. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

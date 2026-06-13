@@ -9,7 +9,7 @@
     },
     {
       "title": "Set up a proportion and solve for SR",
-      "content": "From the similarity, all pairs of corresponding sides have the same ratio:<br/>$$\\frac{QR}{SR} = \\frac{QP}{ST}$$<br/>Substitute the given lengths:<br/>$$\\frac{25}{SR} = \\frac{15}{14}$$<br/>Cross-multiply:<br/>$$15 \\cdot SR = 25 \\cdot 14$$<br/>$$SR = \\frac{350}{15}$$<br/>That matches choice A — <strong>A</strong> is correct."
+      "content": "From the similarity, all pairs of corresponding sides have the same ratio:<br/>$$\\frac{QR}{SR} = \\frac{QP}{ST}$$<br/>Substitute the given lengths:<br/>$$\\frac{25}{SR} = \\frac{15}{14}$$<br/>Cross-multiply:<br/>$$15 \\cdot SR = 25 \\cdot 14$$<br/>$$SR = \\frac{350}{15}$$<br/><strong>A</strong> is correct."
     }
   ]
 }

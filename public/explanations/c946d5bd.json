@@ -17,7 +17,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice A, $31$, would correspond to a zero of $g$ at $31+28=59$. Choice B, $3$, would correspond to $31$. Choice C, $-2$, would correspond to $26$. None of those are visible zeros of $g$. Choice <strong>D</strong>, $-25$, corresponds to the visible zero $3$ because $-25+28=3$."
+      "content": "Choice A, $31$, would correspond to a zero of $g$ at $31+28=59$. Choice B, $3$, would correspond to $31$. Choice C, $-2$, would correspond to $26$. None of those are visible zeros of $g$. <strong>D</strong>, $-25$, corresponds to the visible zero $3$ because $-25+28=3$."
     }
   ]
 }

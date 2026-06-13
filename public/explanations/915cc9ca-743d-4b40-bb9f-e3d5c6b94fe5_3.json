@@ -13,7 +13,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>A)</strong> The length of the rectangle, in feet. This equals $92w$ by the relationship stated in the problem.</li><li><strong>B)</strong> The area of the rectangle, in square feet. The area is $y=(92w)(w)$, not $92w$ alone.</li><li><strong>C)</strong> The difference between the length and the width. That would be $92w-w=91w$, not $92w$.</li><li><strong>D)</strong> The width of the rectangle, in feet. The width is $w$, not $92w$. That matches choice A &mdash; <strong>A</strong> is correct.</li></ul>"
+      "content": "<ul><li><strong>A)</strong> The length of the rectangle, in feet. This equals $92w$ by the relationship stated in the problem.</li><li><strong>B)</strong> The area of the rectangle, in square feet. The area is $y=(92w)(w)$, not $92w$ alone.</li><li><strong>C)</strong> The difference between the length and the width. That would be $92w-w=91w$, not $92w$.</li><li><strong>D)</strong> The width of the rectangle, in feet. The width is $w$, not $92w$. That confirms <strong>A</strong> is correct.</li></ul>"
     }
   ]
 }

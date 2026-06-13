@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A - '$x^2 + 7a + 8$'</strong>: matches $x^2 + 7a + 8$ exactly. Correct</li><li><strong>Choice B - '$x^2 - 7a - 8$'</strong>: has $-7a$ instead of $+7a$ - wrong sign. Incorrect</li><li><strong>Choice C - '$x^2 + 14a$'</strong>: not produced by this factorization. Incorrect</li><li><strong>Choice D - '$x^2 - 8a$'</strong>: mixes the constants in a way that doesn&apos;t divide the expression. Incorrect</li></ul>That matches choice A - <strong>A</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;$x^2 + 7a + 8$&rsquo;</strong>: matches $x^2 + 7a + 8$ exactly. Correct</li><li><strong>Choice B &mdash; &lsquo;$x^2 - 7a - 8$&rsquo;</strong>: has $-7a$ instead of $+7a$ - wrong sign. Incorrect</li><li><strong>Choice C &mdash; &lsquo;$x^2 + 14a$&rsquo;</strong>: not produced by this factorization. Incorrect</li><li><strong>Choice D &mdash; &lsquo;$x^2 - 8a$&rsquo;</strong>: mixes the constants in a way that doesn&apos;t divide the expression. Incorrect</li></ul>That confirms <strong>A</strong> is correct."
     }
   ]
 }

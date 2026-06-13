@@ -16,7 +16,7 @@
     },
     {
       "title": "Find the form where the exponent becomes 0",
-      "content": "The table shows $f(1)=98$. The coefficient shows $k$ directly only when the exponential factor becomes $1$. Choice C has $x-1$ in the exponent, so at $x=1$ it gives $98(1.4)^0=98$. The coefficient $98$ is exactly $k$.",
+      "content": "The table shows $f(1)=98$. The coefficient shows $k$ directly only when the exponential factor becomes $1$. The matching choice has $x-1$ in the exponent, so at $x=1$ it gives $98(1.4)^0=98$. The coefficient $98$ is exactly $k$.",
       "desmosExpressions": [
         "y=98(1.4)^{x-1}",
         "(1,98)",
@@ -25,7 +25,7 @@
     },
     {
       "title": "Eliminate the shifted forms",
-      "content": "Choice A shows the value at $x=-1$, choice B shows the value at $x=0$, and choice D shows the value at $x=2$. Only choice C shows $f(1)$ as the coefficient. Choice <strong>C</strong> is correct."
+      "content": "A choice showing the value at $x=-1$, a choice showing the value at $x=0$, and a choice showing the value at $x=2$. Only the matching choice shows $f(1)$ as the coefficient. <strong>C</strong> is correct."
     }
   ]
 }

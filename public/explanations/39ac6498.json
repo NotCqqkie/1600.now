@@ -1,1 +1,19 @@
-{"questionId": "39ac6498", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the sentence type", "content": "&quot;What are atmospheric rivers, and how ___&quot; is a direct question with two coordinated interrogative clauses joined by &quot;and.&quot; A direct question must end with a question mark."}, {"title": "Apply question word order", "content": "A direct <em>wh-</em>question requires subject-auxiliary inversion: the auxiliary &quot;do&quot; comes before the subject &quot;they&quot; (&quot;how do they affect&quot;), not after it (&quot;how they do affect,&quot; which is statement order)."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; 'do they affect our weather.'</strong>: violates end-punctuation rule &mdash; a direct question needs a question mark, not a period. &#10007;</li><li><strong>Choice B &mdash; 'they do affect our weather.'</strong>: violates both rules &mdash; statement word order in a question, plus a period instead of a question mark. &#10007;</li><li><strong>Choice C &mdash; 'do they affect our weather?'</strong>: correct subject-auxiliary inversion and a question mark to close the direct question. &#10003;</li><li><strong>Choice D &mdash; 'they do affect our weather?'</strong>: violates word-order rule &mdash; statement order (subject before auxiliary) does not form a direct question. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "39ac6498",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the sentence type",
+      "content": "&quot;What are atmospheric rivers, and how ___&quot; is a direct question with two coordinated interrogative clauses joined by &quot;and.&quot; A direct question must end with a question mark."
+    },
+    {
+      "title": "Apply question word order",
+      "content": "A direct <em>wh-question</em> requires subject-auxiliary inversion: the auxiliary &quot;do&quot; comes before the subject &quot;they&quot; (&quot;how do they affect&quot;), not after it (&quot;how they do affect,&quot; which is statement order)."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A — do they affect our weather.</strong>: violates end-punctuation rule &mdash; a direct question needs a question mark, not a period. &#10007;</li><li><strong>Choice B — they do affect our weather.</strong>: violates both rules &mdash; statement word order in a question, plus a period instead of a question mark. &#10007;</li><li><strong>Choice C — do they affect our weather?</strong>: correct subject-auxiliary inversion and a question mark to close the direct question. &#10003;</li><li><strong>Choice D — they do affect our weather?</strong>: violates word-order rule &mdash; statement order (subject before auxiliary) does not form a direct question. &#10007;</li></ul><strong>C</strong> is correct."
+    }
+  ]
+}

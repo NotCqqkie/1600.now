@@ -1,1 +1,15 @@
-{"questionId": "a45480a1-becb-48bd-a285-d5366355b085_24", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The student&apos;s goal is to emphasize the <strong>order</strong> in which the two works entered the public domain &mdash; which came first, which came second. The notes provide specific years: 2020 for <em>Billy Budd, Sailor</em> and 2021 for <em>The Common Reader</em>. The correct choice must show clear sequence, not just confirm both are now public domain."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'both treated as simultaneous, no dates'</strong>: omits the years and implies both entered at the same time. &#10007;</li><li><strong>Choice B &mdash; 'only 2021 mentioned'</strong>: references only one year and muddles the sequence. &#10007;</li><li><strong>Choice C &mdash; 'explicit sequence with both years'</strong>: states <em>Billy Budd, Sailor</em> &quot;entered the public domain in 2020&quot; and <em>The Common Reader</em> &quot;following in 2021,&quot; establishing unmistakable order. &#10003;</li><li><strong>Choice D &mdash; 'both treated as simultaneous, no dates'</strong>: like A, omits dates and implies simultaneity. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "a45480a1-becb-48bd-a285-d5366355b085_24",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The student&apos;s goal is to emphasize the <strong>order</strong> in which the two works entered the public domain &mdash; which came first, which came second. The notes provide specific years: 2020 for <em>Billy Budd, Sailor</em> and 2021 for <em>The Common Reader</em>. The correct choice must show clear sequence, not just confirm both are now public domain."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; <em>Billy Budd, Sailor</em>, a novella by Herman Melville, and <em>The Common Reader</em>, an essay collection by Virginia Woolf, are both in the public domain.</strong>: omits the years and implies both entered at the same time. &#10007;</li><li><strong>Choice B &mdash; The year was 2021, and the copyrights to <em>Billy Budd, Sailor</em> and <em>The Common Reader</em> had finally expired.</strong>: references only one year and muddles the sequence. &#10007;</li><li><strong>Choice C &mdash; <em>Billy Budd, Sailor</em>, a novella by Herman Melville, entered the public domain in 2020, with Virginia Woolf's essay collection <em>The Common Reader</em> following in 2021.</strong>: states <em>Billy Budd, Sailor</em> &quot;entered the public domain in 2020&quot; and <em>The Common Reader</em> &quot;following in 2021,&quot; establishing unmistakable order. &#10003;</li><li><strong>Choice D &mdash; Though they once were copyrighted works, <em>Billy Budd, Sailor</em> and <em>The Common Reader</em> are now in the public domain.</strong>: like A, omits dates and implies simultaneity. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

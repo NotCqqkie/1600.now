@@ -8,8 +8,8 @@
       "content": "Form ratios of the matching $x$, $y$, and constant terms in $$3x + y = 13$$ and $$4x - y = 15$$. This gives $\\frac{4}{3}\\neq\\frac{-1}{1}$."
     },
     {
-      "title": "Identify the answer",
-      "content": "The coefficient ratios differ, so the lines intersect once — exactly one solution. That matches choice <strong>A</strong> — <strong>A</strong> is correct.",
+      "title": "Graph the two lines to check",
+      "content": "The coefficient ratios differ, so the lines intersect once — exactly one solution. The Desmos graph of the two rewritten lines shows one intersection, confirming <strong>A</strong>.",
       "desmosExpressions": [
         "y = 13 - 3x",
         "y = 4x - 15"

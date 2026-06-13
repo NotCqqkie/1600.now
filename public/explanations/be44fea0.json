@@ -1,1 +1,19 @@
-{"questionId": "be44fea0", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the question type", "content": "This is a transition question. The first sentence says researchers wondered if rapid spread was due to aggressive behavior; the second reveals that the spiders are actually gentle and freeze under disturbance. The relationship is a reversal of the initial hypothesis."}, {"title": "Reason toward the answer", "content": "<em>Instead</em> signals that what was found contradicts what was expected &mdash; precisely the &quot;expected aggression / found gentleness&quot; reversal in the passage."}, {"title": "Eliminate the wrong choices", "content": "<ul><li><strong>Choice A &mdash; 'Therefore,'</strong>: signals a cause-effect conclusion, but the second sentence contradicts rather than follows from the hypothesis. &#10007;</li><li><strong>Choice C &mdash; 'For example,'</strong>: signals illustration of the same idea, but gentleness isn't an example of aggression &mdash; it's the opposite. &#10007;</li><li><strong>Choice D &mdash; 'In other words,'</strong>: signals restatement of the same idea, but the second sentence presents the opposite finding, not a paraphrase. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "be44fea0",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the question type",
+      "content": "This is a transition question. The first sentence says researchers wondered if rapid spread was due to aggressive behavior; the second reveals that the spiders are actually gentle and freeze under disturbance. The relationship is a reversal of the initial hypothesis."
+    },
+    {
+      "title": "Reason toward the answer",
+      "content": "<em>Instead</em> signals that what was found contradicts what was expected &mdash; precisely the &quot;expected aggression / found gentleness&quot; reversal in the passage."
+    },
+    {
+      "title": "Eliminate the wrong choices",
+      "content": "<ul><li><strong>Choice A &mdash; Therefore,</strong>: signals a cause-effect conclusion, but the second sentence contradicts rather than follows from the hypothesis. &#10007;</li><li><strong>Choice C &mdash; For example,</strong>: signals illustration of the same idea, but gentleness isn't an example of aggression &mdash; it's the opposite. &#10007;</li><li><strong>Choice D &mdash; In other words,</strong>: signals restatement of the same idea, but the second sentence presents the opposite finding, not a paraphrase. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

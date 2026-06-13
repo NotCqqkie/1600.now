@@ -1,1 +1,15 @@
-{"questionId":"b5bd285b-0705-476c-ac24-58aa076fb71a_17","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"A semicolon joins two independent clauses. The second clause has the subject &apos;this function&apos; and ends with the prepositional phrase &apos;from the biocompatible properties of these particles.&apos; The blank is the main verb of that clause, so it must be a finite (tensed) verb form that agrees with a singular subject."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;stemming&apos;</strong>: a present participle. It cannot serve as the main verb of an independent clause. &#10007;</li><li><strong>Choice B &mdash; &apos;to stem&apos;</strong>: an infinitive. Infinitives cannot be the main verb of a clause. &#10007;</li><li><strong>Choice C &mdash; &apos;stems&apos;</strong>: simple present tense, third-person singular &mdash; agrees with &apos;this function&apos; and functions as a proper finite verb. &#10003;</li><li><strong>Choice D &mdash; &apos;having stemmed&apos;</strong>: a perfect participle. Like &apos;stemming,&apos; it cannot anchor an independent clause. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "b5bd285b-0705-476c-ac24-58aa076fb71a_17",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "A semicolon joins two independent clauses. The second clause has the subject &apos;this function&apos; and ends with the prepositional phrase &apos;from the biocompatible properties of these particles.&apos; The blank is the main verb of that clause, so it must be a finite (tensed) verb form that agrees with a singular subject."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; stemming</strong>: a present participle. It cannot serve as the main verb of an independent clause. &#10007;</li><li><strong>Choice B &mdash; having stemmed</strong>: an infinitive. Infinitives cannot be the main verb of a clause. &#10007;</li><li><strong>Choice C &mdash; stems</strong>: simple present tense, third-person singular &mdash; agrees with &apos;this function&apos; and functions as a proper finite verb. &#10003;</li><li><strong>Choice D &mdash; to stem</strong>: a perfect participle. Like &apos;stemming,&apos; it cannot anchor an independent clause. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

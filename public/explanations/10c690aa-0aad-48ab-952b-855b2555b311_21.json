@@ -9,11 +9,11 @@
     },
     {
       "title": "Solve for x and find the angle measures",
-      "content": "Combine like terms:<br/>$$12x + 144 = 180$$<br/>$$12x = 36$$<br/>$$x = 3$$<br/>Now find the angle measures:<br/>Acute angle = $5(3) + 52 = 67°$<br/>Obtuse angle = $7(3) + 92 = 113°$"
+      "content": "Combine like terms:<br/>$$12x + 144 = 180$$<br/>$$12x = 36$$<br/>$$x = 3$$<br/>Now find the angle measures:<br/>Acute angle = $5(3) + 52 = 67^{\\circ}$<br/>Obtuse angle = $7(3) + 92 = 113^{\\circ}$"
     },
     {
       "title": "Calculate the sum of 2 acute and 3 obtuse angles",
-      "content": "All acute angles in this configuration equal 67°, and all obtuse angles equal 113°. The sum requested is:<br/>$$2(67°) + 3(113°) = 134° + 339° = 473°$$"
+      "content": "All acute angles in this configuration equal 67°, and all obtuse angles equal 113°. The sum requested is:<br/>$$2(67^{\\circ}) + 3(113^{\\circ}) = 134^{\\circ} + 339^{\\circ} = 473^{\\circ}$$"
     }
   ]
 }

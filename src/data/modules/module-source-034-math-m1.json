@@ -38,7 +38,7 @@
     "difficulty": "Easy",
     "question_number": 2,
     "test_name": "Module Source 034 Math M1",
-    "passage": "$25 \\leq x \\leq 65$ represents the speed of the car, in miles per hour, on this part of the trip.",
+    "passage": "The speed of a car on part of a trip is at least 25 miles per hour and at most 65 miles per hour. If $x$ represents the speed of the car, in miles per hour, on this part of the trip, which inequality represents this situation?",
     "question_text": null,
     "choices": [
       {
@@ -481,19 +481,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$y < -4x + 6$"
+        "text": "$y \\lt -4x + 6$"
       },
       {
         "label": "B",
-        "text": "$y < 6x - 4$"
+        "text": "$y \\lt 6x - 4$"
       },
       {
         "label": "C",
-        "text": "$y > -4x + 6$"
+        "text": "$y \\gt -4x + 6$"
       },
       {
         "label": "D",
-        "text": "$y > 6x - 4$"
+        "text": "$y \\gt 6x - 4$"
       }
     ],
     "is_fill_in_blank": false,

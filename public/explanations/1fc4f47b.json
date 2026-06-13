@@ -13,7 +13,7 @@
     },
     {
       "title": "Convert probability to number of customers",
-      "content": "Multiply the probability by the total number of customers:<br/>$$0.28 \\times 350 = 98$$<br/>That matches choice D — <strong>D</strong> is correct."
+      "content": "Multiply the probability by the total number of customers:<br/>$$0.28 \\times 350 = 98$$<br/>That matches <strong>Choice D &mdash; $98$</strong>."
     }
   ]
 }

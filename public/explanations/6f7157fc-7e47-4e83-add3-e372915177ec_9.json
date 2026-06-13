@@ -1,4 +1,5 @@
 {
+  "questionId": "6f7157fc-7e47-4e83-add3-e372915177ec_9",
   "qid": "6f7157fc-7e47-4e83-add3-e372915177ec_9",
   "correctAnswer": "A",
   "steps": [
@@ -12,7 +13,7 @@
       "text": "The coefficient of $y$ is 14, the higher price. Long-sleeved shirts cost more than short-sleeved shirts, so $y$ = number of long-sleeved shirts sold and $x$ = number of short-sleeved shirts sold."
     },
     {
-      "text": "<ul><li><strong>A</strong> &mdash; Number of long-sleeved shirts sold: paired with price $\\$14$, consistent with long-sleeved costing more. That matches choice A &mdash; <strong>A</strong> is correct.</li><li><strong>B</strong> &mdash; Number of short-sleeved shirts sold: short-sleeved would be the cheaper item, corresponding to the $\\$13$ coefficient (the $x$ term), not $y$. Eliminated.</li><li><strong>C</strong> &mdash; Price of each long-sleeved shirt: the variables are quantities, not prices. Eliminated.</li><li><strong>D</strong> &mdash; Price of each short-sleeved shirt: same reason &mdash; variables are quantities. Eliminated.</li></ul>"
+      "text": "<ul><li><strong>A</strong> &mdash; Number of long-sleeved shirts sold: paired with the 14-dollar price, consistent with long-sleeved costing more. That confirms <strong>A</strong> is correct.</li><li><strong>B</strong> &mdash; Number of short-sleeved shirts sold: short-sleeved would be the cheaper item, corresponding to the 13-dollar coefficient (the $x$ term), not $y$. Eliminated.</li><li><strong>C</strong> &mdash; Price of each long-sleeved shirt: the variables are quantities, not prices. Eliminated.</li><li><strong>D</strong> &mdash; Price of each short-sleeved shirt: same reason &mdash; variables are quantities. Eliminated.</li></ul>"
     }
   ]
 }

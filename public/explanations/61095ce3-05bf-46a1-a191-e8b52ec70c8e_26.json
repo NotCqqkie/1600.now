@@ -1,1 +1,15 @@
-{"questionId": "61095ce3-05bf-46a1-a191-e8b52ec70c8e_26", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "What the task requires", "content": "The student must <strong>explain an advantage</strong> of the Spruce Tree House site &mdash; that means naming a specific benefit AND connecting it to a detail from the notes that supports it. Simply mentioning the site or its location is not enough."}, {"title": "Eliminate three, confirm one", "content": "<ul><li><strong>Choice A &mdash; 'Since it was built under a rock overhang, Spruce Tree House was naturally protected from heavy rain and snow.'</strong>: Names the advantage (weather protection) and anchors it to the specific site feature (rock overhang) from the notes. &#10003;</li><li><strong>Choice B &mdash; 'The location of Spruce Tree House...provided an advantage to its inhabitants.'</strong>: States an advantage exists but does not explain what the advantage is. &#10007;</li><li><strong>Choice C &mdash; 'Located in southwestern Colorado, Spruce Tree House is an Ancestral Puebloan dwelling site that was inhabited from approximately 1200-1280 CE.'</strong>: Only reports location and date &mdash; no advantage mentioned at all. &#10007;</li><li><strong>Choice D &mdash; 'The relatively flat terrain on which Spruce Tree House was built allowed for the construction of large terraced buildings.'</strong>: Applies Ansel Hall's details to Spruce Tree House, which had a rock overhang, not flat terrain. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "61095ce3-05bf-46a1-a191-e8b52ec70c8e_26",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "What the task requires",
+      "content": "The student must <strong>explain an advantage</strong> of the Spruce Tree House site &mdash; that means naming a specific benefit AND connecting it to a detail from the notes that supports it. Simply mentioning the site or its location is not enough."
+    },
+    {
+      "title": "Eliminate three, confirm one",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Since it was built under a rock overhang, Spruce Tree House was naturally protected from heavy rain and snow.&rsquo;</strong>: Names the advantage (weather protection) and anchors it to the specific site feature (rock overhang) from the notes. &#10003;</li><li><strong>Choice B &mdash; &lsquo;The location of Spruce Tree House, an Ancestral Puebloan dwelling site in southwestern Colorado, provided an advantage to its inhabitants.&rsquo;</strong>: States an advantage exists but does not explain what the advantage is. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Located in southwestern Colorado, Spruce Tree House is an Ancestral Puebloan dwelling site that was inhabited from approximately 1200-1280 CE.&rsquo;</strong>: Only reports location and date &mdash; no advantage mentioned at all. &#10007;</li><li><strong>Choice D &mdash; &lsquo;The relatively flat terrain on which Spruce Tree House was built allowed for the construction of large terraced buildings.&rsquo;</strong>: Applies Ansel Hall's details to Spruce Tree House, which had a rock overhang, not flat terrain. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

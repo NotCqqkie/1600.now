@@ -13,7 +13,7 @@
     },
     {
       "title": "Match the answer form",
-      "content": "Rewrite $p=c+6$ by subtracting $p$ from both sides: $$c-p=-6.$$ That matches choice A, so <strong>A</strong> is correct."
+      "content": "Rewrite $p=c+6$ by subtracting $p$ from both sides: $$c-p=-6.$$ That matches the computed answer, so <strong>A</strong> is correct."
     }
   ]
 }

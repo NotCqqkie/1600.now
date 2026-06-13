@@ -9,7 +9,7 @@
     },
     {
       "title": "Match the choices",
-      "content": "The line is $f(x)=5x+38$. Choice D has the same y-intercept but slope 48, so it is much too steep. Choices A and C have different intercepts. Therefore choice B is correct."
+      "content": "The line is $f(x)=5x+38$. <strong>Choice D &mdash; $f(x) = 48x + 38$</strong> has the same y-intercept but slope 48, so it is much too steep. The remaining incorrect equations have different intercepts. Therefore <strong>Choice B &mdash; $f(x) = 5x + 38$</strong> is correct."
     },
     {
       "title": "Answer",

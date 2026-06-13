@@ -38,7 +38,7 @@
     "difficulty": "Medium",
     "question_number": 2,
     "test_name": "Module Source 086 Eng M1",
-    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nBecause cyanobacteria and other microphytobenthos (MPB)—microscopic organisms inhabiting tidal flats—are consumed by mussels as well as by certain shorebirds and fish, MPB are ______ estuary ecosystems. Decreased MPB abundance, which may be caused by environmental stressors, thus has a direct, negative impact on coastal food webs.",
+    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nBecause cyanobacteria and other microphytobenthos (MPB)--microscopic organisms inhabiting tidal flats--are consumed by mussels as well as by certain shorebirds and fish, MPB are ______ estuary ecosystems. Decreased MPB abundance, which may be caused by environmental stressors, thus has a direct, negative impact on coastal food webs.",
     "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
     "choices": [
       {
@@ -70,7 +70,7 @@
     "difficulty": "Medium",
     "question_number": 3,
     "test_name": "Module Source 086 Eng M1",
-    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nSome pieces of music might have many meanings—the composition of Charlotte Moorman can ______ as many different interpretations as there are people to listen to them—and so as long as a listener's interpretation isn't willfully absurd or the result of inattention, it is difficult to justify the claim that the listener has misunderstood the piece.",
+    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nSome pieces of music might have many meanings--the composition of Charlotte Moorman can ______ as many different interpretations as there are people to listen to them--and so as long as a listener's interpretation isn't willfully absurd or the result of inattention, it is difficult to justify the claim that the listener has misunderstood the piece.",
     "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
     "choices": [
       {
@@ -436,7 +436,7 @@
     "difficulty": "Medium",
     "question_number": 14,
     "test_name": "Module Source 086 Eng M1",
-    "passage": "Which choice most logically completes the text?\nRudolf Cesaretti et al. conducted an analysis of historical urban scaling trends circa 1300 CE in Western Europe, focusing on agglomeration patterns within medieval settlements. They examined settlements in urban systems across Western Europe, with groupings based on regionally distinct political structures, economic focuses, and spatial constraints—including the aristocratically controlled city-state of Parma in northern Italy, merchant controlled city-states like Goerlitz in Germany, the wool-trading centers of Lincoln and Canterbury in England, and prime trade fair towns like Troyes in France. A prevalent trend emerged: as a city's total settled area increased, so did population density in its core urban areas. This finding implies that ______",
+    "passage": "Which choice most logically completes the text?\nRudolf Cesaretti et al. conducted an analysis of historical urban scaling trends circa 1300 CE in Western Europe, focusing on agglomeration patterns within medieval settlements. They examined settlements in urban systems across Western Europe, with groupings based on regionally distinct political structures, economic focuses, and spatial constraints--including the aristocratically controlled city-state of Parma in northern Italy, merchant controlled city-states like Goerlitz in Germany, the wool-trading centers of Lincoln and Canterbury in England, and prime trade fair towns like Troyes in France. A prevalent trend emerged: as a city's total settled area increased, so did population density in its core urban areas. This finding implies that ______",
     "question_text": "Which choice most logically completes the text?",
     "choices": [
       {
@@ -641,7 +641,7 @@
       },
       {
         "label": "C",
-        "text": "artist—"
+        "text": "artist--"
       },
       {
         "label": "D",

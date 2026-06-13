@@ -1,1 +1,15 @@
-{"questionId":"9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_24","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The first sentence says using \"philo-Publius\" accomplished \"far more than simply concealing his authorship.\" The blank sentence must introduce an explanation of what that \"far more\" actually was — the relationship is elaboration or confirmation, not contrast or addition."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; \"Conversely,\"</strong>: Signals a contradiction or reversal. The second sentence elaborates on the first — it doesn't contradict it. &#10007;</li><li><strong>Choice B &mdash; \"Indeed,\"</strong>: Signals reinforcement and confirmation — the second sentence fulfills the promise of \"far more\" by explaining the deliberate rhetorical strategy. Fits perfectly. &#10003;</li><li><strong>Choice C &mdash; \"In addition,\"</strong>: Signals a new, separate point being added. The second sentence isn't adding a new idea — it's explaining the idea already introduced. &#10007;</li><li><strong>Choice D &mdash; \"However,\"</strong>: Signals a contrast or concession. No contrast exists between the two sentences; they move in the same direction. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_24",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The first sentence says using \"philo-Publius\" accomplished \"far more than simply concealing his authorship.\" The blank sentence must introduce an explanation of what that \"far more\" actually was — the relationship is elaboration or confirmation, not contrast or addition."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Conversely,</strong>: Signals a contradiction or reversal. The second sentence elaborates on the first — it doesn't contradict it. &#10007;</li><li><strong>Choice B &mdash; Indeed,</strong>: Signals reinforcement and confirmation — the second sentence fulfills the promise of \"far more\" by explaining the deliberate rhetorical strategy. Fits perfectly. &#10003;</li><li><strong>Choice C &mdash; In addition,</strong>: Signals a new, separate point being added. The second sentence isn't adding a new idea — it's explaining the idea already introduced. &#10007;</li><li><strong>Choice D &mdash; However,</strong>: Signals a contrast or concession. No contrast exists between the two sentences; they move in the same direction. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

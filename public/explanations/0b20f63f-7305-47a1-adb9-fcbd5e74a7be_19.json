@@ -9,11 +9,11 @@
     },
     {
       "title": "Use the direction of the trend",
-      "content": "Because $y$ increases as $x$ increases, the slope must be positive. Choice B has slope $-1.2$, so it goes the wrong direction."
+      "content": "Because $y$ increases as $x$ increases, the slope must be positive. <strong>Choice B &mdash; $y = 694 - 1.2x$</strong> has slope $-1.2$, so it goes the wrong direction."
     },
     {
       "title": "Choose the remaining model",
-      "content": "Choice A, $y=-694+1.2x$, is the only remaining equation with a positive linear trend. That matches the graph, so <strong>A</strong> is correct."
+      "content": "<strong>Choice A &mdash; $y = -694 + 1.2x$</strong>, $y=-694+1.2x$, is the only remaining equation with a positive linear trend. That matches the graph, so <strong>A</strong> is correct."
     }
   ]
 }

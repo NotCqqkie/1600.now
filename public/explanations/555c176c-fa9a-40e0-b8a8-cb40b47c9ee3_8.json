@@ -13,7 +13,7 @@
     },
     {
       "title": "Answer",
-      "content": "<strong>C</strong> is correct."
+      "content": "<strong>C</strong> is correct. The absolute value makes $g(-10)$ positive before it is used inside $f$, so the final calculation uses $127$, not $-127$."
     }
   ]
 }

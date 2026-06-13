@@ -102,7 +102,7 @@
     "difficulty": "Medium",
     "question_number": 4,
     "test_name": "Module Source 146 Math M2",
-    "passage": "A model predicts that the population of a certain town was 3,000 in 2007. The model also predicts that each year for the next 5 years, the population $p$ increased by 8% of the previous year's population. Which equation best represents this model, where $a$ is the number of years after 2007, for $x \\leq 5$?",
+    "passage": "A model predicts that the population of a certain town was 3,000 in 2007. The model also predicts that each year for the next 5 years, the population $p$ increased by 8% of the previous year's population. Which equation best represents this model, where $x$ is the number of years after 2007, for $x \\leq 5$?",
     "question_text": null,
     "choices": [
       {
@@ -198,7 +198,7 @@
     "difficulty": "Medium",
     "question_number": 7,
     "test_name": "Module Source 146 Math M2",
-    "passage": "$r=\\sqrt{5w-3}$\nThe given equation relates the real numbers $r$ and $w$, where $w>\\frac{3}{5}$. Which equation correctly expresses $w$ in terms of $r$?",
+    "passage": "$r=\\sqrt{5w-3}$\nThe given equation relates the real numbers $r$ and $w$, where $w \\gt \\frac{3}{5}$. Which equation correctly expresses $w$ in terms of $r$?",
     "question_text": null,
     "choices": [
       {
@@ -477,24 +477,24 @@
     "difficulty": "Medium",
     "question_number": 20,
     "test_name": "Module Source 146 Math M2",
-    "passage": "$6x + 3y = 5$\nThe given equation is one equation in a system of two linear equations. If the system of equations has at least one solution, which of the following equations could be the other equation in the system?\nⅠ. $9x + 4.5y = 7.5$\nⅡ. $9x - 4.5y = 7.5$",
+    "passage": "$6x + 3y = 5$\nThe given equation is one equation in a system of two linear equations. If the system of equations has at least one solution, which of the following equations could be the other equation in the system?\nI. $9x + 4.5y = 7.5$\nII. $9x - 4.5y = 7.5$",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "Ⅰ only"
+        "text": "I only"
       },
       {
         "label": "B",
-        "text": "Ⅱ only"
+        "text": "II only"
       },
       {
         "label": "C",
-        "text": "Ⅰ and Ⅱ"
+        "text": "I and II"
       },
       {
         "label": "D",
-        "text": "Neither Ⅰ nor Ⅱ"
+        "text": "Neither I nor II"
       }
     ],
     "is_fill_in_blank": false,

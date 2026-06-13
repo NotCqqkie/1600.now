@@ -13,7 +13,7 @@
     },
     {
       "title": "Test all four choices",
-      "content": "<ul><li><strong>Choice A &mdash; $-\\frac{9}{2}$</strong>: Different slope; lines would intersect at exactly one point. &#10007;</li><li><strong>Choice B &mdash; $-\\frac{2}{9}$</strong>: Negative of the given slope; lines would intersect at exactly one point. &#10007;</li><li><strong>Choice C &mdash; $\\frac{2}{9}$</strong>: Matches the slope of the given equation. A second equation with this slope and the same $y$-intercept would be identical, giving infinitely many solutions. &#10003;</li><li><strong>Choice D &mdash; $\\frac{9}{2}$</strong>: Different slope; lines would intersect at exactly one point. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.",
+      "content": "<ul><li><strong>Choice A &mdash; $-\\frac{9}{2}$</strong>: Different slope; lines would intersect at exactly one point. &#10007;</li><li><strong>Choice B &mdash; $-\\frac{2}{9}$</strong>: Negative of the given slope; lines would intersect at exactly one point. &#10007;</li><li><strong>Choice C &mdash; $\\frac{2}{9}$</strong>: Matches the slope of the given equation. A second equation with this slope and the same $y$-intercept would be identical, giving infinitely many solutions. &#10003;</li><li><strong>Choice D &mdash; $\\frac{9}{2}$</strong>: Different slope; lines would intersect at exactly one point. &#10007;</li></ul>That confirms <strong>C</strong> is correct.",
       "desmosExpressions": [
         "y = \\frac{2}{9}x + 8"
       ]

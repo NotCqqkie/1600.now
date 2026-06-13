@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the triangle area formula and solve for h",
-      "content": "Use the formula for the area of a triangle: $$\\text{Area} = \\frac{1}{2} \\times \\text{base} \\times \\text{height}$$ Substitute the known values: $$220 = \\frac{1}{2} \\times 10 \\times h$$ Simplify: $$220 = 5h$$ Divide both sides by 5: $$h = 44$$ That matches choice C — <strong>C</strong> is correct.",
+      "content": "Use the formula for the area of a triangle: $$\\text{Area} = \\frac{1}{2} \\times \\text{base} \\times \\text{height}$$ Substitute the known values: $$220 = \\frac{1}{2} \\times 10 \\times h$$ Simplify: $$220 = 5h$$ Divide both sides by 5: $$h = 44$$ That matches the correct answer — <strong>C</strong> is correct.",
       "formula": "$$\\text{Area} = \\frac{1}{2} \\times \\text{base} \\times \\text{height}$$"
     }
   ]

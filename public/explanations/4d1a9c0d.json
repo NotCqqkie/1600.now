@@ -1,1 +1,15 @@
-{"questionId": "4d1a9c0d", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the blank must mean", "content": "The text introduces a model in which tribal nations and research institutions are <em>equal partners</em>. The Crow Tribe&ndash;Montana State University collaboration &mdash; where tribal citizens co-designed the methodology and assist in data collection &mdash; must ______ this model. The blank needs a word meaning &ldquo;serves as a clear example of.&rdquo;"}, {"title": "Eliminate wrong choices and confirm the answer", "content": "<ul><li><strong>Choice A &mdash; 'circumvents'</strong>: &ldquo;Circumvents&rdquo; means avoids or gets around. The collaboration follows the model, not evades it. &#10007;</li><li><strong>Choice B &mdash; 'eclipses'</strong>: &ldquo;Eclipses&rdquo; means overshadows. The collaboration is an instance of the model, not something greater that casts it in shadow. &#10007;</li><li><strong>Choice C &mdash; 'fabricates'</strong>: &ldquo;Fabricates&rdquo; means invents or creates. The model was already established; this collaboration did not create it. &#10007;</li><li><strong>Choice D &mdash; 'exemplifies'</strong>: &ldquo;Exemplifies&rdquo; means serves as a clear example of. Tribal citizens and scientists working together in both design and execution is exactly what equal partnership looks like. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "4d1a9c0d",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the blank must mean",
+      "content": "The text introduces a model in which tribal nations and research institutions are <em>equal partners</em>. The Crow Tribe&ndash;Montana State University collaboration &mdash; where tribal citizens co-designed the methodology and assist in data collection &mdash; must ______ this model. The blank needs a word meaning &ldquo;serves as a clear example of.&rdquo;"
+    },
+    {
+      "title": "Eliminate wrong choices and confirm the answer",
+      "content": "<ul><li><strong>Choice A — circumvents</strong>: &ldquo;Circumvents&rdquo; means avoids or gets around. The collaboration follows the model, not evades it. &#10007;</li><li><strong>Choice B — eclipses</strong>: &ldquo;Eclipses&rdquo; means overshadows. The collaboration is an instance of the model, not something greater that casts it in shadow. &#10007;</li><li><strong>Choice C — fabricates</strong>: &ldquo;Fabricates&rdquo; means invents or creates. The model was already established; this collaboration did not create it. &#10007;</li><li><strong>Choice D — exemplifies</strong>: &ldquo;Exemplifies&rdquo; means serves as a clear example of. Tribal citizens and scientists working together in both design and execution is exactly what equal partnership looks like. &#10003;</li></ul><strong>D</strong> is correct."
+    }
+  ]
+}

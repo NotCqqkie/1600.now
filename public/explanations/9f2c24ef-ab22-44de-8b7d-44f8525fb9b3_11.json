@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply this relationship to find f(8)",
-      "content": "Since $(8, 9)$ is on the graph, we substitute $a = 8$ and $b = 9$ into the relationship $f(a) = b$ to get $f(8) = 9$. That matches choice B — <strong>B</strong> is correct."
+      "content": "Since $(8, 9)$ is on the graph, we substitute $a = 8$ and $b = 9$ into the relationship $f(a) = b$ to get $f(8) = 9$. That confirms <strong>B</strong> is correct."
     }
   ]
 }

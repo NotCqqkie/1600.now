@@ -1,1 +1,15 @@
-{"questionId": "fc2bcc79", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the logical relationship between the sentences", "content": "The first two sentences establish that the Phoenicians were famous for using purple dye. The third sentence adds that the name &quot;Phoenicia&quot; may have meant &quot;land of purple.&quot; The name origin reinforces and deepens the previous point about purple's centrality &mdash; it doesn't contrast with it, sequence it as a final step, or stand apart from it."}, {"title": "Eliminate wrong transitions and confirm the answer", "content": "Test each transition word against that reinforcing relationship:<ul><li><strong>Choice A &mdash; 'In fact,'</strong>: signals that the new information strengthens or doubles down on the previous claim &mdash; the name origin intensifies the point about purple's importance to Phoenician identity. &#10003;</li><li><strong>Choice B &mdash; 'Regardless,'</strong>: signals independence or contrast, implying the name origin doesn't matter to the earlier claim &mdash; the opposite of the actual relationship. &#10007;</li><li><strong>Choice C &mdash; 'Lastly,'</strong>: signals the final item in a sequence or list &mdash; the passage presents no sequence, so this is illogical. &#10007;</li><li><strong>Choice D &mdash; 'On the contrary,'</strong>: signals direct opposition &mdash; the name origin does not contradict the claim that Phoenicians were famous for purple. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "fc2bcc79",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the logical relationship between the sentences",
+      "content": "The first two sentences establish that the Phoenicians were famous for using purple dye. The third sentence adds that the name \"Phoenicia\" may have meant \"land of purple.\" The name origin reinforces and deepens the previous point about purple's centrality &mdash; it doesn't contrast with it, sequence it as a final step, or stand apart from it."
+    },
+    {
+      "title": "Eliminate wrong transitions and confirm the answer",
+      "content": "Test each transition word against that reinforcing relationship:<ul><li><strong>\"In fact,\"</strong>: signals that the new information strengthens or doubles down on the previous claim &mdash; the name origin intensifies the point about purple's importance to Phoenician identity. &#10003;</li><li><strong>\"Regardless,\"</strong>: signals independence or contrast, implying the name origin doesn't matter to the earlier claim &mdash; the opposite of the actual relationship. &#10007;</li><li><strong>\"Lastly,\"</strong>: signals the final item in a sequence or list &mdash; the passage presents no sequence, so this is illogical. &#10007;</li><li><strong>\"On the contrary,\"</strong>: signals direct opposition &mdash; the name origin does not contradict the claim that Phoenicians were famous for purple. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "7a327791", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Understand what the blank must mean", "content": "The passage says Forrest&apos;s tribute passage is a perfect ______ of Faulkner&apos;s style, such that anyone familiar with Faulkner would see the resemblance. The blank must name something that reproduces or closely copies an original&mdash;and fits the admiring context of a tribute.<ul><li><strong>Choice A &mdash; 'forgetting'</strong>: forgetting means failing to remember; a tribute meant to pay homage would not be described as forgetting the style it admires. &#10007;</li><li><strong>Choice B &mdash; 'rejection'</strong>: rejection means dismissing as unworthy; Forrest admired Faulkner, so rejecting his style contradicts the passage. &#10007;</li><li><strong>Choice C &mdash; 'imitation'</strong>: imitation means a reproduction that closely copies something; a perfect imitation of Faulkner&apos;s style would naturally reveal the resemblance described. &#10003;</li><li><strong>Choice D &mdash; 'opinion'</strong>: opinion means a view or judgment; the sentence is not saying the passage expresses a view&mdash;it says the passage stylistically resembles Faulkner&apos;s writing. &#10007;</li></ul>"}, {"title": "Confirm the answer", "content": "Only &ldquo;imitation&rdquo; describes something that reproduces another&apos;s style so closely that observers see the resemblance. That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "7a327791",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Understand what the blank must mean",
+      "content": "The passage says Forrest&apos;s tribute passage is a perfect ______ of Faulkner&apos;s style, such that anyone familiar with Faulkner would see the resemblance. The blank must name something that reproduces or closely copies an original&mdash;and fits the admiring context of a tribute.<ul><li><strong>Choice A &mdash; &lsquo;forgetting&rsquo;</strong>: forgetting means failing to remember; a tribute meant to pay homage would not be described as forgetting the style it admires. &#10007;</li><li><strong>Choice B &mdash; &lsquo;rejection&rsquo;</strong>: rejection means dismissing as unworthy; Forrest admired Faulkner, so rejecting his style contradicts the passage. &#10007;</li><li><strong>Choice C &mdash; &lsquo;imitation&rsquo;</strong>: imitation means a reproduction that closely copies something; a perfect imitation of Faulkner&apos;s style would naturally reveal the resemblance described. &#10003;</li><li><strong>Choice D &mdash; &lsquo;opinion&rsquo;</strong>: opinion means a view or judgment; the sentence is not saying the passage expresses a view&mdash;it says the passage stylistically resembles Faulkner&apos;s writing. &#10007;</li></ul>"
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "Only &ldquo;imitation&rdquo; describes something that reproduces another&apos;s style so closely that observers see the resemblance. That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

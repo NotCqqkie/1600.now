@@ -1,1 +1,15 @@
-{"questionId": "28e9b4c5-9a72-4d33-891e-e8ad04b471bc_12", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The authors claim all people naturally have an emotional attachment to where they live. The correct quotation must address <strong>home</strong> and its <strong>universal emotional power</strong>."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'universal emotional attachment to home'</strong>: &quot;Home is home, to the lowly as well as the great; and no rank, or color destroys its sacred character, its power over the mind, and the affections&quot; directly supports the claim. &#10003;</li><li><strong>Choice B &mdash; 'about Blue Beard'</strong>: a narrative detail unrelated to home&apos;s emotional power. &#10007;</li><li><strong>Choice C &mdash; 'warning against deceptive fame'</strong>: about fame, not home or attachment. &#10007;</li><li><strong>Choice D &mdash; 'restorative sleep'</strong>: addresses sleep, not home. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "28e9b4c5-9a72-4d33-891e-e8ad04b471bc_12",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The authors claim all people naturally have an emotional attachment to where they live. The correct quotation must address <strong>home</strong> and its <strong>universal emotional power</strong>."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; \"Home is home, to the lowly as well as the great; and no rank, or color destroys its sacred character, its power over the mind, and the affections.\"</strong>: This directly supports the claim. &#10003;</li><li><strong>Choice B &mdash; \"Let us, dear reader, remember the punishment of idle curiosity, as taught in the true and affecting history [named] 'Blue Beard;' and, striving to be content with the facts in the case, seek not to lift the veil, which the sensibility of true love, and feminine delicacy, have alike conspired to draw.\"</strong>: a narrative detail unrelated to home&apos;s emotional power. &#10007;</li><li><strong>Choice C &mdash; \"There is often a kind of [deceptive] light, playing around such [famous] names, calculated to dazzle and mislead, by their false lustre, until the eye can no longer receive the pure light of Truth, or the mind appreciate real excellence, or intrinsic worth.\"</strong>: about fame, not home or attachment. &#10007;</li><li><strong>Choice D &mdash; \"Blessed are the slumbers of the innocent! They are kindlier than balm, and they refresh and gladden the spirit of childhood, like ministerings from a better world.\"</strong>: addresses sleep, not home. &#10007;</li></ul>That matches <strong>Choice A &mdash; \"Home is home, to the lowly as well as the great; and no rank, or color destroys its sacred character, its power over the mind, and the affections.\"</strong>."
+    }
+  ]
+}

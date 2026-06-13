@@ -1,21 +1,22 @@
 {
+  "questionId": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_12",
   "qid": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_12",
   "steps": [
     {
-      "step": "Identify the greatest common factor (GCF) of $9x^6$ and $63x^2$. The GCF of 9 and 63 is 9, and the GCF of $x^6$ and $x^2$ is $x^2$, so the overall GCF is $9x^2$.",
-      "result": "GCF = $9x^2$"
+      "title": "Find the greatest common factor",
+      "content": "Identify the greatest common factor (GCF) of $9x^6$ and $63x^2$. The GCF of 9 and 63 is 9, and the GCF of $x^6$ and $x^2$ is $x^2$, so the overall GCF is $9x^2$.<br/><br/><strong>Result:</strong> GCF = $9x^2$"
     },
     {
-      "step": "Factor $9x^2$ out of the expression: $9x^6 - 63x^2 = 9x^2 \\cdot x^4 - 9x^2 \\cdot 7 = 9x^2(x^4 - 7)$.",
-      "result": "$9x^2(x^4-7)$"
+      "title": "Factor the expression",
+      "content": "Factor $9x^2$ out of the expression: $9x^6 - 63x^2 = 9x^2 \\cdot x^4 - 9x^2 \\cdot 7 = 9x^2(x^4 - 7)$.<br/><br/><strong>Result:</strong> $9x^2(x^4-7)$"
     },
     {
-      "step": "Verify by expanding: $9x^2 \\cdot x^4 = 9x^6$ and $9x^2 \\cdot 7 = 63x^2$, so $9x^2(x^4-7) = 9x^6 - 63x^2$. Confirmed.",
-      "result": "Factored form is correct"
+      "title": "Check by expanding",
+      "content": "Verify by expanding: $9x^2 \\cdot x^4 = 9x^6$ and $9x^2 \\cdot 7 = 63x^2$, so $9x^2(x^4-7) = 9x^6 - 63x^2$. Confirmed.<br/><br/><strong>Result:</strong> Factored form is correct"
     },
     {
-      "step": "<ul><li>Choice A: $9(x^3-7x^2)^2$. Expanding gives $9(x^6 - 14x^5 + 49x^4)$, which introduces $x^5$ and $x^4$ terms not in the original. Eliminated.</li><li>Choice B: $x^2(9x-7)^4$. Raising $(9x-7)$ to the fourth power yields a polynomial with five terms; multiplied by $x^2$ this cannot simplify to just two terms. Eliminated.</li><li>Choice C: $9x^2(x-7)^4$. Expanding $(x-7)^4$ gives $x^4 - 28x^3 + 294x^2 - 1372x + 2401$; after multiplying by $9x^2$ there are far more terms than the original expression. Eliminated.</li><li>Choice D: $9x^2(x^4-7) = 9x^6 - 63x^2$. Matches exactly. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>",
-      "result": "D"
+      "title": "Compare with the choices",
+      "content": "<ul><li><strong>\"$\\left(9\\right)(x^3 - 7x^2)^2$\"</strong>: Expanding gives $\\left(9\\right)(x^6 - 14x^5 + 49x^4)$, which introduces $x^5$ and $x^4$ terms not in the original. Eliminated.</li><li><strong>\"$x^2(9x - 7)^4$\"</strong>: Raising $(9x-7)$ to the fourth power yields a polynomial with five terms; multiplied by $x^2$ this cannot simplify to just two terms. Eliminated.</li><li><strong>\"$9x^2(x - 7)^4$\"</strong>: Expanding $(x-7)^4$ gives $x^4 - 28x^3 + 294x^2 - 1372x + 2401$; after multiplying by $9x^2$ there are far more terms than the original expression. Eliminated.</li><li><strong>\"$9x^2(x^4 - 7)$\"</strong>: Matches exactly. That matches the correct answer — <strong>D</strong> is correct.</li></ul><br/><br/><strong>Result:</strong> D"
     }
   ],
   "correctAnswer": "D"

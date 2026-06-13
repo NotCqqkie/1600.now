@@ -13,7 +13,7 @@
     },
     {
       "title": "Interpret x",
-      "content": "Since $2x$ equals the trees in the park and 2 is the park's area in hectares, $x$ must be the number of trees per hectare:<br/>$$x = \\frac{\\text{trees in park}}{2} = \\text{trees per hectare in park}$$<br/>This is the average number of trees per hectare in the park.<br/><br/>That matches choice A — <strong>A</strong> is correct."
+      "content": "Since $2x$ equals the trees in the park and 2 is the park's area in hectares, $x$ must be the number of trees per hectare:<br/>$$x = \\frac{\\text{trees in park}}{2} = \\text{trees per hectare in park}$$<br/>This is the average number of trees per hectare in the park.<br/><br/>That matches <strong>Choice A &mdash; The average number of trees per hectare in the park</strong>."
     }
   ]
 }

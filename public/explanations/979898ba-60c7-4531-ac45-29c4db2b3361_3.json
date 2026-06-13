@@ -1,4 +1,5 @@
 {
+  "questionId": "979898ba-60c7-4531-ac45-29c4db2b3361_3",
   "qid": "979898ba-60c7-4531-ac45-29c4db2b3361_3",
   "correctAnswer": "B",
   "steps": [
@@ -9,10 +10,10 @@
       "explanation": "Multiply both sides by $2k$: $10k = 40$. Divide both sides by 10: $k = 4$."
     },
     {
-      "explanation": "Verify: with $k = 4$, the ratio 40 to $2(4) = 8$ simplifies to $\\frac{40}{8} = 5$, which equals $\\frac{10}{2} = 5$. The ratios are equivalent."
+      "explanation": "Verify: with $k = 4$, the ratio 40 to ${2}(4) = 8$ simplifies to $\\frac{40}{8} = 5$, which equals $\\frac{10}{2} = 5$. The ratios are equivalent."
     },
     {
-      "explanation": "<ul><li>Choice A: $k = 0.5$ $\\Rightarrow$ $2k = 1$ $\\Rightarrow$ ratio 40 to 1 = 40 &ne; 5. Eliminated.</li><li>Choice B: $k = 4$ $\\Rightarrow$ $2k = 8$ $\\Rightarrow$ ratio 40 to 8 = 5 = 10 to 2. That matches choice B &mdash; <strong>B</strong> is correct.</li><li>Choice C: $k = 8$ $\\Rightarrow$ $2k = 16$ $\\Rightarrow$ ratio 40 to 16 = 2.5 &ne; 5. Eliminated.</li><li>Choice D: $k = 80$ $\\Rightarrow$ $2k = 160$ $\\Rightarrow$ ratio 40 to 160 = 0.25 &ne; 5. Eliminated.</li></ul>"
+      "explanation": "<ul><li><strong>Choice A &mdash; $0.5$</strong>: Then $2k=1$, so the ratio $40$ to $2k$ is $40$ to $1$, or $40$, not $5$. &#10007;</li><li><strong>Choice B &mdash; $4$</strong>: Then $2k=8$, so the ratio $40$ to $2k$ is $40$ to $8$, or $5$, matching $10$ to $2$. &#10003;</li><li><strong>Choice C &mdash; $8$</strong>: Then $2k=16$, so the ratio is $40$ to $16$, or $2.5$, not $5$. &#10007;</li><li><strong>Choice D &mdash; $80$</strong>: Then $2k=160$, so the ratio is $40$ to $160$, or $0.25$, not $5$. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId": "302c1069-d3cf-4e1c-b0bd-57e018252a85_16", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The blank is the main verb for the subject &apos;more writers from Chad, including Lamko.&apos; The phrase &apos;including Lamko&apos; is a parenthetical &mdash; strip it out and the core subject is the plural noun phrase &apos;more writers from Chad.&apos; A plural subject needs a plural verb."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'have begun'</strong>: Plural verb &mdash; agrees with &apos;more writers.&apos; &#10003;</li><li><strong>Choice B &mdash; 'is beginning'</strong>: Singular verb &mdash; does not agree with the plural subject. &#10007;</li><li><strong>Choice C &mdash; 'has begun'</strong>: Singular verb &mdash; does not agree with the plural subject. &#10007;</li><li><strong>Choice D &mdash; 'begins'</strong>: Singular verb &mdash; does not agree with the plural subject. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "302c1069-d3cf-4e1c-b0bd-57e018252a85_16",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank is the main verb for the subject &apos;more writers from Chad, including Lamko.&apos; The phrase &apos;including Lamko&apos; is a parenthetical &mdash; strip it out and the core subject is the plural noun phrase &apos;more writers from Chad.&apos; A plural subject needs a plural verb."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — have begun</strong>: Plural verb &mdash; agrees with &apos;more writers.&apos; &#10003;</li><li><strong>Choice B — is beginning</strong>: Singular verb &mdash; does not agree with the plural subject. &#10007;</li><li><strong>Choice C — has begun</strong>: Singular verb &mdash; does not agree with the plural subject. &#10007;</li><li><strong>Choice D — begins</strong>: Singular verb &mdash; does not agree with the plural subject. &#10007;</li></ul><strong>A</strong> is correct."
+    }
+  ]
+}

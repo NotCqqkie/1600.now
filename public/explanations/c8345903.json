@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Identify complementary arcs and use the arc length formula",
-      "content": "Arc <em>ADC</em> and arc <em>ABC</em> are two different paths from point A to point C around the circle. Together, they form the complete circumference: Arc <em>ADC</em> + Arc <em>ABC</em> = 2πr. We're given arc <em>ADC</em> = 5π. The angle x = 100° represents the central angle that corresponds to arc <em>ADC</em>.<br/><br/>Using the arc length formula $\\text{Arc length} = \\frac{\\text{central angle}}{360°} \\cdot 2\\pi r$, we can find the radius:<br/>$$5\\pi = \\frac{100°}{360°} \\cdot 2\\pi r$$"
+      "content": "Arc <em>ADC</em> and arc <em>ABC</em> are two different paths from point A to point C around the circle. Together, they form the complete circumference: Arc <em>ADC</em> + Arc <em>ABC</em> = 2πr. We're given arc <em>ADC</em> = 5π. The angle x = 100° represents the central angle that corresponds to arc <em>ADC</em>.<br/><br/>Using the arc length formula $\\text{Arc length} = \\frac{\\text{central angle}}{360^{\\circ}} \\cdot 2\\pi r$, we can find the radius:<br/>$$5\\pi = \\frac{100^{\\circ}}{360^{\\circ}} \\cdot 2\\pi r$$"
     },
     {
       "title": "Solve for the radius and circumference",
@@ -13,7 +13,7 @@
     },
     {
       "title": "Find arc ABC using complementary arcs",
-      "content": "Since arc <em>ADC</em> and arc <em>ABC</em> together form the complete circle:<br/>$$\\text{Arc } ABC = \\text{Circumference} - \\text{Arc } ADC = 18\\pi - 5\\pi = 13\\pi$$<br/>That matches choice B — <strong>B</strong> is correct."
+      "content": "Since arc <em>ADC</em> and arc <em>ABC</em> together form the complete circle:<br/>$$\\text{Arc } ABC = \\text{Circumference} - \\text{Arc } ADC = 18\\pi - 5\\pi = 13\\pi$$<br/>That is the correct answer."
     }
   ]
 }

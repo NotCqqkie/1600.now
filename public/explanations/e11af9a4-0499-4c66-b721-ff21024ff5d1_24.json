@@ -1,1 +1,15 @@
-{"questionId": "e11af9a4-0499-4c66-b721-ff21024ff5d1_24", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Compare the two ideas", "content": "Sentence 1: barnacle movement has been attributed to <em>passive displacement by water currents</em>.<br/><br/>Sentence 2: a study found barnacles moved <em>against the prevailing water flow</em>, consistent with <em>self-initiated locomotion</em>.<br/><br/>The new finding contradicts the old explanation — barnacles can't be passively pushed against the current."}, {"title": "Pick the contrast transition", "content": "<strong>A</strong> (<em>Confirming</em>) and <strong>C</strong> (<em>similar conclusion</em>) wrongly suggest agreement. <strong>B</strong> (<em>Contrary to this phenomenon</em>) is illogical — the new finding is contrary to the <em>explanation</em>, not the phenomenon itself.<br/><br/>Only <strong>D</strong> (<em>Undermining this explanation</em>) captures that the study weakens the passive-displacement hypothesis. <strong>D</strong> is correct."}]}
+{
+  "questionId": "e11af9a4-0499-4c66-b721-ff21024ff5d1_24",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the two ideas",
+      "content": "Sentence 1: barnacle movement has been attributed to <em>passive displacement by water currents</em>.<br/><br/>Sentence 2: a study found barnacles moved <em>against the prevailing water flow</em>, consistent with <em>self-initiated locomotion</em>.<br/><br/>The new finding contradicts the old explanation — barnacles can't be passively pushed against the current."
+    },
+    {
+      "title": "Pick the contrast transition",
+      "content": "<strong>A</strong> (<em>Confirming</em>) and <strong>C</strong> (<em>similar conclusion</em>) wrongly suggest agreement. <strong>B</strong> (<em>Contrary to this phenomenon</em>) is illogical — the new finding is contrary to the <em>explanation</em>, not the phenomenon itself.<br/><br/>Only <strong>D</strong> (<em>Undermining this explanation</em>) captures that the study weakens the passive-displacement hypothesis. <strong>D</strong> is correct."
+    }
+  ]
+}

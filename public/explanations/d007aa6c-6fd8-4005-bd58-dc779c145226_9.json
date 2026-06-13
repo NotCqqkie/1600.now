@@ -1,1 +1,15 @@
-{"questionId": "d007aa6c-6fd8-4005-bd58-dc779c145226_9", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the author's dual claim about income", "content": "The passage critiques the energy ladder model as “reductive,” but then admits: “although income of course constrained fuel choice, several factors, including the type of cooking equipment available, influenced decisions.” The author accepts that income matters but emphasizes that other factors also determine choices."}, {"title": "Match to the answer", "content": "Choice B states that income explains some but not all differences—exactly what the passage argues: income constrains choice, but other factors also matter.<br/><br/>The alternatives mischaracterize: <ul><li>A suggests a different reason (unsupported)</li><li>C denies income affects fuel type</li><li>D denies income has any effect</li></ul>.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "d007aa6c-6fd8-4005-bd58-dc779c145226_9",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the author's dual claim about income",
+      "content": "The passage critiques the energy ladder model as “reductive,” but then admits: “although income of course constrained fuel choice, several factors, including the type of cooking equipment available, influenced decisions.” The author accepts that income matters but emphasizes that other factors also determine choices."
+    },
+    {
+      "title": "Match to the answer",
+      "content": "The correct answer states that income explains some but not all differences—exactly what the passage argues: income constrains choice, but other factors also matter.<br/><br/>The alternatives mischaracterize: <ul><li>A suggests a different reason (unsupported)</li><li>C denies income affects fuel type</li><li>D denies income has any effect</li></ul>.<br/><br/>That is the correct answer."
+    }
+  ]
+}

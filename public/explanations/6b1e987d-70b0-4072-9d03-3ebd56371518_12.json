@@ -13,7 +13,7 @@
     },
     {
       "title": "Pick a valid x",
-      "content": "Among the choices, $x=-32$ appears. That matches choice <strong>A</strong> — <strong>A</strong> is correct."
+      "content": "Among the choices, $x=-32$ appears. The other solution, $x=-33$, is valid algebraically but is not listed as an answer choice. That confirms <strong>A</strong> is correct."
     }
   ]
 }

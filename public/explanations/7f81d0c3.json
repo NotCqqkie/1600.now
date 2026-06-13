@@ -9,7 +9,7 @@
     },
     {
       "title": "Simplify and identify the solutions",
-      "content": "Evaluate the discriminant and simplify:<br/>$$x = \\frac{1 \\pm \\sqrt{1 + 4}}{2} = \\frac{1 \\pm \\sqrt{5}}{2}$$<br/>The two solutions are $x = \\frac{1 + \\sqrt{5}}{2}$ and $x = \\frac{1 - \\sqrt{5}}{2}$. That matches choice C — <strong>C</strong> is correct."
+      "content": "Evaluate the discriminant and simplify:<br/>$$x = \\frac{1 \\pm \\sqrt{1 + 4}}{2} = \\frac{1 \\pm \\sqrt{5}}{2}$$<br/>The two solutions are $x = \\frac{1 + \\sqrt{5}}{2}$ and $x = \\frac{1 - \\sqrt{5}}{2}$. That confirms <strong>C</strong> is correct."
     }
   ]
 }

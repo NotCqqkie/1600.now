@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Recognize the unit rate setup",
-      "content": "When a customer spends a total amount at a constant price per unit, we can find the quantity purchased. Here: Total cost = \\$18, Cost per unit = \\$3 per pound.",
+      "content": "When a customer spends a total amount at a constant price per unit, we can find the quantity purchased. Here: total cost is 18 dollars, and cost per unit is 3 dollars per pound.",
       "formula": "$$\\text{Quantity} = \\frac{\\text{Total Cost}}{\\text{Cost per unit}}$$"
     },
     {

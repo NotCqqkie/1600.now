@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Set up",
-      "content": "Each tablet costs \\$170. Including 7% tax, the cost per tablet is $$170\\times 1.07=181.90.$$ If the school orders $n$ tablets, the total must be no more than \\$3,400: $$181.90n \\leq 3400$$"
+      "content": "Each tablet costs 170 dollars. Including 7% tax, the cost per tablet is $$170\\times 1.07=181.90.$$ If the school orders $n$ tablets, the total must be no more than 3,400 dollars: $$181.90n \\leq 3400$$"
     },
     {
       "title": "Solve",

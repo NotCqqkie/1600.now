@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice C is correct. The other choices are nonzero $x$-values, but these two distinct lines through the origin intersect at $x=0$.",
+      "content": "$0$ is correct. The other choices are nonzero $x$-values, but these two distinct lines through the origin intersect at $x=0$.",
       "desmosExpressions": [
         "y=-x/9",
         "y=x/2"

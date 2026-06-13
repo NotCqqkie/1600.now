@@ -1,1 +1,15 @@
-{"questionId": "e950c225-1224-4691-beae-95b8ff6c7bca_20", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the structural requirement", "content": "After the appositive phrase in dashes, the subject “Several advantages” requires a verb to form an independent clause before the semicolon."}, {"title": "Apply the finite verb rule", "content": "An independent clause requires a finite verb conjugated for person and tense. <strong>Have positioned</strong> is the only finite verb here, and it correctly agrees with the plural subject “advantages” while taking “acoustic waves” as its object.<br/><br/>The other three choices — “having positioned,” “by positioning,” and “positioning” — are all non-finite forms that cannot serve as the main verb of an independent clause.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "e950c225-1224-4691-beae-95b8ff6c7bca_20",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the structural requirement",
+      "content": "After the appositive phrase in dashes, the subject “Several advantages” requires a verb to form an independent clause before the semicolon."
+    },
+    {
+      "title": "Apply the finite verb rule",
+      "content": "An independent clause requires a finite verb conjugated for person and tense. <strong>have positioned</strong> is correct."
+    }
+  ]
+}

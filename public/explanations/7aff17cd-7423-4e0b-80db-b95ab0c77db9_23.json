@@ -1,1 +1,15 @@
-{"questionId":"7aff17cd-7423-4e0b-80db-b95ab0c77db9_23","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank is a transition connecting the popular narrative (large-scale migration to California) with the study&apos;s finding (migrants &apos;merely relocated within the region&apos;). The word &apos;merely&apos; signals that local movement &mdash; not distant migration &mdash; was what actually happened, so the blank must introduce a contrasting, more typical pattern."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;Nevertheless&apos;</strong>: implies direct contradiction, but the study&apos;s finding doesn&apos;t flatly negate the narrative &mdash; it adds nuance about what was more common. &#10007;</li><li><strong>Choice B &mdash; &apos;Additionally&apos;</strong>: implies the finding supplements or supports the narrative rather than complicates it. &#10007;</li><li><strong>Choice C &mdash; &apos;For this reason&apos;</strong>: implies the regional relocation was caused by the narrative, which makes no logical sense. &#10007;</li><li><strong>Choice D &mdash; &apos;More often&apos;</strong>: marks regional relocation as the more typical outcome, directly contrasting with the California-migration narrative without overstating the opposition. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_23",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank is a transition connecting the popular narrative (large-scale migration to California) with the study&apos;s finding (migrants &apos;merely relocated within the region&apos;). The word &apos;merely&apos; signals that local movement &mdash; not distant migration &mdash; was what actually happened, so the blank must introduce a contrasting, more typical pattern."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;nevertheless,&rsquo;</strong>: implies direct contradiction, but the study&apos;s finding doesn&apos;t flatly negate the narrative &mdash; it adds nuance about what was more common. &#10007;</li><li><strong>Choice B &mdash; &lsquo;additionally,&rsquo;</strong>: implies the finding supplements or supports the narrative rather than complicates it. &#10007;</li><li><strong>Choice C &mdash; &lsquo;for this reason,&rsquo;</strong>: implies the regional relocation was caused by the narrative, which makes no logical sense. &#10007;</li><li><strong>Choice D &mdash; &lsquo;more often,&rsquo;</strong>: marks regional relocation as the more typical outcome, directly contrasting with the California-migration narrative without overstating the opposition. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

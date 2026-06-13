@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Locate Bahrain's area in the table",
-      "content": "The question asks for <strong>Bahrain's total area</strong>. I need to find the Bahrain row and read the <strong>\u201cTotal area (square miles)\u201d</strong> column."
+      "content": "The question asks for <strong>Bahrain's total area</strong>. I need to find the Bahrain row and read the <strong>“Total area (square miles)”</strong> column."
     },
     {
       "title": "Read the value and eliminate distractors",
-      "content": "Bahrain's area in the table is <strong>304 square miles</strong>. The other choices either use a different country's values or confuse area with population. That matches choice <strong>C</strong> \u2014 <strong>C</strong> is correct."
+      "content": "Bahrain's area in the table is <strong>304 square miles</strong>. The other choices either use a different country's values or confuse area with population. That is the correct answer."
     }
   ]
 }

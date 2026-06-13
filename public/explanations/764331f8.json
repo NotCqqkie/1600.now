@@ -1,1 +1,15 @@
-{"questionId":"764331f8","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"This is a Text Structure/Function question asking what the underlined sentence does in context. The key is that it immediately follows &ldquo;Day by day, Dot grew stronger&rdquo; &mdash; so the underlined sentence must support or illustrate that claim."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &ldquo;It offers a detail that shows how Dot is growing stronger.&rdquo;</strong>: Dot bouncing for hours in her stroller to develop her leg muscles is a specific physical detail that directly illustrates the previous sentence&rsquo;s claim that she is growing stronger. &#10003;</li><li><strong>Choice B &mdash; &ldquo;It expresses hope that Celestine will mature psychologically.&rdquo;</strong>: The underlined sentence is about Dot&rsquo;s physical activity, not about Celestine at all &mdash; Celestine is not mentioned in it. &#10007;</li><li><strong>Choice C &mdash; &ldquo;It explores some of the narrator&rsquo;s psychological characteristics.&rdquo;</strong>: The underlined sentence describes Dot&rsquo;s behavior in her stroller; the narrator does not appear in it. &#10007;</li><li><strong>Choice D &mdash; &ldquo;It indicates how sad Celestine is by describing a behavior she engages in.&rdquo;</strong>: Dot, not Celestine, is doing the bouncing. The sentence says nothing about Celestine&rsquo;s sadness. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "764331f8",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a Text Structure/Function question asking what the underlined sentence does in context. The key is that it immediately follows &ldquo;Day by day, Dot grew stronger&rdquo; &mdash; so the underlined sentence must support or illustrate that claim."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;It offers a detail that shows how Dot is growing stronger.&rsquo;</strong>: Dot bouncing for hours in her stroller to develop her leg muscles is a specific physical detail that directly illustrates the previous sentence&rsquo;s claim that she is growing stronger. &#10003;</li><li><strong>Choice B &mdash; &lsquo;It expresses hope that Celestine will mature psychologically.&rsquo;</strong>: The underlined sentence is about Dot&rsquo;s physical activity, not about Celestine at all &mdash; Celestine is not mentioned in it. &#10007;</li><li><strong>Choice C &mdash; &lsquo;It explores some of the narrator's psychological characteristics.&rsquo;</strong>: The underlined sentence describes Dot&rsquo;s behavior in her stroller; the narrator does not appear in it. &#10007;</li><li><strong>Choice D &mdash; &lsquo;It indicates how sad Celestine is by describing a behavior she engages in.&rsquo;</strong>: Dot, not Celestine, is doing the bouncing. The sentence says nothing about Celestine&rsquo;s sadness. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the answer",
-      "content": "Choice A has intercept $0$, choice B has slope $3$, and choice C has intercept $0$. Only choice D has slope $69$ and $f(0)=3$. Choice <strong>D</strong> is correct."
+      "content": "Choice A (&lsquo;$f(x) = 3x$&rsquo;) has intercept $0$, choice B (&lsquo;$f(x) = 3x + 3$&rsquo;) has slope $3$, and choice C (&lsquo;$f(x) = 69x$&rsquo;) has intercept $0$. Only the credited option (&lsquo;$f(x) = 69x + 3$&rsquo;) has slope $69$ and $f(0)=3$. <strong>D</strong> is correct."
     }
   ]
 }

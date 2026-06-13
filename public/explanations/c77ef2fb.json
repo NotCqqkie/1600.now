@@ -9,7 +9,7 @@
     },
     {
       "title": "Evaluate Each Choice",
-      "content": "<ul><li><strong>Choice A &mdash; 'H = 1 &minus; V_P/V_B'</strong>: Matches our derived result exactly. &#10003;</li><li><strong>Choice B &mdash; 'H = V_B/V_P'</strong>: This is the reciprocal of $V_P/V_B$, not what we derived. &#10007;</li><li><strong>Choice C &mdash; 'H = 1 + V_B/V_P'</strong>: Sign and ratio direction are both wrong. &#10007;</li><li><strong>Choice D &mdash; 'H = V_B &minus; V_P'</strong>: Dimensionally wrong; H must be a unitless fraction between 0 and 1. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; $H = 1 - \\frac{V_P}{V_B}$</strong>: Matches our derived result exactly. &#10003;</li><li><strong>Choice B &mdash; $H = \\frac{V_B}{V_P}$</strong>: This is the reciprocal of $V_P/V_B$, not what we derived. &#10007;</li><li><strong>Choice C &mdash; $H = 1 + \\frac{V_B}{V_P}$</strong>: Sign and ratio direction are both wrong. &#10007;</li><li><strong>Choice D &mdash; $H = V_B - V_P$</strong>: Dimensionally wrong; H must be a unitless fraction between 0 and 1. &#10007;</li></ul>That is the correct answer."
     }
   ]
 }

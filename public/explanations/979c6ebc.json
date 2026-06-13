@@ -16,7 +16,7 @@
     },
     {
       "title": "Confirm choice D",
-      "content": "For choice D, $x=-\\frac{6r}{7}+\\frac{5}{7}$ and $y=r$. Substituting gives $7\\left(-\\frac{6r}{7}+\\frac{5}{7}\\right)+6r=-6r+5+6r=5$, true for every $r$. Choice <strong>D</strong> is correct."
+      "content": "For choice D, $x=-\\frac{6r}{7}+\\frac{5}{7}$ and $y=r$. Substituting gives $7\\left(-\\frac{6r}{7}+\\frac{5}{7}\\right)+6r=-6r+5+6r=5$, true for every $r$. <strong>D</strong> is correct."
     }
   ]
 }

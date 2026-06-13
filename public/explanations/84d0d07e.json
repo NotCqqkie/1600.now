@@ -9,7 +9,7 @@
     },
     {
       "title": "Translate the spending constraint",
-      "content": "Geoff can spend <em>at most</em> \\$120. The phrase <em>at most</em> means the total spending cannot exceed \\$120, which translates to $\\le$:<br/>$$15s + 25p \\le 120$$<br/>This matches choice A — <strong>A</strong> is correct."
+      "content": "Geoff can spend <em>at most</em> \\$120. The phrase <em>at most</em> means the total spending cannot exceed \\$120, which translates to $\\le$:<br/>$$15s + 25p \\le 120$$<br/>That confirms <strong>A</strong> is correct."
     }
   ]
 }

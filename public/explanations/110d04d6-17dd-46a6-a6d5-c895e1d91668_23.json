@@ -1,1 +1,15 @@
-{"questionId":"110d04d6-17dd-46a6-a6d5-c895e1d91668_23","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"Sentence 1: Barad&apos;s theory rebuts the subject-object divide that has defined scientific epistemology. Sentence 2: the theory represents a paradigmatic shift. The transition must express that sentence 2 <strong>follows as a consequence</strong> of sentence 1 — not an example, contradiction, or caveat."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'For example'</strong>: Introduces exemplification — sentence 2 is not an example of sentence 1. &#10007;</li><li><strong>Choice B &mdash; 'By contrast'</strong>: Signals contradiction — sentence 2 reinforces and extends sentence 1, not opposes it. &#10007;</li><li><strong>Choice C &mdash; 'As such'</strong>: Means &quot;therefore&quot; or &quot;in this manner&quot; — it connects the rebuke (sentence 1) to its logical consequence: a paradigmatic shift (sentence 2). &#10003;</li><li><strong>Choice D &mdash; 'That said'</strong>: Introduces a concession or qualification, but sentence 2 amplifies rather than qualifies sentence 1. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "110d04d6-17dd-46a6-a6d5-c895e1d91668_23",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "Sentence 1: Barad&apos;s theory rebuts the subject-object divide that has defined scientific epistemology. Sentence 2: the theory represents a paradigmatic shift. The transition must express that sentence 2 <strong>follows as a consequence</strong> of sentence 1 — not an example, contradiction, or caveat."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; For example,</strong>: Introduces exemplification — sentence 2 is not an example of sentence 1. &#10007;</li><li><strong>Choice B &mdash; By contrast,</strong>: Signals contradiction — sentence 2 reinforces and extends sentence 1, not opposes it. &#10007;</li><li><strong>Choice C &mdash; As such,</strong>: Means &quot;therefore&quot; or &quot;in this manner&quot; — it connects the rebuke (sentence 1) to its logical consequence: a paradigmatic shift (sentence 2). &#10003;</li><li><strong>Choice D &mdash; That said,</strong>: Introduces a concession or qualification, but sentence 2 amplifies rather than qualifies sentence 1. &#10007;</li></ul>That matches <strong>Choice C &mdash; As such,</strong>."
+    }
+  ]
+}

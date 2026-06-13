@@ -213,7 +213,7 @@
     "difficulty": "Easy",
     "question_number": 8,
     "test_name": "Module Source 057 Math M1",
-    "passage": "In $△DEF$, the measure of $∠D$ is $114°$. Which of the following could be the measure, in degrees, of $∠E$?",
+    "passage": "In $\\triangle DEF$, the measure of $\\angle D$ is $114^\\circ$. Which of the following could be the measure, in degrees, of $\\angle E$?",
     "question_text": null,
     "choices": [
       {
@@ -250,19 +250,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$y>3x+7$"
+        "text": "$y \\gt 3x+7$"
       },
       {
         "label": "B",
-        "text": "$y>3x-7$"
+        "text": "$y \\gt 3x-7$"
       },
       {
         "label": "C",
-        "text": "$y < 3x + 7$"
+        "text": "$y \\lt 3x + 7$"
       },
       {
         "label": "D",
-        "text": "$y < 3x - 7$"
+        "text": "$y \\lt 3x - 7$"
       }
     ],
     "is_fill_in_blank": false,
@@ -557,7 +557,7 @@
     "difficulty": "Hard",
     "question_number": 20,
     "test_name": "Module Source 057 Math M1",
-    "passage": "A rectangular banner has an area of 2,300 square inches. A copy of the banner is made in which the length and width of the original banner are each increased by 20 %. What is the area of the copy, in square inches?",
+    "passage": "A rectangular banner has an area of 2,300 square inches. A copy of the banner is made in which the length and width of the original banner are each increased by 20%. What is the area of the copy, in square inches?",
     "question_text": null,
     "choices": [
       {
@@ -621,7 +621,7 @@
     "difficulty": "Hard",
     "question_number": 22,
     "test_name": "Module Source 057 Math M1",
-    "passage": "$5(kx - n) = -\\frac{65}{14}x - \\frac{85}{18}$\nIn the given equation, $k$ and $n$ are constants and $n > 1$. The equation has no solution. What is the value of $k$?",
+    "passage": "$5(kx - n) = -\\frac{65}{14}x - \\frac{85}{18}$\nIn the given equation, $k$ and $n$ are constants and $n \\gt 1$. The equation has no solution. What is the value of $k$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

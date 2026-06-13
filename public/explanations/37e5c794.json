@@ -1,1 +1,15 @@
-{"questionId": "37e5c794", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the pronoun reference signal", "content": "The key signal is the pronoun <strong>they</strong>, which must refer clearly to commercial plastics.<br/><br/>The passage describes how they are made from nonrenewable petroleum and do not biodegrade—facts about plastics, not problems.<br/><br/>For <strong>they</strong> to have an unambiguous antecedent, the main clause must establish <strong>commercial plastics</strong> as the grammatical subject."}, {"title": "Apply the pronoun reference rule", "content": "Choice D makes <strong>commercial plastics</strong> the grammatical subject with <strong>have two associated problems:</strong>, ensuring the pronoun <strong>they</strong> clearly refers back to plastics.<br/><br/>Choices A and B place <strong>problems</strong> as the grammatical focus, creating ambiguous pronoun reference (do the problems themselves get made from petroleum?), and choice C uses awkward <strong>are that</strong> phrasing instead of a clear construction.<br/><br/>This matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "37e5c794",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the pronoun reference signal",
+      "content": "The key signal is the pronoun <strong>they</strong>, which must refer clearly to commercial plastics.<br/><br/>The passage describes how they are made from nonrenewable petroleum and do not biodegrade—facts about plastics, not problems.<br/><br/>For <strong>they</strong> to have an unambiguous antecedent, the main clause must establish <strong>commercial plastics</strong> as the grammatical subject."
+    },
+    {
+      "title": "Apply the pronoun reference rule",
+      "content": "The correct answer makes <strong>commercial plastics</strong> the grammatical subject with <strong>have two associated problems:</strong>, ensuring the pronoun <strong>they</strong> clearly refers back to plastics.<br/><br/>The other choices place <strong>problems</strong> as the grammatical focus, creating ambiguous pronoun reference (do the problems themselves get made from petroleum?), and using awkward <strong>are that</strong> phrasing instead of a clear construction.<br/><br/>This matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

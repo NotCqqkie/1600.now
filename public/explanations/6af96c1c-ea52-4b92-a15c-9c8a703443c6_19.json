@@ -1,1 +1,15 @@
-{"questionId": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_19", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The passage narrates a historical event in 1613. The verb in the blank must match the tense used throughout: &quot;ignited&quot; is simple past, so the blank must also be simple past."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'has malfunctioned'</strong>: present perfect — describes an action with ongoing relevance to the present, not a completed 1613 event. &#10007;</li><li><strong>Choice B &mdash; 'malfunctioned'</strong>: simple past — matches &quot;ignited&quot; and correctly places this event in 1613. &#10003;</li><li><strong>Choice C &mdash; 'will malfunction'</strong>: future tense — cannot describe something that already happened centuries ago. &#10007;</li><li><strong>Choice D &mdash; 'malfunctions'</strong>: simple present — describes a recurring or current action, not a one-time historical event. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_19",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage narrates a historical event in 1613. The verb in the blank must match the tense used throughout: &quot;ignited&quot; is simple past, so the blank must also be simple past."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;has malfunctioned&rsquo;</strong>: present perfect — describes an action with ongoing relevance to the present, not a completed 1613 event. &#10007;</li><li><strong>Choice B &mdash; &lsquo;malfunctioned&rsquo;</strong>: simple past — matches &quot;ignited&quot; and correctly places this event in 1613. &#10003;</li><li><strong>Choice C &mdash; &lsquo;will malfunction&rsquo;</strong>: future tense — cannot describe something that already happened centuries ago. &#10007;</li><li><strong>Choice D &mdash; &lsquo;malfunctions&rsquo;</strong>: simple present — describes a recurring or current action, not a one-time historical event. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

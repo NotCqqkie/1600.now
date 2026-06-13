@@ -1,1 +1,15 @@
-{"questionId": "1fa751f1", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the observable quality contrast", "content": "The passage opens by noting handedness is “easy to observe in humans,” then states the trait is present but “less ______” in other animals, prompting researchers to use special tasks. The blank must name the reduced version of that same observable quality."}, {"title": "Select the word that echoes observability", "content": "”Recognizable” directly mirrors the “easy to observe” quality from the opening—handedness is recognizable in humans but less recognizable in animals, explaining why special detection tasks are necessary.<br/><br/>The other choices address unrelated properties: interest level, importance, and functionality.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "1fa751f1",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the observable quality contrast",
+      "content": "The passage opens by noting handedness is “easy to observe in humans,” then states the trait is present but “less ______” in other animals, prompting researchers to use special tasks. The blank must name the reduced version of that same observable quality."
+    },
+    {
+      "title": "Select the word that echoes observability",
+      "content": "”Recognizable” directly mirrors the “easy to observe” quality from the opening—handedness is recognizable in humans but less recognizable in animals, explaining why special detection tasks are necessary.<br/><br/>The other choices address unrelated properties: interest level, importance, and functionality.<br/><br/>That matches <strong>Choice A &mdash; recognizable</strong>."
+    }
+  ]
+}

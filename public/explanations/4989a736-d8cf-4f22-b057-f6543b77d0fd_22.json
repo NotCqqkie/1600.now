@@ -1,1 +1,15 @@
-{"questionId":"4989a736-d8cf-4f22-b057-f6543b77d0fd_22","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The first sentence establishes a general claim: Belew had talent for &ldquo;intricately and expertly detailed costume design.&rdquo; The second sentence offers a concrete example of that talent &mdash; the blue rhinestones. The transition must signal that the second sentence is a specific illustration of the general claim already made, not a new time point or a contrasting idea."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;Next,&rsquo;</strong>: Signals a step in a temporal or sequential series. The rhinestones are not the next event in a sequence &mdash; they are an example of the design talent already described. &#10007;</li><li><strong>Choice B &mdash; &lsquo;In particular,&rsquo;</strong>: Signals that what follows is a specific instance of the general point just made. The rhinestones are precisely that: a specific detail illustrating Belew&apos;s careful attention to detail. &#10003;</li><li><strong>Choice C &mdash; &lsquo;Soon,&rsquo;</strong>: Signals a short time later. There is no time gap being described; the second sentence elaborates on the same suit. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Nevertheless,&rsquo;</strong>: Signals contrast or concession. The rhinestones <em>confirm</em> Belew&apos;s skill; they do not contradict anything. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "4989a736-d8cf-4f22-b057-f6543b77d0fd_22",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The first sentence establishes a general claim: Belew had talent for &ldquo;intricately and expertly detailed costume design.&rdquo; The second sentence offers a concrete example of that talent &mdash; the blue rhinestones. The transition must signal that the second sentence is a specific illustration of the general claim already made, not a new time point or a contrasting idea."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — Next,</strong>: Signals a step in a temporal or sequential series. The rhinestones are not the next event in a sequence &mdash; they are an example of the design talent already described. &#10007;</li><li><strong>Choice B — In particular,</strong>: Signals that what follows is a specific instance of the general point just made. The rhinestones are precisely that: a specific detail illustrating Belew&apos;s careful attention to detail. &#10003;</li><li><strong>Choice C — Soon,</strong>: Signals a short time later. There is no time gap being described; the second sentence elaborates on the same suit. &#10007;</li><li><strong>Choice D — Nevertheless,</strong>: Signals contrast or concession. The rhinestones <em>confirm</em> Belew&apos;s skill; they do not contradict anything. &#10007;</li></ul><strong>B</strong> is correct."
+    }
+  ]
+}

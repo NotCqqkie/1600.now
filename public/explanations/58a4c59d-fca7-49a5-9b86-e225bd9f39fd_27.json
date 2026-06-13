@@ -1,1 +1,15 @@
-{"questionId":"58a4c59d-fca7-49a5-9b86-e225bd9f39fd_27","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks which choice best emphasizes a <em>difference</em> between the two lighthouse keepers. That means the correct answer must explicitly contrast Lusby and Austin — not just describe one, and not highlight a similarity."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'similarity'</strong>: emphasizes what the keepers had in common rather than a difference. &#10007;</li><li><strong>Choice B &mdash; 'only Lusby'</strong>: describes only one keeper, so no contrast is drawn between them. &#10007;</li><li><strong>Choice C &mdash; 'earlier century'</strong>: directly compares the two keepers — Lusby served in an earlier century than Austin, an explicit contrast supported by the notes (Lusby: 1844–1862; Austin: 1925–1941). &#10003;</li><li><strong>Choice D &mdash; 'only Austin'</strong>: describes only one keeper, so no contrast is drawn between them. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "58a4c59d-fca7-49a5-9b86-e225bd9f39fd_27",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks which choice best emphasizes a <em>difference</em> between the two lighthouse keepers. That means the correct answer must explicitly contrast Lusby and Austin — not just describe one, and not highlight a similarity."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — Elizabeth Lusby and Thelma Austin both played crucial roles in ensuring safe navigation for watercraft in past centuries.</strong>: emphasizes what the keepers had in common rather than a difference. &#10007;</li><li><strong>Choice B — As the lighthouse keeper at Point Fermin Light, Thelma Austin helped watercraft navigate at night.</strong>: describes only one keeper, so no contrast is drawn between them. &#10007;</li><li><strong>Choice C — Elizabeth Lusby worked as a lighthouse keeper in an earlier century than did Thelma Austin.</strong>: directly compares the two keepers — Lusby served in an earlier century than Austin, an explicit contrast supported by the notes (Lusby: 1844–1862; Austin: 1925–1941). &#10003;</li><li><strong>Choice D — From 1844 to 1862, the nighttime waters of Maryland were made more navigable thanks to Elizabeth Lusby.</strong>: describes only one keeper, so no contrast is drawn between them. &#10007;</li></ul><strong>C</strong> is correct."
+    }
+  ]
+}

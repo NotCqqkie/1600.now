@@ -1,1 +1,15 @@
-{"questionId":"e3edc138","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"This is a transition word question. The first sentence says the field is &quot;divided between dispersalists and vicariancists.&quot; The blank begins a sentence that names those two camps and explains what each believes. The correct transition must signal that the second sentence is clarifying or defining the division just mentioned."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;Furthermore,&rsquo;</strong>: Signals additional information on top of what was said. The sentence doesn't add a new point — it explains the same point (the division). Using &quot;furthermore&quot; implies the two sentences are separate ideas. &#10007;</li><li><strong>Choice B &mdash; &lsquo;By contrast,&rsquo;</strong>: Signals opposition between the two sentences. The second sentence does not contrast with the first; it elaborates on it. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Similarly,&rsquo;</strong>: Signals resemblance to a prior point. There is no parallel idea for the second sentence to mirror; it clarifies the first sentence. &#10007;</li><li><strong>Choice D &mdash; &lsquo;That is,&rsquo;</strong>: Signals a restatement or clarification of the preceding idea — exactly what the second sentence does by spelling out what &quot;divided between dispersalists and vicariancists&quot; means. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "e3edc138",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a transition word question. The first sentence says the field is \"divided between dispersalists and vicariancists.\" The blank begins a sentence that names those two camps and explains what each believes. The correct transition must signal that the second sentence is clarifying or defining the division just mentioned."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"Furthermore,\"</strong>: Signals additional information on top of what was said. The sentence doesn't add a new point — it explains the same point (the division). Using \"furthermore\" implies the two sentences are separate ideas. &#10007;</li><li><strong>\"By contrast,\"</strong>: Signals opposition between the two sentences. The second sentence does not contrast with the first; it elaborates on it. &#10007;</li><li><strong>\"Similarly,\"</strong>: Signals resemblance to a prior point. There is no parallel idea for the second sentence to mirror; it clarifies the first sentence. &#10007;</li><li><strong>\"That is,\"</strong>: Signals a restatement or clarification of the preceding idea — exactly what the second sentence does by spelling out what \"divided between dispersalists and vicariancists\" means. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "843f92af", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structure required", "content": "The sentence reads: &quot;they rest when they need ______ their food.&quot; The finite verb <em>need</em> takes a complement before the direct object <em>their food</em>. In Standard English, <em>need</em> requires a <em>to</em>-infinitive complement &mdash; not a bare verb, a future tense verb, or a gerund."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; 'digest'</strong>: A bare infinitive (or present tense) cannot serve as a complement to <em>need</em>; the sentence lacks the required <em>to</em>. &#10007;</li><li><strong>Choice B &mdash; 'will digest'</strong>: A finite future-tense verb cannot follow <em>need</em> as a complement; two finite verbs cannot stack this way. &#10007;</li><li><strong>Choice C &mdash; 'to digest'</strong>: The <em>to</em>-infinitive is exactly what <em>need</em> requires as a complement, producing the grammatically correct &quot;need to digest their food.&quot; &#10003;</li><li><strong>Choice D &mdash; 'digesting'</strong>: The gerund <em>digesting</em> does not function as a complement to <em>need</em> in Standard English; <em>need digesting</em> carries a passive meaning not intended here. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "843f92af",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure required",
+      "content": "The sentence reads: &quot;they rest when they need ______ their food.&quot; The finite verb <em>need</em> takes a complement before the direct object <em>their food</em>. In Standard English, <em>need</em> requires a <em>to</em>-infinitive complement &mdash; not a bare verb, a future tense verb, or a gerund."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; digest</strong>: A bare infinitive (or present tense) cannot serve as a complement to <em>need</em>; the sentence lacks the required <em>to</em>. &#10007;</li><li><strong>Choice B &mdash; will digest</strong>: A finite future-tense verb cannot follow <em>need</em> as a complement; two finite verbs cannot stack this way. &#10007;</li><li><strong>Choice C &mdash; to digest</strong>: The <em>to</em>-infinitive is exactly what <em>need</em> requires as a complement, producing the grammatically correct &quot;need to digest their food.&quot; &#10003;</li><li><strong>Choice D &mdash; digesting</strong>: The gerund <em>digesting</em> does not function as a complement to <em>need</em> in Standard English; <em>need digesting</em> carries a passive meaning not intended here. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

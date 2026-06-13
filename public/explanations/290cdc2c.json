@@ -9,7 +9,7 @@
     },
     {
       "title": "Check against the choices",
-      "content": "Choice <strong>B</strong> is correct. Choice A treats the exponent like multiplication by $\\dfrac{1}{14}$, choice C multiplies by $14$, and choice D uses the reciprocal exponent idea incorrectly by raising $x$ to the $14$th power."
+      "content": "<strong>Choice B &mdash; $\\sqrt[14]{x}$</strong>. <strong>Choice A &mdash; $\\frac{1}{14}·x$</strong> treats the exponent like multiplication by $\\dfrac{1}{14}$, <strong>Choice C &mdash; $14·x$</strong> multiplies by $14$, and <strong>Choice D &mdash; ${ \\left(x\\right)}^{14}$</strong> uses the reciprocal exponent idea incorrectly by raising $x$ to the $14$th power."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId": "9579581e", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the structural relationship", "content": "The main clause &#x27;divergent strategies for preserving milk [blank]&#x27; is followed by a full independent clause beginning with &#x27;whereas&#x27; that elaborates on what those divergent strategies actually were (rennet-coagulation in Europe/Southwest Asia versus acid-heat coagulation on the steppe)."}, {"title": "Apply the colon rule for elaboration", "content": "A colon introduces an independent clause that elaborates on or explains the preceding statement. Here, the &#x27;whereas&#x27; clause spells out the two divergent strategies, so a colon is the correct punctuation.<ul><li>A (&#x27;emerged&#x27; with no punctuation) creates a fused sentence by jamming two independent clauses together.</li><li>B (&#x27;emerged and&#x27;) is ungrammatical: &#x27;and&#x27; cannot connect to a &#x27;whereas&#x27; clause, and there is still no punctuation to separate the clauses.</li><li>D (&#x27;emerged,&#x27;) creates a comma splice, since a single comma is too weak to join two independent clauses.</li><li>C (&#x27;emerged:&#x27;) correctly introduces the elaborating independent clause.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "9579581e",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the structural relationship",
+      "content": "The main clause &#x27;divergent strategies for preserving milk [blank]&#x27; is followed by a full independent clause beginning with &#x27;whereas&#x27; that elaborates on what those divergent strategies actually were (rennet-coagulation in Europe/Southwest Asia versus acid-heat coagulation on the steppe)."
+    },
+    {
+      "title": "Apply the colon rule for elaboration",
+      "content": "A colon introduces an independent clause that elaborates on or explains the preceding statement. Here, the &#x27;whereas&#x27; clause spells out the two divergent strategies, so a colon is the correct punctuation.<ul><li>A (&#x27;emerged&#x27; with no punctuation) creates a fused sentence by jamming two independent clauses together.</li><li>B (&#x27;emerged and&#x27;) is ungrammatical: &#x27;and&#x27; cannot connect to a &#x27;whereas&#x27; clause, and there is still no punctuation to separate the clauses.</li><li>D (&#x27;emerged,&#x27;) creates a comma splice, since a single comma is too weak to join two independent clauses.</li><li>C (&#x27;emerged:&#x27;) correctly introduces the elaborating independent clause.</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

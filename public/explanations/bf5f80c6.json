@@ -9,11 +9,11 @@
     },
     {
       "title": "Backsolving",
-      "content": "Backsolving — testing choice B $(0, 5)$: Is $5 \\lt -4(0) + 4 = 4$? No, $5 > 4$ fails.<br/><br/>Testing choice A $(-4, 0)$: Is $0 \\lt -4(-4) + 4 = 16 + 4 = 20$? Yes, $0 \\lt 20$ works. That matches choice A — <strong>A</strong> is correct."
+      "content": "Backsolving — testing choice B $(0, 5)$: Is $5 \\lt -4(0) + 4 = 4$? No, $5 \\gt 4$ fails.<br/><br/>Testing choice A $(-4, 0)$: Is $0 \\lt -4(-4) + 4 = 16 + 4 = 20$? Yes, $0 \\lt 20$ works. That is the correct answer."
     },
     {
       "title": "Check the other choices",
-      "content": "Choice B fails because $5$ is not less than $4$. Choice C fails because $1$ is not less than $-4$. Choice D also fails because $-1$ is not less than $-4$. Only choice A satisfies the inequality."
+      "content": "The other points fail the inequality: $(0,5)$ gives $5$ not less than $4$, $(2,1)$ gives $1$ not less than $-4$, and $(2,-1)$ gives $-1$ not less than $-4$. Only $(-4,0)$ satisfies $y \\lt -4x+4$, so <strong>A</strong> is correct."
     }
   ]
 }

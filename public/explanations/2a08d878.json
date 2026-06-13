@@ -9,7 +9,7 @@
     },
     {
       "title": "Compute probability of nonfiction",
-      "content": "Probability equals (number of nonfiction books) divided by (total books). Substitute the values: $$\\frac{n}{n+12}$$.<br/>That matches choice B — <strong>B</strong> is correct."
+      "content": "Probability equals (number of nonfiction books) divided by (total books). Substitute the values: $$\\frac{n}{n+12}$$.<br/>That matches <strong>Choice B &mdash; $\\frac{n}{n + 12}$</strong>."
     }
   ]
 }

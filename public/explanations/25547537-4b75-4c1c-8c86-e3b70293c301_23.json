@@ -1,1 +1,15 @@
-{"questionId":"25547537-4b75-4c1c-8c86-e3b70293c301_23","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank is a transition connecting two sentences: the first says precise standards ensure scientific validity; the second says metrologists developed the SI system based on natural constants. The transition must show cause and effect."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; a contrast word (e.g., &apos;However&apos;)</strong>: The second sentence doesn&apos;t contradict the first &mdash; it follows logically from it. A contrast is wrong. &#10007;</li><li><strong>Choice B &mdash; a word that ignores context</strong>: Doesn&apos;t connect the cause (need for standards) to the effect (SI system). &#10007;</li><li><strong>Choice C &mdash; a word implying additional unrelated information</strong>: Suggests a side point, but the second sentence is the direct result of the first, not an aside. &#10007;</li><li><strong>Choice D &mdash; &apos;For this reason&apos;</strong>: Directly signals that the SI system was developed <em>because</em> precise standards are essential &mdash; a clean cause-to-effect link. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "25547537-4b75-4c1c-8c86-e3b70293c301_23",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank is a transition connecting two sentences: the first says precise standards ensure scientific validity; the second says metrologists developed the SI system based on natural constants. The transition must show cause and effect."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; In contrast,</strong>: The second sentence doesn&apos;t contradict the first &mdash; it follows logically from it. A contrast is wrong. &#10007;</li><li><strong>Choice B &mdash; Regardless,</strong>: Doesn&apos;t connect the cause (need for standards) to the effect (SI system). &#10007;</li><li><strong>Choice C &mdash; In addition,</strong>: Suggests a side point, but the second sentence is the direct result of the first, not an aside. &#10007;</li><li><strong>Choice D &mdash; For this reason,</strong>: Directly signals that the SI system was developed <em>because</em> precise standards are essential &mdash; a clean cause-to-effect link. &#10003;</li></ul>That matches <strong>Choice D &mdash; For this reason,</strong>."
+    }
+  ]
+}

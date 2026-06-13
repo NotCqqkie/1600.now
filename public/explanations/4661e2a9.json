@@ -9,7 +9,7 @@
     },
     {
       "title": "Solve the quadratic and find the complete solutions",
-      "content": "Apply the quadratic formula:<br/>$$x = \\frac{2 \\pm \\sqrt{4 + 8}}{2} = \\frac{2 \\pm 2\\sqrt{3}}{2} = 1 \\pm \\sqrt{3}$$<br/>For each x-value, use $y = x - 1$:<ul><li>When $x = 1 + \\sqrt{3}$: $y = \\sqrt{3}$, giving $(1 + \\sqrt{3}, \\sqrt{3})$</li><li>When $x = 1 - \\sqrt{3}$: $y = -\\sqrt{3}$, giving $(1 - \\sqrt{3}, -\\sqrt{3})$</li></ul>The solution $(1 + \\sqrt{3}, \\sqrt{3})$ matches choice A — <strong>A</strong> is correct."
+      "content": "Apply the quadratic formula:<br/>$$x = \\frac{2 \\pm \\sqrt{4 + 8}}{2} = \\frac{2 \\pm 2\\sqrt{3}}{2} = 1 \\pm \\sqrt{3}$$<br/>For each x-value, use $y = x - 1$:<ul><li>When $x = 1 + \\sqrt{3}$: $y = \\sqrt{3}$, giving $(1 + \\sqrt{3}, \\sqrt{3})$</li><li>When $x = 1 - \\sqrt{3}$: $y = -\\sqrt{3}$, giving $(1 - \\sqrt{3}, -\\sqrt{3})$</li></ul>The solution $(1 + \\sqrt{3}, \\sqrt{3})$ matches the correct answer — <strong>A</strong> is correct."
     }
   ]
 }

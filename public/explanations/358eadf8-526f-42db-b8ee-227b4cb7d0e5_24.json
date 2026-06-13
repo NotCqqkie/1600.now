@@ -1,1 +1,15 @@
-{"questionId": "358eadf8-526f-42db-b8ee-227b4cb7d0e5_24", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The student wants to emphasize a <strong>similarity</strong> between <em>Uros House</em> and <em>Golden Waters</em>. The correct choice must assert something the two sculptures share, not contrast them or describe only one."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; ‘Uros House is an LED light sculpture made by Grimanesa Amoros, as is Golden Waters.’</strong>: Both sculptures are LED light works by the same artist &mdash; this states a genuine shared trait using parallel structure (“as is”). &#10003;</li><li><strong>Choice B &mdash; ‘The smooth LED domes of Grimanesa Amoros’s Uros House stand in contrast to the tangled LED tubes of Golden Waters.’</strong>: “Stand in contrast” is an explicit statement of difference, the opposite of similarity. &#10007;</li><li><strong>Choice C &mdash; ‘Grimanesa Amoros is the artist behind Uros House &mdash; a sculpture made of smooth multicolored LED domes.’</strong>: Describes only <em>Uros House</em> and says nothing about <em>Golden Waters</em>. No comparison is made. &#10007;</li><li><strong>Choice D &mdash; ‘At 118,080 cubic feet in size, Grimanesa Amoros’s Golden Waters cuts a larger figure than the 250-cubic-foot Uros House.’</strong>: Highlights a size difference (larger vs. smaller), which emphasizes a contrast, not a similarity. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "358eadf8-526f-42db-b8ee-227b4cb7d0e5_24",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The student wants to emphasize a <strong>similarity</strong> between <em>Uros House</em> and <em>Golden Waters</em>. The correct choice must assert something the two sculptures share, not contrast them or describe only one."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — *Uros House* is an LED light sculpture made by Grimanesa Amoros, as is *Golden Waters*.</strong>: Both sculptures are LED light works by the same artist &mdash; this states a genuine shared trait using parallel structure (“as is”). &#10003;</li><li><strong>Choice B — The smooth LED domes of Grimanesa Amoros's *Uros House* stand in contrast to the tangled LED tubes of *Golden Waters*.</strong>: “Stand in contrast” is an explicit statement of difference, the opposite of similarity. &#10007;</li><li><strong>Choice C — Grimanesa Amoros is the artist behind *Uros House*—a sculpture made of smooth multicolored LED domes.</strong>: Describes only <em>Uros House</em> and says nothing about <em>Golden Waters</em>. No comparison is made. &#10007;</li><li><strong>Choice D — At 118,080 cubic feet in size, Grimanesa Amoros's *Golden Waters* cuts a larger figure than the 250-cubic-foot *Uros House*.</strong>: Highlights a size difference (larger vs. smaller), which emphasizes a contrast, not a similarity. &#10007;</li></ul><strong>A</strong> is correct."
+    }
+  ]
+}

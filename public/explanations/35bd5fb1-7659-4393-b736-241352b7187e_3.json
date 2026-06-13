@@ -1,18 +1,23 @@
 {
   "qid": "35bd5fb1-7659-4393-b736-241352b7187e_3",
+  "questionId": "35bd5fb1-7659-4393-b736-241352b7187e_3",
   "correctAnswer": "C",
   "steps": [
     {
-      "explanation": "15% of the initial voltage: $0.15 \\times 16 = 2.4$ volts. This is the target level."
+      "title": "Step 1",
+      "content": "15% of the initial voltage: $0.15 \\times 16 = 2.4$ volts. This is the target level."
     },
     {
-      "explanation": "The graph shows exponential decay of the form $V(t) = 16e^{-t/\\tau}$. Setting $V = 2.4$: $e^{-t/\\tau} = 0.15$, so $t = -\\tau \\ln(0.15) \\approx 1.897\\tau$."
+      "title": "Step 2",
+      "content": "The graph shows exponential decay of the form $V(t) = 16e^{-t/\\tau}$. Setting $V = 2.4$: $e^{-t/\\tau} = 0.15$, so $t = -\\tau \\ln(0.15) \\approx 1.897\\tau$."
     },
     {
-      "explanation": "From the graph, the time constant $\\tau$ can be read as the time for the voltage to fall to $16/e \\approx 5.9$ volts. Reading the graph gives $\\tau \\approx 0.90$ seconds, so $t \\approx 1.897 \\times 0.90 \\approx 1.71$ seconds."
+      "title": "Step 3",
+      "content": "From the graph, the time constant $\\tau$ can be read as the time for the voltage to fall to $16/e \\approx 5.9$ volts. Reading the graph gives $\\tau \\approx 0.90$ seconds, so $t \\approx 1.897 \\times 0.90 \\approx 1.71$ seconds."
     },
     {
-      "explanation": "Evaluate each choice:<ul><li>0.43 s: Voltage at 0.43 s is well above 2.4 V (roughly 10.4 V). Eliminated.</li><li>0.85 s: Voltage is still above 2.4 V at this time (roughly 5.9 V). Eliminated.</li><li>1.71 s: Matches the computed time for 15% of initial voltage. That matches choice C &mdash; <strong>C</strong> is correct.</li><li>3.41 s: Voltage has decayed far below 2.4 V by this time. Eliminated.</li></ul>"
+      "title": "Step 4",
+      "content": "Evaluate each choice:<ul><li>0.43 s: Voltage at 0.43 s is well above 2.4 V (roughly 10.4 V). Eliminated.</li><li>0.85 s: Voltage is still above 2.4 V at this time (roughly 5.9 V). Eliminated.</li><li>1.71 s: Matches the computed time for 15% of initial voltage. <strong>C</strong> is correct.</li><li>3.41 s: Voltage has decayed far below 2.4 V by this time. Eliminated.</li></ul>"
     }
   ]
 }

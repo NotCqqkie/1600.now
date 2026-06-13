@@ -9,7 +9,7 @@
     },
     {
       "title": "Find x where Saturn weight equals x% of Jupiter weight",
-      "content": "Set up the proportion where Saturn's weight is $x$% of Jupiter's weight:<br/>$$234.52 = \\frac{x}{100} \\times 556.16$$<br/>Solve for $x$:<br/>$$x = \\frac{234.52}{556.16} \\times 100 \\approx 42.17$$<br/>That matches choice A — <strong>A</strong> is correct."
+      "content": "Set up the proportion where Saturn's weight is $x$% of Jupiter's weight:<br/>$$234.52 = \\frac{x}{100} \\times 556.16$$<br/>Solve for $x$:<br/>$$x = \\frac{234.52}{556.16} \\times 100 \\approx 42.17$$<br/>That confirms <strong>A</strong> is correct."
     }
   ]
 }

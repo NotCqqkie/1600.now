@@ -1,1 +1,15 @@
-{"questionId": "5fe11073-c749-47d4-9e43-2addecd1932f_18", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the blank requires", "content": "The sentence discusses two distinct samples (sample 15 and sample 18), each with its own set of odors and its own primary descriptors. The blank needs a phrase showing that both &quot;samples&quot; and &quot;odors&quot; are plural possessives &mdash; plurals that own something."}, {"title": "Eliminate wrong choices and confirm the match", "content": "<ul><li><strong>Choice A &mdash; 'sample&apos;s odors'</strong>: Uses the singular possessive &quot;sample&apos;s,&quot; indicating only one sample. &#10007;</li><li><strong>Choice B &mdash; 'samples&apos; odor&apos;s'</strong>: Correctly marks &quot;samples&quot; as plural possessive but incorrectly marks &quot;odor&quot; as singular possessive. &#10007;</li><li><strong>Choice C &mdash; 'samples odors&apos;'</strong>: Leaves &quot;samples&quot; without a possessive marker entirely. &#10007;</li><li><strong>Choice D &mdash; 'samples&apos; odors&apos;'</strong>: Both words are plural nouns ending in s with only an apostrophe added &mdash; the correct form for plural possessives in both cases. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "5fe11073-c749-47d4-9e43-2addecd1932f_18",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the blank requires",
+      "content": "The sentence discusses two distinct samples (sample 15 and sample 18), each with its own set of odors and its own primary descriptors. The blank needs a phrase showing that both &quot;samples&quot; and &quot;odors&quot; are plural possessives &mdash; plurals that own something."
+    },
+    {
+      "title": "Eliminate wrong choices and confirm the match",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;sample's odors&rsquo;</strong>: Uses the singular possessive &quot;sample&apos;s,&quot; indicating only one sample. &#10007;</li><li><strong>Choice B &mdash; &lsquo;samples' odor's&rsquo;</strong>: Correctly marks &quot;samples&quot; as plural possessive but incorrectly marks &quot;odor&quot; as singular possessive. &#10007;</li><li><strong>Choice C &mdash; &lsquo;samples odors'&rsquo;</strong>: Leaves &quot;samples&quot; without a possessive marker entirely. &#10007;</li><li><strong>Choice D &mdash; &lsquo;samples' odors'&rsquo;</strong>: Both words are plural nouns ending in s with only an apostrophe added &mdash; the correct form for plural possessives in both cases. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

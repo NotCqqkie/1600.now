@@ -9,7 +9,7 @@
     },
     {
       "title": "Use the scale factor to find XY",
-      "content": "Since $\\overline{TU}$ corresponds to $\\overline{XY}$ and both triangles are similar with scale factor 8, multiply the known side by the scale factor:\n$$XY = TU \\times 8 = 16 \\times 8 = 128$$\nThat matches choice D — <strong>D</strong> is correct."
+      "content": "Since $\\overline{TU}$ corresponds to $\\overline{XY}$ and both triangles are similar with scale factor 8, multiply the known side by the scale factor:\n$$XY = TU \\times 8 = 16 \\times 8 = 128$$\nThat confirms <strong>D</strong> is correct."
     }
   ]
 }

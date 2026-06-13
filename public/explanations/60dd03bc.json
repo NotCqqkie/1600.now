@@ -1,1 +1,19 @@
-{"questionId": "60dd03bc", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the structure around the blank", "content": "The sentence reads &quot;Lake Huron... is home ___ the largest island of them all: Manitoulin Island.&quot; The preposition &quot;to&quot; is followed directly by its object, the noun phrase &quot;the largest island of them all.&quot;"},{"title": "Apply the rule", "content": "A preposition links to its object with no punctuation in between &mdash; you would never write &quot;is home to, the island&quot; or &quot;is home to; the island.&quot; The blank should be just &quot;to&quot; with no extra mark."},{"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; 'to;'</strong>: a semicolon must join two independent clauses, but what follows is a noun phrase, not a clause. &#10007;</li><li><strong>Choice B &mdash; 'to&mdash;'</strong>: a dash would set off a parenthetical or appositive break, but no break belongs between a preposition and its object. &#10007;</li><li><strong>Choice C &mdash; 'to'</strong>: leaves the preposition attached to its object with no intervening punctuation, which is the standard form. &#10003;</li><li><strong>Choice D &mdash; 'to,'</strong>: a comma cannot separate a preposition from the noun phrase it governs. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "60dd03bc",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the structure around the blank",
+      "content": "The sentence reads &quot;Lake Huron... is home ___ the largest island of them all: Manitoulin Island.&quot; The preposition &quot;to&quot; is followed directly by its object, the noun phrase &quot;the largest island of them all.&quot;"
+    },
+    {
+      "title": "Apply the rule",
+      "content": "A preposition links to its object with no punctuation in between &mdash; you would never write &quot;is home to, the island&quot; or &quot;is home to; the island.&quot; The blank should be just &quot;to&quot; with no extra mark."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;to;&rsquo;</strong>: a semicolon must join two independent clauses, but what follows is a noun phrase, not a clause. &#10007;</li><li><strong>Choice B &mdash; &lsquo;to—&rsquo;</strong>: a dash would set off a parenthetical or appositive break, but no break belongs between a preposition and its object. &#10007;</li><li><strong>Choice C &mdash; &lsquo;to&rsquo;</strong>: leaves the preposition attached to its object with no intervening punctuation, which is the standard form. &#10003;</li><li><strong>Choice D &mdash; &lsquo;to,&rsquo;</strong>: a comma cannot separate a preposition from the noun phrase it governs. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

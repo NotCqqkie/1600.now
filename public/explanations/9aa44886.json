@@ -1,1 +1,15 @@
-{"questionId": "9aa44886", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what &quot;quality&quot; refers to", "content": "The passage describes Gatsby balancing on the dashboard with a &quot;resourcefulness of movement that is so peculiarly American.&quot; The very next sentence then says &quot;This quality was continually breaking through his punctilious manner.&quot; The word &quot;This&quot; points directly back to what was just described &mdash; so &quot;quality&quot; names the trait of resourceful, distinctly American movement."}, {"title": "Eliminate each choice", "content": "Each option is a different sense of the word &quot;quality.&quot; Check each against the passage:<ul><li><strong>Choice A &mdash; &apos;Standard&apos;</strong>: Standard refers to a level or degree of excellence &mdash; the passage is not rating how good Gatsby is at something, but naming a trait he has. &#10007;</li><li><strong>Choice B &mdash; &apos;Prestige&apos;</strong>: Prestige means high status or reputation &mdash; the passage describes a physical manner of movement, not social standing. &#10007;</li><li><strong>Choice C &mdash; &apos;Characteristic&apos;</strong>: A characteristic is a distinctive trait or feature &mdash; exactly what &quot;resourcefulness of movement&quot; is. &#10003;</li><li><strong>Choice D &mdash; &apos;Accomplishment&apos;</strong>: Accomplishment means an achievement or feat &mdash; the passage describes an ongoing manner, not something Gatsby completed. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "9aa44886",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what &quot;quality&quot; refers to",
+      "content": "The passage describes Gatsby balancing on the dashboard with a &quot;resourcefulness of movement that is so peculiarly American.&quot; The very next sentence then says &quot;This quality was continually breaking through his punctilious manner.&quot; The word &quot;This&quot; points directly back to what was just described &mdash; so &quot;quality&quot; names the trait of resourceful, distinctly American movement."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "Each option is a different sense of the word &quot;quality.&quot; Check each against the passage:<ul><li><strong>Choice A &mdash; Standard</strong>: Standard refers to a level or degree of excellence &mdash; the passage is not rating how good Gatsby is at something, but naming a trait he has. &#10007;</li><li><strong>Choice B &mdash; Prestige</strong>: Prestige means high status or reputation &mdash; the passage describes a physical manner of movement, not social standing. &#10007;</li><li><strong>Choice C &mdash; Characteristic</strong>: A characteristic is a distinctive trait or feature &mdash; exactly what &quot;resourcefulness of movement&quot; is. &#10003;</li><li><strong>Choice D &mdash; Accomplishment</strong>: Accomplishment means an achievement or feat &mdash; the passage describes an ongoing manner, not something Gatsby completed. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

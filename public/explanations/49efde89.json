@@ -13,7 +13,7 @@
     },
     {
       "title": "Identify the correct choice",
-      "content": "<ul><li><strong>Choice A &mdash; '2'</strong>: $a = 2$ would give $2x^2 + 2x$, but $x(2x+7) = 2x^2 + 7x$. &#10007;</li><li><strong>Choice B &mdash; '3'</strong>: $a = 3$ would give $2x^2 + 3x$. Does not match $2x^2 + 7x$. &#10007;</li><li><strong>Choice C &mdash; '4'</strong>: $a = 4$ would give $2x^2 + 4x$. Does not match $2x^2 + 7x$. &#10007;</li><li><strong>Choice D &mdash; '7'</strong>: $a = 7$ gives $2x^2 + 7x = x(2x + 7)$. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "content": "<ul><li><strong>Choice A — 2</strong>: $a = 2$ would give $2x^2 + 2x$, but $x(2x+7) = 2x^2 + 7x$. &#10007;</li><li><strong>Choice B — 3</strong>: $a = 3$ would give $2x^2 + 3x$. Does not match $2x^2 + 7x$. &#10007;</li><li><strong>Choice C — 4</strong>: $a = 4$ would give $2x^2 + 4x$. Does not match $2x^2 + 7x$. &#10007;</li><li><strong>Choice D — 7</strong>: $a = 7$ gives $2x^2 + 7x = x(2x + 7)$. &#10003;</li></ul><strong>D</strong> is correct."
     }
   ]
 }

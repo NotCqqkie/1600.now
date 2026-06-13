@@ -1,1 +1,15 @@
-{"questionId":"5a4b09bc-842b-4866-ae63-c98b8f2cc56e_18","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank fills in the phrase \"keen interest to ______ of Leiden University.\" The slot contains a title (linguist) followed directly by a proper name (Marian Klamer) that identifies the specific person. The question tests whether punctuation is needed between the title and the name."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'linguist, Marian Klamer'</strong>: a comma after \"linguist\" suggests the name is added parenthetically, but the phrase has no closing comma and becomes grammatically unbalanced. &#10007;</li><li><strong>Choice B &mdash; 'linguist, Marian Klamer,'</strong>: commas on both sides treat \"Marian Klamer\" as nonrestrictive—but it is not an aside; it identifies which linguist, so no commas are correct. &#10007;</li><li><strong>Choice C &mdash; 'linguist Marian Klamer'</strong>: no punctuation between the title and the identifying name is standard when a proper name directly follows a title to specify the person. &#10003;</li><li><strong>Choice D &mdash; 'linguist: Marian Klamer'</strong>: a colon introduces a list or explanation; it cannot link a title to the name it belongs to. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "5a4b09bc-842b-4866-ae63-c98b8f2cc56e_18",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank fills in the phrase \"keen interest to ______ of Leiden University.\" The slot contains a title (linguist) followed directly by a proper name (Marian Klamer) that identifies the specific person. The question tests whether punctuation is needed between the title and the name."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;linguist, Marian Klamer&rsquo;</strong>: a comma after \"linguist\" suggests the name is added parenthetically, but the phrase has no closing comma and becomes grammatically unbalanced. &#10007;</li><li><strong>Choice B &mdash; &lsquo;linguist, Marian Klamer,&rsquo;</strong>: commas on both sides treat \"Marian Klamer\" as nonrestrictive—but it is not an aside; it identifies which linguist, so no commas are correct. &#10007;</li><li><strong>Choice C &mdash; &lsquo;linguist Marian Klamer&rsquo;</strong>: no punctuation between the title and the identifying name is standard when a proper name directly follows a title to specify the person. &#10003;</li><li><strong>Choice D &mdash; &lsquo;linguist: Marian Klamer&rsquo;</strong>: a colon introduces a list or explanation; it cannot link a title to the name it belongs to. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

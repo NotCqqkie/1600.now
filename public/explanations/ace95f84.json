@@ -1,1 +1,15 @@
-{"questionId": "ace95f84", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the punctuation pattern", "content": "<ul><li><strong>Choice A &mdash; 'stratigraphy&mdash;the'</strong>: Opens an em dash pair. The closing dash already appears after &quot;(strata)&quot;, so this correctly sets off the supplementary phrase &quot;the analysis of Earth's sediment layers (strata)&quot; between two dashes. &#10003;</li><li><strong>Choice B &mdash; 'stratigraphy (the'</strong>: Opens a parenthesis, but the closing punctuation is a dash &mdash; you cannot pair an open parenthesis with a dash. &#10007;</li><li><strong>Choice C &mdash; 'stratigraphy: the'</strong>: A colon cannot be paired with a closing dash to set off a supplementary element. &#10007;</li><li><strong>Choice D &mdash; 'stratigraphy, the'</strong>: A comma cannot be paired with a closing dash in this way. &#10007;</li></ul>"}, {"title": "Confirm the answer", "content": "Only a matching em dash pair can frame the supplementary definition &quot;the analysis of Earth's sediment layers (strata)&quot; correctly within the sentence. That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "ace95f84",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the punctuation pattern",
+      "content": "<ul><li><strong>Choice A &mdash; stratigraphy—the</strong>: Opens an em dash pair. The closing dash already appears after &quot;(strata)&quot;, so this correctly sets off the supplementary phrase &quot;the analysis of Earth's sediment layers (strata)&quot; between two dashes. &#10003;</li><li><strong>Choice B &mdash; stratigraphy (the</strong>: Opens a parenthesis, but the closing punctuation is a dash &mdash; you cannot pair an open parenthesis with a dash. &#10007;</li><li><strong>Choice C &mdash; stratigraphy: the</strong>: A colon cannot be paired with a closing dash to set off a supplementary element. &#10007;</li><li><strong>Choice D &mdash; stratigraphy, the</strong>: A comma cannot be paired with a closing dash in this way. &#10007;</li></ul>"
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "Only a matching em dash pair can frame the supplementary definition &quot;the analysis of Earth's sediment layers (strata)&quot; correctly within the sentence. That is the correct answer."
+    }
+  ]
+}

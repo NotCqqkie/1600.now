@@ -1,1 +1,15 @@
-{"questionId": "4dc81965-4d7d-41a3-a149-fdc37cafa647_9", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The question asks for the term the passage uses for someone who professionally evaluates books. The passage defines &quot;literary critics&quot; in parentheses as &quot;people whose job it is to evaluate books.&quot; The answer comes directly from the text."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'A book publisher'</strong>: Publishers produce and release books &mdash; they do not evaluate them professionally. &#10007;</li><li><strong>Choice B &mdash; 'A literary critic'</strong>: The passage explicitly defines literary critics as people whose job it is to evaluate books. &#10003;</li><li><strong>Choice C &mdash; 'A bookseller'</strong>: Booksellers sell books &mdash; not the same as evaluating them. &#10007;</li><li><strong>Choice D &mdash; 'An author'</strong>: Authors write books &mdash; they are not described as professional evaluators. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "4dc81965-4d7d-41a3-a149-fdc37cafa647_9",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks for the term the passage uses for someone who professionally evaluates books. The passage defines &quot;literary critics&quot; in parentheses as &quot;people whose job it is to evaluate books.&quot; The answer comes directly from the text."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — A book publisher</strong>: Publishers produce and release books &mdash; they do not evaluate them professionally. &#10007;</li><li><strong>Choice B — A literary critic</strong>: The passage explicitly defines literary critics as people whose job it is to evaluate books. &#10003;</li><li><strong>Choice C — A bookseller</strong>: Booksellers sell books &mdash; not the same as evaluating them. &#10007;</li><li><strong>Choice D — An author</strong>: Authors write books &mdash; they are not described as professional evaluators. &#10007;</li></ul><strong>B</strong> is correct."
+    }
+  ]
+}

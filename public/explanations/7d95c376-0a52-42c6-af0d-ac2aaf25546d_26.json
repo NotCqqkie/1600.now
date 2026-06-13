@@ -1,1 +1,15 @@
-{"questionId": "7d95c376-0a52-42c6-af0d-ac2aaf25546d_26", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Recognize what the task requires", "content": "To “explain what <em>Psydrax odorata</em> is” means to define the plant by its essential characteristics—its type and origin—not describe incidental findings from a research study."}, {"title": "Identify the choice that defines the plant", "content": "Choice A directly provides the definition: “<em>Psydrax odorata</em> is a flowering shrub species that is native to Oahu, Hawaii,” specifying both its type and origin.<br/><br/>Choices B, C, and D all fail to define the plant: B discusses a different species, while C and D provide only research context.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "7d95c376-0a52-42c6-af0d-ac2aaf25546d_26",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize what the task requires",
+      "content": "To “explain what <em>Psydrax odorata</em> is” means to define the plant by its essential characteristics—its type and origin—not describe incidental findings from a research study."
+    },
+    {
+      "title": "Identify the choice that defines the plant",
+      "content": "The correct response directly provides the definition: “<em>Psydrax odorata</em> is a flowering shrub species that is native to Oahu, Hawaii,” specifying both its type and origin.<br/><br/>The other choices all fail to define the plant: B discusses a different species, while C and D provide only research context.<br/><br/>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -9,7 +9,7 @@
     },
     {
       "title": "Solve by eliminating the common variable",
-      "content": "Both equations equal $f$, so set them equal to each other:<br/>$$3a = a + 15,000$$<br/>Subtract $a$ from both sides:<br/>$$2a = 15,000$$<br/>Divide by 2:<br/>$$a = 7,500$$<br/>That matches choice A — <strong>A</strong> is correct."
+      "content": "Both equations equal $f$, so set them equal to each other:<br/>$$3a = a + 15,000$$<br/>Subtract $a$ from both sides:<br/>$$2a = 15,000$$<br/>Divide by 2:<br/>$$a = 7,500$$<br/>That confirms <strong>A</strong> is correct."
     }
   ]
 }

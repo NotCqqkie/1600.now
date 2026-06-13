@@ -13,7 +13,7 @@
     },
     {
       "title": "Compute the requested expression",
-      "content": "$$x-y=-33-(-90)=57.$$ Choice D is correct. Choice A is $x+y$, choice B is just $x$, and choice C does not match the expression."
+      "content": "$$x-y=-33-(-90)=57.$$ Choice D, $57$, is correct. Choice A, $-123$, is the value of $x+y$; choice B, $-33$, is just $x$; and choice C, $3$, does not match the requested expression."
     }
   ]
 }

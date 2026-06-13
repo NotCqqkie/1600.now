@@ -1,1 +1,15 @@
-{"questionId":"109d5bbb","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"This is a punctuation question. The blank falls between the festival name and a non-essential appositive phrase (&ldquo;or FESTAC &rsquo;77 &hellip; known&rdquo;) that is already closed by a dash. The skill is dash enclosure: a non-essential element set off by one dash requires a matching dash on the other side."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;Culture:&rsquo;</strong>: A colon must follow an independent clause; &ldquo;the Second World Black and African Festival of Arts and Culture&rdquo; is not an independent clause, so the colon is ungrammatical. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Culture&mdash;&rsquo;</strong>: An opening dash here matches the closing dash after &ldquo;known,&rdquo; correctly enclosing the non-essential appositive on both sides. &#10003;</li><li><strong>Choice C &mdash; &lsquo;Culture,&rsquo;</strong>: A non-essential element must be set off with matching punctuation. Because the closing punctuation is a dash, the opening punctuation cannot be a comma. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Culture&rsquo;</strong>: No punctuation before the appositive leaves the phrase unset-off, violating the rule that non-essential elements require enclosing punctuation. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "109d5bbb",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a punctuation question. The blank falls between the festival name and a non-essential appositive phrase (&ldquo;or FESTAC &rsquo;77 &hellip; known&rdquo;) that is already closed by a dash. The skill is dash enclosure: a non-essential element set off by one dash requires a matching dash on the other side."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Culture:</strong>: A colon must follow an independent clause; &ldquo;the Second World Black and African Festival of Arts and Culture&rdquo; is not an independent clause, so the colon is ungrammatical. &#10007;</li><li><strong>Choice B: Culture—</strong>: An opening dash here matches the closing dash after &ldquo;known,&rdquo; correctly enclosing the non-essential appositive on both sides. &#10003;</li><li><strong>Choice C &mdash; Culture,</strong>: A non-essential element must be set off with matching punctuation. Because the closing punctuation is a dash, the opening punctuation cannot be a comma. &#10007;</li><li><strong>Choice D &mdash; Culture</strong>: No punctuation before the appositive leaves the phrase unset-off, violating the rule that non-essential elements require enclosing punctuation. &#10007;</li></ul>That matches <strong>Choice B &mdash; Culture—</strong>."
+    }
+  ]
+}

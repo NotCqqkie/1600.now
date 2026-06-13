@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { loadDesmos } from "@/lib/desmosLoader";
+import { cn } from "@/lib/utils";
 
 interface DesmosCalc {
   destroy: () => void;
@@ -11,6 +12,7 @@ interface InlineDesmosProps {
   expressions: string[];
   height?: number;
   forwardScrollToPage?: boolean;
+  className?: string;
 }
 
 const COLORS = [
@@ -21,7 +23,7 @@ const COLORS = [
   "#6042a6",
 ];
 
-export function InlineDesmos({ expressions, height = 360, forwardScrollToPage = false }: InlineDesmosProps) {
+export function InlineDesmos({ expressions, height = 360, forwardScrollToPage = false, className }: InlineDesmosProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const calcRef = useRef<DesmosCalc | null>(null);
   const [ready, setReady] = useState(false);
@@ -144,7 +146,7 @@ export function InlineDesmos({ expressions, height = 360, forwardScrollToPage = 
   }, [expressions]);
 
   return (
-    <div className="rounded-lg border border-primary/20 overflow-hidden bg-background">
+    <div className={cn("rounded-lg border border-primary/20 overflow-hidden bg-background", className)}>
       <div
         ref={containerRef}
         className="w-full"

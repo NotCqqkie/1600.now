@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Set up",
-      "content": "$x$-intercepts occur where $f(x) = 0$. Set $3(x-1)(x-8)(x-11) = 0$."
+      "content": "$x$-intercepts occur where $f(x) = 0$. Set ${3}(x-1)(x-8)(x-11) = 0$."
     },
     {
       "title": "Solve",

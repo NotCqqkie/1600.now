@@ -9,7 +9,7 @@
     },
     {
       "title": "Compute the target value",
-      "content": "Since $2-7x = -4$, we get $7x-2 = 4$. The answer is <strong>4</strong>."
+      "content": "Since $2-7x = -4$, multiply by $-1$ to get $7x-2 = 4$. The question asks for this transformed expression directly, so solving for $x$ is unnecessary. The answer is <strong>4</strong>."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId": "700687e2-e094-4a0d-b5c9-12227f01dbff_17", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The subject of the sentence is 'The allocation' &mdash; a singular noun. The verb must agree with it in number and fit the past-tense context."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'are'</strong>: Plural present tense; does not agree with the singular subject 'allocation' and is the wrong tense. &#10007;</li><li><strong>Choice B &mdash; 'was'</strong>: Singular past tense; agrees with 'allocation' and fits the historical context. &#10003;</li><li><strong>Choice C &mdash; 'have been'</strong>: Plural present-perfect form; does not agree with the singular subject. &#10007;</li><li><strong>Choice D &mdash; 'were'</strong>: Plural past tense; does not agree with the singular subject 'allocation.' &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "700687e2-e094-4a0d-b5c9-12227f01dbff_17",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The subject of the sentence is 'The allocation' &mdash; a singular noun. The verb must agree with it in number and fit the past-tense context."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;are&rsquo;</strong>: Plural present tense; does not agree with the singular subject 'allocation' and is the wrong tense. &#10007;</li><li><strong>Choice B &mdash; &lsquo;was&rsquo;</strong>: Singular past tense; agrees with 'allocation' and fits the historical context. &#10003;</li><li><strong>Choice C &mdash; &lsquo;have been&rsquo;</strong>: Plural present-perfect form; does not agree with the singular subject. &#10007;</li><li><strong>Choice D &mdash; &lsquo;were&rsquo;</strong>: Plural past tense; does not agree with the singular subject 'allocation.' &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

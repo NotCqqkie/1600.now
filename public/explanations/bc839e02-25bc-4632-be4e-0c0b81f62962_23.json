@@ -1,1 +1,15 @@
-{"questionId":"bc839e02-25bc-4632-be4e-0c0b81f62962_23","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The first sentence says humanity cannot use Kepler-452b anytime soon (it is 1,799 light years away). The second sentence says humanity must first focus on planets within our solar system. The transition must signal that the second idea is a practical substitute for the impractical first idea &mdash; a shift from one option to a different one."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'For example,'</strong>: Signals that the second sentence illustrates the first. The second sentence is not an example of colonizing Kepler-452b &mdash; it is an alternative to it. &#10007;</li><li><strong>Choice B &mdash; 'Next,'</strong>: Signals a sequential step in the same process. There is no sequence here; the two ideas are contrasting alternatives. &#10007;</li><li><strong>Choice C &mdash; 'Instead,'</strong>: Signals substitution &mdash; one option is swapped for another. Focusing on nearby planets is the practical substitute for the impractical Kepler-452b goal. &#10003;</li><li><strong>Choice D &mdash; 'Likewise,'</strong>: Signals similarity. The two ideas are contrasted, not compared. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "bc839e02-25bc-4632-be4e-0c0b81f62962_23",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The first sentence says humanity cannot use Kepler-452b anytime soon (it is 1,799 light years away). The second sentence says humanity must first focus on planets within our solar system. The transition must signal that the second idea is a practical substitute for the impractical first idea &mdash; a shift from an impractical plan to a practical substitute."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; For example,</strong>: Signals that the second sentence illustrates the first. The second sentence is not an example of colonizing Kepler-452b &mdash; it is an alternative to it. &#10007;</li><li><strong>Choice B &mdash; Next,</strong>: Signals a sequential step in the same process. There is no sequence here; the two ideas are contrasting alternatives. &#10007;</li><li><strong>Choice C &mdash; Instead,</strong>: Signals substitution &mdash; the impractical Kepler-452b goal is swapped for a nearby-planet focus. Focusing on nearby planets is the practical substitute for the impractical Kepler-452b goal. &#10003;</li><li><strong>Choice D &mdash; Likewise,</strong>: Signals similarity. The two ideas are contrasted, not compared. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

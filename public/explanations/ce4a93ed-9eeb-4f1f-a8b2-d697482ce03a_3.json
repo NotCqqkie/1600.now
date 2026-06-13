@@ -1,1 +1,15 @@
-{"questionId": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_3", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the contrast the blank must complete", "content": "The sentence says Greek and Roman sculpture is &ldquo;sometimes characterized as <em>idealizing</em> human subjects, but in fact&rdquo; many sculptures depict people in &ldquo;decidedly ______ ways.&rdquo; The phrase &ldquo;but in fact&rdquo; signals a direct contrast, so the blank must mean the <em>opposite</em> of idealizing &mdash; showing subjects as less than perfect.<ul><li><strong>Choice A &mdash; 'implausible'</strong>: Means unrealistic or hard to believe; idealized art is also unrealistic, so this is not an opposite of idealizing. &#10007;</li><li><strong>Choice B &mdash; 'unflattering'</strong>: Means showing a subject in an unattractive or unfavorable light &mdash; the direct opposite of idealizing. &#10003;</li><li><strong>Choice C &mdash; 'superficial'</strong>: Means shallow or lacking depth; this does not contrast with idealization. &#10007;</li><li><strong>Choice D &mdash; 'imprecise'</strong>: Means not exact or accurate; this does not oppose the idea of presenting subjects as ideal. &#10007;</li></ul>"}, {"title": "Confirm and conclude", "content": "&ldquo;Unflattering&rdquo; is the only word that is the direct antonym of &ldquo;idealizing,&rdquo; completing the contrast set up by &ldquo;but in fact.&rdquo; That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_3",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the contrast the blank must complete",
+      "content": "The sentence says Greek and Roman sculpture is &ldquo;sometimes characterized as <em>idealizing</em> human subjects, but in fact&rdquo; many sculptures depict people in &ldquo;decidedly ______ ways.&rdquo; The phrase &ldquo;but in fact&rdquo; signals a direct contrast, so the blank must mean the <em>opposite</em> of idealizing &mdash; showing subjects as less than perfect.<ul><li><strong>Choice A &mdash; implausible</strong>: Means unrealistic or hard to believe; idealized art is also unrealistic, so this is not an opposite of idealizing. &#10007;</li><li><strong>Choice B &mdash; unflattering</strong>: Means showing a subject in an unattractive or unfavorable light &mdash; the direct opposite of idealizing. &#10003;</li><li><strong>Choice C &mdash; superficial</strong>: Means shallow or lacking depth; this does not contrast with idealization. &#10007;</li><li><strong>Choice D &mdash; imprecise</strong>: Means not exact or accurate; this does not oppose the idea of presenting subjects as ideal. &#10007;</li></ul>"
+    },
+    {
+      "title": "Confirm and conclude",
+      "content": "&ldquo;Unflattering&rdquo; is the only word that is the direct antonym of &ldquo;idealizing,&rdquo; completing the contrast set up by &ldquo;but in fact.&rdquo; That is the correct answer."
+    }
+  ]
+}

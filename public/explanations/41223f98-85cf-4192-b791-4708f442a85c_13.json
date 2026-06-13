@@ -1,1 +1,15 @@
-{"questionId": "41223f98-85cf-4192-b791-4708f442a85c_13", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the data must demonstrate", "content": "The passage claims that flies collected in relatively warmer months should have longer lifespans. Since wing size correlates with lifespan, the supporting evidence must show that warmer months produce larger wing sizes."}, {"title": "Find the choice that shows the temperature-size relationship", "content": "Choice B compares male wing size in July (87°F high, 2.02 mm) versus October (67°F high, 1.98 mm), directly showing that the warmer month has larger wings.<br/><br/>The other choices fail to establish this temperature-size relationship: A and C present wing measurements but lack temperature comparison, while D presents only temperature data without wing sizes.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "41223f98-85cf-4192-b791-4708f442a85c_13",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the data must demonstrate",
+      "content": "The passage claims that flies collected in relatively warmer months should have longer lifespans. Since wing size correlates with lifespan, the supporting evidence must show that warmer months produce larger wing sizes."
+    },
+    {
+      "title": "Find the choice that shows the temperature-size relationship",
+      "content": "The correct answer compares male wing size in July ($87^{\\circ}\\text{F}$ high, 2.02 mm) versus October ($67^{\\circ}\\text{F}$ high, 1.98 mm), directly showing that the warmer month has larger wings.<br/><br/>The other choices fail to establish this temperature-size relationship: A and C present wing measurements but lack temperature comparison, while D presents only temperature data without wing sizes.<br/><br/><strong>B</strong> is correct."
+    }
+  ]
+}

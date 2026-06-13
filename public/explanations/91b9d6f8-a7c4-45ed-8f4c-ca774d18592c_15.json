@@ -9,7 +9,7 @@
     },
     {
       "title": "Solve for mass",
-      "content": "Divide both sides by $v^2$ (assuming $v \\neq 0$):<br/> $$\\frac{1}{2}m = 32$$<br/> Multiply both sides by 2:<br/> $$m = 64$$<br/> That matches choice B — <strong>B</strong> is correct."
+      "content": "Divide both sides by $v^2$ (assuming $v \\neq 0$):<br/> $$\\frac{1}{2}m = 32$$<br/> Multiply both sides by 2:<br/> $$m = 64$$<br/> That confirms <strong>B</strong> is correct."
     }
   ]
 }

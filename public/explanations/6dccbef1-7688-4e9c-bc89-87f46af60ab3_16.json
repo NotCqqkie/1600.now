@@ -9,7 +9,7 @@
     },
     {
       "title": "Find the inscribed circle's radius and area",
-      "content": "For a circle inscribed in a square, the radius equals half the side length. With $s = 114\\sqrt{2}$:<br/>$$r = \\frac{s}{2} = 57\\sqrt{2}$$<br/>The circle's area is:<br/>$$A = \\pi r^2 = \\pi(57\\sqrt{2})^2 = \\pi \\cdot 57^2 \\cdot 2 = \\pi \\cdot 3249 \\cdot 2 = 6498\\pi$$<br/>That matches choice A — <strong>A</strong> is correct."
+      "content": "For a circle inscribed in a square, the radius equals half the side length. With $s = 114\\sqrt{2}$:<br/>$$r = \\frac{s}{2} = 57\\sqrt{2}$$<br/>The circle's area is:<br/>$$A = \\pi r^2 = \\pi(57\\sqrt{2})^2 = \\pi \\cdot 57^2 \\cdot 2 = \\pi \\cdot 3249 \\cdot 2 = 6498\\pi$$<br/>That confirms <strong>A</strong> is correct."
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify unit prices from the equation coefficients",
-      "content": "The equation $24.5x + 24.75y = 641$ represents a cost relationship. It has the form:<br/>$$(\\text{cost per unit of topsoil}) \\cdot x + (\\text{cost per unit of stone}) \\cdot y = \\text{total cost}$$<br/>Comparing with our equation, the coefficient of $x$ is the cost per cubic yard of topsoil: <strong>\\$24.50</strong>.<br/>The coefficient of $y$ is the cost per ton of crushed stone: <strong>\\$24.75</strong>."
+      "content": "The equation $24.5x + 24.75y = 641$ represents a cost relationship. It has the form:<br/>$$(\\text{cost per unit of topsoil}) \\cdot x + (\\text{cost per unit of stone}) \\cdot y = \\text{total cost}$$<br/>Comparing with our equation, the coefficient of $x$ is the cost per cubic yard of topsoil: <strong>&#36;24.50</strong>.<br/>The coefficient of $y$ is the cost per ton of crushed stone: <strong>&#36;24.75</strong>."
     },
     {
       "title": "Find the price difference",
-      "content": "Subtract the unit price of topsoil from the unit price of crushed stone:<br/>$$24.75 - 24.5 = 0.25$$<br/>A ton of crushed stone cost Isabel \\$0.25 more than a cubic yard of topsoil."
+      "content": "Subtract the unit price of topsoil from the unit price of crushed stone:<br/>$$24.75 - 24.5 = 0.25$$<br/>A ton of crushed stone cost Isabel &#36;0.25 more than a cubic yard of topsoil."
     }
   ]
 }

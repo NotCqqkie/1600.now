@@ -17,7 +17,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "<ul><li>Choice A, $-16$, is the corresponding $y$-value, not the requested $x$-value.</li><li>Choice B, $-4$, is the intersection's $x$-coordinate. Correct.</li><li>Choices C and D do not satisfy the squared equation.</li></ul>That matches choice <strong>B</strong>, so <strong>B</strong> is correct."
+      "content": "<ul><li>$-16$ is the corresponding $y$-value, not the requested $x$-value.</li><li>The matching choice, $-4$, is the intersection's $x$-coordinate. Correct.</li><li>The other choices do not satisfy the squared equation.</li></ul>This matches, so <strong>B</strong> is correct."
     }
   ]
 }

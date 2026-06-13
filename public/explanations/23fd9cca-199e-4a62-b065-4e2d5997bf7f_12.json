@@ -1,1 +1,15 @@
-{"questionId":"23fd9cca-199e-4a62-b065-4e2d5997bf7f_12","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage describes two ships that both have three decks: the <em>Dreadnought</em> (98 cannons) and the <em>Caledonia</em> (120 cannons). Only the <em>Caledonia</em> is first-rate. The conclusion must follow directly from this specific comparison &mdash; no speculation beyond the given data."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'not all ships with three decks were ranked as first-rate ships'</strong>: Proven directly: the <em>Dreadnought</em> has three decks but is not first-rate. &#10003;</li><li><strong>Choice B &mdash; 'all ships with at least 98 cannons were ranked as first-rate ships'</strong>: Contradicted by the passage: the <em>Dreadnought</em> has 98 cannons but is not first-rate. &#10007;</li><li><strong>Choice C &mdash; 'the Dreadnought had between 850 and 875 crewmen'</strong>: That crew range applies to first-rate ships; the <em>Dreadnought</em> is not first-rate, so this does not follow. &#10007;</li><li><strong>Choice D &mdash; 'the Caledonia needed a crew larger than 875 people to operate efficiently'</strong>: The text gives a crew range for first-rate ships (850&ndash;875) but says nothing about operational efficiency or needing more than 875. Unsupported. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "23fd9cca-199e-4a62-b065-4e2d5997bf7f_12",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage describes two ships that both have three decks: the <em>Dreadnought</em> (98 cannons) and the <em>Caledonia</em> (120 cannons). Only the <em>Caledonia</em> is first-rate. The conclusion must follow directly from this specific comparison &mdash; no speculation beyond the given data."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; not all ships with three decks were ranked as first-rate ships.</strong>: Proven directly: the <em>Dreadnought</em> has three decks but is not first-rate. &#10003;</li><li><strong>Choice B &mdash; all ships with at least 98 cannons were ranked as first-rate ships.</strong>: Contradicted by the passage: the <em>Dreadnought</em> has 98 cannons but is not first-rate. &#10007;</li><li><strong>Choice C &mdash; the *Dreadnought* had between 850 and 875 crewmen.</strong>: That crew range applies to first-rate ships; the <em>Dreadnought</em> is not first-rate, so this does not follow. &#10007;</li><li><strong>Choice D &mdash; the *Caledonia* needed a crew larger than 875 people in order to operate efficiently.</strong>: The text gives a crew range for first-rate ships (850&ndash;875) but says nothing about operational efficiency or needing more than 875. Unsupported. &#10007;</li></ul>That matches <strong>Choice A &mdash; not all ships with three decks were ranked as first-rate ships.</strong>."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId":"e11af9a4-0499-4c66-b721-ff21024ff5d1_9","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks why Miguel accompanies his brother. The answer must be grounded only in what the passage directly states &mdash; no inferences beyond the text are allowed."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Miguel has learned all he can from his brother...'</strong>: it is the narrator who has learned all Alejandro could teach her, not Miguel. Miguel's motive is unrelated. &#10007;</li><li><strong>Choice B &mdash; 'Miguel...wants to ask the sisters' famous father to be his mentor'</strong>: the passage says Miguel wanted to \"make the acquaintance\" of the poet &mdash; a social introduction, not a request for mentorship. &#10007;</li><li><strong>Choice C &mdash; 'Miguel aspires to present his poems to the sisters...'</strong>: nowhere does the passage mention Miguel planning to share his own writing. &#10007;</li><li><strong>Choice D &mdash; 'Miguel anticipates having the opportunity to be introduced to both the sisters and their father'</strong>: the passage states Miguel was \"hoping not only to meet us but to make the acquaintance of the poet himself\" &mdash; exactly two goals, both captured here. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "e11af9a4-0499-4c66-b721-ff21024ff5d1_9",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks why Miguel accompanies his brother. The answer must be grounded only in what the passage directly states &mdash; no inferences beyond the text are allowed."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"Miguel has learned all he can from his brother and hopes that the sisters will be able to give him additional guidance.\"</strong>: it is the narrator who has learned all Alejandro could teach her, not Miguel. Miguel's motive is unrelated. &#10007;</li><li><strong>\"Miguel has not received formal instruction in poetry and wants to ask the sisters' famous father to be his mentor.\"</strong>: the passage says Miguel wanted to \"make the acquaintance\" of the poet &mdash; a social introduction, not a request for mentorship. &#10007;</li><li><strong>\"Miguel aspires to present his poems to the sisters and ask for their opinion on his writing.\"</strong>: nowhere does the passage mention Miguel planning to share his own writing. &#10007;</li><li><strong>\"Miguel anticipates having the opportunity to be introduced to both the sisters and their father.\"</strong>: the passage states Miguel was \"hoping not only to meet us but to make the acquaintance of the poet himself\" &mdash; exactly two goals, both captured here. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the angle relationship between x and 110°",
-      "content": "Line $c$ is a transversal crossing two parallel lines $s$ and $t$.<br/><br/>The angle marked $110°$ is below line $t$ on the left side of the transversal, and the angle marked $x°$ is above line $s$ on the right side of the transversal.<br/><br/>These are <strong>co-interior angles</strong> (also called consecutive interior angles or same-side interior angles)—they're both between the parallel lines and on the same side of the transversal."
+      "content": "Line $c$ is a transversal crossing two parallel lines $s$ and $t$.<br/><br/>The angle marked $110^{\\circ}$ is below line $t$ on the left side of the transversal, and the angle marked $x^{\\circ}$ is above line $s$ on the right side of the transversal.<br/><br/>These are <strong>co-interior angles</strong> (also called consecutive interior angles or same-side interior angles)—they're both between the parallel lines and on the same side of the transversal."
     },
     {
       "title": "Apply the parallel lines angle property",
-      "content": "When a transversal intersects two parallel lines, co-interior angles are supplementary—they sum to $180°$. <br/>$$x + 110 = 180$$<br/>$$x = 70$$<br/>The answer is <strong>70</strong>."
+      "content": "When a transversal intersects two parallel lines, co-interior angles are supplementary—they sum to $180^{\\circ}$. <br/>$$x + 110 = 180$$<br/>$$x = 70$$<br/>The answer is <strong>70</strong>."
     }
   ]
 }

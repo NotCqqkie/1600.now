@@ -1,1 +1,15 @@
-{"questionId":"dbd99943-454f-4340-b42a-6a27b20e090c_19","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence reads: &quot;There, wildlife ______ is on the front lines of conservation efforts.&quot; The blank fills in &quot;biologist&quot; plus a name. The name <em>Dr. Purnima Devi Barman</em> is an <strong>essential appositive</strong> &mdash; it identifies <em>which</em> wildlife biologist, since there are many. Essential appositives take <strong>no commas</strong>."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'biologist, Dr. Purnima Devi Barman,'</strong>: Two commas set the name off as nonessential &mdash; as if any wildlife biologist would do. But the name is identifying, so this punctuation is wrong. &#10007;</li><li><strong>Choice B &mdash; 'biologist, Dr. Purnima Devi Barman'</strong>: One comma before the name opens a nonessential phrase but never closes it, creating a comma splice error. &#10007;</li><li><strong>Choice C &mdash; 'biologist: Dr. Purnima Devi Barman'</strong>: A colon requires an independent clause before it. &quot;There, wildlife biologist&quot; is not an independent clause, so the colon is ungrammatical here. &#10007;</li><li><strong>Choice D &mdash; 'biologist Dr. Purnima Devi Barman'</strong>: No punctuation between &quot;biologist&quot; and the name &mdash; correct for an essential appositive. The sentence reads naturally and grammatically. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "dbd99943-454f-4340-b42a-6a27b20e090c_19",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence reads: \"There, wildlife ______ is on the front lines of conservation efforts.\" The blank fills in \"biologist\" plus a name. The name <em>Dr. Purnima Devi Barman</em> is an <strong>essential appositive</strong> &mdash; it identifies <em>which</em> wildlife biologist, since there are many. Essential appositives take <strong>no commas</strong>."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"biologist, Dr. Purnima Devi Barman,\"</strong>: Two commas set the name off as nonessential &mdash; as if any wildlife biologist would do. But the name is identifying, so this punctuation is wrong. &#10007;</li><li><strong>\"biologist, Dr. Purnima Devi Barman\"</strong>: One comma before the name opens a nonessential phrase but never closes it, creating a comma splice error. &#10007;</li><li><strong>\"biologist: Dr. Purnima Devi Barman\"</strong>: A colon requires an independent clause before it. \"There, wildlife biologist\" is not an independent clause, so the colon is ungrammatical here. &#10007;</li><li><strong>\"biologist Dr. Purnima Devi Barman\"</strong>: No punctuation between \"biologist\" and the name &mdash; correct for an essential appositive. The sentence reads naturally and grammatically. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "e44db0a0", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the grammar rule being tested", "content": "This is a subject-verb agreement question. The subject is &quot;a cycle of lunar phases.&quot; The head noun is <em>cycle</em> &mdash; singular. The prepositional phrase &quot;of lunar phases&quot; does not change the subject's number. The verb must be third-person singular present tense to agree.<ul><li><strong>Choice A &mdash; 'are taking'</strong>: Plural verb; does not agree with singular subject &quot;a cycle.&quot; &#10007;</li><li><strong>Choice B &mdash; 'have taken'</strong>: Plural verb; does not agree with singular subject &quot;a cycle.&quot; &#10007;</li><li><strong>Choice C &mdash; 'take'</strong>: Plural (base form) verb; does not agree with singular subject &quot;a cycle.&quot; &#10007;</li><li><strong>Choice D &mdash; 'takes'</strong>: Third-person singular present tense; agrees with singular subject &quot;a cycle.&quot; &#10003;</li></ul>"}, {"title": "Confirm the match", "content": "Only &quot;takes&quot; is the third-person singular form that agrees with &quot;a cycle&quot; and completes the sentence correctly.<br/><br/>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "e44db0a0",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammar rule being tested",
+      "content": "This is a subject-verb agreement question. The subject is \"a cycle of lunar phases.\" The head noun is <em>cycle</em> &mdash; singular. The prepositional phrase \"of lunar phases\" does not change the subject's number. The verb must be third-person singular present tense to agree.<ul><li><strong>\"are taking\"</strong>: Plural verb; does not agree with singular subject \"a cycle.\" &#10007;</li><li><strong>\"have taken\"</strong>: Plural verb; does not agree with singular subject \"a cycle.\" &#10007;</li><li><strong>\"take\"</strong>: Plural (base form) verb; does not agree with singular subject \"a cycle.\" &#10007;</li><li><strong>\"takes\"</strong>: Third-person singular present tense; agrees with singular subject \"a cycle.\" &#10003;</li></ul>"
+    },
+    {
+      "title": "Confirm the match",
+      "content": "Only \"takes\" is the third-person singular form that agrees with \"a cycle\" and completes the sentence correctly.<br/><br/>That matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

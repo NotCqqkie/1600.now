@@ -1,1 +1,15 @@
-{"questionId":"8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_6","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify the function","content":"The underlined sentence uses <em>While</em> to oppose two frequencies: HGT is <strong>common</strong> in prokaryotes but <strong>rarely observed</strong> in eukaryotes. Its job is to contrast detection frequency across organism categories."},{"title":"Match to the choices","content":"Choice B captures that frequency contrast across two organism categories. A (mechanics), C (flawed perception), and D (similarity) all miss the frequency comparison. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}
+{
+  "questionId": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_6",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the function",
+      "content": "The underlined sentence uses <em>While</em> to oppose two frequencies: HGT is <strong>common</strong> in prokaryotes but <strong>rarely observed</strong> in eukaryotes. Its job is to contrast detection frequency across organism categories."
+    },
+    {
+      "title": "Match to the choices",
+      "content": "The correct answer captures that frequency contrast across two organism categories. A (mechanics), C (flawed perception), and D (similarity) all miss the frequency comparison. That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -25,7 +25,7 @@
     },
     {
       "title": "Eliminate the shifted forms",
-      "content": "Choice A shows $f(-1)$ as the coefficient, choice C shows $f(1)$ as the coefficient, and choice D shows $f(2)$ as the coefficient. Only choice B shows $f(0)$ as the coefficient. Choice <strong>B</strong> is correct."
+      "content": "Choice A (&lsquo;$f \\left(x\\right)=22{ \\left(1.5\\right)}^{x+1}$&rsquo;) shows $f(-1)$ as the coefficient, choice C (&lsquo;$f \\left(x\\right)=49.5{ \\left(1.5\\right)}^{x-1}$&rsquo;) shows $f(1)$ as the coefficient, and choice D (&lsquo;$f \\left(x\\right)=74.25{ \\left(1.5\\right)}^{x-2}$&rsquo;) shows $f(2)$ as the coefficient. Only the credited option (&lsquo;$f \\left(x\\right)=33{ \\left(1.5\\right)}^{x}$&rsquo;) shows $f(0)$ as the coefficient. <strong>B</strong> is correct."
     }
   ]
 }

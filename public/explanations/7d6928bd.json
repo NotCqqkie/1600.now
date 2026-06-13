@@ -10,7 +10,7 @@
       "text": "Build the expression for total places: offices plus homes = $f + h$. Applying the constraint: $f + h \\le 14$."
     },
     {
-      "text": "Evaluate all choices:<ul><li><strong>A: $f+h\\le14$</strong> — total places is at most 14. That matches choice A — <strong>A</strong> is correct.</li><li><strong>B: $f+h\\ge14$</strong> — says total is <em>at least</em> 14, meaning the service must clean 14 or more. This contradicts &quot;at most.&quot; Eliminated.</li><li><strong>C: $f-h\\le14$</strong> — uses subtraction instead of addition. The number of offices <em>minus</em> homes is unrelated to the daily capacity constraint. Eliminated.</li><li><strong>D: $f-h\\ge14$</strong> — subtraction with the wrong direction. Eliminated.</li></ul>"
+      "text": "Evaluate all choices:<ul><li><strong>A: $f+h\\le14$</strong> — total places is at most 14. That confirms <strong>A</strong> is correct.</li><li><strong>B: $f+h\\ge14$</strong> — says total is <em>at least</em> 14, meaning the service must clean 14 or more. This contradicts &quot;at most.&quot; Eliminated.</li><li><strong>C: $f-h\\le14$</strong> — uses subtraction instead of addition. The number of offices <em>minus</em> homes is unrelated to the daily capacity constraint. Eliminated.</li><li><strong>D: $f-h\\ge14$</strong> — subtraction with the wrong direction. Eliminated.</li></ul>"
     }
   ]
 }

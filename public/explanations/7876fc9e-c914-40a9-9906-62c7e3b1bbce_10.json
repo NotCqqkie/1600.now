@@ -1,1 +1,15 @@
-{"questionId": "7876fc9e-c914-40a9-9906-62c7e3b1bbce_10", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The text argues that no single factor fully explains pedestrian habits in Vancouver &mdash; demographics, commute distance, and amenities all play a role. The correct choice must reflect that pedestrian amenities are just one of several contributing factors, not the dominant one."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; amenities reduce walkability elsewhere</strong>: the text never claims amenities harm other cities&apos; walkability; this is unsupported. &#10007;</li><li><strong>Choice B &mdash; amenities cause demographics</strong>: reverses the causal direction the text implies. &#10007;</li><li><strong>Choice C &mdash; demographics rank above amenities</strong>: the text explicitly says no single factor dominates, so ranking any factor first contradicts the passage. &#10007;</li><li><strong>Choice D &mdash; amenities are one of several factors</strong>: matches the text&apos;s core point that multiple factors each contribute and no one element transfers walkability alone. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "7876fc9e-c914-40a9-9906-62c7e3b1bbce_10",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The text argues that no single factor fully explains pedestrian habits in Vancouver &mdash; demographics, commute distance, and amenities all play a role. The correct choice must reflect that pedestrian amenities are just one of several contributing factors, not the dominant one."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;It may increase walkability in Vancouver but is known to reduce walkability in other cities.&rsquo;</strong>: the text never claims amenities harm other cities&apos; walkability; this is unsupported. &#10007;</li><li><strong>Choice B &mdash; &lsquo;It is better understood as an effect of the high level of pedestrian traffic in Vancouver than as a cause of that pedestrian traffic.&rsquo;</strong>: reverses the causal direction the text implies. &#10007;</li><li><strong>Choice C &mdash; &lsquo;It affects walking decisions in Vancouver less than demographic characteristics and average commuting distance do.&rsquo;</strong>: the text explicitly says no single factor dominates, so ranking any factor first contradicts the passage. &#10007;</li><li><strong>Choice D &mdash; &lsquo;It should be understood as just one of several factors that influence pedestrian activity in Vancouver.&rsquo;</strong>: matches the text&apos;s core point that multiple factors each contribute and no one element transfers walkability alone. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

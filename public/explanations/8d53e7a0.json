@@ -1,1 +1,15 @@
-{"questionId": "8d53e7a0", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structures", "content": "Left of blank: preposition “of” expecting a noun phrase as its object. Right of blank: noun “protagonist” followed by a comma and appositive. The blank contains a noun phrase with modifiers and a possessive form."}, {"title": "Apply number agreement", "content": "Agreement in number: possessives and nouns must match the singular or plural nature of what they refer to.<br/><br/>The singular novel requires “the novel's” and the plural poems require “poems” — making choice A correct.<br/><br/>Choices B–C use “poem's” (singular possessive instead of plural noun), and C–D use “novels'” (plural possessive instead of singular).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "8d53e7a0",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures",
+      "content": "Left of blank: preposition “of” expecting a noun phrase as its object. Right of blank: noun “protagonist” followed by a comma and appositive. The blank contains a noun phrase with modifiers and a possessive form."
+    },
+    {
+      "title": "Apply number agreement",
+      "content": "Agreement in number: possessives and nouns must match the singular or plural nature of what they refer to.<br/><br/>The singular novel requires “the novel's” and the plural poems require “poems,” so the correct phrase is “poems putatively written by the novel's.”<br/><br/>The phrases “poem's putatively written by the novel's” and “poem's putatively written by the novels'” incorrectly make <em>poems</em> singular possessive; “poem's putatively written by the novels'” and “poems putatively written by the novels'” incorrectly make <em>novel</em> plural possessive.<br/><br/>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

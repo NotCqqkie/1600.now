@@ -14,7 +14,7 @@
     },
     {
       "title": "Check all choices",
-      "content": "<ul><li><strong>Choice A &mdash; '$g(x) = 3x + 5 + 9$'</strong>: Equals $3x + 14$, which is $f(x)$ shifted up by 9 &#10003;</li><li><strong>Choice B &mdash; '$g(x) = 3x + 5 - 9$'</strong>: Equals $3x - 4$, a shift down by 9, not up &#10007;</li><li><strong>Choice C &mdash; '$g(x) = 3x + 45$'</strong>: Shifts $f(x)$ up by 40 units (from $3x+5$ to $3x+45$), not 9 units. Eliminated &#10007;</li><li><strong>Choice D &mdash; '$g(x) = 27x + 5$'</strong>: Multiplies the slope by 9 instead of adding 9 to the output &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li><strong>\"$g(x) = 3x + 5 + 9$\"</strong>: Equals $3x + 14$, which is $f(x)$ shifted up by 9 &#10003;</li><li><strong>\"$g(x) = 3x + 5 - 9$\"</strong>: Equals $3x - 4$, a shift down by 9, not up &#10007;</li><li><strong>\"$g(x) = 3x + 45$\"</strong>: Shifts $f(x)$ up by 40 units (from $3x+5$ to $3x+45$), not 9 units. Eliminated &#10007;</li><li><strong>\"$g(x) = 27x + 5$\"</strong>: Multiplies the slope by 9 instead of adding 9 to the output &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
     }
   ]
 }

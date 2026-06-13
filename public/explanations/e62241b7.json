@@ -1,1 +1,15 @@
-{"questionId": "e62241b7", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the subject and determine its number", "content": "The subject is <em>the country&apos;s name</em> — a singular noun phrase (one country, one name). The verb must agree with a singular subject."}, {"title": "Eliminate wrong choices and confirm", "content": "<ul><li><strong>Choice A &mdash; &apos;are&apos;</strong>: Plural verb — does not agree with the singular subject <em>the country&apos;s name</em>. &#10007;</li><li><strong>Choice B &mdash; &apos;have been&apos;</strong>: Plural verb — does not agree with the singular subject. &#10007;</li><li><strong>Choice C &mdash; &apos;are being&apos;</strong>: Plural verb — does not agree with the singular subject. &#10007;</li><li><strong>Choice D &mdash; &apos;is&apos;</strong>: Singular verb — agrees correctly with <em>the country&apos;s name</em>. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "e62241b7",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the subject and determine its number",
+      "content": "The subject is <em>the country's name</em> — a singular noun phrase (one country, one name). The verb must agree with a singular subject."
+    },
+    {
+      "title": "Eliminate wrong choices and confirm",
+      "content": "<ul><li><strong>\"are\"</strong>: Plural verb — does not agree with the singular subject <em>the country's name</em>. &#10007;</li><li><strong>\"have been\"</strong>: Plural verb — does not agree with the singular subject. &#10007;</li><li><strong>\"are being\"</strong>: Plural verb — does not agree with the singular subject. &#10007;</li><li><strong>\"is\"</strong>: Singular verb — agrees correctly with <em>the country's name</em>. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -259,7 +259,7 @@
     "difficulty": "Hard",
     "question_number": 9,
     "test_name": "Module Source 102 Math M2",
-    "passage": "In the figure shown, point T lies on segment SW, and segment TU is parallel to segment VW. The measure of angle V is 26°, and the measure of angle STU is 74°. What is the value of p - r?",
+    "passage": "In the figure shown, point T lies on segment SW, and segment TU is parallel to segment VW. The measure of angle V is 26°, and the measure of angle STU is 74°. What is the value of $p - r$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -313,7 +313,7 @@
     "difficulty": "Hard",
     "question_number": 11,
     "test_name": "Module Source 102 Math M2",
-    "passage": "The shaded region shown represents the solutions to the inequality $ ry < 128 $, where $ r $ is a constant. What is the value of $ r $?",
+    "passage": "The shaded region shown represents the solutions to the inequality $ry \\lt 128$, where $r$ is a constant. What is the value of $r$?",
     "question_text": null,
     "choices": [
       {
@@ -352,7 +352,7 @@
     "difficulty": "Easy",
     "question_number": 12,
     "test_name": "Module Source 102 Math M2",
-    "passage": "How many solutions does the equation $4(16x - 20) = -16(5 - 4x)$ have?",
+    "passage": "How many solutions does the equation $4\\left(16x - 20) = -16(5 - 4x\\right)$ have?",
     "question_text": null,
     "choices": [
       {
@@ -384,7 +384,7 @@
     "difficulty": "Medium",
     "question_number": 13,
     "test_name": "Module Source 102 Math M2",
-    "passage": "$f(x)=3,950(0.38)^{\\frac{x}{12}}$\nThe function $f$ gives the value, in dollars, of a certain piece of equipment after $x$ months of use. If the value of the equipment decreases each year by $p$% of its value the preceding year, what is the value of $p$?",
+    "passage": "$f(x)=3,950(0.38)^{\\frac{x}{12}}$\nThe function $f$ gives the value, in dollars, of a certain piece of equipment after $x$ months of use. If the value of the equipment decreases each year by $p\\%$ of its value the preceding year, what is the value of $p$?",
     "question_text": null,
     "choices": [
       {
@@ -416,7 +416,7 @@
     "difficulty": "Medium",
     "question_number": 14,
     "test_name": "Module Source 102 Math M2",
-    "passage": "A beekeeper's initial observation of the population of a certain bee colony was 1,100 bees. The beekeeper set a goal to increase the population to 2,600 bees. The beekeeper uses a model that predicts the population of this bee colony begins at 1,100 and increases by 120 bees per week in the first two weeks after the initial observation, and then increases by 180 bees per week until the beekeeper's goal is reached. According to this model, at the end of week $w$ after the initial observation, where $w > 2$, which of the following functions gives the predicted number of bees still needed to reach the beekeeper's goal?",
+    "passage": "A beekeeper's initial observation of the population of a certain bee colony was 1,100 bees. The beekeeper set a goal to increase the population to 2,600 bees. The beekeeper uses a model that predicts the population of this bee colony begins at 1,100 and increases by 120 bees per week in the first two weeks after the initial observation, and then increases by 180 bees per week until the beekeeper's goal is reached. According to this model, at the end of week $w$ after the initial observation, where $w \\gt 2$, which of the following functions gives the predicted number of bees still needed to reach the beekeeper's goal?",
     "question_text": null,
     "choices": [
       {
@@ -448,7 +448,7 @@
     "difficulty": "Easy",
     "question_number": 15,
     "test_name": "Module Source 102 Math M2",
-    "passage": "$5x - 3y = 15$ is an equation of the graph shown?",
+    "passage": "Which of the following is an equation of the graph shown?",
     "question_text": null,
     "choices": [
       {
@@ -551,7 +551,7 @@
     "difficulty": "Medium",
     "question_number": 18,
     "test_name": "Module Source 102 Math M2",
-    "passage": "The exponential function $f$ is defined by $f(x) = ab^x$, where $a$ and $b$ are positive constants. If $f(s) = t$ and $f(s+1) = t - 0.87t$, where $s$ and $t$ are constants, what is the value of $b$?",
+    "passage": "The exponential function $f$ is defined by $f(x) = a\\cdot b^x$, where $a$ and $b$ are positive constants. If $f(s) = t$ and $f(s+1) = t - 0.87t$, where $s$ and $t$ are constants, what is the value of $b$?",
     "question_text": null,
     "choices": [
       {

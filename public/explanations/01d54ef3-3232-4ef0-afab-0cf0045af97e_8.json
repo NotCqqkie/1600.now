@@ -1,1 +1,15 @@
-{"questionId": "01d54ef3-3232-4ef0-afab-0cf0045af97e_8", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the key conservation need contrast", "content": "Text 1 establishes a clear difference: northern wild rice will have “significantly worse outcomes” and will require conservation efforts, while white-tailed deer “should be able to withstand” warming and “likely won't require the conservation efforts that the northern wild rice will.”"}, {"title": "Apply the prioritization principle", "content": "Text 2 states that agencies must prioritize based on “which species are most threatened and therefore most in need of conservation efforts.” Since Text 1 shows wild rice is more threatened, both authors would agree that conservation efforts should focus more on wild rice than on deer.<br/><br/>The other choices either demand conservation for both (contradicting Text 1's differential threat assessment), address temperature prevention (not discussed), or make claims about conservation success the texts don't address. <strong>That matches choice B</strong> — <strong>B</strong> is correct."}]}
+{
+  "questionId": "01d54ef3-3232-4ef0-afab-0cf0045af97e_8",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key conservation need contrast",
+      "content": "Text 1 establishes a clear difference: northern wild rice will have “significantly worse outcomes” and will require conservation efforts, while white-tailed deer “should be able to withstand” warming and “likely won't require the conservation efforts that the northern wild rice will.”"
+    },
+    {
+      "title": "Apply the prioritization principle",
+      "content": "Text 2 states that agencies must prioritize based on “which species are most threatened and therefore most in need of conservation efforts.” Since Text 1 shows wild rice is more threatened, both authors would agree that conservation efforts should focus more on wild rice than on deer.<br/><br/>The other choices either demand conservation for both (contradicting Text 1's differential threat assessment), address temperature prevention (not discussed), or make claims about conservation success the texts don't address. That matches <strong>Choice B &mdash; Agencies involved in natural-resource management in the Great Lakes region should focus their conservation efforts more on the northern wild rice than on the white-tailed deer.</strong>."
+    }
+  ]
+}

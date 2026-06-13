@@ -1,1 +1,15 @@
-{"questionId": "8459dc2f", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structure", "content": "The blank completes “before deciding which link”—creating an <em>indirect question</em> (a question embedded within a larger declarative statement), not a standalone direct question."}, {"title": "Apply the rule for indirect questions", "content": "Indirect questions within statements must use <strong>standard word order</strong> (subject + verb: “you should choose,” not inverted “should you choose”) and must end with the <strong>same punctuation as the containing sentence</strong> (a period here, not a question mark, since the overall sentence is declarative).<br/><br/>D correctly applies standard word order with a period. A and C use inverted word order, and B uses a question mark—both features of direct questions, not embedded ones.<br/><br/>That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "8459dc2f",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "The blank completes “before deciding which link”—creating an <em>indirect question</em> (a question embedded within a larger declarative statement), not a standalone direct question."
+    },
+    {
+      "title": "Apply the rule for indirect questions",
+      "content": "Indirect questions within statements must use <strong>standard word order</strong> (subject + verb: “you should choose,” not inverted “should you choose”) and must end with the <strong>same punctuation as the containing sentence</strong> (a period here, not a question mark, since the overall sentence is declarative).<br/><br/>D correctly applies standard word order with a period. A and C use inverted word order, and B uses a question mark—both features of direct questions, not embedded ones.<br/><br/>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

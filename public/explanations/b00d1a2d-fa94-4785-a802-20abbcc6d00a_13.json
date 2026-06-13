@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate all choices",
-      "content": "<ul><li><strong>Choice A &mdash; '$f(x) = x^2 + x + 62$'</strong>: The $+x$ term has no origin in the problem — this doesn't come from $x(x+62)$. &#10007;</li><li><strong>Choice B &mdash; '$f(x) = x^2 + 62$'</strong>: Missing the $62x$ cross-term; this would be $x^2 + 62$, not a product of $x$ and $x+62$. &#10007;</li><li><strong>Choice C &mdash; '$f(x) = x^2 + 62x$'</strong>: Exactly $x(x+62)$ expanded — the product of the number and the number 62 more than it. &#10003;</li><li><strong>Choice D &mdash; '$f(x) = x^2 + 62x + 62$'</strong>: The extra $+62$ constant doesn't come from the multiplication. &#10007;</li></ul>That matches choice C — <strong>C</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; $f(x)=x^{2}+x+62$</strong>: The $+x$ term has no origin in the problem — this doesn't come from $x(x+62)$. &#10007;</li><li><strong>Choice B &mdash; $f(x)=x^{2}+62$</strong>: Missing the $62x$ cross-term; this would be $x^2 + 62$, not a product of $x$ and $x+62$. &#10007;</li><li><strong>Choice C &mdash; $f(x)=x^{2}+62x$</strong>: Exactly $x(x+62)$ expanded — the product of the number and the number 62 more than it. &#10003;</li><li><strong>Choice D &mdash; $f(x)=x^{2}+62x+62$</strong>: The extra $+62$ constant doesn't come from the multiplication. &#10007;</li></ul>That is the correct answer."
     }
   ]
 }

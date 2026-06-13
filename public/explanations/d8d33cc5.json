@@ -1,1 +1,15 @@
-{"questionId": "d8d33cc5", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the blank must mean", "content": "The phrase &quot;To improve this system&quot; tells us the blank names whatever was proposed to fix the flawed pay-upon-receipt postal system. The example given &mdash; a postage stamp shifting payment to the sender &mdash; is a systematic change intended to correct a problem. The blank needs a word meaning changes made to correct or improve a flawed system."}, {"title": "Eliminate each wrong choice, then confirm the correct one", "content": "<ul><li><strong>Choice A &mdash; 'investigations'</strong>: Means attempts to understand or examine something. Affixing stamps is not an investigation; it is a corrective action. &#10007;</li><li><strong>Choice B &mdash; 'expansions'</strong>: Means additions that increase size or scope. The text describes changes to existing policy, not growth in the number of policies. &#10007;</li><li><strong>Choice C &mdash; 'reforms'</strong>: Means systematic changes made to correct a problem &mdash; exactly what &quot;to improve this system&quot; signals and what the postage stamp example illustrates. &#10003;</li><li><strong>Choice D &mdash; 'possessions'</strong>: Means items of personal property. Nothing in the context frames the proposed changes as possessions. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "d8d33cc5",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the blank must mean",
+      "content": "The phrase \"To improve this system\" tells us the blank names whatever was proposed to fix the flawed pay-upon-receipt postal system. The example given &mdash; a postage stamp shifting payment to the sender &mdash; is a systematic change intended to correct a problem. The blank needs a word meaning changes made to correct or improve a flawed system."
+    },
+    {
+      "title": "Eliminate each wrong choice, then confirm the correct one",
+      "content": "<ul><li><strong>\"investigations\"</strong>: Means attempts to understand or examine something. Affixing stamps is not an investigation; it is a corrective action. &#10007;</li><li><strong>\"expansions\"</strong>: Means additions that increase size or scope. The text describes changes to existing policy, not growth in the number of policies. &#10007;</li><li><strong>\"reforms\"</strong>: Means systematic changes made to correct a problem &mdash; exactly what \"to improve this system\" signals and what the postage stamp example illustrates. &#10003;</li><li><strong>\"possessions\"</strong>: Means items of personal property. Nothing in the context frames the proposed changes as possessions. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+    }
+  ]
+}

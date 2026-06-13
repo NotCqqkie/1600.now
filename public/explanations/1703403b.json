@@ -1,1 +1,19 @@
-{"questionId":"1703403b","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Read what the graph shows for September","content":"For September, the four Puerto Rican cities split into two groups: Rincon, Ponce, and Isabela cluster at relatively low rainfall values (each under 8 inches), while San Sebastian sits noticeably higher, above 8 inches."},{"title":"Match a choice to that pattern","content":"The correct option must use the September data to capture this split between the three lower cities and the one higher city."},{"title":"Eliminate per choice","content":"<ul><li><strong>Choice A &mdash; 'Rincon's average... is greater than... Ponce'</strong>: misreads the data &mdash; Rincon's September rainfall isn't greater than all three other cities; San Sebastian is higher. &#10007;</li><li><strong>Choice B &mdash; 'about 5 inches... about 10 inches'</strong>: wrong pairing and wrong values &mdash; Rincon and Ponce aren't both around 5, and Isabela isn't around 10 (San Sebastian is the high one). &#10007;</li><li><strong>Choice C &mdash; 'Rincon, Ponce, and Isabela... below 8 inches, but San Sebastian... greater than 8 inches'</strong>: correctly reports the three-versus-one split visible in the September data. &#10003;</li><li><strong>Choice D &mdash; 'Ponce has a similar average... to San Sebastian'</strong>: false comparison &mdash; Ponce and San Sebastian are far apart in September, not similar. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "1703403b",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read what the graph shows for September",
+      "content": "For September, the four Puerto Rican cities split into two groups: Rincon, Ponce, and Isabela cluster at relatively low rainfall values (each under 8 inches), while San Sebastian sits noticeably higher, above 8 inches."
+    },
+    {
+      "title": "Match a choice to that pattern",
+      "content": "The correct option must use the September data to capture this split between the three lower cities and the one higher city."
+    },
+    {
+      "title": "Eliminate per choice",
+      "content": "<ul><li><strong>Choice A &mdash; Rincón's average rainfall is greater than that of Isabela, San Sebastián, and Ponce.</strong>: misreads the data &mdash; Rincon's September rainfall isn't greater than all three other cities; San Sebastian is higher. &#10007;</li><li><strong>Choice B &mdash; Rincón and Ponce have an average rainfall of about 5 inches, and Isabela and San Sebastián have an average rainfall of about 10 inches.</strong>: wrong pairing and wrong values &mdash; Rincon and Ponce aren't both around 5, and Isabela isn't around 10 (San Sebastian is the high one). &#10007;</li><li><strong>Choice C &mdash; Rincón, Ponce, and Isabela each have an average rainfall below 8 inches, but San Sebastián's average rainfall that month is greater than 8 inches.</strong>: correctly reports the three-versus-one split visible in the September data. &#10003;</li><li><strong>Choice D &mdash; Rincón has a similar average rainfall to Isabela, and Ponce has a similar average rainfall to San Sebastián.</strong>: false comparison &mdash; Ponce and San Sebastian are far apart in September, not similar. &#10007;</li></ul>That matches <strong>Choice C &mdash; Rincón, Ponce, and Isabela each have an average rainfall below 8 inches, but San Sebastián's average rainfall that month is greater than 8 inches.</strong>."
+    }
+  ]
+}

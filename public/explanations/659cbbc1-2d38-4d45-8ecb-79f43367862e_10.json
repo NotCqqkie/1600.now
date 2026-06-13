@@ -1,1 +1,15 @@
-{"questionId": "659cbbc1-2d38-4d45-8ecb-79f43367862e_10", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Translate the saving relationship", "content": "Hannah saves $\\frac{1}{5}h$ and Wyatt saves $\\frac{2}{7}w$. Together they save \\$3,270 each month:<br/>$$\\frac{h}{5}+\\frac{2w}{7}=3{,}270$$"}, {"title": "Clear the fractions", "content": "Multiply both sides by the common denominator $35$:<br/>$$7h+10w=35\\cdot 3{,}270=114{,}450$$<br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "659cbbc1-2d38-4d45-8ecb-79f43367862e_10",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the saving relationship",
+      "content": "Hannah saves $\\frac{1}{5}h$ and Wyatt saves $\\frac{2}{7}w$. Together they save \\$3,270 each month:<br/>$$\\frac{h}{5}+\\frac{2w}{7}=3{,}270$$"
+    },
+    {
+      "title": "Clear the fractions",
+      "content": "Multiply both sides by the common denominator $35$:<br/>$$7h+10w=35\\cdot 3{,}270=114{,}450$$<br/>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

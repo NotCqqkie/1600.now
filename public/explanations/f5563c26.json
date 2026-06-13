@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice A is correct. Choice C is $y$, not $x$, and the other choices do not satisfy $x=y+6$ when $y=4$. The ordered pair would be $(10,4)$, so the requested $x$-value is $10$.",
+      "content": "The correct answer is <strong>A</strong>. $4$ is $y$, not $x$, and the other choices do not satisfy $x=y+6$ when $y=4$. The ordered pair would be $(10,4)$, so the requested $x$-value is $10$.",
       "desmosExpressions": [
         "y=4",
         "x=y+6"

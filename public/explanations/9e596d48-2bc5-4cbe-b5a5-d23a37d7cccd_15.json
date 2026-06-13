@@ -17,7 +17,7 @@
     },
     {
       "title": "Confirm the x-value",
-      "content": "Substitute $a=-10$ into the intersection equation:<br/>$$2x^2-20x+50=0$$<br/>Divide by $2$: $$x^2-10x+25=0$$<br/>$$(x-5)^2=0$$<br/>So the single intersection has $x=5$. That matches choice C, so <strong>C</strong> is correct.",
+      "content": "Substitute $a=-10$ into the intersection equation:<br/>$$2x^2-20x+50=0$$<br/>Divide by $2$: $$x^2-10x+25=0$$<br/>$$(x-5)^2=0$$<br/>So the single intersection has $x=5$. That confirms <strong>C</strong> is correct.",
       "desmosExpressions": [
         "(5,-5)"
       ]

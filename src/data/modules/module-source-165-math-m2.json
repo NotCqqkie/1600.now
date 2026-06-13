@@ -45,7 +45,7 @@
     "difficulty": "Easy",
     "question_number": 2,
     "test_name": "Module Source 165 Math M2",
-    "passage": "If 8($x$ + 3) = 64, what is the value of $x$ + 3?",
+    "passage": "If $8(x + 3) = 64$, what is the value of $x$ + 3?",
     "question_text": null,
     "choices": [
       {
@@ -77,7 +77,7 @@
     "difficulty": "Easy",
     "question_number": 3,
     "test_name": "Module Source 165 Math M2",
-    "passage": "Which expression is equivalent to $\\sqrt{x^{153}}$, where $x > 0$?",
+    "passage": "Which expression is equivalent to $\\sqrt{x^{153}}$, where $x \\gt 0$?",
     "question_text": null,
     "choices": [
       {
@@ -180,7 +180,7 @@
     "difficulty": "Easy",
     "question_number": 6,
     "test_name": "Module Source 165 Math M2",
-    "passage": "Which expression is equivalent to $ (6t^4 - 3t^2 + 3t - 6) - (2t^4 - 4t^3 + 6t^2 - 6) $?",
+    "passage": "Which expression is equivalent to $(6t^4 - 3t^2 + 3t - 6) - (2t^4 - 4t^3 + 6t^2 - 6)$?",
     "question_text": null,
     "choices": [
       {
@@ -496,7 +496,7 @@
     "difficulty": "Hard",
     "question_number": 18,
     "test_name": "Module Source 165 Math M2",
-    "passage": "$2\\cos(90 - a)\\degree \\cdot \\cos b\\degree + \\sin(a + y)\\degree \\cdot \\sin(90 - b)\\degree$\nIn the given expression, $a$ and $b$ are constants such that $\\sin a\\degree = 0.50$, $\\cos b\\degree = 0.99$, and $0 < b < 90$. What is the value of the given expression when $y = 0$?",
+    "passage": "$2\\cos(90 - a)\\degree \\cdot \\cos b\\degree + \\sin(a + y)\\degree \\cdot \\sin(90 - b)\\degree$\nIn the given expression, $a$ and $b$ are constants such that $\\sin a\\degree = 0.50$, $\\cos b\\degree = 0.99$, and $0 \\lt b \\lt 90$. What is the value of the given expression when $y = 0$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

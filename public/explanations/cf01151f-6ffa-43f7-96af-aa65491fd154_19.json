@@ -1,1 +1,15 @@
-{"questionId":"cf01151f-6ffa-43f7-96af-aa65491fd154_19","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank fills an opening phrase before the main clause \"it has since been translated into other languages.\" An introductory phrase cannot contain its own finite verb &mdash; it must use a non-finite form (like a past participle) to modify the subject of the main clause."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'is written'</strong>: A present-tense finite verb. This creates a second independent clause (\"Originally is written in ancient Greek\") with no conjunction joining it to the main clause &mdash; a comma splice. &#10007;</li><li><strong>Choice B &mdash; 'had been written'</strong>: A past perfect finite verb. Same problem as A: it forms a full verb phrase that turns the opening into an independent clause, producing a comma splice or a run-on. &#10007;</li><li><strong>Choice C &mdash; 'written'</strong>: A past participle used as a modifier. \"Originally written in ancient Greek\" is a participial phrase that correctly introduces the main clause &mdash; no finite verb, no structural problem. &#10003;</li><li><strong>Choice D &mdash; 'was written'</strong>: A simple past finite verb. Again produces an independent clause (\"Originally was written in ancient Greek\"), which cannot be joined to the main clause by a comma alone. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "cf01151f-6ffa-43f7-96af-aa65491fd154_19",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank fills an opening phrase before the main clause \"it has since been translated into other languages.\" An introductory phrase cannot contain its own finite verb &mdash; it must use a non-finite form (like a past participle) to modify the subject of the main clause."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; is written</strong>: A present-tense finite verb. This creates a second independent clause (\"Originally is written in ancient Greek\") with no conjunction joining it to the main clause &mdash; a comma splice. &#10007;</li><li><strong>Choice B &mdash; had been written</strong>: A past perfect finite verb. Same problem as A: it forms a full verb phrase that turns the opening into an independent clause, producing a comma splice or a run-on. &#10007;</li><li><strong>Choice C &mdash; written</strong>: A past participle used as a modifier. \"Originally written in ancient Greek\" is a participial phrase that correctly introduces the main clause &mdash; no finite verb, no structural problem. &#10003;</li><li><strong>Choice D &mdash; was written</strong>: A simple past finite verb. Again produces an independent clause (\"Originally was written in ancient Greek\"), which cannot be joined to the main clause by a comma alone. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

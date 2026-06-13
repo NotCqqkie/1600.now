@@ -227,7 +227,7 @@
       },
       {
         "label": "B",
-        "text": "$3(x + y) = 28$"
+        "text": "${3}(x + y) = 28$"
       },
       {
         "label": "C",
@@ -367,7 +367,7 @@
     "difficulty": "Easy",
     "question_number": 13,
     "test_name": "Module Source 172 Math M1",
-    "passage": "If $6(8 - 2x) + 3 = 5(8 - 2x) + 19$, what is the value of $8 - 2x$?",
+    "passage": "If ${6}(8 - 2x) + 3 = 5(8 - 2x) + 19$, what is the value of $8 - 2x$?",
     "question_text": null,
     "choices": [
       {
@@ -399,7 +399,7 @@
     "difficulty": "Medium",
     "question_number": 14,
     "test_name": "Module Source 172 Math M1",
-    "passage": "The table shows four values of $a$ and their corresponding values of $y$. There is a linear relationship between $x$ and $y$. Which of the following equations represents this relationship?",
+    "passage": "The table shows four values of $x$ and their corresponding values of $y$. There is a linear relationship between $x$ and $y$. Which of the following equations represents this relationship?",
     "question_text": null,
     "choices": [
       {

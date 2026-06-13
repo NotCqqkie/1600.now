@@ -6,7 +6,7 @@
     "difficulty": "Medium",
     "question_number": 1,
     "test_name": "Module Source 158 Eng M2",
-    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nText corpora such as the British National Corpus are large collections of electronically stored texts that can be used to determine the frequency of ______ words. (Words used mainly in specialized or academic publications, on the other hand, tend to be poorly represented.) A corpus could reveal, for example, that the word “world\" is the eighth most commonly used noun in standard English.",
+    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nText corpora such as the British National Corpus are large collections of electronically stored texts that can be used to determine the frequency of ______ words. (Words used mainly in specialized or academic publications, on the other hand, tend to be poorly represented.) A corpus could reveal, for example, that the word \"world\" is the eighth most commonly used noun in standard English.",
     "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
     "choices": [
       {
@@ -134,12 +134,12 @@
     "difficulty": "Medium",
     "question_number": 5,
     "test_name": "Module Source 158 Eng M2",
-    "passage": "Which choice best describes the function of the references to “neighborhood type” and “individual physical fitness” in the text as a whole?\nLisbon has high pedestrian traffic, but simply replicating a feature of Lisbon associated with walkability—e.g., its high number of relatively short blocks—may be insufficient to induce increased walking in other cities. As urbanist Mariela Alfonzo argues, our understanding of individuals’ decision-making about whether to walk is insufficiently robust: some studies emphasize the role of <u>neighborhood type</u>, others the role of <u>individual physical fitness</u>, and so on, but walking decisions are made in complex contexts in which multiple conditions and needs inform individuals' choices.",
-    "question_text": "Which choice best describes the function of the references to “neighborhood type” and “individual physical fitness” in the text as a whole?",
+    "passage": "Which choice best describes the function of the references to \"neighborhood type\" and \"individual physical fitness\" in the text as a whole?\nLisbon has high pedestrian traffic, but simply replicating a feature of Lisbon associated with walkability—e.g., its high number of relatively short blocks—may be insufficient to induce increased walking in other cities. As urbanist Mariela Alfonzo argues, our understanding of individuals' decision-making about whether to walk is insufficiently robust: some studies emphasize the role of <u>neighborhood type</u>, others the role of <u>individual physical fitness</u>, and so on, but walking decisions are made in complex contexts in which multiple conditions and needs inform individuals' choices.",
+    "question_text": "Which choice best describes the function of the references to \"neighborhood type\" and \"individual physical fitness\" in the text as a whole?",
     "choices": [
       {
         "label": "A",
-        "text": "They are examples of factors that studies suggest are important in people’s decision-making about walking but that the text claims most people rarely consider when making walking decisions."
+        "text": "They are examples of factors that studies suggest are important in people's decision-making about walking but that the text claims most people rarely consider when making walking decisions."
       },
       {
         "label": "B",
@@ -198,7 +198,7 @@
     "difficulty": "Hard",
     "question_number": 7,
     "test_name": "Module Source 158 Eng M2",
-    "passage": "Which choice best states the main idea of the text?\nThe following text is from George Eliot's 1857 short story *“The Sad Fortunes of the Rev. Amos Barton.”* In the text, the narrator addresses the reader directly and alludes to a discussion among Rev. Amos Barton's neighbors. It was happy for the Rev. Amos Barton that he did not, like us, overhear the conversation recorded in the last chapter. Indeed, what mortal is there of us, who would find his satisfaction enhanced by an opportunity of comparing the picture he presents to himself of his own doings, with the picture they make on the mental retina of his neighbours? We are poor plants buoyed up by the air-vessels of our own conceit. Alas for us, if we get a few pinches that empty us of that windy self-subsistence! The very capacity for good would go out of us.",
+    "passage": "Which choice best states the main idea of the text?\nThe following text is from George Eliot's 1857 short story *\"The Sad Fortunes of the Rev. Amos Barton.\"* In the text, the narrator addresses the reader directly and alludes to a discussion among Rev. Amos Barton's neighbors. It was happy for the Rev. Amos Barton that he did not, like us, overhear the conversation recorded in the last chapter. Indeed, what mortal is there of us, who would find his satisfaction enhanced by an opportunity of comparing the picture he presents to himself of his own doings, with the picture they make on the mental retina of his neighbours? We are poor plants buoyed up by the air-vessels of our own conceit. Alas for us, if we get a few pinches that empty us of that windy self-subsistence! The very capacity for good would go out of us.",
     "question_text": "Which choice best states the main idea of the text?",
     "choices": [
       {
@@ -230,8 +230,8 @@
     "difficulty": "Medium",
     "question_number": 8,
     "test_name": "Module Source 158 Eng M2",
-    "passage": "Which statement about the view put forward by “some researchers\" is best supported by information in the text?\n<u>Some researchers</u> have characterized the flora and fauna of the South Pacific island of Grande Terre as members of clades that inhabited nearby islands before Grande Terre completely emerged 37 million years ago. Thomas R. Buckley et al. found that the crown age (the age of the most recent common ancestor of all living and extinct species in the clade) of the clade of stick insects on Grande Terre is approximately 41.1 million years, while Jesús Gomez-Zurita et al. found that the crown age of the clade of flea beetles on Grande Terre is approximately 12.8 million years.",
-    "question_text": "Which statement about the view put forward by “some researchers\" is best supported by information in the text?",
+    "passage": "Which statement about the view put forward by \"some researchers\" is best supported by information in the text?\n<u>Some researchers</u> have characterized the flora and fauna of the South Pacific island of Grande Terre as members of clades that inhabited nearby islands before Grande Terre completely emerged 37 million years ago. Thomas R. Buckley et al. found that the crown age (the age of the most recent common ancestor of all living and extinct species in the clade) of the clade of stick insects on Grande Terre is approximately 41.1 million years, while Jesús Gomez-Zurita et al. found that the crown age of the clade of flea beetles on Grande Terre is approximately 12.8 million years.",
+    "question_text": "Which statement about the view put forward by \"some researchers\" is best supported by information in the text?",
     "choices": [
       {
         "label": "A",
@@ -262,7 +262,7 @@
     "difficulty": "Hard",
     "question_number": 9,
     "test_name": "Module Source 158 Eng M2",
-    "passage": "Which statement about the difrasismo in cuauhtli in ocelotl is most strongly supported by the text?\nPoetry in Classical Nahuatl, the language of the Aztec Empire, relies on difrasismo, or a parallel noun construction that conventionally operates as a single metaphor. For example, the common difrasismo in cuauhtli in ocelotl (literally, “the eagle, the jaguar”) signifies “warrior.” The device's function is both formal—providing structure to lines of verse—and ritual: semantic relations among the two nouns and the concept they signify can be tenuous, as in the previous example, such that difrasismos are often only intelligible according to the conceptual associations observed in Aztec ceremonial culture.",
+    "passage": "Which statement about the difrasismo in cuauhtli in ocelotl is most strongly supported by the text?\nPoetry in Classical Nahuatl, the language of the Aztec Empire, relies on difrasismo, or a parallel noun construction that conventionally operates as a single metaphor. For example, the common difrasismo in cuauhtli in ocelotl (literally, \"the eagle, the jaguar\") signifies \"warrior.\" The device's function is both formal—providing structure to lines of verse—and ritual: semantic relations among the two nouns and the concept they signify can be tenuous, as in the previous example, such that difrasismos are often only intelligible according to the conceptual associations observed in Aztec ceremonial culture.",
     "question_text": "Which statement about the difrasismo in cuauhtli in ocelotl is most strongly supported by the text?",
     "choices": [
       {
@@ -557,7 +557,7 @@
     "difficulty": "Medium",
     "question_number": 18,
     "test_name": "Module Source 158 Eng M2",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThough he's performed on many respected albums, including *While the Gate Is Open* by Gary Thomas, drummer Dennis Chambers may be best known for his time as house drummer for the hip-hop label Sugar Hill Records. He did not play drums on the label's classic song “Rapper's Delight”______joined the label after the song's release.",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThough he's performed on many respected albums, including *While the Gate Is Open* by Gary Thomas, drummer Dennis Chambers may be best known for his time as house drummer for the hip-hop label Sugar Hill Records. He did not play drums on the label's classic song \"Rapper's Delight\"______joined the label after the song's release.",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {

@@ -1,1 +1,15 @@
-{"questionId":"d9f381e2-df35-4ee7-a137-e689faac81b1_9","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks for the height of Tikal Temple IV. Locate that pyramid in the table and read the value in the Height column."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 70 meters</strong>: the value shown in Tikal Temple IV&apos;s row. &#10003;</li><li><strong>Choice B</strong>: height of a different pyramid in the table. &#10007;</li><li><strong>Choice C</strong>: height of a different pyramid in the table. &#10007;</li><li><strong>Choice D</strong>: height of a different pyramid in the table. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "d9f381e2-df35-4ee7-a137-e689faac81b1_9",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks for the height of Tikal Temple IV. Locate that pyramid in the table and read the value in the Height column."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"70 meters tall.\"</strong>: the value shown in Tikal Temple IV's row. &#10003;</li><li><strong>\"138.8 meters tall.\"</strong>: height of a different pyramid in the table. &#10007;</li><li><strong>\"143.5 meters tall.\"</strong>: height of a different pyramid in the table. &#10007;</li><li><strong>\"100 meters tall.\"</strong>: height of a different pyramid in the table. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_9", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the shared publication context", "content": "The passage specifies that The Federalist Papers were published in 1787-88 across multiple newspapers, and both No. 12 and No. 62 are essays within this collection."}, {"title": "Match the context to the choices", "content": "Both essays are in The Federalist Papers, which were published in 1787-88, so both were published during that period.<br/><br/>Choices A and D contradict the passage by claiming uncertain or collaborative authorship for No. 12 (which was “surely penned by Hamilton”), and Choice C assumes both appeared in the Independent Journal without evidence.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_9",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the shared publication context",
+      "content": "The passage specifies that The Federalist Papers were published in 1787-88 across multiple newspapers, and both No. 12 and No. 62 are essays within this collection."
+    },
+    {
+      "title": "Match the context to the choices",
+      "content": "Both essays are in The Federalist Papers, which were published in 1787-88, so both were published during that period.<br/><br/>The other choices contradict the passage by claiming uncertain or collaborative authorship for No. 12 (which was “surely penned by Hamilton”), and Choice C assumes both appeared in the Independent Journal without evidence.<br/><br/>That is the correct answer."
+    }
+  ]
+}

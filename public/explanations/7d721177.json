@@ -9,7 +9,7 @@
     },
     {
       "title": "Find edge length and round",
-      "content": "For a cube, $s^3 = \\text{Volume}$. Substituting: <br/> $$s^3 = 0.9773$$ <br/> $$s = \\sqrt[3]{0.9773} \\approx 0.9924$$ <br/> Rounding to the nearest hundredth: 0.9924 → 0.99 <br/> That matches choice B — <strong>B</strong> is correct."
+      "content": "For a cube, $s^3 = \\text{Volume}$. Substituting: <br/> $$s^3 = 0.9773$$ <br/> $$s = \\sqrt[3]{0.9773} \\approx 0.9924$$ <br/> Rounding to the nearest hundredth: 0.9924 → 0.99 <br/> That confirms <strong>B</strong> is correct."
     }
   ]
 }

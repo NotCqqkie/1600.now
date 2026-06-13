@@ -9,7 +9,7 @@
     },
     {
       "title": "Backsolve the percent quickly",
-      "content": "Choice B says $11\\%$. Check it against Employee A's total: $$0.11(145)=15.95$$ That rounds to $16$, exactly the number of $1$-star calls."
+      "content": "The correct answer says $11\\%$. Check it against Employee A's total: $$0.11(145)=15.95$$ That rounds to $16$, exactly the number of $1$-star calls."
     },
     {
       "title": "Confirm the fraction",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "<ul><li>Choice A, $3\\%$, compares $16$ to all $500$ calls, not to Employee A's $145$ calls.</li><li>Choice B, $11\\%$, uses $16$ out of $145$. Correct.</li><li>Choice C, $16\\%$, treats the count $16$ like a percent.</li><li>Choice D, $32\\%$, compares Employee A's $16$ one-star calls to all $50$ one-star calls.</li></ul>That matches choice B."
+      "content": "<ul><li>$3\\%$ compares $16$ to all $500$ calls, not to Employee A's $145$ calls.</li><li>The matching choice, $11\\%$, uses $16$ out of $145$. Correct.</li><li>$16\\%$ treats the count $16$ like a percent.</li><li>$32\\%$ compares Employee A's $16$ one-star calls to all $50$ one-star calls.</li></ul>The result matches."
     }
   ]
 }

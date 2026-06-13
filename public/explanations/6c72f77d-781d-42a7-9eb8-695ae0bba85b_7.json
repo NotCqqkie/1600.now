@@ -9,7 +9,7 @@
     },
     {
       "title": "Compare the two histograms",
-      "content": "Team A's histogram is concentrated near the center (most scores cluster around the middle bins).<br/><br/>Team B's histogram is more spread out, with significant counts in the extreme bins.<br/><br/>So team A has the smaller spread: $\\sigma_A \\lt \\sigma_B$.<br/><br/>That matches choice A — <strong>A</strong> is correct."
+      "content": "Team A's histogram is concentrated near the center (most scores cluster around the middle bins).<br/><br/>Team B's histogram is more spread out, with significant counts in the extreme bins.<br/><br/>So team A has the smaller spread: $\\sigma_A \\lt \\sigma_B$.<br/><br/>That confirms <strong>A</strong> is correct."
     }
   ]
 }

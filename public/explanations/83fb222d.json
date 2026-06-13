@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the answer",
-      "content": "The value of $n+4$ is <strong>6</strong>. Check the original equation: $6(2)=12$, so $n=2$ is valid before adding $4$."
+      "content": "The value of $n+4$ is <strong>6</strong>. Check the original equation: ${6}(2)=12$, so $n=2$ is valid before adding $4$."
     }
   ]
 }

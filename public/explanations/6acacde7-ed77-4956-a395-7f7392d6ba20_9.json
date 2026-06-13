@@ -13,7 +13,7 @@
     },
     {
       "title": "Calculate the circumference",
-      "content": "The circumference is:<br/>$$C=2\\pi r=2\\pi(3)=6\\pi$$<br/>Since $C=k\\pi$, $k=6$. That matches choice <strong>B</strong>."
+      "content": "The circumference is:<br/>$$C=2\\pi r=2\\pi(3)=6\\pi$$<br/>Since $C=k\\pi$, $k=6$. That confirms <strong>B</strong>."
     }
   ]
 }

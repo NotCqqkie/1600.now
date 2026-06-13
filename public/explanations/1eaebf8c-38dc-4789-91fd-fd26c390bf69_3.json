@@ -1,1 +1,15 @@
-{"questionId":"1eaebf8c-38dc-4789-91fd-fd26c390bf69_3","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage says rising prices had a &ldquo;counterintuitive effect of ______ demand.&rdquo; We need a word meaning the rising prices <em>produced</em> or <em>drew out</em> new demand from buyers who had not previously been interested &mdash; the opposite of what normally happens."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'capitalizing'</strong>: &ldquo;capitalizing demand&rdquo; is not a standard phrase and does not describe generating demand. &#10007;</li><li><strong>Choice B &mdash; 'exploiting'</strong>: to exploit demand means to take advantage of existing demand, not to create new demand. &#10007;</li><li><strong>Choice C &mdash; 'eliciting'</strong>: to elicit means to draw out or bring forth something that was not previously present &mdash; exactly what rising prices did when they drew new buyers into the market. &#10003;</li><li><strong>Choice D &mdash; 'satisfying'</strong>: to satisfy demand means to fulfill demand that already exists, not to generate new demand. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_3",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage says rising prices had a &ldquo;counterintuitive effect of ______ demand.&rdquo; We need a word meaning the rising prices <em>produced</em> or <em>drew out</em> new demand from buyers who had not previously been interested &mdash; the opposite of what normally happens."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; capitalizing</strong>: &ldquo;capitalizing demand&rdquo; is not a standard phrase and does not describe generating demand. &#10007;</li><li><strong>Choice B &mdash; exploiting</strong>: to exploit demand means to take advantage of existing demand, not to create new demand. &#10007;</li><li><strong>Choice C &mdash; eliciting</strong>: to elicit means to draw out or bring forth something that was not previously present &mdash; exactly what rising prices did when they drew new buyers into the market. &#10003;</li><li><strong>Choice D &mdash; satisfying</strong>: to satisfy demand means to fulfill demand that already exists, not to generate new demand. &#10007;</li></ul>That matches <strong>Choice C &mdash; eliciting</strong>."
+    }
+  ]
+}

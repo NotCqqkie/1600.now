@@ -1,1 +1,15 @@
-{"questionId": "d70596a3-d7c7-4cbc-9453-87383eff173a_11", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the claim about non-uniform growth", "content": "The passage states that renewable trends were “not uniformly upward” from 2017–2020 and supports this with solar's decline. The blank must complete this claim with evidence that other technologies did not increase uniformly throughout the period."}, {"title": "Select the evidence of interrupted growth", "content": "Choice A documents that geothermal and wind neither increased nor decreased from 2019–2020, demonstrating interrupted growth that proves “not uniformly upward.” Choices B and D present capacity comparisons rather than trend evidence; choice C portrays wind as rising throughout, which fails to show the growth interruption the claim requires.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "d70596a3-d7c7-4cbc-9453-87383eff173a_11",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the claim about non-uniform growth",
+      "content": "The passage states that renewable trends were “not uniformly upward” from 2017–2020 and supports this with solar's decline. The blank must complete this claim with evidence that other technologies did not increase uniformly throughout the period."
+    },
+    {
+      "title": "Select the evidence of interrupted growth",
+      "content": "<strong>both geothermal and wind neither increased nor decreased from 2019 to 2020.</strong> documents that geothermal and wind neither increased nor decreased from 2019–2020, demonstrating interrupted growth that proves “not uniformly upward.” Two other options present capacity comparisons rather than trend evidence; the wind-focused alternative portrays wind as rising throughout, which fails to show the growth interruption the claim requires.<br/><br/>That matches the correct answer — <strong>A</strong> is correct."
+    }
+  ]
+}

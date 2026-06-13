@@ -1,1 +1,15 @@
-{"questionId": "25547537-4b75-4c1c-8c86-e3b70293c301_22", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Read the passage for structure", "content": "The passage describes a three-step process: (1) a surveyor makes a grid, (2) <strong>Then</strong> the site is dug and artifacts are recorded, (3) the blank introduces the final step. The word <strong>Then</strong> signals sequence, so the blank must mark the concluding stage in that same sequence."}, {"title": "Eliminate wrong transitions and confirm the answer", "content": "Test each choice against the sequential context:<ul><li><strong>Choice A &mdash; 'For instance,'</strong>: introduces a specific example of a general claim; the artifact removal step is not an example of anything &mdash; it is the next action in the dig. &#10007;</li><li><strong>Choice B &mdash; 'On the contrary,'</strong>: signals contradiction or reversal; the final step does not contradict the previous steps. &#10007;</li><li><strong>Choice C &mdash; 'Earlier,'</strong>: signals that what follows happened before what was just described, reversing the chronological order. &#10007;</li><li><strong>Choice D &mdash; 'Finally,'</strong>: marks the last step in a sequence, fitting naturally after &quot;Then&quot; to introduce the third and concluding stage of the dig. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "25547537-4b75-4c1c-8c86-e3b70293c301_22",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the passage for structure",
+      "content": "The passage describes a three-step process: (1) a surveyor makes a grid, (2) <strong>Then</strong> the site is dug and artifacts are recorded, (3) the blank introduces the final step. The word <strong>Then</strong> signals sequence, so the blank must mark the concluding stage in that same sequence."
+    },
+    {
+      "title": "Eliminate wrong transitions and confirm the answer",
+      "content": "Test each choice against the sequential context:<ul><li><strong>Choice A &mdash; For instance,</strong>: introduces a specific example of a general claim; the artifact removal step is not an example of anything &mdash; it is the next action in the dig. &#10007;</li><li><strong>Choice B &mdash; On the contrary,</strong>: signals contradiction or reversal; the final step does not contradict the previous steps. &#10007;</li><li><strong>Choice C &mdash; Earlier,</strong>: signals that what follows happened before what was just described, reversing the chronological order. &#10007;</li><li><strong>Choice D &mdash; Finally,</strong>: marks the last step in a sequence, fitting naturally after &quot;Then&quot; to introduce the third and concluding stage of the dig. &#10003;</li></ul>That matches <strong>Choice D &mdash; Finally,</strong>."
+    }
+  ]
+}

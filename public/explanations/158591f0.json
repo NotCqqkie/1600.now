@@ -9,7 +9,7 @@
     },
     {
       "title": "Vieta shortcut: sum $= -b/a$",
-      "content": "$$\\text{sum} = \\frac{-29}{-3} = \\frac{29}{3}$$<br/>That matches choice 29/3 — <strong>29/3</strong> is correct."
+      "content": "$$\\text{sum} = \\frac{-29}{-3} = \\frac{29}{3}$$<br/>Vieta's formula gives the sum directly from the standard-form coefficients, so the individual roots do not need to be found. Therefore <strong>29/3</strong> is correct."
     }
   ]
 }

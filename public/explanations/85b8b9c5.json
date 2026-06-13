@@ -1,1 +1,15 @@
-{"questionId": "85b8b9c5", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the two independent clauses", "content": "The sentence contains two independent clauses: (1) &ldquo;Leibniz wheel calculators were popular in the first half of the twentieth [blank]&rdquo; and (2) &ldquo;these ingenious devices were eventually replaced by electronic calculators.&rdquo; The blank must provide punctuation and/or a connector that legally joins them while conveying that popularity gave way to replacement."}, {"title": "Eliminate each choice and confirm the answer", "content": "<ul><li><strong>Choice A &mdash; 'century'</strong>: no punctuation or conjunction between two independent clauses &mdash; produces a run-on sentence (fused clauses). &#10007;</li><li><strong>Choice B &mdash; 'century,'</strong>: a comma alone between two independent clauses &mdash; produces a comma splice. &#10007;</li><li><strong>Choice C &mdash; 'century, but'</strong>: a comma plus coordinating conjunction correctly joins two independent clauses; &ldquo;but&rdquo; also signals the contrast between the devices&apos; popularity and their replacement. &#10003;</li><li><strong>Choice D &mdash; 'century that'</strong>: the subordinating word &ldquo;that&rdquo; turns the first clause into a fragment and creates an illogical, ungrammatical sentence. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "85b8b9c5",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the two independent clauses",
+      "content": "The sentence contains two independent clauses: (1) &ldquo;Leibniz wheel calculators were popular in the first half of the twentieth [blank]&rdquo; and (2) &ldquo;these ingenious devices were eventually replaced by electronic calculators.&rdquo; The blank must provide punctuation and/or a connector that legally joins them while conveying that popularity gave way to replacement."
+    },
+    {
+      "title": "Eliminate each choice and confirm the answer",
+      "content": "<ul><li><strong>Choice A &mdash; century</strong>: no punctuation or conjunction between two independent clauses &mdash; produces a run-on sentence (fused clauses). &#10007;</li><li><strong>Choice B &mdash; century,</strong>: a comma alone between two independent clauses &mdash; produces a comma splice. &#10007;</li><li><strong>Choice C &mdash; century, but</strong>: a comma plus coordinating conjunction correctly joins two independent clauses; &ldquo;but&rdquo; also signals the contrast between the devices&apos; popularity and their replacement. &#10003;</li><li><strong>Choice D &mdash; century that</strong>: the subordinating word &ldquo;that&rdquo; turns the first clause into a fragment and creates an illogical, ungrammatical sentence. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

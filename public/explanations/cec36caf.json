@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice A is correct. Choice B solves a different equation, choice C is $x^2$ rather than $x$, and choice D comes from not dividing by $8$.",
+      "content": "Choice A, $3$, is correct. Choice B, $4$, solves a different equation; choice C, $9$, is $x^2$ rather than $x$; and choice D, $72$, comes from not dividing by $8$.",
       "desmosExpressions": [
         "y=8x^2-40",
         "y=32"

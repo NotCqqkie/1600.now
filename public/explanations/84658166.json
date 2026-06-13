@@ -1,1 +1,15 @@
-{"questionId": "84658166", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the sentence structure and what punctuation is needed", "content": "The sentence has two parts: an independent clause ending near &quot;equations&quot; and a supplementary adverb &quot;though&quot; followed by a second independent clause explaining how Hopper&apos;s career extended beyond equations. The blank must punctuate the boundary between the first clause, the supplement &quot;though,&quot; and the explanatory clause that follows."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; 'equations, though:'</strong>: The comma separates the independent clause from the adverb &quot;though,&quot; and the colon correctly introduces the explanatory clause that follows. &#10003;</li><li><strong>Choice B &mdash; 'equations, though,'</strong>: Creates a comma splice &mdash; a comma alone cannot join the two resulting independent clauses (&quot;Hopper&apos;s&hellip;though&quot; and &quot;as&hellip;age&quot;). &#10007;</li><li><strong>Choice C &mdash; 'equations. Though,'</strong>: The period fragments the thought, and starting the next sentence with &quot;Though,&quot; illogically signals that what follows contradicts the previous sentence when it actually supports it. &#10007;</li><li><strong>Choice D &mdash; 'equations though'</strong>: No punctuation fuses two independent clauses into a run-on sentence. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "84658166",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the sentence structure and what punctuation is needed",
+      "content": "The sentence has two parts: an independent clause ending near &quot;equations&quot; and a supplementary adverb &quot;though&quot; followed by a second independent clause explaining how Hopper&apos;s career extended beyond equations. The blank must punctuate the boundary between the first clause, the supplement &quot;though,&quot; and the explanatory clause that follows."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; equations, though:</strong>: The comma separates the independent clause from the adverb &quot;though,&quot; and the colon correctly introduces the explanatory clause that follows. &#10003;</li><li><strong>Choice B &mdash; equations, though,</strong>: Creates a comma splice &mdash; a comma alone cannot join the two resulting independent clauses (&quot;Hopper&apos;s&hellip;though&quot; and &quot;as&hellip;age&quot;). &#10007;</li><li><strong>Choice C &mdash; equations. Though,</strong>: The period fragments the thought, and starting the next sentence with &quot;Though,&quot; illogically signals that what follows contradicts the previous sentence when it actually supports it. &#10007;</li><li><strong>Choice D &mdash; equations though</strong>: No punctuation fuses two independent clauses into a run-on sentence. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

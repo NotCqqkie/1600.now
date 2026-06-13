@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the subject structure",
-      "content": "Subject: <strong>\u201cThe trefoil knot and the figure-eight knot\u201d</strong> \u2014 two distinct items connected by \u201cand\u201d. The phrase \u201ceach with a crossing number below five\u201d is parenthetical information that doesn't change this."
+      "content": "Subject: <strong>“The trefoil knot and the figure-eight knot”</strong> — two distinct items connected by “and”. The phrase “each with a crossing number below five” is parenthetical information that doesn't change this."
     },
     {
       "title": "Apply subject-verb agreement",
-      "content": "Identify the grammar issue: subject-verb agreement. Rule: two subjects joined by \"and\" form a compound subject that takes a plural verb.\n<ul>\n<li><strong>Choice A \u2014 \"was\"</strong>: singular past-tense verb; disagrees with compound subject \"the trefoil knot and the figure-eight knot.\" \u2717</li>\n<li><strong>Choice B \u2014 \"is\"</strong>: singular present-tense verb; disagrees with compound subject. \u2717</li>\n<li><strong>Choice C \u2014 \"has been\"</strong>: singular present-perfect verb; disagrees with compound subject. \u2717</li>\n<li><strong>Choice D \u2014 \"are\"</strong>: plural present-tense verb; agrees with compound subject. \u2713</li>\n</ul>\nThat matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "Identify the grammar issue: subject-verb agreement. Rule: two subjects joined by \"and\" form a compound subject that takes a plural verb.\n<ul>\n<li><strong>Choice A — was</strong>: singular past-tense verb; disagrees with compound subject \"the trefoil knot and the figure-eight knot.\" ✗</li>\n<li><strong>Choice B — is</strong>: singular present-tense verb; disagrees with compound subject. ✗</li>\n<li><strong>Choice C — has been</strong>: singular present-perfect verb; disagrees with compound subject. ✗</li>\n<li><strong>Choice D — are</strong>: plural present-tense verb; agrees with compound subject. ✓</li>\n</ul>\nThat matches <strong>Choice D &mdash; are</strong>."
     }
   ]
 }

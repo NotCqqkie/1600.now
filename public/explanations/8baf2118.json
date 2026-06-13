@@ -17,7 +17,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "The equation is $y=13.5-0.8x$. Choice A has the wrong slope sign, C has the wrong intercept sign, and D has both signs wrong. Choice <strong>B</strong> is correct.",
+      "content": "The equation is $y=13.5-0.8x$. $y=13.5+0.8x$ has the wrong slope sign, $y=-13.5+0.8x$ has the wrong intercept sign, and $y=-13.5-0.8x$ has both signs wrong.",
       "desmosExpressions": [
         "y=13.5-0.8x"
       ]

@@ -9,7 +9,7 @@
     },
     {
       "title": "Compute LQ and test all choices",
-      "content": "$LQ = LR + RQ = 10 + \\frac{190}{9} = \\frac{90}{9} + \\frac{190}{9} = \\frac{280}{9}$.<ul><li><strong>Choice A &mdash; $\\frac{280}{19}$</strong>: Uses 19 as the denominator instead of 9; incorrect ratio application. &#10007;</li><li><strong>Choice B &mdash; $\\frac{190}{9}$</strong>: This is only RQ, forgetting to add LR = 10. &#10007;</li><li><strong>Choice C &mdash; $\\frac{271}{9}$</strong>: Does not correspond to any valid calculation. &#10007;</li><li><strong>Choice D &mdash; $\\frac{280}{9}$</strong>: $LR + RQ = 10 + \\frac{190}{9} = \\frac{280}{9}$. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "content": "$LQ = LR + RQ = 10 + \\frac{190}{9} = \\frac{90}{9} + \\frac{190}{9} = \\frac{280}{9}$.<ul><li><strong>Choice A &mdash; &lsquo;$\\frac{280}{19}$&rsquo;</strong>: Uses 19 as the denominator instead of 9; incorrect ratio application. &#10007;</li><li><strong>Choice B &mdash; &lsquo;$\\frac{190}{9}$&rsquo;</strong>: This is only RQ, forgetting to add LR = 10. &#10007;</li><li><strong>Choice C &mdash; &lsquo;$\\frac{271}{9}$&rsquo;</strong>: Does not correspond to any valid calculation. &#10007;</li><li><strong>Choice D &mdash; &lsquo;$\\frac{280}{9}$&rsquo;</strong>: $LR + RQ = 10 + \\frac{190}{9} = \\frac{280}{9}$. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
     }
   ]
 }

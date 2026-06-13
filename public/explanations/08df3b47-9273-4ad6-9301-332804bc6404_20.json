@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "The model is $$f(t)=-16(t-1.3)^2+27.04$$ which matches choice <strong>A</strong>."
+      "content": "The model is $$f(t)=-16(t-1.3)^2+27.04$$ which matches <strong>Choice A &mdash; $f(t) = -16(t - 1.3)^2 + 27.04$</strong>."
     }
   ]
 }

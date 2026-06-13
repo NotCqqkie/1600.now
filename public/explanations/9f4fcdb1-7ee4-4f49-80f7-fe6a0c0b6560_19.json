@@ -1,1 +1,15 @@
-{"questionId":"9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_19","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence has a parenthetical phrase interrupting a relative clause on the left, and a passive infinitive on the right that needs a modal verb. The blank must close the parenthetical with a comma and supply the missing modal &apos;could&apos; before &apos;be easily carved.&apos;"},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A</strong>: Does not include the closing comma for the parenthetical, leaving the interruption improperly set off. &#10007;</li><li><strong>Choice B &mdash; &apos;malleability,&apos; + &apos;could&apos;</strong>: Closes the parenthetical with a comma and supplies the required modal verb, making the sentence grammatically complete. &#10003;</li><li><strong>Choice C</strong>: Uses unconventional punctuation (a dash or semicolon) instead of a closing comma, breaking the parenthetical structure. &#10007;</li><li><strong>Choice D</strong>: Omits &apos;could,&apos; leaving the passive infinitive without a modal and breaking the verb structure. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_19",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence has a parenthetical phrase interrupting a relative clause on the left, and a passive infinitive on the right that needs a modal verb. The blank must close the parenthetical with a comma and supply the missing modal &apos;could&apos; before &apos;be easily carved.&apos;"
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; malleability-could</strong>: Does not include the closing comma for the parenthetical, leaving the interruption improperly set off. &#10007;</li><li><strong>Choice B &mdash; malleability, could</strong>: Closes the parenthetical with a comma and supplies the required modal verb, making the sentence grammatically complete. &#10003;</li><li><strong>Choice C &mdash; malleability could</strong>: Uses unconventional punctuation (a dash or semicolon) instead of a closing comma, breaking the parenthetical structure. &#10007;</li><li><strong>Choice D &mdash; malleability could-</strong>: Omits &apos;could,&apos; leaving the passive infinitive without a modal and breaking the verb structure. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

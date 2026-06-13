@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice C is correct. Choice B would be $(4x)^{-1}$, choice D would be $\\frac{x}{4}$, and choice A treats the function like a negative linear expression. The exponent applies only to $x$.",
+      "content": "Choice C, $\\frac{4}{21}$, is correct. Choice B, $\\frac{1}{84}$, would come from using $(4x)^{-1}$; choice D, $\\frac{21}{4}$, would come from using $\\left(4^{-1}\\right)x$; and choice A, $-84$, treats the function like a negative linear expression. The exponent applies only to $x$.",
       "desmosExpressions": [
         "f(x)=4x^(-1)",
         "x=21"

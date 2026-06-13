@@ -1,1 +1,15 @@
-{"questionId": "d007aa6c-6fd8-4005-bd58-dc779c145226_26", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The student wants to <strong>specify when Ur formed</strong>. A correct answer must state a precise time tied directly to Ur &mdash; not general background about supercontinents, not information about Gondwana, and not a vague reference to the past."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'Long ago, the Earth was home to supercontinents like Ur and Gondwana.'</strong>: &quot;long ago&quot; is vague and gives no specific formation date for Ur. &#10007;</li><li><strong>Choice B &mdash; 'The supercontinent Ur formed about 3.1 billion years ago.'</strong>: names Ur and provides the exact date from the notes &mdash; precisely what the question asks for. &#10003;</li><li><strong>Choice C &mdash; 'Ur was a supercontinent, a single landmass made up of most or all of Earth&apos;s continents.'</strong>: defines what a supercontinent is but says nothing about when Ur formed. &#10007;</li><li><strong>Choice D &mdash; 'Over hundreds of millions of years, the supercontinent cycle results in supercontinents forming and breaking apart.'</strong>: describes the supercontinent cycle in general; does not specify Ur&apos;s formation date. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "d007aa6c-6fd8-4005-bd58-dc779c145226_26",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The student wants to <strong>specify when Ur formed</strong>. A correct answer must state a precise time tied directly to Ur &mdash; not general background about supercontinents, not information about Gondwana, and not a vague reference to the past."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Long ago, the Earth was home to supercontinents like Ur and Gondwana.</strong>: &quot;long ago&quot; is vague and gives no specific formation date for Ur. &#10007;</li><li><strong>Choice B &mdash; The supercontinent Ur formed about 3.1 billion years ago.</strong>: names Ur and provides the exact date from the notes &mdash; precisely what the question asks for. &#10003;</li><li><strong>Choice C &mdash; Ur was a supercontinent, a single landmass made up of most or all of Earth's continents.</strong>: defines what a supercontinent is but says nothing about when Ur formed. &#10007;</li><li><strong>Choice D &mdash; Over hundreds of millions of years, the supercontinent cycle results in supercontinents forming and breaking apart.</strong>: describes the supercontinent cycle in general; does not specify Ur&apos;s formation date. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

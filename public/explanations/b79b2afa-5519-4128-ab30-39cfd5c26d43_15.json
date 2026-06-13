@@ -9,12 +9,12 @@
     },
     {
       "title": "Determine whether the vertex is a minimum or maximum",
-      "content": "The leading coefficient $a = \\frac{1}{9} > 0$, so the parabola opens upward. The vertex is the <strong>minimum</strong> point of the graph."
+      "content": "The leading coefficient $a = \\frac{1}{9} \\gt 0$, so the parabola opens upward. The vertex is the <strong>minimum</strong> point of the graph."
     },
     {
       "title": "Interpret the vertex in context",
-      "content": "The vertex $(4,\\,5)$ means: at $x = 4$ seconds, the car's height is $f(4) = 5$ inches &mdash; the <strong>minimum</strong> height on the track. That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "The vertex $(4,\\,5)$ means: at $x = 4$ seconds, the car's height is $f(4) = 5$ inches &mdash; the <strong>minimum</strong> height on the track. That is the correct answer."
     }
   ],
-  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; 'The toy car's minimum height was 5 inches above the ground.'</strong>: The vertex is $(4, 5)$ and $a > 0$ makes it a minimum; $f = 5$ inches is the minimum height. &#10003;</li><li><strong>Choice B &mdash; 'The toy car's minimum height was 4 inches above the ground.'</strong>: Confuses $h = 4$ (the time in seconds) with the height value; the height at the vertex is 5 inches, not 4. &#10007;</li><li><strong>Choice C &mdash; 'The toy car's height was 5 inches above the ground when it started moving.'</strong>: The car started at $x = 0$, giving $f(0) = \\frac{1}{9}(0-4)^2 + 5 = \\frac{16}{9} + 5 \\approx 6.78$ inches, not 5 inches. &#10007;</li><li><strong>Choice D &mdash; 'The toy car's height was 4 inches above the ground when it started moving.'</strong>: Neither the starting height nor 4 as a height value is supported by the function. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; The toy car's minimum height was 5 inches above the ground.</strong>: The vertex is $(4, 5)$ and $a \\gt 0$ makes it a minimum; $f = 5$ inches is the minimum height. &#10003;</li><li><strong>Choice B &mdash; The toy car's minimum height was 4 inches above the ground.</strong>: Confuses $h = 4$ (the time in seconds) with the height value; the height at the vertex is 5 inches, not 4. &#10007;</li><li><strong>Choice C &mdash; The toy car's height was 5 inches above the ground when it started moving.</strong>: The car started at $x = 0$, giving $f(0) = \\frac{1}{9}(0-4)^2 + 5 = \\frac{16}{9} + 5 \\approx 6.78$ inches, not 5 inches. &#10007;</li><li><strong>Choice D &mdash; The toy car's height was 4 inches above the ground when it started moving.</strong>: Neither the starting height nor 4 as a height value is supported by the function. &#10007;</li></ul>That is the correct answer."
 }

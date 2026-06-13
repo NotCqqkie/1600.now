@@ -1,1 +1,15 @@
-{"questionId": "2d2983b3", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the chemical signature the test produced", "content": "The passage draws a clear contrast: mineral-based ocher gets its color from <strong>iron oxide</strong>, while plant-based pigments contain a <strong>high level of carbon</strong>. The 2023 test of the Natufian beads found <strong>no iron</strong> but a <strong>high level of carbon</strong>&mdash;the exact chemical fingerprint of a plant-based pigment, not ocher."}, {"title": "Match the chemical evidence to each conclusion", "content": "<ul>\n<li><strong>Choice A &mdash; &lsquo;the beads are the oldest surviving examples of plant-based pigment use&rsquo;</strong>: The test shows what kind of pigment was used; it says nothing about whether older examples exist elsewhere. &#10007;</li>\n<li><strong>Choice B &mdash; &lsquo;the Natufian beadmakers used plant-based pigments rather than ocher&rsquo;</strong>: No iron rules out ocher; high carbon confirms a plant-based source. This follows directly from the chemical data. &#10003;</li>\n<li><strong>Choice C &mdash; &lsquo;the beadmakers preferred plant-based pigments because they are brighter&rsquo;</strong>: The passage never compares brightness of pigment types. &#10007;</li>\n<li><strong>Choice D &mdash; &lsquo;ocher was difficult to find&rsquo;</strong>: The test reveals pigment chemistry, not local availability of materials. &#10007;</li>\n</ul>\nThat matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "2d2983b3",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the chemical signature the test produced",
+      "content": "The passage draws a clear contrast: mineral-based ocher gets its color from <strong>iron oxide</strong>, while plant-based pigments contain a <strong>high level of carbon</strong>. The 2023 test of the Natufian beads found <strong>no iron</strong> but a <strong>high level of carbon</strong>&mdash;the exact chemical fingerprint of a plant-based pigment, not ocher."
+    },
+    {
+      "title": "Match the chemical evidence to each conclusion",
+      "content": "<ul>\n<li><strong>Choice A — the Natufian beads examined in the study are the oldest surviving examples of the use of plant-based pigments for decorating beads.</strong>: The test shows what kind of pigment was used; it says nothing about whether older examples exist elsewhere. &#10007;</li>\n<li><strong>Choice B — the Natufian beadmakers used plant-based pigments rather than ocher to decorate some of the beads examined in the study.</strong>: No iron rules out ocher; high carbon confirms a plant-based source. This follows directly from the chemical data. &#10003;</li>\n<li><strong>Choice C — the Natufian beadmakers preferred to use plant-based pigments because they are much brighter than mineral-based pigments are.</strong>: The passage never compares brightness of pigment types. &#10007;</li>\n<li><strong>Choice D — the pigments used by the Natufian beadmakers likely came from plants because ocher was difficult to find.</strong>: The test reveals pigment chemistry, not local availability of materials. &#10007;</li>\n</ul>\n<strong>B</strong> is correct."
+    }
+  ]
+}

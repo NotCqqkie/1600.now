@@ -1,18 +1,23 @@
 {
+  "questionId": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_13",
   "qid": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_13",
   "correctAnswer": "B",
   "steps": [
     {
-      "text": "Start with the given equation $b - 19 = \\dfrac{x}{y}$. To isolate $x$, multiply both sides by $y$: $y(b - 19) = x$."
+      "title": "Step 1",
+      "content": "Start with the given equation $b - 19 = \\dfrac{x}{y}$. To isolate $x$, multiply both sides by $y$: $y(b - 19) = x$."
     },
     {
-      "text": "Distribute $y$ on the left: $x = by - 19y$. This is the expression for $x$ in terms of $b$ and $y$."
+      "title": "Step 2",
+      "content": "Distribute $y$ on the left: $x = by - 19y$. This is the expression for $x$ in terms of $b$ and $y$."
     },
     {
-      "text": "Verify by substituting back: $\\dfrac{by - 19y}{y} = b - 19$. ✓"
+      "title": "Step 3",
+      "content": "Verify by substituting back: $\\dfrac{by - 19y}{y} = b - 19$. ✓"
     },
     {
-      "text": "Evaluate each choice:<ul><li>A: $x = \\dfrac{b-19}{y}$ — divides by $y$ instead of multiplying; substituting gives $\\dfrac{(b-19)/y}{y} = \\dfrac{b-19}{y^2} \\neq b-19$. Eliminated.</li><li>B: $x = by - 19y$ — equals $y(b-19)$; substituting gives $\\dfrac{by-19y}{y} = b-19$. That matches choice B — <strong>B</strong> is correct.</li><li>C: $x = \\dfrac{by-19}{y}$ — distributes incorrectly; this would give $b - \\dfrac{19}{y}$ after substitution, not $b-19$. Eliminated.</li><li>D: $x = by - 19$ — fails to multiply the 19 by $y$; substituting gives $\\dfrac{by-19}{y} = b - \\dfrac{19}{y} \\neq b-19$. Eliminated.</li></ul>"
+      "title": "Step 4",
+      "content": "Evaluate each choice:<ul><li>A: $x = \\dfrac{b-19}{y}$ — divides by $y$ instead of multiplying; substituting gives $\\dfrac{(b-19)/y}{y} = \\dfrac{b-19}{y^2} \\neq b-19$. Eliminated.</li><li>B: $x = by - 19y$ — equals $y(b-19)$; substituting gives $\\dfrac{by-19y}{y} = b-19$. That matches <strong>Choice B &mdash; $x = by - 19y$</strong>.</li><li>C: $x = \\dfrac{by-19}{y}$ — distributes incorrectly; this would give $b - \\dfrac{19}{y}$ after substitution, not $b-19$. Eliminated.</li><li>D: $x = by - 19$ — fails to multiply the 19 by $y$; substituting gives $\\dfrac{by-19}{y} = b - \\dfrac{19}{y} \\neq b-19$. Eliminated.</li></ul>"
     }
   ]
 }

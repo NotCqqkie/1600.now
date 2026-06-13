@@ -1,1 +1,15 @@
-{"questionId": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_16", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the structure on each side", "content": "Left: \"This 2013 exhibition celebrated the diverse achievements\" — an independent clause ending mid-prepositional phrase. Right: \"artists of Latin American descent\" — the object of the preposition <em>of</em>. The blank must supply just the preposition to complete the phrase."}, {"title": "Apply the rule: no punctuation separates a preposition from its object", "content": "A preposition connects directly to its object. Any punctuation between them breaks the phrase. <ul><li><strong>Choice A — of;</strong>: \"achievements of; artists...\" — a semicolon after a preposition creates a fragment on each side. ✗</li><li><strong>Choice B — of:</strong>: \"achievements of: artists...\" — a colon after a preposition is never grammatical; colons follow independent clauses. ✗</li><li><strong>Choice C — of,</strong>: \"achievements of, artists...\" — a comma cannot interrupt a prepositional phrase between the preposition and its object. ✗</li><li><strong>Choice D — of</strong>: \"achievements of artists of Latin American descent\" — the preposition attaches cleanly to its object, no punctuation needed. ✓</li></ul> That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_16",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the structure on each side",
+      "content": "Left: \"This 2013 exhibition celebrated the diverse achievements\" — an independent clause ending mid-prepositional phrase. Right: \"artists of Latin American descent\" — the object of the preposition <em>of</em>. The blank must supply just the preposition to complete the phrase."
+    },
+    {
+      "title": "Apply the rule: no punctuation separates a preposition from its object",
+      "content": "A preposition connects directly to its object. Any punctuation between them breaks the phrase. <ul><li><strong>Choice A &mdash; &lsquo;of;&rsquo;</strong>: \"achievements of; artists...\" — a semicolon after a preposition creates a fragment on each side. ✗</li><li><strong>Choice B &mdash; &lsquo;of:&rsquo;</strong>: \"achievements of: artists...\" — a colon after a preposition is never grammatical; colons follow independent clauses. ✗</li><li><strong>Choice C &mdash; &lsquo;of,&rsquo;</strong>: \"achievements of, artists...\" — a comma cannot interrupt a prepositional phrase between the preposition and its object. ✗</li><li><strong>Choice D &mdash; &lsquo;of&rsquo;</strong>: \"achievements of artists of Latin American descent\" — the preposition attaches cleanly to its object, no punctuation needed. ✓</li></ul> That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

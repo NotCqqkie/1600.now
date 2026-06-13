@@ -1,1 +1,15 @@
-{"questionId": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_16", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The blank fills a noun phrase after \"the\" and before the participial phrase \"associated with the Black Arts movement.\" The sentence refers to multiple writers (Henry Dumas and Ntozake Shange), so the noun phrase needs plural nouns with no possessive apostrophes&mdash;no one owns anything here."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'works of other writer's'</strong>: \"works\" is a correct plain plural, but \"writer's\" adds a possessive apostrophe where none is needed. The phrase means other writers in general, not something belonging to a writer. &#10007;</li><li><strong>Choice B &mdash; 'work's of other writer's'</strong>: Both nouns carry possessive apostrophes. \"work's\" turns the plural noun into a singular possessive, which is grammatically wrong in this slot. Two errors, not zero. &#10007;</li><li><strong>Choice C &mdash; 'works of other writers'</strong>: Both nouns are plain plurals with no apostrophes. \"Works\" = multiple pieces of writing; \"writers\" = multiple authors. Neither noun possesses anything. Correct plural construction. &#10003;</li><li><strong>Choice D &mdash; 'work's of other writers'</strong>: \"writers\" is correctly plural, but \"work's\" is a singular possessive, not a plural. The sentence needs the plural form \"works.\" &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_16",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank fills a noun phrase after \"the\" and before the participial phrase \"associated with the Black Arts movement.\" The sentence refers to multiple writers (Henry Dumas and Ntozake Shange), so the noun phrase needs plural nouns with no possessive apostrophes&mdash;no one owns anything here."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; works of other writer's</strong>: \"works\" is a correct plain plural, but \"writer's\" adds a possessive apostrophe where none is needed. The phrase means other writers in general, not something belonging to a writer. &#10007;</li><li><strong>Choice B &mdash; work's of other writer's</strong>: Both nouns carry possessive apostrophes. \"work's\" turns the plural noun into a singular possessive, which is grammatically wrong in this slot. Two errors, not zero. &#10007;</li><li><strong>Choice C &mdash; works of other writers</strong>: Both nouns are plain plurals with no apostrophes. \"Works\" = multiple pieces of writing; \"writers\" = multiple authors. Neither noun possesses anything. Correct plural construction. &#10003;</li><li><strong>Choice D &mdash; work's of other writers</strong>: \"writers\" is correctly plural, but \"work's\" is a singular possessive, not a plural. The sentence needs the plural form \"works.\" &#10007;</li></ul>That matches <strong>Choice C &mdash; works of other writers</strong>."
+    }
+  ]
+}

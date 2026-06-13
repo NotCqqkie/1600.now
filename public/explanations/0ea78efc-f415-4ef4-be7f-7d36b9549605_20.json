@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; 'roundup,'</strong>: ends with a comma inside an open parenthesis &mdash; the parenthetical is never closed. &#10007;</li><li><strong>Choice B &mdash; 'roundup)'</strong>: the closing parenthesis matches the opening one, mirroring <em>(a wild horse)</em> exactly. &#10003;</li><li><strong>Choice C &mdash; 'roundup;'</strong>: a semicolon cannot close a parenthetical; the parenthesis remains open. &#10007;</li><li><strong>Choice D &mdash; 'roundup&mdash;'</strong>: an em-dash cannot close a parenthetical; it also mixes punctuation styles. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; roundup,</strong>: ends with a comma inside an open parenthesis &mdash; the parenthetical is never closed. &#10007;</li><li><strong>Choice B &mdash; roundup)</strong>: the closing parenthesis matches the opening one, mirroring <em>(a wild horse)</em> exactly. &#10003;</li><li><strong>Choice C &mdash; roundup;</strong>: a semicolon cannot close a parenthetical; the parenthesis remains open. &#10007;</li><li><strong>Choice D: roundup—</strong>: an em-dash cannot close a parenthetical; it also mixes punctuation styles. &#10007;</li></ul>That matches <strong>Choice B &mdash; roundup)</strong>."
     }
   ]
 }

@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the probability formula",
-      "content": "The probability of selecting color Y is:<br/>$$P(\\text{color Y}) = \\frac{\\text{frequency of color Y}}{\\text{total number of flowers}} = \\frac{6}{181}$$<br/>This matches choice A — <strong>A</strong> is correct."
+      "content": "The probability of selecting color Y is:<br/>$$P(\\text{color Y}) = \\frac{\\text{frequency of color Y}}{\\text{total number of flowers}} = \\frac{6}{181}$$<br/>This is the correct answer."
     }
   ]
 }

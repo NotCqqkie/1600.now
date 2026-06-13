@@ -1,1 +1,19 @@
-{"questionId":"56770dda","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Step 1 — Identify the rule","content":"Verb tense. The time adverb &quot;Today&quot; at the start of the second sentence signals present time, so the verb that fills the blank must be in the simple present."},{"title":"Step 2 — Apply the rule","content":"&quot;Today, Paik is considered the first video artist&quot; correctly pairs the present-time adverb &quot;Today&quot; with the present-tense linking verb &quot;is&quot; in this passive construction."},{"title":"Step 3 — Per-choice elimination","content":"<ul><li><strong>Choice A &mdash; &apos;will be&apos;</strong>: verb tense error — future tense conflicts with the present-time adverb &quot;Today.&quot; &#10007;</li><li><strong>Choice B &mdash; &apos;had been&apos;</strong>: verb tense error — past perfect requires a later past reference point, which the sentence lacks. &#10007;</li><li><strong>Choice C &mdash; &apos;was&apos;</strong>: verb tense error — simple past contradicts &quot;Today,&quot; which names a present condition. &#10007;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "56770dda",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Step 1 — Identify the rule",
+      "content": "Verb tense. The time adverb &quot;Today&quot; at the start of the second sentence signals present time, so the verb that fills the blank must be in the simple present."
+    },
+    {
+      "title": "Step 2 — Apply the rule",
+      "content": "&quot;Today, Paik is considered the first video artist&quot; correctly pairs the present-time adverb &quot;Today&quot; with the present-tense linking verb &quot;is&quot; in this passive construction."
+    },
+    {
+      "title": "Step 3 — Per-choice elimination",
+      "content": "<ul><li><strong>Choice A — will be</strong>: verb tense error — future tense conflicts with the present-time adverb &quot;Today.&quot; &#10007;</li><li><strong>Choice B — had been</strong>: verb tense error — past perfect requires a later past reference point, which the sentence lacks. &#10007;</li><li><strong>Choice C — was</strong>: verb tense error — simple past contradicts &quot;Today,&quot; which names a present condition. &#10007;</li></ul><strong>D</strong> is correct."
+    }
+  ]
+}

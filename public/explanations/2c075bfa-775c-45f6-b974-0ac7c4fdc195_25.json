@@ -1,1 +1,15 @@
-{"questionId":"2c075bfa-775c-45f6-b974-0ac7c4fdc195_25","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks for the choice that compares the lengths of the two rivers using data from the notes."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; describes only one river&apos;s length</strong>: This gives a single river&apos;s length without comparing it to the other river. &#10007;</li><li><strong>Choice B &mdash; compares something other than length</strong>: This contrasts a feature of the rivers that is not their length. &#10007;</li><li><strong>Choice C &mdash; describes only one river&apos;s length</strong>: Again, only one river is addressed — no comparison is made. &#10007;</li><li><strong>Choice D &mdash; 'The Madeira River is shorter than the Amur River'</strong>: This directly compares the two rivers&apos; lengths using the numerical data in the notes. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_25",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks for the choice that compares the lengths of the two rivers using data from the notes."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — The Madeira River in South America is 3,380 kilometers long.</strong>: This gives a single river&apos;s length without comparing it to the other river. &#10007;</li><li><strong>Choice B — The Amur River is in Asia, whereas the Madeira River is located in South America.</strong>: This contrasts a feature of the rivers that is not their length. &#10007;</li><li><strong>Choice C — Among the longest rivers in the world, the Amur River is ranked No. 10.</strong>: Again, only one river is addressed — no comparison is made. &#10007;</li><li><strong>Choice D — The Madeira River is shorter than the Amur River.</strong>: This directly compares the two rivers&apos; lengths using the numerical data in the notes. &#10003;</li></ul><strong>D</strong> is correct."
+    }
+  ]
+}

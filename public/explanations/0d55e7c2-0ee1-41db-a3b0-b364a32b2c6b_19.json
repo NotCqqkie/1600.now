@@ -1,1 +1,15 @@
-{"questionId": "0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_19", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structure of the clause", "content": "The main noun phrase is &quot;a digital resource that, _____ text and music clips, traces the history.&quot; The relative clause introduced by <em>that</em> already has a finite main verb: <em>traces</em>. The blank sits between two commas, which signals a non-finite participial phrase modifying how the resource traces history — not a second finite verb.\n<ul>\n<li><strong>Choice A &mdash; 'integrates'</strong>: Simple present finite verb — placing two finite verbs (<em>integrates</em> and <em>traces</em>) in one clause without a conjunction creates a run-on. &#10007;</li>\n<li><strong>Choice B &mdash; 'is integrating'</strong>: Present progressive finite verb — same run-on problem as A; two finite verbs in the clause with no coordinator. &#10007;</li>\n<li><strong>Choice C &mdash; 'integrating'</strong>: Present participle — non-finite form that can modify the clause without competing with <em>traces</em>, correctly forming a participial phrase. &#10003;</li>\n<li><strong>Choice D &mdash; 'has integrated'</strong>: Present perfect finite verb — same run-on problem as A and B. &#10007;</li>\n</ul>"}, {"title": "Confirm the answer", "content": "Only a present participle can appear as an adverbial modifier between commas in a clause that already has a finite verb. That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_19",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure of the clause",
+      "content": "The main noun phrase is &quot;a digital resource that, _____ text and music clips, traces the history.&quot; The relative clause introduced by <em>that</em> already has a finite main verb: <em>traces</em>. The blank sits between two commas, which signals a non-finite participial phrase modifying how the resource traces history — not a second finite verb.\n<ul>\n<li><strong>Choice A &mdash; integrates</strong>: Simple present finite verb — placing two finite verbs (<em>integrates</em> and <em>traces</em>) in one clause without a conjunction creates a run-on. &#10007;</li>\n<li><strong>Choice B &mdash; is integrating</strong>: Present progressive finite verb — same run-on problem as A; two finite verbs in the clause with no coordinator. &#10007;</li>\n<li><strong>Choice C &mdash; integrating</strong>: Present participle — non-finite form that can modify the clause without competing with <em>traces</em>, correctly forming a participial phrase. &#10003;</li>\n<li><strong>Choice D &mdash; has integrated</strong>: Present perfect finite verb — same run-on problem as A and B. &#10007;</li>\n</ul>"
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "Only a present participle can appear as an adverbial modifier between commas in a clause that already has a finite verb. That matches <strong>Choice C &mdash; integrating</strong>."
+    }
+  ]
+}

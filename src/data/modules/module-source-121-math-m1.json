@@ -178,19 +178,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$10(13x^2)$"
+        "text": "$10\\left(13x^2\\right)$"
       },
       {
         "label": "B",
-        "text": "$10(x^2 + 13)$"
+        "text": "$10\\left(x^2 + 13\\right)$"
       },
       {
         "label": "C",
-        "text": "$130(10x^2)$"
+        "text": "$130\\left(10x^2\\right)$"
       },
       {
         "label": "D",
-        "text": "$130(10x^2 + 1)$"
+        "text": "$130\\left(10x^2 + 1\\right)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -375,19 +375,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$x < 21$"
+        "text": "$x \\lt 21$"
       },
       {
         "label": "B",
-        "text": "$x > 21$"
+        "text": "$x \\gt 21$"
       },
       {
         "label": "C",
-        "text": "$5 < x < 21$"
+        "text": "$5 \\lt x \\lt 21$"
       },
       {
         "label": "D",
-        "text": "$x < 5$ or $x > 21$"
+        "text": "$x \\lt 5$ or $x \\gt 21$"
       }
     ],
     "is_fill_in_blank": false,
@@ -407,19 +407,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$2(x + 2 y) = 21$"
+        "text": "$\\left(2\\right)(x + 2y) = 21$"
       },
       {
         "label": "B",
-        "text": "$2(2 x + y) = 21$"
+        "text": "$\\left(2\\right)(2x + y) = 21$"
       },
       {
         "label": "C",
-        "text": "$x + 2 y = 21$"
+        "text": "$x + 2y = 21$"
       },
       {
         "label": "D",
-        "text": "$2 x + y = 21$"
+        "text": "$2x + y = 21$"
       }
     ],
     "is_fill_in_blank": false,

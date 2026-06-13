@@ -1,1 +1,15 @@
-{"questionId": "eb783fc1-8559-4650-9621-8d99c6c2ab30_18", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structure around the blank", "content": "Left: <em>He typically</em> (subject + adverb). Right: <em>them from black ash and sweetgrass</em> (object + prepositional phrase). The blank must be the main verb of this independent clause, and it must match the third-person singular subject."}, {"title": "Apply subject-verb agreement", "content": "A main verb must be finite and agree with the subject in person and number.<br/><br/>For <em>He</em> (third-person singular) in simple present tense, the form is <strong>weaves</strong>.<br/><br/>Options A, C, and D are non-finite forms that don't conjugate to match the subject.<br/><br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}
+{
+  "questionId": "eb783fc1-8559-4650-9621-8d99c6c2ab30_18",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure around the blank",
+      "content": "Left: <em>He typically</em> (subject + adverb). Right: <em>them from black ash and sweetgrass</em> (object + prepositional phrase). The blank must be the main verb of this independent clause, and it must match the third-person singular subject."
+    },
+    {
+      "title": "Apply subject-verb agreement",
+      "content": "A main verb must be finite and agree with the subject in person and number.<br/><br/>For <em>He</em> (third-person singular) in simple present tense, the form is <strong>weaves</strong>.<br/><br/><em>To be weaving</em>, <em>to weave</em>, and <em>weaving</em> are non-finite forms that don't conjugate to match the subject.<br/><br/>That matches the correct answer — <strong>B</strong> is correct."
+    }
+  ]
+}

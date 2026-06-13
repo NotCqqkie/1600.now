@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate each answer choice",
-      "content": "<ul><li><strong>A</strong>: Years to double its height &mdash; the tree doubled from 6 to 12 feet; that is not what 2 represents in the equation. Incorrect.</li><li><strong>B</strong>: Average feet grown per year &mdash; 2 is the coefficient of $n$ (years), so it is the rate of growth in feet per year. That matches choice B &mdash; <strong>B</strong> is correct.</li><li><strong>C</strong>: Height when the tree was 1 year old &mdash; substituting $n = 1$ gives $2(1) + 6 = 8$ feet, not 2. Incorrect.</li><li><strong>D</strong>: Average years for similar trees to grow 14 feet &mdash; the 2 is not a time value; it is a growth rate. Incorrect.</li></ul>"
+      "content": "<ul><li><strong>A</strong>: Years to double its height &mdash; the tree doubled from 6 to 12 feet; that is not what 2 represents in the equation. Incorrect.</li><li><strong>B</strong>: Average feet grown per year &mdash; 2 is the coefficient of $n$ (years), so it is the rate of growth in feet per year. That is the correct answer.</li><li><strong>C</strong>: Height when the tree was 1 year old &mdash; substituting $n = 1$ gives $2(1) + 6 = 8$ feet, not 2. Incorrect.</li><li><strong>D</strong>: Average years for similar trees to grow 14 feet &mdash; the 2 is not a time value; it is a growth rate. Incorrect.</li></ul>"
     }
   ]
 }

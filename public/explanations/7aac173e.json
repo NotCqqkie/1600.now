@@ -1,1 +1,15 @@
-{"questionId": "7aac173e", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the goal requires", "content": "The student must explain why historians believe Abele designed the buildings, not just that they believe it. The notes reveal the reasoning: the buildings feature the same architectural styles that Abele studied in Europe."}, {"title": "Find the choice that shows this causal reasoning", "content": "Choice A explicitly uses <strong>Given that</strong> to connect what the buildings feature to what Abele studied, making the reasoning clear: because the styles match his expertise, historians believe he designed them.<br/><br/>The other choices either state the belief without explaining why (B and D) or focus on the firm's role rather than the style-expertise connection (C).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "7aac173e",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the goal requires",
+      "content": "The student must explain why historians believe Abele designed the buildings, not just that they believe it. The notes reveal the reasoning: the buildings feature the same architectural styles that Abele studied in Europe."
+    },
+    {
+      "title": "Find the choice that shows this causal reasoning",
+      "content": "The correct response explicitly uses <strong>Given that</strong> to connect what the buildings feature to what Abele studied, making the reasoning clear: because the styles match his expertise, historians believe he designed them.<br/><br/>The other choices either state the belief without explaining why (B and D) or focus on the firm's role rather than the style-expertise connection.<br/><br/>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

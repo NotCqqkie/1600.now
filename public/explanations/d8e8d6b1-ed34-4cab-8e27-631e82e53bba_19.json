@@ -1,1 +1,15 @@
-{"questionId": "d8e8d6b1-ed34-4cab-8e27-631e82e53bba_19", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The blank follows a complete independent clause (&apos;The sand at Kaihalulu Beach...is a strikingly different shade&apos;) and precedes an explanation of why. The question asks which punctuation correctly joins them."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'shade: though most'</strong>: the colon introduces the explanation; &apos;though most sand...&apos; opens a dependent clause that pairs with the main clause about iron oxide. &#10003;</li><li><strong>Choice B &mdash; 'shade, though most'</strong>: creates a comma splice between two full clauses. &#10007;</li><li><strong>Choice C &mdash; 'shade. Though most'</strong>: punctuates &apos;though&apos; as starting a parenthetical fragment rather than a proper dependent clause. &#10007;</li><li><strong>Choice D &mdash; 'shade, though'</strong>: ends the sentence mid-clause, leaving &apos;though&apos; dangling with no clause to introduce. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "d8e8d6b1-ed34-4cab-8e27-631e82e53bba_19",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank follows a complete independent clause ('The sand at Kaihalulu Beach...is a strikingly different shade') and precedes an explanation of why. The question asks which punctuation correctly joins them."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"shade: though most\"</strong>: the colon introduces the explanation; 'though most sand...' opens a dependent clause that pairs with the main clause about iron oxide. &#10003;</li><li><strong>\"shade, though most\"</strong>: creates a comma splice between two full clauses. &#10007;</li><li><strong>\"shade, though, most\"</strong>: punctuates 'though' as starting a parenthetical fragment rather than a proper dependent clause. &#10007;</li><li><strong>\"shade, though. Most\"</strong>: ends the sentence mid-clause, leaving 'though' dangling with no clause to introduce. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+    }
+  ]
+}

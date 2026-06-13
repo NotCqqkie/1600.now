@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Function &#8544; - $f(x)=a(3.3)^{x+b}$</strong>: $f(0)=a(3.3)^{b}$. That value is not a single constant in the equation - you must compute $(3.3)^{b}$ first. Incorrect</li><li><strong>Function &#8545; - $g(x)=a(3.3)^{x}+b$</strong>: $g(0)=a(3.3)^{0}+b=a+b$. The value $a+b$ is not written as one term in the equation - only the individual constants $a$ and $b$ appear, not their sum. Incorrect</li></ul>Neither function displays its $y$-intercept directly. That matches choice D - <strong>D</strong> is correct."
+      "content": "<ul><li><strong>Function &#8544; - $f(x)=a(3.3)^{x+b}$</strong>: $f(0)=a(3.3)^{b}$. That value is not a single constant in the equation - you must compute $(3.3)^{b}$ first. Incorrect</li><li><strong>Function &#8545; - $g(x)=a(3.3)^{x}+b$</strong>: $g(0)=a(3.3)^{0}+b=a+b$. The value $a+b$ is not written as one term in the equation - only the individual constants $a$ and $b$ appear, not their sum. Incorrect</li></ul>Neither function displays its $y$-intercept directly. That is the correct answer."
     }
   ]
 }

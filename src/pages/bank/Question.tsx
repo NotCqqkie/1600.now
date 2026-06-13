@@ -48,12 +48,12 @@ import {
 import { questions as originalQuestions } from "@/data/hardQuestions";
 import {
   getBankCounts,
-  getBankPool,
-  getBankQuestion,
-  getBankQuestionBySourceId,
-  getSourceBankQuestionBySourceId,
+  loadAllSourceBankQuestions,
+  loadBankPool,
+  loadQuestionSimilarityMeta,
   normalizeBankSource,
   type BankQuestion,
+  type BankQuestionSimilarityMeta,
   type BankSourceFilter,
 } from "@/data/questionBank";
 import type { PracticeModule, PracticeSet } from "@/data/modulePracticeBank";
@@ -63,7 +63,10 @@ import {
 } from "@/lib/practice/customPracticeSets";
 import { cn, normalizePublicAssetPath } from "@/lib/utils";
 import { getQuestionImageClassName } from "@/lib/questionImageDisplay";
-import type { QuestionImageDisplaySize } from "@/data/questionImageSizing.generated";
+import {
+  questionImageDimensionsBySrc,
+  type QuestionImageDisplaySize,
+} from "@/data/questionImageSizing.generated";
 import { answersEquivalent } from "@/lib/text/answerEquivalence";
 import { renderMixedContent } from "@/lib/text/mathRendering";
 import { normalizeReadingDisplayText } from "@/lib/text/readingTextNormalization";
@@ -136,11 +139,18 @@ type QuestionPreviewEmbedConfig = {
   onNavigate?: (to: string) => void;
   onOpenBank?: () => void;
   onReady?: () => void;
+  questionLimit?: number;
 };
 
 type QuestionProps = {
   previewEmbed?: QuestionPreviewEmbedConfig;
 };
+
+const SAT_STYLE_IMAGE_BASE = "/images/SAT-Style%20Questions/";
+const WHITE_BACKGROUND_BANK_IMAGE_PATTERN = /\.(?:png|jpe?g|webp)(?:$|[?#])/i;
+
+const shouldReserveWhiteQuestionImageSpace = (src: string) =>
+  src.startsWith(SAT_STYLE_IMAGE_BASE) && WHITE_BACKGROUND_BANK_IMAGE_PATTERN.test(src);
 
 type LowerThanHysteresisArgs = {
   currentState: boolean;
@@ -207,6 +217,12 @@ const isBankQuestionWithUuid = (question: unknown): question is BankQuestion & {
 type OrderedNavigationItem = {
   id: number;
   storageId: string;
+};
+
+type LoadedBankQuestionPoolState = {
+  requestKey: string | null;
+  questions: BankQuestion[];
+  isLoading: boolean;
 };
 
 const getStoredQuestionStatus = (
@@ -641,7 +657,9 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   const modulePracticeSessionId = searchParams.get("moduleSession");
   const practiceTestSetId = searchParams.get("practiceTest");
   const practiceTestSessionId = searchParams.get("practiceTestSession");
+  const rawPracticeIndex = searchParams.get("idx");
   const bankSource = previewEmbed?.bankType ?? normalizeBankSource(searchParams.get("bankType"));
+  const previewQuestionLimit = previewEmbed?.questionLimit ?? null;
   const embedNextClicksRef = useRef(0);
   const [showEmbedUpsell, setShowEmbedUpsell] = useState(false);
   const rawDifficulty = searchParams.get("difficulty");
@@ -707,32 +725,119 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   const subject = previewEmbed?.subject ?? ((rawSubject === "math" || rawSubject === "reading" ? rawSubject : "math") as "math" | "reading");
   const isMobile = useIsMobile();
 
-  const questionData = useMemo(() => {
-    if (is100Hard) {
-      return hardQuestions.find(question => question.id === questionNumber);
-    }
-    if (needsModulePracticeBank && !modulePracticeBank) return null;
-
-    const moduleQuestion =
+  const moduleQuestion = useMemo(
+    () =>
       modulePracticeBank && (modulePracticeSlug || practiceTestSetId)
         ? modulePracticeBank.getSynthesizedPracticeQuestion(subject, idParam)
-        : null;
-    const sourceQuestionById = isPracticeMode
-      ? getSourceBankQuestionBySourceId(subject, idParam, bankSource)
-      : getBankQuestionBySourceId(subject, idParam, bankSource);
-    const question =
-      moduleQuestion ??
-      sourceQuestionById ??
-      (hasNumericIdParam ? getBankQuestion(subject, questionNumber, bankSource) : null);
+        : null,
+    [idParam, modulePracticeBank, modulePracticeSlug, practiceTestSetId, subject],
+  );
+  const bankQuestionPoolMode = isPracticeMode ? "source" : "visible";
+  const bankQuestionPoolRequestKey = useMemo(
+    () => [subject, bankSource, bankQuestionPoolMode].join(":"),
+    [bankQuestionPoolMode, bankSource, subject],
+  );
+  const needsBankQuestionPool =
+    !is100Hard &&
+    !moduleQuestion &&
+    !(needsModulePracticeBank && !modulePracticeBank);
+  const [loadedBankQuestionPoolData, setLoadedBankQuestionPoolData] = useState<LoadedBankQuestionPoolState>({
+    requestKey: null,
+    questions: [],
+    isLoading: false,
+  });
+  const currentLoadedBankQuestionPool =
+    loadedBankQuestionPoolData.requestKey === bankQuestionPoolRequestKey
+      ? loadedBankQuestionPoolData.questions
+      : null;
+  const isBankQuestionPoolLoading =
+    needsBankQuestionPool &&
+    (loadedBankQuestionPoolData.isLoading || loadedBankQuestionPoolData.requestKey !== bankQuestionPoolRequestKey);
 
-    if (!question) return null;
-    return {
-      ...question,
-      uuid: question.stableId,
+  useEffect(() => {
+    if (!needsBankQuestionPool) return;
+
+    let cancelled = false;
+    setLoadedBankQuestionPoolData((current) =>
+      current.requestKey === bankQuestionPoolRequestKey
+        ? current
+        : {
+            requestKey: bankQuestionPoolRequestKey,
+            questions: [],
+            isLoading: true,
+          },
+    );
+
+    const poolPromise = isPracticeMode
+      ? loadAllSourceBankQuestions(subject, bankSource)
+      : loadBankPool(subject, bankSource);
+
+    poolPromise.then((questions) => {
+      if (cancelled) return;
+      setLoadedBankQuestionPoolData({
+        requestKey: bankQuestionPoolRequestKey,
+        questions,
+        isLoading: false,
+      });
+    });
+
+    return () => {
+      cancelled = true;
     };
+  }, [bankQuestionPoolRequestKey, bankSource, isPracticeMode, needsBankQuestionPool, subject]);
 
-  }, [is100Hard, idParam, hasNumericIdParam, questionNumber, subject, bankSource, modulePracticeBank, modulePracticeSlug, needsModulePracticeBank, practiceTestSetId, isPracticeMode]);
-  const currentQuestion = questionData;
+  const questionData = useMemo(() => {
+    if (is100Hard) {
+      return hardQuestions.find(question => question.id === questionNumber) ?? null;
+    }
+
+    if (moduleQuestion) {
+      return {
+        ...moduleQuestion,
+        uuid: moduleQuestion.stableId,
+      };
+    }
+
+    if (!currentLoadedBankQuestionPool) return null;
+
+    const sourceQuestionById = currentLoadedBankQuestionPool.find((question) => question.sourceId === idParam);
+    const question =
+      sourceQuestionById ??
+      (hasNumericIdParam ? currentLoadedBankQuestionPool[questionNumber - 1] : null);
+
+    return question ? { ...question, uuid: question.stableId } : null;
+  }, [
+    currentLoadedBankQuestionPool,
+    hasNumericIdParam,
+    idParam,
+    is100Hard,
+    moduleQuestion,
+    questionNumber,
+  ]);
+  const currentQuestionStableId = isBankQuestionWithUuid(questionData) ? questionData.stableId : null;
+  const [similarityMetaByStableId, setSimilarityMetaByStableId] = useState<Record<string, BankQuestionSimilarityMeta | null>>({});
+  useEffect(() => {
+    if (!currentQuestionStableId || is100Hard) return;
+    if (Object.prototype.hasOwnProperty.call(similarityMetaByStableId, currentQuestionStableId)) return;
+
+    let cancelled = false;
+    loadQuestionSimilarityMeta(currentQuestionStableId).then((meta) => {
+      if (cancelled) return;
+      setSimilarityMetaByStableId((current) => ({
+        ...current,
+        [currentQuestionStableId]: meta,
+      }));
+    });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [currentQuestionStableId, is100Hard, similarityMetaByStableId]);
+  const currentQuestion = useMemo(() => {
+    if (!isBankQuestionWithUuid(questionData)) return questionData;
+    const similarityMeta = similarityMetaByStableId[questionData.stableId];
+    return similarityMeta ? { ...questionData, ...similarityMeta } : questionData;
+  }, [questionData, similarityMetaByStableId]);
   const currentQuestionId = currentQuestion?.uuid;
   const resolvedQuestionNumber = (() => {
     if (!currentQuestion || is100Hard || !isBankQuestionWithUuid(currentQuestion)) {
@@ -760,17 +865,39 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   const canCreateSimilarPracticeSet = Boolean(!isEmbed && isBankQuestionView && currentBankQuestion);
   const currentPracticeIndex = useMemo(() => {
     if (!isPracticeMode || practiceSet.length === 0) return -1;
-    return practiceSet.findIndex(
-      (practiceQuestion) => {
-        if (practiceQuestion.subject !== subject) return false;
+    const matchesPracticeQuestion = (practiceQuestion: PracticeSetItem | undefined) => {
+      if (!practiceQuestion || practiceQuestion.subject !== subject) return false;
 
-        const matchesBankType = !practiceQuestion.bankType || practiceQuestion.bankType === bankSource;
-        if (matchesBankType && practiceQuestion.sourceId === idParam) return true;
-        if (practiceQuestion.storageId && practiceQuestion.storageId === currentQuestionId) return true;
-        return matchesBankType && practiceQuestion.id === questionNumber;
-      },
-    );
-  }, [bankSource, currentQuestionId, idParam, isPracticeMode, practiceSet, questionNumber, subject]);
+      const matchesBankType = !practiceQuestion.bankType || practiceQuestion.bankType === bankSource;
+      if (matchesBankType && practiceQuestion.sourceId === idParam) return true;
+      if (practiceQuestion.storageId && practiceQuestion.storageId === currentQuestionId) return true;
+      return hasNumericIdParam && matchesBankType && practiceQuestion.id === questionNumber;
+    };
+    const requestedIndex =
+      rawPracticeIndex && /^\d+$/.test(rawPracticeIndex)
+        ? Number.parseInt(rawPracticeIndex, 10) - 1
+        : -1;
+
+    if (
+      requestedIndex >= 0 &&
+      requestedIndex < practiceSet.length &&
+      matchesPracticeQuestion(practiceSet[requestedIndex])
+    ) {
+      return requestedIndex;
+    }
+
+    return practiceSet.findIndex(matchesPracticeQuestion);
+  }, [
+    bankSource,
+    currentQuestionId,
+    hasNumericIdParam,
+    idParam,
+    isPracticeMode,
+    practiceSet,
+    questionNumber,
+    rawPracticeIndex,
+    subject,
+  ]);
   const effectivePracticeMode = !is100Hard && isPracticeMode && practiceSet.length > 0 && currentPracticeIndex >= 0;
   const modulePracticeStateSessionId = modulePracticeSessionId || modulePracticeSessionMeta?.sessionId || null;
   const practiceTestStateSessionId = practiceTestSessionId || practiceTestSessionMeta?.sessionId || null;
@@ -1106,8 +1233,15 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       }));
     }
 
+    if (isBank && previewQuestionLimit !== null) {
+      return Array.from({ length: previewQuestionLimit }, (_, index) => ({
+        id: index + 1,
+        storageId: `preview-${subject}-${bankSource}-${index + 1}`,
+      }));
+    }
+
     if (isBank) {
-      return getBankPool(subject, bankSource)
+      return (currentLoadedBankQuestionPool ?? [])
         .filter((question) => !difficultyFilter || question.difficulty === difficultyFilter)
         .map((question) => ({
           id: question.id,
@@ -1116,7 +1250,15 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     }
 
     return [];
-  }, [bankSource, difficultyFilter, is100Hard, isBank, subject]);
+  }, [
+    bankSource,
+    currentLoadedBankQuestionPool,
+    difficultyFilter,
+    is100Hard,
+    isBank,
+    previewQuestionLimit,
+    subject,
+  ]);
 
   const groupedOrderStorageKey = useMemo(
     () =>
@@ -1138,6 +1280,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
 
   const orderedNavigationItems = useMemo<OrderedNavigationItem[]>(() => {
     if (baseNavigationItems.length === 0) return [];
+    if (previewQuestionLimit !== null) return baseNavigationItems;
 
     const defaultOrder = baseNavigationItems.map((item) => item.id);
     const resolvedOrder = reconcileQuestionOrder(
@@ -1149,7 +1292,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     return resolvedOrder
       .map((id) => itemMap.get(id))
       .filter((item): item is OrderedNavigationItem => Boolean(item));
-  }, [baseNavigationItems, groupedQuestionOrder]);
+  }, [baseNavigationItems, groupedQuestionOrder, previewQuestionLimit]);
   const orderedQuestionIds = useMemo(
     () => orderedNavigationItems.map((item) => item.id),
     [orderedNavigationItems],
@@ -1700,12 +1843,13 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   const totalQuestions = useMemo(() => {
     if (is100Hard) return 100;
     if (effectivePracticeMode) return practiceSet.length;
+    if (previewQuestionLimit !== null) return previewQuestionLimit;
     if (subject) {
       const counts = getBankCounts(bankSource);
       return counts[subject] || 0;
     }
     return 0;
-  }, [is100Hard, effectivePracticeMode, practiceSet, subject, bankSource]);
+  }, [is100Hard, effectivePracticeMode, practiceSet, previewQuestionLimit, subject, bankSource]);
 
   const currentOrderedQuestionIndex = useMemo(
     () => orderedQuestionIds.indexOf(resolvedQuestionNumber),
@@ -1735,6 +1879,17 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     : effectivePracticeMode
       ? currentPracticeIndex < totalQuestions - 1
       : currentOrderedQuestionIndex >= 0 && currentOrderedQuestionIndex < totalQuestions - 1;
+  const isAtPreviewQuestionLimit = Boolean(
+    previewQuestionLimit !== null &&
+      currentOrderedQuestionIndex >= previewQuestionLimit - 1,
+  );
+  const shouldShowEmbedUpsellBeforeAdvance = useCallback(() => {
+    if (!isEmbed) return false;
+    if (previewQuestionLimit !== null) return isAtPreviewQuestionLimit;
+    const nextClicks = embedNextClicksRef.current + 1;
+    embedNextClicksRef.current = nextClicks;
+    return nextClicks >= 2;
+  }, [isAtPreviewQuestionLimit, isEmbed, previewQuestionLimit]);
 
   const flushModulePracticeQuestionTime = useCallback((updateState = true) => {
     syncAssessmentTimer(Date.now(), updateState);
@@ -1994,6 +2149,14 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     subject,
   ]);
 
+  const handleEmbedAwareNext = useCallback(() => {
+    if (shouldShowEmbedUpsellBeforeAdvance()) {
+      setShowEmbedUpsell(true);
+      return;
+    }
+    handleNext();
+  }, [handleNext, shouldShowEmbedUpsellBeforeAdvance]);
+
   const handleModulePracticeReview = () => {
     if (!isModulePracticeMode || !modulePracticeSessionMeta || !modulePracticeModule) return;
     flushModulePracticeQuestionTime();
@@ -2196,7 +2359,10 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
           handlePrevious();
           break;
         case 'ArrowRight':
-          if (canGoNext) {
+          if (isEmbed && (canGoNext || isAtPreviewQuestionLimit)) {
+            e.preventDefault();
+            handleEmbedAwareNext();
+          } else if (canGoNext) {
             handleNext();
           }
           break;
@@ -2270,12 +2436,15 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [
     handleNext,
+    handleEmbedAwareNext,
     handlePrevious,
     handleCheck,
     currentQuestion,
     selectedAnswer,
     questionNumber,
     canGoNext,
+    isAtPreviewQuestionLimit,
+    isEmbed,
     isPracticeTestMode,
     isModulePracticeMode,
     isAssessmentMode,
@@ -2403,28 +2572,37 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   }, [isAssessmentMode]);
   const isReadingPassageAnnotatable = subject === "reading" && Boolean(readingPassageContent);
   const shouldReduceQuestionImageSize = isBank;
-  const isPracticeQuestionBankLoading = needsModulePracticeBank && !modulePracticeBank;
+  const isQuestionDataLoading =
+    (needsModulePracticeBank && !modulePracticeBank) || isBankQuestionPoolLoading;
+  const shouldShowQuestionDataLoading = !currentQuestion && isQuestionDataLoading;
 
   const renderQuestionImages = () => {
     if (!questionImages?.length) return null;
 
     return (
       <div className="space-y-2">
-        {questionImages.map((img, idx) => (
-          <div key={`${img.src}-${idx}`} className="w-full flex justify-center">
-            <TransparentAwareImage
-              src={normalizePublicAssetPath(img.src)}
-              alt={img.alt || `Question image ${idx + 1}`}
-              className={cn(
-                "h-auto object-contain",
-                getQuestionImageClassName(img.displaySize, subject, shouldReduceQuestionImageSize),
-              )}
-              wrapperClassName={cn("max-w-full", shouldReduceQuestionImageSize && "flex justify-center")}
-              loading="lazy"
-              trimWhitespace={isBank && bankSource === 'unofficial'}
-            />
-          </div>
-        ))}
+        {questionImages.map((img, idx) => {
+          const src = normalizePublicAssetPath(img.src);
+          const reserveWhiteBackground = isBank && shouldReserveWhiteQuestionImageSpace(src);
+
+          return (
+            <div key={`${img.src}-${idx}`} className="w-full flex justify-center">
+              <TransparentAwareImage
+                src={src}
+                alt={img.alt || `Question image ${idx + 1}`}
+                className={cn(
+                  "h-auto object-contain",
+                  getQuestionImageClassName(img.displaySize, subject, shouldReduceQuestionImageSize),
+                )}
+                wrapperClassName={cn("max-w-full", shouldReduceQuestionImageSize && "flex justify-center")}
+                loading="lazy"
+                trimWhitespace={isBank && bankSource === 'unofficial'}
+                reserveWhiteBackground={reserveWhiteBackground}
+                intrinsicSize={reserveWhiteBackground ? questionImageDimensionsBySrc[src] : undefined}
+              />
+            </div>
+          );
+        })}
       </div>
     );
   };
@@ -2448,37 +2626,8 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     };
   }, []);
 
-  if (!currentQuestion && isPracticeQuestionBankLoading) {
-    return (
-      <div className="min-h-screen bg-background p-4 text-foreground">
-        <div className="mx-auto max-w-6xl rounded-xl border border-border bg-card shadow-sm">
-          <div className="flex items-center justify-between border-b border-border px-4 py-3">
-            <div className="h-5 w-36 animate-pulse rounded-full bg-muted" />
-            <div className="h-9 w-24 animate-pulse rounded-md bg-muted" />
-          </div>
-          <div className="grid gap-5 p-5 lg:grid-cols-[1fr_0.9fr]">
-            <div className="space-y-4">
-              <div className="h-4 w-28 animate-pulse rounded-full bg-muted" />
-              <div className="h-4 w-full animate-pulse rounded-full bg-muted" />
-              <div className="h-4 w-11/12 animate-pulse rounded-full bg-muted" />
-              <div className="h-4 w-5/6 animate-pulse rounded-full bg-muted" />
-              <div className="mt-4 h-56 w-full animate-pulse rounded-lg bg-muted" />
-            </div>
-            <div className="space-y-3">
-              {[0, 1, 2, 3].map((item) => (
-                <div key={item} className="flex items-center gap-3 rounded-lg border border-border/70 p-4">
-                  <div className="h-8 w-8 shrink-0 animate-pulse rounded-full bg-muted" />
-                  <div className="w-full space-y-2">
-                    <div className="h-3 w-full animate-pulse rounded-full bg-muted" />
-                    <div className="h-3 w-2/3 animate-pulse rounded-full bg-muted" />
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </div>
-    );
+  if (shouldShowQuestionDataLoading) {
+    return <div className="min-h-screen bg-background" />;
   }
 
   if (!currentQuestion) {
@@ -2539,9 +2688,9 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     }
     applyTheme(!isDark);
   };
-  const handleCreateSimilarPracticeSet = (startNow: boolean) => {
+  const handleCreateSimilarPracticeSet = async (startNow: boolean) => {
     if (!currentBankQuestion) return;
-    const practiceSet = createCustomPracticeSetForQuestion(currentBankQuestion, uid);
+    const practiceSet = await createCustomPracticeSetForQuestion(currentBankQuestion, uid);
     if (startNow) {
       launchCustomPracticeSet(practiceSet, navigate);
       return;
@@ -2832,14 +2981,9 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     navigate(`/bank?bankType=${bankSource}`);
   };
   const handleEmbedAwareAdvance = () => {
-    if (isEmbed) {
-      const nextClicks = embedNextClicksRef.current + 1;
-      embedNextClicksRef.current = nextClicks;
-      if (nextClicks >= 2) {
-        handlePrimaryAdvance();
-        setShowEmbedUpsell(true);
-        return;
-      }
+    if (shouldShowEmbedUpsellBeforeAdvance()) {
+      setShowEmbedUpsell(true);
+      return;
     }
     handlePrimaryAdvance();
   };
@@ -3521,7 +3665,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
               )}
               <Button
                 onClick={handleEmbedAwareAdvance}
-                disabled={isAssessmentMode ? false : !canGoNext}
+                disabled={isAssessmentMode ? false : !canGoNext && !isAtPreviewQuestionLimit}
                 variant="outline"
                 className={cn("h-10 transition-colors duration-200 ease-out", shouldCompress && "w-11 px-0")}
               >

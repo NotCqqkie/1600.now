@@ -13,7 +13,7 @@
     },
     {
       "title": "Write and confirm the equation",
-      "content": "The equation is $$y=200(3)^x.$$ Choices A and C are power functions with $x$ as the base. Choice D has initial value $3$. Choice B matches both the initial value and the multiplier, so <strong>B</strong> is correct."
+      "content": "The equation is $$y=200(3)^x.$$ Two other options are power functions with $x$ as the base. $y = 3(200)^x$ has initial value $3$. $y = 200(3)^x$ matches both the initial value and the multiplier, so <strong>B</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId": "4e1b3643-30b1-41c4-9027-1f149baf52c7_7", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Recall the mean formula", "content": "The mean of a set of values is the sum of the values divided by the number of values:<br/>$$\\text{mean} = \\frac{\\text{sum of times}}{\\text{number of tasks}}$$"}, {"title": "Apply to the data", "content": "Adding the five task times in the table and dividing by $5$ gives:<br/>$$\\text{mean} = \\frac{35}{5} = 7 \\text{ minutes}$$<br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "4e1b3643-30b1-41c4-9027-1f149baf52c7_7",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recall the mean formula",
+      "content": "The mean of a set of values is the sum of the values divided by the number of values:<br/>$$\\text{mean} = \\frac{\\text{sum of times}}{\\text{number of tasks}}$$"
+    },
+    {
+      "title": "Apply to the data",
+      "content": "Adding the five task times in the table and dividing by $5$ gives:<br/>$$\\text{mean} = \\frac{35}{5} = 7 \\text{ minutes}$$<br/><strong>B</strong> is correct."
+    }
+  ]
+}

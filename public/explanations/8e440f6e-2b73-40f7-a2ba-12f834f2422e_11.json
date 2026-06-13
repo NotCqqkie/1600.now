@@ -9,11 +9,11 @@
     },
     {
       "title": "Identify the answer",
-      "content": "A constant function with value $3$ is $f(x)=3$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."
+      "content": "A constant function with value $3$ is $f(x)=3$. That confirms <strong>C</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice C, $ f(x) = 3 $, and the other choices fail the same setup or substitution. Therefore <strong>C</strong> is correct."
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches the correct answer, $ f(x) = 3 $, and the other choices fail the same setup or substitution. Therefore <strong>C</strong> is correct."
     }
   ]
 }

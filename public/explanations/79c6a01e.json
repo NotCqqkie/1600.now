@@ -1,1 +1,19 @@
-{"questionId": "79c6a01e", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Pin down the goal", "content": "The student wants to indicate how Fulton, Missouri, got its name. The answer must (a) name Fulton, Missouri and (b) state who or what it was named after."}, {"title": "Find the choice that does both", "content": "Only one option names the city and identifies Robert Fulton as its namesake, with a brief tag about who he was."}, {"title": "Eliminate the other choices", "content": "<ul><li><strong>Choice A &mdash; 'shares its name with Fulton Street'</strong>: notes both are called Fulton but never says where the Missouri city's name came from &mdash; misses the goal. &#10007;</li><li><strong>Choice B &mdash; 'Fulton Street is in New York City'</strong>: about Fulton Street and the Clermont, not about how the Missouri city got its name. &#10007;</li><li><strong>Choice C &mdash; 'Designed in 1807 in New York City'</strong>: entirely about the Clermont; Fulton, Missouri is not mentioned. &#10007;</li><li><strong>Choice D &mdash; 'Fulton, Missouri, is named after Robert Fulton, designer of the first commercially successful steamboat'</strong>: names the city, identifies the namesake, and adds why he is notable. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "79c6a01e",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Pin down the goal",
+      "content": "The student wants to indicate how Fulton, Missouri, got its name. The answer must (a) name Fulton, Missouri and (b) state who or what it was named after."
+    },
+    {
+      "title": "Find the choice that does both",
+      "content": "The sentence “Fulton, Missouri, is named after Robert Fulton, designer of the first commercially successful steamboat” names the city and identifies Robert Fulton as its namesake, with a brief tag about who he was."
+    },
+    {
+      "title": "Eliminate the other choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Fulton, Missouri, shares its name with Fulton Street in New York City.&rsquo;</strong>: notes both are called Fulton but never says where the Missouri city's name came from &mdash; misses the goal. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Fulton Street is in New York City, where the steamboat <em>Clermont</em> was designed in 1807.&rsquo;</strong>: about Fulton Street and the Clermont, not about how the Missouri city got its name. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Designed in 1807 in New York City, <em>Clermont</em> was the first commercially successful steamboat.&rsquo;</strong>: entirely about the Clermont; Fulton, Missouri is not mentioned. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Fulton, Missouri, is named after Robert Fulton, designer of the first commercially successful steamboat.&rsquo;</strong>: names the city, identifies the namesake, and adds why he is notable. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

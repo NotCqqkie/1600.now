@@ -1,1 +1,19 @@
-{"questionId": "dc87adf4", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Read the claim precisely", "content": "Trollope's portrayal underscores Dr. Proudie's <em>exaggerated sense of his own abilities</em>. The quotation must show Proudie himself overrating his abilities, not the narrator's judgment or someone else's view."}, {"title": "Scan for self-flattery", "content": "Look for language showing Proudie thinking highly of himself. The phrase &quot;as he fondly flattered himself&quot; is a textbook signal of a character's inflated self-image."}, {"title": "Eliminate per choice", "content": "<ul><li><strong>Choice A &mdash; 'must not...be taken as proved that Dr. Proudie was a man of great mental powers'</strong>: this is the narrator deflating Proudie, not Proudie overrating himself (misread of whose view is shown). &#10007;</li><li><strong>Choice B &mdash; 'as he fondly flattered himself, been selected as possessing such gifts...as must be sure to recommend him to a yet higher notice'</strong>: Proudie himself imagines he has superior gifts destined for promotion &mdash; exactly an exaggerated self-assessment. &#10003;</li><li><strong>Choice C &mdash; 'his high connexions, and the peculiar talents...recommended him to persons in power'</strong>: the narrator lists external reasons he was noticed; nothing about Proudie's self-view (misread). &#10007;</li><li><strong>Choice D &mdash; 'sufficient tact to answer the purpose...without making himself troublesome'</strong>: describes a modest, useful competence, the opposite of an inflated self-image (misread). &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "dc87adf4",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the claim precisely",
+      "content": "Trollope's portrayal underscores Dr. Proudie's <em>exaggerated sense of his own abilities</em>. The quotation must show Proudie himself overrating his abilities, not the narrator's judgment or someone else's view."
+    },
+    {
+      "title": "Scan for self-flattery",
+      "content": "Look for language showing Proudie thinking highly of himself. The phrase \"as he fondly flattered himself\" is a textbook signal of a character's inflated self-image."
+    },
+    {
+      "title": "Eliminate per choice",
+      "content": "<ul><li><strong>\"\"It must not…be taken as proved that Dr. Proudie was a man of great mental powers, or even of much capacity for business, for such qualities had not been required in him.\"\"</strong>: this is the narrator deflating Proudie, not Proudie overrating himself (misread of whose view is shown). &#10007;</li><li><strong>\"\"[Dr. Proudie] was comparatively young, and had, as he fondly flattered himself, been selected as possessing such gifts, natural and acquired, as must be sure to recommend him to a yet higher notice.\"\"</strong>: Proudie himself imagines he has superior gifts destined for promotion &mdash; exactly an exaggerated self-assessment. &#10003;</li><li><strong>\"\"[Dr. Proudie's] residence in the metropolis, rendered necessary by duties thus entrusted to him, his high connexions, and the peculiar talents and nature of the man, recommended him to persons in power.\"\"</strong>: the narrator lists external reasons he was noticed; nothing about Proudie's self-view (misread). &#10007;</li><li><strong>\"\"[Dr. Proudie] was certainly possessed of sufficient tact to answer the purpose for which he was required without making himself troublesome.\"\"</strong>: describes a modest, useful competence, the opposite of an inflated self-image (misread). &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+    }
+  ]
+}

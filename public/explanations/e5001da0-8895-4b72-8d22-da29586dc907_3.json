@@ -1,1 +1,15 @@
-{"questionId": "e5001da0-8895-4b72-8d22-da29586dc907_3", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Read the frequency table", "content": "A frequency table lists the values that appear in the data set and how many times each appears. The <strong>minimum</strong> is the <em>smallest value</em> listed with a nonzero frequency."}, {"title": "Identify the smallest value", "content": "The smallest value with positive frequency in the table is $20$.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "e5001da0-8895-4b72-8d22-da29586dc907_3",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the frequency table",
+      "content": "A frequency table lists the values that appear in the data set and how many times each appears. The <strong>minimum</strong> is the <em>smallest value</em> listed with a nonzero frequency."
+    },
+    {
+      "title": "Identify the smallest value",
+      "content": "The smallest value with positive frequency in the table is $20$.<br/><br/>That matches the correct answer — <strong>C</strong> is correct."
+    }
+  ]
+}

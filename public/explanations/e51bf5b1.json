@@ -1,4 +1,5 @@
 {
+  "questionId": "e51bf5b1",
   "qid": "e51bf5b1",
   "steps": [
     {
@@ -15,7 +16,7 @@
     },
     {
       "title": "Choose the integer case",
-      "content": "Choice D gives $49=6b+7$, so $b=7$, a positive integer. Then $3x^2+49x+98=(x+14)(3x+7)$, so $x+2b=x+14$ is a factor. Choice <strong>D</strong> is correct."
+      "content": "<strong>$3{x}^{2}+49x+14b$</strong> gives $49=6b+7$, so $b=7$, a positive integer. Then $3x^2+49x+98=(x+14)(3x+7)$, so $x+2b=x+14$ is a factor. $3{x}^{2}+49x+14b$ is correct."
     }
   ],
   "correctAnswer": "D"

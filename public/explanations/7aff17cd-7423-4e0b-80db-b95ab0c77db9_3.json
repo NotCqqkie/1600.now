@@ -1,1 +1,15 @@
-{"questionId": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_3", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "This is a Words in Context question. The blank describes how the relationship between oil shocks and national economic activity has changed as non-oil energy use has grown. The follow-up evidence &mdash; that oil shocks&rsquo; effect on India&rsquo;s GDP was &ldquo;only slightly greater than zero&rdquo; &mdash; shows the relationship has become much weaker over time. The blank must mean diminished or weakened."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; &lsquo;reverted&rsquo;</strong>: to return to a previous state &mdash; the passage shows the relationship has shrunk to nearly nothing, not returned to some former condition. &#10007;</li><li><strong>Choice B &mdash; &lsquo;acquiesced&rsquo;</strong>: to comply or submit reluctantly &mdash; a relationship between oil shocks and economic activity cannot submit or comply; the word does not fit the context. &#10007;</li><li><strong>Choice C &mdash; &lsquo;oscillated&rsquo;</strong>: to swing back and forth between states &mdash; the passage describes a sustained weakening, not fluctuation in either direction. &#10007;</li><li><strong>Choice D &mdash; &lsquo;abated&rsquo;</strong>: to diminish or become less intense &mdash; the relationship has abated: its effect on GDP has shrunk to nearly zero as non-oil energy has grown. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_3",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a Words in Context question. The blank describes how the relationship between oil shocks and national economic activity has changed as non-oil energy use has grown. The follow-up evidence &mdash; that oil shocks&rsquo; effect on India&rsquo;s GDP was &ldquo;only slightly greater than zero&rdquo; &mdash; shows the relationship has become much weaker over time. The blank must mean diminished or weakened."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;reverted&rsquo;</strong>: to return to a previous state &mdash; the passage shows the relationship has shrunk to nearly nothing, not returned to some former condition. &#10007;</li><li><strong>Choice B &mdash; &lsquo;acquiesced&rsquo;</strong>: to comply or submit reluctantly &mdash; a relationship between oil shocks and economic activity cannot submit or comply; the word does not fit the context. &#10007;</li><li><strong>Choice C &mdash; &lsquo;oscillated&rsquo;</strong>: to swing back and forth between states &mdash; the passage describes a sustained weakening, not fluctuation in either direction. &#10007;</li><li><strong>Choice D &mdash; &lsquo;abated&rsquo;</strong>: to diminish or become less intense &mdash; the relationship has abated: its effect on GDP has shrunk to nearly zero as non-oil energy has grown. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

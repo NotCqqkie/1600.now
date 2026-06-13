@@ -102,7 +102,7 @@
     "difficulty": "Easy",
     "question_number": 4,
     "test_name": "Module Source 162 Math M1",
-    "passage": "An aquarium uses small and large tanks to temporarily hold a total of 37 fish. Each small tank holds 1 fish, and each large tank holds 2 fish. Which equation represents this situation, where $ s $ is the number of small tanks and $ b $ is the number of large tanks the aquarium uses?",
+    "passage": "An aquarium uses small and large tanks to temporarily hold a total of 37 fish. Each small tank holds 1 fish, and each large tank holds 2 fish. Which equation represents this situation, where $s$ is the number of small tanks and $b$ is the number of large tanks the aquarium uses?",
     "question_text": null,
     "choices": [
       {
@@ -260,7 +260,7 @@
     "difficulty": "Medium",
     "question_number": 10,
     "test_name": "Module Source 162 Math M1",
-    "passage": "The table shows three values of $a$ and their corresponding values of $y$ for the equation $y = 4(2)^x + 5$. In the table, $a$ is a constant. What is the value of $a$?",
+    "passage": "The table shows three values of $x$ and their corresponding values of $y$ for the equation $y = 4(2)^x + 5$. In the table, $a$ is a constant. What is the value of $a$?",
     "question_text": null,
     "choices": [
       {
@@ -299,7 +299,7 @@
     "difficulty": "Medium",
     "question_number": 11,
     "test_name": "Module Source 162 Math M1",
-    "passage": "The number of bacteria in a liquid medium doubles every day. There are 72,000 bacteria in the liquid medium at the start of an observation. Which of the following represents the number of bacteria, $ y $, in the liquid medium $ t $ days after the start of the observation?",
+    "passage": "The number of bacteria in a liquid medium doubles every day. There are 72,000 bacteria in the liquid medium at the start of an observation. Which of the following represents the number of bacteria, $y$, in the liquid medium $t$ days after the start of the observation?",
     "question_text": null,
     "choices": [
       {
@@ -393,7 +393,7 @@
     "difficulty": "Medium",
     "question_number": 15,
     "test_name": "Module Source 162 Math M1",
-    "passage": "For the linear function $ g $, the table shows four values of $ x $ and their corresponding values of $ g(x) $. The function can be written as $ g(x) = mx + b $, where $ m $ and $ b $ are constants. What is the value of $ b $?",
+    "passage": "For the linear function $g$, the table shows four values of $x$ and their corresponding values of $g(x)$. The function can be written as $g(x) = mx + b$, where $m$ and $b$ are constants. What is the value of $b$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -415,7 +415,7 @@
     "difficulty": "Easy",
     "question_number": 16,
     "test_name": "Module Source 162 Math M1",
-    "passage": "$x + 5y = 5$\n$x - 5y = 3$\nThe solution to the given system of equations is ($x, y$). What is the value of $x$?",
+    "passage": "$x + 5y = 5$\n$x - 5y = 3$\nThe solution to the given system of equations is $(x, y)$. What is the value of $x$?",
     "question_text": null,
     "choices": [
       {
@@ -572,7 +572,7 @@
     "difficulty": "Hard",
     "question_number": 21,
     "test_name": "Module Source 162 Math M1",
-    "passage": "In the $xy$-plane, circle $M$ is the graph of the equation $(x + 6a)^2 + (y - 38a)^2 = 36a^2$ where $a$ is a positive constant. Circle $V$ is obtained by shifting circle $M$ 12$a$ units to the right. Which equation represents circle $V$?",
+    "passage": "In the $xy$-plane, circle $M$ is the graph of the equation $(x + 6a)^2 + (y - 38a)^2 = 36a^2$ where $a$ is a positive constant. Circle $V$ is obtained by shifting circle $M$ $12a$ units to the right. Which equation represents circle $V$?",
     "question_text": null,
     "choices": [
       {

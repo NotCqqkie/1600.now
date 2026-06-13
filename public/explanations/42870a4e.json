@@ -1,1 +1,15 @@
-{"questionId": "42870a4e", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the logical relationship", "content": "The sentence says Duchamp &quot;did just that&quot; &mdash; his sculpture accomplished exactly what he intended. The blank must signal confirmation or fulfillment of a prior claim, not similarity, contrast, or addition."}, {"title": "Test each transition word", "content": "<ul><li><strong>Choice A &mdash; 'Similarly,'</strong>: Signals resemblance between two things &mdash; but the sentence is confirming one thing, not comparing two. &#10007;</li><li><strong>Choice B &mdash; 'Indeed,'</strong>: Signals confirmation or strong affirmation of the previous idea &mdash; exactly right when an intention is borne out in practice. &#10003;</li><li><strong>Choice C &mdash; 'Instead,'</strong>: Signals contrast or substitution &mdash; the opposite of confirmation. &#10007;</li><li><strong>Choice D &mdash; 'In addition,'</strong>: Signals that new information is being added &mdash; does not convey that the intention was realized. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "42870a4e",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the logical relationship",
+      "content": "The sentence says Duchamp &quot;did just that&quot; &mdash; his sculpture accomplished exactly what he intended. The blank must signal confirmation or fulfillment of a prior claim, not similarity, contrast, or addition."
+    },
+    {
+      "title": "Test each transition word",
+      "content": "<ul><li><strong>Choice A — Similarly,</strong>: Signals resemblance between two things &mdash; but the sentence is confirming one thing, not comparing two. &#10007;</li><li><strong>Choice B — Indeed,</strong>: Signals confirmation or strong affirmation of the previous idea &mdash; exactly right when an intention is borne out in practice. &#10003;</li><li><strong>Choice C — Instead,</strong>: Signals contrast or substitution &mdash; the opposite of confirmation. &#10007;</li><li><strong>Choice D — In addition,</strong>: Signals that new information is being added &mdash; does not convey that the intention was realized. &#10007;</li></ul><strong>B</strong> is correct."
+    }
+  ]
+}

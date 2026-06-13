@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Identify angle equality and similar triangles",
-      "content": "The figure marks angles at $W$ and $Y$ both as $a°$, so $\\angle QWX = \\angle QYZ$. Since $WZ$ and $XY$ intersect at $Q$, angles $\\angle WQX$ and $\\angle YQZ$ are vertical angles, making them equal. By AA similarity, triangle $WQX \\sim$ triangle $YQZ$."
+      "content": "The figure marks angles at $W$ and $Y$ both as $a^{\\circ}$, so $\\angle QWX = \\angle QYZ$. Since $WZ$ and $XY$ intersect at $Q$, angles $\\angle WQX$ and $\\angle YQZ$ are vertical angles, making them equal. By AA similarity, triangle $WQX \\sim$ triangle $YQZ$."
     },
     {
       "title": "Set up the proportion from corresponding sides",

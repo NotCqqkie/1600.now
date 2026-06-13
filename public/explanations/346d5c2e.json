@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice A is $2$. It checks because $9(2(2)+3)=9(7)=63$. The other choices make $2x+3$ larger than $7$, so they make $f(x)$ larger than $63$. Therefore, choice <strong>A</strong> is correct."
+      "content": "The correct answer is $2$. It checks because $9(2(2)+3)=9(7)=63$. The other choices make $2x+3$ larger than $7$, so they make $f(x)$ larger than $63$. Therefore, <strong>A</strong> is correct."
     }
   ]
 }

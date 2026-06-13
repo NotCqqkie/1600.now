@@ -1,1 +1,19 @@
-{"section":"Reading and Writing","correctAnswer":"A","steps":[{"title":"Pin down the claim","content":"The underlined sentence says &quot;Thanks to &lsquo;Aha P&umacr;nana Leo, the number of young people who speak the language has increased.&quot; Support must show (1) a rise in young Hawaiian speakers and (2) a connection to &lsquo;Aha P&umacr;nana Leo."},{"title":"Find the supporting evidence","content":"Choice A provides a then-and-now count tied directly to the school: fewer than fifty children spoke Hawaiian at founding, versus more than 2,000 students at &lsquo;Aha P&umacr;nana Leo today. That is exactly the increase the claim asserts."},{"title":"Eliminate the others","content":"<ul><li><strong>Choice A &mdash; &apos;Fewer than fifty children... now more than 2,000 students at &lsquo;Aha P&umacr;nana Leo speak it&apos;</strong>: shows both the increase and its tie to the school. &#10003;</li><li><strong>Choice B &mdash; &apos;680,000 Native Hawaiian people... half... lived in Hawai&lsquo;i&apos;</strong>: a population statistic that says nothing about young Hawaiian speakers or the school. &#10007;</li><li><strong>Choice C &mdash; &apos;Hawaiian is very similar to... Tahitian, Samoan, and M&amacr;ori&apos;</strong>: linguistic kinship is irrelevant to whether speaker numbers rose. &#10007;</li><li><strong>Choice D &mdash; &apos;tens of thousands... including over 37,000 Samoans&apos;</strong>: about other Pacific Islander communities, not Hawaiian-speaking youth. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "c088a9a9",
+  "section": "Reading and Writing",
+  "correctAnswer": "A",
+  "steps": [
+    {
+      "title": "Pin down the claim",
+      "content": "The underlined sentence says &quot;Thanks to &lsquo;Aha P&umacr;nana Leo, the number of young people who speak the language has increased.&quot; Support must show (1) a rise in young Hawaiian speakers and (2) a connection to &lsquo;Aha P&umacr;nana Leo."
+    },
+    {
+      "title": "Find the supporting evidence",
+      "content": "The correct answer provides a then-and-now count tied directly to the school: fewer than fifty children spoke Hawaiian at founding, versus more than 2,000 students at &lsquo;Aha P&umacr;nana Leo today. That is exactly the increase the claim asserts."
+    },
+    {
+      "title": "Eliminate the others",
+      "content": "<ul><li><strong>Choice A &mdash; Fewer than fifty children could speak Hawaiian when 'Aha Pūnana Leo was founded, but now more than 2,000 students at 'Aha Pūnana Leo speak it.</strong>: shows both the increase and its tie to the school. &#10003;</li><li><strong>Choice B &mdash; Roughly 680,000 Native Hawaiian people lived in the United States in 2020, and a little less than half of them lived in Hawai'i.</strong>: a population statistic that says nothing about young Hawaiian speakers or the school. &#10007;</li><li><strong>Choice C &mdash; Hawaiian is very similar to other languages that are spoken on the Polynesian Islands of the Pacific Ocean, including Tahitian, Samoan, and Māori.</strong>: linguistic kinship is irrelevant to whether speaker numbers rose. &#10007;</li><li><strong>Choice D &mdash; Besides Native Hawaiians, tens of thousands of people from other Pacific Islander communities live in Hawai'i today, including over 37,000 Samoans.</strong>: about other Pacific Islander communities, not Hawaiian-speaking youth. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

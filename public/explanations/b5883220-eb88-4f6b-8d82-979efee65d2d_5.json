@@ -13,7 +13,7 @@
     },
     {
       "title": "Check all choices",
-      "content": "<ul><li><strong>Choice A &mdash; '$f(d) = \\frac{d}{35} - 10$'</strong>: This subtracts the starting fuel instead of the fuel used — gives negative values immediately and grows instead of decreasing &#10007;</li><li><strong>Choice B &mdash; '$f(d) = d - 10$'</strong>: Subtracts miles directly from gallons — units are wrong &#10007;</li><li><strong>Choice C &mdash; '$f(d) = 10 - \\frac{d}{35}$'</strong>: Starts at 10 gallons and subtracts $\\frac{d}{35}$ gallons consumed — correct &#10003;</li><li><strong>Choice D &mdash; '$f(d) = 10 - d$'</strong>: Subtracts miles directly from gallons — units are wrong &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; $f(d)=\\frac{d}{35}-10$</strong>: This subtracts the starting fuel instead of the fuel used — gives negative values immediately and grows instead of decreasing &#10007;</li><li><strong>Choice B &mdash; $f(d)=d-10$</strong>: Subtracts miles directly from gallons — units are wrong &#10007;</li><li><strong>Choice C &mdash; $f(d)=10-\\frac{d}{35}$</strong>: Starts at 10 gallons and subtracts $\\frac{d}{35}$ gallons consumed — correct &#10003;</li><li><strong>Choice D &mdash; $f(d)=10-d$</strong>: Subtracts miles directly from gallons — units are wrong &#10007;</li></ul>That is the correct answer."
     }
   ]
 }

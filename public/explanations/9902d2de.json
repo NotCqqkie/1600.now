@@ -1,1 +1,15 @@
-{"questionId": "9902d2de", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structures", "content": "On the left is an independent clause ending with “to die,” and on the right is an independent clause beginning with “it left unexplored.”"}, {"title": "Apply the rule for joining independent clauses", "content": "Two independent clauses joined by a coordinating conjunction require a comma before the conjunction. 'But' is the coordinating conjunction here, so choice B correctly includes the comma before 'but.' The other choices omit the required comma, omit the conjunction altogether, or use only a comma without a conjunction.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "9902d2de",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures",
+      "content": "On the left is an independent clause ending with “to die,” and on the right is an independent clause beginning with “it left unexplored.”"
+    },
+    {
+      "title": "Apply the rule for joining independent clauses",
+      "content": "Two independent clauses joined by a coordinating conjunction require a comma before the conjunction. “But” is the coordinating conjunction here, and the correct sentence includes the comma before “but.” The other choices omit the required comma, omit the conjunction altogether, or use only a comma without a conjunction.<br/><br/>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "With $p=\\frac{1}{6}$, the equation becomes $0x=90$, which is impossible. All other choices leave a nonzero coefficient on $x$ and therefore give exactly one solution. That matches choice D, so <strong>D</strong> is correct."
+      "content": "With $p=\\frac{1}{6}$, the equation becomes $0x=90$, which is impossible. All other choices leave a nonzero coefficient on $x$ and therefore give exactly one solution. That confirms <strong>D</strong> is correct."
     }
   ]
 }

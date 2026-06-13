@@ -82,19 +82,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$107 < h < 158$"
+        "text": "$107 \\lt h \\lt 158$"
       },
       {
         "label": "B",
-        "text": "$50 < h < 100$"
+        "text": "$50 \\lt h \\lt 100$"
       },
       {
         "label": "C",
-        "text": "$40 < h < 95$"
+        "text": "$40 \\lt h \\lt 95$"
       },
       {
         "label": "D",
-        "text": "$16 < h < 91$"
+        "text": "$16 \\lt h \\lt 91$"
       }
     ],
     "is_fill_in_blank": false,
@@ -252,7 +252,7 @@
     "difficulty": "Hard",
     "question_number": 9,
     "test_name": "Module Source 149 Math M2",
-    "passage": "<table class=\"cb-table table_WithBorder\"><thead><tr><th>$x$</th><th>$g\\left(x\\right)$</th></tr></thead><tbody><tr><td>$-27$</td><td>$3$</td></tr><tr><td>$-9$</td><td>$0$</td></tr><tr><td>$21$</td><td>$5$</td></tr></tbody></table>\n\nThe table shows three values of $x$ and their corresponding values of $g\\left(x\\right)$, where $g\\left(x\\right)=\\frac{f\\left(x\\right)}{x+3}$ and $f$ is a linear function. What is the <em>y</em>-intercept of the graph of $y=f\\left(x\\right)$ in the <em>xy</em>-plane?",
+    "passage": "<table class=\"cb-table table_WithBorder\"><thead><tr><th>$x$</th><th>$g \\left(x\\right)$</th></tr></thead><tbody><tr><td>$-27$</td><td>$3$</td></tr><tr><td>$-9$</td><td>$0$</td></tr><tr><td>$21$</td><td>$5$</td></tr></tbody></table> The table shows three values of $x$ and their corresponding values of $g \\left(x\\right)$, where $g \\left(x\\right)=\\frac{f \\left(x\\right)}{x+3}$ and $f$ is a linear function. What is the <em>y</em>-intercept of the graph of $y=f \\left(x\\right)$ in the <em>xy</em>-plane?",
     "question_text": null,
     "choices": [
       {
@@ -274,7 +274,7 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
-    "rationale": "Choice A is correct. It's given that the table shows values of $x$ and their corresponding values of $g\\left(x\\right)$, where $g\\left(x\\right)=\\frac{f\\left(x\\right)}{x+3}$. It's also given that $f$ is a linear function. It follows that an equation that defines $f$ can be written in the form $f\\left(x\\right)=mx+b$, where $m$ represents the slope and $b$ represents the <em>y</em>-coordinate of the <em>y</em>-intercept $\\left(0,b\\right)$ of the graph of $y=f\\left(x\\right)$ in the <em>xy</em>-plane. The slope of the graph of $y=f\\left(x\\right)$ can be found using two points, $\\left({x}_{1},{y}_{1}\\right)$ and $\\left({x}_{2},{y}_{2}\\right)$, that are on the graph of $y=f\\left(x\\right)$, and the formula $m=\\frac{{y}_{2}-{y}_{1}}{{x}_{2}-{x}_{1}}$. Since the table shows values of $x$ and their corresponding values of $g\\left(x\\right)$, substituting values of $x$ and $g\\left(x\\right)$ in the equation $g\\left(x\\right)=\\frac{f\\left(x\\right)}{x+3}$ can be used to define function $f$. Using the first pair of values from the table, $x=-27$ and $g\\left(x\\right)=3$, yields $3=\\frac{f\\left(-27\\right)}{-27+3}$, or $3=\\frac{f\\left(-27\\right)}{-24}$. Multiplying each side of this equation by $-24$ yields $-72=f\\left(-27\\right)$, so the point $\\left(-27,-72\\right)$ is on the graph of $y=f\\left(x\\right)$. Using the second pair of values from the table, $x=-9$ and $g\\left(x\\right)=0$, yields $0=\\frac{f\\left(-9\\right)}{-9+3}$, or $0=\\frac{f\\left(-9\\right)}{-6}$. Multiplying each side of this equation by $-6$ yields $0=f\\left(-9\\right)$, so the point $\\left(-9,0\\right)$ is on the graph of $y=f\\left(x\\right)$. Substituting $\\left(-27,-72\\right)$ and $\\left(-9,0\\right)$ for $\\left({x}_{1},{y}_{1}\\right)$ and $\\left({x}_{2},{y}_{2}\\right)$, respectively, in the formula $m=\\frac{{y}_{2}-{y}_{1}}{{x}_{2}-{x}_{1}}$ yields $m=\\frac{0-\\left(-72\\right)}{-9-\\left(-27\\right)}$, or $m=4$. Substituting $4$ for $m$ in the equation $f\\left(x\\right)=mx+b$ yields $f\\left(x\\right)=4x+b$. Since $0=f\\left(-9\\right)$, substituting $-9$ for $x$ and $0$ for $f\\left(x\\right)$ in the equation $f\\left(x\\right)=4x+b$ yields $0=4\\left(-9\\right)+b$, or $0=-36+b$. Adding $36$ to both sides of this equation yields $36=b$. It follows that $36$ is the <em>y</em>-coordinate of the <em>y</em>-intercept $\\left(0,b\\right)$ of the graph of $y=f\\left(x\\right)$. Therefore, the <em>y</em>-intercept of the graph of $y=f\\left(x\\right)$ is $\\left(0,36\\right)$.\nChoice B is incorrect. $12$ is the <em>y</em>-coordinate of the <em>y</em>-intercept of the graph of $y=g\\left(x\\right)$.\nChoice C is incorrect. $4$ is the slope of the graph of $y=f\\left(x\\right)$.\nChoice D is incorrect. $-9$ is the <em>x</em>-coordinate of the <em>x</em>-intercept of the graph of $y=f\\left(x\\right)$.",
+    "rationale": "Choice A is correct. It's given that the table shows values of $x$ and their corresponding values of $g \\left(x\\right)$, where $g \\left(x\\right)=\\frac{f \\left(x\\right)}{x+3}$. It's also given that $f$ is a linear function. It follows that an equation that defines $f$ can be written in the form $f \\left(x\\right)=mx+b$, where $m$ represents the slope and $b$ represents the <em>y</em>-coordinate of the <em>y</em>-intercept $\\left(0,b\\right)$ of the graph of $y=f \\left(x\\right)$ in the <em>xy</em>-plane. The slope of the graph of $y=f \\left(x\\right)$ can be found using two points, $\\left({x}_{1},{y}_{1}\\right)$ and $\\left({x}_{2},{y}_{2}\\right)$, that are on the graph of $y=f \\left(x\\right)$, and the formula $m=\\frac{{y}_{2}-{y}_{1}}{{x}_{2}-{x}_{1}}$. Since the table shows values of $x$ and their corresponding values of $g \\left(x\\right)$, substituting values of $x$ and $g \\left(x\\right)$ in the equation $g \\left(x\\right)=\\frac{f \\left(x\\right)}{x+3}$ can be used to define function $f$. Using the first pair of values from the table, $x=-27$ and $g \\left(x\\right)=3$, yields $3=\\frac{f \\left(-27\\right)}{-27+3}$, or $3=\\frac{f \\left(-27\\right)}{-24}$. Multiplying each side of this equation by $-24$ yields $-72=f \\left(-27\\right)$, so the point $\\left(-27,-72\\right)$ is on the graph of $y=f \\left(x\\right)$. Using the second pair of values from the table, $x=-9$ and $g \\left(x\\right)=0$, yields $0=\\frac{f \\left(-9\\right)}{-9+3}$, or $0=\\frac{f \\left(-9\\right)}{-6}$. Multiplying each side of this equation by $-6$ yields $0=f \\left(-9\\right)$, so the point $\\left(-9,0\\right)$ is on the graph of $y=f \\left(x\\right)$. Substituting $\\left(-27,-72\\right)$ and $\\left(-9,0\\right)$ for $\\left({x}_{1},{y}_{1}\\right)$ and $\\left({x}_{2},{y}_{2}\\right)$, respectively, in the formula $m=\\frac{{y}_{2}-{y}_{1}}{{x}_{2}-{x}_{1}}$ yields $m=\\frac{0- \\left(-72\\right)}{-9- \\left(-27\\right)}$, or $m=4$. Substituting $4$ for $m$ in the equation $f \\left(x\\right)=mx+b$ yields $f \\left(x\\right)=4x+b$. Since $0=f \\left(-9\\right)$, substituting $-9$ for $x$ and $0$ for $f \\left(x\\right)$ in the equation $f \\left(x\\right)=4x+b$ yields $0=4 \\left(-9\\right)+b$, or $0=-36+b$. Adding $36$ to both sides of this equation yields $36=b$. It follows that $36$ is the <em>y</em>-coordinate of the <em>y</em>-intercept $\\left(0,b\\right)$ of the graph of $y=f \\left(x\\right)$. Therefore, the <em>y</em>-intercept of the graph of $y=f \\left(x\\right)$ is $\\left(0,36\\right)$.\nChoice B is incorrect. $12$ is the <em>y</em>-coordinate of the <em>y</em>-intercept of the graph of $y=g \\left(x\\right)$.\nChoice C is incorrect. $4$ is the slope of the graph of $y=f \\left(x\\right)$.\nChoice D is incorrect. $-9$ is the <em>x</em>-coordinate of the <em>x</em>-intercept of the graph of $y=f \\left(x\\right)$.",
     "id": "02060533"
   },
   {
@@ -483,7 +483,7 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "110",
-    "rationale": "The correct answer is $110$. Let $x$ represent the total number of items in the sample. It’s given that $80%$ of the items are faulty and that there are $88$ faulty items in the sample. Therefore, $80%$ of $x$ is $88$. Since $80%$ can be rewritten as $\\frac{80}{100}$, it follows that $\\frac{80}{100}x=88$. Multiplying both sides of this equation by $100$ yields $80x=8,800$. Dividing both sides of this equation by $80$ yields $x=110$. Therefore, there are $110$ total items in the sample.",
+    "rationale": "The correct answer is $110$. Let $x$ represent the total number of items in the sample. It's given that $80%$ of the items are faulty and that there are $88$ faulty items in the sample. Therefore, $80%$ of $x$ is $88$. Since $80%$ can be rewritten as $\\frac{80}{100}$, it follows that $\\frac{80}{100}x=88$. Multiplying both sides of this equation by $100$ yields $80x=8,800$. Dividing both sides of this equation by $80$ yields $x=110$. Therefore, there are $110$ total items in the sample.",
     "id": "05195d8a"
   },
   {
@@ -493,7 +493,7 @@
     "difficulty": "Hard",
     "question_number": 18,
     "test_name": "Module Source 149 Math M2",
-    "passage": "A line intersects two parallel lines, forming four acute angles and four obtuse angles. The measure of one of the acute angles is $7x - 610$°. The sum of the measures of one of the acute angles and three of the obtuse angles is $-14x + w$°. What is the value of $w$?",
+    "passage": "A line intersects two parallel lines, forming four acute angles and four obtuse angles. The measure of one of the acute angles is $(7x - 610)^\\circ$. The sum of the measures of one of the acute angles and three of the obtuse angles is $(-14x + w)^\\circ$. What is the value of $w$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -508,7 +508,7 @@
     "difficulty": "Medium",
     "question_number": 19,
     "test_name": "Module Source 149 Math M2",
-    "passage": "The given equation relates the positive variables $p$, $q$, $r$, and $s$. Which of the following is equivalent to $q$?",
+    "passage": "$\\frac{1}{q}=\\frac{1}{p}+\\frac{1}{r}+\\frac{1}{s}$\nThe given equation relates the positive variables $p$, $q$, $r$, and $s$. Which of the following is equivalent to $q$?",
     "question_text": null,
     "choices": [
       {
@@ -517,7 +517,7 @@
       },
       {
         "label": "B",
-        "text": "$49(p + r + s)$"
+        "text": "${49}(p + r + s)$"
       },
       {
         "label": "C",

@@ -17,7 +17,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "<ul><li><strong>Choice A &mdash; '$f(x)=3x+29$'</strong>: gives $f(0)=29$, $f(1)=32$, and $f(2)=35$. Matches all rows.</li><li><strong>Choice B &mdash; '$f(x)=29x+32$'</strong>: $f(0)=32$, not 29. Eliminated.</li><li><strong>Choice C &mdash; '$f(x)=35x+29$'</strong>: $f(1)=64$, not 32. Eliminated.</li><li><strong>Choice D &mdash; '$f(x)=32x+35$'</strong>: $f(0)=35$, not 29. Eliminated.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; $f(x)=3x+29$</strong>: gives $f(0)=29$, $f(1)=32$, and $f(2)=35$. Matches all rows.</li><li><strong>Choice B &mdash; $f(x)=29x+32$</strong>: $f(0)=32$, not 29. Eliminated.</li><li><strong>Choice C &mdash; $f(x)=35x+29$</strong>: $f(1)=64$, not 32. Eliminated.</li><li><strong>Choice D &mdash; $f(x)=32x+35$</strong>: $f(0)=35$, not 29. Eliminated.</li></ul>That is the correct answer."
     }
   ]
 }

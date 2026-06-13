@@ -9,11 +9,11 @@
     },
     {
       "title": "Find the matching ordered pair",
-      "content": "With $x=2$ and $y=3$, the ordered pair is $(2, 3)$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."
+      "content": "With $x=2$ and $y=3$, the ordered pair is $(2, 3)$. That confirms <strong>D</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice D, $(2, 3)$, and the other choices fail the same setup or substitution. Therefore <strong>D</strong> is correct."
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches the correct answer, $(2, 3)$, and the other choices fail the same setup or substitution. Therefore <strong>D</strong> is correct."
     }
   ]
 }

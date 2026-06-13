@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice <strong>D</strong> is $y=-5x+18$. It checks against the table because when $x=0$, $y=18$, and when $x=1$, $y=13$. Choice <strong>D</strong> is correct."
+      "content": "<strong>D</strong> is $y=-5x+18$. It checks against the table because when $x=0$, $y=18$, and when $x=1$, $y=13$. <strong>D</strong> is correct."
     }
   ]
 }

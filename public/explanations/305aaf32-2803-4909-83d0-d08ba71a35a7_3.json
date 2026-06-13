@@ -9,7 +9,7 @@
     },
     {
       "title": "Interpret in context",
-      "content": "The x-axis represents <em>months after purchase</em>, so $x = 0$ means the bike was just purchased. The y-intercept value of $250$ is therefore the estimated value at the moment of purchase. That matches choice A — <strong>A</strong> is correct."
+      "content": "The x-axis represents <em>months after purchase</em>, so $x = 0$ means the bike was just purchased. The y-intercept value of $250$ is therefore the estimated value at the moment of purchase. <strong>A</strong> is correct."
     }
   ]
 }

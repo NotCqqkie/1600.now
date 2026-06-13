@@ -1,1 +1,15 @@
-{"questionId":"01d54ef3-3232-4ef0-afab-0cf0045af97e_17","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence reads: &quot;one of the nearly two thousand African ________ during the decade following the Civil War.&quot; The blank needs a plural noun (matching &quot;two thousand&quot;) that can be modified by the relative clause &quot;who won elections.&quot; No possessive is needed &mdash; the clause modifies who these people are, not something they own."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Americans&apos; who won elections&apos;'</strong>: Both apostrophes are wrong. <em>Americans&apos;</em> is possessive, which makes no sense here, and <em>elections&apos;</em> is also possessive for no reason. &#10007;</li><li><strong>Choice B &mdash; 'Americans who won election&apos;s'</strong>: <em>election&apos;s</em> is a singular possessive that doesn&apos;t fit &mdash; nothing is shown to belong to &quot;election.&quot; &#10007;</li><li><strong>Choice C &mdash; 'American&apos;s who won elections'</strong>: <em>American&apos;s</em> is a singular possessive. The sentence needs a plural noun to match &quot;two thousand,&quot; and no possessive is called for. &#10007;</li><li><strong>Choice D &mdash; 'Americans who won elections'</strong>: Plain plural noun, no apostrophe. The relative clause &quot;who won elections&quot; attaches correctly, and the plural matches &quot;nearly two thousand.&quot; &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "01d54ef3-3232-4ef0-afab-0cf0045af97e_17",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence reads: &quot;one of the nearly two thousand African ________ during the decade following the Civil War.&quot; The blank needs a plural noun (matching &quot;two thousand&quot;) that can be modified by the relative clause &quot;who won elections.&quot; No possessive is needed &mdash; the clause modifies who these people are, not something they own."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Americans' who won elections'</strong>: Both apostrophes are wrong. <em>Americans&apos;</em> is possessive, which makes no sense here, and <em>elections&apos;</em> is also possessive for no reason. &#10007;</li><li><strong>Choice B &mdash; Americans who won election's</strong>: <em>election&apos;s</em> is a singular possessive that doesn&apos;t fit &mdash; nothing is shown to belong to &quot;election.&quot; &#10007;</li><li><strong>Choice C &mdash; American's who won elections</strong>: <em>American&apos;s</em> is a singular possessive. The sentence needs a plural noun to match &quot;two thousand,&quot; and no possessive is called for. &#10007;</li><li><strong>Choice D &mdash; Americans who won elections</strong>: Plain plural noun, no apostrophe. The relative clause &quot;who won elections&quot; attaches correctly, and the plural matches &quot;nearly two thousand.&quot; &#10003;</li></ul>That matches <strong>Choice D &mdash; Americans who won elections</strong>."
+    }
+  ]
+}

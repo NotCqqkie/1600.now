@@ -9,7 +9,7 @@
     },
     {
       "title": "Check each choice",
-      "content": "<ul><li>A) $p = q + r + 34$: this would mean $p - 34 = q + r$, not $p + 34 = q + r$. Eliminate.</li><li>B) $p = q + r - 34$: adding $34$ to both sides gives $p + 34 = q + r$. Match.</li><li>C) $p = -q - r + 34$: implies $q + r = 34 - p$, not what's given. Eliminate.</li><li>D) $p = -q - r - 34$: implies $q + r = -p - 34$, not what's given. Eliminate.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "<ul><li>A) $p = q + r + 34$: this would mean $p - 34 = q + r$, not $p + 34 = q + r$. Eliminate.</li><li>B) $p = q + r - 34$: adding $34$ to both sides gives $p + 34 = q + r$. Match.</li><li>C) $p = -q - r + 34$: implies $q + r = 34 - p$, not what's given. Eliminate.</li><li>D) $p = -q - r - 34$: implies $q + r = -p - 34$, not what's given. Eliminate.</li></ul>That is the correct answer."
     }
   ]
 }

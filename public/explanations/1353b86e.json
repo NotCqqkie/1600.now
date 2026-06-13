@@ -13,11 +13,11 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice B uses the green marbles, and choice C uses red plus blue. The event asked for blue only, so use the blue count over the total."
+      "content": "<strong>Choice B &mdash; $22 / 40$</strong> uses the green marbles, and <strong>Choice C &mdash; $18 / 40$</strong> uses red plus blue. The event asked for blue only, so use the blue count over the total."
     },
     {
       "title": "Answer",
-      "content": "$10/40$ matches choice D, so <strong>D</strong> is correct."
+      "content": "$10/40$ matches <strong>Choice D &mdash; $10 / 40$</strong>, so <strong>D</strong> is correct."
     }
   ]
 }

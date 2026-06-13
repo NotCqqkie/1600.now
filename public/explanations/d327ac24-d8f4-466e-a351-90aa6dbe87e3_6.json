@@ -13,7 +13,7 @@
     },
     {
       "title": "Test each choice",
-      "content": "<ul><li><strong>A)</strong> $g(x)=3x^5+9$: adds 9 to the output &mdash; a vertical shift up by 9. &check;</li><li><strong>B)</strong> $g(x)=3x^5-9$: subtracts 9, which shifts down by 9. Eliminate.</li><li><strong>C)</strong> $g(x)=3x^{45}$: changes the exponent &mdash; not a shift at all. Eliminate.</li><li><strong>D)</strong> $g(x)=27x^5$: a vertical stretch, not a shift. Eliminate.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; $g(x)=3x^{5}+9$</strong>: $g(x)=3x^5+9$: adds 9 to the output &mdash; a vertical shift up by 9. &check;</li><li><strong>Choice B &mdash; $g(x)=3x^{5}-9$</strong>: $g(x)=3x^5-9$: subtracts 9, which shifts down by 9. Eliminate.</li><li><strong>Choice C &mdash; $g(x)=3x^{45}$</strong>: $g(x)=3x^{45}$: changes the exponent &mdash; not a shift at all. Eliminate.</li><li><strong>Choice D &mdash; $g(x)=27x^{5}$</strong>: $g(x)=27x^5$: a vertical stretch, not a shift. Eliminate.</li></ul>That is the correct answer."
     }
   ]
 }

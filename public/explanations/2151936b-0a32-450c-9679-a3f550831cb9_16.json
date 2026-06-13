@@ -1,1 +1,15 @@
-{"questionId": "2151936b-0a32-450c-9679-a3f550831cb9_16", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The sentence reads: &quot;As nanotechnology evolves, medical technology ______ to evolve as well.&quot; The &quot;as&quot; clause describes an ongoing and future process (evolution of nanotechnology). The main clause must express what will happen during that ongoing process, so it needs a future-oriented verb form."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; &apos;had likely been continuing&apos;</strong>: past perfect progressive &mdash; places the action before a reference point in the past, which contradicts the forward-looking &quot;as nanotechnology evolves.&quot; &#10007;</li><li><strong>Choice B &mdash; &apos;will likely continue&apos;</strong>: simple future, correctly expressing what is expected to happen as nanotechnology continues to develop. &#10003;</li><li><strong>Choice C &mdash; &apos;would likely have continued&apos;</strong>: past conditional perfect &mdash; implies the action was expected to have already happened under some unfulfilled condition, not a future expectation. &#10007;</li><li><strong>Choice D &mdash; &apos;had likely continued&apos;</strong>: past perfect &mdash; places the action as already completed before a past reference point, which conflicts with &quot;as nanotechnology evolves.&quot; &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "2151936b-0a32-450c-9679-a3f550831cb9_16",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence reads: &quot;As nanotechnology evolves, medical technology ______ to evolve as well.&quot; The &quot;as&quot; clause describes an ongoing and future process (evolution of nanotechnology). The main clause must express what will happen during that ongoing process, so it needs a future-oriented verb form."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; had likely been continuing</strong>: past perfect progressive &mdash; places the action before a reference point in the past, which contradicts the forward-looking &quot;as nanotechnology evolves.&quot; &#10007;</li><li><strong>Choice B &mdash; will likely continue</strong>: simple future, correctly expressing what is expected to happen as nanotechnology continues to develop. &#10003;</li><li><strong>Choice C &mdash; would likely have continued</strong>: past conditional perfect &mdash; implies the action was expected to have already happened under some unfulfilled condition, not a future expectation. &#10007;</li><li><strong>Choice D &mdash; had likely continued</strong>: past perfect &mdash; places the action as already completed before a past reference point, which conflicts with &quot;as nanotechnology evolves.&quot; &#10007;</li></ul>That matches <strong>Choice B &mdash; will likely continue</strong>."
+    }
+  ]
+}

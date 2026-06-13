@@ -9,7 +9,7 @@
     },
     {
       "title": "Solve for the initial population",
-      "content": "Let $P_0$ be the 1660 population. Then $P_0\\cdot 2^4=208{,}000$. $$P_0=\\frac{208{,}000}{16}=13{,}000.$$ That matches choice <strong>A</strong> — <strong>A</strong> is correct."
+      "content": "Let $P_0$ be the 1660 population. Then $P_0\\cdot 2^4=208{,}000$. $$P_0=\\frac{208{,}000}{16}=13{,}000.$$ Dividing by $16$ reverses the four doublings. That confirms <strong>A</strong> is correct."
     }
   ]
 }

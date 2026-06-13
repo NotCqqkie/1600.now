@@ -117,7 +117,7 @@
     "difficulty": "Easy",
     "question_number": 6,
     "test_name": "Module Source 175 Math M1",
-    "passage": "5% of w is 901.32. What is the value of w?",
+    "passage": "5% of $w$ is 901.32. What is the value of $w$?",
     "question_text": null,
     "choices": [
       {
@@ -322,7 +322,7 @@
     "difficulty": "Easy",
     "question_number": 14,
     "test_name": "Module Source 175 Math M1",
-    "passage": "Which expression is equivalent to $(39y)^{\\frac{1}{2}}$, where $y > 1$?",
+    "passage": "Which expression is equivalent to $(39y)^{\\frac{1}{2}}$, where $y \\gt 1$?",
     "question_text": null,
     "choices": [
       {
@@ -354,7 +354,7 @@
     "difficulty": "Hard",
     "question_number": 15,
     "test_name": "Module Source 175 Math M1",
-    "passage": "In triangle QRS shown, $QR < RS$. Which expression represents the length of $\\overline{QS}$?",
+    "passage": "In triangle QRS shown, $QR \\lt RS$. Which expression represents the length of $\\overline{QS}$?",
     "question_text": null,
     "choices": [
       {
@@ -536,7 +536,7 @@
     "difficulty": "Medium",
     "question_number": 21,
     "test_name": "Module Source 175 Math M1",
-    "passage": "The quadratic function $ f $ has a factor of $ (x + 5.75) $ and a zero at $ x = c $, where $ c $ is a positive constant. The graph of $ y = f(x) $ in the $ xy $-plane has its vertex at $ (-1.75, -d) $, where $ d $ is a positive constant. What is the value of $ c $?",
+    "passage": "The quadratic function $f$ has a factor of $(x + 5.75)$ and a zero at $x = c$, where $c$ is a positive constant. The graph of $y = f(x)$ in the $xy$-plane has its vertex at $(-1.75, -d)$, where $d$ is a positive constant. What is the value of $c$?",
     "question_text": null,
     "choices": [
       {
@@ -573,7 +573,7 @@
     "choices": [
       {
         "label": "A",
-        "text": "$\\cos L > \\sin K$"
+        "text": "$\\cos L \\gt \\sin K$"
       },
       {
         "label": "B",
@@ -581,7 +581,7 @@
       },
       {
         "label": "C",
-        "text": "$\\cos L < \\sin K$"
+        "text": "$\\cos L \\lt \\sin K$"
       },
       {
         "label": "D",

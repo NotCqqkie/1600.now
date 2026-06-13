@@ -1,1 +1,15 @@
-{"questionId":"6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_18","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank separates two independent clauses: <strong>'the observatory sites... number nearly five [BLANK]'</strong> and <strong>'the radars track mesospheric winds and other geospace phenomena.'</strong> Two independent clauses require a period, semicolon, or coordinating conjunction — not a comma alone."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'dozen, located across the globe,'</strong>: places only a comma between the two independent clauses — a comma splice. &#10007;</li><li><strong>Choice B &mdash; 'dozen. Located across the globe,'</strong>: uses a period to end the first sentence, then opens the second with the participial phrase &lsquo;Located across the globe,&rsquo; which correctly modifies &lsquo;the radars.&rsquo; Grammatically sound. &#10003;</li><li><strong>Choice C &mdash; 'dozen, and located across the globe,'</strong>: the coordinating conjunction &lsquo;and&rsquo; here joins a modifier, not a full clause, leaving a comma splice between the two independent clauses. &#10007;</li><li><strong>Choice D &mdash; 'dozen, which are located across the globe,'</strong>: inserts a relative clause but still connects the two independent clauses with only a comma — another comma splice. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_18",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank separates two independent clauses: <strong>'the observatory sites... number nearly five [BLANK]'</strong> and <strong>'the radars track mesospheric winds and other geospace phenomena.'</strong> Two independent clauses require a period, semicolon, or coordinating conjunction — not a comma alone."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;dozen, which are located&rsquo;</strong>: places only a comma between the two independent clauses — a comma splice. &#10007;</li><li><strong>Choice B &mdash; &lsquo;dozen. Located&rsquo;</strong>: uses a period to end the first sentence, then opens the second with the participial phrase &lsquo;Located across the globe,&rsquo; which correctly modifies &lsquo;the radars.&rsquo; Grammatically sound. &#10003;</li><li><strong>Choice C &mdash; &lsquo;dozen, located&rsquo;</strong>: the coordinating conjunction &lsquo;and&rsquo; here joins a modifier, not a full clause, leaving a comma splice between the two independent clauses. &#10007;</li><li><strong>Choice D &mdash; &lsquo;dozen located&rsquo;</strong>: inserts a relative clause but still connects the two independent clauses with only a comma — another comma splice. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

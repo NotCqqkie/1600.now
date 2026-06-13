@@ -1,1 +1,15 @@
-{"questionId": "8c90f26b-77aa-4ba4-80ae-bd4881600582_4", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "What meaning does the blank need?", "content": "The sentence says the question of how people 27,000 years ago understood the Gargas cave paintings &ldquo;is ______: we will never be able to answer it.&rdquo; The colon signals that the blank is defined by what follows: the blank must mean <em>unable to be answered</em>."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; &lsquo;irresolvable&rsquo;</strong>: means impossible to settle or answer &mdash; matches the colon&rsquo;s explanation that we can never answer it. &#10003;</li><li><strong>Choice B &mdash; &lsquo;self-contradictory&rsquo;</strong>: means containing internal contradictions &mdash; the question isn&rsquo;t logically contradictory; it is simply unanswerable because no evidence survives. &#10007;</li><li><strong>Choice C &mdash; &lsquo;imperative&rsquo;</strong>: means urgently necessary &mdash; the passage expresses pessimism about ever answering the question, not urgency about doing so. &#10007;</li><li><strong>Choice D &mdash; &lsquo;unavoidable&rsquo;</strong>: means impossible to escape &mdash; a question can be unavoidable yet still answerable; this does not capture &ldquo;we will never be able to answer it.&rdquo; &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "8c90f26b-77aa-4ba4-80ae-bd4881600582_4",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "What meaning does the blank need?",
+      "content": "The sentence says the question of how people 27,000 years ago understood the Gargas cave paintings &ldquo;is ______: we will never be able to answer it.&rdquo; The colon signals that the blank is defined by what follows: the blank must mean <em>unable to be answered</em>."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; irresolvable</strong>: means impossible to settle or answer &mdash; matches the colon&rsquo;s explanation that we can never answer it. &#10003;</li><li><strong>Choice B &mdash; self-contradictory</strong>: means containing internal contradictions &mdash; the question isn&rsquo;t logically contradictory; it is simply unanswerable because no evidence survives. &#10007;</li><li><strong>Choice C &mdash; imperative</strong>: means urgently necessary &mdash; the passage expresses pessimism about ever answering the question, not urgency about doing so. &#10007;</li><li><strong>Choice D &mdash; unavoidable</strong>: means impossible to escape &mdash; a question can be unavoidable yet still answerable; this does not capture &ldquo;we will never be able to answer it.&rdquo; &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

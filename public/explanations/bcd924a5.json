@@ -1,1 +1,19 @@
-{"questionId":"bcd924a5","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Read the colon as a definition","content":"The colon signals that what follows defines the blank: the terraces, canals, and water temples are &quot;joined together into a single cohesive unit.&quot; So the blank must mean linked together into one whole."},{"title":"Pick the word that names &quot;joined together&quot;","content":"A word meaning connected so that the parts form one unit fits the definition exactly."},{"title":"Eliminate per choice","content":"<ul><li><strong>Choice A &mdash; 'outmoded'</strong>: means out of date; says nothing about parts being joined &mdash; misreads the colon. &#10007;</li><li><strong>Choice B &mdash; 'informal'</strong>: describes tone, not connection between parts. &#10007;</li><li><strong>Choice C &mdash; 'interconnected'</strong>: directly means linked together into one whole, which the colon spells out. &#10003;</li><li><strong>Choice D &mdash; 'optional'</strong>: would mean the elements can be left out, contradicting &quot;single cohesive unit.&quot; &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "bcd924a5",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the colon as a definition",
+      "content": "The colon signals that what follows defines the blank: the terraces, canals, and water temples are &quot;joined together into a single cohesive unit.&quot; So the blank must mean linked together into one whole."
+    },
+    {
+      "title": "Pick the word that names &quot;joined together&quot;",
+      "content": "A word meaning connected so that the parts form one unit fits the definition exactly."
+    },
+    {
+      "title": "Eliminate per choice",
+      "content": "<ul><li><strong>Choice A &mdash; outmoded</strong>: means out of date; says nothing about parts being joined &mdash; misreads the colon. &#10007;</li><li><strong>Choice B &mdash; informal</strong>: describes tone, not connection between parts. &#10007;</li><li><strong>Choice C &mdash; interconnected</strong>: directly means linked together into one whole, which the colon spells out. &#10003;</li><li><strong>Choice D &mdash; optional</strong>: would mean the elements can be left out, contradicting &quot;single cohesive unit.&quot; &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

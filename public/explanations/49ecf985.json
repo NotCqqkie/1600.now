@@ -1,1 +1,15 @@
-{"questionId": "49ecf985", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the logical relationship between the sentences", "content": "Sentence 1: Switzerland lowered the voting age from 20 to 18. Sentence 2: Many people gained a new opportunity to participate in politics. The second sentence is a direct consequence of the first &mdash; the age reduction caused the expanded participation. The transition must signal a cause-and-effect relationship.<ul><li><strong>Choice A &mdash; 'Nevertheless,'</strong>: Signals something happens despite the previous statement &mdash; but gaining participation is not despite the age reduction; it is caused by it. &#10007;</li><li><strong>Choice B &mdash; 'As a result,'</strong>: Directly signals that what follows is a consequence of what came before, matching the causal relationship. &#10003;</li><li><strong>Choice C &mdash; 'By contrast,'</strong>: Signals opposition or contrast, but expanded participation is not in contrast to lowering the voting age. &#10007;</li><li><strong>Choice D &mdash; 'Similarly,'</strong>: Signals that something is like something else, but the second sentence is a consequence, not a parallel situation. &#10007;</li></ul>"}, {"title": "Confirm the match", "content": "&quot;As a result&quot; is the only transition that correctly expresses that more people gained voting rights as a direct consequence of Switzerland lowering the voting age. That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "49ecf985",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the logical relationship between the sentences",
+      "content": "Sentence 1: Switzerland lowered the voting age from 20 to 18. Sentence 2: Many people gained a new opportunity to participate in politics. The second sentence is a direct consequence of the first &mdash; the age reduction caused the expanded participation. The transition must signal a cause-and-effect relationship.<ul><li><strong>Choice A — Nevertheless,</strong>: Signals something happens despite the previous statement &mdash; but gaining participation is not despite the age reduction; it is caused by it. &#10007;</li><li><strong>Choice B — As a result,</strong>: Directly signals that what follows is a consequence of what came before, matching the causal relationship. &#10003;</li><li><strong>Choice C — By contrast,</strong>: Signals opposition or contrast, but expanded participation is not in contrast to lowering the voting age. &#10007;</li><li><strong>Choice D — Similarly,</strong>: Signals that something is like something else, but the second sentence is a consequence, not a parallel situation. &#10007;</li></ul>"
+    },
+    {
+      "title": "Confirm the match",
+      "content": "&quot;As a result&quot; is the only transition that correctly expresses that more people gained voting rights as a direct consequence of Switzerland lowering the voting age. <strong>B</strong> is correct."
+    }
+  ]
+}

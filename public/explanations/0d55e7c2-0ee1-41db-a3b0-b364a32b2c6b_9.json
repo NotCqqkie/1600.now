@@ -1,1 +1,15 @@
-{"questionId":"0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_9","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage ends by stating that understanding how to prevent horizontal gene transfer &apos;might result in the mitigation of dangerous pathogens.&apos; The question asks what the passage most strongly suggests &mdash; so the correct choice must reflect this emphasis on potential real-world application."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A</strong>: introduces a debate about whether horizontal gene transfer is beneficial or harmful &mdash; a framing the passage never presents. &#10007;</li><li><strong>Choice B</strong>: claims horizontal gene transfer is &apos;more common&apos; than some alternative &mdash; no such comparison appears in the passage. &#10007;</li><li><strong>Choice C</strong>: suggests a hypothetical controversy about research priorities the passage doesn&apos;t address. &#10007;</li><li><strong>Choice D &mdash; studying horizontal gene transfer could yield beneficial applications</strong>: directly reflects the passage&apos;s conclusion about mitigating dangerous pathogens. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_9",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage ends by stating that understanding how to prevent horizontal gene transfer &apos;might result in the mitigation of dangerous pathogens.&apos; The question asks what the passage most strongly suggests &mdash; so the correct choice must reflect this emphasis on potential real-world application."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; A common perception of horizontal gene transfer is inaccurate.</strong>: introduces a debate about whether horizontal gene transfer is beneficial or harmful &mdash; a framing the passage never presents. &#10007;</li><li><strong>Choice B &mdash; Horizontal gene transfer is more common than was initially thought.</strong>: claims horizontal gene transfer is &apos;more common&apos; than some alternative &mdash; no such comparison appears in the passage. &#10007;</li><li><strong>Choice C &mdash; The results of new research into horizontal gene transfer cast doubt on earlier findings.</strong>: suggests a hypothetical controversy about research priorities the passage doesn&apos;t address. &#10007;</li><li><strong>Choice D &mdash; The study of horizontal gene transfer may yield findings with useful applications.</strong>: directly reflects the passage&apos;s conclusion about mitigating dangerous pathogens. &#10003;</li></ul>That matches <strong>Choice D &mdash; The study of horizontal gene transfer may yield findings with useful applications.</strong>."
+    }
+  ]
+}

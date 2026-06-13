@@ -1,1 +1,15 @@
-{"questionId": "4b0c7b62", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the sentence structure required", "content": "The sentence reads: &ldquo;The reed of a wind instrument is the mouthpiece ______.&rdquo; The blank is a relative clause introduced by <em>where</em> that modifies &ldquo;mouthpiece.&rdquo; A clause embedded in a declarative sentence uses <strong>normal subject-verb word order</strong> and ends with a <strong>period</strong>, not a question mark."}, {"title": "Test each choice for word order and end punctuation", "content": "<ul>\n<li><strong>Choice A &mdash; &lsquo;where sound is made?&rsquo;</strong>: Word order is correct (subject <em>sound</em> before verb <em>is made</em>), but the question mark turns a declarative sentence into a question. &#10007;</li>\n<li><strong>Choice B &mdash; &lsquo;where is sound made.&rsquo;</strong>: Word order is inverted (verb <em>is</em> before subject <em>sound</em>), producing interrogative structure inside a declarative sentence. &#10007;</li>\n<li><strong>Choice C &mdash; &lsquo;where sound is made.&rsquo;</strong>: Normal subject-verb order and a period&mdash;correct declarative clause, correct end punctuation. &#10003;</li>\n<li><strong>Choice D &mdash; &lsquo;where is sound made?&rsquo;</strong>: Both flaws combined&mdash;inverted word order and a question mark. &#10007;</li>\n</ul>\nThat matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "4b0c7b62",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the sentence structure required",
+      "content": "The sentence reads: &ldquo;The reed of a wind instrument is the mouthpiece ______.&rdquo; The blank is a relative clause introduced by <em>where</em> that modifies &ldquo;mouthpiece.&rdquo; A clause embedded in a declarative sentence uses <strong>normal subject-verb word order</strong> and ends with a <strong>period</strong>, not a question mark."
+    },
+    {
+      "title": "Test each choice for word order and end punctuation",
+      "content": "<ul>\n<li><strong>Choice A — where sound is made?</strong>: Word order is correct (subject <em>sound</em> before verb <em>is made</em>), but the question mark turns a declarative sentence into a question. &#10007;</li>\n<li><strong>Choice B — where is sound made.</strong>: Word order is inverted (verb <em>is</em> before subject <em>sound</em>), producing interrogative structure inside a declarative sentence. &#10007;</li>\n<li><strong>Choice C — where sound is made.</strong>: Normal subject-verb order and a period&mdash;correct declarative clause, correct end punctuation. &#10003;</li>\n<li><strong>Choice D — where is sound made?</strong>: Both flaws combined&mdash;inverted word order and a question mark. &#10007;</li>\n</ul>\n<strong>C</strong> is correct."
+    }
+  ]
+}

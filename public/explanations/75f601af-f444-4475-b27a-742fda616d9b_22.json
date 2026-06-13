@@ -1,1 +1,15 @@
-{"questionId":"75f601af-f444-4475-b27a-742fda616d9b_22","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The first sentence says the South Side Community Art Center has <em>cultivated a multigenerational community of Black creatives</em> since 1941. The second sentence says it <em>has garnered a reputation as a hub of Black art and culture</em>. The blank must connect these two sentences with the most logical relationship &mdash; the reputation is a <strong>result</strong> of the decades of cultivation."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;On the other hand,&rsquo;</strong>: signals contrast; the second sentence doesn&rsquo;t contradict the first. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Nevertheless,&rsquo;</strong>: also signals contrast or concession; no contradiction exists here. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Periodically,&rsquo;</strong>: means &ldquo;from time to time&rdquo; &mdash; a frequency marker that creates no logical connection between the two sentences. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Accordingly,&rsquo;</strong>: signals that what follows is a consequence of what came before &mdash; the center&rsquo;s reputation follows naturally from its long history of cultivating Black creatives. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "75f601af-f444-4475-b27a-742fda616d9b_22",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The first sentence says the South Side Community Art Center has <em>cultivated a multigenerational community of Black creatives</em> since 1941. The second sentence says it <em>has garnered a reputation as a hub of Black art and culture</em>. The blank must connect these two sentences with the most logical relationship &mdash; the reputation is a <strong>result</strong> of the decades of cultivation."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;On the other hand,&rsquo;</strong>: signals contrast; the second sentence doesn&rsquo;t contradict the first. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Nevertheless,&rsquo;</strong>: also signals contrast or concession; no contradiction exists here. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Periodically,&rsquo;</strong>: means &ldquo;from time to time&rdquo; &mdash; a frequency marker that creates no logical connection between the two sentences. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Accordingly,&rsquo;</strong>: signals that what follows is a consequence of what came before &mdash; the center&rsquo;s reputation follows naturally from its long history of cultivating Black creatives. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

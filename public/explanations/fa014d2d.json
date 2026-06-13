@@ -1,1 +1,15 @@
-{"questionId":"fa014d2d","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The text says the microchip &ldquo;radically altered&rdquo; the semiconductor industry, and historians argue it had a fundamental effect by enabling mass production for the first time. The blank needs a word meaning a deep, enabling change &mdash; one that made the industry capable of something it could not do before."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &ldquo;overwhelmed&rdquo;</strong>: Means overpowered or defeated. The text frames the microchip&rsquo;s effect as positive and enabling (mass production became possible), not as something that crushed or defeated the industry. &#10007;</li><li><strong>Choice B &mdash; &ldquo;bypassed&rdquo;</strong>: Means intentionally avoided or circumvented. The microchip directly affected the semiconductor industry; it did not go around it. &#10007;</li><li><strong>Choice C &mdash; &ldquo;obstructed&rdquo;</strong>: Means blocked or hindered. Again, the effect described is positive &mdash; enabling mass production &mdash; not a hindrance. &#10007;</li><li><strong>Choice D &mdash; &ldquo;transformed&rdquo;</strong>: Means substantially changed in character or capability. Matches the passage: the microchip fundamentally changed what the industry could do by unlocking mass production methods for the first time. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "fa014d2d",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The text says the microchip &ldquo;radically altered&rdquo; the semiconductor industry, and historians argue it had a fundamental effect by enabling mass production for the first time. The blank needs a word meaning a deep, enabling change &mdash; one that made the industry capable of something it could not do before."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"overwhelmed\"</strong>: Means overpowered or defeated. The text frames the microchip&rsquo;s effect as positive and enabling (mass production became possible), not as something that crushed or defeated the industry. &#10007;</li><li><strong>\"bypassed\"</strong>: Means intentionally avoided or circumvented. The microchip directly affected the semiconductor industry; it did not go around it. &#10007;</li><li><strong>\"obstructed\"</strong>: Means blocked or hindered. Again, the effect described is positive &mdash; enabling mass production &mdash; not a hindrance. &#10007;</li><li><strong>\"transformed\"</strong>: Means substantially changed in character or capability. Matches the passage: the microchip fundamentally changed what the industry could do by unlocking mass production methods for the first time. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

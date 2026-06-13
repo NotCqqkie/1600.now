@@ -1,1 +1,15 @@
-{"questionId":"e580c519-9667-4b3b-8a1e-a7bec6eba694_18","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The phrase &quot;the languages Tetum and Fijian&quot; has specific examples (&quot;Tetum and Fijian&quot;) that directly restrict and identify which languages are meant. Because the examples are essential to the phrase&apos;s meaning &mdash; not a parenthetical aside &mdash; no punctuation should separate them from &quot;the languages.&quot;"},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; comma before &quot;Tetum&quot;</strong>: A comma implies the examples are a non-essential aside, but they are restrictive here. &#10007;</li><li><strong>Choice B &mdash; colon before &quot;Tetum&quot;</strong>: A colon formally sets apart a list, creating an unnecessary break in what is a unified noun phrase. &#10007;</li><li><strong>Choice C &mdash; no punctuation</strong>: Keeps &quot;languages Tetum and Fijian&quot; as a single, integrated noun phrase, the same pattern as &quot;the colors red and blue.&quot; &#10003;</li><li><strong>Choice D &mdash; em dash before &quot;Tetum&quot;</strong>: An em dash creates an abrupt interruption that is unwarranted in a simple restrictive phrase. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_18",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The phrase \"the languages Tetum and Fijian\" has specific examples (\"Tetum and Fijian\") that directly restrict and identify which languages are meant. Because the examples are essential to the phrase's meaning &mdash; not a parenthetical aside &mdash; no punctuation should separate them from \"the languages.\""
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"languages,\"</strong>: A comma implies the examples are a non-essential aside, but they are restrictive here. &#10007;</li><li><strong>\"languages:\"</strong>: A colon formally sets apart a list, creating an unnecessary break in what is a unified noun phrase. &#10007;</li><li><strong>\"languages\"</strong>: Keeps \"languages Tetum and Fijian\" as a single, integrated noun phrase, the same pattern as \"the colors red and blue.\" &#10003;</li><li><strong>\"languages--\"</strong>: An em dash creates an abrupt interruption that is unwarranted in a simple restrictive phrase. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+    }
+  ]
+}

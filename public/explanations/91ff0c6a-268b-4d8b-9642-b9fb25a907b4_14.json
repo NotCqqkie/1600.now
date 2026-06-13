@@ -1,1 +1,15 @@
-{"questionId":"91ff0c6a-268b-4d8b-9642-b9fb25a907b4_14","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"Laidre&apos;s argument rests on a conditional: if the tusk serves a critical purpose, then natural selection would make it widespread. Yet many narwhals lack a tusk &mdash; so the choice must state the evolutionary consequence that follows from a trait being truly important to survival."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A</strong>: describes an outcome unrelated to whether a critical trait spreads through a population. &#10007;</li><li><strong>Choice B &mdash; widespread distribution</strong>: if a trait is critical for survival, natural selection favors it and it becomes common &mdash; so more narwhals would have the tusk. This is exactly the evolutionary logic Laidre invokes to challenge the explanation. &#10003;</li><li><strong>Choice C</strong>: describes an unrelated outcome that does not follow from a trait being survival-critical. &#10007;</li><li><strong>Choice D</strong>: similarly off-topic; does not address population-level spread of a beneficial trait. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "91ff0c6a-268b-4d8b-9642-b9fb25a907b4_14",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "Laidre&apos;s argument rests on a conditional: if the tusk serves a critical purpose, then natural selection would make it widespread. Yet many narwhals lack a tusk &mdash; so the choice must state the evolutionary consequence that follows from a trait being truly important to survival."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; some narwhals would seek a new habitat.</strong>: describes an outcome unrelated to whether a critical trait spreads through a population. &#10007;</li><li><strong>Choice B &mdash; more narwhals would have a tusk.</strong>: if a trait is critical for survival, natural selection favors it and it becomes common &mdash; so more narwhals would have the tusk. This is exactly the evolutionary logic Laidre invokes to challenge the explanation. &#10003;</li><li><strong>Choice C &mdash; fewer marine animals would also have tusks.</strong>: describes an unrelated outcome that does not follow from a trait being survival-critical. &#10007;</li><li><strong>Choice D &mdash; narwhals would become less shy over time.</strong>: similarly off-topic; does not address population-level spread of a beneficial trait. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Use the one-step ratio",
-      "content": "For $f(x)=ab^x$, moving from $x=n-1$ to $x=n$ multiplies the output by $b$. In other words, $f(n)=b\\cdot f(n-1)$."
+      "content": "For $f(x)=a\\cdot b^{x}$, moving from $x=n-1$ to $x=n$ multiplies the output by $b$. In other words, $f(n)=b\\cdot f(n-1)$."
     },
     {
       "title": "Rewrite the given equation as a percent left over",

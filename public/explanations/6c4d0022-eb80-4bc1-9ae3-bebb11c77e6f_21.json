@@ -1,1 +1,15 @@
-{"questionId":"6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_21","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank is a transition word or phrase. The task is to identify the logical relationship between the sentence introducing Ethiopia&apos;s voting age (18) and the sentence about Cuba&apos;s voting age (16)."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Firstly,'</strong>: Implies the sentence is the first item in a numbered sequence. The passage is not listing a series of points. &#10007;</li><li><strong>Choice B &mdash; 'Therefore,'</strong>: Signals that Cuba&apos;s voting age is a logical consequence of Ethiopia&apos;s — it isn&apos;t. These are independent facts. &#10007;</li><li><strong>Choice C &mdash; 'By comparison,'</strong>: Directly signals a contrast between two things being measured against each other — Ethiopia&apos;s voting age (18) versus Cuba&apos;s (16). &#10003;</li><li><strong>Choice D &mdash; 'For example,'</strong>: Treats Cuba as an illustration of a general rule just stated. No general rule is being illustrated; two specific countries are being compared. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_21",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank is a transition word or phrase. The task is to identify the logical relationship between the sentence introducing Ethiopia&apos;s voting age (18) and the sentence about Cuba&apos;s voting age (16)."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Firstly,&rsquo;</strong>: Implies the sentence is the first item in a numbered sequence. The passage is not listing a series of points. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Therefore,&rsquo;</strong>: Signals that Cuba&apos;s voting age is a logical consequence of Ethiopia&apos;s — it isn&apos;t. These are independent facts. &#10007;</li><li><strong>Choice C &mdash; &lsquo;By comparison,&rsquo;</strong>: Directly signals a contrast between two things being measured against each other — Ethiopia&apos;s voting age (18) versus Cuba&apos;s (16). &#10003;</li><li><strong>Choice D &mdash; &lsquo;For example,&rsquo;</strong>: Treats Cuba as an illustration of a general rule just stated. No general rule is being illustrated; two specific countries are being compared. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

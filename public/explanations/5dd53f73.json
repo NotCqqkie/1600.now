@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice A multiplies $x$ and $y$, which changes the structure. Choice C is $68y$, and choice D is $68x$, so each drops one variable. Choice B preserves both terms as $34(x+y)$, so <strong>B</strong> is correct."
+      "content": "An incorrect response multiplies $x$ and $y$, which changes the structure. Choice C (&lsquo;$68y$&rsquo;) is $68y$, and choice D (&lsquo;$68x$&rsquo;) is $68x$, so each drops one variable. The correct response preserves both terms as $34(x+y)$, so <strong>B</strong> is correct."
     }
   ]
 }

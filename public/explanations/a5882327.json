@@ -9,7 +9,7 @@
     },
     {
       "title": "Solve for b and simplify",
-      "content": "Add $15c + 105$ to both sides:<br/>$$b = \\frac{c}{4} + 15c + 105$$<br/>Convert to a common denominator: $15c = \\frac{60c}{4}$:<br/>$$b = \\frac{c}{4} + \\frac{60c}{4} + 105 = \\frac{61c}{4} + 105$$<br/>That matches choice C — <strong>C</strong> is correct."
+      "content": "Add $15c + 105$ to both sides:<br/>$$b = \\frac{c}{4} + 15c + 105$$<br/>Convert to a common denominator: $15c = \\frac{60c}{4}$:<br/>$$b = \\frac{c}{4} + \\frac{60c}{4} + 105 = \\frac{61c}{4} + 105$$<br/>That is the correct answer."
     }
   ]
 }

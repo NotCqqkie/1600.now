@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "<ul><li>Choice A, $-\\frac{5}{2}$, has the wrong sign.</li><li>Choice B, $-\\frac{5}{4}$, does not make either factor $0$.</li><li>Choice C, $-\\frac{4}{5}$, makes $5x+4=0$. Correct.</li><li>Choice D, $-\\frac{2}{5}$, does not make either factor $0$.</li></ul>That matches choice C."
+      "content": "<ul><li><strong>Choice A &mdash; $-\\frac{5}{2}$</strong>, $-\\frac{5}{2}$, has the wrong sign.</li><li><strong>Choice B &mdash; $-\\frac{5}{4}$</strong>, $-\\frac{5}{4}$, does not make either factor $0$.</li><li><strong>Choice C &mdash; $-\\frac{4}{5}$</strong>, $-\\frac{4}{5}$, makes $5x+4=0$. Correct.</li><li><strong>Choice D &mdash; $-\\frac{2}{5}$</strong>, $-\\frac{2}{5}$, does not make either factor $0$.</li></ul>That matches <strong>Choice C &mdash; $-\\frac{4}{5}$</strong>."
     }
   ]
 }

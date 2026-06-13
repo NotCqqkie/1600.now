@@ -1,1 +1,15 @@
-{"questionId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_18", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the singular antecedent", "content": "The first sentence introduces \"the song 'Danny Boy'\" as a singular noun. The second sentence needs a pronoun in the blank to refer back to this song."}, {"title": "Apply the pronoun-antecedent agreement rule", "content": "Identify the grammar issue: pronoun-antecedent agreement. Rule: the subject pronoun must match its antecedent in number; the antecedent is the singular noun \"the song.\"\n<ul>\n<li><strong>Choice A — \"those\"</strong>: plural demonstrative pronoun; does not agree with singular \"the song.\" ✗</li>\n<li><strong>Choice B — \"they\"</strong>: third-person plural; does not agree with singular antecedent. ✗</li>\n<li><strong>Choice C — \"each\"</strong>: refers to individual items in a group, not to a single noun; does not serve as a subject pronoun here. ✗</li>\n<li><strong>Choice D — \"it\"</strong>: singular third-person pronoun; correctly refers to the singular antecedent \"the song.\" ✓</li>\n</ul>\nThat matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_18",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the singular antecedent",
+      "content": "The first sentence introduces \"the song 'Danny Boy'\" as a singular noun. The second sentence needs a pronoun in the blank to refer back to this song."
+    },
+    {
+      "title": "Apply the pronoun-antecedent agreement rule",
+      "content": "Identify the grammar issue: pronoun-antecedent agreement. Rule: the subject pronoun must match its antecedent in number; the antecedent is the singular noun \"the song.\"\n<ul>\n<li><strong>Choice A — those</strong>: plural demonstrative pronoun; does not agree with singular \"the song.\" ✗</li>\n<li><strong>Choice B — they</strong>: third-person plural; does not agree with singular antecedent. ✗</li>\n<li><strong>Choice C — each</strong>: refers to individual items in a group, not to a single noun; does not serve as a subject pronoun here. ✗</li>\n<li><strong>Choice D — it</strong>: singular third-person pronoun; correctly refers to the singular antecedent \"the song.\" ✓</li>\n</ul>\n<strong>D</strong> is correct."
+    }
+  ]
+}

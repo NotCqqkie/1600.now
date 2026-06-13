@@ -1,1 +1,15 @@
-{"questionId":"58a4c59d-fca7-49a5-9b86-e225bd9f39fd_20","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank falls inside a noun phrase that ends the first independent clause: &quot;the site with the highest ______.&quot; The second independent clause follows immediately: &quot;it had shifted to 16.2&deg;C by 8:30 p.m.&quot; Two independent clauses must be separated by a period, semicolon, or a comma plus coordinating conjunction &mdash; not by a comma alone or nothing at all."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &quot;elevation&quot;</strong>: No punctuation between the two independent clauses &mdash; a run-on sentence. &#10007;</li><li><strong>Choice B &mdash; &quot;elevation, and&quot;</strong>: Completes the noun phrase with &quot;elevation,&quot; then joins the two independent clauses with a comma plus the coordinating conjunction <em>and</em>. Grammatically correct. &#10003;</li><li><strong>Choice C &mdash; &quot;elevation and&quot;</strong>: Uses the conjunction <em>and</em> without the required comma before it when joining two independent clauses. &#10007;</li><li><strong>Choice D &mdash; &quot;elevation,&quot;</strong>: Places only a comma between two independent clauses &mdash; a comma splice. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "58a4c59d-fca7-49a5-9b86-e225bd9f39fd_20",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank falls inside a noun phrase that ends the first independent clause: &quot;the site with the highest ______.&quot; The second independent clause follows immediately: &quot;it had shifted to $16.2^{\\circ}\\text{C}$ by 8:30 p.m.&quot; Two independent clauses must be separated by a period, semicolon, or a comma plus coordinating conjunction &mdash; not by a comma alone or nothing at all."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — elevation</strong>: No punctuation between the two independent clauses &mdash; a run-on sentence. &#10007;</li><li><strong>Choice B — elevation, and</strong>: Completes the noun phrase with &quot;elevation,&quot; then joins the two independent clauses with a comma plus the coordinating conjunction <em>and</em>. Grammatically correct. &#10003;</li><li><strong>Choice C — elevation and</strong>: Uses the conjunction <em>and</em> without the required comma before it when joining two independent clauses. &#10007;</li><li><strong>Choice D — elevation,</strong>: Places only a comma between two independent clauses &mdash; a comma splice. &#10007;</li></ul><strong>B</strong> is correct."
+    }
+  ]
+}

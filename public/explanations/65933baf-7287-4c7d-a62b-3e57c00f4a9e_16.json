@@ -1,1 +1,15 @@
-{"questionId":"65933baf-7287-4c7d-a62b-3e57c00f4a9e_16","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The subject is &apos;her painting&apos; (singular). The adverb &apos;Currently&apos; signals present tense. The verb must be singular and present."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;hung&apos;</strong>: simple past; contradicts &apos;Currently.&apos; &#10007;</li><li><strong>Choice B &mdash; &apos;hangs&apos;</strong>: singular present tense; agrees with &apos;her painting&apos; and matches &apos;Currently.&apos; &#10003;</li><li><strong>Choice C &mdash; &apos;was hanging&apos;</strong>: past progressive; contradicts &apos;Currently.&apos; &#10007;</li><li><strong>Choice D &mdash; &apos;will have hung&apos;</strong>: future perfect; contradicts &apos;Currently.&apos; &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_16",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The subject is &apos;her painting&apos; (singular). The adverb &apos;Currently&apos; signals present tense. The verb must be singular and present."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;hung&rsquo;</strong>: simple past; contradicts &apos;Currently.&apos; &#10007;</li><li><strong>Choice B &mdash; &lsquo;hangs&rsquo;</strong>: singular present tense; agrees with &apos;her painting&apos; and matches &apos;Currently.&apos; &#10003;</li><li><strong>Choice C &mdash; &lsquo;was hanging&rsquo;</strong>: past progressive; contradicts &apos;Currently.&apos; &#10007;</li><li><strong>Choice D &mdash; &lsquo;will have hung&rsquo;</strong>: future perfect; contradicts &apos;Currently.&apos; &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -13,11 +13,11 @@
     },
     {
       "title": "Match the choice",
-      "content": "The business can care for $0$ cats. That matches choice <strong>A</strong> — <strong>A</strong> is correct."
+      "content": "The business can care for $0$ cats. That is the correct answer."
     },
     {
       "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice A, 0, and the other choices fail the same setup or substitution. Therefore <strong>A</strong> is correct."
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches 0, and the other choices fail the same setup or substitution. Therefore <strong>A</strong> is correct."
     }
   ]
 }

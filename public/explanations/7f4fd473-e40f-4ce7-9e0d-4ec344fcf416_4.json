@@ -1,1 +1,15 @@
-{"questionId": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_4", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "This is a Words in Context question. The blank must describe GRB 230307A's 200-second duration in the context of neutron merger bursts, which typically last fewer than 2 seconds. The word should convey that this duration is strikingly unusual or anomalous."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'an incident'</strong>: Generic and neutral &mdash; does not capture the sense that 200 seconds is abnormal for this type of burst. &#10007;</li><li><strong>Choice B &mdash; 'a reprieve'</strong>: Means a temporary relief from something unpleasant. Makes no sense in describing a burst duration. &#10007;</li><li><strong>Choice C &mdash; 'a coincidence'</strong>: Implies two unrelated events happening together by chance, which does not fit the idea of a single anomalous measurement. &#10007;</li><li><strong>Choice D &mdash; 'an oddity'</strong>: Means something strange or unusual. Precisely captures how a 200-second burst is a stark departure from the typical sub-2-second neutron merger burst. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_4",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a Words in Context question. The blank must describe GRB 230307A's 200-second duration in the context of neutron merger bursts, which typically last fewer than 2 seconds. The word should convey that this duration is strikingly unusual or anomalous."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;an incident&rsquo;</strong>: Generic and neutral &mdash; does not capture the sense that 200 seconds is abnormal for this type of burst. &#10007;</li><li><strong>Choice B &mdash; &lsquo;a reprieve&rsquo;</strong>: Means a temporary relief from something unpleasant. Makes no sense in describing a burst duration. &#10007;</li><li><strong>Choice C &mdash; &lsquo;a coincidence&rsquo;</strong>: Implies two unrelated events happening together by chance, which does not fit the idea of a single anomalous measurement. &#10007;</li><li><strong>Choice D &mdash; &lsquo;an oddity&rsquo;</strong>: Means something strange or unusual. Precisely captures how a 200-second burst is a stark departure from the typical sub-2-second neutron merger burst. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

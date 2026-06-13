@@ -218,7 +218,7 @@
     "difficulty": "Easy",
     "question_number": 9,
     "test_name": "Module Source 120 Math M1",
-    "passage": "$13x + 14y = 423$ represents this situation. Which of the following is the best interpretation of $y$ in this context?",
+    "passage": "At a store, long-sleeved shirts cost \\$14 each and short-sleeved shirts cost \\$13 each. The store sells a total of $x$ short-sleeved shirts and $y$ long-sleeved shirts for \\$423.\n$13x + 14y = 423$\nWhich of the following is the best interpretation of $y$ in this context?",
     "question_text": null,
     "choices": [
       {
@@ -282,7 +282,7 @@
     "difficulty": "Medium",
     "question_number": 11,
     "test_name": "Module Source 120 Math M1",
-    "passage": "In the right triangle shown, c is a constant. The value of $\\sin x° = \\frac{k}{c}$, where k is a constant. What is the value of k?",
+    "passage": "In the right triangle shown, c is a constant. The value of $\\sin x^\\circ = \\frac{k}{c}$, where k is a constant. What is the value of k?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -515,7 +515,7 @@
     "difficulty": "Medium",
     "question_number": 19,
     "test_name": "Module Source 120 Math M1",
-    "passage": "$17(x-16)=-16(x + 17)$\nHow many distinct real solutions does the given equation have?",
+    "passage": "$17\\left(x-16)=-16(x + 17\\right)$\nHow many distinct real solutions does the given equation have?",
     "question_text": null,
     "choices": [
       {

@@ -18,7 +18,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "The base $1.0069$ is greater than $1$, so the exponential is increasing. That eliminates decreasing exponential, decreasing linear, and increasing linear. Choice <strong>C</strong>, increasing exponential, is correct."
+      "content": "The base $1.0069$ is greater than $1$, so the exponential is increasing. That eliminates decreasing exponential, decreasing linear, and increasing linear. <strong>C</strong>, increasing exponential, is correct."
     }
   ]
 }

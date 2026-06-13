@@ -1,1 +1,15 @@
-{"questionId": "772835db", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structure", "content": "The blank follows “Defined by a disorganized molecular structure,” — a participial phrase. Each choice offers a different noun to start the following clause. Identify: which noun appears as the subject immediately after the participial phrase?"}, {"title": "Apply the modifier rule", "content": "A participial phrase opening a sentence must be immediately followed by the noun it modifies. “Defined by a disorganized molecular structure” describes amorphous ice, so choice B is correct: “amorphous ice lacks the thermal energy to form the crystals found in ice Ih.” places amorphous ice as the subject right after the phrase.<br/><br/>Choices A, C, and D start with different nouns, violating this rule.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "772835db",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "The blank follows “Defined by a disorganized molecular structure,” — a participial phrase. Each choice offers a different noun to start the following clause. Identify: which noun appears as the subject immediately after the participial phrase?"
+    },
+    {
+      "title": "Apply the modifier rule",
+      "content": "A participial phrase opening a sentence must be immediately followed by the noun it modifies. “Defined by a disorganized molecular structure” describes amorphous ice, so choice B (&lsquo;amorphous ice lacks the thermal energy to form the crystals found in ice Ih.&rsquo;) is correct: “amorphous ice lacks the thermal energy to form the crystals found in ice Ih.” places amorphous ice as the subject right after the phrase.<br/><br/>The other choices start with different nouns, violating this rule.<br/><br/>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

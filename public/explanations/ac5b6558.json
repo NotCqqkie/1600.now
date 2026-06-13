@@ -17,7 +17,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "The predicted temperature is $39^\\circ\\text{F}$, which matches choice <strong>B</strong>."
+      "content": "The predicted temperature is $39^\\circ\\text{F}$, which matches <strong>B</strong>."
     }
   ]
 }

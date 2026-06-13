@@ -146,19 +146,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "y = 160 x"
+        "text": "$y = 160x$"
       },
       {
         "label": "B",
-        "text": "y = 160 x + 160"
+        "text": "$y = 160x + 160$"
       },
       {
         "label": "C",
-        "text": "y = 4.8 x + 4.8"
+        "text": "$y = 4.8x + 4.8$"
       },
       {
         "label": "D",
-        "text": "y = 4.8 x + 160"
+        "text": "$y = 4.8x + 160$"
       }
     ],
     "is_fill_in_blank": false,

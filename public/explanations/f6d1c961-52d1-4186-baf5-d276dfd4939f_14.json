@@ -1,1 +1,15 @@
-{"questionId":"f6d1c961-52d1-4186-baf5-d276dfd4939f_14","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence opens with a participial phrase: &quot;Woven from recycled yarn and hand tufted...&quot; Whatever comes in the blank must be the grammatical subject that phrase modifies, plus a linking verb to connect to the adjective phrase &quot;so lush and tactilely inviting...&quot; that follows."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'the topological tapestries are'</strong>: The woven, tufted things are the tapestries — making them the subject resolves the modifier correctly, and &quot;are&quot; provides the required linking verb. &#10003;</li><li><strong>Choice B &mdash; 'the artist has created tapestries that are'</strong>: The artist was not woven from recycled yarn — this creates a dangling modifier. &#10007;</li><li><strong>Choice C &mdash; 'topological tapestries'</strong>: No verb follows before the adjective phrase, leaving the sentence a fragment. &#10007;</li><li><strong>Choice D &mdash; 'the artist&apos;s tapestries make them'</strong>: Again places the artist as the implied actor of the participial phrase — another dangling modifier. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "f6d1c961-52d1-4186-baf5-d276dfd4939f_14",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence opens with a participial phrase: \"Woven from recycled yarn and hand tufted...\" Whatever comes in the blank must be the grammatical subject that phrase modifies, plus a linking verb to connect to the adjective phrase \"so lush and tactilely inviting...\" that follows."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"the topological tapestries of Argentine textile artist Alexandra Kehayoglou are\"</strong>: The woven, tufted things are the tapestries — making them the subject resolves the modifier correctly, and \"are\" provides the required linking verb. &#10003;</li><li><strong>\"the Argentine textile artist Alexandra Kehayoglou creates topological tapestries that are\"</strong>: The artist was not woven from recycled yarn — this creates a dangling modifier. &#10007;</li><li><strong>\"when she creates her topological tapestries. Argentine textile artist Alexandra Kehayoglou makes them\"</strong>: No verb follows before the adjective phrase, leaving the sentence a fragment. &#10007;</li><li><strong>\"Alexandra Kehayoglou is an Argentine textile artist whose topological tapestries are\"</strong>: Again places the artist as the implied actor of the participial phrase — another dangling modifier. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+    }
+  ]
+}

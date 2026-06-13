@@ -1,1 +1,15 @@
-{"questionId": "9419dcb9-3471-4777-be13-1ee14db6d1bc_10", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Evaluate each choice against the table", "content": "<ul><li><strong>Choice A &mdash; '123.'</strong>: Bear 123 is 7 years old &mdash; not the youngest bear in the table. &#10007;</li><li><strong>Choice B &mdash; '157.'</strong>: Bear 157 is 6 years old &mdash; older than bear 122. &#10007;</li><li><strong>Choice C &mdash; '117.'</strong>: Bear 117 is 11 years old &mdash; the oldest bear in the table. &#10007;</li><li><strong>Choice D &mdash; '122.'</strong>: Bear 122 is 3 years old &mdash; the smallest value in the Age column, making it the youngest. &#10003;</li></ul>"}, {"title": "Confirm the minimum age", "content": "The four ages in the table are 3, 6, 7, and 11 years. The minimum is 3, which belongs to bear 122. That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "9419dcb9-3471-4777-be13-1ee14db6d1bc_10",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Evaluate each choice against the table",
+      "content": "<ul><li><strong>Choice A &mdash; 123.</strong>: Bear 123 is 7 years old &mdash; not the youngest bear in the table. &#10007;</li><li><strong>Choice B &mdash; 157.</strong>: Bear 157 is 6 years old &mdash; older than bear 122. &#10007;</li><li><strong>Choice C &mdash; 117.</strong>: Bear 117 is 11 years old &mdash; the oldest bear in the table. &#10007;</li><li><strong>Choice D &mdash; 122.</strong>: Bear 122 is 3 years old &mdash; the smallest value in the Age column, making it the youngest. &#10003;</li></ul>"
+    },
+    {
+      "title": "Confirm the minimum age",
+      "content": "The four ages in the table are 3, 6, 7, and 11 years. The minimum is 3, which belongs to bear 122. That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "4154a7a3", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Spot the chronological signal", "content": "The passage anchors two events to specific years—1891 and 1896—establishing a clear time gap. The second event (the film) occurred years after the first (the dance)."}, {"title": "Apply the signal to the choices", "content": "”Later,” directly signals temporal progression—showing that the film came after the performance. “However,” signals contrast, “In conclusion,” signals summary, and “In other words,” signals rephrasing; these don't fit the chronological relationship.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "4154a7a3",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the chronological signal",
+      "content": "The passage anchors two events to specific years—1891 and 1896—establishing a clear time gap. The second event (the film) occurred years after the first (the dance)."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "”Later,” directly signals temporal progression—showing that the film came after the performance. “However,” signals contrast, “In conclusion,” signals summary, and “In other words,” signals rephrasing; these don't fit the chronological relationship.<br/><br/><strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "75f49353", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the true subject", "content": "The sentence begins with the prepositional phrase &quot;Among the clubs&apos; leaders,&quot; which is not the subject. The true subject follows: &quot;Josephine St. Pierre Ruffin, founder of the Women&apos;s Era Club of Boston&quot; &mdash; a single person, so the subject is singular.<ul><li><strong>Choice A &mdash; 'was'</strong>: Singular past-tense verb; agrees with the singular subject &quot;Josephine St. Pierre Ruffin.&quot; &#10003;</li><li><strong>Choice B &mdash; 'were'</strong>: Plural past-tense verb; does not agree with a singular subject. &#10007;</li><li><strong>Choice C &mdash; 'are'</strong>: Plural present-tense verb; does not agree with a singular subject. &#10007;</li><li><strong>Choice D &mdash; 'have been'</strong>: Plural present-perfect verb; does not agree with a singular subject. &#10007;</li></ul>"}, {"title": "Confirm the match", "content": "The singular subject &quot;Josephine St. Pierre Ruffin&quot; requires the singular verb &quot;was.&quot; That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "75f49353",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the true subject",
+      "content": "The sentence begins with the prepositional phrase &quot;Among the clubs&apos; leaders,&quot; which is not the subject. The true subject follows: &quot;Josephine St. Pierre Ruffin, founder of the Women&apos;s Era Club of Boston&quot; &mdash; a single person, so the subject is singular.<ul><li><strong>Choice A &mdash; &lsquo;was&rsquo;</strong>: Singular past-tense verb; agrees with the singular subject &quot;Josephine St. Pierre Ruffin.&quot; &#10003;</li><li><strong>Choice B &mdash; &lsquo;were&rsquo;</strong>: Plural past-tense verb; does not agree with a singular subject. &#10007;</li><li><strong>Choice C &mdash; &lsquo;are&rsquo;</strong>: Plural present-tense verb; does not agree with a singular subject. &#10007;</li><li><strong>Choice D &mdash; &lsquo;have been&rsquo;</strong>: Plural present-perfect verb; does not agree with a singular subject. &#10007;</li></ul>"
+    },
+    {
+      "title": "Confirm the match",
+      "content": "The singular subject &quot;Josephine St. Pierre Ruffin&quot; requires the singular verb &quot;was.&quot; That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

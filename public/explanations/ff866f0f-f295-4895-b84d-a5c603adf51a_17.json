@@ -1,1 +1,15 @@
-{"questionId":"ff866f0f-f295-4895-b84d-a5c603adf51a_17","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank is the main verb of a &lsquo;that&rsquo; clause: &lsquo;It is widely known that New York City&rsquo;s Museum of Modern Art (MoMA) ______ a vast collection.&rsquo; The subject of that clause is &lsquo;Museum of Modern Art&rsquo; (singular). The blank needs a <strong>finite verb</strong> in the correct form to serve as the clause&rsquo;s predicate."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;housing&rsquo;</strong>: A present participle. Participles are non-finite and cannot stand alone as a clause&rsquo;s main verb; inserting it leaves the &lsquo;that&rsquo; clause without a predicate. &#10007;</li><li><strong>Choice B &mdash; &lsquo;to house&rsquo;</strong>: An infinitive. Infinitives are also non-finite and cannot function as a clause&rsquo;s main verb. &#10007;</li><li><strong>Choice C &mdash; &lsquo;to have housed&rsquo;</strong>: A perfect infinitive. Still non-finite &mdash; cannot serve as the clause&rsquo;s predicate. &#10007;</li><li><strong>Choice D &mdash; &lsquo;houses&rsquo;</strong>: A finite verb in the third-person singular present tense, matching the singular subject &lsquo;Museum of Modern Art.&rsquo; It correctly fills the predicate slot in the &lsquo;that&rsquo; clause. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "ff866f0f-f295-4895-b84d-a5c603adf51a_17",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank is the main verb of a &lsquo;that&rsquo; clause: &lsquo;It is widely known that New York City&rsquo;s Museum of Modern Art (MoMA) ______ a vast collection.&rsquo; The subject of that clause is &lsquo;Museum of Modern Art&rsquo; (singular). The blank needs a <strong>finite verb</strong> in the correct form to serve as the clause&rsquo;s predicate."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"housing\"</strong>: A present participle. Participles are non-finite and cannot stand alone as a clause&rsquo;s main verb; inserting it leaves the &lsquo;that&rsquo; clause without a predicate. &#10007;</li><li><strong>\"to house\"</strong>: An infinitive. Infinitives are also non-finite and cannot function as a clause&rsquo;s main verb. &#10007;</li><li><strong>\"to have housed\"</strong>: A perfect infinitive. Still non-finite &mdash; cannot serve as the clause&rsquo;s predicate. &#10007;</li><li><strong>\"houses\"</strong>: A finite verb in the third-person singular present tense, matching the singular subject &lsquo;Museum of Modern Art.&rsquo; It correctly fills the predicate slot in the &lsquo;that&rsquo; clause. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

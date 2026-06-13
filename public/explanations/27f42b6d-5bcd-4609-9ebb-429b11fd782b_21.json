@@ -1,1 +1,15 @@
-{"questionId":"27f42b6d-5bcd-4609-9ebb-429b11fd782b_21","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank is a transition word opening the sentence after one that establishes a specific location (the wall of a university building in the United States). The following sentence describes how the sculpture looks <em>at that location</em>. The blank must link the next sentence back to that place."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'There,'</strong>: means &quot;in/at that place&quot; — points directly back to the university wall just named. &#10003;</li><li><strong>Choice B &mdash; 'Later,'</strong>: signals time progression, but no time shift is happening — the next sentence describes the same moment at the same place. &#10007;</li><li><strong>Choice C &mdash; 'For instance,'</strong>: introduces an example of a broader category, but the passage is discussing this specific sculpture, not illustrating a general point. &#10007;</li><li><strong>Choice D &mdash; 'However,'</strong>: signals contrast, but the next sentence simply continues describing the sculpture at its established location — no contradiction. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_21",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank is a transition word opening the sentence after one that establishes a specific location (the wall of a university building in the United States). The following sentence describes how the sculpture looks <em>at that location</em>. The blank must link the next sentence back to that place."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; There,</strong>: means &quot;in/at that place&quot; — points directly back to the university wall just named. &#10003;</li><li><strong>Choice B &mdash; Later,</strong>: signals time progression, but no time shift is happening — the next sentence describes the same moment at the same place. &#10007;</li><li><strong>Choice C &mdash; For instance,</strong>: introduces an example of a broader category, but the passage is discussing this specific sculpture, not illustrating a general point. &#10007;</li><li><strong>Choice D &mdash; However,</strong>: signals contrast, but the next sentence simply continues describing the sculpture at its established location — no contradiction. &#10007;</li></ul>That matches <strong>Choice A &mdash; There,</strong>."
+    }
+  ]
+}

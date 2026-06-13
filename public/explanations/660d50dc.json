@@ -1,1 +1,19 @@
-{"questionId": "660d50dc", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Map the relationship between the two sentences", "content": "Sentence before blank: Coleridge-Taylor emphasized his mixed-race ancestry by calling himself Anglo-African. Sentence after blank: he incorporated traditional African music into his compositions. Both describe him actively foregrounding his African heritage&mdash;the second is another example of the same behavior."}, {"title": "Identify the transition type needed", "content": "Two examples of the same pattern (emphasizing African heritage verbally, then musically) call for an additive transition that signals &quot;here is another instance.&quot;"}, {"title": "Eliminate by rule violated", "content": "<ul><li><strong>Choice A &mdash; &apos;In addition,&apos;</strong>: additive transition that correctly signals another example of the same behavior. &#10003;</li><li><strong>Choice B &mdash; &apos;Actually,&apos;</strong>: signals correction or contradiction of a prior claim; nothing is being corrected. &#10007;</li><li><strong>Choice C &mdash; &apos;However,&apos;</strong>: signals contrast, but the two sentences agree rather than contrast. &#10007;</li><li><strong>Choice D &mdash; &apos;Regardless,&apos;</strong>: signals that what follows occurs despite the prior point; the second sentence reinforces, not defies, the first. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "660d50dc",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Map the relationship between the two sentences",
+      "content": "Sentence before blank: Coleridge-Taylor emphasized his mixed-race ancestry by calling himself Anglo-African. Sentence after blank: he incorporated traditional African music into his compositions. Both describe him actively foregrounding his African heritage&mdash;the second is another example of the same behavior."
+    },
+    {
+      "title": "Identify the transition type needed",
+      "content": "Two examples of the same pattern (emphasizing African heritage verbally, then musically) call for an additive transition that signals &quot;here is another instance.&quot;"
+    },
+    {
+      "title": "Eliminate by rule violated",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;In addition,&rsquo;</strong>: additive transition that correctly signals another example of the same behavior. &#10003;</li><li><strong>Choice B &mdash; &lsquo;Actually,&rsquo;</strong>: signals correction or contradiction of a prior claim; nothing is being corrected. &#10007;</li><li><strong>Choice C &mdash; &lsquo;However,&rsquo;</strong>: signals contrast, but the two sentences agree rather than contrast. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Regardless,&rsquo;</strong>: signals that what follows occurs despite the prior point; the second sentence reinforces, not defies, the first. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

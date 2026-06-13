@@ -9,7 +9,7 @@
     },
     {
       "title": "Use the negative-reciprocal rule and solve",
-      "content": "For perpendicular lines, $m_{\\text{radius}} = -\\frac{1}{m_{\\text{tangent}}} = -\\frac{5}{6}$. Set up: $$\\frac{-13}{a - 2} = -\\frac{5}{6} \\implies 5(a - 2) = 78 \\implies a = \\frac{88}{5}.$$ That matches choice D — <strong>D</strong> is correct."
+      "content": "For perpendicular lines, $m_{\\text{radius}} = -\\frac{1}{m_{\\text{tangent}}} = -\\frac{5}{6}$. Set up: $$\\frac{-13}{a - 2} = -\\frac{5}{6} \\implies 5(a - 2) = 78 \\implies a = \\frac{88}{5}.$$ <strong>D</strong> is correct."
     }
   ]
 }

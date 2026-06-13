@@ -13,7 +13,7 @@
     },
     {
       "title": "Solve for point Q",
-      "content": "From the first equation: $10 + x_Q = 12$, so $x_Q = 2$.<br/>From the second equation: $-5 + y_Q = -10$, so $y_Q = -5$.<br/>Point $Q$ is $(2, -5)$. That matches choice A — <strong>A</strong> is correct."
+      "content": "From the first equation: $10 + x_Q = 12$, so $x_Q = 2$.<br/>From the second equation: $-5 + y_Q = -10$, so $y_Q = -5$.<br/>Point $Q$ is $(2, -5)$. That confirms <strong>A</strong> is correct."
     }
   ]
 }

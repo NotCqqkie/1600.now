@@ -1,1 +1,15 @@
-{"questionId":"f6d1c961-52d1-4186-baf5-d276dfd4939f_2","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank describes Nancy Bird-Walton's place in historical memory compared to Chojnowska-Liskiewicz's. The key contrast: Chojnowska-Liskiewicz &quot;will always be remembered&quot; &mdash; her legacy is permanent and secure. The blank must describe something weaker or less stable than that."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'deserving'</strong>: Speaks to moral worthiness, not the security of historical memory. Doesn't contrast with &quot;will always be remembered.&quot; &#10007;</li><li><strong>Choice B &mdash; 'conspicuous'</strong>: Means highly visible or prominent &mdash; this would put Nancy's legacy on par with or above Chojnowska-Liskiewicz's, not below it. Wrong direction. &#10007;</li><li><strong>Choice C &mdash; 'uncertain'</strong>: Means not firmly established. Directly contrasts with &quot;will always be remembered&quot; &mdash; Nancy's historical memory is less secure, which matches the passage's hedging (&quot;perhaps more ______&quot;). &#10003;</li><li><strong>Choice D &mdash; 'enduring'</strong>: Means lasting &mdash; this would imply Nancy's legacy outlasts Chojnowska-Liskiewicz's, the opposite of what the passage implies. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "f6d1c961-52d1-4186-baf5-d276dfd4939f_2",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank describes Nancy Bird-Walton's place in historical memory compared to Chojnowska-Liskiewicz's. The key contrast: Chojnowska-Liskiewicz \"will always be remembered\" &mdash; her legacy is permanent and secure. The blank must describe something weaker or less stable than that."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"deserving\"</strong>: Speaks to moral worthiness, not the security of historical memory. Doesn't contrast with \"will always be remembered.\" &#10007;</li><li><strong>\"conspicuous\"</strong>: Means highly visible or prominent &mdash; this would put Nancy's legacy on par with or above Chojnowska-Liskiewicz's, not below it. Wrong direction. &#10007;</li><li><strong>\"uncertain\"</strong>: Means not firmly established. Directly contrasts with \"will always be remembered\" &mdash; Nancy's historical memory is less secure, which matches the passage's hedging (\"perhaps more ______\"). &#10003;</li><li><strong>\"enduring\"</strong>: Means lasting &mdash; this would imply Nancy's legacy outlasts Chojnowska-Liskiewicz's, the opposite of what the passage implies. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId":"087850e1-8e84-43f3-a3da-7bbac01f151f_17","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence reads: &quot;Her work challenges conventional notions of race, gender, history, and ______ she is credited with expanding the horizons of conceptual photographic art.&quot; The blank must (1) complete the list ending with a fourth noun after &quot;and,&quot; and (2) connect two independent clauses. After the blank, &quot;she is credited with...&quot; is a full independent clause."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;memory,&apos;</strong>: &quot;memory,&quot; ends the list but leaves the two independent clauses joined only by a comma &mdash; a comma splice. &#10007;</li><li><strong>Choice B &mdash; &apos;memory, and&apos;</strong>: &quot;memory,&quot; closes the list; &quot;and&quot; is the coordinating conjunction that properly joins the second independent clause. This follows the standard pattern for joining two independent clauses: [IC], and [IC]. &#10003;</li><li><strong>Choice C &mdash; &apos;memory and&apos;</strong>: without a comma before &quot;and,&quot; it appears &quot;and&quot; is still part of the list (&quot;race, gender, history, and memory and she is credited...&quot;), which is ungrammatical. &#10007;</li><li><strong>Choice D &mdash; &apos;memory&apos;</strong>: no punctuation or conjunction to connect the second independent clause &mdash; creates a run-on. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "087850e1-8e84-43f3-a3da-7bbac01f151f_17",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence reads: &quot;Her work challenges conventional notions of race, gender, history, and ______ she is credited with expanding the horizons of conceptual photographic art.&quot; The blank must (1) complete the list ending with a fourth noun after &quot;and,&quot; and (2) connect two independent clauses. After the blank, &quot;she is credited with...&quot; is a full independent clause."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; memory,</strong>: &quot;memory,&quot; ends the list but leaves the two independent clauses joined only by a comma &mdash; a comma splice. &#10007;</li><li><strong>Choice B &mdash; memory, and</strong>: &quot;memory,&quot; closes the list; &quot;and&quot; is the coordinating conjunction that properly joins the second independent clause. This follows the standard pattern for joining two independent clauses: [IC], and [IC]. &#10003;</li><li><strong>Choice C &mdash; memory and</strong>: without a comma before &quot;and,&quot; it appears &quot;and&quot; is still part of the list (&quot;race, gender, history, and memory and she is credited...&quot;), which is ungrammatical. &#10007;</li><li><strong>Choice D &mdash; memory</strong>: no punctuation or conjunction to connect the second independent clause &mdash; creates a run-on. &#10007;</li></ul>That matches <strong>Choice B &mdash; memory, and</strong>."
+    }
+  ]
+}

@@ -166,7 +166,7 @@
     "difficulty": "Easy",
     "question_number": 7,
     "test_name": "Module Source 059 Math M1",
-    "passage": "If $7(x+6)=6(x+6)+68$, what is the value of $x+6$?",
+    "passage": "If ${7}(x+6)=6(x+6)+68$, what is the value of $x+6$?",
     "question_text": null,
     "choices": [
       {
@@ -419,24 +419,24 @@
     "difficulty": "Hard",
     "question_number": 15,
     "test_name": "Module Source 059 Math M1",
-    "passage": "The function $f$ is defined by $f(x)=-29^x$. The function $g$ is a decreasing linear function. In the $xy$-plane, the graphs of $y=f(x)$ and $y=g(x)$ intersect at two points, $(h, j)$ and $(k, m)$, where $j > m$. When $g(x) > f(x)$, which of the following must also be true?",
+    "passage": "The function $f$ is defined by $f(x)=2^x$. The function $g$ is an increasing linear function. In the $xy$-plane, the graphs of $y=f(x)$ and $y=g(x)$ intersect at two points, $(h, j)$ and $(k, m)$, where $h \\lt k$. When $g(x) \\gt f(x)$, which of the following must also be true?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$x > k$"
+        "text": "$x \\gt k$"
       },
       {
         "label": "B",
-        "text": "$x < h$"
+        "text": "$x \\lt h$"
       },
       {
         "label": "C",
-        "text": "$x > k$ or $x < h$"
+        "text": "$x \\gt k$ or $x \\lt h$"
       },
       {
         "label": "D",
-        "text": "$h < x < k$"
+        "text": "$h \\lt x \\lt k$"
       }
     ],
     "is_fill_in_blank": false,
@@ -483,7 +483,7 @@
     "difficulty": "Hard",
     "question_number": 17,
     "test_name": "Module Source 059 Math M1",
-    "passage": "$h(x) = 2(x -4)^2 -32$\nThe quadratic function <em>h</em> is defined as shown. In the <em>xy</em>-plane, the graph of $y = h(x)$ intersects the <em>x</em>-axis at the points $(0, 0)$ and $t,0$, where <em>t</em> is a constant. What is the value of <em>t </em>?",
+    "passage": "$h(x) = 2(x -4)^2 -32$\nThe quadratic function <em>h</em> is defined as shown. In the <em>xy</em>-plane, the graph of $y = h(x)$ intersects the <em>x</em>-axis at the points $(0, 0)$ and $(t,0)$, where <em>t</em> is a constant. What is the value of <em>t</em>?",
     "question_text": null,
     "choices": [
       {
@@ -505,7 +505,7 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
-    "rationale": "Choice D is correct. It's given that the graph of $y = h(x)$ intersects the <em>x</em>-axis at the point with coordinates $(0, 0)$ and the point with coordinates $(t, 0)$, where <em>t</em> is a constant. Since this graph intersects the <em>x</em>-axis when $y = 0$ or when $h(x) = 0$, it follows that $h(0) = 0$ and $h(t) = 0$. If $h(t) = 0$, then $0 = 2 \\times (t - 4)^2 - 32$. Adding 32 to both sides of this equation yields $32 = 2 \\times (t - 4)^2$. Dividing both sides of this equation by 2 yields $16 = (t - 4)^2$. Taking the square root of both sides of this equation yields $4 = t - 4$. Adding 4 to both sides of this equation yields $8 = t$. Therefore, the value of <em>t</em> is 8.\nChoices A, B, and C are incorrect and may result from calculation errors.",
+    "rationale": "Choice D is correct. It's given that the graph of $y = h(x)$ intersects the <em>x</em>-axis at the point $(0, 0)$ and the point $(t, 0)$, where <em>t</em> is a constant. Since this graph intersects the <em>x</em>-axis when $y = 0$ or when $h(x) = 0$, it follows that $h(0) = 0$ and $h(t) = 0$. If $h(t) = 0$, then $0 = 2 \\times (t - 4)^2 - 32$. Adding 32 to both sides of this equation yields $32 = 2 \\times (t - 4)^2$. Dividing both sides of this equation by 2 yields $16 = (t - 4)^2$. Taking the square root of both sides of this equation yields $4 = t - 4$. Adding 4 to both sides of this equation yields $8 = t$. Therefore, the value of <em>t</em> is 8.\nChoices A, B, and C are incorrect and may result from calculation errors.",
     "id": "91e7ea5e"
   },
   {
@@ -547,7 +547,7 @@
     "difficulty": "Medium",
     "question_number": 19,
     "test_name": "Module Source 059 Math M1",
-    "passage": "The solutions to $x^2+6x+6=0$ are $r$ and $s$, where $r < s$. The solutions to $x^2+10x+13=0$ are $t$ and $u$, where $t < u$. The solutions to $x^2+16x+c=0$, where $c$ is a constant, are $r+u$ and $s+t$. What is the value of $c$?",
+    "passage": "The solutions to $x^2+6x+6=0$ are $r$ and $s$, where $r \\lt s$. The solutions to $x^2+10x+13=0$ are $t$ and $u$, where $t \\lt u$. The solutions to $x^2+16x+c=0$, where $c$ is a constant, are $r+u$ and $s+t$. What is the value of $c$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -562,7 +562,7 @@
     "difficulty": "Hard",
     "question_number": 20,
     "test_name": "Module Source 059 Math M1",
-    "passage": "In triangle $XYZ$, the measure of angle $X$ is 90°. Point $W$ lies on segment $YZ$, and segment $WX$ is perpendicular to segment $YZ$. The length of segment $YW$ is 612, and the length of segment $WX$ is 459. What is the value of $tanZ$?",
+    "passage": "In triangle $XYZ$, the measure of angle $X$ is 90°. Point $W$ lies on segment $YZ$, and segment $WX$ is perpendicular to segment $YZ$. The length of segment $YW$ is 612, and the length of segment $WX$ is 459. What is the value of $\\tan Z$?",
     "question_text": null,
     "choices": [
       {

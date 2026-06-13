@@ -9,7 +9,7 @@
     },
     {
       "title": "Solve the two cases",
-      "content": "So $5x+6=6$ or $5x+6=-6$. The first gives $5x=0$, so $x=0$. The second gives $5x=-12$, so $x=-\\frac{12}{5}$. Both values make $|5x+6|=6$, so the solution set matches choice <strong>C</strong>."
+      "content": "So $5x+6=6$ or $5x+6=-6$. The first gives $5x=0$, so $x=0$. The second gives $5x=-12$, so $x=-\\frac{12}{5}$. Both values make $|5x+6|=6$, so the solution set matches the correct answer, <strong>C</strong>."
     }
   ]
 }

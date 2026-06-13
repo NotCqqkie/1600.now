@@ -9,7 +9,7 @@
     },
     {
       "title": "State the minimum",
-      "content": "Since $a=1\\gt0$, the parabola opens upward — the vertex is the minimum. The minimum value is $g(0)=55$. That matches choice B — <strong>B</strong> is correct."
+      "content": "Since $a=1\\gt0$, the parabola opens upward — the vertex is the minimum. The minimum value is $g(0)=55$, the output at the vertex. <strong>B</strong> is correct."
     }
   ]
 }

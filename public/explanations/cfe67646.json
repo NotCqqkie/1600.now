@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Evaluate each coordinate against the inequality directions",
-      "content": "At the point $(8, 2)$: the $x$-coordinate is $8$, which satisfies $x > 0$ (since $8 > 0$ is true). The $y$-coordinate is $2$, which satisfies $y > 0$ (since $2 > 0$ is true)."
+      "content": "At the point $(8, 2)$: the $x$-coordinate is $8$, which satisfies $x \\gt 0$ (since $8 \\gt 0$ is true). The $y$-coordinate is $2$, which satisfies $y \\gt 0$ (since $2 \\gt 0$ is true)."
     },
     {
       "title": "Identify the matching system",
-      "content": "We need both $x > 0$ and $y > 0$ to hold for the point. Looking at the choices, only one system has this exact pair of inequalities. That matches choice A — <strong>A</strong> is correct."
+      "content": "We need both $x \\gt 0$ and $y \\gt 0$ to hold for the point. Looking at the choices, only one system has this exact pair of inequalities. That is the correct answer."
     }
   ]
 }

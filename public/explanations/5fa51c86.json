@@ -1,1 +1,19 @@
-{"section":"Reading and Writing","correctAnswer":"C","steps":[{"title":"Identify the goal","content":"The student wants to emphasize the RELATIVE sizes of the two capitals&apos; populations &mdash; i.e., directly compare Hanoi&apos;s population with Ulaanbaatar&apos;s."},{"title":"Look for explicit comparison","content":"Choice C uses the comparative word &quot;larger&quot;: &quot;Hanoi (population 7,781,631) is larger than Ulaanbaatar (population 907,802).&quot; That structure foregrounds the size difference rather than just listing numbers."},{"title":"Eliminate the others","content":"<ul><li><strong>Choice A &mdash; &apos;Ulaanbaatar... 907,802... Hanoi... 7,781,631&apos;</strong>: lists the two populations without comparing them; reader must do the work. &#10007;</li><li><strong>Choice B &mdash; &apos;8.14 percent... 31.98 percent&apos;</strong>: compares each city&apos;s share of its country, which is the wrong dimension (not relative sizes of the capitals). &#10007;</li><li><strong>Choice C &mdash; &apos;Hanoi... is larger than Ulaanbaatar&apos;</strong>: explicit comparative emphasizes the relative sizes. &#10003;</li><li><strong>Choice D &mdash; &apos;907,802... and 7,781,631... respectively&apos;</strong>: pairs cities with numbers but, like A, omits any comparative language. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "5fa51c86",
+  "section": "Reading and Writing",
+  "correctAnswer": "C",
+  "steps": [
+    {
+      "title": "Identify the goal",
+      "content": "The student wants to emphasize the RELATIVE sizes of the two capitals&apos; populations &mdash; i.e., directly compare Hanoi&apos;s population with Ulaanbaatar&apos;s."
+    },
+    {
+      "title": "Look for explicit comparison",
+      "content": "Choice C (&lsquo;Even though Hanoi (population 7,781,631) is larger than Ulaanbaatar (population 907,802), Ulaanbaatar accounts for more of its country's population.&rsquo;) uses the comparative word &quot;larger&quot;: &quot;Hanoi (population 7,781,631) is larger than Ulaanbaatar (population 907,802).&quot; That structure foregrounds the size difference rather than just listing numbers."
+    },
+    {
+      "title": "Eliminate the others",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Mongolia's capital is Ulaanbaatar, which has 907,802 people, and Vietnam's capital is Hanoi, which has 7,781,631 people.&rsquo;</strong>: lists the two populations without comparing them; reader must do the work. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Comparing Vietnam and Mongolia, 7,781,631 is 8.14 percent of Vietnam's population, and 907,802 is 31.98 percent of Mongolia's.&rsquo;</strong>: compares each city&apos;s share of its country, which is the wrong dimension (not relative sizes of the capitals). &#10007;</li><li><strong>Choice C &mdash; &lsquo;Even though Hanoi (population 7,781,631) is larger than Ulaanbaatar (population 907,802), Ulaanbaatar accounts for more of its country's population.&rsquo;</strong>: explicit comparative emphasizes the relative sizes. &#10003;</li><li><strong>Choice D &mdash; &lsquo;The populations of the capitals of Mongolia and Vietnam are 907,802 (Ulaanbaatar) and 7,781,631 (Hanoi), respectively.&rsquo;</strong>: pairs cities with numbers but, like A, omits any comparative language. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

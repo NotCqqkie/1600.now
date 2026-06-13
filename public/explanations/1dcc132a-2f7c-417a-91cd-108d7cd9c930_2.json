@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the answer",
-      "content": "Choice A is $12yz^3+6yz$. Choices B, C, and D treat multiplying or adding like terms as if exponents should be added, which is not correct here. Therefore <strong>A</strong> is correct."
+      "content": "<strong>Choice A &mdash; $12yz^{3}+6yz$</strong> is $12yz^3+6yz$. Choices B, C, and D treat multiplying or adding like terms as if exponents should be added, which is not correct here. Therefore <strong>A</strong> is correct."
     }
   ]
 }

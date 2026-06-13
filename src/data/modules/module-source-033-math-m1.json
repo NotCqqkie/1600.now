@@ -250,7 +250,7 @@
     "difficulty": "Easy",
     "question_number": 10,
     "test_name": "Module Source 033 Math M1",
-    "passage": "A rectangle has a length that is 73 times its width. The function $y=(73w)(w)$ represents this situation, where $y$ is the area, in square feet, of the rectangle and $y>0$. Which of the following is the best interpretation of $73w$ in this context?",
+    "passage": "A rectangle has a length that is 73 times its width. The function $y=(73w)(w)$ represents this situation, where $y$ is the area, in square feet, of the rectangle and $y \\gt 0$. Which of the following is the best interpretation of $73w$ in this context?",
     "question_text": null,
     "choices": [
       {
@@ -376,7 +376,7 @@
     "difficulty": "Hard",
     "question_number": 15,
     "test_name": "Module Source 033 Math M1",
-    "passage": "For what value of $a$ is $\\sqrt[a]{r^{42}}$ equivalent to $r^{\\frac{6}{7}}$, where $r>1$?",
+    "passage": "For what value of $a$ is $\\sqrt[a]{r^{42}}$ equivalent to $r^{\\frac{6}{7}}$, where $r \\gt 1$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -585,19 +585,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$4+(x+1)>17(x+2)$"
+        "text": "$4+(x+1) \\gt 17(x+2)$"
       },
       {
         "label": "B",
-        "text": "$4+(x+1) < 17(x+2)$"
+        "text": "$4+(x+1) \\lt 17(x+2)$"
       },
       {
         "label": "C",
-        "text": "$4+(x+2)>17(x+3)$"
+        "text": "$4+(x+2) \\gt 17(x+3)$"
       },
       {
         "label": "D",
-        "text": "$4+(x+2) < 17(x+3)$"
+        "text": "$4+(x+2) \\lt 17(x+3)$"
       }
     ],
     "is_fill_in_blank": false,

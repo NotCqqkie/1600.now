@@ -1,1 +1,15 @@
-{"questionId": "cf08e2fd", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Establish the time frame of the passage", "content": "The opening clause anchors the passage firmly in a completed historical period: &ldquo;From 1912 to 1951, Charlotta Bass <em>owned</em> and <em>operated</em> the newspaper.&rdquo; Both verbs are simple past. The second sentence continues to describe what happened during that same period (&ldquo;While it was under Bass&rsquo;s leadership&rdquo;), so the blank verb must also be past tense to remain consistent."}, {"title": "Eliminate non-past forms, confirm the match", "content": "<ul><li><strong>Choice A &mdash; &lsquo;will become&rsquo;</strong>: Future tense &mdash; refers to events that have not yet happened, which contradicts the clearly historical (1912&ndash;1951) context. &#10007;</li><li><strong>Choice B &mdash; &lsquo;became&rsquo;</strong>: Simple past &mdash; matches the past-tense verbs &ldquo;owned&rdquo; and &ldquo;operated&rdquo; and correctly situates the event within the completed historical period. &#10003;</li><li><strong>Choice C &mdash; &lsquo;is becoming&rsquo;</strong>: Present progressive &mdash; implies an ongoing process happening now, which contradicts the historical framing. &#10007;</li><li><strong>Choice D &mdash; &lsquo;to become&rsquo;</strong>: Infinitive &mdash; not a finite verb; it cannot serve as the main verb of the clause. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "cf08e2fd",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Establish the time frame of the passage",
+      "content": "The opening clause anchors the passage firmly in a completed historical period: &ldquo;From 1912 to 1951, Charlotta Bass <em>owned</em> and <em>operated</em> the newspaper.&rdquo; Both verbs are simple past. The second sentence continues to describe what happened during that same period (&ldquo;While it was under Bass&rsquo;s leadership&rdquo;), so the blank verb must also be past tense to remain consistent."
+    },
+    {
+      "title": "Eliminate non-past forms, confirm the match",
+      "content": "<ul><li><strong>Choice A &mdash; will become</strong>: Future tense &mdash; refers to events that have not yet happened, which contradicts the clearly historical (1912&ndash;1951) context. &#10007;</li><li><strong>Choice B &mdash; became</strong>: Simple past &mdash; matches the past-tense verbs &ldquo;owned&rdquo; and &ldquo;operated&rdquo; and correctly situates the event within the completed historical period. &#10003;</li><li><strong>Choice C &mdash; is becoming</strong>: Present progressive &mdash; implies an ongoing process happening now, which contradicts the historical framing. &#10007;</li><li><strong>Choice D &mdash; to become</strong>: Infinitive &mdash; not a finite verb; it cannot serve as the main verb of the clause. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

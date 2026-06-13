@@ -9,7 +9,7 @@
     },
     {
       "title": "Highest score after removal",
-      "content": "The sum of the remaining 7 players after removing the highest score is $$7 \\times 12 = 84$$.<br/>Subtracting this from the total gives the highest score: $$116 - 84 = 32$$.<br/>That matches choice C - <strong>C</strong> is correct."
+      "content": "The sum of the remaining 7 players after removing the highest score is $$7 \\times 12 = 84$$.<br/>Subtracting this from the total gives the highest score: $$116 - 84 = 32$$.<br/>That matches <strong>Choice C &mdash; 32</strong>- <strong>C</strong>."
     }
   ]
 }

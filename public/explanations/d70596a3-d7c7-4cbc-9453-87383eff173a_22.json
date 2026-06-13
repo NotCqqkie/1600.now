@@ -9,7 +9,7 @@
     },
     {
       "title": "Match to the transition pattern",
-      "content": "The logical relationship is sequence. The blank must introduce the third and final step of a procedure already marked by \"First\" and \"Next.\"\n<ul>\n<li><strong>Choice A — \"Nevertheless,\"</strong>: signals concession/contrast, so fails. ✗</li>\n<li><strong>Choice B — \"Therefore,\"</strong>: signals cause-effect, so fails — no cause is being stated. ✗</li>\n<li><strong>Choice C — \"Actually,\"</strong>: signals correction of a prior claim, so fails. ✗</li>\n<li><strong>Choice D — \"Finally,\"</strong>: signals the last step in a sequence, completing First → Next → Finally, so fits. ✓</li>\n</ul>\nThat matches choice D — <strong>D</strong> is correct."
+      "content": "The logical relationship is sequence. The blank must introduce the third and final step of a procedure already marked by \"First\" and \"Next.\"\n<ul>\n<li><strong>\"Nevertheless,\"</strong>: signals concession/contrast, so fails. ✗</li>\n<li><strong>\"Therefore,\"</strong>: signals cause-effect, so fails — no cause is being stated. ✗</li>\n<li><strong>\"Actually,\"</strong>: signals correction of a prior claim, so fails. ✗</li>\n<li><strong>\"Finally,\"</strong>: signals the last step in a sequence, completing First → Next → Finally, so fits. ✓</li>\n</ul>\nThat matches the correct answer — <strong>D</strong> is correct."
     }
   ]
 }

@@ -8,8 +8,8 @@
       "content": "In the function $S(n) = 38000 \\cdot a^n$, the parameter $a$ is the annual growth factor (multiplier per year). We need to find the value of $a$ that represents a 4% annual salary increase."
     },
     {
-      "title": "Test choice C (1.04)",
-      "content": "Backsolving — testing choice C (1.04): If $a = 1.04$, each year the salary is multiplied by 1.04.<br/><br/>This represents a 4% increase because $1.04 = 1 + 0.04$, where 0.04 is the decimal form of 4%.<br/><br/>So $S(1) = 38000 \\cdot 1.04$ gives a 4% increase from the starting salary ✓.<br/><br/>That matches choice C — <strong>C</strong> is correct."
+      "title": "Test the remaining alternative (1.04)",
+      "content": "Backsolving by testing the candidate (1.04): If $a = 1.04$, each year the salary is multiplied by 1.04.<br/><br/>This represents a 4% increase because $1.04 = 1 + 0.04$, where 0.04 is the decimal form of 4%.<br/><br/>So $S(1) = 38000 \\cdot 1.04$ gives a 4% increase from the starting salary ✓.<br/><br/>That matches the correct answer — <strong>C</strong> is correct."
     }
   ]
 }

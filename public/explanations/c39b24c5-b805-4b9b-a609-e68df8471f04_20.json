@@ -1,1 +1,15 @@
-{"questionId": "c39b24c5-b805-4b9b-a609-e68df8471f04_20", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The blank must insert a non-restrictive appositive &mdash; &lsquo;in this case, Herman Chernoff&rsquo; &mdash; between &lsquo;polymath&rsquo; and the relative clause &lsquo;who was not the first to identify the mathematical bound.&rsquo; Non-restrictive appositives must be set off with <strong>matching</strong> punctuation on both sides."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'polymath&mdash;in this case, Herman Chernoff&mdash;'</strong>: Uses symmetrical em-dashes on both sides of the appositive. Correct. &#10003;</li><li><strong>Choice B &mdash; 'polymath: in this case, Herman Chernoff,'</strong>: Opens with a colon and closes with a comma &mdash; mismatched punctuation. &#10007;</li><li><strong>Choice C &mdash; 'polymath&mdash;in this case, Herman Chernoff,'</strong>: Opens with an em-dash but closes with a comma &mdash; mismatched punctuation. &#10007;</li><li><strong>Choice D &mdash; 'polymath in this case, Herman Chernoff,'</strong>: No opening punctuation at all, so the appositive is not properly set off. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "c39b24c5-b805-4b9b-a609-e68df8471f04_20",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank must insert a non-restrictive appositive &mdash; &lsquo;in this case, Herman Chernoff&rsquo; &mdash; between &lsquo;polymath&rsquo; and the relative clause &lsquo;who was not the first to identify the mathematical bound.&rsquo; Non-restrictive appositives must be set off with <strong>matching</strong> punctuation on both sides."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; polymath—in this case, Herman Chernoff—</strong>: Uses symmetrical em-dashes on both sides of the appositive. Correct. &#10003;</li><li><strong>Choice B &mdash; polymath: in this case, Herman Chernoff,</strong>: Opens with a colon and closes with a comma &mdash; mismatched punctuation. &#10007;</li><li><strong>Choice C &mdash; polymath—in this case, Herman Chernoff,</strong>: Opens with an em-dash but closes with a comma &mdash; mismatched punctuation. &#10007;</li><li><strong>Choice D &mdash; polymath in this case, Herman Chernoff,</strong>: No opening punctuation at all, so the appositive is not properly set off. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

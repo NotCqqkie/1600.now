@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the perimeter constraint",
-      "content": "The perimeter of triangle $PQR$ is the sum of all three sides:<br/>$$PQ + PR + QR = 31$$<br/>Substituting the known values:<br/>$$9 + 9 + QR = 31$$<br/>$$18 + QR = 31$$<br/>$$QR = 13$$<br/>That matches choice B — <strong>B</strong> is correct."
+      "content": "The perimeter of triangle $PQR$ is the sum of all three sides:<br/>$$PQ + PR + QR = 31$$<br/>Substituting the known values:<br/>$$9 + 9 + QR = 31$$<br/>$$18 + QR = 31$$<br/>$$QR = 13$$<br/>That confirms <strong>B</strong> is correct."
     }
   ]
 }

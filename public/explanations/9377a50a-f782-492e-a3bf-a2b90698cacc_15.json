@@ -17,7 +17,7 @@
     },
     {
       "title": "Eliminate the other choices",
-      "content": "<ul><li>A) $-16(t + 203)^2 - 2$ has vertex $(-203, -2)$ &mdash; wrong vertex. Eliminate.</li><li>B) $-16(t - 203)^2 + 2$ has vertex $(203, 2)$ &mdash; wrong vertex. Eliminate.</li><li>C) $-16(t + 2)^2 - 203$ has vertex $(-2, -203)$ &mdash; wrong vertex. Eliminate.</li><li>D) $-16(t - 2)^2 + 203$ has vertex $(2, 203)$ and gives $f(0) = -64 + 203 = 139$. Keep.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "content": "<ul><li>A) $-16(t + 203)^2 - 2$ has vertex $(-203, -2)$ &mdash; wrong vertex. Eliminate.</li><li>B) $-16(t - 203)^2 + 2$ has vertex $(203, 2)$ &mdash; wrong vertex. Eliminate.</li><li>C) $-16(t + 2)^2 - 203$ has vertex $(-2, -203)$ &mdash; wrong vertex. Eliminate.</li><li>D) $-16(t - 2)^2 + 203$ has vertex $(2, 203)$ and gives $f(0) = -64 + 203 = 139$. Keep.</li></ul>That confirms <strong>D</strong> is correct."
     }
   ]
 }

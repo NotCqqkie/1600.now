@@ -1,1 +1,15 @@
-{"questionId": "dc78fb50-de84-439b-980f-0629b266ff8a_12", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the key signal in the evidence pattern", "content": "The passage uses “However” to pivot away from the hypothesis (that the association is particular to North America).<br/><br/>The decisive clue is the contrast between what most studies found and what the Brazil study found: “several other studies conducted outside North America... showed similar results to the North American studies, while few have produced results similar to those of Fagnani, Guimara, and Fadini's study.” In other words, the positive association (DOC and mercury rising/falling together) appears in <strong>many studies across multiple regions</strong>, while the lack of association (Brazil's result) appears in <strong>few studies</strong>.<br/><br/>When one pattern dominates and the other is rare, that tells us which is typical."}, {"title": "Match the evidence to the conclusion", "content": "Because the positive association shows up repeatedly across North America and Sweden, with only the Brazil study standing apart, the evidence points to one stable pattern: dissolved organic carbon and mercury levels do <strong>typically</strong> rise and fall together.<br/><br/>Choice C captures this directly—the dominant pattern across studies is the positive association, making it the rule rather than the exception.<br/><br/>Choices A, B, and <ul><li>D all misread the logic: A claims the hypothesis is correct when the evidence contradicts it</li><li>B invents an unsupported claim about absolute levels rather than correlation</li><li>D falsely suggests the Swedish study has measurement problems when it's cited as supporting evidence</li></ul>. <strong>C</strong> is correct."}]}
+{
+  "questionId": "dc78fb50-de84-439b-980f-0629b266ff8a_12",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal in the evidence pattern",
+      "content": "The passage uses “However” to pivot away from the hypothesis (that the association is particular to North America).<br/><br/>The decisive clue is the contrast between what most studies found and what the Brazil study found: “several other studies conducted outside North America... showed similar results to the North American studies, while few have produced results similar to those of Fagnani, Guimara, and Fadini's study.” In other words, the positive association (DOC and mercury rising/falling together) appears in <strong>many studies across multiple regions</strong>, while the lack of association (Brazil's result) appears in <strong>few studies</strong>.<br/><br/>When one pattern dominates and the other is rare, that tells us which is typical."
+    },
+    {
+      "title": "Match the evidence to the conclusion",
+      "content": "Because the positive association shows up repeatedly across North America and Sweden, with only the Brazil study standing apart, the evidence points to one stable pattern: dissolved organic carbon and mercury levels do <strong>dissolved organic carbon and mercury levels do typically rise and fall together in fresh water.</strong> is correct."
+    }
+  ]
+}

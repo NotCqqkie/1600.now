@@ -1,1 +1,15 @@
-{"questionId":"a4670c6c-a654-4863-946e-7b7c7171fcdb_15","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage states that West&apos;s generation aligned their style with Abstract Expressionism &quot;instead of with traditionally nonrepresentational forms of Indigenous art.&quot; Their visual approach follows a European American movement, not Indigenous tradition &mdash; so style alone cannot signal Indigenous identity."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; contradicts the passage</strong>: the passage says their style follows Abstract Expressionism, not Indigenous tradition. &#10007;</li><li><strong>Choice B &mdash; identity over style</strong>: since the visual style mirrors Abstract Expressionism, identifying the work as Indigenous must depend on knowing the artist&apos;s identity, not stylistic details. &#10003;</li><li><strong>Choice C &mdash; misses the focus</strong>: does not address why stylistic details fail to mark the work as Indigenous. &#10007;</li><li><strong>Choice D &mdash; wrong logic</strong>: frames the relationship incorrectly relative to what the passage establishes. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "a4670c6c-a654-4863-946e-7b7c7171fcdb_15",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage states that West&apos;s generation aligned their style with Abstract Expressionism &quot;instead of with traditionally nonrepresentational forms of Indigenous art.&quot; Their visual approach follows a European American movement, not Indigenous tradition &mdash; so style alone cannot signal Indigenous identity."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; deny the extent to which cultural identity influences an artist's work.</strong>: the passage says their style follows Abstract Expressionism, not Indigenous tradition. &#10007;</li><li><strong>Choice B &mdash; depend not on stylistic details but instead on an awareness of the artist's identity.</strong>: since the visual style mirrors Abstract Expressionism, identifying the work as Indigenous must depend on knowing the artist&apos;s identity, not stylistic details. &#10003;</li><li><strong>Choice C &mdash; obscure the Indigenous origins of certain motifs associated with Abstract Expressionism.</strong>: does not address why stylistic details fail to mark the work as Indigenous. &#10007;</li><li><strong>Choice D &mdash; place a greater emphasis on the artist's biography than on the aesthetic merit of the painting.</strong>: frames the relationship incorrectly relative to what the passage establishes. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

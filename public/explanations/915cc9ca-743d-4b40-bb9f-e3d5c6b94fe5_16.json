@@ -15,7 +15,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; $f(x)=-3^{x}+1$</strong>: asymptote at $y = 1$, not 3. &#10007;</li><li><strong>Choice B &mdash; $f(x)=-3^{x}+3$</strong>: asymptote at $y = 3$. Check: $f(1) = -3 + 3 = 0$, so $f(1)+2 = 2$ &mdash; matches the graph. &#10003;</li><li><strong>Choice C &mdash; $f(x)=-3^{x}+4$</strong>: asymptote at $y = 4$, not 3. &#10007;</li><li><strong>Choice D &mdash; $f(x)=-3^{x}+5$</strong>: asymptote at $y = 5$, not 3. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.",
+      "content": "<ul><li><strong>Choice A &mdash; $f(x)=-3^{x}+1$</strong>: asymptote at $y = 1$, not 3. &#10007;</li><li><strong>Choice B &mdash; $f(x)=-3^{x}+3$</strong>: asymptote at $y = 3$. Check: $f(1) = -3 + 3 = 0$, so $f(1)+2 = 2$ &mdash; matches the graph. &#10003;</li><li><strong>Choice C &mdash; $f(x)=-3^{x}+4$</strong>: asymptote at $y = 4$, not 3. &#10007;</li><li><strong>Choice D &mdash; $f(x)=-3^{x}+5$</strong>: asymptote at $y = 5$, not 3. &#10007;</li></ul>That confirms <strong>B</strong> is correct.",
       "desmosExpressions": [
         "y=-3^x+5"
       ]

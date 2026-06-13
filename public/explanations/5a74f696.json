@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate the choices",
-      "content": "<ul><li><strong>A.</strong> $M(t)=890\\left(\\frac{1}{2}\\right)^{t/10}$ &mdash; this halves every 10 years, the opposite of doubling.</li><li><strong>B.</strong> $M(t)=890\\left(\\frac{1}{10}\\right)^{t/2}$ &mdash; decays toward zero, not doubling.</li><li><strong>C.</strong> $M(t)=890(2)^{t/10}$ &mdash; doubles every 10 years as required.</li><li><strong>D.</strong> $M(t)=890(10)^{t/2}$ &mdash; grows tenfold every 2 years, far too fast.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+      "content": "<ul><li><strong>A.</strong> $M(t)=890\\left(\\frac{1}{2}\\right)^{t/10}$ &mdash; this halves every 10 years, the opposite of doubling.</li><li><strong>B.</strong> $M(t)=890\\left(\\frac{1}{10}\\right)^{t/2}$ &mdash; decays toward zero, not doubling.</li><li><strong>C.</strong> $M(t)=890(2)^{t/10}$ &mdash; doubles every 10 years as required.</li><li><strong>D.</strong> $M(t)=890(10)^{t/2}$ &mdash; grows tenfold every 2 years, far too fast.</li></ul>That confirms <strong>C</strong> is correct."
     }
   ]
 }

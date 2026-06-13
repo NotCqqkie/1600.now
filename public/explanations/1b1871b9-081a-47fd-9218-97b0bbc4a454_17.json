@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find Charles's weekly savings",
-      "content": "Charles saves $\\frac{3}{5}$ of \\$225 per week. Calculate his weekly savings:<br/>$$\\text{Weekly savings} = \\frac{3}{5} \\times 225 = \\frac{675}{5} = 135$$<br/>Charles saves \\$135 each week."
+      "content": "Charles saves $\\frac{3}{5}$ of &#36;225 per week. Calculate his weekly savings:<br/>$$\\text{Weekly savings} = \\frac{3}{5} \\times 225 = \\frac{675}{5} = 135$$<br/>Charles saves &#36;135 each week."
     },
     {
       "title": "Multiply by 3 weeks",
-      "content": "To find total savings over 3 weeks, multiply the weekly amount by 3:<br/>$$135 \\times 3 = 405$$<br/>Charles will save <strong>\\$405</strong> in 3 weeks."
+      "content": "To find total savings over 3 weeks, multiply the weekly amount by 3:<br/>$$135 \\times 3 = 405$$<br/>Charles will save <strong>&#36;405</strong> in 3 weeks."
     }
   ]
 }

@@ -17,7 +17,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice B gives $f(x)=-2x+7$. Subtracting 11 gives $y=-2x-4$, exactly the graphed line. Choice C has the same intercept after shifting, but its slope is $-13$, not $-2$. Choices A and D miss the intercept.",
+      "content": "<strong>Choice B &mdash; $f \\left(x\\right)=-2x+7$</strong> gives $f(x)=-2x+7$. Subtracting 11 gives $y=-2x-4$, exactly the graphed line. <strong>Choice C &mdash; $f \\left(x\\right)=-13x+7$</strong> has the same intercept after shifting, but its slope is $-13$, not $-2$. Choices A and D miss the intercept.",
       "desmosExpressions": [
         "y=(-2x+7)-11",
         "y=-2x-4"
@@ -25,7 +25,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "$f(x)=-2x+7$ matches choice B. Choice B is correct."
+      "content": "$f(x)=-2x+7$ matches <strong>Choice B &mdash; $f \\left(x\\right)=-2x+7$</strong>. <strong>Choice B &mdash; $f \\left(x\\right)=-2x+7$</strong>."
     }
   ]
 }

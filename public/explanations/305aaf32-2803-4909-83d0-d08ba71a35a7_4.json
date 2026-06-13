@@ -14,7 +14,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; '$A = (1.59w)(w)$'</strong>: Multiplies length $1.59w$ by width $w$ directly from the area formula. &#10003;</li><li><strong>Choice B &mdash; '$A = \\left(\\frac{1.59w}{w}\\right)(w)$'</strong>: The fraction $\\frac{1.59w}{w}$ simplifies to $1.59$, giving $A = 1.59w$ (just the length, not area). &#10007;</li><li><strong>Choice C &mdash; '$A = (w - 1.59)(w)$'</strong>: Subtracts $1.59$ from $w$ instead of multiplying; has no basis in the given length. &#10007;</li><li><strong>Choice D &mdash; '$A = (w + 1.59)(w)$'</strong>: Adds $1.59$ to $w$, confusing the coefficient with an addend. &#10007;</li></ul>That matches choice A — <strong>A</strong> is correct."
+      "content": "<ul><li><strong>Choice A — $A = (1.59w)(w)$</strong>: Multiplies length $1.59w$ by width $w$ directly from the area formula. &#10003;</li><li><strong>Choice B — $A = \\left(\\frac{1.59w}{w}\\right)(w)$</strong>: The fraction $\\frac{1.59w}{w}$ simplifies to $1.59$, giving $A = 1.59w$ (just the length, not area). &#10007;</li><li><strong>Choice C — $A = (w - 1.59)(w)$</strong>: Subtracts $1.59$ from $w$ instead of multiplying; has no basis in the given length. &#10007;</li><li><strong>Choice D — $A = (w + 1.59)(w)$</strong>: Adds $1.59$ to $w$, confusing the coefficient with an addend. &#10007;</li></ul><strong>A</strong> is correct."
     }
   ]
 }

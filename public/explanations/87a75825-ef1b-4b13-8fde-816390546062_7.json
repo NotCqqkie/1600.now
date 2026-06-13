@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Treat $x+6$ as a single variable",
-      "content": "Let $u = x+6$. The equation $7(x+6) = 6(x+6) + 68$ becomes $7u = 6u + 68$."
+      "content": "Let $u = x+6$. The equation ${7}(x+6) = 6(x+6) + 68$ becomes $7u = 6u + 68$."
     },
     {
       "title": "Solve for $u$",
-      "content": "Subtract $6u$ from both sides: $7u - 6u = 68$, so $u = 68$. Since $u = x+6$, that gives $x+6 = 68$. That matches choice <strong>C</strong> &mdash; <strong>C</strong> is correct."
+      "content": "Subtract $6u$ from both sides: $7u - 6u = 68$, so $u = 68$. Since $u = x+6$, that gives $x+6 = 68$. That confirms <strong>C</strong> is correct."
     }
   ]
 }

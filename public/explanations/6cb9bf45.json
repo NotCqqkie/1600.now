@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Set up the inequality test",
-      "content": "Need every $(x,y)$ in the table to satisfy $y>7x-4$."
+      "content": "Need every $(x,y)$ in the table to satisfy $y\\gt 7x-4$."
     },
     {
       "title": "Test each table",
-      "content": "Compute $7x-4$: at $x=3$ bound is $17$, at $x=5$ bound is $31$, at $x=8$ bound is $52$. Choice D has $y=21,35,56$, all strictly greater. Others fail at least one row."
+      "content": "Compute $7x-4$: at $x=3$ bound is $17$, at $x=5$ bound is $31$, at $x=8$ bound is $52$. The correct table has $y=21,35,56$, all strictly greater. The other tables fail at least one row."
     },
     {
       "title": "Identify the table",
-      "content": "Only choice D satisfies $y>7x-4$ for every row. That matches choice <strong>D</strong> — <strong>D</strong> is correct.",
+      "content": "Only the table with $y=21,35,56$ satisfies $y\\gt 7x-4$ for every row. Therefore <strong>D</strong> is correct.",
       "desmosExpressions": [
         "y>7x-4",
         "(3,21)",

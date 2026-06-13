@@ -1,1 +1,15 @@
-{"questionId": "0bcb4417", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the antecedent", "content": "The blank modifies <strong>“eight panels of text”</strong> in the prepositional phrase beginning with “With.” The sentence's subject—<strong>“the poems”</strong>—is the antecedent for this possessive determiner."}, {"title": "Apply pronoun-antecedent agreement", "content": "”The poems” is plural, so the possessive must be plural: <strong>“their”</strong>.<br/><br/>The forms “it's” and “they're” are contractions (meaning “it is” and “they are”) and do not function as possessive determiners; “its” is a singular possessive and fails to agree with the plural antecedent.<br/><br/>That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}
+{
+  "questionId": "0bcb4417",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the antecedent",
+      "content": "The blank modifies <strong>“eight panels of text”</strong> in the prepositional phrase beginning with “With.” The sentence's subject—<strong>“the poems”</strong>—is the antecedent for this possessive determiner."
+    },
+    {
+      "title": "Apply pronoun-antecedent agreement",
+      "content": "”The poems” is plural, so the possessive must be plural: <strong>“their”</strong>.<br/><br/>The forms “it's” and “they're” are contractions (meaning “it is” and “they are”) and do not function as possessive determiners; “its” is a singular possessive and fails to agree with the plural antecedent.<br/><br/>That matches <strong>Choice A &mdash; their</strong>."
+    }
+  ]
+}

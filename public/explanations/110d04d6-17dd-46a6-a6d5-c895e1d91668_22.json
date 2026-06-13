@@ -1,1 +1,15 @@
-{"questionId":"110d04d6-17dd-46a6-a6d5-c895e1d91668_22","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"This is a Transitions question. The first sentence states Dowsett's goal: coordinate suffragist efforts in Hawai'i. The second sentence describes her founding an organization that lobbied for voting rights. The transition must show that the founding was done in order to achieve that goal."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Conversely,'</strong>: &quot;Conversely&quot; signals a contrast or opposite situation. Founding the organization directly advances Dowsett's stated goal — there is no contrast. &#10007;</li><li><strong>Choice B &mdash; 'To that end,'</strong>: &quot;To that end&quot; signals that what follows is a purposeful action taken to achieve the goal just stated. Founding the suffragist association is exactly that action. &#10003;</li><li><strong>Choice C &mdash; 'Alternatively,'</strong>: &quot;Alternatively&quot; signals a different option or substitute. Founding the organization is not an alternative to coordinating suffragists — it is the means of doing so. &#10007;</li><li><strong>Choice D &mdash; 'In other words,'</strong>: &quot;In other words&quot; signals a restatement or clarification of the same idea. The second sentence adds new information (the founding of the association) rather than restating the first sentence. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "110d04d6-17dd-46a6-a6d5-c895e1d91668_22",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a Transitions question. The first sentence states Dowsett's goal: coordinate suffragist efforts in Hawai'i. The second sentence describes her founding an organization that lobbied for voting rights. The transition must show that the founding was done in order to achieve that goal."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Conversely,</strong>: &quot;Conversely&quot; signals a contrast or opposite situation. Founding the organization directly advances Dowsett's stated goal — there is no contrast. &#10007;</li><li><strong>Choice B &mdash; To that end,</strong>: &quot;To that end&quot; signals that what follows is a purposeful action taken to achieve the goal just stated. Founding the suffragist association is exactly that action. &#10003;</li><li><strong>Choice C &mdash; Alternatively,</strong>: &quot;Alternatively&quot; signals a different option or substitute. Founding the organization is not an alternative to coordinating suffragists — it is the means of doing so. &#10007;</li><li><strong>Choice D &mdash; In other words,</strong>: &quot;In other words&quot; signals a restatement or clarification of the same idea. The second sentence adds new information (the founding of the association) rather than restating the first sentence. &#10007;</li></ul>That matches <strong>Choice B &mdash; To that end,</strong>."
+    }
+  ]
+}

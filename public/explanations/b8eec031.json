@@ -1,1 +1,15 @@
-{"questionId": "b8eec031", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the progression the passage describes", "content": "The passage states there's <em>a shift in the opposite direction</em>—meaning mathematicians are moving away from isolation toward collaboration. This isn't just a fact about current behavior; it's a <strong>change happening over time</strong>, a <strong>trend</strong>."}, {"title": "Select the transition that captures this progression", "content": "<strong>Increasingly</strong> directly captures this trend: more mathematicians are choosing collaboration.<br/><br/>The other choices either wrongly suggest continuity with the past, falsely add causation, or treat collaboration as additional rather than explanatory.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "b8eec031",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the progression the passage describes",
+      "content": "The passage states there's <em>a shift in the opposite direction</em>—meaning mathematicians are moving away from isolation toward collaboration. This isn't just a fact about current behavior; it's a <strong>change happening over time</strong>, a <strong>trend</strong>."
+    },
+    {
+      "title": "Select the transition that captures this progression",
+      "content": "<strong>Increasingly</strong> directly captures this trend: more mathematicians are choosing collaboration.<br/><br/>The other choices either wrongly suggest continuity with the past, falsely add causation, or treat collaboration as additional rather than explanatory.<br/><br/>That is the correct answer."
+    }
+  ]
+}

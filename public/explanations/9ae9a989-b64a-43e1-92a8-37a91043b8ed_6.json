@@ -1,1 +1,15 @@
-{"questionId": "9ae9a989-b64a-43e1-92a8-37a91043b8ed_6", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify Text 2's contradicting argument", "content": "The underlined claim asserts that the UNESCO honor “is well known among both residents of the city and tourists who visit.” But Text 2 argues that without intentional marketing strategies, “many current and potential visitors to Bergamo may not even be aware” of the city's food scene—directly contradicting the assumption of widespread knowledge."}, {"title": "Apply the contradiction to the choices", "content": "The author of Text 2 responds to this claim by suggesting that the UNESCO status may not actually be well known among visitors, which is precisely why marketing strategies are necessary.<br/><br/>A, C, and D miss the central point by defending the UNESCO honor itself, introducing unrelated benefits, or crediting chefs respectively.<br/><br/>This matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "9ae9a989-b64a-43e1-92a8-37a91043b8ed_6",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify Text 2's contradicting argument",
+      "content": "The underlined claim asserts that the UNESCO honor “is well known among both residents of the city and tourists who visit.” But Text 2 argues that without intentional marketing strategies, “many current and potential visitors to Bergamo may not even be aware” of the city's food scene—directly contradicting the assumption of widespread knowledge."
+    },
+    {
+      "title": "Apply the contradiction to the choices",
+      "content": "The author of Text 2 responds to this claim by suggesting that the UNESCO status may not actually be well known among visitors, which is precisely why marketing strategies are necessary.<br/><br/>A, C, and D miss the central point by defending the UNESCO honor itself, introducing unrelated benefits, or crediting chefs respectively.<br/><br/>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

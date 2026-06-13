@@ -1,1 +1,15 @@
-{"questionId":"4989a736-d8cf-4f22-b057-f6543b77d0fd_25","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The student must both explain Kepler&apos;s first law (orbits are elliptical) and provide a concrete example that demonstrates the elliptical principle &mdash; not orbital period, distance, or anything else."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'cites Umbriel&apos;s elliptical orbit as the example'</strong>: Explains that the law applies to natural satellites and uses Umbriel&apos;s elliptical orbit to demonstrate the elliptical principle directly. &#10003;</li><li><strong>Choice B &mdash; 'provides a generic example'</strong>: Mentions an orbit but doesn&apos;t clarify that it is elliptical &mdash; too vague to demonstrate the law&apos;s core claim. &#10007;</li><li><strong>Choice C &mdash; 'provides no example'</strong>: States the law but gives nothing concrete to illustrate it. &#10007;</li><li><strong>Choice D &mdash; 'uses orbital period as the example'</strong>: Orbital period is unrelated to orbital shape &mdash; the law is about ellipses, not timing. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "4989a736-d8cf-4f22-b057-f6543b77d0fd_25",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The student must both explain Kepler&apos;s first law (orbits are elliptical) and provide a concrete example that demonstrates the elliptical principle &mdash; not orbital period, distance, or anything else."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — Umbriel's orbit of Uranus is elliptical, demonstrating Kepler's first law of planetary motion, which describes the elliptical orbits of planets but applies to moons as well.</strong>: Explains that the law applies to natural satellites and uses Umbriel&apos;s elliptical orbit to demonstrate the elliptical principle directly. &#10003;</li><li><strong>Choice B — Kepler's first law of planetary motion states that the orbit of a planet around the Sun is an ellipse; for example, planetary satellites orbit their planets in an elliptical fashion.</strong>: Mentions an orbit but doesn&apos;t clarify that it is elliptical &mdash; too vague to demonstrate the law&apos;s core claim. &#10007;</li><li><strong>Choice C — Kepler's first law of planetary motion, which describes the orbits of Uranus and other planets in the solar system, states that the object being orbited is one of the ellipse's foci.</strong>: States the law but gives nothing concrete to illustrate it. &#10007;</li><li><strong>Choice D — Uranus's moon Umbriel completes an orbit in 4.14 Earth days on average, a clear example of Kepler's first law of planetary motion, which describes the elliptical orbit of planets.</strong>: Orbital period is unrelated to orbital shape &mdash; the law is about ellipses, not timing. &#10007;</li></ul><strong>A</strong> is correct."
+    }
+  ]
+}

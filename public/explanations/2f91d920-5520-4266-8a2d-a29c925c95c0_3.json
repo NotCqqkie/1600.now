@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Find the exponential pattern",
-      "content": "Use the exponential form $h(x)=ab^x$. The table shows $h(0)=1.25$, so $a=1.25$. Since $h(2)=1.80$, the multiplier must satisfy $$1.25b^2=1.80.$$ This gives $b^2=1.44$, so $b=1.20$.",
+      "content": "Use the exponential form $h(x)=a\\cdot b^x$. The table shows $h(0)=1.25$, so $a=1.25$. Since $h(2)=1.80$, the multiplier must satisfy $$1.25b^2=1.80.$$ This gives $b^2=1.44$, so $b=1.20$.",
       "desmosExpressions": [
         "x_1=[0,2]",
         "y_1=[1.25,1.80]",
@@ -18,7 +18,7 @@
     },
     {
       "title": "Check each choice",
-      "content": "<ul><li>Choice A: $1.20(0.25)^x$ has the wrong initial value and the base $0.25 \\lt 1$ would shrink the heights instead of growing them. Eliminated.</li><li>Choice B: $1.20(1.25)^x$ has the wrong initial value $1.20$ at $x = 0$. Eliminated.</li><li>Choice C: $1.25(0.20)^x$ starts at the right value but the base $0.20$ would make heights collapse toward zero. Eliminated.</li><li>Choice D: $1.25(1.20)^x$ gives $h(0) = 1.25$ and $h(2) = 1.25(1.44) = 1.80$, matching the table. Matches.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.",
+      "content": "<ul><li>$h(x) = 1.20(0.25)^x$ has the wrong initial value and the base $0.25 \\lt 1$ would shrink the heights instead of growing them. Eliminated.</li><li>$h(x) = 1.20(1.25)^x$ has the wrong initial value $1.20$ at $x = 0$. Eliminated.</li><li>$h(x) = 1.25(0.20)^x$ starts at the right value but the base $0.20$ would make heights collapse toward zero. Eliminated.</li><li>The matching choice: $h(x) = 1.25(1.20)^x$ gives $h(0) = 1.25$ and $h(2) = 1.25(1.44) = 1.80$, matching the table. Matches.</li></ul><strong>D</strong> is correct.",
       "desmosExpressions": [
         "y=1.25(1.20)^x\\{x\\le4\\}"
       ]

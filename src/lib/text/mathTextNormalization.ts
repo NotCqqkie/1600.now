@@ -15,15 +15,25 @@ export const isLikelyInlineMath = (candidate: string): boolean => {
   if (/\\[A-Za-z]+/.test(trimmed)) return true;
   if (/[\\^_{}]/.test(trimmed)) return true;
   if (/[π√∠△°·×÷≤≥≠≈±−²³]/.test(trimmed)) return true;
+  const hasOperator = /[=<>+*/·×÷]/.test(trimmed);
+  const hasCommonProseWord = /\b(?:and|or|the|of|to|for|in|is|are|was|were|because|choice|correct|incorrect|where|when|with|as|by|from|that|this|then|therefore)\b/i.test(trimmed);
+  if (
+    hasOperator &&
+    !hasCommonProseWord &&
+    /^[A-Za-z0-9\s+\-−=<>*/·×÷().,^_{}\\]+$/.test(trimmed)
+  ) {
+    return true;
+  }
   const proseCandidate = trimmed.replace(/\\[A-Za-z]+/g, " ");
   const proseWords = proseCandidate.match(/[A-Za-z]{3,}/g) ?? [];
   if (proseWords.length >= 2) return false;
+  if (hasOperator) return true;
 
   if (/^\(?\s*[+\-−]\s*\)?$/.test(trimmed)) return true;
-  if (/[=<>+*/·×÷]/.test(trimmed)) return true;
   if (/^[+\-−]\s*\d[\d.,]*$/.test(trimmed)) return true;
   if (/^[+\-−]\s*[A-Za-z][A-Za-z0-9]*$/.test(trimmed)) return true;
   if (/(^|[^A-Za-z])-(?=\d|[A-Za-z(])/.test(trimmed)) return true;
+  if (/^\d+(?:\.\d+)?\s*[A-Za-z][A-Za-z0-9]{0,3}$/.test(trimmed)) return true;
 
   if (/^\d[\d.,]*$/.test(trimmed)) return true;
   if (/^[-+]?\.\d[\d,]*$/.test(trimmed)) return true;
@@ -203,7 +213,6 @@ const normalizeAsteriskWrappedMath = (content: string): string => {
     /\*\s*([A-Za-z]+)\s*\*\*\s*\*/g,
     (_, variable: string) => `$${variable}$`,
   );
-  normalized = normalized.replace(/\*\s*(in [^*]+?)\s*\*/gi, "$1");
   normalized = normalized.replace(
     /\*\s*([A-Za-z])\s*\*\s*(hours?|days?|seconds?|minutes?|months?|years?)\b/gi,
     (_, variable: string, unit: string) => `$${variable}$ ${unit}`,
@@ -226,7 +235,13 @@ const normalizeAsteriskWrappedMath = (content: string): string => {
       .trim()
       .replace(/\s+/g, " ");
 
+    if (/^[A-Za-z][A-Za-z\s.'()-]*$/.test(candidate) && /[A-Za-z]{5,}/.test(candidate)) {
+      return match;
+    }
     if (!candidate || !isLikelyInlineMath(candidate)) {
+      return match;
+    }
+    if (/^[A-Za-z][A-Za-z.'-]*$/.test(candidate) && !/^(?:xy|pi)$/i.test(candidate)) {
       return match;
     }
 

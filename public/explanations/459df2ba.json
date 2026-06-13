@@ -1,1 +1,15 @@
-{"questionId": "459df2ba", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the scope difference", "content": "Fodor's theory limits modularity to certain cognitive systems (specifically low-level, excluding reasoning), while Carruthers's MMH extends it to all cognitive systems — the core signal is the difference in scope."}, {"title": "Match the scope contrast", "content": "A directly uses “some but not all” to describe Fodor's theory and emphasizes MMH's greater “expansiveness” — capturing the scope difference from the notes.<br/><br/>The other three choices either wrongly suggest sequential causation, falsely claim the theories differ where they agree, or misidentify the basis of disagreement.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "459df2ba",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the scope difference",
+      "content": "Fodor's theory limits modularity to certain cognitive systems (specifically low-level, excluding reasoning), while Carruthers's MMH extends it to all cognitive systems — the core signal is the difference in scope."
+    },
+    {
+      "title": "Match the scope contrast",
+      "content": "A directly uses “some but not all” to describe Fodor's theory and emphasizes MMH's greater “expansiveness” — capturing the scope difference from the notes.<br/><br/>The other three choices either wrongly suggest sequential causation, falsely claim the theories differ where they agree, or misidentify the basis of disagreement.<br/><br/><strong>A</strong> is correct."
+    }
+  ]
+}

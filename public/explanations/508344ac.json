@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice <strong>B</strong> is correct. Choice D forgets to multiply $15$ by $16$, and choices A and C use incorrect constant terms."
+      "content": "<strong>B</strong> is correct. Forgetting to multiply $15$ by $16$ or using a different constant term would not preserve the distributive property applied to both terms."
     }
   ]
 }

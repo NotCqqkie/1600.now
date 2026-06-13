@@ -13,7 +13,7 @@
     },
     {
       "title": "Answer",
-      "content": "<strong>300</strong> is correct."
+      "content": "The doubling time is the amount of time that makes the population change from $8000$ to $16000$. Since $t=300$ makes the exponent $1$, the factor is $2^1=2$, so the population doubles after <strong>300</strong> minutes."
     }
   ]
 }

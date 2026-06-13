@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the cylinder volume formula",
-      "content": "Substitute $r = 4$ and $h = 12$ into the cylinder volume formula:<br/>$$V = \\pi \\cdot 4^2 \\cdot 12 = \\pi \\cdot 16 \\cdot 12 = 192\\pi$$<br/>That matches choice C — <strong>C</strong> is correct.",
+      "content": "Substitute $r = 4$ and $h = 12$ into the cylinder volume formula:<br/>$$V = \\pi \\cdot 4^2 \\cdot 12 = \\pi \\cdot 16 \\cdot 12 = 192\\pi$$<br/>That is the correct answer.",
       "formula": "$$V = \\pi r^2 h$$"
     }
   ]

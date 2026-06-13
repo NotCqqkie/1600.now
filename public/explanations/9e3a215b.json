@@ -1,1 +1,15 @@
-{"questionId":"9e3a215b","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"This is a transitions question. The first sentence makes a broad claim: a 2022 study investigated the relationship between nonprofits&rsquo; spending and performance. The second sentence narrows in on exactly how &mdash; specifying which metrics (overhead spending, event attendance) and how many organizations (22,328) were studied. The blank must signal that precise details follow."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;Thus,&rsquo;</strong>: Signals a result or consequence. The methodology described in the second sentence is not a consequence of the study&rsquo;s existence; it is the study&rsquo;s method. &#10007;</li><li><strong>Choice B &mdash; &lsquo;In addition,&rsquo;</strong>: Signals an additional, separate point. The second sentence does not add a new idea &mdash; it elaborates on the same claim with specifics. &#10007;</li><li><strong>Choice C &mdash; &lsquo;By comparison,&rsquo;</strong>: Signals a contrast between two things being measured against each other. There is nothing to compare here &mdash; the second sentence specifies the first. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Specifically,&rsquo;</strong>: Signals that precise details follow a general statement. The second sentence gives the exact metrics and sample size, directly specifying what &ldquo;spending and performance&rdquo; means in practice. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "9e3a215b",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a transitions question. The first sentence makes a broad claim: a 2022 study investigated the relationship between nonprofits&rsquo; spending and performance. The second sentence narrows in on exactly how &mdash; specifying which metrics (overhead spending, event attendance) and how many organizations (22,328) were studied. The blank must signal that precise details follow."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Thus,</strong>: Signals a result or consequence. The methodology described in the second sentence is not a consequence of the study&rsquo;s existence; it is the study&rsquo;s method. &#10007;</li><li><strong>Choice B &mdash; In addition,</strong>: Signals an additional, separate point. The second sentence does not add a new idea &mdash; it elaborates on the same claim with specifics. &#10007;</li><li><strong>Choice C &mdash; By comparison,</strong>: Signals a contrast between two things being measured against each other. There is nothing to compare here &mdash; the second sentence specifies the first. &#10007;</li><li><strong>Choice D &mdash; Specifically,</strong>: Signals that precise details follow a general statement. The second sentence gives the exact metrics and sample size, directly specifying what &ldquo;spending and performance&rdquo; means in practice. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

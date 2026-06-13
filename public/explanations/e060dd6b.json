@@ -1,1 +1,15 @@
-{"questionId": "e060dd6b", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what noun should follow the comma", "content": "After “Recordings of electrical activity in the brain,” the comma signals a new noun phrase is coming. Since the sentence should express what the recordings show, that noun must be the recordings themselves (here called “electrograms”), and it will be the subject of the main clause."}, {"title": "Find the choice where electrograms is the subject of the main verb", "content": "A makes “electrograms” the subject of “show,” correctly reporting what the recordings reveal about the soccer players' brains.<br/><br/>B makes “soccer players” the subject after the comma (disconnecting it from the opening phrase), C and D make “responses” the subject, both disrupting the intended structure and meaning.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "e060dd6b",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what noun should follow the comma",
+      "content": "After “Recordings of electrical activity in the brain,” the comma signals a new noun phrase is coming. Since the sentence should express what the recordings show, that noun must be the recordings themselves (here called “electrograms”), and it will be the subject of the main clause."
+    },
+    {
+      "title": "Find the choice where electrograms is the subject of the main verb",
+      "content": "A makes “electrograms” the subject of “show,” correctly reporting what the recordings reveal about the soccer players' brains.<br/><br/>B makes “soccer players” the subject after the comma (disconnecting it from the opening phrase), C and D make “responses” the subject, both disrupting the intended structure and meaning.<br/><br/>That matches the correct answer — <strong>A</strong> is correct."
+    }
+  ]
+}

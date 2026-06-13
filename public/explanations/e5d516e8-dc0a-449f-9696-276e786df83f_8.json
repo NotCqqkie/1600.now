@@ -9,7 +9,7 @@
     },
     {
       "title": "Evaluate at x=0 to find initial height",
-      "content": "Substitute $ x=0 $ into the function:<br/>$$ f(0)=8\\cdot0+4=4 $$<br/>Thus the estimated height at the time of first measurement is 4 feet.<br/>That matches choice D — <strong>D</strong> is correct."
+      "content": "Substitute $ x=0 $ into the function:<br/>$$ f(0)=8\\cdot0+4=4 $$<br/>Thus the estimated height at the time of first measurement is 4 feet.<br/>That matches the correct answer — <strong>D</strong> is correct."
     }
   ]
 }

@@ -9,11 +9,11 @@
     },
     {
       "title": "Match the output list",
-      "content": "The matching y-values are $8$, $148$, and $288$. Choice A is the only table with those outputs for $x=0$, $2$, and $4$."
+      "content": "The matching y-values are $8$, $148$, and $288$. The correct table is the only table with those outputs for $x=0$, $2$, and $4$."
     },
     {
       "title": "Confirm the answer",
-      "content": "Because choice A matches the whole output list, choice <strong>A</strong> is correct."
+      "content": "Because the table with outputs $8$, $148$, and $288$ matches the whole output list, it is correct."
     }
   ]
 }

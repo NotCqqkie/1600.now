@@ -1,1 +1,15 @@
-{"questionId":"a333c1fd-7b95-4086-a9bf-1d7c8b137d23_9","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage says that while most countries saw an increase in women judges, some countries saw the number decrease or remain unchanged. The blank needs specific country examples that show one or both of those patterns between 2009 and 2013."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Slovenia and Finland'</strong>: Slovenia increased from 4 to 6, which contradicts the blank's requirement. &#10007;</li><li><strong>Choice B &mdash; 'Slovenia and the Dominican Republic'</strong>: Slovenia increased, so this choice includes a country that doesn't fit. &#10007;</li><li><strong>Choice C &mdash; 'Finland and Slovenia'</strong>: Again includes Slovenia, whose number rose. &#10007;</li><li><strong>Choice D &mdash; 'the Dominican Republic and Finland'</strong>: The Dominican Republic dropped from 5 to 4 (decreased) and Finland held steady at 8 (unchanged) — both fit the required patterns. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_9",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage says that while most countries saw an increase in women judges, some countries saw the number decrease or remain unchanged. The blank needs specific country examples that show one or both of those patterns between 2009 and 2013."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Slovenia was greater in 2013 than in 2009, whereas the number in the Dominican Republic was lower in 2013 than in 2009.</strong>: Slovenia increased from 4 to 6, which contradicts the blank's requirement. &#10007;</li><li><strong>Choice B &mdash; Slovenia was greater in 2013 than in 2009, whereas the number in Finland was the same in 2013 as in 2009.</strong>: Slovenia increased, so this choice includes a country that doesn't fit. &#10007;</li><li><strong>Choice C &mdash; Finland was the same in 2013 as in 2009, but it had more women on its high courts than either Slovenia or the Dominican Republic did in 2013.</strong>: Again includes Slovenia, whose number rose. &#10007;</li><li><strong>Choice D &mdash; the Dominican Republic was lower in 2013 than in 2009, whereas the number in Finland was the same in 2013 as in 2009.</strong>: The Dominican Republic dropped from 5 to 4 (decreased) and Finland held steady at 8 (unchanged) — both fit the required patterns. &#10003;</li></ul>That is the correct answer."
+    }
+  ]
+}

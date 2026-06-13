@@ -17,7 +17,7 @@
     },
     {
       "title": "Evaluate all choices",
-      "content": "<ul><li><strong>Choice A &mdash; 'Exactly one'</strong>: The variable cancels completely, so there is no unique solution. &#10007;</li><li><strong>Choice B &mdash; 'Exactly two'</strong>: A linear equation cannot have exactly two solutions. &#10007;</li><li><strong>Choice C &mdash; 'Infinitely many'</strong>: The equation is an identity; every real number satisfies it. &#10003;</li><li><strong>Choice D &mdash; 'Zero'</strong>: Zero solutions would require a contradiction like $0 = 1$; instead we get $0 = 0$. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+      "content": "<ul><li><strong>Choice A — Exactly one</strong>: The variable cancels completely, so there is no unique solution. &#10007;</li><li><strong>Choice B — Exactly two</strong>: A linear equation cannot have exactly two solutions. &#10007;</li><li><strong>Choice C — Infinitely many</strong>: The equation is an identity; every real number satisfies it. &#10003;</li><li><strong>Choice D — Zero</strong>: Zero solutions would require a contradiction like $0 = 1$; instead we get $0 = 0$. &#10007;</li></ul><strong>C</strong> is correct."
     }
   ]
 }

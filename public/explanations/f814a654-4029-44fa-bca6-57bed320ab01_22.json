@@ -1,1 +1,15 @@
-{"questionId":"f814a654-4029-44fa-bca6-57bed320ab01_22","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage states &quot;Most solar eclipses from long ago have been forgotten, but not all.&quot; The next sentence must introduce a specific eclipse as evidence of the exception. The transition word must signal a concrete example."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Next'</strong>: signals a chronological sequence, not an illustrative example. &#10007;</li><li><strong>Choice B &mdash; 'Regardless'</strong>: signals dismissal of a prior point — the opposite of building on it. &#10007;</li><li><strong>Choice C &mdash; 'For example'</strong>: directly introduces a specific instance that proves the &quot;but not all&quot; claim. &#10003;</li><li><strong>Choice D &mdash; 'In summary'</strong>: signals a conclusion, not an example. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "f814a654-4029-44fa-bca6-57bed320ab01_22",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage states \"Most solar eclipses from long ago have been forgotten, but not all.\" The next sentence must introduce a specific eclipse as evidence of the exception. The transition word must signal a concrete example."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"Next,\"</strong>: signals a chronological sequence, not an illustrative example. &#10007;</li><li><strong>\"Regardless,\"</strong>: signals dismissal of a prior point — the opposite of building on it. &#10007;</li><li><strong>\"For example,\"</strong>: directly introduces a specific instance that proves the \"but not all\" claim. &#10003;</li><li><strong>\"In summary,\"</strong>: signals a conclusion, not an example. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+    }
+  ]
+}

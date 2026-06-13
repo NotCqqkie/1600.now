@@ -13,7 +13,7 @@
     },
     {
       "title": "Check each choice",
-      "content": "<ul><li>A ($x = \\frac{by - 22}{y}$): only the $b$ term was multiplied by $y$, leaving an unsimplified fraction &mdash; not equivalent.</li><li>B ($x = by - 22$): forgets to multiply the $-22$ by $y$.</li><li>C ($x = by - 22y$): exactly matches the distributed form.</li><li>D ($x = \\frac{b - 22}{y}$): divides by $y$ instead of multiplying.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+      "content": "<ul><li>A ($x = \\frac{by - 22}{y}$): only the $b$ term was multiplied by $y$, leaving an unsimplified fraction &mdash; not equivalent.</li><li>B ($x = by - 22$): forgets to multiply the $-22$ by $y$.</li><li>C ($x = by - 22y$): exactly matches the distributed form.</li><li>D ($x = \\frac{b - 22}{y}$): divides by $y$ instead of multiplying.</li></ul>That matches <strong>Choice C &mdash; $x = by - 22y$</strong>."
     }
   ]
 }

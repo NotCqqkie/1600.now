@@ -1,1 +1,15 @@
-{"questionId": "3fc06a91", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find when the countries diverge most starkly", "content": "The passage asserts the transition happened at “very different rates”—to support this claim with evidence, we need a year where France and the US are at markedly different stages of the same shift from agriculture to services."}, {"title": "Match the data to the argument", "content": "By 1950, the divergence is unmistakable: the US had reached just 14% agriculture and 53% services, while France lingered at 32% agriculture and 35% services—clear proof of a much faster US transition.<br/><br/>The other three years fail to reveal this: 1800 and 1900 show both countries at similar transition stages, while 2012 shows them nearly converged.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "3fc06a91",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find when the countries diverge most starkly",
+      "content": "The passage asserts the transition happened at “very different rates”—to support this claim with evidence, we need a year where France and the US are at markedly different stages of the same shift from agriculture to services."
+    },
+    {
+      "title": "Match the data to the argument",
+      "content": "By 1950, the divergence is unmistakable: the US had reached just 14% agriculture and 53% services, while France lingered at 32% agriculture and 35% services—clear proof of a much faster US transition.<br/><br/>The other three years fail to reveal this: 1800 and 1900 show both countries at similar transition stages, while 2012 shows them nearly converged.<br/><br/><strong>A</strong> is correct."
+    }
+  ]
+}

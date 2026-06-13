@@ -1,1 +1,15 @@
-{"questionId":"4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_21","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank follows a date within a relative clause. The next clause &mdash; 'Page&apos;s only model had been suspiciously destroyed' &mdash; is a complete independent clause. The blank must create a legal sentence boundary between the relative clause and that independent clause."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; '1906,'</strong>: a comma alone between an independent clause and another independent clause is a comma splice. &#10007;</li><li><strong>Choice B &mdash; '1906;'</strong>: a semicolon here misplaces the punctuation mid-relative-clause, creating a fragment before it and a run-on after. &#10007;</li><li><strong>Choice C &mdash; '1906, roughly six weeks earlier,'</strong>: the comma after &apos;earlier&apos; still leaves a comma splice between the relative clause and the independent clause that follows. &#10007;</li><li><strong>Choice D &mdash; '1906&mdash;roughly six weeks earlier.'</strong>: the em dashes set off &apos;roughly six weeks earlier&apos; as a parenthetical, and the period creates a full sentence boundary so &apos;Page&apos;s only model had been&hellip;&apos; begins a new, complete sentence. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_21",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank follows a date within a relative clause. The next clause &mdash; 'Page&apos;s only model had been suspiciously destroyed' &mdash; is a complete independent clause. The blank must create a legal sentence boundary between the relative clause and that independent clause."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — 1906—roughly six weeks earlier—Page's</strong>: a comma alone between an independent clause and another independent clause is a comma splice. &#10007;</li><li><strong>Choice B — 1906. Roughly six weeks earlier, Page's</strong>: a semicolon here misplaces the punctuation mid-relative-clause, creating a fragment before it and a run-on after. &#10007;</li><li><strong>Choice C — roughly six weeks earlier, Page's</strong>: the comma after &apos;earlier&apos; still leaves a comma splice between the relative clause and the independent clause that follows. &#10007;</li><li><strong>Choice D — 1906—roughly six weeks earlier. Page's</strong>: the em dashes set off &apos;roughly six weeks earlier&apos; as a parenthetical, and the period creates a full sentence boundary so &apos;Page&apos;s only model had been&hellip;&apos; begins a new, complete sentence. &#10003;</li></ul><strong>D</strong> is correct."
+    }
+  ]
+}

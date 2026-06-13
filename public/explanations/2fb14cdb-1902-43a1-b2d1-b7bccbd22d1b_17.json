@@ -9,14 +9,14 @@
     },
     {
       "title": "Compare the choice lists",
-      "content": "Now evaluate the matching choice form with the same $x$-list. Choice A gives the same output list as the original for several values, while B, C, and D do not.",
+      "content": "Now evaluate the matching choice form with the same $x$-list. The correct answer gives the same output list as the original for several values, while B, C, and D do not.",
       "desmosExpressions": [
         "x_1=[-2,0,1,3]"
       ]
     },
     {
       "title": "Confirm the answer",
-      "content": "Since choice A matches the original expression for multiple input values after using a legal positive value of $b$, it is the equivalent form. Choice <strong>A</strong> is correct."
+      "content": "Since the expression matches the original expression for multiple input values after using a legal positive value of $b$, it is the equivalent form. <strong>A</strong> is correct."
     }
   ]
 }

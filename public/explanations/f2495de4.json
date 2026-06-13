@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice C is correct. Choice A is $\\sin(\\pi/6)$, choice B is $\\cos(0)$, and choice D is too large for a cosine value.",
+      "content": "$\\frac{\\sqrt{3}}{2}$ is correct. $\\frac{1}{2}$ is $\\sin(\\pi/6)$, $1$ is $\\cos(0)$, and $\\sqrt{3}$ is too large for a cosine value. The reference angle after reducing is exactly $\\pi/6$.",
       "desmosExpressions": [
         "\\cos\\left(565\\pi/6\\right)"
       ]

@@ -9,7 +9,7 @@
     },
     {
       "title": "Calculate the volume",
-      "content": "Substitute $r = 10$ and $h = 6$ into the cylinder volume formula:<br/>$$V = \\pi(10)^2(6) = \\pi \\cdot 100 \\cdot 6 = 600\\pi \\text{ cubic meters}$$<br/>That matches choice C — <strong>C</strong> is correct.",
+      "content": "Substitute $r = 10$ and $h = 6$ into the cylinder volume formula:<br/>$$V = \\pi(10)^2(6) = \\pi \\cdot 100 \\cdot 6 = 600\\pi \\text{ cubic meters}$$<br/>That matches the correct answer — <strong>C</strong> is correct.",
       "formula": "$$V = \\pi r^2 h$$"
     }
   ]

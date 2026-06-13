@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice A is correct. Choice B would come from using $x=-1$, and choices C and D have the wrong sign. The negative input makes $3x$ negative before subtracting another $7$."
+      "content": "$-13$ is correct. $-10$ would come from using $x=-1$, and the positive values $10$ and $13$ have the wrong sign. The negative input makes $3x$ negative before subtracting another $7$."
     }
   ]
 }

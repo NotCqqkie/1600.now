@@ -1,1 +1,15 @@
-{"questionId":"a226962a-9c3e-4022-aee4-7a2796cbe032_12","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage claims snowball sampling <strong>may be superior</strong> to purposive sampling for recruiting participants with the desired characteristics. Supporting evidence must show snowball sampling outperforming purposive sampling at that specific task."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; both methods recruited similar numbers'</strong>: Equal results show no superiority for either method. &#10007;</li><li><strong>Choice B &mdash; snowball recruited participants without the desired characteristics'</strong>: Shows snowball selecting the wrong people, which argues against its superiority. &#10007;</li><li><strong>Choice C &mdash; snowball yielded significantly more participants with the desired characteristics than purposive did'</strong>: A direct head-to-head comparison showing snowball recruits more qualifying participants &mdash; exactly what &apos;superior&apos; means here. &#10003;</li><li><strong>Choice D &mdash; focuses on an irrelevant attribute unrelated to desired characteristics'</strong>: Does not compare the methods on the relevant outcome. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "a226962a-9c3e-4022-aee4-7a2796cbe032_12",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage claims snowball sampling <strong>may be superior</strong> to purposive sampling for recruiting participants with the desired characteristics. Supporting evidence must show snowball sampling outperforming purposive sampling at that specific task."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Most participants recruited through snowball sampling had different characteristics than the initial participants who recruited them.</strong>: Equal results show no superiority for either method. &#10007;</li><li><strong>Choice B &mdash; Participants recruited through snowball sampling were more likely to have taken part in previous studies than were participants recruited through purposive sampling.</strong>: Shows snowball selecting the wrong people, which argues against its superiority. &#10007;</li><li><strong>Choice C &mdash; Snowball sampling yielded significantly more participants with the desired characteristics than purposive sampling did.</strong>: A direct head-to-head comparison showing snowball recruits more qualifying participants &mdash; exactly what &apos;superior&apos; means here. &#10003;</li><li><strong>Choice D &mdash; Snowball sampling yielded significantly more participants than would be expected if researchers contacted people without regard to those people's characteristics.</strong>: Does not compare the methods on the relevant outcome. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Solve the system by substitution",
-      "content": "Substitute $y = 3x + 9$ into $3y = 8x - 6$: $3(3x+9) = 8x-6$, so $9x + 27 = 8x - 6$, giving $x = -33$."
+      "content": "The first equation already gives $y$ in terms of $x$, so substitution is the fastest path. Substitute $y = 3x + 9$ into $3y = 8x - 6$: ${3}(3x+9) = 8x-6$, so $9x + 27 = 8x - 6$, giving $x = -33$."
     },
     {
       "title": "Find $x - y$",
-      "content": "$y = 3(-33) + 9 = -90$. So $x - y = -33 - (-90) = 57$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."
+      "content": "$y = 3(-33) + 9 = -90$. So $x - y = -33 - (-90) = 57$. That confirms <strong>D</strong> is correct."
     }
   ]
 }

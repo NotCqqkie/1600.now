@@ -1,1 +1,15 @@
-{"questionId": "087850e1-8e84-43f3-a3da-7bbac01f151f_21", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the subject and what the blank requires", "content": "The subject is <em>&ldquo;Each of these republics.&rdquo;</em> The word <em>each</em> is always singular regardless of the plural noun that follows. The blank is an auxiliary verb paired with the past participle &ldquo;established,&rdquo; and the historical context (past tense throughout) demands past tense."}, {"title": "Eliminate wrong choices and confirm the answer", "content": "<ul><li><strong>Choice A &mdash; 'have been'</strong>: Plural and present-perfect &mdash; wrong number and wrong tense for a singular subject in a historical context. &#10007;</li><li><strong>Choice B &mdash; 'are'</strong>: Present tense, but the passage describes a historical situation (the Soviet-era republics). &#10007;</li><li><strong>Choice C &mdash; 'were'</strong>: Past tense but plural &mdash; &ldquo;were&rdquo; does not agree with the singular subject &ldquo;each.&rdquo; &#10007;</li><li><strong>Choice D &mdash; 'was'</strong>: Singular and past tense &mdash; agrees with &ldquo;each&rdquo; and matches the historical context of the passage. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "087850e1-8e84-43f3-a3da-7bbac01f151f_21",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the subject and what the blank requires",
+      "content": "The subject is <em>&ldquo;Each of these republics.&rdquo;</em> The word <em>each</em> is always singular regardless of the plural noun that follows. The blank is an auxiliary verb paired with the past participle &ldquo;established,&rdquo; and the historical context (past tense throughout) demands past tense."
+    },
+    {
+      "title": "Eliminate wrong choices and confirm the answer",
+      "content": "<ul><li><strong>Choice A &mdash; have been</strong>: Plural and present-perfect &mdash; wrong number and wrong tense for a singular subject in a historical context. &#10007;</li><li><strong>Choice B &mdash; are</strong>: Present tense, but the passage describes a historical situation (the Soviet-era republics). &#10007;</li><li><strong>Choice C &mdash; were</strong>: Past tense but plural &mdash; &ldquo;were&rdquo; does not agree with the singular subject &ldquo;each.&rdquo; &#10007;</li><li><strong>Choice D &mdash; was</strong>: Singular and past tense &mdash; agrees with &ldquo;each&rdquo; and matches the historical context of the passage. &#10003;</li></ul>That matches <strong>Choice D &mdash; was</strong>."
+    }
+  ]
+}

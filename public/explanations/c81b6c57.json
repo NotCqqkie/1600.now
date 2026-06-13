@@ -17,7 +17,7 @@
     },
     {
       "title": "Choose the answer",
-      "content": "$p=7$ matches choice <strong>B</strong>. A quick coefficient check gives $-13(7)-64=-155$, exactly the target $x$-coefficient."
+      "content": "$p=7$ matches <strong>B</strong>. A quick coefficient check gives $-13(7)-64=-155$, exactly the target $x$-coefficient."
     }
   ]
 }

@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li>Choice A: $(x-14)^2+(y-19)^2=49k$ &mdash; uses $49k$ instead of $(7k)^2 = 49k^2$. Incorrect.</li><li>Choice B: $(x-14)^2+(y-19)^2=49k^2$ &mdash; matches $(7k)^2 = 49k^2$ exactly. Correct.</li><li>Choice C: $(x-14)^2+(y-19)^2=7k$ &mdash; uses the radius, not its square. Incorrect.</li><li>Choice D: $(x-14)^2+(y-19)^2=7k^2$ &mdash; only squares $k$, not the full radius $7k$. Incorrect.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "<ul><li>Choice A: $(x-14)^2+(y-19)^2=49k$ &mdash; uses $49k$ instead of $(7k)^2 = 49k^2$. Incorrect.</li><li>Choice B: $(x-14)^2+(y-19)^2=49k^2$ &mdash; matches $(7k)^2 = 49k^2$ exactly. Correct.</li><li>Choice C: $(x-14)^2+(y-19)^2=7k$ &mdash; uses the radius, not its square. Incorrect.</li><li>Choice D: $(x-14)^2+(y-19)^2=7k^2$ &mdash; only squares $k$, not the full radius $7k$. Incorrect.</li></ul>That matches <strong>Choice B &mdash; $(x-14)^2+(y-19)^2=49k^2$</strong>."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId": "d7dccee7", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the contrast the passage is making", "content": "The phrase “may not be limited to ______ behaviors” signals that the passage is arguing these organisms do more than [what kind of] behavior.<br/><br/>The context is single-celled organisms with stereotypical constraints, so the blank must name the kind of simple, basic behavior we'd normally assume they're restricted to."}, {"title": "Name the stereotypical limitation", "content": "The target meaning is “simple, elementary, or basic behaviors.” “Rudimentary” precisely expresses this—it means fundamental or basic.<br/><br/>The organism's demonstrated strategy-switching contradicts the assumption that it's limited to such simple behaviors.<br/><br/>The other three describe different behavioral aspects unrelated to complexity.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "d7dccee7",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the contrast the passage is making",
+      "content": "The phrase “may not be limited to ______ behaviors” signals that the passage is arguing these organisms do more than [what kind of] behavior.<br/><br/>The context is single-celled organisms with stereotypical constraints, so the blank must name the kind of simple, basic behavior we'd normally assume they're restricted to."
+    },
+    {
+      "title": "Name the stereotypical limitation",
+      "content": "The target meaning is “simple, elementary, or basic behaviors.” “Rudimentary” precisely expresses this—it means fundamental or basic.<br/><br/>The organism's demonstrated strategy-switching contradicts the assumption that it's limited to such simple behaviors.<br/><br/>The other three describe different behavioral aspects unrelated to complexity.<br/><br/>That matches the correct answer — <strong>B</strong> is correct."
+    }
+  ]
+}

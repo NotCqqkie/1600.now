@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Apply the multiplier from the given condition",
-      "content": "Multiply both sides by $3$: $3(9x+4) = 3 \\cdot 32$."
+      "content": "Multiply both sides by $3$: ${3}(9x+4) = 3 \\cdot 32$."
     },
     {
       "title": "Compute the target value",
-      "content": "So $3(9x+4) = 96$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."
+      "content": "So ${3}(9x+4) = 96$. That confirms <strong>B</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice B, 96. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches the correct answer, 96. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
     }
   ]
 }

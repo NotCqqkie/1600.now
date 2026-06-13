@@ -1,1 +1,15 @@
-{"questionId":"406baf08-71da-41c0-bc3d-ddc2c25258ba_18","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank follows \"in several ___ exchanging information...\" and must connect \"several ways\" to a list of three parallel by-phrases. The punctuation must introduce a list after a complete independent clause."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'ways. By'</strong>: The period ends the sentence, leaving \"By exchanging information, linking maps, and maintaining a database\" as a fragment with no main verb. &#10007;</li><li><strong>Choice B &mdash; 'ways: by'</strong>: The clause before the colon is complete and independent. The colon correctly signals the elaborating list of three by-phrases that follows. &#10003;</li><li><strong>Choice C &mdash; 'ways; by'</strong>: A semicolon must join two independent clauses. What follows is a list of phrases, not an independent clause, so the semicolon is wrong here. &#10007;</li><li><strong>Choice D &mdash; 'ways by:'</strong>: A colon cannot follow a preposition. This is ungrammatical — \"several ways by:\" cannot introduce anything. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "406baf08-71da-41c0-bc3d-ddc2c25258ba_18",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank follows \"in several ___ exchanging information...\" and must connect \"several ways\" to a list of three parallel by-phrases. The punctuation must introduce a list after a complete independent clause."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — ways. By</strong>: The period ends the sentence, leaving \"By exchanging information, linking maps, and maintaining a database\" as a fragment with no main verb. &#10007;</li><li><strong>Choice B — ways: by</strong>: The clause before the colon is complete and independent. The colon correctly signals the elaborating list of three by-phrases that follows. &#10003;</li><li><strong>Choice C — ways; by</strong>: A semicolon must join two independent clauses. What follows is a list of phrases, not an independent clause, so the semicolon is wrong here. &#10007;</li><li><strong>Choice D — ways by:</strong>: A colon cannot follow a preposition. This is ungrammatical — \"several ways by:\" cannot introduce anything. &#10007;</li></ul><strong>B</strong> is correct."
+    }
+  ]
+}

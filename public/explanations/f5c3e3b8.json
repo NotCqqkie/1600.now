@@ -13,7 +13,7 @@
     },
     {
       "title": "Eliminate the other choices",
-      "content": "<ul><li>Choice A ($m^4 q^{20} z^{-3}$): multiplies the $q$ exponents and subtracts $z$ exponents instead of adding &mdash; wrong.</li><li>Choice B ($m^5 q^9 z^2$): exponents $5$, $9$, $2$ match the sums.</li><li>Choice C ($m^6 q^8 z^{-1}$): exponents off by $1$ in each variable &mdash; wrong.</li><li>Choice D ($m^{20} q^{12} z^{-2}$): multiplies exponents instead of adding &mdash; wrong.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "<ul><li><strong>\"${m}^{4}{q}^{20}{z}^{-3}$\"</strong>: Multiplies the $q$ exponents and subtracts $z$ exponents instead of adding &mdash; wrong.</li><li><strong>\"${m}^{5}{q}^{9}{z}^{2}$\"</strong>: Exponents $5$, $9$, $2$ match the sums.</li><li><strong>\"${m}^{6}{q}^{8}{z}^{-1}$\"</strong>: Exponents off by $1$ in each variable &mdash; wrong.</li><li><strong>\"${m}^{20}{q}^{12}{z}^{-2}$\"</strong>: Multiplies exponents instead of adding &mdash; wrong.</li></ul>That matches the correct answer — <strong>B</strong> is correct."
     }
   ]
 }

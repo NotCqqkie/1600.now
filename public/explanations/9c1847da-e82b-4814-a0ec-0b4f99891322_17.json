@@ -9,7 +9,7 @@
     },
     {
       "title": "Sum of roots directly",
-      "content": "Sum $= 3 + 8 = 11$. By Vieta's, the numerator expands to $x^2 - 11x + 24$, confirming sum $= -(-11)/1 = 11$. That matches choice C — <strong>C</strong> is correct."
+      "content": "Sum $= 3 + 8 = 11$. By Vieta's, the numerator expands to $x^2 - 11x + 24$, confirming sum $= -(-11)/1 = 11$. That confirms <strong>C</strong> is correct."
     }
   ]
 }

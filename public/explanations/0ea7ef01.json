@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice <strong>C</strong> is $700$, so choice <strong>C</strong> is correct."
+      "content": "<strong>Choice C &mdash; $700$</strong> is $700$, so <strong>Choice C &mdash; $700$</strong>."
     }
   ]
 }

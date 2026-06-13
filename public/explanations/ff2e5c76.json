@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice D is correct. You do not need to solve the two irrational roots; their radical parts cancel in the sum.",
+      "content": "$40$ is correct. You do not need to solve the two irrational roots; their radical parts cancel in the sum.",
       "desmosExpressions": [
         "y=x^2-40x-10"
       ]

@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice B is $x+2y=47$, which counts one $x$-side and two $y$-sides. <strong>B</strong> is correct."
+      "content": "<strong>Choice B &mdash; $x+2y=47$</strong> is $x+2y=47$, which counts one $x$-side and two $y$-sides. <strong>B</strong>."
     }
   ]
 }

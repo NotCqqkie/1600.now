@@ -1,1 +1,15 @@
-{"questionId":"a45480a1-becb-48bd-a285-d5366355b085_19","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"Both the clause before the blank (&apos;The grammar of the Gujarati language includes several noun cases common to most Indo-Aryan languages&apos;) and the clause after (&apos;the locative case, for instance, indicates that an action is occurring at, on, or near a particular noun&apos;) are independent clauses. Find the punctuation that joins them correctly."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; comma only</strong>: joining two independent clauses with only a comma is a comma splice &mdash; a grammar error. &#10007;</li><li><strong>Choice B &mdash; comma only (variant)</strong>: same comma-splice error as A. &#10007;</li><li><strong>Choice C &mdash; semicolon</strong>: a semicolon correctly joins two independent clauses without a coordinating conjunction. &#10003;</li><li><strong>Choice D &mdash; semicolon + &apos;such as&apos;</strong>: &apos;such as&apos; introduces examples within a clause, not a new independent clause. Placing it here creates an awkward, ungrammatical construction. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "a45480a1-becb-48bd-a285-d5366355b085_19",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "Both the clause before the blank (&apos;The grammar of the Gujarati language includes several noun cases common to most Indo-Aryan languages&apos;) and the clause after (&apos;the locative case, for instance, indicates that an action is occurring at, on, or near a particular noun&apos;) are independent clauses. Find the punctuation that joins them correctly."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; languages, such as</strong>: joining two independent clauses with only a comma is a comma splice &mdash; a grammar error. &#10007;</li><li><strong>Choice B &mdash; languages,</strong>: same comma-splice error as A. &#10007;</li><li><strong>Choice C &mdash; languages;</strong>: a semicolon correctly joins two independent clauses without a coordinating conjunction. &#10003;</li><li><strong>Choice D &mdash; languages; such as</strong>: &apos;such as&apos; introduces examples within a clause, not a new independent clause. Placing it here creates an awkward, ungrammatical construction. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

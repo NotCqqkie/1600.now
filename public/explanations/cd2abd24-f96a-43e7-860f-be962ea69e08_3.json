@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the answer",
-      "content": "Choice A makes $157$ the monthly growth rate and starts at $0$. Choice B has the right starting length but the wrong monthly growth. Choice C has the right monthly growth but starts at $4.6$ cm. Choice D has growth rate $4.6$ and starting length $157$, so choice <strong>D</strong> is correct."
+      "content": "$y=157x$ makes $157$ the monthly growth rate and starts at $0$. $y=157x+157$ has the right starting length but the wrong monthly growth. $y=4.6x+4.6$ has the right monthly growth but starts at $4.6$ cm. The model $y=4.6x+157$ has growth rate $4.6$ and starting length $157$, so <strong>D</strong> is correct."
     }
   ]
 }

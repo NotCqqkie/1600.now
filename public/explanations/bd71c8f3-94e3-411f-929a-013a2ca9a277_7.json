@@ -13,7 +13,7 @@
     },
     {
       "title": "Check each choice",
-      "content": "<ul><li>A: how long Shruti keeps the plant is not represented in this model.</li><li>B: the monthly growth rate is the coefficient $14$, not $9$.</li><li>C: nothing in $f(t)=14t+9$ caps the length; it grows without bound, so 9 is not a maximum.</li><li>D: $9$ is the length at $t = 0$, i.e., when Shruti purchased the plant.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "content": "<ul><li>A: how long Shruti keeps the plant is not represented in this model.</li><li>B: the monthly growth rate is the coefficient $14$, not $9$.</li><li>C: nothing in $f(t)=14t+9$ caps the length; it grows without bound, so 9 is not a maximum.</li><li>D: $9$ is the length at $t = 0$, i.e., when Shruti purchased the plant.</li></ul>That is the correct answer."
     }
   ]
 }

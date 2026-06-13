@@ -9,11 +9,11 @@
     },
     {
       "title": "Use the two-solution condition",
-      "content": "A quadratic has two distinct real solutions when the expression under the square root in the quadratic formula is positive. For $(n-26)x^2-16x+8=0$, that gives $$(-16)^2-4(n-26)(8)>0.$$ Simplify: $$256-32(n-26)>0$$ $$n\\lt 34.$$"
+      "content": "A quadratic has two distinct real solutions when the expression under the square root in the quadratic formula is positive. For $(n-26)x^2-16x+8=0$, that gives $$(-16)^2-4(n-26)(8)\\gt 0.$$ Simplify: $$256-32(n-26)\\gt 0$$ $$n\\lt 34.$$"
     },
     {
       "title": "Greatest integer n",
-      "content": "The greatest integer satisfying $n\\lt 34$ is $n=33$. That matches choice 33 — <strong>33</strong> is correct."
+      "content": "The greatest integer satisfying $n\\lt 34$ is $n=33$. Therefore <strong>33</strong> is correct."
     }
   ]
 }

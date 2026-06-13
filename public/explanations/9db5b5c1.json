@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice C is correct. Choice B is the negative of the answer, choice D is too large, and choice A is also negative and does not match the sum.",
+      "content": "The answer is $13$. The value $-13$ is the negative of the answer, $27$ is too large, and $-27$ is also negative and does not match the sum.",
       "desmosExpressions": [
         "x=5",
         "-3x+y=-7"

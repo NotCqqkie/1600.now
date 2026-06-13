@@ -77,7 +77,7 @@
     "difficulty": "Easy",
     "question_number": 3,
     "test_name": "Module Source 141 Math M1",
-    "passage": "For a particular tree species, it is recommended to plant a maximum of 111 trees per acre.Based on this recommendation, what is the maximum number of trees of this species that can be planted on 2 acres?",
+    "passage": "For a particular tree species, it is recommended to plant a maximum of 111 trees per acre. Based on this recommendation, what is the maximum number of trees of this species that can be planted on 2 acres?",
     "question_text": null,
     "choices": [
       {
@@ -173,7 +173,7 @@
     "difficulty": "Easy",
     "question_number": 6,
     "test_name": "Module Source 141 Math M1",
-    "passage": "In $△$ JKL, the measures of both $\\angle$J and $\\angle$K are equal and the measure of $\\angle$L is 136°. What is the measure of $\\angle$J?",
+    "passage": "In $\\triangle JKL$, the measures of both $\\angle J$ and $\\angle K$ are equal and the measure of $\\angle L$ is $136^{\\circ}$. What is the measure of $\\angle J$?",
     "question_text": null,
     "choices": [
       {
@@ -321,7 +321,7 @@
     "difficulty": "Medium",
     "question_number": 12,
     "test_name": "Module Source 141 Math M1",
-    "passage": "The cost to rent a bus from Company X is \\$950 for the first 2 hours and an additional \\$50 per hour for each hour after the first 2 hours. If the total cost to rent the bus from Company X for $t$ hours, where $t > 2$, is \\$1,150, which equation represents this situation?",
+    "passage": "The cost to rent a bus from Company X is \\$950 for the first 2 hours and an additional \\$50 per hour for each hour after the first 2 hours. If the total cost to rent the bus from Company X for $t$ hours, where $t \\gt 2$, is \\$1,150, which equation represents this situation?",
     "question_text": null,
     "choices": [
       {

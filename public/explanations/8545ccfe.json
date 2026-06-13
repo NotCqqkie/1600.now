@@ -1,1 +1,19 @@
-{"questionId": "8545ccfe", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the hypothesis requires", "content": "The hypothesis proposes that green icebergs get their color from yellow dissolved organic carbon (DOC) mixing with blue ice. For this to work, green icebergs must have more DOC than blue icebergs &mdash; otherwise DOC cannot explain the color difference."}, {"title": "Look for a finding that breaks that requirement", "content": "Weakening means showing DOC is not the differentiator. If blue and green icebergs contain similar DOC levels, then DOC cannot be what turns one green and leaves the other blue."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; 'White ice doesn&apos;t change color when mixed with dissolved organic carbon'</strong>: this is about white ice, not the blue-ice mechanism the hypothesis depends on. Overreach. &#10007;</li><li><strong>Choice B &mdash; 'Dissolved organic carbon has a stronger yellow color in Antarctic waters'</strong>: this strengthens, not weakens &mdash; stronger yellow DOC would more easily tint blue ice green. &#10007;</li><li><strong>Choice C &mdash; 'Blue icebergs and green icebergs are rarely found near each other'</strong>: location doesn&apos;t test whether DOC causes the green color. Irrelevant. &#10007;</li><li><strong>Choice D &mdash; 'Blue icebergs and green icebergs contain similarly small traces of dissolved organic carbon'</strong>: if DOC levels are essentially equal, DOC cannot explain why one iceberg is green. Directly undermines the proposed mechanism. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "8545ccfe",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the hypothesis requires",
+      "content": "The hypothesis proposes that green icebergs get their color from yellow dissolved organic carbon (DOC) mixing with blue ice. For this to work, green icebergs must have more DOC than blue icebergs &mdash; otherwise DOC cannot explain the color difference."
+    },
+    {
+      "title": "Look for a finding that breaks that requirement",
+      "content": "Weakening means showing DOC is not the differentiator. If blue and green icebergs contain similar DOC levels, then DOC cannot be what turns one green and leaves the other blue."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; White ice doesn't change color when mixed with dissolved organic carbon due to the air bubbles in the ice.</strong>: this is about white ice, not the blue-ice mechanism the hypothesis depends on. Overreach. &#10007;</li><li><strong>Choice B &mdash; Dissolved organic carbon has a stronger yellow color in Antarctic waters than it does in other places.</strong>: this strengthens, not weakens &mdash; stronger yellow DOC would more easily tint blue ice green. &#10007;</li><li><strong>Choice C &mdash; Blue icebergs and green icebergs are rarely found near each other.</strong>: location doesn&apos;t test whether DOC causes the green color. Irrelevant. &#10007;</li><li><strong>Choice D &mdash; Blue icebergs and green icebergs contain similarly small traces of dissolved organic carbon.</strong>: if DOC levels are essentially equal, DOC cannot explain why one iceberg is green. Directly undermines the proposed mechanism. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

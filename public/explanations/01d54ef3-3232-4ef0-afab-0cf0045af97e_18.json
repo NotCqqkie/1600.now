@@ -1,1 +1,15 @@
-{"questionId": "01d54ef3-3232-4ef0-afab-0cf0045af97e_18", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structures on both sides of the blank", "content": "The left side &mdash; &quot;In many languages, including English, these consonants are rare&quot; &mdash; is a complete independent clause. The right side &mdash; &quot;in some dialects of Mandarin, however, four such consonants are relatively common&quot; &mdash; is also a complete independent clause. The blank must join them correctly."}, {"title": "Eliminate wrong choices and confirm the answer", "content": "<ul><li><strong>Choice A &mdash; 'rare,'</strong>: A comma alone between two independent clauses creates a comma splice, which is a grammatical error. &#10007;</li><li><strong>Choice B &mdash; 'rare'</strong>: No punctuation between two independent clauses creates a run-on sentence. &#10007;</li><li><strong>Choice C &mdash; 'rare;'</strong>: A semicolon correctly joins two closely related independent clauses &mdash; precisely the rule that applies here. &#10003;</li><li><strong>Choice D &mdash; 'rare and'</strong>: The coordinating conjunction &quot;and&quot; without a comma before it creates an ungrammatical structure when connecting two independent clauses of this length and form. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "01d54ef3-3232-4ef0-afab-0cf0045af97e_18",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures on both sides of the blank",
+      "content": "The left side &mdash; &quot;In many languages, including English, these consonants are rare&quot; &mdash; is a complete independent clause. The right side &mdash; &quot;in some dialects of Mandarin, however, four such consonants are relatively common&quot; &mdash; is also a complete independent clause. The blank must join them correctly."
+    },
+    {
+      "title": "Eliminate wrong choices and confirm the answer",
+      "content": "<ul><li><strong>Choice A &mdash; rare,</strong>: A comma alone between two independent clauses creates a comma splice, which is a grammatical error. &#10007;</li><li><strong>Choice B &mdash; rare</strong>: No punctuation between two independent clauses creates a run-on sentence. &#10007;</li><li><strong>Choice C &mdash; rare;</strong>: A semicolon correctly joins two closely related independent clauses &mdash; precisely the rule that applies here. &#10003;</li><li><strong>Choice D &mdash; rare and</strong>: The coordinating conjunction &quot;and&quot; without a comma before it creates an ungrammatical structure when connecting two independent clauses of this length and form. &#10007;</li></ul>That matches <strong>Choice C &mdash; rare;</strong>."
+    }
+  ]
+}

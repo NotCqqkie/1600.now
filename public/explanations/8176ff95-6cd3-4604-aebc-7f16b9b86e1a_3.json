@@ -9,7 +9,7 @@
     },
     {
       "title": "Translate f(11) = 300 to English",
-      "content": "Verify by evaluating the function at $x = 11$:<br/>$$f(11) = 600(0.5)^{\\frac{11}{11}} = 600(0.5) = 300$$<br/>So when $x = 11$ mm (depth) and $f(11) = 300$ photons (intensity), the statement means: a beam 11 millimeters below the surface has a predicted intensity of 300 photons. That matches choice C — <strong>C</strong> is correct.",
+      "content": "Verify by evaluating the function at $x = 11$:<br/>$$f(11) = 600(0.5)^{\\frac{11}{11}} = 600(0.5) = 300$$<br/>So when $x = 11$ mm (depth) and $f(11) = 300$ photons (intensity), the statement means: a beam 11 millimeters below the surface has a predicted intensity of 300 photons. That confirms <strong>C</strong> is correct.",
       "desmosExpressions": [
         "y = 600 \\cdot 0.5^{x/11}",
         "(11, 300)"

@@ -1,1 +1,15 @@
-{"questionId": "dc78fb50-de84-439b-980f-0629b266ff8a_9", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal", "content": "The claim states “marks a significant change in Martin's artistic development” — the supporting quote must show what came before <em>Harbor Number 1</em> and how the work represents a departure from it."}, {"title": "Apply the signal", "content": "Choice C distinguishes an “earlier style” that Martin never returned to, placing <em>Harbor Number 1</em> at the threshold of a new creative phase.<br/><br/>Choices A, B, and D focus on interpretation, influence, and artistic value without showing a shift in her development.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "dc78fb50-de84-439b-980f-0629b266ff8a_9",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal",
+      "content": "The claim states “marks a significant change in Martin's artistic development” — the supporting quote must show what came before <em>Harbor Number 1</em> and how the work represents a departure from it."
+    },
+    {
+      "title": "Apply the signal",
+      "content": "<strong>\"The paintings that Martin produced before *Harbor Number 1* can be thought of as belonging to her earlier style, to which she never returned.\"</strong> distinguishes an “earlier style” that Martin never returned to, placing <em>Harbor Number 1</em> at the threshold of a new creative phase.<br/><br/>The other three options focus on interpretation, influence, and artistic value without showing a shift in her development.<br/><br/>That matches the correct answer — <strong>C</strong> is correct."
+    }
+  ]
+}

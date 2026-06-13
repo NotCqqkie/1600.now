@@ -1,4 +1,15 @@
-{"questionId": "bb4557cf", "correctAnswer": "D", "section": "Reading and Writing", "steps": [
-  {"title": "Identify what the question needs", "content": "This is a Boundaries question testing punctuation between two main clauses. The first clause ends with the blank: &quot;cells with identical DNA develop different [blank]&quot;. The second clause (&quot;whereas the genome... will be expressed&quot;) explains why that happens. The correct punctuation must both separate the two clauses and signal that an explanation follows."},
-  {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'functions'</strong>: No punctuation between the two independent clauses creates a run-on sentence. &#10007;</li><li><strong>Choice B &mdash; 'functions,'</strong>: A comma alone between two independent clauses is a comma splice. &#10007;</li><li><strong>Choice C &mdash; 'functions and,'</strong>: Placing the comma after &quot;and&quot; rather than before it is ungrammatical. More importantly, &quot;and&quot; signals addition, not explanation &mdash; it fails to convey that the second clause explains the first. &#10007;</li><li><strong>Choice D &mdash; 'functions:'</strong>: A colon after a complete independent clause correctly introduces an explanation or elaboration. Here it signals that the &quot;whereas&quot; clause explains how cells with identical DNA can develop different functions. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}
-]}
+{
+  "questionId": "bb4557cf",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a Boundaries question testing punctuation between two main clauses. The first clause ends with the blank: &quot;cells with identical DNA develop different [blank]&quot;. The second clause (&quot;whereas the genome... will be expressed&quot;) explains why that happens. The correct punctuation must both separate the two clauses and signal that an explanation follows."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; functions</strong>: No punctuation between the two independent clauses creates a run-on sentence. &#10007;</li><li><strong>Choice B &mdash; functions,</strong>: A comma alone between two independent clauses is a comma splice. &#10007;</li><li><strong>Choice C &mdash; functions and,</strong>: Placing the comma after &quot;and&quot; rather than before it is ungrammatical. More importantly, &quot;and&quot; signals addition, not explanation &mdash; it fails to convey that the second clause explains the first. &#10007;</li><li><strong>Choice D &mdash; functions:</strong>: A colon after a complete independent clause correctly introduces an explanation or elaboration. Here it signals that the &quot;whereas&quot; clause explains how cells with identical DNA can develop different functions. &#10003;</li></ul>That is the correct answer."
+    }
+  ]
+}

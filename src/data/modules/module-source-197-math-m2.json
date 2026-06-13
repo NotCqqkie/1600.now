@@ -239,19 +239,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$24(18x + 1)$"
+        "text": "$24\\left(18x + 1\\right)$"
       },
       {
         "label": "B",
-        "text": "$30(24x + 1)$"
+        "text": "$30\\left(24x + 1\\right)$"
       },
       {
         "label": "C",
-        "text": "$6(18x + 24)$"
+        "text": "$6\\left(18x + 24\\right)$"
       },
       {
         "label": "D",
-        "text": "$6(4x + 5)$"
+        "text": "$6\\left(4x + 5\\right)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -431,24 +431,24 @@
     "difficulty": "Medium",
     "question_number": 16,
     "test_name": "Module Source 197 Math M2",
-    "passage": "In the figure shown, lines $l$ and $k$ are parallel and line $t$ intersects both lines. If $x > 165$, which of the following must be true?",
+    "passage": "In the figure shown, lines $l$ and $k$ are parallel and line $t$ intersects both lines. If $x \\gt 165$, which of the following must be true?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$y < 15$"
+        "text": "$y \\lt 15$"
       },
       {
         "label": "B",
-        "text": "$y > 15$"
+        "text": "$y \\gt 15$"
       },
       {
         "label": "C",
-        "text": "$x + y < 180$"
+        "text": "$x + y \\lt 180$"
       },
       {
         "label": "D",
-        "text": "$x + y > 180$"
+        "text": "$x + y \\gt 180$"
       }
     ],
     "is_fill_in_blank": false,
@@ -490,19 +490,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$y = \\frac{1}{2} (72,000) t$"
+        "text": "$y = \\frac{1}{2}(72,000)t$"
       },
       {
         "label": "B",
-        "text": "$y = 2(72,000) t$"
+        "text": "$y = 2(72,000)t$"
       },
       {
         "label": "C",
-        "text": "$y = 72,000\\left(\\frac{1}{2}\\right) t$"
+        "text": "$y = 72,000\\left(\\frac{1}{2}\\right)^t$"
       },
       {
         "label": "D",
-        "text": "$y = 72,000(2) t$"
+        "text": "$y = 72,000(2)^t$"
       }
     ],
     "is_fill_in_blank": false,
@@ -549,7 +549,7 @@
     "difficulty": "Easy",
     "question_number": 20,
     "test_name": "Module Source 197 Math M2",
-    "passage": "A circle in the $xy$-plane has its center at $(5, 1)$ and a radius with a length of 7. The equation for this circle can be written in the form $(x − h)^2 + (y − k)^2 = b$, where $h$, $k$, and $b$ are constants. What is the value of $h$?",
+    "passage": "A circle in the $xy$-plane has its center at $(5, 1)$ and a radius with a length of 7. The equation for this circle can be written in the form $(x - h)^2 + (y - k)^2 = b$, where $h$, $k$, and $b$ are constants. What is the value of $h$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice A is correct. Choice C reverses the coordinates, while choices B and D use incorrect $x$-values.",
+      "content": "The solution is $(4,28)$. Reversing the coordinates or using an incorrect $x$-value does not satisfy both equations, so <strong>A</strong> is correct.",
       "desmosExpressions": [
         "y=12x-20",
         "y=28"

@@ -1,1 +1,15 @@
-{"questionId": "fa07bcb6", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the clause structure", "content": "Before the blank, we have an independent clause (“The clashing notes can echo a long way across the mountains”) followed by “which is why” — a relative clause that introduces a causal explanation. The blank must contain a clause that provides the logical reason."}, {"title": "Apply the relative clause rule", "content": "A relative clause introduced by “which is why” must use normal word order (subject before auxiliary verb) and end with a period that closes the sentence.<br/><br/>Option B (“ganja has been used as a communication method.”) correctly applies this rule with normal word order and appropriate closing punctuation.<br/><br/>Options A, C, and D violate this rule by either misplacing question marks within the relative clause (A, D) or inverting the word order unnecessarily (C).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "fa07bcb6",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the clause structure",
+      "content": "Before the blank, we have an independent clause (“The clashing notes can echo a long way across the mountains”) followed by “which is why” — a relative clause that introduces a causal explanation. The blank must contain a clause that provides the logical reason."
+    },
+    {
+      "title": "Apply the relative clause rule",
+      "content": "A relative clause introduced by “which is why” must use normal word order (subject before auxiliary verb) and end with a period that closes the sentence.<br/><br/>The wording <strong>“ganja has been used as a communication method.”</strong> correctly applies this rule with normal word order and appropriate closing punctuation.<br/><br/>“Ganja has been used as a communication method?” misplaces a question mark, and the versions beginning “has ganga” invert the word order unnecessarily.<br/><br/>That matches the correct answer — <strong>B</strong> is correct."
+    }
+  ]
+}

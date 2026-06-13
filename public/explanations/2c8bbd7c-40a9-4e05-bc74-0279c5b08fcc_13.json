@@ -1,1 +1,15 @@
-{"questionId": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_13", "correctAnswer": "18", "section": "Math", "steps": [{"title": "Set up the equation", "content": "Let $p$ be the original price per shirt. Total before coupon: $9p$. After \\$54 off: $9p - 54 = 108$."}, {"title": "Solve for $p$", "content": "$$9p = 162 \\Rightarrow p = 18$$<br/>The answer is <strong>18</strong>."}]}
+{
+  "questionId": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_13",
+  "correctAnswer": "18",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the equation",
+      "content": "Let $p$ be the original price per shirt. Total before coupon: $9p$. After \\$54 off: $9p - 54 = 108$."
+    },
+    {
+      "title": "Solve for $p$",
+      "content": "$$9p = 162 \\Rightarrow p = 18$$<br/>The answer is <strong>18</strong>. The coupon was subtracted from the total for all 9 shirts, so adding it back before dividing gives the original price of one shirt."
+    }
+  ]
+}

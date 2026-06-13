@@ -30,7 +30,7 @@ const SHARED_FEATURES = (keyword: string) => [
   {
     title: `${keyword} vocabulary and skill guides`,
     body: `Work through 260+ high-frequency SAT words and targeted guides for every tested math and reading skill.`,
-    href: "/sat-vocabulary",
+    href: "/vocab",
   },
 ];
 

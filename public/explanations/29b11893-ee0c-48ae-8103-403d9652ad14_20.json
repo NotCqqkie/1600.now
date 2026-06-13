@@ -9,7 +9,7 @@
     },
     {
       "title": "Set discriminant = 0 for exactly one real solution",
-      "content": "The discriminant is $\\Delta = 113^2 - 4(3249 - k) = 4k - 227$. For exactly one solution, set $\\Delta = 0$: $$4k - 227 = 0 \\implies 4k = 227.$$ The repeated root $x = 56.5$ satisfies $x \\leq 57$, so it is valid. That matches choice 227 — <strong>227</strong> is correct."
+      "content": "The discriminant is $\\Delta = 113^2 - 4(3249 - k) = 4k - 227$. For exactly one solution, set $\\Delta = 0$: $$4k - 227 = 0 \\implies 4k = 227.$$ The repeated root $x = 56.5$ satisfies $x \\leq 57$, so it is valid. Therefore <strong>227</strong> is correct."
     }
   ]
 }

@@ -13,7 +13,7 @@
     },
     {
       "title": "Substitute back and find ab",
-      "content": "Substitute $u = x^2$ to get the factored form $(2x^2 + 3)(4x^2 + 7)$.<br/><br/>The question asks for $ab$ where $ax^2 + b$ is one of the factors. The factor $4x^2 + 7$ corresponds to $a = 4, b = 7$, giving $ab = 4 \\times 7 = 28$. (The other factor, $2x^2 + 3$, gives $ab = 6$, which is not among the answer choices.) That matches choice D — <strong>D</strong> is correct."
+      "content": "Substitute $u = x^2$ to get the factored form $(2x^2 + 3)(4x^2 + 7)$.<br/><br/>The question asks for $ab$ where $ax^2 + b$ is one of the factors. The factor $4x^2 + 7$ corresponds to $a = 4, b = 7$, giving $ab = 4 \\times 7 = 28$. (The other factor, $2x^2 + 3$, gives $ab = 6$, which is not among the answer choices.) That confirms <strong>D</strong> is correct."
     }
   ]
 }

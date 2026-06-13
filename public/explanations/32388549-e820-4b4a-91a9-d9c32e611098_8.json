@@ -9,11 +9,11 @@
     },
     {
       "title": "Identify the matching solution",
-      "content": "The two solutions are $-4+2\\sqrt{11}$ and $-4-2\\sqrt{11}$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."
+      "content": "The two solutions are $-4+2\\sqrt{11}$ and $-4-2\\sqrt{11}$. <strong>D</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice D, $-4+2\\sqrt{11}$, and the other choices fail the same setup or substitution. Therefore <strong>D</strong> is correct."
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches the correct answer, $-4+2\\sqrt{11}$, and the other choices fail the same setup or substitution. Therefore <strong>D</strong> is correct."
     }
   ]
 }

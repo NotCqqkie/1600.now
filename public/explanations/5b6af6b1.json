@@ -1,10 +1,23 @@
 {
+  "questionId": "5b6af6b1",
   "qid": "5b6af6b1",
   "steps": [
-    "Distribute $d$ across $(8d^2 - 3)$: $d \\cdot 8d^2 - d \\cdot 3 = 8d^3 - 3d$.",
-    "Distribute $-6$ across $(8d^2 - 3)$: $-6 \\cdot 8d^2 - (-6) \\cdot 3 = -48d^2 + 18$.",
-    "Combine all terms: $8d^3 - 3d - 48d^2 + 18$. Reorder in descending degree: $8d^3 - 48d^2 - 3d + 18$.",
-    "Match to the answer choices: choice C is $8d^3 - 48d^2 - 3d + 18$, which matches exactly."
+    {
+      "title": "Step 1",
+      "content": "Distribute $d$ across $(8d^2 - 3)$: $d \\cdot 8d^2 - d \\cdot 3 = 8d^3 - 3d$."
+    },
+    {
+      "title": "Step 2",
+      "content": "Distribute $-6$ across $(8d^2 - 3)$: $-6 \\cdot 8d^2 - (-6) \\cdot 3 = -48d^2 + 18$."
+    },
+    {
+      "title": "Step 3",
+      "content": "Combine all terms: $8d^3 - 3d - 48d^2 + 18$. Reorder in descending degree: $8d^3 - 48d^2 - 3d + 18$."
+    },
+    {
+      "title": "Step 4",
+      "content": "Match to the answer choices: the option &lsquo;$8{d}^{3}-48{d}^{2}-3d+18$&rsquo; is $8d^3 - 48d^2 - 3d + 18$, which matches exactly."
+    }
   ],
   "choices": [
     {
@@ -20,7 +33,7 @@
     {
       "id": "C",
       "text": "$8d^3 - 48d^2 - 3d + 18$",
-      "explanation": "<ul><li>Expanding: $d(8d^2 - 3) - 6(8d^2 - 3) = 8d^3 - 3d - 48d^2 + 18 = 8d^3 - 48d^2 - 3d + 18$. That matches choice C &mdash; <strong>C</strong> is correct.</li></ul>"
+      "explanation": "<ul><li>Expanding: $d(8d^2 - 3) - 6(8d^2 - 3) = 8d^3 - 3d - 48d^2 + 18 = 8d^3 - 48d^2 - 3d + 18$. That confirms <strong>C</strong> is correct.</li></ul>"
     },
     {
       "id": "D",

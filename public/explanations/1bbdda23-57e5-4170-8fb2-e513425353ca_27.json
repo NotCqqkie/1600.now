@@ -1,1 +1,15 @@
-{"questionId":"1bbdda23-57e5-4170-8fb2-e513425353ca_27","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks for a similarity between mass fraction and mole fraction. The notes state that both measures indicate the relative abundance of chromium on Earth &mdash; one using total mass, the other using total atom count. The correct choice must capture that shared purpose."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A</strong>: fails to identify any connection between the two measures. &#10007;</li><li><strong>Choice B &mdash; both indicate the relative abundance of elements on Earth</strong>: directly matches what the notes say both measures reveal. &#10003;</li><li><strong>Choice C</strong>: misdefines mole fraction by conflating it with mass fraction. &#10007;</li><li><strong>Choice D</strong>: emphasizes a difference between the two rather than a similarity. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "1bbdda23-57e5-4170-8fb2-e513425353ca_27",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks for a similarity between mass fraction and mole fraction. The notes state that both measures indicate the relative abundance of chromium on Earth &mdash; one using total mass, the other using total atom count. The correct choice must capture that shared purpose."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; On Earth, the mass fraction of chromium is 4,700 ppm, or 0.47%, and the mole fraction is 2,300,000 ppb, or 0.23%.</strong>: fails to identify any connection between the two measures. &#10007;</li><li><strong>Choice B &mdash; While mass fraction is a measure of relative mass and mole fraction is a measure of relative atom count, both indicate the relative abundance of elements on Earth.</strong>: directly matches what the notes say both measures reveal. &#10003;</li><li><strong>Choice C &mdash; Both mass and mole fraction express the relative abundance of chromium on Earth as a ratio of the total mass of chromium to the combined mass of all atoms.</strong>: misdefines mole fraction by conflating it with mass fraction. &#10007;</li><li><strong>Choice D &mdash; The mass fraction of chromium indicates its relative mass; in addition, the element's mole fraction indicates the relative number of chromium atoms.</strong>: emphasizes a difference between the two rather than a similarity. &#10007;</li></ul>That matches <strong>Choice B &mdash; While mass fraction is a measure of relative mass and mole fraction is a measure of relative atom count, both indicate the relative abundance of elements on Earth.</strong>."
+    }
+  ]
+}

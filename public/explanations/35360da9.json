@@ -1,1 +1,19 @@
-{"questionId": "35360da9", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the time signal", "content": "The phrase <strong>&quot;since it began in 2012&quot;</strong> marks an action that started in the past and continues to the present moment. Standard English uses the <strong>present perfect</strong> (have/has + past participle) for this time frame."}, {"title": "Match tense to signal", "content": "The subject is plural (<em>volunteer map editors who</em>), so the correct form is <strong>have contributed</strong>. This links the 2012 start point to the present."}, {"title": "Eliminate the other choices", "content": "<ul><li><strong>Choice A &mdash; 'contribute'</strong>: simple present cannot pair with the &quot;since 2012&quot; duration phrase. &#10007;</li><li><strong>Choice B &mdash; 'will contribute'</strong>: simple future contradicts an action that has already been happening since 2012. &#10007;</li><li><strong>Choice C &mdash; 'have contributed'</strong>: present perfect correctly spans a past start to the present. &#10003;</li><li><strong>Choice D &mdash; 'will be contributing'</strong>: future progressive again ignores the past start point required by &quot;since 2012.&quot; &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "35360da9",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the time signal",
+      "content": "The phrase <strong>&quot;since it began in 2012&quot;</strong> marks an action that started in the past and continues to the present moment. Standard English uses the <strong>present perfect</strong> (have/has + past participle) for this time frame."
+    },
+    {
+      "title": "Match tense to signal",
+      "content": "The subject is plural (<em>volunteer map editors who</em>), so the correct form is <strong>have contributed</strong>. This links the 2012 start point to the present."
+    },
+    {
+      "title": "Eliminate the other choices",
+      "content": "<ul><li><strong>Choice A — contribute</strong>: simple present cannot pair with the &quot;since 2012&quot; duration phrase. &#10007;</li><li><strong>Choice B — will contribute</strong>: simple future contradicts an action that has already been happening since 2012. &#10007;</li><li><strong>Choice C — have contributed</strong>: present perfect correctly spans a past start to the present. &#10003;</li><li><strong>Choice D — will be contributing</strong>: future progressive again ignores the past start point required by &quot;since 2012.&quot; &#10007;</li></ul><strong>C</strong> is correct."
+    }
+  ]
+}

@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the answer",
-      "content": "The solution is <strong>130</strong>. Substituting back checks it: $8(130)-7(130)+130$ simplifies to $130+130=260$, matching the original equation. Combining like terms first prevents doing extra arithmetic."
+      "content": "The solution is <strong>130</strong>. Substituting back checks it: $\\left(8\\right)(130)-7(130)+130$ simplifies to $130+130=260$, matching the original equation. Combining like terms first prevents doing extra arithmetic."
     }
   ]
 }

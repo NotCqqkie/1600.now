@@ -1,1 +1,15 @@
-{"questionId":"cb122a42-4101-484b-b032-9e55d6519a9c_5","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The phrase &apos;making the data available again&apos; is the key signal. The word <em>again</em> indicates that the data-transfer project is restoring something previously inaccessible &mdash; the blank must capture that restoration meaning."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;persisting&apos;</strong>: means continuing to exist &mdash; says nothing about restoring access. &#10007;</li><li><strong>Choice B &mdash; &apos;installing&apos;</strong>: means setting up for the first time &mdash; contradicts the &apos;again&apos; signal. &#10007;</li><li><strong>Choice C &mdash; &apos;renewing&apos;</strong>: means making useful again &mdash; directly matches the restoration idea. &#10003;</li><li><strong>Choice D &mdash; &apos;exceeding&apos;</strong>: means surpassing &mdash; unrelated to restoring access. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "cb122a42-4101-484b-b032-9e55d6519a9c_5",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The phrase &apos;making the data available again&apos; is the key signal. The word <em>again</em> indicates that the data-transfer project is restoring something previously inaccessible &mdash; the blank must capture that restoration meaning."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; persisting</strong>: means continuing to exist &mdash; says nothing about restoring access. &#10007;</li><li><strong>Choice B &mdash; installing</strong>: means setting up for the first time &mdash; contradicts the &apos;again&apos; signal. &#10007;</li><li><strong>Choice C &mdash; renewing</strong>: means making useful again &mdash; directly matches the restoration idea. &#10003;</li><li><strong>Choice D &mdash; exceeding</strong>: means surpassing &mdash; unrelated to restoring access. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

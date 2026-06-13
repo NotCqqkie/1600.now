@@ -9,11 +9,11 @@
     },
     {
       "title": "Compare the spreads",
-      "content": "All four data sets are centered near $47$, so compare how far the values are from $47$. Choice D has values $46,47,47,47,48$, which are only $1$, $0$, $0$, $0$, and $1$ away from $47$."
+      "content": "All four data sets are centered near $47$, so compare how far the values are from $47$. The correct answer has values $46,47,47,47,48$, which are only $1$, $0$, $0$, $0$, and $1$ away from $47$."
     },
     {
       "title": "Confirm the choice",
-      "content": "<ul><li>A ranges from $44$ to $50$, so it is more spread out.</li><li>B ranges from $45$ to $49$, so it is still more spread out than D.</li><li>C ranges evenly from $45$ to $49$.</li><li>D stays between $46$ and $48$, with three values exactly at $47$.</li></ul>Choice D is the most tightly clustered, so it has the smallest standard deviation. <strong>D</strong> is correct."
+      "content": "<ul><li>A ranges from $44$ to $50$, so it is more spread out.</li><li>B ranges from $45$ to $49$, so it is still more spread out than D.</li><li>C ranges evenly from $45$ to $49$.</li><li>D stays between $46$ and $48$, with three values exactly at $47$.</li></ul>The correct answer is the most tightly clustered, so it has the smallest standard deviation. <strong>D</strong> is correct."
     }
   ]
 }

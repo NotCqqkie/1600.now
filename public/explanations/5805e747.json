@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice A is exactly $x^3+10x$. Choices B and C have the wrong cubic coefficient, and choice D has the wrong linear coefficient. Therefore <strong>A</strong> is correct."
+      "content": "The correct answer is exactly $x^3+10x$. The other choices have the wrong cubic coefficient, and a choice with the wrong linear coefficient. Therefore <strong>A</strong> is correct."
     }
   ]
 }

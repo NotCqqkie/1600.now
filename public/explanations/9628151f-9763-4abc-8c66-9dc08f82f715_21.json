@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Spot the vertex form",
-      "content": "$f(x) = (x-1)^2 + 7$ is vertex form $a(x-h)^2 + k$ with $a = 1 > 0$, so the parabola opens upward and the vertex is a minimum."
+      "content": "$f(x) = (x-1)^2 + 7$ is vertex form $a(x-h)^2 + k$ with $a = 1 \\gt 0$, so the parabola opens upward and the vertex is a minimum."
     },
     {
       "title": "Read $k$ directly — that is the minimum value",
-      "content": "The minimum equals $k = 7$. No solving needed. That matches choice C — <strong>C</strong> is correct."
+      "content": "The minimum equals $k = 7$. No solving needed. That confirms <strong>C</strong> is correct."
     }
   ]
 }

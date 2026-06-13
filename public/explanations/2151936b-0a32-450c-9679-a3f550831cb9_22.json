@@ -1,1 +1,15 @@
-{"questionId":"2151936b-0a32-450c-9679-a3f550831cb9_22","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"Sentence 1: Greenidge-Sabral wanted to avoid harsh synthetic dyes. Sentence 2: She experimented with natural dye methods. The second sentence describes the action she took in response to the goal stated in sentence 1 &mdash; a motivation-to-action relationship. The transition must signal &apos;acting on the prior idea.&apos;"},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'With this in mind,'</strong>: Signals &apos;motivated by what was just stated&apos; &mdash; exactly the cause-to-action link needed here. &#10003;</li><li><strong>Choice B &mdash; 'To sum up,'</strong>: Introduces a conclusion or summary of multiple preceding points. There is only one prior sentence, and the second is not a summary. &#10007;</li><li><strong>Choice C &mdash; 'Nevertheless,'</strong>: Signals contrast or concession. The second sentence reinforces the first rather than contrasting it. &#10007;</li><li><strong>Choice D &mdash; 'In actuality,'</strong>: Signals a correction of a misconception. No misconception has been stated. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "2151936b-0a32-450c-9679-a3f550831cb9_22",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "Sentence 1: Greenidge-Sabral wanted to avoid harsh synthetic dyes. Sentence 2: She experimented with natural dye methods. The second sentence describes the action she took in response to the goal stated in sentence 1 &mdash; a motivation-to-action relationship. The transition must signal &apos;acting on the prior idea.&apos;"
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; With this in mind,</strong>: Signals &apos;motivated by what was just stated&apos; &mdash; exactly the cause-to-action link needed here. &#10003;</li><li><strong>Choice B &mdash; To sum up,</strong>: Introduces a conclusion or summary of multiple preceding points. There is only one prior sentence, and the second is not a summary. &#10007;</li><li><strong>Choice C &mdash; Nevertheless,</strong>: Signals contrast or concession. The second sentence reinforces the first rather than contrasting it. &#10007;</li><li><strong>Choice D &mdash; In actuality,</strong>: Signals a correction of a misconception. No misconception has been stated. &#10007;</li></ul>That matches <strong>Choice A &mdash; With this in mind,</strong>."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "c54d28b8-d1aa-4370-ad6c-356768c9033c_21", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the contrast", "content": "The strongest signal in the text is the transitional shift between the first phrase about Richard’s intended effect and the second phrase explaining how he achieves it (“assembles…sculptures”).<br/><br/>This implies the first blank needs to show <em>intent</em> or <em>purpose</em>, with proper grammatical structure."}, {"title": "Match the meaning", "content": "<strong>C</strong> uses a participial phrase (“intending”) to describe Richard Serra’s actions and logically connects to the main verb in the second clause (“assembles”).<br/><br/>It avoids splitting two independent clauses with a comma (a comma splice) by transforming the first clause into a non-finite participial modifier.<br/><br/>The other choices split two independent clauses with a comma alone (A, B, D), violating sentence-boundary rules.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "c54d28b8-d1aa-4370-ad6c-356768c9033c_21",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the contrast",
+      "content": "The strongest signal in the text is the transitional shift between the first phrase about Richard’s intended effect and the second phrase explaining how he achieves it (“assembles…sculptures”).<br/><br/>This implies the first blank needs to show <em>intent</em> or <em>purpose</em>, with proper grammatical structure."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "<strong>C</strong> uses a participial phrase (“intending”) to describe Richard Serra’s actions and logically connects to the main verb in the second clause (“assembles”).<br/><br/>It avoids splitting two independent clauses with a comma (a comma splice) by transforming the first clause into a non-finite participial modifier.<br/><br/>The other choices split two independent clauses with a comma alone, violating sentence-boundary rules.<br/><br/>That is the correct answer."
+    }
+  ]
+}

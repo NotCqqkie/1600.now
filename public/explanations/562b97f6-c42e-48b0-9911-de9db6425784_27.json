@@ -1,1 +1,15 @@
-{"questionId": "562b97f6-c42e-48b0-9911-de9db6425784_27", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key signal in the task", "content": "The task asks for “a generalization about the kind of study” — this word signals that the answer must broadly characterize the study type using general language, not report specific findings."}, {"title": "Match the generalization to the choices", "content": "A characterizes the study as scientists analyzing population trends to understand the impact of legal protections on conservation — a proper generalization of the study type using broad language.<br/><br/>B and C provide ESA context; D names the scientists specifically and reports their particular conclusion, losing the generalization the task requires.<br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "562b97f6-c42e-48b0-9911-de9db6425784_27",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal in the task",
+      "content": "The task asks for “a generalization about the kind of study” — this word signals that the answer must broadly characterize the study type using general language, not report specific findings."
+    },
+    {
+      "title": "Match the generalization to the choices",
+      "content": "A characterizes the study as scientists analyzing population trends to understand the impact of legal protections on conservation — a proper generalization of the study type using broad language.<br/><br/>B and C provide ESA context; D names the scientists specifically and reports their particular conclusion, losing the generalization the task requires.<br/><strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 {
   "qid": "2c88af4d",
+  "questionId": "2c88af4d",
   "correctAnswer": "D",
   "steps": [
     {
@@ -16,7 +17,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li>Choice A: $\\dfrac{\\sqrt{y}}{\\sqrt[3]{x^2}}$. This gives $y^{1/2} / x^{2/3}$, but we need $y^{3/2} / x^{7/3}$. Eliminated.</li><li>Choice B: $\\dfrac{y\\sqrt{y}}{\\sqrt[3]{x^2}}$. The numerator is correct, but the denominator is $x^{2/3}$, not $x^{7/3}$. Eliminated.</li><li>Choice C: $\\dfrac{y\\sqrt{y}}{x\\sqrt{x}}$. The denominator is $x^{3/2}$, but we need $x^{7/3}$. Eliminated.</li><li>Choice D: $\\dfrac{y\\sqrt{y}}{x^2 \\sqrt[3]{x}}$. The denominator is $x^2 \\cdot x^{1/3} = x^{7/3}$, which matches exactly. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
+      "content": "<ul><li>$\\frac{\\sqrt{y}}{\\sqrt[3]{x^2}}$. This gives $y^{1/2} / x^{2/3}$, but we need $y^{3/2} / x^{7/3}$. Eliminated.</li><li>$\\frac{y\\sqrt{y}}{\\sqrt[3]{x^2}}$. The numerator is correct, but the denominator is $x^{2/3}$, not $x^{7/3}$. Eliminated.</li><li>$\\frac{y\\sqrt{y}}{x\\sqrt{x}}$. The denominator is $x^{3/2}$, but we need $x^{7/3}$. Eliminated.</li><li>The matching choice: $\\frac{y\\sqrt{y}}{x^2 \\sqrt[3]{x}}$. The denominator is $x^2 \\cdot x^{1/3} = x^{7/3}$, which matches exactly. <strong>D</strong> is correct.</li></ul>"
     }
   ]
 }

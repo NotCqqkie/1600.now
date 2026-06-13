@@ -168,19 +168,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$1.30 p + 2 = 7.20$"
+        "text": "$1.30p + 2 = 7.20$"
       },
       {
         "label": "B",
-        "text": "$1.30 p - 2 = 7.20$"
+        "text": "$1.30p - 2 = 7.20$"
       },
       {
         "label": "C",
-        "text": "$1.30 + 2 p = 7.20$"
+        "text": "$1.30 + 2p = 7.20$"
       },
       {
         "label": "D",
-        "text": "$1.30 - 2 p = 7.20$"
+        "text": "$1.30 - 2p = 7.20$"
       }
     ],
     "is_fill_in_blank": false,
@@ -352,7 +352,7 @@
       },
       {
         "label": "D",
-        "text": "$26(x^3 + x^2 + x)$"
+        "text": "$26\\left(x^3 + x^2 + x\\right)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -446,7 +446,7 @@
     "difficulty": "Medium",
     "question_number": 16,
     "test_name": "Module Source 200 Math M2",
-    "passage": "$y = 3x$\n$y = x^2 - 28$\nA solution to the given system of equations is $(x, y)$, where $x > 0$. What is the value of $x$?",
+    "passage": "$y = 3x$\n$y = x^2 - 28$\nA solution to the given system of equations is $(x, y)$, where $x \\gt 0$. What is the value of $x$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

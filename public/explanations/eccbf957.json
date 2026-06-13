@@ -10,7 +10,7 @@
     },
     {
       "title": "Apply the formula to this die",
-      "content": "On a 14-sided fair die:<ul><li>Total possible outcomes: 14 (one for each face, labeled 1 through 14)</li><li>Favorable outcomes (rolling a 2): 1 (only one face is labeled with a 2)</li></ul>Therefore, the probability is $\\frac{1}{14}$. That matches choice A — <strong>A</strong> is correct."
+      "content": "On a 14-sided fair die:<ul><li>Total possible outcomes: 14 (one for each face, labeled 1 through 14)</li><li>Favorable outcomes (rolling a 2): 1 (only one face is labeled with a 2)</li></ul>Therefore, the probability is $\\frac{1}{14}$. That matches the correct answer — <strong>A</strong> is correct."
     }
   ]
 }

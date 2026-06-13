@@ -25,6 +25,14 @@
 - Use `npm run build:dev` when you need a Vite build without generated-content steps or prerendering
 - `npm run build` also runs generated-content steps and prerendering, so use it when a full production check is actually needed
 
+# Repeated Preferences
+
+- Keep fixes scoped to the surface the user named; for home-only requests, change `src/pages/Home.tsx` before shared question/bank components
+- Start repro from the exact route or question URL the user gave instead of switching to a generic sample
+- For question-viewer bugs, inspect `src/pages/bank/Question.tsx` first because it serves multiple route families
+- For route titles or SEO metadata, inspect `src/App.tsx` and `src/components/seo/Seo.tsx` first
+- For visible UX regressions, verify in the browser on the affected route; lint/build checks are supporting gates, not substitutes
+
 # Local GPU (Ollama on canadapc)
 
 Luke has a Windows PC (`canadapc`) running Ollama over Tailscale.

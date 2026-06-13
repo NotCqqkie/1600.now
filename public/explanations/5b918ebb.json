@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the angle pair from the figure",
-      "content": "When transversal $n$ crosses parallel lines $r$ and $s$, the eight angles formed split into two groups of congruent angles. From the figure, the $162°$ angle at line $r$ and the $x°$ angle at line $s$ are positioned so they are congruent (a corresponding, alternate-interior, alternate-exterior, or vertical-angle pair) rather than supplementary."
+      "content": "When transversal $n$ crosses parallel lines $r$ and $s$, the eight angles formed split into two groups of congruent angles. From the figure, the $162^{\\circ}$ angle at line $r$ and the $x^{\\circ}$ angle at line $s$ are positioned so they are congruent (a corresponding, alternate-interior, alternate-exterior, or vertical-angle pair) rather than supplementary."
     },
     {
       "title": "Apply the congruent-angle relationship",
-      "content": "When two parallel lines are cut by a transversal, congruent angle pairs (corresponding, alternate interior, alternate exterior, vertical) have equal measures. Therefore, the $162°$ angle at line $r$ equals the $x°$ angle at line $s$:$$x = 162$$"
+      "content": "When two parallel lines are cut by a transversal, congruent angle pairs (corresponding, alternate interior, alternate exterior, vertical) have equal measures. Therefore, the $162^{\\circ}$ angle at line $r$ equals the $x^{\\circ}$ angle at line $s$:$$x = 162$$"
     }
   ]
 }

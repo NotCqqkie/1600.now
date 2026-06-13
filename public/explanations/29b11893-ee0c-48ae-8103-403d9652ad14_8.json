@@ -9,7 +9,7 @@
     },
     {
       "title": "Determine how the mean changes",
-      "content": "Since all of Ari's plants are in the range [2.8, 6.2] kg, the mean of Ari's set is at most 6.2 kg.<br/><br/>The new plant weighs 11.7 kg, which is greater than 6.2 kg and therefore greater than any possible mean of Ari's original set.<br/><br/>When you add a value above the current mean to a data set, the mean increases.<br/><br/>Therefore, Chihiro's mean must be greater than Ari's mean. That matches choice D — <strong>D</strong> is correct."
+      "content": "Since all of Ari's plants are in the range [2.8, 6.2] kg, the mean of Ari's set is at most 6.2 kg.<br/><br/>The new plant weighs 11.7 kg, which is greater than 6.2 kg and therefore greater than any possible mean of Ari's original set.<br/><br/>When you add a value above the current mean to a data set, the mean increases.<br/><br/>Therefore, Chihiro's mean must be greater than Ari's mean. That matches <strong>Choice D &mdash; The mean of the masses, in kg, of the plants that Ari examined is less than the mean of the masses, in kg, of the plants that Chihiro examined.</strong>."
     }
   ]
 }

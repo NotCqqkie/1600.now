@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up",
-      "content": "In a right triangle, $\\sin\\theta = \\dfrac{\\text{opposite}}{\\text{hypotenuse}}$. The side opposite $y°$ is 5 and the hypotenuse is 26."
+      "content": "In a right triangle, $\\sin\\theta = \\dfrac{\\text{opposite}}{\\text{hypotenuse}}$. The side opposite $y^{\\circ}$ is 5 and the hypotenuse is 26."
     },
     {
       "title": "Solve",
-      "content": "$$\\sin y° = \\frac{5}{26}$$"
+      "content": "$$\\sin y^{\\circ} = \\frac{5}{26}$$"
     },
     {
       "title": "Answer",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice A, $\\frac{5}{26}$. The other choices do not satisfy the same condition from the question, so <strong>A</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches <strong>Choice A &mdash; $\\frac{5}{26}$</strong>, $\\frac{5}{26}$. The other choices do not satisfy the same condition from the question, so <strong>A</strong>."
     }
   ]
 }

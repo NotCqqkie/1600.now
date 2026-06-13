@@ -13,7 +13,7 @@
     },
     {
       "title": "Calculate the hypotenuse",
-      "content": "The hypotenuse is $a\\sqrt{2}$:<br/>$$9\\sqrt{2} \\cdot \\sqrt{2} = 9 \\cdot 2 = 18$$<br/>That matches choice C — <strong>C</strong> is correct."
+      "content": "The hypotenuse is $a\\sqrt{2}$:<br/>$$9\\sqrt{2} \\cdot \\sqrt{2} = 9 \\cdot 2 = 18$$<br/><strong>C</strong> is correct."
     }
   ]
 }

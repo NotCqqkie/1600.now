@@ -1,1 +1,15 @@
-{"questionId": "8c90f26b-77aa-4ba4-80ae-bd4881600582_14", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the proxy's core requirement", "content": "For <em>D. polymorpha</em> to work as a proxy for <em>O. mykiss</em> in bioaccumulation testing, their accumulation patterns for CeO2-NPs must be comparable. A proxy relies on reliably mirroring the behavior of what it replaces."}, {"title": "Find what breaks the proxy relationship", "content": "Choice B directly undermines this by showing that CeO2-NP uptake <strong>rates differ</strong> between the two species in ways researchers don't yet understand.<br/><br/>If accumulation rates are different, test results from the mussel won't reliably predict results in the trout—this defeats the entire proxy hypothesis.<br/><br/>The other choices either support comparability (A shows both species accumulate with consistent individual variation), address a different issue (C describes nanoparticle types accumulated, not CeO2-NP rate similarity), or identify an advantage of mussels unrelated to proxy validity (D's fewer negative effects).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "8c90f26b-77aa-4ba4-80ae-bd4881600582_14",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the proxy's core requirement",
+      "content": "For <em>D. polymorpha</em> to work as a proxy for <em>O. mykiss</em> in bioaccumulation testing, their accumulation patterns for CeO2-NPs must be comparable. A proxy relies on reliably mirroring the behavior of what it replaces."
+    },
+    {
+      "title": "Find what breaks the proxy relationship",
+      "content": "The correct answer directly undermines this by showing that CeO2-NP uptake <strong>rates differ</strong> between the two species in ways researchers don't yet understand.<br/><br/>If accumulation rates are different, test results from the mussel won't reliably predict results in the trout—this defeats the entire proxy hypothesis.<br/><br/>The other choices either support comparability (A shows both species accumulate with consistent individual variation), address a different issue (C describes nanoparticle types accumulated, not CeO2-NP rate similarity), or identify an advantage of mussels unrelated to proxy validity (D's fewer negative effects).<br/><br/>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

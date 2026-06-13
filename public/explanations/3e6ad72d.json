@@ -1,1 +1,19 @@
-{"questionId": "3e6ad72d", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Read the underlined sentence on its own", "content": "It says the team used data from 1994 to 2010 for a set of US companies and compared over 29,000 annual earnings forecasts to the actual earnings reported. That is a description of what data was gathered and what was done with it &mdash; the procedure."}, {"title": "Check where it sits in the paragraph", "content": "The first sentence states the study&apos;s claim; the underlined sentence explains how the study was carried out; the final sentence reports what the team found. So the underlined sentence&apos;s job is to lay out part of the method."}, {"title": "Eliminate by rule", "content": "<ul><li><strong>Choice A &mdash; &apos;To summarize the results&apos;</strong>: the results appear in the next sentence (greater sunshine, more inflated forecasts), not in the underlined one, which only describes data and comparison. Misread. &#10007;</li><li><strong>Choice B &mdash; &apos;To present a specific example that illustrates the study&apos;s findings&apos;</strong>: no single company or forecast is given as an instance &mdash; the sentence reports the dataset, not an example. Overreach. &#10007;</li><li><strong>Choice C &mdash; &apos;To explain part of the methodology used in the team&apos;s study&apos;</strong>: matches exactly &mdash; what data, what time span, what was compared. &#10003;</li><li><strong>Choice D &mdash; &apos;To call out a challenge the team faced&apos;</strong>: nothing in the sentence flags a difficulty or limitation; it is a neutral description of the procedure. Misread. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "3e6ad72d",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the underlined sentence on its own",
+      "content": "It says the team used data from 1994 to 2010 for a set of US companies and compared over 29,000 annual earnings forecasts to the actual earnings reported. That is a description of what data was gathered and what was done with it &mdash; the procedure."
+    },
+    {
+      "title": "Check where it sits in the paragraph",
+      "content": "The first sentence states the study&apos;s claim; the underlined sentence explains how the study was carried out; the final sentence reports what the team found. So the underlined sentence&apos;s job is to lay out part of the method."
+    },
+    {
+      "title": "Eliminate by rule",
+      "content": "<ul><li><strong>Choice A — To summarize the results of the team's analysis</strong>: the results appear in the next sentence (greater sunshine, more inflated forecasts), not in the underlined one, which only describes data and comparison. Misread. &#10007;</li><li><strong>Choice B — To present a specific example that illustrates the study's findings</strong>: no single company or forecast is given as an instance &mdash; the sentence reports the dataset, not an example. Overreach. &#10007;</li><li><strong>Choice C — To explain part of the methodology used in the team's study</strong>: matches exactly &mdash; what data, what time span, what was compared. &#10003;</li><li><strong>Choice D — To call out a challenge the team faced in conducting its analysis</strong>: nothing in the sentence flags a difficulty or limitation; it is a neutral description of the procedure. Misread. &#10007;</li></ul><strong>C</strong> is correct."
+    }
+  ]
+}

@@ -523,11 +523,11 @@
     "choices": [
       {
         "label": "A",
-        "text": "novels’ protagonists"
+        "text": "novels' protagonists"
       },
       {
         "label": "B",
-        "text": "novels’ protagonists’"
+        "text": "novels' protagonists'"
       },
       {
         "label": "C",
@@ -535,7 +535,7 @@
       },
       {
         "label": "D",
-        "text": "novel's protagonists’"
+        "text": "novel's protagonists'"
       }
     ],
     "is_fill_in_blank": false,
@@ -851,11 +851,11 @@
       },
       {
         "label": "C",
-        "text": "The song “Give Me One Reason” could be described as “brilliant, very clear.”"
+        "text": "The song \"Give Me One Reason\" could be described as \"brilliant, very clear.\""
       },
       {
         "label": "D",
-        "text": "In *On the Sensations of Tone*, Helmholtz describes the mood of F sharp major as “brilliant, very clear.”"
+        "text": "In *On the Sensations of Tone*, Helmholtz describes the mood of F sharp major as \"brilliant, very clear.\""
       }
     ],
     "is_fill_in_blank": false,

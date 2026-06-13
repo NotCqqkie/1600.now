@@ -9,7 +9,7 @@
     },
     {
       "title": "Translate the vertex up 4 units",
-      "content": "Translating up $4$ units means adding $4$ to every $y$-coordinate while keeping each $x$-coordinate the same. The vertex moves from $(2,-2)$ to $$x=2,\\qquad y=-2+4=2.$$ The new vertex is $(2,2)$, which matches choice <strong>A</strong>."
+      "content": "Translating up $4$ units means adding $4$ to every $y$-coordinate while keeping each $x$-coordinate the same. The vertex moves from $(2,-2)$ to $$x=2,\\qquad y=-2+4=2.$$ The new vertex is $(2,2)$, which matches the correct answer, <strong>A</strong>."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId":"c54d28b8-d1aa-4370-ad6c-356768c9033c_9","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks why critics are skeptical. Find the passage's stated reason — it says 'it's too early to tell if they can thrive in this unusual setting,' meaning doubt centers on whether the plants can survive on the building."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'adaptability elsewhere'</strong>: The passage says nothing about whether the trees could thrive in other locations. &#10007;</li><li><strong>Choice B &mdash; 'reduced plant variety'</strong>: No mention of limited diversity among the species used. &#10007;</li><li><strong>Choice C &mdash; 'construction impact'</strong>: The passage doesn't link skepticism to how building the structure affects plants. &#10007;</li><li><strong>Choice D &mdash; 'inability to confirm plant survival'</strong>: Directly restates the passage's reason — it's too early to know if the plants can thrive. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "c54d28b8-d1aa-4370-ad6c-356768c9033c_9",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks why critics are skeptical. Find the passage's stated reason — it says 'it's too early to tell if they can thrive in this unusual setting,' meaning doubt centers on whether the plants can survive on the building."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Some essential aspects of Bosco Verticale's design are difficult to adapt to locations other than Milan.</strong>: The passage says nothing about whether the trees could thrive in other locations. &#10007;</li><li><strong>Choice B &mdash; The plant life on Bosco Verticale ended up being less varied than Boeri had envisioned it would be.</strong>: No mention of limited diversity among the species used. &#10007;</li><li><strong>Choice C &mdash; The construction of Bosco Verticale was no less environmentally damaging than the construction of more conventional buildings is.</strong>: The passage doesn't link skepticism to how building the structure affects plants. &#10007;</li><li><strong>Choice D &mdash; It is unclear whether Bosco Verticale can support the plant life included in its design.</strong>: Directly restates the passage's reason — it's too early to know if the plants can thrive. &#10003;</li></ul>That is the correct answer."
+    }
+  ]
+}

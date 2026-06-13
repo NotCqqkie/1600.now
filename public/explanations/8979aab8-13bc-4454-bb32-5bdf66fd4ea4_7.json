@@ -1,1 +1,15 @@
-{"questionId":"8979aab8-13bc-4454-bb32-5bdf66fd4ea4_7","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage draws a contrast: non-Indigenous museums use Euro-centric strategies and anticipate mainly non-Indigenous audiences, while Indigenous centers serve the tribe&apos;s own citizens. The correct choice must state the key distinguishing feature of non-Indigenous museums."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A</strong>: cites a detail not stated in the passage as the point of contrast. &#10007;</li><li><strong>Choice B</strong>: describes an attribute not mentioned as the distinguishing factor. &#10007;</li><li><strong>Choice C &mdash; &quot;largely aimed at non-Indigenous audiences&quot;</strong>: directly matches the passage&apos;s explicit claim that non-Indigenous museums &quot;anticipate mainly non-Indigenous audiences.&quot; &#10003;</li><li><strong>Choice D</strong>: introduces a detail absent from the passage. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_7",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage draws a contrast: non-Indigenous museums use Euro-centric strategies and anticipate mainly non-Indigenous audiences, while Indigenous centers serve the tribe&apos;s own citizens. The correct choice must state the key distinguishing feature of non-Indigenous museums."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; The museums typically feature fewer artifacts in their exhibits.</strong>: cites a detail not stated in the passage as the point of contrast. &#10007;</li><li><strong>Choice B &mdash; The museums are often somewhat smaller in size.</strong>: describes an attribute not mentioned as the distinguishing factor. &#10007;</li><li><strong>Choice C &mdash; The museums are largely aimed at non-Indigenous audiences.</strong>: directly matches the passage&apos;s explicit claim that non-Indigenous museums &quot;anticipate mainly non-Indigenous audiences.&quot; &#10003;</li><li><strong>Choice D &mdash; The museums focus on tribal history as well as tribal culture.</strong>: introduces a detail absent from the passage. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

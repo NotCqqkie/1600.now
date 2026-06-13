@@ -1,1 +1,15 @@
-{"questionId":"5fe11073-c749-47d4-9e43-2addecd1932f_9","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"Grande Terre emerged 37 million years ago. Sauquet et al. found the crown age of southern beeches on Grande Terre is 16.4 million years, meaning the clade&apos;s most recent common ancestor lived long after the island emerged."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'the southern beeches originated outside the South Pacific'</strong>: The crown age in the South Pacific matches other regions, so origin outside the South Pacific is unsupported. &#10007;</li><li><strong>Choice B &mdash; 'the ancestor existed before the island emerged'</strong>: 16.4 million years is well after 37 million years ago — this directly contradicts the data. &#10007;</li><li><strong>Choice C &mdash; 'the southern beeches are not members of a clade that existed before the island fully emerged'</strong>: A clade whose common ancestor lived 16.4 million years ago cannot have existed 37 million years ago. &#10003;</li><li><strong>Choice D &mdash; the ancestors of most species arrived earlier than the beeches&apos; common ancestor</strong>: The passage only provides crown-age data for southern beeches, not for most species on Grande Terre, so this comparative claim is unsupported. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "5fe11073-c749-47d4-9e43-2addecd1932f_9",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "Grande Terre emerged 37 million years ago. Sauquet et al. found the crown age of southern beeches on Grande Terre is 16.4 million years, meaning the clade&apos;s most recent common ancestor lived long after the island emerged."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;The southern beeches found on Grande Terre are members of a clade that likely originated outside the South Pacific.&rsquo;</strong>: The crown age in the South Pacific matches other regions, so origin outside the South Pacific is unsupported. &#10007;</li><li><strong>Choice B &mdash; &lsquo;The most recent common ancestor of the southern beeches found on Grande Terre lived at least 37 million years ago.&rsquo;</strong>: 16.4 million years is well after 37 million years ago — this directly contradicts the data. &#10007;</li><li><strong>Choice C &mdash; &lsquo;The southern beeches found on Grande Terre are not members of a clade that existed before the island completely emerged.&rsquo;</strong>: A clade whose common ancestor lived 16.4 million years ago cannot have existed 37 million years ago. &#10003;</li><li><strong>Choice D &mdash; &lsquo;The ancestors of most species found on Grande Terre arrived on the island earlier than did the most recent common ancestor of the island's southern beeches.&rsquo;</strong>: The passage only provides crown-age data for southern beeches, not for most species on Grande Terre, so this comparative claim is unsupported. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

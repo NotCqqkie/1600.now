@@ -1,1 +1,15 @@
-{"questionId":"e3f05561","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The skill is Words in Context. The decisive clue is that video cameras were &quot;previously unavailable except to television broadcasters&quot; &mdash; Jenkins gained access to technology he simply did not have before, so the blank must mean &quot;newly obtained.&quot;"},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;newfound&rsquo;</strong>: means recently discovered or established &mdash; perfectly matches the idea that this access was brand new in the 1970s. &#10003;</li><li><strong>Choice B &mdash; &lsquo;delicate&rsquo;</strong>: means fragile or fine in texture &mdash; says nothing about when the access was acquired; wrong meaning entirely. &#10007;</li><li><strong>Choice C &mdash; &lsquo;inevitable&rsquo;</strong>: means impossible to avoid &mdash; the text never discusses whether artists were destined to gain this access; introduces an idea absent from the passage. &#10007;</li><li><strong>Choice D &mdash; &lsquo;habitual&rsquo;</strong>: means done regularly over a long period &mdash; directly contradicts the passage, which says access had only just become available in the 1970s. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "e3f05561",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The skill is Words in Context. The decisive clue is that video cameras were \"previously unavailable except to television broadcasters\" &mdash; Jenkins gained access to technology he simply did not have before, so the blank must mean \"newly obtained.\""
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"newfound\"</strong>: means recently discovered or established &mdash; perfectly matches the idea that this access was brand new in the 1970s. &#10003;</li><li><strong>\"delicate\"</strong>: means fragile or fine in texture &mdash; says nothing about when the access was acquired; wrong meaning entirely. &#10007;</li><li><strong>\"inevitable\"</strong>: means impossible to avoid &mdash; the text never discusses whether artists were destined to gain this access; introduces an idea absent from the passage. &#10007;</li><li><strong>\"habitual\"</strong>: means done regularly over a long period &mdash; directly contradicts the passage, which says access had only just become available in the 1970s. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+    }
+  ]
+}

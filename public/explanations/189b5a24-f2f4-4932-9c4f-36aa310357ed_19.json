@@ -1,1 +1,15 @@
-{"questionId":"189b5a24-f2f4-4932-9c4f-36aa310357ed_19","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank falls between two independent clauses. Before it: <em>...radiating veins that provide structural ____</em>. After it: <em>___ in thickness from the center to the edges, these veins allow the leaves to maintain their large size and buoyancy...</em>. Two independent clauses need terminal punctuation (period or semicolon) &mdash; a comma alone creates a comma splice."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'support, decreasing'</strong>: A comma alone between two independent clauses is a comma splice. &#10007;</li><li><strong>Choice B &mdash; 'support decreasing'</strong>: No punctuation at all between two independent clauses &mdash; a fused sentence. &#10007;</li><li><strong>Choice C &mdash; 'support. Decreasing'</strong>: A period ends the first clause cleanly. &ldquo;Decreasing in thickness from the center to the edges&rdquo; then becomes an introductory participial phrase for the new sentence &ldquo;these veins allow the leaves to maintain their large size and buoyancy.&rdquo; Grammatically correct. &#10003;</li><li><strong>Choice D &mdash; 'support, while decreasing'</strong>: &ldquo;While&rdquo; subordinates the second clause, but it still follows a comma off the first independent clause &mdash; still a comma splice. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "189b5a24-f2f4-4932-9c4f-36aa310357ed_19",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank falls between two independent clauses. Before it: <em>...radiating veins that provide structural ____</em>. After it: <em>___ in thickness from the center to the edges, these veins allow the leaves to maintain their large size and buoyancy...</em>. Two independent clauses need terminal punctuation (period or semicolon) &mdash; a comma alone creates a comma splice."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; support, decreasing</strong>: A comma alone between two independent clauses is a comma splice. &#10007;</li><li><strong>Choice B &mdash; support decreasing</strong>: No punctuation at all between two independent clauses &mdash; a fused sentence. &#10007;</li><li><strong>Choice C &mdash; support. Decreasing</strong>: A period ends the first clause cleanly. &ldquo;Decreasing in thickness from the center to the edges&rdquo; then becomes an introductory participial phrase for the new sentence &ldquo;these veins allow the leaves to maintain their large size and buoyancy.&rdquo; Grammatically correct. &#10003;</li><li><strong>Choice D &mdash; support, while decreasing</strong>: &ldquo;While&rdquo; subordinates the second clause, but it still follows a comma off the first independent clause &mdash; still a comma splice. &#10007;</li></ul>That matches <strong>Choice C &mdash; support. Decreasing</strong>."
+    }
+  ]
+}

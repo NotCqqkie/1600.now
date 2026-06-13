@@ -1,1 +1,15 @@
-{"questionId": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_8", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The question asks which choice most accurately states Curtis's finding. The passage says Curtis found lunar intensity was 'positively associated with foraging by mongoose lemurs' &mdash; more light, more foraging."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; explains the discrepancy between Curtis's and Brown's findings</strong>: This choice frames a comparison between researchers rather than stating Curtis's finding alone. &#10007;</li><li><strong>Choice B &mdash; as lunar intensity increases, mongoose lemurs increase their foraging activity</strong>: This directly restates the positive association Curtis found. &#10003;</li><li><strong>Choice C &mdash; mongoose lemurs rely less on their vision advantage as lunar intensity increases</strong>: The passage does not say reliance on vision changes with lunar intensity. &#10007;</li><li><strong>Choice D &mdash; reports Brown's finding about mice</strong>: Brown's study is a separate finding about a different species. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_8",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks which choice most accurately states Curtis's finding. The passage says Curtis found lunar intensity was 'positively associated with foraging by mongoose lemurs' &mdash; more light, more foraging."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Increased lunar intensity is more beneficial for mongoose lemurs than it is for Arizona pocket mice.</strong>: This choice frames a comparison between researchers rather than stating Curtis's finding alone. &#10007;</li><li><strong>Choice B &mdash; As lunar intensity increases, mongoose lemurs increase their foraging activity.</strong>: This directly restates the positive association Curtis found. &#10003;</li><li><strong>Choice C &mdash; During periods of high lunar intensity, mongoose lemurs increase their reliance on vision.</strong>: The passage does not say reliance on vision changes with lunar intensity. &#10007;</li><li><strong>Choice D &mdash; As lunar intensity increases, Arizona pocket mice reduce their foraging activity.</strong>: Brown's study is a separate finding about a different species. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

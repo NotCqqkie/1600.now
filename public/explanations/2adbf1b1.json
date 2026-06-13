@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Read the angle relationships from the figure",
-      "content": "From the figure, angles $x$ and $y$ appear as vertical angles at the intersection of the transversal and line $m$, so $x = y$. Angles $x$ and $z$ are positioned as same-side interior (co-interior) angles formed by the transversal cutting the parallel lines $m$ and $n$, so $x + z = 180&deg;$."
+      "content": "From the figure, angles $x$ and $y$ appear as vertical angles at the intersection of the transversal and line $m$, so $x = y$. Angles $x$ and $z$ are positioned as same-side interior (co-interior) angles formed by the transversal cutting the parallel lines $m$ and $n$, so $x + z = 180^\\circ$."
     },
     {
       "title": "Solve for k using x = y",
-      "content": "Set the two expressions equal:$$6k + 13 = 8k - 29$$$$42 = 2k$$$$k = 21$$"
+      "content": "Set the two expressions equal:<br/>$$6k + 13 = 8k - 29$$<br/>$$42 = 2k$$<br/>$$k = 21$$"
     },
     {
       "title": "Find x and then z",
-      "content": "Substitute $k = 21$:$$x = 6(21) + 13 = 139&deg;$$Then use $x + z = 180&deg;$:$$z = 180&deg; - 139&deg; = 41&deg;$$That matches choice C."
+      "content": "Substitute $k = 21$:<br/>$$x = 6(21) + 13 = 139^\\circ$$<br/>Then use $x + z = 180^\\circ$:<br/>$$z = 180^\\circ - 139^\\circ = 41^\\circ$$<br/>That matches <strong>Choice C &mdash; $41$</strong>."
     }
   ]
 }

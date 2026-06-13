@@ -13,7 +13,7 @@
     },
     {
       "title": "Eliminate each choice",
-      "content": "<ul><li>A) $2$: divides every term, so it is a factor. Keep.</li><li>B) $5x$: $2x^2/5x$ is not a polynomial, so $5x$ is not a factor. Eliminate.</li><li>C) $38x$: $10/38x$ is not a polynomial, so $38x$ is not a factor. Eliminate.</li><li>D) $2x^2$: $38x/2x^2$ is not a polynomial, so $2x^2$ is not a factor. Eliminate.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li>A) $2$: divides every term, so it is a factor. Keep.</li><li>B) $5x$: $2x^2/5x$ is not a polynomial, so $5x$ is not a factor. Eliminate.</li><li>C) $38x$: $10/38x$ is not a polynomial, so $38x$ is not a factor. Eliminate.</li><li>D) $2x^2$: $38x/2x^2$ is not a polynomial, so $2x^2$ is not a factor. Eliminate.</li></ul><strong>A</strong> is correct."
     }
   ]
 }

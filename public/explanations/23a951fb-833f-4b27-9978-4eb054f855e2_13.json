@@ -9,7 +9,7 @@
     },
     {
       "title": "Substitute values and compute",
-      "content": "Substitute into the formula: $$V = \\pi (14)^2 (12) = \\pi \\cdot 196 \\cdot 12$$<br/>Compute $196 \\times 12 = 2,352$<br/><br/>Therefore, $V = 2,352\\pi$ m³. That matches choice D — <strong>D</strong> is correct."
+      "content": "Substitute into the formula: $$V = \\pi (14)^2 (12) = \\pi \\cdot 196 \\cdot 12$$<br/>Compute $196 \\times 12 = 2,352$<br/><br/>Therefore, $V = 2,352\\pi$ m³. That matches <strong>Choice D &mdash; $2,352\\pi$</strong>."
     }
   ]
 }

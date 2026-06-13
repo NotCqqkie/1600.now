@@ -117,7 +117,7 @@
     "difficulty": "Easy",
     "question_number": 5,
     "test_name": "Module Source 139 Math M1",
-    "passage": "The ratio of $ k $ to $ p $ is constant. If $ k = 4 $, then $ p = 3 $. What is the value of $ k $ when $ p = 24 $?",
+    "passage": "The ratio of $k$ to $p$ is constant. If $k = 4$, then $p = 3$. What is the value of $k$ when $p = 24$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -147,7 +147,7 @@
     "difficulty": "Easy",
     "question_number": 7,
     "test_name": "Module Source 139 Math M1",
-    "passage": "Which expression is equivalent to $(x)^{\\frac{1}{17}}$, where $x > 0$?",
+    "passage": "Which expression is equivalent to $(x)^{\\frac{1}{17}}$, where $x \\gt 0$?",
     "question_text": null,
     "choices": [
       {
@@ -242,7 +242,7 @@
       },
       {
         "label": "B",
-        "text": "-$\\frac{3}{2}$"
+        "text": "$-\\frac{3}{2}$"
       },
       {
         "label": "C",
@@ -329,7 +329,7 @@
     "difficulty": "Easy",
     "question_number": 13,
     "test_name": "Module Source 139 Math M1",
-    "passage": "In triangle $DEF$, the measure of angle $D$ is 40º and the measure of angle $E$ is 95º. In triangle $RST$, the measure of angle $R$ is 40º and the measure of angle $S$ is 95º. Which of the following additional pieces of information is needed to determine whether triangle $DEF$ is similar to triangle $RST$?",
+    "passage": "In triangle $DEF$, the measure of angle $D$ is $40^\\circ$ and the measure of angle $E$ is $95^\\circ$. In triangle $RST$, the measure of angle $R$ is $40^\\circ$ and the measure of angle $S$ is $95^\\circ$. Which of the following additional pieces of information is needed to determine whether triangle $DEF$ is similar to triangle $RST$?",
     "question_text": null,
     "choices": [
       {

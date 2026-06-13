@@ -9,7 +9,7 @@
     },
     {
       "title": "Compute the area",
-      "content": "Area of a rectangle is $A = \\ell \\cdot w$, so $A = 35 \\cdot 5 = 175$ square cm. Choice <strong>A</strong> matches."
+      "content": "Area of a rectangle is $A = \\ell \\cdot w$, so $A = 35 \\cdot 5 = 175$ square cm. <strong>A</strong> matches."
     }
   ]
 }

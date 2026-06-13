@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Set up",
-      "content": "The rental costs $92 for the first day and $46 for each additional day. For $d$ total days there is 1 first day and $(d-1)$ additional days:$$C(d)=92+46(d-1)$$"
+      "content": "The rental costs \\$92 for the first day and \\$46 for each additional day. For $d$ total days there is 1 first day and $(d-1)$ additional days:$$C(d)=92+46(d-1)$$"
     },
     {
       "title": "Solve",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice A, $C(d) = 46d + 46$, and the other choices fail the same setup or substitution. Therefore <strong>A</strong> is correct."
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches the correct answer, $C(d) = 46d + 46$, and the other choices fail the same setup or substitution. Therefore <strong>A</strong> is correct."
     }
   ]
 }

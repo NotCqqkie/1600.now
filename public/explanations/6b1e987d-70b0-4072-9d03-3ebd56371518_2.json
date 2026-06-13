@@ -1,4 +1,5 @@
 {
+  "questionId": "6b1e987d-70b0-4072-9d03-3ebd56371518_2",
   "qid": "6b1e987d-70b0-4072-9d03-3ebd56371518_2",
   "steps": [
     {
@@ -8,7 +9,7 @@
       "explanation": "Factor out $x^{4}$: $7x^{6} - 2x^{5} + 9x^{4} = x^{4}(7x^{2} - 2x + 9)$."
     },
     {
-      "explanation": "Evaluating all choices:<ul><li>Choice A: $x^{5}(7x - 2)$. Expanding gives $7x^{6} - 2x^{5}$, missing the $9x^{4}$ term. Incorrect.</li><li>Choice B: $x^{4}(7x^{2} - 2x + 9)$. Expanding gives $7x^{6} - 2x^{5} + 9x^{4}$ &#10003;. That matches choice B &mdash; <strong>B</strong> is correct.</li><li>Choice C: $x^{4}(7x^{2} - 2x + 1)$. Expanding gives $7x^{6} - 2x^{5} + x^{4}$, not $9x^{4}$. Incorrect.</li><li>Choice D: $x^{6}(-2x^{5} + 9x^{4} + 1)$. Expanding gives terms with $x^{11}$ and $x^{10}$, completely different. Incorrect.</li></ul>"
+      "explanation": "Evaluating all choices:<ul><li><strong>Choice A &mdash; &lsquo;$x^5(7x - 2)$&rsquo;</strong>: $x^{5}(7x - 2)$. Expanding gives $7x^{6} - 2x^{5}$, missing the $9x^{4}$ term. Incorrect.</li><li><strong>Choice B &mdash; &lsquo;$x^4(7x^2 - 2x + 9)$&rsquo;</strong>: $x^{4}(7x^{2} - 2x + 9)$. Expanding gives $7x^{6} - 2x^{5} + 9x^{4}$ &#10003;. That confirms <strong>B</strong> is correct.</li><li><strong>Choice C &mdash; &lsquo;$x^4(7x^2 - 2x + 1)$&rsquo;</strong>: $x^{4}(7x^{2} - 2x + 1)$. Expanding gives $7x^{6} - 2x^{5} + x^{4}$, not $9x^{4}$. Incorrect.</li><li><strong>Choice D &mdash; &lsquo;$x^6(-2x^5 + 9x^4 + 1)$&rsquo;</strong>: $x^{6}(-2x^{5} + 9x^{4} + 1)$. Expanding gives terms with $x^{11}$ and $x^{10}$, completely different. Incorrect.</li></ul>"
     }
   ],
   "correctAnswer": "B"

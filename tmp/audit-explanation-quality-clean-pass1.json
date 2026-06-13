@@ -1,0 +1,14 @@
+
+> vite_react_shadcn_ts@0.0.0 audit:explanation-quality
+> node scripts/audit-explanation-quality.mjs --format=json --fail=false
+
+{
+  "summary": {
+    "issues": 0,
+    "totalIssues": 0,
+    "byType": {},
+    "reportLimit": 80,
+    "typeFilter": null
+  },
+  "issues": []
+}

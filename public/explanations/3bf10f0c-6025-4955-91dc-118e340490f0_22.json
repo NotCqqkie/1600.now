@@ -9,7 +9,7 @@
     },
     {
       "title": "Solve Case 1",
-      "content": "When $3x - 1 \\geq 0$:<br/>$$2(3x - 1) = 4x + 9$$<br/>$$6x - 2 = 4x + 9$$<br/>$$2x = 11$$<br/>$$x = \\frac{11}{2}$$<br/>Verify: $3 \\cdot \\frac{11}{2} - 1 = \\frac{31}{2} > 0$ ✓"
+      "content": "When $3x - 1 \\geq 0$:<br/>$$2(3x - 1) = 4x + 9$$<br/>$$6x - 2 = 4x + 9$$<br/>$$2x = 11$$<br/>$$x = \\frac{11}{2}$$<br/>Verify: $3 \\cdot \\frac{11}{2} - 1 = \\frac{31}{2} \\gt  0$ ✓"
     },
     {
       "title": "Solve Case 2",

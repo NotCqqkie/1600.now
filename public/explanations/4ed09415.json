@@ -1,1 +1,19 @@
-{"questionId": "4ed09415", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the question type", "content": "This is a text-structure question. We must map each part of the passage to a structural description."}, {"title": "Reason toward the answer", "content": "The passage (1) describes the fruit-bat finding and explains it via cost-benefit reasoning, (2) notes that most other nocturnal mammals respond similarly &mdash; marking the finding as a general pattern, then (3) introduces mongoose lemurs as an exception and explains the exception by their visual-foraging reliance."}, {"title": "Eliminate the wrong choices", "content": "<ul><li><strong>Choice A &mdash; 'suggests that the other response still needs to be explained'</strong>: the lemurs' opposite pattern IS explained (visual foraging changes the reward/risk balance), so the structure isn't &quot;needs to be explained.&quot; &#10007;</li><li><strong>Choice C &mdash; 'attributes a conflicting study result to a difference in that study's methods'</strong>: the text never discusses methodology &mdash; the lemurs' difference is biological, not methodological. &#10007;</li><li><strong>Choice D &mdash; 'an exception...that casts doubt on that explanation'</strong>: the lemur exception doesn't undermine the cost-benefit explanation; it actually confirms it by showing a different cost-benefit balance still drives behavior. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "4ed09415",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the question type",
+      "content": "This is a text-structure question. We must map each part of the passage to a structural description."
+    },
+    {
+      "title": "Reason toward the answer",
+      "content": "The passage (1) describes the fruit-bat finding and explains it via cost-benefit reasoning, (2) notes that most other nocturnal mammals respond similarly &mdash; marking the finding as a general pattern, then (3) introduces mongoose lemurs as an exception and explains the exception by their visual-foraging reliance."
+    },
+    {
+      "title": "Eliminate the wrong choices",
+      "content": "<ul><li><strong>Choice A — It discusses two different responses to the same natural phenomenon, explains why one of those responses occurs, and then suggests that the other response still needs to be explained.</strong>: the lemurs' opposite pattern IS explained (visual foraging changes the reward/risk balance), so the structure isn't &quot;needs to be explained.&quot; &#10007;</li><li><strong>Choice C — It presents and explains a study result, indicates that the result is similar to the results of many other studies, and then attributes a conflicting study result to a difference in that study's methods.</strong>: the text never discusses methodology &mdash; the lemurs' difference is biological, not methodological. &#10007;</li><li><strong>Choice D — It introduces an observation of a behavioral pattern, presents an explanation for the pattern, and then describes an exception to the pattern that casts doubt on that explanation.</strong>: the lemur exception doesn't undermine the cost-benefit explanation; it actually confirms it by showing a different cost-benefit balance still drives behavior. &#10007;</li></ul><strong>B</strong> is correct."
+    }
+  ]
+}

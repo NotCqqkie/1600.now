@@ -1,1 +1,15 @@
-{"questionId":"c54d1c21-6311-4c45-9089-a236778df0e9_13","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify the claim","content":"The blank must give graph data showing <em>natural forest regrowth</em> after the mid-1980s. The completing evidence must show forest cover <strong>increasing</strong> in the post-1980s period."},{"title":"Match the data","content":"An increase in forest cover for all classes from 1979 to 2000 directly evidences regrowth across the recovery period. The other options describe declines, single-year comparisons, or similarities that don't demonstrate growth. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}
+{
+  "questionId": "c54d1c21-6311-4c45-9089-a236778df0e9_13",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the claim",
+      "content": "The blank must give graph data showing <em>natural forest regrowth</em> after the mid-1980s. The completing evidence must show forest cover <strong>increasing</strong> in the post-1980s period."
+    },
+    {
+      "title": "Match the data",
+      "content": "An increase in forest cover for all classes from 1979 to 2000 directly evidences regrowth across the recovery period. The other options describe declines, single-year comparisons, or similarities that don't demonstrate growth. That is the correct answer."
+    }
+  ]
+}

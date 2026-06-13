@@ -1,1 +1,15 @@
-{"questionId":"1bab97be-1fd5-4874-9973-125f743d4cac_3","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage says buyers who hadn't previously wanted old action figures suddenly thronged the market. The blank must describe what rising prices did to this demand — demand that did not exist before and then appeared."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'satisfying'</strong>: satisfying demand means meeting existing desire. These buyers had no prior desire — demand was nonexistent. Opposite of what happened. &#10007;</li><li><strong>Choice B &mdash; 'capitalizing'</strong>: you capitalize on something, not capitalize demand itself. Unidiomatic. &#10007;</li><li><strong>Choice C &mdash; 'exploiting'</strong>: exploiting demand means taking advantage of demand that already exists. This demand was newly created, not pre-existing. &#10007;</li><li><strong>Choice D &mdash; 'eliciting'</strong>: eliciting means drawing out or calling forth something not previously present. Buyers who hadn't wanted the figures before now thronged the market — demand was brought into existence. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "1bab97be-1fd5-4874-9973-125f743d4cac_3",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage says buyers who hadn't previously wanted old action figures suddenly thronged the market. The blank must describe what rising prices did to this demand — demand that did not exist before and then appeared."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; satisfying</strong>: satisfying demand means meeting existing desire. These buyers had no prior desire — demand was nonexistent. Opposite of what happened. &#10007;</li><li><strong>Choice B &mdash; capitalizing</strong>: you capitalize on something, not capitalize demand itself. Unidiomatic. &#10007;</li><li><strong>Choice C &mdash; exploiting</strong>: exploiting demand means taking advantage of demand that already exists. This demand was newly created, not pre-existing. &#10007;</li><li><strong>Choice D &mdash; eliciting</strong>: eliciting means drawing out or calling forth something not previously present. Buyers who hadn't wanted the figures before now thronged the market — demand was brought into existence. &#10003;</li></ul>That matches <strong>Choice D &mdash; eliciting</strong>."
+    }
+  ]
+}

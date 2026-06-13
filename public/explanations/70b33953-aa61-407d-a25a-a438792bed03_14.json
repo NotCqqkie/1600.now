@@ -17,11 +17,11 @@
     },
     {
       "title": "Check the other choices",
-      "content": "<ul><li><strong>Choice A &mdash; &apos;153&apos;</strong>: $BC = 153$ gives $k = \\frac{9}{153} = \\frac{1}{17}$, so $D$ is $\\frac{1}{17}$ of the way from $B$ to $A$. No consistent solution emerges. &#10007;</li><li><strong>Choice B &mdash; &apos;34&apos;</strong>: $BC = 34$ gives $k = \\frac{9}{34}$. Then $AB = \\sqrt{34^2 - 17^2} = \\sqrt{1156 - 289} = \\sqrt{867}$, and $BD = \\frac{9\\sqrt{867}}{34}$. This does not satisfy the geometric constraint. &#10007;</li><li><strong>Choice C &mdash; &apos;26&apos;</strong>: $BC = 26$ gives $k = \\frac{9}{26}$. Then $AB = \\sqrt{676 - 289} = \\sqrt{387}$, and $BD = \\frac{9\\sqrt{387}}{26}$. Not consistent. &#10007;</li><li><strong>Choice D &mdash; &apos;18&apos;</strong>: $BC = 18$ gives $k = \\frac{1}{2}$, $E$ is the midpoint of $BC$, $D$ is the midpoint of $AB$, and $AB = \\sqrt{35}$. The configuration is fully consistent. &#10003;</li></ul>"
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;153&rsquo;</strong>: $BC = 153$ gives $k = \\frac{9}{153} = \\frac{1}{17}$, so $D$ is $\\frac{1}{17}$ of the way from $B$ to $A$. No consistent solution emerges. &#10007;</li><li><strong>Choice B &mdash; &lsquo;34&rsquo;</strong>: $BC = 34$ gives $k = \\frac{9}{34}$. Then $AB = \\sqrt{34^2 - 17^2} = \\sqrt{1156 - 289} = \\sqrt{867}$, and $BD = \\frac{9\\sqrt{867}}{34}$. This does not satisfy the geometric constraint. &#10007;</li><li><strong>Choice C &mdash; &lsquo;26&rsquo;</strong>: $BC = 26$ gives $k = \\frac{9}{26}$. Then $AB = \\sqrt{676 - 289} = \\sqrt{387}$, and $BD = \\frac{9\\sqrt{387}}{26}$. Not consistent. &#10007;</li><li><strong>Choice D &mdash; &lsquo;18&rsquo;</strong>: $BC = 18$ gives $k = \\frac{1}{2}$, $E$ is the midpoint of $BC$, $D$ is the midpoint of $AB$, and $AB = \\sqrt{35}$. The configuration is fully consistent. &#10003;</li></ul>"
     },
     {
       "title": "Conclusion",
-      "content": "With $BC = 18$, $k = \\frac{1}{2}$, $D$ is the midpoint of $AB$ and $E$ is the midpoint of $BC$. That matches choice D &mdash; <strong>D</strong> is correct."
+      "content": "With $BC = 18$, $k = \\frac{1}{2}$, $D$ is the midpoint of $AB$ and $E$ is the midpoint of $BC$. That confirms <strong>D</strong> is correct."
     }
   ]
 }

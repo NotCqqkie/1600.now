@@ -9,7 +9,7 @@
     },
     {
       "title": "Table lookup",
-      "content": "The answer choices are 1, 6, 20, and 26. Scanning the table, neither 1 nor 6 appears as a listed value with a positive frequency — they are not entries in the data set. The smallest value that does appear with a non-zero frequency is 20. That matches choice C — <strong>C</strong> is correct."
+      "content": "The answer choices are 1, 6, 20, and 26. Scanning the table, neither 1 nor 6 appears as a listed value with a positive frequency — they are not entries in the data set. The smallest value that does appear with a non-zero frequency is 20. That is the correct answer."
     }
   ]
 }

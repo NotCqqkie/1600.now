@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li>A: $33$. Closest to $33.42$ (difference $0.42$). Correct.</li><li>B: $49$. Too large (difference $15.58$); would require $x \\approx 69$.</li><li>C: $65$. Far too large; would require $x \\approx 93$.</li><li>D: $150$. Way off; the maximum predicted larvae at $x=110$ is only $\\approx 76$.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li>A: $33$. Closest to $33.42$ (difference $0.42$). Correct.</li><li>B: $49$. Too large (difference $15.58$); would require $x \\approx 69$.</li><li>C: $65$. Far too large; would require $x \\approx 93$.</li><li>D: $150$. Way off; the maximum predicted larvae at $x=110$ is only $\\approx 76$.</li></ul>That matches <strong>Choice A &mdash; 33</strong>."
     }
   ]
 }

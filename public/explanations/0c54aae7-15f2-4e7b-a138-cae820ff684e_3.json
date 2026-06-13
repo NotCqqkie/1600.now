@@ -9,7 +9,7 @@
     },
     {
       "title": "Test all four choices",
-      "content": "<ul><li><strong>Choice A &mdash; $r = 21$</strong>: $(5-21)x = 4 \\Rightarrow -16x = 4 \\Rightarrow x = -\\frac{1}{4}$. Exactly one solution. &#10007;</li><li><strong>Choice B &mdash; $r = 8$</strong>: $(5-8)x = 4 \\Rightarrow -3x = 4 \\Rightarrow x = -\\frac{4}{3}$. Exactly one solution. &#10007;</li><li><strong>Choice C &mdash; $r = 7$</strong>: $(5-7)x = 4 \\Rightarrow -2x = 4 \\Rightarrow x = -2$. Exactly one solution. &#10007;</li><li><strong>Choice D &mdash; $r = 5$</strong>: $(5-5)x = 4 \\Rightarrow 0 = 4$. Contradiction &mdash; no solution exists. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; $21$</strong>: $(5-21)x = 4 \\Rightarrow -16x = 4 \\Rightarrow x = -\\frac{1}{4}$. Exactly one solution. &#10007;</li><li><strong>Choice B &mdash; $8$</strong>: $(5-8)x = 4 \\Rightarrow -3x = 4 \\Rightarrow x = -\\frac{4}{3}$. Exactly one solution. &#10007;</li><li><strong>Choice C &mdash; $7$</strong>: $(5-7)x = 4 \\Rightarrow -2x = 4 \\Rightarrow x = -2$. Exactly one solution. &#10007;</li><li><strong>Choice D &mdash; $5$</strong>: $(5-5)x = 4 \\Rightarrow 0 = 4$. Contradiction &mdash; no solution exists. &#10003;</li></ul>That matches <strong>Choice D &mdash; $5$</strong>."
     }
   ]
 }

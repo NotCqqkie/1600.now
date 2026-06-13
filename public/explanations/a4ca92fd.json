@@ -1,1 +1,15 @@
-{"questionId":"a4ca92fd","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"This is a vocabulary-in-context question. The blank describes Wauneka's effort to promote public health. The decisive clue is the word &quot;continuously&quot; — the correct answer must capture that her work was ongoing and sustained over time."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;impartial&rsquo;</strong>: Means unbiased or treating all equally. The passage says Wauneka focused specifically on the Navajo homeland and Navajo-language speakers — her effort was directed, not impartial. &#10007;</li><li><strong>Choice B &mdash; &lsquo;offhand&rsquo;</strong>: Means casual or done without much thought. Traveling throughout a vast homeland and writing a medical dictionary requires clear dedication, not casualness. &#10007;</li><li><strong>Choice C &mdash; &lsquo;persistent&rsquo;</strong>: Means continuing steadily over time — a direct match for &quot;continuously worked.&quot; &#10003;</li><li><strong>Choice D &mdash; &lsquo;mandatory&rsquo;</strong>: Means required by law or rule. Nothing in the passage suggests Wauneka was obligated to do this work; the text highlights the sustained nature of her effort, not its compulsory status. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "a4ca92fd",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a vocabulary-in-context question. The blank describes Wauneka's effort to promote public health. The decisive clue is the word &quot;continuously&quot; — the correct answer must capture that her work was ongoing and sustained over time."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; impartial</strong>: Means unbiased or treating all equally. The passage says Wauneka focused specifically on the Navajo homeland and Navajo-language speakers — her effort was directed, not impartial. &#10007;</li><li><strong>Choice B &mdash; offhand</strong>: Means casual or done without much thought. Traveling throughout a vast homeland and writing a medical dictionary requires clear dedication, not casualness. &#10007;</li><li><strong>Choice C &mdash; persistent</strong>: Means continuing steadily over time — a direct match for &quot;continuously worked.&quot; &#10003;</li><li><strong>Choice D &mdash; mandatory</strong>: Means required by law or rule. Nothing in the passage suggests Wauneka was obligated to do this work; the text highlights the sustained nature of her effort, not its compulsory status. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

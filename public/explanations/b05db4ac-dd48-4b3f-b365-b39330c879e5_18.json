@@ -9,7 +9,7 @@
     },
     {
       "title": "Horizontal shift preserves minimum",
-      "content": "$g(x) = f(x + 8)$ is a horizontal shift — it moves the parabola left 8 units but does not change its minimum <em>value</em>. So the minimum of $g$ is also $1$. That matches choice C — <strong>C</strong> is correct."
+      "content": "$g(x) = f(x + 8)$ is a horizontal shift — it moves the parabola left 8 units but does not change its minimum <em>value</em>. So the minimum of $g$ is also $1$. That is the correct answer."
     }
   ]
 }

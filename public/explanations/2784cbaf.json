@@ -1,1 +1,15 @@
-{"questionId": "2784cbaf", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the plural noun needed", "content": "The phrase “each of five ____” requires a plural noun for the five items being counted. <strong>Variable's</strong> (choice A) is singular possessive, not a plural count noun. We need <strong>variables</strong> as the plural form."}, {"title": "Apply the correct possessive form", "content": "These kinematic variables describe the motion of objects as a general principle in physics.<br/><br/>The plural possessive form <strong>objects'</strong> correctly expresses that these variables apply to all objects' motion, not just a single object's.<br/><br/>This eliminates choice C, which uses singular <strong>object's</strong>, and choice D, which omits the possessive apostrophe entirely.<br/><br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}
+{
+  "questionId": "2784cbaf",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the plural noun needed",
+      "content": "The phrase “each of five ____” requires a plural noun for the five items being counted. <strong>Variable's</strong> (<strong>Choice A &mdash; variable's that characterize objects'</strong>) is singular possessive, not a plural count noun. We need <strong>variables</strong> as the plural form."
+    },
+    {
+      "title": "Apply the correct possessive form",
+      "content": "These kinematic variables describe the motion of objects as a general principle in physics.<br/><br/>The plural possessive form <strong>objects'</strong> correctly expresses that these variables apply to all objects' motion, not just a single object's.<br/><br/>This eliminates <strong>Choice C &mdash; variables that characterize object's</strong>, which uses singular <strong>object's</strong>, and <strong>Choice D &mdash; variables that characterize objects</strong>, which omits the possessive apostrophe entirely.<br/><br/>That matches <strong>Choice B &mdash; variables that characterize objects'</strong>."
+    }
+  ]
+}

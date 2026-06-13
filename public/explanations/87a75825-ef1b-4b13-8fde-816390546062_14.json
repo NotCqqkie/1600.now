@@ -9,11 +9,11 @@
     },
     {
       "title": "Add the values",
-      "content": "$2^4 + 2^5 = 16 + 32 = 48$. That matches choice B — <strong>B</strong> is correct."
+      "content": "$2^4 + 2^5 = 16 + 32 = 48$. That confirms <strong>B</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice B, 48. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches the correct answer, 48. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
     }
   ]
 }

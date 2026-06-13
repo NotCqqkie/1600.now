@@ -1,1 +1,15 @@
-{"questionId":"76199cca-674f-403e-a01c-927854021f9f_23","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage first describes islands that became independent nations, then names islands that are still part of the US or France. The blank must signal a direct contrast between these two opposite outcomes."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Similarly'</strong>: signals that the same pattern continues. The second outcome is the opposite of the first, not the same. &#10007;</li><li><strong>Choice B &mdash; 'For instance'</strong>: signals an illustration of what came before. The islands mentioned are a contrasting case, not an example of independence. &#10007;</li><li><strong>Choice C &mdash; 'As a result'</strong>: signals a consequence. Non-independence is not caused by the independence of other islands. &#10007;</li><li><strong>Choice D &mdash; 'On the other hand'</strong>: signals the direct opposite of the preceding claim &mdash; exactly the shift from independent to non-independent islands. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "76199cca-674f-403e-a01c-927854021f9f_23",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage first describes islands that became independent nations, then names islands that are still part of the US or France. The blank must signal a direct contrast between these two opposite outcomes."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;For example,&rsquo;</strong>: signals that the same pattern continues. The second outcome is the opposite of the first, not the same. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Therefore,&rsquo;</strong>: signals an illustration of what came before. The islands mentioned are a contrasting case, not an example of independence. &#10007;</li><li><strong>Choice C &mdash; &lsquo;In fact,&rsquo;</strong>: signals a consequence. Non-independence is not caused by the independence of other islands. &#10007;</li><li><strong>Choice D &mdash; &lsquo;On the other hand,&rsquo;</strong>: signals the direct opposite of the preceding claim &mdash; exactly the shift from independent to non-independent islands. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

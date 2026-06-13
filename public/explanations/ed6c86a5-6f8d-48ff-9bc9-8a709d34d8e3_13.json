@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the proportion to find YZ",
-      "content": "For similar triangles, corresponding sides are proportional:<br/>$$\\frac{WQ}{YQ} = \\frac{WX}{YZ}$$<br/>$$\\frac{90}{27} = \\frac{60}{YZ}$$<br/>Cross multiply:<br/>$$90 \\cdot YZ = 1620$$<br/>$$YZ = 18$$<br/>That matches choice A — <strong>A</strong> is correct."
+      "content": "For similar triangles, corresponding sides are proportional:<br/>$$\\frac{WQ}{YQ} = \\frac{WX}{YZ}$$<br/>$$\\frac{90}{27} = \\frac{60}{YZ}$$<br/>Cross multiply:<br/>$$90 \\cdot YZ = 1620$$<br/>$$YZ = 18$$<br/>That matches the correct answer — <strong>A</strong> is correct."
     }
   ]
 }

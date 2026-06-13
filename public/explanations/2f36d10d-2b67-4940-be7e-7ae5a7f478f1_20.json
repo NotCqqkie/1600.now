@@ -1,1 +1,15 @@
-{"questionId": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_20", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The blank follows &lsquo;functions&rsquo; and precedes a &lsquo;whereas&rsquo; clause that explains the mechanism behind how cells develop different functions. The question asks which punctuation correctly joins the main clause to that explanatory dependent clause."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'functions,'</strong>: A comma alone is too weak to signal that what follows is a full explanation of the preceding statement. &#10007;</li><li><strong>Choice B &mdash; 'functions'</strong>: No punctuation at all leaves no signal of the explanatory relationship between the two clauses. &#10007;</li><li><strong>Choice C &mdash; 'functions and,'</strong>: Adding &lsquo;and&rsquo; with a comma is illogical; &lsquo;and&rsquo; coordinates, but the &lsquo;whereas&rsquo; clause contrasts and explains rather than simply adding information. &#10007;</li><li><strong>Choice D &mdash; 'functions:'</strong>: A colon introduces an elaboration or explanation of the preceding independent clause. The &lsquo;whereas&rsquo; clause explains how cells with identical DNA develop different functions &mdash; exactly the explanatory role a colon signals. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_20",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank follows &lsquo;functions&rsquo; and precedes a &lsquo;whereas&rsquo; clause that explains the mechanism behind how cells develop different functions. The question asks which punctuation correctly joins the main clause to that explanatory dependent clause."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — functions,</strong>: A comma alone is too weak to signal that what follows is a full explanation of the preceding statement. &#10007;</li><li><strong>Choice B — functions</strong>: No punctuation at all leaves no signal of the explanatory relationship between the two clauses. &#10007;</li><li><strong>Choice C — functions and,</strong>: Adding &lsquo;and&rsquo; with a comma is illogical; &lsquo;and&rsquo; coordinates, but the &lsquo;whereas&rsquo; clause contrasts and explains rather than simply adding information. &#10007;</li><li><strong>Choice D — functions:</strong>: A colon introduces an elaboration or explanation of the preceding independent clause. The &lsquo;whereas&rsquo; clause explains how cells with identical DNA develop different functions &mdash; exactly the explanatory role a colon signals. &#10003;</li></ul><strong>D</strong> is correct."
+    }
+  ]
+}

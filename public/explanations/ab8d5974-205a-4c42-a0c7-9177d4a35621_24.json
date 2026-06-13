@@ -1,1 +1,15 @@
-{"questionId":"ab8d5974-205a-4c42-a0c7-9177d4a35621_24","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The task is to emphasize a <em>similarity</em> between the two specimens: Jane (a Tyrannosaurus) and Fafnir (a Triceratops). The correct choice must bring both specimens together around a shared characteristic from the notes."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Both the Tyrannosaurus fossil specimen Jane and the Triceratops fossil specimen Fafnir lived in the Late Cretaceous Period.'</strong>: Directly names both specimens and identifies the one trait they share &mdash; living in the Late Cretaceous Period. This is the similarity. &#10003;</li><li><strong>Choice B &mdash; 'While the Tyrannosaurus fossil specimen Jane is in Rockford, Illinois, the Triceratops fossil specimen Fafnir is in Saint Paul, Minnesota.'</strong>: Contrasts the two specimens by location rather than emphasizing a similarity. &#10007;</li><li><strong>Choice C &mdash; 'The Burpee Museum of Natural History is home to Jane, a Tyrannosaurus fossil specimen from the Late Cretaceous period.'</strong>: Mentions only Jane; Fafnir is absent. Does not compare two specimens. &#10007;</li><li><strong>Choice D &mdash; 'Dinosaur fossil specimens can be found at science museums all over the world, including in Rockford, Illinois, and Saint Paul, Minnesota.'</strong>: Makes a general claim about museums, not a direct statement about Jane and Fafnir specifically. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "ab8d5974-205a-4c42-a0c7-9177d4a35621_24",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The task is to emphasize a <em>similarity</em> between the two specimens: Jane (a Tyrannosaurus) and Fafnir (a Triceratops). The correct choice must bring both specimens together around a shared characteristic from the notes."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Both the <em>Tyrannosaurus</em> fossil specimen Jane and the Triceratops fossil specimen Fafnir lived in the Late Cretaceous Period.</strong>: Directly names both specimens and identifies the one trait they share &mdash; living in the Late Cretaceous Period. This is the similarity. &#10003;</li><li><strong>Choice B &mdash; While the <em>Tyrannosaurus</em> fossil specimen Jane is in Rockford, Illinois, the <em>Triceratops</em> fossil specimen Fafnir is in Saint Paul, Minnesota.</strong>: Contrasts the two specimens by location rather than emphasizing a similarity. &#10007;</li><li><strong>Choice C &mdash; The Burpee Museum of Natural History is home to Jane, a <em>Tyrannosaurus</em> fossil specimen from the Late Cretaceous period.</strong>: Mentions only Jane; Fafnir is absent. Does not compare two specimens. &#10007;</li><li><strong>Choice D &mdash; Dinosaur fossil specimens can be found at science museums all over the world, including in Rockford, Illinois, and Saint Paul, Minnesota.</strong>: Makes a general claim about museums, not a direct statement about Jane and Fafnir specifically. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

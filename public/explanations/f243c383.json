@@ -13,7 +13,7 @@
     },
     {
       "title": "Solve for the side length",
-      "content": "Cross multiply:<br/>$$47(s + 360) = 92(s + 180)$$<br/>$$47s + 16920 = 92s + 16560$$<br/>$$360 = 45s$$<br/>$$s = 8$$<br/>That matches choice B — <strong>B</strong> is correct."
+      "content": "Cross multiply:<br/>$$47(s + 360) = 92(s + 180)$$<br/>$$47s + 16920 = 92s + 16560$$<br/>$$360 = 45s$$<br/>$$s = 8$$<br/>That matches the correct answer — <strong>B</strong> is correct."
     }
   ]
 }

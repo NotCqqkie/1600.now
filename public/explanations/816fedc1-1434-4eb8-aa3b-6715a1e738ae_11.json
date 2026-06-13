@@ -9,7 +9,7 @@
     },
     {
       "title": "Match the result to the choices",
-      "content": "The computed value 7 matches choice B. That matches choice B — <strong>B</strong> is correct."
+      "content": "The computed value is $7$, matching the source choice text <strong>7</strong>. That confirms <strong>B</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId":"bc839e02-25bc-4632-be4e-0c0b81f62962_26","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The student wants to identify what causes meanders. The notes state the mechanism directly: water erodes sediment from one side of the riverbank and redeposits it on the opposite side. The correct choice must state this cause-and-effect relationship."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;Over time, many meanders have formed in the Araguaia River, a river in Brazil with high sinuosity.&apos;</strong>: this describes a property of the Araguaia River but says nothing about what causes meanders to form. &#10007;</li><li><strong>Choice B &mdash; &apos;The meanders in the Araguaia River will change shape and shift downstream over time.&apos;</strong>: this describes what meanders do after they form, not what causes them. &#10007;</li><li><strong>Choice C &mdash; &apos;High sinuosity is caused by the formation of many meanders over time.&apos;</strong>: this reverses the relationship &mdash; sinuosity describes a river with many meanders, but the notes say nothing about sinuosity causing meanders. &#10007;</li><li><strong>Choice D &mdash; &apos;The erosion and redepositing of sediment from one side of a riverbank to the other forms meanders over time.&apos;</strong>: this directly states the causal mechanism given in the notes. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "bc839e02-25bc-4632-be4e-0c0b81f62962_26",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The student wants to identify what causes meanders. The notes state the mechanism directly: water erodes sediment from one side of the riverbank and redeposits it on the opposite side. The correct choice must state this cause-and-effect relationship."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Over time, many meanders have formed in the Araguaia River, a river in Brazil with high sinuosity.</strong>: this describes a property of the Araguaia River but says nothing about what causes meanders to form. &#10007;</li><li><strong>Choice B &mdash; The meanders in the Araguaia River will change shape and shift downstream over time.</strong>: this describes what meanders do after they form, not what causes them. &#10007;</li><li><strong>Choice C &mdash; High sinuosity is caused by the formation of many meanders, or curves, in a riverbank over time.</strong>: this reverses the relationship &mdash; sinuosity describes a river with many meanders, but the notes say nothing about sinuosity causing meanders. &#10007;</li><li><strong>Choice D &mdash; The erosion and redepositing of sediment from one side of a riverbank to the other forms meanders, or curves, over time.</strong>: this directly states the causal mechanism given in the notes. &#10003;</li></ul>That is the correct answer."
+    }
+  ]
+}

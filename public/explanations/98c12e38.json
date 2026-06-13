@@ -10,7 +10,7 @@
     },
     {
       "title": "Add the areas of circles K and L",
-      "content": "We have the area of circle $K$ as $16\\pi$ mm$^2$ and the area of circle $L$ as $100\\pi$ mm$^2$ (given). The total area is $$A_{\\text{total}} = 16\\pi + 100\\pi = 116\\pi \\text{ mm}^2$$ That matches choice D — <strong>D</strong> is correct."
+      "content": "We have the area of circle $K$ as $16\\pi$ mm$^2$ and the area of circle $L$ as $100\\pi$ mm$^2$ (given). The total area is $$A_{\\text{total}} = 16\\pi + 100\\pi = 116\\pi \\text{ mm}^2$$ That confirms <strong>D</strong> is correct."
     }
   ]
 }

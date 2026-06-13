@@ -9,11 +9,11 @@
     },
     {
       "title": "Count the solutions",
-      "content": "There is exactly one solution. That matches choice <strong>A</strong> — <strong>A</strong> is correct."
+      "content": "There is exactly one solution. That matches <strong>Choice A &mdash; Exactly one</strong>."
     },
     {
       "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice A, Exactly one, and the other choices fail the same setup or substitution. Therefore <strong>A</strong> is correct."
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches <strong>Choice A &mdash; Exactly one</strong>, Exactly one, and the other choices fail the same setup or substitution. Therefore <strong>A</strong>."
     }
   ]
 }

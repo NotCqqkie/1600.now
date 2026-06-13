@@ -1,17 +1,22 @@
 {
+  "questionId": "ad300285-6ff9-46a9-97ab-7356c9cd2965_22",
   "qid": "ad300285-6ff9-46a9-97ab-7356c9cd2965_22",
   "steps": [
     {
-      "text": "Write $s(t)$ explicitly: $s(t) = r(t) + 1 = 55t - 2t^2 + 1$."
+      "title": "Step 1",
+      "content": "Write $s(t)$ explicitly: $s(t) = r(t) + 1 = 55t - 2t^2 + 1$."
     },
     {
-      "text": "Find the vertex of $s(t) = -2t^2 + 55t + 1$ using $t^* = -b/(2a)$: $t^* = -55 / (2 \\cdot -2) = 55/4$."
+      "title": "Step 2",
+      "content": "Find the vertex of $s(t) = -2t^2 + 55t + 1$ using $t^{\\ast} = -b/(2a)$: $t^{\\ast} = -55 / (2 \\cdot -2) = 55/4$."
     },
     {
-      "text": "Compute the maximum value: $s(55/4) = 55 \\cdot (55/4) - 2(55/4)^2 + 1 = (55^2/4) - 2(55^2/16) + 1 = 2(55/4)^2 + 1$. So the maximum is $1 + 2\\left(\\dfrac{55}{4}\\right)^2$."
+      "title": "Step 3",
+      "content": "Compute the maximum value: $s(55/4) = 55 \\cdot (55/4) - 2(55/4)^2 + 1 = (55^2/4) - 2(55^2/16) + 1 = 2(55/4)^2 + 1$. So the maximum is $1 + 2\\left(\\dfrac{55}{4}\\right)^2$."
     },
     {
-      "text": "<ul><li>Choice A: $1 + \\left(\\dfrac{55}{2}\\right)^2$ - wrong coefficient (missing the 2) and wrong denominator. Incorrect.</li><li>Choice B: $1 + 2\\left(\\dfrac{55}{4}\\right)^2$ - matches the vertex value exactly. That matches choice B - <strong>B</strong> is correct.</li><li>Choice C: $1 - 2\\left(\\dfrac{55}{4}\\right)^2$ - subtracts instead of adds, which would give a minimum, not a maximum. Incorrect.</li><li>Choice D: $1 - 2\\left(\\dfrac{55}{2}\\right)^2$ - wrong sign and wrong denominator. Incorrect.</li></ul>"
+      "title": "Step 4",
+      "content": "<ul><li><strong>$1 + \\left(\\frac{55}{2}\\right)^2$</strong> $1 + \\left(\\frac{55}{2}\\right)^2$ - wrong coefficient (missing the 2) and wrong denominator. Incorrect.</li><li><strong>$1 + 2\\left(\\frac{55}{4}\\right)^2$</strong> $1 + 2\\left(\\frac{55}{4}\\right)^2$ - matches the vertex value exactly. That is the correct answer.</li><li><strong>$1 - 2\\left(\\frac{55}{4}\\right)^2$</strong> $1 - 2\\left(\\frac{55}{4}\\right)^2$ - subtracts instead of adds, which would give a minimum, not a maximum. Incorrect.</li><li><strong>$1 - 2\\left(\\frac{55}{2}\\right)^2$</strong> $1 - 2\\left(\\frac{55}{2}\\right)^2$ - wrong sign and wrong denominator. Incorrect.</li></ul>"
     }
   ],
   "correctAnswer": "B"

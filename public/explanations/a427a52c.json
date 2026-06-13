@@ -1,1 +1,19 @@
-{"questionId": "a427a52c", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the structures around the blank", "content": "The sentence opens with a participial phrase &mdash; &quot;Powered with [energy collected by solar panels during the day]&quot; &mdash; that modifies the main clause &quot;the blinking LEDs keep lions away at night.&quot; The blank holds the noun phrase inside that participial phrase plus whatever punctuation separates it from the main clause."}, {"title": "Apply the punctuation rules", "content": "Two rules apply: (1) an introductory participial phrase must be set off from the main clause by a single comma, and (2) the noun phrase &quot;energy collected by solar panels during the day&quot; is a tightly bound unit (noun + restrictive modifier) and cannot be broken up by internal commas."}, {"title": "Eliminate per choice", "content": "<ul><li><strong>Choice A &mdash; 'energy collected, by solar panels, during the day'</strong>: wrongly inserts commas around &quot;by solar panels,&quot; treating a restrictive modifier as parenthetical; it also lacks the required comma after the introductory participial phrase. &#10007;</li><li><strong>Choice B &mdash; 'energy collected by solar panels during the day'</strong>: keeps the noun phrase intact but omits the required comma between the introductory participial phrase and the main clause. &#10007;</li><li><strong>Choice C &mdash; 'energy collected by solar panels during the day,'</strong>: keeps the noun phrase intact and places the single required comma after the introductory phrase. &#10003;</li><li><strong>Choice D &mdash; 'energy, collected by solar panels during the day,'</strong>: wrongly inserts a comma between &quot;energy&quot; and its restrictive participial modifier &quot;collected by solar panels during the day.&quot; &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "a427a52c",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the structures around the blank",
+      "content": "The sentence opens with a participial phrase &mdash; &quot;Powered with [energy collected by solar panels during the day]&quot; &mdash; that modifies the main clause &quot;the blinking LEDs keep lions away at night.&quot; The blank holds the noun phrase inside that participial phrase plus whatever punctuation separates it from the main clause."
+    },
+    {
+      "title": "Apply the punctuation rules",
+      "content": "Two rules apply: (1) an introductory participial phrase must be set off from the main clause by a single comma, and (2) the noun phrase &quot;energy collected by solar panels during the day&quot; is a tightly bound unit (noun + restrictive modifier) and cannot be broken up by internal commas."
+    },
+    {
+      "title": "Eliminate per choice",
+      "content": "<ul><li><strong>Choice A &mdash; energy collected, by solar panels, during the day</strong>: wrongly inserts commas around &quot;by solar panels,&quot; treating a restrictive modifier as parenthetical; it also lacks the required comma after the introductory participial phrase. &#10007;</li><li><strong>Choice B &mdash; energy collected by solar panels during the day</strong>: keeps the noun phrase intact but omits the required comma between the introductory participial phrase and the main clause. &#10007;</li><li><strong>Choice C &mdash; energy collected by solar panels during the day,</strong>: keeps the noun phrase intact and places the single required comma after the introductory phrase. &#10003;</li><li><strong>Choice D &mdash; energy, collected by solar panels during the day,</strong>: wrongly inserts a comma between &quot;energy&quot; and its restrictive participial modifier &quot;collected by solar panels during the day.&quot; &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

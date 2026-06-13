@@ -13,7 +13,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; $\\frac{35}{16}$</strong>: This is far too small for a side in a triangle with hypotenuse 90. &#10007;</li><li><strong>Choice B &mdash; $\\frac{15}{4}$</strong>: Also far too small for a triangle with hypotenuse 90. &#10007;</li><li><strong>Choice C &mdash; $54$</strong>: $AB = 3m = 3(18) = 54$. Check: $54^2 + 72^2 = 2916 + 5184 = 8100 = 90^2$. &#10003;</li><li><strong>Choice D &mdash; $72$</strong>: That would be $BC$, not $AB$. $BC = 4m = 72$, but the question asks for $AB$. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; $\\frac{35}{16}$</strong>: This is far too small for a side in a triangle with hypotenuse 90. &#10007;</li><li><strong>Choice B &mdash; $\\frac{15}{4}$</strong>: Also far too small for a triangle with hypotenuse 90. &#10007;</li><li><strong>Choice C &mdash; $54$</strong>: $AB = 3m = 3(18) = 54$. Check: $54^2 + 72^2 = 2916 + 5184 = 8100 = 90^2$. &#10003;</li><li><strong>Choice D &mdash; $72$</strong>: That would be $BC$, not $AB$. $BC = 4m = 72$, but the question asks for $AB$. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId": "5cf5c0d3", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Eliminate wrong choices", "content": "<ul><li><strong>Choice A &mdash; 'Dark Cloud acted in significantly fewer films than did Lillian St. Cyr, who is credited with 66 performances.'</strong>: This merely compares two credited totals without suggesting either person&apos;s actual output could exceed what is recorded. &#10007;</li><li><strong>Choice B &mdash; 'Edwin Carewe&apos;s 47 credited acting roles includes only films made after 1934.'</strong>: The table shows Carewe was active through 1934, so this misrepresents the data. &#10007;</li><li><strong>Choice C &mdash; 'Lillian St. Cyr acted in far more than 66 films and Edwin Carewe directed more than 58.'</strong>: Both figures come from the table, and both are framed as lower bounds that actual totals could exceed &mdash; exactly the kind of example the passage calls for. &#10003;</li><li><strong>Choice D &mdash; 'James Young Deer actually directed 33 films and acted in only 10.'</strong>: This suggests the actual totals were lower than the credited counts, which contradicts the passage&apos;s point that credited counts are bare minimums. &#10007;</li></ul>"}, {"title": "Confirm the answer", "content": "Choice C is the only option that takes real values from the table and shows how actual output could exceed those credited numbers, which is precisely what the passage needs as an example. That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "5cf5c0d3",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Eliminate wrong choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Dark Cloud acted in significantly fewer films than did Lillian St. Cyr, who is credited with 66 performances.&rsquo;</strong>: This merely compares two credited totals without suggesting either person&apos;s actual output could exceed what is recorded. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Edwin Carewe's 47 credited acting roles includes only films made after 1934.&rsquo;</strong>: The table shows Carewe was active through 1934, so this misrepresents the data. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Lillian St. Cyr acted in far more than 66 films and Edwin Carewe directed more than 58.&rsquo;</strong>: Both figures come from the table, and both are framed as lower bounds that actual totals could exceed &mdash; exactly the kind of example the passage calls for. &#10003;</li><li><strong>Choice D &mdash; &lsquo;James Young Deer actually directed 33 films and acted in only 10.&rsquo;</strong>: This suggests the actual totals were lower than the credited counts, which contradicts the passage&apos;s point that credited counts are bare minimums. &#10007;</li></ul>"
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "Choice C (&lsquo;Lillian St. Cyr acted in far more than 66 films and Edwin Carewe directed more than 58.&rsquo;) is the only option that takes real values from the table and shows how actual output could exceed those credited numbers, which is precisely what the passage needs as an example. That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

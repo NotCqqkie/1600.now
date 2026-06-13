@@ -1,1 +1,19 @@
-{"section":"Reading and Writing","correctAnswer":"C","steps":[{"title":"Find the two independent clauses","content":"Clause 1: &quot;Before the park's construction, the surface temperature 30 meters outside of the park boundary was 0.1&deg;C cooler than that of a control area.&quot; Clause 2: &quot;After construction, the temperature 30 meters outside of the boundary was 1.7&deg;C cooler than that of the control area.&quot; Both can stand alone."},{"title":"Pick the right punctuation","content":"Two independent clauses must be joined by a period, a semicolon, or a comma plus a coordinating conjunction. A period before &quot;After&quot; works perfectly."},{"title":"Eliminate the wrong choices","content":"<ul><li><strong>Choice A &mdash; 'area after'</strong>: runs the two independent clauses together with no punctuation &mdash; run-on. &#10007;</li><li><strong>Choice B &mdash; 'area after,'</strong>: a comma after &quot;after&quot; awkwardly separates the introductory word from its clause and still creates a run-on between the two main clauses. &#10007;</li><li><strong>Choice C &mdash; 'area. After'</strong>: period correctly ends clause 1; &quot;After construction&quot; begins clause 2 with a proper intro phrase. &#10003;</li><li><strong>Choice D &mdash; 'area, after'</strong>: comma splice &mdash; a comma alone cannot join two independent clauses. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "6df020e6",
+  "section": "Reading and Writing",
+  "correctAnswer": "C",
+  "steps": [
+    {
+      "title": "Find the two independent clauses",
+      "content": "Clause 1: &quot;Before the park's construction, the surface temperature 30 meters outside of the park boundary was 0.1&deg;C cooler than that of a control area.&quot; Clause 2: &quot;After construction, the temperature 30 meters outside of the boundary was 1.7&deg;C cooler than that of the control area.&quot; Both can stand alone."
+    },
+    {
+      "title": "Pick the right punctuation",
+      "content": "Two independent clauses must be joined by a period, a semicolon, or a comma plus a coordinating conjunction. A period before &quot;After&quot; works perfectly."
+    },
+    {
+      "title": "Eliminate the wrong choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;area after&rsquo;</strong>: runs the two independent clauses together with no punctuation &mdash; run-on. &#10007;</li><li><strong>Choice B &mdash; &lsquo;area after,&rsquo;</strong>: a comma after &quot;after&quot; awkwardly separates the introductory word from its clause and still creates a run-on between the two main clauses. &#10007;</li><li><strong>Choice C &mdash; &lsquo;area. After&rsquo;</strong>: period correctly ends clause 1; &quot;After construction&quot; begins clause 2 with a proper intro phrase. &#10003;</li><li><strong>Choice D &mdash; &lsquo;area, after&rsquo;</strong>: comma splice &mdash; a comma alone cannot join two independent clauses. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 {
+  "questionId": "a07ed090",
   "qid": "a07ed090",
   "steps": [
     {
@@ -8,10 +9,10 @@
       "text": "Factor 392: $392 = 8 \\times 49 = 8 \\times 7^2$. So the ratio must satisfy $\\frac{R^2}{r^2} \\cdot \\frac{H}{h} = 392$."
     },
     {
-      "text": "Test each option by computing $\\frac{R^2}{r^2} \\cdot \\frac{H}{h}$: Option A gives $64 \\times 7 = 448$. Option B gives $64 \\times 49 = 3{,}136$. Option C gives $49 \\times 8 = 392$. Option D gives $2{,}401 \\times 8 = 19{,}208$."
+      "text": "Test each listed pair by computing $\\frac{R^2}{r^2} \\cdot \\frac{H}{h}$: $R=8r$ and $H=7h$ gives $64 \\times 7 = 448$; $R=8r$ and $H=49h$ gives $64 \\times 49 = 3{,}136$; $R=7r$ and $H=8h$ gives $49 \\times 8 = 392$; $R=49r$ and $H=8h$ gives $2{,}401 \\times 8 = 19{,}208$."
     },
     {
-      "text": "<ul><li>Choice A: $R = 8r$ and $H = 7h$ gives $(8)^2(7) = 448 \\neq 392$. Eliminated.</li><li>Choice B: $R = 8r$ and $H = 49h$ gives $(8)^2(49) = 3{,}136 \\neq 392$. Eliminated.</li><li>Choice C: $R = 7r$ and $H = 8h$ gives $(7)^2(8) = 49 \\times 8 = 392$. That matches choice C &mdash; <strong>C</strong> is correct.</li><li>Choice D: $R = 49r$ and $H = 8h$ gives $(49)^2(8) = 19{,}208 \\neq 392$. Eliminated.</li></ul>"
+      "text": "<ul><li><strong>Choice A &mdash; $R=8r$ and $H=7h$</strong>: The scale factor is $(8)^2(7)=448$, not $392$. &#10007;</li><li><strong>Choice B &mdash; $R=8r$ and $H=49h$</strong>: The scale factor is $(8)^2(49)=3{,}136$, not $392$. &#10007;</li><li><strong>Choice C &mdash; $R=7r$ and $H=8h$</strong>: The scale factor is $(7)^2(8)=392$, so this works. &#10003;</li><li><strong>Choice D &mdash; $R=49r$ and $H=8h$</strong>: The scale factor is $(49)^2(8)=19{,}208$, not $392$. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
     }
   ],
   "correctAnswer": "C"

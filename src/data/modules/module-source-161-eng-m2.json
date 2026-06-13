@@ -60,7 +60,7 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
-    "rationale": "Choice D is the best answer because it most logically completes the text’s discussion of the invention of the integrated circuit. As used in this context, \"transformed\" means substantially changed in some way. The text states that the invention radically altered the semiconductor industry, with some historians claiming that it had a fundamental effect on the industry by allowing for mass production for the first time. This context conveys that the invention of the integrated circuit transformed the semiconductor industry.\nChoice A is incorrect. Although the text indicates that the invention of the integrated circuit significantly affected (\"radically altered\") the semiconductor industry, it doesn’t indicate that the invention \"overwhelmed\" the industry, which in this context would mean that it overcame the industry such that the industry struggled or was defeated. Instead, the text conveys that the invention’s effect was positive, since it allowed the semiconductor industry to begin making use of mass production methods. Choice B is incorrect because it wouldn’t make sense in context to say that the invention of the integrated circuit \"bypassed\" the semiconductor industry, which would mean it intentionally avoided the industry. The text indicates that the invention directly affected the semiconductor industry, since it made it possible for the industry to begin engaging in mass production methods. Choice C is incorrect because the text doesn’t indicate that the invention of the integrated circuit \"obstructed\" the semiconductor industry, which would mean that it blocked or hindered the industry in some way. Instead, the text indicates that the invention’s effect was positive, since it made it possible for the semiconductor industry to begin engaging in mass production methods.",
+    "rationale": "Choice D is the best answer because it most logically completes the text's discussion of the invention of the integrated circuit. As used in this context, \"transformed\" means substantially changed in some way. The text states that the invention radically altered the semiconductor industry, with some historians claiming that it had a fundamental effect on the industry by allowing for mass production for the first time. This context conveys that the invention of the integrated circuit transformed the semiconductor industry.\nChoice A is incorrect. Although the text indicates that the invention of the integrated circuit significantly affected (\"radically altered\") the semiconductor industry, it doesn't indicate that the invention \"overwhelmed\" the industry, which in this context would mean that it overcame the industry such that the industry struggled or was defeated. Instead, the text conveys that the invention's effect was positive, since it allowed the semiconductor industry to begin making use of mass production methods. Choice B is incorrect because it wouldn't make sense in context to say that the invention of the integrated circuit \"bypassed\" the semiconductor industry, which would mean it intentionally avoided the industry. The text indicates that the invention directly affected the semiconductor industry, since it made it possible for the industry to begin engaging in mass production methods. Choice C is incorrect because the text doesn't indicate that the invention of the integrated circuit \"obstructed\" the semiconductor industry, which would mean that it blocked or hindered the industry in some way. Instead, the text indicates that the invention's effect was positive, since it made it possible for the semiconductor industry to begin engaging in mass production methods.",
     "id": "fa014d2d"
   },
   {
@@ -166,8 +166,8 @@
     "difficulty": "Medium",
     "question_number": 7,
     "test_name": "Module Source 161 Eng M2",
-    "passage": "Which choice best describes the function of the references to “population density\" and \"average commuting distance\" in the text as a whole?\nCopenhagen has high pedestrian traffic, but simply replicating a feature of Copenhagen associated with walkability—e.g., its human-scaled architecture—may be insufficient to induce increased walking in other cities. As urbanist Mariela Alfonzo argues, our understanding of individuals’ decision-making about whether to walk is insufficiently robust: some studies emphasize the role of <u>population density</u>, others the role of <u>average commuting distance</u>, and so on, but walking decisions are made in complex contexts in which multiple conditions and needs inform individuals' choices.",
-    "question_text": "Which choice best describes the function of the references to “population density\" and \"average commuting distance\" in the text as a whole?",
+    "passage": "Which choice best describes the function of the references to \"population density\" and \"average commuting distance\" in the text as a whole?\nCopenhagen has high pedestrian traffic, but simply replicating a feature of Copenhagen associated with walkability—e.g., its human-scaled architecture—may be insufficient to induce increased walking in other cities. As urbanist Mariela Alfonzo argues, our understanding of individuals' decision-making about whether to walk is insufficiently robust: some studies emphasize the role of <u>population density</u>, others the role of <u>average commuting distance</u>, and so on, but walking decisions are made in complex contexts in which multiple conditions and needs inform individuals' choices.",
+    "question_text": "Which choice best describes the function of the references to \"population density\" and \"average commuting distance\" in the text as a whole?",
     "choices": [
       {
         "label": "A",
@@ -198,8 +198,8 @@
     "difficulty": "Medium",
     "question_number": 8,
     "test_name": "Module Source 161 Eng M2",
-    "passage": "Based on the texts, the author of Text 2 would most likely agree with which statement about Byrom and colleagues’ findings (Text 1)?\nText 1\nIn parts of Yukon, Canada, the lynx is a major predator of the arctic ground squirrel. Researcher Andrea E. Byrom and colleagues found that when this predation pressure on arctic ground squirrels was temporarily reduced, their numbers significantly increased. This finding illustrates a foundational ecological principle: predators control prey population numbers.\nText 2\nMark A. Hurley and colleagues found that excluding coyotes from a site in the state of Idaho where they typically prey on mule deer had no significant effect on mule deer abundance. Many other predation relief studies show an increase in prey abundance, but those studies often focus on small, rapidly reproducing prey, like birds, squirrels, and rabbits, rather than large, slowly reproducing prey, like mule deer, which could account for the difference between those results and Hurley and colleagues’ results.",
-    "question_text": "Based on the texts, the author of Text 2 would most likely agree with which statement about Byrom and colleagues’ findings (Text 1)?",
+    "passage": "Based on the texts, the author of Text 2 would most likely agree with which statement about Byrom and colleagues' findings (Text 1)?\nText 1\nIn parts of Yukon, Canada, the lynx is a major predator of the arctic ground squirrel. Researcher Andrea E. Byrom and colleagues found that when this predation pressure on arctic ground squirrels was temporarily reduced, their numbers significantly increased. This finding illustrates a foundational ecological principle: predators control prey population numbers.\nText 2\nMark A. Hurley and colleagues found that excluding coyotes from a site in the state of Idaho where they typically prey on mule deer had no significant effect on mule deer abundance. Many other predation relief studies show an increase in prey abundance, but those studies often focus on small, rapidly reproducing prey, like birds, squirrels, and rabbits, rather than large, slowly reproducing prey, like mule deer, which could account for the difference between those results and Hurley and colleagues' results.",
+    "question_text": "Based on the texts, the author of Text 2 would most likely agree with which statement about Byrom and colleagues' findings (Text 1)?",
     "choices": [
       {
         "label": "A",
@@ -230,7 +230,7 @@
     "difficulty": "Easy",
     "question_number": 9,
     "test_name": "Module Source 161 Eng M2",
-    "passage": "The following text is from Jane Austen’s 1811 novel <em>Sense and Sensibility</em>. Elinor lives with her younger sisters and her mother, Mrs. Dashwood.\nElinor, this eldest daughter, whose advice was so effectual, possessed a strength of understanding, and coolness of judgment, which qualified her, though only nineteen, to be the counsellor of her mother, and enabled her frequently to counteract, to the advantage of them all, that eagerness of mind in Mrs. Dashwood which must generally have led to imprudence. She had an excellent heart;—her disposition was affectionate, and her feelings were strong; but she knew how to govern them: it was a knowledge which her mother had yet to learn; and which one of her sisters had resolved never to be taught. According to the text, what is true about Elinor?",
+    "passage": "The following text is from Jane Austen's 1811 novel <em>Sense and Sensibility</em>. Elinor lives with her younger sisters and her mother, Mrs. Dashwood.\nElinor, this eldest daughter, whose advice was so effectual, possessed a strength of understanding, and coolness of judgment, which qualified her, though only nineteen, to be the counsellor of her mother, and enabled her frequently to counteract, to the advantage of them all, that eagerness of mind in Mrs. Dashwood which must generally have led to imprudence. She had an excellent heart;—her disposition was affectionate, and her feelings were strong; but she knew how to govern them: it was a knowledge which her mother had yet to learn; and which one of her sisters had resolved never to be taught. According to the text, what is true about Elinor?",
     "question_text": null,
     "choices": [
       {
@@ -252,7 +252,7 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
-    "rationale": "Choice D is the best answer because it provides a detail about Elinor that is established in the text. The text indicates that although Elinor is “only nineteen,” she gives good advice and exhibits such a high level of understanding and judgment that she serves as “the counsellor of her mother.” Thus, Elinor is mature beyond her years.\nChoice A is incorrect because it isn’t supported by the text: although the text says that Elinor advises her mother and often counteracts her mother’s impulses, there’s no mention of Elinor arguing with her mother or failing to change her mother’s mind. Choice B is incorrect because it isn’t supported by the text: although the text mentions that Elinor has strong feelings, it doesn’t indicate that she’s excessively sensitive when it comes to family issues. Choice C is incorrect because it isn’t supported by the text: there’s no mention of what Elinor thinks about her mother and no suggestion that she thinks her mother is a bad role model. Because she’s described as having “an excellent heart,” Elinor likely doesn’t think ill of her mother.",
+    "rationale": "Choice D is the best answer because it provides a detail about Elinor that is established in the text. The text indicates that although Elinor is \"only nineteen,\" she gives good advice and exhibits such a high level of understanding and judgment that she serves as \"the counsellor of her mother.\" Thus, Elinor is mature beyond her years.\nChoice A is incorrect because it isn't supported by the text: although the text says that Elinor advises her mother and often counteracts her mother's impulses, there's no mention of Elinor arguing with her mother or failing to change her mother's mind. Choice B is incorrect because it isn't supported by the text: although the text mentions that Elinor has strong feelings, it doesn't indicate that she's excessively sensitive when it comes to family issues. Choice C is incorrect because it isn't supported by the text: there's no mention of what Elinor thinks about her mother and no suggestion that she thinks her mother is a bad role model. Because she's described as having \"an excellent heart,\" Elinor likely doesn't think ill of her mother.",
     "id": "3543e6e2"
   },
   {
@@ -326,12 +326,12 @@
     "difficulty": "Hard",
     "question_number": 12,
     "test_name": "Module Source 161 Eng M2",
-    "passage": "Which finding, if true, would provide evidence that the possibility Grasby *et al*. investigated does occur?\nMicrosoft's introduction of the Xbox console in 2001 is an instance of brand extension—the company leveraged its brand recognition as a software producer to enter a product category where it had not previously competed. To determine if perceived category similarity predicts consumers’ likelihood of purchasing brand extensions, Alicia Grasby *et al*. identified 30 extended brand pairs (e.g. the same brand of mobile phone and headphones) in 52 weeks of purchases by approximately 60,000 households; for each pair, Grasby *et al*. had consumers rate the similarity of the product categories and calculated the change in probability of a brand in one category being purchased if the same brand was purchased in the other category.",
+    "passage": "Which finding, if true, would provide evidence that the possibility Grasby *et al*. investigated does occur?\nMicrosoft's introduction of the Xbox console in 2001 is an instance of brand extension—the company leveraged its brand recognition as a software producer to enter a product category where it had not previously competed. To determine if perceived category similarity predicts consumers' likelihood of purchasing brand extensions, Alicia Grasby *et al*. identified 30 extended brand pairs (e.g. the same brand of mobile phone and headphones) in 52 weeks of purchases by approximately 60,000 households; for each pair, Grasby *et al*. had consumers rate the similarity of the product categories and calculated the change in probability of a brand in one category being purchased if the same brand was purchased in the other category.",
     "question_text": "Which finding, if true, would provide evidence that the possibility Grasby *et al*. investigated does occur?",
     "choices": [
       {
         "label": "A",
-        "text": "Consumers’ ratings varied substantially by category pair, whereas the changes in probability calculated by the researchers were broadly similar for each pair."
+        "text": "Consumers' ratings varied substantially by category pair, whereas the changes in probability calculated by the researchers were broadly similar for each pair."
       },
       {
         "label": "B",
@@ -339,11 +339,11 @@
       },
       {
         "label": "C",
-        "text": "There was a strong positive correlation between consumers’ ratings and the changes in probability calculated by the researchers."
+        "text": "There was a strong positive correlation between consumers' ratings and the changes in probability calculated by the researchers."
       },
       {
         "label": "D",
-        "text": "Consumers’ ratings and the changes in probability calculated by the"
+        "text": "Consumers' ratings and the changes in probability calculated by the"
       }
     ],
     "is_fill_in_blank": false,
@@ -402,19 +402,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "“Like many works in the Latin American magical realist tradition, *My Name Is Red* is indebted to antirealistic elements in the folkloric tradition of Turkey.”"
+        "text": "\"Like many works in the Latin American magical realist tradition, *My Name Is Red* is indebted to antirealistic elements in the folkloric tradition of Turkey.\""
       },
       {
         "label": "B",
-        "text": "“Although Turkish folklore clearly informs the style and occasionally antirealistic plot of *My Name Is Red*, the novel also shows the inarguable influence of the magical realist tradition of Latin America.”"
+        "text": "\"Although Turkish folklore clearly informs the style and occasionally antirealistic plot of *My Name Is Red*, the novel also shows the inarguable influence of the magical realist tradition of Latin America.\""
       },
       {
         "label": "C",
-        "text": "“While *My Name Is Red* alternates between realistic and antirealistic modes of representation, details suggesting the influence of Turkish folklore nevertheless occur throughout the novel.”"
+        "text": "\"While *My Name Is Red* alternates between realistic and antirealistic modes of representation, details suggesting the influence of Turkish folklore nevertheless occur throughout the novel.\""
       },
       {
         "label": "D",
-        "text": "“The logic of the realistic plot of *My Name Is Red* is repeatedly and productively disrupted by the presence of imagery and situations drawn from Turkish folklore.”"
+        "text": "\"The logic of the realistic plot of *My Name Is Red* is repeatedly and productively disrupted by the presence of imagery and situations drawn from Turkish folklore.\""
       }
     ],
     "is_fill_in_blank": false,
@@ -461,7 +461,7 @@
     "difficulty": "Medium",
     "question_number": 16,
     "test_name": "Module Source 161 Eng M2",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIgnatius Mabasa is a novelist from Mount Darwin, Zimbabwe, who has earned international acclaim in recent years. Writers of other literary forms, such as poetry and drama, are less likely to be recognized beyond their nations’ borders, but many are still well ______ Malika Ouattara, for example, is a celebrated slam poet from Burkina Faso.",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIgnatius Mabasa is a novelist from Mount Darwin, Zimbabwe, who has earned international acclaim in recent years. Writers of other literary forms, such as poetry and drama, are less likely to be recognized beyond their nations' borders, but many are still well ______ Malika Ouattara, for example, is a celebrated slam poet from Burkina Faso.",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {
@@ -589,7 +589,7 @@
     "difficulty": "Medium",
     "question_number": 20,
     "test_name": "Module Source 161 Eng M2",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Suzuki method is an approach to music instruction ______ to teach music in the same natural way children learn language, emphasizes immersion in a musical community. In Suzuki violin instruction, students begin their musical education with simple classical pieces like Johann Sebastian Bach’s *Minuet No. 2.*",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Suzuki method is an approach to music instruction ______ to teach music in the same natural way children learn language, emphasizes immersion in a musical community. In Suzuki violin instruction, students begin their musical education with simple classical pieces like Johann Sebastian Bach's *Minuet No. 2.*",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {
@@ -653,7 +653,7 @@
     "difficulty": "Medium",
     "question_number": 22,
     "test_name": "Module Source 161 Eng M2",
-    "passage": "Which choice completes the text with the most logical transition?\nIn 2015, geologist Peter Rogerson calculated that the geographic center of North Dakota was a point 2.7 miles southwest of the municipality of McClusky. Rogerson’s calculation was more accurate than the one from 1920 by the US Geological Survey. ______ this earlier calculation was made using far more rudimentary equipment-only cardboard and string.",
+    "passage": "Which choice completes the text with the most logical transition?\nIn 2015, geologist Peter Rogerson calculated that the geographic center of North Dakota was a point 2.7 miles southwest of the municipality of McClusky. Rogerson's calculation was more accurate than the one from 1920 by the US Geological Survey. ______ this earlier calculation was made using far more rudimentary equipment-only cardboard and string.",
     "question_text": "Which choice completes the text with the most logical transition?",
     "choices": [
       {
@@ -726,7 +726,7 @@
       },
       {
         "label": "B",
-        "text": "At 252,000 cubic feet in size, Grimanesa Amoros’s *The Mirror Connection* cuts a larger figure than the 250-cubic-foot *Uros House*."
+        "text": "At 252,000 cubic feet in size, Grimanesa Amoros's *The Mirror Connection* cuts a larger figure than the 250-cubic-foot *Uros House*."
       },
       {
         "label": "C",
@@ -734,7 +734,7 @@
       },
       {
         "label": "D",
-        "text": "The smooth LED domes of Grimanesa Amoros’s *Uros House* stand in contrast to the tangled LED tubes of *The Mirror Connection*."
+        "text": "The smooth LED domes of Grimanesa Amoros's *Uros House* stand in contrast to the tangled LED tubes of *The Mirror Connection*."
       }
     ],
     "is_fill_in_blank": false,
@@ -781,24 +781,24 @@
     "difficulty": "Medium",
     "question_number": 26,
     "test_name": "Module Source 161 Eng M2",
-    "passage": "The student wants to emphasize the order in which the two films were released. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Merle Oberon (1911-1979) was an actress born in Mumbai (then known as Bombay), India.\n• She was of Indian, Maori, and Irish heritage.\n• She was the first Indian-born actress to be nominated for an Academy Award.\n• Early in her career, she played many nameless, uncredited roles, such as her role in *Alf’s Button* (1930).\n• Later, she played many named, credited roles, such as Marjorie Ismay in *Forever and a Day* (1943).",
+    "passage": "The student wants to emphasize the order in which the two films were released. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Merle Oberon (1911-1979) was an actress born in Mumbai (then known as Bombay), India.\n• She was of Indian, Maori, and Irish heritage.\n• She was the first Indian-born actress to be nominated for an Academy Award.\n• Early in her career, she played many nameless, uncredited roles, such as her role in *Alf's Button* (1930).\n• Later, she played many named, credited roles, such as Marjorie Ismay in *Forever and a Day* (1943).",
     "question_text": "The student wants to emphasize the order in which the two films were released. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
     "choices": [
       {
         "label": "A",
-        "text": "*Alf’s Button* (1930) was released early in Merle Oberon's career, whereas *Forever and a Day* (1943) came out years later."
+        "text": "*Alf's Button* (1930) was released early in Merle Oberon's career, whereas *Forever and a Day* (1943) came out years later."
       },
       {
         "label": "B",
-        "text": "Early in her career, Merle Oberon wasn't listed in some film credits, such as the credits for the film *Alf’s Button*, where she played a nameless, uncredited role."
+        "text": "Early in her career, Merle Oberon wasn't listed in some film credits, such as the credits for the film *Alf's Button*, where she played a nameless, uncredited role."
       },
       {
         "label": "C",
-        "text": "Merle Oberon was famous for her roles in films like *Alf’s Button* (1930) and *Forever and a Day* (1943)."
+        "text": "Merle Oberon was famous for her roles in films like *Alf's Button* (1930) and *Forever and a Day* (1943)."
       },
       {
         "label": "D",
-        "text": "In *Alf’s Button* (1930), actress Merle Oberon played a nameless, uncredited role; however, in *Forever and a Day* (1943), she played a credited role—that of Marjorie Ismay."
+        "text": "In *Alf's Button* (1930), actress Merle Oberon played a nameless, uncredited role; however, in *Forever and a Day* (1943), she played a credited role—that of Marjorie Ismay."
       }
     ],
     "is_fill_in_blank": false,

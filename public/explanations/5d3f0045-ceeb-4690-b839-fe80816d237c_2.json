@@ -1,1 +1,15 @@
-{"questionId":"5d3f0045-ceeb-4690-b839-fe80816d237c_2","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage uses a 'not only...but also' structure pairing the blank with 'illuminate.' The blank verb describes what fossil remains help scientists do with evolutionary steps — it must mean perceiving or identifying something clearly."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'obscure'</strong>: This is the opposite of what fossils do — they clarify, not hide. &#10007;</li><li><strong>Choice B &mdash; 'challenge'</strong>: Fossils help scientists understand steps, not dispute them. &#10007;</li><li><strong>Choice C &mdash; 'ignore'</strong>: Scientists use fossils to engage with evolutionary steps, not disregard them. &#10007;</li><li><strong>Choice D &mdash; 'discern'</strong>: Means to perceive or identify clearly — exactly how fossil remains help scientists recognize the evolutionary steps. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "5d3f0045-ceeb-4690-b839-fe80816d237c_2",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage uses a 'not only...but also' structure pairing the blank with 'illuminate.' The blank verb describes what fossil remains help scientists do with evolutionary steps — it must mean perceiving or identifying something clearly."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;exploit&rsquo;</strong>: This is the opposite of what fossils do — they clarify, not hide. &#10007;</li><li><strong>Choice B &mdash; &lsquo;prioritize&rsquo;</strong>: Fossils help scientists understand steps, not dispute them. &#10007;</li><li><strong>Choice C &mdash; &lsquo;yield&rsquo;</strong>: Scientists use fossils to engage with evolutionary steps, not disregard them. &#10007;</li><li><strong>Choice D &mdash; &lsquo;discern&rsquo;</strong>: Means to perceive or identify clearly — exactly how fossil remains help scientists recognize the evolutionary steps. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

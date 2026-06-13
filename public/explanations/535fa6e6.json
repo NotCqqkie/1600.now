@@ -13,7 +13,7 @@
     },
     {
       "title": "Calculate the pounds of celery",
-      "content": "Using the relationship $c = 2p$ with $p = 2$:<br/>$$c = 2(2) = 4 \\text{ pounds}$$<br/>Verification: $0.69(2) + 0.99(4) = 1.38 + 3.96 = 5.34$ ✓<br/><br/>That matches choice D — <strong>D</strong> is correct."
+      "content": "Using the relationship $c = 2p$ with $p = 2$:<br/>$$c = 2(2) = 4 \\text{ pounds}$$<br/>Verification: $0.69(2) + 0.99(4) = 1.38 + 3.96 = 5.34$ ✓<br/><br/><strong>D</strong> is correct."
     }
   ]
 }

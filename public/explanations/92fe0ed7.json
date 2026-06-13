@@ -1,1 +1,15 @@
-{"questionId":"92fe0ed7","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question tests logical transitions. The first sentence states the established belief that Mauna Loa is Earth's largest shield volcano; the second sentence introduces a 2020 study showing P&#363;h&#257;honu is significantly larger. The blank must signal that the second sentence contradicts the first."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Secondly,'</strong>: signals addition of a secondary point; incorrectly implies the second sentence supports rather than refutes the first. &#10007;</li><li><strong>Choice B &mdash; 'Consequently,'</strong>: signals a result or consequence; incorrectly implies the second sentence follows from the first rather than contradicts it. &#10007;</li><li><strong>Choice C &mdash; 'Moreover,'</strong>: signals continuation or reinforcement; incorrectly implies the second sentence adds to rather than contrasts with the first. &#10007;</li><li><strong>Choice D &mdash; 'However,'</strong>: signals contrast or refutation; correctly marks the opposition between the long-held assumption and the new contradicting study. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "92fe0ed7",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question tests logical transitions. The first sentence states the established belief that Mauna Loa is Earth's largest shield volcano; the second sentence introduces a 2020 study showing P&#363;h&#257;honu is significantly larger. The blank must signal that the second sentence contradicts the first."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Secondly,</strong>: signals addition of a secondary point; incorrectly implies the second sentence supports rather than refutes the first. &#10007;</li><li><strong>Choice B &mdash; Consequently,</strong>: signals a result or consequence; incorrectly implies the second sentence follows from the first rather than contradicts it. &#10007;</li><li><strong>Choice C &mdash; Moreover,</strong>: signals continuation or reinforcement; incorrectly implies the second sentence adds to rather than contrasts with the first. &#10007;</li><li><strong>Choice D &mdash; However,</strong>: signals contrast or refutation; correctly marks the opposition between the long-held assumption and the new contradicting study. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

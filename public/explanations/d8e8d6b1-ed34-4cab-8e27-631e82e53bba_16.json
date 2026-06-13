@@ -1,1 +1,15 @@
-{"questionId":"d8e8d6b1-ed34-4cab-8e27-631e82e53bba_16","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The subject of the sentence is &quot;Objects&quot; (plural). An appositive phrase naming one specific object (49036 Pelion) interrupts between subject and verb, but the verb must still agree with the plural subject &quot;Objects,&quot; not with the singular noun in the appositive."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'is exhibiting'</strong>: Singular present progressive. Agrees with a singular subject — not with the plural &quot;Objects.&quot; &#10007;</li><li><strong>Choice B &mdash; 'exhibits'</strong>: Singular simple present. Same error: treats &quot;Objects&quot; as singular. &#10007;</li><li><strong>Choice C &mdash; 'has exhibited'</strong>: Singular present perfect. Again fails to agree with the plural subject. &#10007;</li><li><strong>Choice D &mdash; 'exhibit'</strong>: Plural simple present. Correctly agrees with the plural subject &quot;Objects.&quot; &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "d8e8d6b1-ed34-4cab-8e27-631e82e53bba_16",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The subject of the sentence is \"Objects\" (plural). An appositive phrase naming one specific object (49036 Pelion) interrupts between subject and verb, but the verb must still agree with the plural subject \"Objects,\" not with the singular noun in the appositive."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"is exhibiting\"</strong>: Singular present progressive. Agrees with a singular subject — not with the plural \"Objects.\" &#10007;</li><li><strong>\"exhibits\"</strong>: Singular simple present. Same error: treats \"Objects\" as singular. &#10007;</li><li><strong>\"has exhibited\"</strong>: Singular present perfect. Again fails to agree with the plural subject. &#10007;</li><li><strong>\"exhibit\"</strong>: Plural simple present. Correctly agrees with the plural subject \"Objects.\" &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

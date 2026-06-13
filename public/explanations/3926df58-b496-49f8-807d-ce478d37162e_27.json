@@ -1,1 +1,15 @@
-{"questionId": "3926df58-b496-49f8-807d-ce478d37162e_27", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The student wants to explain <em>whom</em> the award is named for. Only one note answers this directly: &apos;It is named after groundbreaking British mathematician Alan Turing.&apos;"}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'In 1994, Raj Reddy won the A.M. Turing Award for pioneering the development of large-scale artificial intelligence systems.'</strong>: This tells us who won the award and why &mdash; not whom it is named for. &#10007;</li><li><strong>Choice B &mdash; 'The A.M. Turing Award is given for &quot;major contributions of lasting importance to computing.&quot;'</strong>: This describes the award&apos;s criteria, not its namesake. &#10007;</li><li><strong>Choice C &mdash; 'The A.M. Turing Award is named for groundbreaking British mathematician Alan Turing.'</strong>: This directly states whom the award is named for, matching the student&apos;s goal. &#10003;</li><li><strong>Choice D &mdash; 'It was in 1994 that Raj Reddy won the A.M. Turing Award.'</strong>: This emphasizes when Raj Reddy won, not whom the award is named for. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "3926df58-b496-49f8-807d-ce478d37162e_27",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The student wants to explain <em>whom</em> the award is named for. Only one note answers this directly: &apos;It is named after groundbreaking British mathematician Alan Turing.&apos;"
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — In 1994, Raj Reddy won the A.M. Turing Award for pioneering the development of large-scale artificial intelligence systems.</strong>: This tells us who won the award and why &mdash; not whom it is named for. &#10007;</li><li><strong>Choice B — The A.M. Turing Award is given for \"major contributions of lasting importance to computing.\"</strong>: This describes the award&apos;s criteria, not its namesake. &#10007;</li><li><strong>Choice C — The A.M. Turing Award is named for groundbreaking British mathematician Alan Turing.</strong>: This directly states whom the award is named for, matching the student&apos;s goal. &#10003;</li><li><strong>Choice D — It was in 1994 that Raj Reddy won the A.M. Turing Award.</strong>: This emphasizes when Raj Reddy won, not whom the award is named for. &#10007;</li></ul><strong>C</strong> is correct."
+    }
+  ]
+}

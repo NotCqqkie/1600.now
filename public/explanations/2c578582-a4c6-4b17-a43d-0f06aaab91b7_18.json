@@ -13,7 +13,7 @@
     },
     {
       "title": "Take the square root to find y",
-      "content": "Since $y$ is positive, take the positive square root of both sides:<br/>$$y = \\sqrt{\\frac{5x - 4z}{20x^2z^2}}$$<br/>That matches choice B - <strong>B</strong> is correct."
+      "content": "Since $y$ is positive, take the positive square root of both sides:<br/>$$y = \\sqrt{\\frac{5x - 4z}{20x^2z^2}}$$<br/>This matches - <strong>B</strong> is correct."
     }
   ]
 }

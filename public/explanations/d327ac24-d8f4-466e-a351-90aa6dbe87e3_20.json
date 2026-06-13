@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice D is $\\frac{17}{\\sin Q}$, which matches the expression for $QS$. Choices A and B multiply by a trigonometric ratio, giving a leg length rather than the hypotenuse. Choice C would use cosine, but $17$ is opposite angle $Q$, not adjacent. Therefore <strong>D</strong> is correct."
+      "content": "The correct answer is $\\frac{17}{\\sin Q}$, which matches the expression for $QS$. The other choices multiply by a trigonometric ratio, giving a leg length rather than the hypotenuse. The correct answer would use cosine, but $17$ is opposite angle $Q$, not adjacent. Therefore <strong>D</strong> is correct."
     }
   ]
 }

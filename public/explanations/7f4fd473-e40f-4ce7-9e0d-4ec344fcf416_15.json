@@ -1,1 +1,15 @@
-{"questionId":"7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_15","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank completes: &quot;In 1988, Arizona ______ official fossil.&quot; Two words must fill the blank. The first word names who did the designating &mdash; multiple legislators, so a plain plural is needed. The second word shows that the fossil belongs to Arizona, so a singular possessive (apostrophe before the <em>s</em>) is needed."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;lawmakers designated the states&apos;</strong>: &quot;lawmakers&quot; is correct, but &quot;states&quot; is a plain plural, not a possessive &mdash; the fossil belongs to the state, not multiple states. &#10007;</li><li><strong>Choice B &mdash; &apos;lawmakers designated the state&apos;s&apos;</strong>: &quot;lawmakers&quot; is a correct plain plural; &quot;state&apos;s&quot; is a correct singular possessive. Both words are right. &#10003;</li><li><strong>Choice C &mdash; &apos;lawmaker&apos;s designated the state&apos;s&apos;</strong>: &quot;lawmaker&apos;s&quot; is singular possessive, but multiple lawmakers acted &mdash; wrong form. &#10007;</li><li><strong>Choice D &mdash; &apos;lawmaker&apos;s designated the states&apos;</strong>: Wrong on both counts: singular possessive for the legislators and non-possessive plural for the state. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_15",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank completes: &quot;In 1988, Arizona ______ official fossil.&quot; Two words must fill the blank. The first word names who did the designating &mdash; multiple legislators, so a plain plural is needed. The second word shows that the fossil belongs to Arizona, so a singular possessive (apostrophe before the <em>s</em>) is needed."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;lawmakers designated the states&rsquo;</strong>: &quot;lawmakers&quot; is correct, but &quot;states&quot; is a plain plural, not a possessive &mdash; the fossil belongs to the state, not multiple states. &#10007;</li><li><strong>Choice B &mdash; &lsquo;lawmakers designated the state's&rsquo;</strong>: &quot;lawmakers&quot; is a correct plain plural; &quot;state&apos;s&quot; is a correct singular possessive. Both words are right. &#10003;</li><li><strong>Choice C &mdash; &lsquo;lawmaker's designated the state's&rsquo;</strong>: &quot;lawmaker&apos;s&quot; is singular possessive, but multiple lawmakers acted &mdash; wrong form. &#10007;</li><li><strong>Choice D &mdash; &lsquo;lawmaker's designated the states&rsquo;</strong>: Wrong on both counts: singular possessive for the legislators and non-possessive plural for the state. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

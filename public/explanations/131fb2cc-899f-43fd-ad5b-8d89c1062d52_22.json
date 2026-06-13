@@ -13,7 +13,7 @@
     },
     {
       "title": "Match to the choices",
-      "content": "Choice A uses $0.045$ as the whole multiplier, and choice B uses $0.45$; both are less than $1$, so they model decreases. Choice D uses $1.45$, which is a $45\\%$ increase. Choice C uses $1.045$, the growth multiplier for a $4.5\\%$ increase. Choice <strong>C</strong> is correct."
+      "content": "<strong>Choice A &mdash; $f(x) = 181,000(0.045)^x$</strong> uses $0.045$ as the whole multiplier, and <strong>Choice B &mdash; $f(x) = 181,000(0.45)^x$</strong> uses $0.45$; both are less than $1$, so they model decreases. <strong>Choice D &mdash; $f(x) = 181,000(1.45)^x$</strong> uses $1.45$, which is a $45\\%$ increase. <strong>Choice C &mdash; $f(x) = 181,000(1.045)^x$</strong> uses $1.045$, the growth multiplier for a $4.5\\%$ increase. <strong>Choice C &mdash; $f(x) = 181,000(1.045)^x$</strong>."
     }
   ]
 }

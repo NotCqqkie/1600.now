@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Look for a matching product",
-      "content": "Expand the likely product in choice B: $$(12x^2+y^2)(x+5y)=12x^3+60x^2y+xy^2+5y^3.$$ This matches the original expression term by term."
+      "content": "Expand the likely product in <strong>$(12x^2 + y^2)(x + 5y)$</strong> $$(12x^2+y^2)(x+5y)=12x^3+60x^2y+xy^2+5y^3.$$ This matches the original expression term by term."
     },
     {
       "title": "Compare the structure to the other choices",
@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the answer",
-      "content": "Choice B is $(12x^2+y^2)(x+5y)$, which expands exactly to the original expression. Choice <strong>B</strong> is correct."
+      "content": "The correct answer is $(12x^2+y^2)(x+5y)$, which expands exactly to the original expression. <strong>B</strong> is correct."
     }
   ]
 }

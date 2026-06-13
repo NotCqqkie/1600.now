@@ -1,1 +1,15 @@
-{"questionId":"a45480a1-becb-48bd-a285-d5366355b085_1","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank must describe what romantic paintings did to their subjects' positive traits, given the clue that subjects were made \"to appear more beautiful or heroic than they actually were.\" The word must mean to amplify or exaggerate those traits upward."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'rectify'</strong>: means to correct or fix a problem. The passage says paintings made subjects appear grander, not corrected. &#10007;</li><li><strong>Choice B &mdash; 'counteract'</strong>: means to work against or neutralize. If anything, romantic painters enhanced positive traits, not opposed them. &#10007;</li><li><strong>Choice C &mdash; 'magnify'</strong>: means to make something appear larger or greater than it actually is. This matches directly &mdash; the subjects were altered to look more beautiful or heroic than they truly were. &#10003;</li><li><strong>Choice D &mdash; 'apprehend'</strong>: means to understand or to arrest. Neither sense fits the idea of amplifying appearance. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "a45480a1-becb-48bd-a285-d5366355b085_1",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank must describe what romantic paintings did to their subjects' positive traits, given the clue that subjects were made \"to appear more beautiful or heroic than they actually were.\" The word must mean to amplify or exaggerate those traits upward."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; rectify</strong>: means to correct or fix a problem. The passage says paintings made subjects appear grander, not corrected. &#10007;</li><li><strong>Choice B &mdash; counteract</strong>: means to work against or neutralize. If anything, romantic painters enhanced positive traits, not opposed them. &#10007;</li><li><strong>Choice C &mdash; magnify</strong>: means to make something appear larger or greater than it actually is. This matches directly &mdash; the subjects were altered to look more beautiful or heroic than they truly were. &#10003;</li><li><strong>Choice D &mdash; apprehend</strong>: means to understand or to arrest. Neither sense fits the idea of amplifying appearance. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

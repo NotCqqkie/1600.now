@@ -1,1 +1,15 @@
-{"questionId": "6c086e70", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the contrast and what it reveals", "content": "The sentence sets up a contrast: businesses <em>typically</em> promote themselves, <strong>but</strong> some do not ______ their marketing. The evidence follows: 33% of restaurants skipped a free tool proven to raise revenue by 5%. These restaurants are leaving an effective, available opportunity unused."}, {"title": "Eliminate each wrong choice, then confirm the correct one", "content": "<ul><li><strong>Choice A &mdash; 'adorn'</strong>: Means to decorate or enhance appearance &mdash; the passage is about effectiveness, not aesthetics, so this word doesn't fit the context. &#10007;</li><li><strong>Choice B &mdash; 'optimize'</strong>: Means to make the most effective use of available opportunities &mdash; restaurants that skip a free, revenue-boosting tool are clearly not optimizing their marketing. &#10003;</li><li><strong>Choice C &mdash; 'endorse'</strong>: Means to openly approve or recommend &mdash; the passage describes failing to use a tool, not failing to approve of one's own marketing. &#10007;</li><li><strong>Choice D &mdash; 'counteract'</strong>: Means to actively undermine &mdash; the passage implies neglect, not deliberate self-sabotage, which counteract would require. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "6c086e70",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the contrast and what it reveals",
+      "content": "The sentence sets up a contrast: businesses <em>typically</em> promote themselves, <strong>but</strong> some do not ______ their marketing. The evidence follows: 33% of restaurants skipped a free tool proven to raise revenue by 5%. These restaurants are leaving an effective, available opportunity unused."
+    },
+    {
+      "title": "Eliminate each wrong choice, then confirm the correct one",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;adorn&rsquo;</strong>: Means to decorate or enhance appearance &mdash; the passage is about effectiveness, not aesthetics, so this word doesn't fit the context. &#10007;</li><li><strong>Choice B &mdash; &lsquo;optimize&rsquo;</strong>: Means to make the most effective use of available opportunities &mdash; restaurants that skip a free, revenue-boosting tool are clearly not optimizing their marketing. &#10003;</li><li><strong>Choice C &mdash; &lsquo;endorse&rsquo;</strong>: Means to openly approve or recommend &mdash; the passage describes failing to use a tool, not failing to approve of one's own marketing. &#10007;</li><li><strong>Choice D &mdash; &lsquo;counteract&rsquo;</strong>: Means to actively undermine &mdash; the passage implies neglect, not deliberate self-sabotage, which counteract would require. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

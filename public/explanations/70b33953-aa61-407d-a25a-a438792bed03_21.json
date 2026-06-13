@@ -1,1 +1,15 @@
-{"questionId": "70b33953-aa61-407d-a25a-a438792bed03_21", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Identify points above the line", "content": "A point's actual $y$-value is greater than the predicted $y$-value when the point lies <strong>above</strong> the line of best fit."}, {"title": "Count and match", "content": "Counting carefully on the scatterplot, 5 of the data points sit above the line of best fit.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "70b33953-aa61-407d-a25a-a438792bed03_21",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify points above the line",
+      "content": "A point's actual $y$-value is greater than the predicted $y$-value when the point lies <strong>above</strong> the line of best fit."
+    },
+    {
+      "title": "Count and match",
+      "content": "Counting carefully on the scatterplot, 5 of the data points sit above the line of best fit.<br/><br/>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice A is correct. Choice B subtracts $7$ in the wrong direction. Choices C and D use multiplication or division by $7$, but the original equation subtracts $7$."
+      "content": "The equation $c=25p+k+7$ is equivalent to the original equation. Subtracting $7$ again moves in the wrong direction, and multiplication or division by $7$ does not undo the original subtraction. <strong>A</strong> is correct."
     }
   ]
 }

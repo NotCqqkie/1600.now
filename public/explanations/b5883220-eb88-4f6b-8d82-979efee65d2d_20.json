@@ -9,7 +9,7 @@
     },
     {
       "title": "Show that the third angle pair must also be equal",
-      "content": "In triangle $BED$: $\\angle DBE + \\angle BED + \\angle BDE = 180°$<br/>In triangle $CFD$: $\\angle DCF + \\angle CFD + \\angle CDF = 180°$<br/>Since $\\angle DBE = \\angle DCF$ (from the isosceles property) and $\\angle BED = \\angle CFD$ (given), we must have $\\angle BDE = \\angle CDF$."
+      "content": "In triangle $BED$: $\\angle DBE + \\angle BED + \\angle BDE = 180^{\\circ}$<br/>In triangle $CFD$: $\\angle DCF + \\angle CFD + \\angle CDF = 180^{\\circ}$<br/>Since $\\angle DBE = \\angle DCF$ (from the isosceles property) and $\\angle BED = \\angle CFD$ (given), we must have $\\angle BDE = \\angle CDF$."
     },
     {
       "title": "Apply similarity and find the ratio of sides",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Calculate $CF$ using the given ratio",
-      "content": "We have $BD = \\frac{4}{7}BC$ and $CD = BC - BD = \\frac{3}{7}BC$. Substituting into the proportion:<br/>$$CF = \\frac{CD \\cdot BE}{BD} = \\frac{\\frac{3}{7}BC \\cdot 8}{\\frac{4}{7}BC} = \\frac{3 \\cdot 8}{4} = 6$$<br/>That matches choice A — <strong>A</strong> is correct."
+      "content": "We have $BD = \\frac{4}{7}BC$ and $CD = BC - BD = \\frac{3}{7}BC$. Substituting into the proportion:<br/>$$CF = \\frac{CD \\cdot BE}{BD} = \\frac{\\frac{3}{7}BC \\cdot 8}{\\frac{4}{7}BC} = \\frac{3 \\cdot 8}{4} = 6$$<br/>That is the correct answer."
     }
   ]
 }

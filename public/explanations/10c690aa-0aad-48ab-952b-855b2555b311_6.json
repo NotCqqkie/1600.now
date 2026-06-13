@@ -9,7 +9,7 @@
     },
     {
       "title": "Write the function",
-      "content": "Weight after $x$ days equals starting weight plus daily gain:<br/>$$g(x)=5+\\frac{1}{4}x$$<br/>$$g(x)=\\frac{1}{4}x+5$$<br/>That matches choice B, so <strong>B</strong> is correct."
+      "content": "Weight after $x$ days equals starting weight plus daily gain:<br/>$$g(x)=5+\\frac{1}{4}x$$<br/>$$g(x)=\\frac{1}{4}x+5$$<br/>That matches <strong>Choice B &mdash; $g(x) = \\frac{1}{4}x + 5$</strong>, so <strong>B</strong>."
     }
   ]
 }

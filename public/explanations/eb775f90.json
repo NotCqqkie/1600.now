@@ -1,1 +1,15 @@
-{"questionId": "eb775f90", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Read the key data points", "content": "The table covers 1910 to 1925. In 1910: 123,990 cars produced, 320 companies. In 1925: 3,185,881 cars produced, 80 companies. Production rose sharply; the number of companies fell sharply. A correct choice must capture both movements."}, {"title": "Eliminate wrong choices and confirm the answer", "content": "<ul><li><strong>Choice A &mdash; 'the number of cars produced increased but the number of companies producing cars decreased.'</strong>: Accurately captures both trends &mdash; production up, companies down. &#10003;</li><li><strong>Choice B &mdash; 'both the number of cars produced and the number of companies producing cars remained unchanged.'</strong>: Both figures changed dramatically; neither remained unchanged. &#10007;</li><li><strong>Choice C &mdash; 'the number of cars produced decreased but the number of companies producing cars remained unchanged.'</strong>: Production nearly tripled; it did not decrease. Companies also did not remain unchanged. &#10007;</li><li><strong>Choice D &mdash; 'both the number of cars produced and the number of companies producing cars increased.'</strong>: The number of companies fell from 320 to 80 &mdash; it did not increase. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "eb775f90",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the key data points",
+      "content": "The table covers 1910 to 1925. In 1910: 123,990 cars produced, 320 companies. In 1925: 3,185,881 cars produced, 80 companies. Production rose sharply; the number of companies fell sharply. A correct choice must capture both movements."
+    },
+    {
+      "title": "Eliminate wrong choices and confirm the answer",
+      "content": "<ul><li><strong>\"the number of cars produced increased but the number of companies producing cars decreased.\"</strong>: Accurately captures both trends &mdash; production up, companies down. &#10003;</li><li><strong>\"both the number of cars produced and the number of companies producing cars remained unchanged.\"</strong>: Both figures changed dramatically; neither remained unchanged. &#10007;</li><li><strong>\"the number of cars produced decreased but the number of companies producing cars remained unchanged.\"</strong>: Production nearly tripled; it did not decrease. Companies also did not remain unchanged. &#10007;</li><li><strong>\"both the number of cars produced and the number of companies producing cars increased.\"</strong>: The number of companies fell from 320 to 80 &mdash; it did not increase. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate all choices",
-      "content": "<ul><li><strong>Choice A &mdash; '$5x^{3}y+10xy^{2}$'</strong>: Coefficients 5 and 10 cannot come from distributing $3xy$; the outer factor would need to be something other than $3xy$. &#10007;</li><li><strong>Choice B &mdash; '$6x^{2}y+7y$'</strong>: $3xy \\cdot 2x^2 = 6x^3y$, not $6x^2y$ (one power of $x$ is lost); $3xy \\cdot 7y = 21xy^2$, not $7y$. &#10007;</li><li><strong>Choice C &mdash; '$6x^{2}y+21xy$'</strong>: First term has $x^2$ instead of $x^3$; second term $21xy$ is missing one factor of $y$. &#10007;</li><li><strong>Choice D &mdash; '$6x^{3}y+21xy^{2}$'</strong>: Matches exactly: $6x^3y + 21xy^2$. That matches choice D &mdash; <strong>D</strong> is correct. &#10003;</li></ul>"
+      "content": "<ul><li><strong>Choice A &mdash; $5x^{3}y+10xy^{2}$</strong>: Coefficients 5 and 10 cannot come from distributing $3xy$; the outer factor would need to be something other than $3xy$. &#10007;</li><li><strong>Choice B &mdash; $6x^{2}y+7y$</strong>: $3xy \\cdot 2x^2 = 6x^3y$, not $6x^2y$ (one power of $x$ is lost); $3xy \\cdot 7y = 21xy^2$, not $7y$. &#10007;</li><li><strong>Choice C &mdash; $6x^{2}y+21xy$</strong>: First term has $x^2$ instead of $x^3$; second term $21xy$ is missing one factor of $y$. &#10007;</li><li><strong>Choice D &mdash; $6x^{3}y+21xy^{2}$</strong>: Matches exactly: $6x^3y + 21xy^2$. That is the correct answer. &#10003;</li></ul>"
     }
   ]
 }

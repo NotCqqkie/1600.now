@@ -1,1 +1,19 @@
-{"questionId": "faa5696c", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what Schomburg did with these people", "content": "The relative clause &quot;whom he asked to bring back rare and valuable objects from their international travels&quot; explains the blank: Schomburg made requests of friends and colleagues and relied on them to deliver materials he could not get himself."}, {"title": "Match the relationship to a verb phrase", "content": "We need a phrase that conveys reliance on others to obtain something &mdash; not an attitude, opposition, or warning."}, {"title": "Eliminate per choice", "content": "<ul><li><strong>Choice A &mdash; 'admired'</strong>: describes a feeling toward the friends, not the act of getting items through them &mdash; misread of the request relationship. &#10007;</li><li><strong>Choice B &mdash; 'disagreed with'</strong>: implies conflict, which contradicts the cooperative request described in the relative clause. &#10007;</li><li><strong>Choice C &mdash; 'warned'</strong>: would mean Schomburg cautioned them &mdash; nothing in the text suggests danger, and it doesn&apos;t explain how items were obtained. &#10007;</li><li><strong>Choice D &mdash; 'depended on'</strong>: captures the reliance &mdash; he counted on friends and colleagues to bring back rare items from abroad. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "faa5696c",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what Schomburg did with these people",
+      "content": "The relative clause \"whom he asked to bring back rare and valuable objects from their international travels\" explains the blank: Schomburg made requests of friends and colleagues and relied on them to deliver materials he could not get himself."
+    },
+    {
+      "title": "Match the relationship to a verb phrase",
+      "content": "We need a phrase that conveys reliance on others to obtain something &mdash; not an attitude, opposition, or warning."
+    },
+    {
+      "title": "Eliminate per choice",
+      "content": "<ul><li><strong>\"admired\"</strong>: describes a feeling toward the friends, not the act of getting items through them &mdash; misread of the request relationship. &#10007;</li><li><strong>\"disagreed with\"</strong>: implies conflict, which contradicts the cooperative request described in the relative clause. &#10007;</li><li><strong>\"warned\"</strong>: would mean Schomburg cautioned them &mdash; nothing in the text suggests danger, and it doesn't explain how items were obtained. &#10007;</li><li><strong>\"depended on\"</strong>: captures the reliance &mdash; he counted on friends and colleagues to bring back rare items from abroad. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

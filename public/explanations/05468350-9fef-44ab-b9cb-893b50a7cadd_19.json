@@ -17,7 +17,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice A has the wrong sign on $24$. Choice C treats the vertical shift like a horizontal change. Choice D incorrectly puts the added $6$ in the denominator. Only choice <strong>B</strong> matches the intercept."
+      "content": "<strong>Choice A &mdash; $\\left(\\frac{-81d+24}{78d},0\\right)$</strong> has the wrong sign on $24$. <strong>Choice C &mdash; $\\left(6-\\frac{81d+18}{78d},0\\right)$</strong> treats the vertical shift like a horizontal change. <strong>Choice D &mdash; $\\left(-\\frac{45}{78d+6},0\\right)$</strong> incorrectly puts the added $6$ in the denominator. Only <strong>Choice B &mdash; $\\left(\\frac{-81d-24}{78d},0\\right)$</strong> matches the intercept."
     }
   ]
 }

@@ -13,11 +13,11 @@
     },
     {
       "title": "Test all four choices",
-      "content": "<ul><li><strong>Choice A &mdash; 'Exactly one'</strong>: Exactly one solution requires the equation to collapse to x = (some specific number). Here both sides are identical for all x — no single unique value. &#10007;</li><li><strong>Choice B &mdash; 'Exactly two'</strong>: A linear equation cannot have exactly two solutions — it has zero, one, or infinitely many. &#10007;</li><li><strong>Choice C &mdash; 'Infinitely many'</strong>: Since 12x + 84 = 12x + 84 is always true, every real number x is a solution. Infinitely many solutions. &#10003;</li><li><strong>Choice D &mdash; 'Zero'</strong>: Zero solutions requires a contradiction like 0 = 5. Here we get 0 = 0, a tautology — not a contradiction. &#10007;</li></ul>"
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Exactly one&rsquo;</strong>: Exactly one solution requires the equation to collapse to x = (some specific number). Here both sides are identical for all x — no single unique value. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Exactly two&rsquo;</strong>: A linear equation cannot have exactly two solutions — it has zero, one, or infinitely many. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Infinitely many&rsquo;</strong>: Since 12x + 84 = 12x + 84 is always true, every real number x is a solution. Infinitely many solutions. &#10003;</li><li><strong>Choice D &mdash; &lsquo;Zero&rsquo;</strong>: Zero solutions requires a contradiction like 0 = 5. Here we get 0 = 0, a tautology — not a contradiction. &#10007;</li></ul>"
     },
     {
       "title": "Conclusion",
-      "content": "After expanding, both sides equal 12x + 84 identically, so every value of x works. That matches choice C — <strong>C</strong> is correct."
+      "content": "After expanding, both sides equal 12x + 84 identically, so every value of x works. That confirms <strong>C</strong> is correct."
     }
   ]
 }

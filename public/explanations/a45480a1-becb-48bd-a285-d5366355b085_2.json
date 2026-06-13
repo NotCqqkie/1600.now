@@ -1,1 +1,15 @@
-{"questionId": "a45480a1-becb-48bd-a285-d5366355b085_2", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The passage says cacao's structure 'is no longer identical' to its wild ancestor, then signals 'Maize (corn) also ______.' The word 'also' signals that maize does something parallel to cacao: it differs from its wild ancestor. The next two sentences confirm this &mdash; the ancestor had few small kernels, but selective breeding produced many large ones."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'varies from'</strong>: means 'differs from.' Domesticated maize differs structurally from its wild ancestor. &#10003;</li><li><strong>Choice B &mdash; 'helps with'</strong>: maize does not assist its ancestor in any way described in the passage. &#10007;</li><li><strong>Choice C &mdash; 'reacts to'</strong>: implies a response to a stimulus; nothing in the passage suggests maize reacts to its ancestor. &#10007;</li><li><strong>Choice D &mdash; 'argues with'</strong>: nonsensical &mdash; a plant cannot argue. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "a45480a1-becb-48bd-a285-d5366355b085_2",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage says cacao's structure 'is no longer identical' to its wild ancestor, then signals 'Maize (corn) also ______.' The word 'also' signals that maize does something parallel to cacao: it differs from its wild ancestor. The next two sentences confirm this &mdash; the ancestor had few small kernels, but selective breeding produced many large ones."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; varies from</strong>: means 'differs from.' Domesticated maize differs structurally from its wild ancestor. &#10003;</li><li><strong>Choice B &mdash; helps with</strong>: maize does not assist its ancestor in any way described in the passage. &#10007;</li><li><strong>Choice C &mdash; reacts to</strong>: implies a response to a stimulus; nothing in the passage suggests maize reacts to its ancestor. &#10007;</li><li><strong>Choice D &mdash; argues with</strong>: nonsensical &mdash; a plant cannot argue. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

@@ -412,7 +412,7 @@
     "difficulty": "Medium",
     "question_number": 16,
     "test_name": "Module Source 195 Math M1",
-    "passage": "The function $h$ is defined by $h\\left(x\\right)=4x+28$. The graph of $y=h\\left(x\\right)$ in the <em>xy</em>-plane has an <em>x</em>-intercept at $\\left(a,0\\right)$ and a <em>y</em>-intercept at $\\left(0,b\\right)$, where $a$ and $b$ are constants. What is the value of $a+b$?",
+    "passage": "The function $h$ is defined by $h\\left(x\\right)=4x+28$. The graph of $y=h\\left(x\\right)$ in the $xy$-plane has an $x$-intercept at $\\left(a,0\\right)$ and a $y$-intercept at $\\left(0,b\\right)$, where $a$ and $b$ are constants. What is the value of $a+b$?",
     "question_text": null,
     "choices": [
       {
@@ -579,7 +579,7 @@
     "difficulty": "Hard",
     "question_number": 21,
     "test_name": "Module Source 195 Math M1",
-    "passage": "$f(x) = (x - a)(x - b)$\nThe function $f$ is defined by the given equation, where $a$ and $b$ are integer constants. If $f(15) > 0$, $f(18) < 0$, and $f(21) > 0$, which of the following could be the value of $a + b$?",
+    "passage": "$f(x) = (x - a)(x - b)$\nThe function $f$ is defined by the given equation, where $a$ and $b$ are integer constants. If $f(15) \\gt 0$, $f(18) \\lt 0$, and $f(21) \\gt 0$, which of the following could be the value of $a + b$?",
     "question_text": null,
     "choices": [
       {

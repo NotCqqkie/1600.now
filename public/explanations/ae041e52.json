@@ -9,7 +9,7 @@
     },
     {
       "title": "Use the diagonal formula for a square",
-      "content": "For a square with side length $s$, the diagonal is $s\\sqrt{2}$ (from the Pythagorean theorem on a right triangle formed by two sides and the diagonal).<br/><br/>Since the diagonal equals the diameter:<br/>$$s\\sqrt{2} = 20\\sqrt{2}$$<br/>Divide both sides by $\\sqrt{2}$:<br/>$$s = 20$$<br/>That matches choice A — <strong>A</strong> is correct."
+      "content": "For a square with side length $s$, the diagonal is $s\\sqrt{2}$ (from the Pythagorean theorem on a right triangle formed by two sides and the diagonal).<br/><br/>Since the diagonal equals the diameter:<br/>$$s\\sqrt{2} = 20\\sqrt{2}$$<br/>Divide both sides by $\\sqrt{2}$:<br/>$$s = 20$$<br/>That is the correct answer."
     }
   ]
 }

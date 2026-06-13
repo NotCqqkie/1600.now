@@ -1,1 +1,15 @@
-{"questionId": "cb122a42-4101-484b-b032-9e55d6519a9c_19", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the structure", "content": "The sentence opens: \"Unlike most paintings in the florilegium, ______.\" \"Unlike most paintings\" is a modifier — the noun immediately after the comma must be the thing contrasted with those paintings. Rule: an opening modifier must be followed immediately by the noun it modifies."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A — Chiliza contextualizes a plant within an ecosystem in his vignette.</strong>: \"Unlike most paintings..., Chiliza contextualizes...\" Subject is \"Chiliza\" (a person), not a painting — dangling modifier. ✗</li><li><strong>Choice B — the contextualization of a plant within an ecosystem occurs in Chiliza's vignette.</strong>: \"Unlike most paintings..., the contextualization...\" Subject is an abstract noun, not a painting — illogical comparison. ✗</li><li><strong>Choice C — a plant's ecosystem is contextualized in Chiliza's vignette.</strong>: \"Unlike most paintings..., a plant's ecosystem...\" Subject is an ecosystem, not a painting — dangling modifier. ✗</li><li><strong>Choice D — Chiliza's vignette contextualizes a plant within an ecosystem.</strong>: \"Unlike most paintings..., Chiliza's vignette contextualizes...\" Subject is \"Chiliza's vignette\" — a painting correctly contrasted with \"most paintings in the florilegium.\" ✓</li></ul>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "cb122a42-4101-484b-b032-9e55d6519a9c_19",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the structure",
+      "content": "The sentence opens: \"Unlike most paintings in the florilegium, ______.\" \"Unlike most paintings\" is a modifier — the noun immediately after the comma must be the thing contrasted with those paintings. Rule: an opening modifier must be followed immediately by the noun it modifies."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A — Chiliza contextualizes a plant within an ecosystem in his vignette.</strong>: \"Unlike most paintings..., Chiliza contextualizes...\" Subject is \"Chiliza\" (a person), not a painting — dangling modifier. ✗</li><li><strong>Choice B — the contextualization of a plant within an ecosystem occurs in Chiliza's vignette.</strong>: \"Unlike most paintings..., the contextualization...\" Subject is an abstract noun, not a painting — illogical comparison. ✗</li><li><strong>Choice C — a plant's ecosystem is contextualized in Chiliza's vignette.</strong>: \"Unlike most paintings..., a plant's ecosystem...\" Subject is an ecosystem, not a painting — dangling modifier. ✗</li><li><strong>Choice D — Chiliza's vignette contextualizes a plant within an ecosystem.</strong>: \"Unlike most paintings..., Chiliza's vignette contextualizes...\" Subject is \"Chiliza's vignette\" — a painting correctly contrasted with \"most paintings in the florilegium.\" ✓</li></ul>That is the correct answer."
+    }
+  ]
+}

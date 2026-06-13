@@ -1,1 +1,15 @@
-{"questionId": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_26", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the goal", "content": "The student wants to <strong>compare the hardness of the three minerals</strong> — diamond, quartz, and fluorite. A good answer ranks all three using their Mohs numbers."}, {"title": "Pick the option that compares all three", "content": "<strong>B</strong> compares only diamond and quartz. <strong>C</strong> describes the scale's purpose without ranking the minerals. <strong>D</strong> only compares diamond and fluorite.<br/><br/><strong>A</strong> ranks all three: diamond (10) > quartz (7) > fluorite (4) — exactly the comparison requested. <strong>A</strong> is correct."}]}
+{
+  "questionId": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_26",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the goal",
+      "content": "The student wants to <strong>compare the hardness of the three minerals</strong> — diamond, quartz, and fluorite. A good answer ranks all three using their Mohs numbers."
+    },
+    {
+      "title": "Pick the option that compares all three",
+      "content": "<strong>B</strong> compares only diamond and quartz. <strong>C</strong> describes the scale's purpose without ranking the minerals. <strong>D</strong> only compares diamond and fluorite.<br/><br/><strong>A</strong> ranks all three: diamond (10) > quartz (7) > fluorite (4) — exactly the comparison requested. <strong>A</strong> is correct."
+    }
+  ]
+}

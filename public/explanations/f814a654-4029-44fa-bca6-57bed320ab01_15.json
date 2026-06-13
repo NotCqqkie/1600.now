@@ -1,1 +1,15 @@
-{"questionId":"f814a654-4029-44fa-bca6-57bed320ab01_15","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The subject is <strong>the average processing power</strong> (singular). Strip out the parenthetical &apos;(now often containing dozens of cores)&apos; &mdash; it modifies microchips, not the subject. The sentence also uses &apos;since then,&apos; pointing to a span from the early 2000s to the present, which requires present-perfect tense."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'has improved'</strong>: Singular present-perfect. Matches the singular subject and the since-then timeframe. &#10003;</li><li><strong>Choice B &mdash; 'have improved'</strong>: Plural present-perfect. Disagrees with the singular subject. &#10007;</li><li><strong>Choice C &mdash; 'have been improving'</strong>: Plural present-perfect progressive. Disagrees with the singular subject. &#10007;</li><li><strong>Choice D &mdash; 'are improving'</strong>: Plural simple present. Disagrees with the singular subject and does not capture the since-then span. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "f814a654-4029-44fa-bca6-57bed320ab01_15",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The subject is <strong>the average processing power</strong> (singular). Strip out the parenthetical '(now often containing dozens of cores)' &mdash; it modifies microchips, not the subject. The sentence also uses 'since then,' pointing to a span from the early 2000s to the present, which requires present-perfect tense."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"has improved\"</strong>: Singular present-perfect. Matches the singular subject and the since-then timeframe. &#10003;</li><li><strong>\"have improved\"</strong>: Plural present-perfect. Disagrees with the singular subject. &#10007;</li><li><strong>\"have been improving\"</strong>: Plural present-perfect progressive. Disagrees with the singular subject. &#10007;</li><li><strong>\"are improving\"</strong>: Plural simple present. Disagrees with the singular subject and does not capture the since-then span. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+    }
+  ]
+}

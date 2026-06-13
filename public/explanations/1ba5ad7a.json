@@ -1,1 +1,15 @@
-{"questionId": "1ba5ad7a", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "Step 1: The decisive clue is the statement that Bakhtin held that <em>fabula</em> and <em>syuzhet</em> are <strong>'insufficient to completely describe a narrative.'</strong> This explicitly frames his argument about the limitations of these two concepts.<br/><br/>The example of <em>The Godfather Part II</em> is secondary and serves only to illustrate how the concepts are inadequate."}, {"title": "Match the meaning", "content": "Step 2: Choice A directly captures Bakhtin’s claim by stating that he argued <em>narratives have important characteristics not fully encompassed by the two concepts</em>, which aligns with the 'insufficient' signal.<br/><br/>The other choices either misfocus on the film example (C), overextend Bakhtin’s point into unrelated claims (B and D), or ignore the main argument entirely.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "1ba5ad7a",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "Step 1: The decisive clue is the statement that Bakhtin held that <em>fabula</em> and <em>syuzhet</em> are <strong>'insufficient to completely describe a narrative.'</strong> This explicitly frames his argument about the limitations of these two concepts.<br/><br/>The example of <em>The Godfather Part II</em> is secondary and serves only to illustrate how the concepts are inadequate."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "Step 2: <strong>Choice A &mdash; Literary theorist Mikhail Bakhtin argued that there are important characteristics of narratives that are not fully encompassed by two concepts that other theorists have used to analyze narratives.</strong> directly captures Bakhtin’s claim by stating that he argued <em>narratives have important characteristics not fully encompassed by the two concepts</em>, which aligns with the 'insufficient' signal.<br/><br/>The other choices either misfocus on the film example, overextend Bakhtin’s point into unrelated claims, or ignore the main argument entirely.<br/><br/>That matches <strong>Choice A &mdash; Literary theorist Mikhail Bakhtin argued that there are important characteristics of narratives that are not fully encompassed by two concepts that other theorists have used to analyze narratives.</strong>."
+    }
+  ]
+}

@@ -164,7 +164,7 @@
     "difficulty": "Medium",
     "question_number": 8,
     "test_name": "Module Source 122 Math M2",
-    "passage": "How many solutions does the equation $7(x+12)+5x=12(x+7)$ have?",
+    "passage": "How many solutions does the equation $7\\left(x+12)+5x=12(x+7\\right)$ have?",
     "question_text": null,
     "choices": [
       {
@@ -432,7 +432,7 @@
     "difficulty": "Hard",
     "question_number": 18,
     "test_name": "Module Source 122 Math M2",
-    "passage": "A polygon has exactly 87 sides. If the measure of each of the 87 interior angles of this polygon is $180p$°, what is the value of $p$?",
+    "passage": "A polygon has exactly 87 sides. If the measure of each of the 87 interior angles of this polygon is $180p^\\circ$, what is the value of $p$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -479,7 +479,7 @@
     "difficulty": "Medium",
     "question_number": 20,
     "test_name": "Module Source 122 Math M2",
-    "passage": "The function $f(n)=7(20.44)^{\\frac{n}{4}}$ gives each term of a sequence as a function of the term's position, $n$, in the sequence, where $n$ is a whole number. The value of the term in position 14 is $p$% more than the value of the term in position 10. What is the value of $p$?",
+    "passage": "The function $f(n)=7(20.44)^{\\frac{n}{4}}$ gives each term of a sequence as a function of the term's position, $n$, in the sequence, where $n$ is a whole number. The value of the term in position 14 is $p\\%$ more than the value of the term in position 10. What is the value of $p$?",
     "question_text": null,
     "choices": [
       {

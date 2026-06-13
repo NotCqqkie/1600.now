@@ -1,1 +1,19 @@
-{"questionId": "9e501aaf", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Read the second sentence as a definition of the blank", "content": "The follow-up explains that the early Moon was softer, impacts left less of an impression, and therefore <em>evidence of early impacts may no longer be present</em>. So the surface cannot serve as a record that <strong>shows</strong> early impact events."}, {"title": "Pick the word that means &quot;to show as evidence of&quot;", "content": "We need a verb meaning to display or be evidence of something. <em>Reflect</em> carries exactly that sense (as in &quot;the data reflect a trend&quot;)."}, {"title": "Eliminate the other choices", "content": "<ul><li><strong>Choice A &mdash; 'reflect'</strong>: matches &quot;show evidence of&quot; &mdash; the soft early surface cannot reflect those impacts. &#10003;</li><li><strong>Choice B &mdash; 'receive'</strong>: the Moon already received the impacts; the issue is preserving/showing them, not accepting them. &#10007;</li><li><strong>Choice C &mdash; 'evaluate'</strong>: a surface does not assess or judge events &mdash; wrong sense entirely. &#10007;</li><li><strong>Choice D &mdash; 'mimic'</strong>: overreach &mdash; to mimic is to imitate, not to record evidence of. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "9e501aaf",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the second sentence as a definition of the blank",
+      "content": "The follow-up explains that the early Moon was softer, impacts left less of an impression, and therefore <em>evidence of early impacts may no longer be present</em>. So the surface cannot serve as a record that <strong>shows</strong> early impact events."
+    },
+    {
+      "title": "Pick the word that means &quot;to show as evidence of&quot;",
+      "content": "We need a verb meaning to display or be evidence of something. <em>Reflect</em> carries exactly that sense (as in &quot;the data reflect a trend&quot;)."
+    },
+    {
+      "title": "Eliminate the other choices",
+      "content": "<ul><li><strong>Choice A &mdash; reflect</strong>: matches &quot;show evidence of&quot; &mdash; the soft early surface cannot reflect those impacts. &#10003;</li><li><strong>Choice B &mdash; receive</strong>: the Moon already received the impacts; the issue is preserving/showing them, not accepting them. &#10007;</li><li><strong>Choice C &mdash; evaluate</strong>: a surface does not assess or judge events &mdash; wrong sense entirely. &#10007;</li><li><strong>Choice D &mdash; mimic</strong>: overreach &mdash; to mimic is to imitate, not to record evidence of. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -17,7 +17,7 @@
     },
     {
       "title": "Check the answer choice with sample values",
-      "content": "Use quick sample values to catch sign errors. If $T=80$ and $H=75$, then the original formula gives $D=80-\\frac{9}{25}(25)=71$. Plugging $D=71$ and $T=80$ into choice A gives:<br/>$$\\frac{25}{9}(71-80)+100=75$$<br/>It returns the original $H$, so choice A is correct."
+      "content": "Use quick sample values to catch sign errors. If $T=80$ and $H=75$, then the original formula gives $D=80-\\frac{9}{25}(25)=71$. Plugging $D=71$ and $T=80$ into the correct expression gives:<br/>$$\\frac{25}{9}(71-80)+100=75$$<br/>It returns the original $H$, so <strong>A</strong> is correct."
     }
   ]
 }

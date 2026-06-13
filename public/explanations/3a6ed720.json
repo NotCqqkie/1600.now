@@ -10,7 +10,7 @@
     },
     {
       "title": "Convert the fraction to percentage",
-      "content": "Convert $\\frac{23}{25}$ to a percentage by multiplying numerator and denominator by 4:<br/>$$\\frac{23}{25} = \\frac{92}{100} = 92\\%$$<br/>That matches choice D — <strong>D</strong> is correct."
+      "content": "Convert $\\frac{23}{25}$ to a percentage by multiplying numerator and denominator by 4:<br/>$$\\frac{23}{25} = \\frac{92}{100} = 92\\%$$<br/><strong>D</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId": "872f5c64-d384-4d98-b5b2-8f9c1b11bbd1_1", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The sentence describes the narrator arriving and placing belongings down: &apos;drop my backpack&apos; is parallel to &apos;set my guitar case against a wall.&apos; The question asks which word is closest in meaning to &apos;drop&apos; in this context."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'Forget'</strong>: means to leave something behind unintentionally &mdash; unrelated to the act of placing objects down. &#10007;</li><li><strong>Choice B &mdash; 'Put down'</strong>: directly matches the literal meaning of placing something down, parallel to &apos;set.&apos; &#10003;</li><li><strong>Choice C &mdash; 'Unbolt'</strong>: describes unfastening &mdash; irrelevant to this context. &#10007;</li><li><strong>Choice D &mdash; 'Empty'</strong>: describes removing contents, not placing the bag itself down. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "872f5c64-d384-4d98-b5b2-8f9c1b11bbd1_1",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence describes the narrator arriving and placing belongings down: &apos;drop my backpack&apos; is parallel to &apos;set my guitar case against a wall.&apos; The question asks which word is closest in meaning to &apos;drop&apos; in this context."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Forget about</strong>: means to leave something behind unintentionally &mdash; unrelated to the act of placing objects down. &#10007;</li><li><strong>Choice B &mdash; Put down</strong>: directly matches the literal meaning of placing something down, parallel to &apos;set.&apos; &#10003;</li><li><strong>Choice C &mdash; Unbolt</strong>: describes unfastening &mdash; irrelevant to this context. &#10007;</li><li><strong>Choice D &mdash; Empty</strong>: describes removing contents, not placing the bag itself down. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

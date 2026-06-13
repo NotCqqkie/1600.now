@@ -1,10 +1,23 @@
 {
   "qid": "433184f1",
+  "questionId": "433184f1",
   "steps": [
-    "Find a common denominator for $\\frac{4}{4x-5} - \\frac{1}{x+1}$. The LCD is $(4x-5)(x+1)$.",
-    "Rewrite each fraction: $\\frac{4(x+1)}{(4x-5)(x+1)} - \\frac{(4x-5)}{(x+1)(4x-5)}$.",
-    "Combine numerators: $4(x+1) - (4x-5) = 4x+4-4x+5 = 9$. Result: $\\frac{9}{(x+1)(4x-5)}$.",
-    "<ul><li><strong>Choice A &mdash; '$\\frac{1}{(x+1)(4x-5)}$'</strong>: The numerator after combining is 9, not 1. &#10007;</li><li><strong>Choice B &mdash; '$\\frac{3}{3x-6}$'</strong>: The denominator does not factor to $3x-6$; this is not equivalent. &#10007;</li><li><strong>Choice C &mdash; '$-\\frac{1}{(x+1)(4x-5)}$'</strong>: Numerator is positive 9, not &minus;1. &#10007;</li><li><strong>Choice D &mdash; '$\\frac{9}{(x+1)(4x-5)}$'</strong>: Matches the combined expression exactly. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    {
+      "title": "Step 1",
+      "content": "Find a common denominator for $\\frac{4}{4x-5} - \\frac{1}{x+1}$. The LCD is $(4x-5)(x+1)$."
+    },
+    {
+      "title": "Step 2",
+      "content": "Rewrite each fraction: $\\frac{4(x+1)}{(4x-5)(x+1)} - \\frac{(4x-5)}{(x+1)(4x-5)}$."
+    },
+    {
+      "title": "Step 3",
+      "content": "Combine numerators: $4(x+1) - (4x-5) = 4x+4-4x+5 = 9$. Result: $\\frac{9}{(x+1)(4x-5)}$."
+    },
+    {
+      "title": "Step 4",
+      "content": "<ul><li><strong>Choice A — $\\frac{1}{ \\left(x+1\\right) \\left(4x-5\\right)}$</strong>: The numerator after combining is 9, not 1. &#10007;</li><li><strong>Choice B — $\\frac{3}{3x-6}$</strong>: The denominator does not factor to $3x-6$; this is not equivalent. &#10007;</li><li><strong>Choice C — $-\\frac{1}{ \\left(x+1\\right) \\left(4x-5\\right)}$</strong>: Numerator is positive 9, not &minus;1. &#10007;</li><li><strong>Choice D — $\\frac{9}{ \\left(x+1\\right) \\left(4x-5\\right)}$</strong>: Matches the combined expression exactly. &#10003;</li></ul><strong>D</strong> is correct."
+    }
   ],
   "correctAnswer": "D"
 }

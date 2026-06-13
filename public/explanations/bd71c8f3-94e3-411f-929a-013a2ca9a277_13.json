@@ -13,11 +13,11 @@
     },
     {
       "title": "Test all four choices",
-      "content": "<ul><li><strong>Choice A &mdash; r = 2</strong>: Eq 2 becomes $2x + 18y = 20$. But $2 \\times (3x+9y=10)$ gives $6x+18y=20$. The x-coefficient 2 &ne; 6. &#10007;</li><li><strong>Choice B &mdash; r = 3</strong>: Eq 2 becomes $3x + 18y = 20$. The x-coefficient 3 &ne; 6. &#10007;</li><li><strong>Choice C &mdash; r = 6</strong>: Eq 2 becomes $6x + 18y = 20 = 2 \\times (3x + 9y = 10)$. All three coefficient ratios equal 2. The lines are identical. &#10003;</li><li><strong>Choice D &mdash; r = 9</strong>: Eq 2 becomes $9x + 18y = 20$. The x-coefficient 9 &ne; 6. &#10007;</li></ul>"
+      "content": "<ul><li><strong>Choice A &mdash; $2$</strong>: Eq 2 becomes $2x + 18y = 20$. But $2 \\times (3x+9y=10)$ gives $6x+18y=20$. The x-coefficient 2 &ne; 6. &#10007;</li><li><strong>Choice B &mdash; $3$</strong>: Eq 2 becomes $3x + 18y = 20$. The x-coefficient 3 &ne; 6. &#10007;</li><li><strong>Choice C &mdash; $6$</strong>: Eq 2 becomes $6x + 18y = 20 = 2 \\times (3x + 9y = 10)$. All three coefficient ratios equal 2. The lines are identical. &#10003;</li><li><strong>Choice D &mdash; $9$</strong>: Eq 2 becomes $9x + 18y = 20$. The x-coefficient 9 &ne; 6. &#10007;</li></ul>"
     },
     {
       "title": "Conclusion",
-      "content": "Only r = 6 makes the two equations proportional (identical lines), giving infinitely many solutions. That matches choice C &mdash; <strong>C</strong> is correct."
+      "content": "Only r = 6 makes the two equations proportional (identical lines), giving infinitely many solutions. That is the correct answer."
     }
   ]
 }

@@ -6,7 +6,7 @@
     "difficulty": "Medium",
     "question_number": 1,
     "test_name": "Module Source 134 Eng M2",
-    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nSoftware engineers often encourage users to create passwords that are fairly complicated and therefore difficult to guess. Nonetheless, research has shown that the more ______ approach to password selection seems to favor convenience over security: for example, the sixth most commonly used password in 2012 was the easily remembered “monkey.”",
+    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nSoftware engineers often encourage users to create passwords that are fairly complicated and therefore difficult to guess. Nonetheless, research has shown that the more ______ approach to password selection seems to favor convenience over security: for example, the sixth most commonly used password in 2012 was the easily remembered \"monkey.\"",
     "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
     "choices": [
       {
@@ -70,8 +70,8 @@
     "difficulty": "Medium",
     "question_number": 3,
     "test_name": "Module Source 134 Eng M2",
-    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nThe fact that publications by University of California-Berkeley economist Bronwyn Hughes Hall, who studies innovation and economics, are so frequently cited in other scholars’ work ______ the usefulness of her research for her peers—other economists clearly find her studies valuable for their own scholarship.",
-    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nThe fact that publications by University of California-Berkeley economist Bronwyn Hughes Hall, who studies innovation and economics, are so frequently cited in other scholars\" work ______ the usefulness of her research for her peers—other economists clearly find her studies valuable for their own scholarship.",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -493,24 +493,24 @@
     "difficulty": "Medium",
     "question_number": 16,
     "test_name": "Module Source 134 Eng M2",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nEach year, the Nobel Prize in Literature is given to an author who has, in the words of its founder Alfred Nobel, “produced the most outstanding work in an idealistic ______ in 1909, for instance, judges recognized Selma Ottilia Lovisa Lagerlöf “[for] the lofty idealism, vivid imagination and spiritual perception that characterize her writings.”",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nEach year, the Nobel Prize in Literature is given to an author who has, in the words of its founder Alfred Nobel, \"produced the most outstanding work in an idealistic ______ in 1909, for instance, judges recognized Selma Ottilia Lovisa Lagerlöf \"[for] the lofty idealism, vivid imagination and spiritual perception that characterize her writings.\"",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {
         "label": "A",
-        "text": "direction” and,"
+        "text": "direction\" and,"
       },
       {
         "label": "B",
-        "text": "direction”;"
+        "text": "direction\";"
       },
       {
         "label": "C",
-        "text": "direction”"
+        "text": "direction\""
       },
       {
         "label": "D",
-        "text": "direction,”"
+        "text": "direction,\""
       }
     ],
     "is_fill_in_blank": false,
@@ -781,7 +781,7 @@
     "difficulty": "Medium",
     "question_number": 25,
     "test_name": "Module Source 134 Eng M2",
-    "passage": "The student wants to contrast the subject matter of the two prints. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• *Rooftops* is a 1935 black-and-white linocut print by Japanese American artist Isami Doi.\n• It depicts a tranquil, everyday scene (a woman hanging laundry up to dry).\n• *Amanzi Amthatha (“The cold water takes him\")* is a 2001 black-and-white linocut print by South African artist Nomathemba Tana.\n• It features a scene with an explicitly political point of view (a Xhosa warrior fighting British colonial rule).\n• Relief printing is a technique in which an image is carved onto a printing block, covered in ink or paint, and stamped onto paper.\n• Lino cutting is a type of relief printing that uses linoleum tile as the printing block.",
+    "passage": "The student wants to contrast the subject matter of the two prints. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• *Rooftops* is a 1935 black-and-white linocut print by Japanese American artist Isami Doi.\n• It depicts a tranquil, everyday scene (a woman hanging laundry up to dry).\n• *Amanzi Amthatha (\"The cold water takes him\")* is a 2001 black-and-white linocut print by South African artist Nomathemba Tana.\n• It features a scene with an explicitly political point of view (a Xhosa warrior fighting British colonial rule).\n• Relief printing is a technique in which an image is carved onto a printing block, covered in ink or paint, and stamped onto paper.\n• Lino cutting is a type of relief printing that uses linoleum tile as the printing block.",
     "question_text": "The student wants to contrast the subject matter of the two prints. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
     "choices": [
       {
@@ -798,7 +798,7 @@
       },
       {
         "label": "D",
-        "text": "Doi made *Rooftops* in 1935, while Tana made *Amanzi Amthatha (“The cold water takes him\")* later, in 2001."
+        "text": "Doi made *Rooftops* in 1935, while Tana made *Amanzi Amthatha (\"The cold water takes him\")* later, in 2001."
       }
     ],
     "is_fill_in_blank": false,

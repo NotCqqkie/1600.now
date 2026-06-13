@@ -1,1 +1,15 @@
-{"questionId":"f814a654-4029-44fa-bca6-57bed320ab01_1","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank describes what the tracking method does to sidewalks that few pedestrians use. The result of this action is <strong>incomplete maps</strong>, so the blank must mean the method fails to include or account for those sidewalks."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'neglects'</strong>: means fails to account for or overlooks &mdash; the method overlooks low-traffic sidewalks, leaving them off the map. &#10003;</li><li><strong>Choice B &mdash; 'oversees'</strong>: means supervises or manages &mdash; makes no sense in context. &#10007;</li><li><strong>Choice C &mdash; 'approves'</strong>: means endorses &mdash; unrelated to mapping or omission. &#10007;</li><li><strong>Choice D &mdash; 'detects'</strong>: means finds or identifies &mdash; the opposite of the problem; if the method detected those sidewalks, the maps would be complete. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "f814a654-4029-44fa-bca6-57bed320ab01_1",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank describes what the tracking method does to sidewalks that few pedestrians use. The result of this action is <strong>incomplete maps</strong>, so the blank must mean the method fails to include or account for those sidewalks."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"neglects\"</strong>: means fails to account for or overlooks &mdash; the method overlooks low-traffic sidewalks, leaving them off the map. &#10003;</li><li><strong>\"oversees\"</strong>: means supervises or manages &mdash; makes no sense in context. &#10007;</li><li><strong>\"approves\"</strong>: means endorses &mdash; unrelated to mapping or omission. &#10007;</li><li><strong>\"detects\"</strong>: means finds or identifies &mdash; the opposite of the problem; if the method detected those sidewalks, the maps would be complete. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+    }
+  ]
+}

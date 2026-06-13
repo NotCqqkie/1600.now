@@ -1,1 +1,15 @@
-{"questionId": "2cde5163-29ab-4fac-b1b1-06ee2a11740a_17", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical pattern", "content": "The sentence frame is <strong>&ldquo;the rover spent over fourteen years _____ data.&rdquo;</strong> The construction <em>spent [time period] + [verb form]</em> requires a gerund (the &ldquo;-ing&rdquo; form) to describe the ongoing activity that filled that stretch of time. The subject is singular (&ldquo;the rover&rdquo;), and the action is in the past."}, {"title": "Eliminate each wrong choice, then confirm the answer", "content": "<ul><li><strong>Choice A &mdash; &lsquo;is collecting&rsquo;</strong>: Present-tense progressive; the sentence describes a past activity, and &ldquo;spent&rdquo; cannot pair with a present-tense verb. &#10007;</li><li><strong>Choice B &mdash; &lsquo;collecting&rsquo;</strong>: The gerund correctly completes &ldquo;spent over fourteen years collecting data,&rdquo; matching Standard English usage for the <em>spent time doing</em> pattern. &#10003;</li><li><strong>Choice C &mdash; &lsquo;were collecting&rsquo;</strong>: Plural past progressive; the subject &ldquo;the rover&rdquo; is singular, and this form cannot follow &ldquo;spent.&rdquo; &#10007;</li><li><strong>Choice D &mdash; &lsquo;collected&rsquo;</strong>: Simple past; placing two simple-past verbs side by side (&ldquo;spent&hellip; collected&rdquo;) breaks the idiomatic structure and creates a grammatical mismatch. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "2cde5163-29ab-4fac-b1b1-06ee2a11740a_17",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical pattern",
+      "content": "The sentence frame is <strong>&ldquo;the rover spent over fourteen years _____ data.&rdquo;</strong> The construction <em>spent [time period] + [verb form]</em> requires a gerund (the &ldquo;-ing&rdquo; form) to describe the ongoing activity that filled that stretch of time. The subject is singular (&ldquo;the rover&rdquo;), and the action is in the past."
+    },
+    {
+      "title": "Eliminate each wrong choice, then confirm the answer",
+      "content": "<ul><li><strong>Choice A — is collecting</strong>: Present-tense progressive; the sentence describes a past activity, and &ldquo;spent&rdquo; cannot pair with a present-tense verb. &#10007;</li><li><strong>Choice B — collecting</strong>: The gerund correctly completes &ldquo;spent over fourteen years collecting data,&rdquo; matching Standard English usage for the <em>spent time doing</em> pattern. &#10003;</li><li><strong>Choice C — were collecting</strong>: Plural past progressive; the subject &ldquo;the rover&rdquo; is singular, and this form cannot follow &ldquo;spent.&rdquo; &#10007;</li><li><strong>Choice D — collected</strong>: Simple past; placing two simple-past verbs side by side (&ldquo;spent&hellip; collected&rdquo;) breaks the idiomatic structure and creates a grammatical mismatch. &#10007;</li></ul><strong>B</strong> is correct."
+    }
+  ]
+}

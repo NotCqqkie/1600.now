@@ -1,1 +1,15 @@
-{"questionId": "1374a9fa", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the key context", "content": "McCoy argues historians present leaders as &quot;the major actors&quot; and workers as &quot;nearly devoid of agency.&quot; The blank must describe what historians have done to ordinary workers &mdash; treating them as peripheral or unimportant."}, {"title": "Eliminate wrong choices and confirm the answer", "content": "<ul><li><strong>Choice A &mdash; 'epitomize'</strong>: wrong direction &mdash; to epitomize means to serve as a perfect example of something, which would elevate workers, not minimize them. &#10007;</li><li><strong>Choice B &mdash; 'marginalize'</strong>: fits precisely &mdash; to marginalize means to treat as unimportant or peripheral, matching &quot;nearly devoid of agency&quot; and the contrast with leaders as &quot;major actors.&quot; &#10003;</li><li><strong>Choice C &mdash; 'extol'</strong>: wrong direction &mdash; to extol means to praise highly, which contradicts the passage&apos;s point that historians have downplayed workers&apos; importance. &#10007;</li><li><strong>Choice D &mdash; 'substantiate'</strong>: wrong meaning &mdash; to substantiate means to verify with evidence; the passage implies historians have overlooked evidence of workers&apos; influence, not confirmed it. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "1374a9fa",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key context",
+      "content": "McCoy argues historians present leaders as &quot;the major actors&quot; and workers as &quot;nearly devoid of agency.&quot; The blank must describe what historians have done to ordinary workers &mdash; treating them as peripheral or unimportant."
+    },
+    {
+      "title": "Eliminate wrong choices and confirm the answer",
+      "content": "<ul><li><strong>Choice A &mdash; epitomize</strong>: wrong direction &mdash; to epitomize means to serve as a perfect example of something, which would elevate workers, not minimize them. &#10007;</li><li><strong>Choice B &mdash; marginalize</strong>: fits precisely &mdash; to marginalize means to treat as unimportant or peripheral, matching &quot;nearly devoid of agency&quot; and the contrast with leaders as &quot;major actors.&quot; &#10003;</li><li><strong>Choice C &mdash; extol</strong>: wrong direction &mdash; to extol means to praise highly, which contradicts the passage&apos;s point that historians have downplayed workers&apos; importance. &#10007;</li><li><strong>Choice D &mdash; substantiate</strong>: wrong meaning &mdash; to substantiate means to verify with evidence; the passage implies historians have overlooked evidence of workers&apos; influence, not confirmed it. &#10007;</li></ul>That matches <strong>Choice B &mdash; marginalize</strong>."
+    }
+  ]
+}

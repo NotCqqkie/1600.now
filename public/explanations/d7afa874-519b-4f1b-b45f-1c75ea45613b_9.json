@@ -9,7 +9,7 @@
     },
     {
       "title": "Solve and evaluate",
-      "content": "Since $900(2.75)^2=6806.25$, $$a=\\frac{9528.75}{6806.25}=1.4.$$ Then $900a=1260$, so at $x=7.50$: $$y=1260(7.50)^2=70{,}875.$$ The answer is <strong>70875</strong>. The requested response box wants the numerical value only, so enter 70875 without a comma."
+      "content": "Since $\\left(900\\right)(2.75)^2=6806.25$, $$a=\\frac{9528.75}{6806.25}=1.4.$$ Then $900a=1260$, so at $x=7.50$: $$y=1260(7.50)^2=70{,}875.$$ The answer is <strong>70875</strong>. The requested response box wants the numerical value only, so enter 70875 without a comma."
     }
   ]
 }

@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the sine ratio",
-      "content": "The sine of angle B equals the opposite side divided by the hypotenuse: $\\sin B = \\frac{24}{40}$. To simplify, divide both numerator and denominator by their greatest common divisor, 8: $$\\sin B = \\frac{3}{5}$$That matches choice A — <strong>A</strong> is correct.",
+      "content": "The sine of angle B equals the opposite side divided by the hypotenuse: $\\sin B = \\frac{24}{40}$. To simplify, divide both numerator and denominator by their greatest common divisor, 8: $$\\sin B = \\frac{3}{5}$$<strong>A</strong> is correct.",
       "formula": "$$\\sin(\\text{angle}) = \\frac{\\text{opposite}}{\\text{hypotenuse}}$$"
     }
   ]

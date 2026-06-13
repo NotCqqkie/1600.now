@@ -1,1 +1,15 @@
-{"questionId":"6c5588e4-f326-44d2-afd6-39547f4bb40a_16","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank fills in the series before <em>welded</em>. The full series is three parallel past participles describing what was done to the sculptures: <em>cut</em>, <em>bent</em>, and <em>welded</em>. Standard English requires a comma after each item in a series and a conjunction before the last item. The blank must supply the two items that come before <em>welded</em> with their correct punctuation: <em>cut, bent, and</em>."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;cut, bent, and,&rsquo;</strong>: places a comma after <em>and</em>, which incorrectly separates the conjunction from the final item. &#10007;</li><li><strong>Choice B &mdash; &lsquo;cut, bent, and&rsquo;</strong>: commas after <em>cut</em> and <em>bent</em>, then <em>and</em> before the final item &mdash; the correct series pattern. &#10003;</li><li><strong>Choice C &mdash; &lsquo;cut, bent; and&rsquo;</strong>: uses a semicolon instead of a comma after <em>bent</em>. Semicolons separate independent clauses, not items in a simple series. &#10007;</li><li><strong>Choice D &mdash; &lsquo;cut bent, and&rsquo;</strong>: omits the comma after <em>cut</em>, making the series incorrectly punctuated. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "6c5588e4-f326-44d2-afd6-39547f4bb40a_16",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank fills in the series before <em>welded</em>. The full series is three parallel past participles describing what was done to the sculptures: <em>cut</em>, <em>bent</em>, and <em>welded</em>. Standard English requires a comma after each item in a series and a conjunction before the last item. The blank must supply the two items that come before <em>welded</em> with their correct punctuation: <em>cut, bent, and</em>."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;cut, bent, and,&rsquo;</strong>: places a comma after <em>and</em>, which incorrectly separates the conjunction from the final item. &#10007;</li><li><strong>Choice B &mdash; &lsquo;cut, bent, and&rsquo;</strong>: commas after <em>cut</em> and <em>bent</em>, then <em>and</em> before the final item &mdash; the correct series pattern. &#10003;</li><li><strong>Choice C &mdash; &lsquo;cut, bent; and&rsquo;</strong>: uses a semicolon instead of a comma after <em>bent</em>. Semicolons separate independent clauses, not items in a simple series. &#10007;</li><li><strong>Choice D &mdash; &lsquo;cut bent, and&rsquo;</strong>: omits the comma after <em>cut</em>, making the series incorrectly punctuated. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

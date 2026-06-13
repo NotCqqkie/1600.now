@@ -1,1 +1,15 @@
-{"questionId": "88bb0f6f", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the contrasting tones", "content": "Text 1 presents the study as a clear success—”a clear win.” Text 2 acknowledges “encouraging” findings but immediately pivots to introduce concerns: “it's important to consider potential effects on global food supplies.” The key signal is optimism versus caution."}, {"title": "Match the contrast to the choices", "content": "Choice A correctly identifies the difference: Text 1 is optimistic about the environmental benefits (calling them “a clear win”), while Text 2 is cautious despite acknowledging the findings are encouraging (introducing concerns about food supplies).<br/><br/>The other choices misread the texts by claiming Text 2 disputes the percentage, inventing claims about timeframe, or assigning incorrect environmental focuses.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "88bb0f6f",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the contrasting tones",
+      "content": "Text 1 presents the study as a clear success—”a clear win.” Text 2 acknowledges “encouraging” findings but immediately pivots to introduce concerns: “it's important to consider potential effects on global food supplies.” The key signal is optimism versus caution."
+    },
+    {
+      "title": "Match the contrast to the choices",
+      "content": "The correct answer correctly identifies the difference: Text 1 is optimistic about the environmental benefits (calling them “a clear win”), while Text 2 is cautious despite acknowledging the findings are encouraging (introducing concerns about food supplies).<br/><br/>The other choices misread the texts by claiming Text 2 disputes the percentage, inventing claims about timeframe, or assigning incorrect environmental focuses.<br/><br/>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId":"f814a654-4029-44fa-bca6-57bed320ab01_3","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage says the price surge had a \"counter-intuitive effect\" on demand. Counter-intuitive means the opposite of what you'd expect: rising prices normally reduce demand, but here they did something unexpected to it. The blank needs a word meaning to produce or bring about this unexpected demand."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'exploiting'</strong>: means taking unfair advantage of something; this doesn't describe what the price increase did to demand. &#10007;</li><li><strong>Choice B &mdash; 'engendering'</strong>: means causing or giving rise to—precisely how the price surge produced the new wave of demand among buyers expecting further appreciation. &#10003;</li><li><strong>Choice C &mdash; 'appraising'</strong>: means assessing the value of something; a price increase cannot appraise demand. &#10007;</li><li><strong>Choice D &mdash; 'monetizing'</strong>: means converting something into money; this doesn't describe an effect on demand. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "f814a654-4029-44fa-bca6-57bed320ab01_3",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage says the price surge had a \"counter-intuitive effect\" on demand. Counter-intuitive means the opposite of what you'd expect: rising prices normally reduce demand, but here they did something unexpected to it. The blank needs a word meaning to produce or bring about this unexpected demand."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"exploiting\"</strong>: means taking unfair advantage of something; this doesn't describe what the price increase did to demand. &#10007;</li><li><strong>\"engendering\"</strong>: means causing or giving rise to—precisely how the price surge produced the new wave of demand among buyers expecting further appreciation. &#10003;</li><li><strong>\"appraising\"</strong>: means assessing the value of something; a price increase cannot appraise demand. &#10007;</li><li><strong>\"monetizing\"</strong>: means converting something into money; this doesn't describe an effect on demand. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+    }
+  ]
+}

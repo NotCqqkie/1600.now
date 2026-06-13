@@ -17,7 +17,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "<ul><li>Choice A, $3.679$, is the second value, not the middle value.</li><li>Choice B, $3.689$, is close to the mean, but the question asks for the median.</li><li>Choice C, $3.699$, is the third and middle value. Correct.</li><li>Choice D, $3.729$, is the mode and maximum value, not the median.</li></ul>That matches choice C."
+      "content": "<ul><li>Choice A, $3.679$, is the second value, not the middle value.</li><li>Choice B, $3.689$, is close to the mean, but the question asks for the median.</li><li>Choice C, $3.699$, is the third and middle value. Correct.</li><li>Choice D, $3.729$, is the mode and maximum value, not the median.</li></ul>That confirms <strong>C</strong>."
     }
   ]
 }

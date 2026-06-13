@@ -1,1 +1,15 @@
-{"questionId": "f814a654-4029-44fa-bca6-57bed320ab01_12", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Locate the structural contrast", "content": "The passage explicitly contrasts ferritic and austenitic stainless steel: “Unlike ferritic stainless steel, austenitic stainless steel has a face-centered cubic crystalline structure resulting from the addition of nickel.” Storage containers use the 300 series, a subtype of austenitic steel, making this structural difference the key to the answer."}, {"title": "Match the structure to the application", "content": "Storage containers use 300 series austenitic steel, which has the face-centered cubic crystalline structure described in the passage.<br/><br/>Induction cookers use ferritic steel, explicitly contrasted as having a different structure.<br/><br/>The other choices contradict the passage by reversing relationships or attributing unsupported properties.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "f814a654-4029-44fa-bca6-57bed320ab01_12",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the structural contrast",
+      "content": "The passage explicitly contrasts ferritic and austenitic stainless steel: “Unlike ferritic stainless steel, austenitic stainless steel has a face-centered cubic crystalline structure resulting from the addition of nickel.” Storage containers use the 300 series, a subtype of austenitic steel, making this structural difference the key to the answer."
+    },
+    {
+      "title": "Match the structure to the application",
+      "content": "Storage containers use 300 series austenitic steel, which has the face-centered cubic crystalline structure described in the passage.<br/><br/>Induction cookers use ferritic steel, explicitly contrasted as having a different structure.<br/><br/>The other choices contradict the passage by reversing relationships or attributing unsupported properties.<br/><br/>That matches the correct answer — <strong>C</strong> is correct."
+    }
+  ]
+}

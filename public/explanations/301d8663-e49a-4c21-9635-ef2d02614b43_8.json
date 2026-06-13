@@ -9,11 +9,11 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "The equivalent expression is $6ab$, which matches choice <strong>D</strong>."
+      "content": "The equivalent expression is $6ab$, which matches the correct answer."
     },
     {
       "title": "Keep the variable factor",
-      "content": "Because both terms include the same factor $ab$, the result must still include $ab$. Choices A and B drop the variables, and choice C forgets that $12-6=6$."
+      "content": "Because both terms include the same factor $ab$, the result must still include $ab$. The other choices drop the variables, and forgetting that $12-6=6$."
     }
   ]
 }

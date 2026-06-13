@@ -18,7 +18,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice <strong>D</strong> is correct because $80(4)-130=190$ and $80(10)-130=670$. Choice C simplifies to $70x$, so it misses the given points."
+      "content": "<strong>D</strong> is correct because ${80}(4)-130=190$ and ${80}(10)-130=670$. <strong>C</strong> simplifies to $70x$, so it misses the given points."
     }
   ]
 }

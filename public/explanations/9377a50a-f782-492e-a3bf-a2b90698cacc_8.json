@@ -9,7 +9,7 @@
     },
     {
       "title": "Find angle A from the original triangle",
-      "content": "From the figure of triangle $ABC$, $\\angle A = 60°$. Since dilation preserves angles, $\\angle X = \\angle A = 60°$. That matches choice C — <strong>C</strong> is correct."
+      "content": "From the figure of triangle $ABC$, $\\angle A = 60^{\\circ}$. Since dilation preserves angles, $\\angle X = \\angle A = 60^{\\circ}$. That confirms <strong>C</strong> is correct."
     }
   ]
 }

@@ -6,7 +6,7 @@
     "difficulty": "Easy",
     "question_number": 1,
     "test_name": "Module Source 202 Eng M1",
-    "passage": "As used in the text, what does the word \"specific\" most nearly mean?\nThe following text is from Mark Oshiro's 2018 novel *Anger Is a Gift*. In the novel, Moss and his friends are on a subway train in Northern California. Lights from the outside world then filled the train car as it rose out of the ground and climbed the elevated track. As long as Moss had lived in West Oakland, he'd never tired of this <u>specific</u> view, so he pointed toward the windows. “Check it,” he said, and the Port of Oakland began to pass by them.",
+    "passage": "As used in the text, what does the word \"specific\" most nearly mean?\nThe following text is from Mark Oshiro's 2018 novel *Anger Is a Gift*. In the novel, Moss and his friends are on a subway train in Northern California. Lights from the outside world then filled the train car as it rose out of the ground and climbed the elevated track. As long as Moss had lived in West Oakland, he'd never tired of this <u>specific</u> view, so he pointed toward the windows. \"Check it,\" he said, and the Port of Oakland began to pass by them.",
     "question_text": "As used in the text, what does the word \"specific\" most nearly mean?",
     "choices": [
       {
@@ -38,7 +38,7 @@
     "difficulty": "Easy",
     "question_number": 2,
     "test_name": "Module Source 202 Eng M1",
-    "passage": "As used in the text, what does the word \"supported\" most nearly mean?\nThe following text is adapted from John Matheus's 1925 short story “*Fog*.” The fog extended its tentacles over city and river, gradually obliterating traces of familiar landscapes. At five-thirty the old Panhandle bridge, <u>supported</u> by massive sandstone pillars, stalwart, as when erected fifty years before to serve a generation now passed behind the portals of life, had become a spectral outline against the sky.",
+    "passage": "As used in the text, what does the word \"supported\" most nearly mean?\nThe following text is adapted from John Matheus's 1925 short story \"*Fog*.\" The fog extended its tentacles over city and river, gradually obliterating traces of familiar landscapes. At five-thirty the old Panhandle bridge, <u>supported</u> by massive sandstone pillars, stalwart, as when erected fifty years before to serve a generation now passed behind the portals of life, had become a spectral outline against the sky.",
     "question_text": "As used in the text, what does the word \"supported\" most nearly mean?",
     "choices": [
       {
@@ -377,19 +377,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "Vanya says to Professor Serebrakoff, “For twenty-five years I have managed [the country estate], and have sent you the returns from it like the most honest of servants, and you have never given me one single word of thanks for my work, not one- neither in my youth nor now.”"
+        "text": "Vanya says to Professor Serebrakoff, \"For twenty-five years I have managed [the country estate], and have sent you the returns from it like the most honest of servants, and you have never given me one single word of thanks for my work, not one- neither in my youth nor now.\""
       },
       {
         "label": "B",
-        "text": "Professor Serebrakoff says to Helena, “It is funny that everybody listens to [Vanya] and his old idiot of a mother, but the moment I open my lips you all begin to feel ill-treated.”"
+        "text": "Professor Serebrakoff says to Helena, \"It is funny that everybody listens to [Vanya] and his old idiot of a mother, but the moment I open my lips you all begin to feel ill-treated.\""
       },
       {
         "label": "C",
-        "text": "Vanya says to Professor Serebrakoff, \"This place [the country estate] could never have been bought had I not renounced my inheritance in favor of my sister [the professor's late wife],whom I deeply loved-and what is more, I worked for ten years like an ox, and paid off the debt.\""
+        "text": "Vanya says to Professor Serebrakoff, \"This place [the country estate] could never have been bought had I not renounced my inheritance in favor of my sister [the professor's late wife], whom I deeply loved-and what is more, I worked for ten years like an ox, and paid off the debt.\""
       },
       {
         "label": "D",
-        "text": "Vanya says to himself, “I was proud of [Professor Serebrakoff] and of his learning; I received all his words and writings as inspired and now? Now he has retired, and what is the total of his life? A blank! He is absolutely unknown, and his fame has burst like a soap-bubble. I have been deceived; I see that now, basely deceived.\""
+        "text": "Vanya says to himself, \"I was proud of [Professor Serebrakoff] and of his learning; I received all his words and writings as inspired and now? Now he has retired, and what is the total of his life? A blank! He is absolutely unknown, and his fame has burst like a soap-bubble. I have been deceived; I see that now, basely deceived.\""
       }
     ],
     "is_fill_in_blank": false,
@@ -571,7 +571,7 @@
     "difficulty": "Medium",
     "question_number": 19,
     "test_name": "Module Source 202 Eng M1",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nA lady-in-waiting's account of Japanese courtly life in the tenth century, Sei Shōnagon's *Pillow Book* is filled with daily observations and musings. Some of these appear as ___ “Things That Arouse a Fond Memory of the Past,” Shōnagon catalogs her appreciation for pressed silk, a moonlit night, and dried hollyhock.",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nA lady-in-waiting's account of Japanese courtly life in the tenth century, Sei Shōnagon's *Pillow Book* is filled with daily observations and musings. Some of these appear as ___ \"Things That Arouse a Fond Memory of the Past,\" Shōnagon catalogs her appreciation for pressed silk, a moonlit night, and dried hollyhock.",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {

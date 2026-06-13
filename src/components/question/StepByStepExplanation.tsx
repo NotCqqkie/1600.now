@@ -217,14 +217,15 @@ function StepContent({ step, stepIndex, totalSteps }: { step: ExplanationStep; s
       )}
 
       {step.desmosGraphs && step.desmosGraphs.length > 0 && (
-        <div className="ml-9 mt-2 flex flex-col gap-4">
+        <div className="ml-9 mt-3 flex flex-col gap-4">
           {step.desmosGraphs.map((graph, graphIndex) => (
-            <div key={graphIndex} className="space-y-1">
-              {graph.label && (
-                <div className="text-sm font-semibold text-muted-foreground">{graph.label}</div>
-              )}
-              <InlineDesmos expressions={graph.expressions} height={420} />
-            </div>
+            <figure key={graphIndex} className="generated-graph-panel">
+              <figcaption className="generated-graph-header">
+                <span className="generated-graph-badge">Generated graph</span>
+                {graph.label && <span className="generated-graph-title">{graph.label}</span>}
+              </figcaption>
+              <InlineDesmos expressions={graph.expressions} height={380} className="generated-graph-canvas" />
+            </figure>
           ))}
         </div>
       )}

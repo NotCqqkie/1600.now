@@ -1,1 +1,15 @@
-{"questionId":"6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_2","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence says Gogol finds it &quot;gratifying&quot; that his efforts &quot;are to have some practical end.&quot; The word &quot;end&quot; is being tested. The tone is satisfaction, and &quot;practical&quot; signals something real and useful."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'limit'</strong>: A practical limit on his efforts would be discouraging, not gratifying. &#10007;</li><li><strong>Choice B &mdash; 'delay'</strong>: A practical delay makes no sense and doesn&apos;t fit the positive tone. &#10007;</li><li><strong>Choice C &mdash; 'decision'</strong>: A practical decision is vague and doesn&apos;t capture what &quot;end&quot; means here. &#10007;</li><li><strong>Choice D &mdash; 'purpose'</strong>: &quot;Practical purpose&quot; maps exactly onto &quot;practical end&quot; — Gogol is gratified that his work will achieve something real and useful. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_2",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence says Gogol finds it &quot;gratifying&quot; that his efforts &quot;are to have some practical end.&quot; The word &quot;end&quot; is being tested. The tone is satisfaction, and &quot;practical&quot; signals something real and useful."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Limit&rsquo;</strong>: A practical limit on his efforts would be discouraging, not gratifying. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Delay&rsquo;</strong>: A practical delay makes no sense and doesn&apos;t fit the positive tone. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Decision&rsquo;</strong>: A practical decision is vague and doesn&apos;t capture what &quot;end&quot; means here. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Purpose&rsquo;</strong>: &quot;Practical purpose&quot; maps exactly onto &quot;practical end&quot; — Gogol is gratified that his work will achieve something real and useful. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

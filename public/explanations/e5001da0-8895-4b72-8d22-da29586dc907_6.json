@@ -9,11 +9,11 @@
     },
     {
       "title": "Test the matching angle",
-      "content": "Choice D says angle $S$ is $29^\\circ$. Then angles $R$ and $S$ are equal, so triangle $RST$ must be isosceles."
+      "content": "<strong>The measure of angle S is 29 degrees.</strong> says angle $S$ is $29^\\circ$. Then angles $R$ and $S$ are equal, so triangle $RST$ must be isosceles."
     },
     {
       "title": "Confirm the other choices",
-      "content": "The other listed values for angle $S$ do not create a required equal pair with angle $R$. Choice <strong>D</strong> is correct."
+      "content": "The other listed values for angle $S$ do not create a required equal pair with angle $R$. The measure of angle S is 29 degrees. is correct."
     }
   ]
 }

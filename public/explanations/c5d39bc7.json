@@ -1,1 +1,15 @@
-{"questionId": "c5d39bc7", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the pronoun's role", "content": "The sentence says barnacles use secretions to &quot;attach ______ to a sea turtle shell.&quot; The blank is the object of &quot;attach&quot; — we need a pronoun that refers back to the subject &quot;turtle barnacles.&quot; Because the barnacles are attaching themselves (subject = object), a reflexive pronoun is required. Because &quot;turtle barnacles&quot; is plural, the correct reflexive is &quot;themselves.&quot;"}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; 'it'</strong>: Singular, non-reflexive — doesn't match the plural antecedent &quot;turtle barnacles.&quot; &#10007;</li><li><strong>Choice B &mdash; 'themselves'</strong>: Plural reflexive — correctly refers back to &quot;turtle barnacles&quot; and signals the barnacles act on themselves. &#10003;</li><li><strong>Choice C &mdash; 'them'</strong>: Non-reflexive plural — creates an unclear reference; it's ambiguous what &quot;them&quot; refers to. &#10007;</li><li><strong>Choice D &mdash; 'itself'</strong>: Singular reflexive — doesn't agree in number with the plural &quot;turtle barnacles.&quot; &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "c5d39bc7",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the pronoun's role",
+      "content": "The sentence says barnacles use secretions to &quot;attach ______ to a sea turtle shell.&quot; The blank is the object of &quot;attach&quot; — we need a pronoun that refers back to the subject &quot;turtle barnacles.&quot; Because the barnacles are attaching themselves (subject = object), a reflexive pronoun is required. Because &quot;turtle barnacles&quot; is plural, the correct reflexive is &quot;themselves.&quot;"
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; it</strong>: Singular, non-reflexive — doesn't match the plural antecedent &quot;turtle barnacles.&quot; &#10007;</li><li><strong>Choice B &mdash; themselves</strong>: Plural reflexive — correctly refers back to &quot;turtle barnacles&quot; and signals the barnacles act on themselves. &#10003;</li><li><strong>Choice C &mdash; them</strong>: Non-reflexive plural — creates an unclear reference; it's ambiguous what &quot;them&quot; refers to. &#10007;</li><li><strong>Choice D &mdash; itself</strong>: Singular reflexive — doesn't agree in number with the plural &quot;turtle barnacles.&quot; &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

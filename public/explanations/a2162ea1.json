@@ -1,4 +1,5 @@
 {
+  "questionId": "a2162ea1",
   "qid": "a2162ea1",
   "steps": [
     {
@@ -11,7 +12,7 @@
       "text": "Interpret the margin of error: plausible values for the true population average lie within the interval $[22.91,\\ 23.29]$ pounds. Values outside this range are not well supported by the data."
     },
     {
-      "text": "Evaluate all choices:<ul><li>A: Plausible values are between $22.91$ and $23.29$ pounds — this correctly describes the confidence interval. That matches choice A — <strong>A</strong> is correct.</li><li>B: Plausible values are less than $22.91$ or greater than $23.29$ — this describes the region outside the confidence interval, which is the opposite of what a margin of error implies. Eliminated.</li><li>C: The average is less than $23.01$ pounds — $23.01 = 23.1 - 0.09$ is not one of the bounds and the statement ignores the upper range. Eliminated.</li><li>D: The average is greater than $23.01$ pounds — same issue; this truncates the interval incorrectly. Eliminated.</li></ul>"
+      "text": "Evaluate all choices:<ul><li>A: Plausible values are between $22.91$ and $23.29$ pounds — this correctly describes the confidence interval. That confirms <strong>A</strong> is correct.</li><li>B: Plausible values are less than $22.91$ or greater than $23.29$ — this describes the region outside the confidence interval, which is the opposite of what a margin of error implies. Eliminated.</li><li>C: The average is less than $23.01$ pounds — $23.01 = 23.1 - 0.09$ is not one of the bounds and the statement ignores the upper range. Eliminated.</li><li>D: The average is greater than $23.01$ pounds — same issue; this truncates the interval incorrectly. Eliminated.</li></ul>"
     }
   ],
   "correctAnswer": "A"

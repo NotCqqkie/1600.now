@@ -1,1 +1,15 @@
-{"questionId": "9d845a11-6019-4b88-9309-26d92ced4f70_21", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Identify the sides", "content": "$\\tan X = \\dfrac{\\text{opposite}}{\\text{adjacent}}$. From the figure (a 3-4-5 right triangle with the right angle opposite the hypotenuse 5), the side opposite angle $X$ has length $3$ and the adjacent side has length $4$."}, {"title": "Compute tan X", "content": "$$\\tan X = \\frac{3}{4}$$<br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "9d845a11-6019-4b88-9309-26d92ced4f70_21",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the sides",
+      "content": "$\\tan X = \\dfrac{\\text{opposite}}{\\text{adjacent}}$. From the figure (a 3-4-5 right triangle with the right angle opposite the hypotenuse 5), the side opposite angle $X$ has length $3$ and the adjacent side has length $4$."
+    },
+    {
+      "title": "Compute tan X",
+      "content": "$$\\tan X = \\frac{3}{4}$$<br/>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

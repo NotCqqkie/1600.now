@@ -1,1 +1,15 @@
-{"questionId":"7c17367d-234a-4cdb-b654-3dc1d5243ede_1","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The phrase &apos;concern myself with&apos; appears in the sentence &apos;I did not concern myself with those things&apos; &mdash; referring to his sisters&apos; dolls and giggling. The question asks for the closest meaning in context."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;Buy&apos;</strong>: the narrator is describing his indifference to his sisters&apos; activities, not a purchase. &#10007;</li><li><strong>Choice B &mdash; &apos;Feel any anger toward&apos;</strong>: nothing in the passage suggests the narrator is angry &mdash; he is simply detached and uninterested. &#10007;</li><li><strong>Choice C &mdash; &apos;Take any interest in&apos;</strong>: &apos;concern myself with&apos; means to involve oneself in or pay attention to something. Saying he did not take any interest in those things captures exactly this detached stance. &#10003;</li><li><strong>Choice D &mdash; &apos;Create&apos;</strong>: the narrator is not describing making anything &mdash; he is distancing himself from what his sisters do. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "7c17367d-234a-4cdb-b654-3dc1d5243ede_1",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The phrase &apos;concern myself with&apos; appears in the sentence &apos;I did not concern myself with those things&apos; &mdash; referring to his sisters&apos; dolls and giggling. The question asks for the closest meaning in context."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Buy&rsquo;</strong>: the narrator is describing his indifference to his sisters&apos; activities, not a purchase. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Feel any anger toward&rsquo;</strong>: nothing in the passage suggests the narrator is angry &mdash; he is simply detached and uninterested. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Take any interest in&rsquo;</strong>: &apos;concern myself with&apos; means to involve oneself in or pay attention to something. Saying he did not take any interest in those things captures exactly this detached stance. &#10003;</li><li><strong>Choice D &mdash; &lsquo;Create&rsquo;</strong>: the narrator is not describing making anything &mdash; he is distancing himself from what his sisters do. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

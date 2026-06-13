@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Determine if the function is increasing or decreasing",
-      "content": "Scan the graph from left to right. The $y$-values rise as $x$ increases, so the function is increasing. That eliminates choice B, decreasing linear, and choice D, decreasing exponential."
+      "content": "Scan the graph from left to right. The $y$-values rise as $x$ increases, so the function is increasing. That eliminates decreasing linear, and decreasing exponential."
     },
     {
       "title": "Determine if the curve is linear or exponential",
@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "The graph is increasing and exponential, not increasing linear. Choice <strong>C</strong> is correct."
+      "content": "The graph is increasing and exponential, not increasing linear. Increasing exponential is correct."
     }
   ]
 }

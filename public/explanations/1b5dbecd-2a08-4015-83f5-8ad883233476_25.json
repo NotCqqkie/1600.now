@@ -1,1 +1,15 @@
-{"questionId":"1b5dbecd-2a08-4015-83f5-8ad883233476_25","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The prompt says the student wants to <strong>contrast</strong> the two samples. Contrast means showing a difference between them — not what they share, and not a general fact about torsion."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'When the fibers were twisted as part of the 2019 study, the surface temperature of both samples increased.'</strong>: Describes what both samples have <em>in common</em> (both heated up). No difference is stated. &#10007;</li><li><strong>Choice B &mdash; 'Twisting an object will generally cause its temperature to increase, a process known as torsional heating.'</strong>: A general definition of torsional heating with no mention of either sample specifically. &#10007;</li><li><strong>Choice C &mdash; 'In 2019, researchers studied the effect of torsional heating on various fibers, including samples of four-ply NiTi wire and three-ply spandex rubber.'</strong>: Names both samples but only says they were studied — no difference between them is identified. &#10007;</li><li><strong>Choice D &mdash; 'The four-ply NiTi wire sample used in the 2019 study was thicker than the three-ply spandex rubber sample.'</strong>: Directly compares the two samples on a measurable dimension (thickness: 0.7 mm vs. 0.2 mm), which is a concrete contrast. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "1b5dbecd-2a08-4015-83f5-8ad883233476_25",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The prompt says the student wants to <strong>contrast</strong> the two samples. Contrast means showing a difference between them — not what they share, and not a general fact about torsion."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; When the fibers were twisted as part of the 2019 study, the surface temperature of both samples increased.</strong>: Describes what both samples have <em>in common</em> (both heated up). No difference is stated. &#10007;</li><li><strong>Choice B &mdash; Twisting an object will generally cause its temperature to increase, a process known as torsional heating.</strong>: A general definition of torsional heating with no mention of either sample specifically. &#10007;</li><li><strong>Choice C &mdash; In 2019, researchers studied the effect of torsional heating on various fibers, including samples of four-ply NiTi wire and three-ply spandex rubber.</strong>: Names both samples but only says they were studied — no difference between them is identified. &#10007;</li><li><strong>Choice D &mdash; The four-ply NiTi wire sample used in the 2019 study was thicker than the three-ply spandex rubber sample.</strong>: Directly compares the two samples on a measurable dimension (thickness: 0.7 mm vs. 0.2 mm), which is a concrete contrast. &#10003;</li></ul>That matches <strong>Choice D &mdash; The four-ply NiTi wire sample used in the 2019 study was thicker than the three-ply spandex rubber sample.</strong>."
+    }
+  ]
+}

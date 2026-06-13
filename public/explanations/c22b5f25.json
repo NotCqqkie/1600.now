@@ -13,11 +13,11 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "The function is $$f(x)=-\\frac{4}{3}x+\\frac{1}{3}.$$ This matches choice <strong>C</strong>."
+      "content": "The function is $$f(x)=-\\frac{4}{3}x+\\frac{1}{3}.$$ This matches <strong>C</strong>."
     },
     {
       "title": "Use the fastest choice check",
-      "content": "Only choice C has slope $-\\frac{4}{3}$, so once the slope is found, the other choices are eliminated immediately. The intercept calculation confirms that choice C also passes through the given points."
+      "content": "Only the equation with slope $-\\frac{4}{3}$ can work, so once the slope is found, the other choices are eliminated immediately. The intercept calculation confirms that choice C also passes through the given points."
     }
   ]
 }

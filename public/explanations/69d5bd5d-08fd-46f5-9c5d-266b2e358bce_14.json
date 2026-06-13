@@ -1,1 +1,15 @@
-{"questionId": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_14", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Trace Laidre's reasoning", "content": "Laidre's argument is: if the tusk served an important survival purpose, then evolution would make it widespread &mdash; yet many narwhals don't have a tusk at all. The blank must complete the prediction her logic produces."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; 'more narwhals would have a tusk'</strong>: Laidre says if the tusk were critical, evolution would spread it broadly &mdash; so the prediction is that most narwhals would have one. This follows directly from her reasoning. &#10003;</li><li><strong>Choice B &mdash; 'narwhals would become less shy over time'</strong>: Shyness is unrelated to the tusk's importance-to-survival argument; nothing in the passage links behavior to tusk function. &#10007;</li><li><strong>Choice C &mdash; 'fewer marine animals would also have tusks'</strong>: The argument concerns narwhals only, not a cross-species comparison of tusk prevalence. &#10007;</li><li><strong>Choice D &mdash; 'some narwhals would seek a new habitat'</strong>: Habitat migration has no connection to whether a body part is evolutionarily necessary. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_14",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Trace Laidre's reasoning",
+      "content": "Laidre's argument is: if the tusk served an important survival purpose, then evolution would make it widespread &mdash; yet many narwhals don't have a tusk at all. The blank must complete the prediction her logic produces."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;more narwhals would have a tusk&rsquo;</strong>: Laidre says if the tusk were critical, evolution would spread it broadly &mdash; so the prediction is that most narwhals would have one. This follows directly from her reasoning. &#10003;</li><li><strong>Choice B &mdash; &lsquo;narwhals would become less shy over time&rsquo;</strong>: Shyness is unrelated to the tusk's importance-to-survival argument; nothing in the passage links behavior to tusk function. &#10007;</li><li><strong>Choice C &mdash; &lsquo;fewer marine animals would also have tusks&rsquo;</strong>: The argument concerns narwhals only, not a cross-species comparison of tusk prevalence. &#10007;</li><li><strong>Choice D &mdash; &lsquo;some narwhals would seek a new habitat&rsquo;</strong>: Habitat migration has no connection to whether a body part is evolutionarily necessary. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

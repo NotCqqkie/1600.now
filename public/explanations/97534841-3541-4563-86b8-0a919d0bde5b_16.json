@@ -1,1 +1,15 @@
-{"questionId":"97534841-3541-4563-86b8-0a919d0bde5b_16","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks which punctuation option correctly connects the subject &mdash; &apos;Puerto Rico&apos;s museums&apos; &mdash; to its verb &apos;showcase.&apos; The rule: no punctuation may separate a subject from its verb."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;museums&apos; (no punctuation)</strong>: the subject connects directly to &apos;showcase&apos; with nothing in between. &#10003;</li><li><strong>Choice B &mdash; &apos;museums,&apos;</strong>: places a comma between the subject and its verb. &#10007;</li><li><strong>Choice C &mdash; &apos;museums;&apos;</strong>: places a semicolon between the subject and its verb. &#10007;</li><li><strong>Choice D &mdash; &apos;museums:&apos;</strong>: places a colon between the subject and its verb. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "97534841-3541-4563-86b8-0a919d0bde5b_16",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks which punctuation option correctly connects the subject &mdash; &apos;Puerto Rico&apos;s museums&apos; &mdash; to its verb &apos;showcase.&apos; The rule: no punctuation may separate a subject from its verb."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; museums</strong>: the subject connects directly to &apos;showcase&apos; with nothing in between. &#10003;</li><li><strong>Choice B &mdash; museums—</strong>: places a comma between the subject and its verb. &#10007;</li><li><strong>Choice C &mdash; museums,</strong>: places a semicolon between the subject and its verb. &#10007;</li><li><strong>Choice D &mdash; museums:</strong>: places a colon between the subject and its verb. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -9,7 +9,7 @@
     },
     {
       "title": "Substitute the 10-hour measurement and solve for r",
-      "content": "At $t = 10$ hours, $P = 18000$. Substitute into the formula:<br/>$$18000 = 9000(2)^{10r}$$<br/>Divide both sides by 9000:<br/>$$2 = (2)^{10r}$$<br/>Rewrite $2$ as $2^1$:<br/>$$2^1 = (2)^{10r}$$<br/>Since the bases are equal, equate the exponents:<br/>$$1 = 10r$$<br/>$$r = \\frac{1}{10}$$<br/>That matches choice B - <strong>B</strong> is correct."
+      "content": "At $t = 10$ hours, $P = 18000$. Substitute into the formula:<br/>$$18000 = 9000(2)^{10r}$$<br/>Divide both sides by 9000:<br/>$$2 = (2)^{10r}$$<br/>Rewrite $2$ as $2^1$:<br/>$$2^1 = (2)^{10r}$$<br/>Since the bases are equal, equate the exponents:<br/>$$1 = 10r$$<br/>$$r = \\frac{1}{10}$$<br/>This matches - <strong>B</strong> is correct."
     }
   ]
 }

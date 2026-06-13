@@ -9,7 +9,7 @@
     },
     {
       "title": "Find the perimeter",
-      "content": "A circle inscribed in a square has its diameter equal to the square's side: $s = 2r = 24$.<br/><br/>Perimeter $= 4s = 4 \\cdot 24 = 96$.<br/><br/>The Desmos graph below checks the completed-square equation: the center is $(8,5)$ and the radius is $12$, so the square side is the diameter, $24$. That matches choice C — <strong>C</strong> is correct.",
+      "content": "A circle inscribed in a square has its diameter equal to the square's side: $s = 2r = 24$.<br/><br/>Perimeter $= 4s = 4 \\cdot 24 = 96$.<br/><br/>The Desmos graph below checks the completed-square equation: the center is $(8,5)$ and the radius is $12$, so the square side is the diameter, $24$. That confirms <strong>C</strong> is correct.",
       "desmosExpressions": [
         "(x-8)^2 + (y-5)^2 = 144",
         "(8, 5)"

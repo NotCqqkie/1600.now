@@ -9,7 +9,7 @@
     },
     {
       "title": "Compare coefficients with the given product",
-      "content": "Since $f(x)\\cdot g(x)=9x^4-26x^3-3x^2$, the coefficient of $x^3$ in our expansion must equal $-26$:<br/>$$9b-27=-26$$<br/>$$9b=1$$<br/>$$b=\\frac{1}{9}$$<br/>That matches choice C, so <strong>C</strong> is correct."
+      "content": "Since $f(x)\\cdot g(x)=9x^4-26x^3-3x^2$, the coefficient of $x^3$ in our expansion must equal $-26$:<br/>$$9b-27=-26$$<br/>$$9b=1$$<br/>$$b=\\frac{1}{9}$$<br/>That matches <strong>Choice C &mdash; $\\frac{1}{9}$</strong>, so <strong>C</strong>."
     }
   ]
 }

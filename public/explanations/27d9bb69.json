@@ -1,1 +1,15 @@
-{"questionId": "27d9bb69", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the defining finding", "content": "Dubey's experiment reveals a direct contradiction: when research was presented as having usefulness (medical applications), participants showed greater interest than when the research was not framed as useful.<br/><br/>This undermines Text 1's core claim that curiosity is purely non-instrumental—a drive to acquire information solely for its own sake."}, {"title": "Apply the finding to the answer", "content": "Choice A expresses this precisely: curiosity is not exclusively motivated by merely acquiring information—usefulness also drives it.<br/><br/>The other three options either mischaracterize Dubey's findings, misapply “conceding” as if Dubey agrees with Text 1, or raise methodological objections the experiment doesn't address.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "27d9bb69",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the defining finding",
+      "content": "Dubey's experiment reveals a direct contradiction: when research was presented as having usefulness (medical applications), participants showed greater interest than when the research was not framed as useful.<br/><br/>This undermines Text 1's core claim that curiosity is purely non-instrumental—a drive to acquire information solely for its own sake."
+    },
+    {
+      "title": "Apply the finding to the answer",
+      "content": "<strong>Choice A &mdash; By suggesting that curiosity may not be exclusively motivated by the desire to merely acquire information</strong> expresses this precisely: curiosity is not exclusively motivated by merely acquiring information—usefulness also drives it.<br/><br/>The other three options either mischaracterize Dubey's findings, misapply “conceding” as if Dubey agrees with Text 1, or raise methodological objections the experiment doesn't address.<br/><br/>That matches <strong>Choice A &mdash; By suggesting that curiosity may not be exclusively motivated by the desire to merely acquire information</strong>."
+    }
+  ]
+}

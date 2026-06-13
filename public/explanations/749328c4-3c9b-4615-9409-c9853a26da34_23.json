@@ -1,1 +1,15 @@
-{"questionId": "749328c4-3c9b-4615-9409-c9853a26da34_23", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the relationship", "content": "Sentence 1 makes a <strong>general claim</strong>: KDKO &quot;does much to serve the local Dakota-speaking community.&quot; Sentence 2 gives <strong>concrete examples</strong> of how: it broadcasts local news, music, and Dakota-language programming. The blank must signal that Sentence 2 zooms in on Sentence 1 with specifics."}, {"title": "Eliminate and confirm", "content": "<ul><li><strong>Choice A &mdash; 'Instead,'</strong>: signals a replacement or correction &mdash; but Sentence 2 is not replacing Sentence 1 with something different; it supports it. &#10007;</li><li><strong>Choice B &mdash; 'Specifically,'</strong>: signals that Sentence 2 provides concrete details that elaborate on the general claim in Sentence 1. &#10003;</li><li><strong>Choice C &mdash; 'As a result,'</strong>: signals cause-and-effect &mdash; the broadcasts are not an outcome of the general claim; they illustrate it. &#10007;</li><li><strong>Choice D &mdash; 'Nevertheless,'</strong>: signals contrast despite an obstacle &mdash; Sentence 2 is fully consistent with Sentence 1, not contrary to it. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "749328c4-3c9b-4615-9409-c9853a26da34_23",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the relationship",
+      "content": "Sentence 1 makes a <strong>general claim</strong>: KDKO &quot;does much to serve the local Dakota-speaking community.&quot; Sentence 2 gives <strong>concrete examples</strong> of how: it broadcasts local news, music, and Dakota-language programming. The blank must signal that Sentence 2 zooms in on Sentence 1 with specifics."
+    },
+    {
+      "title": "Eliminate and confirm",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Instead,&rsquo;</strong>: signals a replacement or correction &mdash; but Sentence 2 is not replacing Sentence 1 with something different; it supports it. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Specifically,&rsquo;</strong>: signals that Sentence 2 provides concrete details that elaborate on the general claim in Sentence 1. &#10003;</li><li><strong>Choice C &mdash; &lsquo;As a result,&rsquo;</strong>: signals cause-and-effect &mdash; the broadcasts are not an outcome of the general claim; they illustrate it. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Nevertheless,&rsquo;</strong>: signals contrast despite an obstacle &mdash; Sentence 2 is fully consistent with Sentence 1, not contrary to it. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

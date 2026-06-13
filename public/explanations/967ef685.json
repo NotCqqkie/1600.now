@@ -1,11 +1,24 @@
 {
+  "questionId": "967ef685",
   "qid": "967ef685",
   "correctAnswer": "D",
   "steps": [
-    "Rewrite the second term with denominator k: $42ak = \\frac{42ak^{2}}{k}$.",
-    "Combine the two fractions: $\\frac{42a}{k} + \\frac{42ak^{2}}{k} = \\frac{42a + 42ak^{2}}{k}$.",
-    "Factor 42a from the numerator: $\\frac{42a(1 + k^{2})}{k} = \\frac{42a(k^{2}+1)}{k}$.",
-    "That matches choice D &mdash; <strong>D</strong> is correct."
+    {
+      "title": "Step 1",
+      "content": "Rewrite the second term with denominator k: $42ak = \\frac{42ak^{2}}{k}$."
+    },
+    {
+      "title": "Step 2",
+      "content": "Combine the two fractions: $\\frac{42a}{k} + \\frac{42ak^{2}}{k} = \\frac{42a + 42ak^{2}}{k}$."
+    },
+    {
+      "title": "Step 3",
+      "content": "Factor 42a from the numerator: $\\frac{42a(1 + k^{2})}{k} = \\frac{42a(k^{2}+1)}{k}$."
+    },
+    {
+      "title": "Step 4",
+      "content": "That confirms <strong>D</strong> is correct."
+    }
   ],
   "choices": [
     {
@@ -26,7 +39,7 @@
     {
       "id": "D",
       "text": "$\\frac{42a\\left({k}^{2}+1\\right)}{k}$",
-      "elimination": "<ul><li>Convert the second term: $42ak = \\frac{42ak^{2}}{k}$.</li><li>Add: $\\frac{42a}{k} + \\frac{42ak^{2}}{k} = \\frac{42a(1+k^{2})}{k} = \\frac{42a(k^{2}+1)}{k}$.</li><li>This matches exactly. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
+      "elimination": "<ul><li>Convert the second term: $42ak = \\frac{42ak^{2}}{k}$.</li><li>Add: $\\frac{42a}{k} + \\frac{42ak^{2}}{k} = \\frac{42a(1+k^{2})}{k} = \\frac{42a(k^{2}+1)}{k}$.</li><li>This matches exactly. That confirms <strong>D</strong> is correct.</li></ul>"
     }
   ]
 }

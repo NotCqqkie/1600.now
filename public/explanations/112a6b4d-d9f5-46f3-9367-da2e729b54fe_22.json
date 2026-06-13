@@ -1,1 +1,15 @@
-{"questionId": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_22", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the logical relationship", "content": "The passage states that most light from distant galaxies is infrared, then makes a claim about the JWST. Because the JWST is an infrared telescope, this fact about galaxy light directly explains its advantage — the second clause is a <strong>consequence</strong> of the first. The blank needs a transition that signals &quot;therefore&quot; or &quot;as a result.&quot;"}, {"title": "Eliminate wrong transitions and confirm the answer", "content": "<ul><li><strong>Choice A &mdash; &quot;consequently,&quot;</strong>: signals a direct result or logical consequence — exactly right, because the JWST&apos;s ability to detect infrared light follows from the fact that most distant-galaxy light is infrared. &#10003;</li><li><strong>Choice B &mdash; &quot;in contrast,&quot;</strong>: signals opposition between two ideas. The two clauses are not opposing — they reinforce each other. &#10007;</li><li><strong>Choice C &mdash; &quot;additionally,&quot;</strong>: signals a separate, added point. The JWST clause is not an extra fact; it is the result of the preceding fact. &#10007;</li><li><strong>Choice D &mdash; &quot;actually,&quot;</strong>: signals a surprising correction or reversal. The JWST&apos;s capability is the expected outcome, not a surprising contradiction. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_22",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the logical relationship",
+      "content": "The passage states that most light from distant galaxies is infrared, then makes a claim about the JWST. Because the JWST is an infrared telescope, this fact about galaxy light directly explains its advantage — the second clause is a <strong>consequence</strong> of the first. The blank needs a transition that signals &quot;therefore&quot; or &quot;as a result.&quot;"
+    },
+    {
+      "title": "Eliminate wrong transitions and confirm the answer",
+      "content": "<ul><li><strong>Choice A &mdash; consequently,</strong>: signals a direct result or logical consequence — exactly right, because the JWST&apos;s ability to detect infrared light follows from the fact that most distant-galaxy light is infrared. &#10003;</li><li><strong>Choice B &mdash; in contrast,</strong>: signals opposition between two ideas. The two clauses are not opposing — they reinforce each other. &#10007;</li><li><strong>Choice C &mdash; additionally,</strong>: signals a separate, added point. The JWST clause is not an extra fact; it is the result of the preceding fact. &#10007;</li><li><strong>Choice D &mdash; actually,</strong>: signals a surprising correction or reversal. The JWST&apos;s capability is the expected outcome, not a surprising contradiction. &#10007;</li></ul>That matches <strong>Choice A &mdash; consequently,</strong>."
+    }
+  ]
+}

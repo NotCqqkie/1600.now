@@ -13,7 +13,7 @@
     },
     {
       "title": "Apply the tangent ratio",
-      "content": "The tangent of an angle in a right triangle is the ratio of opposite to adjacent:<br/>$$\\tan A = \\frac{\\text{opposite}}{\\text{adjacent}} = \\frac{20}{21}$$<br/>That matches choice C — <strong>C</strong> is correct.",
+      "content": "The tangent of an angle in a right triangle is the ratio of opposite to adjacent:<br/>$$\\tan A = \\frac{\\text{opposite}}{\\text{adjacent}} = \\frac{20}{21}$$<br/>That confirms <strong>C</strong> is correct.",
       "formula": "$$\\tan A = \\frac{\\text{opposite}}{\\text{adjacent}}$$"
     }
   ]

@@ -13,7 +13,7 @@
     },
     {
       "title": "Test all four choices",
-      "content": "<ul><li><strong>Choice A &mdash; &#39;0&#39;</strong>: $a=0$ gives $4x+12=0$, true only when $x=-3$ &mdash; exactly one solution, not infinitely many. &#10007;</li><li><strong>Choice B &mdash; &#39;3&#39;</strong>: $a=3$ gives $4x+12 = \\frac{3}{2}x + \\frac{9}{2}$. Coefficients $4 \\neq \\frac{3}{2}$, so exactly one solution. &#10007;</li><li><strong>Choice C &mdash; &#39;8&#39;</strong>: $a=8$ gives right side $\\frac{8(x+3)}{2} = 4(x+3) = 4x+12$. Both sides identical &mdash; infinitely many solutions. &#10003;</li><li><strong>Choice D &mdash; &#39;12&#39;</strong>: $a=12$ gives right side $\\frac{12(x+3)}{2} = 6x+18$. Coefficients $4 \\neq 6$, so exactly one solution. &#10007;</li></ul>That matches choice C &#8212; <strong>C</strong> is correct."
+      "content": "<ul><li><strong>Choice A — $0$</strong>: $a=0$ gives $4x+12=0$, true only when $x=-3$ &mdash; exactly one solution, not infinitely many. &#10007;</li><li><strong>Choice B — $3$</strong>: $a=3$ gives $4x+12 = \\frac{3}{2}x + \\frac{9}{2}$. Coefficients $4 \\neq \\frac{3}{2}$, so exactly one solution. &#10007;</li><li><strong>Choice C — $8$</strong>: $a=8$ gives right side $\\frac{8(x+3)}{2} = 4(x+3) = 4x+12$. Both sides identical &mdash; infinitely many solutions. &#10003;</li><li><strong>Choice D — $12$</strong>: $a=12$ gives right side $\\frac{12(x+3)}{2} = 6x+18$. Coefficients $4 \\neq 6$, so exactly one solution. &#10007;</li></ul>This matches &#8212; <strong>C</strong> is correct."
     }
   ]
 }

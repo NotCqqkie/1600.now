@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; 'Zero'</strong>: An identity has solutions, not zero. &#10007;</li><li><strong>Choice B &mdash; 'Exactly one'</strong>: No single value is singled out; every $x$ works. &#10007;</li><li><strong>Choice C &mdash; 'Exactly two'</strong>: Same trap as B &mdash; no restriction limits solutions to two. &#10007;</li><li><strong>Choice D &mdash; 'Infinitely many'</strong>: Every real number satisfies the identity. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.",
+      "content": "<ul><li><strong>Choice A &mdash; Zero</strong>: An identity has solutions, not zero. &#10007;</li><li><strong>Choice B &mdash; Exactly one</strong>: No single value is singled out; every $x$ works. &#10007;</li><li><strong>Choice C &mdash; Exactly two</strong>: Same trap as B &mdash; no restriction limits solutions to two. &#10007;</li><li><strong>Choice D &mdash; Infinitely many</strong>: Every real number satisfies the identity. &#10003;</li></ul>That is the correct answer.",
       "desmosExpressions": [
         "y = x^{2} - 97",
         "y = -97 + x^{2}"

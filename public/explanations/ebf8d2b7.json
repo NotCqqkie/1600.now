@@ -13,7 +13,7 @@
     },
     {
       "title": "Eliminate the other choices",
-      "content": "<ul><li>A) $5x + 10y = 700$: swaps the per-box times (5 min for large, 10 min for small).</li><li>B) $10x + 5y = 700$: correctly multiplies each box count by its own time.</li><li>C) $(x+y)(10+5)=700$: this would only work if every box took 15 minutes, which is not the case.</li><li>D) $(10+x)(5+y)=700$: adds counts and times, which is not how time accumulates.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "<ul><li><strong>$5x+10y=700$</strong>: $5x + 10y = 700$: swaps the per-box times (5 min for large, 10 min for small).</li><li><strong>$10x+5y=700$</strong>: $10x + 5y = 700$: correctly multiplies each box count by its own time.</li><li><strong>$\\left(x+y\\right)\\left(10+5\\right)=700$</strong>: $(x+y)(10+5)=700$: this would only work if every box took 15 minutes, which is not the case.</li><li><strong>$\\left(10+x\\right)\\left(5+y\\right)=700$</strong>: $(10+x)(5+y)=700$: adds counts and times, which is not how time accumulates.</li></ul>That matches the correct answer — <strong>B</strong> is correct."
     }
   ]
 }

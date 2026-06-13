@@ -4,7 +4,7 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fraction = 0 when numerator = 0 (and denominator ≠ 0)",
+      "title": "Fraction = 0 when numerator = 0 (and denominator $\\ne 0$)",
       "content": "Set $(x-6)(x-8) = 0$ → $x = 6$ or $x = 8$. Check: $6-5 = 1 \\neq 0$ and $8-5 = 3 \\neq 0$, so both are valid.",
       "desmosExpressions": [
         "(x-6)(x-8)/(x-5)=0"
@@ -12,7 +12,7 @@
     },
     {
       "title": "Sum the roots directly",
-      "content": "Sum $= 6 + 8 = 14$. That matches choice A — <strong>A</strong> is correct."
+      "content": "Sum $= 6 + 8 = 14$. That confirms <strong>A</strong> is correct."
     }
   ]
 }

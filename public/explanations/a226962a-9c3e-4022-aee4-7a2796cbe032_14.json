@@ -1,1 +1,15 @@
-{"questionId": "a226962a-9c3e-4022-aee4-7a2796cbe032_14", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the pivotal factor", "content": "The passage presents two contradictory findings—captive animals showed right-handedness, wild animals did not—then reveals the one key difference: captive animals spend significantly more time with humans.<br/><br/>The blank must explain how this difference in human contact accounts for the contrasting results."}, {"title": "Apply the factor to find the answer", "content": "Choice C identifies the cause of right-handedness in captive animals: their extended contact with right-handed humans (85–90% of the human population by the passage's opening).<br/><br/>Choices A and D question sample size validity; B suggests methodological differences—neither explains the observed difference through human contact. <br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "a226962a-9c3e-4022-aee4-7a2796cbe032_14",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the pivotal factor",
+      "content": "The passage presents two contradictory findings—captive animals showed right-handedness, wild animals did not—then reveals the one key difference: captive animals spend significantly more time with humans.<br/><br/>The blank must explain how this difference in human contact accounts for the contrasting results."
+    },
+    {
+      "title": "Apply the factor to find the answer",
+      "content": "The correct choice identifies the cause of right-handedness in captive animals: their extended contact with right-handed humans (85–90% of the human population by the passage's opening).<br/><br/>Those choices question sample size validity; B suggests methodological differences—neither explains the observed difference through human contact. <br/><br/>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

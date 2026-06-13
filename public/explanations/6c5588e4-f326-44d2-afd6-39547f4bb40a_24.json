@@ -1,1 +1,15 @@
-{"questionId":"6c5588e4-f326-44d2-afd6-39547f4bb40a_24","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The first sentence says those volcanoes look like a shield lying flat. The second sentence says volcanologists classify them as &apos;shield volcanoes.&apos; The transition must express that the name is a fitting match for the appearance."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Still,'</strong>: Signals contrast or concession &mdash; but there is no contrast here, only a logical follow-on. &#10007;</li><li><strong>Choice B &mdash; 'Besides,'</strong>: Adds a separate or additional point &mdash; the classification is not an unrelated addition, it directly follows from the appearance. &#10007;</li><li><strong>Choice C &mdash; 'Second,'</strong>: Implies this is the second item in a list, but no first item was introduced. &#10007;</li><li><strong>Choice D &mdash; 'Fittingly,'</strong>: Signals that what follows is an apt or appropriate consequence &mdash; the name &apos;shield volcano&apos; is fitting precisely because they look like shields. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "6c5588e4-f326-44d2-afd6-39547f4bb40a_24",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The first sentence says those volcanoes look like a shield lying flat. The second sentence says volcanologists classify them as &apos;shield volcanoes.&apos; The transition must express that the name is a fitting match for the appearance."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Still,&rsquo;</strong>: Signals contrast or concession &mdash; but there is no contrast here, only a logical follow-on. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Besides,&rsquo;</strong>: Adds a separate or additional point &mdash; the classification is not an unrelated addition, it directly follows from the appearance. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Second,&rsquo;</strong>: Implies this is the second item in a list, but no first item was introduced. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Fittingly,&rsquo;</strong>: Signals that what follows is an apt or appropriate consequence &mdash; the name &apos;shield volcano&apos; is fitting precisely because they look like shields. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "7fa2b1ee", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what providing an example means", "content": "The goal is to <em>provide an example of an air mass</em> &mdash; a specific, named instance, not a definition or a description of the classification system. The notes supply two ready examples: cA (continental arctic, dry and cold) and mT (maritime tropical, moist and warm). A correct answer names one of these and explains what it means."}, {"title": "Eliminate wrong choices and confirm the answer", "content": "<ul><li><strong>Choice A &mdash; &apos;Air masses are large bodies of air with generally uniform humidity and temperature.&apos;</strong>: States the general definition of an air mass; gives no specific example. &#10007;</li><li><strong>Choice B &mdash; &apos;The air mass classification system uses two-letter names and is based on the work of Tor Bergeron, a Swedish meteorologist.&apos;</strong>: Describes the classification system and its origin; no specific air mass is named. &#10007;</li><li><strong>Choice C &mdash; &apos;Air masses are commonly classified by a two-letter name that indicates humidity and temperature.&apos;</strong>: Explains how classification works in general; still no concrete example. &#10007;</li><li><strong>Choice D &mdash; &apos;One type of air mass is known as a cA, or continental arctic, air mass because it is dry and cold.&apos;</strong>: Names the specific cA air mass and explains what it means &mdash; a textbook example. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "7fa2b1ee",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what providing an example means",
+      "content": "The goal is to <em>provide an example of an air mass</em> &mdash; a specific, named instance, not a definition or a description of the classification system. The notes supply two ready examples: cA (continental arctic, dry and cold) and mT (maritime tropical, moist and warm). A correct answer names one of these and explains what it means."
+    },
+    {
+      "title": "Eliminate wrong choices and confirm the answer",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Air masses are large bodies of air with generally uniform humidity and temperature.&rsquo;</strong>: States the general definition of an air mass; gives no specific example. &#10007;</li><li><strong>Choice B &mdash; &lsquo;The air mass classification system uses two-letter names and is based on the work of Tor Bergeron, a Swedish meteorologist.&rsquo;</strong>: Describes the classification system and its origin; no specific air mass is named. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Air masses are commonly classified by a two-letter name that indicates humidity and temperature.&rsquo;</strong>: Explains how classification works in general; still no concrete example. &#10007;</li><li><strong>Choice D &mdash; &lsquo;One type of air mass is known as a cA, or continental arctic, air mass because it is dry and cold.&rsquo;</strong>: Names the specific cA air mass and explains what it means &mdash; a textbook example. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

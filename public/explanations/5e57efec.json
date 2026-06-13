@@ -1,1 +1,15 @@
-{"questionId": "5e57efec", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify why compensation leads to favoring large donors", "content": "The passage uses <strong>so</strong> to connect two ideas: charities can compensate donors for nuisance costs, and therefore they will favor large donors. The relationship between nuisance costs and donation size must explain why larger donations become preferable when costs are compensated."}, {"title": "Apply the relationship to the economic logic", "content": "If nuisance costs are independent of donation size, the compensation a charity must pay remains constant—a \\$10 donor costs the same to compensate as a \\$1000 donor.<br/><br/>Since compensation is fixed, charities maximize revenue by targeting large donors.<br/><br/>The other three fail to create this economic incentive. That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "5e57efec",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify why compensation leads to favoring large donors",
+      "content": "The passage uses <strong>so</strong> to connect two ideas: charities can compensate donors for nuisance costs, and therefore they will favor large donors. The relationship between nuisance costs and donation size must explain why larger donations become preferable when costs are compensated."
+    },
+    {
+      "title": "Apply the relationship to the economic logic",
+      "content": "If nuisance costs are independent of donation size, the compensation a charity must pay remains constant—a \\$10 donor costs the same to compensate as a \\$1000 donor.<br/><br/>Since compensation is fixed, charities maximize revenue by targeting large donors.<br/><br/>The other three fail to create this economic incentive. That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

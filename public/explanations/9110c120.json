@@ -1,4 +1,5 @@
 {
+  "questionId": "9110c120",
   "qid": "9110c120",
   "steps": [
     {
@@ -8,7 +9,7 @@
       "text": "Compute the medians. Data set A has 9 values; the median is the 5th value when sorted: all are 5, so Median$_A = 5$. Data set B has 10 values sorted as 5,5,5,5,5,5,5,5,5,100; the median is the average of the 5th and 6th values: $\\frac{5+5}{2}=5$. So Median$_B = 5$. The medians are the same."
     },
     {
-      "text": "Evaluate each choice:<ul><li>Choice A: Only the means are different &mdash; the means do differ (5 vs 14.5) and the medians are both 5. That matches choice A &mdash; <strong>A</strong> is correct.</li><li>Choice B: Only the medians are different &mdash; the medians are both 5 (not different), and the means are different. Incorrect.</li><li>Choice C: Both means and medians are different &mdash; the medians are equal, so this is false. Incorrect.</li><li>Choice D: Neither are different &mdash; the means do differ, so this is false. Incorrect.</li></ul>"
+      "text": "Evaluate each choice:<ul><li><strong>Choice A &mdash; Only the means are different.</strong>: the means do differ (5 vs 14.5) and the medians are both 5. That confirms <strong>A</strong> is correct.</li><li><strong>Choice B &mdash; Only the medians are different.</strong>: the medians are both 5 (not different), and the means are different. Incorrect.</li><li><strong>Choice C &mdash; Both the means and the medians are different.</strong>: the medians are equal, so this is false. Incorrect.</li><li><strong>Choice D &mdash; Neither the means nor the medians are different.</strong>: the means do differ, so this is false. Incorrect.</li></ul>"
     }
   ],
   "correctAnswer": "A"

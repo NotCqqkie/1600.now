@@ -9,7 +9,7 @@
     },
     {
       "title": "Multiply the roots (Vieta shortcut: product = c/a)",
-      "content": "Product of roots $= 4 \\times (-2) \\times 1 = -8$. (For a monic cubic $x^3 + \\ldots + c$, Vieta confirms product $= -c/1$; reading from the factors is faster.) That matches choice D — <strong>D</strong> is correct."
+      "content": "Product of roots $= 4 \\times (-2) \\times 1 = -8$. (For a monic cubic $x^3 + \\ldots + c$, Vieta confirms product $= -c/1$; reading from the factors is faster.) That confirms <strong>D</strong> is correct."
     }
   ]
 }

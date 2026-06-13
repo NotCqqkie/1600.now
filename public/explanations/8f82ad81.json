@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Distribute the 4",
-      "content": "$4(x^2 + 6) = 4 \\cdot x^2 + 4 \\cdot 6 = 4x^2 + 24$."
+      "content": "${4}(x^2 + 6) = 4 \\cdot x^2 + 4 \\cdot 6 = 4x^2 + 24$."
     },
     {
       "title": "Evaluate all choices",
-      "content": "<ul><li>Choice A: $4x^2 + 24$ — matches the distributed result. That matches choice A — <strong>A</strong> is correct.</li><li>Choice B: $4x^2 + 10$ — adds 4 to 6 instead of multiplying. Eliminated.</li><li>Choice C: $4x^2 + 6$ — does not distribute 4 to the 6. Eliminated.</li><li>Choice D: $4x^2 - 2$ — incorrect arithmetic. Eliminated.</li></ul>"
+      "content": "<ul><li><strong>Choice A &mdash; $4{x}^{2}+24$</strong>: matches the distributed result. That confirms <strong>A</strong> is correct.</li><li><strong>Choice B &mdash; $4{x}^{2}+10$</strong>: adds 4 to 6 instead of multiplying. Eliminated.</li><li><strong>Choice C &mdash; $4{x}^{2}+6$</strong>: does not distribute 4 to the 6. Eliminated.</li><li><strong>Choice D &mdash; $4{x}^{2}-2$</strong>: incorrect arithmetic. Eliminated.</li></ul>"
     }
   ]
 }

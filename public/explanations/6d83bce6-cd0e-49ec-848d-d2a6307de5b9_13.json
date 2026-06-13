@@ -9,7 +9,7 @@
     },
     {
       "title": "Direct multiplication for temperature difference",
-      "content": "Multiply the Kelvin increase by the Fahrenheit scale factor: <br/>$$13.30 \\times \\frac{9}{5} = 13.30 \\times 1.8 = 23.94$$<br/>This matches the linear relationship between temperature differences, bypassing full function evaluation. That matches choice A — <strong>A</strong> is correct.",
+      "content": "Multiply the Kelvin increase by the Fahrenheit scale factor: <br/>$$13.30 \\times \\frac{9}{5} = 13.30 \\times 1.8 = 23.94$$<br/>This matches the linear relationship between temperature differences, bypassing full function evaluation. That confirms <strong>A</strong> is correct.",
       "formula": "$\\Delta F = \\frac{9}{5} \\Delta K$"
     }
   ]

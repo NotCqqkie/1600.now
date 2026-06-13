@@ -1,1 +1,15 @@
-{"questionId": "d007aa6c-6fd8-4005-bd58-dc779c145226_27", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The question asks which choice most effectively <strong>emphasizes the location</strong> of Casa Luis Barragán. The correct answer must make Mexico City, Mexico the focal point — not the architect, architecture style, or design features."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'The architect responsible for designing Casa Luis Barragán.'</strong>: Focuses on Luis Barragán as the architect, not on location. &#10007;</li><li><strong>Choice B &mdash; 'A stunning example of minimalist architecture, Luis Barragán's Casa Luis Barragán features colorful concrete walls and a famous cantilevered staircase.'</strong>: Emphasizes architectural style and design features, not location. &#10007;</li><li><strong>Choice C &mdash; 'Luis Barragán is known for designing a residential home that features colorful concrete walls and a famous cantilevered staircase.'</strong>: Centers on the architect and design details — no mention of location at all. &#10007;</li><li><strong>Choice D &mdash; 'Those wishing to see Casa Luis Barragán in person will have to travel to Mexico City, Mexico.'</strong>: Makes Mexico City, Mexico the destination and central information of the sentence. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "d007aa6c-6fd8-4005-bd58-dc779c145226_27",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks which choice most effectively <strong>emphasizes the location</strong> of Casa Luis Barragán. The correct answer must make Mexico City, Mexico the focal point — not the architect, architecture style, or design features."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; The architect responsible for designing Casa Luis Barragán.</strong>: Focuses on Luis Barragán as the architect, not on location. &#10007;</li><li><strong>Choice B &mdash; A stunning example of minimalist architecture, Luis Barragán's Casa Luis Barragán features colorful concrete walls and a famous cantilevered staircase.</strong>: Emphasizes architectural style and design features, not location. &#10007;</li><li><strong>Choice C &mdash; Luis Barragán is known for designing a residential home that features colorful concrete walls and a famous cantilevered staircase.</strong>: Centers on the architect and design details — no mention of location at all. &#10007;</li><li><strong>Choice D &mdash; Those wishing to see Casa Luis Barragán in person will have to travel to Mexico City, Mexico.</strong>: Makes Mexico City, Mexico the destination and central information of the sentence. &#10003;</li></ul>That is the correct answer."
+    }
+  ]
+}

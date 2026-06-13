@@ -13,7 +13,7 @@
     },
     {
       "title": "Find the departing employee's years of service",
-      "content": "Subtract the remaining sum from the original sum:<br/>$$\\text{Departing employee's years} = 134 - 118.75 = 15.25$$<br/>That matches choice D — <strong>D</strong> is correct."
+      "content": "Subtract the remaining sum from the original sum:<br/>$$\\text{Departing employee's years} = 134 - 118.75 = 15.25$$<br/><strong>D</strong> is correct."
     }
   ]
 }

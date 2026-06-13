@@ -9,11 +9,11 @@
     },
     {
       "title": "Compute the target value",
-      "content": "So $-18-2x = -2 \\cdot 6 = -12$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."
+      "content": "So $-18-2x = -2 \\cdot 6 = -12$. That matches the correct answer — <strong>A</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice A, $-12$. The other choices do not satisfy the same condition from the question, so <strong>A</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above is $-12$. The other choices do not satisfy the same condition from the question, so <strong>A</strong> is correct."
     }
   ]
 }

@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li>A) $y=x+22$ &mdash; slope $1$, intercept $22$. Matches all three points.</li><li>B) $y=24x$ &mdash; at $x=0$ gives $y=0$, not $22$. Eliminated.</li><li>C) $y=24x+2$ &mdash; at $x=0$ gives $y=2$, not $22$. Eliminated.</li><li>D) $y=22x$ &mdash; at $x=0$ gives $y=0$, not $22$. Eliminated.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li>A) $y=x+22$ &mdash; slope $1$, intercept $22$. Matches all three points.</li><li>B) $y=24x$ &mdash; at $x=0$ gives $y=0$, not $22$. Eliminated.</li><li>C) $y=24x+2$ &mdash; at $x=0$ gives $y=2$, not $22$. Eliminated.</li><li>D) $y=22x$ &mdash; at $x=0$ gives $y=0$, not $22$. Eliminated.</li></ul><strong>A</strong> is correct."
     }
   ]
 }

@@ -9,7 +9,7 @@
     },
     {
       "title": "Find w by substituting into a-b = wc",
-      "content": "Substitute the expressions for $a$ and $b$: $$a - b = 39c - 4c = 35c.$$<br/>Since $a - b = wc$, we have $$wc = 35c$$ and, because $c>0$, $$w = 35.$$<br/>The answer is <strong>35</strong>."
+      "content": "Substitute the expressions for $a$ and $b$: $$a - b = 39c - 4c = 35c.$$<br/>Since $a - b = wc$, we have $$wc = 35c$$ and, because $c\\gt 0$, $$w = 35.$$<br/>The answer is <strong>35</strong>."
     }
   ]
 }

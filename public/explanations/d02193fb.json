@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "The boundary is $y=1-4x$, and the shaded side is the greater-than side. The inequality is $y>1-4x$, which is choice <strong>D</strong>."
+      "content": "The boundary is $y=1-4x$, and the shaded side is the greater-than side. The inequality is $y\\gt1-4x$, which is <strong>D</strong>."
     }
   ]
 }

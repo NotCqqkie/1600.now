@@ -1,1 +1,15 @@
-{"questionId":"9ae9a989-b64a-43e1-92a8-37a91043b8ed_2","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage says the book &ldquo;has earned a lot of praise,&rdquo; and &ldquo;In fact&rdquo; signals the next sentence amplifies that idea. The blank needs a verb meaning to obtain or be given a recognition or award."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'guessed'</strong>: to guess means to estimate without certainty &mdash; you don&rsquo;t guess an award, and the word carries no sense of receiving recognition. &#10007;</li><li><strong>Choice B &mdash; 'blamed'</strong>: means to hold responsible for something negative &mdash; the opposite of the positive context. &#10007;</li><li><strong>Choice C &mdash; 'received'</strong>: means to be given something; &ldquo;received the award&rdquo; is natural, precise, and continues the idea of earned praise. &#10003;</li><li><strong>Choice D &mdash; 'forgot'</strong>: implies the subject lost memory of something &mdash; logically impossible for a book to forget an award and contradicts the positive tone. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "9ae9a989-b64a-43e1-92a8-37a91043b8ed_2",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage says the book &ldquo;has earned a lot of praise,&rdquo; and &ldquo;In fact&rdquo; signals the next sentence amplifies that idea. The blank needs a verb meaning to obtain or be given a recognition or award."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; guessed</strong>: to guess means to estimate without certainty &mdash; you don&rsquo;t guess an award, and the word carries no sense of receiving recognition. &#10007;</li><li><strong>Choice B &mdash; blamed</strong>: means to hold responsible for something negative &mdash; the opposite of the positive context. &#10007;</li><li><strong>Choice C &mdash; received</strong>: means to be given something; &ldquo;received the award&rdquo; is natural, precise, and continues the idea of earned praise. &#10003;</li><li><strong>Choice D &mdash; forgot</strong>: implies the subject lost memory of something &mdash; logically impossible for a book to forget an award and contradicts the positive tone. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

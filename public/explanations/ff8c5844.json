@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Find the exponential pattern",
-      "content": "Use the form $g(x)=ab^x$. The table shows $g(0)=1$, so $$a=1.$$ The table also shows $g(1)=\\frac{1}{25}$, so $$ab=\\frac{1}{25}.$$ Since $a=1$, $$b=\\frac{1}{25}.$$"
+      "content": "Use the form $g(x)=a\\cdot b^x$. The table shows $g(0)=1$, so $$a=1.$$ The table also shows $g(1)=\\frac{1}{25}$, so $$a\\cdot b=\\frac{1}{25}.$$ Since $a=1$, $$b=\\frac{1}{25}.$$"
     },
     {
       "title": "Read the base",
@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice <strong>D</strong> is $g(x)=\\left(\\frac{1}{25}\\right)^x$, so D is correct."
+      "content": "$g \\left(x\\right)={ \\left(\\frac{1}{25}\\right)}^{x}$ is $g(x)=\\left(\\frac{1}{25}\\right)^x$, so D is correct."
     }
   ]
 }

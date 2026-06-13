@@ -1,1 +1,15 @@
-{"questionId": "911c7a87", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Understand the passage structure", "content": "The passage traces a sequential process: (1) a surveyor makes a grid, (2) the site is dug and artifacts are recorded and mapped. The blank introduces the final step. The correct transition must signal that this sentence completes the sequence &mdash; not add an example, introduce a contrast, or point backward in time."}, {"title": "Eliminate each choice, then confirm the answer", "content": "<ul><li><strong>Choice A &mdash; 'For instance,'</strong>: Signals that this sentence is an example of the previous one &mdash; but removing artifacts is a distinct next step, not an illustration. &#10007;</li><li><strong>Choice B &mdash; 'On the contrary,'</strong>: Signals contrast or opposition &mdash; there is no contradiction between mapping artifacts and then removing them. &#10007;</li><li><strong>Choice C &mdash; 'Earlier,'</strong>: Points backward in time &mdash; removing, cataloging, and analyzing artifacts happens after, not before, the dig. &#10007;</li><li><strong>Choice D &mdash; 'Finally,'</strong>: Marks the concluding step in a sequence &mdash; correctly signals that removing, cataloging, and analyzing artifacts is the last stage of the dig process. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "911c7a87",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Understand the passage structure",
+      "content": "The passage traces a sequential process: (1) a surveyor makes a grid, (2) the site is dug and artifacts are recorded and mapped. The blank introduces the final step. The correct transition must signal that this sentence completes the sequence &mdash; not add an example, introduce a contrast, or point backward in time."
+    },
+    {
+      "title": "Eliminate each choice, then confirm the answer",
+      "content": "<ul><li><strong>Choice A &mdash; For instance,</strong>: Signals that this sentence is an example of the previous one &mdash; but removing artifacts is a distinct next step, not an illustration. &#10007;</li><li><strong>Choice B &mdash; On the contrary,</strong>: Signals contrast or opposition &mdash; there is no contradiction between mapping artifacts and then removing them. &#10007;</li><li><strong>Choice C &mdash; Earlier,</strong>: Points backward in time &mdash; removing, cataloging, and analyzing artifacts happens after, not before, the dig. &#10007;</li><li><strong>Choice D &mdash; Finally,</strong>: Marks the concluding step in a sequence &mdash; correctly signals that removing, cataloging, and analyzing artifacts is the last stage of the dig process. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

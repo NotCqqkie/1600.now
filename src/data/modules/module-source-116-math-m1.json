@@ -313,7 +313,7 @@
     "difficulty": "Medium",
     "question_number": 11,
     "test_name": "Module Source 116 Math M1",
-    "passage": "The solution to the given system of equations is (x, y). What is the value of x?\n$$19 = x + y$$\n$$x - y = 9$$",
+    "passage": "$19 = x + y$\n$x - y = 9$\nThe solution to the given system of equations is $(x, y)$. What is the value of $x$?",
     "question_text": null,
     "choices": [
       {
@@ -493,7 +493,7 @@
     "difficulty": "Medium",
     "question_number": 18,
     "test_name": "Module Source 116 Math M1",
-    "passage": "The current value of a house is \\$174,000, and this value increases by 2.4% each year from the value of the previous year. Which function f gives the value, in dollars, of the house c years from now?",
+    "passage": "The current value of a house is \\$174,000, and this value increases by 2.4% each year from the value of the previous year. Which function f gives the value, in dollars, of the house x years from now?",
     "question_text": null,
     "choices": [
       {
@@ -557,7 +557,7 @@
     "difficulty": "Medium",
     "question_number": 20,
     "test_name": "Module Source 116 Math M1",
-    "passage": "In triangle QRS shown, $QR < RS$. Which expression represents the length of $\\overline{QS}$?",
+    "passage": "In triangle QRS shown, $QR \\lt RS$. Which expression represents the length of $\\overline{QS}$?",
     "question_text": null,
     "choices": [
       {

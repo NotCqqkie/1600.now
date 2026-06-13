@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the area scaling rule for similar figures",
-      "content": "When linear dimensions scale by factor $k$, area scales by $k^2$. <br/><br/>Area scale factor: $\\left(\\frac{1}{10}\\right)^2 = \\frac{1}{100}$<br/><br/>Model area: $600 \\cdot \\frac{1}{100} = 6$ square meters.<br/><br/>That matches choice A — <strong>A</strong> is correct.",
+      "content": "When linear dimensions scale by factor $k$, area scales by $k^2$. <br/><br/>Area scale factor: $\\left(\\frac{1}{10}\\right)^2 = \\frac{1}{100}$<br/><br/>Model area: $600 \\cdot \\frac{1}{100} = 6$ square meters.<br/><br/>That confirms <strong>A</strong> is correct.",
       "formula": "$$\\text{Area scale factor} = k^2$$"
     }
   ]

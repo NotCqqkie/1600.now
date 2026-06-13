@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the area scale factor rule",
-      "content": "When linear dimensions scale by factor $k$, area scales by $k^2$. Since the side of M is 6 times the side of N, the area of M is $6^2 = 36$ times the area of N. Therefore, area of M = $$36 \\times 49 = 1,764$$ square feet. That matches choice A — <strong>A</strong> is correct."
+      "content": "When linear dimensions scale by factor $k$, area scales by $k^2$. Since the side of M is 6 times the side of N, the area of M is $6^2 = 36$ times the area of N. Therefore, area of M = $$36 \\times 49 = 1,764$$ square feet. That is the correct answer."
     }
   ]
 }

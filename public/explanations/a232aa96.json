@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice D is correct. Choice A adds $-3$ and $-8$ before adding $60$. Choice B ignores the coefficient $-3$. Choice C uses $-3+60$ instead of substituting $-8$ for $x$.",
+      "content": "The answer is $84$. The value $49$ comes from adding $-3$ and $-8$ before adding $60$. The value $52$ ignores the coefficient $-3$. The value $57$ uses $-3+60$ instead of substituting $-8$ for $x$.",
       "desmosExpressions": [
         "f(x)=-3x+60",
         "x=-8"

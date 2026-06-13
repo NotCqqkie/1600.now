@@ -9,7 +9,7 @@
     },
     {
       "title": "Use inscribed circle property to find perimeter",
-      "content": "When a circle is inscribed in a square, it touches all four sides, and the circle's diameter equals the square's side length.<br/><br/>Diameter $= 2r = 2(9) = 18$<br/><br/>Therefore the square has side length $18$, and its perimeter is:<br/>$$4 \\times 18 = 72$$<br/>That matches choice C — <strong>C</strong> is correct."
+      "content": "When a circle is inscribed in a square, it touches all four sides, and the circle's diameter equals the square's side length.<br/><br/>Diameter $= 2r = 2(9) = 18$<br/><br/>Therefore the square has side length $18$, and its perimeter is:<br/>$$4 \\times 18 = 72$$<br/><strong>C</strong> is correct."
     }
   ]
 }

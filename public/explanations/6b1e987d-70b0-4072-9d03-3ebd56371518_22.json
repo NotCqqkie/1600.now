@@ -17,7 +17,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li>Choice A (mean $8$, range $12$): forgets to add $17$ to the mean.</li><li>Choice B (mean $8$, range $29$): wrong mean, and a shift cannot change the range.</li><li>Choice C (mean $25$, range $12$): correct mean and correct unchanged range.</li><li>Choice D (mean $25$, range $29$): right mean but range incorrectly increased by $17$.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+      "content": "<ul><li>Choice A (mean $8$, range $12$): forgets to add $17$ to the mean.</li><li>Choice B (mean $8$, range $29$): wrong mean, and a shift cannot change the range.</li><li>Choice C (mean $25$, range $12$): correct mean and correct unchanged range.</li><li>Choice D (mean $25$, range $29$): right mean but range incorrectly increased by $17$.</li></ul>That confirms <strong>C</strong> is correct."
     }
   ]
 }

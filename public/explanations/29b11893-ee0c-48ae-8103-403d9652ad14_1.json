@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm with Desmos or the choices",
-      "content": "In Desmos, graph the four answer-choice lines and compare them with the image; only choice C goes through both marked points. Choice D has the right negative sign, but its slope $-\\frac{8}{5}$ is too steep. Therefore choice C, $f(x)=-\\frac{5}{8}x-1$, is correct.",
+      "content": "In Desmos, graph the four answer-choice lines and compare them with the image; only <strong>Choice C &mdash; $f(x)=-\\frac{5}{8}x-1$</strong> goes through both marked points. <strong>Choice D &mdash; $f(x)=-\\frac{8}{5}x-1$</strong> has the right negative sign, but its slope $-\\frac{8}{5}$ is too steep. Therefore <strong>Choice C &mdash; $f(x)=-\\frac{5}{8}x-1$</strong>, $f(x)=-\\frac{5}{8}x-1$, is correct.",
       "desmosExpressions": [
         "y = \\frac{5}{8}x - 1",
         "y = \\frac{8}{5}x - 1",

@@ -1,5 +1,10 @@
-import { useEffect, useState } from "react";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { cn } from "@/lib/utils";
+
+type ImageIntrinsicSize = {
+  width: number;
+  height: number;
+};
 
 interface TransparentAwareImageProps {
   src: string;
@@ -8,12 +13,16 @@ interface TransparentAwareImageProps {
   wrapperClassName?: string;
   loading?: "eager" | "lazy";
   trimWhitespace?: boolean;
+  reserveWhiteBackground?: boolean;
+  intrinsicSize?: ImageIntrinsicSize;
 }
 
 const transparencyCache = new Map<string, boolean>();
 const trimmedImageCache = new Map<string, string>();
 
 const isPngAsset = (src: string) => /\.png(?:$|[?#])/i.test(src);
+
+const isBitmapAsset = (src: string) => /\.(?:png|jpe?g|webp)(?:$|[?#])/i.test(src);
 
 const isTableImageAlt = (alt: string) => /\btable\b/i.test(alt);
 
@@ -36,6 +45,32 @@ const scaleTableImageClassName = (className?: string) => {
     scaled = scaled.split(from).join(to);
   });
   return cn(scaled, "max-w-[80%] border-0 rounded-none");
+};
+
+const parseCssLength = (value: string, reference: number): number | undefined => {
+  const trimmed = value.trim();
+  if (!trimmed || trimmed === "none") return undefined;
+  if (trimmed.endsWith("px")) return Number.parseFloat(trimmed);
+  if (trimmed.endsWith("%")) return reference * (Number.parseFloat(trimmed) / 100);
+  const numeric = Number.parseFloat(trimmed);
+  return Number.isFinite(numeric) ? numeric : undefined;
+};
+
+const getReservedImageSize = (
+  intrinsicSize: ImageIntrinsicSize,
+  parentWidth: number,
+  maxWidth: number | undefined,
+  maxHeight: number | undefined,
+) => {
+  let width = Math.min(intrinsicSize.width, parentWidth || intrinsicSize.width, maxWidth ?? Number.POSITIVE_INFINITY);
+  let height = width * (intrinsicSize.height / intrinsicSize.width);
+
+  if (maxHeight !== undefined && height > maxHeight) {
+    height = maxHeight;
+    width = height * (intrinsicSize.width / intrinsicSize.height);
+  }
+
+  return { width, height };
 };
 
 const hasTransparentPixel = (img: HTMLImageElement) => {
@@ -218,21 +253,34 @@ export const TransparentAwareImage = ({
   wrapperClassName,
   loading = "lazy",
   trimWhitespace = false,
+  reserveWhiteBackground = false,
+  intrinsicSize,
 }: TransparentAwareImageProps) => {
+  const wrapperRef = useRef<HTMLSpanElement>(null);
+  const imgRef = useRef<HTMLImageElement>(null);
   const [hasTransparency, setHasTransparency] = useState(false);
   const [resolvedSrc, setResolvedSrc] = useState(src);
+  const [reservedSize, setReservedSize] = useState<ImageIntrinsicSize | null>(null);
+  const shouldReserveWhiteBackground = Boolean(
+    reserveWhiteBackground &&
+    intrinsicSize?.width &&
+    intrinsicSize.height &&
+    isBitmapAsset(src)
+  );
   const imageClassName = isTableImageAlt(alt) && !hasExplicitQuestionImageSize(className)
     ? scaleTableImageClassName(className)
     : className;
   const cachedTrimmedInitial = trimWhitespace ? trimmedImageCache.get(src) : undefined;
-  const [isReady, setIsReady] = useState(() => !trimWhitespace || Boolean(cachedTrimmedInitial));
+  const [isReady, setIsReady] = useState(() =>
+    (!trimWhitespace && !shouldReserveWhiteBackground) || Boolean(cachedTrimmedInitial)
+  );
 
   useEffect(() => {
     let cancelled = false;
 
     const cachedTrimmed = trimWhitespace ? trimmedImageCache.get(src) : undefined;
     setResolvedSrc(cachedTrimmed ?? src);
-    setIsReady(!trimWhitespace || Boolean(cachedTrimmed));
+    setIsReady((!trimWhitespace && !shouldReserveWhiteBackground) || Boolean(cachedTrimmed));
     const shouldDetectTransparency = isPngAsset(src);
     if (!shouldDetectTransparency) {
       setHasTransparency(false);
@@ -245,7 +293,7 @@ export const TransparentAwareImage = ({
       setHasTransparency(false);
     }
 
-    if (cached !== undefined && (!trimWhitespace || cachedTrimmed)) {
+    if (cached !== undefined && (!trimWhitespace || cachedTrimmed) && !shouldReserveWhiteBackground) {
       return;
     }
 
@@ -294,20 +342,70 @@ export const TransparentAwareImage = ({
     return () => {
       cancelled = true;
     };
-  }, [src, trimWhitespace]);
+  }, [src, trimWhitespace, shouldReserveWhiteBackground]);
+
+  useLayoutEffect(() => {
+    if (!shouldReserveWhiteBackground || !intrinsicSize || isReady) {
+      setReservedSize(null);
+      return;
+    }
+
+    const updateReservedSize = () => {
+      const wrapper = wrapperRef.current;
+      const img = imgRef.current;
+      if (!wrapper || !img) return;
+
+      const parentWidth = wrapper.parentElement?.getBoundingClientRect().width ?? intrinsicSize.width;
+      const imageStyle = getComputedStyle(img);
+      const maxWidth = parseCssLength(imageStyle.getPropertyValue("--question-image-max-width"), parentWidth);
+      const maxHeight = parseCssLength(imageStyle.getPropertyValue("--question-image-max-height"), parentWidth);
+      const nextSize = getReservedImageSize(intrinsicSize, parentWidth, maxWidth, maxHeight);
+
+      setReservedSize((current) =>
+        current &&
+        Math.round(current.width) === Math.round(nextSize.width) &&
+        Math.round(current.height) === Math.round(nextSize.height)
+          ? current
+          : nextSize
+      );
+    };
+
+    updateReservedSize();
+
+    const parent = wrapperRef.current?.parentElement;
+    if (!parent || typeof ResizeObserver === "undefined") {
+      window.addEventListener("resize", updateReservedSize);
+      return () => window.removeEventListener("resize", updateReservedSize);
+    }
+
+    const observer = new ResizeObserver(updateReservedSize);
+    observer.observe(parent);
+    return () => observer.disconnect();
+  }, [imageClassName, intrinsicSize, isReady, shouldReserveWhiteBackground]);
+
+  const reserveWrapperStyle = reservedSize
+    ? {
+        width: `${reservedSize.width}px`,
+        height: `${reservedSize.height}px`,
+      }
+    : undefined;
 
   return (
     <span
+      ref={wrapperRef}
       className={cn(
         "inline-flex max-w-full min-w-0 box-border justify-center",
+        reservedSize && "question-image-loading-placeholder",
         hasTransparency && "dark:rounded-md dark:bg-white dark:p-2",
         wrapperClassName
       )}
+      style={reserveWrapperStyle}
     >
       <img
+        ref={imgRef}
         src={resolvedSrc}
         alt={alt}
-        className={imageClassName}
+        className={cn(imageClassName, shouldReserveWhiteBackground && "rounded-lg")}
         loading={loading}
         decoding="async"
         style={isReady ? undefined : { visibility: "hidden" }}

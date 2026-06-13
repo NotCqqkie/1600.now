@@ -1,1 +1,15 @@
-{"questionId": "5a4b09bc-842b-4866-ae63-c98b8f2cc56e_21", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the structure", "content": "The sentence: \"...the ______ prowled the park as part of the dominant Matimba coalition.\" The blank fills \"lions Ginger and Shaka\" \u2014 the names \"Ginger and Shaka\" are a restrictive appositive identifying which specific lions. Restrictive appositives are essential to meaning and take no commas."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A \u2014 lions Ginger and Shaka</strong>: \"...the lions Ginger and Shaka prowled the park...\" No commas \u2014 correct for a restrictive appositive that identifies which lions specifically. \u2713</li><li><strong>Choice B \u2014 lions, Ginger and Shaka,</strong>: \"...the lions, Ginger and Shaka, prowled the park...\" Commas on both sides signal a non-restrictive appositive, implying these are the only lions in the park \u2014 not the intended meaning. \u2717</li><li><strong>Choice C \u2014 lions Ginger and Shaka,</strong>: \"...the lions Ginger and Shaka, prowled the park...\" A trailing comma after the appositive wrongly separates the subject phrase from its verb. \u2717</li><li><strong>Choice D \u2014 lions, Ginger and Shaka</strong>: \"...the lions, Ginger and Shaka prowled the park...\" One comma before the names but not after creates an unbalanced, non-standard construction. \u2717</li></ul>That matches choice A \u2014 <strong>A</strong> is correct."}]}
+{
+  "questionId": "5a4b09bc-842b-4866-ae63-c98b8f2cc56e_21",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the structure",
+      "content": "The sentence: \"...the ______ prowled the park as part of the dominant Matimba coalition.\" The blank fills \"lions Ginger and Shaka\" — the names \"Ginger and Shaka\" are a restrictive appositive identifying which specific lions. Restrictive appositives are essential to meaning and take no commas."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;lions Ginger and Shaka&rsquo;</strong>: \"...the lions Ginger and Shaka prowled the park...\" No commas — correct for a restrictive appositive that identifies which lions specifically. ✓</li><li><strong>Choice B &mdash; &lsquo;lions, Ginger and Shaka,&rsquo;</strong>: \"...the lions, Ginger and Shaka, prowled the park...\" Commas on both sides signal a non-restrictive appositive, implying these are the only lions in the park — not the intended meaning. ✗</li><li><strong>Choice C &mdash; &lsquo;lions Ginger and Shaka,&rsquo;</strong>: \"...the lions Ginger and Shaka, prowled the park...\" A trailing comma after the appositive wrongly separates the subject phrase from its verb. ✗</li><li><strong>Choice D &mdash; &lsquo;lions, Ginger and Shaka&rsquo;</strong>: \"...the lions, Ginger and Shaka prowled the park...\" One comma before the names but not after creates an unbalanced, non-standard construction. ✗</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

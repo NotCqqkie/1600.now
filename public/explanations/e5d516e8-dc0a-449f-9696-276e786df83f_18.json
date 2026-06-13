@@ -9,7 +9,7 @@
     },
     {
       "title": "Use the unit circle formula to find coordinates",
-      "content": "For a point on the unit circle at angle $\\theta$, the coordinates are $(\\cos \\theta, \\sin \\theta)$.<br/><br/>At $\\theta = \\frac{5\\pi}{3}$ (in the fourth quadrant): $$\\cos\\left(\\frac{5\\pi}{3}\\right) = \\frac{1}{2}, \\quad \\sin\\left(\\frac{5\\pi}{3}\\right) = -\\frac{\\sqrt{3}}{2}$$ Therefore, $P = \\left(\\frac{1}{2}, -\\frac{\\sqrt{3}}{2}\\right)$.<br/><br/>That matches choice D — <strong>D</strong> is correct."
+      "content": "For a point on the unit circle at angle $\\theta$, the coordinates are $(\\cos \\theta, \\sin \\theta)$.<br/><br/>At $\\theta = \\frac{5\\pi}{3}$ (in the fourth quadrant): $$\\cos\\left(\\frac{5\\pi}{3}\\right) = \\frac{1}{2}, \\quad \\sin\\left(\\frac{5\\pi}{3}\\right) = -\\frac{\\sqrt{3}}{2}$$ Therefore, $P = \\left(\\frac{1}{2}, -\\frac{\\sqrt{3}}{2}\\right)$.<br/><br/>That matches the correct answer — <strong>D</strong> is correct."
     }
   ]
 }

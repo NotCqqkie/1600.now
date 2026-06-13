@@ -9,7 +9,7 @@
     },
     {
       "title": "Compute the annual percent decrease",
-      "content": "If the value each year is $0.38$ of the previous year's value, then it has decreased by $1-0.38=0.62$ of the previous year's value.<br/>$$ \\text{Decrease fraction}=0.62 $$<br/>Converting to a percentage gives $p=0.62\\times100=62$.<br/>That matches choice D — <strong>D</strong> is correct."
+      "content": "If the value each year is $0.38$ of the previous year's value, then it has decreased by $1-0.38=0.62$ of the previous year's value.<br/>$$ \\text{Decrease fraction}=0.62 $$<br/>Converting to a percentage gives $p=0.62\\times100=62$.<br/><strong>D</strong> is correct."
     }
   ]
 }

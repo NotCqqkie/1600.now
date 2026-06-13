@@ -9,7 +9,7 @@
     },
     {
       "title": "Interpret the coefficient 200",
-      "content": "In $200t$, the factor 200 is multiplied by $t$ (the number of payments), giving the total from monthly payments. Therefore 200 is the dollar amount of each individual monthly payment.<ul><li><strong>A (amount of the down payment):</strong> The down payment is $2{,}200$, not 200 &mdash; wrong.</li><li><strong>B (amount of each fixed monthly payment):</strong> 200 is the per-payment amount, since $200 \\times t$ = total from monthly payments. That matches choice B &mdash; <strong>B</strong> is correct.</li><li><strong>C (total amount paid after t payments):</strong> The total from payments is $200t$ (the whole product), not just the coefficient 200 &mdash; wrong.</li><li><strong>D (total number of fixed monthly payments):</strong> $t$ represents the number of payments, not 200 &mdash; wrong.</li></ul>"
+      "content": "In $200t$, the factor 200 is multiplied by $t$ (the number of payments), giving the total from monthly payments. Therefore 200 is the dollar amount of each individual monthly payment.<ul><li><strong>The amount, in dollars, of each fixed monthly payment</strong> is correct.</li><li><strong>C (total amount paid after t payments):</strong> The total from payments is $200t$ (the whole product), not just the coefficient 200 &mdash; wrong.</li><li><strong>D (total number of fixed monthly payments):</strong> $t$ represents the number of payments, not 200 &mdash; wrong.</li></ul>"
     }
   ]
 }

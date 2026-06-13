@@ -1,1 +1,15 @@
-{"questionId":"562b97f6-c42e-48b0-9911-de9db6425784_16","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage has an opening em-dash before 'first published in ______ is essential reading.' An opening em-dash signals a parenthetical aside that must be closed by a matching em-dash. The blank must supply the year plus the closing punctuation that completes the parenthetical."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; '1689&mdash;'</strong>: Closes the em-dash parenthetical: '&mdash;first published in 1689&mdash;is essential reading.' The aside is complete and the main clause reads smoothly. &#10003;</li><li><strong>Choice B &mdash; '1689'</strong>: No closing dash. The aside opened by the first em-dash is never closed, leaving the sentence structurally broken. &#10007;</li><li><strong>Choice C &mdash; '1689,'</strong>: A comma cannot close an em-dash parenthetical. The opening dash has no matching close. &#10007;</li><li><strong>Choice D &mdash; '1689:'</strong>: A colon cannot close an em-dash parenthetical. The structure remains open. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "562b97f6-c42e-48b0-9911-de9db6425784_16",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage has an opening em-dash before 'first published in ______ is essential reading.' An opening em-dash signals a parenthetical aside that must be closed by a matching em-dash. The blank must supply the year plus the closing punctuation that completes the parenthetical."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — 1689—</strong>: Closes the em-dash parenthetical: '&mdash;first published in 1689&mdash;is essential reading.' The aside is complete and the main clause reads smoothly. &#10003;</li><li><strong>Choice B — 1689</strong>: No closing dash. The aside opened by the first em-dash is never closed, leaving the sentence structurally broken. &#10007;</li><li><strong>Choice C — 1689,</strong>: A comma cannot close an em-dash parenthetical. The opening dash has no matching close. &#10007;</li><li><strong>Choice D — 1689:</strong>: A colon cannot close an em-dash parenthetical. The structure remains open. &#10007;</li></ul><strong>A</strong> is correct."
+    }
+  ]
+}

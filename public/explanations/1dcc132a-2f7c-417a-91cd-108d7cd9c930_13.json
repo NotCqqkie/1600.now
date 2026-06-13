@@ -13,7 +13,7 @@
     },
     {
       "title": "Match to the answer choices",
-      "content": "<ul><li><strong>A) I and II only:</strong> includes $24$, which fails when $a\\gt25$. &cross;</li><li><strong>B) I and III only:</strong> exactly the two solutions we found. &check;</li><li><strong>C) II and III only:</strong> drops $x=a$, which is always a root, and keeps $24$, which is not. &cross;</li><li><strong>D) I, II, and III:</strong> includes $24$, which is not a solution for $a\\gt25$. &cross;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "<ul><li><strong>A) I and II only:</strong> includes $24$, which fails when $a\\gt25$. &cross;</li><li><strong>B) I and III only:</strong> exactly the two solutions we found. &check;</li><li><strong>C) II and III only:</strong> drops $x=a$, which is always a root, and keeps $24$, which is not. &cross;</li><li><strong>D) I, II, and III:</strong> includes $24$, which is not a solution for $a\\gt25$. &cross;</li></ul>That matches <strong>Choice B &mdash; I and III only</strong>."
     }
   ]
 }

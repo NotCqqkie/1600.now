@@ -9,7 +9,7 @@
     },
     {
       "title": "Test choice C",
-      "content": "Backsolving — testing choice C (300): If $n = 300$, then $$1.06 \\times 300 = 300 + 0.06 \\times 300 = 300 + 18 = 318$$ That matches choice C — <strong>C</strong> is correct."
+      "content": "Backsolving — testing choice C (300): If $n = 300$, then $$1.06 \\times 300 = 300 + 0.06 \\times 300 = 300 + 18 = 318$$ That confirms <strong>C</strong> is correct."
     }
   ]
 }

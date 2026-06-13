@@ -9,11 +9,11 @@
     },
     {
       "title": "Solve for the expression needed",
-      "content": "Adding gives $$2(x-2)=123+432=555.$$ Therefore $$x-2=277.5.$$ The question asks for $10(x-2)$, so $$10(x-2)=10(277.5)=2775.$$"
+      "content": "Adding gives $$2(x-2)=123+432=555.$$ Therefore $$x-2=277.5.$$ The question asks for ${10}(x-2)$, so $$10(x-2)=10(277.5)=2775.$$"
     },
     {
       "title": "Desmos graph check",
-      "content": "If you graph both equations in Desmos, the intersection has $x=279.5$, so $x-2=277.5$. This graph is only a confirmation of the elimination result above; the requested value is still $10(x-2)=2775$.",
+      "content": "If you graph both equations in Desmos, the intersection has $x=279.5$, so $x-2=277.5$. This graph is only a confirmation of the elimination result above; the requested value is still ${10}(x-2)=2775$.",
       "desmosExpressions": [
         "y=\\frac{x-125}{8}-3",
         "y=\\frac{434-x}{8}-3",
@@ -22,7 +22,7 @@
     },
     {
       "title": "Confirm the requested value",
-      "content": "The system does not ask for $x$ or $y$ by itself; it asks for $10(x-2)$. The computed value is <strong>2775</strong>."
+      "content": "The system does not ask for $x$ or $y$ by itself; it asks for ${10}(x-2)$. The computed value is <strong>2775</strong>."
     }
   ]
 }

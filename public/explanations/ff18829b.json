@@ -1,1 +1,15 @@
-{"questionId": "ff18829b", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the services shown on the graph", "content": "The graph displays project leaders' ratings for three specific services: provision of medicinal plants (2), improvement of neighborhood attachment (3), and improvement of local microclimate (3).<br/><br/>Since the question asks for a choice that most effectively <strong>uses data from the graph</strong>, the correct answer must compare two of these <strong>displayed</strong> services."}, {"title": "Match the accurate comparison", "content": "Choices B and D reference services not shown on the graph, so they cannot effectively use the displayed data.<br/><br/>Choice C uses shown services but reverses the relationship—it claims local microclimate (3) is rated lower than medicinal plants (2), contradicting the graph.<br/><br/>Choice A correctly uses the graph's data: project leaders rated medicinal plants (2) lower than local microclimate (3).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "ff18829b",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the services shown on the graph",
+      "content": "The graph displays project leaders' ratings for three specific services: provision of medicinal plants (2), improvement of neighborhood attachment (3), and improvement of local microclimate (3).<br/><br/>Since the question asks for a choice that most effectively <strong>uses data from the graph</strong>, the correct answer must compare two of these <strong>displayed</strong> services."
+    },
+    {
+      "title": "Match the accurate comparison",
+      "content": "Two other options reference services not shown on the graph, so they cannot effectively use the displayed data.<br/><br/>The correct answer uses shown services but reverses the relationship—it claims local microclimate (3) is rated lower than medicinal plants (2), contradicting the graph.<br/><br/>The remaining alternative uses the graph's data: project leaders rated medicinal plants (2) lower than local microclimate (3).<br/><br/>That matches the correct answer — <strong>A</strong> is correct."
+    }
+  ]
+}

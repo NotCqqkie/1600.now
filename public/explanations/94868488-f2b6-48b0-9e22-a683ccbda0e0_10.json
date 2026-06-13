@@ -9,7 +9,7 @@
     },
     {
       "title": "Calculate the area",
-      "content": "The area of a square is $A = s^2$. Substitute $s = 88$: $$A = 88^2 = 7,744$$That matches choice C - <strong>C</strong> is correct."
+      "content": "The area of a square is $A = s^2$. Substitute $s = 88$: $$A = 88^2 = 7,744$$That confirms <strong>C</strong> is correct."
     }
   ]
 }

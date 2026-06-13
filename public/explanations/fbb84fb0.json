@@ -1,1 +1,15 @@
-{"questionId": "fbb84fb0", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "What the claim requires", "content": "The text says Hedda <strong>seeks to influence another person's fate</strong>. The correct quotation must show her actively wanting to shape or control someone else's future &mdash; not her own uncertainty, not a rhetorical question, not commentary on character."}, {"title": "Eliminate three, confirm one", "content": "<ul><li><strong>Choice A &mdash; &quot;Then what in heaven's name would you have me do with myself?&quot;</strong>: Hedda expresses confusion about her own life, not a desire to control anyone else's. &#10007;</li><li><strong>Choice B &mdash; &quot;I want for once in my life to have power to mould a human destiny.&quot;</strong>: Explicitly states she wants power over another person's fate. This is exactly what the claim describes. &#10003;</li><li><strong>Choice C &mdash; &quot;Then I, poor creature, have no sort of power over you?&quot;</strong>: A question implying she lacks power, not an expression of wanting to influence another's fate. &#10007;</li><li><strong>Choice D &mdash; &quot;Faithful to your principles, now and for ever! Ah, that is how a man should be!&quot;</strong>: Commentary on someone else's character, not a desire to shape their destiny. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "fbb84fb0",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "What the claim requires",
+      "content": "The text says Hedda <strong>seeks to influence another person's fate</strong>. The correct quotation must show her actively wanting to shape or control someone else's future &mdash; not her own uncertainty, not a rhetorical question, not commentary on character."
+    },
+    {
+      "title": "Eliminate three, confirm one",
+      "content": "<ul><li><strong>\"\"Then what in heaven's name would you have me do with myself?\"\"</strong>: Hedda expresses confusion about her own life, not a desire to control anyone else's. &#10007;</li><li><strong>\"\"I want for once in my life to have power to mould a human destiny.\"\"</strong>: Explicitly states she wants power over another person's fate. This is exactly what the claim describes. &#10003;</li><li><strong>\"\"Then I, poor creature, have no sort of power over you?\"\"</strong>: A question implying she lacks power, not an expression of wanting to influence another's fate. &#10007;</li><li><strong>\"\"Faithful to your principles, now and for ever! Ah, that is how a man should be!\"\"</strong>: Commentary on someone else's character, not a desire to shape their destiny. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+    }
+  ]
+}

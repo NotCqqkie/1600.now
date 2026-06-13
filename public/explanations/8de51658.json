@@ -1,1 +1,19 @@
-{"questionId": "8de51658", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Pin down each author's position", "content": "Text 1's author says thermodynamic irreversibility is established at the macroscopic level, but current microscopic/quantum laws hold that those processes &quot;should&quot; be reversible &mdash; framing this as a puzzle for physicists."}, {"title": "See what Text 2 adds", "content": "Batalh&atilde;o et al. experimentally confirmed irreversibility at the quantum level. That is direct empirical evidence that the &quot;should be reversible&quot; prediction of current microscopic theory does not hold &mdash; meaning the current microscopic understanding must be missing something (a point Paternostro reinforces by noting the experiment doesn't yet pinpoint the cause)."}, {"title": "Match Text 1's author to a choice", "content": "<ul><li><strong>Choice A &mdash; 'two of the physicists... disagree on the significance'</strong>: Text 2 shows no such disagreement; this fabricates a conflict not in the passage. &#10007;</li><li><strong>Choice B &mdash; 'current understanding... at a microscopic level must be incomplete'</strong>: exactly what Text 1's author, who already calls the microscopic prediction puzzling, would conclude from empirical evidence of quantum-level irreversibility. &#10004;</li><li><strong>Choice C &mdash; 'consistent with the current understanding... at a microscopic level'</strong>: backwards &mdash; the experiment contradicts the microscopic prediction of reversibility. &#10007;</li><li><strong>Choice D &mdash; 'should not be extrapolated to a general claim'</strong>: Text 1's author has no stated concern about generalizing lab results; this issue is invented and not what the Text 1 author flags. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "8de51658",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Pin down each author's position",
+      "content": "Text 1's author says thermodynamic irreversibility is established at the macroscopic level, but current microscopic/quantum laws hold that those processes &quot;should&quot; be reversible &mdash; framing this as a puzzle for physicists."
+    },
+    {
+      "title": "See what Text 2 adds",
+      "content": "Batalh&atilde;o et al. experimentally confirmed irreversibility at the quantum level. That is direct empirical evidence that the &quot;should be reversible&quot; prediction of current microscopic theory does not hold &mdash; meaning the current microscopic understanding must be missing something (a point Paternostro reinforces by noting the experiment doesn't yet pinpoint the cause)."
+    },
+    {
+      "title": "Match Text 1's author to a choice",
+      "content": "<ul><li><strong>Choice A &mdash; It would suggest an interesting direction for future research were it not the case that two of the physicists who conducted the experiment disagree on the significance of its findings.</strong>: Text 2 shows no such disagreement; this fabricates a conflict not in the passage. &#10007;</li><li><strong>Choice B &mdash; It provides empirical evidence that the current understanding of an aspect of physics at a microscopic level must be incomplete.</strong>: exactly what Text 1's author, who already calls the microscopic prediction puzzling, would conclude from empirical evidence of quantum-level irreversibility. &#10004;</li><li><strong>Choice C &mdash; It is consistent with the current understanding of physics at a microscopic level but not at a macroscopic level.</strong>: backwards &mdash; the experiment contradicts the microscopic prediction of reversibility. &#10007;</li><li><strong>Choice D &mdash; It supports a claim about an isolated system of atoms in a laboratory, but that claim should not be extrapolated to a general claim about the universe.</strong>: Text 1's author has no stated concern about generalizing lab results; this issue is invented and not what the Text 1 author flags. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

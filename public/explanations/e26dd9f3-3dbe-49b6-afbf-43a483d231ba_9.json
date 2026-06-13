@@ -1,1 +1,15 @@
-{"questionId":"e26dd9f3-3dbe-49b6-afbf-43a483d231ba_9","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage states that Knight imitated Hair&apos;s fast painting technique, which &quot;accounts in part for the impressionistic qualities synonymous with the group&apos;s shared aesthetic.&quot; The question asks what logically follows from this."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;Knight&apos;s paintings embody the impressionistic qualities of the Highwaymen aesthetic&apos;</strong>: follows directly — adopting Hair&apos;s technique means Knight&apos;s works share the group&apos;s defining impressionistic traits. &#10003;</li><li><strong>Choice B &mdash; 'Hair&apos;s technique is superior to others'</strong>: introduces a value judgment about quality that the passage does not make. &#10007;</li><li><strong>Choice C &mdash; 'Reagan&apos;s detail-focused works are better'</strong>: another unsupported quality comparison; the passage describes Reagan&apos;s style without ranking it. &#10007;</li><li><strong>Choice D &mdash; 'Knight directly copied Hair&apos;s paintings'</strong>: the passage says Knight imitated Hair&apos;s technique, not that she reproduced specific works. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "e26dd9f3-3dbe-49b6-afbf-43a483d231ba_9",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage states that Knight imitated Hair's fast painting technique, which \"accounts in part for the impressionistic qualities synonymous with the group's shared aesthetic.\" The question asks what logically follows from this."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"Because of the manner in which they were created, they likely have visual qualities that are regarded as more typical of Florida Highwaymen paintings than the qualities in works by Reagan are.\"</strong>: follows directly — adopting Hair's technique means Knight's works share the group's defining impressionistic traits. &#10003;</li><li><strong>\"Although it is evident that Knight adopted some of Hair's preferred techniques, Knight's works are less derivative of works by Hair than is typically acknowledged.\"</strong>: introduces a value judgment about quality that the passage does not make. &#10007;</li><li><strong>\"The lack of precision with which they were executed suggests that they are inferior to works by either Hair or Reagan.\"</strong>: another unsupported quality comparison; the passage describes Reagan's style without ranking it. &#10007;</li><li><strong>\"Knight's reliance on the technique of fast painting likely accounts for his works being more aesthetically interesting than works by Reagan are.\"</strong>: the passage says Knight imitated Hair's technique, not that she reproduced specific works. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+    }
+  ]
+}

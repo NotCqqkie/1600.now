@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Substitute t = 0 into the function",
-      "content": "At the surface of the sample, the depth is $t = 0$ millimeters.<br/><br/>Substitute into the function: $$f(0) = 500(0.5)^{0/12}$$ Simplify the exponent: $$f(0) = 500(0.5)^{0}$$ Any nonzero number to the power 0 equals 1: $$f(0) = 500 \\cdot 1 = 500$$ That matches choice A — <strong>A</strong> is correct."
+      "content": "At the surface of the sample, the depth is $t = 0$ millimeters.<br/><br/>Substitute into the function: $$f(0) = 500(0.5)^{0/12}$$ Simplify the exponent: $$f(0) = 500(0.5)^{0}$$ Any nonzero number to the power 0 equals 1: $$f(0) = 500 \\cdot 1 = 500$$ That matches the correct answer — <strong>A</strong> is correct."
     }
   ]
 }

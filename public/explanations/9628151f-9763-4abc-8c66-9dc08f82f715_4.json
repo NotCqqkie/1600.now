@@ -16,5 +16,5 @@
       "content": "$$x^3 + 14x^2 - 8x + 40$$"
     }
   ],
-  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; '$x^{3}+14x^{2}-8x+40$'</strong>: Distributing 5 gives $5x^2+40$; combining $9x^2+5x^2=14x^2$ produces this expression. &#10003;</li><li><strong>Choice B &mdash; '$x^{3}+9x^{2}-8x+40$'</strong>: Keeps $9x^2$ unchanged, forgetting to add the $5x^2$ from distributing. &#10007;</li><li><strong>Choice C &mdash; '$x^{3}+5x^{2}-8x+40$'</strong>: Replaces $9x^2$ with $5x^2$ instead of adding them. &#10007;</li><li><strong>Choice D &mdash; '$x^{3}+8x^{2}-8x+40$'</strong>: $8x^2$ cannot result from any combination of the terms present. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; $x^{3}+14x^{2}-8x+40$</strong>: Distributing 5 gives $5x^2+40$; combining $9x^2+5x^2=14x^2$ produces this expression. &#10003;</li><li><strong>Choice B &mdash; $x^{3}+9x^{2}-8x+40$</strong>: Keeps $9x^2$ unchanged, forgetting to add the $5x^2$ from distributing. &#10007;</li><li><strong>Choice C &mdash; $x^{3}+5x^{2}-8x+40$</strong>: Replaces $9x^2$ with $5x^2$ instead of adding them. &#10007;</li><li><strong>Choice D &mdash; $x^{3}+8x^{2}-8x+40$</strong>: $8x^2$ cannot result from any combination of the terms present. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
 }

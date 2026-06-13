@@ -1,1 +1,15 @@
-{"questionId":"e26dd9f3-3dbe-49b6-afbf-43a483d231ba_3","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence reads: <em>&quot;In a garden, ______ the spread of unwelcome weeds such as nutgrass can be difficult because weeds usually spread easily and quickly become unmanageable.&quot;</em> The blank must describe an action that a gardener wants to do to a weed&apos;s spread, where that action is made difficult by how quickly weeds grow."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'retrieving'</strong>: &apos;Retrieving the spread&apos; means recovering or fetching it &mdash; you retrieve a lost object, not a plant infestation. Nonsensical in context. &#10007;</li><li><strong>Choice B &mdash; 'saving'</strong>: &apos;Saving the spread&apos; most naturally means preserving it &mdash; the opposite of what a gardener trying to control weeds would want. &#10007;</li><li><strong>Choice C &mdash; 'halting'</strong>: &apos;Halting the spread&apos; means stopping it. Because weeds &apos;spread easily and quickly become unmanageable,&apos; stopping them is exactly what&apos;s difficult. Fits the logic perfectly. &#10003;</li><li><strong>Choice D &mdash; 'pretending'</strong>: &apos;Pretending the spread&apos; is grammatically broken &mdash; you pretend <em>that</em> something is the case, not a noun like &apos;spread.&apos; &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "e26dd9f3-3dbe-49b6-afbf-43a483d231ba_3",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence reads: <em>\"In a garden, ______ the spread of unwelcome weeds such as nutgrass can be difficult because weeds usually spread easily and quickly become unmanageable.\"</em> The blank must describe an action that a gardener wants to do to a weed's spread, where that action is made difficult by how quickly weeds grow."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"retrieving\"</strong>: 'Retrieving the spread' means recovering or fetching it &mdash; you retrieve a lost object, not a plant infestation. Nonsensical in context. &#10007;</li><li><strong>\"saving\"</strong>: 'Saving the spread' most naturally means preserving it &mdash; the opposite of what a gardener trying to control weeds would want. &#10007;</li><li><strong>\"halting\"</strong>: 'Halting the spread' means stopping it. Because weeds 'spread easily and quickly become unmanageable,' stopping them is exactly what's difficult. Fits the logic perfectly. &#10003;</li><li><strong>\"pretending\"</strong>: 'Pretending the spread' is grammatically broken &mdash; you pretend <em>that</em> something is the case, not a noun like 'spread.' &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+    }
+  ]
+}

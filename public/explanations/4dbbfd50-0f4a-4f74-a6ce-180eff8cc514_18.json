@@ -1,1 +1,15 @@
-{"questionId": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_18", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structure", "content": "The subject of the blank is &quot;MindMaze's technology&quot; &mdash; a singular noun phrase. The phrase &quot;alongside other such neuromodulation technologies that function by stimulating nervous system structures&quot; is a parenthetical modifier, not part of the subject. The blank is the main verb of that clause."}, {"title": "Eliminate wrong choices, confirm the right one", "content": "The verb must agree with the singular subject &quot;MindMaze's technology&quot; and form a complete predicate:<ul><li><strong>Choice A &mdash; 'paving'</strong>: a participle, not a finite verb &mdash; leaves the clause without a complete verb, creating a fragment. &#10007;</li><li><strong>Choice B &mdash; 'is paving'</strong>: singular present progressive &mdash; agrees with the singular subject and forms a complete, grammatical predicate. &#10003;</li><li><strong>Choice C &mdash; 'have paved'</strong>: plural present perfect &mdash; disagrees with the singular subject &quot;MindMaze's technology.&quot; &#10007;</li><li><strong>Choice D &mdash; 'are paving'</strong>: plural present progressive &mdash; also disagrees with the singular subject. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_18",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "The subject of the blank is &quot;MindMaze's technology&quot; &mdash; a singular noun phrase. The phrase &quot;alongside other such neuromodulation technologies that function by stimulating nervous system structures&quot; is a parenthetical modifier, not part of the subject. The blank is the main verb of that clause."
+    },
+    {
+      "title": "Eliminate wrong choices, confirm the right one",
+      "content": "The verb must agree with the singular subject &quot;MindMaze's technology&quot; and form a complete predicate:<ul><li><strong>Choice A — paving</strong>: a participle, not a finite verb &mdash; leaves the clause without a complete verb, creating a fragment. &#10007;</li><li><strong>Choice B — is paving</strong>: singular present progressive &mdash; agrees with the singular subject and forms a complete, grammatical predicate. &#10003;</li><li><strong>Choice C — have paved</strong>: plural present perfect &mdash; disagrees with the singular subject &quot;MindMaze's technology.&quot; &#10007;</li><li><strong>Choice D — are paving</strong>: plural present progressive &mdash; also disagrees with the singular subject. &#10007;</li></ul><strong>B</strong> is correct."
+    }
+  ]
+}

@@ -16,7 +16,7 @@
     },
     {
       "title": "Solve the inequality for a",
-      "content": "$$100 - 4a - 2 \\lt 0$$<br/>$$98 - 4a \\lt 0$$<br/>$$4a > 98$$<br/>$$a > 24.5$$<br/>Since $$a$$ is a positive integer, the least possible value is $$a = 25$$.<br/>The answer is <strong>25</strong>."
+      "content": "$$100 - 4a - 2 \\lt 0$$<br/>$$98 - 4a \\lt 0$$<br/>$$4a \\gt 98$$<br/>$$a \\gt 24.5$$<br/>Since $$a$$ is a positive integer, the least possible value is $$a = 25$$.<br/>The answer is <strong>25</strong>."
     }
   ]
 }

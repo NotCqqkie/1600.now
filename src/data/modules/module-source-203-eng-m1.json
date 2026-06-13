@@ -134,7 +134,7 @@
     "difficulty": "Medium",
     "question_number": 5,
     "test_name": "Module Source 203 Eng M1",
-    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nText corpora such as the Corpus of Contemporary American English are enormous collections of electronically stored texts that can be used for empirical testing of hypotheses regarding how _____ a word is in spoken and written English. For instance, one might have a guess about the incidence of the word “day,” but only an analysis of a corpus can prove that “day” is the fifth most commonly used noun.",
+    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nText corpora such as the Corpus of Contemporary American English are enormous collections of electronically stored texts that can be used for empirical testing of hypotheses regarding how _____ a word is in spoken and written English. For instance, one might have a guess about the incidence of the word \"day,\" but only an analysis of a corpus can prove that \"day\" is the fifth most commonly used noun.",
     "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
     "choices": [
       {
@@ -198,7 +198,7 @@
     "difficulty": "Medium",
     "question_number": 7,
     "test_name": "Module Source 203 Eng M1",
-    "passage": "Which choice best states the main purpose of the text?\nIn 2020, rap artist and professor A.D. Carson published the first peer-reviewed rap album about his experiences with Black masculinity called *i used to love to dream*. Typically in peer review, experts evaluate scholarly articles prior to publication. For Carson's album, dubbed a “mixtap/e/ssay,” peer review involved both scholars and rap artists. In combining elements of a mixtape album with scholarly essays that connect Carson's lyrics to historical and contemporary contexts for listeners both inside and outside academia, Carson's album helped redefine how scholarship is created and shared.",
+    "passage": "Which choice best states the main purpose of the text?\nIn 2020, rap artist and professor A.D. Carson published the first peer-reviewed rap album about his experiences with Black masculinity called *i used to love to dream*. Typically in peer review, experts evaluate scholarly articles prior to publication. For Carson's album, dubbed a \"mixtap/e/ssay,\" peer review involved both scholars and rap artists. In combining elements of a mixtape album with scholarly essays that connect Carson's lyrics to historical and contemporary contexts for listeners both inside and outside academia, Carson's album helped redefine how scholarship is created and shared.",
     "question_text": "Which choice best states the main purpose of the text?",
     "choices": [
       {
@@ -338,19 +338,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "“The Newport Archery Club always held its August meeting at the Beauforts'.”"
+        "text": "\"The Newport Archery Club always held its August meeting at the Beauforts'.\""
       },
       {
         "label": "B",
-        "text": "“[May] represented peace, stability, comradeship, and the steadying sense of an unescapable duty.”"
+        "text": "\"[May] represented peace, stability, comradeship, and the steadying sense of an unescapable duty.\""
       },
       {
         "label": "C",
-        "text": "“May herself could not understand [Newland's] obscure reluctance to fall in with so reasonable and pleasant a way of spending the summer.”"
+        "text": "\"May herself could not understand [Newland's] obscure reluctance to fall in with so reasonable and pleasant a way of spending the summer.\""
       },
       {
         "label": "D",
-        "text": "“[Newland] had the feeling of unexplained excitement with which, on half-holidays at school, he used to start off into the unknown.”"
+        "text": "\"[Newland] had the feeling of unexplained excitement with which, on half-holidays at school, he used to start off into the unknown.\""
       }
     ],
     "is_fill_in_blank": false,
@@ -827,7 +827,7 @@
     "difficulty": "Medium",
     "question_number": 26,
     "test_name": "Module Source 203 Eng M1",
-    "passage": "The student wants to specify the shawl's name in Choctaw. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Hina Hanta is an online archive curated by the Choctaw Nation of Oklahoma.\n• Hina Hanta means “bright path” in Choctaw.\n• It features images of cultural artifacts relevant to the history of the Choctaw people.\n• It includes a shawl (*anchi* in Choctaw) made from cloth.\n• It includes a fanner basket (*ufko*) made from cane.",
+    "passage": "The student wants to specify the shawl's name in Choctaw. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Hina Hanta is an online archive curated by the Choctaw Nation of Oklahoma.\n• Hina Hanta means \"bright path\" in Choctaw.\n• It features images of cultural artifacts relevant to the history of the Choctaw people.\n• It includes a shawl (*anchi* in Choctaw) made from cloth.\n• It includes a fanner basket (*ufko*) made from cane.",
     "question_text": "The student wants to specify the shawl's name in Choctaw. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
     "choices": [
       {
@@ -836,7 +836,7 @@
       },
       {
         "label": "B",
-        "text": "Hina Hanta, which means “bright path” in Choctaw, includes a shawl in its archive."
+        "text": "Hina Hanta, which means \"bright path\" in Choctaw, includes a shawl in its archive."
       },
       {
         "label": "C",
@@ -844,7 +844,7 @@
       },
       {
         "label": "D",
-        "text": "The name of the online archive Hina Hanta means “bright path” in Choctaw."
+        "text": "The name of the online archive Hina Hanta means \"bright path\" in Choctaw."
       }
     ],
     "is_fill_in_blank": false,

@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate wrong choices and confirm the answer",
-      "content": "Match each answer choice against what the graph shows:<ul><li><strong>Choice A &mdash; '75%.'</strong>: Closest to the Type B, Process 2 bar height of approximately 76%; this is the peak value on the chart. &#10003;</li><li><strong>Choice B &mdash; '10%.'</strong>: Corresponds to one of the lowest bars on the chart, not the highest. &#10007;</li><li><strong>Choice C &mdash; '45%.'</strong>: A mid-range bar value, not the highest recovery shown. &#10007;</li><li><strong>Choice D &mdash; '20%.'</strong>: Another low bar value, well below the peak. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "Match each answer choice against what the graph shows:<ul><li><strong>Choice A &mdash; &lsquo;75%.&rsquo;</strong>: Closest to the Type B, Process 2 bar height of approximately 76%; this is the peak value on the chart. &#10003;</li><li><strong>Choice B &mdash; &lsquo;10%.&rsquo;</strong>: Corresponds to one of the lowest bars on the chart, not the highest. &#10007;</li><li><strong>Choice C &mdash; &lsquo;45%.&rsquo;</strong>: A mid-range bar value, not the highest recovery shown. &#10007;</li><li><strong>Choice D &mdash; &lsquo;20%.&rsquo;</strong>: Another low bar value, well below the peak. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
     }
   ]
 }

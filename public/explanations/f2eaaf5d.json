@@ -1,1 +1,15 @@
-{"questionId": "f2eaaf5d", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the appositive and existing punctuation", "content": "The phrase “a country in Western Asia” is a non-restrictive appositive that describes Bahrain. The sentence already contains a dash after this phrase (before “is”), signaling we need matching punctuation before it."}, {"title": "Apply the em dash rule for appositives", "content": "Em dashes set off a non-restrictive appositive when used in matching pairs.<br/><br/>Placing an em dash before and after “a country in Western Asia” creates “Bahrain—a country in Western Asia—is...” which correctly frames the additional information about Bahrain.<br/><br/>The other choices either omit punctuation entirely (C), mix comma and dash (B), or use a colon inappropriately (D).<br/><br/>That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}
+{
+  "questionId": "f2eaaf5d",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the appositive and existing punctuation",
+      "content": "The phrase “a country in Western Asia” is a non-restrictive appositive that describes Bahrain. The sentence already contains a dash after this phrase (before “is”), signaling we need matching punctuation before it."
+    },
+    {
+      "title": "Apply the em dash rule for appositives",
+      "content": "Em dashes set off a non-restrictive appositive when used in matching pairs.<br/><br/>Placing an em dash before and after “a country in Western Asia” creates “Bahrain—a country in Western Asia—is...” which correctly frames the additional information about Bahrain.<br/><br/>The other choices either omit punctuation entirely, mix comma and dash, or use a colon inappropriately.<br/><br/>That matches the correct answer — <strong>A</strong> is correct."
+    }
+  ]
+}

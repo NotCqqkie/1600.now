@@ -1,1 +1,15 @@
-{"questionId": "c4900368", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Map the poem's structure", "content": "The first four lines promise change and renewal: new roads, fresh seeing, replenished lives. Then line 5 pivots with <strong>But</strong>: &quot;the same backs bending, / The same sad feet shall drum.&quot; This contrast — renewal promised, yet struggle persisting — is the poem's central tension."}, {"title": "Match the tension to each choice", "content": "The poem holds two truths simultaneously: life can feel refreshed (rewarding) and yet burdensome repetition endures (challenging).<ul><li><strong>Choice A &mdash; 'To consider how the repetitiveness inherent in human life can be both rewarding and challenging'</strong>: Captures the dual nature the poem presents. &#10003;</li><li><strong>Choice B &mdash; 'To question whether activities completed at one time of day are more memorable than those completed at another time of day'</strong>: Imposes a day/night comparison the poem never makes. &#10007;</li><li><strong>Choice C &mdash; 'To refute the idea that joy is a more commonly experienced emotion than sadness is'</strong>: Invents a frequency argument not present in the text. &#10007;</li><li><strong>Choice D &mdash; 'To demonstrate how the experiences of individuals relate to the experiences of their communities'</strong>: The poem says nothing about community versus individual experience. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "c4900368",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Map the poem's structure",
+      "content": "The first four lines promise change and renewal: new roads, fresh seeing, replenished lives. Then line 5 pivots with <strong>But</strong>: &quot;the same backs bending, / The same sad feet shall drum.&quot; This contrast — renewal promised, yet struggle persisting — is the poem's central tension."
+    },
+    {
+      "title": "Match the tension to each choice",
+      "content": "The poem holds two truths simultaneously: life can feel refreshed (rewarding) and yet burdensome repetition endures (challenging).<ul><li><strong>Choice A &mdash; To consider how the repetitiveness inherent in human life can be both rewarding and challenging</strong>: Captures the dual nature the poem presents. &#10003;</li><li><strong>Choice B &mdash; To question whether activities completed at one time of day are more memorable than those completed at another time of day</strong>: Imposes a day/night comparison the poem never makes. &#10007;</li><li><strong>Choice C &mdash; To refute the idea that joy is a more commonly experienced emotion than sadness is</strong>: Invents a frequency argument not present in the text. &#10007;</li><li><strong>Choice D &mdash; To demonstrate how the experiences of individuals relate to the experiences of their communities</strong>: The poem says nothing about community versus individual experience. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

@@ -9,7 +9,7 @@
     },
     {
       "title": "Cancel the common factor and identify coefficients",
-      "content": "Substitute the factored form into the original expression: $$\\frac{(x + 7)(x - 1)}{x + 7} = x - 1$$ for all $x \\neq -7$. Comparing to the form $ax + d$, we identify $a = 1$ and $d = -1$. Therefore, $a + d = 1 + (-1) = 0$. That matches choice C — <strong>C</strong> is correct."
+      "content": "Substitute the factored form into the original expression: $$\\frac{(x + 7)(x - 1)}{x + 7} = x - 1$$ for all $x \\neq -7$. Comparing to the form $ax + d$, we identify $a = 1$ and $d = -1$. Therefore, $a + d = 1 + (-1) = 0$. That matches <strong>Choice C &mdash; 0</strong>."
     }
   ]
 }

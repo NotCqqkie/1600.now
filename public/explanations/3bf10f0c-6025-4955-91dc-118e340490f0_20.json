@@ -1,1 +1,19 @@
-{"questionId":"3bf10f0c-6025-4955-91dc-118e340490f0_20","correctAnswer":"B","section":"Math","steps":[{"title":"Identify the exponential form","content":"For each increase of $1$ in $x$, $y$ is multiplied by $4$. That means the relationship has the form $$y=a(4)^x.$$"},{"title":"Use the starting value","content":"When $x=0$, $y=150$: $$150=a(4)^0=a.$$ So the equation is $$y=150(4)^x.$$"},{"title":"Choose the matching equation","content":"Choice <strong>B</strong>, $y=150(4)^x$, has initial value $150$ and multiplies by $4$ each time $x$ increases by $1$."}]}
+{
+  "questionId": "3bf10f0c-6025-4955-91dc-118e340490f0_20",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the exponential form",
+      "content": "For each increase of $1$ in $x$, $y$ is multiplied by $4$. That means the relationship has the form $$y=a(4)^x.$$"
+    },
+    {
+      "title": "Use the starting value",
+      "content": "When $x=0$, $y=150$: $$150=a(4)^0=a.$$ So the equation is $$y=150(4)^x.$$"
+    },
+    {
+      "title": "Choose the matching equation",
+      "content": "The matching choice, $y=150(4)^x$, has initial value $150$ and multiplies by $4$ each time $x$ increases by $1$."
+    }
+  ]
+}

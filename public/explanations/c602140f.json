@@ -16,8 +16,8 @@
       "content": "$$2x^2-25xy+33y^2+24xy-36y^2$$<br/>The $xy$ terms combine to $-xy$, and the $y^2$ terms combine to $-3y^2$. So the equivalent expression is $$2x^2-xy-3y^2.$$"
     },
     {
-      "title": "Match the choice",
-      "content": "$2x^2-xy-3y^2$ matches choice B, so <strong>B</strong> is correct."
+      "title": "State the equivalent expression",
+      "content": "The simplified expression is $2x^2-xy-3y^2$, which is the correct equivalent form. This final expression keeps the $x^2$ term from the first product and combines the two $xy$ contributions into $-xy$."
     }
   ]
 }

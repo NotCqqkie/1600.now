@@ -1,1 +1,19 @@
-{"questionId":"6a1194e8","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Step 1 — Identify the task","content":"Words-in-Context. The colon signals that the clause after it explains the blank: &quot;nearly a dozen of the characters that populate his novels are poets or writers.&quot; That evidence shows being a poet is COMMON in Delany&apos;s work."},{"title":"Step 2 — Choose the word","content":"&quot;Atypical&quot; means unusual. Saying being a poet is &quot;not atypical&quot; means it IS typical/common — which matches the evidence that nearly a dozen of his characters are poets or writers."},{"title":"Step 3 — Per-choice elimination","content":"<ul><li><strong>Choice A &mdash; &apos;infallible&apos;</strong>: means incapable of error; the evidence about frequency of poet characters has nothing to do with fallibility. &#10007;</li><li><strong>Choice C &mdash; &apos;lucrative&apos;</strong>: means profitable; the supporting evidence makes no claim about poets&apos; income. &#10007;</li><li><strong>Choice D &mdash; &apos;tedious&apos;</strong>: means boring; the evidence about how often poet characters appear doesn&apos;t address tedium. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "6a1194e8",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Step 1 — Identify the task",
+      "content": "Words-in-Context. The colon signals that the clause after it explains the blank: &quot;nearly a dozen of the characters that populate his novels are poets or writers.&quot; That evidence shows being a poet is COMMON in Delany&apos;s work."
+    },
+    {
+      "title": "Step 2 — Choose the word",
+      "content": "&quot;Atypical&quot; means unusual. Saying being a poet is &quot;not atypical&quot; means it IS typical/common — which matches the evidence that nearly a dozen of his characters are poets or writers."
+    },
+    {
+      "title": "Step 3 — Per-choice elimination",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;infallible&rsquo;</strong>: means incapable of error; the evidence about frequency of poet characters has nothing to do with fallibility. &#10007;</li><li><strong>Choice C &mdash; &lsquo;lucrative&rsquo;</strong>: means profitable; the supporting evidence makes no claim about poets&apos; income. &#10007;</li><li><strong>Choice D &mdash; &lsquo;tedious&rsquo;</strong>: means boring; the evidence about how often poet characters appear doesn&apos;t address tedium. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

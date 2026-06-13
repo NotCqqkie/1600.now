@@ -1,1 +1,15 @@
-{"questionId": "91ff0c6a-268b-4d8b-9642-b9fb25a907b4_7", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the causal relationship", "content": "The passage compares nocturnal mammals: gerbils reduce activity under high moonlight (explained via cost-benefit analysis), and many others do the same.<br/><br/>But Mohol bushbabies <em>display the opposite pattern</em>, and immediately the passage provides the reason: <strong>“as their heavy reliance on visual foraging results in a different balance of reward and risk.”</strong> The word <strong>“as”</strong> marks a causal explanation—the visual foraging reference directly explains why bushbabies respond oppositely."}, {"title": "Match the causal explanation to the answer", "content": "<strong>B</strong> identifies a characteristic of bushbabies that explains why they do not reduce their activity—the visual foraging reliance creates a different cost-benefit balance, so they maintain activity.<br/><br/>The other three either add unsupported elements (A), confuse description of inconsistency with causal explanation (C), or shift focus away from bushbabies (D).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "91ff0c6a-268b-4d8b-9642-b9fb25a907b4_7",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the causal relationship",
+      "content": "The passage compares nocturnal mammals: gerbils reduce activity under high moonlight (explained via cost-benefit analysis), and many others do the same.<br/><br/>But Mohol bushbabies <em>display the opposite pattern</em>, and immediately the passage provides the reason: <strong>“as their heavy reliance on visual foraging results in a different balance of reward and risk.”</strong> The word <strong>“as”</strong> marks a causal explanation—the visual foraging reference directly explains why bushbabies respond oppositely."
+    },
+    {
+      "title": "Match the causal explanation to the answer",
+      "content": "<strong>B</strong> identifies a characteristic of bushbabies that explains why they do not reduce their activity—the visual foraging reliance creates a different cost-benefit balance, so they maintain activity.<br/><br/>The other three either add unsupported elements, confuse description of inconsistency with causal explanation, or shift focus away from bushbabies.<br/><br/>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

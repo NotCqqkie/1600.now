@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "sin X = cos Y means X + Y = 90°",
-      "content": "$\\frac{\\sin X}{\\cos Y} = 1$ → $\\sin X = \\cos Y$. The complementary identity: if $\\sin A = \\cos B$ (both acute), then $A + B = 90°$."
+      "content": "$\\frac{\\sin X}{\\cos Y} = 1$ → $\\sin X = \\cos Y$. The complementary identity: if $\\sin A = \\cos B$ (both acute), then $A + B = 90^{\\circ}$."
     },
     {
       "title": "Plug in Y = 24° and solve",
-      "content": "$X + 24° = 90°$ → $X = 66°$. That matches choice C — <strong>C</strong> is correct."
+      "content": "$X + 24^{\\circ} = 90^{\\circ}$ → $X = 66^{\\circ}$. That confirms <strong>C</strong> is correct."
     }
   ]
 }

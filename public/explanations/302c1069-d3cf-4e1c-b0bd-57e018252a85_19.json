@@ -1,1 +1,15 @@
-{"questionId":"302c1069-d3cf-4e1c-b0bd-57e018252a85_19","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence introduces exoplanets &quot;at vast distances from [blank]&quot; and then lists three examples: TRAPPIST-1 b, Kepler-102 f, and over 4,000 others. A colon is needed after &quot;Earth&quot; to introduce this list, and the first list item must begin immediately after the colon."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Earth: at 41 light-years away,'</strong>: the colon follows the independent clause and correctly introduces the list of exoplanet examples. The first item (&quot;at 41 light-years away, the super Earth TRAPPIST-1 b&quot;) flows naturally after the colon. &#10003;</li><li><strong>Choice B &mdash; 'Earth at 41 light-years away:'</strong>: places the colon after &quot;41 light-years away,&quot; making it seem like the list starts with TRAPPIST-1 b alone, and detaches &quot;at 41 light-years away&quot; from its exoplanet. &#10007;</li><li><strong>Choice C &mdash; 'Earth, at 41 light-years away,'</strong>: a comma after &quot;Earth&quot; creates an interruptive appositive reading, not a list introduction. No colon introduces the series, so the list structure is lost. &#10007;</li><li><strong>Choice D &mdash; 'Earth at 41 light-years away,'</strong>: omits all punctuation after &quot;Earth,&quot; so there is nothing to signal the start of the list. The sentence runs together without a clear boundary. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "302c1069-d3cf-4e1c-b0bd-57e018252a85_19",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence introduces exoplanets &quot;at vast distances from [blank]&quot; and then lists three examples: TRAPPIST-1 b, Kepler-102 f, and over 4,000 others. A colon is needed after &quot;Earth&quot; to introduce this list, and the first list item must begin immediately after the colon."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — Earth: at 41 light-years away,</strong>: the colon follows the independent clause and correctly introduces the list of exoplanet examples. The first item (&quot;at 41 light-years away, the super Earth TRAPPIST-1 b&quot;) flows naturally after the colon. &#10003;</li><li><strong>Choice B — Earth at 41 light-years away:</strong>: places the colon after &quot;41 light-years away,&quot; making it seem like the list starts with TRAPPIST-1 b alone, and detaches &quot;at 41 light-years away&quot; from its exoplanet. &#10007;</li><li><strong>Choice C — Earth, at 41 light-years away,</strong>: a comma after &quot;Earth&quot; creates an interruptive appositive reading, not a list introduction. No colon introduces the series, so the list structure is lost. &#10007;</li><li><strong>Choice D — Earth at 41 light-years away,</strong>: omits all punctuation after &quot;Earth,&quot; so there is nothing to signal the start of the list. The sentence runs together without a clear boundary. &#10007;</li></ul><strong>A</strong> is correct."
+    }
+  ]
+}

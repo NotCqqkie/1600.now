@@ -17,7 +17,7 @@
     },
     {
       "title": "Test all four choices",
-      "content": "<ul><li><strong>Choice A &mdash; '168'</strong>: This would mean $c \\approx 1.68b$. But $c = \\frac{24}{7}b \\approx 3.43b$, so 168 is far too small. &#10007;</li><li><strong>Choice B &mdash; '200'</strong>: This would mean $c = 2b$. Still much less than $3.43b$. &#10007;</li><li><strong>Choice C &mdash; '243'</strong>: This would mean $c \\approx 2.43b$. Closer but still significantly below $3.43b$. &#10007;</li><li><strong>Choice D &mdash; '343'</strong>: $\\frac{24}{7} \\approx 3.4286$, so $p \\approx 342.9$, which rounds to 343. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;168&rsquo;</strong>: This would mean $c \\approx 1.68b$. But $c = \\frac{24}{7}b \\approx 3.43b$, so 168 is far too small. &#10007;</li><li><strong>Choice B &mdash; &lsquo;200&rsquo;</strong>: This would mean $c = 2b$. Still much less than $3.43b$. &#10007;</li><li><strong>Choice C &mdash; &lsquo;243&rsquo;</strong>: This would mean $c \\approx 2.43b$. Closer but still significantly below $3.43b$. &#10007;</li><li><strong>Choice D &mdash; &lsquo;343&rsquo;</strong>: $\\frac{24}{7} \\approx 3.4286$, so $p \\approx 342.9$, which rounds to 343. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
     }
   ]
 }

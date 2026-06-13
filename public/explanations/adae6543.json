@@ -9,7 +9,7 @@
     },
     {
       "title": "Solve for RQ, then find LQ",
-      "content": "Cross-multiply: $RQ = \\frac{7 \\times 11}{6} = \\frac{77}{6}$.<br/>$$LQ = LR + RQ = 7 + \\frac{77}{6} = \\frac{42}{6} + \\frac{77}{6} = \\frac{119}{6}$$<br/>That matches choice D — <strong>D</strong> is correct."
+      "content": "Cross-multiply: $RQ = \\frac{7 \\times 11}{6} = \\frac{77}{6}$.<br/>$$LQ = LR + RQ = 7 + \\frac{77}{6} = \\frac{42}{6} + \\frac{77}{6} = \\frac{119}{6}$$<br/>That is the correct answer."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId":"76199cca-674f-403e-a01c-927854021f9f_11","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks which country the musk thistle grows alongside the Peruvian lily in, according to the table. The task is purely to locate the correct row in the data — there is no inference required."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'the United States.'</strong>: The United States appears in the table, but its row pairs a different neighboring species with a different target species, not musk thistle with Peruvian lily. &#10007;</li><li><strong>Choice B &mdash; 'Japan.'</strong>: Japan also appears in the table but is paired with different plants, not musk thistle alongside Peruvian lily. &#10007;</li><li><strong>Choice C &mdash; 'the United Kingdom.'</strong>: The United Kingdom is likewise in the table but paired with a different plant combination. &#10007;</li><li><strong>Choice D &mdash; 'Argentina.'</strong>: The table directly shows musk thistle as the neighboring species and Peruvian lily as the target species in Argentina. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "76199cca-674f-403e-a01c-927854021f9f_11",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks which country the musk thistle grows alongside the Peruvian lily in, according to the table. The task is purely to locate the correct row in the data — there is no inference required."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;the United States.&rsquo;</strong>: The United States appears in the table, but its row pairs a different neighboring species with a different target species, not musk thistle with Peruvian lily. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Japan.&rsquo;</strong>: Japan also appears in the table but is paired with different plants, not musk thistle alongside Peruvian lily. &#10007;</li><li><strong>Choice C &mdash; &lsquo;the United Kingdom.&rsquo;</strong>: The United Kingdom is likewise in the table but paired with a different plant combination. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Argentina.&rsquo;</strong>: The table directly shows musk thistle as the neighboring species and Peruvian lily as the target species in Argentina. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

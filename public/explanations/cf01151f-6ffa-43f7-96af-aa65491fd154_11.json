@@ -1,1 +1,15 @@
-{"questionId":"cf01151f-6ffa-43f7-96af-aa65491fd154_11","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence sets up a parallel comparison using \"whereas\": the combtooth blenny's highest count was 62 individuals in January 2001, so the blank must supply the yellowtail sergeant's actual highest count in the same format &mdash; a number and a month taken directly from the graph."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; '82 individuals in January of 2001'</strong>: The yellowtail sergeant never reaches 82 individuals on the graph; 82 is higher than the combtooth blenny's own peak, which contradicts the passage's point that combtooth blenny had the higher count. &#10007;</li><li><strong>Choice B &mdash; '8 individuals in April of 2001'</strong>: The count of 8 is plausible, but the graph shows the yellowtail sergeant's peak occurring in January, not April. The month is wrong. &#10007;</li><li><strong>Choice C &mdash; '62 individuals in January of 2001'</strong>: 62 is the combtooth blenny's count, not the yellowtail sergeant's. Using the same count for both species would eliminate the contrast the sentence is making. &#10007;</li><li><strong>Choice D &mdash; '8 individuals in January of 2001'</strong>: The graph shows the yellowtail sergeant's peak at approximately 8 individuals in January 2001 &mdash; the correct count at the correct month. This completes the parallel structure and preserves the contrast (62 vs. 8). &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "cf01151f-6ffa-43f7-96af-aa65491fd154_11",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence sets up a parallel comparison using \"whereas\": the combtooth blenny's highest count was 62 individuals in January 2001, so the blank must supply the yellowtail sergeant's actual highest count in the same format &mdash; a number and a month taken directly from the graph."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 82 individuals in January of 2001.</strong>: The yellowtail sergeant never reaches 82 individuals on the graph; 82 is higher than the combtooth blenny's own peak, which contradicts the passage's point that combtooth blenny had the higher count. &#10007;</li><li><strong>Choice B &mdash; 8 individuals in April of 2001.</strong>: The count of 8 is plausible, but the graph shows the yellowtail sergeant's peak occurring in January, not April. The month is wrong. &#10007;</li><li><strong>Choice C &mdash; 62 individuals in January of 2001.</strong>: 62 is the combtooth blenny's count, not the yellowtail sergeant's. Using the same count for both species would eliminate the contrast the sentence is making. &#10007;</li><li><strong>Choice D &mdash; 8 individuals in January of 2001.</strong>: The graph shows the yellowtail sergeant's peak at approximately 8 individuals in January 2001 &mdash; the correct count at the correct month. This completes the parallel structure and preserves the contrast (62 vs. 8). &#10003;</li></ul>That is the correct answer."
+    }
+  ]
+}

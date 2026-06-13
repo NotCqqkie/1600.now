@@ -1,5 +1,6 @@
 {
   "qid": "390a8264-19b1-4de0-9dc9-09609eadd7ca_19",
+  "questionId": "390a8264-19b1-4de0-9dc9-09609eadd7ca_19",
   "correctAnswer": "A",
   "steps": [
     {
@@ -12,7 +13,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li>A: 209 — closest to 209.6. That matches choice A — <strong>A</strong> is correct.</li><li>B: 220 — off by about 10. Incorrect.</li><li>C: 367 — too large. Incorrect.</li><li>D: 551 — this would be the full surface area of pyramid 2, not the difference. Incorrect.</li></ul>"
+      "content": "<ul><li>A: 209 — closest to 209.6. <strong>A</strong> is correct.</li><li>B: 220 — off by about 10. Incorrect.</li><li>C: 367 — too large. Incorrect.</li><li>D: 551 — this would be the full surface area of pyramid 2, not the difference. Incorrect.</li></ul>"
     }
   ]
 }

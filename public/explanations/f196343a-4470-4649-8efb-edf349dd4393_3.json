@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li><strong>A) $2w + 6r = 10$:</strong> Matches the speed $\\times$ time sum equal to total miles. Correct.</li><li><strong>B) $\\frac{1}{2}w + \\frac{1}{6}r = 10$:</strong> Uses reciprocals of speeds (units of hours per mile), giving hours, not miles. Eliminated.</li><li><strong>C) $2w + 6r = 80$:</strong> Right left side, but total miles is $10$, not $80$. Eliminated.</li><li><strong>D) $\\frac{1}{2}w + \\frac{1}{6}r = 80$:</strong> Wrong coefficients and wrong total. Eliminated.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li><strong>$2w+6r=10$</strong> is correct."
     }
   ]
 }

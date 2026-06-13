@@ -13,7 +13,7 @@
     },
     {
       "title": "Determine increasing or decreasing",
-      "content": "The base $1.027 > 1$, so $A(t)$ grows as $t$ increases. The model is <em>increasing</em> exponential.<ul><li><strong>A (Decreasing exponential):</strong> The base exceeds 1, so the function increases, not decreases.</li><li><strong>B (Decreasing linear):</strong> Growth is proportional (multiplicative), not additive, so it is not linear and it is not decreasing.</li><li><strong>C (Increasing exponential):</strong> Multiplying by $1.027$ each year produces exponential growth. That matches choice C &mdash; <strong>C</strong> is correct.</li><li><strong>D (Increasing linear):</strong> A fixed percentage applied to a changing balance produces exponential, not linear, growth.</li></ul>"
+      "content": "The base $1.027 \\gt 1$, so $A(t)$ grows as $t$ increases. The model is <em>increasing</em> exponential.<ul><li><strong>Choice A &mdash; Decreasing exponential</strong> The base exceeds 1, so the function increases, not decreases.</li><li><strong>Choice B &mdash; Decreasing linear</strong> Growth is proportional (multiplicative), not additive, so it is not linear and it is not decreasing.</li><li><strong>Choice C &mdash; Increasing exponential</strong> Multiplying by $1.027$ each year produces exponential growth. That is the correct answer.</li><li><strong>Choice D &mdash; Increasing linear</strong> A fixed percentage applied to a changing balance produces exponential, not linear, growth.</li></ul>"
     }
   ]
 }

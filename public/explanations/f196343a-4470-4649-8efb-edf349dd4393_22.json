@@ -1,17 +1,18 @@
 {
+  "questionId": "f196343a-4470-4649-8efb-edf349dd4393_22",
   "qid": "f196343a-4470-4649-8efb-edf349dd4393_22",
   "steps": [
     {
-      "explanation": "The graph passes through $(8, 0)$ and $(-5, 0)$, so those are the two zeros of $f$. Write $f(x) = a(x - 8)(x + 5)$ where $a$ is a positive integer greater than 1."
+      "content": "The graph passes through $(8, 0)$ and $(-5, 0)$, so those are the two zeros of $f$. Write $f(x) = a(x - 8)(x + 5)$ where $a$ is a positive integer greater than 1."
     },
     {
-      "explanation": "Expand: $f(x) = a(x^{2} - 3x - 40) = ax^{2} - 3ax - 40a$. Comparing with $ax^{2} + bx + c$, we get $b = -3a$."
+      "content": "Expand: $f(x) = a(x^{2} - 3x - 40) = ax^{2} - 3ax - 40a$. Comparing with $ax^{2} + bx + c$, we get $b = -3a$."
     },
     {
-      "explanation": "Therefore $a + b = a + (-3a) = -2a$. Since $a$ is an integer greater than 1, $a \\geq 2$, so $a + b \\leq -4$."
+      "content": "Therefore $a + b = a + (-3a) = -2a$. Since $a$ is an integer greater than 1, $a \\geq 2$, so $a + b \\leq -4$."
     },
     {
-      "explanation": "Evaluating all choices:<ul><li>Choice A: $a + b = 4$. This requires $-2a = 4 \\Rightarrow a = -2$, but $a$ must be a positive integer. Incorrect.</li><li>Choice B: $a + b = 3$. This requires $-2a = 3$, not an integer. Incorrect.</li><li>Choice C: $a + b = -2$. This requires $-2a = -2 \\Rightarrow a = 1$, but $a$ must be greater than 1. Incorrect.</li><li>Choice D: $a + b = -4$. This requires $-2a = -4 \\Rightarrow a = 2$, which is an integer greater than 1 &#10003;. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
+      "content": "Evaluating all choices:<ul><li><strong>\"$4$\"</strong>: This requires $-2a = 4 \\Rightarrow a = -2$, but $a$ must be a positive integer. Incorrect.</li><li><strong>\"$3$\"</strong>: This requires $-2a = 3$, not an integer. Incorrect.</li><li><strong>\"$-2$\"</strong>: This requires $-2a = -2 \\Rightarrow a = 1$, but $a$ must be greater than 1. Incorrect.</li><li><strong>\"$-4$\"</strong>: This requires $-2a = -4 \\Rightarrow a = 2$, which is an integer greater than 1 &#10003;. That matches the correct answer — <strong>D</strong> is correct.</li></ul>"
     }
   ],
   "correctAnswer": "D"

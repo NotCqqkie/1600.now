@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; '0.149x'</strong>: this is only 14.9% of x, not the new value after a 149% increase. &#10007;</li><li><strong>Choice B &mdash; '0.51x'</strong>: smaller than x, so it represents a decrease, not an increase. &#10007;</li><li><strong>Choice C &mdash; '1.49x'</strong>: represents only a 49% increase (1.49x &minus; x = 0.49x). &#10007;</li><li><strong>Choice D &mdash; '2.49x'</strong>: 2.49x &minus; x = 1.49x, which is exactly 149% of x. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "content": "<ul><li><strong>Choice A — $5.10x$</strong>: this would make the increase $4.10x$, or 410% of the original, not 149%. &#10007;</li><li><strong>Choice B — $0.51x$</strong>: smaller than x, so it represents a decrease, not an increase. &#10007;</li><li><strong>Choice C — $1.49x$</strong>: represents only a 49% increase ($1.49x - x = 0.49x$). &#10007;</li><li><strong>Choice D — $2.49x$</strong>: $2.49x - x = 1.49x$, which is exactly 149% of x. &#10003;</li></ul><strong>D</strong> is correct."
     }
   ]
 }

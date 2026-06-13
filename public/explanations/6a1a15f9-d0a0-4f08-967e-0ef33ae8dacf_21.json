@@ -1,1 +1,15 @@
-{"questionId":"6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_21","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage sets up a contrast: more precise coordinates were calculated over decades, yet the prime meridian remained unchanged. The blank introduces that contrast &mdash; the transition word must signal &quot;I acknowledge the new data, but surprisingly nothing changed.&quot;"},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Specifically,'</strong>: signals that what follows is a detail elaborating on the previous sentence. The new calculations aren&apos;t just a detail &mdash; they&apos;re the surprising part. &#10007;</li><li><strong>Choice B &mdash; 'Again and again,'</strong>: stresses repetition. The passage isn&apos;t emphasizing how many times new coordinates were calculated; it&apos;s emphasizing that the meridian stayed put despite them. &#10007;</li><li><strong>Choice C &mdash; 'Granted,'</strong>: a concession word that sets up the structure &quot;I acknowledge X, yet Y happened anyway.&quot; This frames the paradox precisely: granted that more precise coordinates emerged, the meridian still didn&apos;t move. &#10003;</li><li><strong>Choice D &mdash; 'To that end,'</strong>: signals purposeful follow-through, implying the second sentence was done in order to achieve the first sentence&apos;s goal. But the meridian not moving is the opposite of purposeful follow-through. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_21",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage sets up a contrast: more precise coordinates were calculated over decades, yet the prime meridian remained unchanged. The blank introduces that contrast &mdash; the transition word must signal &quot;I acknowledge the new data, but surprisingly nothing changed.&quot;"
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Specifically,&rsquo;</strong>: signals that what follows is a detail elaborating on the previous sentence. The new calculations aren&apos;t just a detail &mdash; they&apos;re the surprising part. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Again and again,&rsquo;</strong>: stresses repetition. The passage isn&apos;t emphasizing how many times new coordinates were calculated; it&apos;s emphasizing that the meridian stayed put despite them. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Granted,&rsquo;</strong>: a concession word that sets up the structure &quot;I acknowledge X, yet Y happened anyway.&quot; This frames the paradox precisely: granted that more precise coordinates emerged, the meridian still didn&apos;t move. &#10003;</li><li><strong>Choice D &mdash; &lsquo;To that end,&rsquo;</strong>: signals purposeful follow-through, implying the second sentence was done in order to achieve the first sentence&apos;s goal. But the meridian not moving is the opposite of purposeful follow-through. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

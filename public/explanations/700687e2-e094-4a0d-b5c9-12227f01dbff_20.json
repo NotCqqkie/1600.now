@@ -1,1 +1,15 @@
-{"questionId":"700687e2-e094-4a0d-b5c9-12227f01dbff_20","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank follows &apos;the work of Slovak&apos; and precedes &apos;who aptly describes her photos...&apos; The blank must supply a noun phrase that (1) names the person and (2) is punctuated correctly before the non-restrictive relative clause &apos;who...&apos;."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;photographer Mar&iacute;a &Scaron;varb&oacute;v&aacute;,&apos;</strong>: The common noun &apos;photographer&apos; is followed directly by the proper name (no comma between them), and a comma after the full noun phrase correctly sets off the non-restrictive relative clause. &#10003;</li><li><strong>Choice B &mdash; omits comma before &apos;who&apos;</strong>: A non-restrictive relative clause identifying a unique named person requires a comma before &apos;who&apos;; omitting it is a punctuation error. &#10007;</li><li><strong>Choice C &mdash; comma between &apos;photographer&apos; and the proper name</strong>: A proper name in apposition to a common noun is not separated by a comma; inserting one is incorrect. &#10007;</li><li><strong>Choice D &mdash; comma between &apos;photographer&apos; and the proper name</strong>: Same error as C. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "700687e2-e094-4a0d-b5c9-12227f01dbff_20",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank follows &apos;the work of Slovak&apos; and precedes &apos;who aptly describes her photos...&apos; The blank must supply a noun phrase that (1) names the person and (2) is punctuated correctly before the non-restrictive relative clause &apos;who...&apos;."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;photographer Mária Švarbová,&rsquo;</strong>: The common noun &apos;photographer&apos; is followed directly by the proper name (no comma between them), and a comma after the full noun phrase correctly sets off the non-restrictive relative clause. &#10003;</li><li><strong>Choice B &mdash; &lsquo;photographer Mária Švarbová&rsquo;</strong>: A non-restrictive relative clause identifying a unique named person requires a comma before &apos;who&apos;; omitting it is a punctuation error. &#10007;</li><li><strong>Choice C &mdash; &lsquo;photographer, Mária Švarbová&rsquo;</strong>: A proper name in apposition to a common noun is not separated by a comma; inserting one is incorrect. &#10007;</li><li><strong>Choice D &mdash; &lsquo;photographer, Mária Švarbová,&rsquo;</strong>: Same error as C. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

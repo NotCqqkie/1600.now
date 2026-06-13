@@ -1,1 +1,15 @@
-{"questionId":"c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_25","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The student&apos;s goal is to &quot;list activities that the Heritage Trail can be used for.&quot; The answer must enumerate specific uses of the trail &mdash; not background facts about its origin or location."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;Railroad corridors can be used to create trails, one of these being the Heritage Trail.&apos;</strong>: explains how the trail was formed, not what visitors do there. &#10007;</li><li><strong>Choice B &mdash; &apos;The Heritage Trail was created from a former railroad corridor.&apos;</strong>: another origin detail, not an activity list. &#10007;</li><li><strong>Choice C &mdash; &apos;The Heritage Trail can be used for biking, in-line skating, and cross-country skiing.&apos;</strong>: directly lists three activities visitors can do. &#10003;</li><li><strong>Choice D &mdash; &apos;Located in New York, the Heritage Trail is open to visitors.&apos;</strong>: states location and access, not specific activities. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_25",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The student&apos;s goal is to &quot;list activities that the Heritage Trail can be used for.&quot; The answer must enumerate specific uses of the trail &mdash; not background facts about its origin or location."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Railroad corridors can be used to create trails, one of these being the Heritage Trail.</strong>: explains how the trail was formed, not what visitors do there. &#10007;</li><li><strong>Choice B &mdash; The Heritage Trail was created from a former railroad corridor.</strong>: another origin detail, not an activity list. &#10007;</li><li><strong>Choice C &mdash; The Heritage Trail can be used for biking, in-line skating, and cross-country skiing.</strong>: directly lists three activities visitors can do. &#10003;</li><li><strong>Choice D &mdash; Located in New York, the Heritage Trail is open to visitors.</strong>: states location and access, not specific activities. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

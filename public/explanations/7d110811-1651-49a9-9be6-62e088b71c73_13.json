@@ -13,11 +13,11 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice B is $x=by-20y$, so <strong>B</strong> is correct."
+      "content": "Choice B (&lsquo;$x=by-20y$&rsquo;) is $x=by-20y$, so <strong>B</strong> is correct."
     },
     {
       "title": "Avoid dividing by y",
-      "content": "Because $x$ is already divided by $y$, the inverse operation is multiplication by $y$. That makes choices A and C wrong: they still leave $x$ tied to a denominator instead of isolating it."
+      "content": "Because $x$ is already divided by $y$, the inverse operation is multiplication by $y$. That makes the other choices wrong: they still leave $x$ tied to a denominator instead of isolating it."
     }
   ]
 }

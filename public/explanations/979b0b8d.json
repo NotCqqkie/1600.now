@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the answer choices",
-      "content": "Choice A has slope $-39$, choice B has slope $\\frac{1}{39}$, and choice C has slope $1$ with intercept $-39$. Only choice D has slope $39$ and passes through the origin, so <strong>D</strong> is correct."
+      "content": "$f(x)=-39x$ has slope $-39$, $f(x)=\\frac{1}{39}x$ has slope $\\frac{1}{39}$, and $f(x)=x-39$ has slope $1$ with intercept $-39$. The function $f(x)=39x$ has slope $39$ and passes through the origin."
     }
   ]
 }

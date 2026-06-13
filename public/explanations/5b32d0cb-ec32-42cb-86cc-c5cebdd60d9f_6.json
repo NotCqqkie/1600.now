@@ -17,7 +17,7 @@
     },
     {
       "title": "Confirm the answer",
-      "content": "Choice D uses \\$1.40 per cone and \\$3.40 per sundae: $$1.40x+3.40y=85.60$$ That matches choice D &mdash; <strong>D</strong> is correct."
+      "content": "Choice D (&lsquo;$1.40x + 3.40y = 85.60$&rsquo;) uses \\$1.40 per cone and \\$3.40 per sundae: $$1.40x+3.40y=85.60$$ That confirms <strong>D</strong> is correct."
     }
   ]
 }

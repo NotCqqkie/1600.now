@@ -1,1 +1,15 @@
-{"questionId":"62bf03b6-2f6e-4c65-9e55-3e67dca0934b_15","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The first sentence places the painting's feature in a completed past event: it <em>was featured</em> in a 2013 exhibition. The blank describes when it was chosen for that exhibition — an action that had to happen <em>before</em> the featuring. The verb form must show an earlier past action."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'is'</strong>: simple present. Places the choosing in the present, contradicting the 2013 past context. &#10007;</li><li><strong>Choice B &mdash; 'had been'</strong>: past perfect. Shows the choosing was completed before the other past action (the featuring). Correctly sequences the two past events. &#10003;</li><li><strong>Choice C &mdash; 'will be'</strong>: future tense. Contradicts the established 2013 date. &#10007;</li><li><strong>Choice D &mdash; 'is being'</strong>: present progressive. Places the choosing in the present, contradicting the past context. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_15",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The first sentence places the painting's feature in a completed past event: it <em>was featured</em> in a 2013 exhibition. The blank describes when it was chosen for that exhibition — an action that had to happen <em>before</em> the featuring. The verb form must show an earlier past action."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;is&rsquo;</strong>: simple present. Places the choosing in the present, contradicting the 2013 past context. &#10007;</li><li><strong>Choice B &mdash; &lsquo;had been&rsquo;</strong>: past perfect. Shows the choosing was completed before the other past action (the featuring). Correctly sequences the two past events. &#10003;</li><li><strong>Choice C &mdash; &lsquo;will be&rsquo;</strong>: future tense. Contradicts the established 2013 date. &#10007;</li><li><strong>Choice D &mdash; &lsquo;is being&rsquo;</strong>: present progressive. Places the choosing in the present, contradicting the past context. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

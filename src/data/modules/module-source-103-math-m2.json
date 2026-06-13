@@ -84,7 +84,7 @@
     "difficulty": "Easy",
     "question_number": 3,
     "test_name": "Module Source 103 Math M2",
-    "passage": "Each day Daniela takes a 30-minute morning walk. The equation $s = 70m + 285$ models the total number of steps, $s$, Daniela has taken one morning $m$ minutes after the start of her walk, where $0 < m < 30$. Which is the best interpretation of 285 in this context?",
+    "passage": "Each day Daniela takes a 30-minute morning walk. The equation $s = 70m + 285$ models the total number of steps, $s$, Daniela has taken one morning $m$ minutes after the start of her walk, where $0 \\lt m \\lt 30$. Which is the best interpretation of 285 in this context?",
     "question_text": null,
     "choices": [
       {
@@ -116,7 +116,7 @@
     "difficulty": "Easy",
     "question_number": 4,
     "test_name": "Module Source 103 Math M2",
-    "passage": "$y=0.25x^{2}-7.5x+95.25$ The equation gives the estimated stock price $y$, in dollars, for a certain company $x$ days after the company went public, where $0 \\leq x \\leq 20$. Which statement is the best interpretation of $(x, y) = (1, 88)$ in this context?",
+    "passage": "$y=0.25x^{2}-7.5x+95.25$\nThe equation gives the estimated stock price $y$, in dollars, for a certain company $x$ days after the company went public, where $0 \\leq x \\leq 20$. Which statement is the best interpretation of $(x, y) = (1, 88)$ in this context?",
     "question_text": null,
     "choices": [
       {
@@ -148,7 +148,7 @@
     "difficulty": "Medium",
     "question_number": 5,
     "test_name": "Module Source 103 Math M2",
-    "passage": "$x + 6y = -14$\n$5x + 30y = 0$\n$2x + 12y = 39$\nThe given equations are graphed in the $xy$-plane. How many solutions ($x, y$) does the system of three equations have?",
+    "passage": "$x + 6y = -14$\n$5x + 30y = 0$\n$2x + 12y = 39$\nThe given equations are graphed in the $xy$-plane. How many solutions $(x, y)$ does the system of three equations have?",
     "question_text": null,
     "choices": [
       {
@@ -195,7 +195,7 @@
     "difficulty": "Medium",
     "question_number": 7,
     "test_name": "Module Source 103 Math M2",
-    "passage": "The graph shows the total amount of rainfall $ y $, in centimeters, from the start of a 10-hour period, where $ x $ is the number of hours after the start of the period. What was the average rate of change of the total amount of rainfall over time, in centimeters per hour, from $ x = 0 $ to $ x = 5 $?",
+    "passage": "The graph shows the total amount of rainfall $y$, in centimeters, from the start of a 10-hour period, where $x$ is the number of hours after the start of the period. What was the average rate of change of the total amount of rainfall over time, in centimeters per hour, from $x = 0$ to $x = 5$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -288,7 +288,7 @@
     "difficulty": "Medium",
     "question_number": 11,
     "test_name": "Module Source 103 Math M2",
-    "passage": "$36(x-1)=4(-9+9x)$\nHow many solutions does the given equation have?",
+    "passage": "$36\\left(x-1)=4(-9+9x\\right)$\nHow many solutions does the given equation have?",
     "question_text": null,
     "choices": [
       {
@@ -320,7 +320,7 @@
     "difficulty": "Hard",
     "question_number": 12,
     "test_name": "Module Source 103 Math M2",
-    "passage": "$10yz - 9xz = 10xy - z$\n\nThe given equation relates the real numbers $x$, $y$, and $z$, where $x < 0$ and $y > 0$. Which equation correctly expresses $z$ in terms of $x$ and $y$?",
+    "passage": "$10yz - 9xz = 10xy - z$\n\nThe given equation relates the real numbers $x$, $y$, and $z$, where $x \\lt 0$ and $y \\gt 0$. Which equation correctly expresses $z$ in terms of $x$ and $y$?",
     "question_text": null,
     "choices": [
       {
@@ -425,7 +425,7 @@
       },
       {
         "label": "B",
-        "text": "$b>\\sqrt{352c}$"
+        "text": "$b \\gt \\sqrt{352c}$"
       },
       {
         "label": "C",
@@ -433,7 +433,7 @@
       },
       {
         "label": "D",
-        "text": "$b<\\sqrt{352c}$"
+        "text": "$b \\lt \\sqrt{352c}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -463,24 +463,24 @@
     "difficulty": "Hard",
     "question_number": 17,
     "test_name": "Module Source 103 Math M2",
-    "passage": "The equation $N(m)=65(Q)^{\\frac{m}{6}}$ gives the predicted population N(m), in thousands, of a certain bacteria colony m minutes after the initial measurement, where Q is a constant greater than 1. The predicted population increases by p% every 180 seconds. What is the value of p in terms of Q?",
+    "passage": "The equation $N(m)=65(Q)^{\\frac{m}{6}}$ gives the predicted population $N(m)$, in thousands, of a certain bacteria colony $m$ minutes after the initial measurement, where $Q$ is a constant greater than 1. The predicted population increases by $p\\%$ every 180 seconds. What is the value of $p$ in terms of $Q$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$100(Q^{\\frac{1}{2}}+1)$"
+        "text": "$100\\left(Q^{\\frac{1}{2}}+1\\right)$"
       },
       {
         "label": "B",
-        "text": "$100(Q^{30}+1)$"
+        "text": "$100\\left(Q^{30}+1\\right)$"
       },
       {
         "label": "C",
-        "text": "$100(Q^{\\frac{1}{2}}-1)$"
+        "text": "$100\\left(Q^{\\frac{1}{2}}-1\\right)$"
       },
       {
         "label": "D",
-        "text": "$100(Q^{30}-1)$"
+        "text": "$100\\left(Q^{30}-1\\right)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -557,7 +557,7 @@
     "difficulty": "Hard",
     "question_number": 21,
     "test_name": "Module Source 103 Math M2",
-    "passage": "$rx^2 - 28sx + 7r$\nIn the given equation, $r$ is a positive constant, and $s$ is a negative constant. The equation has two solutions. If $\\frac{r}{s} > k$, what's the minimum value of $k$? ______________",
+    "passage": "$rx^2 - 28sx + 7r=0$\nIn the given equation, $r$ is a positive constant, and $s$ is a negative constant. The equation has two solutions. If $\\frac{r}{s} \\gt k$, what is the minimum value of $k$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

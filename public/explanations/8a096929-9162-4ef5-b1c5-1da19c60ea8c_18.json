@@ -9,7 +9,7 @@
     },
     {
       "title": "Convert the growth factor to a percentage increase",
-      "content": "If the population is multiplied by $Q^{\\frac{1}{2}}$, the increase factor is $Q^{\\frac{1}{2}} - 1$.<br/><br/>As a percentage:<br/>$$p = 100(Q^{\\frac{1}{2}} - 1)$$<br/>That matches choice C — <strong>C</strong> is correct."
+      "content": "If the population is multiplied by $Q^{\\frac{1}{2}}$, the increase factor is $Q^{\\frac{1}{2}} - 1$.<br/><br/>As a percentage:<br/>$$p = 100(Q^{\\frac{1}{2}} - 1)$$<br/>That confirms <strong>C</strong> is correct."
     }
   ]
 }

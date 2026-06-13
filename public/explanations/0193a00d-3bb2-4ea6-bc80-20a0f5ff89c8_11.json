@@ -1,1 +1,19 @@
-{"questionId":"0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_11","correctAnswer":"A","section":"Math","steps":[{"title":"Simplify both sides","content":"For infinitely many solutions, the equation must be true for every value of $x$. Expand each side: $$a(4x-8)+5a=4ax-8a+5a=4ax-3a$$ $$4(ax-2a)-20=4ax-8a-20$$"},{"title":"Match the constant terms","content":"The $4ax$ terms already match, so the constant terms must also match: $$-3a=-8a-20$$ $$5a=-20$$ $$a=-4$$"},{"title":"Choose the answer","content":"Only $a=-4$ makes the two sides identical: both become $-16x+12$. Choice <strong>A</strong> is correct."}]}
+{
+  "questionId": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_11",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify both sides",
+      "content": "For infinitely many solutions, the equation must be true for every value of $x$. Expand each side: $$a(4x-8)+5a=4ax-8a+5a=4ax-3a$$ $$4(ax-2a)-20=4ax-8a-20$$"
+    },
+    {
+      "title": "Match the constant terms",
+      "content": "The $4ax$ terms already match, so the constant terms must also match: $$-3a=-8a-20$$ $$5a=-20$$ $$a=-4$$"
+    },
+    {
+      "title": "Choose the answer",
+      "content": "Only $a=-4$ makes the two sides identical: both become $-16x+12$. <strong>Choice A &mdash; -4 only</strong>."
+    }
+  ]
+}

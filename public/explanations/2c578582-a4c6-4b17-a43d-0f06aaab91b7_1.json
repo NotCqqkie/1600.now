@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; 'Orchid and Lily'</strong>: 180 + 100 = 280. &#10003;</li><li><strong>Choice B &mdash; 'Tulip and Lily'</strong>: 140 + 100 = 240 &ne; 280. &#10007;</li><li><strong>Choice C &mdash; 'Orchid and Sunflower'</strong>: 180 + 160 = 340 &ne; 280. &#10007;</li><li><strong>Choice D &mdash; 'Tulip and Daisy'</strong>: 140 + 120 = 260 &ne; 280. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li><strong>Choice A — Orchid and lily</strong>: 180 + 100 = 280. &#10003;</li><li><strong>Choice B — Tulip and lily</strong>: 140 + 100 = 240 &ne; 280. &#10007;</li><li><strong>Choice C — Orchid and Sunflower</strong>: 180 + 160 = 340 &ne; 280. &#10007;</li><li><strong>Choice D — Tulip and Daisy</strong>: 140 + 120 = 260 &ne; 280. &#10007;</li></ul><strong>A</strong> is correct."
     }
   ]
 }

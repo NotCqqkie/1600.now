@@ -9,11 +9,11 @@
     },
     {
       "title": "Substitute and solve for B",
-      "content": "Plug $(0,2)$ into $10x+By=50$: $$10(0)+B(2)=50 \\Rightarrow 2B=50 \\Rightarrow B=25.$$ That matches choice <strong>A</strong> — <strong>A</strong> is correct."
+      "content": "Plug $(0,2)$ into $10x+By=50$: $$10(0)+B(2)=50 \\Rightarrow 2B=50 \\Rightarrow B=25.$$ That is the correct answer."
     },
     {
       "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice A, 25, and the other choices fail the same setup or substitution. Therefore <strong>A</strong> is correct."
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches 25, and the other choices fail the same setup or substitution. Therefore <strong>A</strong> is correct."
     }
   ]
 }

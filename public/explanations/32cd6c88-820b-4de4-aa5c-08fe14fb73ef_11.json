@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Use the parallel lines property",
-      "content": "Lines <em>q</em> and <em>r</em> are parallel, and both are intersected by transversal <em>s</em>.<br/><br/>The angle 77° is formed at the intersection of <em>s</em> and <em>q</em>, while the angle $y°$ is formed at the intersection of <em>s</em> and <em>r</em>.<br/><br/>These angles are co-interior angles (also called same-side interior angles), which means they lie on the same side of the transversal and between the parallel lines."
+      "content": "Lines <em>q</em> and <em>r</em> are parallel, and both are intersected by transversal <em>s</em>.<br/><br/>The angle $77^{\\circ}$ is formed at the intersection of <em>s</em> and <em>q</em>, while the angle $y^{\\circ}$ is formed at the intersection of <em>s</em> and <em>r</em>.<br/><br/>These angles are co-interior angles (also called same-side interior angles), which means they lie on the same side of the transversal and between the parallel lines."
     },
     {
       "title": "Apply the co-interior angle theorem",
-      "content": "When two parallel lines are cut by a transversal, co-interior angles are supplementary—they add up to 180°. Therefore:<br/>$$77° + y° = 180°$$<br/>Solving for $y$:<br/>$$y° = 180° - 77° = 103°$$"
+      "content": "When two parallel lines are cut by a transversal, co-interior angles are supplementary—they add up to $180^{\\circ}$. Therefore:<br/>$$77^{\\circ} + y^{\\circ} = 180^{\\circ}$$<br/>Solving for $y$:<br/>$$y^{\\circ} = 180^{\\circ} - 77^{\\circ} = 103^{\\circ}$$"
     },
     {
       "title": "Substitute into the equation and solve for x",
-      "content": "We are given that $y = 2x + 7$. Substituting $y = 103$:<br/>$$103 = 2x + 7$$<br/>$$96 = 2x$$<br/>$$x = 48$$<br/>That matches choice C — <strong>C</strong> is correct."
+      "content": "We are given that $y = 2x + 7$. Substituting $y = 103$:<br/>$$103 = 2x + 7$$<br/>$$96 = 2x$$<br/>$$x = 48$$<br/><strong>C</strong> is correct."
     }
   ]
 }

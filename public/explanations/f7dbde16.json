@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Apply angle-angle similarity criterion",
-      "content": "We already have angle <em>L</em> = angle <em>R</em> = 60°. For AA similarity, we need one more pair of equal angles. Choices A and B provide only side information, not angles. Focus on choices C and D, which give angle measures."
+      "content": "We already have angle <em>L</em> = angle <em>R</em> = 60 degrees. For AA similarity, we need one more pair of equal angles. The side-length options alone do not establish similarity here, so focus on the additional angle information."
     },
     {
-      "title": "Check choice C: angle M = 70° and angle S = 60°",
-      "content": "In triangle LMN: angle <em>L</em> = 60°, angle <em>M</em> = 70°, so angle <em>N</em> = 50°.<br/>In triangle RST: angle <em>R</em> = 60°, angle <em>S</em> = 60°, so angle <em>T</em> = 60°.<br/>Triangle LMN has angles {60°, 70°, 50°}.<br/><br/>Triangle RST has angles {60°, 60°, 60°}. The angle sets differ, so the triangles are not similar."
+      "title": "Check the candidate: angle M = 70° and angle S = 60°",
+      "content": "In triangle LMN: angle <em>L</em> = 60 degrees, angle <em>M</em> = 70 degrees, so angle <em>N</em> = 50 degrees.<br/>In triangle RST: angle <em>R</em> = 60 degrees, angle <em>S</em> = 60 degrees, so angle <em>T</em> = 60 degrees.<br/>Triangle LMN has angles {60 degrees, 70 degrees, 50 degrees}.<br/><br/>Triangle RST has angles {60 degrees, 60 degrees, 60 degrees}. The angle sets differ, so the triangles are not similar."
     },
     {
-      "title": "Check choice D: angle M = 70° and angle T = 50°",
-      "content": "In triangle LMN: angle <em>L</em> = 60°, angle <em>M</em> = 70°, so angle <em>N</em> = 50°.<br/>In triangle RST: angle <em>R</em> = 60°, angle <em>T</em> = 50°, so angle <em>S</em> = 70°.<br/>Triangle LMN has angles 60°, 70°, 50° at vertices <em>L</em>, <em>M</em>, <em>N</em>.<br/><br/>Triangle RST has angles 60°, 70°, 50° at vertices <em>R</em>, <em>S</em>, <em>T</em>.<br/><br/>All angles match under the correspondence <em>L</em> ↔ <em>R</em>, <em>M</em> ↔ <em>S</em>, <em>N</em> ↔ <em>T</em>.<br/><br/>By AA similarity, the triangles are similar. That matches choice D — <strong>D</strong> is correct."
+      "title": "Check the candidate: angle M = 70° and angle T = 50°",
+      "content": "In triangle LMN: angle <em>L</em> = 60 degrees, angle <em>M</em> = 70 degrees, so angle <em>N</em> = 50 degrees.<br/>In triangle RST: angle <em>R</em> = 60 degrees, angle <em>T</em> = 50 degrees, so angle <em>S</em> = 70 degrees.<br/>Triangle LMN has angles 60 degrees, 70 degrees, 50 degrees at vertices <em>L</em>, <em>M</em>, <em>N</em>.<br/><br/>Triangle RST has angles 60 degrees, 70 degrees, 50 degrees at vertices <em>R</em>, <em>S</em>, <em>T</em>.<br/><br/>All angles match under the correspondence <em>L</em> ↔ <em>R</em>, <em>M</em> ↔ <em>S</em>, <em>N</em> ↔ <em>T</em>.<br/><br/>By AA similarity, the triangles are similar. That matches the correct answer — <strong>D</strong> is correct."
     }
   ]
 }

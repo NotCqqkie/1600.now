@@ -1,1 +1,15 @@
-{"questionId":"ab8d5974-205a-4c42-a0c7-9177d4a35621_23","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The goal is to &apos;emphasize the size of the sculpture.&apos; Generic words like &apos;large&apos; or &apos;monumental&apos; are weak &mdash; concrete measurements make scale vivid. The notes give exact numbers: Cycle is roughly 62 feet wide and 56 feet tall."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'describes the sculpture in general terms'</strong>: Uses vague descriptors without dimensions, so the reader gets no real sense of scale. &#10007;</li><li><strong>Choice B &mdash; 'includes both specific measurements and uses &apos;stretches&apos; to convey spatial extent'</strong>: Supplies the 62-foot and 56-foot figures and uses active language (&apos;stretches&apos;) to help the reader feel the size. &#10003;</li><li><strong>Choice C &mdash; 'focuses on materials rather than dimensions'</strong>: Mentions what the sculpture is made of, not how big it is &mdash; doesn&apos;t address size. &#10007;</li><li><strong>Choice D &mdash; 'emphasizes artistic technique without giving measurements'</strong>: Centers on how the work was created, not its physical scale. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "ab8d5974-205a-4c42-a0c7-9177d4a35621_23",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The goal is to &apos;emphasize the size of the sculpture.&apos; Generic words like &apos;large&apos; or &apos;monumental&apos; are weak &mdash; concrete measurements make scale vivid. The notes give exact numbers: Cycle is roughly 62 feet wide and 56 feet tall."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Richard Serra is an American artist known for his large metal sculptures.</strong>: Uses vague descriptors without dimensions, so the reader gets no real sense of scale. &#10007;</li><li><strong>Choice B &mdash; <em>Cycle</em>—a large metal sculpture by artist Richard Serra—stretches roughly 62 feet wide and 56 feet tall.</strong>: Supplies the 62-foot and 56-foot figures and uses active language (&apos;stretches&apos;) to help the reader feel the size. &#10003;</li><li><strong>Choice C &mdash; American artist Richard Serra creates large sculptures from metals such as weathering steel.</strong>: Mentions what the sculpture is made of, not how big it is &mdash; doesn&apos;t address size. &#10007;</li><li><strong>Choice D &mdash; Richard Serra's <em>Cycle</em> is made of weathering steel.</strong>: Centers on how the work was created, not its physical scale. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

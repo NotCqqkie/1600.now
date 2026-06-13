@@ -1,1 +1,15 @@
-{"questionId": "28e9b4c5-9a72-4d33-891e-e8ad04b471bc_16", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The blank is the subject of the clause beginning after the colon. The colon's previous subject is &quot;dark fiction,&quot; a singular noun. The blank must be a pronoun that agrees with &quot;dark fiction&quot; and fits Standard English grammar."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'one uses'</strong>: &quot;One&quot; refers to a generic person, not to &quot;dark fiction.&quot; It doesn't logically continue the sentence about what dark fiction does. &#10007;</li><li><strong>Choice B &mdash; 'it uses'</strong>: &quot;It&quot; is a singular pronoun that correctly refers back to &quot;dark fiction,&quot; and the resulting clause &mdash; dark fiction uses horror tropes to challenge familiar ways of knowing &mdash; is grammatically and logically sound. &#10003;</li><li><strong>Choice C &mdash; 'they use'</strong>: &quot;They&quot; is plural, but &quot;dark fiction&quot; is singular. Pronoun-antecedent disagreement. &#10007;</li><li><strong>Choice D &mdash; 'we use'</strong>: &quot;We&quot; shifts the subject to the readers or a group of people, changing the meaning so that readers &mdash; not dark fiction itself &mdash; are the ones using horror tropes. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "28e9b4c5-9a72-4d33-891e-e8ad04b471bc_16",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank is the subject of the clause beginning after the colon. The colon's previous subject is &quot;dark fiction,&quot; a singular noun. The blank must be a pronoun that agrees with &quot;dark fiction&quot; and fits Standard English grammar."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; one uses</strong>: &quot;One&quot; refers to a generic person, not to &quot;dark fiction.&quot; It doesn't logically continue the sentence about what dark fiction does. &#10007;</li><li><strong>Choice B &mdash; it uses</strong>: &quot;It&quot; is a singular pronoun that correctly refers back to &quot;dark fiction,&quot; and the resulting clause &mdash; dark fiction uses horror tropes to challenge familiar ways of knowing &mdash; is grammatically and logically sound. &#10003;</li><li><strong>Choice C &mdash; they use</strong>: &quot;They&quot; is plural, but &quot;dark fiction&quot; is singular. Pronoun-antecedent disagreement. &#10007;</li><li><strong>Choice D &mdash; we use</strong>: &quot;We&quot; shifts the subject to the readers or a group of people, changing the meaning so that readers &mdash; not dark fiction itself &mdash; are the ones using horror tropes. &#10007;</li></ul>That matches <strong>Choice B &mdash; it uses</strong>."
+    }
+  ]
+}

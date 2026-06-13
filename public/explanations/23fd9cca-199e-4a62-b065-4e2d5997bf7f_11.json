@@ -1,1 +1,15 @@
-{"questionId": "23fd9cca-199e-4a62-b065-4e2d5997bf7f_11", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the paradox", "content": "The report proposed far more mitigation measures for birds than arthropods, yet conservationists were satisfied it would protect all wildlife. What explains this approval?"}, {"title": "Find the logical bridge", "content": "Bird-protective measures that also minimize arthropod effects explain the conservationists' approval.<br/><br/>The other three choices either address irrelevant factors (B's bird-species variation, C's documentation levels) or contradict the approval (D's potential harm to arthropods). <br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "23fd9cca-199e-4a62-b065-4e2d5997bf7f_11",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the paradox",
+      "content": "The report proposed far more mitigation measures for birds than arthropods, yet conservationists were satisfied it would protect all wildlife. What explains this approval?"
+    },
+    {
+      "title": "Find the logical bridge",
+      "content": "Bird-protective measures that also minimize arthropod effects explain the conservationists' approval.<br/><br/>The other three choices either address irrelevant factors (B's bird-species variation, C's documentation levels) or contradict the approval (D's potential harm to arthropods). <br/>That matches <strong>Choice A &mdash; the measures aimed at protecting birds will likely also minimize most of the effects on arthropods.</strong>."
+    }
+  ]
+}

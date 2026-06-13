@@ -14,7 +14,7 @@
     },
     {
       "title": "Write the equation and substitute $y = -5$",
-      "content": "Using the y-intercept form with slope $m = -\\frac{11}{12}$ and y-intercept $-11$:<br/>$$y = -\\frac{11}{12}x - 11$$<br/>Substitute $y = -5$ to find $v$:<br/>$$-5 = -\\frac{11}{12}v - 11$$<br/>$$6 = -\\frac{11}{12}v$$<br/>$$v = 6 \\cdot \\left(-\\frac{12}{11}\\right) = -\\frac{72}{11}$$<br/>That matches choice A — <strong>A</strong> is correct."
+      "content": "Using the y-intercept form with slope $m = -\\frac{11}{12}$ and y-intercept $-11$:<br/>$$y = -\\frac{11}{12}x - 11$$<br/>Substitute $y = -5$ to find $v$:<br/>$$-5 = -\\frac{11}{12}v - 11$$<br/>$$6 = -\\frac{11}{12}v$$<br/>$$v = 6 \\cdot \\left(-\\frac{12}{11}\\right) = -\\frac{72}{11}$$<br/>That is the correct answer."
     }
   ]
 }

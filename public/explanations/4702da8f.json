@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice B is $38$, so it is correct. Choice A treats $67$ as the product, choice C uses $x=1$, and choice D adds $7$ after subtracting $6$."
+      "content": "$38$ is correct. Treating $67$ as the product, using $x=1$, or adding $7$ after subtracting $6$ would not follow the order in $80-6x$, where $6$ multiplies the input first."
     }
   ]
 }

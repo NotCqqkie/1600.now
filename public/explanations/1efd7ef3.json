@@ -17,11 +17,11 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice D is the value of cosine at this angle, not sine. The sine value is $0$."
+      "content": "<strong>Choice D &mdash; $1$</strong> is the value of cosine at this angle, not sine. The sine value is $0$."
     },
     {
       "title": "Answer",
-      "content": "$0$ matches choice A, so <strong>A</strong> is correct."
+      "content": "$0$ matches <strong>Choice A &mdash; $0$</strong>, so <strong>A</strong> is correct."
     }
   ]
 }

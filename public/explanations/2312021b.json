@@ -1,1 +1,15 @@
-{"questionId": "2312021b", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Read the passage for the key claim", "content": "The passage states that 82.9% of Quito respondents use parks versus 72.7% in Lima, yet a much lower percentage of Quito respondents live within a 10-minute walk of a park. The authors conclude: &quot;greater proximity alone can&apos;t explain the difference in park use.&quot; That sentence is the pivot &mdash; it tells you the difference in park use must be caused by something besides proximity."}, {"title": "Evaluate each choice", "content": "<ul><li><strong>Choice A &mdash; &apos;It was much larger than the researchers conducting the study expected.&apos;</strong>: The passage never mentions researcher expectations. &#10007;</li><li><strong>Choice B &mdash; &apos;It is caused by something other than the parks&apos; proximity to city residents.&apos;</strong>: Directly restates the passage&apos;s conclusion that proximity alone cannot explain the difference. &#10003;</li><li><strong>Choice C &mdash; &apos;It could be due to inaccuracies in the survey results.&apos;</strong>: Survey inaccuracies are never discussed; the passage accepts the data as valid. &#10007;</li><li><strong>Choice D &mdash; &apos;It was calculated using sources that predate the survey.&apos;</strong>: No predated sources are mentioned anywhere in the passage. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "2312021b",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the passage for the key claim",
+      "content": "The passage states that 82.9% of Quito respondents use parks versus 72.7% in Lima, yet a much lower percentage of Quito respondents live within a 10-minute walk of a park. The authors conclude: &quot;greater proximity alone can&apos;t explain the difference in park use.&quot; That sentence is the pivot &mdash; it tells you the difference in park use must be caused by something besides proximity."
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; It was much larger than the researchers conducting the study expected.</strong>: The passage never mentions researcher expectations. &#10007;</li><li><strong>Choice B &mdash; It is caused by something other than the parks' proximity to city residents.</strong>: Directly restates the passage&apos;s conclusion that proximity alone cannot explain the difference. &#10003;</li><li><strong>Choice C &mdash; It could be due to inaccuracies in the survey results.</strong>: Survey inaccuracies are never discussed; the passage accepts the data as valid. &#10007;</li><li><strong>Choice D &mdash; It was calculated using sources that predate the survey.</strong>: No predated sources are mentioned anywhere in the passage. &#10007;</li></ul>That matches <strong>Choice B &mdash; It is caused by something other than the parks' proximity to city residents.</strong>."
+    }
+  ]
+}

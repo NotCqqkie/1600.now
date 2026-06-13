@@ -13,7 +13,7 @@
     },
     {
       "title": "Match against the choices",
-      "content": "Any factor of the original expression must appear in $p^{17}(7p-11)(7p+11)$.<ul><li>$7p + 11$ &mdash; appears directly. Factor.</li><li>$49p^2 + 121$ &mdash; this is a sum of squares, not a difference; it cannot be split out of $49p^2 - 121$. Not a factor.</li><li>$11p - 7$ &mdash; the linear factors are $7p \\pm 11$, not $11p \\pm 7$. Not a factor.</li><li>$-72p^{40}$ &mdash; the largest power of $p$ in the expression is $p^{19}$, so $p^{40}$ cannot divide it. Not a factor.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "Any factor of the original expression must appear in $p^{17}(7p-11)(7p+11)$.<ul><li>$7p + 11$ &mdash; appears directly. Factor.</li><li>$49p^2 + 121$ &mdash; this is a sum of squares, not a difference; it cannot be split out of $49p^2 - 121$. Not a factor.</li><li>$11p - 7$ &mdash; the linear factors are $7p \\pm 11$, not $11p \\pm 7$. Not a factor.</li><li>$-72p^{40}$ &mdash; the largest power of $p$ in the expression is $p^{19}$, so $p^{40}$ cannot divide it. Not a factor.</li></ul>That matches the correct answer — <strong>A</strong> is correct."
     }
   ]
 }

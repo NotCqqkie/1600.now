@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Use the trend and two anchor points",
-      "content": "The scatterplot has a strong positive trend, so choices C and D are out because their slopes are negative. To choose between the two positive-slope lines, use the approximate leftmost and rightmost data points from the graph: $(1,4)$ and $(8,26)$."
+      "content": "The scatterplot has a strong positive trend, so the negative-slope equations are out. To choose between the two positive-slope lines, use the approximate leftmost and rightmost data points from the graph: $(1,4)$ and $(8,26)$."
     },
     {
       "title": "Estimate from two points",

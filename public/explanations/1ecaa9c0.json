@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up the cost formula",
-      "content": "Robert pays \\$20 as an initial fee, plus \\$0.70 for each mile driven. For 38 miles, the total cost is:<br/>$$\\text{Total Cost} = 20 + 0.70 \\times 38$$"
+      "content": "Robert pays 20 dollars as an initial fee, plus 0.70 dollars for each mile driven. For 38 miles, the total cost is:<br/>$$\\text{Total Cost} = 20 + 0.70 \\times 38$$"
     },
     {
       "title": "Calculate the total amount",
-      "content": "Multiply the per-mile rate by the number of miles:<br/>$$0.70 \\times 38 = 26.6$$<br/>Add this to the initial fee:<br/>$$20 + 26.6 = 46.60$$<br/>The total amount charged is \\$46.60. That matches choice A — <strong>A</strong> is correct."
+      "content": "Multiply the per-mile rate by the number of miles:<br/>$$0.70 \\times 38 = 26.6$$<br/>Add this to the initial fee:<br/>$$20 + 26.6 = 46.60$$<br/>The total amount charged is 46.60 dollars. That matches <strong>Choice A &mdash; \\$46.60</strong>."
     }
   ]
 }

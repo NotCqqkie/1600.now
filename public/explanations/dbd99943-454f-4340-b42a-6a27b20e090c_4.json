@@ -1,1 +1,15 @@
-{"questionId": "dbd99943-454f-4340-b42a-6a27b20e090c_4", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the contextual signal", "content": "McGrattan's papers being \"frequently cited\" by other scholars, who \"clearly find her studies valuable,\" both point to the same direction: her work is useful. The blank should connect frequent citation to <em>highlighting</em> usefulness."}, {"title": "Match the precise word", "content": "The blank needs to mean emphasizes or highlights — frequent citation is presented as evidence of usefulness, so the blank connects those two ideas positively. Substitute each choice:\n<ul>\n<li><strong>Choice A — forestalls</strong>: means prevents or holds off — implies frequent citation would block acknowledgment of usefulness, which contradicts the passage's logic. ✗</li>\n<li><strong>Choice B — belies</strong>: means contradicts or gives a false impression of — implies the citation frequency contradicts her usefulness, the opposite of what the passage says. ✗</li>\n<li><strong>Choice C — underscores</strong>: means emphasizes or draws attention to — frequent citation is direct evidence that highlights her research's usefulness to peers. ✓</li>\n<li><strong>Choice D — overshadows</strong>: means eclipses or diminishes by comparison — implies citation frequency actually obscures her usefulness, which contradicts the supportive tone. ✗</li>\n</ul>\nThat matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "dbd99943-454f-4340-b42a-6a27b20e090c_4",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the contextual signal",
+      "content": "McGrattan's papers being \"frequently cited\" by other scholars, who \"clearly find her studies valuable,\" both point to the same direction: her work is useful. The blank should connect frequent citation to <em>highlighting</em> usefulness."
+    },
+    {
+      "title": "Match the precise word",
+      "content": "The blank needs to mean emphasizes or highlights — frequent citation is presented as evidence of usefulness, so the blank connects those two ideas positively. Substitute each choice:\n<ul>\n<li><strong>\"forestalls\"</strong>: means prevents or holds off — implies frequent citation would block acknowledgment of usefulness, which contradicts the passage's logic. ✗</li>\n<li><strong>\"belies\"</strong>: means contradicts or gives a false impression of — implies the citation frequency contradicts her usefulness, the opposite of what the passage says. ✗</li>\n<li><strong>\"underscores\"</strong>: means emphasizes or draws attention to — frequent citation is direct evidence that highlights her research's usefulness to peers. ✓</li>\n<li><strong>\"overshadows\"</strong>: means eclipses or diminishes by comparison — implies citation frequency actually obscures her usefulness, which contradicts the supportive tone. ✗</li>\n</ul>\nThat matches the correct answer — <strong>C</strong> is correct."
+    }
+  ]
+}

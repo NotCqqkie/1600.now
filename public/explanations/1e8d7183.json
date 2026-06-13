@@ -13,7 +13,7 @@
     },
     {
       "title": "Test the choices",
-      "content": "Expand each candidate and compare to $256w^2 - 676$.<ul><li><strong>Choice A &mdash; $(16w-26)(16w-26)$</strong>: $(16w-26)^2 = 256w^2 - 832w + 676$. Has a $w$ term and wrong constant sign. Eliminate.</li><li><strong>Choice B &mdash; $(8w-13)(8w+13)$</strong>: $64w^2 - 169$. Wrong leading coefficient and constant. Eliminate.</li><li><strong>Choice C &mdash; $(8w-13)(8w-13)$</strong>: $64w^2 - 208w + 169$. Wrong on all three terms. Eliminate.</li><li><strong>Choice D &mdash; $(16w-26)(16w+26)$</strong>: $256w^2 - 676$. Exact match.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "content": "Expand each candidate and compare to $256w^2 - 676$.<ul><li><strong>Choice A &mdash; $(16w-26)(16w-26)$</strong>: $(16w-26)^2 = 256w^2 - 832w + 676$. Has a $w$ term and wrong constant sign. Eliminate.</li><li><strong>Choice B &mdash; $\\left(8w-13\\right) \\left(8w+13\\right)$</strong>: $64w^2 - 169$. Wrong leading coefficient and constant. Eliminate.</li><li><strong>Choice C &mdash; $(8w-13)(8w-13)$</strong>: $64w^2 - 208w + 169$. Wrong on all three terms. Eliminate.</li><li><strong>Choice D &mdash; $\\left(16w-26\\right) \\left(16w+26\\right)$</strong>: $256w^2 - 676$. Exact match.</li></ul>That matches <strong>Choice D &mdash; $\\left(16w-26\\right) \\left(16w+26\\right)$</strong>."
     }
   ]
 }

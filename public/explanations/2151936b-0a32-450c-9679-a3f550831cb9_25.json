@@ -1,1 +1,15 @@
-{"questionId":"2151936b-0a32-450c-9679-a3f550831cb9_25","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The goal is to &quot;specify where&quot; <em>Hadramphus tuberculatus</em> was identified. The answer must name a location for that species only."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'In 1974, a living specimen of Catagonus wagneri was found in Argentina.'</strong>: Names the wrong species (<em>Catagonus wagneri</em>, not <em>Hadramphus tuberculatus</em>). &#10007;</li><li><strong>Choice B &mdash; 'A living specimen of Hadramphus tuberculatus, once believed to be extinct, was identified in 2004.'</strong>: Names the correct species but gives only the year, not a location. &#10007;</li><li><strong>Choice C &mdash; 'Previously believed to be extinct, a living specimen of Hadramphus tuberculatus was identified in New Zealand.'</strong>: Names the correct species and includes the location (New Zealand) from the notes. &#10003;</li><li><strong>Choice D &mdash; 'Examples of Lazarus species can be found in Hadramphus tuberculatus as well as Catagonus wagneri.'</strong>: Describes the concept of Lazarus species without specifying where <em>Hadramphus tuberculatus</em> was found. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "2151936b-0a32-450c-9679-a3f550831cb9_25",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The goal is to &quot;specify where&quot; <em>Hadramphus tuberculatus</em> was identified. The answer must name a location for that species only."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; In 1974, a living specimen of *Catagonus wagneri* was found in Argentina.</strong>: Names the wrong species (<em>Catagonus wagneri</em>, not <em>Hadramphus tuberculatus</em>). &#10007;</li><li><strong>Choice B &mdash; A living specimen of *Hadramphus tuberculatus*, once believed to be extinct, was identified in 2004.</strong>: Names the correct species but gives only the year, not a location. &#10007;</li><li><strong>Choice C &mdash; Previously believed to be extinct, a living specimen of *Hadramphus tuberculatus* was identified in New Zealand.</strong>: Names the correct species and includes the location (New Zealand) from the notes. &#10003;</li><li><strong>Choice D &mdash; Examples of Lazarus species can be found in *Hadramphus tuberculatus* as well as *Catagonus wagneri*.</strong>: Describes the concept of Lazarus species without specifying where <em>Hadramphus tuberculatus</em> was found. &#10007;</li></ul>That matches <strong>Choice C &mdash; Previously believed to be extinct, a living specimen of *Hadramphus tuberculatus* was identified in New Zealand.</strong>."
+    }
+  ]
+}

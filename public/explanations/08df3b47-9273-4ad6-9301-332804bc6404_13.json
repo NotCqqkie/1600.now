@@ -9,7 +9,7 @@
     },
     {
       "title": "Factor and identify the answer",
-      "content": "Factor out $x$:\n$$x(x + 15) = 0$$\nThis gives $x = 0$ or $x = -15$. Since $-15$ is one of the available choices, that matches choice A — <strong>A</strong> is correct."
+      "content": "Factor out $x$:\n$$x(x + 15) = 0$$\nThis gives $x = 0$ or $x = -15$. Since $-15$ is one of the available choices, that matches <strong>Choice A &mdash; $-15$</strong>."
     }
   ]
 }

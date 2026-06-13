@@ -1,1 +1,15 @@
-{"questionId": "d007aa6c-6fd8-4005-bd58-dc779c145226_17", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the structure", "content": "The sentence ends: \"...in fellow OECD member ______ South Korea.\" The country name \"South Korea\" is a restrictive appositive — it identifies <em>which</em> member nation is meant. Restrictive appositives attach directly to the noun they rename with no punctuation."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A — nation: South Korea.</strong>: \"...in fellow OECD member nation: South Korea.\" A colon after \"nation\" wrongly implies a list or definition is following; colons don't introduce a single-word renaming appositive. ✗</li><li><strong>Choice B — nation South Korea.</strong>: \"...in fellow OECD member nation South Korea.\" No punctuation — correct for a restrictive appositive that identifies which nation. ✓</li><li><strong>Choice C — nation, South Korea.</strong>: \"...in fellow OECD member nation, South Korea.\" A comma signals a non-restrictive appositive, implying there is only one OECD member nation; but the passage establishes there are 38 members, so the name is essential. ✗</li><li><strong>Choice D — nation—South Korea.</strong>: \"...in fellow OECD member nation—South Korea.\" An em dash opens a parenthetical insert, which would need a closing em dash before the period; none appears. ✗</li></ul>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "d007aa6c-6fd8-4005-bd58-dc779c145226_17",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the structure",
+      "content": "The sentence ends: \"...in fellow OECD member ______ South Korea.\" The country name \"South Korea\" is a restrictive appositive — it identifies <em>which</em> member nation is meant. Restrictive appositives attach directly to the noun they rename with no punctuation."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A — nation: South Korea.</strong>: \"...in fellow OECD member nation: South Korea.\" A colon after \"nation\" wrongly implies a list or definition is following; colons don't introduce a single-word renaming appositive. ✗</li><li><strong>Choice B — nation South Korea.</strong>: \"...in fellow OECD member nation South Korea.\" No punctuation — correct for a restrictive appositive that identifies which nation. ✓</li><li><strong>Choice C — nation, South Korea.</strong>: \"...in fellow OECD member nation, South Korea.\" A comma signals a non-restrictive appositive, implying there is only one OECD member nation; but the passage establishes there are 38 members, so the name is essential. ✗</li><li><strong>Choice D — nation—South Korea.</strong>: \"...in fellow OECD member nation—South Korea.\" An em dash opens a parenthetical insert, which would need a closing em dash before the period; none appears. ✗</li></ul>That is the correct answer."
+    }
+  ]
+}

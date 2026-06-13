@@ -1,1 +1,15 @@
-{"questionId":"75f601af-f444-4475-b27a-742fda616d9b_20","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence has an independent clause followed by &apos;though,&apos; a subordinating conjunction that introduces a dependent clause. The question asks which punctuation (if any) correctly joins them."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; comma before &apos;though&apos;</strong>: a comma separates &apos;though&apos; from the clause it introduces &mdash; ungrammatical. &#10007;</li><li><strong>Choice B &mdash; colon before &apos;though&apos;</strong>: a colon cannot precede a subordinating conjunction mid-sentence. &#10007;</li><li><strong>Choice C &mdash; semicolon before &apos;though&apos;</strong>: a semicolon requires two independent clauses; the &apos;though&apos; clause is dependent. &#10007;</li><li><strong>Choice D &mdash; no punctuation</strong>: the dependent clause introduced by &apos;though&apos; attaches cleanly to the independent clause without any punctuation. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "75f601af-f444-4475-b27a-742fda616d9b_20",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence has an independent clause followed by &apos;though,&apos; a subordinating conjunction that introduces a dependent clause. The question asks which punctuation (if any) correctly joins them."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;composition, though,&rsquo;</strong>: a comma separates &apos;though&apos; from the clause it introduces &mdash; ungrammatical. &#10007;</li><li><strong>Choice B &mdash; &lsquo;composition, though:&rsquo;</strong>: a colon cannot precede a subordinating conjunction mid-sentence. &#10007;</li><li><strong>Choice C &mdash; &lsquo;composition; though&rsquo;</strong>: a semicolon requires two independent clauses; the &apos;though&apos; clause is dependent. &#10007;</li><li><strong>Choice D &mdash; &lsquo;composition though&rsquo;</strong>: the dependent clause introduced by &apos;though&apos; attaches cleanly to the independent clause without any punctuation. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

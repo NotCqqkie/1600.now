@@ -9,7 +9,7 @@
     },
     {
       "title": "Read species Y from the figure and match",
-      "content": "From the frequency table, the species Y count is 3, so:<br/>$$P(\\text{species Y}) = \\frac{3}{185}$$<br/>Checking the choices: $\\frac{70}{185}$ and $\\frac{112}{185}$ would correspond to much larger counts, and $\\frac{182}{185}$ would mean species Y makes up nearly all 185 animals. Only $\\frac{3}{185}$ matches a species-Y count of 3. That matches choice <strong>B</strong> &mdash; <strong>B</strong> is correct."
+      "content": "From the frequency table, the species Y count is 3, so:<br/>$$P(\\text{species Y}) = \\frac{3}{185}$$<br/>Checking the choices: $\\frac{70}{185}$ and $\\frac{112}{185}$ would correspond to much larger counts, and $\\frac{182}{185}$ would mean species Y makes up nearly all 185 animals. Only $\\frac{3}{185}$ matches a species-Y count of 3. That matches <strong>Choice B &mdash; $\\frac{3}{185}$</strong>."
     }
   ]
 }

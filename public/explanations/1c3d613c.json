@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the property: corresponding angles are equal",
-      "content": "In similar triangles, angles at corresponding vertices are equal. Since <em>A</em> corresponds to <em>D</em>:<br/>$$\\angle EDF = \\angle BAC = 20°$$<br/>The measure of angle <em>EDF</em> is <strong>20</strong> degrees."
+      "content": "In similar triangles, angles at corresponding vertices are equal. Since <em>A</em> corresponds to <em>D</em>:<br/>$$\\angle EDF = \\angle BAC = 20^{\\circ}$$<br/>The measure of angle <em>EDF</em> is <strong>20</strong> degrees."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId": "0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_20", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The blank falls between two independent clauses: 'the guide soon grew in scope and ______' and 'its modest French eateries were replaced...'. Two independent clauses must be joined with a comma plus a coordinating conjunction (FANBOYS). The word before the blank ends the first clause; the blank must supply the missing connector."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'influence,'</strong>: A comma alone between two independent clauses is a comma splice. &#10007;</li><li><strong>Choice B &mdash; 'influence and'</strong>: A coordinating conjunction alone, with no comma, between two independent clauses is a fused sentence. &#10007;</li><li><strong>Choice C &mdash; 'influence, and'</strong>: Comma + coordinating conjunction correctly joins the two independent clauses. &#10003;</li><li><strong>Choice D &mdash; 'influence'</strong>: No punctuation or conjunction at all &mdash; a fused sentence. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_20",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank falls between two independent clauses: 'the guide soon grew in scope and ______' and 'its modest French eateries were replaced...'. Two independent clauses must be joined with a comma plus a coordinating conjunction (FANBOYS). The word before the blank ends the first clause; the blank must supply the missing connector."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; influence,</strong>: A comma alone between two independent clauses is a comma splice. &#10007;</li><li><strong>Choice B &mdash; influence and</strong>: A coordinating conjunction alone, with no comma, between two independent clauses is a fused sentence. &#10007;</li><li><strong>Choice C &mdash; influence, and</strong>: Comma + coordinating conjunction correctly joins the two independent clauses. &#10003;</li><li><strong>Choice D &mdash; influence</strong>: No punctuation or conjunction at all &mdash; a fused sentence. &#10007;</li></ul>That matches <strong>Choice C &mdash; influence, and</strong>."
+    }
+  ]
+}

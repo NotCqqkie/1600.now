@@ -13,11 +13,11 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice A gives $f(x)=-\\frac{1}{4}x-12$. Adding 14 gives $y=-\\frac{1}{4}x+2$, exactly the graphed line. The other choices shift to y-intercepts $30$, $16$, or $0$, so they do not match the graph."
+      "content": "<strong>Choice A &mdash; $f \\left(x\\right)=-\\frac{1}{4}x-12$</strong> gives $f(x)=-\\frac{1}{4}x-12$. Adding 14 gives $y=-\\frac{1}{4}x+2$, exactly the graphed line. The other choices shift to y-intercepts $30$, $16$, or $0$, so they do not match the graph."
     },
     {
       "title": "Confirm the choice",
-      "content": "$f(x)=-\\frac{1}{4}x-12$ matches choice A. Choice A is correct."
+      "content": "$f(x)=-\\frac{1}{4}x-12$ matches <strong>Choice A &mdash; $f \\left(x\\right)=-\\frac{1}{4}x-12$</strong>. <strong>Choice A &mdash; $f \\left(x\\right)=-\\frac{1}{4}x-12$</strong>."
     }
   ]
 }

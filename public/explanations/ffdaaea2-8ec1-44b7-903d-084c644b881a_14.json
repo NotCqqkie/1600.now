@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply surface area scaling",
-      "content": "For similar solids, surface area scales by $k^2$. Therefore:<br/>$$n = \\left(\\frac{3}{86}\\right)^2 = \\frac{9}{7396}$$<br/>This matches choice A — <strong>A</strong> is correct."
+      "content": "For similar solids, surface area scales by $k^2$. Therefore:<br/>$$n = \\left(\\frac{3}{86}\\right)^2 = \\frac{9}{7396}$$<br/>This matches the correct answer — <strong>A</strong> is correct."
     }
   ]
 }

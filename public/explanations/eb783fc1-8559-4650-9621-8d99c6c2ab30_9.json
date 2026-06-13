@@ -1,1 +1,15 @@
-{"questionId": "eb783fc1-8559-4650-9621-8d99c6c2ab30_9", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The question asks for the <strong>main topic</strong> of the text. Read the passage and ask: what is every sentence about? The passage describes a runestone discovered in Norway, states when it was carved, and notes what a runologist hopes to learn from it. All three sentences center on that runestone."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; &quot;Battles of the Iron Age&quot;</strong>: battles are never mentioned anywhere in the passage. &#10007;</li><li><strong>Choice B &mdash; &quot;The research interests of Kristel Zilmer&quot;</strong>: Zilmer appears only in the final sentence as someone who comments on the runestone; she is a detail, not the topic. &#10007;</li><li><strong>Choice C &mdash; &quot;A runestone found in Norway&quot;</strong>: every sentence in the passage is about this runestone &mdash; its discovery, its age, and what it can teach us. &#10003;</li><li><strong>Choice D &mdash; &quot;A new method for dating rock samples&quot;</strong>: carbon dating is mentioned in passing to establish the stone&apos;s age, not as a new method being introduced. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "eb783fc1-8559-4650-9621-8d99c6c2ab30_9",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks for the <strong>main topic</strong> of the text. Read the passage and ask: what is every sentence about? The passage describes a runestone discovered in Norway, states when it was carved, and notes what a runologist hopes to learn from it. All three sentences center on that runestone."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"Battles of the Iron Age\"</strong>: battles are never mentioned anywhere in the passage. &#10007;</li><li><strong>\"The research interests of Kristel Zilmer\"</strong>: Zilmer appears only in the final sentence as someone who comments on the runestone; she is a detail, not the topic. &#10007;</li><li><strong>\"A runestone found in Norway\"</strong>: every sentence in the passage is about this runestone &mdash; its discovery, its age, and what it can teach us. &#10003;</li><li><strong>\"A new method for dating rock samples\"</strong>: carbon dating is mentioned in passing to establish the stone's age, not as a new method being introduced. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+    }
+  ]
+}

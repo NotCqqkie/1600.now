@@ -1,1 +1,15 @@
-{"questionId":"d3c0680f-0e7b-45fa-a287-0167b3b6346e_14","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage says inefficient redox reactions bottleneck electron transfer in MFCs, limiting power. Adding silver more than doubles output. The researchers&apos; hypothesis must explain how silver&apos;s conductivity overcomes that bottleneck."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; silver increases the number of electrons produced</strong>: The bottleneck is transfer efficiency, not electron quantity. More electrons don&apos;t help if transfer is still inefficient. &#10007;</li><li><strong>Choice B &mdash; silver improves biofilm density first, then conductivity follows</strong>: Reverses the logical sequence; conductivity is the property silver is known for, not a downstream effect. &#10007;</li><li><strong>Choice C &mdash; silver increases biofilm density</strong>: Density is not the stated bottleneck; inefficient redox reactions are. &#10007;</li><li><strong>Choice D &mdash; silver provides a conductive path that bypasses inefficient redox reactions</strong>: Directly addresses the stated bottleneck by allowing electrons to transfer to the electrode without relying on slow redox steps. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "d3c0680f-0e7b-45fa-a287-0167b3b6346e_14",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage says inefficient redox reactions bottleneck electron transfer in MFCs, limiting power. Adding silver more than doubles output. The researchers' hypothesis must explain how silver's conductivity overcomes that bottleneck."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"silver nanoparticles may increase the metabolic processes of the bacteria, thereby increasing the number of free electrons available to transfer to the electrode.\"</strong>: The bottleneck is transfer efficiency, not electron quantity. More electrons don't help if transfer is still inefficient. &#10007;</li><li><strong>\"electrons may be conducted directly to the electrode before the silver nanoparticles catalyze the redox reactions.\"</strong>: Reverses the logical sequence; conductivity is the property silver is known for, not a downstream effect. &#10007;</li><li><strong>\"as the density of the biofilm increases, the series of redox reactions may accelerate independent of the presence of the silver nanoparticles.\"</strong>: Density is not the stated bottleneck; inefficient redox reactions are. &#10007;</li><li><strong>\"silver nanoparticles may allow electrons to bypass the series of redox reactions and transfer directly to the electrode.\"</strong>: Directly addresses the stated bottleneck by allowing electrons to transfer to the electrode without relying on slow redox steps. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -13,7 +13,7 @@
     },
     {
       "title": "Eliminate the answer choices",
-      "content": "<ul><li><strong>A</strong> uses $p+q+s+13$ in the denominator, which would only be right if $1/R = 4/(p+q+s+13)$ &mdash; not equivalent to the given sum of reciprocals.</li><li><strong>B</strong> equals $\\frac{13pqs}{13qs+13ps+13pq+pqs}$, exactly what we derived.</li><li><strong>C</strong> is the reciprocal of B, so it equals $\\frac{1}{R}$, not $R$.</li><li><strong>D</strong> sums the resistances directly, which is the formula for resistors in series, not parallel.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "<ul><li><strong>A</strong> uses $p+q+s+13$ in the denominator, which would only be right if $1/R = 4/(p+q+s+13)$ &mdash; not equivalent to the given sum of reciprocals.</li><li><strong>B</strong> equals $\\frac{13pqs}{13qs+13ps+13pq+pqs}$, exactly what we derived.</li><li><strong>C</strong> is the reciprocal of B, so it equals $\\frac{1}{R}$, not $R$.</li><li><strong>D</strong> sums the resistances directly, which is the formula for resistors in series, not parallel.</li></ul>That confirms <strong>B</strong> is correct."
     }
   ]
 }

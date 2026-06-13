@@ -13,7 +13,7 @@
     },
     {
       "title": "Solve for x and test all choices",
-      "content": "Substituting $y = 119$ into $y = 2x + 9$:<br/>$$119 = 2x + 9 \\implies 2x = 110 \\implies x = 55$$<br/>Now verify each choice by back-substituting into $y = 2x + 9$ and checking $61 + y = 180$:<br/><ul><li><strong>Choice A &mdash; $x = 26$</strong>: $y = 2(26)+9 = 61$. Then $61 + 61 = 122 \\neq 180$. &#10007;</li><li><strong>Choice B &mdash; $x = 35$</strong>: $y = 2(35)+9 = 79$. Then $61 + 79 = 140 \\neq 180$. &#10007;</li><li><strong>Choice C &mdash; $x = 55$</strong>: $y = 2(55)+9 = 119$. Then $61 + 119 = 180$. &#10003;</li><li><strong>Choice D &mdash; $x = 65$</strong>: $y = 2(65)+9 = 139$. Then $61 + 139 = 200 \\neq 180$. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+      "content": "Substituting $y = 119$ into $y = 2x + 9$:<br/>$$119 = 2x + 9 \\implies 2x = 110 \\implies x = 55$$<br/>Now verify each choice by back-substituting into $y = 2x + 9$ and checking $61 + y = 180$:<br/><ul><li><strong>Choice A &mdash; 26</strong>: If $x = 26$, then $y = 2(26)+9 = 61$. Then $61 + 61 = 122 \\neq 180$. &#10007;</li><li><strong>Choice B &mdash; 35</strong>: If $x = 35$, then $y = 2(35)+9 = 79$. Then $61 + 79 = 140 \\neq 180$. &#10007;</li><li><strong>Choice C &mdash; 55</strong>: If $x = 55$, then $y = 2(55)+9 = 119$. Then $61 + 119 = 180$. &#10003;</li><li><strong>Choice D &mdash; 65</strong>: If $x = 65$, then $y = 2(65)+9 = 139$. Then $61 + 139 = 200 \\neq 180$. &#10007;</li></ul>That is the correct answer."
     }
   ]
 }

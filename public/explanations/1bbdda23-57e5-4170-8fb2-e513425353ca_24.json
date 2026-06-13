@@ -1,1 +1,15 @@
-{"questionId":"1bbdda23-57e5-4170-8fb2-e513425353ca_24","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence introduces Cornelius Eady\\'s poem as a second example of ekphrastic poetry alongside Elizabeth Alexander\\'s poem. The blank must connect these two examples logically. Because both poems do the same thing — take a painting as their subject — the relationship between them is similarity, not contrast or causation."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'nevertheless,'</strong>: Signals contrast or concession — as in \"despite what was just said.\" The two poems are parallel examples, not contrasting ones. &#10007;</li><li><strong>Choice B &mdash; 'conversely,'</strong>: Signals that the second point is the opposite of the first. Eady\\'s poem does the same thing Alexander\\'s does, not the opposite. &#10007;</li><li><strong>Choice C &mdash; 'likewise,'</strong>: Means \"in the same way\" — exactly right for introducing a parallel example of the same practice. &#10003;</li><li><strong>Choice D &mdash; 'hence,'</strong>: Signals that the second point is a result or consequence of the first. Eady\\'s poem is not caused by Alexander\\'s poem; they are independent examples of the same form. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "1bbdda23-57e5-4170-8fb2-e513425353ca_24",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence introduces Cornelius Eady's poem as a second example of ekphrastic poetry alongside Elizabeth Alexander's poem. The blank must connect these two examples logically. Because both poems do the same thing — take a painting as their subject — the relationship between them is similarity, not contrast or causation."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; nevertheless,</strong>: Signals contrast or concession — as in \"despite what was just said.\" The two poems are parallel examples, not contrasting ones. &#10007;</li><li><strong>Choice B &mdash; conversely,</strong>: Signals that the second point is the opposite of the first. Eady's poem does the same thing Alexander's does, not the opposite. &#10007;</li><li><strong>Choice C &mdash; likewise,</strong>: Means \"in the same way\" — exactly right for introducing a parallel example of the same practice. &#10003;</li><li><strong>Choice D &mdash; hence,</strong>: Signals that the second point is a result or consequence of the first. Eady's poem is not caused by Alexander's poem; they are independent examples of the same form. &#10007;</li></ul>That matches <strong>Choice C &mdash; likewise,</strong>."
+    }
+  ]
+}

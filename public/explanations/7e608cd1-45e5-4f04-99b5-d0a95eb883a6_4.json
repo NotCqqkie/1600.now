@@ -1,1 +1,15 @@
-{"questionId": "7e608cd1-45e5-4f04-99b5-d0a95eb883a6_4", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the word must mean in context", "content": "The sun has already set, yet it is described as &quot;manifest in the livid tongues of fire darting towards the zenith.&quot; The sun is not directly visible, but it can still be perceived through the fire-colored streaks it leaves in the sky. The word &quot;manifest&quot; therefore must mean something like <em>able to be perceived or noticed</em>."}, {"title": "Test each choice", "content": "<ul><li><strong>Choice A &mdash; 'Dwindling'</strong>: means gradually decreasing. While the fire-light is fading, &quot;manifest&quot; describes how the sun <em>appears</em>, not its rate of decrease &mdash; wrong sense entirely. &#10007;</li><li><strong>Choice B &mdash; 'Realized'</strong>: means understood or achieved. This would imply the sun is being comprehended mentally, but the passage describes a physical, sensory phenomenon &mdash; not a conceptual one. &#10007;</li><li><strong>Choice C &mdash; 'Situated'</strong>: means located or placed. Describes physical position, not the act of being seen or sensed through the fire-colored light. &#10007;</li><li><strong>Choice D &mdash; 'Perceptible'</strong>: means able to be perceived or noticed. The sun, though below the horizon, is still perceptible through the livid tongues of fire it leaves in the sky &mdash; a perfect fit. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "7e608cd1-45e5-4f04-99b5-d0a95eb883a6_4",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the word must mean in context",
+      "content": "The sun has already set, yet it is described as &quot;manifest in the livid tongues of fire darting towards the zenith.&quot; The sun is not directly visible, but it can still be perceived through the fire-colored streaks it leaves in the sky. The word &quot;manifest&quot; therefore must mean something like <em>able to be perceived or noticed</em>."
+    },
+    {
+      "title": "Test each choice",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Dwindling&rsquo;</strong>: means gradually decreasing. While the fire-light is fading, &quot;manifest&quot; describes how the sun <em>appears</em>, not its rate of decrease &mdash; wrong sense entirely. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Realized&rsquo;</strong>: means understood or achieved. This would imply the sun is being comprehended mentally, but the passage describes a physical, sensory phenomenon &mdash; not a conceptual one. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Situated&rsquo;</strong>: means located or placed. Describes physical position, not the act of being seen or sensed through the fire-colored light. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Perceptible&rsquo;</strong>: means able to be perceived or noticed. The sun, though below the horizon, is still perceptible through the livid tongues of fire it leaves in the sky &mdash; a perfect fit. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

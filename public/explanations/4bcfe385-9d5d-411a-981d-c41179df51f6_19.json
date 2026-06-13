@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the fence post principle to count nails",
-      "content": "When a length is divided into equal gaps from one end to the other, the number of boundary points (nails) is always one more than the number of gaps. With $8x$ gaps, the total number of nails is:<br/>$$y = 8x + 1$$<br/>This matches choice D — <strong>D</strong> is correct."
+      "content": "When a length is divided into equal gaps from one end to the other, the number of boundary points (nails) is always one more than the number of gaps. With $8x$ gaps, the total number of nails is:<br/>$$y = 8x + 1$$<br/>This matches the correct answer — <strong>D</strong> is correct."
     }
   ]
 }

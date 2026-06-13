@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Use the visible trend",
-      "content": "The dots rise by roughly $3$ feet in long-jump distance for each $1$ foot increase in high-jump height. That means the slope should be close to $3$, not close to $0.82$. Choices A and B are too flat."
+      "content": "The dots rise by roughly $3$ feet in long-jump distance for each $1$ foot increase in high-jump height. That means the slope should be close to $3$, not close to $0.82$. The other choices are too flat."
     },
     {
       "title": "Check the intercept",
-      "content": "The trend line would cross the $y$-axis a little above $0$, around $0.8$. Choice D has intercept $-3.30$, which would put the line below nearly all of the data. Choice C has intercept $0.82$ and slope $3.30$."
+      "content": "The trend line would cross the $y$-axis a little above $0$, around $0.8$. A choice with intercept $-3.30$, which would put the line below nearly all of the data. The matching choice has intercept $0.82$ and slope $3.30$."
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice C, $$y=3.30x+0.82,$$ has the right steep positive slope and a reasonable positive intercept. Therefore choice <strong>C</strong> is correct."
+      "content": "The matching choice, $$y=3.30x+0.82,$$ has the right steep positive slope and a reasonable positive intercept. Therefore, <strong>C</strong> is correct."
     }
   ]
 }

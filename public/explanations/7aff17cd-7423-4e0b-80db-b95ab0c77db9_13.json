@@ -1,1 +1,15 @@
-{"questionId":"7aff17cd-7423-4e0b-80db-b95ab0c77db9_13","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The researcher argues that GPS-tracked distance is significantly higher than the RTD method for the same animal. The correct choice must pair a GPS value with an RTD value for the same caribou so that the GPS value is the larger one, directly supporting that claim."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; RTD distance greater than GPS distance</strong>: This reverses the researcher's argument. &#10007;</li><li><strong>Choice B &mdash; GPS distance of $3{,}807$ km paired with a lower RTD distance</strong>: If the GPS-measured distance is $3{,}807$ km and the RTD value for the same caribou is less, that directly supports the claim that GPS records more distance. &#10003;</li><li><strong>Choice C &mdash; comparing different animals' measurements</strong>: Cross-animal comparisons don't isolate the effect of the measurement method. &#10007;</li><li><strong>Choice D &mdash; RTD value used as the reference point</strong>: Starting from the RTD value and predicting a GPS outcome doesn't follow logically from the argument as stated. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_13",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The researcher argues that GPS-tracked distance is significantly higher than the RTD method for the same animal. The correct choice must pair a GPS value with an RTD value for the same caribou so that the GPS value is the larger one, directly supporting that claim."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;caribou would be greater than 2,155 kilometers if the RTD method had been used.&rsquo;</strong>: This reverses the researcher's argument. &#10007;</li><li><strong>Choice B &mdash; &lsquo;caribou would be less than 3,807 kilometers if the RTD method had been used.&rsquo;</strong>: If the GPS-measured distance is $3{,}807$ km and the RTD value for the same caribou is less, that directly supports the claim that GPS records more distance. &#10003;</li><li><strong>Choice C &mdash; &lsquo;white-eared kob would be less than 400 kilometers if the GPS method had been used.&rsquo;</strong>: Cross-animal comparisons don't isolate the effect of the measurement method. &#10007;</li><li><strong>Choice D &mdash; &lsquo;white-eared kob would be greater than 3,807 kilometers if the GPS method had been used.&rsquo;</strong>: Starting from the RTD value and predicting a GPS outcome doesn't follow logically from the argument as stated. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

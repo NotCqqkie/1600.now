@@ -1,1 +1,15 @@
-{"questionId":"a4670c6c-a654-4863-946e-7b7c7171fcdb_18","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"&quot;The author-as-juggler performs a routine&quot; is a complete independent clause. What follows is a three-item list of noun phrases explaining what the routine consists of. The punctuation after &quot;routine&quot; must introduce that list."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'routine;'</strong>: A semicolon must be followed by an independent clause. &quot;The gathering of central themes...&quot; is a noun phrase, not an independent clause. &#10007;</li><li><strong>Choice B &mdash; 'routine,'</strong>: A comma weakly connects and does not signal the formal introduction of a list elaborating on the preceding clause. &#10007;</li><li><strong>Choice C &mdash; 'routine.'</strong>: A period ends the sentence, leaving the three noun phrases that follow as a fragment with no verb. &#10007;</li><li><strong>Choice D &mdash; 'routine:'</strong>: A colon after an independent clause correctly introduces an elaborating list. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "a4670c6c-a654-4863-946e-7b7c7171fcdb_18",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "&quot;The author-as-juggler performs a routine&quot; is a complete independent clause. What follows is a three-item list of noun phrases explaining what the routine consists of. The punctuation after &quot;routine&quot; must introduce that list."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; routine; the</strong>: A semicolon must be followed by an independent clause. &quot;The gathering of central themes...&quot; is a noun phrase, not an independent clause. &#10007;</li><li><strong>Choice B &mdash; routine, the</strong>: A comma weakly connects and does not signal the formal introduction of a list elaborating on the preceding clause. &#10007;</li><li><strong>Choice C &mdash; routine. The</strong>: A period ends the sentence, leaving the three noun phrases that follow as a fragment with no verb. &#10007;</li><li><strong>Choice D &mdash; routine: the</strong>: A colon after an independent clause correctly introduces an elaborating list. &#10003;</li></ul>That is the correct answer."
+    }
+  ]
+}

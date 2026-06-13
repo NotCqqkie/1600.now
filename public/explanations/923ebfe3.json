@@ -1,1 +1,15 @@
-{"questionId": "923ebfe3", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the central research finding", "content": "The passage describes a study showing that combining sellers' own historical data with social media data dramatically improves demand forecasting accuracy. The correct answer must reflect both data sources working together to help sellers anticipate demand."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; 'Using multiple data sources can enhance the ability of sellers in the fashion industry to anticipate demand.'</strong>: directly captures the finding &mdash; combining two data sources improves sellers' forecasting ability. &#10003;</li><li><strong>Choice B &mdash; 'Social media is revolutionizing how both sellers and researchers view the fashion industry.'</strong>: overstates social media's role and ignores sellers' own data as the other key source. &#10007;</li><li><strong>Choice C &mdash; 'Becoming overstocked is the main preoccupation of sellers trying to forecast demand for fashion items.'</strong>: misplaces the focus; the passage presents overstocking as context, not the study's main finding. &#10007;</li><li><strong>Choice D &mdash; 'Retailers can use their own data to accurately predict how tastes and styles are evolving.'</strong>: omits social media data entirely, which the study identifies as essential for the improvement. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "923ebfe3",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the central research finding",
+      "content": "The passage describes a study showing that combining sellers' own historical data with social media data dramatically improves demand forecasting accuracy. The correct answer must reflect both data sources working together to help sellers anticipate demand."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; Using multiple data sources can enhance the ability of sellers in the fashion industry to anticipate demand.</strong>: directly captures the finding &mdash; combining two data sources improves sellers' forecasting ability. &#10003;</li><li><strong>Choice B &mdash; Social media is revolutionizing how both sellers and researchers view the fashion industry.</strong>: overstates social media's role and ignores sellers' own data as the other key source. &#10007;</li><li><strong>Choice C &mdash; Becoming overstocked is the main preoccupation of sellers trying to forecast demand for fashion items.</strong>: misplaces the focus; the passage presents overstocking as context, not the study's main finding. &#10007;</li><li><strong>Choice D &mdash; Retailers can use their own data to accurately predict how tastes and styles are evolving.</strong>: omits social media data entirely, which the study identifies as essential for the improvement. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

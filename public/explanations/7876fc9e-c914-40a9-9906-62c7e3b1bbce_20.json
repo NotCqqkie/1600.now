@@ -1,1 +1,15 @@
-{"questionId": "7876fc9e-c914-40a9-9906-62c7e3b1bbce_20", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The blank follows the complete independent clause &quot;...two other Black Americans who served in Congress&quot; and precedes a list of two names. A punctuation mark is needed to introduce that list."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'Congress:'</strong>: A colon correctly introduces a list or specification that follows a complete independent clause. &#10003;</li><li><strong>Choice B &mdash; 'Congress;'</strong>: A semicolon joins two independent clauses. What follows is a list of names, not a clause. &#10007;</li><li><strong>Choice C &mdash; 'Congress.'</strong>: A period ends the sentence and leaves the list of names as a fragment with no main verb. &#10007;</li><li><strong>Choice D &mdash; 'Congress'</strong>: No punctuation creates an awkward run-on &mdash; the names appear to be part of the clause rather than a list introduced by it. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "7876fc9e-c914-40a9-9906-62c7e3b1bbce_20",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank follows the complete independent clause &quot;...two other Black Americans who served in Congress&quot; and precedes a list of two names. A punctuation mark is needed to introduce that list."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Congress:&rsquo;</strong>: A colon correctly introduces a list or specification that follows a complete independent clause. &#10003;</li><li><strong>Choice B &mdash; &lsquo;Congress;&rsquo;</strong>: A semicolon joins two independent clauses. What follows is a list of names, not a clause. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Congress.&rsquo;</strong>: A period ends the sentence and leaves the list of names as a fragment with no main verb. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Congress&rsquo;</strong>: No punctuation creates an awkward run-on &mdash; the names appear to be part of the clause rather than a list introduced by it. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "76199cca-674f-403e-a01c-927854021f9f_2", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the blank must mean", "content": "The sentence says the artist can do something with her work &quot;more broadly&quot; because of Indigenous Photograph&rsquo;s reach, and the next sentence explains that photography editors worldwide can search the site for Indigenous photographers. The blank needs a word meaning <em>share or publicize</em> &mdash; something an expanded platform enables."}, {"title": "Eliminate each choice", "content": "Substitute each word and test it against the passage:<ul><li><strong>Choice A &mdash; &apos;empty&apos;</strong>: Empty means to remove contents from something &mdash; &quot;empty her work more broadly&quot; is nonsensical in this context. &#10007;</li><li><strong>Choice B &mdash; &apos;promote&apos;</strong>: Promote means to publicize and raise awareness &mdash; editors worldwide finding her through the organization&rsquo;s reach is exactly promoting her work to a broader audience. &#10003;</li><li><strong>Choice C &mdash; &apos;alter&apos;</strong>: Alter means to change or modify &mdash; the passage is about visibility and reach, not changing the work itself. &#10007;</li><li><strong>Choice D &mdash; &apos;discover&apos;</strong>: Discover means to find something for the first time &mdash; she already knows her own work; the organization helps others find it, not her. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "76199cca-674f-403e-a01c-927854021f9f_2",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the blank must mean",
+      "content": "The sentence says the artist can do something with her work &quot;more broadly&quot; because of Indigenous Photograph&rsquo;s reach, and the next sentence explains that photography editors worldwide can search the site for Indigenous photographers. The blank needs a word meaning <em>share or publicize</em> &mdash; something an expanded platform enables."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "Substitute each word and test it against the passage:<ul><li><strong>Choice A &mdash; &lsquo;empty&rsquo;</strong>: Empty means to remove contents from something &mdash; &quot;empty her work more broadly&quot; is nonsensical in this context. &#10007;</li><li><strong>Choice B &mdash; &lsquo;promote&rsquo;</strong>: Promote means to publicize and raise awareness &mdash; editors worldwide finding her through the organization&rsquo;s reach is exactly promoting her work to a broader audience. &#10003;</li><li><strong>Choice C &mdash; &lsquo;alter&rsquo;</strong>: Alter means to change or modify &mdash; the passage is about visibility and reach, not changing the work itself. &#10007;</li><li><strong>Choice D &mdash; &lsquo;discover&rsquo;</strong>: Discover means to find something for the first time &mdash; she already knows her own work; the organization helps others find it, not her. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

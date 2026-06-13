@@ -1,1 +1,15 @@
-{"questionId": "2cde5163-29ab-4fac-b1b1-06ee2a11740a_8", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the Core Objection", "content": "Text 1's decisive signal: genre categorization itself is questionable, not just difficult to automate. The author argues genre categories are fundamentally flawed—ambiguous, subjective, simplistic—and cites Lee and Nguyen's argument for using <em>other concepts</em> instead."}, {"title": "Match the Signal", "content": "Text 1's author would assert that genre classifications may not be the most helpful way to think about music—<strong>B</strong>'s exact claim.<br/><br/>The other three choices either assume the author endorses the technical advancement (A), or address unrelated topics: recognition difficulty (C) and user preference (D).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "2cde5163-29ab-4fac-b1b1-06ee2a11740a_8",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the Core Objection",
+      "content": "Text 1's decisive signal: genre categorization itself is questionable, not just difficult to automate. The author argues genre categories are fundamentally flawed—ambiguous, subjective, simplistic—and cites Lee and Nguyen's argument for using <em>other concepts</em> instead."
+    },
+    {
+      "title": "Match the Signal",
+      "content": "Text 1's author would assert that genre classifications may not be the most helpful way to think about music—<strong>B</strong>'s exact claim.<br/><br/>The other three choices either assume the author endorses the technical advancement (A), or address unrelated topics: recognition difficulty (C) and user preference (D).<br/><br/><strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId":"2cde5163-29ab-4fac-b1b1-06ee2a11740a_23","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The first sentence states a general principle about energy transfers across trophic levels. The second sentence illustrates that principle with a specific food-chain sequence. The transition must signal a move from general concept to concrete example."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'by contrast'</strong>: Signals opposition or contradiction. The second sentence illustrates the first, not opposes it. &#10007;</li><li><strong>Choice B &mdash; 'however'</strong>: Also signals opposition or qualification. No contrast exists between the two sentences. &#10007;</li><li><strong>Choice C &mdash; 'likewise'</strong>: Signals a parallel situation in a separate context, not an illustration of what was just stated. &#10007;</li><li><strong>Choice D &mdash; 'for example'</strong>: Introduces a specific case that demonstrates the general principle &mdash; exactly the relationship between the two sentences. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "2cde5163-29ab-4fac-b1b1-06ee2a11740a_23",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The first sentence states a general principle about energy transfers across trophic levels. The second sentence illustrates that principle with a specific food-chain sequence. The transition must signal a move from general concept to concrete example."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — By contrast,</strong>: Signals opposition or contradiction. The second sentence illustrates the first, not opposes it. &#10007;</li><li><strong>Choice B — Likewise,</strong>: Also signals opposition or qualification. No contrast exists between the two sentences. &#10007;</li><li><strong>Choice C — However,</strong>: Signals a parallel situation in a separate context, not an illustration of what was just stated. &#10007;</li><li><strong>Choice D — For example,</strong>: Introduces a specific case that demonstrates the general principle &mdash; exactly the relationship between the two sentences. &#10003;</li></ul><strong>D</strong> is correct."
+    }
+  ]
+}

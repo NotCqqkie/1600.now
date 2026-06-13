@@ -1,1 +1,15 @@
-{"questionId":"6e89fd3b-91b4-4432-a6bd-32d79b8e459a_22","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage states a general principle (sleek vehicles are more aerodynamic), then illustrates it with a contrast: the Cessna 310 (sleek) versus a semitruck (bulky). The blank must introduce that Cessna example as a concrete illustration of the principle."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; signals contradiction or contrast</strong>: The Cessna is not contrasting the general claim &mdash; it is supporting it. &#10007;</li><li><strong>Choice B &mdash; &apos;For example&apos;</strong>: Introduces the streamlined nose as a specific instance of the principle about sleek vehicles. Matches the passage&apos;s pattern exactly. &#10003;</li><li><strong>Choice C &mdash; signals simultaneous action or addition</strong>: The sentence is not listing parallel events; it is exemplifying. &#10007;</li><li><strong>Choice D &mdash; signals listing or sequence</strong>: No sequence is implied; the Cessna is an example, not a next step. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "6e89fd3b-91b4-4432-a6bd-32d79b8e459a_22",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage states a general principle (sleek vehicles are more aerodynamic), then illustrates it with a contrast: the Cessna 310 (sleek) versus a semitruck (bulky). The blank must introduce that Cessna example as a concrete illustration of the principle."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;however,&rsquo;</strong>: The Cessna is not contrasting the general claim &mdash; it is supporting it. &#10007;</li><li><strong>Choice B &mdash; &lsquo;for example,&rsquo;</strong>: Introduces the streamlined nose as a specific instance of the principle about sleek vehicles. Matches the passage&apos;s pattern exactly. &#10003;</li><li><strong>Choice C &mdash; &lsquo;additionally,&rsquo;</strong>: The sentence is not listing parallel events; it is exemplifying. &#10007;</li><li><strong>Choice D &mdash; &lsquo;meanwhile,&rsquo;</strong>: No sequence is implied; the Cessna is an example, not a next step. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

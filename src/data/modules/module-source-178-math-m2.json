@@ -298,7 +298,7 @@
     "difficulty": "Medium",
     "question_number": 10,
     "test_name": "Module Source 178 Math M2",
-    "passage": "Which expression is a factor of $x^9 + x^8 y + x y^4 + y^5$?",
+    "passage": "Which expression is a factor of $x^9 + x^8y + x y^4 + y^5$?",
     "question_text": null,
     "choices": [
       {
@@ -450,19 +450,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$p = 135 - 670 t$"
+        "text": "$p = 135 - 670t$"
       },
       {
         "label": "B",
-        "text": "$p = 670 - 135 t$"
+        "text": "$p = 670 - 135t$"
       },
       {
         "label": "C",
-        "text": "$t = 135 - 670 p$"
+        "text": "$t = 135 - 670p$"
       },
       {
         "label": "D",
-        "text": "$t = 670 - 135 p$"
+        "text": "$t = 670 - 135p$"
       }
     ],
     "is_fill_in_blank": false,
@@ -563,7 +563,7 @@
     "difficulty": "Hard",
     "question_number": 19,
     "test_name": "Module Source 178 Math M2",
-    "passage": "$b^2 + 5c = 3d$\nThe given equation relates the real numbers $b$, $c$, and $d$, where $d > \\frac{5}{3}c$. Which equation correctly expresses $b$ in terms of $c$ and $d$?",
+    "passage": "$b^2 + 5c = 3d$\nThe given equation relates the real numbers $b$, $c$, and $d$, where $d \\gt \\frac{5}{3}c$. Which equation correctly expresses $b$ in terms of $c$ and $d$?",
     "question_text": null,
     "choices": [
       {

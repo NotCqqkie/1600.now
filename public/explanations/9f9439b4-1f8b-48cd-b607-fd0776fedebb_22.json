@@ -1,1 +1,15 @@
-{"questionId": "9f9439b4-1f8b-48cd-b607-fd0776fedebb_22", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The passage describes a cause-and-effect sequence: the plant absorbs and stores cadmium from the soil, and as a result, soil cadmium concentrations decrease. The transition must show that the second clause follows as a consequence of the first."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'Specifically'</strong>: signals that the second clause is a specific instance of the first &mdash; but a drop in soil cadmium is a consequence, not a specific example of plant absorption. &#10007;</li><li><strong>Choice B &mdash; 'In turn'</strong>: signals that one event leads to or produces another &mdash; correctly showing the soil concentration drop as the result of the plant&apos;s absorption. &#10003;</li><li><strong>Choice C &mdash; 'In addition'</strong>: treats both clauses as separate, unrelated facts rather than cause and effect. &#10007;</li><li><strong>Choice D &mdash; 'Nevertheless'</strong>: signals contradiction or contrast &mdash; the opposite of what the passage expresses. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "9f9439b4-1f8b-48cd-b607-fd0776fedebb_22",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage describes a cause-and-effect sequence: the plant absorbs and stores cadmium from the soil, and as a result, soil cadmium concentrations decrease. The transition must show that the second clause follows as a consequence of the first."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; specifically,</strong>: signals that the second clause is a specific instance of the first &mdash; but a drop in soil cadmium is a consequence, not a specific example of plant absorption. &#10007;</li><li><strong>Choice B &mdash; in turn,</strong>: signals that one event leads to or produces another &mdash; correctly showing the soil concentration drop as the result of the plant&apos;s absorption. &#10003;</li><li><strong>Choice C &mdash; in addition,</strong>: treats both clauses as separate, unrelated facts rather than cause and effect. &#10007;</li><li><strong>Choice D &mdash; nevertheless,</strong>: signals contradiction or contrast &mdash; the opposite of what the passage expresses. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

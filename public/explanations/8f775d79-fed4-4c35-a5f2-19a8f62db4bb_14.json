@@ -9,7 +9,7 @@
     },
     {
       "title": "Identify which factor gives x = 42",
-      "content": "The factored form gives two solutions. Either $x + b = 0$, so $x = -b$ (negative since $b > 0$), or $9x - 2a - 1 = 0$, so $x = \\frac{2a + 1}{9}$. Since $x = 42$ is a positive solution, it must satisfy the second equation:<br/>$$\\frac{2a + 1}{9} = 42$$"
+      "content": "The factored form gives two solutions. Either $x + b = 0$, so $x = -b$ (negative since $b \\gt 0$), or $9x - 2a - 1 = 0$, so $x = \\frac{2a + 1}{9}$. Since $x = 42$ is a positive solution, it must satisfy the second equation:<br/>$$\\frac{2a + 1}{9} = 42$$"
     },
     {
       "title": "Solve for a",

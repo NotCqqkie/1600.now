@@ -17,7 +17,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice A is exactly $9x+3y=141$. Choice B has the same left side but the wrong constant. Choices C and D switch the coefficients to $3x+9y$, which does not match the fitted line. Therefore <strong>A</strong> is correct."
+      "content": "Choice A (&lsquo;$9x+3y=141$&rsquo;) is exactly $9x+3y=141$. Choice B (&lsquo;$9x+3y=3$&rsquo;) has the same left side but the wrong constant. The other choices switch the coefficients to $3x+9y$, which does not match the fitted line. Therefore <strong>A</strong> is correct."
     }
   ]
 }

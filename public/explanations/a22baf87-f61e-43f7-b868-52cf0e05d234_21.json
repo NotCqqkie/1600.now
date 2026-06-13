@@ -13,7 +13,7 @@
     },
     {
       "title": "Match to the choices",
-      "content": "We need a form that displays $26$ as a coefficient or base.<ul><li>A) $80(2)^{x-2}+24(2)^{x-2}$ &mdash; equivalent, but $26$ does not appear; $f(0)=80/4+24/4=20+6=26$ is hidden.</li><li>B) $2(10(2)^{x}+3(2)^{x})$ &mdash; coefficients $2,10,3$; $26$ is not displayed.</li><li>C) $20(4)^{x/2}+6(4)^{x/2}$ &mdash; uses base $4$; $26$ is not displayed.</li><li>D) $26(2)^{x}$ &mdash; the coefficient $26$ is exactly the y-intercept.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "content": "We need a form that displays $26$ as a coefficient or base.<ul><li>A) ${80}(2)^{x-2}+24(2)^{x-2}$ &mdash; equivalent, but $26$ does not appear; $f(0)=80/4+24/4=20+6=26$ is hidden.</li><li>B) ${2}(10(2)^{x}+3(2)^{x})$ &mdash; coefficients $2,10,3$; $26$ is not displayed.</li><li>C) ${20}(4)^{x/2}+6(4)^{x/2}$ &mdash; uses base $4$; $26$ is not displayed.</li><li>D) ${26}(2)^{x}$ &mdash; the coefficient $26$ is exactly the y-intercept.</li></ul>That confirms <strong>D</strong> is correct."
     }
   ]
 }

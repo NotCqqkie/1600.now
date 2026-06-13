@@ -6,7 +6,7 @@
     "difficulty": "Easy",
     "question_number": 1,
     "test_name": "Module Source 211 Eng M2",
-    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nMany readers both young and old enjoyed and ______ Meg Medina’s book *Merci Suárez Changes Gears*, so it was not a surprise when the Association for Library Service to Children awarded it the Newbery Medal in 2019.",
+    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nMany readers both young and old enjoyed and ______ Meg Medina's book *Merci Suárez Changes Gears*, so it was not a surprise when the Association for Library Service to Children awarded it the Newbery Medal in 2019.",
     "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
     "choices": [
       {
@@ -38,7 +38,7 @@
     "difficulty": "Medium",
     "question_number": 2,
     "test_name": "Module Source 211 Eng M2",
-    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nOne challenge of generating electricity from ocean waves is that wave power isn’t ______: it varies in unpredictable ways that pose technological and planning problems for electricity generation.",
+    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nOne challenge of generating electricity from ocean waves is that wave power isn't ______: it varies in unpredictable ways that pose technological and planning problems for electricity generation.",
     "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
     "choices": [
       {
@@ -70,8 +70,8 @@
     "difficulty": "Easy",
     "question_number": 3,
     "test_name": "Module Source 211 Eng M2",
-    "passage": "As used in the text, what does the word “tip” most nearly mean?\nThe following text is from Jhumpa Lahiri’s 2003 novel *The Namesake*. Gogol, a child, is at a beach in Massachusetts with his father. He watches his father raise a kite within minutes into the wind, so high that Gogol must tip his head back in order to see, a rippling speck against the sky. The wind whips around their ears, turning their faces cold.\n©2003 by Jhumpa Lahiri",
-    "question_text": "As used in the text, what does the word “tip” most nearly mean?",
+    "passage": "As used in the text, what does the word \"tip\" most nearly mean?\nThe following text is from Jhumpa Lahiri's 2003 novel *The Namesake*. Gogol, a child, is at a beach in Massachusetts with his father. He watches his father raise a kite within minutes into the wind, so high that Gogol must tip his head back in order to see, a rippling speck against the sky. The wind whips around their ears, turning their faces cold.\n©2003 by Jhumpa Lahiri",
+    "question_text": "As used in the text, what does the word \"tip\" most nearly mean?",
     "choices": [
       {
         "label": "A",
@@ -134,7 +134,7 @@
     "difficulty": "Medium",
     "question_number": 5,
     "test_name": "Module Source 211 Eng M2",
-    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nSome pieces of music might have many ______—the compositions of Harriet Ware can potentially be explained in as many ways as there are people to listen to them—and so as long as a listener’s reasoning isn’t absurd or the result of inattention, it is difficult to justify the claim that the listener has misunderstood the piece.",
+    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nSome pieces of music might have many ______—the compositions of Harriet Ware can potentially be explained in as many ways as there are people to listen to them—and so as long as a listener's reasoning isn't absurd or the result of inattention, it is difficult to justify the claim that the listener has misunderstood the piece.",
     "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
     "choices": [
       {
@@ -198,7 +198,7 @@
     "difficulty": "Medium",
     "question_number": 7,
     "test_name": "Module Source 211 Eng M2",
-    "passage": "Which choice best states the main purpose of the text?\nThe following text is from Anne Spencer’s 1922 poem “Translation.” We trekked into a far country,\nMy friend and I.\nOur deeper content was never spoken,\nBut each knew all the other said.\nHe told me how calm his soul was laid\nBy the lack of anvil and strife.\n“The wooing kestrel,” I said, “mutes his mating-note\nTo please the harmony of this sweet silence.”",
+    "passage": "Which choice best states the main purpose of the text?\nThe following text is from Anne Spencer's 1922 poem \"Translation.\" We trekked into a far country,\nMy friend and I.\nOur deeper content was never spoken,\nBut each knew all the other said.\nHe told me how calm his soul was laid\nBy the lack of anvil and strife.\n\"The wooing kestrel,\" I said, \"mutes his mating-note\nTo please the harmony of this sweet silence.\"",
     "question_text": "Which choice best states the main purpose of the text?",
     "choices": [
       {
@@ -207,11 +207,11 @@
       },
       {
         "label": "B",
-        "text": "It conveys the speaker’s awareness that she is both attracted to and repelled by nature."
+        "text": "It conveys the speaker's awareness that she is both attracted to and repelled by nature."
       },
       {
         "label": "C",
-        "text": "It describes differences between the speaker’s translation of a literary work and another translation of the same work."
+        "text": "It describes differences between the speaker's translation of a literary work and another translation of the same work."
       },
       {
         "label": "D",
@@ -230,7 +230,7 @@
     "difficulty": "Medium",
     "question_number": 8,
     "test_name": "Module Source 211 Eng M2",
-    "passage": "Both texts discuss research on which topic?\nText 1\nFrom about 985 CE to the early 1400s, when they mysteriously abandoned the region, Norse settlers occupied part of Greenland. Many researchers cite increasingly lower temperatures to explain why the Norse fled. The researchers reason that the Norse settlers arrived in the region while the climate was warm and were able to remain there until temperatures declined during the Little Ice Age, which occurred between the 14th and 19th centuries.\nText 2\nWilliam Daniels, Boyang Zhao, and colleagues analyzed sediment samples from a lake in Greenland close to the Norse settlement. This allowed them to reconstruct the area’s climate history. The researchers found no evidence of substantial temperature changes during the settlement period. They argue that instead the region experienced a persistent drought, which played a more important role in forcing the Norse out of the area than did increasingly lower temperatures.",
+    "passage": "Both texts discuss research on which topic?\nText 1\nFrom about 985 CE to the early 1400s, when they mysteriously abandoned the region, Norse settlers occupied part of Greenland. Many researchers cite increasingly lower temperatures to explain why the Norse fled. The researchers reason that the Norse settlers arrived in the region while the climate was warm and were able to remain there until temperatures declined during the Little Ice Age, which occurred between the 14th and 19th centuries.\nText 2\nWilliam Daniels, Boyang Zhao, and colleagues analyzed sediment samples from a lake in Greenland close to the Norse settlement. This allowed them to reconstruct the area's climate history. The researchers found no evidence of substantial temperature changes during the settlement period. They argue that instead the region experienced a persistent drought, which played a more important role in forcing the Norse out of the area than did increasingly lower temperatures.",
     "question_text": "Both texts discuss research on which topic?",
     "choices": [
       {
@@ -262,7 +262,7 @@
     "difficulty": "Medium",
     "question_number": 9,
     "test_name": "Module Source 211 Eng M2",
-    "passage": "According to the text, how do historians view pachuca style?\nDuring the World War II era, some Mexican American women adopted a striking new look called *pachuca style*. They wore altered men’s jackets or zoot suits (wide-legged, long-coated suits) and dramatic makeup, and they combed their hair into high, rounded shapes. Some people criticized *pachuca style*, saying it was dangerous and women should dress traditionally. But historians see things differently. They see *pachuca style* as a form of rebellion against the era’s rigid social expectations for women. They say that it showed a desire for self-expression and freedom on the part of women who adopted the style.",
+    "passage": "According to the text, how do historians view pachuca style?\nDuring the World War II era, some Mexican American women adopted a striking new look called *pachuca style*. They wore altered men's jackets or zoot suits (wide-legged, long-coated suits) and dramatic makeup, and they combed their hair into high, rounded shapes. Some people criticized *pachuca style*, saying it was dangerous and women should dress traditionally. But historians see things differently. They see *pachuca style* as a form of rebellion against the era's rigid social expectations for women. They say that it showed a desire for self-expression and freedom on the part of women who adopted the style.",
     "question_text": "According to the text, how do historians view pachuca style?",
     "choices": [
       {
@@ -294,7 +294,7 @@
     "difficulty": "Medium",
     "question_number": 10,
     "test_name": "Module Source 211 Eng M2",
-    "passage": "Which choice best states the main idea of the text?\nCommunity science involves professional scientists collaborating with members of the public to study a topic. This approach to research can promote community engagement by building youth confidence in the sciences. It’s also very effective because it greatly increases the amount of data that can be collected, such as when biologist Abbigail Merrill and colleagues studied how butterfly color relates to flower choice and used findings reported by hundreds of students and community members in northwestern Arkansas.",
+    "passage": "Which choice best states the main idea of the text?\nCommunity science involves professional scientists collaborating with members of the public to study a topic. This approach to research can promote community engagement by building youth confidence in the sciences. It's also very effective because it greatly increases the amount of data that can be collected, such as when biologist Abbigail Merrill and colleagues studied how butterfly color relates to flower choice and used findings reported by hundreds of students and community members in northwestern Arkansas.",
     "question_text": "Which choice best states the main idea of the text?",
     "choices": [
       {
@@ -303,7 +303,7 @@
       },
       {
         "label": "B",
-        "text": "A community science approach can benefit communities by increasing youth confidence in learning science, but it’s less likely to help researchers obtain accurate data."
+        "text": "A community science approach can benefit communities by increasing youth confidence in learning science, but it's less likely to help researchers obtain accurate data."
       },
       {
         "label": "C",
@@ -311,7 +311,7 @@
       },
       {
         "label": "D",
-        "text": "A community science approach allows researchers to collect significantly more data even though it’s unlikely to have much of an effect on youth confidence in learning science."
+        "text": "A community science approach allows researchers to collect significantly more data even though it's unlikely to have much of an effect on youth confidence in learning science."
       }
     ],
     "is_fill_in_blank": false,
@@ -326,7 +326,7 @@
     "difficulty": "Easy",
     "question_number": 11,
     "test_name": "Module Source 211 Eng M2",
-    "passage": "Which choice most effectively uses data from the graph to complete the statement?\nThe US Department of Agriculture’s *Fruit and Tree Nuts Outlook* is a document that covers a variety of subjects, from the influence of changing climate on agricultural production to the effect of stinkbug damage on pear crops. A student studying agricultural economics is consulting a graph in the document that shows the prices for which several types of nuts have been sold by growers in the United States over four growing seasons from 2016 to 2020. The student wishes to determine in which season hazelnuts reached their highest price. Consulting the graph, the student finds that this season was the ______",
+    "passage": "Which choice most effectively uses data from the graph to complete the statement?\nThe US Department of Agriculture's *Fruit and Tree Nuts Outlook* is a document that covers a variety of subjects, from the influence of changing climate on agricultural production to the effect of stinkbug damage on pear crops. A student studying agricultural economics is consulting a graph in the document that shows the prices for which several types of nuts have been sold by growers in the United States over four growing seasons from 2016 to 2020. The student wishes to determine in which season hazelnuts reached their highest price. Consulting the graph, the student finds that this season was the ______",
     "question_text": "Which choice most effectively uses data from the graph to complete the statement?",
     "choices": [
       {
@@ -365,24 +365,24 @@
     "difficulty": "Medium",
     "question_number": 12,
     "test_name": "Module Source 211 Eng M2",
-    "passage": "Which quotation from a historian best supports the student’s claim?\nA student is writing a research paper on the history of irrigation in the southwestern United States, situating the development of the Bear River Reservoir (a man-made body of water created in Amador County, California, in 1900) in a larger historical context. The student claims that some modern-day irrigation methods used in southwestern states, such as California, Arizona, and New Mexico, have a lineage that long predates the completion of the Bear River Reservoir.",
-    "question_text": "Which quotation from a historian best supports the student’s claim?",
+    "passage": "Which quotation from a historian best supports the student's claim?\nA student is writing a research paper on the history of irrigation in the southwestern United States, situating the development of the Bear River Reservoir (a man-made body of water created in Amador County, California, in 1900) in a larger historical context. The student claims that some modern-day irrigation methods used in southwestern states, such as California, Arizona, and New Mexico, have a lineage that long predates the completion of the Bear River Reservoir.",
+    "question_text": "Which quotation from a historian best supports the student's claim?",
     "choices": [
       {
         "label": "A",
-        "text": "“In the decades following the Second World War, irrigation of arid areas for agriculture increased to such a degree that it now accounts for roughly 70% of the world’s water usage.”"
+        "text": "\"In the decades following the Second World War, irrigation of arid areas for agriculture increased to such a degree that it now accounts for roughly 70% of the world's water usage.\""
       },
       {
         "label": "B",
-        "text": "“The importance of the development of irrigation infrastructure in the American Southwest today cannot be overstated, since it is the most common means of conveying water for food production.”"
+        "text": "\"The importance of the development of irrigation infrastructure in the American Southwest today cannot be overstated, since it is the most common means of conveying water for food production.\""
       },
       {
         "label": "C",
-        "text": "“Sprinkler irrigation systems, which were developed in the late 20th century, are a convenient technique of irrigating that makes use of machinery in order to spray water in all directions. Many areas of the Southwestern United States are currently irrigated by this method.”"
+        "text": "\"Sprinkler irrigation systems, which were developed in the late 20th century, are a convenient technique of irrigating that makes use of machinery in order to spray water in all directions. Many areas of the Southwestern United States are currently irrigated by this method.\""
       },
       {
         "label": "D",
-        "text": "“The irrigation system developed by the Hohokam people in what is now central Arizona in the 7th century CE was simple but made use of hydraulic engineering design principles that are still utilized by today’s engineers.”"
+        "text": "\"The irrigation system developed by the Hohokam people in what is now central Arizona in the 7th century CE was simple but made use of hydraulic engineering design principles that are still utilized by today's engineers.\""
       }
     ],
     "is_fill_in_blank": false,
@@ -397,8 +397,8 @@
     "difficulty": "Hard",
     "question_number": 13,
     "test_name": "Module Source 211 Eng M2",
-    "passage": "Which finding, if true, would most directly support Valerio and colleagues’ conclusion?\nEastern Maine’s Washington County is among the most rural counties in the United States: the US Census Bureau classified it as 92.4% rural in 2010. Researchers have struggled to recruit residents of counties like Washington for inclusion in studies. Noting this problem, Melissa Valerio and colleagues tested two recruitment techniques in rural counties: purposive sampling, in which researchers contact many potential participants who have the characteristics desired for a given study, and snowball sampling, in which researchers recruit a few people with the desired characteristics and ask them to recruit additional participants. Valerio and colleagues concluded that the latter approach may be superior.",
-    "question_text": "Which finding, if true, would most directly support Valerio and colleagues’ conclusion?",
+    "passage": "Which finding, if true, would most directly support Valerio and colleagues' conclusion?\nEastern Maine's Washington County is among the most rural counties in the United States: the US Census Bureau classified it as 92.4% rural in 2010. Researchers have struggled to recruit residents of counties like Washington for inclusion in studies. Noting this problem, Melissa Valerio and colleagues tested two recruitment techniques in rural counties: purposive sampling, in which researchers contact many potential participants who have the characteristics desired for a given study, and snowball sampling, in which researchers recruit a few people with the desired characteristics and ask them to recruit additional participants. Valerio and colleagues concluded that the latter approach may be superior.",
+    "question_text": "Which finding, if true, would most directly support Valerio and colleagues' conclusion?",
     "choices": [
       {
         "label": "A",
@@ -406,7 +406,7 @@
       },
       {
         "label": "B",
-        "text": "Snowball sampling yielded significantly more participants than would be expected if researchers contacted people without regard to those people’s characteristics."
+        "text": "Snowball sampling yielded significantly more participants than would be expected if researchers contacted people without regard to those people's characteristics."
       },
       {
         "label": "C",
@@ -429,7 +429,7 @@
     "difficulty": "Medium",
     "question_number": 14,
     "test_name": "Module Source 211 Eng M2",
-    "passage": "Which choice most logically completes the text?\nLouis-Ferdinand Céline’s 1932 novel *Journey to the End of the Night* contains elements drawn from Céline’s own life—there are many parallels between the experiences of the novel’s protagonist, Ferdinand Bardamu, and those of Céline—and as a result *Journey to the End of the Night* is regularly described as an autobiographical novel. This characterization can be useful, but it also presents drawbacks in terms of how the work is perceived, as it may lead readers to believe that Céline merely fictionalized true events, which, in an artistic field where creativity and inventiveness are prized, can suggest that ______",
+    "passage": "Which choice most logically completes the text?\nLouis-Ferdinand Céline's 1932 novel *Journey to the End of the Night* contains elements drawn from Céline's own life—there are many parallels between the experiences of the novel's protagonist, Ferdinand Bardamu, and those of Céline—and as a result *Journey to the End of the Night* is regularly described as an autobiographical novel. This characterization can be useful, but it also presents drawbacks in terms of how the work is perceived, as it may lead readers to believe that Céline merely fictionalized true events, which, in an artistic field where creativity and inventiveness are prized, can suggest that ______",
     "question_text": "Which choice most logically completes the text?",
     "choices": [
       {
@@ -493,7 +493,7 @@
     "difficulty": "Medium",
     "question_number": 16,
     "test_name": "Module Source 211 Eng M2",
-    "passage": "Which choice most logically completes the text?\nIn recent years, architects have heightened their focus on developing eco-conscious and sustainable buildings, as exemplified by Wendy House, a structure conceived by Earthscape Studio. One way to accomplish this goal is through biophilic design, which seeks to augment occupants’ emotional and physical well-being by establishing a coherent relationship among the building, nature, and human biology. Along with using ecologically sensitive construction materials, biophilic designs incorporate organic or biomorphic forms and textures. Curves, therefore, are common design features because they ______",
+    "passage": "Which choice most logically completes the text?\nIn recent years, architects have heightened their focus on developing eco-conscious and sustainable buildings, as exemplified by Wendy House, a structure conceived by Earthscape Studio. One way to accomplish this goal is through biophilic design, which seeks to augment occupants' emotional and physical well-being by establishing a coherent relationship among the building, nature, and human biology. Along with using ecologically sensitive construction materials, biophilic designs incorporate organic or biomorphic forms and textures. Curves, therefore, are common design features because they ______",
     "question_text": "Which choice most logically completes the text?",
     "choices": [
       {
@@ -621,7 +621,7 @@
     "difficulty": "Easy",
     "question_number": 20,
     "test_name": "Module Source 211 Eng M2",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nMany ranching terms come from Spanish. The word “mustang” (a wild horse) comes from the Spanish word *mesteñas*, and “rodeo” (a ______ comes from *rodear*. This is because the first Anglo, African, and Native American cattle ranchers in the southwestern US learned the trade from Spanish-speaking Mexican *vaqueros*, or cowboys.",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nMany ranching terms come from Spanish. The word \"mustang\" (a wild horse) comes from the Spanish word *mesteñas*, and \"rodeo\" (a ______ comes from *rodear*. This is because the first Anglo, African, and Native American cattle ranchers in the southwestern US learned the trade from Spanish-speaking Mexican *vaqueros*, or cowboys.",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {
@@ -653,7 +653,7 @@
     "difficulty": "Hard",
     "question_number": 21,
     "test_name": "Module Source 211 Eng M2",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nExemplars of Stigler’s law ______ there is Cartesian duality; in mathematics, Euler’s formula; and in fluid mechanics, the Reynolds number. All the aforementioned share the trait of being named after individuals who were not their initial discoverers or inventors.",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nExemplars of Stigler's law ______ there is Cartesian duality; in mathematics, Euler's formula; and in fluid mechanics, the Reynolds number. All the aforementioned share the trait of being named after individuals who were not their initial discoverers or inventors.",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {
@@ -685,7 +685,7 @@
     "difficulty": "Easy",
     "question_number": 22,
     "test_name": "Module Source 211 Eng M2",
-    "passage": "Which choice completes the text with the most logical transition?\nKBFT is a Native-run radio station broadcasting from the Bois Forte Band of Chippewa’s lands in Minnesota. In 2004, Loris Taylor wanted to make sure that stations like KBFT continued to thrive. ______ she founded Native Public Media, a support system for Native radio stations that now includes around sixty stations.",
+    "passage": "Which choice completes the text with the most logical transition?\nKBFT is a Native-run radio station broadcasting from the Bois Forte Band of Chippewa's lands in Minnesota. In 2004, Loris Taylor wanted to make sure that stations like KBFT continued to thrive. ______ she founded Native Public Media, a support system for Native radio stations that now includes around sixty stations.",
     "question_text": "Which choice completes the text with the most logical transition?",
     "choices": [
       {
@@ -717,7 +717,7 @@
     "difficulty": "Medium",
     "question_number": 23,
     "test_name": "Module Source 211 Eng M2",
-    "passage": "Which choice completes the text with the most logical transition?\nAs anthropologist Cristina Grasseni explains, with the rise in demand for artisanal cheeses claiming to be typical of specific Italian regions, such as *Mozzarella di Bufala Campana* cheese from Molise, came the need to guarantee the veracity of such claims to consumers. ______ the European Union established DOP status, a label certifying that the cheese was made according to the region’s local traditions.",
+    "passage": "Which choice completes the text with the most logical transition?\nAs anthropologist Cristina Grasseni explains, with the rise in demand for artisanal cheeses claiming to be typical of specific Italian regions, such as *Mozzarella di Bufala Campana* cheese from Molise, came the need to guarantee the veracity of such claims to consumers. ______ the European Union established DOP status, a label certifying that the cheese was made according to the region's local traditions.",
     "question_text": "Which choice completes the text with the most logical transition?",
     "choices": [
       {
@@ -749,7 +749,7 @@
     "difficulty": "Medium",
     "question_number": 24,
     "test_name": "Module Source 211 Eng M2",
-    "passage": "Which choice completes the text with the most logical transition?\nGiovanna Giardino is a space scientist who works on the James Webb Space Telescope, or JWST. Thanks in part to Giardino’s contributions, the telescope is now positioned near the Sun-Earth L2 Lagrange point, almost one million miles beyond Earth’s orbit. ______ the JWST’s predecessor, the Hubble Telescope, is only about 340 miles above Earth’s surface.",
+    "passage": "Which choice completes the text with the most logical transition?\nGiovanna Giardino is a space scientist who works on the James Webb Space Telescope, or JWST. Thanks in part to Giardino's contributions, the telescope is now positioned near the Sun-Earth L2 Lagrange point, almost one million miles beyond Earth's orbit. ______ the JWST's predecessor, the Hubble Telescope, is only about 340 miles above Earth's surface.",
     "question_text": "Which choice completes the text with the most logical transition?",
     "choices": [
       {
@@ -813,16 +813,16 @@
     "difficulty": "Medium",
     "question_number": 26,
     "test_name": "Module Source 211 Eng M2",
-    "passage": "The student wants to emphasize a difference between the two sculptures. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• *Don’t Cry Over Spilt Milk* is a 2021 sculpture by British artist Eve De Haan.\n• It is crafted from blue neon lighting that spells out the title phrase (“don’t cry over spilt milk”).\n• *Ginger* is a 2023 sculpture by Japanese artist Rikako Kawauchi.\n• It is crafted from pink neon lighting that forms an abstract squiggle shape.",
+    "passage": "The student wants to emphasize a difference between the two sculptures. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• *Don't Cry Over Spilt Milk* is a 2021 sculpture by British artist Eve De Haan.\n• It is crafted from blue neon lighting that spells out the title phrase (\"don't cry over spilt milk\").\n• *Ginger* is a 2023 sculpture by Japanese artist Rikako Kawauchi.\n• It is crafted from pink neon lighting that forms an abstract squiggle shape.",
     "question_text": "The student wants to emphasize a difference between the two sculptures. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
     "choices": [
       {
         "label": "A",
-        "text": "*Don’t Cry Over Spilt Milk*, like *Ginger*, is a sculpture."
+        "text": "*Don't Cry Over Spilt Milk*, like *Ginger*, is a sculpture."
       },
       {
         "label": "B",
-        "text": "Both De Haan’s and Kawauchi’s sculptures are crafted from neon lighting."
+        "text": "Both De Haan's and Kawauchi's sculptures are crafted from neon lighting."
       },
       {
         "label": "C",
@@ -830,7 +830,7 @@
       },
       {
         "label": "D",
-        "text": "Unlike De Haan’s sculpture, which spells out a phrase, Kawauchi’s is an abstract squiggle shape."
+        "text": "Unlike De Haan's sculpture, which spells out a phrase, Kawauchi's is an abstract squiggle shape."
       }
     ],
     "is_fill_in_blank": false,

@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the answer",
-      "content": "The slope of $y=t(x)$ is $8$, which matches choice <strong>D</strong>. The hand calculation agrees: $\\dfrac{34-(-6)}{4-(-1)}=\\dfrac{40}{5}=8$."
+      "content": "The slope of $y=t(x)$ is $8$, which matches the correct answer. The hand calculation agrees: $\\dfrac{34-(-6)}{4-(-1)}=\\dfrac{40}{5}=8$."
     }
   ]
 }

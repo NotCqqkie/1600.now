@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; $y = 9x + 8$</strong>: adds 8, which shifts the graph <em>up</em> 8 units. &#10007;</li><li><strong>Choice B &mdash; $y = 9x - 8$</strong>: subtracts 8 from the constant term &mdash; a vertical shift down 8 units. &#10003;</li><li><strong>Choice C &mdash; $y = 9(x + 8)$</strong>: rewrites as $y = 9x + 72$, which creates a horizontal shift to the left and a large vertical offset. &#10007;</li><li><strong>Choice D &mdash; $y = 9(x - 8)$</strong>: rewrites as $y = 9x - 72$, a horizontal shift right. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "<ul><li><strong>Choice A — $y = 9x + 8$</strong>: adds 8, which shifts the graph <em>up</em> 8 units. &#10007;</li><li><strong>Choice B — $y = 9x - 8$</strong>: subtracts 8 from the constant term &mdash; a vertical shift down 8 units. &#10003;</li><li><strong>Choice C — $y = 9(x + 8)$</strong>: rewrites as $y = 9x + 72$, which creates a horizontal shift to the left and a large vertical offset. &#10007;</li><li><strong>Choice D — $y = 9(x - 8)$</strong>: rewrites as $y = 9x - 72$, a horizontal shift right. &#10007;</li></ul><strong>B</strong> is correct."
     }
   ]
 }

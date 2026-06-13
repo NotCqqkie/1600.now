@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice C is $80$, so it is correct. Choice A forgets to add $30$, choice B adds $25+2+30$, and choice D multiplies the sum $25+30$ by $2$."
+      "content": "$80$ is correct. Forgetting to add $30$, adding $25+2+30$, or multiplying the sum $25+30$ by $2$ gives a different value because the function requires multiplying $25$ by the input before adding $30$."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId": "cea66aee-3a10-4bb9-b653-46ec49321824_27", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the goal", "content": "The goal is to “emphasize the umami intensity of ma-konbu”—so the response must directly state that ma-konbu possesses strong umami, not define umami in general or describe ma-konbu's origin."}, {"title": "Select the choice that directly emphasizes umami intensity", "content": "D states that participants found ma-konbu's umami intensity to be high.<ul><li>A defines umami without mentioning ma-konbu</li><li>B focuses on geographic origin</li><li>C names ma-konbu as a source without establishing its intensity as high</li></ul>.<br/><br/>This direct statement of ma-konbu's high umami intensity matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "cea66aee-3a10-4bb9-b653-46ec49321824_27",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the goal",
+      "content": "The goal is to “emphasize the umami intensity of ma-konbu”—so the response must directly state that ma-konbu possesses strong umami, not define umami in general or describe ma-konbu's origin."
+    },
+    {
+      "title": "Select the choice that directly emphasizes umami intensity",
+      "content": "D states that participants found ma-konbu's umami intensity to be high.<ul><li>A defines umami without mentioning ma-konbu</li><li>B focuses on geographic origin</li><li>C names ma-konbu as a source without establishing its intensity as high</li></ul>.<br/><br/>This direct statement of ma-konbu's high umami intensity is the correct answer."
+    }
+  ]
+}

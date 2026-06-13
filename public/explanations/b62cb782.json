@@ -1,4 +1,15 @@
-{"questionId": "b62cb782", "correctAnswer": "A", "section": "Reading and Writing", "steps": [
-  {"title": "Identify what the question needs", "content": "This is a Central Ideas and Details question. The task is to find the choice that best captures the main idea of the whole passage &mdash; not a supporting detail, not a misrepresentation, but the central claim the author is making."},
-  {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'Smart-Grosvenor&rsquo;s unconventional book Vibration Cooking is an important contribution to food writing.'</strong>: The passage calls the book her &ldquo;most influential project,&rdquo; calls it &ldquo;unusual for its time,&rdquo; and says it &ldquo;shaped contemporary approaches to writing about cuisine.&rdquo; Both &ldquo;unconventional&rdquo; and &ldquo;important contribution to food writing&rdquo; are directly supported. &#10003;</li><li><strong>Choice B &mdash; 'Smart-Grosvenor held many different positions over her life, including reporter and food writer.'</strong>: The passage mentions her TV and radio work only to downplay it (&ldquo;may be known for&rdquo;) before pivoting to the book. Listing her jobs is not the main idea. &#10007;</li><li><strong>Choice C &mdash; 'Smart-Grosvenor&rsquo;s groundbreaking book didn&rsquo;t receive the praise it deserved when first published in 1970.'</strong>: The passage explicitly states it is &ldquo;long admired by many.&rdquo; The claim of under-appreciation is directly contradicted. &#10007;</li><li><strong>Choice D &mdash; 'Smart-Grosvenor was a talented chef whose work inspired many people to start cooking for themselves.'</strong>: The passage calls her a culinary anthropologist, not a chef, and says her book influenced food writing discourse &mdash; not home cooking. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}
-]}
+{
+  "questionId": "b62cb782",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a Central Ideas and Details question. The task is to find the choice that best captures the main idea of the whole passage &mdash; not a supporting detail, not a misrepresentation, but the central claim the author is making."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Smart-Grosvenor's unconventional book <em>Vibration Cooking: or, the Travel Notes of a Geechee Girl</em> is an important contribution to food writing.</strong>: The passage calls the book her &ldquo;most influential project,&rdquo; calls it &ldquo;unusual for its time,&rdquo; and says it &ldquo;shaped contemporary approaches to writing about cuisine.&rdquo; Both &ldquo;unconventional&rdquo; and &ldquo;important contribution to food writing&rdquo; are directly supported. &#10003;</li><li><strong>Choice B &mdash; Smart-Grosvenor held many different positions over her life, including reporter and food writer.</strong>: The passage mentions her TV and radio work only to downplay it (&ldquo;may be known for&rdquo;) before pivoting to the book. Listing her jobs is not the main idea. &#10007;</li><li><strong>Choice C &mdash; Smart-Grosvenor's groundbreaking book <em>Vibration Cooking: or, the Travel Notes of a Geechee Girl</em> didn't receive the praise it deserved when it was first published in 1970.</strong>: The passage explicitly states it is &ldquo;long admired by many.&rdquo; The claim of under-appreciation is directly contradicted. &#10007;</li><li><strong>Choice D &mdash; Smart-Grosvenor was a talented chef whose work inspired many people to start cooking for themselves.</strong>: The passage calls her a culinary anthropologist, not a chef, and says her book influenced food writing discourse &mdash; not home cooking. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply area scaling and compute the new area",
-      "content": "When all linear dimensions scale by factor k, area scales by k². With k = 1.4:<br/>$$\\text{Area scale factor} = (1.4)^2 = 1.96$$<br/>$$\\text{New area} = 3,500 \\times 1.96 = 6,860 \\text{ square inches}$$<br/>That matches choice A — <strong>A</strong> is correct.",
+      "content": "When all linear dimensions scale by factor k, area scales by k². With k = 1.4:<br/>$$\\text{Area scale factor} = (1.4)^2 = 1.96$$<br/>$$\\text{New area} = 3,500 \\times 1.96 = 6,860 \\text{ square inches}$$<br/>That confirms <strong>A</strong> is correct.",
       "formula": "$$\\text{Area}_{\\text{new}} = \\text{Area}_{\\text{original}} \\times k^2$$"
     }
   ]

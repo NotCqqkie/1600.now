@@ -9,11 +9,11 @@
     },
     {
       "title": "Apply the parallel-lines condition",
-      "content": "Parallel lines have equal slopes and different y-intercepts. So the slope of line $t$ must equal 7. Test each choice as a possible slope of line $t$:<br/><ul><li><strong>Choice A &mdash; $-16$</strong>: This is the y-intercept of line $s$, not its slope. Slope $-16 \\neq 7$. &#10007;</li><li><strong>Choice B &mdash; $-7$</strong>: Slope $-7 \\neq 7$. A line with slope $-7$ would be perpendicular in sign but not parallel. &#10007;</li><li><strong>Choice C &mdash; $7$</strong>: Slope $7 = 7$. Matches the slope of line $s$. &#10003;</li><li><strong>Choice D &mdash; $16$</strong>: Slope $16 \\neq 7$. &#10007;</li></ul>"
+      "content": "Parallel lines have equal slopes and different y-intercepts. So the slope of line $t$ must equal 7. Test each choice as a possible slope of line $t$:<br/><ul><li><strong>\"$-16$\"</strong>: This is the y-intercept of line $s$, not its slope. Slope $-16 \\neq 7$. &#10007;</li><li><strong>\"$-7$\"</strong>: Slope $-7 \\neq 7$. A line with slope $-7$ would be perpendicular in sign but not parallel. &#10007;</li><li><strong>\"$7$\"</strong>: Slope $7 = 7$. Matches the slope of line $s$. &#10003;</li><li><strong>\"$16$\"</strong>: Slope $16 \\neq 7$. &#10007;</li></ul>"
     },
     {
       "title": "Conclusion",
-      "content": "The slope of any line parallel to $y = 7x - 16$ is 7. That matches choice C &mdash; <strong>C</strong> is correct."
+      "content": "The slope of any line parallel to $y = 7x - 16$ is 7. That matches the correct answer — <strong>C</strong> is correct."
     }
   ]
 }

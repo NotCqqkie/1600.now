@@ -13,11 +13,11 @@
     },
     {
       "title": "Test all four choices",
-      "content": "<ul><li><strong>Choice A &mdash; '26'</strong>: 26 + 64 = 90, not 180. This would only apply if a and 64&deg; were complementary. &#10007;</li><li><strong>Choice B &mdash; '64'</strong>: 64 would apply if a and 64&deg; were corresponding or alternate interior angles (equal). But a&deg; is the supplement of the corresponding angle, not the corresponding angle itself. &#10007;</li><li><strong>Choice C &mdash; '116'</strong>: 116 + 64 = 180. Linear pair angles are supplementary. &#10003;</li><li><strong>Choice D &mdash; '154'</strong>: 154 + 64 = 218 &ne; 180. &#10007;</li></ul>"
+      "content": "<ul><li><strong>Choice A &mdash; 26</strong>: 26 + 64 = 90, not 180. This would only apply if a and 64&deg; were complementary. &#10007;</li><li><strong>Choice B &mdash; 64</strong>: 64 would apply if a and 64&deg; were corresponding or alternate interior angles (equal). But a&deg; is the supplement of the corresponding angle, not the corresponding angle itself. &#10007;</li><li><strong>Choice C &mdash; 116</strong>: 116 + 64 = 180. Linear pair angles are supplementary. &#10003;</li><li><strong>Choice D &mdash; 154</strong>: 154 + 64 = 218 &ne; 180. &#10007;</li></ul>"
     },
     {
       "title": "Conclusion",
-      "content": "The corresponding angle to 64&deg; also measures 64&deg;, and a&deg; is its linear pair supplement: a = 180 &minus; 64 = 116. That matches choice C &mdash; <strong>C</strong> is correct."
+      "content": "The corresponding angle to 64&deg; also measures 64&deg;, and a&deg; is its linear pair supplement: a = 180 &minus; 64 = 116. That confirms <strong>C</strong> is correct."
     }
   ]
 }

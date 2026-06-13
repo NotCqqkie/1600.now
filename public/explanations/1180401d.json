@@ -9,7 +9,7 @@
     },
     {
       "title": "Calculate population density",
-      "content": "Divide population by land area: <br/> $$\\frac{621,000}{80.8} \\approx 7,687 \\text{ people per square mile}$$<br/>This is closest to choice B — <strong>B</strong> is correct.",
+      "content": "Divide population by land area: <br/> $$\\frac{621,000}{80.8} \\approx 7,687 \\text{ people per square mile}$$<br/>This is closest to <strong>Choice B &mdash; 7,690</strong> is correct.",
       "formula": "$$\\text{Population density} = \\frac{\\text{Population}}{\\text{Land area}}$$"
     }
   ]

@@ -9,7 +9,7 @@
     },
     {
       "title": "Compare each choice to the given equation",
-      "content": "<ul><li><strong>Choice A &mdash; '$m = \\\\frac{6(n+p)}{11}$'</strong>: Divides by 11, which is not in the original equation. &#10007;</li><li><strong>Choice B &mdash; '$m = 6(n + p)$'</strong>: Identical to the given equation. &#10003;</li><li><strong>Choice C &mdash; '$m = 6(n + p) - 11$'</strong>: Subtracts 11, which is not in the original equation. &#10007;</li><li><strong>Choice D &mdash; '$m = 6 - n - p - 11$'</strong>: Completely changes the structure; distributes incorrectly and subtracts extra terms. &#10007;</li></ul>That matches choice B — <strong>B</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; $m = \\frac{6(n+p)}{11}$</strong>: Divides by 11, which is not in the original equation. &#10007;</li><li><strong>Choice B &mdash; $m = 6(n + p)$</strong>: Identical to the given equation. &#10003;</li><li><strong>Choice C &mdash; $m = 6(n + p) - 11$</strong>: Subtracts 11, which is not in the original equation. &#10007;</li><li><strong>Choice D &mdash; $m = 6 - n - p - 11$</strong>: Completely changes the structure; distributes incorrectly and subtracts extra terms. &#10007;</li></ul>That matches <strong>Choice B &mdash; $m = 6(n + p)$</strong>."
     }
   ]
 }

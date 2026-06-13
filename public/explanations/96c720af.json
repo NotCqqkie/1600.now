@@ -1,1 +1,15 @@
-{"questionId": "96c720af", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the tense pattern", "content": "The sentence uses two present tense verbs: atoms <strong>travel</strong> faster and faster, and they <strong>are diverted</strong> to collide with a target. The blank sits inside a temporal &ldquo;until&rdquo; clause and must be consistent with this present-tense pattern describing a recurring process."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; &lsquo;will reach&rsquo;</strong>: Future tense. Violates tense consistency &mdash; mixing future tense with the present tense verbs <em>travel</em> and <em>are diverted</em> creates a logical inconsistency. &#10007;</li><li><strong>Choice B &mdash; &lsquo;reach&rsquo;</strong>: Simple present tense. Matches <em>travel</em> and <em>are diverted</em>, correctly describing the recurring condition atoms must meet. &#10003;</li><li><strong>Choice C &mdash; &lsquo;had reached&rsquo;</strong>: Past perfect tense. Violates tense consistency &mdash; shifts the clause into the past, inconsistent with the present tense context. &#10007;</li><li><strong>Choice D &mdash; &lsquo;are reaching&rsquo;</strong>: Present progressive tense. Violates tense consistency &mdash; suggests an action currently in progress rather than a general recurring condition, inconsistent with the simple present verbs in the sentence. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "96c720af",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the tense pattern",
+      "content": "The sentence uses two present tense verbs: atoms <strong>travel</strong> faster and faster, and they <strong>are diverted</strong> to collide with a target. The blank sits inside a temporal &ldquo;until&rdquo; clause and must be consistent with this present-tense pattern describing a recurring process."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; will reach</strong>: Future tense. Violates tense consistency &mdash; mixing future tense with the present tense verbs <em>travel</em> and <em>are diverted</em> creates a logical inconsistency. &#10007;</li><li><strong>Choice B &mdash; reach</strong>: Simple present tense. Matches <em>travel</em> and <em>are diverted</em>, correctly describing the recurring condition atoms must meet. &#10003;</li><li><strong>Choice C &mdash; had reached</strong>: Past perfect tense. Violates tense consistency &mdash; shifts the clause into the past, inconsistent with the present tense context. &#10007;</li><li><strong>Choice D &mdash; are reaching</strong>: Present progressive tense. Violates tense consistency &mdash; suggests an action currently in progress rather than a general recurring condition, inconsistent with the simple present verbs in the sentence. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

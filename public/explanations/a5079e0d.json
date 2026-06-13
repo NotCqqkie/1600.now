@@ -1,1 +1,15 @@
-{"questionId": "a5079e0d", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the clause structures", "content": "Before the blank: “The measurement is based on how much and how quickly weight can be moved” is an independent clause.<br/><br/>After the blank: “one unit of mechanical horsepower is equivalent to the amount of power it takes to lift 550 pounds one foot off the ground in one second” is an independent clause."}, {"title": "Apply the rule for joining independent clauses with a transition phrase", "content": "When two independent clauses are connected by a transition phrase, use a semicolon before the phrase and a comma after it (IC; for example, IC).<br/><br/>Choice C correctly applies this rule: “moved; for example,” properly joins the clauses while introducing the example.<br/><br/>The other choices fail this pattern—A and B use only a comma (comma splice), while D omits punctuation (run-on). <br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "a5079e0d",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the clause structures",
+      "content": "Before the blank: “The measurement is based on how much and how quickly weight can be moved” is an independent clause.<br/><br/>After the blank: “one unit of mechanical horsepower is equivalent to the amount of power it takes to lift 550 pounds one foot off the ground in one second” is an independent clause."
+    },
+    {
+      "title": "Apply the rule for joining independent clauses with a transition phrase",
+      "content": "When two independent clauses are connected by a transition phrase, use a semicolon before the phrase and a comma after it (IC; for example, IC).<br/><br/>The correct answer correctly applies this rule: “moved; for example,” properly joins the clauses while introducing the example.<br/><br/>The other choices fail this pattern—A and B use only a comma (comma splice), while D omits punctuation (run-on). <br/><br/>That is the correct answer."
+    }
+  ]
+}

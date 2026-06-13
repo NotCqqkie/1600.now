@@ -1,1 +1,15 @@
-{"questionId":"ec2ddee6-a98b-41ee-9169-7cea79c09b5c_9","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks what point the text makes specifically about *gogogs*. The answer must be directly stated in the passage, not inferred."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'It contains a repetition of the element \"go\" in *gogs*.'</strong>: The passage states explicitly: \"the element 'go' in *gogs* gets repeated in *gogogs*.\" This is a direct match. &#10003;</li><li><strong>Choice B &mdash; 'It doesn't have a clear equivalent in English.'</strong>: The passage never mentions English or any comparison to English. Not stated. &#10007;</li><li><strong>Choice C &mdash; 'It is the only word in O'odham that uses reduplication.'</strong>: The passage says the opposite — \"there are many examples of this type of reduplication in O'odham.\" &#10007;</li><li><strong>Choice D &mdash; 'It is identical in meaning to several other words in O'odham.'</strong>: *Gogogs* means \"several dogs\" — it is related to *gogs* (\"a dog\"), but the passage never claims it is identical in meaning to other O'odham words. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_9",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks what point the text makes specifically about *gogogs*. The answer must be directly stated in the passage, not inferred."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"It contains a repetition of the element \"go\" in *gogs*.\"</strong>: The passage states explicitly: \"the element 'go' in *gogs* gets repeated in *gogogs*.\" This is a direct match. &#10003;</li><li><strong>\"It doesn't have a clear equivalent in English.\"</strong>: The passage never mentions English or any comparison to English. Not stated. &#10007;</li><li><strong>The remaining alternative uses reduplication.\"</strong>: The passage says the opposite — \"there are many examples of this type of reduplication in O'odham.\" &#10007;</li><li><strong>\"It is identical in meaning to several other words in O'odham.\"</strong>: *Gogogs* means \"several dogs\" — it is related to *gogs* (\"a dog\"), but the passage never claims it is identical in meaning to other O'odham words. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+    }
+  ]
+}

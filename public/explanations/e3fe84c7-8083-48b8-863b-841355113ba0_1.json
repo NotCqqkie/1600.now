@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice A and choice C use slope $10$, and choice D swaps the $2$ and $8$. Choice B is $y=2x+8$, so <strong>B</strong> is correct."
+      "content": "<strong>$y=10x+2$</strong> and the remaining alternative use slope $10$, and the remaining alternative swaps the $2$ and $8$. The correct value is $y=2x+8$, so <strong>B</strong> is correct."
     }
   ]
 }

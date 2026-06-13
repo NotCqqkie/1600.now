@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li>Choice A: 2 &middot; 94 = 188 — this is a fraction of the perimeter (2 sides), not area. Eliminated.</li><li>Choice B: 2 &middot; 94 &middot; 94 — doubles the area; no geometric basis for the factor of 2. Eliminated.</li><li>Choice C: 4 &middot; 94 = 376 — this is the perimeter (4 sides), not area. Eliminated.</li><li>Choice D: 94 &middot; 94 — side times side, which is the correct area formula. That matches choice D — <strong>D</strong> is correct.</li></ul>That matches choice D — <strong>D</strong> is correct."
+      "content": "<ul><li><strong>$2·94$</strong> $2·94$ — this is a fraction of the perimeter (2 sides), not area. Eliminated.</li><li><strong>$2·94·94$</strong> $2·94·94$ — doubles the area; no geometric basis for the factor of 2. Eliminated.</li><li><strong>$4·94$</strong> $4·94$ — this is the perimeter (4 sides), not area. Eliminated.</li><li><strong>$94·94$</strong> $94·94$ — side times side, which is the correct area formula. That is the correct answer.</li></ul>"
     }
   ]
 }

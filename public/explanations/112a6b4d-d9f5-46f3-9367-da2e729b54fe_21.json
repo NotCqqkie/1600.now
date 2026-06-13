@@ -1,1 +1,15 @@
-{"questionId": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_21", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the structure around the blank", "content": "The sentence reads: &quot;claims ______ Valerie Trouet, can tell the history of the world.&quot; The blank falls between the verb &quot;claims&quot; and the full name &quot;Valerie Trouet.&quot; The word before the name is a professional title (dendrochronologist) that identifies who is making the claim. In standard English, a title used directly before a proper name functions like an appositive descriptor and takes no punctuation between the title and the name."}, {"title": "Eliminate each wrong choice", "content": "<ul><li><strong>Choice A &mdash; 'dendrochronologist:'</strong>: a colon after the title incorrectly separates the descriptor from the name it modifies. &#10007;</li><li><strong>Choice B &mdash; 'dendrochronologist,'</strong>: a comma between the professional title and the proper name it introduces is not standard usage. &#10007;</li><li><strong>Choice C &mdash; 'dendrochronologist&mdash;'</strong>: an em dash here creates an abrupt break that severs the title from the name it directly precedes. &#10007;</li><li><strong>Choice D &mdash; 'dendrochronologist'</strong>: no punctuation between the title and &quot;Valerie Trouet&quot; keeps the descriptor and name as a single unit, exactly as standard English requires. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_21",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the structure around the blank",
+      "content": "The sentence reads: &quot;claims ______ Valerie Trouet, can tell the history of the world.&quot; The blank falls between the verb &quot;claims&quot; and the full name &quot;Valerie Trouet.&quot; The word before the name is a professional title (dendrochronologist) that identifies who is making the claim. In standard English, a title used directly before a proper name functions like an appositive descriptor and takes no punctuation between the title and the name."
+    },
+    {
+      "title": "Eliminate each wrong choice",
+      "content": "<ul><li><strong>Choice A &mdash; dendrochronologist:</strong>: a colon after the title incorrectly separates the descriptor from the name it modifies. &#10007;</li><li><strong>Choice B &mdash; dendrochronologist,</strong>: a comma between the professional title and the proper name it introduces is not standard usage. &#10007;</li><li><strong>Choice C: dendrochronologist—</strong>: an em dash here creates an abrupt break that severs the title from the name it directly precedes. &#10007;</li><li><strong>Choice D &mdash; dendrochronologist</strong>: no punctuation between the title and &quot;Valerie Trouet&quot; keeps the descriptor and name as a single unit, exactly as standard English requires. &#10003;</li></ul>That matches <strong>Choice D &mdash; dendrochronologist</strong>."
+    }
+  ]
+}

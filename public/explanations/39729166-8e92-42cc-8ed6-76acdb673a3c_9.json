@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li><strong>A) $-6k + 17r - 6$:</strong> Matches our simplified expression exactly.</li><li><strong>B) $-6k + 17r + 6$:</strong> Wrong sign on the constant; subtracting $+6$ gives $-6$, not $+6$.</li><li><strong>C) $-6k - 7r + 6$:</strong> Wrong $r$ coefficient ($5r - (-12r) = 17r$, not $-7r$) and wrong constant.</li><li><strong>D) $-6k - 7r - 6$:</strong> Wrong $r$ coefficient; sign of $-12r$ must flip to $+12r$.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li><strong>A) $-6k + 17r - 6$:</strong> Matches our simplified expression exactly.</li><li><strong>B) $-6k + 17r + 6$:</strong> Wrong sign on the constant; subtracting $+6$ gives $-6$, not $+6$.</li><li><strong>C) $-6k - 7r + 6$:</strong> Wrong $r$ coefficient ($5r - (-12r) = 17r$, not $-7r$) and wrong constant.</li><li><strong>D) $-6k - 7r - 6$:</strong> Wrong $r$ coefficient; sign of $-12r$ must flip to $+12r$.</li></ul><strong>A</strong> is correct."
     }
   ]
 }

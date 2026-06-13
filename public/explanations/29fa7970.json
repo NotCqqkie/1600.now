@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "<ul><li>Choice A, $0$, is the charge amount, not the number of days.</li><li>Choice B, $1$, matches other bars, not the $0$ kWh bar.</li><li>Choice C, $4$, matches the $11$ kWh bar.</li><li>Choice D, $6$, is the height of the $0$ kWh bar. Correct.</li></ul>That matches choice D."
+      "content": "<ul><li><strong>Choice A &mdash; $0$</strong>, $0$, is the charge amount, not the number of days.</li><li><strong>Choice B &mdash; $1$</strong>, $1$, matches other bars, not the $0$ kWh bar.</li><li><strong>Choice C &mdash; $4$</strong>, $4$, matches the $11$ kWh bar.</li><li><strong>Choice D &mdash; $6$</strong>, $6$, is the height of the $0$ kWh bar. Correct.</li></ul>That matches <strong>Choice D &mdash; $6$</strong>."
     }
   ]
 }

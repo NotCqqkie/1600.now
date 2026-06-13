@@ -9,7 +9,7 @@
     },
     {
       "title": "Substitute and solve for n",
-      "content": "Set $x = k$ in $-x^2 + \\frac{1}{29}nk^2$:<br/>$$-k^2 + \\frac{1}{29}nk^2 = 0$$<br/>Factor out $k^2$:<br/>$$k^2\\left(-1 + \\frac{1}{29}n\\right) = 0$$<br/>Since $k > 0$, we have $k^2 \\neq 0$, so:<br/>$$-1 + \\frac{1}{29}n = 0$$<br/>$$\\frac{1}{29}n = 1$$<br/>$$n = 29$$<br/>This matches choice D — <strong>D</strong> is correct."
+      "content": "Set $x = k$ in $-x^2 + \\frac{1}{29}nk^2$:<br/>$$-k^2 + \\frac{1}{29}nk^2 = 0$$<br/>Factor out $k^2$:<br/>$$k^2\\left(-1 + \\frac{1}{29}n\\right) = 0$$<br/>Since $k \\gt 0$, we have $k^2 \\neq 0$, so:<br/>$$-1 + \\frac{1}{29}n = 0$$<br/>$$\\frac{1}{29}n = 1$$<br/>$$n = 29$$<br/>This confirms <strong>D</strong> is correct."
     }
   ]
 }

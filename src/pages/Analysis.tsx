@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { useAuth } from "@/contexts/AuthContext";
 import { useUserProgress } from "@/hooks/useUserProgress";
 import type { BankSubject } from "@/data/bankTypes";
-import { getBankQuestionMetaRows } from "@/data/bankQuestionMetadata";
+import { loadBankQuestionMetaRows } from "@/data/bankQuestionMetadata";
 import { Button } from "@/components/ui/button";
 import {
   AreaChart,
@@ -37,18 +37,22 @@ type CategoryMapItem = { subject: BankSubject; domain: string; skill: string };
 
 let cachedLiveCategoryMap: Record<string, CategoryMapItem> | null = null;
 
-const buildLiveCategoryMap = (): Record<string, CategoryMapItem> => {
+const loadLiveCategoryMap = async (): Promise<Record<string, CategoryMapItem>> => {
   if (cachedLiveCategoryMap) return cachedLiveCategoryMap;
   const map: Record<string, CategoryMapItem> = {};
   try {
-    for (const q of getBankQuestionMetaRows("math", "all")) {
+    const [mathRows, readingRows] = await Promise.all([
+      loadBankQuestionMetaRows("math", "all"),
+      loadBankQuestionMetaRows("reading", "all"),
+    ]);
+    for (const q of mathRows) {
       map[q.stableId] = {
         subject: "math",
         domain: q.category.domain,
         skill: q.category.skill,
       };
     }
-    for (const q of getBankQuestionMetaRows("reading", "all")) {
+    for (const q of readingRows) {
       map[q.stableId] = {
         subject: "reading",
         domain: q.category.domain,
@@ -736,8 +740,18 @@ const Analysis = () => {
   const uid = user?.id ?? null;
   const { progress } = useUserProgress();
   const isDarkMode = useThemeMode();
-  const liveCategoryMap = useMemo(() => buildLiveCategoryMap(), []);
+  const [liveCategoryMap, setLiveCategoryMap] = useState<Record<string, CategoryMapItem>>({});
   const pastTests = useMemo(() => getAllPracticeTestResults(uid), [uid]);
+
+  useEffect(() => {
+    let cancelled = false;
+    loadLiveCategoryMap().then((map) => {
+      if (!cancelled) setLiveCategoryMap(map);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
 
   useEffect(() => {
     const link = document.createElement("link");

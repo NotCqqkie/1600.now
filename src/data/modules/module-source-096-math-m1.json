@@ -65,19 +65,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$m > 510$"
+        "text": "$m \\gt 510$"
       },
       {
         "label": "B",
-        "text": "$m < 0$"
+        "text": "$m \\lt 0$"
       },
       {
         "label": "C",
-        "text": "$-510 < m < 0$"
+        "text": "$-510 \\lt m \\lt 0$"
       },
       {
         "label": "D",
-        "text": "$0 < m < 510$"
+        "text": "$0 \\lt m \\lt 510$"
       }
     ],
     "is_fill_in_blank": false,

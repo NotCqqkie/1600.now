@@ -9,7 +9,7 @@
     },
     {
       "title": "Determine whether the vertex is a minimum or maximum",
-      "content": "Since $a = \\frac{1}{9} > 0$, the parabola opens upward, so the vertex is the lowest point on the graph. This means the car's minimum height is $3$ inches, and it occurs at $x = 6$ seconds (not at the start).",
+      "content": "Since $a = \\frac{1}{9} \\gt 0$, the parabola opens upward, so the vertex is the lowest point on the graph. This means the car's minimum height is $3$ inches, and it occurs at $x = 6$ seconds (not at the start).",
       "desmosExpressions": [
         "f(x)=\\frac{1}{9}(x-6)^{2}+3",
         "(6,3)"
@@ -17,7 +17,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "The vertex says the minimum height is $3$ inches. The $6$ is the time when that minimum occurs, not a height. At the start, $f(0)=\\frac{1}{9}(36)+3=7$, so choices C and D do not describe the vertex. Choice A is correct."
+      "content": "The vertex says the minimum height is $3$ inches. The $6$ is the time when that minimum occurs, not a height. At the start, $f(0)=\\frac{1}{9}(36)+3=7$, so the other choices do not describe the vertex. Choice A (&lsquo;The toy car's minimum height was 3 inches above the ground.&rsquo;) is correct."
     }
   ]
 }

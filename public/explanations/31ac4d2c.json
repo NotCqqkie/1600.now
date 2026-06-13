@@ -1,1 +1,15 @@
-{"questionId": "31ac4d2c", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the specific goal", "content": "The student wants to <strong>specify the fanner basket's name in Choctaw</strong>. The notes provide that name: <em>ufko tapushik</em>. A correct answer must include this Choctaw term directly."}, {"title": "Test each choice for the Choctaw name", "content": "<ul><li><strong>Choice A &mdash; 'The Hina Hanta archive features cultural artifacts, such as a fanner basket and a robe...'</strong>: mentions the fanner basket but omits its Choctaw name entirely. &#10007;</li><li><strong>Choice B &mdash; 'The cane fanner basket...is called an ufko tapushik in Choctaw.'</strong>: directly names the fanner basket and provides its Choctaw name <em>ufko tapushik</em>, fulfilling the goal exactly. &#10003;</li><li><strong>Choice C &mdash; 'Hina Hanta, which means &quot;bright path&quot; in Choctaw, includes a fanner basket in its archive.'</strong>: mentions the fanner basket but gives the archive's Choctaw meaning instead of the basket's Choctaw name. &#10007;</li><li><strong>Choice D &mdash; 'The name of the online archive Hina Hanta means &quot;bright path&quot; in Choctaw.'</strong>: discusses the archive's name in Choctaw; the fanner basket is not mentioned at all. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "31ac4d2c",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the specific goal",
+      "content": "The student wants to <strong>specify the fanner basket's name in Choctaw</strong>. The notes provide that name: <em>ufko tapushik</em>. A correct answer must include this Choctaw term directly."
+    },
+    {
+      "title": "Test each choice for the Choctaw name",
+      "content": "<ul><li><strong>Choice A — The Hina Hanta archive features cultural artifacts, such as a fanner basket and a robe, that are relevant to the history of the Choctaw people.</strong>: mentions the fanner basket but omits its Choctaw name entirely. &#10007;</li><li><strong>Choice B — The cane fanner basket, which is included in the Hina Hanta online archive, is called an <em>ufko tapushik</em> in Choctaw.</strong>: directly names the fanner basket and provides its Choctaw name <em>ufko tapushik</em>, fulfilling the goal exactly. &#10003;</li><li><strong>Choice C — Hina Hanta, which means \"bright path\" in Choctaw, includes a fanner basket in its archive.</strong>: mentions the fanner basket but gives the archive's Choctaw meaning instead of the basket's Choctaw name. &#10007;</li><li><strong>Choice D — The name of the online archive Hina Hanta means \"bright path\" in Choctaw.</strong>: discusses the archive's name in Choctaw; the fanner basket is not mentioned at all. &#10007;</li></ul><strong>B</strong> is correct."
+    }
+  ]
+}

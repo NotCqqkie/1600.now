@@ -1,1 +1,15 @@
-{"questionId": "a226962a-9c3e-4022-aee4-7a2796cbe032_20", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structure", "content": "The blank fills the subject of “found” and consists of a title (US biologist) directly followed by a proper name (Brad Gemmell), then “and colleagues.” The name identifies which biologist is being referenced."}, {"title": "Apply appositive punctuation rules", "content": "A restrictive appositive—one that provides essential information to identify a noun—should not be set off with commas.<br/><br/>Here, Brad Gemmell is restrictive; it specifies which US biologist, so no comma separates the title from the name.<br/><br/>Choices A and C incorrectly treat the name as a nonrestrictive appositive requiring commas on both sides.<br/><br/>Choice D inconsistently places a comma only before “and colleagues” without matching punctuation around the name.<br/><br/>Choice B correctly uses no punctuation between the title and name.<br/><br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}
+{
+  "questionId": "a226962a-9c3e-4022-aee4-7a2796cbe032_20",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "The blank fills the subject of “found” and consists of a title (US biologist) directly followed by a proper name (Brad Gemmell), then “and colleagues.” The name identifies which biologist is being referenced."
+    },
+    {
+      "title": "Apply appositive punctuation rules",
+      "content": "A restrictive appositive—one that provides essential information to identify a noun—should not be set off with commas.<br/><br/>Here, Brad Gemmell is restrictive; it specifies which US biologist, so no comma separates the title from the name.<br/><br/>Those choices incorrectly treat the name as a nonrestrictive appositive requiring commas on both sides.<br/><br/>Choice D inconsistently places a comma only before “and colleagues” without matching punctuation around the name.<br/><br/>The correct answer correctly uses no punctuation between the title and name.<br/><br/>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

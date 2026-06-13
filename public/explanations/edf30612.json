@@ -1,1 +1,15 @@
-{"questionId": "edf30612", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the contrasting approaches", "content": "The passage sets up two different ways of understanding space.<br/><br/>The first part describes the quantitative analytical approach using GIS spatial technologies.<br/><br/>The second part introduces Doreen Massey, who defines space through socio-political forces.<br/><br/>The word “instead” at the end of the sentence is the key signal — it shows Massey's approach is fundamentally different from, not similar to, the quantitative method."}, {"title": "Match the transition to the contrast", "content": "”by contrast,” directly signals the opposition between these two approaches — one technical and quantitative, the other qualitative and socio-political.<br/><br/>The other three choices suggest either similarity (<em>likewise</em>), exemplification (<em>for example</em>), or logical consequence (<em>as such</em>), none of which fit the opposing relationship.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "edf30612",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the contrasting approaches",
+      "content": "The passage sets up two different ways of understanding space.<br/><br/>The first part describes the quantitative analytical approach using GIS spatial technologies.<br/><br/>The second part introduces Doreen Massey, who defines space through socio-political forces.<br/><br/>The word “instead” at the end of the sentence is the key signal — it shows Massey's approach is fundamentally different from, not similar to, the quantitative method."
+    },
+    {
+      "title": "Match the transition to the contrast",
+      "content": "”by contrast,” directly signals the opposition between these two approaches — one technical and quantitative, the other qualitative and socio-political.<br/><br/>The other three choices suggest either similarity (<em>likewise</em>), exemplification (<em>for example</em>), or logical consequence (<em>as such</em>), none of which fit the opposing relationship.<br/><br/>That matches the correct answer — <strong>B</strong> is correct."
+    }
+  ]
+}

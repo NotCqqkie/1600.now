@@ -1,1 +1,15 @@
-{"questionId": "fa36d803", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the blank connects", "content": "The blank sits between the title phrase &quot;little-known French portrait artist&quot; and the proper name &quot;Marie-Denise Villers.&quot; The name is a restrictive appositive &mdash; it uniquely identifies which artist &mdash; so no punctuation should separate it from the title. Eliminate any choice that inserts punctuation.<ul><li><strong>Choice A &mdash; &apos;artist&mdash;&apos;</strong>: An em dash before the name implies a sharp break or non-essential aside. No such break is warranted here. &#10007;</li><li><strong>Choice B &mdash; &apos;artist&apos;</strong>: No punctuation between the title and the name. The name flows directly as the essential identifier of the artist. &#10003;</li><li><strong>Choice C &mdash; &apos;artist:&apos;</strong>: A colon introduces lists or explanations. There is no list or formal explanation following &mdash; just a proper name. &#10007;</li><li><strong>Choice D &mdash; &apos;artist,&apos;</strong>: A comma before the name suggests it is non-restrictive (optional). Because the name is essential, this comma is incorrect. &#10007;</li></ul>"}, {"title": "Apply the restrictive appositive rule", "content": "When a proper name uniquely identifies the preceding noun &mdash; as &quot;Marie-Denise Villers&quot; identifies &quot;artist&quot; here &mdash; no punctuation separates them in Standard English. Every other option inserts punctuation where none belongs. That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "fa36d803",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the blank connects",
+      "content": "The blank sits between the title phrase \"little-known French portrait artist\" and the proper name \"Marie-Denise Villers.\" The name is a restrictive appositive &mdash; it uniquely identifies which artist &mdash; so no punctuation should separate it from the title. Eliminate any choice that inserts punctuation.<ul><li><strong>\"artist—\"</strong>: An em dash before the name implies a sharp break or non-essential aside. No such break is warranted here. &#10007;</li><li><strong>\"artist\"</strong>: No punctuation between the title and the name. The name flows directly as the essential identifier of the artist. &#10003;</li><li><strong>\"artist:\"</strong>: A colon introduces lists or explanations. There is no list or formal explanation following &mdash; just a proper name. &#10007;</li><li><strong>\"artist,\"</strong>: A comma before the name suggests it is non-restrictive (optional). Because the name is essential, this comma is incorrect. &#10007;</li></ul>"
+    },
+    {
+      "title": "Apply the restrictive appositive rule",
+      "content": "When a proper name uniquely identifies the preceding noun &mdash; as \"Marie-Denise Villers\" identifies \"artist\" here &mdash; no punctuation separates them in Standard English. Every other option inserts punctuation where none belongs. That matches the correct answer — <strong>B</strong> is correct."
+    }
+  ]
+}

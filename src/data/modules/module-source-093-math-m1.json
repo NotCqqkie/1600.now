@@ -6,7 +6,7 @@
     "difficulty": "Easy",
     "question_number": 1,
     "test_name": "Module Source 093 Math M1",
-    "passage": "The graph of a system of two linear equations is shown. The solution to the system is (x, y). What is the value of y?",
+    "passage": "The graph of a system of two linear equations is shown. The solution to the system is (x, y). What is the value of $y$?",
     "question_text": null,
     "choices": [
       {
@@ -187,7 +187,7 @@
     "difficulty": "Medium",
     "question_number": 6,
     "test_name": "Module Source 093 Math M1",
-    "passage": "The relationship between the variables x and y is defined by an exponential equation. When x=0, the value of y is 70, and for every increase in the value of x by 1, the corresponding value of y increases by 50% of its previous value. Which equation represents this relationship?",
+    "passage": "The relationship between the variables $x$ and $y$ is defined by an exponential equation. When $x=0$, the value of $y$ is 70, and for every increase in the value of $x$ by 1, the corresponding value of $y$ increases by 50% of its previous value. Which equation represents this relationship?",
     "question_text": null,
     "choices": [
       {
@@ -329,7 +329,7 @@
     "difficulty": "Medium",
     "question_number": 10,
     "test_name": "Module Source 093 Math M1",
-    "passage": "In the figure, line q is parallel to line r, and both lines are intersected by line s. If $ y = 2x + 8 $, what is the value of x?",
+    "passage": "In the figure, line q is parallel to line r, and both lines are intersected by line s. If $y = 2x + 8$, what is the value of $x$?",
     "question_text": null,
     "choices": [
       {
@@ -497,19 +497,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$0 < x < 10$"
+        "text": "$0 \\lt x \\lt 10$"
       },
       {
         "label": "B",
-        "text": "$0 < x < 30$"
+        "text": "$0 \\lt x \\lt 30$"
       },
       {
         "label": "C",
-        "text": "$30 < x < 60$"
+        "text": "$30 \\lt x \\lt 60$"
       },
       {
         "label": "D",
-        "text": "$30 < x < 90$"
+        "text": "$30 \\lt x \\lt 90$"
       }
     ],
     "is_fill_in_blank": false,

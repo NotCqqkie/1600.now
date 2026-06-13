@@ -1,1 +1,15 @@
-{"questionId":"7876fc9e-c914-40a9-9906-62c7e3b1bbce_22","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The first sentence shows the tension Dillard observes (delicate fins vs. unsettling reproductive habits) and her struggle to reconcile these juxtapositions. The second sentence states her final synthesis: intricacy and harshness are inextricably linked. The blank must signal a final conclusion or resolution."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Ultimately'</strong>: signals a final conclusion or end-state — exactly fits Dillard&apos;s final reconciliation of the tension. &#10003;</li><li><strong>Choice B &mdash; 'To that end'</strong>: implies a purposeful means toward a goal, not a wrap-up of competing ideas. &#10007;</li><li><strong>Choice C &mdash; 'Hence'</strong>: implies a tight logical consequence from immediate premises, too mechanistic for a philosophical resolution. &#10007;</li><li><strong>Choice D &mdash; 'Moreover'</strong>: simply adds another point — does not signal resolution. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "7876fc9e-c914-40a9-9906-62c7e3b1bbce_22",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The first sentence shows the tension Dillard observes (delicate fins vs. unsettling reproductive habits) and her struggle to reconcile these juxtapositions. The second sentence states her final synthesis: intricacy and harshness are inextricably linked. The blank must signal a final conclusion or resolution."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Ultimately,&rsquo;</strong>: signals a final conclusion or end-state — exactly fits Dillard&apos;s final reconciliation of the tension. &#10003;</li><li><strong>Choice B &mdash; &lsquo;To that end,&rsquo;</strong>: implies a purposeful means toward a goal, not a wrap-up of competing ideas. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Hence,&rsquo;</strong>: implies a tight logical consequence from immediate premises, too mechanistic for a philosophical resolution. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Moreover,&rsquo;</strong>: simply adds another point — does not signal resolution. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

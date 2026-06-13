@@ -1,1 +1,15 @@
-{"questionId": "eae66bf9", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what Artemieva emphasizes as crucial", "content": "The key signal is that Artemieva builds her entire counter-argument around iridium—noting that asteroids contain it while long-period comets do NOT, and that iridium is prevalent at the impact site and in worldwide geological layers. This is the critical evidence Siraj's hypothesis overlooks."}, {"title": "Match the emphasis to the choices", "content": "Choice B directly states that Siraj's hypothesis fails to account for iridium.<br/><br/>The other three either target a different weakness (A questions sampling representativeness rather than the actual evidence), reverse the relationship by praising Siraj (C), or claim Artemieva agrees with him (D).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "eae66bf9",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what Artemieva emphasizes as crucial",
+      "content": "The key signal is that Artemieva builds her entire counter-argument around iridium—noting that asteroids contain it while long-period comets do NOT, and that iridium is prevalent at the impact site and in worldwide geological layers. This is the critical evidence Siraj's hypothesis overlooks."
+    },
+    {
+      "title": "Match the emphasis to the choices",
+      "content": "<strong>By arguing that it does not account for the amount of iridium found in geological layers dating to the Chicxulub impact</strong> directly states that Siraj's hypothesis fails to account for iridium.<br/><br/>The other three either target a different weakness (A questions sampling representativeness rather than the actual evidence), reverse the relationship by praising Siraj, or claim Artemieva agrees with him.<br/><br/>That matches the correct answer — <strong>B</strong> is correct."
+    }
+  ]
+}

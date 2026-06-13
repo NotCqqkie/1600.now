@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Set up coordinates for perpendicular chords",
-      "content": "Place D at the origin, with AC along the y-axis and BE along the x-axis. Let <strong>AD</strong> = $a$ and <strong>CD</strong> = $c$. Then:<ul><li>A = (0, $a$)</li><li>C = (0, $-c$)</li><li>B = ($-\\sqrt{226}$, 0)</li><li>E = ($e$, 0) where $e$ = DE</li></ul>All four points lie on the circle with diameter 115."
+      "content": "Place D at the origin, with AC along the y-axis and BE along the x-axis. Let <strong>AD</strong> = $a$ and <strong>CD</strong> = $c$. Then:<ul><li>$A=(0,a)$</li><li>$C=(0,-c)$</li><li>$B=(-\\sqrt{226},0)$</li><li>$E=(e,0)$, where $e$ = DE</li></ul>All four points lie on the circle with diameter 115."
     },
     {
       "title": "Apply Power of a Point for intersecting chords",

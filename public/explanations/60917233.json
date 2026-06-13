@@ -1,1 +1,19 @@
-{"questionId": "60917233", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Compare the two sentences around the blank", "content": "Sentence 1 makes a general claim: Latimer &quot;improved upon Thomas Edison's design for the electric light bulb.&quot; Sentence 2 names the particular improvement: he &quot;made the light bulb more durable by placing cardboard around its carbon filament.&quot; Sentence 2 is a specific instance of the general claim in sentence 1."}, {"title": "Choose a transition that signals general-to-specific", "content": "&quot;Specifically&quot; introduces a particular detail that elaborates a previous general statement, which is exactly the relationship here."}, {"title": "Per-choice elimination", "content": "<ul><li><strong>Choice A &mdash; 'Soon,'</strong>: signals temporal sequence (shortly after), but sentence 2 is not a later event, it is the same improvement explained. Wrong relationship. &#10007;</li><li><strong>Choice B &mdash; 'Regardless,'</strong>: signals dismissal of preceding info, but sentence 2 builds on sentence 1 rather than disregarding it. Wrong relationship. &#10007;</li><li><strong>Choice C &mdash; 'However,'</strong>: signals contrast, but sentence 2 agrees with and elaborates sentence 1 instead of opposing it. Wrong relationship. &#10007;</li><li><strong>Choice D &mdash; 'Specifically,'</strong>: signals that what follows is the particular form of the general improvement just mentioned. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "60917233",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the two sentences around the blank",
+      "content": "Sentence 1 makes a general claim: Latimer &quot;improved upon Thomas Edison's design for the electric light bulb.&quot; Sentence 2 names the particular improvement: he &quot;made the light bulb more durable by placing cardboard around its carbon filament.&quot; Sentence 2 is a specific instance of the general claim in sentence 1."
+    },
+    {
+      "title": "Choose a transition that signals general-to-specific",
+      "content": "&quot;Specifically&quot; introduces a particular detail that elaborates a previous general statement, which is exactly the relationship here."
+    },
+    {
+      "title": "Per-choice elimination",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Soon,&rsquo;</strong>: signals temporal sequence (shortly after), but sentence 2 is not a later event, it is the same improvement explained. Wrong relationship. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Regardless,&rsquo;</strong>: signals dismissal of preceding info, but sentence 2 builds on sentence 1 rather than disregarding it. Wrong relationship. &#10007;</li><li><strong>Choice C &mdash; &lsquo;However,&rsquo;</strong>: signals contrast, but sentence 2 agrees with and elaborates sentence 1 instead of opposing it. Wrong relationship. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Specifically,&rsquo;</strong>: signals that what follows is the particular form of the general improvement just mentioned. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -9,7 +9,7 @@
     },
     {
       "title": "Multiply to find the result",
-      "content": "$$600 \\times 0.5 = 300$$<br/>That matches choice C — <strong>C</strong> is correct."
+      "content": "$$600 \times 0.5 = 300$$<br/>Because 50% means one-half, this result is also the same as taking half of 600. No additional percent conversion is needed after the multiplication. That is the correct answer."
     }
   ]
 }

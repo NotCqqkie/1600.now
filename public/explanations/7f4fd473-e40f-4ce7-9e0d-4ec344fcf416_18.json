@@ -1,1 +1,15 @@
-{"questionId": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_18", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The sentence makes a main claim (processor power has drastically increased) and then elaborates with a surprising consequence introduced by &quot;even&quot; — even once-revolutionary dual-core technology is now commonplace. The punctuation must correctly attach that elaboration to the main clause."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; comma joining two independent clauses</strong>: Creates a comma splice with no coordinating conjunction. &#10007;</li><li><strong>Choice B &mdash; malformed punctuation</strong>: The punctuation pattern is grammatically invalid. &#10007;</li><li><strong>Choice C &mdash; dash + &apos;that&apos;</strong>: A dash correctly introduces the elaborating clause; &quot;that&quot; marks it as subordinate, making the whole construction grammatical. &#10003;</li><li><strong>Choice D &mdash; period</strong>: Splits the elaboration into a fragment — &quot;That the once-revolutionary...&quot; has no predicate. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_18",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence makes a main claim (processor power has drastically increased) and then elaborates with a surprising consequence introduced by &quot;even&quot; — even once-revolutionary dual-core technology is now commonplace. The punctuation must correctly attach that elaboration to the main clause."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;thousands, that&rsquo;</strong>: Creates a comma splice with no coordinating conjunction. &#10007;</li><li><strong>Choice B &mdash; &lsquo;thousands that-&rsquo;</strong>: The punctuation pattern is grammatically invalid. &#10007;</li><li><strong>Choice C &mdash; &lsquo;thousands - that&rsquo;</strong>: A dash correctly introduces the elaborating clause; &quot;that&quot; marks it as subordinate, making the whole construction grammatical. &#10003;</li><li><strong>Choice D &mdash; &lsquo;thousands. That&rsquo;</strong>: Splits the elaboration into a fragment — &quot;That the once-revolutionary...&quot; has no predicate. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

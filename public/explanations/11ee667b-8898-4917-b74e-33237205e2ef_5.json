@@ -13,7 +13,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li>A. $p = n - 23u$ &mdash; subtraction does not undo division; incorrect.</li><li>B. $p = n + 23u$ &mdash; addition does not undo division; incorrect.</li><li>C. $p = \\frac{n}{23u}$ &mdash; this would result from dividing, not multiplying; incorrect.</li><li>D. $p = 23un$ &mdash; matches our derivation.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "content": "<ul><li>A. $p = n - 23u$ &mdash; subtraction does not undo division; incorrect.</li><li>B. $p = n + 23u$ &mdash; addition does not undo division; incorrect.</li><li>C. $p = \\frac{n}{23u}$ &mdash; this would result from dividing, not multiplying; incorrect.</li><li>D. $p = 23un$ &mdash; matches our derivation.</li></ul>That matches <strong>Choice D &mdash; $p=23un$</strong>."
     }
   ]
 }

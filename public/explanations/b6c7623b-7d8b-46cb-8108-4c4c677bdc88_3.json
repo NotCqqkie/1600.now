@@ -1,1 +1,15 @@
-{"questionId":"b6c7623b-7d8b-46cb-8108-4c4c677bdc88_3","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"This is a Words in Context question. The blank must complete the contrast: we expect a helpful person to be frequently helpful, not ______ helpful. The missing word names a stronger standard than 'frequently' &mdash; something meaning always or without exception &mdash; because that is the overly strict standard the lay view does not require."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'unfailingly'</strong>: Means without ever failing &mdash; i.e., always, 100% of the time. Substituting: 'we expect a helpful person to be frequently helpful, not unfailingly helpful.' That contrast works perfectly; the lay view sets a realistic bar (frequently), not an absolute one (unfailingly). &#10003;</li><li><strong>Choice B &mdash; 'self-servingly'</strong>: Means acting for personal gain. Substituting gives 'not self-servingly helpful,' which changes the meaning to motivation rather than frequency. Does not fit the contrast with 'frequently.' &#10007;</li><li><strong>Choice C &mdash; 'grudgingly'</strong>: Means reluctantly. Substituting gives 'not grudgingly helpful,' which shifts to attitude, not frequency. Does not complete the contrast. &#10007;</li><li><strong>Choice D &mdash; 'sporadically'</strong>: Means occasionally or irregularly &mdash; actually less frequent than 'frequently,' not more. The contrast would be backwards. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "b6c7623b-7d8b-46cb-8108-4c4c677bdc88_3",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a Words in Context question. The blank must complete the contrast: we expect a helpful person to be frequently helpful, not ______ helpful. The missing word names a stronger standard than 'frequently' &mdash; something meaning always or without exception &mdash; because that is the overly strict standard the lay view does not require."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; unfailingly</strong>: Means without ever failing &mdash; i.e., always, 100% of the time. Substituting: 'we expect a helpful person to be frequently helpful, not unfailingly helpful.' That contrast works perfectly; the lay view sets a realistic bar (frequently), not an absolute one (unfailingly). &#10003;</li><li><strong>Choice B &mdash; self-servingly</strong>: Means acting for personal gain. Substituting gives 'not self-servingly helpful,' which changes the meaning to motivation rather than frequency. Does not fit the contrast with 'frequently.' &#10007;</li><li><strong>Choice C &mdash; grudgingly</strong>: Means reluctantly. Substituting gives 'not grudgingly helpful,' which shifts to attitude, not frequency. Does not complete the contrast. &#10007;</li><li><strong>Choice D &mdash; sporadically</strong>: Means occasionally or irregularly &mdash; actually less frequent than 'frequently,' not more. The contrast would be backwards. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

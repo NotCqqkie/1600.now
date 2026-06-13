@@ -1,4 +1,5 @@
 {
+  "questionId": "963da34c",
   "qid": "963da34c",
   "steps": [
     {
@@ -11,7 +12,7 @@
       "explanation": "Solve for x: subtract 60 from both sides to get 7x &le; 70, then divide by 7 to get x &le; 10. Since width must be positive, the complete inequality is 0 &lt; x &le; 10."
     },
     {
-      "explanation": "Evaluate all choices:<ul><li>A: 0 &lt; x &le; 10. This matches the derived inequality exactly. That matches choice A &mdash; <strong>A</strong> is correct.</li><li>B: 0 &lt; x &le; 11&#8532;. This would follow from 6x + 60 &le; 130, which uses the wrong perimeter formula. Eliminated.</li><li>C: 0 &lt; x &le; 17.5. This would follow from 3.5x + 60 &le; 130, omitting the factor of 2 in the perimeter. Eliminated.</li><li>D: 0 &lt; x &le; 20. This would follow from 2x + 60 &le; 130, using only width instead of the full perimeter. Eliminated.</li></ul>"
+      "explanation": "Evaluate all choices:<ul><li>A: 0 &lt; x &le; 10. This matches the derived inequality exactly. That confirms <strong>A</strong> is correct.</li><li>B: 0 &lt; x &le; 11&#8532;. This would follow from 6x + 60 &le; 130, which uses the wrong perimeter formula. Eliminated.</li><li>C: 0 &lt; x &le; 17.5. This would follow from 3.5x + 60 &le; 130, omitting the factor of 2 in the perimeter. Eliminated.</li><li>D: 0 &lt; x &le; 20. This would follow from 2x + 60 &le; 130, using only width instead of the full perimeter. Eliminated.</li></ul>"
     }
   ],
   "correctAnswer": "A"

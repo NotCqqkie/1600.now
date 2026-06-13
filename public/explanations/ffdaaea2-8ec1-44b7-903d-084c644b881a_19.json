@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Apply AA similarity criterion",
-      "content": "We have $$\\angle A = \\angle P = 58°$$. To prove triangle similarity with minimal additional information, we use the AA criterion—we need just one more pair of equal angles."
+      "content": "We have $$\\angle A = \\angle P = 58^{\\circ}$$. To prove triangle similarity with minimal additional information, we use the AA criterion—we need just one more pair of equal angles."
     },
     {
-      "title": "Evaluate choice C",
-      "content": "Given $$\\angle B = 34°$$ and $$\\angle R = 88°$$:<br/><br/>In triangle ABC: $$\\angle C = 180° - 58° - 34° = 88°$$<br/>In triangle PQR: $$\\angle Q = 180° - 58° - 88° = 34°$$<br/>Result:<ul><li>$$\\angle A = \\angle P = 58°$$</li><li>$$\\angle B = \\angle Q = 34°$$</li><li>$$\\angle C = \\angle R = 88°$$</li></ul>All three angles match across the correspondence A ↔ P, B ↔ Q, C ↔ R. That matches choice C — <strong>C</strong> is correct."
+      "title": "Evaluate the candidate",
+      "content": "Given $$\\angle B = 34^{\\circ}$$ and $$\\angle R = 88^{\\circ}$$:<br/><br/>In triangle ABC: $$\\angle C = 180^{\\circ} - 58^{\\circ} - 34^{\\circ} = 88^{\\circ}$$<br/>In triangle PQR: $$\\angle Q = 180^{\\circ} - 58^{\\circ} - 88^{\\circ} = 34^{\\circ}$$<br/>Result:<ul><li>$$\\angle A = \\angle P = 58^{\\circ}$$</li><li>$$\\angle B = \\angle Q = 34^{\\circ}$$</li><li>$$\\angle C = \\angle R = 88^{\\circ}$$</li></ul>All three angles match across the correspondence A ↔ P, B ↔ Q, C ↔ R. That matches the correct answer — <strong>C</strong> is correct."
     },
     {
       "title": "Verify other choices fail",
-      "content": "Choice D creates angles 58°, 58°, 64° in ABC but 58°, 34°, 88° in PQR—no correspondence exists. Choices A and B lack the proportionality $$\\frac{AB}{AC} = \\frac{PQ}{PR}$$ that SAS similarity requires."
+      "content": "<strong>The measures of angle B and angle Q are 58 degrees and 34 degrees, respectively.</strong> creates angles 58 degrees, 58 degrees, 64 degrees in ABC but 58 degrees, 34 degrees, 88 degrees in PQR—no correspondence exists. Two other options lack the proportionality $$\\frac{AB}{AC} = \\frac{PQ}{PR}$$ that SAS similarity requires."
     }
   ]
 }

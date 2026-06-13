@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Apply the triangle angle-sum theorem",
-      "content": "The triangle has a right angle ($90°$), an angle of $13°$, and unknown angle $a$. Apply the triangle angle-sum theorem:<br/>$$90° + 13° + a = 180°$$"
+      "content": "The triangle has a right angle ($90^{\\circ}$), an angle of $13^{\\circ}$, and unknown angle $a$. Apply the triangle angle-sum theorem:<br/>$$90^{\\circ} + 13^{\\circ} + a = 180^{\\circ}$$"
     },
     {
       "title": "Solve for the missing angle",
-      "content": "Solve for $a$:<br/>$$a = 180° - 90° - 13° = 77°$$<br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."
+      "content": "Solve for $a$:<br/>$$a = 180^{\\circ} - 90^{\\circ} - 13^{\\circ} = 77^{\\circ}$$<br/>That confirms <strong>B</strong> is correct."
     }
   ]
 }

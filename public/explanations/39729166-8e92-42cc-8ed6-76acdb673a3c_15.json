@@ -13,7 +13,7 @@
     },
     {
       "title": "Compare to answer choices",
-      "content": "Option A: $9x^2 + 4$ matches the third factor. Options C and D: $3x + 2$ and 90 are directly present. <strong>B</strong> is $3x^2 - 2$, which never appears in the valid factorization. That matches choice B — <strong>B</strong> is correct."
+      "content": "The factor $9x^{2}+4$ matches one factor, and $3x+2$ and $90$ are also directly present. The expression $3x^{2}-2$ never appears in the valid factorization. <strong>B</strong> is correct."
     }
   ]
 }

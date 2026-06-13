@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li><strong>A)</strong> $M = 1800 \\times (1.02)^{q/4}$ &mdash; matches the substitution since $t = q/4$. Correct.</li><li><strong>B)</strong> $M = 1800 \\times (1.02)^{4q}$ &mdash; would mean $t = 4q$, treating each quarter as 4 years. Wrong.</li><li><strong>C)</strong> $M = 1800 \\times (1.005)^{4q}$ &mdash; uses a different base 1.005 with exponent $4q$, giving $(1.005)^{4} \\approx 1.0201$ per quarter cycle of 4, not the correct per-quarter growth. Wrong.</li><li><strong>D)</strong> $M = 1800 \\times (1.082)^{q}$ &mdash; treats each quarter as a full year of growth at rate 8.2%, which contradicts the 2% annual rate. Wrong.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li><strong>A)</strong> $M = 1800 \\times (1.02)^{q/4}$ &mdash; matches the substitution since $t = q/4$. Correct.</li><li><strong>B)</strong> $M = 1800 \\times (1.02)^{4q}$ &mdash; would mean $t = 4q$, treating each quarter as 4 years. Wrong.</li><li><strong>C)</strong> $M = 1800 \\times (1.005)^{4q}$ &mdash; uses a different base 1.005 with exponent $4q$, giving $(1.005)^{4} \\approx 1.0201$ per quarter cycle of 4, not the correct per-quarter growth. Wrong.</li><li><strong>D)</strong> $M = 1800 \\times (1.082)^{q}$ &mdash; treats each quarter as a full year of growth at rate 8.2%, which contradicts the 2% annual rate. Wrong.</li></ul>That confirms <strong>A</strong> is correct."
     }
   ]
 }

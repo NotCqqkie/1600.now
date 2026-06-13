@@ -1,1 +1,15 @@
-{"questionId": "471ccf49-2c32-4c56-9f7e-1788dbe63527_19", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Read the graph for x-axis crossings", "content": "$f(x)=0$ wherever the graph of $y=f(x)$ <strong>crosses the $x$-axis</strong>. From the form $f(x)=abx+c$ (a linear function in $x$), the curve is a straight line. Inspect the graph to count crossings."}, {"title": "Match the count", "content": "The line shown does <strong>not</strong> intersect the $x$-axis at all (it stays entirely above or entirely below it). So $f(x)=0$ has <strong>zero</strong> solutions.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "471ccf49-2c32-4c56-9f7e-1788dbe63527_19",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the graph for x-axis crossings",
+      "content": "$f(x)=0$ wherever the graph of $y=f(x)$ <strong>crosses the $x$-axis</strong>. From the form $f(x)=abx+c$ (a linear function in $x$), the curve is a straight line. Inspect the graph to count crossings."
+    },
+    {
+      "title": "Match the count",
+      "content": "The line shown does <strong>not</strong> intersect the $x$-axis at all (it stays entirely above or entirely below it). So $f(x)=0$ has <strong>zero</strong> solutions.<br/><br/><strong>D</strong> is correct."
+    }
+  ]
+}

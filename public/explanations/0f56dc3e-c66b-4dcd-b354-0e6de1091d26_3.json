@@ -1,1 +1,15 @@
-{"questionId": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_3", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Read the context", "content": "The uncle says the hardest <u>part</u> of telling a story is finding the beginning. He's identifying one component of the storytelling task, not a region or musical line."}, {"title": "Match the meaning", "content": "The underlined word needs to mean a component or aspect of a task — the uncle identifies finding the beginning as one piece of the storytelling challenge. Substitute each choice:\n<ul>\n<li><strong>Choice A — Zone</strong>: the hardest \"<em>zone</em>\" of telling a story — zone means a region or area in space, which doesn't apply to an abstract task like storytelling. ✗</li>\n<li><strong>Choice B — Melody</strong>: the hardest \"<em>melody</em>\" of telling a story — melody means a musical line or tune, unrelated to the act of telling a story. ✗</li>\n<li><strong>Choice C — Element</strong>: the hardest \"<em>element</em>\" of telling a story — element means a component or aspect of something, which fits: finding the beginning is one component of the storytelling task. ✓</li>\n<li><strong>Choice D — Blob</strong>: the hardest \"<em>blob</em>\" of telling a story — blob means a shapeless mass, which has no coherent meaning in this context. ✗</li>\n</ul>\nThat matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_3",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the context",
+      "content": "The uncle says the hardest <u>part</u> of telling a story is finding the beginning. He's identifying one component of the storytelling task, not a region or musical line."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "The underlined word needs to mean a component or aspect of a task — the uncle identifies finding the beginning as one piece of the storytelling challenge. Substitute each choice:\n<ul>\n<li><strong>Choice A — Zone</strong>: the hardest \"<em>zone</em>\" of telling a story — zone means a region or area in space, which doesn't apply to an abstract task like storytelling. ✗</li>\n<li><strong>Choice B — Melody</strong>: the hardest \"<em>melody</em>\" of telling a story — melody means a musical line or tune, unrelated to the act of telling a story. ✗</li>\n<li><strong>Choice C — Element</strong>: the hardest \"<em>element</em>\" of telling a story — element means a component or aspect of something, which fits: finding the beginning is one component of the storytelling task. ✓</li>\n<li><strong>Choice D — Blob</strong>: the hardest \"<em>blob</em>\" of telling a story — blob means a shapeless mass, which has no coherent meaning in this context. ✗</li>\n</ul>\nThat matches <strong>Choice C &mdash; Element</strong>."
+    }
+  ]
+}

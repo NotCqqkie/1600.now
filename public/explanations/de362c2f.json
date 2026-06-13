@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice D is correct. Choice A uses $5x$ instead of $5x^2$, and the other choices do not square $8$ correctly. The square affects $8$ before multiplying by $5$.",
+      "content": "The source choice with $320$ is correct. The distractors come from using $5x$, using $5(x+2)$, or doubling $5x$ instead of applying the square. The square affects $8$ before multiplying by $5$.",
       "desmosExpressions": [
         "f(x)=5x^2",
         "x=8"

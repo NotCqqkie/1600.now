@@ -1,1 +1,19 @@
-{"section":"Reading and Writing","correctAnswer":"B","steps":[{"title":"Question type","content":"Reading comprehension &mdash; hypothetical consequence. The passage says New began using sewing machines &quot;as he gained more customers&quot; to &quot;produce bags more efficiently.&quot; Identify what would have happened without that change."},{"title":"Reasoning","content":"The machines were adopted in response to growing demand, so without them he would have struggled to keep up with that demand."},{"title":"Per-choice elimination","content":"<ul><li><strong>Choice A &mdash; 'unable to ensure unique handcrafted details'</strong>: backwards &mdash; the passage says he &quot;continued to handcraft the crucial details,&quot; so handcrafting did not depend on machines. &#10007;</li><li><strong>Choice C &mdash; 'individually design each bag'</strong>: the text never discusses designing each bag individually; machines were about production efficiency, not design. Out of scope. &#10007;</li><li><strong>Choice D &mdash; 'not generate as much interest'</strong>: interest came from his craftsmanship and reputation, not from machine use; the passage links machines only to output volume. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "cf956802",
+  "section": "Reading and Writing",
+  "correctAnswer": "B",
+  "steps": [
+    {
+      "title": "Question type",
+      "content": "Reading comprehension &mdash; hypothetical consequence. The passage says New began using sewing machines &quot;as he gained more customers&quot; to &quot;produce bags more efficiently.&quot; Identify what would have happened without that change."
+    },
+    {
+      "title": "Reasoning",
+      "content": "The machines were adopted in response to growing demand, so without them he would have struggled to keep up with that demand."
+    },
+    {
+      "title": "Per-choice elimination",
+      "content": "<ul><li><strong>Choice A &mdash; He would have been unable to ensure that each bag included unique, handcrafted details.</strong>: backwards &mdash; the passage says he &quot;continued to handcraft the crucial details,&quot; so handcrafting did not depend on machines. &#10007;</li><li><strong>Choice C &mdash; He would have had to individually design each bag he produced.</strong>: the text never discusses designing each bag individually; machines were about production efficiency, not design. Out of scope. &#10007;</li><li><strong>Choice D &mdash; He would not have been able to generate as much interest in his bags.</strong>: interest came from his craftsmanship and reputation, not from machine use; the passage links machines only to output volume. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

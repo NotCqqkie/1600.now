@@ -1,1 +1,15 @@
-{"questionId": "5fe11073-c749-47d4-9e43-2addecd1932f_17", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The sentence begins &quot;Focusing on <em>Mirounga angustirostris</em>&mdash;or ______&quot;. An opening em-dash introduces a parenthetical; that parenthetical must be closed with a matching em-dash before the main clause can continue."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'northern elephant seals, as they&apos;re more commonly known, a'</strong>: Uses a comma to close, but the parenthetical was opened with an em-dash. Mixed punctuation breaks the pair. &#10007;</li><li><strong>Choice B &mdash; 'northern elephant seals, as they&apos;re more commonly known&mdash;a'</strong>: Closes the em-dash parenthetical with a second em-dash, then lets the main clause resume. Correctly matched pair. &#10003;</li><li><strong>Choice C &mdash; 'northern elephant seals, as they&apos;re more commonly known. A'</strong>: A period ends the sentence, leaving &quot;Focusing on <em>Mirounga angustirostris</em>&mdash;&quot; as a fragment. &#10007;</li><li><strong>Choice D &mdash; 'northern elephant seals&mdash;as they&apos;re more commonly known, a'</strong>: Opens a second em-dash mid-parenthetical, creating two unmatched em-dashes and a comma that cannot close the first one. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "5fe11073-c749-47d4-9e43-2addecd1932f_17",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence begins &quot;Focusing on <em>Mirounga angustirostris</em>&mdash;or ______&quot;. An opening em-dash introduces a parenthetical; that parenthetical must be closed with a matching em-dash before the main clause can continue."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;northern elephant seals, as they're more commonly known, a&rsquo;</strong>: Uses a comma to close, but the parenthetical was opened with an em-dash. Mixed punctuation breaks the pair. &#10007;</li><li><strong>Choice B &mdash; &lsquo;northern elephant seals, as they're more commonly known—a&rsquo;</strong>: Closes the em-dash parenthetical with a second em-dash, then lets the main clause resume. Correctly matched pair. &#10003;</li><li><strong>Choice C &mdash; &lsquo;northern elephant seals, as they're more commonly known. A&rsquo;</strong>: A period ends the sentence, leaving &quot;Focusing on <em>Mirounga angustirostris</em>&mdash;&quot; as a fragment. &#10007;</li><li><strong>Choice D &mdash; &lsquo;northern elephant seals—as they're more commonly known, a&rsquo;</strong>: Opens a second em-dash mid-parenthetical, creating two unmatched em-dashes and a comma that cannot close the first one. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

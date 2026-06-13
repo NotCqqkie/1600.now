@@ -9,7 +9,7 @@
     },
     {
       "title": "Solve the valid branch",
-      "content": "The solution must be less than $7$, so $|x-7|=7-x$. Then $$7-x=4x$$ $$x=\\frac{7}{5}$$ The negative value in choices A and C fails the $x\\ge 0$ check, and choice D includes an extra value. Choice <strong>B</strong> is correct."
+      "content": "The solution must be less than $7$, so $|x-7|=7-x$. Then $$7-x=4x$$ $$x=\\frac{7}{5}$$ The negative value in the other choices fails the $x\\ge 0$ check, and the extra-value choice includes a value that does not satisfy the equation. <strong>B</strong> is correct."
     }
   ]
 }

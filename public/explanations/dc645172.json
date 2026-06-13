@@ -1,1 +1,15 @@
-{"questionId": "dc645172", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the true subject", "content": "The sentence opens &quot;The artistic talents of Barbara Chase-Riboud...&quot; The head noun is <strong>talents</strong> &mdash; plural. The prepositional phrase &quot;of Barbara Chase-Riboud&quot; is not the subject and does not affect agreement. The blank needs a plural verb."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; 'hasn't been'</strong>: singular contraction (&quot;has not been&quot;); does not agree with the plural subject <em>talents</em>. &#10007;</li><li><strong>Choice B &mdash; 'wasn't'</strong>: singular past tense (&quot;was not&quot;); does not agree with the plural subject <em>talents</em>. &#10007;</li><li><strong>Choice C &mdash; 'isn't'</strong>: singular present tense (&quot;is not&quot;); does not agree with the plural subject <em>talents</em>. &#10007;</li><li><strong>Choice D &mdash; 'aren't'</strong>: plural present tense (&quot;are not&quot;); agrees with the plural subject <em>talents</em>. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "dc645172",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the true subject",
+      "content": "The sentence opens \"The artistic talents of Barbara Chase-Riboud...\" The head noun is <strong>talents</strong> &mdash; plural. The prepositional phrase \"of Barbara Chase-Riboud\" is not the subject and does not affect agreement. The blank needs a plural verb."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>\"hasn't been\"</strong>: singular contraction (\"has not been\"); does not agree with the plural subject <em>talents</em>. &#10007;</li><li><strong>\"wasn't\"</strong>: singular past tense (\"was not\"); does not agree with the plural subject <em>talents</em>. &#10007;</li><li><strong>\"isn't\"</strong>: singular present tense (\"is not\"); does not agree with the plural subject <em>talents</em>. &#10007;</li><li><strong>\"aren't\"</strong>: plural present tense (\"are not\"); agrees with the plural subject <em>talents</em>. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

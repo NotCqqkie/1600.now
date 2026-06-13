@@ -17,7 +17,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice C, $(2,0)$, is an $x$-intercept-style point, not a $y$-intercept. The graph's $y$-intercept is $(0,2)$, so choice <strong>B</strong> is correct."
+      "content": "Choice C, $(2,0)$, is an $x$-intercept-style point, not a $y$-intercept. The graph's $y$-intercept is $(0,2)$, so <strong>B</strong> is correct."
     }
   ]
 }

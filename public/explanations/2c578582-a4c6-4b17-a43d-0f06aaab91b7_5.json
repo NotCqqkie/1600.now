@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Rearrange the inequality",
-      "content": "$3x - 7y > 21 \\implies -7y > -3x + 21 \\implies y \\lt \\dfrac{3}{7}x - 3$.<br/>The solution set is all points <strong>below</strong> the line $y = \\frac{3}{7}x - 3$ (y-intercept $-3$, x-intercept $7$, positive slope)."
+      "content": "$3x - 7y \\gt  21 \\implies -7y \\gt  -3x + 21 \\implies y \\lt \\dfrac{3}{7}x - 3$.<br/>The solution set is all points <strong>below</strong> the line $y = \\frac{3}{7}x - 3$ (y-intercept $-3$, x-intercept $7$, positive slope)."
     },
     {
       "title": "Test all four choices",
-      "content": "<ul><li><strong>Choice A &mdash; The region where $x \\lt 0$ and $y \\gt 0$</strong>: When $x \\lt 0$, the boundary line gives $y = \\frac{3}{7}x - 3 \\lt -3$. Every point in this region has $y \\gt 0 \\gt $ (line value), so all points lie <strong>above</strong> the line. None satisfy $y \\lt \\frac{3}{7}x - 3$. &#10003;</li><li><strong>Choice B &mdash; The region where $x \\gt 0$ and $y \\lt 0$</strong>: Test $(8, -1)$: $3(8) - 7(-1) = 24 + 7 = 31 \\gt 21$. Contains solutions. &#10007;</li><li><strong>Choice C &mdash; The region where $x \\gt 0$ and $y \\gt 0$</strong>: Test $(100, 1)$: $300 - 7 = 293 \\gt 21$. Contains solutions. &#10007;</li><li><strong>Choice D &mdash; The $x$-axis</strong>: On the x-axis $y = 0$, the inequality becomes $3x \\gt 21 \\implies x \\gt 7$. Points like $(8, 0)$ lie on the x-axis and satisfy it. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li><strong>Choice A — The region where $x \\lt 0$ and $y \\gt 0$</strong>: When $x \\lt 0$, the boundary line gives $y = \\frac{3}{7}x - 3 \\lt -3$. Every point in this region has $y \\gt 0 \\gt $ (line value), so all points lie <strong>above</strong> the line. None satisfy $y \\lt \\frac{3}{7}x - 3$. &#10003;</li><li><strong>Choice B — The region where $x \\gt 0$ and $y \\lt 0$</strong>: Test $(8, -1)$: $3(8) - 7(-1) = 24 + 7 = 31 \\gt 21$. Contains solutions. &#10007;</li><li><strong>Choice C — The region where $x \\gt 0$ and $y \\gt 0$</strong>: Test $(100, 1)$: $300 - 7 = 293 \\gt 21$. Contains solutions. &#10007;</li><li><strong>Choice D — The $x$-axis</strong>: On the x-axis $y = 0$, the inequality becomes $3x \\gt 21 \\implies x \\gt 7$. Points like $(8, 0)$ lie on the x-axis and satisfy it. &#10007;</li></ul><strong>A</strong> is correct."
     }
   ]
 }

@@ -13,7 +13,7 @@
     },
     {
       "title": "Match to the answer choices",
-      "content": "0.318 rounded to two decimal places is 0.32.<ul><li>Choice A (0.21): this is the unconditional share over 65, not the conditional probability — eliminate.</li><li>Choice B (0.32): matches $0.21 / 0.66 \\approx 0.318$ — keep.</li><li>Choice C (0.45): too large — eliminate.</li><li>Choice D (0.62): this is closer to the share &quot;at least 18&quot;, not the answer — eliminate.</li></ul>That matches choice B — <strong>B</strong> is correct."
+      "content": "0.318 rounded to two decimal places is 0.32.<ul><li>$0.21$ is the unconditional share over 65, not the conditional probability — eliminate.</li><li>$0.32$ matches $0.21 / 0.66 \\approx 0.318$ — keep.</li><li>$0.45$ is too large — eliminate.</li><li>$0.62$ is closer to the share &quot;at least 18&quot;, not the answer — eliminate.</li></ul><strong>B</strong> is correct."
     }
   ]
 }

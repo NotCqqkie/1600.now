@@ -1,1 +1,15 @@
-{"questionId": "71904085", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "Tannen argues that the debate-driven approach &quot;can be less informative than the presentation of multiple perspectives in a noncompetitive format.&quot; In other words, a multi-perspective, noncompetitive format (like a panel) should leave audiences <strong>better informed</strong> than a head-to-head debate."}, {"title": "Match the meaning", "content": "<ul><li><strong>A:</strong> measures <em>perceived</em> knowledge of commentators, not how informed the audience became — Tannen's claim is about audience understanding.</li><li><strong>B:</strong> also about <em>perceived</em> knowledge, and it doesn't compare to the debate format at all.</li><li><strong>C:</strong> shows the panel (noncompetitive, multiperspective) left viewers actually more informed than the debate — exactly Tannen's prediction.</li><li><strong>D:</strong> compares the single commentator to the debate, ignoring the panel that Tannen's hypothesis hinges on.</li></ul>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "71904085",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "Tannen argues that the debate-driven approach &quot;can be less informative than the presentation of multiple perspectives in a noncompetitive format.&quot; In other words, a multi-perspective, noncompetitive format (like a panel) should leave audiences <strong>better informed</strong> than a head-to-head debate."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "<ul><li><strong>A:</strong> measures <em>perceived</em> knowledge of commentators, not how informed the audience became — Tannen's claim is about audience understanding.</li><li><strong>B:</strong> also about <em>perceived</em> knowledge, and it doesn't compare to the debate format at all.</li><li><strong>C:</strong> shows the panel (noncompetitive, multiperspective) left viewers actually more informed than the debate — exactly Tannen's prediction.</li><li><strong>D:</strong> compares the single commentator to the debate, ignoring the panel that Tannen's hypothesis hinges on.</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

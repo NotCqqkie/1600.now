@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the compound predicate structure",
-      "content": "The sentence reads: \u201cThe lock would increase the salinity of the lakes and ______ a natural barrier.\u201d This is a compound predicate \u2014 two verbs joined by \u201cand\u201d that share the same subject, \u201cThe lock.\u201d When verbs are connected this way, they must be parallel in form and tense."
+      "content": "The sentence reads: “The lock would increase the salinity of the lakes and ______ a natural barrier.” This is a compound predicate — two verbs joined by “and” that share the same subject, “The lock.” When verbs are connected this way, they must be parallel in form and tense."
     },
     {
       "title": "Match the tense to maintain parallelism",
-      "content": "The first verb is \u201cwould increase\u201d \u2014 a conditional form combining the modal \u201cwould\u201d with the base verb \u201cincrease.\u201d For parallelism, the second verb must follow the same pattern: \u201cwould [base verb].\u201d Since the second \u201cwould\u201d is implied after the conjunction, the verb must be the base form \u201ccreate,\u201d producing \u201cwould increase and create.\u201d <br/><br/>Choices A, C, and D break this parallelism by using different forms: a present-tense verb (creates), a gerund (creating), and a past-tense verb (created), respectively. <br/><br/>That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
+      "content": "The first verb is “would increase” — a conditional form combining the modal “would” with the base verb “increase.” For parallelism, the second verb must follow the same pattern: “would [base verb].” Since the second “would” is implied after the conjunction, the verb must be the base form “create,” producing “would increase and create.” <br/><br/>The other choices break this parallelism by using different forms: a present-tense verb (creates), a gerund (creating), and a past-tense verb (created), respectively. <br/><br/><strong>B</strong> is correct."
     }
   ]
 }

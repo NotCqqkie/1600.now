@@ -1,1 +1,15 @@
-{"questionId":"377b5e71-7ceb-4971-8051-73a97f38ab22_26","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks which choice best emphasizes when Amir Pnueli won the A.M. Turing Award. The notes tell us the year was 1996. The answer must foreground that year, not his reason for winning or the award&apos;s general description."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Amir Pnueli is one winner of the A.M. Turing Award.'</strong>: omits the year entirely. &#10007;</li><li><strong>Choice B &mdash; 'For seminal work introducing temporal logic into computing science, Amir Pnueli won the A.M. Turing Award.'</strong>: foregrounds the reason for the award, not the year it was won. &#10007;</li><li><strong>Choice C &mdash; 'The prestigious A.M. Turing Award is given for &quot;major contributions of lasting importance to computing.&quot;'</strong>: describes the award&apos;s purpose and doesn&apos;t mention Pnueli or 1996 at all. &#10007;</li><li><strong>Choice D &mdash; 'It was in 1996 that Amir Pnueli won the A.M. Turing Award.'</strong>: the cleft construction &quot;It was in 1996 that...&quot; places 1996 in the focal position of the sentence, directly emphasizing the year. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "377b5e71-7ceb-4971-8051-73a97f38ab22_26",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks which choice best emphasizes when Amir Pnueli won the A.M. Turing Award. The notes tell us the year was 1996. The answer must foreground that year, not his reason for winning or the award&apos;s general description."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — Amir Pnueli is one winner of the A.M. Turing Award.</strong>: omits the year entirely. &#10007;</li><li><strong>Choice B — For seminal work introducing temporal logic into computing science, Amir Pnueli won the A.M. Turing Award.</strong>: foregrounds the reason for the award, not the year it was won. &#10007;</li><li><strong>Choice C — The prestigious A.M. Turing Award is given for \"major contributions of lasting importance to computing.\"</strong>: describes the award&apos;s purpose and doesn&apos;t mention Pnueli or 1996 at all. &#10007;</li><li><strong>Choice D — It was in 1996 that Amir Pnueli won the A.M. Turing Award.</strong>: the cleft construction &quot;It was in 1996 that...&quot; places 1996 in the focal position of the sentence, directly emphasizing the year. &#10003;</li></ul><strong>D</strong> is correct."
+    }
+  ]
+}

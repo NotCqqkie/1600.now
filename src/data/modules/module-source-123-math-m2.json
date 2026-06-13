@@ -282,11 +282,11 @@
       },
       {
         "label": "C",
-        "text": "$x < 2$"
+        "text": "$x \\lt 2$"
       },
       {
         "label": "D",
-        "text": "$x > 3$"
+        "text": "$x \\gt 3$"
       }
     ],
     "is_fill_in_blank": false,
@@ -402,7 +402,7 @@
     "difficulty": "Medium",
     "question_number": 14,
     "test_name": "Module Source 123 Math M2",
-    "passage": "$x^2 - 12x - 13 = 0$\nOne solution to the given equation can be written as $x = h - \\frac{1}{2}\\sqrt{k}$, where $h$ and $k$ are integer constants. What is the value of $h + k$?",
+    "passage": "$x^2 - 22x + 116 = 0$\nOne solution to the given equation can be written as $x = h - \\frac{1}{2}\\sqrt{k}$, where $h$ and $k$ are integer constants. What is the value of $h + k$?",
     "question_text": null,
     "choices": [
       {
@@ -471,19 +471,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$5.10 x$"
+        "text": "$5.10x$"
       },
       {
         "label": "B",
-        "text": "$0.51 x$"
+        "text": "$0.51x$"
       },
       {
         "label": "C",
-        "text": "$1.49 x$"
+        "text": "$1.49x$"
       },
       {
         "label": "D",
-        "text": "$2.49 x$"
+        "text": "$2.49x$"
       }
     ],
     "is_fill_in_blank": false,
@@ -498,7 +498,7 @@
     "difficulty": "Medium",
     "question_number": 17,
     "test_name": "Module Source 123 Math M2",
-    "passage": "The function $f$ is defined by $f(x) = a^x + b$, where $a$ and $b$ are constants and $a > 0$. In the $xy$-plane, the graph of $y = f(x)$ has a $y$-intercept at $(0, -20)$ and passes through the point $(2, 43)$. What is the value of $a - b$?",
+    "passage": "The function $f$ is defined by $f(x) = a^x + b$, where $a$ and $b$ are constants and $a \\gt 0$. In the $xy$-plane, the graph of $y = f(x)$ has a $y$-intercept at $(0, -20)$ and passes through the point $(2, 43)$. What is the value of $a - b$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -545,7 +545,7 @@
     "difficulty": "Hard",
     "question_number": 19,
     "test_name": "Module Source 123 Math M2",
-    "passage": "A right square pyramid has a height of $11$ centimeters (cm). A second right square pyramid has a height of $22$ centimeters. The area of the bases of each of the two pyramids is $100$ $cm^2$. Which of the following is closest to the difference in the surface area of the second pyramid and the surface area of the first pyramid, in $cm^2$?",
+    "passage": "A right square pyramid has a height of $11$ centimeters (cm). A second right square pyramid has a height of $22$ centimeters. The area of the bases of each of the two pyramids is $100$ $\\text{cm}^2$. Which of the following is closest to the difference in the surface area of the second pyramid and the surface area of the first pyramid, in $\\text{cm}^2$?",
     "question_text": null,
     "choices": [
       {
@@ -577,7 +577,7 @@
     "difficulty": "Hard",
     "question_number": 20,
     "test_name": "Module Source 123 Math M2",
-    "passage": "An object's speed is increasing at a rate of $5.70$ meters per second squared. What is this rate, in <u> miles per minute squared, </u> rounded to the nearest tenth? (Use 1 mile = 1,609 meters.)",
+    "passage": "An object's speed is increasing at a rate of $5.70$ meters per second squared. What is this rate, in miles per minute squared, rounded to the nearest tenth? (Use 1 mile = 1,609 meters.)",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

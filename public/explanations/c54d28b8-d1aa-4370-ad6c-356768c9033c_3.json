@@ -1,1 +1,15 @@
-{"questionId":"c54d28b8-d1aa-4370-ad6c-356768c9033c_3","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank fills: \"Works from this period make up an ______ proportion of the canon.\" The sentence continues with \"but nineteenth-century writers... should be considered just as integral\" — the word \"but\" signals a contrast. The post-revolution works dominate the canon in a way that is excessive relative to what's warranted, so the blank must convey \"too large\" or \"disproportionately large.\""},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'unspecified'</strong>: Unspecified means not clearly defined or stated. The passage isn't saying the proportion is unknown — it's arguing the proportion is too high. &#10007;</li><li><strong>Choice B &mdash; 'overlooked'</strong>: Overlooked means ignored or neglected. This is the opposite of the meaning needed — post-revolution works are over-represented, not ignored. &#10007;</li><li><strong>Choice C &mdash; 'erratic'</strong>: Erratic means unpredictable or irregular. The passage makes no claim about inconsistency; the argument is about the size of the proportion, not its variability. &#10007;</li><li><strong>Choice D &mdash; 'outsized'</strong>: Outsized means larger than is appropriate or proportional. Post-revolution works occupy an outsized share of the canon relative to what the author thinks is justified — exactly the contrast \"but\" signals. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "c54d28b8-d1aa-4370-ad6c-356768c9033c_3",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank fills: \"Works from this period make up an ______ proportion of the canon.\" The sentence continues with \"but nineteenth-century writers... should be considered just as integral\" — the word \"but\" signals a contrast. The post-revolution works dominate the canon in a way that is excessive relative to what's warranted, so the blank must convey \"too large\" or \"disproportionately large.\""
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; unspecified</strong>: Unspecified means not clearly defined or stated. The passage isn't saying the proportion is unknown — it's arguing the proportion is too high. &#10007;</li><li><strong>Choice B &mdash; overlooked</strong>: Overlooked means ignored or neglected. This is the opposite of the meaning needed — post-revolution works are over-represented, not ignored. &#10007;</li><li><strong>Choice C &mdash; erratic</strong>: Erratic means unpredictable or irregular. The passage makes no claim about inconsistency; the argument is about the size of the proportion, not its variability. &#10007;</li><li><strong>Choice D &mdash; outsized</strong>: Outsized means larger than is appropriate or proportional. Post-revolution works occupy an outsized share of the canon relative to what the author thinks is justified — exactly the contrast \"but\" signals. &#10003;</li></ul>That is the correct answer."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId":"6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_24","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The goal is to &apos;emphasize the order in which the supercontinents were formed.&apos; The answer must make clear which came first and which came second, using the dates from the notes."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;Columbia formed long after Ur&apos;</strong>: directly establishes chronological order (Ur at 3.1 billion years ago, Columbia at 1.8 billion years ago) and emphasizes the temporal gap. &#10003;</li><li><strong>Choice B &mdash; &apos;Ur formed about 3.1 billion years ago but eventually broke apart&apos;</strong>: covers only Ur and focuses on its breakup, not the order between the two supercontinents. &#10007;</li><li><strong>Choice C &mdash; &apos;Forming and breaking apart over hundreds of millions of years, supercontinents are made up of most or all of Earth&apos;s continents&apos;</strong>: discusses supercontinents generally without ordering specific examples. &#10007;</li><li><strong>Choice D &mdash; &apos;Ur and Columbia were both supercontinents, single landmasses made up of most or all of Earth&apos;s continents&apos;</strong>: names both but omits their dates and any ordering between them. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_24",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The goal is to &apos;emphasize the order in which the supercontinents were formed.&apos; The answer must make clear which came first and which came second, using the dates from the notes."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;The supercontinent Columbia formed long after the supercontinent Ur.&rsquo;</strong>: directly establishes chronological order (Ur at 3.1 billion years ago, Columbia at 1.8 billion years ago) and emphasizes the temporal gap. &#10003;</li><li><strong>Choice B &mdash; &lsquo;Ur formed about 3.1 billion years ago but eventually broke apart.&rsquo;</strong>: covers only Ur and focuses on its breakup, not the order between the two supercontinents. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Forming and breaking apart over hundreds of millions of years, supercontinents are made up of most or all of Earth's continents.&rsquo;</strong>: discusses supercontinents generally without ordering specific examples. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Ur and Columbia were both supercontinents, single landmasses made up of most or all of Earth's continents.&rsquo;</strong>: names both but omits their dates and any ordering between them. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

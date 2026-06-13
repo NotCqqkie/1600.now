@@ -1,1 +1,15 @@
-{"questionId":"9d845a11-6019-4b88-9309-26d92ced4f70_9","correctAnswer":"D","section":"Math","steps":[{"title":"Set up the probability","content":"$$P(\\text{at least 45}) = \\frac{\\text{members aged 45+}}{\\text{total members}} = \\frac{?}{135}$$"},{"title":"Read the table totals","content":"From the table, the members aged 45 or older come from two rows: 14 (north region) + 89 (south region) = 103.<br/><br/>So the probability is $$\\frac{103}{135}$$.<br/><br/>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "9d845a11-6019-4b88-9309-26d92ced4f70_9",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the probability",
+      "content": "$$P(\\text{at least 45}) = \\frac{\\text{members aged 45+}}{\\text{total members}} = \\frac{?}{135}$$"
+    },
+    {
+      "title": "Read the table totals",
+      "content": "From the table, the members aged 45 or older come from two rows: 14 (north region) + 89 (south region) = 103.<br/><br/>So the probability is $$\\frac{103}{135}$$.<br/><br/>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

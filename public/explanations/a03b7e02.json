@@ -17,7 +17,7 @@
     },
     {
       "title": "Determine direction and eliminate wrong choices",
-      "content": "Since the outputs increase as x increases, the function is increasing. Check each choice:<ul><li>A: Decreasing linear — the function increases, not decreases. Eliminate A.</li><li>B: Increasing linear — constant positive differences confirm linear growth. That matches choice B — <strong>B</strong> is correct.</li><li>C: Decreasing exponential — exponential functions have constant ratios, not differences, and this function increases. Eliminate C.</li><li>D: Increasing exponential — ratios are 17/16 = 1.0625, 18/17 ≈ 1.0588, 19/18 ≈ 1.056; these are not constant, so it is not exponential. Eliminate D.</li></ul>"
+      "content": "Since the outputs increase as x increases, the function is increasing. Check each choice:<ul><li>A: Decreasing linear — the function increases, not decreases. Eliminate A.</li><li>B: Increasing linear — constant positive differences confirm linear growth. That confirms <strong>B</strong> is correct.</li><li>C: Decreasing exponential — exponential functions have constant ratios, not differences, and this function increases. Eliminate C.</li><li>D: Increasing exponential — ratios are 17/16 = 1.0625, 18/17 ≈ 1.0588, 19/18 ≈ 1.056; these are not constant, so it is not exponential. Eliminate D.</li></ul>"
     }
   ]
 }

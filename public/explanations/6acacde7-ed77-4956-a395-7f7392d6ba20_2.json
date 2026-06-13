@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li>$y = 5x + 2$: slope $+5$, wrong sign — eliminate.</li><li>$y = -5x + 2$: slope $-5$, intercept $2$ — matches.</li><li>$y = x + 2$: slope $1$, wrong — eliminate.</li><li>$y = -x + 2$: slope $-1$, wrong — eliminate.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "<ul><li>$y = 5x + 2$: slope $+5$, wrong sign — eliminate.</li><li>$y = -5x + 2$: slope $-5$, intercept $2$ — matches.</li><li>$y = x + 2$: slope $1$, wrong — eliminate.</li><li>$y = -x + 2$: slope $-1$, wrong — eliminate.</li></ul>That confirms <strong>B</strong> is correct."
     }
   ]
 }

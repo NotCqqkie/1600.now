@@ -13,7 +13,7 @@
     },
     {
       "title": "Identify which choice is NOT achievable",
-      "content": "<ul><li><strong>A &mdash; $(-18x+280)$&deg;</strong>: Does not equal any of the three achievable sums. Not achievable. &#10003;</li><li><strong>B &mdash; $(-18x+640)$&deg;</strong>: Equals the sum of the two obtuse angles. Achievable; eliminated. &#10007;</li><li><strong>C &mdash; $(18x-280)$&deg;</strong>: Equals the sum of the two acute angles. Achievable; eliminated. &#10007;</li><li><strong>D &mdash; $180$&deg;</strong>: Equals the sum of one acute and one obtuse angle. Achievable; eliminated. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; $\\left(-18x+280\\right)^\\circ$</strong>: Does not equal any of the three achievable sums. Not achievable. &#10003;</li><li><strong>Choice B &mdash; $\\left(-18x+640\\right)^\\circ$</strong>: Equals the sum of the two obtuse angles. Achievable; eliminated. &#10007;</li><li><strong>Choice C &mdash; $\\left(18x-280\\right)^\\circ$</strong>: Equals the sum of the two acute angles. Achievable; eliminated. &#10007;</li><li><strong>Choice D &mdash; $180^\\circ$</strong>: Equals the sum of one acute and one obtuse angle. Achievable; eliminated. &#10007;</li></ul>That is the correct answer."
     }
   ]
 }

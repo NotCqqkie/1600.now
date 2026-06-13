@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Read the marked angle and connect it to triangle XYZ",
-      "content": "The diagram marks &angle;A = 60&deg; inside triangle ABC. Triangle XYZ is a dilation of triangle ABC with A $\\Rightarrow$ X, B $\\Rightarrow$ Y, C $\\Rightarrow$ Z, so the triangles are similar."
+      "content": "The diagram marks angle A as 60 degrees inside triangle ABC. Triangle XYZ is a dilation of triangle ABC with A $\\Rightarrow$ X, B $\\Rightarrow$ Y, C $\\Rightarrow$ Z, so the triangles are similar."
     },
     {
       "title": "Apply the similar-triangles angle property",
-      "content": "Dilation preserves all angle measures, so corresponding angles are equal: &angle;X = &angle;A = 60&deg;. That matches choice C - <strong>C</strong> is correct."
+      "content": "Dilation preserves all angle measures, so corresponding angles are equal: angle X = angle A = 60 degrees. That matches the correct answer — <strong>C</strong> is correct."
     }
   ]
 }

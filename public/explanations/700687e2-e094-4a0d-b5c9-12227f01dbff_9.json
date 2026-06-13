@@ -1,1 +1,15 @@
-{"questionId": "700687e2-e094-4a0d-b5c9-12227f01dbff_9", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The city planner's conclusion focuses on stakeholders ranking the <strong>enhancement of pollination</strong> highly.<br/><br/>The table shows stakeholders ranked this service as 2, which is the <em>second-highest</em> in their row.<br/><br/>The decisive clue is that this ranking must be compared to other services listed for stakeholders."}, {"title": "Match the meaning", "content": "Choice A states the enhancement of pollination was ranked higher for stakeholders than the <em>other four services</em> in the table.<br/><br/>For stakeholders, the four services other than pollination (e.g., prevention of soil erosion, biodiversity, air quality, and carbon sequestration) are ranked 3, 4, 5, and 1.<br/><br/>Since '2' is higher than three of these four and equal to only one (carbon sequestration, which is top-ranked), A correctly identifies pollination as relatively prioritized.<br/><br/>The other three choices either compare to the wrong group (B and C) or reverse the rankings (D).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "700687e2-e094-4a0d-b5c9-12227f01dbff_9",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The city planner's conclusion focuses on stakeholders ranking the <strong>enhancement of pollination</strong> highly.<br/><br/>The table shows stakeholders ranked this service as 2, which is the <em>second-highest</em> in their row.<br/><br/>The decisive clue is that this ranking must be compared to other services listed for stakeholders."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "Choice A (&lsquo;The enhancement of pollination was ranked higher for stakeholders than were the other four services.&rsquo;) states the enhancement of pollination was ranked higher for stakeholders than the <em>other four services</em> in the table.<br/><br/>For stakeholders, the four services other than pollination (e.g., prevention of soil erosion, biodiversity, air quality, and carbon sequestration) are ranked 3, 4, 5, and 1.<br/><br/>Since '2' is higher than three of these four and equal to only one (carbon sequestration, which is top-ranked), A correctly identifies pollination as relatively prioritized.<br/><br/>The other three choices either compare to the wrong group (B and C) or reverse the rankings.<br/><br/>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

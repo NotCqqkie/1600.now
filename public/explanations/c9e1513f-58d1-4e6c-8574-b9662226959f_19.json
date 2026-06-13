@@ -9,7 +9,7 @@
     },
     {
       "title": "Identify when the equation fails to have exactly one solution",
-      "content": "For $x(r - 26) = 22$ to have exactly one solution, the coefficient of $x$ must be nonzero.<br/><br/>When $r - 26 = 0$ (i.e., $r = 26$):<br/>$$x(0) = 22$$<br/>This becomes $0 = 22$, which is impossible.<br/><br/>All other values of $r$ keep the coefficient nonzero, giving exactly one solution.<br/><br/>Therefore, $r = 26$ cannot be the value. That matches choice D — <strong>D</strong> is correct."
+      "content": "For $x(r - 26) = 22$ to have exactly one solution, the coefficient of $x$ must be nonzero.<br/><br/>When $r - 26 = 0$ (i.e., $r = 26$):<br/>$$x(0) = 22$$<br/>This becomes $0 = 22$, which is impossible.<br/><br/>All other values of $r$ keep the coefficient nonzero, giving exactly one solution.<br/><br/>Therefore, $r = 26$ cannot be the value. That is the correct answer."
     }
   ]
 }

@@ -6,7 +6,7 @@
     "difficulty": "Medium",
     "question_number": 1,
     "test_name": "Module Source 206 Eng M1",
-    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nDomesticated thousands of years ago in South America, the papaya deviates structurally from the wild plant it is descended from. Summer squash, another domesticated crop from the Americas, doesn’t closely resemble any wild plant, and genetic research only recently ______ its ancestor to be the wild Johnny gourd.",
+    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nDomesticated thousands of years ago in South America, the papaya deviates structurally from the wild plant it is descended from. Summer squash, another domesticated crop from the Americas, doesn't closely resemble any wild plant, and genetic research only recently ______ its ancestor to be the wild Johnny gourd.",
     "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
     "choices": [
       {
@@ -38,7 +38,7 @@
     "difficulty": "Easy",
     "question_number": 2,
     "test_name": "Module Source 206 Eng M1",
-    "passage": "Which choice completes the text with the most logical and precise word?\nRonyoung Kim creatively captures the Korean American immigrant experience in her novel *Clay Walls* by writing about a family from three <u> </u> perspectives. The first section of the novel is from the mother Haesu’s perspective, the second is from the father Chun’s perspective, and the last is from the daughter Faye’s perspective.",
+    "passage": "Which choice completes the text with the most logical and precise word?\nRonyoung Kim creatively captures the Korean American immigrant experience in her novel *Clay Walls* by writing about a family from three ______ perspectives. The first section of the novel is from the mother Haesu's perspective, the second is from the father Chun's perspective, and the last is from the daughter Faye's perspective.",
     "question_text": "Which choice completes the text with the most logical and precise word?",
     "choices": [
       {
@@ -102,7 +102,7 @@
     "difficulty": "Medium",
     "question_number": 4,
     "test_name": "Module Source 206 Eng M1",
-    "passage": "Which choice best states the function of the underlined portion in the text as a whole?\nHorses and sheep see in three dimensions (3D) by combining two images in their brains, one from each eye. This produces a sense of depth, helping the animals judge how close or far away an object is. Researchers have investigated 3D vision in praying mantises as well. In one study, Vivek Nityananda and his team fitted mantises’ faces with two different color filters, one covering each eye, <u>much like the filters in 3D glasses once worn at movies.</u> By observing the mantises’ reaction to projected images, the team confirmed that mantises do indeed have 3D vision, but it’s unlike that of other animals.",
+    "passage": "Which choice best states the function of the underlined portion in the text as a whole?\nHorses and sheep see in three dimensions (3D) by combining two images in their brains, one from each eye. This produces a sense of depth, helping the animals judge how close or far away an object is. Researchers have investigated 3D vision in praying mantises as well. In one study, Vivek Nityananda and his team fitted mantises' faces with two different color filters, one covering each eye, <u>much like the filters in 3D glasses once worn at movies.</u> By observing the mantises' reaction to projected images, the team confirmed that mantises do indeed have 3D vision, but it's unlike that of other animals.",
     "question_text": "Which choice best states the function of the underlined portion in the text as a whole?",
     "choices": [
       {
@@ -111,7 +111,7 @@
       },
       {
         "label": "B",
-        "text": "It emphasizes a difference between the research on praying mantis vision and research on other animals’ vision."
+        "text": "It emphasizes a difference between the research on praying mantis vision and research on other animals' vision."
       },
       {
         "label": "C",
@@ -198,7 +198,7 @@
     "difficulty": "Medium",
     "question_number": 7,
     "test_name": "Module Source 206 Eng M1",
-    "passage": "According to the text, what change coincided with Don Jerónimo becoming a patron of the theater?\nThe following text is adapted from Armando Palacio Valdés’s short story “*The Love of Clotilde*,” originally published in Spanish in 1884.\nIt was said that in [Don Jerónimo’s] youth he once wrote a play which won him nothing but hisses and free entry for life behind the scenes of the theaters. Whether resigned or not to the verdict of the public, he ceased to write plays and assumed instead the nobler rôle of patron to unrecognized authors and artists and to ruined managers.\nAny youth from the provinces who arrived in Madrid with a drama in his pocket could take no surer road to seeing it produced than that which led to the home of Don Jerónimo. One and all, he received them with open arms, the good and the bad alike.",
+    "passage": "According to the text, what change coincided with Don Jerónimo becoming a patron of the theater?\nThe following text is adapted from Armando Palacio Valdés's short story \"*The Love of Clotilde*,\" originally published in Spanish in 1884.\nIt was said that in [Don Jerónimo's] youth he once wrote a play which won him nothing but hisses and free entry for life behind the scenes of the theaters. Whether resigned or not to the verdict of the public, he ceased to write plays and assumed instead the nobler rôle of patron to unrecognized authors and artists and to ruined managers.\nAny youth from the provinces who arrived in Madrid with a drama in his pocket could take no surer road to seeing it produced than that which led to the home of Don Jerónimo. One and all, he received them with open arms, the good and the bad alike.",
     "question_text": "According to the text, what change coincided with Don Jerónimo becoming a patron of the theater?",
     "choices": [
       {
@@ -345,19 +345,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "“Singly [the men around Newland] betrayed their inferiority; but grouped together they represented ‘New York,’ and the habit of masculine solidarity made him accept their doctrine on all the issues called moral.”"
+        "text": "\"Singly [the men around Newland] betrayed their inferiority; but grouped together they represented 'New York,' and the habit of masculine solidarity made him accept their doctrine on all the issues called moral.\""
       },
       {
         "label": "B",
-        "text": "“Newland Archer, leaning against the wall at the back of the club box [where his seat was], turned his eyes from the stage and scanned the opposite side of the house.”"
+        "text": "\"Newland Archer, leaning against the wall at the back of the club box [where his seat was], turned his eyes from the stage and scanned the opposite side of the house.\""
       },
       {
         "label": "C",
-        "text": "“Newland Archer felt himself distinctly the superior of these chosen specimens of old New York gentility; he had probably read more, thought more, and even seen a good deal more of the world, than any other man of the number.”"
+        "text": "\"Newland Archer felt himself distinctly the superior of these chosen specimens of old New York gentility; he had probably read more, thought more, and even seen a good deal more of the world, than any other man of the number.\""
       },
       {
         "label": "D",
-        "text": "“To come to the Opera in a [carriage for hire] was almost as honourable a way of arriving as in one’s own carriage.”"
+        "text": "\"To come to the Opera in a [carriage for hire] was almost as honourable a way of arriving as in one's own carriage.\""
       }
     ],
     "is_fill_in_blank": false,
@@ -372,8 +372,8 @@
     "difficulty": "Medium",
     "question_number": 12,
     "test_name": "Module Source 206 Eng M1",
-    "passage": "Which choice best describes data from the graph that support the student’s claim?\nIn a college course on urban affairs, a student asserts that increased traffic congestion in the United States in the 1990s was present both in very large cities such as New York City, New York, and smaller areas such as Albuquerque, New Mexico, and Boise, Idaho; though those smaller areas may have been less affected by traffic congestion than very large cities, this congestion also worsened in them over time.",
-    "question_text": "Which choice best describes data from the graph that support the student’s claim?",
+    "passage": "Which choice best describes data from the graph that support the student's claim?\nIn a college course on urban affairs, a student asserts that increased traffic congestion in the United States in the 1990s was present both in very large cities such as New York City, New York, and smaller areas such as Albuquerque, New Mexico, and Boise, Idaho; though those smaller areas may have been less affected by traffic congestion than very large cities, this congestion also worsened in them over time.",
+    "question_text": "Which choice best describes data from the graph that support the student's claim?",
     "choices": [
       {
         "label": "A",
@@ -411,7 +411,7 @@
     "difficulty": "Medium",
     "question_number": 13,
     "test_name": "Module Source 206 Eng M1",
-    "passage": "Which choice most logically completes the text?\nArthurian legends (tales related to the character of King Arthur) derive from many sources, such as *Annales Cambriae*, composed around 970, and the *Mabinogion* from the 12th and 13th centuries. One of the most significant sources, Geoffrey of Monmouth’s *History of the Kings of Britain*, was written in Latin in the 1130s; some material from it was later adapted by the Norman poet Wace into the *Roman de Brut* in 1155. But while no source before 1155 includes references to the famous Round Table at which Arthur’s knights assembled, both the *Roman de Brut* and Sir Thomas Malory’s 15th-century compilation of Arthurian legends, *Le Morte d’Arthur*, do. It can therefore be inferred that___",
+    "passage": "Which choice most logically completes the text?\nArthurian legends (tales related to the character of King Arthur) derive from many sources, such as *Annales Cambriae*, composed around 970, and the *Mabinogion* from the 12th and 13th centuries. One of the most significant sources, Geoffrey of Monmouth's *History of the Kings of Britain*, was written in Latin in the 1130s; some material from it was later adapted by the Norman poet Wace into the *Roman de Brut* in 1155. But while no source before 1155 includes references to the famous Round Table at which Arthur's knights assembled, both the *Roman de Brut* and Sir Thomas Malory's 15th-century compilation of Arthurian legends, *Le Morte d'Arthur*, do. It can therefore be inferred that___",
     "question_text": "Which choice most logically completes the text?",
     "choices": [
       {
@@ -420,7 +420,7 @@
       },
       {
         "label": "B",
-        "text": "Geoffrey of Monmouth’s accounts of Arthurian legends in his History are more similar overall in content to the accounts in the *Mabinogion* than they are to the accounts in *Roman de Brut*."
+        "text": "Geoffrey of Monmouth's accounts of Arthurian legends in his History are more similar overall in content to the accounts in the *Mabinogion* than they are to the accounts in *Roman de Brut*."
       },
       {
         "label": "C",
@@ -428,7 +428,7 @@
       },
       {
         "label": "D",
-        "text": "*Le Morte d’Arthur* is more historically accurate than *History* because the *Mabinogion* had not been written when Geoffrey of Monmouth was writing his work."
+        "text": "*Le Morte d'Arthur* is more historically accurate than *History* because the *Mabinogion* had not been written when Geoffrey of Monmouth was writing his work."
       }
     ],
     "is_fill_in_blank": false,
@@ -443,20 +443,20 @@
     "difficulty": "Medium",
     "question_number": 14,
     "test_name": "Module Source 206 Eng M1",
-    "passage": "Which choice most logically completes the text?\nConventional theories of rhetoric hold that presenting information as coming from credentialed experts increases that information’s credibility. When communications researcher Sungkyoung Lee and her colleagues tested messages seeking volunteers for clinical trials, however, they found that participants in their study judged recruitment messages from former trial volunteers as significantly more credible than messages from doctors (i.e., credentialed experts). One reason for this may be that the doctors’ status as credentialed experts wasn’t ignored but rather was outweighed by participants’ views of the experiential relevance of the two types of messengers; that is, participants may have reacted the way they did because___",
+    "passage": "Which choice most logically completes the text?\nConventional theories of rhetoric hold that presenting information as coming from credentialed experts increases that information's credibility. When communications researcher Sungkyoung Lee and her colleagues tested messages seeking volunteers for clinical trials, however, they found that participants in their study judged recruitment messages from former trial volunteers as significantly more credible than messages from doctors (i.e., credentialed experts). One reason for this may be that the doctors' status as credentialed experts wasn't ignored but rather was outweighed by participants' views of the experiential relevance of the two types of messengers; that is, participants may have reacted the way they did because___",
     "question_text": "Which choice most logically completes the text?",
     "choices": [
       {
         "label": "A",
-        "text": "participants regarded the experiences of both the doctors and former trial volunteers as relevant to the subject of clinical trials but were skeptical of the doctors’ status as credentialed experts."
+        "text": "participants regarded the experiences of both the doctors and former trial volunteers as relevant to the subject of clinical trials but were skeptical of the doctors' status as credentialed experts."
       },
       {
         "label": "B",
-        "text": "the fact that former trial volunteers went through the same experience that participants were contemplating while doctors did not was more important to participants than the doctors’ status as credentialed experts was."
+        "text": "the fact that former trial volunteers went through the same experience that participants were contemplating while doctors did not was more important to participants than the doctors' status as credentialed experts was."
       },
       {
         "label": "C",
-        "text": "participants did not have enough experience to evaluate the credibility of the doctors’ messages but did have enough experience to evaluate the credibility of former trial volunteers’ messages."
+        "text": "participants did not have enough experience to evaluate the credibility of the doctors' messages but did have enough experience to evaluate the credibility of former trial volunteers' messages."
       },
       {
         "label": "D",
@@ -571,7 +571,7 @@
     "difficulty": "Medium",
     "question_number": 18,
     "test_name": "Module Source 206 Eng M1",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAmong the world’s largest deserts are the Chihuahuan Desert, ranked___and the Taklamakan Desert, ranked seventeenth.",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAmong the world's largest deserts are the Chihuahuan Desert, ranked___and the Taklamakan Desert, ranked seventeenth.",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {
@@ -612,7 +612,7 @@
       },
       {
         "label": "B",
-        "text": "they’re"
+        "text": "they're"
       },
       {
         "label": "C",
@@ -620,7 +620,7 @@
       },
       {
         "label": "D",
-        "text": "it’s"
+        "text": "it's"
       }
     ],
     "is_fill_in_blank": false,
@@ -667,7 +667,7 @@
     "difficulty": "Medium",
     "question_number": 21,
     "test_name": "Module Source 206 Eng M1",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nOn August 21, 1986, American astronomers detected an extremely bright light, which they identified as a *supernova* (the explosion of a massive star) occurring 30 million light-years from Earth. It began to dim over the next few<u>______</u>although they are extremely powerful, *supernovas* are short-lived phenomena.",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nOn August 21, 1986, American astronomers detected an extremely bright light, which they identified as a *supernova* (the explosion of a massive star) occurring 30 million light-years from Earth. It began to dim over the next few ______ although they are extremely powerful, *supernovas* are short-lived phenomena.",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {
@@ -731,8 +731,8 @@
     "difficulty": "Easy",
     "question_number": 23,
     "test_name": "Module Source 206 Eng M1",
-    "passage": "The student wants to provide an example of a dinosaur fossil specimen’s nickname. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Dinosaur fossil specimens can be found at science museums all over the world.\n• Many dinosaur fossil specimens are given nicknames.\n• The Field Museum of Natural History in Chicago, Illinois, houses a dinosaur fossil specimen nicknamed Sue.\n• Sue lived in the Late Cretaceous period, which ended more than 65 million years ago.\n• It is a member of the genus *Tyrannosaurus*.",
-    "question_text": "The student wants to provide an example of a dinosaur fossil specimen’s nickname. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "passage": "The student wants to provide an example of a dinosaur fossil specimen's nickname. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Dinosaur fossil specimens can be found at science museums all over the world.\n• Many dinosaur fossil specimens are given nicknames.\n• The Field Museum of Natural History in Chicago, Illinois, houses a dinosaur fossil specimen nicknamed Sue.\n• Sue lived in the Late Cretaceous period, which ended more than 65 million years ago.\n• It is a member of the genus *Tyrannosaurus*.",
+    "question_text": "The student wants to provide an example of a dinosaur fossil specimen's nickname. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
     "choices": [
       {
         "label": "A",
@@ -763,7 +763,7 @@
     "difficulty": "Medium",
     "question_number": 24,
     "test_name": "Module Source 206 Eng M1",
-    "passage": "Which choice most effectively uses information from the given sentences to emphasize how Wilkerson documents the Great Migration?\nWhile researching a topic, a student has taken the following notes:\n• Historian Isabel Wilkerson’s book *The Warmth of Other Suns* is about the Great Migration.\n• The Great Migration was a period in twentieth-century US history when over six million African Americans moved from the rural South to cities such as Milwaukee, Wisconsin.\n• To document this period, Wilkerson narrates the personal journeys of Ida Mae Gladney and Robert Pershing Foster, among others.\n• The book won the Mark Lynton History Prize in 2011.\n• It also won the Hurston/Wright Legacy Award in 2011.",
+    "passage": "Which choice most effectively uses information from the given sentences to emphasize how Wilkerson documents the Great Migration?\nWhile researching a topic, a student has taken the following notes:\n• Historian Isabel Wilkerson's book *The Warmth of Other Suns* is about the Great Migration.\n• The Great Migration was a period in twentieth-century US history when over six million African Americans moved from the rural South to cities such as Milwaukee, Wisconsin.\n• To document this period, Wilkerson narrates the personal journeys of Ida Mae Gladney and Robert Pershing Foster, among others.\n• The book won the Mark Lynton History Prize in 2011.\n• It also won the Hurston/Wright Legacy Award in 2011.",
     "question_text": "Which choice most effectively uses information from the given sentences to emphasize how Wilkerson documents the Great Migration?",
     "choices": [
       {
@@ -780,7 +780,7 @@
       },
       {
         "label": "D",
-        "text": "In 2011, Isabel Wilkerson’s book *The Warmth of Other Suns* won not only the Mark Lynton History Prize but also the Hurston/Wright Legacy Award."
+        "text": "In 2011, Isabel Wilkerson's book *The Warmth of Other Suns* won not only the Mark Lynton History Prize but also the Hurston/Wright Legacy Award."
       }
     ],
     "is_fill_in_blank": false,
@@ -800,7 +800,7 @@
     "choices": [
       {
         "label": "A",
-        "text": "Although sea palm and ma-konbu are types of brown seaweed, the latter’s umami flavor is more intense."
+        "text": "Although sea palm and ma-konbu are types of brown seaweed, the latter's umami flavor is more intense."
       },
       {
         "label": "B",
@@ -827,7 +827,7 @@
     "difficulty": "Medium",
     "question_number": 26,
     "test_name": "Module Source 206 Eng M1",
-    "passage": "Which choice most effectively uses information from the given sentences to emphasize when Amir Pnueli won the A.M. Turing Award?\nWhile researching a topic, a student has taken the following notes:\n• The A.M. Turing Award is a prestigious award given by the Association for Computing Machinery (ACM).\n• The ACM gives the award for “major contributions of lasting importance to computing.”\n• Amir Pnueli won the award in 1996 for seminal work introducing temporal logic into computing science.",
+    "passage": "Which choice most effectively uses information from the given sentences to emphasize when Amir Pnueli won the A.M. Turing Award?\nWhile researching a topic, a student has taken the following notes:\n• The A.M. Turing Award is a prestigious award given by the Association for Computing Machinery (ACM).\n• The ACM gives the award for \"major contributions of lasting importance to computing.\"\n• Amir Pnueli won the award in 1996 for seminal work introducing temporal logic into computing science.",
     "question_text": "Which choice most effectively uses information from the given sentences to emphasize when Amir Pnueli won the A.M. Turing Award?",
     "choices": [
       {
@@ -840,7 +840,7 @@
       },
       {
         "label": "C",
-        "text": "The prestigious A.M. Turing Award is given for “major contributions of lasting importance to computing.”"
+        "text": "The prestigious A.M. Turing Award is given for \"major contributions of lasting importance to computing.\""
       },
       {
         "label": "D",
@@ -864,11 +864,11 @@
     "choices": [
       {
         "label": "A",
-        "text": "While the number of figures may differ, constant among Rawles’s hyperrealistic works is the tranquil mood that the paintings evoke."
+        "text": "While the number of figures may differ, constant among Rawles's hyperrealistic works is the tranquil mood that the paintings evoke."
       },
       {
         "label": "B",
-        "text": "In Rawles’s painting *New Day Coming*, a woman is depicted on the left side of the canvas."
+        "text": "In Rawles's painting *New Day Coming*, a woman is depicted on the left side of the canvas."
       },
       {
         "label": "C",
@@ -876,7 +876,7 @@
       },
       {
         "label": "D",
-        "text": "At 48 by 120 inches, Rawles’s *New Day Coming* is even larger than the sizable 48-by-60-inch painting *Yesterday Called and Said We Were Together*."
+        "text": "At 48 by 120 inches, Rawles's *New Day Coming* is even larger than the sizable 48-by-60-inch painting *Yesterday Called and Said We Were Together*."
       }
     ],
     "is_fill_in_blank": false,

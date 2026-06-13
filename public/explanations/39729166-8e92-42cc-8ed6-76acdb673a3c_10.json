@@ -9,11 +9,11 @@
     },
     {
       "title": "Solve",
-      "content": "Divide both sides by $c^6$: $c^2 = 49$. Take the positive root (since $c > 1$): $c = 7$."
+      "content": "Divide both sides by $c^6$: $c^2 = 49$. Take the positive root (since $c \\gt  1$): $c = 7$."
     },
     {
       "title": "Answer",
-      "content": "<strong>7</strong> is correct."
+      "content": "<strong>7</strong> is correct. Since the base of an exponential function is positive and the problem states $c \\gt 1$, use the positive square root rather than $-7$."
     }
   ]
 }

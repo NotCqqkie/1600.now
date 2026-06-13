@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Analyze $f(x)=-6(3)^x-3$",
-      "content": "The base $3>1$ makes $(3)^x$ grow without bound as $x\\to\\infty$, and the $-6$ coefficient flips the sign, so $-6(3)^x\\to-\\infty$. Thus $f(x)\\to-\\infty$ as $x\\to\\infty$, meaning $f$ has no minimum value. The horizontal asymptote $y=-3$ is approached as $x\\to-\\infty$ but never attained."
+      "content": "The base $3\\gt 1$ makes $(3)^x$ grow without bound as $x\\to\\infty$, and the $-6$ coefficient flips the sign, so $-6(3)^x\\to-\\infty$. Thus $f(x)\\to-\\infty$ as $x\\to\\infty$, meaning $f$ has no minimum value. The horizontal asymptote $y=-3$ is approached as $x\\to-\\infty$ but never attained."
     },
     {
       "title": "Analyze $g(x)=-3(6)^x$",
@@ -13,7 +13,7 @@
     },
     {
       "title": "Choose the statement",
-      "content": "Neither function has a minimum value of $-3$: both continue decreasing without bound. That matches choice <strong>D</strong>."
+      "content": "Neither function has a minimum value of $-3$: both continue decreasing without bound. That matches <strong>Choice D &mdash; Neither I nor II</strong>."
     }
   ]
 }

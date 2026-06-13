@@ -1,1 +1,15 @@
-{"questionId":"2c075bfa-775c-45f6-b974-0ac7c4fdc195_1","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage says the mihrab is foundational to traditional mosque architecture and that &apos;therefore&apos; it is considered a certain aspect of design. &apos;Therefore&apos; signals the blank restates &apos;foundational&apos; — something definitively essential. The second sentence reinforces this: mihrabs appear in all mosques regardless of style."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;unprecedented&apos;</strong>: Means never seen before — contradicts the foundational, long-established role of the mihrab. &#10007;</li><li><strong>Choice B &mdash; &apos;embellished&apos;</strong>: Describes decoration or ornamentation, not structural or essential importance. &#10007;</li><li><strong>Choice C &mdash; &apos;imposing&apos;</strong>: Describes visual scale or grandeur, not whether something is definitively essential to a tradition. &#10007;</li><li><strong>Choice D &mdash; &apos;quintessential&apos;</strong>: Means &apos;the most perfect or typical example of&apos; — directly extends &apos;foundational&apos; by expressing that the mihrab is definitively essential and characteristic of mosque design. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_1",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage says the mihrab is foundational to traditional mosque architecture and that &apos;therefore&apos; it is considered a certain aspect of design. &apos;Therefore&apos; signals the blank restates &apos;foundational&apos; — something definitively essential. The second sentence reinforces this: mihrabs appear in all mosques regardless of style."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — an unprecedented</strong>: Means never seen before — contradicts the foundational, long-established role of the mihrab. &#10007;</li><li><strong>Choice B — an embellished</strong>: Describes decoration or ornamentation, not structural or essential importance. &#10007;</li><li><strong>Choice C — an imposing</strong>: Describes visual scale or grandeur, not whether something is definitively essential to a tradition. &#10007;</li><li><strong>Choice D — a quintessential</strong>: Means &apos;the most perfect or typical example of&apos; — directly extends &apos;foundational&apos; by expressing that the mihrab is definitively essential and characteristic of mosque design. &#10003;</li></ul><strong>D</strong> is correct."
+    }
+  ]
+}

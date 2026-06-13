@@ -9,11 +9,11 @@
     },
     {
       "title": "Decide minimum or maximum",
-      "content": "Since $a = \\frac{1}{7} > 0$, the parabola opens upward, so the vertex gives a minimum. The minimum height is $k = 4$ inches, occurring at $x = 6$ seconds (not at $x = 0$)."
+      "content": "Since $a = \\frac{1}{7} \\gt  0$, the parabola opens upward, so the vertex gives a minimum. The minimum height is $k = 4$ inches, occurring at $x = 6$ seconds (not at $x = 0$)."
     },
     {
       "title": "Check each choice",
-      "content": "<ul><li>A) Minimum height was 4 inches: matches $k = 4$ with $a > 0$.</li><li>B) Minimum height was 6 inches: 6 is the $x$-coordinate (time), not the height.</li><li>C) Height was 4 inches when it started: at $x = 0$, $f(0) = \\frac{36}{7} + 4 \\approx 9.14$, not 4.</li><li>D) Height was 6 inches when it started: same issue, and 6 is the time of the minimum.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li><strong>The toy car's minimum height was 4 inches above the ground.</strong>: Minimum height was 4 inches: matches $k = 4$ with $a \\gt  0$.</li><li><strong>The toy car's minimum height was 6 inches above the ground.</strong>: Minimum height was 6 inches: 6 is the $x$-coordinate (time), not the height.</li><li><strong>The toy car's height was 4 inches above the ground when it started moving.</strong>: Height was 4 inches when it started: at $x = 0$, $f(0) = \\frac{36}{7} + 4 \\approx 9.14$, not 4.</li><li><strong>The toy car's height was 6 inches above the ground when it started moving.</strong>: Height was 6 inches when it started: same issue, and 6 is the time of the minimum.</li></ul>That matches the correct answer — <strong>A</strong> is correct."
     }
   ]
 }

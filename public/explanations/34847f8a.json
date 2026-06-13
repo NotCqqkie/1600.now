@@ -9,7 +9,7 @@
     },
     {
       "title": "Match numerators to find r and t",
-      "content": "Since the left side equals the right side:<br/>$$\\frac{5x+4}{(x-2)(x+5)}=\\frac{rx+t}{(x-2)(x+5)}$$<br/>The denominators already match, so the numerators must match for every valid $x$: $$5x+4=rx+t$$<br/>Therefore $r=5$ and $t=4$, so $$rt=5\\cdot4=20.$$ That matches choice C, so <strong>C</strong> is correct."
+      "content": "Since the left side equals the right side:<br/>$$\\frac{5x+4}{(x-2)(x+5)}=\\frac{rx+t}{(x-2)(x+5)}$$<br/>The denominators already match, so the numerators must match for every valid $x$: $$5x+4=rx+t$$<br/>Therefore $r=5$ and $t=4$, so $$rt=5\\cdot4=20.$$ This matches, so <strong>C</strong> is correct."
     }
   ]
 }

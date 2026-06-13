@@ -10,7 +10,7 @@
     },
     {
       "title": "Calculate the area scale factor and match the answer",
-      "content": "The area of square A is $246^2$ times the area of square B, so $k = 246^2$.<br/>Computing: $246^2 = 60{,}516$<br/>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "The area of square A is $246^2$ times the area of square B, so $k = 246^2$.<br/>Computing: $246^2 = 60{,}516$<br/>That matches <strong>Choice A &mdash; $60,516$</strong>."
     }
   ]
 }

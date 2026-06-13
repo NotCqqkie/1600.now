@@ -1,1 +1,15 @@
-{"questionId": "b411eb09", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the contrast signal", "content": "The word <strong>though</strong> signals a contrast: “there have been many studies” of high altitude effects versus “[blank]” studies of below sea level effects."}, {"title": "Apply the contrast to find the right word", "content": "“Paucity of” means scarcity or lack, which expresses the opposite of “many” and creates the necessary contrast.<br/><br/>The other choices either reference dispute (“quarrel about”), abundance (“profusion of”), or appearance of truth (“verisimilitude in”), none of which create opposition to “many.” That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "b411eb09",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the contrast signal",
+      "content": "The word <strong>though</strong> signals a contrast: “there have been many studies” of high altitude effects versus “[blank]” studies of below sea level effects."
+    },
+    {
+      "title": "Apply the contrast to find the right word",
+      "content": "“Paucity of” means scarcity or lack, which expresses the opposite of “many” and creates the necessary contrast.<br/><br/>The other choices either reference dispute (“quarrel about”), abundance (“profusion of”), or appearance of truth (“verisimilitude in”), none of which create opposition to “many.” That is the correct answer."
+    }
+  ]
+}

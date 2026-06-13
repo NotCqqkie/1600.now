@@ -1,1 +1,15 @@
-{"questionId":"487a05f8","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"This is a &quot;according to the text&quot; comprehension question. The passage opens with a direct statement of what the narrator and Mario did during the car ride; the correct choice must match that statement exactly."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;They read books.&apos;</strong>: The passage never mentions reading during the car ride. &#10007;</li><li><strong>Choice B &mdash; &apos;They sang songs.&apos;</strong>: The passage never mentions singing during the car ride. &#10007;</li><li><strong>Choice C &mdash; &apos;They went to sleep.&apos;</strong>: The passage never mentions sleeping during the car ride. &#10007;</li><li><strong>Choice D &mdash; &apos;They played games.&apos;</strong>: The passage states directly that &quot;Mario and I played games to see how many different license plates we could spot.&quot; &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "487a05f8",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a &quot;according to the text&quot; comprehension question. The passage opens with a direct statement of what the narrator and Mario did during the car ride; the correct choice must match that statement exactly."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — They read books.</strong>: The passage never mentions reading during the car ride. &#10007;</li><li><strong>Choice B — They sang songs.</strong>: The passage never mentions singing during the car ride. &#10007;</li><li><strong>Choice C — They went to sleep.</strong>: The passage never mentions sleeping during the car ride. &#10007;</li><li><strong>Choice D — They played games.</strong>: The passage states directly that &quot;Mario and I played games to see how many different license plates we could spot.&quot; &#10003;</li></ul><strong>D</strong> is correct."
+    }
+  ]
+}

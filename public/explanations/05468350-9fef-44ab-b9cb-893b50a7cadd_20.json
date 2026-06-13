@@ -8,12 +8,12 @@
       "content": "We have ∠A = ∠P = 52°. For AA similarity, two pairs of equal angles are sufficient. We need to find one more matching angle pair."
     },
     {
-      "title": "Test choice C",
-      "content": "Backsolving — testing choice C (∠B = 40°, ∠R = 88°):<br/><br/>In triangle ABC with ∠A = 52°, ∠B = 40°:<br/>∠C = 180° - 52° - 40° = 88°<br/>Angles: 52°, 40°, 88°<br/><br/>In triangle PQR with ∠P = 52°, ∠R = 88°:<br/>∠Q = 180° - 52° - 88° = 40°<br/>Angles: 52°, 40°, 88°<br/><br/>All angles match ✓"
+      "title": "Test <strong>Choice C &mdash; The measures of angle B and angle R are 40° and 88°, respectively.</strong>",
+      "content": "Backsolving — testing <strong>Choice C &mdash; The measures of angle B and angle R are 40° and 88°, respectively.</strong> (∠B = 40°, ∠R = 88°):<br/><br/>In triangle ABC with ∠A = 52°, ∠B = 40°:<br/>∠C = 180° - 52° - 40° = 88°<br/>Angles: 52°, 40°, 88°<br/><br/>In triangle PQR with ∠P = 52°, ∠R = 88°:<br/>∠Q = 180° - 52° - 88° = 40°<br/>Angles: 52°, 40°, 88°<br/><br/>All angles match ✓"
     },
     {
       "title": "Confirm similarity",
-      "content": "Both triangles have angles 52°, 40°, 88°. With ∠A = ∠P and ∠B = ∠Q, the AA criterion is satisfied, so △ABC ∼ △PQR. That matches choice C — <strong>C</strong> is correct."
+      "content": "Both triangles have angles 52°, 40°, 88°. With ∠A = ∠P and ∠B = ∠Q, the AA criterion is satisfied, so △ABC ∼ △PQR. That matches <strong>Choice C &mdash; The measures of angle B and angle R are 40° and 88°, respectively.</strong>."
     }
   ]
 }

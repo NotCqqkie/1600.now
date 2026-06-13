@@ -1,1 +1,15 @@
-{"questionId":"b5bd285b-0705-476c-ac24-58aa076fb71a_16","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank opens an introductory phrase (&ldquo;______ in 1557&rdquo;) that precedes the comma and the main clause &ldquo;her painting can now be found at the Walters Art Museum.&rdquo; An introductory verbal phrase must begin with a participle. Because the painting was completed in the past (1557), a past participle is required."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;Will complete&rsquo;</strong>: future tense. A finite future-tense verb cannot begin an introductory participial phrase, and it contradicts the past date 1557. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Completed&rsquo;</strong>: past participle. &ldquo;Completed in 1557&rdquo; is a correct introductory participial phrase modifying <em>her painting</em>. &#10003;</li><li><strong>Choice C &mdash; &lsquo;Completes&rsquo;</strong>: finite present-tense verb. A finite verb cannot begin an introductory participial phrase, and present tense contradicts 1557. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Was completed&rsquo;</strong>: finite past passive verb. This creates a second independent clause and a comma splice, not an introductory participial phrase. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "b5bd285b-0705-476c-ac24-58aa076fb71a_16",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank opens an introductory phrase (&ldquo;______ in 1557&rdquo;) that precedes the comma and the main clause &ldquo;her painting can now be found at the Walters Art Museum.&rdquo; An introductory verbal phrase must begin with a participle. Because the painting was completed in the past (1557), a past participle is required."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Will complete</strong>: future tense. A finite future-tense verb cannot begin an introductory participial phrase, and it contradicts the past date 1557. &#10007;</li><li><strong>Choice B &mdash; Completed</strong>: past participle. &ldquo;Completed in 1557&rdquo; is a correct introductory participial phrase modifying <em>her painting</em>. &#10003;</li><li><strong>Choice C &mdash; Completes</strong>: finite present-tense verb. A finite verb cannot begin an introductory participial phrase, and present tense contradicts 1557. &#10007;</li><li><strong>Choice D &mdash; Was completed</strong>: finite past passive verb. This creates a second independent clause and a comma splice, not an introductory participial phrase. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

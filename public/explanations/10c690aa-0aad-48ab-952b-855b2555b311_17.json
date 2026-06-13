@@ -9,11 +9,11 @@
     },
     {
       "title": "Isolate y algebraically",
-      "content": "Multiply both sides by $x$:<br/>$$y - 34 = px$$<br/><br/>Add 34 to both sides:<br/>$$y = px + 34$$<br/><br/>This is choice B."
+      "content": "Multiply both sides by $x$:<br/>$$y - 34 = px$$<br/><br/>Add 34 to both sides:<br/>$$y = px + 34$$<br/><br/>This is <strong>Choice B &mdash; $y = px + 34$</strong>."
     },
     {
       "title": "Eliminate the other choices",
-      "content": "<ul><li><strong>A ($y = 34x + p$)</strong>: Rearranging gives $\\frac{y-p}{x} = 34$, not $p$. Eliminated.</li><li><strong>C ($y = 34px$)</strong>: Rearranging gives $\\frac{y}{34x} = p$, not $\\frac{y-34}{x}$. Eliminated.</li><li><strong>D ($y = \\frac{px}{34}$)</strong>: Rearranging gives $\\frac{34y}{x} = p$, not $\\frac{y-34}{x}$. Eliminated.</li></ul>That matches choice B — <strong>B</strong> is correct."
+      "content": "<ul><li><strong>A ($y = 34x + p$)</strong>: Rearranging gives $\\frac{y-p}{x} = 34$, not $p$. Eliminated.</li><li><strong>C ($y = 34px$)</strong>: Rearranging gives $\\frac{y}{34x} = p$, not $\\frac{y-34}{x}$. Eliminated.</li><li><strong>D ($y = \\frac{px}{34}$)</strong>: Rearranging gives $\\frac{34y}{x} = p$, not $\\frac{y-34}{x}$. Eliminated.</li></ul>That matches <strong>Choice B &mdash; $y = px + 34$</strong>."
     }
   ]
 }

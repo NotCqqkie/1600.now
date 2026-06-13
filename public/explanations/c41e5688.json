@@ -9,7 +9,7 @@
     },
     {
       "title": "Pick the inequality direction from the shading",
-      "content": "Test the shaded point $(0,0)$ in $y>-1-3x$: $0>-1$ ✓, and the dashed boundary confirms a strict inequality. So $$y>-1-3x.$$ That matches choice <strong>D</strong> — <strong>D</strong> is correct."
+      "content": "Test the shaded point $(0,0)$ in $y\\gt-1-3x$: $0\\gt-1$ ✓, and the dashed boundary confirms a strict inequality. So $$y\\gt-1-3x.$$ That is the correct answer."
     }
   ]
 }

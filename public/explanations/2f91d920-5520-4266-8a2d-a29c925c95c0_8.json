@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the width change to find the new length",
-      "content": "When width increases from $W$ to $W + 7$, the new length must maintain the same relationship:<br/>$$L_{\\text{new}} = 2.5(W + 7) = 2.5W + 17.5$$<br/>Since the original length is $L = 2.5W$, we have $L_{\\text{new}} = L + 17.5$.<br/><br/>The length must increase by 17.5 units. That matches choice C — <strong>C</strong> is correct."
+      "content": "When width increases from $W$ to $W + 7$, the new length must maintain the same relationship:<br/>$$L_{\\text{new}} = 2.5(W + 7) = 2.5W + 17.5$$<br/>Since the original length is $L = 2.5W$, we have $L_{\\text{new}} = L + 17.5$.<br/><br/>The length must increase by 17.5 units. <strong>C</strong> is correct."
     }
   ]
 }

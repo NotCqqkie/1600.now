@@ -1,4 +1,5 @@
 {
+  "questionId": "6a305cd0",
   "qid": "6a305cd0",
   "correctAnswer": "C",
   "steps": [
@@ -12,7 +13,7 @@
       "text": "The most appropriate conclusion is that the population mean lies within this interval, not definitively above or below 37."
     },
     {
-      "text": "<ul><li><strong>A</strong> &mdash; &ldquo;Less than 37&rdquo; ignores values from 37 to 40 that are in the interval. Eliminated.</li><li><strong>B</strong> &mdash; &ldquo;Greater than 37&rdquo; ignores values from 34 to 37 that are in the interval. Eliminated.</li><li><strong>C</strong> &mdash; &ldquo;Between 34 and 40&rdquo; matches exactly $37 \\pm 3$. That matches choice C &mdash; <strong>C</strong> is correct.</li><li><strong>D</strong> &mdash; &ldquo;Less than 34 or greater than 40&rdquo; describes values outside the interval. Eliminated.</li></ul>"
+      "text": "<ul><li><strong>A</strong> &mdash; &ldquo;Less than 37&rdquo; ignores values from 37 to 40 that are in the interval. Eliminated.</li><li><strong>B</strong> &mdash; &ldquo;Greater than 37&rdquo; ignores values from 34 to 37 that are in the interval. Eliminated.</li><li><strong>C</strong> &mdash; &ldquo;Between 34 and 40&rdquo; matches exactly $37 \\pm 3$. That confirms <strong>C</strong> is correct.</li><li><strong>D</strong> &mdash; &ldquo;Less than 34 or greater than 40&rdquo; describes values outside the interval. Eliminated.</li></ul>"
     }
   ]
 }

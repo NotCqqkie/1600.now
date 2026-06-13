@@ -1,1 +1,15 @@
-{"questionId": "d52fca9f", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the behavioral signal in Walsh's finding", "content": "Walsh documented that social platforms make users mindful of being perceived, which then changes how they manage their listening. The signal to identify is a direct admission from a user that others watching influences what songs they choose."}, {"title": "Match the signal to the correct quote", "content": "Choice A is the only quote showing this: the user picks songs based on what friends following them might like rather than personal preference.<br/><br/>B, C, and D address algorithmic recommendations, shared listening experiences, and passive vs. active consumption—none demonstrate perception shaping choices.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "d52fca9f",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the behavioral signal in Walsh's finding",
+      "content": "Walsh documented that social platforms make users mindful of being perceived, which then changes how they manage their listening. The signal to identify is a direct admission from a user that others watching influences what songs they choose."
+    },
+    {
+      "title": "Match the signal to the correct quote",
+      "content": "<strong>\"When I create playlists or choose songs to listen to, I often pick songs that I think the friends who are following me might be interested in listening to, rather than what I might actually prefer listening to in that moment.\"</strong> is the only quote showing this: the user picks songs based on what friends following them might like rather than personal preference.<br/><br/>B, C, and D address algorithmic recommendations, shared listening experiences, and passive vs. active consumption—none demonstrate perception shaping choices.<br/><br/>That matches the correct answer — <strong>A</strong> is correct."
+    }
+  ]
+}

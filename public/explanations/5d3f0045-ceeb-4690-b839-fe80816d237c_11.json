@@ -1,1 +1,15 @@
-{"questionId": "5d3f0045-ceeb-4690-b839-fe80816d237c_11", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "Grasby et al. investigated whether perceived category similarity <strong>predicts</strong> consumers' likelihood of purchasing brand extensions.<br/><br/>Evidence would be a correlation between the two: when similarity is rated high, probability changes must be high; when similarity is rated low, probability changes must be low."}, {"title": "Apply the signal to the choices", "content": "C shows exactly this: a strong positive correlation between similarity ratings and probability changes.<br/><br/>The other choices either measure unrelated variables (A discusses overall purchase volume), introduce a confound without showing the core relationship (B attributes both to brand recognition), or show the opposite (D: ratings varied while probability changes stayed similar).<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "5d3f0045-ceeb-4690-b839-fe80816d237c_11",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "Grasby et al. investigated whether perceived category similarity <strong>predicts</strong> consumers' likelihood of purchasing brand extensions.<br/><br/>Evidence would be a correlation between the two: when similarity is rated high, probability changes must be high; when similarity is rated low, probability changes must be low."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "C shows exactly this: a strong positive correlation between similarity ratings and probability changes.<br/><br/>The other choices either measure unrelated variables (A discusses overall purchase volume), introduce a confound without showing the core relationship (B attributes both to brand recognition) or show the opposite (D: ratings varied while probability changes stayed similar).<br/><br/>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

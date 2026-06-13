@@ -9,7 +9,7 @@
     },
     {
       "title": "Solve for x",
-      "content": "Subtract 14 from both sides:<br/>$$4x = 44$$<br/>Divide both sides by 4:<br/>$$x = 11$$<br/>Therefore, 11 games can be played for \\$58."
+      "content": "Subtract 14 from both sides:<br/>$$4x = 44$$<br/>Divide both sides by 4:<br/>$$x = 11$$<br/>The variable $x$ counts games, so the solution means 11 games can be played for \\$58. Each additional game adds \\$4 after the initial \\$14 fee, matching the linear cost model."
     }
   ]
 }

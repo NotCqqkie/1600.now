@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice A says $20$ is the amount earned for each hour at the regular job, which matches the coefficient of $h$. Choice B describes the coefficient of $c$, which is $14$. Choices C and D describe numbers of hours, but those are represented by variables. Therefore <strong>A</strong> is correct."
+      "content": "Choice A (&lsquo;The amount, in dollars, the technician earned for each hour she worked at her regular job&rsquo;) says $20$ is the amount earned for each hour at the regular job, which matches the coefficient of $h$. Choice B (&lsquo;The amount, in dollars, the technician earned for each hour she worked at her second job&rsquo;) describes the coefficient of $c$, which is $14$. The other choices describe numbers of hours, but those are represented by variables. Therefore <strong>A</strong> is correct."
     }
   ]
 }

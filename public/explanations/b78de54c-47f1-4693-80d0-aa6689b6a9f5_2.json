@@ -1,1 +1,15 @@
-{"questionId":"b78de54c-47f1-4693-80d0-aa6689b6a9f5_2","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage says trial results &ldquo;sometimes fail to ______ conclusions that practitioners reach.&rdquo; The explanation is that practitioners overlook confounding variables, so their conclusions are not verified by the trials. The blank needs a word meaning &lsquo;confirm&rsquo; or &lsquo;support.&rsquo;"},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'implement'</strong>: means to put into action; trials don&rsquo;t &lsquo;implement&rsquo; conclusions &mdash; this is the wrong relationship. &#10007;</li><li><strong>Choice B &mdash; 'circumvent'</strong>: means to get around or avoid; &lsquo;fail to circumvent&rsquo; would mean the trials successfully avoided the conclusions, which is not the meaning the passage needs. &#10007;</li><li><strong>Choice C &mdash; 'corroborate'</strong>: means to confirm or support. Trials that &lsquo;fail to corroborate&rsquo; practitioners&rsquo; conclusions means the trial evidence does not back up what practitioners observed &mdash; exactly the divergence the passage describes. &#10003;</li><li><strong>Choice D &mdash; 'disseminate'</strong>: means to spread or distribute widely; trials don&rsquo;t &lsquo;disseminate&rsquo; conclusions &mdash; this is irrelevant to the meaning. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_2",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage says trial results &ldquo;sometimes fail to ______ conclusions that practitioners reach.&rdquo; The explanation is that practitioners overlook confounding variables, so their conclusions are not verified by the trials. The blank needs a word meaning &lsquo;confirm&rsquo; or &lsquo;support.&rsquo;"
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; implement</strong>: means to put into action; trials don&rsquo;t &lsquo;implement&rsquo; conclusions &mdash; this is the wrong relationship. &#10007;</li><li><strong>Choice B &mdash; circumvent</strong>: means to get around or avoid; &lsquo;fail to circumvent&rsquo; would mean the trials successfully avoided the conclusions, which is not the meaning the passage needs. &#10007;</li><li><strong>Choice C &mdash; corroborate</strong>: means to confirm or support. Trials that &lsquo;fail to corroborate&rsquo; practitioners&rsquo; conclusions means the trial evidence does not back up what practitioners observed &mdash; exactly the divergence the passage describes. &#10003;</li><li><strong>Choice D &mdash; disseminate</strong>: means to spread or distribute widely; trials don&rsquo;t &lsquo;disseminate&rsquo; conclusions &mdash; this is irrelevant to the meaning. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

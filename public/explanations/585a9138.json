@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find angle C in triangle ABC using angle sum",
-      "content": "Angle $A = 27°$ and angle $B = 90°$ are given. Angles in a triangle sum to $180°$, so: $$C = 180° - 27° - 90° = 63°$$"
+      "content": "Angle $A = 27^{\\circ}$ and angle $B = 90^{\\circ}$ are given. Angles in a triangle sum to $180^{\\circ}$, so: $$C = 180^{\\circ} - 27^{\\circ} - 90^{\\circ} = 63^{\\circ}$$"
     },
     {
       "title": "Use congruence to find angle F",
-      "content": "The congruence specifies that $A$ corresponds to $D$. Since angle $B = 90°$ and angle $E = 90°$, vertex $B$ corresponds to vertex $E$. Therefore, vertex $C$ corresponds to vertex $F$. <br/> In congruent triangles, corresponding angles are equal, so angle $F = 63°$."
+      "content": "The congruence specifies that $A$ corresponds to $D$. Since angle $B = 90^{\\circ}$ and angle $E = 90^{\\circ}$, vertex $B$ corresponds to vertex $E$. Therefore, vertex $C$ corresponds to vertex $F$. <br/> In congruent triangles, corresponding angles are equal, so angle $F = 63^{\\circ}$."
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the supplementary angles",
-      "content": "When a transversal cuts two parallel lines, the co-interior (same-side) angles are supplementary — they sum to $180°$."
+      "content": "When a transversal cuts two parallel lines, the co-interior (same-side) angles are supplementary — they sum to $180^{\\circ}$."
     },
     {
       "title": "Calculate x",
-      "content": "From the figure, $x$ and the marked $28°$ angle are co-interior angles, so:<br/>$$x + 28° = 180°$$<br/>$$x = 180° - 28° = 152°$$<br/>The answer is <strong>152</strong>."
+      "content": "From the figure, $x$ and the marked $28^{\\circ}$ angle are co-interior angles, so:<br/>$$x + 28^{\\circ} = 180^{\\circ}$$<br/>$$x = 180^{\\circ} - 28^{\\circ} = 152^{\\circ}$$<br/>The answer is <strong>152</strong>."
     }
   ]
 }

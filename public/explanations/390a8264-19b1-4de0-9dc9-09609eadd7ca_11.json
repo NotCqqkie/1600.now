@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Read the table and form the fraction",
-      "content": "The question asks what fraction of even integers are in list A.<br/><br/>From the table: even integers in list A = 12 (row <strong>List A</strong>, column <strong>Even integers</strong>), and total even integers = 52 (row <strong>Total</strong>, column <strong>Even integers</strong>).<br/><br/>The fraction is $$\\frac{12}{52}$$ — that matches choice A — <strong>A</strong> is correct."
+      "content": "The question asks what fraction of even integers are in list A.<br/><br/>From the table: even integers in list A = 12 (row <strong>List A</strong>, column <strong>Even integers</strong>), and total even integers = 52 (row <strong>Total</strong>, column <strong>Even integers</strong>).<br/><br/>The fraction is $$\\frac{12}{52}$$ — that matches the correct answer — <strong>A</strong> is correct."
     }
   ]
 }

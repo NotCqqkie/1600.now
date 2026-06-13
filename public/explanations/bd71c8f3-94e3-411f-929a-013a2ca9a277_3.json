@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; '$5x^{2}(6x+6)$'</strong>: expands to $30x^{3}+30x^{2}$, not $30x^{2}+6x+6$. &#10007;</li><li><strong>Choice B &mdash; '$30x(x+1)$'</strong>: expands to $30x^{2}+30x$, not $30x^{2}+6x+6$. &#10007;</li><li><strong>Choice C &mdash; '$6(5x^{2}+x+1)$'</strong>: expands to $30x^{2}+6x+6$. &#10003;</li><li><strong>Choice D &mdash; '$4(2x^{2}+x+1)$'</strong>: expands to $8x^{2}+4x+4$, not $30x^{2}+6x+6$. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; $5x^2(6x+6)$</strong>: expands to $30x^{3}+30x^{2}$, not $30x^{2}+6x+6$. &#10007;</li><li><strong>Choice B &mdash; $30x(x+1)$</strong>: expands to $30x^{2}+30x$, not $30x^{2}+6x+6$. &#10007;</li><li><strong>Choice C &mdash; $6\\left(5x^2+x+1\\right)$</strong>: expands to $30x^{2}+6x+6$. &#10003;</li><li><strong>Choice D &mdash; $4\\left(2x^2+x+1\\right)$</strong>: expands to $8x^{2}+4x+4$, not $30x^{2}+6x+6$. &#10007;</li></ul>That is the correct answer."
     }
   ]
 }

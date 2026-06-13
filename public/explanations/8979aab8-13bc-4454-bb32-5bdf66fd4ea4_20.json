@@ -1,1 +1,15 @@
-{"questionId":"8979aab8-13bc-4454-bb32-5bdf66fd4ea4_20","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank sits between the adjective &apos;American&apos; and the proper name &apos;Will Barnet&apos;. The blank must be filled with a noun identifying his role, and the punctuation must be correct for a proper name used as a direct identifier."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; colon before the name</strong>: A colon introduces a list, not a single identifying proper name. &#10007;</li><li><strong>Choice B &mdash; no punctuation ('American artist Will Barnet')</strong>: When a proper name directly identifies the role noun, no punctuation separates them. &#10003;</li><li><strong>Choice C &mdash; em dash before the name</strong>: An em dash signals emphasis or an inserted aside, which is unnecessary here. &#10007;</li><li><strong>Choice D &mdash; comma before the name</strong>: A comma before the name makes it an appositive restating the noun, which is redundant and grammatically wrong in this construction. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_20",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank sits between the adjective &apos;American&apos; and the proper name &apos;Will Barnet&apos;. The blank must be filled with a noun identifying his role, and the punctuation must be correct for a proper name used as a direct identifier."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; artist:</strong>: A colon introduces a list, not a single identifying proper name. &#10007;</li><li><strong>Choice B &mdash; artist</strong>: When a proper name directly identifies the role noun, no punctuation separates them. &#10003;</li><li><strong>Choice C &mdash; artist--</strong>: An em dash signals emphasis or an inserted aside, which is unnecessary here. &#10007;</li><li><strong>Choice D &mdash; artist,</strong>: A comma before the name makes it an appositive restating the noun, which is redundant and grammatically wrong in this construction. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

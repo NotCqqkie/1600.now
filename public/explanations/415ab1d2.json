@@ -13,11 +13,11 @@
     },
     {
       "title": "Match the signs",
-      "content": "The function $f(x)=-4x-16$ has a negative slope and a negative y-intercept. With $c>0$ and $d>0$, the form $-d-cx$ also has a negative y-intercept and a negative slope."
+      "content": "The function $f(x)=-4x-16$ has a negative slope and a negative y-intercept. With $c\\gt 0$ and $d\\gt 0$, the form $-d-cx$ also has a negative y-intercept and a negative slope."
     },
     {
       "title": "Match the form",
-      "content": "Choice A, $f(x)=-d-cx$, works with $d=16$ and $c=4$. The other choices have a positive intercept, a positive slope, or both. Choice <strong>A</strong> is correct."
+      "content": "The matching choice, $f(x)=-d-cx$, works with $d=16$ and $c=4$. The other choices have a positive intercept, a positive slope, or both. <strong>A</strong> is correct."
     }
   ]
 }

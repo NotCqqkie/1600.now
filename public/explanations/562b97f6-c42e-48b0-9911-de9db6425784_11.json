@@ -1,1 +1,15 @@
-{"questionId": "562b97f6-c42e-48b0-9911-de9db6425784_11", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The student needs to identify <strong>which growing season had the lowest walnut price</strong> according to the graph. The answer must name the season whose walnut bar is shortest."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; '2017/18 season'</strong>: the walnut bar for this season is taller than 2018/19, indicating a higher price. &#10007;</li><li><strong>Choice B &mdash; '2018/19 season'</strong>: the walnut bar for this season is the shortest of all four, indicating the lowest price. &#10003;</li><li><strong>Choice C &mdash; '2019/20 season'</strong>: the bar for 2019/20 is taller than 2018/19. &#10007;</li><li><strong>Choice D &mdash; '2016/17 season'</strong>: the bar for 2016/17 is taller than 2018/19. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "562b97f6-c42e-48b0-9911-de9db6425784_11",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The student needs to identify <strong>which growing season had the lowest walnut price</strong> according to the graph. The answer must name the season whose walnut bar is shortest."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — 2017/18 season.</strong>: the walnut bar for this season is taller than 2018/19, indicating a higher price. &#10007;</li><li><strong>Choice B — 2018/19 season.</strong>: the walnut bar for this season is the shortest of all four, indicating the lowest price. &#10003;</li><li><strong>Choice C — 2019/20 season.</strong>: the bar for 2019/20 is taller than 2018/19. &#10007;</li><li><strong>Choice D — 2016/17 season.</strong>: the bar for 2016/17 is taller than 2018/19. &#10007;</li></ul><strong>B</strong> is correct."
+    }
+  ]
+}

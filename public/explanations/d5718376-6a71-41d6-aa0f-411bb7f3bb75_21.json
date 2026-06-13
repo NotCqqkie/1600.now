@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply tangent ratio and simplify",
-      "content": "$$\\tan(X) = \\frac{\\text{opposite}}{\\text{adjacent}} = \\frac{222}{296}$$<br/>Both 222 and 296 are even, so divide by 2:<br/>$$\\frac{222}{296} = \\frac{111}{148}$$<br/>Both 111 and 148 are divisible by 37:<br/>$$\\frac{111}{148} = \\frac{3}{4}$$<br/>That matches choice C — <strong>C</strong> is correct."
+      "content": "$$\\tan(X) = \\frac{\\text{opposite}}{\\text{adjacent}} = \\frac{222}{296}$$<br/>Both 222 and 296 are even, so divide by 2:<br/>$$\\frac{222}{296} = \\frac{111}{148}$$<br/>Both 111 and 148 are divisible by 37:<br/>$$\\frac{111}{148} = \\frac{3}{4}$$<br/>That matches the correct answer — <strong>C</strong> is correct."
     }
   ]
 }

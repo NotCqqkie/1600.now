@@ -121,7 +121,7 @@
     "choices": [
       {
         "label": "A",
-        "text": "A For each increase of $x$ by $1$, $t(x)$ increases by approximately $\\frac{2}{5}$"
+        "text": "For each increase of $x$ by $1$, $t(x)$ increases by approximately $\\frac{2}{5}$"
       },
       {
         "label": "B",
@@ -337,7 +337,7 @@
     "difficulty": "Hard",
     "question_number": 12,
     "test_name": "Module Source 060 Math M2",
-    "passage": "In triangle $QRS$ shown, $QR < QS$. Which expression represents the length of $\\overline{QS}$?",
+    "passage": "In triangle $QRS$ shown, $QR \\lt QS$. Which expression represents the length of $\\overline{QS}$?",
     "question_text": null,
     "choices": [
       {

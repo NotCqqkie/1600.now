@@ -9,7 +9,7 @@
     },
     {
       "title": "Check each choice",
-      "content": "<ul><li>Choice A ($m = \\frac{2(n+p)}{7}$): exactly the result of dividing by $7$.</li><li>Choice B ($m = 2(n+p)$): forgets to divide by $7$.</li><li>Choice C ($m = 2(n+p) - 7$): subtracts $7$ instead of dividing &mdash; wrong inverse operation.</li><li>Choice D ($m = 2 - n - p - 7$): distributes and subtracts incorrectly.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li>Choice A ($m = \\frac{2(n+p)}{7}$): exactly the result of dividing by $7$.</li><li>Choice B ($m = 2(n+p)$): forgets to divide by $7$.</li><li>Choice C ($m = 2(n+p) - 7$): subtracts $7$ instead of dividing &mdash; wrong inverse operation.</li><li>Choice D ($m = 2 - n - p - 7$): distributes and subtracts incorrectly.</li></ul>That confirms <strong>A</strong> is correct."
     }
   ]
 }

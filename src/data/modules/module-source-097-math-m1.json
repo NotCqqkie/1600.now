@@ -129,19 +129,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$m > 620$"
+        "text": "$m \\gt 620$"
       },
       {
         "label": "B",
-        "text": "$m < 0$"
+        "text": "$m \\lt 0$"
       },
       {
         "label": "C",
-        "text": "$-620 < m < 0$"
+        "text": "$-620 \\lt m \\lt 0$"
       },
       {
         "label": "D",
-        "text": "$0 < m < 620$"
+        "text": "$0 \\lt m \\lt 620$"
       }
     ],
     "is_fill_in_blank": false,
@@ -360,7 +360,7 @@
     "difficulty": "Medium",
     "question_number": 13,
     "test_name": "Module Source 097 Math M1",
-    "passage": "$x + 2y = 19$\n$5x + y = 2$\nThe solution to the given system of equations is ($x$, $y$). What is the value of $6x + 3y$?",
+    "passage": "$x + 2y = 19$\n$5x + y = 2$\nThe solution to the given system of equations is $(x, y)$. What is the value of $6x + 3y$?",
     "question_text": null,
     "choices": [
       {

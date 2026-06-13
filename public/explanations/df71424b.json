@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Identify the horizontal asymptote",
-      "content": "For an exponential function of the form $f(x)=ab^x+c$, the graph has horizontal asymptote $y=c$. In the picture, the curve levels off near $y=-7$ as it goes left. So $c\\approx-7$, not $0$."
+      "content": "For an exponential function of the form $f(x)=a\\cdot b^x+c$, the graph has horizontal asymptote $y=c$. In the picture, the curve levels off near $y=-7$ as it goes left. So $c\\approx-7$, not $0$."
     },
     {
       "title": "Compare the graph to the x-axis",
@@ -13,7 +13,7 @@
     },
     {
       "title": "Count the intersections",
-      "content": "Since the graph never reaches the $x$-axis, there are zero values of $x$ for which $f(x)=0$. Choice <strong>D</strong> is correct."
+      "content": "Since the graph never reaches the $x$-axis, there are zero values of $x$ for which $f(x)=0$. Zero is correct."
     }
   ]
 }

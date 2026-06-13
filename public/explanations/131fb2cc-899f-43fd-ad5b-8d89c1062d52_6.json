@@ -9,7 +9,7 @@
     },
     {
       "title": "Calculate the remaining area",
-      "content": "Rectangle P has area 56 square inches. We remove a rectangle with area 30 square inches. The resulting area is:<br/>$$56 - 30 = 26 \\text{ square inches}$$<br/>This matches choice A — <strong>A</strong> is correct."
+      "content": "Rectangle P has area 56 square inches. We remove a rectangle with area 30 square inches. The resulting area is:<br/>$$56 - 30 = 26 \\text{ square inches}$$<br/>That matches <strong>Choice A &mdash; 26</strong>."
     }
   ]
 }

@@ -8,20 +8,20 @@
       "content": "Since $f(0)=17$ and $f(1)=17$, the two known points are $(0,17)$ and $(1,17)$. The slope is $$m=\\frac{17-17}{1-0}=0,$$ so the function is constant: $f(x)=17$."
     },
     {
-      "title": "Backsolving — testing choice A (1/17)",
-      "content": "Testing choice A: $$f(x) = \\frac{1}{17}$$<br/>Then $$f(0) = \\frac{1}{17} \\neq 17$$. Fails. &#10007;"
+      "title": "Backsolving by testing the candidate (1/17)",
+      "content": "Testing this candidate: $$f(x) = \\frac{1}{17}$$<br/>Then $$f(0) = \\frac{1}{17} \\neq 17$$. Fails. &#10007;"
     },
     {
-      "title": "Backsolving — testing choice B (1)",
-      "content": "Testing choice B: $$f(x) = 1$$<br/>Then $$f(0) = 1 \\neq 17$$. Fails. &#10007;"
+      "title": "Backsolving by testing the candidate (1)",
+      "content": "Testing this candidate: $$f(x) = 1$$<br/>Then $$f(0) = 1 \\neq 17$$. Fails. &#10007;"
     },
     {
-      "title": "Backsolving — testing choice C (17)",
-      "content": "Testing choice C: $$f(x) = 17$$<br/>Then $$f(0) = 17$$ and $$f(1) = 17$$, which exactly match both given conditions. &#10003;<br/><br/>That matches choice C &mdash; <strong>C</strong> is correct."
+      "title": "Backsolving by testing the candidate (17)",
+      "content": "Testing this candidate: $$f(x) = 17$$<br/>Then $$f(0) = 17$$ and $$f(1) = 17$$, which exactly match both given conditions. &#10003;<br/><br/>That matches the correct answer — <strong>C</strong> is correct."
     },
     {
-      "title": "Backsolving — testing choice D (34)",
-      "content": "Testing choice D: $$f(x) = 34$$<br/>Then $$f(0) = 34 \\neq 17$$. Fails. &#10007;"
+      "title": "Backsolving by testing the candidate (34)",
+      "content": "Testing this candidate: $$f(x) = 34$$<br/>Then $$f(0) = 34 \\neq 17$$. Fails. &#10007;"
     }
   ]
 }

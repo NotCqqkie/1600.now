@@ -9,7 +9,7 @@
     },
     {
       "title": "Other measures require individual data we do not have",
-      "content": "The median, maximum, and minimum each require knowing the individual sales for each student—information we lack. Consider:<ul><li><strong>Median:</strong> To find the median of 10 values, we must arrange them in order and locate the middle value. We cannot determine this from the sum alone.</li><li><strong>Maximum:</strong> Without knowing each student's total, the maximum could range from 9 boxes (if evenly distributed) to 90 boxes (if one student sold all). It is indeterminate.</li><li><strong>Minimum:</strong> Likewise indeterminate without individual values—could be 0 or any number up to 9.</li></ul>Only the average can be calculated from the sum and count. That matches choice A — <strong>A</strong> is correct."
+      "content": "The median, maximum, and minimum each require knowing the individual sales for each student—information we lack. Consider:<ul><li><strong>Median:</strong> To find the median of 10 values, we must arrange them in order and locate the middle value. We cannot determine this from the sum alone.</li><li><strong>Maximum:</strong> Without knowing each student's total, the maximum could range from 9 boxes (if evenly distributed) to 90 boxes (if one student sold all). It is indeterminate.</li><li><strong>Minimum:</strong> Likewise indeterminate without individual values—could be 0 or any number up to 9.</li></ul>Only the average can be calculated from the sum and count. That is the correct answer."
     }
   ]
 }

@@ -3,9 +3,21 @@
   "correctAnswer": "D",
   "section": "Math",
   "steps": [
-    "In right triangle XYZ, angle X has an opposite leg and the hypotenuse. By definition, $\\sin X = \\dfrac{\\text{opposite}}{\\text{hypotenuse}}$.",
-    "Angles X and Y are complementary (sum to 90&deg;). The side opposite X is the side adjacent to Y. So $\\cos Y = \\dfrac{\\text{adjacent to }Y}{\\text{hypotenuse}} = \\dfrac{\\text{opposite to }X}{\\text{hypotenuse}}$.",
-    "Therefore $\\sin X = \\cos Y$ exactly &mdash; they share the same numerator (the leg between the right angle and angle Y) and the same denominator (the hypotenuse).",
-    "<ul><li><strong>Choice A &mdash; '$\\tan X$'</strong>: $\\tan X = \\text{opposite}/\\text{adjacent}$, a different ratio that does not equal $\\sin X$ in general. &#10007;</li><li><strong>Choice B &mdash; '$\\tan Y$'</strong>: $\\tan Y = \\text{opposite to }Y / \\text{adjacent to }Y$, which uses a completely different pair of sides. &#10007;</li><li><strong>Choice C &mdash; '$\\cos X$'</strong>: $\\cos X = \\text{adjacent to }X / \\text{hypotenuse}$, which uses the adjacent side to X, not the opposite side. &#10007;</li><li><strong>Choice D &mdash; '$\\cos Y$'</strong>: $\\cos Y = \\text{adjacent to }Y / \\text{hypotenuse} = \\text{opposite to }X / \\text{hypotenuse} = \\sin X$. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    {
+      "title": "Step 1",
+      "content": "In right triangle XYZ, angle X has an opposite leg and the hypotenuse. By definition, $\\sin X = \\dfrac{\\text{opposite}}{\\text{hypotenuse}}$."
+    },
+    {
+      "title": "Step 2",
+      "content": "Angles X and Y are complementary (sum to 90&deg;). The side opposite X is the side adjacent to Y. So $\\cos Y = \\dfrac{\\text{adjacent to }Y}{\\text{hypotenuse}} = \\dfrac{\\text{opposite to }X}{\\text{hypotenuse}}$."
+    },
+    {
+      "title": "Step 3",
+      "content": "Therefore $\\sin X = \\cos Y$ exactly &mdash; they share the same numerator (the leg between the right angle and angle Y) and the same denominator (the hypotenuse)."
+    },
+    {
+      "title": "Step 4",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;$\\tan X$&rsquo;</strong>: $\\tan X = \\text{opposite}/\\text{adjacent}$, a different ratio that does not equal $\\sin X$ in general. &#10007;</li><li><strong>Choice B &mdash; &lsquo;$\\tan Y$&rsquo;</strong>: $\\tan Y = \\text{opposite to }Y / \\text{adjacent to }Y$, which uses a completely different pair of sides. &#10007;</li><li><strong>Choice C &mdash; &lsquo;$\\cos X$&rsquo;</strong>: $\\cos X = \\text{adjacent to }X / \\text{hypotenuse}$, which uses the adjacent side to X, not the opposite side. &#10007;</li><li><strong>Choice D &mdash; &lsquo;$\\cos Y$&rsquo;</strong>: $\\cos Y = \\text{adjacent to }Y / \\text{hypotenuse} = \\text{opposite to }X / \\text{hypotenuse} = \\sin X$. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
   ]
 }

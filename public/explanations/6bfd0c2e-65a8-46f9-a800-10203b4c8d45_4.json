@@ -9,7 +9,7 @@
     },
     {
       "title": "Solve for the least integer $a$",
-      "content": "$$64 - 4a - 2 \\lt 0$$<br/>$$62 \\lt 4a$$<br/>$$a > 15.5$$<br/>The least positive integer satisfying $a > 15.5$ is $a = 16$.<br/><br/>The answer is <strong>16</strong>."
+      "content": "$$64 - 4a - 2 \\lt 0$$<br/>$$62 \\lt 4a$$<br/>$$a \\gt 15.5$$<br/>The least positive integer satisfying $a \\gt 15.5$ is $a = 16$.<br/><br/>The answer is <strong>16</strong>."
     }
   ]
 }

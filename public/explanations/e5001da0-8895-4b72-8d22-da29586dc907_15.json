@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Find the balance after the first 4 months",
-      "content": "Original balance: $\\$700.00$. After 4 months it increased by $0.6\\%$ of the original:<br/>$$700.00 \\times 1.006 = 704.20$$<br/>So at month $4$, the balance is $\\$704.20$. This is the starting balance for the lower-rate period."
+      "content": "Original balance: 700.00 dollars. After 4 months it increased by $0.6\\%$ of the original:<br/>$$700.00 \\times 1.006 = 704.20$$<br/>So at month $4$, the balance is 704.20 dollars. This is the starting balance for the lower-rate period."
     },
     {
       "title": "Identify the periodic growth",
@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li><strong>A:</strong> $B(x)=704.20(1.001)^{\\frac{x-4}{2}}$ &mdash; correct starting balance ($704.20$) and correct exponent (one period per $2$ months)</li><li><strong>B:</strong> $B(x)=700.00(1.001)^{\\frac{x-4}{2}}$ &mdash; wrong starting balance; should be $704.20$, not $700.00$, since the special-rate interest already accrued</li><li><strong>C:</strong> $B(x)=704.20(1.001)^{2(x-4)}$ &mdash; exponent is wrong; $2(x-4)$ compounds twice per month instead of once per $2$ months</li><li><strong>D:</strong> $B(x)=700.00(1.001)^{2(x-4)}$ &mdash; wrong on both counts: starting balance and exponent</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li><strong>A:</strong> $B(x)=704.20(1.001)^{\\frac{x-4}{2}}$ &mdash; correct starting balance, 704.20 dollars, and correct exponent (one period per $2$ months)</li><li><strong>B:</strong> $B(x)=700.00(1.001)^{\\frac{x-4}{2}}$ &mdash; wrong starting balance; should be 704.20 dollars, not 700.00 dollars, since the special-rate interest already accrued</li><li><strong>C:</strong> $B(x)=704.20(1.001)^{2(x-4)}$ &mdash; exponent is wrong; $\\left(2\\right)(x-4)$ compounds twice per month instead of once per $2$ months</li><li><strong>D:</strong> $B(x)=700.00(1.001)^{2(x-4)}$ &mdash; wrong on both counts: starting balance and exponent</li></ul>That matches the correct answer — <strong>A</strong> is correct."
     }
   ]
 }

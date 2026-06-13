@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the context",
-      "content": "Since $x$ represents years <em>after</em> the tree height was first measured, $x = 0$ corresponds to the initial measurement time. At that moment:<br/>$$f(0) = 5(0) + 7 = 7 \\text{ feet}$$<br/>The tree's estimated height was 7 feet when it was first measured. That matches choice D — <strong>D</strong> is correct."
+      "content": "Since $x$ represents years <em>after</em> the tree height was first measured, $x = 0$ corresponds to the initial measurement time. At that moment:<br/>$$f(0) = 5(0) + 7 = 7 \\text{ feet}$$<br/>The tree's estimated height was 7 feet when it was first measured. That confirms <strong>D</strong> is correct."
     }
   ]
 }

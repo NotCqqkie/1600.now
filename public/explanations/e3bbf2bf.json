@@ -1,1 +1,15 @@
-{"questionId":"e3bbf2bf","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The student wants to emphasize a similarity between the two groups. A valid answer must name both the Choctaw Code Talkers and the Navajo Code Talkers and show something they had in common &mdash; a statement about only one group, or a contrast between them, fails the goal."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &quot;US soldiers who were members of the Choctaw Nation in Oklahoma used their native language to relay coded information.&quot;</strong>: Describes only the Choctaw Code Talkers. The Navajo Code Talkers are not mentioned, so no similarity is drawn. &#10007;</li><li><strong>Choice B &mdash; &quot;In World War II, one group of Navajo (Din&eacute;) soldiers was known as the Navajo Code Talkers.&quot;</strong>: Introduces only the Navajo Code Talkers. The Choctaw Code Talkers are not mentioned, so no similarity is drawn. &#10007;</li><li><strong>Choice C &mdash; &quot;Both the Choctaw Code Talkers and the Navajo Code Talkers transmitted coded military messages in the soldiers&apos; native languages.&quot;</strong>: Names both groups and states a shared trait &mdash; transmitting coded messages in their native languages. This directly establishes a similarity. &#10003;</li><li><strong>Choice D &mdash; &quot;The Choctaw Code Talkers, not the Navajo Code Talkers, served in World War I.&quot;</strong>: Names both groups but emphasizes a difference (different wars), not a similarity. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "e3bbf2bf",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The student wants to emphasize a similarity between the two groups. A valid answer must name both the Choctaw Code Talkers and the Navajo Code Talkers and show something they had in common &mdash; a statement about only one group, or a contrast between them, fails the goal."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"US soldiers who were members of the Choctaw Nation in Oklahoma used their native language to relay coded information.\"</strong>: Describes only the Choctaw Code Talkers. The Navajo Code Talkers are not mentioned, so no similarity is drawn. &#10007;</li><li><strong>\"In World War II, one group of Navajo (Diné) soldiers was known as the Navajo Code Talkers.\"</strong>: Introduces only the Navajo Code Talkers. The Choctaw Code Talkers are not mentioned, so no similarity is drawn. &#10007;</li><li><strong>\"Both the Choctaw Code Talkers and the Navajo Code Talkers transmitted coded military messages in the soldiers' native languages.\"</strong>: Names both groups and states a shared trait &mdash; transmitting coded messages in their native languages. This directly establishes a similarity. &#10003;</li><li><strong>\"The Choctaw Code Talkers, not the Navajo Code Talkers, served in World War I.\"</strong>: Names both groups but emphasizes a difference (different wars), not a similarity. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+    }
+  ]
+}

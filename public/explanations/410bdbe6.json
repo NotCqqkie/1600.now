@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the three interior angles",
-      "content": "The triangle has three interior angles: one measuring 31°, one measuring $2b°$, and one measuring $a°$. We're given that $a = 45$, so the third angle is $45°$."
+      "content": "The triangle has three interior angles: one measuring $31^{\\circ}$, one measuring $2b^{\\circ}$, and one measuring $a^{\\circ}$. We're given that $a = 45$, so the third angle is $45^{\\circ}$."
     },
     {
       "title": "Apply the angle sum property and solve for b",
-      "content": "The sum of all interior angles in any triangle is 180°. Setting up the equation:<br/>$$31 + 2b + 45 = 180$$<br/>Combine the constants:<br/>$$76 + 2b = 180$$<br/>Subtract 76 from both sides:<br/>$$2b = 104$$<br/>Divide by 2:<br/>$$b = 52$$<br/>That matches choice A — <strong>A</strong> is correct."
+      "content": "The sum of all interior angles in any triangle is $180^{\\circ}$. Setting up the equation:<br/>$$31 + 2b + 45 = 180$$<br/>Combine the constants:<br/>$$76 + 2b = 180$$<br/>Subtract 76 from both sides:<br/>$$2b = 104$$<br/>Divide by 2:<br/>$$b = 52$$<br/><strong>A</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId":"d3c0680f-0e7b-45fa-a287-0167b3b6346e_5","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks for the best description of the overall structure of the text. Look for how each paragraph functions and what the passage moves through from start to finish."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'general interest, specific study, finding'</strong>: The passage opens with broad scientific interest in shipwrecks&apos; ecological effects, narrows to Rachel Mugge&apos;s study using pine and oak samples, then ends with the finding that microbial diversity peaks at 125 meters. That three-part progression is exactly right. &#10003;</li><li><strong>Choice B &mdash; mentions &apos;historical significance&apos;</strong>: The passage says nothing about historical significance of shipwrecks. &#10007;</li><li><strong>Choice C &mdash; mentions &apos;wood type influence&apos;</strong>: Wood type (pine vs. oak) is part of the methodology, not the focus or conclusion of the text. &#10007;</li><li><strong>Choice D &mdash; mentions &apos;scholarly attention&apos;</strong>: The passage does not discuss the level of scholarly attention the topic has received. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "d3c0680f-0e7b-45fa-a287-0167b3b6346e_5",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks for the best description of the overall structure of the text. Look for how each paragraph functions and what the passage moves through from start to finish."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"It notes a general scientific interest in shipwrecks' ecological effects, describes a specific study related to that interest, and then states one of the study's findings.\"</strong>: The passage opens with broad scientific interest in shipwrecks' ecological effects, narrows to Rachel Mugge's study using pine and oak samples, then ends with the finding that microbial diversity peaks at 125 meters. That three-part progression is exactly right. &#10003;</li><li><strong>\"It states the number of known shipwrecks, describes the historical significance of one of those shipwrecks, and then comments on the various microbes found at the shipwreck site.\"</strong>: The passage says nothing about historical significance of shipwrecks. &#10007;</li><li><strong>\"It names a famous historical shipwreck, describes the type of wood used to build that ship, and then explains how that wood type influences underwater microbial communities.\"</strong>: Wood type (pine vs. oak) is part of the methodology, not the focus or conclusion of the text. &#10007;</li><li><strong>\"It introduces a study of microbial communities near shipwrecks that has received significant scholarly attention, summarizes the results of that study, and then describes a research team's reaction to the study.\"</strong>: The passage does not discuss the level of scholarly attention the topic has received. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "a44bbd6b", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Pinpoint the key explanation", "content": "Litty and Schlunegger concluded that sediment influx was “spatially diffuse” — sources distributed throughout the stream system rather than concentrated at one primary location."}, {"title": "Find supporting evidence", "content": "Choice A directly supports this: bank collapses at multiple upstream points create distributed sediment sources entering throughout the reach, preventing the typical grain-size sorting that develops from a concentrated source.<br/><br/>The other choices either assert a single primary source (C), address sediment type rather than source distribution (B), or place tributary input downstream of the sampling sites (D).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "a44bbd6b",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Pinpoint the key explanation",
+      "content": "Litty and Schlunegger concluded that sediment influx was “spatially diffuse” — sources distributed throughout the stream system rather than concentrated at one primary location."
+    },
+    {
+      "title": "Find supporting evidence",
+      "content": "The correct answer directly supports this: bank collapses at multiple upstream points create distributed sediment sources entering throughout the reach, preventing the typical grain-size sorting that develops from a concentrated source.<br/><br/>The other choices either assert a single primary source, address sediment type rather than source distribution, or place tributary input downstream of the sampling sites.<br/><br/>That is the correct answer."
+    }
+  ]
+}

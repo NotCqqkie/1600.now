@@ -1,1 +1,15 @@
-{"questionId":"8a3998f1","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank falls between two independent clauses: &ldquo;plastic-bag consumption decreased by up to ninety [BLANK]&rdquo; and &ldquo;Such taxes are subject to what economists call the &lsquo;rebound effect&rsquo;.&rdquo; The skill tested is boundary punctuation between sentences."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;percent, such&rsquo;</strong>: places only a comma between the two independent clauses, creating a comma splice. A comma alone cannot join two main clauses without a coordinating conjunction. &#10007;</li><li><strong>Choice B &mdash; &lsquo;percent and such&rsquo;</strong>: uses the coordinating conjunction &ldquo;and&rdquo; but omits the required comma before it. A coordinating conjunction joining two independent clauses must be preceded by a comma. &#10007;</li><li><strong>Choice C &mdash; &lsquo;percent. Such&rsquo;</strong>: uses a period to correctly end the first sentence and begin a new sentence with &ldquo;Such taxes.&rdquo; A period is a valid boundary between two independent clauses. &#10003;</li><li><strong>Choice D &mdash; &lsquo;percent such&rsquo;</strong>: places no punctuation or conjunction between the two independent clauses, creating a run-on sentence. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "8a3998f1",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank falls between two independent clauses: &ldquo;plastic-bag consumption decreased by up to ninety [BLANK]&rdquo; and &ldquo;Such taxes are subject to what economists call the &lsquo;rebound effect&rsquo;.&rdquo; The skill tested is boundary punctuation between sentences."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; percent, such</strong>: places only a comma between the two independent clauses, creating a comma splice. A comma alone cannot join two main clauses without a coordinating conjunction. &#10007;</li><li><strong>Choice B &mdash; percent and such</strong>: uses the coordinating conjunction &ldquo;and&rdquo; but omits the required comma before it. A coordinating conjunction joining two independent clauses must be preceded by a comma. &#10007;</li><li><strong>Choice C &mdash; percent. Such</strong>: uses a period to correctly end the first sentence and begin a new sentence with &ldquo;Such taxes.&rdquo; A period is a valid boundary between two independent clauses. &#10003;</li><li><strong>Choice D &mdash; percent such</strong>: places no punctuation or conjunction between the two independent clauses, creating a run-on sentence. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

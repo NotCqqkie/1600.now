@@ -1,1 +1,15 @@
-{"questionId":"9ce7f863-9f97-46a6-9458-7fb4726c3cb0_23","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The first part of the sentence establishes a problem: artisanal cheese claims lack guaranteed veracity. The second part gives the response: the EU established DOP status. The transition word must show that the EU's action directly resulted from that problem — a cause-and-effect relationship."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Conversely'</strong>: Signals contrast or opposition, not a result. The EU's action isn't opposite to the problem — it's a response to it. &#10007;</li><li><strong>Choice B &mdash; 'Likewise'</strong>: Signals similarity or addition, not consequence. &#10007;</li><li><strong>Choice C &mdash; 'Regardless'</strong>: Signals dismissal of the previous point, implying the EU acted despite the problem rather than because of it. &#10007;</li><li><strong>Choice D &mdash; 'Therefore'</strong>: Directly signals that what follows is a consequence of what came before — establishing DOP status resulted from the need to guarantee veracity. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "9ce7f863-9f97-46a6-9458-7fb4726c3cb0_23",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The first part of the sentence establishes a problem: artisanal cheese claims lack guaranteed veracity. The second part gives the response: the EU established DOP status. The transition word must show that the EU's action directly resulted from that problem — a cause-and-effect relationship."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Conversely,</strong>: Signals contrast or opposition, not a result. The EU's action isn't opposite to the problem — it's a response to it. &#10007;</li><li><strong>Choice B &mdash; Likewise,</strong>: Signals similarity or addition, not consequence. &#10007;</li><li><strong>Choice C &mdash; Regardless,</strong>: Signals dismissal of the previous point, implying the EU acted despite the problem rather than because of it. &#10007;</li><li><strong>Choice D &mdash; Therefore,</strong>: Directly signals that what follows is a consequence of what came before — establishing DOP status resulted from the need to guarantee veracity. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

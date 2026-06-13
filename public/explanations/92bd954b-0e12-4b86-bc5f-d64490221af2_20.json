@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate wrong choices and confirm the answer",
-      "content": "Test each pronoun against the plural antecedent &ldquo;the judges&rdquo;:<ul><li><strong>Choice A &mdash; 'you'</strong>: Second-person pronoun; does not refer to &ldquo;the judges&rdquo; at all. &#10007;</li><li><strong>Choice B &mdash; 'it'</strong>: Singular pronoun; disagrees with the plural antecedent. &#10007;</li><li><strong>Choice C &mdash; 'anyone'</strong>: Singular indefinite pronoun; disagrees with the plural antecedent. &#10007;</li><li><strong>Choice D &mdash; 'they'</strong>: Plural pronoun; agrees with the plural &ldquo;the judges.&rdquo; &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "content": "Test each pronoun against the plural antecedent &ldquo;the judges&rdquo;:<ul><li><strong>Choice A &mdash; you</strong>: Second-person pronoun; does not refer to &ldquo;the judges&rdquo; at all. &#10007;</li><li><strong>Choice B &mdash; it</strong>: Singular pronoun; disagrees with the plural antecedent. &#10007;</li><li><strong>Choice C &mdash; anyone</strong>: Singular indefinite pronoun; disagrees with the plural antecedent. &#10007;</li><li><strong>Choice D &mdash; they</strong>: Plural pronoun; agrees with the plural &ldquo;the judges.&rdquo; &#10003;</li></ul>That confirms <strong>D</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId":"e26dd9f3-3dbe-49b6-afbf-43a483d231ba_22","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage describes Dillard&apos;s ongoing struggle to reconcile nature&apos;s contradictions. The blank sentence then delivers a resolution: nature&apos;s beauty and harshness are &quot;inextricably linked.&quot; The transition must signal that this is the final conclusion of that struggle &mdash; the answer she ultimately arrives at."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Ultimately,'</strong>: Signals a final conclusion after a process of grappling. Fits perfectly: after all that struggle, this is what she arrives at. &#10003;</li><li><strong>Choice B &mdash; 'To that end,'</strong>: Means &quot;as a means to achieve that goal.&quot; The blank sentence isn&apos;t a method or action taken toward a goal &mdash; it&apos;s an insight reached. &#10007;</li><li><strong>Choice C &mdash; 'Hence,'</strong>: Signals a logical consequence or result. The linked nature of beauty and harshness isn&apos;t a consequence of Dillard&apos;s struggle; it&apos;s a realization she reaches. &#10007;</li><li><strong>Choice D &mdash; 'Moreover,'</strong>: Adds information without showing resolution. The passage needs a closing conclusion, not an addition. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "e26dd9f3-3dbe-49b6-afbf-43a483d231ba_22",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage describes Dillard's ongoing struggle to reconcile nature's contradictions. The blank sentence then delivers a resolution: nature's beauty and harshness are \"inextricably linked.\" The transition must signal that this is the final conclusion of that struggle &mdash; the answer she ultimately arrives at."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"Ultimately,\"</strong>: Signals a final conclusion after a process of grappling. Fits perfectly: after all that struggle, this is what she arrives at. &#10003;</li><li><strong>\"To that end,\"</strong>: Means \"as a means to achieve that goal.\" The blank sentence isn't a method or action taken toward a goal &mdash; it's an insight reached. &#10007;</li><li><strong>\"Hence,\"</strong>: Signals a logical consequence or result. The linked nature of beauty and harshness isn't a consequence of Dillard's struggle; it's a realization she reaches. &#10007;</li><li><strong>\"Moreover,\"</strong>: Adds information without showing resolution. The passage needs a closing conclusion, not an addition. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+    }
+  ]
+}

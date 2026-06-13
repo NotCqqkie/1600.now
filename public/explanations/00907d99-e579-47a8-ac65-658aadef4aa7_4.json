@@ -9,11 +9,11 @@
     },
     {
       "title": "Calculate 20% of 130",
-      "content": "$$0.20 \\times 130 = 26$$<br/>The discount is \\$26. That matches choice D — <strong>D</strong> is correct."
+      "content": "$$0.20 \\times 130 = 26$$<br/>The discount is &#36;26. That matches <strong>Choice D &mdash; 26</strong>."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice D, 26. The other choices do not satisfy the same condition from the question, so <strong>D</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches <strong>Choice D &mdash; 26</strong>, 26. The other choices do not satisfy the same condition from the question, so <strong>D</strong>."
     }
   ]
 }

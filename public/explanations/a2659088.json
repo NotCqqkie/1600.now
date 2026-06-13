@@ -10,7 +10,7 @@
     },
     {
       "title": "Substitute the values and calculate",
-      "content": "Substitute $r = 12$ and $h = 8$ into the formula:<br/>$$V = \\pi(12)^2(8) = \\pi(144)(8) = 1152\\pi\\text{ m}^3$$<br/>That matches choice D — <strong>D</strong> is correct."
+      "content": "Substitute $r = 12$ and $h = 8$ into the formula:<br/>$$V = \\pi(12)^2(8) = \\pi(144)(8) = 1152\\pi\\text{ m}^3$$<br/>That confirms <strong>D</strong> is correct."
     }
   ]
 }

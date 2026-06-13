@@ -13,7 +13,7 @@
     },
     {
       "title": "Eliminate r using multiplication and subtraction to solve for b",
-      "content": "Multiply the first equation by 13 and the second by 11 to align the $r$ coefficients:<br/>$$143r + 78b = 962$$<br/>$$143r + 176b = 1452$$<br/>Subtract the first from the second:<br/>$$98b = 490$$<br/>$$b=5$$<br/>That matches choice B — <strong>B</strong> is correct."
+      "content": "Multiply the first equation by 13 and the second by 11 to align the $r$ coefficients:<br/>$$143r + 78b = 962$$<br/>$$143r + 176b = 1452$$<br/>Subtract the first from the second:<br/>$$98b = 490$$<br/>$$b=5$$<br/>That matches <strong>Choice B &mdash; $5$</strong>."
     }
   ]
 }

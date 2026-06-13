@@ -9,7 +9,7 @@
     },
     {
       "title": "Calculate the ratio of population at x = 1 to population at x = 0",
-      "content": "The ratio is:<br/>$$\\frac{y(1)}{y(0)} = \\frac{9}{6} = 1.5$$<br/>The population at $x=1$ is $1.5$ times the population at $x=0$. That matches choice B — <strong>B</strong> is correct."
+      "content": "The ratio is:<br/>$$\\frac{y(1)}{y(0)} = \\frac{9}{6} = 1.5$$<br/>The population at $x=1$ is $1.5$ times the population at $x=0$. That matches the correct answer — <strong>B</strong> is correct."
     }
   ]
 }

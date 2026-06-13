@@ -13,7 +13,7 @@
     },
     {
       "title": "Match to the correct choice",
-      "content": "Choice A claims more than 35.41%, exceeding our upper bound.<br/><br/>Choices C and D incorrectly reject all conclusions, misunderstanding that a random sample provides valid population estimates.<br/><br/>Choice B states the interval between 28.59% and 35.41%, which matches our confidence interval exactly.<br/><br/>That matches choice B — <strong>B</strong> is correct."
+      "content": "<strong>More than $35.41\\%$ of all adults who own televisions use their televisions to watch nature shows.</strong> claims more than 35.41%, exceeding our upper bound.<br/><br/>Two other options incorrectly reject all conclusions, misunderstanding that a random sample provides valid population estimates.<br/><br/>Between $28.59\\%$ and $35.41\\%$ of all adults who own televisions use their televisions to watch nature shows. states the interval between 28.59% and 35.41%, which matches our confidence interval exactly.<br/><br/>That matches the correct answer — <strong>B</strong> is correct."
     }
   ]
 }

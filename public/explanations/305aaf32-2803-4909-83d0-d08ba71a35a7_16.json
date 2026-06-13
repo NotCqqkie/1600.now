@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the answer",
-      "content": "The equation is<br/>$$y=\\frac{x}{8}-11.$$<br/>A quick check confirms it: when $x=40$, $y=5-11=-6$, which is the given point. This matches choice <strong>B</strong>."
+      "content": "The equation is<br/>$$y=\\frac{x}{8}-11.$$<br/>A quick check confirms it: when $x=40$, $y=5-11=-6$, which is the given point. This matches the correct answer."
     }
   ]
 }

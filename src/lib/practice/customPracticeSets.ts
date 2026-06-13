@@ -1,11 +1,25 @@
 import type { NavigateFunction } from "react-router-dom";
 import {
-  getAllBankQuestions,
+  loadAllBankQuestions,
   type BankQuestion,
   type BankSourceId,
   type BankSubject,
 } from "@/data/questionBank";
-import { questionSimilarityGroupsById } from "@/lib/generated/questionSimilarity.generated";
+
+type QuestionSimilarityGroupRecord = {
+  archetype: string;
+  label: string;
+  questionKeys: string[];
+};
+
+let questionSimilarityGroupsByIdPromise: Promise<Record<string, QuestionSimilarityGroupRecord>> | null = null;
+
+const loadQuestionSimilarityGroupsById = () => {
+  questionSimilarityGroupsByIdPromise ??= import("@/lib/generated/questionSimilarity.generated").then(
+    (mod) => mod.questionSimilarityGroupsById as Record<string, QuestionSimilarityGroupRecord>,
+  );
+  return questionSimilarityGroupsByIdPromise;
+};
 
 export interface CustomPracticeSetItem {
   subject: BankSubject;
@@ -104,10 +118,10 @@ export const migrateLegacyCustomPracticeSets = (uid?: string | null) => {
 
 if (typeof window !== "undefined") migrateLegacyCustomPracticeSets(null);
 
-const allBankQuestionsByStableId = () => {
+const allBankQuestionsByStableId = async () => {
   const questions = [
-    ...getAllBankQuestions("math", "all"),
-    ...getAllBankQuestions("reading", "all"),
+    ...(await loadAllBankQuestions("math", "all", { includeSimilarity: true })),
+    ...(await loadAllBankQuestions("reading", "all", { includeSimilarity: true })),
   ];
   return new Map(questions.map((question) => [question.stableId, question]));
 };
@@ -255,16 +269,7 @@ const shouldRegeneratePracticeSetTitle = (set: CustomPracticeSet) => {
   if (isGenericPracticeSetTitle(set.title)) return true;
   if (isGeneratedSimilarityLabelTitle(set.title)) return true;
   if (isGeneratedColonTitle(set.title)) return true;
-  const group = set.similarityGroupId ? questionSimilarityGroupsById[set.similarityGroupId] : null;
-  if (!group) return set.title === `${set.skill} practice`;
-  const oldFallbackTitle = toTitleCase(group.archetype);
-  const currentTitle = formatMethodTitle(group.archetype, group.skill, group.subject);
-  return (
-    set.title === group.label ||
-    set.title === group.archetype ||
-    set.title === `${set.skill} practice` ||
-    (set.title === oldFallbackTitle && set.title !== currentTitle)
-  );
+  return set.title === `${set.skill} practice`;
 };
 
 const buildPracticeSetTitle = (
@@ -272,13 +277,6 @@ const buildPracticeSetTitle = (
   summary: Pick<CustomPracticeSet, "subject" | "domain" | "skill">,
   similarityGroupId?: string | null,
 ) => {
-  const groupIds = new Set(questions.map((question) => question.similarityGroupId).filter(Boolean));
-  const groupId = similarityGroupId || (groupIds.size === 1 ? [...groupIds][0] : null);
-  const group = groupId ? questionSimilarityGroupsById[groupId] : null;
-  if (group?.archetype && group.archetype !== "mixed practice") {
-    return formatMethodTitle(group.archetype, group.skill, group.subject);
-  }
-  if (group?.skill) return group.skill;
   if (summary.skill && !summary.skill.endsWith(" skills")) return summary.skill;
   if (summary.domain && !summary.domain.endsWith(" domains")) return summary.domain;
   if (summary.subject === "math") return "Math Practice";
@@ -286,11 +284,12 @@ const buildPracticeSetTitle = (
   return "Mixed SAT Practice";
 };
 
-export const getQuestionsForSimilarityGroup = (groupId: string | null | undefined) => {
+export const getQuestionsForSimilarityGroup = async (groupId: string | null | undefined) => {
   if (!groupId) return [];
+  const questionSimilarityGroupsById = await loadQuestionSimilarityGroupsById();
   const group = questionSimilarityGroupsById[groupId];
   if (!group) return [];
-  const byStableId = allBankQuestionsByStableId();
+  const byStableId = await allBankQuestionsByStableId();
   return group.questionKeys
     .map((stableId) => byStableId.get(stableId))
     .filter((question): question is BankQuestion => Boolean(question));
@@ -309,8 +308,8 @@ const getUniqueQuestions = (questions: BankQuestion[]) => {
 const getUniquePracticeSetQuestions = (questions: BankQuestion[]) =>
   getUniqueQuestions(questions).slice(0, MAX_CUSTOM_PRACTICE_SET_QUESTIONS);
 
-export const getSimilarQuestionsForQuestion = (question: BankQuestion) => {
-  const similarQuestions = getQuestionsForSimilarityGroup(question.similarityGroupId);
+export const getSimilarQuestionsForQuestion = async (question: BankQuestion) => {
+  const similarQuestions = await getQuestionsForSimilarityGroup(question.similarityGroupId);
   const orderedQuestions = similarQuestions.some((item) => item.stableId === question.stableId)
     ? [
         question,
@@ -351,11 +350,7 @@ const refreshCustomPracticeSet = (
     .filter((question): question is BankQuestion => Boolean(question));
   const sourceType = set.sourceType ?? "related-question";
   const needsQuestionRefresh = set.questionCount !== set.items.length || !isValidPracticeSetSize(set.items.length, sourceType);
-  const refreshedQuestions = needsQuestionRefresh && originQuestion
-    ? getSimilarQuestionsForQuestion(originQuestion)
-    : needsQuestionRefresh
-      ? getQuestionsForSimilarityGroup(set.similarityGroupId)
-      : storedQuestions;
+  const refreshedQuestions = storedQuestions;
   const practiceSetQuestions = sourceType === "bank-selection"
     ? getUniqueQuestions(refreshedQuestions)
     : getUniquePracticeSetQuestions(refreshedQuestions);
@@ -383,20 +378,8 @@ export const getCustomPracticeSets = (uid?: string | null): CustomPracticeSet[] 
   const storedSets = readJson<CustomPracticeSet[]>(customPracticeSetsStorageKey(uid), []);
   const savedSets = storedSets.filter(isSavedCustomPracticeSet);
   const needsPrune = savedSets.length !== storedSets.length;
-  const needsRefresh = savedSets.some(
-    (set) =>
-      set.questionCount !== set.items.length ||
-      !isValidPracticeSetSize(set.items.length, set.sourceType ?? "related-question") ||
-      shouldRegeneratePracticeSetTitle(set),
-  );
-  const byStableId = needsRefresh ? allBankQuestionsByStableId() : null;
-  const sets = needsRefresh
-    ? savedSets
-        .map((set) => refreshCustomPracticeSet(set, byStableId!))
-        .filter((set): set is CustomPracticeSet => Boolean(set))
-    : savedSets;
-  if (needsRefresh || needsPrune) saveCustomPracticeSets(sets, uid, { notify: false });
-  return sets.sort((left, right) => right.updatedAt - left.updatedAt);
+  if (needsPrune) saveCustomPracticeSets(savedSets, uid, { notify: false });
+  return savedSets.sort((left, right) => right.updatedAt - left.updatedAt);
 };
 
 export const getCustomPracticeSet = (
@@ -506,12 +489,12 @@ export const createBankPracticeSessionFromQuestions = ({
   };
 };
 
-export const createCustomPracticeSetForQuestion = (
+export const createCustomPracticeSetForQuestion = async (
   question: BankQuestion,
   uid?: string | null,
-): CustomPracticeSet =>
+): Promise<CustomPracticeSet> =>
   createCustomPracticeSetFromQuestions({
-    questions: getSimilarQuestionsForQuestion(question),
+    questions: await getSimilarQuestionsForQuestion(question),
     id: `similar-${question.stableId}`,
     similarityGroupId: question.similarityGroupId ?? null,
     originQuestionStableId: question.stableId,

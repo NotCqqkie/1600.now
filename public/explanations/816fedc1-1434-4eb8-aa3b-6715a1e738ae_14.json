@@ -13,7 +13,7 @@
     },
     {
       "title": "Substitute into h and solve for the answer",
-      "content": "With $x = \\sqrt{54}$ (so $x^{2} = 54$), substitute into $h(x) = \\frac{x^{2}}{2} + 4$:<br/>$$h(\\sqrt{54}) = \\frac{54}{2} + 4 = 27 + 4 = 31$$<br/>This matches choice C — <strong>C</strong> is correct."
+      "content": "With $x = \\sqrt{54}$ (so $x^{2} = 54$), substitute into $h(x) = \\frac{x^{2}}{2} + 4$:<br/>$$h(\\sqrt{54}) = \\frac{54}{2} + 4 = 27 + 4 = 31$$<br/>This confirms <strong>C</strong> is correct."
     }
   ]
 }

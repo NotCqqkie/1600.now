@@ -1,1 +1,19 @@
-{"questionId": "e818241b", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the second sentence does", "content": "The second sentence uses &quot;however&quot; to pivot from what astronomers are sure of (Betelgeuse will explode) to what they are not (when). It pins the uncertainty on Betelgeuse&#39;s largely unknown internal characteristics &mdash; framing a specific knowledge gap."}, {"title": "Trace how the third sentence responds", "content": "The third sentence introduces Nance and colleagues, who tried to crack that gap using acoustic waves but concluded the method could not sufficiently reveal those internal characteristics. So the second sentence states the very problem their work tried (and failed) to solve."}, {"title": "Eliminate the other choices", "content": "<ul><li><strong>Choice A &mdash; &#39;serious limitation of the method&#39;</strong>: the second sentence says nothing about Nance&#39;s method; the limitation is described later, in the third sentence. &#10007;</li><li><strong>Choice B &mdash; &#39;central finding reported by Nance&#39;</strong>: the second sentence is general background about astronomers&#39; uncertainty, not a finding by Nance. &#10007;</li><li><strong>Choice C &mdash; &#39;problem Nance attempted to solve but did not&#39;</strong>: the second sentence states the unknown-internals problem, and the third sentence shows Nance tried and failed to resolve it. &#10003;</li><li><strong>Choice D &mdash; &#39;how the work was received by others&#39;</strong>: no reception or reaction is described anywhere in the text. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "e818241b",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the second sentence does",
+      "content": "The second sentence uses \"however\" to pivot from what astronomers are sure of (Betelgeuse will explode) to what they are not (when). It pins the uncertainty on Betelgeuse&#39;s largely unknown internal characteristics &mdash; framing a specific knowledge gap."
+    },
+    {
+      "title": "Trace how the third sentence responds",
+      "content": "The third sentence introduces Nance and colleagues, who tried to crack that gap using acoustic waves but concluded the method could not sufficiently reveal those internal characteristics. So the second sentence states the very problem their work tried (and failed) to solve."
+    },
+    {
+      "title": "Eliminate the other choices",
+      "content": "<ul><li><strong>\"It describes a serious limitation of the method used by Nance and colleagues.\"</strong>: the second sentence says nothing about Nance&#39;s method; the limitation is described later, in the third sentence. &#10007;</li><li><strong>\"It presents the central finding reported by Nance and colleagues.\"</strong>: the second sentence is general background about astronomers&#39; uncertainty, not a finding by Nance. &#10007;</li><li><strong>\"It identifies the problem that Nance and colleagues attempted to solve but did not.\"</strong>: the second sentence states the unknown-internals problem, and the third sentence shows Nance tried and failed to resolve it. &#10003;</li><li><strong>\"It explains how the work of Nance and colleagues was received by others in the field.\"</strong>: no reception or reaction is described anywhere in the text. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+    }
+  ]
+}

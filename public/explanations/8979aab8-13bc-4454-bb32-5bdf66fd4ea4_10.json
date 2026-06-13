@@ -1,1 +1,15 @@
-{"questionId":"8979aab8-13bc-4454-bb32-5bdf66fd4ea4_10","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify the claim","content":"The blank must give graph data on 1986 mean forest patch sizes, which had <em>dropped considerably</em>. The completing evidence must give the smallest 1986 range across classes."},{"title":"Match the data","content":"At 1986, the graph shows mean patch sizes ranging from roughly 0 to 50 hectares — the lowest range, consistent with a considerable drop. The other upper bounds (125, 150, 250) far exceed the values observed. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_10",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the claim",
+      "content": "The blank must give graph data on 1986 mean forest patch sizes, which had <em>dropped considerably</em>. The completing evidence must give the smallest 1986 range across classes."
+    },
+    {
+      "title": "Match the data",
+      "content": "At 1986, the graph shows mean patch sizes ranging from roughly 0 to 50 hectares — the lowest range, consistent with a considerable drop. The other upper bounds (125, 150, 250) far exceed the values observed. That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

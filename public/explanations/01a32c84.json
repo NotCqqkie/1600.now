@@ -1,1 +1,15 @@
-{"questionId": "01a32c84", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Spot the sentence boundary", "content": "The text contains two independent clauses at the point of the blank: one clause ends with <em>“dependent on these adjustments,”</em> and another begins with <em>“Prior to VisiCalc's release, changing a paper spreadsheet often required redoing the entire sheet by hand.”</em>"}, {"title": "Apply the punctuation rule", "content": "A period provides the required punctuation. The other choices fail: <ul><li>A creates a fused sentence with no separation</li><li>B uses only a comma (not sufficient here)</li><li>D uses the ungrammatical phrase “and prior”</li></ul>. That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "01a32c84",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the sentence boundary",
+      "content": "The text contains two independent clauses at the point of the blank: one clause ends with <em>“dependent on these adjustments,”</em> and another begins with <em>“Prior to VisiCalc's release, changing a paper spreadsheet often required redoing the entire sheet by hand.”</em>"
+    },
+    {
+      "title": "Apply the punctuation rule",
+      "content": "A period provides the required punctuation. The other choices fail: <ul><li>A creates a fused sentence with no separation</li><li>B uses only a comma (not sufficient here)</li><li>D uses the ungrammatical phrase “and prior”</li></ul>. That matches <strong>Choice C &mdash; adjustments. Prior</strong>."
+    }
+  ]
+}

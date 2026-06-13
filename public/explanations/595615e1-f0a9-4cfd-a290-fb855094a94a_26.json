@@ -1,1 +1,15 @@
-{"questionId": "595615e1-f0a9-4cfd-a290-fb855094a94a_26", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The goal is to <em>contrast</em> the two samples: the 0.7 mm NiTi wire and the 2.2 mm natural rubber fiber. A contrasting statement must highlight a difference between them using specific data from the notes."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'The natural rubber sample was thicker than the single ply NiTi wire sample'</strong>: Directly contrasts the two samples using their differing thicknesses (2.2 mm vs 0.7 mm). &#10003;</li><li><strong>Choice B &mdash; 'researchers studied the effect of torsional heating on various fibers, including samples of natural rubber and single ply NiTi wire'</strong>: Mentions both samples but does not distinguish them &mdash; no contrast. &#10007;</li><li><strong>Choice C &mdash; 'the surface temperature of both samples increased'</strong>: Emphasizes a similarity (both increased), not a contrast. &#10007;</li><li><strong>Choice D &mdash; 'Twisting an object will generally cause its temperature to increase'</strong>: Omits both samples entirely &mdash; no contrast. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "595615e1-f0a9-4cfd-a290-fb855094a94a_26",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The goal is to <em>contrast</em> the two samples: the 0.7 mm NiTi wire and the 2.2 mm natural rubber fiber. A contrasting statement must highlight a difference between them using specific data from the notes."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — The natural rubber sample used in the 2019 study was thicker than the single ply NiTi wire sample.</strong>: Directly contrasts the two samples using their differing thicknesses (2.2 mm vs 0.7 mm). &#10003;</li><li><strong>Choice B — In 2019, researchers studied the effect of torsional heating on various fibers, including samples of natural rubber and single ply NiTi wire.</strong>: Mentions both samples but does not distinguish them &mdash; no contrast. &#10007;</li><li><strong>Choice C — When the fibers were twisted as part of the 2019 study, the surface temperature of both samples increased.</strong>: Emphasizes a similarity (both increased), not a contrast. &#10007;</li><li><strong>Choice D — Twisting an object will generally cause its temperature to increase, a process known as torsional heating.</strong>: Omits both samples entirely &mdash; no contrast. &#10007;</li></ul><strong>A</strong> is correct."
+    }
+  ]
+}

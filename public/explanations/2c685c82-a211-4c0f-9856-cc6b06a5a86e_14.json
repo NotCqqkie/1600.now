@@ -21,7 +21,7 @@
     },
     {
       "title": "Evaluate all choices",
-      "content": "<ul><li><strong>A (I only):</strong> The median need not decrease &mdash; the 7th and 8th values could be equal, keeping the median the same. Eliminated.</li><li><strong>B (II only):</strong> The mean must decrease because every original weight is above 32, so adding 32 pulls the mean down. That matches choice B &mdash; <strong>B</strong> is correct.</li><li><strong>C (I and II):</strong> Since the median is not guaranteed to decrease, both statements cannot be guaranteed. Eliminated.</li><li><strong>D (Neither I nor II):</strong> The mean must decrease, so &ldquo;neither&rdquo; is false. Eliminated.</li></ul>"
+      "content": "<ul><li><strong>A (I only):</strong> The median need not decrease &mdash; the 7th and 8th values could be equal, keeping the median the same. Eliminated.</li><li><strong>B (II only):</strong> The mean must decrease because every original weight is above 32, so adding 32 pulls the mean down. <strong>B</strong> is correct.</li><li><strong>C (I and II):</strong> Since the median is not guaranteed to decrease, both statements cannot be guaranteed. Eliminated.</li><li><strong>D (Neither I nor II):</strong> The mean must decrease, so &ldquo;neither&rdquo; is false. Eliminated.</li></ul>"
     }
   ]
 }

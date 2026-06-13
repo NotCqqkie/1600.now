@@ -13,11 +13,11 @@
     },
     {
       "title": "Use the condition on w",
-      "content": "The condition $w>\\frac{3}{5}$ makes $5w-3$ positive, so squaring both sides is valid for the original square-root equation."
+      "content": "The condition $w\\gt \\frac{3}{5}$ makes $5w-3$ positive, so squaring both sides is valid for the original square-root equation."
     },
     {
       "title": "Match the choice",
-      "content": "The expression $w=\\frac{r^2}{5}+\\frac{3}{5}$ matches choice <strong>C</strong>."
+      "content": "The expression $w=\\frac{r^2}{5}+\\frac{3}{5}$ matches the correct answer, <strong>C</strong>."
     }
   ]
 }

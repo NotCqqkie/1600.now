@@ -1,1 +1,15 @@
-{"questionId":"65933baf-7287-4c7d-a62b-3e57c00f4a9e_21","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence introduces Spain's voting age (18), then pivots to Brazil's voting age (16). The blank must connect two facts that directly oppose each other."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'By contrast'</strong>: signals opposition between two different facts. Spain's higher age vs. Brazil's lower age is a direct contrast. &#10003;</li><li><strong>Choice B &mdash; 'For example'</strong>: would mean Brazil illustrates Spain's rule, but Brazil's age is different from Spain's, not an example of it. &#10007;</li><li><strong>Choice C &mdash; 'Firstly'</strong>: implies a sequence or list, but the sentence is not listing steps. &#10007;</li><li><strong>Choice D &mdash; 'Therefore'</strong>: signals a logical consequence, but Brazil's voting age does not follow from Spain's. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_21",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence introduces Spain's voting age (18), then pivots to Brazil's voting age (16). The blank must connect two facts that directly oppose each other."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;By contrast,&rsquo;</strong>: signals opposition between two different facts. Spain's higher age vs. Brazil's lower age is a direct contrast. &#10003;</li><li><strong>Choice B &mdash; &lsquo;For example,&rsquo;</strong>: would mean Brazil illustrates Spain's rule, but Brazil's age is different from Spain's, not an example of it. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Firstly,&rsquo;</strong>: implies a sequence or list, but the sentence is not listing steps. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Therefore,&rsquo;</strong>: signals a logical consequence, but Brazil's voting age does not follow from Spain's. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

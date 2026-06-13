@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; $\\frac{10}{27}$</strong>: This divides by the number of sedimentary rocks (27), not the total. &#10007;</li><li><strong>Choice B &mdash; $\\frac{10}{33}$</strong>: This divides by the number of metamorphic rocks (33), not the total. &#10007;</li><li><strong>Choice C &mdash; $\\frac{10}{60}$</strong>: This divides by the number of non-igneous rocks (33 + 27 = 60), not the total. &#10007;</li><li><strong>Choice D &mdash; $\\frac{10}{70}$</strong>: 10 igneous rocks divided by 70 total rocks &mdash; correct probability formula. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;$\\frac{10}{27}$&rsquo;</strong>: This divides by the number of sedimentary rocks (27), not the total. &#10007;</li><li><strong>Choice B &mdash; &lsquo;$\\frac{10}{33}$&rsquo;</strong>: This divides by the number of metamorphic rocks (33), not the total. &#10007;</li><li><strong>Choice C &mdash; &lsquo;$\\frac{10}{60}$&rsquo;</strong>: This divides by the number of non-igneous rocks (33 + 27 = 60), not the total. &#10007;</li><li><strong>Choice D &mdash; &lsquo;$\\frac{10}{70}$&rsquo;</strong>: 10 igneous rocks divided by 70 total rocks &mdash; correct probability formula. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
     }
   ]
 }

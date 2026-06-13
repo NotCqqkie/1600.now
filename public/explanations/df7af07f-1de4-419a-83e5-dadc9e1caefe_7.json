@@ -1,1 +1,15 @@
-{"questionId":"df7af07f-1de4-419a-83e5-dadc9e1caefe_7","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks for the overall structure of the passage. Map what each part does: the first half describes Byrne and colleagues&apos; study using historical DNA; the second half (after &apos;Although&apos;) explains why this approach is rarely used."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'presents a study and its approach, then describes a barrier to widespread adoption'</strong>: Matches exactly &mdash; the study is described, then hDNA degradation is named as the barrier preventing broader use. &#10003;</li><li><strong>Choice B &mdash; 'evaluates the methodology, then explains how scientists may overcome difficulties'</strong>: The passage says the degradation problem is &quot;not easily remediable&quot; &mdash; it offers no path forward. &#10007;</li><li><strong>Choice C &mdash; 'summarizes findings, then discusses replication'</strong>: No findings are reported, and replication is never mentioned. &#10007;</li><li><strong>Choice D &mdash; 'exemplifies a common method, then details difficulties in adapting it'</strong>: The passage calls hDNA a &quot;relatively underutilized resource,&quot; so it is not common; and the difficulty is degradation, not adaptation. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "df7af07f-1de4-419a-83e5-dadc9e1caefe_7",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks for the overall structure of the passage. Map what each part does: the first half describes Byrne and colleagues' study using historical DNA; the second half (after 'Although') explains why this approach is rarely used."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"It presents a scientific study that relied on a particular approach, then describes a barrier to the widespread adoption of that approach.\"</strong>: Matches exactly &mdash; the study is described, then hDNA degradation is named as the barrier preventing broader use. &#10003;</li><li><strong>\"It evaluates a research methodology used in a particular study, then explains how scientists may overcome difficulties inherent to that methodology.\"</strong>: The passage says the degradation problem is \"not easily remediable\" &mdash; it offers no path forward. &#10007;</li><li><strong>\"It summarizes the findings of a scientific study, then discusses the possibility of other researchers replicating those findings in future studies.\"</strong>: No findings are reported, and replication is never mentioned. &#10007;</li><li><strong>\"It exemplifies a common method of genomic data analysis, then details the difficulties in adapting that method to new circumstances.\"</strong>: The passage calls hDNA a \"relatively underutilized resource,\" so it is not common; and the difficulty is degradation, not adaptation. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+    }
+  ]
+}

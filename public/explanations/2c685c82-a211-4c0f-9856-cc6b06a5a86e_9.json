@@ -13,7 +13,7 @@
     },
     {
       "title": "Solve both cases",
-      "content": "<strong>Case 1:</strong> $5x+7=7$<br/>$$5x=0$$<br/>$$x=0$$<br/><strong>Case 2:</strong> $5x+7=-7$<br/>$$5x=-14$$<br/>$$x=-\\frac{14}{5}$$<br/>The two solutions are $x=0$ and $x=-\\frac{14}{5}$.<br/><br/>That matches choice <strong>C</strong> — <strong>C</strong> is correct."
+      "content": "<strong>Case 1:</strong> $5x+7=7$<br/>$$5x=0$$<br/>$$x=0$$<br/><strong>Case 2:</strong> $5x+7=-7$<br/>$$5x=-14$$<br/>$$x=-\\frac{14}{5}$$<br/>The two solutions are $x=0$ and $x=-\\frac{14}{5}$.<br/><br/><strong>C</strong> is correct."
     }
   ]
 }

@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply commutativity to match a choice",
-      "content": "Rearrange the terms using commutativity of addition: $$16+14(x-1)=14(x-1)+16.$$ This matches choice C exactly &mdash; <strong>C</strong> is correct.<br/><br/>This is the same equation because addition can be done in either order; the coefficient, variable expression, and constant term all stay unchanged."
+      "content": "Rearrange the terms using commutativity of addition: $$16+14(x-1)=14(x-1)+16.$$ That matches <strong>Choice C &mdash; $y = 14(x - 1) + 16$</strong> exactly &mdash; <strong>C</strong>.<br/><br/>This is the same equation because addition can be done in either order; the coefficient, variable expression, and constant term all stay unchanged."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId":"358eadf8-526f-42db-b8ee-227b4cb7d0e5_17","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence opens a parenthetical with an em dash: &quot;Interpol&mdash;the International Criminal Police ______&quot;. A parenthetical opened by an em dash must be closed by a matching em dash. The blank must supply the end of the parenthetical, so the correct choice ends with an em dash."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Organization,'</strong>: a comma cannot close an em-dash parenthetical. The sentence becomes &quot;Interpol&mdash;the International Criminal Police Organization, in 1971&quot; &mdash; the em dash is never closed. &#10007;</li><li><strong>Choice B &mdash; 'Organization&mdash;'</strong>: the em dash is properly closed, neatly bracketing the definition: &quot;Interpol&mdash;the International Criminal Police Organization&mdash;in 1971.&quot; &#10003;</li><li><strong>Choice C &mdash; 'Organization'</strong>: no closing punctuation at all. The parenthetical bleeds into the rest of the sentence without being closed. &#10007;</li><li><strong>Choice D &mdash; 'Organization:'</strong>: a colon cannot close an em-dash parenthetical, and it would incorrectly make &quot;in 1971&quot; appear to follow as a list item. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "358eadf8-526f-42db-b8ee-227b4cb7d0e5_17",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence opens a parenthetical with an em dash: &quot;Interpol&mdash;the International Criminal Police ______&quot;. A parenthetical opened by an em dash must be closed by a matching em dash. The blank must supply the end of the parenthetical, so the correct choice ends with an em dash."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — Organization,</strong>: a comma cannot close an em-dash parenthetical. The sentence becomes &quot;Interpol&mdash;the International Criminal Police Organization, in 1971&quot; &mdash; the em dash is never closed. &#10007;</li><li><strong>Choice B — Organization—</strong>: the em dash is properly closed, neatly bracketing the definition: &quot;Interpol&mdash;the International Criminal Police Organization&mdash;in 1971.&quot; &#10003;</li><li><strong>Choice C — Organization</strong>: no closing punctuation at all. The parenthetical bleeds into the rest of the sentence without being closed. &#10007;</li><li><strong>Choice D — Organization:</strong>: a colon cannot close an em-dash parenthetical, and it would incorrectly make &quot;in 1971&quot; appear to follow as a list item. &#10007;</li></ul><strong>B</strong> is correct."
+    }
+  ]
+}

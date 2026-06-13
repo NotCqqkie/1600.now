@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the answer",
-      "content": "Choice A uses $0.024$ as the whole multiplier, and choice B uses $0.24$; both would shrink the value. Choice D uses $1.24$, a $24\\%$ increase. Choice C uses $1.024$, the correct yearly multiplier. Choice <strong>C</strong> is correct."
+      "content": "Choice A (&lsquo;$f(x)=174,000(0.024)^{x}$&rsquo;) uses $0.024$ as the whole multiplier, and choice B (&lsquo;$f(x)=174,000(0.24)^{x}$&rsquo;) uses $0.24$; both would shrink the value. Choice D (&lsquo;$f(x)=174,000(1.24)^{x}$&rsquo;) uses $1.24$, a $24\\%$ increase. Choice C (&lsquo;$f(x)=174,000(1.024)^{x}$&rsquo;) uses $1.024$, the correct yearly multiplier. <strong>C</strong> is correct."
     }
   ]
 }

@@ -9,7 +9,7 @@
     },
     {
       "title": "Compute the result",
-      "content": "Simplify: $$h(10) = 5(90 - 10) = 5(80) = 400.$$ That matches choice <strong>A</strong> — <strong>A</strong> is correct."
+      "content": "Simplify: $$h(10) = 5(90 - 10) = 5(80) = 400.$$ The expression inside the parentheses is evaluated before multiplying by $5$. That confirms <strong>A</strong> is correct."
     }
   ]
 }

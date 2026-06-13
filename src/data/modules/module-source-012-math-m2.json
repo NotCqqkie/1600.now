@@ -163,7 +163,7 @@
     "difficulty": "Easy",
     "question_number": 7,
     "test_name": "Module Source 012 Math M2",
-    "passage": "$5c = 15$, what is the value of $5c - 8$?",
+    "passage": "If $5c = 15$, what is the value of $5c - 8$?",
     "question_text": null,
     "choices": [
       {
@@ -195,7 +195,7 @@
     "difficulty": "Medium",
     "question_number": 8,
     "test_name": "Module Source 012 Math M2",
-    "passage": "$k$ to $p$ is constant. If $k = 7$, then $p = 6$. What is the value of $k$ when $p = 336$?",
+    "passage": "The ratio of $k$ to $p$ is constant. If $k = 7$, then $p = 6$. What is the value of $k$ when $p = 336$?",
     "question_text": null,
     "choices": [
       {
@@ -266,7 +266,7 @@
     "difficulty": "Easy",
     "question_number": 10,
     "test_name": "Module Source 012 Math M2",
-    "passage": "For certain air temperatures, the table gives wind chill temperatures for two different wind speeds.\nAccording to the table, what is the wind chill temperature, in degrees Fahrenheit ($\\text{°F}$), when the air temperature is 29$\\text{°F}$ and the wind speed is 15 miles per hour (mph)? (Disregard the degree symbol when entering your answer.)",
+    "passage": "For certain air temperatures, the table gives wind chill temperatures for two different wind speeds.\nAccording to the table, what is the wind chill temperature, in degrees Fahrenheit (${}^{\\circ}\\text{F}$), when the air temperature is 29${}^{\\circ}\\text{F}$ and the wind speed is 15 miles per hour (mph)? (Disregard the degree symbol when entering your answer.)",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -335,7 +335,7 @@
     "difficulty": "Easy",
     "question_number": 13,
     "test_name": "Module Source 012 Math M2",
-    "passage": "$1,035x + 535y = 13,165$ represents the combined population of the city and the suburb adjacent to the city.",
+    "passage": "A city has an area of $x$ square miles and a population density of 1,035 people per square mile. The suburb adjacent to the city has an area of $y$ square miles and a population density of 535 people per square mile. The combined population of the city and the suburb adjacent to the city is 13,165 people. Which equation represents this situation?",
     "question_text": null,
     "choices": [
       {

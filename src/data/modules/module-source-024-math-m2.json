@@ -339,7 +339,7 @@
     "difficulty": "Medium",
     "question_number": 15,
     "test_name": "Module Source 024 Math M2",
-    "passage": "At the beginning of an experiment, the temperature of a liquid is 23 degrees Celsius (°C). During the first 4.0 minutes of the experiment, the temperature of the liquid increases at an average rate of 6.5°C per minute. Then, the temperature of the liquid increases at a constant rate of 2.4°C per minute. If the temperature of the liquid reaches 63°C $x$ minutes after the beginning of the experiment, where $x > 4.0$, which equation represents this situation?",
+    "passage": "At the beginning of an experiment, the temperature of a liquid is 23 degrees Celsius (°C). During the first 4.0 minutes of the experiment, the temperature of the liquid increases at an average rate of 6.5°C per minute. Then, the temperature of the liquid increases at a constant rate of 2.4°C per minute. If the temperature of the liquid reaches 63°C $x$ minutes after the beginning of the experiment, where $x \\gt 4.0$, which equation represents this situation?",
     "question_text": null,
     "choices": [
       {
@@ -376,19 +376,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$r < 0$ and $t > 0$"
+        "text": "$r \\lt 0$ and $t \\gt 0$"
       },
       {
         "label": "B",
-        "text": "$r > 0$ and $t > 0$"
+        "text": "$r \\gt 0$ and $t \\gt 0$"
       },
       {
         "label": "C",
-        "text": "$r > 0$ and $t < 0$"
+        "text": "$r \\gt 0$ and $t \\lt 0$"
       },
       {
         "label": "D",
-        "text": "$r < 0$ and $t < 0$"
+        "text": "$r \\lt 0$ and $t \\lt 0$"
       }
     ],
     "is_fill_in_blank": false,

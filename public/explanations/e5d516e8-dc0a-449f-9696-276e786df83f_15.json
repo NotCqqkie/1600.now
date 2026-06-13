@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; 'One'</strong>: The graph crosses or touches the axis at more than one location. &#10007;</li><li><strong>Choice B &mdash; 'Two'</strong>: The graph touches the x-axis at one point (tangent, double root) and crosses it at one other point &mdash; two distinct values. &#10003;</li><li><strong>Choice C &mdash; 'Three'</strong>: Three distinct zeros would require the graph to cross or touch the axis at three separate x-values, which it does not. &#10007;</li><li><strong>Choice D &mdash; 'Four'</strong>: A cubic $f(x) = ax^3 + bx^2 + cx + d$ can have at most three real roots. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "<ul><li><strong>\"One\"</strong>: The graph crosses or touches the axis at more than one location. &#10007;</li><li><strong>\"Two\"</strong>: The graph touches the x-axis at one point (tangent, double root) and crosses it at one other point &mdash; two distinct values. &#10003;</li><li><strong>\"Three\"</strong>: Three distinct zeros would require the graph to cross or touch the axis at three separate x-values, which it does not. &#10007;</li><li><strong>\"Four\"</strong>: A cubic $f(x) = ax^3 + bx^2 + cx + d$ can have at most three real roots. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
     }
   ]
 }

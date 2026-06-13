@@ -1,4 +1,15 @@
-{"questionId":"76199cca-674f-403e-a01c-927854021f9f_14","correctAnswer":"D","section":"Reading and Writing","steps":[
-  {"title":"Identify what the question needs","content":"This is an Inferences question. The researchers found a specific difference between wild and captive tucos: daytime is the most active period for wild individuals but not for captive ones. The blank must complete the conclusion the researchers drew from this finding &mdash; the most logical inference about what the lab setting was doing."},
-  {"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'more suitable than wild settings for studying tucos&apos; patterns of rest and activity'</strong>: The data show the lab produces different behavior than the wild, which means lab results are less representative, not more suitable. &#10007;</li><li><strong>Choice B &mdash; 'affecting the results for both tucos and dark-eyed juncos'</strong>: The passage only gives evidence about tucos. The conclusion cannot extend to dark-eyed juncos without evidence &mdash; this oversteps the data. &#10007;</li><li><strong>Choice C &mdash; 'more suitable for studying dark-eyed juncos than for studying tucos'</strong>: No data comparing suitability across species is provided. This introduces an unsupported comparison. &#10007;</li><li><strong>Choice D &mdash; 'interfering with tucos&apos; patterns of rest and activity'</strong>: Wild tucos are most active during the day; captive ones are not. The most logical explanation is that the lab setting is disrupting &mdash; interfering with &mdash; their natural activity patterns. This follows directly from the evidence. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}
-]}
+{
+  "questionId": "76199cca-674f-403e-a01c-927854021f9f_14",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is an Inferences question. The researchers found a specific difference between wild and captive tucos: daytime is the most active period for wild individuals but not for captive ones. The blank must complete the conclusion the researchers drew from this finding &mdash; the most logical inference about what the lab setting was doing."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;more suitable than wild settings for studying tucos' patterns of rest and activity.&rsquo;</strong>: The data show the lab produces different behavior than the wild, which means lab results are less representative, not more suitable. &#10007;</li><li><strong>Choice B &mdash; &lsquo;affecting the results for both tucos and dark-eyed juncos.&rsquo;</strong>: The passage only gives evidence about tucos. The conclusion cannot extend to dark-eyed juncos without evidence &mdash; this oversteps the data. &#10007;</li><li><strong>Choice C &mdash; &lsquo;more suitable for studying dark-eyed juncos than for studying tucos.&rsquo;</strong>: No data comparing suitability across species is provided. This introduces an unsupported comparison. &#10007;</li><li><strong>Choice D &mdash; &lsquo;interfering with tucos' patterns of rest and activity.&rsquo;</strong>: Wild tucos are most active during the day; captive ones are not. The most logical explanation is that the lab setting is disrupting &mdash; interfering with &mdash; their natural activity patterns. This follows directly from the evidence. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

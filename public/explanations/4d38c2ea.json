@@ -1,1 +1,19 @@
-{"questionId": "4d38c2ea", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "State the underlined hypothesis", "content": "The scholars&#39; claim has two parts: (1) Mexican art objects bearing jaguar imagery reached Missouri through long-distance trade during the Mississippian period, and (2) a local Mississippian-era artist saw that imagery and copied it onto the Fairfield Gorget."}, {"title": "Identify what would strengthen the claim", "content": "The hypothesis needs physical evidence that Mexican art was actually present in the Fairfield area during the Mississippian period, since otherwise the local artist would have had no model to copy."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; 'dated&hellip;to the earlier Woodland period'</strong>: redating the gorget to before the Mississippian period weakens the claim by making the hypothesized trade route anachronistic. &#10007;</li><li><strong>Choice B &mdash; 'jaguar&hellip;range&hellip;expanded&hellip;after the Mississippian period&#39;s close'</strong>: post-1600 jaguar range is irrelevant to whether a Mississippian-era artist saw jaguar imagery from Mexico. &#10007;</li><li><strong>Choice C &mdash; 'An ancient Mexican art object is found at a site that dates to the Mississippian period and is close to where the Fairfield Gorget was found'</strong>: this is direct physical proof that Mexican art reached the same area in the same period &mdash; exactly the trade link the scholars need. &#10003;</li><li><strong>Choice D &mdash; 'present-day artists&hellip;reflect outside cultural influences'</strong>: modern artists&#39; practices say nothing about whether trade carried Mexican art to Missouri centuries ago. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "4d38c2ea",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "State the underlined hypothesis",
+      "content": "The scholars&#39; claim has two parts: (1) Mexican art objects bearing jaguar imagery reached Missouri through long-distance trade during the Mississippian period, and (2) a local Mississippian-era artist saw that imagery and copied it onto the Fairfield Gorget."
+    },
+    {
+      "title": "Identify what would strengthen the claim",
+      "content": "The hypothesis needs physical evidence that Mexican art was actually present in the Fairfield area during the Mississippian period, since otherwise the local artist would have had no model to copy."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A — The Fairfield Gorget is dated not to the Mississippian period but instead to the earlier Woodland period, which ended around 900 CE.</strong>: redating the gorget to before the Mississippian period weakens the claim by making the hypothesized trade route anachronistic. &#10007;</li><li><strong>Choice B — The range of the jaguar is shown to have expanded dramatically after the Mississippian period came to a close around 1600 CE.</strong>: post-1600 jaguar range is irrelevant to whether a Mississippian-era artist saw jaguar imagery from Mexico. &#10007;</li><li><strong>Choice C — An ancient Mexican art object is found at a site that dates to the Mississippian period and is close to where the Fairfield Gorget was found.</strong>: this is direct physical proof that Mexican art reached the same area in the same period &mdash; exactly the trade link the scholars need. &#10003;</li><li><strong>Choice D — Certain works by present-day artists from Southeastern tribes reflect outside cultural influences, including contemporary Mexican art.</strong>: modern artists&#39; practices say nothing about whether trade carried Mexican art to Missouri centuries ago. &#10007;</li></ul><strong>C</strong> is correct."
+    }
+  ]
+}

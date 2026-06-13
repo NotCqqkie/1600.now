@@ -1,1 +1,15 @@
-{"questionId":"98abbb37-6191-475b-986c-2431f021f4a2_21","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank is the verb in the relative clause \"which ______ located in Newark, New Jersey.\" The relative pronoun \"which\" refers to the singular noun \"Newark Liberty International Airport,\" so the verb must agree with a singular subject and describe a permanent, present-day fact."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'is'</strong>: Singular present tense. Agrees with the singular antecedent \"which\" (= the airport) and fits a permanent geographic fact. &#10003;</li><li><strong>Choice B &mdash; 'are'</strong>: Plural present tense. \"Which\" refers to a single airport, not a plural noun. Number mismatch. &#10007;</li><li><strong>Choice C &mdash; 'were'</strong>: Plural past tense. Fails on both number (plural) and tense (past) — the airport's location is a current fact. &#10007;</li><li><strong>Choice D &mdash; 'have been'</strong>: Plural present perfect. Still plural, so it disagrees with the singular \"which.\" &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "98abbb37-6191-475b-986c-2431f021f4a2_21",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank is the verb in the relative clause \"which ______ located in Newark, New Jersey.\" The relative pronoun \"which\" refers to the singular noun \"Newark Liberty International Airport,\" so the verb must agree with a singular subject and describe a permanent, present-day fact."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; is</strong>: Singular present tense. Agrees with the singular antecedent \"which\" (= the airport) and fits a permanent geographic fact. &#10003;</li><li><strong>Choice B &mdash; are</strong>: Plural present tense. \"Which\" refers to a single airport, not a plural noun. Number mismatch. &#10007;</li><li><strong>Choice C &mdash; were</strong>: Plural past tense. Fails on both number (plural) and tense (past) — the airport's location is a current fact. &#10007;</li><li><strong>Choice D &mdash; have been</strong>: Plural present perfect. Still plural, so it disagrees with the singular \"which.\" &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

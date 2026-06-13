@@ -17,7 +17,7 @@
     },
     {
       "title": "Confirm the answer",
-      "content": "Choice A is $f(x)=50x+60$. It gives $f(2)=160$ and $f(6)=360$, matching both facts, so <strong>A</strong> is correct."
+      "content": "The correct model is $f(x)=50x+60$. It gives $f(2)=160$ and $f(6)=360$, matching both facts, so <strong>A</strong> is correct."
     }
   ]
 }

@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate wrong choices, confirm the match",
-      "content": "<ul><li><strong>Choice A &mdash; 'For instance,'</strong>: signals that erbium is a specific example of the same pattern as neon, but erbium's timeline is the opposite of neon's. &#10007;</li><li><strong>Choice B &mdash; 'By contrast,'</strong>: directly flags the opposition between neon's immediate isolation and erbium's 91-year delay. &#10003;</li><li><strong>Choice C &mdash; 'Thus,'</strong>: signals that erbium's slow isolation follows as a consequence of neon's fast isolation &mdash; no causal link exists between the two. &#10007;</li><li><strong>Choice D &mdash; 'Similarly,'</strong>: signals resemblance, but the two timelines are the opposite of each other. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; For instance,</strong>: signals that erbium is a specific example of the same pattern as neon, but erbium's timeline is the opposite of neon's. &#10007;</li><li><strong>Choice B &mdash; By contrast,</strong>: directly flags the opposition between neon's immediate isolation and erbium's 91-year delay. &#10003;</li><li><strong>Choice C &mdash; Thus,</strong>: signals that erbium's slow isolation follows as a consequence of neon's fast isolation &mdash; no causal link exists between the two. &#10007;</li><li><strong>Choice D &mdash; Similarly,</strong>: signals resemblance, but the two timelines are the opposite of each other. &#10007;</li></ul>That matches <strong>Choice B &mdash; By contrast,</strong>."
     }
   ]
 }

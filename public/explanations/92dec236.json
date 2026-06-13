@@ -1,1 +1,15 @@
-{"questionId": "92dec236", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the task", "content": "The student wants to &quot;emphasize a similarity between the two works.&quot; The notes show one relevant shared trait: both <em>Erasure</em> and <em>Home Grown</em> feature discarded objects. The correct choice must name both works and highlight that shared feature."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; &apos;Erasure (2008) uses discarded objects such as audiocassette tapes and magnets; Home Grown (2009), however, includes pushpins, plastic plates and forks, and wood.&apos;</strong>: The contrast word &quot;however&quot; signals a difference, not a similarity. &#10007;</li><li><strong>Choice B &mdash; &apos;Tubbs&apos;s work, which often features discarded objects, has been shown both within the United States and abroad.&apos;</strong>: Never mentions <em>Erasure</em> or <em>Home Grown</em> by name, so it fails to connect the two works. &#10007;</li><li><strong>Choice C &mdash; &apos;Like many of Tubbs&apos;s sculptures, both Erasure and Home Grown include discarded objects: Erasure uses audiocassette tapes, and Home Grown uses plastic forks.&apos;</strong>: Names both works, identifies the shared trait (discarded objects), and gives a specific example from each. &#10003;</li><li><strong>Choice D &mdash; &apos;Tubbs completed Erasure in 2008 and Home Grown in 2009.&apos;</strong>: Mentions only completion dates, not any shared feature of the works. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "92dec236",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the task",
+      "content": "The student wants to &quot;emphasize a similarity between the two works.&quot; The notes show one relevant shared trait: both <em>Erasure</em> and <em>Home Grown</em> feature discarded objects. The correct choice must name both works and highlight that shared feature."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; <em>Erasure</em> (2008) uses discarded objects such as audiocassette tapes and magnets; <em>Home Grown</em> (2009), however, includes pushpins, plastic plates and forks, and wood.</strong>: The contrast word &quot;however&quot; signals a difference, not a similarity. &#10007;</li><li><strong>Choice B &mdash; Tubbs's work, which often features discarded objects, has been shown both within the United States and abroad.</strong>: Never mentions <em>Erasure</em> or <em>Home Grown</em> by name, so it fails to connect the two works. &#10007;</li><li><strong>Choice C &mdash; Like many of Tubbs's sculptures, both <em>Erasure</em> and <em>Home Grown</em> include discarded objects: <em>Erasure</em> uses audiocassette tapes, and <em>Home Grown</em> uses plastic forks.</strong>: Names both works, identifies the shared trait (discarded objects), and gives a specific example from each. &#10003;</li><li><strong>Choice D &mdash; Tubbs completed <em>Erasure</em> in 2008 and <em>Home Grown</em> in 2009.</strong>: Mentions only completion dates, not any shared feature of the works. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

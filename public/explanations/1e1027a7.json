@@ -17,7 +17,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice D is $d=33t+84$, so choice <strong>D</strong> is correct. Choice C has the right slope but an intercept that is much too high, and choices A and B have slopes that are too small."
+      "content": "<strong>Choice D &mdash; $d = 33t + 84$</strong> matches the estimated line of best fit $d=33t+84$. <strong>Choice C &mdash; $d = 33t + 300$</strong> has the right slope but an intercept that is much too high, and the remaining alternatives have slopes that are too small."
     }
   ]
 }

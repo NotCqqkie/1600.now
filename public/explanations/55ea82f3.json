@@ -1,17 +1,22 @@
 {
   "qid": "55ea82f3",
+  "questionId": "55ea82f3",
   "steps": [
     {
-      "text": "Define the variable relationship: $x$ is the price of a ticket sold during the event. The price before the event is $\\$3$ more than during, so the before-event price is $x + 3$."
+      "title": "Step 1",
+      "content": "Define the variable relationship: $x$ is the price of a ticket sold during the event. The price before the event is 3 dollars more than during, so the before-event price is $x + 3$."
     },
     {
-      "text": "Express total revenue: the team sells at least 140 tickets before the event at $(x+3)$ each, and at least 220 tickets during the event at $x$ each. Total revenue $= 140(x+3) + 220x$."
+      "title": "Step 2",
+      "content": "Express total revenue: the team sells at least 140 tickets before the event at $(x+3)$ each, and at least 220 tickets during the event at $x$ each. Total revenue $= 140(x+3) + 220x$."
     },
     {
-      "text": "Apply the minimum requirement: the team needs to raise at least $\\$5{,}820$, so the inequality is $140(x+3) + 220x \\ge 5{,}820$."
+      "title": "Step 3",
+      "content": "Apply the minimum requirement: the team needs to raise at least 5,820 dollars, so the inequality is $140(x+3) + 220x \\ge 5{,}820$."
     },
     {
-      "text": "Evaluate all choices:<ul><li>A: $140(x+3) + 220x \\le 5{,}820$ — uses the correct revenue expression but the wrong direction; &quot;at least&quot; requires $\\ge$, not $\\le$. Eliminated.</li><li>B: $140(x+3) + 220x \\ge 5{,}820$ — correct revenue expression and correct direction. That matches choice B — <strong>B</strong> is correct.</li><li>C: $140(x-3) + 220x \\le 5{,}820$ — subtracts 3 from $x$ for the before-event ticket price, but the before-event price should be $x+3$ (higher, not lower). Also uses wrong direction. Eliminated.</li><li>D: $140(x-3) + 220x \\ge 5{,}820$ — correct direction but wrong price relationship; subtracting 3 from before-event price is backwards. Eliminated.</li></ul>"
+      "title": "Step 4",
+      "content": "Evaluate all choices:<ul><li>A: $140(x+3) + 220x \\le 5{,}820$ — uses the correct revenue expression but the wrong direction; &quot;at least&quot; requires $\\ge$, not $\\le$. Eliminated.</li><li>B: $140(x+3) + 220x \\ge 5{,}820$ — correct revenue expression and correct direction. <strong>B</strong> is correct.</li><li>C: $140(x-3) + 220x \\le 5{,}820$ — subtracts 3 from $x$ for the before-event ticket price, but the before-event price should be $x+3$ (higher, not lower). Also uses wrong direction. Eliminated.</li><li>D: $140(x-3) + 220x \\ge 5{,}820$ — correct direction but wrong price relationship; subtracting 3 from before-event price is backwards. Eliminated.</li></ul>"
     }
   ],
   "correctAnswer": "B"

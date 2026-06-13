@@ -9,11 +9,11 @@
     },
     {
       "title": "Read the vertex directly",
-      "content": "Written as $p(x)=(x-0)^2+(-57)$, this is vertex form $(h,k)=(0,-57)$. Since $a=1>0$, the parabola opens upward — the vertex is the minimum."
+      "content": "Written as $p(x)=(x-0)^2+(-57)$, this is vertex form $(h,k)=(0,-57)$. Since $a=1\\gt 0$, the parabola opens upward — the vertex is the minimum."
     },
     {
       "title": "State the minimum value",
-      "content": "The minimum value is $p(0)=-57$. That matches choice B — <strong>B</strong> is correct."
+      "content": "The minimum value is $p(0)=-57$. This is the output value at the vertex, not the $x$-coordinate of the vertex. <strong>B</strong> is correct."
     }
   ]
 }

@@ -17,7 +17,7 @@
     },
     {
       "title": "Eliminate the answer choices",
-      "content": "Test each at $x=2$ and $x=6$:<ul><li>A) $f(x)=-2x+17$: $f(2)=13$, not $3$. Fails.</li><li>B) $f(x)=-2x+15$: $f(2)=11$, not $3$. Fails.</li><li>C) $f(x)=\\tfrac{1}{2}x+2$: $f(2)=3$ and $f(6)=5$. Both check.</li><li>D) $f(x)=\\tfrac{1}{2}x+14$: $f(2)=15$, not $3$. Fails.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+      "content": "Test each at $x=2$ and $x=6$:<ul><li>A) $f(x)=-2x+17$: $f(2)=13$, not $3$. Fails.</li><li>B) $f(x)=-2x+15$: $f(2)=11$, not $3$. Fails.</li><li>C) $f(x)=\\tfrac{1}{2}x+2$: $f(2)=3$ and $f(6)=5$. Both check.</li><li>D) $f(x)=\\tfrac{1}{2}x+14$: $f(2)=15$, not $3$. Fails.</li></ul>That confirms <strong>C</strong> is correct."
     }
   ]
 }

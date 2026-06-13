@@ -1,1 +1,15 @@
-{"questionId": "d007aa6c-6fd8-4005-bd58-dc779c145226_2", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the contextual signal", "content": "The text says maize doesn't closely resemble any wild plant, so its ancestor wasn't obvious — \"only recently\" did genetic research uncover that the ancestor is teosinte grass. The blank describes what genetic research <em>did</em> regarding the ancestor."}, {"title": "Match the precise word", "content": "The blank needs to mean disclosed or uncovered — maize's ancestor wasn't obvious from appearance, and genetic research brought the hidden fact to light. Substitute each choice:\n<ul>\n<li><strong>Choice A — Expanded</strong>: research \"<em>expanded</em> its ancestor to be teosinte grass\" — expanded means made larger or broader, which doesn't fit revealing an identity. ✗</li>\n<li><strong>Choice B — Revealed</strong>: research \"<em>revealed</em> its ancestor to be teosinte grass\" — revealed means uncovered or made known, exactly what genetic research did with the previously hidden ancestry. ✓</li>\n<li><strong>Choice C — Encouraged</strong>: research \"<em>encouraged</em> its ancestor to be teosinte grass\" — encouraged means inspired or motivated, which can't describe how research identifies a plant ancestor. ✗</li>\n<li><strong>Choice D — Petitioned</strong>: research \"<em>petitioned</em> its ancestor to be teosinte grass\" — petitioned means formally requested something from an authority, which makes no sense in this context. ✗</li>\n</ul>\nThat matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "d007aa6c-6fd8-4005-bd58-dc779c145226_2",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the contextual signal",
+      "content": "The text says maize doesn't closely resemble any wild plant, so its ancestor wasn't obvious — \"only recently\" did genetic research uncover that the ancestor is teosinte grass. The blank describes what genetic research <em>did</em> regarding the ancestor."
+    },
+    {
+      "title": "Match the precise word",
+      "content": "The blank needs to mean disclosed or uncovered — maize's ancestor wasn't obvious from appearance, and genetic research brought the hidden fact to light. Substitute each choice:\n<ul>\n<li><strong>Choice A &mdash; expanded</strong>: research \"<em>expanded</em> its ancestor to be teosinte grass\" — expanded means made larger or broader, which doesn't fit revealing an identity. ✗</li>\n<li><strong>Choice B &mdash; revealed</strong>: research \"<em>revealed</em> its ancestor to be teosinte grass\" — revealed means uncovered or made known, exactly what genetic research did with the previously hidden ancestry. ✓</li>\n<li><strong>Choice C &mdash; encouraged</strong>: research \"<em>encouraged</em> its ancestor to be teosinte grass\" — encouraged means inspired or motivated, which can't describe how research identifies a plant ancestor. ✗</li>\n<li><strong>Choice D &mdash; petitioned</strong>: research \"<em>petitioned</em> its ancestor to be teosinte grass\" — petitioned means formally requested something from an authority, which makes no sense in this context. ✗</li>\n</ul>\nThat is the correct answer."
+    }
+  ]
+}

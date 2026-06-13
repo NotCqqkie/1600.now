@@ -1,1 +1,15 @@
-{"questionId": "a94b7fd6", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the grammar rule", "content": "The phrase &quot;Even back in the 1860s&quot; sets the action firmly in the past. The verb must agree with the past-time context and the singular subject (nearly 30% of the population, treated as a singular quantity)."}, {"title": "Eliminate wrong choices and confirm the answer", "content": "<ul><li><strong>Choice A &mdash; 'is being'</strong>: violates tense agreement &mdash; present progressive tense refers to an action happening now, contradicting &quot;back in the 1860s.&quot; &#10007;</li><li><strong>Choice B &mdash; 'was'</strong>: correct &mdash; simple past tense matches the 1860s time reference and agrees with the singular subject. &#10003;</li><li><strong>Choice C &mdash; 'is'</strong>: violates tense agreement &mdash; simple present tense refers to a current state, contradicting &quot;back in the 1860s.&quot; &#10007;</li><li><strong>Choice D &mdash; 'will be'</strong>: violates tense agreement &mdash; future tense refers to something yet to happen, contradicting the past time reference. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "a94b7fd6",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammar rule",
+      "content": "The phrase &quot;Even back in the 1860s&quot; sets the action firmly in the past. The verb must agree with the past-time context and the singular subject (nearly 30% of the population, treated as a singular quantity)."
+    },
+    {
+      "title": "Eliminate wrong choices and confirm the answer",
+      "content": "<ul><li><strong>Choice A &mdash; is being</strong>: violates tense agreement &mdash; present progressive tense refers to an action happening now, contradicting &quot;back in the 1860s.&quot; &#10007;</li><li><strong>Choice B &mdash; was</strong>: correct &mdash; simple past tense matches the 1860s time reference and agrees with the singular subject. &#10003;</li><li><strong>Choice C &mdash; is</strong>: violates tense agreement &mdash; simple present tense refers to a current state, contradicting &quot;back in the 1860s.&quot; &#10007;</li><li><strong>Choice D &mdash; will be</strong>: violates tense agreement &mdash; future tense refers to something yet to happen, contradicting the past time reference. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

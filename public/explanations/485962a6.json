@@ -1,1 +1,15 @@
-{"questionId": "485962a6", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the caveat that raises doubt", "content": "After reporting ash deposits consistent with massive eruptions, the passage states that <em>“erosion and past resurfacing events could have modified the surface.”</em> This caveat directly creates uncertainty about the reliability of the current evidence."}, {"title": "Apply the caveat to the logical conclusion", "content": "Choice A captures the logical consequence: when surface evidence could have been modified, current observations might not represent actual conditions.<br/><br/>The other choices either contradict the evidence or introduce points not discussed in the passage.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "485962a6",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the caveat that raises doubt",
+      "content": "After reporting ash deposits consistent with massive eruptions, the passage states that <em>“erosion and past resurfacing events could have modified the surface.”</em> This caveat directly creates uncertainty about the reliability of the current evidence."
+    },
+    {
+      "title": "Apply the caveat to the logical conclusion",
+      "content": "The matching choice captures the logical consequence: when surface evidence could have been modified, current observations might not represent actual conditions.<br/><br/>The other choices either contradict the evidence or introduce points not discussed in the passage.<br/><br/><strong>A</strong> is correct."
+    }
+  ]
+}

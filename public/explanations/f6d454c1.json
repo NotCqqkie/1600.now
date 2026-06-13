@@ -1,1 +1,15 @@
-{"questionId": "f6d454c1", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Clarify what sequence to recount", "content": "The phrase “recount the sequence of events proposed by the researchers” asks us to describe the historical events the researchers believe occurred—not the steps of their research process."}, {"title": "Match the proposed sequence", "content": "Choice C directly sequences the actual events: Chrysalis came close to Saturn, tidal forces broke it apart, and its debris formed the rings.<br/><br/>The others either contradict this causality, present only theory without the specific sequence, or describe research methodology instead of proposed events.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "f6d454c1",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Clarify what sequence to recount",
+      "content": "The phrase “recount the sequence of events proposed by the researchers” asks us to describe the historical events the researchers believe occurred—not the steps of their research process."
+    },
+    {
+      "title": "Match the proposed sequence",
+      "content": "<strong>Around 160 million years ago, a large moon (Chrysalis) came close enough to Saturn that tidal forces broke the moon apart; its debris then formed the planet's rings.</strong> directly sequences the actual events: Chrysalis came close to Saturn, tidal forces broke it apart, and its debris formed the rings.<br/><br/>The others either contradict this causality, present only theory without the specific sequence, or describe research methodology instead of proposed events.<br/><br/>That matches the correct answer — <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the sine ratio",
-      "content": "In a right triangle, $\\sin(30°) = \\frac{\\text{opposite}}{\\text{hypotenuse}} = \\frac{PQ}{QR}$. Since $\\sin(30°) = \\frac{1}{2}$ and $QR = 8$:<br/>$$\\frac{PQ}{8} = \\frac{1}{2}$$<br/>$$PQ = 8 \\cdot \\frac{1}{2} = 4$$<br/>The length of $\\overline{PQ}$ is <strong>4</strong>."
+      "content": "In a right triangle, $\\sin(30^{\\circ}) = \\frac{\\text{opposite}}{\\text{hypotenuse}} = \\frac{PQ}{QR}$. Since $\\sin(30^{\\circ}) = \\frac{1}{2}$ and $QR = 8$:<br/>$$\\frac{PQ}{8} = \\frac{1}{2}$$<br/>$$PQ = 8 \\cdot \\frac{1}{2} = 4$$<br/>The length of $\\overline{PQ}$ is <strong>4</strong>."
     }
   ]
 }

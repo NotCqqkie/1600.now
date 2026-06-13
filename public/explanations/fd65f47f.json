@@ -9,7 +9,7 @@
     },
     {
       "title": "Write the simplified expression",
-      "content": "So the sum is $$3x^2+7x-8.$$ That expression matches choice D, so <strong>D</strong> is correct. The order of terms in the choice may differ, but the coefficients $3$, $7$, and $-8$ are what matter."
+      "content": "So the sum is $$3x^2+7x-8.$$ That expression matches the computed answer, so <strong>D</strong> is correct. The order of terms in the choice may differ, but the coefficients $3$, $7$, and $-8$ are what matter."
     }
   ]
 }

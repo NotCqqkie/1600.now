@@ -1,1 +1,15 @@
-{"questionId":"d8e8d6b1-ed34-4cab-8e27-631e82e53bba_18","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence has two independent clauses joined without a coordinating conjunction: (1) &quot;A team led by researcher Mark E. Ritchie collected arthropods with [sweep nets, for instance]&quot; and (2) &quot;another research team, led by Alison G. Boyer, gathered them with bug vacuums.&quot; Two independent clauses joined without a coordinating conjunction require a semicolon between them. Within the first clause, &quot;for instance&quot; is a parenthetical adverb that must be set off by commas on both sides."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'sweep nets; for instance,'</strong>: places the semicolon before &quot;for instance,&quot; which splits the first clause in two and leaves the second clause beginning with a lowercase fragment. &#10007;</li><li><strong>Choice B &mdash; 'sweep nets for instance'</strong>: omits all punctuation around the parenthetical &quot;for instance&quot; and between the two independent clauses &mdash; both errors at once. &#10007;</li><li><strong>Choice C &mdash; 'sweep nets, for instance,'</strong>: correctly punctuates the parenthetical but uses only a comma to join the two independent clauses, creating a comma splice. &#10007;</li><li><strong>Choice D &mdash; 'sweep nets, for instance;'</strong>: commas around the parenthetical &quot;for instance&quot; and a semicolon after the first independent clause to join the second. Both rules satisfied. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "d8e8d6b1-ed34-4cab-8e27-631e82e53bba_18",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence has two independent clauses joined without a coordinating conjunction: (1) \"A team led by researcher Mark E. Ritchie collected arthropods with [sweep nets, for instance]\" and (2) \"another research team, led by Alison G. Boyer, gathered them with bug vacuums.\" Two independent clauses joined without a coordinating conjunction require a semicolon between them. Within the first clause, \"for instance\" is a parenthetical adverb that must be set off by commas on both sides."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"sweep nets; for instance,\"</strong>: places the semicolon before \"for instance,\" which splits the first clause in two and leaves the second clause beginning with a lowercase fragment. &#10007;</li><li><strong>\"sweep nets for instance\"</strong>: omits all punctuation around the parenthetical \"for instance\" and between the two independent clauses &mdash; both errors at once. &#10007;</li><li><strong>\"sweep nets, for instance,\"</strong>: correctly punctuates the parenthetical but uses only a comma to join the two independent clauses, creating a comma splice. &#10007;</li><li><strong>\"sweep nets, for instance;\"</strong>: commas around the parenthetical \"for instance\" and a semicolon after the first independent clause to join the second. Both rules satisfied. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -9,7 +9,7 @@
     },
     {
       "title": "Compute members after 4 days",
-      "content": "Substitute $d = 4$ into the formula: $$M = 90 + 10 \\times 4 = 90 + 40 = 130.$$ That matches choice B — <strong>B</strong> is correct."
+      "content": "Substitute $d = 4$ into the formula: $$M = 90 + 10 \\times 4 = 90 + 40 = 130.$$ <strong>B</strong> is correct."
     }
   ]
 }

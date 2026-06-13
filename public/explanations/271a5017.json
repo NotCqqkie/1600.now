@@ -1,1 +1,19 @@
-{"questionId": "271a5017", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the question type", "content": "This is a function question. We must determine what role the underlined sentence &quot;Bitter's feet were singing the news&quot; plays in the passage as a whole."}, {"title": "Reason toward the answer", "content": "The sentence right before says &quot;that was how Jam knew the painting was done&quot; &mdash; meaning the footsteps communicated information to Jam. The underlined sentence reinforces this idea by personifying the feet as &quot;singing the news,&quot; emphasizing that the footsteps convey a message to Jam."}, {"title": "Eliminate the wrong choices", "content": "<ul><li><strong>Choice A &mdash; 'Jam is more interested in music than in art'</strong>: misreads the figurative &quot;singing&quot; as literal music; the passage never compares Jam's interests. &#10007;</li><li><strong>Choice C &mdash; 'Bitter always sings when working on a painting'</strong>: takes &quot;singing&quot; literally and overreaches with &quot;always&quot;; it is the feet, not Bitter, that figuratively sing. &#10007;</li><li><strong>Choice D &mdash; 'describes Aloe's reaction upon seeing the painting'</strong>: Aloe is not a focus here, and the sentence describes Bitter's feet, not Aloe's reaction. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "271a5017",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the question type",
+      "content": "This is a function question. We must determine what role the underlined sentence &quot;Bitter's feet were singing the news&quot; plays in the passage as a whole."
+    },
+    {
+      "title": "Reason toward the answer",
+      "content": "The sentence right before says &quot;that was how Jam knew the painting was done&quot; &mdash; meaning the footsteps communicated information to Jam. The underlined sentence reinforces this idea by personifying the feet as &quot;singing the news,&quot; emphasizing that the footsteps convey a message to Jam."
+    },
+    {
+      "title": "Eliminate the wrong choices",
+      "content": "<ul><li><strong>Choice A &mdash; It indicates that Jam is more interested in music than in art.</strong>: misreads the figurative &quot;singing&quot; as literal music; the passage never compares Jam's interests. &#10007;</li><li><strong>Choice C &mdash; It indicates that Bitter always sings when working on a painting.</strong>: takes &quot;singing&quot; literally and overreaches with &quot;always&quot;; it is the feet, not Bitter, that figuratively sing. &#10007;</li><li><strong>Choice D &mdash; It describes Aloe's reaction upon seeing the painting for the first time.</strong>: Aloe is not a focus here, and the sentence describes Bitter's feet, not Aloe's reaction. &#10007;</li></ul>That matches <strong>Choice B &mdash; It adds to the idea that Bitter's footsteps reveal something to Jam.</strong>."
+    }
+  ]
+}

@@ -13,7 +13,7 @@
     },
     {
       "title": "Equate exponents and solve for x",
-      "content": "Set the simplified left side equal to the right side:<br/>$$(117n)^{3/2} = (117n)^{12x}$$<br/>Since the bases are identical and $n > 1$ ensures $117n$ is positive and not equal to 1, the exponents must be equal:<br/>$$\\frac{3}{2} = 12x$$<br/>Solve for $x$ by dividing both sides by 12:<br/>$$x = \\frac{3/2}{12} = \\frac{3}{2} \\cdot \\frac{1}{12} = \\frac{3}{24} = \\frac{1}{8}$$<br/>Equivalent forms accepted: <strong>1/8</strong>, <strong>0.125</strong>, <strong>.125</strong>."
+      "content": "Set the simplified left side equal to the right side:<br/>$$(117n)^{3/2} = (117n)^{12x}$$<br/>Since the bases are identical and $n \\gt 1$ ensures $117n$ is positive and not equal to 1, the exponents must be equal:<br/>$$\\frac{3}{2} = 12x$$<br/>Solve for $x$ by dividing both sides by 12:<br/>$$x = \\frac{3/2}{12} = \\frac{3}{2} \\cdot \\frac{1}{12} = \\frac{3}{24} = \\frac{1}{8}$$<br/>Equivalent forms accepted: <strong>1/8</strong>, <strong>0.125</strong>, <strong>.125</strong>."
     }
   ]
 }

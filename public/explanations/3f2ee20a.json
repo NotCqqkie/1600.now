@@ -9,11 +9,11 @@
     },
     {
       "title": "Compare the standard deviations",
-      "content": "Group A has standard deviation $12.5$, and Group B has standard deviation $19.1$. Since $19.1>12.5$, Group B has the larger spread. The table does not give the tallest participant or either median, so choices B and D cannot be known from the information given."
+      "content": "Group A has standard deviation $12.5$, and Group B has standard deviation $19.1$. Since $19.1\\gt 12.5$, Group B has the larger spread. The table does not give the tallest participant or either median, so the other choices cannot be known from the information given."
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice C says the heights in Group B had a larger spread than the heights in Group A. That is exactly what the larger standard deviation shows, so choice <strong>C</strong> is correct."
+      "content": "The correct answer says the heights in Group B had a larger spread than the heights in Group A. That is exactly what the larger standard deviation shows, so <strong>C</strong> is correct."
     }
   ]
 }

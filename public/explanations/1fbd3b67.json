@@ -9,7 +9,7 @@
     },
     {
       "title": "Calculate a and select answer",
-      "content": "190% greater means add 190% of b to b: $$a = b + 1.90b = 2.9b$$<br/>Substitute b = 4.8: $$a = 2.9 \\times 4.8 = (2 \\times 4.8) + (0.9 \\times 4.8) = 9.6 + 4.32 = 13.92$$<br/>That matches choice B — <strong>B</strong> is correct."
+      "content": "190% greater means add 190% of b to b: $$a = b + 1.90b = 2.9b$$<br/>Substitute b = 4.8: $$a = 2.9 \\times 4.8 = (2 \\times 4.8) + (0.9 \\times 4.8) = 9.6 + 4.32 = 13.92$$<br/>That matches <strong>Choice B &mdash; $13.92$</strong>."
     }
   ]
 }

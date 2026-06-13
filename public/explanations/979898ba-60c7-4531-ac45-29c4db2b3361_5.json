@@ -1,1 +1,15 @@
-{"questionId": "979898ba-60c7-4531-ac45-29c4db2b3361_5", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Isolate $l$", "content": "Start with $R = \\dfrac{0.43\\,l}{A}$. Multiply both sides by $A$:<br/>$$AR = 0.43\\,l$$"}, {"title": "Solve for $l$", "content": "Divide both sides by $0.43$:<br/>$$l = \\frac{AR}{0.43}$$<br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "979898ba-60c7-4531-ac45-29c4db2b3361_5",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate $l$",
+      "content": "Start with $R = \\dfrac{0.43\\,l}{A}$. Multiply both sides by $A$:<br/>$$AR = 0.43\\,l$$"
+    },
+    {
+      "title": "Solve for $l$",
+      "content": "Divide both sides by $0.43$:<br/>$$l = \\frac{AR}{0.43}$$<br/>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

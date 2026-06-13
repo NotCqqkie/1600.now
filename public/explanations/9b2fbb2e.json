@@ -1,1 +1,15 @@
-{"questionId": "9b2fbb2e", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the key signal in the passage", "content": "The word &quot;but&quot; signals a reversal: a damaged fossil should logically give less information, yet the broken area on this trilobite fossil gave Schoenemann something valuable. The blank needs a verb meaning the fossil yielded or gave fresh insight."}, {"title": "Eliminate wrong choices, confirm the match", "content": "<ul><li><strong>Choice A &mdash; 'resolved'</strong>: means determined or solved a problem. A fossil cannot actively resolve anything &mdash; it is an inanimate object that provides information. &#10007;</li><li><strong>Choice B &mdash; 'adjusted'</strong>: means modified or changed. The fossil did not change the insight; it provided it. &#10007;</li><li><strong>Choice C &mdash; 'offered'</strong>: means provided or made available. The broken area offered, or yielded, fresh insight into the trilobite's eye structure &mdash; a natural fit. &#10003;</li><li><strong>Choice D &mdash; 'directed'</strong>: means managed or aimed. The fossil did not direct insight; it made insight available. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "9b2fbb2e",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal in the passage",
+      "content": "The word &quot;but&quot; signals a reversal: a damaged fossil should logically give less information, yet the broken area on this trilobite fossil gave Schoenemann something valuable. The blank needs a verb meaning the fossil yielded or gave fresh insight."
+    },
+    {
+      "title": "Eliminate wrong choices, confirm the match",
+      "content": "<ul><li><strong>Choice A &mdash; resolved</strong>: means determined or solved a problem. A fossil cannot actively resolve anything &mdash; it is an inanimate object that provides information. &#10007;</li><li><strong>Choice B &mdash; adjusted</strong>: means modified or changed. The fossil did not change the insight; it provided it. &#10007;</li><li><strong>Choice C &mdash; offered</strong>: means provided or made available. The broken area offered, or yielded, fresh insight into the trilobite's eye structure &mdash; a natural fit. &#10003;</li><li><strong>Choice D &mdash; directed</strong>: means managed or aimed. The fossil did not direct insight; it made insight available. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

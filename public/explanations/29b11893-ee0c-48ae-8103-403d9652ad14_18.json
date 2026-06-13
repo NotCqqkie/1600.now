@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Apply cofunction identities",
-      "content": "Use the cofunction shortcut: $\\cos(90 - a)° = \\sin a°$ and $\\sin(90 - b)° = \\cos b°$. With $y = 0$, $\\sin(a + 0)° = \\sin a°$. The expression becomes: $$2\\sin a° \\cdot \\cos b° + \\sin a° \\cdot \\cos b°.$$"
+      "content": "Use the cofunction shortcut: $\\cos(90 - a)^{\\circ} = \\sin a^{\\circ}$ and $\\sin(90 - b)^{\\circ} = \\cos b^{\\circ}$. With $y = 0$, $\\sin(a + 0)^{\\circ} = \\sin a^{\\circ}$. The expression becomes: $$2\\sin a^{\\circ} \\cdot \\cos b^{\\circ} + \\sin a^{\\circ} \\cdot \\cos b^{\\circ}.$$"
     },
     {
       "title": "Factor and substitute",
-      "content": "Factor: $3\\sin a° \\cdot \\cos b°$. Substitute $\\sin a° = 0.50$ and $\\cos b° = 0.99$: $$3 \\times 0.50 \\times 0.99 = 1.485.$$ That matches choice 1.485 — <strong>1.485</strong> is correct."
+      "content": "Factor: $3\\sin a^{\\circ} \\cdot \\cos b^{\\circ}$. Substitute $\\sin a^{\\circ} = 0.50$ and $\\cos b^{\\circ} = 0.99$: $$3 \\times 0.50 \\times 0.99 = 1.485.$$ Therefore <strong>1.485</strong> is correct."
     }
   ]
 }

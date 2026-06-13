@@ -1,1 +1,15 @@
-{"questionId": "dfb92339-d3f9-4a56-afdf-957831c91ca9_23", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The passage acknowledges Kapteyn b as a promising candidate but immediately flags that it is 13 light years away &mdash; far too distant to reach anytime soon. Because of this obstacle, focus must shift to something closer and reachable. The transition word must convey substitution: we can&apos;t go there, so we turn to something else instead."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'Likewise'</strong>: Signals similarity between two things, not a pivot caused by an obstacle. &#10007;</li><li><strong>Choice B &mdash; 'For example'</strong>: Introduces an illustration of a point already made, not a substitution. &#10007;</li><li><strong>Choice C &mdash; 'Next'</strong>: Signals sequence in a list or process, not a logical redirection due to an obstacle. &#10007;</li><li><strong>Choice D &mdash; 'Instead'</strong>: Captures the substitution logic exactly &mdash; because Kapteyn b is unreachably far, attention turns to planets within our solar system instead. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "dfb92339-d3f9-4a56-afdf-957831c91ca9_23",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage acknowledges Kapteyn b as a promising candidate but immediately flags that it is 13 light years away &mdash; far too distant to reach anytime soon. Because of this obstacle, focus must shift to something closer and reachable. The transition word must convey substitution: we can't go there, so we turn to something else instead."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"Likewise,\"</strong>: Signals similarity between two things, not a pivot caused by an obstacle. &#10007;</li><li><strong>\"For example,\"</strong>: Introduces an illustration of a point already made, not a substitution. &#10007;</li><li><strong>\"Next,\"</strong>: Signals sequence in a list or process, not a logical redirection due to an obstacle. &#10007;</li><li><strong>\"Instead,\"</strong>: Captures the substitution logic exactly &mdash; because Kapteyn b is unreachably far, attention turns to planets within our solar system instead. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

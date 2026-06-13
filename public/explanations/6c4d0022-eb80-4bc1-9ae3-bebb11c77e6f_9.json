@@ -1,1 +1,15 @@
-{"questionId": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_9", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the passage critiques", "content": "The passage points out a specific methodological flaw in Nilsson et al.'s 2012 study of the fish species <em>Amphiprion percula</em>: its sample size was far too small (about 14 fish), creating room for biased analysis and inflated findings about how ocean acidification affects this species' behavior."}, {"title": "Find the answer that captures this critique", "content": "Choice A states the topic exactly—the passage is fundamentally about a possible shortcoming of the study of <em>Amphiprion percula</em>.<br/><br/>The other choices identify topics the passage doesn't address: the cause of acidification (B), the species' evolution (C), or when the behavior change was first discovered (D claims 2022, but it was 2012).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_9",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the passage critiques",
+      "content": "The passage points out a specific methodological flaw in Nilsson et al.'s 2012 study of the fish species <em>Amphiprion percula</em>: its sample size was far too small (about 14 fish), creating room for biased analysis and inflated findings about how ocean acidification affects this species' behavior."
+    },
+    {
+      "title": "Find the answer that captures this critique",
+      "content": "Choice A (&lsquo;A possible shortcoming of a study involving *Amphiprion percula*&rsquo;) states the topic exactly—the passage is fundamentally about a possible shortcoming of the study of <em>Amphiprion percula</em>.<br/><br/>The other choices identify topics the passage doesn't address: the cause of acidification, the species' evolution, or when the behavior change was first discovered (D claims 2022, but it was 2012).<br/><br/>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

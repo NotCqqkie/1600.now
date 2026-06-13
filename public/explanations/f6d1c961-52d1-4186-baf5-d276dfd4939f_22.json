@@ -1,1 +1,15 @@
-{"questionId": "f6d1c961-52d1-4186-baf5-d276dfd4939f_22", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Map the logical relationship", "content": "The passage opens by saying Modernista architects &quot;championed nature in their designs.&quot; The blank then begins a sentence noting that the archways and tilework of Casa Amatller &quot;couldn't exactly grow in a forest.&quot; The word &quot;Still&quot; later in the passage signals that natural influences do appear. So the blank sentence is an obvious concession: yes, the architects loved nature, but of course their built elements aren't literally natural. The transition must introduce an obvious, clarifying concession &mdash; not a result, addition, or comparison."}, {"title": "Eliminate each wrong choice", "content": "<ul><li><strong>Choice A &mdash; 'Of course,'</strong>: introduces the self-evident concession that architectural flourishes aren't real plants, bridging the nature-championing claim and the &quot;Still&quot; that follows. &#10003;</li><li><strong>Choice B &mdash; 'Thus,'</strong>: signals a logical result or conclusion, but the sentence is a concession, not a consequence of championing nature. &#10007;</li><li><strong>Choice C &mdash; 'Similarly.'</strong>: implies the next idea parallels the previous one, but the sentence introduces a contrasting limitation, not a parallel point. &#10007;</li><li><strong>Choice D &mdash; 'Furthermore.'</strong>: adds to the previous idea, but the sentence qualifies rather than extends the claim about nature. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "f6d1c961-52d1-4186-baf5-d276dfd4939f_22",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Map the logical relationship",
+      "content": "The passage opens by saying Modernista architects \"championed nature in their designs.\" The blank then begins a sentence noting that the archways and tilework of Casa Amatller \"couldn't exactly grow in a forest.\" The word \"Still\" later in the passage signals that natural influences do appear. So the blank sentence is an obvious concession: yes, the architects loved nature, but of course their built elements aren't literally natural. The transition must introduce an obvious, clarifying concession &mdash; not a result, addition, or comparison."
+    },
+    {
+      "title": "Eliminate each wrong choice",
+      "content": "<ul><li><strong>\"Of course,\"</strong>: introduces the self-evident concession that architectural flourishes aren't real plants, bridging the nature-championing claim and the \"Still\" that follows. &#10003;</li><li><strong>\"Thus,\"</strong>: signals a logical result or conclusion, but the sentence is a concession, not a consequence of championing nature. &#10007;</li><li><strong>\"Similarly.\"</strong>: implies the next idea parallels the previous one, but the sentence introduces a contrasting limitation, not a parallel point. &#10007;</li><li><strong>\"Furthermore.\"</strong>: adds to the previous idea, but the sentence qualifies rather than extends the claim about nature. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId":"77ffe59b-61ef-47e4-ba8e-118244b99796_27","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The goal is to emphasize <strong>similarity</strong> between the two materials. Both undergo torsional heating when twisted, even though their temperature increases differ (3.5&deg;C vs 21.3&deg;C). The correct answer treats them as sharing the same behavior."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A</strong>: Mentions both materials but does not establish that they share the same behavior. &#10007;</li><li><strong>Choice B &mdash; &apos;Both [materials] heat up when twisted&apos;</strong>: &apos;Both&apos; directly signals similarity, and a single shared behavior is stated. &#10003;</li><li><strong>Choice C</strong>: Explicitly contrasts their different temperature changes &mdash; emphasizes difference, not similarity. &#10007;</li><li><strong>Choice D</strong>: Generalizes about torsional heating without focusing on the two specific materials. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "77ffe59b-61ef-47e4-ba8e-118244b99796_27",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The goal is to emphasize <strong>similarity</strong> between the two materials. Both undergo torsional heating when twisted, even though their temperature increases differ (3.5&deg;C vs 21.3&deg;C). The correct answer treats them as sharing the same behavior."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;In 2019, two research teams observed the effects of torsional heating on various fibers, including SEBS rubber and single-ply NiTi wire.&rsquo;</strong>: Mentions both materials but does not establish that they share the same behavior. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Both SEBS rubber and single-ply NiTi wire fibers heat up when twisted, according to a 2019 study.&rsquo;</strong>: &apos;Both&apos; directly signals similarity, and a single shared behavior is stated. &#10003;</li><li><strong>Choice C &mdash; &lsquo;Researchers determined that when the fibers were twisted, the average surface temperature of single-ply NiTi wire increased more than that of SEBS rubber.&rsquo;</strong>: Explicitly contrasts their different temperature changes &mdash; emphasizes difference, not similarity. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Twisting an object will generally cause its temperature to increase, a process known as torsional heating.&rsquo;</strong>: Generalizes about torsional heating without focusing on the two specific materials. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

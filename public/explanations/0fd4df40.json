@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the relationship between the sentences",
-      "content": "The first sentence claims the ANLA is \u201cknown for its impressive audio collection.\u201d The second provides specific evidence: \u201cmore than 5,000 audio recordings dating as far back as 1943.\u201d The transition should signal how specific evidence supports a general claim."
+      "content": "The first sentence claims the ANLA is “known for its impressive audio collection.” The second provides specific evidence: “more than 5,000 audio recordings dating as far back as 1943.” The transition should signal how specific evidence supports a general claim."
     },
     {
       "title": "Apply the signal to the choices",
-      "content": "\u201dIn fact\u201d signals that specific evidence confirms a general claim. The other options misrepresent the relationship: \u201cAfter\u201d introduces time, \u201cRegardless\u201d introduces concession, and \u201cInstead\u201d introduces an alternative. That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "”In fact” signals that specific evidence confirms a general claim. The other options misrepresent the relationship: “After” introduces time, “Regardless” introduces concession, and “Instead” introduces an alternative. That matches <strong>Choice A &mdash; In fact,</strong>."
     }
   ]
 }

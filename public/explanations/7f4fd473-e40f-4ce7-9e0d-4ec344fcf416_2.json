@@ -1,1 +1,15 @@
-{"questionId":"7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_2","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks what <strong>&quot;conceivable&quot;</strong> most nearly means as used in the passage. Mary Seacole writes that nature threw &quot;every conceivable obstacle&quot; in the way &mdash; the word describes the full range of obstacles that could be imagined or thought of."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Possible'</strong>: Matches &mdash; &quot;conceivable&quot; comes from <em>conceive</em> (to think of or imagine), so it means something that can be imagined or is possible. &#10003;</li><li><strong>Choice B &mdash; 'Regular'</strong>: &quot;Regular obstacles&quot; would mean ordinary or routine ones, not every obstacle one could imagine. &#10007;</li><li><strong>Choice C &mdash; 'Visible'</strong>: Relates to sight, not to the scope of imagination that &quot;conceivable&quot; conveys. &#10007;</li><li><strong>Choice D &mdash; 'Basic'</strong>: &quot;Basic obstacles&quot; implies simple or fundamental ones, not the full imaginable range. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_2",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks what <strong>&quot;conceivable&quot;</strong> most nearly means as used in the passage. Mary Seacole writes that nature threw &quot;every conceivable obstacle&quot; in the way &mdash; the word describes the full range of obstacles that could be imagined or thought of."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Possible&rsquo;</strong>: Matches &mdash; &quot;conceivable&quot; comes from <em>conceive</em> (to think of or imagine), so it means something that can be imagined or is possible. &#10003;</li><li><strong>Choice B &mdash; &lsquo;Regular&rsquo;</strong>: &quot;Regular obstacles&quot; would mean ordinary or routine ones, not every obstacle one could imagine. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Visible&rsquo;</strong>: Relates to sight, not to the scope of imagination that &quot;conceivable&quot; conveys. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Basic&rsquo;</strong>: &quot;Basic obstacles&quot; implies simple or fundamental ones, not the full imaginable range. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

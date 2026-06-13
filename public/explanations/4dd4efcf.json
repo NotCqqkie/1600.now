@@ -9,7 +9,7 @@
     },
     {
       "title": "Check whether c < 0 must hold",
-      "content": "The vertex value is $k = f(-3) = \\frac{2}{3}(9) + 4(-3) + c = 6 - 12 + c = c - 6$. The parabola opens upward ($a > 0$) and the problem requires $k \\lt 0$, so $c - 6 \\lt 0 \\Rightarrow c \\lt 6$. A value like $c = 1 > 0$ is perfectly valid, so Statement I ($c \\lt 0$) is <em>not necessarily true</em>. Neither statement must hold. That matches choice D — <strong>D</strong> is correct."
+      "content": "The vertex value is $k = f(-3) = \\frac{2}{3}(9) + 4(-3) + c = 6 - 12 + c = c - 6$. The parabola opens upward ($a \\gt  0$) and the problem requires $k \\lt 0$, so $c - 6 \\lt 0 \\Rightarrow c \\lt 6$. A value like $c = 1 \\gt  0$ is perfectly valid, so Statement I ($c \\lt 0$) is <em>not necessarily true</em>. Neither statement must hold. <strong>D</strong> is correct."
     }
   ]
 }

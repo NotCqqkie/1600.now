@@ -9,11 +9,11 @@
     },
     {
       "title": "Calculate the new mean and compare",
-      "content": "Adding the sixth nest with 121 eggs: sum $= 716 + 121 = 837$. New mean $= \\frac{837}{6} = 139.5$. Since $143.2 > 139.5$, the original mean is greater."
+      "content": "Adding the sixth nest with 121 eggs: sum $= 716 + 121 = 837$. New mean $= \\frac{837}{6} = 139.5$. Since $143.2 \\gt 139.5$, the original mean is greater."
     },
     {
       "title": "Check all choices",
-      "content": "<ul><li><strong>Choice A &mdash; 'The mean of the original data set is greater than the mean of the new data set.'</strong>: Original mean $143.2 >$ new mean $139.5$ &#10003;</li><li><strong>Choice B &mdash; 'The mean of the original data set is less than the mean of the new data set.'</strong>: $143.2 \\lt 139.5$ is false &#10007;</li><li><strong>Choice C &mdash; 'The means of both data sets are equal.'</strong>: $143.2 \\ne 139.5$ &#10007;</li><li><strong>Choice D &mdash; 'There is not enough information to compare the means.'</strong>: All values are given so a direct comparison is possible &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; The mean of the original data set is greater than the mean of the new data set.</strong>: Original mean $143.2 \\gt$ new mean $139.5$ &#10003;</li><li><strong>Choice B &mdash; The mean of the original data set is less than the mean of the new data set.</strong>: $143.2 \\lt 139.5$ is false &#10007;</li><li><strong>Choice C &mdash; The means of both data sets are equal.</strong>: $143.2 \\ne 139.5$ &#10007;</li><li><strong>Choice D &mdash; There is not enough information to compare the means.</strong>: All values are given so a direct comparison is possible &#10007;</li></ul>That is the correct answer."
     }
   ]
 }

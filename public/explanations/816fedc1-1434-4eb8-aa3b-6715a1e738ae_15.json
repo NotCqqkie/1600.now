@@ -9,11 +9,11 @@
     },
     {
       "title": "Compute the target value",
-      "content": "Multiply by $4$: $(x-33)^{2} = 256$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."
+      "content": "Multiply by $4$: $(x-33)^{2} = 256$. That confirms <strong>D</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice D, 256, and the other choices fail the same setup or substitution. Therefore <strong>D</strong> is correct."
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above confirms <strong>D</strong>, 256, and the other choices fail the same setup or substitution. Therefore <strong>D</strong> is correct."
     }
   ]
 }

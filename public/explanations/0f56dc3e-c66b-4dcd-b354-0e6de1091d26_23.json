@@ -1,1 +1,15 @@
-{"questionId": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_23", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The blank connects 'a broad pattern... for which negative words saw a faster rate of cognate replacement' with 'the rate at which a word will be replaced over time with a noncognate form.' The second phrase is a plain-language definition of 'cognate replacement rate' &mdash; the same idea, restated more simply. The transition must signal a restatement or clarification."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'likewise,'</strong>: signals similarity between two different ideas, not a restatement of the same idea &mdash; &#10007;</li><li><strong>Choice B &mdash; 'that is,'</strong>: means 'in other words' &mdash; exactly the signal for restating or clarifying a term just introduced &mdash; &#10003;</li><li><strong>Choice C &mdash; 'for example,'</strong>: introduces a specific instance of a general claim, but the sentence that follows is a definition, not an example &mdash; &#10007;</li><li><strong>Choice D &mdash; 'in addition,'</strong>: adds a new point; the second phrase adds no new information, it only clarifies &mdash; &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_23",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank connects 'a broad pattern... for which negative words saw a faster rate of cognate replacement' with 'the rate at which a word will be replaced over time with a noncognate form.' The second phrase is a plain-language definition of 'cognate replacement rate' &mdash; the same idea, restated more simply. The transition must signal a restatement or clarification."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; likewise,</strong>: signals similarity between two different ideas, not a restatement of the same idea &mdash; &#10007;</li><li><strong>Choice B &mdash; that is,</strong>: means 'in other words' &mdash; exactly the signal for restating or clarifying a term just introduced &mdash; &#10003;</li><li><strong>Choice C &mdash; for example,</strong>: introduces a specific instance of a general claim, but the sentence that follows is a definition, not an example &mdash; &#10007;</li><li><strong>Choice D &mdash; in addition,</strong>: adds a new point; the second phrase adds no new information, it only clarifies &mdash; &#10007;</li></ul>That matches <strong>Choice B &mdash; that is,</strong>."
+    }
+  ]
+}

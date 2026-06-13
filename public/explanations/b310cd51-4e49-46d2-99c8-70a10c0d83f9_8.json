@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li>A) $M=100(0.22)^{t+11.11}$ &mdash; uses the wrong base ($0.22$ instead of $0.78$) and a nonsensical exponent. Eliminated.</li><li>B) $M=100(0.22)^{t/11.11}$ &mdash; correct exponent form but wrong base; would lose $78\\%$ per period. Eliminated.</li><li>C) $M=100(0.78)^{t+11.11}$ &mdash; correct base but the exponent $t+11.11$ has the wrong units and gives the wrong value at $t=0$. Eliminated.</li><li>D) $M=100(0.78)^{t/11.11}$ &mdash; correct base and correct exponent.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "content": "<ul><li>A) $M=100(0.22)^{t+11.11}$ &mdash; uses the wrong base ($0.22$ instead of $0.78$) and a nonsensical exponent. Eliminated.</li><li>B) $M=100(0.22)^{t/11.11}$ &mdash; correct exponent form but wrong base; would lose $78\\%$ per period. Eliminated.</li><li>C) $M=100(0.78)^{t+11.11}$ &mdash; correct base but the exponent $t+11.11$ has the wrong units and gives the wrong value at $t=0$. Eliminated.</li><li>D) $M=100(0.78)^{t/11.11}$ &mdash; correct base and correct exponent.</li></ul>That is the correct answer."
     }
   ]
 }

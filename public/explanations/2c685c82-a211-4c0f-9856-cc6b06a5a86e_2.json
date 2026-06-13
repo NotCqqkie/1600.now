@@ -9,11 +9,11 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice C is $\\sqrt{57y}$, which is exactly equivalent to $(57y)^{1/2}$. <strong>C</strong> is correct."
+      "content": "The correct answer is $\\sqrt{57y}$, which is exactly equivalent to $(57y)^{1/2}$. <strong>C</strong> is correct."
     },
     {
       "title": "Eliminate the mismatches",
-      "content": "Choice A incorrectly leaves $57$ outside the radical. Choice B incorrectly leaves $y$ outside the radical. Choice D squares the whole product before taking the square root, which would give $57y$, not $(57y)^{1/2}$."
+      "content": "The answer with $57$ outside the radical is wrong. The answer with $y$ outside the radical is also wrong. Squaring the whole product before taking the square root would give $57y$, not $(57y)^{1/2}$."
     }
   ]
 }

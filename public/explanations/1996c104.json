@@ -1,1 +1,15 @@
-{"questionId": "1996c104", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the causal progression", "content": "The passage traces a chain: circulation generates currents, and these currents then create a protective barrier. The blank needs a transition that marks the currents as the forward result of this sequence."}, {"title": "Apply the consequential meaning", "content": "<strong>“In turn”</strong> expresses consequence—the currents create the barrier. <strong>“Likewise”</strong> suggests similarity, <strong>“nevertheless”</strong> introduces contrast, and <strong>“in reality”</strong> merely emphasizes; none convey the causal progression.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "1996c104",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the causal progression",
+      "content": "The passage traces a chain: circulation generates currents, and these currents then create a protective barrier. The blank needs a transition that marks the currents as the forward result of this sequence."
+    },
+    {
+      "title": "Apply the consequential meaning",
+      "content": "<strong>“In turn”</strong> expresses consequence—the currents create the barrier. <strong>“Likewise”</strong> suggests similarity, <strong>“nevertheless”</strong> introduces contrast, and <strong>“in reality”</strong> merely emphasizes; none convey the causal progression.<br/><br/>That matches <strong>Choice A &mdash; in turn,</strong>."
+    }
+  ]
+}

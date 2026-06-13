@@ -18,7 +18,7 @@
     },
     {
       "title": "Solve for f(x) using the given relationship",
-      "content": "The problem states the graph shows $y = f(x) - 11$. Substituting our equation: $$-4x - 2 = f(x) - 11$$ Adding $11$ to both sides: $$f(x) = -4x - 2 + 11 = -4x + 9$$ That matches choice B — <strong>B</strong> is correct.",
+      "content": "The problem states the graph shows $y = f(x) - 11$. Substituting our equation: $$-4x - 2 = f(x) - 11$$ Adding $11$ to both sides: $$f(x) = -4x - 2 + 11 = -4x + 9$$ That confirms <strong>B</strong> is correct.",
       "desmosExpressions": [
         "y=-4x-2",
         "y=-4x+9"

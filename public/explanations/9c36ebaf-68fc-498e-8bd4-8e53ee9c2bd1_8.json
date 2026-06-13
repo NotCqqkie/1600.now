@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; &apos;$\\frac{612}{613}$&apos;</strong>: sin D = sin A = opposite/hypotenuse = 612/613. &#10003;</li><li><strong>Choice B &mdash; &apos;$\\frac{35}{613}$&apos;</strong>: This equals cos A (adjacent/hypotenuse), not sin A. &#10007;</li><li><strong>Choice C &mdash; &apos;$\\frac{613}{612}$&apos;</strong>: Greater than 1 &mdash; impossible for any sine value. &#10007;</li><li><strong>Choice D &mdash; &apos;$\\frac{613}{35}$&apos;</strong>: Greater than 1 &mdash; impossible for any sine value. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; $\\frac{612}{613}$</strong>: sin D = sin A = opposite/hypotenuse = 612/613. &#10003;</li><li><strong>Choice B &mdash; $\\frac{35}{613}$</strong>: This equals cos A (adjacent/hypotenuse), not sin A. &#10007;</li><li><strong>Choice C &mdash; $\\frac{613}{612}$</strong>: Greater than 1 &mdash; impossible for any sine value. &#10007;</li><li><strong>Choice D &mdash; $\\frac{613}{35}$</strong>: Greater than 1 &mdash; impossible for any sine value. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
     }
   ]
 }

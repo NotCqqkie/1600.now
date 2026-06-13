@@ -1,1 +1,15 @@
-{"questionId": "348385bf-0e3c-48f0-85b8-e84dfdf12196_17", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the appositive structure", "content": "The phrase “the International Criminal Police Organization” is an appositive noun phrase that explains what “Interpol” is. It was introduced with an opening em dash after “Interpol”. The adverbial phrase “in 1971” follows it."}, {"title": "Apply the em dash rule", "content": "An appositive phrase introduced by an em dash must be closed with a matching em dash.<br/><br/>Choice A (Organization—) correctly closes it: “Interpol—the International Criminal Police Organization—in 1971”.<br/><br/>Choices B, C, and D fail to do this:<ul><li>B uses a colon instead of a closing em dash</li><li>C provides no closing punctuation</li><li>D uses a comma, which mismatches the opening em dash</li></ul><br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "348385bf-0e3c-48f0-85b8-e84dfdf12196_17",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the appositive structure",
+      "content": "The phrase “the International Criminal Police Organization” is an appositive noun phrase that explains what “Interpol” is. It was introduced with an opening em dash after “Interpol”. The adverbial phrase “in 1971” follows it."
+    },
+    {
+      "title": "Apply the em dash rule",
+      "content": "An appositive phrase introduced by an em dash must be closed with a matching em dash.<br/><br/>The correct answer (Organization—) correctly closes it: “Interpol—the International Criminal Police Organization—in 1971”.<br/><br/>The other choices fail to do this:<ul><li>B uses a colon instead of a closing em dash</li><li>C provides no closing punctuation</li><li>D uses a comma, which mismatches the opening em dash</li></ul><br/><br/><strong>A</strong> is correct."
+    }
+  ]
+}

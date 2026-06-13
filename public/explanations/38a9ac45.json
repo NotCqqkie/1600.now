@@ -9,7 +9,7 @@
     },
     {
       "title": "Find the fraction of the first 60,000 accounts",
-      "content": "The fraction of the first 60,000 accounts registered in the first 5 days is:<br/>$$\\frac{6,000}{60,000} = \\frac{6}{60} = \\frac{1}{10}$$<br/>That matches choice B — <strong>B</strong> is correct."
+      "content": "The fraction of the first 60,000 accounts registered in the first 5 days is:<br/>$$\\frac{6,000}{60,000} = \\frac{6}{60} = \\frac{1}{10}$$<br/><strong>B</strong> is correct."
     }
   ]
 }

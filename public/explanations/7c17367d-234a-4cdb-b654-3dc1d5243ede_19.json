@@ -1,1 +1,15 @@
-{"questionId": "7c17367d-234a-4cdb-b654-3dc1d5243ede_19", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the participle and what it must modify", "content": "The sentence begins with <strong>“First assigned to Britain in the 1960s,”</strong> an introductory participial phrase.<br/><br/>A participle at the start of a sentence must modify the subject of the main clause that follows—here, the phrase describes the prefix being assigned, so the main clause's subject must be the prefix."}, {"title": "Match the participle to the sentence's subject", "content": "Only D has the prefix as the main clause's subject: <strong>“the prefix was used by only switchboard operators initially.”</strong> The other choices make “international direct dialing” (A and B) or “switchboard operators” (C) the subject, breaking the required participle-subject connection.<br/><br/>That matches choice D—<strong>D</strong> is correct."}]}
+{
+  "questionId": "7c17367d-234a-4cdb-b654-3dc1d5243ede_19",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the participle and what it must modify",
+      "content": "The sentence begins with <strong>“First assigned to Britain in the 1960s,”</strong> an introductory participial phrase.<br/><br/>A participle at the start of a sentence must modify the subject of the main clause that follows—here, the phrase describes the prefix being assigned, so the main clause's subject must be the prefix."
+    },
+    {
+      "title": "Match the participle to the sentence's subject",
+      "content": "Only the credited option has the prefix as the main clause's subject: <strong>“the prefix was used by only switchboard operators initially.”</strong> The other choices make “international direct dialing” or “switchboard operators” the subject, breaking the required participle-subject connection.<br/><br/><strong>D</strong> is correct."
+    }
+  ]
+}

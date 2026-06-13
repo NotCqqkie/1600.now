@@ -33,13 +33,15 @@ import "katex/dist/katex.min.css";
 
 const DEFAULT_QUESTION_BANK_TOTAL = BANK_TOTAL_ALL;
 const PRACTICE_TESTS_COUNT = 34;
+const HERO_QUESTION_PREVIEW_LIMIT = 3;
+const HERO_PREVIEW_FORCE_READY_MS = 1400;
 
 const InlineDesmos = lazy(() =>
   import("@/components/tools/InlineDesmos").then((mod) => ({ default: mod.InlineDesmos })),
 );
-const EmbeddedQuestionPreview = lazy(() =>
-  import("@/pages/bank/Question").then((mod) => ({ default: mod.Question })),
-);
+const loadEmbeddedQuestionPreview = () =>
+  import("@/pages/bank/Question").then((mod) => ({ default: mod.Question }));
+const EmbeddedQuestionPreview = lazy(loadEmbeddedQuestionPreview);
 const EmbeddedBankIndexPreview = lazy(() =>
   import("@/pages/bank/BankIndex").then((mod) => ({ default: mod.BankIndex })),
 );
@@ -314,7 +316,7 @@ const HeroQuestionPreview = memo(({
   ready?: boolean;
 }) => {
   const rootRef = useRef<HTMLDivElement>(null);
-  const [nearViewport, setNearViewport] = useState(true);
+  const [nearViewport, setNearViewport] = useState(false);
   const [previewLoaded, setPreviewLoaded] = useState(false);
   const [previewQuestion, setPreviewQuestion] = useState<{ subject: "math" | "reading"; id: string }>({
     subject: "math",
@@ -332,10 +334,16 @@ const HeroQuestionPreview = memo(({
     }
     const match = url.pathname.match(/^\/bank\/(math|reading)\/([^/]+)/);
     if (!match) return;
+    const nextId = decodeURIComponent(match[2]);
+    const nextQuestionNumber = Number.parseInt(nextId, 10);
+    if (!Number.isInteger(nextQuestionNumber) || nextQuestionNumber < 1 || nextQuestionNumber > HERO_QUESTION_PREVIEW_LIMIT) {
+      onOpenBank?.();
+      return;
+    }
     setPreviewLoaded(false);
     setPreviewQuestion({
       subject: match[1] as "math" | "reading",
-      id: decodeURIComponent(match[2]),
+      id: nextId,
     });
   }, [onOpenBank]);
   const previewEmbed = useMemo(() => ({
@@ -346,24 +354,8 @@ const HeroQuestionPreview = memo(({
     onNavigate: handlePreviewNavigate,
     onOpenBank,
     onReady: handlePreviewReady,
+    questionLimit: HERO_QUESTION_PREVIEW_LIMIT,
   }), [handlePreviewNavigate, handlePreviewReady, isDarkMode, onOpenBank, previewQuestion.id, previewQuestion.subject]);
-  useEffect(() => {
-    type IdleHandle = number;
-    const win = window as Window & {
-      requestIdleCallback?: (callback: () => void, options?: { timeout: number }) => IdleHandle;
-      cancelIdleCallback?: (handle: IdleHandle) => void;
-    };
-    const schedule = win.requestIdleCallback
-      ? (callback: () => void) => win.requestIdleCallback!(callback, { timeout: 2000 })
-      : (callback: () => void) => window.setTimeout(callback, 1500) as unknown as IdleHandle;
-    const cancel = win.cancelIdleCallback ?? ((handle: IdleHandle) => window.clearTimeout(handle));
-    const handle = schedule(() => {
-      void import("./bank/BankIndex");
-      void import("./modules/Modules");
-      void import("./ScoreCalculator");
-    });
-    return () => cancel(handle);
-  }, []);
   const [isPhone, setIsPhone] = useState<boolean>(() =>
     typeof window !== "undefined" ? window.matchMedia("(max-width: 767px)").matches : false,
   );
@@ -580,6 +572,8 @@ const EXPLANATION_STEPS: {
 
 const AnimatedExplanation = memo(({ isDarkMode, active }: { isDarkMode: boolean; active: boolean }) => {
   const scrollRef = useRef<HTMLDivElement>(null);
+  const isVisible = useIsCurrentlyInViewport(scrollRef);
+  const documentVisible = useDocumentVisible();
   const [currentStep, setCurrentStep] = useState(0);
   const [direction, setDirection] = useState<1 | -1>(1);
   const [animKey, setAnimKey] = useState(0);
@@ -590,14 +584,14 @@ const AnimatedExplanation = memo(({ isDarkMode, active }: { isDarkMode: boolean;
   useForwardScrollToPage(scrollRef);
 
   useEffect(() => {
-    if (paused || !active) return;
+    if (paused || !active || !isVisible || !documentVisible) return;
     const timerId = setInterval(() => {
       setDirection(1);
       setCurrentStep((stepIndex) => (stepIndex + 1) % totalSteps);
       setAnimKey((animationKey) => animationKey + 1);
     }, 3600);
     return () => clearInterval(timerId);
-  }, [active, paused, totalSteps]);
+  }, [active, documentVisible, isVisible, paused, totalSteps]);
 
   const goTo = (target: number) => {
     setPaused(true);
@@ -949,7 +943,9 @@ const FILTER_DEMO_CURSOR_NEXT_STEP_PAUSE_MS = 360;
 const FILTER_DEMO_CURSOR_IDLE_RETRY_MS = 180;
 const FILTER_DEMO_CURSOR_CLOSE_MENU_DURATION_MS = 220;
 const FILTER_DEMO_MENU_AUTO_CLOSE_CHECK_MS = 90;
+const FILTER_DEMO_OPTION_PRESS_MS = 140;
 const FILTER_DEMO_USER_INTERACTION_PAUSE_MS = 900;
+const FILTER_DEMO_MANUAL_CLOSE_PAUSE_MS = 1800;
 const FILTER_DEMO_CURSOR_SIZE = 40;
 const FILTER_DEMO_CURSOR_HOTSPOT_X = (48 / 128) * FILTER_DEMO_CURSOR_SIZE;
 const FILTER_DEMO_CURSOR_HOTSPOT_Y = (40 / 128) * FILTER_DEMO_CURSOR_SIZE;
@@ -1130,8 +1126,11 @@ DemoCursor.displayName = "DemoCursor";
 const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
   const containerRef = useRef<HTMLDivElement>(null);
   const isNear = useIsNearViewport(containerRef, "900px 0px");
+  const isVisible = useIsCurrentlyInViewport(containerRef);
+  const documentVisible = useDocumentVisible();
   const [demoLoaded, setDemoLoaded] = useState(false);
   const demoShouldMount = isNear;
+  const demoShouldRun = isNear && isVisible && documentVisible;
   const [demoScale, setDemoScale] = useState(FILTER_DEMO_MAX_SCALE);
   const [filters, setFilters] = useState<QuestionBankFilters>(defaultBankFilters);
   const [cursor, setCursor] = useState<DemoCursorState>({
@@ -1144,13 +1143,13 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
   const cursorPathSeedRef = useRef(0);
   const userFilterPauseUntilRef = useRef(0);
   const manualResumeTimerRef = useRef<number | null>(null);
+  const manualResumeTokenRef = useRef(0);
   const scriptedInteractionDepthRef = useRef(0);
   const lastManualInteractionAtRef = useRef(0);
   const [clickKey, setClickKey] = useState(0);
   const [demoMode, setDemoMode] = useState<FilterDemoMode>("apply");
   const [demoTick, setDemoTick] = useState(1);
   const [manualInteractionVersion, setManualInteractionVersion] = useState(0);
-  const [filterPanelCloseSignal, setFilterPanelCloseSignal] = useState(0);
   const filtersRef = useRef<QuestionBankFilters>(defaultBankFilters);
   const modeRef = useRef<FilterDemoMode>(demoMode);
   const applyDemoFilters = useCallback((nextFilters: QuestionBankFilters) => {
@@ -1198,10 +1197,12 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
     if (manualResumeTimerRef.current !== null) {
       window.clearTimeout(manualResumeTimerRef.current);
     }
+    const resumeToken = manualResumeTokenRef.current + 1;
+    manualResumeTokenRef.current = resumeToken;
     const resumeDelay = Math.max(0, userFilterPauseUntilRef.current - Date.now());
     manualResumeTimerRef.current = window.setTimeout(() => {
+      if (resumeToken !== manualResumeTokenRef.current) return;
       manualResumeTimerRef.current = null;
-      setFilterPanelCloseSignal((signal) => signal + 1);
       const resumedCursor = { ...cursorRef.current, visible: true, durationMs: 0 };
       cursorRef.current = resumedCursor;
       setCursor(resumedCursor);
@@ -1218,8 +1219,21 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
   }, []);
   const pauseForManualFilterInteraction = useCallback((event: PointerEvent | MouseEvent) => {
     if (scriptedInteractionDepthRef.current > 0) return;
+    const container = containerRef.current;
     const target = event.target instanceof HTMLElement ? event.target : null;
-    if (!target?.closest('[data-tour="bank-filters"], [data-filter-demo-option], [role="option"], [cmdk-item]')) {
+    const filterRoot = container?.querySelector<HTMLElement>('[data-tour="bank-filters"]');
+    const filterRect = filterRoot?.getBoundingClientRect();
+    const isInsideFilterBounds = Boolean(
+      filterRect &&
+      event.clientX >= filterRect.left &&
+      event.clientX <= filterRect.right &&
+      event.clientY >= filterRect.top &&
+      event.clientY <= filterRect.bottom,
+    );
+    const isFilterTarget = Boolean(
+      target?.closest('[data-tour="bank-filters"], [data-filter-demo-option], [role="option"], [cmdk-item]'),
+    );
+    if (!isFilterTarget && !isInsideFilterBounds) {
       return;
     }
     const now = Date.now();
@@ -1240,9 +1254,25 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
     queueManualResume();
     restoreManualClickScroll();
     window.requestAnimationFrame(restoreManualClickScroll);
+    window.requestAnimationFrame(() => window.requestAnimationFrame(restoreManualClickScroll));
     window.setTimeout(restoreManualClickScroll, 0);
+    window.setTimeout(restoreManualClickScroll, 16);
+    window.setTimeout(restoreManualClickScroll, 40);
     window.setTimeout(restoreManualClickScroll, 80);
+    window.setTimeout(restoreManualClickScroll, 140);
     window.setTimeout(restoreManualClickScroll, 220);
+  }, [queueManualResume]);
+  const pauseForHomeFilterMenuChange = useCallback((_control: string, open: boolean) => {
+    if (scriptedInteractionDepthRef.current > 0) return;
+    const now = Date.now();
+    const hiddenCursor = { ...cursorRef.current, visible: false, durationMs: 0 };
+    cursorRef.current = hiddenCursor;
+    setCursor(hiddenCursor);
+    userFilterPauseUntilRef.current = now + (open
+      ? FILTER_DEMO_USER_INTERACTION_PAUSE_MS
+      : FILTER_DEMO_MANUAL_CLOSE_PAUSE_MS);
+    setManualInteractionVersion((version) => version + 1);
+    queueManualResume();
   }, [queueManualResume]);
 
   useEffect(() => {
@@ -1258,11 +1288,12 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
   useEffect(() => {
     const container = containerRef.current;
     if (!container || !demoShouldMount) return;
-    container.addEventListener("pointerdown", pauseForManualFilterInteraction, { capture: true });
-    container.addEventListener("mousedown", pauseForManualFilterInteraction, { capture: true });
+    const ownerDocument = container.ownerDocument;
+    ownerDocument.addEventListener("pointerdown", pauseForManualFilterInteraction, { capture: true });
+    ownerDocument.addEventListener("mousedown", pauseForManualFilterInteraction, { capture: true });
     return () => {
-      container.removeEventListener("pointerdown", pauseForManualFilterInteraction, { capture: true });
-      container.removeEventListener("mousedown", pauseForManualFilterInteraction, { capture: true });
+      ownerDocument.removeEventListener("pointerdown", pauseForManualFilterInteraction, { capture: true });
+      ownerDocument.removeEventListener("mousedown", pauseForManualFilterInteraction, { capture: true });
     };
   }, [demoShouldMount, pauseForManualFilterInteraction]);
 
@@ -1394,7 +1425,7 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
   }, [setDemoFilterPatch]);
 
   useEffect(() => {
-    if (!isNear || !demoLoaded || demoTick === 0) return;
+    if (!demoShouldRun || !demoLoaded || demoTick === 0) return;
     const scheduleDemoTick = (delay: number) => {
       const id = window.setTimeout(() => {
         setDemoTick((tick) => tick + 1);
@@ -1596,11 +1627,25 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
         y: rect.top + rect.height / 2,
       };
     };
-    const clickDemoTarget = (target: HTMLElement) => {
+    const clickDemoTarget = (target: HTMLElement, afterClick?: () => void) => {
       if (!canRunStep(target)) return false;
       setCursorToPoint(viewportPointForElement(target), 0);
       setClickKey((key) => key + 1);
+      if (target.hasAttribute("data-filter-demo-option")) {
+        target.classList.add("filter-demo-option-press");
+        schedule(() => {
+          if (!canRunStep(target)) {
+            queueDemoRetry();
+            return;
+          }
+          activateScriptedElement(target);
+          afterClick?.();
+        }, FILTER_DEMO_OPTION_PRESS_MS);
+        schedule(() => target.classList.remove("filter-demo-option-press"), FILTER_DEMO_OPTION_PRESS_MS + 140);
+        return true;
+      }
       activateScriptedElement(target);
+      afterClick?.();
       return true;
     };
     const animateRangeValue = (
@@ -1717,13 +1762,14 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
         queueDemoRetry();
         return;
       }
-      if (!clickDemoTarget(action.target)) {
+      if (!clickDemoTarget(action.target, () => {
+        restoreScrollSoon();
+        if (!action.optionKey) {
+          queueDemoTick();
+        }
+      })) {
         queueDemoRetry();
         return;
-      }
-      restoreScrollSoon();
-      if (!action.optionKey) {
-        queueDemoTick();
       }
     }, clickDelay);
 
@@ -1750,12 +1796,13 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
             queueDemoRetry();
             return;
           }
-          if (!clickDemoTarget(action.target)) {
+          if (!clickDemoTarget(action.target, () => {
+            restoreScrollSoon();
+            queueDemoTick();
+          })) {
             queueDemoRetry();
             return;
           }
-          restoreScrollSoon();
-          queueDemoTick();
         }, closeMoveDuration + FILTER_DEMO_CURSOR_CLICK_PAUSE_MS);
       };
       schedule(() => {
@@ -1775,11 +1822,12 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
             queueDemoRetry();
             return;
           }
-          if (!clickDemoTarget(optionTarget)) {
+          if (!clickDemoTarget(optionTarget, () => {
+            schedule(closeCurrentMenuBeforeNext, FILTER_DEMO_MENU_AUTO_CLOSE_CHECK_MS);
+          })) {
             queueDemoRetry();
             return;
           }
-          schedule(closeCurrentMenuBeforeNext, FILTER_DEMO_MENU_AUTO_CLOSE_CHECK_MS);
         }, optionMoveDuration + FILTER_DEMO_CURSOR_CLICK_PAUSE_MS);
       }, clickDelay + FILTER_DEMO_CURSOR_MENU_PAUSE_MS);
     }
@@ -1789,7 +1837,7 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
       timers.forEach((timer) => window.clearTimeout(timer));
       rafs.forEach((frame) => window.cancelAnimationFrame(frame));
     };
-  }, [activateScriptedElement, applyDemoOptionKey, demoLoaded, demoTick, isNear, manualInteractionVersion, resolveDemoAction]);
+  }, [activateScriptedElement, applyDemoOptionKey, demoLoaded, demoShouldRun, demoTick, manualInteractionVersion, resolveDemoAction]);
 
   const activePreviewHeight = demoScale < 0.65 ? 840 : FILTER_DEMO_PREVIEW_HEIGHT;
   const visibleWidth = FILTER_DEMO_PREVIEW_WIDTH * demoScale;
@@ -1827,7 +1875,7 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
                 homeFilterDemoFilters={filters}
                 onHomeFilterDemoFiltersChange={applyDemoFilters}
                 onHomeFilterDemoReady={handleBankDemoReady}
-                homeFilterDemoCloseSignal={filterPanelCloseSignal}
+                onHomeFilterDemoControlOpenChange={pauseForHomeFilterMenuChange}
               />
             </Suspense>
           </div>
@@ -1897,6 +1945,68 @@ const useIsNearViewport = <T extends HTMLElement>(
   }, [isNear, ref, rootMargin]);
 
   return isNear;
+};
+
+const useIsCurrentlyInViewport = <T extends HTMLElement>(
+  ref: React.RefObject<T>,
+  rootMargin = "0px 0px",
+) => {
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const node = ref.current;
+    if (!node) return;
+
+    const setNextVisible = (next: boolean) => {
+      setIsVisible((current) => (current === next ? current : next));
+    };
+
+    const checkVisible = () => {
+      const rect = node.getBoundingClientRect();
+      const next =
+        rect.bottom >= 0 &&
+        rect.right >= 0 &&
+        rect.top <= window.innerHeight &&
+        rect.left <= window.innerWidth;
+      setNextVisible(next);
+    };
+
+    checkVisible();
+
+    if (!("IntersectionObserver" in window)) {
+      window.addEventListener("scroll", checkVisible, { passive: true });
+      window.addEventListener("resize", checkVisible);
+      return () => {
+        window.removeEventListener("scroll", checkVisible);
+        window.removeEventListener("resize", checkVisible);
+      };
+    }
+
+    const observer = new IntersectionObserver(
+      ([entry]) => setNextVisible(entry.isIntersecting),
+      { rootMargin },
+    );
+    observer.observe(node);
+    return () => observer.disconnect();
+  }, [ref, rootMargin]);
+
+  return isVisible;
+};
+
+const useDocumentVisible = () => {
+  const [isVisible, setIsVisible] = useState(() =>
+    typeof document === "undefined" || document.visibilityState === "visible",
+  );
+
+  useEffect(() => {
+    const handleVisibilityChange = () => {
+      setIsVisible(document.visibilityState === "visible");
+    };
+    document.addEventListener("visibilitychange", handleVisibilityChange);
+    return () => document.removeEventListener("visibilitychange", handleVisibilityChange);
+  }, []);
+
+  return isVisible;
 };
 
 const sectionVisibility = (intrinsicSize: string): React.CSSProperties => ({
@@ -1975,32 +2085,14 @@ const SlotMachineCounter = memo(({
       raf = requestAnimationFrame(tick);
       completeTimer = window.setTimeout(finish, countDuration + 300);
     };
-    const HARD_CAP_MS = 2500;
-    const MIN_HERO_COUNTER_DELAY_MS = 700;
-    const mountedAt = performance.now();
-    let triggered = false;
-    const trigger = () => {
-      if (triggered || cancelled) return;
-      triggered = true;
-      const elapsed = performance.now() - mountedAt;
-      const wait = Math.max(0, MIN_HERO_COUNTER_DELAY_MS - elapsed);
-      launchTimer = window.setTimeout(launch, wait + 80);
-    };
-
-    if (document.readyState === "complete") {
-      trigger();
-    } else {
-      window.addEventListener("load", trigger, { once: true });
-    }
-    const cap = setTimeout(trigger, HARD_CAP_MS);
+    const HERO_COUNTER_START_DELAY_MS = 120;
+    launchTimer = window.setTimeout(launch, HERO_COUNTER_START_DELAY_MS);
 
     return () => {
       cancelled = true;
-      clearTimeout(cap);
       clearTimeout(launchTimer);
       clearTimeout(completeTimer);
       cancelAnimationFrame(raf);
-      window.removeEventListener("load", trigger);
     };
   }, [countDuration, startValue, value]);
   return (
@@ -2165,13 +2257,26 @@ type SlotState =
   | { mode: "rendered"; latex: string; html: string }
   | { mode: "empty" };
 
-const HomePageBackdrop = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
+const HomePageBackdrop = memo(({
+  isDarkMode,
+  onReady,
+}: {
+  isDarkMode: boolean;
+  onReady?: () => void;
+}) => {
   const [cycle, setCycle] = useState(0);
   const [phase, setPhase] = useState<HPPhase>("typing");
   const HP_PANEL_FONT_PX = 26;
   const HP_MS_PER_CHAR = 90;
-  const FIRST_CURVE_LEAD_MS = 750;
+  const FIRST_CURVE_START_MS = 140;
   const [firstCurveEarly, setFirstCurveEarly] = useState(false);
+  const firstCurveRef = useRef<SVGPathElement | null>(null);
+  const readyFiredRef = useRef(false);
+  const markReady = useCallback(() => {
+    if (readyFiredRef.current) return;
+    readyFiredRef.current = true;
+    onReady?.();
+  }, [onReady]);
   useEffect(() => {
     let raf = 0;
     let currentVisible: boolean | null = null;
@@ -2212,13 +2317,9 @@ const HomePageBackdrop = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
   useEffect(() => {
     if (!isFirstCycle || phase !== "typing") return;
     setFirstCurveEarly(false);
-    const normalFirstCurveStartMs = currentTypingMs + 250;
-    const id = window.setTimeout(
-      () => setFirstCurveEarly(true),
-      Math.max(0, normalFirstCurveStartMs - FIRST_CURVE_LEAD_MS),
-    );
+    const id = window.setTimeout(() => setFirstCurveEarly(true), FIRST_CURVE_START_MS);
     return () => window.clearTimeout(id);
-  }, [isFirstCycle, phase, currentTypingMs]);
+  }, [isFirstCycle, phase]);
   useEffect(() => {
     if (phase !== "typingHold") return;
     const id = window.setTimeout(() => {
@@ -2302,6 +2403,35 @@ const HomePageBackdrop = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
     phase === "graphing" || (isFirstCycle && firstCurveEarly && (phase === "typing" || phase === "typingHold"))
       ? cycle % HP_EQUATIONS.length
       : null;
+  useEffect(() => {
+    if (cycle !== 0 || animatedCurveIdx !== 0) return;
+    let fallbackTimer = 0;
+    const raf = window.requestAnimationFrame(() => {
+      const curve = firstCurveRef.current;
+      if (!curve) {
+        markReady();
+        return;
+      }
+      const style = window.getComputedStyle(curve);
+      const animationName = style.animationName;
+      const durationMs = style.animationDuration
+        .split(",")
+        .map((duration) => {
+          const value = Number.parseFloat(duration);
+          return duration.trim().endsWith("ms") ? value : value * 1000;
+        })
+        .reduce((max, duration) => Math.max(max, Number.isFinite(duration) ? duration : 0), 0);
+      if (animationName === "none" || durationMs <= 0) {
+        markReady();
+        return;
+      }
+      fallbackTimer = window.setTimeout(markReady, durationMs + 120);
+    });
+    return () => {
+      window.cancelAnimationFrame(raf);
+      window.clearTimeout(fallbackTimer);
+    };
+  }, [animatedCurveIdx, cycle, markReady]);
 
   const lineColor = isDarkMode ? "rgba(125,211,252,0.14)" : "rgba(15,23,42,0.11)";
   const curveColor = isDarkMode ? "rgba(125,211,252,0.55)" : "rgba(125,211,252,0.78)";
@@ -2427,6 +2557,7 @@ const HomePageBackdrop = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
           )}
           {animatedCurveIdx !== null && (
             <path
+              ref={cycle === 0 ? firstCurveRef : undefined}
               key={cycle}
               d={HP_EQUATIONS[animatedCurveIdx].path}
               fill="none"
@@ -2435,6 +2566,7 @@ const HomePageBackdrop = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
               strokeLinecap="round"
               filter="url(#hp-glow)"
               className="hp-curve"
+              onAnimationEnd={cycle === 0 ? markReady : undefined}
             />
           )}
         </svg>
@@ -2572,13 +2704,17 @@ const Home = () => {
   const [isHeaderScrolled, setIsHeaderScrolled] = useState(false);
   const isDarkMode = useThemeMode();
   const totalQuestions = DEFAULT_QUESTION_BANK_TOTAL;
-  const [questionPreviewReady, setQuestionPreviewReady] = useState(false);
-  const handleCounterComplete = useCallback(() => setQuestionPreviewReady(true), []);
+  const [heroCounterReady, setHeroCounterReady] = useState(false);
+  const [heroGraphReady, setHeroGraphReady] = useState(false);
+  const [heroPreviewTimerReady, setHeroPreviewTimerReady] = useState(false);
+  const questionPreviewReady = heroCounterReady || heroGraphReady || heroPreviewTimerReady;
+  const handleHeroCounterReady = useCallback(() => setHeroCounterReady(true), []);
+  const handleHeroGraphReady = useCallback(() => setHeroGraphReady(true), []);
+
   useEffect(() => {
-    if (questionPreviewReady) return;
-    const fallback = window.setTimeout(() => setQuestionPreviewReady(true), 4200);
-    return () => window.clearTimeout(fallback);
-  }, [questionPreviewReady]);
+    const id = window.setTimeout(() => setHeroPreviewTimerReady(true), HERO_PREVIEW_FORCE_READY_MS);
+    return () => window.clearTimeout(id);
+  }, []);
 
   const demoTitleRef = useRef<HTMLDivElement>(null);
 
@@ -2595,12 +2731,6 @@ const Home = () => {
     return () => window.removeEventListener("message", onMessage);
   }, []);
   useEffect(() => {
-    const link = document.createElement("link");
-    link.rel = "stylesheet";
-    link.href =
-      "https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap";
-    document.head.appendChild(link);
-
     const style = document.createElement("style");
     style.id = "home-keyframes";
     style.textContent = `
@@ -2609,9 +2739,9 @@ const Home = () => {
         30%  { transform: scale(1); opacity: 0.8; }
         100% { transform: scale(1.65); opacity: 0; }
       }
-      @keyframes homeFadeUp {
-        from { opacity: 0; transform: translateY(22px); }
-        to   { opacity: 1; transform: translateY(0); }
+      [data-filter-demo-option].filter-demo-option-press {
+        background: hsl(var(--accent)) !important;
+        color: hsl(var(--accent-foreground)) !important;
       }
       @keyframes explanationStepSlide {
         from { opacity: 0; transform: translateY(calc(22px * var(--step-dir, 1))); }
@@ -2711,11 +2841,6 @@ const Home = () => {
         backdrop-filter: blur(18px);
         -webkit-backdrop-filter: blur(18px);
       }
-      .h-fade-2 { animation: homeFadeUp 0.75s ease 0.22s both; }
-      .h-fade-3 { animation: homeFadeUp 0.75s ease 0.36s both; }
-      .h-fade-4 { animation: homeFadeUp 0.75s ease 0.5s both; }
-      .h-fade-5 { animation: homeFadeUp 0.75s ease 0.64s both; }
-      .h-fade-6 { animation: homeFadeUp 0.85s ease 0.8s both; }
       .practice-score-stack {
         position: relative;
         height: 380px;
@@ -2754,71 +2879,10 @@ const Home = () => {
           0 24px 54px -30px rgba(14,33,56,0.38) !important;
       }
 
-      @media (max-width: 767px) {
-        .h-fade-2, .h-fade-3, .h-fade-4, .h-fade-5, .h-fade-6,
-        .explanation-step-slide {
-          animation: none !important;
-          opacity: 1 !important;
-          transform: none !important;
-        }
-        .float-sym { display: none !important; }
-        .hp-curve { animation: none !important; opacity: 1 !important; stroke-dashoffset: 0 !important; }
-        .hp-static-curve { opacity: 1 !important; transition: none !important; }
-        .home-hero {
-          padding: 32px 16px 0 !important;
-        }
-        .home-hero h1 {
-          font-size: clamp(40px, 12vw, 64px) !important;
-          margin: 0 0 16px !important;
-        }
-        .home-hero p.home-subtitle {
-          font-size: 15px !important;
-          margin: 0 auto 22px !important;
-        }
-        .home-cta-row {
-          flex-direction: column !important;
-          align-items: stretch !important;
-          gap: 10px !important;
-          margin-bottom: 32px !important;
-        }
-        .home-cta-row button {
-          width: 100% !important;
-          padding: 14px 22px !important;
-          justify-content: center !important;
-        }
-        .home-counter { margin-bottom: 40px !important; }
-        .home-counter .home-count-num { font-size: 40px !important; }
-        .home-demo-wrap { padding: 0 12px !important; }
-        .home-demo-title { font-size: clamp(22px, 6vw, 28px) !important; }
-        .filter-feature-row {
-          grid-template-columns: 1fr !important;
-          gap: 40px !important;
-          padding: 80px 16px !important;
-        }
-        .practice-tests-feature-row {
-          grid-template-columns: 1fr !important;
-          gap: 26px !important;
-          padding: 56px 16px 44px !important;
-        }
-        .practice-results-showcase {
-          height: auto !important;
-          width: 100% !important;
-          max-width: 100% !important;
-        }
-        .practice-score-stack {
-          height: 340px !important;
-        }
-        .practice-score-card-shell {
-          width: min(330px, calc(100% - 16px)) !important;
-        }
-        .home-cta-final h2 { font-size: clamp(30px, 9vw, 42px) !important; }
-        .home-cta-final button { padding: 14px 28px !important; }
-      }
     `;
     document.head.appendChild(style);
 
     return () => {
-      document.head.removeChild(link);
       document.getElementById("home-keyframes")?.remove();
     };
   }, []);
@@ -2952,7 +3016,7 @@ const Home = () => {
           paddingBottom: "clamp(72px, 7vw, 108px)",
         }}
       >
-        <HomePageBackdrop isDarkMode={isDarkMode} />
+        <HomePageBackdrop isDarkMode={isDarkMode} onReady={handleHeroGraphReady} />
 
         <div
           className="home-hero"
@@ -3139,7 +3203,7 @@ const Home = () => {
               fontFeatureSettings: "'tnum'",
               }}
             >
-              <SlotMachineCounter value={totalQuestions} onComplete={handleCounterComplete} />
+              <SlotMachineCounter value={totalQuestions} onComplete={handleHeroCounterReady} />
             </div>
             <div
               style={{

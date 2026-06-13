@@ -1,1 +1,15 @@
-{"questionId": "c54d28b8-d1aa-4370-ad6c-356768c9033c_19", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The sentence introduces a person by job title followed directly by their name. Determine whether any punctuation is needed between the title and the name."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'economist'</strong>: No punctuation between the title and the proper name &mdash; correct for a restrictive appositive where the name identifies which economist is meant. &#10003;</li><li><strong>Choice B &mdash; 'economist&mdash;'</strong>: An em dash signals an abrupt break or interruption; nothing after the name justifies returning from a dash, so this is structurally incorrect. &#10007;</li><li><strong>Choice C &mdash; 'economist:'</strong>: A colon introduces a list or explanation; 'Arthur Laffer' is not an explanation of 'economist,' so the colon is unwarranted. &#10007;</li><li><strong>Choice D &mdash; 'economist,'</strong>: A comma here would create a non-restrictive appositive implying only one economist exists, which is not the intended meaning and adds unnecessary punctuation. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "c54d28b8-d1aa-4370-ad6c-356768c9033c_19",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence introduces a person by job title followed directly by their name. Determine whether any punctuation is needed between the title and the name."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; economist</strong>: No punctuation between the title and the proper name &mdash; correct for a restrictive appositive where the name identifies which economist is meant. &#10003;</li><li><strong>Choice B &mdash; economist—</strong>: An em dash signals an abrupt break or interruption; nothing after the name justifies returning from a dash, so this is structurally incorrect. &#10007;</li><li><strong>Choice C &mdash; economist:</strong>: A colon introduces a list or explanation; 'Arthur Laffer' is not an explanation of 'economist,' so the colon is unwarranted. &#10007;</li><li><strong>Choice D &mdash; economist,</strong>: A comma here would create a non-restrictive appositive implying only one economist exists, which is not the intended meaning and adds unnecessary punctuation. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

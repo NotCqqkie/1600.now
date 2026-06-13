@@ -350,7 +350,7 @@
     "difficulty": "Easy",
     "question_number": 13,
     "test_name": "Module Source 201 Math M2",
-    "passage": "For the linear function $ f $, $ b $ is a constant and $ f(9) = 72 $. What is the value of $ b $?",
+    "passage": "$f(x)=8x+b$\nFor the linear function $f$, $b$ is a constant and $f(9)=72$. What is the value of $b$?",
     "question_text": null,
     "choices": [
       {

@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "The linear model is $$f(h)=65h+90.$$ It gives $f(1)=155$ and $f(3)=285$, so it fits the table. Choice <strong>C</strong> is correct."
+      "content": "The linear model is $$f(h)=65h+90.$$ It gives $f(1)=155$ and $f(3)=285$, so it fits the table. <strong>C</strong> is correct."
     }
   ]
 }

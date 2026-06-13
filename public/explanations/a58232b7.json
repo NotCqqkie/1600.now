@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Use the domain",
-      "content": "Both functions have base $1.4>1$, so they increase as $x$ increases. Since $x\\ge0$, each function has its minimum at $x=0$."
+      "content": "Both functions have base $1.4\\gt1$, so they increase as $x$ increases. Since $x\\ge0$, each function has its minimum at $x=0$."
     },
     {
       "title": "Check function g",

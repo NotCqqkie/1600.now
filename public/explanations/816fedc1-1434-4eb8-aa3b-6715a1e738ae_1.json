@@ -1,1 +1,15 @@
-{"questionId":"816fedc1-1434-4eb8-aa3b-6715a1e738ae_1","correctAnswer":"C","section":"Math","steps":[{"title":"Find the intersection","content":"A solution to a system of equations is an ordered pair that satisfies both equations. Substitute the choices into $y=\\frac{16}{x}$ and $y=16x$."},{"title":"Check the matching point","content":"For choice C, $(1,16)$: $\\frac{16}{1}=16$ and $16(1)=16$. The same $y$-value works for both equations, so $(1,16)$ is the intersection point. The other choices either use $x=0$, which is not allowed in $\\frac{16}{x}$, or do not satisfy both equations. Choice C is correct."}]}
+{
+  "questionId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_1",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the intersection",
+      "content": "A solution to a system of equations is an ordered pair that satisfies both equations. Substitute the choices into $y=\\frac{16}{x}$ and $y=16x$."
+    },
+    {
+      "title": "Check the matching point",
+      "content": "For choice C, $(1,16)$: $\\frac{16}{1}=16$ and $16(1)=16$. The same $y$-value works for both equations, so $(1,16)$ is the intersection point. The other choices either use $x=0$, which is not allowed in $\\frac{16}{x}$ or do not satisfy both equations. Choice C (&lsquo;$(1, 16)$&rsquo;) is correct."
+    }
+  ]
+}

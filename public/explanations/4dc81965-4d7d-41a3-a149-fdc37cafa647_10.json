@@ -1,1 +1,15 @@
-{"questionId":"4dc81965-4d7d-41a3-a149-fdc37cafa647_10","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The statement says \"in 1995, Mexico mined ______\" and asks for the value from the table. The task is purely to read the correct cell: Mexico's row, 1995 column."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; '0.38 million metric tons of copper'</strong>: This is Peru's 1995 value, not Mexico's. &#10007;</li><li><strong>Choice B &mdash; '0.33 million metric tons of copper'</strong>: This matches Mexico's 1995 cell in the table. &#10003;</li><li><strong>Choice C &mdash; '1.85 million metric tons of copper'</strong>: This is the United States' 1995 value. &#10007;</li><li><strong>Choice D &mdash; '0.44 million metric tons of copper'</strong>: This is Indonesia's 1995 value. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "4dc81965-4d7d-41a3-a149-fdc37cafa647_10",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The statement says \"in 1995, Mexico mined ______\" and asks for the value from the table. The task is purely to read the correct cell: Mexico's row, 1995 column."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — 0.38 million metric tons of copper</strong>: This is Peru's 1995 value, not Mexico's. &#10007;</li><li><strong>Choice B — 0.33 million metric tons of copper</strong>: This matches Mexico's 1995 cell in the table. &#10003;</li><li><strong>Choice C — 1.85 million metric tons of copper</strong>: This is the United States' 1995 value. &#10007;</li><li><strong>Choice D — 0.44 million metric tons of copper</strong>: This is Indonesia's 1995 value. &#10007;</li></ul><strong>B</strong> is correct."
+    }
+  ]
+}

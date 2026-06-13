@@ -255,7 +255,7 @@
     "difficulty": "Medium",
     "question_number": 12,
     "test_name": "Module Source 045 Math M1",
-    "passage": "A company has a customer loyalty program. In January 2018, there were 800 customers enrolled in the loyalty program. For the next 24 months after January 2018, the total number of customers enrolled in the loyalty program each month was 5% greater than the total number enrolled the previous month. Which equation gives the total number of customers, c, enrolled in the company's loyalty program m months after January 2018, where $m < 24$?",
+    "passage": "A company has a customer loyalty program. In January 2018, there were 800 customers enrolled in the loyalty program. For the next 24 months after January 2018, the total number of customers enrolled in the loyalty program each month was 5% greater than the total number enrolled the previous month. Which equation gives the total number of customers, c, enrolled in the company's loyalty program m months after January 2018, where $m \\lt 24$?",
     "question_text": null,
     "choices": [
       {
@@ -302,7 +302,7 @@
     "difficulty": "Easy",
     "question_number": 14,
     "test_name": "Module Source 045 Math M1",
-    "passage": "For $x > 0$, the function $f$ is defined as follows:\n$f(x) = 2.93x$\nWhich of the following could describe this function?",
+    "passage": "For $x \\gt 0$, the function $f$ is defined as follows:\n$f(x)=293\\%$ of $x$\nWhich of the following could describe this function?",
     "question_text": null,
     "choices": [
       {

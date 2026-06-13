@@ -9,7 +9,7 @@
     },
     {
       "title": "Find a by matching coefficients",
-      "content": "For the equations $ax+y=c$ and $3kx+2ky=k$ to be identical, their coefficients must match. From the $y$-coefficient, $1=2k$, so $k=\\frac{1}{2}$. Then $$a=3k=3\\left(\\frac{1}{2}\\right)=\\frac{3}{2}.$$ That matches choice D, so <strong>D</strong> is correct."
+      "content": "For the equations $ax+y=c$ and $3kx+2ky=k$ to be identical, their coefficients must match. From the $y$-coefficient, $1=2k$, so $k=\\frac{1}{2}$. Then $$a=3k=3\\left(\\frac{1}{2}\\right)=\\frac{3}{2}.$$ That matches the computed answer, so <strong>D</strong> is correct."
     }
   ]
 }

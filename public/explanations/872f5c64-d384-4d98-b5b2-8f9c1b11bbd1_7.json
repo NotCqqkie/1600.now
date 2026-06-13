@@ -1,1 +1,15 @@
-{"questionId":"872f5c64-d384-4d98-b5b2-8f9c1b11bbd1_7","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The parlor is called T&iacute;a Ana&apos;s &apos;special province&apos; &mdash; where she runs her little school. Yet she has &apos;already come into the room several times&apos; checking whether guests have left. The question asks why she keeps checking."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; T&iacute;a Ana feels betrayed</strong>: the passage does not indicate betrayal; her checking is practical, not emotional in that way. &#10007;</li><li><strong>Choice B &mdash; T&iacute;a Ana is joyful despite the room being &apos;never in order&apos;</strong>: the text does not support joy, and &apos;never in order&apos; is a distraction unconnected to her motivation. &#10007;</li><li><strong>Choice C &mdash; T&iacute;a Ana is seeking an escape</strong>: nothing in the passage suggests she wants to flee the situation. &#10007;</li><li><strong>Choice D &mdash; the parlor is her school space, and Salom&eacute;&apos;s salon uses it every evening</strong>: the &apos;special province&apos; detail directly explains her repeated checking &mdash; she needs the room back. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "872f5c64-d384-4d98-b5b2-8f9c1b11bbd1_7",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The parlor is called T&iacute;a Ana&apos;s &apos;special province&apos; &mdash; where she runs her little school. Yet she has &apos;already come into the room several times&apos; checking whether guests have left. The question asks why she keeps checking."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; It reveals that Tia Ana feels as if Salomé has betrayed her trust by allowing guests into a space she considers her own.</strong>: the passage does not indicate betrayal; her checking is practical, not emotional in that way. &#10007;</li><li><strong>Choice B &mdash; It indicates the joy that Tia Ana feels when she uses her classroom for varying purposes.</strong>: the text does not support joy, and &apos;never in order&apos; is a distraction unconnected to her motivation. &#10007;</li><li><strong>Choice C &mdash; It characterizes the room as a place where Tia Ana can go to escape social pressures.</strong>: nothing in the passage suggests she wants to flee the situation. &#10007;</li><li><strong>Choice D &mdash; It introduces an idea that helps explain Tia Ana's apparent eagerness for Salomé's guests to leave the space.</strong>: the &apos;special province&apos; detail directly explains her repeated checking &mdash; she needs the room back. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,19 @@
-{"questionId": "659cbbc1-2d38-4d45-8ecb-79f43367862e_12", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Square both sides", "content": "Squaring $\\sqrt{x-1}=2$ gives $x-1=2^{2}=4$.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "659cbbc1-2d38-4d45-8ecb-79f43367862e_12",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the radical equation",
+      "content": "The equation is $\\sqrt{x-1}=2$. Since the square root is already isolated, square both sides to remove the radical."
+    },
+    {
+      "title": "Solve for x",
+      "content": "$$(\\sqrt{x-1})^2=2^2$$<br/>$$x-1=4$$<br/>$$x=5$$"
+    },
+    {
+      "title": "Match the choice",
+      "content": "$x=5$ confirms <strong>C</strong>, so <strong>C</strong> is correct."
+    }
+  ]
+}

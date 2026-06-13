@@ -1,21 +1,26 @@
 {
+  "questionId": "c9e1513f-58d1-4e6c-8574-b9662226959f_22",
   "qid": "c9e1513f-58d1-4e6c-8574-b9662226959f_22",
   "steps": [
     {
-      "explanation": "From the dot plot, set A has mean $10\\mu\\text{F}$ and range $12\\mu\\text{F}$. Every capacitor in set B is $14\\mu\\text{F}$ greater than the corresponding capacitor in set A."
+      "title": "Step 1",
+      "content": "From the dot plot, set A has mean $10\\mu\\text{F}$ and range $12\\mu\\text{F}$. Every capacitor in set B is $14\\mu\\text{F}$ greater than the corresponding capacitor in set A."
     },
     {
-      "explanation": "Adding a constant to every data value shifts the mean by that constant: the mean of set B is $10+14=24\\mu\\text{F}$."
+      "title": "Step 2",
+      "content": "Adding a constant to every data value shifts the mean by that constant: the mean of set B is $10+14=24\\mu\\text{F}$."
     },
     {
-      "explanation": "Range is maximum minus minimum. Adding the same constant to every value increases both the maximum and minimum by $14$, so their difference stays the same: the range of set B is $12\\mu\\text{F}$."
+      "title": "Step 3",
+      "content": "Range is maximum minus minimum. Adding the same constant to every value increases both the maximum and minimum by $14$, so their difference stays the same: the range of set B is $12\\mu\\text{F}$."
     },
     {
       "title": "Apply the shift to the mean and range",
       "content": "Every value in set B is $14$ greater than the corresponding value in set A, so the mean increases by $14$: $10+14=24$. The range does not change because both the maximum and minimum increase by $14$, leaving the difference the same: $(\\max+14)-(\\min+14)=\\max-\\min=12$."
     },
     {
-      "explanation": "<ul><li>A: Mean $10\\mu\\text{F}$, range $12\\mu\\text{F}$ &mdash; The mean is unchanged from set A, but adding $14$ to every value must shift the mean up by $14$. Eliminated.</li><li>B: Mean $10\\mu\\text{F}$, range $26\\mu\\text{F}$ &mdash; Both values are wrong; the mean is unshifted and the range is inflated. Eliminated.</li><li>C: Mean $24\\mu\\text{F}$, range $12\\mu\\text{F}$ &mdash; The mean shifts by $14$, since $10+14=24$, and the range is unchanged. That matches choice C &mdash; <strong>C</strong> is correct.</li><li>D: Mean $24\\mu\\text{F}$, range $26\\mu\\text{F}$ &mdash; The mean is correct, but the range incorrectly adds the shift: $12+14=26$. Eliminated.</li></ul>"
+      "title": "Step 5",
+      "content": "<ul><li>A: Mean $10\\mu\\text{F}$, range $12\\mu\\text{F}$ &mdash; The mean is unchanged from set A, but adding $14$ to every value must shift the mean up by $14$. Eliminated.</li><li>B: Mean $10\\mu\\text{F}$, range $26\\mu\\text{F}$ &mdash; Both values are wrong; the mean is unshifted and the range is inflated. Eliminated.</li><li>C: Mean $24\\mu\\text{F}$, range $12\\mu\\text{F}$ &mdash; The mean shifts by $14$, since $10+14=24$, and the range is unchanged. That is the correct answer.</li><li>D: Mean $24\\mu\\text{F}$, range $26\\mu\\text{F}$ &mdash; The mean is correct, but the range incorrectly adds the shift: $12+14=26$. Eliminated.</li></ul>"
     }
   ],
   "correctAnswer": "C"

@@ -330,24 +330,24 @@
     "difficulty": "Hard",
     "question_number": 11,
     "test_name": "Module Source 196 Math M2",
-    "passage": "Data set A: 8, 11, 12, 15, 21, 27\nData set B: 9, 12, 13, 16, 22, $ h $\nData sets A and B each consist of 6 values as shown, where $ h $ is a constant. If the standard deviation of data set A is greater than the standard deviation of data set B, which of the following could be the value of $ h $?\nⅠ. 23\nⅡ. 28\nⅢ. 29",
+    "passage": "Data set A: 8, 11, 12, 15, 21, 27\nData set B: 9, 12, 13, 16, 22, $ h $\nData sets A and B each consist of 6 values as shown, where $ h $ is a constant. If the standard deviation of data set A is greater than the standard deviation of data set B, which of the following could be the value of $ h $?\nI. 23\nII. 28\nIII. 29",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "Ⅰ only"
+        "text": "I only"
       },
       {
         "label": "B",
-        "text": "Ⅱ only"
+        "text": "II only"
       },
       {
         "label": "C",
-        "text": "Ⅲ only"
+        "text": "III only"
       },
       {
         "label": "D",
-        "text": "Ⅱ or Ⅲ"
+        "text": "II or III"
       }
     ],
     "is_fill_in_blank": false,
@@ -480,7 +480,7 @@
     "difficulty": "Medium",
     "question_number": 16,
     "test_name": "Module Source 196 Math M2",
-    "passage": "In triangle $XYZ$, angle $Y$ is a right angle, the measure of angle $Z$ is $39°$, and the length of $\\overline{YZ}$ is 22 units. If the area, in square units, of triangle $XYZ$ can be represented by the expression $k \\tan 39°$, where $k$ is a constant, what is the value of $k$?",
+    "passage": "In triangle $XYZ$, angle $Y$ is a right angle, the measure of angle $Z$ is $39^{\\circ}$, and the length of $\\overline{YZ}$ is 22 units. If the area, in square units, of triangle $XYZ$ can be represented by the expression $k \\tan 39^{\\circ}$, where $k$ is a constant, what is the value of $k$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -495,7 +495,7 @@
     "difficulty": "Medium",
     "question_number": 17,
     "test_name": "Module Source 196 Math M2",
-    "passage": "In right triangle RST, the sum of the measures of angle R and angle S is 90 degrees. The value of sin(R) is $\\frac{3\\sqrt{17}}{13}$. What is the value of cos(S)?",
+    "passage": "In right triangle RST, the sum of the measures of angle R and angle S is 90 degrees. The value of sin(R) is $\\frac{\\sqrt{17}}{13}$. What is the value of cos(S)?",
     "question_text": null,
     "choices": [
       {
@@ -638,24 +638,24 @@
     "difficulty": "Medium",
     "question_number": 22,
     "test_name": "Module Source 196 Math M2",
-    "passage": "In triangle $ABC$ and triangle $DEF$, sides $AB$ and $DE$ each have a side length of 6 inches and angles $A$ and $D$ each have an angle measure of 40°. Which of the following additional pieces of information is(are) sufficient to prove whether triangle $ABC$ is congruent to triangle $DEF$?\nⅠ. The measures of angles $B$ and $C$ are equal.\nⅡ. The lengths of sides $AC$ and $DF$ are equal.\nⅢ. The lengths of sides $BC$ and $EF$ are equal.",
+    "passage": "In triangle $ABC$ and triangle $DEF$, sides $AB$ and $DE$ each have a side length of 6 inches and angles $A$ and $D$ each have an angle measure of 40°. Which of the following additional pieces of information is(are) sufficient to prove whether triangle $ABC$ is congruent to triangle $DEF$?\nI. The measures of angles $B$ and $C$ are equal.\nII. The lengths of sides $AC$ and $DF$ are equal.\nIII. The lengths of sides $BC$ and $EF$ are equal.",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "Ⅰ is sufficient, but Ⅱ and Ⅲ are not."
+        "text": "I is sufficient, but II and III are not."
       },
       {
         "label": "B",
-        "text": "Ⅱ is sufficient, but Ⅰ and Ⅲ are not."
+        "text": "II is sufficient, but I and III are not."
       },
       {
         "label": "C",
-        "text": "Ⅲ is sufficient, but Ⅰ and Ⅱ are not."
+        "text": "III is sufficient, but I and II are not."
       },
       {
         "label": "D",
-        "text": "Ⅱ is sufficient and Ⅲ is sufficient, but Ⅰ is not."
+        "text": "II is sufficient and III is sufficient, but I is not."
       }
     ],
     "is_fill_in_blank": false,

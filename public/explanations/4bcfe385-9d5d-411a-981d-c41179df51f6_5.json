@@ -10,7 +10,7 @@
     },
     {
       "title": "Substitute radius and calculate the volume",
-      "content": "Substitute $r = 69$:<br/>$$V = \\frac{2}{3}\\pi (69)^3$$<br/>Calculate $69^3 = 328,509$, so:<br/>$$V = \\frac{2}{3} \\times 328,509 \\times \\pi = 219,006\\pi$$<br/>With $\\pi \\approx 3.14159$:<br/>$$V \\approx 219,006 \\times 3.14159 \\approx 688,000$$<br/>That matches choice D — <strong>D</strong> is correct."
+      "content": "Substitute $r = 69$:<br/>$$V = \\frac{2}{3}\\pi (69)^3$$<br/>Calculate $69^3 = 328,509$, so:<br/>$$V = \\frac{2}{3} \\times 328,509 \\times \\pi = 219,006\\pi$$<br/>With $\\pi \\approx 3.14159$:<br/>$$V \\approx 219,006 \\times 3.14159 \\approx 688,000$$<br/><strong>D</strong> is correct."
     }
   ]
 }

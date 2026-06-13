@@ -9,7 +9,7 @@
     },
     {
       "title": "Scale the sample to estimate the population",
-      "content": "Find the scaling factor from sample to population:<br/>$$\\frac{30,000}{300} = 100$$<br/>The population is 100 times the sample size, so multiply the number of interested customers in the sample by 100:<br/>$$8 \\times 100 = 800$$<br/>That matches choice C — <strong>C</strong> is correct."
+      "content": "Find the scaling factor from sample to population:<br/>$$\\frac{30,000}{300} = 100$$<br/>The population is 100 times the sample size, so multiply the number of interested customers in the sample by 100:<br/>$$8 \\times 100 = 800$$<br/><strong>C</strong> is correct."
     }
   ]
 }

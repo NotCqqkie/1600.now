@@ -1,1 +1,15 @@
-{"questionId":"8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_22","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank introduces a sentence about snowpack at higher elevations after the passage has just discussed snowpack at lower elevations. The two elevation zones show different conditions, so the transition must signal a contrast."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; [signals explanation or elaboration]</strong>: This implies the higher-elevation finding explains the lower-elevation finding &mdash; it does not. &#10007;</li><li><strong>Choice B &mdash; [signals example]</strong>: The higher-elevation data is not an example of the lower-elevation trend; it contradicts it. &#10007;</li><li><strong>Choice C &mdash; 'on the other hand'</strong>: This directly signals contrast between the two elevation zones, matching the shift in both timing (early March vs. mid-March) and conditions. &#10003;</li><li><strong>Choice D &mdash; [signals conclusion or restatement]</strong>: The second sentence introduces new information rather than summarizing what came before. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_22",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank introduces a sentence about snowpack at higher elevations after the passage has just discussed snowpack at lower elevations. The two elevation zones show different conditions, so the transition must signal a contrast."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; in other words,</strong>: This implies the higher-elevation finding explains the lower-elevation finding &mdash; it does not. &#10007;</li><li><strong>Choice B &mdash; for instance,</strong>: The higher-elevation data is not an example of the lower-elevation trend; it contradicts it. &#10007;</li><li><strong>Choice C &mdash; on the other hand,</strong>: This directly signals contrast between the two elevation zones, matching the shift in both timing (early March vs. mid-March) and conditions. &#10003;</li><li><strong>Choice D &mdash; in summary,</strong>: The second sentence introduces new information rather than summarizing what came before. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

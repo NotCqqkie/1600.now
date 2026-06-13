@@ -1,1 +1,15 @@
-{"questionId": "92bd954b-0e12-4b86-bc5f-d64490221af2_13", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Locate the decisive contrast", "content": "The strongest signal is the “though” structure: smaller areas experienced less congestion than very large cities, yet congestion still worsened in those smaller areas. Supporting data must show both the severity difference and the upward trend."}, {"title": "Test the answer against the data", "content": "Choice B shows that Boise's delays were always lower than NYC's for each year between 1990 and 2000, and that both areas experienced rising delays during this decade.<br/><br/>The other choices either omit evidence of worsening in smaller areas or contradict the graph data.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "92bd954b-0e12-4b86-bc5f-d64490221af2_13",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the decisive contrast",
+      "content": "The strongest signal is the “though” structure: smaller areas experienced less congestion than very large cities, yet congestion still worsened in those smaller areas. Supporting data must show both the severity difference and the upward trend."
+    },
+    {
+      "title": "Test the answer against the data",
+      "content": "The correct answer shows that Boise's delays were always lower than NYC's for each year between 1990 and 2000, and that both areas experienced rising delays during this decade.<br/><br/>The other choices either omit evidence of worsening in smaller areas or contradict the graph data.<br/><br/>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

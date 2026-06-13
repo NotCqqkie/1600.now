@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the subject's number",
-      "content": "The subject is \u201cmore writers from Guinea, including Diallo.\u201d The head noun \u201cwriters\u201d is plural. The phrase \u201cincluding Diallo\u201d is parenthetical and doesn't affect the count."
+      "content": "The subject is “more writers from Guinea, including Diallo.” The head noun “writers” is plural. The phrase “including Diallo” is parenthetical and doesn't affect the count."
     },
     {
       "title": "Apply subject-verb agreement",
-      "content": "Identify the grammar issue: subject-verb agreement. Rule: the verb must agree in number with the head noun of the subject, not with intervening phrases.\n<ul>\n<li><strong>Choice A \u2014 \"is beginning\"</strong>: singular present progressive; does not agree with the plural subject \"writers.\" \u2717</li>\n<li><strong>Choice B \u2014 \"has begun\"</strong>: singular present perfect; does not agree with the plural subject. \u2717</li>\n<li><strong>Choice C \u2014 \"have begun\"</strong>: plural present perfect; correctly agrees with the plural head noun \"writers.\" \u2713</li>\n<li><strong>Choice D \u2014 \"begins\"</strong>: singular simple present; does not agree with the plural subject. \u2717</li>\n</ul>\nThat matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "Identify the grammar issue: subject-verb agreement. Rule: the verb must agree in number with the head noun of the subject, not with intervening phrases.\n<ul>\n<li><strong>Choice A &mdash; is beginning</strong>: singular present progressive; does not agree with the plural subject \"writers.\" ✗</li>\n<li><strong>Choice B &mdash; has begun</strong>: singular present perfect; does not agree with the plural subject. ✗</li>\n<li><strong>Choice C &mdash; have begun</strong>: plural present perfect; correctly agrees with the plural head noun \"writers.\" ✓</li>\n<li><strong>Choice D &mdash; begins</strong>: singular simple present; does not agree with the plural subject. ✗</li>\n</ul>\nThat is the correct answer."
     }
   ]
 }

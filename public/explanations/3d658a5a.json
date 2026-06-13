@@ -1,1 +1,15 @@
-{"questionId": "3d658a5a", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Read the passage for the key constraint", "content": "<ul><li><strong>Choice A &mdash; 'depleted'</strong>: The passage says bees leave patches of low <em>species richness</em>, not patches that are emptied of resources. &ldquo;Depleted&rdquo; targets quantity, not variety. &#10007;</li><li><strong>Choice B &mdash; 'homogeneous'</strong>: &ldquo;Homogeneous&rdquo; means all the same type. If a dense patch has flowers of only one species, it has low species richness, which is exactly the condition the passage describes. &#10003;</li><li><strong>Choice C &mdash; 'immature'</strong>: Nothing in the passage links flower maturity to species richness or to bees&rsquo; decision to forage elsewhere. &#10007;</li><li><strong>Choice D &mdash; 'dispersed'</strong>: The passage describes <em>dense</em> patches, so &ldquo;dispersed&rdquo; (widely scattered) contradicts the premise. &#10007;</li></ul>"}, {"title": "Confirm with the passage logic", "content": "Bees abandon dense patches when those patches have &ldquo;low species richness&rdquo; &mdash; meaning every flower is essentially the same type. That is the definition of homogeneous. No other choice fits the species-richness language in the passage.<br/><br/>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "3d658a5a",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the passage for the key constraint",
+      "content": "<ul><li><strong>Choice A — depleted</strong>: The passage says bees leave patches of low <em>species richness</em>, not patches that are emptied of resources. &ldquo;Depleted&rdquo; targets quantity, not variety. &#10007;</li><li><strong>Choice B — homogeneous</strong>: &ldquo;Homogeneous&rdquo; means all the same type. If a dense patch has flowers of only one species, it has low species richness, which is exactly the condition the passage describes. &#10003;</li><li><strong>Choice C — immature</strong>: Nothing in the passage links flower maturity to species richness or to bees&rsquo; decision to forage elsewhere. &#10007;</li><li><strong>Choice D — dispersed</strong>: The passage describes <em>dense</em> patches, so &ldquo;dispersed&rdquo; (widely scattered) contradicts the premise. &#10007;</li></ul>"
+    },
+    {
+      "title": "Confirm with the passage logic",
+      "content": "Bees abandon dense patches when those patches have &ldquo;low species richness&rdquo; &mdash; meaning every flower is essentially the same type. That is the definition of homogeneous. No other choice fits the species-richness language in the passage.<br/><br/><strong>B</strong> is correct."
+    }
+  ]
+}

@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply subject-verb agreement",
-      "content": "Identify the grammar issue: subject-verb agreement. Rule: a plural subject takes the base form of the verb (no -s/-es).\n<ul>\n<li><strong>Choice A — \"is increasing\"</strong>: singular present-progressive verb; disagrees with plural \"the toxins.\" ✗</li>\n<li><strong>Choice B — \"increase\"</strong>: base-form (plural) present-tense verb; agrees with plural \"the toxins.\" ✓</li>\n<li><strong>Choice C — \"increases\"</strong>: singular present-tense verb (third-person -s); disagrees with plural subject. ✗</li>\n<li><strong>Choice D — \"has increased\"</strong>: singular present-perfect verb; disagrees with plural subject. ✗</li>\n</ul>\nThat matches choice B — <strong>B</strong> is correct."
+      "content": "Identify the grammar issue: subject-verb agreement. Rule: a plural subject takes the base form of the verb (no -s/-es).\n<ul>\n<li><strong>\"is increasing\"</strong>: singular present-progressive verb; disagrees with plural \"the toxins.\" ✗</li>\n<li><strong>\"increase\"</strong>: base-form (plural) present-tense verb; agrees with plural \"the toxins.\" ✓</li>\n<li><strong>\"increases\"</strong>: singular present-tense verb (third-person -s); disagrees with plural subject. ✗</li>\n<li><strong>\"has increased\"</strong>: singular present-perfect verb; disagrees with plural subject. ✗</li>\n</ul>\nThat matches the correct answer — <strong>B</strong> is correct."
     }
   ]
 }

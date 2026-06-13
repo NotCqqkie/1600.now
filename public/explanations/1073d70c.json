@@ -9,11 +9,11 @@
     },
     {
       "title": "Build the exponential model",
-      "content": "In $C=a(b)^t$, the starting amount is $a=40$. The hourly multiplier is $b=1+1.90=2.90$, so the model is $$C=40(2.9)^t$$ Choice D has both the correct initial value and the correct hourly growth factor."
+      "content": "In $C=a(b)^t$, the starting amount is $a=40$. The hourly multiplier is $b=1+1.90=2.90$, so the model is $$C=40(2.9)^t$$ <strong>Choice D &mdash; $C=40{ \\left(2.9\\right)}^{t}$</strong> has both the correct initial value and the correct hourly growth factor."
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li>A) $C=40(1.19)^{t}$ &mdash; corresponds to a $19\\%$ hourly increase. Eliminated.</li><li>B) $C=40(1.9)^{t}$ &mdash; corresponds to a $90\\%$ increase per hour (forgets to add $1$). Eliminated.</li><li>C) $C=40(19)^{t}$ &mdash; corresponds to a $1800\\%$ increase per hour. Eliminated.</li><li>D) $C=40(2.9)^{t}$ &mdash; matches the $190\\%$ hourly increase.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "content": "<ul><li>A) $C=40(1.19)^{t}$ &mdash; corresponds to a $19\\%$ hourly increase. Eliminated.</li><li>B) $C=40(1.9)^{t}$ &mdash; corresponds to a $90\\%$ increase per hour (forgets to add $1$). Eliminated.</li><li>C) $C=40(19)^{t}$ &mdash; corresponds to a $1800\\%$ increase per hour. Eliminated.</li><li>D) $C=40(2.9)^{t}$ &mdash; matches the $190\\%$ hourly increase.</li></ul>That matches <strong>Choice D &mdash; $C=40{ \\left(2.9\\right)}^{t}$</strong>."
     }
   ]
 }

@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "Isolate $y$: divide $-6y = -48x - 32$ by $-6$ to get $y = 8x + \\tfrac{16}{3}$. The slope is $8$.<ul><li><strong>Choice A &mdash; &apos;-8&apos;</strong>: wrong sign on the $x$-coefficient. &#10007;</li><li><strong>Choice B &mdash; &apos;$-\\frac{3}{2}$&apos;</strong>: inverted the coefficients and flipped the sign. &#10007;</li><li><strong>Choice C &mdash; &apos;$\\frac{3}{2}$&apos;</strong>: inverted the coefficients. &#10007;</li><li><strong>Choice D &mdash; &apos;8&apos;</strong>: the coefficient of $x$ after isolating $y$. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "content": "Isolate $y$: divide $-6y = -48x - 32$ by $-6$ to get $y = 8x + \\tfrac{16}{3}$. The slope is $8$.<ul><li><strong>Choice A &mdash; -8</strong>: wrong sign on the $x$-coefficient. &#10007;</li><li><strong>Choice B &mdash; $-\\frac{3}{2}$</strong>: inverted the coefficients and flipped the sign. &#10007;</li><li><strong>Choice C &mdash; $\\frac{3}{2}$</strong>: inverted the coefficients. &#10007;</li><li><strong>Choice D &mdash; 8</strong>: the coefficient of $x$ after isolating $y$. &#10003;</li></ul>That is the correct answer."
     }
   ]
 }

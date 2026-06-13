@@ -1,1 +1,15 @@
-{"questionId":"7e608cd1-45e5-4f04-99b5-d0a95eb883a6_8","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks for the main idea of the passage. Hawthorne compares a historian's knowledge to a map &mdash; accurate but &quot;cold and naked&quot; &mdash; and contrasts it with the warmth of a landscape painting. The main idea is about the trade-off between a historian's accuracy and engaging storytelling."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Writers of fiction possess storytelling skills that historians do not.'</strong>: The passage is not about fiction writers' skills; it focuses on historians' limitations, not on comparing them to fiction writers. &#10007;</li><li><strong>Choice B &mdash; 'The more famous a person is, the more likely that person is to attract the attention of a historian.'</strong>: Fame is never mentioned in the passage. &#10007;</li><li><strong>Choice C &mdash; 'Maps are more practical to own than paintings.'</strong>: The map and painting are a metaphor, not a literal comparison of practicality. &#10007;</li><li><strong>Choice D &mdash; 'Historians&apos; fidelity to the truth often results in work that is less engaging than it could be.'</strong>: This directly captures the passage's contrast &mdash; the historian's map is accurate but cold, lacking the charm of a painting. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "7e608cd1-45e5-4f04-99b5-d0a95eb883a6_8",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks for the main idea of the passage. Hawthorne compares a historian's knowledge to a map &mdash; accurate but &quot;cold and naked&quot; &mdash; and contrasts it with the warmth of a landscape painting. The main idea is about the trade-off between a historian's accuracy and engaging storytelling."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Writers of fiction possess storytelling skills that historians do not.&rsquo;</strong>: The passage is not about fiction writers' skills; it focuses on historians' limitations, not on comparing them to fiction writers. &#10007;</li><li><strong>Choice B &mdash; &lsquo;The more famous a person is, the more likely that person is to attract the attention of a historian.&rsquo;</strong>: Fame is never mentioned in the passage. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Maps are more practical to own than paintings.&rsquo;</strong>: The map and painting are a metaphor, not a literal comparison of practicality. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Historians' fidelity to the truth often results in work that is less engaging than it could be.&rsquo;</strong>: This directly captures the passage's contrast &mdash; the historian's map is accurate but cold, lacking the charm of a painting. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

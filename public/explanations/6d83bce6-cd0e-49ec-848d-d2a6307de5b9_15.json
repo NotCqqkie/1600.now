@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; '20'</strong>: 20% is the growth factor per 3 units, not per 6. &#10007;</li><li><strong>Choice B &mdash; '31'</strong>: No clean derivation; likely a misremembered approximation. &#10007;</li><li><strong>Choice C &mdash; '40'</strong>: Doubling 20 ignores compounding (20 + 20 = 40, but the correct answer compounds). &#10007;</li><li><strong>Choice D &mdash; '44'</strong>: (1.20)&sup2; = 1.44, a 44% increase. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;20&rsquo;</strong>: 20% is the growth factor per 3 units, not per 6. &#10007;</li><li><strong>Choice B &mdash; &lsquo;31&rsquo;</strong>: No clean derivation; likely a misremembered approximation. &#10007;</li><li><strong>Choice C &mdash; &lsquo;40&rsquo;</strong>: Doubling 20 ignores compounding (20 + 20 = 40, but the correct answer compounds). &#10007;</li><li><strong>Choice D &mdash; &lsquo;44&rsquo;</strong>: (1.20)&sup2; = 1.44, a 44% increase. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
     }
   ]
 }

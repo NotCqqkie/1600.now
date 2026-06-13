@@ -9,7 +9,7 @@
     },
     {
       "title": "Calculate the probability",
-      "content": "The probability that a randomly selected singer is a baritone is:<br/>$$P(\\text{baritone}) = \\frac{\\text{number of baritones}}{\\text{total singers}} = \\frac{10}{25} = \\frac{2}{5} = 0.4$$<br/>That matches choice B — <strong>B</strong> is correct."
+      "content": "The probability that a randomly selected singer is a baritone is:<br/>$$P(\\text{baritone}) = \\frac{\\text{number of baritones}}{\\text{total singers}} = \\frac{10}{25} = \\frac{2}{5} = 0.4$$<br/>That matches <strong>Choice B &mdash; 0.40</strong>."
     }
   ]
 }

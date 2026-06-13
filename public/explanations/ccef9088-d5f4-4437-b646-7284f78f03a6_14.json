@@ -1,1 +1,15 @@
-{"questionId":"ccef9088-d5f4-4437-b646-7284f78f03a6_14","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"This is a verb tense question (Form, Structure, and Sense). The time signal &quot;born in 1979&quot; pins the action to a specific, completed moment in the past. The correct verb must use simple past tense to match that past time marker."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &quot;was&quot;</strong>: simple past tense of &quot;be.&quot; Correctly marks a single completed event at a specific past time (&quot;in 1979&quot;). Matches the time signal exactly. &#10003;</li><li><strong>Choice B &mdash; &quot;has been&quot;</strong>: present perfect tense. Violates the simple-past rule: present perfect implies a connection to the present (&quot;has been and still is&quot;), but birth is a one-time past event with no present continuation. &#10007;</li><li><strong>Choice C &mdash; &quot;is&quot;</strong>: simple present tense. Contradicts &quot;in 1979,&quot; a past time marker. Simple present cannot be used with a completed past date. &#10007;</li><li><strong>Choice D &mdash; &quot;is being&quot;</strong>: present progressive tense. Describes an action in progress right now. Birth is an instantaneous past event, not an ongoing present action. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "ccef9088-d5f4-4437-b646-7284f78f03a6_14",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a verb tense question (Form, Structure, and Sense). The time signal &quot;born in 1979&quot; pins the action to a specific, completed moment in the past. The correct verb must use simple past tense to match that past time marker."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; was</strong>: simple past tense of &quot;be.&quot; Correctly marks a single completed event at a specific past time (&quot;in 1979&quot;). Matches the time signal exactly. &#10003;</li><li><strong>Choice B &mdash; has been</strong>: present perfect tense. Violates the simple-past rule: present perfect implies a connection to the present (&quot;has been and still is&quot;), but birth is a one-time past event with no present continuation. &#10007;</li><li><strong>Choice C &mdash; is</strong>: simple present tense. Contradicts &quot;in 1979,&quot; a past time marker. Simple present cannot be used with a completed past date. &#10007;</li><li><strong>Choice D &mdash; is being</strong>: present progressive tense. Describes an action in progress right now. Birth is an instantaneous past event, not an ongoing present action. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

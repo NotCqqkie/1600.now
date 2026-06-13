@@ -1,1 +1,15 @@
-{"questionId": "8622320e", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the linguistic signal", "content": "The first sentence uses the phrase <strong>“broadly speaking”</strong> to introduce a general claim about auroras and the Sun. This signals that specific details or mechanisms will follow immediately."}, {"title": "Match the transition to the signal", "content": "<strong>“Specifically”</strong> directly continues the <strong>“broadly speaking”</strong> language by introducing the precise mechanism of how the Sun causes auroras.<br/><br/>The other three introduce wrong relationships: <strong>“Similarly”</strong> suggests parallel information, <strong>“Nevertheless”</strong> signals contradiction, and <strong>“Hence”</strong> suggests a conclusion rather than explanation.<br/><br/>This matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "8622320e",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the linguistic signal",
+      "content": "The first sentence uses the phrase <strong>“broadly speaking”</strong> to introduce a general claim about auroras and the Sun. This signals that specific details or mechanisms will follow immediately."
+    },
+    {
+      "title": "Match the transition to the signal",
+      "content": "<strong>“Specifically”</strong> directly continues the <strong>“broadly speaking”</strong> language by introducing the precise mechanism of how the Sun causes auroras.<br/><br/>The other three introduce wrong relationships: <strong>“Similarly”</strong> suggests parallel information, <strong>“Nevertheless”</strong> signals contradiction, and <strong>“Hence”</strong> suggests a conclusion rather than explanation.<br/><br/>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

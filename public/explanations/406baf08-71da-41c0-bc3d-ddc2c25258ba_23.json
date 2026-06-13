@@ -1,1 +1,15 @@
-{"questionId":"406baf08-71da-41c0-bc3d-ddc2c25258ba_23","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence shifts from a fact (poisonous amphibians migrate during the day) to a mechanism (warning colors deter daytime predators). The transition must link the daytime context to that explanation."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'However'</strong>: signals a contradiction, but the second sentence explains rather than contradicts the first. &#10007;</li><li><strong>Choice B &mdash; 'At that time'</strong>: means &lsquo;in those circumstances,&rsquo; tying the daytime setting to how the amphibians survive in it. &#10003;</li><li><strong>Choice C &mdash; 'In other words'</strong>: restates an idea rather than explaining a mechanism. &#10007;</li><li><strong>Choice D &mdash; 'For example'</strong>: introduces an example, not a cause-and-effect explanation. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "406baf08-71da-41c0-bc3d-ddc2c25258ba_23",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence shifts from a fact (poisonous amphibians migrate during the day) to a mechanism (warning colors deter daytime predators). The transition must link the daytime context to that explanation."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — However,</strong>: signals a contradiction, but the second sentence explains rather than contradicts the first. &#10007;</li><li><strong>Choice B — At that time,</strong>: means &lsquo;in those circumstances,&rsquo; tying the daytime setting to how the amphibians survive in it. &#10003;</li><li><strong>Choice C — In other words,</strong>: restates an idea rather than explaining a mechanism. &#10007;</li><li><strong>Choice D — For example,</strong>: introduces an example, not a cause-and-effect explanation. &#10007;</li></ul><strong>B</strong> is correct."
+    }
+  ]
+}

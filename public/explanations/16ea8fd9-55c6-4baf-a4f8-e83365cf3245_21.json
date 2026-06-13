@@ -1,1 +1,15 @@
-{"questionId": "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_21", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The first sentence describes the 2022 World Cup with 32 teams from six continents.<br/><br/>The second sentence then discusses the 1954 World Cup with <strong>only 16 teams, mostly from Europe and the Americas</strong>.<br/><br/>The word <strong>“only”</strong> and the numerical difference signal a <strong>comparison between two historical periods</strong>."}, {"title": "Match the signal to the choices", "content": "<strong>“In contrast”</strong> directly marks this difference between a modern, globally diverse World Cup and an older, regionally limited one. <em>“In other words”</em> restates, <em>“For instance”</em> exemplifies a prior claim, and <em>“Therefore”</em> implies causality — none fit this type of historical comparison.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_21",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The first sentence describes the 2022 World Cup with 32 teams from six continents.<br/><br/>The second sentence then discusses the 1954 World Cup with <strong>only 16 teams, mostly from Europe and the Americas</strong>.<br/><br/>The word <strong>“only”</strong> and the numerical difference signal a <strong>comparison between two historical periods</strong>."
+    },
+    {
+      "title": "Match the signal to the choices",
+      "content": "<strong>“In contrast”</strong> directly marks this difference between a modern, globally diverse World Cup and an older, regionally limited one. <em>“In other words”</em> restates, <em>“For instance”</em> exemplifies a prior claim, and <em>“Therefore”</em> implies causality — none fit this type of historical comparison.<br/><br/>That matches <strong>Choice B &mdash; In contrast,</strong>."
+    }
+  ]
+}

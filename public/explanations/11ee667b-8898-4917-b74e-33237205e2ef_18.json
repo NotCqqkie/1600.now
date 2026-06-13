@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Set up the tangent inequality",
-      "content": "We know that for a right triangle, $\\tan\\theta = \\dfrac{\\text{opposite}}{\\text{adjacent}} = \\dfrac{22.7}{x}$. <br/> The law requires $\\tan\\theta \\le \\dfrac{1}{12}$, so $$\\dfrac{22.7}{x} \\le \\dfrac{1}{12}.$$ Since $x>0$, multiply both sides by $12x$: $$22.7 \\cdot 12 \\le x.$$ That simplifies to $x \\ge 272.4$."
+      "content": "We know that for a right triangle, $\\tan\\theta = \\dfrac{\\text{opposite}}{\\text{adjacent}} = \\dfrac{22.7}{x}$. <br/> The law requires $\\tan\\theta \\le \\dfrac{1}{12}$, so $$\\dfrac{22.7}{x} \\le \\dfrac{1}{12}.$$ Since $x\\gt 0$, multiply both sides by $12x$: $$22.7 \\cdot 12 \\le x.$$ That simplifies to $x \\ge 272.4$."
     },
     {
       "title": "Compute the least possible x",

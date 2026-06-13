@@ -1,1 +1,15 @@
-{"questionId":"8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_24","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The preceding sentence establishes a general fact: of 206 ticker-tape parades, &quot;a number were for achievements in aviation.&quot; The blank introduces the next sentence, which gives a specific example: Corrigan&apos;s parade was one of 16 honoring pilots. The transition must signal that this specific detail confirms or reinforces the general claim just made."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;In addition,&apos;</strong>: signals that separate or additional information follows &mdash; but Corrigan&apos;s parade is not a new point; it is evidence for the claim already made, so this transition is too weak. &#10007;</li><li><strong>Choice B &mdash; &apos;Therefore,&apos;</strong>: signals a logical consequence or conclusion &mdash; but the specific count of 16 aviation parades does not follow as a consequence of the general statement; it supports it. &#10007;</li><li><strong>Choice C &mdash; &apos;Indeed,&apos;</strong>: signals confirmation or reinforcement of a preceding claim &mdash; it tells the reader that what follows validates and strengthens what was just stated generally. &#10003;</li><li><strong>Choice D &mdash; &apos;Nevertheless,&apos;</strong>: signals contrast or a concession &mdash; but Corrigan&apos;s being one of 16 aviation honorees does not contradict the claim that some parades honored aviation; it agrees with it. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_24",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The preceding sentence establishes a general fact: of 206 ticker-tape parades, &quot;a number were for achievements in aviation.&quot; The blank introduces the next sentence, which gives a specific example: Corrigan&apos;s parade was one of 16 honoring pilots. The transition must signal that this specific detail confirms or reinforces the general claim just made."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; In addition,</strong>: signals that separate or additional information follows &mdash; but Corrigan&apos;s parade is not a new point; it is evidence for the claim already made, so this transition is too weak. &#10007;</li><li><strong>Choice B &mdash; Therefore,</strong>: signals a logical consequence or conclusion &mdash; but the specific count of 16 aviation parades does not follow as a consequence of the general statement; it supports it. &#10007;</li><li><strong>Choice C &mdash; Indeed,</strong>: signals confirmation or reinforcement of a preceding claim &mdash; it tells the reader that what follows validates and strengthens what was just stated generally. &#10003;</li><li><strong>Choice D &mdash; Nevertheless,</strong>: signals contrast or a concession &mdash; but Corrigan&apos;s being one of 16 aviation honorees does not contradict the claim that some parades honored aviation; it agrees with it. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

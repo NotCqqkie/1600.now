@@ -13,11 +13,11 @@
     },
     {
       "title": "Match the choice",
-      "content": "The value of $y$ is $31$, which matches choice <strong>D</strong>."
+      "content": "The value of $y$ is $31$, which matches <strong>D</strong>."
     },
     {
       "title": "Keep x and y separate",
-      "content": "Choice B gives the value of $x$, not $y$. The question asks for $y$, so after using $x=10$, the second equation must still be evaluated to get $31$."
+      "content": "The correct answer gives the value of $x$, not $y$. The question asks for $y$, so after using $x=10$, the second equation must still be evaluated to get $31$."
     }
   ]
 }

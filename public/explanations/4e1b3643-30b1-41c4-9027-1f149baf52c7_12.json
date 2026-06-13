@@ -9,7 +9,7 @@
     },
     {
       "title": "Solve for the y-intercept and write the equation",
-      "content": "Use $y=mx+b$ with $m=-\\frac{1}{2}$ and point $(6,4)$:<br/>$$4=-\\frac{1}{2}(6)+b$$<br/>$$4=-3+b$$<br/>$$b=7$$<br/>The equation is $$y=-\\frac{x}{2}+7.$$ That matches choice D, so <strong>D</strong> is correct."
+      "content": "Use $y=mx+b$ with $m=-\\frac{1}{2}$ and point $(6,4)$:<br/>$$4=-\\frac{1}{2}(6)+b$$<br/>$$4=-3+b$$<br/>$$b=7$$<br/>The equation is $$y=-\\frac{x}{2}+7.$$ This matches, so <strong>D</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId": "e11af9a4-0499-4c66-b721-ff21024ff5d1_5", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the logical trigger in the 'too...to' construction", "content": "The key signal is the phrase “economic issues cannot remain the domain only of experts” combined with “too ______ to leave to economists alone.” This structure means: because economics has a certain property, it cannot be confined to experts—the public must be involved.<br/><br/>What property would make something too important for experts to monopolize?"}, {"title": "Match the meaning to the choices", "content": "Critical (essential/crucial to a functioning democracy) fits the logic: if economics is too important, the public must understand it and experts cannot have sole control.<br/><br/>The other three fail: complex would suggest experts should handle it more, while respectable and accessible don't explain why public involvement is necessary.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "e11af9a4-0499-4c66-b721-ff21024ff5d1_5",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the logical trigger in the 'too...to' construction",
+      "content": "The key signal is the phrase “economic issues cannot remain the domain only of experts” combined with “too ______ to leave to economists alone.” This structure means: because economics has a certain property, it cannot be confined to experts—the public must be involved.<br/><br/>What property would make something too important for experts to monopolize?"
+    },
+    {
+      "title": "Match the meaning to the choices",
+      "content": "Critical (essential/crucial to a functioning democracy) fits the logic: if economics is too important, the public must understand it and experts cannot have sole control.<br/><br/>The other three fail: complex would suggest experts should handle it more, while respectable and accessible don't explain why public involvement is necessary.<br/><br/>That matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

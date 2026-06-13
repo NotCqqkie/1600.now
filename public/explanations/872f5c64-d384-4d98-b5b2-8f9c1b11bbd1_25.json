@@ -1,1 +1,15 @@
-{"questionId": "872f5c64-d384-4d98-b5b2-8f9c1b11bbd1_25", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify which works the notes call most famous", "content": "The notes explicitly identify E.M. Forster's most famous novels as <em>A Room with a View</em> (1908) and <em>Howards End</em> (1910). To provide a specific example of one of his most famous works, the answer must reference one of these two novels."}, {"title": "Find the choice that names one of these famous works", "content": "Choice C identifies <em>A Room with a View</em> and calls it &quot;one of E.M. Forster&apos;s most famous works,&quot; which matches the notes exactly. The other choices fail: Choice A gives only general biographical information about Forster without naming a specific famous work. Choices B and D reference &quot;Albergo Empedocle,&quot; which the notes identify as his first published work &mdash; not one of his most famous.<br/>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "872f5c64-d384-4d98-b5b2-8f9c1b11bbd1_25",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify which works the notes call most famous",
+      "content": "The notes explicitly identify E.M. Forster's most famous novels as <em>A Room with a View</em> (1908) and <em>Howards End</em> (1910). To provide a specific example of one of his most famous works, the answer must reference one of these two novels."
+    },
+    {
+      "title": "Find the choice that names one of these famous works",
+      "content": "The correct choice identifies <em>A Room with a View</em> and calls it &quot;one of E.M. Forster&apos;s most famous works,&quot; which matches the notes exactly. The general statement that E.M. Forster was an acclaimed novelist does not name a specific famous work. The answers about &quot;Albergo Empedocle&quot; reference the work the notes identify as his first published fiction, not one of his most famous novels.<br/>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

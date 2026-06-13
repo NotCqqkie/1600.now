@@ -1,1 +1,19 @@
-{"section":"Reading and Writing","correctAnswer":"B","steps":[{"title":"Question type","content":"Word-in-context vocabulary. Setup: binary-star conditions make planet formation &quot;nearly impossible,&quot; so it's &quot;not surprising&quot; that explanation has been lacking. Rafikov and Silsbee finally provided one using a &quot;complex set of factors.&quot; The blank describes the kind of explanation that has been missing."},{"title":"Reasoning","content":"Because the eventual explanation is complex, what had been missing is a simple/easy one. &quot;Straightforward&quot; (simple, uncomplicated) fits the contrast."},{"title":"Per-choice elimination","content":"<ul><li><strong>Choice A &mdash; 'a discernible'</strong>: would mean no detectable explanation existed at all, but the passage implies explanations have been attempted &mdash; just not simple ones. Too strong/wrong nuance. &#10007;</li><li><strong>Choice C &mdash; 'an inconclusive'</strong>: saying it &quot;lacked an inconclusive explanation&quot; would mean inconclusive explanations were missing, the opposite of what's meant. &#10007;</li><li><strong>Choice D &mdash; 'an unbiased'</strong>: bias is never discussed; nothing suggests prior explanations were partial or prejudiced. Out of scope. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "5dce6cab",
+  "section": "Reading and Writing",
+  "correctAnswer": "B",
+  "steps": [
+    {
+      "title": "Question type",
+      "content": "Word-in-context vocabulary. Setup: binary-star conditions make planet formation &quot;nearly impossible,&quot; so it's &quot;not surprising&quot; that explanation has been lacking. Rafikov and Silsbee finally provided one using a &quot;complex set of factors.&quot; The blank describes the kind of explanation that has been missing."
+    },
+    {
+      "title": "Reasoning",
+      "content": "Because the eventual explanation is complex, what had been missing is a simple/easy one. &quot;Straightforward&quot; (simple, uncomplicated) fits the contrast."
+    },
+    {
+      "title": "Per-choice elimination",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;a discernible&rsquo;</strong>: would mean no detectable explanation existed at all, but the passage implies explanations have been attempted &mdash; just not simple ones. Too strong/wrong nuance. &#10007;</li><li><strong>Choice C &mdash; &lsquo;an inconclusive&rsquo;</strong>: saying it &quot;lacked an inconclusive explanation&quot; would mean inconclusive explanations were missing, the opposite of what's meant. &#10007;</li><li><strong>Choice D &mdash; &lsquo;an unbiased&rsquo;</strong>: bias is never discussed; nothing suggests prior explanations were partial or prejudiced. Out of scope. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

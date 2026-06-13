@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice A is $\\frac{16}{17}$, so it is correct. Choice B reverses the fraction, choice C is the numerator only, and choice D is the input value only."
+      "content": "$\\frac{16}{17}$ is correct. Reversing the fraction, using the numerator only, or using the input value only would not give the requested ratio."
     }
   ]
 }

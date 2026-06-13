@@ -1,1 +1,15 @@
-{"questionId":"112a6b4d-d9f5-46f3-9367-da2e729b54fe_27","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks for an opening to a narration about <em>Wulffa maculata</em>&rsquo;s collection. The opening must focus on that specific specimen &mdash; not comparisons with other plants or general information about Mex&iacute;a&rsquo;s broader work."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; narrates the specific moment Mex&iacute;a collected <em>Wulffa maculata</em></strong>: gives the date, location, and family classification, anchoring that specimen as the clear center of the narrative. &#10003;</li><li><strong>Choice B &mdash; introduces a second specimen</strong>: shifts focus away from <em>Wulffa maculata</em> to a different plant. &#10007;</li><li><strong>Choice C &mdash; reframes the specimen as a comparison</strong>: makes another plant the reference point rather than centering <em>Wulffa maculata</em>. &#10007;</li><li><strong>Choice D &mdash; discusses where specimens are now stored</strong>: moves attention to present-day storage rather than the moment of collection. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_27",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks for an opening to a narration about <em>Wulffa maculata</em>&rsquo;s collection. The opening must focus on that specific specimen &mdash; not comparisons with other plants or general information about Mex&iacute;a&rsquo;s broader work."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; It was on January 25, 1930, in the state of Minas Gerais, that Ynés Mexía added a new specimen to her growing collection of botanical samples: *Wulffa maculata* of the Asteraceae family.</strong>: gives the date, location, and family classification, anchoring that specimen as the clear center of the narrative. &#10003;</li><li><strong>Choice B &mdash; Ynés Mexía collected a sample of *Wulffa maculata* in January of 1930 and *Senecio chapalensis* in January of 1927.</strong>: shifts focus away from <em>Wulffa maculata</em> to a different plant. &#10007;</li><li><strong>Choice C &mdash; While both specimens collected by Ynés Mexía are members of the Asteraceae family, *Wulffa maculata* was collected in Minas Gerais, Brazil, and *Senecio chapalensis* was collected in Jalisco, Mexico.</strong>: makes another plant the reference point rather than centering <em>Wulffa maculata</em>. &#10007;</li><li><strong>Choice D &mdash; Thousands of botanical samples collected from across the Americas by Ynés Mexía can now be found in one place: online at the CV. Starr Virtual Herbarium.</strong>: moves attention to present-day storage rather than the moment of collection. &#10007;</li></ul>That matches <strong>Choice A &mdash; It was on January 25, 1930, in the state of Minas Gerais, that Ynés Mexía added a new specimen to her growing collection of botanical samples: *Wulffa maculata* of the Asteraceae family.</strong>."
+    }
+  ]
+}

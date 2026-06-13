@@ -1,1 +1,15 @@
-{"questionId":"69d5bd5d-08fd-46f5-9c5d-266b2e358bce_2","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The poem describes a sail and sailor waiting for the west wind before they can move. The blank replaces &apos;idle&apos; &mdash; find the word that best captures that state of non-activity."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;Inactive&apos;</strong>: means not in operation or doing nothing. A sail and sailor waiting for wind are inactive &mdash; not yet moving. &#10003;</li><li><strong>Choice B &mdash; &apos;Unsupported&apos;</strong>: means lacking backing or structural support. Nothing in the poem suggests the sail lacks support. &#10007;</li><li><strong>Choice C &mdash; &apos;Ridiculous&apos;</strong>: means absurd or worthy of mockery. The poem conveys patient waiting, not absurdity. &#10007;</li><li><strong>Choice D &mdash; &apos;Untrustworthy&apos;</strong>: means unreliable. The poem makes no judgment about the sail&apos;s dependability. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_2",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The poem describes a sail and sailor waiting for the west wind before they can move. The blank replaces &apos;idle&apos; &mdash; find the word that best captures that state of non-activity."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Inactive&rsquo;</strong>: means not in operation or doing nothing. A sail and sailor waiting for wind are inactive &mdash; not yet moving. &#10003;</li><li><strong>Choice B &mdash; &lsquo;Unsupported&rsquo;</strong>: means lacking backing or structural support. Nothing in the poem suggests the sail lacks support. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Ridiculous&rsquo;</strong>: means absurd or worthy of mockery. The poem conveys patient waiting, not absurdity. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Untrustworthy&rsquo;</strong>: means unreliable. The poem makes no judgment about the sail&apos;s dependability. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

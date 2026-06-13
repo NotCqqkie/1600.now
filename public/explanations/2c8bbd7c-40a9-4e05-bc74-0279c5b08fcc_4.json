@@ -9,11 +9,11 @@
     },
     {
       "title": "Solve for x",
-      "content": "Multiply both sides by $-30$: $x+2=150$, so $x=148$. That matches choice <strong>C</strong> &mdash; <strong>C</strong> is correct."
+      "content": "Multiply both sides by $-30$: $x+2=150$, so $x=148$. <strong>C</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice C, 148, and the other choices fail the same setup or substitution. Therefore <strong>C</strong> is correct."
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches the correct answer, 148, and the other choices fail the same setup or substitution. Therefore <strong>C</strong> is correct."
     }
   ]
 }

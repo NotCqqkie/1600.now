@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "The Desmos expressions below graph the four candidate lines so you can compare each one to the scatterplot. Choice D has the right slope but a $y$-intercept of $0$, which puts the line too low for small house sizes. Choice A is much too steep, and choice C is too flat. Choice B has slope $100$ and intercept $100$, matching the center of the data cloud. Therefore choice <strong>B</strong> is correct.",
+      "content": "The Desmos expressions below graph the four candidate lines so you can compare each one to the scatterplot. Choice D (&lsquo;$y = 100x$&rsquo;) has the right slope but a $y$-intercept of $0$, which puts the line too low for small house sizes. Choice A (&lsquo;$y = 200x + 100$&rsquo;) is much too steep, and choice C (&lsquo;$y = 50x + 100$&rsquo;) is too flat. Choice B (&lsquo;$y = 100x + 100$&rsquo;) has slope $100$ and intercept $100$, matching the center of the data cloud. Therefore <strong>B</strong> is correct.",
       "desmosExpressions": [
         "y=200x+100",
         "y=100x+100",

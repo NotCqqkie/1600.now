@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply zero product property and count distinct roots",
-      "content": "By the zero product property, when a product equals zero, at least one factor must equal zero. Each distinct factor gives a root: <ul><li>$x = 0$ (from factor $x$)</li><li>$x = 10$ (from factor $(x-10)^2$)</li><li>$x = 11$ (from factor $(x-11)^3$)</li></ul> We have three distinct solutions. Each corresponds to one $x$-intercept on the graph. That matches choice D — <strong>D</strong> is correct.",
+      "content": "By the zero product property, when a product equals zero, at least one factor must equal zero. Each distinct factor gives a root: <ul><li>$x = 0$ (from factor $x$)</li><li>$x = 10$ (from factor $(x-10)^2$)</li><li>$x = 11$ (from factor $(x-11)^3$)</li></ul> We have three distinct solutions. Each corresponds to one $x$-intercept on the graph. That matches the correct answer — <strong>D</strong> is correct.",
       "desmosExpressions": [
         "y = x(x - 10)^{2}(x - 11)^{3}"
       ]

@@ -1,1 +1,15 @@
-{"questionId": "1c36e3e1", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the blank must signal", "content": "The passage introduces 180 sunspots in November 2001, then uses the blank to introduce a contrasting example: 2 sunspots in December 2008. These are opposite extremes &mdash; high versus low &mdash; that together prove sunspot numbers &quot;can vary greatly.&quot; The blank must signal a contrast or comparison between two data points."}, {"title": "Eliminate wrong choices and confirm the answer", "content": "<ul><li><strong>Choice A &mdash; 'In other words,'</strong>: signals restatement, implying the second example says the same thing as the first in different words. Two opposite numbers are not a restatement &mdash; wrong logical relationship. &#10007;</li><li><strong>Choice B &mdash; 'Similarly,'</strong>: signals equivalence or parallel similarity. Placing a near-zero count next to a 180-count as &quot;similar&quot; contradicts the passage&apos;s point about variation. &#10007;</li><li><strong>Choice C &mdash; 'Therefore,'</strong>: signals a causal result. The low 2008 count is not caused by the high 2001 count &mdash; wrong logical relationship. &#10007;</li><li><strong>Choice D &mdash; 'By comparison,'</strong>: signals a direct contrast between two data points, which is exactly the structure the sentence requires to show the range of variation. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "1c36e3e1",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the blank must signal",
+      "content": "The passage introduces 180 sunspots in November 2001, then uses the blank to introduce a contrasting example: 2 sunspots in December 2008. These are opposite extremes &mdash; high versus low &mdash; that together prove sunspot numbers &quot;can vary greatly.&quot; The blank must signal a contrast or comparison between two data points."
+    },
+    {
+      "title": "Eliminate wrong choices and confirm the answer",
+      "content": "<ul><li><strong>Choice A &mdash; In other words,</strong>: signals restatement, implying the second example says the same thing as the first in different words. Two opposite numbers are not a restatement &mdash; wrong logical relationship. &#10007;</li><li><strong>Choice B &mdash; Similarly,</strong>: signals equivalence or parallel similarity. Placing a near-zero count next to a 180-count as &quot;similar&quot; contradicts the passage&apos;s point about variation. &#10007;</li><li><strong>Choice C &mdash; Therefore,</strong>: signals a causal result. The low 2008 count is not caused by the high 2001 count &mdash; wrong logical relationship. &#10007;</li><li><strong>Choice D &mdash; By comparison,</strong>: signals a direct contrast between two data points, which is exactly the structure the sentence requires to show the range of variation. &#10003;</li></ul>That matches <strong>Choice D &mdash; By comparison,</strong>."
+    }
+  ]
+}

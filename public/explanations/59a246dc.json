@@ -1,1 +1,15 @@
-{"questionId": "59a246dc", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structures", "content": "Before the blank: a transitive verb 'used' with determiner 'the' and adjective 'chemical' requires an object noun. After the blank: an infinitive phrase of purpose ('to make a glassy solid') directly follows. The blank must contain the object noun or noun phrase."}, {"title": "Apply the punctuation rule", "content": "In Standard English, you don't place a comma between a noun or noun phrase and a following infinitive of purpose.<br/><br/>Option D follows this rule by joining 'compound' and 'aluminum oxide' as a single noun phrase, avoiding any comma before 'to make.' The others either place a comma before 'to' (B, C) or fail to properly close an appositive (A).<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "59a246dc",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures",
+      "content": "Before the blank: a transitive verb 'used' with determiner 'the' and adjective 'chemical' requires an object noun. After the blank: an infinitive phrase of purpose ('to make a glassy solid') directly follows. The blank must contain the object noun or noun phrase."
+    },
+    {
+      "title": "Apply the punctuation rule",
+      "content": "In Standard English, you don't place a comma between a noun or noun phrase and a following infinitive of purpose.<br/><br/>The correct option follows this rule by joining 'compound' and 'aluminum oxide' as a single noun phrase, avoiding any comma before 'to make.' The others either place a comma before 'to' or fail to properly close an appositive.<br/><br/>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,19 @@
-{"questionId": "637d0878", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the goal of the act", "content": "The sentence ends &quot;ensuring that the trail would not be sold or commercially developed.&quot; Congress passed the act to keep the wilderness areas safe from sale and development. The blank needs a verb that means &quot;keep safe from harm.&quot;"}, {"title": "Match the meaning", "content": "&quot;Protect&quot; means to shield from harm or loss &mdash; exactly what preventing sale and commercial development does for the wilderness areas."}, {"title": "Eliminate by rule", "content": "<ul><li><strong>Choice A &mdash; &apos;borrow&apos;</strong>: means to take temporarily, which has nothing to do with shielding land from development. Misread of the purpose. &#10007;</li><li><strong>Choice B &mdash; &apos;postpone&apos;</strong>: means to delay an event, but the text does not describe any scheduled event being pushed back &mdash; it describes ongoing safeguarding. Misread. &#10007;</li><li><strong>Choice C &mdash; &apos;protect&apos;</strong>: directly captures &quot;keep from being sold or commercially developed.&quot; &#10003;</li><li><strong>Choice D &mdash; &apos;decorate&apos;</strong>: means to add ornament, which is unrelated to preventing commercial use. Overreach to a meaning the text does not support. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "637d0878",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the goal of the act",
+      "content": "The sentence ends &quot;ensuring that the trail would not be sold or commercially developed.&quot; Congress passed the act to keep the wilderness areas safe from sale and development. The blank needs a verb that means &quot;keep safe from harm.&quot;"
+    },
+    {
+      "title": "Match the meaning",
+      "content": "&quot;Protect&quot; means to shield from harm or loss &mdash; exactly what preventing sale and commercial development does for the wilderness areas."
+    },
+    {
+      "title": "Eliminate by rule",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;borrow&rsquo;</strong>: means to take temporarily, which has nothing to do with shielding land from development. Misread of the purpose. &#10007;</li><li><strong>Choice B &mdash; &lsquo;postpone&rsquo;</strong>: means to delay an event, but the text does not describe any scheduled event being pushed back &mdash; it describes ongoing safeguarding. Misread. &#10007;</li><li><strong>Choice C &mdash; &lsquo;protect&rsquo;</strong>: directly captures &quot;keep from being sold or commercially developed.&quot; &#10003;</li><li><strong>Choice D &mdash; &lsquo;decorate&rsquo;</strong>: means to add ornament, which is unrelated to preventing commercial use. Overreach to a meaning the text does not support. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -9,7 +9,7 @@
     },
     {
       "title": "Solve for when the object hits the ground",
-      "content": "The object hits the ground when $h(t) = 0$. Set up the equation:<br/>$$-16t^2 + 3,364 = 0$$<br/>Divide both sides by $-16$:<br/>$$t^2 = \\frac{3,364}{16} = 210.25$$<br/>Take the positive square root (since time is positive):<br/>$$t = \\sqrt{210.25} = 14.50 \\text{ seconds}$$<br/>This matches choice B — <strong>B</strong> is correct."
+      "content": "The object hits the ground when $h(t) = 0$. Set up the equation:<br/>$$-16t^2 + 3,364 = 0$$<br/>Divide both sides by $-16$:<br/>$$t^2 = \\frac{3,364}{16} = 210.25$$<br/>Take the positive square root (since time is positive):<br/>$$t = \\sqrt{210.25} = 14.50 \\text{ seconds}$$<br/>This matches the correct answer — <strong>B</strong> is correct."
     }
   ]
 }

@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice D is $V(x)=9x(x-7)$, so choice <strong>D</strong> is correct. Choice C uses $x+7$, which reverses the relationship between length and width."
+      "content": "$V(x)=9x(x-7)$, so <strong>D</strong> is correct. Using $x+7$, which reverses the relationship between length and width."
     }
   ]
 }

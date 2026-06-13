@@ -1,1 +1,15 @@
-{"questionId":"91ff0c6a-268b-4d8b-9642-b9fb25a907b4_20","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank is the object of \"prevent ___ from joining the ranks of the extinct.\" It refers back to \"many even-toed ungulates\" — a plural noun — so the pronoun must be plural and function as a direct object (not possessive)."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'the animal'</strong>: Singular. \"Many even-toed ungulates\" is plural; using a singular noun misrepresents the antecedent. &#10007;</li><li><strong>Choice B &mdash; 'these animals'</strong>: Plural and non-possessive. Correctly refers back to \"many even-toed ungulates\" and fills the object slot — \"prevent these animals from joining.\" &#10003;</li><li><strong>Choice C &mdash; 'this animal's'</strong>: Singular and possessive. Both flaws apply: it mismatches the plural antecedent and a possessive cannot serve as the direct object of \"prevent.\" &#10007;</li><li><strong>Choice D &mdash; 'these animals''</strong>: Plural but possessive. A possessive cannot be a direct object — \"prevent these animals' from joining\" is ungrammatical. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "91ff0c6a-268b-4d8b-9642-b9fb25a907b4_20",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank is the object of \"prevent ___ from joining the ranks of the extinct.\" It refers back to \"many even-toed ungulates\" — a plural noun — so the pronoun must be plural and function as a direct object (not possessive)."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; the animal</strong>: Singular. \"Many even-toed ungulates\" is plural; using a singular noun misrepresents the antecedent. &#10007;</li><li><strong>Choice B &mdash; these animals</strong>: Plural and non-possessive. Correctly refers back to \"many even-toed ungulates\" and fills the object slot — \"prevent these animals from joining.\" &#10003;</li><li><strong>Choice C &mdash; this animal's</strong>: Singular and possessive. Both flaws apply: it mismatches the plural antecedent and a possessive cannot serve as the direct object of \"prevent.\" &#10007;</li><li><strong>Choice D &mdash; these animals'</strong>: Plural but possessive. A possessive cannot be a direct object — \"prevent these animals' from joining\" is ungrammatical. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

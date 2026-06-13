@@ -8,7 +8,7 @@ import {
   buildFaqJsonLd,
 } from "@/components/seo/PageSeo";
 import { scoreGoalBySlug } from "@/lib/seo-data/scoreGoalData";
-import { getScoreProfile, allSatScores } from "@/lib/seo-data/satScoreData";
+import { getScoreProfile } from "@/lib/seo-data/satScoreData";
 
 const SCORE_GOAL_PUBLISHED = "2026-04-01";
 
@@ -163,27 +163,31 @@ const ScoreGoalPage = () => {
 
         <section className="mt-10">
           <h2 className="text-2xl font-semibold tracking-tight">
-            Other score targets
+            Turn this target into practice
           </h2>
           <ul className="mt-3 flex flex-wrap gap-2">
-            {[score - 100, score - 50, score + 50, score + 100]
-              .filter((targetScore) => allSatScores.includes(targetScore))
-              .map((targetScore) => (
-                <li key={targetScore}>
-                  <Link
-                    to={`/how-to-get-${targetScore}-sat`}
-                    className="inline-block rounded-lg border border-border px-3 py-1.5 text-sm hover:bg-muted"
-                  >
-                    How to get a {targetScore}
-                  </Link>
-                </li>
-              ))}
             <li>
               <Link
-                to={`/sat-score/${score}`}
+                to="/score-calculator"
                 className="inline-block rounded-lg border border-border px-3 py-1.5 text-sm hover:bg-muted"
               >
-                {score} score profile
+                Model your current score
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/modules"
+                className="inline-block rounded-lg border border-border px-3 py-1.5 text-sm hover:bg-muted"
+              >
+                Take a timed module
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/bank"
+                className="inline-block rounded-lg border border-border px-3 py-1.5 text-sm hover:bg-muted"
+              >
+                Drill weak skills
               </Link>
             </li>
           </ul>
@@ -255,9 +259,9 @@ const ScoreGoalPage = () => {
             </li>
             <li>
               They use the Desmos graphing calculator to verify algebra
-              answers. Read the{" "}
-              <Link className="underline" to="/desmos-sat-guide">
-                Desmos SAT guide
+              answers. Practice calculator-friendly questions in the{" "}
+              <Link className="underline" to="/bank/math/browse">
+                SAT Math bank
               </Link>
               .
             </li>
@@ -366,19 +370,33 @@ const ScoreGoalPage = () => {
 
         <section className="mt-10">
           <h2 className="text-2xl font-semibold tracking-tight">
-            Score targets by percentile
+            Put your percentile target into practice
           </h2>
           <ul className="mt-3 flex flex-wrap gap-2">
-            {[1200, 1300, 1400, 1500, 1550, 1600].map((targetScore) => (
-              <li key={targetScore}>
-                <Link
-                  to={`/how-to-get-${targetScore}-sat`}
-                  className="inline-block rounded-lg border border-border px-3 py-1.5 text-sm hover:bg-muted"
-                >
-                  How to get a {targetScore}
-                </Link>
-              </li>
-            ))}
+            <li>
+              <Link
+                to="/score-calculator"
+                className="inline-block rounded-lg border border-border px-3 py-1.5 text-sm hover:bg-muted"
+              >
+                Model a target score
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/what-sat-score-do-i-need"
+                className="inline-block rounded-lg border border-border px-3 py-1.5 text-sm hover:bg-muted"
+              >
+                Compare college ranges
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/modules"
+                className="inline-block rounded-lg border border-border px-3 py-1.5 text-sm hover:bg-muted"
+              >
+                Take a timed module
+              </Link>
+            </li>
           </ul>
         </section>
       </>
@@ -448,19 +466,33 @@ const ScoreGoalPage = () => {
 
         <section className="mt-10">
           <h2 className="text-2xl font-semibold tracking-tight">
-            Common score targets
+            Set a realistic score target
           </h2>
           <ul className="mt-3 flex flex-wrap gap-2">
-            {[1100, 1200, 1300, 1400, 1500].map((targetScore) => (
-              <li key={targetScore}>
-                <Link
-                  to={`/how-to-get-${targetScore}-sat`}
-                  className="inline-block rounded-lg border border-border px-3 py-1.5 text-sm hover:bg-muted"
-                >
-                  How to get a {targetScore}
-                </Link>
-              </li>
-            ))}
+            <li>
+              <Link
+                to="/score-calculator"
+                className="inline-block rounded-lg border border-border px-3 py-1.5 text-sm hover:bg-muted"
+              >
+                Estimate your current score
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/what-sat-score-do-i-need"
+                className="inline-block rounded-lg border border-border px-3 py-1.5 text-sm hover:bg-muted"
+              >
+                Find college target ranges
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/bank"
+                className="inline-block rounded-lg border border-border px-3 py-1.5 text-sm hover:bg-muted"
+              >
+                Start targeted practice
+              </Link>
+            </li>
           </ul>
         </section>
       </>
@@ -503,6 +535,40 @@ const ScoreGoalPage = () => {
       </header>
 
       {body}
+
+      <section className="mt-12">
+        <h2 className="text-2xl font-semibold tracking-tight">
+          How to turn this score target into a weekly plan
+        </h2>
+        <div className="mt-4 overflow-x-auto rounded-lg border border-border">
+          <table className="w-full min-w-[560px] text-left text-sm">
+            <thead className="bg-muted/70">
+              <tr>
+                <th className="px-4 py-3 font-semibold">Weekly check</th>
+                <th className="px-4 py-3 font-semibold">What it tells you</th>
+                <th className="px-4 py-3 font-semibold">Next move</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="border-t border-border">
+                <td className="px-4 py-3 text-muted-foreground">Section split</td>
+                <td className="px-4 py-3 text-muted-foreground">Whether Math or Reading and Writing is limiting the total.</td>
+                <td className="px-4 py-3 text-muted-foreground">Drill the weaker section before another full module.</td>
+              </tr>
+              <tr className="border-t border-border">
+                <td className="px-4 py-3 text-muted-foreground">Miss pattern</td>
+                <td className="px-4 py-3 text-muted-foreground">Which skills repeat across practice sets.</td>
+                <td className="px-4 py-3 text-muted-foreground">Create a narrow bank set for the repeated skill.</td>
+              </tr>
+              <tr className="border-t border-border">
+                <td className="px-4 py-3 text-muted-foreground">Timed-module score</td>
+                <td className="px-4 py-3 text-muted-foreground">Whether drills are transferring under real pacing.</td>
+                <td className="px-4 py-3 text-muted-foreground">Keep the plan if timing improves; narrow it if misses repeat.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
 
       <section className="mt-12">
         <h2 className="text-2xl font-semibold tracking-tight">FAQs</h2>

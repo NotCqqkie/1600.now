@@ -1,1 +1,15 @@
-{"questionId":"5fe11073-c749-47d4-9e43-2addecd1932f_7","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage introduces the energy ladder model as a widely accepted explanation, then uses &apos;however&apos; and &apos;reductive&apos; to signal disagreement. The main purpose is to push back on that model."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; challenging a common explanation</strong>: directly names the passage&apos;s purpose &mdash; contesting the energy ladder model. &#10003;</li><li><strong>Choice B &mdash; comparing countries</strong>: the passage is not organized around a country-to-country comparison. &#10007;</li><li><strong>Choice C &mdash; reversing causation</strong>: mischaracterizes the argument; the passage questions the model&apos;s simplicity, not its causal direction. &#10007;</li><li><strong>Choice D &mdash; describing a price-based model</strong>: the passage critiques choice models, not a model about prices specifically. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "5fe11073-c749-47d4-9e43-2addecd1932f_7",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage introduces the energy ladder model as a widely accepted explanation, then uses &apos;however&apos; and &apos;reductive&apos; to signal disagreement. The main purpose is to push back on that model."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;To challenge a common explanation for households' fuel choices.&rsquo;</strong>: directly names the passage&apos;s purpose &mdash; contesting the energy ladder model. &#10003;</li><li><strong>Choice B &mdash; &lsquo;To contrast patterns in household fuel use in two countries.&rsquo;</strong>: the passage is not organized around a country-to-country comparison. &#10007;</li><li><strong>Choice C &mdash; &lsquo;To account for the effect of fuel use on household income.&rsquo;</strong>: mischaracterizes the argument; the passage questions the model&apos;s simplicity, not its causal direction. &#10007;</li><li><strong>Choice D &mdash; &lsquo;To critique a frequently used model of changes in household fuel prices.&rsquo;</strong>: the passage critiques choice models, not a model about prices specifically. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -3,9 +3,21 @@
   "correctAnswer": "C",
   "section": "Math",
   "steps": [
-    "The triangle has three sides: one labeled $x$ inches and two labeled $y$ inches each.",
-    "Perimeter = sum of all three sides: $x + y + y = x + 2y$.",
-    "Set equal to 69: $x + 2y = 69$.",
-    "<ul><li><strong>Choice A &mdash; '$x+y=69$'</strong>: Accounts for only two sides (one $x$ and one $y$), missing the second $y$ side. &#10007;</li><li><strong>Choice B &mdash; '$2x+y=69$'</strong>: Would require two sides of length $x$, but the triangle has only one. &#10007;</li><li><strong>Choice C &mdash; '$x+2y=69$'</strong>: One side of $x$ plus two sides of $y$ gives $x + 2y = 69$. &#10003;</li><li><strong>Choice D &mdash; '$2x+2y=69$'</strong>: Would require two sides of length $x$, but the triangle has only one. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    {
+      "title": "Step 1",
+      "content": "The triangle has three sides: one labeled $x$ inches and two labeled $y$ inches each."
+    },
+    {
+      "title": "Step 2",
+      "content": "Perimeter = sum of all three sides: $x + y + y = x + 2y$."
+    },
+    {
+      "title": "Step 3",
+      "content": "Set equal to 69: $x + 2y = 69$."
+    },
+    {
+      "title": "Step 4",
+      "content": "<ul><li><strong>Choice A &mdash; $x+y=69$</strong>: Accounts for only two sides (one $x$ and one $y$), missing the second $y$ side. &#10007;</li><li><strong>Choice B &mdash; $2x+y=69$</strong>: Would require two sides of length $x$, but the triangle has only one. &#10007;</li><li><strong>Choice C &mdash; $x+2y=69$</strong>: One side of $x$ plus two sides of $y$ gives $x + 2y = 69$. &#10003;</li><li><strong>Choice D &mdash; $2x+2y=69$</strong>: Would require two sides of length $x$, but the triangle has only one. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
   ]
 }

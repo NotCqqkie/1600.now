@@ -1,1 +1,15 @@
-{"questionId": "4dc81965-4d7d-41a3-a149-fdc37cafa647_20", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Locate the subject that the verb must agree with", "content": "The subject is <strong>Jessie Redmon Fausetʼs contributions</strong> — a plural noun. The blank is where the main clause verb needs to go."}, {"title": "Apply subject-verb agreement", "content": "A finite verb must agree in number with its subject. <strong>Have been revisited</strong> matches the plural subject with its plural auxiliary <strong>have</strong>.<br/><br/>The other choices either fail to use a plural form, lack a finite auxiliary, or use a non-finite structure.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "4dc81965-4d7d-41a3-a149-fdc37cafa647_20",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the subject that the verb must agree with",
+      "content": "The subject is <strong>Jessie Redmon Fausetʼs contributions</strong> — a plural noun. The blank is where the main clause verb needs to go."
+    },
+    {
+      "title": "Apply subject-verb agreement",
+      "content": "A finite verb must agree in number with its subject. <strong>Have been revisited</strong> matches the plural subject with its plural auxiliary <strong>have</strong>.<br/><br/>The other choices either fail to use a plural form, lack a finite auxiliary, or use a non-finite structure.<br/><br/><strong>B</strong> is correct."
+    }
+  ]
+}

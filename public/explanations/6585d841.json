@@ -9,7 +9,7 @@
     },
     {
       "title": "Convert to standard form and find the radius",
-      "content": "Substitute the completed squares:<br/>$$(x+7)^2 - 49 + (y-3)^2 - 9 = 109$$<br/>Move constants to the right side:<br/>$$(x+7)^2 + (y-3)^2 = 109 + 49 + 9 = 167$$<br/>This matches the standard form for a circle with $r^2 = 167$. Therefore, $r = \\sqrt{167}$. That matches choice C — <strong>C</strong> is correct."
+      "content": "Substitute the completed squares:<br/>$$(x+7)^2 - 49 + (y-3)^2 - 9 = 109$$<br/>Move constants to the right side:<br/>$$(x+7)^2 + (y-3)^2 = 109 + 49 + 9 = 167$$<br/>This matches the standard form for a circle with $r^2 = 167$. Therefore, $r = \\sqrt{167}$. That confirms <strong>C</strong> is correct."
     }
   ]
 }

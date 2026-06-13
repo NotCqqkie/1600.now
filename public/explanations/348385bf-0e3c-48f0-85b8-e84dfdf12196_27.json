@@ -1,1 +1,15 @@
-{"questionId":"348385bf-0e3c-48f0-85b8-e84dfdf12196_27","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The goal is to emphasize the order in which the two lighthouse keepers began their careers &mdash; specifically when each one started, not when they finished."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; lacks career-start information</strong>: Does not specify when either keeper began, so it cannot establish the order of career starts. &#10007;</li><li><strong>Choice B &mdash; &apos;began her career...years after&apos;</strong>: Directly compares when each career started, showing that Elizabeth began first and the other keeper began years later. &#10003;</li><li><strong>Choice C &mdash; focuses on career endings</strong>: Shifts focus to when careers ended rather than when they began. &#10007;</li><li><strong>Choice D &mdash; inaccurate information</strong>: Contains details that contradict the passage, making it factually wrong. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "348385bf-0e3c-48f0-85b8-e84dfdf12196_27",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The goal is to emphasize the order in which the two lighthouse keepers began their careers &mdash; specifically when each one started, not when they finished."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — Before automation, lighthouse keepers like Elizabeth Riley and Laura J. Hecox were crucial to ensuring safe navigation for watercraft.</strong>: Does not specify when either keeper began, so it cannot establish the order of career starts. &#10007;</li><li><strong>Choice B — Laura J. Hecox began her career as a lighthouse keeper years after Elizabeth Riley did.</strong>: Directly compares when each career started, showing that Elizabeth began first and the other keeper began years later. &#10003;</li><li><strong>Choice C — Elizabeth Riley's career as a lighthouse keeper ended in 1857, whereas Laura J. Hecox's ended in 1917.</strong>: Shifts focus to when careers ended rather than when they began. &#10007;</li><li><strong>Choice D — From 1834 to 1857, the nighttime waters of Maryland were more navigable thanks to lighthouse keepers Laura J. Hecox and Elizabeth Riley.</strong>: Contains details that contradict the passage, making it factually wrong. &#10007;</li></ul><strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,19 @@
-{"questionId":"8df848c1","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Find the antecedent","content":"The blank is the object of &quot;considered&quot; and refers back to what Damian condemned: &quot;the eating utensils&quot; (also called &quot;table forks&quot;). That antecedent is plural."},{"title":"Apply pronoun-antecedent agreement","content":"A pronoun must agree in number with its antecedent. A plural antecedent requires a plural object pronoun."},{"title":"Eliminate per choice","content":"<ul><li><strong>Choice A &mdash; 'them'</strong>: plural object pronoun agreeing with the plural &quot;eating utensils.&quot; &#10003;</li><li><strong>Choice B &mdash; 'this'</strong>: singular demonstrative &mdash; violates pronoun-antecedent number agreement with the plural antecedent. &#10007;</li><li><strong>Choice C &mdash; 'that'</strong>: singular demonstrative &mdash; same number-agreement violation. &#10007;</li><li><strong>Choice D &mdash; 'it'</strong>: singular pronoun &mdash; cannot refer to the plural &quot;eating utensils.&quot; &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "8df848c1",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the antecedent",
+      "content": "The blank is the object of &quot;considered&quot; and refers back to what Damian condemned: &quot;the eating utensils&quot; (also called &quot;table forks&quot;). That antecedent is plural."
+    },
+    {
+      "title": "Apply pronoun-antecedent agreement",
+      "content": "A pronoun must agree in number with its antecedent. A plural antecedent requires a plural object pronoun."
+    },
+    {
+      "title": "Eliminate per choice",
+      "content": "<ul><li><strong>Choice A &mdash; them</strong>: plural object pronoun agreeing with the plural &quot;eating utensils.&quot; &#10003;</li><li><strong>Choice B &mdash; this</strong>: singular demonstrative &mdash; violates pronoun-antecedent number agreement with the plural antecedent. &#10007;</li><li><strong>Choice C &mdash; that</strong>: singular demonstrative &mdash; same number-agreement violation. &#10007;</li><li><strong>Choice D &mdash; it</strong>: singular pronoun &mdash; cannot refer to the plural &quot;eating utensils.&quot; &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

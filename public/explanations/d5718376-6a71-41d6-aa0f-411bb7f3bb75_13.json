@@ -1,14 +1,15 @@
 {
+  "questionId": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_13",
   "qid": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_13",
   "steps": [
     {
-      "explanation": "Force is defined as the product of mass and acceleration: F = mass &times; acceleration."
+      "content": "Force is defined as the product of mass and acceleration: F = mass &times; acceleration."
     },
     {
-      "explanation": "Substitute the given values: mass = 41 kg, acceleration = a m/s$^2$. So F = 41 &times; a = 41a."
+      "content": "Substitute the given values: mass = 41 kg, acceleration = a m/s$^2$. So F = 41 &times; a = 41a."
     },
     {
-      "explanation": "Evaluate all choices:<ul><li>A: F = 41a. This is mass (41) times acceleration (a), exactly matching F = ma. That matches choice A &mdash; <strong>A</strong> is correct.</li><li>B: F = 41 + a. Addition instead of multiplication; does not represent the product of mass and acceleration. Eliminated.</li><li>C: F = 41 &minus; a. Subtraction has no basis in Newton&apos;s second law. Eliminated.</li><li>D: F = a &minus; 41. Reversed subtraction; dimensionally inconsistent and physically meaningless. Eliminated.</li></ul>"
+      "content": "Evaluate all choices:<ul><li><strong>$F = 41a$</strong>: F = 41a. This is mass (41) times acceleration (a), exactly matching F = ma. That matches the correct answer — <strong>A</strong> is correct.</li><li><strong>$F = 41 + a$</strong>: F = 41 + a. Addition instead of multiplication; does not represent the product of mass and acceleration. Eliminated.</li><li><strong>$F = 41 - a$</strong>: F = 41 &minus; a. Subtraction has no basis in Newton's second law. Eliminated.</li><li><strong>$F = a - 41$</strong>: F = a &minus; 41. Reversed subtraction; dimensionally inconsistent and physically meaningless. Eliminated.</li></ul>"
     }
   ],
   "correctAnswer": "A"

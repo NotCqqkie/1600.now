@@ -23,7 +23,7 @@ const IsScoreGood = () => {
   const match = location.pathname.match(/^\/is-a-(\d+)-a-good-sat-score$/);
   const score = match ? parseInt(match[1], 10) : NaN;
 
-  if (!VALID_SCORES.includes(score)) return <Navigate to="/sat-score" replace />;
+  if (!VALID_SCORES.includes(score)) return <Navigate to="/score-calculator" replace />;
 
   const profile = getScoreProfile(score);
   const verdict = verdictFor(score, profile.percentile);
@@ -76,7 +76,7 @@ const IsScoreGood = () => {
       />
 
       <nav className="text-sm text-muted-foreground">
-        <Link to="/sat-score" className="hover:underline">SAT Score Breakdowns</Link>
+        <Link to="/score-calculator" className="hover:underline">SAT Score Calculator</Link>
         <span className="mx-2">/</span>
         <span>Is a {score} a good SAT score?</span>
       </nav>
@@ -145,21 +145,21 @@ const IsScoreGood = () => {
 
       <section className="mt-10 flex justify-between text-sm">
         {VALID_SCORES.includes(score - 10) && (
-          <Link to={`/is-a-${score - 10}-a-good-sat-score`} className="text-foreground/80 hover:underline">
-            ← Is a {score - 10} a good SAT score?
+          <Link to="/score-calculator" className="text-foreground/80 hover:underline">
+            Model a lower score split
           </Link>
         )}
         <span />
         {VALID_SCORES.includes(score + 10) && (
-          <Link to={`/is-a-${score + 10}-a-good-sat-score`} className="ml-auto text-foreground/80 hover:underline">
-            Is a {score + 10} a good SAT score? →
+          <Link to="/bank" className="ml-auto text-foreground/80 hover:underline">
+            Drill for a higher score →
           </Link>
         )}
       </section>
 
       <section className="mt-10">
-        <Link to={`/sat-score/${score}`} className="text-sm text-foreground/80 hover:underline">
-          See the full {score} SAT score breakdown →
+        <Link to="/what-sat-score-do-i-need" className="text-sm text-foreground/80 hover:underline">
+          Compare this score with college target ranges →
         </Link>
       </section>
     </div>

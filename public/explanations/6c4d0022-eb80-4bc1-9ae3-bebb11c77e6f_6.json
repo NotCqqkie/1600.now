@@ -1,1 +1,15 @@
-{"questionId":"6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_6","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks for the <strong>function</strong> of the underlined sentence: &quot;Sea otters use stationary anvil stones to break open mollusk shells.&quot; It follows the claim that &quot;other animals also find tools helpful,&quot; so its job is structural &mdash; what role does this sentence play in the paragraph?"},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'It argues that sea otters use tools more often than other animals do'</strong>: The sentence makes no comparison of frequency between sea otters and other animals. &#10007;</li><li><strong>Choice B &mdash; 'It provides one example of tool use in a nonhuman animal'</strong>: The sentence names a specific animal (sea otters) and a specific tool use (anvil stones for mollusks) &mdash; a concrete example supporting the preceding claim. &#10003;</li><li><strong>Choice C &mdash; 'It emphasizes that sea otters are smarter than birds'</strong>: The sentence says nothing about birds or relative intelligence. &#10007;</li><li><strong>Choice D &mdash; 'It explains that humans use tools for many different tasks'</strong>: The sentence is about sea otters, not humans. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_6",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks for the <strong>function</strong> of the underlined sentence: &quot;Sea otters use stationary anvil stones to break open mollusk shells.&quot; It follows the claim that &quot;other animals also find tools helpful,&quot; so its job is structural &mdash; what role does this sentence play in the paragraph?"
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;It argues that sea otters use tools more often than other animals do.&rsquo;</strong>: The sentence makes no comparison of frequency between sea otters and other animals. &#10007;</li><li><strong>Choice B &mdash; &lsquo;It provides one example of tool use in a nonhuman animal.&rsquo;</strong>: The sentence names a specific animal (sea otters) and a specific tool use (anvil stones for mollusks) &mdash; a concrete example supporting the preceding claim. &#10003;</li><li><strong>Choice C &mdash; &lsquo;It emphasizes that sea otters are smarter than birds.&rsquo;</strong>: The sentence says nothing about birds or relative intelligence. &#10007;</li><li><strong>Choice D &mdash; &lsquo;It explains that humans use tools for many different tasks.&rsquo;</strong>: The sentence is about sea otters, not humans. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

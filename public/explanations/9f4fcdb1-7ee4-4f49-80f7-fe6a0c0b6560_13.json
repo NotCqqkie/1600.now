@@ -1,1 +1,15 @@
-{"questionId": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_13", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the key behavioral signal from the study", "content": "The study found that consumers are much more likely to discontinue services when forced to make active renewal decisions than when payments are automatic. This is the behavioral pattern that predicts the regulation's impact."}, {"title": "Project the regulation's effects", "content": "Mandatory manual renewal would apply this decision-forcing condition to all subscribers, triggering widespread discontinuation and thus reducing average subscription duration.<br/><br/>Subscribers who do actively renew would be better off—engaged rather than passively retained.<br/><br/>The other choices either reverse the pattern for inattentive consumers (A), address unsupported valuation factors (B), or mischaracterize the subscribers as dissatisfied (C).<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_13",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key behavioral signal from the study",
+      "content": "The study found that consumers are much more likely to discontinue services when forced to make active renewal decisions than when payments are automatic. This is the behavioral pattern that predicts the regulation's impact."
+    },
+    {
+      "title": "Project the regulation's effects",
+      "content": "Mandatory manual renewal would apply this decision-forcing condition to all subscribers, triggering widespread discontinuation and thus reducing average subscription duration.<br/><br/>Subscribers who do actively renew would be better off—engaged rather than passively retained.<br/><br/>The other choices either reverse the pattern for inattentive consumers, address unsupported valuation factors, or mischaracterize the subscribers as dissatisfied.<br/><br/>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

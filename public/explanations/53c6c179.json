@@ -1,1 +1,15 @@
-{"questionId": "53c6c179", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what evidence would support the student's assertion", "content": "The student claims that beyond universal factors common to all Western countries, country-specific factors must have influenced how marrying age changed.<br/><br/>To support this claim, the data must show that the <strong>rate of change</strong> differed between countries — not just that baseline ages differed."}, {"title": "Match the divergent pattern to the choices", "content": "Between 1970 and 2000, men in England and Wales rose from roughly 27 to 34 years (approximately 7-year increase), while US men rose from roughly 23 to 26 years (approximately 3-year increase).<br/><br/>Choice A directly captures this divergence: the sharp rise in E&W versus the modest rise in the US demonstrates that the same 30-year period produced <strong>different outcomes</strong> in different countries.<br/><br/>This pattern of divergent change—not just different absolute levels—supports the student's claim that country-specific factors shaped distinct trajectories.<br/><br/>Choices B and D describe static baseline differences between countries, which is consistent with universal factors; choice C contains false data.<br/><br/>That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}
+{
+  "questionId": "53c6c179",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what evidence would support the student's assertion",
+      "content": "The student claims that beyond universal factors common to all Western countries, country-specific factors must have influenced how marrying age changed.<br/><br/>To support this claim, the data must show that the <strong>rate of change</strong> differed between countries — not just that baseline ages differed."
+    },
+    {
+      "title": "Match the divergent pattern to the choices",
+      "content": "Between 1970 and 2000, men in England and Wales rose from roughly 27 to 34 years (approximately 7-year increase), while US men rose from roughly 23 to 26 years (approximately 3-year increase).<br/><br/>The matching choice directly captures this divergence: the sharp rise in E&W versus the modest rise in the US demonstrates that the same 30-year period produced <strong>different outcomes</strong> in different countries.<br/><br/>This pattern of divergent change—not just different absolute levels—supports the student's claim that country-specific factors shaped distinct trajectories.<br/><br/>The other choices describe static baseline differences between countries, which is consistent with universal factors; a remaining claim contains false data.<br/><br/><strong>A</strong> is correct."
+    }
+  ]
+}

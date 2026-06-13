@@ -1,1 +1,15 @@
-{"questionId": "e7b4b1e2-7d10-40a5-b5c1-741fcd71803b_23", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the contrast between waste categories", "content": "The passage sets up post-consumer waste (became waste <strong>after</strong> reaching the consumer) and then immediately pivots to a different category: pre-consumer waste (became waste <strong>before</strong> reaching the consumer).<br/><br/>The defining signal is the opposition between these two temporal categories—one defined by 'after,' the other by 'before.'"}, {"title": "Apply the contrast to find the transition", "content": "<strong>'By contrast'</strong> marks exactly this opposition between two distinct categories.<br/><br/>The alternatives either suggest additional examples of the same concept (For example, Specifically) or imply a causal relationship (As a result), neither of which describes opposing waste types.<br/><br/>That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}
+{
+  "questionId": "e7b4b1e2-7d10-40a5-b5c1-741fcd71803b_23",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the contrast between waste categories",
+      "content": "The passage sets up post-consumer waste (became waste <strong>after</strong> reaching the consumer) and then immediately pivots to a different category: pre-consumer waste (became waste <strong>before</strong> reaching the consumer).<br/><br/>The defining signal is the opposition between these two temporal categories—one defined by 'after,' the other by 'before.'"
+    },
+    {
+      "title": "Apply the contrast to find the transition",
+      "content": "<strong>'By contrast'</strong> marks exactly this opposition between two distinct categories.<br/><br/>The alternatives either suggest additional examples of the same concept (For example, Specifically) or imply a causal relationship (As a result), neither of which describes opposing waste types.<br/><br/>That matches the correct answer — <strong>C</strong> is correct."
+    }
+  ]
+}

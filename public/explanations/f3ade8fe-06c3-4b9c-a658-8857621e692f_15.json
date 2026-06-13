@@ -13,7 +13,7 @@
     },
     {
       "title": "Solve for the unknown leg",
-      "content": "Multiply both sides by 2:<br/>$$3\\sqrt{13} \\cdot L_2 = 96\\sqrt{13}$$<br/>Divide both sides by $3\\sqrt{13}$:<br/>$$L_2 = \\frac{96\\sqrt{13}}{3\\sqrt{13}} = \\frac{96}{3} = 32$$<br/>That matches choice B — <strong>B</strong> is correct."
+      "content": "Multiply both sides by 2:<br/>$$3\\sqrt{13} \\cdot L_2 = 96\\sqrt{13}$$<br/>Divide both sides by $3\\sqrt{13}$:<br/>$$L_2 = \\frac{96\\sqrt{13}}{3\\sqrt{13}} = \\frac{96}{3} = 32$$<br/>That matches the correct answer — <strong>B</strong> is correct."
     }
   ]
 }

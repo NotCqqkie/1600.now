@@ -9,7 +9,7 @@
     },
     {
       "title": "Calculate 55 squared",
-      "content": "Expand using the perfect square pattern $(50 + 5)^2$:<br/>$$55^2 = 50^2 + 2(50)(5) + 5^2 = 2500 + 500 + 25 = 3025 \\text{ cm}^2$$<br/>That matches choice C — <strong>C</strong> is correct."
+      "content": "Expand using the perfect square pattern $(50 + 5)^2$:<br/>$$55^2 = 50^2 + 2(50)(5) + 5^2 = 2500 + 500 + 25 = 3025 \\text{ cm}^2$$<br/><strong>C</strong> is correct."
     }
   ]
 }

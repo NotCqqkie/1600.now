@@ -1,1 +1,15 @@
-{"questionId": "58e9e497", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The passage says that few of those farmers had actually seen Haudenosaunee farms firsthand, and it explicitly rules out independent reinvention. This sets up a transmission puzzle: if the farmers neither observed the techniques directly nor invented them on their own, the techniques must have reached them through some other route."}, {"title": "Match the meaning", "content": "Choice A explains the spread via intermediaries &mdash; people &quot;<em>more directly influenced</em>&quot; by Haudenosaunee practices who passed the techniques along. This is the only route the passage leaves open once direct observation and independent invention are excluded.<ul><li><strong>Choice A &mdash; &quot;learned from other people&quot;</strong>: fills the transmission gap left by the passage. &#10003;</li><li><strong>Choice B &mdash; &quot;crops not well suited&quot;</strong>: shifts focus to crops, not the spread of techniques. &#10007;</li><li><strong>Choice C &mdash; &quot;widely used in regions outside&quot;</strong>: addresses geography elsewhere, not how northeastern farmers obtained the techniques. &#10007;</li><li><strong>Choice D &mdash; &quot;late in the nineteenth century&quot;</strong>: contradicts the passage's &quot;early nineteenth century&quot; timeframe. &#10007;</li></ul>"}]}
+{
+  "questionId": "58e9e497",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The passage says that few of those farmers had actually seen Haudenosaunee farms firsthand, and it explicitly rules out independent reinvention. This sets up a transmission puzzle: if the farmers neither observed the techniques directly nor invented them on their own, the techniques must have reached them through some other route."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "The matching choice explains the spread via intermediaries &mdash; people &quot;<em>more directly influenced</em>&quot; by Haudenosaunee practices who passed the techniques along. This is the only route the passage leaves open once direct observation and independent invention are excluded.<ul><li><strong>Choice A — those farmers learned the techniques from other people who were more directly influenced by Haudenosaunee practices.</strong>: fills the transmission gap left by the passage. &#10003;</li><li><strong>Choice B — the crops typically cultivated by Euro-American farmers in the northeastern United States were not well suited to Haudenosaunee farming techniques.</strong>: shifts focus to crops, not the spread of techniques. &#10007;</li><li><strong>Choice C — Haudenosaunee farming techniques were widely used in regions outside the northeastern United States.</strong>: addresses geography elsewhere, not how northeastern farmers obtained the techniques. &#10007;</li><li><strong>Choice D — Euro-American farmers only began to recognize the benefits of Haudenosaunee farming techniques late in the nineteenth century.</strong>: contradicts the passage's &quot;early nineteenth century&quot; timeframe. &#10007;</li></ul>"
+    }
+  ]
+}

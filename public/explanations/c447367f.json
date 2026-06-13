@@ -9,7 +9,7 @@
     },
     {
       "title": "Substitute and simplify",
-      "content": "Substitute the center and radius:<br/>$$(x - 19)^2 + (y - 18)^2 = (9k)^2$$<br/>Evaluate $(9k)^2 = 81k^2$:<br/>$$(x - 19)^2 + (y - 18)^2 = 81k^2$$<br/>That matches choice B — <strong>B</strong> is correct."
+      "content": "Substitute the center and radius:<br/>$$(x - 19)^2 + (y - 18)^2 = (9k)^2$$<br/>Evaluate $(9k)^2 = 81k^2$:<br/>$$(x - 19)^2 + (y - 18)^2 = 81k^2$$<br/>That is the correct answer."
     }
   ]
 }

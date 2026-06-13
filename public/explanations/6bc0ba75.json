@@ -1,1 +1,19 @@
-{"questionId": "6bc0ba75", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Read the third sentence as a broad claim", "content": "The third (underlined) sentence says, &quot;But evolutionary links between predators and their prey can persist across centuries and continents.&quot; This is a sweeping generalization about predator-prey relationships, stated as a universal principle rather than as a fact about any particular species."}, {"title": "See how surrounding sentences relate to it", "content": "The sentences before set up a separation: mimosa evolved with B. terrenus in East Asia, then moved to North America in 1785 without the beetle. The sentences after deliver the specific case that illustrates the principle: when B. terrenus arrived around 2001, it attacked 93% of the trees within a year. The third sentence is the general rule; the mimosa/B. terrenus story is the example."}, {"title": "Eliminate per choice", "content": "<ul><li><strong>Choice A &mdash; 'states the hypothesis that Chang and colleagues had set out to investigate'</strong>: the text never says Chang set out to test this idea; the beetle&apos;s arrival was incidental, not a planned experiment. &#10007;</li><li><strong>Choice B &mdash; 'presents a generalization that is exemplified by the discussion'</strong>: matches exactly &mdash; broad rule about persistent predator-prey links, then the mimosa case as the example. &#10003;</li><li><strong>Choice C &mdash; 'provides context that clarifies why the species mentioned spread to new locations'</strong>: the sentence says nothing about why the trees or beetles spread; humans introduced them. &#10007;</li><li><strong>Choice D &mdash; 'offers an alternative explanation for the findings'</strong>: it is not an alternative explanation &mdash; it is the principle the findings confirm. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "6bc0ba75",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the third sentence as a broad claim",
+      "content": "The third (underlined) sentence says, &quot;But evolutionary links between predators and their prey can persist across centuries and continents.&quot; This is a sweeping generalization about predator-prey relationships, stated as a universal principle rather than as a fact about any particular species."
+    },
+    {
+      "title": "See how surrounding sentences relate to it",
+      "content": "The sentences before set up a separation: mimosa evolved with B. terrenus in East Asia, then moved to North America in 1785 without the beetle. The sentences after deliver the specific case that illustrates the principle: when B. terrenus arrived around 2001, it attacked 93% of the trees within a year. The third sentence is the general rule; the mimosa/B. terrenus story is the example."
+    },
+    {
+      "title": "Eliminate per choice",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;It states the hypothesis that Chang and colleagues had set out to investigate using mimosa trees and <em>B. terrenus</em>.&rsquo;</strong>: the text never says Chang set out to test this idea; the beetle&apos;s arrival was incidental, not a planned experiment. &#10007;</li><li><strong>Choice B &mdash; &lsquo;It presents a generalization that is exemplified by the discussion of the mimosa trees and <em>B. terrenus</em>.&rsquo;</strong>: matches exactly &mdash; broad rule about persistent predator-prey links, then the mimosa case as the example. &#10003;</li><li><strong>Choice C &mdash; &lsquo;It provides context that clarifies why the species mentioned spread to new locations.&rsquo;</strong>: the sentence says nothing about why the trees or beetles spread; humans introduced them. &#10007;</li><li><strong>Choice D &mdash; &lsquo;It offers an alternative explanation for the findings of Chang and colleagues.&rsquo;</strong>: it is not an alternative explanation &mdash; it is the principle the findings confirm. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

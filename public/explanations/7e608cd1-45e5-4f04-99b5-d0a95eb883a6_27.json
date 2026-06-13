@@ -1,1 +1,15 @@
-{"questionId": "7e608cd1-45e5-4f04-99b5-d0a95eb883a6_27", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the core contradiction", "content": "The notes reveal that scientists hypothesized collapse temperature would vary with molecular properties, but the 2023 study found it <em>“nearly independent of material and fluid properties, contrary to previous theories.”</em> This is the assumption being refuted."}, {"title": "Match the refutation", "content": "C directly refutes the assumption by stating collapse temperature <em>“does not vary depending on material and fluid properties,”</em> matching the study's finding.<ul><li>A addresses the wrong phenomenon</li><li>B claims the opposite of what the study found</li><li>D conflates formation and collapse</li></ul>, obscuring the specific refutation.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "7e608cd1-45e5-4f04-99b5-d0a95eb883a6_27",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the core contradiction",
+      "content": "The notes reveal that scientists hypothesized collapse temperature would vary with molecular properties, but the 2023 study found it <em>“nearly independent of material and fluid properties, contrary to previous theories.”</em> This is the assumption being refuted."
+    },
+    {
+      "title": "Match the refutation",
+      "content": "C directly refutes the assumption by stating collapse temperature <em>“does not vary depending on material and fluid properties,”</em> matching the study's finding.<ul><li>A addresses the wrong phenomenon</li><li>B claims the opposite of what the study found</li><li>D conflates formation and collapse</li></ul>, obscuring the specific refutation.<br/><br/>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Solve the system by elimination",
-      "content": "Add the two equations: $5(8x) + (-5)(8x) + 4(6y) + 4(6y) = 12 + 12$, giving $8(6y) = 24$, so $6y = 3$. Subtract: $10(8x) = 0$, so $8x = 0$."
+      "content": "Add the two equations: $\\left(5\\right)(8x) + (-5)(8x) + 4(6y) + 4(6y) = 12 + 12$, giving $\\left(8\\right)(6y) = 24$, so $6y = 3$. Subtract: $\\left(10\\right)(8x) = 0$, so $8x = 0$."
     },
     {
       "title": "Find the value $8x + 6y$",
-      "content": "$8x + 6y = 0 + 3 = 3$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."
+      "content": "$8x + 6y = 0 + 3 = 3$. That matches the correct answer — <strong>C</strong> is correct."
     }
   ]
 }

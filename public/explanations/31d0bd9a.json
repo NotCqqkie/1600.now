@@ -1,1 +1,15 @@
-{"questionId": "31d0bd9a", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the key clue about timing", "content": "The passage states that the dodder plant increases its reproductive success by flowering &quot;at the same time&quot; as its host, and that it achieves this ______ by absorbing a protein the host produces just before flowering. The blank names the phenomenon of two things happening simultaneously."}, {"title": "Eliminate wrong choices, confirm the right one", "content": "Test each choice against the passage's description of dodder and host flowering at the same time:<ul><li><strong>Choice A &mdash; 'synchronization'</strong>: the coordination of events to occur at the same time &mdash; exactly describes the dodder matching its flowering to the host's bloom via the absorbed protein. &#10003;</li><li><strong>Choice B &mdash; 'hibernation'</strong>: a state of dormancy or inactivity &mdash; the passage describes active flowering, not dormancy. &#10007;</li><li><strong>Choice C &mdash; 'prediction'</strong>: the act of declaring something in advance &mdash; the dodder uses a protein signal to flower at the same time, not to forecast when flowering will happen. &#10007;</li><li><strong>Choice D &mdash; 'moderation'</strong>: the act of reducing intensity or extremity &mdash; nothing in the passage involves lessening or restraining anything. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "31d0bd9a",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the key clue about timing",
+      "content": "The passage states that the dodder plant increases its reproductive success by flowering &quot;at the same time&quot; as its host, and that it achieves this ______ by absorbing a protein the host produces just before flowering. The blank names the phenomenon of two things happening simultaneously."
+    },
+    {
+      "title": "Eliminate wrong choices, confirm the right one",
+      "content": "Test each choice against the passage's description of dodder and host flowering at the same time:<ul><li><strong>Choice A — synchronization</strong>: the coordination of events to occur at the same time &mdash; exactly describes the dodder matching its flowering to the host's bloom via the absorbed protein. &#10003;</li><li><strong>Choice B — hibernation</strong>: a state of dormancy or inactivity &mdash; the passage describes active flowering, not dormancy. &#10007;</li><li><strong>Choice C — prediction</strong>: the act of declaring something in advance &mdash; the dodder uses a protein signal to flower at the same time, not to forecast when flowering will happen. &#10007;</li><li><strong>Choice D — moderation</strong>: the act of reducing intensity or extremity &mdash; nothing in the passage involves lessening or restraining anything. &#10007;</li></ul><strong>A</strong> is correct."
+    }
+  ]
+}

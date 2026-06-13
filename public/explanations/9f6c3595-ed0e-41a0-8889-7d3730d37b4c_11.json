@@ -14,7 +14,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; '$h(x) = 2^x + 16$'</strong>: $h(0) = 1 + 16 = 17$ &#10003;</li><li><strong>Choice B &mdash; '$h(x) = 2^x + 15$'</strong>: $h(0) = 1 + 15 = 16 \\neq 17$ &#10007;</li><li><strong>Choice C &mdash; '$h(x) = 2^x + 2$'</strong>: $h(0) = 1 + 2 = 3 \\neq 17$ &#10007;</li><li><strong>Choice D &mdash; '$h(x) = 2^x$'</strong>: $h(0) = 1 \\neq 17$ &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; $h(x)=2^{x}+16$</strong>: $h(0) = 1 + 16 = 17$ &#10003;</li><li><strong>Choice B &mdash; $h(x)=2^{x}+15$</strong>: $h(0) = 1 + 15 = 16 \\neq 17$ &#10007;</li><li><strong>Choice C &mdash; $h(x)=2^{x}+2$</strong>: $h(0) = 1 + 2 = 3 \\neq 17$ &#10007;</li><li><strong>Choice D &mdash; $h(x)=2^{x}$</strong>: $h(0) = 1 \\neq 17$ &#10007;</li></ul>That confirms <strong>A</strong> is correct."
     }
   ]
 }

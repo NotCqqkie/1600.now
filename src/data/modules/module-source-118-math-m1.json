@@ -377,7 +377,7 @@
     "difficulty": "Easy",
     "question_number": 13,
     "test_name": "Module Source 118 Math M1",
-    "passage": "$5(3x+6) = 3(3x+6)+78$, what is the value of $3x+6$?",
+    "passage": "If $5(3x+6) = 3(3x+6)+78$, what is the value of $3x+6$?",
     "question_text": null,
     "choices": [
       {
@@ -557,7 +557,7 @@
     "difficulty": "Medium",
     "question_number": 20,
     "test_name": "Module Source 118 Math M1",
-    "passage": "In triangle QRS shown, $QR < RS$. Which expression represents the length of $\\overline{QS}$?",
+    "passage": "In triangle QRS shown, $QR \\lt RS$. Which expression represents the length of $\\overline{QS}$?",
     "question_text": null,
     "choices": [
       {
@@ -633,7 +633,7 @@
     "choices": [
       {
         "label": "A",
-        "text": "$8(4n)+9n+3(30)=100$"
+        "text": "$\\left(8\\right)(4n)+9n+3(30)=100$"
       },
       {
         "label": "B",

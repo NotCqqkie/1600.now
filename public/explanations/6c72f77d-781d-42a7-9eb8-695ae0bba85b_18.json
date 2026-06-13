@@ -9,7 +9,7 @@
     },
     {
       "title": "Backsolving with choice C",
-      "content": "Backsolving — testing choice C (18): If the hypotenuse is 18, then since the hypotenuse equals $a\\sqrt{2}$, we have $a = \\frac{18}{\\sqrt{2}} = 9\\sqrt{2}$. The perimeter is:<br/>$$2(9\\sqrt{2}) + 18 = 18\\sqrt{2} + 18 = 18 + 18\\sqrt{2}$$<br/>This matches the given perimeter exactly. That matches choice C — <strong>C</strong> is correct."
+      "content": "Backsolving — testing choice C (18): If the hypotenuse is 18, then since the hypotenuse equals $a\\sqrt{2}$, we have $a = \\frac{18}{\\sqrt{2}} = 9\\sqrt{2}$. The perimeter is:<br/>$$2(9\\sqrt{2}) + 18 = 18\\sqrt{2} + 18 = 18 + 18\\sqrt{2}$$<br/>This matches the given perimeter exactly. That confirms <strong>C</strong> is correct."
     }
   ]
 }

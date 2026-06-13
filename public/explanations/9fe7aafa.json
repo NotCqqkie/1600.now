@@ -1,1 +1,15 @@
-{"questionId": "9fe7aafa", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find what historians suggest", "content": "The passage's final sentence states directly: <strong>Some historians suggest that Maya mathematicians inherited it from the Olmec civilization.</strong> The word &quot;inherited&quot; is the key signal&mdash;it means the Maya received something from their predecessors, not the other way around."}, {"title": "Match it to the correct choice", "content": "Choice A expresses this exactly: the Maya &quot;acquired&quot; the use of zero from the Olmec, which captures what &quot;inherited&quot; means.<br/><br/>The other three either introduce ideas unsupported by the passage (B about respecting historians vs. mathematicians, C about being secretive) or reverse the direction entirely (D suggests the Maya were givers, not receivers)."}]}
+{
+  "questionId": "9fe7aafa",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find what historians suggest",
+      "content": "The passage's final sentence states directly: <strong>Some historians suggest that Maya mathematicians inherited it from the Olmec civilization.</strong> The word &quot;inherited&quot; is the key signal&mdash;it means the Maya received something from their predecessors, not the other way around."
+    },
+    {
+      "title": "Match it to the correct choice",
+      "content": "Choice A expresses this exactly: the Maya &quot;acquired&quot; the use of zero from the Olmec, which captures what &quot;inherited&quot; means.<br/><br/>The other three either introduce ideas unsupported by the passage (B about respecting historians vs. mathematicians, C about being secretive) or reverse the direction entirely (D suggests the Maya were givers, not receivers)."
+    }
+  ]
+}

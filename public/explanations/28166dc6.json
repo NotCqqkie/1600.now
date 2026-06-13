@@ -1,1 +1,19 @@
-{"questionId": "28166dc6", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the subject of the blank", "content": "The verb in the blank belongs to the subject &quot;The trefoil knot and the figure-eight knot.&quot; Two nouns joined by &quot;and&quot; form a compound, plural subject. The phrase &quot;each with a crossing number below five&quot; is a parenthetical modifier and does not change the subject."}, {"title": "Match a plural, present-tense verb", "content": "The sentence makes a general, present-tense classification (these knots &quot;are among the simplest&quot;), so we need a plural present-tense verb: &quot;are.&quot;"}, {"title": "Eliminate the other choices", "content": "<ul><li><strong>Choice A &mdash; &#39;was&#39;</strong>: singular and past tense; fails subject-verb agreement with the plural compound subject. &#10007;</li><li><strong>Choice B &mdash; &#39;are&#39;</strong>: plural present-tense verb that agrees with the compound subject. &#10003;</li><li><strong>Choice C &mdash; &#39;has been&#39;</strong>: singular; violates subject-verb agreement with a plural subject. &#10007;</li><li><strong>Choice D &mdash; &#39;is&#39;</strong>: singular; violates subject-verb agreement with a plural subject. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "28166dc6",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the subject of the blank",
+      "content": "The verb in the blank belongs to the subject &quot;The trefoil knot and the figure-eight knot.&quot; Two nouns joined by &quot;and&quot; form a compound, plural subject. The phrase &quot;each with a crossing number below five&quot; is a parenthetical modifier and does not change the subject."
+    },
+    {
+      "title": "Match a plural, present-tense verb",
+      "content": "The sentence makes a general, present-tense classification (these knots &quot;are among the simplest&quot;), so we need a plural present-tense verb: &quot;are.&quot;"
+    },
+    {
+      "title": "Eliminate the other choices",
+      "content": "<ul><li><strong>Choice A &mdash; was</strong>: singular and past tense; fails subject-verb agreement with the plural compound subject. &#10007;</li><li><strong>Choice B &mdash; are</strong>: plural present-tense verb that agrees with the compound subject. &#10003;</li><li><strong>Choice C &mdash; has been</strong>: singular; violates subject-verb agreement with a plural subject. &#10007;</li><li><strong>Choice D &mdash; is</strong>: singular; violates subject-verb agreement with a plural subject. &#10007;</li></ul>That matches <strong>Choice B &mdash; are</strong>."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "a66f9b8d", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the measurement method described", "content": "The passage explicitly states how researchers measured surprise: “based on their ear and head movements.” This directly answers the question about how they determined the level of surprise."}, {"title": "Match the method to the choices", "content": "Choice A — “They watched how each cat moved its ears and head” — directly reflects this measurement method.<br/><br/>The other three either reference strangers, describe physical interaction, or mention general room movement — none of which match the passage's description.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "a66f9b8d",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the measurement method described",
+      "content": "The passage explicitly states how researchers measured surprise: “based on their ear and head movements.” This directly answers the question about how they determined the level of surprise."
+    },
+    {
+      "title": "Match the method to the choices",
+      "content": "Choice A — “They watched how each cat moved its ears and head.” — directly reflects this measurement method.<br/><br/>The other three either reference strangers, describe physical interaction, or mention general room movement — none of which match the passage's description.<br/><br/>That is the correct answer."
+    }
+  ]
+}

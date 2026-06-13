@@ -9,7 +9,7 @@
     },
     {
       "title": "Execute the division",
-      "content": "$$p = \\frac{s}{\\frac{3}{2}}$$<br/>Dividing by a fraction equals multiplying by its reciprocal:<br/>$$p = s \\cdot \\frac{2}{3} = \\frac{2}{3} s$$<br/>This matches choice A — <strong>A</strong> is correct."
+      "content": "$$p = \\frac{s}{\\frac{3}{2}}$$<br/>Dividing by a fraction equals multiplying by its reciprocal:<br/>$$p = s \\cdot \\frac{2}{3} = \\frac{2}{3} s$$<br/>This confirms <strong>A</strong> is correct."
     }
   ]
 }

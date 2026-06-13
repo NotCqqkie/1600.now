@@ -1,1 +1,15 @@
-{"questionId":"cf01151f-6ffa-43f7-96af-aa65491fd154_20","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"This is a punctuation/boundaries question (Standard English Conventions). The phrase &ldquo;By supplying oil, grapes, and grain to societies that lacked these valuable items&rdquo; is an introductory participial phrase. The decisive rule: an introductory phrase must be separated from the following main clause by a comma only &mdash; no stronger mark."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;items; the&rsquo;</strong>: A semicolon joins two independent clauses. The introductory phrase is not a clause, so a semicolon here violates the boundary rule and creates an ungrammatical fragment before it. &#10007;</li><li><strong>Choice B &mdash; &lsquo;items, the&rsquo;</strong>: A single comma correctly marks the boundary between an introductory phrase and the main clause that follows. This is the required punctuation. &#10003;</li><li><strong>Choice C &mdash; &lsquo;items the&rsquo;</strong>: No punctuation between an introductory phrase and the main clause produces a run-on; the boundary between phrase and clause is unmarked, violating Standard English conventions. &#10007;</li><li><strong>Choice D &mdash; &lsquo;items. The&rsquo;</strong>: A period ends a sentence. The introductory phrase before &ldquo;items&rdquo; is not an independent clause, so a period would create an incomplete sentence (a fragment) before it. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "cf01151f-6ffa-43f7-96af-aa65491fd154_20",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a punctuation/boundaries question (Standard English Conventions). The phrase &ldquo;By supplying oil, grapes, and grain to societies that lacked these valuable items&rdquo; is an introductory participial phrase. The decisive rule: an introductory phrase must be separated from the following main clause by a comma only &mdash; no stronger mark."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; items; the</strong>: A semicolon joins two independent clauses. The introductory phrase is not a clause, so a semicolon here violates the boundary rule and creates an ungrammatical fragment before it. &#10007;</li><li><strong>Choice B &mdash; items, the</strong>: A single comma correctly marks the boundary between an introductory phrase and the main clause that follows. This is the required punctuation. &#10003;</li><li><strong>Choice C &mdash; items the</strong>: No punctuation between an introductory phrase and the main clause produces a run-on; the boundary between phrase and clause is unmarked, violating Standard English conventions. &#10007;</li><li><strong>Choice D &mdash; items. The</strong>: A period ends a sentence. The introductory phrase before &ldquo;items&rdquo; is not an independent clause, so a period would create an incomplete sentence (a fragment) before it. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

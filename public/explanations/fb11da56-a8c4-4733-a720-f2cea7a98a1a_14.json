@@ -13,7 +13,7 @@
     },
     {
       "title": "Test Option II and identify the answer",
-      "content": "Option II is $\\frac{3x^{11}y^{2}}{5}$. Comparing to $\\frac{3}{5}x^{15}y$:<ul><li>Coefficient: $\\frac{3}{5}$ ✓ (matches)</li><li>Power of $x$: 11 versus 15 — mismatch</li><li>Power of $y$: 2 versus 1 — mismatch</li></ul>The exponents do not match, so Option II is not equivalent. Neither option equals the simplified expression, that matches choice D — <strong>D</strong> is correct."
+      "content": "Option II is $\\frac{3x^{11}y^{2}}{5}$. Comparing to $\\frac{3}{5}x^{15}y$:<ul><li>Coefficient: $\\frac{3}{5}$ ✓ (matches)</li><li>Power of $x$: 11 versus 15 — mismatch</li><li>Power of $y$: 2 versus 1 — mismatch</li></ul>The exponents do not match, so Option II is not equivalent. Neither option equals the simplified expression, that matches the correct answer — <strong>D</strong> is correct."
     }
   ]
 }

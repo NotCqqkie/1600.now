@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate all choices",
-      "content": "<ul><li>A: 0.09 — far too small; this would require no unit conversion at all. Eliminate A.</li><li>B: 7.95 — off by a factor of about 100; likely from converting m to cm without cubing. Eliminate B.</li><li>C: 794.93 — close but arises from an error in the meter-to-cm cube factor. Eliminate C.</li><li>D: 887.62 — matches $840{,}000 \\div 946.35 \\approx 887.6$. That matches choice D — <strong>D</strong> is correct.</li></ul>"
+      "content": "<ul><li>A: 0.09 — far too small; this would require no unit conversion at all. Eliminate A.</li><li>B: 7.95 — off by a factor of about 100; likely from converting m to cm without cubing. Eliminate B.</li><li>C: 794.93 — close but arises from an error in the meter-to-cm cube factor. Eliminate C.</li><li>D: 887.62 — matches $840{,}000 \\div 946.35 \\approx 887.6$. <strong>D</strong> is correct.</li></ul>"
     }
   ]
 }

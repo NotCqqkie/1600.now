@@ -8,11 +8,11 @@
     },
     {
       "title": "Finish the remainder",
-      "content": "Next, $xdiv x=1$. Subtracting $1(x-3)=x-3$ leaves a remainder of $-2$. Therefore $$\\frac{x^2-2x-5}{x-3}=x+1-\\frac{2}{x-3}.$$"
+      "content": "Next, $xdiv x=1$. Subtracting ${1}(x-3)=x-3$ leaves a remainder of $-2$. Therefore $$\\frac{x^2-2x-5}{x-3}=x+1-\\frac{2}{x-3}.$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "This matches choice <strong>D</strong>. The negative remainder matters: since the remainder is $-2$, the final term is $-\\frac{2}{x-3}$, not $+\\frac{2}{x-3}$."
+      "content": "That confirms <strong>D</strong>. The negative remainder matters: since the remainder is $-2$, the final term is $-\\frac{2}{x-3}$, not $+\\frac{2}{x-3}$."
     }
   ],
   "correctAnswer": "D"

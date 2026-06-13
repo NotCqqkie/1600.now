@@ -13,7 +13,7 @@
     },
     {
       "title": "Check each choice",
-      "content": "<ul><li>$x^2 + (y + 2)^2 = 36$ &mdash; center $(0, -2)$, radius $6$. Matches.</li><li>$x^2 + (y - 6)^2 = 36$ &mdash; center $(0, 6)$; that would be a shift up by 4, not down.</li><li>$(x - 4)^2 + (y - 2)^2 = 36$ &mdash; center $(4, 2)$; this is a horizontal shift, not vertical.</li><li>$(x + 4)^2 + (y - 2)^2 = 36$ &mdash; center $(-4, 2)$; again a horizontal shift.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.",
+      "content": "<ul><li>$x^2 + (y + 2)^2 = 36$ &mdash; center $(0, -2)$, radius $6$. Matches.</li><li>$x^2 + (y - 6)^2 = 36$ &mdash; center $(0, 6)$; that would be a shift up by 4, not down.</li><li>$(x - 4)^2 + (y - 2)^2 = 36$ &mdash; center $(4, 2)$; this is a horizontal shift, not vertical.</li><li>$(x + 4)^2 + (y - 2)^2 = 36$ &mdash; center $(-4, 2)$; again a horizontal shift.</li></ul>That matches the correct answer — <strong>A</strong> is correct.",
       "desmosExpressions": [
         "x^2 + (y-2)^2 = 36",
         "x^2 + (y+2)^2 = 36"

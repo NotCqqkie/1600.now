@@ -9,7 +9,7 @@
     },
     {
       "title": "Solve for the maximum value of y",
-      "content": "Substitute $x = 10 - y$ into the weight constraint:<br/>$$100(10 - y) + 120y \\leq 1100$$<br/>$$1000 - 100y + 120y \\leq 1100$$<br/>$$1000 + 20y \\leq 1100$$<br/>$$20y \\leq 100$$<br/>$$y \\leq 5$$<br/>The maximum is $y = 5$. That matches choice C — <strong>C</strong> is correct."
+      "content": "Substitute $x = 10 - y$ into the weight constraint:<br/>$$100(10 - y) + 120y \\leq 1100$$<br/>$$1000 - 100y + 120y \\leq 1100$$<br/>$$1000 + 20y \\leq 1100$$<br/>$$20y \\leq 100$$<br/>$$y \\leq 5$$<br/>The maximum is $y = 5$. That matches the correct answer — <strong>C</strong> is correct."
     }
   ]
 }

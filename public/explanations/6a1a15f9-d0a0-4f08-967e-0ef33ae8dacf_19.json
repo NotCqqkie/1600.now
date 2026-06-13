@@ -1,1 +1,15 @@
-{"questionId": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_19", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The subject is &quot;Each of these republics.&quot; &quot;Each&quot; is always singular. The sentence describes a historical fact (the Soviet-era republics were established), so the verb must be singular and past tense."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'have been'</strong>: Present perfect and plural &mdash; wrong number and wrong tense for a completed historical action. &#10007;</li><li><strong>Choice B &mdash; 'are'</strong>: Present tense and plural &mdash; both number and tense are wrong. &#10007;</li><li><strong>Choice C &mdash; 'was'</strong>: Singular past tense &mdash; agrees with &quot;Each&quot; and fits the historical context. &#10003;</li><li><strong>Choice D &mdash; 'were'</strong>: Past tense but plural &mdash; does not agree with the singular subject &quot;Each.&quot; &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_19",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The subject is &quot;Each of these republics.&quot; &quot;Each&quot; is always singular. The sentence describes a historical fact (the Soviet-era republics were established), so the verb must be singular and past tense."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;have been&rsquo;</strong>: Present perfect and plural &mdash; wrong number and wrong tense for a completed historical action. &#10007;</li><li><strong>Choice B &mdash; &lsquo;are&rsquo;</strong>: Present tense and plural &mdash; both number and tense are wrong. &#10007;</li><li><strong>Choice C &mdash; &lsquo;was&rsquo;</strong>: Singular past tense &mdash; agrees with &quot;Each&quot; and fits the historical context. &#10003;</li><li><strong>Choice D &mdash; &lsquo;were&rsquo;</strong>: Past tense but plural &mdash; does not agree with the singular subject &quot;Each.&quot; &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "ce4448b7", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The passage states that disruptions to an enjoyable experience <strong>increase enjoyment</strong> and that researchers anticipate the opposite effect for an unpleasant experience.<br/><br/>The decisive clue is the phrase <strong>‘opposite effect’</strong>, which signals the relationship between the two scenarios."}, {"title": "Match the meaning", "content": "Choice B correctly reflects the inverse of the original pattern—where disruptions enhanced enjoyment, they now worsen a negative experience—by describing a negative rating for interrupted listeners compared to uninterrupted ones.<br/><br/>The other three options either reverse the wrong comparison (A), describe a time perception unrelated to emotional response (C), or address an unmentioned sensory change (D).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "ce4448b7",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The passage states that disruptions to an enjoyable experience <strong>increase enjoyment</strong> and that researchers anticipate the opposite effect for an unpleasant experience.<br/><br/>The decisive clue is the phrase <strong>‘opposite effect’</strong>, which signals the relationship between the two scenarios."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "The correct answer correctly reflects the inverse of the original pattern—where disruptions enhanced enjoyment, they now worsen a negative experience—by describing a negative rating for interrupted listeners compared to uninterrupted ones.<br/><br/>The other three options either reverse the wrong comparison, describe a time perception unrelated to emotional response, or address an unmentioned sensory change.<br/><br/>That is the correct answer."
+    }
+  ]
+}

@@ -7,7 +7,7 @@
     "question_number": 1,
     "test_name": "Module Source 227 Eng M2",
     "passage": "Which choice completes the text with the most logical and precise word or phrase?\nThough not closely related, the hedgehog tenrecs of Madagascar share basic ______ true hedgehogs, including protective spines, pointed snouts, and small body size—traits the two groups of mammals independently developed in response to equivalent roles in their respective habitats.",
-    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -38,8 +38,8 @@
     "difficulty": "Medium",
     "question_number": 2,
     "test_name": "Module Source 227 Eng M2",
-    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nNancy Bird-Walton, who was an aviation pioneer, undoubtedly accomplished much, but her place in our historical memory is perhaps more ______ than that of a noteworthy “first” such as Krystyna Chojnowska-Liskiewicz, who was the first woman to sail solo around the world, a deed for which she will always be remembered.",
-    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nNancy Bird-Walton, who was an aviation pioneer, undoubtedly accomplished much, but her place in our historical memory is perhaps more ______ than that of a noteworthy \"first\" such as Krystyna Chojnowska-Liskiewicz, who was the first woman to sail solo around the world, a deed for which she will always be remembered.",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -70,8 +70,8 @@
     "difficulty": "Medium",
     "question_number": 3,
     "test_name": "Module Source 227 Eng M2",
-    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nSome robots such as WABOT-2 (developed in 1984) and Sophia (developed in 2015) are designed to resemble humans so that people will find it easier to interact with them. To that end, certain features such as bipedal locomotion can help to ______ people’s feelings of comfort, but a robot that looks *too* human can fall into the “uncanny valley,” meaning that its appearance unintentionally unsettles those who encounter it.",
-    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nSome robots such as WABOT-2 (developed in 1984) and Sophia (developed in 2015) are designed to resemble humans so that people will find it easier to interact with them. To that end, certain features such as bipedal locomotion can help to ______ people's feelings of comfort, but a robot that looks *too* human can fall into the \"uncanny valley,\" meaning that its appearance unintentionally unsettles those who encounter it.",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -102,8 +102,8 @@
     "difficulty": "Medium",
     "question_number": 4,
     "test_name": "Module Source 227 Eng M2",
-    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nWhile recent scholarship has undermined claims that the works of twelfth-century Islamic philosopher Ibn Rushd were ______ other Muslim philosophers of his time, it is indisputable that his location in the Muslim-ruled area of what is now Spain meant that his works were primarily available thousands of miles west of the era’s center of Islamic thought.",
-    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nWhile recent scholarship has undermined claims that the works of twelfth-century Islamic philosopher Ibn Rushd were ______ other Muslim philosophers of his time, it is indisputable that his location in the Muslim-ruled area of what is now Spain meant that his works were primarily available thousands of miles west of the era's center of Islamic thought.",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -135,11 +135,11 @@
     "question_number": 5,
     "test_name": "Module Source 227 Eng M2",
     "passage": "Which choice best describes the overall structure of the text?\nCommunity science, which involves professional scientists collaborating with amateur science enthusiasts to study a topic, is often an effective and engaging way to conduct research. It can lead to greater public awareness of an ecosystem, provide youth with learning experiences outside of the classroom, and increase the amount of data researchers can collect. This approach was essential to the success of a study by biologist Grace Herzel and colleagues of butterfly wing patterns and their relation to behavior, which included findings from hundreds of students and community members in northwestern Arkansas.",
-    "question_text": "Which choice best describes the overall structure of the text?",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "It introduces the topic of a scientific study, describes the study’s importance, and then presents the study’s results."
+        "text": "It introduces the topic of a scientific study, describes the study's importance, and then presents the study's results."
       },
       {
         "label": "B",
@@ -151,7 +151,7 @@
       },
       {
         "label": "D",
-        "text": "It argues for a new approach to scientific research, comments on the public’s opinion about the approach, and then describes how that approach was applied in a certain study."
+        "text": "It argues for a new approach to scientific research, comments on the public's opinion about the approach, and then describes how that approach was applied in a certain study."
       }
     ],
     "is_fill_in_blank": false,
@@ -166,12 +166,12 @@
     "difficulty": "Medium",
     "question_number": 6,
     "test_name": "Module Source 227 Eng M2",
-    "passage": "Based on the texts, the author of Text 1 and the author of Text 2 would most likely give the same answer to which question?\nText 1\nIn separate studies, Yanbo Xiao and colleagues and Sanāa Wahbi and colleagues examined whether plants transfer nutrients to one another using a common mycorrhizal network (CMN)—a lattice of fungal strands in the soil. Xiao and colleagues excluded all pathways other than the CMN by using barriers to keep the plants’ root systems separate while allowing mycorrhizal strands through—a crucial step Wahbi and colleagues’ study did not take.\nText 2\nXiao and colleagues took the necessary precaution of separating the plants’ root systems (thereby excluding root-to-root transmission). However, any barrier used must allow the threadlike hyphae of a CMN to pass through, and this permeability would also allow liquids through. Thus, the researchers’ experimental design cannot ensure that any nutrient transfer observed can be attributed to a CMN and not to some other pathway.",
-    "question_text": "Based on the texts, the author of Text 1 and the author of Text 2 would most likely give the same answer to which question?",
+    "passage": "Based on the texts, the author of Text 1 and the author of Text 2 would most likely give the same answer to which question?\nText 1\nIn separate studies, Yanbo Xiao and colleagues and Sanāa Wahbi and colleagues examined whether plants transfer nutrients to one another using a common mycorrhizal network (CMN)—a lattice of fungal strands in the soil. Xiao and colleagues excluded all pathways other than the CMN by using barriers to keep the plants' root systems separate while allowing mycorrhizal strands through—a crucial step Wahbi and colleagues' study did not take.\nText 2\nXiao and colleagues took the necessary precaution of separating the plants' root systems (thereby excluding root-to-root transmission). However, any barrier used must allow the threadlike hyphae of a CMN to pass through, and this permeability would also allow liquids through. Thus, the researchers' experimental design cannot ensure that any nutrient transfer observed can be attributed to a CMN and not to some other pathway.",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "Are the barriers used in Xiao and colleagues’ study sufficient to ensure that nutrient transfer could only occur via a CMN?"
+        "text": "Are the barriers used in Xiao and colleagues' study sufficient to ensure that nutrient transfer could only occur via a CMN?"
       },
       {
         "label": "B",
@@ -198,8 +198,8 @@
     "difficulty": "Medium",
     "question_number": 7,
     "test_name": "Module Source 227 Eng M2",
-    "passage": "According to the text, what is one potential drawback of Hidalgo and colleagues’ method?\nResearchers César A. Hidalgo, Elisa Castaner, and Andres Sevtsuk created a computer model to predict the mix of businesses and places of interest found in a given neighborhood. The team used data from the Google Places API service to help identify movie theaters, gyms, and other businesses and map their locations. This approach has some limits—data from Places API tend to be restricted to places that are customer facing—but the data set nonetheless provides an extremely reliable source to study colocation patterns of neighborhood amenities.",
-    "question_text": "According to the text, what is one potential drawback of Hidalgo and colleagues’ method?",
+    "passage": "According to the text, what is one potential drawback of Hidalgo and colleagues' method?\nResearchers César A. Hidalgo, Elisa Castaner, and Andres Sevtsuk created a computer model to predict the mix of businesses and places of interest found in a given neighborhood. The team used data from the Google Places API service to help identify movie theaters, gyms, and other businesses and map their locations. This approach has some limits—data from Places API tend to be restricted to places that are customer facing—but the data set nonetheless provides an extremely reliable source to study colocation patterns of neighborhood amenities.",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -230,12 +230,12 @@
     "difficulty": "Hard",
     "question_number": 8,
     "test_name": "Module Source 227 Eng M2",
-    "passage": "Based on the text, the author would be most likely to disagree with which statement about vocal manipulation in hyperpop?\nA number of artists associated with hyperpop, a movement in electronic music that emerged in the 2010s, aggressively manipulate their recorded voice. The musician Laura Les, for example, shifts the pitch of her vocals to be much higher than that of her natural range. And even the hyperpop artists who don’t rely on pitch-shifting, such as Charli XCX, often distort their vocals using digital tools. Rather than being an arbitrary stylistic choice, hyperpop’s persistent modification of the voice functions as a commentary on how digital technology mediates human experience today.",
-    "question_text": "Based on the text, the author would be most likely to disagree with which statement about vocal manipulation in hyperpop?",
+    "passage": "Based on the text, the author would be most likely to disagree with which statement about vocal manipulation in hyperpop?\nA number of artists associated with hyperpop, a movement in electronic music that emerged in the 2010s, aggressively manipulate their recorded voice. The musician Laura Les, for example, shifts the pitch of her vocals to be much higher than that of her natural range. And even the hyperpop artists who don't rely on pitch-shifting, such as Charli XCX, often distort their vocals using digital tools. Rather than being an arbitrary stylistic choice, hyperpop's persistent modification of the voice functions as a commentary on how digital technology mediates human experience today.",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "It is a symbol of the influence that hyperpop exerts on listeners’ sense of self."
+        "text": "It is a symbol of the influence that hyperpop exerts on listeners' sense of self."
       },
       {
         "label": "B",
@@ -247,7 +247,7 @@
       },
       {
         "label": "D",
-        "text": "It confirms hyperpop’s ability to offset certain negative effects of digital technology."
+        "text": "It confirms hyperpop's ability to offset certain negative effects of digital technology."
       }
     ],
     "is_fill_in_blank": false,
@@ -263,7 +263,7 @@
     "question_number": 9,
     "test_name": "Module Source 227 Eng M2",
     "passage": "According to the text, what did Brown and colleagues find and why does that occur?\nJoel Brown and colleagues showed that high moonlight intensity inhibits the activity of the Arizona pocket mouse (*Perognathus amplus*), a finding explicable in terms of benefits and costs: greater lunar intensity may not enable the mice to increase foraging success enough to offset the higher chance of detection by predatory owls or hawks. Though many other nocturnal mammals respond to lunar intensity variations similarly to Arizona pocket mice, three-striped night monkeys (*Aotus trivigatus*) display the opposite pattern, as their heavy reliance on visual foraging results in a different balance of reward and risk.",
-    "question_text": "According to the text, what did Brown and colleagues find and why does that occur?",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -294,24 +294,24 @@
     "difficulty": "Medium",
     "question_number": 10,
     "test_name": "Module Source 227 Eng M2",
-    "passage": "Which quotation from “The Yellow Wallpaper” most effectively illustrates the claim?\n“The Yellow Wallpaper” is a 1892 short story by Charlotte Perkins Gilman. In the story, the narrator expresses mixed feelings about her surroundings: ______",
-    "question_text": "Which quotation from “The Yellow Wallpaper” most effectively illustrates the claim?",
+    "passage": "Which quotation from \"The Yellow Wallpaper\" most effectively illustrates the claim?\n\"The Yellow Wallpaper\" is a 1892 short story by Charlotte Perkins Gilman. In the story, the narrator expresses mixed feelings about her surroundings: ______",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "“This wallpaper has a kind of sub-pattern in a different shade, a particularly irritating one, for you can only see it in certain lights, and not clearly then.”"
+        "text": "\"This wallpaper has a kind of sub-pattern in a different shade, a particularly irritating one, for you can only see it in certain lights, and not clearly then.\""
       },
       {
         "label": "B",
-        "text": "“By moonlight / the moon shines in all night when there is a moon / I wouldn’t know it was the same paper.”"
+        "text": "\"By moonlight / the moon shines in all night when there is a moon / I wouldn't know it was the same paper.\""
       },
       {
         "label": "C",
-        "text": "“I’m really getting quite fond of the big room, all but that horrid [wall] paper.”"
+        "text": "\"I'm really getting quite fond of the big room, all but that horrid [wall] paper.\""
       },
       {
         "label": "D",
-        "text": "“The color is repellant, almost revolting: a smouldering, unclean yellow, strangely faded by the slow turning sunlight.”"
+        "text": "\"The color is repellant, almost revolting: a smouldering, unclean yellow, strangely faded by the slow turning sunlight.\""
       }
     ],
     "is_fill_in_blank": false,
@@ -327,7 +327,7 @@
     "question_number": 11,
     "test_name": "Module Source 227 Eng M2",
     "passage": "Which choice most effectively use data from the graph to complete the text?\nIt may seem that the optimal strategy for an animal pursuing prey or escaping predators is to move at maximal speed, but the energy expense of exploiting full speed capacity can disfavor such a strategy even in escape contexts, as evidenced by the fact that ______",
-    "question_text": "Which choice most effectively use data from the graph to complete the text?",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -365,8 +365,8 @@
     "difficulty": "Medium",
     "question_number": 12,
     "test_name": "Module Source 227 Eng M2",
-    "passage": "Which choice most logically completes the text?\nThe small white heron and the glossy ibis are long-legged birds that live in wetlands, like the Everglades in Florida. Laura D’Acunto and colleagues wanted to know how these birds choose an area in which to live. They looked at features of these birds’ habitats, such as how quickly water drains from the area and the amount of tree-canopy cover there is in the area. They found that small white herons prefer areas with extensive canopy cover, but this was not true for glossy ibises. The researchers therefore concluded that wetland-management strategies that increase the amount of tree canopy in potential wetland bird habitats are less likely to ______",
-    "question_text": "Which choice most logically completes the text?",
+    "passage": "Which choice most logically completes the text?\nThe small white heron and the glossy ibis are long-legged birds that live in wetlands, like the Everglades in Florida. Laura D'Acunto and colleagues wanted to know how these birds choose an area in which to live. They looked at features of these birds' habitats, such as how quickly water drains from the area and the amount of tree-canopy cover there is in the area. They found that small white herons prefer areas with extensive canopy cover, but this was not true for glossy ibises. The researchers therefore concluded that wetland-management strategies that increase the amount of tree canopy in potential wetland bird habitats are less likely to ______",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -378,11 +378,11 @@
       },
       {
         "label": "C",
-        "text": "decrease the area’s appeal to both small white herons and glossy ibises than they are to increase the appeal to other species."
+        "text": "decrease the area's appeal to both small white herons and glossy ibises than they are to increase the appeal to other species."
       },
       {
         "label": "D",
-        "text": "attract birds that don’t typically live in wetlands to the area than they are to attract small white herons or glossy ibises to the area."
+        "text": "attract birds that don't typically live in wetlands to the area than they are to attract small white herons or glossy ibises to the area."
       }
     ],
     "is_fill_in_blank": false,
@@ -397,8 +397,8 @@
     "difficulty": "Medium",
     "question_number": 13,
     "test_name": "Module Source 227 Eng M2",
-    "passage": "Which choice most logically completes the text?\nBiologists Rebecca M. Calisi-Rodriguez and George E. Bentley examined research on kestrels and canaries, both of which have been studied in the laboratory as well as in the wild, to see how studies’ settings might have affected their results. Lab studies are useful because they make it easy to control important variables, but kestrels’ surroundings can significantly affect their hormone levels. Therefore, it’s not altogether surprising that when Calisi-Rodriguez and Bentley examined studies of kestrels, they found that ______",
-    "question_text": "Which choice most logically completes the text?",
+    "passage": "Which choice most logically completes the text?\nBiologists Rebecca M. Calisi-Rodriguez and George E. Bentley examined research on kestrels and canaries, both of which have been studied in the laboratory as well as in the wild, to see how studies' settings might have affected their results. Lab studies are useful because they make it easy to control important variables, but kestrels' surroundings can significantly affect their hormone levels. Therefore, it's not altogether surprising that when Calisi-Rodriguez and Bentley examined studies of kestrels, they found that ______",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -429,8 +429,8 @@
     "difficulty": "Medium",
     "question_number": 14,
     "test_name": "Module Source 227 Eng M2",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWoven from recycled yarn and hand tufted using a carpet weaving technique passed down by the artist’s Turkish grandmother, ______ so lush and tactilely inviting that you are tempted to reach out and touch them.",
-    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWoven from recycled yarn and hand tufted using a carpet weaving technique passed down by the artist's Turkish grandmother, ______ so lush and tactilely inviting that you are tempted to reach out and touch them.",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -461,8 +461,8 @@
     "difficulty": "Medium",
     "question_number": 15,
     "test_name": "Module Source 227 Eng M2",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe editors of *Home Ground: A Guide to the American Landscape* turned to the ______ to craft the entry about “hueco,” a term referring to a water-retaining depression in a rock face.",
-    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe editors of *Home Ground: A Guide to the American Landscape* turned to the ______ to craft the entry about \"hueco,\" a term referring to a water-retaining depression in a rock face.",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -493,8 +493,8 @@
     "difficulty": "Hard",
     "question_number": 16,
     "test_name": "Module Source 227 Eng M2",
-    "passage": "Which choice completes the text so that if conforms to the conventions of Standard English?\nFeatured in *The New Woman Behind the Camera* (2021) is a photograph taken in 1935 by Karimeh ______ “Three Women,” Abbud’s image contributes to the exhibition’s goal of showcasing the diverse, innovative, often aesthetically daring work of female photographers from the 1920s through the 1950s.",
-    "question_text": "Which choice completes the text so that if conforms to the conventions of Standard English?",
+    "passage": "Which choice completes the text so that if conforms to the conventions of Standard English?\nFeatured in *The New Woman Behind the Camera* (2021) is a photograph taken in 1935 by Karimeh ______ \"Three Women,\" Abbud's image contributes to the exhibition's goal of showcasing the diverse, innovative, often aesthetically daring work of female photographers from the 1920s through the 1950s.",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -525,8 +525,8 @@
     "difficulty": "Hard",
     "question_number": 17,
     "test_name": "Module Source 227 Eng M2",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn her 1983 book *The Managed Hear: Commercialization of Human Feeling*, sociologist Arlie Russell Hochschild first explored at length her conception of a “sociology of emotions”—the idea that the various cultural and ideological frameworks a person has internalized (class, gender, political affiliation, etc.) ______ each emotional reaction that person has within a situation.",
-    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn her 1983 book *The Managed Hear: Commercialization of Human Feeling*, sociologist Arlie Russell Hochschild first explored at length her conception of a \"sociology of emotions\"—the idea that the various cultural and ideological frameworks a person has internalized (class, gender, political affiliation, etc.) ______ each emotional reaction that person has within a situation.",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -558,7 +558,7 @@
     "question_number": 18,
     "test_name": "Module Source 227 Eng M2",
     "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nPhotographer Mária Svarbová has reached audiences well beyond her home country of Slovakia. In 2020, her work was featured at the Alex Schlesinger Gallery in ______ the exhibited photographs, with their vivid pastel colors, overexposed tones, and mirrorlike symmetry, captivated audiences.",
-    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -589,8 +589,8 @@
     "difficulty": "Easy",
     "question_number": 19,
     "test_name": "Module Source 227 Eng M2",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nOn February 1, 2018, Florida-based researchers Martha A. Scholl, Maoya Bassiouni, and Angel J. Torres-Sánchez ______ climate data from several sites in Puerto Rico’s Luquillo Mountains. At 12:00 a.m., the air temperature was 15.6℃ at site CC1, the site with the highest elevation, and it had shifted to 16.2℃ by 6:00 p.m.",
-    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nOn February 1, 2018, Florida-based researchers Martha A. Scholl, Maoya Bassiouni, and Angel J. Torres-Sánchez ______ climate data from several sites in Puerto Rico's Luquillo Mountains. At 12:00 a.m., the air temperature was 15.6℃ at site CC1, the site with the highest elevation, and it had shifted to 16.2℃ by 6:00 p.m.",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -622,7 +622,7 @@
     "question_number": 20,
     "test_name": "Module Source 227 Eng M2",
     "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn 2013, a study led by the researcher Laura A. Burkle investigated the relationship between grassland arthropod populations and agricultural ______ macronutrients like nitrogen, phosphorus, and potassium. Containing fertilizers boost the productivity of crops, potentially offering more nutrients for arthropods.",
-    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -653,8 +653,8 @@
     "difficulty": "Easy",
     "question_number": 21,
     "test_name": "Module Source 227 Eng M2",
-    "passage": "Which choice completes the text with the most logical transition?\nThe world’s first airplane, the 1903 Wright Flyer, was not very aerodynamic, as evidenced by its low lift-to-drag ratio of just 8.3:1. The Douglas DC-10 jet, like most modern aircraft, is far more aerodynamic. ______ its lift-to-drag ratio is more than twice that of the Wright Flyer.",
-    "question_text": "Which choice completes the text with the most logical transition?",
+    "passage": "Which choice completes the text with the most logical transition?\nThe world's first airplane, the 1903 Wright Flyer, was not very aerodynamic, as evidenced by its low lift-to-drag ratio of just 8.3:1. The Douglas DC-10 jet, like most modern aircraft, is far more aerodynamic. ______ its lift-to-drag ratio is more than twice that of the Wright Flyer.",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -685,8 +685,8 @@
     "difficulty": "Medium",
     "question_number": 22,
     "test_name": "Module Source 227 Eng M2",
-    "passage": "Which choice completes the text with the most logical transition?\nModernista architects championed nature in their designs. ______ the whimsical archways and ornate floral tilework of Casa Amatller, a Modernista private home designed by Josep Puig i Cadafalch, couldn’t exactly grow in a forest. Still, one sees natural influences in Puig i Cadafalch’s penchant for curves (rather than right angles) and plant- and animal-inspired flourishes.",
-    "question_text": "Which choice completes the text with the most logical transition?",
+    "passage": "Which choice completes the text with the most logical transition?\nModernista architects championed nature in their designs. ______ the whimsical archways and ornate floral tilework of Casa Amatller, a Modernista private home designed by Josep Puig i Cadafalch, couldn't exactly grow in a forest. Still, one sees natural influences in Puig i Cadafalch's penchant for curves (rather than right angles) and plant- and animal-inspired flourishes.",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -717,8 +717,8 @@
     "difficulty": "Hard",
     "question_number": 23,
     "test_name": "Module Source 227 Eng M2",
-    "passage": "Which choice completes the text with the most logical transition?\nBefore the first railroads were built in Australia, engineers warned against using multiple track widths across the continent. ______ regional officials couldn’t agree on a single-width system. Thus, railways in Queensland, like the Big Pineapple Railway, were made using narrow tracks, while those in Victoria were built with wide tracks.",
-    "question_text": "Which choice completes the text with the most logical transition?",
+    "passage": "Which choice completes the text with the most logical transition?\nBefore the first railroads were built in Australia, engineers warned against using multiple track widths across the continent. ______ regional officials couldn't agree on a single-width system. Thus, railways in Queensland, like the Big Pineapple Railway, were made using narrow tracks, while those in Victoria were built with wide tracks.",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -750,7 +750,7 @@
     "question_number": 24,
     "test_name": "Module Source 227 Eng M2",
     "passage": "Which choice completes the text with the most logical transition?\nLegislators in Barbados are elected via a first-past-the-post electoral system. In this winner-take-all voting system, the seat is awarded to the candidate who receives not a majority but a plurality (i.e., greatest number) of votes. ______ if several popular candidates are vying for the same seat, it is possible for a candidate to win an election despite receiving less than 50% of the votes.",
-    "question_text": "Which choice completes the text with the most logical transition?",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -782,7 +782,7 @@
     "question_number": 25,
     "test_name": "Module Source 227 Eng M2",
     "passage": "Which choice most effectively uses information from the given sentences to emphasize when she collected both of the samples?\nWhile researching a topic, a student has taken the following notes:\n• Ynés Mexía was a Mexican American botanist.\n• Between 1917 and 1938, she collected over 150,000 botanical samples throughout the Americas.\n• She collected a sample of *Erigeron maximus* in Minas Gerais, Brazil, on February 1, 1930.\n• She collected a sample of *Brickellia diffusa* in Jalisco, Mexico, on November 23, 1926.\n• These specimens are members of the Asteraceae family.\n• They can now be viewed online at the C.V. Starr Virtual Herbarium.",
-    "question_text": "Which choice most effectively uses information from the given sentences to emphasize when she collected both of the samples?",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -813,8 +813,8 @@
     "difficulty": "Medium",
     "question_number": 26,
     "test_name": "Module Source 227 Eng M2",
-    "passage": "The student wants to emphasize the 2020 population of Acaxochitlán. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Acaxochitlán is a municipality in the state of Hidalgo, Mexico.\n• Municipalities are governmental regions responsible for providing many public services to their residents.\n• One service they provide is water treatment.\n• Acaxochitlán’s population was 46,065 in 2020.\n• Its population was 40,583 in 2010.\n• Hidalgo is divided into 84 municipalities.",
-    "question_text": "The student wants to emphasize the 2020 population of Acaxochitlán. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "passage": "The student wants to emphasize the 2020 population of Acaxochitlán. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Acaxochitlán is a municipality in the state of Hidalgo, Mexico.\n• Municipalities are governmental regions responsible for providing many public services to their residents.\n• One service they provide is water treatment.\n• Acaxochitlán's population was 46,065 in 2020.\n• Its population was 40,583 in 2010.\n• Hidalgo is divided into 84 municipalities.",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -845,12 +845,12 @@
     "difficulty": "Medium",
     "question_number": 27,
     "test_name": "Module Source 227 Eng M2",
-    "passage": "Which choice most effectively uses information from the given sentences to make and support a generalization about symbols on flags?\nWhile researching a topic, a student has taken the following notes:\n• Vexillology is the study of flags.\n• The flags of many countries include symbols like animals, plants, or landforms.\n• These symbols often represent an aspect of the region’s history, culture, or landscape.\n• The flag of Grenada includes a clove of nutmeg.\n• The flag of Andorra includes a cow.",
-    "question_text": "Which choice most effectively uses information from the given sentences to make and support a generalization about symbols on flags?",
+    "passage": "Which choice most effectively uses information from the given sentences to make and support a generalization about symbols on flags?\nWhile researching a topic, a student has taken the following notes:\n• Vexillology is the study of flags.\n• The flags of many countries include symbols like animals, plants, or landforms.\n• These symbols often represent an aspect of the region's history, culture, or landscape.\n• The flag of Grenada includes a clove of nutmeg.\n• The flag of Andorra includes a cow.",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "Grenada’s flag includes a clove of nutmeg, a symbol that is important to that country’s national identity."
+        "text": "Grenada's flag includes a clove of nutmeg, a symbol that is important to that country's national identity."
       },
       {
         "label": "B",
@@ -858,7 +858,7 @@
       },
       {
         "label": "C",
-        "text": "The flags of some countries include symbols of plants: Grenada’s, for example, includes a clove of nutmeg."
+        "text": "The flags of some countries include symbols of plants: Grenada's, for example, includes a clove of nutmeg."
       },
       {
         "label": "D",

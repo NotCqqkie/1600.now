@@ -1,1 +1,15 @@
-{"questionId":"ff866f0f-f295-4895-b84d-a5c603adf51a_12","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage states that by the mid-1980s, environmental reforms and declining meat prices caused a &quot;natural forest regrowth.&quot; The blank must be filled with graph data that directly shows forest cover increasing after that period."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'difference between Class I-IV and Class VI in 2000'</strong>: Compares two classes at a single point in time &mdash; shows no change over time and no regrowth trend. &#10007;</li><li><strong>Choice B &mdash; 'increase in forest cover area for all classes from 1979 to 2000'</strong>: A rise across all classes spanning the post-1980s period directly evidences the regrowth the passage describes. &#10003;</li><li><strong>Choice C &mdash; 'decrease in forest cover area for all classes from 1960 to 1979'</strong>: Shows the earlier deforestation trend, not the regrowth that followed. &#10007;</li><li><strong>Choice D &mdash; 'similarity in Class I-IV and Class VII in 1986'</strong>: A single-year comparison between two classes shows no directional change and does not demonstrate regrowth. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "ff866f0f-f295-4895-b84d-a5c603adf51a_12",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage states that by the mid-1980s, environmental reforms and declining meat prices caused a \"natural forest regrowth.\" The blank must be filled with graph data that directly shows forest cover increasing after that period."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"difference between the forest cover area in Class I-IV and in Class VI in 2000.\"</strong>: Compares two classes at a single point in time &mdash; shows no change over time and no regrowth trend. &#10007;</li><li><strong>\"increase in the forest cover area for all classes from 1979 to 2000.\"</strong>: A rise across all classes spanning the post-1980s period directly evidences the regrowth the passage describes. &#10003;</li><li><strong>\"decrease in the forest cover area for all classes from 1960 to 1979.\"</strong>: Shows the earlier deforestation trend, not the regrowth that followed. &#10007;</li><li><strong>\"similarity in forest cover area in Class I-IV and Class VII in 1986.\"</strong>: A single-year comparison between two classes shows no directional change and does not demonstrate regrowth. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+    }
+  ]
+}

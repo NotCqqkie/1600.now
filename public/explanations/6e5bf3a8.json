@@ -1,1 +1,15 @@
-{"questionId":"6e5bf3a8","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence has one subject &mdash; &ldquo;A recent study&rdquo; &mdash; and needs a main verb. The blank must be a finite (conjugated) verb that can serve as the predicate of an independent clause; a non-finite form would leave the clause without a true verb."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;explains&rsquo;</strong>: a finite present-tense verb that agrees with the singular subject &ldquo;A recent study&rdquo; and serves as the main predicate; the clause is grammatically complete. &#10003;</li><li><strong>Choice B &mdash; &lsquo;explaining&rsquo;</strong>: a present participle (non-finite); it cannot be the main verb of a clause and creates a sentence fragment. &#10007;</li><li><strong>Choice C &mdash; &lsquo;having explained&rsquo;</strong>: a perfect participle (non-finite); like Choice B, it cannot anchor an independent clause and leaves the sentence without a predicate. &#10007;</li><li><strong>Choice D &mdash; &lsquo;to explain&rsquo;</strong>: an infinitive (non-finite); infinitives cannot function as the main verb of a clause and produce a sentence fragment. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "6e5bf3a8",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence has one subject &mdash; &ldquo;A recent study&rdquo; &mdash; and needs a main verb. The blank must be a finite (conjugated) verb that can serve as the predicate of an independent clause; a non-finite form would leave the clause without a true verb."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;explains&rsquo;</strong>: a finite present-tense verb that agrees with the singular subject &ldquo;A recent study&rdquo; and serves as the main predicate; the clause is grammatically complete. &#10003;</li><li><strong>Choice B &mdash; &lsquo;explaining&rsquo;</strong>: a present participle (non-finite); it cannot be the main verb of a clause and creates a sentence fragment. &#10007;</li><li><strong>Choice C &mdash; &lsquo;having explained&rsquo;</strong>: a perfect participle (non-finite); like Choice B, it cannot anchor an independent clause and leaves the sentence without a predicate. &#10007;</li><li><strong>Choice D &mdash; &lsquo;to explain&rsquo;</strong>: an infinitive (non-finite); infinitives cannot function as the main verb of a clause and produce a sentence fragment. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

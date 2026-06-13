@@ -9,11 +9,11 @@
     },
     {
       "title": "Bound a single resistor c",
-      "content": "Let the 5 remaining resistances be $c, r_2, r_3, r_4, r_5$, all positive, with $c + r_2 + r_3 + r_4 + r_5 = 40$. Since each $r_i > 0$, the four companions sum to $40 - c > 0$, which requires $c \\lt 40$. Combined with $c > 0$, the strict mathematical bound is $0 \\lt c \\lt 40$."
+      "content": "Let the 5 remaining resistances be $c, r_2, r_3, r_4, r_5$, all positive, with $c + r_2 + r_3 + r_4 + r_5 = 40$. Since each $r_i \\gt  0$, the four companions sum to $40 - c \\gt  0$, which requires $c \\lt 40$. Combined with $c \\gt  0$, the strict mathematical bound is $0 \\lt c \\lt 40$."
     },
     {
       "title": "Check each inequality",
-      "content": "<ul><li>$40 \\lt c \\lt 50$ &mdash; impossible: $c$ alone would exceed the 40-ohm total for the group of five.</li><li>$40 \\lt c \\lt 60$ &mdash; also impossible for the same reason.</li><li>$0 \\lt c \\lt 10$ &mdash; too tight; $c$ could equal, say, 15 ohms (with four companions averaging 6.25 ohms each), so this range wrongly excludes valid values.</li><li>$0 \\lt c \\lt 20$ &mdash; fully contained within the valid range $0 \\lt c \\lt 40$ and not ruled out by the constraints; it is the only answer choice that is both possible and not obviously too narrow compared to the remaining options.</li></ul>Choices C and D are eliminated outright; choice A is too restrictive. Choice B is the best available answer &mdash; <strong>B</strong> is correct."
+      "content": "<ul><li>$40 \\lt c \\lt 50$ &mdash; impossible: $c$ alone would exceed the 40-ohm total for the group of five.</li><li>$40 \\lt c \\lt 60$ &mdash; also impossible for the same reason.</li><li>$0 \\lt c \\lt 10$ &mdash; too tight; $c$ could equal, say, 15 ohms (with four companions averaging 6.25 ohms each), so this range wrongly excludes valid values.</li><li>$0 \\lt c \\lt 20$ &mdash; fully contained within the valid range $0 \\lt c \\lt 40$ and not ruled out by the constraints; it is the only answer choice that is both possible and not obviously too narrow compared to the impossible or overly narrow intervals.</li></ul>The other listed ranges are eliminated outright: ranges above $40$ are impossible, and $0 \\lt c \\lt 10$ is too restrictive. The interval $0 \\lt c \\lt 20$ is the best available answer &mdash; <strong>B</strong> is correct."
     }
   ]
 }

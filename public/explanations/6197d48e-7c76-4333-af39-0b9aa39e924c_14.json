@@ -13,7 +13,7 @@
     },
     {
       "title": "Eliminate each choice",
-      "content": "<ul><li><strong>A) Decreasing exponential:</strong> $2.93x$ is not exponential, and its outputs grow as $x$ grows. &cross;</li><li><strong>B) Decreasing linear:</strong> linear is right, but the slope $2.93$ is positive, so $f$ increases, not decreases. &cross;</li><li><strong>C) Increasing exponential:</strong> $2.93x$ is a straight line, not a curve of the form $a\\cdot b^x$. &cross;</li><li><strong>D) Increasing linear:</strong> linear with positive slope $2.93$. &check;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "content": "<ul><li><strong>A) Decreasing exponential:</strong> $2.93x$ is not exponential, and its outputs grow as $x$ grows. &cross;</li><li><strong>B) Decreasing linear:</strong> linear is right, but the slope $2.93$ is positive, so $f$ increases, not decreases. &cross;</li><li><strong>C) Increasing exponential:</strong> $2.93x$ is a straight line, not a curve of the form $a\\cdot b^x$. &cross;</li><li><strong>D) Increasing linear:</strong> linear with positive slope $2.93$. &check;</li></ul>That confirms <strong>D</strong> is correct."
     }
   ]
 }

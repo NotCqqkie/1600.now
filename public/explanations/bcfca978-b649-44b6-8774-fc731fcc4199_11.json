@@ -1,1 +1,15 @@
-{"questionId": "bcfca978-b649-44b6-8774-fc731fcc4199_11", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The question asks which choice best states the main idea of the passage. The passage covers two things: Evelyn Cunningham&apos;s individual contributions to civil rights journalism, and the National Association of Black Journalists&apos; broader effort to recognize and preserve Black journalism history."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A</strong>: focuses too narrowly on Cunningham alone without capturing the institutional role of the NABJ. &#10007;</li><li><strong>Choice B</strong>: addresses the NABJ but omits Cunningham&apos;s specific contributions that anchor the passage. &#10007;</li><li><strong>Choice C</strong>: correctly captures both elements &mdash; the significance of individual journalists like Cunningham and the importance of professional associations in preserving the &apos;rich history&apos; of Black journalism in the United States. &#10003;</li><li><strong>Choice D</strong>: misrepresents the passage&apos;s scope or emphasis, focusing on a detail rather than the central argument. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "bcfca978-b649-44b6-8774-fc731fcc4199_11",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks which choice best states the main idea of the passage. The passage covers two things: Evelyn Cunningham&apos;s individual contributions to civil rights journalism, and the National Association of Black Journalists&apos; broader effort to recognize and preserve Black journalism history."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Cunningham's achievements are often overlooked in countries other than the United States.</strong>: focuses too narrowly on Cunningham alone without capturing the institutional role of the NABJ. &#10007;</li><li><strong>Choice B &mdash; The National Association of Black Journalists was founded in Washington, DC. in the 1900s.</strong>: addresses the NABJ but omits Cunningham&apos;s specific contributions that anchor the passage. &#10007;</li><li><strong>Choice C &mdash; Black journalism in the United States has an important history that the National Association of Black Journalists helps to honor.</strong>: correctly captures both elements &mdash; the significance of individual journalists like Cunningham and the importance of professional associations in preserving the &apos;rich history&apos; of Black journalism in the United States. &#10003;</li><li><strong>Choice D &mdash; Black journalism has an interesting history both inside and outside the United States.</strong>: misrepresents the passage&apos;s scope or emphasis, focusing on a detail rather than the central argument. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

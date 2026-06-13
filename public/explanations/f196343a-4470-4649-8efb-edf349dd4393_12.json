@@ -17,7 +17,7 @@
     },
     {
       "title": "Eliminate wrong choices",
-      "content": "<ul><li>Choice A: The margin of error will be lower — correct; larger sample shrinks MOE.</li><li>Choice B: The margin of error will be higher — wrong; larger $$n$$ reduces MOE, not increases it. Eliminated.</li><li>Choice C: The estimate will be lower — wrong; sample size does not bias the estimate downward. Eliminated.</li><li>Choice D: The estimate will be higher — wrong; same reasoning, the estimate is not systematically shifted. Eliminated.</li></ul>That matches choice A — <strong>A</strong> is correct."
+      "content": "<ul><li><strong>\"The margin of error will be lower.\"</strong>: The margin of error will be lower — correct; larger sample shrinks MOE.</li><li><strong>\"The margin of error will be higher.\"</strong>: The margin of error will be higher — wrong; larger $$n$$ reduces MOE, not increases it. Eliminated.</li><li><strong>\"The estimate of the percentage of the gym's members that would continue to pay for a membership if the price increased will be lower.\"</strong>: The estimate will be lower — wrong; sample size does not bias the estimate downward. Eliminated.</li><li><strong>\"The estimate of the percentage of the gym's members that would continue to pay for a membership if the price increased will be higher.\"</strong>: The estimate will be higher — wrong; same reasoning, the estimate is not systematically shifted. Eliminated.</li></ul>That matches the correct answer — <strong>A</strong> is correct."
     }
   ]
 }

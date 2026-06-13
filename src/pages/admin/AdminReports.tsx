@@ -10,7 +10,7 @@ import {
   listQuestionReports,
   type QuestionReport,
 } from "@/lib/questionReports";
-import { getBankQuestionBySourceId, type BankSubject } from "@/data/questionBank";
+import { loadBankQuestionBySourceId, type BankSubject } from "@/data/questionBank";
 
 type Row = QuestionReport & {
   preview?: string;
@@ -30,10 +30,10 @@ const parseStableId = (
   return { subject: match[1] as BankSubject, sourceId: match[2] };
 };
 
-const enrich = (report: QuestionReport): Row => {
+const enrich = async (report: QuestionReport): Promise<Row> => {
   const { subject, sourceId } = parseStableId(report.questionId);
   if (!subject || !sourceId) return report;
-  const question = getBankQuestionBySourceId(subject, sourceId, "all");
+  const question = await loadBankQuestionBySourceId(subject, sourceId, "all");
   const text = question?.questionText ?? question?.prompt ?? question?.passage ?? "";
   const preview = text.replace(/\s+/g, " ").trim().slice(0, 160);
   return { ...report, preview, bankSubject: subject, bankSourceId: sourceId };
@@ -60,9 +60,10 @@ const AdminReports = () => {
     setReports(null);
     setError(null);
     listQuestionReports()
+      .then((rows) => Promise.all(rows.map(enrich)))
       .then((rows) => {
         if (cancelled) return;
-        setReports(rows.map(enrich));
+        setReports(rows);
       })
       .catch((err: unknown) => {
         if (cancelled) return;

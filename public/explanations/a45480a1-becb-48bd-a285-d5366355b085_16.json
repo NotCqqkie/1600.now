@@ -1,1 +1,15 @@
-{"questionId": "a45480a1-becb-48bd-a285-d5366355b085_16", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the blank must be", "content": "The sentence &ldquo;Cordeiro ______ the library&rsquo;s collections&rdquo; is an independent clause and needs a finite main verb. A finite verb can stand alone as the predicate of a clause; non-finite forms (participles, infinitives) cannot."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; 'having overseen'</strong>: A present-participle phrase (&ldquo;having overseen&rdquo;) is non-finite and cannot function as the main verb of an independent clause. &#10007;</li><li><strong>Choice B &mdash; 'oversees'</strong>: Simple present third-person singular &mdash; a finite verb that correctly fills the main-verb slot and matches the present-tense context of Cordeiro&rsquo;s current role. &#10003;</li><li><strong>Choice C &mdash; 'to oversee'</strong>: An infinitive is non-finite and cannot serve as the main verb of an independent clause. &#10007;</li><li><strong>Choice D &mdash; 'overseeing'</strong>: A present participle is non-finite; without an auxiliary verb (e.g., &ldquo;is overseeing&rdquo;), it cannot stand as the clause&rsquo;s main verb. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "a45480a1-becb-48bd-a285-d5366355b085_16",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the blank must be",
+      "content": "The sentence &ldquo;Cordeiro ______ the library&rsquo;s collections&rdquo; is an independent clause and needs a finite main verb. A finite verb can stand alone as the predicate of a clause; non-finite forms (participles, infinitives) cannot."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; having overseen</strong>: A present-participle phrase (&ldquo;having overseen&rdquo;) is non-finite and cannot function as the main verb of an independent clause. &#10007;</li><li><strong>Choice B &mdash; oversees</strong>: Simple present third-person singular &mdash; a finite verb that correctly fills the main-verb slot and matches the present-tense context of Cordeiro&rsquo;s current role. &#10003;</li><li><strong>Choice C &mdash; to oversee</strong>: An infinitive is non-finite and cannot serve as the main verb of an independent clause. &#10007;</li><li><strong>Choice D &mdash; overseeing</strong>: A present participle is non-finite; without an auxiliary verb (e.g., &ldquo;is overseeing&rdquo;), it cannot stand as the clause&rsquo;s main verb. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

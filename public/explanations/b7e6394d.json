@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Calculate the cost per mile driven",
-      "content": "Gasoline costs \\$4 per gallon, and the car travels 25 miles per gallon. The cost per mile driven is $\\frac{4}{25}$ dollars per mile. If Alan drives $m$ fewer miles, his total savings is $\\left(\\frac{4}{25}\\right)m$ dollars. This tells us the coefficient must be $\\frac{4}{25}$, not $\\frac{25}{4}$, so we can eliminate choices A and B immediately."
+      "content": "Gasoline costs \\$4 per gallon, and the car travels 25 miles per gallon. The cost per mile driven is $\\frac{4}{25}$ dollars per mile. If Alan drives $m$ fewer miles, his total savings is $\\left(\\frac{4}{25}\\right)m$ dollars. This tells us the coefficient must be $\\frac{4}{25}$, not $\\frac{25}{4}$, so we can eliminate the other choices immediately."
     },
     {
       "title": "Set savings equal to the target amount",
-      "content": "Alan wants to reduce his weekly gas spending by \\$5. His savings from driving $m$ fewer miles is $\\left(\\frac{4}{25}\\right)m$, so the equation is $$\\left(\\frac{4}{25}\\right)m = 5.$$ The right side must be 5 (the savings target), not 95, so choice C is eliminated. That matches choice D — <strong>D</strong> is correct."
+      "content": "Alan wants to reduce his weekly gas spending by \\$5. His savings from driving $m$ fewer miles is $\\left(\\frac{4}{25}\\right)m$, so the equation is $$\\left(\\frac{4}{25}\\right)m = 5.$$ The right side must be 5 (the savings target), not 95, so an equation set equal to $95$ is eliminated. That is the correct answer."
     }
   ]
 }

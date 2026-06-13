@@ -9,11 +9,11 @@
     },
     {
       "title": "Identify the greatest solution",
-      "content": "The larger root is $-\\tfrac{5}{8}+\\tfrac{\\sqrt{105}}{8}$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."
+      "content": "The larger root is $-\\tfrac{5}{8}+\\tfrac{\\sqrt{105}}{8}$. That is the correct answer."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice B, $-\\frac{5}{8}+\\frac{\\sqrt{105}}{8}$. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches $-\\frac{5}{8}+\\frac{\\sqrt{105}}{8}$. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
     }
   ]
 }

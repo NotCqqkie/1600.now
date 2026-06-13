@@ -1,1 +1,15 @@
-{"questionId": "ce282575", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the student's specific requirement", "content": "The student's goal is to contrast the purposes of the two maps. Any correct answer must explicitly state what each map's purpose is and show how they differ from each other."}, {"title": "Eliminate wrong choices and confirm the answer", "content": "Check each choice against the requirement:\n<ul>\n<li><strong>Choice A &mdash; '<em>The Hobbit</em>&apos;s opening map introduces readers to the fictional world they are about to enter, while the closing map allows them to reconstruct the story they have just read.'</strong>: Names both purposes and contrasts them directly. &#10003;</li>\n<li><strong>Choice B &mdash; '<em>The Hobbit</em>, a novel published by J.R.R. Tolkien in 1937, features a reproduction of a map that the characters use on their quest, as well as a map that appears at the end of the novel.'</strong>: Focuses on publication details; does not state either map's purpose. &#10007;</li>\n<li><strong>Choice C &mdash; '<em>The Hobbit</em>&apos;s two maps, one opening and one closing the novel, each serve a purpose for readers.'</strong>: Acknowledges that each map has a purpose but never explains what those purposes are. &#10007;</li>\n<li><strong>Choice D &mdash; 'In 1937, author J.R.R. Tolkien published <em>The Hobbit</em>, a novel featuring both an opening and a closing map.'</strong>: Gives publication information only; no mention of either map's purpose. &#10007;</li>\n</ul>\nThat matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "ce282575",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the student's specific requirement",
+      "content": "The student's goal is to contrast the purposes of the two maps. Any correct answer must explicitly state what each map's purpose is and show how they differ from each other."
+    },
+    {
+      "title": "Eliminate wrong choices and confirm the answer",
+      "content": "Check each choice against the requirement:\n<ul>\n<li><strong>Choice A &mdash; <em>The Hobbit</em>'s opening map introduces readers to the fictional world they are about to enter, while the closing map allows them to reconstruct the story they have just read.</strong>: Names both purposes and contrasts them directly. &#10003;</li>\n<li><strong>Choice B &mdash; <em>The Hobbit</em>, a novel published by J.R.R. Tolkien in 1937, features a reproduction of a map that the characters use on their quest, as well as a map that appears at the end of the novel.</strong>: Focuses on publication details; does not state either map's purpose. &#10007;</li>\n<li><strong>Choice C &mdash; <em>The Hobbit</em>'s two maps, one opening and one closing the novel, each serve a purpose for readers.</strong>: Acknowledges that each map has a purpose but never explains what those purposes are. &#10007;</li>\n<li><strong>Choice D &mdash; In 1937, author J.R.R. Tolkien published <em>The Hobbit</em>, a novel featuring both an opening and a closing map.</strong>: Gives publication information only; no mention of either map's purpose. &#10007;</li>\n</ul>\nThat is the correct answer."
+    }
+  ]
+}

@@ -7,7 +7,7 @@
     "question_number": 1,
     "test_name": "Module Source 224 Eng M1",
     "passage": "Which choice completes the text with the most logical and precise word or phrase?\nThe National Heritage Fellowship was created to honor exceptional folk and traditional artists in the United States. In 2013, the fellowship was given to the Pyramid Lake Paiute storyteller Ralph Burns. Burns was ______ to receive it because of his lifetime contributions to the arts.",
-    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -38,8 +38,8 @@
     "difficulty": "Easy",
     "question_number": 2,
     "test_name": "Module Source 224 Eng M1",
-    "passage": "As used in the text, what does the word “constantly” most nearly mean?\nThe following text is adapted from Willa Cather’s 1912 novel *Alexander’s Bridge*.\nFor the next few days Alexander was very busy. He took a desk in the office of a [Scottish] engineering firm on Henrietta Street, and was at work almost <u>constantly</u>. He avoided the clubs and usually dined alone at his hotel.",
-    "question_text": "As used in the text, what does the word “constantly” most nearly mean?",
+    "passage": "As used in the text, what does the word \"constantly\" most nearly mean?\nThe following text is adapted from Willa Cather's 1912 novel *Alexander's Bridge*.\nFor the next few days Alexander was very busy. He took a desk in the office of a [Scottish] engineering firm on Henrietta Street, and was at work almost <u>constantly</u>. He avoided the clubs and usually dined alone at his hotel.",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -70,8 +70,8 @@
     "difficulty": "Easy",
     "question_number": 3,
     "test_name": "Module Source 224 Eng M1",
-    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nThough it does not guarantee a book’s commercial success, ______ can play a big role in that success—a well-executed marketing campaign helped to make Danielle Steel’s novel *The Gift* the fourth-best-selling novel of 1994.",
-    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nThough it does not guarantee a book's commercial success, ______ can play a big role in that success—a well-executed marketing campaign helped to make Danielle Steel's novel *The Gift* the fourth-best-selling novel of 1994.",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -103,7 +103,7 @@
     "question_number": 4,
     "test_name": "Module Source 224 Eng M1",
     "passage": "Which choice completes the text with the most logical and precise word or phrase?\nAccording to a team of neuroeconomists from the University of Zurich, ease of decision making may be linked to communication between two brain regions, the prefrontal cortex and the parietal cortex. Individuals tend to be more decisive if the information flow between the regions is intensified, whereas they make choices more slowly when information flow is ______.",
-    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -134,8 +134,8 @@
     "difficulty": "Medium",
     "question_number": 5,
     "test_name": "Module Source 224 Eng M1",
-    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nEcologist Exequiel Ezcurra and colleagues found that the inhabitants of the Mexica empire used natural landmarks to track time with a high degree of ______. By observing the sun’s position in relation to various points on the mountains surrounding the Basin of Mexico, the Mexica were able to precisely identify the dates when significant events such as solstices occurred.",
-    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nEcologist Exequiel Ezcurra and colleagues found that the inhabitants of the Mexica empire used natural landmarks to track time with a high degree of ______. By observing the sun's position in relation to various points on the mountains surrounding the Basin of Mexico, the Mexica were able to precisely identify the dates when significant events such as solstices occurred.",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -166,20 +166,20 @@
     "difficulty": "Easy",
     "question_number": 6,
     "test_name": "Module Source 224 Eng M1",
-    "passage": "Which choice best states the main purpose of the text?\nThe Old Manse in Concord, Massachusetts, is the house where Ralph Waldo Emerson lived for a few years and wrote his essay “Nature.” Now the house is a museum dedicated to Emerson’s life and writings. Visitors travel to this museum to feel more connected to an author they admire. To encourage that sense of connection, the museum’s curators recommend nearby hiking trails and organize outdoor activities. Such activities help visitors appreciate the natural scenery that inspired Emerson.",
-    "question_text": "Which choice best states the main purpose of the text?",
+    "passage": "Which choice best states the main purpose of the text?\nThe Old Manse in Concord, Massachusetts, is the house where Ralph Waldo Emerson lived for a few years and wrote his essay \"Nature.\" Now the house is a museum dedicated to Emerson's life and writings. Visitors travel to this museum to feel more connected to an author they admire. To encourage that sense of connection, the museum's curators recommend nearby hiking trails and organize outdoor activities. Such activities help visitors appreciate the natural scenery that inspired Emerson.",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "To summarize Emerson’s biography."
+        "text": "To summarize Emerson's biography."
       },
       {
         "label": "B",
-        "text": "To explain why readers enjoy Emerson’s works."
+        "text": "To explain why readers enjoy Emerson's works."
       },
       {
         "label": "C",
-        "text": "To describe a museum focused on Emerson’s life and works."
+        "text": "To describe a museum focused on Emerson's life and works."
       },
       {
         "label": "D",
@@ -199,7 +199,7 @@
     "question_number": 7,
     "test_name": "Module Source 224 Eng M1",
     "passage": "Which choice best states the function of the underlined sentence in the text as a whole?\nHorses and toads can see in three dimensions (3D), which helps them perceive distance and depth. Octopuses and squid are thought to lack 3D vision. Many researchers once thought the same about cuttlefish, but Trevor Wardill and his team wanted to test whether this assumption was true. The team studied how cuttlefish wearing 3D glasses reacted to 3D images of shrimp (a favorite prey) projected on a tank wall. <u>Cuttlefish changed their striking position to match the 3D images, suggesting that their vision is more like that of horses and toads than that of octopuses or squid.</u>",
-    "question_text": "Which choice best states the function of the underlined sentence in the text as a whole?",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -230,20 +230,20 @@
     "difficulty": "Medium",
     "question_number": 8,
     "test_name": "Module Source 224 Eng M1",
-    "passage": "Which choice best describes the function of the references to “population density” and “individual physical fitness” in the text as a whole?\nBoston has high pedestrian traffic, but simply replicating a feature of Boston associated with walkability—e.g., its high number of intersections—may be insufficient to induce increased walking in other cities. As urbanist Mariela Alfonzo argues, our understanding of individuals’ decision-making about whether to walk is insufficiently robust: some studies emphasize the role of <u>population density</u>, others the role of <u>individual physical fitness</u>, and so on, but walking decisions are made in complex contexts in which multiple conditions and needs inform individuals’ choices.",
-    "question_text": "Which choice best describes the function of the references to “population density” and “individual physical fitness” in the text as a whole?",
+    "passage": "Which choice best describes the function of the references to \"population density\" and \"individual physical fitness\" in the text as a whole?\nBoston has high pedestrian traffic, but simply replicating a feature of Boston associated with walkability—e.g., its high number of intersections—may be insufficient to induce increased walking in other cities. As urbanist Mariela Alfonzo argues, our understanding of individuals' decision-making about whether to walk is insufficiently robust: some studies emphasize the role of <u>population density</u>, others the role of <u>individual physical fitness</u>, and so on, but walking decisions are made in complex contexts in which multiple conditions and needs inform individuals' choices.",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "They represent factors that have been identified as important influences on walking decisions but that the text suggests are merely some of the many factors that may contribute to people’s decision-making about walking."
+        "text": "They represent factors that have been identified as important influences on walking decisions but that the text suggests are merely some of the many factors that may contribute to people's decision-making about walking."
       },
       {
         "label": "B",
-        "text": "They are examples of factors that studies suggest are important in people’s decision making about walking but that the text claims most people rarely consider when making walking decisions."
+        "text": "They are examples of factors that studies suggest are important in people's decision making about walking but that the text claims most people rarely consider when making walking decisions."
       },
       {
         "label": "C",
-        "text": "They identify factors that Alfonzo argues have been overemphasized in studies of decision-making about walking but that the text asserts are relevant to most people’s walking decisions."
+        "text": "They identify factors that Alfonzo argues have been overemphasized in studies of decision-making about walking but that the text asserts are relevant to most people's walking decisions."
       },
       {
         "label": "D",
@@ -262,8 +262,8 @@
     "difficulty": "Medium",
     "question_number": 9,
     "test_name": "Module Source 224 Eng M1",
-    "passage": "Which choice best states the main idea of the text?\nThe following text is adapted from Emily Dickinson’s circa 1873 poem “There is no Frigate like a Book.” A frigate is a light, fast ship; coursers are swift horses.\nThere is no Frigate like a Book\nTo take us Lands away\nNor any Coursers like a Page\nOf prancing Poetry—\nThis Traverse may the poorest take\nWithout oppress of Toll—\nHow frugal is the Chariot\nThat bears the Human soul.",
-    "question_text": "Which choice best states the main idea of the text?",
+    "passage": "Which choice best states the main idea of the text?\nThe following text is adapted from Emily Dickinson's circa 1873 poem \"There is no Frigate like a Book.\" A frigate is a light, fast ship; coursers are swift horses.\nThere is no Frigate like a Book\nTo take us Lands away\nNor any Coursers like a Page\nOf prancing Poetry—\nThis Traverse may the poorest take\nWithout oppress of Toll—\nHow frugal is the Chariot\nThat bears the Human soul.",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -271,7 +271,7 @@
       },
       {
         "label": "B",
-        "text": "Reading is a way of defying the modern world’s emphasis on money."
+        "text": "Reading is a way of defying the modern world's emphasis on money."
       },
       {
         "label": "C",
@@ -295,7 +295,7 @@
     "question_number": 10,
     "test_name": "Module Source 224 Eng M1",
     "passage": "Which choice best states the main idea of the text?\nDarcie Little Badger is a novelist and a member of the Lipan Apache Tribe of Texas. Critics and fellow writers have praised her work for combining traditional Apache stories with popular genres of literature, such as fantasy and horror fiction. But Little Badger is not the only Indigenous writer to blend traditional stories with popular literature. In the 2016 novel *Wrist*, Nathan Adler successfully blended the oral storytelling tradition of their people, the Anishinaabe, with horror fiction.",
-    "question_text": "Which choice best states the main idea of the text?",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -326,24 +326,24 @@
     "difficulty": "Medium",
     "question_number": 11,
     "test_name": "Module Source 224 Eng M1",
-    "passage": "Which quotation from a translation of *Uncle Vanya* most effectively illustrates the claim?\n*Uncle Vanya: Scenes from Country Life in Four Acts* is an 1898 play by Anton Chekhov, originally written in Russian. In the play, Professor Serebrakoff and his wife Helena have come to stay at their country estate, which Vanya manages with the help of Sonia, the professor’s daughter from a previous marriage. Chekhov portrays the professor as being unable to adjust to living at the country estate, as is evident when ______",
-    "question_text": "Which quotation from a translation of *Uncle Vanya* most effectively illustrates the claim?",
+    "passage": "Which quotation from a translation of *Uncle Vanya* most effectively illustrates the claim?\n*Uncle Vanya: Scenes from Country Life in Four Acts* is an 1898 play by Anton Chekhov, originally written in Russian. In the play, Professor Serebrakoff and his wife Helena have come to stay at their country estate, which Vanya manages with the help of Sonia, the professor's daughter from a previous marriage. Chekhov portrays the professor as being unable to adjust to living at the country estate, as is evident when ______",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "Vanya says to Professor Serebrakoff, “We used to think of you as almost superhuman, but now the scales have fallen from my eyes and I see you as you are!”."
+        "text": "Vanya says to Professor Serebrakoff, \"We used to think of you as almost superhuman, but now the scales have fallen from my eyes and I see you as you are!\"."
       },
       {
         "label": "B",
-        "text": "Professor Serebrakoff says, “I am a book worm and a scholar, and am unfamiliar with practical affairs. I cannot. I find dispense with the help of well-informed people.”."
+        "text": "Professor Serebrakoff says, \"I am a book worm and a scholar, and am unfamiliar with practical affairs. I cannot. I find dispense with the help of well-informed people.\"."
       },
       {
         "label": "C",
-        "text": "Professor Serebrakoff says to Helena, “I am used to my library and the lecture hall and to the esteem and admiration of my colleagues. Now I suddenly find myself plunged into this wilderness [the estate], condemned to see the same stupid people from morning till night and listen to their futile conversations.”."
+        "text": "Professor Serebrakoff says to Helena, \"I am used to my library and the lecture hall and to the esteem and admiration of my colleagues. Now I suddenly find myself plunged into this wilderness [the estate], condemned to see the same stupid people from morning till night and listen to their futile conversations.\"."
       },
       {
         "label": "D",
-        "text": "Professor Serebrakoff says to Helena and Sonia, “No, no, no! Don’t leave me alone with [Vanya]! Oh. don’t He will begin to lecture me.”."
+        "text": "Professor Serebrakoff says to Helena and Sonia, \"No, no, no! Don't leave me alone with [Vanya]! Oh. don't He will begin to lecture me.\"."
       }
     ],
     "is_fill_in_blank": false,
@@ -358,24 +358,24 @@
     "difficulty": "Medium",
     "question_number": 12,
     "test_name": "Module Source 224 Eng M1",
-    "passage": "Which quotation from a researcher would best support the student’s assertion?\nFish whose DNA has been modified to include genetic material from other species are known as transgenic. Some transgenic fish have genes from jellyfish that result in fluorescence (that is, they glow in the dark). Although these fish were initially engineered for research purposes in the 1990s, they were sold as pets in the 2000s and can now be found in the wild in creeks in Brazil. A student in a biology seminar who is writing a paper on these fish asserts that their escape from Brazilian fish farms into the wild may have significant negative long-term ecological effects.",
-    "question_text": "Which quotation from a researcher would best support the student’s assertion?",
+    "passage": "Which quotation from a researcher would best support the student's assertion?\nFish whose DNA has been modified to include genetic material from other species are known as transgenic. Some transgenic fish have genes from jellyfish that result in fluorescence (that is, they glow in the dark). Although these fish were initially engineered for research purposes in the 1990s, they were sold as pets in the 2000s and can now be found in the wild in creeks in Brazil. A student in a biology seminar who is writing a paper on these fish asserts that their escape from Brazilian fish farms into the wild may have significant negative long-term ecological effects.",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "“In one site in the wild where transgenic fish were observed, females outnumbered males, while in another the numbers of females and males were equivalent.”"
+        "text": "\"In one site in the wild where transgenic fish were observed, females outnumbered males, while in another the numbers of females and males were equivalent.\""
       },
       {
         "label": "B",
-        "text": "“Though some presence of transgenic fish in the wild has been recorded, there are insufficient studies of the impact of those fish on the ecosystems into which they are introduced.”"
+        "text": "\"Though some presence of transgenic fish in the wild has been recorded, there are insufficient studies of the impact of those fish on the ecosystems into which they are introduced.\""
       },
       {
         "label": "C",
-        "text": "“The ecosystems into which transgenic fish are known to have been introduced may represent a subset of the ecosystems into which the fish have actually been introduced.”"
+        "text": "\"The ecosystems into which transgenic fish are known to have been introduced may represent a subset of the ecosystems into which the fish have actually been introduced.\""
       },
       {
         "label": "D",
-        "text": "“Through interbreeding, transgenic fish might introduce the trait of fluorescence into wild fish populations, making those populations more vulnerable to predators.”"
+        "text": "\"Through interbreeding, transgenic fish might introduce the trait of fluorescence into wild fish populations, making those populations more vulnerable to predators.\""
       }
     ],
     "is_fill_in_blank": false,
@@ -390,8 +390,8 @@
     "difficulty": "Medium",
     "question_number": 13,
     "test_name": "Module Source 224 Eng M1",
-    "passage": "Which choice uses data from the table to most effectively complete the comparison?\nContributions of Three Key Industries to Oklahoma\nEconomy in 2017\nThe Cherokee Nation, the Quapaw Tribe, and the more than thirty other tribes in Oklahoma operate numerous businesses and collectively generate billions of dollars in revenue. In fact, when the tribes’ activity is regarded as a single industry, its contribution to the Oklahoma economy in 2017 ____________",
-    "question_text": "Which choice uses data from the table to most effectively complete the comparison?",
+    "passage": "Which choice uses data from the table to most effectively complete the comparison?\nContributions of Three Key Industries to Oklahoma\nEconomy in 2017\nThe Cherokee Nation, the Quapaw Tribe, and the more than thirty other tribes in Oklahoma operate numerous businesses and collectively generate billions of dollars in revenue. In fact, when the tribes' activity is regarded as a single industry, its contribution to the Oklahoma economy in 2017 ____________",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -429,8 +429,8 @@
     "difficulty": "Medium",
     "question_number": 14,
     "test_name": "Module Source 224 Eng M1",
-    "passage": "Which choice best describes data from the table that support Ehmann and colleagues’ hypothesis?\nPeering at Adult Orangutans by Immature Orangutans\nOne way that young orangutans acquire foraging skills is through a behavior scientists call peering—closely watching older orangutans as they engage in an activity that the young have not yet mastered. Since male orangutans typically leave the area of their birth upon maturity and females do not, Beatrice Ehmann and her colleagues hypothesized that it is more advantageous for immature males than females to devote attention to orangutans who are immigrants to the home region of the immature individual, and this should be reflected in sex-specific differences in peering behavior.",
-    "question_text": "Which choice best describes data from the table that support Ehmann and colleagues’ hypothesis?",
+    "passage": "Which choice best describes data from the table that support Ehmann and colleagues' hypothesis?\nPeering at Adult Orangutans by Immature Orangutans\nOne way that young orangutans acquire foraging skills is through a behavior scientists call peering—closely watching older orangutans as they engage in an activity that the young have not yet mastered. Since male orangutans typically leave the area of their birth upon maturity and females do not, Beatrice Ehmann and her colleagues hypothesized that it is more advantageous for immature males than females to devote attention to orangutans who are immigrants to the home region of the immature individual, and this should be reflected in sex-specific differences in peering behavior.",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -446,7 +446,7 @@
       },
       {
         "label": "D",
-        "text": "The proportion of peering events directed at immigrants to immature orangutans’ home regions ranged from a low of 0.33 to a high of 1.00."
+        "text": "The proportion of peering events directed at immigrants to immature orangutans' home regions ranged from a low of 0.33 to a high of 1.00."
       }
     ],
     "is_fill_in_blank": false,
@@ -469,7 +469,7 @@
     "question_number": 15,
     "test_name": "Module Source 224 Eng M1",
     "passage": "Which choice most logically completes the text?\nIn May of 1987, Malaysia liberalized its stock market, meaning that it began allowing foreign individuals and businesses to invest money in Malaysian companies. This was part of a wave of stock market liberalizations around the world—Thailand in 1988, Mexico in 1989, and so on. The standard view among economists at the time was that liberalization would make it easier for companies to raise money from investors. Economist Peter Blair Henry examined the economies of 11 countries that were part of the liberalization wave and found that, on average, companies based in those countries received significant increases in investment in the three years following liberalization, suggesting that ______",
-    "question_text": "Which choice most logically completes the text?",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -500,8 +500,8 @@
     "difficulty": "Medium",
     "question_number": 16,
     "test_name": "Module Source 224 Eng M1",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\n“He was just the man for such a place, and it was just the place for such a man.” This line is from Frederick Douglass’s autobiography *Narrative of the Life of Frederick Douglass* (1845). It’s an example of antimetabole, a writing technique that ______ emphasis by repeating a statement in a reversed order.",
-    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\n\"He was just the man for such a place, and it was just the place for such a man.\" This line is from Frederick Douglass's autobiography *Narrative of the Life of Frederick Douglass* (1845). It's an example of antimetabole, a writing technique that ______ emphasis by repeating a statement in a reversed order.",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -533,7 +533,7 @@
     "question_number": 17,
     "test_name": "Module Source 224 Eng M1",
     "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nOver several years, anthropologist Livia Barbosa surveyed individuals in Brazil about their eating habits, collecting data, for example, on what days of the week respondents were more likely ______ common Brazilian foods, such as broa (a fennel-flavored cornbread) and tareco (a disk-shaped biscuit).",
-    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -565,7 +565,7 @@
     "question_number": 18,
     "test_name": "Module Source 224 Eng M1",
     "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nTo coders like Black Girls Code founder Kimberly Bryant, the computer programming languages Perl and Pascal have a clear difference: the former is an object-oriented language while the latter is not. Because both languages require highly technical knowledge to understand, though, laypeople ______ to distinguish between them.",
-    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -597,7 +597,7 @@
     "question_number": 19,
     "test_name": "Module Source 224 Eng M1",
     "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIncluded among a particular group of mid-twentieth-century artists known as the Zaria School, Nigerian expressionist ______ was known for using bold lines and for drawing on Indigenous artistic traditions and rejecting Western values.",
-    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -629,7 +629,7 @@
     "question_number": 20,
     "test_name": "Module Source 224 Eng M1",
     "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Timeline of African American Music, a website that traces the history of genres such as soul and ragtime, is the result of decades of research by ethnomusicologist Portia K. Maultsby. She was not alone in her ______ Fernando Orejuela and Stephanie Shonekan, among other scholars, also contributed to the project.",
-    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -660,8 +660,8 @@
     "difficulty": "Medium",
     "question_number": 21,
     "test_name": "Module Source 224 Eng M1",
-    "passage": "Which choice completes the text with the most logical transition?\nIn a 2022 analysis, researchers applied a statistical model to a set of words to infer the rate of cognate replacement—the rate at which a word will be replaced over time with a noncognate form—in Indo-European languages. The researchers found that negative adjectives like “grim” evolve most rapidly; ______ negative nouns evolve most slowly.",
-    "question_text": "Which choice completes the text with the most logical transition?",
+    "passage": "Which choice completes the text with the most logical transition?\nIn a 2022 analysis, researchers applied a statistical model to a set of words to infer the rate of cognate replacement—the rate at which a word will be replaced over time with a noncognate form—in Indo-European languages. The researchers found that negative adjectives like \"grim\" evolve most rapidly; ______ negative nouns evolve most slowly.",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -692,8 +692,8 @@
     "difficulty": "Easy",
     "question_number": 22,
     "test_name": "Module Source 224 Eng M1",
-    "passage": "Which choice completes the text with the most logical transition?\nIn the 1880s, inventor Lewis Latimer improved upon Thomas Edison’s design for the electric light bulb. ______ Latimer made the light bulb more durable by placing cardboard around its carbon filament. With this innovation, Latimer became the first Black inventor to contribute to the electrification of the world.",
-    "question_text": "Which choice completes the text with the most logical transition?",
+    "passage": "Which choice completes the text with the most logical transition?\nIn the 1880s, inventor Lewis Latimer improved upon Thomas Edison's design for the electric light bulb. ______ Latimer made the light bulb more durable by placing cardboard around its carbon filament. With this innovation, Latimer became the first Black inventor to contribute to the electrification of the world.",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -725,7 +725,7 @@
     "question_number": 23,
     "test_name": "Module Source 224 Eng M1",
     "passage": "Which choice completes the text with the most logical transition?\nSoil polluted with nickel (a heavy metal) is harmful to many plants and animals, but the plant species *Najas marina*, or spiny water nymph, can thrive in such conditions. ______ as a metal hyperaccumulator, *Najas marina* absorbs a large amount of nickel and sequesters it in its roots and shoots, thereby reducing concentrations of this harmful substance in the soil.",
-    "question_text": "Which choice completes the text with the most logical transition?",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -737,7 +737,7 @@
       },
       {
         "label": "C",
-        "text": "What’s more,"
+        "text": "What's more,"
       },
       {
         "label": "D",
@@ -757,7 +757,7 @@
     "question_number": 24,
     "test_name": "Module Source 224 Eng M1",
     "passage": "Which choice most effectively uses information from the given sentences to emphasize the size of the sculpture?\nWhile researching a topic, a student has taken the following notes:\n• Richard Serra is an American artist.\n• He is known for his large metal sculptures.\n• His sculpture *Rotate* is roughly 6 feet wide and 12 feet tall.\n• It is made from weathering steel.",
-    "question_text": "Which choice most effectively uses information from the given sentences to emphasize the size of the sculpture?",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -765,7 +765,7 @@
       },
       {
         "label": "B",
-        "text": "Richard Serra’s Rotate is made of weathering steel."
+        "text": "Richard Serra's Rotate is made of weathering steel."
       },
       {
         "label": "C",
@@ -788,16 +788,16 @@
     "difficulty": "Hard",
     "question_number": 25,
     "test_name": "Module Source 224 Eng M1",
-    "passage": "The student wants to emphasize a difference between the two approaches to dyeing blue jeans. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Traditionally, manufacturers have dyed denim jeans blue by dipping them in a solution containing indigo powder.\n• Indigo doesn’t dissolve in just water, so manufacturers must mix hazardous chemicals with water to dissolve the powder.\n• Textile researcher Smriti Rai discovered a process for dyeing blue jeans without chemicals.\n• Rai added indigo powder to a hydrogel containing nanocellulose and produced a dye that could be spread directly onto the denim.\n• Nanocellulose is a natural, plant-based substance that separates the molecules of indigo powder.",
-    "question_text": "The student wants to emphasize a difference between the two approaches to dyeing blue jeans. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "passage": "The student wants to emphasize a difference between the two approaches to dyeing blue jeans. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Traditionally, manufacturers have dyed denim jeans blue by dipping them in a solution containing indigo powder.\n• Indigo doesn't dissolve in just water, so manufacturers must mix hazardous chemicals with water to dissolve the powder.\n• Textile researcher Smriti Rai discovered a process for dyeing blue jeans without chemicals.\n• Rai added indigo powder to a hydrogel containing nanocellulose and produced a dye that could be spread directly onto the denim.\n• Nanocellulose is a natural, plant-based substance that separates the molecules of indigo powder.",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "Though created using a different process, Rai’s dye contains the same ingredient as the dye produced by blue jean manufacturers."
+        "text": "Though created using a different process, Rai's dye contains the same ingredient as the dye produced by blue jean manufacturers."
       },
       {
         "label": "B",
-        "text": "Nanocellulose is a natural, plant-based substance that separates the molecules of indigo powder, which doesn’t dissolve in water."
+        "text": "Nanocellulose is a natural, plant-based substance that separates the molecules of indigo powder, which doesn't dissolve in water."
       },
       {
         "label": "C",
@@ -805,7 +805,7 @@
       },
       {
         "label": "D",
-        "text": "Rai’s approach substitutes a natural plant-based substance for the hazardous chemicals that manufacturers have traditionally used."
+        "text": "Rai's approach substitutes a natural plant-based substance for the hazardous chemicals that manufacturers have traditionally used."
       }
     ],
     "is_fill_in_blank": false,
@@ -820,16 +820,16 @@
     "difficulty": "Medium",
     "question_number": 26,
     "test_name": "Module Source 224 Eng M1",
-    "passage": "The student wants to emphasize a similarity between P waves and S waves. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Earthquakes start at a point called a “focus” and spread out from there as seismic waves.\n• The two types of seismic waves that travel beneath Earth’s surface are primary waves (P waves) and secondary waves (S waves).\n• P waves travel more quickly beneath Earth’s surface than do S waves.\n• P waves compress and expand the ground, causing it to move backward and forward.\n• S waves cause the ground to move from side to side.",
-    "question_text": "The student wants to emphasize a similarity between P waves and S waves. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "passage": "The student wants to emphasize a similarity between P waves and S waves. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Earthquakes start at a point called a \"focus\" and spread out from there as seismic waves.\n• The two types of seismic waves that travel beneath Earth's surface are primary waves (P waves) and secondary waves (S waves).\n• P waves travel more quickly beneath Earth's surface than do S waves.\n• P waves compress and expand the ground, causing it to move backward and forward.\n• S waves cause the ground to move from side to side.",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "P waves and S waves both travel beneath Earth’s surface, causing the ground to move."
+        "text": "P waves and S waves both travel beneath Earth's surface, causing the ground to move."
       },
       {
         "label": "B",
-        "text": "P waves travel away from an earthquake’s starting point at a higher rate of speed than do S waves."
+        "text": "P waves travel away from an earthquake's starting point at a higher rate of speed than do S waves."
       },
       {
         "label": "C",
@@ -852,20 +852,20 @@
     "difficulty": "Medium",
     "question_number": 27,
     "test_name": "Module Source 224 Eng M1",
-    "passage": "The student wants to specify how long the Gambia officially used the Gambian pound. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• A currency is a money system.\n• Sometimes, countries adopt a new currency to replace an older one.\n• The Gambia adopted the Gambian pound as its official currency in 1965.\n• The dalasi replaced the Gambian pound in 1971.\n• The dalasi remains the Gambia’s official currency.",
-    "question_text": "The student wants to specify how long the Gambia officially used the Gambian pound. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "passage": "The student wants to specify how long the Gambia officially used the Gambian pound. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• A currency is a money system.\n• Sometimes, countries adopt a new currency to replace an older one.\n• The Gambia adopted the Gambian pound as its official currency in 1965.\n• The dalasi replaced the Gambian pound in 1971.\n• The dalasi remains the Gambia's official currency.",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "The Gambian pound was the Gambia’s official currency from 1965 to 1971."
+        "text": "The Gambian pound was the Gambia's official currency from 1965 to 1971."
       },
       {
         "label": "B",
-        "text": "Though the Gambia currently uses the dalasi, the country’s former official currency was introduced in 1965."
+        "text": "Though the Gambia currently uses the dalasi, the country's former official currency was introduced in 1965."
       },
       {
         "label": "C",
-        "text": "The dalasi has been the Gambia’s official currency since 1971, when it replaced the Gambian pound."
+        "text": "The dalasi has been the Gambia's official currency since 1971, when it replaced the Gambian pound."
       },
       {
         "label": "D",

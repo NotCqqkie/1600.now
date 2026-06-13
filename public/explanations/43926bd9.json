@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Track the exponents",
-      "content": "The outputs are powers of $a$: $a^1$, $a^5$, and $a^9$. Since $a>1$, matching outputs means matching exponents. As $x$ increases by $1$, the exponent increases by $4$."
+      "content": "The outputs are powers of $a$: $a^1$, $a^5$, and $a^9$. Since $a\\gt 1$, matching outputs means matching exponents. As $x$ increases by $1$, the exponent increases by $4$."
     },
     {
       "title": "Write the exponent rule",

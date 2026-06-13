@@ -1,1 +1,15 @@
-{"questionId": "83898524", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Understand the structure", "content": "The sentence uses a dash after <em>territories</em> to open a parenthetical list: <em>New Granada (present-day Colombia and Panama), Venezuela, and Quito (present-day ______</em>. A second dash is needed to close that parenthetical list before <em>from colonial rule</em>. Inside the list, a closing parenthesis is also needed to close the nested <em>(present-day ___)</em> aside. So the blank must supply both a closing parenthesis and a closing dash."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; 'Ecuador,)'</strong>: Places a comma inside the parenthesis before the closing parenthesis, which is incorrect punctuation, and still provides no dash to close the outer parenthetical. &#10007;</li><li><strong>Choice B &mdash; 'Ecuador)'</strong>: Closes the parenthesis but omits the dash entirely, so the boundary between the list and <em>from colonial rule</em> is unmarked. &#10007;</li><li><strong>Choice C &mdash; 'Ecuador),'</strong>: Closes the parenthesis but uses a comma instead of the required dash; a comma cannot pair with a dash to frame a supplementary element. &#10007;</li><li><strong>Choice D &mdash; 'Ecuador)&mdash;'</strong>: Closes the parenthesis and provides the dash, creating the matched-dash structure (&mdash;New Granada&hellip;Ecuador)&mdash;) that properly sets off the list. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "83898524",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Understand the structure",
+      "content": "The sentence uses a dash after <em>territories</em> to open a parenthetical list: <em>New Granada (present-day Colombia and Panama), Venezuela, and Quito (present-day ______</em>. A second dash is needed to close that parenthetical list before <em>from colonial rule</em>. Inside the list, a closing parenthesis is also needed to close the nested <em>(present-day ___)</em> aside. So the blank must supply both a closing parenthesis and a closing dash."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; Ecuador,)</strong>: Places a comma inside the parenthesis before the closing parenthesis, which is incorrect punctuation, and still provides no dash to close the outer parenthetical. &#10007;</li><li><strong>Choice B &mdash; Ecuador)</strong>: Closes the parenthesis but omits the dash entirely, so the boundary between the list and <em>from colonial rule</em> is unmarked. &#10007;</li><li><strong>Choice C &mdash; Ecuador),</strong>: Closes the parenthesis but uses a comma instead of the required dash; a comma cannot pair with a dash to frame a supplementary element. &#10007;</li><li><strong>Choice D &mdash; Ecuador)—</strong>: Closes the parenthesis and provides the dash, creating the matched-dash structure (&mdash;New Granada&hellip;Ecuador)&mdash;) that properly sets off the list. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

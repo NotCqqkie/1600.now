@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate the other choices",
-      "content": "<ul><li>A: Average trees per hectare in the industrial park &mdash; matches the analysis (5 hectares $\\cdot$ trees/hectare = total industrial-park trees).</li><li>B: Average trees per hectare in the neighborhood &mdash; that role is played by $y$ (paired with 24 hectares), not $x$.</li><li>C: Total trees in the industrial park &mdash; that would be $5x$, not $x$ itself.</li><li>D: Total trees in the neighborhood &mdash; that would be $24y$, not $x$.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li>A: Average trees per hectare in the industrial park &mdash; matches the analysis (5 hectares $\\cdot$ trees/hectare = total industrial-park trees).</li><li>B: Average trees per hectare in the neighborhood &mdash; that role is played by $y$ (paired with 24 hectares), not $x$.</li><li>C: Total trees in the industrial park &mdash; that would be $5x$, not $x$ itself.</li><li>D: Total trees in the neighborhood &mdash; that would be $24y$, not $x$.</li></ul><strong>A</strong> is correct."
     }
   ]
 }

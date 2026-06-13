@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the answer choices visually",
-      "content": "<ul><li><strong>A</strong>: $(0,8)$ is on the $y$-axis, not at the marked intersection.</li><li><strong>B</strong>: $\\left(\\frac{7}{2},\\frac{9}{2}\\right)$ has a positive $x$-coordinate, but the marked point is left of the $y$-axis.</li><li><strong>C</strong>: $\\left(-\\frac{7}{2},\\frac{9}{2}\\right)$ matches the marked point.</li><li><strong>D</strong>: $(-3,4)$ is the vertex of the V-shaped graph, not the intersection.</li></ul>Choice <strong>C</strong> is correct."
+      "content": "<ul><li><strong>A</strong>: $(0,8)$ is on the $y$-axis, not at the marked intersection.</li><li><strong>B</strong>: $\\left(\\frac{7}{2},\\frac{9}{2}\\right)$ has a positive $x$-coordinate, but the marked point is left of the $y$-axis.</li><li><strong>C</strong>: $\\left(-\\frac{7}{2},\\frac{9}{2}\\right)$ matches the marked point.</li><li><strong>D</strong>: $(-3,4)$ is the vertex of the V-shaped graph, not the intersection.</li></ul><strong>C</strong> is correct."
     }
   ]
 }

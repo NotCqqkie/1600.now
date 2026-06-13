@@ -1,1 +1,15 @@
-{"questionId": "749328c4-3c9b-4615-9409-c9853a26da34_1", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The blank describes how Pheus 'truly shines' on stage. Right after, the narrator says he 'becomes another person, a more heightened version of himself' &mdash; signaling genuine, authentic self-expression. The blank must mean 'genuinely' or 'in reality.'"}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'mildly'</strong>: contradicts the passage's vivid description of heightened performance. &#10007;</li><li><strong>Choice B &mdash; 'scarcely'</strong>: means 'barely,' the opposite of what the passage conveys. &#10007;</li><li><strong>Choice C &mdash; 'really'</strong>: means 'genuinely' or 'in reality' &mdash; exactly matches the sense of authentic, heightened self-expression. &#10003;</li><li><strong>Choice D &mdash; 'impolitely'</strong>: irrelevant to the context of performance authenticity. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "749328c4-3c9b-4615-9409-c9853a26da34_1",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank describes how Pheus 'truly shines' on stage. Right after, the narrator says he 'becomes another person, a more heightened version of himself' &mdash; signaling genuine, authentic self-expression. The blank must mean 'genuinely' or 'in reality.'"
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Mildly&rsquo;</strong>: contradicts the passage's vivid description of heightened performance. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Scarcely&rsquo;</strong>: means 'barely,' the opposite of what the passage conveys. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Really&rsquo;</strong>: means 'genuinely' or 'in reality' &mdash; exactly matches the sense of authentic, heightened self-expression. &#10003;</li><li><strong>Choice D &mdash; &lsquo;Impolitely&rsquo;</strong>: irrelevant to the context of performance authenticity. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

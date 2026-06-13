@@ -17,7 +17,7 @@
     },
     {
       "title": "Evaluate all choices",
-      "content": "<ul><li>A: $x^{14}$ &mdash; Exponents are added as if multiplying, not adding polynomials. Eliminated.</li><li>B: $x^8 + 9x^6$ &mdash; Exponents are doubled, not like terms combined. Eliminated.</li><li>C: $x^4 + 14x^3$ &mdash; The $x^3$ coefficient 14 comes from $7+7$ rather than $2+7$. Eliminated.</li><li>D: $x^4 + 9x^3$ &mdash; The $x^3$ coefficient 9 is correct ($2+7=9$). That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
+      "content": "<ul><li>A: $x^{14}$ &mdash; Exponents are added as if multiplying, not adding polynomials. Eliminated.</li><li>B: $x^8 + 9x^6$ &mdash; Exponents are doubled, not like terms combined. Eliminated.</li><li>C: $x^4 + 14x^3$ &mdash; The $x^3$ coefficient 14 comes from $7+7$ rather than $2+7$. Eliminated.</li><li>D: $x^4 + 9x^3$ &mdash; The $x^3$ coefficient 9 is correct ($2+7=9$). That is the correct answer.</li></ul>"
     }
   ]
 }

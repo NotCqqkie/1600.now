@@ -1,1 +1,15 @@
-{"questionId":"ff866f0f-f295-4895-b84d-a5c603adf51a_19","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence lists three verbs describing the temperature across three months: &quot;is 62.6 degrees in June,&quot; &quot;[___] to 66.6 degrees in July,&quot; and &quot;dips slightly to 62.6 degrees in August.&quot; The blank must complete a parallel series, so the verb must match the tense and form of &quot;is&quot; and &quot;dips.&quot;"},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'has risen'</strong>: present perfect &mdash; different tense from &quot;is&quot; and &quot;dips,&quot; breaks the parallel. &#10007;</li><li><strong>Choice B &mdash; 'rises'</strong>: simple present, same tense and form as &quot;is&quot; and &quot;dips&quot; &mdash; parallel series is complete. &#10003;</li><li><strong>Choice C &mdash; 'rising'</strong>: present participle, not a finite verb &mdash; cannot serve as the main verb here. &#10007;</li><li><strong>Choice D &mdash; 'rose'</strong>: simple past &mdash; shifts tense, breaks the parallel. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "ff866f0f-f295-4895-b84d-a5c603adf51a_19",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence lists three verbs describing the temperature across three months: \"is 62.6 degrees in June,\" \"[___] to 66.6 degrees in July,\" and \"dips slightly to 62.6 degrees in August.\" The blank must complete a parallel series, so the verb must match the tense and form of \"is\" and \"dips.\""
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"has risen\"</strong>: present perfect &mdash; different tense from \"is\" and \"dips,\" breaks the parallel. &#10007;</li><li><strong>\"rises\"</strong>: simple present, same tense and form as \"is\" and \"dips\" &mdash; parallel series is complete. &#10003;</li><li><strong>\"rising\"</strong>: present participle, not a finite verb &mdash; cannot serve as the main verb here. &#10007;</li><li><strong>\"rose\"</strong>: simple past &mdash; shifts tense, breaks the parallel. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+    }
+  ]
+}

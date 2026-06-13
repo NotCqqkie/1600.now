@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply h(x) = f(x) - 13",
-      "content": "Now subtract $13$ from the whole function: $$h(x)=f(x)-13=(5x+20)-13=5x+7.$$ A quick check at $x=-4$ gives $h(-4)=-13$, which is $13$ less than $f(-4)=0$. That matches choice <strong>B</strong>."
+      "content": "Now subtract $13$ from the whole function: $$h(x)=f(x)-13=(5x+20)-13=5x+7.$$ A quick check at $x=-4$ gives $h(-4)=-13$, which is $13$ less than $f(-4)=0$. That matches the correct answer, <strong>B</strong>."
     }
   ]
 }

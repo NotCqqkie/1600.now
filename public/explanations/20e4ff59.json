@@ -1,1 +1,19 @@
-{"questionId": "20e4ff59", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Read what the two halves say", "content": "First half: 2023 measurements showed the tower was rotating in a concerning way. Second half (after the blank): city officials closed the area so experts could explore solutions to stabilize the structure. The closure is a direct response to the concerning measurements."}, {"title": "Pick the transition that names cause and effect", "content": "Concerning movement is the cause; closing the area to investigate is the effect. The transition must mark that this action follows from the prior finding."}, {"title": "Eliminate by rule", "content": "<ul><li><strong>Choice A &mdash; &apos;Similarly,&apos;</strong>: signals two parallel cases, but the passage gives one finding and one response, not two analogous situations. Misread of the relationship. &#10007;</li><li><strong>Choice B &mdash; &apos;As a result,&apos;</strong>: marks the closure as the consequence of the concerning rotation &mdash; exactly the cause-effect link in the text. &#10003;</li><li><strong>Choice C &mdash; &apos;For example,&apos;</strong>: would introduce an instance of a general claim, but the first sentence is itself a specific finding, not a generalization needing illustration. Misread. &#10007;</li><li><strong>Choice D &mdash; &apos;In comparison,&apos;</strong>: signals a comparison between two things, but only one tower and one response are discussed. Overreach. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "20e4ff59",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read what the two halves say",
+      "content": "First half: 2023 measurements showed the tower was rotating in a concerning way. Second half (after the blank): city officials closed the area so experts could explore solutions to stabilize the structure. The closure is a direct response to the concerning measurements."
+    },
+    {
+      "title": "Pick the transition that names cause and effect",
+      "content": "Concerning movement is the cause; closing the area to investigate is the effect. The transition must mark that this action follows from the prior finding."
+    },
+    {
+      "title": "Eliminate by rule",
+      "content": "<ul><li><strong>Choice A &mdash; Similarly,</strong>: signals two parallel cases, but the passage gives one finding and one response, not two analogous situations. Misread of the relationship. &#10007;</li><li><strong>Choice B &mdash; As a result,</strong>: marks the closure as the consequence of the concerning rotation &mdash; exactly the cause-effect link in the text. &#10003;</li><li><strong>Choice C &mdash; For example,</strong>: would introduce an instance of a general claim, but the first sentence is itself a specific finding, not a generalization needing illustration. Misread. &#10007;</li><li><strong>Choice D &mdash; In comparison,</strong>: signals a comparison between two things, but only one tower and one response are discussed. Overreach. &#10007;</li></ul>That matches <strong>Choice B &mdash; As a result,</strong>."
+    }
+  ]
+}

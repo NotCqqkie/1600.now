@@ -9,7 +9,7 @@
     },
     {
       "title": "Match the constant terms",
-      "content": "The original expression is $\\frac{1}{3}x^2 - 2$. Setting $-\\frac{k^2}{3} = -2$ gives $k^2 = 6$, so $k = \\sqrt{6}$ (positive). That matches choice D — <strong>D</strong> is correct."
+      "content": "The original expression is $\\frac{1}{3}x^2 - 2$. Setting $-\\frac{k^2}{3} = -2$ gives $k^2 = 6$, so $k = \\sqrt{6}$ (positive). The positive value is used because $k$ represents the listed constant. That confirms <strong>D</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId": "99183985", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the advantage in the notes", "content": "The notes show that infilling is “minimally invasive” while power grinding “can greatly alter or damage the rock.” The advantage of infilling is that it <strong>avoids this damage problem</strong>."}, {"title": "Find which choice explains this advantage", "content": "Choice B directly states the advantage: infilling is <strong>less invasive</strong> than power grinding and explains why (power grinding can damage the rock).<br/><br/>Choices A, C, and D either omit infilling's benefit, present both methods as equal, or mention invasiveness without clarifying which approach is better.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "99183985",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the advantage in the notes",
+      "content": "The notes show that infilling is “minimally invasive” while power grinding “can greatly alter or damage the rock.” The advantage of infilling is that it <strong>avoids this damage problem</strong>."
+    },
+    {
+      "title": "Find which choice explains this advantage",
+      "content": "The correct answer directly states the advantage: infilling is <strong>less invasive</strong> than power grinding and explains why (power grinding can damage the rock).<br/><br/>Those choices, and D either omit infilling's benefit, present both methods as equal, or mention invasiveness without clarifying which approach is better.<br/><br/>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "e7b709fc", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Understand what the discoveries do", "content": "The passage says archaeologists found a coin dated 337&ndash;341 CE and era-appropriate building materials&mdash;both of which align with the fourth-century theory. The blank must describe what those discoveries do for the theory: they supply or furnish supporting evidence, not reject or control it.<ul><li><strong>Choice A &mdash; 'dismiss'</strong>: dismiss means reject or disregard&mdash;the opposite of what the discoveries do. &#10007;</li><li><strong>Choice B &mdash; 'provide'</strong>: provide means make available or supply&mdash;the discoveries supply evidence for the dating claim. &#10003;</li><li><strong>Choice C &mdash; 'regulate'</strong>: regulate means govern or control; nothing in the passage suggests the discoveries govern how evidence is managed. &#10007;</li><li><strong>Choice D &mdash; 'refuse'</strong>: refuse means be unwilling to accept&mdash;another opposite of supplying support. &#10007;</li></ul>"}, {"title": "Confirm the answer", "content": "Only &ldquo;provide&rdquo; correctly describes discoveries that furnish supporting evidence for a theory. That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "e7b709fc",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Understand what the discoveries do",
+      "content": "The passage says archaeologists found a coin dated 337&ndash;341 CE and era-appropriate building materials&mdash;both of which align with the fourth-century theory. The blank must describe what those discoveries do for the theory: they supply or furnish supporting evidence, not reject or control it.<ul><li><strong>\"dismiss\"</strong>: dismiss means reject or disregard&mdash;the opposite of what the discoveries do. &#10007;</li><li><strong>\"provide\"</strong>: provide means make available or supply&mdash;the discoveries supply evidence for the dating claim. &#10003;</li><li><strong>\"regulate\"</strong>: regulate means govern or control; nothing in the passage suggests the discoveries govern how evidence is managed. &#10007;</li><li><strong>\"refuse\"</strong>: refuse means be unwilling to accept&mdash;another opposite of supplying support. &#10007;</li></ul>"
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "Only &ldquo;provide&rdquo; correctly describes discoveries that furnish supporting evidence for a theory. That matches the correct answer — <strong>B</strong> is correct."
+    }
+  ]
+}

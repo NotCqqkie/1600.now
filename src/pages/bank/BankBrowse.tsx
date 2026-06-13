@@ -1,11 +1,7 @@
-import { useEffect } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useNavigate, useParams, useSearchParams } from "react-router-dom";
 import {
-  getBankPool,
-  getDomainCounts,
-  getSkillCounts,
-  getQuestionsByDomain,
-  getQuestionsBySkill,
+  loadBankPool,
   mathDomainSkills,
   englishDomainSkills,
   allMathDomains,
@@ -15,10 +11,6 @@ import {
   type BankSubject,
   type BankQuestion,
   type BankSourceFilter,
-  type MathDomain,
-  type EnglishDomain,
-  type MathSkill,
-  type EnglishSkill,
 } from "@/data/questionBank";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -79,9 +71,36 @@ const BankBrowse = () => {
     ? Object.fromEntries(Object.entries(mathDomainSkills).map(([k, v]) => [k, [...v]]))
     : Object.fromEntries(Object.entries(englishDomainSkills).map(([k, v]) => [k, [...v]]));
 
-  const domainCounts = getDomainCounts(validSubject, bankSource);
-  const skillCounts = getSkillCounts(validSubject, bankSource);
-  const totalQuestions = getBankPool(validSubject, bankSource).length;
+  const [bankPool, setBankPool] = useState<BankQuestion[]>([]);
+
+  useEffect(() => {
+    let cancelled = false;
+    setBankPool([]);
+    loadBankPool(validSubject, bankSource).then((questions) => {
+      if (!cancelled) setBankPool(questions);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [bankSource, validSubject]);
+
+  const domainCounts = useMemo(() => {
+    const counts: Record<string, number> = {};
+    for (const question of bankPool) {
+      counts[question.category.domain] = (counts[question.category.domain] || 0) + 1;
+    }
+    return counts;
+  }, [bankPool]);
+
+  const skillCounts = useMemo(() => {
+    const counts: Record<string, number> = {};
+    for (const question of bankPool) {
+      counts[question.category.skill] = (counts[question.category.skill] || 0) + 1;
+    }
+    return counts;
+  }, [bankPool]);
+
+  const totalQuestions = bankPool.length;
 
   const handleBankSourceChange = (nextSource: BankSourceFilter) => {
     const nextParams = new URLSearchParams(searchParams);
@@ -120,22 +139,21 @@ const BankBrowse = () => {
   };
 
   const handleShuffleDomain = (domain: string) => {
-    const questions = getQuestionsByDomain(validSubject, domain as MathDomain | EnglishDomain, bankSource);
+    const questions = bankPool.filter((question) => question.category.domain === domain);
     startPracticeSession(shuffleArray(questions));
   };
 
   const handleShuffleSkill = (skill: string) => {
-    const questions = getQuestionsBySkill(validSubject, skill as MathSkill | EnglishSkill, bankSource);
+    const questions = bankPool.filter((question) => question.category.skill === skill);
     startPracticeSession(shuffleArray(questions));
   };
 
   const handleShuffleAll = () => {
-    const questions = getBankPool(validSubject, bankSource);
-    startPracticeSession(shuffleArray(questions));
+    startPracticeSession(shuffleArray(bankPool));
   };
 
   const handleSkillClick = (skill: string) => {
-    const questions = getQuestionsBySkill(validSubject, skill as MathSkill | EnglishSkill, bankSource);
+    const questions = bankPool.filter((question) => question.category.skill === skill);
     if (questions.length > 0) {
       navigate(`${basePath}/${validSubject}/skill/${encodeURIComponent(skill)}${bankQuerySuffix}`);
     }

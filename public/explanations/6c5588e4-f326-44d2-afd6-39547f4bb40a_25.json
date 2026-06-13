@@ -1,1 +1,15 @@
-{"questionId":"6c5588e4-f326-44d2-afd6-39547f4bb40a_25","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank begins the second sentence, which explains what NASA did in response to Curiosity's limitation. The first sentence establishes the problem: Curiosity couldn't preserve samples. The second sentence says NASA sought to fix that. The blank must signal a consequence — something that follows logically from the problem."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Previously,'</strong>: signals that something happened before — but designing Perseverance happened after Curiosity's limitation was known, not before. &#10007;</li><li><strong>Choice B &mdash; 'Specifically,'</strong>: signals a narrowing or clarification of the previous statement — but the second sentence introduces a new action (building Perseverance), not a detail of Curiosity's limitation. &#10007;</li><li><strong>Choice C &mdash; 'Likewise,'</strong>: signals similarity — but Perseverance was built to do something Curiosity could not, so the two are contrasted, not compared. &#10007;</li><li><strong>Choice D &mdash; 'Thus,'</strong>: signals a consequence — because Curiosity couldn't preserve samples, NASA created Perseverance to do exactly that. This directly connects cause and effect. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "6c5588e4-f326-44d2-afd6-39547f4bb40a_25",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank begins the second sentence, which explains what NASA did in response to Curiosity's limitation. The first sentence establishes the problem: Curiosity couldn't preserve samples. The second sentence says NASA sought to fix that. The blank must signal a consequence — something that follows logically from the problem."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Previously,&rsquo;</strong>: signals that something happened before — but designing Perseverance happened after Curiosity's limitation was known, not before. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Specifically,&rsquo;</strong>: signals a narrowing or clarification of the previous statement — but the second sentence introduces a new action (building Perseverance), not a detail of Curiosity's limitation. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Likewise,&rsquo;</strong>: signals similarity — but Perseverance was built to do something Curiosity could not, so the two are contrasted, not compared. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Thus,&rsquo;</strong>: signals a consequence — because Curiosity couldn't preserve samples, NASA created Perseverance to do exactly that. This directly connects cause and effect. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

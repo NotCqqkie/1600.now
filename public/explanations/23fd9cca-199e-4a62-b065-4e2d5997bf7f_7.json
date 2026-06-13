@@ -1,1 +1,15 @@
-{"questionId": "23fd9cca-199e-4a62-b065-4e2d5997bf7f_7", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the turning signal", "content": "The passage explicitly signals a reversal: “For a long time, people thought tool use was unique to primates.<br/><br/>Octopuses and other animals, though, have busted the myth.” The contrast word <strong>though</strong> and the phrase <strong>busted the myth</strong> indicate the passage's core claim—a once-accepted belief is now disproven."}, {"title": "Match the answer to the signal", "content": "Choice <strong>D</strong> directly states the passage's argument: a false belief about primates has been corrected. <ul><li>A compares skill levels</li><li>B overgeneralizes to multiple myths</li><li>C reverses the message</li></ul>. That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "23fd9cca-199e-4a62-b065-4e2d5997bf7f_7",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the turning signal",
+      "content": "The passage explicitly signals a reversal: “For a long time, people thought tool use was unique to primates.<br/><br/>Octopuses and other animals, though, have busted the myth.” The contrast word <strong>though</strong> and the phrase <strong>busted the myth</strong> indicate the passage's core claim—a once-accepted belief is now disproven."
+    },
+    {
+      "title": "Match the answer to the signal",
+      "content": "<strong>Choice D &mdash; Contrary to long-held beliefs, primates aren't the only animals to use tools.</strong> directly states the passage's argument: a false belief about primates has been corrected. <ul><li>A compares skill levels</li><li>B overgeneralizes to multiple myths</li><li>C reverses the message</li></ul>. That matches <strong>Choice D &mdash; Contrary to long-held beliefs, primates aren't the only animals to use tools.</strong>."
+    }
+  ]
+}

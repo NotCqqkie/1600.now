@@ -1,1 +1,15 @@
-{"questionId": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_12", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify why early snow increases net CO2", "content": "The researchers conclude that <strong>earlier snow cover increases net CO2</strong>. The decisive clue is understanding the timing: what creates the condition where early snow leads to more CO2 output?"}, {"title": "Match the mechanism", "content": "Choice D explains it: snow insulation allows heterotrophic respiration to continue while plants are dormant.<br/><br/>This accounts for the net CO2 increase—soil microbes release CO2 during a period when plants cannot absorb it.<br/><br/>The other choices either focus on different factors (solar radiation effects in A), reverse the effect (B: early snow lowers respiration), or address the wrong aspect (C: snow persistence rather than arrival timing).<br/><br/>That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_12",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify why early snow increases net CO2",
+      "content": "The researchers conclude that <strong>earlier snow cover increases net CO2</strong>. The decisive clue is understanding the timing: what creates the condition where early snow leads to more CO2 output?"
+    },
+    {
+      "title": "Match the mechanism",
+      "content": "The correct answer explains it: snow insulation allows heterotrophic respiration to continue while plants are dormant.<br/><br/>This accounts for the net CO2 increase—soil microbes release CO2 during a period when plants cannot absorb it.<br/><br/>The other choices either focus on different factors (solar radiation effects in A), reverse the effect (B: early snow lowers respiration), or address the wrong aspect (C: snow persistence rather than arrival timing).<br/><br/>That is the correct answer."
+    }
+  ]
+}

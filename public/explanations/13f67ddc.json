@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Read the probability value from the line graph for each day",
-      "content": "From the line graph, we read the probability of snow for each day: Tuesday = 60%, Wednesday = 90%, Thursday = 30%, and Friday = 70%. The day corresponding to a probability of 30% is Thursday. That matches choice C — <strong>C</strong> is correct."
+      "content": "From the line graph, we read the probability of snow for each day: Tuesday = 60%, Wednesday = 90%, Thursday = 30%, and Friday = 70%. The day corresponding to a probability of 30% is Thursday. That matches <strong>Choice C &mdash; Thursday</strong>."
     }
   ]
 }

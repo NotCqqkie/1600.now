@@ -9,11 +9,11 @@
     },
     {
       "title": "Compute the result",
-      "content": "Combine the terms.<br/>$$f(1)=2+\\tfrac13-1=\\tfrac43$$<br/>That matches choice <strong>A</strong> — <strong>A</strong> is correct."
+      "content": "Combine the terms.<br/>$$f(1)=2+\\tfrac13-1=\\tfrac43$$<br/>That matches <strong>Choice A &mdash; $\\frac{4}{3}$</strong>."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice A, $\\frac{4}{3}$. The other choices do not satisfy the same condition from the question, so <strong>A</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches <strong>Choice A &mdash; $\\frac{4}{3}$</strong>, $\\frac{4}{3}$. The other choices do not satisfy the same condition from the question, so <strong>A</strong>."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId":"749328c4-3c9b-4615-9409-c9853a26da34_25","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"This is a Transitions question. The blank connects two sentences: the first states that Arabic-speaking Muslim states ruled Al-Andalus for centuries; the second states that Arabic words entered Spanish. The blank must signal that the second sentence is a result of the first."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;Consequently,&rsquo;</strong>: Marks a cause-and-effect relationship. Centuries of Arabic rule caused Arabic words to enter Spanish &mdash; this is the logical connection. &#10003;</li><li><strong>Choice B &mdash; &lsquo;Specifically,&rsquo;</strong>: Signals that the second sentence narrows or specifies a category from the first. The first sentence describes a political fact, not a category of effects to specify. &#10007;</li><li><strong>Choice C &mdash; &lsquo;For example,&rsquo;</strong>: Signals that the second sentence is one example of a broader point made in the first. The first sentence does not mention any broader set of outcomes for this to exemplify. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Instead,&rsquo;</strong>: Signals a contrast or substitution. The second sentence does not contradict or replace the first &mdash; it follows from it. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "749328c4-3c9b-4615-9409-c9853a26da34_25",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a Transitions question. The blank connects two sentences: the first states that Arabic-speaking Muslim states ruled Al-Andalus for centuries; the second states that Arabic words entered Spanish. The blank must signal that the second sentence is a result of the first."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Consequently,&rsquo;</strong>: Marks a cause-and-effect relationship. Centuries of Arabic rule caused Arabic words to enter Spanish &mdash; this is the logical connection. &#10003;</li><li><strong>Choice B &mdash; &lsquo;Specifically,&rsquo;</strong>: Signals that the second sentence narrows or specifies a category from the first. The first sentence describes a political fact, not a category of effects to specify. &#10007;</li><li><strong>Choice C &mdash; &lsquo;For example,&rsquo;</strong>: Signals that the second sentence is one example of a broader point made in the first. The first sentence does not mention any broader set of outcomes for this to exemplify. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Instead,&rsquo;</strong>: Signals a contrast or substitution. The second sentence does not contradict or replace the first &mdash; it follows from it. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

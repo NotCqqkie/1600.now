@@ -7,6 +7,51 @@ import {
 } from "@/components/seo/PageSeo";
 import { blogPostBySlug, blogPosts } from "@/lib/seo-data/blogData";
 
+const blogActionPlanFor = (tag: string) => {
+  if (tag.includes("Scoring")) {
+    return {
+      checklist: [
+        "Record your latest Reading and Writing score, Math score, and total score.",
+        "Identify the section that is furthest from your target.",
+        "Run one targeted drill in that section before taking another full module.",
+      ],
+      mistakes: [
+        "Chasing a total-score goal without knowing which section is holding it down.",
+        "Comparing scores without checking whether they are from timed, realistic practice.",
+        "Taking another practice test before reviewing every missed question.",
+      ],
+    };
+  }
+
+  if (tag.includes("Strategy")) {
+    return {
+      checklist: [
+        "Choose one strategy from the article and test it on a timed module.",
+        "Mark whether the strategy saved time, improved accuracy, or only felt easier.",
+        "Keep the strategy only if it improves the review data, not just confidence.",
+      ],
+      mistakes: [
+        "Trying three new tactics in the same module.",
+        "Changing strategy after one hard question instead of after a full review.",
+        "Ignoring easy misses because the hard questions feel more interesting.",
+      ],
+    };
+  }
+
+  return {
+    checklist: [
+      "Turn the article into one action: a bank drill, a timed module, or a score calculation.",
+      "Write down the exact skill or habit you are testing.",
+      "Review the result before reading another guide.",
+    ],
+    mistakes: [
+      "Reading multiple guides without doing practice between them.",
+      "Using broad practice when the article points to a narrow skill.",
+      "Treating format knowledge as score improvement before testing it under time.",
+    ],
+  };
+};
+
 const BlogPost = () => {
   const { slug = "" } = useParams();
   const post = blogPostBySlug.get(slug);
@@ -27,9 +72,7 @@ const BlogPost = () => {
   }
 
   const url = `https://1600.now/blog/${post.slug}`;
-  const related = (post.relatedSlugs ?? [])
-    .map((relatedSlug) => blogPostBySlug.get(relatedSlug))
-    .filter((relatedPost): relatedPost is NonNullable<typeof relatedPost> => Boolean(relatedPost));
+  const actionPlan = blogActionPlanFor(post.tag);
 
   return (
     <article className="mx-auto max-w-3xl px-6 py-10">
@@ -37,6 +80,7 @@ const BlogPost = () => {
         id={`blog-${post.slug}`}
         title={`${post.title} | 1600.now`}
         description={post.description}
+        type="article"
         jsonLd={[
           buildBreadcrumbJsonLd([
             { name: "Home", url: "https://1600.now/" },
@@ -100,28 +144,68 @@ const BlogPost = () => {
         </section>
       ))}
 
-      {related.length > 0 && (
-        <section className="mt-12">
-          <h2 className="text-2xl font-semibold tracking-tight">
-            Related Posts
-          </h2>
-          <ul className="mt-4 grid gap-3 md:grid-cols-2">
-            {related.map((relatedPost) => (
-              <li key={relatedPost.slug}>
-                <Link
-                  to={`/blog/${relatedPost.slug}`}
-                  className="block rounded-xl border border-border p-4 transition hover:bg-muted"
-                >
-                  <div className="font-semibold">{relatedPost.title}</div>
-                  <p className="mt-1 text-sm text-muted-foreground">
-                    {relatedPost.description}
-                  </p>
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </section>
-      )}
+      <section className="mt-12">
+        <h2 className="text-2xl font-semibold tracking-tight">
+          What to do after reading this
+        </h2>
+        <ol className="mt-3 list-decimal space-y-2 pl-6 text-muted-foreground">
+          {actionPlan.checklist.map((item) => (
+            <li key={item}>{item}</li>
+          ))}
+        </ol>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold tracking-tight">
+          Mistakes to avoid
+        </h2>
+        <ul className="mt-3 list-disc space-y-2 pl-6 text-muted-foreground">
+          {actionPlan.mistakes.map((item) => (
+            <li key={item}>{item}</li>
+          ))}
+        </ul>
+      </section>
+
+      <section className="mt-12">
+        <h2 className="text-2xl font-semibold tracking-tight">
+          Use this in practice
+        </h2>
+        <ul className="mt-4 grid gap-3 md:grid-cols-3">
+          <li>
+            <Link
+              to="/bank"
+              className="block rounded-xl border border-border p-4 transition hover:bg-muted"
+            >
+              <div className="font-semibold">Drill questions</div>
+              <p className="mt-1 text-sm text-muted-foreground">
+                Turn the strategy into targeted SAT practice.
+              </p>
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/modules"
+              className="block rounded-xl border border-border p-4 transition hover:bg-muted"
+            >
+              <div className="font-semibold">Take a timed module</div>
+              <p className="mt-1 text-sm text-muted-foreground">
+                Check pacing with a realistic module.
+              </p>
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/score-calculator"
+              className="block rounded-xl border border-border p-4 transition hover:bg-muted"
+            >
+              <div className="font-semibold">Estimate your score</div>
+              <p className="mt-1 text-sm text-muted-foreground">
+                Convert raw results into a 1600-scale estimate.
+              </p>
+            </Link>
+          </li>
+        </ul>
+      </section>
 
       <section className="mt-12 rounded-xl border border-border p-6">
         <h3 className="text-lg font-semibold">Practice on 1600.now</h3>

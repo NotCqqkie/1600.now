@@ -1,1 +1,15 @@
-{"questionId":"75f601af-f444-4475-b27a-742fda616d9b_16","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence ends a noun phrase (&lsquo;newts&rsquo;) and then continues with &lsquo;for instance&rsquo; followed by an independent clause. The blank must correctly punctuate the parenthetical transitional phrase &lsquo;for instance&rsquo; within the sentence."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; colon</strong>: a colon after a noun phrase would introduce a list or explanation, but &lsquo;for instance&rsquo; is not a list item &mdash; it is a parenthetical transition. A colon here is grammatically incorrect. &#10007;</li><li><strong>Choice B &mdash; semicolon</strong>: a semicolon joins two independent clauses. What precedes the blank is a noun phrase, not an independent clause, so a semicolon cannot be used here. &#10007;</li><li><strong>Choice C &mdash; period</strong>: a period would end the sentence after &lsquo;newts,&rsquo; leaving everything that follows as a fragment beginning with the parenthetical &lsquo;for instance.&rsquo; &#10007;</li><li><strong>Choice D &mdash; comma</strong>: parenthetical transitional phrases like &lsquo;for instance&rsquo; are set off with commas. A comma after &lsquo;newts&rsquo; correctly introduces the parenthetical before the independent clause continues. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "75f601af-f444-4475-b27a-742fda616d9b_16",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence ends a noun phrase (&lsquo;newts&rsquo;) and then continues with &lsquo;for instance&rsquo; followed by an independent clause. The blank must correctly punctuate the parenthetical transitional phrase &lsquo;for instance&rsquo; within the sentence."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;newts: for&rsquo;</strong>: a colon after a noun phrase would introduce a list or explanation, but &lsquo;for instance&rsquo; is not a list item &mdash; it is a parenthetical transition. A colon here is grammatically incorrect. &#10007;</li><li><strong>Choice B &mdash; &lsquo;newts. For&rsquo;</strong>: a semicolon joins two independent clauses. What precedes the blank is a noun phrase, not an independent clause, so a semicolon cannot be used here. &#10007;</li><li><strong>Choice C &mdash; &lsquo;newts; for&rsquo;</strong>: a period would end the sentence after &lsquo;newts,&rsquo; leaving everything that follows as a fragment beginning with the parenthetical &lsquo;for instance.&rsquo; &#10007;</li><li><strong>Choice D &mdash; &lsquo;newts, for&rsquo;</strong>: parenthetical transitional phrases like &lsquo;for instance&rsquo; are set off with commas. A comma after &lsquo;newts&rsquo; correctly introduces the parenthetical before the independent clause continues. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

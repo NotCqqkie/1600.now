@@ -1,1 +1,15 @@
-{"questionId": "3bceeb93", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the antecedent and what form is needed", "content": "The blank fills in &quot;nurses ______ young with milk.&quot; The antecedent is &quot;the animal&quot; (singular, non-human), so the pronoun must be singular and possessive &mdash; not a contraction, not plural. The rule: a possessive pronoun must agree in number with its antecedent and must be a true possessive, not a contraction."}, {"title": "Evaluate each choice", "content": "<ul><li><strong>Choice A &mdash; &apos;they&apos;re&apos;</strong>: Pronoun-antecedent agreement error &mdash; &quot;they&apos;re&quot; is plural (&quot;they are&quot;), but &quot;the animal&quot; is singular; also a contraction, not a possessive. &#10007;</li><li><strong>Choice B &mdash; &apos;their&apos;</strong>: Pronoun-antecedent agreement error &mdash; &quot;their&quot; is plural, but &quot;the animal&quot; is singular. &#10007;</li><li><strong>Choice C &mdash; &apos;its&apos;</strong>: Singular possessive pronoun matching the singular antecedent &quot;the animal.&quot; &#10003;</li><li><strong>Choice D &mdash; &apos;it&apos;s&apos;</strong>: Contraction error &mdash; &quot;it&apos;s&quot; means &quot;it is,&quot; which is not a possessive and creates an ungrammatical double-verb clause (&quot;nurses it is young&quot;). &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "3bceeb93",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the antecedent and what form is needed",
+      "content": "The blank fills in &quot;nurses ______ young with milk.&quot; The antecedent is &quot;the animal&quot; (singular, non-human), so the pronoun must be singular and possessive &mdash; not a contraction, not plural. The rule: a possessive pronoun must agree in number with its antecedent and must be a true possessive, not a contraction."
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li><strong>Choice A — they're</strong>: Pronoun-antecedent agreement error &mdash; &quot;they&apos;re&quot; is plural (&quot;they are&quot;), but &quot;the animal&quot; is singular; also a contraction, not a possessive. &#10007;</li><li><strong>Choice B — their</strong>: Pronoun-antecedent agreement error &mdash; &quot;their&quot; is plural, but &quot;the animal&quot; is singular. &#10007;</li><li><strong>Choice C — its</strong>: Singular possessive pronoun matching the singular antecedent &quot;the animal.&quot; &#10003;</li><li><strong>Choice D — it's</strong>: Contraction error &mdash; &quot;it&apos;s&quot; means &quot;it is,&quot; which is not a possessive and creates an ungrammatical double-verb clause (&quot;nurses it is young&quot;). &#10007;</li></ul><strong>C</strong> is correct."
+    }
+  ]
+}

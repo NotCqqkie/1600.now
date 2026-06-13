@@ -5,19 +5,15 @@
   "steps": [
     {
       "title": "Solve the quadratic",
-      "content": "Factor the equation: $$x^2-12x-13=0$$ $$(x-13)(x+1)=0$$ So the two solutions are $x=13$ and $x=-1$."
+      "content": "The goal is to find the quadratic roots and then identify the values of $h$ and $k$ from the radical form of one solution. Use the quadratic formula on $x^2 - 22x + 116 = 0$: $$x=\\frac{22\\pm\\sqrt{(-22)^2-4(1)(116)}}{2}$$ $$x=\\frac{22\\pm\\sqrt{20}}{2}=11\\pm\\frac{1}{2}\\sqrt{20}$$"
     },
     {
       "title": "Match the keyed form",
-      "content": "The keyed answer uses the solution $x=13$ and writes it in the requested form: $$13=15-\\frac{1}{2}\\sqrt{16}$$ Thus one possible match is $h=15$ and $k=16$."
+      "content": "One solution is $$x=11-\\frac{1}{2}\\sqrt{20}.$$ Comparing this with $x=h-\\frac{1}{2}\\sqrt{k}$ gives $h=11$ and $k=20$."
     },
     {
       "title": "Find the answer choice",
-      "content": "Using $h=15$ and $k=16$, $$h+k=15+16=31.$$ That matches choice <strong>C</strong>."
-    },
-    {
-      "title": "Note the source ambiguity",
-      "content": "The prompt says only that $h$ and $k$ are integer constants, so the representation is not unique without an extra restriction. Choice C matches the keyed representation above, but the current source text does not uniquely determine $h+k$."
+      "content": "Using $h=11$ and $k=20$, $$h+k=11+20=31.$$ That matches <strong>C</strong>."
     }
   ]
 }

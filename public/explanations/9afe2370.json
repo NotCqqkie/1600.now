@@ -9,11 +9,11 @@
     },
     {
       "title": "Ensure population stays positive for all years",
-      "content": "A population cannot be negative. For the expression $(1+r)^y$ to remain positive for any positive value of $y$, the base $(1+r)$ itself must be positive (if the base were negative, odd powers would be negative, making $P$ negative).<br/><br/>Therefore:<br/>$$1 + r > 0$$<br/>Subtracting 1 from both sides gives $r > -1$."
+      "content": "A population cannot be negative. For the expression $(1+r)^y$ to remain positive for any positive value of $y$, the base $(1+r)$ itself must be positive (if the base were negative, odd powers would be negative, making $P$ negative).<br/><br/>Therefore:<br/>$$1 + r \\gt 0$$<br/>Subtracting 1 from both sides gives $r \\gt -1$."
     },
     {
       "title": "Combine the constraints on r",
-      "content": "From Step 1, we need $r \\lt 0$ for the population to decrease. From Step 2, we need $r > -1$ for the population to remain positive. Both conditions must hold simultaneously:<br/>$$-1 \\lt r \\lt 0$$<br/>That matches choice B — <strong>B</strong> is correct."
+      "content": "From Step 1, we need $r \\lt 0$ for the population to decrease. From Step 2, we need $r \\gt -1$ for the population to remain positive. Both conditions must hold simultaneously:<br/>$$-1 \\lt r \\lt 0$$<br/>That confirms <strong>B</strong> is correct."
     }
   ]
 }

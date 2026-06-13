@@ -1,1 +1,15 @@
-{"questionId":"e950c225-1224-4691-beae-95b8ff6c7bca_19","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence describes the Wheeling National Heritage Area. Although the opening phrase mentions recognition \"in 2000,\" the blank describes what the area itself IS &mdash; a defining, ongoing characteristic, not a completed past event."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'had been'</strong>: past perfect implies the state has ended and preceded another past event. Nothing in the sentence supports that the area stopped being a region with those attributes. &#10007;</li><li><strong>Choice B &mdash; 'was'</strong>: simple past implies the state no longer holds. The passage gives no indication the area's character changed after 2000. &#10007;</li><li><strong>Choice C &mdash; 'is'</strong>: simple present correctly describes a defining, ongoing state. The area still exists and still holds those natural, cultural, and historical attributes today. &#10003;</li><li><strong>Choice D &mdash; 'will have been'</strong>: future perfect projects completion at a future point. The sentence has no future time reference to anchor this tense. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "e950c225-1224-4691-beae-95b8ff6c7bca_19",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence describes the Wheeling National Heritage Area. Although the opening phrase mentions recognition \"in 2000,\" the blank describes what the area itself IS &mdash; a defining, ongoing characteristic, not a completed past event."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"had been\"</strong>: past perfect implies the state has ended and preceded another past event. Nothing in the sentence supports that the area stopped being a region with those attributes. &#10007;</li><li><strong>\"was\"</strong>: simple past implies the state no longer holds. The passage gives no indication the area's character changed after 2000. &#10007;</li><li><strong>\"is\"</strong>: simple present correctly describes a defining, ongoing state. The area still exists and still holds those natural, cultural, and historical attributes today. &#10003;</li><li><strong>\"will have been\"</strong>: future perfect projects completion at a future point. The sentence has no future time reference to anchor this tense. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+    }
+  ]
+}

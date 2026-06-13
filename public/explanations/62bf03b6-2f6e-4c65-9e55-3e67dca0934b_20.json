@@ -1,1 +1,15 @@
-{"questionId":"62bf03b6-2f6e-4c65-9e55-3e67dca0934b_20","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The subject is &quot;Recordings of electrical activity in the brain,&quot; — a noun phrase followed by a comma. The blank must supply an appositive that renames that subject and a main verb to complete the sentence."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'electrograms show'</strong>: &quot;electrograms&quot; correctly renames &quot;Recordings&quot; (an electrogram is a recording of electrical activity), and &quot;show&quot; serves as the main verb. The sentence reads logically. &#10003;</li><li><strong>Choice B &mdash; 'responses show'</strong>: &quot;responses&quot; is not a synonym for &quot;recordings&quot; — the appositive is semantically wrong. &#10007;</li><li><strong>Choice C &mdash; 'players have electrograms'</strong>: inverts the logic; players are subjects of the recording, not possessors of it. &#10007;</li><li><strong>Choice D &mdash; 'responses are'</strong>: same appositive flaw as B, and &quot;are&quot; does not complete the intended meaning. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_20",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The subject is &quot;Recordings of electrical activity in the brain,&quot; — a noun phrase followed by a comma. The blank must supply an appositive that renames that subject and a main verb to complete the sentence."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;electrograms show that while responding to hypothetical match scenarios, the most highly skilled soccer players have&rsquo;</strong>: &quot;electrograms&quot; correctly renames &quot;Recordings&quot; (an electrogram is a recording of electrical activity), and &quot;show&quot; serves as the main verb. The sentence reads logically. &#10003;</li><li><strong>Choice B &mdash; &lsquo;hypothetical match scenario responses show that the most highly skilled soccer players captured in electrograms have&rsquo;</strong>: &quot;responses&quot; is not a synonym for &quot;recordings&quot; — the appositive is semantically wrong. &#10007;</li><li><strong>Choice C &mdash; &lsquo;the most highly skilled soccer players responding to hypothetical match scenarios have electrograms that show&rsquo;</strong>: inverts the logic; players are subjects of the recording, not possessors of it. &#10007;</li><li><strong>Choice D &mdash; &lsquo;responses to hypothetical match scenarios show that the most highly skilled soccer players have electrograms with&rsquo;</strong>: same appositive flaw as B, and &quot;are&quot; does not complete the intended meaning. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

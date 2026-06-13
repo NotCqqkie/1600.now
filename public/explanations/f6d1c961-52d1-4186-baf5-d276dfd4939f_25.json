@@ -1,1 +1,15 @@
-{"questionId":"f6d1c961-52d1-4186-baf5-d276dfd4939f_25","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks which choice best emphasizes when she collected both samples. The answer must highlight the timing of both collections, not location, significance, or any other detail."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; one date only</strong>: mentions only one collection date, leaving the second collection&apos;s timing unaddressed. &#10007;</li><li><strong>Choice B &mdash; November 1926 and February 1930</strong>: gives both collection dates and links them with &apos;after&apos; to show their chronological relationship. &#10003;</li><li><strong>Choice C &mdash; omits dates</strong>: focuses on location or significance rather than timing. &#10007;</li><li><strong>Choice D &mdash; current location</strong>: describes where the samples are now, not when they were collected. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "f6d1c961-52d1-4186-baf5-d276dfd4939f_25",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks which choice best emphasizes when she collected both samples. The answer must highlight the timing of both collections, not location, significance, or any other detail."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"While both specimens collected by Ynés Mexía are members of the same family, *Erigeron maximus* was found in Minas Gerais and *Brickellia diffusa* was found in Jalisco.\"</strong>: mentions only one collection date, leaving the second collection's timing unaddressed. &#10007;</li><li><strong>\"Ynés Mexía collected a sample of *Erigeron maximus* in February of 1930, after collecting *Brickellia diffusa* in November of 1926.\"</strong>: gives both collection dates and links them with 'after' to show their chronological relationship. &#10003;</li><li><strong>\"On February 1 in 1930, Ynés Mexía added a new specimen to her growing collection of botanical samples: *Erigeron maximus* of the Asteraceae family.\"</strong>: focuses on location or significance rather than timing. &#10007;</li><li><strong>\"Thousands of botanical samples collected by Ynés Mexía can now be found in one place: online at the C.V. Starr Virtual Herbarium.\"</strong>: describes where the samples are now, not when they were collected. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Apply the corresponding angles property with parallel lines",
-      "content": "BD is parallel to AE, so line CE is a transversal cutting both parallel lines. Angles AEC and BDC are corresponding angles in this configuration. By the corresponding angles property: $$\\angle AEC = \\angle BDC = 58°$$"
+      "content": "BD is parallel to AE, so line CE is a transversal cutting both parallel lines. Angles AEC and BDC are corresponding angles in this configuration. By the corresponding angles property: $$\\angle AEC = \\angle BDC = 58^{\\circ}$$"
     },
     {
       "title": "Find angle CAE using the triangle angle sum",
-      "content": "In triangle ACE, the angles sum to 180°. We know $\\angle AEC = 58°$ and $\\angle ACE = 62°$, so: $$\\angle CAE + 62° + 58° = 180°$$ $$\\angle CAE = 60°$$ That matches <strong>choice B — B</strong> is correct."
+      "content": "In triangle ACE, the angles sum to 180°. We know $\\angle AEC = 58^{\\circ}$ and $\\angle ACE = 62^{\\circ}$, so: $$\\angle CAE + 62^{\\circ} + 58^{\\circ} = 180^{\\circ}$$ $$\\angle CAE = 60^{\\circ}$$ That matches <strong>choice B &mdash; &lsquo;60&deg;&rsquo;</strong> is correct."
     }
   ]
 }

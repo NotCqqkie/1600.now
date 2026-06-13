@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; '$m = \\frac{3(n+p)}{4}$'</strong>: Exactly the result of dividing both sides by 4. &#10003;</li><li><strong>Choice B &mdash; '$m = 3(n+p)$'</strong>: Omits the division by 4; this would require the original equation to be $m = 3(n+p)$. &#10007;</li><li><strong>Choice C &mdash; '$m = 3(n+p) - 4$'</strong>: Incorrectly subtracts 4 instead of dividing by 4. &#10007;</li><li><strong>Choice D &mdash; '$m = 3 - n - p - 4$'</strong>: Incorrectly distributes and subtracts rather than divides by 4. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li><strong>\"$m = \\frac{3(n+p)}{4}$\"</strong>: Exactly the result of dividing both sides by 4. &#10003;</li><li><strong>\"$m = 3(n + p)$\"</strong>: Omits the division by 4; this would require the original equation to be $m = 3(n+p)$. &#10007;</li><li><strong>\"$m = 3(n + p)−4$\"</strong>: Incorrectly subtracts 4 instead of dividing by 4. &#10007;</li><li><strong>\"$m = 3 − n − p − 4$\"</strong>: Incorrectly distributes and subtracts rather than divides by 4. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
     }
   ]
 }

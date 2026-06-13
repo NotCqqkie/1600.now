@@ -173,7 +173,7 @@
     "difficulty": "Easy",
     "question_number": 6,
     "test_name": "Module Source 100 Math M2",
-    "passage": "Which expression is equivalent to $2(x-\\frac{3}{2})(x+14)$?",
+    "passage": "Which expression is equivalent to $2\\left(x-\\frac{3}{2})(x+14\\right)$?",
     "question_text": null,
     "choices": [
       {
@@ -237,7 +237,7 @@
     "difficulty": "Medium",
     "question_number": 8,
     "test_name": "Module Source 100 Math M2",
-    "passage": "In right triangle RST, the sum of the measures of angle R and angle S is 90 degrees. The value of sin(R) is $\\frac{2\\sqrt{10}}{7}$. What is the value of cos(S)?",
+    "passage": "In right triangle $RST$, the sum of the measures of angle $R$ and angle $S$ is 90 degrees. The value of $\\sin(R)$ is $\\frac{2\\sqrt{10}}{7}$. What is the value of $\\cos(S)$?",
     "question_text": null,
     "choices": [
       {
@@ -269,24 +269,24 @@
     "difficulty": "Hard",
     "question_number": 9,
     "test_name": "Module Source 100 Math M2",
-    "passage": "$y < 42 - 7x$ and $\\frac{y}{7} > 10$. Which inequality represents the $x$ values for all solutions $(x, y)$ that satisfy the given system of inequalities in the $xy$-plane?",
+    "passage": "$y \\lt 42 - 7x$ and $\\frac{y}{7} \\gt 10$. Which inequality represents the $x$ values for all solutions $(x, y)$ that satisfy the given system of inequalities in the $xy$-plane?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$x > 6$"
+        "text": "$x \\gt 6$"
       },
       {
         "label": "B",
-        "text": "$x < 6$"
+        "text": "$x \\lt 6$"
       },
       {
         "label": "C",
-        "text": "$x > -4$"
+        "text": "$x \\gt -4$"
       },
       {
         "label": "D",
-        "text": "$x < -4$"
+        "text": "$x \\lt -4$"
       }
     ],
     "is_fill_in_blank": false,
@@ -301,7 +301,7 @@
     "difficulty": "Medium",
     "question_number": 10,
     "test_name": "Module Source 100 Math M2",
-    "passage": "In the xy-plane, an equation of circle A is $(x - 2)^2 + (y - 3)^2 = 9$. Circle B has the same center as circle A but has a radius that is twice the radius of circle A. Which equation represents circle B?",
+    "passage": "In the $xy$-plane, an equation of circle A is $(x - 2)^2 + (y - 3)^2 = 9$. Circle B has the same center as circle A but has a radius that is twice the radius of circle A. Which equation represents circle B?",
     "question_text": null,
     "choices": [
       {
@@ -431,19 +431,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$v = 0.01 t + 24$"
+        "text": "$v = 0.01t + 24$"
       },
       {
         "label": "B",
-        "text": "$v = 0.03 t + 24$"
+        "text": "$v = 0.03t + 24$"
       },
       {
         "label": "C",
-        "text": "$v = 0.09 t + 24$"
+        "text": "$v = 0.09t + 24$"
       },
       {
         "label": "D",
-        "text": "$v = 3 t$"
+        "text": "$v = 3t$"
       }
     ],
     "is_fill_in_blank": false,
@@ -537,24 +537,24 @@
     "difficulty": "Hard",
     "question_number": 18,
     "test_name": "Module Source 100 Math M2",
-    "passage": "The equation $N(m) = 65(Q)^{\\frac{m}{4}}$ gives the predicted population $N(m)$, in thousands, of a certain bacteria colony $m$ minutes after the initial measurement, where $Q$ is a constant greater than 1. The predicted population increases by $p$% every 120 seconds. What is the value of $p$ in terms of $Q$?",
+    "passage": "The equation $N(m) = 65(Q)^{\\frac{m}{4}}$ gives the predicted population $N(m)$, in thousands, of a certain bacteria colony $m$ minutes after the initial measurement, where $Q$ is a constant greater than 1. The predicted population increases by $p\\%$ every 120 seconds. What is the value of $p$ in terms of $Q$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$100(Q^{\\frac{3}{2}}+1)$"
+        "text": "$100\\left(Q^{\\frac{3}{2}}+1\\right)$"
       },
       {
         "label": "B",
-        "text": "$100(Q^{30}+1)$"
+        "text": "$100\\left(Q^{30}+1\\right)$"
       },
       {
         "label": "C",
-        "text": "$100(Q^{\\frac{1}{2}}-1)$"
+        "text": "$100\\left(Q^{\\frac{1}{2}}-1\\right)$"
       },
       {
         "label": "D",
-        "text": "$100(Q^{30}-1)$"
+        "text": "$100\\left(Q^{30}-1\\right)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -599,7 +599,7 @@
     "difficulty": "Hard",
     "question_number": 21,
     "test_name": "Module Source 100 Math M2",
-    "passage": "$13(x - n) = 13y + 13n$\nOne of the equations in a system of two linear equations is given, where $n$ is a positive constant. The system has no solution. Which equation could be the second equation in this system?",
+    "passage": "${13}(x - n) = 13y + 13n$\nOne of the equations in a system of two linear equations is given, where $n$ is a positive constant. The system has no solution. Which equation could be the second equation in this system?",
     "question_text": null,
     "choices": [
       {
@@ -631,7 +631,7 @@
     "difficulty": "Hard",
     "question_number": 22,
     "test_name": "Module Source 100 Math M2",
-    "passage": "$(x-k)^{2}=(k-4a)(x-k)$\nIn the given equation, $a$ and $k$ are constants, where $k > 4a$. The sum of the solutions to the equation is $3k + 35$. What is the value of $a$?",
+    "passage": "$(x-k)^{2}=(k-4a)(x-k)$\nIn the given equation, $a$ and $k$ are constants, where $k \\gt 4a$. The sum of the solutions to the equation is $3k + 35$. What is the value of $a$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

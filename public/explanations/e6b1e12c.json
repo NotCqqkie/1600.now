@@ -1,1 +1,19 @@
-{"questionId": "e6b1e12c", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Map the logical relationship", "content": "Sentence 1 says the shifting has been attributed to passive displacement by water currents. Sentence 2 reports that the barnacles moved toward the turtles&apos; heads, against the prevailing flow, consistent with self-initiated locomotion. The finding contradicts the passive-displacement explanation."}, {"title": "Pick a transition that signals contradiction of the explanation", "content": "The blank needs a transition meaning the new finding weakens the explanation just given. &quot;Undermining this explanation&quot; fits exactly."}, {"title": "Per-choice elimination", "content": "<ul><li><strong>Choice A &mdash; &apos;Contrary to this phenomenon,&apos;</strong>: misreads what is being opposed; the research opposes the explanation for the phenomenon, not the phenomenon (the shifting) itself, which still occurs. &#10007;</li><li><strong>Choice B &mdash; &apos;Undermining this explanation,&apos;</strong>: correctly signals that the new finding weakens the passive-current explanation. &#10003;</li><li><strong>Choice C &mdash; &apos;Drawing a similar conclusion,&apos;</strong>: overreach in the wrong direction; the new finding reaches an opposite conclusion (active movement), not a similar one. &#10007;</li><li><strong>Choice D &mdash; &apos;Confirming this hypothesis,&apos;</strong>: reverses the relationship; the finding refutes, not confirms, the passive-displacement hypothesis. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "e6b1e12c",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Map the logical relationship",
+      "content": "Sentence 1 says the shifting has been attributed to passive displacement by water currents. Sentence 2 reports that the barnacles moved toward the turtles' heads, against the prevailing flow, consistent with self-initiated locomotion. The finding contradicts the passive-displacement explanation."
+    },
+    {
+      "title": "Pick a transition that signals contradiction of the explanation",
+      "content": "The blank needs a transition meaning the new finding weakens the explanation just given. \"Undermining this explanation\" fits exactly."
+    },
+    {
+      "title": "Per-choice elimination",
+      "content": "<ul><li><strong>\"Contrary to this phenomenon,\"</strong>: misreads what is being opposed; the research opposes the explanation for the phenomenon, not the phenomenon (the shifting) itself, which still occurs. &#10007;</li><li><strong>\"Undermining this explanation,\"</strong>: correctly signals that the new finding weakens the passive-current explanation. &#10003;</li><li><strong>\"Drawing a similar conclusion,\"</strong>: overreach in the wrong direction; the new finding reaches an opposite conclusion (active movement), not a similar one. &#10007;</li><li><strong>\"Confirming this hypothesis,\"</strong>: reverses the relationship; the finding refutes, not confirms, the passive-displacement hypothesis. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+    }
+  ]
+}

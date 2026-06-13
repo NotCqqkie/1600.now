@@ -6,8 +6,8 @@
     "difficulty": "Easy",
     "question_number": 1,
     "test_name": "Module Source 242 Eng M1",
-    "passage": "As used in the text, what does the word “registered” most nearly mean?\nThe following text is from John Matheus's 1925 novel *Fog*. The story happens in a city where heavy fog has set in.\nThe little conductor stood on tiptoe in an effort to keep one hand on the signal rope, craning his neck in a vain and dissatisfied endeavor to pierce the miasma of the fog. The motorman chafed in his box, thinking of the drudging lot of the laboring man. He <u>registered</u> discontent.",
-    "question_text": "As used in the text, what does the word “registered” most nearly mean?",
+    "passage": "As used in the text, what does the word \"registered\" most nearly mean?\nThe following text is from John Matheus's 1925 novel *Fog*. The story happens in a city where heavy fog has set in.\nThe little conductor stood on tiptoe in an effort to keep one hand on the signal rope, craning his neck in a vain and dissatisfied endeavor to pierce the miasma of the fog. The motorman chafed in his box, thinking of the drudging lot of the laboring man. He <u>registered</u> discontent.",
+    "question_text": "As used in the text, what does the word \"registered\" most nearly mean?",
     "choices": [
       {
         "label": "A",
@@ -115,7 +115,7 @@
       },
       {
         "label": "C",
-        "text": "It marks a shift from a discussion of the researchers’ conclusion to a discussion of their methods."
+        "text": "It marks a shift from a discussion of the researchers' conclusion to a discussion of their methods."
       },
       {
         "label": "D",
@@ -135,7 +135,7 @@
     "question_number": 5,
     "test_name": "Module Source 242 Eng M1",
     "passage": "Which quotation from Uncle Vanya most effectively illustrates the claim? The following text is adapted from Anton Chekhov's 1899 play *Uncle Vanya*. Professor Serebrakoff retires and moves to his country estate, which Vanya manages with the help of Sonia, the professor's daughter from a previous marriage. Chekhov portrays the professor as being someone unable to adjust to living at the country estate, as is evident when ______",
-    "question_text": "Which quotation from Uncle Vanya most effectively illustrates the claim?",
+    "question_text": "Which quotation from Uncle Vanya most effectively illustrates the claim? The following text is adapted from Anton Chekhov's 1899 play *Uncle Vanya*. Professor Serebrakoff retires and moves to his country estate, which Vanya manages with the help of Sonia, the professor's daughter from a previous marriage. Chekhov portrays the professor as being someone unable to adjust to living at the country estate, as is evident when ______",
     "choices": [
       {
         "label": "A",
@@ -166,7 +166,7 @@
     "difficulty": "Medium",
     "question_number": 6,
     "test_name": "Module Source 242 Eng M1",
-    "passage": "Which choice best states the main purpose of the text?\nThe following text is from Jerome K. Jerome's 1889 novel *Three Men in a Boat*.\nWe are creatures of the sun, we men and women. We love light and life. That is why we crowd into the towns and cities, and the country grows more and more deserted every year. In the sunlight—in the daytime, when Nature is alive and busy all around us, we like the open hillsides and the deep woods well enough: but in the night, when our Mother Earth has gone to sleep, and left us waking, oh! the world seems so lonesome, and we get frightened, like children in a silent house. Then we sit and sob, and long for the gas-lit streets, and the sound of human voices, and the answering throb of human life.",
+    "passage": "Which choice best states the main purpose of the text?\nThe following text is from Jerome K. Jerome's 1889 novel *Three Men in a Boat*.\nWe are creatures of the sun, we men and women. We love light and life. That is why we crowd into the towns and cities, and the country grows more and more deserted every year. In the sunlight--in the daytime, when Nature is alive and busy all around us, we like the open hillsides and the deep woods well enough: but in the night, when our Mother Earth has gone to sleep, and left us waking, oh! the world seems so lonesome, and we get frightened, like children in a silent house. Then we sit and sob, and long for the gas-lit streets, and the sound of human voices, and the answering throb of human life.",
     "question_text": "Which choice best states the main purpose of the text?",
     "choices": [
       {
@@ -267,19 +267,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "“The [train] engines of this valley have a whistle, the echoes of which sound like iterated gasps and sobs. I always think of them as crude music.”"
+        "text": "\"The [train] engines of this valley have a whistle, the echoes of which sound like iterated gasps and sobs. I always think of them as crude music.\""
       },
       {
         "label": "B",
-        "text": "“And when the wind is from the South, soil of my homeland falls like a fertile shower upon the lean streets of [Washington, DC].”"
+        "text": "\"And when the wind is from the South, soil of my homeland falls like a fertile shower upon the lean streets of [Washington, DC].\""
       },
       {
         "label": "C",
-        "text": "“I sang, with a strange quiver in my voice, a promise-song.”"
+        "text": "\"I sang, with a strange quiver in my voice, a promise-song.\""
       },
       {
         "label": "D",
-        "text": "“The young trees had not outgrown their boxes then. V Street [in Washington, DC] was lined with them.”"
+        "text": "\"The young trees had not outgrown their boxes then. V Street [in Washington, DC] was lined with them.\""
       }
     ],
     "is_fill_in_blank": false,
@@ -307,7 +307,7 @@
       },
       {
         "label": "C",
-        "text": "Infants’ heart rates were substantially lower during the lullaby than during the non-lullaby."
+        "text": "Infants' heart rates were substantially lower during the lullaby than during the non-lullaby."
       },
       {
         "label": "D",
@@ -365,7 +365,7 @@
     "difficulty": "Medium",
     "question_number": 12,
     "test_name": "Module Source 242 Eng M1",
-    "passage": "Which finding, if true, would most directly support the second research team's hypothesis?\nWater flowing around an obstruction creates vortices (patterns of swirls) of varying size; by detecting the vortices, fish can determine the size and position of the obstruction. Testing by Yuzo R. Yanagisuru, Otar Akanyeti, and James C. Liao using models of three head shapes—narrow (low ratio of width to length), intermediate, and wide (high ratio of width to length)—showed that for large vortices, fish with intermediate heads would be better able than narrow-headed fish to distinguish between vortices and general turbulence in the water. A second research team has therefore hypothesized that in low-visibility conditions, intermediate-headed fish will be more likely than narrow-headed fish to detect obstructions that create large vortices.",
+    "passage": "Which finding, if true, would most directly support the second research team's hypothesis?\nWater flowing around an obstruction creates vortices (patterns of swirls) of varying size; by detecting the vortices, fish can determine the size and position of the obstruction. Testing by Yuzo R. Yanagisuru, Otar Akanyeti, and James C. Liao using models of three head shapes--narrow (low ratio of width to length), intermediate, and wide (high ratio of width to length)--showed that for large vortices, fish with intermediate heads would be better able than narrow-headed fish to distinguish between vortices and general turbulence in the water. A second research team has therefore hypothesized that in low-visibility conditions, intermediate-headed fish will be more likely than narrow-headed fish to detect obstructions that create large vortices.",
     "question_text": "Which finding, if true, would most directly support the second research team's hypothesis?",
     "choices": [
       {
@@ -436,7 +436,7 @@
     "difficulty": "Medium",
     "question_number": 14,
     "test_name": "Module Source 242 Eng M1",
-    "passage": "Which choice best describes data in the table that support the city planner's conclusion?\nRanking of Environmental and Sociocultural Benefits of Urban Agriculture (scale of 1 to 25; 1=highest)\nEsther Sanye-Mengual, Kathrin Specht, and their team surveyed three groups of people in Bologna, Italy—leaders of urban agriculture projects, stakeholders in urban agriculture (e. g., food researchers and urban farming associations), and the general public—to compare their views about the extent to which urban agriculture contributes to 25 social or ecological services that the team identified. The researchers used these ratings to rank the services for each group, with a conclusion that both stakeholders and general public regard the improvement of attitudes and outlooks as important benefit of urban agriculture.",
+    "passage": "Which choice best describes data in the table that support the city planner's conclusion?\nRanking of Environmental and Sociocultural Benefits of Urban Agriculture (scale of 1 to 25; 1=highest)\nEsther Sanye-Mengual, Kathrin Specht, and their team surveyed three groups of people in Bologna, Italy--leaders of urban agriculture projects, stakeholders in urban agriculture (e. g., food researchers and urban farming associations), and the general public--to compare their views about the extent to which urban agriculture contributes to 25 social or ecological services that the team identified. The researchers used these ratings to rank the services for each group, with a conclusion that both stakeholders and general public regard the improvement of attitudes and outlooks as important benefit of urban agriculture.",
     "question_text": "Which choice best describes data in the table that support the city planner's conclusion?",
     "choices": [
       {
@@ -603,7 +603,7 @@
     "difficulty": "Easy",
     "question_number": 19,
     "test_name": "Module Source 242 Eng M1",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWhat is the origin of the word “pessimism”? Interestingly, ______ It first appears in a letter by English author Samuel Taylor Coleridge.",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWhat is the origin of the word \"pessimism\"? Interestingly, ______ It first appears in a letter by English author Samuel Taylor Coleridge.",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {
@@ -635,7 +635,7 @@
     "difficulty": "Medium",
     "question_number": 20,
     "test_name": "Module Source 242 Eng M1",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAfter much debate, ______ finally made a decision: the judges for the 1974 Nobel Prize in Literature would award Eyvind Johnson of Sweden with that year's prize “for a narrative art, far-seeing in lands and ages, in the service of freedom.”",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAfter much debate, ______ finally made a decision: the judges for the 1974 Nobel Prize in Literature would award Eyvind Johnson of Sweden with that year's prize \"for a narrative art, far-seeing in lands and ages, in the service of freedom.\"",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {
@@ -667,7 +667,7 @@
     "difficulty": "Medium",
     "question_number": 21,
     "test_name": "Module Source 242 Eng M1",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nToday, the Michelin Guide is widely known as the arbiter of fine dining, with its coveted 3-star rating being awarded to top restaurants like Xin Rong Ji in Beijing. However, few know the guide started as a marketing gimmick in 1900, when brothers Andre and Edouard Michelin sought to increase profits for their tire company by encouraging their customers to ______ their cars across France, visiting the guide’s recommended hotels and restaurants along the way.",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nToday, the Michelin Guide is widely known as the arbiter of fine dining, with its coveted 3-star rating being awarded to top restaurants like Xin Rong Ji in Beijing. However, few know the guide started as a marketing gimmick in 1900, when brothers Andre and Edouard Michelin sought to increase profits for their tire company by encouraging their customers to ______ their cars across France, visiting the guide's recommended hotels and restaurants along the way.",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {
@@ -731,7 +731,7 @@
     "difficulty": "Medium",
     "question_number": 23,
     "test_name": "Module Source 242 Eng M1",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWriter Silvia Moreno-Garcia’s love of short fiction began when she read a collection of Edgar Allan Poe stories as a child, and she later would become a prolific short story writer herself, publishing pieces like “In the Details” (2015) and “To See Pedro Infante” (2014). Yet she's best ______ especially since her 2020 novel *Mexican Gothic* reached the New York Times Best Sellers list—as a novelist.",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWriter Silvia Moreno-Garcia's love of short fiction began when she read a collection of Edgar Allan Poe stories as a child, and she later would become a prolific short story writer herself, publishing pieces like \"In the Details\" (2015) and \"To See Pedro Infante\" (2014). Yet she's best ______ especially since her 2020 novel *Mexican Gothic* reached the New York Times Best Sellers list--as a novelist.",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {
@@ -744,7 +744,7 @@
       },
       {
         "label": "C",
-        "text": "known—"
+        "text": "known--"
       },
       {
         "label": "D",
@@ -763,7 +763,7 @@
     "difficulty": "Medium",
     "question_number": 24,
     "test_name": "Module Source 242 Eng M1",
-    "passage": "Which choice completes the text with the most logical transition?\nIn 1931, scientists first isolated a sample of the steroid hormone *androsterone*, which they knew existed in animals—and, they assumed, only in animals. ______ researchers would find *androsterone* in Swiss cheese plants (*Monstera deliciosa*), but this discovery wouldn't come until decades later.",
+    "passage": "Which choice completes the text with the most logical transition?\nIn 1931, scientists first isolated a sample of the steroid hormone *androsterone*, which they knew existed in animals--and, they assumed, only in animals. ______ researchers would find *androsterone* in Swiss cheese plants (*Monstera deliciosa*), but this discovery wouldn't come until decades later.",
     "question_text": "Which choice completes the text with the most logical transition?",
     "choices": [
       {
@@ -795,7 +795,7 @@
     "difficulty": "Easy",
     "question_number": 25,
     "test_name": "Module Source 242 Eng M1",
-    "passage": "Which choice completes the text with the most logical transition?\nThe first documented use of the English word “muzzle” is attributed to poet Geoffrey Chaucer's 1385 work *The Knight's Tale*. However, Chaucer didn't write in Modern English; ______ he wrote in what we now call Middle English, which was commonly used during the period.",
+    "passage": "Which choice completes the text with the most logical transition?\nThe first documented use of the English word \"muzzle\" is attributed to poet Geoffrey Chaucer's 1385 work *The Knight's Tale*. However, Chaucer didn't write in Modern English; ______ he wrote in what we now call Middle English, which was commonly used during the period.",
     "question_text": "Which choice completes the text with the most logical transition?",
     "choices": [
       {

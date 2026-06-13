@@ -1,1 +1,15 @@
-{"questionId": "e1453c88", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Recognize the task's scope", "content": "The task asks for a “historical overview of the Shackleton expedition” — that means covering the expedition's main events from start to finish, not the books, documentaries, or wreck discovery created years later."}, {"title": "Apply the scope to the choices", "content": "Choice A presents the expedition's core events in chronological order — departure in 1914, ship loss amid harrowing sea-ice troubles in 1915, and crew rescue in 1916 — directly providing the <em>historical overview</em> requested.<br/><br/>The other choices either focus on secondary sources and post-expedition events (C, D) or misstate the events (B).<br/><br/>This matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "e1453c88",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the task's scope",
+      "content": "The task asks for a “historical overview of the Shackleton expedition” — that means covering the expedition's main events from start to finish, not the books, documentaries, or wreck discovery created years later."
+    },
+    {
+      "title": "Apply the scope to the choices",
+      "content": "<strong>Leaving in 1914 for Antarctica, Shackleton and his crew underwent many harrowing sea-ice adventures, including losing their ship in 1915, before being rescued in 1916.</strong> presents the expedition's core events in chronological order — departure in 1914, ship loss amid harrowing sea-ice troubles in 1915, and crew rescue in 1916 — directly providing the <em>historical overview</em> requested.<br/><br/>The other choices either focus on secondary sources and post-expedition events or misstate the events.<br/><br/>This matches the correct answer — <strong>A</strong> is correct."
+    }
+  ]
+}

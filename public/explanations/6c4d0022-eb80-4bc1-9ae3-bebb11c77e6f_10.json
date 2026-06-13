@@ -1,1 +1,15 @@
-{"questionId": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_10", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The passage presents two distinct benefits of community science: it promotes conservation engagement and it greatly expands data collection. The correct answer must capture both benefits accurately."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'Grace Herzel...surprised at the effect...'</strong>: Focuses on a single researcher&apos;s reaction to one study rather than summarizing the passage&apos;s overall claim about community science. &#10007;</li><li><strong>Choice B &mdash; 'less likely to help researchers obtain accurate data'</strong>: Directly contradicts the passage, which states that community science greatly increases data collection. &#10007;</li><li><strong>Choice C &mdash; 'increase conservation efforts and generate large amounts of data'</strong>: Captures both benefits the passage identifies &mdash; community engagement through conservation and large-scale data generation for researchers. &#10003;</li><li><strong>Choice D &mdash; 'unlikely to have much of an effect on conservation efforts'</strong>: Also contradicts the passage, which presents increased conservation efforts as a key benefit. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_10",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage presents two distinct benefits of community science: it promotes conservation engagement and it greatly expands data collection. The correct answer must capture both benefits accurately."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Grace Herzel and colleagues used a community science approach in their butterfly research and were surprised at the effect this had on conservation efforts.&rsquo;</strong>: Focuses on a single researcher&apos;s reaction to one study rather than summarizing the passage&apos;s overall claim about community science. &#10007;</li><li><strong>Choice B &mdash; &lsquo;A community science approach can benefit communities by increasing conservation efforts, but it's less likely to help researchers obtain accurate data.&rsquo;</strong>: Directly contradicts the passage, which states that community science greatly increases data collection. &#10007;</li><li><strong>Choice C &mdash; &lsquo;A community science approach can increase conservation efforts and generate large amounts of data, benefiting both communities and researchers.&rsquo;</strong>: Captures both benefits the passage identifies &mdash; community engagement through conservation and large-scale data generation for researchers. &#10003;</li><li><strong>Choice D &mdash; &lsquo;A community science approach allows researchers to collect significantly more data even though it's unlikely to have much of an effect on conservation efforts.&rsquo;</strong>: Also contradicts the passage, which presents increased conservation efforts as a key benefit. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

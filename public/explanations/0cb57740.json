@@ -13,8 +13,8 @@
     },
     {
       "title": "Combine like terms",
-      "content": "$$6n+6=30$$<br/>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "$$6n+6=30$$<br/>That matches <strong>Choice B &mdash; $6n+6=30$</strong>."
     }
   ],
-  "choiceElimination": "<ul><li><strong>Choice A &mdash; '5n + 6 = 30'</strong>: This omits the n sides with length 3 cm from the count. It only counts the 5n sides of 8 cm and the 6 sides of 4 cm, missing the n sides themselves. &#10007;</li><li><strong>Choice B &mdash; '6n + 6 = 30'</strong>: Counts 5n (8 cm sides) + n (3 cm sides) + 6 (4 cm sides) = 6n + 6 = 30. All three groups are included and combined correctly. &#10003;</li><li><strong>Choice C &mdash; '8n + 3n + 4n = 30'</strong>: Multiplies the lengths (8, 3, 4) by n and adds them. This mixes lengths with counts and does not equal the total number of sides. &#10007;</li><li><strong>Choice D &mdash; '8(5n) + 3n + 4(6) = 30'</strong>: Multiplies lengths by counts (e.g., 8 cm &times; 5n sides), which gives total centimeters, not total sides. This equals 30 cm, not 30 sides. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+  "choiceElimination": "<ul><li><strong>Choice A &mdash; $5n+6=30$</strong>: This omits the n sides with length 3 cm from the count. It only counts the 5n sides of 8 cm and the 6 sides of 4 cm, missing the n sides themselves. &#10007;</li><li><strong>Choice B &mdash; $6n+6=30$</strong>: Counts 5n (8 cm sides) + n (3 cm sides) + 6 (4 cm sides) = 6n + 6 = 30. All three groups are included and combined correctly. &#10003;</li><li><strong>Choice C &mdash; $8n+3n+4n=30$</strong>: Multiplies the lengths (8, 3, 4) by n and adds them. This mixes lengths with counts and does not equal the total number of sides. &#10007;</li><li><strong>Choice D &mdash; $8 \\left(5n\\right)+3n+4 \\left(6\\right)=30$</strong>: Multiplies lengths by counts (e.g., 8 cm &times; 5n sides), which gives total centimeters, not total sides. This equals 30 cm, not 30 sides. &#10007;</li></ul>That matches <strong>Choice B &mdash; $6n+6=30$</strong>."
 }

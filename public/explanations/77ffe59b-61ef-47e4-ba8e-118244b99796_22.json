@@ -1,1 +1,15 @@
-{"questionId":"77ffe59b-61ef-47e4-ba8e-118244b99796_22","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank must connect two sentences: NASA crashed a probe into Dimorphos, then Dimorphos&rsquo;s orbital period was permanently altered. The second sentence is the <em>result</em> of the first, so the transition must signal cause and effect."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'In comparison,'</strong>: signals a contrast or comparison between two things &mdash; but the two sentences do not compare anything; one causes the other. &#10007;</li><li><strong>Choice B &mdash; 'In addition,'</strong>: signals adding a new, independent piece of information, not a consequence of what came before. &#10007;</li><li><strong>Choice C &mdash; 'Consequently,'</strong>: means &ldquo;as a result,&rdquo; directly marking the orbital period change as the outcome of the probe impact. &#10003;</li><li><strong>Choice D &mdash; 'Specifically,'</strong>: signals that what follows narrows or specifies what came before &mdash; but the orbital change is an effect, not a specification of the crash. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "77ffe59b-61ef-47e4-ba8e-118244b99796_22",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank must connect two sentences: NASA crashed a probe into Dimorphos, then Dimorphos&rsquo;s orbital period was permanently altered. The second sentence is the <em>result</em> of the first, so the transition must signal cause and effect."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;In comparison,&rsquo;</strong>: signals a contrast or comparison between two things &mdash; but the two sentences do not compare anything; one causes the other. &#10007;</li><li><strong>Choice B &mdash; &lsquo;In addition,&rsquo;</strong>: signals adding a new, independent piece of information, not a consequence of what came before. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Consequently,&rsquo;</strong>: means &ldquo;as a result,&rdquo; directly marking the orbital period change as the outcome of the probe impact. &#10003;</li><li><strong>Choice D &mdash; &lsquo;Specifically,&rsquo;</strong>: signals that what follows narrows or specifies what came before &mdash; but the orbital change is an effect, not a specification of the crash. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

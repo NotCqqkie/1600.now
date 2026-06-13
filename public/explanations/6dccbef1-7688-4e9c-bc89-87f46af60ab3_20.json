@@ -10,7 +10,7 @@
     },
     {
       "title": "Apply exponent rules to the ratio",
-      "content": "Since $f(n) = 7(20.44)^{\\frac{n}{4}}$, the coefficients cancel:<br/>$$\\frac{f(14)}{f(10)} = \\frac{7(20.44)^{14/4}}{7(20.44)^{10/4}} = (20.44)^{14/4 - 10/4} = (20.44)^{1} = 20.44$$<br/>Therefore: $$p = 100(20.44 - 1) = 100 \\times 19.44 = 1944$$<br/>That matches choice C — <strong>C</strong> is correct."
+      "content": "Since $f(n) = 7(20.44)^{\\frac{n}{4}}$, the coefficients cancel:<br/>$$\\frac{f(14)}{f(10)} = \\frac{7(20.44)^{14/4}}{7(20.44)^{10/4}} = (20.44)^{14/4 - 10/4} = (20.44)^{1} = 20.44$$<br/>Therefore: $$p = 100(20.44 - 1) = 100 \\times 19.44 = 1944$$<br/>That confirms <strong>C</strong> is correct."
     }
   ]
 }

@@ -19,7 +19,7 @@
     },
     {
       "title": "Determine effect of adding weight 32 to the data set",
-      "content": "New sum: $1183 + 32 = 1215$<br/>$$\\text{New mean} = \\frac{1215}{72} \\approx 16.88$$<br/>Since $16.88 > 16.66$, the mean increased.<br/><br/>For the median with 72 values: the middle is between the 36th and 37th values. Since 32 is much larger than all existing weights (which max out at 20), the value 32 occupies the 72nd position when sorted. The 36th and 37th values remain weight 17.<br/>$$\\text{New median} = 17$$<br/>The mean increased but the median stayed the same. That matches choice B — <strong>B</strong> is correct."
+      "content": "New sum: $1183 + 32 = 1215$<br/>$$\\text{New mean} = \\frac{1215}{72} \\approx 16.88$$<br/>Since $16.88 \\gt 16.66$, the mean increased.<br/><br/>For the median with 72 values: the middle is between the 36th and 37th values. Since 32 is much larger than all existing weights (which max out at 20), the value 32 occupies the 72nd position when sorted. The 36th and 37th values remain weight 17.<br/>$$\\text{New median} = 17$$<br/>The mean increased but the median stayed the same. That confirms <strong>B</strong> is correct."
     }
   ]
 }

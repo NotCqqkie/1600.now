@@ -70,8 +70,8 @@
     "difficulty": "Medium",
     "question_number": 3,
     "test_name": "Module Source 001 Eng M1",
-    "passage": "As used in the text, what does the word “mastery” most nearly mean?\nThe following text is adapted from Alice Dunbar Nelson’s 1899 short story “The Fisherman of Pass Christian.” Pass Christian is a city in the US state of Mississippi.\nThe swift breezes on the beach at Pass Christian meet and conflict as though each strove for the <u>mastery</u> of the air. The land-breeze blows down through the pines, resinous, fragrant, cold, bringing breath-like memories of dim, dark woods shaded by myriad pine-needles. The breeze from the Gulf is warm and soft and languorous, blowing up from the south with its suggestion of tropical warmth.",
-    "question_text": "As used in the text, what does the word “mastery” most nearly mean?",
+    "passage": "As used in the text, what does the word \"mastery\" most nearly mean?\nThe following text is adapted from Alice Dunbar Nelson's 1899 short story \"The Fisherman of Pass Christian.\" Pass Christian is a city in the US state of Mississippi.\nThe swift breezes on the beach at Pass Christian meet and conflict as though each strove for the <u>mastery</u> of the air. The land-breeze blows down through the pines, resinous, fragrant, cold, bringing breath-like memories of dim, dark woods shaded by myriad pine-needles. The breeze from the Gulf is warm and soft and languorous, blowing up from the south with its suggestion of tropical warmth.",
+    "question_text": "As used in the text, what does the word \"mastery\" most nearly mean?",
     "choices": [
       {
         "label": "A",
@@ -166,7 +166,7 @@
     "difficulty": "Medium",
     "question_number": 6,
     "test_name": "Module Source 001 Eng M1",
-    "passage": "Which choice best describes the function of the underlined sentence in the text as a whole?\nMoving beyond a simple “present or absent” designation, researchers created a new classification system that allows for a nuanced understanding of bioluminescence in marine organisms that was unavailable under binary classification systems. <u>The new six-point scale considers varying levels of supporting evidence used to identify bioluminescent species.</u> For example, the firefly squid scores 1 because of inconsistent reports, the emperor squid scores 4 because of its anatomical similarity to known luminous relatives, and the shaggy anglerfish scores 6 because of substantiated direct observations.",
+    "passage": "Which choice best describes the function of the underlined sentence in the text as a whole?\nMoving beyond a simple \"present or absent\" designation, researchers created a new classification system that allows for a nuanced understanding of bioluminescence in marine organisms that was unavailable under binary classification systems. <u>The new six-point scale considers varying levels of supporting evidence used to identify bioluminescent species.</u> For example, the firefly squid scores 1 because of inconsistent reports, the emperor squid scores 4 because of its anatomical similarity to known luminous relatives, and the shaggy anglerfish scores 6 because of substantiated direct observations.",
     "question_text": "Which choice best describes the function of the underlined sentence in the text as a whole?",
     "choices": [
       {
@@ -429,20 +429,20 @@
     "difficulty": "Medium",
     "question_number": 14,
     "test_name": "Module Source 001 Eng M1",
-    "passage": "Which choice most logically completes the text?\nAntonia Olivia Dolan and colleagues had musicians and nonmusicians with clinically average hearing listen to recordings of nature sounds and music in popular genres like acoustic folk and funk and adjust the volume to optimize their listening enjoyment. The researchers found that for a given recording that a musician and nonmusician identified as their favorite among those included in the study, optimal volume tended to be higher for the musician than for the nonmusician. Thus, if a musician and nonmusician both identified Jose Gonzalezʼs “Heartbeats” as their favorite recording and the musician preferred to listen to it at a volume of 82.2 decibels, the nonmusician would be expected to ______",
+    "passage": "Which choice most logically completes the text?\nAntonia Olivia Dolan and colleagues had musicians and nonmusicians with clinically average hearing listen to recordings of nature sounds and music in popular genres like acoustic folk and funk and adjust the volume to optimize their listening enjoyment. The researchers found that for a given recording that a musician and nonmusician identified as their favorite among those included in the study, optimal volume tended to be higher for the musician than for the nonmusician. Thus, if a musician and nonmusician both identified Jose Gonzalezʼs \"Heartbeats\" as their favorite recording and the musician preferred to listen to it at a volume of 82.2 decibels, the nonmusician would be expected to ______",
     "question_text": "Which choice most logically completes the text?",
     "choices": [
       {
         "label": "A",
-        "text": "find listening to “Heartbeats” at 82.2 decibels less enjoyable than listening to it at a lower volume."
+        "text": "find listening to \"Heartbeats\" at 82.2 decibels less enjoyable than listening to it at a lower volume."
       },
       {
         "label": "B",
-        "text": "prefer listening to other music at 82.2 decibels over listening to “Heartbeats” at that volume."
+        "text": "prefer listening to other music at 82.2 decibels over listening to \"Heartbeats\" at that volume."
       },
       {
         "label": "C",
-        "text": "enjoy listening to the nature sounds at 82.2 decibels more than listening to “Heartbeats” at 82.2 decibels."
+        "text": "enjoy listening to the nature sounds at 82.2 decibels more than listening to \"Heartbeats\" at 82.2 decibels."
       },
       {
         "label": "D",

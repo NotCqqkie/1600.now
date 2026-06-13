@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the answer choices",
-      "content": "<ul><li>A. $0.75$ &mdash; gives $3k = 2.25$, ratio $24/2.25 \\approx 10.7 \\neq 2$; eliminated.</li><li>B. $4$ &mdash; gives $3k = 12$, ratio $24/12 = 2$; matches.</li><li>C. $12$ &mdash; gives $3k = 36$, ratio $24/36 \\approx 0.67 \\neq 2$; eliminated.</li><li>D. $72$ &mdash; gives $3k = 216$, ratio $24/216 \\approx 0.11 \\neq 2$; eliminated.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "<ul><li>A. $0.75$ &mdash; gives $3k = 2.25$, ratio $24/2.25 \\approx 10.7 \\neq 2$; eliminated.</li><li>B. $4$ &mdash; gives $3k = 12$, ratio $24/12 = 2$; matches.</li><li>C. $12$ &mdash; gives $3k = 36$, ratio $24/36 \\approx 0.67 \\neq 2$; eliminated.</li><li>D. $72$ &mdash; gives $3k = 216$, ratio $24/216 \\approx 0.11 \\neq 2$; eliminated.</li></ul><strong>B</strong> is correct."
     }
   ]
 }

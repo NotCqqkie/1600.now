@@ -102,7 +102,7 @@
     "difficulty": "Medium",
     "question_number": 4,
     "test_name": "Module Source 025 Eng M1",
-    "passage": "Which choice best states the function of the underlined portion in the text as a whole?\nThe following text is adapted from Susan Glaspell’s 1917 play *The People*. Oscar, a writer at a newspaper called *The People*, is writing at a table when a woman enters the office to speak to the editor.\nTHE WOMAN: This *is* the office of *The People*?\nOSCAR: Um-hum.\nTHE WOMAN: (*Excitedly.*) I came to see the author of those wonderful words.\nOSCAR: (*Rising.*) Which wonderful words?\nTHE WOMAN: About moving toward the beautiful distances.\nOSCAR: (*Loses interest and returns to his writing.*) Oh. Those are Mr. Wills’ wonderful words.\nTHE WOMAN: Could I see him?\nOSCAR: He isn’t here yet. He’s just back from California. Won’t be at the office till a little later.",
+    "passage": "Which choice best states the function of the underlined portion in the text as a whole?\nThe following text is adapted from Susan Glaspell's 1917 play *The People*. Oscar, a writer at a newspaper called *The People*, is writing at a table when a woman enters the office to speak to the editor.\nTHE WOMAN: This *is* the office of *The People*?\nOSCAR: Um-hum.\nTHE WOMAN: (*Excitedly.*) I came to see the author of those wonderful words.\nOSCAR: (*Rising.*) Which wonderful words?\nTHE WOMAN: About moving toward the beautiful distances.\nOSCAR: (*Loses interest and returns to his writing.*) Oh. Those are Mr. Wills' wonderful words.\nTHE WOMAN: Could I see him?\nOSCAR: He isn't here yet. He's just back from California. Won't be at the office till a little later.",
     "question_text": "Which choice best states the function of the underlined portion in the text as a whole?",
     "choices": [
       {
@@ -111,7 +111,7 @@
       },
       {
         "label": "B",
-        "text": "To suggest that Oscar is annoyed that the woman’s visit has interrupted his work."
+        "text": "To suggest that Oscar is annoyed that the woman's visit has interrupted his work."
       },
       {
         "label": "C",
@@ -119,7 +119,7 @@
       },
       {
         "label": "D",
-        "text": "To show Oscar’s brief hope that the woman is fond of his writing."
+        "text": "To show Oscar's brief hope that the woman is fond of his writing."
       }
     ],
     "is_fill_in_blank": false,
@@ -166,7 +166,7 @@
     "difficulty": "Hard",
     "question_number": 6,
     "test_name": "Module Source 025 Eng M1",
-    "passage": "Which choice best describes the overall structure of the text?\nSome researchers posit that the species inhabiting the South Pacific island of Grande Terre belong to clades that predate the island’s split from remnants of the former supercontinent Gondwana around 80 million years ago. A study conducted by Yohan Pillon et al. found, however, that the crown age (the age of the most recent common ancestor of all living and extinct species in the clade) of the clade of *Geissois* trees on Grande Terre is 7.3 million years; Pillon et al. further found that the crown age of the clade of *Geissois* trees in the South Pacific generally is also approximately 7.3 million years.",
+    "passage": "Which choice best describes the overall structure of the text?\nSome researchers posit that the species inhabiting the South Pacific island of Grande Terre belong to clades that predate the island's split from remnants of the former supercontinent Gondwana around 80 million years ago. A study conducted by Yohan Pillon et al. found, however, that the crown age (the age of the most recent common ancestor of all living and extinct species in the clade) of the clade of *Geissois* trees on Grande Terre is 7.3 million years; Pillon et al. further found that the crown age of the clade of *Geissois* trees in the South Pacific generally is also approximately 7.3 million years.",
     "question_text": "Which choice best describes the overall structure of the text?",
     "choices": [
       {
@@ -198,12 +198,12 @@
     "difficulty": "Medium",
     "question_number": 7,
     "test_name": "Module Source 025 Eng M1",
-    "passage": "Based on the texts, how would Ert and Erev (Text 2) most likely respond to Kahneman and Tversky’s finding (Text 1)?\nText 1\nIn a seminal 1979 study, Daniel Kahneman and Amos Tversky presented students and college faculty from Israel, Sweden, and the United States with hypothetical questions involving financial decisions. Finding that participants’ responses indicated that losses have a greater psychological impact than equivalent gains do, the researchers formulated the concept of loss aversion, which has since informed research in fields ranging from cognitive psychology to transportation studies.\nText 2\nEyal Ert and Ido Erev conducted an experiment in which two groups of Israeli students were exposed to financial choices that involved potential losses of either relatively minor sums of money, such as 10 Israeli shekels (low-stakes contexts), or more substantial sums, such as 100 Israeli shekels (high-stakes contexts). The researchers concluded that only the latter contexts were associated with loss aversion.",
-    "question_text": "Based on the texts, how would Ert and Erev (Text 2) most likely respond to Kahneman and Tversky’s finding (Text 1)?",
+    "passage": "Based on the texts, how would Ert and Erev (Text 2) most likely respond to Kahneman and Tversky's finding (Text 1)?\nText 1\nIn a seminal 1979 study, Daniel Kahneman and Amos Tversky presented students and college faculty from Israel, Sweden, and the United States with hypothetical questions involving financial decisions. Finding that participants' responses indicated that losses have a greater psychological impact than equivalent gains do, the researchers formulated the concept of loss aversion, which has since informed research in fields ranging from cognitive psychology to transportation studies.\nText 2\nEyal Ert and Ido Erev conducted an experiment in which two groups of Israeli students were exposed to financial choices that involved potential losses of either relatively minor sums of money, such as 10 Israeli shekels (low-stakes contexts), or more substantial sums, such as 100 Israeli shekels (high-stakes contexts). The researchers concluded that only the latter contexts were associated with loss aversion.",
+    "question_text": "Based on the texts, how would Ert and Erev (Text 2) most likely respond to Kahneman and Tversky's finding (Text 1)?",
     "choices": [
       {
         "label": "A",
-        "text": "By observing that researchers’ ability to assess feelings about financial decisions is contingent on gathering adequate data about gains and losses."
+        "text": "By observing that researchers' ability to assess feelings about financial decisions is contingent on gathering adequate data about gains and losses."
       },
       {
         "label": "B",
@@ -211,7 +211,7 @@
       },
       {
         "label": "C",
-        "text": "By disputing Kahneman and Tversky’s claim that a tendency to place excessive emphasis on financial losses accounts for the loss aversion observed in fields such as cognitive psychology and transportation studies."
+        "text": "By disputing Kahneman and Tversky's claim that a tendency to place excessive emphasis on financial losses accounts for the loss aversion observed in fields such as cognitive psychology and transportation studies."
       },
       {
         "label": "D",
@@ -230,8 +230,8 @@
     "difficulty": "Medium",
     "question_number": 8,
     "test_name": "Module Source 025 Eng M1",
-    "passage": "According to the text, what is one way that The Antelope Woman differs from most of Erdrich’s work?\n*Tracks* is a 1988 novel by Ojibwe writer Louise Erdrich. It explores how historical events affect families on a reservation in rural North Dakota. *Tracks* is typical of Erdrich’s work. Her writing usually focuses on portrayals of everyday life in Ojibwe communities. Yet some of her novels have fantastical plots and take place outside Ojibwe communities. For example, her 2016 novel *The Antelope Woman* is essentially fantasy fiction, and the otherworldly events in its plot are set in an urban Indigenous community in Minneapolis.",
-    "question_text": "According to the text, what is one way that The Antelope Woman differs from most of Erdrich’s work?",
+    "passage": "According to the text, what is one way that The Antelope Woman differs from most of Erdrich's work?\n*Tracks* is a 1988 novel by Ojibwe writer Louise Erdrich. It explores how historical events affect families on a reservation in rural North Dakota. *Tracks* is typical of Erdrich's work. Her writing usually focuses on portrayals of everyday life in Ojibwe communities. Yet some of her novels have fantastical plots and take place outside Ojibwe communities. For example, her 2016 novel *The Antelope Woman* is essentially fantasy fiction, and the otherworldly events in its plot are set in an urban Indigenous community in Minneapolis.",
+    "question_text": "According to the text, what is one way that The Antelope Woman differs from most of Erdrich's work?",
     "choices": [
       {
         "label": "A",
@@ -239,7 +239,7 @@
       },
       {
         "label": "B",
-        "text": "It isn’t set in a rural Ojibwe community."
+        "text": "It isn't set in a rural Ojibwe community."
       },
       {
         "label": "C",
@@ -262,8 +262,8 @@
     "difficulty": "Medium",
     "question_number": 9,
     "test_name": "Module Source 025 Eng M1",
-    "passage": "The text most strongly suggests that particular aspects of Hamilton’s political beliefs may have been omitted from the musical in part to achieve which effect?\nLin-Manuel Miranda’s 2015 hip-hop musical *Hamilton* depicts historical political figure Alexander Hamilton as a self-made man who, through sheer determination, transcends his humble origins to become a key participant in the founding of the United States. This depiction of Hamilton establishes him as a compelling and well-defined protagonist but obscures other facets of the historical person’s views, namely his elitism and mistrust of the democratic politics of some of his contemporaries. In effect, the musical’s portrayal of Hamilton fails to convey the ideological complexity that a more nuanced portrayal might have suggested.",
-    "question_text": "The text most strongly suggests that particular aspects of Hamilton’s political beliefs may have been omitted from the musical in part to achieve which effect?",
+    "passage": "The text most strongly suggests that particular aspects of Hamilton's political beliefs may have been omitted from the musical in part to achieve which effect?\nLin-Manuel Miranda's 2015 hip-hop musical *Hamilton* depicts historical political figure Alexander Hamilton as a self-made man who, through sheer determination, transcends his humble origins to become a key participant in the founding of the United States. This depiction of Hamilton establishes him as a compelling and well-defined protagonist but obscures other facets of the historical person's views, namely his elitism and mistrust of the democratic politics of some of his contemporaries. In effect, the musical's portrayal of Hamilton fails to convey the ideological complexity that a more nuanced portrayal might have suggested.",
+    "question_text": "The text most strongly suggests that particular aspects of Hamilton's political beliefs may have been omitted from the musical in part to achieve which effect?",
     "choices": [
       {
         "label": "A",
@@ -271,11 +271,11 @@
       },
       {
         "label": "B",
-        "text": "To encourage modern audiences to emulate Hamilton’s politics."
+        "text": "To encourage modern audiences to emulate Hamilton's politics."
       },
       {
         "label": "C",
-        "text": "To create an unambiguous thematic presentation of Hamilton’s life."
+        "text": "To create an unambiguous thematic presentation of Hamilton's life."
       },
       {
         "label": "D",
@@ -294,7 +294,7 @@
     "difficulty": "Medium",
     "question_number": 10,
     "test_name": "Module Source 025 Eng M1",
-    "passage": "Which choice most effectively uses data from the graph to complete the statement?\nThe US Department of Agriculture’s *Fruit and Tree Nuts Outlook* is a document that covers a variety of subjects, from the causes of reductions in grapefruit supply to the forecast for yields of apple crops. A student studying agricultural economics is consulting a graph in the document that shows the prices for which several types of nuts have been sold by growers in the United States over four growing seasons from 2016 to 2020. The student wishes to determine in which season walnuts reached their lowest price. Consulting the graph, the student finds that this season was the ______",
+    "passage": "Which choice most effectively uses data from the graph to complete the statement?\nThe US Department of Agriculture's *Fruit and Tree Nuts Outlook* is a document that covers a variety of subjects, from the causes of reductions in grapefruit supply to the forecast for yields of apple crops. A student studying agricultural economics is consulting a graph in the document that shows the prices for which several types of nuts have been sold by growers in the United States over four growing seasons from 2016 to 2020. The student wishes to determine in which season walnuts reached their lowest price. Consulting the graph, the student finds that this season was the ______",
     "question_text": "Which choice most effectively uses data from the graph to complete the statement?",
     "choices": [
       {
@@ -411,12 +411,12 @@
     "difficulty": "Medium",
     "question_number": 13,
     "test_name": "Module Source 025 Eng M1",
-    "passage": "Which finding, if true, would most directly support Aburto-Oropeza and colleagues’ explanation?\nDeclining fishing technology costs and overexploitation of near-shore fishing grounds have made isolated oceanic reefs, which often lack regulatory protections, increasingly attractive to commercial and sport fishers. A team led by Octavio Aburto-Oropeza surveyed the biomass density and species composition of two isolated reefs: Alacranes, a protected (fishing prohibited) reef 135 kilometers from the Yucatan Peninsula, and Bajos del Norte, an unprotected reef 25 kilometers further out to sea. Species at the highest level of the trophic pyramid constituted 34% of the biomass at Alacranes and 10% of the biomass at Bajos del Norte. Aburto-Oropeza and colleagues attribute this difference to the two reefs’ difference in regulatory status.",
-    "question_text": "Which finding, if true, would most directly support Aburto-Oropeza and colleagues’ explanation?",
+    "passage": "Which finding, if true, would most directly support Aburto-Oropeza and colleagues' explanation?\nDeclining fishing technology costs and overexploitation of near-shore fishing grounds have made isolated oceanic reefs, which often lack regulatory protections, increasingly attractive to commercial and sport fishers. A team led by Octavio Aburto-Oropeza surveyed the biomass density and species composition of two isolated reefs: Alacranes, a protected (fishing prohibited) reef 135 kilometers from the Yucatan Peninsula, and Bajos del Norte, an unprotected reef 25 kilometers further out to sea. Species at the highest level of the trophic pyramid constituted 34% of the biomass at Alacranes and 10% of the biomass at Bajos del Norte. Aburto-Oropeza and colleagues attribute this difference to the two reefs' difference in regulatory status.",
+    "question_text": "Which finding, if true, would most directly support Aburto-Oropeza and colleagues' explanation?",
     "choices": [
       {
         "label": "A",
-        "text": "Total biomass at Alacranes is much greater than total biomass at Bajos del Norte, though the reefs’ biomass densities are similar."
+        "text": "Total biomass at Alacranes is much greater than total biomass at Bajos del Norte, though the reefs' biomass densities are similar."
       },
       {
         "label": "B",
@@ -443,7 +443,7 @@
     "difficulty": "Medium",
     "question_number": 14,
     "test_name": "Module Source 025 Eng M1",
-    "passage": "Which choice most logically completes the text?\nResearchers Eugeni Vidal-Tortosa and Robin Lovelace looked at the relationship between street lighting in a city and people’s willingness to ride a bicycle. Their results suggest that poor street lighting can deter new or inexperienced cyclists from riding in a city but has little effect on experienced cyclists. Therefore, increasing the number of streetlights in a city could potentially ______",
+    "passage": "Which choice most logically completes the text?\nResearchers Eugeni Vidal-Tortosa and Robin Lovelace looked at the relationship between street lighting in a city and people's willingness to ride a bicycle. Their results suggest that poor street lighting can deter new or inexperienced cyclists from riding in a city but has little effect on experienced cyclists. Therefore, increasing the number of streetlights in a city could potentially ______",
     "question_text": "Which choice most logically completes the text?",
     "choices": [
       {
@@ -488,7 +488,7 @@
       },
       {
         "label": "C",
-        "text": "differences between their study design and that of García-Robledo and Corzo likely explain the discrepancy in the two studies’ findings about the responses of MPB to macroalgal mats."
+        "text": "differences between their study design and that of García-Robledo and Corzo likely explain the discrepancy in the two studies' findings about the responses of MPB to macroalgal mats."
       },
       {
         "label": "D",
@@ -507,7 +507,7 @@
     "difficulty": "Easy",
     "question_number": 16,
     "test_name": "Module Source 025 Eng M1",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nMany ranching terms come from Spanish. For example, the word “stockade” (a fence) ______ from the Spanish word *estacada*, and “cinch” (a belt) derives from *cincho*. This is because the first Anglo, African, and Native American cattle ranchers in the southwestern US learned the trade from Spanish-speaking Mexican *vaqueros*, or cowboys.",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nMany ranching terms come from Spanish. For example, the word \"stockade\" (a fence) ______ from the Spanish word *estacada*, and \"cinch\" (a belt) derives from *cincho*. This is because the first Anglo, African, and Native American cattle ranchers in the southwestern US learned the trade from Spanish-speaking Mexican *vaqueros*, or cowboys.",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {
@@ -539,7 +539,7 @@
     "difficulty": "Medium",
     "question_number": 17,
     "test_name": "Module Source 025 Eng M1",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nA voluntary workforce established to make improvements to public lands, parks, and forests across the US, the Civilian Conservation Corps (CCC)—though widely popular—was not without its critics. For Aldo Leopold, the CCC was implicated in what ______ “Idle CCC camps,” he wrote, “presented a widespread temptation to build new and often needless roads.”",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nA voluntary workforce established to make improvements to public lands, parks, and forests across the US, the Civilian Conservation Corps (CCC)—though widely popular—was not without its critics. For Aldo Leopold, the CCC was implicated in what ______ \"Idle CCC camps,\" he wrote, \"presented a widespread temptation to build new and often needless roads.\"",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {
@@ -571,7 +571,7 @@
     "difficulty": "Medium",
     "question_number": 18,
     "test_name": "Module Source 025 Eng M1",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThough it was designated as mission ______ mission was actually the forty-sixth flight under NASA’s Space Shuttle Program.",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThough it was designated as mission ______ mission was actually the forty-sixth flight under NASA's Space Shuttle Program.",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {
@@ -667,7 +667,7 @@
     "difficulty": "Hard",
     "question_number": 21,
     "test_name": "Module Source 025 Eng M1",
-    "passage": "Which choice completes the text with the most logical transition?\nIn his 2023 collection *The Diaspora Sonnets*, Filipino American poet Oliver de la Paz leverages the sonnet form’s “diamond-like quality of precision,” as he describes it. The poems often adhere scrupulously to the form’s centuries-old conventions, such as its characteristic fourteen-line length. In the twelve-line poem “Diaspora Sonnet at the Feeders Before the Freeze,” ______ de la Paz playfully subverts sonnet conventions, the poem’s truncated length conveying a sense of abruptness.",
+    "passage": "Which choice completes the text with the most logical transition?\nIn his 2023 collection *The Diaspora Sonnets*, Filipino American poet Oliver de la Paz leverages the sonnet form's \"diamond-like quality of precision,\" as he describes it. The poems often adhere scrupulously to the form's centuries-old conventions, such as its characteristic fourteen-line length. In the twelve-line poem \"Diaspora Sonnet at the Feeders Before the Freeze,\" ______ de la Paz playfully subverts sonnet conventions, the poem's truncated length conveying a sense of abruptness.",
     "question_text": "Which choice completes the text with the most logical transition?",
     "choices": [
       {
@@ -699,7 +699,7 @@
     "difficulty": "Easy",
     "question_number": 22,
     "test_name": "Module Source 025 Eng M1",
-    "passage": "Which choice completes the text with the most logical transition?\nCornelia Konrads is a German sculptor who creates art that seems to be part of its surroundings. Her sculpture entitled *the match* is built between statues at a park in France. ______ appearing as large vases being tossed between statues at the park, it is cleverly placed into its environment, serving as an example of Konrads’s approach.",
+    "passage": "Which choice completes the text with the most logical transition?\nCornelia Konrads is a German sculptor who creates art that seems to be part of its surroundings. Her sculpture entitled *the match* is built between statues at a park in France. ______ appearing as large vases being tossed between statues at the park, it is cleverly placed into its environment, serving as an example of Konrads's approach.",
     "question_text": "Which choice completes the text with the most logical transition?",
     "choices": [
       {
@@ -736,7 +736,7 @@
     "choices": [
       {
         "label": "A",
-        "text": "Though they don’t produce as much electricity as offshore wind farms, onshore farms are usually cheaper to build and maintain."
+        "text": "Though they don't produce as much electricity as offshore wind farms, onshore farms are usually cheaper to build and maintain."
       },
       {
         "label": "B",
@@ -763,7 +763,7 @@
     "difficulty": "Medium",
     "question_number": 24,
     "test_name": "Module Source 025 Eng M1",
-    "passage": "The student wants to emphasize how popular The Woman in White became when it was first published. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Wilkie Collins’s mystery novel *The Woman in White* first appeared in a London literary magazine.\n• The novel was published in forty weekly installments between November 1859 and August 1860.\n• Every installment ended with a moment of unresolved suspense.\n• *The Woman in White* became extremely popular as readers eagerly anticipated the next week’s entry.\n• The magazine’s sales increased to a record-breaking 100,000 copies per issue.",
+    "passage": "The student wants to emphasize how popular The Woman in White became when it was first published. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Wilkie Collins's mystery novel *The Woman in White* first appeared in a London literary magazine.\n• The novel was published in forty weekly installments between November 1859 and August 1860.\n• Every installment ended with a moment of unresolved suspense.\n• *The Woman in White* became extremely popular as readers eagerly anticipated the next week's entry.\n• The magazine's sales increased to a record-breaking 100,000 copies per issue.",
     "question_text": "The student wants to emphasize how popular The Woman in White became when it was first published. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
     "choices": [
       {
@@ -772,11 +772,11 @@
       },
       {
         "label": "B",
-        "text": "Every installment of *The Woman in White* ended with a moment of unresolved suspense, which led readers to eagerly anticipate the next week’s entry."
+        "text": "Every installment of *The Woman in White* ended with a moment of unresolved suspense, which led readers to eagerly anticipate the next week's entry."
       },
       {
         "label": "C",
-        "text": "Collins’s novel *The Woman in White* was published in forty weekly installments between November 1859 and August 1860."
+        "text": "Collins's novel *The Woman in White* was published in forty weekly installments between November 1859 and August 1860."
       },
       {
         "label": "D",
@@ -795,8 +795,8 @@
     "difficulty": "Medium",
     "question_number": 25,
     "test_name": "Module Source 025 Eng M1",
-    "passage": "The student wants to emphasize fluorite’s Mohs scale number. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• The Mohs scale of mineral hardness is a ten-point scale that orders minerals by hardness based on their ability to scratch other minerals.\n• Minerals with larger numbers are harder than minerals with smaller numbers and can leave visible scratches on them.\n• Minerals with smaller numbers are softer than minerals with larger numbers and cannot leave visible scratches on them.\n• The mineral gypsum has a Mohs scale number of 2.\n• The mineral fluorite has a Mohs scale number of 4.\n• The mineral quartz has a Mohs scale number of 7.",
-    "question_text": "The student wants to emphasize fluorite’s Mohs scale number. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "passage": "The student wants to emphasize fluorite's Mohs scale number. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• The Mohs scale of mineral hardness is a ten-point scale that orders minerals by hardness based on their ability to scratch other minerals.\n• Minerals with larger numbers are harder than minerals with smaller numbers and can leave visible scratches on them.\n• Minerals with smaller numbers are softer than minerals with larger numbers and cannot leave visible scratches on them.\n• The mineral gypsum has a Mohs scale number of 2.\n• The mineral fluorite has a Mohs scale number of 4.\n• The mineral quartz has a Mohs scale number of 7.",
+    "question_text": "The student wants to emphasize fluorite's Mohs scale number. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
     "choices": [
       {
         "label": "A",
@@ -827,24 +827,24 @@
     "difficulty": "Medium",
     "question_number": 26,
     "test_name": "Module Source 025 Eng M1",
-    "passage": "The student wants to emphasize the aesthetic qualities of SMA by quoting Knight. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Stop motion animation (SMA) is a filmmaking technique that involves manipulating characters (puppets, clay figures, etc.) by hand in minute increments.\n• Each change in position is meticulously captured in a series of images that, when played back, give the illusion of motion.\n• Producer Travis Knight: “It’s a process that dates back to the dawn of cinema, with a charm and a warmth and a beauty that other forms of animation...do not have. And because you effectively get one opportunity to get it right, every shot is a high-wire act.”\n• Knight: SMA is “raw and it’s imperfect. It’s also undeniably human.”",
+    "passage": "The student wants to emphasize the aesthetic qualities of SMA by quoting Knight. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Stop motion animation (SMA) is a filmmaking technique that involves manipulating characters (puppets, clay figures, etc.) by hand in minute increments.\n• Each change in position is meticulously captured in a series of images that, when played back, give the illusion of motion.\n• Producer Travis Knight: \"It's a process that dates back to the dawn of cinema, with a charm and a warmth and a beauty that other forms of animation...do not have. And because you effectively get one opportunity to get it right, every shot is a high-wire act.\"\n• Knight: SMA is \"raw and it's imperfect. It's also undeniably human.\"",
     "question_text": "The student wants to emphasize the aesthetic qualities of SMA by quoting Knight. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
     "choices": [
       {
         "label": "A",
-        "text": "The handmade, “imperfect” look of stop motion animation, says Knight, lends this “undeniably human” technique a “charm and a warmth and a beauty.”"
+        "text": "The handmade, \"imperfect\" look of stop motion animation, says Knight, lends this \"undeniably human\" technique a \"charm and a warmth and a beauty.\""
       },
       {
         "label": "B",
-        "text": "As Knight says, “you effectively get one opportunity to get it right” when meticulously capturing the series of images that, when played back, give it the illusion of motion."
+        "text": "As Knight says, \"you effectively get one opportunity to get it right\" when meticulously capturing the series of images that, when played back, give it the illusion of motion."
       },
       {
         "label": "C",
-        "text": "With its puppets and clay figures, stop motion animation, Knight says, “dates back to the dawn of cinema.”"
+        "text": "With its puppets and clay figures, stop motion animation, Knight says, \"dates back to the dawn of cinema.\""
       },
       {
         "label": "D",
-        "text": "Stop motion animation is imperfect, making every shot “a high-wire act,” Knight says."
+        "text": "Stop motion animation is imperfect, making every shot \"a high-wire act,\" Knight says."
       }
     ],
     "is_fill_in_blank": false,

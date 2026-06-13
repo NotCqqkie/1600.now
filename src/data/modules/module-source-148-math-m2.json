@@ -38,7 +38,7 @@
     "difficulty": "Medium",
     "question_number": 2,
     "test_name": "Module Source 148 Math M2",
-    "passage": "$1.87c + 2.37t \\leq 20$ represents the relationship between the number of cans of food, $c$, and the number of bags of treats, $t$, the shopper can buy.",
+    "passage": "A shopper goes to a pet store to buy dog food and treats. The shopper has \\$20. Each can of food costs \\$1.87, and each bag of treats costs \\$2.37. Which inequality represents the relationship between the number of cans of food, $c$, and the number of bags of treats, $t$, the shopper can buy?",
     "question_text": null,
     "choices": [
       {
@@ -156,12 +156,12 @@
     "difficulty": "Easy",
     "question_number": 6,
     "test_name": "Module Source 148 Math M2",
-    "passage": "Hiro and Sofia purchased shirts and pants from a store. The price of each shirt purchased was the same and the price of each pair of pants purchased was the same. Hiro purchased 4 shirts and 2 pairs of pants for \\$86, and Sofia purchased 3 shirts and 5 pairs of pants for \\$166. Which of the following systems of linear equations represents the situation, if <em>x</em> represents the price, in dollars, of each shirt and <em>y</em> represents the price, in dollars, of each pair of pants?",
+    "passage": "Hiro and Sofia purchased shirts and pants from a store. The price of each shirt purchased was the same and the price of each pair of pants purchased was the same. Hiro purchased 4 shirts and 2 pairs of pants for \\$86, and Sofia purchased 3 shirts and 5 pairs of pants for \\$166. Which of the following systems of linear equations represents the situation, if $x$ represents the price, in dollars, of each shirt and $y$ represents the price, in dollars, of each pair of pants?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$x + 2y = 86$ and $3x + 5y = 166$"
+        "text": "$4x + 2y = 86$ and $3x + 5y = 166$"
       },
       {
         "label": "B",
@@ -178,7 +178,7 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
-    "rationale": "Choice A is correct. Hiro purchased 4 shirts and each shirt cost <em>x</em> dollars, so he spent a total of 4<em>x</em> dollars on shirts. Likewise, Hiro purchased 2 pairs of pants, and each pair of pants cost <em>y</em> dollars, so he spent a total of 2<em>y</em> dollars on pants. Therefore, the total amount that Hiro spent was 4<em>x</em> + 2<em>y</em>. Since Hiro spent \\$86 in total, this can be modeled by the equation 4<em>x</em> + 2<em>y</em> = 86. Using the same reasoning, Sofia bought 3 shirts at <em>x</em> dollars each and 5 pairs of pants at <em>y</em> dollars each, so she spent a total of 3<em>x</em> + 5<em>y</em> dollars on shirts and pants. Since Sofia spent \\$166 in total, this can be modeled by the equation 3<em>x</em> + 5<em>y</em> = 166.\nChoice B is incorrect and may be the result of switching the number of shirts Sofia purchased with the number of pairs of pants Hiro purchased. Choice C is incorrect and may be the result of switching the total price each person paid. Choice D is incorrect and may be the result of switching the total price each person paid as well as switching the number of shirts Sofia purchased with the number of pairs of pants Hiro purchased.",
+    "rationale": "Choice A is correct. Hiro purchased 4 shirts and each shirt cost <em>x</em> dollars, so he spent a total of $4x$ dollars on shirts. Likewise, Hiro purchased 2 pairs of pants, and each pair of pants cost <em>y</em> dollars, so he spent a total of $2y$ dollars on pants. Therefore, the total amount that Hiro spent was $4x + 2y$. Since Hiro spent 86 dollars in total, this can be modeled by the equation $4x + 2y = 86$. Using the same reasoning, Sofia bought 3 shirts at <em>x</em> dollars each and 5 pairs of pants at <em>y</em> dollars each, so she spent a total of $3x + 5y$ dollars on shirts and pants. Since Sofia spent 166 dollars in total, this can be modeled by the equation $3x + 5y = 166$.\nChoice B is incorrect and may be the result of switching the number of shirts Sofia purchased with the number of pairs of pants Hiro purchased. Choice C is incorrect and may be the result of switching the total price each person paid. Choice D is incorrect and may be the result of switching the total price each person paid as well as switching the number of shirts Sofia purchased with the number of pairs of pants Hiro purchased.",
     "id": "b86123af"
   },
   {
@@ -203,7 +203,7 @@
     "difficulty": "Medium",
     "question_number": 8,
     "test_name": "Module Source 148 Math M2",
-    "passage": "A plumbing company charges its customers \\$112 for the first hour of a plumbing service call and \\$40 for each additional hour, plus the cost of plumbing parts. Which equation represents the total cost $y$, in dollars, for an $x$-hour plumbing service call where the cost of parts was $z$ and $x > 1$?",
+    "passage": "A plumbing company charges its customers \\$112 for the first hour of a plumbing service call and \\$40 for each additional hour, plus the cost of plumbing parts. Which equation represents the total cost $y$, in dollars, for an $x$-hour plumbing service call where the cost of parts was $z$ and $x \\gt 1$?",
     "question_text": null,
     "choices": [
       {
@@ -267,7 +267,7 @@
     "difficulty": "Hard",
     "question_number": 10,
     "test_name": "Module Source 148 Math M2",
-    "passage": "11 65 7 70 5 75 4 80 3 85 6 90 5 95 10 Total 51\nAri will add a 135-year-old stamp to her original collection, creating a new collection of 52 stamps. Which statement correctly compares the mean ages and median ages of Ari's original and new collections?",
+    "passage": "<table class=\"cb-table\"><thead><tr><th>Age of stamp (years)</th><th>Frequency</th></tr></thead><tbody><tr><td>$65$</td><td>$11$</td></tr><tr><td>$70$</td><td>$7$</td></tr><tr><td>$75$</td><td>$5$</td></tr><tr><td>$80$</td><td>$4$</td></tr><tr><td>$85$</td><td>$3$</td></tr><tr><td>$90$</td><td>$6$</td></tr><tr><td>$95$</td><td>$5$</td></tr><tr><td>Total</td><td>$51$</td></tr></tbody></table>\nAri will add a 135-year-old stamp to her original collection, creating a new collection of 52 stamps. Which statement correctly compares the mean ages and median ages of Ari's original and new collections?",
     "question_text": null,
     "choices": [
       {
@@ -572,24 +572,24 @@
     "difficulty": "Hard",
     "question_number": 21,
     "test_name": "Module Source 148 Math M2",
-    "passage": "The functions $f$ and $g$ are defined by the equations shown, where $a$ and $b$ are integer constants, $a < b$ and $b < 0$. If $y = f(x)$ and $y = g(x)$ are graphed in the $xy$-plane, which of the following equations displays, as a constant or coefficient, the $y$ coordinate of the $y$-intercept of the graph of the corresponding function?\nⅠ. $f(x)=a(3.3)^{x+b}$\nⅡ. $g(x)=a(3.3)^{x}+b$",
+    "passage": "The functions $f$ and $g$ are defined by the equations shown, where $a$ and $b$ are integer constants, $a \\lt b$ and $b \\lt 0$. If $y = f(x)$ and $y = g(x)$ are graphed in the $xy$-plane, which of the following equations displays, as a constant or coefficient, the $y$ coordinate of the $y$-intercept of the graph of the corresponding function?\nI. $f(x)=a(3.3)^{x+b}$\nII. $g(x)=a(3.3)^{x}+b$",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "Ⅰ only"
+        "text": "I only"
       },
       {
         "label": "B",
-        "text": "Ⅱ only"
+        "text": "II only"
       },
       {
         "label": "C",
-        "text": "Ⅰ and Ⅱ"
+        "text": "I and II"
       },
       {
         "label": "D",
-        "text": "Neither Ⅰ nor Ⅱ"
+        "text": "Neither I nor II"
       }
     ],
     "is_fill_in_blank": false,

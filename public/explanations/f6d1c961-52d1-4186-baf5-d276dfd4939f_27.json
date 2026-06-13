@@ -1,1 +1,15 @@
-{"questionId":"f6d1c961-52d1-4186-baf5-d276dfd4939f_27","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The notes present a broad category claim and then back it with a specific example (Grenada's nutmeg, Andorra's cow). The student must find the choice that mirrors that structure: state a category of flag symbols and support it with a concrete example from the notes."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Grenada's flag...'</strong>: Narrows to one country and makes unsupported claims about national importance. No category, no structural match. &#10007;</li><li><strong>Choice B &mdash; 'vexillology...'</strong>: Abandons the topic of symbols entirely to discuss the study of flags. Off-topic. &#10007;</li><li><strong>Choice C &mdash; 'plant symbols... Grenada's nutmeg'</strong>: States a category (plant symbols) and immediately supports it with Grenada's nutmeg from the notes. Matches the required structure. &#10003;</li><li><strong>Choice D &mdash; broad category, no example</strong>: Announces a category but provides no supporting example. Incomplete. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "f6d1c961-52d1-4186-baf5-d276dfd4939f_27",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The notes present a broad category claim and then back it with a specific example (Grenada's nutmeg, Andorra's cow). The student must find the choice that mirrors that structure: state a category of flag symbols and support it with a concrete example from the notes."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"Grenada's flag includes a clove of nutmeg, a symbol that is important to that country's national identity.\"</strong>: Narrows to one country and makes unsupported claims about national importance. No category, no structural match. &#10007;</li><li><strong>\"Vexillology is the study of flags: accordingly, vexillologists are interested in flags from around the world.\"</strong>: Abandons the topic of symbols entirely to discuss the study of flags. Off-topic. &#10007;</li><li><strong>\"The flags of some countries include symbols of plants: Grenada's, for example, includes a clove of nutmeg.\"</strong>: States a category (plant symbols) and immediately supports it with Grenada's nutmeg from the notes. Matches the required structure. &#10003;</li><li><strong>\"Many countries feature symbols on their flags, and the study of these designs is known as vexillology.\"</strong>: Announces a category but provides no supporting example. Incomplete. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -13,7 +13,7 @@
     },
     {
       "title": "Convert to a percentage and match to a choice",
-      "content": "If $c = 3.375b$, then $c$ is $3.375 \\times 100\\% = 337.5\\%$ of $b$. Therefore $p = 337.5$, which is closest to 338. That matches choice D — <strong>D</strong> is correct."
+      "content": "If $c = 3.375b$, then $c$ is $3.375 \\times 100\\% = 337.5\\%$ of $b$. Therefore $p = 337.5$, which is closest to 338. That confirms <strong>D</strong> is correct."
     }
   ]
 }

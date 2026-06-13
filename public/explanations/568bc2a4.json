@@ -1,10 +1,20 @@
 {
   "qid": "568bc2a4",
+  "questionId": "568bc2a4",
   "steps": [
-    "Convert furlongs to yards: $354 \\text{ furlongs} \\times 220 \\text{ yd/furlong} = 77{,}880 \\text{ yd}$.",
-    "Convert yards to feet: $77{,}880 \\text{ yd} \\times 3 \\text{ ft/yd} = 233{,}640 \\text{ ft}$.",
-    "Equivalently: $354 \\times 220 \\times 3 = 354 \\times 660 = 233{,}640$."
+    {
+      "title": "Step 1",
+      "content": "Convert furlongs to yards: $354 \\text{ furlongs} \\times 220 \\text{ yd/furlong} = 77{,}880 \\text{ yd}$."
+    },
+    {
+      "title": "Step 2",
+      "content": "Convert yards to feet: $77{,}880 \\text{ yd} \\times 3 \\text{ ft/yd} = 233{,}640 \\text{ ft}$."
+    },
+    {
+      "title": "Step 3",
+      "content": "Equivalently: $354 \\times 220 \\times 3 = 354 \\times 660 = 233{,}640$. This single product works because each furlong is first converted to yards and each yard is then converted to feet, so the units cancel in sequence."
+    }
   ],
-  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; '$306$'</strong>: Far too small; likely from dividing instead of multiplying. &#10007;</li><li><strong>Choice B &mdash; '$402$'</strong>: Far too small; does not match any unit conversion. &#10007;</li><li><strong>Choice C &mdash; '$25,960$'</strong>: Result of multiplying $354 \\times 220 \\div 3$ (dividing by 3 instead of multiplying). &#10007;</li><li><strong>Choice D &mdash; '$233,640$'</strong>: $354 \\times 220 \\times 3 = 233{,}640$ ✓. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.",
+  "choiceAnalysis": "<ul><li><strong>Choice A — $306$</strong>: Far too small; likely from dividing instead of multiplying. &#10007;</li><li><strong>Choice B — $402$</strong>: Far too small; does not match any unit conversion. &#10007;</li><li><strong>Choice C — $25,960$</strong>: Result of multiplying $354 \\times 220 \\div 3$ (dividing by 3 instead of multiplying). &#10007;</li><li><strong>Choice D — $233,640$</strong>: $354 \\times 220 \\times 3 = 233{,}640$ ✓. &#10003;</li></ul><strong>D</strong> is correct.",
   "correctAnswer": "D"
 }

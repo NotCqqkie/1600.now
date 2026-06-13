@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice C has starting value $240$ and halving factor $\\frac{1}{2}$. Choice A starts with $15$ instead of $240$. Choices B and D use a factor of $2$, which grows each round instead of shrinking. Choice <strong>C</strong> is correct.",
+      "content": "<strong>$p=240{ \\left(\\frac{1}{2}\\right)}^{r}$</strong> has starting value $240$ and halving factor $\\frac{1}{2}$. $p=15{ \\left(\\frac{1}{2}\\right)}^{r}$ starts with $15$ instead of $240$. Two other options use a factor of $2$, which grows each round instead of shrinking. $p=240{ \\left(\\frac{1}{2}\\right)}^{r}$ is correct.",
       "desmosExpressions": [
         "y=240(0.5)^x",
         "(1,120)",

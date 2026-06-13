@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up the profit equation",
-      "content": "Use the given formula: profit = total revenue - total expenses. Let $n$ be the number of beach umbrellas rented. The total revenue is $16n$ dollars, and total expenses are \\$144. Substitute into the profit equation:<br/>$$400 = 16n - 144$$"
+      "content": "Use the given formula: profit = total revenue - total expenses. Let $n$ be the number of beach umbrellas rented. The total revenue is $16n$ dollars, and total expenses are 144 dollars. Substitute into the profit equation:<br/>$$400 = 16n - 144$$"
     },
     {
       "title": "Solve for n",
-      "content": "Add 144 to both sides:<br/>$$400 + 144 = 16n$$<br/>$$544 = 16n$$<br/>Divide both sides by 16:<br/>$$n = \\frac{544}{16} = 34$$<br/>That matches choice D — <strong>D</strong> is correct."
+      "content": "Add 144 to both sides:<br/>$$400 + 144 = 16n$$<br/>$$544 = 16n$$<br/>Divide both sides by 16:<br/>$$n = \\frac{544}{16} = 34$$<br/>That matches the correct answer — <strong>D</strong> is correct."
     }
   ]
 }

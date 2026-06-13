@@ -1,1 +1,15 @@
-{"questionId": "129089b5", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Understand the relationship between sentences", "content": "The previous sentence establishes one mandate of the Twentieth Amendment: presidential inaugurations on January 20. The blank introduces a second, separate mandate: senators and representatives sworn in on January 3. These two requirements are coordinate&mdash;both imposed by the same amendment&mdash;so the transition must signal addition, not contrast, causation, or specification."}, {"title": "Eliminate each wrong choice", "content": "<ul><li><strong>Choice A &mdash; &lsquo;Instead,&rsquo;</strong>: &ldquo;Instead&rdquo; signals a substitute or alternative, implying the second requirement replaces the first. Both requirements coexist. &#10007;</li><li><strong>Choice B &mdash; &lsquo;For instance,&rsquo;</strong>: &ldquo;For instance&rdquo; signals an example of the preceding idea, but the senators&rsquo; swearing-in is a separate mandate, not an illustration of presidential inauguration. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Specifically,&rsquo;</strong>: &ldquo;Specifically&rdquo; signals a narrowing or elaboration of the prior sentence, but January 3 is not a detail within the January 20 inauguration mandate. &#10007;</li><li><strong>Choice D &mdash; &lsquo;In addition,&rsquo;</strong>: &ldquo;In addition&rdquo; signals a second, coordinate requirement of the same amendment&mdash;exactly what the sentence presents. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "129089b5",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Understand the relationship between sentences",
+      "content": "The previous sentence establishes one mandate of the Twentieth Amendment: presidential inaugurations on January 20. The blank introduces a second, separate mandate: senators and representatives sworn in on January 3. These two requirements are coordinate&mdash;both imposed by the same amendment&mdash;so the transition must signal addition, not contrast, causation, or specification."
+    },
+    {
+      "title": "Eliminate each wrong choice",
+      "content": "<ul><li><strong>Choice A &mdash; Instead,</strong>: &ldquo;Instead&rdquo; signals a substitute or alternative, implying the second requirement replaces the first. Both requirements coexist. &#10007;</li><li><strong>Choice B &mdash; For instance,</strong>: &ldquo;For instance&rdquo; signals an example of the preceding idea, but the senators&rsquo; swearing-in is a separate mandate, not an illustration of presidential inauguration. &#10007;</li><li><strong>Choice C &mdash; Specifically,</strong>: &ldquo;Specifically&rdquo; signals a narrowing or elaboration of the prior sentence, but January 3 is not a detail within the January 20 inauguration mandate. &#10007;</li><li><strong>Choice D &mdash; In addition,</strong>: &ldquo;In addition&rdquo; signals a second, coordinate requirement of the same amendment&mdash;exactly what the sentence presents. &#10003;</li></ul>That matches <strong>Choice D &mdash; In addition,</strong>."
+    }
+  ]
+}

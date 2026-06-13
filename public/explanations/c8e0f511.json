@@ -1,11 +1,21 @@
 {
+  "questionId": "c8e0f511",
   "qid": "c8e0f511",
   "steps": [
-    "x one-liter bottles contribute x &#215; 1 = x liters.",
-    "y three-liter bottles contribute y &#215; 3 = 3y liters.",
-    "Total: x + 3y = 240."
+    {
+      "title": "Step 1",
+      "content": "x one-liter bottles contribute x &#215; 1 = x liters."
+    },
+    {
+      "title": "Step 2",
+      "content": "y three-liter bottles contribute y &#215; 3 = 3y liters."
+    },
+    {
+      "title": "Step 3",
+      "content": "Total: x + 3y = 240."
+    }
   ],
-  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; '$x+3y=240$'</strong>: x liters from one-liter bottles plus 3y liters from three-liter bottles equals 240. &#10003;</li><li><strong>Choice B &mdash; '$x+y=240$'</strong>: Counts bottles, not liters; ignores that three-liter bottles contribute 3 liters each. &#10007;</li><li><strong>Choice C &mdash; '$3x+3y=240$'</strong>: Incorrectly treats one-liter bottles as three-liter bottles. &#10007;</li><li><strong>Choice D &mdash; '$3x+y=240$'</strong>: Swaps the coefficients; one-liter bottles get a factor of 3 and three-liter bottles get a factor of 1. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.",
+  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; $x+3y=240$</strong>: x liters from one-liter bottles plus 3y liters from three-liter bottles equals 240. &#10003;</li><li><strong>Choice B &mdash; $x+y=240$</strong>: Counts bottles, not liters; ignores that three-liter bottles contribute 3 liters each. &#10007;</li><li><strong>Choice C &mdash; $3x+3y=240$</strong>: Incorrectly treats one-liter bottles as three-liter bottles. &#10007;</li><li><strong>Choice D &mdash; $3x+y=240$</strong>: Swaps the coefficients; one-liter bottles get a factor of 3 and three-liter bottles get a factor of 1. &#10007;</li></ul>That is the correct answer.",
   "correctAnswer": "A",
   "desmosExpressions": [
     "x + 3y = 240"

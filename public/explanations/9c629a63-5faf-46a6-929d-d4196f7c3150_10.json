@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li>A) $f(x)=0$ &mdash; gives $f(0)=0$, not $7$. Eliminated.</li><li>B) $f(x)=2$ &mdash; gives $f(0)=2$, not $7$. Eliminated.</li><li>C) $f(x)=7$ &mdash; gives $f(0)=7$ and $f(2)=7$. Matches.</li><li>D) $f(x)=x+7$ &mdash; gives $f(2)=9$, not $7$. Eliminated.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+      "content": "<ul><li>A) $f(x)=0$ &mdash; gives $f(0)=0$, not $7$. Eliminated.</li><li>B) $f(x)=2$ &mdash; gives $f(0)=2$, not $7$. Eliminated.</li><li>C) $f(x)=7$ &mdash; gives $f(0)=7$ and $f(2)=7$. Matches.</li><li>D) $f(x)=x+7$ &mdash; gives $f(2)=9$, not $7$. Eliminated.</li></ul>That confirms <strong>C</strong> is correct."
     }
   ]
 }

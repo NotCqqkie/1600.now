@@ -17,7 +17,7 @@
     },
     {
       "title": "Evaluate each answer choice",
-      "content": "<ul><li><strong>A.</strong> $h(x) = \\frac{1}{2}x - \\frac{7}{2}$: slope is $\\tfrac{1}{2}$, not 2; eliminated.</li><li><strong>B.</strong> $h(x) = 2x + 7$: slope 2 and $h(7) = 21$, $h(9) = 25$; matches.</li><li><strong>C.</strong> $h(x) = 7x + 21$: $h(7) = 70$, not 21; eliminated.</li><li><strong>D.</strong> $h(x) = 9x + 25$: $h(7) = 88$, not 21; eliminated.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "<ul><li><strong>A.</strong> $h(x) = \\frac{1}{2}x - \\frac{7}{2}$: slope is $\\tfrac{1}{2}$, not 2; eliminated.</li><li><strong>B.</strong> $h(x) = 2x + 7$: slope 2 and $h(7) = 21$, $h(9) = 25$; matches.</li><li><strong>C.</strong> $h(x) = 7x + 21$: $h(7) = 70$, not 21; eliminated.</li><li><strong>D.</strong> $h(x) = 9x + 25$: $h(7) = 88$, not 21; eliminated.</li></ul>That confirms <strong>B</strong> is correct."
     }
   ]
 }

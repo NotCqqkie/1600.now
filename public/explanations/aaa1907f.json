@@ -1,1 +1,15 @@
-{"questionId": "aaa1907f", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structure", "content": "To the right of the blank, <strong>“celebrated el Día de los Tres Reyes Magos”</strong> is a clause with an implied subject. The blank must contain a noun phrase that will serve as the reference for this following clause."}, {"title": "Apply the correct punctuation rule", "content": "A semicolon separates two independent clauses when they are closely related.<br/><br/>Here, describing the uncommon practice and stating what that practice celebrated are two distinct coordinate ideas requiring semicolon separation: <strong>“practice at the time; celebrated el Día de los Tres Reyes Magos”</strong>.<br/><br/>Commas alone (A, C, D) do not provide sufficient punctuation for coordinate clauses.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "aaa1907f",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "To the right of the blank, <strong>“celebrated el Día de los Tres Reyes Magos”</strong> is a clause with an implied subject. The blank must contain a noun phrase that will serve as the reference for this following clause."
+    },
+    {
+      "title": "Apply the correct punctuation rule",
+      "content": "A semicolon separates two independent clauses when they are closely related.<br/><br/>Here, describing the uncommon practice and stating what that practice celebrated are two distinct coordinate ideas requiring semicolon separation: <strong>“practice at the time; celebrated el Día de los Tres Reyes Magos”</strong>.<br/><br/>Commas alone (A, C, D) do not provide sufficient punctuation for coordinate clauses.<br/><br/>That is the correct answer."
+    }
+  ]
+}

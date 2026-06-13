@@ -13,7 +13,7 @@
     },
     {
       "title": "Compare to each choice",
-      "content": "<ul><li>A) $b = \\frac{3}{11}a + 6$ &mdash; just swaps variables, wrong coefficient and sign; eliminate.</li><li>B) $b = \\frac{3}{11}a - 22$ &mdash; correct constant but wrong slope ($\\frac{3}{11}$ vs $\\frac{11}{3}$); eliminate.</li><li>C) $b = \\frac{11}{3}a - 6$ &mdash; correct slope but wrong constant ($-6$ vs $-22$); eliminate.</li><li>D) $b = \\frac{11}{3}a - 22$ &mdash; matches the derived expression exactly.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "content": "<ul><li>A) $b = \\frac{3}{11}a + 6$ &mdash; just swaps variables, wrong coefficient and sign; eliminate.</li><li>B) $b = \\frac{3}{11}a - 22$ &mdash; correct constant but wrong slope ($\\frac{3}{11}$ vs $\\frac{11}{3}$); eliminate.</li><li>C) $b = \\frac{11}{3}a - 6$ &mdash; correct slope but wrong constant ($-6$ vs $-22$); eliminate.</li><li>D) $b = \\frac{11}{3}a - 22$ &mdash; matches the derived expression exactly.</li></ul>That confirms <strong>D</strong> is correct."
     }
   ]
 }

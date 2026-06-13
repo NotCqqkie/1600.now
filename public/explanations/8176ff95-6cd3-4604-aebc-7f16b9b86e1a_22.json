@@ -1,4 +1,5 @@
 {
+  "questionId": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_22",
   "qid": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_22",
   "correctAnswer": "A",
   "steps": [
@@ -12,7 +13,7 @@
       "explanation": "Convert from per hour to per minute by dividing by 60: $$\\frac{26.01}{60} \\approx 0.433 \\text{ m}^2/\\text{min}$$"
     },
     {
-      "explanation": "<ul><li>Choice A: 0.43 &mdash; matches $0.433$ rounded. That matches choice A &mdash; <strong>A</strong> is correct.</li><li>Choice B: 1.42 &mdash; does not match. Eliminated.</li><li>Choice C: 15.31 &mdash; does not match. Eliminated.</li><li>Choice D: 26.03 &mdash; this is the rate in $\\text{m}^2/\\text{hr}$, not per minute. Eliminated.</li></ul>"
+      "explanation": "<ul><li>Choice A: 0.43 &mdash; matches $0.433$ rounded. That confirms <strong>A</strong> is correct.</li><li>Choice B: 1.42 &mdash; does not match. Eliminated.</li><li>Choice C: 15.31 &mdash; does not match. Eliminated.</li><li>Choice D: 26.03 &mdash; this is the rate in $\\text{m}^2/\\text{hr}$, not per minute. Eliminated.</li></ul>"
     }
   ]
 }

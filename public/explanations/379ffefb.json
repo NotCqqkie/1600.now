@@ -9,7 +9,7 @@
     },
     {
       "title": "Calculate the hypotenuse",
-      "content": "Square the legs and add:<br/>$$121 + 81 = c^2$$<br/>$$202 = c^2$$<br/>$$c = \\sqrt{202}$$<br/>This matches choice B — <strong>B</strong> is correct."
+      "content": "Square the legs and add:<br/>$$121 + 81 = c^2$$<br/>$$202 = c^2$$<br/>$$c = \\sqrt{202}$$<br/>This matches the correct answer — <strong>B</strong> is correct."
     }
   ]
 }

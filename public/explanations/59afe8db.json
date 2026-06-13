@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice A is $7$, which satisfies the equation: $3(7)+5(7+4)=21+55=76$. Choice B would make the left side too large, choice C is the intermediate value $56$, and choice D comes from treating $x+4=76$ as the whole equation."
+      "content": "Choice A (&lsquo;$7$&rsquo;) is $7$, which satisfies the equation: $3(7)+5(7+4)=21+55=76$. Choice B (&lsquo;$8$&rsquo;) would make the left side too large, choice C (&lsquo;$56$&rsquo;) is the intermediate value $56$, and choice D (&lsquo;$72$&rsquo;) comes from treating $x+4=76$ as the whole equation."
     }
   ]
 }

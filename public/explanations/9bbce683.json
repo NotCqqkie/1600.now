@@ -21,7 +21,7 @@
     },
     {
       "title": "Find the x-intercept",
-      "content": "At the $x$-intercept, $y=0$: $$0=6x+17$$ $$x=-\\frac{17}{6}.$$ Therefore the intercept is $\\left(-\\frac{17}{6},0\\right)$, which is choice <strong>D</strong>."
+      "content": "At the $x$-intercept, $y=0$: $$0=6x+17$$ $$x=-\\frac{17}{6}.$$ Therefore the intercept is $\\left(-\\frac{17}{6},0\\right)$, which is <strong>D</strong>."
     }
   ]
 }

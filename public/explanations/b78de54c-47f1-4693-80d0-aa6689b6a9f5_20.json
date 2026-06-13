@@ -1,1 +1,15 @@
-{"questionId": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_20", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the structure", "content": "The sentence reads: \"...55 USD and 137 USD in fellow OECD ______ and Switzerland, respectively.\" The blank fills \"nations Costa Rica\" — \"Costa Rica\" is a restrictive appositive naming which OECD nation costs 55 USD. The structure is: noun + restrictive appositive, which takes no punctuation."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A — nations: Costa Rica</strong>: \"...in fellow OECD nations: Costa Rica and Switzerland.\" A colon introduces a list or explanation, but here \"Costa Rica and Switzerland\" is part of the sentence structure as objects, not a listed elaboration. ✗</li><li><strong>Choice B — nations Costa Rica</strong>: \"...in fellow OECD nations Costa Rica and Switzerland.\" No punctuation — correct for restrictive appositives identifying which specific nations. ✓</li><li><strong>Choice C — nations, Costa Rica</strong>: \"...in fellow OECD nations, Costa Rica and Switzerland.\" A comma sets off a non-restrictive appositive, implying these are the only OECD nations — contradicted by the passage (38 members). ✗</li><li><strong>Choice D — nations; Costa Rica</strong>: \"...in fellow OECD nations; Costa Rica and Switzerland.\" A semicolon joins two independent clauses, but \"Costa Rica and Switzerland, respectively\" is not an independent clause. ✗</li></ul>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_20",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the structure",
+      "content": "The sentence reads: \"...55 USD and 137 USD in fellow OECD ______ and Switzerland, respectively.\" The blank fills \"nations Costa Rica\" — \"Costa Rica\" is a restrictive appositive naming which OECD nation costs 55 USD. The structure is: noun + restrictive appositive, which takes no punctuation."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A — nations: Costa Rica</strong>: \"...in fellow OECD nations: Costa Rica and Switzerland.\" A colon introduces a list or explanation, but here \"Costa Rica and Switzerland\" is part of the sentence structure as objects, not a listed elaboration. ✗</li><li><strong>Choice B — nations Costa Rica</strong>: \"...in fellow OECD nations Costa Rica and Switzerland.\" No punctuation — correct for restrictive appositives identifying which specific nations. ✓</li><li><strong>Choice C — nations, Costa Rica</strong>: \"...in fellow OECD nations, Costa Rica and Switzerland.\" A comma sets off a non-restrictive appositive, implying these are the only OECD nations — contradicted by the passage (38 members). ✗</li><li><strong>Choice D — nations; Costa Rica</strong>: \"...in fellow OECD nations; Costa Rica and Switzerland.\" A semicolon joins two independent clauses, but \"Costa Rica and Switzerland, respectively\" is not an independent clause. ✗</li></ul>That is the correct answer."
+    }
+  ]
+}

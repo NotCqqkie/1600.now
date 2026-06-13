@@ -102,7 +102,7 @@
     "difficulty": "Easy",
     "question_number": 4,
     "test_name": "Module Source 075 Math M2",
-    "passage": "A rectangle has a length that is 31 times its width. The function $y=(31w)(w)$ represents this situation, where $y$ is the area, in square feet, of the rectangle and $y > 0$. Which of the following is the best interpretation of $31w$ in this context?",
+    "passage": "A rectangle has a length that is 31 times its width. The function $y=(31w)(w)$ represents this situation, where $y$ is the area, in square feet, of the rectangle and $y \\gt 0$. Which of the following is the best interpretation of $31w$ in this context?",
     "question_text": null,
     "choices": [
       {
@@ -166,7 +166,7 @@
     "difficulty": "Easy",
     "question_number": 6,
     "test_name": "Module Source 075 Math M2",
-    "passage": "For $x>0$, the function $f$ is defined as follows:\n$f(x) = 2.93x$\nWhich of the following could describe this function?",
+    "passage": "For $x \\gt 0$, the function $f$ is defined as follows:\n$f(x)=293\\% \\text{ of } x$\nWhich of the following could describe this function?",
     "question_text": null,
     "choices": [
       {
@@ -464,19 +464,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$x < 3$"
+        "text": "$x \\lt 3$"
       },
       {
         "label": "B",
-        "text": "$x > 17$"
+        "text": "$x \\gt 17$"
       },
       {
         "label": "C",
-        "text": "$3 < x < 17$"
+        "text": "$3 \\lt x \\lt 17$"
       },
       {
         "label": "D",
-        "text": "$x < 3$ or $x > 17$"
+        "text": "$x \\lt 3$ or $x \\gt 17$"
       }
     ],
     "is_fill_in_blank": false,
@@ -530,7 +530,7 @@
     "difficulty": "Hard",
     "question_number": 18,
     "test_name": "Module Source 075 Math M2",
-    "passage": "In the figure, $\\overline{LQ}$ intersects $\\overline{MP}$ at point $R$, and $\\overline{LM}$ is parallel to $\\overline{PQ}$. The lengths of $\\overline{MR}$ and $\\overline{RP}$ are 8 and 14 units, respectively. The area of $△LMR$ is 36 square units. What is the area of $△PQR$, in square units?",
+    "passage": "In the figure, $\\overline{LQ}$ intersects $\\overline{MP}$ at point $R$, and $\\overline{LM}$ is parallel to $\\overline{PQ}$. The lengths of $\\overline{MR}$ and $\\overline{RP}$ are 8 and 14 units, respectively. The area of $\\triangle LMR$ is 36 square units. What is the area of $\\triangle PQR$, in square units?",
     "question_text": null,
     "choices": [
       {
@@ -599,7 +599,7 @@
     "difficulty": "Hard",
     "question_number": 21,
     "test_name": "Module Source 075 Math M2",
-    "passage": "The function $f$ is defined by $f(x)=ab^{\\frac{x}{n}}$, where $a$, $b$, and $n$ are constants, and $b$ and $n$ are integers. If $f(3)=6$ and $f(5)=150$, what is the value of $f(6)$?",
+    "passage": "The function $f$ is defined by $f(x)=a\\cdot b^{\\frac{x}{n}}$, where $a$, $b$, and $n$ are constants, and $b$ and $n$ are integers. If $f(3)=6$ and $f(5)=150$, what is the value of $f(6)$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

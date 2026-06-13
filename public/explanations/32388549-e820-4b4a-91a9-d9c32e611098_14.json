@@ -9,7 +9,7 @@
     },
     {
       "title": "Population after week w (>2) and remaining needed",
-      "content": "For week w > 2, there are (w-2) additional weeks each adding 180 bees.<br/>Population at end of week w: $$1340 + 180(w-2) = 1340 + 180w - 360 = 980 + 180w$$ bees.<br/>Bees still needed to reach the goal of 2,600: $$2600 - (980 + 180w) = 1620 - 180w$$.<br/>That matches choice C — <strong>C</strong> is correct."
+      "content": "For week w > 2, there are (w-2) additional weeks each adding 180 bees.<br/>Population at end of week w: $$1340 + 180(w-2) = 1340 + 180w - 360 = 980 + 180w$$ bees.<br/>Bees still needed to reach the goal of 2,600: $$2600 - (980 + 180w) = 1620 - 180w$$.<br/><strong>C</strong> is correct."
     }
   ]
 }

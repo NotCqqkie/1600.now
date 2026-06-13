@@ -14,7 +14,7 @@
     },
     {
       "title": "Match to the correct choice",
-      "content": "The simplified equation $ y = 135x + 135 $ matches choice A. This aligns with the structure derived from the problem statement.<br/><br/>That matches choice A — <strong>A</strong> is correct.",
+      "content": "The simplified equation $ y = 135x + 135 $ confirms <strong>A</strong>. This aligns with the structure derived from the problem statement.<br/><br/>That confirms <strong>A</strong> is correct.",
       "formula": "$$ y = 135x + 135 $$"
     }
   ]

@@ -1,1 +1,15 @@
-{"questionId":"ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_11","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks which choice best illustrates the claim that a species can be <strong>entirely absent at particular times of the year</strong>. The best example shows zero observations across multiple distinct time points."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'one month of zero observations'</strong>: Shows absence at a single time point. This illustrates absence at one moment, not a recurring seasonal pattern. &#10007;</li><li><strong>Choice B &mdash; 'one month of zero observations'</strong>: Same issue as A &mdash; only one time point of absence, too narrow to show a seasonal pattern. &#10007;</li><li><strong>Choice C &mdash; 'zero three-lined rainbowfish in January, April, and July of 2001'</strong>: Three separate months all showing zero observations. This directly illustrates absence <em>at particular times of the year</em> with multiple data points. &#10003;</li><li><strong>Choice D &mdash; 'one month of zero observations'</strong>: Again, only a single time point. Doesn&apos;t establish a seasonal pattern. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_11",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks which choice best illustrates the claim that a species can be <strong>entirely absent at particular times of the year</strong>. The best example shows zero observations across multiple distinct time points."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; barred flagtail in January of 2001.</strong>: Shows absence at a single time point. This illustrates absence at one moment, not a recurring seasonal pattern. &#10007;</li><li><strong>Choice B &mdash; barred flagtail in October of 2001.</strong>: Same issue as A &mdash; only one time point of absence, too narrow to show a seasonal pattern. &#10007;</li><li><strong>Choice C &mdash; three-lined rainbowfish in January, April, and July of 2001.</strong>: Three separate months all showing zero observations. This directly illustrates absence <em>at particular times of the year</em> with multiple data points. &#10003;</li><li><strong>Choice D &mdash; combtooth blenny in January of 2001.</strong>: Again, only a single time point. Doesn&apos;t establish a seasonal pattern. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_4", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The blank describes what leaf-vein architectures have. The sentence immediately lists distinct examples (<em>branching venation of Ginkgo biloba</em>, <em>hierarchical netlike venation of Clematis reticulata</em>, and others) and later refers to <em>a range of adaptations</em>. The word must mean something like &apos;variety&apos; or &apos;diversity.&apos;"}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'multifariousness'</strong>: means the quality of being numerous and varied. Fits exactly: the examples illustrate distinct architectural types, and &apos;range of adaptations&apos; confirms variety is the concept. &#10003;</li><li><strong>Choice B &mdash; 'obstinacy'</strong>: means stubborn resistance to change. The passage describes multiple different forms, not a refusal to change. &#10007;</li><li><strong>Choice C &mdash; 'entanglement'</strong>: means a tangled or complicated state. The passage presents cleanly distinct architectural types, not confusion or tangling. &#10007;</li><li><strong>Choice D &mdash; 'culpability'</strong>: means blame or responsibility for a fault. No fault is involved; the passage is purely descriptive of adaptive diversity. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_4",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank describes what leaf-vein architectures have. The sentence immediately lists distinct examples (<em>branching venation of Ginkgo biloba</em>, <em>hierarchical netlike venation of Clematis reticulata</em>, and others) and later refers to <em>a range of adaptations</em>. The word must mean something like &apos;variety&apos; or &apos;diversity.&apos;"
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; multifariousness</strong>: means the quality of being numerous and varied. Fits exactly: the examples illustrate distinct architectural types, and &apos;range of adaptations&apos; confirms variety is the concept. &#10003;</li><li><strong>Choice B &mdash; obstinacy</strong>: means stubborn resistance to change. The passage describes multiple different forms, not a refusal to change. &#10007;</li><li><strong>Choice C &mdash; entanglement</strong>: means a tangled or complicated state. The passage presents cleanly distinct architectural types, not confusion or tangling. &#10007;</li><li><strong>Choice D &mdash; culpability</strong>: means blame or responsibility for a fault. No fault is involved; the passage is purely descriptive of adaptive diversity. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

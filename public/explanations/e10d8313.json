@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find the third angle in triangle QXS",
-      "content": "In triangle QXS, we have two angles: ∠SQX = 48° and ∠SXQ = 86°. Using the angle sum property:<br/>$$∠QSX = 180° - 48° - 86° = 46°$$<br/>This is the angle at vertex S between ray SQ (along line PV) and ray SX (toward point X). Since W lies on segment SX, this same angle applies to ray SW."
+      "content": "In triangle QXS, we have two angles: \\angle SQX = 48 degrees and \\angle SXQ = 86 degrees. Using the angle sum property:<br/>$$\\angle QSX = 180^{\\circ} - 48^{\\circ} - 86^{\\circ} = 46^{\\circ}$$<br/>This is the angle at vertex S between ray SQ (along line PV) and ray SX (toward point X). Since W lies on segment SX, this same angle applies to ray SW."
     },
     {
       "title": "Use vertical angles at W to find ∠RWS",
-      "content": "At point W, lines RU and SX intersect. We're given ∠SWU = 85°.<br/><br/>Since R, W, and U are collinear on line RU, rays WR and WU point in opposite directions. Therefore:<br/>$$∠RWS + ∠SWU = 180°$$<br/>$$∠RWS = 180° - 85° = 95°$$"
+      "content": "At point W, lines RU and SX intersect. We're given \\angle SWU = 85 degrees.<br/><br/>Since R, W, and U are collinear on line RU, rays WR and WU point in opposite directions. Therefore:<br/>$$\\angle RWS + \\angle SWU = 180^{\\circ}$$<br/>$$\\angle RWS = 180^{\\circ} - 85^{\\circ} = 95^{\\circ}$$"
     },
     {
       "title": "Find ∠TRU using triangle RWS",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Find ∠RTU and solve for ∠TUR",
-      "content": "At point T on line PV, we're given ∠VTU = 162°. Since P and V lie on opposite sides of T along line PV:<br/>$$∠PTU = 180° - 162° = 18°$$<br/>Since R lies between P and T on line PV, ray TR points in the same direction as ray TP, so ∠RTU = 18°.<br/><br/>Now in triangle RTU:<br/>$$∠RTU + ∠TRU + ∠TUR = 180°$$<br/>$$18° + 39° + ∠TUR = 180°$$<br/>$$∠TUR = 123°$$<br/>The answer is <strong>123</strong> degrees."
+      "content": "At point T on line PV, we're given \\angle VTU = 162 degrees. Since P and V lie on opposite sides of T along line PV:<br/>$$\\angle PTU = 180^{\\circ} - 162^{\\circ} = 18^{\\circ}$$<br/>Since R lies between P and T on line PV, ray TR points in the same direction as ray TP, so \\angle RTU = 18 degrees.<br/><br/>Now in triangle RTU:<br/>$$\\angle RTU + \\angle TRU + \\angle TUR = 180^{\\circ}$$<br/>$$18^{\\circ} + 39^{\\circ} + \\angle TUR = 180^{\\circ}$$<br/>$$\\angle TUR = 123^{\\circ}$$<br/>The answer is <strong>123</strong> degrees."
     }
   ]
 }

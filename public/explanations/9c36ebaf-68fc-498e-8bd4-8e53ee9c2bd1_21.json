@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Use the graph's shape",
-      "content": "The scatterplot is exponential and levels off near $y=18$ on the left. That means the model should include a vertical shift of $+18$, leaving choices B and D as the serious candidates."
+      "content": "The scatterplot is exponential and levels off near $y=18$ on the left. That means the model should include a vertical shift of $+18$, leaving those choices as the serious candidates."
     },
     {
       "title": "Check the scale at x = 0 and x = 3",
-      "content": "At $x=0$, choice B gives $24(1.55)^0+18=42$, but the graph is near $24$. Choice D gives $6(1.55)^0+18=24$, matching the graph. At $x=3$, choice D is also near $40$, which follows the plotted curve."
+      "content": "At $x=0$, $y=24(1.55)^{x}+18$ gives ${24}(1.55)^0+18=42$, but the graph is near $24$. The model $y=6(1.55)^{x}+18$ gives ${6}(1.55)^0+18=24$, matching the graph. At $x=3$, that model is also near $40$, which follows the plotted curve."
     },
     {
       "title": "Confirm against the choices",
-      "content": "Choice A has no vertical shift, so it is too low on the left side. Choice B has intercept $42$, too high at $x=0$. Choice C has the right low-end level but grows far too slowly; at $x=3$ it is only about $26.7$. Choice D is near $40$ at $x=3$ and follows the plotted curve. Choice <strong>D</strong> is correct."
+      "content": "$y=24(1.55)^{x}$ has no vertical shift, so it is too low on the left side. $y=24(1.55)^{x}+18$ has intercept $42$, too high at $x=0$. $y=(1.55)^{x}+23$ has the right low-end level but grows far too slowly; at $x=3$ it is only about $26.7$. $y=6(1.55)^{x}+18$ is near $40$ at $x=3$ and follows the plotted curve."
     }
   ]
 }

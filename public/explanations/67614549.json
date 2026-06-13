@@ -1,1 +1,15 @@
-{"questionId": "67614549", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the tense the sentence requires", "content": "The sentence describes what Lincoln did after winning the 1860 presidential election &mdash; a completed historical action. Historians are noted as praising it, meaning the action is entirely in the past. The blank needs a simple past tense verb."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; 'has leveraged'</strong>: Present perfect implies the action began in the past and continues into the present. Lincoln&rsquo;s 1860 cabinet appointments are long completed, so this tense is wrong. &#10007;</li><li><strong>Choice B &mdash; 'is leveraging'</strong>: Simple present implies an ongoing or habitual action, but Lincoln&rsquo;s appointments occurred in 1860 and cannot still be happening. &#10007;</li><li><strong>Choice C &mdash; 'will leverage'</strong>: Future tense implies the action has not yet happened, which contradicts the historical past-event context established in the first sentence. &#10007;</li><li><strong>Choice D &mdash; 'leveraged'</strong>: Simple past correctly places the action at a completed point in the past (1860), matching the historical context throughout the passage. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "67614549",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the tense the sentence requires",
+      "content": "The sentence describes what Lincoln did after winning the 1860 presidential election &mdash; a completed historical action. Historians are noted as praising it, meaning the action is entirely in the past. The blank needs a simple past tense verb."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;has leveraged&rsquo;</strong>: Present perfect implies the action began in the past and continues into the present. Lincoln&rsquo;s 1860 cabinet appointments are long completed, so this tense is wrong. &#10007;</li><li><strong>Choice B &mdash; &lsquo;is leveraging&rsquo;</strong>: Simple present implies an ongoing or habitual action, but Lincoln&rsquo;s appointments occurred in 1860 and cannot still be happening. &#10007;</li><li><strong>Choice C &mdash; &lsquo;will leverage&rsquo;</strong>: Future tense implies the action has not yet happened, which contradicts the historical past-event context established in the first sentence. &#10007;</li><li><strong>Choice D &mdash; &lsquo;leveraged&rsquo;</strong>: Simple past correctly places the action at a completed point in the past (1860), matching the historical context throughout the passage. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

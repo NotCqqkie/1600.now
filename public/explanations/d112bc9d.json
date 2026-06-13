@@ -9,7 +9,7 @@
     },
     {
       "title": "Calculate the temperature change for each interval",
-      "content": "For each time period, compute $\\Delta y = y_{\\text{end}} - y_{\\text{start}}$:<ul><li>Choice D ($x=1$ to $x=2$): $60 - 69 = -9°\\text{F}$ (decrease)</li><li>Choice C ($x=2$ to $x=3$): $73 - 60 = 13°\\text{F}$ (increase)</li><li>Choice B ($x=5$ to $x=6$): $62 - 64 = -2°\\text{F}$ (decrease)</li><li>Choice A ($x=6$ to $x=7$): $65 - 62 = 3°\\text{F}$ (increase)</li></ul>The greatest increase is $13°\\text{F}$ from day 2 to day 3. That matches choice C — <strong>C</strong> is correct."
+      "content": "For each time period, compute $\\Delta y = y_{\\text{end}} - y_{\\text{start}}$:<ul><li>Choice D ($x=1$ to $x=2$): $60 - 69 = -9^{\\circ}\\text{F}$ (decrease)</li><li>Choice C ($x=2$ to $x=3$): $73 - 60 = 13^{\\circ}\\text{F}$ (increase)</li><li>Choice B ($x=5$ to $x=6$): $62 - 64 = -2^{\\circ}\\text{F}$ (decrease)</li><li>Choice A ($x=6$ to $x=7$): $65 - 62 = 3^{\\circ}\\text{F}$ (increase)</li></ul>The greatest increase is $13^{\\circ}\\text{F}$ from day 2 to day 3. That is the correct answer."
     }
   ]
 }

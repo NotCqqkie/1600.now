@@ -1,1 +1,15 @@
-{"questionId": "79e14849-3cb1-4f8b-8803-beaa05c64842_22", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The previous sentence states that modern via ferratas are &lsquo;rarely designed to simply reach a summit.&rsquo; The sentence after the blank says new routes favor recreation over utility. The transition must connect those two ideas &mdash; showing what modern routes do instead, not contradicting or simply adding to the prior claim."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'Nonetheless,'</strong>: signals a contrast or concession, but no contradiction exists between the two sentences. &#10007;</li><li><strong>Choice B &mdash; 'On the other hand,'</strong>: also signals contrast between two opposing positions, which is not the relationship here. &#10007;</li><li><strong>Choice C &mdash; 'Additionally,'</strong>: adds a new, parallel point, but the second sentence is not a separate fact &mdash; it explains what &lsquo;rarely summit-focused&rsquo; means in practice. &#10007;</li><li><strong>Choice D &mdash; 'More often,'</strong>: shows what is now typical, completing the shift from the rare (summit-focused) to the common (recreation-focused). &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "79e14849-3cb1-4f8b-8803-beaa05c64842_22",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The previous sentence states that modern via ferratas are &lsquo;rarely designed to simply reach a summit.&rsquo; The sentence after the blank says new routes favor recreation over utility. The transition must connect those two ideas &mdash; showing what modern routes do instead, not contradicting or simply adding to the prior claim."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Nonetheless,&rsquo;</strong>: signals a contrast or concession, but no contradiction exists between the two sentences. &#10007;</li><li><strong>Choice B &mdash; &lsquo;On the other hand,&rsquo;</strong>: also signals contrast between two opposing positions, which is not the relationship here. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Additionally,&rsquo;</strong>: adds a new, parallel point, but the second sentence is not a separate fact &mdash; it explains what &lsquo;rarely summit-focused&rsquo; means in practice. &#10007;</li><li><strong>Choice D &mdash; &lsquo;More often,&rsquo;</strong>: shows what is now typical, completing the shift from the rare (summit-focused) to the common (recreation-focused). &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

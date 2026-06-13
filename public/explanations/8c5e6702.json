@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice A is $f(x)=60x+100$, and it satisfies both $f(2)=220$ and $f(5)=400$. Choice C also has the right value at $x=5$? No: $80(5)=400$, but it gives $f(2)=160$, not 220. Choice <strong>A</strong> is correct.",
+      "content": "<strong>A</strong> is $f(x)=60x+100$, and it satisfies both $f(2)=220$ and $f(5)=400$. Another option has the right value at $x=5$? No: ${80}(5)=400$, but it gives $f(2)=160$, not 220. <strong>A</strong> is correct.",
       "desmosExpressions": [
         "y=60x+100",
         "(2,220)",

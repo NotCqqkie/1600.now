@@ -1,4 +1,5 @@
 {
+  "questionId": "979898ba-60c7-4531-ac45-29c4db2b3361_15",
   "qid": "979898ba-60c7-4531-ac45-29c4db2b3361_15",
   "steps": [
     {
@@ -11,7 +12,7 @@
       "text": "Factor or use the quadratic formula. Discriminant: $60^2 - 4(891) = 3600 - 3564 = 36$. So $n = \\frac{60 \\pm 6}{2}$, giving $n = 33$ or $n = 27$."
     },
     {
-      "text": "<ul><li>A: 27 — one of the two valid solutions ($n = 27$). That matches choice A — <strong>A</strong> is correct.</li><li>B: 30 — check: $30(90 - 45) = 30 \\times 45 = 1350 \\neq 1336.50$. Eliminated.</li><li>C: 831 — far exceeds the price-zero break-even at $n = 60$; price would be negative. Eliminated.</li><li>D: 1,350 — similarly impossible; price becomes deeply negative. Eliminated.</li></ul>Note: $n = 33$ is also a valid mathematical root of the equation, but it does not appear among the answer choices, so $n = 27$ (choice A) is the only answer available."
+      "text": "<ul><li>A: 27 — one of the two valid solutions ($n = 27$). That confirms <strong>A</strong> is correct.</li><li>B: 30 — check: ${30}(90 - 45) = 30 \\times 45 = 1350 \\neq 1336.50$. Eliminated.</li><li>C: 831 — far exceeds the price-zero break-even at $n = 60$; price would be negative. Eliminated.</li><li>D: 1,350 — similarly impossible; price becomes deeply negative. Eliminated.</li></ul>Note: $n = 33$ is also a valid mathematical root of the equation, but it does not appear among the answer choices, so $n = 27$ (choice A) is the only answer available."
     }
   ],
   "correctAnswer": "A"

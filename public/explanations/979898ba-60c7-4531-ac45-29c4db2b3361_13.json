@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice A and choice B have slope $4$, so they do not satisfy $g(x+1)-g(x)=6$. Choice D has slope $6$, but $g(4)=6(4)-24=0$, not $10$. Choice C, $g(x)=6x-14$, has $g(4)=10$ and increases by $6$ each step. Choice <strong>C</strong> is correct."
+      "content": "$g(x)=4x+10$ and $g(x)=4x+6$ have slope $4$, so they do not satisfy $g(x+1)-g(x)=6$. $g(x)=6x-24$ has slope $6$, but $g(4)=6(4)-24=0$, not $10$. The function $g(x)=6x-14$ has $g(4)=10$ and increases by $6$ each step."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId":"7e608cd1-45e5-4f04-99b5-d0a95eb883a6_14","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage says Brâncu&#x219;i influenced both minimalism and abstract art, yet his exacting standards meant he produced relatively few pieces. The sentence ends with &apos;There is thus something of a disparity between ______&apos; &mdash; the blank must name two things that are in tension with each other."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'the themes Brâncu&#x219;i explored and the themes favored by artists he inspired.'</strong>: The passage does not discuss the themes of artists he inspired &mdash; this introduces unsupported information. &#10007;</li><li><strong>Choice B &mdash; 'Brâncu&#x219;i&apos;s importance to the history of art and his total artistic output.'</strong>: He was hugely influential (large importance) yet produced few pieces (small output) &mdash; this is exactly the disparity the passage sets up. &#10003;</li><li><strong>Choice C &mdash; 'the nature of much of Brâncu&#x219;i&apos;s work and the abstraction of Bird in Space.'</strong>: The passage treats Bird in Space as a representative example, not as something at odds with his other work. &#10007;</li><li><strong>Choice D &mdash; 'Brâncu&#x219;i&apos;s relatively limited productivity and the diversity of his sculptures.'</strong>: The passage never mentions diversity of sculptures &mdash; it emphasizes the same few recurring themes. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "7e608cd1-45e5-4f04-99b5-d0a95eb883a6_14",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage says Brâncu&#x219;i influenced both minimalism and abstract art, yet his exacting standards meant he produced relatively few pieces. The sentence ends with &apos;There is thus something of a disparity between ______&apos; &mdash; the blank must name two things that are in tension with each other."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;the themes Brâncuși explored and the themes favored by artists he inspired.&rsquo;</strong>: The passage does not discuss the themes of artists he inspired &mdash; this introduces unsupported information. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Brâncuși's importance to the history of art and his total artistic output.&rsquo;</strong>: He was hugely influential (large importance) yet produced few pieces (small output) &mdash; this is exactly the disparity the passage sets up. &#10003;</li><li><strong>Choice C &mdash; &lsquo;the nature of much of Brâncuși's work and the abstraction of *Bird in Space*.&rsquo;</strong>: The passage treats Bird in Space as a representative example, not as something at odds with his other work. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Brâncuși's relatively limited productivity and the diversity of his sculptures.&rsquo;</strong>: The passage never mentions diversity of sculptures &mdash; it emphasizes the same few recurring themes. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

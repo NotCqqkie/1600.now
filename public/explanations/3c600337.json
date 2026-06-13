@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice D is $270$, so it is correct. Choice C, $27$, is what you would get at $x=1$, not at $x=0$."
+      "content": "$270$ is correct. $27$ is what you would get at $x=1$, not at $x=0$, because multiplying by $0.1$ happens only after the exponent is 1."
     }
   ]
 }

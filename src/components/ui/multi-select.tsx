@@ -35,6 +35,7 @@ interface MultiSelectProps {
   open?: boolean
   onOpenChange?: (open: boolean) => void
   preserveOpenOnInteractOutside?: boolean
+  preventAutoFocusScroll?: boolean
 }
 
 export function MultiSelect({
@@ -51,6 +52,7 @@ export function MultiSelect({
   open: controlledOpen,
   onOpenChange,
   preserveOpenOnInteractOutside = false,
+  preventAutoFocusScroll = false,
 }: MultiSelectProps) {
   const [internalOpen, setInternalOpen] = React.useState(false)
   const open = controlledOpen ?? internalOpen
@@ -97,6 +99,8 @@ export function MultiSelect({
       <PopoverContent
         container={portalContainer}
         className="w-[var(--radix-popover-trigger-width)] p-0"
+        onOpenAutoFocus={preventAutoFocusScroll ? (event) => event.preventDefault() : undefined}
+        onCloseAutoFocus={preventAutoFocusScroll ? (event) => event.preventDefault() : undefined}
         onInteractOutside={preserveOpenOnInteractOutside ? (event) => event.preventDefault() : undefined}
       >
         <Command>
@@ -109,6 +113,7 @@ export function MultiSelect({
                   key={option.value}
                   value={option.value}
                   data-filter-demo-option={demoOptionPrefix ? `${demoOptionPrefix}:${option.value}` : undefined}
+                  className="active:bg-accent active:text-accent-foreground"
                   onSelect={() => handleSelect(option.value)}
                 >
                   <Check

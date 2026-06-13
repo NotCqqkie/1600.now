@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Recognize complementary angles from cos(Q) = sin(R)",
-      "content": "The equation $\\cos(Q) = \\sin(R)$ indicates that Q and R are complementary angles. Using the identity $\\sin(\\theta) = \\cos(90° - \\theta)$:<br/>$$Q + R = 90°$$"
+      "content": "The equation $\\cos(Q) = \\sin(R)$ indicates that Q and R are complementary angles. Using the identity $\\sin(\\theta) = \\cos(90^{\\circ} - \\theta)$:<br/>$$Q + R = 90^{\\circ}$$"
     },
     {
       "title": "Substitute and solve for x",
-      "content": "Use the angle measures $Q = x + 61$ and $R = 4x + 4$ in the complementary angle equation:<br/>$$(x + 61) + (4x + 4) = 90$$<br/>Simplify:<br/>$$5x + 65 = 90$$<br/>$$5x = 25$$<br/>$$x = 5$$<br/>That matches choice A — <strong>A</strong> is correct."
+      "content": "Use the angle measures $Q = x + 61$ and $R = 4x + 4$ in the complementary angle equation:<br/>$$(x + 61) + (4x + 4) = 90$$<br/>Simplify:<br/>$$5x + 65 = 90$$<br/>$$5x = 25$$<br/>$$x = 5$$<br/>That matches <strong>Choice A &mdash; $5$</strong>."
     }
   ]
 }

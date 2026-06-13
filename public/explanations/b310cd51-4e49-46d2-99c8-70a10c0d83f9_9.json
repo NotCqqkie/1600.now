@@ -13,7 +13,7 @@
     },
     {
       "title": "Test all four choices",
-      "content": "<ul><li><strong>Choice A &mdash; $y = 15x + 7$</strong>: The slope is $15$, not $8$.</li><li><strong>Choice B &mdash; $y = -15x + 7$</strong>: The slope is $-15$, not $8$.</li><li><strong>Choice C &mdash; $y = 8x + 15$</strong>: The slope is $8$, and the $y$-intercept is $15$.</li><li><strong>Choice D &mdash; $y = -8x + 15$</strong>: The slope is $-8$, not $8$.</li></ul>Choice <strong>C</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; $y=15x+7$</strong>: The slope is $15$, not $8$.</li><li><strong>Choice B &mdash; $y=-15x+7$</strong>: The slope is $-15$, not $8$.</li><li><strong>Choice C &mdash; $y=8x+15$</strong>: The slope is $8$, and the $y$-intercept is $15$.</li><li><strong>Choice D &mdash; $y=-8x+15$</strong>: The slope is $-8$, not $8$.</li></ul><strong>C</strong> is correct."
     }
   ]
 }

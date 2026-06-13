@@ -1,1 +1,15 @@
-{"questionId":"406baf08-71da-41c0-bc3d-ddc2c25258ba_20","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence structure is: &quot;Aslanian's macroanalysis [blank] nearly 1,000 book titles published between 1512 and 1800 shows not only...&quot; The subject is &quot;Aslanian's macroanalysis&quot; and the main verb is &quot;shows.&quot; The blank fills a modifier slot between the subject and the phrase &quot;nearly 1,000 book titles,&quot; so it must not create a second competing main verb."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'had examined'</strong>: A finite past-perfect verb — creates two uncoordinated main verbs (&quot;had examined&quot; and &quot;shows&quot;) in one clause. &#10007;</li><li><strong>Choice B &mdash; 'examining'</strong>: A present participle — modifies &quot;macroanalysis&quot; without acting as a finite verb, so &quot;shows&quot; remains the sentence's only main verb. &#10003;</li><li><strong>Choice C &mdash; 'examined'</strong>: A finite past verb — creates two uncoordinated main verbs. &#10007;</li><li><strong>Choice D &mdash; 'examines'</strong>: A finite present verb — creates two uncoordinated main verbs. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "406baf08-71da-41c0-bc3d-ddc2c25258ba_20",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence structure is: &quot;Aslanian's macroanalysis [blank] nearly 1,000 book titles published between 1512 and 1800 shows not only...&quot; The subject is &quot;Aslanian's macroanalysis&quot; and the main verb is &quot;shows.&quot; The blank fills a modifier slot between the subject and the phrase &quot;nearly 1,000 book titles,&quot; so it must not create a second competing main verb."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — had examined</strong>: A finite past-perfect verb — creates two uncoordinated main verbs (&quot;had examined&quot; and &quot;shows&quot;) in one clause. &#10007;</li><li><strong>Choice B — examining</strong>: A present participle — modifies &quot;macroanalysis&quot; without acting as a finite verb, so &quot;shows&quot; remains the sentence's only main verb. &#10003;</li><li><strong>Choice C — examined</strong>: A finite past verb — creates two uncoordinated main verbs. &#10007;</li><li><strong>Choice D — examines</strong>: A finite present verb — creates two uncoordinated main verbs. &#10007;</li></ul><strong>B</strong> is correct."
+    }
+  ]
+}

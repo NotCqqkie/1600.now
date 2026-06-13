@@ -1,1 +1,15 @@
-{"questionId": "6172d662-f820-4d74-acac-4b49873dfc8f_16", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The blank closes Alfred Nobel's quoted phrase and must also connect it to the independent clause that follows: \"in 1952, for instance, judges recognized...\" That following clause has its own subject and verb, making it a second independent clause that cannot be glued on with a comma alone."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'direction\" and,'</strong>: Inserting <em>and,</em> after the closing quotation mark creates a grammatical tangle &mdash; the coordinating conjunction <em>and</em> cannot be followed immediately by a comma here, and the construction is awkward. &#10007;</li><li><strong>Choice B &mdash; 'direction\"'</strong>: No punctuation after the closing quotation mark leaves two independent clauses fused together with no separator (a run-on). &#10007;</li><li><strong>Choice C &mdash; 'direction,\"'</strong>: A comma alone between two independent clauses is a comma splice, which violates Standard English conventions. &#10007;</li><li><strong>Choice D &mdash; 'direction\";'</strong>: A semicolon correctly joins two independent clauses &mdash; it closes the quotation and links the concrete 1952 example to the definition that preceded it. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "6172d662-f820-4d74-acac-4b49873dfc8f_16",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank closes Alfred Nobel's quoted phrase and must also connect it to the independent clause that follows: \"in 1952, for instance, judges recognized...\" That following clause has its own subject and verb, making it a second independent clause that cannot be glued on with a comma alone."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;direction\" and,&rsquo;</strong>: Inserting <em>and,</em> after the closing quotation mark creates a grammatical tangle &mdash; the coordinating conjunction <em>and</em> cannot be followed immediately by a comma here, and the construction is awkward. &#10007;</li><li><strong>Choice B &mdash; &lsquo;direction\"&rsquo;</strong>: No punctuation after the closing quotation mark leaves two independent clauses fused together with no separator (a run-on). &#10007;</li><li><strong>Choice C &mdash; &lsquo;direction,\"&rsquo;</strong>: A comma alone between two independent clauses is a comma splice, which violates Standard English conventions. &#10007;</li><li><strong>Choice D &mdash; &lsquo;direction\";&rsquo;</strong>: A semicolon correctly joins two independent clauses &mdash; it closes the quotation and links the concrete 1952 example to the definition that preceded it. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

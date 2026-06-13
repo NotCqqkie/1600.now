@@ -13,7 +13,7 @@
     },
     {
       "title": "Solve for a",
-      "content": "Since $f(a) = 3|a|$, we have:<br/>$$3|a| = 30$$<br/>$$|a| = 10$$<br/>This gives $a = 10$ or $a = -10$. Among the answer choices, only $a = 10$ appears. That matches choice C — <strong>C</strong> is correct."
+      "content": "Since $f(a) = 3|a|$, we have:<br/>$$3|a| = 30$$<br/>$$|a| = 10$$<br/>This gives $a = 10$ or $a = -10$. Among the answer choices, only $a = 10$ appears. That matches <strong>Choice C &mdash; $10$</strong>."
     }
   ]
 }

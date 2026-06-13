@@ -1,1 +1,15 @@
-{"questionId": "988c78eb", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the subject of the relative clause", "content": "The blank fills a verb in the clause &quot;a document that ______ the basic freedoms.&quot; The relative pronoun &quot;that&quot; refers back to &quot;a document&quot; &mdash; a singular noun &mdash; and acts as the clause's subject. The verb must agree with that singular subject."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; 'have outlined'</strong>: plural verb form; does not agree with the singular subject &quot;that&quot; (= a document). &#10007;</li><li><strong>Choice B &mdash; 'were outlining'</strong>: plural past-progressive verb; does not agree with the singular subject. &#10007;</li><li><strong>Choice C &mdash; 'outlines'</strong>: singular present verb; agrees with the singular subject &quot;that&quot; (= a document). &#10003;</li><li><strong>Choice D &mdash; 'outline'</strong>: base form used for plural subjects; does not agree with the singular subject. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "988c78eb",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the subject of the relative clause",
+      "content": "The blank fills a verb in the clause &quot;a document that ______ the basic freedoms.&quot; The relative pronoun &quot;that&quot; refers back to &quot;a document&quot; &mdash; a singular noun &mdash; and acts as the clause's subject. The verb must agree with that singular subject."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; have outlined</strong>: plural verb form; does not agree with the singular subject &quot;that&quot; (= a document). &#10007;</li><li><strong>Choice B &mdash; were outlining</strong>: plural past-progressive verb; does not agree with the singular subject. &#10007;</li><li><strong>Choice C &mdash; outlines</strong>: singular present verb; agrees with the singular subject &quot;that&quot; (= a document). &#10003;</li><li><strong>Choice D &mdash; outline</strong>: base form used for plural subjects; does not agree with the singular subject. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

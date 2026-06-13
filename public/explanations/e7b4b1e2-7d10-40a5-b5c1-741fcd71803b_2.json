@@ -1,1 +1,15 @@
-{"questionId": "e7b4b1e2-7d10-40a5-b5c1-741fcd71803b_2", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the core contrast", "content": "The passage contrasts two time periods: “while the task was [blank] when few had been discovered, so many have since been discovered that the task has become nearly impossible.” The phrase “has become” signals a progression, and we need a word for the opposite of nearly impossible."}, {"title": "Match the meaning", "content": "”Feasible” means achievable or doable — the direct opposite of impossible.<br/><br/>When there were few planets, assigning unique names was feasible; as thousands more were discovered, the task became nearly impossible.<br/><br/>The other choices either address magnitude rather than achievability (substantial), contradict the progression by suggesting impossibility already existed (insurmountable), or concern clarity rather than difficulty (ambiguous).<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "e7b4b1e2-7d10-40a5-b5c1-741fcd71803b_2",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the core contrast",
+      "content": "The passage contrasts two time periods: “while the task was [blank] when few had been discovered, so many have since been discovered that the task has become nearly impossible.” The phrase “has become” signals a progression, and we need a word for the opposite of nearly impossible."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "”Feasible” means achievable or doable — the direct opposite of impossible.<br/><br/>When there were few planets, assigning unique names was feasible; as thousands more were discovered, the task became nearly impossible.<br/><br/>The other choices either address magnitude rather than achievability (substantial), contradict the progression by suggesting impossibility already existed (insurmountable), or concern clarity rather than difficulty (ambiguous).<br/><br/>That matches the correct answer — <strong>C</strong> is correct."
+    }
+  ]
+}

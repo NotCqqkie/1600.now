@@ -9,7 +9,7 @@
     },
     {
       "title": "Substitute depth and calculate",
-      "content": "Substitute $d = 105$ feet into the function:<br/>$$P = 14.70 + 0.44(105)$$<br/>Calculate the product: $0.44 \\times 105 = 46.2$<br/>$$P = 14.70 + 46.2 = 60.90 \\text{ psi}$$<br/>That matches choice A — <strong>A</strong> is correct."
+      "content": "Substitute $d = 105$ feet into the function:<br/>$$P = 14.70 + 0.44(105)$$<br/>Calculate the product: $0.44 \\times 105 = 46.2$<br/>$$P = 14.70 + 46.2 = 60.90 \\text{ psi}$$<br/>That matches <strong>Choice A &mdash; $60.90$</strong>."
     }
   ]
 }

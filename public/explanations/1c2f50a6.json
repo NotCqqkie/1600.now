@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Calculate 20% discount",
-      "content": "To find 20% of the original price, multiply 50 by 0.20:<br/>$$0.20 \\times 50 = 10$$<br/>The discount amount is \\$10."
+      "content": "To find 20% of the original price, multiply 50 by 0.20:<br/>$$0.20 \\times 50 = 10$$<br/>The discount amount is &#36;10."
     },
     {
       "title": "Compute sale price",
-      "content": "Subtract the discount from the original price:<br/>$$50 - 10 = 40$$<br/>The sale price is \\$40.<br/>That matches choice D — <strong>D</strong> is correct."
+      "content": "Subtract the discount from the original price:<br/>$$50 - 10 = 40$$<br/>The sale price is &#36;40, which matches the correct answer."
     }
   ]
 }

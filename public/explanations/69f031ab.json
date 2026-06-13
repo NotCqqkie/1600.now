@@ -1,1 +1,15 @@
-{"questionId": "69f031ab", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Read the sentence and spot the grammar role", "content": "The sentence says Parker&rsquo;s finding &ldquo;was the first ______ humans in North America as far back as 10,000 years ago.&rdquo; The blank follows &ldquo;the first&rdquo; and must act as a modifier within that noun phrase. A modifier inside a noun phrase must be <em>nonfinite</em> &mdash; not conjugated to a subject.<ul><li><strong>Choice A &mdash; &lsquo;places&rsquo;</strong>: a finite, third-person singular verb; cannot modify &ldquo;first&rdquo; inside a noun phrase. &#10007;</li><li><strong>Choice B &mdash; &lsquo;placed&rsquo;</strong>: a finite past-tense form (or past participle producing the illogical &ldquo;the first placed humans&rdquo;); does not work as a nonfinite modifier here. &#10007;</li><li><strong>Choice C &mdash; &lsquo;place&rsquo;</strong>: a finite base form conjugated to a bare subject; also reads as a noun, making &ldquo;the first place humans&rdquo; illogical. &#10007;</li><li><strong>Choice D &mdash; &lsquo;to place&rsquo;</strong>: an infinitive, which is nonfinite, correctly modifying &ldquo;first&rdquo; to mean &ldquo;the first evidence to place humans in North America.&rdquo; &#10003;</li></ul>"}, {"title": "Confirm the answer", "content": "Only the infinitive &ldquo;to place&rdquo; produces a grammatically correct noun phrase with &ldquo;the first&rdquo; in Standard English. That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "69f031ab",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the sentence and spot the grammar role",
+      "content": "The sentence says Parker&rsquo;s finding &ldquo;was the first ______ humans in North America as far back as 10,000 years ago.&rdquo; The blank follows &ldquo;the first&rdquo; and must act as a modifier within that noun phrase. A modifier inside a noun phrase must be <em>nonfinite</em> &mdash; not conjugated to a subject.<ul><li><strong>Choice A &mdash; &lsquo;places&rsquo;</strong>: a finite, third-person singular verb; cannot modify &ldquo;first&rdquo; inside a noun phrase. &#10007;</li><li><strong>Choice B &mdash; &lsquo;placed&rsquo;</strong>: a finite past-tense form (or past participle producing the illogical &ldquo;the first placed humans&rdquo;); does not work as a nonfinite modifier here. &#10007;</li><li><strong>Choice C &mdash; &lsquo;place&rsquo;</strong>: a finite base form conjugated to a bare subject; also reads as a noun, making &ldquo;the first place humans&rdquo; illogical. &#10007;</li><li><strong>Choice D &mdash; &lsquo;to place&rsquo;</strong>: an infinitive, which is nonfinite, correctly modifying &ldquo;first&rdquo; to mean &ldquo;the first evidence to place humans in North America.&rdquo; &#10003;</li></ul>"
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "Only the infinitive &ldquo;to place&rdquo; produces a grammatically correct noun phrase with &ldquo;the first&rdquo; in Standard English. That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

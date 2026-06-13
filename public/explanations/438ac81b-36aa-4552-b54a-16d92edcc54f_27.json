@@ -1,1 +1,15 @@
-{"questionId":"438ac81b-36aa-4552-b54a-16d92edcc54f_27","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The student wants to describe the format of the poem “15 haiku (for Toni Morrison).” Format means structural composition — how the poem is built — not its theme, publication history, or the author’s reasoning."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; ‘The poems in Morning Haiku (2010) are each written as a sequence of haiku.’</strong>: Describes the entire book, not the specific poem. Also inaccurate — the notes say only this poem is a sequence of fifteen haiku, not all poems in the collection. &#10007;</li><li><strong>Choice B &mdash; ‘Sanchez chose the form used in the poem because it helps “maintain memory and dignity.”’</strong>: Explains Sanchez’s reason for using haiku, not what the format actually is. This is motivation, not description. &#10007;</li><li><strong>Choice C &mdash; ‘The poem “15 haiku (for Toni Morrison)” is written as a sequence of fifteen haiku.’</strong>: Directly names the poem and states its structural format — a sequence of fifteen haiku. Matches the task exactly. &#10003;</li><li><strong>Choice D &mdash; ‘The poem was published in the 2010 book Morning Haiku, which “celebrates the gifts of life and mourns the deaths of revered African American figures.”’</strong>: Covers publication and theme, neither of which is format. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "438ac81b-36aa-4552-b54a-16d92edcc54f_27",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The student wants to describe the format of the poem “15 haiku (for Toni Morrison).” Format means structural composition — how the poem is built — not its theme, publication history, or the author’s reasoning."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — The poems in *Morning Haiku* (2010) are each written as a sequence of haiku.</strong>: Describes the entire book, not the specific poem. Also inaccurate — the notes say only this poem is a sequence of fifteen haiku, not all poems in the collection. &#10007;</li><li><strong>Choice B — Sanchez chose the form used in the poem \"15 haiku (for Toni Morrison)\" because it helps \"maintain memory and dignity.\"</strong>: Explains Sanchez’s reason for using haiku, not what the format actually is. This is motivation, not description. &#10007;</li><li><strong>Choice C — The poem \"15 haiku (for Toni Morrison)\" is written as a sequence of fifteen haiku.</strong>: Directly names the poem and states its structural format — a sequence of fifteen haiku. Matches the task exactly. &#10003;</li><li><strong>Choice D — The poem \"15 haiku (for Toni Morrison)\" was published in the 2010 book *Morning Haiku*, which \"celebrates the gifts of life and mourns the deaths of revered African American figures.\"</strong>: Covers publication and theme, neither of which is format. &#10007;</li></ul><strong>C</strong> is correct."
+    }
+  ]
+}

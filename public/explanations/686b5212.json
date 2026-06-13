@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Use consecutive interior angles to find y",
-      "content": "Lines $q$ and $r$ are parallel, and line $s$ is a transversal. The angles 58° and $y°$ are consecutive interior angles (also called same-side interior angles), which are supplementary for parallel lines:<br/>$$58° + y° = 180°$$<br/>$$y = 122$$"
+      "content": "Lines $q$ and $r$ are parallel, and line $s$ is a transversal. The angles 58° and $y^{\\circ}$ are consecutive interior angles (also called same-side interior angles), which are supplementary for parallel lines:<br/>$$58^{\\circ} + y^{\\circ} = 180^{\\circ}$$<br/>$$y = 122$$"
     },
     {
       "title": "Substitute y into the given equation to find x",

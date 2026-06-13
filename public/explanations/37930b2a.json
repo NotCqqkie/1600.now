@@ -17,7 +17,7 @@
     },
     {
       "title": "Eliminate choices",
-      "content": "<ul><li><strong>Choice A &mdash; 'Neither'</strong>: Neither statement must be true based on a single sample. &#10003;</li><li><strong>Choice B &mdash; 'I only'</strong>: Statement I cannot be concluded as a certainty from sample data alone. &#10007;</li><li><strong>Choice C &mdash; 'II only'</strong>: Statement II cannot be guaranteed due to sampling variability. &#10007;</li><li><strong>Choice D &mdash; 'I and II'</strong>: Both statements have the same flaw; neither must be true. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li><strong>Choice A — Neither</strong>: Neither statement must be true based on a single sample. &#10003;</li><li><strong>Choice B — I only</strong>: Statement I cannot be concluded as a certainty from sample data alone. &#10007;</li><li><strong>Choice C — II only</strong>: Statement II cannot be guaranteed due to sampling variability. &#10007;</li><li><strong>Choice D — I and II</strong>: Both statements have the same flaw; neither must be true. &#10007;</li></ul><strong>A</strong> is correct."
     }
   ]
 }

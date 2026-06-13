@@ -1,12 +1,25 @@
 {
+  "questionId": "104bff62",
   "qid": "104bff62",
   "steps": [
-    "Subtract $\\frac{c^{2}}{\\sqrt{x^{2}-c^{2}}}$ from both sides: $\\frac{x^{2}-c^{2}}{\\sqrt{x^{2}-c^{2}}}=39$.",
-    "Let $u=\\sqrt{x^{2}-c^{2}}\\geq 0$, so $u^{2}/u=u=39$. Thus $\\sqrt{x^{2}-c^{2}}=39$.",
-    "Square: $x^{2}-c^{2}=39^{2}$, so $x^{2}=c^{2}+39^{2}$, giving $x=\\pm\\sqrt{c^{2}+39^{2}}$. The negative solution is $-\\sqrt{c^{2}+39^{2}}$.",
-    "Note $x=\\pm c$ makes the denominator $\\sqrt{x^{2}-c^{2}}=0$, so those are extraneous. Only $\\pm\\sqrt{c^{2}+39^{2}}$ are valid solutions."
+    {
+      "title": "Combine the fractions",
+      "content": "Subtract $\\frac{c^{2}}{\\sqrt{x^{2}-c^{2}}}$ from both sides: $\\frac{x^{2}-c^{2}}{\\sqrt{x^{2}-c^{2}}}=39$."
+    },
+    {
+      "title": "Simplify the radical expression",
+      "content": "Let $u=\\sqrt{x^{2}-c^{2}}\\geq 0$, so $u^{2}/u=u=39$. Thus $\\sqrt{x^{2}-c^{2}}=39$."
+    },
+    {
+      "title": "Solve for x",
+      "content": "Square both sides: $x^{2}-c^{2}=39^{2}$, so $x^{2}=c^{2}+39^{2}$. Therefore $x=\\pm\\sqrt{c^{2}+39^{2}}$."
+    },
+    {
+      "title": "Use the negative solution",
+      "content": "The negative solution is $-\\sqrt{c^{2}+39^{2}}$. Values $x=\\pm c$ would make the denominator zero, so they are not valid."
+    }
   ],
-  "choiceElimination": "<ul><li><strong>Choice A &mdash; '$-c$'</strong>: Substituting $x=-c$ gives $\\sqrt{(-c)^{2}-c^{2}}=\\sqrt{0}=0$ in the denominator, making the equation undefined. &#10007;</li><li><strong>Choice B &mdash; '$-c^{2}-39^{2}$'</strong>: This is a large negative number. Squaring it gives $(c^{2}+39^{2})^{2}$, not $c^{2}+39^{2}$, so it does not satisfy $x^{2}=c^{2}+39^{2}$. &#10007;</li><li><strong>Choice C &mdash; '$-\\sqrt{39^{2}-c^{2}}$'</strong>: This would require $x^{2}=39^{2}-c^{2}$, but we derived $x^{2}=c^{2}+39^{2}$. These differ unless $c=0$, contradicting c being a positive constant. &#10007;</li><li><strong>Choice D &mdash; '$-\\sqrt{c^{2}+39^{2}}$'</strong>: Gives $x^{2}=c^{2}+39^{2}$, matching the derived solution exactly. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.",
+  "choiceElimination": "<ul><li><strong>Choice A &mdash; $-c$</strong>: Substituting $x=-c$ gives $\\sqrt{(-c)^{2}-c^{2}}=\\sqrt{0}=0$ in the denominator, making the equation undefined. &#10007;</li><li><strong>Choice B &mdash; $-{c}^{2}-{39}^{2}$</strong>: This is a large negative number. Squaring it gives $(c^{2}+39^{2})^{2}$, not $c^{2}+39^{2}$, so it does not satisfy $x^{2}=c^{2}+39^{2}$. &#10007;</li><li><strong>Choice C &mdash; $-\\sqrt{{39}^{2}-{c}^{2}}$</strong>: This would require $x^{2}=39^{2}-c^{2}$, but we derived $x^{2}=c^{2}+39^{2}$. These differ unless $c=0$, contradicting c being a positive constant. &#10007;</li><li><strong>Choice D &mdash; $-\\sqrt{{c}^{2}+{39}^{2}}$</strong>: Gives $x^{2}=c^{2}+39^{2}$, matching the derived solution exactly. &#10003;</li></ul>That matches <strong>Choice D &mdash; $-\\sqrt{{c}^{2}+{39}^{2}}$</strong>.",
   "correctAnswer": "D",
   "desmosExpressions": [
     "\\frac{x^{2}}{\\sqrt{x^{2}-4}}-\\frac{4}{\\sqrt{x^{2}-4}}=39"

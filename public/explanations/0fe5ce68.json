@@ -1,1 +1,15 @@
-{"questionId":"0fe5ce68","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The skill is subject-verb agreement. The subject of the blank is &quot;each one of these plays&quot; &mdash; the word &quot;each&quot; makes this singular regardless of the prepositional phrase that follows, so the verb must be singular."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;focuses&rsquo;</strong>: singular present-tense verb &mdash; agrees with the singular subject &quot;each one.&quot; &#10003;</li><li><strong>Choice B &mdash; &lsquo;focus&rsquo;</strong>: plural present-tense verb &mdash; violates subject-verb agreement; &quot;each one&quot; is singular, not plural. &#10007;</li><li><strong>Choice C &mdash; &lsquo;are focused&rsquo;</strong>: plural present-tense passive verb &mdash; violates subject-verb agreement for the same reason as B. &#10007;</li><li><strong>Choice D &mdash; &lsquo;were focused&rsquo;</strong>: plural past-tense passive verb &mdash; violates subject-verb agreement (plural) and introduces past tense that is inconsistent with the present-tense context of the sentence. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "0fe5ce68",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The skill is subject-verb agreement. The subject of the blank is &quot;each one of these plays&quot; &mdash; the word &quot;each&quot; makes this singular regardless of the prepositional phrase that follows, so the verb must be singular."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; focuses</strong>: singular present-tense verb &mdash; agrees with the singular subject &quot;each one.&quot; &#10003;</li><li><strong>Choice B &mdash; focus</strong>: plural present-tense verb &mdash; violates subject-verb agreement; &quot;each one&quot; is singular, not plural. &#10007;</li><li><strong>Choice C &mdash; are focused</strong>: plural present-tense passive verb &mdash; violates subject-verb agreement for the same reason as B. &#10007;</li><li><strong>Choice D &mdash; were focused</strong>: plural past-tense passive verb &mdash; violates subject-verb agreement (plural) and introduces past tense that is inconsistent with the present-tense context of the sentence. &#10007;</li></ul>That matches <strong>Choice A &mdash; focuses</strong>."
+    }
+  ]
+}

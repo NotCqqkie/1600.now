@@ -13,7 +13,7 @@
     },
     {
       "title": "Check each choice for the parallel form",
-      "content": "<ul><li><strong>Choice A</strong>: $x+3y=5$ is exactly the simplified original equation, so it gives infinitely many solutions, not no solution.</li><li><strong>Choice B</strong>: $x+3y=-20$ has the same left side but a different constant, so the lines are parallel and distinct.</li><li><strong>Choices C and D</strong>: their coefficient ratios do not match $1:3$, so each would intersect the original line once.</li></ul>That matches choice B, so <strong>B</strong> is correct."
+      "content": "<ul><li><strong>Choice A — $x + 3y = 5$</strong>: $x+3y=5$ is exactly the simplified original equation, so it gives infinitely many solutions, not no solution.</li><li><strong>Choice B — $x + 3y = -20$</strong>: $x+3y=-20$ has the same left side but a different constant, so the lines are parallel and distinct.</li><li><strong>$6x -2y = 0$ and $6x + 2y = 10$</strong>: their coefficient ratios do not match $1:3$, so each would intersect the original line once.</li></ul>This matches, so <strong>B</strong> is correct."
     }
   ]
 }

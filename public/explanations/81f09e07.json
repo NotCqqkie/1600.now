@@ -1,1 +1,15 @@
-{"questionId": "81f09e07", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the clause structure risk", "content": "The sentence contains a main independent clause (“ancient Egyptians slept on hard, elevated headrests”), followed by a comma and the noun phrase “their design.” The blank could be filled with either a form that creates a second independent clause or a form that creates a participial phrase."}, {"title": "Apply the comma splice rule", "content": "”Prioritizing” creates a participial phrase elaborating on the design without creating a second independent clause.<br/><br/>Using any finite verb (prioritized, was prioritizing, had prioritized) creates an independent clause after the comma, causing a comma splice.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "81f09e07",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the clause structure risk",
+      "content": "The sentence contains a main independent clause (“ancient Egyptians slept on hard, elevated headrests”), followed by a comma and the noun phrase “their design.” The blank could be filled with either a form that creates a second independent clause or a form that creates a participial phrase."
+    },
+    {
+      "title": "Apply the comma splice rule",
+      "content": "”Prioritizing” creates a participial phrase elaborating on the design without creating a second independent clause.<br/><br/>Using any finite verb (prioritized, was prioritizing, had prioritized) creates an independent clause after the comma, causing a comma splice.<br/><br/>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

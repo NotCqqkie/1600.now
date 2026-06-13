@@ -1,1 +1,15 @@
-{"questionId":"2cde5163-29ab-4fac-b1b1-06ee2a11740a_14","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage contrasts modern technology &mdash; which lets searchers locate hoards before excavation &mdash; with pre-1960 discovery. The blank must describe how pre-1960 hoards were found: without intentional search tools, meaning discovery happened by chance."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; what hoards contained</strong>: addresses the contents of hoards, not how they were discovered. &#10007;</li><li><strong>Choice B &mdash; 'result from artifacts being unearthed accidentally'</strong>: directly captures discovery without intentional search &mdash; the logical opposite of using technology to locate hoards before digging. &#10003;</li><li><strong>Choice C &mdash; what hoards contained</strong>: like A, focuses on contents rather than discovery method. &#10007;</li><li><strong>Choice D &mdash; timing</strong>: addresses when hoards were found, not the method of discovery. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "2cde5163-29ab-4fac-b1b1-06ee2a11740a_14",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage contrasts modern technology &mdash; which lets searchers locate hoards before excavation &mdash; with pre-1960 discovery. The blank must describe how pre-1960 hoards were found: without intentional search tools, meaning discovery happened by chance."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — include gold jewelry.</strong>: addresses the contents of hoards, not how they were discovered. &#10007;</li><li><strong>Choice B — result from artifacts being unearthed accidentally.</strong>: directly captures discovery without intentional search &mdash; the logical opposite of using technology to locate hoards before digging. &#10003;</li><li><strong>Choice C — include rare items from the 10th century BCE.</strong>: like A, focuses on contents rather than discovery method. &#10007;</li><li><strong>Choice D — occur before the ground was disturbed.</strong>: addresses when hoards were found, not the method of discovery. &#10007;</li></ul><strong>B</strong> is correct."
+    }
+  ]
+}

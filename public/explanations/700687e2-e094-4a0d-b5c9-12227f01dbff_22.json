@@ -1,1 +1,15 @@
-{"questionId": "700687e2-e094-4a0d-b5c9-12227f01dbff_22", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the logical relationship between the sentences", "content": "Sentence 1 states the general principle: random variables cluster around an average over many trials. Sentence 2 presents a specific coin-flip scenario (450&ndash;550 heads in 1,000 flips) as concrete evidence of that principle. The relationship is <em>exemplification</em>: sentence 2 illustrates sentence 1.<ul><li><strong>Choice A &mdash; &lsquo;In addition,&rsquo;</strong>: signals a new, separate point being added; sentence 2 is not a new point but an illustration of sentence 1. &#10007;</li><li><strong>Choice B &mdash; &lsquo;However,&rsquo;</strong>: signals contrast or contradiction; sentence 2 does not contradict sentence 1. &#10007;</li><li><strong>Choice C &mdash; &lsquo;For instance,&rsquo;</strong>: signals a specific example of a general claim; sentence 2 is exactly that &mdash; a concrete instance of the clustering principle. &#10003;</li><li><strong>Choice D &mdash; &lsquo;In comparison,&rsquo;</strong>: signals a comparison between two distinct things; no comparison is being drawn here. &#10007;</li></ul>"}, {"title": "Confirm the answer", "content": "&ldquo;For instance&rdquo; is the only transition that correctly signals exemplification, matching the relationship between the general principle and the coin-flip example. That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "700687e2-e094-4a0d-b5c9-12227f01dbff_22",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the logical relationship between the sentences",
+      "content": "Sentence 1 states the general principle: random variables cluster around an average over many trials. Sentence 2 presents a specific coin-flip scenario (450&ndash;550 heads in 1,000 flips) as concrete evidence of that principle. The relationship is <em>exemplification</em>: sentence 2 illustrates sentence 1.<ul><li><strong>Choice A &mdash; &lsquo;In addition,&rsquo;</strong>: signals a new, separate point being added; sentence 2 is not a new point but an illustration of sentence 1. &#10007;</li><li><strong>Choice B &mdash; &lsquo;However,&rsquo;</strong>: signals contrast or contradiction; sentence 2 does not contradict sentence 1. &#10007;</li><li><strong>Choice C &mdash; &lsquo;For instance,&rsquo;</strong>: signals a specific example of a general claim; sentence 2 is exactly that &mdash; a concrete instance of the clustering principle. &#10003;</li><li><strong>Choice D &mdash; &lsquo;In comparison,&rsquo;</strong>: signals a comparison between two distinct things; no comparison is being drawn here. &#10007;</li></ul>"
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "&ldquo;For instance&rdquo; is the only transition that correctly signals exemplification, matching the relationship between the general principle and the coin-flip example. That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

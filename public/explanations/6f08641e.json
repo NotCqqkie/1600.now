@@ -1,1 +1,15 @@
-{"questionId": "6f08641e", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the implied agent in the opening phrase", "content": "The phrase “After pleading for years—to no effect—for the passage of key antidiscrimination legislation” contains an action (pleading) with an implied agent: the activists.<br/><br/>Standard English requires that the subject of the main clause match this agent to avoid a dangling modifier—a phrase that becomes grammatically disconnected from the sentence."}, {"title": "Apply to find the correct subject", "content": "Choice D places “the activists” as the subject of the main clause, matching the agent from the opening phrase.<br/><br/>The other three use different subjects—pressure (A), a protest (B), or lawmakers (C)—that don't match, leaving the opening phrase dangling in each case.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "6f08641e",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the implied agent in the opening phrase",
+      "content": "The phrase “After pleading for years—to no effect—for the passage of key antidiscrimination legislation” contains an action (pleading) with an implied agent: the activists.<br/><br/>Standard English requires that the subject of the main clause match this agent to avoid a dangling modifier—a phrase that becomes grammatically disconnected from the sentence."
+    },
+    {
+      "title": "Apply to find the correct subject",
+      "content": "The correct response places “the activists” as the subject of the main clause, matching the agent from the opening phrase.<br/><br/>The other three use different subjects—pressure, a protest, or lawmakers—that don't match, leaving the opening phrase dangling in each case.<br/><br/>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

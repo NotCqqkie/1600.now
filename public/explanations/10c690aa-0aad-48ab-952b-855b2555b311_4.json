@@ -9,11 +9,11 @@
     },
     {
       "title": "Use the y-intercept",
-      "content": "The scatterplot is near $y=15$ when $x=0$, so the $y$-intercept should be positive and close to $15$. Choice D has intercept $-14.7$, far below the data."
+      "content": "The scatterplot is near $y=15$ when $x=0$, so the $y$-intercept should be positive and close to $15$. <strong>Choice D &mdash; $y = -14.7 + 10x$</strong> has intercept $-14.7$, far below the data."
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice B, $y=14.7+10x$, has positive slope and a positive intercept near $15$. It matches the trend, so choice <strong>B</strong> is correct."
+      "content": "<strong>Choice B &mdash; $y = 14.7 + 10x$</strong>, $y=14.7+10x$, has positive slope and a positive intercept near $15$. It matches the trend, so <strong>Choice B &mdash; $y = 14.7 + 10x$</strong>."
     }
   ]
 }

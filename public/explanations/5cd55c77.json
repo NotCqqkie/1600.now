@@ -1,1 +1,15 @@
-{"questionId": "5cd55c77", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the selective impact on reproductive stages", "content": "The key finding is that ALAN had no significant effect on spawning or fertilization, but completely inhibited hatching. This selective impact—leaving early stages unaffected while blocking the final, essential stage—is the deciding clue."}, {"title": "Recognize the consequence of the selective impact", "content": "B infers that reproductive success would be at risk in ALAN-exposed regions—the logic is direct: if hatching is completely blocked, reproduction cannot succeed.<br/><br/>The other three either contradict the research findings or compare to information the passage doesn't discuss.<br/><br/>That matches choice B—<strong>B</strong> is correct."}]}
+{
+  "questionId": "5cd55c77",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the selective impact on reproductive stages",
+      "content": "The key finding is that ALAN had no significant effect on spawning or fertilization, but completely inhibited hatching. This selective impact—leaving early stages unaffected while blocking the final, essential stage—is the deciding clue."
+    },
+    {
+      "title": "Recognize the consequence of the selective impact",
+      "content": "B infers that reproductive success would be at risk in ALAN-exposed regions—the logic is direct: if hatching is completely blocked, reproduction cannot succeed.<br/><br/>The other three either contradict the research findings or compare to information the passage doesn't discuss.<br/><br/>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId":"41223f98-85cf-4192-b791-4708f442a85c_22","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The first sentence states an assumption: offshore and land-based farms of similar size produce the same amount of energy. The second sentence contradicts that assumption by explaining offshore turbines actually produce more. The blank must carry a transition word that signals a direct contradiction of what was just assumed."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Actually,'</strong>: \"Actually\" is a correction marker &mdash; it signals that reality differs from a prior assumption. That is exactly the relationship here: the reader assumed equal output, but in fact offshore produces more. &#10003;</li><li><strong>Choice B &mdash; 'For example,'</strong>: \"For example\" introduces evidence that supports the preceding idea. The second sentence contradicts the first, so a supporting connector is wrong. &#10007;</li><li><strong>Choice C &mdash; 'Therefore,'</strong>: \"Therefore\" introduces a logical result or conclusion drawn from what came before. The second sentence is not a consequence of the assumption; it refutes it. &#10007;</li><li><strong>Choice D &mdash; 'Finally,'</strong>: \"Finally\" marks the last item in a sequence or a concluding step. There is no sequence here, and the sentence is a correction, not a conclusion. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "41223f98-85cf-4192-b791-4708f442a85c_22",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The first sentence states an assumption: offshore and land-based farms of similar size produce the same amount of energy. The second sentence contradicts that assumption by explaining offshore turbines actually produce more. The blank must carry a transition word that signals a direct contradiction of what was just assumed."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — Actually,</strong>: \"Actually\" is a correction marker &mdash; it signals that reality differs from a prior assumption. That is exactly the relationship here: the reader assumed equal output, but in fact offshore produces more. &#10003;</li><li><strong>Choice B — For example,</strong>: \"For example\" introduces evidence that supports the preceding idea. The second sentence contradicts the first, so a supporting connector is wrong. &#10007;</li><li><strong>Choice C — Therefore,</strong>: \"Therefore\" introduces a logical result or conclusion drawn from what came before. The second sentence is not a consequence of the assumption; it refutes it. &#10007;</li><li><strong>Choice D — Finally,</strong>: \"Finally\" marks the last item in a sequence or a concluding step. There is no sequence here, and the sentence is a correction, not a conclusion. &#10007;</li></ul><strong>A</strong> is correct."
+    }
+  ]
+}

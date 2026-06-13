@@ -14,7 +14,7 @@
     },
     {
       "title": "Calculate the area using base and height",
-      "content": "The area of the triangle is:<br/>$$\\text{Area} = \\frac{1}{2} \\times 48 \\times 7 = 168$$<br/>That matches choice B — <strong>B</strong> is correct."
+      "content": "The area of the triangle is:<br/>$$\\text{Area} = \\frac{1}{2} \\times 48 \\times 7 = 168$$<br/><strong>B</strong> is correct."
     }
   ]
 }

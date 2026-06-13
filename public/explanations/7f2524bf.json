@@ -9,11 +9,11 @@
     },
     {
       "title": "Read the y-intercept from the graph",
-      "content": "At $x=0$, the graph is at $y=225$. So the point is $(0,225)$, meaning the estimated value at purchase was $\\$225$."
+      "content": "At $x=0$, the graph is at $y=225$. So the point is $(0,225)$, meaning the estimated value at purchase was 225 dollars."
     },
     {
       "title": "Interpret in context",
-      "content": "Choice A says the tablet was worth $\\$225$ when it was purchased, which is exactly the meaning of the $y$-intercept. Choice B misuses the $24$-month value, choice C describes a decrease rather than the initial value, and choice D invents a yearly percentage rate. Choice <strong>A</strong> is correct."
+      "content": "The credited option says the tablet was worth 225 dollars when it was purchased, which is exactly the meaning of the $y$-intercept. The 24-month value, decrease interpretation, and yearly percentage rate options do not describe the initial value. <strong>A</strong> is correct."
     }
   ]
 }

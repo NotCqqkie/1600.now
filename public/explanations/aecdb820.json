@@ -1,1 +1,15 @@
-{"questionId": "aecdb820", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the two independent clauses", "content": "Clause 1 (main clause of the first sentence): &quot;the 2021 exhibition The New Woman Behind the Camera set out to provide a wide-ranging overview of photography by women in the 1920s through the [1950s].&quot; The opening &quot;Featuring works by...Neulander-Simon&quot; is a participial modifier attached to this clause.<br/><br/>Clause 2: &quot;its efforts were largely successful,&quot; preceded by the introductory participial phrase &quot;given the collection&#39;s breadth of more than 120 photos.&quot; Both sides of the blank are full independent clauses."}, {"title": "Apply the comma + FANBOYS rule", "content": "Two independent clauses must be joined by a comma plus a coordinating conjunction (for, and, nor, but, or, yet, so) — or separated by a semicolon or period. A comma alone produces a comma splice; no punctuation produces a run-on.<ul><li><strong>A. &quot;1950s, and&quot;</strong> — correct: comma + coordinating conjunction properly joins the two independent clauses.</li><li><strong>B. &quot;1950s and&quot;</strong> — incorrect: missing the required comma before &quot;and&quot; joining two independent clauses.</li><li><strong>C. &quot;1950s&quot;</strong> — incorrect: no punctuation between two independent clauses creates a run-on.</li><li><strong>D. &quot;1950s,&quot;</strong> — incorrect: a comma alone between two independent clauses is a comma splice.</li></ul>The answer is <strong>A</strong>."}]}
+{
+  "questionId": "aecdb820",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the two independent clauses",
+      "content": "Clause 1 (main clause of the first sentence): &quot;the 2021 exhibition The New Woman Behind the Camera set out to provide a wide-ranging overview of photography by women in the 1920s through the [1950s].&quot; The opening &quot;Featuring works by...Neulander-Simon&quot; is a participial modifier attached to this clause.<br/><br/>Clause 2: &quot;its efforts were largely successful,&quot; preceded by the introductory participial phrase &quot;given the collection&#39;s breadth of more than 120 photos.&quot; Both sides of the blank are full independent clauses."
+    },
+    {
+      "title": "Apply the comma + FANBOYS rule",
+      "content": "Two independent clauses must be joined by a comma plus a coordinating conjunction (for, and, nor, but, or, yet, so) — or separated by a semicolon or period. A comma alone produces a comma splice; no punctuation produces a run-on.<ul><li><strong>Choice A &mdash; 1950s, and</strong> — correct: comma + coordinating conjunction properly joins the two independent clauses.</li><li><strong>Choice B &mdash; 1950s and</strong> — incorrect: missing the required comma before &quot;and&quot; joining two independent clauses.</li><li><strong>Choice C &mdash; 1950s</strong> — incorrect: no punctuation between two independent clauses creates a run-on.</li><li><strong>Choice D &mdash; 1950s,</strong> — incorrect: a comma alone between two independent clauses is a comma splice.</li></ul>The answer is <strong>A</strong>."
+    }
+  ]
+}

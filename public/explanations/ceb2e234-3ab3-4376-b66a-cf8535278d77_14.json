@@ -1,9 +1,19 @@
 {
+  "questionId": "ceb2e234-3ab3-4376-b66a-cf8535278d77_14",
   "qid": "ceb2e234-3ab3-4376-b66a-cf8535278d77_14",
   "steps": [
-    "$r$ identical objects have total mass $t$ kg, so each object has mass $\\frac{t}{r}$ kg.",
-    "The total mass of $112r$ objects is $112r \\times \\frac{t}{r} = 112t$ kg.",
-    "Evaluate all four choices: <ul><li>A: $112 - t$ — subtracts $t$ from 112, which has no physical meaning and does not scale with quantity. Eliminated.</li><li>B: $112 + t$ — adds $t$ to 112, also dimensionally inconsistent. Eliminated.</li><li>C: $\\frac{t}{112}$ — divides by 112, giving a smaller mass for more objects. Eliminated.</li><li>D: $112t$ — multiplying the original total mass $t$ by 112 correctly scales to $112r$ objects. That matches choice D — <strong>D</strong> is correct.</li></ul>"
+    {
+      "title": "Step 1",
+      "content": "$r$ identical objects have total mass $t$ kg, so each object has mass $\\frac{t}{r}$ kg."
+    },
+    {
+      "title": "Step 2",
+      "content": "The total mass of $112r$ objects is $112r \\times \\frac{t}{r} = 112t$ kg."
+    },
+    {
+      "title": "Step 3",
+      "content": "Evaluate all four choices: <ul><li>A: $112 - t$ — subtracts $t$ from 112, which has no physical meaning and does not scale with quantity. Eliminated.</li><li>B: $112 + t$ — adds $t$ to 112, also dimensionally inconsistent. Eliminated.</li><li>C: $\\frac{t}{112}$ — divides by 112, giving a smaller mass for more objects. Eliminated.</li><li>D: $112t$ — multiplying the original total mass $t$ by 112 correctly scales to $112r$ objects. That is the correct answer.</li></ul>"
+    }
   ],
   "correctAnswer": "D"
 }

@@ -1,0 +1,178 @@
+
+> vite_react_shadcn_ts@0.0.0 audit:explanation-quality
+> node scripts/audit-explanation-quality.mjs --format=json --fail=false
+
+{
+  "summary": {
+    "issues": 23,
+    "totalIssues": 23,
+    "byType": {
+      "rawLessThanInMath": 23
+    },
+    "reportLimit": 80,
+    "typeFilter": null
+  },
+  "issues": [
+    {
+      "file": "public/explanations/d33931f5-618d-4bf0-a69a-be73447d49f7_17.json",
+      "questionId": "d33931f5-618d-4bf0-a69a-be73447d49f7_17",
+      "type": "rawLessThanInMath",
+      "message": "Use \\lt or &lt; instead of a raw < inside math content.",
+      "stepIndex": 0
+    },
+    {
+      "file": "public/explanations/d33931f5-618d-4bf0-a69a-be73447d49f7_22.json",
+      "questionId": "d33931f5-618d-4bf0-a69a-be73447d49f7_22",
+      "type": "rawLessThanInMath",
+      "message": "Use \\lt or &lt; instead of a raw < inside math content.",
+      "stepIndex": 1
+    },
+    {
+      "file": "public/explanations/d33931f5-618d-4bf0-a69a-be73447d49f7_7.json",
+      "questionId": "d33931f5-618d-4bf0-a69a-be73447d49f7_7",
+      "type": "rawLessThanInMath",
+      "message": "Use \\lt or &lt; instead of a raw < inside math content.",
+      "stepIndex": 1
+    },
+    {
+      "file": "public/explanations/de6fe450.json",
+      "questionId": "de6fe450",
+      "type": "rawLessThanInMath",
+      "message": "Use \\lt or &lt; instead of a raw < inside math content.",
+      "stepIndex": 2
+    },
+    {
+      "file": "public/explanations/e3fe84c7-8083-48b8-863b-841355113ba0_5.json",
+      "questionId": "e3fe84c7-8083-48b8-863b-841355113ba0_5",
+      "type": "rawLessThanInMath",
+      "message": "Use \\lt or &lt; instead of a raw < inside math content.",
+      "stepIndex": 2
+    },
+    {
+      "file": "public/explanations/e4f2c33b-9282-40a7-810c-d633e5197f95_10.json",
+      "questionId": "e4f2c33b-9282-40a7-810c-d633e5197f95_10",
+      "type": "rawLessThanInMath",
+      "message": "Use \\lt or &lt; instead of a raw < inside math content.",
+      "stepIndex": 1
+    },
+    {
+      "file": "public/explanations/e4f2c33b-9282-40a7-810c-d633e5197f95_6.json",
+      "questionId": "e4f2c33b-9282-40a7-810c-d633e5197f95_6",
+      "type": "rawLessThanInMath",
+      "message": "Use \\lt or &lt; instead of a raw < inside math content.",
+      "stepIndex": 1
+    },
+    {
+      "file": "public/explanations/e5001da0-8895-4b72-8d22-da29586dc907_15.json",
+      "questionId": "e5001da0-8895-4b72-8d22-da29586dc907_15",
+      "type": "rawLessThanInMath",
+      "message": "Use \\lt or &lt; instead of a raw < inside math content.",
+      "stepIndex": 0
+    },
+    {
+      "file": "public/explanations/e5001da0-8895-4b72-8d22-da29586dc907_15.json",
+      "questionId": "e5001da0-8895-4b72-8d22-da29586dc907_15",
+      "type": "rawLessThanInMath",
+      "message": "Use \\lt or &lt; instead of a raw < inside math content.",
+      "stepIndex": 1
+    },
+    {
+      "file": "public/explanations/e5001da0-8895-4b72-8d22-da29586dc907_15.json",
+      "questionId": "e5001da0-8895-4b72-8d22-da29586dc907_15",
+      "type": "rawLessThanInMath",
+      "message": "Use \\lt or &lt; instead of a raw < inside math content.",
+      "stepIndex": 2
+    },
+    {
+      "file": "public/explanations/e5001da0-8895-4b72-8d22-da29586dc907_22.json",
+      "questionId": "e5001da0-8895-4b72-8d22-da29586dc907_22",
+      "type": "rawLessThanInMath",
+      "message": "Use \\lt or &lt; instead of a raw < inside math content.",
+      "stepIndex": 1
+    },
+    {
+      "file": "public/explanations/e53add44.json",
+      "questionId": "e53add44",
+      "type": "rawLessThanInMath",
+      "message": "Use \\lt or &lt; instead of a raw < inside math content.",
+      "stepIndex": 1
+    },
+    {
+      "file": "public/explanations/e9fb7774.json",
+      "questionId": "e9fb7774",
+      "type": "rawLessThanInMath",
+      "message": "Use \\lt or &lt; instead of a raw < inside math content.",
+      "stepIndex": 2
+    },
+    {
+      "file": "public/explanations/ee05c84e.json",
+      "questionId": "ee05c84e",
+      "type": "rawLessThanInMath",
+      "message": "Use \\lt or &lt; instead of a raw < inside math content.",
+      "stepIndex": 1
+    },
+    {
+      "file": "public/explanations/ee2f611f.json",
+      "questionId": "ee2f611f",
+      "type": "rawLessThanInMath",
+      "message": "Use \\lt or &lt; instead of a raw < inside math content.",
+      "stepIndex": 1
+    },
+    {
+      "file": "public/explanations/ee7b1de1.json",
+      "questionId": "ee7b1de1",
+      "type": "rawLessThanInMath",
+      "message": "Use \\lt or &lt; instead of a raw < inside math content.",
+      "stepIndex": 0
+    },
+    {
+      "file": "public/explanations/ee7b1de1.json",
+      "questionId": "ee7b1de1",
+      "type": "rawLessThanInMath",
+      "message": "Use \\lt or &lt; instead of a raw < inside math content.",
+      "stepIndex": 2
+    },
+    {
+      "file": "public/explanations/ee846db7.json",
+      "questionId": "ee846db7",
+      "type": "rawLessThanInMath",
+      "message": "Use \\lt or &lt; instead of a raw < inside math content.",
+      "stepIndex": 2
+    },
+    {
+      "file": "public/explanations/f09097b1.json",
+      "questionId": "f09097b1",
+      "type": "rawLessThanInMath",
+      "message": "Use \\lt or &lt; instead of a raw < inside math content.",
+      "stepIndex": 2
+    },
+    {
+      "file": "public/explanations/f196343a-4470-4649-8efb-edf349dd4393_16.json",
+      "questionId": "f196343a-4470-4649-8efb-edf349dd4393_16",
+      "type": "rawLessThanInMath",
+      "message": "Use \\lt or &lt; instead of a raw < inside math content.",
+      "stepIndex": 1
+    },
+    {
+      "file": "public/explanations/f3ade8fe-06c3-4b9c-a658-8857621e692f_22.json",
+      "questionId": "f3ade8fe-06c3-4b9c-a658-8857621e692f_22",
+      "type": "rawLessThanInMath",
+      "message": "Use \\lt or &lt; instead of a raw < inside math content.",
+      "stepIndex": 1
+    },
+    {
+      "file": "public/explanations/f423771c.json",
+      "questionId": "f423771c",
+      "type": "rawLessThanInMath",
+      "message": "Use \\lt or &lt; instead of a raw < inside math content.",
+      "stepIndex": 2
+    },
+    {
+      "file": "public/explanations/f44b4125.json",
+      "questionId": "f44b4125",
+      "type": "rawLessThanInMath",
+      "message": "Use \\lt or &lt; instead of a raw < inside math content.",
+      "stepIndex": 1
+    }
+  ]
+}

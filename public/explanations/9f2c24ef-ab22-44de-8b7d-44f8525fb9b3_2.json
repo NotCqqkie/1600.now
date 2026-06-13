@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the linear pair property and eliminate the distractors",
-      "content": "Two adjacent angles on a straight line must sum to $180^\\circ$. Therefore $x + 142 = 180$.<ul><li><strong>Choice A &mdash; '52'</strong>: this would be the value of $x$ alone ($180 - 142$), not $x + 142$. &#10007;</li><li><strong>Choice B &mdash; '90'</strong>: a linear pair sums to $180^\\circ$, not $90^\\circ$ (that would be a right angle). &#10007;</li><li><strong>Choice C &mdash; '142'</strong>: this would imply $x = 0$, which contradicts the linear-pair sum. &#10007;</li><li><strong>Choice D &mdash; '180'</strong>: matches the linear-pair sum $x + 142 = 180$. &#10003;</li></ul>"
+      "content": "Two adjacent angles on a straight line must sum to $180^\\circ$. Therefore $x + 142 = 180$.<ul><li><strong>Choice A &mdash; 52</strong>: this would be the value of $x$ alone ($180 - 142$), not $x + 142$. &#10007;</li><li><strong>Choice B &mdash; 90</strong>: a linear pair sums to $180^\\circ$, not $90^\\circ$ (that would be a right angle). &#10007;</li><li><strong>Choice C &mdash; 142</strong>: this would imply $x = 0$, which contradicts the linear-pair sum. &#10007;</li><li><strong>Choice D &mdash; 180</strong>: matches the linear-pair sum $x + 142 = 180$. &#10003;</li></ul>"
     }
   ]
 }

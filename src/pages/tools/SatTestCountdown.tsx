@@ -5,6 +5,7 @@ import {
   PageSeo,
   buildBreadcrumbJsonLd,
   buildFaqJsonLd,
+  buildWebApplicationJsonLd,
 } from "@/components/seo/PageSeo";
 import { satToolBySlug } from "@/lib/seo-data/satTools";
 const TEST_DATES: { date: string; label: string }[] = [
@@ -87,15 +88,11 @@ const SatTestCountdown = () => {
             { name: meta.name, url },
           ]),
           buildFaqJsonLd(faqs),
-          {
-            "@context": "https://schema.org",
-            "@type": "WebApplication",
+          buildWebApplicationJsonLd({
             name: meta.name,
             url,
-            applicationCategory: "EducationalApplication",
-            operatingSystem: "Any",
-            offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
-          },
+            description: meta.metaDescription,
+          }),
         ]}
       />
 

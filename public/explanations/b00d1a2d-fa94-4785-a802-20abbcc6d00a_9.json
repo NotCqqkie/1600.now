@@ -13,7 +13,7 @@
     },
     {
       "title": "Write the total and eliminate wrong choices",
-      "content": "The combined perimeter is $12r + 18t = 270$.<ul><li>A: $9r + 24t = 270$ &mdash; Wrong coefficients; 3 squares give $12r$, not $9r$. Eliminated.</li><li>B: $3r + 6t = 270$ &mdash; Uses counts instead of perimeters (ignores side counts). Eliminated.</li><li>C: $12r + 18t = 270$ &mdash; $3 \\times 4r = 12r$ and $6 \\times 3t = 18t$. That matches choice C &mdash; <strong>C</strong> is correct.</li><li>D: $6r + 3t = 270$ &mdash; Swaps the shape counts and ignores side counts. Eliminated.</li></ul>"
+      "content": "The combined perimeter is $12r + 18t = 270$.<ul><li>A: $9r + 24t = 270$ &mdash; Wrong coefficients; 3 squares give $12r$, not $9r$. Eliminated.</li><li>B: $3r + 6t = 270$ &mdash; Uses counts instead of perimeters (ignores side counts). Eliminated.</li><li>C: $12r + 18t = 270$ &mdash; $3 \\times 4r = 12r$ and $6 \\times 3t = 18t$. That is the correct answer.</li><li>D: $6r + 3t = 270$ &mdash; Swaps the shape counts and ignores side counts. Eliminated.</li></ul>"
     }
   ]
 }

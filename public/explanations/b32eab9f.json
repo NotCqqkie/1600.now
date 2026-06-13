@@ -1,1 +1,15 @@
-{"questionId": "b32eab9f", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the grammatical subject and apply subject-verb agreement", "content": "The subject of the sentence is &ldquo;The trailblazing accomplishments of Goldin.&rdquo; The head noun is <strong>accomplishments</strong> &mdash; a plural noun. The prepositional phrase &ldquo;of Goldin&rdquo; is a modifier and does not change the subject&rsquo;s number. The blank is the main verb, so it must be plural to agree with <strong>accomplishments</strong>."}, {"title": "Evaluate each choice", "content": "<ul><li><strong>Choice A &mdash; 'attests'</strong>: Third-person singular present. A plural subject requires a plural verb, not a singular one. &#10007;</li><li><strong>Choice B &mdash; 'has attested'</strong>: Present-perfect singular (&ldquo;has&rdquo; is a singular auxiliary). Still does not agree with the plural subject <strong>accomplishments</strong>. &#10007;</li><li><strong>Choice C &mdash; 'is attesting'</strong>: Present-progressive singular (&ldquo;is&rdquo; is singular). Same agreement error as A and B. &#10007;</li><li><strong>Choice D &mdash; 'attest'</strong>: Bare plural present-tense verb. Correctly agrees with the plural subject <strong>accomplishments</strong>. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "b32eab9f",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the grammatical subject and apply subject-verb agreement",
+      "content": "The subject of the sentence is &ldquo;The trailblazing accomplishments of Goldin.&rdquo; The head noun is <strong>accomplishments</strong> &mdash; a plural noun. The prepositional phrase &ldquo;of Goldin&rdquo; is a modifier and does not change the subject&rsquo;s number. The blank is the main verb, so it must be plural to agree with <strong>accomplishments</strong>."
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; attests</strong>: Third-person singular present. A plural subject requires a plural verb, not a singular one. &#10007;</li><li><strong>Choice B &mdash; has attested</strong>: Present-perfect singular (&ldquo;has&rdquo; is a singular auxiliary). Still does not agree with the plural subject <strong>accomplishments</strong>. &#10007;</li><li><strong>Choice C &mdash; is attesting</strong>: Present-progressive singular (&ldquo;is&rdquo; is singular). Same agreement error as A and B. &#10007;</li><li><strong>Choice D &mdash; attest</strong>: Bare plural present-tense verb. Correctly agrees with the plural subject <strong>accomplishments</strong>. &#10003;</li></ul>That is the correct answer."
+    }
+  ]
+}

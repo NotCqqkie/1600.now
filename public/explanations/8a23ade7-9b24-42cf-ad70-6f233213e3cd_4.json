@@ -1,1 +1,15 @@
-{"questionId": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_4", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Determine the required meaning", "content": "The researchers' data &mdash; that the basking shark runs warmer than surrounding water &mdash; directly contradicts the prior classification as a &quot;full ectotherm.&quot; The blank describes a position that evidence has made impossible to defend."}, {"title": "Test each word", "content": "<ul><li><strong>Choice A &mdash; 'inconsolable'</strong>: Means unable to be comforted &mdash; applies to people feeling grief, not to scientific positions. &#10007;</li><li><strong>Choice B &mdash; 'untenable'</strong>: Means unable to be maintained or defended in the face of evidence &mdash; exactly what happens when new data undercuts a classification. &#10003;</li><li><strong>Choice C &mdash; 'unequivocal'</strong>: Means leaving no doubt or ambiguity &mdash; would strengthen the position, not undermine it. &#10007;</li><li><strong>Choice D &mdash; 'unanticipated'</strong>: Means not expected &mdash; describes a reaction to the finding, not the status of the classification itself. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_4",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Determine the required meaning",
+      "content": "The researchers' data &mdash; that the basking shark runs warmer than surrounding water &mdash; directly contradicts the prior classification as a &quot;full ectotherm.&quot; The blank describes a position that evidence has made impossible to defend."
+    },
+    {
+      "title": "Test each word",
+      "content": "<ul><li><strong>Choice A &mdash; inconsolable</strong>: Means unable to be comforted &mdash; applies to people feeling grief, not to scientific positions. &#10007;</li><li><strong>Choice B &mdash; untenable</strong>: Means unable to be maintained or defended in the face of evidence &mdash; exactly what happens when new data undercuts a classification. &#10003;</li><li><strong>Choice C &mdash; unequivocal</strong>: Means leaving no doubt or ambiguity &mdash; would strengthen the position, not undermine it. &#10007;</li><li><strong>Choice D &mdash; unanticipated</strong>: Means not expected &mdash; describes a reaction to the finding, not the status of the classification itself. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

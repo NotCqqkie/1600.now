@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up the calculation",
-      "content": "We need to find 20% of the total bill of $\\$25.00$."
+      "content": "We need to find 20% of the total bill of 25.00 dollars."
     },
     {
       "title": "Calculate the tip amount",
-      "content": "Convert 20% to a decimal: $20\\% = 0.20$.<br/>Multiply by the total bill:<br/>$$0.20 \\times 25 = 5$$<br/>The tip is $\\$5.00$. That matches choice D — <strong>D</strong> is correct."
+      "content": "Convert 20% to a decimal: $20\\% = 0.20$.<br/>Multiply by the total bill:<br/>$$0.20 \\times 25 = 5$$<br/>The tip is 5.00 dollars. That confirms <strong>D</strong> is correct."
     }
   ]
 }

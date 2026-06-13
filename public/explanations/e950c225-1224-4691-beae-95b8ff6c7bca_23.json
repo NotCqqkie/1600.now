@@ -1,1 +1,15 @@
-{"questionId":"e950c225-1224-4691-beae-95b8ff6c7bca_23","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The goal is to <strong>identify the institution in which Bucky is housed</strong>. The correct answer must name the institution &mdash; not just the city, and not unrelated facts about what Bucky is or when it lived."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;Bucky is the nickname of a dinosaur fossil specimen belonging to the genus Tyrannosaurus.&apos;</strong>: Identifies what Bucky is (a Tyrannosaurus fossil), but says nothing about where it is housed. &#10007;</li><li><strong>Choice B &mdash; &apos;The Tyrannosaurus fossil specimen Bucky lived more than 65 million years ago, in the Late Cretaceous period.&apos;</strong>: Gives a time period, not a location or institution. &#10007;</li><li><strong>Choice C &mdash; &apos;Indianapolis, Indiana, is home to a Tyrannosaurus fossil specimen nicknamed Bucky.&apos;</strong>: Names the city but not the institution. The goal is to identify the institution, not just the city. &#10007;</li><li><strong>Choice D &mdash; &apos;Bucky is housed at the Children&apos;s Museum of Indianapolis in Indianapolis, Indiana.&apos;</strong>: Directly names the institution (the Children&apos;s Museum of Indianapolis) and its location. Fully accomplishes the stated goal. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "e950c225-1224-4691-beae-95b8ff6c7bca_23",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The goal is to <strong>identify the institution in which Bucky is housed</strong>. The correct answer must name the institution &mdash; not just the city, and not unrelated facts about what Bucky is or when it lived."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"Bucky is the nickname of a dinosaur fossil specimen belonging to the genus Tyrannosaurus.\"</strong>: Identifies what Bucky is (a Tyrannosaurus fossil), but says nothing about where it is housed. &#10007;</li><li><strong>\"The Tyrannosaurus fossil specimen Bucky lived more than 65 million years ago, in the Late Cretaceous period.\"</strong>: Gives a time period, not a location or institution. &#10007;</li><li><strong>\"Indianapolis, Indiana, is home to a Tyrannosaurus fossil specimen nicknamed Bucky.\"</strong>: Names the city but not the institution. The goal is to identify the institution, not just the city. &#10007;</li><li><strong>\"Bucky is housed at the Children's Museum of Indianapolis in Indianapolis, Indiana.\"</strong>: Directly names the institution (the Children's Museum of Indianapolis) and its location. Fully accomplishes the stated goal. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

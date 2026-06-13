@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Set up",
-      "content": "Lines $l$ and $m$ are parallel, cut by transversal $k$. The labeled angle at $m$ is $111°$. Angle $x°$ is at $l$, in the corresponding position."
+      "content": "Lines $l$ and $m$ are parallel, cut by transversal $k$. The labeled angle at $m$ is $111^{\\circ}$. Angle $x^{\\circ}$ is at $l$, in the corresponding position."
     },
     {
       "title": "Solve",

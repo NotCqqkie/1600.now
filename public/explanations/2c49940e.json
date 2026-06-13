@@ -1,1 +1,15 @@
-{"questionId":"2c49940e","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence refers to Descartes&rsquo;s one famous phrase. The blank must supply a singular possessive noun (&ldquo;phrase&rsquo;s&rdquo;) and a singular pronoun (&ldquo;its&rdquo;) that both agree in number with that single phrase."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &ldquo;phrases&rsquo; simplicity masks its&rdquo;</strong>: <em>phrases&rsquo;</em> is a plural possessive, but the passage names only one phrase. Plural possessive on a singular referent violates number agreement on the noun. &#10007;</li><li><strong>Choice B &mdash; &ldquo;phrases simplicity masks their&rdquo;</strong>: <em>phrases</em> is a bare plural with no possessive apostrophe, making the noun non-possessive; and <em>their</em> is plural, mismatching the single phrase. Two errors: missing possessive and plural pronoun. &#10007;</li><li><strong>Choice C &mdash; &ldquo;phrase&rsquo;s simplicity masks their&rdquo;</strong>: <em>phrase&rsquo;s</em> is correctly singular possessive, but <em>their</em> is a plural pronoun that disagrees with the singular noun <em>phrase</em>. Pronoun-antecedent number agreement is violated. &#10007;</li><li><strong>Choice D &mdash; &ldquo;phrase&rsquo;s simplicity masks its&rdquo;</strong>: <em>phrase&rsquo;s</em> is singular possessive and <em>its</em> is a singular pronoun &mdash; both agree in number with the one phrase Descartes coined. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "2c49940e",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence refers to Descartes&rsquo;s one famous phrase. The blank must supply a singular possessive noun (&ldquo;phrase&rsquo;s&rdquo;) and a singular pronoun (&ldquo;its&rdquo;) that both agree in number with that single phrase."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — phrases' simplicity masks its</strong>: <em>phrases&rsquo;</em> is a plural possessive, but the passage names only one phrase. Plural possessive on a singular referent violates number agreement on the noun. &#10007;</li><li><strong>Choice B — phrases simplicity masks their</strong>: <em>phrases</em> is a bare plural with no possessive apostrophe, making the noun non-possessive; and <em>their</em> is plural, mismatching the single phrase. Two errors: missing possessive and plural pronoun. &#10007;</li><li><strong>Choice C — phrase's simplicity masks their</strong>: <em>phrase&rsquo;s</em> is correctly singular possessive, but <em>their</em> is a plural pronoun that disagrees with the singular noun <em>phrase</em>. Pronoun-antecedent number agreement is violated. &#10007;</li><li><strong>Choice D — phrase's simplicity masks its</strong>: <em>phrase&rsquo;s</em> is singular possessive and <em>its</em> is a singular pronoun &mdash; both agree in number with the one phrase Descartes coined. &#10003;</li></ul><strong>D</strong> is correct."
+    }
+  ]
+}

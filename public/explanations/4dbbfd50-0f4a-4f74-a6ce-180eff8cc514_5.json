@@ -1,1 +1,15 @@
-{"questionId":"4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_5","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage pivots from describing Highwaymen paintings to asserting that they &apos;played a role in shaping popular perceptions of the state.&apos; The main purpose centers on that broader cultural claim."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; a single painting&apos;s underappreciated influence</strong>: the passage is about the group&apos;s collective impact, not one overlooked work. &#10007;</li><li><strong>Choice B &mdash; Highwaymen paintings helped shape widespread impressions of Florida</strong>: matches the art historians&apos; claim and the passage&apos;s central argument. &#10003;</li><li><strong>Choice C &mdash; a resurgence in popularity</strong>: the passage does not focus on a comeback or renewed interest. &#10007;</li><li><strong>Choice D &mdash; contrasting reactions over time</strong>: the passage does not compare early versus later reception. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_5",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage pivots from describing Highwaymen paintings to asserting that they &apos;played a role in shaping popular perceptions of the state.&apos; The main purpose centers on that broader cultural claim."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — To explain that a particular painting by Al Black has had greater influence on the broader culture of the state of Florida than is generally acknowledged.</strong>: the passage is about the group&apos;s collective impact, not one overlooked work. &#10007;</li><li><strong>Choice B — To present the argument that paintings by the Florida Highwaymen likely helped to create a particular widespread impression of Florida.</strong>: matches the art historians&apos; claim and the passage&apos;s central argument. &#10003;</li><li><strong>Choice C — To describe the historical circumstances in which paintings by the Florida Highwaymen experienced a resurgence in popularity.</strong>: the passage does not focus on a comeback or renewed interest. &#10007;</li><li><strong>Choice D — To contrast the public's reaction during the 1950s and '60s to a particular painting by Al Black with more recent reactions to it.</strong>: the passage does not compare early versus later reception. &#10007;</li></ul><strong>B</strong> is correct."
+    }
+  ]
+}

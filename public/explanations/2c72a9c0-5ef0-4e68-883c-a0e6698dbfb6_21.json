@@ -17,7 +17,7 @@
     },
     {
       "title": "Evaluate all choices",
-      "content": "<ul><li>A: $\\dfrac{29m}{4k}$ — rate and time are inverted; growth should increase with $k$, not decrease. Eliminated.</li><li>B: $\\dfrac{29k}{4m}$ — $29/4 = 7.25$, not $87 \\times 12 / \\text{something}$; coefficient is wrong. Eliminated.</li><li>C: $\\dfrac{1{,}044m}{k}$ — $m$ and $k$ positions are swapped; growth should be proportional to $k$ and inversely proportional to $m$. Eliminated.</li><li>D: $\\dfrac{1{,}044k}{m}$ — coefficient $87 \\times 12 = 1{,}044$, numerator $k$ (more years = more growth), denominator $m$ (larger $m$ means slower monthly rate). Matches exactly.</li></ul>That matches choice D — <strong>D</strong> is correct."
+      "content": "<ul><li>A: $\\dfrac{29m}{4k}$ — rate and time are inverted; growth should increase with $k$, not decrease. Eliminated.</li><li>B: $\\dfrac{29k}{4m}$ — $29/4 = 7.25$, not $87 \\times 12 / \\text{something}$; coefficient is wrong. Eliminated.</li><li>C: $\\dfrac{1{,}044m}{k}$ — $m$ and $k$ positions are swapped; growth should be proportional to $k$ and inversely proportional to $m$. Eliminated.</li><li>D: $\\dfrac{1{,}044k}{m}$ — coefficient $87 \\times 12 = 1{,}044$, numerator $k$ (more years = more growth), denominator $m$ (larger $m$ means slower monthly rate). Matches exactly.</li></ul><strong>D</strong> is correct."
     }
   ]
 }

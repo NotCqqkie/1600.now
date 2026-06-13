@@ -1,1 +1,19 @@
-{"questionId": "259d16ac", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Pin down the goal", "content": "The student wants to identify the real author of Adam Bede. The answer must name the actual person who wrote the novel, not just describe the pseudonym situation."}, {"title": "Find the key facts in the notes", "content": "The notes establish that the title page said 'George Eliot,' that this was assumed to be a pseudonym, and that Mary Ann Evans later revealed herself as the real author. The correct choice must state that Mary Ann Evans wrote the novel."}, {"title": "Eliminate by misread/overreach", "content": "<ul><li><strong>Choice A &mdash; 'The real author of Adam Bede was Mary Ann Evans...'</strong>: directly names the real author and explains the pseudonym, fulfilling the goal. &#10003;</li><li><strong>Choice B &mdash; 'George Eliot... was widely assumed to be a pseudonym.'</strong>: discusses the pseudonym status but never names the real author. &#10007;</li><li><strong>Choice C &mdash; 'The title page... indicated that the author's name was George Eliot.'</strong>: reports only the pseudonym from the title page, not the real author. &#10007;</li><li><strong>Choice D &mdash; 'A woman who had used a pseudonym... later revealed herself as the real author.'</strong>: confirms a woman revealed herself but never names her as Mary Ann Evans. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "259d16ac",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Pin down the goal",
+      "content": "The student wants to identify the real author of Adam Bede. The answer must name the actual person who wrote the novel, not just describe the pseudonym situation."
+    },
+    {
+      "title": "Find the key facts in the notes",
+      "content": "The notes establish that the title page said 'George Eliot,' that this was assumed to be a pseudonym, and that Mary Ann Evans later revealed herself as the real author. The correct choice must state that Mary Ann Evans wrote the novel."
+    },
+    {
+      "title": "Eliminate by misread/overreach",
+      "content": "<ul><li><strong>Choice A &mdash; The real author of <em>Adam Bede</em> was Mary Ann Evans, who published the novel using the pseudonym George Eliot.</strong>: directly names the real author and explains the pseudonym, fulfilling the goal. &#10003;</li><li><strong>Choice B &mdash; George Eliot, which <em>Adam Bede</em>'s title page indicated was the name of the novel's author, was widely assumed to be a pseudonym.</strong>: discusses the pseudonym status but never names the real author. &#10007;</li><li><strong>Choice C &mdash; The title page of the novel <em>Adam Bede</em> indicated that the author's name was George Eliot.</strong>: reports only the pseudonym from the title page, not the real author. &#10007;</li><li><strong>Choice D &mdash; A woman who had used a pseudonym to conceal her identity later revealed herself as the real author of <em>Adam Bede.</em></strong>: confirms a woman revealed herself but never names her as Mary Ann Evans. &#10007;</li></ul>That matches <strong>Choice A &mdash; The real author of <em>Adam Bede</em> was Mary Ann Evans, who published the novel using the pseudonym George Eliot.</strong>."
+    }
+  ]
+}

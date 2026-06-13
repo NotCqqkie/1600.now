@@ -13,7 +13,7 @@
     },
     {
       "title": "Compare with the choices",
-      "content": "Choice A has both the correct starting value and the growth multiplier. Choice B has the right multiplier but wrong starting value. Choice C has the wrong starting value and a decay factor. Choice D starts correctly but uses $0.05$, which would make the balance almost zero after 13 years. Choice <strong>A</strong> is correct."
+      "content": "<strong>$A \\left(t\\right)=36,100.00{ \\left(1.05\\right)}^{t}$</strong> has both the correct starting value and the growth multiplier. The remaining alternative uses $0.05$, which would make the balance almost zero after 13 years. $A \\left(t\\right)=36,100.00{ \\left(1.05\\right)}^{t}$ is correct."
     }
   ]
 }

@@ -1,0 +1,9 @@
+
+> vite_react_shadcn_ts@0.0.0 audit:math-explanations
+> node scripts/audit-math-explanations.mjs --fail=false
+
+Math explanation audit
+Expected math questions: 3737
+Explanation files parsed: 9440
+Minimum explanation length: 35 words
+Failures: 0

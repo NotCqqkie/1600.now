@@ -13,7 +13,7 @@
     },
     {
       "title": "Calculate the sum a + b + c",
-      "content": "Since $\\frac{a+b+c}{4}=-120$, multiply by $4$:<br/>$$a+b+c=4(-120)=-480$$<br/>That matches choice A, so <strong>A</strong> is correct."
+      "content": "Since $\\frac{a+b+c}{4}=-120$, multiply by $4$:<br/>$$a+b+c=4(-120)=-480$$<br/>That matches <strong>Choice A &mdash; -480</strong>, so <strong>A</strong>."
     }
   ]
 }

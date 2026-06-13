@@ -8,9 +8,11 @@ import {
 } from "@/components/seo/PageSeo";
 import { pillarBySlug } from "@/lib/seo-data/pillarData";
 import { satSkillBySlug } from "@/lib/seo-data/satSkillsData";
-import { blogPostBySlug } from "@/lib/seo-data/blogData";
 
 const PILLAR_PUBLISHED = "2026-04-01";
+
+const skillPracticeHref = (skill: NonNullable<ReturnType<typeof satSkillBySlug.get>>) =>
+  `/bank/${skill.section === "Math" ? "math" : "reading"}/skill/${encodeURIComponent(skill.officialSkill)}`;
 
 const PillarPage = () => {
   const location = useLocation();
@@ -24,14 +26,6 @@ const PillarPage = () => {
   const relatedSkills = (pillar.relatedSkillSlugs ?? [])
     .map((relatedSlug) => satSkillBySlug.get(relatedSlug))
     .filter((relatedSkill): relatedSkill is NonNullable<typeof relatedSkill> => Boolean(relatedSkill));
-
-  const relatedPillars = (pillar.relatedPillarSlugs ?? [])
-    .map((relatedSlug) => pillarBySlug.get(relatedSlug))
-    .filter((relatedPillar): relatedPillar is NonNullable<typeof relatedPillar> => Boolean(relatedPillar));
-
-  const relatedBlogs = (pillar.relatedBlogSlugs ?? [])
-    .map((relatedSlug) => blogPostBySlug.get(relatedSlug))
-    .filter((relatedPost): relatedPost is NonNullable<typeof relatedPost> => Boolean(relatedPost));
 
   return (
     <article className="mx-auto max-w-3xl px-6 py-10">
@@ -89,6 +83,40 @@ const PillarPage = () => {
       ))}
 
       <section className="mt-12">
+        <h2 className="text-2xl font-semibold tracking-tight">
+          How to use this guide in one practice session
+        </h2>
+        <div className="mt-4 overflow-x-auto rounded-lg border border-border">
+          <table className="w-full min-w-[560px] text-left text-sm">
+            <thead className="bg-muted/70">
+              <tr>
+                <th className="px-4 py-3 font-semibold">Step</th>
+                <th className="px-4 py-3 font-semibold">Work</th>
+                <th className="px-4 py-3 font-semibold">Output</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="border-t border-border">
+                <td className="px-4 py-3 text-muted-foreground">1</td>
+                <td className="px-4 py-3 text-muted-foreground">Read the guide and write the three rules or decisions that matter most.</td>
+                <td className="px-4 py-3 text-muted-foreground">A short checklist you can use during questions.</td>
+              </tr>
+              <tr className="border-t border-border">
+                <td className="px-4 py-3 text-muted-foreground">2</td>
+                <td className="px-4 py-3 text-muted-foreground">Drill the related bank skills below for 30-45 minutes.</td>
+                <td className="px-4 py-3 text-muted-foreground">A miss log sorted by skill instead of by page.</td>
+              </tr>
+              <tr className="border-t border-border">
+                <td className="px-4 py-3 text-muted-foreground">3</td>
+                <td className="px-4 py-3 text-muted-foreground">Take a timed module and watch whether the same mistakes repeat.</td>
+                <td className="px-4 py-3 text-muted-foreground">Proof that the guide transferred to timed work.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section className="mt-12">
         <h2 className="text-2xl font-semibold tracking-tight">FAQs</h2>
         <div className="mt-4 space-y-5">
           {pillar.faqs.map((faq) => (
@@ -109,7 +137,7 @@ const PillarPage = () => {
             {relatedSkills.map((skill) => (
               <li key={skill.slug}>
                 <Link
-                  to={`/sat-skill/${skill.slug}`}
+                  to={skillPracticeHref(skill)}
                   className="block rounded-xl border border-border p-4 transition hover:bg-muted"
                 >
                   <div className="font-semibold">{skill.name}</div>
@@ -123,71 +151,46 @@ const PillarPage = () => {
         </section>
       )}
 
-      {relatedPillars.length > 0 && (
-        <section className="mt-12">
-          <h2 className="text-2xl font-semibold tracking-tight">
-            Related Guides
-          </h2>
-          <ul className="mt-4 grid gap-3 md:grid-cols-2">
-            {relatedPillars.map((relatedPillar) => (
-              <li key={relatedPillar.slug}>
-                <Link
-                  to={`/${relatedPillar.slug}`}
-                  className="block rounded-xl border border-border p-4 transition hover:bg-muted"
-                >
-                  <div className="font-semibold">{relatedPillar.title}</div>
-                  <p className="mt-1 text-sm text-muted-foreground">
-                    {relatedPillar.metaDescription}
-                  </p>
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </section>
-      )}
-
-      {relatedBlogs.length > 0 && (
-        <section className="mt-12">
-          <h2 className="text-2xl font-semibold tracking-tight">
-            Related Blog Posts
-          </h2>
-          <ul className="mt-4 grid gap-3 md:grid-cols-2">
-            {relatedBlogs.map((blogPost) => (
-              <li key={blogPost.slug}>
-                <Link
-                  to={`/blog/${blogPost.slug}`}
-                  className="block rounded-xl border border-border p-4 transition hover:bg-muted"
-                >
-                  <div className="font-semibold">{blogPost.title}</div>
-                  <p className="mt-1 text-sm text-muted-foreground">
-                    {blogPost.description}
-                  </p>
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </section>
-      )}
-
-      {pillar.relatedScoreTargets && pillar.relatedScoreTargets.length > 0 && (
-        <section className="mt-12">
-          <h2 className="text-2xl font-semibold tracking-tight">
-            Score Targets
-          </h2>
-          <ul className="mt-4 flex flex-wrap gap-2">
-            {pillar.relatedScoreTargets.map((scoreTarget) => (
-              <li key={scoreTarget}>
-                <Link
-                  to={`/sat-score/${scoreTarget}`}
-                  className="inline-block rounded-lg border border-border px-3 py-1.5 text-sm hover:bg-muted"
-                >
-                  {scoreTarget} SAT
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </section>
-      )}
+      <section className="mt-12">
+        <h2 className="text-2xl font-semibold tracking-tight">
+          Use this guide in practice
+        </h2>
+        <ul className="mt-4 grid gap-3 md:grid-cols-3">
+          <li>
+            <Link
+              to="/bank"
+              className="block rounded-xl border border-border p-4 transition hover:bg-muted"
+            >
+              <div className="font-semibold">Drill targeted questions</div>
+              <p className="mt-1 text-sm text-muted-foreground">
+                Filter the bank by section, domain, skill, and difficulty.
+              </p>
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/modules"
+              className="block rounded-xl border border-border p-4 transition hover:bg-muted"
+            >
+              <div className="font-semibold">Take timed modules</div>
+              <p className="mt-1 text-sm text-muted-foreground">
+                Check whether the strategy holds up under real pacing.
+              </p>
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/score-calculator"
+              className="block rounded-xl border border-border p-4 transition hover:bg-muted"
+            >
+              <div className="font-semibold">Model your score</div>
+              <p className="mt-1 text-sm text-muted-foreground">
+                Convert module results into a 400-1600 estimate.
+              </p>
+            </Link>
+          </li>
+        </ul>
+      </section>
 
       <section className="mt-12 rounded-xl border border-border p-6">
         <h3 className="text-lg font-semibold">Practice on 1600.now</h3>

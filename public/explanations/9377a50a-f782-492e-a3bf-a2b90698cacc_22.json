@@ -9,7 +9,7 @@
     },
     {
       "title": "Test whether the third line passes through (0, -6)",
-      "content": "For all three equations to share a solution, the third line $x - 6y = -36$ must also pass through $(0, -6)$:<br/>$$0 - 6(-6) = 36 \\neq -36$$<br/>The third line does not pass through $(0, -6)$, so the three lines have no common point. The system has zero solutions. That matches choice A — <strong>A</strong> is correct."
+      "content": "For all three equations to share a solution, the third line $x - 6y = -36$ must also pass through $(0, -6)$:<br/>$$0 - 6(-6) = 36 \\neq -36$$<br/>The third line does not pass through $(0, -6)$, so the three lines have no common point. The system has zero solutions. That confirms <strong>A</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId":"16ea8fd9-55c6-4baf-a4f8-e83365cf3245_17","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence is: \"Henry's careful construction ______ apparent.\" This is a subject-verb sentence with a linking verb. The subject is \"Henry's careful construction\" &mdash; the head noun is \"construction,\" which is singular. The blank must be a verb that agrees with a singular third-person subject in present tense."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'have become'</strong>: \"Have\" is the plural present perfect auxiliary. Pairing it with the singular subject \"construction\" violates subject-verb agreement &mdash; it would require a plural noun like \"constructions.\" &#10007;</li><li><strong>Choice B &mdash; 'are becoming'</strong>: \"Are\" is the plural present progressive auxiliary. Same error &mdash; the singular subject \"construction\" demands \"is becoming,\" not \"are becoming.\" &#10007;</li><li><strong>Choice C &mdash; 'becomes'</strong>: Third-person singular simple present. The -s ending signals agreement with a singular subject, matching \"construction\" perfectly. &#10003;</li><li><strong>Choice D &mdash; 'become'</strong>: The base form without -s is used with plural subjects (\"they become\") or after modal verbs. Standing alone with a singular noun subject, it fails subject-verb agreement. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_17",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence is: \"Henry's careful construction ______ apparent.\" This is a subject-verb sentence with a linking verb. The subject is \"Henry's careful construction\" &mdash; the head noun is \"construction,\" which is singular. The blank must be a verb that agrees with a singular third-person subject in present tense."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; have become</strong>: \"Have\" is the plural present perfect auxiliary. Pairing it with the singular subject \"construction\" violates subject-verb agreement &mdash; it would require a plural noun like \"constructions.\" &#10007;</li><li><strong>Choice B &mdash; are becoming</strong>: \"Are\" is the plural present progressive auxiliary. Same error &mdash; the singular subject \"construction\" demands \"is becoming,\" not \"are becoming.\" &#10007;</li><li><strong>Choice C &mdash; becomes</strong>: Third-person singular simple present. The -s ending signals agreement with a singular subject, matching \"construction\" perfectly. &#10003;</li><li><strong>Choice D &mdash; become</strong>: The base form without -s is used with plural subjects (\"they become\") or after modal verbs. Standing alone with a singular noun subject, it fails subject-verb agreement. &#10007;</li></ul>That matches <strong>Choice C &mdash; becomes</strong>."
+    }
+  ]
+}

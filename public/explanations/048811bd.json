@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Convert the percent",
-      "content": "$10\\%$ means $\\frac{10}{100}=0.10$. So $10\\%$ of $370$ is $0.10(370)$."
+      "content": "$10\\%$ means $\\frac{10}{100}=0.10$. So $10\\%$ of $370$ is $0.10\\left(370\\right)$."
     },
     {
       "title": "Use the mental shortcut",
@@ -13,11 +13,11 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice C is $90\\%$ of $370$, and choice D is $370-10$. The value of $10\\%$ of $370$ is $37$."
+      "content": "<strong>Choice C &mdash; $333$</strong> is $90\\%$ of $370$, and <strong>Choice D &mdash; $360$</strong> is $370-10$. The value of $10\\%$ of $370$ is $37$."
     },
     {
       "title": "Answer",
-      "content": "$37$ matches choice B, so <strong>B</strong> is correct."
+      "content": "$37$ matches <strong>Choice B &mdash; $37$</strong>, so <strong>B</strong> is correct."
     }
   ]
 }

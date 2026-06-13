@@ -1,1 +1,15 @@
-{"questionId":"ccef9088-d5f4-4437-b646-7284f78f03a6_1","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The uncle says the hardest ___ of telling a story is finding the beginning. The blank needs a word meaning one component or aspect of a larger process."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Zone'</strong>: a spatial area or region. A story doesn't have zones. &#10007;</li><li><strong>Choice B &mdash; 'Melody'</strong>: a musical tune. Unrelated to storytelling structure. &#10007;</li><li><strong>Choice C &mdash; 'Element'</strong>: a component or aspect of something larger. Finding the beginning is one element of the storytelling process. &#10003;</li><li><strong>Choice D &mdash; 'Blob'</strong>: a shapeless mass. Doesn't fit any sense of the sentence. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "ccef9088-d5f4-4437-b646-7284f78f03a6_1",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The uncle says the hardest ___ of telling a story is finding the beginning. The blank needs a word meaning one component or aspect of a larger process."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Zone</strong>: a spatial area or region. A story doesn't have zones. &#10007;</li><li><strong>Choice B &mdash; Melody</strong>: a musical tune. Unrelated to storytelling structure. &#10007;</li><li><strong>Choice C &mdash; Element</strong>: a component or aspect of something larger. Finding the beginning is one element of the storytelling process. &#10003;</li><li><strong>Choice D &mdash; Blob</strong>: a shapeless mass. Doesn't fit any sense of the sentence. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

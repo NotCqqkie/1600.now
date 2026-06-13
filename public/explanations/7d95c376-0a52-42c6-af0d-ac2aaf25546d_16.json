@@ -1,1 +1,15 @@
-{"questionId":"7d95c376-0a52-42c6-af0d-ac2aaf25546d_16","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence has a plural subject (&quot;epic poems&quot;) and a linking verb (&quot;are&quot;), so the blank fills a predicate nominative. That predicate nominative must be plural (to agree with the subject) and must serve as the antecedent for the plural relative clause &quot;that tell a story and focus on heroic deeds.&quot;"},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; [possessive form]</strong>: possessives don&apos;t function as predicate nominatives in this structure. &#10007;</li><li><strong>Choice B &mdash; 'long poems'</strong>: plural noun &mdash; agrees with the plural subject and correctly anchors the plural verb &quot;tell&quot; in the relative clause. &#10003;</li><li><strong>Choice C &mdash; [possessive form]</strong>: same problem as A &mdash; possessives don&apos;t fit here. &#10007;</li><li><strong>Choice D &mdash; [singular noun]</strong>: singular &mdash; violates number agreement with the plural subject &quot;epic poems.&quot; &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "7d95c376-0a52-42c6-af0d-ac2aaf25546d_16",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence has a plural subject (&quot;epic poems&quot;) and a linking verb (&quot;are&quot;), so the blank fills a predicate nominative. That predicate nominative must be plural (to agree with the subject) and must serve as the antecedent for the plural relative clause &quot;that tell a story and focus on heroic deeds.&quot;"
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;a long poem's&rsquo;</strong>: possessives don&apos;t function as predicate nominatives in this structure. &#10007;</li><li><strong>Choice B &mdash; &lsquo;long poems&rsquo;</strong>: plural noun &mdash; agrees with the plural subject and correctly anchors the plural verb &quot;tell&quot; in the relative clause. &#10003;</li><li><strong>Choice C &mdash; &lsquo;long poems'&rsquo;</strong>: same problem as A &mdash; possessives don&apos;t fit here. &#10007;</li><li><strong>Choice D &mdash; &lsquo;a long poem&rsquo;</strong>: singular &mdash; violates number agreement with the plural subject &quot;epic poems.&quot; &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

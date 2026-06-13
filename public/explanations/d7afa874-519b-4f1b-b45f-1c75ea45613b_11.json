@@ -9,7 +9,7 @@
     },
     {
       "title": "The solution form reveals the sign of a",
-      "content": "The given solution $x \\ge -6$ is a lower bound, not an upper bound. When dividing $ax \\le 42$ by $a$, the sign of $a$ determines whether the inequality flips:<ul><li>If $a > 0$: we get $x \\le \\frac{42}{a}$ (upper bound) — does not match</li><li>If $a \\lt 0$: the inequality flips to $x \\ge \\frac{42}{a}$ (lower bound) — matches the required form</li></ul>Therefore, $a$ must be negative."
+      "content": "The given solution $x \\ge -6$ is a lower bound, not an upper bound. When dividing $ax \\le 42$ by $a$, the sign of $a$ determines whether the inequality flips:<ul><li>If $a \\gt  0$: we get $x \\le \\frac{42}{a}$ (upper bound) — does not match</li><li>If $a \\lt 0$: the inequality flips to $x \\ge \\frac{42}{a}$ (lower bound) — matches the required form</li></ul>Therefore, $a$ must be negative."
     },
     {
       "title": "Solve for a from the boundary condition",

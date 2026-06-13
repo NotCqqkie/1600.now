@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li>A. $y = \\tfrac{1}{2}(72{,}000)^{t}$: at $t=0$ gives $\\tfrac{1}{2}$, not $72{,}000$. Wrong start and wrong base.</li><li>B. $y = 2(72{,}000)^{t}$: at $t=0$ gives $2$, not $72{,}000$. Wrong.</li><li>C. $y = 72{,}000(\\tfrac{1}{2})^{t}$: this halves each day, not doubles. Wrong.</li><li>D. $y = 72{,}000(2)^{t}$: correct start, correct doubling factor. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
+      "content": "<ul><li>A. $y = \\tfrac{1}{2}(72{,}000)^{t}$: at $t=0$ gives $\\tfrac{1}{2}$, not $72{,}000$. Wrong start and wrong base.</li><li>B. $y = 2(72{,}000)^{t}$: at $t=0$ gives $2$, not $72{,}000$. Wrong.</li><li>C. $y = 72{,}000(\\tfrac{1}{2})^{t}$: this halves each day, not doubles. Wrong.</li><li>D. $y = 72{,}000(2)^{t}$: correct start, correct doubling factor. That is the correct answer.</li></ul>"
     }
   ]
 }

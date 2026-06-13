@@ -15,7 +15,7 @@
     },
     {
       "title": "Test each choice against $t \\lt -2$",
-      "content": "<ul><li>A) $t = -3$: is $-3 \\lt -2$? Yes &mdash; no real solutions.</li><li>B) $t = -1$: is $-1 \\lt -2$? No &mdash; eliminate.</li><li>C) $t = 1$: is $1 \\lt -2$? No &mdash; eliminate.</li><li>D) $t = 3$: is $3 \\lt -2$? No &mdash; eliminate.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li>A) $t = -3$: is $-3 \\lt -2$? Yes &mdash; no real solutions.</li><li>B) $t = -1$: is $-1 \\lt -2$? No &mdash; eliminate.</li><li>C) $t = 1$: is $1 \\lt -2$? No &mdash; eliminate.</li><li>D) $t = 3$: is $3 \\lt -2$? No &mdash; eliminate.</li></ul>That confirms <strong>A</strong> is correct."
     }
   ]
 }

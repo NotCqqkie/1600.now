@@ -1,1 +1,15 @@
-{"questionId": "25b70215", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the question requires", "content": "The example needs <strong>a neighboring species with a negative effect value</strong>. Two criteria must both be satisfied: (1) the plant appears in the &ldquo;Neighboring species&rdquo; column (not only as a target), and (2) its effect value is negative (below zero). Scan the table for a minus sign in the effect-value column next to a plant listed as a neighbor."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; &lsquo;Himalayan balsam.&rsquo;</strong>: Himalayan balsam is a neighboring species, but its effect value is +0.7905 &mdash; positive, not negative. &#10007;</li><li><strong>Choice B &mdash; &lsquo;common dandelion.&rsquo;</strong>: Common dandelion appears as a neighboring species with an effect value of &minus;0.6254 &mdash; the only negative value in the table for a neighboring species. &#10003;</li><li><strong>Choice C &mdash; &lsquo;star chickweed.&rsquo;</strong>: Star chickweed appears only as a target species in the table, not as a neighboring species. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Virginia spring beauty.&rsquo;</strong>: Virginia spring beauty is a neighboring species, but its effect value is +0.4853 &mdash; positive, not negative. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "25b70215",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question requires",
+      "content": "The example needs <strong>a neighboring species with a negative effect value</strong>. Two criteria must both be satisfied: (1) the plant appears in the &ldquo;Neighboring species&rdquo; column (not only as a target), and (2) its effect value is negative (below zero). Scan the table for a minus sign in the effect-value column next to a plant listed as a neighbor."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; Himalayan balsam.</strong>: Himalayan balsam is a neighboring species, but its effect value is +0.7905 &mdash; positive, not negative. &#10007;</li><li><strong>Choice B &mdash; common dandelion.</strong>: Common dandelion appears as a neighboring species with an effect value of &minus;0.6254 &mdash; the only negative value in the table for a neighboring species. &#10003;</li><li><strong>Choice C &mdash; star chickweed.</strong>: Star chickweed appears only as a target species in the table, not as a neighboring species. &#10007;</li><li><strong>Choice D &mdash; Virginia spring beauty.</strong>: Virginia spring beauty is a neighboring species, but its effect value is +0.4853 &mdash; positive, not negative. &#10007;</li></ul>That matches <strong>Choice B &mdash; common dandelion.</strong>."
+    }
+  ]
+}

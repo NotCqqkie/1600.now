@@ -1,1 +1,15 @@
-{"questionId": "6c5588e4-f326-44d2-afd6-39547f4bb40a_9", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the key contrast", "content": "The passage turns on <strong>“but”</strong> in this sentence: “Many researchers once thought the same about cuttlefish, but Trevor Wardill and his team wanted to test whether this assumption was true.” This word signals that an assumption is about to be tested and potentially reversed."}, {"title": "Match the contrast to the choices", "content": "Choice C directly captures this reversal: <strong>“Contrary to what many researchers had assumed, cuttlefish may be able to see in 3D.”</strong> The word “contrary” marks the contradiction, and “may be able to” appropriately reflects the evidence.<br/><br/>Choices A and B don't capture the main finding, and D overstates the scope of the passage.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "6c5588e4-f326-44d2-afd6-39547f4bb40a_9",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key contrast",
+      "content": "The passage turns on <strong>“but”</strong> in this sentence: “Many researchers once thought the same about cuttlefish, but Trevor Wardill and his team wanted to test whether this assumption was true.” This word signals that an assumption is about to be tested and potentially reversed."
+    },
+    {
+      "title": "Match the contrast to the choices",
+      "content": "The correct response directly captures this reversal: <strong>“Contrary to what many researchers had assumed, cuttlefish may be able to see in 3D.”</strong> The word “contrary” marks the contradiction, and “may be able to” appropriately reflects the evidence.<br/><br/>The other choices don't capture the main finding, and D overstates the scope of the passage.<br/><br/>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

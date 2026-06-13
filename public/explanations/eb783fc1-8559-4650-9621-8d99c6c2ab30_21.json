@@ -1,1 +1,15 @@
-{"questionId":"eb783fc1-8559-4650-9621-8d99c6c2ab30_21","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank precedes an appositive phrase &mdash; &quot;the cellular organs that generate energy from light&quot; &mdash; that renames the noun before it. After the appositive, an em-dash appears before &quot;reshuffled.&quot; The question tests punctuation consistency around an appositive."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; em-dash before the appositive</strong>: the appositive ends with an em-dash, so it must open with one. Matching em-dashes correctly set off the appositive on both sides. &#10003;</li><li><strong>Choice B &mdash; comma before the appositive</strong>: mixing a comma opener with an em-dash closer is inconsistent punctuation. &#10007;</li><li><strong>Choice C &mdash; semicolon before the appositive</strong>: semicolons separate independent clauses, not appositives. &#10007;</li><li><strong>Choice D &mdash; no punctuation before the appositive</strong>: leaves the appositive unset off, violating the rule that requires matching punctuation on both sides. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "eb783fc1-8559-4650-9621-8d99c6c2ab30_21",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank precedes an appositive phrase &mdash; \"the cellular organs that generate energy from light\" &mdash; that renames the noun before it. After the appositive, an em-dash appears before \"reshuffled.\" The question tests punctuation consistency around an appositive."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"chloroplasts—\"</strong>: the appositive ends with an em-dash, so it must open with one. Matching em-dashes correctly set off the appositive on both sides. &#10003;</li><li><strong>\"chloroplasts,\"</strong>: mixing a comma opener with an em-dash closer is inconsistent punctuation. &#10007;</li><li><strong>\"chloroplasts\"</strong>: semicolons separate independent clauses, not appositives. &#10007;</li><li><strong>\"chloroplasts;\"</strong>: leaves the appositive unset off, violating the rule that requires matching punctuation on both sides. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+    }
+  ]
+}

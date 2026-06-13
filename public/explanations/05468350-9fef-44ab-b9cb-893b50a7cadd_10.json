@@ -13,7 +13,7 @@
     },
     {
       "title": "Compare with each choice",
-      "content": "<ul><li><strong>A) $M=100(0.27)^{t/14.07}$:</strong> uses $0.27$ as the multiplier, which would mean 73% lost per period, not 27%. Eliminated.</li><li><strong>B) $M=100(0.27)^{t+14.07}$:</strong> wrong base and the exponent $t+14.07$ is not the number of periods. Eliminated.</li><li><strong>C) $M=100(0.73)^{t/14.07}$:</strong> correct base $0.73$ and exponent $t/14.07$ counts periods. Matches.</li><li><strong>D) $M=100(0.73)^{t+14.07}$:</strong> correct base, but $t+14.07$ is not the number of periods. Eliminated.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+      "content": "<ul><li><strong>A) $M=100(0.27)^{\\frac{t}{14.07}}$:</strong> uses $0.27$ as the multiplier, which would mean 73% lost per period, not 27%. Eliminated.</li><li><strong>B) $M=100(0.27)^{t+14.07}$:</strong> wrong base and the exponent $t+14.07$ is not the number of periods. Eliminated.</li><li><strong>C) $M=100(0.73)^{\\frac{t}{14.07}}$:</strong> correct base $0.73$ and exponent $t/14.07$ counts periods. Matches.</li><li><strong>D) $M=100(0.73)^{t+14.07}$:</strong> correct base, but $t+14.07$ is not the number of periods. Eliminated.</li></ul>That matches <strong>Choice C &mdash; $M=100(0.73)^{\\frac{t}{14.07}}$</strong>."
     }
   ]
 }

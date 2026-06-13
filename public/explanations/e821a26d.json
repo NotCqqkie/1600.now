@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Use the shape of the scatterplot",
-      "content": "The data rise and then fall, so the model should be a downward-opening parabola. That means the coefficient of $x^2$ must be negative, eliminating choices A and C."
+      "content": "The data rise and then fall, so the model should be a downward-opening parabola. That means the coefficient of $x^2$ must be negative; equations with a positive $x^2$ coefficient open upward instead."
     },
     {
       "title": "Use the intercept size",
-      "content": "The data values are in the hundreds, and the model should have a positive $y$-intercept around $745$. Choice B has a negative intercept, $-745.73$, so it is not reasonable."
+      "content": "The data values are in the hundreds, and the model should have a positive $y$-intercept around $745$. $y = -1.674x^2 -19.76x -745.73$ has a negative intercept, $-745.73$, so it is not reasonable."
     },
     {
       "title": "Confirm the model",
-      "content": "Choice D, $$y=-1.674x^2+19.76x+745.73,$$ opens downward and has the correct positive intercept. Therefore choice <strong>D</strong> is correct."
+      "content": "<strong>$y = -1.674x^2 + 19.76x + 745.73$</strong>, $$y=-1.674x^2+19.76x+745.73,$$ opens downward and has the correct positive intercept. Therefore <strong>D</strong> is correct."
     }
   ]
 }

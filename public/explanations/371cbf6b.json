@@ -9,7 +9,7 @@
     },
     {
       "title": "Finding $ab$ by matching the $x^2$ coefficient",
-      "content": "When we expand, the $x^2$ terms come from:<ul><li>$ax\\cdot (-bx) = -abx^2$</li><li>$3\\cdot 5x^2 = 15x^2$</li></ul>Combined, the $x^2$ coefficient is $-ab+15$. The right side has coefficient $-9$, so:<br/>$$-ab+15=-9$$<br/>$$ab=24$$<br/>That matches choice C, so <strong>C</strong> is correct."
+      "content": "When we expand, the $x^2$ terms come from:<ul><li>$ax\\cdot (-bx) = -abx^2$</li><li>$3\\cdot 5x^2 = 15x^2$</li></ul>Combined, the $x^2$ coefficient is $-ab+15$. The right side has coefficient $-9$, so:<br/>$$-ab+15=-9$$<br/>$$ab=24$$<br/>This matches, so <strong>C</strong> is correct."
     }
   ]
 }

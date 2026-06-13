@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Apply triangle angle sum property",
-      "content": "The sum of all angles in a triangle equals 180°. With ∠F = 39° and ∠G = 39°:<br/>$$\\angle F + \\angle G + \\angle H = 180°$$<br/>$$39° + 39° + \\angle H = 180°$$<br/>$$78° + \\angle H = 180°$$<br/>$$\\angle H = 102°$$<br/>That matches choice B — <strong>B</strong> is correct."
+      "content": "The sum of all angles in a triangle equals $180^{\\circ}$. With ∠F = $39^{\\circ}$ and ∠G = $39^{\\circ}$:<br/>$$\\angle F + \\angle G + \\angle H = 180^{\\circ}$$<br/>$$39^{\\circ} + 39^{\\circ} + \\angle H = 180^{\\circ}$$<br/>$$78^{\\circ} + \\angle H = 180^{\\circ}$$<br/>$$\\angle H = 102^{\\circ}$$<br/><strong>B</strong> is correct."
     }
   ]
 }

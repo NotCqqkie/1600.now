@@ -1,10 +1,23 @@
 {
+  "questionId": "e4f2c33b-9282-40a7-810c-d633e5197f95_12",
   "qid": "e4f2c33b-9282-40a7-810c-d633e5197f95_12",
   "correctAnswer": "D",
   "steps": [
-    "Triangle $QRS$ has a right angle at $R$. The side $SR = 47$ is the side opposite angle $Q$. Since the right angle is at $R$, the hypotenuse is $QS$. The condition $QR \\lt QS$ confirms $QS$ is the hypotenuse.",
-    "Apply the sine ratio from angle $Q$: $\\sin Q = \\dfrac{\\text{opposite}}{\\text{hypotenuse}} = \\dfrac{SR}{QS} = \\dfrac{47}{QS}$.",
-    "Solve for $QS$: multiply both sides by $QS$ and divide by $\\sin Q$ to get $QS = \\dfrac{47}{\\sin Q}$.",
-    "<ul><li>Choice A: $47\\cos Q$ &mdash; cosine times a leg gives a shorter segment, not the hypotenuse; incorrect.</li><li>Choice B: $47\\sin Q$ &mdash; multiplying by sine shrinks the value below 47, but $QS$ is the hypotenuse and must be the longest side; incorrect.</li><li>Choice C: $\\dfrac{47}{\\cos Q}$ &mdash; this would follow from $\\cos Q = 47/QS$, meaning 47 is the adjacent side; but 47 = SR is opposite to $Q$, not adjacent; incorrect.</li><li>Choice D: $\\dfrac{47}{\\sin Q}$ &mdash; since $\\sin Q = 47/QS$, rearranging gives $QS = 47/\\sin Q$. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
+    {
+      "title": "Step 1",
+      "content": "Triangle $QRS$ has a right angle at $R$. The side $SR = 47$ is the side opposite angle $Q$. Since the right angle is at $R$, the hypotenuse is $QS$. The condition $QR \\lt QS$ confirms $QS$ is the hypotenuse."
+    },
+    {
+      "title": "Step 2",
+      "content": "Apply the sine ratio from angle $Q$: $\\sin Q = \\dfrac{\\text{opposite}}{\\text{hypotenuse}} = \\dfrac{SR}{QS} = \\dfrac{47}{QS}$."
+    },
+    {
+      "title": "Step 3",
+      "content": "Solve for $QS$: multiply both sides by $QS$ and divide by $\\sin Q$ to get $QS = \\dfrac{47}{\\sin Q}$."
+    },
+    {
+      "title": "Step 4",
+      "content": "<ul><li><strong>\"$47\\cos Q$\"</strong>: Cosine times a leg gives a shorter segment, not the hypotenuse; incorrect.</li><li><strong>\"$47\\sin Q$\"</strong>: Multiplying by sine shrinks the value below 47, but $QS$ is the hypotenuse and must be the longest side; incorrect.</li><li><strong>\"$\\frac{47}{\\cos Q}$\"</strong>: this would follow from $\\cos Q = 47/QS$, meaning 47 is the adjacent side; but 47 = SR is opposite to $Q$, not adjacent; incorrect.</li><li><strong>\"$\\frac{47}{\\sin Q}$\"</strong>: since $\\sin Q = 47/QS$, rearranging gives $QS = 47/\\sin Q$. That matches the correct answer — <strong>D</strong> is correct.</li></ul>"
+    }
   ]
 }

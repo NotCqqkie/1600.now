@@ -9,7 +9,7 @@
     },
     {
       "title": "Solve for y",
-      "content": "From the simplified equation $40 + 3y = 85$, subtract 40 from both sides:<br/>&#160;&#160;&#160;$3y = 85 - 40$.<br/><br/>This simplifies to:\\<br/>&#160;&#160;&#160;$3y = 45$, and divide both sides by 3:<br/>&#160;&#160;&#160;$y = \\frac{45}{3} = 15$.<br/><br/>That matches choice B - <strong>B</strong> is correct."
+      "content": "From the simplified equation $40 + 3y = 85$, subtract 40 from both sides:<br/>&#160;&#160;&#160;$3y = 85 - 40$.<br/><br/>This simplifies to:\\<br/>&#160;&#160;&#160;$3y = 45$, and divide both sides by 3:<br/>&#160;&#160;&#160;$y = \\frac{45}{3} = 15$.<br/><br/>That is the correct answer."
     }
   ]
 }

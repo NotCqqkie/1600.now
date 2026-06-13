@@ -1,1 +1,15 @@
-{"questionId": "7d95c376-0a52-42c6-af0d-ac2aaf25546d_4", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The blank fills: 'As the ______ the Danube River and the Black Sea, the deltaic system is a dynamic habitat...' The passage describes a place where the river mixes with the sea &mdash; two distinct bodies of water meeting. The blank needs a word or phrase meaning a meeting point or boundary between two systems."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'accordance between'</strong>: means agreement or harmony. The deltaic system is not an agreement between two bodies of water. &#10007;</li><li><strong>Choice B &mdash; 'predecessor of'</strong>: means something that came before. The deltaic system did not precede the Danube River and the Black Sea, and 'predecessor of' cannot take two objects linked by 'and.' &#10007;</li><li><strong>Choice C &mdash; 'interface between'</strong>: means a boundary or zone where two systems meet and interact. This fits perfectly: the deltaic system is where the Danube and the Black Sea meet and exchange materials. &#10003;</li><li><strong>Choice D &mdash; 'confines of'</strong>: means the boundaries or limits of a single enclosed space, not a meeting point between two things. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "7d95c376-0a52-42c6-af0d-ac2aaf25546d_4",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank fills: 'As the ______ the Danube River and the Black Sea, the deltaic system is a dynamic habitat...' The passage describes a place where the river mixes with the sea &mdash; two distinct bodies of water meeting. The blank needs a word or phrase meaning a meeting point or boundary between two systems."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;accordance between&rsquo;</strong>: means agreement or harmony. The deltaic system is not an agreement between two bodies of water. &#10007;</li><li><strong>Choice B &mdash; &lsquo;predecessor of&rsquo;</strong>: means something that came before. The deltaic system did not precede the Danube River and the Black Sea, and 'predecessor of' cannot take two objects linked by 'and.' &#10007;</li><li><strong>Choice C &mdash; &lsquo;interface between&rsquo;</strong>: means a boundary or zone where two systems meet and interact. This fits perfectly: the deltaic system is where the Danube and the Black Sea meet and exchange materials. &#10003;</li><li><strong>Choice D &mdash; &lsquo;confines of&rsquo;</strong>: means the boundaries or limits of a single enclosed space, not a meeting point between two things. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

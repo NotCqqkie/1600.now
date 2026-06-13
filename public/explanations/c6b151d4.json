@@ -9,7 +9,7 @@
     },
     {
       "title": "Evaluate the given ordered pair",
-      "content": "Substitute $x=24$ and $y=73$: $$3(24)+4(73)=72+292=364$$. The left side equals the right side, so the pair satisfies the equation.<br/><br/>This means 24 triangles and 73 rectangles together use exactly 364 straws; thus, if 24 triangles were constructed, then 73 rectangles were constructed.<br/>That matches choice A — <strong>A</strong> is correct."
+      "content": "Substitute $x=24$ and $y=73$: $$3(24)+4(73)=72+292=364$$. The left side equals the right side, so the pair satisfies the equation.<br/><br/>This means 24 triangles and 73 rectangles together use exactly 364 straws; thus, if 24 triangles were constructed, then 73 rectangles were constructed.<br/>That is the correct answer."
     }
   ]
 }

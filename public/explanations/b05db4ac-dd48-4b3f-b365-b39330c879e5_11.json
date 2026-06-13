@@ -13,7 +13,7 @@
     },
     {
       "title": "Solve for the mass of each M-type star",
-      "content": "Divide the total mass by the number of M-type stars at the intercept: $$m\\approx\\frac{129{,}492}{160}=809.325.$$ Because the intercept is read from a graph, this is an estimate. Among the choices, $830$ is closest, so choice <strong>A</strong> is correct.",
+      "content": "Divide the total mass by the number of M-type stars at the intercept: $$m\\approx\\frac{129{,}492}{160}=809.325.$$ Because the intercept is read from a graph, this is an estimate. Among the choices, $830$ is closest, so <strong>A</strong> is correct.",
       "desmosExpressions": [
         "129492/160"
       ]

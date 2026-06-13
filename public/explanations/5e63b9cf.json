@@ -1,4 +1,5 @@
 {
+  "questionId": "5e63b9cf",
   "qid": "5e63b9cf",
   "steps": [
     {
@@ -11,7 +12,7 @@
       "text": "The correct interpretation must convey that the height was 8 inches at the start (when $x = 0$), not a minimum, and not at a later time."
     },
     {
-      "text": "<ul><li>Choice A: &quot;The marble's height was 0 inches above the ground 8 seconds after it started moving.&quot; This describes an x-intercept, not the y-intercept, and swaps the values. Eliminated.</li><li>Choice B: &quot;The marble's height was 8 inches above the ground when it started moving.&quot; This correctly identifies the y-intercept: at $x = 0$, $y = 8$. That matches choice B &mdash; <strong>B</strong> is correct.</li><li>Choice C: &quot;The marble's minimum height was 0 inches above the ground.&quot; The y-intercept is not about minimum height. Eliminated.</li><li>Choice D: &quot;The marble's minimum height was 8 inches above the ground.&quot; The y-intercept describes the starting height, not the minimum. Eliminated.</li></ul>"
+      "text": "<ul><li><strong>Choice A &mdash; &lsquo;The marble's height was $0$ inches above the ground $8$ seconds after it started moving.&rsquo;</strong>: &quot;The marble's height was 0 inches above the ground 8 seconds after it started moving.&quot; This describes an x-intercept, not the y-intercept, and swaps the values. Eliminated.</li><li><strong>Choice B &mdash; &lsquo;The marble's height was $8$ inches above the ground when it started moving.&rsquo;</strong>: &quot;The marble's height was 8 inches above the ground when it started moving.&quot; This correctly identifies the y-intercept: at $x = 0$, $y = 8$. That confirms <strong>B</strong> is correct.</li><li><strong>Choice C &mdash; &lsquo;The marble's minimum height was $0$ inches above the ground.&rsquo;</strong>: &quot;The marble's minimum height was 0 inches above the ground.&quot; The y-intercept is not about minimum height. Eliminated.</li><li><strong>Choice D &mdash; &lsquo;The marble's minimum height was $8$ inches above the ground.&rsquo;</strong>: &quot;The marble's minimum height was 8 inches above the ground.&quot; The y-intercept describes the starting height, not the minimum. Eliminated.</li></ul>"
     }
   ],
   "correctAnswer": "B"

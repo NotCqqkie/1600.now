@@ -17,7 +17,7 @@
     },
     {
       "title": "Eliminate wrong choices",
-      "content": "<ul><li>Choice A: $$32t + 96$$ — uses $$2lh = 96$$, which would require $$lh = 48$$; but $$\\frac{8}{3} \\times 9 = 24$$, so $$2lh = 48$$, not 96. Also missing the $$108t$$ term. Eliminated.</li><li>Choice B: $$140t + 48$$ — matches $$32t + 108t + 48 = 140t + 48$$. Correct.</li><li>Choice C: $$800t + 48$$ — the variable coefficient is far too large; no combination of the given dimensions produces it. Eliminated.</li><li>Choice D: $$144t$$ — purely variable with no constant term, but the length-height faces contribute a constant 48. Eliminated.</li></ul>That matches choice B — <strong>B</strong> is correct."
+      "content": "<ul><li><strong>\"$32t + 96$\"</strong>: Uses $2lh = 96$, which would require $lh = 48$; but $\\frac{8}{3} \\times 9 = 24$, so $2lh = 48$, not 96. Also missing the $108t$ term. Eliminated.</li><li><strong>\"$140t + 48$\"</strong>: Matches $32t + 108t + 48 = 140t + 48$. Correct.</li><li><strong>\"$800t + 48$\"</strong>: The variable coefficient is far too large; no combination of the given dimensions produces it. Eliminated.</li><li><strong>\"$144t$\"</strong>: Purely variable with no constant term, but the length-height faces contribute a constant 48. Eliminated.</li></ul>That matches the correct answer — <strong>B</strong> is correct."
     }
   ]
 }

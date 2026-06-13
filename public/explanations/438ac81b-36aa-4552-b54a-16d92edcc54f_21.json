@@ -1,1 +1,15 @@
-{"questionId": "438ac81b-36aa-4552-b54a-16d92edcc54f_21", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the logical relationship between sentences", "content": "The first sentence states what Greenidge-Sabral wanted to avoid: harsh synthetic dyes. The second sentence describes what she then did: experiment with natural dyes. The second action is a direct response to the desire expressed in the first sentence, so the transition must signal cause-and-effect or purposeful follow-through."}, {"title": "Eliminate each choice by logical fit", "content": "<ul><li><strong>Choice A &mdash; 'To sum up,'</strong>: signals a summary of preceding ideas, but the second sentence introduces a new action rather than restating what came before. &#10007;</li><li><strong>Choice B &mdash; 'In actuality,'</strong>: signals a correction or contradiction, but her action aligns with her stated goal rather than contradicting it. &#10007;</li><li><strong>Choice C &mdash; 'Nevertheless,'</strong>: signals contrast or concession, but experimenting with natural dyes is consistent with wanting to avoid harsh synthetics, not contrary to it. &#10007;</li><li><strong>Choice D &mdash; 'With this in mind,'</strong>: means &quot;keeping that goal in mind,&quot; correctly linking her desire to avoid harsh dyes with her decision to experiment with natural methods. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "438ac81b-36aa-4552-b54a-16d92edcc54f_21",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the logical relationship between sentences",
+      "content": "The first sentence states what Greenidge-Sabral wanted to avoid: harsh synthetic dyes. The second sentence describes what she then did: experiment with natural dyes. The second action is a direct response to the desire expressed in the first sentence, so the transition must signal cause-and-effect or purposeful follow-through."
+    },
+    {
+      "title": "Eliminate each choice by logical fit",
+      "content": "<ul><li><strong>Choice A — To sum up,</strong>: signals a summary of preceding ideas, but the second sentence introduces a new action rather than restating what came before. &#10007;</li><li><strong>Choice B — In actuality,</strong>: signals a correction or contradiction, but her action aligns with her stated goal rather than contradicting it. &#10007;</li><li><strong>Choice C — Nevertheless,</strong>: signals contrast or concession, but experimenting with natural dyes is consistent with wanting to avoid harsh synthetics, not contrary to it. &#10007;</li><li><strong>Choice D — With this in mind,</strong>: means &quot;keeping that goal in mind,&quot; correctly linking her desire to avoid harsh dyes with her decision to experiment with natural methods. &#10003;</li></ul><strong>D</strong> is correct."
+    }
+  ]
+}

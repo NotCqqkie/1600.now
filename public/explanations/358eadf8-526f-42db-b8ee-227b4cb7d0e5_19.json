@@ -1,1 +1,15 @@
-{"questionId": "358eadf8-526f-42db-b8ee-227b4cb7d0e5_19", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structure", "content": "On the left of the blank: 'Antiquarians' (noun/subject). On the right: 'to read one of Suetonius's extant works—...—might procure a copy' (infinitive phrase + main clause verb). The blank must form either a participial modifier of the noun or a coordinate verb phrase."}, {"title": "Apply the participle-modifier rule", "content": "A participle modifies a noun to form the subject of a main clause; a finite verb creates an independent clause requiring proper coordination. <strong>C) hoping</strong> correctly forms a participial phrase modifying 'Antiquarians,' allowing 'might procure' to be the main verb with proper subject connection.<br/><br/>Options A, B, and D are finite verbs that would create two independent clauses ('Antiquarians hope/hoped/have hoped...' and '...might procure...') with no valid coordination or punctuation between them.<br/><br/>That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}
+{
+  "questionId": "358eadf8-526f-42db-b8ee-227b4cb7d0e5_19",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "On the left of the blank: 'Antiquarians' (noun/subject). On the right: 'to read one of Suetonius's extant works—...—might procure a copy' (infinitive phrase + main clause verb). The blank must form either a participial modifier of the noun or a coordinate verb phrase."
+    },
+    {
+      "title": "Apply the participle-modifier rule",
+      "content": "A participle modifies a noun to form the subject of a main clause; a finite verb creates an independent clause requiring proper coordination. <strong>C) hoping</strong> correctly forms a participial phrase modifying 'Antiquarians,' allowing 'might procure' to be the main verb with proper subject connection.<br/><br/>Options A, B, and D are finite verbs that would create two independent clauses ('Antiquarians hope/hoped/have hoped...' and '...might procure...') with no valid coordination or punctuation between them.<br/><br/><strong>C</strong> is correct."
+    }
+  ]
+}

@@ -15,7 +15,7 @@
       },
       {
         "label": "B",
-        "text": "$14x^2 y + 56xy$"
+        "text": "$14x^2y + 56xy$"
       },
       {
         "label": "C",
@@ -23,7 +23,7 @@
       },
       {
         "label": "D",
-        "text": "$14x^3 y + 56xy^2$"
+        "text": "$14x^3y + 56xy^2$"
       }
     ],
     "is_fill_in_blank": false,
@@ -134,7 +134,7 @@
     "difficulty": "Easy",
     "question_number": 5,
     "test_name": "Module Source 174 Math M1",
-    "passage": "The function g is defined by g(x) = $\\frac{8}{9}x - \\frac{4}{9}$. What is the value of g(18)?",
+    "passage": "The function $g$ is defined by $g(x)=\\frac{8}{9}x-\\frac{4}{9}$. What is the value of $g(18)$?",
     "question_text": null,
     "choices": [
       {
@@ -363,7 +363,7 @@
     "difficulty": "Easy",
     "question_number": 13,
     "test_name": "Module Source 174 Math M1",
-    "passage": "$A$ circle in the $xy$-plane has the equation $(x - 14)^2 + (y - k)^2 = 81$. Which of the following gives the center of the circle and its radius?",
+    "passage": "A circle in the $xy$-plane has the equation $(x - 14)^2 + (y - k)^2 = 81$. Which of the following gives the center of the circle and its radius?",
     "question_text": null,
     "choices": [
       {

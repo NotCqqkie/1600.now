@@ -5,6 +5,7 @@ import {
   PageSeo,
   buildBreadcrumbJsonLd,
   buildFaqJsonLd,
+  buildWebApplicationJsonLd,
 } from "@/components/seo/PageSeo";
 import { satToolBySlug } from "@/lib/seo-data/satTools";
 
@@ -65,15 +66,11 @@ const PsatToSatPredictor = () => {
             { name: meta.name, url },
           ]),
           buildFaqJsonLd(faqs),
-          {
-            "@context": "https://schema.org",
-            "@type": "WebApplication",
+          buildWebApplicationJsonLd({
             name: meta.name,
             url,
-            applicationCategory: "EducationalApplication",
-            operatingSystem: "Any",
-            offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
-          },
+            description: meta.metaDescription,
+          }),
         ]}
       />
 
@@ -158,6 +155,18 @@ const PsatToSatPredictor = () => {
           month of consistent prep, which is the median growth rate for
           students using a structured study plan.
         </p>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold tracking-tight">
+          How to use the prediction
+        </h2>
+        <ul className="mt-3 list-disc space-y-2 pl-6 text-muted-foreground">
+          <li>If the predicted SAT is already near your college target, focus on timed modules and careless-error review.</li>
+          <li>If the prediction is 100+ points below target, build a weekly plan around the weakest section before scheduling a retake.</li>
+          <li>If the range is wide, take one full timed SAT module set to replace the PSAT estimate with current SAT-specific data.</li>
+          <li>Do not treat the PSAT as destiny. It is a baseline that tells you where to start drilling.</li>
+        </ul>
       </section>
 
       <section className="mt-10">

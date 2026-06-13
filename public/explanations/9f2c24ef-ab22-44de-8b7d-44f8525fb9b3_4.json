@@ -9,7 +9,7 @@
     },
     {
       "title": "Write the function for remaining area",
-      "content": "The remaining area equals the starting area minus what was removed:$$f(x)=36-4x$$This matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "The remaining area equals the starting area minus what was removed:$$f(x)=36-4x$$That confirms <strong>A</strong> is correct."
     }
   ]
 }

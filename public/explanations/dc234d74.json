@@ -1,1 +1,15 @@
-{"questionId": "dc234d74", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the decisive contrast", "content": "The passage states that neutron merger bursts <em>typically</em> last fewer than 2 seconds, then immediately notes that GRB 230307A lasted 200 seconds. That sharp contrast signals the blank must describe the burst&rsquo;s duration as something unusual or unexpected."}, {"title": "Eliminate wrong words and confirm the answer", "content": "Test each choice against the need for &ldquo;something unusual&rdquo;:\n<ul>\n<li><strong>Choice A &mdash; &lsquo;a coincidence&rsquo;</strong>: means a point of correspondence or accidental similarity &mdash; the passage emphasizes difference, not similarity. &#10007;</li>\n<li><strong>Choice B &mdash; &lsquo;a reprieve&rsquo;</strong>: means temporary relief or a delay of punishment &mdash; a duration of time cannot be a reprieve. &#10007;</li>\n<li><strong>Choice C &mdash; &lsquo;an incident&rsquo;</strong>: means something that occurred &mdash; it fits the burst itself but not its <em>duration</em>, and carries no sense of strangeness. &#10007;</li>\n<li><strong>Choice D &mdash; &lsquo;an oddity&rsquo;</strong>: means something odd or unusual &mdash; a 200-second duration is dramatically unusual compared to the sub-2-second norm. &#10003;</li>\n</ul>\nThat matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "dc234d74",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the decisive contrast",
+      "content": "The passage states that neutron merger bursts <em>typically</em> last fewer than 2 seconds, then immediately notes that GRB 230307A lasted 200 seconds. That sharp contrast signals the blank must describe the burst&rsquo;s duration as something unusual or unexpected."
+    },
+    {
+      "title": "Eliminate wrong words and confirm the answer",
+      "content": "Test each choice against the need for &ldquo;something unusual&rdquo;:\n<ul>\n<li><strong>\"a coincidence\"</strong>: means a point of correspondence or accidental similarity &mdash; the passage emphasizes difference, not similarity. &#10007;</li>\n<li><strong>\"a reprieve\"</strong>: means temporary relief or a delay of punishment &mdash; a duration of time cannot be a reprieve. &#10007;</li>\n<li><strong>\"an incident\"</strong>: means something that occurred &mdash; it fits the burst itself but not its <em>duration</em>, and carries no sense of strangeness. &#10007;</li>\n<li><strong>\"an oddity\"</strong>: means something odd or unusual &mdash; a 200-second duration is dramatically unusual compared to the sub-2-second norm. &#10003;</li>\n</ul>\nThat matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId":"a4670c6c-a654-4863-946e-7b7c7171fcdb_21","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence reads: \"scientists [blank] for evidence of self-awareness in snakes...adapted the test to foreground smell.\" The word \"adapted\" is already the sentence's main verb. The blank cannot take another finite verb without creating a run-on or requiring a conjunction; it needs a participle that modifies \"scientists\" as a participial phrase."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'searched'</strong>: A finite past-tense verb. Placing two finite verbs in a row (\"searched...adapted\") creates a run-on &mdash; there is no conjunction or punctuation joining them as independent clauses. &#10007;</li><li><strong>Choice B &mdash; 'were searching'</strong>: A finite past-progressive verb. Same problem: two main verbs with no coordinating conjunction. &#10007;</li><li><strong>Choice C &mdash; 'have searched'</strong>: A finite present-perfect verb. Same problem; also shifts tense inconsistently with the past-tense \"adapted.\" &#10007;</li><li><strong>Choice D &mdash; 'searching'</strong>: A present participle. It creates the modifying phrase \"scientists searching for evidence...\" with \"adapted\" as the sole main verb, giving the sentence a single clear predicate. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "a4670c6c-a654-4863-946e-7b7c7171fcdb_21",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence reads: \"scientists [blank] for evidence of self-awareness in snakes...adapted the test to foreground smell.\" The word \"adapted\" is already the sentence's main verb. The blank cannot take another finite verb without creating a run-on or requiring a conjunction; it needs a participle that modifies \"scientists\" as a participial phrase."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; searched</strong>: A finite past-tense verb. Placing two finite verbs in a row (\"searched...adapted\") creates a run-on &mdash; there is no conjunction or punctuation joining them as independent clauses. &#10007;</li><li><strong>Choice B &mdash; were searching</strong>: A finite past-progressive verb. Same problem: two main verbs with no coordinating conjunction. &#10007;</li><li><strong>Choice C &mdash; have searched</strong>: A finite present-perfect verb. Same problem; also shifts tense inconsistently with the past-tense \"adapted.\" &#10007;</li><li><strong>Choice D &mdash; searching</strong>: A present participle. It creates the modifying phrase \"scientists searching for evidence...\" with \"adapted\" as the sole main verb, giving the sentence a single clear predicate. &#10003;</li></ul>That is the correct answer."
+    }
+  ]
+}

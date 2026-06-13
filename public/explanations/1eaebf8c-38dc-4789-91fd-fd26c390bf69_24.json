@@ -1,1 +1,15 @@
-{"questionId": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_24", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the defining relationship", "content": "The sentence before the blank states the 424 BCE eclipse “was annular.” The sentence after the blank explains what annular means: “the Moon didn't cover the Sun completely, instead creating an annulus, or 'ring of fire.'” The blank must connect a term to its definition—a clarification, not a contrast, example, or parallel action."}, {"title": "Match the transition to the logic", "content": "”That is” signals a clarification or restatement—exactly the relationship between the two sentences.<br/><br/>The other three options introduce different relationships: “Meanwhile” suggests simultaneous events, “For example” introduces a specific instance, and “Nonetheless” signals contrast.<br/><br/>This matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}
+{
+  "questionId": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_24",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the defining relationship",
+      "content": "The sentence before the blank states the 424 BCE eclipse “was annular.” The sentence after the blank explains what annular means: “the Moon didn't cover the Sun completely, instead creating an annulus, or 'ring of fire.'” The blank must connect a term to its definition—a clarification, not a contrast, example, or parallel action."
+    },
+    {
+      "title": "Match the transition to the logic",
+      "content": "”That is” signals a clarification or restatement—exactly the relationship between the two sentences.<br/><br/>The other three options introduce different relationships: “Meanwhile” suggests simultaneous events, “For example” introduces a specific instance, and “Nonetheless” signals contrast.<br/><br/>That matches <strong>Choice B &mdash; That is,</strong>."
+    }
+  ]
+}

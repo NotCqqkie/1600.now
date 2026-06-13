@@ -1,1 +1,15 @@
-{"questionId": "d3c0680f-0e7b-45fa-a287-0167b3b6346e_9", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the indicator of deep-water adaptation", "content": "The key signal: the maximum depth at which each species has been found directly reflects its physiological tolerance for pressure, temperature, and darkness.<br/><br/>A species that stops at 15 meters has never been exposed to—and therefore never adapted to—the conditions at 30+ meters where the mesophotic zone begins."}, {"title": "Find the species with the least demonstrated depth tolerance", "content": "<em>Astreopora expansa</em> tops out at 15 meters, which is furthest from the mesophotic zone's 30-meter threshold.<br/><br/>This species has zero documented exposure to mesophotic conditions, making it the least suited for migration there. <em>Acropora echinata</em> extends to 25 meters (much closer to the transition), and other species in the table have depth ranges that approach or already encompass mesophotic waters.<br/><br/>That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}
+{
+  "questionId": "d3c0680f-0e7b-45fa-a287-0167b3b6346e_9",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the indicator of deep-water adaptation",
+      "content": "The key signal: the maximum depth at which each species has been found directly reflects its physiological tolerance for pressure, temperature, and darkness.<br/><br/>A species that stops at 15 meters has never been exposed to—and therefore never adapted to—the conditions at 30+ meters where the mesophotic zone begins."
+    },
+    {
+      "title": "Find the species with the least demonstrated depth tolerance",
+      "content": "<em>Astreopora expansa</em> tops out at 15 meters, which is furthest from the mesophotic zone's 30-meter threshold.<br/><br/>This species has zero documented exposure to mesophotic conditions, making it the least suited for migration there. <em>Acropora echinata</em> extends to 25 meters (much closer to the transition), and other species in the table have depth ranges that approach or already encompass mesophotic waters.<br/><br/>That matches the correct answer — <strong>A</strong> is correct."
+    }
+  ]
+}

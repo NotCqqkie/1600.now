@@ -1,1 +1,15 @@
-{"questionId": "bcfca978-b649-44b6-8774-fc731fcc4199_13", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The passage states that <strong>the longer a species has been extinct, the less likely a suitable habitat remains</strong>, so we need the candidate that has been extinct the longest."}, {"title": "Apply the signal to the choices", "content": "Choice B (saber-toothed cat, extinct 11,000 years ago) gives a specific, far-back date that the other options either lack or cannot match while staying directly supported by the table data.<br/>Choice C describes the woolly mammoth only relative to the saber-toothed cat without the table giving a usable absolute date that the statement requires for this comparison.<br/><br/>Choices A and D describe species that died out far more recently (passenger pigeon, Caribbean monk seal in 1952).<br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "bcfca978-b649-44b6-8774-fc731fcc4199_13",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The passage states that <strong>the longer a species has been extinct, the less likely a suitable habitat remains</strong>, so we need the candidate that has been extinct the longest."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "Choice B (saber-toothed cat, extinct 11,000 years ago) gives a specific, far-back date that the other options either lack or cannot match while staying directly supported by the table data.<br/>The correct answer describes the woolly mammoth only relative to the saber-toothed cat without the table giving a usable absolute date that the statement requires for this comparison.<br/><br/>The other choices describe species that died out far more recently (passenger pigeon, Caribbean monk seal in 1952).<br/>That is the correct answer."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_3", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Apply the definition", "content": "A species is classified as <strong>tall</strong> when its typical height is more than 100 centimeters: $h > 100$."}, {"title": "Test the choices", "content": "Among $14$, $41$, $78$, and $107$, only $107 > 100$ — the others fall below the cutoff.<br/><br/>So the only height consistent with the tall classification is $h = 107$.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_3",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the definition",
+      "content": "A species is classified as <strong>tall</strong> when its typical height is more than 100 centimeters: $h \\gt 100$."
+    },
+    {
+      "title": "Test the choices",
+      "content": "Among $14$, $41$, $78$, and $107$, only $107 \\gt 100$ — the others fall below the cutoff.<br/><br/>So the only height consistent with the tall classification is $h = 107$.<br/><br/>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

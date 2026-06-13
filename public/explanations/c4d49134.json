@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice D is correct. Choice A is only the initial speed, and choices B and C do not add the full $3$ mph per second for $5$ seconds.",
+      "content": "The result is correct. The correct answer is only the initial speed, and the other choices do not add the full $3$ mph per second for $5$ seconds.",
       "desmosExpressions": [
         "y=40+3x",
         "x=5"

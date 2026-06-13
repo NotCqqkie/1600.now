@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the growth multiplier",
-      "content": "An $8\\%$ annual increase means one year after the starting point the population is $3000(1.08)=3240$. Use the values at $x=0$ and $x=1$ directly."
+      "content": "An $8\\%$ annual increase means one year after the starting point the population is $\\left(3000\\right)(1.08)=3240$. Use the values at $x=0$ and $x=1$ directly."
     },
     {
       "title": "Build the exponential formula",
-      "content": "The initial population is $3000$, so the starting factor is $3000$. The annual multiplier is $1.08$, so after $x$ years the model is $$p=3000(1.08)^x.$$ This matches choice <strong>D</strong>."
+      "content": "The initial population is $3000$, so the starting factor is $3000$. The annual multiplier is $1.08$, so after $x$ years the model is $$p=3000(1.08)^x.$$ This matches the correct answer, <strong>D</strong>."
     }
   ]
 }

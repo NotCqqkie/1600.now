@@ -1,1 +1,15 @@
-{"questionId":"189b5a24-f2f4-4932-9c4f-36aa310357ed_3","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks what &apos;mastery&apos; means as used in the text. The context: the breezes &apos;meet and conflict as though each strove for the mastery of the air.&apos; The breezes are competing &mdash; each is fighting to gain control over the other. The word must fit a struggle between two opposing forces."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;Domination&apos;</strong>: Control or supremacy over another &mdash; exactly what each breeze is striving to achieve by overpowering the other. &#10003;</li><li><strong>Choice B &mdash; &apos;Familiarity&apos;</strong>: Describes knowledge or acquaintance, not a contested outcome. Breezes don&apos;t fight for familiarity. &#10007;</li><li><strong>Choice C &mdash; &apos;Skillfulness&apos;</strong>: Describes ability or expertise, not dominance over an opponent. &#10007;</li><li><strong>Choice D &mdash; &apos;Comprehension&apos;</strong>: Describes understanding, which has nothing to do with breezes competing for control. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "189b5a24-f2f4-4932-9c4f-36aa310357ed_3",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks what &apos;mastery&apos; means as used in the text. The context: the breezes &apos;meet and conflict as though each strove for the mastery of the air.&apos; The breezes are competing &mdash; each is fighting to gain control over the other. The word must fit a struggle between two opposing forces."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Domination</strong>: Control or supremacy over another &mdash; exactly what each breeze is striving to achieve by overpowering the other. &#10003;</li><li><strong>Choice B &mdash; Familiarity</strong>: Describes knowledge or acquaintance, not a contested outcome. Breezes don&apos;t fight for familiarity. &#10007;</li><li><strong>Choice C &mdash; Skillfulness</strong>: Describes ability or expertise, not dominance over an opponent. &#10007;</li><li><strong>Choice D &mdash; Comprehension</strong>: Describes understanding, which has nothing to do with breezes competing for control. &#10007;</li></ul>That matches <strong>Choice A &mdash; Domination</strong>."
+    }
+  ]
+}

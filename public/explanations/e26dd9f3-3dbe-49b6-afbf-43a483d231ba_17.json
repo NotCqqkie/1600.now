@@ -1,1 +1,15 @@
-{"questionId":"e26dd9f3-3dbe-49b6-afbf-43a483d231ba_17","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence has a singular subject ('The extensor digitorum brevis') and a direct object ('responsibility for extending the middle toes'). The blank must be a finite main verb that agrees with that singular subject."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'bearing'</strong>: a present participle — non-finite, cannot serve as a main verb. &#10007;</li><li><strong>Choice B &mdash; 'to bear'</strong>: an infinitive — non-finite, cannot serve as a main verb. &#10007;</li><li><strong>Choice C &mdash; 'bears'</strong>: third-person singular present tense — a finite verb that agrees with the singular subject. &#10003;</li><li><strong>Choice D &mdash; 'having borne'</strong>: a perfect participle — non-finite, cannot serve as a main verb. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "e26dd9f3-3dbe-49b6-afbf-43a483d231ba_17",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence has a singular subject ('The extensor digitorum brevis') and a direct object ('responsibility for extending the middle toes'). The blank must be a finite main verb that agrees with that singular subject."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"bearing\"</strong>: a present participle — non-finite, cannot serve as a main verb. &#10007;</li><li><strong>\"to bear\"</strong>: an infinitive — non-finite, cannot serve as a main verb. &#10007;</li><li><strong>\"bears\"</strong>: third-person singular present tense — a finite verb that agrees with the singular subject. &#10003;</li><li><strong>\"having borne\"</strong>: a perfect participle — non-finite, cannot serve as a main verb. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+    }
+  ]
+}

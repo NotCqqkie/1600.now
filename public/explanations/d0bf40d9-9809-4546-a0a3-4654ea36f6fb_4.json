@@ -10,7 +10,7 @@
     },
     {
       "title": "Calculate the distance flown",
-      "content": "The pigeon flies at 16 meters per second for 4 seconds. Substituting into the formula:<br/>$$D = 16 \\text{ m/s} \\times 4 \\text{ s} = 64 \\text{ m}$$<br/>That matches choice A — <strong>A</strong> is correct."
+      "content": "The pigeon flies at 16 meters per second for 4 seconds. Substituting into the formula:<br/>$$D = 16 \\text{ m/s} \\times 4 \\text{ s} = 64 \\text{ m}$$<br/>That is the correct answer."
     }
   ]
 }

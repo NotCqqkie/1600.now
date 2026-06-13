@@ -1,1 +1,15 @@
-{"questionId": "aab78b25", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The blank completes an indirect (embedded) question: &ldquo;Moskowitz was hired &hellip; to determine how much artificial sweetener ______.&rdquo; Indirect questions must use statement word order (subject before verb) and end with a period, not a question mark."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'do most people prefer in a diet drink?'</strong>: inverts the subject and auxiliary verb (&ldquo;do most people&rdquo;), which is direct-question word order. An embedded question requires normal declarative order. Also ends with a question mark, incorrect for a statement. &#10007;</li><li><strong>Choice B &mdash; 'do most people prefer in a diet drink.'</strong>: same word-order error as A (&ldquo;do most people prefer&rdquo; is direct-question syntax), making the sentence ungrammatical. &#10007;</li><li><strong>Choice C &mdash; 'most people prefer in a diet drink?'</strong>: word order is correct (subject &ldquo;most people&rdquo; before verb &ldquo;prefer&rdquo;), but ends with a question mark. The sentence as a whole is a statement, so it must end with a period. &#10007;</li><li><strong>Choice D &mdash; 'most people prefer in a diet drink.'</strong>: uses correct declarative word order and ends with a period, properly closing the statement. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "aab78b25",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank completes an indirect (embedded) question: &ldquo;Moskowitz was hired &hellip; to determine how much artificial sweetener ______.&rdquo; Indirect questions must use statement word order (subject before verb) and end with a period, not a question mark."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; do most people prefer in a diet drink?</strong>: inverts the subject and auxiliary verb (&ldquo;do most people&rdquo;), which is direct-question word order. An embedded question requires normal declarative order. Also ends with a question mark, incorrect for a statement. &#10007;</li><li><strong>Choice B &mdash; do most people prefer in a diet drink.</strong>: same word-order error as A (&ldquo;do most people prefer&rdquo; is direct-question syntax), making the sentence ungrammatical. &#10007;</li><li><strong>Choice C &mdash; most people prefer in a diet drink?</strong>: word order is correct (subject &ldquo;most people&rdquo; before verb &ldquo;prefer&rdquo;), but ends with a question mark. The sentence as a whole is a statement, so it must end with a period. &#10007;</li><li><strong>Choice D &mdash; most people prefer in a diet drink.</strong>: uses correct declarative word order and ends with a period, properly closing the statement. &#10003;</li></ul>That is the correct answer."
+    }
+  ]
+}

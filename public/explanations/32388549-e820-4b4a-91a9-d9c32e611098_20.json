@@ -9,7 +9,7 @@
     },
     {
       "title": "Find the y-intercepts and their positive difference",
-      "content": "$a = f(0) = -2(0-4)^2 - 6 = -2(16) - 6 = -38$<br/>$b = 5 \\cdot f(0) = 5(-38) = -190$<br/>Positive difference: $|b - a| = |-190 - (-38)| = 152$. The answer is <strong>152</strong>."
+      "content": "$a = f(0) = -2(0-4)^2 - 6 = -2(16) - 6 = -38$<br/>$b = 5 \\cdot f(0) = 5(-38) = -190$<br/>Positive difference: $|b - a| = |-190 - (-38)| = 152$. The answer is <strong>152</strong>. The problem asks for a positive difference, so the order of subtraction is handled by the absolute value."
     }
   ]
 }

@@ -305,7 +305,7 @@
     "difficulty": "Easy",
     "question_number": 10,
     "test_name": "Module Source 192 Math M1",
-    "passage": "$0.2 t + 3 = 6$ describes this situation, where $t$ is the number of months it will take for Antwon's hair to reach a length of 6 inches. Which of the following is the best interpretation of $0.2$ in this context?",
+    "passage": "$0.2t + 3 = 6$ describes this situation, where $t$ is the number of months it will take for Antwon's hair to reach a length of 6 inches. Which of the following is the best interpretation of $0.2$ in this context?",
     "question_text": null,
     "choices": [
       {
@@ -367,7 +367,7 @@
     "difficulty": "Hard",
     "question_number": 13,
     "test_name": "Module Source 192 Math M1",
-    "passage": "$\\frac{12x+28}{4}-\\frac{s}{13}=r\\left(x-8\\right)$\nIn the given equation, $s$ and $r$ are constants, and $s>0$. If the equation has infinitely many solutions, what is the value of $s$?",
+    "passage": "$\\frac{12x+28}{4}-\\frac{s}{13}=r\\left(x-8\\right)$\nIn the given equation, $s$ and $r$ are constants, and $s\\gt 0$. If the equation has infinitely many solutions, what is the value of $s$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -387,19 +387,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$86 < h < 86$"
+        "text": "$86 \\lt h \\lt 86$"
       },
       {
         "label": "B",
-        "text": "$86 < h < 89$"
+        "text": "$86 \\lt h \\lt 89$"
       },
       {
         "label": "C",
-        "text": "$86 < h < 100$"
+        "text": "$86 \\lt h \\lt 100$"
       },
       {
         "label": "D",
-        "text": "$86 < h < 154$"
+        "text": "$86 \\lt h \\lt 154$"
       }
     ],
     "is_fill_in_blank": false,
@@ -414,7 +414,7 @@
     "difficulty": "Medium",
     "question_number": 15,
     "test_name": "Module Source 192 Math M1",
-    "passage": "$y = 8x$\n$y = x^2 - 20$\nA solution to the given system of equations is $(x, y)$, where $x > 0$. What is the value of $x$?",
+    "passage": "$y = 8x$\n$y = x^2 - 20$\nA solution to the given system of equations is $(x, y)$, where $x \\gt 0$. What is the value of $x$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -461,7 +461,7 @@
     "difficulty": "Medium",
     "question_number": 17,
     "test_name": "Module Source 192 Math M1",
-    "passage": "For a certain type of rope, the equation $y = 900 a x^2$, where $a$ is a constant, gives the estimated breaking strength $y$, in pounds, of a rope with a circumference of $x$ inches. Based on this equation, if a rope of this type has a circumference of 1.25 inches, it has an estimated breaking strength of 1,968.75 pounds. What is the estimated breaking strength, in pounds, of a rope of this type that has a circumference of 4.50 inches?",
+    "passage": "For a certain type of rope, the equation $y = 900a x^2$, where $a$ is a constant, gives the estimated breaking strength $y$, in pounds, of a rope with a circumference of $x$ inches. Based on this equation, if a rope of this type has a circumference of 1.25 inches, it has an estimated breaking strength of 1,968.75 pounds. What is the estimated breaking strength, in pounds, of a rope of this type that has a circumference of 4.50 inches?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -562,7 +562,7 @@
     "difficulty": "Hard",
     "question_number": 21,
     "test_name": "Module Source 192 Math M1",
-    "passage": "$z(w) = (0.835)^{3w}$\nThe function $z$ is defined by the equation shown. The value of $z(w)$ decreases by $p$% for each increase by 1 in the value of $w$. Which of the following is closest to the value of $p$?",
+    "passage": "$z(w) = (0.835)^{3w}$\nThe function $z$ is defined by the equation shown. The value of $z(w)$ decreases by $p\\%$ for each increase by 1 in the value of $w$. Which of the following is closest to the value of $p$?",
     "question_text": null,
     "choices": [
       {

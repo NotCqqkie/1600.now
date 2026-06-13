@@ -9,11 +9,11 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "Test choice A, $x=6$: the mean is $\\frac{64+6}{5}=14$. Ordered, the list is $6,14,15,17,18$, so the median is $15$. Since the mean and median are not equal, $x=6$ is not possible."
+      "content": "Test choice A, 6: if $x = 6$, the mean is $\\frac{64+6}{5}=14$. Ordered, the list is $6,14,15,17,18$, so the median is $15$. Since the mean and median are not equal, $x = 6$ is not possible."
     },
     {
       "title": "Confirm the answer",
-      "content": "<ul><li>A: mean $14$, median $15$ &mdash; not equal, so this is the value that is <em>not</em> possible.</li><li>B: mean $15$, median $15$ &mdash; possible.</li><li>C: mean $16$, median $16$ &mdash; possible.</li><li>D: mean $17$, median $17$ &mdash; possible.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li>A: mean $14$, median $15$ &mdash; not equal, so this is the value that is <em>not</em> possible.</li><li>B: mean $15$, median $15$ &mdash; possible.</li><li>C: mean $16$, median $16$ &mdash; possible.</li><li>D: mean $17$, median $17$ &mdash; possible.</li></ul>That is the correct answer."
     }
   ]
 }

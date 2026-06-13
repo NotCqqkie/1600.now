@@ -13,7 +13,7 @@
     },
     {
       "title": "Take the cube root and check each choice",
-      "content": "$$k = \\sqrt[3]{1{,}032.6} \\approx 10.11$$<br/><ul><li>A) $2.52$: $(2.52)^3 \\approx 16$, giving $V \\approx 7.3$. Way too small. Eliminate.</li><li>B) $7.67$: $(7.67)^3 \\approx 451$, giving $V \\approx 207$. Too small. Eliminate.</li><li>C) $7.79$: $(7.79)^3 \\approx 473$, but plugging in gives $V \\approx 217$, not $473$. Eliminate.</li><li>D) $10.11$: $(10.11)^3 \\approx 1{,}033$, giving $V \\approx 473$. Match.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "content": "$$k = \\sqrt[3]{1{,}032.6} \\approx 10.11$$<br/><ul><li>A) $2.52$: $(2.52)^3 \\approx 16$, giving $V \\approx 7.3$. Way too small. Eliminate.</li><li>B) $7.67$: $(7.67)^3 \\approx 451$, giving $V \\approx 207$. Too small. Eliminate.</li><li>C) $7.79$: $(7.79)^3 \\approx 473$, but plugging in gives $V \\approx 217$, not $473$. Eliminate.</li><li>D) $10.11$: $(10.11)^3 \\approx 1{,}033$, giving $V \\approx 473$. Match.</li></ul><strong>D</strong> is correct."
     }
   ]
 }

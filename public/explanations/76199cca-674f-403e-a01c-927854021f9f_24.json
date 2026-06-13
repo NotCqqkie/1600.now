@@ -1,1 +1,15 @@
-{"questionId":"76199cca-674f-403e-a01c-927854021f9f_24","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The student wants to emphasize a <em>difference</em> between the two supercontinents. The notes give one clear contrast: Ur formed about 3.1 billion years ago, while Euramerica formed about 300 million years ago&mdash;a gap of roughly 2.8 billion years."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Euramerica formed about 300 million years ago, but Ur formed much earlier&mdash;about 3.1 billion years ago.'</strong>: Names both supercontinents, uses &quot;but&quot; and &quot;much earlier&quot; to directly contrast their formation times. &#10003;</li><li><strong>Choice B &mdash; 'Forming and breaking apart over hundreds of millions of years, supercontinents are made up of most or all of Earth&apos;s continents.'</strong>: Describes supercontinents in general; neither Ur nor Euramerica is named, so no comparison is possible. &#10007;</li><li><strong>Choice C &mdash; 'Ur and Euramerica were both supercontinents, single landmasses made up of most or all of Earth&apos;s continents.'</strong>: Emphasizes a <em>similarity</em> (&quot;both supercontinents&quot;), not a difference. &#10007;</li><li><strong>Choice D &mdash; 'Ur formed about 3.1 billion years ago but eventually broke apart.'</strong>: Mentions only Ur; Euramerica never appears, so there is nothing to compare. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "76199cca-674f-403e-a01c-927854021f9f_24",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The student wants to emphasize a <em>difference</em> between the two supercontinents. The notes give one clear contrast: Ur formed about 3.1 billion years ago, while Euramerica formed about 300 million years ago&mdash;a gap of roughly 2.8 billion years."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Euramerica formed about 300 million years ago, but Ur formed much earlier—about 3.1 billion years ago.&rsquo;</strong>: Names both supercontinents, uses &quot;but&quot; and &quot;much earlier&quot; to directly contrast their formation times. &#10003;</li><li><strong>Choice B &mdash; &lsquo;Forming and breaking apart over hundreds of millions of years, supercontinents are made up of most or all of Earth's continents.&rsquo;</strong>: Describes supercontinents in general; neither Ur nor Euramerica is named, so no comparison is possible. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Ur and Euramerica were both supercontinents, single landmasses made up of most or all of Earth's continents.&rsquo;</strong>: Emphasizes a <em>similarity</em> (&quot;both supercontinents&quot;), not a difference. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Ur formed about 3.1 billion years ago but eventually broke apart.&rsquo;</strong>: Mentions only Ur; Euramerica never appears, so there is nothing to compare. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

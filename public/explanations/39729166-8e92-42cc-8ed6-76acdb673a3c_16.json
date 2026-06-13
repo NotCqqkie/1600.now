@@ -9,11 +9,11 @@
     },
     {
       "title": "Count the solutions",
-      "content": "Dividing by $2{,}590$ gives the unique solution $x=0$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."
+      "content": "Dividing by $2{,}590$ gives the unique solution $x=0$. <strong>B</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice B, Exactly one. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches the correct answer, Exactly one. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
     }
   ]
 }

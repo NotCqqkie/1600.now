@@ -3,10 +3,22 @@
   "correctAnswer": "C",
   "section": "Math",
   "steps": [
-    "The graph passes through $(-5,0)$, $(1,0)$, and $(4,0)$, so the zeros of $f$ are $x = -5$, $x = 1$, and $x = 4$.",
-    "By the Factor Theorem: if $f(a) = 0$, then $(x - a)$ is a factor. So the factors corresponding to the zeros are $(x+5)$, $(x-1)$, and $(x-4)$.",
-    "Scan the choices for any of these three factors: $(x+5)$ is not listed; $(x-1)$ is choice C; $(x-4)$ is not listed.",
-    "Choice C, $(x-1)$, must be a factor because $f(1) = 0$."
+    {
+      "title": "Step 1",
+      "content": "The graph passes through $(-5,0)$, $(1,0)$, and $(4,0)$, so the zeros of $f$ are $x = -5$, $x = 1$, and $x = 4$."
+    },
+    {
+      "title": "Step 2",
+      "content": "By the Factor Theorem: if $f(a) = 0$, then $(x - a)$ is a factor. So the factors corresponding to the zeros are $(x+5)$, $(x-1)$, and $(x-4)$."
+    },
+    {
+      "title": "Step 3",
+      "content": "Scan the choices for any of these three factors: $(x+5)$ is not listed; $(x-1)$ is the correct answer; $(x-4)$ is not listed."
+    },
+    {
+      "title": "Step 4",
+      "content": "The matching choice, $(x-1)$, must be a factor because $f(1) = 0$."
+    }
   ],
-  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; '$x+1$'</strong>: This factor implies a zero at $x = -1$. The graph does not pass through $(-1, 0)$, so $(x+1)$ need not be a factor. &#10007;</li><li><strong>Choice B &mdash; '$x+4$'</strong>: This factor implies a zero at $x = -4$. The graph does not pass through $(-4, 0)$, so $(x+4)$ need not be a factor. &#10007;</li><li><strong>Choice C &mdash; '$x-1$'</strong>: This factor implies a zero at $x = 1$. The graph passes through $(1, 0)$, confirming $f(1) = 0$, so $(x-1)$ must be a factor by the Factor Theorem. &#10003;</li><li><strong>Choice D &mdash; '$x-5$'</strong>: This factor implies a zero at $x = 5$. The graph does not pass through $(5, 0)$, so $(x-5)$ need not be a factor. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+  "choiceAnalysis": "<ul><li><strong>Choice A — $x+1$</strong>: This factor implies a zero at $x = -1$. The graph does not pass through $(-1, 0)$, so $(x+1)$ need not be a factor. &#10007;</li><li><strong>Choice B — $x+4$</strong>: This factor implies a zero at $x = -4$. The graph does not pass through $(-4, 0)$, so $(x+4)$ need not be a factor. &#10007;</li><li><strong>Choice C — $x-1$</strong>: This factor implies a zero at $x = 1$. The graph passes through $(1, 0)$, confirming $f(1) = 0$, so $(x-1)$ must be a factor by the Factor Theorem. &#10003;</li><li><strong>Choice D — $x-5$</strong>: This factor implies a zero at $x = 5$. The graph does not pass through $(5, 0)$, so $(x-5)$ need not be a factor. &#10007;</li></ul><strong>C</strong> is correct."
 }

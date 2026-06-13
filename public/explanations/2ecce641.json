@@ -9,7 +9,7 @@
     },
     {
       "title": "Read the starting balance",
-      "content": "At $x=0$, the graph crosses the $y$-axis at $20$. The $y$-axis is in dollars, so the starting account balance was $20.",
+      "content": "At $x=0$, the graph crosses the $y$-axis at $20$. The $y$-axis is in dollars, so the starting account balance was 20 dollars.",
       "desmosExpressions": [
         "(0,20)",
         "y=2x+20"

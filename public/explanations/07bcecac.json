@@ -9,7 +9,7 @@
     },
     {
       "title": "Interpret the value $P(8) = 32.91$",
-      "content": "The statement $P(8) \\approx 32.91$ means that when $t = 8$, the population is 32.91 million.<br/><br/>Since $t = 8$ corresponds to 8 years after 1984, we conclude: <strong>8 years after 1984, the predicted population is approximately 32.91 million.</strong> That matches choice C — <strong>C</strong> is correct."
+      "content": "The statement $P(8) \\approx 32.91$ means that when $t = 8$, the population is 32.91 million.<br/><br/>Since $t = 8$ corresponds to 8 years after 1984, we conclude: <strong>8 years after 1984, the predicted population is approximately 32.91 million.</strong> That matches <strong>Choice C &mdash; $8$ years after $1984$, the predicted population of this country was approximately $32.91$ million.</strong>."
     }
   ]
 }

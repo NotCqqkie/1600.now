@@ -9,11 +9,11 @@
     },
     {
       "title": "Find the bounds on x",
-      "content": "The fixed sides give the upper bound: $6+12>x$, so $x\\lt18$. The smaller fixed side plus $x$ must exceed the larger fixed side: $6+x>12$, so $x>6$."
+      "content": "The fixed sides give the upper bound: $6+12\\gt x$, so $x\\lt18$. The smaller fixed side plus $x$ must exceed the larger fixed side: $6+x\\gt 12$, so $x\\gt 6$."
     },
     {
       "title": "Combine and choose",
-      "content": "Together, the possible lengths are $6\\lt x\\lt18$. That matches choice C, so <strong>C</strong> is correct."
+      "content": "Together, the possible lengths are $6\\lt x\\lt18$. That confirms <strong>C</strong> is correct."
     }
   ]
 }

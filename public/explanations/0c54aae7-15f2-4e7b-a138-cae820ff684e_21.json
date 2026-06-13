@@ -17,7 +17,7 @@
     },
     {
       "title": "Apply Pythagorean theorem to find pyramid height",
-      "content": "In a right square pyramid, the slant height $l$, height $h$, and distance from center to edge midpoint form a right triangle.<br/><br/>This distance is $s/2 = 90$: $$l^2 = h^2 + 90^2$$ $$106^2 = h^2 + 90^2$$ $$11,236 = h^2 + 8,100$$ $$h^2 = 3,136$$ $$h = 56 \\text{ inches}$$ That matches choice A — <strong>A</strong> is correct."
+      "content": "In a right square pyramid, the slant height $l$, height $h$, and distance from center to edge midpoint form a right triangle.<br/><br/>This distance is $s/2 = 90$: $$l^2 = h^2 + 90^2$$ $$106^2 = h^2 + 90^2$$ $$11,236 = h^2 + 8,100$$ $$h^2 = 3,136$$ $$h = 56 \\text{ inches}$$ That matches <strong>Choice A &mdash; $56$</strong>."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId": "dbd99943-454f-4340-b42a-6a27b20e090c_25", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The student's goal is to indicate the size of the Pilot Knob NWR. The only note that gives size information is: 'It encompasses 90 acres.' The correct choice must include that specific figure."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'The Pilot Knob NWR is a protected natural area managed by the US Fish &amp; Wildlife Service, which limits human activities there.'</strong>: covers management and access restrictions &mdash; no acreage. &#10007;</li><li><strong>Choice B &mdash; 'The Pilot Knob NWR is a natural area in Missouri, home to the Indiana bat.'</strong>: gives location and a species &mdash; no acreage. &#10007;</li><li><strong>Choice C &mdash; 'Home to the Indiana bat, Missouri&apos;s Pilot Knob NWR is managed by the US Fish &amp; Wildlife Service.'</strong>: covers species and management &mdash; no acreage. &#10007;</li><li><strong>Choice D &mdash; 'A protected natural area, the Pilot Knob NWR encompasses 90 acres of land in Missouri.'</strong>: directly states the 90-acre size. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "dbd99943-454f-4340-b42a-6a27b20e090c_25",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The student's goal is to indicate the size of the Pilot Knob NWR. The only note that gives size information is: 'It encompasses 90 acres.' The correct choice must include that specific figure."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"The Pilot Knob NWR is a protected natural area managed by the US Fish & Wildlife Service, which limits human activities there.\"</strong>: covers management and access restrictions &mdash; no acreage. &#10007;</li><li><strong>\"The Pilot Knob NWR is a natural area in Missouri, home to the Indiana bat.\"</strong>: gives location and a species &mdash; no acreage. &#10007;</li><li><strong>\"Home to the Indiana bat, Missouri's Pilot Knob NWR is managed by the US Fish & Wildlife Service.\"</strong>: covers species and management &mdash; no acreage. &#10007;</li><li><strong>\"A protected natural area, the Pilot Knob NWR encompasses 90 acres of land in Missouri.\"</strong>: directly states the 90-acre size. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

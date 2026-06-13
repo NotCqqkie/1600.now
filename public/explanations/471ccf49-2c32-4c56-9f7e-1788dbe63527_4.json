@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Calculate the cost of confetti",
-      "content": "Sophia bought 10 packages of confetti at \\$3 per package. Multiply to find the total cost:<br/>$$10 \\times 3 = 30$$<br/>She spent \\$30 on confetti."
+      "content": "Sophia bought 10 packages of confetti at 3 dollars per package. Multiply to find the total cost:<br/>$$10 \\times 3 = 30$$<br/>She spent 30 dollars on confetti."
     },
     {
       "title": "Find the number of balloons",
-      "content": "She spent \\$56 total and \\$30 on confetti, so:<br/>$$56 - 30 = 26$$<br/>This is the amount left for balloons. Since each balloon costs \\$1, Sophia bought <strong>26 balloons</strong>."
+      "content": "She spent 56 dollars total and 30 dollars on confetti, so:<br/>$$56 - 30 = 26$$<br/>This is the amount left for balloons. Since each balloon costs 1 dollar, Sophia bought <strong>26 balloons</strong>."
     }
   ]
 }

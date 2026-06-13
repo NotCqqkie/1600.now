@@ -1,1 +1,15 @@
-{"questionId": "b6c7623b-7d8b-46cb-8108-4c4c677bdc88_27", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The goal is to &lsquo;specify when Kenorland formed.&rsquo; The notes contain one bullet with that information: &lsquo;Kenorland formed about 2.6 billion years ago.&rsquo; The correct answer must include that specific timing, not vague language or unrelated facts."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'Long ago, the Earth was home to supercontinents like Kenorland and Rodinia.'</strong>: &lsquo;Long ago&rsquo; is imprecise and does not specify when Kenorland formed. &#10007;</li><li><strong>Choice B &mdash; 'The supercontinent Kenorland formed about 2.6 billion years ago.'</strong>: directly states Kenorland&rsquo;s formation timing using the exact figure from the notes. &#10003;</li><li><strong>Choice C &mdash; 'Over hundreds of millions of years, the supercontinent cycle results in supercontinents forming and breaking apart.'</strong>: describes the supercontinent cycle in general &mdash; no mention of Kenorland&rsquo;s specific formation date. &#10007;</li><li><strong>Choice D &mdash; 'Kenorland was a supercontinent, a single landmass made up of most or all of Earth&rsquo;s continents.'</strong>: defines what a supercontinent is but says nothing about when Kenorland formed. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "b6c7623b-7d8b-46cb-8108-4c4c677bdc88_27",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The goal is to &lsquo;specify when Kenorland formed.&rsquo; The notes contain one bullet with that information: &lsquo;Kenorland formed about 2.6 billion years ago.&rsquo; The correct answer must include that specific timing, not vague language or unrelated facts."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Long ago, the Earth was home to supercontinents like Kenorland and Rodinia.</strong>: &lsquo;Long ago&rsquo; is imprecise and does not specify when Kenorland formed. &#10007;</li><li><strong>Choice B &mdash; The supercontinent Kenorland formed about 2.6 billion years ago.</strong>: directly states Kenorland&rsquo;s formation timing using the exact figure from the notes. &#10003;</li><li><strong>Choice C &mdash; Over hundreds of millions of years, the supercontinent cycle results in supercontinents forming and breaking apart.</strong>: describes the supercontinent cycle in general &mdash; no mention of Kenorland&rsquo;s specific formation date. &#10007;</li><li><strong>Choice D &mdash; Kenorland was a supercontinent, a single landmass made up of most or all of Earth's continents.</strong>: defines what a supercontinent is but says nothing about when Kenorland formed. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

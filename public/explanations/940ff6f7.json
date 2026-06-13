@@ -1,1 +1,15 @@
-{"questionId": "940ff6f7", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the punctuation problem at the blank", "content": "The blank sits between two independent clauses: &ldquo;Jamaican British artist Willard Wigan is known for his remarkable microsculptures&rdquo; and &ldquo;Wigan&rsquo;s sculptures are made from tiny natural materials, such as spiderweb strands&rdquo; (with the noun phrase &ldquo;creations so small they can only be seen through a microscope&rdquo; modifying the subject of the second clause). With option B &mdash; &lsquo;microsculptures, creations&rsquo; &mdash; a comma alone joins two independent clauses, creating a comma splice. A comma cannot properly join independent clauses."}, {"title": "Use a period to establish sentence boundaries", "content": "A period fixes a comma splice by establishing a proper sentence boundary.<br/><br/>Option C uses a period after &ldquo;microsculptures,&rdquo; separating the two independent clauses into complete sentences.<br/><br/>Options A, B, and D fail to resolve this &mdash; A is a run-on (fused sentences with no punctuation between the clauses), while B and D leave the comma splice intact.<br/><br/>This matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "940ff6f7",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the punctuation problem at the blank",
+      "content": "The blank sits between two independent clauses: &ldquo;Jamaican British artist Willard Wigan is known for his remarkable microsculptures&rdquo; and &ldquo;Wigan&rsquo;s sculptures are made from tiny natural materials, such as spiderweb strands&rdquo; (with the noun phrase &ldquo;creations so small they can only be seen through a microscope&rdquo; modifying the subject of the second clause). With option B &mdash; &lsquo;microsculptures, creations&rsquo; &mdash; a comma alone joins two independent clauses, creating a comma splice. A comma cannot properly join independent clauses."
+    },
+    {
+      "title": "Use a period to establish sentence boundaries",
+      "content": "A period fixes a comma splice by establishing a proper sentence boundary.<br/><br/>The correct answer uses a period after &ldquo;microsculptures,&rdquo; separating the two independent clauses into complete sentences.<br/><br/>The remaining choices fail to resolve this &mdash; A is a run-on (fused sentences with no punctuation between the clauses), while B and D leave the comma splice intact.<br/><br/>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

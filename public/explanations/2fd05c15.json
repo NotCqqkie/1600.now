@@ -1,1 +1,15 @@
-{"questionId": "2fd05c15", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the blank fills and the rule that applies", "content": "The sentence reads: &quot;her 2019 novel ______ offers a delicious twist...&quot; The blank is the novel&rsquo;s title, which sits between the noun phrase &quot;her 2019 novel&quot; and the verb &quot;offers.&quot; Standard English does not place any punctuation between a subject and the verb that immediately follows it; the title simply slots in with no mark on either side."}, {"title": "Eliminate each wrong choice and confirm the answer", "content": "<ul><li><strong>Choice A &mdash; &lsquo;<em>Gingerbread</em>&mdash;&rsquo;</strong>: An em dash after the title interrupts the subject before its verb, creating an incomplete construction. &#10007;</li><li><strong>Choice B &mdash; &lsquo;<em>Gingerbread,</em>&rsquo;</strong>: A comma between the subject and the verb is never acceptable in standard English grammar. &#10007;</li><li><strong>Choice C &mdash; &lsquo;<em>Gingerbread</em>&rsquo;</strong>: The title alone, with no following punctuation, allows &quot;her 2019 novel <em>Gingerbread</em>&quot; to function smoothly as the subject of &quot;offers.&quot; &#10003;</li><li><strong>Choice D &mdash; &lsquo;<em>Gingerbread:</em>&rsquo;</strong>: A colon after the title implies the verb phrase will define or list something introduced by the title, which is grammatically inappropriate here. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "2fd05c15",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the blank fills and the rule that applies",
+      "content": "The sentence reads: &quot;her 2019 novel ______ offers a delicious twist...&quot; The blank is the novel&rsquo;s title, which sits between the noun phrase &quot;her 2019 novel&quot; and the verb &quot;offers.&quot; Standard English does not place any punctuation between a subject and the verb that immediately follows it; the title simply slots in with no mark on either side."
+    },
+    {
+      "title": "Eliminate each wrong choice and confirm the answer",
+      "content": "<ul><li><strong>Choice A — <em>Gingerbread</em>—</strong>: An em dash after the title interrupts the subject before its verb, creating an incomplete construction. &#10007;</li><li><strong>Choice B — <em>Gingerbread,</em></strong>: A comma between the subject and the verb is never acceptable in standard English grammar. &#10007;</li><li><strong>Choice C — <em>Gingerbread</em></strong>: The title alone, with no following punctuation, allows &quot;her 2019 novel <em>Gingerbread</em>&quot; to function smoothly as the subject of &quot;offers.&quot; &#10003;</li><li><strong>Choice D — <em>Gingerbread:</em></strong>: A colon after the title implies the verb phrase will define or list something introduced by the title, which is grammatically inappropriate here. &#10007;</li></ul><strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "a226962a-9c3e-4022-aee4-7a2796cbe032_18", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the phrase requiring punctuation", "content": "After “material,” the text continues with “to craft baskets that are both beautiful and whimsical.” This is an <strong>infinitive phrase</strong>—a fragment containing a verbal (“to craft”) but no independent clause."}, {"title": "Apply the sentence boundary rule", "content": "In Standard English, a period marks a sentence boundary and requires a complete sentence (independent clause) on both sides. “To craft baskets...” is a fragment, eliminating (C).<br/><br/>A semicolon joins two independent clauses, but “to craft baskets” is not a clause, eliminating (A).<br/><br/>A colon typically introduces lists or elaborations that are independent clauses; infinitive phrases don't fit that pattern, eliminating (B).<br/><br/>An em dash can introduce elaborations and explanations without requiring a complete sentence—it clarifies what the material is used for, showing its purpose. <br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "a226962a-9c3e-4022-aee4-7a2796cbe032_18",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the phrase requiring punctuation",
+      "content": "After “material,” the text continues with “to craft baskets that are both beautiful and whimsical.” This is an <strong>infinitive phrase</strong>—a fragment containing a verbal (“to craft”) but no independent clause."
+    },
+    {
+      "title": "Apply the sentence boundary rule",
+      "content": "In Standard English, a period marks a sentence boundary and requires a complete sentence (independent clause) on both sides. “To craft baskets...” is a fragment, eliminating (C).<br/><br/>A semicolon joins two independent clauses, but “to craft baskets” is not a clause, eliminating (A).<br/><br/>A colon typically introduces lists or elaborations that are independent clauses; infinitive phrases don't fit that pattern, eliminating (B).<br/><br/>An em dash can introduce elaborations and explanations without requiring a complete sentence—it clarifies what the material is used for, showing its purpose. <br/><br/>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the student needs to communicate",
-      "content": "The student's goal is to \u201cindicate how long John Cage's musical piece will last.\u201d The notes provide the essential detail: \u201cThe performance will last 639 years.\u201d"
+      "content": "The student's goal is to “indicate how long John Cage's musical piece will last.” The notes provide the essential detail: “The performance will last 639 years.”"
     },
     {
       "title": "Select the choice that includes the duration",
-      "content": "Choice A directly includes \u201cLasting 639 years,\u201d stating the specific duration needed to accomplish the goal. The other three choices address location, composer identity, or current status but never mention the duration at all. That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "The correct answer directly includes “Lasting 639 years,” stating the specific duration needed to accomplish the goal. The other three choices address location, composer identity, or current status but never mention the duration at all. That is the correct answer."
     }
   ]
 }

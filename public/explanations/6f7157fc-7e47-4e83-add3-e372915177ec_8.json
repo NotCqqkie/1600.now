@@ -8,8 +8,8 @@
       "content": "The notation $f(2) = 190$ means we evaluate the function at input $x = 2$. Since $x$ represents <strong>minutes after the seal dives</strong>, the input 2 corresponds to the 2-minute mark. The output is 190, which the problem tells us represents <strong>depth below sea level in meters</strong>."
     },
     {
-      "title": "Interpret in context",
-      "content": "Combining these: $f(2) = 190$ means that 2 minutes after diving, the seal's depth is 190 meters below sea level. That matches choice C — <strong>C</strong> is correct.",
+      "title": "Check the point on the graph",
+      "content": "Combining these: $f(2) = 190$ means that 2 minutes after diving, the seal's depth is 190 meters below sea level. The Desmos point $(2,190)$ confirms the function value visually. That confirms <strong>C</strong> is correct.",
       "desmosExpressions": [
         "f(x) = -9x^2 + 113x",
         "(2, 190)"

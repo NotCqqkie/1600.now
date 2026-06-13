@@ -8,12 +8,12 @@
       "content": "$x^2 - 15x + 12 = 0$ gives $a=1$, $b=-15$."
     },
     {
-      "title": "Apply Vieta&apos;s shortcut: sum = &minus;b/a",
-      "content": "Sum of solutions $= -b/a = -(-15)/1 = 15$. No solving needed. That matches choice A &mdash; <strong>A</strong> is correct."
+      "title": "Apply Vieta's shortcut: sum = &minus;b/a",
+      "content": "Sum of solutions $= -b/a = -(-15)/1 = 15$. No solving needed. That matches the correct answer — <strong>A</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice A, $15$, and the other choices fail the same setup or substitution. Therefore <strong>A</strong> is correct."
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above is $15$, and the other choices fail the same setup or substitution. Therefore <strong>A</strong> is correct."
     }
   ]
 }

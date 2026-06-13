@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li><strong>A)</strong> $(x-4)^2 + (y+5)^2 = 5$ - wrong center signs and $r^2 = 5$. Wrong.</li><li><strong>B)</strong> $(x+4)^2 + (y-5)^2 = 5$ - correct center but $r^2 = 5$ instead of 25. Wrong.</li><li><strong>C)</strong> $(x-4)^2 + (y+5)^2 = 25$ - correct $r^2 = 25$ but center signs are flipped, giving center $(4,-5)$. Wrong.</li><li><strong>D)</strong> $(x+4)^2 + (y-5)^2 = 25$ - correct center $(-4,5)$ and $r^2 = 25$. Correct.</li></ul>That matches choice D - <strong>D</strong> is correct."
+      "content": "<ul><li><strong>A)</strong> $(x-4)^2 + (y+5)^2 = 5$ - wrong center signs and $r^2 = 5$. Wrong.</li><li><strong>B)</strong> $(x+4)^2 + (y-5)^2 = 5$ - correct center but $r^2 = 5$ instead of 25. Wrong.</li><li><strong>C)</strong> $(x-4)^2 + (y+5)^2 = 25$ - correct $r^2 = 25$ but center signs are flipped, giving center $(4,-5)$. Wrong.</li><li><strong>D)</strong> $(x+4)^2 + (y-5)^2 = 25$ - correct center $(-4,5)$ and $r^2 = 25$. Correct.</li></ul>That confirms <strong>D</strong> is correct."
     }
   ]
 }

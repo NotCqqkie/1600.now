@@ -1,1 +1,15 @@
-{"questionId": "4dc81965-4d7d-41a3-a149-fdc37cafa647_13", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the core prediction", "content": "The researcher claims that as human populations migrated farther from Africa, each new language retained progressively fewer sounds from the original language. This predicts a correlation: distance from Africa should correlate with fewer sounds in modern languages."}, {"title": "Test the prediction against the choices", "content": "B directly contradicts the predicted pattern: languages in Europe and Western Asia (closer to Africa) have more sounds than languages in Africa, reversing the expected correlation.<br/><br/>The other options either support the claim or don't test the distance-sound relationship.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "4dc81965-4d7d-41a3-a149-fdc37cafa647_13",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the core prediction",
+      "content": "The researcher claims that as human populations migrated farther from Africa, each new language retained progressively fewer sounds from the original language. This predicts a correlation: distance from Africa should correlate with fewer sounds in modern languages."
+    },
+    {
+      "title": "Test the prediction against the choices",
+      "content": "B directly contradicts the predicted pattern: languages in Europe and Western Asia (closer to Africa) have more sounds than languages in Africa, reversing the expected correlation.<br/><br/>The other options either support the claim or don't test the distance-sound relationship.<br/><br/><strong>B</strong> is correct."
+    }
+  ]
+}

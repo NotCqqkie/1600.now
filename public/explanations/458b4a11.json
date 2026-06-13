@@ -1,1 +1,15 @@
-{"questionId": "458b4a11", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal", "content": "The word “allowed” signals the finding's importance: the unchanged community composition “allowed Kaštovská et al. to attribute the acceleration to temperature-induced increases in microorganism activity.” This word reveals that the finding was essential for reaching their conclusion."}, {"title": "Apply the signal to the choices", "content": "Choice C identifies the critical function: the unchanged composition ruled out the alternative that different microorganisms caused the acceleration, allowing researchers to attribute the faster cycling to temperature-induced activity increases.<br/><br/>A, B, and D address something else—the acceleration's occurrence, geographic reach, or organism-dependent activity variation.<br/><br/>This matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "458b4a11",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal",
+      "content": "The word “allowed” signals the finding's importance: the unchanged community composition “allowed Kaštovská et al. to attribute the acceleration to temperature-induced increases in microorganism activity.” This word reveals that the finding was essential for reaching their conclusion."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "The matching choice identifies the critical function: the unchanged composition ruled out the alternative that different microorganisms caused the acceleration, allowing researchers to attribute the faster cycling to temperature-induced activity increases.<br/><br/>A, B, and D address something else—the acceleration's occurrence, geographic reach, or organism-dependent activity variation.<br/><br/>This matches the correct answer — <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,19 @@
-{"questionId":"1fc2cc40-1a64-44a1-8ebe-eca45e868415_5","correctAnswer":"30","section":"Math","steps":[{"title":"Set up","content":"The initial deposit is the account balance at month $x=0$, which is the $y$-intercept of the graph of $f$."},{"title":"Solve","content":"Read the $y$-intercept from the graph: the line crosses the $y$-axis at $y=30$, so the initial deposit is $\\$30$."},{"title":"Answer","content":"<strong>30</strong> is correct."}]}
+{
+  "questionId": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_5",
+  "correctAnswer": "30",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "The initial deposit is the account balance at month $x=0$, which is the $y$-intercept of the graph of $f$."
+    },
+    {
+      "title": "Solve",
+      "content": "Read the $y$-intercept from the graph: the line crosses the $y$-axis at $y=30$, so the initial deposit is 30 dollars."
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>30</strong> is correct."
+    }
+  ]
+}

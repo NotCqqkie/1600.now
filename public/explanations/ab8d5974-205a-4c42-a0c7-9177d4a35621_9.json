@@ -1,1 +1,15 @@
-{"questionId":"ab8d5974-205a-4c42-a0c7-9177d4a35621_9","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage says some historians suggest Maya mathematicians inherited the zero symbol from the Olmec civilization. Find the choice that accurately reflects this claim."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; Maya mathematicians acquired the zero from the Olmec</strong>: &apos;Acquired&apos; matches &apos;inherited&apos; &mdash; both mean received from a prior source. Directly supported by the passage. &#10003;</li><li><strong>Choice B &mdash; historians respect Maya mathematicians more than Olmec mathematicians</strong>: the passage makes no comparison of respect between groups. &#10007;</li><li><strong>Choice C &mdash; Maya mathematicians kept their achievements secret</strong>: no mention of secrecy anywhere in the passage. &#10007;</li><li><strong>Choice D &mdash; Maya mathematicians promoted the Olmec writing system</strong>: the passage is about a symbol for zero, not a writing system promotion. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "ab8d5974-205a-4c42-a0c7-9177d4a35621_9",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage says some historians suggest Maya mathematicians inherited the zero symbol from the Olmec civilization. Find the choice that accurately reflects this claim."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Maya civilization acquired the use of zero from the Olmec civilization.</strong>: &apos;Acquired&apos; matches &apos;inherited&apos; &mdash; both mean received from a prior source. Directly supported by the passage. &#10003;</li><li><strong>Choice B &mdash; Maya civilization respected its historians more than it respected its mathematicians.</strong>: the passage makes no comparison of respect between groups. &#10007;</li><li><strong>Choice C &mdash; Maya civilization was highly secretive about its intellectual achievements.</strong>: no mention of secrecy anywhere in the passage. &#10007;</li><li><strong>Choice D &mdash; Maya civilization tried to introduce its writing system to other civilizations.</strong>: the passage is about a symbol for zero, not a writing system promotion. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

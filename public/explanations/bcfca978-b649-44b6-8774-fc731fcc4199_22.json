@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find the causal clue",
-      "content": "The passage says Loris Taylor wanted stations like KABU to thrive, which explains why she took the next action.<br/>This sets up a cause\u2011effect relationship that the transition must show."
+      "content": "The passage says Loris Taylor wanted stations like KABU to thrive, which explains why she took the next action.<br/>This sets up a cause‑effect relationship that the transition must show."
     },
     {
       "title": "Match the meaning to the choices",
-      "content": "The logical relationship is cause-effect. Taylor's desire for stations like KABU to thrive directly caused her to found Native Public Media.\n<ul>\n<li><strong>Choice A \u2014 \"Regardless,\"</strong>: signals that the second action happened despite something, implying an obstacle \u2014 no obstacle is mentioned, so fails. \u2717</li>\n<li><strong>Choice B \u2014 \"Besides,\"</strong>: signals addition of an unrelated point, not a result, so fails. \u2717</li>\n<li><strong>Choice C \u2014 \"Therefore,\"</strong>: signals that the founding of Native Public Media follows as a result of her goal, so fits. \u2713</li>\n<li><strong>Choice D \u2014 \"In other words,\"</strong>: signals restatement, but founding a new organization is not a restatement of wanting stations to thrive, so fails. \u2717</li>\n</ul>\nThat matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "The logical relationship is cause-effect. Taylor's desire for stations like KABU to thrive directly caused her to found Native Public Media.\n<ul>\n<li><strong>Choice A &mdash; Regardless,</strong>: signals that the second action happened despite something, implying an obstacle — no obstacle is mentioned, so fails. ✗</li>\n<li><strong>Choice B &mdash; Besides,</strong>: signals addition of an unrelated point, not a result, so fails. ✗</li>\n<li><strong>Choice C &mdash; Therefore,</strong>: signals that the founding of Native Public Media follows as a result of her goal, so fits. ✓</li>\n<li><strong>Choice D &mdash; In other words,</strong>: signals restatement, but founding a new organization is not a restatement of wanting stations to thrive, so fails. ✗</li>\n</ul>\nThat is the correct answer."
     }
   ]
 }

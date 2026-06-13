@@ -1,1 +1,15 @@
-{"questionId": "cabe71d4", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structures", "content": "The blank comes after “book packaging” and before the verb “specializes”. We need a noun to fill the blank and a connector to link it to the verb."}, {"title": "Apply the relative clause rule", "content": "The noun “company” fills the blank, and the verb “specializes” requires a relative pronoun to introduce it.<br/><br/>The rule is that “that” introduces relative clauses without a preceding comma. “Company that specializes in...” correctly applies this rule, while options A and C lack the pronoun (leaving ungrammatical gaps) and option D incorrectly places a comma before “that”.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "cabe71d4",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures",
+      "content": "The blank comes after “book packaging” and before the verb “specializes”. We need a noun to fill the blank and a connector to link it to the verb."
+    },
+    {
+      "title": "Apply the relative clause rule",
+      "content": "The noun “company” fills the blank, and the verb “specializes” requires a relative pronoun to introduce it.<br/><br/>The rule is that “that” introduces relative clauses without a preceding comma. “Company that specializes in...” correctly applies this rule. Omitting the pronoun leaves an ungrammatical gap, and placing a comma before “that” incorrectly treats the identifying clause as nonessential.<br/><br/>That is the correct answer."
+    }
+  ]
+}

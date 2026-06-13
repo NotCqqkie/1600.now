@@ -13,7 +13,7 @@
     },
     {
       "title": "Calculate a/b and convert to percentage",
-      "content": "Divide by $b=89$:<br/>$$\\frac{a}{b}=\\frac{23\\cdot89\\cdot189}{100\\cdot89}=\\frac{23\\cdot189}{100}=43.47$$<br/>So $a$ is $43.47\\cdot100\\%=4{,}347\\%$ of $b$. That matches choice <strong>D</strong>."
+      "content": "Divide by $b=89$:<br/>$$\\frac{a}{b}=\\frac{23\\cdot89\\cdot189}{100\\cdot89}=\\frac{23\\cdot189}{100}=43.47$$<br/>So $a$ is $43.47\\cdot100\\%=4{,}347\\%$ of $b$. That matches <strong>D</strong>."
     }
   ]
 }

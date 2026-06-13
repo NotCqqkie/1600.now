@@ -1,1 +1,19 @@
-{"questionId":"5d6ab069","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Restate the hypothesis","content":"Gimsa and colleagues claim the sail improved success in &quot;underwater pursuits of prey species capable of making quick, evasive movements.&quot; Catching evasive prey underwater depends on maneuverability &mdash; the ability to change direction quickly."},{"title":"Predict the supporting result","content":"A finding that the sail model maneuvers better underwater than the no-sail model &mdash; for example, completing sharp turns faster &mdash; would directly back the hypothesis."},{"title":"Eliminate per choice","content":"<ul><li><strong>Choice A &mdash; 'sail... significantly less time to complete a sharp turn'</strong>: faster sharp turns is exactly the maneuverability advantage the hypothesis predicts. &#10003;</li><li><strong>Choice B &mdash; 'displaced significantly more water'</strong>: about volume, not pursuit ability &mdash; irrelevant to chasing evasive prey. &#10007;</li><li><strong>Choice C &mdash; 'significantly less battery power remaining'</strong>: shows the sail costs more energy, which weakens rather than supports the hypothesis. &#10007;</li><li><strong>Choice D &mdash; 'took significantly longer to travel a specified distance'</strong>: slower travel would undercut, not support, success in pursuits. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "5d6ab069",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Restate the hypothesis",
+      "content": "Gimsa and colleagues claim the sail improved success in &quot;underwater pursuits of prey species capable of making quick, evasive movements.&quot; Catching evasive prey underwater depends on maneuverability &mdash; the ability to change direction quickly."
+    },
+    {
+      "title": "Predict the supporting result",
+      "content": "A finding that the sail model maneuvers better underwater than the no-sail model &mdash; for example, completing sharp turns faster &mdash; would directly back the hypothesis."
+    },
+    {
+      "title": "Eliminate per choice",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;The model with a sail took significantly less time to complete a sharp turn while submerged than the model without a sail did.&rsquo;</strong>: faster sharp turns is exactly the maneuverability advantage the hypothesis predicts. &#10003;</li><li><strong>Choice B &mdash; &lsquo;The model with a sail displaced significantly more water while submerged than the model without a sail did.&rsquo;</strong>: about volume, not pursuit ability &mdash; irrelevant to chasing evasive prey. &#10007;</li><li><strong>Choice C &mdash; &lsquo;The model with a sail had significantly less battery power remaining after completing the tests than the model without a sail did.&rsquo;</strong>: shows the sail costs more energy, which weakens rather than supports the hypothesis. &#10007;</li><li><strong>Choice D &mdash; &lsquo;The model with a sail took significantly longer to travel a specified distance while submerged than the model without a sail did.&rsquo;</strong>: slower travel would undercut, not support, success in pursuits. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li>$v^3(v+590) = v^4 + 590v^3$ — wrong sign, eliminate.</li><li>$(v^2+59)(v^2-10) = v^4 - 10v^2 + 59v^2 - 590 = v^4 + 49v^2 - 590$ — eliminate.</li><li>$(v^2-59)(v^2-10) = v^4 - 10v^2 - 59v^2 + 590 = v^4 - 69v^2 + 590$ — eliminate.</li><li>$v^3(v-590) = v^4 - 590v^3$ — matches.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "content": "<ul><li>$v^3(v+590) = v^4 + 590v^3$ — wrong sign, eliminate.</li><li>$(v^2+59)(v^2-10) = v^4 - 10v^2 + 59v^2 - 590 = v^4 + 49v^2 - 590$ — eliminate.</li><li>$(v^2-59)(v^2-10) = v^4 - 10v^2 - 59v^2 + 590 = v^4 - 69v^2 + 590$ — eliminate.</li><li>$v^3(v-590) = v^4 - 590v^3$ — matches.</li></ul>That matches <strong>Choice D &mdash; $v^{3}(v-590)$</strong>."
     }
   ]
 }

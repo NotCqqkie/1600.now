@@ -1,1 +1,15 @@
-{"questionId": "4aa28ac3", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structure", "content": "The sentence reads: “the Olympic committee once decided ______ tug-of-war as an official Olympic event.” The blank must be filled with a verb form that completes the thought after the past-tense verb “decided.”"}, {"title": "Apply the rule for verb 'decide'", "content": "The verb “decide” requires an infinitive (to + base verb). The correct answer is “to include,” producing “decided to include tug-of-war.” The other three choices fail because they're the wrong verb form: “include” lacks the “to,” “including” has -ing without “to,” and “included” is past tense.<br/><br/>This matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "4aa28ac3",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "The sentence reads: “the Olympic committee once decided ______ tug-of-war as an official Olympic event.” The blank must be filled with a verb form that completes the thought after the past-tense verb “decided.”"
+    },
+    {
+      "title": "Apply the rule for verb 'decide'",
+      "content": "The verb “decide” requires an infinitive (to + base verb). The correct answer is “to include,” producing “decided to include tug-of-war.” The other three choices fail because they're the wrong verb form: “include” lacks the “to,” “including” has -ing without “to,” and “included” is past tense.<br/><br/>This matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -124,7 +124,7 @@
     "difficulty": "Hard",
     "question_number": 5,
     "test_name": "Module Source 073 Math M1",
-    "passage": "In triangle $XYZ$, angle $Z$ is a right angle and the length of $YZ¯$ is $24$ units. If $\\tan X=\\frac{12}{35}$, what is the perimeter, in units, of triangle $XYZ$?",
+    "passage": "In triangle $XYZ$, angle $Z$ is a right angle and the length of $\\overline{YZ}$ is $24$ units. If $\\tan X=\\frac{12}{35}$, what is the perimeter, in units, of triangle $XYZ$?",
     "question_text": null,
     "choices": [
       {
@@ -314,7 +314,7 @@
     "difficulty": "Medium",
     "question_number": 13,
     "test_name": "Module Source 073 Math M1",
-    "passage": "$s(t)=184(0.5)^{\\frac{t}{29}}$ gives the approximate mass of this isotope, in grams, that remains $t$ years after a 184-gram sample starts to decay. Which statement is the best interpretation of $s(58)= 46$ in this context?",
+    "passage": "$s(t)=184(0.5)^{\\frac{t}{29}}$ gives the approximate mass of a certain isotope, in grams, that remains $t$ years after a 184-gram sample starts to decay. Which statement is the best interpretation of $s(58)= 46$ in this context?",
     "question_text": null,
     "choices": [
       {
@@ -378,7 +378,7 @@
     "difficulty": "Medium",
     "question_number": 15,
     "test_name": "Module Source 073 Math M1",
-    "passage": "$2x-y>883$\nFor which of the following tables are all the values of $x$ and their corresponding values of $y$ solutions to the given inequality?",
+    "passage": "$2x-y\\gt 883$\nFor which of the following tables are all the values of $x$ and their corresponding values of $y$ solutions to the given inequality?",
     "question_text": null,
     "choices": [
       {
@@ -400,7 +400,7 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
-    "rationale": "Choice D is correct. All the tables in the choices have the same three values of $x$, $440$, $441$, and $442$, so each of the three values of $x$ can be substituted in the given inequality to compare the corresponding values of $y$ in each of the tables. Substituting $440$ for $x$ in the given inequality yields $2\\left(440\\right)-y>883$, or $880-y>883$. Subtracting $880$ from both sides of this inequality yields $-y>3$. Dividing both sides of this inequality by $-1$ yields $y<-3$. Therefore, when $x=440$, the corresponding value of $y$ must be less than $-3$. Substituting $441$ for $x$ in the given inequality yields $2\\left(441\\right)-y>883$, or $882-y>883$. Subtracting $882$ from both sides of this inequality yields $-y>1$. Dividing both sides of this inequality by $-1$ yields $y<-1$. Therefore, when $x=441$, the corresponding value of $y$ must be less than $-1$. Substituting $442$ for $x$ in the given inequality yields $2\\left(442\\right)-y>883$, or $884-y>883$. Subtracting $884$ from both sides of this inequality yields $-y>-1$. Dividing both sides of this inequality by $-1$ yields $y<1$. Therefore, when $x=442$, the corresponding value of $y$ must be less than $1$. For the table in choice D, when $x=440$, the corresponding value of $y$ is $-4$, which is less than $-3$; when $x=441$, the corresponding value of $y$ is $-2$, which is less than $-1$; when $x=442$, the corresponding value of $y$ is $0$, which is less than $1$. Therefore, the table in choice D gives values of $x$ and their corresponding values of $y$ that are all solutions to the given inequality.\nChoice A is incorrect. When $x=440$, the corresponding value of $y$ in this table is $0$, which isn't less than $-3$.\nChoice B is incorrect. When $x=440$, the corresponding value of $y$ in this table is $0$, which isn't less than $-3$.\nChoice C is incorrect. When $x=440$, the corresponding value of $y$ in this table is $-2$, which isn't less than $-3$.",
+    "rationale": "Choice D is correct. All the tables in the choices have the same three values of $x$, $440$, $441$, and $442$, so each of the three values of $x$ can be substituted in the given inequality to compare the corresponding values of $y$ in each of the tables. Substituting $440$ for $x$ in the given inequality yields $2\\left(440\\right)-y\\gt 883$, or $880-y\\gt 883$. Subtracting $880$ from both sides of this inequality yields $-y\\gt 3$. Dividing both sides of this inequality by $-1$ yields $y\\lt -3$. Therefore, when $x=440$, the corresponding value of $y$ must be less than $-3$. Substituting $441$ for $x$ in the given inequality yields $2\\left(441\\right)-y\\gt 883$, or $882-y\\gt 883$. Subtracting $882$ from both sides of this inequality yields $-y\\gt 1$. Dividing both sides of this inequality by $-1$ yields $y\\lt -1$. Therefore, when $x=441$, the corresponding value of $y$ must be less than $-1$. Substituting $442$ for $x$ in the given inequality yields $2\\left(442\\right)-y\\gt 883$, or $884-y\\gt 883$. Subtracting $884$ from both sides of this inequality yields $-y\\gt -1$. Dividing both sides of this inequality by $-1$ yields $y\\lt 1$. Therefore, when $x=442$, the corresponding value of $y$ must be less than $1$. For the table in choice D, when $x=440$, the corresponding value of $y$ is $-4$, which is less than $-3$; when $x=441$, the corresponding value of $y$ is $-2$, which is less than $-1$; when $x=442$, the corresponding value of $y$ is $0$, which is less than $1$. Therefore, the table in choice D gives values of $x$ and their corresponding values of $y$ that are all solutions to the given inequality.\nChoice A is incorrect. When $x=440$, the corresponding value of $y$ in this table is $0$, which isn't less than $-3$.\nChoice B is incorrect. When $x=440$, the corresponding value of $y$ in this table is $0$, which isn't less than $-3$.\nChoice C is incorrect. When $x=440$, the corresponding value of $y$ in this table is $-2$, which isn't less than $-3$.",
     "id": "e723bd67"
   },
   {
@@ -425,7 +425,7 @@
     "difficulty": "Medium",
     "question_number": 17,
     "test_name": "Module Source 073 Math M1",
-    "passage": "A dance studio charges an introductory fee for the first 3 lessons and then charges a fixed fee for each additional lesson. One student took 6 lessons and was charged \\$150. Another student took 17 lessons and was charged \\$480. Which function $f$ gives the total charge, in dollars, for any student who took $x$ lessons, where $x > 2$?",
+    "passage": "A dance studio charges an introductory fee for the first 3 lessons and then charges a fixed fee for each additional lesson. One student took 6 lessons and was charged \\$150. Another student took 17 lessons and was charged \\$480. Which function $f$ gives the total charge, in dollars, for any student who took $x$ lessons, where $x \\gt 2$?",
     "question_text": null,
     "choices": [
       {
@@ -536,7 +536,7 @@
     "difficulty": "Medium",
     "question_number": 21,
     "test_name": "Module Source 073 Math M1",
-    "passage": "In triangle $RST$, the measure of angle $R$ is $50º$, the measure of angle $S$ is $xº,$ and the measure of angle $T$ is $(4x - 5)º$. Point $L$ lies on $\\overline{RS}$, point $K$ lies on $\\overline{ST}$, and $\\overline{LK}$ is parallel to $\\overline{RT}$. What is the measure, in degrees, of angle $SKL$? (Disregard the degree symbol when entering your answer.)",
+    "passage": "In triangle $RST$, the measure of angle $R$ is $50^\\circ$, the measure of angle $S$ is $x^\\circ$, and the measure of angle $T$ is $(4x - 5)^\\circ$. Point $L$ lies on $\\overline{RS}$, point $K$ lies on $\\overline{ST}$, and $\\overline{LK}$ is parallel to $\\overline{RT}$. What is the measure, in degrees, of angle $SKL$? (Disregard the degree symbol when entering your answer.)",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

@@ -13,7 +13,7 @@
     },
     {
       "title": "Eliminate wrong choices and confirm",
-      "content": "<ul><li><strong>Choice A &mdash; '$(x-7)^2+(y+7)^2=1$'</strong>: Center would be (7,-7). The x did not shift and y changed incorrectly. &#10007;</li><li><strong>Choice B &mdash; '$(x-3)^2+(y+3)^2=1$'</strong>: Center would be (3,-3). That shifts left 4, not right. &#10007;</li><li><strong>Choice C &mdash; '$(x-11)^2+(y+3)^2=1$'</strong>: Center is (11,-3), exactly 4 right of (7,-3). &#10003;</li><li><strong>Choice D &mdash; '$(x-7)^2+(y-1)^2=1$'</strong>: Center would be (7,1). The x did not shift and y changed incorrectly. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+      "content": "<ul><li><strong>\"${\\left(x-7\\right)}^{2}+{\\left(y+7\\right)}^{2}=1$\"</strong>: Center would be (7,-7). The x did not shift and y changed incorrectly. &#10007;</li><li><strong>\"${\\left(x-3\\right)}^{2}+{\\left(y+3\\right)}^{2}=1$\"</strong>: Center would be (3,-3). That shifts left 4, not right. &#10007;</li><li><strong>\"${\\left(x-11\\right)}^{2}+{\\left(y+3\\right)}^{2}=1$\"</strong>: Center is (11,-3), exactly 4 right of (7,-3). &#10003;</li><li><strong>\"${\\left(x-7\\right)}^{2}+{\\left(y-1\\right)}^{2}=1$\"</strong>: Center would be (7,1). The x did not shift and y changed incorrectly. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
     }
   ],
   "desmosExpressions": [

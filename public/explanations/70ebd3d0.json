@@ -17,7 +17,7 @@
     },
     {
       "title": "Eliminate each choice",
-      "content": "<ul><li>Choice A: a $1$&nbsp;m increase is not one unit of $d$, and $115$ is the initial value, not a per-step decrease.</li><li>Choice B: a $1$&nbsp;m increase is only $0.01$ units of $d$, so the $10\\%$ figure does not apply per meter.</li><li>Choice C: $100$&nbsp;m is the right step, but $115$ is the starting value, not the amount lost.</li><li>Choice D: $100$&nbsp;m equals one unit of $d$, and one unit multiplies $N$ by $0.90$, a $10\\%$ decrease.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;For every increase in depth by 1 meter, the number of brachiopod species decreases by 115.&rsquo;</strong>: a $1$&nbsp;m increase is not one unit of $d$, and $115$ is the initial value, not a per-step decrease.</li><li><strong>Choice B &mdash; &lsquo;For every increase in depth by 1 meter, the number of brachiopod species decreases by 10%.&rsquo;</strong>: a $1$&nbsp;m increase is only $0.01$ units of $d$, so the $10\\%$ figure does not apply per meter.</li><li><strong>Choice C &mdash; &lsquo;For every increase in depth by 100 meters, the number of brachiopod species decreases by 115.&rsquo;</strong>: $100$&nbsp;m is the right step, but $115$ is the starting value, not the amount lost.</li><li><strong>Choice D &mdash; &lsquo;For every increase in depth by 100 meters, the number of brachiopod species decreases by 10%.&rsquo;</strong>: $100$&nbsp;m equals one unit of $d$, and one unit multiplies $N$ by $0.90$, a $10\\%$ decrease.</li></ul>That confirms <strong>D</strong> is correct."
     }
   ]
 }

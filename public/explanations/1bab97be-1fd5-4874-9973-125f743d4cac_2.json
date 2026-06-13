@@ -1,1 +1,15 @@
-{"questionId":"1bab97be-1fd5-4874-9973-125f743d4cac_2","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"After gaining access to records from previously missing regions, researchers took action on a shortcoming in their data coverage. The blank needs a word meaning to improve or remedy a problem."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'postulate'</strong>: means to propose a theory. Researchers are fixing a data gap, not proposing one. &#10007;</li><li><strong>Choice B &mdash; 'ameliorate'</strong>: means to make something better or less severe. Filling a geographic gap in coverage improves it &mdash; fits exactly. &#10003;</li><li><strong>Choice C &mdash; 'sanction'</strong>: means to authorize or penalize. Neither sense applies to remedying missing data. &#10007;</li><li><strong>Choice D &mdash; 'rationalize'</strong>: means to explain away or justify. Researchers are correcting the gap, not excusing it. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "1bab97be-1fd5-4874-9973-125f743d4cac_2",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "After gaining access to records from previously missing regions, researchers took action on a shortcoming in their data coverage. The blank needs a word meaning to improve or remedy a problem."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; postulate</strong>: means to propose a theory. Researchers are fixing a data gap, not proposing one. &#10007;</li><li><strong>Choice B &mdash; ameliorate</strong>: means to make something better or less severe. Filling a geographic gap in coverage improves it &mdash; fits exactly. &#10003;</li><li><strong>Choice C &mdash; sanction</strong>: means to authorize or penalize. Neither sense applies to remedying missing data. &#10007;</li><li><strong>Choice D &mdash; rationalize</strong>: means to explain away or justify. Researchers are correcting the gap, not excusing it. &#10007;</li></ul>That matches <strong>Choice B &mdash; ameliorate</strong>."
+    }
+  ]
+}

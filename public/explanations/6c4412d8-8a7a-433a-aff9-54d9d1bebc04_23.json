@@ -1,1 +1,15 @@
-{"questionId": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_23", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the logical relationship", "content": "The first sentence states the general aim: analyze &quot;diet composition.&quot; The second sentence narrows that to a specific detail: the ratio of three plant subtypes. The transition must signal that the second sentence is a particular instance of the first &mdash; a narrowing from general to specific."}, {"title": "Eliminate each wrong choice and confirm the answer", "content": "<ul><li><strong>Choice A &mdash; &apos;Instead,&apos;</strong>: Signals contrast or replacement. The second sentence does not contradict or replace the first &mdash; it refines it. &#10007;</li><li><strong>Choice B &mdash; &apos;All the same,&apos;</strong>: Signals concession or continuation despite something. No concession is present here. &#10007;</li><li><strong>Choice C &mdash; &apos;Therefore,&apos;</strong>: Signals a conclusion drawn from evidence. The second sentence is not a result of the first &mdash; it specifies what the first meant. &#10007;</li><li><strong>Choice D &mdash; &apos;Specifically,&apos;</strong>: Signals that what follows is a particular detail elaborating the preceding general statement &mdash; exactly the general-to-specific narrowing the passage requires. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_23",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the logical relationship",
+      "content": "The first sentence states the general aim: analyze &quot;diet composition.&quot; The second sentence narrows that to a specific detail: the ratio of three plant subtypes. The transition must signal that the second sentence is a particular instance of the first &mdash; a narrowing from general to specific."
+    },
+    {
+      "title": "Eliminate each wrong choice and confirm the answer",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Instead,&rsquo;</strong>: Signals contrast or replacement. The second sentence does not contradict or replace the first &mdash; it refines it. &#10007;</li><li><strong>Choice B &mdash; &lsquo;All the same,&rsquo;</strong>: Signals concession or continuation despite something. No concession is present here. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Therefore,&rsquo;</strong>: Signals a conclusion drawn from evidence. The second sentence is not a result of the first &mdash; it specifies what the first meant. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Specifically,&rsquo;</strong>: Signals that what follows is a particular detail elaborating the preceding general statement &mdash; exactly the general-to-specific narrowing the passage requires. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

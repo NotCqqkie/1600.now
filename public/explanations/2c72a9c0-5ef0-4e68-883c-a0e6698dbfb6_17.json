@@ -9,7 +9,7 @@
     },
     {
       "title": "Solve for k",
-      "content": "The problem states the product equals $krs$. Set equal and divide both sides by $rs$: $$\\frac{rs}{21} = krs \\implies k = \\frac{1}{21}.$$ That matches choice 1/21 — <strong>1/21</strong> is correct."
+      "content": "The problem states the product equals $krs$. Set equal and divide both sides by $rs$: $$\\frac{rs}{21} = krs \\implies k = \\frac{1}{21}.$$ Therefore the value of $k$ is <strong>1/21</strong>."
     }
   ]
 }

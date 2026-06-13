@@ -1,1 +1,15 @@
-{"questionId": "5d3f0045-ceeb-4690-b839-fe80816d237c_9", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Spot the Limiting Factor", "content": "The passage states that “archival specimens are sometimes stored in ways that compromise DNA quality.” The word “sometimes” is critical—it reveals that storage conditions are inconsistent across specimens."}, {"title": "Apply the Factor to the Choices", "content": "C is correct because it directly reflects this inconsistency: the specimens “may contain valuable genomic data” (when stored well) but “not all of them can yield usable hDNA” (when storage compromises DNA).<br/><br/>The remaining choices either minimize the specimens' worth entirely (A), add unsupported claims about extraction difficulty (B), or contradict the passage's statement that the approach remains “relatively underutilized” (D).<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "5d3f0045-ceeb-4690-b839-fe80816d237c_9",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the Limiting Factor",
+      "content": "The passage states that “archival specimens are sometimes stored in ways that compromise DNA quality.” The word “sometimes” is critical—it reveals that storage conditions are inconsistent across specimens."
+    },
+    {
+      "title": "Apply the Factor to the Choices",
+      "content": "C is correct because it directly reflects this inconsistency: the specimens “may contain valuable genomic data” (when stored well) but “not all of them can yield usable hDNA” (when storage compromises DNA).<br/><br/>The remaining choices either minimize the specimens' worth entirely, add unsupported claims about extraction difficulty, or contradict the passage's statement that the approach remains “relatively underutilized”.<br/><br/>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "e5ca7687", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the passage is doing", "content": "<ul><li><strong>Choice A &mdash; 'To compare ancient artworks with modern ones'</strong>: The passage focuses on a newly found thermopolium in Pompeii and its food remains, decorations, and ceramic jars. No comparison of ancient versus modern artworks appears. &#10007;</li><li><strong>Choice B &mdash; 'To discuss the political system of Italy'</strong>: Politics is never mentioned. The passage is about an archaeological site and what it reveals about daily life. &#10007;</li><li><strong>Choice C &mdash; 'To present a recent archaeological discovery'</strong>: The passage opens with <em>recently discovered</em> and organizes itself entirely around reporting the find: what was found, what researchers learned, and a specific example (the ceramic jar). &#10003;</li><li><strong>Choice D &mdash; 'To describe a region&apos;s climate'</strong>: Climate is never addressed. The passage describes an excavation and its findings. &#10007;</li></ul>"}, {"title": "Confirm the match", "content": "The passage's sole purpose is presenting a new archaeological find at Pompeii &mdash; the thermopolium with its food remains and artworks. That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "e5ca7687",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the passage is doing",
+      "content": "<ul><li><strong>\"To compare ancient artworks with modern ones\"</strong>: The passage focuses on a newly found thermopolium in Pompeii and its food remains, decorations, and ceramic jars. No comparison of ancient versus modern artworks appears. &#10007;</li><li><strong>\"To discuss the political system of Italy\"</strong>: Politics is never mentioned. The passage is about an archaeological site and what it reveals about daily life. &#10007;</li><li><strong>\"To present a recent archaeological discovery\"</strong>: The passage opens with <em>recently discovered</em> and organizes itself entirely around reporting the find: what was found, what researchers learned, and a specific example (the ceramic jar). &#10003;</li><li><strong>\"To describe a region's climate\"</strong>: Climate is never addressed. The passage describes an excavation and its findings. &#10007;</li></ul>"
+    },
+    {
+      "title": "Confirm the match",
+      "content": "The passage's sole purpose is presenting a new archaeological find at Pompeii &mdash; the thermopolium with its food remains and artworks. That matches the correct answer — <strong>C</strong> is correct."
+    }
+  ]
+}

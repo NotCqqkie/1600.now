@@ -9,7 +9,7 @@
     },
     {
       "title": "Recognize the perfect square",
-      "content": "Observe that $100 + 576 = 676 = 26^2$ (note: $10^2 + 24^2 = 26^2$, a Pythagorean triple). Therefore:<br/>$$AC^2 = 37 \\cdot 26^2 = (26\\sqrt{37})^2$$<br/>Taking the positive square root:<br/>$$AC = 26\\sqrt{37}$$<br/>That matches choice B — <strong>B</strong> is correct."
+      "content": "Observe that $100 + 576 = 676 = 26^2$ (note: $10^2 + 24^2 = 26^2$, a Pythagorean triple). Therefore:<br/>$$AC^2 = 37 \\cdot 26^2 = (26\\sqrt{37})^2$$<br/>Taking the positive square root:<br/>$$AC = 26\\sqrt{37}$$<br/><strong>B</strong> is correct."
     }
   ]
 }

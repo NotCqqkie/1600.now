@@ -21,7 +21,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "The solution $x=1$ matches choice <strong>A</strong>. The other listed values do not make the two sides equal when substituted into the original equation."
+      "content": "The solution $x=1$ matches <strong>A</strong>. The other listed values do not make the two sides equal when substituted into the original equation."
     }
   ]
 }

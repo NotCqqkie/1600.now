@@ -9,7 +9,7 @@
     },
     {
       "title": "Solve for x and compute x-3",
-      "content": "Subtract $4x$: $$2x-29 = -6$$<br/>Add $29$: $$2x = 23$$<br/>Divide by $2$: $$x = \\frac{23}{2}$$<br/>Compute $x-3$: $$x-3 = \\frac{23}{2} - 3 = \\frac{23}{2} - \\frac{6}{2} = \\frac{17}{2}$$<br/>That matches choice B — <strong>B</strong> is correct."
+      "content": "Subtract $4x$: $$2x-29 = -6$$<br/>Add $29$: $$2x = 23$$<br/>Divide by $2$: $$x = \\frac{23}{2}$$<br/>Compute $x-3$: $$x-3 = \\frac{23}{2} - 3 = \\frac{23}{2} - \\frac{6}{2} = \\frac{17}{2}$$<br/>That confirms <strong>B</strong> is correct."
     }
   ]
 }

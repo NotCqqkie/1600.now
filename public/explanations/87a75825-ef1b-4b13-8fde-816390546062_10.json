@@ -9,11 +9,11 @@
     },
     {
       "title": "Solve for k",
-      "content": "$(sqrt{k-3})^2-4(1)(33)=0$, so $k-3-132=0$ and $k=135$. That matches choice A, so <strong>A</strong> is correct."
+      "content": "$(sqrt{k-3})^2-4(1)(33)=0$, so $k-3-132=0$ and $k=135$. That confirms <strong>A</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice A, 135, and the other choices fail the same setup or substitution. Therefore <strong>A</strong> is correct."
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches the correct answer, 135, and the other choices fail the same setup or substitution. Therefore <strong>A</strong> is correct."
     }
   ]
 }

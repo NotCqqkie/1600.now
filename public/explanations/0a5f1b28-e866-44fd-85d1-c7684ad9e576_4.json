@@ -1,1 +1,15 @@
-{"questionId": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_4", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the contrast signal", "content": "The word “whereas” signals that the situation after it is the opposite of the one before it."}, {"title": "Match the meaning to the contrast", "content": "Intensified information flow makes people more decisive, so the blank must describe a flow that makes them slower — i.e., a reduction in flow.<br/><br/>Therefore “reduced” fits the contrast. The other three choices (evaluated, determined, acquired) do not express a decrease in flow and thus fail to match the opposite meaning set up by “whereas”.<br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_4",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the contrast signal",
+      "content": "The word “whereas” signals that the situation after it is the opposite of the one before it."
+    },
+    {
+      "title": "Match the meaning to the contrast",
+      "content": "Intensified information flow makes people more decisive, so the blank must describe a flow that makes them slower — i.e., a reduction in flow.<br/><br/>Therefore “reduced” fits the contrast. The other three choices (evaluated, determined, acquired) do not express a decrease in flow and thus fail to match the opposite meaning set up by “whereas”.<br/>That matches <strong>Choice A &mdash; reduced</strong>."
+    }
+  ]
+}

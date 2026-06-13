@@ -9,7 +9,7 @@
     },
     {
       "title": "Identify the line's slope",
-      "content": "The line has a <strong>positive</strong> slope (rises left to \\right).<br/><br/>Choice C has slope $-\\tfrac{7}{5}$ (negative), but D has slope $+\\tfrac{7}{5}$ (positive) — matching the graph.<br/><br/>So the system is $y = \\tfrac{7}{25}x^2$ and $y = \\tfrac{7}{5}x$.<br/><br/>That matches choice D — <strong>D</strong> is correct."
+      "content": "The line has a positive slope, so the answer must use $y=\\frac{7}{5}x$ rather than $y=-\\frac{7}{5}x$. That leaves the positive-parabola, positive-line pair: <strong>$y=\\frac{7}{25}x^{2}$\n$y=\\frac{7}{5}x$</strong>. Therefore, <strong>D</strong> is correct."
     }
   ]
 }

@@ -9,7 +9,7 @@
     },
     {
       "title": "Evaluate the expression",
-      "content": "Multiply first, then add:<br/>$$100 \\cdot 9 = 900$$<br/>$$900 + 2 = 902$$<br/>That matches choice D — <strong>D</strong> is correct."
+      "content": "Multiply first, then add:<br/>$$100 \\cdot 9 = 900$$<br/>$$900 + 2 = 902$$<br/>That matches <strong>Choice D &mdash; $902$</strong>."
     }
   ]
 }

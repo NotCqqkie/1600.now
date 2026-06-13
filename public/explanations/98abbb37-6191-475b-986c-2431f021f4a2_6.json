@@ -1,1 +1,15 @@
-{"questionId": "98abbb37-6191-475b-986c-2431f021f4a2_6", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The question asks for the function of the underlined lines: 'The bleak fields are asleep, / My heart alone wakes.' The key word is 'alone' &mdash; while everything in the evening world rests, the speaker is awake in solitude. The answer must capture what these lines do within the poem as a whole."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'conveys the speaker&apos;s sense that he is alone while experiencing the evening'</strong>: directly captures the contrast between the sleeping world and the speaker&apos;s solitary wakefulness &mdash; &#10003;</li><li><strong>Choice B &mdash; 'speaker would rather look at the fields than at the water'</strong>: no such preference appears in the underlined lines or anywhere in the poem &mdash; &#10007;</li><li><strong>Choice C &mdash; 'speaker&apos;s disappointment that other people dislike rural settings'</strong>: other people are never mentioned in the poem &mdash; &#10007;</li><li><strong>Choice D &mdash; 'explains why the speaker has woken up from sleeping'</strong>: reverses the relationship &mdash; the speaker is awake <em>while</em> the world sleeps, not waking <em>from</em> sleep &mdash; &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "98abbb37-6191-475b-986c-2431f021f4a2_6",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks for the function of the underlined lines: 'The bleak fields are asleep, / My heart alone wakes.' The key word is 'alone' &mdash; while everything in the evening world rests, the speaker is awake in solitude. The answer must capture what these lines do within the poem as a whole."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; It conveys the speaker's sense that he is alone while experiencing the evening.</strong>: directly captures the contrast between the sleeping world and the speaker&apos;s solitary wakefulness &mdash; &#10003;</li><li><strong>Choice B &mdash; It shows that the speaker would rather look at the fields than at the water.</strong>: no such preference appears in the underlined lines or anywhere in the poem &mdash; &#10007;</li><li><strong>Choice C &mdash; It indicates the speaker's disappointment that other people dislike rural settings.</strong>: other people are never mentioned in the poem &mdash; &#10007;</li><li><strong>Choice D &mdash; It explains why the speaker has woken up from sleeping.</strong>: reverses the relationship &mdash; the speaker is awake <em>while</em> the world sleeps, not waking <em>from</em> sleep &mdash; &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

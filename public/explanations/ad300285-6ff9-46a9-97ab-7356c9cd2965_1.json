@@ -1,1 +1,15 @@
-{"questionId": "ad300285-6ff9-46a9-97ab-7356c9cd2965_1", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Set up the probability", "content": "$$P(\\text{at least 45}) = \\frac{\\text{members aged 45 or older}}{\\text{total members}}$$"}, {"title": "Read totals from the table", "content": "From the table, the total number of members is $135$, and the number aged $45$ or older (summed across north and south) is $105$.<br/>$$P = \\frac{105}{135}$$<br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "ad300285-6ff9-46a9-97ab-7356c9cd2965_1",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the probability",
+      "content": "$$P(\\text{at least 45}) = \\frac{\\text{members aged 45 or older}}{\\text{total members}}$$"
+    },
+    {
+      "title": "Read totals from the table",
+      "content": "From the table, the total number of members is $135$, and the number aged $45$ or older (summed across north and south) is $105$.<br/>$$P = \\frac{105}{135}$$<br/>That is the correct answer."
+    }
+  ]
+}

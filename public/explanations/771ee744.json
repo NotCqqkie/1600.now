@@ -9,7 +9,7 @@
     },
     {
       "title": "Calculate the number of red marbles",
-      "content": "$$\\frac{320}{10} = 32$$<br/>That matches choice A — <strong>A</strong> is correct."
+      "content": "$$\\frac{320}{10} = 32$$<br/>This represents the red-marble group only; the remaining marbles are other colors and are not part of the requested count. That confirms <strong>A</strong> is correct."
     }
   ]
 }

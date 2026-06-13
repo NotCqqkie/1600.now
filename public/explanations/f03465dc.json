@@ -9,11 +9,11 @@
     },
     {
       "title": "Solve for the parametric form of points on the line",
-      "content": "Define $L(x,y)=8x+7y$. A correct parametrization must make $L(x,y)=9$ for every value of $r$. Set $r=[0,1]$ and evaluate each choice. Choice A returns $[9,9]$, so it works for the whole line."
+      "content": "Define $L(x,y)=8x+7y$. A correct parametrization must make $L(x,y)=9$ for every value of $r$. Set $r=[0,1]$ and evaluate each choice. $\\left(r,-\\frac{8r}{7}+\\frac{9}{7}\\right)$ returns $[9,9]$, so it works for the whole line."
     },
     {
-      "title": "Confirm choice A",
-      "content": "For choice A, $x=r$ and $y=-\\frac{8r}{7}+\\frac{9}{7}$. Substitution gives $8r+7\\left(-\\frac{8r}{7}+\\frac{9}{7}\\right)=8r-8r+9=9$, true for every $r$. Choice <strong>A</strong> is correct."
+      "title": "Confirm the candidate",
+      "content": "For $x=r$ and $y=-\\frac{8r}{7}+\\frac{9}{7}$. Substitution gives $8r+7\\left(-\\frac{8r}{7}+\\frac{9}{7}\\right)=8r-8r+9=9$, true for every $r$. $\\left(r,-\\frac{8r}{7}+\\frac{9}{7}\\right)$ is correct."
     }
   ]
 }

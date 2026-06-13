@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Rewrite the inequality for y",
-      "content": "Start with $2x-y>883$. Subtract $2x$ from both sides: $$-y>883-2x.$$ Divide by $-1$ and reverse the inequality: $$y\\lt2x-883.$$"
+      "content": "Start with $2x-y\\gt 883$. Subtract $2x$ from both sides: $$-y\\gt 883-2x.$$ Divide by $-1$ and reverse the inequality: $$y\\lt2x-883.$$"
     },
     {
       "title": "Find the needed y-values",
@@ -13,7 +13,7 @@
     },
     {
       "title": "Identify the table",
-      "content": "Choice D pairs $440$ with $-4$, $441$ with $-2$, and $442$ with $0$. Each value is below the required cutoff for its row, so all three ordered pairs satisfy the inequality. That is enough because the question asks which table consists only of solutions. Choice <strong>D</strong> is correct."
+      "content": "The correct table pairs $x=442$ and $x=663$ with output values that satisfy the equation. The other tables mismatch at least one listed row, so <strong>D</strong> is correct."
     }
   ]
 }

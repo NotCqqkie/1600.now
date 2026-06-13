@@ -207,19 +207,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$30(24x + 1)$"
+        "text": "$30\\left(24x + 1\\right)$"
       },
       {
         "label": "B",
-        "text": "$42(30x + 1)$"
+        "text": "$42\\left(30x + 1\\right)$"
       },
       {
         "label": "C",
-        "text": "$6(24x + 36)$"
+        "text": "$6\\left(24x + 36\\right)$"
       },
       {
         "label": "D",
-        "text": "$6(5x + 7)$"
+        "text": "$6\\left(5x + 7\\right)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -416,24 +416,24 @@
     "difficulty": "Medium",
     "question_number": 17,
     "test_name": "Module Source 198 Math M2",
-    "passage": "In the figure shown, lines $l$ and $k$ are parallel and line $t$ intersects both lines. If $x > 100$, which of the following must be true?",
+    "passage": "In the figure shown, lines $l$ and $k$ are parallel and line $t$ intersects both lines. If $x \\gt 100$, which of the following must be true?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$y < 80$"
+        "text": "$y \\lt 80$"
       },
       {
         "label": "B",
-        "text": "$y > 80$"
+        "text": "$y \\gt 80$"
       },
       {
         "label": "C",
-        "text": "$x + y < 180$"
+        "text": "$x + y \\lt 180$"
       },
       {
         "label": "D",
-        "text": "$x + y > 180$"
+        "text": "$x + y \\gt 180$"
       }
     ],
     "is_fill_in_blank": false,

@@ -9,7 +9,7 @@
     },
     {
       "title": "Find which choice gives a positive integer b",
-      "content": "With $r = 9$, the expression expands to $x^2 + (9 + 2b)x + 18b$. So the middle coefficient must equal $9 + 2b$. For each choice, solve for $b$:<ul><li>A: $9 + 2b = 9$ → $b = 0$ ✗ (not positive)</li><li>B: $9 + 2b = 24$ → $b = 7.5$ ✗ (not an integer)</li><li>C: $9 + 2b = 30$ → $b = 10.5$ ✗ (not an integer)</li><li>D: $9 + 2b = 39$ → $b = 15$ ✓</li></ul>That matches choice D — <strong>D</strong> is correct."
+      "content": "With $r = 9$, the expression expands to $x^2 + (9 + 2b)x + 18b$. So the middle coefficient must equal $9 + 2b$. For each choice, solve for $b$:<ul><li>A: $9 + 2b = 9$ → $b = 0$ ✗ (not positive)</li><li>B: $9 + 2b = 24$ → $b = 7.5$ ✗ (not an integer)</li><li>C: $9 + 2b = 30$ → $b = 10.5$ ✗ (not an integer)</li><li>D: $9 + 2b = 39$ → $b = 15$ ✓</li></ul><strong>D</strong> is correct."
     }
   ]
 }

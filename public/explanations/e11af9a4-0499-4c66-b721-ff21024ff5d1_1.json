@@ -1,1 +1,15 @@
-{"questionId":"e11af9a4-0499-4c66-b721-ff21024ff5d1_1","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"Grant and colleagues took sterilized (lifeless) soil pots and added &lsquo;slurries of live microbes&rsquo; to them. The blank describes the physical action they performed on the pots &mdash; they stocked them with living organisms."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;precluded&rsquo;</strong>: means prevented. You cannot preclude a pot, and the team was adding microbes, not blocking them. &#10007;</li><li><strong>Choice B &mdash; &lsquo;estimated&rsquo;</strong>: means made an approximate calculation. The team was performing a physical action on pots, not doing math. &#10007;</li><li><strong>Choice C &mdash; &lsquo;sanitized&rsquo;</strong>: means cleaned to remove microbes. The soil was already sterilized &mdash; adding live microbes is the opposite of sanitizing. &#10007;</li><li><strong>Choice D &mdash; &lsquo;populated&rsquo;</strong>: means filled with living inhabitants. Substituting: &lsquo;populated pots of sterilized soil with slurries of live microbes&rsquo; &mdash; they stocked empty soil with organisms to run the experiment. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "e11af9a4-0499-4c66-b721-ff21024ff5d1_1",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "Grant and colleagues took sterilized (lifeless) soil pots and added &lsquo;slurries of live microbes&rsquo; to them. The blank describes the physical action they performed on the pots &mdash; they stocked them with living organisms."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"precluded\"</strong>: means prevented. You cannot preclude a pot, and the team was adding microbes, not blocking them. &#10007;</li><li><strong>\"estimated\"</strong>: means made an approximate calculation. The team was performing a physical action on pots, not doing math. &#10007;</li><li><strong>\"sanitized\"</strong>: means cleaned to remove microbes. The soil was already sterilized &mdash; adding live microbes is the opposite of sanitizing. &#10007;</li><li><strong>\"populated\"</strong>: means filled with living inhabitants. Substituting: &lsquo;populated pots of sterilized soil with slurries of live microbes&rsquo; &mdash; they stocked empty soil with organisms to run the experiment. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

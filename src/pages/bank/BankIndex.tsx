@@ -4,10 +4,10 @@ import type { BankQuestion } from "@/data/questionBank";
 import { mathDomainSkills, englishDomainSkills, allMathDomains, allEnglishDomains } from "@/data/questionCategories";
 import { normalizeBankSource, BANK_SOURCE_LABELS, type BankSubject, type BankSourceFilter } from "@/data/bankTypes";
 import {
-  activePastQuestionSourceIds,
+  getDefaultQuestionCountTree,
   getEmptyProgress,
-  getFilteredQuestionMetaCount,
-  getQuestionCountTree,
+  loadFilteredQuestionMetaCount,
+  loadQuestionCountTree,
   type BankQuestionMeta,
 } from "@/data/bankQuestionMetadata";
 import { Label } from "@/components/ui/label";
@@ -53,8 +53,8 @@ const loadBankPool = async (
   subject: BankSubject,
   bankSource: BankSourceFilter,
 ): Promise<BankQuestion[]> => {
-  const { getBankPool } = await import("@/data/questionBank");
-  return getBankPool(subject, bankSource);
+  const { loadBankPool: loadPool } = await import("@/data/questionBank");
+  return loadPool(subject, bankSource);
 };
 interface TopicSelectionState {
   math: {
@@ -320,6 +320,7 @@ type BankIndexProps = {
   onHomeFilterDemoFiltersChange?: (filters: QuestionBankFilters) => void;
   onHomeFilterDemoReady?: () => void;
   homeFilterDemoCloseSignal?: number;
+  onHomeFilterDemoControlOpenChange?: (control: string, open: boolean) => void;
 };
 
 export const BankIndex = ({
@@ -328,6 +329,7 @@ export const BankIndex = ({
   onHomeFilterDemoFiltersChange,
   onHomeFilterDemoReady,
   homeFilterDemoCloseSignal = 0,
+  onHomeFilterDemoControlOpenChange,
 }: BankIndexProps = {}) => {
   const navigate = useNavigate();
   const [searchParams, setSearchParams] = useSearchParams();
@@ -580,7 +582,7 @@ export const BankIndex = ({
   }, []);
 
   const isQuestionActive = useCallback((q: BankQuestion): boolean => {
-    return q.inPracticeTests === true || activePastQuestionSourceIds.has(q.sourceId);
+    return q.inPracticeTests === true;
   }, []);
   const questionPassesFilters = useCallback((q: BankQuestion): boolean => {
     const progress = getQuestionProgress(q);
@@ -658,10 +660,18 @@ export const BankIndex = ({
   ): BankQuestion[] => {
     return questions.filter(q => questionPassesFilters(q));
   }, [questionPassesFilters]);
-  const questionCounts = useMemo(
-    () => getQuestionCountTree(bankSource, filters, getMetadataProgress),
-    [bankSource, filters, getMetadataProgress],
-  );
+  const [questionCounts, setQuestionCounts] = useState(() => getDefaultQuestionCountTree(bankSource));
+
+  useEffect(() => {
+    let cancelled = false;
+    setQuestionCounts(getDefaultQuestionCountTree(bankSource));
+    loadQuestionCountTree(bankSource, filters, getMetadataProgress).then((counts) => {
+      if (!cancelled) setQuestionCounts(counts);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [bankSource, filters, getMetadataProgress]);
   const toggleSubject = useCallback((subject: "math" | "reading", checked: boolean) => {
     setTopicSelection(prev => {
       const domains = subject === "math" ? allMathDomains : allEnglishDomains;
@@ -752,14 +762,27 @@ export const BankIndex = ({
     return { count, selectedSkills, totalSelected: count };
   }, [topicSelection]);
 
-  const selectedQuestionCount = useMemo(
-    () => selectedTopicsInfo.selectedSkills.reduce(
-      (total, { subject, skill }) =>
-        total + getFilteredQuestionMetaCount(subject, bankSource, filters, getMetadataProgress, { skill }),
-      0,
-    ),
-    [bankSource, filters, getMetadataProgress, selectedTopicsInfo.selectedSkills],
-  );
+  const [selectedQuestionCount, setSelectedQuestionCount] = useState(0);
+
+  useEffect(() => {
+    if (selectedTopicsInfo.selectedSkills.length === 0) {
+      setSelectedQuestionCount(0);
+      return;
+    }
+
+    let cancelled = false;
+    Promise.all(
+      selectedTopicsInfo.selectedSkills.map(({ subject, skill }) =>
+        loadFilteredQuestionMetaCount(subject, bankSource, filters, getMetadataProgress, { skill }),
+      ),
+    ).then((counts) => {
+      if (!cancelled) setSelectedQuestionCount(counts.reduce((total, count) => total + count, 0));
+    });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [bankSource, filters, getMetadataProgress, selectedTopicsInfo.selectedSkills]);
 
   const getSelectedQuestions = useCallback(async (
     subjectOverride?: "math" | "reading",
@@ -877,7 +900,7 @@ export const BankIndex = ({
   const canCreateKeywordPracticeSet =
     keywordPracticeQuestions.length >= KEYWORD_PRACTICE_MIN_QUESTIONS;
 
-  const handleCreateKeywordPracticeSet = useCallback((shuffle = false) => {
+  const handleCreateKeywordPracticeSet = useCallback(async (shuffle = false) => {
     const nextParams = new URLSearchParams();
     nextParams.set("bankType", bankSource);
     nextParams.set("q", keywordSearch.trim());
@@ -1378,7 +1401,7 @@ export const BankIndex = ({
   return (
     <div
       ref={setHomeDemoRoot}
-      className={isHomeFilterDemo ? "home-filter-demo-bank min-h-screen bg-transparent" : "min-h-screen bg-gradient-to-b from-background to-muted"}
+      className={isHomeFilterDemo ? "home-filter-demo-bank min-h-screen bg-transparent" : "min-h-screen bg-background"}
       style={isHomeFilterDemo ? { minHeight: "100%" } : undefined}
       onPointerDownCapture={blockHomeDemoInteraction}
       onClickCapture={blockHomeDemoInteraction}
@@ -1553,6 +1576,7 @@ export const BankIndex = ({
               compactLabels={isHomeFilterDemo}
               homeDemoMultiOpen={isHomeFilterDemo}
               homeDemoCloseSignal={homeFilterDemoCloseSignal}
+              onHomeDemoControlOpenChange={onHomeFilterDemoControlOpenChange}
               portalContainer={isHomeFilterDemo ? homeDemoPortalContainer : undefined}
               rightContent={!isHomeFilterDemo ? (
                 <div className="flex w-full flex-col items-stretch gap-3 sm:w-auto sm:flex-row sm:items-center sm:gap-4">

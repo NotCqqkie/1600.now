@@ -1,1 +1,15 @@
-{"questionId": "7b950fc2", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structures", "content": "The left side is an independent clause: &quot;Nora sought to increase Latina representation in corporate [BLANK].&quot; The right side is also an independent clause: &quot;[BLANK] founded Las Comadres para las Americas, an international community that for over two decades has served as a resource and information network for Latina business professionals.&quot;"}, {"title": "Apply the independent-clause boundary rule", "content": "Two independent clauses must be joined by one of: a period (or other terminal punctuation), a semicolon, or a comma plus a FANBOYS coordinating conjunction (and, but, or, nor, for, so, yet). Evaluating each choice:<ul><li><strong>Choice A &mdash; 'settings she'</strong>: no punctuation between two independent clauses creates a run-on (fused) sentence. &#10007;</li><li><strong>Choice B &mdash; 'settings, she'</strong>: a comma alone between two independent clauses creates a comma splice. &#10007;</li><li><strong>Choice C &mdash; 'settings and she'</strong>: joining two independent clauses with 'and' requires a comma before the coordinating conjunction; without it, the punctuation is incorrect. &#10007;</li><li><strong>Choice D &mdash; 'settings. She'</strong>: a period correctly separates the two independent clauses into two sentences. &#10003;</li></ul>"}]}
+{
+  "questionId": "7b950fc2",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures",
+      "content": "The left side is an independent clause: &quot;Nora sought to increase Latina representation in corporate [BLANK].&quot; The right side is also an independent clause: &quot;[BLANK] founded Las Comadres para las Americas, an international community that for over two decades has served as a resource and information network for Latina business professionals.&quot;"
+    },
+    {
+      "title": "Apply the independent-clause boundary rule",
+      "content": "Two independent clauses must be joined by one of: a period (or other terminal punctuation), a semicolon, or a comma plus a FANBOYS coordinating conjunction (and, but, or, nor, for, so, yet). Evaluating each choice:<ul><li><strong>Choice A &mdash; &lsquo;settings she&rsquo;</strong>: no punctuation between two independent clauses creates a run-on (fused) sentence. &#10007;</li><li><strong>Choice B &mdash; &lsquo;settings, she&rsquo;</strong>: a comma alone between two independent clauses creates a comma splice. &#10007;</li><li><strong>Choice C &mdash; &lsquo;settings and she&rsquo;</strong>: joining two independent clauses with 'and' requires a comma before the coordinating conjunction; without it, the punctuation is incorrect. &#10007;</li><li><strong>Choice D &mdash; &lsquo;settings. She&rsquo;</strong>: a period correctly separates the two independent clauses into two sentences. &#10003;</li></ul>"
+    }
+  ]
+}

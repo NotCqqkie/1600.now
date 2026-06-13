@@ -1,1 +1,15 @@
-{"questionId": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_18", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Spot the internal comma in the appositive phrase", "content": "The phrase <strong>“such as 'karst,' which refers to limestone terrain riddled with caves or sinkholes”</strong> provides examples of the terms and is a non-restrictive appositive.<br/><br/>The key signal is the internal comma after <em>“karst,”</em> which determines what punctuation can properly separate this phrase from the noun."}, {"title": "Apply the punctuation rule for appositives with internal punctuation", "content": "A dash is required to separate an appositive phrase containing internal commas from its noun, preventing the external punctuation from merging with those internal commas and blurring the phrase boundary.<br/><br/>A comma would create confusion with the internal comma; a colon doesn't function for appositives; no punctuation leaves the structure unclear.<br/><br/>The dash also echoes the dash before <strong>“illustrate”</strong> at the sentence's end, framing the appositive phrase.<br/><br/>This matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_18",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the internal comma in the appositive phrase",
+      "content": "The phrase <strong>“such as 'karst,' which refers to limestone terrain riddled with caves or sinkholes”</strong> provides examples of the terms and is a non-restrictive appositive.<br/><br/>The key signal is the internal comma after <em>“karst,”</em> which determines what punctuation can properly separate this phrase from the noun."
+    },
+    {
+      "title": "Apply the punctuation rule for appositives with internal punctuation",
+      "content": "A dash is required to separate an appositive phrase containing internal commas from its noun, preventing the external punctuation from merging with those internal commas and blurring the phrase boundary.<br/><br/>A comma would create confusion with the internal comma; a colon doesn't function for appositives; no punctuation leaves the structure unclear.<br/><br/>The dash also echoes the dash before <strong>“illustrate”</strong> at the sentence's end, framing the appositive phrase.<br/><br/>This confirms <strong>C</strong> is correct."
+    }
+  ]
+}

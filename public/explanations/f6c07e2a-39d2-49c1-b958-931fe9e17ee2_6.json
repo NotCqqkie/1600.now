@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Expand the right side",
-      "content": "Apply the distributive property to $2(7 + 4x)$:<br/>$$3x + 10 = 14 + 8x$$"
+      "content": "Apply the distributive property to $\\left(2\\right)(7 + 4x)$:<br/>$$3x + 10 = 14 + 8x$$"
     },
     {
       "title": "Collect like terms on each side",
@@ -13,7 +13,7 @@
     },
     {
       "title": "Multiply by -1 to match the choices",
-      "content": "Multiply both sides by -1:<br/>$$5x = -4$$<br/>That matches choice C — <strong>C</strong> is correct."
+      "content": "Multiply both sides by -1:<br/>$$5x = -4$$<br/>That matches the correct answer — <strong>C</strong> is correct."
     }
   ]
 }

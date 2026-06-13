@@ -1,1 +1,15 @@
-{"questionId":"5fe11073-c749-47d4-9e43-2addecd1932f_14","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage explains that longitudinal studies like NILS are expensive because they span many years. Public opinion studies don't need that multi-year approach — so figure out what follows for their cost."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'considerably less expensive'</strong>: If public opinion studies don't require the time-intensive longitudinal methods that drive NILS's cost, they should cost much less. &#10003;</li><li><strong>Choice B &mdash; 'more expensive than NILS'</strong>: This reverses the cost direction — without the multi-year burden, cost goes down, not up. &#10007;</li><li><strong>Choice C &mdash; 'equally expensive'</strong>: The passage draws a direct contrast; skipping the multi-year method removes the cost driver. &#10007;</li><li><strong>Choice D &mdash; 'more reliable'</strong>: The passage never compares reliability between the two study types. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "5fe11073-c749-47d4-9e43-2addecd1932f_14",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage explains that longitudinal studies like NILS are expensive because they span many years. Public opinion studies don't need that multi-year approach — so figure out what follows for their cost."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;the public opinion study could likely be completed at a considerably lower cost than NILS.&rsquo;</strong>: If public opinion studies don't require the time-intensive longitudinal methods that drive NILS's cost, they should cost much less. &#10003;</li><li><strong>Choice B &mdash; &lsquo;longitudinal methods would likely be less suitable for studies in public opinion than for studies in public health.&rsquo;</strong>: This reverses the cost direction — without the multi-year burden, cost goes down, not up. &#10007;</li><li><strong>Choice C &mdash; &lsquo;longitudinal methods would likely be less expensive for studies in public opinion than for studies in public health.&rsquo;</strong>: The passage draws a direct contrast; skipping the multi-year method removes the cost driver. &#10007;</li><li><strong>Choice D &mdash; &lsquo;the results from NILS would likely be more reliable than those from the public opinion study.&rsquo;</strong>: The passage never compares reliability between the two study types. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

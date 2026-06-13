@@ -1,1 +1,15 @@
-{"questionId": "1b97cce9", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the structures at the sentence boundary", "content": "Left: independent clause ending with “study its ancient tombs.” Right: participial phrase “built into the rocky outcrops of a vast desert” followed by independent clause “these burial chambers seem to blend seamlessly with nature.”"}, {"title": "Apply the comma splice rule", "content": "Two independent clauses cannot be joined by a comma alone—this violates the comma splice rule.<br/><br/>Option A correctly separates them with a period, allowing the participial phrase to introduce the second sentence.<br/><br/>Options B and D create comma splices by joining independent clauses with only a comma; option C produces an incoherent parallel structure.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "1b97cce9",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the structures at the sentence boundary",
+      "content": "Left: independent clause ending with “study its ancient tombs.” Right: participial phrase “built into the rocky outcrops of a vast desert” followed by independent clause “these burial chambers seem to blend seamlessly with nature.”"
+    },
+    {
+      "title": "Apply the comma splice rule",
+      "content": "Two independent clauses cannot be joined by a comma alone—this violates the comma splice rule.<br/><br/><strong>Choice A &mdash; tombs. Built</strong> separates them with a period, allowing the participial phrase to introduce the second sentence.<br/><br/>The other choices create comma splices by joining independent clauses with only a comma or produce an incoherent parallel structure.<br/><br/>That matches <strong>Choice A &mdash; tombs. Built</strong>."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId":"087850e1-8e84-43f3-a3da-7bbac01f151f_2","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank describes Theia before researchers found physical evidence of it. The word <strong>but</strong> signals a contrast: until recently, Theia was [blank]; now researchers claim to have found actual pieces. The blank must mean something like &apos;existing only in theory&apos; &mdash; not yet physically confirmed."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'desultory'</strong>: means lacking a plan or purpose. Unrelated to whether Theia had physical evidence. &#10007;</li><li><strong>Choice B &mdash; 'notional'</strong>: means existing only in concept or theory, not in physical form. Fits perfectly &mdash; Theia was a theoretical construct until pieces were found. &#10003;</li><li><strong>Choice C &mdash; 'veritable'</strong>: means genuine or real. This contradicts the setup: if Theia were already considered genuinely real, finding physical pieces would not be a contrast. &#10007;</li><li><strong>Choice D &mdash; 'spurious'</strong>: means false or fake. The passage does not say the theory was discredited &mdash; it says it lacked physical proof. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "087850e1-8e84-43f3-a3da-7bbac01f151f_2",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank describes Theia before researchers found physical evidence of it. The word <strong>but</strong> signals a contrast: until recently, Theia was [blank]; now researchers claim to have found actual pieces. The blank must mean something like &apos;existing only in theory&apos; &mdash; not yet physically confirmed."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; desultory</strong>: means lacking a plan or purpose. Unrelated to whether Theia had physical evidence. &#10007;</li><li><strong>Choice B &mdash; notional</strong>: means existing only in concept or theory, not in physical form. Fits perfectly &mdash; Theia was a theoretical construct until pieces were found. &#10003;</li><li><strong>Choice C &mdash; veritable</strong>: means genuine or real. This contradicts the setup: if Theia were already considered genuinely real, finding physical pieces would not be a contrast. &#10007;</li><li><strong>Choice D &mdash; spurious</strong>: means false or fake. The passage does not say the theory was discredited &mdash; it says it lacked physical proof. &#10007;</li></ul>That matches <strong>Choice B &mdash; notional</strong>."
+    }
+  ]
+}

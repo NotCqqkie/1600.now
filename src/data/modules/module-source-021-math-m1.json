@@ -109,7 +109,7 @@
     "difficulty": "Medium",
     "question_number": 4,
     "test_name": "Module Source 021 Math M1",
-    "passage": "For the first hours of an experiment, the scatterplot shows the temperature $y$, in degrees Fahrenheit ($°F$) of an object at various times $x$, in hours, since the start of the experiment. A line of best fit is also shown.\nWhich of the following is the best interpretation of the slope of the line of best fit?",
+    "passage": "For the first 10 hours of an experiment, the scatterplot shows the temperature $y$, in degrees Fahrenheit (${}^{\\circ}\\text{F}$) of an object at various times $x$, in hours, since the start of the experiment. A line of best fit is also shown.\nWhich of the following is the best interpretation of the slope of the line of best fit?",
     "question_text": null,
     "choices": [
       {

@@ -1,1 +1,15 @@
-{"questionId":"9b403efb-f874-43ce-aa34-29cae02dce8e_9","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage explains that difrasismo meanings seem obscure because semantic relations are &quot;tenuous,&quot; but become intelligible through conceptual associations in Aztec ceremonial culture. The right answer must capture both the obscurity and its cultural resolution."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'frequency claim'</strong>: Introduces an unsupported claim about how often difrasismos appear. &#10007;</li><li><strong>Choice B &mdash; 'modern readers / formal function'</strong>: Brings in modern readers and a formal poetic function not discussed in the passage. &#10007;</li><li><strong>Choice C &mdash; 'apparent obscurity resolves in cultural context'</strong>: Matches exactly — the passage says relations are tenuous yet become clear through Aztec ceremonial associations. &#10003;</li><li><strong>Choice D &mdash; 'semantic equivalence'</strong>: Contradicts the passage, which explicitly calls the semantic relations &quot;tenuous,&quot; not equivalent. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "9b403efb-f874-43ce-aa34-29cae02dce8e_9",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage explains that difrasismo meanings seem obscure because semantic relations are &quot;tenuous,&quot; but become intelligible through conceptual associations in Aztec ceremonial culture. The right answer must capture both the obscurity and its cultural resolution."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Its frequency in Classical Nahuatl poetry confirms its intelligibility to the Aztec audience.</strong>: Introduces an unsupported claim about how often difrasismos appear. &#10007;</li><li><strong>Choice B &mdash; Its unintelligibility may cause its formal function within a line of verse to go unnoticed by present-day readers.</strong>: Brings in modern readers and a formal poetic function not discussed in the passage. &#10007;</li><li><strong>Choice C &mdash; Its apparent obscurity can be resolved when considered in the proper cultural context.</strong>: Matches exactly — the passage says relations are tenuous yet become clear through Aztec ceremonial associations. &#10003;</li><li><strong>Choice D &mdash; Its metaphorical significance derives from the semantic equivalence of the two nouns constituting the difrasismo.</strong>: Contradicts the passage, which explicitly calls the semantic relations &quot;tenuous,&quot; not equivalent. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

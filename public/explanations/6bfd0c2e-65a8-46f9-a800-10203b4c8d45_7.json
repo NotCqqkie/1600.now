@@ -9,7 +9,7 @@
     },
     {
       "title": "Find the square's perimeter",
-      "content": "An inscribed circle has diameter equal to the square's <strong>side length</strong>: side $= 20$.<br/>$$P = 4 \\cdot 20 = 80$$<br/>The Desmos graph below checks the circle equation: it has center $(2,4)$ and radius $10$, so the diameter is $20$. That matches choice C — <strong>C</strong> is correct.",
+      "content": "An inscribed circle has diameter equal to the square's <strong>side length</strong>: side $= 20$.<br/>$$P = 4 \\cdot 20 = 80$$<br/>The Desmos graph below checks the circle equation: it has center $(2,4)$ and radius $10$, so the diameter is $20$. That confirms <strong>C</strong> is correct.",
       "desmosExpressions": [
         "(x-2)^2 + (y-4)^2 = 100",
         "(2, 4)"

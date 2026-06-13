@@ -1,1 +1,15 @@
-{"questionId": "872a002e", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the antecedent and what the blank needs to do", "content": "The blank fills in a possessive determiner before &ldquo;peer autonomous Soviet socialist republics.&rdquo; The noun being possessed is those peer republics; the possessor is the Tajik Republic, a <em>singular</em> entity referred to throughout the passage. The blank must be a singular possessive determiner &mdash; not a plural one, and not a contraction."}, {"title": "Eliminate wrong choices and confirm the answer", "content": "<ul><li><strong>Choice A &mdash; &lsquo;their&rsquo;</strong>: A plural possessive determiner &mdash; does not agree with the singular antecedent &ldquo;the Tajik Republic.&rdquo; &#10007;</li><li><strong>Choice B &mdash; &lsquo;they&rsquo;re&rsquo;</strong>: A contraction of &ldquo;they are&rdquo; &mdash; a verb phrase, not a possessive determiner at all. &#10007;</li><li><strong>Choice C &mdash; &lsquo;its&rsquo;</strong>: The singular possessive determiner, agreeing in number with the singular &ldquo;the Tajik Republic.&rdquo; &#10003;</li><li><strong>Choice D &mdash; &lsquo;it&rsquo;s&rsquo;</strong>: A contraction of &ldquo;it is&rdquo; or &ldquo;it has&rdquo; &mdash; a verb phrase, not a possessive determiner. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "872a002e",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the antecedent and what the blank needs to do",
+      "content": "The blank fills in a possessive determiner before &ldquo;peer autonomous Soviet socialist republics.&rdquo; The noun being possessed is those peer republics; the possessor is the Tajik Republic, a <em>singular</em> entity referred to throughout the passage. The blank must be a singular possessive determiner &mdash; not a plural one, and not a contraction."
+    },
+    {
+      "title": "Eliminate wrong choices and confirm the answer",
+      "content": "<ul><li><strong>Choice A &mdash; their</strong>: A plural possessive determiner &mdash; does not agree with the singular antecedent &ldquo;the Tajik Republic.&rdquo; &#10007;</li><li><strong>Choice B &mdash; they're</strong>: A contraction of &ldquo;they are&rdquo; &mdash; a verb phrase, not a possessive determiner at all. &#10007;</li><li><strong>Choice C &mdash; its</strong>: The singular possessive determiner, agreeing in number with the singular &ldquo;the Tajik Republic.&rdquo; &#10003;</li><li><strong>Choice D &mdash; it's</strong>: A contraction of &ldquo;it is&rdquo; or &ldquo;it has&rdquo; &mdash; a verb phrase, not a possessive determiner. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -9,7 +9,7 @@
     },
     {
       "title": "Read the coordinates from the grid",
-      "content": "From the intersection point, the $x$-coordinate is $4$ and the $y$-coordinate is $5$. The solution is $(4,5)$. That matches choice <strong>C</strong>."
+      "content": "From the intersection point, the $x$-coordinate is $4$ and the $y$-coordinate is $5$. The solution is $(4,5)$. The result matches."
     }
   ]
 }

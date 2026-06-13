@@ -1,1 +1,15 @@
-{"questionId": "5a278f24", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what word the context requires", "content": "The lab includes engineers, biologists, chemists, and physicists, and its research uses insights and techniques from all those fields. De La Cruz&apos;s work therefore crosses into multiple disciplines rather than staying within one. The blank needs a word meaning &quot;going beyond&quot; or &quot;crossing&quot; traditional disciplinary limits."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; 'epitomizing'</strong>: &quot;Epitomizing traditional boundaries&quot; means perfectly exemplifying those boundaries &mdash; implying the work keeps disciplines separate, the opposite of what the text describes. &#10007;</li><li><strong>Choice B &mdash; 'transcending'</strong>: &quot;Transcending&quot; means going beyond or surpassing limits &mdash; exactly what De La Cruz&apos;s cross-disciplinary research does. &#10003;</li><li><strong>Choice C &mdash; 'anticipating'</strong>: &quot;Anticipating traditional boundaries&quot; means expecting or predicting them, which does not convey the idea of crossing or using multiple disciplines. &#10007;</li><li><strong>Choice D &mdash; 'reinforcing'</strong>: &quot;Reinforcing traditional boundaries&quot; means strengthening the separation between disciplines &mdash; the opposite of what the text describes. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "5a278f24",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what word the context requires",
+      "content": "The lab includes engineers, biologists, chemists, and physicists, and its research uses insights and techniques from all those fields. De La Cruz&apos;s work therefore crosses into multiple disciplines rather than staying within one. The blank needs a word meaning &quot;going beyond&quot; or &quot;crossing&quot; traditional disciplinary limits."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;epitomizing&rsquo;</strong>: &quot;Epitomizing traditional boundaries&quot; means perfectly exemplifying those boundaries &mdash; implying the work keeps disciplines separate, the opposite of what the text describes. &#10007;</li><li><strong>Choice B &mdash; &lsquo;transcending&rsquo;</strong>: &quot;Transcending&quot; means going beyond or surpassing limits &mdash; exactly what De La Cruz&apos;s cross-disciplinary research does. &#10003;</li><li><strong>Choice C &mdash; &lsquo;anticipating&rsquo;</strong>: &quot;Anticipating traditional boundaries&quot; means expecting or predicting them, which does not convey the idea of crossing or using multiple disciplines. &#10007;</li><li><strong>Choice D &mdash; &lsquo;reinforcing&rsquo;</strong>: &quot;Reinforcing traditional boundaries&quot; means strengthening the separation between disciplines &mdash; the opposite of what the text describes. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

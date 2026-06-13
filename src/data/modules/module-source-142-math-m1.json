@@ -109,24 +109,24 @@
     "difficulty": "Easy",
     "question_number": 4,
     "test_name": "Module Source 142 Math M1",
-    "passage": "Which expression is equivalent to $11(x^{2}-100y^{2})$?",
+    "passage": "Which expression is equivalent to ${11}(x^{2}-100y^{2})$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$11(x-2y)(x-50y)$"
+        "text": "${11}(x-2y)(x-50y)$"
       },
       {
         "label": "B",
-        "text": "$11(x-2y)(x+50y)$"
+        "text": "${11}(x-2y)(x+50y)$"
       },
       {
         "label": "C",
-        "text": "$11(x-10y)(x-10y)$"
+        "text": "${11}(x-10y)(x-10y)$"
       },
       {
         "label": "D",
-        "text": "$11(x-10y)(x+10y)$"
+        "text": "${11}(x-10y)(x+10y)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -306,16 +306,16 @@
     "difficulty": "Medium",
     "question_number": 12,
     "test_name": "Module Source 142 Math M1",
-    "passage": "The cost to rent a bus from Company X is \\$850 for the first 2 hours and an additional \\$30 per hour for each hour after the first 2 hours. If the total cost to rent the bus from Company X for $t$ hours, where $t > 2$, is \\$1,030, which equation represents this situation?",
+    "passage": "The cost to rent a bus from Company X is \\$850 for the first 2 hours and an additional \\$30 per hour for each hour after the first 2 hours. If the total cost to rent the bus from Company X for $t$ hours, where $t \\gt 2$, is \\$1,030, which equation represents this situation?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$850(t-2) + 30t = 1,030$"
+        "text": "${850}(t-2) + 30t = 1,030$"
       },
       {
         "label": "B",
-        "text": "$850(2t) + 30t = 1,030$"
+        "text": "${850}(2t) + 30t = 1,030$"
       },
       {
         "label": "C",

@@ -1,1 +1,15 @@
-{"questionId":"a333c1fd-7b95-4086-a9bf-1d7c8b137d23_10","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage says Jug found tilling increased wheat yield, then signals &apos;But some studies of other crops have found the opposite effect.&apos; The correct choice must show no-till outperforming till for a crop other than wheat."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; no-till had a positive effect on rice yield</strong>: A different crop (rice) where no-till is better, directly opposing Jug&apos;s pro-tilling finding. &#10003;</li><li><strong>Choice B &mdash; tilling helped soybeans</strong>: Same direction as Jug (tilling is better), just a different crop. Not the &apos;opposite effect.&apos; &#10007;</li><li><strong>Choice C &mdash; raw yield numbers without a comparison</strong>: No effect direction is established, so no &apos;opposite effect&apos; can be inferred. &#10007;</li><li><strong>Choice D &mdash; tilling helped wheat</strong>: Same crop and same direction as Jug. No contrast at all. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_10",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage says Jug found tilling increased wheat yield, then signals &apos;But some studies of other crops have found the opposite effect.&apos; The correct choice must show no-till outperforming till for a crop other than wheat."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Min Huang and colleagues reported an even larger positive effect of no tilling on the yield of rice.</strong>: A different crop (rice) where no-till is better, directly opposing Jug&apos;s pro-tilling finding. &#10003;</li><li><strong>Choice B &mdash; Bharat Sharma Acharya and colleagues found a similar association in a study using soybeans.</strong>: Same direction as Jug (tilling is better), just a different crop. Not the &apos;opposite effect.&apos; &#10007;</li><li><strong>Choice C &mdash; crop yields with tilling have ranged from 2,420 kilograms per hectare for maize to 4,860 kilograms per hectare for winter wheat.</strong>: No effect direction is established, so no &apos;opposite effect&apos; can be inferred. &#10007;</li><li><strong>Choice D &mdash; a study using winter wheat yielded 4,860 kilograms per hectare with tilling and only 3,910 kilograms per hectare without tilling.</strong>: Same crop and same direction as Jug. No contrast at all. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

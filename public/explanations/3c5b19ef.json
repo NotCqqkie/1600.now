@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Use intercepts to shrink the choices",
-      "content": "The line of best fit crosses the vertical axis a little above $16{,}000$ when $t=0$. That eliminates choices B and D immediately, because their intercepts are about $4{,}690$ and $9{,}060$. Only A and C have a reasonable intercept."
+      "content": "The line of best fit crosses the vertical axis a little above $16{,}000$ when $t=0$. That eliminates the other choices immediately, because their intercepts are about $4{,}690$ and $9{,}060$. Only A and C have a reasonable intercept."
     },
     {
       "title": "Use a two-point calculation for the slope",
@@ -13,7 +13,7 @@
     },
     {
       "title": "Match the equation",
-      "content": "Choice A, $n=16{,}090+4{,}680t$, has the right intercept and a slope close to the fitted slope. Choice C has the right intercept but a slope almost twice as large. Therefore choice <strong>A</strong> is correct."
+      "content": "The matching choice, $n=16{,}090+4{,}680t$, has the right intercept and a slope close to the fitted slope. A choice with the right intercept but a slope almost twice as large. Therefore, <strong>A</strong> is correct."
     }
   ]
 }

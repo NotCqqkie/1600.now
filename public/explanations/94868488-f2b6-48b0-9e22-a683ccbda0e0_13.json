@@ -9,11 +9,11 @@
     },
     {
       "title": "Evaluate what each choice represents",
-      "content": "<ul><li><strong>Choice A:</strong> All students from Ohio high schools — This is too broad. The sample came from only one school, not randomly from all Ohio schools.</li><li><strong>Choice B:</strong> The 80 students themselves — This is the sample, not a generalization target.</li><li><strong>Choice C:</strong> All students from the high school — This is the source population from which the 80 were randomly selected.</li><li><strong>Choice D:</strong> The 32 students who identified the food — This is a subset of the sample, not a population for generalization.</li></ul>"
+      "content": "<ul><li><strong>Choice A &mdash; All students from high schools in Ohio</strong>: This is too broad. The sample came from only one school, not randomly from all Ohio schools.</li><li><strong>Choice B &mdash; The 80 students who participated in the experiment</strong>: This is the sample, not a generalization target.</li><li><strong>Choice C &mdash; All students from the high school</strong>: This is the source population from which the 80 were randomly selected.</li><li><strong>Choice D &mdash; The 32 students who were able to correctly identify the pureed food sample while wearing nose plugs</strong>: This is a subset of the sample, not a population for generalization.</li></ul>"
     },
     {
       "title": "Determine the maximum scope of valid generalization",
-      "content": "The fundamental principle: a random sample generalizes to the population from which it was randomly drawn, but no further.<br/><br/>The 80 students were randomly selected from one high school.<br/><br/>Therefore, the results of the experiment can be generalized to all students in that high school.<br/><br/>We cannot claim the findings hold for other Ohio high schools (different populations), and we must not mistake the sample for a population or a sample subset for the target of generalization.<br/><br/>That matches choice C — <strong>C</strong> is correct."
+      "content": "The fundamental principle: a random sample generalizes to the population from which it was randomly drawn, but no further.<br/><br/>The 80 students were randomly selected from one high school.<br/><br/>Therefore, the results of the experiment can be generalized to all students in that high school.<br/><br/>We cannot claim the findings hold for other Ohio high schools (different populations), and we must not mistake the sample for a population or a sample subset for the target of generalization.<br/><br/>That confirms <strong>C</strong> is correct."
     }
   ]
 }

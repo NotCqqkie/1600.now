@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the probability formula",
-      "content": "The probability of selecting a white button is:<br/>$$P(\\text{white}) = \\frac{\\text{favorable outcomes}}{\\text{total outcomes}} = \\frac{8}{20}$$<br/>That matches choice B — <strong>B</strong> is correct.",
+      "content": "The probability of selecting a white button is:<br/>$$P(\\text{white}) = \\frac{\\text{favorable outcomes}}{\\text{total outcomes}} = \\frac{8}{20}$$<br/><strong>B</strong> is correct.",
       "formula": "$$P(\\text{event}) = \\frac{\\text{favorable outcomes}}{\\text{total outcomes}}$$"
     }
   ]

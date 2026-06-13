@@ -9,7 +9,7 @@
     },
     {
       "title": "Count the distinct x-values",
-      "content": "There are exactly two distinct $x$-values, $x = -3$ and $x = 1$, where $f(x) = 0$. That matches choice B — <strong>B</strong> is correct."
+      "content": "There are exactly two distinct $x$-values, $x = -3$ and $x = 1$, where $f(x) = 0$. That confirms <strong>B</strong> is correct."
     }
   ]
 }

@@ -228,7 +228,7 @@
     "difficulty": "Easy",
     "question_number": 9,
     "test_name": "Module Source 173 Math M1",
-    "passage": "$\\frac{27(k+6)}{3(k+6)}$\nThe given expression is equivalent to $c$, where $c$ is a constant and $k > -6$. What is the value of $c$?",
+    "passage": "$\\frac{27(k+6)}{3(k+6)}$\nThe given expression is equivalent to $c$, where $c$ is a constant and $k \\gt -6$. What is the value of $c$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -339,7 +339,7 @@
     "difficulty": "Easy",
     "question_number": 13,
     "test_name": "Module Source 173 Math M1",
-    "passage": "$A$ circle in the $xy$-plane has the equation $(x - 14)^2 + (y - k)^2 = 36$. Which of the following gives the center of the circle and its radius?",
+    "passage": "A circle in the $xy$-plane has the equation $(x - 14)^2 + (y - k)^2 = 36$. Which of the following gives the center of the circle and its radius?",
     "question_text": null,
     "choices": [
       {
@@ -403,7 +403,7 @@
     "difficulty": "Hard",
     "question_number": 15,
     "test_name": "Module Source 173 Math M1",
-    "passage": "The graph of $ y = f(x) $ is shown where $ f(x) = ax^3 + bx^2 + cx + d $ and $ a $, $ b $, $ c $, and $ d $ are constants. For how many distinct values of $ x $ does $ f(x) = 0 $?",
+    "passage": "The graph of $y = f(x)$ is shown where $f(x) = ax^3 + bx^2 + cx + d$ and $a$, $b$, $c$, and $d$ are constants. For how many distinct values of $x$ does $f(x) = 0$?",
     "question_text": null,
     "choices": [
       {

@@ -13,7 +13,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li>A. $x \\le 6n - 12$ &mdash; this would make $6n - 12$ the maximum, not the minimum; incorrect.</li><li>B. $x \\ge 6n - 12$ &mdash; matches our derivation.</li><li>C. $x \\le 12 - 6n$ &mdash; wrong expression and wrong direction; incorrect.</li><li>D. $x \\ge 12 - 6n$ &mdash; the expression $12 - 6n$ reverses the phrase; incorrect.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "<ul><li>A. $x \\le 6n - 12$ &mdash; this would make $6n - 12$ the maximum, not the minimum; incorrect.</li><li>B. $x \\ge 6n - 12$ &mdash; matches our derivation.</li><li>C. $x \\le 12 - 6n$ &mdash; wrong expression and wrong direction; incorrect.</li><li>D. $x \\ge 12 - 6n$ &mdash; the expression $12 - 6n$ reverses the phrase; incorrect.</li></ul>That confirms <strong>B</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId":"0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_5","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank describes what a text corpus lets researchers test: &ldquo;how _____ a word is in spoken and written English.&rdquo; The example given &mdash; testing the <em>incidence</em> of &ldquo;day&rdquo; and finding it is the fifth most commonly used noun &mdash; makes clear the blank refers to how common or widespread a word is."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'assertive'</strong>: Assertive means bold or forceful in manner. Words are not assertive in frequency data. &#10007;</li><li><strong>Choice B &mdash; 'credible'</strong>: Credible means believable or trustworthy. Corpus analysis doesn&rsquo;t measure a word&rsquo;s credibility. &#10007;</li><li><strong>Choice C &mdash; 'pervasive'</strong>: Pervasive means present or appearing everywhere &mdash; exactly what incidence and frequency rankings measure. &#10003;</li><li><strong>Choice D &mdash; 'profound'</strong>: Profound means having deep meaning. How meaningful a word is has no relation to how often it appears in a corpus. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_5",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank describes what a text corpus lets researchers test: &ldquo;how _____ a word is in spoken and written English.&rdquo; The example given &mdash; testing the <em>incidence</em> of &ldquo;day&rdquo; and finding it is the fifth most commonly used noun &mdash; makes clear the blank refers to how common or widespread a word is."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; assertive</strong>: Assertive means bold or forceful in manner. Words are not assertive in frequency data. &#10007;</li><li><strong>Choice B &mdash; credible</strong>: Credible means believable or trustworthy. Corpus analysis doesn&rsquo;t measure a word&rsquo;s credibility. &#10007;</li><li><strong>Choice C &mdash; pervasive</strong>: Pervasive means present or appearing everywhere &mdash; exactly what incidence and frequency rankings measure. &#10003;</li><li><strong>Choice D &mdash; profound</strong>: Profound means having deep meaning. How meaningful a word is has no relation to how often it appears in a corpus. &#10007;</li></ul>That matches <strong>Choice C &mdash; pervasive</strong>."
+    }
+  ]
+}

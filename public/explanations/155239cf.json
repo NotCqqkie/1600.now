@@ -1,1 +1,15 @@
-{"questionId": "155239cf", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Recognize two independent clauses in contrast", "content": "The sentence contains two complete thoughts: (1) scientists previously believed the Sun was in a quiet phase at that [time], and (2) the Lund team&apos;s finding suggests otherwise. Because &quot;suggests otherwise&quot; directly contradicts the previous belief, the two clauses are in contrast and must be joined correctly.<ul><li><strong>Choice A &mdash; 'time but'</strong>: Uses the contrasting conjunction &quot;but&quot; without the required comma before it when joining two longer main clauses. &#10007;</li><li><strong>Choice B &mdash; 'time, but'</strong>: A comma followed by the coordinating conjunction &quot;but&quot; correctly joins two independent clauses and signals the contrast. &#10003;</li><li><strong>Choice C &mdash; 'time,'</strong>: A comma alone joining two independent clauses creates a comma splice. &#10007;</li><li><strong>Choice D &mdash; 'time'</strong>: No punctuation or conjunction between the two main clauses creates a run-on sentence. &#10007;</li></ul>"}, {"title": "Confirm the match", "content": "Only &quot;time, but&quot; uses both the required comma and a coordinating conjunction to properly join the two contrasting independent clauses. That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "155239cf",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize two independent clauses in contrast",
+      "content": "The sentence contains two complete thoughts: (1) scientists previously believed the Sun was in a quiet phase at that [time], and (2) the Lund team&apos;s finding suggests otherwise. Because &quot;suggests otherwise&quot; directly contradicts the previous belief, the two clauses are in contrast and must be joined correctly.<ul><li><strong>Choice A &mdash; time but</strong>: Uses the contrasting conjunction &quot;but&quot; without the required comma before it when joining two longer main clauses. &#10007;</li><li><strong>Choice B &mdash; time, but</strong>: A comma followed by the coordinating conjunction &quot;but&quot; correctly joins two independent clauses and signals the contrast. &#10003;</li><li><strong>Choice C &mdash; time,</strong>: A comma alone joining two independent clauses creates a comma splice. &#10007;</li><li><strong>Choice D &mdash; time</strong>: No punctuation or conjunction between the two main clauses creates a run-on sentence. &#10007;</li></ul>"
+    },
+    {
+      "title": "Confirm the match",
+      "content": "Only &quot;time, but&quot; uses both the required comma and a coordinating conjunction to properly join the two contrasting independent clauses. That matches <strong>Choice B &mdash; time, but</strong>."
+    }
+  ]
+}

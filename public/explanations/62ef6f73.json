@@ -3,9 +3,21 @@
   "correctAnswer": "C",
   "section": "Math",
   "steps": [
-    "A square with side length $r$ has perimeter $4r$. Two squares contribute $2 \\times 4r = 8r$ total.",
-    "An equilateral triangle with side length $t$ has perimeter $3t$. Six triangles contribute $6 \\times 3t = 18t$ total.",
-    "Setting the sum equal to 210: $8r + 18t = 210$.",
-    "<ul><li><strong>Choice A &mdash; '$6r+24t=210$'</strong>: Uses 6 and 24 as coefficients; neither matches the correct perimeter totals of 8r and 18t. &#10007;</li><li><strong>Choice B &mdash; '$2r+6t=210$'</strong>: Uses the counts of shapes (2 and 6) rather than the perimeters; forgets to multiply by sides per shape. &#10007;</li><li><strong>Choice C &mdash; '$8r+18t=210$'</strong>: $8r$ = 2 squares &times; 4 sides each; $18t$ = 6 triangles &times; 3 sides each. &#10003;</li><li><strong>Choice D &mdash; '$6r+2t=210$'</strong>: Swaps the coefficients entirely; has no relationship to the geometry of the problem. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    {
+      "title": "Step 1",
+      "content": "A square with side length $r$ has perimeter $4r$. Two squares contribute $2 \\times 4r = 8r$ total."
+    },
+    {
+      "title": "Step 2",
+      "content": "An equilateral triangle with side length $t$ has perimeter $3t$. Six triangles contribute $6 \\times 3t = 18t$ total."
+    },
+    {
+      "title": "Step 3",
+      "content": "Setting the sum equal to 210: $8r + 18t = 210$."
+    },
+    {
+      "title": "Step 4",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;$6r+24t=210$&rsquo;</strong>: Uses 6 and 24 as coefficients; neither matches the correct perimeter totals of 8r and 18t. &#10007;</li><li><strong>Choice B &mdash; &lsquo;$2r+6t=210$&rsquo;</strong>: Uses the counts of shapes (2 and 6) rather than the perimeters; forgets to multiply by sides per shape. &#10007;</li><li><strong>Choice C &mdash; &lsquo;$8r+18t=210$&rsquo;</strong>: $8r$ = 2 squares &times; 4 sides each; $18t$ = 6 triangles &times; 3 sides each. &#10003;</li><li><strong>Choice D &mdash; &lsquo;$6r+2t=210$&rsquo;</strong>: Swaps the coefficients entirely; has no relationship to the geometry of the problem. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
   ]
 }

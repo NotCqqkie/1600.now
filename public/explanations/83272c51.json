@@ -13,7 +13,7 @@
     },
     {
       "title": "Compute each interval's average rate and pick the largest drop",
-      "content": "Choice A (0–10): $\\frac{155-195}{10} = -4.0^{\\circ}\\text{F/min}$<br/>Choice B (30–40): $\\frac{105-120}{10} = -1.5^{\\circ}\\text{F/min}$<br/>Choice C (50–60): $\\frac{90-100}{10} = -1.0^{\\circ}\\text{F/min}$<br/>Choice D (90–100): $\\frac{75-80}{10} = -0.5^{\\circ}\\text{F/min}$<br/><br/>The most negative rate is $-4.0^{\\circ}\\text{F/min}$ on $[0, 10]$. That matches choice A — <strong>A</strong> is correct."
+      "content": "Choice A (0–10): $\\frac{155-195}{10} = -4.0^{\\circ}\\text{F/min}$<br/>Choice B (30–40): $\\frac{105-120}{10} = -1.5^{\\circ}\\text{F/min}$<br/>Choice C (50–60): $\\frac{90-100}{10} = -1.0^{\\circ}\\text{F/min}$<br/>Choice D (90–100): $\\frac{75-80}{10} = -0.5^{\\circ}\\text{F/min}$<br/><br/>The most negative rate is $-4.0^{\\circ}\\text{F/min}$ on $[0, 10]$. That confirms <strong>A</strong> is correct."
     }
   ]
 }

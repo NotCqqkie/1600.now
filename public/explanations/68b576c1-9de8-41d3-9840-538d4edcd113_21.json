@@ -1,1 +1,15 @@
-{"questionId": "68b576c1-9de8-41d3-9840-538d4edcd113_21", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Use the no-solution condition", "content": "Two linear equations have <strong>no solution</strong> when their graphs are <em>parallel</em> — same slope, different $y$-intercepts. So the unknown second line must have the same slope as the given line."}, {"title": "Compute the slope", "content": "Solve the given equation for $y$ to read off the slope. After isolating $y$, the coefficient of $x$ — the slope — works out to $\\dfrac{7}{27r}$.<br/><br/>That's the slope the second line must have. That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "68b576c1-9de8-41d3-9840-538d4edcd113_21",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the no-solution condition",
+      "content": "Two linear equations have <strong>no solution</strong> when their graphs are <em>parallel</em> — same slope, different $y$-intercepts. So the unknown second line must have the same slope as the given line."
+    },
+    {
+      "title": "Compute the slope",
+      "content": "Solve the given equation for $y$ to read off the slope. After isolating $y$, the coefficient of $x$ — the slope — works out to $\\dfrac{7}{27r}$.<br/><br/>That's the slope the second line must have. That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -10,7 +10,7 @@
     },
     {
       "title": "Solve for the radius",
-      "content": "Divide both sides by $3\\pi$:\n$$r^2 = \\frac{\\frac{1}{3}\\pi}{3\\pi} = \\frac{1}{9}$$\nThe $\\pi$ cancels, leaving $\\frac{1}{3} \\div 3 = \\frac{1}{9}$. Taking the positive square root: $r = \\frac{1}{3}$. That matches choice A — <strong>A</strong> is correct."
+      "content": "Divide both sides by $3\\pi$:\n$$r^2 = \\frac{\\frac{1}{3}\\pi}{3\\pi} = \\frac{1}{9}$$\nThe $\\pi$ cancels, leaving $\\frac{1}{3} \\div 3 = \\frac{1}{9}$. Taking the positive square root: $r = \\frac{1}{3}$. That matches the correct answer — <strong>A</strong> is correct."
     }
   ]
 }

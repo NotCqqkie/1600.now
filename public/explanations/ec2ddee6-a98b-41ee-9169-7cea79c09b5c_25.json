@@ -1,1 +1,15 @@
-{"questionId": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_25", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The notes assign apatite a Mohs hardness of 5, calcite a 3, and topaz an 8. A higher Mohs number means a harder mineral that can scratch minerals with a lower number. The correct choice must accurately reflect apatite&apos;s position relative to both calcite and topaz."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A</strong>: does not correctly express apatite&apos;s comparative hardness relative to both other minerals. &#10007;</li><li><strong>Choice B</strong>: leaves out or misrepresents apatite&apos;s position in the hardness ordering. &#10007;</li><li><strong>Choice C</strong>: does not capture the relative hardness relationship among all three minerals. &#10007;</li><li><strong>Choice D</strong>: states that apatite (5) is harder than calcite (3) but softer than topaz (8), directly matching the Mohs scale data and the scratch-ability rule. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_25",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The notes assign apatite a Mohs hardness of 5, calcite a 3, and topaz an 8. A higher Mohs number means a harder mineral that can scratch minerals with a lower number. The correct choice must accurately reflect apatite's position relative to both calcite and topaz."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"In the Mohs scale of mineral hardness, topaz (8) is ranked higher than calcite (3).\"</strong>: does not correctly express apatite's comparative hardness relative to both other minerals. &#10007;</li><li><strong>\"Calcite, topaz, and apatite can be ordered by their ability to leave visible scratches on other minerals.\"</strong>: leaves out or misrepresents apatite's position in the hardness ordering. &#10007;</li><li><strong>\"Topaz has a Mohs scale number of 8, which means that it can scratch not only calcite but also apatite.\"</strong>: does not capture the relative hardness relationship among all three minerals. &#10007;</li><li><strong>\"Apatite has a Mohs scale number of 5, which means that it is harder than calcite (3) but softer than topaz (8).\"</strong>: states that apatite (5) is harder than calcite (3) but softer than topaz (8), directly matching the Mohs scale data and the scratch-ability rule. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

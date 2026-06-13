@@ -1,1 +1,15 @@
-{"questionId": "5fe11073-c749-47d4-9e43-2addecd1932f_19", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The sentence lists three factors after &quot;namely,&quot; introduced by an em dash. The second and third items each contain internal commas (&quot;with higher-velocity meteoroids releasing more energy&quot; and &quot;such as changes in sky conditions&quot;). When list items contain commas, the SAT uses semicolons to separate the items — so the blank must use a semicolon between item 1 and item 2."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'meteoroids; their'</strong>: Places a semicolon after &quot;meteoroids,&quot; separating item 1 (size and composition of the meteoroids) from item 2 (their velocity...). This correctly uses semicolons to separate items that contain internal commas. &#10003;</li><li><strong>Choice B &mdash; 'meteoroids. Their'</strong>: A period ends the sentence mid-list, cutting off the remaining factors. The sentence is left incomplete. &#10007;</li><li><strong>Choice C &mdash; 'meteoroids, their'</strong>: A comma is too weak to separate list items that themselves contain commas — it creates ambiguity about where one item ends and the next begins. &#10007;</li><li><strong>Choice D &mdash; 'meteoroids&mdash;their'</strong>: An em dash here would open a second parenthetical inside the list already introduced by an em dash, creating structural confusion. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "5fe11073-c749-47d4-9e43-2addecd1932f_19",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence lists three factors after &quot;namely,&quot; introduced by an em dash. The second and third items each contain internal commas (&quot;with higher-velocity meteoroids releasing more energy&quot; and &quot;such as changes in sky conditions&quot;). When list items contain commas, the SAT uses semicolons to separate the items — so the blank must use a semicolon between item 1 and item 2."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;meteoroids; their&rsquo;</strong>: Places a semicolon after &quot;meteoroids,&quot; separating item 1 (size and composition of the meteoroids) from item 2 (their velocity...). This correctly uses semicolons to separate items that contain internal commas. &#10003;</li><li><strong>Choice B &mdash; &lsquo;meteoroids. Their&rsquo;</strong>: A period ends the sentence mid-list, cutting off the remaining factors. The sentence is left incomplete. &#10007;</li><li><strong>Choice C &mdash; &lsquo;meteoroids, their&rsquo;</strong>: A comma is too weak to separate list items that themselves contain commas — it creates ambiguity about where one item ends and the next begins. &#10007;</li><li><strong>Choice D &mdash; &lsquo;meteoroids—their&rsquo;</strong>: An em dash here would open a second parenthetical inside the list already introduced by an em dash, creating structural confusion. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

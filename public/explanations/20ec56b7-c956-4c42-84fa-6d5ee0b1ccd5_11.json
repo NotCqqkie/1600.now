@@ -1,1 +1,15 @@
-{"questionId":"20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_11","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage names sticky catchfly as a neighboring species that grows alongside common cow-wheat. The question asks where this pairing was studied &mdash; that location must come from the table."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; Spain</strong>: the Spain row pairs Bermuda buttercup and white rocket, not sticky catchfly and common cow-wheat. &#10007;</li><li><strong>Choice B &mdash; United States</strong>: the U.S. row pairs Virginia spring beauty and star chickweed. &#10007;</li><li><strong>Choice C &mdash; Japan</strong>: Japan does not appear in the table at all. &#10007;</li><li><strong>Choice D &mdash; Sweden</strong>: the Sweden row lists sticky catchfly (neighboring species) alongside common cow-wheat (target species) &mdash; an exact match. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_11",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage names sticky catchfly as a neighboring species that grows alongside common cow-wheat. The question asks where this pairing was studied &mdash; that location must come from the table."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Spain.</strong>: the Spain row pairs Bermuda buttercup and white rocket, not sticky catchfly and common cow-wheat. &#10007;</li><li><strong>Choice B &mdash; the United States.</strong>: the U.S. row pairs Virginia spring beauty and star chickweed. &#10007;</li><li><strong>Choice C &mdash; Japan.</strong>: Japan does not appear in the table at all. &#10007;</li><li><strong>Choice D &mdash; Sweden.</strong>: the Sweden row lists sticky catchfly (neighboring species) alongside common cow-wheat (target species) &mdash; an exact match. &#10003;</li></ul>That matches <strong>Choice D &mdash; Sweden.</strong>."
+    }
+  ]
+}

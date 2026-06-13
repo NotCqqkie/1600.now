@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice <strong>C</strong> is correct. Choice B reverses or uses the wrong side relationship, and choice D adds side lengths instead of using opposite over adjacent."
+      "content": "The value $\\frac{26}{7}$ matches <strong>C</strong>. The fractions $\\frac{1}{26}$ and $\\frac{19}{26}$ use the wrong side relationship, and $\\frac{33}{7}$ adds side lengths instead of using opposite over adjacent."
     }
   ]
 }

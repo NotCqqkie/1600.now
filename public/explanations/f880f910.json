@@ -10,7 +10,7 @@
     },
     {
       "title": "Backsolve the choices",
-      "content": "The answer choices are simple integers, so we can test them directly.<br/><br/>Backsolving — testing choice C (30): If $h = 30$, then $b = 30 + 12 = 42$, and Area $= \\frac{1}{2}(42)(30) = 630 \\neq 270$. Fails.<br/><br/>Testing choice B (18): If $h = 18$, then $b = 18 + 12 = 30$, and Area $= \\frac{1}{2}(30)(18) = \\frac{540}{2} = 270$. This matches. That matches choice B — <strong>B</strong> is correct."
+      "content": "The answer choices are simple integers, so we can test them directly.<br/><br/>Backsolving by testing the candidate (30): If $h = 30$, then $b = 30 + 12 = 42$, and Area $= \\frac{1}{2}(42)(30) = 630 \\neq 270$. Fails.<br/><br/>Testing this candidate (18): If $h = 18$, then $b = 18 + 12 = 30$, and Area $= \\frac{1}{2}(30)(18) = \\frac{540}{2} = 270$. This matches. That matches the correct answer — <strong>B</strong> is correct."
     }
   ]
 }

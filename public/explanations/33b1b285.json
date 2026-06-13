@@ -1,1 +1,19 @@
-{"section":"Reading and Writing","correctAnswer":"A","steps":[{"title":"Identify the claim","content":"The historian claims that <em>carpa</em> theater&apos;s &quot;audience-mediated slapstick comedy&quot; influenced El Teatro&apos;s early performances. The right quote must show BOTH (1) physical/slapstick humor AND (2) the audience shaping the performance."},{"title":"Find the quote that hits both elements","content":"Choice A describes &quot;exaggerated physical humor&quot; (slapstick) performed for workers whose &quot;reactions&mdash;enthusiastic cheers... and... loud boos&mdash;promoted improvisation&quot; (audience-mediated). Both halves of the claim are illustrated."},{"title":"Eliminate the others","content":"<ul><li><strong>Choice A &mdash; &apos;exaggerated physical humor... reactions... promoted improvisation&apos;</strong>: hits both slapstick and audience mediation. &#10003;</li><li><strong>Choice B &mdash; &apos;humor was often found in that reality... social critique&apos;</strong>: mentions comedy but says nothing about slapstick or audience interaction. &#10007;</li><li><strong>Choice C &mdash; &apos;satire, humor... rasquache... sociopolitical message&apos;</strong>: covers aesthetic and politics, not physical comedy or audience mediation. &#10007;</li><li><strong>Choice D &mdash; &apos;nonprofessional actors... minimal props... brief humorous vignettes&apos;</strong>: describes who performed and where, but not slapstick style or audience shaping the show. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "33b1b285",
+  "section": "Reading and Writing",
+  "correctAnswer": "A",
+  "steps": [
+    {
+      "title": "Identify the claim",
+      "content": "The historian claims that <em>carpa</em> theater&apos;s &quot;audience-mediated slapstick comedy&quot; influenced El Teatro&apos;s early performances. The right quote must show BOTH (1) physical/slapstick humor AND (2) the audience shaping the performance."
+    },
+    {
+      "title": "Find the quote that hits both elements",
+      "content": "The correct answer describes &quot;exaggerated physical humor&quot; (slapstick) performed for workers whose &quot;reactions&mdash;enthusiastic cheers... and... loud boos&mdash;promoted improvisation&quot; (audience-mediated). Both halves of the claim are illustrated."
+    },
+    {
+      "title": "Eliminate the others",
+      "content": "<ul><li><strong>Choice A — \"The company presented <em>actos</em>, short comedy sketches, that often relied on exaggerated physical humor to groups of agricultural workers, whose reactions—enthusiastic cheers of appreciation and, occasionally, loud boos of disapproval—promoted improvisation.\"</strong>: hits both slapstick and audience mediation. &#10003;</li><li><strong>Choice B — \"The company was focused on the reality of the present situation and discovered that humor was often found in that reality; consequently, comedy became a tool to convey social critique while entertaining and inspiring audiences.\"</strong>: mentions comedy but says nothing about slapstick or audience interaction. &#10007;</li><li><strong>Choice C — \"The company relied heavily on satire, humor, and references to contemporary popular culture as well as a make-do aesthetic—often referred to as <em>rasquache</em> —that reflected not only the troupe's limited financial resources but also its sociopolitical message.\"</strong>: covers aesthetic and politics, not physical comedy or audience mediation. &#10007;</li><li><strong>Choice D — \"The members of the company, which in addition to founder Luis Valdez consisted entirely of nonprofessional actors, traveled into farm fields, where they, with minimal props and costumes, performed comedy in the form of brief humorous vignettes.\"</strong>: describes who performed and where, but not slapstick style or audience shaping the show. &#10007;</li></ul><strong>A</strong> is correct."
+    }
+  ]
+}

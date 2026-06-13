@@ -13,7 +13,7 @@
     },
     {
       "title": "Match the equation to the choices",
-      "content": "The equation with $s=160$ is $10x+20y=160$. Its $y$-intercept is $8$ because setting $x=0$ gives $20y=160$, so $y=8$. That matches choice <strong>B</strong>."
+      "content": "The equation with $s=160$ is $10x+20y=160$. Its $y$-intercept is $8$ because setting $x=0$ gives $20y=160$, so $y=8$. That matches <strong>B</strong>."
     }
   ]
 }

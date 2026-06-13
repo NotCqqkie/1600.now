@@ -1,1 +1,15 @@
-{"questionId":"b5bd285b-0705-476c-ac24-58aa076fb71a_26","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks for a sentence emphasizing a similarity between Crocodile Lake NWR and Pearl Harbor NWR. The notes state both were established to protect a specific endangered species &mdash; that shared founding purpose is the key similarity."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; both refuges were established to protect an endangered species</strong>: directly states what both refuges share, using &quot;Both&quot; to link them. &#10003;</li><li><strong>Choice B</strong>: discusses only one of the two refuges. &#10007;</li><li><strong>Choice C</strong>: emphasizes a difference (size) rather than a similarity. &#10007;</li><li><strong>Choice D</strong>: discusses only one of the two refuges. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "b5bd285b-0705-476c-ac24-58aa076fb71a_26",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks for a sentence emphasizing a similarity between Crocodile Lake NWR and Pearl Harbor NWR. The notes state both were established to protect a specific endangered species &mdash; that shared founding purpose is the key similarity."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Both the Crocodile Lake NWR and the Pearl Harbor NWR were established to protect endangered species.</strong>: directly states what both refuges share, using &quot;Both&quot; to link them. &#10003;</li><li><strong>Choice B &mdash; Some NWRs, such as Hawaii's Pearl Harbor, were established specifically to protect endangered species.</strong>: discusses only one of the two refuges. &#10007;</li><li><strong>Choice C &mdash; While the Crocodile Lake NWR extends across a 6,686-acre area, the Pearl Harbor NWR encompasses only 61 acres.</strong>: emphasizes a difference (size) rather than a similarity. &#10007;</li><li><strong>Choice D &mdash; The US has designated more than 500 areas NWRs, including the Crocodile Lake NWR in Florida.</strong>: discusses only one of the two refuges. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

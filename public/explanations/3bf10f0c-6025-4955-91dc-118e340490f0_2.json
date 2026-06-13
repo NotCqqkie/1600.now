@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate the answer choices",
-      "content": "<ul><li><strong>A.</strong> $m=\\frac{9(n+p)}{11}$ &mdash; exactly what algebra produced.</li><li><strong>B.</strong> $m=9(n+p)$ &mdash; drops the division by 11.</li><li><strong>C.</strong> $m=9(n+p)-11$ &mdash; subtracts 11 instead of dividing.</li><li><strong>D.</strong> $m=9-n-p-11$ &mdash; not algebraically equivalent.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li><strong>A.</strong> $m=\\frac{9(n+p)}{11}$ &mdash; exactly what algebra produced.</li><li><strong>B.</strong> $m=9(n+p)$ &mdash; drops the division by 11.</li><li><strong>C.</strong> $m=9(n+p)-11$ &mdash; subtracts 11 instead of dividing.</li><li><strong>D.</strong> $m=9-n-p-11$ &mdash; not algebraically equivalent.</li></ul><strong>A</strong> is correct."
     }
   ]
 }

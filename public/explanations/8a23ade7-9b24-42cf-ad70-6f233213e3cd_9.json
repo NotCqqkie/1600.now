@@ -1,1 +1,15 @@
-{"questionId": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_9", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "Sweanor (radio-collar tracking, New Mexico) found 2.00 cougars per 100 sq km; Choate (helicopter surveying, Utah) found 10.24 per 100 sq km — a gap of 8.24. The question asks which explanation would make that reported gap artificially large, meaning the true gap is actually smaller."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A</strong>: Addresses method logistics rather than systematic measurement bias that would distort the density count. &#10007;</li><li><strong>Choice B &mdash; 'radio-collar tracking underestimates cougar density'</strong>: If Sweanor&apos;s method undercounts, his 2.00 figure is artificially low — the true New Mexico density is higher, so the actual gap between the two regions is smaller than the reported 8.24. &#10003;</li><li><strong>Choice C</strong>: Would cause the gap to be understated, not artificially inflated. &#10007;</li><li><strong>Choice D</strong>: Addresses prevalence of method use rather than whether the method produces biased density estimates. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_9",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "Sweanor (radio-collar tracking, New Mexico) found 2.00 cougars per 100 sq km; Choate (helicopter surveying, Utah) found 10.24 per 100 sq km — a gap of 8.24. The question asks which explanation would make that reported gap artificially large, meaning the true gap is actually smaller."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; radio-collar tracking is impractical outside of New Mexico</strong>: Addresses method logistics rather than systematic measurement bias that would distort the density count. &#10007;</li><li><strong>Choice B &mdash; radio-collar tracking underestimates the density of cougars</strong>: If Sweanor&apos;s method undercounts, his 2.00 figure is artificially low — the true New Mexico density is higher, so the actual gap between the two regions is smaller than the reported 8.24. &#10003;</li><li><strong>Choice C &mdash; helicopter surveying underestimates the density of cougars</strong>: Would cause the gap to be understated, not artificially inflated. &#10007;</li><li><strong>Choice D &mdash; helicopter surveying is more common in Utah than the use of radio-collar tracking is</strong>: Addresses prevalence of method use rather than whether the method produces biased density estimates. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

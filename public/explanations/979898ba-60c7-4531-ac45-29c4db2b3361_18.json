@@ -13,7 +13,7 @@
     },
     {
       "title": "Answer",
-      "content": "<strong>C</strong> is correct."
+      "content": "The starting value $210$ is not part of the increase over the 20-minute interval; it is only the initial distance at $t=0$. The increase is the rate times time, $8(20)=160$, so <strong>C</strong> is correct."
     }
   ]
 }

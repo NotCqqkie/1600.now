@@ -1,1 +1,15 @@
-{"questionId": "d8e8d6b1-ed34-4cab-8e27-631e82e53bba_26", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Spot the categorical claim", "content": "The notes include one statement that generalizes about circumnavigations as a category: “Most circumnavigations include stops on land.” This is distinct from the specific examples and the definition—it's a claim about the class overall."}, {"title": "Match the generalization to the answer choices", "content": "D is the only choice that makes a categorical claim about circumnavigations—contrasting the typical case with an exception—thereby generalizing about the class as a whole.<br/><br/>A, B, and C stick to specific details (boats, the definition, or individual sailors) without characterizing circumnavigations broadly.<br/><br/>That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "d8e8d6b1-ed34-4cab-8e27-631e82e53bba_26",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the categorical claim",
+      "content": "The notes include one statement that generalizes about circumnavigations as a category: “Most circumnavigations include stops on land.” This is distinct from the specific examples and the definition—it's a claim about the class overall."
+    },
+    {
+      "title": "Match the generalization to the answer choices",
+      "content": "D is the only choice that makes a categorical claim about circumnavigations—contrasting the typical case with an exception—thereby generalizing about the class as a whole.<br/><br/>A, B, and C stick to specific details (boats, the definition, or individual sailors) without characterizing circumnavigations broadly.<br/><br/>That matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

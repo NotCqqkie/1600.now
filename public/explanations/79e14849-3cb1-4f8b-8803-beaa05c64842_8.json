@@ -1,1 +1,15 @@
-{"questionId":"79e14849-3cb1-4f8b-8803-beaa05c64842_8","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks how the narrator characterizes the Seine. Find the passage&apos;s contrast: the river is blocked and turbulent inside Paris, then spreads out and becomes peaceful in the countryside."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; clearer in Paris than in the countryside</strong>: Wrong. Water clarity is never mentioned. &#10007;</li><li><strong>Choice B &mdash; more peaceful in Paris than in the countryside</strong>: Wrong. This reverses what the passage says. &#10007;</li><li><strong>Choice C &mdash; more confined and rough in Paris than in the countryside</strong>: Correct. &quot;Confined&quot; fits the viaduct blocking the river; &quot;rough&quot; fits the contrast with the peaceful countryside river. &#10003;</li><li><strong>Choice D &mdash; more impressive in Paris than in the countryside</strong>: Wrong. The narrator&apos;s language favors the countryside. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "79e14849-3cb1-4f8b-8803-beaa05c64842_8",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks how the narrator characterizes the Seine. Find the passage&apos;s contrast: the river is blocked and turbulent inside Paris, then spreads out and becomes peaceful in the countryside."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;As the journey progressed from Paris to the countryside, the waters of the Seine gradually cleared.&rsquo;</strong>: Wrong. Water clarity is never mentioned. &#10007;</li><li><strong>Choice B &mdash; &lsquo;The journey along the Seine is mostly peaceful, but the current intensifies briefly under the Point du Jour.&rsquo;</strong>: Wrong. This reverses what the passage says. &#10007;</li><li><strong>Choice C &mdash; &lsquo;The waters of the Seine are more confined and rough in Paris than they are in the countryside.&rsquo;</strong>: Correct. &quot;Confined&quot; fits the viaduct blocking the river; &quot;rough&quot; fits the contrast with the peaceful countryside river. &#10003;</li><li><strong>Choice D &mdash; &lsquo;The Seine's loveliness is surpassed only by that of Paris.&rsquo;</strong>: Wrong. The narrator&apos;s language favors the countryside. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

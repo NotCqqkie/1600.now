@@ -13,7 +13,7 @@
     },
     {
       "title": "Eliminate wrong choices",
-      "content": "<ul><li><strong>Choice A &mdash; '$(0, 0)$'</strong>: $x = 0 \\ne 5$, so this fails the first equation immediately. &#10007;</li><li><strong>Choice B &mdash; '$(5, -3)$'</strong>: $x = 5$ &#10003; and $y = 5 - 8 = -3$ &#10003;. Both equations satisfied. &#10003;</li><li><strong>Choice C &mdash; '$(5, -8)$'</strong>: $x = 5$ &#10003;, but $y = 5 - 8 = -3 \\ne -8$. Fails the second equation. &#10007;</li><li><strong>Choice D &mdash; '$(5, 8)$'</strong>: $x = 5$ &#10003;, but $y = 5 - 8 = -3 \\ne 8$. The sign is wrong. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "<ul><li><strong>\"$\\left(0,0\\right)$\"</strong>: $x = 0 \\ne 5$, so this fails the first equation immediately. &#10007;</li><li><strong>\"$\\left(5,-3\\right)$\"</strong>: $x = 5$ &#10003; and $y = 5 - 8 = -3$ &#10003;. Both equations satisfied. &#10003;</li><li><strong>\"$\\left(5,-8\\right)$\"</strong>: $x = 5$ &#10003;, but $y = 5 - 8 = -3 \\ne -8$. Fails the second equation. &#10007;</li><li><strong>\"$\\left(5,8\\right)$\"</strong>: $x = 5$ &#10003;, but $y = 5 - 8 = -3 \\ne 8$. The sign is wrong. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
     }
   ]
 }

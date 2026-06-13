@@ -12,7 +12,7 @@
     },
     {
       "title": "Graph the only matching-slope choice",
-      "content": "Choice B gives $$\\frac{1}{3}x=5y \\Rightarrow y=\\frac{x}{15}$$ This has the same slope, $\\frac{1}{15}$, and a different intercept, $0$. In Desmos, $y=\\frac{x}{15}+\\frac{3}{5}$ and $y=\\frac{x}{15}$ are parallel distinct lines, so they never meet.",
+      "content": "The correct answer gives $$\\frac{1}{3}x=5y \\Rightarrow y=\\frac{x}{15}$$ This has the same slope, $\\frac{1}{15}$, and a different intercept, $0$. In Desmos, $y=\\frac{x}{15}+\\frac{3}{5}$ and $y=\\frac{x}{15}$ are parallel distinct lines, so they never meet.",
       "desmosExpressions": [
         "y=\\frac{x}{15}",
         "y=\\frac{x}{15}+\\frac{3}{5}"
@@ -20,7 +20,7 @@
     },
     {
       "title": "Eliminate the rest",
-      "content": "A has slope $\\frac{1}{5}$, so it intersects the given line. C is exactly the same as the given line, so it has infinitely many solutions. D has slope $\\frac{1}{45}$, so it intersects the given line. Therefore, the correct answer is choice <strong>B</strong>."
+      "content": "A has slope $-45$, so it intersects the given line. C is exactly the same as the given line, so it has infinitely many solutions. D has slope $\\frac{1}{45}$, so it intersects the given line. The parallel line with a different intercept is <strong>B</strong>."
     }
   ]
 }

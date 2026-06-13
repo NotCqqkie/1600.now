@@ -1,1 +1,15 @@
-{"questionId": "562b97f6-c42e-48b0-9911-de9db6425784_21", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the structure", "content": "The noun phrase “also known as the greater adjutant” interrupts the main sentence between the subject <em>Leptoptilos dubius</em> and the verb “can be found.” A comma already follows the subject."}, {"title": "Apply the appositive rule", "content": "Commas must enclose an appositive phrase that interrupts the main clause, so the opening comma (after the subject) requires a closing comma after “adjutant.” The other choices violate this rule with a semicolon (A), no punctuation (B), or an em dash (D).<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "562b97f6-c42e-48b0-9911-de9db6425784_21",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the structure",
+      "content": "The noun phrase “also known as the greater adjutant” interrupts the main sentence between the subject <em>Leptoptilos dubius</em> and the verb “can be found.” A comma already follows the subject."
+    },
+    {
+      "title": "Apply the appositive rule",
+      "content": "Commas must enclose an appositive phrase that interrupts the main clause, so the opening comma (after the subject) requires a closing comma after “adjutant.” The other choices violate this rule with a semicolon (A), no punctuation (B), or an em dash (D).<br/><br/><strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "c2c26e20", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the context clue", "content": "The narrator says the soul &ldquo;left its body to lose itself in the wild unrestrained beauty&rdquo; and &ldquo;only left a trembling ______ of its existence within me.&rdquo; The soul has nearly departed; what remains is barely detectable &mdash; a faint indication, not a full presence. The blank needs a word meaning a barely detectable sign or remnant.<ul><li><strong>Choice A &mdash; &lsquo;Trace&rsquo;</strong>: a faint mark or remnant; fits perfectly &mdash; only a trace of the soul remains. &#10003;</li><li><strong>Choice B &mdash; &lsquo;Opinion&rsquo;</strong>: an expressed viewpoint; the narrator is not offering a view, but describing an emotional experience. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Dispute&rsquo;</strong>: a disagreement or argument; no conflict exists in the passage. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Command&rsquo;</strong>: an order or directive; no command is given or received in this scene. &#10007;</li></ul>"}, {"title": "Confirm the answer", "content": "&ldquo;Trace&rdquo; is the only choice that captures the meaning of a barely detectable remnant left behind by the departing soul. That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "c2c26e20",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the context clue",
+      "content": "The narrator says the soul &ldquo;left its body to lose itself in the wild unrestrained beauty&rdquo; and &ldquo;only left a trembling ______ of its existence within me.&rdquo; The soul has nearly departed; what remains is barely detectable &mdash; a faint indication, not a full presence. The blank needs a word meaning a barely detectable sign or remnant.<ul><li><strong>Choice A &mdash; Trace</strong>: a faint mark or remnant; fits perfectly &mdash; only a trace of the soul remains. &#10003;</li><li><strong>Choice B &mdash; Opinion</strong>: an expressed viewpoint; the narrator is not offering a view, but describing an emotional experience. &#10007;</li><li><strong>Choice C &mdash; Dispute</strong>: a disagreement or argument; no conflict exists in the passage. &#10007;</li><li><strong>Choice D &mdash; Command</strong>: an order or directive; no command is given or received in this scene. &#10007;</li></ul>"
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "&ldquo;Trace&rdquo; is the only choice that captures the meaning of a barely detectable remnant left behind by the departing soul. That is the correct answer."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_24", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the locative signal", "content": "The first sentence establishes a specific archaeological site in Veracruz. The second sentence then introduces a discovery made at that site. The transition word needs to bridge from identifying the location to describing what was found there."}, {"title": "Apply the spatial transition", "content": "”Here” directly signals <em>at this place</em> and transitions from the site's location to the artifact discovered there.<br/><br/>The other transitions fail: “In other words” implies restatement of the first sentence, “Similarly” suggests comparison before the second location is introduced, and “Therefore” falsely implies the statue's existence logically follows from the site's location.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_24",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the locative signal",
+      "content": "The first sentence establishes a specific archaeological site in Veracruz. The second sentence then introduces a discovery made at that site. The transition word needs to bridge from identifying the location to describing what was found there."
+    },
+    {
+      "title": "Apply the spatial transition",
+      "content": "”Here” directly signals <em>at this place</em> and transitions from the site's location to the artifact discovered there.<br/><br/>The other transitions fail: “In other words” implies restatement of the first sentence, “Similarly” suggests comparison before the second location is introduced, and “Therefore” falsely implies the statue's existence logically follows from the site's location.<br/><br/>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

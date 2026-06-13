@@ -45,7 +45,7 @@
     "difficulty": "Easy",
     "question_number": 2,
     "test_name": "Module Source 119 Math M1",
-    "passage": "In the figure, two lines intersect at a point. If $γ$ = 61, what is the value of $s$?",
+    "passage": "In the figure, two lines intersect at a point. If $r$ = 61, what is the value of $s$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -313,7 +313,7 @@
     "difficulty": "Easy",
     "question_number": 11,
     "test_name": "Module Source 119 Math M1",
-    "passage": "$19=x+y$\n$x-y=9$\nThe solution to the given system of equations is ($x,y$). What is the value of $x$?",
+    "passage": "$19=x+y$\n$x-y=9$\nThe solution to the given system of equations is $(x,y)$. What is the value of $x$?",
     "question_text": null,
     "choices": [
       {
@@ -476,7 +476,7 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "67",
-    "rationale": "The correct answer is $67$. It’s given that $f\\left(5\\right)=32$. Therefore, for the given function $f$, when $x=5$, $f\\left(x\\right)=32$. Substituting $5$ for $x$ and $32$ for $f\\left(x\\right)$ in the given function $f\\left(x\\right)=4x+k\\left(x-1\\right)$ yields $32=4\\left(5\\right)+k\\left(5-1\\right)$, or $32=20+4k$. Subtracting $20$ from each side of this equation yields $12=4k$. Dividing each side of this equation by $4$ yields $k=3$. Substituting $3$ for $k$ in the given function $f\\left(x\\right)=4x+k\\left(x-1\\right)$ yields $f\\left(x\\right)=4x+3\\left(x-1\\right)$, which is equivalent to $f\\left(x\\right)=4x+3x-3$, or $f\\left(x\\right)=7x-3$. Substituting $10$ for $x$ into this equation yields $f\\left(10\\right)=7\\left(10\\right)-3$, or $f\\left(10\\right)=67$. Therefore, the value of $f\\left(10\\right)$ is $67$.",
+    "rationale": "The correct answer is $67$. It's given that $f\\left(5\\right)=32$. Therefore, for the given function $f$, when $x=5$, $f\\left(x\\right)=32$. Substituting $5$ for $x$ and $32$ for $f\\left(x\\right)$ in the given function $f\\left(x\\right)=4x+k\\left(x-1\\right)$ yields $32=4\\left(5\\right)+k\\left(5-1\\right)$, or $32=20+4k$. Subtracting $20$ from each side of this equation yields $12=4k$. Dividing each side of this equation by $4$ yields $k=3$. Substituting $3$ for $k$ in the given function $f\\left(x\\right)=4x+k\\left(x-1\\right)$ yields $f\\left(x\\right)=4x+3\\left(x-1\\right)$, which is equivalent to $f\\left(x\\right)=4x+3x-3$, or $f\\left(x\\right)=7x-3$. Substituting $10$ for $x$ into this equation yields $f\\left(10\\right)=7\\left(10\\right)-3$, or $f\\left(10\\right)=67$. Therefore, the value of $f\\left(10\\right)$ is $67$.",
     "id": "e3cf671f"
   },
   {
@@ -550,7 +550,7 @@
     "difficulty": "Medium",
     "question_number": 20,
     "test_name": "Module Source 119 Math M1",
-    "passage": "In triangle $QRS$ shown, $QR < QS$. Which expression represents the length of $\\overline{QS}$?",
+    "passage": "In triangle $QRS$ shown, $QR \\lt QS$. Which expression represents the length of $\\overline{QS}$?",
     "question_text": null,
     "choices": [
       {

@@ -1,1 +1,15 @@
-{"questionId": "a06c434d", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the key signal in the passage", "content": "The word <strong>tension</strong> is the defining clue — the passage states that Cannon's work derives its power from the tension among his _____ influences. Tension signals conflict or opposition between forces pulling in different directions. The blank must describe influences that are different enough from each other to create that tension."}, {"title": "Eliminate wrong choices and confirm the answer", "content": "<ul><li><strong>Choice A &mdash; 'complementary'</strong>: Complementary means working together harmoniously — this contradicts the idea of tension, since harmonious influences don't conflict. &#10007;</li><li><strong>Choice B &mdash; 'unknown'</strong>: The influences (portraiture, pop art, flatstyle) are explicitly named in the passage, so calling them unknown is factually wrong. &#10007;</li><li><strong>Choice C &mdash; 'disparate'</strong>: Disparate means fundamentally different or conflicting — portraiture emphasizes realistic depth, pop art emphasizes vivid color, and flatstyle rejects depth entirely, so these influences pull in opposite directions and explain the tension. &#10003;</li><li><strong>Choice D &mdash; 'interchangeable'</strong>: Interchangeable means mutually substitutable — influences that are interchangeable are essentially the same, which cannot produce tension. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "a06c434d",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal in the passage",
+      "content": "The word <strong>tension</strong> is the defining clue — the passage states that Cannon's work derives its power from the tension among his _____ influences. Tension signals conflict or opposition between forces pulling in different directions. The blank must describe influences that are different enough from each other to create that tension."
+    },
+    {
+      "title": "Eliminate wrong choices and confirm the answer",
+      "content": "<ul><li><strong>Choice A &mdash; complementary</strong>: Complementary means working together harmoniously — this contradicts the idea of tension, since harmonious influences don't conflict. &#10007;</li><li><strong>Choice B &mdash; unknown</strong>: The influences (portraiture, pop art, flatstyle) are explicitly named in the passage, so calling them unknown is factually wrong. &#10007;</li><li><strong>Choice C &mdash; disparate</strong>: Disparate means fundamentally different or conflicting — portraiture emphasizes realistic depth, pop art emphasizes vivid color, and flatstyle rejects depth entirely, so these influences pull in opposite directions and explain the tension. &#10003;</li><li><strong>Choice D &mdash; interchangeable</strong>: Interchangeable means mutually substitutable — influences that are interchangeable are essentially the same, which cannot produce tension. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -13,7 +13,7 @@
     },
     {
       "title": "Combine like terms",
-      "content": "$$2x^2+13x-18x-24+27=2x^2-5x+3$$<br/>The key move is distributing the subtraction across every term of $g(x)$, which changes $+18x-27$ into $-18x+27$. After that, the $x$-terms combine to $-5x$ and the constants combine to $3$. The simplified expression matches choice <strong>B</strong>."
+      "content": "$$2x^2+13x-18x-24+27=2x^2-5x+3$$<br/>The key move is distributing the subtraction across every term of $g(x)$, which changes $+18x-27$ into $-18x+27$. After that, the $x$-terms combine to $-5x$ and the constants combine to $3$. The simplified expression matches the correct answer."
     }
   ]
 }

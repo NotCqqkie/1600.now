@@ -1,1 +1,15 @@
-{"questionId":"5a4b09bc-842b-4866-ae63-c98b8f2cc56e_23","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage opens with the claim that newer turbines outperform older ones, then gives two examples: a 1998 farm generating 0.6 MW per turbine and a 2021 farm generating 10 MW per turbine. The transition must connect these two examples in a way that highlights the performance difference between them."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Granted,'</strong>: Concedes a point, typically to acknowledge an opposing view. No opposing view has been raised. &#10007;</li><li><strong>Choice B &mdash; 'For this reason,'</strong>: Signals that the second sentence is caused by the first. The 2021 farm&apos;s output is not caused by the 1998 farm&apos;s output. &#10007;</li><li><strong>Choice C &mdash; 'In contrast,'</strong>: Explicitly marks a difference between two items &mdash; here, the lower-output older farm vs. the higher-output newer farm, directly supporting the opening claim. &#10003;</li><li><strong>Choice D &mdash; 'Eventually,'</strong>: Signals time passage or a delayed outcome. It does not mark a performance contrast between the two farms. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "5a4b09bc-842b-4866-ae63-c98b8f2cc56e_23",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage opens with the claim that newer turbines outperform older ones, then gives two examples: a 1998 farm generating 0.6 MW per turbine and a 2021 farm generating 10 MW per turbine. The transition must connect these two examples in a way that highlights the performance difference between them."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Granted,&rsquo;</strong>: Concedes a point, typically to acknowledge an opposing view. No opposing view has been raised. &#10007;</li><li><strong>Choice B &mdash; &lsquo;For this reason,&rsquo;</strong>: Signals that the second sentence is caused by the first. The 2021 farm&apos;s output is not caused by the 1998 farm&apos;s output. &#10007;</li><li><strong>Choice C &mdash; &lsquo;In contrast,&rsquo;</strong>: Explicitly marks a difference between two items &mdash; here, the lower-output older farm vs. the higher-output newer farm, directly supporting the opening claim. &#10003;</li><li><strong>Choice D &mdash; &lsquo;Eventually,&rsquo;</strong>: Signals time passage or a delayed outcome. It does not mark a performance contrast between the two farms. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

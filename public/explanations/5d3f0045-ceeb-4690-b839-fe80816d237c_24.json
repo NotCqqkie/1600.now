@@ -1,1 +1,15 @@
-{"questionId": "5d3f0045-ceeb-4690-b839-fe80816d237c_24", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The student wants to <strong>emphasize a similarity</strong> between <em>Watch Your Step</em> and <em>Golden Connection</em>. A correct answer must state something both sculptures share &mdash; not describe only one, compare their sizes, or contrast them."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'Grimanesa Amoros is the artist behind Watch Your Step...'</strong>: describes only <em>Watch Your Step</em>. &#10007;</li><li><strong>Choice B &mdash; 'At 100,000 cubic feet...Golden Connection cuts a larger figure...'</strong>: highlights a size <em>difference</em>, not a similarity. &#10007;</li><li><strong>Choice C &mdash; 'Watch Your Step is an LED light sculpture made by Grimanesa Amoros, as is Golden Connection.'</strong>: the phrase &quot;as is&quot; directly links both sculptures as LED works by the same artist &mdash; a clear similarity. &#10003;</li><li><strong>Choice D &mdash; 'The smooth LED domes...stand in contrast to the tangled LED tubes...'</strong>: explicitly contrasts the two sculptures. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "5d3f0045-ceeb-4690-b839-fe80816d237c_24",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The student wants to <strong>emphasize a similarity</strong> between <em>Watch Your Step</em> and <em>Golden Connection</em>. A correct answer must state something both sculptures share &mdash; not describe only one, compare their sizes, or contrast them."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Grimanesa Amoros is the artist behind *Watch Your Step*, a sculpture made of smooth multicolored LED domes.&rsquo;</strong>: describes only <em>Watch Your Step</em>. &#10007;</li><li><strong>Choice B &mdash; &lsquo;At 100,000 cubic feet in size, Grimanesa Amoros's *Golden Connection* cuts a larger figure than the 335-cubic-foot *Watch Your Step*.&rsquo;</strong>: highlights a size <em>difference</em>, not a similarity. &#10007;</li><li><strong>Choice C &mdash; &lsquo;*Watch Your Step* is an LED light sculpture made by Grimanesa Amoros, as is *Golden Connection*.&rsquo;</strong>: the phrase &quot;as is&quot; directly links both sculptures as LED works by the same artist &mdash; a clear similarity. &#10003;</li><li><strong>Choice D &mdash; &lsquo;The smooth LED domes of Grimanesa Amoros's *Watch Your Step* stand in contrast to the tangled LED tubes of *Golden Connection*.&rsquo;</strong>: explicitly contrasts the two sculptures. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

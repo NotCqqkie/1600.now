@@ -170,8 +170,10 @@ async function main() {
         const root = document.getElementById("root");
         if (!root) return false;
         if (root.querySelector(".animate-spin")) return false;
-        const text = root.textContent?.trim() ?? "";
-        return text.length > 80 && document.title.trim().length > 0;
+        const text = root.textContent?.replace(/\s+/g, " ").trim() ?? "";
+        const emptyRouteShell =
+          root.querySelector(":scope > .min-h-screen.bg-background") && text.length < 300;
+        return !emptyRouteShell && text.length > 300 && document.title.trim().length > 0;
       },
       { timeout: PRERENDER_READY_TIMEOUT_MS, polling: 100 },
     );

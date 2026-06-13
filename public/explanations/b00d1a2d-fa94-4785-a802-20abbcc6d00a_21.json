@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Connect two solutions to the discriminant",
-      "content": "The equation is quadratic in $x$, and it is given to have two real solutions. For a quadratic, two real solutions require a positive discriminant:<br/>$$\\Delta > 0$$<br/>For $rx^2 - 28sx + 7r = 0$, use $a=r$, $b=-28s$, and $c=7r$:<br/>$$(-28s)^2 - 4(r)(7r) > 0$$<br/>$$784s^2 - 28r^2 > 0$$<br/>$$28s^2 > r^2$$"
+      "content": "The equation is quadratic in $x$, and it is given to have two real solutions. For a quadratic, two real solutions require a positive discriminant:<br/>$$\\Delta \\gt 0$$<br/>For $rx^2 - 28sx + 7r = 0$, use $a=r$, $b=-28s$, and $c=7r$:<br/>$$(-28s)^2 - 4(r)(7r) \\gt 0$$<br/>$$784s^2 - 28r^2 \\gt 0$$<br/>$$28s^2 \\gt r^2$$"
     },
     {
       "title": "Find the minimum value of r/s",
-      "content": "Divide by $s^2$; this is positive even though $s$ is negative:<br/>$$\\left(\\frac{r}{s}\\right)^2 \\lt 28$$<br/>So $\\left|\\dfrac{r}{s}\\right| \\lt \\sqrt{28}=2\\sqrt7$. Since $r>0$ and $s\\lt0$, the ratio $r/s$ is negative, so:<br/>$$\\frac{r}{s}>-2\\sqrt7$$<br/>The minimum possible value of $k$ is $-2\\sqrt7 \\approx -5.29$."
+      "content": "Divide by $s^2$; this is positive even though $s$ is negative:<br/>$$\\left(\\frac{r}{s}\\right)^2 \\lt 28$$<br/>So $\\left|\\dfrac{r}{s}\\right| \\lt \\sqrt{28}=2\\sqrt7$. Since $r\\gt0$ and $s\\lt0$, the ratio $r/s$ is negative, so:<br/>$$\\frac{r}{s}\\gt-2\\sqrt7$$<br/>The minimum possible value of $k$ is $-2\\sqrt7 \\approx -5.29$."
     }
   ]
 }

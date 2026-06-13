@@ -1,1 +1,15 @@
-{"questionId": "87aa7bab", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the contrast in the passage", "content": "The passage presents a common assumption that photography displaced portrait miniatures but then refutes it with evidence — <strong>\"photography’s impact... may be overstated.\"</strong> This contrast word directly challenges the initial claim and signals where the correct answer must align: the decline was likely due to <em>something else</em>."}, {"title": "Match the contrast to the answer choice", "content": "Choice A directly addresses the overstated role of photography by proposing other factors might be responsible — aligning with the passage’s counterclaim.<br/><br/>The other choices either introduce unsupported details (B’s artistic merit, D’s artist shifts) or misread the evidence (C ignores the timing mentioned).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "87aa7bab",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the contrast in the passage",
+      "content": "The passage presents a common assumption that photography displaced portrait miniatures but then refutes it with evidence — <strong>\"photography’s impact... may be overstated.\"</strong> This contrast word directly challenges the initial claim and signals where the correct answer must align: the decline was likely due to <em>something else</em>."
+    },
+    {
+      "title": "Match the contrast to the answer choice",
+      "content": "The correct answer directly addresses the overstated role of photography by proposing other factors might be responsible — aligning with the passage’s counterclaim.<br/><br/>The other choices either introduce unsupported details (B’s artistic merit, D’s artist shifts) or misread the evidence (C ignores the timing mentioned).<br/><br/>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

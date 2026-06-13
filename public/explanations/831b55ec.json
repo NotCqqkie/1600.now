@@ -1,1 +1,15 @@
-{"questionId":"831b55ec","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"This is a Boundaries question testing punctuation between a verb and its direct object. The sentence reads: 'Her innovative poems ______ the use of Jamaican Creole (a spoken language) in literature.' The blank is filled by 'popularized' plus whatever punctuation follows it. A verb must not be separated from its direct object by any punctuation."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'popularized;'</strong>: A semicolon is used between two independent clauses. 'The use of Jamaican Creole in literature' is not an independent clause; it is the direct object of 'popularized.' A semicolon here breaks the sentence illegally. &#10007;</li><li><strong>Choice B &mdash; 'popularized,'</strong>: A comma between a verb and its direct object is not standard in English. No comma is warranted here. &#10007;</li><li><strong>Choice C &mdash; 'popularized'</strong>: No punctuation between the verb and its direct object. This conforms to Standard English conventions. &#10003;</li><li><strong>Choice D &mdash; 'popularized:'</strong>: A colon can introduce a list or explanation, but 'the use of Jamaican Creole in literature' is simply the direct object of 'popularized,' not a list or a restatement requiring a colon. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "831b55ec",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a Boundaries question testing punctuation between a verb and its direct object. The sentence reads: 'Her innovative poems ______ the use of Jamaican Creole (a spoken language) in literature.' The blank is filled by 'popularized' plus whatever punctuation follows it. A verb must not be separated from its direct object by any punctuation."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; popularized;</strong>: A semicolon is used between two independent clauses. 'The use of Jamaican Creole in literature' is not an independent clause; it is the direct object of 'popularized.' A semicolon here breaks the sentence illegally. &#10007;</li><li><strong>Choice B &mdash; popularized,</strong>: A comma between a verb and its direct object is not standard in English. No comma is warranted here. &#10007;</li><li><strong>Choice C &mdash; popularized</strong>: No punctuation between the verb and its direct object. This conforms to Standard English conventions. &#10003;</li><li><strong>Choice D &mdash; popularized:</strong>: A colon can introduce a list or explanation, but 'the use of Jamaican Creole in literature' is simply the direct object of 'popularized,' not a list or a restatement requiring a colon. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

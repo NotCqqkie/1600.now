@@ -1,1 +1,15 @@
-{"questionId":"d007aa6c-6fd8-4005-bd58-dc779c145226_12","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks how the poem is structured overall. Lines 1&ndash;2 present impressions others have of the speaker (&lsquo;Let them think I love them more,&rsquo; &lsquo;Let them think I care&rsquo;). Lines 3&ndash;4 dismiss those impressions (&lsquo;what is it to me / Who am self-complete&rsquo;)."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; scenarios the speaker imagines</strong>: the lines are not imagined scenarios but impressions others hold. &#10007;</li><li><strong>Choice B &mdash; sadness about being misunderstood</strong>: the speaker shows no sadness; the tone is dismissive indifference. &#10007;</li><li><strong>Choice C &mdash; desire to connect with others</strong>: the speaker explicitly does not care about others&apos; opinions, the opposite of a desire to connect. &#10007;</li><li><strong>Choice D &mdash; impressions others have, then why they don&apos;t matter</strong>: exactly maps onto lines 1&ndash;2 (impressions) and lines 3&ndash;4 (self-sufficiency that renders them irrelevant). &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "d007aa6c-6fd8-4005-bd58-dc779c145226_12",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks how the poem is structured overall. Lines 1&ndash;2 present impressions others have of the speaker (&lsquo;Let them think I love them more,&rsquo; &lsquo;Let them think I care&rsquo;). Lines 3&ndash;4 dismiss those impressions (&lsquo;what is it to me / Who am self-complete&rsquo;)."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; The speaker illustrates the importance of self-confidence and then explains how it helped her in several cases.</strong>: the lines are not imagined scenarios but impressions others hold. &#10007;</li><li><strong>Choice B &mdash; The speaker is sad about the lack of understanding among people around her and then expresses a desire to connect with them.</strong>: the speaker shows no sadness; the tone is dismissive indifference. &#10007;</li><li><strong>Choice C &mdash; The speaker presents herself as fiercely independent and then recounts scenarios that demonstrate that independence.</strong>: the speaker explicitly does not care about others&apos; opinions, the opposite of a desire to connect. &#10007;</li><li><strong>Choice D &mdash; The speaker lists various impressions people might have of her and then explains why they don't matter to her.</strong>: exactly maps onto lines 1&ndash;2 (impressions) and lines 3&ndash;4 (self-sufficiency that renders them irrelevant). &#10003;</li></ul>That is the correct answer."
+    }
+  ]
+}

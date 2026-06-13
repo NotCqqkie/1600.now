@@ -13,7 +13,7 @@
     },
     {
       "title": "Answer",
-      "content": "That matches choice $c = -19$ — <strong>-19</strong> is correct."
+      "content": "The value $c=-19$ satisfies the one-solution condition, so <strong>-19</strong> is correct."
     }
   ]
 }

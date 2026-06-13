@@ -22,7 +22,7 @@
     },
     {
       "title": "Order and select the correct choice",
-      "content": "mode = 18, median = 19, mean = 20, so mode &lt; median &lt; mean.<ul><li><strong>A</strong> &mdash; mode &lt; median &lt; mean: 18 &lt; 19 &lt; 20. That matches choice A &mdash; <strong>A</strong> is correct.</li><li><strong>B</strong> &mdash; mode &lt; mean &lt; median: would require mean &lt; median, but 20 &gt; 19. Wrong.</li><li><strong>C</strong> &mdash; median &lt; mode &lt; mean: would require mode &gt; median (19 &gt; 19), but mode = 18 &lt; 19. Wrong.</li><li><strong>D</strong> &mdash; mean &lt; mode &lt; median: mean = 20 is the largest, not the smallest. Wrong.</li></ul>"
+      "content": "mode = 18, median = 19, mean = 20, so mode &lt; median &lt; mean.<ul><li><strong>A</strong> &mdash; mode &lt; median &lt; mean: 18 &lt; 19 &lt; 20. <strong>A</strong> is correct.</li><li><strong>B</strong> &mdash; mode &lt; mean &lt; median: would require mean &lt; median, but 20 &gt; 19. Wrong.</li><li><strong>C</strong> &mdash; median &lt; mode &lt; mean: would require mode &gt; median (19 &gt; 19), but mode = 18 &lt; 19. Wrong.</li><li><strong>D</strong> &mdash; mean &lt; mode &lt; median: mean = 20 is the largest, not the smallest. Wrong.</li></ul>"
     }
   ]
 }

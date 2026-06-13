@@ -1,1 +1,15 @@
-{"questionId":"8a23ade7-9b24-42cf-ad70-6f233213e3cd_25","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks which choice most accurately compares the two discoveries. Both discoveries involve DNA mobility: McClintock found DNA segments that move within a genome; Lederberg found phage DNA that moves from virus into host cell. The correct answer must capture that shared element accurately."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;Like...also&apos; structure</strong>: correctly describes McClintock&apos;s moving DNA segments and shows Lederberg&apos;s phage DNA incorporation as a parallel. &#10003;</li><li><strong>Choice B &mdash; reverses the scientists</strong>: attributes McClintock&apos;s work to Lederberg and vice versa. &#10007;</li><li><strong>Choice C &mdash; conflates the discoveries</strong>: merges the two findings into one, losing the comparison entirely. &#10007;</li><li><strong>Choice D &mdash; misattributes work</strong>: credits the wrong scientist with the wrong discovery. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_25",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks which choice most accurately compares the two discoveries. Both discoveries involve DNA mobility: McClintock found DNA segments that move within a genome; Lederberg found phage DNA that moves from virus into host cell. The correct answer must capture that shared element accurately."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Like McClintock's discovery, which revealed moving DNA segments within a cell's genome, Lederberg's discovery also involved DNA mobility, showing how phage DNA will enter a bacterial host cell and incorporate itself into the cell's genome.</strong>: correctly describes McClintock&apos;s moving DNA segments and shows Lederberg&apos;s phage DNA incorporation as a parallel. &#10003;</li><li><strong>Choice B &mdash; Both McClintock and Lederberg were geneticists: McClintock found that phage DNA could be passed to bacterial host cells, and Lederberg identified DNA segments that can change position within genomes.</strong>: attributes McClintock&apos;s work to Lederberg and vice versa. &#10007;</li><li><strong>Choice C &mdash; McClintock's and Lederberg's discoveries provided insight into how phage DNA uses the lysogenic cycle to change position within the genome of a bacterial host cell.</strong>: merges the two findings into one, losing the comparison entirely. &#10007;</li><li><strong>Choice D &mdash; While McClintock first discovered DNA segments capable of altering gene expression, Lederberg's discovery provided geneticists with a better understanding of how TEs move within host cells.</strong>: credits the wrong scientist with the wrong discovery. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

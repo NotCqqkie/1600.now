@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use a scale shortcut for s",
-      "content": "The $x$-values are $-2s$, $-s$, and $s$. Because all $x$-values are scaled by the same nonzero constant $s$, set $s=1$ to see the pattern quickly. The representative points are $(-2,24)$, $(-1,21)$, and $(1,15)$.",
+      "title": "Use a Desmos table shortcut for s",
+      "content": "The $x$-values are $-2s$, $-s$, and $s$. Because all $x$-values are scaled by the same nonzero constant $s$, set $s=1$ to see the pattern quickly. The Desmos lists plot the representative points $(-2,24)$, $(-1,21)$, and $(1,15)$.",
       "desmosExpressions": [
         "x_1=[-2,-1,1]",
         "y_1=[24,21,15]"
@@ -17,7 +17,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice <strong>B</strong> is $3x+sy=18s$, so B is correct."
+      "content": "<strong>B</strong> is $3x+sy=18s$, so B is correct."
     }
   ]
 }

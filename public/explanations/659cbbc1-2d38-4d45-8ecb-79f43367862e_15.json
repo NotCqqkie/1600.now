@@ -1,1 +1,19 @@
-{"questionId": "659cbbc1-2d38-4d45-8ecb-79f43367862e_15", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Set up gallons needed", "content": "Painting an area of $w$ once needs $\\frac{w}{70}$ gallons. Painting twice doubles the area covered, requiring:<br/>$$P=\\frac{2w}{70}=\\frac{w}{35}$$<br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "659cbbc1-2d38-4d45-8ecb-79f43367862e_15",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the paint coverage rate",
+      "content": "One gallon covers $70$ square yards. Painting an area of $w$ square yards once would require $\\frac{w}{70}$ gallons."
+    },
+    {
+      "title": "Account for two coats",
+      "content": "Painting the same area twice doubles the amount of paint needed:<br/>$$P=2\\left(\\frac{w}{70}\\right)=\\frac{2w}{70}=\\frac{w}{35}$$"
+    },
+    {
+      "title": "Match the choice",
+      "content": "$P=\\frac{w}{35}$ confirms <strong>D</strong>, so <strong>D</strong> is correct."
+    }
+  ]
+}

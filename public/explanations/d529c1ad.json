@@ -1,1 +1,15 @@
-{"questionId": "d529c1ad", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key signal in the passage", "content": "The passage describes Pound's poetry as dense and experimental, and adds that many readers have a difficult time even identifying the poems' subjects. The blank must name the precise challenge readers face with this poetry."}, {"title": "Eliminate wrong choices, confirm the match", "content": "<ul><li><strong>Choice A &mdash; 'comprehend'</strong>: means to understand &mdash; readers struggle to grasp meaning, which matches the description of density, experimentation, and obscure references. &#10003;</li><li><strong>Choice B &mdash; 'dislike'</strong>: addresses preference, but the passage says nothing about whether readers enjoy the poetry. &#10007;</li><li><strong>Choice C &mdash; 'interrupt'</strong>: means to break into or stop, which has no logical connection to the difficulty readers have with the poems' content. &#10007;</li><li><strong>Choice D &mdash; 'overlook'</strong>: means to fail to notice, which is the opposite of the challenge &mdash; readers do notice the poetry but cannot understand it. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "d529c1ad",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal in the passage",
+      "content": "The passage describes Pound's poetry as dense and experimental, and adds that many readers have a difficult time even identifying the poems' subjects. The blank must name the precise challenge readers face with this poetry."
+    },
+    {
+      "title": "Eliminate wrong choices, confirm the match",
+      "content": "<ul><li><strong>\"comprehend\"</strong>: means to understand &mdash; readers struggle to grasp meaning, which matches the description of density, experimentation, and obscure references. &#10003;</li><li><strong>\"dislike\"</strong>: addresses preference, but the passage says nothing about whether readers enjoy the poetry. &#10007;</li><li><strong>\"interrupt\"</strong>: means to break into or stop, which has no logical connection to the difficulty readers have with the poems' content. &#10007;</li><li><strong>\"overlook\"</strong>: means to fail to notice, which is the opposite of the challenge &mdash; readers do notice the poetry but cannot understand it. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+    }
+  ]
+}

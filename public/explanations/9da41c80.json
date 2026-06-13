@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice A uses $0.22$ as the multiplier. Choice C uses the wrong initial height and wrong multiplier. Choice D uses the wrong initial height. Choice B has initial value $22$ and multiplier $0.85$, so <strong>B</strong> is correct."
+      "content": "$h(n)=22{(0.22)}^{n}$ uses $0.22$ as the multiplier. $h(n)=85{ \\left(0.22\\right)}^{n}$ uses the wrong initial height and wrong multiplier. $h(n)=85{(0.85)}^{n}$ uses the wrong initial height. The model $h(n)=22{(0.85)}^{n}$ has initial value $22$ and multiplier $0.85$."
     }
   ]
 }

@@ -1,1 +1,19 @@
-{"questionId": "9c3630b9", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "See the complex list", "content": "The sentence lists three material categories, each followed by a &quot;such as&quot; example: (1) natural debris, such as dried leaves; (2) man-made trash, such as plastic bags; (3) more traditional art supplies, such as tree glue. Because each item already contains an internal comma, the items themselves must be separated by semicolons."}, {"title": "Apply the rule and check what comes after the blank", "content": "After the blank, the sentence reads &quot;such as plastic bags; and more traditional art supplies&quot; &mdash; that semicolon already separates item 2 from item 3, confirming the list uses semicolons. So the first separator (after &quot;leaves&quot;) must also be a semicolon, and the comma after &quot;trash&quot; must precede its &quot;such as&quot; example."}, {"title": "Eliminate per choice", "content": "<ul><li><strong>Choice A &mdash; 'leaves, man-made trash:'</strong>: uses a comma where a semicolon is needed between list items, and a colon improperly introduces &quot;such as plastic bags.&quot; Violates the complex-list rule. &#10007;</li><li><strong>Choice B &mdash; 'leaves; man-made trash,'</strong>: semicolon correctly separates the first two items; comma correctly attaches &quot;such as plastic bags&quot; to &quot;man-made trash.&quot; &#10003;</li><li><strong>Choice C &mdash; 'leaves, man-made trash,'</strong>: comma between &quot;leaves&quot; and &quot;man-made trash&quot; blurs the boundary between list items in a complex list. &#10007;</li><li><strong>Choice D &mdash; 'leaves; man-made trash;'</strong>: the second semicolon wrongly separates &quot;man-made trash&quot; from its own &quot;such as&quot; example; that connection needs a comma. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "9c3630b9",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "See the complex list",
+      "content": "The sentence lists three material categories, each followed by a &quot;such as&quot; example: (1) natural debris, such as dried leaves; (2) man-made trash, such as plastic bags; (3) more traditional art supplies, such as tree glue. Because each item already contains an internal comma, the items themselves must be separated by semicolons."
+    },
+    {
+      "title": "Apply the rule and check what comes after the blank",
+      "content": "After the blank, the sentence reads &quot;such as plastic bags; and more traditional art supplies&quot; &mdash; that semicolon already separates item 2 from item 3, confirming the list uses semicolons. So the first separator (after &quot;leaves&quot;) must also be a semicolon, and the comma after &quot;trash&quot; must precede its &quot;such as&quot; example."
+    },
+    {
+      "title": "Eliminate per choice",
+      "content": "<ul><li><strong>Choice A &mdash; leaves, man-made trash:</strong>: uses a comma where a semicolon is needed between list items, and a colon improperly introduces &quot;such as plastic bags.&quot; Violates the complex-list rule. &#10007;</li><li><strong>Choice B &mdash; leaves; man-made trash,</strong>: semicolon correctly separates the first two items; comma correctly attaches &quot;such as plastic bags&quot; to &quot;man-made trash.&quot; &#10003;</li><li><strong>Choice C &mdash; leaves, man-made trash,</strong>: comma between &quot;leaves&quot; and &quot;man-made trash&quot; blurs the boundary between list items in a complex list. &#10007;</li><li><strong>Choice D &mdash; leaves; man-made trash;</strong>: the second semicolon wrongly separates &quot;man-made trash&quot; from its own &quot;such as&quot; example; that connection needs a comma. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

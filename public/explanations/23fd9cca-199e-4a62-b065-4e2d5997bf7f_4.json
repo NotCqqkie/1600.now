@@ -1,1 +1,15 @@
-{"questionId": "23fd9cca-199e-4a62-b065-4e2d5997bf7f_4", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Define what the blank must mean", "content": "The corpus is used to test hypotheses about &quot;how ______ a word is in spoken and written English.&quot; The example that follows &mdash; proving that &quot;world&quot; is the <em>eighth most commonly used noun</em> &mdash; is about <strong>frequency of occurrence</strong>. The blank must describe how widespread or frequently a word appears in the language."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; 'pervasive'</strong>: Means present or occurring throughout; widespread. &quot;How pervasive a word is&quot; directly expresses how frequently it appears across the language. &#10003;</li><li><strong>Choice B &mdash; 'credible'</strong>: Means believable or trustworthy. Words are not evaluated for credibility; the passage is about occurrence counts, not reliability. &#10007;</li><li><strong>Choice C &mdash; 'assertive'</strong>: Means confident or forceful in manner. This describes personality, not how often something appears. &#10007;</li><li><strong>Choice D &mdash; 'profound'</strong>: Means having deep meaning or insight. The passage concerns raw frequency data, not the depth or significance of words. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "23fd9cca-199e-4a62-b065-4e2d5997bf7f_4",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Define what the blank must mean",
+      "content": "The corpus is used to test hypotheses about &quot;how ______ a word is in spoken and written English.&quot; The example that follows &mdash; proving that &quot;world&quot; is the <em>eighth most commonly used noun</em> &mdash; is about <strong>frequency of occurrence</strong>. The blank must describe how widespread or frequently a word appears in the language."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; pervasive</strong>: Means present or occurring throughout; widespread. &quot;How pervasive a word is&quot; directly expresses how frequently it appears across the language. &#10003;</li><li><strong>Choice B &mdash; credible</strong>: Means believable or trustworthy. Words are not evaluated for credibility; the passage is about occurrence counts, not reliability. &#10007;</li><li><strong>Choice C &mdash; assertive</strong>: Means confident or forceful in manner. This describes personality, not how often something appears. &#10007;</li><li><strong>Choice D &mdash; profound</strong>: Means having deep meaning or insight. The passage concerns raw frequency data, not the depth or significance of words. &#10007;</li></ul>That matches <strong>Choice A &mdash; pervasive</strong>."
+    }
+  ]
+}

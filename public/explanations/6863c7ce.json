@@ -1,4 +1,5 @@
 {
+  "questionId": "6863c7ce",
   "qid": "6863c7ce",
   "steps": [
     {
@@ -8,7 +9,7 @@
       "explanation": "When $t = 1$, $d = 16$. When $t = 2$, $d = 32$. Each additional second adds exactly 16 inches, confirming 16 is the speed of the object."
     },
     {
-      "explanation": "Evaluating all choices:<ul><li>Choice A: &quot;The object moved a total of 16 inches.&quot; Incorrect &mdash; the total distance depends on $t$ and is $16t$, not a fixed 16.</li><li>Choice B: &quot;The object moved a total of $16t$ inches.&quot; Incorrect &mdash; $16t$ describes the full expression for $d$, not the interpretation of 16 alone.</li><li>Choice C: &quot;The object is moving at a rate of 16 inches per second.&quot; Correct &mdash; the coefficient 16 is the rate of change of distance with respect to time. That matches choice C &mdash; <strong>C</strong> is correct.</li><li>Choice D: &quot;The object is moving at a rate of $\\frac{1}{16}$ inches per second.&quot; Incorrect &mdash; this would be the rate if the equation were $d = \\frac{t}{16}$.</li></ul>"
+      "explanation": "Evaluating all choices:<ul><li><strong>Choice A &mdash; &lsquo;The object moved a total of $16$ inches.&rsquo;</strong>: &quot;The object moved a total of 16 inches.&quot; Incorrect &mdash; the total distance depends on $t$ and is $16t$, not a fixed 16.</li><li><strong>Choice B &mdash; &lsquo;The object moved a total of $16t$ inches.&rsquo;</strong>: &quot;The object moved a total of $16t$ inches.&quot; Incorrect &mdash; $16t$ describes the full expression for $d$, not the interpretation of 16 alone.</li><li><strong>Choice C &mdash; &lsquo;The object is moving at a rate of $16$ inches per second.&rsquo;</strong>: &quot;The object is moving at a rate of 16 inches per second.&quot; Correct &mdash; the coefficient 16 is the rate of change of distance with respect to time. That confirms <strong>C</strong> is correct.</li><li><strong>Choice D &mdash; &lsquo;The object is moving at a rate of $\\frac{1}{16}$ inches per second.&rsquo;</strong>: &quot;The object is moving at a rate of $\\frac{1}{16}$ inches per second.&quot; Incorrect &mdash; this would be the rate if the equation were $d = \\frac{t}{16}$.</li></ul>"
     }
   ],
   "correctAnswer": "C"

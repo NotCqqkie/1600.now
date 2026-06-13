@@ -5,12 +5,12 @@
   "steps": [
     {
       "title": "Apply the arc length formula",
-      "content": "The arc length formula relates the arc length, central angle, and circumference:<br/>$$\\text{Arc length} = \\frac{\\text{central angle}}{360°} \\times C$$<br/>Substituting the given values (arc length = 4 inches, central angle = 20°):<br/>$$4 = \\frac{20°}{360°} \\times C$$",
-      "formula": "$$\\text{Arc length} = \\frac{\\theta}{360°} \\times C$$"
+      "content": "The arc length formula relates the arc length, central angle, and circumference:<br/>$$\\text{Arc length} = \\frac{\\text{central angle}}{360^{\\circ}} \\times C$$<br/>Substituting the given values (arc length = 4 inches, central angle = 20°):<br/>$$4 = \\frac{20^{\\circ}}{360^{\\circ}} \\times C$$",
+      "formula": "$$\\text{Arc length} = \\frac{\\theta}{360^{\\circ}} \\times C$$"
     },
     {
       "title": "Simplify and solve for circumference",
-      "content": "Simplify the fraction: $\\frac{20}{360} = \\frac{1}{18}$<br/>$$4 = \\frac{1}{18} \\times C$$<br/>Multiply both sides by 18:<br/>$$C = 4 \\times 18 = 72$$<br/>That matches choice D — <strong>D</strong> is correct."
+      "content": "Simplify the fraction: $\\frac{20}{360} = \\frac{1}{18}$<br/>$$4 = \\frac{1}{18} \\times C$$<br/>Multiply both sides by 18:<br/>$$C = 4 \\times 18 = 72$$<br/>That confirms <strong>D</strong> is correct."
     }
   ]
 }

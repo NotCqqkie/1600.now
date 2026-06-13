@@ -1,1 +1,15 @@
-{"questionId":"25547537-4b75-4c1c-8c86-e3b70293c301_8","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage notes that despite Bogot&aacute; residents having closer parks, their park usage rate is lower. This contradicts a simple proximity explanation, implying another factor must drive the difference."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; implies unmet expectations</strong>: Frames the finding as surprising relative to expectations, but the passage is making a logical point about causation, not about what researchers expected. &#10007;</li><li><strong>Choice B &mdash; focuses on data sources</strong>: Brings in the origin of the data, which the passage never raises as an issue. &#10007;</li><li><strong>Choice C &mdash; attributes the difference to a factor other than proximity</strong>: Directly captures the passage&apos;s logic &mdash; proximity alone doesn&apos;t explain the gap, so something else does. &#10003;</li><li><strong>Choice D &mdash; suggests the data is inaccurate</strong>: The passage treats the usage data as valid; it draws a conclusion from it rather than questioning it. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "25547537-4b75-4c1c-8c86-e3b70293c301_8",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage notes that despite Bogot&aacute; residents having closer parks, their park usage rate is lower. This contradicts a simple proximity explanation, implying another factor must drive the difference."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; It was much larger than the researchers conducting the study expected.</strong>: Frames the finding as surprising relative to expectations, but the passage is making a logical point about causation, not about what researchers expected. &#10007;</li><li><strong>Choice B &mdash; It was calculated using sources that predate the survey.</strong>: Brings in the origin of the data, which the passage never raises as an issue. &#10007;</li><li><strong>Choice C &mdash; It is caused by something other than the parks' proximity to city residents.</strong>: Directly captures the passage&apos;s logic &mdash; proximity alone doesn&apos;t explain the gap, so something else does. &#10003;</li><li><strong>Choice D &mdash; It could be due to inaccuracies in the survey results.</strong>: The passage treats the usage data as valid; it draws a conclusion from it rather than questioning it. &#10007;</li></ul>That matches <strong>Choice C &mdash; It is caused by something other than the parks' proximity to city residents.</strong>."
+    }
+  ]
+}

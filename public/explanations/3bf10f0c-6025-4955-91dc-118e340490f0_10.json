@@ -9,7 +9,7 @@
     },
     {
       "title": "Calculate the percent increase from 100 to z",
-      "content": "Apply the percent increase formula with old value 100 and new value 127:<br/>$$\\text{Percent greater} = \\frac{127 - 100}{100} \\times 100\\%$$<br/>$$= \\frac{27}{100} \\times 100\\%$$<br/>$$= 27\\%$$<br/>That matches choice B — <strong>B</strong> is correct.",
+      "content": "Apply the percent increase formula with old value 100 and new value 127:<br/>$$\\text{Percent greater} = \\frac{127 - 100}{100} \\times 100\\%$$<br/>$$= \\frac{27}{100} \\times 100\\%$$<br/>$$= 27\\%$$<br/><strong>B</strong> is correct.",
       "formula": "$$\\text{Percent greater} = \\frac{\\text{new} - \\text{old}}{\\text{old}} \\times 100\\%$$"
     }
   ]

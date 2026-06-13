@@ -1,1 +1,15 @@
-{"questionId":"ed66cb8c-ccc6-48f0-b65f-d59f856ebf76_2","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank describes what tracking citation frequency lets you do with a scholar's importance. The passage gives an example: Mester is frequently cited, which shows her work is significant. So the blank needs a word meaning to assess or gauge importance."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'diminish'</strong>: Diminish means to reduce or make smaller. Plugging in: tracking citations would reduce a scholar's importance. But the passage says frequent citations indicate significance — citing someone more doesn't shrink their importance. &#10007;</li><li><strong>Choice B &mdash; 'increase'</strong>: Increase means to make larger. Plugging in: tracking citations would grow a scholar's importance. Tracking only reveals existing importance; it doesn't create or add to it. &#10007;</li><li><strong>Choice C &mdash; 'vary'</strong>: Vary means to change or differ. Plugging in: tracking citations would alter a scholar's importance. But citation tracking measures a fixed quality — it doesn't change that quality. &#10007;</li><li><strong>Choice D &mdash; 'measure'</strong>: Measure means to assess the extent of something. Plugging in: tracking how often others cite a scholar is one way to measure how important that scholar's research is. This matches exactly — the Mester example is the measuring instrument. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "ed66cb8c-ccc6-48f0-b65f-d59f856ebf76_2",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank describes what tracking citation frequency lets you do with a scholar's importance. The passage gives an example: Mester is frequently cited, which shows her work is significant. So the blank needs a word meaning to assess or gauge importance."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"diminish\"</strong>: Diminish means to reduce or make smaller. Plugging in: tracking citations would reduce a scholar's importance. But the passage says frequent citations indicate significance — citing someone more doesn't shrink their importance. &#10007;</li><li><strong>\"increase\"</strong>: Increase means to make larger. Plugging in: tracking citations would grow a scholar's importance. Tracking only reveals existing importance; it doesn't create or add to it. &#10007;</li><li><strong>\"vary\"</strong>: Vary means to change or differ. Plugging in: tracking citations would alter a scholar's importance. But citation tracking measures a fixed quality — it doesn't change that quality. &#10007;</li><li><strong>\"measure\"</strong>: Measure means to assess the extent of something. Plugging in: tracking how often others cite a scholar is one way to measure how important that scholar's research is. This matches exactly — the Mester example is the measuring instrument. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

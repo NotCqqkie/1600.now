@@ -1,1 +1,15 @@
-{"questionId": "262137dd-b309-4356-982d-630e0212b16e_3", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The sentence says Chicago&apos;s public art can &apos;satisfy any art lover.&apos; The passage supports this claim by listing art ranging from monumental sculptures to innovative street art — emphasizing <em>variety</em>. The blank must name the quality of Chicago&apos;s public art that makes universal satisfaction possible."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'breadth of'</strong>: means range or variety — exactly what the passage demonstrates with its examples spanning sculptures to murals, and exactly what enables the collection to appeal to all tastes. &#10003;</li><li><strong>Choice B &mdash; 'controversy over'</strong>: introduces conflict, which contradicts the passage&apos;s positive framing of the collection as &apos;outstanding.&apos; &#10007;</li><li><strong>Choice C &mdash; 'confusion about'</strong>: implies the art is disorienting or unclear — opposite of what would satisfy any art lover. &#10007;</li><li><strong>Choice D &mdash; 'apathy toward'</strong>: means indifference, which directly contradicts the idea that the art satisfies lovers of it. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "262137dd-b309-4356-982d-630e0212b16e_3",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence says Chicago&apos;s public art can &apos;satisfy any art lover.&apos; The passage supports this claim by listing art ranging from monumental sculptures to innovative street art — emphasizing <em>variety</em>. The blank must name the quality of Chicago&apos;s public art that makes universal satisfaction possible."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; breadth of</strong>: means range or variety — exactly what the passage demonstrates with its examples spanning sculptures to murals, and exactly what enables the collection to appeal to all tastes. &#10003;</li><li><strong>Choice B &mdash; controversy over</strong>: introduces conflict, which contradicts the passage&apos;s positive framing of the collection as &apos;outstanding.&apos; &#10007;</li><li><strong>Choice C &mdash; confusion about</strong>: implies the art is disorienting or unclear — opposite of what would satisfy any art lover. &#10007;</li><li><strong>Choice D &mdash; apathy toward</strong>: means indifference, which directly contradicts the idea that the art satisfies lovers of it. &#10007;</li></ul>That matches <strong>Choice A &mdash; breadth of</strong>."
+    }
+  ]
+}

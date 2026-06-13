@@ -3,9 +3,18 @@
   "correctAnswer": "D",
   "section": "Math",
   "steps": [
-    "The problem says the mass m is &quot;positive&quot;: that means m &gt; 0.",
-    "The mass must also be &quot;less than 510 grams&quot;: that means m &lt; 510.",
-    "Both constraints must hold simultaneously, giving the compound inequality 0 &lt; m &lt; 510. That matches choice D &mdash; <strong>D</strong> is correct."
+    {
+      "title": "Step 1",
+      "content": "The problem says the mass m is &quot;positive&quot;: that means m &gt; 0."
+    },
+    {
+      "title": "Step 2",
+      "content": "The mass must also be &quot;less than 510 grams&quot;: that means m &lt; 510."
+    },
+    {
+      "title": "Step 3",
+      "content": "Both constraints must hold simultaneously, giving the compound inequality 0 &lt; m &lt; 510. That confirms <strong>D</strong> is correct."
+    }
   ],
-  "choiceElimination": "<ul><li><strong>Choice A &mdash; 'm &gt; 510'</strong>: This says mass exceeds 510 grams, which contradicts the &quot;less than 510&quot; requirement. &#10007;</li><li><strong>Choice B &mdash; 'm &lt; 0'</strong>: This says mass is negative, which contradicts the &quot;positive mass&quot; requirement. &#10007;</li><li><strong>Choice C &mdash; '&minus;510 &lt; m &lt; 0'</strong>: This describes a negative range of mass, but the problem specifies a positive mass. &#10007;</li><li><strong>Choice D &mdash; '0 &lt; m &lt; 510'</strong>: Captures both constraints: m &gt; 0 (positive) and m &lt; 510 (less than 510 grams). &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+  "choiceElimination": "<ul><li><strong>Choice A &mdash; $m \\gt 510$</strong>: This says mass exceeds 510 grams, which contradicts the &quot;less than 510&quot; requirement. &#10007;</li><li><strong>Choice B &mdash; $m \\lt 0$</strong>: This says mass is negative, which contradicts the &quot;positive mass&quot; requirement. &#10007;</li><li><strong>Choice C &mdash; $-510 \\lt m \\lt 0$</strong>: This describes a negative range of mass, but the problem specifies a positive mass. &#10007;</li><li><strong>Choice D &mdash; $0 \\lt m \\lt 510$</strong>: Captures both constraints: m &gt; 0 (positive) and m &lt; 510 (less than 510 grams). &#10003;</li></ul>That confirms <strong>D</strong> is correct."
 }

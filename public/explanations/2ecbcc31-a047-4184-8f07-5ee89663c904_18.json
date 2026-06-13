@@ -1,1 +1,15 @@
-{"questionId":"2ecbcc31-a047-4184-8f07-5ee89663c904_18","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank follows 'novelist Zadie' and the sentence must conform to Standard English conventions. The subject is 'Her portrait of novelist Zadie Smith' and the verb is 'is displayed.' The question is whether any punctuation belongs between the subject and verb."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Smith&mdash;'</strong>: An em dash here splits the subject from its verb with no matching closing dash and no modifier to set off. &#10007;</li><li><strong>Choice B &mdash; 'Smith:'</strong>: A colon must follow a complete independent clause and introduce an elaboration. 'Her portrait of novelist Zadie Smith' is not a complete clause. &#10007;</li><li><strong>Choice C &mdash; 'Smith,'</strong>: A comma between a simple subject and its verb is a Standard English error. &#10007;</li><li><strong>Choice D &mdash; 'Smith'</strong>: No punctuation lets the subject flow directly into the predicate &mdash; the correct construction. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "2ecbcc31-a047-4184-8f07-5ee89663c904_18",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank follows 'novelist Zadie' and the sentence must conform to Standard English conventions. The subject is 'Her portrait of novelist Zadie Smith' and the verb is 'is displayed.' The question is whether any punctuation belongs between the subject and verb."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — Smith—</strong>: An em dash here splits the subject from its verb with no matching closing dash and no modifier to set off. &#10007;</li><li><strong>Choice B — Smith:</strong>: A colon must follow a complete independent clause and introduce an elaboration. 'Her portrait of novelist Zadie Smith' is not a complete clause. &#10007;</li><li><strong>Choice C — Smith,</strong>: A comma between a simple subject and its verb is a Standard English error. &#10007;</li><li><strong>Choice D — Smith</strong>: No punctuation lets the subject flow directly into the predicate &mdash; the correct construction. &#10003;</li></ul><strong>D</strong> is correct."
+    }
+  ]
+}

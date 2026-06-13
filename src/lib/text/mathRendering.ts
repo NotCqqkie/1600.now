@@ -32,6 +32,63 @@ const normalizeInlineWhitespace = (content: string): string =>
     .replace(/[ \t]+([,.;:!?])/g, "$1")
     .replace(/[ \t]{2,}/g, " ");
 
+const convertLineBreaksOutsideMath = (content: string): string => {
+  type MathDelimiter = { open: "$" | "$$" | "\\(" | "\\["; close: "$" | "$$" | "\\)" | "\\]" };
+
+  const convert = (value: string): string =>
+    value
+      .replace(/\\\\\\\\/g, "<br /><br />")
+      .replace(/\\\\/g, "<br />")
+      .replace(/\\n/g, "<br />");
+
+  const readDelimiterAt = (index: number): MathDelimiter | null => {
+    if (!isEscapedAt(content, index)) {
+      if (content.startsWith("$$", index)) return { open: "$$", close: "$$" };
+      if (content[index] === "$") return { open: "$", close: "$" };
+      if (content.startsWith("\\(", index)) return { open: "\\(", close: "\\)" };
+      if (content.startsWith("\\[", index)) return { open: "\\[", close: "\\]" };
+    }
+    return null;
+  };
+
+  let result = "";
+  let cursor = 0;
+  let textStart = 0;
+
+  while (cursor < content.length) {
+    const delimiter = readDelimiterAt(cursor);
+    if (!delimiter) {
+      cursor += 1;
+      continue;
+    }
+
+    let closing = cursor + delimiter.open.length;
+
+    while (closing < content.length) {
+      if (
+        content.startsWith(delimiter.close, closing) &&
+        !isEscapedAt(content, closing)
+      ) {
+        break;
+      }
+      closing += 1;
+    }
+
+    if (closing >= content.length) {
+      cursor += 1;
+      continue;
+    }
+
+    result += convert(content.slice(textStart, cursor));
+    result += content.slice(cursor, closing + delimiter.close.length);
+    cursor = closing + delimiter.close.length;
+    textStart = cursor;
+  }
+
+  result += convert(content.slice(textStart));
+  return result;
+};
+
 const normalizeTexDelimiters = (content: string): string => {
   type Delimiter = "\\(" | "\\)" | "\\[" | "\\]" | "$" | "$$";
 
@@ -116,9 +173,7 @@ export function renderMixedContent(text: string, options: RenderMixedContentOpti
 
   let processedText = text;
   if (convertTexLineBreaks) {
-    processedText = processedText.replace(/\\\\\\\\/g, "<br /><br />");
-    processedText = processedText.replace(/\\\\/g, "<br />");
-    processedText = processedText.replace(/\\n/g, "<br />");
+    processedText = convertLineBreaksOutsideMath(processedText);
   }
   processedText = processedText.replace(
     /(?:(?:^|\n)\s*•\s*[^\n]+){2,}/g,
@@ -186,6 +241,13 @@ export function renderMixedContent(text: string, options: RenderMixedContentOpti
       }
 
       const mathCandidate = content.slice(cursor + delimiterLength, closing);
+      if (
+        /^\s*\d[\d,.]*\s*[,;:]?\s*$/.test(mathCandidate) &&
+        /\d/.test(content[closing + delimiterLength] ?? "")
+      ) {
+        cursor += 1;
+        continue;
+      }
       if (!isLikelyInlineMath(mathCandidate)) {
         cursor += 1;
         continue;
@@ -211,6 +273,14 @@ export function renderMixedContent(text: string, options: RenderMixedContentOpti
 
   const applyInlineFormatting = (content: string): string => {
     let html = content.replace(/\n/g, "<br />");
+    const protectedTags: string[] = [];
+    const protectTags = (value: string) =>
+      value.replace(/<\/?[A-Za-z][^>]*>/g, (tag: string) => {
+        const index = protectedTags.push(tag) - 1;
+        return `\uE000${index}\uE001`;
+      });
+    const restoreTags = (value: string) =>
+      value.replace(/\uE000(\d+)\uE001/g, (_match: string, index: string) => protectedTags[Number(index)] ?? "");
 
     html = html.replace(/~~([^~]+?)~~/g, (_, inner: string) => {
       const trimmed = inner.trim();
@@ -233,6 +303,8 @@ export function renderMixedContent(text: string, options: RenderMixedContentOpti
       return `${leading}<em>${trimmed}</em>${trailing}`;
     });
 
+    html = protectTags(html);
+
     html = html.replace(/\*\*([^*]+?)\*\*/g, (_, inner: string) => {
       const trimmed = inner.trim();
       return trimmed ? `<strong>${trimmed}</strong>` : _;
@@ -249,11 +321,13 @@ export function renderMixedContent(text: string, options: RenderMixedContentOpti
       return `${prefix}<em>${trimmed}</em>`;
     });
 
-    html = html.replace(/(^|[^_])_([^_]+?)_(?!_)/g, (_, prefix: string, inner: string) => {
+    html = html.replace(/(^|[^\w])_([^_]+?)_(?![\w_])/g, (_, prefix: string, inner: string) => {
       const trimmed = inner.trim();
       if (!trimmed) return _;
       return `${prefix}<em>${trimmed}</em>`;
     });
+
+    html = restoreTags(html);
 
     html = html.replace(
       /(<img\b[^>]*\bsrc\s*=\s*)(["'])([^"']+)(\2)/gi,

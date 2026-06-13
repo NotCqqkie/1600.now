@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices with a sample constant",
-      "content": "Use a convenient value such as $a=24$ to graph the choices in Desmos. Then $a-18=6$ and $a-21=3$. The correct graph should be the original representative function shifted right $9$ and down $3$. Only choice B does that.",
+      "content": "Use a convenient value such as $a=24$ to graph the choices in Desmos. Then $a-18=6$ and $a-21=3$. The correct graph should be the original representative function shifted right $9$ and down $3$. Only $g(x)=\\frac{a-18}{x-9}+3$ has both shifts.",
       "desmosExpressions": [
         "y=6/x+6",
         "y=6/(x+9)+3",
@@ -24,7 +24,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "The equation $g(x)=\\frac{a-18}{x-9}+3$ matches choice <strong>B</strong>."
+      "content": "The equation $g(x)=\\frac{a-18}{x-9}+3$ matches <strong>B</strong>."
     }
   ]
 }

@@ -13,7 +13,7 @@
     },
     {
       "title": "Compute the requested product",
-      "content": "The question asks for $ab$, not the full equation. Multiply the constants: $$ab=6\\cdot9=54.$$ Choice <strong>C</strong> is correct."
+      "content": "The question asks for $ab$, not the full equation. Multiply the constants: $$ab=6\\cdot9=54.$$ $54$ is correct."
     }
   ]
 }

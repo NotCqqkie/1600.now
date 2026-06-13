@@ -9,11 +9,11 @@
     },
     {
       "title": "Check each plotted choice",
-      "content": "<ul><li><strong>A</strong> $(0,-4)$ is below the boundary and outside the shaded region.</li><li><strong>B</strong> $(0,4)$ is on the wrong side of the shaded region.</li><li><strong>C</strong> $(-4,0)$ is outside the shaded region.</li><li><strong>D</strong> $(4,0)$ is inside the shaded region.</li></ul>"
+      "content": "<ul><li><strong>A</strong> $\\left(0,-4\\right)$ is below the boundary and outside the shaded region.</li><li><strong>B</strong> $\\left(0,4\\right)$ is on the wrong side of the shaded region.</li><li><strong>C</strong> $\\left(-4,0\\right)$ is outside the shaded region.</li><li><strong>D</strong> $\\left(4,0\\right)$ is inside the shaded region.</li></ul>"
     },
     {
       "title": "Find the solution point",
-      "content": "Only $(4,0)$ is represented by a point in the shaded region. That matches choice D &mdash; <strong>D</strong> is correct."
+      "content": "Only $\\left(4,0\\right)$ is represented by a point in the shaded region. That confirms <strong>D</strong> is correct."
     }
   ]
 }

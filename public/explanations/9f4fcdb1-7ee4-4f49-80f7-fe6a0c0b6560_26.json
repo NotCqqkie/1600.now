@@ -1,1 +1,15 @@
-{"questionId": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_26", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The notes establish one key difference between the two cartographic traditions: Venetian portolan charts were sparse in illustrations, while Majorcan ones were richly illustrated. The correct choice must accurately state this contrast without reversing or distorting the facts."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; reverses the facts</strong>: attributes rich illustration to Venetian charts and sparseness to Majorcan ones, which is the opposite of what the notes say. &#10007;</li><li><strong>Choice B &mdash; fails to explain the difference</strong>: describes a feature shared by both traditions rather than the distinction between them. &#10007;</li><li><strong>Choice C &mdash; misattributes a feature</strong>: wrongly assigns a general characteristic to only the Venetian tradition. &#10007;</li><li><strong>Choice D &mdash; 'Majorcan charts richly illustrated, unlike sparser Venetian ones'</strong>: states the contrast directly and accurately as the notes describe it. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_26",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The notes establish one key difference between the two cartographic traditions: Venetian portolan charts were sparse in illustrations, while Majorcan ones were richly illustrated. The correct choice must accurately state this contrast without reversing or distorting the facts."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Unlike Venetian portolan charts, which could include illustrations of palm trees and shepherds' crooks, Majorcan charts were sparse in illustration.</strong>: attributes rich illustration to Venetian charts and sparseness to Majorcan ones, which is the opposite of what the notes say. &#10007;</li><li><strong>Choice B &mdash; Being in the Majorcan tradition, the portolan charts of Gabriel de Vallseca differed from those of the Venetian cartographer Domenico Pizigano.</strong>: describes a feature shared by both traditions rather than the distinction between them. &#10007;</li><li><strong>Choice C &mdash; While portolan charts in the Majorcan tradition tended to be richly illustrated, those in the Venetian tradition mapped the waterways of the Mediterranean and Black Seas.</strong>: wrongly assigns a general characteristic to only the Venetian tradition. &#10007;</li><li><strong>Choice D &mdash; Majorcan portolan charts, unlike their sparser Venetian counterparts, tended to be richly illustrated.</strong>: states the contrast directly and accurately as the notes describe it. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

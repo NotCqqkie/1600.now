@@ -1,1 +1,15 @@
-{"questionId": "25755def", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what contrasting requires", "content": "The goal is to “contrast” the two samples—meaning to highlight what's different between them, not what's similar."}, {"title": "Select the choice that shows a specific difference", "content": "Choice D states that the SEBS sample was thicker than the TPU sample (4mm vs 3mm), using relevant data from the notes to establish a concrete distinction.<br/><br/>The other choices either emphasize similarity (both temperatures increased, both were studied) or provide only general background unrelated to comparing these specific samples.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "25755def",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what contrasting requires",
+      "content": "The goal is to “contrast” the two samples—meaning to highlight what's different between them, not what's similar."
+    },
+    {
+      "title": "Select the choice that shows a specific difference",
+      "content": "<strong>Choice D &mdash; The SEBS rubber sample used in the 2019 study was thicker than the TPU sample.</strong> states that the SEBS sample was thicker than the TPU sample (4mm vs 3mm), using relevant data from the notes to establish a concrete distinction.<br/><br/>The other choices either emphasize similarity (both temperatures increased, both were studied) or provide only general background unrelated to comparing these specific samples.<br/><br/>That matches <strong>Choice D &mdash; The SEBS rubber sample used in the 2019 study was thicker than the TPU sample.</strong>."
+    }
+  ]
+}

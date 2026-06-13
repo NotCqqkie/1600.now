@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li>A ($0.14$): Off by a factor of about $10$; this would result from dividing by $36000$ instead of $3600$. Eliminated.</li><li>B ($1.50$): Matches the computed value $\\approx 1.503$ ft/s$^2$.</li><li>C ($8.38$): Too large by a factor of about $5.6$. Eliminated.</li><li>D ($90.2$): Far too large; would come from forgetting to divide by $3600$. Eliminated.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "<ul><li>A ($0.14$): Off by a factor of about $10$; this would result from dividing by $36000$ instead of $3600$. Eliminated.</li><li>B ($1.50$): Matches the computed value $\\approx 1.503$ ft/s$^2$.</li><li>C ($8.38$): Too large by a factor of about $5.6$. Eliminated.</li><li>D ($90.2$): Far too large; would come from forgetting to divide by $3600$. Eliminated.</li></ul>That matches <strong>Choice B &mdash; 1.50</strong>."
     }
   ]
 }

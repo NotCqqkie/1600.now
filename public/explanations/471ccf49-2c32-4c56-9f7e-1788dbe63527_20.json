@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the exponential decay formula",
-      "content": "From 2005 to 2015 is $10$ years, so apply the multiplier $10$ times: $$6.32(0.965)^{10}.$$ That matches choice <strong>D</strong>."
+      "content": "From 2005 to 2015 is $10$ years, so apply the multiplier $10$ times: $$6.32(0.965)^{10}.$$ The result matches."
     }
   ]
 }

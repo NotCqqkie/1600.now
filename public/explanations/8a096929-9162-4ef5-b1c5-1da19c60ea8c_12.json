@@ -9,7 +9,7 @@
     },
     {
       "title": "Factor out C and solve",
-      "content": "Factor $C$ from the left side:<br/>$$C(P + N) = 44N$$<br/>Divide both sides by $(P + N)$:<br/>$$C = \\frac{44N}{P + N}$$<br/>That matches choice C — <strong>C</strong> is correct."
+      "content": "Factor $C$ from the left side:<br/>$$C(P + N) = 44N$$<br/>Divide both sides by $(P + N)$:<br/>$$C = \\frac{44N}{P + N}$$<br/>That confirms <strong>C</strong> is correct."
     }
   ]
 }

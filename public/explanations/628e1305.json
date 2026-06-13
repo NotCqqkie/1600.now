@@ -1,1 +1,15 @@
-{"questionId": "628e1305", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the claim and what evidence must show", "content": "The claim is that the author emphasizes the setting where Valia is reading is <em>nearly silent</em>. The correct quotation must directly depict that silence &mdash; not cold, not book size, not Valia&rsquo;s actions."}, {"title": "Eliminate wrong choices, confirm the match", "content": "<ul><li><strong>Choice A &mdash; &lsquo;The hand in which he carried his book was getting stiff with cold, but he would not ask his mother to take the book from him.&rsquo;</strong>: Describes physical discomfort from cold, not silence. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Valia was reading a huge, very huge book, almost half as large as himself.&rsquo;</strong>: Emphasizes the size of the book, not any quality of the setting. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Valia approached the window and examined the toys.&rsquo;</strong>: Describes Valia&rsquo;s action at a window, with no reference to sound or silence. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Everything in the room was quiet, so quiet that the only thing to be heard was the rustling of the pages he turned.&rsquo;</strong>: Uses &ldquo;quiet&rdquo; twice and names the only audible sound, directly illustrating near silence. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "628e1305",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the claim and what evidence must show",
+      "content": "The claim is that the author emphasizes the setting where Valia is reading is <em>nearly silent</em>. The correct quotation must directly depict that silence &mdash; not cold, not book size, not Valia&rsquo;s actions."
+    },
+    {
+      "title": "Eliminate wrong choices, confirm the match",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;\"The hand in which he carried his book was getting stiff with cold, but he would not ask his mother to take the book from him.\"&rsquo;</strong>: Describes physical discomfort from cold, not silence. &#10007;</li><li><strong>Choice B &mdash; &lsquo;\"Valia was reading a huge, very huge book, almost half as large as himself.\"&rsquo;</strong>: Emphasizes the size of the book, not any quality of the setting. &#10007;</li><li><strong>Choice C &mdash; &lsquo;\"Valia approached the window and examined the toys.\"&rsquo;</strong>: Describes Valia&rsquo;s action at a window, with no reference to sound or silence. &#10007;</li><li><strong>Choice D &mdash; &lsquo;\"Everything in the room was quiet, so quiet that the only thing to be heard was the rustling of the pages he turned.\"&rsquo;</strong>: Uses &ldquo;quiet&rdquo; twice and names the only audible sound, directly illustrating near silence. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

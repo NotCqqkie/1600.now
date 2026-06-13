@@ -1,1 +1,15 @@
-{"questionId": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_24", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Recognize that the task requires a definition", "content": "The student's goal is to “define the term 'georeferencing,'” which means stating what it IS, not describing who used it or what it did.<br/><br/>The notes provide the definition directly: georeferencing IS “the process of assigning geographic coordinates to an image” that enables “mapping software to place the image in its real-world location.”"}, {"title": "Identify the choice that provides the definition", "content": "Choice B states the complete definition: “Georeferencing is the process of assigning geographic coordinates to an image so that mapping software can place it in its real-world location.” This directly tells us what georeferencing is.<br/><br/>Choices A, C, and D describe applications, examples, or uses of the term rather than defining it.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_24",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize that the task requires a definition",
+      "content": "The student's goal is to “define the term 'georeferencing,'” which means stating what it IS, not describing who used it or what it did.<br/><br/>The notes provide the definition directly: georeferencing IS “the process of assigning geographic coordinates to an image” that enables “mapping software to place the image in its real-world location.”"
+    },
+    {
+      "title": "Identify the choice that provides the definition",
+      "content": "The correct answer states the complete definition: “Georeferencing is the process of assigning geographic coordinates to an image so that mapping software can place it in its real-world location.” This directly tells us what georeferencing is.<br/><br/>The other three choices describe applications, examples, or uses of the term rather than defining it.<br/><br/>That matches the correct answer — <strong>B</strong> is correct."
+    }
+  ]
+}

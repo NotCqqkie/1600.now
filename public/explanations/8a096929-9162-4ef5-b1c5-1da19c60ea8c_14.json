@@ -13,7 +13,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; $v = 0.01t + 24$</strong>: Rate 0.01 mL/s, starting at 24 mL. Matches the setup exactly. &#10003;</li><li><strong>Choice B &mdash; $v = 0.03t + 24$</strong>: Rate 0.03 mL/s would mean a full 0.03 mL drop every second, not every 3 seconds. &#10007;</li><li><strong>Choice C &mdash; $v = 0.09t + 24$</strong>: Rate 0.09 mL/s is 9 times the actual rate. &#10007;</li><li><strong>Choice D &mdash; $v = 3t$</strong>: No initial 24 mL, and the rate is wrong. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; $v = 0.01t + 24$</strong>: Rate 0.01 mL/s, starting at 24 mL. Matches the setup exactly. &#10003;</li><li><strong>Choice B &mdash; $v = 0.03t + 24$</strong>: Rate 0.03 mL/s would mean a full 0.03 mL drop every second, not every 3 seconds. &#10007;</li><li><strong>Choice C &mdash; $v = 0.09t + 24$</strong>: Rate 0.09 mL/s is 9 times the actual rate. &#10007;</li><li><strong>Choice D &mdash; $v = 3t$</strong>: No initial 24 mL, and the rate is wrong. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
     }
   ]
 }

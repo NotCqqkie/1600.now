@@ -1,1 +1,15 @@
-{"questionId": "93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_18", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The sentence reads: 'The editors turned to the ______ to craft the entry about &quot;hueco.&quot;' The blank must be filled with the noun 'novelist' plus the appositive 'Stephen Graham Jones.' The question is whether commas are needed and where."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'novelist Stephen Graham Jones,'</strong>: the trailing comma incorrectly separates the noun phrase from the infinitive 'to craft,' which should follow without punctuation. &#10007;</li><li><strong>Choice B &mdash; 'novelist Stephen Graham Jones'</strong>: 'Stephen Graham Jones' is a restrictive appositive &mdash; it identifies which novelist, so no commas are needed. No comma before 'to craft' is also correct for a purpose infinitive. &#10003;</li><li><strong>Choice C &mdash; 'novelist, Stephen Graham Jones,'</strong>: commas on both sides treat the appositive as non-restrictive (extra information), but here the name is essential to identify who is meant &mdash; commas are wrong. &#10007;</li><li><strong>Choice D &mdash; 'novelist, Stephen Graham Jones'</strong>: opens a non-restrictive appositive with a comma but never closes it &mdash; asymmetrical and incorrect. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_18",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence reads: 'The editors turned to the ______ to craft the entry about &quot;hueco.&quot;' The blank must be filled with the noun 'novelist' plus the appositive 'Stephen Graham Jones.' The question is whether commas are needed and where."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; novelist Stephen Graham Jones,</strong>: the trailing comma incorrectly separates the noun phrase from the infinitive 'to craft,' which should follow without punctuation. &#10007;</li><li><strong>Choice B &mdash; novelist Stephen Graham Jones</strong>: 'Stephen Graham Jones' is a restrictive appositive &mdash; it identifies which novelist, so no commas are needed. No comma before 'to craft' is also correct for a purpose infinitive. &#10003;</li><li><strong>Choice C &mdash; novelist, Stephen Graham Jones,</strong>: commas on both sides treat the appositive as non-restrictive (extra information), but here the name is essential to identify who is meant &mdash; commas are wrong. &#10007;</li><li><strong>Choice D &mdash; novelist, Stephen Graham Jones</strong>: opens a non-restrictive appositive with a comma but never closes it &mdash; asymmetrical and incorrect. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

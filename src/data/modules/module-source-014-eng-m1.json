@@ -166,8 +166,8 @@
     "difficulty": "Medium",
     "question_number": 6,
     "test_name": "Module Source 014 Eng M1",
-    "passage": "Which choice best states the function of the underlined portion in the text as a whole?\nCurious about how people visually perceive objects in their dreams, Stephen LaBerge and team recruited lucid dreamers—people aware that they're dreaming as it's happening—for a research study. These participants were reliably able to signal when they had entered a dream state; the team then observed participants' eye movements as they slept.<u>The smoothness with which participants' eyes tracked objects in their dreams closely matched how sighted people who are awake visually track objects around them</u>, suggesting to the team that the brain perceives dream objects as the product of something other than pure imagination.",
-    "question_text": "Which choice best states the function of the underlined portion in the text as a whole?",
+    "passage": "Which choice best states the function of the underlined portion in the text as a whole?\nCurious about how people visually perceive objects in their dreams, Stephen LaBerge and team recruited lucid dreamers—people aware that they're dreaming as it's happening—for a research study. These participants were reliably able to signal when they had entered a dream state; the team then observed participants' eye movements as they slept. <u>The smoothness with which participants' eyes tracked objects in their dreams closely matched how sighted people who are awake visually track objects around them</u>, suggesting to the team that the brain perceives dream objects as the product of something other than pure imagination.",
+    "question_text": null,
     "choices": [
       {
         "label": "A",

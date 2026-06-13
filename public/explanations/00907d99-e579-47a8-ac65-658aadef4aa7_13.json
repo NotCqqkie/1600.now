@@ -13,7 +13,7 @@
     },
     {
       "title": "Find the matching choice",
-      "content": "Choice A reverses the values, assigning molecular weight = 172.26 and boiling point = 141.32 — opposite to what the point represents.<br/><br/>Choices C and D claim this point is a minimum or maximum, but since $x = 141.32$ falls roughly in the middle of the range $[1, 280]$, neither extreme is plausible.<br/><br/>Choice B states: <em>a straight-chain alkane with a molecular weight of 141.32 grams per mole has an estimated boiling point of 172.26 degrees Celsius</em> — exactly matching our interpretation.<br/><br/>That matches choice B — <strong>B</strong> is correct."
+      "content": "<strong>Choice A &mdash; A straight-chain alkane with a molecular weight of 172.26 grams per mole has an estimated boiling point of 141.32 degrees Celsius.</strong> reverses the values, assigning molecular weight = 172.26 and boiling point = 141.32 — opposite to what the point represents.<br/><br/>The minimum and maximum interpretations do not fit because $x = 141.32$ falls roughly in the middle of the range $[1, 280]$, so neither extreme is plausible.<br/><br/><strong>Choice B &mdash; A straight-chain alkane with a molecular weight of 141.32 grams per mole has an estimated boiling point of 172.26 degrees Celsius.</strong> states: <em>a straight-chain alkane with a molecular weight of 141.32 grams per mole has an estimated boiling point of 172.26 degrees Celsius</em> — exactly matching our interpretation.<br/><br/>That matches <strong>Choice B &mdash; A straight-chain alkane with a molecular weight of 141.32 grams per mole has an estimated boiling point of 172.26 degrees Celsius.</strong>."
     }
   ]
 }

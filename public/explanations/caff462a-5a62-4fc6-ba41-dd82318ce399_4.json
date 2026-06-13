@@ -1,1 +1,15 @@
-{"questionId": "caff462a-5a62-4fc6-ba41-dd82318ce399_4", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The sentence explains that the giant pika’s extinction likely impacted the ecosystem. The key signal is \"the disappearance likely affected several other species\" — this hints at a cause-and-effect relationship between the pika’s decline and ecological effects."}, {"title": "Match the meaning", "content": "D uses \"consequences for\" to show the pika’s extinction had effects <em>on</em> the ecosystem, matching the cause-effect signal.<br/><br/>A, B, and C misrepresent the relationship: \"similarities to\" and \"sources in\" reverse the direction of the effect, while \"precedents in\" suggests past patterns, which contradicts the text’s focus on future impacts.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "caff462a-5a62-4fc6-ba41-dd82318ce399_4",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The sentence explains that the giant pika’s extinction likely impacted the ecosystem. The key signal is \"the disappearance likely affected several other species\" — this hints at a cause-and-effect relationship between the pika’s decline and ecological effects."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "D uses \"consequences for\" to show the pika’s extinction had effects <em>on</em> the ecosystem, matching the cause-effect signal.<br/><br/>A, B, and C misrepresent the relationship: \"similarities to\" and \"sources in\" reverse the direction of the effect, while \"precedents in\" suggests past patterns, which contradicts the text’s focus on future impacts.<br/><br/>That is the correct answer."
+    }
+  ]
+}

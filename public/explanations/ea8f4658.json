@@ -1,1 +1,15 @@
-{"questionId": "ea8f4658", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the blank must do", "content": "The sentence reads: &quot;This type of random, continuous ______ is known as Brownian motion, can be observed throughout the natural world.&quot; The clause &quot;which is known as Brownian motion&quot; is a nonessential (extra-information) relative clause &mdash; it can be removed without breaking the sentence. Nonessential relative clauses must be enclosed by matching punctuation: a comma before &quot;which&quot; and the existing comma after &quot;motion&quot; are both required."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; &apos;movement: which&apos;</strong>: A colon can only follow an independent clause; &quot;This type of random, continuous movement&quot; is not independent. Also, colons do not set off nonessential relative clauses. &#10007;</li><li><strong>Choice B &mdash; &apos;movement, which&apos;</strong>: Supplies the required comma before &quot;which,&quot; completing the pair with the comma already after &quot;motion.&quot; The nonessential clause is properly enclosed. &#10003;</li><li><strong>Choice C &mdash; &apos;movement which&apos;</strong>: No comma before &quot;which,&quot; so the nonessential clause is missing its opening punctuation mark. &#10007;</li><li><strong>Choice D &mdash; &apos;movement. Which&apos;</strong>: A period ends the sentence at &quot;movement,&quot; leaving &quot;Which is known as Brownian motion, can be observed throughout the natural world&quot; as a fragment. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "ea8f4658",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the blank must do",
+      "content": "The sentence reads: \"This type of random, continuous ______ is known as Brownian motion, can be observed throughout the natural world.\" The clause \"which is known as Brownian motion\" is a nonessential (extra-information) relative clause &mdash; it can be removed without breaking the sentence. Nonessential relative clauses must be enclosed by matching punctuation: a comma before \"which\" and the existing comma after \"motion\" are both required."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>\"movement: which\"</strong>: A colon can only follow an independent clause; \"This type of random, continuous movement\" is not independent. Also, colons do not set off nonessential relative clauses. &#10007;</li><li><strong>\"movement, which\"</strong>: Supplies the required comma before \"which,\" completing the pair with the comma already after \"motion.\" The nonessential clause is properly enclosed. &#10003;</li><li><strong>\"movement which\"</strong>: No comma before \"which,\" so the nonessential clause is missing its opening punctuation mark. &#10007;</li><li><strong>\"movement. Which\"</strong>: A period ends the sentence at \"movement,\" leaving \"Which is known as Brownian motion, can be observed throughout the natural world\" as a fragment. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+    }
+  ]
+}

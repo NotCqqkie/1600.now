@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Solve the system by substitution",
-      "content": "Multiply the first equation by 20: $4(x-7)+5(y+8)=0$, so $4x+5y=-12$. Combined with $3x+4y=0$: solve to get $x=-48,\\ y=36$."
+      "content": "Multiply the first equation by 20: $\\left(4\\right)(x-7)+5(y+8)=0$, so $4x+5y=-12$. Combined with $3x+4y=0$: solve to get $x=-48,\\ y=36$."
     },
     {
       "title": "Find the value of $x + y$",
-      "content": "Then $x+y=-48+36=-12$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."
+      "content": "Then $x+y=-48+36=-12$. That matches the correct answer — <strong>A</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice A, -12, and the other choices fail the same setup or substitution. Therefore <strong>A</strong> is correct."
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above is -12, and the other choices fail the same setup or substitution. Therefore <strong>A</strong> is correct."
     }
   ]
 }

@@ -9,7 +9,7 @@
     },
     {
       "title": "Calculate the slope between the two points",
-      "content": "Using the slope formula $m = \\frac{y_2 - y_1}{x_2 - x_1}$ with points $(1, -8)$ and $(5, 16)$:<br/>$$m = \\frac{16 - (-8)}{5 - 1} = \\frac{24}{4} = 6$$<br/>That matches choice A — <strong>A</strong> is correct."
+      "content": "Using the slope formula $m = \\frac{y_2 - y_1}{x_2 - x_1}$ with points $(1, -8)$ and $(5, 16)$:<br/>$$m = \\frac{16 - (-8)}{5 - 1} = \\frac{24}{4} = 6$$<br/><strong>A</strong> is correct."
     }
   ]
 }

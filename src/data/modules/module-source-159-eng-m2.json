@@ -6,7 +6,7 @@
     "difficulty": "Medium",
     "question_number": 1,
     "test_name": "Module Source 159 Eng M2",
-    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nCybersecurity experts often encourage users to create passwords that are fairly complicated and therefore difficult to guess. Nonetheless, research has shown that the more ______ approach to password selection seems to favor convenience over security: for example, the second most commonly used password in 2016 was the easily remembered “password.”",
+    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nCybersecurity experts often encourage users to create passwords that are fairly complicated and therefore difficult to guess. Nonetheless, research has shown that the more ______ approach to password selection seems to favor convenience over security: for example, the second most commonly used password in 2016 was the easily remembered \"password.\"",
     "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
     "choices": [
       {
@@ -134,8 +134,8 @@
     "difficulty": "Hard",
     "question_number": 5,
     "test_name": "Module Source 159 Eng M2",
-    "passage": "Which choice best describes the function of the references to “demographic characteristics\" and “sidewalk width\" in the text as a whole?\nRome has high pedestrian traffic, but simply replicating a feature of Rome associated with walkability—e.g., its high number of street crossings—may be insufficient to induce increased walking in other cities. As urbanist Mariela Alfonzo argues, our understanding of individuals' decision-making about whether to walk is insufficiently robust: some studies emphasize the role of <u>demographic characteristics</u>, others the role of <u>sidewalk width</u>, and so on, but walking decisions are made in complex contexts in which multiple conditions and needs inform individuals' choices.",
-    "question_text": "Which choice best describes the function of the references to “demographic characteristics\" and “sidewalk width\" in the text as a whole?",
+    "passage": "Which choice best describes the function of the references to \"demographic characteristics\" and \"sidewalk width\" in the text as a whole?\nRome has high pedestrian traffic, but simply replicating a feature of Rome associated with walkability—e.g., its high number of street crossings—may be insufficient to induce increased walking in other cities. As urbanist Mariela Alfonzo argues, our understanding of individuals' decision-making about whether to walk is insufficiently robust: some studies emphasize the role of <u>demographic characteristics</u>, others the role of <u>sidewalk width</u>, and so on, but walking decisions are made in complex contexts in which multiple conditions and needs inform individuals' choices.",
+    "question_text": "Which choice best describes the function of the references to \"demographic characteristics\" and \"sidewalk width\" in the text as a whole?",
     "choices": [
       {
         "label": "A",
@@ -402,19 +402,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "“Although Turkish folklore clearly informs the style and occasionally antirealistic plot of *My Name Is Red*, the novel also shows the inarguable influence of the magical realist tradition of Latin America.\""
+        "text": "\"Although Turkish folklore clearly informs the style and occasionally antirealistic plot of *My Name Is Red*, the novel also shows the inarguable influence of the magical realist tradition of Latin America.\""
       },
       {
         "label": "B",
-        "text": "“The logic of the realistic plot of *My Name Is Red* is repeatedly and productively disrupted by the presence of imagery and situations drawn from Turkish folklore.”"
+        "text": "\"The logic of the realistic plot of *My Name Is Red* is repeatedly and productively disrupted by the presence of imagery and situations drawn from Turkish folklore.\""
       },
       {
         "label": "C",
-        "text": "“Like many works in the Latin American magical realist tradition, *My Name Is Red* is indebted to antirealistic elements in the folkloric tradition of Turkey.”"
+        "text": "\"Like many works in the Latin American magical realist tradition, *My Name Is Red* is indebted to antirealistic elements in the folkloric tradition of Turkey.\""
       },
       {
         "label": "D",
-        "text": "“While *My Name Is Red* alternates between realistic and antirealistic modes of representation, details suggesting the influence of Turkish folklore nevertheless occur throughout the novel.”"
+        "text": "\"While *My Name Is Red* alternates between realistic and antirealistic modes of representation, details suggesting the influence of Turkish folklore nevertheless occur throughout the novel.\""
       }
     ],
     "is_fill_in_blank": false,
@@ -692,7 +692,7 @@
     "difficulty": "Medium",
     "question_number": 22,
     "test_name": "Module Source 159 Eng M2",
-    "passage": "Which choice completes the text with the most logical transition?\nIn 2015, geologist Peter Rogerson calculated that the geographic center of West Virginia was a point 4.9 miles east-southeast of the municipality of Sutton. Rogerson’s calculation was more accurate than the one from 1920 by the US Geological Survey. ______ this earlier calculation was made using far more rudimentary equipment—only cardboard and string.",
+    "passage": "Which choice completes the text with the most logical transition?\nIn 2015, geologist Peter Rogerson calculated that the geographic center of West Virginia was a point 4.9 miles east-southeast of the municipality of Sutton. Rogerson's calculation was more accurate than the one from 1920 by the US Geological Survey. ______ this earlier calculation was made using far more rudimentary equipment—only cardboard and string.",
     "question_text": "Which choice completes the text with the most logical transition?",
     "choices": [
       {
@@ -724,7 +724,7 @@
     "difficulty": "Medium",
     "question_number": 23,
     "test_name": "Module Source 159 Eng M2",
-    "passage": "Which choice completes the text with the most logical transition?\nDuring the 1924 New York ticker-tape parade for US Olympic champions, the ribbonlike swirls descending on the scene were paper spools from “tickers,\" telegraph machines used to transmit stock prices. Of course, the original ticker tape had long since been retired by the 2019 parade for the US women's national soccer team. ______ shredded standard paper enriched the celebration.",
+    "passage": "Which choice completes the text with the most logical transition?\nDuring the 1924 New York ticker-tape parade for US Olympic champions, the ribbonlike swirls descending on the scene were paper spools from \"tickers,\" telegraph machines used to transmit stock prices. Of course, the original ticker tape had long since been retired by the 2019 parade for the US women's national soccer team. ______ shredded standard paper enriched the celebration.",
     "question_text": "Which choice completes the text with the most logical transition?",
     "choices": [
       {

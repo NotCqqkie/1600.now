@@ -9,7 +9,7 @@
     },
     {
       "title": "Match to the correct interpretation",
-      "content": "Since [5.7, 7.9] is the plausible range for the true mean, any statement claiming a value outside this range is implausible.<br/><br/>Choice A (mean < 5.7) and Choice D (mean > 7.9) both claim values outside the interval.<br/><br/>Choice C confuses the population mean with individual employee values.<br/><br/>Choice B correctly identifies [5.7, 7.9] as the plausible range for the true mean.<br/><br/>That matches choice B — <strong>B</strong> is correct."
+      "content": "Since [5.7, 7.9] is the plausible range for the true mean, any statement claiming a value outside this range is implausible.<br/><br/>Choice A (mean < 5.7) and Choice D (mean > 7.9) both claim values outside the interval.<br/><br/>Choice C confuses the population mean with individual employee values.<br/><br/>The correct answer correctly identifies [5.7, 7.9] as the plausible range for the true mean.<br/><br/>That confirms <strong>B</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId": "4ad359d6-6d88-4d00-bc19-73065ca4d7a3_20", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the structure", "content": "Left of blank: independent clause -- \"The human shoulder contains the infraspinatus, a skeletal muscle that is attached to the scapula.\" Right of blank: independent clause -- \"this muscle plays a role in rotating the upper arm.\" Two independent clauses must be joined with a semicolon, period, or coordinating conjunction; a comma alone creates a comma splice."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A -- scapula,</strong>: \"...attached to the scapula, this muscle plays a role...\" Comma between two independent clauses = comma splice. ✗</li><li><strong>Choice B -- scapula;</strong>: \"...attached to the scapula; this muscle plays a role in rotating the upper arm.\" Semicolon correctly joins two independent clauses. ✓</li><li><strong>Choice C -- scapula</strong>: \"...attached to the scapula this muscle plays a role...\" No punctuation between two independent clauses = run-on sentence. ✗</li><li><strong>Choice D -- scapula that</strong>: \"...attached to the scapula that this muscle plays a role in rotating the upper arm.\" \"That\" turns the second clause into a relative clause modifying \"scapula,\" which is illogical -- a scapula is not something that a muscle plays a role in rotating. ✗</li></ul>That matches choice B -- <strong>B</strong> is correct."}]}
+{
+  "questionId": "4ad359d6-6d88-4d00-bc19-73065ca4d7a3_20",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the structure",
+      "content": "Left of blank: independent clause -- \"The human shoulder contains the infraspinatus, a skeletal muscle that is attached to the scapula.\" Right of blank: independent clause -- \"this muscle plays a role in rotating the upper arm.\" Two independent clauses must be joined with a semicolon, period, or coordinating conjunction; a comma alone creates a comma splice."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A — scapula,</strong>: \"...attached to the scapula, this muscle plays a role...\" Comma between two independent clauses = comma splice. ✗</li><li><strong>Choice B — scapula;</strong>: \"...attached to the scapula; this muscle plays a role in rotating the upper arm.\" Semicolon correctly joins two independent clauses. ✓</li><li><strong>Choice C — scapula</strong>: \"...attached to the scapula this muscle plays a role...\" No punctuation between two independent clauses = run-on sentence. ✗</li><li><strong>Choice D — scapula that</strong>: \"...attached to the scapula that this muscle plays a role in rotating the upper arm.\" \"That\" turns the second clause into a relative clause modifying \"scapula,\" which is illogical -- a scapula is not something that a muscle plays a role in rotating. ✗</li></ul>This matches -- <strong>B</strong> is correct."
+    }
+  ]
+}

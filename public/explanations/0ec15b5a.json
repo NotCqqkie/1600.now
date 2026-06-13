@@ -1,1 +1,15 @@
-{"questionId": "0ec15b5a", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "This is a Data Analysis question. The task is to find the occupational field with the <strong>highest incorporated self-employment rate</strong> from the table. Scan only the &ldquo;Incorporated self-employment rate&rdquo; column and pick the largest value."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; &ldquo;sales and related occupations&rdquo;</strong>: The table shows a 5.8% incorporated self-employment rate for this field &mdash; not the highest. &#10007;</li><li><strong>Choice B &mdash; &ldquo;installation, maintenance, and repair occupations&rdquo;</strong>: The table shows 2.7% for this field &mdash; the lowest of the four, not the highest. &#10007;</li><li><strong>Choice C &mdash; &ldquo;construction and resource extraction occupations&rdquo;</strong>: The table shows 4.4% for this field &mdash; below both sales and management fields. &#10007;</li><li><strong>Choice D &mdash; &ldquo;management, business, and financial services occupations&rdquo;</strong>: The table shows 8.9% for this field &mdash; higher than all other fields listed. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "0ec15b5a",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a Data Analysis question. The task is to find the occupational field with the <strong>highest incorporated self-employment rate</strong> from the table. Scan only the &ldquo;Incorporated self-employment rate&rdquo; column and pick the largest value."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; sales and related occupations.</strong>: The table shows a 5.8% incorporated self-employment rate for this field &mdash; not the highest. &#10007;</li><li><strong>Choice B &mdash; installation, maintenance, and repair occupations.</strong>: The table shows 2.7% for this field &mdash; the lowest of the four, not the highest. &#10007;</li><li><strong>Choice C &mdash; construction and resource extraction occupations.</strong>: The table shows 4.4% for this field &mdash; below both sales and management fields. &#10007;</li><li><strong>Choice D &mdash; management, business, and financial services occupations.</strong>: The table shows 8.9% for this field &mdash; higher than all other fields listed. &#10003;</li></ul>That matches <strong>Choice D &mdash; management, business, and financial services occupations.</strong>."
+    }
+  ]
+}

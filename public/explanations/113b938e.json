@@ -13,7 +13,7 @@
     },
     {
       "title": "Eliminate the other choices",
-      "content": "<ul><li>A) Speed before braking would be $y$ at $x = 0$, namely $y = 18$ - that's the $y$-intercept, not the $x$-intercept. Eliminate.</li><li>B) The rate of decrease in speed is the slope, $5$ ft/s per second - not the $x$-intercept. Eliminate.</li><li>C) The $x$-coordinate at $y = 0$ is the time to stop. Keep.</li><li>D) Distance traveled would require integrating speed over time, not reading off an intercept. Eliminate.</li></ul>That matches choice C - <strong>C</strong> is correct."
+      "content": "<ul><li>A) Speed before braking would be $y$ at $x = 0$, namely $y = 18$ - that's the $y$-intercept, not the $x$-intercept. Eliminate.</li><li>B) The rate of decrease in speed is the slope, $5$ ft/s per second - not the $x$-intercept. Eliminate.</li><li>C) The $x$-coordinate at $y = 0$ is the time to stop. Keep.</li><li>D) Distance traveled would require integrating speed over time, not reading off an intercept. Eliminate.</li></ul>That matches <strong>Choice C &mdash; The number of seconds it took from the time Sheila began applying the brakes until the bicycle came to a complete stop</strong>- <strong>C</strong>."
     }
   ]
 }

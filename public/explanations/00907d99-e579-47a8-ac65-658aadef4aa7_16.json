@@ -9,7 +9,7 @@
     },
     {
       "title": "Backsolve through choices B and C",
-      "content": "Backsolving — testing choice B (0, 21):<br/>$$21 \\leq 5(0) - 21 = -21$$<br/>Fails. Testing choice C (5, -21):<br/>$$-21 \\leq 5(5) - 21 = 25 - 21 = 4$$<br/>This is true — choice C is a solution. That matches choice C — <strong>C</strong> is correct."
+      "content": "Backsolving — testing <strong>Choice B &mdash; (0,21)</strong> (0, 21):<br/>$$21 \\leq 5(0) - 21 = -21$$<br/>Fails. Testing <strong>Choice C &mdash; (5,-21)</strong> (5, -21):<br/>$$-21 \\leq 5(5) - 21 = 25 - 21 = 4$$<br/>This is true — <strong>Choice C &mdash; (5,-21)</strong> is a solution. That matches <strong>Choice C &mdash; (5,-21)</strong>."
     }
   ]
 }

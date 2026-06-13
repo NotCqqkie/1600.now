@@ -13,11 +13,11 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice C is $2x^2+25x-42$, so <strong>C</strong> is correct."
+      "content": "<strong>C</strong> is $2x^2+25x-42$, so <strong>C</strong> is correct."
     },
     {
       "title": "Avoid the common traps",
-      "content": "Choice A forgets to multiply the expanded result by the outside $2$. Choice B has the wrong middle coefficient, and choice D drops the $25x$ term. Choice C keeps all three terms after distributing."
+      "content": "<strong>A</strong> forgets to multiply the expanded result by the outside $2$. <strong>B</strong> has the wrong middle coefficient, and <strong>D</strong> drops the $25x$ term. <strong>C</strong> keeps all three terms after distributing."
     }
   ]
 }

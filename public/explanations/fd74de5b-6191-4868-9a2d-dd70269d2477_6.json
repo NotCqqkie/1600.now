@@ -1,1 +1,15 @@
-{"questionId": "fd74de5b-6191-4868-9a2d-dd70269d2477_6", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The passage opens on Nixon's Watergate scandal, then pivots with &quot;But Nixon's legacy is complex&quot; &mdash; signaling a balanced view that weighs both failings and achievements (EPA, healthcare reform). The question asks for the main idea the passage conveys."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'both achievements and failings'</strong>: captures the balanced structure the passage explicitly builds. &#10003;</li><li><strong>Choice B &mdash; 'time passage'</strong>: introduces a claim about how views change over time; the passage makes no such argument. &#10007;</li><li><strong>Choice C &mdash; 'prominence due to associates'</strong>: wrongly attributes his historical significance to the people around him rather than to his own record. &#10007;</li><li><strong>Choice D &mdash; 'achievements only'</strong>: ignores the Watergate scandal entirely, contradicting the passage's explicit acknowledgment of his failings. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "fd74de5b-6191-4868-9a2d-dd70269d2477_6",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage opens on Nixon's Watergate scandal, then pivots with \"But Nixon's legacy is complex\" &mdash; signaling a balanced view that weighs both failings and achievements (EPA, healthcare reform). The question asks for the main idea the passage conveys."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"It assesses a historical figure's significance by considering both his achievements and failings.\"</strong>: captures the balanced structure the passage explicitly builds. &#10003;</li><li><strong>\"It explains how a historical figure's reputation has improved significantly with the passage of time.\"</strong>: introduces a claim about how views change over time; the passage makes no such argument. &#10007;</li><li><strong>\"It argues that the seeming prominence of a historical figure is largely due to the actions of others.\"</strong>: wrongly attributes his historical significance to the people around him rather than to his own record. &#10007;</li><li><strong>\"It catalogs the most notable achievements of a historical figure.\"</strong>: ignores the Watergate scandal entirely, contradicting the passage's explicit acknowledgment of his failings. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+    }
+  ]
+}

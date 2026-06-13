@@ -17,7 +17,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li>A: $(x-4)(x+10) = x^2 + 6x - 40$ &mdash; wrong middle term.</li><li>B: $(x-5)(x+8) = x^2 + 3x - 40$ &mdash; matches.</li><li>C: $(x-8)(x+5) = x^2 - 3x - 40$ &mdash; wrong sign on $x$.</li><li>D: $(x-10)(x+4) = x^2 - 6x - 40$ &mdash; wrong middle term.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "<ul><li>A: $(x-4)(x+10) = x^2 + 6x - 40$ &mdash; wrong middle term.</li><li>B: $(x-5)(x+8) = x^2 + 3x - 40$ &mdash; matches.</li><li>C: $(x-8)(x+5) = x^2 - 3x - 40$ &mdash; wrong sign on $x$.</li><li>D: $(x-10)(x+4) = x^2 - 6x - 40$ &mdash; wrong middle term.</li></ul>That confirms <strong>B</strong> is correct."
     }
   ]
 }

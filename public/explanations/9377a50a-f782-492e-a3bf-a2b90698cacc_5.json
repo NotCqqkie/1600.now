@@ -3,8 +3,14 @@
   "correctAnswer": "C",
   "section": "Math",
   "steps": [
-    "The given list has 7 values already sorted: 12, 22, 24, 33, 39, 42, 44. With an odd count of 7, the median is the 4th value: $\\text{median} = 33$.",
-    "Each answer choice also has 7 values. After sorting each, the median is its 4th element.",
+    {
+      "title": "Step 1",
+      "content": "The given list has 7 values already sorted: 12, 22, 24, 33, 39, 42, 44. With an odd count of 7, the median is the 4th value: $\\text{median} = 33$."
+    },
+    {
+      "title": "Step 2",
+      "content": "Each answer choice also has 7 values. After sorting each, the median is its 4th element."
+    },
     {
       "title": "Use Desmos to check the medians",
       "content": "Enter the original list and each answer-choice list with the $\\text{median}$ function. The original list and choice C both have median $33$; the other choices have different medians.",
@@ -16,6 +22,9 @@
         "\\operatorname{median}\\left([22,25,26,28,33,33,39]\\right)"
       ]
     },
-    "<ul><li><strong>A</strong> 22, 25, 35, 38, 49, 50, 54 — 4th element is 38 ≠ 33. Eliminated.</li><li><strong>B</strong> 22, 28, 33, 39, 41, 43, 46 — 4th element is 39 ≠ 33. Eliminated.</li><li><strong>C</strong> 12, 15, 28, 33, 35, 39, 39 — 4th element is 33 ✓. That matches choice C — <strong>C</strong> is correct.</li><li><strong>D</strong> 22, 25, 26, 28, 33, 33, 39 — 4th element is 28 ≠ 33. Eliminated.</li></ul>"
+    {
+      "title": "Step 4",
+      "content": "<ul><li><strong>A</strong> 22, 25, 35, 38, 49, 50, 54 — 4th element is $38 \\ne 33$. Eliminated.</li><li><strong>B</strong> 22, 28, 33, 39, 41, 43, 46 — 4th element is $39 \\ne 33$. Eliminated.</li><li><strong>C</strong> 12, 15, 28, 33, 35, 39, 39 — 4th element is 33 ✓. That confirms <strong>C</strong> is correct.</li><li><strong>D</strong> 22, 25, 26, 28, 33, 33, 39 — 4th element is $28 \\ne 33$. Eliminated.</li></ul>"
+    }
   ]
 }

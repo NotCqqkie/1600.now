@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate wrong choices",
-      "content": "<ul><li><strong>Choice A &mdash; '$63(1+x^2)$'</strong>: Expanding gives $63 + 63x^2 \\ne 63x^2$. The extra $63$ is not present in the original. &#10007;</li><li><strong>Choice B &mdash; '$(7x)(9x)$'</strong>: $7 \\times 9 = 63$ and $x \\times x = x^2$, so $(7x)(9x) = 63x^2$. &#10003;</li><li><strong>Choice C &mdash; '$(7x^2)(9x^2)$'</strong>: $7 \\times 9 = 63$ but $x^2 \\times x^2 = x^4 \\ne x^2$. Wrong degree. &#10007;</li><li><strong>Choice D &mdash; '$(63x^2)(x)$'</strong>: $63x^2 \\times x = 63x^3 \\ne 63x^2$. Wrong degree. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "<ul><li><strong>Choice A — $63(1+x^2)$</strong>: Expanding gives $63 + 63x^2 \\ne 63x^2$. The extra $63$ is not present in the original. &#10007;</li><li><strong>Choice B — $(7x)(9x)$</strong>: $7 \\times 9 = 63$ and $x \\times x = x^2$, so $(7x)(9x) = 63x^2$. &#10003;</li><li><strong>Choice C — $(7x^2)(9x^2)$</strong>: $7 \\times 9 = 63$ but $x^2 \\times x^2 = x^4 \\ne x^2$. Wrong degree. &#10007;</li><li><strong>Choice D — $(63x^2)(x)$</strong>: $63x^2 \\times x = 63x^3 \\ne 63x^2$. Wrong degree. &#10007;</li></ul><strong>B</strong> is correct."
     }
   ]
 }

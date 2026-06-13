@@ -1,1 +1,15 @@
-{"questionId":"7c17367d-234a-4cdb-b654-3dc1d5243ede_17","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank is the subject of &quot;adapted&quot; and must be a noun phrase. The plural pronoun &quot;their&quot; later in the sentence must agree with whatever fills the blank."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'island&apos;s residents'</strong>: Singular possessive &quot;island&apos;s&quot; modifies plural &quot;residents,&quot; which agrees with &quot;their.&quot; &#10003;</li><li><strong>Choice B &mdash; 'islands resident&apos;s'</strong>: &quot;islands&quot; has no apostrophe, so it cannot function as a possessive modifier; singular &quot;resident&apos;s&quot; also clashes with the plural pronoun &quot;their.&quot; &#10007;</li><li><strong>Choice C &mdash; 'island&apos;s resident&apos;s'</strong>: Double possessive creates an ungrammatical noun phrase as the subject. &#10007;</li><li><strong>Choice D &mdash; 'islands residents&apos;'</strong>: &quot;islands&quot; has no apostrophe and cannot function as a possessive modifier; without that relationship the noun phrase is structurally broken. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "7c17367d-234a-4cdb-b654-3dc1d5243ede_17",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank is the subject of &quot;adapted&quot; and must be a noun phrase. The plural pronoun &quot;their&quot; later in the sentence must agree with whatever fills the blank."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;island's residents&rsquo;</strong>: Singular possessive &quot;island&apos;s&quot; modifies plural &quot;residents,&quot; which agrees with &quot;their.&quot; &#10003;</li><li><strong>Choice B &mdash; &lsquo;islands resident's&rsquo;</strong>: &quot;islands&quot; has no apostrophe, so it cannot function as a possessive modifier; singular &quot;resident&apos;s&quot; also clashes with the plural pronoun &quot;their.&quot; &#10007;</li><li><strong>Choice C &mdash; &lsquo;island's resident's&rsquo;</strong>: Double possessive creates an ungrammatical noun phrase as the subject. &#10007;</li><li><strong>Choice D &mdash; &lsquo;islands residents'&rsquo;</strong>: &quot;islands&quot; has no apostrophe and cannot function as a possessive modifier; without that relationship the noun phrase is structurally broken. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -13,7 +13,7 @@
     },
     {
       "title": "Identify which choice is an odd multiple of π",
-      "content": "<ul><li><strong>A)</strong> $\\frac{13\\pi}{2} = 6.5\\pi$ — not an integer multiple of π</li><li><strong>B)</strong> $\\frac{15\\pi}{2} = 7.5\\pi$ — not an integer multiple of π</li><li><strong>C)</strong> $10\\pi$ — even multiple of π (10 = 2×5)</li><li><strong>D)</strong> $11\\pi$ — odd multiple of π, since $11 = 2(5) + 1$ ✓</li></ul>That matches choice D — <strong>D</strong> is correct."
+      "content": "<ul><li><strong>A)</strong> $\\frac{13\\pi}{2} = 6.5\\pi$ — not an integer multiple of π</li><li><strong>B)</strong> $\\frac{15\\pi}{2} = 7.5\\pi$ — not an integer multiple of π</li><li><strong>C)</strong> $10\\pi$ — even multiple of π (10 = 2×5)</li><li><strong>D)</strong> $11\\pi$ — odd multiple of π, since $11 = 2(5) + 1$ ✓</li></ul>That confirms <strong>D</strong> is correct."
     }
   ]
 }

@@ -13,7 +13,7 @@
     },
     {
       "title": "Check candidates in the original equation",
-      "content": "For $x = 5$:<br/>\n$$\\sqrt{2(5) + 6} + 4 = \\sqrt{16} + 4 = 4 + 4 = 8$$\n$$5 + 3 = 8$$ ✓<br/>\n<br/>\nFor $x = -1$:<br/>\n$$\\sqrt{2(-1) + 6} + 4 = \\sqrt{4} + 4 = 2 + 4 = 6$$\n$$-1 + 3 = 2$$ ✗<br/>\n<br/>\nOnly $x = 5$ satisfies the original equation, so the solution set is $\\{5\\}$. In Desmos, the two expressions below should intersect only at $x=5$, which checks the same result visually. That matches choice B — <strong>B</strong> is correct.",
+      "content": "For $x = 5$:<br/>\n$$\\sqrt{2(5) + 6} + 4 = \\sqrt{16} + 4 = 4 + 4 = 8$$\n$$5 + 3 = 8$$ ✓<br/>\n<br/>\nFor $x = -1$:<br/>\n$$\\sqrt{2(-1) + 6} + 4 = \\sqrt{4} + 4 = 2 + 4 = 6$$\n$$-1 + 3 = 2$$ ✗<br/>\n<br/>\nOnly $x = 5$ satisfies the original equation, so the solution set is $\\{5\\}$. In Desmos, the two expressions below should intersect only at $x=5$, which checks the same result visually. That confirms <strong>B</strong> is correct.",
       "desmosExpressions": [
         "y = \\sqrt{2x + 6} + 4",
         "y = x + 3"

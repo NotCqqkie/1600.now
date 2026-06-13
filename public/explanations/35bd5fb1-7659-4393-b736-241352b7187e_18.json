@@ -17,7 +17,7 @@
     },
     {
       "title": "Find the greatest possible odd integer value",
-      "content": "We need the greatest value of $x$ such that $x \\leq -6$ and $x$ is odd. Checking odd integers near the boundary: $-5 > -6$ (violates the constraint) and $-7 \\lt -6$ (satisfies the constraint and is odd). The greatest odd integer satisfying $x \\leq -6$ is $x = -7$. The answer is <strong>−7</strong>."
+      "content": "We need the greatest value of $x$ such that $x \\leq -6$ and $x$ is odd. Checking odd integers near the boundary: $-5 \\gt  -6$ (violates the constraint) and $-7 \\lt -6$ (satisfies the constraint and is odd). The greatest odd integer satisfying $x \\leq -6$ is $x = -7$. The answer is <strong>−7</strong>."
     }
   ]
 }

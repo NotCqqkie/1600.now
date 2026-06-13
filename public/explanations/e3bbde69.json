@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "The system's solution has $x=\\frac{4}{17}$. Choice B is correct. The other choices do not make the two equations have the same $y$-value.",
+      "content": "The system's solution has $x=\\frac{4}{17}$. $\\frac{4}{17}$ is correct. The other choices do not make the two equations have the same $y$-value.",
       "desmosExpressions": [
         "8x+y=5",
         "y=9x+1"

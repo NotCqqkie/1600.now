@@ -1,19 +1,19 @@
 {
   "questionId": "a05cc490",
-  "correctAnswer": "D",
+  "correctAnswer": "C",
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Map the structure around the blank",
-      "content": "Before the blank: &quot;improvements in efficiency often correlate negatively with resource ___&quot; is a complete independent clause ending with the noun &quot;conservation.&quot; After the blank: &quot;efficiency gains, lowering the cost of use, may increase demand to the extent that resource consumption ultimately rises&quot; is also complete. The word &quot;though&quot; signals a contrast between the two ideas."
+      "title": "Map the sentence boundary",
+      "content": "The first main clause is &quot;Economists have observed that improvements in efficiency often correlate negatively with resource conservation.&quot; The next main clause is &quot;efficiency gains, lowering the cost of use, may increase demand to the extent that resource consumption ultimately rises.&quot; The word &quot;though&quot; is supplementary here, so it needs comma separation from the first clause and a semicolon before the next main clause."
     },
     {
-      "title": "Pick the punctuation that handles both clauses",
-      "content": "&quot;Though&quot; works as a subordinating conjunction meaning &quot;although.&quot; When &quot;though&quot; opens a subordinate clause that follows an independent clause, the pattern is <strong>IC, though SC</strong> &mdash; a single comma before &quot;though&quot; is all that is required. That gives: &quot;...resource conservation, though efficiency gains... may increase demand...&quot;"
+      "title": "Choose the punctuation that separates the parts correctly",
+      "content": "The referenced choice gives &quot;conservation, though ; efficiency gains...&quot; In the rendered sentence, the comma sets off &quot;though&quot; from the first main clause, and the semicolon joins the following main clause to the rest of the sentence. That is the only choice that both handles &quot;though&quot; and marks the boundary between the main clauses."
     },
     {
-      "title": "Eliminate the other choices by the rule each violates",
-      "content": "<ul><li><strong>Choice A &mdash; 'conservation, though,'</strong>: the comma after &quot;though&quot; turns it into a parenthetical adverb, leaving two independent clauses spliced together by commas. Comma splice. &#10007;</li><li><strong>Choice B &mdash; 'conservation; though'</strong>: a space before a semicolon is non-standard, and the semicolon followed by &quot;though&quot; with no comma garbles the join. Punctuation error. &#10007;</li><li><strong>Choice C &mdash; 'conservation, though;'</strong>: places a semicolon after &quot;though&quot; with a leading space and only one comma around the parenthetical &quot;though,&quot; breaking the IC;IC pattern. Misplaced semicolon. &#10007;</li><li><strong>Choice D &mdash; 'conservation, though'</strong>: treats &quot;though&quot; as a subordinator opening the next clause, producing the clean IC, though SC structure. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "title": "Eliminate the other choices",
+      "content": "<ul><li><strong>Choice A &mdash; conservation, though,</strong>: leaves the next main clause joined only by commas, creating a comma splice. &#10007;</li><li><strong>Choice B &mdash; conservation ; though</strong>: places the semicolon before &quot;though,&quot; which does not correctly separate the supplementary word from the preceding clause. &#10007;</li><li><strong>Choice C &mdash; conservation, though ;</strong>: correctly sets off &quot;though&quot; and uses the semicolon to join the next main clause. &#10003;</li><li><strong>Choice D &mdash; conservation, though</strong>: lacks the semicolon needed before the following main clause, so it creates a comma splice. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
     }
   ]
 }

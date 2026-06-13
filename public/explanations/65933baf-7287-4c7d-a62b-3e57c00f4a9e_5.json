@@ -1,1 +1,15 @@
-{"questionId":"65933baf-7287-4c7d-a62b-3e57c00f4a9e_5","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The colon introduces the explanation: &apos;what drives firms in certain industries to cluster may not be especially relevant among other industries.&apos; The blank must describe clustering factors that differ depending on the industry."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'unknown'</strong>: The passage identifies specific factors; the problem is not that they&apos;re unknown but that they differ across industries. &#10007;</li><li><strong>Choice B &mdash; 'variable'</strong>: Means differing by circumstance, which directly matches the colon&apos;s explanation that different industries are driven by different factors. &#10003;</li><li><strong>Choice C &mdash; 'consistent'</strong>: Contradicts the passage&apos;s point that factors are not uniform. &#10007;</li><li><strong>Choice D &mdash; 'unpredictable'</strong>: The passage describes factors that vary by industry in a knowable way, not factors that are random or unknowable. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_5",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The colon introduces the explanation: &apos;what drives firms in certain industries to cluster may not be especially relevant among other industries.&apos; The blank must describe clustering factors that differ depending on the industry."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;unknown&rsquo;</strong>: The passage identifies specific factors; the problem is not that they&apos;re unknown but that they differ across industries. &#10007;</li><li><strong>Choice B &mdash; &lsquo;variable&rsquo;</strong>: Means differing by circumstance, which directly matches the colon&apos;s explanation that different industries are driven by different factors. &#10003;</li><li><strong>Choice C &mdash; &lsquo;focused&rsquo;</strong>: Contradicts the passage&apos;s point that factors are not uniform. &#10007;</li><li><strong>Choice D &mdash; &lsquo;impressive&rsquo;</strong>: The passage describes factors that vary by industry in a knowable way, not factors that are random or unknowable. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

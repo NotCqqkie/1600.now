@@ -1,1 +1,19 @@
-{"questionId": "4a2b2535", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Read the descriptive details", "content": "The novel is described as having an <strong>enormous cast of characters</strong>, a <strong>complicated, wandering plot</strong>, and unusual page numbering that <strong>counts backward</strong>. These three features all signal one quality: the novel is intricate and many-layered."}, {"title": "Find the word that names that quality", "content": "A brief review cannot fully convey something that is intricate and many-layered &mdash; in one word, its <strong>complexity</strong>."}, {"title": "Eliminate the wrong choices", "content": "<ul><li><strong>Choice A &mdash; 'accuracy'</strong>: nothing in the passage concerns whether the book is factually correct; this is an overreach beyond the details given. &#10007;</li><li><strong>Choice B &mdash; 'inactivity'</strong>: contradicts the active, wandering plot and enormous cast. &#10007;</li><li><strong>Choice C &mdash; 'complexity'</strong>: directly captures the enormous cast, complicated plot, and unusual structure. &#10003;</li><li><strong>Choice D &mdash; 'restraint'</strong>: contradicts the elaborate, sprawling design the passage describes. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "4a2b2535",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the descriptive details",
+      "content": "The novel is described as having an <strong>enormous cast of characters</strong>, a <strong>complicated, wandering plot</strong>, and unusual page numbering that <strong>counts backward</strong>. These three features all signal one quality: the novel is intricate and many-layered."
+    },
+    {
+      "title": "Find the word that names that quality",
+      "content": "A brief review cannot fully convey something that is intricate and many-layered &mdash; in one word, its <strong>complexity</strong>."
+    },
+    {
+      "title": "Eliminate the wrong choices",
+      "content": "<ul><li><strong>Choice A — accuracy</strong>: nothing in the passage concerns whether the book is factually correct; this is an overreach beyond the details given. &#10007;</li><li><strong>Choice B — inactivity</strong>: contradicts the active, wandering plot and enormous cast. &#10007;</li><li><strong>Choice C — complexity</strong>: directly captures the enormous cast, complicated plot, and unusual structure. &#10003;</li><li><strong>Choice D — restraint</strong>: contradicts the elaborate, sprawling design the passage describes. &#10007;</li></ul><strong>C</strong> is correct."
+    }
+  ]
+}

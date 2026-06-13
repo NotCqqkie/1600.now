@@ -9,7 +9,7 @@
     },
     {
       "title": "Determine the cost per movie",
-      "content": "In $f(m) = 30 - 3m$, the coefficient of $m$ is $-3$. The negative value indicates the balance decreases; the magnitude tells us the decrease per movie.<br/><br/>The balance decreases by \\$3 for each movie rented, so each rental costs \\$3. That matches choice B — <strong>B</strong> is correct."
+      "content": "In $f(m) = 30 - 3m$, the coefficient of $m$ is $-3$. The negative value indicates the balance decreases; the magnitude tells us the decrease per movie.<br/><br/>The balance decreases by \\$3 for each movie rented, so each rental costs \\$3. <strong>B</strong> is correct."
     }
   ]
 }

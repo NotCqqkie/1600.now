@@ -1,1 +1,15 @@
-{"questionId": "438ac81b-36aa-4552-b54a-16d92edcc54f_17", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The sentence structure is: &quot;a single tree like ___ claims dendrochronologist Valerie Trouet, can tell the history of the world.&quot; The phrase &quot;claims dendrochronologist Valerie Trouet&quot; is an interrupting attribution set off by a comma after it. The blank must provide the opening punctuation that matches &mdash; a comma after &quot;this&quot; to symmetrically set off the attribution phrase from the main clause."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'this'</strong>: No punctuation leaves the attribution phrase unset off from the subject, making the sentence structurally ambiguous. &#10007;</li><li><strong>Choice B &mdash; 'this,'</strong>: A comma after &quot;this&quot; opens the interrupting attribution phrase &quot;claims dendrochronologist Valerie Trouet,&quot; which is already closed by its own comma. The main clause reads cleanly: &quot;a single tree like this &hellip; can tell the history of the world.&quot; &#10003;</li><li><strong>Choice C &mdash; 'this:'</strong>: A colon signals elaboration or a list &mdash; not the right relationship for an interrupting attribution phrase. &#10007;</li><li><strong>Choice D &mdash; 'this;'</strong>: A semicolon joins independent clauses. The phrase &quot;claims dendrochronologist Valerie Trouet&quot; is not an independent clause. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "438ac81b-36aa-4552-b54a-16d92edcc54f_17",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence structure is: &quot;a single tree like ___ claims dendrochronologist Valerie Trouet, can tell the history of the world.&quot; The phrase &quot;claims dendrochronologist Valerie Trouet&quot; is an interrupting attribution set off by a comma after it. The blank must provide the opening punctuation that matches &mdash; a comma after &quot;this&quot; to symmetrically set off the attribution phrase from the main clause."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — this</strong>: No punctuation leaves the attribution phrase unset off from the subject, making the sentence structurally ambiguous. &#10007;</li><li><strong>Choice B — this,</strong>: A comma after &quot;this&quot; opens the interrupting attribution phrase &quot;claims dendrochronologist Valerie Trouet,&quot; which is already closed by its own comma. The main clause reads cleanly: &quot;a single tree like this &hellip; can tell the history of the world.&quot; &#10003;</li><li><strong>Choice C — this:</strong>: A colon signals elaboration or a list &mdash; not the right relationship for an interrupting attribution phrase. &#10007;</li><li><strong>Choice D — this;</strong>: A semicolon joins independent clauses. The phrase &quot;claims dendrochronologist Valerie Trouet&quot; is not an independent clause. &#10007;</li></ul><strong>B</strong> is correct."
+    }
+  ]
+}

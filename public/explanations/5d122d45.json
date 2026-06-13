@@ -1,1 +1,15 @@
-{"questionId": "5d122d45", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the signal that would test the claim", "content": "The researchers claim awe inspires altruistic behavior. The study tests this with an awe condition (tall trees) and a control (nondescript building), measuring whether participants help pick up spilled pens. The key signal is whether the awe-exposed group shows more helping."}, {"title": "Evaluate each choice", "content": "Choice A shows the predicted pattern: tree-gazers helped significantly more, directly confirming that awe prompted altruism. This is correct.<br/><br/>Choice B measures the language participants used in a postexperiment survey. That tells us how they described their feelings, not whether awe caused the helping behavior — it confuses the direction of the question.<br/><br/>Choice C shows that non-helpers reported awe regardless of condition. This would actually contradict the claim: if people who felt awe still did not help, awe is not reliably linked to altruism.<br/><br/>Choice D measures whether participants noticed the dropped pens. Noticing is a matter of attention, not altruism — it does not show that awe increased helping.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "5d122d45",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the signal that would test the claim",
+      "content": "The researchers claim awe inspires altruistic behavior. The study tests this with an awe condition (tall trees) and a control (nondescript building), measuring whether participants help pick up spilled pens. The key signal is whether the awe-exposed group shows more helping."
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "Choice A (&lsquo;Participants who had been looking at the trees helped the experimenter pick up significantly more pens than did participants who had been looking at the building.&rsquo;) shows the predicted pattern: tree-gazers helped significantly more, directly confirming that awe prompted altruism. This is correct.<br/><br/>An incorrect response measures the language participants used in a postexperiment survey. That tells us how they described their feelings, not whether awe caused the helping behavior — it confuses the direction of the question.<br/><br/>Choice C (&lsquo;Participants who did not help the experimenter pick up the pens were significantly more likely to report having experienced a feeling of awe, regardless of whether they looked at the building or the trees.&rsquo;) shows that non-helpers reported awe regardless of condition. This would actually contradict the claim: if people who felt awe still did not help, awe is not reliably linked to altruism.<br/><br/>An incorrect response measures whether participants noticed the dropped pens. Noticing is a matter of attention, not altruism — it does not show that awe increased helping.<br/><br/>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

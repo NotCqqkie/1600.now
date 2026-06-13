@@ -9,11 +9,11 @@
     },
     {
       "title": "Express the unknown leg using tangent at angle Z",
-      "content": "At angle Z (33°), the opposite side is XY and the adjacent side is YZ = 26. By the tangent ratio:<br/>$$\\tan(33°) = \\frac{XY}{26}$$<br/>Solving for XY:<br/>$$XY = 26\\tan(33°)$$"
+      "content": "At angle Z (33°), the opposite side is XY and the adjacent side is YZ = 26. By the tangent ratio:<br/>$$\\tan(33^{\\circ}) = \\frac{XY}{26}$$<br/>Solving for XY:<br/>$$XY = 26\\tan(33^{\\circ})$$"
     },
     {
       "title": "Calculate area and solve for k",
-      "content": "Now substitute both legs into the area formula:<br/>$$\\text{Area} = \\frac{1}{2} \\times YZ \\times XY = \\frac{1}{2} \\times 26 \\times 26\\tan(33°)$$<br/>$$= \\frac{1}{2} \\times 676 \\times \\tan(33°) = 338\\tan(33°)$$<br/>Comparing to the form $k\\tan(33°)$, we have $k = 338$."
+      "content": "Now substitute both legs into the area formula:<br/>$$\\text{Area} = \\frac{1}{2} \\times YZ \\times XY = \\frac{1}{2} \\times 26 \\times 26\\tan(33^{\\circ})$$<br/>$$= \\frac{1}{2} \\times 676 \\times \\tan(33^{\\circ}) = 338\\tan(33^{\\circ})$$<br/>Comparing to the form $k\\tan(33^{\\circ})$, we have $k = 338$."
     }
   ]
 }

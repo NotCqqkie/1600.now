@@ -1,1 +1,19 @@
-{"questionId": "028752cd", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Pin down the time frame", "content": "The passage establishes the Dust Bowl as &quot;a period of severe drought&quot; during the 1930s &mdash; a finished historical event. The following sentence also uses simple past (&quot;They even reached as far east as New York City&quot;)."}, {"title": "Match verb tense to a completed past event", "content": "An action completed in the 1930s calls for the simple past tense. &quot;Affected&quot; is the simple past form of &quot;affect.&quot;"}, {"title": "Eliminate the other choices", "content": "<ul><li><strong>Choice A &mdash; 'are affecting'</strong>: present progressive describes ongoing action right now, contradicting the 1930s time frame. &#10007;</li><li><strong>Choice B &mdash; 'will have affected'</strong>: future perfect describes an action completed before some future point, which makes no sense for an event that already happened. &#10007;</li><li><strong>Choice C &mdash; 'will affect'</strong>: simple future projects forward, but the dust storms are a past event, not a future one. &#10007;</li><li><strong>Choice D &mdash; 'affected'</strong>: simple past correctly matches the 1930s time frame and parallels &quot;reached&quot; in the next sentence. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "028752cd",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Pin down the time frame",
+      "content": "The passage establishes the Dust Bowl as &quot;a period of severe drought&quot; during the 1930s &mdash; a finished historical event. The following sentence also uses simple past (&quot;They even reached as far east as New York City&quot;)."
+    },
+    {
+      "title": "Match verb tense to a completed past event",
+      "content": "An action completed in the 1930s calls for the simple past tense. &quot;Affected&quot; is the simple past form of &quot;affect.&quot;"
+    },
+    {
+      "title": "Eliminate the other choices",
+      "content": "<ul><li><strong>Choice A &mdash; are affecting</strong>: present progressive describes ongoing action right now, contradicting the 1930s time frame. &#10007;</li><li><strong>Choice B &mdash; will have affected</strong>: future perfect describes an action completed before some future point, which makes no sense for an event that already happened. &#10007;</li><li><strong>Choice C &mdash; will affect</strong>: simple future projects forward, but the dust storms are a past event, not a future one. &#10007;</li><li><strong>Choice D &mdash; affected</strong>: simple past correctly matches the 1930s time frame and parallels &quot;reached&quot; in the next sentence. &#10003;</li></ul>That matches <strong>Choice D &mdash; affected</strong>."
+    }
+  ]
+}

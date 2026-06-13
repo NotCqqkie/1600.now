@@ -1,5 +1,4 @@
 {
-  "qid": "bd71c8f3-94e3-411f-929a-013a2ca9a277_17",
   "correctAnswer": "D",
   "section": "Math",
   "steps": [
@@ -9,11 +8,12 @@
     },
     {
       "title": "Identify the repeated-root choice",
-      "content": "Choice A crosses the x-axis twice, choice B never reaches the x-axis, and choice C crosses twice. Choice D is $y=x^2-16x+64=(x-8)^2$, which touches the x-axis once at $x=8$."
+      "content": "Choice A crosses the x-axis twice, choice B never reaches the x-axis, and choice C crosses twice. The correct answer is $y=x^2-16x+64=(x-8)^2$, which touches the x-axis once at $x=8$."
     },
     {
       "title": "Confirm the answer",
-      "content": "Because $(x-8)^2=0$ has exactly one solution, $x=8$, choice <strong>D</strong> is correct."
+      "content": "Because $(x-8)^2=0$ has exactly one solution, $x=8$, <strong>D</strong> is correct."
     }
-  ]
+  ],
+  "questionId": "bd71c8f3-94e3-411f-929a-013a2ca9a277_17"
 }

@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Eliminate by direction",
-      "content": "The graph falls from left to right, so the slope is negative. Choices A and B have positive slopes, so eliminate them. Now only C and D are possible."
+      "content": "The graph falls from left to right, so the slope is negative. Two other options have positive slopes, so eliminate them. Now only C and D are possible."
     },
     {
       "title": "Use the marked points",
@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice D is too steep because its slope is $-\\frac{7}{3}$ instead of $-\\frac{3}{7}$. Therefore choice <strong>C</strong>, $f(x)=-\\frac{3}{7}x-5$, is correct."
+      "content": "<strong>$f(x)=-\\frac{7}{3}x-5$</strong> is too steep because its slope is $-\\frac{7}{3}$ instead of $-\\frac{3}{7}$. Therefore answer <strong>C</strong>, $f(x)=-\\frac{3}{7}x-5$, is correct."
     }
   ]
 }

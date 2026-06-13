@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Account for the first two classes",
-      "content": "The first class is free, and the second class is half of $\\$26.40$, which is $\\$13.20$. For $x>2$, the remaining $x-2$ classes cost $\\$26.40$ each."
+      "content": "The first class is free, and the second class is half of 26.40 dollars, which is 13.20 dollars. For $x\\gt 2$, the remaining $x-2$ classes cost 26.40 dollars each."
     },
     {
       "title": "Write the total cost",
-      "content": "The total cost is the fixed $\\$13.20$ for the first two classes plus $\\$26.40$ for each remaining class: $$f(x)=26.40(x-2)+13.20$$"
+      "content": "The total cost is the fixed 13.20 dollars for the first two classes plus 26.40 dollars for each remaining class: $$f(x)=26.40(x-2)+13.20$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "This matches choice <strong>B</strong>."
+      "content": "This matches the correct answer, <strong>B</strong>."
     }
   ]
 }

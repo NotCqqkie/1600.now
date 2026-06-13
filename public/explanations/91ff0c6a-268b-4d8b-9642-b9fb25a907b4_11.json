@@ -1,1 +1,15 @@
-{"questionId": "91ff0c6a-268b-4d8b-9642-b9fb25a907b4_11", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The student claims audiences ultimately preferred &quot;resolution and closure&quot; over the ongoing tension of the serial. The question asks which finding best supports that claim."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'production cost data'</strong>: measures budget, not audience preference. &#10007;</li><li><strong>Choice B &mdash; 'higher viewership for the finale'</strong>: shows audiences were most invested when resolution arrived &mdash; directly supports preferring closure. &#10003;</li><li><strong>Choice C &mdash; 'modern critical reception'</strong>: reflects later critics, not the original audience&apos;s preference. &#10007;</li><li><strong>Choice D &mdash; 'genre classification'</strong>: categorizes the show but says nothing about what audiences preferred. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "91ff0c6a-268b-4d8b-9642-b9fb25a907b4_11",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The student claims audiences ultimately preferred &quot;resolution and closure&quot; over the ongoing tension of the serial. The question asks which finding best supports that claim."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; The 12th episode of *Clancy of the Mounted* was the most expensive episode of the series to produce.</strong>: measures budget, not audience preference. &#10007;</li><li><strong>Choice B &mdash; The 12th episode of *Clancy of the Mounted* was viewed by more people than was any previous episode in the series.</strong>: shows audiences were most invested when resolution arrived &mdash; directly supports preferring closure. &#10003;</li><li><strong>Choice C &mdash; Modern critics generally regard the first episode as the best installment of *Clancy of the Mounted*.</strong>: reflects later critics, not the original audience&apos;s preference. &#10007;</li><li><strong>Choice D &mdash; Audiences at the time considered *Clancy of the Mounted* to belong to a genre other than the northern adventure genre.</strong>: categorizes the show but says nothing about what audiences preferred. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

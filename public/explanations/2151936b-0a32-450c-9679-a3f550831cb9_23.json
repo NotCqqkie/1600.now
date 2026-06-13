@@ -1,1 +1,15 @@
-{"questionId": "2151936b-0a32-450c-9679-a3f550831cb9_23", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the goal", "content": "The student wants to emphasize how many participants selected an altered version. The relevant figure from the notes is 13.1% &mdash; that is the number that must appear prominently in the correct answer."}, {"title": "Eliminate wrong choices and confirm the match", "content": "<ul><li><strong>Choice A &mdash; '86.9% selected the unaltered image.'</strong>: Emphasizes participants who got it right, not those who chose an altered version. &#10007;</li><li><strong>Choice B &mdash; 'A 2021 study showed participants an unaltered image of Fred Flintstone...'</strong>: Describes the study setup and mentions no percentage at all. &#10007;</li><li><strong>Choice C &mdash; 'Participants were asked to identify the correct version of Fred Flintstone...'</strong>: States the task but includes no data about altered-version selections. &#10007;</li><li><strong>Choice D &mdash; '13.1% of participants chose an altered version.'</strong>: Puts the altered-version figure front and center, directly fulfilling the stated goal. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "2151936b-0a32-450c-9679-a3f550831cb9_23",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the goal",
+      "content": "The student wants to emphasize how many participants selected an altered version. The relevant figure from the notes is 13.1% &mdash; that is the number that must appear prominently in the correct answer."
+    },
+    {
+      "title": "Eliminate wrong choices and confirm the match",
+      "content": "<ul><li><strong>Choice A &mdash; When participants were asked to identify the correct version of Fred Flintstone, 86.9% selected the unaltered image.</strong>: Emphasizes participants who got it right, not those who chose an altered version. &#10007;</li><li><strong>Choice B &mdash; A 2021 study showed participants an unaltered image of Fred Flintstone, who is a cartoon man in a spotted tunic, alongside two altered versions.</strong>: Describes the study setup and mentions no percentage at all. &#10007;</li><li><strong>Choice C &mdash; Participants were asked to identify the correct version of Fred Flintstone, who is a cartoon man in a spotted tunic.</strong>: States the task but includes no data about altered-version selections. &#10007;</li><li><strong>Choice D &mdash; When shown three versions of Fred Flintstone and asked to select the correct one, 13.1% of participants chose an altered version.</strong>: Puts the altered-version figure front and center, directly fulfilling the stated goal. &#10003;</li></ul>That matches <strong>Choice D &mdash; When shown three versions of Fred Flintstone and asked to select the correct one, 13.1% of participants chose an altered version.</strong>."
+    }
+  ]
+}

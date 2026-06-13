@@ -1,1 +1,15 @@
-{"questionId": "5c58cec0", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the causal foundation", "content": "The first sentence establishes a principle—scientists need unchanging standards to guarantee validity.<br/><br/>The second sentence then describes metrologists' response: developing the SI based on unchanging natural values.<br/><br/>The key signal is that the second sentence is a consequence flowing directly from the first."}, {"title": "Match to the correct transition", "content": "The transition “For this reason” signals cause-and-effect: the SI's development stems from the need for unchanging standards. The other three fail to establish this logical connection. That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "5c58cec0",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the causal foundation",
+      "content": "The first sentence establishes a principle—scientists need unchanging standards to guarantee validity.<br/><br/>The second sentence then describes metrologists' response: developing the SI based on unchanging natural values.<br/><br/>The key signal is that the second sentence is a consequence flowing directly from the first."
+    },
+    {
+      "title": "Match to the correct transition",
+      "content": "The transition “For this reason” signals cause-and-effect: the SI's development stems from the need for unchanging standards. The other three fail to establish this logical connection. That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

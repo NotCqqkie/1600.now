@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Separate fixed and recurring costs",
-      "content": "The \\$35 activation fee is paid only once, so it is a constant. The \\$23 per month is multiplied by the number of months $t$, contributing $23t$."
+      "content": "The 35-dollar activation fee is paid only once, so it is a constant. The 23-dollar monthly cost is multiplied by the number of months $t$, contributing $23t$."
     },
     {
       "title": "Combine into a total-cost equation",
@@ -13,7 +13,7 @@
     },
     {
       "title": "Check each choice",
-      "content": "<ul><li>Choice A: $c = \\frac{t}{23} + 35$ would mean the cost per month decreases as $t$ grows, not a flat \\$23/month. Eliminated.</li><li>Choice B: $c = \\frac{t}{35} + 23$ swaps both roles &mdash; \\$23 becomes the constant and \\$35 becomes a divisor. Eliminated.</li><li>Choice C: $c = 23t + 35$ correctly adds \\$23 per month to the one-time \\$35. Matches.</li><li>Choice D: $c = 35t + 23$ swaps the monthly rate and the activation fee. Eliminated.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+      "content": "<ul><li>Choice A: $c=\\frac{t}{23}+35$ &mdash; would mean the cost per month decreases as $t$ grows, not a flat 23 dollars per month. Eliminated.</li><li>Choice B: $c=\\frac{t}{35}+23$ &mdash; 23 dollars becomes the constant and 35 dollars becomes a divisor. Eliminated.</li><li>Choice C: $c=23t+35$ &mdash; correctly adds 23 dollars per month to the one-time 35-dollar fee. Matches.</li><li>Choice D: $c=35t+23$ &mdash; swaps the monthly rate and the activation fee. Eliminated.</li></ul>That matches <strong>Choice C &mdash; $c=23t+35$</strong>."
     }
   ]
 }

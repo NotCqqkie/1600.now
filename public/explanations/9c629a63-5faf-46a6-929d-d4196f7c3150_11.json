@@ -9,11 +9,11 @@
     },
     {
       "title": "Solve and identify x",
-      "content": "Factor: $(s-17)(s+16)=0$, giving $s=17$ or $s=-16$. Since $s$ is positive, $s=17$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."
+      "content": "Factor: $(s-17)(s+16)=0$, giving $s=17$ or $s=-16$. Since $s$ is positive, $s=17$. That confirms <strong>B</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice B, 17, and the other choices fail the same setup or substitution. Therefore <strong>B</strong> is correct."
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches the correct answer, 17, and the other choices fail the same setup or substitution. Therefore <strong>B</strong> is correct."
     }
   ]
 }

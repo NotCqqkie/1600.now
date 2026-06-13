@@ -13,7 +13,7 @@
     },
     {
       "title": "Check each choice",
-      "content": "<ul><li>Choice A: $r^2 = 625$ gives $r = 25$, which is five times circle A's radius, not twice. Eliminated.</li><li>Choice B: $r^2 = 250$ gives $r = \\sqrt{250} \\approx 15.8$, not $10$. Eliminated.</li><li>Choice C: $r^2 = 50$ gives $r = \\sqrt{50} \\approx 7.07$, not $10$. This would correspond to doubling r&sup2; instead of doubling r (since 2&times;25=50). Eliminated.</li><li>Choice D: $r^2 = 100$ gives $r = 10$, exactly twice circle A's radius. Matches.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.",
+      "content": "<ul><li><strong>Choice A &mdash; $(x-3)^{2}+(y-9)^{2}=625$</strong>: This gives $r^2=625$, so $r=25$, which is five times circle A's radius, not twice. &#10007;</li><li><strong>Choice B &mdash; $(x-3)^{2}+(y-9)^{2}=250$</strong>: This gives $r=\\sqrt{250} \\approx 15.8$, not $10$. &#10007;</li><li><strong>Choice C &mdash; $(x-3)^{2}+(y-9)^{2}=50$</strong>: This gives $r=\\sqrt{50} \\approx 7.07$, not $10$. &#10007;</li><li><strong>Choice D &mdash; $(x-3)^{2}+(y-9)^{2}=100$</strong>: This gives $r=10$, exactly twice circle A's radius. &#10003;</li></ul>That confirms <strong>D</strong> is correct.",
       "desmosExpressions": [
         "(x-3)^2 + (y-9)^2 = 25",
         "(x-3)^2 + (y-9)^2 = 100"

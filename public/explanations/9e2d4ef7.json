@@ -1,1 +1,19 @@
-{"questionId": "9e2d4ef7", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Pin down the rhetorical goal", "content": "The student is introducing &quot;Paradise&quot; to an audience unfamiliar with both the novel and its author. An effective sentence must therefore tell readers what the novel is (genre and subject) AND establish who Gurnah is (a credential signaling why this novel matters)."}, {"title": "Find the choice that does both jobs", "content": "Choice C names the novel, gives its year, identifies it as a much-praised historical novel about colonial East Africa, and tags Gurnah as the 2021 Nobel laureate &mdash; covering subject, reception, and authorial credential in one sentence."}, {"title": "Eliminate the rest by what they leave out or misuse", "content": "<ul><li><strong>Choice A &mdash; 'born in Zanzibar... lives in the United Kingdom'</strong>: focuses on biographical facts about Gurnah and never tells the audience what &quot;Paradise&quot; is about. Misses the novel-introduction half of the goal. &#10007;</li><li><strong>Choice B &mdash; 'Many readers have singled out'</strong>: describes the novel but omits the Nobel Prize credential, so an unfamiliar audience gets no signal of the author's stature. Incomplete introduction. &#10007;</li><li><strong>Choice D &mdash; 'Abdulrazak Gurnah's homeland'</strong>: introduces the novel's subject but says nothing about Gurnah as an author, and the &quot;homeland&quot; framing is an overreach the notes do not support. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "9e2d4ef7",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Pin down the rhetorical goal",
+      "content": "The student is introducing &quot;Paradise&quot; to an audience unfamiliar with both the novel and its author. An effective sentence must therefore tell readers what the novel is (genre and subject) AND establish who Gurnah is (a credential signaling why this novel matters)."
+    },
+    {
+      "title": "Find the choice that does both jobs",
+      "content": "Choice C names the novel, gives its year, identifies it as a much-praised historical novel about colonial East Africa, and tags Gurnah as the 2021 Nobel laureate &mdash; covering subject, reception, and authorial credential in one sentence."
+    },
+    {
+      "title": "Eliminate the rest by what they leave out or misuse",
+      "content": "<ul><li><strong>Choice A &mdash; Abdulrazak Gurnah, who wrote <em>Paradise</em> and later was awarded the Nobel Prize in Literature, was born in Zanzibar in East Africa and currently lives in the United Kingdom.</strong>: focuses on biographical facts about Gurnah and never tells the audience what &quot;Paradise&quot; is about. Misses the novel-introduction half of the goal. &#10007;</li><li><strong>Choice B &mdash; Many readers have singled out Abdulrazak Gurnah's 1994 book <em>Paradise,</em> a historical novel about colonial East Africa, for praise.</strong>: describes the novel but omits the Nobel Prize credential, so an unfamiliar audience gets no signal of the author's stature. Incomplete introduction. &#10007;</li><li><strong>Choice D &mdash; <em>Paradise</em> is a historical novel about events that occurred in colonial East Africa, Abdulrazak Gurnah's homeland.</strong>: introduces the novel's subject but says nothing about Gurnah as an author, and the &quot;homeland&quot; framing is an overreach the notes do not support. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

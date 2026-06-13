@@ -1,1 +1,15 @@
-{"questionId":"5d3f0045-ceeb-4690-b839-fe80816d237c_6","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks for the <em>main purpose</em> of the passage. Notice the time markers: &apos;Every few days&apos; and &apos;In the afternoons, she would&apos; &mdash; both signal habitual, repeated action, not a one-time event. The passage centers on Abuela Evila&apos;s ritual of washing &Eacute;lida&apos;s hair with lemon water as something that happened over and over during Grande&apos;s childhood."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; a typical interaction between Grande&apos;s siblings</strong>: Mago and Carlos appear only as observers hiding behind a bush; the passage is about Abuela Evila and &Eacute;lida, not sibling interactions. &#10007;</li><li><strong>Choice B &mdash; a regular occurrence from Grande&apos;s childhood</strong>: &apos;Every few days&apos; and the repeated-action phrasing make this a recurring scene, exactly what &apos;regular occurrence&apos; captures. &#10003;</li><li><strong>Choice C &mdash; how Grande&apos;s relationship with &Eacute;lida grew over time</strong>: the passage shows a static, frozen-in-memory scene; no development of any relationship is described. &#10007;</li><li><strong>Choice D &mdash; how Grande felt about a location</strong>: the passage describes the ritual, not Grande&apos;s feelings about a place. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "5d3f0045-ceeb-4690-b839-fe80816d237c_6",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks for the <em>main purpose</em> of the passage. Notice the time markers: &apos;Every few days&apos; and &apos;In the afternoons, she would&apos; &mdash; both signal habitual, repeated action, not a one-time event. The passage centers on Abuela Evila&apos;s ritual of washing &Eacute;lida&apos;s hair with lemon water as something that happened over and over during Grande&apos;s childhood."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;To give an example of a typical interaction between Grande's siblings&rsquo;</strong>: Mago and Carlos appear only as observers hiding behind a bush; the passage is about Abuela Evila and &Eacute;lida, not sibling interactions. &#10007;</li><li><strong>Choice B &mdash; &lsquo;To describe a regular occurrence from Grande's childhood&rsquo;</strong>: &apos;Every few days&apos; and the repeated-action phrasing make this a recurring scene, exactly what &apos;regular occurrence&apos; captures. &#10003;</li><li><strong>Choice C &mdash; &lsquo;To illustrate how Grande's relationship with Élida grew over time&rsquo;</strong>: the passage shows a static, frozen-in-memory scene; no development of any relationship is described. &#10007;</li><li><strong>Choice D &mdash; &lsquo;To explain how Grande felt about a location where she spent time as a child&rsquo;</strong>: the passage describes the ritual, not Grande&apos;s feelings about a place. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

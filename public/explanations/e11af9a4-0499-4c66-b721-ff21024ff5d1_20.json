@@ -1,1 +1,15 @@
-{"questionId": "e11af9a4-0499-4c66-b721-ff21024ff5d1_20", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Locate the singular subject", "content": "The subject is <strong>text</strong>, a singular noun. The prepositional phrase <strong>In the installation</strong> introduces the sentence but is not the subject.<br/><br/>The participial phrase <strong>culled from a series of in-depth interviews with employees and their families</strong> modifies <strong>text</strong> but doesn't change its number — <strong>text</strong> remains singular."}, {"title": "Apply subject-verb agreement", "content": "The verb must be singular to match the subject <strong>text</strong>.<br/><br/>Only <strong>punctuates</strong> (choice D) is singular; the other choices are plural, passive, or a participle form.<br/><br/>The verb <strong>punctuates</strong> correctly shows the text interrupting the visual display of the prints.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "e11af9a4-0499-4c66-b721-ff21024ff5d1_20",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the singular subject",
+      "content": "The subject is <strong>text</strong>, a singular noun. The prepositional phrase <strong>In the installation</strong> introduces the sentence but is not the subject.<br/><br/>The participial phrase <strong>culled from a series of in-depth interviews with employees and their families</strong> modifies <strong>text</strong> but doesn't change its number — <strong>text</strong> remains singular."
+    },
+    {
+      "title": "Apply subject-verb agreement",
+      "content": "The verb must be singular to match the subject <strong>text</strong>.<br/><br/>Only <strong>punctuates</strong> (the remaining alternative) is singular; the other choices are plural, passive, or a participle form.<br/><br/>The verb <strong>punctuates</strong> correctly shows the text interrupting the visual display of the prints.<br/><br/>That matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

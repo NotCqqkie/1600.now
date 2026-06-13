@@ -1,1 +1,15 @@
-{"questionId":"839d1132-416e-4cc6-be17-13454f14da43_17","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank falls between the verb &quot;appear&quot; and the noun phrase &quot;US currency.&quot; The word &quot;on&quot; is a preposition that must connect directly to its object &mdash; no punctuation may separate them."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'semicolon before &quot;on&quot;'</strong>: A semicolon separates the preposition from what follows, breaking the required direct connection to the object. &#10007;</li><li><strong>Choice B &mdash; 'comma before &quot;on&quot;'</strong>: A comma between the preposition and its object is also grammatically illegal. &#10007;</li><li><strong>Choice C &mdash; 'colon before &quot;on&quot;'</strong>: A colon here similarly wedges punctuation between preposition and object. &#10007;</li><li><strong>Choice D &mdash; 'no punctuation, &quot;on US currency&quot; uninterrupted'</strong>: &quot;On&quot; flows directly into &quot;US currency&quot; with no intervening punctuation, which is the only grammatically correct option. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "839d1132-416e-4cc6-be17-13454f14da43_17",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank falls between the verb &quot;appear&quot; and the noun phrase &quot;US currency.&quot; The word &quot;on&quot; is a preposition that must connect directly to its object &mdash; no punctuation may separate them."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; on;</strong>: A semicolon separates the preposition from what follows, breaking the required direct connection to the object. &#10007;</li><li><strong>Choice B &mdash; on,</strong>: A comma between the preposition and its object is also grammatically illegal. &#10007;</li><li><strong>Choice C &mdash; on:</strong>: A colon here similarly wedges punctuation between preposition and object. &#10007;</li><li><strong>Choice D &mdash; on</strong>: &quot;On&quot; flows directly into &quot;US currency&quot; with no intervening punctuation, which is the only grammatically correct option. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

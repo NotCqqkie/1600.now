@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the answer",
-      "content": "Choice A has slope $37$, and choice B swaps the slope and intercept. Choice C is not the right expression in terms of $x$. Choice D, $g(x)=5x+37$, has slope $5$ and gives $g(2)=47$. Choice <strong>D</strong> is correct."
+      "content": "<strong>$g(x) = 37x$</strong> has slope $37$, and the remaining alternative swaps the slope and intercept. $g(x) = 5a$ is not the right expression in terms of $x$. $g(x) = 5x + 37$, $g(x)=5x+37$, has slope $5$ and gives $g(2)=47$. $g(x) = 5x + 37$ is correct."
     }
   ]
 }

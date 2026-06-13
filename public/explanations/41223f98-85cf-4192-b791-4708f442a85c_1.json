@@ -1,1 +1,15 @@
-{"questionId": "41223f98-85cf-4192-b791-4708f442a85c_1", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The blank describes how the character was &apos;wakened&apos; from a beautiful dream. The context signals a jarring, sudden transition&mdash;not gradual or voluntary. The correct word must capture that abruptness."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; &apos;abruptly&apos;</strong>: Precisely matches the jarring, unexpected jolt of being woken suddenly. &#10003;</li><li><strong>Choice B &mdash; &apos;repeatedly&apos;</strong>: Implies recurrence, but nothing in the passage supports being woken multiple times. &#10007;</li><li><strong>Choice C &mdash; &apos;willingly&apos;</strong>: Suggests voluntary action&mdash;the opposite of being woken from a dream. &#10007;</li><li><strong>Choice D &mdash; &apos;gently&apos;</strong>: Contradicts the sudden, jarring quality of &apos;wakened suddenly.&apos; &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "41223f98-85cf-4192-b791-4708f442a85c_1",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank describes how the character was &apos;wakened&apos; from a beautiful dream. The context signals a jarring, sudden transition&mdash;not gradual or voluntary. The correct word must capture that abruptness."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — Abruptly</strong>: Precisely matches the jarring, unexpected jolt of being woken suddenly. &#10003;</li><li><strong>Choice B — Repeatedly</strong>: Implies recurrence, but nothing in the passage supports being woken multiple times. &#10007;</li><li><strong>Choice C — Voluntarily</strong>: Suggests voluntary action&mdash;the opposite of being woken from a dream. &#10007;</li><li><strong>Choice D — Tenderly</strong>: Contradicts the sudden, jarring quality of &apos;wakened suddenly.&apos; &#10007;</li></ul><strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_18", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Read the boundary line", "content": "From the graph the boundary has slope $3$ and y-intercept $7$, so the line is $y=3x+7$."}, {"title": "Determine the inequality direction", "content": "The shaded region lies <em>above</em> the boundary (and the line is dashed, so the inequality is strict), giving $y>3x+7$.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_18",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the boundary line",
+      "content": "From the graph the boundary has slope $3$ and y-intercept $7$, so the line is $y=3x+7$."
+    },
+    {
+      "title": "Determine the inequality direction",
+      "content": "The shaded region lies <em>above</em> the boundary (and the line is dashed, so the inequality is strict), giving $y\\gt 3x+7$.<br/><br/>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

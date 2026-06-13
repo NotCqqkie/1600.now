@@ -9,7 +9,7 @@
     },
     {
       "title": "Simplify and solve for the side length",
-      "content": "Simplify the right side:<br/>$$128 = \\frac{6s^2}{3}$$<br/>$$128 = 2s^2$$<br/>Divide both sides by 2:<br/>$$s^2 = 64$$<br/>Take the positive square root:<br/>$$s = 8$$<br/>That matches choice A — <strong>A</strong> is correct."
+      "content": "Simplify the right side:<br/>$$128 = \\frac{6s^2}{3}$$<br/>$$128 = 2s^2$$<br/>Divide both sides by 2:<br/>$$s^2 = 64$$<br/>Take the positive square root:<br/>$$s = 8$$<br/>That matches <strong>Choice A &mdash; $8$</strong>."
     }
   ]
 }

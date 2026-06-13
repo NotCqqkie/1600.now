@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "The computed value is $23$, which matches choice <strong>C</strong>. The nearby answers are traps from arithmetic or exponent mistakes, not alternate valid function values."
+      "content": "The computed value is $23$, which matches <strong>C</strong>. The nearby answers are traps from arithmetic or exponent mistakes, not alternate valid function values."
     }
   ]
 }

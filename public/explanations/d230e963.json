@@ -9,7 +9,7 @@
     },
     {
       "title": "Reject the negative-intercept choices",
-      "content": "Start by checking choices C and D. Both cross the $y$-axis at $-2.8$, below the origin. The displayed line crosses the $y$-axis above the origin, so C and D cannot match."
+      "content": "Start by checking the other choices. Both cross the $y$-axis at $-2.8$, below the origin. The displayed line crosses the $y$-axis above the origin, so C and D cannot match."
     },
     {
       "title": "Reject the negative-slope choice",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Confirm the matching model",
-      "content": "Choice <strong>A</strong>, $y=2.8+1.7x$, is the only option with both features: a positive $y$-intercept and a positive slope."
+      "content": "<strong>A</strong>, $y=2.8+1.7x$, is the only option with both features: a positive $y$-intercept and a positive slope."
     }
   ]
 }

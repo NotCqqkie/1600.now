@@ -1,1 +1,15 @@
-{"questionId": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_17", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The passage narrates past events: Zewail devised his technique in 1987, then was honored, and \"would become known as the father of femtochemistry.\" The verb in the blank must be consistent with the \"would\" construction used later in the same sentence, which narrates eventual consequences of the 1987 discovery."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'is honored'</strong>: Present tense is inconsistent with the past-narrative context established by \"devised\" and the \"would become\" later in the sentence. &#10007;</li><li><strong>Choice B &mdash; 'would be honored'</strong>: Matches the \"would become\" that follows &mdash; both use the same narrative past-future form to describe events that eventually resulted from the 1987 discovery. Consistent and grammatically parallel. &#10003;</li><li><strong>Choice C &mdash; 'will be honored'</strong>: Future tense is inconsistent with the past-narrative frame; the sentence is recounting history, not making a prediction. &#10007;</li><li><strong>Choice D &mdash; 'had been honored'</strong>: Past perfect suggests the honoring occurred before another past event, but there is no earlier event for it to precede. This tense is not supported by the sentence structure. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_17",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage narrates past events: Zewail devised his technique in 1987, then was honored, and \"would become known as the father of femtochemistry.\" The verb in the blank must be consistent with the \"would\" construction used later in the same sentence, which narrates eventual consequences of the 1987 discovery."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; is honored</strong>: Present tense is inconsistent with the past-narrative context established by \"devised\" and the \"would become\" later in the sentence. &#10007;</li><li><strong>Choice B &mdash; would be honored</strong>: Matches the \"would become\" that follows &mdash; both use the same narrative past-future form to describe events that eventually resulted from the 1987 discovery. Consistent and grammatically parallel. &#10003;</li><li><strong>Choice C &mdash; will be honored</strong>: Future tense is inconsistent with the past-narrative frame; the sentence is recounting history, not making a prediction. &#10007;</li><li><strong>Choice D &mdash; had been honored</strong>: Past perfect suggests the honoring occurred before another past event, but there is no earlier event for it to precede. This tense is not supported by the sentence structure. &#10007;</li></ul>That matches <strong>Choice B &mdash; would be honored</strong>."
+    }
+  ]
+}

@@ -13,7 +13,7 @@
     },
     {
       "title": "Interpret the constant 311",
-      "content": "The expression $10h + 101$ is the original pressure formula $P = 10h + 101$ evaluated at the starting depth $h$.<br/><br/>Since $10h + 101 = 311$, the constant 311 is the pressure the diver experienced at the original depth—right when the diver began to descend the additional $d$ meters.<br/><br/>That matches choice D — <strong>D</strong> is correct."
+      "content": "The expression $10h + 101$ is the original pressure formula $P = 10h + 101$ evaluated at the starting depth $h$.<br/><br/>Since $10h + 101 = 311$, the constant 311 is the pressure the diver experienced at the original depth—right when the diver began to descend the additional $d$ meters.<br/><br/><strong>D</strong> is correct."
     }
   ]
 }

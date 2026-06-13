@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li>A. $x \\le 36$ &mdash; describes a vertical boundary, but the boundary here is horizontal. Eliminated.</li><li>B. $x \\ge 36$ &mdash; also vertical-boundary; wrong variable. Eliminated.</li><li>C. $y \\le 36$ &mdash; correct variable but would shade <em>below</em> the line, not above. Eliminated.</li><li>D. $y \\ge 36$ &mdash; horizontal boundary at $y=36$ with shading above it. Matches the graph.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.",
+      "content": "<ul><li>A. $x \\le 36$ &mdash; describes a vertical boundary, but the boundary here is horizontal. Eliminated.</li><li>B. $x \\ge 36$ &mdash; also vertical-boundary; wrong variable. Eliminated.</li><li>C. $y \\le 36$ &mdash; correct variable but would shade <em>below</em> the line, not above. Eliminated.</li><li>D. $y \\ge 36$ &mdash; horizontal boundary at $y=36$ with shading above it. Matches the graph.</li></ul>That confirms <strong>D</strong> is correct.",
       "desmosExpressions": [
         "y \\ge 36"
       ]

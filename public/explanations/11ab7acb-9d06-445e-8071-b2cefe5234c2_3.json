@@ -1,1 +1,15 @@
-{"questionId":"11ab7acb-9d06-445e-8071-b2cefe5234c2_3","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"This is a Words in Context question. The blank describes how a country&rsquo;s policy environment relates to swap-line decisions. The decisive clue is the probability data: 0.20 for open-capital countries versus 0.03 for restrictive ones &mdash; a sharp gap showing policy environment was meaningfully relevant to the outcome."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &ldquo;material to&rdquo;</strong>: Means significant or relevant to. The large gap between 0.20 and 0.03 shows policy environment was genuinely significant to swap-line decisions &mdash; a precise fit. &#10003;</li><li><strong>Choice B &mdash; &ldquo;predicated on&rdquo;</strong>: Means based entirely upon or dependent on as a foundation. This overstates the relationship: policy environment influenced outcomes but didn&rsquo;t solely determine them (the probability was 0.20, not 1.0). &#10007;</li><li><strong>Choice C &mdash; &ldquo;decoupled from&rdquo;</strong>: Means unrelated to or separated from. The stark probability gap proves the opposite &mdash; policy and swap lines were clearly linked, not independent. &#10007;</li><li><strong>Choice D &mdash; &ldquo;mediated by&rdquo;</strong>: Means transmitted or controlled through an intermediary. This implies a third factor bridges policy and swap-line decisions, but the passage describes a direct relationship with no intermediary mentioned. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "11ab7acb-9d06-445e-8071-b2cefe5234c2_3",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a Words in Context question. The blank describes how a country&rsquo;s policy environment relates to swap-line decisions. The decisive clue is the probability data: 0.20 for open-capital countries versus 0.03 for restrictive ones &mdash; a sharp gap showing policy environment was meaningfully relevant to the outcome."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; material to</strong>: Means significant or relevant to. The large gap between 0.20 and 0.03 shows policy environment was genuinely significant to swap-line decisions &mdash; a precise fit. &#10003;</li><li><strong>Choice B &mdash; predicated on</strong>: Means based entirely upon or dependent on as a foundation. This overstates the relationship: policy environment influenced outcomes but didn&rsquo;t solely determine them (the probability was 0.20, not 1.0). &#10007;</li><li><strong>Choice C &mdash; decoupled from</strong>: Means unrelated to or separated from. The stark probability gap proves the opposite &mdash; policy and swap lines were clearly linked, not independent. &#10007;</li><li><strong>Choice D &mdash; mediated by</strong>: Means transmitted or controlled through an intermediary. This implies a third factor bridges policy and swap-line decisions, but the passage describes a direct relationship with no intermediary mentioned. &#10007;</li></ul>That matches <strong>Choice A &mdash; material to</strong>."
+    }
+  ]
+}

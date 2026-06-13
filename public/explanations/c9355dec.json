@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm against the choices",
-      "content": "The boundary line must pass through $(0,-6)$ and $(9,0)$, and the shading must be above a solid line. The other choices keep the same slope but move the $y$-intercept to $6$, $-9$, or $9$, so they miss the boundary. Choice <strong>A</strong> is correct."
+      "content": "The boundary line must pass through $(0,-6)$ and $(9,0)$, and the shading must be above a solid line. The other choices keep the same slope but move the $y$-intercept to $6$, $-9$, or $9$, so they miss the boundary. <strong>A</strong> is correct."
     }
   ]
 }

@@ -13,7 +13,7 @@
     },
     {
       "title": "Eliminate the answer choices",
-      "content": "<ul><li><strong>A</strong> says the population grew by about 5 from 1951 to 1956, confusing the input $x = 5$ with the output.</li><li><strong>B</strong> says the population is about 563 in 1956 &mdash; this matches the interpretation of $P(5) \\approx 563$.</li><li><strong>C</strong> says the 1956 population is 5 times the 1951 population, but $P(0) = 533$ and $563/533 \\approx 1.06$, not 5.</li><li><strong>D</strong> describes a constant increase of 563 every 5 years, but the model is exponential, not linear, and 563 is a population value, not an increment.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "<ul><li><strong>A</strong> says the population grew by about 5 from 1951 to 1956, confusing the input $x = 5$ with the output.</li><li><strong>B</strong> says the population is about 563 in 1956 &mdash; this matches the interpretation of $P(5) \\approx 563$.</li><li><strong>C</strong> says the 1956 population is 5 times the 1951 population, but $P(0) = 533$ and $563/533 \\approx 1.06$, not 5.</li><li><strong>D</strong> describes a constant increase of 563 every 5 years, but the model is exponential, not linear, and 563 is a population value, not an increment.</li></ul><strong>B</strong> is correct."
     }
   ]
 }

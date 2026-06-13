@@ -7,6 +7,9 @@ const title = "Digital SAT Skills List: Every Math & Reading Skill Tested";
 const description =
   "Browse every skill tested on the Digital SAT, by section and domain. Learn the skill, see key tips, and jump to targeted practice questions.";
 
+const skillPracticeHref = (skill: (typeof satSkills)[number]) =>
+  `/bank/${skill.section === "Math" ? "math" : "reading"}/skill/${encodeURIComponent(skill.officialSkill)}`;
+
 const SatSkillIndex = () => {
   const mathSkills = satSkills.filter((skill) => skill.section === "Math");
   const readingSkills = satSkills.filter((skill) => skill.section === "Reading & Writing");
@@ -38,10 +41,21 @@ const SatSkillIndex = () => {
         </h1>
         <p className="mt-3 text-lg text-muted-foreground">
           A complete list of the skills the Digital SAT tests, grouped by
-          section and domain. Click a skill for a focused breakdown, key tips,
-          and targeted practice.
+          section and domain. Click a skill to open targeted practice.
         </p>
       </header>
+
+      <section className="mb-10 rounded-xl border border-border p-5">
+        <h2 className="text-2xl font-semibold tracking-tight">
+          How to use this skill list
+        </h2>
+        <ol className="mt-3 list-decimal space-y-2 pl-6 text-muted-foreground">
+          <li>Start with the domain that caused the most misses on your last timed module.</li>
+          <li>Open one skill, drill it until the miss type is clear, then return to a mixed module.</li>
+          <li>Do not study every skill evenly. Spend more time on repeated misses and high-frequency fundamentals.</li>
+          <li>For Math, check whether Desmos would have shortened the solution. For Reading and Writing, identify the exact rule or text proof.</li>
+        </ol>
+      </section>
 
       {[
         { heading: "Digital SAT Math Skills", list: mathSkills },
@@ -55,7 +69,7 @@ const SatSkillIndex = () => {
             {group.list.map((skill) => (
               <li key={skill.slug}>
                 <Link
-                  to={`/sat-skill/${skill.slug}`}
+                  to={skillPracticeHref(skill)}
                   className="block rounded-xl border border-border p-4 transition hover:bg-muted"
                 >
                   <div className="font-semibold">{skill.name}</div>

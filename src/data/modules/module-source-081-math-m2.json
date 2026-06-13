@@ -605,7 +605,7 @@
     "difficulty": "Hard",
     "question_number": 20,
     "test_name": "Module Source 081 Math M2",
-    "passage": "The functions $f$ and $g$ are defined by the equations shown, where $a$ and $b$ are integer constants, $a < b$ and $b < 0$. If $y = f(x)$ and $y = g(x)$ are graphed in the $xy$-plane, which of the following equations displays, as a constant or coefficient, the $y$-coordinate of the $y$-intercept of the graph of the corresponding function?\nI. $f(x) = a(2.1)x + b$\nII. $g(x) = a(2.1)x + b$",
+    "passage": "The functions $f$ and $g$ are defined by the equations shown, where $a$ and $b$ are integer constants, $a \\lt b$ and $b \\lt 0$. If $y = f(x)$ and $y = g(x)$ are graphed in the $xy$-plane, which of the following equations displays, as a constant or coefficient, the $y$-coordinate of the $y$-intercept of the graph of the corresponding function?\nI. $f(x) = a(2.1)^x + b$\nII. $g(x) = a(2.1)^x + b$",
     "question_text": null,
     "choices": [
       {
@@ -637,7 +637,7 @@
     "difficulty": "Medium",
     "question_number": 21,
     "test_name": "Module Source 081 Math M2",
-    "passage": "The function $h$ is defined by $h(x) = -\\sqrt{x^2 + bc + c}$, where $b$ and $c$ are constants. In the $xy$-plane, the graph of $y = h(x)$ contains the points $(2, 0)$ and $(0, -\\sqrt{358})$. If $h(m) = 0$, what is the greatest possible value of $m$?",
+    "passage": "The function $h$ is defined by $h(x) = -\\sqrt{x^2+bx+c}$, where $b$ and $c$ are constants. In the $xy$-plane, the graph of $y = h(x)$ contains the points $(2, 0)$ and $(0, -\\sqrt{358})$. If $h(m) = 0$, what is the greatest possible value of $m$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -652,7 +652,7 @@
     "difficulty": "Hard",
     "question_number": 22,
     "test_name": "Module Source 081 Math M2",
-    "passage": "The function $f$ is defined by $f(x) = \\frac{|x|}{a} - 14$, where $a < 0$. What is the product of $f(15a)$ and $f(8a)$?",
+    "passage": "The function $f$ is defined by $f(x) = \\frac{|x|}{a} - 14$, where $a \\lt 0$. What is the product of $f(15a)$ and $f(8a)$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

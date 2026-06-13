@@ -1,1 +1,15 @@
-{"questionId":"2151936b-0a32-450c-9679-a3f550831cb9_9","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks what can be <em>inferred</em> about <em>Ancient Language</em>. An inference must follow directly from information stated in the passage — no outside knowledge, no added assumptions."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Its location may be considered surprising.'</strong>: The passage says land art artists &ldquo;usually install large-scale pieces outdoors, often in surprising locations&rdquo; and identifies <em>Ancient Language</em> as part of the land art movement. Placing it in the Atacama Desert fits that pattern — its location <em>may</em> be considered surprising. &#10003;</li><li><strong>Choice B &mdash; 'It marked a shift in the popularity of the land art movement.'</strong>: The passage says nothing about popularity trends before or after 2004. This is outside the text. &#10007;</li><li><strong>Choice C &mdash; 'It may have had more commercial success in a different outdoor location.'</strong>: The passage says land art artists <em>reject</em> commercialization — it never discusses commercial success at all. &#10007;</li><li><strong>Choice D &mdash; 'It was created early in Rogers&rsquo;s career.'</strong>: The passage gives no information about when in Rogers&rsquo;s career 2004 fell. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "2151936b-0a32-450c-9679-a3f550831cb9_9",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks what can be <em>inferred</em> about <em>Ancient Language</em>. An inference must follow directly from information stated in the passage — no outside knowledge, no added assumptions."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Its location may be considered surprising.</strong>: The passage says land art artists &ldquo;usually install large-scale pieces outdoors, often in surprising locations&rdquo; and identifies <em>Ancient Language</em> as part of the land art movement. Placing it in the Atacama Desert fits that pattern — its location <em>may</em> be considered surprising. &#10003;</li><li><strong>Choice B &mdash; It marked a shift in the popularity of the land art movement.</strong>: The passage says nothing about popularity trends before or after 2004. This is outside the text. &#10007;</li><li><strong>Choice C &mdash; It may have had more commercial success in a different outdoor location.</strong>: The passage says land art artists <em>reject</em> commercialization — it never discusses commercial success at all. &#10007;</li><li><strong>Choice D &mdash; It was created early in Rogers's career.</strong>: The passage gives no information about when in Rogers&rsquo;s career 2004 fell. &#10007;</li></ul>That matches <strong>Choice A &mdash; Its location may be considered surprising.</strong>."
+    }
+  ]
+}

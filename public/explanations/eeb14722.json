@@ -1,1 +1,15 @@
-{"questionId": "eeb14722", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Determine what the blank needs to do", "content": "The blank fills in the subject of the relative clause &quot;when ______ meet.&quot; The appositive that follows &mdash; &quot;a young Indian woman from Uganda and a young African American man from Mississippi&quot; &mdash; names two distinct people, so the blank must use the plural noun <strong>protagonists</strong> (not singular) and a possessive determiner (not a contraction) to refer back to the film."}, {"title": "Eliminate each choice, then confirm the answer", "content": "<ul><li><strong>Choice A &mdash; 'it&apos;s two protagonists'</strong>: <em>It&apos;s</em> is the contraction for &quot;it is,&quot; not a possessive determiner &mdash; grammatically incorrect here. &#10007;</li><li><strong>Choice B &mdash; 'its two protagonist&apos;s'</strong>: <em>Its</em> is the correct possessive, but <em>protagonist&apos;s</em> is singular possessive; the appositive names two people, so the plural <em>protagonists</em> is needed. &#10007;</li><li><strong>Choice C &mdash; 'it&apos;s two protagonist&apos;s'</strong>: Wrong on both counts &mdash; contraction instead of possessive, and singular instead of plural. &#10007;</li><li><strong>Choice D &mdash; 'its two protagonists'</strong>: <em>Its</em> correctly refers possessively to the film, and <em>protagonists</em> is correctly plural to match the two characters named in the appositive. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "eeb14722",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Determine what the blank needs to do",
+      "content": "The blank fills in the subject of the relative clause \"when ______ meet.\" The appositive that follows &mdash; \"a young Indian woman from Uganda and a young African American man from Mississippi\" &mdash; names two distinct people, so the blank must use the plural noun <strong>protagonists</strong> (not singular) and a possessive determiner (not a contraction) to refer back to the film."
+    },
+    {
+      "title": "Eliminate each choice, then confirm the answer",
+      "content": "<ul><li><strong>\"it's two protagonists\"</strong>: <em>It's</em> is the contraction for \"it is,\" not a possessive determiner &mdash; grammatically incorrect here. &#10007;</li><li><strong>\"its two protagonist's\"</strong>: <em>Its</em> is the correct possessive, but <em>protagonist's</em> is singular possessive; the appositive names two people, so the plural <em>protagonists</em> is needed. &#10007;</li><li><strong>\"it's two protagonist's\"</strong>: Wrong on both counts &mdash; contraction instead of possessive, and singular instead of plural. &#10007;</li><li><strong>\"its two protagonists\"</strong>: <em>Its</em> correctly refers possessively to the film, and <em>protagonists</em> is correctly plural to match the two characters named in the appositive. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

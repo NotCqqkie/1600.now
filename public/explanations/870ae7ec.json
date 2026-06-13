@@ -1,1 +1,15 @@
-{"questionId":"870ae7ec","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"This is a Boundaries question about joining two independent clauses. Clause 1: &ldquo;In 2017, the couple converted a vacant lot in the city into an [apiary].&rdquo; Clause 2: &ldquo;in the years that followed they acquired nine additional lots and established more than 35 hives.&rdquo; Both are independent clauses (each has a subject and a complete predicate), so they must be joined with either a semicolon alone, or a comma plus a coordinating conjunction."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;apiary,&rsquo;</strong>: A comma alone between two independent clauses is a comma splice &mdash; not acceptable in Standard English. &#10007;</li><li><strong>Choice B &mdash; &lsquo;apiary, and&rsquo;</strong>: A comma followed by the coordinating conjunction &ldquo;and&rdquo; correctly joins the two independent clauses. &#10003;</li><li><strong>Choice C &mdash; &lsquo;apiary and&rsquo;</strong>: The coordinating conjunction &ldquo;and&rdquo; without a preceding comma is insufficient to join two independent clauses; this creates a run-on. &#10007;</li><li><strong>Choice D &mdash; &lsquo;apiary&rsquo;</strong>: No punctuation or conjunction between two independent clauses is a fused (run-on) sentence. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "870ae7ec",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a Boundaries question about joining two independent clauses. Clause 1: &ldquo;In 2017, the couple converted a vacant lot in the city into an [apiary].&rdquo; Clause 2: &ldquo;in the years that followed they acquired nine additional lots and established more than 35 hives.&rdquo; Both are independent clauses (each has a subject and a complete predicate), so they must be joined with either a semicolon alone, or a comma plus a coordinating conjunction."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; apiary,</strong>: A comma alone between two independent clauses is a comma splice &mdash; not acceptable in Standard English. &#10007;</li><li><strong>Choice B &mdash; apiary, and</strong>: A comma followed by the coordinating conjunction &ldquo;and&rdquo; correctly joins the two independent clauses. &#10003;</li><li><strong>Choice C &mdash; apiary and</strong>: The coordinating conjunction &ldquo;and&rdquo; without a preceding comma is insufficient to join two independent clauses; this creates a run-on. &#10007;</li><li><strong>Choice D &mdash; apiary</strong>: No punctuation or conjunction between two independent clauses is a fused (run-on) sentence. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

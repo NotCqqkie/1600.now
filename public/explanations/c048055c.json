@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice D has the correct initial value 15,000 and growth factor 1.04. Choices A and C use 0.96, which models a decrease, and choice B puts 15,000 in the base instead of the coefficient. Choice <strong>D</strong> is correct.",
+      "content": "The model $p=15000(1.04)^x$ has the correct initial value, $15{,}000$, and growth factor, $1.04$. A factor of $0.96$ models a decrease, and using $15{,}000$ as the base instead of the coefficient changes the exponential model. <strong>D</strong> is correct.",
       "desmosExpressions": [
         "y=15000(1.04)^x",
         "(0,15000)",

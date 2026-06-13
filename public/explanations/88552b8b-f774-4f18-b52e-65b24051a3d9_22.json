@@ -1,1 +1,15 @@
-{"questionId": "88552b8b-f774-4f18-b52e-65b24051a3d9_22", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The blank must name the poet (<strong>Emily Hiestand</strong>) and then attach a second descriptor (<strong>author of <em>The Very Rich Hours</em></strong>). The question is about comma placement: which choice correctly separates the name from the following appositive phrase?"}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; [comma before and after the name]</strong>: Setting the name off with commas implies it&apos;s extra, nonessential information, but the name is identifying who the poet is &mdash; no commas should surround it. &#10007;</li><li><strong>Choice B &mdash; [comma before the name only]</strong>: A comma before the name breaks the essential &apos;role + name&apos; unit. The name directly follows the role without punctuation. &#10007;</li><li><strong>Choice C &mdash; [no commas at all]</strong>: Without a comma before &apos;author of...&apos;, the second descriptor runs into the name without the required separation for an appositive phrase. &#10007;</li><li><strong>Choice D &mdash; 'the poet Emily Hiestand, author of <em>The Very Rich Hours</em>'</strong>: No commas around the name (it identifies who the poet is), and one comma before &apos;author of...&apos; correctly sets off the nonessential appositive. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "88552b8b-f774-4f18-b52e-65b24051a3d9_22",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank must name the poet (<strong>Emily Hiestand</strong>) and then attach a second descriptor (<strong>author of <em>The Very Rich Hours</em></strong>). The question is about comma placement: which choice correctly separates the name from the following appositive phrase?"
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; poet, Emily Hiestand,</strong>: Setting the name off with commas implies it&apos;s extra, nonessential information, but the name is identifying who the poet is &mdash; no commas should surround it. &#10007;</li><li><strong>Choice B &mdash; poet, Emily Hiestand</strong>: A comma before the name breaks the essential &apos;role + name&apos; unit. The name directly follows the role without punctuation. &#10007;</li><li><strong>Choice C &mdash; poet Emily Hiestand</strong>: Without a comma before &apos;author of...&apos;, the second descriptor runs into the name without the required separation for an appositive phrase. &#10007;</li><li><strong>Choice D &mdash; poet Emily Hiestand,</strong>: No commas around the name (it identifies who the poet is), and one comma before &apos;author of...&apos; correctly sets off the nonessential appositive. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

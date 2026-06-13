@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate each graph choice",
-      "content": "<ul><li>Choice A shows a straight line or parabola — growth is too slow and the shape is wrong. Eliminated.</li><li>Choice B shows an S-shaped cubic curve passing through $(0,0)$, $(1,1)$, $(2,8)$, and $(3,27)$ with rapid upward growth — consistent with $y = x^3$. Kept.</li><li>Choice C shows a curve that is symmetric or behaves like an even-degree function — does not match $y = x^3$. Eliminated.</li><li>Choice D shows a curve with different concavity or a different intercept — inconsistent with the table values. Eliminated.</li></ul>That matches choice B — <strong>B</strong> is correct."
+      "content": "<ul><li>A straight line or parabola grows too slowly and has the wrong shape. Eliminated.</li><li>The S-shaped cubic curve passes through $(0,0)$, $(1,1)$, $(2,8)$, and $(3,27)$ with rapid upward growth, matching $y=x^3$. Kept.</li><li>A symmetric curve or even-degree shape does not match $y=x^3$. Eliminated.</li><li>A curve with different concavity or a different intercept is inconsistent with the table values. Eliminated.</li></ul><strong>B</strong> is correct."
     }
   ]
 }

@@ -9,7 +9,7 @@
     },
     {
       "title": "Compute the target value",
-      "content": "So $56x = 7 \\cdot 9 = 63$. That matches choice <strong>C</strong> — <strong>C</strong> is correct.<br/><br/>This shortcut avoids solving for $x$ first; since the target expression is exactly 7 times the given expression, scale the known value instead."
+      "content": "So $56x = 7 \\cdot 9 = 63$. That matches <strong>Choice C &mdash; 63</strong>.<br/><br/>This shortcut avoids solving for $x$ first; since the target expression is exactly 7 times the given expression, scale the known value instead."
     }
   ]
 }

@@ -1,5 +1,6 @@
 {
   "qid": "4eaf0a3a",
+  "questionId": "4eaf0a3a",
   "correctAnswer": "B",
   "steps": [
     {
@@ -16,7 +17,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li>A: $(xy)^{7/9}$ — exponent is inverted. Incorrect.</li><li>B: $(xy)^{9/7}$ — matches exactly. That matches choice B — <strong>B</strong> is correct.</li><li>C: $(xy)^{16}$ — 9+7=16 is the wrong operation; exponents multiply, not add. Incorrect.</li><li>D: $(xy)^{63}$ — 9&times;7=63 confuses the index with a multiplier. Incorrect.</li></ul>"
+      "content": "<ul><li>A: $(xy)^{7/9}$ — exponent is inverted. Incorrect.</li><li>B: $(xy)^{9/7}$ — matches exactly. <strong>B</strong> is correct.</li><li>C: $(xy)^{16}$ — 9+7=16 is the wrong operation; exponents multiply, not add. Incorrect.</li><li>D: $(xy)^{63}$ — 9&times;7=63 confuses the index with a multiplier. Incorrect.</li></ul>"
     }
   ]
 }

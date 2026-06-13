@@ -13,7 +13,7 @@
     },
     {
       "title": "Eliminate the traps",
-      "content": "Choice A has the right starting value but a negative slope, so it models a wage decrease. Choices B and D make $9.25$ the yearly increase instead of the starting wage. Choice <strong>C</strong> is the only model with intercept $9.25$ and slope $0.50$."
+      "content": "<strong>$f(x) = 9.25 - 0.50x$</strong> has the right starting value but a negative slope, so it models a wage decrease. Two other options make $9.25$ the yearly increase instead of the starting wage. $f(x) = 9.25 + 0.50x$ is the only model with intercept $9.25$ and slope $0.50$."
     }
   ]
 }

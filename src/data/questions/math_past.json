@@ -372,7 +372,7 @@
     "rationale": null,
     "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_16",
     "testName": "Past SAT-based",
-    "text": "$x + 5y = 5$\n$x - 5y = 3$\nThe solution to the given system of equations is ($x, y$). What is the value of $x$?",
+    "text": "$x + 5y = 5$\n$x - 5y = 3$\nThe solution to the given system of equations is $(x, y)$. What is the value of $x$?",
     "choices": [
       {
         "id": "A",
@@ -668,7 +668,7 @@
     "rationale": null,
     "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_5",
     "testName": "Past SAT-based",
-    "text": "Which expression is equivalent to $\\frac{6v^{12}}{18v^{3}}$, where $v>0$?",
+    "text": "Which expression is equivalent to $\\frac{6v^{12}}{18v^{3}}$, where $v \\gt 0$?",
     "choices": [
       {
         "id": "A",
@@ -788,7 +788,7 @@
     "rationale": null,
     "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_10",
     "testName": "Past SAT-based",
-    "text": "$y=-2x-10$\n$y=2x+16$\nThe solution to the given system of equations is ($x$, $y$). What is the value of $y$?",
+    "text": "$y=-2x-10$\n$y=2x+16$\nThe solution to the given system of equations is $(x, y)$. What is the value of $y$?",
     "choices": [
       {
         "id": "A",
@@ -891,7 +891,7 @@
     "rationale": null,
     "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_14",
     "testName": "Past SAT-based",
-    "text": "$y < -5x - 19$\n$y > -3x - 12$\nFor which of the following tables are all the values of $x$ and their corresponding values of $y$ solutions to the given system of inequalities?",
+    "text": "$y \\lt -5x - 19$\n$y \\gt -3x - 12$\nFor which of the following tables are all the values of $x$ and their corresponding values of $y$ solutions to the given system of inequalities?",
     "choices": [
       {
         "id": "A",
@@ -1011,7 +1011,7 @@
     "rationale": null,
     "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_18",
     "testName": "Past SAT-based",
-    "text": "A line intersects two parallel lines, forming four acute angles and four obtuse angles. The measure of one of the acute angles is $(9x - 490)°$. The sum of the measures of one of the acute angles and three of the obtuse angles is $(-18x + w)°$. What is the value of $w$?",
+    "text": "A line intersects two parallel lines, forming four acute angles and four obtuse angles. The measure of one of the acute angles is $(9x - 490)^{\\circ}$. The sum of the measures of one of the acute angles and three of the obtuse angles is $(-18x + w)^{\\circ}$. What is the value of $w$?",
     "choices": [],
     "correctAnswer": "1520",
     "type": "free-response"
@@ -1024,7 +1024,7 @@
     "rationale": null,
     "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_19",
     "testName": "Past SAT-based",
-    "text": "The exponential function $f$ is defined by $f(x)= ab^x$, where $a$ and $b$ are positive constants. If $f(n-1)=f(n)+\\frac{82}{100}f(n-1)$, where $n$ is a constant, what is the value of $b$?",
+    "text": "The exponential function $f$ is defined by $f(x)=a\\cdot b^{x}$, where $a$ and $b$ are positive constants. If $f(n-1)=f(n)+\\frac{82}{100}f(n-1)$, where $n$ is a constant, what is the value of $b$?",
     "choices": [],
     "correctAnswer": "0.18,9/50",
     "type": "free-response"
@@ -1492,7 +1492,7 @@
     "rationale": null,
     "id": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_16",
     "testName": "Past SAT-based",
-    "text": "Which expression is equivalent to $\\frac{20\\pi^{2}}{\\pi^{2}-x^{2}}-\\frac{20\\pi}{x+\\pi}$, where $x > \\pi$?",
+    "text": "Which expression is equivalent to $\\frac{20\\pi^{2}}{\\pi^{2}-x^{2}}-\\frac{20\\pi}{x+\\pi}$, where $x \\gt \\pi$?",
     "choices": [
       {
         "id": "A",
@@ -1625,7 +1625,7 @@
     "rationale": null,
     "id": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_21",
     "testName": "Past SAT-based",
-    "text": "$(x - 2) - 8(y + 3) = 123$\n$(x - 2) + 8(y + 3) = 432$\nThe solution to the given system of equations is $(x, y)$. What is the value of $10(x - 2)$?",
+    "text": "$(x - 2) - 8(y + 3) = 123$\n$(x - 2) + 8(y + 3) = 432$\nThe solution to the given system of equations is $(x, y)$. What is the value of $10\\left(x - 2\\right)$?",
     "choices": [],
     "correctAnswer": "2775",
     "type": "free-response"
@@ -1728,7 +1728,7 @@
     "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_3",
     "testName": "Past SAT-based",
-    "text": "Which expression is equivalent to $\\sqrt{x^{153}}$, where $x > 0$?",
+    "text": "Which expression is equivalent to $\\sqrt{x^{153}}$, where $x \\gt 0$?",
     "choices": [
       {
         "id": "A",
@@ -2110,7 +2110,7 @@
     "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_18",
     "testName": "Past SAT-based",
-    "text": "$2\\cos(90 - a)\\degree \\cdot \\cos b\\degree + \\sin(a + y)\\degree \\cdot \\sin(90 - b)\\degree$\nIn the given expression, $a$ and $b$ are constants such that $\\sin a\\degree = 0.50$, $\\cos b\\degree = 0.99$, and $0 < b < 90$. What is the value of the given expression when $y = 0$?",
+    "text": "$2\\cos(90 - a)\\degree \\cdot \\cos b\\degree + \\sin(a + y)\\degree \\cdot \\sin(90 - b)\\degree$\nIn the given expression, $a$ and $b$ are constants such that $\\sin a\\degree = 0.50$, $\\cos b\\degree = 0.99$, and $0 \\lt b \\lt 90$. What is the value of the given expression when $y = 0$?",
     "choices": [],
     "correctAnswer": "1.485",
     "type": "free-response"
@@ -2445,7 +2445,7 @@
     "rationale": null,
     "id": "a22baf87-f61e-43f7-b868-52cf0e05d234_10",
     "testName": "Past SAT-based",
-    "text": "A rectangle has a length that is 73 times its width. The function $y=(73w)(w)$ represents this situation, where $y$ is the area, in square feet, of the rectangle and $y>0$. Which of the following is the best interpretation of $73w$ in this context?",
+    "text": "A rectangle has a length that is 73 times its width. The function $y=(73w)(w)$ represents this situation, where $y$ is the area, in square feet, of the rectangle and $y \\gt 0$. Which of the following is the best interpretation of $73w$ in this context?",
     "choices": [
       {
         "id": "A",
@@ -2561,7 +2561,7 @@
     "rationale": null,
     "id": "a22baf87-f61e-43f7-b868-52cf0e05d234_15",
     "testName": "Past SAT-based",
-    "text": "For what value of $a$ is $\\sqrt[a]{r^{42}}$ equivalent to $r^{\\frac{6}{7}}$, where $r>1$?",
+    "text": "For what value of $a$ is $\\sqrt[a]{r^{42}}$ equivalent to $r^{\\frac{6}{7}}$, where $r \\gt 1$?",
     "choices": [],
     "correctAnswer": "49",
     "type": "free-response"
@@ -2741,19 +2741,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "$4+(x+1)>17(x+2)$"
+        "text": "$4+(x+1) \\gt 17(x+2)$"
       },
       {
         "id": "B",
-        "text": "$4+(x+1) < 17(x+2)$"
+        "text": "$4+(x+1) \\lt 17(x+2)$"
       },
       {
         "id": "C",
-        "text": "$4+(x+2)>17(x+3)$"
+        "text": "$4+(x+2) \\gt 17(x+3)$"
       },
       {
         "id": "D",
-        "text": "$4+(x+2) < 17(x+3)$"
+        "text": "$4+(x+2) \\lt 17(x+3)$"
       }
     ],
     "correctAnswer": "B",
@@ -2917,7 +2917,7 @@
     "rationale": null,
     "id": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_7",
     "testName": "Past SAT-based",
-    "text": "The graphs of $y=-3x+7$ and $y=x-5$ are shown. Point P (not shown) has coordinates $(3,-5)$ and lies in the shaded region. The coordinates of P satisfy which of the following inequalities?\nI. $y < -3x+7$\nII. $y > x-5$",
+    "text": "The graphs of $y=-3x+7$ and $y=x-5$ are shown. Point P (not shown) has coordinates $(3,-5)$ and lies in the shaded region. The coordinates of P satisfy which of the following inequalities?\nI. $y \\lt -3x+7$\nII. $y \\gt x-5$",
     "choices": [
       {
         "id": "A",
@@ -3093,7 +3093,7 @@
     "rationale": null,
     "id": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_14",
     "testName": "Past SAT-based",
-    "text": "A book-of-the-month club charges \\$16 for the first book purchased during the month and an additional \\$11 for each book after the first. Which equation describes this situation, where $y$ is the total cost, in dollars, for books purchased during a month, $x$ is the number of books purchased during the month, and $x > 0$?",
+    "text": "A book-of-the-month club charges \\$16 for the first book purchased during the month and an additional \\$11 for each book after the first. Which equation describes this situation, where $y$ is the total cost, in dollars, for books purchased during a month, $x$ is the number of books purchased during the month, and $x \\gt 0$?",
     "choices": [
       {
         "id": "A",
@@ -3724,19 +3724,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "$y < -4x + 6$"
+        "text": "$y \\lt -4x + 6$"
       },
       {
         "id": "B",
-        "text": "$y < 6x - 4$"
+        "text": "$y \\lt 6x - 4$"
       },
       {
         "id": "C",
-        "text": "$y > -4x + 6$"
+        "text": "$y \\gt -4x + 6$"
       },
       {
         "id": "D",
-        "text": "$y > 6x - 4$"
+        "text": "$y \\gt 6x - 4$"
       }
     ],
     "correctAnswer": "C",
@@ -3973,7 +3973,7 @@
     "rationale": null,
     "id": "979898ba-60c7-4531-ac45-29c4db2b3361_6",
     "testName": "Past SAT-based",
-    "text": "The graphs of $y=-3x+8$ and $y=x-4$ are shown. Point P (not shown) has coordinates $(3,-3)$ and lies in the shaded region. The coordinates of P satisfy which of the following inequalities?\nI. $y < -3x+8$\nII. $y > x-4$",
+    "text": "The graphs of $y=-3x+8$ and $y=x-4$ are shown. Point P (not shown) has coordinates $(3,-3)$ and lies in the shaded region. The coordinates of P satisfy which of the following inequalities?\nI. $y \\lt -3x+8$\nII. $y \\gt x-4$",
     "choices": [
       {
         "id": "A",
@@ -4166,7 +4166,7 @@
     "rationale": null,
     "id": "979898ba-60c7-4531-ac45-29c4db2b3361_14",
     "testName": "Past SAT-based",
-    "text": "A book-of-the-month club charges \\$16 for the first book purchased during the month and an additional \\$12 for each book after the first. Which equation describes this situation, where $y$ is the total cost, in dollars, for books purchased during a month, $x$ is the number of books purchased during the month, and $x > 0$?",
+    "text": "A book-of-the-month club charges \\$16 for the first book purchased during the month and an additional \\$12 for each book after the first. Which equation describes this situation, where $y$ is the total cost, in dollars, for books purchased during a month, $x$ is the number of books purchased during the month, and $x \\gt 0$?",
     "choices": [
       {
         "id": "A",
@@ -4801,7 +4801,7 @@
     "rationale": null,
     "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_17",
     "testName": "Past SAT-based",
-    "text": "$y=500(2)^{2x}$\nThe equation gives the estimated number of online newsletter subscribers at the end of every six-month period, $x$, starting from the end of January 1997, where $0 < x < 4$. Which statement is the best interpretation of the $y$ intercept of the graph of this equation in the $xy$-plane?",
+    "text": "$y=500(2)^{2x}$\nThe equation gives the estimated number of online newsletter subscribers at the end of every six-month period, $x$, starting from the end of January 1997, where $0 \\lt x \\lt 4$. Which statement is the best interpretation of the $y$ intercept of the graph of this equation in the $xy$-plane?",
     "choices": [
       {
         "id": "A",
@@ -4848,19 +4848,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "$0 < c < 10$"
+        "text": "$0 \\lt c \\lt 10$"
       },
       {
         "id": "B",
-        "text": "$0 < c < 20$"
+        "text": "$0 \\lt c \\lt 20$"
       },
       {
         "id": "C",
-        "text": "$40 < c < 50$"
+        "text": "$40 \\lt c \\lt 50$"
       },
       {
         "id": "D",
-        "text": "$40 < c < 60$"
+        "text": "$40 \\lt c \\lt 60$"
       }
     ],
     "correctAnswer": "B",
@@ -5209,7 +5209,7 @@
     "rationale": null,
     "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_12",
     "testName": "Past SAT-based",
-    "text": "If $x > 0$ and $x$ is 33% of $y$, which expression represents $y$ in terms of $x$?",
+    "text": "If $x \\gt 0$ and $x$ is 33% of $y$, which expression represents $y$ in terms of $x$?",
     "choices": [
       {
         "id": "A",
@@ -5239,7 +5239,7 @@
     "rationale": null,
     "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_13",
     "testName": "Past SAT-based",
-    "text": "$\\sqrt[7]{x^5}$\nIn the given expression, $m$ is a constant and $x > 1$. The expression can be rewritten as $x^m$. What is the value of $m$?",
+    "text": "$\\sqrt[7]{x^5}$\nIn the given expression, $m$ is a constant and $x \\gt 1$. The expression can be rewritten as $x^m$. What is the value of $m$?",
     "choices": [],
     "correctAnswer": "5/7,0.714,.7143",
     "type": "free-response"
@@ -5252,7 +5252,7 @@
     "rationale": null,
     "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_14",
     "testName": "Past SAT-based",
-    "text": "A book-of-the-month club charges \\$13 for the first book purchased during the month and an additional \\$11 for each book after the first. Which equation describes this situation, where $y$ is the total cost, in dollars, for books purchased during a month, $x$ is the number of books purchased during the month, and $x > 0$?",
+    "text": "A book-of-the-month club charges \\$13 for the first book purchased during the month and an additional \\$11 for each book after the first. Which equation describes this situation, where $y$ is the total cost, in dollars, for books purchased during a month, $x$ is the number of books purchased during the month, and $x \\gt 0$?",
     "choices": [
       {
         "id": "A",
@@ -5415,7 +5415,7 @@
     "rationale": null,
     "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_20",
     "testName": "Past SAT-based",
-    "text": "$f(x)=66b^{x}$\nIn the given function, $b$ is a positive constant. For every increase in the value of $x$ by $1$, the value of $f(x)$ increases by $c\\%$, where $0 < c < 100$. Which expression gives the value of $c$ in terms of $b$?",
+    "text": "$f(x)=66b^{x}$\nIn the given function, $b$ is a positive constant. For every increase in the value of $x$ by $1$, the value of $f(x)$ increases by $c\\%$, where $0 \\lt c \\lt 100$. Which expression gives the value of $c$ in terms of $b$?",
     "choices": [
       {
         "id": "A",
@@ -5427,11 +5427,11 @@
       },
       {
         "id": "C",
-        "text": "$100(b+1)$"
+        "text": "$100\\left(b+1\\right)$"
       },
       {
         "id": "D",
-        "text": "$100(b-1)$"
+        "text": "$100\\left(b-1\\right)$"
       }
     ],
     "correctAnswer": "D",
@@ -5475,7 +5475,7 @@
     "rationale": null,
     "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_22",
     "testName": "Past SAT-based",
-    "text": "In the figure shown, points $A$, $B$, $C$, and $E$ lie on the circle, and $AB < BC$. Segment $AC$ is perpendicular to segment $BE$ at point $D$, and $BD= \\sqrt{346}$. The diameter of the circle is 175. If $\\frac{CD}{AD} = r$, what is the value of $r$?",
+    "text": "In the figure shown, points $A$, $B$, $C$, and $E$ lie on the circle, and $AB \\lt BC$. Segment $AC$ is perpendicular to segment $BE$ at point $D$, and $BD= \\sqrt{346}$. The diameter of the circle is 175. If $\\frac{CD}{AD} = r$, what is the value of $r$?",
     "choices": [],
     "correctAnswer": "86.5,173/2",
     "type": "free-response"
@@ -5874,19 +5874,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "$0 < x < 10$"
+        "text": "$0 \\lt x \\lt 10$"
       },
       {
         "id": "B",
-        "text": "$0 < x < 30$"
+        "text": "$0 \\lt x \\lt 30$"
       },
       {
         "id": "C",
-        "text": "$30 < x < 60$"
+        "text": "$30 \\lt x \\lt 60$"
       },
       {
         "id": "D",
-        "text": "$30 < x < 90$"
+        "text": "$30 \\lt x \\lt 90$"
       }
     ],
     "correctAnswer": "B",
@@ -6162,7 +6162,7 @@
     "rationale": null,
     "id": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_13",
     "testName": "Past SAT-based",
-    "text": "$\\sqrt[4]{x^5}$\nIn the given expression, $m$ is a constant and $x > 1$. The expression can be rewritten as $x^m$. What is the value of $m$?",
+    "text": "$\\sqrt[4]{x^5}$\nIn the given expression, $m$ is a constant and $x \\gt 1$. The expression can be rewritten as $x^m$. What is the value of $m$?",
     "choices": [],
     "correctAnswer": "5/4,1.25",
     "type": "free-response"
@@ -6175,7 +6175,7 @@
     "rationale": null,
     "id": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_14",
     "testName": "Past SAT-based",
-    "text": "A book-of-the-month club charges \\$16 for the first book purchased during the month and an additional \\$14 for each book after the first. Which equation describes this situation, where $y$ is the total cost, in dollars, for books purchased during a month, $x$ is the number of books purchased during the month, and $x > 0$?",
+    "text": "A book-of-the-month club charges \\$16 for the first book purchased during the month and an additional \\$14 for each book after the first. Which equation describes this situation, where $y$ is the total cost, in dollars, for books purchased during a month, $x$ is the number of books purchased during the month, and $x \\gt 0$?",
     "choices": [
       {
         "id": "A",
@@ -6278,7 +6278,7 @@
     "rationale": null,
     "id": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_20",
     "testName": "Past SAT-based",
-    "text": "$f(x)=15(b)^{x}$\nIn the given function, $b$ is a positive constant. For every increase in the value of $x$ by 1, the value of $f(x)$ increases by $e\\%$, where $0 < e < 100$. Which expression gives the value of $e$ in terms of $b$?",
+    "text": "$f(x)=15(b)^{x}$\nIn the given function, $b$ is a positive constant. For every increase in the value of $x$ by 1, the value of $f(x)$ increases by $e\\%$, where $0 \\lt e \\lt 100$. Which expression gives the value of $e$ in terms of $b$?",
     "choices": [
       {
         "id": "A",
@@ -6290,11 +6290,11 @@
       },
       {
         "id": "C",
-        "text": "$100(b+1)$"
+        "text": "$100\\left(b+1\\right)$"
       },
       {
         "id": "D",
-        "text": "$100(b-1)$"
+        "text": "$100\\left(b-1\\right)$"
       }
     ],
     "correctAnswer": "D",
@@ -6338,7 +6338,7 @@
     "rationale": null,
     "id": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_22",
     "testName": "Past SAT-based",
-    "text": "In the figure shown, points $A$, $B$, $C$, and $E$ lie on the circle, and $AB < BC$. Segment $AC$ is perpendicular to segment $BE$ at point $D$, and $BD = \\sqrt{286}$. The diameter of the circle is 145. If $\\frac{CD}{AD}=r$, what is the value of $r$?",
+    "text": "In the figure shown, points $A$, $B$, $C$, and $E$ lie on the circle, and $AB \\lt BC$. Segment $AC$ is perpendicular to segment $BE$ at point $D$, and $BD = \\sqrt{286}$. The diameter of the circle is 145. If $\\frac{CD}{AD}=r$, what is the value of $r$?",
     "choices": [],
     "correctAnswer": "71.5,143/2",
     "type": "free-response"
@@ -7029,7 +7029,7 @@
     "rationale": null,
     "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_6",
     "testName": "Past SAT-based",
-    "text": "Which expression is equivalent to $2(x-\\frac{3}{2})(x+14)$?",
+    "text": "Which expression is equivalent to $2\\left(x-\\frac{3}{2})(x+14\\right)$?",
     "choices": [
       {
         "id": "A",
@@ -7119,23 +7119,23 @@
     "rationale": null,
     "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_9",
     "testName": "Past SAT-based",
-    "text": "$y < 42 - 7x$ and $\\frac{y}{7} > 10$. Which inequality represents the $x$ values for all solutions $(x, y)$ that satisfy the given system of inequalities in the $xy$-plane?",
+    "text": "$y \\lt 42 - 7x$ and $\\frac{y}{7} \\gt 10$. Which inequality represents the $x$ values for all solutions $(x, y)$ that satisfy the given system of inequalities in the $xy$-plane?",
     "choices": [
       {
         "id": "A",
-        "text": "$x > 6$"
+        "text": "$x \\gt 6$"
       },
       {
         "id": "B",
-        "text": "$x < 6$"
+        "text": "$x \\lt 6$"
       },
       {
         "id": "C",
-        "text": "$x > -4$"
+        "text": "$x \\gt -4$"
       },
       {
         "id": "D",
-        "text": "$x < -4$"
+        "text": "$x \\lt -4$"
       }
     ],
     "correctAnswer": "D",
@@ -7256,19 +7256,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "$v = 0.01 t + 24$"
+        "text": "$v = 0.01t + 24$"
       },
       {
         "id": "B",
-        "text": "$v = 0.03 t + 24$"
+        "text": "$v = 0.03t + 24$"
       },
       {
         "id": "C",
-        "text": "$v = 0.09 t + 24$"
+        "text": "$v = 0.09t + 24$"
       },
       {
         "id": "D",
-        "text": "$v = 3 t$"
+        "text": "$v = 3t$"
       }
     ],
     "correctAnswer": "A",
@@ -7359,19 +7359,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "$100(Q^{\\frac{3}{2}}+1)$"
+        "text": "$100\\left(Q^{\\frac{3}{2}}+1\\right)$"
       },
       {
         "id": "B",
-        "text": "$100(Q^{30}+1)$"
+        "text": "$100\\left(Q^{30}+1\\right)$"
       },
       {
         "id": "C",
-        "text": "$100(Q^{\\frac{1}{2}}-1)$"
+        "text": "$100\\left(Q^{\\frac{1}{2}}-1\\right)$"
       },
       {
         "id": "D",
-        "text": "$100(Q^{30}-1)$"
+        "text": "$100\\left(Q^{30}-1\\right)$"
       }
     ],
     "correctAnswer": "C",
@@ -7411,7 +7411,7 @@
     "rationale": null,
     "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_21",
     "testName": "Past SAT-based",
-    "text": "$13(x - n) = 13y + 13n$\nOne of the equations in a system of two linear equations is given, where $n$ is a positive constant. The system has no solution. Which equation could be the second equation in this system?",
+    "text": "${13}(x - n) = 13y + 13n$\nOne of the equations in a system of two linear equations is given, where $n$ is a positive constant. The system has no solution. Which equation could be the second equation in this system?",
     "choices": [
       {
         "id": "A",
@@ -7441,7 +7441,7 @@
     "rationale": null,
     "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_22",
     "testName": "Past SAT-based",
-    "text": "$(x-k)^{2}=(k-4a)(x-k)$\nIn the given equation, $a$ and $k$ are constants, where $k > 4a$. The sum of the solutions to the equation is $3k + 35$. What is the value of $a$?",
+    "text": "$(x-k)^{2}=(k-4a)(x-k)$\nIn the given equation, $a$ and $k$ are constants, where $k \\gt 4a$. The sum of the solutions to the equation is $3k + 35$. What is the value of $a$?",
     "choices": [],
     "correctAnswer": "-35/4,-8.75",
     "type": "free-response"
@@ -7484,7 +7484,7 @@
     "rationale": null,
     "id": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_2",
     "testName": "Past SAT-based",
-    "text": "Which expression is equivalent to $13(x^{2}-7)$?",
+    "text": "Which expression is equivalent to $13\\left(x^{2}-7\\right)$?",
     "choices": [
       {
         "id": "A",
@@ -7574,7 +7574,7 @@
     "rationale": null,
     "id": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_5",
     "testName": "Past SAT-based",
-    "text": "For certain air temperatures, the table gives wind chill temperatures for two different wind speeds.\nAccording to the table, what is the wind chill temperature, in degrees Fahrenheit ($\\text{°F}$), when the air temperature is 26$\\text{°F}$ and the wind speed is 15 miles per hour (mph)? (Disregard the degree symbol when entering your answer)",
+    "text": "For certain air temperatures, the table gives wind chill temperatures for two different wind speeds.\nAccording to the table, what is the wind chill temperature, in degrees Fahrenheit (${}^{\\circ}\\text{F}$), when the air temperature is $26^{\\circ}\\text{F}$ and the wind speed is 15 miles per hour (mph)? (Disregard the degree symbol when entering your answer)",
     "choices": [],
     "correctAnswer": "14",
     "type": "free-response"
@@ -8364,7 +8364,7 @@
     "rationale": null,
     "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_17",
     "testName": "Past SAT-based",
-    "text": "If $121x^2 = -110x + 56$, what is the value of $11x + 5$, where $11x + 5 > 0$?",
+    "text": "If $121x^2 = -110x + 56$, what is the value of $11x + 5$, where $11x + 5 \\gt 0$?",
     "choices": [],
     "correctAnswer": "9",
     "type": "free-response"
@@ -8439,7 +8439,7 @@
     "testName": "Past SAT-based",
     "text": "If $n$ and $k$ are numbers greater than 1 and $4n^5 \\cdot 3$ is equivalent to $3k^2$, for what value of $a$ is $n = 2a + 1$ equal to $k$?",
     "choices": [],
-    "correctAnswer": "7/16",
+    "correctAnswer": "No solution",
     "type": "free-response"
   },
   {
@@ -8540,19 +8540,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "$m > 510$"
+        "text": "$m \\gt 510$"
       },
       {
         "id": "B",
-        "text": "$m < 0$"
+        "text": "$m \\lt 0$"
       },
       {
         "id": "C",
-        "text": "$-510 < m < 0$"
+        "text": "$-510 \\lt m \\lt 0$"
       },
       {
         "id": "D",
-        "text": "$0 < m < 510$"
+        "text": "$0 \\lt m \\lt 510$"
       }
     ],
     "correctAnswer": "D",
@@ -9210,7 +9210,7 @@
     "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_11",
     "testName": "Past SAT-based",
-    "text": "The shaded region shown represents the solutions to the inequality $ry < 128$, where $r$ is a constant. What is the value of $r$?",
+    "text": "The shaded region shown represents the solutions to the inequality $ry \\lt 128$, where $r$ is a constant. What is the value of $r$?",
     "choices": [
       {
         "id": "A",
@@ -9240,7 +9240,7 @@
     "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_12",
     "testName": "Past SAT-based",
-    "text": "How many solutions does the equation $4(16x - 20) = -16(5 - 4x)$ have?",
+    "text": "How many solutions does the equation $4\\left(16x - 20) = -16(5 - 4x\\right)$ have?",
     "choices": [
       {
         "id": "A",
@@ -9300,7 +9300,7 @@
     "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_14",
     "testName": "Past SAT-based",
-    "text": "A beekeeper's initial observation of the population of a certain bee colony was 1,100 bees. The beekeeper set a goal to increase the population to 2,600 bees. The beekeeper uses a model that predicts the population of this bee colony begins at 1,100 and increases by 120 bees per week in the first two weeks after the initial observation, and then increases by 180 bees per week until the beekeeper's goal is reached. According to this model, at the end of week $w$ after the initial observation, where $w > 2$, which of the following functions gives the predicted number of bees still needed to reach the beekeeper's goal?",
+    "text": "A beekeeper's initial observation of the population of a certain bee colony was 1,100 bees. The beekeeper set a goal to increase the population to 2,600 bees. The beekeeper uses a model that predicts the population of this bee colony begins at 1,100 and increases by 120 bees per week in the first two weeks after the initial observation, and then increases by 180 bees per week until the beekeeper's goal is reached. According to this model, at the end of week $w$ after the initial observation, where $w \\gt 2$, which of the following functions gives the predicted number of bees still needed to reach the beekeeper's goal?",
     "choices": [
       {
         "id": "A",
@@ -9420,7 +9420,7 @@
     "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_18",
     "testName": "Past SAT-based",
-    "text": "The exponential function $f$ is defined by $f(x) = ab^x$, where $a$ and $b$ are positive constants. If $f(s) = t$ and $f(s+1) = t - 0.87t$, where $s$ and $t$ are constants, what is the value of $b$?",
+    "text": "The exponential function $f$ is defined by $f(x) = a\\cdot b^x$, where $a$ and $b$ are positive constants. If $f(s) = t$ and $f(s+1) = t - 0.87t$, where $s$ and $t$ are constants, what is the value of $b$?",
     "choices": [
       {
         "id": "A",
@@ -9613,19 +9613,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "$m > 620$"
+        "text": "$m \\gt 620$"
       },
       {
         "id": "B",
-        "text": "$m < 0$"
+        "text": "$m \\lt 0$"
       },
       {
         "id": "C",
-        "text": "$-620 < m < 0$"
+        "text": "$-620 \\lt m \\lt 0$"
       },
       {
         "id": "D",
-        "text": "$0 < m < 620$"
+        "text": "$0 \\lt m \\lt 620$"
       }
     ],
     "correctAnswer": "D",
@@ -10064,7 +10064,7 @@
     "rationale": null,
     "id": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_3",
     "testName": "Past SAT-based",
-    "text": "Each day Daniela takes a 30-minute morning walk. The equation $s = 70m + 285$ models the total number of steps, $s$, Daniela has taken one morning $m$ minutes after the start of her walk, where $0 < m < 30$. Which is the best interpretation of 285 in this context?",
+    "text": "Each day Daniela takes a 30-minute morning walk. The equation $s = 70m + 285$ models the total number of steps, $s$, Daniela has taken one morning $m$ minutes after the start of her walk, where $0 \\lt m \\lt 30$. Which is the best interpretation of 285 in this context?",
     "choices": [
       {
         "id": "A",
@@ -10124,7 +10124,7 @@
     "rationale": null,
     "id": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_5",
     "testName": "Past SAT-based",
-    "text": "$x + 6y = -14$\n$5x + 30y = 0$\n$2x + 12y = 39$\nThe given equations are graphed in the $xy$-plane. How many solutions ($x, y$) does the system of three equations have?",
+    "text": "$x + 6y = -14$\n$5x + 30y = 0$\n$2x + 12y = 39$\nThe given equations are graphed in the $xy$-plane. How many solutions $(x, y)$ does the system of three equations have?",
     "choices": [
       {
         "id": "A",
@@ -10240,7 +10240,7 @@
     "rationale": null,
     "id": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_11",
     "testName": "Past SAT-based",
-    "text": "$36(x-1)=4(-9+9x)$\nHow many solutions does the given equation have?",
+    "text": "$36\\left(x-1)=4(-9+9x\\right)$\nHow many solutions does the given equation have?",
     "choices": [
       {
         "id": "A",
@@ -10270,7 +10270,7 @@
     "rationale": null,
     "id": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_12",
     "testName": "Past SAT-based",
-    "text": "$10yz - 9xz = 10xy - z$\n\nThe given equation relates the real numbers $x$, $y$, and $z$, where $x < 0$ and $y > 0$. Which equation correctly expresses $z$ in terms of $x$ and $y$?",
+    "text": "$10yz - 9xz = 10xy - z$\n\nThe given equation relates the real numbers $x$, $y$, and $z$, where $x \\lt 0$ and $y \\gt 0$. Which equation correctly expresses $z$ in terms of $x$ and $y$?",
     "choices": [
       {
         "id": "A",
@@ -10368,7 +10368,7 @@
       },
       {
         "id": "B",
-        "text": "$b>\\sqrt{352c}$"
+        "text": "$b \\gt \\sqrt{352c}$"
       },
       {
         "id": "C",
@@ -10376,7 +10376,7 @@
       },
       {
         "id": "D",
-        "text": "$b<\\sqrt{352c}$"
+        "text": "$b \\lt \\sqrt{352c}$"
       }
     ],
     "correctAnswer": "B",
@@ -10407,19 +10407,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "$100(Q^{\\frac{1}{2}}+1)$"
+        "text": "$100\\left(Q^{\\frac{1}{2}}+1\\right)$"
       },
       {
         "id": "B",
-        "text": "$100(Q^{30}+1)$"
+        "text": "$100\\left(Q^{30}+1\\right)$"
       },
       {
         "id": "C",
-        "text": "$100(Q^{\\frac{1}{2}}-1)$"
+        "text": "$100\\left(Q^{\\frac{1}{2}}-1\\right)$"
       },
       {
         "id": "D",
-        "text": "$100(Q^{30}-1)$"
+        "text": "$100\\left(Q^{30}-1\\right)$"
       }
     ],
     "correctAnswer": "C",
@@ -10489,7 +10489,7 @@
     "rationale": null,
     "id": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_21",
     "testName": "Past SAT-based",
-    "text": "$rx^2 - 28sx + 7r=0$\nIn the given equation, $r$ is a positive constant, and $s$ is a negative constant. The equation has two solutions. If $\\frac{r}{s} > k$, what is the minimum value of $k$?",
+    "text": "$rx^2 - 28sx + 7r=0$\nIn the given equation, $r$ is a positive constant, and $s$ is a negative constant. The equation has two solutions. If $\\frac{r}{s} \\gt k$, what is the minimum value of $k$?",
     "choices": [],
     "correctAnswer": "-5.29,-2*sqrt(7)",
     "type": "free-response"
@@ -10712,7 +10712,7 @@
       },
       {
         "id": "B",
-        "text": "$3(x + y) = 28$"
+        "text": "${3}(x + y) = 28$"
       },
       {
         "id": "C",
@@ -10794,7 +10794,7 @@
     "rationale": null,
     "id": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_13",
     "testName": "Past SAT-based",
-    "text": "If $6(8 - 2x) + 3 = 5(8 - 2x) + 19$, what is the value of $8 - 2x$?",
+    "text": "If ${6}(8 - 2x) + 3 = 5(8 - 2x) + 19$, what is the value of $8 - 2x$?",
     "choices": [
       {
         "id": "A",
@@ -11459,19 +11459,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "$x < 21$"
+        "text": "$x \\lt 21$"
       },
       {
         "id": "B",
-        "text": "$x > 21$"
+        "text": "$x \\gt 21$"
       },
       {
         "id": "C",
-        "text": "$5 < x < 21$"
+        "text": "$5 \\lt x \\lt 21$"
       },
       {
         "id": "D",
-        "text": "$x < 5$ or $x > 21$"
+        "text": "$x \\lt 5$ or $x \\gt 21$"
       }
     ],
     "correctAnswer": "C",
@@ -11764,7 +11764,7 @@
     "rationale": null,
     "id": "6b1e987d-70b0-4072-9d03-3ebd56371518_9",
     "testName": "Past SAT-based",
-    "text": "$\\frac{27(k+6)}{3(k+6)}$\nThe given expression is equivalent to $c$, where $c$ is a constant and $k > -6$. What is the value of $c$?",
+    "text": "$\\frac{27(k+6)}{3(k+6)}$\nThe given expression is equivalent to $c$, where $c$ is a constant and $k \\gt -6$. What is the value of $c$?",
     "choices": [],
     "correctAnswer": "9",
     "type": "free-response"
@@ -12219,19 +12219,19 @@
     "rationale": null,
     "id": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_5",
     "testName": "Past SAT-based",
-    "text": "In the $xy$-plane, which of the following does NOT contain any points that are part of the solution set to $3x - 7y > 21$?",
+    "text": "In the $xy$-plane, which of the following does NOT contain any points that are part of the solution set to $3x - 7y \\gt 21$?",
     "choices": [
       {
         "id": "A",
-        "text": "The region where $x < 0$ and $y > 0$"
+        "text": "The region where $x \\lt 0$ and $y \\gt 0$"
       },
       {
         "id": "B",
-        "text": "The region where $x > 0$ and $y < 0$"
+        "text": "The region where $x \\gt 0$ and $y \\lt 0$"
       },
       {
         "id": "C",
-        "text": "The region where $x > 0$ and $y > 0$"
+        "text": "The region where $x \\gt 0$ and $y \\gt 0$"
       },
       {
         "id": "D",
@@ -12408,7 +12408,7 @@
     "rationale": null,
     "id": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_13",
     "testName": "Past SAT-based",
-    "text": "A beaker containing a liquid is placed on a table. The function $g(t) = 295 + (361 - 295)(2.72)^{-0.104 t}$ gives the approximate temperature, in kelvins, of the liquid $t$ minutes after the beaker was placed on the table. According to this function, what was the approximate temperature, in kelvins, of the liquid when the beaker was placed on the table?",
+    "text": "A beaker containing a liquid is placed on a table. The function $g(t) = 295 + (361 - 295)(2.72)^{-0.104t}$ gives the approximate temperature, in kelvins, of the liquid $t$ minutes after the beaker was placed on the table. According to this function, what was the approximate temperature, in kelvins, of the liquid when the beaker was placed on the table?",
     "choices": [],
     "correctAnswer": "361",
     "type": "free-response"
@@ -12421,7 +12421,7 @@
     "rationale": null,
     "id": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_15",
     "testName": "Past SAT-based",
-    "text": "$y=9\\left(\\frac{a}{6}\\right)^{x+c} - b$\nHow many times does the graph of the given equation in the $xy$-plane cross the $x$-axis, where $a$, $b$, and $c$ are positive constants such that $a > 6$ and $b > c$?",
+    "text": "$y=9\\left(\\frac{a}{6}\\right)^{x+c} - b$\nHow many times does the graph of the given equation in the $xy$-plane cross the $x$-axis, where $a$, $b$, and $c$ are positive constants such that $a \\gt 6$ and $b \\gt c$?",
     "choices": [
       {
         "id": "A",
@@ -12652,7 +12652,7 @@
       },
       {
         "id": "B",
-        "text": "$14x^2 y + 56xy$"
+        "text": "$14x^2y + 56xy$"
       },
       {
         "id": "C",
@@ -12660,7 +12660,7 @@
       },
       {
         "id": "D",
-        "text": "$14x^3 y + 56xy^2$"
+        "text": "$14x^3y + 56xy^2$"
       }
     ],
     "correctAnswer": "D",
@@ -13425,7 +13425,7 @@
     "rationale": null,
     "id": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_10",
     "testName": "Past SAT-based",
-    "text": "Which expression is a factor of $x^9 + x^8 y + x y^4 + y^5$?",
+    "text": "Which expression is a factor of $x^9 + x^8y + x y^4 + y^5$?",
     "choices": [
       {
         "id": "A",
@@ -13532,19 +13532,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "$p = 135 - 670 t$"
+        "text": "$p = 135 - 670t$"
       },
       {
         "id": "B",
-        "text": "$p = 670 - 135 t$"
+        "text": "$p = 670 - 135t$"
       },
       {
         "id": "C",
-        "text": "$t = 135 - 670 p$"
+        "text": "$t = 135 - 670p$"
       },
       {
         "id": "D",
-        "text": "$t = 670 - 135 p$"
+        "text": "$t = 670 - 135p$"
       }
     ],
     "correctAnswer": "B",
@@ -13631,7 +13631,7 @@
     "rationale": null,
     "id": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_19",
     "testName": "Past SAT-based",
-    "text": "$b^2 + 5c = 3d$\nThe given equation relates the real numbers $b$, $c$, and $d$, where $d > \\frac{5}{3}c$. Which equation correctly expresses $b$ in terms of $c$ and $d$?",
+    "text": "$b^2 + 5c = 3d$\nThe given equation relates the real numbers $b$, $c$, and $d$, where $d \\gt \\frac{5}{3}c$. Which equation correctly expresses $b$ in terms of $c$ and $d$?",
     "choices": [
       {
         "id": "A",
@@ -14009,7 +14009,7 @@
     "rationale": null,
     "id": "23a951fb-833f-4b27-9978-4eb054f855e2_14",
     "testName": "Past SAT-based",
-    "text": "Which expression is equivalent to $(39y)^{\\frac{1}{2}}$, where $y > 1$?",
+    "text": "Which expression is equivalent to $(39y)^{\\frac{1}{2}}$, where $y \\gt 1$?",
     "choices": [
       {
         "id": "A",
@@ -14039,7 +14039,7 @@
     "rationale": null,
     "id": "23a951fb-833f-4b27-9978-4eb054f855e2_15",
     "testName": "Past SAT-based",
-    "text": "In triangle QRS shown, $QR < RS$. Which expression represents the length of $\\overline{QS}$?",
+    "text": "In triangle QRS shown, $QR \\lt RS$. Which expression represents the length of $\\overline{QS}$?",
     "choices": [
       {
         "id": "A",
@@ -14236,7 +14236,7 @@
     "choices": [
       {
         "id": "A",
-        "text": "$\\cos L > \\sin K$"
+        "text": "$\\cos L \\gt \\sin K$"
       },
       {
         "id": "B",
@@ -14244,7 +14244,7 @@
       },
       {
         "id": "C",
-        "text": "$\\cos L < \\sin K$"
+        "text": "$\\cos L \\lt \\sin K$"
       },
       {
         "id": "D",
@@ -14502,19 +14502,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "$f(24) < 0$"
+        "text": "$f(24) \\lt 0$"
       },
       {
         "id": "B",
-        "text": "$f(3) < 0$"
+        "text": "$f(3) \\lt 0$"
       },
       {
         "id": "C",
-        "text": "$f(3) > 0$"
+        "text": "$f(3) \\gt 0$"
       },
       {
         "id": "D",
-        "text": "$f(0) < 24$"
+        "text": "$f(0) \\lt 24$"
       }
     ],
     "correctAnswer": "A",
@@ -15005,7 +15005,7 @@
     "rationale": null,
     "id": "6197d48e-7c76-4333-af39-0b9aa39e924c_12",
     "testName": "Past SAT-based",
-    "text": "A company has a customer loyalty program. In January 2018, there were 800 customers enrolled in the loyalty program. For the next 24 months after January 2018, the total number of customers enrolled in the loyalty program each month was 5% greater than the total number enrolled the previous month. Which equation gives the total number of customers, c, enrolled in the company's loyalty program m months after January 2018, where $m < 24$?",
+    "text": "A company has a customer loyalty program. In January 2018, there were 800 customers enrolled in the loyalty program. For the next 24 months after January 2018, the total number of customers enrolled in the loyalty program each month was 5% greater than the total number enrolled the previous month. Which equation gives the total number of customers, c, enrolled in the company's loyalty program m months after January 2018, where $m \\lt 24$?",
     "choices": [
       {
         "id": "A",
@@ -15048,7 +15048,7 @@
     "rationale": null,
     "id": "6197d48e-7c76-4333-af39-0b9aa39e924c_14",
     "testName": "Past SAT-based",
-    "text": "For $x > 0$, the function $f$ is defined as follows:\n$f(x)=293\\%$ of $x$\nWhich of the following could describe this function?",
+    "text": "For $x \\gt 0$, the function $f$ is defined as follows:\n$f(x)=293\\%$ of $x$\nWhich of the following could describe this function?",
     "choices": [
       {
         "id": "A",
@@ -15704,7 +15704,7 @@
     "rationale": null,
     "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_18",
     "testName": "Past SAT-based",
-    "text": "For what value of $x$ is the expression $\\sqrt[15]{(272n)^8}$ equivalent to $(272n)^{30x}$, where $n > 1$?",
+    "text": "For what value of $x$ is the expression $\\sqrt[15]{(272n)^8}$ equivalent to $(272n)^{30x}$, where $n \\gt 1$?",
     "choices": [],
     "correctAnswer": "4/225",
     "type": "free-response"
@@ -16644,19 +16644,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "$x < 4$"
+        "text": "$x \\lt 4$"
       },
       {
         "id": "B",
-        "text": "$x > 14$"
+        "text": "$x \\gt 14$"
       },
       {
         "id": "C",
-        "text": "$4 < x < 14$"
+        "text": "$4 \\lt x \\lt 14$"
       },
       {
         "id": "D",
-        "text": "$x < 4$ or $x > 14$"
+        "text": "$x \\lt 4$ or $x \\gt 14$"
       }
     ],
     "correctAnswer": "C",
@@ -17129,7 +17129,7 @@
     "rationale": null,
     "id": "a240b08f-646d-4227-8b1f-fadf4c312b08_3",
     "testName": "Past SAT-based",
-    "text": "If $4(2x+11)-2(2x-5)=-9+13x$, what is the value of $12x$?",
+    "text": "If ${4}(2x+11)-2(2x-5)=-9+13x$, what is the value of $12x$?",
     "choices": [
       {
         "id": "A",
@@ -17301,7 +17301,7 @@
     "rationale": null,
     "id": "a240b08f-646d-4227-8b1f-fadf4c312b08_15",
     "testName": "Past SAT-based",
-    "text": "$y=9(\\frac{a}{6})^{x+c}-b$\nHow many times does the graph of the given equation in the $xy$-plane cross the $x$-axis, where $a$, $b$, and $c$ are positive constants such that $a>6$ and $b>c$?",
+    "text": "$y=9(\\frac{a}{6})^{x+c}-b$\nHow many times does the graph of the given equation in the $xy$-plane cross the $x$-axis, where $a$, $b$, and $c$ are positive constants such that $a \\gt 6$ and $b \\gt c$?",
     "choices": [
       {
         "id": "A",
@@ -17524,7 +17524,7 @@
     "rationale": null,
     "id": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_2",
     "testName": "Past SAT-based",
-    "text": "Which expression is equivalent to $9(x^{2}+6)$?",
+    "text": "Which expression is equivalent to $9\\left(x^{2}+6\\right)$?",
     "choices": [
       {
         "id": "A",
@@ -17700,7 +17700,7 @@
     "rationale": null,
     "id": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_10",
     "testName": "Past SAT-based",
-    "text": "Which expression is equivalent to $7x^{6}-14x^{2}$, where $x>0$?",
+    "text": "Which expression is equivalent to $7x^{6}-14x^{2}$, where $x \\gt 0$?",
     "choices": [
       {
         "id": "A",
@@ -18009,7 +18009,7 @@
     "rationale": null,
     "id": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_4",
     "testName": "Past SAT-based",
-    "text": "A rectangle has a length that is 31 times its width. The function $y=(31w)(w)$ represents this situation, where $y$ is the area, in square feet, of the rectangle and $y > 0$. Which of the following is the best interpretation of $31w$ in this context?",
+    "text": "A rectangle has a length that is 31 times its width. The function $y=(31w)(w)$ represents this situation, where $y$ is the area, in square feet, of the rectangle and $y \\gt 0$. Which of the following is the best interpretation of $31w$ in this context?",
     "choices": [
       {
         "id": "A",
@@ -18069,7 +18069,7 @@
     "rationale": null,
     "id": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_6",
     "testName": "Past SAT-based",
-    "text": "For $x>0$, the function $f$ is defined as follows:\n$f(x)=293\\% \\text{ of } x$\nWhich of the following could describe this function?",
+    "text": "For $x \\gt 0$, the function $f$ is defined as follows:\n$f(x)=293\\% \\text{ of } x$\nWhich of the following could describe this function?",
     "choices": [
       {
         "id": "A",
@@ -18339,19 +18339,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "$x < 3$"
+        "text": "$x \\lt 3$"
       },
       {
         "id": "B",
-        "text": "$x > 17$"
+        "text": "$x \\gt 17$"
       },
       {
         "id": "C",
-        "text": "$3 < x < 17$"
+        "text": "$3 \\lt x \\lt 17$"
       },
       {
         "id": "D",
-        "text": "$x < 3$ or $x > 17$"
+        "text": "$x \\lt 3$ or $x \\gt 17$"
       }
     ],
     "correctAnswer": "C",
@@ -18451,7 +18451,7 @@
     "rationale": null,
     "id": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_21",
     "testName": "Past SAT-based",
-    "text": "The function $f$ is defined by $f(x)=ab^{\\frac{x}{n}}$, where $a$, $b$, and $n$ are constants, and $b$ and $n$ are integers. If $f(3)=6$ and $f(5)=150$, what is the value of $f(6)$?",
+    "text": "The function $f$ is defined by $f(x)=a\\cdot b^{\\frac{x}{n}}$, where $a$, $b$, and $n$ are constants, and $b$ and $n$ are integers. If $f(3)=6$ and $f(5)=150$, what is the value of $f(6)$?",
     "choices": [],
     "correctAnswer": "750",
     "type": "free-response"
@@ -18623,7 +18623,7 @@
     "rationale": null,
     "id": "a16355d1-6cca-4c4e-8e0a-f405892830f1_11",
     "testName": "Past SAT-based",
-    "text": "A rectangle has a length that is 72 times its width. The function $y=(72w)(w)$ represents this situation, where $y$ is the area, in square feet, of the rectangle and $y > 0$. Which of the following is the best interpretation of $72w$ in this context?",
+    "text": "A rectangle has a length that is 72 times its width. The function $y=(72w)(w)$ represents this situation, where $y$ is the area, in square feet, of the rectangle and $y \\gt 0$. Which of the following is the best interpretation of $72w$ in this context?",
     "choices": [
       {
         "id": "A",
@@ -18842,7 +18842,7 @@
     "rationale": null,
     "id": "a16355d1-6cca-4c4e-8e0a-f405892830f1_22",
     "testName": "Past SAT-based",
-    "text": "In the $xy$-plane, line $k$ and line $l$ are perpendicular and intersect at the point $(2, 8)$. If line $k$ is defined by the equation $y = mx + b$, where $m$ and $b$ are constants and $m > 1$, which of the following points lies on line $l$?",
+    "text": "In the $xy$-plane, line $k$ and line $l$ are perpendicular and intersect at the point $(2, 8)$. If line $k$ is defined by the equation $y = mx + b$, where $m$ and $b$ are constants and $m \\gt 1$, which of the following points lies on line $l$?",
     "choices": [
       {
         "id": "A",
@@ -19185,7 +19185,7 @@
     "rationale": null,
     "id": "b310cd51-4e49-46d2-99c8-70a10c0d83f9_14",
     "testName": "Past SAT-based",
-    "text": "$p^{\\frac{4}{7}} = t^{\\frac{5}{6}}$\nIn the given equation, $p > 1$ and $t > 1$. If $t = p^{2n - 1}$, where $n$ is a constant, what is the value of $n$?",
+    "text": "$p^{\\frac{4}{7}} = t^{\\frac{5}{6}}$\nIn the given equation, $p \\gt 1$ and $t \\gt 1$. If $t = p^{2n - 1}$, where $n$ is a constant, what is the value of $n$?",
     "choices": [],
     "correctAnswer": "59/70",
     "type": "free-response"
@@ -19228,7 +19228,7 @@
     "rationale": null,
     "id": "b310cd51-4e49-46d2-99c8-70a10c0d83f9_16",
     "testName": "Past SAT-based",
-    "text": "Which expression is equivalent to $15(x+10)$?",
+    "text": "Which expression is equivalent to $15\\left(x+10\\right)$?",
     "choices": [
       {
         "id": "A",
@@ -19301,7 +19301,7 @@
     "rationale": null,
     "id": "b310cd51-4e49-46d2-99c8-70a10c0d83f9_21",
     "testName": "Past SAT-based",
-    "text": "The function $f$ is defined by $f(x)=ab^{\\frac{x}{n}}$, where $a$, $b$, and $n$ are constants, and $b$ and $n$ are integers. If $f(2)=6$ and $f(5)=162$, what is the value of $f(7)$?",
+    "text": "The function $f$ is defined by $f(x)=a\\cdot b^{\\frac{x}{n}}$, where $a$, $b$, and $n$ are constants, and $b$ and $n$ are integers. If $f(2)=6$ and $f(5)=162$, what is the value of $f(7)$?",
     "choices": [],
     "correctAnswer": "1458",
     "type": "free-response"
@@ -19593,7 +19593,7 @@
     "rationale": null,
     "id": "ba06b998-d854-4b29-830c-15d877280c75_13",
     "testName": "Past SAT-based",
-    "text": "Which expression is equivalent to $(133y)^{\\frac{1}{2}}$, where $y > 1$?",
+    "text": "Which expression is equivalent to $(133y)^{\\frac{1}{2}}$, where $y \\gt 1$?",
     "choices": [
       {
         "id": "A",
@@ -19679,7 +19679,7 @@
     "rationale": null,
     "id": "ba06b998-d854-4b29-830c-15d877280c75_18",
     "testName": "Past SAT-based",
-    "text": "The graph of $ y = f(x) $ is shown, where $f(x)=ab^x+c$, and $ a $, $ b $, and $ c $ are constants. For how many values of $ x $ does $ f(x) = 0 $?",
+    "text": "The graph of $ y = f(x) $ is shown, where $f(x)=a\\cdot b^x+c$, and $ a $, $ b $, and $ c $ are constants. For how many values of $ x $ does $ f(x) = 0 $?",
     "choices": [
       {
         "id": "A",
@@ -19872,7 +19872,7 @@
     "rationale": null,
     "id": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_3",
     "testName": "Past SAT-based",
-    "text": "A rectangle has a length that is 92 times its width. The function $y = (92w)(w)$ represents this situation, where $y$ is the area, in square feet, of the rectangle and $y > 0$. Which of the following is the best interpretation of $92w$ in this context?",
+    "text": "A rectangle has a length that is 92 times its width. The function $y = (92w)(w)$ represents this situation, where $y$ is the area, in square feet, of the rectangle and $y \\gt 0$. Which of the following is the best interpretation of $92w$ in this context?",
     "choices": [
       {
         "id": "A",
@@ -20344,7 +20344,7 @@
     "rationale": null,
     "id": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_21",
     "testName": "Past SAT-based",
-    "text": "The function $f$ is defined by $f(x) = \\frac{|x|}{a} - 14$, where $a < 0$. What is the product of $f(15a)$ and $f(8a)$?",
+    "text": "The function $f$ is defined by $f(x) = \\frac{|x|}{a} - 14$, where $a \\lt 0$. What is the product of $f(15a)$ and $f(8a)$?",
     "choices": [],
     "correctAnswer": "638",
     "type": "free-response"
@@ -20357,7 +20357,7 @@
     "rationale": null,
     "id": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_22",
     "testName": "Past SAT-based",
-    "text": "The function $f$ is defined by $f(x) = ab^{\\frac{x}{n}}$, where $a$, $b$, and $n$ are constants, and $b$ and $n$ are integers. If $f(4) = 5$ and $f(7) = 135$, what is the value of $f(9)$?",
+    "text": "The function $f$ is defined by $f(x) = a\\cdot b^{\\frac{x}{n}}$, where $a$, $b$, and $n$ are constants, and $b$ and $n$ are integers. If $f(4) = 5$ and $f(7) = 135$, what is the value of $f(9)$?",
     "choices": [],
     "correctAnswer": "1215",
     "type": "free-response"
@@ -20512,7 +20512,7 @@
     "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_11",
     "testName": "Past SAT-based",
-    "text": "Which expression is equivalent to $(158y)^{\\frac{1}{2}}$, where $y > 1$?",
+    "text": "Which expression is equivalent to $(158y)^{\\frac{1}{2}}$, where $y \\gt 1$?",
     "choices": [
       {
         "id": "A",
@@ -20774,7 +20774,7 @@
     "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_1",
     "testName": "Past SAT-based",
-    "text": "In the figure shown, triangle $CAE$ is similar to triangle $CBD$. The measure of angle $CBD$ is $56°$, and $AE = 24(BD)$. What is the measure of angle $CAE$?",
+    "text": "In the figure shown, triangle $CAE$ is similar to triangle $CBD$. The measure of angle $CBD$ is $56^{\\circ}$, and $AE = 24(BD)$. What is the measure of angle $CAE$?",
     "choices": [
       {
         "id": "A",
@@ -20894,7 +20894,7 @@
     "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_5",
     "testName": "Past SAT-based",
-    "text": "A rectangle has a length that is 49 times its width. The function $y = (49w)(w)$ represents this situation, where $y$ is the area, in square feet, of the rectangle and $y > 0$. Which of the following is the best interpretation of $49w$ in this context?",
+    "text": "A rectangle has a length that is 49 times its width. The function $y = (49w)(w)$ represents this situation, where $y$ is the area, in square feet, of the rectangle and $y \\gt 0$. Which of the following is the best interpretation of $49w$ in this context?",
     "choices": [
       {
         "id": "A",
@@ -21177,7 +21177,7 @@
     "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_16",
     "testName": "Past SAT-based",
-    "text": "Which expression is equivalent to $15(x + 10)$?",
+    "text": "Which expression is equivalent to $15\\left(x + 10\\right)$?",
     "choices": [
       {
         "id": "A",
@@ -21310,7 +21310,7 @@
     "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_21",
     "testName": "Past SAT-based",
-    "text": "The function $f$ is defined by $f(x)=\\frac{|x|}{a}-16$, where $a < 0$. What is the product of $f(17a)$ and $f(8a)$?",
+    "text": "The function $f$ is defined by $f(x)=\\frac{|x|}{a}-16$, where $a \\lt 0$. What is the product of $f(17a)$ and $f(8a)$?",
     "choices": [],
     "correctAnswer": "792",
     "type": "free-response"
@@ -21323,7 +21323,7 @@
     "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_22",
     "testName": "Past SAT-based",
-    "text": "The function $f$ is defined by $f(x)=ab^{\\frac{x}{n}}$ where $a$, $b$, and $n$ are constants, and $b$ and $n$ are integers. If $f(5)=7$ and $f(8)= 189$, what is the value of $f(10)$?",
+    "text": "The function $f$ is defined by $f(x)=a\\cdot b^{\\frac{x}{n}}$ where $a$, $b$, and $n$ are constants, and $b$ and $n$ are integers. If $f(5)=7$ and $f(8)= 189$, what is the value of $f(10)$?",
     "choices": [],
     "correctAnswer": "1701",
     "type": "free-response"
@@ -21336,7 +21336,7 @@
     "rationale": null,
     "id": "11ee667b-8898-4917-b74e-33237205e2ef_2",
     "testName": "Past SAT-based",
-    "text": "Which expression is equivalent to $7(x^{2}+5)$?",
+    "text": "Which expression is equivalent to $7\\left(x^{2}+5\\right)$?",
     "choices": [
       {
         "id": "A",
@@ -21645,19 +21645,19 @@
     "rationale": null,
     "id": "11ee667b-8898-4917-b74e-33237205e2ef_15",
     "testName": "Past SAT-based",
-    "text": "In the $xy$-plane, which of the following does NOT contain any points that are part of the solution set to $2x - 6y > 12$?",
+    "text": "In the $xy$-plane, which of the following does NOT contain any points that are part of the solution set to $2x - 6y \\gt 12$?",
     "choices": [
       {
         "id": "A",
-        "text": "The region where $x < 0$ and $y > 0$"
+        "text": "The region where $x \\lt 0$ and $y \\gt 0$"
       },
       {
         "id": "B",
-        "text": "The region where $x < 0$ and $y < 0$"
+        "text": "The region where $x \\lt 0$ and $y \\lt 0$"
       },
       {
         "id": "C",
-        "text": "The region where $x > 0$ and $y > 0$"
+        "text": "The region where $x \\gt 0$ and $y \\gt 0$"
       },
       {
         "id": "D",
@@ -21761,7 +21761,7 @@
     "rationale": null,
     "id": "11ee667b-8898-4917-b74e-33237205e2ef_21",
     "testName": "Past SAT-based",
-    "text": "In the $xy$-plane, line $k$ and line $l$ are perpendicular and intersect at the point $(2, 9)$. If line $k$ is defined by the equation $y = mx + b$, where $m$ and $b$ are constants and $m > 1$, which of the following points lies on line $l$?",
+    "text": "In the $xy$-plane, line $k$ and line $l$ are perpendicular and intersect at the point $(2, 9)$. If line $k$ is defined by the equation $y = mx + b$, where $m$ and $b$ are constants and $m \\gt 1$, which of the following points lies on line $l$?",
     "choices": [
       {
         "id": "A",
@@ -21984,7 +21984,7 @@
     "rationale": null,
     "id": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_9",
     "testName": "Past SAT-based",
-    "text": "The graph of $ y = f(x) $ is shown, where $ f(x) = ab^x + c $, and $ a $, $ b $, and $ c $ are constants. For how many values of $ x $ does $ f(x) = 0 $?",
+    "text": "The graph of $ y = f(x) $ is shown, where $ f(x) = a\\cdot b^x + c $, and $ a $, $ b $, and $ c $ are constants. For how many values of $ x $ does $ f(x) = 0 $?",
     "choices": [
       {
         "id": "A",
@@ -22014,7 +22014,7 @@
     "rationale": null,
     "id": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_10",
     "testName": "Past SAT-based",
-    "text": "The equation $h=\\frac{9(u-273.15)}{5}+32$ gives the corresponding temperature $h$, in degrees Fahrenheit, of any substance that has a temperature of $u$ kelvins, where $u > 0$. If a substance has a temperature of 809.33 degrees Fahrenheit, what is the corresponding temperature, in kelvins, of this substance?",
+    "text": "The equation $h=\\frac{9(u-273.15)}{5}+32$ gives the corresponding temperature $h$, in degrees Fahrenheit, of any substance that has a temperature of $u$ kelvins, where $u \\gt 0$. If a substance has a temperature of 809.33 degrees Fahrenheit, what is the corresponding temperature, in kelvins, of this substance?",
     "choices": [],
     "correctAnswer": "705",
     "type": "free-response"
@@ -22057,11 +22057,11 @@
     "rationale": null,
     "id": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_12",
     "testName": "Past SAT-based",
-    "text": "Which expression is equivalent to $9x^6 - 63x^2$, where $x > 0$?",
+    "text": "Which expression is equivalent to $9x^6 - 63x^2$, where $x \\gt 0$?",
     "choices": [
       {
         "id": "A",
-        "text": "$9(x^3 - 7x^2)^2$"
+        "text": "$\\left(9\\right)(x^3 - 7x^2)^2$"
       },
       {
         "id": "B",
@@ -22147,7 +22147,7 @@
     "rationale": null,
     "id": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_15",
     "testName": "Past SAT-based",
-    "text": "$p^{\\frac{5}{4}}=t^{\\frac{7}{4}}$\nIn the given equation, $p > 1$ and $t > 1$. If $t = p^{2n-1}$, where $n$ is a constant, what is the value of $n$?",
+    "text": "$p^{\\frac{5}{4}}=t^{\\frac{7}{4}}$\nIn the given equation, $p \\gt 1$ and $t \\gt 1$. If $t = p^{2n-1}$, where $n$ is a constant, what is the value of $n$?",
     "choices": [],
     "correctAnswer": "6/7",
     "type": "free-response"
@@ -22160,7 +22160,7 @@
     "rationale": null,
     "id": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_16",
     "testName": "Past SAT-based",
-    "text": "A painting studio is offering a promotion where the first class is free, the second class is half off the regular price, and the remaining classes are regularly priced. If the regular price of a class is \\$26.40, which function f gives the total cost, in dollars, of x classes taken using this promotion, where $x > 2$?",
+    "text": "A painting studio is offering a promotion where the first class is free, the second class is half off the regular price, and the remaining classes are regularly priced. If the regular price of a class is \\$26.40, which function f gives the total cost, in dollars, of x classes taken using this promotion, where $x \\gt 2$?",
     "choices": [
       {
         "id": "A",
@@ -22194,19 +22194,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "$x < 2$"
+        "text": "$x \\lt 2$"
       },
       {
         "id": "B",
-        "text": "$x > 22$"
+        "text": "$x \\gt 22$"
       },
       {
         "id": "C",
-        "text": "$2 < x < 22$"
+        "text": "$2 \\lt x \\lt 22$"
       },
       {
         "id": "D",
-        "text": "$x < 2$ or $x > 22$"
+        "text": "$x \\lt 2$ or $x \\gt 22$"
       }
     ],
     "correctAnswer": "C",
@@ -22263,7 +22263,7 @@
     "rationale": null,
     "id": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_21",
     "testName": "Past SAT-based",
-    "text": "The function $f$ is defined by $f(x) = \\frac{|x|}{a} - 16$, where $a < 0$. What is the product of $f(17a)$ and $f(8a)$?",
+    "text": "The function $f$ is defined by $f(x) = \\frac{|x|}{a} - 16$, where $a \\lt 0$. What is the product of $f(17a)$ and $f(8a)$?",
     "choices": [],
     "correctAnswer": "792",
     "type": "free-response"
@@ -22551,7 +22551,7 @@
     "rationale": null,
     "id": "9c629a63-5faf-46a6-929d-d4196f7c3150_17",
     "testName": "Past SAT-based",
-    "text": "A dance studio charges an introductory fee for the first 3 lessons and then charges a fixed fee for each additional lesson. One student took 6 lessons and was charged \\$150. Another student took 17 lessons and was charged \\$480. Which function $f$ gives the total charge, in dollars, for any student who took $x$ lessons, where $x > 2$?",
+    "text": "A dance studio charges an introductory fee for the first 3 lessons and then charges a fixed fee for each additional lesson. One student took 6 lessons and was charged \\$150. Another student took 17 lessons and was charged \\$480. Which function $f$ gives the total charge, in dollars, for any student who took $x$ lessons, where $x \\gt 2$?",
     "choices": [
       {
         "id": "A",
@@ -22697,7 +22697,7 @@
     "rationale": null,
     "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_2",
     "testName": "Past SAT-based",
-    "text": "Which expression is equivalent to $(57y)^{\\frac{1}{2}}$, where $y > 1$?",
+    "text": "Which expression is equivalent to $(57y)^{\\frac{1}{2}}$, where $y \\gt 1$?",
     "choices": [
       {
         "id": "A",
@@ -22980,7 +22980,7 @@
     "rationale": null,
     "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_13",
     "testName": "Past SAT-based",
-    "text": "In the $xy$-plane, line $k$ and line $\\gamma$ are perpendicular and intersect at the point $(7, 5)$. If line $k$ is defined by the equation $y = mx + b$, where $m$ and $b$ are constants and $m > 1$, which of the following points lies on line $\\gamma$?",
+    "text": "In the $xy$-plane, line $k$ and line $\\gamma$ are perpendicular and intersect at the point $(7, 5)$. If line $k$ is defined by the equation $y = mx + b$, where $m$ and $b$ are constants and $m \\gt 1$, which of the following points lies on line $\\gamma$?",
     "choices": [
       {
         "id": "A",
@@ -23654,7 +23654,7 @@
     "rationale": null,
     "id": "00907d99-e579-47a8-ac65-658aadef4aa7_21",
     "testName": "Past SAT-based",
-    "text": "According to a US law, ramps for use by the general public must form an angle with level ground such that $\\tan \\theta < \\frac{1}{12}$. If the ramp in the figure conforms to this law and has a height of 29.1 inches, what is the least possible value of $x$, in inches?",
+    "text": "According to a US law, ramps for use by the general public must form an angle with level ground such that $\\tan \\theta \\lt \\frac{1}{12}$. If the ramp in the figure conforms to this law and has a height of 29.1 inches, what is the least possible value of $x$, in inches?",
     "choices": [],
     "correctAnswer": "349.2",
     "type": "free-response"
@@ -24169,7 +24169,7 @@
     "rationale": null,
     "id": "35bd5fb1-7659-4393-b736-241352b7187e_20",
     "testName": "Past SAT-based",
-    "text": "The functions $f$ and $g$ are defined by the equations shown, where $a$ and $b$ are integer constants, $a < b$ and $b < 0$. If $y = f(x)$ and $y = g(x)$ are graphed in the $xy$-plane, which of the following equations displays, as a constant or coefficient, the $y$-coordinate of the $y$-intercept of the graph of the corresponding function?\nI. $f(x) = a(2.1)^x + b$\nII. $g(x) = a(2.1)^x + b$",
+    "text": "The functions $f$ and $g$ are defined by the equations shown, where $a$ and $b$ are integer constants, $a \\lt b$ and $b \\lt 0$. If $y = f(x)$ and $y = g(x)$ are graphed in the $xy$-plane, which of the following equations displays, as a constant or coefficient, the $y$-coordinate of the $y$-intercept of the graph of the corresponding function?\nI. $f(x) = a(2.1)^x + b$\nII. $g(x) = a(2.1)^x + b$",
     "choices": [
       {
         "id": "A",
@@ -25096,7 +25096,7 @@
     "rationale": null,
     "id": "2f91d920-5520-4266-8a2d-a29c925c95c0_16",
     "testName": "Past SAT-based",
-    "text": "In triangle $XYZ$, angle $Y$ is a right angle, the measure of angle $Z$ is $39°$, and the length of $\\overline{YZ}$ is 22 units. If the area, in square units, of triangle $XYZ$ can be represented by the expression $k \\tan 39°$, where $k$ is a constant, what is the value of $k$?",
+    "text": "In triangle $XYZ$, angle $Y$ is a right angle, the measure of angle $Z$ is $39^{\\circ}$, and the length of $\\overline{YZ}$ is 22 units. If the area, in square units, of triangle $XYZ$ can be represented by the expression $k \\tan 39^{\\circ}$, where $k$ is a constant, what is the value of $k$?",
     "choices": [],
     "correctAnswer": "242",
     "type": "free-response"
@@ -25272,7 +25272,7 @@
     "rationale": null,
     "id": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_1",
     "testName": "Past SAT-based",
-    "text": "For certain air temperatures, the table gives wind chill temperatures for two different wind speeds.\nAccording to the table, what is the wind chill temperature, in degrees Fahrenheit ($\\text{°F}$), when the air temperature is $38\\text{°F}$ and the wind speed is $60$ miles per hour (mph)? (Disregard the degree symbol when entering your answer.)",
+    "text": "For certain air temperatures, the table gives wind chill temperatures for two different wind speeds.\nAccording to the table, what is the wind chill temperature, in degrees Fahrenheit (${}^{\\circ}\\text{F}$), when the air temperature is $38^{\\circ}\\text{F}$ and the wind speed is $60$ miles per hour (mph)? (Disregard the degree symbol when entering your answer.)",
     "choices": [],
     "correctAnswer": "22",
     "type": "free-response"
@@ -25980,19 +25980,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "$24(18x + 1)$"
+        "text": "$24\\left(18x + 1\\right)$"
       },
       {
         "id": "B",
-        "text": "$30(24x + 1)$"
+        "text": "$30\\left(24x + 1\\right)$"
       },
       {
         "id": "C",
-        "text": "$6(18x + 24)$"
+        "text": "$6\\left(18x + 24\\right)$"
       },
       {
         "id": "D",
-        "text": "$6(4x + 5)$"
+        "text": "$6\\left(4x + 5\\right)$"
       }
     ],
     "correctAnswer": "D",
@@ -26152,23 +26152,23 @@
     "rationale": null,
     "id": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_16",
     "testName": "Past SAT-based",
-    "text": "In the figure shown, lines $l$ and $k$ are parallel and line $t$ intersects both lines. If $x > 165$, which of the following must be true?",
+    "text": "In the figure shown, lines $l$ and $k$ are parallel and line $t$ intersects both lines. If $x \\gt 165$, which of the following must be true?",
     "choices": [
       {
         "id": "A",
-        "text": "$y < 15$"
+        "text": "$y \\lt 15$"
       },
       {
         "id": "B",
-        "text": "$y > 15$"
+        "text": "$y \\gt 15$"
       },
       {
         "id": "C",
-        "text": "$x + y < 180$"
+        "text": "$x + y \\lt 180$"
       },
       {
         "id": "D",
-        "text": "$x + y > 180$"
+        "text": "$x + y \\gt 180$"
       }
     ],
     "correctAnswer": "A",
@@ -26199,11 +26199,11 @@
     "choices": [
       {
         "id": "A",
-        "text": "$y = \\frac{1}{2}(72,000)^t$"
+        "text": "$y = \\frac{1}{2}(72,000)t$"
       },
       {
         "id": "B",
-        "text": "$y = 2(72,000)^t$"
+        "text": "$y = 2(72,000)t$"
       },
       {
         "id": "C",
@@ -26581,7 +26581,7 @@
     "rationale": null,
     "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_10",
     "testName": "Past SAT-based",
-    "text": "$0.2 t + 3 = 6$ describes this situation, where $t$ is the number of months it will take for Antwon's hair to reach a length of 6 inches. Which of the following is the best interpretation of $0.2$ in this context?",
+    "text": "$0.2t + 3 = 6$ describes this situation, where $t$ is the number of months it will take for Antwon's hair to reach a length of 6 inches. Which of the following is the best interpretation of $0.2$ in this context?",
     "choices": [
       {
         "id": "A",
@@ -26641,19 +26641,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "$86 < h < 86$"
+        "text": "$86 \\lt h \\lt 86$"
       },
       {
         "id": "B",
-        "text": "$86 < h < 89$"
+        "text": "$86 \\lt h \\lt 89$"
       },
       {
         "id": "C",
-        "text": "$86 < h < 100$"
+        "text": "$86 \\lt h \\lt 100$"
       },
       {
         "id": "D",
-        "text": "$86 < h < 154$"
+        "text": "$86 \\lt h \\lt 154$"
       }
     ],
     "correctAnswer": "D",
@@ -26667,7 +26667,7 @@
     "rationale": null,
     "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_15",
     "testName": "Past SAT-based",
-    "text": "$y = 8x$\n$y = x^2 - 20$\nA solution to the given system of equations is $(x, y)$, where $x > 0$. What is the value of $x$?",
+    "text": "$y = 8x$\n$y = x^2 - 20$\nA solution to the given system of equations is $(x, y)$, where $x \\gt 0$. What is the value of $x$?",
     "choices": [],
     "correctAnswer": "10",
     "type": "free-response"
@@ -26710,7 +26710,7 @@
     "rationale": null,
     "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_17",
     "testName": "Past SAT-based",
-    "text": "For a certain type of rope, the equation $y = 900 a x^2$, where $a$ is a constant, gives the estimated breaking strength $y$, in pounds, of a rope with a circumference of $x$ inches. Based on this equation, if a rope of this type has a circumference of 1.25 inches, it has an estimated breaking strength of 1,968.75 pounds. What is the estimated breaking strength, in pounds, of a rope of this type that has a circumference of 4.50 inches?",
+    "text": "For a certain type of rope, the equation $y = 900a x^2$, where $a$ is a constant, gives the estimated breaking strength $y$, in pounds, of a rope with a circumference of $x$ inches. Based on this equation, if a rope of this type has a circumference of 1.25 inches, it has an estimated breaking strength of 1,968.75 pounds. What is the estimated breaking strength, in pounds, of a rope of this type that has a circumference of 4.50 inches?",
     "choices": [],
     "correctAnswer": "25515",
     "type": "free-response"
@@ -27023,19 +27023,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "$30(24x + 1)$"
+        "text": "$30\\left(24x + 1\\right)$"
       },
       {
         "id": "B",
-        "text": "$42(30x + 1)$"
+        "text": "$42\\left(30x + 1\\right)$"
       },
       {
         "id": "C",
-        "text": "$6(24x + 36)$"
+        "text": "$6\\left(24x + 36\\right)$"
       },
       {
         "id": "D",
-        "text": "$6(5x + 7)$"
+        "text": "$6\\left(5x + 7\\right)$"
       }
     ],
     "correctAnswer": "D",
@@ -27182,23 +27182,23 @@
     "rationale": null,
     "id": "9d845a11-6019-4b88-9309-26d92ced4f70_17",
     "testName": "Past SAT-based",
-    "text": "In the figure shown, lines $l$ and $k$ are parallel and line $t$ intersects both lines. If $x > 100$, which of the following must be true?",
+    "text": "In the figure shown, lines $l$ and $k$ are parallel and line $t$ intersects both lines. If $x \\gt 100$, which of the following must be true?",
     "choices": [
       {
         "id": "A",
-        "text": "$y < 80$"
+        "text": "$y \\lt 80$"
       },
       {
         "id": "B",
-        "text": "$y > 80$"
+        "text": "$y \\gt 80$"
       },
       {
         "id": "C",
-        "text": "$x + y < 180$"
+        "text": "$x + y \\lt 180$"
       },
       {
         "id": "D",
-        "text": "$x + y > 180$"
+        "text": "$x + y \\gt 180$"
       }
     ],
     "correctAnswer": "A",
@@ -27298,7 +27298,7 @@
     "rationale": null,
     "id": "3bf10f0c-6025-4955-91dc-118e340490f0_1",
     "testName": "Past SAT-based",
-    "text": "For certain air temperatures, the table gives wind chill temperatures for two different wind speeds.\nAccording to the table, what is the wind chill temperature, in degrees Fahrenheit ($\\text{°F}$), when the air temperature is $33\\text{°F}$ and the wind speed is $20$ miles per hour (mph)? (Disregard the degree symbol when entering your answer.)",
+    "text": "For certain air temperatures, the table gives wind chill temperatures for two different wind speeds.\nAccording to the table, what is the wind chill temperature, in degrees Fahrenheit (${}^{\\circ}\\text{F}$), when the air temperature is $33^{\\circ}\\text{F}$ and the wind speed is $20$ miles per hour (mph)? (Disregard the degree symbol when entering your answer.)",
     "choices": [],
     "correctAnswer": "21",
     "type": "free-response"
@@ -28470,7 +28470,7 @@
     "rationale": null,
     "id": "08df3b47-9273-4ad6-9301-332804bc6404_12",
     "testName": "Past SAT-based",
-    "text": "Scientists collected fallen acorns that each housed a colony of the ant species P. ohioensis and analyzed each colony's structure. For any of these colonies, if the colony has $x$ worker ants, the equation $y = 0.67 x + 2.6$, where $20 \\leq x \\leq 110$, gives the predicted number of larvae, $y$, in the colony. If one of these colonies has 41 worker ants, which of the following is closest to the predicted number of larvae in the colony?",
+    "text": "Scientists collected fallen acorns that each housed a colony of the ant species P. ohioensis and analyzed each colony's structure. For any of these colonies, if the colony has $x$ worker ants, the equation $y = 0.67x + 2.6$, where $20 \\leq x \\leq 110$, gives the predicted number of larvae, $y$, in the colony. If one of these colonies has 41 worker ants, which of the following is closest to the predicted number of larvae in the colony?",
     "choices": [
       {
         "id": "A",
@@ -28714,11 +28714,11 @@
       },
       {
         "id": "B",
-        "text": "$x - 8y = 4$"
+        "text": "$x - 7y = 4$"
       },
       {
         "id": "C",
-        "text": "$\\frac{1}{2}x - 4y = 2$"
+        "text": "$\\frac{1}{2}x - 3y = 2$"
       },
       {
         "id": "D",
@@ -28903,19 +28903,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "$1.30 p + 2 = 7.20$"
+        "text": "$1.30p + 2 = 7.20$"
       },
       {
         "id": "B",
-        "text": "$1.30 p - 2 = 7.20$"
+        "text": "$1.30p - 2 = 7.20$"
       },
       {
         "id": "C",
-        "text": "$1.30 + 2 p = 7.20$"
+        "text": "$1.30 + 2p = 7.20$"
       },
       {
         "id": "D",
-        "text": "$1.30 - 2 p = 7.20$"
+        "text": "$1.30 - 2p = 7.20$"
       }
     ],
     "correctAnswer": "A",
@@ -29061,7 +29061,7 @@
       },
       {
         "id": "D",
-        "text": "$26(x^3 + x^2 + x)$"
+        "text": "$26\\left(x^3 + x^2 + x\\right)$"
       }
     ],
     "correctAnswer": "C",
@@ -29118,7 +29118,7 @@
     "rationale": null,
     "id": "301d8663-e49a-4c21-9635-ef2d02614b43_16",
     "testName": "Past SAT-based",
-    "text": "$y = 3x$\n$y = x^2 - 28$\nA solution to the given system of equations is $(x, y)$, where $x > 0$. What is the value of $x$?",
+    "text": "$y = 3x$\n$y = x^2 - 28$\nA solution to the given system of equations is $(x, y)$, where $x \\gt 0$. What is the value of $x$?",
     "choices": [],
     "correctAnswer": "7",
     "type": "free-response"
@@ -29766,7 +29766,7 @@
     "rationale": null,
     "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_21",
     "testName": "Past SAT-based",
-    "text": "$f(x) = (x - a)(x - b)$\nThe function $f$ is defined by the given equation, where $a$ and $b$ are integer constants. If $f(15) > 0$, $f(18) < 0$, and $f(21) > 0$, which of the following could be the value of $a + b$?",
+    "text": "$f(x) = (x - a)(x - b)$\nThe function $f$ is defined by the given equation, where $a$ and $b$ are integer constants. If $f(15) \\gt 0$, $f(18) \\lt 0$, and $f(21) \\gt 0$, which of the following could be the value of $a + b$?",
     "choices": [
       {
         "id": "A",
@@ -30899,7 +30899,7 @@
     "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_22",
     "testName": "Past SAT-based",
-    "text": "$5(kx - n) = -\\frac{65}{14}x - \\frac{85}{18}$\nIn the given equation, $k$ and $n$ are constants and $n > 1$. The equation has no solution. What is the value of $k$?",
+    "text": "$5(kx - n) = -\\frac{65}{14}x - \\frac{85}{18}$\nIn the given equation, $k$ and $n$ are constants and $n \\gt 1$. The equation has no solution. What is the value of $k$?",
     "choices": [],
     "correctAnswer": "-13/14,-0.928,-0.929",
     "type": "free-response"
@@ -31195,7 +31195,7 @@
     "rationale": null,
     "id": "e4f2c33b-9282-40a7-810c-d633e5197f95_12",
     "testName": "Past SAT-based",
-    "text": "In triangle $QRS$ shown, $QR < QS$. Which expression represents the length of $\\overline{QS}$?",
+    "text": "In triangle $QRS$ shown, $QR \\lt QS$. Which expression represents the length of $\\overline{QS}$?",
     "choices": [
       {
         "id": "A",
@@ -31512,11 +31512,11 @@
       },
       {
         "id": "C",
-        "text": "$6(5x^2+x+1)$"
+        "text": "$6\\left(5x^2+x+1\\right)$"
       },
       {
         "id": "D",
-        "text": "$4(2x^2+x+1)$"
+        "text": "$4\\left(2x^2+x+1\\right)$"
       }
     ],
     "correctAnswer": "C",
@@ -32457,7 +32457,7 @@
     "rationale": null,
     "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_18",
     "testName": "Past SAT-based",
-    "text": "A carpenter charges a flat rate of \\$216 for the first 3 hours of work and \\$60 for each additional hour of work. Which equation gives the total amount $y$, in dollars, that the carpenter charges for $x$ hours of work, where $x > 3$?",
+    "text": "A carpenter charges a flat rate of \\$216 for the first 3 hours of work and \\$60 for each additional hour of work. Which equation gives the total amount $y$, in dollars, that the carpenter charges for $x$ hours of work, where $x \\gt 3$?",
     "choices": [
       {
         "id": "A",
@@ -32503,7 +32503,7 @@
       },
       {
         "id": "D",
-        "text": "$46(p+r+s)$"
+        "text": "$46\\left(p+r+s\\right)$"
       }
     ],
     "correctAnswer": "A",
@@ -32723,7 +32723,7 @@
     "rationale": null,
     "id": "87a75825-ef1b-4b13-8fde-816390546062_7",
     "testName": "Past SAT-based",
-    "text": "If $7(x+6)=6(x+6)+68$, what is the value of $x+6$?",
+    "text": "If ${7}(x+6)=6(x+6)+68$, what is the value of $x+6$?",
     "choices": [
       {
         "id": "A",
@@ -32946,23 +32946,23 @@
     "rationale": null,
     "id": "87a75825-ef1b-4b13-8fde-816390546062_15",
     "testName": "Past SAT-based",
-    "text": "The function $f$ is defined by $f(x)=2^x$. The function $g$ is an increasing linear function. In the $xy$-plane, the graphs of $y=f(x)$ and $y=g(x)$ intersect at two points, $(h, j)$ and $(k, m)$, where $h < k$. When $g(x) > f(x)$, which of the following must also be true?",
+    "text": "The function $f$ is defined by $f(x)=2^x$. The function $g$ is an increasing linear function. In the $xy$-plane, the graphs of $y=f(x)$ and $y=g(x)$ intersect at two points, $(h, j)$ and $(k, m)$, where $h \\lt k$. When $g(x) \\gt f(x)$, which of the following must also be true?",
     "choices": [
       {
         "id": "A",
-        "text": "$x > k$"
+        "text": "$x \\gt k$"
       },
       {
         "id": "B",
-        "text": "$x < h$"
+        "text": "$x \\lt h$"
       },
       {
         "id": "C",
-        "text": "$x > k$ or $x < h$"
+        "text": "$x \\gt k$ or $x \\lt h$"
       },
       {
         "id": "D",
-        "text": "$h < x < k$"
+        "text": "$h \\lt x \\lt k$"
       }
     ],
     "correctAnswer": "D",
@@ -33036,7 +33036,7 @@
     "rationale": null,
     "id": "87a75825-ef1b-4b13-8fde-816390546062_19",
     "testName": "Past SAT-based",
-    "text": "The solutions to $x^2+6x+6=0$ are $r$ and $s$, where $r < s$. The solutions to $x^2+10x+13=0$ are $t$ and $u$, where $t < u$. The solutions to $x^2+16x+c=0$, where $c$ is a constant, are $r+u$ and $s+t$. What is the value of $c$?",
+    "text": "The solutions to $x^2+6x+6=0$ are $r$ and $s$, where $r \\lt s$. The solutions to $x^2+10x+13=0$ are $t$ and $u$, where $t \\lt u$. The solutions to $x^2+16x+c=0$, where $c$ is a constant, are $r+u$ and $s+t$. What is the value of $c$?",
     "choices": [],
     "correctAnswer": "61",
     "type": "free-response"
@@ -33594,7 +33594,7 @@
     "rationale": null,
     "id": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_20",
     "testName": "Past SAT-based",
-    "text": "In triangle QRS shown, $QR < RS$. Which expression represents the length of $\\overline{QS}$?",
+    "text": "In triangle QRS shown, $QR \\lt RS$. Which expression represents the length of $\\overline{QS}$?",
     "choices": [
       {
         "id": "A",
@@ -33800,7 +33800,7 @@
     "rationale": null,
     "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_8",
     "testName": "Past SAT-based",
-    "text": "How many solutions does the equation $7(x+12)+5x=12(x+7)$ have?",
+    "text": "How many solutions does the equation $7\\left(x+12)+5x=12(x+7\\right)$ have?",
     "choices": [
       {
         "id": "A",
@@ -34370,7 +34370,7 @@
       },
       {
         "id": "B",
-        "text": "$y > 26$"
+        "text": "$y \\gt 26$"
       },
       {
         "id": "C",
@@ -34378,7 +34378,7 @@
       },
       {
         "id": "D",
-        "text": "$x + y > 180$"
+        "text": "$x + y \\gt 180$"
       }
     ],
     "correctAnswer": "A",
@@ -34572,7 +34572,7 @@
     "rationale": null,
     "id": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_17",
     "testName": "Past SAT-based",
-    "text": "For $x > 0$, the function $f$ is defined as follows:\n$f(x)=111\\%$ of $x$\nWhich of the following could describe this function?",
+    "text": "For $x \\gt 0$, the function $f$ is defined as follows:\n$f(x)=111\\%$ of $x$\nWhich of the following could describe this function?",
     "choices": [
       {
         "id": "A",
@@ -34936,11 +34936,11 @@
       },
       {
         "id": "C",
-        "text": "$x < 2$"
+        "text": "$x \\lt 2$"
       },
       {
         "id": "D",
-        "text": "$x > 3$"
+        "text": "$x \\gt 3$"
       }
     ],
     "correctAnswer": "D",
@@ -35040,7 +35040,7 @@
     "rationale": null,
     "id": "390a8264-19b1-4de0-9dc9-09609eadd7ca_14",
     "testName": "Past SAT-based",
-    "text": "$x^2 - 12x - 13 = 0$\nOne solution to the given equation can be written as $x = h - \\frac{1}{2}\\sqrt{k}$, where $h$ and $k$ are integer constants. What is the value of $h + k$?",
+    "text": "$x^2 - 22x + 116 = 0$\nOne solution to the given equation can be written as $x = h - \\frac{1}{2}\\sqrt{k}$, where $h$ and $k$ are integer constants. What is the value of $h + k$?",
     "choices": [
       {
         "id": "A",
@@ -35104,19 +35104,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "$5.10 x$"
+        "text": "$5.10x$"
       },
       {
         "id": "B",
-        "text": "$0.51 x$"
+        "text": "$0.51x$"
       },
       {
         "id": "C",
-        "text": "$1.49 x$"
+        "text": "$1.49x$"
       },
       {
         "id": "D",
-        "text": "$2.49 x$"
+        "text": "$2.49x$"
       }
     ],
     "correctAnswer": "D",
@@ -35130,7 +35130,7 @@
     "rationale": null,
     "id": "390a8264-19b1-4de0-9dc9-09609eadd7ca_17",
     "testName": "Past SAT-based",
-    "text": "The function $f$ is defined by $f(x) = a^x + b$, where $a$ and $b$ are constants and $a > 0$. In the $xy$-plane, the graph of $y = f(x)$ has a $y$-intercept at $(0, -20)$ and passes through the point $(2, 43)$. What is the value of $a - b$?",
+    "text": "The function $f$ is defined by $f(x) = a^x + b$, where $a$ and $b$ are constants and $a \\gt 0$. In the $xy$-plane, the graph of $y = f(x)$ has a $y$-intercept at $(0, -20)$ and passes through the point $(2, 43)$. What is the value of $a - b$?",
     "choices": [],
     "correctAnswer": "29",
     "type": "free-response"
@@ -35843,7 +35843,7 @@
     "rationale": null,
     "id": "b5883220-eb88-4f6b-8d82-979efee65d2d_19",
     "testName": "Past SAT-based",
-    "text": "Which expression is equivalent to $10(x + 3)$?",
+    "text": "Which expression is equivalent to $10\\left(x + 3\\right)$?",
     "choices": [
       {
         "id": "A",
@@ -36109,7 +36109,7 @@
     "rationale": null,
     "id": "68b576c1-9de8-41d3-9840-538d4edcd113_11",
     "testName": "Past SAT-based",
-    "text": "$19=x+y$\n$x-y=9$\nThe solution to the given system of equations is ($x,y$). What is the value of $x$?",
+    "text": "$19=x+y$\n$x-y=9$\nThe solution to the given system of equations is $(x,y)$. What is the value of $x$?",
     "choices": [
       {
         "id": "A",
@@ -36388,7 +36388,7 @@
     "rationale": null,
     "id": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_19",
     "testName": "Past SAT-based",
-    "text": "Which expression is equivalent to $10(x+3)$?",
+    "text": "Which expression is equivalent to $10\\left(x+3\\right)$?",
     "choices": [
       {
         "id": "A",
@@ -36899,7 +36899,7 @@
     "rationale": null,
     "id": "6f7157fc-7e47-4e83-add3-e372915177ec_19",
     "testName": "Past SAT-based",
-    "text": "$17(x-16)=-16(x + 17)$\nHow many distinct real solutions does the given equation have?",
+    "text": "$17\\left(x-16)=-16(x + 17\\right)$\nHow many distinct real solutions does the given equation have?",
     "choices": [
       {
         "id": "A",
@@ -36985,7 +36985,7 @@
     "rationale": null,
     "id": "f3ade8fe-06c3-4b9c-a658-8857621e692f_1",
     "testName": "Past SAT-based",
-    "text": "If $44 = 6 + 2(x - 3)$, what is the value of $2(x - 3)$?",
+    "text": "If $44 = 6 + 2(x - 3)$, what is the value of $2\\left(x - 3\\right)$?",
     "choices": [
       {
         "id": "A",
@@ -37212,11 +37212,11 @@
     "choices": [
       {
         "id": "A",
-        "text": "$q < s$"
+        "text": "$q \\lt s$"
       },
       {
         "id": "B",
-        "text": "$q > s$"
+        "text": "$q \\gt s$"
       },
       {
         "id": "C",
@@ -37654,19 +37654,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "$10(13x^2)$"
+        "text": "$10\\left(13x^2\\right)$"
       },
       {
         "id": "B",
-        "text": "$10(x^2 + 13)$"
+        "text": "$10\\left(x^2 + 13\\right)$"
       },
       {
         "id": "C",
-        "text": "$130(10x^2)$"
+        "text": "$130\\left(10x^2\\right)$"
       },
       {
         "id": "D",
-        "text": "$130(10x^2 + 1)$"
+        "text": "$130\\left(10x^2 + 1\\right)$"
       }
     ],
     "correctAnswer": "B",
@@ -37800,19 +37800,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "$2(x + 2 y) = 21$"
+        "text": "$\\left(2\\right)(x + 2y) = 21$"
       },
       {
         "id": "B",
-        "text": "$2(2 x + y) = 21$"
+        "text": "$\\left(2\\right)(2x + y) = 21$"
       },
       {
         "id": "C",
-        "text": "$x + 2 y = 21$"
+        "text": "$x + 2y = 21$"
       },
       {
         "id": "D",
-        "text": "$2 x + y = 21$"
+        "text": "$2x + y = 21$"
       }
     ],
     "correctAnswer": "D",
@@ -38530,19 +38530,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "$160 - 15.7 < x < 160 - 12.7$"
+        "text": "$160 - 15.7 \\lt x \\lt 160 - 12.7$"
       },
       {
         "id": "B",
-        "text": "$160 + 12.7 < x < 160 + 15.7$"
+        "text": "$160 + 12.7 \\lt x \\lt 160 + 15.7$"
       },
       {
         "id": "C",
-        "text": "$160(12.7) < x < 160(15.7)$"
+        "text": "$160(12.7) \\lt x \\lt 160(15.7)$"
       },
       {
         "id": "D",
-        "text": "$\\frac{160}{15.7} < x < \\frac{160}{12.7}$"
+        "text": "$\\frac{160}{15.7} \\lt x \\lt \\frac{160}{12.7}$"
       }
     ],
     "correctAnswer": "C",
@@ -38672,7 +38672,7 @@
     "rationale": null,
     "id": "ad300285-6ff9-46a9-97ab-7356c9cd2965_13",
     "testName": "Past SAT-based",
-    "text": "$y=0.25x^{2}-6.5x+64.25$\nThe equation gives the estimated stock price $y$, in dollars, for a certain company $x$ days after the company went public, where $0 \\leq x < 20$. Which statement is the best interpretation of $(x,y)=(1, 58)$ in this context?",
+    "text": "$y=0.25x^{2}-6.5x+64.25$\nThe equation gives the estimated stock price $y$, in dollars, for a certain company $x$ days after the company went public, where $0 \\leq x \\lt 20$. Which statement is the best interpretation of $(x,y)=(1, 58)$ in this context?",
     "choices": [
       {
         "id": "A",
@@ -38788,7 +38788,7 @@
     "rationale": null,
     "id": "ad300285-6ff9-46a9-97ab-7356c9cd2965_18",
     "testName": "Past SAT-based",
-    "text": "The equation $h=\\frac{9(v-273.15)}{5}+12$ gives the corresponding temperature $h$, in degrees Fahrenheit, of any substance that has a temperature of $v$ kelvins, where $v > 0$. If a substance has a temperature of 467.33 degrees Fahrenheit, what is the corresponding temperature, in kelvins, of this substance?",
+    "text": "The equation $h=\\frac{9(v-273.15)}{5}+12$ gives the corresponding temperature $h$, in degrees Fahrenheit, of any substance that has a temperature of $v$ kelvins, where $v \\gt 0$. If a substance has a temperature of 467.33 degrees Fahrenheit, what is the corresponding temperature, in kelvins, of this substance?",
     "choices": [],
     "correctAnswer": "526.1",
     "type": "free-response"
@@ -39183,7 +39183,7 @@
     "rationale": null,
     "id": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_16",
     "testName": "Past SAT-based",
-    "text": "The functions $f$ and $g$ are defined by the given equations below, where $x > 0$. Which of the following equations displays, as a constant or coefficient, the minimum value of the function it defines, where $x > 0$?\nI. $f(x)=18(1.4)^{x+5}$\nII. $g(x)=18(1.16)(1.4)^{x+3}$",
+    "text": "The functions $f$ and $g$ are defined by the given equations below, where $x \\gt 0$. Which of the following equations displays, as a constant or coefficient, the minimum value of the function it defines, where $x \\gt 0$?\nI. $f(x)=18(1.4)^{x+5}$\nII. $g(x)=18(1.16)(1.4)^{x+3}$",
     "choices": [
       {
         "id": "A",
@@ -39213,7 +39213,7 @@
     "rationale": null,
     "id": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_17",
     "testName": "Past SAT-based",
-    "text": "$\\frac{12x+28}{4}-\\frac{s}{13}=r(x-8)$\nIn the given equation, $s$ and $r$ are constants, and $s > 0$. If the equation has infinitely many solutions, what is the value of $s$?",
+    "text": "$\\frac{12x+28}{4}-\\frac{s}{13}=r(x-8)$\nIn the given equation, $s$ and $r$ are constants, and $s \\gt 0$. If the equation has infinitely many solutions, what is the value of $s$?",
     "choices": [],
     "correctAnswer": "403",
     "type": "free-response"
@@ -39299,7 +39299,7 @@
     "rationale": null,
     "id": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_21",
     "testName": "Past SAT-based",
-    "text": "A line intersects two parallel lines, forming four acute angles and four obtuse angles. The measure of one of these eight angles is $(7x - 250)°$. The sum of the measures of four of the eight angles is $k°$. Which of the following could NOT be equivalent to $k$, for all values of $x$?",
+    "text": "A line intersects two parallel lines, forming four acute angles and four obtuse angles. The measure of one of these eight angles is $(7x - 250)^{\\circ}$. The sum of the measures of four of the eight angles is $k^{\\circ}$. Which of the following could NOT be equivalent to $k$, for all values of $x$?",
     "choices": [
       {
         "id": "A",
@@ -39488,7 +39488,7 @@
     "rationale": null,
     "id": "b79b2afa-5519-4128-ab30-39cfd5c26d43_7",
     "testName": "Past SAT-based",
-    "text": "Which expression is equivalent to $(x)^{\\frac{1}{17}}$, where $x > 0$?",
+    "text": "Which expression is equivalent to $(x)^{\\frac{1}{17}}$, where $x \\gt 0$?",
     "choices": [
       {
         "id": "A",
@@ -40024,7 +40024,7 @@
     "rationale": null,
     "id": "e3fe84c7-8083-48b8-863b-841355113ba0_7",
     "testName": "Past SAT-based",
-    "text": "$r=\\sqrt{9w-5}$\nThe given equation relates the real numbers $r$ and $w$, where $w > \\frac{5}{9}$. Which equation correctly expresses $w$ in terms of $r$?",
+    "text": "$r=\\sqrt{9w-5}$\nThe given equation relates the real numbers $r$ and $w$, where $w \\gt \\frac{5}{9}$. Which equation correctly expresses $w$ in terms of $r$?",
     "choices": [
       {
         "id": "A",
@@ -40449,19 +40449,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "$18.6 < x < 160 \\times 14.6$"
+        "text": "$18.6 \\lt x \\lt 160 \\times 14.6$"
       },
       {
         "id": "B",
-        "text": "$14.6 < x < 160 \\times 18.6$"
+        "text": "$14.6 \\lt x \\lt 160 \\times 18.6$"
       },
       {
         "id": "C",
-        "text": "$160(14.6) < x < 160(18.6)$"
+        "text": "$160(14.6) \\lt x \\lt 160(18.6)$"
       },
       {
         "id": "D",
-        "text": "$\\frac{160}{18.6} < x < \\frac{160}{14.6}$"
+        "text": "$\\frac{160}{18.6} \\lt x \\lt \\frac{160}{14.6}$"
       }
     ],
     "correctAnswer": "C",
@@ -40724,7 +40724,7 @@
     "rationale": null,
     "id": "ceb2e234-3ab3-4376-b66a-cf8535278d77_18",
     "testName": "Past SAT-based",
-    "text": "The equation $h=\\frac{9(v-273.15)}{5}+32$ gives the corresponding temperature $h$, in degrees Fahrenheit, of any substance that has a temperature of $v$ kelvins, where $v > 0$. If a substance has a temperature of 539.33 degrees Fahrenheit, what is the corresponding temperature, in kelvins, of this substance?",
+    "text": "The equation $h=\\frac{9(v-273.15)}{5}+32$ gives the corresponding temperature $h$, in degrees Fahrenheit, of any substance that has a temperature of $v$ kelvins, where $v \\gt 0$. If a substance has a temperature of 539.33 degrees Fahrenheit, what is the corresponding temperature, in kelvins, of this substance?",
     "choices": [],
     "correctAnswer": "555",
     "type": "free-response"
@@ -41020,7 +41020,7 @@
     "rationale": null,
     "id": "d7afa874-519b-4f1b-b45f-1c75ea45613b_7",
     "testName": "Past SAT-based",
-    "text": "$r=\\sqrt{5w-3}$\nThe given equation relates the real numbers $r$ and $w$, where $w>\\frac{3}{5}$. Which equation correctly expresses $w$ in terms of $r$?",
+    "text": "$r=\\sqrt{5w-3}$\nThe given equation relates the real numbers $r$ and $w$, where $w \\gt \\frac{3}{5}$. Which equation correctly expresses $w$ in terms of $r$?",
     "choices": [
       {
         "id": "A",
@@ -41458,7 +41458,7 @@
     "rationale": null,
     "id": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_6",
     "testName": "Past SAT-based",
-    "text": "In $\\triangle JKL$, the measures of both $\\angle J$ and $\\angle K$ are equal and the measure of $\\angle L$ is 136°. What is the measure of $\\angle J$?",
+    "text": "In $\\triangle JKL$, the measures of both $\\angle J$ and $\\angle K$ are equal and the measure of $\\angle L$ is $136^{\\circ}$. What is the measure of $\\angle J$?",
     "choices": [
       {
         "id": "A",
@@ -41587,7 +41587,7 @@
     "rationale": null,
     "id": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_12",
     "testName": "Past SAT-based",
-    "text": "The cost to rent a bus from Company X is \\$950 for the first 2 hours and an additional \\$50 per hour for each hour after the first 2 hours. If the total cost to rent the bus from Company X for $t$ hours, where $t > 2$, is \\$1,150, which equation represents this situation?",
+    "text": "The cost to rent a bus from Company X is \\$950 for the first 2 hours and an additional \\$50 per hour for each hour after the first 2 hours. If the total cost to rent the bus from Company X for $t$ hours, where $t \\gt 2$, is \\$1,150, which equation represents this situation?",
     "choices": [
       {
         "id": "A",
@@ -42231,7 +42231,7 @@
     "rationale": null,
     "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_16",
     "testName": "Past SAT-based",
-    "text": "The function $ q $ is defined by $ q(x) = a|x - 9| + 2 - 87|x - 9| + b $, where $ a $ and $ b $ are constants, and $ a > b > 87 $. If $ q(639) = h $ and $ q(-621) = k $, where $ h $ and $ k $ are constants, what is the value of $ 9(-639)h - k + 621(9)k - h $?",
+    "text": "The function $ q $ is defined by $ q(x) = a|x - 9| + 2 - 87|x - 9| + b $, where $ a $ and $ b $ are constants, and $ a \\gt b \\gt 87 $. If $ q(639) = h $ and $ q(-621) = k $, where $ h $ and $ k $ are constants, what is the value of $ 9(-639)h - k + 621(9)k - h $?",
     "choices": [],
     "correctAnswer": "630",
     "type": "free-response"
@@ -42394,7 +42394,7 @@
     "rationale": null,
     "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_22",
     "testName": "Past SAT-based",
-    "text": "In the figure shown, points $A$, $B$, $C$, and $E$ lie on the circle, and $AB < BC$. Segment $AC$ is perpendicular to segment $BE$ at point $D$, and $BD = \\sqrt{226}$. The diameter of the circle is 115. If $\\frac{CD}{AD}=r$, what is the value of $r$?",
+    "text": "In the figure shown, points $A$, $B$, $C$, and $E$ lie on the circle, and $AB \\lt BC$. Segment $AC$ is perpendicular to segment $BE$ at point $D$, and $BD = \\sqrt{226}$. The diameter of the circle is 115. If $\\frac{CD}{AD}=r$, what is the value of $r$?",
     "choices": [],
     "correctAnswer": "113/2,56.5",
     "type": "free-response"
@@ -42467,23 +42467,23 @@
     "rationale": null,
     "id": "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_4",
     "testName": "Past SAT-based",
-    "text": "Which expression is equivalent to $11(x^{2}-100y^{2})$?",
+    "text": "Which expression is equivalent to ${11}(x^{2}-100y^{2})$?",
     "choices": [
       {
         "id": "A",
-        "text": "$11(x-2y)(x-50y)$"
+        "text": "${11}(x-2y)(x-50y)$"
       },
       {
         "id": "B",
-        "text": "$11(x-2y)(x+50y)$"
+        "text": "${11}(x-2y)(x+50y)$"
       },
       {
         "id": "C",
-        "text": "$11(x-10y)(x-10y)$"
+        "text": "${11}(x-10y)(x-10y)$"
       },
       {
         "id": "D",
-        "text": "$11(x-10y)(x+10y)$"
+        "text": "${11}(x-10y)(x+10y)$"
       }
     ],
     "correctAnswer": "D",
@@ -42630,15 +42630,15 @@
     "rationale": null,
     "id": "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_12",
     "testName": "Past SAT-based",
-    "text": "The cost to rent a bus from Company X is \\$850 for the first 2 hours and an additional \\$30 per hour for each hour after the first 2 hours. If the total cost to rent the bus from Company X for $t$ hours, where $t > 2$, is \\$1,030, which equation represents this situation?",
+    "text": "The cost to rent a bus from Company X is \\$850 for the first 2 hours and an additional \\$30 per hour for each hour after the first 2 hours. If the total cost to rent the bus from Company X for $t$ hours, where $t \\gt 2$, is \\$1,030, which equation represents this situation?",
     "choices": [
       {
         "id": "A",
-        "text": "$850(t-2) + 30t = 1,030$"
+        "text": "${850}(t-2) + 30t = 1,030$"
       },
       {
         "id": "B",
-        "text": "$850(2t) + 30t = 1,030$"
+        "text": "${850}(2t) + 30t = 1,030$"
       },
       {
         "id": "C",
@@ -43025,7 +43025,7 @@
     "rationale": null,
     "id": "b05db4ac-dd48-4b3f-b365-b39330c879e5_8",
     "testName": "Past SAT-based",
-    "text": "A plumbing company charges its customers \\$112 for the first hour of a plumbing service call and \\$40 for each additional hour, plus the cost of plumbing parts. Which equation represents the total cost $y$, in dollars, for an $x$-hour plumbing service call where the cost of parts was $z$ and $x > 1$?",
+    "text": "A plumbing company charges its customers \\$112 for the first hour of a plumbing service call and \\$40 for each additional hour, plus the cost of plumbing parts. Which equation represents the total cost $y$, in dollars, for an $x$-hour plumbing service call where the cost of parts was $z$ and $x \\gt 1$?",
     "choices": [
       {
         "id": "A",
@@ -43274,7 +43274,7 @@
     "rationale": null,
     "id": "b05db4ac-dd48-4b3f-b365-b39330c879e5_21",
     "testName": "Past SAT-based",
-    "text": "The functions $f$ and $g$ are defined by the equations shown, where $a$ and $b$ are integer constants, $a < b$ and $b < 0$. If $y = f(x)$ and $y = g(x)$ are graphed in the $xy$-plane, which of the following equations displays, as a constant or coefficient, the $y$ coordinate of the $y$-intercept of the graph of the corresponding function?\nI. $f(x)=a(3.3)^{x+b}$\nII. $g(x)=a(3.3)^{x}+b$",
+    "text": "The functions $f$ and $g$ are defined by the equations shown, where $a$ and $b$ are integer constants, $a \\lt b$ and $b \\lt 0$. If $y = f(x)$ and $y = g(x)$ are graphed in the $xy$-plane, which of the following equations displays, as a constant or coefficient, the $y$ coordinate of the $y$-intercept of the graph of the corresponding function?\nI. $f(x)=a(3.3)^{x+b}$\nII. $g(x)=a(3.3)^{x}+b$",
     "choices": [
       {
         "id": "A",
@@ -43420,7 +43420,7 @@
     "rationale": null,
     "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_5",
     "testName": "Past SAT-based",
-    "text": "In $\\triangle FGH$, the measures of $\\angle F$ and $\\angle G$ are each 39°. What is the measure of $\\angle H$?",
+    "text": "In $\\triangle FGH$, the measures of $\\angle F$ and $\\angle G$ are each $39^{\\circ}$. What is the measure of $\\angle H$?",
     "choices": [
       {
         "id": "A",
@@ -44158,7 +44158,7 @@
       },
       {
         "id": "B",
-        "text": "$49(p + r + s)$"
+        "text": "${49}(p + r + s)$"
       },
       {
         "id": "C",
@@ -44416,7 +44416,7 @@
     "rationale": null,
     "id": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_8",
     "testName": "Past SAT-based",
-    "text": "For two acute angles $X$ and $Y$, the measure of angle $Y$ is $32°$ and $\\frac{\\sin X}{\\cos Y}=1$. What is the measure, in degrees, of angle $X$?",
+    "text": "For two acute angles $X$ and $Y$, the measure of angle $Y$ is $32^{\\circ}$ and $\\frac{\\sin X}{\\cos Y}=1$. What is the measure, in degrees, of angle $X$?",
     "choices": [
       {
         "id": "A",
@@ -44519,7 +44519,7 @@
     "rationale": null,
     "id": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_12",
     "testName": "Past SAT-based",
-    "text": "If $7(6-9x)+4=6(6-9x)+19$, what is the value of $6-9x$?",
+    "text": "If ${7}(6-9x)+4=6(6-9x)+19$, what is the value of $6-9x$?",
     "choices": [
       {
         "id": "A",
@@ -45051,7 +45051,7 @@
     "rationale": null,
     "id": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_13",
     "testName": "Past SAT-based",
-    "text": "$x - a = (x - a)(x - 24)$\nWhich of the following are solutions to the given equation, where $a$ is a constant and $a > 25$?\nI. $a$\nII. 24\nIII. 25",
+    "text": "$x - a = (x - a)(x - 24)$\nWhich of the following are solutions to the given equation, where $a$ is a constant and $a \\gt 25$?\nI. $a$\nII. 24\nIII. 25",
     "choices": [
       {
         "id": "A",
@@ -45231,7 +45231,7 @@
     "rationale": null,
     "id": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_19",
     "testName": "Past SAT-based",
-    "text": "$3^{117n}(4^{117n})^2$\nFor what value of $x$ is the given expression equivalent to $12^{117nx}$ where $n>1$?",
+    "text": "$\\sqrt[3]{117n}(\\sqrt[4]{117n})^2$\nFor what value of $x$ is the given expression equivalent to $(117n)^{12x}$ where $n \\gt 1$?",
     "choices": [],
     "correctAnswer": "5/72",
     "type": "free-response"
@@ -45866,7 +45866,7 @@
     "rationale": null,
     "id": "70b33953-aa61-407d-a25a-a438792bed03_22",
     "testName": "Past SAT-based",
-    "text": "For two acute angles $X$ and $Y$, the measure of angle $Y$ is 24° and $\\frac{\\sin X}{\\cos Y} = 1$. What is the measure, in degrees, of angle $X$?",
+    "text": "For two acute angles $X$ and $Y$, the measure of angle $Y$ is $24^{\\circ}$ and $\\frac{\\sin X}{\\cos Y} = 1$. What is the measure, in degrees, of angle $X$?",
     "choices": [
       {
         "id": "A",
@@ -45969,7 +45969,7 @@
     "rationale": null,
     "id": "659cbbc1-2d38-4d45-8ecb-79f43367862e_11",
     "testName": "Past SAT-based",
-    "text": "$x - a = (x - a)(x - 24)$\nWhich of the following are solutions to the given equation, where $a$ is a constant and $a > 25$?\nI. $a$\nII. $24$\nIII. $25$",
+    "text": "$x - a = (x - a)(x - 24)$\nWhich of the following are solutions to the given equation, where $a$ is a constant and $a \\gt 25$?\nI. $a$\nII. $24$\nIII. $25$",
     "choices": [
       {
         "id": "A",
@@ -46029,7 +46029,7 @@
     "rationale": null,
     "id": "659cbbc1-2d38-4d45-8ecb-79f43367862e_17",
     "testName": "Past SAT-based",
-    "text": "For what value of $x$ is the given expression $\\sqrt{117n}(\\sqrt{117n})^{2}$ equivalent to $(117n)^{12x}$, where $n > 1$?",
+    "text": "For what value of $x$ is the given expression $\\sqrt{117n}(\\sqrt{117n})^{2}$ equivalent to $(117n)^{12x}$, where $n \\gt 1$?",
     "choices": [],
     "correctAnswer": "1/8,0.125,.125",
     "type": "free-response"
@@ -46896,7 +46896,7 @@
     "rationale": null,
     "id": "1b1871b9-081a-47fd-9218-97b0bbc4a454_10",
     "testName": "Past SAT-based",
-    "text": "For certain air temperatures, the table gives wind chill temperatures for two different wind speeds.\nAccording to the table, what is the wind chill temperature, in degrees Fahrenheit ($\\text{°F}$), when the air temperature is 29$\\text{°F}$ and the wind speed is 15 miles per hour (mph)? (Disregard the degree symbol when entering your answer.)",
+    "text": "For certain air temperatures, the table gives wind chill temperatures for two different wind speeds.\nAccording to the table, what is the wind chill temperature, in degrees Fahrenheit (${}^{\\circ}\\text{F}$), when the air temperature is 29${}^{\\circ}\\text{F}$ and the wind speed is 15 miles per hour (mph)? (Disregard the degree symbol when entering your answer.)",
     "choices": [],
     "correctAnswer": "18",
     "type": "free-response"
@@ -47364,7 +47364,7 @@
     "rationale": null,
     "id": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_7",
     "testName": "Past SAT-based",
-    "text": "If $9x+4=32$, what is the value of $3(9x+4)$?",
+    "text": "If $9x+4=32$, what is the value of ${3}(9x+4)$?",
     "choices": [
       {
         "id": "A",
@@ -47604,15 +47604,15 @@
       },
       {
         "id": "B",
-        "text": "$93(360)$"
+        "text": "$\\left(93\\right)(360)$"
       },
       {
         "id": "C",
-        "text": "$93(2)(360)$"
+        "text": "$\\left(93\\right)(2)(360)$"
       },
       {
         "id": "D",
-        "text": "$180(93)(360)$"
+        "text": "$\\left(180\\right)(93)(360)$"
       }
     ],
     "correctAnswer": "B",
@@ -47922,7 +47922,7 @@
     "rationale": null,
     "id": "39729166-8e92-42cc-8ed6-76acdb673a3c_11",
     "testName": "Past SAT-based",
-    "text": "The equation $h=\\frac{9(v-273.15)}{5}+32$ gives the corresponding temperature $h$, in degrees Fahrenheit, of any substance that has a temperature of $v$ kelvins, where $v>0$. If a substance has a temperature of 557.33 degrees Fahrenheit, what is the corresponding temperature, in kelvins, of this substance?",
+    "text": "The equation $h=\\frac{9(v-273.15)}{5}+32$ gives the corresponding temperature $h$, in degrees Fahrenheit, of any substance that has a temperature of $v$ kelvins, where $v \\gt 0$. If a substance has a temperature of 557.33 degrees Fahrenheit, what is the corresponding temperature, in kelvins, of this substance?",
     "choices": [],
     "correctAnswer": "565",
     "type": "free-response"
@@ -48201,7 +48201,7 @@
     "rationale": null,
     "id": "39729166-8e92-42cc-8ed6-76acdb673a3c_22",
     "testName": "Past SAT-based",
-    "text": "In the figure shown, points $A$, $B$, $C$, and $E$ lie on the circle, and $AB < BC$. Segment $AC$ is perpendicular to segment $BE$ at point $D$, and $BD = DE = \\sqrt{398}$. The diameter of the circle is 201. If $\\frac{CD}{AD} = r$, what is the value of $r$?",
+    "text": "In the figure shown, points $A$, $B$, $C$, and $E$ lie on the circle, and $AB \\lt BC$. Segment $AC$ is perpendicular to segment $BE$ at point $D$, and $BD = DE = \\sqrt{398}$. The diameter of the circle is 201. If $\\frac{CD}{AD} = r$, what is the value of $r$?",
     "choices": [],
     "correctAnswer": "199/2,99.5",
     "type": "free-response"
@@ -48304,7 +48304,7 @@
     "rationale": null,
     "id": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_4",
     "testName": "Past SAT-based",
-    "text": "For the first 10 hours of an experiment, the scatterplot shows the temperature $y$, in degrees Fahrenheit (°F), of an object at various times $x$, in hours, since the start of the experiment. A line of best fit is also shown.\nWhich of the following is the best interpretation of the slope of the line of best fit?",
+    "text": "For the first 10 hours of an experiment, the scatterplot shows the temperature $y$, in degrees Fahrenheit (${}^{\\circ}\\text{F}$), of an object at various times $x$, in hours, since the start of the experiment. A line of best fit is also shown.\nWhich of the following is the best interpretation of the slope of the line of best fit?",
     "choices": [
       {
         "id": "A",
@@ -49364,7 +49364,7 @@
     "rationale": null,
     "id": "7d110811-1651-49a9-9be6-62e088b71c73_4",
     "testName": "Past SAT-based",
-    "text": "For the first 10 hours of an experiment, the scatterplot shows the temperature $y$, in degrees Fahrenheit ($\\text{°F}$) of an object at various times $x$, in hours, since the start of the experiment. A line of best fit is also shown.\nWhich of the following is the best interpretation of the slope of the line of best fit?",
+    "text": "For the first 10 hours of an experiment, the scatterplot shows the temperature $y$, in degrees Fahrenheit (${}^{\\circ}\\text{F}$) of an object at various times $x$, in hours, since the start of the experiment. A line of best fit is also shown.\nWhich of the following is the best interpretation of the slope of the line of best fit?",
     "choices": [
       {
         "id": "A",
@@ -50098,7 +50098,7 @@
     "rationale": null,
     "id": "94868488-f2b6-48b0-9e22-a683ccbda0e0_15",
     "testName": "Past SAT-based",
-    "text": "At the beginning of an experiment, the temperature of a liquid is 23 degrees Celsius (°C). During the first 4.0 minutes of the experiment, the temperature of the liquid increases at an average rate of 6.5°C per minute. Then, the temperature of the liquid increases at a constant rate of 2.4°C per minute. If the temperature of the liquid reaches 63°C $x$ minutes after the beginning of the experiment, where $x > 4.0$, which equation represents this situation?",
+    "text": "At the beginning of an experiment, the temperature of a liquid is 23 degrees Celsius (°C). During the first 4.0 minutes of the experiment, the temperature of the liquid increases at an average rate of 6.5°C per minute. Then, the temperature of the liquid increases at a constant rate of 2.4°C per minute. If the temperature of the liquid reaches 63°C $x$ minutes after the beginning of the experiment, where $x \\gt 4.0$, which equation represents this situation?",
     "choices": [
       {
         "id": "A",
@@ -50132,19 +50132,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "$r < 0$ and $t > 0$"
+        "text": "$r \\lt 0$ and $t \\gt 0$"
       },
       {
         "id": "B",
-        "text": "$r > 0$ and $t > 0$"
+        "text": "$r \\gt 0$ and $t \\gt 0$"
       },
       {
         "id": "C",
-        "text": "$r > 0$ and $t < 0$"
+        "text": "$r \\gt 0$ and $t \\lt 0$"
       },
       {
         "id": "D",
-        "text": "$r < 0$ and $t < 0$"
+        "text": "$r \\lt 0$ and $t \\lt 0$"
       }
     ],
     "correctAnswer": "B",

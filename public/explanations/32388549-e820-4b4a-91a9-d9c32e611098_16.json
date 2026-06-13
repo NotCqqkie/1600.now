@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the answer",
-      "content": "The expression with root $-6$ is $2x+12$, because $2(-6)+12=0$. The other factor from the difference of squares is the constant $-12$, so $2x+12$ is the useful linear factor. Therefore choice <strong>B</strong> is correct."
+      "content": "The expression with root $-6$ is $2x+12$, because $2(-6)+12=0$. The other factor from the difference of squares is the constant $-12$, so $2x+12$ is the useful linear factor. Therefore, <strong>B</strong> is correct."
     }
   ]
 }

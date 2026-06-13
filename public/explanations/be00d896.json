@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Eliminate symmetric distributions",
-      "content": "Mean equals median in symmetric distributions.<ul><li>Choice A: constant 5s — symmetric</li><li>Choice B: 0, 10, 20, …, 80 (arithmetic sequence) — symmetric</li></ul>Both have mean = median. For mean > median, we need <strong>right-skewed</strong> data where large values pull the mean upward."
+      "content": "Mean equals median in symmetric distributions.<ul><li><strong>Choice A &mdash; 5, 5, 5, 5, 5, 5, 5, 5, 5</strong>: constant 5s — symmetric</li><li><strong>Choice B &mdash; 0, 10, 20, 30, 40, 50, 60, 70, 80</strong>: arithmetic sequence — symmetric</li></ul>Both have mean = median. For mean > median, we need <strong>right-skewed</strong> data where large values pull the mean upward."
     },
     {
       "title": "Identify exponential growth in choice C",
-      "content": "Choice C: 2, 4, 8, 16, 32, 64, 128, 256, 512<br/><br/>This doubles each term, creating severe right skew. The massive values at the end (256, 512) pull the mean far above the median.<ul><li>Median = 5th value = 32</li><li>Sum = 1022</li><li>Mean = 1022 ÷ 9 ≈ 113.6</li></ul>Since 113.6 > 32, the mean exceeds the median. That matches choice C — <strong>C</strong> is correct."
+      "content": "<strong>2, 4, 8, 16, 32, 64, 128, 256, 512</strong> 2, 4, 8, 16, 32, 64, 128, 256, 512<br/><br/>This doubles each term, creating severe right skew. The massive values at the end (256, 512) pull the mean far above the median.<ul><li>Median = 5th value = 32</li><li>Sum = 1022</li><li>Mean = 1022 ÷ 9 ≈ 113.6</li></ul>Since 113.6 > 32, the mean exceeds the median. That is the correct answer."
     }
   ]
 }

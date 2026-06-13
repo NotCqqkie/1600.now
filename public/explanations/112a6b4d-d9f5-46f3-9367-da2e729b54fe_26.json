@@ -1,1 +1,15 @@
-{"questionId": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_26", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The student wants to compare the hardness of <em>all three</em> minerals: fluorite, quartz, and diamond. The correct choice must rank all three against each other using their Mohs numbers."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'Based on their Mohs scale numbers, diamond (10) is harder than quartz (7), and quartz is harder than fluorite (4).'</strong>: Directly ranks all three minerals in a single comparison using their Mohs numbers. &#10003;</li><li><strong>Choice B &mdash; 'A mineral with a Mohs number of 10, like diamond, is harder than one with a Mohs number of 7, like quartz.'</strong>: Compares only diamond and quartz &mdash; fluorite is left out entirely. &#10007;</li><li><strong>Choice C &mdash; 'The Mohs scale of mineral hardness can be used to order quartz, fluorite, and diamond by their ability to scratch other minerals.'</strong>: Mentions all three minerals but provides no actual ranking or hardness comparison. &#10007;</li><li><strong>Choice D &mdash; 'Diamond can leave visible scratches on fluorite, which is why diamond has a higher number than fluorite on the Mohs scale of mineral hardness.'</strong>: Compares only diamond and fluorite &mdash; quartz is left out entirely. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_26",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The student wants to compare the hardness of <em>all three</em> minerals: fluorite, quartz, and diamond. The correct choice must rank all three against each other using their Mohs numbers."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Based on their Mohs scale numbers, diamond (10) is harder than quartz (7), and quartz is harder than fluorite (4).</strong>: Directly ranks all three minerals in a single comparison using their Mohs numbers. &#10003;</li><li><strong>Choice B &mdash; A mineral with a Mohs number of 10, like diamond, is harder than one with a Mohs number of 7, like quartz.</strong>: Compares only diamond and quartz &mdash; fluorite is left out entirely. &#10007;</li><li><strong>Choice C &mdash; The Mohs scale of mineral hardness can be used to order quartz, fluorite, and diamond by their ability to scratch other minerals.</strong>: Mentions all three minerals but provides no actual ranking or hardness comparison. &#10007;</li><li><strong>Choice D &mdash; Diamond can leave visible scratches on fluorite, which is why diamond has a higher number than fluorite on the Mohs scale of mineral hardness.</strong>: Compares only diamond and fluorite &mdash; quartz is left out entirely. &#10007;</li></ul>That matches <strong>Choice A &mdash; Based on their Mohs scale numbers, diamond (10) is harder than quartz (7), and quartz is harder than fluorite (4).</strong>."
+    }
+  ]
+}

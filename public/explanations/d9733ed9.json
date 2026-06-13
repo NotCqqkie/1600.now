@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Set up the inequality test",
-      "content": "Test each $(x, y)$ pair against $y > 4x + 8$."
+      "content": "Test each $(x, y)$ pair against $y \\gt  4x + 8$."
     },
     {
       "title": "Test each table",
@@ -13,7 +13,7 @@
     },
     {
       "title": "Identify the table",
-      "content": "Choice A has $y$-values $19$, $30$, and $41$, and each is greater than the matching boundary value: $$19>16,$$ $$30>24,$$ and $$41>32.$$ The other tables fail at least one row, so choice <strong>A</strong> is correct."
+      "content": "The correct table has $x$-values $2$, $4$, and $6$ paired with $y$-values $19$, $30$, and $41$. Each listed $y$-value is greater than the matching boundary value: $$19\\gt 16,$$ $$30\\gt 24,$$ and $$41\\gt 32.$$ The other tables fail at least one row, so <strong>A</strong> is correct."
     }
   ]
 }

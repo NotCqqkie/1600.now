@@ -1,1 +1,15 @@
-{"questionId":"262137dd-b309-4356-982d-630e0212b16e_19","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"Before the blank is an independent clause with an appositive phrase ('the site with the highest elevation'). After the blank is a second independent clause ('it had shifted'). The blank must join two independent clauses correctly."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; no conjunction, comma only</strong>: Joining two independent clauses with only a comma is a comma splice. &#10007;</li><li><strong>Choice B &mdash; conjunction placed inside the appositive</strong>: Embedding the conjunction here breaks the appositive and misreads the sentence structure. &#10007;</li><li><strong>Choice C &mdash; semicolon without closing the appositive cleanly</strong>: The punctuation does not properly close the appositive phrase before the boundary. &#10007;</li><li><strong>Choice D &mdash; 'elevation, and'</strong>: A comma closes the appositive, and 'and' (a coordinating conjunction) correctly joins the two independent clauses. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "262137dd-b309-4356-982d-630e0212b16e_19",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "Before the blank is an independent clause with an appositive phrase ('the site with the highest elevation'). After the blank is a second independent clause ('it had shifted'). The blank must join two independent clauses correctly."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; elevation and</strong>: Joining two independent clauses with only a comma is a comma splice. &#10007;</li><li><strong>Choice B &mdash; elevation</strong>: Embedding the conjunction here breaks the appositive and misreads the sentence structure. &#10007;</li><li><strong>Choice C &mdash; elevation,</strong>: The punctuation does not properly close the appositive phrase before the boundary. &#10007;</li><li><strong>Choice D &mdash; elevation, and</strong>: A comma closes the appositive, and 'and' (a coordinating conjunction) correctly joins the two independent clauses. &#10003;</li></ul>That matches <strong>Choice D &mdash; elevation, and</strong>."
+    }
+  ]
+}

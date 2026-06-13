@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li>A: $-3x^9 - 12x - 13$. Wrong &mdash; you cannot combine $3x^3$ and $-6x^6$ into $-3x^9$ (different degrees), and the constant sign is wrong.</li><li>B: $-6x^6 + 3x^3 - 12x + 13$. Matches the simplified expression. Correct.</li><li>C: $-6x^6 + 3x^3 + 4x + 5$. Wrong &mdash; sign on $-8x$ and on $-(-4)$ were mishandled.</li><li>D: $-3x^9 - 4x + 5$. Wrong &mdash; same illegal exponent addition and arithmetic errors.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "<ul><li>A: $-3x^9 - 12x - 13$. Wrong &mdash; you cannot combine $3x^3$ and $-6x^6$ into $-3x^9$ (different degrees), and the constant sign is wrong.</li><li>B: $-6x^6 + 3x^3 - 12x + 13$. Matches the simplified expression. Correct.</li><li>C: $-6x^6 + 3x^3 + 4x + 5$. Wrong &mdash; sign on $-8x$ and on $-(-4)$ were mishandled.</li><li>D: $-3x^9 - 4x + 5$. Wrong &mdash; same illegal exponent addition and arithmetic errors.</li></ul>That confirms <strong>B</strong> is correct."
     }
   ]
 }

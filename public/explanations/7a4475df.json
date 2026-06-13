@@ -13,7 +13,7 @@
     },
     {
       "title": "Write the exponential model",
-      "content": "The model is $$p(x)=2{,}000(1.03)^x$$ This has initial value $2{,}000$ and multiplies by $1.03$ each year, so choice <strong>C</strong> is correct."
+      "content": "The model is $$p(x)=2{,}000(1.03)^x$$ This has initial value $2{,}000$ and multiplies by $1.03$ each year, so <strong>C</strong> is correct."
     }
   ]
 }

@@ -1,14 +1,15 @@
 {
+  "questionId": "d9137a84",
   "qid": "d9137a84",
   "steps": [
     {
-      "text": "Distribute the monomial $x^{-6}y^{3}z^{5}$ to each term of the binomial: $(x^{-6}y^{3}z^{5})(x^{4}z^{5}+y^{8}z^{-7}) = (x^{-6}y^{3}z^{5})(x^{4}z^{5}) + (x^{-6}y^{3}z^{5})(y^{8}z^{-7})$."
+      "content": "Distribute the monomial $x^{-6}y^{3}z^{5}$ to each term of the binomial: $(x^{-6}y^{3}z^{5})(x^{4}z^{5}+y^{8}z^{-7}) = (x^{-6}y^{3}z^{5})(x^{4}z^{5}) + (x^{-6}y^{3}z^{5})(y^{8}z^{-7})$."
     },
     {
-      "text": "Apply the rule $x^{a}\\cdot x^{b}=x^{a+b}$ to each product. First term: $x^{-6+4}y^{3}z^{5+5}=x^{-2}y^{3}z^{10}$. Second term: $x^{-6}y^{3+8}z^{5+(-7)}=x^{-6}y^{11}z^{-2}$."
+      "content": "Apply the rule $x^{a}\\cdot x^{b}=x^{a+b}$ to each product. First term: $x^{-6+4}y^{3}z^{5+5}=x^{-2}y^{3}z^{10}$. Second term: $x^{-6}y^{3+8}z^{5+(-7)}=x^{-6}y^{11}z^{-2}$."
     },
     {
-      "text": "Combine to get $x^{-2}y^{3}z^{10}+x^{-6}y^{11}z^{-2}$. Evaluate each choice:<ul><li>Choice A: $x^{-2}z^{10}+y^{11}z^{-2}$ &mdash; missing the $y^{3}$ factor in the first term and the $x^{-6}$ factor in the second term. Incorrect.</li><li>Choice B: $x^{-2}z^{10}+x^{-6}z^{-2}$ &mdash; missing $y^{3}$ in the first term and $y^{11}$ in the second term. Incorrect.</li><li>Choice C: $x^{-2}y^{3}z^{10}+y^{8}z^{-7}$ &mdash; the first term is correct but the second term retains the original $y^{8}z^{-7}$ without the $x^{-6}y^{3}$ factors applied. Incorrect.</li><li>Choice D: $x^{-2}y^{3}z^{10}+x^{-6}y^{11}z^{-2}$ &mdash; matches both computed terms exactly. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
+      "content": "Combine to get $x^{-2}y^{3}z^{10}+x^{-6}y^{11}z^{-2}$. Evaluate each choice:<ul><li><strong>\"${x}^{-2}{z}^{10}+{y}^{11}{z}^{-2}$\"</strong>: missing the $y^{3}$ factor in the first term and the $x^{-6}$ factor in the second term. Incorrect.</li><li><strong>\"${x}^{-2}{z}^{10}+{x}^{-6}{z}^{-2}$\"</strong>: missing $y^{3}$ in the first term and $y^{11}$ in the second term. Incorrect.</li><li><strong>\"${x}^{-2}{y}^{3}{z}^{10}+{y}^{8}{z}^{-7}$\"</strong>: the first term is correct but the second term retains the original $y^{8}z^{-7}$ without the $x^{-6}y^{3}$ factors applied. Incorrect.</li><li><strong>\"${x}^{-2}{y}^{3}{z}^{10}+{x}^{-6}{y}^{11}{z}^{-2}$\"</strong>: matches both computed terms exactly. That matches the correct answer — <strong>D</strong> is correct.</li></ul>"
     }
   ],
   "correctAnswer": "D"

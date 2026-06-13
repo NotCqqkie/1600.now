@@ -262,7 +262,7 @@
     "difficulty": "Medium",
     "question_number": 9,
     "test_name": "Module Source 085 Eng M1",
-    "passage": "Information in the text best supports which statement about the finding made by Altınışık et al.?\nArchaeologists have observed similarities in the tools, such as bidirectional blades, uncovered at the Neolithic-period Mesopotamian settlement of Cayönü Tepesi and those uncovered at roughly contemporaneous settlements elsewhere in Southwest Asia, including those in the South Levant, Central Anatolia, and Central Zagros. Although similarities in tools could be attributed to imitative behavior or trade, Nefize Ezgi Altınışık et al. found evidence of genetic affinity among the populations of Cayönü Tepesi, Central Anatolia, the South Levant, and—to a lesser extent—Central Zagros.",
+    "passage": "Information in the text best supports which statement about the finding made by Altınışık et al.?\nArchaeologists have observed similarities in the tools, such as bidirectional blades, uncovered at the Neolithic-period Mesopotamian settlement of Cayönü Tepesi and those uncovered at roughly contemporaneous settlements elsewhere in Southwest Asia, including those in the South Levant, Central Anatolia, and Central Zagros. Although similarities in tools could be attributed to imitative behavior or trade, Nefize Ezgi Altınışık et al. found evidence of genetic affinity among the populations of Cayönü Tepesi, Central Anatolia, the South Levant, and--to a lesser extent--Central Zagros.",
     "question_text": "Information in the text best supports which statement about the finding made by Altınışık et al.?",
     "choices": [
       {
@@ -403,7 +403,7 @@
       },
       {
         "label": "C",
-        "text": "\"Say not the age is hard and cold— / I think it brave and grand; / When men of diverse sects and creeds / Are clasping hand in hand.\" (from \"The Present Age\")"
+        "text": "\"Say not the age is hard and cold-- / I think it brave and grand; / When men of diverse sects and creeds / Are clasping hand in hand.\" (from \"The Present Age\")"
       },
       {
         "label": "D",
@@ -822,7 +822,7 @@
       },
       {
         "label": "B",
-        "text": "By studying solar and geoneutrinos—to name just one example—particle physicists can learn more about neutrinos."
+        "text": "By studying solar and geoneutrinos--to name just one example--particle physicists can learn more about neutrinos."
       },
       {
         "label": "C",

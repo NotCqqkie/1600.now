@@ -1,1 +1,15 @@
-{"questionId":"25547537-4b75-4c1c-8c86-e3b70293c301_11","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage says Mrs. Sommers &lsquo;becomes engrossed in the decision of how she should spend&rsquo; her money. The blank needs a quotation that shows deep, absorbed engagement with spending decisions specifically."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;The question of investment was one that occupied her greatly...really absorbed in speculation and calculation.&rsquo;</strong>: directly shows her engrossed in financial planning. &#10003;</li><li><strong>Choice B &mdash; &lsquo;The neighbors sometimes talked of certain &lsquo;better days&rsquo;...&rsquo;</strong>: describes her past, not her engagement with spending decisions. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Mrs. Sommers was one who knew the value of bargains...&rsquo;</strong>: describes a general shopping habit, not absorption in a specific spending decision. &#10007;</li><li><strong>Choice D &mdash; &lsquo;It seemed to her a very large amount of money...&rsquo;</strong>: describes her feeling about the sum, not her engagement with deciding how to spend it. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "25547537-4b75-4c1c-8c86-e3b70293c301_11",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage says Mrs. Sommers &lsquo;becomes engrossed in the decision of how she should spend&rsquo; her money. The blank needs a quotation that shows deep, absorbed engagement with spending decisions specifically."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; \"The question of investment was one that occupied her greatly. For a day or two she walked about apparently in a dreamy state, but really absorbed in speculation and calculation.\"</strong>: directly shows her engrossed in financial planning. &#10003;</li><li><strong>Choice B &mdash; \"The neighbors sometimes talked of certain 'better days' that little Mrs. Sommers had known before she had ever thought of being Mrs. Sommers.\"</strong>: describes her past, not her engagement with spending decisions. &#10007;</li><li><strong>Choice C &mdash; \"Mrs. Sommers was one who knew the value of bargains; who could stand for hours making her way inch by inch toward the desired object that was selling below cost.\"</strong>: describes a general shopping habit, not absorption in a specific spending decision. &#10007;</li><li><strong>Choice D &mdash; \"It seemed to her a very large amount of money, and the way in which it stuffed and bulged her worn old porte-monnaie gave her a feeling of importance such as she had not enjoyed for years.\"</strong>: describes her feeling about the sum, not her engagement with deciding how to spend it. &#10007;</li></ul>That matches <strong>Choice A &mdash; \"The question of investment was one that occupied her greatly. For a day or two she walked about apparently in a dreamy state, but really absorbed in speculation and calculation.\"</strong>."
+    }
+  ]
+}

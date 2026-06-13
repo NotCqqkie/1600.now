@@ -1,1 +1,15 @@
-{"questionId": "5179fd36", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the central logic", "content": "The passage explains that because ecosystems cross the border, one side's actions affect the other, making international cooperation essential."}, {"title": "Match the word to the logic", "content": "”Requires” means coordination is mandatory when one side's actions affect the other—not optional, not just recommended.<br/><br/>The other three describe unrelated concepts: evaluation (“praises”), documentation (“reports”), and suggestion (“advises”). <br/> This matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "5179fd36",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the central logic",
+      "content": "The passage explains that because ecosystems cross the border, one side's actions affect the other, making international cooperation essential."
+    },
+    {
+      "title": "Match the word to the logic",
+      "content": "”Requires” means coordination is mandatory when one side's actions affect the other—not optional, not just recommended.<br/><br/>The other three describe unrelated concepts: evaluation (“praises”), documentation (“reports”), and suggestion (“advises”). <br/> This matches the correct answer — <strong>A</strong> is correct."
+    }
+  ]
+}

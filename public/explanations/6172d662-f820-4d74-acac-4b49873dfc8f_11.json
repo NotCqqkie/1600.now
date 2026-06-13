@@ -1,1 +1,15 @@
-{"questionId": "6172d662-f820-4d74-acac-4b49873dfc8f_11", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the required pattern", "content": "The researcher claims some lakes show declining ice duration from the early 1980s to mid-2000s. Evidence must compare the same lake's ice days in 1980-81 and 2005-06, showing a decrease."}, {"title": "Find the lake with declining ice days", "content": "Kalmarinjarvi had 198 ice days in 1980-81 and 152 in 2005-06—a decline that matches the researcher's claim.<br/><br/>Choices B and C compare different lakes rather than showing decline over time, while Choice D shows Lake Neusiedl gaining ice days (77 to 104), not losing them.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "6172d662-f820-4d74-acac-4b49873dfc8f_11",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the required pattern",
+      "content": "The researcher claims some lakes show declining ice duration from the early 1980s to mid-2000s. Evidence must compare the same lake's ice days in 1980-81 and 2005-06, showing a decrease."
+    },
+    {
+      "title": "Find the lake with declining ice days",
+      "content": "Kalmarinjarvi had 198 ice days in 1980-81 and 152 in 2005-06—a decline that matches the researcher's claim.<br/><br/>The other choices compare different lakes rather than showing decline over time, while Choice D (&lsquo;Lake Neusiedl had more days of ice in the winter of 2005-06 than it had in the winter of 1980-81.&rsquo;) shows Lake Neusiedl gaining ice days (77 to 104), not losing them.<br/><br/>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Identify the boundary line",
-      "content": "Use the answer choices as shortcuts. The boundary line in the graph crosses the $y$-axis at $6$ and slopes downward steeply, so the only possible boundary is $y=-4x+6$. That leaves choices A and C."
+      "content": "Use the answer choices as shortcuts. The boundary line in the graph crosses the $y$-axis at $6$ and slopes downward steeply, so the only possible boundary is $y=-4x+6$. That leaves those choices."
     },
     {
       "title": "Determine the inequality direction",
-      "content": "The shaded region is above the boundary line. A point above the line, such as $(0,8)$, satisfies $8>-4(0)+6$. Therefore the inequality uses $>$, not $\\lt$."
+      "content": "The shaded region is above the boundary line. A point above the line, such as $(0,8)$, satisfies $8\\gt -4(0)+6$. Therefore the inequality uses $\\gt $, not $\\lt$."
     },
     {
       "title": "Eliminate the answer choices",
-      "content": "<ul><li>A) $y\\lt -4x+6$: correct line but the shading is above, not below.</li><li>B) $y\\lt 6x-4$: slope $6$ and y-intercept $-4$ do not match the boundary.</li><li>C) $y>-4x+6$: correct line and correct direction (above).</li><li>D) $y>6x-4$: wrong slope and wrong y-intercept.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+      "content": "<ul><li>A) $y\\lt -4x+6$: correct line but the shading is above, not below.</li><li>B) $y\\lt 6x-4$: slope $6$ and y-intercept $-4$ do not match the boundary.</li><li>C) $y\\gt -4x+6$: correct line and correct direction (above).</li><li>D) $y\\gt 6x-4$: wrong slope and wrong y-intercept.</li></ul>That confirms <strong>C</strong> is correct."
     }
   ]
 }

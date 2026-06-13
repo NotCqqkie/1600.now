@@ -1,1 +1,15 @@
-{"questionId": "c54d28b8-d1aa-4370-ad6c-356768c9033c_1", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the relationship", "content": "Breton's realist style emphasizes <strong>accuracy and ordinary people</strong>. Gleyre's romantic style <strong>idealized subjects</strong> with staged settings and unblemished skin. The blank describes how the realist style relates to romantic conventions &mdash; and the contrast between the two styles signals opposition, not continuation."}, {"title": "Eliminate and confirm", "content": "<ul><li><strong>Choice A &mdash; 'rejected'</strong>: means turned away or refused &mdash; the realist style abandoned romantic conventions entirely, which matches the sharp contrast the passage describes. &#10003;</li><li><strong>Choice B &mdash; 'extended'</strong>: means built on or expanded &mdash; but the realist and romantic styles are opposites; realism did not continue romantic conventions. &#10007;</li><li><strong>Choice C &mdash; 'imitated'</strong>: means copied &mdash; but the passage contrasts the two styles, so the realist style cannot have imitated the romantic style. &#10007;</li><li><strong>Choice D &mdash; 'epitomized'</strong>: means was the perfect example of &mdash; but that would make realism a prime instance of romanticism, which contradicts the passage. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "c54d28b8-d1aa-4370-ad6c-356768c9033c_1",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the relationship",
+      "content": "Breton's realist style emphasizes <strong>accuracy and ordinary people</strong>. Gleyre's romantic style <strong>idealized subjects</strong> with staged settings and unblemished skin. The blank describes how the realist style relates to romantic conventions &mdash; and the contrast between the two styles signals opposition, not continuation."
+    },
+    {
+      "title": "Eliminate and confirm",
+      "content": "<ul><li><strong>Choice A &mdash; rejected</strong>: means turned away or refused &mdash; the realist style abandoned romantic conventions entirely, which matches the sharp contrast the passage describes. &#10003;</li><li><strong>Choice B &mdash; extended</strong>: means built on or expanded &mdash; but the realist and romantic styles are opposites; realism did not continue romantic conventions. &#10007;</li><li><strong>Choice C &mdash; imitated</strong>: means copied &mdash; but the passage contrasts the two styles, so the realist style cannot have imitated the romantic style. &#10007;</li><li><strong>Choice D &mdash; epitomized</strong>: means was the perfect example of &mdash; but that would make realism a prime instance of romanticism, which contradicts the passage. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

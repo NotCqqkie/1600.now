@@ -17,7 +17,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li><strong>A) 0:</strong> Matches the solution $(6, 0)$ since $6 \\cdot 0 = 0$.</li><li><strong>B) 6:</strong> Neither solution yields $xy = 6$.</li><li><strong>C) 12:</strong> Neither solution yields $xy = 12$.</li><li><strong>D) 36:</strong> Neither solution yields $xy = 36$.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li><strong>A) 0:</strong> Matches the solution $(6, 0)$ since $6 \\cdot 0 = 0$.</li><li><strong>B) 6:</strong> Neither solution yields $xy = 6$.</li><li><strong>C) 12:</strong> Neither solution yields $xy = 12$.</li><li><strong>D) 36:</strong> Neither solution yields $xy = 36$.</li></ul>That matches <strong>Choice A &mdash; 0</strong>."
     }
   ]
 }

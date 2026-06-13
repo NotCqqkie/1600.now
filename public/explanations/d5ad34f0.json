@@ -1,1 +1,15 @@
-{"questionId": "d5ad34f0", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the relationship the blank must express", "content": "Clinical trials &quot;fail to [blank]&quot; conclusions practitioners reach from real-world observations. One reason: practitioners may overlook confounding variables &mdash; meaning their conclusions can be wrong or incomplete. The blank must mean something like &quot;confirm&quot; or &quot;support.&quot;<ul><li><strong>Choice A &mdash; 'circumvent'</strong>: means to get around or bypass; trial results can&apos;t bypass a conclusion &#10007;</li><li><strong>Choice B &mdash; 'corroborate'</strong>: means to confirm or support with evidence; trials that find different results &quot;fail to corroborate&quot; practitioners&apos; conclusions &#10003;</li><li><strong>Choice C &mdash; 'disseminate'</strong>: means to spread widely; trial results don&apos;t spread conclusions &#10007;</li><li><strong>Choice D &mdash; 'implement'</strong>: means to put into effect; trial results don&apos;t enact conclusions &#10007;</li></ul>"}, {"title": "Confirm with context", "content": "When practitioners overlook confounding variables, their conclusions about what caused an outcome can be flawed. A rigorous clinical trial controls for those variables &mdash; so it would naturally produce different results and &quot;fail to corroborate&quot; the practitioner&apos;s observation.<br/><br/>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "d5ad34f0",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the relationship the blank must express",
+      "content": "Clinical trials \"fail to [blank]\" conclusions practitioners reach from real-world observations. One reason: practitioners may overlook confounding variables &mdash; meaning their conclusions can be wrong or incomplete. The blank must mean something like \"confirm\" or \"support.\"<ul><li><strong>\"circumvent\"</strong>: means to get around or bypass; trial results can't bypass a conclusion &#10007;</li><li><strong>\"corroborate\"</strong>: means to confirm or support with evidence; trials that find different results \"fail to corroborate\" practitioners' conclusions &#10003;</li><li><strong>\"disseminate\"</strong>: means to spread widely; trial results don't spread conclusions &#10007;</li><li><strong>\"implement\"</strong>: means to put into effect; trial results don't enact conclusions &#10007;</li></ul>"
+    },
+    {
+      "title": "Confirm with context",
+      "content": "When practitioners overlook confounding variables, their conclusions about what caused an outcome can be flawed. A rigorous clinical trial controls for those variables &mdash; so it would naturally produce different results and \"fail to corroborate\" the practitioner's observation.<br/><br/>That matches the correct answer — <strong>B</strong> is correct."
+    }
+  ]
+}

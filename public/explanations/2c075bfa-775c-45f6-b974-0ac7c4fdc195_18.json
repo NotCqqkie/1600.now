@@ -1,1 +1,15 @@
-{"questionId":"2c075bfa-775c-45f6-b974-0ac7c4fdc195_18","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence opens with an introductory prepositional phrase: &apos;With almost two millennia of climate data in its tree [rings]&apos;. The blank must correctly punctuate the boundary between that introductory phrase and the main clause that begins &apos;a single tree like this&apos;."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'rings and a'</strong>: uses &apos;and&apos; to join the phrase to the main clause as if they are parallel items, which is grammatically incorrect here. &#10007;</li><li><strong>Choice B &mdash; 'rings, a'</strong>: places a comma after the introductory phrase, correctly separating it from the main clause. &#10003;</li><li><strong>Choice C &mdash; 'rings. A'</strong>: creates a period, making the introductory phrase a sentence fragment on its own. &#10007;</li><li><strong>Choice D &mdash; 'rings; a'</strong>: a semicolon must join two independent clauses. The introductory phrase is not an independent clause, so the semicolon is incorrect. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_18",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence opens with an introductory prepositional phrase: &apos;With almost two millennia of climate data in its tree [rings]&apos;. The blank must correctly punctuate the boundary between that introductory phrase and the main clause that begins &apos;a single tree like this&apos;."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — rings and a</strong>: uses &apos;and&apos; to join the phrase to the main clause as if they are parallel items, which is grammatically incorrect here. &#10007;</li><li><strong>Choice B — rings, a</strong>: places a comma after the introductory phrase, correctly separating it from the main clause. &#10003;</li><li><strong>Choice C — rings. A</strong>: creates a period, making the introductory phrase a sentence fragment on its own. &#10007;</li><li><strong>Choice D — rings; a</strong>: a semicolon must join two independent clauses. The introductory phrase is not an independent clause, so the semicolon is incorrect. &#10007;</li></ul><strong>B</strong> is correct."
+    }
+  ]
+}

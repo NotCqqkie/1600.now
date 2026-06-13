@@ -1,1 +1,15 @@
-{"questionId": "caff462a-5a62-4fc6-ba41-dd82318ce399_14", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "Nunez and colleagues claim that mapping time onto a front/back axis is &apos;not in fact ubiquitous.&apos; The question asks which finding best supports this claim &mdash; meaning evidence that some group&apos;s temporal gestures are NOT anchored to a fixed front/back axis."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; unrelated gesture habits</strong>: describes how Yupno speakers gesture in other contexts, not temporal gestures tied to a front/back axis. &#10007;</li><li><strong>Choice B &mdash; Yupno speakers gesture ahead when facing uphill, behind when facing downhill'</strong>: shows their temporal gestures shift with terrain orientation, meaning no fixed front/back axis governs them &mdash; directly supporting the claim that this mapping is not universal. &#10003;</li><li><strong>Choice C &mdash; indoor/outdoor frequency'</strong>: notes when temporal gestures occur, not whether they follow a consistent front/back axis. &#10007;</li><li><strong>Choice D &mdash; grammatical similarity to Spanish'</strong>: addresses language structure, not gestural or spatial mapping of time. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "caff462a-5a62-4fc6-ba41-dd82318ce399_14",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "Nunez and colleagues claim that mapping time onto a front/back axis is &apos;not in fact ubiquitous.&apos; The question asks which finding best supports this claim &mdash; meaning evidence that some group&apos;s temporal gestures are NOT anchored to a fixed front/back axis."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Yupno speakers typically use their left hand to make temporal gestures regardless of whether the gestures are past oriented or future oriented.</strong>: describes how Yupno speakers gesture in other contexts, not temporal gestures tied to a front/back axis. &#10007;</li><li><strong>Choice B &mdash; When outdoors and referring to the future, Yupno speakers facing uphill gesture in front of themselves, whereas those facing downhill gesture behind themselves.</strong>: shows their temporal gestures shift with terrain orientation, meaning no fixed front/back axis governs them &mdash; directly supporting the claim that this mapping is not universal. &#10003;</li><li><strong>Choice C &mdash; Yupno speakers were observed making temporal gestures both indoors and outdoors, though with greater frequency when indoors.</strong>: notes when temporal gestures occur, not whether they follow a consistent front/back axis. &#10007;</li><li><strong>Choice D &mdash; Some Yupno grammatical structures used when talking about time is also used in Spanish.</strong>: addresses language structure, not gestural or spatial mapping of time. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

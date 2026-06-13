@@ -13,7 +13,7 @@
     },
     {
       "title": "Factor and solve",
-      "content": "The quadratic $x^2 + 16x - 36 = 0$ factors as $(x - 2)(x + 18) = 0$. This gives $x = 2$ or $x = -18$. Since $x$ represents a width, we need $x > 0$, so $x = 2$. That matches choice A — <strong>A</strong> is correct."
+      "content": "The quadratic $x^2 + 16x - 36 = 0$ factors as $(x - 2)(x + 18) = 0$. This gives $x = 2$ or $x = -18$. Since $x$ represents a width, we need $x \\gt 0$, so $x = 2$. That confirms <strong>A</strong> is correct."
     }
   ]
 }

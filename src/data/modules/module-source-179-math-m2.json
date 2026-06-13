@@ -6,7 +6,7 @@
     "difficulty": "Easy",
     "question_number": 1,
     "test_name": "Module Source 179 Math M2",
-    "passage": "The graph of a rational function is shown for some values of $ x $. What is the $ y $-coordinate of the $ y $-intercept of the graph?",
+    "passage": "The graph of a rational function is shown for some values of $x$. What is the $y$-coordinate of the $y$-intercept of the graph?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -28,7 +28,7 @@
     "difficulty": "Easy",
     "question_number": 2,
     "test_name": "Module Source 179 Math M2",
-    "passage": "Monarch butterflies can fly only with a body temperature of at least $55.0$ degrees Fahrenheit (°F). If a monarch butterfly's body temperature is $34.3$°F, what is the minimum increase needed in its body temperature, in °F, so that it can fly?",
+    "passage": "Monarch butterflies can fly only with a body temperature of at least $55.0$ degrees Fahrenheit (°F). If a monarch butterfly's body temperature is $34.3^\\circ\\text{F}$, what is the minimum increase needed in its body temperature, in °F, so that it can fly?",
     "question_text": null,
     "choices": [
       {
@@ -131,7 +131,7 @@
     "difficulty": "Easy",
     "question_number": 5,
     "test_name": "Module Source 179 Math M2",
-    "passage": "A dog has a mass of 36 kilograms. What is the dog's mass, in <u>grams</u>?(1 kilogram = 1,000 grams)",
+    "passage": "A dog has a mass of 36 kilograms. What is the dog's mass, in <u>grams</u>? (1 kilogram = 1,000 grams)",
     "question_text": null,
     "choices": [
       {
@@ -242,7 +242,7 @@
     "difficulty": "Easy",
     "question_number": 9,
     "test_name": "Module Source 179 Math M2",
-    "passage": "$4x+5y=77$ represents this situation. If there are 8 Rosa sericea flowers in this group, how many Rosa caesia flowers are in this group?",
+    "passage": "$4x+5y=77$ represents this situation, where $x$ is the number of Rosa sericea flowers and $y$ is the number of Rosa caesia flowers in the group. If there are 8 Rosa sericea flowers in this group, how many Rosa caesia flowers are in this group?",
     "question_text": null,
     "choices": [
       {
@@ -279,19 +279,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$f(24) < 0$"
+        "text": "$f(24) \\lt 0$"
       },
       {
         "label": "B",
-        "text": "$f(3) < 0$"
+        "text": "$f(3) \\lt 0$"
       },
       {
         "label": "C",
-        "text": "$f(3) > 0$"
+        "text": "$f(3) \\gt 0$"
       },
       {
         "label": "D",
-        "text": "$f(0) < 24$"
+        "text": "$f(0) \\lt 24$"
       }
     ],
     "is_fill_in_blank": false,
@@ -495,24 +495,24 @@
     "difficulty": "Medium",
     "question_number": 17,
     "test_name": "Module Source 179 Math M2",
-    "passage": "The given equation relates the positive numbers $ p $, $ x $, and $ y $. Which equation correctly expresses $ y $ in terms of $ p $ and $ x $?",
+    "passage": "$\\frac{y-34}{x}=p$\nThe given equation relates the positive numbers $p$, $x$, and $y$. Which equation correctly expresses $y$ in terms of $p$ and $x$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$ y = 34x + p $"
+        "text": "$y = 34x + p$"
       },
       {
         "label": "B",
-        "text": "$ y = px + 34 $"
+        "text": "$y = px + 34$"
       },
       {
         "label": "C",
-        "text": "$ y = 34px $"
+        "text": "$y = 34px$"
       },
       {
         "label": "D",
-        "text": "$ y = \\frac{px}{34} $"
+        "text": "$y = \\frac{px}{34}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -527,7 +527,7 @@
     "difficulty": "Easy",
     "question_number": 18,
     "test_name": "Module Source 179 Math M2",
-    "passage": "The point with coordinates (7, c) lies on the line shown. What is the value of c?",
+    "passage": "The point with coordinates $(7, c)$ lies on the line shown. What is the value of $c$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

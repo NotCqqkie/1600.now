@@ -1,1 +1,15 @@
-{"questionId": "757077f9", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The researchers previously argued that Bronze Age societies were ruled by men.<br/><br/>The finding is attempting to “persuade” them to [blank] that women may have also held leadership roles.<br/><br/>The word <strong>persuade</strong> is the decisive signal—it indicates the researchers are being convinced to shift or expand their original position."}, {"title": "Match the signal to the answer", "content": "<strong>Concede</strong> means to admit or acknowledge, which is exactly what happens when you persuade someone to accept a new claim.<br/><br/>The other three choices don't work because they either don't fit accepting a belief (waive and require don't mean “to admit”) or contradict the evidence's purpose (refute means disprove, not support).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "757077f9",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The researchers previously argued that Bronze Age societies were ruled by men.<br/><br/>The finding is attempting to “persuade” them to [blank] that women may have also held leadership roles.<br/><br/>The word <strong>persuade</strong> is the decisive signal—it indicates the researchers are being convinced to shift or expand their original position."
+    },
+    {
+      "title": "Match the signal to the answer",
+      "content": "<strong>Concede</strong> means to admit or acknowledge, which is exactly what happens when you persuade someone to accept a new claim.<br/><br/>The other three choices don't work because they either don't fit accepting a belief (waive and require don't mean “to admit”) or contradict the evidence's purpose (refute means disprove, not support).<br/><br/>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

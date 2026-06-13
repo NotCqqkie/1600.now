@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the answer",
-      "content": "Choice A matches the equation. Choice B swaps the roles of $2$ and $49$, choice C incorrectly combines them into $51x+2$, and choice D uses the wrong slope. Choice <strong>A</strong> is correct."
+      "content": "The remaining alternative uses the wrong slope. $y=2x+49$ is correct."
     }
   ]
 }

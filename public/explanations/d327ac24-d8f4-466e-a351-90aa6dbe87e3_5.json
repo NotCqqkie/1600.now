@@ -13,7 +13,7 @@
     },
     {
       "title": "Match to the answer choices",
-      "content": "The simplified expression is $6x^2 + 18x$.<ul><li><strong>A</strong>: $6x^2+3$ — the second term should be $18x$, not the constant $3$. Eliminated.</li><li><strong>B</strong>: $6x^2+18x$ — matches exactly. That matches choice B — <strong>B</strong> is correct.</li><li><strong>C</strong>: $7x^2+3$ — wrong coefficient on $x^2$ and wrong second term. Eliminated.</li><li><strong>D</strong>: $7x^2+9x$ — wrong coefficient on $x^2$. Eliminated.</li></ul>"
+      "content": "The simplified expression is $6x^2 + 18x$.<ul><li><strong>A</strong>: $6x^2+3$ — the second term should be $18x$, not the constant $3$. Eliminated.</li><li><strong>B</strong>: $6x^2+18x$ — matches exactly. That is the correct answer.</li><li><strong>C</strong>: $7x^2+3$ — wrong coefficient on $x^2$ and wrong second term. Eliminated.</li><li><strong>D</strong>: $7x^2+9x$ — wrong coefficient on $x^2$. Eliminated.</li></ul>"
     }
   ]
 }

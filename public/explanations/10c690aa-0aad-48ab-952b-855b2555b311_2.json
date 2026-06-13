@@ -9,7 +9,7 @@
     },
     {
       "title": "Calculate the temperature increase",
-      "content": "Subtract the current temperature from the required minimum temperature:<br/>$$55.0 - 34.3 = 20.7°F$$<br/>That matches choice D — <strong>D</strong> is correct."
+      "content": "Subtract the current temperature from the required minimum temperature:<br/>$$55.0 - 34.3 = 20.7^{\\circ}\\text{F}$$<br/>That matches <strong>Choice D &mdash; 20.7</strong>."
     }
   ]
 }

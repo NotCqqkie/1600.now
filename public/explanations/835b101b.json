@@ -1,1 +1,15 @@
-{"questionId": "835b101b", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what makes a contrast work", "content": "For a contrast to accomplish its purpose, the answer must present both things side-by-side. The prompt asks to contrast Minnesota's definition (size-based: at least 10 acres) with Wisconsin's (no size requirement). An effective answer must show both clearly."}, {"title": "Find the choice that presents both definitions and their difference", "content": "Choice D states Minnesota's definition (“an inland body of water of at least 10 acres”) and Wisconsin's (“doesn't take size into account”), then explicitly calls Minnesota's “more restrictive.” The other choices either address only one definition or acknowledge difference without explaining it.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "835b101b",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what makes a contrast work",
+      "content": "For a contrast to accomplish its purpose, the answer must present both things side-by-side. The prompt asks to contrast Minnesota's definition (size-based: at least 10 acres) with Wisconsin's (no size requirement). An effective answer must show both clearly."
+    },
+    {
+      "title": "Find the choice that presents both definitions and their difference",
+      "content": "The correct answer states Minnesota's definition (“an inland body of water of at least 10 acres”) and Wisconsin's (“doesn't take size into account”), then explicitly calls Minnesota's “more restrictive.” The other choices either address only one definition or acknowledge difference without explaining it.<br/><br/>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_26", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the goal and the key information", "content": "The student needs to identify the painting Shannon won for. The notes specify the title: <em>Miss Kitty</em>. To accomplish this goal, the answer must include that title."}, {"title": "Match the answer choices to the goal", "content": "Choice D names Shannon's winning painting as <em>Miss Kitty</em>—exactly what the goal requires.<br/><br/>The other choices lack this essential identification; A and B provide only contextual background about the prize and institution, while C vaguely references a painting without naming it.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_26",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the goal and the key information",
+      "content": "The student needs to identify the painting Shannon won for. The notes specify the title: <em>Miss Kitty</em>. To accomplish this goal, the answer must include that title."
+    },
+    {
+      "title": "Match the answer choices to the goal",
+      "content": "The correct response names Shannon's winning painting as <em>Miss Kitty</em>—exactly what the goal requires.<br/><br/>The other choices lack this essential identification; A and B provide only contextual background about the prize and institution, while C vaguely references a painting without naming it.<br/><br/>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

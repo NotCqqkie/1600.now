@@ -1,1 +1,15 @@
-{"questionId": "92bd954b-0e12-4b86-bc5f-d64490221af2_11", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Extract the three values from the table", "content": "Tribal economic activity: \\$7,312,400,000. Administration/waste: \\$5,830,600,000. Real estate: \\$18,314,700,000. The task is to order these and find which description fits the tribal contribution relative to the other two."}, {"title": "Order the values and match the correct relationship", "content": "From smallest to largest: administration/waste (\\$5.83 billion) < tribal economic activity (\\$7.31 billion) < real estate (\\$18.31 billion). The tribal contribution exceeds administration/waste but falls short of real estate—a sandwich relationship. The other three choices either reverse the relationship, claim equality where numbers differ, or place tribal contribution outside the range of the other two. That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "92bd954b-0e12-4b86-bc5f-d64490221af2_11",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Extract the three values from the table",
+      "content": "Tribal economic activity: \\$7,312,400,000. Administration/waste: \\$5,830,600,000. Real estate: \\$18,314,700,000. The task is to order these and find which description fits the tribal contribution relative to the other two."
+    },
+    {
+      "title": "Order the values and match the correct relationship",
+      "content": "From smallest to largest, administration/waste contributed \\$5.83 billion, tribal economic activity contributed \\$7.31 billion, and real estate contributed \\$18.31 billion. The tribal contribution exceeds administration/waste but falls short of real estate—a sandwich relationship. The other three choices either reverse the relationship, claim equality where numbers differ, or place tribal contribution outside the range of the other two. That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

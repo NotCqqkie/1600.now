@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li><strong>A)</strong> $d + 3w = 41$ &mdash; 1 point per draw and 3 per win, matching the problem. Correct.</li><li><strong>B)</strong> $3d + w = 41$ &mdash; swaps the point values, giving draws 3 points and wins 1 point. Wrong.</li><li><strong>C)</strong> $d + \\frac{w}{3} = 41$ &mdash; divides wins by 3 instead of multiplying. Wrong.</li><li><strong>D)</strong> $\\frac{d}{3} + w = 41$ &mdash; divides draws by 3 and gives only 1 point per win. Wrong.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li><strong>A)</strong> $d + 3w = 41$ &mdash; 1 point per draw and 3 per win, matching the problem. Correct.</li><li><strong>B)</strong> $3d + w = 41$ &mdash; swaps the point values, giving draws 3 points and wins 1 point. Wrong.</li><li><strong>C)</strong> $d + \\frac{w}{3} = 41$ &mdash; divides wins by 3 instead of multiplying. Wrong.</li><li><strong>D)</strong> $\\frac{d}{3} + w = 41$ &mdash; divides draws by 3 and gives only 1 point per win. Wrong.</li></ul>That confirms <strong>A</strong> is correct."
     }
   ]
 }

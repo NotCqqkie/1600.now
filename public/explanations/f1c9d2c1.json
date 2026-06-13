@@ -1,1 +1,19 @@
-{"questionId": "f1c9d2c1", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify Bremner&apos;s claim", "content": "In Text 1, Bremner argues that Appia lacked technical expertise in the use of light in the theater."}, {"title": "Find Text 2&apos;s counter", "content": "Text 2 directly rejects this by saying Appia was &quot;not an amateur&quot; and points to his apprenticeship with a lighting specialist, where he observed portable lighting devices firsthand. That apprenticeship is the source of his technical expertise."}, {"title": "Eliminate per choice", "content": "<ul><li><strong>Choice A &mdash; 'lighting technicians dismissed Appia&apos;s ideas'</strong>: Text 2 never mentions technicians reacting to Appia; this is unsupported overreach. &#10007;</li><li><strong>Choice B &mdash; 'gained a level of technical expertise during his apprenticeship'</strong>: directly mirrors Text 2&apos;s argument and rebuts Bremner&apos;s claim. &#10003;</li><li><strong>Choice C &mdash; 'practitioners who worked with Appia greatly admired his work'</strong>: Text 2 says nothing about admiration from collaborators; off topic. &#10007;</li><li><strong>Choice D &mdash; 'unfamiliar with the use of music and sound'</strong>: the disagreement is about lighting, not music; introduces an irrelevant topic. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "f1c9d2c1",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify Bremner's claim",
+      "content": "In Text 1, Bremner argues that Appia lacked technical expertise in the use of light in the theater."
+    },
+    {
+      "title": "Find Text 2's counter",
+      "content": "Text 2 directly rejects this by saying Appia was \"not an amateur\" and points to his apprenticeship with a lighting specialist, where he observed portable lighting devices firsthand. That apprenticeship is the source of his technical expertise."
+    },
+    {
+      "title": "Eliminate per choice",
+      "content": "<ul><li><strong>\"Many lighting technicians dismissed Appia's ideas about light on the stage.\"</strong>: Text 2 never mentions technicians reacting to Appia; this is unsupported overreach. &#10007;</li><li><strong>\"Appia likely gained a level of technical expertise during his time as an apprentice.\"</strong>: directly mirrors Text 2's argument and rebuts Bremner's claim. &#10003;</li><li><strong>\"Theater practitioners who worked with Appia greatly admired his work.\"</strong>: Text 2 says nothing about admiration from collaborators; off topic. &#10007;</li><li><strong>\"Appia was unfamiliar with the use of music and sound in theater.\"</strong>: the disagreement is about lighting, not music; introduces an irrelevant topic. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+    }
+  ]
+}

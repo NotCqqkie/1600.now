@@ -1,1 +1,15 @@
-{"questionId": "fa92720e-d9b2-485a-9313-5041b77e5352_11", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Compare inner fiber fineness across all three breeds", "content": "The table shows inner fiber diameter for each sheep type (smaller diameter = softer).<br/><br/>The Navajo-Churro's inner fiber ranges 10–35 microns, with a minimum of 10 microns.<br/><br/>The Mouflon's is 15 microns. The Merino's ranges 17–21 microns, with a minimum of 17 microns.<br/><br/>The Navajo-Churro's softest inner fiber is finer than both the Mouflon's and Merino's."}, {"title": "Match this comparison to the answer choices", "content": "D directly states this finding: the Navajo-Churro's inner fiber, at its softest, is softer than either the Mouflon's or Merino's, which the table confirms (10 < 15 and 10 < 17). <ul><li>A falsely describes Navajo-Churro's inner fiber as uniform when it ranges 10–35 microns</li><li>B contradicts the passage by calling Merino unsuitable for delicate garments when it's explicitly called ideal for them</li><li>C overstates overall softness when Navajo-Churro's outer fiber remains notably coarse</li></ul>. That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "fa92720e-d9b2-485a-9313-5041b77e5352_11",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare inner fiber fineness across all three breeds",
+      "content": "The table shows inner fiber diameter for each sheep type (smaller diameter = softer).<br/><br/>The Navajo-Churro's inner fiber ranges 10–35 microns, with a minimum of 10 microns.<br/><br/>The Mouflon's is 15 microns. The Merino's ranges 17–21 microns, with a minimum of 17 microns.<br/><br/>The Navajo-Churro's softest inner fiber is finer than both the Mouflon's and Merino's."
+    },
+    {
+      "title": "Match this comparison to the answer choices",
+      "content": "D directly states this finding: the Navajo-Churro's inner fiber, at its softest, is softer than either the Mouflon's or Merino's, which the table confirms (10 < 15 and 10 < 17). <ul><li>A falsely describes Navajo-Churro's inner fiber as uniform when it ranges 10–35 microns</li><li>B contradicts the passage by calling Merino unsuitable for delicate garments when it's explicitly called ideal for them</li><li>C overstates overall softness when Navajo-Churro's outer fiber remains notably coarse</li></ul>. That matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

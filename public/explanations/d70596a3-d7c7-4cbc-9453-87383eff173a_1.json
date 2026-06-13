@@ -1,1 +1,15 @@
-{"questionId": "d70596a3-d7c7-4cbc-9453-87383eff173a_1", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the quantity clue", "content": "The dash after the blank introduces an explanatory clause: &ldquo;as many different interpretations as there are people to listen to them.&rdquo; This clause signals that the blank must describe a large, uncountable number of meanings."}, {"title": "Eliminate three choices, confirm one", "content": "<ul><li><strong>Choice A &mdash; &lsquo;superficial&rsquo;</strong>: Means shallow or lacking depth. The passage presents Guraieb&rsquo;s music as rich with valid interpretations, not as shallow. Violated rule: word meaning contradicts the passage&rsquo;s positive framing. &#10007;</li><li><strong>Choice B &mdash; &lsquo;myriad&rsquo;</strong>: Means countless or very many. &ldquo;Myriad meanings&rdquo; is confirmed directly by the dash clause describing as many interpretations as there are listeners. &#10003;</li><li><strong>Choice C &mdash; &lsquo;deficient&rsquo;</strong>: Means lacking or inadequate. The passage says interpretations are hard to call wrong, indicating the meanings are plentiful, not insufficient. &#10007;</li><li><strong>Choice D &mdash; &lsquo;untenable&rsquo;</strong>: Means indefensible or unsustainable. The passage states a listener&rsquo;s interpretation is &ldquo;difficult to justly claim&rdquo; is wrong, so calling the meanings untenable is the opposite of the passage&rsquo;s point. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "d70596a3-d7c7-4cbc-9453-87383eff173a_1",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the quantity clue",
+      "content": "The dash after the blank introduces an explanatory clause: &ldquo;as many different interpretations as there are people to listen to them.&rdquo; This clause signals that the blank must describe a large, uncountable number of meanings."
+    },
+    {
+      "title": "Eliminate three choices, confirm one",
+      "content": "<ul><li><strong>\"superficial\"</strong>: Means shallow or lacking depth. The passage presents Guraieb&rsquo;s music as rich with valid interpretations, not as shallow. Violated rule: word meaning contradicts the passage&rsquo;s positive framing. &#10007;</li><li><strong>\"myriad\"</strong>: Means countless or very many. &ldquo;Myriad meanings&rdquo; is confirmed directly by the dash clause describing as many interpretations as there are listeners. &#10003;</li><li><strong>\"deficient\"</strong>: Means lacking or inadequate. The passage says interpretations are hard to call wrong, indicating the meanings are plentiful, not insufficient. &#10007;</li><li><strong>\"untenable\"</strong>: Means indefensible or unsustainable. The passage states a listener&rsquo;s interpretation is &ldquo;difficult to justly claim&rdquo; is wrong, so calling the meanings untenable is the opposite of the passage&rsquo;s point. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+    }
+  ]
+}

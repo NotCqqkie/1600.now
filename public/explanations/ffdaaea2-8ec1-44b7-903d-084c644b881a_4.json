@@ -9,7 +9,7 @@
     },
     {
       "title": "Test each choice against the shaded region",
-      "content": "Locate each candidate point on the graph and compare its position to the shaded region shown:<ul><li><strong>Choice A - $(-5, 0)$</strong>: lies on the negative $x$-axis, outside the shaded region in the figure. Incorrect</li><li><strong>Choice B - $(0, 5)$</strong>: lies on the positive $y$-axis, outside the shaded region in the figure. Incorrect</li><li><strong>Choice C - $(0, -5)$</strong>: lies on the negative $y$-axis, outside the shaded region in the figure. Incorrect</li><li><strong>Choice D - $(5, 0)$</strong>: lies on the positive $x$-axis, inside the shaded region shown in the figure. Correct</li></ul>Only $(5, 0)$ falls within the shaded region, so it is the only ordered pair that satisfies the inequality."
+      "content": "Locate each candidate point on the graph and compare its position to the shaded region shown:<ul><li><strong>\"$(-5, 0)$\"</strong>: lies on the negative $x$-axis, outside the shaded region in the figure. Incorrect</li><li><strong>\"$(0, 5)$\"</strong>: lies on the positive $y$-axis, outside the shaded region in the figure. Incorrect</li><li><strong>\"$(0, -5)$\"</strong>: lies on the negative $y$-axis, outside the shaded region in the figure. Incorrect</li><li><strong>\"$(5, 0)$\"</strong>: lies on the positive $x$-axis, inside the shaded region shown in the figure. Correct</li></ul>Only $(5, 0)$ falls within the shaded region, so it is the only ordered pair that satisfies the inequality."
     }
   ]
 }

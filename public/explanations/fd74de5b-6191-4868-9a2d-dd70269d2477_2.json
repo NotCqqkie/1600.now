@@ -1,1 +1,15 @@
-{"questionId":"fd74de5b-6191-4868-9a2d-dd70269d2477_2","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The &quot;if instead&quot; clause is the key signal: if extinction happened before humans arrived, humans couldn't be responsible. The blank must express whether extinction and human arrival happened at the same time."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A</strong>: describes causality, not simultaneity. &#10007;</li><li><strong>Choice B</strong>: describes conflict or opposition. &#10007;</li><li><strong>Choice C &mdash; 'coincided with'</strong>: means occurred at the same time &mdash; if extinction coincided with human arrival, humans could be the cause; if it happened first, something else was. &#10003;</li><li><strong>Choice D</strong>: describes transformation, not timing. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "fd74de5b-6191-4868-9a2d-dd70269d2477_2",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The \"if instead\" clause is the key signal: if extinction happened before humans arrived, humans couldn't be responsible. The blank must express whether extinction and human arrival happened at the same time."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"compensated for\"</strong>: describes causality, not simultaneity. &#10007;</li><li><strong>\"clashed with\"</strong>: describes conflict or opposition. &#10007;</li><li><strong>\"coincided with\"</strong>: means occurred at the same time &mdash; if extinction coincided with human arrival, humans could be the cause; if it happened first, something else was. &#10003;</li><li><strong>\"developed into\"</strong>: describes transformation, not timing. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+    }
+  ]
+}

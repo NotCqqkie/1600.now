@@ -1,1 +1,15 @@
-{"questionId":"1772a8fc-3104-49c8-9168-d2704967f5fd_25","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The student wants to explain what a sky island is. The correct sentence must define the concept, not just describe the specific mountains."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; </strong>: describes the Peloncillo-Pan Duro Mountains without defining &apos;sky island.&apos; &#10007;</li><li><strong>Choice B &mdash; </strong>: defines a sky island as an isolated mountain range whose environment differs drastically from the surrounding lowlands, then uses the Peloncillo-Pan Duro Mountains as an example. &#10003;</li><li><strong>Choice C &mdash; </strong>: mentions the term &apos;sky island&apos; but does not explain what it means. &#10007;</li><li><strong>Choice D &mdash; </strong>: focuses on the surrounding lowlands rather than defining the concept. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "1772a8fc-3104-49c8-9168-d2704967f5fd_25",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The student wants to explain what a sky island is. The correct sentence must define the concept, not just describe the specific mountains."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; The Peloncillo-Pan Duro Mountains are an isolated mountain range located in northwestern Mexico whose environment differs drastically from that of the surrounding lowlands.</strong>: describes the Peloncillo-Pan Duro Mountains without defining &apos;sky island.&apos; &#10007;</li><li><strong>Choice B &mdash; A sky island is an isolated mountain range, such as the Peloncillo-Pan Duro Mountains in northwestern Mexico, whose environment differs drastically from that of the surrounding lowlands.</strong>: defines a sky island as an isolated mountain range whose environment differs drastically from the surrounding lowlands, then uses the Peloncillo-Pan Duro Mountains as an example. &#10003;</li><li><strong>Choice C &mdash; The Peloncillo-Pan Duro Mountains, which are considered to be a sky island, are located in northwestern Mexico.</strong>: mentions the term &apos;sky island&apos; but does not explain what it means. &#10007;</li><li><strong>Choice D &mdash; The USFS considers the Peloncillo-Pan Duro Mountains to be a \"unique ecosystem.\"</strong>: focuses on the surrounding lowlands rather than defining the concept. &#10007;</li></ul>That matches <strong>Choice B &mdash; A sky island is an isolated mountain range, such as the Peloncillo-Pan Duro Mountains in northwestern Mexico, whose environment differs drastically from that of the surrounding lowlands.</strong>."
+    }
+  ]
+}

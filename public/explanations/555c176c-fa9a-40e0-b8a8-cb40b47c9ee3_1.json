@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; '(0, 0)'</strong>: y = 3(0) + 13 = 13 &ne; 0. &#10007;</li><li><strong>Choice B &mdash; '(0, 13)'</strong>: y = 3(0) + 13 = 13 &#10003; and y = 3(0)^2 + 13 = 13 &#10003;. Both equations hold. &#10003;</li><li><strong>Choice C &mdash; '(26, 91)'</strong>: y = 3(26) + 13 = 91 &#10003; but y = 3(26)^2 + 13 = 2041 &ne; 91. &#10007;</li><li><strong>Choice D &mdash; '(26, 169)'</strong>: y = 3(26) + 13 = 91 &ne; 169. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "<ul><li><strong>Choice A — $(0,0)$</strong>: $y = 3(0) + 13 = 13 \\ne 0$. &#10007;</li><li><strong>Choice B — $(0,13)$</strong>: $y = 3(0) + 13 = 13$ &#10003; and $y = 3(0)^2 + 13 = 13$ &#10003;. Both equations hold. &#10003;</li><li><strong>Choice C — $(26,91)$</strong>: $y = 3(26) + 13 = 91$ &#10003; but $y = 3(26)^2 + 13 = 2041 \\ne 91$. &#10007;</li><li><strong>Choice D — $(26,169)$</strong>: $y = 3(26) + 13 = 91 \\ne 169$. &#10007;</li></ul><strong>B</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId":"a333c1fd-7b95-4086-a9bf-1d7c8b137d23_16","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank is the main verb for the subject <strong>Maya Angelou</strong>. The phrase &quot;along with others such as Lorenzo Thomas and Gwendolyn Brooks&quot; is a parenthetical set off by commas &mdash; it does not change the grammatical subject. Strip it away: &quot;The writer Maya Angelou ______ commonly associated with the Black Arts movement.&quot; The subject is singular, and the passage describes an ongoing association, so the verb must be singular present."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'have been'</strong>: &quot;have&quot; is a plural auxiliary. Maya Angelou is one person; the subject and verb disagree. &#10007;</li><li><strong>Choice B &mdash; 'is'</strong>: singular present linking verb. &quot;Maya Angelou is commonly associated&quot; &mdash; subject and verb agree in number and tense. &#10003;</li><li><strong>Choice C &mdash; 'are'</strong>: plural present. Same number error as A. &#10007;</li><li><strong>Choice D &mdash; 'were'</strong>: plural past. Wrong in both number and tense; the passage describes an ongoing association, not a past one. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_16",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank is the main verb for the subject <strong>Maya Angelou</strong>. The phrase &quot;along with others such as Lorenzo Thomas and Gwendolyn Brooks&quot; is a parenthetical set off by commas &mdash; it does not change the grammatical subject. Strip it away: &quot;The writer Maya Angelou ______ commonly associated with the Black Arts movement.&quot; The subject is singular, and the passage describes an ongoing association, so the verb must be singular present."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; have been</strong>: &quot;have&quot; is a plural auxiliary. Maya Angelou is one person; the subject and verb disagree. &#10007;</li><li><strong>Choice B &mdash; is</strong>: singular present linking verb. &quot;Maya Angelou is commonly associated&quot; &mdash; subject and verb agree in number and tense. &#10003;</li><li><strong>Choice C &mdash; are</strong>: plural present. Same number error as A. &#10007;</li><li><strong>Choice D &mdash; were</strong>: plural past. Wrong in both number and tense; the passage describes an ongoing association, not a past one. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

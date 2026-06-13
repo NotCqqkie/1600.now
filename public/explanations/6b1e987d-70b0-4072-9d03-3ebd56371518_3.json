@@ -9,7 +9,7 @@
     },
     {
       "title": "Evaluate all choices",
-      "content": "<ul><li><strong>Choice A &mdash; '$y=3x$, $x=61$'</strong>: Sets length to 61 (should be height) and says height = 3 &times; length (reversed). &#10007;</li><li><strong>Choice B &mdash; '$y=3x$, $y=61$'</strong>: Correctly sets $y=61$ but reverses the relationship: says height = 3 &times; length instead of length = 3 &times; height. &#10007;</li><li><strong>Choice C &mdash; '$x=3y$, $x=61$'</strong>: Correct relationship $x=3y$, but assigns 61 to length $x$ instead of height $y$. &#10007;</li><li><strong>Choice D &mdash; '$x=3y$, $y=61$'</strong>: $x=3y$ correctly states length = 3 &times; height; $y=61$ correctly sets height to 61 inches. That matches choice D &mdash; <strong>D</strong> is correct. &#10003;</li></ul>"
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;$y = 3x$\n$x = 61$&rsquo;</strong>: Sets length to 61 (should be height) and says height = 3 &times; length (reversed). &#10007;</li><li><strong>Choice B &mdash; &lsquo;$y = 3x$\n$y = 61$&rsquo;</strong>: Correctly sets $y=61$ but reverses the relationship: says height = 3 &times; length instead of length = 3 &times; height. &#10007;</li><li><strong>Choice C &mdash; &lsquo;$x = 3y$\n$x = 61$&rsquo;</strong>: Correct relationship $x=3y$, but assigns 61 to length $x$ instead of height $y$. &#10007;</li><li><strong>Choice D &mdash; &lsquo;$x = 3y$\n$y = 61$&rsquo;</strong>: $x=3y$ correctly states length = 3 &times; height; $y=61$ correctly sets height to 61 inches. That confirms <strong>D</strong> is correct. &#10003;</li></ul>"
     }
   ]
 }

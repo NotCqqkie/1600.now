@@ -1,1 +1,15 @@
-{"questionId": "73482b52-a20f-452d-896f-76f578ac2361_10", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal: how the passage defines relaxation", "content": "The passage explicitly states that “a reduced heart rate is considered a measure of relaxation” and that Bainbridge's claim is the lullaby “did indeed relax the infants.” To support this claim directly, any finding must show heart rates dropped during the lullaby compared to the non-lullaby."}, {"title": "Match the signal to the answer", "content": "Choice B directly reports substantially lower heart rates during the lullaby—precisely the metric the passage identifies as proof of relaxation.<ul><li>A contradicts by showing irregularity rather than reduction</li><li>C relies on subjective parent preference instead of physiological measurement</li><li>D addresses methodology without evidence of the relaxation effect</li></ul>.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "73482b52-a20f-452d-896f-76f578ac2361_10",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal: how the passage defines relaxation",
+      "content": "The passage explicitly states that “a reduced heart rate is considered a measure of relaxation” and that Bainbridge's claim is the lullaby “did indeed relax the infants.” To support this claim directly, any finding must show heart rates dropped during the lullaby compared to the non-lullaby."
+    },
+    {
+      "title": "Match the signal to the answer",
+      "content": "The correct response directly reports substantially lower heart rates during the lullaby—precisely the metric the passage identifies as proof of relaxation.<ul><li>A contradicts by showing irregularity rather than reduction</li><li>C relies on subjective parent preference instead of physiological measurement</li><li>D addresses methodology without evidence of the relaxation effect</li></ul><br/><br/>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

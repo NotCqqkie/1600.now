@@ -9,7 +9,7 @@
     },
     {
       "title": "Interpret the intercept in context",
-      "content": "The variable $m$ counts minutes after the start of the walk, so $m = 0$ corresponds to the moment before she begins walking.<br/>Therefore, the intercept $285$ represents the steps Daniela had already taken that morning before starting her walk.<br/>That matches choice D — <strong>D</strong> is correct."
+      "content": "The variable $m$ counts minutes after the start of the walk, so $m = 0$ corresponds to the moment before she begins walking.<br/>Therefore, the intercept $285$ represents the steps Daniela had already taken that morning before starting her walk.<br/>That is the correct answer."
     }
   ]
 }

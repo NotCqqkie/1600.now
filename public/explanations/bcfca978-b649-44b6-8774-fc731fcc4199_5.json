@@ -1,1 +1,15 @@
-{"questionId":"bcfca978-b649-44b6-8774-fc731fcc4199_5","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence says average ratings can be misleading when few users have rated a game, but this game has over 8,000 raters. The blank describes what kind of number 8,000 is — specifically, large enough to make the average trustworthy. The word must mean &quot;sufficient&quot; or &quot;enough.&quot;"},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'excessive'</strong>: excessive means too much — more than needed. The passage doesn't suggest 8,000 is an unreasonably large number, just that it's enough. &#10007;</li><li><strong>Choice B &mdash; 'adequate'</strong>: adequate means sufficient — exactly enough to serve the purpose. 8,000 users is an adequate number to feel confident the rating is reliable. &#10003;</li><li><strong>Choice C &mdash; 'accurate'</strong>: accurate describes precision or correctness, not quantity. 8,000 is a number of raters, not a measure of accuracy. &#10007;</li><li><strong>Choice D &mdash; 'insufficient'</strong>: insufficient means not enough — the opposite of what the passage argues. The passage says 8,000 makes the rating reliable. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "bcfca978-b649-44b6-8774-fc731fcc4199_5",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence says average ratings can be misleading when few users have rated a game, but this game has over 8,000 raters. The blank describes what kind of number 8,000 is — specifically, large enough to make the average trustworthy. The word must mean &quot;sufficient&quot; or &quot;enough.&quot;"
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; excessive</strong>: excessive means too much — more than needed. The passage doesn't suggest 8,000 is an unreasonably large number, just that it's enough. &#10007;</li><li><strong>Choice B &mdash; adequate</strong>: adequate means sufficient — exactly enough to serve the purpose. 8,000 users is an adequate number to feel confident the rating is reliable. &#10003;</li><li><strong>Choice C &mdash; accurate</strong>: accurate describes precision or correctness, not quantity. 8,000 is a number of raters, not a measure of accuracy. &#10007;</li><li><strong>Choice D &mdash; insufficient</strong>: insufficient means not enough — the opposite of what the passage argues. The passage says 8,000 makes the rating reliable. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

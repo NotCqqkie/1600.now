@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; '$2t(79t^2 - 12tu)$'</strong>: only factors out $2t$, leaving $t$ still inside both terms &mdash; not fully factored. &#10007;</li><li><strong>Choice B &mdash; '$2t^2(79t - 12u)$'</strong>: GCF of $158t^3$ and $24t^2u$ is $2t^2$. Factoring gives $2t^2(79t - 12u)$. Check: $2t^2 \\cdot 79t = 158t^3$ and $2t^2 \\cdot 12u = 24t^2u$. &#10003;</li><li><strong>Choice C &mdash; '$2t^2(79t + 12u)$'</strong>: wrong sign on the second term. &#10007;</li><li><strong>Choice D &mdash; '$2t^3(79 - 12u)$'</strong>: $2t^3 \\cdot 79 = 158t^3$ but $2t^3 \\cdot 12u = 24t^3u \\ne 24t^2u$. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; $2t^{2}(79t^{2}-12u)$</strong>: the first term would become $158t^4$, not $158t^3$. &#10007;</li><li><strong>Choice B &mdash; $2t^{2}(79t-12u)$</strong>: GCF of $158t^3$ and $24t^2u$ is $2t^2$. Factoring gives $2t^2(79t - 12u)$. Check: $2t^2 \\cdot 79t = 158t^3$ and $2t^2 \\cdot 12u = 24t^2u$. &#10003;</li><li><strong>Choice C &mdash; $2tu(79t^{2}-12)$</strong>: multiplying gives $158t^3u - 24tu$, which does not match the original expression. &#10007;</li><li><strong>Choice D &mdash; $2t^{2}u(79t-12)$</strong>: multiplying gives $158t^3u - 24t^2u$, with an extra $u$ in the first term. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
     }
   ]
 }

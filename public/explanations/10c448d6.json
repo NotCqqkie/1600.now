@@ -9,7 +9,7 @@
     },
     {
       "title": "Use the points directly",
-      "content": "Use the table points directly. From $(0,14)$ to $(9,15)$, the slope is $m=\\frac{15-14}{9-0}=\\frac{1}{9}.$ Substituting a point into $y=mx+b$ gives $b=14$. That matches choice D &mdash; <strong>D</strong> is correct."
+      "content": "Use the table points directly. From $(0,14)$ to $(9,15)$, the slope is $m=\\frac{15-14}{9-0}=\\frac{1}{9}.$ Substituting a point into $y=mx+b$ gives $b=14$. That matches <strong>Choice D &mdash; $y=\\frac{1}{9}x+14$</strong>."
     }
   ]
 }

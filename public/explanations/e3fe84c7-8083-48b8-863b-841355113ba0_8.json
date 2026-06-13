@@ -17,7 +17,7 @@
     },
     {
       "title": "Eliminate wrong choices and confirm",
-      "content": "<ul><li><strong>Choice A &mdash; '14,400'</strong>: Far too small; this is roughly $\\pi r^2$ for a small radius. &#10007;</li><li><strong>Choice B &mdash; '57,700'</strong>: Too small by a factor of about 20; perhaps a miscalculation using $r^2$ instead of $r^3$. &#10007;</li><li><strong>Choice C &mdash; '898,200'</strong>: Close but not the nearest; this would correspond to using $\\pi \\approx 3$ only. &#10007;</li><li><strong>Choice D &mdash; '1,197,500'</strong>: Matches the computed value $\\approx 1{,}197{,}500$. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "content": "<ul><li><strong>\"14,400\"</strong>: Far too small; this is roughly $\\pi r^2$ for a small radius. &#10007;</li><li><strong>\"57,700\"</strong>: Too small by a factor of about 20; perhaps a miscalculation using $r^2$ instead of $r^3$. &#10007;</li><li><strong>\"898,200\"</strong>: Close but not the nearest; this would correspond to using $\\pi \\approx 3$ only. &#10007;</li><li><strong>\"1,197,500\"</strong>: Matches the computed value $\\approx 1{,}197{,}500$. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
     }
   ]
 }

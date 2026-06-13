@@ -1,5 +1,4 @@
 {
-  "qid": "acd30391",
   "steps": [
     {
       "title": "Use the circle inequality",
@@ -14,12 +13,13 @@
     },
     {
       "title": "Use the equation to verify the graph",
-      "content": "For a point to be inside the circle, $(x+3)^2+(y-1)^2\\lt 25$. Choice A gives $(-4)^2+2^2=20$, choice B gives $0$, and choice C gives $3^2+(-1)^2=10$; all three are less than $25$, so they are inside."
+      "content": "For a point to be inside the circle, $(x+3)^2+(y-1)^2\\lt 25$. The points that give $20$, $0$, and $10$ are all less than $25$, so those points are inside the circle."
     },
     {
       "title": "Choose the outside point",
-      "content": "Choice D, $(3,2)$, gives $(3+3)^2+(2-1)^2=36+1=37$, which is greater than $25$. It is outside the circle, so it is not in the interior. Choice <strong>D</strong> is correct."
+      "content": "Choice D, $(3,2)$, gives $(3+3)^2+(2-1)^2=36+1=37$, which is greater than $25$. It is outside the circle, so it is not in the interior. <strong>D</strong> is correct."
     }
   ],
-  "correctAnswer": "D"
+  "correctAnswer": "D",
+  "questionId": "acd30391"
 }

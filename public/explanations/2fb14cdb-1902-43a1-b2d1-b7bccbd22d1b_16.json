@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Identify the horizontal asymptote to find b",
-      "content": "For exponential functions of the form $y = a^x + b$, as $x \\to -\\infty$, the term $a^x \\to 0$ (when $a > 1$), leaving only the constant $b$. The graph shows the curve approaching a horizontal asymptote at $y = -2$. Therefore, $b = -2$."
+      "content": "For exponential functions of the form $y = a^x + b$, as $x \\to -\\infty$, the term $a^x \\to 0$ (when $a \\gt  1$), leaving only the constant $b$. The graph shows the curve approaching a horizontal asymptote at $y = -2$. Therefore, $b = -2$."
     },
     {
       "title": "Use a point on the curve to find a",

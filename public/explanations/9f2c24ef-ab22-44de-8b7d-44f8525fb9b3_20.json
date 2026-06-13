@@ -17,7 +17,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li>A: $(x-2)^2 + (y+5)^2 = 50$ &mdash; wrong shift (would mean 1 left, 2 up) and wrong radius.</li><li>B: $(x-4)^2 + (y+9)^2 = 50$ &mdash; correct center but $r^2 = 50$ gives $r = \\sqrt{50}$, not 10.</li><li>C: $(x-2)^2 + (y+5)^2 = 100$ &mdash; correct radius but wrong center shift.</li><li>D: $(x-4)^2 + (y+9)^2 = 100$ &mdash; correct center $(4,-9)$ and $r^2 = 100$.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "content": "<ul><li>A: $(x-2)^2 + (y+5)^2 = 50$ &mdash; wrong shift (would mean 1 left, 2 up) and wrong radius.</li><li>B: $(x-4)^2 + (y+9)^2 = 50$ &mdash; correct center but $r^2 = 50$ gives $r = \\sqrt{50}$, not 10.</li><li>C: $(x-2)^2 + (y+5)^2 = 100$ &mdash; correct radius but wrong center shift.</li><li>D: $(x-4)^2 + (y+9)^2 = 100$ &mdash; correct center $(4,-9)$ and $r^2 = 100$.</li></ul>That confirms <strong>D</strong> is correct."
     }
   ]
 }

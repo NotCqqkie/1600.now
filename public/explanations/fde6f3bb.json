@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "So $$g(x)h(x)=\\frac{18}{5}x^2+4x-\\frac{35}{6}.$$ That matches choice D, so <strong>D</strong> is correct. The coefficient, middle term, and constant all match D, so no rearrangement of the expression is needed."
+      "content": "So $$g(x)h(x)=\\frac{18}{5}x^2+4x-\\frac{35}{6}.$$ That matches the computed answer, so <strong>D</strong> is correct. The coefficient, middle term, and constant all match D, so no rearrangement of the expression is needed."
     }
   ]
 }

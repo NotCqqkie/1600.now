@@ -1,1 +1,15 @@
-{"questionId":"88552b8b-f774-4f18-b52e-65b24051a3d9_17","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank sits between the noun \"profile\" and the prepositional phrase \"in the Navajo Times on August 22, 2013.\" The blank must supply a modifier that attaches directly to the noun without requiring a relative pronoun. The grammar rule: a participial (-ing) form can directly modify a preceding noun; finite verb forms (appears, appeared, has appeared) cannot — they require \"that\" to form a relative clause."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'appearing'</strong>: A present participle directly modifies the noun &mdash; \"a profile appearing in the Navajo Times\" is a well-formed noun phrase. &#10003;</li><li><strong>Choice B &mdash; 'has appeared'</strong>: A finite present-perfect verb cannot modify a noun without \"that\" — \"a profile has appeared in the Navajo Times\" turns the main clause into a sentence fragment or creates a run-on. &#10007;</li><li><strong>Choice C &mdash; 'appeared'</strong>: A finite past-tense verb cannot directly modify a noun without \"that\" — \"a profile appeared in the Navajo Times\" would be a separate clause disconnected from \"was the subject of.\" &#10007;</li><li><strong>Choice D &mdash; 'appears'</strong>: A finite present-tense verb has the same problem as C — it cannot modify the noun directly. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "88552b8b-f774-4f18-b52e-65b24051a3d9_17",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank sits between the noun \"profile\" and the prepositional phrase \"in the Navajo Times on August 22, 2013.\" The blank must supply a modifier that attaches directly to the noun without requiring a relative pronoun. The grammar rule: a participial (-ing) form can directly modify a preceding noun; finite verb forms (appears, appeared, has appeared) cannot — they require \"that\" to form a relative clause."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; appearing</strong>: A present participle directly modifies the noun &mdash; \"a profile appearing in the Navajo Times\" is a well-formed noun phrase. &#10003;</li><li><strong>Choice B &mdash; has appeared</strong>: A finite present-perfect verb cannot modify a noun without \"that\" — \"a profile has appeared in the Navajo Times\" turns the main clause into a sentence fragment or creates a run-on. &#10007;</li><li><strong>Choice C &mdash; appeared</strong>: A finite past-tense verb cannot directly modify a noun without \"that\" — \"a profile appeared in the Navajo Times\" would be a separate clause disconnected from \"was the subject of.\" &#10007;</li><li><strong>Choice D &mdash; appears</strong>: A finite present-tense verb has the same problem as C — it cannot modify the noun directly. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

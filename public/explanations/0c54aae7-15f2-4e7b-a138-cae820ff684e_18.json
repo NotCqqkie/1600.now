@@ -13,7 +13,7 @@
     },
     {
       "title": "Match the choices",
-      "content": "Choice C is $y=60x+36$. It gives $y=216$ when $x=3$ and increases by 60 for each additional hour. Choice A double-counts the flat 216 dollars, and choices B and D use 216 as the hourly rate. Choice <strong>C</strong> is correct."
+      "content": "<strong>Choice C &mdash; $y = 60x + 36$</strong> is $y=60x+36$. It gives $y=216$ when $x=3$ and increases by 60 for each additional hour. <strong>Choice A &mdash; $y = 60x + 216$</strong> double-counts the flat 216 dollars, while the expressions using 216 as the hourly rate use the wrong slope. That matches <strong>Choice C &mdash; $y = 60x + 36$</strong>."
     }
   ]
 }

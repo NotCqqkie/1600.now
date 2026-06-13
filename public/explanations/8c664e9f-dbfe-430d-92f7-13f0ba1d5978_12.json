@@ -1,4 +1,5 @@
 {
+  "questionId": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_12",
   "qid": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_12",
   "correctAnswer": "A",
   "steps": [
@@ -9,7 +10,7 @@
       "text": "&quot;At most 150 inches&quot; means the perimeter is less than or equal to 150, so the inequality is $2x + 110 \\leq 150$."
     },
     {
-      "text": "Evaluate all choices:<ul><li>A: $2x + 110 \\leq 150$ — matches the perimeter expression with the correct &le; sign for &quot;at most.&quot; That matches choice A — <strong>A</strong> is correct.</li><li>B: $2x + 110 \\geq 150$ — &ge; means &quot;at least,&quot; not &quot;at most.&quot; Eliminated.</li><li>C: $x + 55 \\leq 150$ — omits the factor of 2; this is only half the perimeter. Eliminated.</li><li>D: $x + 55 \\geq 150$ — wrong sign and wrong perimeter expression. Eliminated.</li></ul>"
+      "text": "Evaluate all choices:<ul><li>A: $2x + 110 \\leq 150$ — matches the perimeter expression with the correct &le; sign for &quot;at most.&quot; That confirms <strong>A</strong> is correct.</li><li>B: $2x + 110 \\geq 150$ — &ge; means &quot;at least,&quot; not &quot;at most.&quot; Eliminated.</li><li>C: $x + 55 \\leq 150$ — omits the factor of 2; this is only half the perimeter. Eliminated.</li><li>D: $x + 55 \\geq 150$ — wrong sign and wrong perimeter expression. Eliminated.</li></ul>"
     }
   ]
 }

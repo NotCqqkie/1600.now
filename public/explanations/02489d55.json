@@ -13,11 +13,11 @@
     },
     {
       "title": "Fast choice check",
-      "content": "A quick check is to plug in $x=0$. The original expression gives $19(0^2-7)=-133$, matching the constant term in choice A and eliminating the other constants."
+      "content": "A quick check is to plug in $x=0$. The original expression gives $19(0^2-7)=-133$, matching the constant term in <strong>Choice A &mdash; $19{x}^{2}-133$</strong> and eliminating the other constants."
     },
     {
       "title": "Confirm the answer",
-      "content": "$19x^2-133$ matches choice A, so <strong>A</strong> is correct."
+      "content": "$19x^2-133$ matches <strong>Choice A &mdash; $19{x}^{2}-133$</strong>, so <strong>A</strong> is correct."
     }
   ]
 }

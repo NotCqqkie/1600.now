@@ -1,1 +1,15 @@
-{"questionId": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_1", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The blank describes what the researchers did to pots of already-sterilized (microbe-free) soil. The phrase that follows &mdash; &quot;with slurries of live microbes&quot; &mdash; tells us they were <strong>introducing living organisms into an empty environment</strong>. The word must mean something like &quot;fill with inhabitants.&quot;"}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'sanitized'</strong>: means to clean or sterilize &mdash; but the soil is already sterilized. This repeats what was already done. &#10007;</li><li><strong>Choice B &mdash; 'populated'</strong>: means to fill with inhabitants or living things &mdash; exactly what adding microbial slurries to empty soil accomplishes. &#10003;</li><li><strong>Choice C &mdash; 'precluded'</strong>: means to prevent or rule out &mdash; the opposite of adding microbes. &#10007;</li><li><strong>Choice D &mdash; 'estimated'</strong>: means to approximate a value &mdash; unrelated to the physical act of adding microbes. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_1",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank describes what the researchers did to pots of already-sterilized (microbe-free) soil. The phrase that follows &mdash; &quot;with slurries of live microbes&quot; &mdash; tells us they were <strong>introducing living organisms into an empty environment</strong>. The word must mean something like &quot;fill with inhabitants.&quot;"
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; sanitized</strong>: means to clean or sterilize &mdash; but the soil is already sterilized. This repeats what was already done. &#10007;</li><li><strong>Choice B &mdash; populated</strong>: means to fill with inhabitants or living things &mdash; exactly what adding microbial slurries to empty soil accomplishes. &#10003;</li><li><strong>Choice C &mdash; precluded</strong>: means to prevent or rule out &mdash; the opposite of adding microbes. &#10007;</li><li><strong>Choice D &mdash; estimated</strong>: means to approximate a value &mdash; unrelated to the physical act of adding microbes. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

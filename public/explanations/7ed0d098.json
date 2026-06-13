@@ -9,7 +9,7 @@
     },
     {
       "title": "Convert hours to minutes",
-      "content": "Now change hours to minutes by multiplying by 60: $$1.2 \\times 60 = 72$$ minutes. That matches choice D - <strong>D</strong> is correct."
+      "content": "Now change hours to minutes by multiplying by 60: $$1.2 \\times 60 = 72$$ minutes. This conversion is necessary because the answer choices are in minutes, not hours. That confirms <strong>D</strong> is correct."
     }
   ]
 }

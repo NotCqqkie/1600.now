@@ -1,1 +1,19 @@
-{"questionId": "40578580", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Pin down Muller and Harris&apos;s claim", "content": "Their specific conclusion is that giraffes &quot;may even help each other care for one another&apos;s newborns&quot;&mdash;i.e., adults cooperatively caring for calves that are not their own offspring."}, {"title": "Define what would support it", "content": "Direct support requires evidence of an adult giraffe providing care (feeding, protection, etc.) to a calf that is not her own. Evidence about solo parental behavior, aggression, or general communication does not address cooperative cross-family care."}, {"title": "Eliminate by misread/overreach", "content": "<ul><li><strong>Choice A &mdash; &apos;feeding young giraffes that aren&apos;t their direct offspring&apos;</strong>: precisely matches the claim&mdash;adults caring for others&apos; young. &#10003;</li><li><strong>Choice B &mdash; &apos;Confrontations between... male giraffes&apos;</strong>: describes aggression, the opposite of cooperative caregiving. &#10007;</li><li><strong>Choice C &mdash; &apos;sniffing and licking their newborn offspring&apos;</strong>: describes normal mother-to-own-calf bonding; says nothing about helping other mothers. &#10007;</li><li><strong>Choice D &mdash; &apos;rarely observed communicating with others&apos;</strong>: would weaken sociality, not support cooperative care. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "40578580",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Pin down Muller and Harris&apos;s claim",
+      "content": "Their specific conclusion is that giraffes &quot;may even help each other care for one another&apos;s newborns&quot;&mdash;i.e., adults cooperatively caring for calves that are not their own offspring."
+    },
+    {
+      "title": "Define what would support it",
+      "content": "Direct support requires evidence of an adult giraffe providing care (feeding, protection, etc.) to a calf that is not her own. Evidence about solo parental behavior, aggression, or general communication does not address cooperative cross-family care."
+    },
+    {
+      "title": "Eliminate by misread/overreach",
+      "content": "<ul><li><strong>Choice A — Female giraffes have been observed feeding young giraffes that aren't their direct offspring.</strong>: precisely matches the claim&mdash;adults caring for others&apos; young. &#10003;</li><li><strong>Choice B — Confrontations between a younger and an older male giraffe are frequently observed.</strong>: describes aggression, the opposite of cooperative caregiving. &#10007;</li><li><strong>Choice C — Some female giraffes have been observed sniffing and licking their newborn offspring.</strong>: describes normal mother-to-own-calf bonding; says nothing about helping other mothers. &#10007;</li><li><strong>Choice D — Giraffes are able to make sounds but are rarely observed communicating with others.</strong>: would weaken sociality, not support cooperative care. &#10007;</li></ul><strong>A</strong> is correct."
+    }
+  ]
+}

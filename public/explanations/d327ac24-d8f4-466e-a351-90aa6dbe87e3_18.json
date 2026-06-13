@@ -13,7 +13,7 @@
     },
     {
       "title": "Match the choice",
-      "content": "Choices A and B use multipliers less than $1$, so they model decreases. Choice D uses $1.24$, which is a $24\\%$ increase. Choice C uses the growth multiplier $1.024$, so choice <strong>C</strong> is correct."
+      "content": "The choices with multipliers less than $1$ model decreases. The model with $1.24$ represents a $24%$ increase, not a $2.4%$ increase. The model $f(x)=174{,}000(1.024)^x$ uses the correct growth multiplier, so <strong>C</strong> is correct."
     }
   ]
 }

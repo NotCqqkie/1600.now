@@ -1,1 +1,15 @@
-{"questionId": "5f6adeee", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what evidence would support the claim", "content": "The researchers claim jaguars in the Pantanal can survive on <strong>more fish and aquatic reptiles than mammals</strong>. To directly support this claim, we need evidence showing what jaguars are <em>actually eating</em>."}, {"title": "Match the evidence to the claim", "content": "Choice A provides direct evidence: analysis of jaguar waste shows aquatic prey remains were <strong>detected more often than mammal remains</strong>, directly proving the claimed diet.<br/><br/>The other three don't directly prove jaguars consume more aquatic prey: <ul><li>B shows only prey availability</li><li>C explains nutritional benefits without demonstrating consumption</li><li>D indicates jaguars still eat mammals</li></ul>.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "5f6adeee",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what evidence would support the claim",
+      "content": "The researchers claim jaguars in the Pantanal can survive on <strong>more fish and aquatic reptiles than mammals</strong>. To directly support this claim, we need evidence showing what jaguars are <em>actually eating</em>."
+    },
+    {
+      "title": "Match the evidence to the claim",
+      "content": "The correct option provides direct evidence: analysis of jaguar waste shows aquatic prey remains were <strong>detected more often than mammal remains</strong>, directly proving the claimed diet.<br/><br/>The other three don't directly prove jaguars consume more aquatic prey: <ul><li>B shows only prey availability</li><li>C explains nutritional benefits without demonstrating consumption</li><li>D indicates jaguars still eat mammals</li></ul><br/><br/><strong>A</strong> is correct."
+    }
+  ]
+}

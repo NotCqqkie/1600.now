@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Translate costs into mathematical expressions",
-      "content": "The cereal costs a fixed <strong>\\$2</strong>. Strawberries cost <strong>\\$1.90 per pound</strong>, so <em>p</em> pounds cost <strong>\\$1.90p</strong>. The total paid is <strong>\\$9.60</strong>."
+      "content": "The cereal costs a fixed <strong>2 dollars</strong>. Strawberries cost <strong>1.90 dollars per pound</strong>, so <em>p</em> pounds cost <strong>$1.90p$</strong>. The total paid is <strong>9.60 dollars</strong>."
     },
     {
       "title": "Build the total cost equation",
-      "content": "The total cost is the sum of the cereal and strawberries:<br/>$$2 + 1.90p = 9.60$$<br/>Rearranging: $1.90p + 2 = 9.60$. That matches choice A — <strong>A</strong> is correct."
+      "content": "The total cost is the sum of the cereal and strawberries:<br/>$$2 + 1.90p = 9.60$$<br/>Rearranging: $1.90p + 2 = 9.60$. That matches the correct answer — <strong>A</strong> is correct."
     }
   ]
 }

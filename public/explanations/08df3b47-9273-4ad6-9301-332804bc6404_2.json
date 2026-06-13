@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate all choices",
-      "content": "<ul><li>A: $x \\geq 49$ &mdash; 49 is $51 - 2$, not twice 51. Eliminated.</li><li>B: $x \\geq 53$ &mdash; 53 is $51 + 2$, not twice 51. Eliminated.</li><li>C: $x \\geq 102$ &mdash; $2 \\times 51 = 102$. This is exactly &quot;at least twice y.&quot; That matches choice C &mdash; <strong>C</strong> is correct.</li><li>D: $x \\geq 104$ &mdash; 104 is $2(51) + 2$, off by 2. Eliminated.</li></ul>"
+      "content": "<ul><li>A: $x \\geq 49$ &mdash; 49 is $51 - 2$, not twice 51. Eliminated.</li><li>B: $x \\geq 53$ &mdash; 53 is $51 + 2$, not twice 51. Eliminated.</li><li>C: $x \\geq 102$ &mdash; $2 \\times 51 = 102$. This is exactly &quot;at least twice y.&quot; That matches <strong>Choice C &mdash; $x \\geq 102$</strong>.</li><li>D: $x \\geq 104$ &mdash; 104 is $2(51) + 2$, off by 2. Eliminated.</li></ul>"
     }
   ]
 }

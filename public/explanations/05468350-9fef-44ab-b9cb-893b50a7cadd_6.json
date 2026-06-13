@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "The product is $$x^{-5}y^6z^{10}+x^{-9}y^{14}z^{-2}.$$ This matches choice <strong>B</strong>."
+      "content": "The product is $$x^{-5}y^6z^{10}+x^{-9}y^{14}z^{-2}.$$ This matches <strong>Choice B &mdash; $x^{-5}y^{6}z^{10}+x^{-9}y^{14}z^{-2}$</strong>."
     },
     {
       "title": "Why the exponents combine this way",

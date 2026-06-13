@@ -1,1 +1,19 @@
-{"questionId": "c6b470bb", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Pin down what the claim requires", "content": "The claim has two parts: Odalie finds her everyday life monotonous, AND she is eager to escape it. The right quotation must show both the dullness of her routine and her readiness for something new."}, {"title": "Test the strongest candidate", "content": "Choice C says &quot;life becomes a dull thing, and one is ready for any new sensation.&quot; The first half (&quot;dull thing&quot;) establishes the monotony; the second half (&quot;ready for any new sensation&quot;) establishes her eagerness to escape it. Both halves of the claim are illustrated in a single sentence."}, {"title": "Eliminate the others by what they miss", "content": "<ul><li><strong>Choice A &mdash; 'Mardi Gras was a tiresome day, after all'</strong>: this is Odalie after the carnival, dismissing the escape as boring &mdash; it contradicts the &quot;eager to escape&quot; half of the claim. &#10007;</li><li><strong>Choice B &mdash; 'In the old French house... lived Odalie in convent-like seclusion'</strong>: this describes her secluded setting but says nothing about her wanting out &mdash; misses the eagerness half. &#10007;</li><li><strong>Choice C &mdash; 'life becomes a dull thing, and one is ready for any new sensation'</strong>: names the monotony and the eagerness in one breath. &#10003;</li><li><strong>Choice D &mdash; 'early through her window Odalie could hear the jingle of folly bells'</strong>: depicts the carnival sounds reaching her but doesn't establish either the monotony or her eagerness &mdash; overreach to call this an illustration of the claim. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "c6b470bb",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Pin down what the claim requires",
+      "content": "The claim has two parts: Odalie finds her everyday life monotonous, AND she is eager to escape it. The right quotation must show both the dullness of her routine and her readiness for something new."
+    },
+    {
+      "title": "Test the strongest candidate",
+      "content": "The correct answer says &quot;life becomes a dull thing, and one is ready for any new sensation.&quot; The first half (&quot;dull thing&quot;) establishes the monotony; the second half (&quot;ready for any new sensation&quot;) establishes her eagerness to escape it. Both halves of the claim are illustrated in a single sentence."
+    },
+    {
+      "title": "Eliminate the others by what they miss",
+      "content": "<ul><li><strong>Choice A &mdash; \"Mardi Gras was a tiresome day, after all, she sighed, and Tante Louise agreed with her for once.\"</strong>: this is Odalie after the carnival, dismissing the escape as boring &mdash; it contradicts the &quot;eager to escape&quot; half of the claim. &#10007;</li><li><strong>Choice B &mdash; \"In the old French house on Royal Street, with its quaint windows and Spanish courtyard green and cool, and made musical by the plashing of the fountain and the trill of caged birds, lived Odalie in convent-like seclusion.\"</strong>: this describes her secluded setting but says nothing about her wanting out &mdash; misses the eagerness half. &#10007;</li><li><strong>Choice C &mdash; \"When one is shut up in a great French house with a grim sleepy tante and no companions of one's own age, life becomes a dull thing, and one is ready for any new sensation.\"</strong>: names the monotony and the eagerness in one breath. &#10003;</li><li><strong>Choice D &mdash; \"It was Mardi Gras day at last, and early through her window Odalie could hear the jingle of folly bells on the [participants'] costumes, the tinkle of music, and the echoing strains of songs.\"</strong>: depicts the carnival sounds reaching her but doesn't establish either the monotony or her eagerness &mdash; overreach to call this an illustration of the claim. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

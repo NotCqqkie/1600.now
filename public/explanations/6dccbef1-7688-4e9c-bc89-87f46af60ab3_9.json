@@ -10,7 +10,7 @@
     },
     {
       "title": "Calculate the effect of doubling the sample size",
-      "content": "The sample size increases from 142 to 284 (exactly doubles).<br/><br/>Since margin of error is inversely proportional to $\\sqrt{n}$, doubling $n$ reduces the margin of error by a factor of $\\frac{1}{\\sqrt{2}} \\approx 0.707$.<br/><br/>The new margin of error is approximately $5.15\\% \\times 0.707 \\approx 3.64\\%$, which is lower.<br/><br/>That matches choice A — <strong>A</strong> is correct."
+      "content": "The sample size increases from 142 to 284 (exactly doubles).<br/><br/>Since margin of error is inversely proportional to $\\sqrt{n}$, doubling $n$ reduces the margin of error by a factor of $\\frac{1}{\\sqrt{2}} \\approx 0.707$.<br/><br/>The new margin of error is approximately $5.15\\% \\times 0.707 \\approx 3.64\\%$, which is lower.<br/><br/>That confirms <strong>A</strong> is correct."
     }
   ]
 }

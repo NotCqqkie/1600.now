@@ -17,7 +17,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice A comes from using $f(2)-g(2)$. Choice D is $4f(2)$ without subtracting $g(2)$. The coefficient $4$ applies only to $f(2)$, not to the entire expression. The full expression equals $22$, which is choice C."
+      "content": "<strong>Choice A &mdash; $-5$</strong> comes from using $f(2)-g(2)$. <strong>Choice D &mdash; $28$</strong> is $4f(2)$ without subtracting $g(2)$. The coefficient $4$ applies only to $f(2)$, not to the entire expression. The full expression equals $22$, which is <strong>Choice C &mdash; $22$</strong>."
     },
     {
       "title": "Answer",

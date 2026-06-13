@@ -1,1 +1,19 @@
-{"questionId": "c0e1b70a", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Summarize what the narrator actually does in the passage", "content": "Sugimoto says the standards of her two countries &mdash; Japan and the US &mdash; differ widely, and that she loves both. She pictures herself floating above and looking down at both worlds with &quot;measuring eyes,&quot; and she keeps trying to interpret unfamiliar American customs by Japanese standards."}, {"title": "Translate that into a main purpose", "content": "The text is doing one thing: capturing what it feels like to observe two cultures she cares about and to actively try to make sense of the differences between them."}, {"title": "Eliminate the other choices", "content": "<ul><li><strong>Choice A &mdash; 'observing and making sense of differences between two cultures she embraces'</strong>: matches both the &quot;measuring eyes&quot; observing and the active attempt to explain unfamiliar customs, and matches her sincere love for both lands. &#10003;</li><li><strong>Choice B &mdash; 'hope of forming connections... by sharing customs she learned as a child'</strong>: overreach &mdash; the passage never mentions companions or sharing her own customs; she is interpreting, not teaching. &#10007;</li><li><strong>Choice C &mdash; 'hesitant to ask questions'</strong>: misread &mdash; the text says no one around her seemed to know the origins of customs, not that she was reluctant to ask. &#10007;</li><li><strong>Choice D &mdash; 'wonder at... physical distance between two countries'</strong>: misread &mdash; the &quot;cloud in space&quot; image is a metaphor for cultural perspective, not a literal claim about geographic distance. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "c0e1b70a",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Summarize what the narrator actually does in the passage",
+      "content": "Sugimoto says the standards of her two countries &mdash; Japan and the US &mdash; differ widely, and that she loves both. She pictures herself floating above and looking down at both worlds with &quot;measuring eyes,&quot; and she keeps trying to interpret unfamiliar American customs by Japanese standards."
+    },
+    {
+      "title": "Translate that into a main purpose",
+      "content": "The text is doing one thing: capturing what it feels like to observe two cultures she cares about and to actively try to make sense of the differences between them."
+    },
+    {
+      "title": "Eliminate the other choices",
+      "content": "<ul><li><strong>Choice A &mdash; To convey the narrator's experience of observing and making sense of differences between two cultures she embraces</strong>: matches both the &quot;measuring eyes&quot; observing and the active attempt to explain unfamiliar customs, and matches her sincere love for both lands. &#10003;</li><li><strong>Choice B &mdash; To establish the narrator's hope of forming connections with new companions by sharing customs she learned as a child</strong>: overreach &mdash; the passage never mentions companions or sharing her own customs; she is interpreting, not teaching. &#10007;</li><li><strong>Choice C &mdash; To reveal the narrator's recognition that she is hesitant to ask questions about certain aspects of a culture she is newly encountering</strong>: misread &mdash; the text says no one around her seemed to know the origins of customs, not that she was reluctant to ask. &#10007;</li><li><strong>Choice D &mdash; To emphasize the narrator's wonder at discovering that the physical distance between two countries is greater than she had expected</strong>: misread &mdash; the &quot;cloud in space&quot; image is a metaphor for cultural perspective, not a literal claim about geographic distance. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

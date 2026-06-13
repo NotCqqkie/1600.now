@@ -13,7 +13,7 @@
     },
     {
       "title": "Test each choice against the interval",
-      "content": "Compare each value of $a$ to $[-16,10]$:<ul><li>A) $a=-17$: $-17\\lt -16$, outside the interval &mdash; eliminate.</li><li>B) $a=-12$: $-16 \\le -12 \\le 10$, inside the interval &mdash; possible.</li><li>C) $a=13$: $13>10$, outside the interval &mdash; eliminate.</li><li>D) $a=18$: $18>10$, outside the interval &mdash; eliminate.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "Compare each value of $a$ to $[-16,10]$:<ul><li>A) $a=-17$: $-17\\lt -16$, outside the interval &mdash; eliminate.</li><li>B) $a=-12$: $-16 \\le -12 \\le 10$, inside the interval &mdash; possible.</li><li>C) $a=13$: $13\\gt 10$, outside the interval &mdash; eliminate.</li><li>D) $a=18$: $18\\gt 10$, outside the interval &mdash; eliminate.</li></ul>That confirms <strong>B</strong> is correct."
     }
   ]
 }

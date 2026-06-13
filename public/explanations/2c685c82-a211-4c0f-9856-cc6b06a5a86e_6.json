@@ -9,7 +9,7 @@
     },
     {
       "title": "Add the equations to eliminate x",
-      "content": "Add the left sides and right sides together:<br/>$$y + y = \\left(\\frac{x}{4} + 6\\right) + \\left(-\\frac{x}{4} + 30\\right)$$<br/>Combine like terms on the right:<br/>$$2y = \\frac{x}{4} + \\left(-\\frac{x}{4}\\right) + 6 + 30$$<br/>$$2y = 0 + 36$$<br/>$$2y = 36$$<br/>That matches choice D — <strong>D</strong> is correct."
+      "content": "Add the left sides and right sides together:<br/>$$y + y = \\left(\\frac{x}{4} + 6\\right) + \\left(-\\frac{x}{4} + 30\\right)$$<br/>Combine like terms on the right:<br/>$$2y = \\frac{x}{4} + \\left(-\\frac{x}{4}\\right) + 6 + 30$$<br/>$$2y = 0 + 36$$<br/>$$2y = 36$$<br/><strong>D</strong> is correct."
     }
   ]
 }

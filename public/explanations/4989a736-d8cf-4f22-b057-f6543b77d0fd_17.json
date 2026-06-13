@@ -1,1 +1,15 @@
-{"questionId":"4989a736-d8cf-4f22-b057-f6543b77d0fd_17","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank must show possession: the &quot;compelling narrative&quot; belongs to the singular noun &quot;the epic poem Raghuva&#7747;&aacute;&cedil;&aacute;&sup3;&nbsp;&aacute;&cedil;&aacute;&sup3;&sect;a.&quot; A singular possessive pronoun with no verb is needed."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'they&apos;re'</strong>: contraction of &quot;they are&quot; &mdash; introduces a verb where only possession is needed. &#10007;</li><li><strong>Choice B &mdash; 'its'</strong>: singular possessive pronoun &mdash; correctly shows the narrative belongs to the singular poem. &#10003;</li><li><strong>Choice C &mdash; 'their'</strong>: plural possessive &mdash; wrong because the poem is singular. &#10007;</li><li><strong>Choice D &mdash; 'it&apos;s'</strong>: contraction of &quot;it is&quot; &mdash; introduces a verb where only possession is needed. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "4989a736-d8cf-4f22-b057-f6543b77d0fd_17",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank must show possession: the &quot;compelling narrative&quot; belongs to the singular noun &quot;the epic poem Raghuva&#7747;&aacute;&cedil;&aacute;&sup3;&nbsp;&aacute;&cedil;&aacute;&sup3;&sect;a.&quot; A singular possessive pronoun with no verb is needed."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — they're</strong>: contraction of &quot;they are&quot; &mdash; introduces a verb where only possession is needed. &#10007;</li><li><strong>Choice B — its</strong>: singular possessive pronoun &mdash; correctly shows the narrative belongs to the singular poem. &#10003;</li><li><strong>Choice C — their</strong>: plural possessive &mdash; wrong because the poem is singular. &#10007;</li><li><strong>Choice D — it's</strong>: contraction of &quot;it is&quot; &mdash; introduces a verb where only possession is needed. &#10007;</li></ul><strong>B</strong> is correct."
+    }
+  ]
+}

@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li>Choice A: $\\frac{37\\pi}{2} = 18.5\\pi$ &mdash; not an integer multiple of $\\pi$. Eliminate.</li><li>Choice B: $\\frac{39\\pi}{2} = 19.5\\pi$ &mdash; not an integer multiple of $\\pi$. Eliminate.</li><li>Choice C: $34\\pi$ &mdash; an even multiple of $\\pi$, which corresponds to landing back at $F$, not at $H$. Eliminate.</li><li>Choice D: $35\\pi = (2 \\cdot 17 + 1)\\pi$ &mdash; an odd multiple of $\\pi$, valid.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;$\\frac{37\\pi}{2}$&rsquo;</strong>: $\\frac{37\\pi}{2} = 18.5\\pi$ &mdash; not an integer multiple of $\\pi$. Eliminate.</li><li><strong>Choice B &mdash; &lsquo;$\\frac{39\\pi}{2}$&rsquo;</strong>: $\\frac{39\\pi}{2} = 19.5\\pi$ &mdash; not an integer multiple of $\\pi$. Eliminate.</li><li><strong>Choice C &mdash; &lsquo;$34\\pi$&rsquo;</strong>: $34\\pi$ &mdash; an even multiple of $\\pi$, which corresponds to landing back at $F$, not at $H$. Eliminate.</li><li><strong>Choice D &mdash; &lsquo;$35\\pi$&rsquo;</strong>: $35\\pi = (2 \\cdot 17 + 1)\\pi$ &mdash; an odd multiple of $\\pi$, valid.</li></ul>That confirms <strong>D</strong> is correct."
     }
   ]
 }

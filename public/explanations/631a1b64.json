@@ -1,1 +1,15 @@
-{"questionId": "631a1b64", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "This is a Words in Context question. The blank must complete the clause '______ astronauts to maintain the telescope can be expensive.' The word 'as' signals a causal explanation: the blank must describe the relationship with astronauts that makes maintenance costly."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'straightening'</strong>: 'Straightening astronauts' has no coherent meaning in context &mdash; it would mean physically aligning them, which is irrelevant to cost. &#10007;</li><li><strong>Choice B &mdash; 'forgetting about'</strong>: 'Forgetting about astronauts' inverts the logic: the text is about continuing to depend on astronauts, not about neglecting them. &#10007;</li><li><strong>Choice C &mdash; 'relying on'</strong>: 'Relying on astronauts' means depending on them for regular maintenance missions &mdash; and that ongoing dependence is exactly what makes the process expensive. Robots would eliminate this dependency. &#10003;</li><li><strong>Choice D &mdash; 'reducing'</strong>: 'Reducing astronauts' most naturally means lowering them in status; nothing in the text suggests this or why it would be expensive. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "631a1b64",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a Words in Context question. The blank must complete the clause '______ astronauts to maintain the telescope can be expensive.' The word 'as' signals a causal explanation: the blank must describe the relationship with astronauts that makes maintenance costly."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;straightening&rsquo;</strong>: 'Straightening astronauts' has no coherent meaning in context &mdash; it would mean physically aligning them, which is irrelevant to cost. &#10007;</li><li><strong>Choice B &mdash; &lsquo;forgetting about&rsquo;</strong>: 'Forgetting about astronauts' inverts the logic: the text is about continuing to depend on astronauts, not about neglecting them. &#10007;</li><li><strong>Choice C &mdash; &lsquo;relying on&rsquo;</strong>: 'Relying on astronauts' means depending on them for regular maintenance missions &mdash; and that ongoing dependence is exactly what makes the process expensive. Robots would eliminate this dependency. &#10003;</li><li><strong>Choice D &mdash; &lsquo;reducing&rsquo;</strong>: 'Reducing astronauts' most naturally means lowering them in status; nothing in the text suggests this or why it would be expensive. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

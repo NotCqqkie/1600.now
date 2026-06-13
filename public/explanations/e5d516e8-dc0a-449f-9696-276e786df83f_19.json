@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Find base angles of isosceles triangle ACD",
-      "content": "In triangle ACD, $AC = CD$ makes the triangle isosceles, so the base angles opposite the equal sides are equal. With $\\angle ACD = 108°$:\n$$\\angle CAD = \\angle CDA = \\frac{180° - 108°}{2} = 36°$$"
+      "content": "In triangle ACD, $AC = CD$ makes the triangle isosceles, so the base angles opposite the equal sides are equal. With $\\angle ACD = 108^{\\circ}$:\n$$\\angle CAD = \\angle CDA = \\frac{180^{\\circ} - 108^{\\circ}}{2} = 36^{\\circ}$$"
     },
     {
       "title": "Find angle BCE using the figure",
-      "content": "From the figure, points D, C, B are collinear, so $\\angle ACD$ and $\\angle ACB$ are supplementary:\n$$\\angle ACB = 180° - 108° = 72°$$\nSince E lies on segment DA between D and A, ray CE lies inside $\\angle ACD$. The portion of $\\angle ACB$ that forms $\\angle BCE$ (as read off the figure) is $60°$."
+      "content": "From the figure, points D, C, B are collinear, so $\\angle ACD$ and $\\angle ACB$ are supplementary:\n$$\\angle ACB = 180^{\\circ} - 108^{\\circ} = 72^{\\circ}$$\nSince E lies on segment DA between D and A, ray CE lies inside $\\angle ACD$. The portion of $\\angle ACB$ that forms $\\angle BCE$ (as read off the figure) is $60^{\\circ}$."
     },
     {
       "title": "Apply the exterior angle theorem and solve for x",
-      "content": "Because D, E, A are collinear, $\\angle BED$ is the exterior angle of triangle BCE at vertex E. By the exterior angle theorem, it equals the sum of the two remote interior angles:\n$$\\angle BED = \\angle EBC + \\angle BCE = 42° + 60° = 102°$$\nThen, since $\\angle BEA$ and $\\angle BED$ are supplementary along line DA:\n$$x = 180° - 102° = 78°$$\nThe answer is <strong>78</strong>."
+      "content": "Because D, E, A are collinear, $\\angle BED$ is the exterior angle of triangle BCE at vertex E. By the exterior angle theorem, it equals the sum of the two remote interior angles:\n$$\\angle BED = \\angle EBC + \\angle BCE = 42^{\\circ} + 60^{\\circ} = 102^{\\circ}$$\nThen, since $\\angle BEA$ and $\\angle BED$ are supplementary along line DA:\n$$x = 180^{\\circ} - 102^{\\circ} = 78^{\\circ}$$\nThe answer is <strong>78</strong>."
     }
   ]
 }

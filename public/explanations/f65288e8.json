@@ -17,7 +17,7 @@
     },
     {
       "title": "Evaluate all four choices",
-      "content": "<ul><li><strong>Choice A &mdash; '1/2'</strong>: x + 5 = 1/2 $\\Rightarrow$ (1/2)&sup2; = 1/4 $\\Rightarrow$ 1/(1/4) = 4. &#10003;</li><li><strong>Choice B &mdash; '5/2'</strong>: (5/2)&sup2; = 25/4 $\\Rightarrow$ 1/(25/4) = 4/25 &ne; 4. &#10007;</li><li><strong>Choice C &mdash; '9/2'</strong>: (9/2)&sup2; = 81/4 $\\Rightarrow$ 1/(81/4) = 4/81 &ne; 4. &#10007;</li><li><strong>Choice D &mdash; '11/2'</strong>: (11/2)&sup2; = 121/4 $\\Rightarrow$ 1/(121/4) = 4/121 &ne; 4. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li><strong>\"$\\frac{1}{2}$\"</strong>: x + 5 = 1/2 $\\Rightarrow$ (1/2)&sup2; = 1/4 $\\Rightarrow$ 1/(1/4) = 4. &#10003;</li><li><strong>\"$\\frac{5}{2}$\"</strong>: (5/2)&sup2; = 25/4 $\\Rightarrow$ 1/(25/4) = 4/25 &ne; 4. &#10007;</li><li><strong>\"$\\frac{9}{2}$\"</strong>: (9/2)&sup2; = 81/4 $\\Rightarrow$ 1/(81/4) = 4/81 &ne; 4. &#10007;</li><li><strong>\"$\\frac{11}{2}$\"</strong>: (11/2)&sup2; = 121/4 $\\Rightarrow$ 1/(121/4) = 4/121 &ne; 4. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
     }
   ]
 }

@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the other options",
-      "content": "<ul><li>$x=20$ follows from $w=160$ at the same intersection, so it gives no information about line $s$.</li><li>$w+y=180$ would make $y=20$, not equal to the corresponding angle $w$.</li><li>$y+z=180$ describes a linear pair at line $s$, which can be true whether or not the lines are parallel.</li></ul>The sufficient condition is $y=160$, so choice <strong>B</strong> is correct."
+      "content": "<ul><li>$x=20$ follows from $w=160$ at the same intersection, so it gives no information about line $s$.</li><li>$w+y=180$ would make $y=20$, not equal to the corresponding angle $w$.</li><li>$y+z=180$ describes a linear pair at line $s$, which can be true whether or not the lines are parallel.</li></ul>The sufficient condition is $y=160$, so <strong>B</strong> is correct."
     }
   ]
 }

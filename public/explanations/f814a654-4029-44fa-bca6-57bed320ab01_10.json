@@ -1,1 +1,15 @@
-{"questionId":"f814a654-4029-44fa-bca6-57bed320ab01_10","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify the forms-to-penalties mismatch","content":"From the graph:<br/><ul><li>Self-dealing: approximately 9% of all Form 4720 filings, but approximately 40% of total penalties assessed.</li><li>Undistributed income: approximately 88% of filings, but approximately 55% of penalties.</li><li>Taxable expenditures: the remaining share of filings and penalties.</li></ul><br/>Self-dealing is heavily over-represented in penalties relative to its filing share, while undistributed income is heavily under-represented."},{"title":"Calculate average penalty per form","content":"To determine which activity entailed higher average penalties, divide (percentage of penalties) by (percentage of filings):<br/><br/>Self-dealing: 40% &divide; 9% &asymp; 4.4 penalty units per filing<br/>Undistributed income: 55% &divide; 88% &asymp; 0.63 penalty units per filing<br/><br/>Self-dealing organizations paid roughly 7 times the average penalty compared to undistributed income organizations. The other choices either misstate the penalty distribution or make claims about filing frequency that contradict the data. That matches choice <strong>B</strong> &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "f814a654-4029-44fa-bca6-57bed320ab01_10",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the forms-to-penalties mismatch",
+      "content": "From the graph:<br/><ul><li>Self-dealing: approximately 9% of all Form 4720 filings, but approximately 40% of total penalties assessed.</li><li>Undistributed income: approximately 88% of filings, but approximately 55% of penalties.</li><li>Taxable expenditures: the remaining share of filings and penalties.</li></ul><br/>Self-dealing is heavily over-represented in penalties relative to its filing share, while undistributed income is heavily under-represented."
+    },
+    {
+      "title": "Calculate average penalty per form",
+      "content": "To determine which activity entailed higher average penalties, divide (percentage of penalties) by (percentage of filings):<br/><br/>Self-dealing: 40% &divide; 9% &asymp; 4.4 penalty units per filing<br/>Undistributed income: 55% &divide; 88% &asymp; 0.63 penalty units per filing<br/><br/>Self-dealing organizations paid roughly 7 times the average penalty compared to undistributed income organizations. The other choices either misstate the penalty distribution or make claims about filing frequency that contradict the data. That matches the correct answer — <strong>B</strong> is correct."
+    }
+  ]
+}

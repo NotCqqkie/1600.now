@@ -1,1 +1,19 @@
-{"questionId": "aab74a3b", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Locate the two independent clauses", "content": "Clause 1 ends at &quot;silkworm silk&quot;: &quot;Researcher Lin Zhi developed a process for increasing the tensile strength&hellip;of silkworm silk.&quot; Clause 2 is &quot;Zhi increased the amount of force required to stretch it from approximately 0.5 GPa to 2 GPa,&quot; preceded by the introductory phrase &quot;By dissolving and reweaving the silk in a solution of iron metal ions, zinc, and sugar.&quot;"}, {"title": "Apply the rule for joining independent clauses", "content": "Two independent clauses must be separated by a period, a semicolon, or a comma plus a coordinating conjunction. A period followed by a capitalized &quot;By&quot; creates a clean break and lets the participial phrase modify the new clause."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; 'silk, by'</strong>: a comma alone between two independent clauses creates a comma splice. &#10007;</li><li><strong>Choice B &mdash; 'silk by'</strong>: zero punctuation creates a run-on. &#10007;</li><li><strong>Choice C &mdash; 'silk and by'</strong>: &quot;and&quot; is not preceded by a comma, and the resulting structure is ungrammatical because &quot;by dissolving&hellip;Zhi increased&hellip;&quot; is not parallel to anything on the left. &#10007;</li><li><strong>Choice D &mdash; 'silk. By'</strong>: a period correctly separates the two independent clauses. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "aab74a3b",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the two independent clauses",
+      "content": "Clause 1 ends at &quot;silkworm silk&quot;: &quot;Researcher Lin Zhi developed a process for increasing the tensile strength&hellip;of silkworm silk.&quot; Clause 2 is &quot;Zhi increased the amount of force required to stretch it from approximately 0.5 GPa to 2 GPa,&quot; preceded by the introductory phrase &quot;By dissolving and reweaving the silk in a solution of iron metal ions, zinc, and sugar.&quot;"
+    },
+    {
+      "title": "Apply the rule for joining independent clauses",
+      "content": "Two independent clauses must be separated by a period, a semicolon, or a comma plus a coordinating conjunction. A period followed by a capitalized &quot;By&quot; creates a clean break and lets the participial phrase modify the new clause."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; silk, by</strong>: a comma alone between two independent clauses creates a comma splice. &#10007;</li><li><strong>Choice B &mdash; silk by</strong>: zero punctuation creates a run-on. &#10007;</li><li><strong>Choice C &mdash; silk and by</strong>: &quot;and&quot; is not preceded by a comma, and the resulting structure is ungrammatical because &quot;by dissolving&hellip;Zhi increased&hellip;&quot; is not parallel to anything on the left. &#10007;</li><li><strong>Choice D &mdash; silk. By</strong>: a period correctly separates the two independent clauses. &#10003;</li></ul>That is the correct answer."
+    }
+  ]
+}

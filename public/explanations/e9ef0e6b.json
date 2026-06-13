@@ -1,14 +1,15 @@
 {
+  "questionId": "e9ef0e6b",
   "qid": "e9ef0e6b",
   "steps": [
     {
-      "explanation": "Whales travel between 72 and 77 miles per day, so the daily range is $72 \\le d \\le 77$."
+      "content": "Whales travel between 72 and 77 miles per day, so the daily range is $72 \\le d \\le 77$."
     },
     {
-      "explanation": "Over 16 days, total miles $x = 16d$. Multiply all parts of the inequality by 16 (positive, so signs unchanged): $72 \\times 16 \\le x \\le 77 \\times 16$."
+      "content": "Over 16 days, total miles $x = 16d$. Multiply all parts of the inequality by 16 (positive, so signs unchanged): $72 \\times 16 \\le x \\le 77 \\times 16$."
     },
     {
-      "explanation": "<ul><li>A: Adds 16 instead of multiplying — wrong operation.</li><li>B: $(72)(16) \\le x \\le (77)(16)$ — matches our result. That matches choice B — <strong>B</strong> is correct.</li><li>C: $72 \\le 16 + x \\le 77$ — subtracts 16 from $x$, which doesn't represent total distance.</li><li>D: $72 \\le 16x \\le 77$ — divides by 16 instead of multiplying, giving a tiny range.</li></ul>"
+      "content": "<ul><li><strong>$72+16 \\le x \\le 77+16$</strong>: Adds 16 instead of multiplying — wrong operation.</li><li><strong>$\\left(72\\right) \\left(16\\right) \\le x \\le \\left(77\\right) \\left(16\\right)$</strong>: $(72)(16) \\le x \\le (77)(16)$ — matches our result. That matches the correct answer — <strong>B</strong> is correct.</li><li><strong>$72 \\le 16+x \\le 77$</strong>: $72 \\le 16 + x \\le 77$ — subtracts 16 from $x$, which doesn't represent total distance.</li><li>D: $72 \\le 16x \\le 77$ — divides by 16 instead of multiplying, giving a tiny range.</li></ul>"
     }
   ],
   "correctAnswer": "B"

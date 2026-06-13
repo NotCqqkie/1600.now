@@ -1,1 +1,15 @@
-{"questionId":"2f36d10d-2b67-4940-be7e-7ae5a7f478f1_5","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage presents a structural characteristic of the series and then contrasts two opposing interpretations of it. The question asks which answer best describes the overall structure of the passage."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; introduces a claim and provides evidence to support it</strong>: the passage presents competing views rather than building toward a single supported claim. &#10007;</li><li><strong>Choice B &mdash; describes a problem and proposes a solution</strong>: no solution is offered; the passage lays out a debate without resolving it. &#10007;</li><li><strong>Choice C &mdash; identifies a characteristic and presents two differing viewpoints on it</strong>: the passage names a structural feature of the series, then gives two contrasting interpretations — exactly this pattern. &#10003;</li><li><strong>Choice D &mdash; compares two works and argues one is superior</strong>: no judgment of superiority is made; the passage remains neutral between the two viewpoints. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_5",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage presents a structural characteristic of the series and then contrasts two opposing interpretations of it. The question asks which answer best describes the overall structure of the passage."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — To explain why many critics find the Aubrey/Maturin novels to be remarkably entertaining despite flaws in the novels' structures.</strong>: the passage presents competing views rather than building toward a single supported claim. &#10007;</li><li><strong>Choice B — To present a reason the unusual structure that 0'Brian uses for *Treason's Harbour* makes it one of his most complex books.</strong>: no solution is offered; the passage lays out a debate without resolving it. &#10007;</li><li><strong>Choice C — To describe a characteristic of the Aubrey/Maturin novels and offer two differing viewpoints on this characteristic.</strong>: the passage names a structural feature of the series, then gives two contrasting interpretations — exactly this pattern. &#10003;</li><li><strong>Choice D — To argue that the Aubrey Maturin series should have the literary renown of *In Search of Lost Time*.</strong>: no judgment of superiority is made; the passage remains neutral between the two viewpoints. &#10007;</li></ul><strong>C</strong> is correct."
+    }
+  ]
+}

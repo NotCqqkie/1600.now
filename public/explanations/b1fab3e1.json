@@ -1,1 +1,15 @@
-{"questionId": "b1fab3e1", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the key signal in the logical chain", "content": "The passage establishes that modern and Cremonese violins use the same woods, ruling out wood <em>type</em> as the explanation for superior sound.<br/><br/>Then it reveals the real difference: Cremonese wood was <strong>chemically treated by the makers</strong>.<br/><br/>This treatment is what researchers would logically infer explains the superior sound."}, {"title": "Match the answer to the inference", "content": "<strong>Choice B</strong> states that the sound quality “results in part from a method the craftspeople used to alter the wood.” This directly identifies the chemical treatment as the cause of superior sound.<br/><br/>The other choices either deny the superior sound claim (A), speculate about wrong wood types while ignoring the treatment finding (C), or claim modern makers use the same chemical process that old makers did, contradicting the discovery (D).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "b1fab3e1",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal in the logical chain",
+      "content": "The passage establishes that modern and Cremonese violins use the same woods, ruling out wood <em>type</em> as the explanation for superior sound.<br/><br/>Then it reveals the real difference: Cremonese wood was <strong>chemically treated by the makers</strong>.<br/><br/>This treatment is what researchers would logically infer explains the superior sound."
+    },
+    {
+      "title": "Match the answer to the inference",
+      "content": "<strong>Choice B &mdash; the sound quality of Cremonese violins results in part from a method the craftspeople used to alter the wood.</strong> states that the sound quality “results in part from a method the craftspeople used to alter the wood.” This directly identifies the chemical treatment as the cause of superior sound.<br/><br/>The other choices either deny the superior sound claim, speculate about wrong wood types while ignoring the treatment finding, or claim modern makers use the same chemical process that old makers did, contradicting the discovery.<br/><br/>That is the correct answer."
+    }
+  ]
+}

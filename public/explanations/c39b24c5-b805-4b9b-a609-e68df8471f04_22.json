@@ -1,1 +1,15 @@
-{"questionId": "c39b24c5-b805-4b9b-a609-e68df8471f04_22", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the logical relationship", "content": "The passage states that guard cells regulate carbon dioxide intake, then introduces a second function: regulating water loss. The blank must signal addition &mdash; a second related function of the same cells alongside the first."}, {"title": "Eliminate wrong choices and confirm the answer", "content": "Evaluate all four choices:<ul><li><strong>Choice A &mdash; 'Previously,'</strong>: signals something that happened earlier in time, but the passage is not presenting a chronological sequence between the two functions. &#10007;</li><li><strong>Choice B &mdash; 'Additionally,'</strong>: signals a second related point added to the first, fitting the introduction of a second function of guard cells. &#10003;</li><li><strong>Choice C &mdash; 'In conclusion,'</strong>: signals a final summary of an argument, but the passage is not wrapping up a multi-step argument &mdash; it is simply listing functions. &#10007;</li><li><strong>Choice D &mdash; 'Instead,'</strong>: signals substitution or contrast, implying the second function replaces the first &mdash; but both functions coexist simultaneously. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "c39b24c5-b805-4b9b-a609-e68df8471f04_22",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the logical relationship",
+      "content": "The passage states that guard cells regulate carbon dioxide intake, then introduces a second function: regulating water loss. The blank must signal addition &mdash; a second related function of the same cells alongside the first."
+    },
+    {
+      "title": "Eliminate wrong choices and confirm the answer",
+      "content": "Evaluate all four choices:<ul><li><strong>Choice A &mdash; Previously,</strong>: signals something that happened earlier in time, but the passage is not presenting a chronological sequence between the two functions. &#10007;</li><li><strong>Choice B &mdash; Additionally,</strong>: signals a second related point added to the first, fitting the introduction of a second function of guard cells. &#10003;</li><li><strong>Choice C &mdash; In conclusion,</strong>: signals a final summary of an argument, but the passage is not wrapping up a multi-step argument &mdash; it is simply listing functions. &#10007;</li><li><strong>Choice D &mdash; Instead,</strong>: signals substitution or contrast, implying the second function replaces the first &mdash; but both functions coexist simultaneously. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

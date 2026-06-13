@@ -4,6 +4,7 @@ import {
   PageSeo,
   buildBreadcrumbJsonLd,
   buildFaqJsonLd,
+  buildWebApplicationJsonLd,
   type FaqItem,
 } from "@/components/seo/PageSeo";
 
@@ -64,17 +65,17 @@ export const ScoreCalculatorSeoContent = () => {
             },
           ]),
           buildFaqJsonLd(faqs),
-          {
-            "@context": "https://schema.org",
-            "@type": "WebApplication",
+          buildWebApplicationJsonLd({
             name: "Digital SAT Score Calculator",
-            applicationCategory: "EducationalApplication",
-            operatingSystem: "Web",
             url: "https://1600.now/score-calculator",
             description:
               "Free Digital SAT score calculator that converts raw section scores into a 400–1600 scaled SAT score.",
-            offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
-          },
+            featureList: [
+              "Raw-to-scaled Digital SAT score estimate",
+              "Reading and Writing module scoring",
+              "Math module scoring",
+            ],
+          }),
         ]}
       />
 
@@ -141,11 +142,11 @@ export const ScoreCalculatorSeoContent = () => {
           </li>
         </ul>
         <p className="mt-3 text-muted-foreground">
-          Want to see what each score level means in detail? Browse our{" "}
-          <Link className="underline" to="/sat-score/1600">
-            SAT score breakdowns
+          Want to connect a score to college targets? Use the{" "}
+          <Link className="underline" to="/what-sat-score-do-i-need">
+            college score tool
           </Link>{" "}
-          for individual scores from 400 to 1600.
+          after estimating your section split.
         </p>
 
         <h2 className="mt-10 text-2xl font-semibold tracking-tight">
@@ -193,7 +194,7 @@ export const ScoreCalculatorSeoContent = () => {
             </p>
           </Link>
           <Link
-            to="/sat-vocabulary"
+            to="/vocab"
             className="rounded-xl border border-border p-5 transition hover:bg-muted"
           >
             <div className="font-semibold">Digital SAT Vocabulary</div>

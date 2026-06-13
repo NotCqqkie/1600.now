@@ -1,1 +1,15 @@
-{"questionId":"91ff0c6a-268b-4d8b-9642-b9fb25a907b4_8","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"Text 1 calls Asimov's flat characters a stylistic weakness. Text 2 pushes back, arguing the minimal characterization is intentional &mdash; it serves Asimov's theme that individuals are insignificant across historical epochs. The question asks what the student in Text 2 would say about Text 1's critique."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'the flatness stems from a different cause than Text 1 claims'</strong>: Text 2 does not dispute the cause so much as deny it is a flaw at all. This misframes the argument. &#10007;</li><li><strong>Choice B &mdash; 'the critique applies only to some of Asimov's works'</strong>: Text 2 makes no such scope limitation. &#10007;</li><li><strong>Choice C &mdash; 'the flatness should not be considered a flaw'</strong>: Exactly Text 2's position &mdash; the minimal characterization is a deliberate thematic choice, not a weakness. &#10003;</li><li><strong>Choice D &mdash; 'Text 1 misidentifies which characters are flat'</strong>: Text 2 does not dispute which characters are flat, only whether flatness is a flaw. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "91ff0c6a-268b-4d8b-9642-b9fb25a907b4_8",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "Text 1 calls Asimov's flat characters a stylistic weakness. Text 2 pushes back, arguing the minimal characterization is intentional &mdash; it serves Asimov's theme that individuals are insignificant across historical epochs. The question asks what the student in Text 2 would say about Text 1's critique."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Asimov's characterizations would have been richer if he had possessed a deeper understanding of history.</strong>: Text 2 does not dispute the cause so much as deny it is a flaw at all. This misframes the argument. &#10007;</li><li><strong>Choice B &mdash; The flatness of Asimov's characters is a feature of *The Caves of Steel* and *The Stars, Like Dust* but not of *Foundation*.</strong>: Text 2 makes no such scope limitation. &#10007;</li><li><strong>Choice C &mdash; The flatness of Asimov's characters should not necessarily be considered a flaw in his writing.</strong>: Exactly Text 2's position &mdash; the minimal characterization is a deliberate thematic choice, not a weakness. &#10003;</li><li><strong>Choice D &mdash; Asimov's characterizations would have been more believable if his writing had discussed fewer ideas.</strong>: Text 2 does not dispute which characters are flat, only whether flatness is a flaw. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

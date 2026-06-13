@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "<ul><li>Choice A, $\\frac{1}{45}$, is one specific band member.</li><li>Choice B, $\\frac{11}{45}$, uses the $11$ saxophone players out of $45$ members. Correct.</li><li>Choice C, $\\frac{34}{45}$, is the probability of not selecting a saxophone player.</li><li>Choice D, $\\frac{45}{45}$, would mean every band member plays saxophone.</li></ul>That matches choice B."
+      "content": "<ul><li>Choice A, $\\frac{1}{45}$, is one specific band member.</li><li>Choice B, $\\frac{11}{45}$, uses the $11$ saxophone players out of $45$ members. Correct.</li><li>Choice C, $\\frac{34}{45}$, is the probability of not selecting a saxophone player.</li><li>Choice D, $\\frac{45}{45}$, would mean every band member plays saxophone.</li></ul>That confirms <strong>B</strong>."
     }
   ]
 }

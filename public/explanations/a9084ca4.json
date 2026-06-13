@@ -9,7 +9,7 @@
     },
     {
       "title": "Interpret and identify the answer",
-      "content": "The variable $x$ represents <em>years since 1997</em>, so $x = 0$ is the year 1997.<br/><br/>The $y$-intercept value of 9,000 represents the estimated number of advertisements sent in 1997.<br/><br/>Choices A and B incorrectly describe this as a minimum value.<br/><br/>Choice C states the wrong number (1,708). That matches choice D — <strong>D</strong> is correct."
+      "content": "The variable $x$ represents <em>years since 1997</em>, so $x = 0$ is the year 1997.<br/><br/>The $y$-intercept value of 9,000 represents the estimated number of advertisements sent in 1997.<br/><br/>The other choices incorrectly describe this as a minimum value.<br/><br/>The correct answer states the wrong number (1,708). That is the correct answer."
     }
   ]
 }

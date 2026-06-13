@@ -1,1 +1,15 @@
-{"questionId": "bb275f0d", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Spot the causal explanation in the notes", "content": "The decisive clue is the <strong>causal chain</strong>: varied vegetation → varied diet → stronger immune systems. A generalization about honeybees should state this explanation, not just describe the environment or report statistics."}, {"title": "Find the answer that connects a generalization about honeybees to its causal explanation", "content": "Choice D claims honeybees thrive better in cities and directly supports this by citing the <strong>causal mechanism</strong>: varied urban diets strengthen immune systems.<br/><br/>The other choices don't combine the causal explanation with a generalization about where honeybees thrive.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "bb275f0d",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the causal explanation in the notes",
+      "content": "The decisive clue is the <strong>causal chain</strong>: varied vegetation → varied diet → stronger immune systems. A generalization about honeybees should state this explanation, not just describe the environment or report statistics."
+    },
+    {
+      "title": "Find the answer that connects a generalization about honeybees to its causal explanation",
+      "content": "The correct answer claims honeybees thrive better in cities and directly supports this by citing the <strong>causal mechanism</strong>: varied urban diets strengthen immune systems.<br/><br/>The other choices don't combine the causal explanation with a generalization about where honeybees thrive.<br/><br/>That is the correct answer."
+    }
+  ]
+}

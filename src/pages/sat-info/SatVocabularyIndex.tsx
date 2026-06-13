@@ -76,6 +76,40 @@ const SatVocabularyIndex = () => {
         </div>
       </header>
 
+      <section className="mb-10 rounded-xl border border-border p-5">
+        <h2 className="text-2xl font-semibold tracking-tight">
+          How to study SAT vocabulary without memorizing useless lists
+        </h2>
+        <div className="mt-4 overflow-x-auto rounded-lg border border-border">
+          <table className="w-full min-w-[560px] text-left text-sm">
+            <thead className="bg-muted/70">
+              <tr>
+                <th className="px-4 py-3 font-semibold">Step</th>
+                <th className="px-4 py-3 font-semibold">What to do</th>
+                <th className="px-4 py-3 font-semibold">SAT reason</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="border-t border-border">
+                <td className="px-4 py-3 text-muted-foreground">Learn in context</td>
+                <td className="px-4 py-3 text-muted-foreground">Read the sentence before the definition and predict the word's role.</td>
+                <td className="px-4 py-3 text-muted-foreground">Words-in-Context tests meaning in a passage, not dictionary recall.</td>
+              </tr>
+              <tr className="border-t border-border">
+                <td className="px-4 py-3 text-muted-foreground">Sort by difficulty</td>
+                <td className="px-4 py-3 text-muted-foreground">Master easy and medium words before spending time on rare hard words.</td>
+                <td className="px-4 py-3 text-muted-foreground">Medium words appear more often and protect more score points.</td>
+              </tr>
+              <tr className="border-t border-border">
+                <td className="px-4 py-3 text-muted-foreground">Apply immediately</td>
+                <td className="px-4 py-3 text-muted-foreground">After flashcards, do a Words-in-Context question set.</td>
+                <td className="px-4 py-3 text-muted-foreground">The real skill is choosing the meaning that fits the sentence logic.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
       {(["Easy", "Medium", "Hard"] as const).map((difficulty) => (
         <section key={difficulty} className="mb-10">
           <h2 className="text-2xl font-semibold tracking-tight">

@@ -1,10 +1,23 @@
 {
+  "questionId": "a22baf87-f61e-43f7-b868-52cf0e05d234_22",
   "qid": "a22baf87-f61e-43f7-b868-52cf0e05d234_22",
   "steps": [
-    "Label the three consecutive integers. The first is $x$, so the second is $x+1$ and the third is $x+2$.",
-    "Translate each phrase: &quot;the sum of 4 and the second integer&quot; = $4 + (x+1)$; &quot;the product of 17 and the third integer&quot; = $17(x+2)$; &quot;is less than&quot; = $\\lt$.",
-    "Combine: $4 + (x+1) \\lt 17(x+2)$.",
-    "Evaluate each answer choice:<ul><li>Choice A: $4+(x+1) \\gt 17(x+2)$ — uses the correct expressions but the wrong direction (&gt; instead of &lt;). Eliminated.</li><li>Choice B: $4+(x+1) \\lt 17(x+2)$ — correct expressions and correct inequality direction. That matches choice B — <strong>B</strong> is correct.</li><li>Choice C: $4+(x+2) \\gt 17(x+3)$ — uses the third and fourth integers instead of the second and third, and the wrong direction. Eliminated.</li><li>Choice D: $4+(x+2) \\lt 17(x+3)$ — uses the wrong integers (shifted by one). Eliminated.</li></ul>"
+    {
+      "title": "Step 1",
+      "content": "Label the three consecutive integers. The first is $x$, so the second is $x+1$ and the third is $x+2$."
+    },
+    {
+      "title": "Step 2",
+      "content": "Translate each phrase: &quot;the sum of 4 and the second integer&quot; = $4 + (x+1)$; &quot;the product of 17 and the third integer&quot; = ${17}(x+2)$; &quot;is less than&quot; = $\\lt$."
+    },
+    {
+      "title": "Step 3",
+      "content": "Combine: $4 + (x+1) \\lt 17(x+2)$."
+    },
+    {
+      "title": "Step 4",
+      "content": "Evaluate each answer choice:<ul><li>Choice A: $4+(x+1) \\gt 17(x+2)$ — uses the correct expressions but the wrong direction (&gt; instead of &lt;). Eliminated.</li><li>Choice B: $4+(x+1) \\lt 17(x+2)$ — correct expressions and correct inequality direction. That confirms <strong>B</strong> is correct.</li><li>Choice C: $4+(x+2) \\gt 17(x+3)$ — uses the third and fourth integers instead of the second and third, and the wrong direction. Eliminated.</li><li>Choice D: $4+(x+2) \\lt 17(x+3)$ — uses the wrong integers (shifted by one). Eliminated.</li></ul>"
+    }
   ],
   "correctAnswer": "B"
 }

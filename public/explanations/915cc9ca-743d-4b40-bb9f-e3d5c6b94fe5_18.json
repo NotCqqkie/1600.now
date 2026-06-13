@@ -1,4 +1,5 @@
 {
+  "questionId": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_18",
   "qid": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_18",
   "steps": [
     {
@@ -11,10 +12,10 @@
     },
     {
       "title": "Choose a value above the boundary",
-      "content": "At $c=\\frac{127}{16}$ there is exactly one repeated solution, so that is not enough. To get two distinct real solutions, choose a listed value greater than $\\frac{127}{16}$. Only $13$ works, so choice D is correct."
+      "content": "At $c=\\frac{127}{16}$ there is exactly one repeated solution, so that is not enough. To get two distinct real solutions, choose a listed value greater than $\\frac{127}{16}$. Only $13$ works, so the answer 13 is correct."
     }
   ],
-  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; '3'</strong>: 3 < 7.9375, so discriminant < 0 &mdash; no real solutions at all. &#10007;</li><li><strong>Choice B &mdash; '7'</strong>: 7 < 7.9375, so discriminant < 0 &mdash; no real solutions. &#10007;</li><li><strong>Choice C &mdash; '$\\frac{127}{16}$'</strong>: c = 127/16 makes discriminant exactly 0 &mdash; one repeated (not two distinct) solution. &#10007;</li><li><strong>Choice D &mdash; '13'</strong>: 13 > 7.9375, so discriminant > 0 &mdash; two distinct real solutions. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.",
+  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; 3</strong>: 3 < 7.9375, so discriminant < 0 &mdash; no real solutions at all. &#10007;</li><li><strong>Choice B &mdash; 7</strong>: 7 < 7.9375, so discriminant < 0 &mdash; no real solutions. &#10007;</li><li><strong>Choice C &mdash; $\\frac{127}{16}$</strong>: c = 127/16 makes discriminant exactly 0 &mdash; one repeated (not two distinct) solution. &#10007;</li><li><strong>Choice D &mdash; 13</strong>: 13 > 7.9375, so discriminant > 0 &mdash; two distinct real solutions. &#10003;</li></ul>That confirms <strong>D</strong> is correct.",
   "correctAnswer": "D",
   "desmosExpressions": [
     "y = x - 13",

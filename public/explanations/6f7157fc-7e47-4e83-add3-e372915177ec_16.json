@@ -9,7 +9,7 @@
     },
     {
       "title": "Backsolve the answer choices",
-      "content": "Since the choices are simple integers, test them directly instead of using the quadratic formula. <br/><br/>Backsolving — testing choice C (30): <br/>If $h = 30$, base $= 42$, and area $= \\frac{1}{2}(42)(30) = 630 \\neq 270$. Fails. <br/><br/>Backsolving — testing choice B (18): <br/>If $h = 18$, base $= 30$, and area $= \\frac{1}{2}(30)(18) = 270$. ✓ <br/><br/>That matches choice B — <strong>B</strong> is correct."
+      "content": "Since the choices are simple integers, test them directly instead of using the quadratic formula. <br/><br/>Backsolving — testing choice C (30): <br/>If $h = 30$, base $= 42$, and area $= \\frac{1}{2}(42)(30) = 630 \\neq 270$. Fails. <br/><br/>Backsolving — testing choice B (18): <br/>If $h = 18$, base $= 30$, and area $= \\frac{1}{2}(30)(18) = 270$. ✓ <br/><br/>That confirms <strong>B</strong> is correct."
     }
   ]
 }

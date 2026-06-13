@@ -9,7 +9,7 @@
     },
     {
       "title": "Convert growth factor to percent increase",
-      "content": "A p% increase means the new amount is $(1 + \\frac{p}{100})$ times the original. Set this equal to the growth factor:<br/>$$1 + \\frac{p}{100} = Q^{1/2}.$$<br/>Solve for p:<br/>$$\\frac{p}{100} = Q^{1/2} - 1 \\quad \\Longrightarrow \\quad p = 100\\left(Q^{1/2} - 1\\right).$$<br/>That matches choice C — <strong>C</strong> is correct."
+      "content": "A p% increase means the new amount is $(1 + \\frac{p}{100})$ times the original. Set this equal to the growth factor:<br/>$$1 + \\frac{p}{100} = Q^{1/2}.$$<br/>Solve for p:<br/>$$\\frac{p}{100} = Q^{1/2} - 1 \\quad \\Longrightarrow \\quad p = 100\\left(Q^{1/2} - 1\\right).$$<br/>That is the correct answer."
     }
   ]
 }

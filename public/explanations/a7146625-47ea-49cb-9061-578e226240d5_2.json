@@ -1,1 +1,15 @@
-{"questionId": "a7146625-47ea-49cb-9061-578e226240d5_2", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Find the GCF", "content": "Lowest power of $x$ across $7x^6,\\ -2x^5,\\ 9x^4$ is $x^4$. Factor it out:<br/>$$7x^6 - 2x^5 + 9x^4 = x^4(7x^2 - 2x + 9)$$"}, {"title": "Match the choice", "content": "That's exactly choice B.<br/><br/>A drops the $9x^4$ term; C's outer factor of $9$ is wrong; D doesn't factor out a common term.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "a7146625-47ea-49cb-9061-578e226240d5_2",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the GCF",
+      "content": "Lowest power of $x$ across $7x^6,\\ -2x^5,\\ 9x^4$ is $x^4$. Factor it out:<br/>$$7x^6 - 2x^5 + 9x^4 = x^4(7x^2 - 2x + 9)$$"
+    },
+    {
+      "title": "Match the choice",
+      "content": "The expression $x^4(7x^2 - 2x + 9)$ is choice B.<br/><br/>Choice A, $x^5(7x - 2)$, drops the $9x^4$ term. Choice C, $9x^4(7x^2 - 2x + 1)$, has an extra outer factor of $9$. Choice D, $2x^6(-2x^5 + 9x^4 + 1)$, does not factor out the common factor. That leaves <strong>B</strong>."
+    }
+  ]
+}

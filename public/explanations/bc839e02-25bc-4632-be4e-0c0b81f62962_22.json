@@ -1,1 +1,15 @@
-{"questionId":"bc839e02-25bc-4632-be4e-0c0b81f62962_22","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage sets up a cause-and-effect: the 1903 Wright Flyer was bulky and not aerodynamic; modern planes have sleek, streamlined bodies. The blank introduces the logical result of that sleek design. A causal transition is needed."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Lastly,'</strong>: Signals a final item in a list, not a cause-and-effect relationship. &#10007;</li><li><strong>Choice B &mdash; 'On the contrary,'</strong>: Signals a contradiction. The third sentence does not contradict the second &mdash; it follows from it. &#10007;</li><li><strong>Choice C &mdash; 'As a result,'</strong>: Directly signals that the greater aerodynamics is a consequence of the sleek, streamlined bodies described in the previous sentence. &#10003;</li><li><strong>Choice D &mdash; 'Regardless,'</strong>: Signals that the third sentence holds true despite the second &mdash; the opposite of the intended meaning. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "bc839e02-25bc-4632-be4e-0c0b81f62962_22",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage sets up a cause-and-effect: the 1903 Wright Flyer was bulky and not aerodynamic; modern planes have sleek, streamlined bodies. The blank introduces the logical result of that sleek design. A causal transition is needed."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Lastly,</strong>: Signals a final item in a list, not a cause-and-effect relationship. &#10007;</li><li><strong>Choice B &mdash; On the contrary,</strong>: Signals a contradiction. The third sentence does not contradict the second &mdash; it follows from it. &#10007;</li><li><strong>Choice C &mdash; As a result,</strong>: Directly signals that the greater aerodynamics is a consequence of the sleek, streamlined bodies described in the previous sentence. &#10003;</li><li><strong>Choice D &mdash; Regardless,</strong>: Signals that the third sentence holds true despite the second &mdash; the opposite of the intended meaning. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

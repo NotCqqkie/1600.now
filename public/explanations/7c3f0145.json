@@ -1,1 +1,19 @@
-{"questionId": "7c3f0145", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Read what the blank is doing", "content": "The em dash before the blank sets off a phrase that explains the technical term &quot;cognate replacement&quot; just mentioned: &quot;the rate at which a word will be replaced over time with a noncognate form.&quot; That's a definition/restatement of the term, not a new example or added fact."}, {"title": "Pick the restatement transition", "content": "&quot;That is&quot; is the standard transition for restatement or definition &mdash; it tells the reader the following phrase clarifies what the previous term means."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; 'for example,'</strong>: would introduce an instance of cognate replacement, but what follows defines the term rather than illustrating it. &#10007;</li><li><strong>Choice B &mdash; 'likewise,'</strong>: signals a parallel point, but no second comparable case is being added. &#10007;</li><li><strong>Choice C &mdash; 'in addition,'</strong>: signals an extra, separate point, but the phrase that follows is the same idea restated, not a new one. &#10007;</li><li><strong>Choice D &mdash; 'that is,'</strong>: signals restatement/definition, matching the explanatory phrase that follows. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "7c3f0145",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read what the blank is doing",
+      "content": "The em dash before the blank sets off a phrase that explains the technical term &quot;cognate replacement&quot; just mentioned: &quot;the rate at which a word will be replaced over time with a noncognate form.&quot; That's a definition/restatement of the term, not a new example or added fact."
+    },
+    {
+      "title": "Pick the restatement transition",
+      "content": "&quot;That is&quot; is the standard transition for restatement or definition &mdash; it tells the reader the following phrase clarifies what the previous term means."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;for example,&rsquo;</strong>: would introduce an instance of cognate replacement, but what follows defines the term rather than illustrating it. &#10007;</li><li><strong>Choice B &mdash; &lsquo;likewise,&rsquo;</strong>: signals a parallel point, but no second comparable case is being added. &#10007;</li><li><strong>Choice C &mdash; &lsquo;in addition,&rsquo;</strong>: signals an extra, separate point, but the phrase that follows is the same idea restated, not a new one. &#10007;</li><li><strong>Choice D &mdash; &lsquo;that is,&rsquo;</strong>: signals restatement/definition, matching the explanatory phrase that follows. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

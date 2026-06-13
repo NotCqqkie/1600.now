@@ -1,1 +1,15 @@
-{"questionId": "8b017d4e", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the opening phrase logically needs", "content": "The phrase “Supported by biochemical analyses...” describes something being supported by scientific evidence. This opening must logically connect to a subject. What does evidence logically “support” — the physical items being studied, or the conclusions drawn about them?"}, {"title": "Find the subject that evidence logically supports", "content": "Choice D uses “findings from a 2022 study” as the subject — findings are what biochemical evidence logically “supports” or validates.<br/><br/>Choices A, B, and C use items (vegetables, diets, components) as subjects — these are objects that evidence analyzes, not things that evidence “supports.” That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "8b017d4e",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the opening phrase logically needs",
+      "content": "The phrase “Supported by biochemical analyses...” describes something being supported by scientific evidence. This opening must logically connect to a subject. What does evidence logically “support” — the physical items being studied, or the conclusions drawn about them?"
+    },
+    {
+      "title": "Find the subject that evidence logically supports",
+      "content": "The correct answer uses “findings from a 2022 study” as the subject — findings are what biochemical evidence logically “supports” or validates.<br/><br/>Answers that make vegetables, diets, or components the subject are illogical because evidence analyzes those things; evidence does not “support” the items themselves. That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

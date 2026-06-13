@@ -1,1 +1,15 @@
-{"questionId": "85c0c0f0", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the task requires", "content": "The student wants to “present historical analysis to an audience unfamiliar with the concept.” This signals a need to explain or define the concept itself, not compare approaches or show an application."}, {"title": "Apply this to the choices", "content": "Choice C directly defines historical analysis as “an approach to art criticism” that “considers the historical context in which a work was created,” giving an unfamiliar audience the concept's meaning and method.<br/><br/>Choices A and B focus on texture analysis or comparison instead of explaining historical analysis, while choice D shows only an example without teaching the concept.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "85c0c0f0",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the task requires",
+      "content": "The student wants to “present historical analysis to an audience unfamiliar with the concept.” This signals a need to explain or define the concept itself, not compare approaches or show an application."
+    },
+    {
+      "title": "Apply this to the choices",
+      "content": "The correct answer directly defines historical analysis as “an approach to art criticism” that “considers the historical context in which a work was created,” giving an unfamiliar audience the concept's meaning and method.<br/><br/>Answers about texture analysis or comparison focus on a different method, while the <em>Las Meninas</em> example applies historical context without explaining the concept.<br/><br/>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -13,7 +13,7 @@
     },
     {
       "title": "Read and confirm the valid intersection",
-      "content": "Desmos shows the intersection at $x=-\\frac{7}{27}$. This also fits the sign rule: the square root is nonnegative, so $-9a$ must be nonnegative and $a\\le0$. Check choice B:<br/>$$\\sqrt{6\\left(-\\frac{7}{27}\\right)+7}=\\sqrt{\\frac{49}{9}}=\\frac{7}{3}$$<br/>and<br/>$$-9\\left(-\\frac{7}{27}\\right)=\\frac{7}{3}$$<br/>Both sides match, so <strong>B</strong> is correct."
+      "content": "Desmos shows the intersection at $x=-\\frac{7}{27}$. This also fits the sign rule: the square root is nonnegative, so $-9a$ must be nonnegative and $a\\le0$. Check $-\\frac{7}{27}$:<br/>$$\\sqrt{6\\left(-\\frac{7}{27}\\right)+7}=\\sqrt{\\frac{49}{9}}=\\frac{7}{3}$$<br/>and<br/>$$-9\\left(-\\frac{7}{27}\\right)=\\frac{7}{3}$$<br/>Both sides match, so <strong>B</strong> is correct."
     }
   ]
 }

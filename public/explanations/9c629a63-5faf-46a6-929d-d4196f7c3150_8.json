@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate each answer choice",
-      "content": "<ul><li>Choice A: &quot;The time, in months, it will take Antwon&apos;s hair to grow 1 inch&quot; — 0.3 is a coefficient of $t$, not itself a time value. Eliminated.</li><li>Choice B: &quot;The length, in inches, Antwon's hair will grow each month&quot; — matches the rate interpretation of the coefficient. Kept.</li><li>Choice C: &quot;The time, in months, it will take Antwon's hair to reach a length of 5 inches&quot; — that is what $t$ represents, not 0.3. Eliminated.</li><li>Choice D: &quot;The length, in inches, Antwon's hair will grow in 5 months&quot; — growth in 5 months would be $0.3 \\times 5 = 1.5$, not 0.3. Eliminated.</li></ul>That matches choice B — <strong>B</strong> is correct."
+      "content": "<ul><li>Choice A: The time, in months, it will take Antwon's hair to grow 1 inch — 0.3 is a coefficient of $t$, not itself a time value. Eliminated.</li><li>Choice B: The length, in inches, Antwon's hair will grow each month — matches the rate interpretation of the coefficient. Kept.</li><li>Choice C: The time, in months, it will take Antwon's hair to reach a length of 5 inches — that is what $t$ represents, not 0.3. Eliminated.</li><li>Choice D: The length, in inches, Antwon's hair will grow in 5 months — growth in 5 months would be $0.3 \\times 5 = 1.5$, not 0.3. Eliminated.</li></ul>That confirms <strong>B</strong> is correct."
     }
   ]
 }

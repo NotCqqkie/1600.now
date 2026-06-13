@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li>Choice A: &quot;The number of bacteria at the initial measurement&quot; &mdash; matches $f(0) = 34{,}000$. Correct.</li><li>Choice B: &quot;The number of hours for the population to double&quot; &mdash; that is determined by the base $b = 2$, not by $34{,}000$. Incorrect.</li><li>Choice C: &quot;The number of bacteria 1 hour after the initial measurement&quot; &mdash; that would be $f(1) = 34{,}000 \\cdot 2 = 68{,}000$, not $34{,}000$. Incorrect.</li><li>Choice D: &quot;The number of times the population doubles in 1 hour&quot; &mdash; the population doubles once per hour, not $34{,}000$ times. Incorrect.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; The number of bacteria in the population at the initial measurement</strong>: matches $f(0) = 34{,}000$. Correct.</li><li><strong>Choice B &mdash; The number of hours it takes for the number of bacteria in the population to double</strong>: that is determined by the base $b = 2$, not by $34{,}000$. Incorrect.</li><li><strong>Choice C &mdash; The number of bacteria in the population 1 hour after the initial measurement</strong>: that would be $f(1) = 34{,}000 \\cdot 2 = 68{,}000$, not $34{,}000$. Incorrect.</li><li><strong>Choice D &mdash; The number of times the number of bacteria in the population doubles in 1 hour</strong>: the population doubles once per hour, not $34{,}000$ times. Incorrect.</li></ul>That confirms <strong>A</strong> is correct."
     }
   ]
 }

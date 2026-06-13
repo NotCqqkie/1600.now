@@ -9,11 +9,11 @@
     },
     {
       "title": "Test inequality II at P(3, -5)",
-      "content": "Substitute into $y > x - 5$:<br/>$$-5 > 3 - 5 = -2$$<br/>Since $-5 > -2$ is false, inequality II does not hold."
+      "content": "Substitute into $y \\gt  x - 5$:<br/>$$-5 \\gt  3 - 5 = -2$$<br/>Since $-5 \\gt  -2$ is false, inequality II does not hold."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li>A. I only &mdash; I is true and II is false; matches.</li><li>B. II only &mdash; II is false, so this is incorrect.</li><li>C. I and II &mdash; II fails, so this is incorrect.</li><li>D. Neither &mdash; I holds, so this is incorrect.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li>A. I only &mdash; I is true and II is false; matches.</li><li>B. II only &mdash; II is false, so this is incorrect.</li><li>C. I and II &mdash; II fails, so this is incorrect.</li><li>D. Neither &mdash; I holds, so this is incorrect.</li></ul><strong>A</strong> is correct."
     }
   ]
 }

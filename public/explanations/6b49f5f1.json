@@ -1,1 +1,15 @@
-{"questionId": "6b49f5f1", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structure needed", "content": "The sentence contains two independent clauses: &quot;Many...were [blank]&quot; and &quot;historians have determined that Shakespeare&apos;s company did perform a play called <em>Cardenio</em> in 1613.&quot; The word &quot;but&quot; is the coordinating conjunction joining them. The rule for joining two independent clauses with a coordinating conjunction is: place a comma before the conjunction. The blank must end with &quot;skeptical,&quot; followed by &quot;but&quot; to form a grammatical sentence."}, {"title": "Eliminate each wrong choice", "content": "<ul><li><strong>Choice A &mdash; 'skeptical but'</strong>: Joining two independent clauses with a coordinating conjunction alone (no comma) creates a run-on sentence &mdash; violates the comma-before-coordinating-conjunction rule. &#10007;</li><li><strong>Choice B &mdash; 'skeptical, but'</strong>: The comma before &quot;but&quot; correctly separates the two independent clauses, satisfying the rule for compound sentences. &#10003;</li><li><strong>Choice C &mdash; 'skeptical,'</strong>: A comma alone joining two independent clauses creates a comma splice &mdash; a coordinating conjunction is also required. &#10007;</li><li><strong>Choice D &mdash; 'skeptical'</strong>: No punctuation between the two independent clauses creates a fused (run-on) sentence. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "6b49f5f1",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure needed",
+      "content": "The sentence contains two independent clauses: &quot;Many...were [blank]&quot; and &quot;historians have determined that Shakespeare&apos;s company did perform a play called <em>Cardenio</em> in 1613.&quot; The word &quot;but&quot; is the coordinating conjunction joining them. The rule for joining two independent clauses with a coordinating conjunction is: place a comma before the conjunction. The blank must end with &quot;skeptical,&quot; followed by &quot;but&quot; to form a grammatical sentence."
+    },
+    {
+      "title": "Eliminate each wrong choice",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;skeptical but&rsquo;</strong>: Joining two independent clauses with a coordinating conjunction alone (no comma) creates a run-on sentence &mdash; violates the comma-before-coordinating-conjunction rule. &#10007;</li><li><strong>Choice B &mdash; &lsquo;skeptical, but&rsquo;</strong>: The comma before &quot;but&quot; correctly separates the two independent clauses, satisfying the rule for compound sentences. &#10003;</li><li><strong>Choice C &mdash; &lsquo;skeptical,&rsquo;</strong>: A comma alone joining two independent clauses creates a comma splice &mdash; a coordinating conjunction is also required. &#10007;</li><li><strong>Choice D &mdash; &lsquo;skeptical&rsquo;</strong>: No punctuation between the two independent clauses creates a fused (run-on) sentence. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

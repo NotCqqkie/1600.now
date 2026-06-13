@@ -1,11 +1,21 @@
 {
+  "questionId": "21e539a0",
   "qid": "21e539a0",
   "steps": [
-    "The hose puts 88x ounces in 5y minutes, so the rate is $\\frac{88x}{5y}$ oz/min.",
-    "Multiply the rate by the new time of 9y minutes: $\\frac{88x}{5y} \\times 9y = \\frac{88x \\cdot 9}{5} = \\frac{792x}{5}$.",
-    "The y factors cancel, leaving an expression in x only."
+    {
+      "title": "Find the hose rate",
+      "content": "The hose puts $88x$ ounces in $5y$ minutes, so the rate is $\\frac{88x}{5y}$ ounces per minute."
+    },
+    {
+      "title": "Multiply by the new time",
+      "content": "For $9y$ minutes, the amount is $\\frac{88x}{5y} \\times 9y = \\frac{88x \\cdot 9}{5} = \\frac{792x}{5}$."
+    },
+    {
+      "title": "Cancel the shared factor",
+      "content": "The $y$ factors cancel, leaving an expression in $x$ only.<br/><br/>That matches <strong>Choice D &mdash; $\\frac{792x}{5}$</strong>."
+    }
   ],
-  "eliminationHtml": "<ul><li><strong>Choice A &mdash; '$\\frac{9x}{440}$'</strong>: This is far too small; it divides by 440 rather than multiplying. &#10007;</li><li><strong>Choice B &mdash; '$\\frac{440x}{9}$'</strong>: 4 &times; 88 = 352, not 440, and the 9 is in the denominator rather than numerator relative to 5. &#10007;</li><li><strong>Choice C &mdash; '$\\frac{5x}{792}$'</strong>: Inverts the relationship; 5 should be in the denominator and 792 in the numerator. &#10007;</li><li><strong>Choice D &mdash; '$\\frac{792x}{5}$'</strong>: 88 &times; 9 = 792, and the original 5y time unit stays in the denominator as 5. This matches the rate calculation exactly. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.",
+  "eliminationHtml": "<ul><li><strong>Choice A &mdash; $\\frac{9x}{440}$</strong>: This is far too small; it divides by 440 rather than multiplying. &#10007;</li><li><strong>Choice B &mdash; $\\frac{440x}{9}$</strong>: 4 &times; 88 = 352, not 440, and the 9 is in the denominator rather than numerator relative to 5. &#10007;</li><li><strong>Choice C &mdash; $\\frac{5x}{792}$</strong>: Inverts the relationship; 5 should be in the denominator and 792 in the numerator. &#10007;</li><li><strong>Choice D &mdash; $\\frac{792x}{5}$</strong>: 88 &times; 9 = 792, and the original 5y time unit stays in the denominator as 5. This matches the rate calculation exactly. &#10003;</li></ul>That matches <strong>Choice D &mdash; $\\frac{792x}{5}$</strong>.",
   "correctAnswer": "D",
   "desmosExpressions": [
     "\\frac{88x \\cdot 9}{5}"

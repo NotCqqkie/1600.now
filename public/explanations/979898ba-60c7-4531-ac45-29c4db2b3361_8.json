@@ -9,7 +9,7 @@
     },
     {
       "title": "Isolate $(x-41)^2$",
-      "content": "Multiply both sides by $4$: $(x-41)^2 = 4 \\cdot 64 = 256$.<br/><br/><ul><li><strong>Choice A — $256$</strong>: matches $(x-41)^2 = 256$. &#10003;</li><li><strong>Choice B — $128$</strong>: would require multiplying by $2$, not $4$. &#10007;</li><li><strong>Choice C — $41$</strong>: confuses the constant in the expression for the answer. &#10007;</li><li><strong>Choice D — $8$</strong>: confuses $\\sqrt{64}$ for the answer instead of $4 \\times 64$. &#10007;</li></ul>That matches choice A — <strong>A</strong> is correct."
+      "content": "Multiply both sides by $4$: $(x-41)^2 = 4 \\cdot 64 = 256$.<br/><br/><ul><li><strong>Choice A &mdash; $256$</strong>: matches $(x-41)^2 = 256$. &#10003;</li><li><strong>Choice B &mdash; $128$</strong>: would require multiplying by $2$, not $4$. &#10007;</li><li><strong>Choice C &mdash; $41$</strong>: confuses the constant in the expression for the answer. &#10007;</li><li><strong>Choice D &mdash; $8$</strong>: confuses $\\sqrt{64}$ for the answer instead of $4 \\times 64$. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
     }
   ]
 }

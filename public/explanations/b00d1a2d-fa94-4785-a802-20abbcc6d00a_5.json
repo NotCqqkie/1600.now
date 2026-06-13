@@ -1,7 +1,21 @@
 {
+  "questionId": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_5",
   "qid": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_5",
   "correctAnswer": "A",
-  "explanationHtml": "<p><strong>Step 1: Simplify each equation.</strong><br>Equation 1: $x + 6y = -14$<br>Equation 2: divide by 5 $\\Rightarrow x + 6y = 0$<br>Equation 3: divide by 2 $\\Rightarrow x + 6y = 19.5$</p><p><strong>Step 2: Compare slopes and intercepts.</strong><br>All three have slope $-\\frac{1}{6}$ but different $y$-intercepts ($-14/6$, $0$, $19.5/6$), so they are three distinct parallel lines with no point in common.</p><p><strong>Step 3: Test all four choices.</strong><ul><li><strong>Choice A &mdash; &lsquo;Zero&rsquo;</strong>: Three parallel, non-coincident lines share no common point &#10003;</li><li><strong>Choice B &mdash; &lsquo;Exactly one&rsquo;</strong>: A unique intersection requires at least two non-parallel lines; impossible here &#10007;</li><li><strong>Choice C &mdash; &lsquo;Exactly two&rsquo;</strong>: A linear system can never have exactly two solutions &#10007;</li><li><strong>Choice D &mdash; &lsquo;Infinitely many&rsquo;</strong>: Would require all three equations to be the same line; the constants $-14, 0, 19.5$ differ &#10007;</li></ul></p><p>That matches choice A &mdash; <strong>A</strong> is correct.</p>",
+  "steps": [
+    {
+      "title": "Simplify each equation",
+      "content": "Equation 1 is already $x+6y=-14$. Dividing equation 2 by 5 gives $x+6y=0$. Dividing equation 3 by 2 gives $x+6y=19.5$."
+    },
+    {
+      "title": "Compare the lines",
+      "content": "All three equations have the same left side, so they have the same slope, but their constants are different. They are three distinct parallel lines, so there is no point that satisfies all three equations."
+    },
+    {
+      "title": "Check the choices",
+      "content": "<ul><li><strong>Zero</strong> matches three distinct parallel lines with no common point.</li><li><strong>Exactly one</strong> would require the system to meet at a single shared point, which parallel distinct lines cannot do.</li><li><strong>Exactly two</strong> is not possible for a system of linear equations.</li><li><strong>Infinitely many</strong> would require all three equations to represent the same line, but the constants $-14$, $0$, and $19.5$ differ.</li></ul>That matches <strong>A</strong>."
+    }
+  ],
   "desmosExpressions": [
     {
       "id": "eq1",

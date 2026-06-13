@@ -302,7 +302,7 @@ const staticAssets: LinkableAsset[] = [
     relatedSlugs: ["digital-sat-timing-chart", "sat-question-types-chart", "desmos-sat-shortcuts"],
     productLinks: [
       { label: "Take timed modules", href: "/modules" },
-      { label: "Read the Digital SAT guide", href: "/digital-sat-guide" },
+      { label: "Open the question bank", href: "/bank" },
     ],
   },
   {
@@ -410,7 +410,7 @@ const staticAssets: LinkableAsset[] = [
     productLinks: [
       { label: "Practice systems with Desmos", href: bankSkillHref("math", "Systems of two linear equations in two variables") },
       { label: "Practice nonlinear functions", href: bankSkillHref("math", "Nonlinear functions") },
-      { label: "Read the Desmos SAT guide", href: "/desmos-sat-guide" },
+      { label: "Practice SAT Math", href: "/bank/math/browse" },
     ],
   },
   {
@@ -447,7 +447,7 @@ const staticAssets: LinkableAsset[] = [
     relatedSlugs: ["sat-words-in-context-worksheet", "sat-vocabulary-frequency-list", "sat-reading-writing-skill-chart"],
     productLinks: [
       { label: "Practice Words in Context", href: bankSkillHref("reading", "Words in Context") },
-      { label: "Open SAT vocabulary", href: "/sat-vocabulary" },
+      { label: "Open SAT vocabulary", href: "/vocab" },
     ],
   },
   {
@@ -521,7 +521,7 @@ const staticAssets: LinkableAsset[] = [
     relatedSlugs: ["sat-boundaries-punctuation-worksheet", "sat-grammar-rules-chart", "sat-writing-practice"],
     productLinks: [
       { label: "Practice punctuation", href: bankSkillHref("reading", "Boundaries") },
-      { label: "Review punctuation guide", href: "/sat-skill/boundaries-punctuation" },
+      { label: "Open Reading and Writing bank", href: "/bank/reading/browse" },
     ],
   },
   {
@@ -582,7 +582,7 @@ const staticAssets: LinkableAsset[] = [
       { question: "Should I study the morning of the SAT?", answer: "Only light review. Heavy last-minute studying usually creates more stress than points." },
     ],
     relatedSlugs: ["sat-score-release-calendar", "sat-cram-plan", "digital-sat-timing-chart"],
-    productLinks: [{ label: "Read test-day guides", href: "/blog/sat-test-day-checklist" }],
+    productLinks: [{ label: "Open SAT countdown", href: "/sat-test-countdown" }],
   },
   {
     slug: "sat-section-score-chart",
@@ -654,7 +654,7 @@ const staticAssets: LinkableAsset[] = [
     productLinks: [
       { label: "Practice Math question types", href: "/bank/math/browse" },
       { label: "Practice Reading question types", href: "/bank/reading/browse" },
-      { label: "Browse skills", href: "/sat-skill" },
+      { label: "Open the question bank", href: "/bank" },
     ],
   },
   {
@@ -727,7 +727,7 @@ const staticAssets: LinkableAsset[] = [
       { question: "Can you get into an Ivy with a lower SAT?", answer: "Yes, but the score is less likely to help unless there is strong context elsewhere in the application." },
     ],
     relatedSlugs: ["top-private-college-sat-scores", "sat-score-needed-for-college", "sat-study-plan-for-1500"],
-    productLinks: [{ label: "Read Ivy League SAT guide", href: "/blog/ivy-league-sat-scores" }],
+    productLinks: [{ label: "Compare college score targets", href: "/what-sat-score-do-i-need" }],
   },
   {
     slug: "top-public-university-sat-scores",
@@ -898,7 +898,7 @@ const staticAssets: LinkableAsset[] = [
       { question: "Can SAT scores help with merit aid?", answer: "Yes. Many colleges use SAT scores as one factor for merit scholarships and honors programs." },
     ],
     relatedSlugs: ["top-public-university-sat-scores", "sat-score-needed-for-college", "sat-scholarship-score-chart"],
-    productLinks: [{ label: "Read merit scholarship guide", href: "/blog/merit-scholarships-by-sat-score" }],
+    productLinks: [{ label: "Compare college score targets", href: "/what-sat-score-do-i-need" }],
   },
   {
     slug: "sat-scores-by-college-major",
@@ -1369,7 +1369,7 @@ const staticAssets: LinkableAsset[] = [
     ],
     relatedSlugs: ["test-optional-colleges-sat-strategy", "sat-score-release-calendar", "sat-study-plan-for-1500"],
     productLinks: [
-      { label: "Analyze score targets", href: "/sat-score" },
+      { label: "Use score calculator", href: "/score-calculator" },
       { label: "Drill weak skills", href: "/bank" },
       { label: "Take timed modules", href: "/modules" },
     ],
@@ -1401,7 +1401,7 @@ const staticAssets: LinkableAsset[] = [
     productLinks: [
       { label: "Practice medium misses", href: "/bank" },
       { label: "Take timed modules", href: "/modules" },
-      { label: "Read the 1400 guide", href: "/how-to-get-1400-sat" },
+      { label: "Use score calculator", href: "/score-calculator" },
     ],
   },
   {
@@ -1431,7 +1431,7 @@ const staticAssets: LinkableAsset[] = [
     productLinks: [
       { label: "Practice hard Math", href: bankDomainHref("math", "Advanced Math") },
       { label: "Practice hard Reading", href: "/bank/reading/browse" },
-      { label: "Read the 1500 guide", href: "/how-to-get-1500-sat" },
+      { label: "Take timed modules", href: "/modules" },
     ],
   },
   {
@@ -1513,13 +1513,81 @@ const staticAssets: LinkableAsset[] = [
     intro: "Desmos can turn many hard-looking SAT Math questions into graphing or table problems. The key is knowing when to switch tools.",
     sections: [
       {
-        heading: "Shortcut list",
-        body: ["Practice these before test day so they are automatic."],
-        list: ["Graph both sides to solve equations.", "Use intersections for systems.", "Use a table for function values.", "Use sliders for unknown constants.", "Use regression for scatterplots.", "Use answer choices as test values."],
+        heading: "When Desmos is faster than algebra",
+        body: [
+          "Reach for Desmos when the problem asks for a solution, intersection, maximum, minimum, function value, model, or answer-choice test. Those are calculator-native tasks.",
+          "Stay on paper when the question is one arithmetic step, a direct formula substitution, or a concept check where opening the calculator adds time.",
+        ],
+        table: {
+          headers: ["Question signal", "Desmos move", "What to read"],
+          rows: [
+            ["Two equations", "Graph both lines or curves", "Intersection coordinates"],
+            ["f(a) or a table of values", "Type the function and open a table", "Output value at the requested input"],
+            ["Quadratic roots", "Graph y = expression", "x-intercepts"],
+            ["Maximum or minimum", "Graph the function", "Vertex y-value or x-value"],
+            ["Scatterplot or data table", "Enter points and run regression", "Slope, intercept, or predicted value"],
+            ["Unknown constant in answer choices", "Test choices with a slider or substitution", "The choice that makes the condition true"],
+          ],
+        },
+      },
+      {
+        heading: "Fast workflows to practice",
+        body: [
+          "The point is not to graph everything. The point is to build a small set of repeatable workflows that you can run without thinking under Math Module 2 pressure.",
+          "A good Desmos shortcut has three parts: what to type, what value to read, and how to translate that value back into the answer format.",
+        ],
+        list: [
+          "Systems: enter each side as its own equation, click the intersection, then check whether the question asks for x, y, x + y, or a parameter.",
+          "Tables: after typing a function, use the table to test several inputs quickly instead of recomputing the expression by hand.",
+          "Quadratics: graph first when the problem asks for roots, the number of solutions, or a maximum/minimum; use algebra first when the expression already factors cleanly.",
+          "Regression: enter the data points, choose the model shape the problem names, and use the equation only inside the data range unless the question explicitly asks for extrapolation.",
+          "Answer-choice testing: start with the middle choices when the answers are ordered, and stop as soon as the condition is satisfied.",
+        ],
+      },
+      {
+        heading: "Shortcut syntax",
+        body: [
+          "These are the exact Desmos entries students should be able to type without pausing. The syntax matters because a shortcut that takes too long to set up is not a shortcut.",
+        ],
+        table: {
+          headers: ["Goal", "Type this", "Use it for"],
+          rows: [
+            ["Find a solution", "y = left side and y = right side", "Equations, systems, and answer choices with an equality condition"],
+            ["Evaluate a function", "f(x) = expression, then table", "f(3), f(a), repeated substitutions, and function tables"],
+            ["Find roots", "y = expression", "Quadratic, polynomial, radical, or rational equations"],
+            ["Test a parameter", "Use a letter such as a, then add slider", "Unknown constants, coefficients, and shift/stretch questions"],
+            ["Fit a line", "y_1 ~ m x_1 + b", "Scatterplots with a linear model or line of best fit"],
+            ["Fit a quadratic", "y_1 ~ a x_1^2 + b x_1 + c", "Data tables that clearly curve and ask for a quadratic model"],
+            ["Focus a domain", "expression {lower < x < upper}", "Piecewise, interval, and graph-window questions"],
+          ],
+        },
+      },
+      {
+        heading: "Example moves",
+        body: [
+          "If a system asks for the value of x + y, do not stop at the intersection. Graph the two equations, read the point, then add the coordinates.",
+          "If a quadratic asks how many real solutions it has, graph y = expression and count x-intercepts. If the graph only touches the x-axis once, that is one real solution.",
+          "If a scatterplot asks for a predicted value, use regression to get the model, then substitute the requested x-value. Do not extrapolate unless the question explicitly asks you to use the model outside the data range.",
+        ],
+      },
+      {
+        heading: "Common Desmos mistakes",
+        body: [
+          "Most Desmos errors are translation errors, not calculator errors. Label variables before typing and check whether the graph output matches what the question is asking for.",
+        ],
+        list: [
+          "Reading the y-coordinate when the question asks for x.",
+          "Forgetting that an intersection may need to be rounded, rewritten as a fraction, or plugged into another expression.",
+          "Using regression on a question that only needs slope from two points.",
+          "Trusting a graph window without zooming or using the table to confirm the value.",
+          "Typing answer choices without preserving units, percent form, or negative signs.",
+        ],
       },
       {
         heading: "Best question types",
-        body: ["Desmos is strongest for functions, systems, nonlinear equations, and data modeling."],
+        body: [
+          "Desmos is strongest for functions, systems, nonlinear equations, and data modeling. It is also useful as a final check on algebra when the problem gives answer choices.",
+        ],
       },
     ],
     faqs: [
@@ -1530,7 +1598,7 @@ const staticAssets: LinkableAsset[] = [
     productLinks: [
       { label: "Practice systems", href: bankSkillHref("math", "Systems of two linear equations in two variables") },
       { label: "Practice nonlinear functions", href: bankSkillHref("math", "Nonlinear functions") },
-      { label: "Read Desmos guide", href: "/desmos-sat-guide" },
+      { label: "Practice SAT Math", href: "/bank/math/browse" },
     ],
   },
   {

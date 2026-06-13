@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Use the isosceles condition",
-      "content": "Since $RT = TU$, triangle $RTU$ is isosceles, so its base angles are equal: $\\angle TRU = \\angle TUR$. The exterior angle at $T$ (marked $114°$) is supplementary to the interior angle $\\angle RTU$, so $\\angle RTU = 180° - 114° = 66°$. Therefore each base angle is $\\frac{180° - 66°}{2} = 57°$."
+      "content": "Since $RT = TU$, triangle $RTU$ is isosceles, so its base angles are equal: $\\angle TRU = \\angle TUR$. The exterior angle at $T$ (marked $114^{\\circ}$) is supplementary to the interior angle $\\angle RTU$, so $\\angle RTU = 180^{\\circ} - 114^{\\circ} = 66^{\\circ}$. Therefore each base angle is $\\frac{180^{\\circ} - 66^{\\circ}}{2} = 57^{\\circ}$."
     },
     {
       "title": "Find the angles at R from triangle STR",
-      "content": "The exterior angle of triangle $STR$ at vertex $T$ equals the sum of the two non-adjacent interior angles: $114° = \\angle SRT + \\angle RST$. From the figure, $\\angle RST = 50°$, so $\\angle SRT = 114° - 50° = 64°$."
+      "content": "The exterior angle of triangle $STR$ at vertex $T$ equals the sum of the two non-adjacent interior angles: $114^{\\circ} = \\angle SRT + \\angle RST$. From the figure, $\\angle RST = 50^{\\circ}$, so $\\angle SRT = 114^{\\circ} - 50^{\\circ} = 64^{\\circ}$."
     },
     {
       "title": "Identify x",
-      "content": "From the figure, $x = \\angle SRT = 64°$. The answer is <strong>64</strong> — that matches choice <strong>C</strong>."
+      "content": "From the figure, $x = \\angle SRT = 64^{\\circ}$. The answer is <strong>64</strong> — that matches <strong>C</strong>."
     }
   ]
 }

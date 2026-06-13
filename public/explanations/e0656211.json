@@ -1,1 +1,19 @@
-{"questionId": "e0656211", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the two opposing attitudes", "content": "Pico <em>honors the centrality of nature</em> in his tribe's beliefs while <em>simultaneously</em> expressing <em>distaste for being in wilderness settings</em>. He holds reverence and aversion at the same time."}, {"title": "Pick the word for &quot;mixed/contradictory feelings&quot;", "content": "A noun that names holding two conflicting feelings toward something is <em>ambivalence</em>. The idiom is &quot;ambivalence toward,&quot; which also fits the preposition slot."}, {"title": "Eliminate the other choices", "content": "<ul><li><strong>Choice A &mdash; 'responsiveness to'</strong>: names only engagement, not the contradiction; also misses the distaste half. &#10007;</li><li><strong>Choice B &mdash; 'ambivalence toward'</strong>: precisely names simultaneous reverence and aversion. &#10003;</li><li><strong>Choice C &mdash; 'renunciation of'</strong>: overreach &mdash; Pico does not reject nature; he honors its centrality. &#10007;</li><li><strong>Choice D &mdash; 'mastery over'</strong>: unsupported &mdash; nothing in the text suggests control or expertise over nature. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "e0656211",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the two opposing attitudes",
+      "content": "Pico <em>honors the centrality of nature</em> in his tribe's beliefs while <em>simultaneously</em> expressing <em>distaste for being in wilderness settings</em>. He holds reverence and aversion at the same time."
+    },
+    {
+      "title": "Pick the word for \"mixed/contradictory feelings\"",
+      "content": "A noun that names holding two conflicting feelings toward something is <em>ambivalence</em>. The idiom is \"ambivalence toward,\" which also fits the preposition slot."
+    },
+    {
+      "title": "Eliminate the other choices",
+      "content": "<ul><li><strong>\"responsiveness to\"</strong>: names only engagement, not the contradiction; also misses the distaste half. &#10007;</li><li><strong>\"ambivalence toward\"</strong>: precisely names simultaneous reverence and aversion. &#10003;</li><li><strong>\"renunciation of\"</strong>: overreach &mdash; Pico does not reject nature; he honors its centrality. &#10007;</li><li><strong>\"mastery over\"</strong>: unsupported &mdash; nothing in the text suggests control or expertise over nature. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+    }
+  ]
+}

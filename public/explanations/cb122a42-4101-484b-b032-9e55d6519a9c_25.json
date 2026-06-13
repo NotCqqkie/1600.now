@@ -1,1 +1,15 @@
-{"questionId":"cb122a42-4101-484b-b032-9e55d6519a9c_25","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The student wants to emphasize a difference between sea palm and bull kelp &mdash; specifically that bull kelp has a more intense umami flavor than sea palm. The correct choice must contrast the two."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A</strong>: Does not contrast the two seaweeds &mdash; fails to show bull kelp&apos;s umami is more intense. &#10007;</li><li><strong>Choice B</strong>: Describes a similarity rather than a difference in umami intensity. &#10007;</li><li><strong>Choice C</strong>: Focuses on a factor other than umami intensity. &#10007;</li><li><strong>Choice D</strong>: Directly contrasts sea palm&apos;s moderate umami with bull kelp&apos;s higher umami intensity. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "cb122a42-4101-484b-b032-9e55d6519a9c_25",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The student wants to emphasize a difference between sea palm and bull kelp &mdash; specifically that bull kelp has a more intense umami flavor than sea palm. The correct choice must contrast the two."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Some types of brown seaweed, like sea palm and bull kelp, trigger umami flavor in human taste buds.</strong>: Does not contrast the two seaweeds &mdash; fails to show bull kelp&apos;s umami is more intense. &#10007;</li><li><strong>Choice B &mdash; Sea palm is a type of brown seaweed, but so is bull kelp.</strong>: Describes a similarity rather than a difference in umami intensity. &#10007;</li><li><strong>Choice C &mdash; While sea palm and bull kelp contain umami flavor, umami can also be found in tuna and blue cheese.</strong>: Focuses on a factor other than umami intensity. &#10007;</li><li><strong>Choice D &mdash; After tasting two types of brown seaweed, sea palm and bull kelp, participants in a study found bull kelp's umami flavor to be the more intense of the two.</strong>: Directly contrasts sea palm&apos;s moderate umami with bull kelp&apos;s higher umami intensity. &#10003;</li></ul>That is the correct answer."
+    }
+  ]
+}

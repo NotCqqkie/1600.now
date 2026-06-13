@@ -1,1 +1,15 @@
-{"questionId": "e11af9a4-0499-4c66-b721-ff21024ff5d1_21", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The blank fills &quot;respective ______ former in a repository...&quot; — the word &quot;species&quot; ends the main clause, and &quot;the former in a repository... and the latter in a repository...&quot; is a noun phrase elaborating on where those specimens are preserved. The punctuation after &quot;species&quot; must correctly attach that explanatory phrase."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'species, the'</strong>: A comma before &quot;the former...&quot; correctly introduces an appositive noun phrase that specifies where each specimen is kept. The phrase has no main verb, so it cannot stand alone — a comma is the right connector. &#10003;</li><li><strong>Choice B &mdash; 'species, and the'</strong>: Adding &quot;and&quot; implies a second independent clause is following, but &quot;the former in a repository...&quot; has no verb — it's a noun phrase, not a clause. &#10007;</li><li><strong>Choice C &mdash; 'species. The'</strong>: A period creates a sentence fragment: &quot;The former in a repository at Washington, DC's Museum of Natural History and the latter in a repository at London's Natural History Museum&quot; has no verb. &#10007;</li><li><strong>Choice D &mdash; 'species; the'</strong>: A semicolon must connect two independent clauses. &quot;The former in a repository...&quot; is a noun phrase with no verb, so a semicolon is grammatically incorrect here. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "e11af9a4-0499-4c66-b721-ff21024ff5d1_21",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank fills \"respective ______ former in a repository...\" — the word \"species\" ends the main clause, and \"the former in a repository... and the latter in a repository...\" is a noun phrase elaborating on where those specimens are preserved. The punctuation after \"species\" must correctly attach that explanatory phrase."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"species, the\"</strong>: A comma before \"the former...\" correctly introduces an appositive noun phrase that specifies where each specimen is kept. The phrase has no main verb, so it cannot stand alone — a comma is the right connector. &#10003;</li><li><strong>\"species, and the\"</strong>: Adding \"and\" implies a second independent clause is following, but \"the former in a repository...\" has no verb — it's a noun phrase, not a clause. &#10007;</li><li><strong>\"species. The\"</strong>: A period creates a sentence fragment: \"The former in a repository at Washington, DC's Museum of Natural History and the latter in a repository at London's Natural History Museum\" has no verb. &#10007;</li><li><strong>\"species; the\"</strong>: A semicolon must connect two independent clauses. \"The former in a repository...\" is a noun phrase with no verb, so a semicolon is grammatically incorrect here. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+    }
+  ]
+}

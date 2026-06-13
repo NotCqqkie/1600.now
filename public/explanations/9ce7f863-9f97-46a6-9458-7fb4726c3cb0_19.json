@@ -1,1 +1,15 @@
-{"questionId":"9ce7f863-9f97-46a6-9458-7fb4726c3cb0_19","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence has an independent clause ending with 'lists' followed by a long elaboration naming specific examples. The question asks which punctuation correctly connects them."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; colon after 'lists'</strong>: A colon after a complete independent clause correctly introduces an elaboration or list. &#10003;</li><li><strong>Choice B &mdash; no punctuation</strong>: Running the independent clause straight into the elaboration without any punctuation creates a run-on. &#10007;</li><li><strong>Choice C &mdash; misplaced colon</strong>: Placing the colon mid-clause before 'lists' breaks an incomplete construction. &#10007;</li><li><strong>Choice D &mdash; comma after 'lists'</strong>: A comma is too weak here; a colon is required to signal that an elaboration follows. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "9ce7f863-9f97-46a6-9458-7fb4726c3cb0_19",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence has an independent clause ending with 'lists' followed by a long elaboration naming specific examples. The question asks which punctuation correctly connects them."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; lists: in</strong>: A colon after a complete independent clause correctly introduces an elaboration or list. &#10003;</li><li><strong>Choice B &mdash; lists in</strong>: Running the independent clause straight into the elaboration without any punctuation creates a run-on. &#10007;</li><li><strong>Choice C &mdash; lists in:</strong>: Placing the colon mid-clause before 'lists' breaks an incomplete construction. &#10007;</li><li><strong>Choice D &mdash; lists, in</strong>: A comma is too weak here; a colon is required to signal that an elaboration follows. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

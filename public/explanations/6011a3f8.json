@@ -5,12 +5,12 @@
   "steps": [
     {
       "title": "Connect the question to the discriminant",
-      "content": "The equation is quadratic, and the question asks when it has <strong>more than one real solution</strong>. A quadratic has two real solutions exactly when its graph crosses the x-axis twice; algebraically, that means the discriminant is positive.<br/><br/>In $64x^2 + bx + 25 = 0$, $a = 64$ and $c = 25$, so:<br/>$$b^2 - 4(64)(25) > 0$$<br/>$$b^2 - 6400 > 0$$<br/>$$b^2 > 6400$$",
-      "formula": "$$\\Delta = b^2 - 4ac > 0$$"
+      "content": "The equation is quadratic, and the question asks when it has <strong>more than one real solution</strong>. A quadratic has two real solutions exactly when its graph crosses the x-axis twice; algebraically, that means the discriminant is positive.<br/><br/>In $64x^2 + bx + 25 = 0$, $a = 64$ and $c = 25$, so:<br/>$$b^2 - 4(64)(25) \\gt 0$$<br/>$$b^2 - 6400 \\gt 0$$<br/>$$b^2 \\gt 6400$$",
+      "formula": "$$\\Delta = b^2 - 4ac \\gt 0$$"
     },
     {
       "title": "Test which choice satisfies the condition",
-      "content": "We need $b^2 > 6400$, which means $|b| > 80$.<ul><li>Choice A: $b = -91$ gives $(-91)^2 = 8281 > 6400$ ✓</li><li>Choice B: $b = -80$ gives $(-80)^2 = 6400 \\not> 6400$ ✗</li><li>Choice C: $b = 5$ gives $(5)^2 = 25 \\not> 6400$ ✗</li><li>Choice D: $b = 40$ gives $(40)^2 = 1600 \\not> 6400$ ✗</li></ul>Only choice A satisfies the condition. That matches choice A — <strong>A</strong> is correct."
+      "content": "We need $b^2 \\gt 6400$, which means $|b| \\gt 80$.<ul><li><strong>Choice A &mdash; &lsquo;$-91$&rsquo;</strong>: $b = -91$ gives $(-91)^2 = 8281 \\gt 6400$ ✓</li><li><strong>Choice B &mdash; &lsquo;$-80$&rsquo;</strong>: $b = -80$ gives $(-80)^2 = 6400 \\not\\gt 6400$ ✗</li><li><strong>Choice C &mdash; &lsquo;$5$&rsquo;</strong>: $b = 5$ gives $(5)^2 = 25 \\not\\gt 6400$ ✗</li><li><strong>Choice D &mdash; &lsquo;$40$&rsquo;</strong>: $b = 40$ gives $(40)^2 = 1600 \\not\\gt 6400$ ✗</li></ul>Only the credited option satisfies the condition. That confirms <strong>A</strong> is correct."
     }
   ]
 }

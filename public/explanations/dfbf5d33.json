@@ -1,1 +1,15 @@
-{"questionId":"dfbf5d33","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"This is a modifier placement (dangling modifier) question. The introductory phrase &quot;Upon recovering two years later&quot; must modify the subject of the main clause. That subject must be Henry — he is the one who recovered — and the main clause must then logically connect to forcing Richard from court."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;Henry resumed his reign,&rsquo;</strong>: Places &quot;Henry&quot; immediately after the introductory phrase, so it correctly modifies him. Henry (a person) logically recovered and then forced Richard from court. &#10003;</li><li><strong>Choice B &mdash; &lsquo;the reign of Henry resumed,&rsquo;</strong>: Dangling modifier — &quot;the reign of Henry&quot; becomes the subject, illogically implying that Henry's reign (not Henry himself) recovered from illness. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Henry&rsquo;s reign resumed,&rsquo;</strong>: Also a dangling modifier — &quot;Henry's reign&quot; is the subject, again suggesting the reign recovered from illness rather than Henry. &#10007;</li><li><strong>Choice D &mdash; &lsquo;it was Henry who resumed his reign,&rsquo;</strong>: A cleft construction that places &quot;it&quot; as the grammatical subject immediately after the phrase, creating a dangling modifier: &quot;it&quot; illogically appears to be what recovered two years later. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "dfbf5d33",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a modifier placement (dangling modifier) question. The introductory phrase \"Upon recovering two years later\" must modify the subject of the main clause. That subject must be Henry — he is the one who recovered — and the main clause must then logically connect to forcing Richard from court."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"Henry resumed his reign,\"</strong>: Places \"Henry\" immediately after the introductory phrase, so it correctly modifies him. Henry (a person) logically recovered and then forced Richard from court. &#10003;</li><li><strong>\"the reign of Henry resumed,\"</strong>: Dangling modifier — \"the reign of Henry\" becomes the subject, illogically implying that Henry's reign (not Henry himself) recovered from illness. &#10007;</li><li><strong>\"Henry's reign resumed,\"</strong>: Also a dangling modifier — \"Henry's reign\" is the subject, again suggesting the reign recovered from illness rather than Henry. &#10007;</li><li><strong>\"it was Henry who resumed his reign,\"</strong>: A cleft construction that places \"it\" as the grammatical subject immediately after the phrase, creating a dangling modifier: \"it\" illogically appears to be what recovered two years later. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+    }
+  ]
+}

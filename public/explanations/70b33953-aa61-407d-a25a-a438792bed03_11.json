@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice D matches $g(x)=2x-7$. It also checks directly: $g(9)=2(9)-7=11$, so choice <strong>D</strong> is correct."
+      "content": "Choice D (&lsquo;$g(x) = 2x - 7$&rsquo;) matches $g(x)=2x-7$. It also checks directly: $g(9)=2(9)-7=11$, so <strong>D</strong> is correct."
     }
   ]
 }

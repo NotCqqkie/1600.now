@@ -1,1 +1,15 @@
-{"questionId": "76199cca-674f-403e-a01c-927854021f9f_8", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the direct outcome when oil was added", "content": "The passage explicitly states: <strong>“when the researchers added a drop of oil as lubrication, that friction nearly vanished.”</strong> This is the key fact that directly answers the question."}, {"title": "Connect the outcome to the right choice", "content": "Choice <strong>B</strong> — <strong>“The low amount of friction between the surfaces became even lower”</strong> — directly captures what “nearly vanished” means: friction that was already extremely low went even lower.<br/><br/>Choices A, C, and D describe the setup stages or contradict the stated outcome.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "76199cca-674f-403e-a01c-927854021f9f_8",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the direct outcome when oil was added",
+      "content": "The passage explicitly states: <strong>“when the researchers added a drop of oil as lubrication, that friction nearly vanished.”</strong> This is the key fact that directly answers the question."
+    },
+    {
+      "title": "Connect the outcome to the right choice",
+      "content": "<strong>B</strong> — <strong>“The low amount of friction between the surfaces became even lower”</strong> — directly captures what “nearly vanished” means: friction that was already extremely low went even lower.<br/><br/>The other choices describe the setup stages or contradict the stated outcome.<br/><br/>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

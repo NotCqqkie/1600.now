@@ -13,7 +13,7 @@
     },
     {
       "title": "Match to choices",
-      "content": "<ul><li>A: $1+\\frac{b}{100}$ — does not equal $100(b-1)$. Eliminated.</li><li>B: $b+100$ — does not equal $100(b-1)$. Eliminated.</li><li>C: $100(b+1)$ — would equal $100b+100$, not $100b-100$. Eliminated.</li><li>D: $100(b-1)$ — matches exactly. That matches choice D — <strong>D</strong> is correct.</li></ul>"
+      "content": "<ul><li>A: $1+\\frac{b}{100}$ — does not equal $100(b-1)$. Eliminated.</li><li>B: $b+100$ — does not equal $100(b-1)$. Eliminated.</li><li>C: $100(b+1)$ — would equal $100b+100$, not $100b-100$. Eliminated.</li><li>D: $100(b-1)$ — matches exactly. That matches <strong>Choice D &mdash; $100\\left(b-1\\right)$</strong>.</li></ul>"
     }
   ]
 }

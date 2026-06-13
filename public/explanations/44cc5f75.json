@@ -1,1 +1,19 @@
-{"questionId":"44cc5f75","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Read the sentence frame","content":"The text says it is DIFFICULT to transmit biomolecules through plant cell walls (a problem), and that researchers have shown it may be possible to ______ this problem BY transmitting molecules through carbon nanotubes (a method that crosses cell walls)."},{"title":"Predict the word","content":"The blank takes a problem as its object and is solved by a working method. The needed verb means &quot;successfully get past&quot; or &quot;solve.&quot;"},{"title":"Eliminate per choice","content":"<ul><li><strong>Choice A &mdash; 'conceptualize'</strong>: means to form an idea of; you don't fix a problem by conceptualizing it. &#10007;</li><li><strong>Choice B &mdash; 'neglect'</strong>: means to ignore; the researchers are addressing the problem, not ignoring it. &#10007;</li><li><strong>Choice C &mdash; 'illustrate'</strong>: means to demonstrate or depict; doesn't fit &quot;solve a problem.&quot; &#10007;</li><li><strong>Choice D &mdash; 'overcome'</strong>: means to successfully deal with a difficulty &mdash; exactly the relationship the sentence sets up. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "44cc5f75",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the sentence frame",
+      "content": "The text says it is DIFFICULT to transmit biomolecules through plant cell walls (a problem), and that researchers have shown it may be possible to ______ this problem BY transmitting molecules through carbon nanotubes (a method that crosses cell walls)."
+    },
+    {
+      "title": "Predict the word",
+      "content": "The blank takes a problem as its object and is solved by a working method. The needed verb means &quot;successfully get past&quot; or &quot;solve.&quot;"
+    },
+    {
+      "title": "Eliminate per choice",
+      "content": "<ul><li><strong>Choice A — conceptualize</strong>: means to form an idea of; you don't fix a problem by conceptualizing it. &#10007;</li><li><strong>Choice B — neglect</strong>: means to ignore; the researchers are addressing the problem, not ignoring it. &#10007;</li><li><strong>Choice C — illustrate</strong>: means to demonstrate or depict; doesn't fit &quot;solve a problem.&quot; &#10007;</li><li><strong>Choice D — overcome</strong>: means to successfully deal with a difficulty &mdash; exactly the relationship the sentence sets up. &#10003;</li></ul><strong>D</strong> is correct."
+    }
+  ]
+}

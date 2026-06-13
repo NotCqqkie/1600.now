@@ -1,1 +1,15 @@
-{"questionId":"8a47383f","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The fellowship was created to publicly [verb] exceptional folk and traditional artists. The second sentence confirms the purpose is celebratory &mdash; Dolly Jacobs received it &ldquo;to celebrate her lifetime contributions.&rdquo; The blank requires a verb meaning to officially honor or acknowledge outstanding achievement."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &ldquo;startle&rdquo;</strong>: Means to alarm or surprise suddenly. Nothing in the text suggests artists were unprepared for or shocked by the fellowship; the tone is celebratory, not startling. &#10007;</li><li><strong>Choice B &mdash; &ldquo;recognize&rdquo;</strong>: Means to officially acknowledge and honor someone for their achievements. Directly matches the fellowship&rsquo;s stated purpose of celebrating lifetime contributions. &#10003;</li><li><strong>Choice C &mdash; &ldquo;familiarize&rdquo;</strong>: Means to make something known or familiar to someone. The text describes recipients as &ldquo;exceptional&rdquo; &mdash; already distinguished &mdash; and gives no indication they were unknown before receiving the fellowship. &#10007;</li><li><strong>Choice D &mdash; &ldquo;convey&rdquo;</strong>: Means to transport or communicate something. A fellowship does not transport artists, and saying it &ldquo;conveys&rdquo; the artists themselves is illogical. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "8a47383f",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The fellowship was created to publicly [verb] exceptional folk and traditional artists. The second sentence confirms the purpose is celebratory &mdash; Dolly Jacobs received it &ldquo;to celebrate her lifetime contributions.&rdquo; The blank requires a verb meaning to officially honor or acknowledge outstanding achievement."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; startle</strong>: Means to alarm or surprise suddenly. Nothing in the text suggests artists were unprepared for or shocked by the fellowship; the tone is celebratory, not startling. &#10007;</li><li><strong>Choice B &mdash; recognize</strong>: Means to officially acknowledge and honor someone for their achievements. Directly matches the fellowship&rsquo;s stated purpose of celebrating lifetime contributions. &#10003;</li><li><strong>Choice C &mdash; familiarize</strong>: Means to make something known or familiar to someone. The text describes recipients as &ldquo;exceptional&rdquo; &mdash; already distinguished &mdash; and gives no indication they were unknown before receiving the fellowship. &#10007;</li><li><strong>Choice D &mdash; convey</strong>: Means to transport or communicate something. A fellowship does not transport artists, and saying it &ldquo;conveys&rdquo; the artists themselves is illogical. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

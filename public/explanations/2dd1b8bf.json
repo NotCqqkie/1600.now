@@ -1,1 +1,15 @@
-{"questionId": "2dd1b8bf", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the comparison structure", "content": "The sentence opens with <strong>Compared to that of alumina glass</strong>. The pronoun <em>that</em> stands in for a noun, and from context that noun is <em>atomic arrangement</em>. So the phrase means &quot;Compared to the atomic arrangement of alumina glass.&quot; The blank must begin with a matching term &mdash; the <em>atomic arrangement of silica glass</em> &mdash; so the two things being compared are parallel (arrangement to arrangement)."}, {"title": "Apply the logical/parallel comparison rule", "content": "The grammar rule: comparisons must be between like terms. <em>That of alumina glass</em> = <em>the atomic arrangement of alumina glass</em>, so the subject after the comma must be <em>silica glass's atomic arrangement</em>.<ul><li>A: subject is <strong>silica glass</strong> &mdash; compares an arrangement to a substance (illogical comparison)</li><li>B: subject is <strong>silica glass</strong> &mdash; same illogical comparison</li><li>C: subject is <strong>a significant disadvantage of silica glass</strong> &mdash; compares an arrangement to a disadvantage (illogical comparison)</li><li>D: subject is <strong>silica glass's atomic arrangement</strong> &mdash; arrangement to arrangement (parallel and logical)</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "2dd1b8bf",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the comparison structure",
+      "content": "The sentence opens with <strong>Compared to that of alumina glass</strong>. The pronoun <em>that</em> stands in for a noun, and from context that noun is <em>atomic arrangement</em>. So the phrase means &quot;Compared to the atomic arrangement of alumina glass.&quot; The blank must begin with a matching term &mdash; the <em>atomic arrangement of silica glass</em> &mdash; so the two things being compared are parallel (arrangement to arrangement)."
+    },
+    {
+      "title": "Apply the logical/parallel comparison rule",
+      "content": "The grammar rule: comparisons must be between like terms. <em>That of alumina glass</em> = <em>the atomic arrangement of alumina glass</em>, so the subject after the comma must be <em>silica glass's atomic arrangement</em>.<ul><li>A: subject is <strong>silica glass</strong> &mdash; compares an arrangement to a substance (illogical comparison)</li><li>B: subject is <strong>silica glass</strong> &mdash; same illogical comparison</li><li>C: subject is <strong>a significant disadvantage of silica glass</strong> &mdash; compares an arrangement to a disadvantage (illogical comparison)</li><li>D: subject is <strong>silica glass's atomic arrangement</strong> &mdash; arrangement to arrangement (parallel and logical)</li></ul><strong>D</strong> is correct."
+    }
+  ]
+}

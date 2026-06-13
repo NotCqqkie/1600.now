@@ -17,7 +17,7 @@
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice D, 36. The other choices do not satisfy the same condition from the question, so <strong>D</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches the correct answer, 36. The other choices do not satisfy the same condition from the question, so <strong>D</strong> is correct."
     }
   ]
 }

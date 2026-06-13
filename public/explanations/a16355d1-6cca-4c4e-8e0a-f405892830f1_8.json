@@ -9,7 +9,7 @@
     },
     {
       "title": "Reject the positive-slope choices",
-      "content": "Choices A and C both have positive slope, so they rise from left to right. The displayed best-fit line falls from left to right, so A and C cannot match."
+      "content": "Those choices both have positive slope, so they rise from left to right. The displayed best-fit line falls from left to right, so A and C cannot match."
     },
     {
       "title": "Reject the high-intercept choice",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "The line $y=-x+2.3$ has the correct downward direction and $y$-intercept. Choice <strong>D</strong> is correct.",
+      "content": "The line $y=-x+2.3$ has the correct downward direction and $y$-intercept. <strong>D</strong> is correct.",
       "desmosExpressions": [
         "y=-x+2.3"
       ]

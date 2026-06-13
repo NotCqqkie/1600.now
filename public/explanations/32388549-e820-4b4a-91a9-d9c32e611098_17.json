@@ -9,11 +9,11 @@
     },
     {
       "title": "Test the matching slope",
-      "content": "Choice A, $\\frac{1}{30}x=2y$, becomes $y=\\frac{x}{60}$. This has the same slope as the given line but intercept $0$ instead of $2$, so the two lines are parallel and never intersect."
+      "content": "The matching choice, $\\frac{1}{30}x=2y$, becomes $y=\\frac{x}{60}$. This has the same slope as the given line but intercept $0$ instead of $2$, so the two lines are parallel and never intersect."
     },
     {
       "title": "Eliminate the distractors",
-      "content": "Choice B has slope $\\frac{1}{1800}$, so it intersects the given line. Choice C has slope $\\frac{1}{2}$, so it also intersects. Choice D is the same as the given line, which would give infinitely many solutions. Only choice <strong>A</strong> gives parallel distinct lines."
+      "content": "A choice with slope $\\frac{1}{1800}$, so it intersects the given line. A choice with slope $\\frac{1}{2}$, so it also intersects. A choice with the same as the given line, which would give infinitely many solutions. Only the matching choice gives parallel distinct lines."
     }
   ]
 }

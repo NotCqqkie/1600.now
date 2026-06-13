@@ -1,1 +1,15 @@
-{"questionId":"6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_15","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank connects two independent clauses: (1) &quot;Her work challenges conventional notions of race, gender, history, [blank]&quot; and (2) &quot;she is credited with expanding the horizons of conceptual photographic art.&quot; Each clause has its own subject and verb and can stand alone. The blank must join them correctly."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'memory, and'</strong>: Completes the list (race, gender, history, memory) and then uses &quot;, and&quot; to join the two independent clauses &mdash; the correct pattern for a coordinating conjunction between two independent clauses. &#10003;</li><li><strong>Choice B &mdash; 'memory and'</strong>: Omits the required comma before &quot;and&quot; when joining two independent clauses. &#10007;</li><li><strong>Choice C &mdash; 'memory,'</strong>: Joins two independent clauses with only a comma &mdash; a comma splice. &#10007;</li><li><strong>Choice D &mdash; 'memory'</strong>: Leaves the two independent clauses fused with no punctuation or connector. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_15",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank connects two independent clauses: (1) &quot;Her work challenges conventional notions of race, gender, history, [blank]&quot; and (2) &quot;she is credited with expanding the horizons of conceptual photographic art.&quot; Each clause has its own subject and verb and can stand alone. The blank must join them correctly."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;memory, and&rsquo;</strong>: Completes the list (race, gender, history, memory) and then uses &quot;, and&quot; to join the two independent clauses &mdash; the correct pattern for a coordinating conjunction between two independent clauses. &#10003;</li><li><strong>Choice B &mdash; &lsquo;memory and&rsquo;</strong>: Omits the required comma before &quot;and&quot; when joining two independent clauses. &#10007;</li><li><strong>Choice C &mdash; &lsquo;memory,&rsquo;</strong>: Joins two independent clauses with only a comma &mdash; a comma splice. &#10007;</li><li><strong>Choice D &mdash; &lsquo;memory&rsquo;</strong>: Leaves the two independent clauses fused with no punctuation or connector. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

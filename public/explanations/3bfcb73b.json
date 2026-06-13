@@ -1,1 +1,19 @@
-{"questionId": "3bfcb73b", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Pin down what needs supporting", "content": "The scholars' claim is specific: the game was &quot;largely played by traders.&quot; Strong support needs to tie the game itself &mdash; not just goods or geography in general &mdash; to traders as the primary users."}, {"title": "Decide what counts as direct evidence", "content": "Finding the game in places dominated by traders would directly support the claim. Finding it in a single trader-linked home, or finding unrelated trade goods nearby, would only loosely associate the game with trade, not show traders were the main players."}, {"title": "Eliminate by overreach or misfit", "content": "<ul><li><strong>Choice A &mdash; 'in the remains of several homes... including in one home that may have belonged to a trader'</strong>: most of the homes are unspecified; only one &quot;may&quot; have been a trader's. That points to mixed/household use, not predominantly trader use. &#10007;</li><li><strong>Choice B &mdash; 'Similar games have been found in other sites... connected to the site in Oman via trade routes'</strong>: shows the sites were linked by trade, but says nothing about who actually played the game there. &#10007;</li><li><strong>Choice C &mdash; 'other known examples... found along routes that seem to have been used primarily by traders'</strong>: places the game itself where traders were the dominant users, directly supporting that traders largely played it. &#10003;</li><li><strong>Choice D &mdash; 'Remnants of other goods... probably also reached the location through trade'</strong>: this is about other goods at the Oman site, not about who used the game. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "3bfcb73b",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Pin down what needs supporting",
+      "content": "The scholars' claim is specific: the game was &quot;largely played by traders.&quot; Strong support needs to tie the game itself &mdash; not just goods or geography in general &mdash; to traders as the primary users."
+    },
+    {
+      "title": "Decide what counts as direct evidence",
+      "content": "Finding the game in places dominated by traders would directly support the claim. Finding it in a single trader-linked home, or finding unrelated trade goods nearby, would only loosely associate the game with trade, not show traders were the main players."
+    },
+    {
+      "title": "Eliminate by overreach or misfit",
+      "content": "<ul><li><strong>Choice A — Other examples of the game dating to the same period have been found in the remains of several homes in the region, including in one home that may have belonged to a trader.</strong>: most of the homes are unspecified; only one &quot;may&quot; have been a trader's. That points to mixed/household use, not predominantly trader use. &#10007;</li><li><strong>Choice B — Similar games have been found in other sites dating to the same period that were connected to the site in Oman via trade routes.</strong>: shows the sites were linked by trade, but says nothing about who actually played the game there. &#10007;</li><li><strong>Choice C — The other known examples of the game dating to the same period have been found along routes that seem to have been used primarily by traders at the time.</strong>: places the game itself where traders were the dominant users, directly supporting that traders largely played it. &#10003;</li><li><strong>Choice D — Remnants of other goods have been found at the site in Oman that probably also reached the location through trade.</strong>: this is about other goods at the Oman site, not about who used the game. &#10007;</li></ul><strong>C</strong> is correct."
+    }
+  ]
+}

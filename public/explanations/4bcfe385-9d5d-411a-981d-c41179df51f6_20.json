@@ -9,7 +9,7 @@
     },
     {
       "title": "Solve for the hypotenuse",
-      "content": "Set the perimeter equal to the given value: $$h(1 + \\sqrt{2}) = 52 + 52\\sqrt{2} = 52(1 + \\sqrt{2})$$<br/>Divide both sides by $(1 + \\sqrt{2})$: $$h = 52$$<br/>That matches choice C."
+      "content": "Set the perimeter equal to the given value: $$h(1 + \\sqrt{2}) = 52 + 52\\sqrt{2} = 52(1 + \\sqrt{2})$$<br/>Divide both sides by $(1 + \\sqrt{2})$: $$h = 52$$<br/>The result matches."
     }
   ]
 }

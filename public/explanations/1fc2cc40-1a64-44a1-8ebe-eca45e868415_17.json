@@ -9,7 +9,7 @@
     },
     {
       "title": "Convert from radians to degrees",
-      "content": "Use the conversion factor: $\\pi$ radians $= 180°$<br/>$$L = \\frac{\\pi}{2} \\text{ radians} = \\frac{180°}{2} = 90°$$<br/>That matches choice D — <strong>D</strong> is correct."
+      "content": "Use the conversion factor: $\\pi$ radians $= 180^{\\circ}$<br/>$$L = \\frac{\\pi}{2} \\text{ radians} = \\frac{180^{\\circ}}{2} = 90^{\\circ}$$<br/>That matches <strong>Choice D &mdash; $90$</strong>."
     }
   ]
 }

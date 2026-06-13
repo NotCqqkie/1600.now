@@ -13,7 +13,7 @@
     },
     {
       "title": "Pick the only possible choice",
-      "content": "The median must be between $20$ and $25$. Among the answer choices, only $21$ is in that interval. That matches choice D, so <strong>D</strong> is correct."
+      "content": "The median must be between $20$ and $25$. Among the answer choices, only $21$ is in that interval. That matches the computed answer, so <strong>D</strong> is correct."
     }
   ]
 }

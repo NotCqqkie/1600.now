@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Sum employees with 16 or more complete years from the table",
-      "content": "Employees who have worked 16 or more complete years are in the rows <strong>16 to 18 years</strong> and <strong>19 to 21 years</strong>.<br/><br/>From the table: 16 to 18 years has 10 employees, and 19 to 21 years has 3 employees.<br/><br/>Therefore: $10 + 3 = 13$ employees have worked 16 or more complete years.<br/><br/>That matches choice B — <strong>B</strong> is correct."
+      "content": "Employees who have worked 16 or more complete years are in the rows <strong>16 to 18 years</strong> and <strong>19 to 21 years</strong>.<br/><br/>From the table: 16 to 18 years has 10 employees, and 19 to 21 years has 3 employees.<br/><br/>Therefore: $10 + 3 = 13$ employees have worked 16 or more complete years.<br/><br/>That matches the correct answer — <strong>B</strong> is correct."
     }
   ]
 }

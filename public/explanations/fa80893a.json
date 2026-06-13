@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Use the target-expression shortcut",
-      "content": "The target $6x-1$ is close to $3(2x+3)$. Multiply the given equation $2x+3=9$ by $3$: $$6x+9=27.$$"
+      "content": "The target $6x-1$ is close to $\\left(3\\right)(2x+3)$. Multiply the given equation $2x+3=9$ by $3$: $$6x+9=27.$$"
     },
     {
       "title": "Adjust to $6x-1$",

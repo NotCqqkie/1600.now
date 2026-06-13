@@ -7,7 +7,7 @@ import puppeteer from "puppeteer";
 const ROOT = process.cwd();
 const EXPLANATION_DIR = path.join(ROOT, "public", "explanations");
 const DESMOS_SRC = "https://www.desmos.com/api/v1.11/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6";
-const DESMOS_CACHE_PATH = path.join(os.tmpdir(), "1600-prep-hub-desmos-calculator-v1.11.js");
+const DESMOS_CACHE_PATH = path.join(os.tmpdir(), "1600now-desmos-calculator-v1.11.js");
 const MAX_ERROR_OUTPUT = 200;
 
 const args = new Map(

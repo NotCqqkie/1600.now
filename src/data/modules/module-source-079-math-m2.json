@@ -237,7 +237,7 @@
     "difficulty": "Medium",
     "question_number": 9,
     "test_name": "Module Source 079 Math M2",
-    "passage": "The graph of $ y = f(x) $ is shown, where $ f(x) = ab^2 + c $, and $ a $, $ b $, and $ c $ are constants. For how many values of $ x $ does $ f(x) = 0 $?",
+    "passage": "The graph of $ y = f(x) $ is shown, where $ f(x) = a\\cdot b^x + c $, and $ a $, $ b $, and $ c $ are constants. For how many values of $ x $ does $ f(x) = 0 $?",
     "question_text": null,
     "choices": [
       {
@@ -276,7 +276,7 @@
     "difficulty": "Medium",
     "question_number": 10,
     "test_name": "Module Source 079 Math M2",
-    "passage": "The equation $h=\\frac{9(u-273.15)}{5}+32$ gives the corresponding temperature $h$, in degrees Fahrenheit, of any substance that has a temperature of $u$ kelvins, where $u > 0$. If a substance has a temperature of 809.33 degrees Fahrenheit, what is the corresponding temperature, in kelvins, of this substance?",
+    "passage": "The equation $h=\\frac{9(u-273.15)}{5}+32$ gives the corresponding temperature $h$, in degrees Fahrenheit, of any substance that has a temperature of $u$ kelvins, where $u \\gt 0$. If a substance has a temperature of 809.33 degrees Fahrenheit, what is the corresponding temperature, in kelvins, of this substance?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -323,12 +323,12 @@
     "difficulty": "Easy",
     "question_number": 12,
     "test_name": "Module Source 079 Math M2",
-    "passage": "Which expression is equivalent to $9x^6 - 63x^2$, where $x > 0$?",
+    "passage": "Which expression is equivalent to $9x^6 - 63x^2$, where $x \\gt 0$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$9(x^3 - 7x^2)^2$"
+        "text": "$\\left(9\\right)(x^3 - 7x^2)^2$"
       },
       {
         "label": "B",
@@ -426,7 +426,7 @@
     "difficulty": "Medium",
     "question_number": 15,
     "test_name": "Module Source 079 Math M2",
-    "passage": "$7p^{4}=x^{\\frac{5}{4}}$\nIn the given equation, $p > 1$ and $t > 1$. If $t = p^{2n-1}$, where $n$ is a constant, what is the value of $n$?",
+    "passage": "$p^{\\frac{5}{4}}=t^{\\frac{7}{4}}$\nIn the given equation, $p \\gt 1$ and $t \\gt 1$. If $t = p^{2n-1}$, where $n$ is a constant, what is the value of $n$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -441,7 +441,7 @@
     "difficulty": "Medium",
     "question_number": 16,
     "test_name": "Module Source 079 Math M2",
-    "passage": "A painting studio is offering a promotion where the first class is free, the second class is half off the regular price, and the remaining classes are regularly priced. If the regular price of a class is \\$26.40, which function f gives the total cost, in dollars, of x classes taken using this promotion, where $x > 2$?",
+    "passage": "A painting studio is offering a promotion where the first class is free, the second class is half off the regular price, and the remaining classes are regularly priced. If the regular price of a class is \\$26.40, which function f gives the total cost, in dollars, of x classes taken using this promotion, where $x \\gt 2$?",
     "question_text": null,
     "choices": [
       {
@@ -478,19 +478,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$x < 2$"
+        "text": "$x \\lt 2$"
       },
       {
         "label": "B",
-        "text": "$x > 22$"
+        "text": "$x \\gt 22$"
       },
       {
         "label": "C",
-        "text": "$2 < x < 22$"
+        "text": "$2 \\lt x \\lt 22$"
       },
       {
         "label": "D",
-        "text": "$x < 2$ or $x > 22$"
+        "text": "$x \\lt 2$ or $x \\gt 22$"
       }
     ],
     "is_fill_in_blank": false,
@@ -591,7 +591,7 @@
     "difficulty": "Hard",
     "question_number": 21,
     "test_name": "Module Source 079 Math M2",
-    "passage": "The function $f$ is defined by $f(x) = \\frac{|x|}{a} - 16$, where $a < 0$. What is the product of $f(17a)$ and $f(8a)$?",
+    "passage": "The function $f$ is defined by $f(x) = \\frac{|x|}{a} - 16$, where $a \\lt 0$. What is the product of $f(17a)$ and $f(8a)$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

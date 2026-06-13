@@ -1,1 +1,19 @@
-{"questionId": "4987f743", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Pin down the claim that needs support", "content": "Barboza and Trejos say rural women deliberately sell less frequently because doing so raises their profit per unit sold. The right answer must describe a cost structure in which fewer trips genuinely yield higher per-unit profit."}, {"title": "Find the choice that creates that incentive", "content": "If the cost of bringing goods to market is high but fixed regardless of how much is brought, then waiting to amass more goods spreads that fixed cost over more units, lowering per-unit cost and raising per-unit profit. That directly explains the rural sellers' strategic infrequency."}, {"title": "Eliminate the rest", "content": "<ul><li><strong>Choice A &mdash; 'fixed percentage of each day&#39;s proceeds'</strong>: a per-day percentage fee is proportional to sales, so consolidating trips would not change per-unit profit. It fails to support the strategic-infrequency claim. &#10007;</li><li><strong>Choice B &mdash; 'higher prices in cities... more competition'</strong>: this is about where to sell, not how often, and the competition caveat actually cuts against the profit argument. &#10007;</li><li><strong>Choice C &mdash; 'smaller initial loans'</strong>: loan size has no bearing on whether selling less frequently increases per-unit profit. Off-topic. &#10007;</li><li><strong>Choice D &mdash; 'high but largely independent of the number of goods'</strong>: a fixed trip cost is exactly the structure that rewards bundling more units per trip, supporting the claim. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "4987f743",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Pin down the claim that needs support",
+      "content": "Barboza and Trejos say rural women deliberately sell less frequently because doing so raises their profit per unit sold. The right answer must describe a cost structure in which fewer trips genuinely yield higher per-unit profit."
+    },
+    {
+      "title": "Find the choice that creates that incentive",
+      "content": "If the cost of bringing goods to market is high but fixed regardless of how much is brought, then waiting to amass more goods spreads that fixed cost over more units, lowering per-unit cost and raising per-unit profit. That directly explains the rural sellers' strategic infrequency."
+    },
+    {
+      "title": "Eliminate the rest",
+      "content": "<ul><li><strong>Choice A — Many marketplaces require entrepreneurs to pay marketplace operators a fixed percentage of each day's proceeds in exchange for permission to sell goods there.</strong>: a per-day percentage fee is proportional to sales, so consolidating trips would not change per-unit profit. It fails to support the strategic-infrequency claim. &#10007;</li><li><strong>Choice B — Rural entrepreneurs can typically sell their goods for higher prices in cities than in their home areas, but the number of people selling competing goods tends to be higher in cities.</strong>: this is about where to sell, not how often, and the competition caveat actually cuts against the profit argument. &#10007;</li><li><strong>Choice C — Due to the lower costs they incur, rural entrepreneurs tend to require smaller initial loans than urban entrepreneurs do.</strong>: loan size has no bearing on whether selling less frequently increases per-unit profit. Off-topic. &#10007;</li><li><strong>Choice D — The cost to rural entrepreneurs to bring their goods to towns with marketplaces is high but largely independent of the number of goods they bring.</strong>: a fixed trip cost is exactly the structure that rewards bundling more units per trip, supporting the claim. &#10003;</li></ul><strong>D</strong> is correct."
+    }
+  ]
+}

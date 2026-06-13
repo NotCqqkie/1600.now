@@ -1,1 +1,15 @@
-{"questionId":"b05db4ac-dd48-4b3f-b365-b39330c879e5_14","correctAnswer":"B","section":"Math","steps":[{"title":"Identify what the question needs","content":"An equation has <strong>no solution</strong> when the variable cancels and leaves a false statement (a contradiction like $-3 = 3$). The left side is $3(x-1) = 3x - 3$ in every choice, so we need the right side to simplify to $3x + c$ where $c ≠ -3$."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; '$-3(-x+1)$'</strong>: expands to $3x - 3$, so $3x - 3 = 3x - 3$ &mdash; true for all $x$ (infinite solutions). &#10007;</li><li><strong>Choice B &mdash; '$-3(-x-1)$'</strong>: expands to $3x + 3$, so $3x - 3 = 3x + 3$ &mdash; gives $-3 = 3$, a contradiction. &#10003;</li><li><strong>Choice C &mdash; '$4(x-1)$'</strong>: expands to $4x - 4$, so $-x = -1$, $x = 1$ (one solution). &#10007;</li><li><strong>Choice D &mdash; '$4(-x+1)$'</strong>: expands to $-4x + 4$, so $7x = 7$, $x = 1$ (one solution). &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "b05db4ac-dd48-4b3f-b365-b39330c879e5_14",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "An equation has <strong>no solution</strong> when the variable cancels and leaves a false statement (a contradiction like $-3 = 3$). The left side is $3(x-1) = 3x - 3$ in every choice, so we need the right side to simplify to $3x + c$ where $c \\ne -3$."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; $3(x - 1) = -3(-x + 1)$</strong>: expands to $3x - 3$, so $3x - 3 = 3x - 3$ &mdash; true for all $x$ (infinite solutions). &#10007;</li><li><strong>Choice B &mdash; $3(x - 1) = -3(-x - 1)$</strong>: expands to $3x + 3$, so $3x - 3 = 3x + 3$ &mdash; gives $-3 = 3$, a contradiction. &#10003;</li><li><strong>Choice C &mdash; $3(x - 1) = 4(x - 1)$</strong>: expands to $4x - 4$, so $-x = -1$, $x = 1$ (one solution). &#10007;</li><li><strong>Choice D &mdash; $3(x - 1) = 4(-x + 1)$</strong>: expands to $-4x + 4$, so $7x = 7$, $x = 1$ (one solution). &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

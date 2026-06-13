@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; '3.9 miles per inch'</strong>: This is 13 &times; 0.30, applying the shrink factor instead of inverting it. &#10007;</li><li><strong>Choice B &mdash; '16.5 miles per inch'</strong>: This is the new side length in inches, not the scale. &#10007;</li><li><strong>Choice C &mdash; '27 miles per inch'</strong>: Off by a factor; doesn&apos;t match 13 &divide; 0.30. &#10007;</li><li><strong>Choice D &mdash; '130/3 miles per inch'</strong>: 13 &divide; 0.30 = 13 &times; (10/3) = 130/3 &asymp; 43.3. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; 3.90</strong>: This is 13 &times; 0.30, applying the shrink factor instead of inverting it. &#10007;</li><li><strong>Choice B &mdash; 7.65</strong>: This is the new side length in inches, not the scale. &#10007;</li><li><strong>Choice C &mdash; 38.50</strong>: Off by a factor; doesn&apos;t match 13 &divide; 0.30. &#10007;</li><li><strong>Choice D &mdash; 43.33</strong>: 13 &divide; 0.30 = 13 &times; (10/3) = 130/3 &asymp; 43.3. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId": "56b000d0", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "This is a Rhetorical Synthesis question. The notes describe a research study on lizard clutch size. The student wants a sentence that emphasizes the <em>aim</em> of the research &mdash; what the researchers set out to investigate &mdash; not their methods or results."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'Researchers wanted to know which factors influence lizard egg clutch size because such factors have been well studied in birds but not in lizards.'</strong>: Directly states the research aim (what they wanted to know) and the motivating reason (well studied in birds, not lizards). &#10003;</li><li><strong>Choice B &mdash; 'After they obtained data for over 3,900 lizard species, researchers determined that larger clutch size was associated with environments in higher latitudes that have more seasonal change.'</strong>: Emphasizes a finding at the end of the study, not the aim before it began. &#10007;</li><li><strong>Choice C &mdash; 'We now know that lizards in higher-latitude environments may lay larger clutches to take advantage of shorter windows of favorable conditions.'</strong>: Emphasizes a conclusion or interpretation, not the research aim. &#10007;</li><li><strong>Choice D &mdash; 'Researchers obtained clutch-size and habitat data for over 3,900 lizard species and analyzed the data with statistical models.'</strong>: Emphasizes the methodology of the study, not its aim. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "56b000d0",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a Rhetorical Synthesis question. The notes describe a research study on lizard clutch size. The student wants a sentence that emphasizes the <em>aim</em> of the research &mdash; what the researchers set out to investigate &mdash; not their methods or results."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — Researchers wanted to know which factors influence lizard egg clutch size because such factors have been well studied in birds but not in lizards.</strong>: Directly states the research aim (what they wanted to know) and the motivating reason (well studied in birds, not lizards). &#10003;</li><li><strong>Choice B — After they obtained data for over 3,900 lizard species, researchers determined that larger clutch size was associated with environments in higher latitudes that have more seasonal change.</strong>: Emphasizes a finding at the end of the study, not the aim before it began. &#10007;</li><li><strong>Choice C — We now know that lizards in higher-latitude environments may lay larger clutches to take advantage of shorter windows of favorable conditions.</strong>: Emphasizes a conclusion or interpretation, not the research aim. &#10007;</li><li><strong>Choice D — Researchers obtained clutch-size and habitat data for over 3,900 lizard species and analyzed the data with statistical models.</strong>: Emphasizes the methodology of the study, not its aim. &#10007;</li></ul><strong>A</strong> is correct."
+    }
+  ]
+}

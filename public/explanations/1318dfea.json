@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Recognize equal angles create similar triangles",
-      "content": "The figure marks $\\angle XWQ = a°$ and $\\angle ZYQ = a°$ (equal angles at opposite vertices).<br/><br/>Since $WZ$ and $XY$ intersect at $Q$, the angles $\\angle WQX$ and $\\angle YQZ$ are vertical angles and therefore equal.<br/><br/>By AA (Angle-Angle) similarity, triangle $WXQ \\sim$ triangle $YZQ$, with correspondence $W \\leftrightarrow Y$, $X \\leftrightarrow Z$."
+      "content": "The figure marks $\\angle XWQ = a^{\\circ}$ and $\\angle ZYQ = a^{\\circ}$ (equal angles at opposite vertices).<br/><br/>Since $WZ$ and $XY$ intersect at $Q$, the angles $\\angle WQX$ and $\\angle YQZ$ are vertical angles and therefore equal.<br/><br/>By AA (Angle-Angle) similarity, triangle $WXQ \\sim$ triangle $YZQ$, with correspondence $W \\leftrightarrow Y$, $X \\leftrightarrow Z$."
     },
     {
       "title": "Set up proportion of corresponding sides",
@@ -13,7 +13,7 @@
     },
     {
       "title": "Solve for YZ",
-      "content": "$$\\frac{70}{21} = \\frac{60}{YZ}$$<br/>Cross-multiply:<br/>$$70 \\cdot YZ = 60 \\cdot 21$$<br/>$$70 \\cdot YZ = 1260$$<br/>$$YZ = \\frac{1260}{70} = 18$$<br/>That matches choice A — <strong>A</strong> is correct."
+      "content": "$$\\frac{70}{21} = \\frac{60}{YZ}$$<br/>Cross-multiply:<br/>$$70 \\cdot YZ = 60 \\cdot 21$$<br/>$$70 \\cdot YZ = 1260$$<br/>$$YZ = \\frac{1260}{70} = 18$$<br/>That matches <strong>Choice A &mdash; $18$</strong>."
     }
   ]
 }

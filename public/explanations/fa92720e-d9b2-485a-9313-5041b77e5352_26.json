@@ -1,1 +1,15 @@
-{"questionId": "fa92720e-d9b2-485a-9313-5041b77e5352_26", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the task", "content": "The student wants to emphasize a difference between the two flags. The notes give the key facts: El Salvador&apos;s flag has a palm branch (a plant) and Zambia&apos;s flag has an eagle (an animal). The correct choice must directly contrast these two flags, not merely mention both."}, {"title": "Eliminate each wrong choice and confirm the answer", "content": "<ul><li><strong>Choice A &mdash; &apos;Vexillologists study flags, like those of El Salvador and Zambia.&apos;</strong>: names both flags but only makes a claim about vexillology, not any difference between the two flags. &#10007;</li><li><strong>Choice B &mdash; &apos;Many countries feature symbols on their flags, such as animals, plants, or landforms, and the study of these designs is known as vexillology.&apos;</strong>: describes a general fact about flags worldwide; does not contrast El Salvador and Zambia specifically. &#10007;</li><li><strong>Choice C &mdash; &apos;Countries like El Salvador and Zambia use symbols on their flags; examples include plants and animals.&apos;</strong>: implies both countries share the same category of symbols without distinguishing which country has which type. &#10007;</li><li><strong>Choice D &mdash; &apos;El Salvador includes a plant on its flag, whereas Zambia&apos;s flag includes an animal.&apos;</strong>: directly contrasts the two flags &mdash; plant vs. animal &mdash; using &quot;whereas&quot; to signal the opposition. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "fa92720e-d9b2-485a-9313-5041b77e5352_26",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the task",
+      "content": "The student wants to emphasize a difference between the two flags. The notes give the key facts: El Salvador's flag has a palm branch (a plant) and Zambia's flag has an eagle (an animal). The correct choice must directly contrast these two flags, not merely mention both."
+    },
+    {
+      "title": "Eliminate each wrong choice and confirm the answer",
+      "content": "<ul><li><strong>\"Vexillologists study flags, like those of El Salvador and Zambia.\"</strong>: names both flags but only makes a claim about vexillology, not any difference between the two flags. &#10007;</li><li><strong>\"Many countries feature symbols on their flags, such as animals, plants, or landforms, and the study of these designs is known as vexillology.\"</strong>: describes a general fact about flags worldwide; does not contrast El Salvador and Zambia specifically. &#10007;</li><li><strong>\"Countries like El Salvador and Zambia use symbols on their flags; examples include plants and animals.\"</strong>: implies both countries share the same category of symbols without distinguishing which country has which type. &#10007;</li><li><strong>\"El Salvador includes a plant on its flag, whereas Zambia’s flag includes an animal.\"</strong>: directly contrasts the two flags &mdash; plant vs. animal &mdash; using \"whereas\" to signal the opposition. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

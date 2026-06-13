@@ -9,11 +9,11 @@
     },
     {
       "title": "Identify the matching solution",
-      "content": "The solutions are $-\\tfrac{8}{3}$ and $\\tfrac{3}{4}$. That matches choice <strong>A</strong> &mdash; <strong>A</strong> is correct."
+      "content": "The solutions are $-\\tfrac{8}{3}$ and $\\tfrac{3}{4}$. That is the correct answer."
     },
     {
       "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice A, $- \\frac{8}{3}$, and the other choices fail the same setup or substitution. Therefore <strong>A</strong> is correct."
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches $- \\frac{8}{3}$, and the other choices fail the same setup or substitution. Therefore <strong>A</strong> is correct."
     }
   ]
 }

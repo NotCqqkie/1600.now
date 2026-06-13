@@ -5,12 +5,12 @@
   "steps": [
     {
       "title": "Identify the angle relationship",
-      "content": "The angles $x°$ and $133°$ are adjacent angles formed where transversal $l$ intersects line $j$. Since they share a common side and together form a straight angle on line $j$, they form a linear pair."
+      "content": "The angles $x^{\\circ}$ and $133^{\\circ}$ are adjacent angles formed where transversal $l$ intersects line $j$. Since they share a common side and together form a straight angle on line $j$, they form a linear pair."
     },
     {
       "title": "Apply the supplementary angle property",
-      "content": "Angles that form a linear pair are supplementary, meaning they sum to $180°$.<br/>$$x + 133 = 180$$<br/>$$x = 47$$",
-      "formula": "$$\\text{Supplementary angles: } \\alpha + \\beta = 180°$$"
+      "content": "Angles that form a linear pair are supplementary, meaning they sum to $180^{\\circ}$.<br/>$$x + 133 = 180$$<br/>$$x = 47$$",
+      "formula": "$$\\text{Supplementary angles: } \\alpha + \\beta = 180^{\\circ}$$"
     }
   ]
 }

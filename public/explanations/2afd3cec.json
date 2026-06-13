@@ -9,7 +9,7 @@
     },
     {
       "title": "Find 20% removed using proportions",
-      "content": "We don't need to solve for the original. Instead, note that 20 is $\\frac{1}{4}$ of 80 (since $\\frac{20}{80} = \\frac{1}{4}$).<br/><br/>This means the marbles removed equal $\\frac{1}{4}$ of the marbles remaining:<br/>$$\\text{Removed} = \\frac{1}{4} \\times 360 = 90$$<br/>This matches choice B — <strong>B</strong> is correct."
+      "content": "We don't need to solve for the original. Instead, note that 20 is $\\frac{1}{4}$ of 80 (since $\\frac{20}{80} = \\frac{1}{4}$).<br/><br/>This means the marbles removed equal $\\frac{1}{4}$ of the marbles remaining:<br/>$$\\text{Removed} = \\frac{1}{4} \\times 360 = 90$$<br/>That matches <strong>Choice B &mdash; $90$</strong>."
     }
   ]
 }

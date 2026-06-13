@@ -13,7 +13,7 @@
     },
     {
       "title": "Read the slope",
-      "content": "The change in $y$ is $(n+14)-n=14$, and the change in $x$ is $3-0=3$. Therefore $$m=\\frac{14}{3},$$ so choice <strong>C</strong> is correct."
+      "content": "The change in $y$ is $(n+14)-n=14$, and the change in $x$ is $3-0=3$. Therefore $$m=\\frac{14}{3},$$ so <strong>C</strong> is correct."
     }
   ]
 }

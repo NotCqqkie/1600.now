@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice C is $r=38(s+t)$, so it is correct. Choices A and B add or subtract $38$, and choice D divides by $38$ again instead of undoing the division."
+      "content": "Choice C (&lsquo;$r=38 \\left(s+t\\right)$&rsquo;) is $r=38(s+t)$, so it is correct. The other choices add or subtract $38$, and an incorrect response divides by $38$ again instead of undoing the division."
     }
   ]
 }

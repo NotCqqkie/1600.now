@@ -1,1 +1,15 @@
-{"questionId":"62bf03b6-2f6e-4c65-9e55-3e67dca0934b_19","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank must fill in a possessive noun phrase referring to the properties belonging to nanoparticles (plural). The rule: a regular plural noun ending in -s forms its possessive by adding an apostrophe after the s, with no additional s."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'nanoparticles&apos; properties&apos;'</strong>: Adds a second apostrophe after 'properties,' which is a common noun here, not a possessive. &#10007;</li><li><strong>Choice B &mdash; 'nanoparticles properties'</strong>: No apostrophe at all — this is not a possessive form. &#10007;</li><li><strong>Choice C &mdash; 'nanoparticles&apos; properties'</strong>: Apostrophe after the plural -s on 'nanoparticles,' with 'properties' left as a plain noun. This is the correct plural possessive. &#10003;</li><li><strong>Choice D &mdash; 'nanoparticle&apos;s properties'</strong>: Uses the singular possessive form, but the text refers to multiple nanoparticles. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_19",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank must fill in a possessive noun phrase referring to the properties belonging to nanoparticles (plural). The rule: a regular plural noun ending in -s forms its possessive by adding an apostrophe after the s, with no additional s."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;nanoparticles’ properties’&rsquo;</strong>: Adds a second apostrophe after 'properties,' which is a common noun here, not a possessive. &#10007;</li><li><strong>Choice B &mdash; &lsquo;nanoparticles properties&rsquo;</strong>: No apostrophe at all — this is not a possessive form. &#10007;</li><li><strong>Choice C &mdash; &lsquo;nanoparticles’ properties&rsquo;</strong>: Apostrophe after the plural -s on 'nanoparticles,' with 'properties' left as a plain noun. This is the correct plural possessive. &#10003;</li><li><strong>Choice D &mdash; &lsquo;nanoparticle’s properties&rsquo;</strong>: Uses the singular possessive form, but the text refers to multiple nanoparticles. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

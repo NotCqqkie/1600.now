@@ -1,1 +1,15 @@
-{"questionId":"6af96c1c-ea52-4b92-a15c-9c8a703443c6_17","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"This is a sentence boundary (punctuation) question. The blank falls after &quot;Mission STS-53&quot; and before &quot;seven days and seven hours, the mission ended...&quot; The second part is an independent clause, so the blank must correctly close the first sentence and open the second."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;STS-53, lasting&rsquo;</strong>: Creates a comma splice — two independent clauses joined only by a comma. The construction &quot;...commencing Mission STS-53, lasting seven days..., the mission ended&quot; runs both clauses together illegally. &#10007;</li><li><strong>Choice B &mdash; &lsquo;STS-53, it lasted&rsquo;</strong>: Also a comma splice — &quot;it lasted&quot; is another independent clause, and a comma alone cannot join two independent clauses. &#10007;</li><li><strong>Choice C &mdash; &lsquo;STS-53 lasting&rsquo;</strong>: Omits any separator, fusing the two clauses without punctuation. &quot;Lasting&quot; without a comma or period dangles, leaving the first sentence without a proper boundary. &#10007;</li><li><strong>Choice D &mdash; &lsquo;STS-53. Lasting&rsquo;</strong>: The period ends the first independent clause. &quot;Lasting seven days and seven hours&quot; then becomes a participial phrase correctly introducing the second sentence, whose subject-verb is &quot;the mission ended.&quot; &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_17",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a sentence boundary (punctuation) question. The blank falls after &quot;Mission STS-53&quot; and before &quot;seven days and seven hours, the mission ended...&quot; The second part is an independent clause, so the blank must correctly close the first sentence and open the second."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;STS-53, lasting&rsquo;</strong>: Creates a comma splice — two independent clauses joined only by a comma. The construction &quot;...commencing Mission STS-53, lasting seven days..., the mission ended&quot; runs both clauses together illegally. &#10007;</li><li><strong>Choice B &mdash; &lsquo;STS-53, it lasted&rsquo;</strong>: Also a comma splice — &quot;it lasted&quot; is another independent clause, and a comma alone cannot join two independent clauses. &#10007;</li><li><strong>Choice C &mdash; &lsquo;STS-53 lasting&rsquo;</strong>: Omits any separator, fusing the two clauses without punctuation. &quot;Lasting&quot; without a comma or period dangles, leaving the first sentence without a proper boundary. &#10007;</li><li><strong>Choice D &mdash; &lsquo;STS-53. Lasting&rsquo;</strong>: The period ends the first independent clause. &quot;Lasting seven days and seven hours&quot; then becomes a participial phrase correctly introducing the second sentence, whose subject-verb is &quot;the mission ended.&quot; &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

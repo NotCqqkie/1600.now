@@ -9,15 +9,15 @@
     },
     {
       "title": "Eliminate by multiplier and exponent",
-      "content": "Choices A and C use multiplier $1.58$, so they represent a $58\\%$ increase, not a $158\\%$ increase. Choice B uses the correct multiplier but exponent $5/t$, which decreases as time increases. Only choice D has both $2.58$ and $t/5$."
+      "content": "The equations with multiplier $1.58$ represent a $58\\%$ increase, not a $158\\%$ increase. The equation with multiplier $2.58$ and exponent $5/t$ has the right multiplier but decreases as time increases. Only $M=36.55(2.58)^{\\frac{t}{5}}$ has both $2.58$ and $t/5$."
     },
     {
       "title": "Quickly verify the starting value",
-      "content": "Choice D says $M=36.55(2.58)^{t/5}$. At $t=15$, this gives:<br/>$$36.55(2.58)^3\\approx627.7$$<br/>That matches the given mass."
+      "content": "The correct answer says $M=36.55(2.58)^{t/5}$. At $t=15$, this gives:<br/>$$36.55(2.58)^3\\approx627.7$$<br/>That matches the given mass."
     },
     {
       "title": "Evaluate all choices",
-      "content": "<ul><li>A: $M = 538.92(1.58)^{5/t}$ &mdash; Uses multiplier 1.58 (not 2.58) and wrong exponent $\\frac{5}{t}$. Eliminated.</li><li>B: $M = 457.66(2.58)^{5/t}$ &mdash; Correct multiplier but wrong exponent direction $\\frac{5}{t}$; also wrong initial mass. Eliminated.</li><li>C: $M = 159.14(1.58)^{t/5}$ &mdash; Uses multiplier 1.58 instead of 2.58. Eliminated.</li><li>D: $M = 36.55(2.58)^{t/5}$ &mdash; Multiplier 2.58 and exponent $\\frac{t}{5}$ are both correct, and $M_0 \\approx 36.55$ matches our calculation. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
+      "content": "<ul><li>A: $M = 538.92(1.58)^{5/t}$ &mdash; Uses multiplier 1.58 (not 2.58) and wrong exponent $\\frac{5}{t}$. Eliminated.</li><li>B: $M = 457.66(2.58)^{5/t}$ &mdash; Correct multiplier but wrong exponent direction $\\frac{5}{t}$; also wrong initial mass. Eliminated.</li><li>C: $M = 159.14(1.58)^{t/5}$ &mdash; Uses multiplier 1.58 instead of 2.58. Eliminated.</li><li>D: $M = 36.55(2.58)^{t/5}$ &mdash; Multiplier 2.58 and exponent $\\frac{t}{5}$ are both correct, and $M_0 \\approx 36.55$ matches our calculation. That confirms <strong>D</strong> is correct.</li></ul>"
     }
   ]
 }

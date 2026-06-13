@@ -9,7 +9,7 @@
     },
     {
       "title": "Parameterize the line with x = r",
-      "content": "For any real number $r$, if $x = r$, then $y = -\\frac{5r}{8} + \\frac{9}{8}$, giving the point $(r, -\\frac{5r}{8} + \\frac{9}{8})$.<br/><br/>Verify by substituting into the first equation: $5r + 8\\left(-\\frac{5r}{8} + \\frac{9}{8}\\right) = 5r - 5r + 9 = 9$. That matches choice A, so <strong>A</strong> is correct."
+      "content": "For any real number $r$, if $x = r$, then $y = -\\frac{5r}{8} + \\frac{9}{8}$, giving the point $(r, -\\frac{5r}{8} + \\frac{9}{8})$.<br/><br/>Verify by substituting into the first equation: $5r + 8\\left(-\\frac{5r}{8} + \\frac{9}{8}\\right) = 5r - 5r + 9 = 9$. That matches the computed answer, so <strong>A</strong> is correct."
     }
   ]
 }

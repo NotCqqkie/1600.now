@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Set up",
-      "content": "Substitute $t=p^{2n-1}$ into $p^{\\frac{4}{7}}=t^{\\frac{5}{6}}$: $$p^{\\frac{4}{7}}=\\left(p^{2n-1}\\right)^{\\frac{5}{6}}=p^{\\frac{5(2n-1)}{6}}$$ Since $p>1$, equal bases mean the exponents must be equal: $$\\frac{4}{7}=\\frac{5(2n-1)}{6}$$"
+      "content": "Substitute $t=p^{2n-1}$ into $p^{\\frac{4}{7}}=t^{\\frac{5}{6}}$: $$p^{\\frac{4}{7}}=\\left(p^{2n-1}\\right)^{\\frac{5}{6}}=p^{\\frac{5(2n-1)}{6}}$$ Since $p\\gt1$, equal bases mean the exponents must be equal: $$\\frac{4}{7}=\\frac{5(2n-1)}{6}$$"
     },
     {
       "title": "Solve",

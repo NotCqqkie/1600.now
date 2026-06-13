@@ -1,1 +1,15 @@
-{"questionId":"9ce7f863-9f97-46a6-9458-7fb4726c3cb0_6","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The underlined sentence shifts from praising Jones as a writer to explaining why featuring Blackfeet characters matters &mdash; specifically that it ensures Indigenous people have a place in the horror genre. The question asks what function this sentence serves in the paragraph."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; predicts future author behavior</strong>: the sentence describes an existing cultural impact, not what Jones will do next. &#10007;</li><li><strong>Choice B &mdash; challenges an autobiographical claim</strong>: the passage makes no autobiographical claim to challenge. &#10007;</li><li><strong>Choice C &mdash; highlights the cultural significance of the representation</strong>: the sentence explains that the novel&apos;s portrayal of Indigenous people opened representational space in the genre &mdash; a statement of cultural importance. &#10003;</li><li><strong>Choice D &mdash; poses a question</strong>: the sentence is a statement, not a question, and the passage raises no such inquiry. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "9ce7f863-9f97-46a6-9458-7fb4726c3cb0_6",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The underlined sentence shifts from praising Jones as a writer to explaining why featuring Blackfeet characters matters &mdash; specifically that it ensures Indigenous people have a place in the horror genre. The question asks what function this sentence serves in the paragraph."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; It predicts that non-Indigenous authors will include more Indigenous characters in their work.</strong>: the sentence describes an existing cultural impact, not what Jones will do next. &#10007;</li><li><strong>Choice B &mdash; It challenges the widely held view that Stephen Graham Jones based *My Heart Is a Chainsaw* on events in his own life.</strong>: the passage makes no autobiographical claim to challenge. &#10007;</li><li><strong>Choice C &mdash; It highlights the significance of the portrayal of Indigenous people in *My Heart Is a Chainsaw*.</strong>: the sentence explains that the novel&apos;s portrayal of Indigenous people opened representational space in the genre &mdash; a statement of cultural importance. &#10003;</li><li><strong>Choice D &mdash; It asks why so many readers who don't enjoy the horror genre have purchased *My Heart Is a Chainsaw*.</strong>: the sentence is a statement, not a question, and the passage raises no such inquiry. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "$c=800(1.05)^m$ matches choice <strong>B</strong>."
+      "content": "$c=800(1.05)^m$ matches <strong>B</strong>."
     }
   ]
 }

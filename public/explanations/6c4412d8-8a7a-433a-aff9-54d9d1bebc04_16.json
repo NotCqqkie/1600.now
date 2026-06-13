@@ -1,1 +1,15 @@
-{"questionId": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_16", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Spot the contradiction between the two disturbed-water studies", "content": "Guédron found no correlation in wastewater-impacted waters, contradicting Tjerngren's finding in urban-development-disturbed waters (correlation present, like undisturbed waters). This divergence undermines the hypothesis that the association is “particular to undisturbed waters.”"}, {"title": "Recognize that C captures the implication", "content": "Choice C concludes that wastewater's effect should not be taken as representative of all human disturbances — the direct logical implication when one disturbance type breaks the association and another preserves it.<br/><br/>A, B, and D each make claims unsupported by the passage. That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_16",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the contradiction between the two disturbed-water studies",
+      "content": "Guédron found no correlation in wastewater-impacted waters, contradicting Tjerngren's finding in urban-development-disturbed waters (correlation present, like undisturbed waters). This divergence undermines the hypothesis that the association is “particular to undisturbed waters.”"
+    },
+    {
+      "title": "Recognize that C captures the implication",
+      "content": "The correct response concludes that wastewater's effect should not be taken as representative of all human disturbances — the direct logical implication when one disturbance type breaks the association and another preserves it.<br/><br/>A, B, and D each make claims unsupported by the passage. That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

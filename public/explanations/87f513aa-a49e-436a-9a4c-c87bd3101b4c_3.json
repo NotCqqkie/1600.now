@@ -13,7 +13,7 @@
     },
     {
       "title": "Calculate the probability and identify the choice",
-      "content": "Apply the probability formula with igneous rocks as favorable outcomes and total rocks as the sample space:<br/>$$P(\\text{igneous}) = \\frac{10}{70}$$<br/>That matches choice D — <strong>D</strong> is correct.",
+      "content": "Apply the probability formula with igneous rocks as favorable outcomes and total rocks as the sample space:<br/>$$P(\\text{igneous}) = \\frac{10}{70}$$<br/>That confirms <strong>D</strong> is correct.",
       "formula": "$$P = \\frac{\\text{favorable outcomes}}{\\text{total outcomes}}$$"
     }
   ]

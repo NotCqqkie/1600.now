@@ -1,1 +1,15 @@
-{"questionId": "feb1e6da", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find what the sentence is doing", "content": "The first sentence establishes that the differences between the two editions are extreme &mdash; remarkable even by James's standards. The sentence being completed then presents critics regarding the two editions as entirely different novels. This second sentence doesn't contradict or restate the first; it reinforces it by showing the real-world consequence of those extreme differences.<ul><li><strong>Choice A &mdash; 'by contrast,'</strong>: signals opposition &#10007;</li><li><strong>Choice B &mdash; 'in fact,'</strong>: signals reinforcement or intensification of the preceding point &#10003;</li><li><strong>Choice C &mdash; 'nevertheless,'</strong>: signals concession, implying the critics' view is surprising despite the differences &#10007;</li><li><strong>Choice D &mdash; 'in other words,'</strong>: signals restatement, implying the two clauses say the same thing &#10007;</li></ul>"}, {"title": "Confirm the answer", "content": "Only &ldquo;in fact&rdquo; correctly presents the critics' view as a natural extension of the extreme differences already established. That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "feb1e6da",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find what the sentence is doing",
+      "content": "The first sentence establishes that the differences between the two editions are extreme &mdash; remarkable even by James's standards. The sentence being completed then presents critics regarding the two editions as entirely different novels. This second sentence doesn't contradict or restate the first; it reinforces it by showing the real-world consequence of those extreme differences.<ul><li><strong>\"by contrast,\"</strong>: signals opposition &#10007;</li><li><strong>\"in fact,\"</strong>: signals reinforcement or intensification of the preceding point &#10003;</li><li><strong>\"nevertheless,\"</strong>: signals concession, implying the critics' view is surprising despite the differences &#10007;</li><li><strong>\"in other words,\"</strong>: signals restatement, implying the two clauses say the same thing &#10007;</li></ul>"
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "Only &ldquo;in fact&rdquo; correctly presents the critics' view as a natural extension of the extreme differences already established. That matches the correct answer — <strong>B</strong> is correct."
+    }
+  ]
+}

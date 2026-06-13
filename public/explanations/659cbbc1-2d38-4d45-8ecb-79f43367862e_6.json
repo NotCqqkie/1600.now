@@ -9,7 +9,7 @@
     },
     {
       "title": "Compute the radius",
-      "content": "Distance from $(-5, 2)$ to $(-9, 5)$: $\\sqrt{(-9+5)^2 + (5-2)^2} = \\sqrt{16 + 9} = \\sqrt{25} = 5$. So $r^2 = 25$.<br/>$$(x+5)^2 + (y-2)^2 = 25$$<br/>The Desmos graph is a visual check: it shows the circle centered at $(-5,2)$ and passing through $(-9,5)$, so the radius really is $5$. That matches choice D — <strong>D</strong> is correct.",
+      "content": "Distance from $(-5, 2)$ to $(-9, 5)$: $\\sqrt{(-9+5)^2 + (5-2)^2} = \\sqrt{16 + 9} = \\sqrt{25} = 5$. So $r^2 = 25$.<br/>$$(x+5)^2 + (y-2)^2 = 25$$<br/>The Desmos graph is a visual check: it shows the circle centered at $(-5,2)$ and passing through $(-9,5)$, so the radius really is $5$. That confirms <strong>D</strong> is correct.",
       "desmosExpressions": [
         "(x+5)^2 + (y-2)^2 = 25",
         "(-5, 2)",

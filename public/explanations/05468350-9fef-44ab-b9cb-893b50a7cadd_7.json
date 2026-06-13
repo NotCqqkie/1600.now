@@ -3,9 +3,18 @@
   "correctAnswer": "B",
   "section": "Math",
   "steps": [
-    "The equation is 10x + 26,255 = 26,950. The structure is: (starting population) + (something times 10) = (ending population). The 10 represents the 10 years from 2000 to 2010.",
-    "Solve for x: 10x = 26,950 &minus; 26,255 = 695, so x = 695 &divide; 10 = 69.5.",
-    "Since x is multiplied by 10 years to give the total population change (695), x represents the change per year &mdash; the average annual increase. That matches choice B &mdash; <strong>B</strong> is correct."
+    {
+      "title": "Interpret the equation",
+      "content": "The equation is $10x + 26{,}255 = 26{,}950$. Its structure is starting population plus something times 10 years equals ending population."
+    },
+    {
+      "title": "Solve for x",
+      "content": "$10x = 26{,}950 - 26{,}255 = 695$, so $x = 69.5$."
+    },
+    {
+      "title": "Connect x to the context",
+      "content": "Since $x$ is multiplied by 10 years to give the total population change, $x$ is the change per year, or the average annual increase.<br/><br/>That matches <strong>Choice B &mdash; The average increase per year of the population between 2000 and 2010</strong>."
+    }
   ],
-  "choiceElimination": "<ul><li><strong>Choice A &mdash; 'The total increase in population between 2000 and 2010'</strong>: The total increase is 695 (= 26,950 &minus; 26,255), which is 10x, not x itself. &#10007;</li><li><strong>Choice B &mdash; 'The average increase per year of the population between 2000 and 2010'</strong>: x = 69.5 is the total increase (695) divided by the number of years (10), giving the average annual increase. &#10003;</li><li><strong>Choice C &mdash; 'The percentage by which the population of the town increased each year between 2000 and 2010'</strong>: A percentage increase would require a multiplicative model (e.g., 26,255 &times; (1+x)^10), not an additive one like 10x. &#10007;</li><li><strong>Choice D &mdash; 'The projected population of the town 10 years after 2010'</strong>: The equation describes the change from 2000 to 2010, not a projection. x = 69.5 is clearly not a population figure. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+  "choiceElimination": "<ul><li><strong>Choice A &mdash; The total increase in population between 2000 and 2010</strong>: The total increase is 695 (= 26,950 &minus; 26,255), which is 10x, not x itself. &#10007;</li><li><strong>Choice B &mdash; The average increase per year of the population between 2000 and 2010</strong>: x = 69.5 is the total increase (695) divided by the number of years (10), giving the average annual increase. &#10003;</li><li><strong>Choice C &mdash; The percentage by which the population of the town increased each year between 2000 and 2010</strong>: A percentage increase would require a multiplicative model (e.g., 26,255 &times; (1+x)^10), not an additive one like 10x. &#10007;</li><li><strong>Choice D &mdash; The projected population of the town 10 years after 2010</strong>: The equation describes the change from 2000 to 2010, not a projection. x = 69.5 is clearly not a population figure. &#10007;</li></ul>That matches <strong>Choice B &mdash; The average increase per year of the population between 2000 and 2010</strong>."
 }

@@ -1,1 +1,15 @@
-{"questionId":"97534841-3541-4563-86b8-0a919d0bde5b_24","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The goal is to <strong>specify how long Despina&apos;s orbit of Neptune takes</strong>. The relevant note is: &quot;Despina completes an orbit of Neptune in 0.33 Earth days on average.&quot; The Kepler&apos;s laws notes provide background but don&apos;t state a duration."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &quot;Among Neptune&apos;s fourteen moons is Despina, which completes its orbit of the planet in 0.33 Earth days on average&quot;</strong>: directly states the orbital duration using the exact figure from the notes. &#10003;</li><li><strong>Choice B &mdash; &quot;Despina&apos;s orbit can be described using Kepler&apos;s three laws&quot;</strong>: mentions Kepler&apos;s laws but never states how long the orbit takes. &#10007;</li><li><strong>Choice C &mdash; &quot;It takes Despina three Earth days to orbit Neptune&quot;</strong>: states an incorrect duration (three days instead of 0.33 days) and contradicts the notes. &#10007;</li><li><strong>Choice D &mdash; &quot;Kepler&apos;s three laws describe orbits, including Despina&apos;s, which takes 0.33 Earth days&quot;</strong>: buries the duration inside an irrelevant frame about Kepler&apos;s laws, making Kepler the focus rather than Despina&apos;s orbit. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "97534841-3541-4563-86b8-0a919d0bde5b_24",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The goal is to <strong>specify how long Despina&apos;s orbit of Neptune takes</strong>. The relevant note is: &quot;Despina completes an orbit of Neptune in 0.33 Earth days on average.&quot; The Kepler&apos;s laws notes provide background but don&apos;t state a duration."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Among Neptune's fourteen moons is Despina, which completes its orbit of the planet in 0.33 Earth days on average.</strong>: directly states the orbital duration using the exact figure from the notes. &#10003;</li><li><strong>Choice B &mdash; Despina's orbit of Neptune can be described using Kepler's three laws of planetary motion.</strong>: mentions Kepler&apos;s laws but never states how long the orbit takes. &#10007;</li><li><strong>Choice C &mdash; It takes Despina three Earth days to orbit Neptune, a number that can be deduced from Kepler's laws of planetary motion.</strong>: states an incorrect duration (three days instead of 0.33 days) and contradicts the notes. &#10007;</li><li><strong>Choice D &mdash; Kepler's three laws of planetary motion describe the orbits of planets in a solar system, including Despina's orbit, which takes 0.33 Earth days on average.</strong>: buries the duration inside an irrelevant frame about Kepler&apos;s laws, making Kepler the focus rather than Despina&apos;s orbit. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

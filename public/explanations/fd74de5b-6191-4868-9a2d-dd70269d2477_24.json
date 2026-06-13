@@ -1,1 +1,15 @@
-{"questionId": "fd74de5b-6191-4868-9a2d-dd70269d2477_24", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The goal is to emphasize a similarity between kale and carrots. The correct choice must name both vegetables and describe something they share."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'Carrots are vegetables that contain ascorbic acid; in fact, there is 6 mg of it in every 100g of carrot.'</strong>: Discusses only carrots; kale is not mentioned. &#10007;</li><li><strong>Choice B &mdash; 'Humans cannot make vitamin C in their bodies, so they must get this essential nutrient from vegetables, such as kale.'</strong>: Mentions only kale as an example; does not address carrots or any shared trait. &#10007;</li><li><strong>Choice C &mdash; 'One thing that kale and carrots have in common is that they both contain vitamin C.'</strong>: Explicitly names both vegetables and states their shared property (vitamin C / ascorbic acid). &#10003;</li><li><strong>Choice D &mdash; 'Just like fruits, vegetables are a food that humans can eat to get ascorbic acid, also known as vitamin C.'</strong>: Compares vegetables to fruits in general; does not focus on kale and carrots specifically. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "fd74de5b-6191-4868-9a2d-dd70269d2477_24",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The goal is to emphasize a similarity between kale and carrots. The correct choice must name both vegetables and describe something they share."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"Carrots are vegetables that contain ascorbic acid; in fact, there is 6 mg of it in every 100g of carrot.\"</strong>: Discusses only carrots; kale is not mentioned. &#10007;</li><li><strong>\"Humans cannot make vitamin C in their bodies, so they must get this essential nutrient from vegetables, such as kale.\"</strong>: Mentions only kale as an example; does not address carrots or any shared trait. &#10007;</li><li><strong>\"One thing that kale and carrots have in common is that they both contain vitamin C.\"</strong>: Explicitly names both vegetables and states their shared property (vitamin C / ascorbic acid). &#10003;</li><li><strong>\"Just like fruits, vegetables are a food that humans can eat to get ascorbic acid, also known as vitamin C.\"</strong>: Compares vegetables to fruits in general; does not focus on kale and carrots specifically. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+    }
+  ]
+}

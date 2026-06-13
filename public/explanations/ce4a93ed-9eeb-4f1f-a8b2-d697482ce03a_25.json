@@ -1,1 +1,15 @@
-{"questionId":"ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_25","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The student wants to emphasize a difference in umami intensity between two seaweeds: winged kelp (moderate umami) and arame (high umami). The correct choice must contrast the two levels, making clear that arame&apos;s umami is stronger."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A</strong>: Does not clearly establish that arame&apos;s umami is greater than winged kelp&apos;s. &#10007;</li><li><strong>Choice B</strong>: Directly contrasts the two seaweeds by stating that while winged kelp has moderate umami, arame&apos;s is more intense &mdash; precisely the difference the student wants to highlight. &#10003;</li><li><strong>Choice C</strong>: Does not frame the comparison as a contrast between the two intensities. &#10007;</li><li><strong>Choice D</strong>: Does not emphasize that arame exceeds winged kelp in umami strength. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_25",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The student wants to emphasize a difference in umami intensity between two seaweeds: winged kelp (moderate umami) and arame (high umami). The correct choice must contrast the two levels, making clear that arame&apos;s umami is stronger."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Some types of brown seaweed, like winged kelp and arame, trigger umami flavor in human taste buds.</strong>: Does not clearly establish that arame&apos;s umami is greater than winged kelp&apos;s. &#10007;</li><li><strong>Choice B &mdash; Although winged kelp and arame are types of brown seaweed, the latter's umami flavor is more intense.</strong>: Directly contrasts the two seaweeds by stating that while winged kelp has moderate umami, arame&apos;s is more intense &mdash; precisely the difference the student wants to highlight. &#10003;</li><li><strong>Choice C &mdash; Winged kelp is a type of brown seaweed, but so is arame.</strong>: Does not frame the comparison as a contrast between the two intensities. &#10007;</li><li><strong>Choice D &mdash; While winged kelp and arame contain umami flavor, umami can also be found in ham and mushrooms.</strong>: Does not emphasize that arame exceeds winged kelp in umami strength. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_19", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The blank is the subject of the verb &lsquo;correlate.&rsquo; Two things must be right: (1) the subject must be plural to agree with &lsquo;correlate,&rsquo; and (2) the noun must show that the lengths belong to the constitutions, so a possessive is required."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'constitutions&rsquo; length,'</strong>: the possessive form is correct (plural possessive), but &lsquo;length&rsquo; is singular. A singular subject cannot agree with the plural verb &lsquo;correlate.&rsquo; &#10007;</li><li><strong>Choice B &mdash; 'constitutions lengths,'</strong>: no apostrophe at all, so there is no possessive. The sentence would claim that &lsquo;constitutions lengths&rsquo; are a thing &mdash; two nouns with no relationship marked. &#10007;</li><li><strong>Choice C &mdash; 'constitution&rsquo;s length,'</strong>: singular possessive (one constitution&rsquo;s) and singular noun (length). Both the possessive and the number are wrong &mdash; the passage refers to two constitutions with lengths that &lsquo;correlate.&rsquo; &#10007;</li><li><strong>Choice D &mdash; 'constitutions&rsquo; lengths,'</strong>: plural possessive (constitutions&rsquo;) correctly attributes the lengths to multiple constitutions, and &lsquo;lengths&rsquo; is plural, agreeing with &lsquo;correlate.&rsquo; Both requirements are met. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_19",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank is the subject of the verb &lsquo;correlate.&rsquo; Two things must be right: (1) the subject must be plural to agree with &lsquo;correlate,&rsquo; and (2) the noun must show that the lengths belong to the constitutions, so a possessive is required."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; constitutions' length,</strong>: the possessive form is correct (plural possessive), but &lsquo;length&rsquo; is singular. A singular subject cannot agree with the plural verb &lsquo;correlate.&rsquo; &#10007;</li><li><strong>Choice B &mdash; constitutions lengths,</strong>: no apostrophe at all, so there is no possessive. The sentence would claim that &lsquo;constitutions lengths&rsquo; are a thing &mdash; two nouns with no relationship marked. &#10007;</li><li><strong>Choice C &mdash; constitution's length,</strong>: singular possessive (one constitution&rsquo;s) and singular noun (length). Both the possessive and the number are wrong &mdash; the passage refers to two constitutions with lengths that &lsquo;correlate.&rsquo; &#10007;</li><li><strong>Choice D &mdash; constitutions' lengths,</strong>: plural possessive (constitutions&rsquo;) correctly attributes the lengths to multiple constitutions, and &lsquo;lengths&rsquo; is plural, agreeing with &lsquo;correlate.&rsquo; Both requirements are met. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

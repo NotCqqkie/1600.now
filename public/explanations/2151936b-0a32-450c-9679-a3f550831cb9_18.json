@@ -1,1 +1,15 @@
-{"questionId": "2151936b-0a32-450c-9679-a3f550831cb9_18", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The sentence contains a relative clause with two verbs joined by <em>and</em>: &quot;which typically are woven from sumac&hellip; and ______ bold colors.&quot; Both verbs share the same plural subject <em>which</em> (referring to baskets). The blank must be parallel to &quot;are woven&quot; and agree with a plural subject."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'feature'</strong>: present tense, plural &mdash; parallel to &quot;are woven&quot; and agrees with the plural subject. &#10003;</li><li><strong>Choice B &mdash; 'had featured'</strong>: past perfect &mdash; shifts the tense away from the present-tense context. &#10007;</li><li><strong>Choice C &mdash; 'were featuring'</strong>: past progressive &mdash; wrong tense entirely. &#10007;</li><li><strong>Choice D &mdash; 'featured'</strong>: simple past &mdash; breaks the present-tense parallel. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "2151936b-0a32-450c-9679-a3f550831cb9_18",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence contains a relative clause with two verbs joined by <em>and</em>: &quot;which typically are woven from sumac&hellip; and ______ bold colors.&quot; Both verbs share the same plural subject <em>which</em> (referring to baskets). The blank must be parallel to &quot;are woven&quot; and agree with a plural subject."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; feature</strong>: present tense, plural &mdash; parallel to &quot;are woven&quot; and agrees with the plural subject. &#10003;</li><li><strong>Choice B &mdash; had featured</strong>: past perfect &mdash; shifts the tense away from the present-tense context. &#10007;</li><li><strong>Choice C &mdash; were featuring</strong>: past progressive &mdash; wrong tense entirely. &#10007;</li><li><strong>Choice D &mdash; featured</strong>: simple past &mdash; breaks the present-tense parallel. &#10007;</li></ul>That matches <strong>Choice A &mdash; feature</strong>."
+    }
+  ]
+}

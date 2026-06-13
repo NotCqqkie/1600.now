@@ -1,1 +1,15 @@
-{"questionId": "358eadf8-526f-42db-b8ee-227b4cb7d0e5_21", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the structure", "content": "The phrase \"fellow OECD member nation Spain\" uses the country name as a restrictive appositive — it specifies which nation is meant, so no punctuation should separate \"nation\" from \"Spain.\""}, {"title": "Match to choices", "content": "The rule: a restrictive appositive that identifies which one must not be set off by any punctuation.\n<ul>\n<li><strong>Choice A — \"nation Spain.\"</strong>: no punctuation between \"nation\" and \"Spain\" — the name sits directly against the noun it identifies. ✓</li>\n<li><strong>Choice B — \"nation, Spain.\"</strong>: a comma signals a non-restrictive (parenthetical) appositive, implying \"nation\" already identifies a unique referent — but here the name is needed to specify which member. ✗</li>\n<li><strong>Choice C — \"nation-Spain.\"</strong>: a hyphen joins words into a compound modifier, not an appositive; this construction is grammatically wrong here. ✗</li>\n<li><strong>Choice D — \"nation: Spain.\"</strong>: a colon introduces a list or explanation after an independent clause — \"in fellow OECD member nation\" is not an independent clause, so a colon is incorrect. ✗</li>\n</ul>\nThat matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "358eadf8-526f-42db-b8ee-227b4cb7d0e5_21",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the structure",
+      "content": "The phrase \"fellow OECD member nation Spain\" uses the country name as a restrictive appositive — it specifies which nation is meant, so no punctuation should separate \"nation\" from \"Spain.\""
+    },
+    {
+      "title": "Match to choices",
+      "content": "The rule: a restrictive appositive that identifies which one must not be set off by any punctuation.\n<ul>\n<li><strong>Choice A — nation Spain.</strong>: no punctuation between \"nation\" and \"Spain\" — the name sits directly against the noun it identifies. ✓</li>\n<li><strong>Choice B — nation, Spain.</strong>: a comma signals a non-restrictive (parenthetical) appositive, implying \"nation\" already identifies a unique referent — but here the name is needed to specify which member. ✗</li>\n<li><strong>Choice C — nation-Spain.</strong>: a hyphen joins words into a compound modifier, not an appositive; this construction is grammatically wrong here. ✗</li>\n<li><strong>Choice D — nation: Spain.</strong>: a colon introduces a list or explanation after an independent clause — \"in fellow OECD member nation\" is not an independent clause, so a colon is incorrect. ✗</li>\n</ul>\n<strong>A</strong> is correct."
+    }
+  ]
+}

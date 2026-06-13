@@ -9,7 +9,7 @@
     },
     {
       "title": "Scan for 4096 as a visible literal base",
-      "content": "A: $42(2)^{6x}$ — base is 2, not 4096.<br/>B: $42(8)^{2x}$ — base is 8, not 4096.<br/>C: $42(64)^x$ — base is 64, not 4096.<br/>D: $42(4{,}096)^{x/2}$ — base is 4096, which is c displayed literally. ✓<br/>That matches choice D — <strong>D</strong> is correct."
+      "content": "A: $42(2)^{6x}$ — base is 2, not 4096.<br/>B: $42(8)^{2x}$ — base is 8, not 4096.<br/>C: $42(64)^x$ — base is 64, not 4096.<br/>D: $42(4{,}096)^{x/2}$ — base is 4096, which is c displayed literally. ✓<br/><strong>D</strong> is correct."
     }
   ]
 }

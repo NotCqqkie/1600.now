@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; 'between 2 and 6'</strong>: does not contain 0. &#10007;</li><li><strong>Choice B &mdash; 'between &minus;2 and 2'</strong>: contains 0. &#10003;</li><li><strong>Choice C &mdash; 'between &minus;6 and &minus;3'</strong>: does not contain 0. &#10007;</li><li><strong>Choice D &mdash; 'between 7 and 12'</strong>: does not contain 0. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; $2$ and $6$</strong>: does not contain 0. &#10007;</li><li><strong>Choice B &mdash; $-2$ and $2$</strong>: contains 0. &#10003;</li><li><strong>Choice C &mdash; $-6$ and $-3$</strong>: does not contain 0. &#10007;</li><li><strong>Choice D &mdash; $7$ and $12$</strong>: does not contain 0. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
     }
   ]
 }

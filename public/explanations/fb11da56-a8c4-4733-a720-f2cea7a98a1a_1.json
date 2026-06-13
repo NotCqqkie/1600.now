@@ -1,1 +1,15 @@
-{"questionId": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_1", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Identify the boundary", "content": "The shaded region is bounded by a horizontal line at $y = 29$ — a horizontal boundary means the inequality is in $y$ alone (not $x$). That eliminates A and B."}, {"title": "Pick the direction of shading", "content": "The shading is <strong>above</strong> the line $y = 29$, and the line itself is solid (included). So all points $(x, y)$ in the region satisfy $y \\ge 29$.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_1",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the boundary",
+      "content": "The shaded region is bounded by a horizontal line at $y = 29$ — a horizontal boundary means the inequality is in $y$ alone (not $x$). That eliminates A and B."
+    },
+    {
+      "title": "Pick the direction of shading",
+      "content": "The shading is above the horizontal boundary, so the inequality includes values greater than or equal to 29. That matches <strong>$y \\geq 29$</strong>, so <strong>D</strong> is correct."
+    }
+  ]
+}

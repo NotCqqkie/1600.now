@@ -9,7 +9,7 @@
     },
     {
       "title": "Calculate the probability",
-      "content": "Applying the probability formula with 9 favorable outcomes and 50 total outcomes:\n$$P = \\frac{9}{50}$$\nThat matches choice B — <strong>B</strong> is correct.",
+      "content": "Applying the probability formula with 9 favorable outcomes and 50 total outcomes:\n$$P = \\frac{9}{50}$$\nThat confirms <strong>B</strong> is correct.",
       "formula": "$$P = \\frac{\\text{favorable outcomes}}{\\text{total outcomes}}$$"
     }
   ]

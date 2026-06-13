@@ -9,7 +9,7 @@
     },
     {
       "title": "Test the mean: set up the inequality",
-      "content": "Let $S$ = sum of the 55 integers in F. Then Mean(F) $= \\frac{S}{55}$ and Mean(G) $= \\frac{S + 10}{56}$. <br/><br/>For the mean of F to be less than the mean of G:<br/>$$\\frac{S}{55} \\lt \\frac{S + 10}{56}$$<br/>Cross multiply: $56S \\lt 55(S + 10)$, which simplifies to $56S \\lt 55S + 550$, so $S \\lt 550$. <br/><br/>However, every integer in F is at least 170, so $S \\geq 55 \\times 170 = 9350$. Since $S \\geq 9350$, the inequality $S \\lt 550$ is false. Therefore, Mean(F) $>$ Mean(G), not less."
+      "content": "Let $S$ = sum of the 55 integers in F. Then Mean(F) $= \\frac{S}{55}$ and Mean(G) $= \\frac{S + 10}{56}$. <br/><br/>For the mean of F to be less than the mean of G:<br/>$$\\frac{S}{55} \\lt \\frac{S + 10}{56}$$<br/>Cross multiply: $56S \\lt 55(S + 10)$, which simplifies to $56S \\lt 55S + 550$, so $S \\lt 550$. <br/><br/>However, every integer in F is at least 170, so $S \\geq 55 \\times 170 = 9350$. Since $S \\geq 9350$, the inequality $S \\lt 550$ is false. Therefore, Mean(F) $\\gt $ Mean(G), not less."
     },
     {
       "title": "Test the median: position shift when adding the minimum",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Conclusion: neither statistic must be less",
-      "content": "Both the mean and the median are greater for F than for G (or equal in the median case). Therefore, neither I nor II must be less for data set F than for data set G. That matches choice D — <strong>D</strong> is correct."
+      "content": "Both the mean and the median are greater for F than for G (or equal in the median case). Therefore, neither I nor II must be less for data set F than for data set G. <strong>D</strong> is correct."
     }
   ]
 }

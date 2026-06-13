@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "Collect all $x$ terms: $x(r - 7) - 19x = 22$, so $x(r - 26) = 22$. A linear equation $ax = b$ has exactly one solution when $a ≠ 0$. The question asks which value of $r$ does NOT give exactly one solution &mdash; meaning $r - 26 = 0$, i.e. $r = 26$."
+      "content": "Collect all $x$ terms: $x(r - 7) - 19x = 22$, so $x(r - 26) = 22$. A linear equation $ax = b$ has exactly one solution when $a \\ne 0$. The question asks which value of $r$ does NOT give exactly one solution &mdash; meaning $r - 26 = 0$, i.e. $r = 26$."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; '$r = 3$'</strong>: coefficient is $3 - 26 = -23 ≠ 0$, so one solution exists. &#10007;</li><li><strong>Choice B &mdash; '$r = 7$'</strong>: coefficient is $7 - 26 = -19 ≠ 0$, so one solution exists. &#10007;</li><li><strong>Choice C &mdash; '$r = 22$'</strong>: coefficient is $22 - 26 = -4 ≠ 0$, so one solution exists. &#10007;</li><li><strong>Choice D &mdash; '$r = 26$'</strong>: coefficient is $26 - 26 = 0$, giving $0 = 22$ &mdash; no solution. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "content": "<ul><li><strong>Choice A — 3</strong>: coefficient is $3 - 26 = -23 \\ne 0$, so one solution exists. &#10007;</li><li><strong>Choice B — 7</strong>: coefficient is $7 - 26 = -19 \\ne 0$, so one solution exists. &#10007;</li><li><strong>Choice C — 22</strong>: coefficient is $22 - 26 = -4 \\ne 0$, so one solution exists. &#10007;</li><li><strong>Choice D — 26</strong>: coefficient is $26 - 26 = 0$, giving $0 = 22$ &mdash; no solution. &#10003;</li></ul><strong>D</strong> is correct."
     }
   ]
 }

@@ -38,7 +38,7 @@
     "difficulty": "Easy",
     "question_number": 2,
     "test_name": "Module Source 087 Eng M2",
-    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nThe Historical Dictionary of Science Fiction is a crowdsourced project started in 2001 by lexicographer Jesse Sheidlower to record terms that originated in science fiction. Volunteers share digitized excerpts from personal collections of sci-fi magazines not typically preserved in libraries— ______ that allow the earliest uses of phrases such as \"warp speed\" (1952) to be identified and added to the dictionary.",
+    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nThe Historical Dictionary of Science Fiction is a crowdsourced project started in 2001 by lexicographer Jesse Sheidlower to record terms that originated in science fiction. Volunteers share digitized excerpts from personal collections of sci-fi magazines not typically preserved in libraries-- ______ that allow the earliest uses of phrases such as \"warp speed\" (1952) to be identified and added to the dictionary.",
     "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
     "choices": [
       {
@@ -198,7 +198,7 @@
     "difficulty": "Medium",
     "question_number": 7,
     "test_name": "Module Source 087 Eng M2",
-    "passage": "Based on the texts, how would Tsai et al. (Text 2) most likely respond to Madhusudhan et al.'s research, as presented in Text 1?\nText 1\nHycean planets are a class of exoplanets (planets outside our solar system) with oceans of liquid water—critical to supporting life—and atmospheres rich in hydrogen. Computer models have determined that for potential hycean planets, the range of the habitable zone (HZ), the distance from a star that allows a planet to retain liquid water on its surface, begins at about 1 astronomical unit (AU). In 2021, Nikku Madhusudhan et al. identified K2-18 b as a hycean candidate, noting that the planet is located right on the inner edge of the HZ.\nText 2\nIn a 2023 paper, Shang-Min Tsai et al. claimed that the hydrogen-rich atmospheres of K2-18 b and other hycean candidates admit wavelengths of light that cause elevated surface temperatures and increased water evaporation. Unlike earlier assessments, Tsai et al.'s calculations therefore placed the inner edge for these planets' HZ as far out as 3.85 AU.",
+    "passage": "Based on the texts, how would Tsai et al. (Text 2) most likely respond to Madhusudhan et al.'s research, as presented in Text 1?\nText 1\nHycean planets are a class of exoplanets (planets outside our solar system) with oceans of liquid water--critical to supporting life--and atmospheres rich in hydrogen. Computer models have determined that for potential hycean planets, the range of the habitable zone (HZ), the distance from a star that allows a planet to retain liquid water on its surface, begins at about 1 astronomical unit (AU). In 2021, Nikku Madhusudhan et al. identified K2-18 b as a hycean candidate, noting that the planet is located right on the inner edge of the HZ.\nText 2\nIn a 2023 paper, Shang-Min Tsai et al. claimed that the hydrogen-rich atmospheres of K2-18 b and other hycean candidates admit wavelengths of light that cause elevated surface temperatures and increased water evaporation. Unlike earlier assessments, Tsai et al.'s calculations therefore placed the inner edge for these planets' HZ as far out as 3.85 AU.",
     "question_text": "Based on the texts, how would Tsai et al. (Text 2) most likely respond to Madhusudhan et al.'s research, as presented in Text 1?",
     "choices": [
       {
@@ -301,7 +301,7 @@
     "difficulty": "Hard",
     "question_number": 10,
     "test_name": "Module Source 087 Eng M2",
-    "passage": "Which finding, if true, would most directly illustrate the researchers' finding?\nAdelaide, Australia, has installed engineered structures along 53% of its shoreline to protect infrastructure from wave erosion and other hazards, a practice known as shoreline hardening. To evaluate the responses of waterbirds to two types of hardening structures—riprap and bulkheads—Diann Prosser et al. surveyed waterbird communities consisting of the brown pelican, the red knot, and 62 other species at different sites in the Chesapeake Bay on the US East Coast. Utilizing the Index of Waterbird Community Integrity (WCI), on which a high score corresponds to high community integrity, the researchers found that bulkheads are more strongly negatively correlated with waterbird community integrity than is riprap.",
+    "passage": "Which finding, if true, would most directly illustrate the researchers' finding?\nAdelaide, Australia, has installed engineered structures along 53% of its shoreline to protect infrastructure from wave erosion and other hazards, a practice known as shoreline hardening. To evaluate the responses of waterbirds to two types of hardening structures--riprap and bulkheads--Diann Prosser et al. surveyed waterbird communities consisting of the brown pelican, the red knot, and 62 other species at different sites in the Chesapeake Bay on the US East Coast. Utilizing the Index of Waterbird Community Integrity (WCI), on which a high score corresponds to high community integrity, the researchers found that bulkheads are more strongly negatively correlated with waterbird community integrity than is riprap.",
     "question_text": "Which finding, if true, would most directly illustrate the researchers' finding?",
     "choices": [
       {
@@ -404,7 +404,7 @@
     "difficulty": "Medium",
     "question_number": 13,
     "test_name": "Module Source 087 Eng M2",
-    "passage": "Which choice most logically completes the text?\nConsumers increasingly expect that goods they purchase online will be delivered rapidly, even as soon as the day of purchase. Although efficiencies in long-distance transport of parcels have greatly improved delivery times, last-mile logistics (the final step in delivering goods to consumers) present a bottleneck for delivery companies. Time pressure resulting from consumer expectations is not the only challenge; other obstacles, such as complex and inefficient delivery routes, persist. While innovations to mitigate these challenges have been emerging—the use of autonomous delivery robots, for instance—success has been constrained due to the additional complications that arise (e.g., robots travel relatively slowly since they must navigate many ground-level obstacles). Consequently, ______",
+    "passage": "Which choice most logically completes the text?\nConsumers increasingly expect that goods they purchase online will be delivered rapidly, even as soon as the day of purchase. Although efficiencies in long-distance transport of parcels have greatly improved delivery times, last-mile logistics (the final step in delivering goods to consumers) present a bottleneck for delivery companies. Time pressure resulting from consumer expectations is not the only challenge; other obstacles, such as complex and inefficient delivery routes, persist. While innovations to mitigate these challenges have been emerging--the use of autonomous delivery robots, for instance--success has been constrained due to the additional complications that arise (e.g., robots travel relatively slowly since they must navigate many ground-level obstacles). Consequently, ______",
     "question_text": "Which choice most logically completes the text?",
     "choices": [
       {
@@ -500,7 +500,7 @@
     "difficulty": "Hard",
     "question_number": 16,
     "test_name": "Module Source 087 Eng M2",
-    "passage": "Which choice most logically completes the text?\nThe ratio of methane to other atmosphere constituents—represented by a measure called the methane mole fraction—influences a variety of meteorological phenomena, notably precipitation and humidity. For Titan, Saturn's largest moon, the observational data that exist are too sparse and discrepant to fully constrain the range of the methane mole fraction at various atmospheric levels. Juan Lora and colleagues point out that outputs of the IPSL atmospheric model of Titan, which track closely to observations in some respects, reflect how the model's developers responded to this challenge: by prescribing a uniform methane mole fraction for the lowest level of the atmosphere. It is therefore important to note that ______",
+    "passage": "Which choice most logically completes the text?\nThe ratio of methane to other atmosphere constituents--represented by a measure called the methane mole fraction--influences a variety of meteorological phenomena, notably precipitation and humidity. For Titan, Saturn's largest moon, the observational data that exist are too sparse and discrepant to fully constrain the range of the methane mole fraction at various atmospheric levels. Juan Lora and colleagues point out that outputs of the IPSL atmospheric model of Titan, which track closely to observations in some respects, reflect how the model's developers responded to this challenge: by prescribing a uniform methane mole fraction for the lowest level of the atmosphere. It is therefore important to note that ______",
     "question_text": "Which choice most logically completes the text?",
     "choices": [
       {
@@ -596,7 +596,7 @@
     "difficulty": "Medium",
     "question_number": 19,
     "test_name": "Module Source 087 Eng M2",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe 2020 documentary *Without a Whisper—Konnon: Kwe* was directed by Katsitsionni Fox. It explores how Indigenous Haudenosaunee culture shaped the woman suffrage movement in the early nineteenth ______ how the personal and political authority Haudenosaunee women had in their communities influenced the first suffragists in the US.",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe 2020 documentary *Without a Whisper--Konnon: Kwe* was directed by Katsitsionni Fox. It explores how Indigenous Haudenosaunee culture shaped the woman suffrage movement in the early nineteenth ______ how the personal and political authority Haudenosaunee women had in their communities influenced the first suffragists in the US.",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {
@@ -628,7 +628,7 @@
     "difficulty": "Hard",
     "question_number": 20,
     "test_name": "Module Source 087 Eng M2",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAlthough 39P/Oterma and 83982 Crantor are both classified as centaur objects—outer solar system bodies in unstable orbits—they exhibit striking differences in ______ object 39P/Oterma is considered an active centaur, showing sporadic comet-like activity (such as clouds of dust and gas on its surface), 83982 Crantor, showing no such activity, is considered dormant.",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAlthough 39P/Oterma and 83982 Crantor are both classified as centaur objects--outer solar system bodies in unstable orbits--they exhibit striking differences in ______ object 39P/Oterma is considered an active centaur, showing sporadic comet-like activity (such as clouds of dust and gas on its surface), 83982 Crantor, showing no such activity, is considered dormant.",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {

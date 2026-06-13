@@ -1,1 +1,15 @@
-{"questionId": "59e41600", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical need", "content": "The sentence has &quot;Scientists&quot; as its subject but no main verb yet &mdash; the blank must supply a finite (tensed) verb that governs the that-clause beginning with &quot;that the secret...&quot;"}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; 'explain'</strong>: A finite present-tense verb that agrees with the plural subject &quot;Scientists&quot; and correctly governs the that-clause. &#10003;</li><li><strong>Choice B &mdash; 'having explained'</strong>: A nonfinite perfect participle; it cannot serve as the main verb of an independent clause, violating the finite verb rule. &#10007;</li><li><strong>Choice C &mdash; 'explaining'</strong>: A nonfinite present participle; it cannot serve as the main verb of an independent clause, violating the finite verb rule. &#10007;</li><li><strong>Choice D &mdash; 'to explain'</strong>: A nonfinite to-infinitive; it cannot serve as the main verb of an independent clause, violating the finite verb rule. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "59e41600",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical need",
+      "content": "The sentence has &quot;Scientists&quot; as its subject but no main verb yet &mdash; the blank must supply a finite (tensed) verb that governs the that-clause beginning with &quot;that the secret...&quot;"
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;explain&rsquo;</strong>: A finite present-tense verb that agrees with the plural subject &quot;Scientists&quot; and correctly governs the that-clause. &#10003;</li><li><strong>Choice B &mdash; &lsquo;having explained&rsquo;</strong>: A nonfinite perfect participle; it cannot serve as the main verb of an independent clause, violating the finite verb rule. &#10007;</li><li><strong>Choice C &mdash; &lsquo;explaining&rsquo;</strong>: A nonfinite present participle; it cannot serve as the main verb of an independent clause, violating the finite verb rule. &#10007;</li><li><strong>Choice D &mdash; &lsquo;to explain&rsquo;</strong>: A nonfinite to-infinitive; it cannot serve as the main verb of an independent clause, violating the finite verb rule. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

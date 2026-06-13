@@ -38,7 +38,7 @@
     "difficulty": "Easy",
     "question_number": 2,
     "test_name": "Module Source 095 Math M1",
-    "passage": "Which expression is equivalent to $13(x^{2}-7)$?",
+    "passage": "Which expression is equivalent to $13\\left(x^{2}-7\\right)$?",
     "question_text": null,
     "choices": [
       {
@@ -134,7 +134,7 @@
     "difficulty": "Easy",
     "question_number": 5,
     "test_name": "Module Source 095 Math M1",
-    "passage": "For certain air temperatures, the table gives wind chill temperatures for two different wind speeds.\nAccording to the table, what is the wind chill temperature, in degrees Fahrenheit ($\\text{°F}$), when the air temperature is 26$\\text{°F}$ and the wind speed is 15 miles per hour (mph)? (Disregard the degree symbol when entering your answer)",
+    "passage": "For certain air temperatures, the table gives wind chill temperatures for two different wind speeds.\nAccording to the table, what is the wind chill temperature, in degrees Fahrenheit (${}^{\\circ}\\text{F}$), when the air temperature is $26^{\\circ}\\text{F}$ and the wind speed is 15 miles per hour (mph)? (Disregard the degree symbol when entering your answer)",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -362,7 +362,7 @@
     "difficulty": "Medium",
     "question_number": 12,
     "test_name": "Module Source 095 Math M1",
-    "passage": "In the right triangle shown, the value of tan x° is $\\frac{c}{39}$. What is the value of c?",
+    "passage": "In the right triangle shown, the value of $\\tan x^\\circ$ is $\\frac{c}{39}$. What is the value of $c$?",
     "question_text": null,
     "choices": [
       {
@@ -525,7 +525,7 @@
     "difficulty": "Easy",
     "question_number": 19,
     "test_name": "Module Source 095 Math M1",
-    "passage": "The function $h$ is defined by $h(x) = 14(2) - x + 7$. What is the value of $h(3)$?",
+    "passage": "The function $h$ is defined by $h(x)=14(2)^{-x}+7$. What is the value of $h(3)$?",
     "question_text": null,
     "choices": [
       {

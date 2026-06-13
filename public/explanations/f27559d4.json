@@ -1,1 +1,15 @@
-{"questionId": "f27559d4", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The passage states volunteering helps society overall. But the survey contradicts this perception: most young people recognize only individual benefits, while only 6% see societal value. This gap between what <em>is</em> true and what most young people <em>believe</em> is the decisive clue."}, {"title": "Match the meaning", "content": "Choice B works because the survey reveals young people underestimate volunteering's impact—only 6% see the societal benefit that the passage claims is real.<br/><br/>This gap means volunteering is more helpful than they think.<br/><br/>The others miss the mark: <ul><li>A treats individual/societal as geography (not the issue)</li><li>C invents a magnitude ranking not in the data</li><li>D shifts from perception to access barriers</li></ul>.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "f27559d4",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The passage states volunteering helps society overall. But the survey contradicts this perception: most young people recognize only individual benefits, while only 6% see societal value. This gap between what <em>is</em> true and what most young people <em>believe</em> is the decisive clue."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "<strong>volunteering may be even more helpful than many young people think it is.</strong> works because the survey reveals young people underestimate volunteering's impact—only 6% see the societal benefit that the passage claims is real.<br/><br/>This gap means volunteering is more helpful than they think.<br/><br/>The others miss the mark: <ul><li>A treats individual/societal as geography (not the issue)</li><li>C invents a magnitude ranking not in the data</li><li>D shifts from perception to access barriers</li></ul>.<br/><br/>That matches the correct answer — <strong>B</strong> is correct."
+    }
+  ]
+}

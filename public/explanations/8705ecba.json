@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Calculate the sales tax amount",
-      "content": "Sales tax equals 5% of the original price. Calculate: $$0.05 \\times \\$20 = \\$1$$"
+      "content": "Sales tax equals 5% of the original price. Calculate: $0.05 \\times 20 = 1$, so the sales tax is \\$1."
     },
     {
       "title": "Add the tax to the original price",
-      "content": "Total cost equals the original price plus sales tax: $$\\$20 + \\$1 = \\$21$$ That matches choice C — <strong>C</strong> is correct."
+      "content": "Total cost equals the original price plus sales tax: $20 + 1 = 21$. The choices are dollar amounts, so the matching total is \\$21.00, not just the tax amount or the pre-tax price. The total cost is \\$21, so <strong>C</strong> is correct."
     }
   ]
 }

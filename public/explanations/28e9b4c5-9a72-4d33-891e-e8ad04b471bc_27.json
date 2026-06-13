@@ -1,1 +1,15 @@
-{"questionId":"28e9b4c5-9a72-4d33-891e-e8ad04b471bc_27","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The goal is to make and support a claim about the inspiration for kumiko patterns. A strong answer must (1) state what inspires the patterns and (2) provide specific evidence from the notes that backs that claim."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'wooden strips as inspiration'</strong>: Misidentifies the source of inspiration as the construction material rather than nature. Wrong claim. &#10007;</li><li><strong>Choice B &mdash; 'construction details...'</strong>: Focuses on how kumiko is built, not what inspires its patterns. Fails the inspiration requirement. &#10007;</li><li><strong>Choice C &mdash; no inspiration claim'</strong>: Describes kumiko patterns without ever stating what inspires them. Incomplete. &#10007;</li><li><strong>Choice D &mdash; 'nature inspires... seigaiha resembles ocean waves'</strong>: States the claim (geometric patterns inspired by nature) and supports it with a specific example from the notes (the seigaiha pattern's curved fan shapes resembling ocean waves). &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "28e9b4c5-9a72-4d33-891e-e8ad04b471bc_27",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The goal is to make and support a claim about the inspiration for kumiko patterns. A strong answer must (1) state what inspires the patterns and (2) provide specific evidence from the notes that backs that claim."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; The tortoiseshell-like overlapping hexagons of the kikko pattern are inspired by wooden strips from nature.</strong>: Misidentifies the source of inspiration as the construction material rather than nature. Wrong claim. &#10007;</li><li><strong>Choice B &mdash; Often resembling elements from nature, kumiko patterns are formed by fitting thin strips of wood together without the use of nails.</strong>: Focuses on how kumiko is built, not what inspires its patterns. Fails the inspiration requirement. &#10007;</li><li><strong>Choice C &mdash; The kumiko woodworking technique is used to create latticed panels with geometric designs, like overlapping hexagons, out of thin strips of wood.</strong>: Describes kumiko patterns without ever stating what inspires them. Incomplete. &#10007;</li><li><strong>Choice D &mdash; Like the seigaiha pattern's curved fan shapes, which resemble ocean waves, many of the geometric patterns used in kumiko designs are inspired by elements from nature.</strong>: States the claim (geometric patterns inspired by nature) and supports it with a specific example from the notes (the seigaiha pattern's curved fan shapes resembling ocean waves). &#10003;</li></ul>That matches <strong>Choice D &mdash; Like the seigaiha pattern's curved fan shapes, which resemble ocean waves, many of the geometric patterns used in kumiko designs are inspired by elements from nature.</strong>."
+    }
+  ]
+}

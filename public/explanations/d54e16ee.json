@@ -1,1 +1,15 @@
-{"questionId": "d54e16ee", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the parallel structure", "content": "The passage first describes a product monopsony (single buyer forces lower prices), then introduces a labor monopsony scenario with a parallel effect (employers force lower wages).<br/><br/>The structure compares two equivalent cases with the same underlying dynamic, signaling that we need a transition showing similarity or parallel relationship."}, {"title": "Select the transition signaling similarity", "content": "<strong>Similarly</strong> directly indicates that labor monopsony operates parallel to product monopsony—just as the single buyer forces lower prices in one case, employers force lower wages in the other.<br/><br/>Earlier implies a time sequence not present in the text; Instead suggests contrast that contradicts the parallel structure; and In particular treats labor monopsony as a specific example rather than a parallel case.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "d54e16ee",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the parallel structure",
+      "content": "The passage first describes a product monopsony (single buyer forces lower prices), then introduces a labor monopsony scenario with a parallel effect (employers force lower wages).<br/><br/>The structure compares two equivalent cases with the same underlying dynamic, signaling that we need a transition showing similarity or parallel relationship."
+    },
+    {
+      "title": "Select the transition signaling similarity",
+      "content": "<strong>Similarly,</strong> is correct."
+    }
+  ]
+}

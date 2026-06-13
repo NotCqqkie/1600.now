@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the complementary angle pair",
-      "content": "<strong>Shortcut (sin/cos):</strong> In a right triangle, the two acute angles always add to 90°, making them complementary. In right triangle RST, angles R and S satisfy $R + S = 90°$."
+      "content": "<strong>Shortcut (sin/cos):</strong> In a right triangle, the two acute angles always add to 90°, making them complementary. In right triangle RST, angles R and S satisfy $R + S = 90^{\\circ}$."
     },
     {
       "title": "Apply the co-function identity directly",
-      "content": "When two angles are complementary, $\\sin(R) = \\cos(S)$. We're given $\\sin(R) = \\dfrac{2\\sqrt{10}}{7}$, so $\\cos(S) = \\dfrac{2\\sqrt{10}}{7}$. That matches choice B — <strong>B</strong> is correct."
+      "content": "When two angles are complementary, $\\sin(R) = \\cos(S)$. We're given $\\sin(R) = \\dfrac{2\\sqrt{10}}{7}$, so $\\cos(S) = \\dfrac{2\\sqrt{10}}{7}$. That confirms <strong>B</strong> is correct."
     }
   ]
 }

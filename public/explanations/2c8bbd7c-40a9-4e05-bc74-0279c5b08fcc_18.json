@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Apply the triangle inequality",
-      "content": "With sides 8 and 13, the third side $x$ must satisfy $x \\lt 8+13=21$ and $x > |8-13|=5$."
+      "content": "With sides 8 and 13, the third side $x$ must satisfy $x \\lt 8+13=21$ and $x \\gt  |8-13|=5$."
     },
     {
       "title": "Combine the two bounds",
@@ -13,11 +13,11 @@
     },
     {
       "title": "Match the answer",
-      "content": "That matches choice <strong>C</strong> — <strong>C</strong> is correct."
+      "content": "<strong>C</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice C, $5 \\lt x \\lt 21$. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches the correct answer, $5 \\lt x \\lt 21$. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
     }
   ]
 }

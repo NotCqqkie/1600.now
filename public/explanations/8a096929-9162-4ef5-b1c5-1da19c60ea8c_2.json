@@ -17,7 +17,7 @@
     },
     {
       "title": "Evaluate all choices against the graph",
-      "content": "<ul><li>A: $(-1, 5)$ — matches the intersection point read from the graph.</li><li>B: $(0, 0)$ — the origin; neither curve passes through the origin at an intersection. Eliminated.</li><li>C: $(0, 9)$ — the y-intercept of the parabola only, not an intersection with the line. Eliminated.</li><li>D: $(-2.4, 0)$ — an x-intercept of the parabola but not an intersection with the line. Eliminated.</li></ul>That matches choice A — <strong>A</strong> is correct."
+      "content": "<ul><li>A: $(-1, 5)$ — matches the intersection point read from the graph.</li><li>B: $(0, 0)$ — the origin; neither curve passes through the origin at an intersection. Eliminated.</li><li>C: $(0, 9)$ — the y-intercept of the parabola only, not an intersection with the line. Eliminated.</li><li>D: $(-2.4, 0)$ — an x-intercept of the parabola but not an intersection with the line. Eliminated.</li></ul>That confirms <strong>A</strong> is correct."
     }
   ]
 }

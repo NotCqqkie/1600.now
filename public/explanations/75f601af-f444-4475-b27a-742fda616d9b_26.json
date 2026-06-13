@@ -1,1 +1,15 @@
-{"questionId":"75f601af-f444-4475-b27a-742fda616d9b_26","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The notes give two numbers: all fifty state constitutions have voting rights clauses, but only thirty have free-elections clauses. The student wants to use these notes to make a claim about free-elections clauses specifically."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'voting rights are conferred universally but free and fair elections aren&apos;t mandated with the same consistency'</strong>: correctly captures the 50-vs-30 contrast and applies it to a meaningful generalization about free-elections clauses. &#10003;</li><li><strong>Choice B &mdash; 'all state constitutions contain free-elections clauses'</strong>: directly contradicts the notes (only 30 out of 50 do). &#10007;</li><li><strong>Choice C</strong>: focuses on voting rights clauses without mentioning free-elections clauses at all, ignoring the key data point. &#10007;</li><li><strong>Choice D</strong>: shifts the focus to legislation rather than constitutional clauses, which is outside the scope of the notes. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "75f601af-f444-4475-b27a-742fda616d9b_26",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The notes give two numbers: all fifty state constitutions have voting rights clauses, but only thirty have free-elections clauses. The student wants to use these notes to make a claim about free-elections clauses specifically."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Although all states' constitutions have clauses conferring the right to vote, free and fair elections aren't mandated with the same consistency.&rsquo;</strong>: correctly captures the 50-vs-30 contrast and applies it to a meaningful generalization about free-elections clauses. &#10003;</li><li><strong>Choice B &mdash; &lsquo;Every state constitution has some form of a free-elections clause, by which a state confers voting rights on eligible citizens.&rsquo;</strong>: directly contradicts the notes (only 30 out of 50 do). &#10007;</li><li><strong>Choice C &mdash; &lsquo;States bear most of the responsibility for establishing voting rights and conducting fair elections.&rsquo;</strong>: focuses on voting rights clauses without mentioning free-elections clauses at all, ignoring the key data point. &#10007;</li><li><strong>Choice D &mdash; &lsquo;In addition to constitutional provisions such as free-elections clauses, state lawmakers provide election guidance by means of legislation.&rsquo;</strong>: shifts the focus to legislation rather than constitutional clauses, which is outside the scope of the notes. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

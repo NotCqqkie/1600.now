@@ -17,7 +17,7 @@
     },
     {
       "title": "Compare the means and select the correct choice",
-      "content": "Both data sets have the same number of values, so comparing means is the same as comparing their weighted sums. Since $1{,}094>958$, data set A has the greater mean. That matches choice <strong>A</strong>."
+      "content": "Both data sets have the same number of values, so comparing means is the same as comparing their weighted sums. Since $1{,}094\\gt958$, data set A has the greater mean. That matches <strong>A</strong>."
     }
   ]
 }

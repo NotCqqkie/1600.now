@@ -203,19 +203,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$8x+4y=32$\n$-10x-4y=-64$"
+        "text": "$8x+4y=32$ $-10x-4y=-64$"
       },
       {
         "label": "B",
-        "text": "$8x-4y=32$\n$-10x+4y=-64$"
+        "text": "$8x-4y=32$ $-10x+4y=-64$"
       },
       {
         "label": "C",
-        "text": "$4x-10y=32$\n$-8x+10y=-64$"
+        "text": "$4x-10y=32$ $-8x+10y=-64$"
       },
       {
         "label": "D",
-        "text": "$4x+10y=32$\n$-8x-10y=-64$"
+        "text": "$4x+10y=32$ $-8x-10y=-64$"
       }
     ],
     "is_fill_in_blank": false,
@@ -442,7 +442,7 @@
     "difficulty": "Medium",
     "question_number": 17,
     "test_name": "Module Source 101 Math M2",
-    "passage": "If $121x^2 = -110x + 56$, what is the value of $11x + 5$, where $11x + 5 > 0$?",
+    "passage": "If $121x^2 = -110x + 56$, what is the value of $11x + 5$, where $11x + 5 \\gt 0$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -525,7 +525,7 @@
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
-    "correct_answer": "7/16",
+    "correct_answer": "No solution",
     "rationale": null,
     "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_20"
   },

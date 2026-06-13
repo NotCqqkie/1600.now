@@ -13,7 +13,7 @@
     },
     {
       "title": "Check against the choices",
-      "content": "Choices B and C have slope $-0.1$, which is much too flat. Choice A has the right slope size but starts at $80$, too low for the trend. Choice D, $y=90-10x$, has the right intercept and slope, so <strong>D</strong> is correct."
+      "content": "The choices with slope $-0.1$ are much too flat. The model $y=80-10x$ has the right slope size but starts at $80$, too low for the trend. The model $y=90-10x$ has the right intercept and slope, so <strong>D</strong> is correct."
     }
   ]
 }

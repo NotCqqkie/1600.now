@@ -1,1 +1,15 @@
-{"questionId":"6af96c1c-ea52-4b92-a15c-9c8a703443c6_20","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence lists three destinations in a series, and each item contains an internal comma (a &quot;where&quot; clause). The question asks which punctuation option handles that correctly."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; comma before &apos;and&apos;</strong>: keeps all separators as commas. When items in a series already contain commas, using commas to separate them creates ambiguity about where one item ends and the next begins. &#10007;</li><li><strong>Choice B &mdash; semicolon before &apos;and to Moree&apos;</strong>: places semicolons between the three items, which is the standard rule for a &quot;complex series&quot; (items with internal punctuation). Produces: <em>&quot;drove to Wellington, where they interviewed locals; to Walgett, where they picketed a segregated cinema; and to Moree, where they staged a protest at a segregated public pool.&quot;</em> &#10003;</li><li><strong>Choice C &mdash; semicolon in wrong position</strong>: places the semicolon after &quot;cinema&quot; but before &quot;and,&quot; breaking the parallel structure unevenly. &#10007;</li><li><strong>Choice D &mdash; colon</strong>: a colon introduces a list or elaboration but is not used to separate items within a series. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_20",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence lists three destinations in a series, and each item contains an internal comma (a &quot;where&quot; clause). The question asks which punctuation option handles that correctly."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;cinema and to Moree;&rsquo;</strong>: keeps all separators as commas. When items in a series already contain commas, using commas to separate them creates ambiguity about where one item ends and the next begins. &#10007;</li><li><strong>Choice B &mdash; &lsquo;cinema; and to Moree,&rsquo;</strong>: places semicolons between the three items, which is the standard rule for a &quot;complex series&quot; (items with internal punctuation). Produces: <em>&quot;drove to Wellington, where they interviewed locals; to Walgett, where they picketed a segregated cinema; and to Moree, where they staged a protest at a segregated public pool.&quot;</em> &#10003;</li><li><strong>Choice C &mdash; &lsquo;cinema, and to Moree&rsquo;</strong>: places the semicolon after &quot;cinema&quot; but before &quot;and,&quot; breaking the parallel structure unevenly. &#10007;</li><li><strong>Choice D &mdash; &lsquo;cinema: and to Moree,&rsquo;</strong>: a colon introduces a list or elaboration but is not used to separate items within a series. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

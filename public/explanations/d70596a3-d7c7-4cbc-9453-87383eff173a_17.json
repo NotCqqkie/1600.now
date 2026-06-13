@@ -1,1 +1,15 @@
-{"questionId": "d70596a3-d7c7-4cbc-9453-87383eff173a_17", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the structure after the blank", "content": "The phrase &quot;the former establishing a Latino rights advocacy group and the latter legally affirming the rights of Latino students&quot; is a noun phrase that renames and explains &quot;civil rights history.&quot; This is a non-restrictive appositive &mdash; it adds extra information about the events already named. A comma is needed before it; no additional connecting word is required.<ul><li><strong>Choice A &mdash; 'history the'</strong>: no comma before the appositive &mdash; the two clauses run together without any separation. &#10007;</li><li><strong>Choice B &mdash; 'history, as the'</strong>: adds &quot;as,&quot; turning the appositive into an adverbial clause, which distorts the meaning. &#10007;</li><li><strong>Choice C &mdash; 'history, the'</strong>: a single comma correctly introduces the appositive phrase, matching standard punctuation for non-restrictive appositives. &#10003;</li><li><strong>Choice D &mdash; 'history. The'</strong>: a period creates two sentences, but &quot;the former... the latter&quot; has no complete verb and cannot stand alone as a sentence. &#10007;</li></ul>"}, {"title": "Confirm the answer", "content": "A comma before &quot;the&quot; is the only punctuation that correctly attaches the appositive to the main clause without adding an incorrect word or breaking the sentence. That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "d70596a3-d7c7-4cbc-9453-87383eff173a_17",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the structure after the blank",
+      "content": "The phrase \"the former establishing a Latino rights advocacy group and the latter legally affirming the rights of Latino students\" is a noun phrase that renames and explains \"civil rights history.\" This is a non-restrictive appositive &mdash; it adds extra information about the events already named. A comma is needed before it; no additional connecting word is required.<ul><li><strong>\"history the\"</strong>: no comma before the appositive &mdash; the two clauses run together without any separation. &#10007;</li><li><strong>\"history, as the\"</strong>: adds \"as,\" turning the appositive into an adverbial clause, which distorts the meaning. &#10007;</li><li><strong>\"history, the\"</strong>: a single comma correctly introduces the appositive phrase, matching standard punctuation for non-restrictive appositives. &#10003;</li><li><strong>\"history. The\"</strong>: a period creates two sentences, but \"the former... the latter\" has no complete verb and cannot stand alone as a sentence. &#10007;</li></ul>"
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "A comma before \"the\" is the only punctuation that correctly attaches the appositive to the main clause without adding an incorrect word or breaking the sentence. That matches the correct answer — <strong>C</strong> is correct."
+    }
+  ]
+}

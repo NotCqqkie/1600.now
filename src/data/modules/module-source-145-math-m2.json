@@ -198,7 +198,7 @@
     "difficulty": "Medium",
     "question_number": 7,
     "test_name": "Module Source 145 Math M2",
-    "passage": "$r=\\sqrt{9w-5}$\nThe given equation relates the real numbers $r$ and $w$, where $w > \\frac{5}{9}$. Which equation correctly expresses $w$ in terms of $r$?",
+    "passage": "$r=\\sqrt{9w-5}$\nThe given equation relates the real numbers $r$ and $w$, where $w \\gt \\frac{5}{9}$. Which equation correctly expresses $w$ in terms of $r$?",
     "question_text": null,
     "choices": [
       {
@@ -494,24 +494,24 @@
     "difficulty": "Medium",
     "question_number": 20,
     "test_name": "Module Source 145 Math M2",
-    "passage": "$7x + 5y = 2$\nThe given equation is one equation in a system of two linear equations. If the system of equations has at least one solution, which of the following equations could be the other equation in the system?\nⅠ. $10.5x + 7.5y = 3$\nⅡ. $10.5x - 7.5y = 3$",
+    "passage": "$7x + 5y = 2$\nThe given equation is one equation in a system of two linear equations. If the system of equations has at least one solution, which of the following equations could be the other equation in the system?\nI. $10.5x + 7.5y = 3$\nII. $10.5x - 7.5y = 3$",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "Ⅰ only"
+        "text": "I only"
       },
       {
         "label": "B",
-        "text": "Ⅱ only"
+        "text": "II only"
       },
       {
         "label": "C",
-        "text": "Ⅰ and Ⅱ"
+        "text": "I and II"
       },
       {
         "label": "D",
-        "text": "Neither Ⅰ nor Ⅱ"
+        "text": "Neither I nor II"
       }
     ],
     "is_fill_in_blank": false,

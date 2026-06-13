@@ -1,4 +1,5 @@
 {
+  "questionId": "6e06a0a7",
   "qid": "6e06a0a7",
   "correctAnswer": "D",
   "steps": [
@@ -9,7 +10,7 @@
       "explain": "$2a^2\\cdot a=2a^{2+1}=2a^3$. $2a^2\\cdot3=6a^2$. Result: $2a^3+6a^2$."
     },
     {
-      "explain": "Evaluate choices:<ul><li>A ($5a^3$): adding exponents incorrectly and combining unlike terms — eliminated.</li><li>B ($8a^5$): multiplying everything incorrectly — eliminated.</li><li>C ($2a^3+3$): dropped the $a^2$ on the second term — eliminated.</li><li>D ($2a^3+6a^2$): matches exactly. That matches choice D — <strong>D</strong> is correct.</li></ul>"
+      "explain": "Evaluate choices:<ul><li>A ($5a^3$): adding exponents incorrectly and combining unlike terms — eliminated.</li><li>B ($8a^5$): multiplying everything incorrectly — eliminated.</li><li>C ($2a^3+3$): dropped the $a^2$ on the second term — eliminated.</li><li>D ($2a^3+6a^2$): matches exactly. That confirms <strong>D</strong> is correct.</li></ul>"
     }
   ]
 }

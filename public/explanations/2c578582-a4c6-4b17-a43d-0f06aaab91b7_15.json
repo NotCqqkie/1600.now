@@ -9,7 +9,7 @@
     },
     {
       "title": "Count solutions of the exponential equation",
-      "content": "Because $a > 6$, the base $\\frac{a}{6} > 1$, so $\\left(\\frac{a}{6}\\right)^{x+c}$ is a strictly increasing, continuous function of $x$ with range $(0, \\infty)$. Since $b > 0$, the target $\\frac{b}{9}$ is a positive real number, which lies in $(0, \\infty)$. A strictly increasing function hits each value in its range exactly once, so there is exactly <strong>one</strong> solution. (The condition $b > c$ plays no role in the count.)<br/><br/>That matches choice B."
+      "content": "Because $a \\gt  6$, the base $\\frac{a}{6} \\gt  1$, so $\\left(\\frac{a}{6}\\right)^{x+c}$ is a strictly increasing, continuous function of $x$ with range $(0, \\infty)$. Since $b \\gt  0$, the target $\\frac{b}{9}$ is a positive real number, which lies in $(0, \\infty)$. A strictly increasing function hits each value in its range exactly once, so there is exactly <strong>one</strong> solution. (The condition $b \\gt  c$ plays no role in the count.)<br/><br/>The result matches."
     }
   ]
 }

@@ -10,7 +10,7 @@
     },
     {
       "title": "Substitute the given values and calculate",
-      "content": "With base $b = 10$ cm and height $h = 70$ cm:<br/>$$A = \\frac{1}{2} \\cdot 10 \\cdot 70$$<br/>$$A = \\frac{700}{2} = 350$$<br/>That matches choice B — <strong>B</strong> is correct."
+      "content": "With base $b = 10$ cm and height $h = 70$ cm:<br/>$$A = \\frac{1}{2} \\cdot 10 \\cdot 70$$<br/>$$A = \\frac{700}{2} = 350$$<br/>That confirms <strong>B</strong> is correct."
     }
   ]
 }

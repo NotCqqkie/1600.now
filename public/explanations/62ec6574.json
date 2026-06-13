@@ -14,7 +14,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; '48t + 160'</strong>: This is only 2(lw + lh) &mdash; it omits the two wh faces entirely. &#10007;</li><li><strong>Choice B &mdash; '318t + 80'</strong>: Equals 2(159t + 40) = 2(24t + 40 + 135t), accounting for all three pairs of faces. &#10003;</li><li><strong>Choice C &mdash; '1,968t + 80'</strong>: Far too large; likely from a multiplication error with the width. &#10007;</li><li><strong>Choice D &mdash; '360t'</strong>: Has no constant term, but lh = 40 is a constant, so the surface area must include a constant. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;$48t+160$&rsquo;</strong>: This is only 2(lw + lh) &mdash; it omits the two wh faces entirely. &#10007;</li><li><strong>Choice B &mdash; &lsquo;$318t+80$&rsquo;</strong>: Equals 2(159t + 40) = 2(24t + 40 + 135t), accounting for all three pairs of faces. &#10003;</li><li><strong>Choice C &mdash; &lsquo;$1,968t+80$&rsquo;</strong>: Far too large; likely from a multiplication error with the width. &#10007;</li><li><strong>Choice D &mdash; &lsquo;$360t$&rsquo;</strong>: Has no constant term, but lh = 40 is a constant, so the surface area must include a constant. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
     }
   ]
 }

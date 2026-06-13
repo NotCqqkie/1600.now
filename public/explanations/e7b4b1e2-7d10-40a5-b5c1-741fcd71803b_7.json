@@ -1,1 +1,15 @@
-{"questionId": "e7b4b1e2-7d10-40a5-b5c1-741fcd71803b_7", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what became uncertain", "content": "The passage says Bellamy claimed to have written the pledge in August 1892. A historian then found a newspaper article from several months earlier describing students reciting the same pledge. The passage concludes: &quot;Bellamy may not have created the pledge after all.&quot; What was once accepted as fact — that Bellamy was the original author — is now in doubt."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; 'How many changes were made to the pledge in the 1900s.'</strong>: The passage never mentions changes made after 1892. &#10007;</li><li><strong>Choice B &mdash; 'Which part of the pledge students liked best in 1892.'</strong>: Student preferences are never discussed in the passage. &#10007;</li><li><strong>Choice C &mdash; 'The name of the newspaper that first published the pledge.'</strong>: The passage mentions a newspaper article was discovered but does not raise doubt about the newspaper's name. &#10007;</li><li><strong>Choice D &mdash; 'The identity of the person who first wrote the pledge.'</strong>: The new evidence directly calls into question whether Bellamy was truly the original author — exactly what became uncertain. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "e7b4b1e2-7d10-40a5-b5c1-741fcd71803b_7",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what became uncertain",
+      "content": "The passage says Bellamy claimed to have written the pledge in August 1892. A historian then found a newspaper article from several months earlier describing students reciting the same pledge. The passage concludes: \"Bellamy may not have created the pledge after all.\" What was once accepted as fact — that Bellamy was the original author — is now in doubt."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>\"How many changes were made to the pledge in the 1900s.\"</strong>: The passage never mentions changes made after 1892. &#10007;</li><li><strong>\"Which part of the pledge students liked best in 1892.\"</strong>: Student preferences are never discussed in the passage. &#10007;</li><li><strong>\"The name of the newspaper that first published the pledge.\"</strong>: The passage mentions a newspaper article was discovered but does not raise doubt about the newspaper's name. &#10007;</li><li><strong>\"The identity of the person who first wrote the pledge.\"</strong>: The new evidence directly calls into question whether Bellamy was truly the original author — exactly what became uncertain. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

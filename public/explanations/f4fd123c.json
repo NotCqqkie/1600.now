@@ -1,1 +1,15 @@
-{"questionId": "f4fd123c", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the true subject and its number", "content": "The subject is <strong>The African Games Co-production Market</strong> &mdash; one singular entity. The intervening phrase &quot;one of over 180 annual international conferences supporting video game development&quot; is set off by commas and describes the subject; it does not change it. Strip the interrupter out: &quot;The African Games Co-production Market ______ the growth...&quot; &mdash; the verb must be singular."}, {"title": "Eliminate plural verbs and confirm the answer", "content": "Test each verb form for agreement with a singular subject:<ul><li><strong>Choice A &mdash; 'promote'</strong>: bare plural form &mdash; agrees with plural subjects like &quot;they&quot; or &quot;conferences,&quot; not with a singular noun. &#10007;</li><li><strong>Choice B &mdash; 'are promoting'</strong>: plural present progressive &mdash; &quot;are&quot; requires a plural subject; a singular subject takes &quot;is promoting.&quot; &#10007;</li><li><strong>Choice C &mdash; 'promotes'</strong>: singular simple present &mdash; the &quot;-s&quot; ending marks agreement with a third-person singular subject like &quot;The African Games Co-production Market.&quot; &#10003;</li><li><strong>Choice D &mdash; 'have promoted'</strong>: plural present perfect &mdash; &quot;have&quot; requires a plural subject; a singular subject takes &quot;has promoted.&quot; &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "f4fd123c",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the true subject and its number",
+      "content": "The subject is <strong>The African Games Co-production Market</strong> &mdash; one singular entity. The intervening phrase \"one of over 180 annual international conferences supporting video game development\" is set off by commas and describes the subject; it does not change it. Strip the interrupter out: \"The African Games Co-production Market ______ the growth...\" &mdash; the verb must be singular."
+    },
+    {
+      "title": "Eliminate plural verbs and confirm the answer",
+      "content": "Test each verb form for agreement with a singular subject:<ul><li><strong>\"promote\"</strong>: bare plural form &mdash; agrees with plural subjects like \"they\" or \"conferences,\" not with a singular noun. &#10007;</li><li><strong>\"are promoting\"</strong>: plural present progressive &mdash; \"are\" requires a plural subject; a singular subject takes \"is promoting.\" &#10007;</li><li><strong>\"promotes\"</strong>: singular simple present &mdash; the \"-s\" ending marks agreement with a third-person singular subject like \"The African Games Co-production Market.\" &#10003;</li><li><strong>\"have promoted\"</strong>: plural present perfect &mdash; \"have\" requires a plural subject; a singular subject takes \"has promoted.\" &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+    }
+  ]
+}

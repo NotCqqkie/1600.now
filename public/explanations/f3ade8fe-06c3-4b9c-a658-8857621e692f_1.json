@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up",
-      "content": "The question asks for $2(x-3)$ directly. From $44 = 6 + 2(x-3)$, isolate the target expression by subtracting $6$ from both sides."
+      "content": "The question asks for $\\left(2\\right)(x-3)$ directly. From $44 = 6 + 2(x-3)$, isolate the target expression by subtracting $6$ from both sides."
     },
     {
       "title": "Solve",
-      "content": "$44 - 6 = 2(x-3)$<br/>$2(x-3) = 38$"
+      "content": "$44 - 6 = 2(x-3)$<br/>$\\left(2\\right)(x-3) = 38$"
     },
     {
       "title": "Answer",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice C, $38$, and the other choices fail the same setup or substitution. Therefore <strong>C</strong> is correct."
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above is $38$, and the other choices fail the same setup or substitution. Therefore <strong>C</strong> is correct."
     }
   ]
 }

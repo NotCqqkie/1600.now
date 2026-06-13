@@ -9,7 +9,7 @@
     },
     {
       "title": "Locate the vertex",
-      "content": "For a downward-opening parabola, height is increasing for $x \\lt 2$ and decreasing for $x > 2$."
+      "content": "For a downward-opening parabola, height is increasing for $x \\lt 2$ and decreasing for $x \\gt  2$."
     },
     {
       "title": "Find the interval where height is increasing throughout",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Eliminate wrong choices, confirm the match",
-      "content": "<ul><li><strong>Choice A &mdash; 'From $x=0$ to $x=2$'</strong>: The entire interval is at or before the vertex. The object is rising throughout $[0,2]$. &#10003;</li><li><strong>Choice B &mdash; 'From $x=0$ to $x=4$'</strong>: The object peaks at $x=2$ and is falling from $x=2$ to $x=4$, so height is NOT increasing for the entire interval. &#10007;</li><li><strong>Choice C &mdash; 'From $x=2$ to $x=3$'</strong>: $x=2$ is the vertex (maximum). From that point onward the object is falling, so height is not increasing on this interval. &#10007;</li><li><strong>Choice D &mdash; 'From $x=3$ to $x=4$'</strong>: This is after the peak &mdash; the object is falling the entire time. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; From $x=0$ to $x=2$</strong>: The entire interval is at or before the vertex. The object is rising throughout $[0,2]$. &#10003;</li><li><strong>Choice B &mdash; From $x=0$ to $x=4$</strong>: The object peaks at $x=2$ and is falling from $x=2$ to $x=4$, so height is NOT increasing for the entire interval. &#10007;</li><li><strong>Choice C &mdash; From $x=2$ to $x=3$</strong>: $x=2$ is the vertex (maximum). From that point onward the object is falling, so height is not increasing on this interval. &#10007;</li><li><strong>Choice D &mdash; From $x=3$ to $x=4$</strong>: This is after the peak &mdash; the object is falling the entire time. &#10007;</li></ul>That matches <strong>Choice A &mdash; From $x=0$ to $x=2$</strong>."
     }
   ]
 }

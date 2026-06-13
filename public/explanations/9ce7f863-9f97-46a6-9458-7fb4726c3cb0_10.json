@@ -1,1 +1,15 @@
-{"questionId": "9ce7f863-9f97-46a6-9458-7fb4726c3cb0_10", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the relationship to support", "content": "The researcher claims higher latitude correlates with more ice days. Supporting data must show a higher-latitude lake with more ice days than a lower-latitude lake."}, {"title": "Match the relationship to the data", "content": "Choice D compares Näckten (higher latitude) to Lake Kegonsa (lower latitude) and shows Näckten had more ice days—exactly the pattern the researcher predicted.<br/><br/>The other choices either contradict this relationship (A) or provide numbers without establishing the latitude-ice comparison (B and C).<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "9ce7f863-9f97-46a6-9458-7fb4726c3cb0_10",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the relationship to support",
+      "content": "The researcher claims higher latitude correlates with more ice days. Supporting data must show a higher-latitude lake with more ice days than a lower-latitude lake."
+    },
+    {
+      "title": "Match the relationship to the data",
+      "content": "The correct answer compares Näckten (higher latitude) to Lake Kegonsa (lower latitude) and shows Näckten had more ice days—exactly the pattern the researcher predicted.<br/><br/>The other choices either contradict this relationship or provide numbers without establishing the latitude-ice comparison.<br/><br/>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

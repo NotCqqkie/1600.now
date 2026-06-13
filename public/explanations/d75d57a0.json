@@ -1,1 +1,15 @@
-{"questionId": "d75d57a0", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structure around the blank", "content": "The blank falls at the end of an introductory dependent clause. What follows is an independent clause. The rule for this structure is clear: place a comma after the dependent clause to separate it from the independent clause that follows. The blank must supply that comma after the word <em>lifelike</em>."}, {"title": "Eliminate each choice and confirm the answer", "content": "<ul><li><strong>Choice A &mdash; 'lifelike but'</strong>: Adding &quot;but&quot; after the dependent clause creates a conjunction that mangles the sentence structure; &quot;but&quot; is not needed here. &#10007;</li><li><strong>Choice B &mdash; 'lifelike'</strong>: No comma means no separation between the introductory dependent clause and the independent clause, violating standard punctuation. &#10007;</li><li><strong>Choice C &mdash; 'lifelike,'</strong>: The comma correctly separates the introductory dependent clause from the independent clause that follows. &#10003;</li><li><strong>Choice D &mdash; 'lifelike, but'</strong>: The comma is correct, but adding &quot;but&quot; introduces a redundant conjunction that creates a grammatical error. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "d75d57a0",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure around the blank",
+      "content": "The blank falls at the end of an introductory dependent clause. What follows is an independent clause. The rule for this structure is clear: place a comma after the dependent clause to separate it from the independent clause that follows. The blank must supply that comma after the word <em>lifelike</em>."
+    },
+    {
+      "title": "Eliminate each choice and confirm the answer",
+      "content": "<ul><li><strong>\"lifelike but\"</strong>: Adding \"but\" after the dependent clause creates a conjunction that mangles the sentence structure; \"but\" is not needed here. &#10007;</li><li><strong>\"lifelike\"</strong>: No comma means no separation between the introductory dependent clause and the independent clause, violating standard punctuation. &#10007;</li><li><strong>\"lifelike,\"</strong>: The comma correctly separates the introductory dependent clause from the independent clause that follows. &#10003;</li><li><strong>\"lifelike, but\"</strong>: The comma is correct, but adding \"but\" introduces a redundant conjunction that creates a grammatical error. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+    }
+  ]
+}

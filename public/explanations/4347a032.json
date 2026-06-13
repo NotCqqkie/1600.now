@@ -1,10 +1,23 @@
 {
   "qid": "4347a032",
+  "questionId": "4347a032",
   "steps": [
-    "The problem gives a conversion rate: 3 teaspoons = 1 tablespoon. To convert from tablespoons to teaspoons, multiply by 3.",
-    "Calculate: $44 \\times 3 = 132$ teaspoons.",
-    "Check the answer choices: 132 appears as choice C.",
-    "No other choice matches: 47 = 44 + 3 (wrong operation), 88 = 44 &times; 2 (wrong multiplier), 176 = 44 &times; 4 (wrong multiplier). Only 132 is correct."
+    {
+      "title": "Step 1",
+      "content": "The problem gives a conversion rate: 3 teaspoons = 1 tablespoon. To convert from tablespoons to teaspoons, multiply by 3."
+    },
+    {
+      "title": "Step 2",
+      "content": "Calculate: $44 \\times 3 = 132$ teaspoons."
+    },
+    {
+      "title": "Step 3",
+      "content": "The computed value is $132$, so the matching answer is $132$."
+    },
+    {
+      "title": "Step 4",
+      "content": "No other choice matches: 47 = 44 + 3 (wrong operation), 88 = 44 &times; 2 (wrong multiplier), 176 = 44 &times; 4 (wrong multiplier). Only 132 is correct."
+    }
   ],
   "choices": [
     {
@@ -20,7 +33,7 @@
     {
       "id": "C",
       "text": "132",
-      "explanation": "<ul><li>$44 \\text{ tablespoons} \\times 3 \\frac{\\text{teaspoons}}{\\text{tablespoon}} = 132 \\text{ teaspoons}$. That matches choice C &mdash; <strong>C</strong> is correct.</li></ul>"
+      "explanation": "<ul><li>$44 \\text{ tablespoons} \\times 3 \\frac{\\text{teaspoons}}{\\text{tablespoon}} = 132 \\text{ teaspoons}$. <strong>C</strong> is correct.</li></ul>"
     },
     {
       "id": "D",

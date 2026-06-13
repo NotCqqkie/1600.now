@@ -9,7 +9,7 @@
     },
     {
       "title": "Substitute into the parabola equation to find y",
-      "content": "Substitute $x = 9$ into $y = 4x^2 + 4$:<br/>$$y = 4(9)^2 + 4$$$$y = 4(81) + 4$$$$y = 324 + 4$$$$y = 328$$<br/>The intersection point is $(9, 328)$. That matches choice B — <strong>B</strong> is correct."
+      "content": "Substitute $x = 9$ into $y = 4x^2 + 4$:<br/>$$y = 4(9)^2 + 4$$$$y = 4(81) + 4$$$$y = 324 + 4$$$$y = 328$$<br/>The intersection point is $(9, 328)$. That matches the correct answer — <strong>B</strong> is correct."
     }
   ]
 }

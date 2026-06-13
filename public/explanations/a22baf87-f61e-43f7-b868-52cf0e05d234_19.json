@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "There are $5$ points above the line, so there are $5$ actual $y$-values greater than their predicted values. Choice <strong>C</strong> is correct."
+      "content": "There are $5$ points above the line, so there are $5$ actual $y$-values greater than their predicted values. <strong>C</strong> is correct."
     }
   ]
 }

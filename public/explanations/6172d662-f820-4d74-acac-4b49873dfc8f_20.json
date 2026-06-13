@@ -1,1 +1,15 @@
-{"questionId":"6172d662-f820-4d74-acac-4b49873dfc8f_20","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank falls between 'Japan' and 'respectively' and then continues into a new independent clause beginning with 'Utilizing vivid pastel colors...' We need punctuation that correctly closes the adverb 'respectively' after the list and separates the two independent clauses."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Japan, respectively,'</strong>: two commas around 'respectively' leave both independent clauses joined by only a comma &mdash; a comma splice. &#10007;</li><li><strong>Choice B &mdash; 'Japan, respectively;'</strong>: the comma after 'Japan' is part of the list, 'respectively' closes the adverb, and the semicolon correctly separates the two independent clauses. &#10003;</li><li><strong>Choice C &mdash; 'Japan; respectively,'</strong>: the semicolon falls between 'Japan' and 'respectively,' splitting the adverb from the word it modifies and placing the boundary in the wrong location. &#10007;</li><li><strong>Choice D &mdash; 'Japan, respectively'</strong>: no punctuation after 'respectively' fuses the two independent clauses into a run-on. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "6172d662-f820-4d74-acac-4b49873dfc8f_20",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank falls between 'Japan' and 'respectively' and then continues into a new independent clause beginning with 'Utilizing vivid pastel colors...' We need punctuation that correctly closes the adverb 'respectively' after the list and separates the two independent clauses."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Japan, respectively,&rsquo;</strong>: two commas around 'respectively' leave both independent clauses joined by only a comma &mdash; a comma splice. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Japan, respectively;&rsquo;</strong>: the comma after 'Japan' is part of the list, 'respectively' closes the adverb, and the semicolon correctly separates the two independent clauses. &#10003;</li><li><strong>Choice C &mdash; &lsquo;Japan; respectively,&rsquo;</strong>: the semicolon falls between 'Japan' and 'respectively,' splitting the adverb from the word it modifies and placing the boundary in the wrong location. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Japan, respectively&rsquo;</strong>: no punctuation after 'respectively' fuses the two independent clauses into a run-on. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; 'Type A, Process 1'</strong>: This bar sits around 30%&mdash;well below the tallest. &#10007;</li><li><strong>Choice B &mdash; 'Type B, Process 2'</strong>: This bar clearly reaches the 75% mark on the y-axis, the tallest of all four. &#10003;</li><li><strong>Choice C &mdash; 'Type A, Process 2'</strong>: This bar is roughly 50%&mdash;substantially lower than Type B, Process 2. &#10007;</li><li><strong>Choice D &mdash; 'Type B, Process 1'</strong>: This bar is around 55%&mdash;still well below 75%. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; 45%.</strong>: This bar sits around 30%&mdash;well below the tallest. &#10007;</li><li><strong>Choice B &mdash; 75%.</strong>: This bar clearly reaches the 75% mark on the y-axis, the tallest of all four. &#10003;</li><li><strong>Choice C &mdash; 20%.</strong>: This bar is roughly 50%&mdash;substantially lower than Type B, Process 2. &#10007;</li><li><strong>Choice D &mdash; 10%.</strong>: This bar is around 55%&mdash;still well below 75%. &#10007;</li></ul>That is the correct answer."
     }
   ]
 }

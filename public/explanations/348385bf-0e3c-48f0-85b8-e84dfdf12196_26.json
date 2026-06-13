@@ -1,1 +1,15 @@
-{"questionId": "348385bf-0e3c-48f0-85b8-e84dfdf12196_26", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the answer must include", "content": "The student&rsquo;s goal is to emphasize the <em>order</em> in which the two winners received the A.M. Turing Award. A correct answer needs both winners named with their award years <em>and</em> explicit temporal language showing who came first."}, {"title": "Eliminate wrong choices, confirm the correct one", "content": "<ul><li><strong>Choice A &mdash; &lsquo;Butler W. Lampson won the A.M. Turing Award in 1992; Judea Pearl won it later in 2011.&rsquo;</strong>: names both winners with years and uses &ldquo;later&rdquo; to mark Pearl&rsquo;s award as coming after Lampson&rsquo;s &mdash; sequence is explicit. &#10003;</li><li><strong>Choice B &mdash; &lsquo;It was in 1992 that Butler W. Lampson won the A.M. Turing Award.&rsquo;</strong>: mentions only Lampson; Pearl is omitted entirely. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Judea Pearl and Butler W. Lampson both won the A.M. Turing Award, which is given for &ldquo;major contributions of lasting importance to computing.&rdquo;&rsquo;</strong>: names both winners but includes no years and no temporal marker showing sequence. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Judea Pearl won the A.M. Turing Award in 2011, while Butler W. Lampson won it in 1992.&rsquo;</strong>: gives both winners and years but &ldquo;while&rdquo; implies simultaneity rather than sequence. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "348385bf-0e3c-48f0-85b8-e84dfdf12196_26",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the answer must include",
+      "content": "The student&rsquo;s goal is to emphasize the <em>order</em> in which the two winners received the A.M. Turing Award. A correct answer needs both winners named with their award years <em>and</em> explicit temporal language showing who came first."
+    },
+    {
+      "title": "Eliminate wrong choices, confirm the correct one",
+      "content": "<ul><li><strong>Choice A — Butler W. Lampson won the A.M. Turing Award in 1992; Judea Pearl won it later in 2011.</strong>: names both winners with years and uses &ldquo;later&rdquo; to mark Pearl&rsquo;s award as coming after Lampson&rsquo;s &mdash; sequence is explicit. &#10003;</li><li><strong>Choice B — It was in 1992 that Butler W. Lampson won the A.M. Turing Award.</strong>: mentions only Lampson; Pearl is omitted entirely. &#10007;</li><li><strong>Choice C — Judea Pearl and Butler W. Lampson both won the A.M. Turing Award, which is given for “major contributions of lasting importance to computing.”</strong>: names both winners but includes no years and no temporal marker showing sequence. &#10007;</li><li><strong>Choice D — Judea Pearl won the A.M. Turing Award in 2011, while Butler W. Lampson won it in 1992.</strong>: gives both winners and years but &ldquo;while&rdquo; implies simultaneity rather than sequence. &#10007;</li></ul><strong>A</strong> is correct."
+    }
+  ]
+}

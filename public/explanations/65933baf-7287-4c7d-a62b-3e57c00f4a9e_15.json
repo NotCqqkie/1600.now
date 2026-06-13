@@ -1,1 +1,15 @@
-{"questionId":"65933baf-7287-4c7d-a62b-3e57c00f4a9e_15","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage contrasts two recruitment methods: snowball sampling (through social networks) produced much higher retention than recruitment by strangers. The question asks what best explains why social-network recruitment led to higher retention."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'being recruited by someone you know creates an obligation to persist'</strong>: directly explains the retention difference — a social bond creates pressure to continue participating. &#10003;</li><li><strong>Choice B &mdash; 'snowball sampling reaches a different population'</strong>: addresses who is recruited, not why those recruits stayed longer. &#10007;</li><li><strong>Choice C &mdash; 'stranger-recruited participants were less motivated'</strong>: the passage does not compare motivation levels; this goes beyond what the data support. &#10007;</li><li><strong>Choice D &mdash; 'social connection is unimportant to study design'</strong>: contradicts the passage, which treats social connection as the key variable. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_15",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage contrasts two recruitment methods: snowball sampling (through social networks) produced much higher retention than recruitment by strangers. The question asks what best explains why social-network recruitment led to higher retention."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;being recruited to participate in a study by someone with whom one is socially connected may impart a feeling of obligation to persist with participation in the study.&rsquo;</strong>: directly explains the retention difference — a social bond creates pressure to continue participating. &#10003;</li><li><strong>Choice B &mdash; &lsquo;snowball sampling is more likely to improve retention rates among rural participants than among nonrural participants.&rsquo;</strong>: addresses who is recruited, not why those recruits stayed longer. &#10007;</li><li><strong>Choice C &mdash; &lsquo;people with relatively small social networks are inherently less likely to be recruited to participate in a study via snowball sampling than are people with relatively large social networks.&rsquo;</strong>: the passage does not compare motivation levels; this goes beyond what the data support. &#10007;</li><li><strong>Choice D &mdash; &lsquo;social networks can become large enough that two people can share a network but nevertheless regard each other as strangers.&rsquo;</strong>: contradicts the passage, which treats social connection as the key variable. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

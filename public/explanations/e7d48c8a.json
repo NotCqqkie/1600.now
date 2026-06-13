@@ -17,7 +17,7 @@
     },
     {
       "title": "Determine the mean and how adding 11 affects it",
-      "content": "Original mean: $\\frac{4(1)+5(2)+2(3)+1(4)+1(5)}{13}=\\frac{29}{13}\\approx2.23$. New mean: $\\frac{29+11}{14}=\\frac{40}{14}\\approx2.86$. Since the mean increases while the median stays $2$, only Statement II is true. That matches choice C, so <strong>C</strong> is correct."
+      "content": "Original mean: $\\frac{4(1)+5(2)+2(3)+1(4)+1(5)}{13}=\\frac{29}{13}\\approx2.23$. New mean: $\\frac{29+11}{14}=\\frac{40}{14}\\approx2.86$. Since the mean increases while the median stays $2$, only Statement II is true. That matches the computed answer, so <strong>C</strong> is correct."
     }
   ]
 }

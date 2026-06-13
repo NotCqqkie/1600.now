@@ -5,6 +5,7 @@ import {
   PageSeo,
   buildBreadcrumbJsonLd,
   buildFaqJsonLd,
+  buildWebApplicationJsonLd,
 } from "@/components/seo/PageSeo";
 import { satToolBySlug } from "@/lib/seo-data/satTools";
 const SAT_TO_ACT: [number, number][] = [
@@ -88,15 +89,11 @@ const SatToActConverter = () => {
             { name: meta.name, url },
           ]),
           buildFaqJsonLd(faqs),
-          {
-            "@context": "https://schema.org",
-            "@type": "WebApplication",
+          buildWebApplicationJsonLd({
             name: meta.name,
             url,
-            applicationCategory: "EducationalApplication",
-            operatingSystem: "Any",
-            offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
-          },
+            description: meta.metaDescription,
+          }),
         ]}
       />
 
@@ -174,6 +171,50 @@ const SatToActConverter = () => {
             </tbody>
           </table>
         </div>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold tracking-tight">
+          Which score should you send?
+        </h2>
+        <p className="mt-3 text-muted-foreground">
+          Concordance is not a reward chart; it is a comparison tool. Use it to decide which test better represents your application, then check the college's actual score policy for superscoring and test-optional rules.
+        </p>
+        <div className="mt-4 overflow-x-auto rounded-lg border border-border">
+          <table className="w-full min-w-[560px] text-left text-sm">
+            <thead className="bg-muted/70">
+              <tr>
+                <th className="px-4 py-3 font-semibold">Situation</th>
+                <th className="px-4 py-3 font-semibold">Decision</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="border-t border-border">
+                <td className="px-4 py-3 text-muted-foreground">SAT converts to a higher ACT than your actual ACT</td>
+                <td className="px-4 py-3 text-muted-foreground">Send SAT unless a college specifically prefers ACT section data.</td>
+              </tr>
+              <tr className="border-t border-border">
+                <td className="px-4 py-3 text-muted-foreground">ACT converts to a higher SAT than your actual SAT</td>
+                <td className="px-4 py-3 text-muted-foreground">Send ACT and use SAT practice only if you plan to retest.</td>
+              </tr>
+              <tr className="border-t border-border">
+                <td className="px-4 py-3 text-muted-foreground">Scores are equivalent</td>
+                <td className="px-4 py-3 text-muted-foreground">Send the test with stronger section balance or the score your college superscores best.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold tracking-tight">
+          Common concordance mistakes
+        </h2>
+        <ul className="mt-3 list-disc space-y-2 pl-6 text-muted-foreground">
+          <li>Comparing SAT total score to ACT composite without checking the official concordance band.</li>
+          <li>Assuming equivalent scores have identical section strengths.</li>
+          <li>Sending both scores when one clearly converts higher and the college does not require both.</li>
+        </ul>
       </section>
 
       <section className="mt-10">

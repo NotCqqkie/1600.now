@@ -9,7 +9,7 @@
     },
     {
       "title": "Parallel lines share the same slope",
-      "content": "Parallel shortcut: equal slopes. Line $s \\parallel r$, so slope of $s = \\tfrac{4}{9}$. That matches choice B — <strong>B</strong> is correct.",
+      "content": "Parallel shortcut: equal slopes. Line $s \\parallel r$, so slope of $s = \\tfrac{4}{9}$. That is the correct answer.",
       "desmosExpressions": [
         "4x-9y=3"
       ]

@@ -1,1 +1,15 @@
-{"questionId":"1b5dbecd-2a08-4015-83f5-8ad883233476_4","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank follows &apos;is largely ______ of the fact that&apos; and must describe how the speed difference relates to the reason given. The phrase &apos;of the fact that&apos; signals a causal relationship, so the blank needs a word that frames the speed gap as something that follows from that reason."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;a consequence&apos;</strong>: &apos;a consequence of the fact&apos; means the speed difference results from the fact about flight features &mdash; a perfect causal fit. &#10003;</li><li><strong>Choice B &mdash; &apos;a repudiation&apos;</strong>: repudiation means denial or rejection. The text does not argue against the fact; it presents it as an explanation. &#10007;</li><li><strong>Choice C &mdash; &apos;an objective&apos;</strong>: objective implies a goal. A speed difference is not something the animals are aiming for; it is an observed result. &#10007;</li><li><strong>Choice D &mdash; &apos;an explanation&apos;</strong>: the speed difference cannot explain the fact that flight features limit speeds less &mdash; that reverses the causal direction. The fact explains the difference, not the other way around. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "1b5dbecd-2a08-4015-83f5-8ad883233476_4",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank follows &apos;is largely ______ of the fact that&apos; and must describe how the speed difference relates to the reason given. The phrase &apos;of the fact that&apos; signals a causal relationship, so the blank needs a word that frames the speed gap as something that follows from that reason."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; a consequence</strong>: &apos;a consequence of the fact&apos; means the speed difference results from the fact about flight features &mdash; a perfect causal fit. &#10003;</li><li><strong>Choice B &mdash; a repudiation</strong>: repudiation means denial or rejection. The text does not argue against the fact; it presents it as an explanation. &#10007;</li><li><strong>Choice C &mdash; an objective</strong>: objective implies a goal. A speed difference is not something the animals are aiming for; it is an observed result. &#10007;</li><li><strong>Choice D &mdash; an explanation</strong>: the speed difference cannot explain the fact that flight features limit speeds less &mdash; that reverses the causal direction. The fact explains the difference, not the other way around. &#10007;</li></ul>That matches <strong>Choice A &mdash; a consequence</strong>."
+    }
+  ]
+}

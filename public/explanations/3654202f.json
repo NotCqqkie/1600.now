@@ -1,1 +1,15 @@
-{"questionId":"3654202f","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question tests Words in Context. The word &ldquo;comparatively&rdquo; signals that the blank must contrast the Wi-Fi alternative with radar and sonar, which the passage explicitly calls &ldquo;too costly for consumer use.&rdquo; The blank must mean something close to low in cost."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;infrequent&rsquo;</strong>: Describes how often something occurs, not its cost. The passage says the Wi-Fi method would give users a &ldquo;cheap way&rdquo; to detect people &mdash; frequency is irrelevant here. &#10007;</li><li><strong>Choice B &mdash; &lsquo;inexpensive&rsquo;</strong>: Directly contrasts with &ldquo;too costly&rdquo; and matches the passage&rsquo;s own phrase &ldquo;a cheap way.&rdquo; Comparatively inexpensive correctly completes the cost comparison. &#10003;</li><li><strong>Choice C &mdash; &lsquo;unmistakable&rsquo;</strong>: Means impossible to confuse or misidentify. Nothing in the passage compares the two technologies on the basis of clarity or distinctiveness. &#10007;</li><li><strong>Choice D &mdash; &lsquo;impractical&rsquo;</strong>: The opposite of what the passage supports &mdash; the Wi-Fi modification is presented as a feasible consumer solution, not an unrealistic one. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "3654202f",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question tests Words in Context. The word &ldquo;comparatively&rdquo; signals that the blank must contrast the Wi-Fi alternative with radar and sonar, which the passage explicitly calls &ldquo;too costly for consumer use.&rdquo; The blank must mean something close to low in cost."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — infrequent</strong>: Describes how often something occurs, not its cost. The passage says the Wi-Fi method would give users a &ldquo;cheap way&rdquo; to detect people &mdash; frequency is irrelevant here. &#10007;</li><li><strong>Choice B — inexpensive</strong>: Directly contrasts with &ldquo;too costly&rdquo; and matches the passage&rsquo;s own phrase &ldquo;a cheap way.&rdquo; Comparatively inexpensive correctly completes the cost comparison. &#10003;</li><li><strong>Choice C — unmistakable</strong>: Means impossible to confuse or misidentify. Nothing in the passage compares the two technologies on the basis of clarity or distinctiveness. &#10007;</li><li><strong>Choice D — impractical</strong>: The opposite of what the passage supports &mdash; the Wi-Fi modification is presented as a feasible consumer solution, not an unrealistic one. &#10007;</li></ul><strong>B</strong> is correct."
+    }
+  ]
+}

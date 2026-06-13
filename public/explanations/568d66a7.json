@@ -9,7 +9,7 @@
     },
     {
       "title": "Match the leg length to the perimeter",
-      "content": "If $a=47\\sqrt{2}$, then the perimeter is $$47\\sqrt{2}(2+\\sqrt{2})=94\\sqrt{2}+94$$ This is the same as the given perimeter $94+94\\sqrt{2}$. Therefore the leg length is $47\\sqrt{2}$, so choice <strong>B</strong> is correct."
+      "content": "If $a=47\\sqrt{2}$, then the perimeter is $$47\\sqrt{2}(2+\\sqrt{2})=94\\sqrt{2}+94$$ This is the same as the given perimeter $94+94\\sqrt{2}$. Therefore the leg length is $47\\sqrt{2}$, so <strong>B</strong> is correct."
     }
   ]
 }

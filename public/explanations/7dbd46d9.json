@@ -9,7 +9,7 @@
     },
     {
       "title": "Backsolve using integer choices",
-      "content": "Backsolving — testing choice A (-15):<br/>$$(-15)^2 + 4(-15) - 165 = 225 - 60 - 165 = 0$$ ✓<br/>The equation is satisfied. That matches choice A — <strong>A</strong> is correct."
+      "content": "Backsolving — testing choice A (-15):<br/>$$(-15)^2 + 4(-15) - 165 = 225 - 60 - 165 = 0$$ ✓<br/>The equation is satisfied. That confirms <strong>A</strong> is correct."
     }
   ]
 }

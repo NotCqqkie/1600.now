@@ -1,1 +1,15 @@
-{"questionId": "420dea42", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Spot the relationship", "content": "Sentence 1 says the material was <strong>flexible enough</strong> for Elvis's dance moves. Sentence 2 says the rhinestone vines <strong>likely limited</strong> his mobility. These ideas pull in opposite directions, so the blank needs a contrast signal."}, {"title": "Eliminate and confirm", "content": "<ul><li><strong>Choice A &mdash; 'For this reason,'</strong>: signals that the weight limitation is a <em>result</em> of the material's flexibility &mdash; but limited mobility is the opposite of flexibility, not a consequence of it. &#10007;</li><li><strong>Choice B &mdash; 'Firstly,'</strong>: signals the first item in a series &mdash; but there is no second item, so no series exists. &#10007;</li><li><strong>Choice C &mdash; 'However,'</strong>: signals a direct contrast &mdash; the flexibility of the material is countered by the weight of the rhinestones limiting mobility. &#10003;</li><li><strong>Choice D &mdash; 'In other words,'</strong>: signals a restatement &mdash; but Sentence 2 contradicts Sentence 1 rather than rephrasing it. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "420dea42",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the relationship",
+      "content": "Sentence 1 says the material was <strong>flexible enough</strong> for Elvis's dance moves. Sentence 2 says the rhinestone vines <strong>likely limited</strong> his mobility. These ideas pull in opposite directions, so the blank needs a contrast signal."
+    },
+    {
+      "title": "Eliminate and confirm",
+      "content": "<ul><li><strong>Choice A — For this reason,</strong>: signals that the weight limitation is a <em>result</em> of the material's flexibility &mdash; but limited mobility is the opposite of flexibility, not a consequence of it. &#10007;</li><li><strong>Choice B — Firstly,</strong>: signals the first item in a series &mdash; but there is no second item, so no series exists. &#10007;</li><li><strong>Choice C — However,</strong>: signals a direct contrast &mdash; the flexibility of the material is countered by the weight of the rhinestones limiting mobility. &#10003;</li><li><strong>Choice D — In other words,</strong>: signals a restatement &mdash; but Sentence 2 contradicts Sentence 1 rather than rephrasing it. &#10007;</li></ul><strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId":"caff462a-5a62-4fc6-ba41-dd82318ce399_18","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence reads: <em>&ldquo;New Mexico governor [blank] the first woman to serve in that role in the state&rsquo;s history &mdash; took office on January 1, 2011.&rdquo;</em> The phrase &ldquo;the first woman to serve in that role in the state&rsquo;s history&rdquo; is an appositive that renames the governor. It ends with a closing em dash before &ldquo;took office.&rdquo; An appositive set off by an em dash on one side must have a matching em dash on the other side."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;Susana Martinez,&rsquo;</strong>: uses a comma to open the appositive, but the appositive closes with an em dash &mdash; mismatched punctuation. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Susana Martinez:&rsquo;</strong>: a colon introduces lists or explanations; it cannot open an em-dash appositive. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Susana Martinez&rsquo;</strong>: no punctuation at all leaves the appositive without an opening marker, making it ungrammatical with the closing em dash. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Susana Martinez&mdash;&rsquo;</strong>: opens with an em dash to match the closing em dash after &ldquo;history,&rdquo; correctly setting off the appositive. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "caff462a-5a62-4fc6-ba41-dd82318ce399_18",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence reads: <em>&ldquo;New Mexico governor [blank] the first woman to serve in that role in the state&rsquo;s history &mdash; took office on January 1, 2011.&rdquo;</em> The phrase &ldquo;the first woman to serve in that role in the state&rsquo;s history&rdquo; is an appositive that renames the governor. It ends with a closing em dash before &ldquo;took office.&rdquo; An appositive set off by an em dash on one side must have a matching em dash on the other side."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Susana Martinez,</strong>: uses a comma to open the appositive, but the appositive closes with an em dash &mdash; mismatched punctuation. &#10007;</li><li><strong>Choice B &mdash; Susana Martinez:</strong>: a colon introduces lists or explanations; it cannot open an em-dash appositive. &#10007;</li><li><strong>Choice C &mdash; Susana Martinez</strong>: no punctuation at all leaves the appositive without an opening marker, making it ungrammatical with the closing em dash. &#10007;</li><li><strong>Choice D &mdash; Susana Martinez—</strong>: opens with an em dash to match the closing em dash after &ldquo;history,&rdquo; correctly setting off the appositive. &#10003;</li></ul>That is the correct answer."
+    }
+  ]
+}

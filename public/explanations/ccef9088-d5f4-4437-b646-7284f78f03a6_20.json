@@ -1,1 +1,15 @@
-{"questionId": "ccef9088-d5f4-4437-b646-7284f78f03a6_20", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the logical relationship between the sentences", "content": "The passage states that modern planes have <em>sleeker, more streamlined bodies</em> and then immediately makes a claim about aerodynamics. Ask: is the second sentence a contrast, an addition, a conclusion, or something else? Because streamlined bodies directly cause better aerodynamics, the second sentence is a <strong>result</strong> of the first — the blank needs a cause-and-effect transition."}, {"title": "Eliminate wrong transitions and confirm the answer", "content": "<ul><li><strong>Choice A &mdash; &quot;However,&quot;</strong>: signals contrast or a surprising counterpoint. The aerodynamic improvement is not surprising given the streamlined design — it is the expected result. &#10007;</li><li><strong>Choice B &mdash; &quot;Nevertheless,&quot;</strong>: signals that something is true <em>despite</em> an obstacle. No obstacle is present here; streamlined bodies straightforwardly produce better aerodynamics. &#10007;</li><li><strong>Choice C &mdash; &quot;Lastly,&quot;</strong>: signals the final item in an enumerated list. The passage is not listing characteristics — it is stating a causal outcome. &#10007;</li><li><strong>Choice D &mdash; &quot;For this reason,&quot;</strong>: signals that what follows is a direct consequence of what just preceded it. The sleeker, more streamlined bodies are exactly why modern planes are more aerodynamic. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "ccef9088-d5f4-4437-b646-7284f78f03a6_20",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the logical relationship between the sentences",
+      "content": "The passage states that modern planes have <em>sleeker, more streamlined bodies</em> and then immediately makes a claim about aerodynamics. Ask: is the second sentence a contrast, an addition, a conclusion, or something else? Because streamlined bodies directly cause better aerodynamics, the second sentence is a <strong>result</strong> of the first — the blank needs a cause-and-effect transition."
+    },
+    {
+      "title": "Eliminate wrong transitions and confirm the answer",
+      "content": "<ul><li><strong>Choice A &mdash; However,</strong>: signals contrast or a surprising counterpoint. The aerodynamic improvement is not surprising given the streamlined design — it is the expected result. &#10007;</li><li><strong>Choice B &mdash; Nevertheless,</strong>: signals that something is true <em>despite</em> an obstacle. No obstacle is present here; streamlined bodies straightforwardly produce better aerodynamics. &#10007;</li><li><strong>Choice C &mdash; Lastly,</strong>: signals the final item in an enumerated list. The passage is not listing characteristics — it is stating a causal outcome. &#10007;</li><li><strong>Choice D &mdash; For this reason,</strong>: signals that what follows is a direct consequence of what just preceded it. The sleeker, more streamlined bodies are exactly why modern planes are more aerodynamic. &#10003;</li></ul>That is the correct answer."
+    }
+  ]
+}

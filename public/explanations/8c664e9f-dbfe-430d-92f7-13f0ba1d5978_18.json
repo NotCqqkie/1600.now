@@ -9,7 +9,7 @@
     },
     {
       "title": "Backsolve the answer choices",
-      "content": "Backsolving — testing choice C (93):<br/>$$93 \\times 1.1875 = 110.4375 \\neq 114$$<br/>Fails. Testing choice D (96):<br/>$$96 \\times 1.1875 = 114$$<br/>This works! That matches choice D — <strong>D</strong> is correct."
+      "content": "Backsolving — testing choice C (93):<br/>$$93 \\times 1.1875 = 110.4375 \\neq 114$$<br/>Fails. Testing choice D (96):<br/>$$96 \\times 1.1875 = 114$$<br/>This works! That confirms <strong>D</strong> is correct."
     }
   ]
 }

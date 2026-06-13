@@ -1,1 +1,15 @@
-{"questionId":"bc839e02-25bc-4632-be4e-0c0b81f62962_10","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage defines horizontal gene transfer (HGT), notes it is common among prokaryotes, and builds to a practical conclusion: understanding how to prevent HGT &apos;might result in the mitigation of dangerous pathogens.&apos; The question asks what the passage primarily emphasizes."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; study of HGT may yield useful applications</strong>: matches the passage&apos;s practical conclusion &mdash; understanding HGT could help mitigate dangerous pathogens. &#10003;</li><li><strong>Choice B &mdash; HGT is more prevalent than earlier views suggested</strong>: the passage makes no comparison to earlier views of HGT&apos;s prevalence. &#10007;</li><li><strong>Choice C &mdash; HGT presents new research findings</strong>: the passage does not frame its content as presenting new or novel research findings. &#10007;</li><li><strong>Choice D &mdash; HGT among prokaryotes is better understood than among eukaryotes</strong>: the passage draws no such comparative claim. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "bc839e02-25bc-4632-be4e-0c0b81f62962_10",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage defines horizontal gene transfer (HGT), notes it is common among prokaryotes, and builds to a practical conclusion: understanding how to prevent HGT &apos;might result in the mitigation of dangerous pathogens.&apos; The question asks what the passage primarily emphasizes."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; The study of horizontal gene transfer may yield findings with useful applications.</strong>: matches the passage&apos;s practical conclusion &mdash; understanding HGT could help mitigate dangerous pathogens. &#10003;</li><li><strong>Choice B &mdash; Horizontal gene transfer is more common than was initially thought.</strong>: the passage makes no comparison to earlier views of HGT&apos;s prevalence. &#10007;</li><li><strong>Choice C &mdash; The results of new research into horizontal gene transfer cast doubt on earlier findings.</strong>: the passage does not frame its content as presenting new or novel research findings. &#10007;</li><li><strong>Choice D &mdash; A common perception of horizontal gene transfer is inaccurate.</strong>: the passage draws no such comparative claim. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

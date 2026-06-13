@@ -1,1 +1,15 @@
-{"questionId": "97534841-3541-4563-86b8-0a919d0bde5b_12", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the key observation", "content": "The key clue is the difference between captive and wild primate studies: captive primates show significantly more right-handedness than wild primates. The passage introduces the blank with “therefore,” indicating this difference is the basis for a logical deduction."}, {"title": "Determine what this difference logically suggests", "content": "Since captive primates are housed with humans—who are 85-90% right-handed—while wild primates are not, the logical possibility is that human exposure causes captive primates to acquire more right-handed behaviors.<br/><br/>The other choices invoke sample size or methodology rather than explaining why the captive environment would produce more right-handedness.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "97534841-3541-4563-86b8-0a919d0bde5b_12",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key observation",
+      "content": "The key clue is the difference between captive and wild primate studies: captive primates show significantly more right-handedness than wild primates. The passage introduces the blank with “therefore,” indicating this difference is the basis for a logical deduction."
+    },
+    {
+      "title": "Determine what this difference logically suggests",
+      "content": "Since captive primates are housed with humans—who are 85-90% right-handed—while wild primates are not, the logical possibility is that human exposure causes captive primates to acquire more right-handed behaviors.<br/><br/>The other choices invoke sample size or methodology rather than explaining why the captive environment would produce more right-handedness.<br/><br/>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

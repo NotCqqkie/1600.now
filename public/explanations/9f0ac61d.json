@@ -1,1 +1,19 @@
-{"questionId": "9f0ac61d", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the structure of the sentence", "content": "&quot;Hoping to help her students and their families outside the classroom&quot; is an introductory participial phrase modifying Huerta. What follows &mdash; &quot;Huerta left teaching to start the Stockton chapter...&quot; &mdash; is the main independent clause."}, {"title": "Apply the punctuation rule", "content": "Standard English requires a comma after an introductory modifying phrase to separate it from the independent clause it modifies."}, {"title": "Eliminate the wrong choices", "content": "<ul><li><strong>Choice A &mdash; 'classroom.'</strong>: a period creates a sentence fragment out of the introductory phrase, which has no subject or verb of its own. Violates fragment rule. &#10007;</li><li><strong>Choice B &mdash; 'classroom;'</strong>: a semicolon must join two independent clauses, but the first half is only a participial phrase, not a clause. Violates semicolon rule. &#10007;</li><li><strong>Choice C &mdash; 'classroom,'</strong>: a comma is exactly what an introductory modifier requires before the main clause. &#10003;</li><li><strong>Choice D &mdash; 'classroom'</strong>: omitting punctuation runs the introductory phrase into the main clause, violating the rule that requires a comma after an introductory modifier. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "9f0ac61d",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the structure of the sentence",
+      "content": "&quot;Hoping to help her students and their families outside the classroom&quot; is an introductory participial phrase modifying Huerta. What follows &mdash; &quot;Huerta left teaching to start the Stockton chapter...&quot; &mdash; is the main independent clause."
+    },
+    {
+      "title": "Apply the punctuation rule",
+      "content": "Standard English requires a comma after an introductory modifying phrase to separate it from the independent clause it modifies."
+    },
+    {
+      "title": "Eliminate the wrong choices",
+      "content": "<ul><li><strong>Choice A &mdash; classroom.</strong>: a period creates a sentence fragment out of the introductory phrase, which has no subject or verb of its own. Violates fragment rule. &#10007;</li><li><strong>Choice B &mdash; classroom;</strong>: a semicolon must join two independent clauses, but the first half is only a participial phrase, not a clause. Violates semicolon rule. &#10007;</li><li><strong>Choice C &mdash; classroom,</strong>: a comma is exactly what an introductory modifier requires before the main clause. &#10003;</li><li><strong>Choice D &mdash; classroom</strong>: omitting punctuation runs the introductory phrase into the main clause, violating the rule that requires a comma after an introductory modifier. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

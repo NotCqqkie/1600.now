@@ -1,1 +1,15 @@
-{"questionId": "fa92720e-d9b2-485a-9313-5041b77e5352_14", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The passage presents two contrasting facts about Br&acirc;ncu&#351;i: he heavily influenced both minimalist and abstract art, yet produced relatively few works due to his exacting standards. The correct answer captures that tension."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'themes and thematic diversity'</strong>: The passage does not meaningfully discuss Br&acirc;ncu&#351;i&apos;s themes or range of subjects. &#10007;</li><li><strong>Choice B &mdash; 'substantial historical importance despite limited output'</strong>: Directly captures the disparity between his outsized influence and small body of work. &#10003;</li><li><strong>Choice C &mdash; 'his general work versus Bird in Space'</strong>: Both are described similarly in the passage; there is no real contrast between them. &#10007;</li><li><strong>Choice D &mdash; 'artist themes not discussed in the passage'</strong>: Introduces ideas the passage never raises. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "fa92720e-d9b2-485a-9313-5041b77e5352_14",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage presents two contrasting facts about Br&acirc;ncu&#351;i: he heavily influenced both minimalist and abstract art, yet produced relatively few works due to his exacting standards. The correct answer captures that tension."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"the themes Brâncuși explored and the themes favored by artists he inspired.\"</strong>: The passage does not meaningfully discuss Br&acirc;ncu&#351;i's themes or range of subjects. &#10007;</li><li><strong>\"Brâncuși's importance to the history of art and his total artistic output.\"</strong>: Directly captures the disparity between his outsized influence and small body of work. &#10003;</li><li><strong>\"the nature of much of Brâncuși's work and the abstraction of *Bird in Space*.\"</strong>: Both are described similarly in the passage; there is no real contrast between them. &#10007;</li><li><strong>\"Brâncuși's relatively limited productivity and the diversity of his sculptures.\"</strong>: Introduces ideas the passage never raises. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "1695391a", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the context clues that define the phrase", "content": "The phrase &quot;I couldn't be stopped&quot; appears in the context of the author talking. The very next sentences explain why: her sister's friends &quot;could hardly stand to ride to school&quot; with her, and she was &quot;loud and unrelenting.&quot; The word &quot;unrelenting&quot; &mdash; meaning nonstop and persistent &mdash; directly explains what &quot;couldn't be stopped&quot; means: she kept talking without stopping."}, {"title": "Eliminate wrong choices and confirm the answer", "content": "<ul><li><strong>Choice A &mdash; 'She had a hard time sitting still.'</strong>: The passage is about her talking, not physical restlessness. Nothing in the text connects &quot;couldn't be stopped&quot; to movement. &#10007;</li><li><strong>Choice B &mdash; 'She often changed her mind.'</strong>: Changing one's mind is unrelated to being loud and unrelenting. The text gives no evidence of fickleness. &#10007;</li><li><strong>Choice C &mdash; 'She was well liked as a child.'</strong>: The opposite is implied: her sister's friends &quot;could hardly stand&quot; to ride with her because of her excessive talking. &#10007;</li><li><strong>Choice D &mdash; 'She seemed to talk all the time.'</strong>: This directly matches &quot;unrelenting&quot; &mdash; she kept talking nonstop, which is why others could barely tolerate being around her. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "1695391a",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the context clues that define the phrase",
+      "content": "The phrase &quot;I couldn't be stopped&quot; appears in the context of the author talking. The very next sentences explain why: her sister's friends &quot;could hardly stand to ride to school&quot; with her, and she was &quot;loud and unrelenting.&quot; The word &quot;unrelenting&quot; &mdash; meaning nonstop and persistent &mdash; directly explains what &quot;couldn't be stopped&quot; means: she kept talking without stopping."
+    },
+    {
+      "title": "Eliminate wrong choices and confirm the answer",
+      "content": "<ul><li><strong>Choice A &mdash; She had a hard time sitting still.</strong>: The passage is about her talking, not physical restlessness. Nothing in the text connects &quot;couldn't be stopped&quot; to movement. &#10007;</li><li><strong>Choice B &mdash; She often changed her mind.</strong>: Changing one's mind is unrelated to being loud and unrelenting. The text gives no evidence of fickleness. &#10007;</li><li><strong>Choice C &mdash; She was well liked as a child.</strong>: The opposite is implied: her sister's friends &quot;could hardly stand&quot; to ride with her because of her excessive talking. &#10007;</li><li><strong>Choice D &mdash; She seemed to talk all the time.</strong>: This directly matches &quot;unrelenting&quot; &mdash; she kept talking nonstop, which is why others could barely tolerate being around her. &#10003;</li></ul>That matches <strong>Choice D &mdash; She seemed to talk all the time.</strong>."
+    }
+  ]
+}

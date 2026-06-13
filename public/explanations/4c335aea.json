@@ -1,1 +1,19 @@
-{"questionId": "4c335aea", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the nouns are doing", "content": "&quot;Rock&quot; and &quot;rap&quot; are two genres, and each has its own chorus-to-verse ratio. The sentence even says the ratios &quot;trended similarly, with each genre's data indicating&quot; a separate ratio per genre, so possession is separate, not joint."}, {"title": "Apply the separate-possession rule", "content": "When two singular nouns each independently possess their own version of the following noun, standard English marks both with apostrophe-s: &quot;rock's and rap's chorus-to-verse ratios.&quot; The genre names are singular (not &quot;rocks&quot; or &quot;raps&quot;)."}, {"title": "Eliminate per choice", "content": "<ul><li><strong>Choice A &mdash; 'rocks and raps'</strong>: pluralizes the genre names and shows no possession, but the ratios belong to the genres. &#10007;</li><li><strong>Choice B &mdash; &quot;rock's and rap's&quot;</strong>: correctly marks both singular genre names as possessives, matching the separate per-genre ratios. &#10003;</li><li><strong>Choice C &mdash; &quot;rocks and rap's&quot;</strong>: combines a plural noun with a possessive, which is ungrammatical. &#10007;</li><li><strong>Choice D &mdash; &quot;rock and rap's&quot;</strong>: marks possession only once, which signals joint ownership of a single shared ratio, but the sentence describes a separate ratio for each genre. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "4c335aea",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the nouns are doing",
+      "content": "&quot;Rock&quot; and &quot;rap&quot; are two genres, and each has its own chorus-to-verse ratio. The sentence even says the ratios &quot;trended similarly, with each genre's data indicating&quot; a separate ratio per genre, so possession is separate, not joint."
+    },
+    {
+      "title": "Apply the separate-possession rule",
+      "content": "When two singular nouns each independently possess their own version of the following noun, standard English marks both with apostrophe-s: &quot;rock's and rap's chorus-to-verse ratios.&quot; The genre names are singular (not &quot;rocks&quot; or &quot;raps&quot;)."
+    },
+    {
+      "title": "Eliminate per choice",
+      "content": "<ul><li><strong>Choice A — rocks and raps</strong>: pluralizes the genre names and shows no possession, but the ratios belong to the genres. &#10007;</li><li><strong>Choice B — rock's and rap's</strong>: correctly marks both singular genre names as possessives, matching the separate per-genre ratios. &#10003;</li><li><strong>Choice C — rocks and rap's</strong>: combines a plural noun with a possessive, which is ungrammatical. &#10007;</li><li><strong>Choice D — rock and rap's</strong>: marks possession only once, which signals joint ownership of a single shared ratio, but the sentence describes a separate ratio for each genre. &#10007;</li></ul><strong>B</strong> is correct."
+    }
+  ]
+}

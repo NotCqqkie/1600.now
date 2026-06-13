@@ -9,7 +9,7 @@
     },
     {
       "title": "Solve for b and answer",
-      "content": "Substitute $(2,0)$ into $f(x)=64x+b$: $$0=64(2)+b,$$ so $b=-128$. Therefore $$a-b=64-(-128)=192.$$ Choice <strong>D</strong> is correct. This also checks the two original values: $64(1)-128=-64$ and $64(2)-128=0$."
+      "content": "Substitute $(2,0)$ into $f(x)=64x+b$: $$0=64(2)+b,$$ so $b=-128$. Therefore $$a-b=64-(-128)=192.$$ <strong>D</strong> is correct. This also checks the two original values: $64(1)-128=-64$ and $64(2)-128=0$."
     }
   ]
 }

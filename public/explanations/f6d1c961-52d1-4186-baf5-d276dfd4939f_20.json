@@ -1,1 +1,15 @@
-{"questionId": "f6d1c961-52d1-4186-baf5-d276dfd4939f_20", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The blank completes a noun phrase about specific fertilizers. The modifier must be restrictive (specifying which fertilizers) rather than nonrestrictive (adding extra detail about already-identified ones), because the study focuses on fertilizers that contain particular macronutrients."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; sentence fragment option</strong>: placing &lsquo;Containing macronutrients&rsquo; after a period creates a fragment with no main clause. &#10007;</li><li><strong>Choice B &mdash; comma + participial phrase</strong>: the comma makes the modifier nonrestrictive, implying all fertilizers are already identified &mdash; too broad. &#10007;</li><li><strong>Choice C &mdash; 'fertilizers containing'</strong>: no comma, so the participial phrase is restrictive and specifies exactly which fertilizers the study examines. &#10003;</li><li><strong>Choice D &mdash; comma + alternate phrasing</strong>: like B, the comma creates a nonrestrictive modifier that loses the necessary specificity. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "f6d1c961-52d1-4186-baf5-d276dfd4939f_20",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank completes a noun phrase about specific fertilizers. The modifier must be restrictive (specifying which fertilizers) rather than nonrestrictive (adding extra detail about already-identified ones), because the study focuses on fertilizers that contain particular macronutrients."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"fertilizers. Containing\"</strong>: placing &lsquo;Containing macronutrients&rsquo; after a period creates a fragment with no main clause. &#10007;</li><li><strong>\"fertilizers, containing\"</strong>: the comma makes the modifier nonrestrictive, implying all fertilizers are already identified &mdash; too broad. &#10007;</li><li><strong>\"fertilizers containing\"</strong>: no comma, so the participial phrase is restrictive and specifies exactly which fertilizers the study examines. &#10003;</li><li><strong>\"fertilizers, which contain\"</strong>: like B, the comma creates a nonrestrictive modifier that loses the necessary specificity. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+    }
+  ]
+}

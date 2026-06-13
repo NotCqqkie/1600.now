@@ -9,11 +9,11 @@
     },
     {
       "title": "Perpendicular slope = negative reciprocal",
-      "content": "$$m_s = -\\frac{1}{m_t} = -\\frac{1}{-1/2} = 2$$<br/>That matches choice B — <strong>B</strong> is correct."
+      "content": "$$m_s = -\\frac{1}{m_t} = -\\frac{1}{-1/2} = 2$$<br/>That is the correct answer."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice B, $2$. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches $2$. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
     }
   ]
 }

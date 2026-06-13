@@ -9,7 +9,7 @@
     },
     {
       "title": "Calculate sphere volume and find remaining space",
-      "content": "The volume of a sphere with radius 34 is:<br/>$$V_{\\text{sphere}} = \\frac{4}{3}\\pi(34)^3 = \\frac{4}{3}\\pi(39,304) \\approx 164,636 \\text{ cubic inches}$$<br/>The space not taken up by the sphere is:<br/>$$314,432 - 164,636 \\approx 149,796 \\text{ cubic inches}$$<br/>That matches choice A — <strong>A</strong> is correct."
+      "content": "The volume of a sphere with radius 34 is:<br/>$$V_{\\text{sphere}} = \\frac{4}{3}\\pi(34)^3 = \\frac{4}{3}\\pi(39,304) \\approx 164,636 \\text{ cubic inches}$$<br/>The space not taken up by the sphere is:<br/>$$314,432 - 164,636 \\approx 149,796 \\text{ cubic inches}$$<br/>That confirms <strong>A</strong> is correct."
     }
   ]
 }

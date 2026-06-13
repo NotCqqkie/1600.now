@@ -1,9 +1,4 @@
 import type { Question as SourceQuestion } from "./all_questions";
-import mathPastRaw from "./questions/math_past.json";
-import readingPastRaw from "./questions/reading_past.json";
-
-const pastSatQuestionsData = [...mathPastRaw, ...readingPastRaw] as SourceQuestion[];
-import { questions as unofficialQuestionsData } from "./unofficialQuestions";
 import {
   getSatImageDisplaySize,
   resolveSatChoiceImage,
@@ -27,11 +22,7 @@ import {
   allMathDomains,
   allEnglishDomains,
 } from "./questionCategories";
-import {
-  questionSimilarityGroupByQuestion,
-  questionSimilarityGroupsById,
-} from "@/lib/generated/questionSimilarity.generated";
-import { HIDDEN_BANK_QUESTION_IDS } from "@/lib/generated/hiddenBankQuestions.generated";
+import { BANK_COUNT_INDEX } from "@/lib/generated/bankCountIndex.generated";
 import {
   BANK_SOURCE_LABELS,
   DEFAULT_BANK_SOURCE,
@@ -41,7 +32,6 @@ import {
   type BankSourceId,
   type BankSubject,
 } from "./bankTypes";
-import { getPastQuestionDifficulty } from "./pastQuestionDifficulty";
 
 interface RawBankSource {
   bankType: BankSourceId;
@@ -49,24 +39,122 @@ interface RawBankSource {
   questions: SourceQuestion[];
 }
 
-const rawSources: RawBankSource[] = [
-  {
-    bankType: "unofficial",
-    bankLabel: BANK_SOURCE_LABELS.unofficial,
-    questions: unofficialQuestionsData as SourceQuestion[],
-  },
-  {
-    bankType: "past",
-    bankLabel: BANK_SOURCE_LABELS.past,
-    questions: pastSatQuestionsData,
-  },
-];
+type CanonicalDifficulty = "Easy" | "Medium" | "Hard";
 
-const rawSourceMap: Record<BankSourceId, RawBankSource> = Object.fromEntries(
-  rawSources.map((source) => [source.bankType, source]),
-) as Record<BankSourceId, RawBankSource>;
+type QuestionSimilarityGroupRecord = {
+  label: string;
+  questionKeys: string[];
+};
 
-const hiddenBankQuestionIds = new Set<string>(HIDDEN_BANK_QUESTION_IDS);
+interface QuestionBankMetadata {
+  hiddenBankQuestionIds: Set<string>;
+  pastQuestionDifficultyMap: Record<string, CanonicalDifficulty | undefined> | null;
+  questionSimilarityGroupByQuestion: Record<string, string> | null;
+  questionSimilarityGroupsById: Record<string, QuestionSimilarityGroupRecord> | null;
+}
+
+export interface QuestionBankLoadOptions {
+  includeSimilarity?: boolean;
+}
+
+export type BankQuestionSimilarityMeta = Pick<
+  BankQuestion,
+  "similarityTag" | "similarityGroupId" | "similarityGroupLabel" | "similarityGroupSize"
+>;
+
+const rawQuestionLoaders: Record<BankSourceId, Record<BankSubject, () => Promise<SourceQuestion[]>>> = {
+  past: {
+    math: () => import("./questions/math_past.json").then((mod) => mod.default as SourceQuestion[]),
+    reading: () => import("./questions/reading_past.json").then((mod) => mod.default as SourceQuestion[]),
+  },
+  unofficial: {
+    math: () => import("./questions/unofficial_math.json").then((mod) => mod.default as SourceQuestion[]),
+    reading: () => import("./questions/unofficial_reading.json").then((mod) => mod.default as SourceQuestion[]),
+  },
+};
+
+const rawSourcePromiseCache = new Map<string, Promise<RawBankSource>>();
+let hiddenBankQuestionIdsPromise: Promise<Set<string>> | null = null;
+let pastQuestionDifficultyMapPromise: Promise<Record<string, CanonicalDifficulty | undefined>> | null = null;
+let questionSimilarityPromise: Promise<Pick<QuestionBankMetadata, "questionSimilarityGroupByQuestion" | "questionSimilarityGroupsById">> | null = null;
+
+const makeSourceSubjectCacheKey = (sourceId: BankSourceId, subject: BankSubject) =>
+  `${sourceId}:${subject}`;
+
+const loadHiddenBankQuestionIds = () => {
+  hiddenBankQuestionIdsPromise ??= import("@/lib/generated/hiddenBankQuestions.generated").then(
+    (mod) => new Set<string>(mod.HIDDEN_BANK_QUESTION_IDS),
+  );
+  return hiddenBankQuestionIdsPromise;
+};
+
+const loadPastQuestionDifficultyMap = () => {
+  pastQuestionDifficultyMapPromise ??= import("./pastQuestionDifficultyMap.json").then(
+    (mod) => mod.default as Record<string, CanonicalDifficulty | undefined>,
+  );
+  return pastQuestionDifficultyMapPromise;
+};
+
+const loadQuestionSimilarity = () => {
+  questionSimilarityPromise ??= import("@/lib/generated/questionSimilarity.generated").then((mod) => ({
+    questionSimilarityGroupByQuestion: mod.questionSimilarityGroupByQuestion as Record<string, string>,
+    questionSimilarityGroupsById: mod.questionSimilarityGroupsById as Record<string, QuestionSimilarityGroupRecord>,
+  }));
+  return questionSimilarityPromise;
+};
+
+export const loadQuestionSimilarityMeta = async (
+  stableId: string,
+): Promise<BankQuestionSimilarityMeta> => {
+  const similarity = await loadQuestionSimilarity();
+  const similarityGroupId = similarity.questionSimilarityGroupByQuestion[stableId] ?? null;
+  const similarityGroup = similarityGroupId
+    ? similarity.questionSimilarityGroupsById[similarityGroupId]
+    : null;
+
+  return {
+    similarityTag: similarityGroupId,
+    similarityGroupId,
+    similarityGroupLabel: similarityGroup?.label ?? null,
+    similarityGroupSize: similarityGroup?.questionKeys.length ?? null,
+  };
+};
+
+const loadQuestionBankMetadata = async (
+  sourceIds: BankSourceId[],
+  options: QuestionBankLoadOptions = {},
+): Promise<QuestionBankMetadata> => {
+  const [hiddenBankQuestionIds, pastQuestionDifficultyMap, similarity] = await Promise.all([
+    loadHiddenBankQuestionIds(),
+    sourceIds.includes("past") ? loadPastQuestionDifficultyMap() : Promise.resolve(null),
+    options.includeSimilarity ? loadQuestionSimilarity() : Promise.resolve(null),
+  ]);
+
+  return {
+    hiddenBankQuestionIds,
+    pastQuestionDifficultyMap,
+    questionSimilarityGroupByQuestion: similarity?.questionSimilarityGroupByQuestion ?? null,
+    questionSimilarityGroupsById: similarity?.questionSimilarityGroupsById ?? null,
+  };
+};
+
+const loadRawSource = (
+  sourceId: BankSourceId,
+  subject: BankSubject,
+): Promise<RawBankSource> => {
+  const cacheKey = makeSourceSubjectCacheKey(sourceId, subject);
+  const cached = rawSourcePromiseCache.get(cacheKey);
+  if (cached) return cached;
+
+  const promise = rawQuestionLoaders[sourceId][subject]().then((questions) => ({
+    bankType: sourceId,
+    bankLabel: BANK_SOURCE_LABELS[sourceId],
+    questions,
+  }));
+
+  rawSourcePromiseCache.set(cacheKey, promise);
+  return promise;
+};
 
 export interface BankChoice {
   id: string;
@@ -124,9 +212,13 @@ const normalizeDifficulty = (value: string | null | undefined): "Easy" | "Medium
   return null;
 };
 
-const resolveDifficulty = (source: RawBankSource, q: SourceQuestion): "Easy" | "Medium" | "Hard" | null =>
+const resolveDifficulty = (
+  source: RawBankSource,
+  q: SourceQuestion,
+  metadata: QuestionBankMetadata,
+): "Easy" | "Medium" | "Hard" | null =>
   source.bankType === "past"
-    ? getPastQuestionDifficulty(q.id) ?? normalizeDifficulty(q.difficulty)
+    ? metadata.pastQuestionDifficultyMap?.[String(q.id)] ?? normalizeDifficulty(q.difficulty)
     : normalizeDifficulty(q.difficulty);
 
 const sanitizeMathText = (text: string | null | undefined): string => {
@@ -202,7 +294,7 @@ const looksLikeImageDescription = (text: string | null | undefined): boolean => 
   // Has actual math? Then it's not a pure description.
   if (/\$[^$]+\$/.test(trimmed)) return false;
   if (/^\s*•/.test(trimmed)) return true;
-  if (/(comma\s+(negative\s+)?\d|open parenthesis|close parenthesis|y\s*-\s*intercept|x\s*-\s*intercept|parabola opens|the curve|the graph|the line passes through|left to right|quadrant\s+\d)/i.test(trimmed)) return true;
+  if (/(comma\s+(negative\s+)?\d|open parenthesis|close parenthesis|y\s*-\s*intercept|x\s*-\s*intercept|parabola opens|the graph|the line passes through|left to right|quadrant\s+\d)/i.test(trimmed)) return true;
   return false;
 };
 
@@ -250,10 +342,12 @@ const QUESTION_PROMPT_PATTERNS = [
   /^what does the graph\b/i,
   /^what is the main idea\b/i,
   /^what is the main purpose\b/i,
+  /^what choice\b/i,
   /^what is true\b/i,
   /^what can be concluded\b/i,
   /^what can reasonably be inferred\b/i,
   /^what does the text most strongly suggest\b/i,
+  /^as used in the text\b/i,
   /^which finding\b/i,
   /^which statement\b/i,
   /^how would the author\b/i,
@@ -463,7 +557,11 @@ const splitEnglishStem = (raw: string): { passage?: string; questionText?: strin
   return splitTrailingQuestionPrompt(fallbackSplit.passage ?? "") ?? fallbackSplit;
 };
 
-const normalizeQuestion = (source: RawBankSource, q: SourceQuestion): Omit<BankQuestion, "id"> => {
+const normalizeQuestion = (
+  source: RawBankSource,
+  q: SourceQuestion,
+  metadata: QuestionBankMetadata,
+): Omit<BankQuestion, "id"> => {
   const sourceCategory = normalizeCategoryFromSource({
     section: q.section,
     testName: q.testName,
@@ -516,10 +614,10 @@ const normalizeQuestion = (source: RawBankSource, q: SourceQuestion): Omit<BankQ
   const sourceId = String(q.id);
   const testName = source.bankType === "past" ? source.bankLabel : q.testName || source.bankLabel;
   const stableId = buildBankQuestionKey(source.bankType, subject, sourceId);
-  const hiddenFromBank = hiddenBankQuestionIds.has(stableId);
-  const similarityGroupId = questionSimilarityGroupByQuestion[stableId] ?? null;
+  const hiddenFromBank = metadata.hiddenBankQuestionIds.has(stableId);
+  const similarityGroupId = metadata.questionSimilarityGroupByQuestion?.[stableId] ?? null;
   const similarityGroup = similarityGroupId
-    ? questionSimilarityGroupsById[similarityGroupId]
+    ? metadata.questionSimilarityGroupsById?.[similarityGroupId]
     : null;
 
   return {
@@ -552,7 +650,7 @@ const normalizeQuestion = (source: RawBankSource, q: SourceQuestion): Omit<BankQ
     correctAnswer: normalizedCorrectAnswer,
     rationale: normalizedRationale,
     questionImages: normalizedQuestionImages,
-    difficulty: resolveDifficulty(source, q),
+    difficulty: resolveDifficulty(source, q, metadata),
     inPracticeTests: q.inPracticeTests ?? null,
     hiddenFromBank,
     category,
@@ -563,62 +661,64 @@ const normalizeQuestion = (source: RawBankSource, q: SourceQuestion): Omit<BankQ
   };
 };
 
-const poolCache = new Map<string, BankQuestion[]>();
-const sourcePoolCache = new Map<string, BankQuestion[]>();
-const rawSourceSubjectCache = new Map<string, SourceQuestion[]>();
-const normalizedSourceSubjectCache = new Map<string, Omit<BankQuestion, "id">[]>();
+const poolCache = new Map<string, Promise<BankQuestion[]>>();
+const sourcePoolCache = new Map<string, Promise<BankQuestion[]>>();
+const rawSourceSubjectCache = new Map<string, Promise<SourceQuestion[]>>();
+const normalizedSourceSubjectCache = new Map<string, Promise<Omit<BankQuestion, "id">[]>>();
 
-const makeSourceSubjectCacheKey = (sourceId: BankSourceId, subject: BankSubject) =>
-  `${sourceId}:${subject}`;
-
-const getRawSourceSubjectQuestions = (
+const getRawSourceSubjectQuestions = async (
   sourceId: BankSourceId,
   subject: BankSubject,
-): SourceQuestion[] => {
+): Promise<SourceQuestion[]> => {
   const cacheKey = makeSourceSubjectCacheKey(sourceId, subject);
   const cached = rawSourceSubjectCache.get(cacheKey);
   if (cached) return cached;
 
-  const source = rawSourceMap[sourceId];
-  const questions = source.questions.filter((question) => {
-    if (!hasRenderableStem(question)) return false;
-    if (hasUnsalvageableChoices(question)) return false;
-    const sourceCategory = normalizeCategoryFromSource({
-      section: question.section,
-      testName: question.testName,
-      subject: question.category?.subject,
-      domain: question.category?.domain ?? question.domain,
-      skill: question.category?.skill ?? question.skill,
-      confidence: question.category?.confidence,
-    });
+  const promise = loadRawSource(sourceId, subject).then((source) =>
+    source.questions.filter((question) => {
+      if (!hasRenderableStem(question)) return false;
+      if (hasUnsalvageableChoices(question)) return false;
+      const sourceCategory = normalizeCategoryFromSource({
+        section: question.section,
+        testName: question.testName,
+        subject: question.category?.subject,
+        domain: question.category?.domain ?? question.domain,
+        skill: question.category?.skill ?? question.skill,
+        confidence: question.category?.confidence,
+      });
 
-    const questionSubject: BankSubject =
-      (sourceCategory ? sourceCategory.subject === "Math" : isMathQuestion(question))
-        ? "math"
-        : "reading";
+      const questionSubject: BankSubject =
+        (sourceCategory ? sourceCategory.subject === "Math" : isMathQuestion(question))
+          ? "math"
+          : "reading";
 
-    return questionSubject === subject;
-  });
+      return questionSubject === subject;
+    }),
+  );
 
-  rawSourceSubjectCache.set(cacheKey, questions);
-  return questions;
+  rawSourceSubjectCache.set(cacheKey, promise);
+  return promise;
 };
 
 const getNormalizedSourceSubjectQuestions = (
   sourceId: BankSourceId,
   subject: BankSubject,
-): Omit<BankQuestion, "id">[] => {
-  const cacheKey = makeSourceSubjectCacheKey(sourceId, subject);
+  metadata: QuestionBankMetadata,
+  options: QuestionBankLoadOptions = {},
+): Promise<Omit<BankQuestion, "id">[]> => {
+  const cacheKey = `${makeSourceSubjectCacheKey(sourceId, subject)}:${options.includeSimilarity ? "similarity" : "base"}`;
   const cached = normalizedSourceSubjectCache.get(cacheKey);
   if (cached) return cached;
 
-  const source = rawSourceMap[sourceId];
-  const normalized = getRawSourceSubjectQuestions(sourceId, subject).map((question) =>
-    normalizeQuestion(source, question),
+  const promise = Promise.all([
+    loadRawSource(sourceId, subject),
+    getRawSourceSubjectQuestions(sourceId, subject),
+  ]).then(([source, questions]) =>
+    questions.map((question) => normalizeQuestion(source, question, metadata)),
   );
 
-  normalizedSourceSubjectCache.set(cacheKey, normalized);
-  return normalized;
+  normalizedSourceSubjectCache.set(cacheKey, promise);
+  return promise;
 };
 
 const getSourceIdsForFilter = (bankSource: BankSourceFilter): BankSourceId[] => {
@@ -626,7 +726,11 @@ const getSourceIdsForFilter = (bankSource: BankSourceFilter): BankSourceId[] => 
   return [bankSource];
 };
 
-const makePoolCacheKey = (subject: BankSubject, bankSource: BankSourceFilter) => `${subject}:${bankSource}`;
+const makePoolCacheKey = (
+  subject: BankSubject,
+  bankSource: BankSourceFilter,
+  options: QuestionBankLoadOptions = {},
+) => `${subject}:${bankSource}:${options.includeSimilarity ? "similarity" : "base"}`;
 
 const nearDuplicateSignature = (question: Record<string, unknown>): string => {
   const raw =
@@ -662,130 +766,166 @@ export const spaceOutNearDuplicates = <T extends Record<string, unknown>>(items:
   return result;
 };
 
-export const getBankPool = (
+export const loadBankPool = async (
   subject: BankSubject,
   bankSource: BankSourceFilter = DEFAULT_BANK_SOURCE,
-): BankQuestion[] => {
-  const cacheKey = makePoolCacheKey(subject, bankSource);
+  options: QuestionBankLoadOptions = {},
+): Promise<BankQuestion[]> => {
+  const cacheKey = makePoolCacheKey(subject, bankSource, options);
   const cached = poolCache.get(cacheKey);
   if (cached) return cached;
 
-  const rawPool = getSourceIdsForFilter(bankSource)
-    .flatMap((sourceId) => getNormalizedSourceSubjectQuestions(sourceId, subject));
+  const promise = (async () => {
+    const sourceIds = getSourceIdsForFilter(bankSource);
+    const metadata = await loadQuestionBankMetadata(sourceIds, options);
+    const rawPool = (
+      await Promise.all(
+        sourceIds.map((sourceId) =>
+          getNormalizedSourceSubjectQuestions(sourceId, subject, metadata, options),
+        ),
+      )
+    ).flat();
 
-  const visiblePool = rawPool.filter((question) => !question.hiddenFromBank);
+    const visiblePool = rawPool.filter((question) => !question.hiddenFromBank);
 
-  const pool = spaceOutNearDuplicates(visiblePool).map((question, index) => ({
-    ...question,
-    id: index + 1,
-  }));
-
-  poolCache.set(cacheKey, pool);
-  return pool;
-};
-
-export const getAllBankQuestions = getBankPool;
-
-export const getAllSourceBankQuestions = (
-  subject: BankSubject,
-  bankSource: BankSourceFilter = DEFAULT_BANK_SOURCE,
-): BankQuestion[] => {
-  const cacheKey = makePoolCacheKey(subject, bankSource);
-  const cached = sourcePoolCache.get(cacheKey);
-  if (cached) return cached;
-
-  const sourcePool = getSourceIdsForFilter(bankSource)
-    .flatMap((sourceId) => getNormalizedSourceSubjectQuestions(sourceId, subject))
-    .map((question, index) => ({
+    return spaceOutNearDuplicates(visiblePool).map((question, index) => ({
       ...question,
       id: index + 1,
     }));
+  })();
 
-  sourcePoolCache.set(cacheKey, sourcePool);
-  return sourcePool;
+  poolCache.set(cacheKey, promise);
+  return promise;
 };
 
-export const getBankQuestion = (
+export const loadAllBankQuestions = loadBankPool;
+
+export const loadAllSourceBankQuestions = async (
+  subject: BankSubject,
+  bankSource: BankSourceFilter = DEFAULT_BANK_SOURCE,
+  options: QuestionBankLoadOptions = {},
+): Promise<BankQuestion[]> => {
+  const cacheKey = makePoolCacheKey(subject, bankSource, options);
+  const cached = sourcePoolCache.get(cacheKey);
+  if (cached) return cached;
+
+  const promise = (async () => {
+    const sourceIds = getSourceIdsForFilter(bankSource);
+    const metadata = await loadQuestionBankMetadata(sourceIds, options);
+    const sourcePool = (
+      await Promise.all(
+        sourceIds.map((sourceId) =>
+          getNormalizedSourceSubjectQuestions(sourceId, subject, metadata, options),
+        ),
+      )
+    ).flat();
+
+    return sourcePool.map((question, index) => ({
+      ...question,
+      id: index + 1,
+    }));
+  })();
+
+  sourcePoolCache.set(cacheKey, promise);
+  return promise;
+};
+
+export const loadBankQuestion = async (
   subject: BankSubject,
   questionIndex: number,
   bankSource: BankSourceFilter = DEFAULT_BANK_SOURCE,
-): BankQuestion | null => getBankPool(subject, bankSource)[questionIndex - 1] || null;
+  options: QuestionBankLoadOptions = {},
+): Promise<BankQuestion | null> => (await loadBankPool(subject, bankSource, options))[questionIndex - 1] || null;
 
-const sourceIdIndexCache = new Map<string, Map<string, BankQuestion>>();
-const sourceQuestionIdIndexCache = new Map<string, Map<string, BankQuestion>>();
+const sourceIdIndexCache = new Map<string, Promise<Map<string, BankQuestion>>>();
+const sourceQuestionIdIndexCache = new Map<string, Promise<Map<string, BankQuestion>>>();
 
-export const getBankQuestionBySourceId = (
+export const loadBankQuestionBySourceId = async (
   subject: BankSubject,
   sourceId: string,
   bankSource: BankSourceFilter = DEFAULT_BANK_SOURCE,
-): BankQuestion | null => {
-  const cacheKey = makePoolCacheKey(subject, bankSource);
+  options: QuestionBankLoadOptions = {},
+): Promise<BankQuestion | null> => {
+  const cacheKey = makePoolCacheKey(subject, bankSource, options);
   let index = sourceIdIndexCache.get(cacheKey);
   if (!index) {
-    index = new Map(getBankPool(subject, bankSource).map((q) => [q.sourceId, q]));
+    index = loadBankPool(subject, bankSource, options).then((questions) =>
+      new Map(questions.map((q) => [q.sourceId, q])),
+    );
     sourceIdIndexCache.set(cacheKey, index);
   }
-  return index.get(sourceId) ?? null;
+  return (await index).get(sourceId) ?? null;
 };
 
-export const getSourceBankQuestionBySourceId = (
+export const loadSourceBankQuestionBySourceId = async (
   subject: BankSubject,
   sourceId: string,
   bankSource: BankSourceFilter = DEFAULT_BANK_SOURCE,
-): BankQuestion | null => {
-  const cacheKey = makePoolCacheKey(subject, bankSource);
+  options: QuestionBankLoadOptions = {},
+): Promise<BankQuestion | null> => {
+  const cacheKey = makePoolCacheKey(subject, bankSource, options);
   let index = sourceQuestionIdIndexCache.get(cacheKey);
   if (!index) {
-    index = new Map(getAllSourceBankQuestions(subject, bankSource).map((q) => [q.sourceId, q]));
+    index = loadAllSourceBankQuestions(subject, bankSource, options).then((questions) =>
+      new Map(questions.map((q) => [q.sourceId, q])),
+    );
     sourceQuestionIdIndexCache.set(cacheKey, index);
   }
-  return index.get(sourceId) ?? null;
+  return (await index).get(sourceId) ?? null;
 };
 
 export const getBankCounts = (
   bankSource: BankSourceFilter = DEFAULT_BANK_SOURCE,
 ): Record<BankSubject, number> => ({
-  math: getBankPool("math", bankSource).length,
-  reading: getBankPool("reading", bankSource).length,
+  math: BANK_COUNT_INDEX[bankSource].math.total,
+  reading: BANK_COUNT_INDEX[bankSource].reading.total,
 });
 
 export const bankCounts = getBankCounts("all");
 
-export const getQuestionsByDomain = (
+export const loadQuestionsByDomain = async (
   subject: BankSubject,
   domain: MathDomain | EnglishDomain,
   bankSource: BankSourceFilter = DEFAULT_BANK_SOURCE,
-): BankQuestion[] => getBankPool(subject, bankSource).filter((question) => question.category.domain === domain);
+  options: QuestionBankLoadOptions = {},
+): Promise<BankQuestion[]> =>
+  (await loadBankPool(subject, bankSource, options)).filter((question) => question.category.domain === domain);
 
-export const getQuestionsBySkill = (
+export const loadQuestionsBySkill = async (
   subject: BankSubject,
   skill: MathSkill | EnglishSkill,
   bankSource: BankSourceFilter = DEFAULT_BANK_SOURCE,
-): BankQuestion[] => getBankPool(subject, bankSource).filter((question) => question.category.skill === skill);
+  options: QuestionBankLoadOptions = {},
+): Promise<BankQuestion[]> =>
+  (await loadBankPool(subject, bankSource, options)).filter((question) => question.category.skill === skill);
 
-export const getDomainCounts = (
+export const loadDomainCounts = async (
   subject: BankSubject,
   bankSource: BankSourceFilter = DEFAULT_BANK_SOURCE,
-): Record<string, number> => {
+  options: QuestionBankLoadOptions = {},
+): Promise<Record<string, number>> => {
   const counts: Record<string, number> = {};
-  for (const question of getBankPool(subject, bankSource)) {
+  for (const question of await loadBankPool(subject, bankSource, options)) {
     counts[question.category.domain] = (counts[question.category.domain] || 0) + 1;
   }
   return counts;
 };
 
-export const getSkillCounts = (
+export const loadSkillCounts = async (
   subject: BankSubject,
   bankSource: BankSourceFilter = DEFAULT_BANK_SOURCE,
-): Record<string, number> => {
+  options: QuestionBankLoadOptions = {},
+): Promise<Record<string, number>> => {
   const counts: Record<string, number> = {};
-  for (const question of getBankPool(subject, bankSource)) {
+  for (const question of await loadBankPool(subject, bankSource, options)) {
     counts[question.category.skill] = (counts[question.category.skill] || 0) + 1;
   }
   return counts;
 };
 
-export const getLowConfidenceQuestions = (
+export const loadLowConfidenceQuestions = async (
   subject: BankSubject,
   bankSource: BankSourceFilter = DEFAULT_BANK_SOURCE,
-): BankQuestion[] => getBankPool(subject, bankSource).filter((question) => question.category.confidence === "low");
+  options: QuestionBankLoadOptions = {},
+): Promise<BankQuestion[]> =>
+  (await loadBankPool(subject, bankSource, options)).filter((question) => question.category.confidence === "low");

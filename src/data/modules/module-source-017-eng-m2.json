@@ -340,7 +340,7 @@
     "difficulty": "Medium",
     "question_number": 11,
     "test_name": "Module Source 017 Eng M2",
-    "passage": "Which choice best describes data in the graph that support Liu et al.'s conclusion?\nHigh entropy alloys (HEAs) typically combine five or more elements in roughly equal proportions, and medium entropy alloys (MEAs) typically combine three or four elements in similar proportions. HEAs and MEAs are known for withstanding cracking at extremely low (cryogenic) temperatures relatively well, though their fracture toughness generally falls as temperature does. Dong Liu et al. investigated the fracture toughness (both the initiation and propagation toughness) of the HEA CrMnFeCoNi and its MEA derivative CrCoNi and concluded that the alloys’ toughness performance differs from that of most HEAs and MEAs.",
+    "passage": "Which choice best describes data in the graph that support Liu et al.'s conclusion?\nHigh entropy alloys (HEAs) typically combine five or more elements in roughly equal proportions, and medium entropy alloys (MEAs) typically combine three or four elements in similar proportions. HEAs and MEAs are known for withstanding cracking at extremely low (cryogenic) temperatures relatively well, though their fracture toughness generally falls as temperature does. Dong Liu et al. investigated the fracture toughness (both the initiation and propagation toughness) of the HEA CrMnFeCoNi and its MEA derivative CrCoNi and concluded that the alloys' toughness performance differs from that of most HEAs and MEAs.",
     "question_text": "Which choice best describes data in the graph that support Liu et al.'s conclusion?",
     "choices": [
       {
@@ -610,7 +610,7 @@
     "difficulty": "Medium",
     "question_number": 19,
     "test_name": "Module Source 017 Eng M2",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn a 2022 study, Fa-Gang Wang et al. concluded that ocher artifacts excavated from an archaeological site in China date to between 39,000 and 41,000 years ago. The reliability of the dates that Wang et al. have posited, which were obtained through processes that determined when buried mineral grains surrounding the ocher artifacts were last exposed to sunlight, ______ in part upon the researchers’ exclusion of mineral grains that lacked adequate sun exposure before burial.",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn a 2022 study, Fa-Gang Wang et al. concluded that ocher artifacts excavated from an archaeological site in China date to between 39,000 and 41,000 years ago. The reliability of the dates that Wang et al. have posited, which were obtained through processes that determined when buried mineral grains surrounding the ocher artifacts were last exposed to sunlight, ______ in part upon the researchers' exclusion of mineral grains that lacked adequate sun exposure before burial.",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {
@@ -683,7 +683,7 @@
       },
       {
         "label": "B",
-        "text": "awards;respectively"
+        "text": "awards; respectively"
       },
       {
         "label": "C",

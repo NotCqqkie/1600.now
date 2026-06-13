@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li>A: $P=\\frac{w}{110}$. Matches $\\frac{2w}{220}$ exactly. Correct.</li><li>B: $P=440w$. Multiplies instead of divides &mdash; for $w=220$, this gives $96{,}800$ gallons, absurd.</li><li>C: $P=\\frac{w}{220}$. This is gallons for one coat, not two.</li><li>D: $P=220w$. Multiplies instead of divides &mdash; nonsensical units.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li>A: $P=\\frac{w}{110}$. Matches $\\frac{2w}{220}$ exactly. Correct.</li><li>B: $P=440w$. Multiplies instead of divides &mdash; for $w=220$, this gives $96{,}800$ gallons, absurd.</li><li>C: $P=\\frac{w}{220}$. This is gallons for one coat, not two.</li><li>D: $P=220w$. Multiplies instead of divides &mdash; nonsensical units.</li></ul>That confirms <strong>A</strong> is correct."
     }
   ]
 }

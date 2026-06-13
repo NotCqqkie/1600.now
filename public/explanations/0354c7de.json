@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li>Choice A: 5(x + 3) — distributing gives 5x + 15 ✓. That matches choice A — <strong>A</strong> is correct.</li><li>Choice B: 5(x + 10) — distributing gives 5x + 50 &ne; 5x + 15. Eliminated.</li><li>Choice C: 5(x + 15) — distributing gives 5x + 75 &ne; 5x + 15. Eliminated.</li><li>Choice D: 5(x + 20) — distributing gives 5x + 100 &ne; 5x + 15. Eliminated.</li></ul>That matches choice A — <strong>A</strong> is correct."
+      "content": "<ul><li>Choice A: $5 \\times (x + 3)$ — distributing gives 5x + 15 ✓. That matches <strong>Choice A &mdash; $5 \\times (x + 3)$</strong>.</li><li>Choice B: $5 \\times (x + 10)$ — distributing gives 5x + 50 &ne; 5x + 15. Eliminated.</li><li>Choice C: $5 \\times (x + 15)$ — distributing gives 5x + 75 &ne; 5x + 15. Eliminated.</li><li>Choice D: $5 \\times (x + 20)$ — distributing gives 5x + 100 &ne; 5x + 15. Eliminated.</li></ul>That matches <strong>Choice A &mdash; $5 \\times (x + 3)$</strong>."
     }
   ]
 }

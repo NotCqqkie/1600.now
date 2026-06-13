@@ -13,7 +13,7 @@
     },
     {
       "title": "Match to the form with positive $c,d$",
-      "content": "Rewrite as $f(x)=11-x=d-cx$ with $d=11$ and $c=1$, both positive. That matches choice <strong>A</strong>."
+      "content": "Rewrite as $f(x)=11-x=d-cx$ with $d=11$ and $c=1$, both positive. That matches the correct answer, <strong>A</strong>."
     }
   ]
 }

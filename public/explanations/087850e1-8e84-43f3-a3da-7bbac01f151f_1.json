@@ -1,1 +1,15 @@
-{"questionId": "087850e1-8e84-43f3-a3da-7bbac01f151f_1", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the contextual signal", "content": "The shortcoming was a <em>myopic focus on a few countries</em>. Later, researchers gained <strong>new access to data</strong> from South America and Eastern Europe — that fixes/reduces the geographic narrowness. The blank names that improvement."}, {"title": "Match the word", "content": "<strong>\"Mitigate\"</strong> means to make less severe — exactly what new data did to the geographic narrowness.<br/><br/>(A) \"validate\" = confirm (wrong direction). (B) \"presuppose\" = assume in advance. (C) \"categorize\" = sort, doesn't fix anything.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "087850e1-8e84-43f3-a3da-7bbac01f151f_1",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the contextual signal",
+      "content": "The shortcoming was a <em>myopic focus on a few countries</em>. Later, researchers gained <strong>new access to data</strong> from South America and Eastern Europe — that fixes/reduces the geographic narrowness. The blank names that improvement."
+    },
+    {
+      "title": "Match the word",
+      "content": "<strong>\"Mitigate\"</strong> means to make less severe — exactly what new data did to the geographic narrowness.<br/><br/>(A) \"validate\" = confirm (wrong direction). (B) \"presuppose\" = assume in advance. (C) \"categorize\" = sort, doesn't fix anything.<br/><br/>That matches <strong>Choice D &mdash; mitigate</strong>."
+    }
+  ]
+}

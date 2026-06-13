@@ -1,1 +1,15 @@
-{"questionId":"348385bf-0e3c-48f0-85b8-e84dfdf12196_20","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"Both the clause before the blank and the clause after it are independent clauses. The correct choice must properly separate two independent clauses."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A</strong>: leaves a dangling or unattached word that makes the first clause incomplete. &#10007;</li><li><strong>Choice B &mdash; period</strong>: splits the two independent clauses into two complete sentences, satisfying the rule that independent clauses must be separated by a period, semicolon, or comma with a coordinating conjunction. &#10003;</li><li><strong>Choice C</strong>: creates an incomplete first clause by ending with an unattached word. &#10007;</li><li><strong>Choice D</strong>: same problem &mdash; the first clause is left dangling and grammatically incomplete. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "348385bf-0e3c-48f0-85b8-e84dfdf12196_20",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "Both the clause before the blank and the clause after it are independent clauses. The correct choice must properly separate two independent clauses."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — Nation, in</strong>: leaves a dangling or unattached word that makes the first clause incomplete. &#10007;</li><li><strong>Choice B — Nation. In</strong>: splits the two independent clauses into two complete sentences, satisfying the rule that independent clauses must be separated by a period, semicolon, or comma with a coordinating conjunction. &#10003;</li><li><strong>Choice C — Nation and in</strong>: creates an incomplete first clause by ending with an unattached word. &#10007;</li><li><strong>Choice D — Nation in</strong>: same problem &mdash; the first clause is left dangling and grammatically incomplete. &#10007;</li></ul><strong>B</strong> is correct."
+    }
+  ]
+}

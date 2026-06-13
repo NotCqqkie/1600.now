@@ -1,1 +1,15 @@
-{"questionId":"7c17367d-234a-4cdb-b654-3dc1d5243ede_2","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence says UNESCO hopes sites will not be willfully damaged or left to ______. Both blanks describe negative outcomes the UN wants to prevent, so the missing word must name something bad that happens to a protected site when it is neglected."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'provoke.'</strong>: Leaving a site to &ldquo;provoke&rdquo; makes no sense grammatically or logically. &#10007;</li><li><strong>Choice B &mdash; 'regenerate.'</strong>: Regenerate means to grow or improve &mdash; a positive outcome UNESCO would welcome, not prevent. &#10007;</li><li><strong>Choice C &mdash; 'deteriorate.'</strong>: Deteriorate means to decline or worsen over time &mdash; exactly the negative outcome UNESCO's preservation mission aims to stop. &#10003;</li><li><strong>Choice D &mdash; 'diversify.'</strong>: Diversify is neutral and doesn't fit the context of neglect or damage. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "7c17367d-234a-4cdb-b654-3dc1d5243ede_2",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence says UNESCO hopes sites will not be willfully damaged or left to ______. Both blanks describe negative outcomes the UN wants to prevent, so the missing word must name something bad that happens to a protected site when it is neglected."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;provoke.&rsquo;</strong>: Leaving a site to &ldquo;provoke&rdquo; makes no sense grammatically or logically. &#10007;</li><li><strong>Choice B &mdash; &lsquo;regenerate.&rsquo;</strong>: Regenerate means to grow or improve &mdash; a positive outcome UNESCO would welcome, not prevent. &#10007;</li><li><strong>Choice C &mdash; &lsquo;deteriorate.&rsquo;</strong>: Deteriorate means to decline or worsen over time &mdash; exactly the negative outcome UNESCO's preservation mission aims to stop. &#10003;</li><li><strong>Choice D &mdash; &lsquo;diversify.&rsquo;</strong>: Diversify is neutral and doesn't fit the context of neglect or damage. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

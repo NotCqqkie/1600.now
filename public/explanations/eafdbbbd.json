@@ -13,7 +13,7 @@
     },
     {
       "title": "Solve and check choices",
-      "content": "Multiply by $-12$ to get $x+5=84$, so $x=79$. Choice C is correct. Choice B would make the left side $0$, not $-7$."
+      "content": "Multiply by $-12$ to get $x+5=84$, so $x=79$. $79$ is correct. $-5$ would make the left side $0$, not $-7$. The shared factor method avoids distributing fractions separately."
     }
   ]
 }

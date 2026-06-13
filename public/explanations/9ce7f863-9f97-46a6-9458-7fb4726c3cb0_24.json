@@ -1,1 +1,15 @@
-{"questionId":"9ce7f863-9f97-46a6-9458-7fb4726c3cb0_24","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The notes highlight a specific numerical difference: the fennec fox has 64 chromosomes while the red fox has 34. The answer must use both numbers to compare the two species."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A</strong>: omits the chromosome numbers entirely. &#10007;</li><li><strong>Choice B</strong>: names both fox species and contrasts 64 versus 34 chromosomes directly. &#10003;</li><li><strong>Choice C</strong>: describes only one fox or fails to make the comparison. &#10007;</li><li><strong>Choice D</strong>: buries or omits the key numerical contrast. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "9ce7f863-9f97-46a6-9458-7fb4726c3cb0_24",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The notes highlight a specific numerical difference: the fennec fox has 64 chromosomes while the red fox has 34. The answer must use both numbers to compare the two species."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Genes, which are in fennec fox chromosomes, carry critical instructions for determining the fox's physical traits.</strong>: omits the chromosome numbers entirely. &#10007;</li><li><strong>Choice B &mdash; While both are species of foxes, the fennec fox and the red fox don't have the same number of chromosomes: fennec foxes have sixty-four, whereas red foxes have only thirty-four.</strong>: names both fox species and contrasts 64 versus 34 chromosomes directly. &#10003;</li><li><strong>Choice C &mdash; The fennec fox and the red fox both have chromosomes, which contain genes.</strong>: describes only one fox or fails to make the comparison. &#10007;</li><li><strong>Choice D &mdash; The red fox, a species of fox, has thirty-four cellular structures called chromosomes.</strong>: buries or omits the key numerical contrast. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

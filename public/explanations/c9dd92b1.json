@@ -13,7 +13,7 @@
     },
     {
       "title": "Predict density at 60% and match a choice",
-      "content": "Of the choices $1{,}200$, $1{,}250$, $1{,}300$, and $1{,}350$, the closest prediction is $1{,}300$. That matches choice C &mdash; <strong>C</strong> is correct."
+      "content": "Of the choices $1{,}200$, $1{,}250$, $1{,}300$, and $1{,}350$, the closest prediction is $1{,}300$. That is the correct answer."
     }
   ]
 }

@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; $c = 700(0.08)^m$</strong>: $0.08$ is just the rate, not the growth factor; this decays to zero. &#10007;</li><li><strong>Choice B &mdash; $c = 700(1.08)^m$</strong>: starting value 700, growth factor $1 + 0.08 = 1.08$, exponent $m$ months. &#10003;</li><li><strong>Choice C &mdash; $c = 700 + 1.08m$</strong>: linear, not exponential; a flat 8% increase each month compounds. &#10007;</li><li><strong>Choice D &mdash; $c = 700 + 0.08m$</strong>: linear and uses the raw rate rather than customer counts. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; $c = 700(0.08)^m$</strong>: $0.08$ is just the rate, not the growth factor; this decays to zero. &#10007;</li><li><strong>Choice B &mdash; $c = 700(1.08)^m$</strong>: starting value 700, growth factor $1 + 0.08 = 1.08$, exponent $m$ months. &#10003;</li><li><strong>Choice C &mdash; $c = 700(1.8)^m$</strong>: uses a growth factor of 1.8, which would mean an 80% monthly increase, not 8%. &#10007;</li><li><strong>Choice D &mdash; $c = 700(8)^m$</strong>: uses a growth factor of 8, which is far larger than an 8% increase. &#10007;</li></ul>That matches <strong>Choice B &mdash; $c = 700(1.08)^m$</strong>."
     }
   ]
 }

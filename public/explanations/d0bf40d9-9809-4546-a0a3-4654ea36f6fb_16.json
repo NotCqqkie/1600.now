@@ -9,7 +9,7 @@
     },
     {
       "title": "Test choice C",
-      "content": "Backsolving — testing choice C (37):<br/>$$f(37) = \\frac{37+11}{3} = \\frac{48}{3} = 16$$<br/>This equals 16, confirming the condition is satisfied. That matches choice C — <strong>C</strong> is correct."
+      "content": "Backsolving — testing choice C (37):<br/>$$f(37) = \\frac{37+11}{3} = \\frac{48}{3} = 16$$<br/>This equals 16, confirming the condition is satisfied. That is the correct answer."
     }
   ]
 }

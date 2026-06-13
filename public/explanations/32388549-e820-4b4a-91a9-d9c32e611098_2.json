@@ -9,7 +9,7 @@
     },
     {
       "title": "Interpret the y-coordinate of the vertex",
-      "content": "For any function, the x-coordinate of the vertex is the input value (price) and the y-coordinate is the output value (revenue).<br/><br/>Since this parabola opens downward, the vertex is the highest point on the curve.<br/><br/>The y-value at this highest point represents the maximum revenue the company can achieve.<br/><br/>That matches choice C — <strong>C</strong> is correct."
+      "content": "For any function, the x-coordinate of the vertex is the input value (price) and the y-coordinate is the output value (revenue).<br/><br/>Since this parabola opens downward, the vertex is the highest point on the curve.<br/><br/>The y-value at this highest point represents the maximum revenue the company can achieve.<br/><br/><strong>C</strong> is correct."
     }
   ]
 }

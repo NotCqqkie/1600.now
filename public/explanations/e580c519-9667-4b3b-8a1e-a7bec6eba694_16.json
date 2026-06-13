@@ -1,1 +1,15 @@
-{"questionId":"e580c519-9667-4b3b-8a1e-a7bec6eba694_16","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank connects two independent clauses: &lsquo;dates back to the 3rd century BCE&rsquo; and &lsquo;the poem&apos;s heroic narrative still captivates modern readers.&rsquo; The second clause contrasts with the first (ancient vs. still modern), so the connector must join two independent clauses and signal contrast."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; '3rd century BCE,'</strong>: A comma alone cannot join two independent clauses &mdash; this creates a comma splice. &#10007;</li><li><strong>Choice B &mdash; '3rd century BCE yet,'</strong>: Placing &lsquo;yet&rsquo; before the comma puts the conjunction inside the first clause rather than between them; the second clause is then left unconnected. &#10007;</li><li><strong>Choice C &mdash; '3rd century BCE, yet'</strong>: Comma + coordinating conjunction correctly joins two independent clauses, and &lsquo;yet&rsquo; signals the intended contrast. &#10003;</li><li><strong>Choice D &mdash; '3rd century BCE.'</strong>: A period would force &lsquo;the&rsquo; to start a new sentence with a lowercase letter (capitalization error), and it removes the contrast signal that &lsquo;yet&rsquo; provides between the ancient origin and modern appeal. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_16",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank connects two independent clauses: &lsquo;dates back to the 3rd century BCE&rsquo; and &lsquo;the poem's heroic narrative still captivates modern readers.&rsquo; The second clause contrasts with the first (ancient vs. still modern), so the connector must join two independent clauses and signal contrast."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"3rd century BCE,\"</strong>: A comma alone cannot join two independent clauses &mdash; this creates a comma splice. &#10007;</li><li><strong>\"3rd century BCE yet,\"</strong>: Placing &lsquo;yet&rsquo; before the comma puts the conjunction inside the first clause rather than between them; the second clause is then left unconnected. &#10007;</li><li><strong>\"3rd century BCE, yet\"</strong>: Comma + coordinating conjunction correctly joins two independent clauses, and &lsquo;yet&rsquo; signals the intended contrast. &#10003;</li><li><strong>\"3rd century BCE.\"</strong>: A period would force &lsquo;the&rsquo; to start a new sentence with a lowercase letter (capitalization error), and it removes the contrast signal that &lsquo;yet&rsquo; provides between the ancient origin and modern appeal. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice <strong>D</strong> is correct. It checks both points: $70(4)-110=170$ and $70(10)-110=590$. The other choices fail at least one of those two point checks."
+      "content": "<strong>D</strong> is correct. It checks both points: $70(4)-110=170$ and $70(10)-110=590$. The other choices fail at least one of those two point checks."
     }
   ]
 }

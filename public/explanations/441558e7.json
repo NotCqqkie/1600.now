@@ -13,7 +13,7 @@
     },
     {
       "title": "Check each choice",
-      "content": "<ul><li>A) $41$ &mdash; matches $41.46$ rounded. Correct.</li><li>B) $61$ &mdash; would need $y\\approx 61$, but we got $41.46$. Eliminated.</li><li>C) $83$ &mdash; this is roughly $58+\\text{something}$, but the model is not just $x+c$. Eliminated.</li><li>D) $190$ &mdash; far too large; $0.67(58)$ is well under $40$. Eliminated.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li>A) $41$ &mdash; matches $41.46$ rounded. Correct.</li><li>B) $61$ &mdash; would need $y\\approx 61$, but we got $41.46$. Eliminated.</li><li>C) $83$ &mdash; this is roughly 58 plus another term, but the model is not just $x+c$. Eliminated.</li><li>D) $190$ &mdash; far too large; 0.67 times 58 is well under $40$. Eliminated.</li></ul><strong>A</strong> is correct."
     }
   ]
 }

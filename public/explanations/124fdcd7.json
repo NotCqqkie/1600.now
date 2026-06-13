@@ -1,1 +1,15 @@
-{"questionId": "124fdcd7", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what would support the researchers' claim", "content": "The researchers claim archaeologists won't be replaced despite a model being equally accurate at categorization. To support this claim directly, we need evidence that archaeologists have irreplaceable value beyond just categorizing pottery—work that a computer model cannot do."}, {"title": "Match the evidence to the claim", "content": "Choice C shows that categorization limits archaeologists' time for tasks only human experts can do.<br/><br/>If a computer model handles categorization, archaeologists can focus on that uniquely human work, making replacement unlikely.<br/><br/>The other three either show why the model would be preferable (A), make the accuracy comparison irrelevant (B), or fail to explain why replacement won't happen (D).<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "124fdcd7",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what would support the researchers' claim",
+      "content": "The researchers claim archaeologists won't be replaced despite a model being equally accurate at categorization. To support this claim directly, we need evidence that archaeologists have irreplaceable value beyond just categorizing pottery—work that a computer model cannot do."
+    },
+    {
+      "title": "Match the evidence to the claim",
+      "content": "<strong>Choice C &mdash; A survey of archaeologists showed that categorizing pottery fragments limits the amount of time they can dedicate to other important tasks that only human experts can do.</strong> shows that categorization limits archaeologists' time for tasks only human experts can do.<br/><br/>If a computer model handles categorization, archaeologists can focus on that uniquely human work, making replacement unlikely.<br/><br/>The other three choices either show why the model would be preferable, make the accuracy comparison irrelevant, or fail to explain why replacement won't happen.<br/><br/>That matches <strong>Choice C &mdash; A survey of archaeologists showed that categorizing pottery fragments limits the amount of time they can dedicate to other important tasks that only human experts can do.</strong>."
+    }
+  ]
+}

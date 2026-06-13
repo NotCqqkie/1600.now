@@ -1,1 +1,15 @@
-{"questionId":"9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_25","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The student wants to describe <strong>how meanders are formed</strong>. The correct choice must explain the formation mechanism, not just define, locate, or describe the behavior of meanders."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Over time, many meanders have formed in the Huallaga River, a river in Peru with high sinuosity.'</strong>: Mentions a specific river with many meanders but says nothing about how they form. &#10007;</li><li><strong>Choice B &mdash; 'The U-shaped curves, or meanders, that form in a river will gradually change shape and migrate downstream.'</strong>: Describes what happens to meanders over time, not how they form. &#10007;</li><li><strong>Choice C &mdash; 'A high-sinuosity river, the Huallaga River has many meanders that will change shape and shift downstream over time.'</strong>: Combines the sinuosity fact with behavior over time, but still skips the formation mechanism. &#10007;</li><li><strong>Choice D &mdash; 'Over time, water erodes sediment from one side of a riverbank and redeposits it on the other, resulting in a U-shaped curve, or meander, in the river channel.'</strong>: Directly explains the cause-and-effect process: erosion on one side, redeposition on the other, producing a meander. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_25",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The student wants to describe <strong>how meanders are formed</strong>. The correct choice must explain the formation mechanism, not just define, locate, or describe the behavior of meanders."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Over time, many meanders have formed in the Huallaga River, a river in Peru with high sinuosity.</strong>: Mentions a specific river with many meanders but says nothing about how they form. &#10007;</li><li><strong>Choice B &mdash; The U-shaped curves, or meanders, that form in a river will gradually change shape and migrate downstream.</strong>: Describes what happens to meanders over time, not how they form. &#10007;</li><li><strong>Choice C &mdash; A high-sinuosity river, the Huallaga River has many meanders that will change shape and shift downstream over time.</strong>: Combines the sinuosity fact with behavior over time, but still skips the formation mechanism. &#10007;</li><li><strong>Choice D &mdash; Over time, water erodes sediment from one side of a riverbank and redeposits it on the other, resulting in a U-shaped curve, or meander, in the river channel.</strong>: Directly explains the cause-and-effect process: erosion on one side, redeposition on the other, producing a meander. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

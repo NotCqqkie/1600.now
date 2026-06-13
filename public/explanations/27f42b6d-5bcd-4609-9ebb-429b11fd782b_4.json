@@ -1,1 +1,15 @@
-{"questionId":"27f42b6d-5bcd-4609-9ebb-429b11fd782b_4","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"GRB 230307A lasted 200 seconds, but neutron-merger bursts typically last fewer than 2 seconds. The blank must describe what this 200-second burst represents within its category &mdash; something <strong>atypical or strange</strong>."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'an oddity'</strong>: means something strange or abnormal &mdash; exactly what a burst 100x longer than normal is. &#10003;</li><li><strong>Choice B &mdash; 'a coincidence'</strong>: implies two things happening by chance at the same time &mdash; not a descriptor of abnormality. &#10007;</li><li><strong>Choice C &mdash; 'a reprieve'</strong>: means a temporary relief from something bad &mdash; wrong domain entirely. &#10007;</li><li><strong>Choice D &mdash; 'an incident'</strong>: just means an event &mdash; too neutral, doesn&apos;t capture the unusualness. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_4",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "GRB 230307A lasted 200 seconds, but neutron-merger bursts typically last fewer than 2 seconds. The blank must describe what this 200-second burst represents within its category &mdash; something <strong>atypical or strange</strong>."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; an oddity</strong>: means something strange or abnormal &mdash; exactly what a burst 100x longer than normal is. &#10003;</li><li><strong>Choice B &mdash; a coincidence</strong>: implies two things happening by chance at the same time &mdash; not a descriptor of abnormality. &#10007;</li><li><strong>Choice C &mdash; a reprieve</strong>: means a temporary relief from something bad &mdash; wrong domain entirely. &#10007;</li><li><strong>Choice D &mdash; an incident</strong>: just means an event &mdash; too neutral, doesn&apos;t capture the unusualness. &#10007;</li></ul>That matches <strong>Choice A &mdash; an oddity</strong>."
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 {
+  "questionId": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_12",
   "qid": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_12",
   "steps": [
     {
@@ -11,7 +12,7 @@
       "text": "Expand by distributing: $f(x) = x \\cdot x + x \\cdot 91 = x^2 + 91x$."
     },
     {
-      "text": "Evaluate all choices:<ul><li>A: $f(x) = x^2 + x + 91$ — has an extra $+91$ constant and uses $+x$ instead of $+91x$. This is not the product of $x$ and $x+91$. Eliminated.</li><li>B: $f(x) = x^2 + 91$ — missing the $91x$ term; this would equal $x^2$ plus a constant, not a product of two linear expressions in $x$. Eliminated.</li><li>C: $f(x) = x^2 + 91x$ — matches $x(x+91)$ exactly. That matches choice C — <strong>C</strong> is correct.</li><li>D: $f(x) = x^2 + 91x + 91$ — has an extra constant $+91$ that doesn&quot;t appear in the product. Eliminated.</li></ul>"
+      "text": "Evaluate all choices:<ul><li>A: $f(x) = x^2 + x + 91$ — has an extra $+91$ constant and uses $+x$ instead of $+91x$. This is not the product of $x$ and $x+91$. Eliminated.</li><li>B: $f(x) = x^2 + 91$ — missing the $91x$ term; this would equal $x^2$ plus a constant, not a product of two linear expressions in $x$. Eliminated.</li><li>C: $f(x) = x^2 + 91x$ — matches $x(x+91)$ exactly. That confirms <strong>C</strong> is correct.</li><li>D: $f(x) = x^2 + 91x + 91$ — has an extra constant $+91$ that doesn&quot;t appear in the product. Eliminated.</li></ul>"
     }
   ],
   "correctAnswer": "C"

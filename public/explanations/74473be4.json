@@ -15,11 +15,11 @@
     },
     {
       "title": "Read the intercepts",
-      "content": "Choices A and C cross the x-axis because their constant term is negative, so they have real solutions. Choice B, $y=x^2-14x+49$, equals $(x-7)^2$, so it touches the x-axis once at $x=7$. Choice D opens upward and stays above the x-axis, so it has no real x-intercepts."
+      "content": "The other choices cross the x-axis because their constant term is negative, so they have real solutions. Choice B, $y=x^2-14x+49$, equals $(x-7)^2$, so it touches the x-axis once at $x=7$. The correct response opens upward and stays above the x-axis, so it has no real x-intercepts."
     },
     {
       "title": "Confirm with the discriminant",
-      "content": "For choice D, $a=5$, $b=-14$, and $c=49$. The discriminant is $b^2-4ac=196-4(5)(49)=196-980=-784\\lt 0$, confirming no real solutions. Choice <strong>D</strong> is correct."
+      "content": "For choice D, $a=5$, $b=-14$, and $c=49$. The discriminant is $b^2-4ac=196-4(5)(49)=196-980=-784\\lt 0$, confirming no real solutions. <strong>D</strong> is correct."
     }
   ]
 }

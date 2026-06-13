@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Convert mass from kilograms to grams",
-      "content": "Multiply the dog's mass in kilograms by the number of grams per kilogram. Since 1 kilogram = 1,000 grams: $$36 \\text{ kg} \\cdot 1{,}000 \\tfrac{\\text{g}}{\\text{kg}} = 36{,}000 \\text{ g}.$$ That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "Multiply the dog's mass in kilograms by the number of grams per kilogram. Since 1 kilogram = 1,000 grams: $$36 \\text{ kg} \\cdot 1{,}000 \\tfrac{\\text{g}}{\\text{kg}} = 36{,}000 \\text{ g}.$$ That matches <strong>Choice A &mdash; 36,000</strong>."
     }
   ]
 }

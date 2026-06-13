@@ -9,7 +9,7 @@
     },
     {
       "title": "Find the y-coordinate",
-      "content": "Substitute $x=9$ into the other equation: $$y=3(9)^2+3=3(81)+3=246$$ The solution to the system is the point that satisfies both equations, so the graphs intersect at $(9,246)$. That is choice <strong>C</strong>."
+      "content": "Substitute $x=9$ into the other equation: $$y=3(9)^2+3=3(81)+3=246$$ The solution to the system is the point that satisfies both equations, so the graphs intersect at $(9,246)$. That is <strong>Choice C &mdash; $(9, 246)$</strong>."
     }
   ]
 }

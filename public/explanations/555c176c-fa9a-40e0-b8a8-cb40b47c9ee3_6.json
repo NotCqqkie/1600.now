@@ -9,11 +9,11 @@
     },
     {
       "title": "Classify the function",
-      "content": "$f(x) = 2.93x$ has the form $f(x) = mx + b$ with $m = 2.93$ and $b = 0$ &mdash; this is a <strong>linear</strong> function (not exponential, which would have $x$ in an exponent).<br/><br/>The slope $m = 2.93 > 0$, so as $x$ increases, $f(x)$ increases. The function is <strong>increasing</strong>."
+      "content": "$f(x) = 2.93x$ has the form $f(x) = mx + b$ with $m = 2.93$ and $b = 0$ &mdash; this is a <strong>linear</strong> function (not exponential, which would have $x$ in an exponent).<br/><br/>The slope $m = 2.93 \\gt  0$, so as $x$ increases, $f(x)$ increases. The function is <strong>increasing</strong>."
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li><strong>A:</strong> Decreasing exponential &mdash; incorrect on both counts; the function is linear, not exponential, and it increases</li><li><strong>B:</strong> Decreasing linear &mdash; correctly identifies linear, but the positive slope makes it increasing, not decreasing</li><li><strong>C:</strong> Increasing exponential &mdash; correctly identifies increasing, but the function has no exponent on $x$, so it is linear, not exponential</li><li><strong>D:</strong> Increasing linear &mdash; matches both the form ($mx+b$) and the positive slope</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "content": "<ul><li><strong>A:</strong> Decreasing exponential &mdash; incorrect on both counts; the function is linear, not exponential, and it increases</li><li><strong>B:</strong> Decreasing linear &mdash; correctly identifies linear, but the positive slope makes it increasing, not decreasing</li><li><strong>C:</strong> Increasing exponential &mdash; correctly identifies increasing, but the function has no exponent on $x$, so it is linear, not exponential</li><li><strong>D:</strong> Increasing linear &mdash; matches both the form ($mx+b$) and the positive slope</li></ul><strong>D</strong> is correct."
     }
   ]
 }

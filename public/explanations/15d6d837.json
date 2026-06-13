@@ -1,1 +1,15 @@
-{"questionId": "15d6d837", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Determine what form is needed", "content": "The blank completes: &quot;paid to write other ______ but whose names never appear on book covers.&quot; Context makes clear ghostwriters are writing stories that belong to other people, and &quot;more than half of all nonfiction books&quot; signals multiple works. The blank needs a plural noun (&quot;stories&quot;) with a possessive indicating they belong to &quot;people&quot; (&quot;people's&quot;). Since &quot;people&quot; is already plural, its possessive is &quot;people's&quot; (apostrophe before the s), not &quot;peoples&quot;."}, {"title": "Eliminate each wrong choice", "content": "<ul><li><strong>Choice A &mdash; 'people&rsquo;s stories'</strong>: &quot;people's&quot; is the correct possessive of the irregular plural &quot;people,&quot; and &quot;stories&quot; is the correct plural of &quot;story.&quot; &#10003;</li><li><strong>Choice B &mdash; 'peoples story&rsquo;s'</strong>: &quot;peoples&quot; lacks the apostrophe needed for possession, and &quot;story's&quot; is a possessive singular, not a plural. &#10007;</li><li><strong>Choice C &mdash; 'peoples stories'</strong>: &quot;peoples&quot; without an apostrophe does not show possession; it is not standard English. &#10007;</li><li><strong>Choice D &mdash; 'people&rsquo;s story&rsquo;s'</strong>: &quot;people's&quot; is correct but &quot;story's&quot; is possessive singular, not the plural &quot;stories&quot; the context requires. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "15d6d837",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Determine what form is needed",
+      "content": "The blank completes: &quot;paid to write other ______ but whose names never appear on book covers.&quot; Context makes clear ghostwriters are writing stories that belong to other people, and &quot;more than half of all nonfiction books&quot; signals multiple works. The blank needs a plural noun (&quot;stories&quot;) with a possessive indicating they belong to &quot;people&quot; (&quot;people's&quot;). Since &quot;people&quot; is already plural, its possessive is &quot;people's&quot; (apostrophe before the s), not &quot;peoples&quot;."
+    },
+    {
+      "title": "Eliminate each wrong choice",
+      "content": "<ul><li><strong>Choice A &mdash; people's stories</strong>: &quot;people's&quot; is the correct possessive of the irregular plural &quot;people,&quot; and &quot;stories&quot; is the correct plural of &quot;story.&quot; &#10003;</li><li><strong>Choice B &mdash; peoples story's</strong>: &quot;peoples&quot; lacks the apostrophe needed for possession, and &quot;story's&quot; is a possessive singular, not a plural. &#10007;</li><li><strong>Choice C &mdash; peoples stories</strong>: &quot;peoples&quot; without an apostrophe does not show possession; it is not standard English. &#10007;</li><li><strong>Choice D &mdash; people's story's</strong>: &quot;people's&quot; is correct but &quot;story's&quot; is possessive singular, not the plural &quot;stories&quot; the context requires. &#10007;</li></ul>That matches <strong>Choice A &mdash; people's stories</strong>."
+    }
+  ]
+}

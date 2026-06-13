@@ -1,1 +1,19 @@
-{"questionId": "863065c7", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical subject", "content": "The subject is the singular noun &quot;analysis&quot; (head of the long noun phrase &quot;James Melton and Tom Ginsburg's analysis of de jure judicial independence and its growth over decades&quot;). The possessors and the prepositional modifiers do not change the head noun's number."}, {"title": "Apply subject-verb agreement", "content": "A singular subject needs a singular present-tense verb. &quot;Identifies&quot; is the singular present-tense form and fits the ongoing, factual claim about what the analysis does."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; 'are identifying'</strong>: plural verb form, violates subject-verb agreement with singular &quot;analysis.&quot; &#10007;</li><li><strong>Choice B &mdash; 'identify'</strong>: plural present-tense form, violates subject-verb agreement. &#10007;</li><li><strong>Choice C &mdash; 'have identified'</strong>: plural present-perfect form (&quot;have&quot;), violates subject-verb agreement. &#10007;</li><li><strong>Choice D &mdash; 'identifies'</strong>: singular present-tense form, agrees with singular subject &quot;analysis.&quot; &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "863065c7",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical subject",
+      "content": "The subject is the singular noun &quot;analysis&quot; (head of the long noun phrase &quot;James Melton and Tom Ginsburg's analysis of de jure judicial independence and its growth over decades&quot;). The possessors and the prepositional modifiers do not change the head noun's number."
+    },
+    {
+      "title": "Apply subject-verb agreement",
+      "content": "A singular subject needs a singular present-tense verb. &quot;Identifies&quot; is the singular present-tense form and fits the ongoing, factual claim about what the analysis does."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; are identifying</strong>: plural verb form, violates subject-verb agreement with singular &quot;analysis.&quot; &#10007;</li><li><strong>Choice B &mdash; identify</strong>: plural present-tense form, violates subject-verb agreement. &#10007;</li><li><strong>Choice C &mdash; have identified</strong>: plural present-perfect form (&quot;have&quot;), violates subject-verb agreement. &#10007;</li><li><strong>Choice D &mdash; identifies</strong>: singular present-tense form, agrees with singular subject &quot;analysis.&quot; &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,18 +1,19 @@
 {
+  "questionId": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_18",
   "qid": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_18",
   "correctAnswer": "D",
   "steps": [
     {
-      "explanation": "The bacteria doubles every day, so after $t$ days the quantity is multiplied by $2^t$. Exponential growth takes the form $y = a \\cdot b^t$ where $a$ is the initial amount and $b$ is the daily multiplier."
+      "content": "The bacteria doubles every day, so after $t$ days the quantity is multiplied by $2^t$. Exponential growth takes the form $y = a \\cdot b^t$ where $a$ is the initial amount and $b$ is the daily multiplier."
     },
     {
-      "explanation": "Initial amount: $a = 72{,}000$. Daily multiplier: $b = 2$. So $y = 72{,}000 \\cdot 2^t$."
+      "content": "Initial amount: $a = 72{,}000$. Daily multiplier: $b = 2$. So $y = 72{,}000 \\cdot 2^t$."
     },
     {
-      "explanation": "Verify: at $t = 1$, $y = 72{,}000 \\cdot 2 = 144{,}000$ (doubled). \\checkmark"
+      "content": "Verify: at $t = 1$, $y = 72{,}000 \\cdot 2 = 144{,}000$ (doubled). \\checkmark"
     },
     {
-      "explanation": "<ul><li>Choice A: $y = \\frac{1}{2}(72{,}000)t$ &mdash; linear, and halves the initial count. Eliminated.</li><li>Choice B: $y = 2(72{,}000)t$ &mdash; linear, not exponential. It coincides with the correct value at $t=1$ (144,000) and $t=2$ (288,000), but diverges at $t=3$: linear gives 432,000 while the correct exponential gives $72{,}000 \\cdot 2^3 = 576{,}000$. Eliminated.</li><li>Choice C: $y = 72{,}000\\left(\\frac{1}{2}\\right)^t$ &mdash; exponential decay (shrinks each day). Eliminated.</li><li>Choice D: $y = 72{,}000(2)^t$ &mdash; exponential growth doubling each day. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
+      "content": "<ul><li><strong>\"$y = \\frac{1}{2}(72,000)t$\"</strong>: linear, and halves the initial count. Eliminated.</li><li><strong>\"$y = 2(72,000)t$\"</strong>: linear, not exponential. It coincides with the correct value at $t=1$ (144,000) and $t=2$ (288,000), but diverges at $t=3$: linear gives 432,000 while the correct exponential gives $72{,}000 \\cdot 2^3 = 576{,}000$. Eliminated.</li><li><strong>\"$y = 72,000\\left(\\frac{1}{2}\\right)^t$\"</strong>: exponential decay (shrinks each day). Eliminated.</li><li><strong>\"$y = 72,000(2)^t$\"</strong>: exponential growth doubling each day. That matches the correct answer — <strong>D</strong> is correct.</li></ul>"
     }
   ]
 }

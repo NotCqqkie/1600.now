@@ -17,7 +17,7 @@
     },
     {
       "title": "Check domain restrictions",
-      "content": "The denominators give restrictions: $x \\neq -3$ and $x \\neq 3$. Since $x = -3$ makes the original equation undefined, it is extraneous. The valid solution is $x = \\frac{1}{2}$. That matches choice C — <strong>C</strong> is correct.",
+      "content": "The denominators give restrictions: $x \\neq -3$ and $x \\neq 3$. Since $x = -3$ makes the original equation undefined, it is extraneous. The valid solution is $x = \\frac{1}{2}$. That matches the correct answer — <strong>C</strong> is correct.",
       "desmosExpressions": [
         "y = \\frac{4x^2}{x^2 - 9} - \\frac{2x}{x + 3}",
         "y = \\frac{1}{x - 3}"

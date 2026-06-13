@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify corresponding sides and the scale factor",
-      "content": "Since $A, B, C, D$ correspond to $Q, R, S, T$ respectively, side $AB$ (the height, 12 in) corresponds to side $QR$ (the height, 5 in). Both vertical sides are given, so we can find the scale factor: <br/>$$k = \\frac{AB}{QR} = \\frac{12}{5}$$"
+      "content": "Since vertices A, B, C, and D correspond to vertices Q, R, S, and T respectively, side $AB$ (the height, 12 in) corresponds to side $QR$ (the height, 5 in). Both vertical sides are given, so we can find the scale factor: <br/>$$k = \\frac{AB}{QR} = \\frac{12}{5}$$"
     },
     {
       "title": "Apply the scale factor to find AD",
-      "content": "Since the rectangles are similar, corresponding sides are proportional. Side $AD$ corresponds to side $QT$ (the bases), so: <br/>$$\\frac{AD}{QT} = \\frac{12}{5}$$ <br/>Substitute $QT = 10$: <br/>$$\\frac{AD}{10} = \\frac{12}{5}$$ <br/>$$AD = 10 \\cdot \\frac{12}{5} = \\frac{120}{5} = 24 \\text{ in}$$ <br/>That matches choice B — <strong>B</strong> is correct."
+      "content": "Since the rectangles are similar, corresponding sides are proportional. Side $AD$ corresponds to side $QT$ (the bases), so: <br/>$$\\frac{AD}{QT} = \\frac{12}{5}$$ <br/>Substitute $QT = 10$: <br/>$$\\frac{AD}{10} = \\frac{12}{5}$$ <br/>$$AD = 10 \\cdot \\frac{12}{5} = \\frac{120}{5} = 24 \\text{ in}$$ <br/>That matches the correct answer — <strong>B</strong> is correct."
     }
   ]
 }

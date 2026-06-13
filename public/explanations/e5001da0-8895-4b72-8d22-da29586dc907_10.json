@@ -17,11 +17,11 @@
     },
     {
       "title": "Match the symbolic form",
-      "content": "Distribute the general expression: $$33+x(8-r)=33+8x-rx=8x-rx+33.$$ That matches the keyed choice B."
+      "content": "Distribute the general expression: $$33+x(8-r)=33+8x-rx=8x-rx+33.$$ That matches the keyed the remaining alternative."
     },
     {
       "title": "Check the choices",
-      "content": "Choice B is the keyed distributed form of the model: $8x-rx+33$. Choice A leaves the added-segment part factored as $33+(8-r)x$, so it is not the keyed distributed form. Choice C fails to multiply $r$ by $x$, and choice D incorrectly multiplies the starting length by $x$. Therefore, <strong>B</strong> is correct."
+      "content": "<strong>$f(x) = 8x - rx + 33$</strong> is the keyed distributed form of the model: $8x-rx+33$. $f(x) = 33 + (8 - r)x$ leaves the added-segment part factored as $33+(8-r)x$, so it is not the keyed distributed form. $f(x) = 8x - r + 33$ fails to multiply $r$ by $x$, and the remaining alternative incorrectly multiplies the starting length by $x$. Therefore, <strong>B</strong> is correct."
     }
   ]
 }

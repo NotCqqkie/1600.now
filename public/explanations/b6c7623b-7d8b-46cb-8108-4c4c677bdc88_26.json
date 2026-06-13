@@ -1,1 +1,15 @@
-{"questionId": "b6c7623b-7d8b-46cb-8108-4c4c677bdc88_26", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The student wants to contrast the two refuges. A contrast highlights a meaningful difference between them, typically using a word like &apos;while&apos; or &apos;whereas.&apos;"}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'Some NWRs were established specifically to protect endangered species...'</strong>: Makes a general statement about NWRs without comparing St. Johns and Bitter Creek to each other. &#10007;</li><li><strong>Choice B &mdash; 'Both the St. Johns NWR and the Bitter Creek NWR were established to protect endangered species'</strong>: Highlights a similarity, not a contrast. &#10007;</li><li><strong>Choice C &mdash; 'While the St. Johns NWR is in Florida, on the Atlantic coast, the Bitter Creek NWR is in California, on the Pacific coast'</strong>: Uses &apos;While&apos; to directly contrast the two refuges by their geography &mdash; opposite coasts of the country. &#10003;</li><li><strong>Choice D &mdash; 'The US has designated more than 500 areas NWRs, including the St. Johns NWR in Florida'</strong>: Mentions only one refuge in context of a broader statistic; no comparison between the two refuges. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "b6c7623b-7d8b-46cb-8108-4c4c677bdc88_26",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The student wants to contrast the two refuges. A contrast highlights a meaningful difference between them, typically using a word like &apos;while&apos; or &apos;whereas.&apos;"
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Some NWRs were established specifically to protect endangered species such as the California condor.</strong>: Makes a general statement about NWRs without comparing St. Johns and Bitter Creek to each other. &#10007;</li><li><strong>Choice B &mdash; Both the St. Johns NWR and the Bitter Creek NWR were established to protect endangered species.</strong>: Highlights a similarity, not a contrast. &#10007;</li><li><strong>Choice C &mdash; While the St. Johns NWR is in Florida, on the Atlantic coast, the Bitter Creek NWR is in California, on the Pacific coast.</strong>: Uses &apos;While&apos; to directly contrast the two refuges by their geography &mdash; opposite coasts of the country. &#10003;</li><li><strong>Choice D &mdash; The US has designated more than 500 areas NWRs, including the St. Johns NWR in Florida.</strong>: Mentions only one refuge in context of a broader statistic; no comparison between the two refuges. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

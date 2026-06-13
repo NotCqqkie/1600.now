@@ -13,7 +13,7 @@
     },
     {
       "title": "Solve for x using the complete circumference",
-      "content": "The four arcs partition the entire circle:<br/>$$\\text{Arc } AB + \\text{Arc } BC + \\text{Arc } CD + \\text{Arc } DA = 84\\pi$$<br/>Substitute the expressions we found:<br/>$$x + (42\\pi - x) + x + 2x = 84\\pi$$<br/>$$3x + 42\\pi = 84\\pi$$<br/>$$3x = 42\\pi$$<br/>$$x = 14\\pi$$<br/>Therefore:<br/>$$\\text{Arc } BC = 42\\pi - x = 42\\pi - 14\\pi = 28\\pi$$<br/>That matches choice D — <strong>D</strong> is correct."
+      "content": "The four arcs partition the entire circle:<br/>$$\\text{Arc } AB + \\text{Arc } BC + \\text{Arc } CD + \\text{Arc } DA = 84\\pi$$<br/>Substitute the expressions we found:<br/>$$x + (42\\pi - x) + x + 2x = 84\\pi$$<br/>$$3x + 42\\pi = 84\\pi$$<br/>$$3x = 42\\pi$$<br/>$$x = 14\\pi$$<br/>Therefore:<br/>$$\\text{Arc } BC = 42\\pi - x = 42\\pi - 14\\pi = 28\\pi$$<br/><strong>D</strong> is correct."
     }
   ]
 }

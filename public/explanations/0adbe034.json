@@ -13,11 +13,11 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice A is the value of $4x-28$, not $x-7$. The requested expression is $x-7$, and its value is $-6$."
+      "content": "<strong>Choice A &mdash; $-24$</strong> is the value of $4x-28$, not $x-7$. The requested expression is $x-7$, and its value is $-6$."
     },
     {
       "title": "Answer",
-      "content": "$-6$ matches choice C, so <strong>C</strong> is correct."
+      "content": "$-6$ matches <strong>Choice C &mdash; $-6$</strong>, so <strong>C</strong> is correct."
     }
   ]
 }

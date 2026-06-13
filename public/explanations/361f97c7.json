@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice B is $37$, so it is correct. Choice A has the wrong sign, choice C forgets to subtract $3$, and choice D adds $3$ instead of subtracting it."
+      "content": "$37$ is correct. A negative-sign error, forgetting to subtract $3$, or adding $3$ instead would not match the rule $f(x)=4x-3$ at $x=10$, where multiplication comes before subtraction."
     }
   ]
 }

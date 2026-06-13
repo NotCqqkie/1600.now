@@ -13,7 +13,7 @@
     },
     {
       "title": "Eliminate per choice",
-      "content": "<ul><li><strong>Choice A &mdash; 'taxation:'</strong>: a colon cannot close a comma-opened interrupter, and there is also a stray space before it. Wrong mark. &#10007;</li><li><strong>Choice B &mdash; 'taxation,'</strong>: a closing comma matches the opening comma after &quot;system,&quot; properly bracketing the interrupter. &#10003;</li><li><strong>Choice C &mdash; 'taxation &mdash;'</strong>: an em dash cannot pair with an opening comma; punctuation must match. &#10007;</li><li><strong>Choice D &mdash; 'taxation'</strong>: no punctuation leaves the interrupter unclosed, fusing it with the verb &quot;funded.&quot; &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;taxation:&rsquo;</strong>: a colon cannot close a comma-opened interrupter, and there is also a stray space before it. Wrong mark. &#10007;</li><li><strong>Choice B &mdash; &lsquo;taxation,&rsquo;</strong>: a closing comma matches the opening comma after &quot;system,&quot; properly bracketing the interrupter. &#10003;</li><li><strong>Choice C &mdash; &lsquo;taxation —&rsquo;</strong>: an em dash cannot pair with an opening comma; punctuation must match. &#10007;</li><li><strong>Choice D &mdash; &lsquo;taxation&rsquo;</strong>: no punctuation leaves the interrupter unclosed, fusing it with the verb &quot;funded.&quot; &#10007;</li></ul>That confirms <strong>B</strong> is correct."
     }
   ]
 }

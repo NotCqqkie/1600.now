@@ -13,7 +13,7 @@
       "explanation": "Identify which factor appears among the answer choices. The factors are $(x+3)$, $(x-1)$, and $(x-4)$. Only $(x-1)$ matches a listed choice."
     },
     {
-      "explanation": "Evaluate all choices:<ul><li>Choice A: $x+1$ corresponds to zero $x = -1$, which is not an x-intercept. Not necessarily a factor.</li><li>Choice B: $x+4$ corresponds to zero $x = -4$, which is not an x-intercept. Not necessarily a factor.</li><li>Choice C: $x-1$ corresponds to zero $x = 1$, which is an x-intercept. This must be a factor. That matches choice C &mdash; <strong>C</strong> is correct.</li><li>Choice D: $x-3$ corresponds to zero $x = 3$, which is not an x-intercept. Not necessarily a factor.</li></ul>"
+      "explanation": "Evaluate all choices:<ul><li><strong>Choice A &mdash; $x + 1$</strong>: This factor would correspond to zero $x=-1$, which is not one of the x-intercepts. &#10007;</li><li><strong>Choice B &mdash; $x + 4$</strong>: This factor would correspond to zero $x=-4$, which is not one of the x-intercepts. &#10007;</li><li><strong>Choice C &mdash; $x - 1$</strong>: This factor corresponds to zero $x=1$, which is one of the x-intercepts, so it must be a factor. &#10003;</li><li><strong>Choice D &mdash; $x - 3$</strong>: This factor would correspond to zero $x=3$, which is not one of the x-intercepts. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
     }
   ]
 }

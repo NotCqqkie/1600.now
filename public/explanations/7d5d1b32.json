@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the contradiction",
-      "content": "With this $k$, the $x$-terms cancel. The constants are $-2n$ and $-\\frac{36}{19}$. Since $n>1$, $2n>2>\\frac{36}{19}$, so the constants cannot be equal. That leaves a false statement, which is exactly the no-solution condition. The answer is <strong>-0.9333</strong>."
+      "content": "With this $k$, the $x$-terms cancel. The constants are $-2n$ and $-\\frac{36}{19}$. Since $n\\gt 1$, $2n\\gt 2\\gt \\frac{36}{19}$, so the constants cannot be equal. That leaves a false statement, which is exactly the no-solution condition. The answer is <strong>-0.9333</strong>."
     }
   ]
 }

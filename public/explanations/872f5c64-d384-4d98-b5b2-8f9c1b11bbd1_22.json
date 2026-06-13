@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the transition to the choices",
-      "content": "The logical relationship is specification: sentence 2 zooms in on the precise nature of the JPL work.\n<ul>\n<li><strong>Choice A — \"Specifically,\"</strong>: signals a move to a more precise or particular detail of what was just stated. Fits: the rover role specifies what her JPL work entailed. ✓</li>\n<li><strong>Choice B — \"Conversely,\"</strong>: signals an opposite or contrasting situation. The rover role does not contrast with working at JPL. ✗</li>\n<li><strong>Choice C — \"Finally,\"</strong>: signals the last item in a sequence or the conclusion of a list. No prior sequence is established. ✗</li>\n<li><strong>Choice D — \"Nevertheless,\"</strong>: signals a concession despite prior conditions. No prior obstacle or contrast exists here. ✗</li>\n</ul>\nThat matches choice A — <strong>A</strong> is correct."
+      "content": "The logical relationship is specification: sentence 2 zooms in on the precise nature of the JPL work.\n<ul>\n<li><strong>Choice A &mdash; Specifically,</strong>: signals a move to a more precise or particular detail of what was just stated. Fits: the rover role specifies what her JPL work entailed. ✓</li>\n<li><strong>Choice B &mdash; Conversely,</strong>: signals an opposite or contrasting situation. The rover role does not contrast with working at JPL. ✗</li>\n<li><strong>Choice C &mdash; Finally,</strong>: signals the last item in a sequence or the conclusion of a list. No prior sequence is established. ✗</li>\n<li><strong>Choice D &mdash; Nevertheless,</strong>: signals a concession despite prior conditions. No prior obstacle or contrast exists here. ✗</li>\n</ul>\nThat confirms <strong>A</strong> is correct."
     }
   ]
 }

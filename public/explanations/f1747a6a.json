@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Apply the triangle angle sum property",
-      "content": "The sum of all angles in any triangle equals $180°$. Set up the equation:<br/>$$A + B + C = 180°$$<br/>Substitute the given values $B = 52°$ and $C = 17°$:<br/>$$A + 52° + 17° = 180°$$"
+      "content": "The sum of all angles in any triangle equals $180^{\\circ}$. Set up the equation:<br/>$$A + B + C = 180^{\\circ}$$<br/>Substitute the given values $B = 52^{\\circ}$ and $C = 17^{\\circ}$:<br/>$$A + 52^{\\circ} + 17^{\\circ} = 180^{\\circ}$$"
     },
     {
       "title": "Solve for angle A",
-      "content": "Combine the known angles on the left side:<br/>$$A + 69° = 180°$$<br/>Subtract $69°$ from both sides:<br/>$$A = 180° - 69° = 111°$$<br/>That matches choice D — <strong>D</strong> is correct."
+      "content": "Combine the known angles on the left side:<br/>$$A + 69^{\\circ} = 180^{\\circ}$$<br/>Subtract $69^{\\circ}$ from both sides:<br/>$$A = 180^{\\circ} - 69^{\\circ} = 111^{\\circ}$$<br/>That matches the correct answer — <strong>D</strong> is correct."
     }
   ]
 }

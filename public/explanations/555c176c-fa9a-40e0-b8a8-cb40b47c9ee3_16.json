@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Apply the triangle inequality",
-      "content": "The triangle inequality theorem requires the sum of any two sides to be greater than the third side. With two sides of length 7 and 10, and unknown third side $x$, set up three inequalities: $7+10>x$, $7+x>10$, and $10+x>7$."
+      "content": "The triangle inequality theorem requires the sum of any two sides to be greater than the third side. With two sides of length 7 and 10, and unknown third side $x$, set up three inequalities: $7+10\\gt x$, $7+x\\gt 10$, and $10+x\\gt 7$."
     },
     {
       "title": "Solve each inequality",
-      "content": "From $7+10>x$: $x\\lt 17$.<br/><br/>From $7+x>10$: $x>3$.<br/><br/>From $10+x>7$: $x>-3$, which is always satisfied for positive $x$."
+      "content": "From $7+10\\gt x$: $x\\lt 17$.<br/><br/>From $7+x\\gt 10$: $x\\gt 3$.<br/><br/>From $10+x\\gt 7$: $x\\gt -3$, which is always satisfied for positive $x$."
     },
     {
       "title": "Combine constraints",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Evaluate the choices",
-      "content": "<ul><li>A ($x\\lt 3$): gives only values too small — eliminated.</li><li>B ($x>17$): gives only values too large — eliminated.</li><li>C ($3\\lt x\\lt 17$): matches both constraints exactly. &#10003;</li><li>D ($x\\lt 3$ or $x>17$): these are the excluded regions, not the valid range — eliminated.</li></ul>That matches choice C — <strong>C</strong> is correct."
+      "content": "<ul><li>A ($x\\lt 3$): gives only values too small — eliminated.</li><li>B ($x\\gt 17$): gives only values too large — eliminated.</li><li>C ($3\\lt x\\lt 17$): matches both constraints exactly. &#10003;</li><li>D ($x\\lt 3$ or $x\\gt 17$): these are the excluded regions, not the valid range — eliminated.</li></ul><strong>C</strong> is correct."
     }
   ]
 }

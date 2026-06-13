@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up the arc length formula",
-      "content": "The length of an arc is proportional to its central angle. When a central angle spans $\\theta$ degrees out of the full $360°$, the arc length is:<br/>$$\\text{Arc length} = \\frac{\\theta}{360°} \\times C$$<br/>where $C$ is the circumference of the circle."
+      "content": "The length of an arc is proportional to its central angle. When a central angle spans $\\theta$ degrees out of the full $360^{\\circ}$, the arc length is:<br/>$$\\text{Arc length} = \\frac{\\theta}{360^{\\circ}} \\times C$$<br/>where $C$ is the circumference of the circle."
     },
     {
       "title": "Substitute values and solve for circumference",
-      "content": "We have an arc measuring $45°$ with length $3$ inches. Substitute these values:<br/>$$3 = \\frac{45°}{360°} \\times C$$<br/>Simplify the fraction $\\frac{45°}{360°} = \\frac{1}{8}$:<br/>$$3 = \\frac{1}{8} \\times C$$<br/>Multiply both sides by $8$:<br/>$$C = 24 \\text{ inches}$$<br/>That matches choice <strong>D</strong> — <strong>D</strong> is correct."
+      "content": "We have an arc measuring $45^{\\circ}$ with length $3$ inches. Substitute these values:<br/>$$3 = \\frac{45^{\\circ}}{360^{\\circ}} \\times C$$<br/>Simplify the fraction $\\frac{45^{\\circ}}{360^{\\circ}} = \\frac{1}{8}$:<br/>$$3 = \\frac{1}{8} \\times C$$<br/>Multiply both sides by $8$:<br/>$$C = 24 \\text{ inches}$$<br/>That is the correct answer."
     }
   ]
 }

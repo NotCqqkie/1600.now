@@ -13,7 +13,7 @@
     },
     {
       "title": "Test each choice",
-      "content": "<ul><li>Choice A: $x = -1$ &mdash; one of our solutions. Check: $y = -1 + 1 = 0$ and $y = (-1)^2 + (-1) = 0$. Match. Correct.</li><li>Choice B: $x = 0$ &mdash; gives $y = 1$ from the first equation but $y = 0$ from the second. Not a solution.</li><li>Choice C: $x = 2$ &mdash; gives $y = 3$ vs. $y = 6$. Not a solution.</li><li>Choice D: $x = 3$ &mdash; gives $y = 4$ vs. $y = 12$. Not a solution.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li><strong>–1</strong> –1 &mdash; one of our solutions. Check: $y = -1 + 1 = 0$ and $y = (-1)^2 + (-1) = 0$. Match. Correct.</li><li><strong>0</strong> 0 &mdash; gives $y = 1$ from the first equation but $y = 0$ from the second. Not a solution.</li><li><strong>2</strong> 2 &mdash; gives $y = 3$ vs. $y = 6$. Not a solution.</li><li><strong>3</strong> 3 &mdash; gives $y = 4$ vs. $y = 12$. Not a solution.</li></ul>That is the correct answer."
     }
   ]
 }

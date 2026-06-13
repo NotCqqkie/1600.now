@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm algebraically",
-      "content": "Set the discriminant equal to $261$: $$27^2-4(13)(c-5)=261$$ $$989-52c=261$$ $$c=14$$ That matches choice <strong>A</strong>."
+      "content": "Set the discriminant equal to $261$: $$27^2-4(13)(c-5)=261$$ $$989-52c=261$$ $$c=14$$ The result matches."
     }
   ]
 }

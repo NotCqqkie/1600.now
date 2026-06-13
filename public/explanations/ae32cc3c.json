@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "The predicted value is $11$, which matches choice <strong>C</strong>. Choice A corresponds to a larger $x$-value, choice B is too high for $x=1200$, and choice D is too low."
+      "content": "The predicted value is $11$, which matches <strong>C</strong>. The distractors correspond to a larger $x$-value or give predictions that are too high or too low for $x=1200$."
     }
   ]
 }

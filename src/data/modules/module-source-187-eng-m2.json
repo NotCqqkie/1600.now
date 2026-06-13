@@ -6,7 +6,7 @@
     "difficulty": "Medium",
     "question_number": 1,
     "test_name": "Module Source 187 Eng M2",
-    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nSome cities track pedestrian activity to map their sidewalks, but this method often <u> </u> sidewalks few pedestrians use, resulting in incomplete maps. Maryam Hosseini and her team found that a computer program trained to identify sidewalks in aerial images of Boston could also accurately identify sidewalks in aerial images of Philadelphia and even distinguished between concrete and granite.",
+    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nSome cities track pedestrian activity to map their sidewalks, but this method often ______ sidewalks few pedestrians use, resulting in incomplete maps. Maryam Hosseini and her team found that a computer program trained to identify sidewalks in aerial images of Boston could also accurately identify sidewalks in aerial images of Philadelphia and even distinguished between concrete and granite.",
     "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
     "choices": [
       {
@@ -338,19 +338,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "“The logic of the realistic plot of *Primeval and Other Times* is repeatedly and productively disrupted by the presence of imagery and situations drawn from Polish folklore.”"
+        "text": "\"The logic of the realistic plot of *Primeval and Other Times* is repeatedly and productively disrupted by the presence of imagery and situations drawn from Polish folklore.\""
       },
       {
         "label": "B",
-        "text": "“Although Polish folklore clearly informs the style and occasionally antirealistic plot of *Primeval and Other Times*, the novel also shows the inarguable influence of the magical realist tradition of Latin America.”"
+        "text": "\"Although Polish folklore clearly informs the style and occasionally antirealistic plot of *Primeval and Other Times*, the novel also shows the inarguable influence of the magical realist tradition of Latin America.\""
       },
       {
         "label": "C",
-        "text": "“Like many works in the Latin American magical realist tradition, *Primeval and Other Times* is indebted to antirealistic elements in the folkloric tradition of Poland.”"
+        "text": "\"Like many works in the Latin American magical realist tradition, *Primeval and Other Times* is indebted to antirealistic elements in the folkloric tradition of Poland.\""
       },
       {
         "label": "D",
-        "text": "“While *Primeval and Other Times* alternates between realistic and antirealistic modes of representation, details suggesting the influence of Polish folklore nevertheless occur throughout the novel.”"
+        "text": "\"While *Primeval and Other Times* alternates between realistic and antirealistic modes of representation, details suggesting the influence of Polish folklore nevertheless occur throughout the novel.\""
       }
     ],
     "is_fill_in_blank": false,
@@ -397,7 +397,7 @@
     "difficulty": "Medium",
     "question_number": 13,
     "test_name": "Module Source 187 Eng M2",
-    "passage": "Which choice most logically completes the text?\nAs complex life cycle parasites, *Lecithaster sp.* and *Capillaria parophrysi* require multiple host species throughout their development. Extrapolating from parasite counts on Pacific herring and seven other fish species collected from Puget Sound from 1880 to 2019, Chelsea Wood et al. found that the abundance of three-host parasites, such as *Lecithaster sp.*, negatively correlated with rising average annual sea temperatures; the abundance of two-host parasites, such as *C. parophrysi*, was largely stable. Noting that fish and other marine vertebrates are especially vulnerable to climate change, Wood et al. observed that all three-host parasites in the study depend on at least two vertebrate species, while all two-host parasites depend on only one, suggesting that <u> </u>",
+    "passage": "Which choice most logically completes the text?\nAs complex life cycle parasites, *Lecithaster sp.* and *Capillaria parophrysi* require multiple host species throughout their development. Extrapolating from parasite counts on Pacific herring and seven other fish species collected from Puget Sound from 1880 to 2019, Chelsea Wood et al. found that the abundance of three-host parasites, such as *Lecithaster sp.*, negatively correlated with rising average annual sea temperatures; the abundance of two-host parasites, such as *C. parophrysi*, was largely stable. Noting that fish and other marine vertebrates are especially vulnerable to climate change, Wood et al. observed that all three-host parasites in the study depend on at least two vertebrate species, while all two-host parasites depend on only one, suggesting that ______",
     "question_text": "Which choice most logically completes the text?",
     "choices": [
       {
@@ -493,7 +493,7 @@
     "difficulty": "Medium",
     "question_number": 16,
     "test_name": "Module Source 187 Eng M2",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nShould Italy cut taxes? As of 2017, Italy's top tax rate (55%) was lower than the highest point on the country's Laffer curve, placing Italy below the threshold for a tax cut. A theoretical relationship between tax rates and revenues, <u> </u> in 1974.",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nShould Italy cut taxes? As of 2017, Italy's top tax rate (55%) was lower than the highest point on the country's Laffer curve, placing Italy below the threshold for a tax cut. A theoretical relationship between tax rates and revenues, ______ in 1974.",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {
@@ -685,7 +685,7 @@
     "difficulty": "Easy",
     "question_number": 22,
     "test_name": "Module Source 187 Eng M2",
-    "passage": "Which choice completes the text with the most logical transition?\nMost solar eclipses from long ago have been forgotten, but not all. <u> </u> scholars still discuss an eclipse that occurred on May 17, 2231 BCE. That's because it was the fifth-longest total eclipse before the Dark Ages—7 minutes, 21 seconds long.",
+    "passage": "Which choice completes the text with the most logical transition?\nMost solar eclipses from long ago have been forgotten, but not all. ______ scholars still discuss an eclipse that occurred on May 17, 2231 BCE. That's because it was the fifth-longest total eclipse before the Dark Ages—7 minutes, 21 seconds long.",
     "question_text": "Which choice completes the text with the most logical transition?",
     "choices": [
       {

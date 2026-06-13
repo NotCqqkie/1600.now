@@ -1,1 +1,15 @@
-{"questionId": "bc839e02-25bc-4632-be4e-0c0b81f62962_21", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Recognize the indirect question structure", "content": "The verb <em>asked</em> followed by <em>what</em> signals an indirect (embedded) question — a question folded into a statement. Indirect questions must use <strong>statement word order</strong> (subject before verb) and the sentence ends with the outer sentence&apos;s punctuation, not a question mark or exclamation mark."}, {"title": "Eliminate wrong choices and confirm", "content": "<ul><li><strong>Choice A &mdash; &apos;was her favorite book!&apos;</strong>: Inverted (question) word order and an exclamation mark — both wrong for an embedded clause. &#10007;</li><li><strong>Choice B &mdash; &apos;her favorite book was?&apos;</strong>: Word order is correct, but a question mark punctuates the whole sentence as a question, which it is not. &#10007;</li><li><strong>Choice C &mdash; &apos;her favorite book was.&apos;</strong>: Subject (<em>her favorite book</em>) before verb (<em>was</em>) — correct statement order — and a period ends the declarative sentence. &#10003;</li><li><strong>Choice D &mdash; &apos;was her favorite book?&apos;</strong>: Inverted word order and a question mark — both wrong. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "bc839e02-25bc-4632-be4e-0c0b81f62962_21",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the indirect question structure",
+      "content": "The verb <em>asked</em> followed by <em>what</em> signals an indirect (embedded) question — a question folded into a statement. Indirect questions must use <strong>statement word order</strong> (subject before verb) and the sentence ends with the outer sentence&apos;s punctuation, not a question mark or exclamation mark."
+    },
+    {
+      "title": "Eliminate wrong choices and confirm",
+      "content": "<ul><li><strong>Choice A &mdash; was her favorite book!</strong>: Inverted (question) word order and an exclamation mark — both wrong for an embedded clause. &#10007;</li><li><strong>Choice B &mdash; her favorite book was?</strong>: Word order is correct, but a question mark punctuates the whole sentence as a question, which it is not. &#10007;</li><li><strong>Choice C &mdash; her favorite book was.</strong>: Subject (<em>her favorite book</em>) before verb (<em>was</em>) — correct statement order — and a period ends the declarative sentence. &#10003;</li><li><strong>Choice D &mdash; was her favorite book?</strong>: Inverted word order and a question mark — both wrong. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

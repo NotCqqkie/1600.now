@@ -1,1 +1,15 @@
-{"questionId": "480ade7e", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the relationship between the two ideas", "content": "Sentence 1 establishes a general rule: ABA triggers a <em>slowdown</em> in most plants. The next sentence introduces an exception: <em>Schrenkiella parvula</em> produces ABA yet shows <em>accelerated</em> growth. Slowdown versus acceleration is a direct opposition — the transition must signal contrast."}, {"title": "Match each transition to that relationship", "content": "<ul><li><strong>Choice A &mdash; 'Moreover,'</strong>: Signals addition — used to extend or reinforce the previous idea, not contradict it. &#10007;</li><li><strong>Choice B &mdash; 'In contrast,'</strong>: Signals opposition — correctly introduces a result that is the opposite of what was established. &#10003;</li><li><strong>Choice C &mdash; 'For example,'</strong>: Signals illustration — would mean <em>Schrenkiella parvula</em> is an example of the slowdown rule, but it is actually an exception. &#10007;</li><li><strong>Choice D &mdash; 'Thus,'</strong>: Signals a logical consequence — would imply the accelerated growth follows from the slowdown rule, which reverses the logic. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "480ade7e",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the relationship between the two ideas",
+      "content": "Sentence 1 establishes a general rule: ABA triggers a <em>slowdown</em> in most plants. The next sentence introduces an exception: <em>Schrenkiella parvula</em> produces ABA yet shows <em>accelerated</em> growth. Slowdown versus acceleration is a direct opposition — the transition must signal contrast."
+    },
+    {
+      "title": "Match each transition to that relationship",
+      "content": "<ul><li><strong>Choice A — Moreover,</strong>: Signals addition — used to extend or reinforce the previous idea, not contradict it. &#10007;</li><li><strong>Choice B — In contrast,</strong>: Signals opposition — correctly introduces a result that is the opposite of what was established. &#10003;</li><li><strong>Choice C — For example,</strong>: Signals illustration — would mean <em>Schrenkiella parvula</em> is an example of the slowdown rule, but it is actually an exception. &#10007;</li><li><strong>Choice D — Thus,</strong>: Signals a logical consequence — would imply the accelerated growth follows from the slowdown rule, which reverses the logic. &#10007;</li></ul><strong>B</strong> is correct."
+    }
+  ]
+}

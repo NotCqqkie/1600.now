@@ -9,7 +9,7 @@
     },
     {
       "title": "Backsolve by testing the choices",
-      "content": "Backsolving — testing choice B (87):<br/>$$\\frac{99 - 87}{87} \\times 100 = \\frac{12}{87} \\times 100 \\approx 13.79\\%$$<br/>Fails — we need 12.50%, not 13.79%. Testing choice A (88):<br/>$$\\frac{99 - 88}{88} \\times 100 = \\frac{11}{88} \\times 100 = \\frac{1}{8} \\times 100 = 12.5\\%$$<br/>That matches choice A — <strong>A</strong> is correct."
+      "content": "Backsolving — testing choice B (87):<br/>$$\\frac{99 - 87}{87} \\times 100 = \\frac{12}{87} \\times 100 \\approx 13.79\\%$$<br/>Fails — we need 12.50%, not 13.79%. Testing choice A (88):<br/>$$\\frac{99 - 88}{88} \\times 100 = \\frac{11}{88} \\times 100 = \\frac{1}{8} \\times 100 = 12.5\\%$$<br/>That confirms <strong>A</strong> is correct."
     }
   ]
 }

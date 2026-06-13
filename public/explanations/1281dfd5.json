@@ -1,1 +1,15 @@
-{"questionId": "1281dfd5", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The phrase “even in escape contexts” signals that evidence must show escape—the highest-stakes scenario—as the case where animals avoid maximal speed. This proves energy costs are powerful enough to override survival pressure."}, {"title": "Match the signal to the choices", "content": "B directly demonstrates this: <strong>multiple lizard species move at less than 90% of maximal speed while escaping</strong>, showing that energy constraints are severe enough to restrict even life-or-death flight far below maximum.<br/><br/>The other choices conflate escape and pursuit (A), show animals using near-maximal speeds (C), or address the wrong context (D).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "1281dfd5",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The phrase “even in escape contexts” signals that evidence must show escape—the highest-stakes scenario—as the case where animals avoid maximal speed. This proves energy costs are powerful enough to override survival pressure."
+    },
+    {
+      "title": "Match the signal to the choices",
+      "content": "<strong>Choice B &mdash; multiple lizard species move at an average of less than 90% of their maximal speed while escaping predation.</strong> directly demonstrates this: <strong>multiple lizard species move at less than 90% of maximal speed while escaping</strong>, showing that energy constraints are severe enough to restrict even life-or-death flight far below maximum.<br/><br/>The other choices conflate escape and pursuit, show animals using near-maximal speeds, or address the wrong context.<br/><br/>That matches <strong>Choice B &mdash; multiple lizard species move at an average of less than 90% of their maximal speed while escaping predation.</strong>."
+    }
+  ]
+}

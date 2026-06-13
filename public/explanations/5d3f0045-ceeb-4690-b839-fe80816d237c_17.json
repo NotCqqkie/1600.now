@@ -1,1 +1,15 @@
-{"questionId": "5d3f0045-ceeb-4690-b839-fe80816d237c_17", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the punctuation rule", "content": "The sentence reads: &quot;When Fiji joined Interpol&mdash;the International Criminal Police ____ in 1971, the Fiji National Police...&quot; An opening em dash appears before &quot;the International Criminal Police.&quot; A parenthetical opened with an em dash must be closed with a matching em dash. The blank falls at the end of that parenthetical, just before &quot;in 1971.&quot;"}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; 'Organization&mdash;'</strong>: Closes the em dash pair correctly. The parenthetical &mdash;the International Criminal Police Organization&mdash; is properly bounded, and &quot;in 1971&quot; returns to the main clause. &#10003;</li><li><strong>Choice B &mdash; 'Organization:'</strong>: A colon does not close an opening em dash. The paired em dashes are broken, and a colon before &quot;in 1971&quot; makes no grammatical sense. &#10007;</li><li><strong>Choice C &mdash; 'Organization'</strong>: No closing punctuation at all. The em dash pair is left open, causing &quot;in 1971&quot; to appear to modify &quot;Organization&quot; instead of the main clause. &#10007;</li><li><strong>Choice D &mdash; 'Organization,'</strong>: A comma does not close an em dash. The opening em dash has no matching close, breaking the parenthetical structure. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "5d3f0045-ceeb-4690-b839-fe80816d237c_17",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the punctuation rule",
+      "content": "The sentence reads: &quot;When Fiji joined Interpol&mdash;the International Criminal Police ____ in 1971, the Fiji National Police...&quot; An opening em dash appears before &quot;the International Criminal Police.&quot; A parenthetical opened with an em dash must be closed with a matching em dash. The blank falls at the end of that parenthetical, just before &quot;in 1971.&quot;"
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Organization—&rsquo;</strong>: Closes the em dash pair correctly. The parenthetical &mdash;the International Criminal Police Organization&mdash; is properly bounded, and &quot;in 1971&quot; returns to the main clause. &#10003;</li><li><strong>Choice B &mdash; &lsquo;Organization:&rsquo;</strong>: A colon does not close an opening em dash. The paired em dashes are broken, and a colon before &quot;in 1971&quot; makes no grammatical sense. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Organization&rsquo;</strong>: No closing punctuation at all. The em dash pair is left open, causing &quot;in 1971&quot; to appear to modify &quot;Organization&quot; instead of the main clause. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Organization,&rsquo;</strong>: A comma does not close an em dash. The opening em dash has no matching close, breaking the parenthetical structure. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "dd19befa", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the blank must mean", "content": "The passage describes two features of black swan family structure: successful pairs foster cygnets of less successful pairs, and male-male pairs (not just female-male) rear cygnets &mdash; and do so with <em>higher</em> survival rates. The blank must name the property that these examples together illustrate: the capacity to take different forms and still function successfully."}, {"title": "Eliminate each choice", "content": "Substitute each word and test it against the passage evidence:<ul><li><strong>Choice A &mdash; &apos;cohesion&apos;</strong>: Cohesion means unity or sticking together as a group &mdash; but the passage highlights varying structures, not unified solidarity. &#10007;</li><li><strong>Choice B &mdash; &apos;elasticity&apos;</strong>: Elasticity means the ability to bend, adapt, and return to function &mdash; exactly what fostering across pairs and male-male rearing demonstrate. &#10003;</li><li><strong>Choice C &mdash; &apos;affection&apos;</strong>: Affection means emotional fondness &mdash; the passage describes structural arrangements, not emotional bonds. &#10007;</li><li><strong>Choice D &mdash; &apos;reciprocity&apos;</strong>: Reciprocity means mutual exchange &mdash; the text does not establish that fostering is given back in kind. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "dd19befa",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the blank must mean",
+      "content": "The passage describes two features of black swan family structure: successful pairs foster cygnets of less successful pairs, and male-male pairs (not just female-male) rear cygnets &mdash; and do so with <em>higher</em> survival rates. The blank must name the property that these examples together illustrate: the capacity to take different forms and still function successfully."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "Substitute each word and test it against the passage evidence:<ul><li><strong>\"cohesion\"</strong>: Cohesion means unity or sticking together as a group &mdash; but the passage highlights varying structures, not unified solidarity. &#10007;</li><li><strong>\"elasticity\"</strong>: Elasticity means the ability to bend, adapt, and return to function &mdash; exactly what fostering across pairs and male-male rearing demonstrate. &#10003;</li><li><strong>\"affection\"</strong>: Affection means emotional fondness &mdash; the passage describes structural arrangements, not emotional bonds. &#10007;</li><li><strong>\"reciprocity\"</strong>: Reciprocity means mutual exchange &mdash; the text does not establish that fostering is given back in kind. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+    }
+  ]
+}

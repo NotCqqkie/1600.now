@@ -9,7 +9,7 @@
     },
     {
       "title": "Transform the volume inequality to a weight inequality",
-      "content": "Multiply all parts of the volume inequality by 165 to get the weight inequality: $$165(12.7) \\lt 165V \\lt 165(15.7)$$ Substituting $x = 165V$: $$165(12.7) \\lt x \\lt 165(15.7)$$ That matches choice C — <strong>C</strong> is correct."
+      "content": "Multiply all parts of the volume inequality by 165 to get the weight inequality: $$165(12.7) \\lt 165V \\lt 165(15.7)$$ Substituting $x = 165V$: $$165(12.7) \\lt x \\lt 165(15.7)$$ That matches the correct answer — <strong>C</strong> is correct."
     }
   ]
 }

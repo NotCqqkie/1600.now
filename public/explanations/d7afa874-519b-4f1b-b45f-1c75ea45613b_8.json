@@ -13,7 +13,7 @@
     },
     {
       "title": "Multiply by π and match to the answer choice",
-      "content": "Use the approximation $\\pi \\approx 3.14$: $$V \\approx 228,667 \\times 3.14 \\approx 718,000$$ The answer choice closest to 718,000 is 718,400. That matches choice D — <strong>D</strong> is correct."
+      "content": "Use the approximation $\\pi \\approx 3.14$: $$V \\approx 228,667 \\times 3.14 \\approx 718,000$$ The answer choice closest to 718,000 is 718,400. That matches the correct answer — <strong>D</strong> is correct."
     }
   ]
 }

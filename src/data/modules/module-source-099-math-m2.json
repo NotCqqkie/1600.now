@@ -281,7 +281,7 @@
     "difficulty": "Medium",
     "question_number": 13,
     "test_name": "Module Source 099 Math M2",
-    "passage": "$5x^m$\nIn the given expression, $m$ is a constant and $x > 1$. The expression can be rewritten as $4x$. What is the value of $m$?",
+    "passage": "$\\sqrt[4]{x^5}$\nIn the given expression, $m$ is a constant and $x \\gt 1$. The expression can be rewritten as $x^m$. What is the value of $m$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -296,7 +296,7 @@
     "difficulty": "Medium",
     "question_number": 14,
     "test_name": "Module Source 099 Math M2",
-    "passage": "$y = 16 + 14(x - 1)$ describes this situation, where $y$ is the total cost, in dollars, for books purchased during a month, $x$ is the number of books purchased during the month, and $x > 0$",
+    "passage": "A book-of-the-month club charges \\$16 for the first book purchased during the month and an additional \\$14 for each book after the first. Which equation describes this situation, where $y$ is the total cost, in dollars, for books purchased during a month, $x$ is the number of books purchased during the month, and $x \\gt 0$?",
     "question_text": null,
     "choices": [
       {
@@ -446,7 +446,7 @@
     "difficulty": "Medium",
     "question_number": 20,
     "test_name": "Module Source 099 Math M2",
-    "passage": "$f(x)=15(b)^{x}$\nIn the given function, $b$ is a positive constant. For every increase in the value of $x$ by 1, the value of $f(x)$ increases by $e\\%$, where $0 < e < 100$. Which expression gives the value of $e$ in terms of $b$?",
+    "passage": "$f(x)=15(b)^{x}$\nIn the given function, $b$ is a positive constant. For every increase in the value of $x$ by 1, the value of $f(x)$ increases by $e\\%$, where $0 \\lt e \\lt 100$. Which expression gives the value of $e$ in terms of $b$?",
     "question_text": null,
     "choices": [
       {
@@ -459,11 +459,11 @@
       },
       {
         "label": "C",
-        "text": "$100(b+1)$"
+        "text": "$100\\left(b+1\\right)$"
       },
       {
         "label": "D",
-        "text": "$100(b-1)$"
+        "text": "$100\\left(b-1\\right)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -510,7 +510,7 @@
     "difficulty": "Medium",
     "question_number": 22,
     "test_name": "Module Source 099 Math M2",
-    "passage": "In the figure shown, points $A$, $B$, $C$, and $E$ lie on the circle, and $AB < BC$. Segment $AC$ is perpendicular to segment $BE$ at point $D$, and $BD = \\sqrt{286}$. The diameter of the circle is 145. If $r = ?$ what is the value of $r$?",
+    "passage": "In the figure shown, points $A$, $B$, $C$, and $E$ lie on the circle, and $AB \\lt BC$. Segment $AC$ is perpendicular to segment $BE$ at point $D$, and $BD = \\sqrt{286}$. The diameter of the circle is 145. If $\\frac{CD}{AD}=r$, what is the value of $r$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

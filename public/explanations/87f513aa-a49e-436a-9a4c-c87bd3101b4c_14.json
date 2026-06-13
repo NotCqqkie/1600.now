@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate all choices",
-      "content": "<ul><li>A: $t = 50d$ &mdash; Matches the computed rate of 50 min/mile. That matches choice A &mdash; <strong>A</strong> is correct.</li><li>B: $t = \\frac{1}{2}d$ &mdash; At $d = 0.18$: $t = 0.09$ min, not 9 min. Eliminated.</li><li>C: $t = 2d$ &mdash; At $d = 0.18$: $t = 0.36$ min, not 9 min. Eliminated.</li><li>D: $t = \\frac{1}{50}d$ &mdash; At $d = 0.18$: $t = 0.0036$ min, not 9 min. Eliminated.</li></ul>"
+      "content": "<ul><li>A: $t = 50d$ &mdash; Matches the computed rate of 50 min/mile. That confirms <strong>A</strong> is correct.</li><li>B: $t = \\frac{1}{2}d$ &mdash; At $d = 0.18$: $t = 0.09$ min, not 9 min. Eliminated.</li><li>C: $t = 2d$ &mdash; At $d = 0.18$: $t = 0.36$ min, not 9 min. Eliminated.</li><li>D: $t = \\frac{1}{50}d$ &mdash; At $d = 0.18$: $t = 0.0036$ min, not 9 min. Eliminated.</li></ul>"
     }
   ]
 }

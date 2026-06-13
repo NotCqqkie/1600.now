@@ -1,1 +1,15 @@
-{"questionId":"23fd9cca-199e-4a62-b065-4e2d5997bf7f_26","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The student wants to emphasize Sirius A&apos;s mass. The correct sentence must name Sirius A and make its mass the focal point."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; </strong>: discusses solar masses in general terms without naming Sirius A as the subject. &#10007;</li><li><strong>Choice B &mdash; </strong>: mentions other stars alongside Sirius A, diluting the emphasis on Sirius A&apos;s mass. &#10007;</li><li><strong>Choice C &mdash; </strong>: omits Sirius A entirely or buries it in a subordinate role. &#10007;</li><li><strong>Choice D &mdash; </strong>: names Sirius A and foregrounds its mass of 2.063 solar masses, emphasizing that it is more massive than the Sun. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "23fd9cca-199e-4a62-b065-4e2d5997bf7f_26",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The student wants to emphasize Sirius A&apos;s mass. The correct sentence must name Sirius A and make its mass the focal point."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; The mass of stars, like Proxima Centauri, can be described in units called solar masses.</strong>: discusses solar masses in general terms without naming Sirius A as the subject. &#10007;</li><li><strong>Choice B &mdash; In astronomy, the mass of stars can be described in units called solar masses, and one solar mass is roughly equal to the mass of the Sun.</strong>: mentions other stars alongside Sirius A, diluting the emphasis on Sirius A&apos;s mass. &#10007;</li><li><strong>Choice C &mdash; The Sun is more massive than Proxima Centauri, which has a mass of 0.122 solar masses.</strong>: omits Sirius A entirely or buries it in a subordinate role. &#10007;</li><li><strong>Choice D &mdash; With a mass of 2.063 solar masses, Sirius A is more massive than the Sun.</strong>: names Sirius A and foregrounds its mass of 2.063 solar masses, emphasizing that it is more massive than the Sun. &#10003;</li></ul>That matches <strong>Choice D &mdash; With a mass of 2.063 solar masses, Sirius A is more massive than the Sun.</strong>."
+    }
+  ]
+}

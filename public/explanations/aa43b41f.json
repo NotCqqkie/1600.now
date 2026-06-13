@@ -1,14 +1,18 @@
 {
+  "questionId": "aa43b41f",
   "qid": "aa43b41f",
   "steps": [
     {
-      "text": "Identify the sampling method. Viewers of a cable news show voluntarily visited the show&apos;s website and chose to respond. This is a voluntary response (self-selected) sample, not a random sample."
+      "title": "Step 1",
+      "content": "Identify the sampling method. Viewers of a cable news show voluntarily visited the show&apos;s website and chose to respond. This is a voluntary response (self-selected) sample, not a random sample."
     },
     {
-      "text": "For a poll to represent the US population, respondents must be randomly selected. Here, only motivated show viewers responded &mdash; they share demographics and viewpoints not representative of the broader public."
+      "title": "Step 2",
+      "content": "For a poll to represent the US population, respondents must be randomly selected. Here, only motivated show viewers responded &mdash; they share demographics and viewpoints not representative of the broader public."
     },
     {
-      "text": "Evaluate each choice:<ul><li>Choice A: The percentages sum to 98%, meaning 2% may have skipped or chosen another option. A gap this small does not invalidate conclusions; representativeness is the real issue.</li><li>Choice B: Respondents self-selected from the show&apos;s audience; they were not a random sample of the US population. This directly explains why results are unlikely to represent national sentiments. That matches choice B &mdash; <strong>B</strong> is correct.</li><li>Choice C: There is no rule requiring a valid poll to show a 50/50 split. An unequal split is perfectly valid in a properly conducted random sample.</li><li>Choice D: The amount of time given to respond does not address the core problem of non-random, self-selected participation.</li></ul>"
+      "title": "Step 3",
+      "content": "Evaluate each choice:<ul><li><strong>Choice A &mdash; The percentages do not add up to 100%, so any possible conclusions from the poll are invalid.</strong>: The percentages sum to 98%, meaning 2% of respondents may not have selected either listed response. A gap this small does not invalidate conclusions; representativeness is the real issue.</li><li><strong>Choice B &mdash; Those who responded to the poll were not a random sample of the population of the United States.</strong>: Respondents self-selected from the show&apos;s audience; they were not a random sample of the US population. This directly explains why results are unlikely to represent national sentiments. That is the correct answer.</li><li><strong>Choice C &mdash; There were not 50% \"Yes\" responses and 50% \"No\" responses.</strong>: There is no rule requiring a valid poll to show a 50/50 split. An unequal split is perfectly valid in a properly conducted random sample.</li><li><strong>Choice D &mdash; The show did not allow viewers enough time to respond to the poll.</strong>: The amount of time given to respond does not address the core problem of non-random, self-selected participation.</li></ul>"
     }
   ],
   "correctAnswer": "B"

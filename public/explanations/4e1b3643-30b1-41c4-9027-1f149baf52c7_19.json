@@ -13,7 +13,7 @@
     },
     {
       "title": "Find the minimum integer value",
-      "content": "Since $a>15.5$ and $a$ must be a positive integer, the least possible value is $a=16$. Graphing $y=-0.5$ and $y=x^2+8x+16$ confirms that the horizontal line is below the parabola's minimum, so there are no real intersections. The answer is <strong>16</strong>.",
+      "content": "Since $a\\gt 15.5$ and $a$ must be a positive integer, the least possible value is $a=16$. Graphing $y=-0.5$ and $y=x^2+8x+16$ confirms that the horizontal line is below the parabola's minimum, so there are no real intersections. The answer is <strong>16</strong>.",
       "desmosExpressions": [
         "y = -0.5",
         "y = x^2 + 8x + 16"

@@ -1,4 +1,5 @@
 {
+  "questionId": "a240b08f-646d-4227-8b1f-fadf4c312b08_18",
   "qid": "a240b08f-646d-4227-8b1f-fadf4c312b08_18",
   "correctAnswer": "B",
   "steps": [
@@ -16,7 +17,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li>A: $\\dfrac{5x-4z}{20x^2z^2}$ — this is $y^2$, not $y$. Incorrect.</li><li>B: $\\sqrt{\\dfrac{5x-4z}{20x^2z^2}}$ — matches exactly. That matches choice B — <strong>B</strong> is correct.</li><li>C and D involve $4xz^2-5x^2-z$, which does not arise from the algebra. Incorrect.</li></ul>"
+      "content": "<ul><li>A: $\\dfrac{5x-4z}{20x^2z^2}$ — this is $y^2$, not $y$. Incorrect.</li><li>B: $\\sqrt{\\dfrac{5x-4z}{20x^2z^2}}$ — matches exactly. That confirms <strong>B</strong> is correct.</li><li>C and D involve $4xz^2-5x^2-z$, which does not arise from the algebra. Incorrect.</li></ul>"
     }
   ]
 }

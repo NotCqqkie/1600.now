@@ -1,1 +1,15 @@
-{"questionId":"8c90f26b-77aa-4ba4-80ae-bd4881600582_22","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank is a verb that must agree with its subject. The subject of the blank is &quot;re-entering one of the checkers into the game&quot; &mdash; a gerund phrase. Gerund phrases always function as singular subjects."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'follows'</strong>: Singular verb; agrees with the singular gerund-phrase subject. &#10003;</li><li><strong>Choice B &mdash; 'are following'</strong>: Plural verb and present-progressive tense; neither agrees with a singular subject nor fits the simple-present context. &#10007;</li><li><strong>Choice C &mdash; 'have followed'</strong>: Plural verb in present-perfect tense; fails subject-verb agreement and shifts tense unnecessarily. &#10007;</li><li><strong>Choice D &mdash; 'follow'</strong>: Bare infinitive / plural form; does not agree with a singular subject. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "8c90f26b-77aa-4ba4-80ae-bd4881600582_22",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank is a verb that must agree with its subject. The subject of the blank is &quot;re-entering one of the checkers into the game&quot; &mdash; a gerund phrase. Gerund phrases always function as singular subjects."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; follows</strong>: Singular verb; agrees with the singular gerund-phrase subject. &#10003;</li><li><strong>Choice B &mdash; are following</strong>: Plural verb and present-progressive tense; neither agrees with a singular subject nor fits the simple-present context. &#10007;</li><li><strong>Choice C &mdash; have followed</strong>: Plural verb in present-perfect tense; fails subject-verb agreement and shifts tense unnecessarily. &#10007;</li><li><strong>Choice D &mdash; follow</strong>: Bare infinitive / plural form; does not agree with a singular subject. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

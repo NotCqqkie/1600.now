@@ -1,1 +1,15 @@
-{"questionId": "a6155e60", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the logical relationship", "content": "The first sentence establishes that compounds have unique spectroscopic fingerprints.<br/><br/>The second sentence describes De Sanctis analyzing reflected light and successfully identifying sodium carbonate on Ceres.<br/><br/>The strongest signal: these two sentences have a cause-and-effect relationship—the identification follows from the fingerprinting principle."}, {"title": "Apply the causal transition", "content": "<strong>Thus</strong> (therefore/as a result) is correct because it expresses that De Sanctis's identification logically follows from the spectroscopic fingerprinting principle introduced first.<br/><br/><strong>A</strong> — <em>Regardless</em> signals that the finding happens despite the fingerprinting principle, which is illogical — the identification depends on that principle, not in spite of it.<br/><br/><strong>B</strong> — <em>Meanwhile</em> signals simultaneity or an alternative happening at the same time, which doesn't fit — one event is the logical consequence of the other.<br/><br/><strong>D</strong> — <em>In comparison</em> signals a contrast between two ideas, but no comparison is being drawn here; the second sentence is a result of the first.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "a6155e60",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the logical relationship",
+      "content": "The first sentence establishes that compounds have unique spectroscopic fingerprints.<br/><br/>The second sentence describes De Sanctis analyzing reflected light and successfully identifying sodium carbonate on Ceres.<br/><br/>The strongest signal: these two sentences have a cause-and-effect relationship—the identification follows from the fingerprinting principle."
+    },
+    {
+      "title": "Apply the causal transition",
+      "content": "<strong>Thus</strong> (therefore/as a result) is correct because it expresses that De Sanctis's identification logically follows from the spectroscopic fingerprinting principle introduced first.<br/><br/><strong>A</strong> — <em>Regardless</em> signals that the finding happens despite the fingerprinting principle, which is illogical — the identification depends on that principle, not in spite of it.<br/><br/><strong>B</strong> — <em>Meanwhile</em> signals simultaneity or an alternative happening at the same time, which doesn't fit — one event is the logical consequence of the other.<br/><br/><strong>D</strong> — <em>In comparison</em> signals a contrast between two ideas, but no comparison is being drawn here; the second sentence is a result of the first.<br/><br/>That is the correct answer."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId":"fd74de5b-6191-4868-9a2d-dd70269d2477_21","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify the tense frame","content":"The passage establishes a past-tense narrative: events are anchored to 1987 and described in simple past. The blank appears in the sentence \"Years later, he ______ for this groundbreaking research with the Robert A. Welch Award\" — a future event described from within that past narrative frame."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A — 'would be honored'</strong>: The conditional/future-in-the-past form. \"Would be honored\" correctly describes an event that was in the future at the time of the 1987 starting point but has since occurred — fitting the past-tense narrative. ✓</li><li><strong>Choice B — 'is honored'</strong>: Simple present tense clashes with the past-tense narrative frame established throughout the passage. ✗</li><li><strong>Choice C — 'will be honored'</strong>: Simple future is wrong because the honoring is presented as already having happened; simple future implies it has not yet occurred. ✗</li><li><strong>Choice D — 'had been honored'</strong>: Past perfect places the honoring before 1987, contradicting \"Years later\" — the award came after the research, not before. ✗</li></ul>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "fd74de5b-6191-4868-9a2d-dd70269d2477_21",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the tense frame",
+      "content": "The passage establishes a past-tense narrative: events are anchored to 1987 and described in simple past. The blank appears in the sentence \"Years later, he ______ for this groundbreaking research with the Robert A. Welch Award\" — a future event described from within that past narrative frame."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"would be honored\"</strong>: The conditional/future-in-the-past form. \"Would be honored\" correctly describes an event that was in the future at the time of the 1987 starting point but has since occurred — fitting the past-tense narrative. ✓</li><li><strong>\"is honored\"</strong>: Simple present tense clashes with the past-tense narrative frame established throughout the passage. ✗</li><li><strong>\"will be honored\"</strong>: Simple future is wrong because the honoring is presented as already having happened; simple future implies it has not yet occurred. ✗</li><li><strong>\"had been honored\"</strong>: Past perfect places the honoring before 1987, contradicting \"Years later\" — the award came after the research, not before. ✗</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+    }
+  ]
+}

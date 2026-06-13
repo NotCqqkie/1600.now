@@ -9,7 +9,7 @@
     },
     {
       "title": "Test each choice",
-      "content": "<ul><li><strong>Choice A &mdash; '$\\frac{1}{44}+x=x$'</strong>: Subtract $$x$$: $$\\frac{1}{44}=0$$. False — no solution. &#10007;</li><li><strong>Choice B &mdash; '$\\frac{1}{44}+x=-x-\\frac{1}{44}$'</strong>: Add $$x$$ to both sides: $$\\frac{1}{44}+2x=-\\frac{1}{44}$$. Then $$2x=-\\frac{2}{44}$$, so $$x=-\\frac{1}{44}$$. Exactly one solution. &#10003;</li><li><strong>Choice C &mdash; '$\\frac{1}{44}-x=\\frac{1}{44}-x$'</strong>: Both sides identical — true for all $$x$$. Infinitely many solutions. &#10007;</li><li><strong>Choice D &mdash; '$\\frac{1}{44}-x=-x$'</strong>: Add $$x$$: $$\\frac{1}{44}=0$$. False — no solution. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; $\\frac{1}{44} + x = x$</strong>: Subtract $$x$$: $$\\frac{1}{44}=0$$. False — no solution. &#10007;</li><li><strong>Choice B &mdash; $\\frac{1}{44} + x = -x - \\frac{1}{44}$</strong>: Add $$x$$ to both sides: $$\\frac{1}{44}+2x=-\\frac{1}{44}$$. Then $$2x=-\\frac{2}{44}$$, so $$x=-\\frac{1}{44}$$. Exactly one solution. &#10003;</li><li><strong>Choice C &mdash; $\\frac{1}{44} - x = \\frac{1}{44} - x$</strong>: Both sides identical — true for all $$x$$. Infinitely many solutions. &#10007;</li><li><strong>Choice D &mdash; $\\frac{1}{44} - x = -x$</strong>: Add $$x$$: $$\\frac{1}{44}=0$$. False — no solution. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
     }
   ]
 }

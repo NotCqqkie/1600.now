@@ -1,1 +1,15 @@
-{"questionId": "3f236877", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the confidentiality loophole", "content": "The key signal: the protocol allows corporations to keep agreements confidential. While the protocol's goal is ensuring Indigenous communities are compensated, secrecy prevents anyone from verifying whether the compensation is actually fair."}, {"title": "Apply the signal to find the unintended effect", "content": "Choice C directly captures what happens when agreements are confidential: independent observers cannot determine whether the communities receive equitable compensation — the very outcome the protocol is supposed to guarantee.<br/><br/>The other three address corporate profit reduction, research limitations, and learning discouragement, none of which follow from confidentiality rules.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "3f236877",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the confidentiality loophole",
+      "content": "The key signal: the protocol allows corporations to keep agreements confidential. While the protocol's goal is ensuring Indigenous communities are compensated, secrecy prevents anyone from verifying whether the compensation is actually fair."
+    },
+    {
+      "title": "Apply the signal to find the unintended effect",
+      "content": "The matching choice directly captures what happens when agreements are confidential: independent observers cannot determine whether the communities receive equitable compensation — the very outcome the protocol is supposed to guarantee.<br/><br/>The other three address corporate profit reduction, research limitations, and learning discouragement, none of which follow from confidentiality rules.<br/><br/><strong>C</strong> is correct."
+    }
+  ]
+}

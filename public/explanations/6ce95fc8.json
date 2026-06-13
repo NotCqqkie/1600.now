@@ -13,11 +13,11 @@
     },
     {
       "title": "Match the exact solution",
-      "content": "The positive intersection is approximately $2.158$. Among the choices, $\\frac{1+\\sqrt{11}}{2}\\approx2.158$, so choice D matches the graph."
+      "content": "The positive intersection is approximately $2.158$. Among the choices, $\\frac{1+\\sqrt{11}}{2}\\approx2.158$, so choice D (&lsquo;$\\frac{1 + \\sqrt{11}}{2}$&rsquo;) matches the graph."
     },
     {
       "title": "Confirm algebraically",
-      "content": "Move all terms to one side:<br/>$$2x^2-2x-5=0$$<br/>Quadratic formula:<br/>$$x=\\frac{2\\pm\\sqrt{44}}{4}=\\frac{1\\pm\\sqrt{11}}{2}$$<br/>Choice D is one of these solutions, so <strong>D</strong> is correct."
+      "content": "Move all terms to one side:<br/>$$2x^2-2x-5=0$$<br/>Quadratic formula:<br/>$$x=\\frac{2\\pm\\sqrt{44}}{4}=\\frac{1\\pm\\sqrt{11}}{2}$$<br/>Choice D (&lsquo;$\\frac{1 + \\sqrt{11}}{2}$&rsquo;) is one of these solutions, so <strong>D</strong> is correct."
     }
   ]
 }

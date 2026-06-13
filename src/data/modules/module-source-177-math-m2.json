@@ -6,7 +6,7 @@
     "difficulty": "Medium",
     "question_number": 1,
     "test_name": "Module Source 177 Math M2",
-    "passage": "The bar graph shows the distribution of flower type for the 700 flowers that a florist has in stock.\nType of flower\nFor which two types of flowers is the total number of flowers of the two types exactly $\\frac{2}{5}$ of the florist's stock?",
+    "passage": "The bar graph shows the distribution of flower type for the 700 flowers that a florist has in stock.\nFor which two types of flowers is the total number of flowers of the two types exactly $\\frac{2}{5}$ of the florist's stock?",
     "question_text": null,
     "choices": [
       {
@@ -148,20 +148,20 @@
     "difficulty": "Hard",
     "question_number": 5,
     "test_name": "Module Source 177 Math M2",
-    "passage": "In the $xy$-plane, which of the following does NOT contain any points that are part of the solution set to $3x - 7y > 21$?",
+    "passage": "In the $xy$-plane, which of the following does NOT contain any points that are part of the solution set to $3x - 7y \\gt 21$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "The region where $x < 0$ and $y > 0$"
+        "text": "The region where $x \\lt 0$ and $y \\gt 0$"
       },
       {
         "label": "B",
-        "text": "The region where $x > 0$ and $y < 0$"
+        "text": "The region where $x \\gt 0$ and $y \\lt 0$"
       },
       {
         "label": "C",
-        "text": "The region where $x > 0$ and $y > 0$"
+        "text": "The region where $x \\gt 0$ and $y \\gt 0$"
       },
       {
         "label": "D",
@@ -219,7 +219,7 @@
     "difficulty": "Hard",
     "question_number": 7,
     "test_name": "Module Source 177 Math M2",
-    "passage": "In triangle FGH and triangle KLM, the measures of angles G and L are each $30°$. The lengths of $\\overline{GH}$ and $\\overline{LM}$ are each 34 centimeters, and $\\frac{GH}{GF}=\\frac{LM}{LK}$. Which additional piece of information would be necessary to prove that triangle FGH is congruent to triangle KLM?",
+    "passage": "In triangle FGH and triangle KLM, the measures of angles G and L are each $30^\\circ$. The lengths of $\\overline{GH}$ and $\\overline{LM}$ are each 34 centimeters, and $\\frac{GH}{GF}=\\frac{LM}{LK}$. Which additional piece of information would be necessary to prove that triangle FGH is congruent to triangle KLM?",
     "question_text": null,
     "choices": [
       {
@@ -228,11 +228,11 @@
       },
       {
         "label": "B",
-        "text": "The measures of angles H and M are each $60°$"
+        "text": "The measures of angles H and M are each $60^\\circ$"
       },
       {
         "label": "C",
-        "text": "The measures of angles F and K are each $90°$"
+        "text": "The measures of angles F and K are each $90^\\circ$"
       },
       {
         "label": "D",
@@ -367,7 +367,7 @@
     "difficulty": "Hard",
     "question_number": 13,
     "test_name": "Module Source 177 Math M2",
-    "passage": "A beaker containing a liquid is placed on a table. The function $g(t) = 295 + (361 - 295)(2.72)^{-0.104 t}$ gives the approximate temperature, in kelvins, of the liquid $t$ minutes after the beaker was placed on the table. According to this function, what was the approximate temperature, in kelvins, of the liquid when the beaker was placed on the table?",
+    "passage": "A beaker containing a liquid is placed on a table. The function $g(t) = 295 + (361 - 295)(2.72)^{-0.104t}$ gives the approximate temperature, in kelvins, of the liquid $t$ minutes after the beaker was placed on the table. According to this function, what was the approximate temperature, in kelvins, of the liquid when the beaker was placed on the table?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -414,7 +414,7 @@
     "difficulty": "Hard",
     "question_number": 15,
     "test_name": "Module Source 177 Math M2",
-    "passage": "$y=9\\left(\\frac{a}{6}\\right)^{x+c} - b$\nHow many times does the graph of the given equation in the $xy$-plane cross the $x$-axis, where $a$, $b$, and $c$ are positive constants such that $a > 6$ and $b > c$?",
+    "passage": "$y=9\\left(\\frac{a}{6}\\right)^{x+c} - b$\nHow many times does the graph of the given equation in the $xy$-plane cross the $x$-axis, where $a$, $b$, and $c$ are positive constants such that $a \\gt 6$ and $b \\gt c$?",
     "question_text": null,
     "choices": [
       {

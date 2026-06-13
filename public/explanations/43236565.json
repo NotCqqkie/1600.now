@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the theorem and check each choice",
-      "content": "Vertical angles are congruent, and corresponding angles formed by a transversal cutting parallel lines are also congruent. Either way, $x = 145$.<br/><ul><li>A) $x \\lt 145$: false, since $x = 145$. Eliminate.</li><li>B) $x > 145$: false, since $x = 145$. Eliminate.</li><li>C) $x = 145$: matches the vertical/corresponding angle relationship. Match.</li><li>D) Cannot be determined: false &mdash; the parallel-line and transversal setup pins $x$ exactly. Eliminate.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+      "content": "Vertical angles are congruent, and corresponding angles formed by a transversal cutting parallel lines are also congruent. Either way, $x = 145$.<br/><ul><li>A) $x \\lt 145$: false, since $x = 145$. Eliminate.</li><li>B) $x \\gt  145$: false, since $x = 145$. Eliminate.</li><li>C) $x = 145$: matches the vertical/corresponding angle relationship. Match.</li><li>D) Cannot be determined: false &mdash; the parallel-line and transversal setup pins $x$ exactly. Eliminate.</li></ul><strong>C</strong> is correct."
     }
   ]
 }

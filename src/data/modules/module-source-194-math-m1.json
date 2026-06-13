@@ -153,19 +153,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "−14"
+        "text": "$-14$"
       },
       {
         "label": "B",
-        "text": "−12"
+        "text": "$-12$"
       },
       {
         "label": "C",
-        "text": "−4"
+        "text": "$-4$"
       },
       {
         "label": "D",
-        "text": "−2"
+        "text": "$-2$"
       }
     ],
     "is_fill_in_blank": false,
@@ -180,7 +180,7 @@
     "difficulty": "Medium",
     "question_number": 6,
     "test_name": "Module Source 194 Math M1",
-    "passage": "If $x = 2n^2x^n + 35$, where $n$ is a positive integer constant, what is the value of $x^n$?",
+    "passage": "If $x^{2n} = 2x^n + 35$, where $n$ is a positive integer constant, what is the value of $x^n$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -195,7 +195,7 @@
     "difficulty": "Easy",
     "question_number": 7,
     "test_name": "Module Source 194 Math M1",
-    "passage": "In the triangle shown, what is the value of sin y°?",
+    "passage": "In the triangle shown, what is the value of $\\sin y^\\circ$?",
     "question_text": null,
     "choices": [
       {
@@ -271,7 +271,7 @@
     "difficulty": "Medium",
     "question_number": 10,
     "test_name": "Module Source 194 Math M1",
-    "passage": "$x + 2y = 60$\n$x + y = 4x$\nIf the solution to the given system of equations is $(x, y)$, which of the following equations is true?",
+    "passage": "$x + 2y = 60$\n$x + y = 45$\nIf the solution to the given system of equations is $(x, y)$, which of the following equations is true?",
     "question_text": null,
     "choices": [
       {
@@ -325,7 +325,7 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
-    "rationale": "Choice C is correct. It’s given that the function $f$ is defined by $f\\left(x\\right)=25x+30$. Substituting $2$ for $x$ in this equation yields $f\\left(2\\right)=25\\left(2\\right)+30$, which is equivalent to $f\\left(2\\right)=50+30$, or $f\\left(2\\right)=80$. Therefore, the value of $f\\left(x\\right)$ is $80$ when $x=2$.\nChoice A is incorrect. This is the value of $25\\left(2\\right)$, not $25\\left(2\\right)+30$.\nChoice B is incorrect. This is the value of $25+2+30$, not $25\\left(2\\right)+30$.\nChoice D is incorrect. This is the value of $\\left(25+30\\right)\\left(2\\right)$, not $25\\left(2\\right)+30$.",
+    "rationale": "Choice C is correct. It's given that the function $f$ is defined by $f\\left(x\\right)=25x+30$. Substituting $2$ for $x$ in this equation yields $f\\left(2\\right)=25\\left(2\\right)+30$, which is equivalent to $f\\left(2\\right)=50+30$, or $f\\left(2\\right)=80$. Therefore, the value of $f\\left(x\\right)$ is $80$ when $x=2$.\nChoice A is incorrect. This is the value of $25\\left(2\\right)$, not $25\\left(2\\right)+30$.\nChoice B is incorrect. This is the value of $25+2+30$, not $25\\left(2\\right)+30$.\nChoice D is incorrect. This is the value of $\\left(25+30\\right)\\left(2\\right)$, not $25\\left(2\\right)+30$.",
     "id": "3d1070c9"
   },
   {
@@ -335,7 +335,7 @@
     "difficulty": "Easy",
     "question_number": 12,
     "test_name": "Module Source 194 Math M1",
-    "passage": "Scientists collected fallen acorns that each housed a colony of the ant species P. ohioensis and analyzed each colony's structure. For any of these colonies, if the colony has $x$ worker ants, the equation $y = 0.67 x + 2.6$, where $20 \\leq x \\leq 110$, gives the predicted number of larvae, $y$, in the colony. If one of these colonies has 41 worker ants, which of the following is closest to the predicted number of larvae in the colony?",
+    "passage": "Scientists collected fallen acorns that each housed a colony of the ant species P. ohioensis and analyzed each colony's structure. For any of these colonies, if the colony has $x$ worker ants, the equation $y = 0.67x + 2.6$, where $20 \\leq x \\leq 110$, gives the predicted number of larvae, $y$, in the colony. If one of these colonies has 41 worker ants, which of the following is closest to the predicted number of larvae in the colony?",
     "question_text": null,
     "choices": [
       {
@@ -603,7 +603,7 @@
     "difficulty": "Medium",
     "question_number": 21,
     "test_name": "Module Source 194 Math M1",
-    "passage": "One of the two equations in a system of linear equations is given. The system has no solution. Which equation could be the second equation in this system?\n\n$x - 24y = 12$",
+    "passage": "One of the two equations in a system of linear equations is given. The system has no solution. Which equation could be the second equation in this system?\n\n$x - 8y = 12$",
     "question_text": null,
     "choices": [
       {
@@ -612,11 +612,11 @@
       },
       {
         "label": "B",
-        "text": "$x - 8y = 4$"
+        "text": "$x - 7y = 4$"
       },
       {
         "label": "C",
-        "text": "$\\frac{1}{2}x - 4y = 2$"
+        "text": "$\\frac{1}{2}x - 3y = 2$"
       },
       {
         "label": "D",

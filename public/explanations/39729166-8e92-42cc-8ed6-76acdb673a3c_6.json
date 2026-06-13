@@ -9,7 +9,7 @@
     },
     {
       "title": "Find the vertex using the midpoint of the zeros",
-      "content": "For a quadratic function, the vertex (where the maximum occurs) is located at the x-coordinate equidistant from the two zeros. Apply the midpoint formula:<br/>$$x = \\frac{18 + (-5)}{2} = \\frac{13}{2} = 6.5$$<br/>This matches choice A — <strong>A</strong> is correct.",
+      "content": "For a quadratic function, the vertex (where the maximum occurs) is located at the x-coordinate equidistant from the two zeros. Apply the midpoint formula:<br/>$$x = \\frac{18 + (-5)}{2} = \\frac{13}{2} = 6.5$$<br/>This matches the correct answer — <strong>A</strong> is correct.",
       "formula": "$$x = \\frac{x_1 + x_2}{2}$$"
     }
   ]

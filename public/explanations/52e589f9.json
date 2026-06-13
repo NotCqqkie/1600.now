@@ -9,7 +9,7 @@
     },
     {
       "title": "Interpret m(330) ≈ 362 using the variable definitions",
-      "content": "Given that $m(330) \\approx 362$, we identify: $t = 330$ (days after birth) is the input, and $m(330) \\approx 362$ kg (body mass) is the output. Therefore, 330 days after it was born, the animal's predicted body mass was approximately 362 kg. That matches choice B — <strong>B</strong> is correct."
+      "content": "Given that $m(330) \\approx 362$, we identify: $t = 330$ (days after birth) is the input, and $m(330) \\approx 362$ kg (body mass) is the output. Therefore, 330 days after it was born, the animal's predicted body mass was approximately 362 kg. <strong>B</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId":"a16355d1-6cca-4c4e-8e0a-f405892830f1_3","correctAnswer":"D","section":"Math","steps":[{"title":"Identify what the question needs","content":"The histogram has bars at 50-foot intervals. The maximum length in the data set must fall inside the rightmost bar that has data. Look at the histogram: the rightmost non-empty bar covers 200 &le; length &lt; 250. The correct answer must be a value that falls in that bin."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; '69'</strong>: falls in the first bar (0&ndash;49 ft). Cannot be the maximum. &#10007;</li><li><strong>Choice B &mdash; '119'</strong>: falls in the third bar (100&ndash;149 ft). Cannot be the maximum. &#10007;</li><li><strong>Choice C &mdash; '169'</strong>: falls in the fourth bar (150&ndash;199 ft). Cannot be the maximum. &#10007;</li><li><strong>Choice D &mdash; '219'</strong>: falls in the rightmost non-empty bar (200&ndash;249 ft). A valid maximum. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "a16355d1-6cca-4c4e-8e0a-f405892830f1_3",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The histogram has bars at 50-foot intervals. The maximum length in the data set must fall inside the rightmost bar that has data. Look at the histogram: the rightmost non-empty bar covers 200 &le; length &lt; 250. The correct answer must be a value that falls in that bin."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; $69$</strong>: falls in the first bar (0&ndash;49 ft). Cannot be the maximum. &#10007;</li><li><strong>Choice B &mdash; $119$</strong>: falls in the third bar (100&ndash;149 ft). Cannot be the maximum. &#10007;</li><li><strong>Choice C &mdash; $169$</strong>: falls in the fourth bar (150&ndash;199 ft). Cannot be the maximum. &#10007;</li><li><strong>Choice D &mdash; $219$</strong>: falls in the rightmost non-empty bar (200&ndash;249 ft). A valid maximum. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

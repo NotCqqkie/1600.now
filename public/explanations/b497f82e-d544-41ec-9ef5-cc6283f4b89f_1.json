@@ -1,1 +1,15 @@
-{"questionId":"b497f82e-d544-41ec-9ef5-cc6283f4b89f_1","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage cites &apos;the sixth most commonly used password&apos; as evidence. The blank describes the type of password users pick for convenience. The word must match what that ranking statistic proves."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'complex'</strong>: directly contradicts the point &mdash; users choosing convenience avoid complexity. &#10007;</li><li><strong>Choice B &mdash; 'creative'</strong>: the evidence is about frequency of use, not originality. The sixth most common password is the opposite of creative. &#10007;</li><li><strong>Choice C &mdash; 'useful'</strong>: the statistic says nothing about utility; it measures how often a password appears across accounts. &#10007;</li><li><strong>Choice D &mdash; 'popular'</strong>: &apos;sixth most commonly used&apos; is a ranking of popularity. The word matches the evidence exactly. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "b497f82e-d544-41ec-9ef5-cc6283f4b89f_1",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage cites &apos;the sixth most commonly used password&apos; as evidence. The blank describes the type of password users pick for convenience. The word must match what that ranking statistic proves."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; creative</strong>: directly contradicts the point &mdash; users choosing convenience avoid complexity. &#10007;</li><li><strong>Choice B &mdash; useful</strong>: the evidence is about frequency of use, not originality. The sixth most common password is the opposite of creative. &#10007;</li><li><strong>Choice C &mdash; complex</strong>: the statistic says nothing about utility; it measures how often a password appears across accounts. &#10007;</li><li><strong>Choice D &mdash; popular</strong>: &apos;sixth most commonly used&apos; is a ranking of popularity. The word matches the evidence exactly. &#10003;</li></ul>That is the correct answer."
+    }
+  ]
+}

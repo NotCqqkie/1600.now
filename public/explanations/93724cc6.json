@@ -9,7 +9,7 @@
     },
     {
       "title": "Solve for the unknown number",
-      "content": "Divide both sides by 0.21 to isolate $x$:<br/>$$x = \\frac{21}{0.21}$$<br/>Rewrite $0.21 = \\frac{21}{100}$:<br/>$$x = \\frac{21}{\\frac{21}{100}} = 21 \\times \\frac{100}{21} = 100$$<br/>That matches choice D — <strong>D</strong> is correct."
+      "content": "Divide both sides by 0.21 to isolate $x$:<br/>$$x = \\frac{21}{0.21}$$<br/>Rewrite $0.21 = \\frac{21}{100}$:<br/>$$x = \\frac{21}{\\frac{21}{100}} = 21 \\times \\frac{100}{21} = 100$$<br/>That confirms <strong>D</strong> is correct."
     }
   ]
 }

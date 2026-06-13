@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice B is correct because the minimum occurs at $x=45$. Choices A and C are the intercepts, not the minimum point. Choice D is the minimum function value, $f(45)=-1$, not the requested $x$-value.",
+      "content": "The answer $45$ is correct because the minimum occurs at $x=45$. The values $46$ and $44$ are intercepts, not the minimum point. The value $-1$ is the minimum function value, $f(45)=-1$, not the requested $x$-value.",
       "desmosExpressions": [
         "f(x)=(x-44)(x-46)"
       ]

@@ -1,1 +1,15 @@
-{"questionId": "4dc81965-4d7d-41a3-a149-fdc37cafa647_27", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The notes emphasize a specific pattern: Edison lacked formal education but relied on specialist employees for his inventions. To emphasize Edison's reliance on Hammer, the answer must connect these elements—Edison's educational gap, his need for specialists, and Hammer as a specific example."}, {"title": "Apply the signal to the choices", "content": "Choice D does exactly this by opening with Edison's education limitation, stating he “depended on” specialist employees, and naming Hammer as one of them.<br/><br/>The other choices either ignore Edison's reliance (A), add unsupported claims (B), or reverse the relationship by emphasizing employee independence (C).<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "4dc81965-4d7d-41a3-a149-fdc37cafa647_27",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The notes emphasize a specific pattern: Edison lacked formal education but relied on specialist employees for his inventions. To emphasize Edison's reliance on Hammer, the answer must connect these elements—Edison's educational gap, his need for specialists, and Hammer as a specific example."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "The correct answer does exactly this by opening with Edison's education limitation, stating he “depended on” specialist employees, and naming Hammer as one of them.<br/><br/>The other choices either ignore Edison's reliance (A), add unsupported claims (B), or reverse the relationship by emphasizing employee independence (C).<br/><br/><strong>D</strong> is correct."
+    }
+  ]
+}

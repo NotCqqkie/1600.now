@@ -1,1 +1,15 @@
-{"questionId": "11ab7acb-9d06-445e-8071-b2cefe5234c2_27", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Recognize what 'how' requires", "content": "The student's goal is to describe how DLS cures 3D objects—this means explaining the mechanism, not just naming components. The strongest signal is that the answer must clearly identify what causes the curing and trace the complete sequence of steps."}, {"title": "Apply the mechanism to the choices", "content": "Choice C identifies it directly: UV light images are projected into a liquid resin pool to cure a 3D object layer by layer, then the object is baked in an oven.<br/><br/>It clearly names light as the curing mechanism and shows the complete process from start to finish.<br/><br/>The other three fail to correctly identify light's role or misrepresent the dead zone's function in the process.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "11ab7acb-9d06-445e-8071-b2cefe5234c2_27",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize what 'how' requires",
+      "content": "The student's goal is to describe how DLS cures 3D objects—this means explaining the mechanism, not just naming components. The strongest signal is that the answer must clearly identify what causes the curing and trace the complete sequence of steps."
+    },
+    {
+      "title": "Apply the mechanism to the choices",
+      "content": "<strong>Choice C &mdash; In DLS, UV light images are projected into a liquid resin pool to cure a 3D object layer by layer; once solidified, the object is baked in an oven.</strong> identifies it directly: UV light images are projected into a liquid resin pool to cure a 3D object layer by layer, then the object is baked in an oven.<br/><br/>It clearly names light as the curing mechanism and shows the complete process from start to finish.<br/><br/>The other three fail to correctly identify light's role or misrepresent the dead zone's function in the process.<br/><br/>That matches <strong>Choice C &mdash; In DLS, UV light images are projected into a liquid resin pool to cure a 3D object layer by layer; once solidified, the object is baked in an oven.</strong>."
+    }
+  ]
+}

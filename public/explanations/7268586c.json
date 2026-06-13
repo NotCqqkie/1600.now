@@ -9,7 +9,7 @@
     },
     {
       "title": "Compute the requested value",
-      "content": "With angle $P = 24°$, the base-angle equality gives angle $R = 24°$, and the diagram labels angle $R$ as $x°$:<br/>$$x = 24$$<br/>That matches choice <strong>D</strong> — <strong>D</strong> is correct."
+      "content": "With angle $P = 24^{\\circ}$, the base-angle equality gives angle $R = 24^{\\circ}$, and the diagram labels angle $R$ as $x^{\\circ}$:<br/>$$x = 24$$<br/>That confirms <strong>D</strong> is correct."
     }
   ]
 }

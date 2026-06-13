@@ -38,7 +38,7 @@
     "difficulty": "Easy",
     "question_number": 2,
     "test_name": "Module Source 080 Math M2",
-    "passage": "Which expression is equivalent to $(57y)^{\\frac{1}{2}}$, where $y > 1$?",
+    "passage": "Which expression is equivalent to $(57y)^{\\frac{1}{2}}$, where $y \\gt 1$?",
     "question_text": null,
     "choices": [
       {
@@ -181,7 +181,7 @@
     "difficulty": "Medium",
     "question_number": 7,
     "test_name": "Module Source 080 Math M2",
-    "passage": "$f(x)=(2x-3)(x+8)$\n$g(x)=3(6x-9)$\nThe functions $f$ and $g$ are defined by the equations shown. Which of the following is equivalent to $f(x)$ - $g(x)$?",
+    "passage": "$f(x)=(2x-3)(x+8)$\n$g(x)=3(6x-9)$\nThe functions $f$ and $g$ are defined by the equations shown. Which of the following is equivalent to $f(x)-g(x)$?",
     "question_text": null,
     "choices": [
       {
@@ -370,7 +370,7 @@
     "difficulty": "Medium",
     "question_number": 13,
     "test_name": "Module Source 080 Math M2",
-    "passage": "In the $xy$-plane, line $k$ and line $\\gamma$ are perpendicular and intersect at the point $(7, 5)$. If line $k$ is defined by the equation $y = mx + b$, where $m$ and $b$ are constants and $m > 1$, which of the following points lies on line $\\gamma$?",
+    "passage": "In the $xy$-plane, line $k$ and line $\\gamma$ are perpendicular and intersect at the point $(7, 5)$. If line $k$ is defined by the equation $y = mx + b$, where $m$ and $b$ are constants and $m \\gt 1$, which of the following points lies on line $\\gamma$?",
     "question_text": null,
     "choices": [
       {

@@ -1,1 +1,15 @@
-{"questionId":"73482b52-a20f-452d-896f-76f578ac2361_13","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage asserts that by the mid-1980s, natural regrowth was triggered &mdash; and the blank must complete that assertion with specific graph data. The evidence must show forest cover <strong>increasing</strong> after the deforestation period."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'increase in the forest cover area for all classes from 1979 to 2000'</strong>: A rise in forest cover across all land-use classes over this period directly shows regrowth following the 1960s&ndash;70s cattle boom. &#10003;</li><li><strong>Choice B &mdash; 'similarity in forest cover area in Class I-IV and Class VII in 1986'</strong>: A similarity between two classes at a single year does not show growth over time &mdash; it says nothing about whether the forest is recovering. &#10007;</li><li><strong>Choice C &mdash; 'difference between the forest cover area in Class I-IV and in Class VI in 2000'</strong>: A difference between two classes at one snapshot year does not demonstrate a regrowth trend. &#10007;</li><li><strong>Choice D &mdash; 'decrease in the forest cover area for all classes from 1960 to 1979'</strong>: A decrease describes the deforestation boom, the opposite of the regrowth the passage asserts. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "73482b52-a20f-452d-896f-76f578ac2361_13",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage asserts that by the mid-1980s, natural regrowth was triggered &mdash; and the blank must complete that assertion with specific graph data. The evidence must show forest cover <strong>increasing</strong> after the deforestation period."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;increase in the forest cover area for all classes from 1979 to 2000.&rsquo;</strong>: A rise in forest cover across all land-use classes over this period directly shows regrowth following the 1960s&ndash;70s cattle boom. &#10003;</li><li><strong>Choice B &mdash; &lsquo;similarity in forest cover area in Class I-IV and Class VII in 1986.&rsquo;</strong>: A similarity between two classes at a single year does not show growth over time &mdash; it says nothing about whether the forest is recovering. &#10007;</li><li><strong>Choice C &mdash; &lsquo;difference between the forest cover area in Class I-IV and in Class VI in 2000.&rsquo;</strong>: A difference between two classes at one snapshot year does not demonstrate a regrowth trend. &#10007;</li><li><strong>Choice D &mdash; &lsquo;decrease in the forest cover area for all classes from 1960 to 1979.&rsquo;</strong>: A decrease describes the deforestation boom, the opposite of the regrowth the passage asserts. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

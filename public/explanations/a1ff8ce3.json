@@ -1,1 +1,19 @@
-{"questionId": "a1ff8ce3", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key context clue", "content": "The parenthetical explicitly names Adobe Flash as &quot;discontinued in 2021.&quot; The blank describes software of that kind &mdash; software that is no longer in operation."}, {"title": "Match the target meaning", "content": "The needed word means &quot;no longer functioning or in use.&quot; &quot;Defunct&quot; carries exactly that sense."}, {"title": "Per-choice elimination", "content": "<ul><li><strong>Choice A &mdash; &apos;defunct&apos;</strong>: means no longer existing or functioning, which fits &quot;discontinued in 2021.&quot; &#10003;</li><li><strong>Choice B &mdash; &apos;arcane&apos;</strong>: means obscure or mysterious; discontinuation is about ceasing to function, not obscurity. &#10007;</li><li><strong>Choice C &mdash; &apos;ubiquitous&apos;</strong>: means found everywhere; the opposite direction &mdash; the software is now unavailable. &#10007;</li><li><strong>Choice D &mdash; &apos;extraneous&apos;</strong>: means irrelevant or unnecessary; the software is necessary to view the art, just no longer available. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "a1ff8ce3",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key context clue",
+      "content": "The parenthetical explicitly names Adobe Flash as &quot;discontinued in 2021.&quot; The blank describes software of that kind &mdash; software that is no longer in operation."
+    },
+    {
+      "title": "Match the target meaning",
+      "content": "The needed word means &quot;no longer functioning or in use.&quot; &quot;Defunct&quot; carries exactly that sense."
+    },
+    {
+      "title": "Per-choice elimination",
+      "content": "<ul><li><strong>Choice A &mdash; defunct</strong>: means no longer existing or functioning, which fits &quot;discontinued in 2021.&quot; &#10003;</li><li><strong>Choice B &mdash; arcane</strong>: means obscure or mysterious; discontinuation is about ceasing to function, not obscurity. &#10007;</li><li><strong>Choice C &mdash; ubiquitous</strong>: means found everywhere; the opposite direction &mdash; the software is now unavailable. &#10007;</li><li><strong>Choice D &mdash; extraneous</strong>: means irrelevant or unnecessary; the software is necessary to view the art, just no longer available. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "23fd9cca-199e-4a62-b065-4e2d5997bf7f_14", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The blank sits between the subject (&quot;Florida-based researchers Martha A. Scholl, Maoya Bassiouni, and Angel J. Torres-S&aacute;nchez&quot;) and the rest of the predicate (&quot;compiled climate data from several sites&quot;). The verb must connect directly to what follows without any interruption."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'compiled,'</strong>: A comma after a transitive verb cuts it off from its direct object (&quot;climate data&quot;). No punctuation belongs between a verb and the object it governs. &#10007;</li><li><strong>Choice B &mdash; 'compiled'</strong>: No punctuation. The verb flows directly into &quot;climate data from several sites,&quot; its direct object. Standard English requires this bond to be unbroken. &#10003;</li><li><strong>Choice C &mdash; 'compiled;'</strong>: A semicolon must be followed by an independent clause. &quot;Climate data from several sites&hellip;&quot; is not a clause at all &mdash; it is a noun phrase completing the verb. &#10007;</li><li><strong>Choice D &mdash; 'compiled:'</strong>: A colon introduces a list or elaboration that is grammatically separate. Here the material after the blank is the object of the verb, not a separate elaboration. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "23fd9cca-199e-4a62-b065-4e2d5997bf7f_14",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank sits between the subject (&quot;Florida-based researchers Martha A. Scholl, Maoya Bassiouni, and Angel J. Torres-S&aacute;nchez&quot;) and the rest of the predicate (&quot;compiled climate data from several sites&quot;). The verb must connect directly to what follows without any interruption."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; compiled,</strong>: A comma after a transitive verb cuts it off from its direct object (&quot;climate data&quot;). No punctuation belongs between a verb and the object it governs. &#10007;</li><li><strong>Choice B &mdash; compiled</strong>: No punctuation. The verb flows directly into &quot;climate data from several sites,&quot; its direct object. Standard English requires this bond to be unbroken. &#10003;</li><li><strong>Choice C &mdash; compiled;</strong>: A semicolon must be followed by an independent clause. &quot;Climate data from several sites&hellip;&quot; is not a clause at all &mdash; it is a noun phrase completing the verb. &#10007;</li><li><strong>Choice D &mdash; compiled:</strong>: A colon introduces a list or elaboration that is grammatically separate. Here the material after the blank is the object of the verb, not a separate elaboration. &#10007;</li></ul>That matches <strong>Choice B &mdash; compiled</strong>."
+    }
+  ]
+}

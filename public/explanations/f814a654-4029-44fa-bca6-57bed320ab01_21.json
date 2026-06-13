@@ -1,1 +1,15 @@
-{"questionId":"f814a654-4029-44fa-bca6-57bed320ab01_21","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"This is a Transitions question. Sentence 1 states that Falconer explores Fern&aacute;ndez&rsquo;s sculpture. Sentence 2 states that Falconer participates in the tradition of ekphrasis. The transition must show that the act of exploring the sculpture is precisely what constitutes participating in ekphrasis &mdash; a cause-and-effect or means-and-result relationship."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;In addition,&rsquo;</strong>: Signals additive information, implying sentence 2 is a separate, independent point. But sentence 2 is not a separate action &mdash; it is the consequence of sentence 1. &#10007;</li><li><strong>Choice B &mdash; &lsquo;In doing so,&rsquo;</strong>: Means &ldquo;by performing the action just described.&rdquo; By exploring the sculpture, Falconer participates in ekphrasis &mdash; exactly the means-and-result link the passage requires. &#10003;</li><li><strong>Choice C &mdash; &lsquo;That said,&rsquo;</strong>: Signals concession or contrast. No contrast exists between the two sentences; Falconer&rsquo;s exploration and his participation in ekphrasis are aligned, not opposed. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Conversely,&rsquo;</strong>: Signals direct opposition. The sentences do not contradict each other, so this transition is logically wrong. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "f814a654-4029-44fa-bca6-57bed320ab01_21",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a Transitions question. Sentence 1 states that Falconer explores Fern&aacute;ndez&rsquo;s sculpture. Sentence 2 states that Falconer participates in the tradition of ekphrasis. The transition must show that the act of exploring the sculpture is precisely what constitutes participating in ekphrasis &mdash; a cause-and-effect or means-and-result relationship."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"In addition,\"</strong>: Signals additive information, implying sentence 2 is a separate, independent point. But sentence 2 is not a separate action &mdash; it is the consequence of sentence 1. &#10007;</li><li><strong>\"In doing so,\"</strong>: Means &ldquo;by performing the action just described.&rdquo; By exploring the sculpture, Falconer participates in ekphrasis &mdash; exactly the means-and-result link the passage requires. &#10003;</li><li><strong>\"That said,\"</strong>: Signals concession or contrast. No contrast exists between the two sentences; Falconer&rsquo;s exploration and his participation in ekphrasis are aligned, not opposed. &#10007;</li><li><strong>\"Conversely,\"</strong>: Signals direct opposition. The sentences do not contradict each other, so this transition is logically wrong. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+    }
+  ]
+}

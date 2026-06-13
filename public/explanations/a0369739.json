@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the area method to find BC/BD",
-      "content": "The area of a right triangle can be calculated two ways:<ul><li>Using the two legs: $\\text{Area} = \\frac{1}{2} \\cdot AB \\cdot BC$</li><li>Using the hypotenuse and its altitude: $\\text{Area} = \\frac{1}{2} \\cdot AC \\cdot BD$</li></ul>Since both expressions equal the same area:<br/>$$AB \\cdot BC = AC \\cdot BD$$<br/>Rearranging to isolate our desired ratio:<br/>$$\\frac{BC}{BD} = \\frac{AC}{AB} = \\frac{38}{15}$$<br/>That matches choice D — <strong>D</strong> is correct."
+      "content": "The area of a right triangle can be calculated two ways:<ul><li>Using the two legs: $\\text{Area} = \\frac{1}{2} \\cdot AB \\cdot BC$</li><li>Using the hypotenuse and its altitude: $\\text{Area} = \\frac{1}{2} \\cdot AC \\cdot BD$</li></ul>Since both expressions equal the same area:<br/>$$AB \\cdot BC = AC \\cdot BD$$<br/>Rearranging to isolate our desired ratio:<br/>$$\\frac{BC}{BD} = \\frac{AC}{AB} = \\frac{38}{15}$$<br/>That confirms <strong>D</strong> is correct."
     }
   ]
 }

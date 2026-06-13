@@ -1,1 +1,15 @@
-{"questionId": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_1", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Read the contrast signal", "content": "The sentence sets up a paired opposition: a reign could be considered &quot;historically significant&quot; <em>or, conversely, relatively ______.</em> The word <em>conversely</em> demands an antonym of &quot;historically significant&quot; &mdash; something meaning unimportant or without historical weight."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; 'momentous'</strong>: Means of great importance &mdash; this reinforces &quot;historically significant&quot; rather than contrasting it; <em>conversely</em> demands the opposite. &#10007;</li><li><strong>Choice B &mdash; 'inconsequential'</strong>: Means lacking importance or significance &mdash; the direct antonym of &quot;historically significant,&quot; exactly what <em>conversely</em> signals. &#10003;</li><li><strong>Choice C &mdash; 'benevolent'</strong>: Means kind and generous &mdash; describes a ruler&apos;s character, not the historical weight of a reign; no contrast with &quot;significant&quot; is established. &#10007;</li><li><strong>Choice D &mdash; 'genuine'</strong>: Means authentic or real &mdash; describes authenticity, not historical importance; does not contrast with &quot;significant.&quot; &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_1",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the contrast signal",
+      "content": "The sentence sets up a paired opposition: a reign could be considered &quot;historically significant&quot; <em>or, conversely, relatively ______.</em> The word <em>conversely</em> demands an antonym of &quot;historically significant&quot; &mdash; something meaning unimportant or without historical weight."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; momentous</strong>: Means of great importance &mdash; this reinforces &quot;historically significant&quot; rather than contrasting it; <em>conversely</em> demands the opposite. &#10007;</li><li><strong>Choice B &mdash; inconsequential</strong>: Means lacking importance or significance &mdash; the direct antonym of &quot;historically significant,&quot; exactly what <em>conversely</em> signals. &#10003;</li><li><strong>Choice C &mdash; benevolent</strong>: Means kind and generous &mdash; describes a ruler&apos;s character, not the historical weight of a reign; no contrast with &quot;significant&quot; is established. &#10007;</li><li><strong>Choice D &mdash; genuine</strong>: Means authentic or real &mdash; describes authenticity, not historical importance; does not contrast with &quot;significant.&quot; &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

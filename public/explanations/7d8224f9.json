@@ -1,1 +1,15 @@
-{"questionId": "7d8224f9", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the passage's two-part structure", "content": "The passage describes a map collection and then explains how it was made&mdash;consulting existing maps and interviewing travelers."}, {"title": "Match the purpose and eliminate the distractors", "content": "<ul><li><strong>Choice A &mdash; 'discuss the benefits of studying mapmaking'</strong>: the passage never discusses benefits of studying mapmaking. &#10007;</li><li><strong>Choice B &mdash; 'explain how travelers created maps'</strong>: al-Idrisi created the maps; travelers only supplied stories he consulted. &#10007;</li><li><strong>Choice C &mdash; 'describe a collection of medieval maps and how it was created'</strong>: captures both the description of <em>The Book of Roger</em> and the account of al-Idrisi's process. &#10003;</li><li><strong>Choice D &mdash; 'compare medieval Arabic and Greek mapmaking techniques'</strong>: the passage mentions Arabic and Greek maps as sources but never compares techniques. &#10007;</li></ul>"}]}
+{
+  "questionId": "7d8224f9",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the passage's two-part structure",
+      "content": "The passage describes a map collection and then explains how it was made&mdash;consulting existing maps and interviewing travelers."
+    },
+    {
+      "title": "Match the purpose and eliminate the distractors",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;To discuss the benefits of studying mapmaking&rsquo;</strong>: the passage never discusses benefits of studying mapmaking. &#10007;</li><li><strong>Choice B &mdash; &lsquo;To explain how travelers created maps&rsquo;</strong>: al-Idrisi created the maps; travelers only supplied stories he consulted. &#10007;</li><li><strong>Choice C &mdash; &lsquo;To describe a collection of medieval maps and how it was created&rsquo;</strong>: captures both the description of <em>The Book of Roger</em> and the account of al-Idrisi's process. &#10003;</li><li><strong>Choice D &mdash; &lsquo;To compare medieval Arabic and Greek mapmaking techniques&rsquo;</strong>: the passage mentions Arabic and Greek maps as sources but never compares techniques. &#10007;</li></ul>"
+    }
+  ]
+}

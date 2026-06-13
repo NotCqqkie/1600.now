@@ -9,7 +9,7 @@
     },
     {
       "title": "Solve for k",
-      "content": "The problem states the product equals $krs$. Set equal and divide both sides by $rs$: $$\\frac{rs}{46} = krs \\implies k = \\frac{1}{46}.$$ That matches choice 1/46 — <strong>1/46</strong> is correct."
+      "content": "The problem states the product equals $krs$. Set equal and divide both sides by $rs$: $$\\frac{rs}{46} = krs \\implies k = \\frac{1}{46}.$$ The value of $k$ is $\\frac{1}{46}$, so <strong>1/46</strong> is correct."
     }
   ]
 }

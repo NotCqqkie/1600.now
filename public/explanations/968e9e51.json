@@ -13,7 +13,7 @@
     },
     {
       "title": "Eliminate the others",
-      "content": "$(1,0)$ fails $y\\le -x$, $(-1,0)$ fails $y\\le x$, and $(0,1)$ fails both. Therefore choice <strong>D</strong> is correct."
+      "content": "$(1,0)$ fails $y\\le -x$, $(-1,0)$ fails $y\\le x$, and $(0,1)$ fails both. Therefore <strong>D</strong> is correct."
     }
   ]
 }

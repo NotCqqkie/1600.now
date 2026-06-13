@@ -10,7 +10,7 @@
     },
     {
       "title": "Read values from the table and calculate",
-      "content": "From the table, the Flames column shows 22 medium T-shirts and 44 total Flames T-shirts. So: $$P(\\text{Medium | Flames}) = \\frac{22}{44} = \\frac{1}{2} = 0.5$$. That matches choice D — <strong>D</strong> is correct."
+      "content": "From the table, the Flames column shows 22 medium T-shirts and 44 total Flames T-shirts. So: $$P(\\text{Medium | Flames}) = \\frac{22}{44} = \\frac{1}{2} = 0.5$$. That is the correct answer."
     }
   ]
 }

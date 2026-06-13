@@ -6,7 +6,7 @@
     "difficulty": "Easy",
     "question_number": 1,
     "test_name": "Module Source 061 Math M2",
-    "passage": "The total cost $f(x)$, in dollars, to lease a car for 24 months from a particular car dealership is given by $f(x)=24x+1,000$, where $x$ is the monthly payment, in dollars. What is the total cost to lease a car when the monthly payment is \\$300?",
+    "passage": "The total cost $f(x)$, in dollars, to lease a car for 24 months from a particular car dealership is given by $f(x)=24x+1{,}000$, where $x$ is the monthly payment, in dollars. What is the total cost to lease a car when the monthly payment is \\$300?",
     "question_text": null,
     "choices": [
       {
@@ -141,7 +141,7 @@
     "difficulty": "Easy",
     "question_number": 5,
     "test_name": "Module Source 061 Math M2",
-    "passage": "If 350 % of n is 35, what is the value of n?",
+    "passage": "If 350% of n is 35, what is the value of n?",
     "question_text": null,
     "choices": [
       {
@@ -537,7 +537,7 @@
     "difficulty": "Medium",
     "question_number": 18,
     "test_name": "Module Source 061 Math M2",
-    "passage": "A carpenter charges a flat rate of \\$216 for the first 3 hours of work and \\$60 for each additional hour of work. Which equation gives the total amount $y$, in dollars, that the carpenter charges for $x$ hours of work, where $x > 3$?",
+    "passage": "A carpenter charges a flat rate of \\$216 for the first 3 hours of work and \\$60 for each additional hour of work. Which equation gives the total amount $y$, in dollars, that the carpenter charges for $x$ hours of work, where $x \\gt 3$?",
     "question_text": null,
     "choices": [
       {
@@ -586,7 +586,7 @@
       },
       {
         "label": "D",
-        "text": "$46(p+r+s)$"
+        "text": "$46\\left(p+r+s\\right)$"
       }
     ],
     "is_fill_in_blank": false,

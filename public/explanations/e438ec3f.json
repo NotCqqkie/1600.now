@@ -9,7 +9,7 @@
     },
     {
       "title": "Compute conditional probability",
-      "content": "Total tall trees: $$48 + 45 = 93$$.<br/>Probability maple given tall: $$\\frac{45}{93} = \\frac{15}{31}$$ after dividing numerator and denominator by $3$.<br/>That matches choice C — <strong>C</strong> is correct."
+      "content": "Total tall trees: $$48 + 45 = 93$$.<br/>Probability maple given tall: $$\\frac{45}{93} = \\frac{15}{31}$$ after dividing numerator and denominator by $3$.<br/>That matches the correct answer — <strong>C</strong> is correct."
     }
   ]
 }

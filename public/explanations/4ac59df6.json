@@ -1,16 +1,29 @@
 {
   "qid": "4ac59df6",
+  "questionId": "4ac59df6",
   "steps": [
-    "Multiply the numerical coefficients: 8 × 7 = 56.",
-    "Multiply the y factors: y × y = y^{2}.",
-    "Multiply the z factors: z × z = z^{2}.",
-    "The product is 56y^{2}z^{2}. That matches choice A — <strong>A</strong> is correct."
+    {
+      "title": "Step 1",
+      "content": "Multiply the numerical coefficients: $8 \\times 7 = 56$."
+    },
+    {
+      "title": "Step 2",
+      "content": "Multiply the $y$ factors: $y \\times y = y^{2}$."
+    },
+    {
+      "title": "Step 3",
+      "content": "Multiply the $z$ factors: $z \\times z = z^{2}$."
+    },
+    {
+      "title": "Step 4",
+      "content": "The product is $56y^{2}z^{2}$. The exponents are 2 because each variable appears once in each original factor. <strong>A</strong> is correct."
+    }
   ],
   "choices": [
     {
       "id": "A",
       "text": "$56{y}^{2}{z}^{2}$",
-      "explanation": "<ul><li>(8yz)(y)(7z) = 56 &middot; y&sup2; &middot; z&sup2; = 56y&sup2;z&sup2;. That matches choice A — <strong>A</strong> is correct.</li></ul>"
+      "explanation": "<ul><li>(8yz)(y)(7z) = 56 &middot; y&sup2; &middot; z&sup2; = 56y&sup2;z&sup2;. <strong>A</strong> is correct.</li></ul>"
     },
     {
       "id": "B",

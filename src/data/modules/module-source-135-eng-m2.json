@@ -378,7 +378,7 @@
       },
       {
         "label": "C",
-        "text": "a stream-fed lake was present at the Murray formation for an extended period.and although the streams experienced occasional drying, the lake did not."
+        "text": "a stream-fed lake was present at the Murray formation for an extended period. And although the streams experienced occasional drying, the lake did not."
       },
       {
         "label": "D",
@@ -429,8 +429,8 @@
     "difficulty": "Medium",
     "question_number": 14,
     "test_name": "Module Source 135 Eng M2",
-    "passage": "Which choice completes the text so that it conforms to the conversations of Standard English?\nEach year, the Nobel Prize in Literature is given to an author who has, in the words of its founder Alfred Nobel, \"produced the most outstanding work in an idealistic ______ in 2011, for instance, judges recognized Tomas Transformer \"[for], through his condensed, translucent images, [giving] us fresh access to reality.”",
-    "question_text": "Which choice completes the text so that it conforms to the conversations of Standard English?",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nEach year, the Nobel Prize in Literature is given to an author who has, in the words of its founder Alfred Nobel, \"produced the most outstanding work in an idealistic ______ in 2011, for instance, judges recognized Tomas Transformer \"[for], through his condensed, translucent images, [giving] us fresh access to reality.\"",
+    "question_text": null,
     "choices": [
       {
         "label": "A",

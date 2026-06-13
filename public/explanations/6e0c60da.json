@@ -1,1 +1,15 @@
-{"questionId":"6e0c60da","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank introduces the second sentence, which describes the title snapping the viewer back to reality after the first sentence describes imagining distant planets. The transition must signal that this &mdash; the title bringing you back to Earth &mdash; is the eventual or final outcome of the viewing experience."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;Consequently,&rsquo;</strong>: a cause-and-effect transition implying that imagining other planets causes the title to bring you back. The title&rsquo;s effect is not caused by the wandering; the two are sequential, not causal. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Alternatively,&rsquo;</strong>: signals another option or possibility, as though the viewer either imagines planets or gets brought back. Both things happen in sequence; they are not alternatives. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Ultimately,&rsquo;</strong>: means &ldquo;in the end&rdquo; or &ldquo;eventually,&rdquo; fitting a sequence where the initial impression gives way to a final revelation. &#10003;</li><li><strong>Choice D &mdash; &lsquo;Additionally,&rsquo;</strong>: signals agreement or addition, but the second sentence is the opposite of the first &mdash; not an addition to it. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "6e0c60da",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank introduces the second sentence, which describes the title snapping the viewer back to reality after the first sentence describes imagining distant planets. The transition must signal that this &mdash; the title bringing you back to Earth &mdash; is the eventual or final outcome of the viewing experience."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Consequently,&rsquo;</strong>: a cause-and-effect transition implying that imagining other planets causes the title to bring you back. The title&rsquo;s effect is not caused by the wandering; the two are sequential, not causal. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Alternatively,&rsquo;</strong>: signals another option or possibility, as though the viewer either imagines planets or gets brought back. Both things happen in sequence; they are not alternatives. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Ultimately,&rsquo;</strong>: means &ldquo;in the end&rdquo; or &ldquo;eventually,&rdquo; fitting a sequence where the initial impression gives way to a final revelation. &#10003;</li><li><strong>Choice D &mdash; &lsquo;Additionally,&rsquo;</strong>: signals agreement or addition, but the second sentence is the opposite of the first &mdash; not an addition to it. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

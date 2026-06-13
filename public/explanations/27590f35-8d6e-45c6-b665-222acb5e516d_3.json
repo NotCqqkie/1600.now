@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Count the deposits through week 6",
-      "content": "Starting balance: \\$700 (beginning of week 1). Javier deposits \\$45 at the end of each week. By the end of week 6, he has made <strong>6 deposits</strong> (one at the end of each of weeks 1 through 6)."
+      "content": "Starting balance: 700 dollars (beginning of week 1). Javier deposits 45 dollars at the end of each week. By the end of week 6, he has made <strong>6 deposits</strong> (one at the end of each of weeks 1 through 6)."
     },
     {
       "title": "Calculate the final balance",
-      "content": "$$700 + 6 \\times 45 = 700 + 270 = 970$$<br/>That matches choice D — <strong>D</strong> is correct."
+      "content": "$$700 + 6 \\times 45 = 700 + 270 = 970$$<br/>That matches <strong>Choice D &mdash; 970</strong>."
     }
   ]
 }

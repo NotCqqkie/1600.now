@@ -9,7 +9,7 @@
     },
     {
       "title": "Evaluate and identify the closest choice",
-      "content": "Multiply first: $0.67 \\times 39 = 26.13$. Then add the constant:<br/>$$y = 26.13 + 2.6 = 28.73$$<br/>Among the choices $29$, $42$, $54$, and $128$, the value $28.73$ is closest to $29$. That matches choice A — <strong>A</strong> is correct."
+      "content": "Multiply first: $0.67 \\times 39 = 26.13$. Then add the constant:<br/>$$y = 26.13 + 2.6 = 28.73$$<br/>Among the choices $29$, $42$, $54$, and $128$, the value $28.73$ is closest to $29$. That matches the correct answer — <strong>A</strong> is correct."
     }
   ]
 }

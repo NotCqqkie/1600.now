@@ -1,1 +1,15 @@
-{"questionId": "fa92720e-d9b2-485a-9313-5041b77e5352_18", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The sentence reads: &quot;a cultural studies analysis ______ on the intersection of literature and popular culture might yield a radically different interpretation.&quot; The main verb is &quot;might yield&quot; &mdash; the blank must modify &quot;analysis&quot; without adding a second competing verb."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'would focus'</strong>: Creates a second finite verb (&quot;would focus&quot;) with no conjunction joining it to &quot;might yield,&quot; making the sentence ungrammatical. &#10007;</li><li><strong>Choice B &mdash; 'would be focusing'</strong>: Same problem &mdash; another finite verb phrase competing with &quot;might yield.&quot; &#10007;</li><li><strong>Choice C &mdash; 'focusing'</strong>: A participial phrase that modifies &quot;analysis&quot; without adding a second main verb. The sentence reads smoothly: &quot;a cultural studies analysis focusing on the intersection... might yield...&quot; &#10003;</li><li><strong>Choice D &mdash; 'focuses'</strong>: A third-person singular verb that again competes with &quot;might yield&quot; as a main verb. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "fa92720e-d9b2-485a-9313-5041b77e5352_18",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence reads: \"a cultural studies analysis ______ on the intersection of literature and popular culture might yield a radically different interpretation.\" The main verb is \"might yield\" &mdash; the blank must modify \"analysis\" without adding a second competing verb."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"would focus\"</strong>: Creates a second finite verb (\"would focus\") with no conjunction joining it to \"might yield,\" making the sentence ungrammatical. &#10007;</li><li><strong>\"would be focusing\"</strong>: Same problem &mdash; another finite verb phrase competing with \"might yield.\" &#10007;</li><li><strong>\"focusing\"</strong>: A participial phrase that modifies \"analysis\" without adding a second main verb. The sentence reads smoothly: \"a cultural studies analysis focusing on the intersection... might yield...\" &#10003;</li><li><strong>\"focuses\"</strong>: A third-person singular verb that again competes with \"might yield\" as a main verb. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+    }
+  ]
+}

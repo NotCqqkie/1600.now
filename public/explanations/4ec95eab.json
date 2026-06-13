@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "<ul><li>Choices A and B are too small because substituting them gives $4x-3x=x$, not $15$.</li><li>Choice C, $15$, satisfies the system. Correct.</li><li>Choice D, $45$, is the absolute value of the corresponding $y$-value, since $y=-45$ when $x=15$.</li></ul>That matches choice C."
+      "content": "<ul><li>The other choices are too small because substituting them gives $4x-3x=x$, not $15$.</li><li>The matching choice, $15$, satisfies the system. Correct.</li><li>$45$ is the absolute value of the corresponding $y$-value, since $y=-45$ when $x=15$.</li></ul>The result matches."
     }
   ]
 }

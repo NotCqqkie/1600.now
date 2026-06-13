@@ -1,1 +1,15 @@
-{"questionId":"7d95c376-0a52-42c6-af0d-ac2aaf25546d_3","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage says music may have an infinite number of possible meanings, and &quot;as long as the evidence a listener uses to support an interpretation is ____, it is difficult to justify the claim that the interpretation is incorrect.&quot; The blank must describe a quality of evidence that makes an interpretation defensible &mdash; something that validates rather than undermines the listener&apos;s reading."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;inferior&apos;</strong>: means of lower quality. Inferior evidence would make an interpretation easy to dismiss, the opposite of what the sentence says. &#10007;</li><li><strong>Choice B &mdash; &apos;identical&apos;</strong>: means exactly the same. This describes whether evidence matches something else, not whether it is sound or valid. &#10007;</li><li><strong>Choice C &mdash; &apos;repetitive&apos;</strong>: means saying the same thing repeatedly. This describes form, not the logical quality needed to defend an interpretation. &#10007;</li><li><strong>Choice D &mdash; &apos;reasonable&apos;</strong>: means logically sound and fair. Evidence that is reasonable gives the listener a defensible basis for an interpretation, which is exactly why it would be difficult to call the interpretation incorrect. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "7d95c376-0a52-42c6-af0d-ac2aaf25546d_3",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage says music may have an infinite number of possible meanings, and &quot;as long as the evidence a listener uses to support an interpretation is ____, it is difficult to justify the claim that the interpretation is incorrect.&quot; The blank must describe a quality of evidence that makes an interpretation defensible &mdash; something that validates rather than undermines the listener&apos;s reading."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;inferior&rsquo;</strong>: means of lower quality. Inferior evidence would make an interpretation easy to dismiss, the opposite of what the sentence says. &#10007;</li><li><strong>Choice B &mdash; &lsquo;identical&rsquo;</strong>: means exactly the same. This describes whether evidence matches something else, not whether it is sound or valid. &#10007;</li><li><strong>Choice C &mdash; &lsquo;repetitive&rsquo;</strong>: means saying the same thing repeatedly. This describes form, not the logical quality needed to defend an interpretation. &#10007;</li><li><strong>Choice D &mdash; &lsquo;reasonable&rsquo;</strong>: means logically sound and fair. Evidence that is reasonable gives the listener a defensible basis for an interpretation, which is exactly why it would be difficult to call the interpretation incorrect. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

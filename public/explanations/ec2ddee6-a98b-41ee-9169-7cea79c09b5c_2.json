@@ -1,1 +1,15 @@
-{"questionId":"ec2ddee6-a98b-41ee-9169-7cea79c09b5c_2","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence says the organization acts on its commitment &quot;by promoting the works of&quot; indigenous photographers. The blank must name an action meaning to demonstrate or put a commitment into practice through concrete behavior."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'ending'</strong>: Means to terminate or conclude — opposite of demonstrating a commitment. &#10007;</li><li><strong>Choice B &mdash; 'explaining'</strong>: Means to describe or clarify — the organization is acting, not narrating. &#10007;</li><li><strong>Choice C &mdash; 'coming before in time'</strong>: A temporal meaning with no fit here. &#10007;</li><li><strong>Choice D &mdash; 'shows'</strong>: Means to demonstrate or prove through action — showing commitment by promoting indigenous photographers&apos; work fits exactly. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_2",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence says the organization acts on its commitment \"by promoting the works of\" indigenous photographers. The blank must name an action meaning to demonstrate or put a commitment into practice through concrete behavior."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"concludes\"</strong>: Means to terminate or conclude — opposite of demonstrating a commitment. &#10007;</li><li><strong>\"explains\"</strong>: Means to describe or clarify — the organization is acting, not narrating. &#10007;</li><li><strong>\"precedes\"</strong>: A temporal meaning with no fit here. &#10007;</li><li><strong>\"shows\"</strong>: Means to demonstrate or prove through action — showing commitment by promoting indigenous photographers' work fits exactly. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

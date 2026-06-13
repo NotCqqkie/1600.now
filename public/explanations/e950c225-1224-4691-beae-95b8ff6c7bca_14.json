@@ -1,1 +1,15 @@
-{"questionId": "e950c225-1224-4691-beae-95b8ff6c7bca_14", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The researcher claims some lakes have seen an increase in ice duration over time. Supporting data must show a specific lake with more days of ice in 2005&ndash;06 than in 1980&ndash;81."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'Lake Baikal had fewer days of ice in 1980-81 than in 2005-06'</strong>: Fewer days earlier, more days later &mdash; that is an increase over time, directly supporting the researcher&apos;s claim. &#10003;</li><li><strong>Choice B &mdash; 'Kitusjärvi is at a higher latitude than Mirror Lake and typically had more days of ice per winter'</strong>: Compares two different lakes to each other; says nothing about either lake&apos;s change over time. &#10007;</li><li><strong>Choice C &mdash; 'Kitusjärvi had more days of ice in 1980-81 than in 2005-06'</strong>: More days earlier, fewer days later &mdash; a decrease, which is the opposite of what the researcher claims. &#10007;</li><li><strong>Choice D &mdash; 'Kitusjärvi is at a higher latitude than Mirror Lake and typically had fewer days of ice per winter'</strong>: Again compares two lakes to each other with no information about change over time. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "e950c225-1224-4691-beae-95b8ff6c7bca_14",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The researcher claims some lakes have seen an increase in ice duration over time. Supporting data must show a specific lake with more days of ice in 2005&ndash;06 than in 1980&ndash;81."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"Lake Baikal had fewer days of ice in the winter of 1980-81 than it did in the winter of 2005-06.\"</strong>: Fewer days earlier, more days later &mdash; that is an increase over time, directly supporting the researcher's claim. &#10003;</li><li><strong>\"Kitusjärvi is at a higher latitude than Mirror Lake and typically had more days of ice per winter than Mirror Lake did.\"</strong>: Compares two different lakes to each other; says nothing about either lake's change over time. &#10007;</li><li><strong>\"Kitusjärvi had more days of ice in the winter of 1980 81 than it did in the winter of 2005-06.\"</strong>: More days earlier, fewer days later &mdash; a decrease, which is the opposite of what the researcher claims. &#10007;</li><li><strong>\"Kitusjärvi is at a higher latitude than Mirror Lake and typically had fewer days of ice per winter than Mirror Lake did.\"</strong>: Again compares two lakes to each other with no information about change over time. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+    }
+  ]
+}

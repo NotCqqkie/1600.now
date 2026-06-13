@@ -1,1 +1,15 @@
-{"questionId": "326017ce", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the logical shift", "content": "The first sentence establishes a general claim: bacteria-based cleaning has achieved <strong>“impressive overall”</strong> results.<br/><br/>The second sentence provides a specific instance: these particular bacterial strains have proven more effective than traditional chemical methods.<br/><br/>The signal is that the second sentence explains or exemplifies the first—it moves from general observation to concrete evidence."}, {"title": "Select the transition word", "content": "<strong>“In many cases”</strong> qualifies and explains the overall results.<br/><br/>It says: <em>The overall results are impressive, and in many cases, this is because these strains are more effective than traditional methods.</em> <strong>However</strong> signals false contrast; <strong>As a result</strong> points causality backwards; <strong>Additionally</strong> just stacks two facts instead of showing explanatory relationship.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "326017ce",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the logical shift",
+      "content": "The first sentence establishes a general claim: bacteria-based cleaning has achieved <strong>“impressive overall”</strong> results.<br/><br/>The second sentence provides a specific instance: these particular bacterial strains have proven more effective than traditional chemical methods.<br/><br/>The signal is that the second sentence explains or exemplifies the first—it moves from general observation to concrete evidence."
+    },
+    {
+      "title": "Select the transition word",
+      "content": "<strong>“In many cases”</strong> qualifies and explains the overall results.<br/><br/>It says: <em>The overall results are impressive, and in many cases, this is because these strains are more effective than traditional methods.</em> <strong>However</strong> signals false contrast; <strong>As a result</strong> points causality backwards; <strong>Additionally</strong> just stacks two facts instead of showing explanatory relationship.<br/><br/><strong>B</strong> is correct."
+    }
+  ]
+}

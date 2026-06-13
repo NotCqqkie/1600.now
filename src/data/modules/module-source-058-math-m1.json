@@ -6,7 +6,7 @@
     "difficulty": "Easy",
     "question_number": 1,
     "test_name": "Module Source 058 Math M1",
-    "passage": "In triangle ABC, the measure of angle A is 34 ° and the measure of angle B is 90 °. What is the measure, in degrees, of angle C?",
+    "passage": "In triangle ABC, the measure of angle A is $34^\\circ$ and the measure of angle B is $90^\\circ$. What is the measure, in degrees, of angle C?",
     "question_text": null,
     "choices": [
       {
@@ -83,11 +83,11 @@
       },
       {
         "label": "C",
-        "text": "$6(5x^2+x+1)$"
+        "text": "$6\\left(5x^2+x+1\\right)$"
       },
       {
         "label": "D",
-        "text": "$4(2x^2+x+1)$"
+        "text": "$4\\left(2x^2+x+1\\right)$"
       }
     ],
     "is_fill_in_blank": false,
@@ -558,7 +558,7 @@
     "difficulty": "Medium",
     "question_number": 21,
     "test_name": "Module Source 058 Math M1",
-    "passage": "A rectangular poster has an area of 330 square inches. A copy of the poster is made in which the length and width of the original poster are each increased by 50 %. What is the area of the copy, in square inches?",
+    "passage": "A rectangular poster has an area of 330 square inches. A copy of the poster is made in which the length and width of the original poster are each increased by 50%. What is the area of the copy, in square inches?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

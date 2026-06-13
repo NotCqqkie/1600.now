@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice <strong>D</strong> is correct. Choices A, B, and C all give $h(0)=40$, so they fail the point $(0,0)$."
+      "content": "<strong>D</strong> is correct. The other choices all give $h(0)=40$, so they fail the point $(0,0)$."
     }
   ]
 }

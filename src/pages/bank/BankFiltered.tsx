@@ -1,8 +1,8 @@
 import { useNavigate, useParams, useSearchParams } from "react-router-dom";
 import { useDeferredValue, useState, useMemo, useEffect } from "react";
 import {
-  getQuestionsByDomain,
-  getQuestionsBySkill,
+  loadQuestionsByDomain,
+  loadQuestionsBySkill,
   normalizeBankSource,
   BANK_SOURCE_LABELS,
   type BankSubject,
@@ -61,6 +61,7 @@ const BankFiltered = () => {
   const [questionUiStateMap, setQuestionUiStateMap] = useState<QuestionUiStateMap>(() =>
     getQuestionUiStateMap(uid),
   );
+  const [questions, setQuestions] = useState<BankQuestion[]>([]);
 
   const validSubject = subject === "math" || subject === "reading" ? subject : "math";
   const isMath = validSubject === "math";
@@ -82,12 +83,21 @@ const BankFiltered = () => {
     });
   }, [uid]);
 
-  const questions = useMemo((): BankQuestion[] => {
-    if (filterType === "domain") {
-      return getQuestionsByDomain(validSubject, decodedFilter as MathDomain | EnglishDomain, bankSource);
-    } else {
-      return getQuestionsBySkill(validSubject, decodedFilter as MathSkill | EnglishSkill, bankSource);
-    }
+  useEffect(() => {
+    let cancelled = false;
+    setQuestions([]);
+    const loadQuestions =
+      filterType === "domain"
+        ? loadQuestionsByDomain(validSubject, decodedFilter as MathDomain | EnglishDomain, bankSource)
+        : loadQuestionsBySkill(validSubject, decodedFilter as MathSkill | EnglishSkill, bankSource);
+
+    loadQuestions.then((loadedQuestions) => {
+      if (!cancelled) setQuestions(loadedQuestions);
+    });
+
+    return () => {
+      cancelled = true;
+    };
   }, [validSubject, filterType, decodedFilter, bankSource]);
 
   const answeredCount = useMemo(
@@ -136,7 +146,7 @@ const BankFiltered = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-background to-muted">
+    <div className="min-h-screen bg-background">
       <section className="container mx-auto px-4 pt-8 pb-12">
         <div className="max-w-4xl mx-auto space-y-6">
           <div className="flex items-center gap-4">

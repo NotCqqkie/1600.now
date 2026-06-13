@@ -9,7 +9,7 @@
     },
     {
       "title": "Compare with the median of data set B",
-      "content": "Data set B removes the single 13, leaving 40 values. The median is the average of positions 20 and 21. Both positions still fall in the value-3 group, so median B is $(3+3)\\div2=3$. Since both medians equal 3, choice C is correct."
+      "content": "Data set B removes the single 13, leaving 40 values. The median is the average of positions 20 and 21. Both positions still fall in the value-3 group, so median B is $(3+3)\\div2=3$. Since both medians equal 3, <strong>Choice C &mdash; The median of data set B is equal to the median of data set A.</strong> is correct."
     }
   ]
 }

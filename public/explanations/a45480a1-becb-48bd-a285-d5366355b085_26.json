@@ -1,1 +1,15 @@
-{"questionId": "a45480a1-becb-48bd-a285-d5366355b085_26", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the student's requirement", "content": "The student needs a sentence that explains whom the A.M. Turing Award is named after. The notes state explicitly: &quot;It is named after groundbreaking British mathematician Alan Turing.&quot; Only a choice that directly provides this information fulfills the requirement."}, {"title": "Eliminate wrong choices and confirm the answer", "content": "Check each choice against the requirement:\n<ul>\n<li><strong>Choice A &mdash; 'The A.M. Turing Award is given for &quot;major contributions of lasting importance to computing.&quot;'</strong>: Describes what the award is given for, not whom it is named after. &#10007;</li>\n<li><strong>Choice B &mdash; 'The A.M. Turing Award is named for groundbreaking British mathematician Alan Turing.'</strong>: Directly states whom the award is named after, matching the student's requirement. &#10003;</li>\n<li><strong>Choice C &mdash; 'It was in 2006 that Frances E. Allen won the A.M. Turing Award.'</strong>: States when a recipient won the award; does not address the naming origin. &#10007;</li>\n<li><strong>Choice D &mdash; 'In 2006, Frances E. Allen won the A.M. Turing Award for seminal contributions to optimizing compiler techniques.'</strong>: Describes a recipient's accomplishments; does not explain whom the award is named after. &#10007;</li>\n</ul>\nThat matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "a45480a1-becb-48bd-a285-d5366355b085_26",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the student's requirement",
+      "content": "The student needs a sentence that explains whom the A.M. Turing Award is named after. The notes state explicitly: &quot;It is named after groundbreaking British mathematician Alan Turing.&quot; Only a choice that directly provides this information fulfills the requirement."
+    },
+    {
+      "title": "Eliminate wrong choices and confirm the answer",
+      "content": "Check each choice against the requirement:\n<ul>\n<li><strong>Choice A &mdash; The A.M. Turing Award is given for \"major contributions of lasting importance to computing.\"</strong>: Describes what the award is given for, not whom it is named after. &#10007;</li>\n<li><strong>Choice B &mdash; The A.M. Turing Award is named for groundbreaking British mathematician Alan Turing.</strong>: Directly states whom the award is named after, matching the student's requirement. &#10003;</li>\n<li><strong>Choice C &mdash; It was in 2006 that Frances E. Allen won the A.M. Turing Award.</strong>: States when a recipient won the award; does not address the naming origin. &#10007;</li>\n<li><strong>Choice D &mdash; In 2006, Frances E. Allen won the A.M. Turing Award for seminal contributions to optimizing compiler techniques.</strong>: Describes a recipient's accomplishments; does not explain whom the award is named after. &#10007;</li>\n</ul>\nThat is the correct answer."
+    }
+  ]
+}

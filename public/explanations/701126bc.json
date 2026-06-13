@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the thermal barrier to superfluorescence",
-      "content": "The passage explains that superfluorescence was previously only observed at extremely cold temperatures because \u201cdipoles cannot synchronize at higher temperatures.\u201d This identifies the challenge that needs to be solved."
+      "content": "The passage explains that superfluorescence was previously only observed at extremely cold temperatures because “dipoles cannot synchronize at higher temperatures.” This identifies the challenge that needs to be solved."
     },
     {
       "title": "Apply the mechanism of polarons to the answer choices",
-      "content": "Polarons protect dipoles from thermal interference, enabling synchronization despite the higher temperature\u2014choice B's statement exactly. A, C, and D describe unrelated effects not addressed in the passage's explanation. This matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "Polarons protect dipoles from thermal interference, enabling synchronization despite the higher temperature—choice B's statement exactly. The other choices describe unrelated effects not addressed in the passage's explanation. This confirms <strong>B</strong> is correct."
     }
   ]
 }

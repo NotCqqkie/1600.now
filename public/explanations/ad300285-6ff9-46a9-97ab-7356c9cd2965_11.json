@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li>Choice A: $-3.3$ &mdash; far too steep; the line drops about $11$ units over $10$ units, not $33$. Eliminate.</li><li>Choice B: $-1.1$ &mdash; matches the rise-over-run calculation.</li><li>Choice C: $1.1$ &mdash; correct magnitude but the line clearly slopes downward, so slope must be negative. Eliminate.</li><li>Choice D: $3.3$ &mdash; wrong magnitude and wrong sign. Eliminate.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "<ul><li><strong>-3.3</strong> -3.3 &mdash; far too steep; the line drops about $11$ units over $10$ units, not $33$. Eliminate.</li><li><strong>-1.1</strong> -1.1 &mdash; matches the rise-over-run calculation.</li><li><strong>1.1</strong> 1.1 &mdash; correct magnitude but the line clearly slopes downward, so slope must be negative. Eliminate.</li><li><strong>3.3</strong> 3.3 &mdash; wrong magnitude and wrong sign. Eliminate.</li></ul>That is the correct answer."
     }
   ]
 }

@@ -9,11 +9,11 @@
     },
     {
       "title": "Use complementary angles in right triangles",
-      "content": "In a right triangle, the two acute angles are complementary:<br/>$$A + B = 90°$$<br/>$$D + E = 90°$$<br/>Since $A = D$ (corresponding angles), we have $E = 90° - D = 90° - A = B$."
+      "content": "In a right triangle, the two acute angles are complementary:<br/>$$A + B = 90^{\\circ}$$<br/>$$D + E = 90^{\\circ}$$<br/>Since $A = D$ (corresponding angles), we have $E = 90^{\\circ} - D = 90^{\\circ} - A = B$."
     },
     {
       "title": "Find cos E",
-      "content": "Since $E = B$ and $\\cos B = \\frac{1}{22}$, we have $\\cos E = \\frac{1}{22}$. That matches choice A — <strong>A</strong> is correct."
+      "content": "Since $E = B$ and $\\cos B = \\frac{1}{22}$, we have $\\cos E = \\frac{1}{22}$. That is the correct answer."
     }
   ]
 }

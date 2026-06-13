@@ -1,1 +1,15 @@
-{"questionId": "25547537-4b75-4c1c-8c86-e3b70293c301_13", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The researcher claims some lakes have seen a decline in ice duration between the early 1980s and the mid-2000s. The answer must show a specific lake with fewer ice days in the mid-2000s than in the early 1980s."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A</strong>: shows an increase in ice days over the period, contradicting the claimed decline. &#10007;</li><li><strong>Choice B</strong>: compares lakes by latitude rather than showing change over time for one lake. &#10007;</li><li><strong>Choice C &mdash; 'Kitusj&auml;rvi: fewer ice days in 2005&ndash;06 than in 1980&ndash;81'</strong>: directly demonstrates a decline over the claimed period. &#10003;</li><li><strong>Choice D</strong>: describes a pattern unrelated to the early-1980s-to-mid-2000s decline. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "25547537-4b75-4c1c-8c86-e3b70293c301_13",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The researcher claims some lakes have seen a decline in ice duration between the early 1980s and the mid-2000s. The answer must show a specific lake with fewer ice days in the mid-2000s than in the early 1980s."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Kitusjärvi is at a higher latitude than Lake Monona and typically had more days of ice per winter than Lake Monona did.</strong>: shows an increase in ice days over the period, contradicting the claimed decline. &#10007;</li><li><strong>Choice B &mdash; Lake Baikal had more days of ice in the winter of 2005-06 than it did in the winter of 1980–81.</strong>: compares lakes by latitude rather than showing change over time for one lake. &#10007;</li><li><strong>Choice C &mdash; Kitusjärvi had fewer days of ice in the winter of 2005-06 than it did in the winter of 1980–81.</strong>: directly demonstrates a decline over the claimed period. &#10003;</li><li><strong>Choice D &mdash; Kitusjärvi is at a higher latitude than Lake Monona and typically had fewer days of ice per winter than Lake Monona did.</strong>: describes a pattern unrelated to the early-1980s-to-mid-2000s decline. &#10007;</li></ul>That matches <strong>Choice C &mdash; Kitusjärvi had fewer days of ice in the winter of 2005-06 than it did in the winter of 1980–81.</strong>."
+    }
+  ]
+}

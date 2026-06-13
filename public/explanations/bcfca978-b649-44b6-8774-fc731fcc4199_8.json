@@ -1,1 +1,15 @@
-{"questionId":"bcfca978-b649-44b6-8774-fc731fcc4199_8","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"Text 1 concludes that <em>The Nutcracker</em> should no longer be produced because it is outdated. The question asks how Text 2 responds to that view."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &ldquo;questions that the story is stuck in the past and rejects any updated version&rdquo;</strong>: Text 2 concedes the show is outdated but explicitly supports updating it &mdash; the opposite of rejecting updates. &#10007;</li><li><strong>Choice B &mdash; &ldquo;agrees that audiences have stopped going to see the show&rdquo;</strong>: Text 2 describes <em>The Nutcracker</em> as a &ldquo;holiday favorite&rdquo; still drawing audiences, not one they&apos;ve abandoned. &#10007;</li><li><strong>Choice C &mdash; &ldquo;suggests that most dance companies could increase their incomes through modernization&rdquo;</strong>: Text 2 never claims modernization would boost income for most companies; that generalization does not appear. &#10007;</li><li><strong>Choice D &mdash; &ldquo;argues that theaters should consider revised versions of the show rather than rejecting it completely&rdquo;</strong>: Text 2 grants the show is dated yet opposes Text 1&apos;s call to discontinue it, citing Debbie Allen&apos;s <em>Hot Chocolate Nutcracker</em> as proof that creative revision works. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "bcfca978-b649-44b6-8774-fc731fcc4199_8",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "Text 1 concludes that <em>The Nutcracker</em> should no longer be produced because it is outdated. The question asks how Text 2 responds to that view."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; By questioning the idea that the story of The Nutcracker is stuck in the past and by rejecting the suggestion that contemporary audiences would enjoy an updated version.</strong>: Text 2 concedes the show is outdated but explicitly supports updating it &mdash; the opposite of rejecting updates. &#10007;</li><li><strong>Choice B &mdash; By agreeing that contemporary audiences have largely stopped going to see performances of The Nutcracker because it's so old-fashioned.</strong>: Text 2 describes <em>The Nutcracker</em> as a &ldquo;holiday favorite&rdquo; still drawing audiences, not one they&apos;ve abandoned. &#10007;</li><li><strong>Choice C &mdash; By pointing out that most dance companies could increase their incomes by offering modernized versions of The Nutcracker.</strong>: Text 2 never claims modernization would boost income for most companies; that generalization does not appear. &#10007;</li><li><strong>Choice D &mdash; By suggesting that dance companies should consider offering revised versions of The Nutcracker instead of completely rejecting the show.</strong>: Text 2 grants the show is dated yet opposes Text 1&apos;s call to discontinue it, citing Debbie Allen&apos;s <em>Hot Chocolate Nutcracker</em> as proof that creative revision works. &#10003;</li></ul>That is the correct answer."
+    }
+  ]
+}

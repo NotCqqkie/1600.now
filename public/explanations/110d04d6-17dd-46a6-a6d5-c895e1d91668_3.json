@@ -1,1 +1,15 @@
-{"questionId":"110d04d6-17dd-46a6-a6d5-c895e1d91668_3","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence structure is: the team ______ the temperature difference to water evaporation. The blank must mean &apos;credited the observation to its cause.&apos;"},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'conceded'</strong>: Means to reluctantly admit or yield &mdash; not the same as crediting a cause. &#10007;</li><li><strong>Choice B &mdash; 'prescribed'</strong>: Means to set a rule or recommendation &mdash; unrelated to explaining an observation. &#10007;</li><li><strong>Choice C &mdash; 'attributed'</strong>: Means to credit something as caused by or explained by something else &mdash; exactly what the sentence needs. &#10003;</li><li><strong>Choice D &mdash; 'corrected'</strong>: Means to fix an error &mdash; the sentence is not about fixing anything. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "110d04d6-17dd-46a6-a6d5-c895e1d91668_3",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence structure is: the team ______ the temperature difference to water evaporation. The blank must mean &apos;credited the observation to its cause.&apos;"
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; conceded</strong>: Means to reluctantly admit or yield &mdash; not the same as crediting a cause. &#10007;</li><li><strong>Choice B &mdash; prescribed</strong>: Means to set a rule or recommendation &mdash; unrelated to explaining an observation. &#10007;</li><li><strong>Choice C &mdash; attributed</strong>: Means to credit something as caused by or explained by something else &mdash; exactly what the sentence needs. &#10003;</li><li><strong>Choice D &mdash; amended</strong>: Means to fix an error &mdash; the sentence is not about fixing anything. &#10007;</li></ul>That matches <strong>Choice C &mdash; attributed</strong>."
+    }
+  ]
+}

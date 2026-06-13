@@ -1,1 +1,15 @@
-{"questionId":"9ce7f863-9f97-46a6-9458-7fb4726c3cb0_20","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence names Gerald Clarke with two titles &mdash; &quot;artist&quot; and &quot;2007 Eiteljorg Fellowship recipient&quot; &mdash; joined by &quot;and.&quot; The blank must correctly punctuate that compound description before his name."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'artist, and 2007 Eiteljorg Fellowship recipient'</strong>: A comma before &quot;and&quot; when joining only two items in a compound noun phrase is incorrect. &#10007;</li><li><strong>Choice B &mdash; 'artist and 2007 Eiteljorg Fellowship recipient'</strong>: No extra punctuation between two nouns joined by &quot;and&quot; &mdash; clean and standard. &#10003;</li><li><strong>Choice C &mdash; 'artist and 2007 Eiteljorg Fellowship recipient-'</strong>: A dash here is nonstandard; it would need a matching dash later to close an interruption. &#10007;</li><li><strong>Choice D &mdash; 'artist and 2007 Eiteljorg Fellowship recipient,'</strong>: A trailing comma would only be correct if a matching comma opened the appositive, but there is no opening comma. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "9ce7f863-9f97-46a6-9458-7fb4726c3cb0_20",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence names Gerald Clarke with two titles &mdash; &quot;artist&quot; and &quot;2007 Eiteljorg Fellowship recipient&quot; &mdash; joined by &quot;and.&quot; The blank must correctly punctuate that compound description before his name."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; artist, and 2007 Eiteljorg Fellowship recipient</strong>: A comma before &quot;and&quot; when joining only two items in a compound noun phrase is incorrect. &#10007;</li><li><strong>Choice B &mdash; artist and 2007 Eiteljorg Fellowship recipient</strong>: No extra punctuation between two nouns joined by &quot;and&quot; &mdash; clean and standard. &#10003;</li><li><strong>Choice C &mdash; artist and 2007 Eiteljorg Fellowship recipient-</strong>: A dash here is nonstandard; it would need a matching dash later to close an interruption. &#10007;</li><li><strong>Choice D &mdash; artist and 2007 Eiteljorg Fellowship recipient,</strong>: A trailing comma would only be correct if a matching comma opened the appositive, but there is no opening comma. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

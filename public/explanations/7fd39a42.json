@@ -1,4 +1,15 @@
-{"questionId": "7fd39a42", "correctAnswer": "C", "section": "Reading and Writing", "steps": [
-  {"title": "Identify what the question needs", "content": "This is a Rhetorical Synthesis question. The student wants to emphasize the location of the first synchrotron built to provide synchrotron light. The correct answer must make location the central point of the sentence."},
-  {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'Tantalus, the first synchrotron created for the purpose of providing synchrotron light, was built in 1968.'</strong>: This sentence emphasizes the year it was built, not its location. &#10007;</li><li><strong>Choice B &mdash; 'Circular particle accelerators known as synchrotrons radiate energy in the form of light, and this light is an ideal tool for researchers investigating the structure of matter.'</strong>: This sentence discusses what synchrotrons do and their research use &mdash; no location mentioned at all. &#10007;</li><li><strong>Choice C &mdash; 'The first synchrotron created for the purpose of providing synchrotron light, Tantalus, was housed near the University of Wisconsin&ndash;Madison.'</strong>: The main predicate states where Tantalus was located, making location the emphasized information. &#10003;</li><li><strong>Choice D &mdash; 'Synchrotron light is among the brightest light ever produced, making it an ideal tool for researchers investigating the structure of matter.'</strong>: This sentence emphasizes the brightness of synchrotron light, not any location. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}
-]}
+{
+  "questionId": "7fd39a42",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a Rhetorical Synthesis question. The student wants to emphasize the location of the first synchrotron built to provide synchrotron light. The correct answer must make location the central point of the sentence."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Tantalus, the first synchrotron created for the purpose of providing synchrotron light, was built in 1968.&rsquo;</strong>: This sentence emphasizes the year it was built, not its location. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Circular particle accelerators known as synchrotrons radiate energy in the form of light, and this light is an ideal tool for researchers investigating the structure of matter.&rsquo;</strong>: This sentence discusses what synchrotrons do and their research use &mdash; no location mentioned at all. &#10007;</li><li><strong>Choice C &mdash; &lsquo;The first synchrotron created for the purpose of providing synchrotron light, Tantalus, was housed near the University of Wisconsin–Madison.&rsquo;</strong>: The main predicate states where Tantalus was located, making location the emphasized information. &#10003;</li><li><strong>Choice D &mdash; &lsquo;Synchrotron light is among the brightest light ever produced, making it an ideal tool for researchers investigating the structure of matter.&rsquo;</strong>: This sentence emphasizes the brightness of synchrotron light, not any location. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

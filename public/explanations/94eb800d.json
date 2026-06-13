@@ -1,1 +1,15 @@
-{"questionId": "94eb800d", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what Jeyifous did", "content": "The sentence says Jeyifous [blank] &ldquo;a series of new images&rdquo; for a 2020 exhibition. The word <em>new</em> is the key signal: the blank must describe producing something original, not evaluating, disputing, or recovering existing work."}, {"title": "Eliminate wrong choices and confirm the answer", "content": "<ul><li><strong>Choice A &mdash; &lsquo;validated&rsquo;</strong>: means to confirm or corroborate; the text describes making images, not evaluating their legitimacy. &#10007;</li><li><strong>Choice B &mdash; &lsquo;created&rsquo;</strong>: means produced or made; Jeyifous photographed models and layered images to produce new work, which is exactly what &ldquo;created&rdquo; describes. &#10003;</li><li><strong>Choice C &mdash; &lsquo;challenged&rsquo;</strong>: means disputed or contested; nothing in the passage suggests Jeyifous was disputing the original posters or any prior claim. &#10007;</li><li><strong>Choice D &mdash; &lsquo;restored&rsquo;</strong>: means to return something to a prior condition; Jeyifous made new images rather than reconditioning damaged ones. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "94eb800d",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what Jeyifous did",
+      "content": "The sentence says Jeyifous [blank] &ldquo;a series of new images&rdquo; for a 2020 exhibition. The word <em>new</em> is the key signal: the blank must describe producing something original, not evaluating, disputing, or recovering existing work."
+    },
+    {
+      "title": "Eliminate wrong choices and confirm the answer",
+      "content": "<ul><li><strong>Choice A &mdash; validated</strong>: means to confirm or corroborate; the text describes making images, not evaluating their legitimacy. &#10007;</li><li><strong>Choice B &mdash; created</strong>: means produced or made; Jeyifous photographed models and layered images to produce new work, which is exactly what &ldquo;created&rdquo; describes. &#10003;</li><li><strong>Choice C &mdash; challenged</strong>: means disputed or contested; nothing in the passage suggests Jeyifous was disputing the original posters or any prior claim. &#10007;</li><li><strong>Choice D &mdash; restored</strong>: means to return something to a prior condition; Jeyifous made new images rather than reconditioning damaged ones. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

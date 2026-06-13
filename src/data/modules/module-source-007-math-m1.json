@@ -217,7 +217,7 @@
     "difficulty": "Medium",
     "question_number": 8,
     "test_name": "Module Source 007 Math M1",
-    "passage": "For two acute angles $X$ and $Y$, the measure of angle $Y$ is $32°$ and $\\frac{\\sin X}{\\cos Y}=1$. What is the measure, in degrees, of angle $X$?",
+    "passage": "For two acute angles $X$ and $Y$, the measure of angle $Y$ is $32^{\\circ}$ and $\\frac{\\sin X}{\\cos Y}=1$. What is the measure, in degrees, of angle $X$?",
     "question_text": null,
     "choices": [
       {
@@ -335,7 +335,7 @@
     "difficulty": "Easy",
     "question_number": 12,
     "test_name": "Module Source 007 Math M1",
-    "passage": "If $7(6-9x)+4=6(6-9x)+19$, what is the value of $6-9x$?",
+    "passage": "If ${7}(6-9x)+4=6(6-9x)+19$, what is the value of $6-9x$?",
     "question_text": null,
     "choices": [
       {
@@ -438,7 +438,7 @@
     "difficulty": "Medium",
     "question_number": 15,
     "test_name": "Module Source 007 Math M1",
-    "passage": "In right triangle $ABC$, the tangent of $∠C$ is $\\frac{3}{4}$. What is the length of $\\overline{AB}$?",
+    "passage": "In right triangle $ABC$, the tangent of $\\angle C$ is $\\frac{3}{4}$. What is the length of $\\overline{AB}$?",
     "question_text": null,
     "choices": [
       {
@@ -593,7 +593,7 @@
     "difficulty": "Medium",
     "question_number": 21,
     "test_name": "Module Source 007 Math M1",
-    "passage": "The positive number $a$ is 290% of the number $b$ and $a$ is 90% of the number $c$. If $c$ is $p$% of $b$, which of the following is closest to the value of $p$?",
+    "passage": "The positive number $a$ is 290% of the number $b$ and $a$ is 90% of the number $c$. If $c$ is $p\\%$ of $b$, which of the following is closest to the value of $p$?",
     "question_text": null,
     "choices": [
       {

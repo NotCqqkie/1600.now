@@ -1,1 +1,15 @@
-{"questionId": "61095ce3-05bf-46a1-a191-e8b52ec70c8e_8", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The passage ends: &quot;greater proximity alone can&apos;t explain the difference in park use.&quot; The word &quot;alone&quot; is the key signal &mdash; proximity is ruled out as the <em>sole</em> explanation. The correct answer must capture the point the text actually makes."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; &apos;It could be due to inaccuracies in the survey results&apos;</strong>: the passage treats the survey data as valid and draws conclusions from it &mdash; survey inaccuracies are never raised. &#10007;</li><li><strong>Choice B &mdash; &apos;It was much larger than the researchers expected&apos;</strong>: the passage never mentions researcher expectations or surprise. &#10007;</li><li><strong>Choice C &mdash; &apos;It is caused by something other than the parks&apos; proximity to city residents&apos;</strong>: matches the passage exactly. Mexico City residents live farther from parks yet use them more, so proximity alone can&apos;t explain the gap &mdash; something else must. &#10003;</li><li><strong>Choice D &mdash; &apos;It was calculated using sources that predate the survey&apos;</strong>: no mention of pre-existing sources anywhere in the passage. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "61095ce3-05bf-46a1-a191-e8b52ec70c8e_8",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage ends: &quot;greater proximity alone can&apos;t explain the difference in park use.&quot; The word &quot;alone&quot; is the key signal &mdash; proximity is ruled out as the <em>sole</em> explanation. The correct answer must capture the point the text actually makes."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;It could be due to inaccuracies in the survey results.&rsquo;</strong>: the passage treats the survey data as valid and draws conclusions from it &mdash; survey inaccuracies are never raised. &#10007;</li><li><strong>Choice B &mdash; &lsquo;It was much larger than the researchers conducting the study expected.&rsquo;</strong>: the passage never mentions researcher expectations or surprise. &#10007;</li><li><strong>Choice C &mdash; &lsquo;It is caused by something other than the parks' proximity to city residents.&rsquo;</strong>: matches the passage exactly. Mexico City residents live farther from parks yet use them more, so proximity alone can&apos;t explain the gap &mdash; something else must. &#10003;</li><li><strong>Choice D &mdash; &lsquo;It was calculated using sources that predate the survey.&rsquo;</strong>: no mention of pre-existing sources anywhere in the passage. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

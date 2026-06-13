@@ -9,7 +9,7 @@
     },
     {
       "title": "Match intercepts to the equation",
-      "content": "Test (B): $10x + 18y = 900$.<ul><li>$x$-intercept ($y=0$): $10x=900 \\Rightarrow x=90$</li><li>$y$-intercept ($x=0$): $18y=900 \\Rightarrow y=50$</li></ul>Both intercepts match the graph, so choice <strong>B</strong> is correct."
+      "content": "Test the matching equation: $10x + 18y = 900$.<ul><li>$x$-intercept ($y=0$): $10x=900 \\Rightarrow x=90$</li><li>$y$-intercept ($x=0$): $18y=900 \\Rightarrow y=50$</li></ul>Both intercepts match the graph, so <strong>B</strong> is correct."
     }
   ]
 }

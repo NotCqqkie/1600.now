@@ -9,7 +9,7 @@
     },
     {
       "title": "Convert the decline rate to a multiplier",
-      "content": "Declined by 15% each year means the amount left is $100\\%-15\\%=85\\%$ of the previous year's amount, so the yearly multiplier is $0.85$. The model is $$C=600(0.85)^t.$$ That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "Declined by 15% each year means the amount left is $100\\%-15\\%=85\\%$ of the previous year's amount, so the yearly multiplier is $0.85$. The model is $$C=600(0.85)^t.$$ That confirms <strong>B</strong> is correct."
     }
   ]
 }

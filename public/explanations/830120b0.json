@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Solve the second inequality for x",
-      "content": "From $2x > 5$, divide both sides by 2: $$x > \\frac{5}{2}$$"
+      "content": "From $2x \\gt 5$, divide both sides by 2: $$x \\gt \\frac{5}{2}$$"
     },
     {
       "title": "Find the constraint on y",
-      "content": "For any point to satisfy both inequalities, we need $y > 2x - 1$ where $x > \\frac{5}{2}$.<br/><br/>Evaluate $2x - 1$ at the boundary: $$2 \\cdot \\frac{5}{2} - 1 = 5 - 1 = 4$$ Since $x$ is strictly greater than $\\frac{5}{2}$, the expression $2x - 1$ is strictly greater than $4$.<br/><br/>Therefore, all valid $y$-values must satisfy $y > 4$. That matches choice B — <strong>B</strong> is correct."
+      "content": "For any point to satisfy both inequalities, we need $y \\gt 2x - 1$ where $x \\gt \\frac{5}{2}$.<br/><br/>Evaluate $2x - 1$ at the boundary: $$2 \\cdot \\frac{5}{2} - 1 = 5 - 1 = 4$$ Since $x$ is strictly greater than $\\frac{5}{2}$, the expression $2x - 1$ is strictly greater than $4$.<br/><br/>Therefore, all valid $y$-values must satisfy $y \\gt 4$. That confirms <strong>B</strong> is correct."
     }
   ]
 }

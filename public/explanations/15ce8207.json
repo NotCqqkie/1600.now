@@ -9,11 +9,11 @@
     },
     {
       "title": "Compare choices C and D",
-      "content": "Choice C is an increasing curve, but it sits above all $8$ points, so it is not centered on the data. Choice D is also an increasing curve, and the data points are split around it: some above, some below, and some touching."
+      "content": "The curve that sits above all $8$ points is not centered on the data. The centered increasing curve has data points split around it: some above, some below, and some touching."
     },
     {
-      "title": "Graph-check choice D",
-      "content": "The best model should follow the trend and have points on both sides of the curve. Only choice D does that, so <strong>D</strong> is correct."
+      "title": "Graph-check the centered curve",
+      "content": "A reasonable model should follow the trend and have points on both sides of the curve. The centered increasing curve with two points touching and points on both sides is correct."
     }
   ]
 }

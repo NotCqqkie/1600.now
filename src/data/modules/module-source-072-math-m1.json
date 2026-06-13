@@ -45,7 +45,7 @@
     "difficulty": "Easy",
     "question_number": 2,
     "test_name": "Module Source 072 Math M1",
-    "passage": "Which expression is equivalent to $7(x^{2}+5)$?",
+    "passage": "Which expression is equivalent to $7\\left(x^{2}+5\\right)$?",
     "question_text": null,
     "choices": [
       {
@@ -392,20 +392,20 @@
     "difficulty": "Hard",
     "question_number": 15,
     "test_name": "Module Source 072 Math M1",
-    "passage": "In the $xy$-plane, which of the following does NOT contain any points that are part of the solution set to $2x - 6y > 12$?",
+    "passage": "In the $xy$-plane, which of the following does NOT contain any points that are part of the solution set to $2x - 6y \\gt 12$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "The region where $x < 0$ and $y > 0$"
+        "text": "The region where $x \\lt 0$ and $y \\gt 0$"
       },
       {
         "label": "B",
-        "text": "The region where $x < 0$ and $y < 0$"
+        "text": "The region where $x \\lt 0$ and $y \\lt 0$"
       },
       {
         "label": "C",
-        "text": "The region where $x > 0$ and $y > 0$"
+        "text": "The region where $x \\gt 0$ and $y \\gt 0$"
       },
       {
         "label": "D",
@@ -564,7 +564,7 @@
     "difficulty": "Medium",
     "question_number": 21,
     "test_name": "Module Source 072 Math M1",
-    "passage": "In the $xy$-plane, line $k$ and line $l$ are perpendicular and intersect at the point $(2, 9)$. If line $k$ is defined by the equation $y = mx + b$, where $m$ and $b$ are constants and $m > 1$, which of the following points lies on line $l$?",
+    "passage": "In the $xy$-plane, line $k$ and line $l$ are perpendicular and intersect at the point $(2, 9)$. If line $k$ is defined by the equation $y = mx + b$, where $m$ and $b$ are constants and $m \\gt 1$, which of the following points lies on line $l$?",
     "question_text": null,
     "choices": [
       {

@@ -1,1 +1,15 @@
-{"questionId":"41223f98-85cf-4192-b791-4708f442a85c_3","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"Chicago offers an array of artworks &mdash; from sculptures to street murals &mdash; to ______ the tastes of art lovers. The blank must describe what diverse artworks do for people with varied preferences: they fulfill or satisfy those tastes completely."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'supplant'</strong>: Means to replace or supersede. Artworks that satisfy varied tastes do not replace those tastes. &#10007;</li><li><strong>Choice B &mdash; 'mitigate'</strong>: Means to reduce or lessen. There is nothing negative about the tastes that needs lessening. &#10007;</li><li><strong>Choice C &mdash; 'venerate'</strong>: Means to honor or revere. Artworks do not honor the tastes of viewers. &#10007;</li><li><strong>Choice D &mdash; 'satiate'</strong>: Means to fully satisfy. Substituting it in: \"an array of works to satiate the tastes of art lovers\" &mdash; diverse artworks satisfying diverse preferences fits perfectly. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "41223f98-85cf-4192-b791-4708f442a85c_3",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "Chicago offers an array of artworks &mdash; from sculptures to street murals &mdash; to ______ the tastes of art lovers. The blank must describe what diverse artworks do for people with varied preferences: they fulfill or satisfy those tastes completely."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — supplant</strong>: Means to replace or supersede. Artworks that satisfy varied tastes do not replace those tastes. &#10007;</li><li><strong>Choice B — mitigate</strong>: Means to reduce or lessen. There is nothing negative about the tastes that needs lessening. &#10007;</li><li><strong>Choice C — venerate</strong>: Means to honor or revere. Artworks do not honor the tastes of viewers. &#10007;</li><li><strong>Choice D — satiate</strong>: Means to fully satisfy. Substituting it in: \"an array of works to satiate the tastes of art lovers\" &mdash; diverse artworks satisfying diverse preferences fits perfectly. &#10003;</li></ul><strong>D</strong> is correct."
+    }
+  ]
+}

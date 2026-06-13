@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The function is $f(x)=ab^x+c$, so it is an exponential graph, not a constant horizontal line. The equation $f(x)=0$ asks for the $x$-values where the graph crosses the $x$-axis. On the shown graph, the curve stays entirely above or below the $x$-axis and never touches $y=0$."
+      "content": "The function is $f(x)=a\\cdot b^x+c$, so it is an exponential graph, not a constant horizontal line. The equation $f(x)=0$ asks for the $x$-values where the graph crosses the $x$-axis. On the shown graph, the curve stays entirely above or below the $x$-axis and never touches $y=0$."
     },
     {
       "title": "Use the graph shortcut",
-      "content": "Use the $x$-axis, which is the line $y=0$. Count intersections between the exponential curve and the $x$-axis. There are no intersections, so there are zero values of $x$ for which $f(x)=0$. That matches choice D, so <strong>D</strong> is correct."
+      "content": "Use the $x$-axis, which is the line $y=0$. Count intersections between the exponential curve and the $x$-axis. There are no intersections, so there are zero values of $x$ for which $f(x)=0$. That matches the computed answer, so <strong>D</strong> is correct."
     }
   ]
 }

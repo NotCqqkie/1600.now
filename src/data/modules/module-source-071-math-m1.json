@@ -248,7 +248,7 @@
     "difficulty": "Easy",
     "question_number": 11,
     "test_name": "Module Source 071 Math M1",
-    "passage": "which expression is equivalent to $(158y)^{\\frac{1}{2}}$,where $y > 1$?",
+    "passage": "Which expression is equivalent to $(158y)^{\\frac{1}{2}}$, where $y \\gt 1$?",
     "question_text": null,
     "choices": [
       {
@@ -406,7 +406,7 @@
     "difficulty": "Easy",
     "question_number": 18,
     "test_name": "Module Source 071 Math M1",
-    "passage": "The difference between the measure of angle A and the measure of angle B is $-5\\pi$ radians. Which expression shows the difference between the measure of angle A and the measure of angle B, in degrees?",
+    "passage": "The difference between the measure of angle A and the measure of angle B is $-\\frac{5}{12}\\pi$ radians. Which expression shows the difference between the measure of angle A and the measure of angle B, in degrees?",
     "question_text": null,
     "choices": [
       {

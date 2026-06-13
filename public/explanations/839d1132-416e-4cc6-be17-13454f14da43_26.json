@@ -1,1 +1,15 @@
-{"questionId":"839d1132-416e-4cc6-be17-13454f14da43_26","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The student's stated goal is to emphasize whose point of view the novel is told from. The correct choice must explicitly name the character whose perspective drives the novel — and must be about the novel, not the original epic."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Kaikeyi is a retelling of The Ramayana from the character Kaikeyi's point of view.'</strong>: Directly names the novel, directly states whose point of view it is told from. This satisfies the goal precisely. &#10003;</li><li><strong>Choice B &mdash; 'From the point of view of The Ramayana, the character Kaikeyi is often a villain.'</strong>: This attributes a point of view to the original epic poem, not to the novel. It also misidentifies the POV (The Ramayana is not a perspective holder) and doesn't accomplish the student's goal. &#10007;</li><li><strong>Choice C &mdash; 'Vaishnavi Patel often portrays the character as heroic.'</strong>: This addresses how Kaikeyi is portrayed in the novel, not whose perspective the novel is told from. It omits any mention of point of view. &#10007;</li><li><strong>Choice D &mdash; 'The Ramayana is an epic poem that features the character Kaikeyi.'</strong>: This describes the source material, not the novel, and says nothing about narrative perspective. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "839d1132-416e-4cc6-be17-13454f14da43_26",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The student's stated goal is to emphasize whose point of view the novel is told from. The correct choice must explicitly name the character whose perspective drives the novel — and must be about the novel, not the original epic."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; *Kaikeyi* is a retelling of *The Ramayana* from the character Kaikeyi's point of view.</strong>: Directly names the novel, directly states whose point of view it is told from. This satisfies the goal precisely. &#10003;</li><li><strong>Choice B &mdash; From the point of view of *The Ramayana*, the character Kaikeyi is often a villain.</strong>: This attributes a point of view to the original epic poem, not to the novel. It also misidentifies the POV (The Ramayana is not a perspective holder) and doesn't accomplish the student's goal. &#10007;</li><li><strong>Choice C &mdash; Vaishnavi Patel often portrays the character as heroic.</strong>: This addresses how Kaikeyi is portrayed in the novel, not whose perspective the novel is told from. It omits any mention of point of view. &#10007;</li><li><strong>Choice D &mdash; *The Ramayana* is an epic poem that features the character Kaikeyi.</strong>: This describes the source material, not the novel, and says nothing about narrative perspective. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

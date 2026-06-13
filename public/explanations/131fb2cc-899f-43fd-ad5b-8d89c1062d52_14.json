@@ -9,11 +9,11 @@
     },
     {
       "title": "Compute the intercept",
-      "content": "This gives $y=9$, so the $y$-intercept is $(0,9)$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."
+      "content": "This gives $y=9$, so the $y$-intercept is $(0,9)$. That matches <strong>Choice C &mdash; $(0, 9)$</strong>."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice C, $(0, 9)$. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches <strong>Choice C &mdash; $(0, 9)$</strong>, $(0, 9)$. The other choices do not satisfy the same condition from the question, so <strong>C</strong>."
     }
   ]
 }

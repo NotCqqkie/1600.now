@@ -13,7 +13,7 @@
     },
     {
       "title": "Eliminate the other choices",
-      "content": "<ul><li><strong>A) 30</strong> &mdash; matches 30.07, the predicted value.</li><li><strong>B) 44</strong> &mdash; would require $y \\approx 44$, far above 30.07.</li><li><strong>C) 57</strong> &mdash; way too high; you'd get this from $x \\approx 81$.</li><li><strong>D) 134</strong> &mdash; this is roughly $0.67 \\cdot 41 + 2.6$ multiplied wrong; nowhere near 30.07.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li><strong>A) 30</strong> &mdash; matches 30.07, the predicted value.</li><li><strong>B) 44</strong> &mdash; would require $y \\approx 44$, far above 30.07.</li><li><strong>C) 57</strong> &mdash; way too high; you'd get this from $x \\approx 81$.</li><li><strong>D) 134</strong> &mdash; this is roughly $0.67 \\cdot 41 + 2.6$ multiplied wrong; nowhere near 30.07.</li></ul>That matches <strong>Choice A &mdash; 30</strong>."
     }
   ]
 }

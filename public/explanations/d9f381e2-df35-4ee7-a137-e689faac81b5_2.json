@@ -1,1 +1,15 @@
-{"questionId": "d9f381e2-df35-4ee7-a137-e689faac81b5_2", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the necessity signal in the passage", "content": "The passage states that managing border environmental matters requires coordination, then explains why: ecosystems extend across the border so actions on one side affect the other, making international cooperation &quot;essential.&quot; The blank must mean &quot;necessitates&quot; or &quot;demands&quot; — not merely recommends or describes."}, {"title": "Test each word against the necessity signal", "content": "<ul><li><strong>Choice A &mdash; 'requires'</strong>: Means &quot;demands as necessary&quot; — matches the passage's signal that cooperation is essential. &#10003;</li><li><strong>Choice B &mdash; 'praises'</strong>: Means to express approval; praising coordination is an endorsement, not a statement of necessity — word meaning does not fit the context. &#10007;</li><li><strong>Choice C &mdash; 'reports'</strong>: Means to describe or inform; reporting coordination is neutral and does not convey that it is required — word meaning does not fit the context. &#10007;</li><li><strong>Choice D &mdash; 'advises'</strong>: Means to recommend; advising is weaker than requiring and does not match the &quot;essential&quot; signal — word meaning does not fit the context. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "d9f381e2-df35-4ee7-a137-e689faac81b5_2",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the necessity signal in the passage",
+      "content": "The passage states that managing border environmental matters requires coordination, then explains why: ecosystems extend across the border so actions on one side affect the other, making international cooperation \"essential.\" The blank must mean \"necessitates\" or \"demands\" — not merely recommends or describes."
+    },
+    {
+      "title": "Test each word against the necessity signal",
+      "content": "<ul><li><strong>\"requires\"</strong>: Means \"demands as necessary\" — matches the passage's signal that cooperation is essential. &#10003;</li><li><strong>\"praises\"</strong>: Means to express approval; praising coordination is an endorsement, not a statement of necessity — word meaning does not fit the context. &#10007;</li><li><strong>\"reports\"</strong>: Means to describe or inform; reporting coordination is neutral and does not convey that it is required — word meaning does not fit the context. &#10007;</li><li><strong>\"advises\"</strong>: Means to recommend; advising is weaker than requiring and does not match the \"essential\" signal — word meaning does not fit the context. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+    }
+  ]
+}

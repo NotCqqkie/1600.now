@@ -1,1 +1,15 @@
-{"questionId": "74ce2f05", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the structure around the blank", "content": "The blank contains an appositive &mdash; <em>carbon-13</em> followed by its abbreviation <em>(<sup>13</sup>C)</em> &mdash; that renames <em>a rare carbon isotope</em>. An appositive that interrupts a sentence must be set off from what follows it with a comma. The blank must not place a comma <em>inside</em> the appositive between the name and its abbreviation, which would break the unit apart."}, {"title": "Eliminate wrong choices and confirm the answer", "content": "Test each option against the rule that the appositive must remain a single unit and be followed by a comma:<ul><li><strong>Choice A &mdash; 'carbon-13, (<sup>13</sup>C)'</strong>: Places a comma between <em>carbon-13</em> and its abbreviation, incorrectly splitting the appositive. &#10007;</li><li><strong>Choice B &mdash; 'carbon-13 (<sup>13</sup>C)'</strong>: Keeps the appositive intact but lacks the closing comma needed to separate it from the rest of the sentence. &#10007;</li><li><strong>Choice C &mdash; 'carbon-13, (<sup>13</sup>C),'</strong>: Splits the appositive with an internal comma and also adds a closing comma &mdash; doubly wrong. &#10007;</li><li><strong>Choice D &mdash; 'carbon-13 (<sup>13</sup>C),'</strong>: Keeps <em>carbon-13 (<sup>13</sup>C)</em> as one unit and correctly places a comma after it to separate it from the following clause. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "74ce2f05",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the structure around the blank",
+      "content": "The blank contains an appositive &mdash; <em>carbon-13</em> followed by its abbreviation <em>(<sup>13</sup>C)</em> &mdash; that renames <em>a rare carbon isotope</em>. An appositive that interrupts a sentence must be set off from what follows it with a comma. The blank must not place a comma <em>inside</em> the appositive between the name and its abbreviation, which would break the unit apart."
+    },
+    {
+      "title": "Eliminate wrong choices and confirm the answer",
+      "content": "Test each option against the rule that the appositive must remain a single unit and be followed by a comma:<ul><li><strong>Choice A &mdash; &lsquo;carbon-13, (<sup>13</sup>C)&rsquo;</strong>: Places a comma between <em>carbon-13</em> and its abbreviation, incorrectly splitting the appositive. &#10007;</li><li><strong>Choice B &mdash; &lsquo;carbon-13 (<sup>13</sup>C)&rsquo;</strong>: Keeps the appositive intact but lacks the closing comma needed to separate it from the rest of the sentence. &#10007;</li><li><strong>Choice C &mdash; &lsquo;carbon-13, (<sup>13</sup>C),&rsquo;</strong>: Splits the appositive with an internal comma and also adds a closing comma &mdash; doubly wrong. &#10007;</li><li><strong>Choice D &mdash; &lsquo;carbon-13 (<sup>13</sup>C),&rsquo;</strong>: Keeps <em>carbon-13 (<sup>13</sup>C)</em> as one unit and correctly places a comma after it to separate it from the following clause. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

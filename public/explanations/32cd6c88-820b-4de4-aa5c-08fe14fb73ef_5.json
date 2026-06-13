@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "Each choice gives a single value of $b$. The y-intercept of $y = \\frac{2}{5}x + 2$ is $2$, so only $b = 2$ makes the equations identical.<ul><li><strong>Choice A &mdash; $b = -2$</strong>: wrong sign &mdash; $-2 \\neq 2$. &#10007;</li><li><strong>Choice B &mdash; $b = -\\frac{1}{2}$</strong>: not the y-intercept of the given line. &#10007;</li><li><strong>Choice C &mdash; $b = \\frac{1}{2}$</strong>: not the y-intercept of the given line. &#10007;</li><li><strong>Choice D &mdash; $b = 2$</strong>: matches the y-intercept exactly, making both equations identical. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "content": "Each choice gives a single value of $b$. The y-intercept of $y = \\frac{2}{5}x + 2$ is $2$, so only $b = 2$ makes the equations identical.<ul><li><strong>Choice A — -2</strong>: wrong sign &mdash; $-2 \\neq 2$. &#10007;</li><li><strong>Choice B — $-\\frac{1}{2}$</strong>: not the y-intercept of the given line. &#10007;</li><li><strong>Choice C — $\\frac{1}{2}$</strong>: not the y-intercept of the given line. &#10007;</li><li><strong>Choice D — 2</strong>: matches the y-intercept exactly, making both equations identical. &#10003;</li></ul><strong>D</strong> is correct."
     }
   ]
 }

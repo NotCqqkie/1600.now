@@ -1,1 +1,15 @@
-{"questionId": "a767d2b7-21c5-44d6-b35c-acfc2fefad3d_22", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the chronological progression", "content": "The passage moves through time: Shakespeare arrived in 1585, was becoming known by 1593, and in 1600 would create another masterpiece. The blank must signal movement forward from 1593 to 1600."}, {"title": "Match the transition type", "content": "The logical relationship is sequence in time: the passage moves from 1593 (Shakespeare becoming known) to 1600 (another achievement). The blank needs a transition signaling forward movement through time.<ul><li><strong>Choice A — \"Conversely,\"</strong>: signals direct opposition, so fails — the 1600 achievement does not contradict the 1593 one. ✗</li><li><strong>Choice B — \"Later,\"</strong>: signals subsequent time, so fits — 1600 comes after 1593 and \"Later\" marks that forward progression. ✓</li><li><strong>Choice C — \"Thus,\"</strong>: signals logical consequence or cause-and-effect, so fails — delighting audiences in 1600 is not caused by becoming known in 1593. ✗</li><li><strong>Choice D — \"In other words,\"</strong>: signals restatement or clarification, so fails — the 1600 sentence is a new event, not a rephrasing. ✗</li></ul>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "a767d2b7-21c5-44d6-b35c-acfc2fefad3d_22",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the chronological progression",
+      "content": "The passage moves through time: Shakespeare arrived in 1585, was becoming known by 1593, and in 1600 would create another masterpiece. The blank must signal movement forward from 1593 to 1600."
+    },
+    {
+      "title": "Match the transition type",
+      "content": "The logical relationship is sequence in time: the passage moves from 1593 (Shakespeare becoming known) to 1600 (another achievement). The blank needs a transition signaling forward movement through time.<ul><li><strong>Choice A &mdash; Conversely,</strong>: signals direct opposition, so fails — the 1600 achievement does not contradict the 1593 one. ✗</li><li><strong>Choice B &mdash; Later,</strong>: signals subsequent time, so fits — 1600 comes after 1593 and \"Later\" marks that forward progression. ✓</li><li><strong>Choice C &mdash; Thus,</strong>: signals logical consequence or cause-and-effect, so fails — delighting audiences in 1600 is not caused by becoming known in 1593. ✗</li><li><strong>Choice D &mdash; In other words,</strong>: signals restatement or clarification, so fails — the 1600 sentence is a new event, not a rephrasing. ✗</li></ul>That is the correct answer."
+    }
+  ]
+}

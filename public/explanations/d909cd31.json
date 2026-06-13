@@ -3,10 +3,22 @@
   "correctAnswer": "C",
   "section": "Math",
   "steps": [
-    "Infinitely many solutions means the two equations describe the same line, so the second equation must be a scalar multiple of the first.",
-    "Simplify the given equation by dividing by 5: $-15x+25y=65 \\Rightarrow -3x+5y=13$.",
-    "Test each choice: divide by 4 to simplify. A: $3x+5y=13$ (wrong sign on $x$). B: $3x+5y=-13$ (wrong signs). C: $-3x+5y=13$ (matches). D: $-3x+5y=-13$ (wrong constant sign).",
-    "<ul><li><strong>Choice A &mdash; '$12x+20y=52$'</strong>: Divides to $3x+5y=13$, but the $x$-coefficient should be negative. &#10007;</li><li><strong>Choice B &mdash; '$12x+20y=-52$'</strong>: Divides to $3x+5y=-13$, wrong signs on both $x$ and constant. &#10007;</li><li><strong>Choice C &mdash; '$-12x+20y=52$'</strong>: Divides to $-3x+5y=13$, which is exactly the simplified given equation. &#10003;</li><li><strong>Choice D &mdash; '$-12x+20y=-52$'</strong>: Divides to $-3x+5y=-13$, wrong sign on constant. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    {
+      "title": "Step 1",
+      "content": "Infinitely many solutions means the two equations describe the same line, so the second equation must be a scalar multiple of the first."
+    },
+    {
+      "title": "Step 2",
+      "content": "Simplify the given equation by dividing by 5: $-15x+25y=65 \\Rightarrow -3x+5y=13$."
+    },
+    {
+      "title": "Step 3",
+      "content": "Test each choice: divide by 4 to simplify. A: $3x+5y=13$ (wrong sign on $x$). B: $3x+5y=-13$ (wrong signs). C: $-3x+5y=13$ (matches). D: $-3x+5y=-13$ (wrong constant sign)."
+    },
+    {
+      "title": "Step 4",
+      "content": "<ul><li><strong>'$12x+20y=52$'</strong>: Divides to $3x+5y=13$, but the $x$-coefficient should be negative. &#10007;</li><li><strong>'$12x+20y=-52$'</strong>: Divides to $3x+5y=-13$, wrong signs on both $x$ and constant. &#10007;</li><li><strong>'$-12x+20y=52$'</strong>: Divides to $-3x+5y=13$, which is exactly the simplified given equation. &#10003;</li><li><strong>'$-12x+20y=-52$'</strong>: Divides to $-3x+5y=-13$, wrong sign on constant. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+    }
   ],
   "desmosExpressions": [
     "y=(65+15x)/25",

@@ -1,1 +1,15 @@
-{"questionId": "1107e7dc", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the effect of unpredictable shifts", "content": "The passage states that “unpredictable shifts in cloud cover and haze” affect solar energy collection in a way that stored energy can help counteract. We need the word that describes what these shifts do to the collection process."}, {"title": "Find the word for that effect", "content": "When clouds appear unpredictably, solar energy collection rises and falls—it <strong>fluctuates</strong>.<br/><br/>Stored energy mitigates this by providing power when collection dips. “Fluctuations in” directly captures this variable behavior.<br/><br/>The other options fail: “developments of” suggests new events rather than variations, “calibrations with” refers to adjusting equipment (unrelated to what clouds do), and “incentives for” means motivations (not a weather consequence).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "1107e7dc",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the effect of unpredictable shifts",
+      "content": "The passage states that “unpredictable shifts in cloud cover and haze” affect solar energy collection in a way that stored energy can help counteract. We need the word that describes what these shifts do to the collection process."
+    },
+    {
+      "title": "Find the word for that effect",
+      "content": "When clouds appear unpredictably, solar energy collection rises and falls—it <strong>fluctuates</strong>.<br/><br/>Stored energy mitigates this by providing power when collection dips. “Fluctuations in” directly captures this variable behavior.<br/><br/>The other options fail: “developments of” suggests new events rather than variations, “calibrations with” refers to adjusting equipment (unrelated to what clouds do), and “incentives for” means motivations (not a weather consequence).<br/><br/>That matches <strong>Choice B &mdash; fluctuations in</strong>."
+    }
+  ]
+}

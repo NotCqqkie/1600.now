@@ -1,1 +1,15 @@
-{"questionId":"562b97f6-c42e-48b0-9911-de9db6425784_1","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage says the mihrab is \"foundational to traditional mosque architecture\" and that even mosques blending multiple styles still include it. The blank must describe a feature that is the defining, prototypical example of its kind &mdash; not merely impressive, decorated, or novel."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'an imposing'</strong>: Imposing means large or commanding in appearance. The passage says nothing about the mihrab's size or visual impact &mdash; only its centrality to mosque design. &#10007;</li><li><strong>Choice B &mdash; 'an embellished'</strong>: Embellished means decorated or ornamented. The passage is about how foundational the feature is, not how ornate it is. &#10007;</li><li><strong>Choice C &mdash; 'a quintessential'</strong>: Quintessential means representing the most perfect or typical example of something. A feature that is foundational to the tradition and present even across mixed-style mosques is by definition the quintessential element of mosque design. &#10003;</li><li><strong>Choice D &mdash; 'an unprecedented'</strong>: Unprecedented means never done before. The mihrab is a longstanding traditional feature &mdash; calling it unprecedented contradicts the passage entirely. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "562b97f6-c42e-48b0-9911-de9db6425784_1",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage says the mihrab is \"foundational to traditional mosque architecture\" and that even mosques blending multiple styles still include it. The blank must describe a feature that is the defining, prototypical example of its kind &mdash; not merely impressive, decorated, or novel."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — an imposing</strong>: Imposing means large or commanding in appearance. The passage says nothing about the mihrab's size or visual impact &mdash; only its centrality to mosque design. &#10007;</li><li><strong>Choice B — an embellished</strong>: Embellished means decorated or ornamented. The passage is about how foundational the feature is, not how ornate it is. &#10007;</li><li><strong>Choice C — a quintessential</strong>: Quintessential means representing the most perfect or typical example of something. A feature that is foundational to the tradition and present even across mixed-style mosques is by definition the quintessential element of mosque design. &#10003;</li><li><strong>Choice D — an unprecedented</strong>: Unprecedented means never done before. The mihrab is a longstanding traditional feature &mdash; calling it unprecedented contradicts the passage entirely. &#10007;</li></ul><strong>C</strong> is correct."
+    }
+  ]
+}

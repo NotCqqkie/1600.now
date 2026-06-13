@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice A is $-34$, so it is correct. Choice D is a common trap: it is the $x$-value that would make $g(x)=-7$, not the requested value of $g(-7)$."
+      "content": "$-34$ is correct. Solving for the $x$-value that would make $g(x)=-7$ answers a different question; here the task is to evaluate $g(-7)$ directly from the function rule."
     }
   ]
 }

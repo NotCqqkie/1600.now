@@ -9,7 +9,7 @@
     },
     {
       "title": "Find the radius using the point on the circle",
-      "content": "The point $(-8, 4)$ lies on the circle. The radius is the distance from the center $(-4, 1)$ to this point:<br/>$$r = \\sqrt{(-8 - (-4))^2 + (4 - 1)^2}$$<br/>$$r = \\sqrt{(-4)^2 + 3^2}$$<br/>$$r = \\sqrt{16 + 9} = \\sqrt{25} = 5$$<br/>Therefore $r^2 = 25$, giving us:<br/>$$(x + 4)^2 + (y - 1)^2 = 25$$<br/>That matches choice B — <strong>B</strong> is correct."
+      "content": "The point $(-8, 4)$ lies on the circle. The radius is the distance from the center $(-4, 1)$ to this point:<br/>$$r = \\sqrt{(-8 - (-4))^2 + (4 - 1)^2}$$<br/>$$r = \\sqrt{(-4)^2 + 3^2}$$<br/>$$r = \\sqrt{16 + 9} = \\sqrt{25} = 5$$<br/>Therefore $r^2 = 25$, giving us:<br/>$$(x + 4)^2 + (y - 1)^2 = 25$$<br/>That confirms <strong>B</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId":"6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_23","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The goal calls for an <strong>example</strong>, which requires naming a specific particle physicist and connecting them to the field &mdash; not discussing physics in general."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'discusses neutrino research generally'</strong>: Describes the field without naming any specific physicist. Doesn&apos;t fulfill &quot;example.&quot; &#10007;</li><li><strong>Choice B &mdash; 'names Samoil M. Bilenky and his neutrino research'</strong>: A specific physicist is named and connected to neutrino research &mdash; exactly what an example requires. &#10003;</li><li><strong>Choice C &mdash; 'discusses practices in particle physics generally'</strong>: No specific physicist named. Too general. &#10007;</li><li><strong>Choice D &mdash; 'discusses ideas in particle physics generally'</strong>: Same problem &mdash; general discussion, no named individual. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_23",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The goal calls for an <strong>example</strong>, which requires naming a specific particle physicist and connecting them to the field &mdash; not discussing physics in general."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Neutrinos are a type of subatomic particle that particle physicists are still trying to understand.&rsquo;</strong>: Describes the field without naming any specific physicist. Doesn&apos;t fulfill &quot;example.&quot; &#10007;</li><li><strong>Choice B &mdash; &lsquo;Particle physicist Samoil M. Bilenky is known for his research on neutrino oscillations.&rsquo;</strong>: A specific physicist is named and connected to neutrino research &mdash; exactly what an example requires. &#10003;</li><li><strong>Choice C &mdash; &lsquo;The research done on neutrino oscillations exemplifes the work particle physicists do to advance our understanding of subatomic particles.&rsquo;</strong>: No specific physicist named. Too general. &#10007;</li><li><strong>Choice D &mdash; &lsquo;By studying neutrino oscillations—to name just one example—particle physicists can learn more about neutrinos.&rsquo;</strong>: Same problem &mdash; general discussion, no named individual. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

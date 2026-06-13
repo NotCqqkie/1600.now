@@ -6,7 +6,7 @@
     "difficulty": "Easy",
     "question_number": 1,
     "test_name": "Module Source 191 Math M1",
-    "passage": "For certain air temperatures, the table gives wind chill temperatures for two different wind speeds.\nAccording to the table, what is the wind chill temperature, in degrees Fahrenheit ($\\text{°F}$), when the air temperature is $38\\text{°F}$ and the wind speed is $60$ miles per hour (mph)? (Disregard the degree symbol when entering your answer.)",
+    "passage": "For certain air temperatures, the table gives wind chill temperatures for two different wind speeds.\nAccording to the table, what is the wind chill temperature, in degrees Fahrenheit (${}^{\\circ}\\text{F}$), when the air temperature is $38^{\\circ}\\text{F}$ and the wind speed is $60$ miles per hour (mph)? (Disregard the degree symbol when entering your answer.)",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -556,19 +556,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$y > 3x - 5$"
+        "text": "$y \\gt 3x - 5$"
       },
       {
         "label": "B",
-        "text": "$y < 3x - 5$"
+        "text": "$y \\lt 3x - 5$"
       },
       {
         "label": "C",
-        "text": "$y > 15x - 5$"
+        "text": "$y \\gt 15x - 5$"
       },
       {
         "label": "D",
-        "text": "$y < 15x - 5$"
+        "text": "$y \\lt 15x - 5$"
       }
     ],
     "is_fill_in_blank": false,

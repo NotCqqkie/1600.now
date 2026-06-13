@@ -1,1 +1,19 @@
-{"questionId": "d1482e27", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the subject of the blank", "content": "The sentence reads &quot;The map ______ the area of a plot of land, shows a river valley, and includes the cardinal directions.&quot; The subject is &quot;The map&quot; &mdash; singular, third person."}, {"title": "Match the verb to the parallel series", "content": "The blank is the first verb in a three-part compound predicate joined with &quot;shows&quot; and &quot;includes,&quot; both simple present, third-person singular. The blank must take the same form to keep subject-verb agreement and parallelism."}, {"title": "Eliminate the other choices", "content": "<ul><li><strong>Choice A &mdash; &apos;describes&apos;</strong>: third-person singular present, agrees with &quot;map&quot; and parallels &quot;shows&quot;/&quot;includes.&quot; &#10003;</li><li><strong>Choice B &mdash; &apos;describe&apos;</strong>: plural form &mdash; violates subject-verb agreement with singular &quot;map.&quot; &#10007;</li><li><strong>Choice C &mdash; &apos;have described&apos;</strong>: plural auxiliary and wrong tense &mdash; breaks both agreement and parallelism with the present-tense series. &#10007;</li><li><strong>Choice D &mdash; &apos;are describing&apos;</strong>: plural auxiliary and progressive aspect &mdash; violates agreement and parallelism. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "d1482e27",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the subject of the blank",
+      "content": "The sentence reads &quot;The map ______ the area of a plot of land, shows a river valley, and includes the cardinal directions.&quot; The subject is &quot;The map&quot; &mdash; singular, third person."
+    },
+    {
+      "title": "Match the verb to the parallel series",
+      "content": "The blank is the first verb in a three-part compound predicate joined with &quot;shows&quot; and &quot;includes,&quot; both simple present, third-person singular. The blank must take the same form to keep subject-verb agreement and parallelism."
+    },
+    {
+      "title": "Eliminate the other choices",
+      "content": "<ul><li><strong>Choice A &mdash; describes</strong>: third-person singular present, agrees with &quot;map&quot; and parallels &quot;shows&quot;/&quot;includes.&quot; &#10003;</li><li><strong>Choice B &mdash; describe</strong>: plural form &mdash; violates subject-verb agreement with singular &quot;map.&quot; &#10007;</li><li><strong>Choice C &mdash; have described</strong>: plural auxiliary and wrong tense &mdash; breaks both agreement and parallelism with the present-tense series. &#10007;</li><li><strong>Choice D &mdash; are describing</strong>: plural auxiliary and progressive aspect &mdash; violates agreement and parallelism. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

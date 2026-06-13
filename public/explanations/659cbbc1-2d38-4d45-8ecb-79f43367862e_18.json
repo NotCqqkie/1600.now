@@ -1,1 +1,19 @@
-{"questionId": "659cbbc1-2d38-4d45-8ecb-79f43367862e_18", "correctAnswer": "1,680", "section": "Math", "steps": [{"title": "Use the volume ratio to find the scale factor", "content": "For similar solids the volume ratio is the cube of the linear scale factor. The table's volume ratio gives $\\left(\\frac{r_B}{r_A}\\right)^{3}=27$, so the scale factor is $3$ and $r_B=3(7)=21$."}, {"title": "Determine the height of cylinder A", "content": "Using cylinder A's volume to solve for $h_A$ (with $r=7$) gives $h_A=8$ units. Then by similarity $h_B=3(8)=24$ units."}, {"title": "Compute surface areas and difference", "content": "$$\\text{SA}_A=2\\pi(7)^{2}+2\\pi(7)(8)=98\\pi+112\\pi=210\\pi$$<br/>$$\\text{SA}_B=2\\pi(21)^{2}+2\\pi(21)(24)=882\\pi+1{,}008\\pi=1{,}890\\pi$$<br/>So $k=210$, $n=1{,}890$, and $n-k=1{,}680$.<br/><br/>The answer is <strong>1,680</strong>."}]}
+{
+  "questionId": "659cbbc1-2d38-4d45-8ecb-79f43367862e_18",
+  "correctAnswer": "1,680",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the volume ratio to find the scale factor",
+      "content": "For similar solids the volume ratio is the cube of the linear scale factor. The table's volume ratio gives $\\left(\\frac{r_B}{r_A}\\right)^{3}=27$, so the scale factor is $3$ and $r_B=3(7)=21$."
+    },
+    {
+      "title": "Determine the height of cylinder A",
+      "content": "Using cylinder A's volume to solve for $h_A$ (with $r=7$) gives $h_A=8$ units. Then by similarity $h_B=3(8)=24$ units."
+    },
+    {
+      "title": "Compute surface areas and difference",
+      "content": "$$\\text{SA}_A=2\\pi(7)^{2}+2\\pi(7)(8)=98\\pi+112\\pi=210\\pi$$<br/>$$\\text{SA}_B=2\\pi(21)^{2}+2\\pi(21)(24)=882\\pi+1{,}008\\pi=1{,}890\\pi$$<br/>So $k=210$, $n=1{,}890$, and $n-k=1{,}680$.<br/><br/>The answer is <strong>1,680</strong>."
+    }
+  ]
+}

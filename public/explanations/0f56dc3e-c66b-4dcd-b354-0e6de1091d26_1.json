@@ -1,1 +1,15 @@
-{"questionId":"0f56dc3e-c66b-4dcd-b354-0e6de1091d26_1","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence uses &apos;despite&apos; to set up a concession: even though something was true about the scholar&apos;s relationship to her general expertise, she could still speak authoritatively about one specific work. &apos;Despite&apos; signals that the blank must describe doubt or reluctance &mdash; not confidence &mdash; toward that broader expertise."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;affinity for&apos;</strong>: means she liked or felt drawn to her general expertise. &apos;Despite&apos; an affinity would create no logical concession &mdash; a positive feeling doesn&apos;t need to be overcome. &#10007;</li><li><strong>Choice B &mdash; &apos;exceptions to&apos;</strong>: implies she knew of exceptions in her field, which does not explain why she would need to overcome anything to speak about one text. &#10007;</li><li><strong>Choice C &mdash; &apos;hesitancy about&apos;</strong>: means she felt uncertain or unsure regarding her general expertise. &apos;Despite&apos; that hesitancy, she still spoke with authority on the specific work &mdash; a clean logical concession. &#10003;</li><li><strong>Choice D &mdash; &apos;insight into&apos;</strong>: means she understood her expertise well. &apos;Despite&apos; insight also creates no concession &mdash; insight would support, not hinder, speaking authoritatively. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_1",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence uses &apos;despite&apos; to set up a concession: even though something was true about the scholar&apos;s relationship to her general expertise, she could still speak authoritatively about one specific work. &apos;Despite&apos; signals that the blank must describe doubt or reluctance &mdash; not confidence &mdash; toward that broader expertise."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; affinity for</strong>: means she liked or felt drawn to her general expertise. &apos;Despite&apos; an affinity would create no logical concession &mdash; a positive feeling doesn&apos;t need to be overcome. &#10007;</li><li><strong>Choice B &mdash; exceptions to</strong>: implies she knew of exceptions in her field, which does not explain why she would need to overcome anything to speak about one text. &#10007;</li><li><strong>Choice C &mdash; hesitancy about</strong>: means she felt uncertain or unsure regarding her general expertise. &apos;Despite&apos; that hesitancy, she still spoke with authority on the specific work &mdash; a clean logical concession. &#10003;</li><li><strong>Choice D &mdash; insight into</strong>: means she understood her expertise well. &apos;Despite&apos; insight also creates no concession &mdash; insight would support, not hinder, speaking authoritatively. &#10007;</li></ul>That matches <strong>Choice C &mdash; hesitancy about</strong>."
+    }
+  ]
+}

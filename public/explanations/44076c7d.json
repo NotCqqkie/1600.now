@@ -9,7 +9,7 @@
     },
     {
       "title": "Match the model to the choices",
-      "content": "The equation $f(x)=x^2+5x+14$ is choice D. A quick substitution confirms it: $f(-1)=1-5+14=10$, $f(0)=14$, and $f(1)=1+5+14=20$. All three table rows match, so choice D &mdash; <strong>D</strong> is correct."
+      "content": "The equation $f(x)=x^2+5x+14$ fits the table. A quick substitution confirms it: $f(-1)=1-5+14=10$, $f(0)=14$, and $f(1)=1+5+14=20$. All three table rows match, so <strong>D</strong> is correct."
     }
   ]
 }

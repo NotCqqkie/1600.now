@@ -9,7 +9,7 @@
     },
     {
       "title": "Simplify the radical and extract k",
-      "content": "Simplify $\\sqrt{40} = \\sqrt{4 \\cdot 10} = 2\\sqrt{10}$. Substitute back to get:<br/>$$x = \\frac{2 \\pm 2\\sqrt{10}}{2} = \\frac{2(1 \\pm \\sqrt{10})}{2} = 1 \\pm \\sqrt{10}$$<br/>One solution is $x = 1 + \\sqrt{10}$. Comparing to the form $1 + \\sqrt{k}$, we see that $k = 10$. That matches choice B — <strong>B</strong> is correct."
+      "content": "Simplify $\\sqrt{40} = \\sqrt{4 \\cdot 10} = 2\\sqrt{10}$. Substitute back to get:<br/>$$x = \\frac{2 \\pm 2\\sqrt{10}}{2} = \\frac{2(1 \\pm \\sqrt{10})}{2} = 1 \\pm \\sqrt{10}$$<br/>One solution is $x = 1 + \\sqrt{10}$. Comparing to the form $1 + \\sqrt{k}$, we see that $k = 10$. That is the correct answer."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId": "c06af4d8", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the independent clauses and their connector", "content": "The blank separates two independent clauses connected by the word “however.”"}, {"title": "Apply the punctuation rule for 'however'", "content": "Choice A (“single-handedly, however;”) is the keyed punctuation: the comma separates “however” from the first clause, and the semicolon then breaks before the next independent clause.<br/><br/>Choice B inverts the punctuation, choice C creates a comma splice, and choice D omits the punctuation entirely.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "c06af4d8",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the independent clauses and their connector",
+      "content": "The blank separates two independent clauses connected by the word “however.”"
+    },
+    {
+      "title": "Apply the punctuation rule for 'however'",
+      "content": "Choice A (“single-handedly, however;”) is the keyed punctuation: the comma separates “however” from the first clause, and the semicolon then breaks before the next independent clause.<br/><br/>Choice B inverts the punctuation; the other distractors create a comma splice or omit the punctuation entirely.<br/><br/>That is the correct answer."
+    }
+  ]
+}

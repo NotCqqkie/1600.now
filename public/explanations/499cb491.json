@@ -9,8 +9,8 @@
     },
     {
       "title": "Match to the answer choices",
-      "content": "The factored form is $5x(x-10y^2)$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."
+      "content": "The factored form is $5x(x-10y^2)$. <strong>A</strong> is correct. Distributing $5x$ back through the parentheses checks both original terms: $5x^2$ and $-50xy^2$."
     }
   ],
-  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; '5x(x &minus; 10y&sup2;)'</strong>: Distributing gives 5x &middot; x &minus; 5x &middot; 10y&sup2; = 5x&sup2; &minus; 50xy&sup2;, which matches exactly. &#10003;</li><li><strong>Choice B &mdash; '5x(x &minus; 50y&sup2;)'</strong>: Distributing gives 5x&sup2; &minus; 250xy&sup2;, not 5x&sup2; &minus; 50xy&sup2;. &#10007;</li><li><strong>Choice C &mdash; '5x&sup2;(10xy&sup2;)'</strong>: This is a product, not a difference; it equals 50x&sup3;y&sup2;, not the original expression. &#10007;</li><li><strong>Choice D &mdash; '5x&sup2;(50xy&sup2;)'</strong>: This equals 250x&sup3;y&sup2;, not the original expression. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+  "choiceAnalysis": "<ul><li><strong>Choice A — $5x \\left(x-10{y}^{2}\\right)$</strong>: Distributing gives $5x \\cdot x - 5x \\cdot 10y^2 = 5x^2 - 50xy^2$, which matches exactly. &#10003;</li><li><strong>Choice B — $5x \\left(x-50{y}^{2}\\right)$</strong>: Distributing gives $5x^2 - 250xy^2$, not $5x^2 - 50xy^2$. &#10007;</li><li><strong>Choice C — $5{x}^{2} \\left(10x{y}^{2}\\right)$</strong>: This is a product, not a difference; it equals $50x^3y^2$, not the original expression. &#10007;</li><li><strong>Choice D — $5{x}^{2} \\left(50x{y}^{2}\\right)$</strong>: This equals $250x^3y^2$, not the original expression. &#10007;</li></ul><strong>A</strong> is correct."
 }

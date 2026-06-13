@@ -9,7 +9,7 @@
     },
     {
       "title": "Find the matching choice",
-      "content": "Compare each choice to the constraint $25 \\leq x \\leq 65$:<ul><li><strong>Choice A:</strong> $x \\geq 25$ — only the lower bound; omits the upper limit</li><li><strong>Choice B:</strong> $x \\geq 65$ — wrong; this says speed is at least 65, contradicting the problem</li><li><strong>Choice C:</strong> $25 \\leq x \\leq 65$ — exact match</li><li><strong>Choice D:</strong> $x \\leq 90$ — an upper bound not given in the problem</li></ul>That matches choice C — <strong>C</strong> is correct."
+      "content": "Compare each choice to the constraint $25 \\leq x \\leq 65$:<ul><li><strong>Choice A &mdash; $x \\geq 25$</strong>: only the lower bound; omits the upper limit</li><li><strong>Choice B &mdash; $x \\geq 65$</strong>: wrong; this says speed is at least 65, contradicting the problem</li><li><strong>Choice C &mdash; $25 \\leq x \\leq 65$</strong>: exact match</li><li><strong>Choice D &mdash; $x \\leq 90$</strong>: an upper bound not given in the problem</li></ul>That confirms <strong>C</strong> is correct."
     }
   ]
 }

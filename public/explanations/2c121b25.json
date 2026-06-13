@@ -9,7 +9,7 @@
     },
     {
       "title": "Translate the constraint",
-      "content": "The problem states the containers have <em>at least</em> 400 red beads. The phrase <em>at least</em> means greater than or equal to (≥). Therefore, the inequality is:<br/>$$0.3x + 0.7y \\geq 400$$<br/>That matches choice A — <strong>A</strong> is correct."
+      "content": "The problem states the containers have <em>at least</em> 400 red beads. The phrase <em>at least</em> means greater than or equal to (≥). Therefore, the inequality is:<br/>$$0.3x + 0.7y \\geq 400$$<br/><strong>A</strong> is correct."
     }
   ]
 }

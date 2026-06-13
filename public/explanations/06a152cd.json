@@ -9,7 +9,7 @@
     },
     {
       "title": "Convert ounces to pounds",
-      "content": "The problem asks for the answer in pounds. Use the given conversion: 1 pound = 16 ounces.<br/>$$\\frac{120 \\text{ ounces}}{16 \\text{ ounces/pound}} = 7.5 \\text{ pounds}$$<br/>That matches choice A — <strong>A</strong> is correct."
+      "content": "The problem asks for the answer in pounds. Use the given conversion: 1 pound = 16 ounces.<br/>$$\\frac{120 \\text{ ounces}}{16 \\text{ ounces/pound}} = 7.5 \\text{ pounds}$$<br/>That matches <strong>Choice A &mdash; 7.5</strong>."
     }
   ]
 }

@@ -9,7 +9,7 @@
     },
     {
       "title": "Solve for the maximum number of boxes",
-      "content": "Subtract 500 from both sides:<br/>$$120n \\leq 4,100$$<br/>Divide by 120:<br/>$$n \\leq \\frac{4,100}{120} \\approx 34.17$$<br/>Since $n$ must be a whole number, the maximum is 34 boxes. With 34 boxes: $500 + 120(34) = 4,580$ pounds, within the limit. With 35 boxes: $500 + 4,200 = 4,700$ pounds, exceeds the limit. That matches choice A — <strong>A</strong> is correct."
+      "content": "Subtract 500 from both sides:<br/>$$120n \\leq 4,100$$<br/>Divide by 120:<br/>$$n \\leq \\frac{4,100}{120} \\approx 34.17$$<br/>Since $n$ must be a whole number, the maximum is 34 boxes. With 34 boxes: $500 + 120(34) = 4,580$ pounds, within the limit. With 35 boxes: $500 + 4,200 = 4,700$ pounds, exceeds the limit. That matches the correct answer — <strong>A</strong> is correct."
     }
   ]
 }

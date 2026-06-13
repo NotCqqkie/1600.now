@@ -1,1 +1,19 @@
-{"questionId": "2b89bfe5", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Pin down the goal", "content": "The student wants to emphasize how hot the Sun is relative to nearby stars. So the answer must directly compare the Sun&apos;s temperature with that of its neighbors and show the Sun coming out on the hot side."}, {"title": "Use the notes to check the comparison", "content": "Of 357 nearby stars, 327 are K or M (cooler than the Sun) and only 11 are A or F (hotter). So the Sun is hotter than the large majority of nearby stars, but not all of them &mdash; that is the comparison the choice needs to state."}, {"title": "Eliminate by rule", "content": "<ul><li><strong>Choice A &mdash; &apos;the Sun is hotter than most but not all of the stars within 10 parsecs&apos;</strong>: explicitly ranks the Sun against its neighbors and lands on &quot;hotter than most,&quot; which emphasizes how hot the Sun is relative to them. &#10003;</li><li><strong>Choice B &mdash; &apos;the Sun... is a G star, and several other stars... are A or F stars&apos;</strong>: lists classifications side by side but never says the Sun is hotter or cooler than those stars, so it does not emphasize the Sun&apos;s relative heat. Misread of the goal. &#10007;</li><li><strong>Choice C &mdash; &apos;327 are classified as K or M stars, with surface temperatures under 8,900&deg;F&apos;</strong>: focuses on how cool the neighbors are and never mentions the Sun&apos;s temperature, so it emphasizes the other stars, not the Sun. Misread of the goal. &#10007;</li><li><strong>Choice D &mdash; &apos;most of the stars... are classified as K, M, A, or F stars, the Sun is classified as a G star&apos;</strong>: contrasts classifications but lumps hotter (A, F) and cooler (K, M) stars together, hiding the comparison and failing to emphasize how hot the Sun is. Overreach that blurs the data. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "2b89bfe5",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Pin down the goal",
+      "content": "The student wants to emphasize how hot the Sun is relative to nearby stars. So the answer must directly compare the Sun&apos;s temperature with that of its neighbors and show the Sun coming out on the hot side."
+    },
+    {
+      "title": "Use the notes to check the comparison",
+      "content": "Of 357 nearby stars, 327 are K or M (cooler than the Sun) and only 11 are A or F (hotter). So the Sun is hotter than the large majority of nearby stars, but not all of them &mdash; that is the comparison the choice needs to state."
+    },
+    {
+      "title": "Eliminate by rule",
+      "content": "The correct response explicitly ranks the Sun against its nearby stars: at about $9,800^{\\circ}\\text{F}$, it is hotter than most but not all of them. The response about Todd Henry only lists classifications; the response about the 327 K or M stars emphasizes the cooler neighbors instead of the Sun; and the response that groups K, M, A, and F stars together hides the hot-versus-cool comparison. <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -13,7 +13,7 @@
     },
     {
       "title": "Test the correct table at once",
-      "content": "Choice D has $y$-values $26$, $52$, and $91$. Enter $d_1=[26,52,91]$ and compare it to the cutoff list. Each value is greater than the matching boundary value: $26>21$, $52>47$, and $91>86$.",
+      "content": "The matching choice has $y$-values $26$, $52$, and $91$. Enter $d_1=[26,52,91]$ and compare it to the cutoff list. Each value is greater than the matching boundary value: $26\\gt 21$, $52\\gt 47$, and $91\\gt 86$.",
       "desmosExpressions": [
         "x_1=[3,5,8]",
         "d_1=[26,52,91]",
@@ -23,7 +23,7 @@
     },
     {
       "title": "Identify the table",
-      "content": "A correct table must satisfy the strict inequality in all three rows. Choice D is the only table whose entire $y$-list is above $13x-18$, so choice <strong>D</strong> is correct."
+      "content": "A correct table must satisfy the strict inequality in all three rows. the only table whose entire $y$-list is above $13x-18$, so <strong>D</strong> is correct."
     }
   ]
 }

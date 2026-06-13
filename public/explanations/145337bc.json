@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up the relationship from the figure",
-      "content": "The figure shows a right triangle. One acute angle is labeled $66°$, the other is therefore $90° - 66° = 24°$. The variable $x$ represents that second acute angle, so $x = 24$."
+      "content": "The figure shows a right triangle. One acute angle is labeled $66^{\\circ}$, the other is therefore $90^{\\circ} - 66^{\\circ} = 24^{\\circ}$. The variable $x$ represents that second acute angle, so $x = 24$."
     },
     {
       "title": "Identify the answer",
-      "content": "So $x = 24$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."
+      "content": "So $x = 24$. That matches <strong>Choice A &mdash; $24$</strong>."
     }
   ]
 }

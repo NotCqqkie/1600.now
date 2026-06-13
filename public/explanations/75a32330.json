@@ -5,16 +5,16 @@
   "steps": [
     {
       "title": "Identify parabola's vertex and direction",
-      "content": "The equation $ y = x^2 + 1.7 $ is a parabola in vertex form $ y = a(x-h)^2 + k $. Comparing directly, vertex is (0, 1.7) and opens upward (since coefficient of $ x^2 $ is positive).<br/><strong>Only choices A and B have a parabola with vertex at (0, 1.7).</strong>"
+      "content": "The equation $ y = x^2 + 1.7 $ is a parabola in vertex form $ y = a(x-h)^2 + k $. Comparing directly, vertex is (0, 1.7) and opens upward (since coefficient of $ x^2 $ is positive).<br/><strong>Only these choices have a parabola with vertex at (0, 1.7).</strong>"
     },
     {
       "title": "Determine line slope and eliminate choices",
-      "content": "The line $ y = 1.7 - x $ has slope -1 (negative), so it must <strong>slant sharply downward</strong> from left to right. Choices B and D show lines with positive slopes, which are invalid. <strong>Eliminate B and D.</strong>",
+      "content": "The line $ y = 1.7 - x $ has slope -1 (negative), so it must <strong>slant sharply downward</strong> from left to right. The other choices show lines with positive slopes, which are invalid. <strong>Eliminate B and D.</strong>",
       "formula": "y = mx + b"
     },
     {
       "title": "Validate vertex consistency",
-      "content": "Choice C claims the parabola's vertex is at (-1.7, 0). This conflicts with the equation's vertex at (0, 1.7). <strong>Eliminate C.</strong> Only <strong>A</strong> has both matching parabola vertex and downward-sloping line."
+      "content": "The graph described by C has the correct downward-sloping line, but its parabola has vertex $(-1.7,0)$ instead of $(0,1.7)$. That conflicts with $y=x^2+1.7$, whose vertex is $(0,1.7)$. <strong>Eliminate C.</strong> Only <strong>A</strong> has both the matching parabola vertex and the downward-sloping line."
     }
   ]
 }

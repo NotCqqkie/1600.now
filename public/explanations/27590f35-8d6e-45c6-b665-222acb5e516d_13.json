@@ -13,7 +13,7 @@
     },
     {
       "title": "Answer",
-      "content": "<strong>26</strong> is correct."
+      "content": "<strong>26</strong> is correct. The system is set up so adding the equations cancels $x$, leaving the requested expression $2y$ immediately rather than requiring the value of $y$ alone."
     }
   ]
 }

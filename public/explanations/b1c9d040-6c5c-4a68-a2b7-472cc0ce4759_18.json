@@ -1,1 +1,15 @@
-{"questionId": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_18", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The sentence reads: &quot;the observatory sites&hellip;number nearly five ______ across the globe, the radars track ionospheric irregularities and other geospace phenomena.&quot; After the blank, a comma joins what appears to be a second independent clause (&quot;the radars track&hellip;&quot;). That comma creates a comma splice unless the blank itself provides a proper sentence boundary."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'dozen. Located'</strong>: ends the first sentence cleanly with a period after &quot;dozen,&quot; then begins a new sentence &quot;Located across the globe, the radars track&hellip;&quot; &mdash; a correct participial opener. &#10003;</li><li><strong>Choice B &mdash; 'dozen, located'</strong>: creates a comma splice between two independent clauses (&quot;sites&hellip;number nearly five dozen&quot; and &quot;the radars track&hellip;&quot;). &#10007;</li><li><strong>Choice C &mdash; 'dozen, which are located'</strong>: turns the second clause into a relative clause modifying &quot;dozen,&quot; so the main verb &quot;track&quot; has no subject &mdash; a sentence fragment. &#10007;</li><li><strong>Choice D &mdash; 'dozen located'</strong>: leaves the comma after the blank still splicing two independent clauses. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_18",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence reads: &quot;the observatory sites&hellip;number nearly five ______ across the globe, the radars track ionospheric irregularities and other geospace phenomena.&quot; After the blank, a comma joins what appears to be a second independent clause (&quot;the radars track&hellip;&quot;). That comma creates a comma splice unless the blank itself provides a proper sentence boundary."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; dozen. Located</strong>: ends the first sentence cleanly with a period after &quot;dozen,&quot; then begins a new sentence &quot;Located across the globe, the radars track&hellip;&quot; &mdash; a correct participial opener. &#10003;</li><li><strong>Choice B &mdash; dozen, located</strong>: creates a comma splice between two independent clauses (&quot;sites&hellip;number nearly five dozen&quot; and &quot;the radars track&hellip;&quot;). &#10007;</li><li><strong>Choice C &mdash; dozen, which are located</strong>: turns the second clause into a relative clause modifying &quot;dozen,&quot; so the main verb &quot;track&quot; has no subject &mdash; a sentence fragment. &#10007;</li><li><strong>Choice D &mdash; dozen located</strong>: leaves the comma after the blank still splicing two independent clauses. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

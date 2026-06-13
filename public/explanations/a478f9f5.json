@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the probability formula",
-      "content": "Probability of selecting color Y equals the number of favorable outcomes divided by the total number of outcomes:<br/>$$P(\\text{color Y}) = \\frac{\\text{number of color Y gemstones}}{\\text{total gemstones}} = \\frac{3}{157}$$<br/>That matches choice A — <strong>A</strong> is correct."
+      "content": "Probability of selecting color Y equals the number of favorable outcomes divided by the total number of outcomes:<br/>$$P(\\text{color Y}) = \\frac{\\text{number of color Y gemstones}}{\\text{total gemstones}} = \\frac{3}{157}$$<br/>That is the correct answer."
     }
   ]
 }

@@ -9,11 +9,11 @@
     },
     {
       "title": "Check each statement",
-      "content": "<ul><li><strong>I: $x=a$</strong>. Left side: $a-a=0$. Right side: $(a-a)(a-24)=0$. True.</li><li><strong>II: $x=24$</strong>. Left side: $24-a$. Right side: $(24-a)(24-24)=0$. Since $a>25$, $24-a\\ne0$, so false.</li><li><strong>III: $x=25$</strong>. Left side: $25-a$. Right side: $(25-a)(25-24)=25-a$. True.</li></ul>"
+      "content": "<ul><li><strong>I: $x=a$</strong>. Left side: $a-a=0$. Right side: $(a-a)(a-24)=0$. True.</li><li><strong>II: $x=24$</strong>. Left side: $24-a$. Right side: $(24-a)(24-24)=0$. Since $a\\gt 25$, $24-a\\ne0$, so false.</li><li><strong>III: $x=25$</strong>. Left side: $25-a$. Right side: $(25-a)(25-24)=25-a$. True.</li></ul>"
     },
     {
       "title": "Choose the answer",
-      "content": "Only statements I and III must be true. That matches choice <strong>B</strong>."
+      "content": "Only statements I and III must be true. That confirms <strong>B</strong>."
     }
   ]
 }

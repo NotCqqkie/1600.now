@@ -1,1 +1,27 @@
-{"questionId": "d7afa874-519b-4f1b-b45f-1c75ea45613b_18", "correctAnswer": "300", "section": "Math", "steps": [{"title": "Read line g from the graph", "content": "Two clearly marked points on line $g$ are $(-10, 12)$ and $(0, 1)$.<br/><br/>Slope $= \\frac{12 - 1}{-10 - 0} = \\frac{11}{-10} = -\\frac{11}{10}$<br/><br/>So line $g$ has equation $y = -\\frac{11}{10}x + 1$."}, {"title": "Write line g in standard form", "content": "Multiply through by $10$:<br/>$$10y = -11x + 10$$<br/>$$11x + 10y = 10$$"}, {"title": "Find the scalar multiplier", "content": "The system $165x + py = w$ must be a scalar multiple of $11x + 10y = 10$ for infinitely many solutions.<br/><br/>Find $n$ such that $n \\cdot 11 = 165$:<br/>$$n = 15$$"}, {"title": "Compute p and w", "content": "$$p = n \\cdot 10 = 15 \\cdot 10 = 150$$<br/>$$w = n \\cdot 10 = 15 \\cdot 10 = 150$$"}, {"title": "Answer", "content": "$$p + w = 150 + 150 = 300$$<br/><strong>300</strong> is correct."}]}
+{
+  "questionId": "d7afa874-519b-4f1b-b45f-1c75ea45613b_18",
+  "correctAnswer": "300",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read line g from the graph",
+      "content": "Two clearly marked points on line $g$ are $(-10, 12)$ and $(0, 1)$.<br/><br/>Slope $= \\frac{12 - 1}{-10 - 0} = \\frac{11}{-10} = -\\frac{11}{10}$<br/><br/>So line $g$ has equation $y = -\\frac{11}{10}x + 1$."
+    },
+    {
+      "title": "Write line g in standard form",
+      "content": "Multiply through by $10$:<br/>$$10y = -11x + 10$$<br/>$$11x + 10y = 10$$"
+    },
+    {
+      "title": "Find the scalar multiplier",
+      "content": "The system $165x + py = w$ must be a scalar multiple of $11x + 10y = 10$ for infinitely many solutions.<br/><br/>Find $n$ such that $n \\cdot 11 = 165$:<br/>$$n = 15$$"
+    },
+    {
+      "title": "Compute p and w",
+      "content": "$$p = n \\cdot 10 = 15 \\cdot 10 = 150$$<br/>$$w = n \\cdot 10 = 15 \\cdot 10 = 150$$"
+    },
+    {
+      "title": "Answer",
+      "content": "$$p + w = 150 + 150 = 300$$<br/><strong>300</strong> is correct."
+    }
+  ]
+}

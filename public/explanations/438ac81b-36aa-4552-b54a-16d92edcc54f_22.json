@@ -1,1 +1,15 @@
-{"questionId":"438ac81b-36aa-4552-b54a-16d92edcc54f_22","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank introduces the second sentence, which describes the EU creating DOP status. The first sentence establishes that rising demand for regionally-labeled cheeses created a need to verify authenticity. We need a transition that signals why the EU acted: the need in sentence 1 caused the action in sentence 2."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Therefore,'</strong>: Signals a logical consequence. Sentence 2 (EU establishes DOP) follows directly from the cause in sentence 1 (need to guarantee authenticity). This is a cause-to-effect transition. &#10003;</li><li><strong>Choice B &mdash; 'Likewise,'</strong>: Signals similarity or addition. But sentence 2 is not a parallel example of the same thing as sentence 1&mdash;it is the response to the problem sentence 1 describes. &#10007;</li><li><strong>Choice C &mdash; 'Regardless,'</strong>: Signals that sentence 2 is true despite or independent of sentence 1. That contradicts the logic: the EU acted because of the need described in sentence 1, not in spite of it. &#10007;</li><li><strong>Choice D &mdash; 'Conversely,'</strong>: Signals opposition or contrast. Sentence 2 does not contrast with sentence 1; it responds to it. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "438ac81b-36aa-4552-b54a-16d92edcc54f_22",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank introduces the second sentence, which describes the EU creating DOP status. The first sentence establishes that rising demand for regionally-labeled cheeses created a need to verify authenticity. We need a transition that signals why the EU acted: the need in sentence 1 caused the action in sentence 2."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — Therefore,</strong>: Signals a logical consequence. Sentence 2 (EU establishes DOP) follows directly from the cause in sentence 1 (need to guarantee authenticity). This is a cause-to-effect transition. &#10003;</li><li><strong>Choice B — Likewise,</strong>: Signals similarity or addition. But sentence 2 is not a parallel example of the same thing as sentence 1&mdash;it is the response to the problem sentence 1 describes. &#10007;</li><li><strong>Choice C — Regardless,</strong>: Signals that sentence 2 is true despite or independent of sentence 1. That contradicts the logic: the EU acted because of the need described in sentence 1, not in spite of it. &#10007;</li><li><strong>Choice D — Conversely,</strong>: Signals opposition or contrast. Sentence 2 does not contrast with sentence 1; it responds to it. &#10007;</li></ul><strong>A</strong> is correct."
+    }
+  ]
+}

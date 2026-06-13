@@ -1,1 +1,15 @@
-{"questionId": "2bca654a", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the opening modifier", "content": "The sentence opens with the participial phrase <strong>Forming extensive networks via mycorrhizal association</strong> (the dashes set off the appositive <em>that is, a symbiotic relationship between plants and fungi</em>). The blank must begin with a subject that the participle <em>Forming</em> can logically modify."}, {"title": "Apply the dangling/misplaced modifier rule", "content": "The grammar rule: an opening participial phrase must be followed by a subject that can logically perform the action of the participle. Here, the subject must be something that actually <em>forms</em> the networks.<ul><li>A: subject is <strong>it</strong> &mdash; no clear referent that forms networks (dangling modifier)</li><li>B: subject is <strong>the transport of nutrients</strong> &mdash; transport doesn't form networks (dangling modifier)</li><li>C: subject is <strong>nutrients</strong> &mdash; nutrients don't form networks (dangling modifier)</li><li>D: subject is <strong>pine trees and the fungus <em>Tricholoma matsutake</em></strong> &mdash; these can logically form the networks</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "2bca654a",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the opening modifier",
+      "content": "The sentence opens with the participial phrase <strong>Forming extensive networks via mycorrhizal association</strong> (the dashes set off the appositive <em>that is, a symbiotic relationship between plants and fungi</em>). The blank must begin with a subject that the participle <em>Forming</em> can logically modify."
+    },
+    {
+      "title": "Apply the dangling/misplaced modifier rule",
+      "content": "The grammar rule: an opening participial phrase must be followed by a subject that can logically perform the action of the participle. Here, the subject must be something that actually <em>forms</em> the networks.<ul><li>A: subject is <strong>it</strong> &mdash; no clear referent that forms networks (dangling modifier)</li><li>B: subject is <strong>the transport of nutrients</strong> &mdash; transport doesn't form networks (dangling modifier)</li><li>C: subject is <strong>nutrients</strong> &mdash; nutrients don't form networks (dangling modifier)</li><li>D: subject is <strong>pine trees and the fungus <em>Tricholoma matsutake</em></strong> &mdash; these can logically form the networks</li></ul><strong>D</strong> is correct."
+    }
+  ]
+}

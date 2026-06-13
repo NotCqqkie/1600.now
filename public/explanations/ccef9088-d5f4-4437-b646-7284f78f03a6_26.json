@@ -1,1 +1,15 @@
-{"questionId":"ccef9088-d5f4-4437-b646-7284f78f03a6_26","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The student wants to &quot;specify which countries the Danube River passes through.&quot; The notes list two countries: Hungary and Romania. Any correct choice must include both."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'passes through both Hungary and Romania'</strong>: names both countries directly. &#10003;</li><li><strong>Choice B &mdash; 'not the longest river in the world'</strong>: discusses world rank, not countries. &#10007;</li><li><strong>Choice C &mdash; '2,888 kilometers long'</strong>: gives length and European rank, not countries. &#10007;</li><li><strong>Choice D &mdash; 'ranks No. 30'</strong>: gives world rank, not countries. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "ccef9088-d5f4-4437-b646-7284f78f03a6_26",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The student wants to &quot;specify which countries the Danube River passes through.&quot; The notes list two countries: Hungary and Romania. Any correct choice must include both."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; The second longest river in Europe, the Danube River passes through both Hungary and Romania.</strong>: names both countries directly. &#10003;</li><li><strong>Choice B &mdash; The Danube River is not the longest river in the world.</strong>: discusses world rank, not countries. &#10007;</li><li><strong>Choice C &mdash; At 2,888 kilometers long, the Danube River is the second longest river in Europe.</strong>: gives length and European rank, not countries. &#10007;</li><li><strong>Choice D &mdash; Among the longest rivers in the world, the Danube River ranks No. 30.</strong>: gives world rank, not countries. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

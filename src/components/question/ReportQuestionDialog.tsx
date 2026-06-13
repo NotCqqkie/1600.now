@@ -120,6 +120,7 @@ export const ReportQuestionDialog = ({
                 id={`report-${reason.key}`}
                 checked={selected.has(reason.key)}
                 onCheckedChange={() => toggle(reason.key)}
+                className="transition-none data-[state=checked]:hover:bg-ds-accent data-[state=checked]:hover:text-ink"
               />
               <span>{reason.label}</span>
             </label>

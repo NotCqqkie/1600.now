@@ -17,7 +17,7 @@
     },
     {
       "title": "Confirm the answer",
-      "content": "Choice D matches $f(x)=50x-180$. It also checks with both given values: $f(8)=220$ and $f(10)=320$, so choice <strong>D</strong> is correct."
+      "content": "The correct answer matches $f(x)=50x-180$. It also checks with both given values: $f(8)=220$ and $f(10)=320$, so <strong>D</strong> is correct."
     }
   ]
 }

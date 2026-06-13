@@ -1,1 +1,15 @@
-{"questionId": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_24", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the relationship between the sentences", "content": "The second sentence doesn't contradict or pivot away—it confirms Chaucer's pioneering role by providing evidence: his manuscripts contain the first documented uses of 2,000+ English words. The transition must signal confirmation or elaboration."}, {"title": "Select the confirmation signal", "content": "”Indeed” confirms the first sentence with supporting evidence. “However,” “That being said,” and “Besides” signal contradiction, concession, or addition respectively—none of which fits a sentence providing evidence.<br/><br/>This completion makes the logical relationship between the sentences clear.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_24",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the relationship between the sentences",
+      "content": "The second sentence doesn't contradict or pivot away—it confirms Chaucer's pioneering role by providing evidence: his manuscripts contain the first documented uses of 2,000+ English words. The transition must signal confirmation or elaboration."
+    },
+    {
+      "title": "Select the confirmation signal",
+      "content": "”Indeed” confirms the first sentence with supporting evidence. “However,” “That being said,” and “Besides” signal contradiction, concession, or addition respectively—none of which fits a sentence providing evidence.<br/><br/>This completion makes the logical relationship between the sentences clear.<br/><br/>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

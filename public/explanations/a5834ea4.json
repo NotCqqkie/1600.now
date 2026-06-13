@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice B is the only table with outputs $39$, $39$, and $39$. Choices A, C, and D show outputs that do not stay equal to $39$, so choice <strong>B</strong> is correct."
+      "content": "The correct answer is the only table with outputs $39$, $39$, and $39$. The other choices show outputs that do not stay equal to $39$, so <strong>B</strong> is correct."
     }
   ]
 }

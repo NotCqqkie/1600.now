@@ -1,1 +1,15 @@
-{"questionId": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_24", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "This is a Rhetorical Synthesis question. The task is to make AND support a claim that kale is a better source of vitamin C than blueberries. A correct answer must both assert kale's superiority and provide quantitative evidence from the notes to back it up."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'Kale contains ascorbic acid (which humans cannot make in their bodies), and blueberries do too.'</strong>: Mentions both foods but makes no comparative claim and provides no quantitative support. &#10007;</li><li><strong>Choice B &mdash; 'Blueberries contain 10 mg of vitamin C per 100 g, but kale is a better source of vitamin C; in fact, kale contains 120 mg per 100 g.'</strong>: Explicitly claims kale is better and supports it with the 120 mg vs. 10 mg comparison from the notes. &#10003;</li><li><strong>Choice C &mdash; 'Kale is a better source of vitamin C, also known as ascorbic acid, than blueberries are.'</strong>: Makes the claim but offers no supporting evidence &mdash; the notes' numbers are absent. &#10007;</li><li><strong>Choice D &mdash; 'Humans must get vitamin C from foods like kale and blueberries because they cannot make it in their bodies.'</strong>: Focuses on why vitamin C is essential, not on comparing the two sources. Makes no comparative claim at all. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_24",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a Rhetorical Synthesis question. The task is to make AND support a claim that kale is a better source of vitamin C than blueberries. A correct answer must both assert kale's superiority and provide quantitative evidence from the notes to back it up."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"Kale contains ascorbic acid (which humans cannot make in their bodies), and blueberries do too.\"</strong>: Mentions both foods but makes no comparative claim and provides no quantitative support. &#10007;</li><li><strong>\"Blueberries contain 10 mg of vitamin C per 100 g, but kale is a better source of vitamin C; in fact, kale contains 120 mg per 100 g.\"</strong>: Explicitly claims kale is better and supports it with the 120 mg vs. 10 mg comparison from the notes. &#10003;</li><li><strong>\"Kale is a better source of vitamin C, also known as ascorbic acid, than blueberries are.\"</strong>: Makes the claim but offers no supporting evidence &mdash; the notes' numbers are absent. &#10007;</li><li><strong>\"Humans must get vitamin C from foods like kale and blueberries because they cannot make it in their bodies.\"</strong>: Focuses on why vitamin C is essential, not on comparing the two sources. Makes no comparative claim at all. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+    }
+  ]
+}

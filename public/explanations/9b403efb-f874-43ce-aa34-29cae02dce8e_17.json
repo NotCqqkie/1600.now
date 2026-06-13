@@ -1,1 +1,15 @@
-{"questionId": "9b403efb-f874-43ce-aa34-29cae02dce8e_17", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the main clause structure", "content": "The key signal is that <em>“reflected”</em> is the only verb form that functions as the sentence's main predicate.<br/><br/>This reveals that <em>“These extensive changes”</em> and <em>“reflected”</em> are the core subject-verb pair, with the listed items—addition, removal, insertion—serving as explanatory content between them."}, {"title": "Apply the comma rule", "content": "When a phrase interrupts the main clause between subject and verb, it must be set off by commas on both sides. <em>“Changes, including the addition..., reflected”</em> uses commas to clearly mark the interruption, keeping <em>“reflected”</em> as the sentence's main verb.<br/><br/>A) introduces a second main verb that conflicts with <em>“reflected,”</em> B) fragments the sentence with a bare verb, and C) makes <em>“included”</em> rather than <em>“reflected”</em> the main verb.<br/><br/>That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "9b403efb-f874-43ce-aa34-29cae02dce8e_17",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the main clause structure",
+      "content": "The key signal is that <em>“reflected”</em> is the only verb form that functions as the sentence's main predicate.<br/><br/>This reveals that <em>“These extensive changes”</em> and <em>“reflected”</em> are the core subject-verb pair, with the listed items—addition, removal, insertion—serving as explanatory content between them."
+    },
+    {
+      "title": "Apply the comma rule",
+      "content": "When a phrase interrupts the main clause between subject and verb, it must be set off by commas on both sides. <em>“Changes, including the addition..., reflected”</em> uses commas to clearly mark the interruption, keeping <em>“reflected”</em> as the sentence's main verb.<br/><br/>A) introduces a second main verb that conflicts with <em>“reflected,”</em> B) fragments the sentence with a bare verb, and C) makes <em>“included”</em> rather than <em>“reflected”</em> the main verb.<br/><br/>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply conditional probability and simplify",
-      "content": "Given that the ice cream is vanilla, the probability of having sprinkles is:<br/>$$P(\\text{Sprinkles | Vanilla}) = \\frac{20}{50} = \\frac{2}{5} = 0.40$$<br/>That matches choice D — <strong>D</strong> is correct."
+      "content": "Given that the ice cream is vanilla, the probability of having sprinkles is:<br/>$$P(\\text{Sprinkles | Vanilla}) = \\frac{20}{50} = \\frac{2}{5} = 0.40$$<br/>That is the correct answer."
     }
   ]
 }

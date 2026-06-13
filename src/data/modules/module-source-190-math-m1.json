@@ -53,7 +53,7 @@
     "difficulty": "Easy",
     "question_number": 3,
     "test_name": "Module Source 190 Math M1",
-    "passage": "Javier deposits $\\$45$ in a savings account at the end of each week. At the beginning of the 1st week of a year there was $\\$700$ in that savings account. How much money, in dollars, will be in the account at the end of the 6th week of the year?",
+    "passage": "Javier deposits \\$45 in a savings account at the end of each week. At the beginning of the 1st week of a year there was \\$700 in that savings account. How much money, in dollars, will be in the account at the end of the 6th week of the year?",
     "question_text": null,
     "choices": [
       {
@@ -584,7 +584,7 @@
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
-    "correct_answer": "2.6",
+    "correct_answer": "2.6,13/5",
     "rationale": "The correct answer is 2.6. According to the model, the head width, in millimeters, of a worker bumblebee can be estimated by adding 0.6 to 4 times the body weight, in grams, of the bee. Let <em>x</em> represent the body weight, in grams, of a worker bumblebee and let <em>y</em> represent the head width, in millimeters. Translating the verbal description of the model into an equation yields $y = 0.6 + 4x$. Substituting 0.5 grams for <em>x</em> in this equation yields $y = 0.6 + 4 \\times 0.5$, or $y = 2.6$. Therefore, a worker bumblebee with a body weight of 0.5 grams has an estimated head width of 2.6 millimeters. Note that 2.6 and 13/5 are examples of ways to enter a correct answer.",
     "id": "e62cfe5f"
   }

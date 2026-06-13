@@ -13,7 +13,7 @@
     },
     {
       "title": "Find the side length of square Y",
-      "content": "Since square Y has perimeter 96 cm, and the perimeter of a square equals $4 \\times \\text{side}$:<br/>$$96 = 4 \\times \\text{side}$$<br/>$$\\text{side} = \\frac{96}{4} = 24 \\text{ cm}$$<br/>That matches choice D — <strong>D</strong> is correct."
+      "content": "Since square Y has perimeter 96 cm, and the perimeter of a square equals $4 \\times \\text{side}$:<br/>$$96 = 4 \\times \\text{side}$$<br/>$$\\text{side} = \\frac{96}{4} = 24 \\text{ cm}$$<br/>That matches <strong>Choice D &mdash; $24$</strong>."
     }
   ]
 }

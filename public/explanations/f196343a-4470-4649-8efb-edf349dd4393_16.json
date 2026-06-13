@@ -1,1 +1,15 @@
-{"questionId": "f196343a-4470-4649-8efb-edf349dd4393_16", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Compute f(1)", "content": "All four forms describe the same function, so they share the same $f(1) = k$. Use (B): $f(1) = 42(1.2)^1 = 50.4$. So $k = 50.4$."}, {"title": "Find the form where k appears", "content": "We need a form whose coefficient or base equals $50.4$. Check (C):<br/>$$f(x) = 50.4(1.2)^{x-1}$$<br/>Coefficient is $50.4 = k$. (Verify $f(1) = 50.4(1.2)^0 = 50.4$ ✓.)<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "f196343a-4470-4649-8efb-edf349dd4393_16",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compute f(1)",
+      "content": "All four forms describe the same function, so they share the same $f(1) = k$. Use the equivalent form: $f(1) = 42(1.2)^1 = 50.4$. So $k = 50.4$."
+    },
+    {
+      "title": "Find the form where k appears",
+      "content": "We need a form whose coefficient or base equals $50.4$. Check the equivalent form:<br/>$$f(x) = 50.4(1.2)^{x-1}$$<br/>Coefficient is $50.4 = k$. (Verify $f(1) = 50.4(1.2)^0 = 50.4$ ✓.)<br/><br/>That matches the correct answer — <strong>C</strong> is correct."
+    }
+  ]
+}

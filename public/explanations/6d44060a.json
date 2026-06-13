@@ -1,1 +1,15 @@
-{"questionId": "6d44060a", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the comparative structure", "content": "The passage shows a limitation (works presenting method without motive) and then pivots with “However” to a more complete approach (works providing both method and motive). This problem-then-better-solution pattern reveals a comparison of which works are more comprehensive."}, {"title": "Match to the choices", "content": "A describes this structure precisely: the passage characterizes moral philosophy through two example works and then details how some works in that field are more comprehensive than others by including both method and motive.<br/><br/>B, C, and D each misread the passage—either overstating the problem as impossible to overcome, fabricating a research proposal, or inventing a readership comparison.<br/><br/>This matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "6d44060a",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the comparative structure",
+      "content": "The passage shows a limitation (works presenting method without motive) and then pivots with “However” to a more complete approach (works providing both method and motive). This problem-then-better-solution pattern reveals a comparison of which works are more comprehensive."
+    },
+    {
+      "title": "Match to the choices",
+      "content": "A describes this structure precisely: the passage characterizes moral philosophy through two example works and then details how some works in that field are more comprehensive than others by including both method and motive.<br/><br/>B, C, and D each misread the passage—either overstating the problem as impossible to overcome, fabricating a research proposal, or inventing a readership comparison.<br/><br/>This confirms <strong>A</strong> is correct."
+    }
+  ]
+}

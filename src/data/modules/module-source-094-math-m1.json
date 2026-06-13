@@ -45,7 +45,7 @@
     "difficulty": "Easy",
     "question_number": 2,
     "test_name": "Module Source 094 Math M1",
-    "passage": "Sabrina has a goal to save at least \\$240. Sabrina has already saved \\$180. If x represents the additional amount of money, in dollars, Sabrina needs to save to meet her goal, which inequality represents this situation?",
+    "passage": "Sabrina has a goal to save at least \\$240. Sabrina has already saved \\$180. If $x$ represents the additional amount of money, in dollars, Sabrina needs to save to meet her goal, which inequality represents this situation?",
     "question_text": null,
     "choices": [
       {
@@ -227,7 +227,7 @@
     "difficulty": "Easy",
     "question_number": 8,
     "test_name": "Module Source 094 Math M1",
-    "passage": "Line k is defined by $y = 7x + 2$. Line j is parallel to line k in the xy-plane and passes through the point (0, 3). Which equation defines line j?",
+    "passage": "Line k is defined by $y = 7x + 2$. Line j is parallel to line k in the $xy$-plane and passes through the point (0, 3). Which equation defines line j?",
     "question_text": null,
     "choices": [
       {
@@ -274,7 +274,7 @@
     "difficulty": "Easy",
     "question_number": 10,
     "test_name": "Module Source 094 Math M1",
-    "passage": "For the linear function f, the graph of $y = f(x)$ in the $xy$-plane has a slope of 28 and passes through the point (0, 0). The function f is defined by $f(x) = a x$, where a is a constant. What is the value of a?",
+    "passage": "For the linear function $f$, the graph of $y = f(x)$ in the $xy$-plane has a slope of 28 and passes through the point (0, 0). The function $f$ is defined by $f(x) = a x$, where $a$ is a constant. What is the value of $a$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -390,7 +390,7 @@
     "difficulty": "Hard",
     "question_number": 15,
     "test_name": "Module Source 094 Math M1",
-    "passage": "The table shows three values of x and their corresponding values of f(x), where $f(x)=\\frac{kx+45}{x+2}$ and k is a constant. What is the value of k?",
+    "passage": "The table shows three values of $x$ and their corresponding values of $f(x)$, where $f(x)=\\frac{kx+45}{x+2}$ and $k$ is a constant. What is the value of $k$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -412,7 +412,7 @@
     "difficulty": "Medium",
     "question_number": 16,
     "test_name": "Module Source 094 Math M1",
-    "passage": "The function f is defined by $f(x)=\\frac{x+11}{3}$, and $f(a)= 16$, where a is a constant. What is the value of a?",
+    "passage": "The function $f$ is defined by $f(x)=\\frac{x+11}{3}$, and $f(a)= 16$, where $a$ is a constant. What is the value of $a$?",
     "question_text": null,
     "choices": [
       {
@@ -540,7 +540,7 @@
     "difficulty": "Easy",
     "question_number": 20,
     "test_name": "Module Source 094 Math M1",
-    "passage": "If $\\frac{x-16}{27}=\\frac{x-16}{9}$, what is the value of x + 16?",
+    "passage": "If $\\frac{x-16}{27}=\\frac{x-16}{9}$, what is the value of $x + 16$?",
     "question_text": null,
     "choices": [
       {

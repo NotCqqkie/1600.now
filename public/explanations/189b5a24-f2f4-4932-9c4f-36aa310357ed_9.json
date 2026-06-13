@@ -1,1 +1,15 @@
-{"questionId":"189b5a24-f2f4-4932-9c4f-36aa310357ed_9","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage instructs historians: when a story has &lsquo;sufficient authority,&rsquo; name who vouched for it; when it lacks authority, say so explicitly. The core duty is transparency about how trustworthy each source is."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; historians must avoid incomplete accounts</strong>: the passage is about credibility signaling, not completeness. Different point. &#10007;</li><li><strong>Choice B &mdash; historians must not use non-credible sources</strong>: contradicts the passage, which says historians should include such accounts while flagging their low authority. &#10007;</li><li><strong>Choice C &mdash; historians must indicate each source&apos;s trustworthiness</strong>: matches the passage&apos;s core instruction exactly. &#10003;</li><li><strong>Choice D &mdash; historians must avoid eyewitness accounts</strong>: the passage never says this. Unsupported claim. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "189b5a24-f2f4-4932-9c4f-36aa310357ed_9",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage instructs historians: when a story has &lsquo;sufficient authority,&rsquo; name who vouched for it; when it lacks authority, say so explicitly. The core duty is transparency about how trustworthy each source is."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Historians rarely have access to all the information relevant to a particular event, so no single work of history should be taken as definitive.</strong>: the passage is about credibility signaling, not completeness. Different point. &#10007;</li><li><strong>Choice B &mdash; The only figures that a historian should quote are those who are widely viewed as credible.</strong>: contradicts the passage, which says historians should include such accounts while flagging their low authority. &#10007;</li><li><strong>Choice C &mdash; Historians should clearly indicate the extent to which each of their sources is trustworthy.</strong>: matches the passage&apos;s core instruction exactly. &#10003;</li><li><strong>Choice D &mdash; Because historians cannot tell whose memories they should trust, they should avoid relying on eyewitness accounts of events.</strong>: the passage never says this. Unsupported claim. &#10007;</li></ul>That matches <strong>Choice C &mdash; Historians should clearly indicate the extent to which each of their sources is trustworthy.</strong>."
+    }
+  ]
+}

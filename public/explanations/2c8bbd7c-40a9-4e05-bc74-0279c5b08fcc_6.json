@@ -9,7 +9,7 @@
     },
     {
       "title": "Interpret f(2) ≈ 4,186.12 in context",
-      "content": "The statement $f(2) \\approx 4,186.12$ means we substitute $x = 2$ into the function.<br/><br/>Since $x$ is measured in years and $f(x)$ gives the dollar value, this means <strong>2 years after the investment was made, the value of the CD was approximately 4,186.12 dollars</strong>.<br/><br/>That matches choice C — <strong>C</strong> is correct."
+      "content": "The statement $f(2) \\approx 4,186.12$ means we substitute $x = 2$ into the function.<br/><br/>Since $x$ is measured in years and $f(x)$ gives the dollar value, this means <strong>2 years after the investment was made, the value of the CD was approximately 4,186.12 dollars</strong>.<br/><br/><strong>C</strong> is correct."
     }
   ]
 }

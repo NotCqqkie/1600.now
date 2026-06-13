@@ -1,1 +1,15 @@
-{"questionId": "dc78fb50-de84-439b-980f-0629b266ff8a_21", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The sentence already has a main verb: &quot;analyzed.&quot; The blank must introduce a verb form that modifies &quot;researchers&quot; without creating a second competing main verb."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'were looking'</strong>: A finite verb form; creates two main verbs without a conjunction. &#10007;</li><li><strong>Choice B &mdash; 'looked'</strong>: Also finite; same structural error. &#10007;</li><li><strong>Choice C &mdash; 'looking'</strong>: A participle &mdash; non-finite, so it modifies &quot;researchers&quot; while leaving &quot;analyzed&quot; as the sole main verb. &#10003;</li><li><strong>Choice D &mdash; 'had looked'</strong>: Finite past perfect; same two-main-verb problem. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "dc78fb50-de84-439b-980f-0629b266ff8a_21",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence already has a main verb: \"analyzed.\" The blank must introduce a verb form that modifies \"researchers\" without creating a second competing main verb."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"were looking\"</strong>: A finite verb form; creates two main verbs without a conjunction. &#10007;</li><li><strong>\"looked\"</strong>: Also finite; same structural error. &#10007;</li><li><strong>\"looking\"</strong>: A participle &mdash; non-finite, so it modifies \"researchers\" while leaving \"analyzed\" as the sole main verb. &#10003;</li><li><strong>\"had looked\"</strong>: Finite past perfect; same two-main-verb problem. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+    }
+  ]
+}

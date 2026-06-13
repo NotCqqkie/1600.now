@@ -1,1 +1,15 @@
-{"questionId":"839d1132-416e-4cc6-be17-13454f14da43_8","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks which physical trait allows small cats to purr. The answer must come directly from the passage&apos;s stated mechanism, not general knowledge."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;a flexible hyoid&apos;</strong>: the passage says small cats have a rigid hyoid, not a flexible one. This describes big cats. &#10007;</li><li><strong>Choice B &mdash; &apos;a vibrating larynx&apos;</strong>: the larynx vibrates in both big and small cats; it is a shared component, not the trait that distinguishes purring ability. &#10007;</li><li><strong>Choice C &mdash; &apos;a rigid hyoid&apos;</strong>: the passage states the rigid hyoid rumbles when the larynx vibrates, directly producing the purr. This is the key distinguishing trait. &#10003;</li><li><strong>Choice D &mdash; &apos;a large larynx&apos;</strong>: larynx size is not mentioned as the mechanism; the passage focuses on the hyoid. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "839d1132-416e-4cc6-be17-13454f14da43_8",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks which physical trait allows small cats to purr. The answer must come directly from the passage&apos;s stated mechanism, not general knowledge."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; The ligament attaching the hyoid bone to the rusty-spotted cat's skull.</strong>: the passage says small cats have a rigid hyoid, not a flexible one. This describes big cats. &#10007;</li><li><strong>Choice B &mdash; The relative size of the rusty-spotted cat's body and throat.</strong>: the larynx vibrates in both big and small cats; it is a shared component, not the trait that distinguishes purring ability. &#10007;</li><li><strong>Choice C &mdash; The rusty-spotted cat's rigid hyoid bone.</strong>: the passage states the rigid hyoid rumbles when the larynx vibrates, directly producing the purr. This is the key distinguishing trait. &#10003;</li><li><strong>Choice D &mdash; The shape of the rusty-spotted cat's larynx.</strong>: larynx size is not mentioned as the mechanism; the passage focuses on the hyoid. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "bc839e02-25bc-4632-be4e-0c0b81f62962_16", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the clause structure", "content": "A subject (“The word 'flummox'”) and introductory adverb (“first”) precede the blank, followed by a prepositional phrase. This is an incomplete independent clause."}, {"title": "Select the correct verb form", "content": "A simple past tense finite verb is required to complete the independent clause. “Appeared” is the simple past tense of <em>appear</em> and functions as the main verb.<br/><br/>Choices B, C, and D are non-finite forms (infinitive, present participle, perfect participle) that cannot serve as a main verb.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "bc839e02-25bc-4632-be4e-0c0b81f62962_16",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the clause structure",
+      "content": "A subject (“The word 'flummox'”) and introductory adverb (“first”) precede the blank, followed by a prepositional phrase. This is an incomplete independent clause."
+    },
+    {
+      "title": "Select the correct verb form",
+      "content": "A simple past tense finite verb is required to complete the independent clause. “Appeared” is the simple past tense of <em>appear</em> and functions as the main verb.<br/><br/>The other choices are non-finite forms (infinitive, present participle, perfect participle) that cannot serve as a main verb.<br/><br/>That is the correct answer."
+    }
+  ]
+}

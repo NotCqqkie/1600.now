@@ -9,11 +9,11 @@
     },
     {
       "title": "Verify the table points",
-      "content": "Choice C lists $(0,0)$, $(3,-12)$, and $(6,0)$. These match the two sea-level points and the lowest point visible on the graph."
+      "content": "The matching table lists $(0,0)$, $(3,-12)$, and $(6,0)$. These match the two sea-level points and the lowest point visible on the graph."
     },
     {
       "title": "Confirm the choice",
-      "content": "Choices A and B repeat $x=0$ with two different $y$-values, so they cannot be tables for a function. Choice D does not include the key point $(3,-12)$. Choice C lists $(0,0)$, $(3,-12)$, and $(6,0)$, so <strong>C</strong> is correct."
+      "content": "Two incorrect tables repeat $x=0$ with two different $y$-values, so they cannot be tables for a function. Another incorrect table does not include the key point $(3,-12)$. The table with $(0,0)$, $(3,-12)$, and $(6,0)$ is correct."
     }
   ]
 }

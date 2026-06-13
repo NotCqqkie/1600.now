@@ -1,1 +1,15 @@
-{"questionId": "f07570bb", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the logical relationship", "content": "Sentence 2 makes a general claim: Siletz stories <em>support</em> the researchers&rsquo; belief about the shipwreck. Sentence 3 then names something specific those stories describe&mdash;beeswax washing ashore. The third sentence is an instance of the general claim, so the transition must introduce an example, not cause, contrast, or similarity."}, {"title": "Eliminate each wrong choice", "content": "<ul><li><strong>Choice A &mdash; &lsquo;For this reason,&rsquo;</strong>: &ldquo;For this reason&rdquo; signals that the beeswax stories were caused by the claim about support, which makes no sense. &#10007;</li><li><strong>Choice B &mdash; &lsquo;For example,&rsquo;</strong>: &ldquo;For example&rdquo; introduces a specific instance of the general claim that Siletz stories support the researchers&rsquo; belief. &#10003;</li><li><strong>Choice C &mdash; &lsquo;However,&rsquo;</strong>: &ldquo;However&rdquo; signals contrast, but the beeswax stories agree with, not contradict, the preceding claim. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Likewise,&rsquo;</strong>: &ldquo;Likewise&rdquo; signals similarity between two parallel items, but the third sentence is not a parallel idea&mdash;it is a specific illustration. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "f07570bb",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the logical relationship",
+      "content": "Sentence 2 makes a general claim: Siletz stories <em>support</em> the researchers&rsquo; belief about the shipwreck. Sentence 3 then names something specific those stories describe&mdash;beeswax washing ashore. The third sentence is an instance of the general claim, so the transition must introduce an example, not cause, contrast, or similarity."
+    },
+    {
+      "title": "Eliminate each wrong choice",
+      "content": "<ul><li><strong>\"For this reason,\"</strong>: &ldquo;For this reason&rdquo; signals that the beeswax stories were caused by the claim about support, which makes no sense. &#10007;</li><li><strong>\"For example,\"</strong>: &ldquo;For example&rdquo; introduces a specific instance of the general claim that Siletz stories support the researchers&rsquo; belief. &#10003;</li><li><strong>\"However,\"</strong>: &ldquo;However&rdquo; signals contrast, but the beeswax stories agree with, not contradict, the preceding claim. &#10007;</li><li><strong>\"Likewise,\"</strong>: &ldquo;Likewise&rdquo; signals similarity between two parallel items, but the third sentence is not a parallel idea&mdash;it is a specific illustration. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+    }
+  ]
+}

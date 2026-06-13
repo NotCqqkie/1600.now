@@ -9,7 +9,7 @@
     },
     {
       "title": "Read the coefficients and confirm by formula",
-      "content": "Expand directly:<br/>$$(a+\\frac{b}{2})^2=a^2+2a\\left(\\frac{b}{2}\\right)+\\left(\\frac{b}{2}\\right)^2=a^2+ab+\\frac{b^2}{4}$$<br/>Thus $p=1$, $q=1$, and $r=\\frac{1}{4}$. Choice <strong>D</strong> is correct."
+      "content": "Expand directly:<br/>$$(a+\\frac{b}{2})^2=a^2+2a\\left(\\frac{b}{2}\\right)+\\left(\\frac{b}{2}\\right)^2=a^2+ab+\\frac{b^2}{4}$$<br/>Thus $p=1$, $q=1$, and $r=\\frac{1}{4}$. <strong>D</strong> is correct."
     }
   ]
 }

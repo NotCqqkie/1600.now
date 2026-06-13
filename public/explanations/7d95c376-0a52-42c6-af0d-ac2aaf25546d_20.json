@@ -1,1 +1,15 @@
-{"questionId":"7d95c376-0a52-42c6-af0d-ac2aaf25546d_20","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank is a possessive that modifies 'contents.' Its antecedent is 'a social media post' &mdash; a singular noun phrase. The blank must be a singular possessive pronoun, not a contraction."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'their'</strong>: Plural possessive; the antecedent 'a social media post' is singular. &#10007;</li><li><strong>Choice B &mdash; 'its'</strong>: Singular possessive pronoun; agrees with the singular antecedent 'a social media post.' &#10003;</li><li><strong>Choice C &mdash; 'they&apos;re'</strong>: Contraction meaning 'they are'; cannot function as a possessive modifier. &#10007;</li><li><strong>Choice D &mdash; 'it&apos;s'</strong>: Contraction meaning 'it is'; cannot function as a possessive modifier. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "7d95c376-0a52-42c6-af0d-ac2aaf25546d_20",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank is a possessive that modifies 'contents.' Its antecedent is 'a social media post' &mdash; a singular noun phrase. The blank must be a singular possessive pronoun, not a contraction."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;their&rsquo;</strong>: Plural possessive; the antecedent 'a social media post' is singular. &#10007;</li><li><strong>Choice B &mdash; &lsquo;its&rsquo;</strong>: Singular possessive pronoun; agrees with the singular antecedent 'a social media post.' &#10003;</li><li><strong>Choice C &mdash; &lsquo;they're&rsquo;</strong>: Contraction meaning 'they are'; cannot function as a possessive modifier. &#10007;</li><li><strong>Choice D &mdash; &lsquo;it's&rsquo;</strong>: Contraction meaning 'it is'; cannot function as a possessive modifier. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

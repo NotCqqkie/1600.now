@@ -13,7 +13,7 @@
     },
     {
       "title": "Solve for k",
-      "content": "Since $a$ and $b$ are positive, $ab\\ne0$, so divide both sides by $ab$:<br/>$$k=\\frac{1}{57}$$<br/>That matches choice A, so <strong>A</strong> is correct."
+      "content": "Since $a$ and $b$ are positive, $ab\\ne0$, so divide both sides by $ab$:<br/>$$k=\\frac{1}{57}$$<br/>This matches, so <strong>A</strong> is correct."
     },
     {
       "title": "Check by factoring",

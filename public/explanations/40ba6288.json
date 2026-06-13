@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice B is $18$, so it is correct. Choice A uses $x-12$, choice C uses $x+12$, and choice D uses $3x+12$."
+      "content": "$18$ is correct. Using $x-12$, $x+12$, or $3x+12$ would change the expression the question asks for instead of substituting $3x=30$ into $3x-12$."
     }
   ]
 }

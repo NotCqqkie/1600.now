@@ -9,7 +9,7 @@
     },
     {
       "title": "Factor and match to $k(6a+b)$",
-      "content": "$$\\frac{12a+2b}{24} = \\frac{2(6a+b)}{24} = \\frac{6a+b}{12} = \\frac{1}{12}(6a+b)$$<br/>So $k = \\dfrac{1}{12}$. That matches choice 1/12 - <strong>1/12</strong> is correct."
+      "content": "$$\\frac{12a+2b}{24} = \\frac{2(6a+b)}{24} = \\frac{6a+b}{12} = \\frac{1}{12}(6a+b)$$<br/>So $k = \\dfrac{1}{12}$. Therefore the value of $k$ is <strong>1/12</strong>."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId": "b35e2fdc", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the contrast between surface impression and actual complexity", "content": "The passage uses <em>but in fact</em> to signal a reversal. A casual description makes the work seem [blank], explained by the coffee-shop-painting example that <em>may not sound particularly ambitious</em>, then <em>but in fact</em> reveals the work is actually complex and serious.<br/><br/>The blank describes the false impression."}, {"title": "Identify which word names the false impression", "content": "<strong>Unassuming</strong> captures the modest, unimpressive quality that <em>may not sound particularly ambitious</em> describes. The other three either don't capture an understated impression or reverse the relationship. That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "b35e2fdc",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the contrast between surface impression and actual complexity",
+      "content": "The passage uses <em>but in fact</em> to signal a reversal. A casual description makes the work seem [blank], explained by the coffee-shop-painting example that <em>may not sound particularly ambitious</em>, then <em>but in fact</em> reveals the work is actually complex and serious.<br/><br/>The blank describes the false impression."
+    },
+    {
+      "title": "Identify which word names the false impression",
+      "content": "<strong>Unassuming</strong> captures the modest, unimpressive quality that <em>may not sound particularly ambitious</em> describes. The other three either don't capture an understated impression or reverse the relationship. That is the correct answer."
+    }
+  ]
+}

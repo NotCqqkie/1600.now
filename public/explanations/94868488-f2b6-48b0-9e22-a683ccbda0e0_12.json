@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; '$v=6t$'</strong>: ignores the starting 21 mL and uses the wrong rate. &#10007;</li><li><strong>Choice B &mdash; '$v=0.36t+21$'</strong>: rate 0.36 mL/s would mean 0.36&times;6=2.16 mL per drop, far too fast. &#10007;</li><li><strong>Choice C &mdash; '$v=0.01t+21$'</strong>: starts at 21 mL and adds 0.01 mL each second, matching the calculated rate. &#10003;</li><li><strong>Choice D &mdash; '$v=0.06t+21$'</strong>: uses 0.06 mL/s instead of 0.06 mL per 6 s &mdash; off by a factor of 6. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; $v=6t$</strong>: ignores the starting 21 mL and uses the wrong rate. &#10007;</li><li><strong>Choice B &mdash; $v=0.36t+21$</strong>: rate 0.36 mL/s would mean 0.36&times;6=2.16 mL per drop, far too fast. &#10007;</li><li><strong>Choice C &mdash; $v=0.01t+21$</strong>: starts at 21 mL and adds 0.01 mL each second, matching the calculated rate. &#10003;</li><li><strong>Choice D &mdash; $v=0.06t+21$</strong>: uses 0.06 mL/s instead of 0.06 mL per 6 s &mdash; off by a factor of 6. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
     }
   ]
 }

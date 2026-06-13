@@ -1,1 +1,15 @@
-{"questionId": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_3", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Plug in the value $x=7$", "content": "$f(x)=5x^2$, so $f(7)=5\\cdot 7^2 = 5\\cdot 49 = 245$."}, {"title": "Match the answer", "content": "$f(7)=245$.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_3",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Plug in the value $x=7$",
+      "content": "$f(x)=5x^2$, so $f(7)=5\\cdot 7^2 = 5\\cdot 49 = 245$."
+    },
+    {
+      "title": "Match the answer",
+      "content": "$f(7)=245$. The exponent applies to 7 before multiplication by 5, so the value is $5(49)$, not $(5\\cdot 7)^2$ or $5\\cdot 14$.<br/><br/>That matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

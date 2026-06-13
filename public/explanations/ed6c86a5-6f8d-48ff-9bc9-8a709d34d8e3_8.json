@@ -17,7 +17,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li>A) $f(t)=-16(t+268)^{2}-3$ &mdash; vertex would be $(-268,-3)$, not $(3,268)$. Eliminate.</li><li>B) $f(t)=-16(t-268)^{2}+3$ &mdash; vertex would be $(268,3)$, not $(3,268)$. Eliminate.</li><li>C) $f(t)=-16(t+3)^{2}-268$ &mdash; vertex would be $(-3,-268)$, a minimum below ground. Eliminate.</li><li>D) $f(t)=-16(t-3)^{2}+268$ &mdash; vertex $(3,268)$ and $f(0)=124$. Keep.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "content": "<ul><li>A) $f(t)=-16(t+268)^{2}-3$ &mdash; vertex would be $(-268,-3)$, not $(3,268)$. Eliminate.</li><li>B) $f(t)=-16(t-268)^{2}+3$ &mdash; vertex would be $(268,3)$, not $(3,268)$. Eliminate.</li><li>C) $f(t)=-16(t+3)^{2}-268$ &mdash; vertex would be $(-3,-268)$, a minimum below ground. Eliminate.</li><li>D) $f(t)=-16(t-3)^{2}+268$ &mdash; vertex $(3,268)$ and $f(0)=124$. Keep.</li></ul>That matches the correct answer — <strong>D</strong> is correct."
     }
   ]
 }

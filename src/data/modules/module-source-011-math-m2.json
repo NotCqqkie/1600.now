@@ -146,11 +146,11 @@
     "choices": [
       {
         "label": "A",
-        "text": "$y>4x+3$"
+        "text": "$y \\gt 4x+3$"
       },
       {
         "label": "B",
-        "text": "$y>4x-3$"
+        "text": "$y \\gt 4x-3$"
       },
       {
         "label": "C",
@@ -234,7 +234,7 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
-    "rationale": "Choice C is correct. Let <em>a</em> equal the number of 120-pound packages, and let <em>b</em> equal the number of 100-pound packages. It's given that the total weight of the packages can be at most 1,100 pounds: the inequality $120a + 100b \\leq 1,100$ represents this situation. It's also given that the helicopter must carry at least 10 packages: the inequality $a + b \\geq 10$ represents this situation. Values of <em>a</em> and <em>b</em> that satisfy these two inequalities represent the allowable numbers of 120-pound packages and 100-pound packages the helicopter can transport. To maximize the number of 120-pound packages, <em>a</em>, in the helicopter, the number of 100-pound packages, <em>b</em>, in the helicopter needs to be minimized. Expressing <em>b</em> in terms of <em>a</em> in the second inequality yields $b \\geq 10 - a$, so the minimum value of <em>b</em> is equal to $10 - a$. Substituting $10 - a$ for <em>b</em> in the first inequality results in $120a + 100(10 - a) \\leq 1,100$. Using the distributive property to rewrite this inequality yields $120a + 1,000 - 100a \\leq 1,100$, or $20a + 1,000 \\leq 1,100$. Subtracting 1,000 from both sides of this inequality yields $20a \\leq 100$. Dividing both sides of this inequality by 20 results in $a \\leq 5$. This means that the maximum number of 120-pound packages that the helicopter can carry per trip is 5.\nChoices A, B, and D are incorrect and may result from incorrectly creating or solving the system of inequalities.",
+    "rationale": "Choice C is correct. Let <em>a</em> equal the number of 120-pound packages, and let <em>b</em> equal the number of 100-pound packages. It's given that the total weight of the packages can be at most 1,100 pounds: the inequality $120a + 100b \\leq 1100$ represents this situation. It's also given that the helicopter must carry at least 10 packages: the inequality $a + b \\geq 10$ represents this situation. Values of <em>a</em> and <em>b</em> that satisfy these two inequalities represent the allowable numbers of 120-pound packages and 100-pound packages the helicopter can transport. To maximize the number of 120-pound packages, <em>a</em>, in the helicopter, the number of 100-pound packages, <em>b</em>, in the helicopter needs to be minimized. Expressing <em>b</em> in terms of <em>a</em> in the second inequality yields $b \\geq 10 - a$, so the minimum value of <em>b</em> is equal to $10 - a$. Substituting $10 - a$ for <em>b</em> in the first inequality results in $120a + 100(10 - a) \\leq 1100$. Using the distributive property to rewrite this inequality yields $120a + 1000 - 100a \\leq 1100$, or $20a + 1000 \\leq 1100$. Subtracting 1,000 from both sides of this inequality yields $20a \\leq 100$. Dividing both sides of this inequality by 20 results in $a \\leq 5$. This means that the maximum number of 120-pound packages that the helicopter can carry per trip is 5.\nChoices A, B, and D are incorrect and may result from incorrectly creating or solving the system of inequalities.",
     "id": "f224df07"
   },
   {
@@ -330,7 +330,7 @@
     "difficulty": "Hard",
     "question_number": 11,
     "test_name": "Module Source 011 Math M2",
-    "passage": "$x - a = (x - a)(x - 24)$\nWhich of the following are solutions to the given equation, where $a$ is a constant and $a > 25$?\nI. $a$\nII. $24$\nIII. $25$",
+    "passage": "$x - a = (x - a)(x - 24)$\nWhich of the following are solutions to the given equation, where $a$ is a constant and $a \\gt 25$?\nI. $a$\nII. $24$\nIII. $25$",
     "question_text": null,
     "choices": [
       {
@@ -536,7 +536,7 @@
     "difficulty": "Medium",
     "question_number": 17,
     "test_name": "Module Source 011 Math M2",
-    "passage": "For what value of $x$ is the given expression $\\sqrt{117n}(\\sqrt{117n})^{2}$ equivalent to $(117n)^{12x}$, where $n > 1$?",
+    "passage": "For what value of $x$ is the given expression $\\sqrt{117n}(\\sqrt{117n})^{2}$ equivalent to $(117n)^{12x}$, where $n \\gt 1$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

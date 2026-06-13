@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the decay formula to solve for p",
-      "content": "A yearly decrease of $p\\%$ means the value is multiplied by $(1 - \\frac{p}{100})$ each year. Setting this equal to the decay factor:<br/>$$1 - \\frac{p}{100} = 0.28$$<br/>$$\\frac{p}{100} = 0.72$$<br/>$$p = 72$$<br/>That matches choice D — <strong>D</strong> is correct."
+      "content": "A yearly decrease of $p\\%$ means the value is multiplied by $(1 - \\frac{p}{100})$ each year. Setting this equal to the decay factor:<br/>$$1 - \\frac{p}{100} = 0.28$$<br/>$$\\frac{p}{100} = 0.72$$<br/>$$p = 72$$<br/>That matches <strong>Choice D &mdash; 72</strong>."
     }
   ]
 }

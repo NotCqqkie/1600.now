@@ -13,7 +13,7 @@
     },
     {
       "title": "Eliminate the other choices",
-      "content": "<ul><li>A: $f(x)=(x-24)(x-30)+4$ gives $f(24)=4\\neq-8$. Eliminated.</li><li>B: $f(x)=(x-24)(x-30)-8$ gives $f(24)=-8$, $f(30)=-8$, $f(32)=8$. All match.</li><li>C: $f(x)=(x-8)(x-32)+32$ gives $f(24)=(16)(-8)+32=-96\\neq-8$. Eliminated.</li><li>D: $f(x)=(x-8)(x-32)-32$ gives $f(24)=(16)(-8)-32=-160\\neq-8$. Eliminated.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "<ul><li>A: $f(x)=(x-24)(x-30)+4$ gives $f(24)=4\\neq-8$. Eliminated.</li><li>B: $f(x)=(x-24)(x-30)-8$ gives $f(24)=-8$, $f(30)=-8$, $f(32)=8$. All match.</li><li>C: $f(x)=(x-8)(x-32)+32$ gives $f(24)=(16)(-8)+32=-96\\neq-8$. Eliminated.</li><li>D: $f(x)=(x-8)(x-32)-32$ gives $f(24)=(16)(-8)-32=-160\\neq-8$. Eliminated.</li></ul>That is the correct answer."
     }
   ]
 }

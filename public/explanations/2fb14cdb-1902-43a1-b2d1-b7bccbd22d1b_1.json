@@ -9,7 +9,7 @@
     },
     {
       "title": "Evaluate",
-      "content": "$19-4=15$, so $g(4)=15$. That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "$19-4=15$, so $g(4)=15$. <strong>B</strong> is correct. The input replaces only the variable $x$; the constant 19 stays fixed in the expression."
     }
   ]
 }

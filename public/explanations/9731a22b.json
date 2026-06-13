@@ -1,1 +1,15 @@
-{"questionId": "9731a22b", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the geographic assumption reveals", "content": "The fact that paleontologists assumed <strong>titanosaurs migrated south to lay eggs</strong> only makes sense if previously known sites existed in the south, not the north. The passage explicitly states there was a <strong>previous lack of known nesting sites in northern regions</strong>."}, {"title": "Connect the location to the known geography", "content": "<strong>D</strong> directly applies the geographic logic: with no known sites in the north and scientists assuming southward migration, the northern site must be farther north than any other known site in South America.<br/><br/>The other three either assert temporal primacy, invent excavation complexity, or discuss organisms absent from the text.<br/><br/>That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "9731a22b",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the geographic assumption reveals",
+      "content": "The fact that paleontologists assumed <strong>titanosaurs migrated south to lay eggs</strong> only makes sense if previously known sites existed in the south, not the north. The passage explicitly states there was a <strong>previous lack of known nesting sites in northern regions</strong>."
+    },
+    {
+      "title": "Connect the location to the known geography",
+      "content": "<strong>D</strong> directly applies the geographic logic: with no known sites in the north and scientists assuming southward migration, the northern site must be farther north than any other known site in South America.<br/><br/>The other three either assert temporal primacy, invent excavation complexity, or discuss organisms absent from the text.<br/><br/>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

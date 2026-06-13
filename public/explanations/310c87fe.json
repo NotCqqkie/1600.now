@@ -10,7 +10,7 @@
     },
     {
       "title": "Calculate the volume using the side length",
-      "content": "With side length $s = 3$ meters, we calculate: $$V = 3^3 = 27 \\text{ cubic meters}$$ That matches choice B — <strong>B</strong> is correct.",
+      "content": "With side length $s = 3$ meters, we calculate: $$V = 3^3 = 27 \\text{ cubic meters}$$ <strong>B</strong> is correct.",
       "formula": "$$V = s^3$$"
     }
   ]

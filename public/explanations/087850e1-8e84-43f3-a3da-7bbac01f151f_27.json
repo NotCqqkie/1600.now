@@ -1,1 +1,15 @@
-{"questionId": "087850e1-8e84-43f3-a3da-7bbac01f151f_27", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the goal", "content": "The student wants to compare the curviness of the two rivers—not just explain what curviness is or how to calculate it, but state which one is actually curvier."}, {"title": "Apply the goal to the choices", "content": "Choice B directly compares the two rivers' sinuosity ratios, stating that the Embarras River's is greater than the Luni River's.<br/><br/>The other three either reverse the rivers' sinuosity categories, explain the concept without comparing the rivers themselves, or describe the calculation method without performing the comparison.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "087850e1-8e84-43f3-a3da-7bbac01f151f_27",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the goal",
+      "content": "The student wants to compare the curviness of the two rivers—not just explain what curviness is or how to calculate it, but state which one is actually curvier."
+    },
+    {
+      "title": "Apply the goal to the choices",
+      "content": "<strong>Choice B &mdash; The Embarras River's ratio of stream length to valley length, also known as sinuosity, is greater than that of the Luni River.</strong> directly compares the two rivers' sinuosity ratios, stating that the Embarras River's is greater than the Luni River's.<br/><br/>The other three either reverse the rivers' sinuosity categories, explain the concept without comparing the rivers themselves, or describe the calculation method without performing the comparison.<br/><br/>That matches <strong>Choice B &mdash; The Embarras River's ratio of stream length to valley length, also known as sinuosity, is greater than that of the Luni River.</strong>."
+    }
+  ]
+}

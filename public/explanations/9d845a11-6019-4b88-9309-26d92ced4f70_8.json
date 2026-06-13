@@ -17,7 +17,7 @@
     },
     {
       "title": "Match to the choices",
-      "content": "<ul><li>A: $30(24x+1)$ &mdash; expands to $720x + 30 \\neq 30x + 42$. Eliminated.</li><li>B: $42(30x+1)$ &mdash; expands to $1260x + 42 \\neq 30x + 42$. Eliminated.</li><li>C: $6(24x+36)$ &mdash; expands to $144x + 216 \\neq 30x + 42$. Eliminated.</li><li>D: $6(5x+7)$ &mdash; expands to $30x + 42$. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
+      "content": "<ul><li>A: ${30}(24x+1)$ &mdash; expands to $720x + 30 \\neq 30x + 42$. Eliminated.</li><li>B: ${42}(30x+1)$ &mdash; expands to $1260x + 42 \\neq 30x + 42$. Eliminated.</li><li>C: ${6}(24x+36)$ &mdash; expands to $144x + 216 \\neq 30x + 42$. Eliminated.</li><li>D: ${6}(5x+7)$ &mdash; expands to $30x + 42$. That confirms <strong>D</strong> is correct.</li></ul>"
     }
   ]
 }

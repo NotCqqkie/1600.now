@@ -1,1 +1,15 @@
-{"questionId": "02871a0d", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the clause structure and sentence type", "content": "The blank must complete a relative clause that modifies <em>iron gates</em>. This sentence is a complete declarative statement about the sculpture's pattern."}, {"title": "Apply the sentence punctuation and clause word order rules", "content": "Declarative sentences end with periods (not question marks), and relative clauses with omitted relative pronouns must use normal word order. “Soto would see in her neighborhood.” ends the sentence with a period and maintains normal word order in the relative clause.<br/><br/>Choices A and D violate the punctuation rule (using question marks instead of periods), and choice C violates the word order rule (inverting instead of normal order).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "02871a0d",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the clause structure and sentence type",
+      "content": "The blank must complete a relative clause that modifies <em>iron gates</em>. This sentence is a complete declarative statement about the sculpture's pattern."
+    },
+    {
+      "title": "Apply the sentence punctuation and clause word order rules",
+      "content": "Declarative sentences end with periods (not question marks), and relative clauses with omitted relative pronouns must use normal word order. “Soto would see in her neighborhood.” ends the sentence with a period and maintains normal word order in the relative clause.<br/><br/>Choices A and D violate the punctuation rule (using question marks instead of periods), and <strong>Choice C &mdash; would Soto see in her neighborhood.</strong> violates the word order rule (inverting instead of normal order).<br/><br/>That matches <strong>Choice B &mdash; Soto would see in her neighborhood.</strong>."
+    }
+  ]
+}

@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Set up the system of equations",
-      "content": "Let $a$ = number of adult tickets and $c$ = number of child tickets. The problem gives us two constraints: the total number of tickets is 30, and the total revenue is \\$300.<br/>$$a + c = 30$$<br/>$$12a + 8c = 300$$"
+      "content": "Let $a$ = number of adult tickets and $c$ = number of child tickets. The problem gives us two constraints: the total number of tickets is 30, and the total revenue is 300 dollars.<br/>$$a + c = 30$$<br/>$$12a + 8c = 300$$"
     },
     {
       "title": "Solve for the number of adult tickets using substitution",

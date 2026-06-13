@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate all choices",
-      "content": "<ul><li><strong>Choice A &mdash; '$y = 22 + 5$'</strong>: Adding the number of days to the pounds has no meaning here — the total is 22 pounds, not 27. &#10007;</li><li><strong>Choice B &mdash; '$y = 22$'</strong>: The polar bear ate exactly 22.0 pounds total over the 5 days — $y$ equals that constant. &#10003;</li><li><strong>Choice C &mdash; '$y = \\frac{22}{5}$'</strong>: This gives the average per day (4.4 lb/day), but $y$ represents the total over all 5 days, not the daily rate. &#10007;</li><li><strong>Choice D &mdash; '$y = 5$'</strong>: 5 is the number of days, not the amount of fat eaten. &#10007;</li></ul>That matches choice B — <strong>B</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; $y = 22 + 5$</strong>: Adding the number of days to the pounds has no meaning here — the total is 22 pounds, not 27. &#10007;</li><li><strong>Choice B &mdash; $y = 22$</strong>: The polar bear ate exactly 22.0 pounds total over the 5 days — $y$ equals that constant. &#10003;</li><li><strong>Choice C &mdash; $y = \\frac{22}{5}$</strong>: This gives the average per day (4.4 lb/day), but $y$ represents the total over all 5 days, not the daily rate. &#10007;</li><li><strong>Choice D &mdash; $y = 5$</strong>: 5 is the number of days, not the amount of fat eaten. &#10007;</li></ul>That is the correct answer."
     }
   ]
 }

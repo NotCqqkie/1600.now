@@ -9,7 +9,7 @@
     },
     {
       "title": "Calculate probability and simplify",
-      "content": "Set up the probability fraction using favorable outcomes over total outcomes:<br/>$$P = \\frac{11}{77}$$<br/>Simplify by dividing both numerator and denominator by 11:<br/>$$P = \\frac{1}{7}$$<br/>That matches choice D — <strong>D</strong> is correct.",
+      "content": "Set up the probability fraction using favorable outcomes over total outcomes:<br/>$$P = \\frac{11}{77}$$<br/>Simplify by dividing both numerator and denominator by 11:<br/>$$P = \\frac{1}{7}$$<br/>That matches <strong>Choice D &mdash; $\\frac{1}{7}$</strong>.",
       "formula": "$$P = \\frac{\\text{favorable outcomes}}{\\text{total outcomes}}$$"
     }
   ]

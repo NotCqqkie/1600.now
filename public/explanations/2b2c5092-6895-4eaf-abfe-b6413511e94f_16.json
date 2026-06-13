@@ -1,1 +1,15 @@
-{"questionId": "2b2c5092-6895-4eaf-abfe-b6413511e94f_16", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal in the research finding", "content": "The research finding is that <em>democratic strength, if associated with low inequality, restrains inflationary pressures</em>. This directly contradicts the initial speculation prompted by the Mongolia-Cameroon comparison—that democracy inhibits inflation control."}, {"title": "Apply the signal to the choices", "content": "Choice A states directly that it would be a mistake to treat the Mongolia-Cameroon case as evidence that democracy inhibits inflation, which follows from the finding that democracy with low inequality actually restrains inflation.<br/><br/>The other three appeal to measurement error or mischaracterize the inequality relationship, sidestepping the core contradiction.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "2b2c5092-6895-4eaf-abfe-b6413511e94f_16",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal in the research finding",
+      "content": "The research finding is that <em>democratic strength, if associated with low inequality, restrains inflationary pressures</em>. This directly contradicts the initial speculation prompted by the Mongolia-Cameroon comparison—that democracy inhibits inflation control."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "<strong>Choice A &mdash; it would be a mistake to treat the relative inflation rates of Mongolia and Cameroon as indicative of an inherent shortcoming in democratic institutions with regard to control over inflation.</strong> states directly that it would be a mistake to treat the Mongolia-Cameroon case as evidence that democracy inhibits inflation, which follows from the finding that democracy with low inequality actually restrains inflation.<br/><br/>The other three appeal to measurement error or mischaracterize the inequality relationship, sidestepping the core contradiction.<br/><br/>That matches <strong>Choice A &mdash; it would be a mistake to treat the relative inflation rates of Mongolia and Cameroon as indicative of an inherent shortcoming in democratic institutions with regard to control over inflation.</strong>."
+    }
+  ]
+}

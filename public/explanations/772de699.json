@@ -13,7 +13,7 @@
     },
     {
       "title": "Compare with each choice",
-      "content": "<ul><li><strong>A) $23x(x^2+2x+9)$:</strong> distributes to $23x^3+46x^2+207x$, not the original. &cross;</li><li><strong>B) $9x(23x^3+2x^2+1)$:</strong> distributes to $207x^4+18x^3+9x$, which has an $x^4$ term. &cross;</li><li><strong>C) $x(23x^2+2x+9)$:</strong> distributes to $23x^3+2x^2+9x$. &check;</li><li><strong>D) $34(x^3+x^2+x)$:</strong> distributes to $34x^3+34x^2+34x$, wrong coefficients. &cross;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+      "content": "<ul><li><strong>A) $23x(x^2+2x+9)$:</strong> distributes to $23x^3+46x^2+207x$, not the original. &cross;</li><li><strong>B) $9x(23x^3+2x^2+1)$:</strong> distributes to $207x^4+18x^3+9x$, which has an $x^4$ term. &cross;</li><li><strong>C) $x(23x^2+2x+9)$:</strong> distributes to $23x^3+2x^2+9x$. &check;</li><li><strong>D) $34(x^3+x^2+x)$:</strong> distributes to $34x^3+34x^2+34x$, wrong coefficients. &cross;</li></ul>That confirms <strong>C</strong> is correct."
     }
   ]
 }

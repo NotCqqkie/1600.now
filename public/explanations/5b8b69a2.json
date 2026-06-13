@@ -1,1 +1,15 @@
-{"questionId": "5b8b69a2", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Spot the key requirement", "content": "The task asks to <strong>summarize</strong> the kelp highway hypothesis — not just name it or describe supporting details. A summary of a theory must state what the theory claims, including its central mechanism, not just its context or consequences."}, {"title": "Apply the requirement to the choices", "content": "Choice C states the complete hypothesis: humans arrived by sea, traveled between Pacific islands and coastlines, and subsisted on available resources.<br/><br/>This is the only choice that includes all three components of the claim.<br/><br/>Choices A, B, and D either focus on one supporting detail, merely name the hypothesis, or describe what happened to the landscape afterward.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "5b8b69a2",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the key requirement",
+      "content": "The task asks to <strong>summarize</strong> the kelp highway hypothesis — not just name it or describe supporting details. A summary of a theory must state what the theory claims, including its central mechanism, not just its context or consequences."
+    },
+    {
+      "title": "Apply the requirement to the choices",
+      "content": "Choice C (&lsquo;Humans may have first arrived in the Americas by sea, traveling between Pacific Ocean islands and coastlines and subsisting on a variety of resources.&rsquo;) states the complete hypothesis: humans arrived by sea, traveled between Pacific islands and coastlines, and subsisted on available resources.<br/><br/>This is the only choice that includes all three components of the claim.<br/><br/>The other choices either focus on one supporting detail, merely name the hypothesis or describe what happened to the landscape afterward.<br/><br/>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

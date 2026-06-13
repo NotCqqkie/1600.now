@@ -1,1 +1,15 @@
-{"questionId": "79e14849-3cb1-4f8b-8803-beaa05c64842_3", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the reasoning process described in the passage", "content": "The key detail is that subjects imagined where the ball &ldquo;would have gone if the ball that altered its path did not exist.&rdquo; This is reasoning about an alternative reality &mdash; what would have happened under different conditions than what actually occurred. Each choice names a different cognitive process:<ul><li><strong>Choice A &mdash; &lsquo;ambivalent&rsquo;</strong>: means holding conflicting feelings about something &mdash; an emotional state, not a mode of causal reasoning. &#10007;</li><li><strong>Choice B &mdash; &lsquo;counterfactual&rsquo;</strong>: means imagining what would have happened if actual events had been different &mdash; exactly the mental simulation described. &#10003;</li><li><strong>Choice C &mdash; &lsquo;analogical&rsquo;</strong>: means reasoning by drawing comparisons between two similar situations; no comparison is being made here. &#10007;</li><li><strong>Choice D &mdash; &lsquo;associative&rsquo;</strong>: means linking concepts through learned associations; the subjects are not recalling associations but simulating an alternative outcome. &#10007;</li></ul>"}, {"title": "Confirm the answer", "content": "Only &ldquo;counterfactual&rdquo; captures the act of mentally simulating what would have occurred under different circumstances. That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "79e14849-3cb1-4f8b-8803-beaa05c64842_3",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the reasoning process described in the passage",
+      "content": "The key detail is that subjects imagined where the ball &ldquo;would have gone if the ball that altered its path did not exist.&rdquo; This is reasoning about an alternative reality &mdash; what would have happened under different conditions than what actually occurred. Each choice names a different cognitive process:<ul><li><strong>Choice A &mdash; &lsquo;ambivalent&rsquo;</strong>: means holding conflicting feelings about something &mdash; an emotional state, not a mode of causal reasoning. &#10007;</li><li><strong>Choice B &mdash; &lsquo;counterfactual&rsquo;</strong>: means imagining what would have happened if actual events had been different &mdash; exactly the mental simulation described. &#10003;</li><li><strong>Choice C &mdash; &lsquo;analogical&rsquo;</strong>: means reasoning by drawing comparisons between two similar situations; no comparison is being made here. &#10007;</li><li><strong>Choice D &mdash; &lsquo;associative&rsquo;</strong>: means linking concepts through learned associations; the subjects are not recalling associations but simulating an alternative outcome. &#10007;</li></ul>"
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "Only &ldquo;counterfactual&rdquo; captures the act of mentally simulating what would have occurred under different circumstances. That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

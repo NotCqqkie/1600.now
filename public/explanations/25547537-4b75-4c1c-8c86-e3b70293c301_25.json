@@ -1,1 +1,15 @@
-{"questionId": "25547537-4b75-4c1c-8c86-e3b70293c301_25", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The goal is to 'specify when al-Biruni published his landmass theory.' The relevant note is: al-Biruni published his landmass theory in 1037 CE. A correct answer must include the year 1037 CE and connect it clearly to the publication of the landmass theory."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'In 1037 CE, al-Biruni published his theory that a large landmass existed west of Europe and east of Asia.'</strong>: names the year 1037 CE and states that he published the landmass theory then. &#10003;</li><li><strong>Choice B &mdash; 'Al-Biruni, who studied Earth&apos;s physical features, published a theory about a large landmass.'</strong>: omits the year 1037 CE entirely. &#10007;</li><li><strong>Choice C &mdash; 'Al-Biruni was an Iranian scholar who studied Earth&apos;s physical features.'</strong>: does not mention the landmass theory or the publication date. &#10007;</li><li><strong>Choice D &mdash; 'An Iranian scholar who studied Earth&apos;s physical features, al-Biruni theorized that a large landmass existed west of Europe and east of Asia.'</strong>: describes the theory but omits when it was published. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "25547537-4b75-4c1c-8c86-e3b70293c301_25",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The goal is to 'specify when al-Biruni published his landmass theory.' The relevant note is: al-Biruni published his landmass theory in 1037 CE. A correct answer must include the year 1037 CE and connect it clearly to the publication of the landmass theory."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; In 1037 CE, al-Biruni published his theory that a large landmass existed west of Europe and east of Asia.</strong>: names the year 1037 CE and states that he published the landmass theory then. &#10003;</li><li><strong>Choice B &mdash; Al-Biruni, who studied Earth's physical features, published a theory about a large landmass.</strong>: omits the year 1037 CE entirely. &#10007;</li><li><strong>Choice C &mdash; Al-Biruni was an Iranian scholar who studied Earth's physical features.</strong>: does not mention the landmass theory or the publication date. &#10007;</li><li><strong>Choice D &mdash; An Iranian scholar who studied Earth's physical features, al-Biruni theorized that a large landmass existed west of Europe and east of Asia.</strong>: describes the theory but omits when it was published. &#10007;</li></ul>That matches <strong>Choice A &mdash; In 1037 CE, al-Biruni published his theory that a large landmass existed west of Europe and east of Asia.</strong>."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId":"61095ce3-05bf-46a1-a191-e8b52ec70c8e_14","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage says fish studies showed larger differences on average than bird studies, but in every animal class &mdash; including birds &mdash; some individual studies exceeded the fish average. The question asks what can be inferred."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A</strong>: introduces a detail not supported by the passage. &#10007;</li><li><strong>Choice B</strong>: contradicts the on-average finding for fish. &#10007;</li><li><strong>Choice C</strong>: makes an unsupported claim about Wysocki&apos;s specific study. &#10007;</li><li><strong>Choice D &mdash; some bird studies found larger effects than some fish studies</strong>: if some bird studies exceeded the fish average, they necessarily exceeded fish studies that fell below that average. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "61095ce3-05bf-46a1-a191-e8b52ec70c8e_14",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage says fish studies showed larger differences on average than bird studies, but in every animal class &mdash; including birds &mdash; some individual studies exceeded the fish average. The question asks what can be inferred."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;the studies in the meta-analysis that examined fish were more likely than those that examined birds to specify whether the observed effects were detrimental.&rsquo;</strong>: introduces a detail not supported by the passage. &#10007;</li><li><strong>Choice B &mdash; &lsquo;the differences that studies attribute to exposure to anthropogenic noise are likely to be more pronounced for birds than they are for fish.&rsquo;</strong>: contradicts the on-average finding for fish. &#10007;</li><li><strong>Choice C &mdash; &lsquo;the difference found in the study conducted by Lidia Eva Wysocki and colleagues was likely larger than the average difference for studies of common carp included in the meta-analysis.&rsquo;</strong>: makes an unsupported claim about Wysocki&apos;s specific study. &#10007;</li><li><strong>Choice D &mdash; &lsquo;some studies of birds found larger effects of exposure to anthropogenic noise than some studies of fish did.&rsquo;</strong>: if some bird studies exceeded the fish average, they necessarily exceeded fish studies that fell below that average. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

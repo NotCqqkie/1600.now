@@ -1,1 +1,15 @@
-{"questionId": "ecba68b5", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the subject and its number", "content": "The subject is &quot;Mathematician Grigori Perelman&quot; &mdash; a single person, therefore singular. The long phrase &quot;sometimes in conjunction with mathematicians Richard S. Hamilton and Shing-Tung Yau&quot; is a parenthetical modifier, not part of the subject. The verb must agree with the singular subject Perelman."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; 'are'</strong>: plural present verb; does not agree with the singular subject &quot;Mathematician Grigori Perelman.&quot; &#10007;</li><li><strong>Choice B &mdash; 'have been'</strong>: plural present-perfect verb; does not agree with the singular subject. &#10007;</li><li><strong>Choice C &mdash; 'are being'</strong>: plural present-progressive verb; does not agree with the singular subject. &#10007;</li><li><strong>Choice D &mdash; 'is'</strong>: singular present verb; agrees with the singular subject &quot;Mathematician Grigori Perelman.&quot; &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "ecba68b5",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the subject and its number",
+      "content": "The subject is \"Mathematician Grigori Perelman\" &mdash; a single person, therefore singular. The long phrase \"sometimes in conjunction with mathematicians Richard S. Hamilton and Shing-Tung Yau\" is a parenthetical modifier, not part of the subject. The verb must agree with the singular subject Perelman."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>\"are\"</strong>: plural present verb; does not agree with the singular subject \"Mathematician Grigori Perelman.\" &#10007;</li><li><strong>\"have been\"</strong>: plural present-perfect verb; does not agree with the singular subject. &#10007;</li><li><strong>\"are being\"</strong>: plural present-progressive verb; does not agree with the singular subject. &#10007;</li><li><strong>\"is\"</strong>: singular present verb; agrees with the singular subject \"Mathematician Grigori Perelman.\" &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

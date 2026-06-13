@@ -166,7 +166,7 @@
     "difficulty": "Medium",
     "question_number": 6,
     "test_name": "Module Source 036 Math M2",
-    "passage": "The graphs of $y=-3x+8$ and $y=x-4$ are shown. Point P (not shown) has coordinates $(3,-3)$ and lies in the shaded region. The coordinates of P satisfy which of the following inequalities?\nI. $y < -3x+8$\nII. $y > x-4$",
+    "passage": "The graphs of $y=-3x+8$ and $y=x-4$ are shown. Point P (not shown) has coordinates $(3,-3)$ and lies in the shaded region. The coordinates of P satisfy which of the following inequalities?\nI. $y \\lt -3x+8$\nII. $y \\gt x-4$",
     "question_text": null,
     "choices": [
       {
@@ -409,7 +409,7 @@
     "difficulty": "Medium",
     "question_number": 14,
     "test_name": "Module Source 036 Math M2",
-    "passage": "A book-of-the-month club charges \\$16 for the first book purchased during the month and an additional \\$12 for each book after the first. Which equation describes this situation, where $y$ is the total cost, in dollars, for books purchased during a month, $x$ is the number of books purchased during the month, and $x > 0$?",
+    "passage": "A book-of-the-month club charges \\$16 for the first book purchased during the month and an additional \\$12 for each book after the first. Which equation describes this situation, where $y$ is the total cost, in dollars, for books purchased during a month, $x$ is the number of books purchased during the month, and $x \\gt 0$?",
     "question_text": null,
     "choices": [
       {

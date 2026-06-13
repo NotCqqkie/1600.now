@@ -9,7 +9,7 @@
     },
     {
       "title": "Set the exponents equal",
-      "content": "Since $r^{42/a}$ must equal $r^{6/7}$ and $r > 1$, the exponents must be equal: $$\\frac{42}{a} = \\frac{6}{7}$$"
+      "content": "Since $r^{42/a}$ must equal $r^{6/7}$ and $r \\gt 1$, the exponents must be equal: $$\\frac{42}{a} = \\frac{6}{7}$$"
     },
     {
       "title": "Solve for a",

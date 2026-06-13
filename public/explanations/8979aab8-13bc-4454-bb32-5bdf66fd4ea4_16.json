@@ -1,1 +1,15 @@
-{"questionId":"8979aab8-13bc-4454-bb32-5bdf66fd4ea4_16","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question tests pronoun-antecedent agreement. A participial phrase opens the sentence, so the blank must be the subject of the main clause — a pronoun that refers back to the singular noun \"the song\" from the previous sentence."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'those'</strong>: plural demonstrative pronoun; violates number agreement with singular antecedent \"the song.\" &#10007;</li><li><strong>Choice B &mdash; 'they'</strong>: third-person plural pronoun; violates number agreement with singular antecedent \"the song.\" &#10007;</li><li><strong>Choice C &mdash; 'each'</strong>: refers to individual members of a group, not to a single named noun; does not function as a pronoun for \"the song.\" &#10007;</li><li><strong>Choice D &mdash; 'it'</strong>: singular third-person pronoun; correctly agrees in number with singular antecedent \"the song.\" &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_16",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question tests pronoun-antecedent agreement. A participial phrase opens the sentence, so the blank must be the subject of the main clause — a pronoun that refers back to the singular noun \"the song\" from the previous sentence."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; those</strong>: plural demonstrative pronoun; violates number agreement with singular antecedent \"the song.\" &#10007;</li><li><strong>Choice B &mdash; they</strong>: third-person plural pronoun; violates number agreement with singular antecedent \"the song.\" &#10007;</li><li><strong>Choice C &mdash; each</strong>: refers to individual members of a group, not to a single named noun; does not function as a pronoun for \"the song.\" &#10007;</li><li><strong>Choice D &mdash; it</strong>: singular third-person pronoun; correctly agrees in number with singular antecedent \"the song.\" &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

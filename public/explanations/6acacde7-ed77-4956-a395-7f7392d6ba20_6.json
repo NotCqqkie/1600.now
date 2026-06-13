@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "That expression matches choice A exactly. Choice D is close but has an extra $-4$ constant. Choice <strong>A</strong> is correct."
+      "content": "That expression confirms <strong>A</strong> exactly. Choice D (&lsquo;$t^{4}+3t^{3}-13t^{2}+4t-4$&rsquo;) is close but has an extra $-4$ constant. <strong>A</strong> is correct."
     }
   ]
 }

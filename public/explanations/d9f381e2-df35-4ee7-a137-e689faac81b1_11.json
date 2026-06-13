@@ -1,1 +1,15 @@
-{"questionId": "d9f381e2-df35-4ee7-a137-e689faac81b1_11", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the key claim", "content": "Núñez and colleagues claim that making temporal distinctions along imagined linear axes is not ubiquitous."}, {"title": "Apply the claim to the choices", "content": "Choice B shows Yupno speakers using the uphill/downhill axis for future gestures, which demonstrates they do not rely on a left/right axis for time.<br/><br/>The other choices either describe gesture frequency, hand preference, or shared grammar, none of which address whether the Yupno use a different spatial axis for time.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "d9f381e2-df35-4ee7-a137-e689faac81b1_11",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key claim",
+      "content": "Núñez and colleagues claim that making temporal distinctions along imagined linear axes is not ubiquitous."
+    },
+    {
+      "title": "Apply the claim to the choices",
+      "content": "<strong>When outdoors and referring to the future, Yupno speakers facing uphill gesture in front of themselves, whereas those facing downhill gesture behind themselves.</strong> shows Yupno speakers using the uphill/downhill axis for future gestures, which demonstrates they do not rely on a left/right axis for time.<br/><br/>The other choices either describe gesture frequency, hand preference, or shared grammar, none of which address whether the Yupno use a different spatial axis for time.<br/><br/>That matches the correct answer — <strong>B</strong> is correct."
+    }
+  ]
+}

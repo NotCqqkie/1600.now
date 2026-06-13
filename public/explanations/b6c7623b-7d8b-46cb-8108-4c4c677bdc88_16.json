@@ -1,1 +1,15 @@
-{"questionId": "b6c7623b-7d8b-46cb-8108-4c4c677bdc88_16", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the structures on each side of the punctuation", "content": "On the left of the punctuation choice: “significance” serves as the object of the verb “held” in a relative clause. On the right: “depictions of birds, horses, and other animals” is a noun phrase that is coordinate with the preceding content in a larger series."}, {"title": "Apply the rule for series punctuation", "content": "A semicolon separates complex items in a series, and here it correctly marks the boundary between the first item (“patterns which held symbolic significance”) and the second item (“depictions of birds, horses, and other animals”).<br/><br/>The comma in option B blurs this boundary, the period in option C inappropriately fragments the list, and the colon in option D suggests elaboration rather than separation.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "b6c7623b-7d8b-46cb-8108-4c4c677bdc88_16",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the structures on each side of the punctuation",
+      "content": "On the left of the punctuation choice: “significance” serves as the object of the verb “held” in a relative clause. On the right: “depictions of birds, horses, and other animals” is a noun phrase that is coordinate with the preceding content in a larger series."
+    },
+    {
+      "title": "Apply the rule for series punctuation",
+      "content": "A semicolon separates complex items in a series, and here it correctly marks the boundary between the first item (“patterns which held symbolic significance”) and the second item (“depictions of birds, horses, and other animals”).<br/><br/>The comma blurs this boundary, the period inappropriately fragments the list, and the colon suggests elaboration rather than separation.<br/><br/>That is the correct answer."
+    }
+  ]
+}

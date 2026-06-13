@@ -1,1 +1,15 @@
-{"questionId":"6172d662-f820-4d74-acac-4b49873dfc8f_13","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage concludes that Stobbe had better-explained methodology than Streicher-Porte. The passage defines &quot;better explained methodology&quot; through traceability scores — how clearly procedures are described. To weaken the conclusion, a choice must show Stobbe's traceability was not higher."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; Stobbe had lower traceability than Streicher-Porte</strong>: directly contradicts the conclusion — if Stobbe scored lower on the metric that defines &quot;better explained,&quot; the conclusion fails. &#10003;</li><li><strong>Choice B &mdash; Stobbe had higher traceability</strong>: supports the conclusion rather than weakening it. &#10007;</li><li><strong>Choice C &mdash; both had equal traceability</strong>: neutral at best; doesn't clearly undermine the claim. &#10007;</li><li><strong>Choice D &mdash; Stobbe scored higher on a different dimension</strong>: measures something other than the passage's stated metric. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "6172d662-f820-4d74-acac-4b49873dfc8f_13",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage concludes that Stobbe had better-explained methodology than Streicher-Porte. The passage defines &quot;better explained methodology&quot; through traceability scores — how clearly procedures are described. To weaken the conclusion, a choice must show Stobbe's traceability was not higher."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;The study by Stobbe had a lower traceability than the study by Streicher-Porte and colleagues did.&rsquo;</strong>: directly contradicts the conclusion — if Stobbe scored lower on the metric that defines &quot;better explained,&quot; the conclusion fails. &#10003;</li><li><strong>Choice B &mdash; &lsquo;The study by Stobbe had a high consistency rating and a high traceability rating.&rsquo;</strong>: supports the conclusion rather than weakening it. &#10007;</li><li><strong>Choice C &mdash; &lsquo;The study by Stobbe had a lower consistency rating than the study by Streicher-Porte and colleagues did.&rsquo;</strong>: neutral at best; doesn't clearly undermine the claim. &#10007;</li><li><strong>Choice D &mdash; &lsquo;The study by Streicher-Porte and colleagues had a medium consistency rating and a medium traceability rating.&rsquo;</strong>: measures something other than the passage's stated metric. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

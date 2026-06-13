@@ -1,1 +1,15 @@
-{"questionId": "84136d69", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the contrast pattern", "content": "The passage states that curtailments are named more often than efficiencies. The example given—19.6% of respondents saying “turn off the lights”—is a curtailment."}, {"title": "Find an efficiency action at a lower percentage", "content": "Choice D provides efficient light bulbs at 3.6%, an efficiency action that creates the downward contrast needed after the 19.6% curtailment example.<br/><br/>Choices A and B incorrectly pair actions with percentages from the table, and C presents another curtailment instead of an efficiency.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "84136d69",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the contrast pattern",
+      "content": "The passage states that curtailments are named more often than efficiencies. The example given—19.6% of respondents saying “turn off the lights”—is a curtailment."
+    },
+    {
+      "title": "Find an efficiency action at a lower percentage",
+      "content": "The correct answer provides efficient light bulbs at 3.6%, an efficiency action that creates the downward contrast needed after the 19.6% curtailment example.<br/><br/>Those choices incorrectly pair actions with percentages from the table, and C presents another curtailment instead of an efficiency.<br/><br/>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

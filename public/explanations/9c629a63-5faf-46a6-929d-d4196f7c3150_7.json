@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Recognize complementary angles",
-      "content": "The problem states $R + S = 90°$, so angles $R$ and $S$ are complementary. By the cofunction identity, when two angles sum to $90°$:<br/>$$\\sin(R) = \\cos(S)$$"
+      "content": "The problem states $R + S = 90^{\\circ}$, so angles $R$ and $S$ are complementary. By the cofunction identity, when two angles sum to $90^{\\circ}$:<br/>$$\\sin(R) = \\cos(S)$$"
     },
     {
       "title": "Apply the given sine value",
-      "content": "We're given $\\sin(R) = \\frac{4\\sqrt{2}}{9}$. Using the cofunction identity:<br/>$$\\cos(S) = \\frac{4\\sqrt{2}}{9}$$<br/>That matches choice A — <strong>A</strong> is correct."
+      "content": "We're given $\\sin(R) = \\frac{4\\sqrt{2}}{9}$. Using the cofunction identity:<br/>$$\\cos(S) = \\frac{4\\sqrt{2}}{9}$$<br/>That confirms <strong>A</strong> is correct."
     }
   ]
 }

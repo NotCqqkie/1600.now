@@ -1,1 +1,15 @@
-{"questionId":"fbffb352","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The student must emphasize a similarity between the Laas Geel paintings and the Dhagah Nabi Galay paintings. The decisive clue is that both sites appear in Horn Heritage's 3D scan project of ancient rock art in Somaliland."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'The earliest examples of writing in East Africa are thought to be featured in the paintings at the Dhagah Nabi Galay caves in Somaliland.'</strong>: Mentions only Dhagah Nabi Galay; never references Laas Geel, so no similarity is drawn. &#10007;</li><li><strong>Choice B &mdash; 'The paintings at the Dhagah Nabi Galay caves feature examples of writing, while those at the Laas Geel caves feature humans and animals.'</strong>: Explicitly contrasts the two sites on content, emphasizing a difference rather than a similarity. &#10007;</li><li><strong>Choice C &mdash; 'In Somaliland, the paintings in the Laas Geel caves feature human figures and animals.'</strong>: Mentions only Laas Geel; never references Dhagah Nabi Galay, so no similarity is drawn. &#10007;</li><li><strong>Choice D &mdash; 'The Laas Geel paintings and the Dhagah Nabi Galay paintings are both examples of ancient rock art found in Somaliland.'</strong>: Names both sites and states what they share &mdash; they are both ancient rock art in Somaliland. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "fbffb352",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The student must emphasize a similarity between the Laas Geel paintings and the Dhagah Nabi Galay paintings. The decisive clue is that both sites appear in Horn Heritage's 3D scan project of ancient rock art in Somaliland."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"The earliest examples of writing in East Africa are thought to be featured in the paintings at the Dhagah Nabi Galay caves in Somaliland.\"</strong>: Mentions only Dhagah Nabi Galay; never references Laas Geel, so no similarity is drawn. &#10007;</li><li><strong>\"The paintings at the Dhagah Nabi Galay caves feature examples of writing, while those at the Laas Geel caves feature humans and animals.\"</strong>: Explicitly contrasts the two sites on content, emphasizing a difference rather than a similarity. &#10007;</li><li><strong>\"In Somaliland, the paintings in the Laas Geel caves feature human figures and animals.\"</strong>: Mentions only Laas Geel; never references Dhagah Nabi Galay, so no similarity is drawn. &#10007;</li><li><strong>\"The Laas Geel paintings and the Dhagah Nabi Galay paintings are both examples of ancient rock art found in Somaliland.\"</strong>: Names both sites and states what they share &mdash; they are both ancient rock art in Somaliland. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

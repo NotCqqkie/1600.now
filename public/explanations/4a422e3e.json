@@ -1,18 +1,23 @@
 {
   "qid": "4a422e3e",
+  "questionId": "4a422e3e",
   "correctAnswer": "C",
   "steps": [
     {
-      "text": "Identify the sampling method: Tabitha surveyed 20 families at a playground. The target population is all households in the community, but the sample was drawn only from families at a playground."
+      "title": "Step 1",
+      "content": "Identify the sampling method: Tabitha surveyed 20 families at a playground. The target population is all households in the community, but the sample was drawn only from families at a playground."
     },
     {
-      "text": "Assess representativeness: families found at a playground are systematically more likely to have children than the average household in the community. Families without children, or families whose children are grown, are excluded. This is a non-random, location-based sample — a textbook case of selection bias."
+      "title": "Step 2",
+      "content": "Assess representativeness: families found at a playground are systematically more likely to have children than the average household in the community. Families without children, or families whose children are grown, are excluded. This is a non-random, location-based sample — a textbook case of selection bias."
     },
     {
-      "text": "Determine what &quot;must be true&quot;: the sampling method is structurally flawed (not random), and it is likely to overestimate the mean number of children because it over-represents households with children. A biased estimate is the predictable consequence."
+      "title": "Step 3",
+      "content": "Determine what &quot;must be true&quot;: the sampling method is structurally flawed (not random), and it is likely to overestimate the mean number of children because it over-represents households with children. A biased estimate is the predictable consequence."
     },
     {
-      "text": "Evaluate each choice:<ul><li>A: &quot;The mean number of children per household in the community is 2.4&quot; — we cannot conclude the population mean equals the sample mean from a biased sample. Eliminated.</li><li>B: &quot;Should not be made because the sample size is too small&quot; — sample size (20) is not the primary flaw here; the location bias is. This misstates the problem. Eliminated.</li><li>C: &quot;The sampling method is flawed and may produce a biased estimate&quot; — the playground-only sample is non-random and creates selection bias. This must be true. That matches choice C — <strong>C</strong> is correct.</li><li>D: &quot;The sampling method is not flawed and is likely to produce an unbiased estimate&quot; — directly contradicted by the location-based sampling. Eliminated.</li></ul>"
+      "title": "Step 4",
+      "content": "Evaluate each choice:<ul><li>A: &quot;The mean number of children per household in the community is 2.4&quot; — we cannot conclude the population mean equals the sample mean from a biased sample. Eliminated.</li><li>B: &quot;Should not be made because the sample size is too small&quot; — sample size (20) is not the primary flaw here; the location bias is. This misstates the problem. Eliminated.</li><li>C: &quot;The sampling method is flawed and may produce a biased estimate&quot; — the playground-only sample is non-random and creates selection bias. This must be true. <strong>C</strong> is correct.</li><li>D: &quot;The sampling method is not flawed and is likely to produce an unbiased estimate&quot; — directly contradicted by the location-based sampling. Eliminated.</li></ul>"
     }
   ]
 }

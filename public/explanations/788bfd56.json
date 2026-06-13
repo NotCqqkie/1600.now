@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice <strong>B</strong> is correct. The common trap is to mishandle the square root or evaluate the function at a different input; this question only asks for the value when $x=144$."
+      "content": "<strong>B</strong> is correct. The common trap is to mishandle the square root or evaluate the function at a different input; this question only asks for the value when $x=144$."
     }
   ]
 }

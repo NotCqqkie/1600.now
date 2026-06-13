@@ -1,1 +1,15 @@
-{"questionId":"caff462a-5a62-4fc6-ba41-dd82318ce399_10","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The word 'However' marks a pivot: the bird's specialization first appears beneficial (aids survival in its habitat) and then becomes a liability (makes it vulnerable to environmental change). The main idea must capture both sides of this trade-off."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; habitat sharing</strong>: contradicts the passage, which says nothing about sharing habitat. &#10007;</li><li><strong>Choice B &mdash; specialization only</strong>: ignores the vulnerability side of the trade-off entirely. &#10007;</li><li><strong>Choice C &mdash; highly specialized and therefore particularly susceptible to habitat disturbances</strong>: 'therefore' makes the causal link explicit — vulnerability flows directly from specialization. Captures both sides. &#10003;</li><li><strong>Choice D &mdash; inverts causality</strong>: implies disturbances cause specialization, reversing the passage's logic. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "caff462a-5a62-4fc6-ba41-dd82318ce399_10",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The word 'However' marks a pivot: the bird's specialization first appears beneficial (aids survival in its habitat) and then becomes a liability (makes it vulnerable to environmental change). The main idea must capture both sides of this trade-off."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; The <em>Kaua'i 'amakihi</em> is a species of bird that is related to many other Hawaiian birds but does not share a habitat with any of them.</strong>: contradicts the passage, which says nothing about sharing habitat. &#10007;</li><li><strong>Choice B &mdash; The <em>Kaua'i 'amakihi</em> is an example of a highly specialized bird species found only on the Hawaiian archipelago and is related to several other highly specialized bird species found there.</strong>: ignores the vulnerability side of the trade-off entirely. &#10007;</li><li><strong>Choice C &mdash; The <em>Kaua'i 'amakihi</em> is an example of a species unique to the Hawaiian archipelago that is highly specialized and therefore particularly susceptible to habitat disturbances.</strong>: 'therefore' makes the causal link explicit — vulnerability flows directly from specialization. Captures both sides. &#10003;</li><li><strong>Choice D &mdash; Hawaiian birds display a unique range of physical and behavioral characteristics and as a result can only live in habitats unique to the Hawaiian archipelago.</strong>: implies disturbances cause specialization, reversing the passage's logic. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

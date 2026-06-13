@@ -17,7 +17,7 @@
     },
     {
       "title": "Confirm the answer",
-      "content": "The missing table value is $37$, which matches choice <strong>B</strong>."
+      "content": "The missing table value is $37$, which matches <strong>B</strong>."
     }
   ]
 }

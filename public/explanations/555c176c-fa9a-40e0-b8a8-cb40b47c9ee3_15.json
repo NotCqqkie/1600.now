@@ -9,15 +9,15 @@
     },
     {
       "title": "Match the standard form",
-      "content": "Choice B is $5x+sy=18s$. Solving for $y$ gives $$sy=-5x+18s$$ $$y=-\\frac{5}{s}x+18.$$ Its slope is $-\\frac{5}{s}$."
+      "content": "The correct answer is $5x+sy=18s$. Solving for $y$ gives $$sy=-5x+18s$$ $$y=-\\frac{5}{s}x+18.$$ Its slope is $-\\frac{5}{s}$."
     },
     {
       "title": "Use the slope to find s",
-      "content": "The table's slope is $-\\frac{5}{2}$, so $-\\frac{5}{s}=-\\frac{5}{2}$ and $s=2$. Then choice B becomes $5x+2y=36$, or $y=-\\frac{5}{2}x+18$, which also fits $(2,13)$."
+      "content": "The table's slope is $-\\frac{5}{2}$, so $-\\frac{5}{s}=-\\frac{5}{2}$ and $s=2$. Then the correct answer becomes $5x+2y=36$, or $y=-\\frac{5}{2}x+18$, which also fits $(2,13)$."
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice B matches the slope and the table values, so <strong>B</strong> is correct."
+      "content": "The expression matches the slope and the table values, so <strong>B</strong> is correct."
     }
   ]
 }

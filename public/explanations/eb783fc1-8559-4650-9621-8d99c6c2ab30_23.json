@@ -1,1 +1,15 @@
-{"questionId": "eb783fc1-8559-4650-9621-8d99c6c2ab30_23", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The first sentence states a general principle about energy transferring across trophic levels. The sentence after the blank traces that principle through specific organisms — plants, herbivores, carnivores. The transition word must signal that the second sentence illustrates the first."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'Likewise'</strong>: signals similarity between two things of the same kind, not a general-to-specific illustration. &#10007;</li><li><strong>Choice B &mdash; 'However'</strong>: signals contrast or contradiction — the second sentence doesn&apos;t contradict the first. &#10007;</li><li><strong>Choice C &mdash; 'For example'</strong>: signals that what follows is a specific instance of the general principle just stated — exactly what the second sentence does. &#10003;</li><li><strong>Choice D &mdash; 'By contrast'</strong>: signals opposition — the second sentence supports, not opposes, the first. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "eb783fc1-8559-4650-9621-8d99c6c2ab30_23",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The first sentence states a general principle about energy transferring across trophic levels. The sentence after the blank traces that principle through specific organisms — plants, herbivores, carnivores. The transition word must signal that the second sentence illustrates the first."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"Likewise,\"</strong>: signals similarity between two things of the same kind, not a general-to-specific illustration. &#10007;</li><li><strong>\"However,\"</strong>: signals contrast or contradiction — the second sentence doesn't contradict the first. &#10007;</li><li><strong>\"For example,\"</strong>: signals that what follows is a specific instance of the general principle just stated — exactly what the second sentence does. &#10003;</li><li><strong>\"By contrast,\"</strong>: signals opposition — the second sentence supports, not opposes, the first. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+    }
+  ]
+}

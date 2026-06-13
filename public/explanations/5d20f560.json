@@ -1,1 +1,15 @@
-{"questionId": "5d20f560", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what outweighed credentials", "content": "The decisive clue is “outweighed by participants' views of the experiential relevance of the two types of messengers.” Participants clearly valued something about the messengers' relevance more than the doctors' status."}, {"title": "Apply the signal to the choices", "content": "Choice C states the mechanism directly: former trial volunteers went through clinical trials themselves (directly relevant to what participants face), while doctors only have credentials but lacked this personal experience.<br/><br/>This difference in experiential relevance—not a difference in credibility judgments—outweighed the doctors' expert status.<br/><br/>The other three focus on message tone (A), misrepresent what participants lack (B), or claim doubt toward expertise rather than prioritizing relevance (D).<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "5d20f560",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what outweighed credentials",
+      "content": "The decisive clue is “outweighed by participants' views of the experiential relevance of the two types of messengers.” Participants clearly valued something about the messengers' relevance more than the doctors' status."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "Choice C (&lsquo;the fact that former trial volunteers went through the same experience that participants were contemplating while doctors did not was more important to participants than the doctors' status as credentialed experts was.&rsquo;) states the mechanism directly: former trial volunteers went through clinical trials themselves (directly relevant to what participants face), while doctors only have credentials but lacked this personal experience.<br/><br/>This difference in experiential relevance—not a difference in credibility judgments—outweighed the doctors' expert status.<br/><br/>The other three focus on message tone, misrepresent what participants lack, or claim doubt toward expertise rather than prioritizing relevance.<br/><br/>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -13,7 +13,7 @@
     },
     {
       "title": "Calculate the probability and identify the answer",
-      "content": "Apply the probability formula:<br/>$$P(\\text{even and} \\leq 50) = \\frac{\\text{favorable outcomes}}{\\text{total outcomes}} = \\frac{25}{160}$$<br/>Reduce by dividing numerator and denominator by 5:<br/>$$\\frac{25}{160} = \\frac{5}{32}$$<br/>That matches choice A — <strong>A</strong> is correct."
+      "content": "Apply the probability formula:<br/>$$P(\\text{even and} \\leq 50) = \\frac{\\text{favorable outcomes}}{\\text{total outcomes}} = \\frac{25}{160}$$<br/>Reduce by dividing numerator and denominator by 5:<br/>$$\\frac{25}{160} = \\frac{5}{32}$$<br/>That confirms <strong>A</strong> is correct."
     }
   ]
 }

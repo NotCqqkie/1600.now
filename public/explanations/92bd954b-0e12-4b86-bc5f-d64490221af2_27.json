@@ -1,1 +1,15 @@
-{"questionId":"92bd954b-0e12-4b86-bc5f-d64490221af2_27","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The goal is to compare the hardness of talc and topaz specifically. A successful choice must mention both minerals and use the Mohs principle (scratching ability) to state which is harder."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Topaz can leave visible scratches on fluorite, which is why topaz has a higher number than fluorite on the Mohs scale of mineral hardness.'</strong>: Compares topaz and fluorite, not topaz and talc. Neither talc nor the talc-topaz comparison appears. &#10007;</li><li><strong>Choice B &mdash; 'The Mohs scale of mineral hardness can be used to order fluorite, talc, and topaz by their ability to scratch other minerals.'</strong>: Mentions all three minerals but makes no direct comparison between talc and topaz — it only says the scale can order them. The hardness comparison the student needs is absent. &#10007;</li><li><strong>Choice C &mdash; 'A mineral with a Mohs number of 4, like fluorite, is harder than one with a Mohs number of 1, like talc.'</strong>: Compares fluorite and talc, not topaz and talc. Topaz is not mentioned. &#10007;</li><li><strong>Choice D &mdash; 'Topaz can leave visible scratches on talc, which means that topaz is harder than talc.'</strong>: Directly names both target minerals, applies the Mohs scratching principle, and draws the hardness conclusion. This is the only choice that does all three. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "92bd954b-0e12-4b86-bc5f-d64490221af2_27",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The goal is to compare the hardness of talc and topaz specifically. A successful choice must mention both minerals and use the Mohs principle (scratching ability) to state which is harder."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Topaz can leave visible scratches on fluorite, which is why topaz has a higher number than fluorite on the Mohs scale of mineral hardness.</strong>: Compares topaz and fluorite, not topaz and talc. Neither talc nor the talc-topaz comparison appears. &#10007;</li><li><strong>Choice B &mdash; The Mohs scale of mineral hardness can be used to order fluorite, talc, and topaz by their ability to scratch other minerals.</strong>: Mentions all three minerals but makes no direct comparison between talc and topaz — it only says the scale can order them. The hardness comparison the student needs is absent. &#10007;</li><li><strong>Choice C &mdash; A mineral with a Mohs number of 4, like fluorite, is harder than one with a Mohs number of 1, like talc.</strong>: Compares fluorite and talc, not topaz and talc. Topaz is not mentioned. &#10007;</li><li><strong>Choice D &mdash; Topaz can leave visible scratches on talc, which means that topaz is harder than talc.</strong>: Directly names both target minerals, applies the Mohs scratching principle, and draws the hardness conclusion. This is the only choice that does all three. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

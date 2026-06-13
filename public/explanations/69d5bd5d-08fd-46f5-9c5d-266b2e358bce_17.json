@@ -1,1 +1,15 @@
-{"questionId":"69d5bd5d-08fd-46f5-9c5d-266b2e358bce_17","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank is the main verb linking \"only Algerian authorities\" to the state \"permitted to make arrests there.\" The passage describes a current, ongoing rule about how authority works in Algiers &mdash; not a past situation. The blank must be a present-tense linking verb."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'were being'</strong>: Past progressive tense implies the authorization was happening at a specific moment in the past but is no longer true now. The passage describes a standing current rule. &#10007;</li><li><strong>Choice B &mdash; 'were'</strong>: Simple past tense signals the authorization ended at some point. The passage gives no indication the rule changed. &#10007;</li><li><strong>Choice C &mdash; 'had been'</strong>: Past perfect signals the authorization was completed before some other past event. No such sequence exists in the passage. &#10007;</li><li><strong>Choice D &mdash; 'are'</strong>: Simple present tense matches the passage&#39;s present-tense framing (\"Interpol can help,\" \"you won&#39;t see\") and correctly expresses a current standing rule. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_17",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank is the main verb linking \"only Algerian authorities\" to the state \"permitted to make arrests there.\" The passage describes a current, ongoing rule about how authority works in Algiers &mdash; not a past situation. The blank must be a present-tense linking verb."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;were being&rsquo;</strong>: Past progressive tense implies the authorization was happening at a specific moment in the past but is no longer true now. The passage describes a standing current rule. &#10007;</li><li><strong>Choice B &mdash; &lsquo;were&rsquo;</strong>: Simple past tense signals the authorization ended at some point. The passage gives no indication the rule changed. &#10007;</li><li><strong>Choice C &mdash; &lsquo;had been&rsquo;</strong>: Past perfect signals the authorization was completed before some other past event. No such sequence exists in the passage. &#10007;</li><li><strong>Choice D &mdash; &lsquo;are&rsquo;</strong>: Simple present tense matches the passage&#39;s present-tense framing (\"Interpol can help,\" \"you won&#39;t see\") and correctly expresses a current standing rule. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

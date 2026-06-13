@@ -1,1 +1,15 @@
-{"questionId": "54f29331", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the student's goal", "content": "The student wants to <strong>specify the average length of the green iguana</strong>. The relevant note is: <strong>&ldquo;It has an average length of 4.8 feet.&rdquo;</strong> The correct sentence must state that figure explicitly &mdash; not habitat, not diet, not a combination that omits the length."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; &lsquo;The green iguana can be found in Central America.&rsquo;</strong>: Gives habitat information; says nothing about length. &#10007;</li><li><strong>Choice B &mdash; &lsquo;The green iguana has an average length of 4.8 feet.&rsquo;</strong>: Directly states the average length of 4.8 feet, fulfilling the goal exactly. &#10003;</li><li><strong>Choice C &mdash; &lsquo;One species of reptile found in Brazil primarily eats leaves and fruit.&rsquo;</strong>: Describes diet and location; omits length entirely. &#10007;</li><li><strong>Choice D &mdash; &lsquo;The green iguana is a reptile that primarily eats leaves and fruit.&rsquo;</strong>: Gives classification and diet; omits length entirely. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "54f29331",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the student's goal",
+      "content": "The student wants to <strong>specify the average length of the green iguana</strong>. The relevant note is: <strong>&ldquo;It has an average length of 4.8 feet.&rdquo;</strong> The correct sentence must state that figure explicitly &mdash; not habitat, not diet, not a combination that omits the length."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A — The green iguana can be found in Central America.</strong>: Gives habitat information; says nothing about length. &#10007;</li><li><strong>Choice B — The green iguana has an average length of 4.8 feet.</strong>: Directly states the average length of 4.8 feet, fulfilling the goal exactly. &#10003;</li><li><strong>Choice C — One species of reptile found in Brazil primarily eats leaves and fruit.</strong>: Describes diet and location; omits length entirely. &#10007;</li><li><strong>Choice D — The green iguana is a reptile that primarily eats leaves and fruit.</strong>: Gives classification and diet; omits length entirely. &#10007;</li></ul><strong>B</strong> is correct."
+    }
+  ]
+}

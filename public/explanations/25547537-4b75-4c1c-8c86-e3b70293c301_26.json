@@ -1,1 +1,15 @@
-{"questionId":"25547537-4b75-4c1c-8c86-e3b70293c301_26","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks which choice &apos;emphasizes a difference between the two birds.&apos; A valid answer must mention both birds and frame the information as a contrast, not merely a shared trait or a description of only one."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;Though they share... is larger&apos;</strong>: uses a concessive structure to acknowledge similarity while highlighting a size difference between the two birds. Both birds appear and a contrast is drawn. &#10003;</li><li><strong>Choice B</strong>: describes only one of the two birds; the other is not mentioned. &#10007;</li><li><strong>Choice C</strong>: mentions both birds but focuses on what they share, not a difference. &#10007;</li><li><strong>Choice D</strong>: describes only one of the two birds. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "25547537-4b75-4c1c-8c86-e3b70293c301_26",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks which choice &apos;emphasizes a difference between the two birds.&apos; A valid answer must mention both birds and frame the information as a contrast, not merely a shared trait or a description of only one."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Though they share several traits in common, the long-billed starthroat is larger than the ruby-topaz hummingbird.</strong>: uses a concessive structure to acknowledge similarity while highlighting a size difference between the two birds. Both birds appear and a contrast is drawn. &#10003;</li><li><strong>Choice B &mdash; Identifiable by its very long, black, straight bill and its turquoise crown, the long-billed starthroat is a large hummingbird found in Suriname.</strong>: describes only one of the two birds; the other is not mentioned. &#10007;</li><li><strong>Choice C &mdash; The long-billed starthroat and the ruby-topaz hummingbird are two of the thirty-five hummingbird species found in Suriname.</strong>: mentions both birds but focuses on what they share, not a difference. &#10007;</li><li><strong>Choice D &mdash; The ruby-topaz hummingbird is a small hummingbird identifiable by its crimson crown and its short, black, curved bill.</strong>: describes only one of the two birds. &#10007;</li></ul>That matches <strong>Choice A &mdash; Though they share several traits in common, the long-billed starthroat is larger than the ruby-topaz hummingbird.</strong>."
+    }
+  ]
+}

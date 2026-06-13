@@ -2020,13 +2020,14 @@ const PageSkeleton = ({ pathname }: { pathname: string }) => {
 };
 
 const shouldShowRouteSkeleton = (pathname: string) => {
+  const parts = pathname.split("/").filter(Boolean);
+  if (parts[0] === "bank" && parts.length === 3) return false;
+
   const kind = classifySkeleton(pathname);
   return (
     kind === "bank-index" ||
     kind === "bank-browse" ||
     kind === "bank-filtered" ||
-    kind === "question-horizontal" ||
-    kind === "question-vertical" ||
     kind === "analysis"
   );
 };
@@ -2114,12 +2115,14 @@ const getLocationIdentity = (location: Location) =>
 
 const Loading = () => {
   const location = useLocation();
+  const [showRouteSkeleton, setShowRouteSkeleton] = useState(false);
   const searchParams = new URLSearchParams(location.search);
   const isEmbed =
     typeof window !== "undefined" &&
     window.self !== window.top &&
     searchParams.get("embed") === "1";
   const isBankEmbed = location.pathname === "/bank";
+  const canShowRouteSkeleton = shouldShowRouteSkeleton(location.pathname);
 
   useEffect(() => {
     if (!isEmbed || typeof document === "undefined") return;
@@ -2143,8 +2146,19 @@ const Loading = () => {
     };
   }, [isEmbed]);
 
+  useEffect(() => {
+    setShowRouteSkeleton(false);
+    if (isEmbed || !canShowRouteSkeleton) return;
+
+    const skeletonTimer = setTimeout(() => {
+      setShowRouteSkeleton(true);
+    }, SLOW_ROUTE_SKELETON_DELAY_MS);
+
+    return () => clearTimeout(skeletonTimer);
+  }, [canShowRouteSkeleton, isEmbed, location.pathname]);
+
   if (isEmbed) return isBankEmbed ? <EmbeddedBankSkeleton /> : <EmbeddedQuestionSkeleton />;
-  if (!shouldShowRouteSkeleton(location.pathname)) return <QuietLoading />;
+  if (!canShowRouteSkeleton || !showRouteSkeleton) return <QuietLoading />;
   return <PageSkeleton pathname={location.pathname} />;
 };
 

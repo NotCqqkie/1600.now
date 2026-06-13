@@ -1,1 +1,19 @@
-{"questionId": "c6645cab", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the explicit goal", "content": "The student wants to indicate WHERE the dicraeosaurid fossil was found. The answer must report the location from the notes: the Thar Desert in western India."}, {"title": "Find the choice that names the location", "content": "Only one choice actually states where the fossil was found. Choice A says it was found in western Indias Thar Desert &mdash; pulled directly from the relevant note."}, {"title": "Eliminate per choice", "content": "<ul><li><strong>Choice A &mdash; 'found in western India&apos;s Thar Desert'</strong>: names the exact location from the notes; satisfies the goal. &#10003;</li><li><strong>Choice B &mdash; 'oldest dicraeosaurid fossil ever recovered'</strong>: describes the fossil&apos;s significance, not its location. Misses the goal. &#10007;</li><li><strong>Choice C &mdash; 'part of a research team'</strong>: describes the researcher, not where the fossil was found. Misses the goal. &#10007;</li><li><strong>Choice D &mdash; '167 million years old'</strong>: gives the fossil&apos;s age, not its location. Misses the goal. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "c6645cab",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the explicit goal",
+      "content": "The student wants to indicate WHERE the dicraeosaurid fossil was found. The answer must report the location from the notes: the Thar Desert in western India."
+    },
+    {
+      "title": "Find the choice that names the location",
+      "content": "Only one choice actually states where the fossil was found. The correct answer says it was found in western Indias Thar Desert &mdash; pulled directly from the relevant note."
+    },
+    {
+      "title": "Eliminate per choice",
+      "content": "<ul><li><strong>Choice A &mdash; The dicraeosaurid fossil was found in western India's Thar Desert.</strong>: names the exact location from the notes; satisfies the goal. &#10003;</li><li><strong>Choice B &mdash; Bajpai's team recently found the oldest dicraeosaurid fossil ever recovered.</strong>: describes the fossil&apos;s significance, not its location. Misses the goal. &#10007;</li><li><strong>Choice C &mdash; Dr. Sunil Bajpai, of the Indian Institute of Technology, is part of a research team.</strong>: describes the researcher, not where the fossil was found. Misses the goal. &#10007;</li><li><strong>Choice D &mdash; The fossil, which is from the dicraeosaurid dinosaur group, is 167 million years old.</strong>: gives the fossil&apos;s age, not its location. Misses the goal. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

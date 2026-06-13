@@ -1,1 +1,15 @@
-{"questionId":"fd74de5b-6191-4868-9a2d-dd70269d2477_26","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The notes state that Discoglossus nigriventer was identified in Israel in 2011. The answer must include both the organism and its location &mdash; Israel &mdash; to satisfy the question's goal."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; wrong species</strong>: focuses on a different organism rather than Discoglossus nigriventer. &#10007;</li><li><strong>Choice B &mdash; correct organism and location</strong>: names Discoglossus nigriventer and specifies it was identified in Israel. &#10003;</li><li><strong>Choice C &mdash; omits location</strong>: describes a general concept without stating where the organism was identified. &#10007;</li><li><strong>Choice D &mdash; location absent</strong>: includes the year 2011 but leaves out the required location. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "fd74de5b-6191-4868-9a2d-dd70269d2477_26",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The notes state that Discoglossus nigriventer was identified in Israel in 2011. The answer must include both the organism and its location &mdash; Israel &mdash; to satisfy the question's goal."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"In 2015, a living specimen of Dysphania pusilla was found in New Zealand.\"</strong>: focuses on a different organism rather than Discoglossus nigriventer. &#10007;</li><li><strong>\"Previously believed to be extinct, a living specimen of Discoglossus nigriventer was identified in Israel.\"</strong>: names Discoglossus nigriventer and specifies it was identified in Israel. &#10003;</li><li><strong>\"Examples of Lazarus species can be found in Discoglossus nigriventer as well as Dysphania pusilla.\"</strong>: describes a general concept without stating where the organism was identified. &#10007;</li><li><strong>\"A living specimen of Discoglossus nigriventer, once believed to be extinct, was identified in 2011.\"</strong>: includes the year 2011 but leaves out the required location. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -5,6 +5,7 @@ import {
   PageSeo,
   buildBreadcrumbJsonLd,
   buildFaqJsonLd,
+  buildWebApplicationJsonLd,
 } from "@/components/seo/PageSeo";
 import { satToolBySlug } from "@/lib/seo-data/satTools";
 import { getScoreProfile } from "@/lib/seo-data/satScoreData";
@@ -72,15 +73,11 @@ const SatPercentileCalculator = () => {
             { name: meta.name, url },
           ]),
           buildFaqJsonLd(faqs),
-          {
-            "@context": "https://schema.org",
-            "@type": "WebApplication",
+          buildWebApplicationJsonLd({
             name: meta.name,
             url,
-            applicationCategory: "EducationalApplication",
-            operatingSystem: "Any",
-            offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
-          },
+            description: meta.metaDescription,
+          }),
         ]}
       />
 
@@ -124,10 +121,10 @@ const SatPercentileCalculator = () => {
               </div>
             </div>
             <Link
-              to={`/sat-score/${result.score}`}
+              to="/what-sat-score-do-i-need"
               className="mt-2 inline-block text-sm underline"
             >
-              See full {result.score} score profile →
+              Compare this score with college ranges →
             </Link>
           </div>
         ) : (
@@ -151,6 +148,43 @@ const SatPercentileCalculator = () => {
           <li>1050 — 49th percentile (approximately the current average)</li>
           <li>1000 — 40th percentile</li>
         </ul>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold tracking-tight">
+          How to use your percentile
+        </h2>
+        <p className="mt-3 text-muted-foreground">
+          Percentile is useful for national context, but admissions decisions are made school by school. A high percentile can still be below range at a top engineering program, and a lower percentile can be strong for a regional public university or scholarship cutoff.
+        </p>
+        <div className="mt-4 overflow-x-auto rounded-lg border border-border">
+          <table className="w-full min-w-[560px] text-left text-sm">
+            <thead className="bg-muted/70">
+              <tr>
+                <th className="px-4 py-3 font-semibold">Percentile range</th>
+                <th className="px-4 py-3 font-semibold">What it means</th>
+                <th className="px-4 py-3 font-semibold">Next step</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="border-t border-border">
+                <td className="px-4 py-3 text-muted-foreground">95th+</td>
+                <td className="px-4 py-3 text-muted-foreground">Strong for selective colleges, but still compare against each school's middle 50% range.</td>
+                <td className="px-4 py-3 text-muted-foreground">Protect easy points and drill hard-module misses.</td>
+              </tr>
+              <tr className="border-t border-border">
+                <td className="px-4 py-3 text-muted-foreground">75th-94th</td>
+                <td className="px-4 py-3 text-muted-foreground">Above average to strong; section split determines the best improvement path.</td>
+                <td className="px-4 py-3 text-muted-foreground">Use the score calculator and drill the weaker section.</td>
+              </tr>
+              <tr className="border-t border-border">
+                <td className="px-4 py-3 text-muted-foreground">Below 75th</td>
+                <td className="px-4 py-3 text-muted-foreground">There is likely broad score upside from fundamentals and pacing.</td>
+                <td className="px-4 py-3 text-muted-foreground">Start with easy/medium bank questions and review every miss.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </section>
 
       <section className="mt-10">

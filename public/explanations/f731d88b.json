@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Sum of interior angles in a pentagon",
-      "content": "The sum of interior angles in any pentagon is $(5-2) \\times 180° = 540°$.<br/><br/>Given $\\angle B = 139°$ and $\\angle D = 174°$:<br/>$$\\angle A + 139° + \\angle C + 174° + \\angle E = 540°$$$$\\angle A + \\angle C + \\angle E = 227°$$"
+      "content": "The sum of interior angles in any pentagon is $(5-2) \\times 180^{\\circ} = 540^{\\circ}$.<br/><br/>Given $\\angle B = 139^{\\circ}$ and $\\angle D = 174^{\\circ}$:<br/>$$\\angle A + 139^{\\circ} + \\angle C + 174^{\\circ} + \\angle E = 540^{\\circ}$$$$\\angle A + \\angle C + \\angle E = 227^{\\circ}$$"
     },
     {
       "title": "Parallel lines and exterior angle turns",
-      "content": "Since $AB \\parallel DE$, consider how direction changes as we traverse the pentagon from $B$ to $D$ through $C$. At each vertex, we turn by the exterior angle ($180°$ minus the interior angle):<ul><li>Exterior angle at $B$: $180° - 139° = 41°$</li><li>Exterior angle at $C$: $180° - \\angle C$</li><li>Exterior angle at $D$: $180° - 174° = 6°$</li></ul>The total directional change from side $AB$ to side $DE$ is:<br/>$$41° + (180° - \\angle C) + 6° = 227° - \\angle C$$<br/>For parallel lines with opposite orientations (as required in this configuration), this total change must equal $180°$."
+      "content": "Since $AB \\parallel DE$, consider how direction changes as we traverse the pentagon from $B$ to $D$ through $C$. At each vertex, we turn by the exterior angle ($180^{\\circ}$ minus the interior angle):<ul><li>Exterior angle at $B$: $180^{\\circ} - 139^{\\circ} = 41^{\\circ}$</li><li>Exterior angle at $C$: $180^{\\circ} - \\angle C$</li><li>Exterior angle at $D$: $180^{\\circ} - 174^{\\circ} = 6^{\\circ}$</li></ul>The total directional change from side $AB$ to side $DE$ is:<br/>$$41^{\\circ} + (180^{\\circ} - \\angle C) + 6^{\\circ} = 227^{\\circ} - \\angle C$$<br/>For parallel lines with opposite orientations (as required in this configuration), this total change must equal $180^{\\circ}$."
     },
     {
       "title": "Solve for angle C",
-      "content": "Setting the total directional change equal to $180°$:<br/>$$227° - \\angle C = 180°$$$$\\angle C = 47°$$"
+      "content": "Setting the total directional change equal to $180^{\\circ}$:<br/>$$227^{\\circ} - \\angle C = 180^{\\circ}$$$$\\angle C = 47^{\\circ}$$"
     }
   ]
 }

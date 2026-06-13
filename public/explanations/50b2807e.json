@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Use the scatterplot trend",
-      "content": "The scatterplot decreases as $x$ increases, so the model needs a negative slope. This eliminates choices A and C immediately because their slopes are positive."
+      "content": "The scatterplot decreases as $x$ increases, so the model needs a negative slope. This eliminates the other choices immediately because their slopes are positive."
     },
     {
       "title": "Estimate intercept and slope",
       "content": "The left side of the scatterplot is near $y=10$ when $x$ is near $0$, so the $y$-intercept should be around $9$ or $10$. The right side is near $y=1$ or $2$ when $x$ is near $9$, so the slope is about $$\\frac{2-10}{9-0}\\approx -0.9.$$"
     },
     {
-      "title": "Compare the remaining choices",
-      "content": "Compare the two negative-slope choices. Choice B has intercept $0.9$ and slope $-9.4$, so it would start near $y=1$ and drop almost $10$ units for every $1$ unit increase in $x$. That is much too steep for the scatterplot. Choice D has intercept $9.4$ and slope $-0.9$, matching the visible starting value and gradual decrease."
+      "title": "Compare the remaining claims",
+      "content": "Compare the two negative-slope choices. A choice with intercept $0.9$ and slope $-9.4$, so it would start near $y=1$ and drop almost $10$ units for every $1$ unit increase in $x$. That is much too steep for the scatterplot. The matching choice has intercept $9.4$ and slope $-0.9$, matching the visible starting value and gradual decrease."
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice B has a negative slope, but its intercept is only $0.9$ and its slope $-9.4$ is much too steep. Choice D is the only line with both the right intercept and the right negative slope, so <strong>D</strong> is correct."
+      "content": "A choice with a negative slope, but its intercept is only $0.9$ and its slope $-9.4$ is much too steep. The matching choice is the only line with both the right intercept and the right negative slope, so <strong>D</strong> is correct."
     }
   ]
 }

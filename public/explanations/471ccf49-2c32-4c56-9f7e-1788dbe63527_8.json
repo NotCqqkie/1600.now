@@ -1,1 +1,15 @@
-{"questionId": "471ccf49-2c32-4c56-9f7e-1788dbe63527_8", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Determine the sign and magnitude", "content": "The line of best fit slopes <strong>downward</strong> from left to right, so the slope is <strong>negative</strong> (eliminates C and D). To distinguish $-7$ from $-0.7$, estimate $\\dfrac{\\text{rise}}{\\text{run}}$ between two clear points on the line."}, {"title": "Match the slope", "content": "The line drops by roughly $0.7$ units of $y$ for every $1$ unit of $x$ — a shallow negative slope, not a steep one. So the slope is closest to $-0.7$.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "471ccf49-2c32-4c56-9f7e-1788dbe63527_8",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Determine the sign and magnitude",
+      "content": "The line of best fit slopes <strong>downward</strong> from left to right, so the slope is <strong>negative</strong> (eliminates C and D). To distinguish $-7$ from $-0.7$, estimate $\\dfrac{\\text{rise}}{\\text{run}}$ between two clear points on the line."
+    },
+    {
+      "title": "Match the slope",
+      "content": "The line drops by roughly $0.7$ units of $y$ for every $1$ unit of $x$ — a shallow negative slope, not a steep one. So the slope is closest to $-0.7$.<br/><br/><strong>B</strong> is correct."
+    }
+  ]
+}

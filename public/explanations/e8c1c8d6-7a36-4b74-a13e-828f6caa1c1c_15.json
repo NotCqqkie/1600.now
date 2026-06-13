@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find the key signal about the model's bias",
-      "content": "The passage states that for small forests the model\u2019s predictions for small\u2011mammal populations are too high."
+      "content": "The passage states that for small forests the model’s predictions for small‑mammal populations are too high."
     },
     {
       "title": "Apply the signal to the choices",
-      "content": "Choice C says the model would overestimate the actual population sizes of small mammals, which matches the passage\u2019s statement that the model\u2019s predictions are too high for small mammals in small forests.<br/>The other choices either talk about large mammals, introduce unrelated factors, or ignore the pattern of overestimation.<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "<strong>overestimate the actual population sizes of small mammals.</strong> says the model would overestimate the actual population sizes of small mammals, which matches the passage’s statement that the model’s predictions are too high for small mammals in small forests.<br/>The other choices either talk about large mammals, introduce unrelated factors, or ignore the pattern of overestimation.<br/>That matches the correct answer — <strong>C</strong> is correct."
     }
   ]
 }

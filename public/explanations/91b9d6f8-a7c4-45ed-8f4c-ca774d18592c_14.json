@@ -13,7 +13,7 @@
     },
     {
       "title": "Calculate the semicircle area and sum",
-      "content": "The semicircle has diameter 20, so radius = 10.<br/>$$\\frac{1}{2}\\pi(10)^2 = 50\\pi$$<br/>Total area = rectangle + semicircle:<br/>$$20 \\times 5 + 50\\pi$$<br/>That matches choice C - <strong>C</strong> is correct."
+      "content": "The semicircle has diameter 20, so radius = 10.<br/>$$\\frac{1}{2}\\pi(10)^2 = 50\\pi$$<br/>Total area = rectangle + semicircle:<br/>$$20 \\times 5 + 50\\pi$$<br/>That confirms <strong>C</strong> is correct."
     }
   ]
 }

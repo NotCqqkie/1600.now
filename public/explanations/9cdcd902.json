@@ -1,1 +1,15 @@
-{"questionId": "9cdcd902", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The passage says the museum maintains the photographs so &quot;audiences can continue to view them well into the future.&quot; The blank describes what the museum is doing to the photographs to enable that future viewing. The word must mean something like &quot;keeping in good condition over time.&quot;"}, {"title": "Eliminate wrong choices and confirm the answer", "content": "<ul><li><strong>Choice A &mdash; 'replacing'</strong>: Replacing means substituting new items for old ones &mdash; this would remove the originals rather than preserve access to them. &#10007;</li><li><strong>Choice B &mdash; 'inventing'</strong>: Inventing means creating something new that does not yet exist. The photographs already exist, so inventing them makes no sense in context. &#10007;</li><li><strong>Choice C &mdash; 'preserving'</strong>: Preserving means maintaining something in its current condition so it lasts over time. This fits exactly: keeping the photographs intact so future audiences can view them. &#10003;</li><li><strong>Choice D &mdash; 'counting'</strong>: Counting tallies items but does nothing to protect them or ensure future access. It does not address condition or longevity. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "9cdcd902",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The passage says the museum maintains the photographs so &quot;audiences can continue to view them well into the future.&quot; The blank describes what the museum is doing to the photographs to enable that future viewing. The word must mean something like &quot;keeping in good condition over time.&quot;"
+    },
+    {
+      "title": "Eliminate wrong choices and confirm the answer",
+      "content": "<ul><li><strong>Choice A &mdash; replacing</strong>: Replacing means substituting new items for old ones &mdash; this would remove the originals rather than preserve access to them. &#10007;</li><li><strong>Choice B &mdash; inventing</strong>: Inventing means creating something new that does not yet exist. The photographs already exist, so inventing them makes no sense in context. &#10007;</li><li><strong>Choice C &mdash; preserving</strong>: Preserving means maintaining something in its current condition so it lasts over time. This fits exactly: keeping the photographs intact so future audiences can view them. &#10003;</li><li><strong>Choice D &mdash; counting</strong>: Counting tallies items but does nothing to protect them or ensure future access. It does not address condition or longevity. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

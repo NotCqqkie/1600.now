@@ -1,1 +1,15 @@
-{"questionId":"ed66cb8c-ccc6-48f0-b65f-d59f856ebf76_24","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"This is a Rhetorical Synthesis question asking for a generalization about the Hina Hanta archive. A generalization draws a broad conclusion from multiple specific data points; the correct choice must combine information from at least two notes to make a claim about the archive as a whole, not merely report a single fact."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;The Choctaw name for the clay cup is isht ishko.&rsquo;</strong>: Reports one isolated detail from a single note. It says nothing about the archive overall. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Included in the Hina Hanta online archive is a clay cup.&rsquo;</strong>: States a single fact about one item in the archive. It does not generalize about the archive&rsquo;s scope or character. &#10007;</li><li><strong>Choice C &mdash; &lsquo;The horsehair stickball collar (innuchi) was made in 2016.&rsquo;</strong>: Reports one isolated fact from a single note. It says nothing about the archive overall. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Not all artifacts in the Hina Hanta archive are from the 1800s.&rsquo;</strong>: Draws a broad conclusion by combining the 1891 cup and the 2016 stickball collar, showing the archive spans beyond the 1800s. This is a genuine generalization about the archive. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "ed66cb8c-ccc6-48f0-b65f-d59f856ebf76_24",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a Rhetorical Synthesis question asking for a generalization about the Hina Hanta archive. A generalization draws a broad conclusion from multiple specific data points; the correct choice must combine information from at least two notes to make a claim about the archive as a whole, not merely report a single fact."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"The Choctaw name for the clay cup is *isht ishko*.\"</strong>: Reports one isolated detail from a single note. It says nothing about the archive overall. &#10007;</li><li><strong>\"Included in the Hina Hanta online archive is a clay cup.\"</strong>: States a single fact about one item in the archive. It does not generalize about the archive&rsquo;s scope or character. &#10007;</li><li><strong>\"The horsehair stickball collar (*innuchi*) was made in 2016.\"</strong>: Reports one isolated fact from a single note. It says nothing about the archive overall. &#10007;</li><li><strong>\"Not all artifacts in the Hina Hanta archive are from the 1800s.\"</strong>: Draws a broad conclusion by combining the 1891 cup and the 2016 stickball collar, showing the archive spans beyond the 1800s. This is a genuine generalization about the archive. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

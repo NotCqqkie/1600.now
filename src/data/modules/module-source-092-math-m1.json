@@ -109,7 +109,7 @@
     "difficulty": "Hard",
     "question_number": 4,
     "test_name": "Module Source 092 Math M1",
-    "passage": "The table shows three values of x and their corresponding values of y. There is a linear relationship between x and y. Which of the following equations represents this relationship?",
+    "passage": "The table shows three values of $x$ and their corresponding values of $y$. There is a linear relationship between $x$ and $y$. Which of the following equations represents this relationship?",
     "question_text": null,
     "choices": [
       {
@@ -219,7 +219,7 @@
     "difficulty": "Medium",
     "question_number": 7,
     "test_name": "Module Source 092 Math M1",
-    "passage": "The relationship between the variables $r$ and $y$ is defined by an exponential equation. When $x = 0$, the value of $y$ is 90, and for every increase in the value of $x$ by 1, the corresponding value of $y$ increases by 20% of its previous value. Which equation represents this relationship?",
+    "passage": "The relationship between the variables $x$ and $y$ is defined by an exponential equation. When $x = 0$, the value of $y$ is 90, and for every increase in the value of $x$ by 1, the corresponding value of $y$ increases by 20% of its previous value. Which equation represents this relationship?",
     "question_text": null,
     "choices": [
       {
@@ -509,7 +509,7 @@
     "difficulty": "Easy",
     "question_number": 17,
     "test_name": "Module Source 092 Math M1",
-    "passage": "$y=500(2)^{2x}$\nThe equation gives the estimated number of online newsletter subscribers at the end of every six-month period, $x$, starting from the end of January 1997, where $0 < x < 4$. Which statement is the best interpretation of the $y$ intercept of the graph of this equation in the $xy$-plane?",
+    "passage": "$y=500(2)^{2x}$\nThe equation gives the estimated number of online newsletter subscribers at the end of every six-month period, $x$, starting from the end of January 1997, where $0 \\lt x \\lt 4$. Which statement is the best interpretation of the $y$ intercept of the graph of this equation in the $xy$-plane?",
     "question_text": null,
     "choices": [
       {
@@ -561,19 +561,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$0 < c < 10$"
+        "text": "$0 \\lt c \\lt 10$"
       },
       {
         "label": "B",
-        "text": "$0 < c < 20$"
+        "text": "$0 \\lt c \\lt 20$"
       },
       {
         "label": "C",
-        "text": "$40 < c < 50$"
+        "text": "$40 \\lt c \\lt 50$"
       },
       {
         "label": "D",
-        "text": "$40 < c < 60$"
+        "text": "$40 \\lt c \\lt 60$"
       }
     ],
     "is_fill_in_blank": false,

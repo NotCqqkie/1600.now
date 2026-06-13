@@ -1,1 +1,15 @@
-{"questionId":"302c1069-d3cf-4e1c-b0bd-57e018252a85_24","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"This is a Transitions question. Sentence 1 establishes a fact: the Eloi are not real; they are fictional. Sentence 2 says they were prime candidates for a book of imaginary beings. The blank must express the logical connection: sentence 2 is a consequence that follows directly from sentence 1."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Granted,'</strong>: introduces a concession, acknowledging something that might seem to work against the writer's point. No concession is being made here. &#10007;</li><li><strong>Choice B &mdash; 'In reality,'</strong>: introduces a contrasting truth that corrects a misconception. There is no misconception to correct. &#10007;</li><li><strong>Choice C &mdash; 'As such,'</strong>: introduces a logical consequence that follows from what was just stated. Because the Eloi are fictional, it follows that they would be candidates for a compendium of imaginary beings. &#10003;</li><li><strong>Choice D &mdash; 'For example,'</strong>: introduces a specific illustration of a general claim. Sentence 1 makes no general claim that sentence 2 could exemplify. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "302c1069-d3cf-4e1c-b0bd-57e018252a85_24",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a Transitions question. Sentence 1 establishes a fact: the Eloi are not real; they are fictional. Sentence 2 says they were prime candidates for a book of imaginary beings. The blank must express the logical connection: sentence 2 is a consequence that follows directly from sentence 1."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — Granted,</strong>: introduces a concession, acknowledging something that might seem to work against the writer's point. No concession is being made here. &#10007;</li><li><strong>Choice B — In reality,</strong>: introduces a contrasting truth that corrects a misconception. There is no misconception to correct. &#10007;</li><li><strong>Choice C — As such,</strong>: introduces a logical consequence that follows from what was just stated. Because the Eloi are fictional, it follows that they would be candidates for a compendium of imaginary beings. &#10003;</li><li><strong>Choice D — For example,</strong>: introduces a specific illustration of a general claim. Sentence 1 makes no general claim that sentence 2 could exemplify. &#10007;</li></ul><strong>C</strong> is correct."
+    }
+  ]
+}

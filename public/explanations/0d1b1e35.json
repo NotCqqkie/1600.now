@@ -9,7 +9,7 @@
     },
     {
       "title": "Find calcium per banana",
-      "content": "The batch contains 1,114 mg total. Calcium from the 2 bananas is:<br/>$$1,114 - 1,104 = 10 \\text{ mg}$$<br/>Calcium in 1 banana:<br/>$$\\frac{10}{2} = 5 \\text{ mg}$$<br/>That matches choice A — <strong>A</strong> is correct."
+      "content": "The batch contains 1,114 mg total. Calcium from the 2 bananas is:<br/>$$1,114 - 1,104 = 10 \\text{ mg}$$<br/>Calcium in 1 banana:<br/>$$\\frac{10}{2} = 5 \\text{ mg}$$<br/>That matches <strong>Choice A &mdash; $5$</strong>."
     }
   ]
 }

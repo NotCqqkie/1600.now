@@ -1,1 +1,19 @@
-{"questionId": "1fbf276a", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the question type", "content": "This is a word-in-context question. The blank takes the economist's projection as its object."}, {"title": "Use the contrast structure", "content": "&quot;Unlikely to ______ her projection entirely BUT will almost certainly extend its time frame&quot; sets up a contrast: the delays will not totally nullify the projection &mdash; they will only postpone it. The blank needs a word meaning &quot;nullify&quot; or &quot;render void.&quot;"}, {"title": "Per-choice elimination", "content": "<ul><li><strong>Choice A &mdash; 'dispute'</strong>: to dispute is to argue against, which is something a person does, not something supply-chain delays do. Delays cannot debate a projection. &#10007;</li><li><strong>Choice B &mdash; 'withdraw'</strong>: only the economist who made the projection could withdraw it; delays cannot withdraw someone else's claim. &#10007;</li><li><strong>Choice C &mdash; 'underscore'</strong>: means to emphasize or reinforce, the opposite of what the contrast (&quot;unlikely to ___ entirely BUT&quot;) requires. &#10007;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "1fbf276a",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the question type",
+      "content": "This is a word-in-context question. The blank takes the economist's projection as its object."
+    },
+    {
+      "title": "Use the contrast structure",
+      "content": "&quot;Unlikely to ______ her projection entirely BUT will almost certainly extend its time frame&quot; sets up a contrast: the delays will not totally nullify the projection &mdash; they will only postpone it. The blank needs a word meaning &quot;nullify&quot; or &quot;render void.&quot;"
+    },
+    {
+      "title": "Per-choice elimination",
+      "content": "<ul><li><strong>Choice A &mdash; dispute</strong>: to dispute is to argue against, which is something a person does, not something supply-chain delays do. Delays cannot debate a projection. &#10007;</li><li><strong>Choice B &mdash; withdraw</strong>: only the economist who made the projection could withdraw it; delays cannot withdraw someone else's claim. &#10007;</li><li><strong>Choice C &mdash; underscore</strong>: means to emphasize or reinforce, the opposite of what the contrast (&quot;unlikely to ___ entirely BUT&quot;) requires. &#10007;</li></ul>That matches <strong>Choice D &mdash; invalidate</strong>."
+    }
+  ]
+}

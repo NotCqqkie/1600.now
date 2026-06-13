@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply correspondence to find angle P'",
-      "content": "Since $P$ and $P'$ are corresponding angles in similar figures, they must be equal.<br/><br/>We are given that the measure of angle $P$ is $30°$. Therefore, the measure of angle $P'$ is also $30°$. The scale factor of $3$ (side lengths of $P'Q'R'S'$ are $3$ times those of $PQRS$) affects only the side lengths, not the angles.<br/><br/>That matches choice B — <strong>B</strong> is correct."
+      "content": "Since $P$ and $P'$ are corresponding angles in similar figures, they must be equal.<br/><br/>We are given that the measure of angle $P$ is $30^{\\circ}$. Therefore, the measure of angle $P'$ is also $30^{\\circ}$. The scale factor of $3$ (side lengths of $P'Q'R'S'$ are $3$ times those of $PQRS$) affects only the side lengths, not the angles.<br/><br/>That is the correct answer."
     }
   ]
 }

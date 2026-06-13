@@ -1,1 +1,15 @@
-{"questionId":"1b5dbecd-2a08-4015-83f5-8ad883233476_23","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"This is a Transitions question. The blank must name the logical relationship between the two sentences: sentence 1 says original ticker tape was retired long before 2019, and sentence 2 says something else was used at the 2019 parade instead. The relationship is simple sequence — what happened next."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'With this in mind,'</strong>: signals that what follows is a decision or action taken because of the preceding information. The parade happening is not a reasoned response to ticker tape being retired. &#10007;</li><li><strong>Choice B &mdash; 'In addition,'</strong>: adds a parallel item to something already stated. The blank does not add another example of ticker tape use — it introduces a replacement. &#10007;</li><li><strong>Choice C &mdash; 'Then,'</strong>: signals the next event in a time sequence. After ticker tape was retired, the next thing that happened was shredded paper filled that role. Fits perfectly. &#10003;</li><li><strong>Choice D &mdash; 'In other words,'</strong>: introduces a restatement of what was just said. The second sentence is not a restatement — it introduces new information about what replaced ticker tape. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "1b5dbecd-2a08-4015-83f5-8ad883233476_23",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a Transitions question. The blank must name the logical relationship between the two sentences: sentence 1 says original ticker tape was retired long before 2019, and sentence 2 says something else was used at the 2019 parade instead. The relationship is simple sequence — what happened next."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; With this in mind,</strong>: signals that what follows is a decision or action taken because of the preceding information. The parade happening is not a reasoned response to ticker tape being retired. &#10007;</li><li><strong>Choice B &mdash; In addition,</strong>: adds a parallel item to something already stated. The blank does not add another example of ticker tape use — it introduces a replacement. &#10007;</li><li><strong>Choice C &mdash; Then,</strong>: signals the next event in a time sequence. After ticker tape was retired, the next thing that happened was shredded paper filled that role. Fits perfectly. &#10003;</li><li><strong>Choice D &mdash; In other words,</strong>: introduces a restatement of what was just said. The second sentence is not a restatement — it introduces new information about what replaced ticker tape. &#10007;</li></ul>That matches <strong>Choice C &mdash; Then,</strong>."
+    }
+  ]
+}

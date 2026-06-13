@@ -1,1 +1,15 @@
-{"questionId":"cbcab067-83b3-42f4-b90f-cbe6ff582f01_6","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"Text 1 predicts that warming benefits invasive species over natives, based on non-boreal research. Text 2 tests this in Alaska and finds warming had no effect on either species. We need the choice that correctly characterizes how Text 2 relates to Text 1."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A</strong>: characterizes Text 2 as critiquing Text 1&apos;s methodology. Text 2 says nothing about how Text 1&apos;s research was conducted. &#10007;</li><li><strong>Choice B</strong>: frames Text 2 as offering an alternative explanation for invasion. Text 2 reports a null result, not an alternative cause. &#10007;</li><li><strong>Choice C</strong>: says the non-boreal research is invalid. Text 2 only shows the findings may not apply to boreal contexts&mdash;not that the original research is wrong. &#10007;</li><li><strong>Choice D</strong>: says the Alaskan findings cast doubt on whether non-boreal results generalize to boreal contexts&mdash;exactly what a null result in a different ecosystem shows. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "cbcab067-83b3-42f4-b90f-cbe6ff582f01_6",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "Text 1 predicts that warming benefits invasive species over natives, based on non-boreal research. Text 2 tests this in Alaska and finds warming had no effect on either species. We need the choice that correctly characterizes how Text 2 relates to Text 1."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Text 2 describes a methodology that helps researchers avoid a problem encountered in the studies discussed in Text 1.</strong>: characterizes Text 2 as critiquing Text 1&apos;s methodology. Text 2 says nothing about how Text 1&apos;s research was conducted. &#10007;</li><li><strong>Choice B &mdash; Text 2 explains a study that suggests an alternative explanation for the trend observed in the research discussed in Text 1.</strong>: frames Text 2 as offering an alternative explanation for invasion. Text 2 reports a null result, not an alternative cause. &#10007;</li><li><strong>Choice C &mdash; Text 2 discusses an observation that challenges the validity of the findings described in Text 1.</strong>: says the non-boreal research is invalid. Text 2 only shows the findings may not apply to boreal contexts&mdash;not that the original research is wrong. &#10007;</li><li><strong>Choice D &mdash; Text 2 presents a finding that casts doubt on the generalizability of the research discussed in Text 1.</strong>: says the Alaskan findings cast doubt on whether non-boreal results generalize to boreal contexts&mdash;exactly what a null result in a different ecosystem shows. &#10003;</li></ul>That is the correct answer."
+    }
+  ]
+}

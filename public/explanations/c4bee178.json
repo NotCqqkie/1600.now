@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the criterion",
-      "content": "The question requires dwarf planets with exactly one moon, matching Earth's situation. The \u201cNumber of moons\u201d column directly provides this data."
+      "content": "The question requires dwarf planets with exactly one moon, matching Earth's situation. The “Number of moons” column directly provides this data."
     },
     {
       "title": "Find which pair both have 1 moon",
-      "content": "Makemake and Eris both have 1 moon in the \u201cNumber of moons\u201d column. All other choices include at least one planet that doesn't have 1 moon. That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "Makemake and Eris both have 1 moon in the “Number of moons” column. All other choices include at least one planet that doesn't have 1 moon. That is the correct answer."
     }
   ]
 }

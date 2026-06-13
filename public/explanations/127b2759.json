@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li>A) $d^2+24$ — would need $8+3=24$, but $8+3=11$, not 24. Eliminated.</li><li>B) $d^2+11$ — matches $8+3=11$ exactly.</li><li>C) $d^2+5$ — would require subtracting, but the expression adds the constants. Eliminated.</li><li>D) $d^2-11$ — the sign is wrong; $8+3$ is positive 11. Eliminated.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "<ul><li>A) $d^2+24$ — would need $8+3=24$, but $8+3=11$, not 24. Eliminated.</li><li>B) $d^2+11$ — matches $8+3=11$ exactly.</li><li>C) $d^2+5$ — would require subtracting, but the expression adds the constants. Eliminated.</li><li>D) $d^2-11$ — the sign is wrong; $8+3$ is positive 11. Eliminated.</li></ul>That matches <strong>Choice B &mdash; ${d}^{2}+11$</strong>."
     }
   ]
 }

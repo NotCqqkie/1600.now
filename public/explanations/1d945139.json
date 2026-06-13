@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "<ul><li>Choices A and B subtract or add $146$, but mass must scale by multiplication.</li><li>Choice C, $\\frac{t}{146}$, would make the mass smaller even though there are more objects.</li><li>Choice D, $146t$, multiplies the original mass by $146$. Correct.</li></ul>That matches choice D."
+      "content": "<ul><li>$146-t$ and $146+t$ subtract or add $146$, but mass must scale by multiplication.</li><li><strong>Choice C &mdash; $\\frac{t}{146}$</strong> would make the mass smaller even though there are more objects.</li><li><strong>Choice D &mdash; $146t$</strong> multiplies the original mass by $146$. Correct.</li></ul>That matches <strong>Choice D &mdash; $146t$</strong>."
     }
   ]
 }

@@ -402,7 +402,7 @@
       },
       {
         "label": "D",
-        "text": "neither A nor B"
+        "text": "Neither I nor II"
       }
     ],
     "is_fill_in_blank": false,
@@ -491,19 +491,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$x < 21$"
+        "text": "$x \\lt 21$"
       },
       {
         "label": "B",
-        "text": "$x > 21$"
+        "text": "$x \\gt 21$"
       },
       {
         "label": "C",
-        "text": "$5 < x < 21$"
+        "text": "$5 \\lt x \\lt 21$"
       },
       {
         "label": "D",
-        "text": "$x < 5$ or $x > 21$"
+        "text": "$x \\lt 5$ or $x \\gt 21$"
       }
     ],
     "is_fill_in_blank": false,

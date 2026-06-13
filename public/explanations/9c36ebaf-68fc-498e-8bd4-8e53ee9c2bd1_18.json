@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify angle relationships from parallel lines",
-      "content": "Since line $t$ intersects parallel lines $r$ and $s$:<ul><li>Angles $b$ and $c$ form a linear pair at line $s$ (adjacent angles on a straight line), so they are supplementary: $b + c = 180°$</li><li>Angles $a$ and $c$ are corresponding angles—they occupy the same relative position at each intersection—so they are equal: $a = c$</li></ul>Combining these relationships: $a + b = 180°$"
+      "content": "Since line $t$ intersects parallel lines $r$ and $s$:<ul><li>Angles $b$ and $c$ form a linear pair at line $s$ (adjacent angles on a straight line), so they are supplementary: $b + c = 180^{\\circ}$</li><li>Angles $a$ and $c$ are corresponding angles—they occupy the same relative position at each intersection—so they are equal: $a = c$</li></ul>Combining these relationships: $a + b = 180^{\\circ}$"
     },
     {
       "title": "Solve for k",
-      "content": "Substitute the expressions for $a$ and $b$ into $a + b = 180°$:<br/>$$(4k + 57) + (\\frac{k}{4} + 55) = 180$$<br/>Combine like terms:<br/>$$4k + \\frac{k}{4} + 112 = 180$$<br/>$$\\frac{16k + k}{4} = 68$$<br/>$$\\frac{17k}{4} = 68$$<br/>$$k = 16$$"
+      "content": "Substitute the expressions for $a$ and $b$ into $a + b = 180^{\\circ}$:<br/>$$(4k + 57) + (\\frac{k}{4} + 55) = 180$$<br/>Combine like terms:<br/>$$4k + \\frac{k}{4} + 112 = 180$$<br/>$$\\frac{16k + k}{4} = 68$$<br/>$$\\frac{17k}{4} = 68$$<br/>$$k = 16$$"
     },
     {
       "title": "Calculate c",

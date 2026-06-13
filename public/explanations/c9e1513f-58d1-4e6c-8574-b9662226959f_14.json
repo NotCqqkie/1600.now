@@ -9,7 +9,7 @@
     },
     {
       "title": "Scan the choices for 2 and 40 as visible literals",
-      "content": "Factoring by inspection gives the same result: two numbers that multiply to $80$ and add to $-42$ are $-2$ and $-40$, so<br/>$$f(x)=(x-2)(x-40)$$<br/>That form displays the zeros $x=2$ and $x=40$ as constants, which matches choice <strong>B</strong>."
+      "content": "Factoring by inspection gives the same result: two numbers that multiply to $80$ and add to $-42$ are $-2$ and $-40$, so<br/>$$f(x)=(x-2)(x-40)$$<br/>That form displays the zeros $x=2$ and $x=40$ as constants, which matches <strong>B</strong>."
     }
   ]
 }

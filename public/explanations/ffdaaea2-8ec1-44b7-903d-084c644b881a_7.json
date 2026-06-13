@@ -9,11 +9,11 @@
     },
     {
       "title": "Find $2x$",
-      "content": "$2x = 12$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."
+      "content": "$2x = 12$. That matches the correct answer — <strong>C</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice C, 12, and the other choices fail the same setup or substitution. Therefore <strong>C</strong> is correct."
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above is 12, and the other choices fail the same setup or substitution. Therefore <strong>C</strong> is correct."
     }
   ]
 }

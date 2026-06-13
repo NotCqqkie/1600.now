@@ -13,7 +13,7 @@
     },
     {
       "title": "Match to the answer choices",
-      "content": "<ul><li><strong>Choice A &mdash; '$-4x^{2}-8x-11$'</strong>: Wrong leading degree ($x^2$ instead of $x^6$) and wrong sign on the constant. &#10007;</li><li><strong>Choice B &mdash; '$-9x^{6}+5x^{3}-8x+11$'</strong>: Matches the simplified result exactly. &#10003;</li><li><strong>Choice C &mdash; '$-9x^{6}+5x^{3}+2x+5$'</strong>: Wrong $x$ coefficient ($+2x$ instead of $-8x$) and wrong constant. &#10007;</li><li><strong>Choice D &mdash; '$-4x^{9}-2x+5$'</strong>: Wrong leading degree and wrong coefficients throughout. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; $-4x^{2}-8x-11$</strong>: Wrong leading degree ($x^2$ instead of $x^6$) and wrong sign on the constant. &#10007;</li><li><strong>Choice B &mdash; $-9x^{6}+5x^{3}-8x+11$</strong>: Matches the simplified result exactly. &#10003;</li><li><strong>Choice C &mdash; $-9x^{6}+5x^{3}+2x+5$</strong>: Wrong $x$ coefficient ($+2x$ instead of $-8x$) and wrong constant. &#10007;</li><li><strong>Choice D &mdash; $-4x^{9}-2x+5$</strong>: Wrong leading degree and wrong coefficients throughout. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
     }
   ]
 }

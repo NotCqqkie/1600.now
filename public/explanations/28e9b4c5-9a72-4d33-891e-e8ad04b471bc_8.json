@@ -1,1 +1,15 @@
-{"questionId":"28e9b4c5-9a72-4d33-891e-e8ad04b471bc_8","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks what Bellie&apos;s research is about. The answer must come directly from the text, not from Bellie&apos;s musical work or general knowledge."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'space travel'</strong>: Never mentioned in the passage. &#10007;</li><li><strong>Choice B &mdash; 'gravitational waves'</strong>: The opening sentence says directly: &quot;Musician and astronomer Darsan Swaroop Bellie researches gravitational waves.&quot; &#10003;</li><li><strong>Choice C &mdash; 'music history'</strong>: Bellie composes music, but the text never describes music history as his research subject. &#10007;</li><li><strong>Choice D &mdash; 'ocean currents'</strong>: Not mentioned anywhere in the passage. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "28e9b4c5-9a72-4d33-891e-e8ad04b471bc_8",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks what Bellie&apos;s research is about. The answer must come directly from the text, not from Bellie&apos;s musical work or general knowledge."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Space travel</strong>: Never mentioned in the passage. &#10007;</li><li><strong>Choice B &mdash; Gravitational waves</strong>: The opening sentence says directly: &quot;Musician and astronomer Darsan Swaroop Bellie researches gravitational waves.&quot; &#10003;</li><li><strong>Choice C &mdash; Music history</strong>: Bellie composes music, but the text never describes music history as his research subject. &#10007;</li><li><strong>Choice D &mdash; Ocean currents</strong>: Not mentioned anywhere in the passage. &#10007;</li></ul>That matches <strong>Choice B &mdash; Gravitational waves</strong>."
+    }
+  ]
+}

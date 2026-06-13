@@ -9,11 +9,11 @@
     },
     {
       "title": "Check the matching-slope choice",
-      "content": "Choice B gives $$\\frac{1}{2}x=5y \\Rightarrow y=\\frac{x}{10}.$$ This has the same slope, $\\frac{1}{10}$, and a different intercept, $0$, so the two lines are parallel and distinct."
+      "content": "The correct answer gives $$\\frac{1}{2}x=5y \\Rightarrow y=\\frac{x}{10}.$$ This has the same slope, $\\frac{1}{10}$, and a different intercept, $0$, so the two lines are parallel and distinct."
     },
     {
       "title": "Eliminate the rest",
-      "content": "A has slope $\\frac{1}{5}$, so it intersects the given line. C is exactly the same as the given line, so it has infinitely many solutions. D has slope $\\frac{1}{20}$, so it intersects the given line. Therefore, the correct answer is choice <strong>B</strong>."
+      "content": "A has slope $\\frac{1}{5}$, so it intersects the given line. C is exactly the same as the given line, so it has infinitely many solutions. D has slope $\\frac{1}{20}$, so it intersects the given line. Therefore, <strong>B</strong> is correct."
     }
   ]
 }

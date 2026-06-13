@@ -1,1 +1,15 @@
-{"questionId":"6172d662-f820-4d74-acac-4b49873dfc8f_2","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence sets up a contrast with &apos;but&apos;: the Van Burens &apos;will always be remembered&apos; for a definite &apos;first,&apos; while Mocsary&apos;s place in historical memory is &apos;more ______ than&apos; theirs. The blank must describe a quality that is worse than &apos;always remembered&apos; &mdash; something less fixed or definite."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'enduring'</strong>: means lasting &mdash; a positive quality that would not contrast with &apos;always remembered.&apos; &#10007;</li><li><strong>Choice B &mdash; 'conspicuous'</strong>: means prominent &mdash; another positive quality, no real contrast. &#10007;</li><li><strong>Choice C &mdash; 'deserving'</strong>: means worthy &mdash; praises Mocsary rather than contrasting her standing with the Van Burens&apos;. &#10007;</li><li><strong>Choice D &mdash; 'uncertain'</strong>: means not clearly defined &mdash; contrasts directly with the Van Burens&apos; guaranteed place in memory. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "6172d662-f820-4d74-acac-4b49873dfc8f_2",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence sets up a contrast with &apos;but&apos;: the Van Burens &apos;will always be remembered&apos; for a definite &apos;first,&apos; while Mocsary&apos;s place in historical memory is &apos;more ______ than&apos; theirs. The blank must describe a quality that is worse than &apos;always remembered&apos; &mdash; something less fixed or definite."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;enduring&rsquo;</strong>: means lasting &mdash; a positive quality that would not contrast with &apos;always remembered.&apos; &#10007;</li><li><strong>Choice B &mdash; &lsquo;conspicuous&rsquo;</strong>: means prominent &mdash; another positive quality, no real contrast. &#10007;</li><li><strong>Choice C &mdash; &lsquo;deserving&rsquo;</strong>: means worthy &mdash; praises Mocsary rather than contrasting her standing with the Van Burens&apos;. &#10007;</li><li><strong>Choice D &mdash; &lsquo;uncertain&rsquo;</strong>: means not clearly defined &mdash; contrasts directly with the Van Burens&apos; guaranteed place in memory. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

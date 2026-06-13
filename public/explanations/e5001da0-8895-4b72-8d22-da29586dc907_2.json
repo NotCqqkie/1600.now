@@ -14,29 +14,29 @@
     },
     {
       "title": "Match and verify the choice",
-      "content": "Choice B is exactly $f(h)=55h+85$. It also checks both rows: $f(1)=55+85=140$ and $f(3)=165+85=250$. That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "The model is exactly $f(h)=55h+85$. It also checks both rows: $f(1)=55+85=140$ and $f(3)=165+85=250$. That matches the correct answer — <strong>B</strong> is correct."
     }
   ],
   "choices": [
     {
       "id": "A",
       "text": "$f(h)=85h+55$",
-      "explanation": "<ul><li>f(1) = 85 + 55 = 140 ✓, but f(3) = 255 + 55 = 310 ≠ 250. Does not fit both points. Eliminate A.</li></ul>"
+      "explanation": "<ul><li>$f(1)=85+55=140$ ✓, but $f(3)=255+55=310 \\ne 250$. Does not fit both points. Eliminate A.</li></ul>"
     },
     {
       "id": "B",
       "text": "$f(h)=55h+85$",
-      "explanation": "<ul><li>f(1) = 55 + 85 = 140 ✓ and f(3) = 165 + 85 = 250 ✓. Both data points satisfied. That matches choice B — <strong>B</strong> is correct.</li></ul>"
+      "explanation": "<ul><li>$f(1)=55+85=140$ ✓ and $f(3)=165+85=250$ ✓. Both data points satisfied. That matches $f(h)=55h+85$, so <strong>B</strong> is correct.</li></ul>"
     },
     {
       "id": "C",
       "text": "$f(h)=110h+30$",
-      "explanation": "<ul><li>f(1) = 110 + 30 = 140 ✓, but f(3) = 330 + 30 = 360 ≠ 250. Eliminate C.</li></ul>"
+      "explanation": "<ul><li>$f(1)=110+30=140$ ✓, but $f(3)=330+30=360 \\ne 250$. Eliminate C.</li></ul>"
     },
     {
       "id": "D",
       "text": "$f(h)=30h+110$",
-      "explanation": "<ul><li>f(1) = 30 + 110 = 140 ✓, but f(3) = 90 + 110 = 200 ≠ 250. Eliminate D.</li></ul>"
+      "explanation": "<ul><li>$f(1)=30+110=140$ ✓, but $f(3)=90+110=200 \\ne 250$. Eliminate D.</li></ul>"
     }
   ],
   "correctAnswer": "B"

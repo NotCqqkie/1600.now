@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice B is correct. Choice A uses the intercept $\\frac{1}{8}$ incorrectly. Choice C is just the intercept. Choice D is the original slope, which would be parallel rather than perpendicular.",
+      "content": "The answer is $-\\frac{1}{7}$. The value $\\frac{1}{8}$ uses the intercept incorrectly, $-8$ is just the negative reciprocal of the intercept, and $7$ is the original slope, which would be parallel rather than perpendicular.",
       "desmosExpressions": [
         "y=7x+1/8",
         "y=(-1/7)x+1/8"

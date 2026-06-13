@@ -1,1 +1,15 @@
-{"questionId": "28e9b4c5-9a72-4d33-891e-e8ad04b471bc_17", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The sentence reads: &quot;Frederick Hill, one of the nearly two thousand African American [officials] selected to public office during the decade that followed the Civil War, ______ his term as a member of the state senate in 1871.&quot; The subject is &quot;Frederick Hill&quot; and the blank is the main verb of the only independent clause. The main verb of an independent clause must be finite &mdash; it must show tense on its own."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'began'</strong>: finite past-tense verb. &quot;Frederick Hill began his term&quot; is a complete, grammatical independent clause. &#10003;</li><li><strong>Choice B &mdash; 'to begin'</strong>: an infinitive. Non-finite; cannot serve as the main verb of an independent clause without a helper. &#10007;</li><li><strong>Choice C &mdash; 'beginning'</strong>: a present participle. Non-finite; creates a dangling modifier, not a main verb. &#10007;</li><li><strong>Choice D &mdash; 'having begun'</strong>: a past participle phrase. Non-finite; cannot anchor an independent clause. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "28e9b4c5-9a72-4d33-891e-e8ad04b471bc_17",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence reads: &quot;Frederick Hill, one of the nearly two thousand African American [officials] selected to public office during the decade that followed the Civil War, ______ his term as a member of the state senate in 1871.&quot; The subject is &quot;Frederick Hill&quot; and the blank is the main verb of the only independent clause. The main verb of an independent clause must be finite &mdash; it must show tense on its own."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; began</strong>: finite past-tense verb. &quot;Frederick Hill began his term&quot; is a complete, grammatical independent clause. &#10003;</li><li><strong>Choice B &mdash; to begin</strong>: an infinitive. Non-finite; cannot serve as the main verb of an independent clause without a helper. &#10007;</li><li><strong>Choice C &mdash; beginning</strong>: a present participle. Non-finite; creates a dangling modifier, not a main verb. &#10007;</li><li><strong>Choice D &mdash; having begun</strong>: a past participle phrase. Non-finite; cannot anchor an independent clause. &#10007;</li></ul>That matches <strong>Choice A &mdash; began</strong>."
+    }
+  ]
+}

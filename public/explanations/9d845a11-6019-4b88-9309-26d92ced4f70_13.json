@@ -17,7 +17,7 @@
     },
     {
       "title": "Confirm the x-value",
-      "content": "Substitute $a=-8$ into the intersection equation:<br/>$$2x^2-16x+32=0$$<br/>Divide by $2$: $$x^2-8x+16=0$$<br/>$$(x-4)^2=0$$<br/>So the single intersection has $x=4$. That matches choice C, so <strong>C</strong> is correct.",
+      "content": "Substitute $a=-8$ into the intersection equation:<br/>$$2x^2-16x+32=0$$<br/>Divide by $2$: $$x^2-8x+16=0$$<br/>$$(x-4)^2=0$$<br/>So the single intersection has $x=4$. That confirms <strong>C</strong> is correct.",
       "desmosExpressions": [
         "(4,4)"
       ]

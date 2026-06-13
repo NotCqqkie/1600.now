@@ -5,6 +5,7 @@ import {
   PageSeo,
   buildBreadcrumbJsonLd,
   buildFaqJsonLd,
+  buildWebApplicationJsonLd,
 } from "@/components/seo/PageSeo";
 import { satToolBySlug } from "@/lib/seo-data/satTools";
 interface CollegeProfile {
@@ -119,15 +120,11 @@ const WhatSatScoreDoINeed = () => {
             { name: meta.name, url },
           ]),
           buildFaqJsonLd(faqs),
-          {
-            "@context": "https://schema.org",
-            "@type": "WebApplication",
+          buildWebApplicationJsonLd({
             name: meta.name,
             url,
-            applicationCategory: "EducationalApplication",
-            operatingSystem: "Any",
-            offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
-          },
+            description: meta.metaDescription,
+          }),
         ]}
       />
 
@@ -228,6 +225,40 @@ const WhatSatScoreDoINeed = () => {
             or applying test-optional if policy allows.
           </li>
         </ul>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold tracking-tight">
+          How to build your college score list
+        </h2>
+        <div className="mt-4 overflow-x-auto rounded-lg border border-border">
+          <table className="w-full min-w-[560px] text-left text-sm">
+            <thead className="bg-muted/70">
+              <tr>
+                <th className="px-4 py-3 font-semibold">Bucket</th>
+                <th className="px-4 py-3 font-semibold">SAT target</th>
+                <th className="px-4 py-3 font-semibold">Application meaning</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="border-t border-border">
+                <td className="px-4 py-3 text-muted-foreground">Reach</td>
+                <td className="px-4 py-3 text-muted-foreground">Below or near the 25th percentile</td>
+                <td className="px-4 py-3 text-muted-foreground">Apply only if the rest of the file is unusually strong or policy is test-optional.</td>
+              </tr>
+              <tr className="border-t border-border">
+                <td className="px-4 py-3 text-muted-foreground">Target</td>
+                <td className="px-4 py-3 text-muted-foreground">Between the midpoint and 75th percentile</td>
+                <td className="px-4 py-3 text-muted-foreground">The score supports the application without carrying it alone.</td>
+              </tr>
+              <tr className="border-t border-border">
+                <td className="px-4 py-3 text-muted-foreground">Likely</td>
+                <td className="px-4 py-3 text-muted-foreground">Above the 75th percentile</td>
+                <td className="px-4 py-3 text-muted-foreground">The SAT is a strength; focus next on essays, fit, and scholarships.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </section>
 
       <section className="mt-10">

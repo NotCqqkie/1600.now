@@ -1,1 +1,15 @@
-{"questionId":"88552b8b-f774-4f18-b52e-65b24051a3d9_11","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The student concludes that Glory and Boss \"behaved similarly.\" Supporting data must show both Glory and Boss doing the same thing — either both moving toward or both moving away from the sound. Any choice that introduces Bitey Boy or shows Glory and Boss doing opposite things fails."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Boss moved toward the sound, while Bitey Boy moved away from it.'</strong>: Compares Boss to Bitey Boy, not to Glory. This tells us nothing about whether Glory and Boss behaved similarly. &#10007;</li><li><strong>Choice B &mdash; 'Bitey Boy and Glory both moved toward the sound.'</strong>: Compares Bitey Boy to Glory, leaving Boss out entirely. Does not address whether Glory and Boss matched each other. &#10007;</li><li><strong>Choice C &mdash; 'Glory and Boss both moved away from the sound.'</strong>: Directly compares the two snakes named in the conclusion and shows identical behavior. This is exactly what \"behaved similarly\" requires. &#10003;</li><li><strong>Choice D &mdash; 'Boss moved toward the sound, while Glory moved away from it.'</strong>: Glory and Boss moved in opposite directions — this directly contradicts the conclusion that they behaved similarly. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "88552b8b-f774-4f18-b52e-65b24051a3d9_11",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The student concludes that Glory and Boss \"behaved similarly.\" Supporting data must show both Glory and Boss doing the same thing — either both moving toward or both moving away from the sound. Any choice that introduces Bitey Boy or shows Glory and Boss doing opposite things fails."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Boss moved toward the sound, while Bitey Boy moved away from it.</strong>: Compares Boss to Bitey Boy, not to Glory. This tells us nothing about whether Glory and Boss behaved similarly. &#10007;</li><li><strong>Choice B &mdash; Bitey Boy and Glory both moved toward the sound.</strong>: Compares Bitey Boy to Glory, leaving Boss out entirely. Does not address whether Glory and Boss matched each other. &#10007;</li><li><strong>Choice C &mdash; Glory and Boss both moved away from the sound.</strong>: Directly compares the two snakes named in the conclusion and shows identical behavior. This is exactly what \"behaved similarly\" requires. &#10003;</li><li><strong>Choice D &mdash; Boss moved toward the sound, while Glory moved away from it.</strong>: Glory and Boss moved in opposite directions — this directly contradicts the conclusion that they behaved similarly. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

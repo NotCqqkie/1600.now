@@ -1,1 +1,15 @@
-{"questionId":"20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_21","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question tests punctuation and sentence structure. The sentence has two independent clauses: (1) &quot;The Kyzylkum Desert in central Asia is a semiarid desert, for example&quot; and (2) &quot;With a total area of about 300,000 km&sup2;, it is also one of the largest deserts of any type.&quot; Two independent clauses need to be separated by a period, semicolon, or coordinating conjunction &mdash; not just a comma."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'example with'</strong>: Joins both clauses with no punctuation between them, creating a run-on sentence. &#10007;</li><li><strong>Choice B &mdash; 'example and with'</strong>: Uses &quot;and&quot; to connect two independent clauses, but without a comma before &quot;and,&quot; this is still a comma splice issue, and &quot;and with&quot; produces an awkward construction. &#10007;</li><li><strong>Choice C &mdash; 'example, with'</strong>: Places only a comma between two independent clauses, creating a comma splice. &#10007;</li><li><strong>Choice D &mdash; 'example. With'</strong>: A period correctly ends the first independent clause. &quot;With a total area of about 300,000 km&sup2;, it is also one of the largest deserts of any type&quot; then begins a new, complete sentence. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_21",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question tests punctuation and sentence structure. The sentence has two independent clauses: (1) &quot;The Kyzylkum Desert in central Asia is a semiarid desert, for example&quot; and (2) &quot;With a total area of about 300,000 km&sup2;, it is also one of the largest deserts of any type.&quot; Two independent clauses need to be separated by a period, semicolon, or coordinating conjunction &mdash; not just a comma."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; example with</strong>: Joins both clauses with no punctuation between them, creating a run-on sentence. &#10007;</li><li><strong>Choice B &mdash; example and with</strong>: Uses &quot;and&quot; to connect two independent clauses, but without a comma before &quot;and,&quot; this is still a comma splice issue, and &quot;and with&quot; produces an awkward construction. &#10007;</li><li><strong>Choice C &mdash; example, with</strong>: Places only a comma between two independent clauses, creating a comma splice. &#10007;</li><li><strong>Choice D &mdash; example. With</strong>: A period correctly ends the first independent clause. &quot;With a total area of about 300,000 km&sup2;, it is also one of the largest deserts of any type&quot; then begins a new, complete sentence. &#10003;</li></ul>That matches <strong>Choice D &mdash; example. With</strong>."
+    }
+  ]
+}

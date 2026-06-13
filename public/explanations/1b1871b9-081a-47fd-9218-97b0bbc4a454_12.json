@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate all choices",
-      "content": "<ul><li>A: $3x^2$ — this is not a factor of the polynomial; dividing $3x^2 + 57x + 15$ by $3x^2$ does not yield a polynomial. Eliminated.</li><li>B: $5x$ — $5x$ does not divide $3x^2$ evenly (3 is not divisible by 5). Eliminated.</li><li>C: $3$ — divides every term: $3x^2 \\div 3 = x^2$, $57x \\div 3 = 19x$, $15 \\div 3 = 5$. Valid factor.</li><li>D: $57x$ — $57x$ does not divide $3x^2$ evenly. Eliminated.</li></ul>That matches choice C — <strong>C</strong> is correct."
+      "content": "<ul><li>A: $3x^2$ — this is not a factor of the polynomial; dividing $3x^2 + 57x + 15$ by $3x^2$ does not yield a polynomial. Eliminated.</li><li>B: $5x$ — $5x$ does not divide $3x^2$ evenly (3 is not divisible by 5). Eliminated.</li><li>C: $3$ — divides every term: $3x^2 \\div 3 = x^2$, $57x \\div 3 = 19x$, $15 \\div 3 = 5$. Valid factor.</li><li>D: $57x$ — $57x$ does not divide $3x^2$ evenly. Eliminated.</li></ul>That matches <strong>Choice C &mdash; 3</strong>."
     }
   ]
 }

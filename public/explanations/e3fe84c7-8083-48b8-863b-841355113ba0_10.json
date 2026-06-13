@@ -13,11 +13,11 @@
     },
     {
       "title": "Compute h(0) and conclude",
-      "content": "$h(0)=(6)(-4)(-6)=144$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."
+      "content": "$h(0)=(6)(-4)(-6)=144$. That matches the correct answer — <strong>A</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice A, 144, and the other choices fail the same setup or substitution. Therefore <strong>A</strong> is correct."
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above is 144, and the other choices fail the same setup or substitution. Therefore <strong>A</strong> is correct."
     }
   ]
 }

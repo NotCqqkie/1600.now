@@ -1,1 +1,15 @@
-{"questionId": "89fbc3eb", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the two clauses", "content": "<ul><li><strong>Choice A &mdash; 'parks and'</strong>: &quot;and&quot; is a coordinating conjunction, but when joining two longer main clauses it conventionally requires a comma before it &mdash; &quot;parks, and it prioritized...&quot; Without the comma, this is non-standard. &#10007;</li><li><strong>Choice B &mdash; 'parks'</strong>: No punctuation at all between the two main clauses creates a run-on sentence. &#10007;</li><li><strong>Choice C &mdash; 'parks;'</strong>: A semicolon correctly joins two independent clauses without a conjunction. Both sides are complete sentences, so this is grammatically sound. &#10003;</li><li><strong>Choice D &mdash; 'parks,'</strong>: A comma alone between two main clauses with no conjunction creates a comma splice. &#10007;</li></ul>"}, {"title": "Confirm the answer", "content": "A semicolon is the only option that correctly separates two independent clauses without requiring a conjunction. That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "89fbc3eb",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the two clauses",
+      "content": "<ul><li><strong>Choice A &mdash; parks and</strong>: &quot;and&quot; is a coordinating conjunction, but when joining two longer main clauses it conventionally requires a comma before it &mdash; &quot;parks, and it prioritized...&quot; Without the comma, this is non-standard. &#10007;</li><li><strong>Choice B &mdash; parks</strong>: No punctuation at all between the two main clauses creates a run-on sentence. &#10007;</li><li><strong>Choice C &mdash; parks;</strong>: A semicolon correctly joins two independent clauses without a conjunction. Both sides are complete sentences, so this is grammatically sound. &#10003;</li><li><strong>Choice D &mdash; parks,</strong>: A comma alone between two main clauses with no conjunction creates a comma splice. &#10007;</li></ul>"
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "A semicolon is the only option that correctly separates two independent clauses without requiring a conjunction. That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

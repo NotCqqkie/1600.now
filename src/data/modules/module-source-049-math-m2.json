@@ -515,19 +515,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$x < 4$"
+        "text": "$x \\lt 4$"
       },
       {
         "label": "B",
-        "text": "$x > 14$"
+        "text": "$x \\gt 14$"
       },
       {
         "label": "C",
-        "text": "$4 < x < 14$"
+        "text": "$4 \\lt x \\lt 14$"
       },
       {
         "label": "D",
-        "text": "$x < 4$ or $x > 14$"
+        "text": "$x \\lt 4$ or $x \\gt 14$"
       }
     ],
     "is_fill_in_blank": false,

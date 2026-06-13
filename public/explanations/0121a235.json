@@ -13,11 +13,11 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice A would require a zero at $x=3$, and choice B would require a zero at $x=-3$. Choice C would require zeros at $x=1$ and $x=-2$, but the table shows $p(1)=-1$ and $p(-2)=5$."
+      "content": "<strong>Choice A &mdash; $(x -3)$</strong> would require a zero at $x=3$, and <strong>Choice B &mdash; $(x + 3)$</strong> would require a zero at $x=-3$. <strong>Choice C &mdash; $(x -1) \\times (x + 2)$</strong> would require zeros at $x=1$ and $x=-2$, but the table shows $p(1)=-1$ and $p(-2)=5$."
     },
     {
       "title": "Confirm the factor",
-      "content": "The only choice that uses both zeros from the table is $(x+1)(x-2)$. Choice <strong>D</strong> is correct."
+      "content": "The only choice that uses both zeros from the table is $(x+1)(x-2)$. <strong>Choice D &mdash; $(x + 1) \\times (x -2)$</strong>."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId": "91ff0c6a-268b-4d8b-9642-b9fb25a907b4_9", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The question asks for the main idea. The passage opens broadly (animals use tools), then pivots with 'though' and 'busted the myth': the old belief that only primates use tools is proven wrong. Sea otters and woodpecker finches are examples supporting that reversal."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'Animals find it difficult to use objects as tools.'</strong>: The passage says animals use tools to achieve goals 'more easily' — the opposite of difficult. &#10007;</li><li><strong>Choice B &mdash; 'Unlike primates, sea otters are exceptionally skillful at using different tools.'</strong>: The passage never ranks sea otters above primates in skill; it just says both can use tools. &#10007;</li><li><strong>Choice C &mdash; 'Contrary to long-held beliefs, primates aren&apos;t the only animals to use tools.'</strong>: This directly matches 'people thought tool use was unique to primates' being overturned. &#10003;</li><li><strong>Choice D &mdash; 'There are many myths about tool use that researchers are starting to challenge.'</strong>: The passage busts one specific myth, not many; 'starting to challenge' also understates what the text presents as already settled. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "91ff0c6a-268b-4d8b-9642-b9fb25a907b4_9",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks for the main idea. The passage opens broadly (animals use tools), then pivots with 'though' and 'busted the myth': the old belief that only primates use tools is proven wrong. Sea otters and woodpecker finches are examples supporting that reversal."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Animals find it difficult to use objects as tools.</strong>: The passage says animals use tools to achieve goals 'more easily' — the opposite of difficult. &#10007;</li><li><strong>Choice B &mdash; Unlike primates, sea otters are exceptionally skillful at using different tools.</strong>: The passage never ranks sea otters above primates in skill; it just says both can use tools. &#10007;</li><li><strong>Choice C &mdash; Contrary to long-held beliefs, primates aren't the only animals to use tools.</strong>: This directly matches 'people thought tool use was unique to primates' being overturned. &#10003;</li><li><strong>Choice D &mdash; There are many myths about tool use that researchers are starting to challenge.</strong>: The passage busts one specific myth, not many; 'starting to challenge' also understates what the text presents as already settled. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

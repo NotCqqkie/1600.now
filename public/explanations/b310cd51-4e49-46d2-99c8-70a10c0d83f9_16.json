@@ -9,11 +9,11 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice B is $15x+150$, so <strong>B</strong> is correct."
+      "content": "The correct answer is $15x+150$, so <strong>B</strong> is correct."
     },
     {
       "title": "Avoid the distribution trap",
-      "content": "The $15$ must multiply both terms inside the parentheses. Choice A leaves the $10$ unchanged, and choices C and D use constants that do not equal $15\\cdot 10$."
+      "content": "The $15$ must multiply both terms inside the parentheses. The correct answer leaves the $10$ unchanged, and the other choices use constants that do not equal $15\\cdot 10$."
     }
   ]
 }

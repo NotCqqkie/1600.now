@@ -1,1 +1,15 @@
-{"questionId":"9f9439b4-1f8b-48cd-b607-fd0776fedebb_26","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The student wants to <strong>emphasize a difference</strong> between the two seaweeds. The notes show one specific difference: konbu's umami was rated <em>moderate</em>, while arame's was rated <em>high</em>. The correct answer must name both seaweeds and contrast their umami intensities."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'North Pacific konbu is a type of brown seaweed, but so is arame.'</strong>: Points out a <em>similarity</em> (both are brown seaweeds), not a difference. &#10007;</li><li><strong>Choice B &mdash; 'While North Pacific konbu and arame contain umami flavor, umami can also be found in tuna and garlic.'</strong>: Shifts focus to tuna and garlic &mdash; irrelevant to a difference between the two seaweeds. &#10007;</li><li><strong>Choice C &mdash; 'Although North Pacific konbu and arame are types of brown seaweed, the latter&apos;s umami flavor is more intense.'</strong>: Concedes the similarity (both brown seaweeds) and then directly states the difference: arame's umami is more intense than konbu's. &#10003;</li><li><strong>Choice D &mdash; 'Some types of brown seaweed, like North Pacific konbu and arame, trigger umami flavor in human taste buds.'</strong>: Groups them together without contrasting their umami ratings. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "9f9439b4-1f8b-48cd-b607-fd0776fedebb_26",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The student wants to <strong>emphasize a difference</strong> between the two seaweeds. The notes show one specific difference: konbu's umami was rated <em>moderate</em>, while arame's was rated <em>high</em>. The correct answer must name both seaweeds and contrast their umami intensities."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; North Pacific konbu is a type of brown seaweed, but so is arame.</strong>: Points out a <em>similarity</em> (both are brown seaweeds), not a difference. &#10007;</li><li><strong>Choice B &mdash; While North Pacific konbu and arame contain umami flavor, umami can also be found in tuna and garlic.</strong>: Shifts focus to tuna and garlic &mdash; irrelevant to a difference between the two seaweeds. &#10007;</li><li><strong>Choice C &mdash; Although North Pacific konbu and arame are types of brown seaweed, the latter's umami flavor is more intense.</strong>: Concedes the similarity (both brown seaweeds) and then directly states the difference: arame's umami is more intense than konbu's. &#10003;</li><li><strong>Choice D &mdash; Some types of brown seaweed, like North Pacific konbu and arame, trigger umami flavor in human taste buds.</strong>: Groups them together without contrasting their umami ratings. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -13,7 +13,7 @@
     },
     {
       "title": "Answer",
-      "content": "<strong>48</strong> is correct."
+      "content": "<strong>48</strong> is correct. The problem asks for the coordinate value $d$, so the final response should be the number itself rather than the full equation of the line."
     }
   ]
 }

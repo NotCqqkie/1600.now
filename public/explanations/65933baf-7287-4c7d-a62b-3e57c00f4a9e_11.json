@@ -1,1 +1,15 @@
-{"questionId": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_11", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the core tension", "content": "The passage uses “Although” to highlight a contradiction: hDNA <em>can yield many insights</em> about evolutionary history, yet it <em>remains a relatively underutilized resource</em>.<br/><br/>The passage attributes this gap to a specific cause: hDNA is degraded, and this degradation <em>“is not easily remediable under current methodological paradigms.”</em>"}, {"title": "Match the tension to the choices", "content": "Choice B affirms hDNA's potential to enhance understanding of the evolutionary past while attributing its limited use to the technical difficulty of extracting viable data—directly mirroring the passage's reasoning.<br/><br/>The other choices either attribute underutilization to the wrong cause (A mentions specimens rather than degradation), introduce unsupported claims about scientific debate (C), or shift focus to future alternatives rather than present constraints (D).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_11",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the core tension",
+      "content": "The passage uses “Although” to highlight a contradiction: hDNA <em>can yield many insights</em> about evolutionary history, yet it <em>remains a relatively underutilized resource</em>.<br/><br/>The passage attributes this gap to a specific cause: hDNA is degraded, and this degradation <em>“is not easily remediable under current methodological paradigms.”</em>"
+    },
+    {
+      "title": "Match the tension to the choices",
+      "content": "The correct response affirms hDNA's potential to enhance understanding of the evolutionary past while attributing its limited use to the technical difficulty of extracting viable data—directly mirroring the passage's reasoning.<br/><br/>The other choices either attribute underutilization to the wrong cause (A mentions specimens rather than degradation), introduce unsupported claims about scientific debate or shift focus to future alternatives rather than present constraints.<br/><br/>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

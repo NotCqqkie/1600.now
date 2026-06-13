@@ -1,1 +1,15 @@
-{"questionId": "c188a397", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the passage calls surprising", "content": "The passage states scientists expected marsquakes to originate from all over the planet, but the InSight data showed the opposite &mdash; every marsquake started from the same single location. That direct contradiction between expectation and finding is what the passage marks as the surprising discovery."}, {"title": "Eliminate wrong choices and confirm the match", "content": "<ul><li><strong>Choice A &mdash; 'The surface temperature of Mars has been rising.'</strong>: Not mentioned in the passage; unrelated to marsquake origins. &#10007;</li><li><strong>Choice B &mdash; 'There were different types of seismic waves causing marsquakes.'</strong>: The passage does not discuss wave types; this is not the stated surprise. &#10007;</li><li><strong>Choice C &mdash; 'NASA&apos;s InSight lander collected less data than scientists had expected.'</strong>: Contradicts the passage, which describes data leading to a discovery, not a data shortage. &#10007;</li><li><strong>Choice D &mdash; 'All the marsquakes started from the same location on the planet.'</strong>: Restates precisely what the passage identifies as the surprising finding, directly contradicting the scientists&apos; expectation of widespread origins. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "c188a397",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the passage calls surprising",
+      "content": "The passage states scientists expected marsquakes to originate from all over the planet, but the InSight data showed the opposite &mdash; every marsquake started from the same single location. That direct contradiction between expectation and finding is what the passage marks as the surprising discovery."
+    },
+    {
+      "title": "Eliminate wrong choices and confirm the match",
+      "content": "<ul><li><strong>Choice A &mdash; The surface temperature of Mars has been rising.</strong>: Not mentioned in the passage; unrelated to marsquake origins. &#10007;</li><li><strong>Choice B &mdash; There were different types of seismic waves causing marsquakes.</strong>: The passage does not discuss wave types; this is not the stated surprise. &#10007;</li><li><strong>Choice C &mdash; NASA's InSight lander collected less data than scientists had expected.</strong>: Contradicts the passage, which describes data leading to a discovery, not a data shortage. &#10007;</li><li><strong>Choice D &mdash; All the marsquakes started from the same location on the planet.</strong>: Restates precisely what the passage identifies as the surprising finding, directly contradicting the scientists&apos; expectation of widespread origins. &#10003;</li></ul>That is the correct answer."
+    }
+  ]
+}

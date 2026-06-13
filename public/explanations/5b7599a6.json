@@ -13,7 +13,7 @@
     },
     {
       "title": "Rule out the other forms",
-      "content": "Choices A and B put the fixed coefficient $18$ on the $y$-term, so at $(0,6)$ they force $18(6)=36$, which is false. Choice D has the wrong sign: at the $x$-intercept it gives $18(2)-R(0)=-36$, or $36=-36$. Only choice <strong>C</strong> matches both intercepts."
+      "content": "The other choices put the fixed coefficient $18$ on the $y$-term, so at $(0,6)$ they force $18(6)=36$, which is false. Choice D (&lsquo;$18x-Ry=-36$&rsquo;) has the wrong sign: at the $x$-intercept it gives $18(2)-R(0)=-36$, or $36=-36$. Only <strong>C</strong> matches both intercepts."
     }
   ]
 }

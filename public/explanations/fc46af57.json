@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; 'r is greater than 1,700'</strong>: 1,700 is the upper bound of the plausible range; values above it are outside the margin of error. &#10007;</li><li><strong>Choice B &mdash; '1,300 is less than r, which is less than 1,700'</strong>: This is exactly the interval 13%&ndash;17% of 10,000, matching the estimate ± margin. &#10003;</li><li><strong>Choice C &mdash; 'is less than r, which is less than 1,500'</strong>: 1,500 corresponds to 15%, the point estimate; values between some lower limit and 1,500 cover only part of the plausible range and exclude the upper half. &#10007;</li><li><strong>Choice D &mdash; 'r is less than 1,300'</strong>: 1,300 is the lower bound; values below it are outside the margin of error. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "<ul><li><strong>\"r is greater than 1,700\"</strong>: 1,700 is the upper bound of the plausible range; values above it are outside the margin of error. &#10007;</li><li><strong>\"1,300 is less than r, which is less than 1,700\"</strong>: This is exactly the interval 13%&ndash;17% of 10,000, matching the estimate ± margin. &#10003;</li><li><strong>\"200 is less than r, which is less than 1,500\"</strong>: 1,500 corresponds to 15%, the point estimate; values between some lower limit and 1,500 cover only part of the plausible range and exclude the upper half. &#10007;</li><li><strong>\"r is less than 1,300\"</strong>: 1,300 is the lower bound; values below it are outside the margin of error. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
     }
   ]
 }

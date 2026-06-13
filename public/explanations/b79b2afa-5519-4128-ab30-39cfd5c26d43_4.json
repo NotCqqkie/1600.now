@@ -1,11 +1,24 @@
 {
+  "questionId": "b79b2afa-5519-4128-ab30-39cfd5c26d43_4",
   "qid": "b79b2afa-5519-4128-ab30-39cfd5c26d43_4",
   "correctAnswer": "C",
   "steps": [
-    "\"At least 40\" means x $\\geq$ 40; \"no more than 65\" means x $\\leq$ 65.",
-    "Both constraints must hold simultaneously, so combine them into one compound inequality.",
-    "The compound inequality is $40 \\leq x \\leq 65$, which means x is between 40 and 65 inclusive.",
-    "That matches choice C &mdash; <strong>C</strong> is correct."
+    {
+      "title": "Step 1",
+      "content": "\"At least 40\" means x $\\geq$ 40; \"no more than 65\" means x $\\leq$ 65."
+    },
+    {
+      "title": "Step 2",
+      "content": "Both constraints must hold simultaneously, so combine them into one compound inequality."
+    },
+    {
+      "title": "Step 3",
+      "content": "The compound inequality is $40 \\leq x \\leq 65$, which means x is between 40 and 65 inclusive."
+    },
+    {
+      "title": "Step 4",
+      "content": "That is the correct answer."
+    }
   ],
   "choices": [
     {
@@ -21,7 +34,7 @@
     {
       "id": "C",
       "text": "$40 \\le x \\le 65$",
-      "elimination": "<ul><li>&apos;At least 40&apos; gives $x \\geq 40$; &apos;no more than 65&apos; gives $x \\leq 65$.</li><li>Writing both together yields $40 \\leq x \\leq 65$, which is exactly this choice.</li><li>That matches choice C &mdash; <strong>C</strong> is correct.</li></ul>"
+      "elimination": "<ul><li>&apos;At least 40&apos; gives $x \\geq 40$; &apos;no more than 65&apos; gives $x \\leq 65$.</li><li>Writing both together yields $40 \\leq x \\leq 65$, which is exactly this choice.</li><li>That is the correct answer.</li></ul>"
     },
     {
       "id": "D",

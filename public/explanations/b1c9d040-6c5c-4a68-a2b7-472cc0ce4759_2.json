@@ -1,1 +1,15 @@
-{"questionId":"b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_2","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The poem says the speaker \"rests deep within the wood, Drawn by its silent call.\" The word \"drawn\" must fit a context where nature's silent call is pulling or luring the speaker into the woods. Look for the choice that captures being attracted or pulled toward something."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Unnoticed'</strong>: means not seen or overlooked. Nothing in the poem suggests the speaker is invisible or ignored. &#10007;</li><li><strong>Choice B &mdash; 'Depicted'</strong>: means shown or represented visually, as in a drawing or painting. The speaker is a person in the woods, not a picture of one. &#10007;</li><li><strong>Choice C &mdash; 'Enticed'</strong>: means attracted or tempted toward something. Nature's \"silent call\" is exactly the kind of lure that entices someone &mdash; the speaker is drawn in by it. &#10003;</li><li><strong>Choice D &mdash; 'Envisioned'</strong>: means imagined or pictured in the mind. The speaker is physically in the wood, not imagining it. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_2",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The poem says the speaker \"rests deep within the wood, Drawn by its silent call.\" The word \"drawn\" must fit a context where nature's silent call is pulling or luring the speaker into the woods. Look for the choice that captures being attracted or pulled toward something."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Unnoticed</strong>: means not seen or overlooked. Nothing in the poem suggests the speaker is invisible or ignored. &#10007;</li><li><strong>Choice B &mdash; Depicted</strong>: means shown or represented visually, as in a drawing or painting. The speaker is a person in the woods, not a picture of one. &#10007;</li><li><strong>Choice C &mdash; Enticed</strong>: means attracted or tempted toward something. Nature's \"silent call\" is exactly the kind of lure that entices someone &mdash; the speaker is drawn in by it. &#10003;</li><li><strong>Choice D &mdash; Envisioned</strong>: means imagined or pictured in the mind. The speaker is physically in the wood, not imagining it. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

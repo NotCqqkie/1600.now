@@ -77,7 +77,7 @@
     "difficulty": "Easy",
     "question_number": 3,
     "test_name": "Module Source 138 Math M1",
-    "passage": "For the linear function $f$, the graph of $y= f(x)$ in the $xy$-plane has a slope of $\\frac{1}{4}$ and passes through the point $(0, 5)$. which equation defnes $f$?",
+    "passage": "For the linear function $f$, the graph of $y= f(x)$ in the $xy$-plane has a slope of $\\frac{1}{4}$ and passes through the point $(0, 5)$. Which equation defines $f$?",
     "question_text": null,
     "choices": [
       {
@@ -129,19 +129,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$160 - 15.7 < x < 160 - 12.7$"
+        "text": "$160 - 15.7 \\lt x \\lt 160 - 12.7$"
       },
       {
         "label": "B",
-        "text": "$160 + 12.7 < x < 160 + 15.7$"
+        "text": "$160 + 12.7 \\lt x \\lt 160 + 15.7$"
       },
       {
         "label": "C",
-        "text": "$160(12.7) < x < 160(15.7)$"
+        "text": "$160(12.7) \\lt x \\lt 160(15.7)$"
       },
       {
         "label": "D",
-        "text": "$\\frac{160}{15.7} < x < \\frac{160}{12.7}$"
+        "text": "$\\frac{160}{15.7} \\lt x \\lt \\frac{160}{12.7}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -156,7 +156,7 @@
     "difficulty": "Easy",
     "question_number": 7,
     "test_name": "Module Source 138 Math M1",
-    "passage": "If $46=16+2(x-8)$, what is the value of 2(x-8)?",
+    "passage": "If $46=16+2(x-8)$, what is the value of $2(x-8)$?",
     "question_text": null,
     "choices": [
       {
@@ -188,7 +188,7 @@
     "difficulty": "Easy",
     "question_number": 9,
     "test_name": "Module Source 138 Math M1",
-    "passage": "In triangle $ABC$, the measure of angle $A$ is $47^\\circ$, the measure of angle $B$ is $90^\\circ$, and the measure of angle $C$ is ($\\frac{k}{2}$)°. What is the value of $k$?",
+    "passage": "In triangle $ABC$, the measure of angle $A$ is $47^\\circ$, the measure of angle $B$ is $90^\\circ$, and the measure of angle $C$ is $\\frac{k}{2}^\\circ$. What is the value of $k$?",
     "question_text": null,
     "choices": [
       {
@@ -289,7 +289,7 @@
     "difficulty": "Easy",
     "question_number": 13,
     "test_name": "Module Source 138 Math M1",
-    "passage": "$y=0.25x^{2}-6.5x+64.25$\nThe equation gives the estimated stock price $y$, in dollars, for a certain company $x$ days after the company went public, where $0 \\leq x < 20$. Which statement is the best interpretation of $(x,y)=(1, 58)$ in this context?",
+    "passage": "$y=0.25x^{2}-6.5x+64.25$\nThe equation gives the estimated stock price $y$, in dollars, for a certain company $x$ days after the company went public, where $0 \\leq x \\lt 20$. Which statement is the best interpretation of $(x,y)=(1, 58)$ in this context?",
     "question_text": null,
     "choices": [
       {
@@ -422,7 +422,7 @@
     "difficulty": "Medium",
     "question_number": 18,
     "test_name": "Module Source 138 Math M1",
-    "passage": "The equation $h=\\frac{9(v-273.15)}{5}+12$ gives the corresponding temperature $h$, in degrees Fahrenheit, of any substance that has a temperature of $v$ kelvins, where $v > 0$. If a substance has a temperature of 467.33 degrees Fahrenheit, what is the corresponding temperature, in kelvins, of this substance?",
+    "passage": "The equation $h=\\frac{9(v-273.15)}{5}+12$ gives the corresponding temperature $h$, in degrees Fahrenheit, of any substance that has a temperature of $v$ kelvins, where $v \\gt 0$. If a substance has a temperature of 467.33 degrees Fahrenheit, what is the corresponding temperature, in kelvins, of this substance?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

@@ -1,1 +1,15 @@
-{"questionId": "c54d1c21-6311-4c45-9089-a236778df0e9_9", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The passage criticizes the energy ladder model as &quot;reductive.&quot; It concedes that income &quot;of course constrained fuel choice&quot; but adds that several other factors also influenced decisions. The question asks what the author would most likely agree with about household income."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'can explain some but not all of the differences in fuel choice'</strong>: matches perfectly — income mattered (&quot;of course constrained&quot;) but other factors also played a role, so income is partial, not complete. &#10003;</li><li><strong>Choice B &mdash; 'often said to influence fuel choice but actually does not'</strong>: too strong — the author explicitly says income &quot;of course constrained fuel choice,&quot; acknowledging a real effect. &#10007;</li><li><strong>Choice C &mdash; 'affects fuel choice but not for the reasons assumed by the energy ladder model'</strong>: the passage doesn't dispute the mechanism by which income affects choice, only that income alone is insufficient. &#10007;</li><li><strong>Choice D &mdash; 'constrains the amount of fuel but not the type'</strong>: the energy ladder model is specifically about fuel type (solid vs. high-technology), and the passage never introduces an amount vs. type distinction. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "c54d1c21-6311-4c45-9089-a236778df0e9_9",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage criticizes the energy ladder model as &quot;reductive.&quot; It concedes that income &quot;of course constrained fuel choice&quot; but adds that several other factors also influenced decisions. The question asks what the author would most likely agree with about household income."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; It can explain some but not all of the differences in fuel choice across households.</strong>: matches perfectly — income mattered (&quot;of course constrained&quot;) but other factors also played a role, so income is partial, not complete. &#10003;</li><li><strong>Choice B &mdash; It is often said to influence household fuel choice but actually does not.</strong>: too strong — the author explicitly says income &quot;of course constrained fuel choice,&quot; acknowledging a real effect. &#10007;</li><li><strong>Choice C &mdash; It affects household fuel choice but not for the reasons assumed by the energy ladder model.</strong>: the passage doesn't dispute the mechanism by which income affects choice, only that income alone is insufficient. &#10007;</li><li><strong>Choice D &mdash; It constrains the amount of fuel households use but not the type of fuel they use.</strong>: the energy ladder model is specifically about fuel type (solid vs. high-technology), and the passage never introduces an amount vs. type distinction. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

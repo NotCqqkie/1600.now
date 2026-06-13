@@ -9,7 +9,7 @@
     },
     {
       "title": "Test the answer choices",
-      "content": "Backsolving — testing choice C (18): If $x = 18$, then $x + 8 = 26$, and $18 \\times 26 = 468 \\neq 180$. Fails. Testing choice B (10): If $x = 10$, then $x + 8 = 18$, and $10 \\times 18 = 180$. That matches choice B — <strong>B</strong> is correct."
+      "content": "Backsolving $x=18$: If $x = 18$, then $x + 8 = 26$, and $18 \\times 26 = 468 \\neq 180$. Fails. Testing $x=10$: If $x = 10$, then $x + 8 = 18$, and $10 \\times 18 = 180$. <strong>B</strong> is correct."
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Use the triangle angle sum property",
-      "content": "The figure shows a right triangle with one angle of $90°$ and one angle of $45°$. The three interior angles of any triangle sum to $180°$:<br/>$$90 + 45 + x = 180$$<br/>$$135 + x = 180$$<br/>$$x = 45$$"
+      "content": "The figure shows a right triangle with one angle of $90^{\\circ}$ and one angle of $45^{\\circ}$. The three interior angles of any triangle sum to $180^{\\circ}$:<br/>$$90 + 45 + x = 180$$<br/>$$135 + x = 180$$<br/>$$x = 45$$"
     },
     {
       "title": "Confirm with the isosceles right triangle property",
-      "content": "Because two angles are equal ($45° = 45°$), the triangle is isosceles. The two legs opposite the equal angles are congruent, which is consistent with a 45-45-90 right triangle.<br/><br/>Therefore $x = $ <strong>45</strong>."
+      "content": "Because two angles are equal ($45^{\\circ} = 45^{\\circ}$), the triangle is isosceles. The two legs opposite the equal angles are congruent, which is consistent with a 45-45-90 right triangle.<br/><br/>Therefore $x = $ <strong>45</strong>."
     }
   ]
 }

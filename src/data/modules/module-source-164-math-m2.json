@@ -117,7 +117,7 @@
     "difficulty": "Easy",
     "question_number": 5,
     "test_name": "Module Source 164 Math M2",
-    "passage": "Which expression is equivalent to $\\frac{6v^{12}}{18v^{3}}$, where $v>0$?",
+    "passage": "Which expression is equivalent to $\\frac{6v^{12}}{18v^{3}}$, where $v \\gt 0$?",
     "question_text": null,
     "choices": [
       {
@@ -259,7 +259,7 @@
     "difficulty": "Medium",
     "question_number": 10,
     "test_name": "Module Source 164 Math M2",
-    "passage": "$y=-2x-10$\n$y=2x+16$\nThe solution to the given system of equations is ($x$, $y$). What is the value of $y$?",
+    "passage": "$y=-2x-10$\n$y=2x+16$\nThe solution to the given system of equations is $(x, y)$. What is the value of $y$?",
     "question_text": null,
     "choices": [
       {
@@ -355,7 +355,7 @@
       },
       {
         "label": "D",
-        "text": "$\\sqrt{3}$"
+        "text": "$3,249\\sqrt{3}$"
       }
     ],
     "is_fill_in_blank": false,
@@ -370,24 +370,24 @@
     "difficulty": "Medium",
     "question_number": 14,
     "test_name": "Module Source 164 Math M2",
-    "passage": "$y < -5x - 19$\n$y > -3x - 12$\nFor which of the following tables are all the values of $x$ and their corresponding values of $y$ solutions to the given system of inequalities?",
+    "passage": "$y \\lt -5x - 19$\n$y \\gt -3x - 12$\nFor which of the following tables are all the values of $x$ and their corresponding values of $y$ solutions to the given system of inequalities?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$x$ $y$ -5 6 -6 9 -8 -4"
+        "text": "<table class=\"cb-table\"><thead><tr><th>$x$</th><th>$y$</th></tr></thead><tbody><tr><td>$-5$</td><td>$6$</td></tr><tr><td>$-6$</td><td>$9$</td></tr><tr><td>$-8$</td><td>$-4$</td></tr></tbody></table>"
       },
       {
         "label": "B",
-        "text": "$x$ $y$ -5 4 -6 10 -8 19"
+        "text": "<table class=\"cb-table\"><thead><tr><th>$x$</th><th>$y$</th></tr></thead><tbody><tr><td>$-5$</td><td>$4$</td></tr><tr><td>$-6$</td><td>$10$</td></tr><tr><td>$-8$</td><td>$19$</td></tr></tbody></table>"
       },
       {
         "label": "C",
-        "text": "$x$ $y$ -5 2 -6 9 -8 19"
+        "text": "<table class=\"cb-table\"><thead><tr><th>$x$</th><th>$y$</th></tr></thead><tbody><tr><td>$-5$</td><td>$2$</td></tr><tr><td>$-6$</td><td>$9$</td></tr><tr><td>$-8$</td><td>$19$</td></tr></tbody></table>"
       },
       {
         "label": "D",
-        "text": "$x$ $y$ -5 1 -6 16 -8 -4"
+        "text": "<table class=\"cb-table\"><thead><tr><th>$x$</th><th>$y$</th></tr></thead><tbody><tr><td>$-5$</td><td>$1$</td></tr><tr><td>$-6$</td><td>$16$</td></tr><tr><td>$-8$</td><td>$-4$</td></tr></tbody></table>"
       }
     ],
     "is_fill_in_blank": false,
@@ -466,7 +466,7 @@
     "difficulty": "Medium",
     "question_number": 17,
     "test_name": "Module Source 164 Math M2",
-    "passage": "$f(x)=k(1.83)^{x}$\nThe function $f$ is defined by the given equation, where $k$ is a constant. The value of $f(x)$ increases by $p$% for every increase of $x$ by 1. For which of the following functions, where $k$ is a constant, does the value of $g(x)$ increase by $p$% for every increase of $x$ by $\\frac{1}{4}$?",
+    "passage": "$f(x)=k(1.83)^{x}$\nThe function $f$ is defined by the given equation, where $k$ is a constant. The value of $f(x)$ increases by $p\\%$ for every increase of $x$ by 1. For which of the following functions, where $k$ is a constant, does the value of $g(x)$ increase by $p\\%$ for every increase of $x$ by $\\frac{1}{4}$?",
     "question_text": null,
     "choices": [
       {
@@ -498,7 +498,7 @@
     "difficulty": "Hard",
     "question_number": 18,
     "test_name": "Module Source 164 Math M2",
-    "passage": "A line intersects two parallel lines, forming four acute angles and four obtuse angles. The measure of one of the acute angles is $(9x - 490)°$. The sum of the measures of one of the acute angles and three of the obtuse angles is $(-18x + w)°$. What is the value of $w$?",
+    "passage": "A line intersects two parallel lines, forming four acute angles and four obtuse angles. The measure of one of the acute angles is $(9x - 490)^{\\circ}$. The sum of the measures of one of the acute angles and three of the obtuse angles is $(-18x + w)^{\\circ}$. What is the value of $w$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -513,7 +513,7 @@
     "difficulty": "Medium",
     "question_number": 19,
     "test_name": "Module Source 164 Math M2",
-    "passage": "The exponential function $f$ is defined by $f(x)= ab^x$, where $a$ and $b$ are positive constants. If $f(n-1)=f(n)+\\frac{82}{100}f(n-1)$, where $n$ is a constant, what is the value of $b$?",
+    "passage": "The exponential function $f$ is defined by $f(x)=a\\cdot b^{x}$, where $a$ and $b$ are positive constants. If $f(n-1)=f(n)+\\frac{82}{100}f(n-1)$, where $n$ is a constant, what is the value of $b$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

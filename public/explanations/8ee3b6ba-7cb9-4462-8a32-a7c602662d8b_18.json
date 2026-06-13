@@ -1,1 +1,15 @@
-{"questionId": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_18", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structure", "content": "On the left is a noun phrase—”such symbiotic relationships” with a modifying relative clause. On the right is a noun phrase—”extensive networks” with a modifying relative clause. A finite verb is needed to connect them as the main predicate."}, {"title": "Apply the semicolon rule", "content": "A semicolon joins two independent clauses, so the second must have a finite verb as its main predicate. “Form” is simple present tense and agrees with “relationships.” The other options—forming, to form, and having formed—are non-finite forms that cannot serve as an independent clause's main verb.<br/><br/>This matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_18",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "On the left is a noun phrase—”such symbiotic relationships” with a modifying relative clause. On the right is a noun phrase—”extensive networks” with a modifying relative clause. A finite verb is needed to connect them as the main predicate."
+    },
+    {
+      "title": "Apply the semicolon rule",
+      "content": "A semicolon joins two independent clauses, so the second must have a finite verb as its main predicate. “Form” is simple present tense and agrees with “relationships.” The other options—forming, to form, and having formed—are non-finite forms that cannot serve as an independent clause's main verb.<br/><br/>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

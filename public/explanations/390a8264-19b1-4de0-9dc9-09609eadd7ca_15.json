@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate all choices",
-      "content": "<ul><li>Choice A: I only — the mean must decrease; the median need not. That matches choice A — <strong>A</strong> is correct.</li><li>Choice B: II only — the median is not guaranteed to decrease. Eliminated.</li><li>Choice C: I and II — Statement II is not always true. Eliminated.</li><li>Choice D: Neither — Statement I is always true. Eliminated.</li></ul>"
+      "content": "<ul><li>The matching choice: I only — the mean must decrease; the median need not. <strong>A</strong> is correct.</li><li>II only — the median is not guaranteed to decrease. Eliminated.</li><li>I and II — Statement II is not always true. Eliminated.</li><li>Neither — Statement I is always true. Eliminated.</li></ul>"
     }
   ]
 }

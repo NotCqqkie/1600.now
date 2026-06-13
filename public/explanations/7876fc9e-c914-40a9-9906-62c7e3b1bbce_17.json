@@ -1,1 +1,15 @@
-{"questionId": "7876fc9e-c914-40a9-9906-62c7e3b1bbce_17", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the subject and find a finite verb", "content": "The subject is <em>The extensor digitorum brevis</em> — a single muscle. The phrase \"which is attached to the calcaneus\" is a relative clause; the main clause still needs a finite verb, not a participle or infinitive."}, {"title": "Match a singular finite verb", "content": "<strong>bears</strong> (a singular present-tense verb) agrees with the singular subject and works as the main verb. <em>Bearing</em> and <em>having borne</em> are participles (not finite verbs), and <em>to bear</em> is an infinitive — none can serve as the main verb of the sentence.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "7876fc9e-c914-40a9-9906-62c7e3b1bbce_17",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the subject and find a finite verb",
+      "content": "The subject is <em>The extensor digitorum brevis</em> — a single muscle. The phrase \"which is attached to the calcaneus\" is a relative clause; the main clause still needs a finite verb, not a participle or infinitive."
+    },
+    {
+      "title": "Match a singular finite verb",
+      "content": "<strong>bears</strong> (a singular present-tense verb) agrees with the singular subject and works as the main verb. <em>Bearing</em> and <em>having borne</em> are participles (not finite verbs), and <em>to bear</em> is an infinitive — none can serve as the main verb of the sentence.<br/><br/>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

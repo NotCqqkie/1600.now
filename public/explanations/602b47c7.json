@@ -1,1 +1,19 @@
-{"questionId": "602b47c7", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the setup and the finding", "content": "Biologists predicted that feather structure varies with habitat temperature, but it hadn't been tested in mountains. Barve tested 249 Himalayan songbird species across elevations and found high-elevation feathers have more downy sections and are longer."}, {"title": "Relate the finding to the prediction", "content": "Barve's data show feather structure tracks elevation (and thus temperature), which is exactly what the prediction said should happen. The study therefore supports the prediction."}, {"title": "Eliminate by choice", "content": "<ul><li><strong>Choice A &mdash; 'contradicting previous predictions'</strong>: overreach &mdash; the results match, not contradict, the prediction. &#10007;</li><li><strong>Choice B &mdash; 'lending new support to a general prediction'</strong>: matches both the finding (link between temperature and feather structure) and its relation to the prior prediction. &#10003;</li><li><strong>Choice C &mdash; 'feathers without flat and smooth sections'</strong>: misreads the text, which says high-elevation feathers have a greater proportion of downy to flat sections, not that flat sections are absent. &#10007;</li><li><strong>Choice D &mdash; 'feather length more strongly than feather structure'</strong>: the passage never compares the relative strength of length versus structure; this is an unsupported overreach. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "602b47c7",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the setup and the finding",
+      "content": "Biologists predicted that feather structure varies with habitat temperature, but it hadn't been tested in mountains. Barve tested 249 Himalayan songbird species across elevations and found high-elevation feathers have more downy sections and are longer."
+    },
+    {
+      "title": "Relate the finding to the prediction",
+      "content": "Barve's data show feather structure tracks elevation (and thus temperature), which is exactly what the prediction said should happen. The study therefore supports the prediction."
+    },
+    {
+      "title": "Eliminate by choice",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Barve's investigation shows that some species of Himalayan songbirds have evolved feathers that better regulate body temperature than do the feathers of other species, contradicting previous predictions.&rsquo;</strong>: overreach &mdash; the results match, not contradict, the prediction. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Barve found an association between habitat temperature and feather structure among Himalayan songbirds, lending new support to a general prediction.&rsquo;</strong>: matches both the finding (link between temperature and feather structure) and its relation to the prior prediction. &#10003;</li><li><strong>Choice C &mdash; &lsquo;Barve discovered that songbirds have adapted to their environment by growing feathers without flat and smooth sections, complicating an earlier hypothesis.&rsquo;</strong>: misreads the text, which says high-elevation feathers have a greater proportion of downy to flat sections, not that flat sections are absent. &#10007;</li><li><strong>Choice D &mdash; &lsquo;The results of Barve's study suggest that the ability of birds to withstand cold temperatures is determined more strongly by feather length than feather structure, challenging an established belief.&rsquo;</strong>: the passage never compares the relative strength of length versus structure; this is an unsupported overreach. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

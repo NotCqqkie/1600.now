@@ -1,1 +1,15 @@
-{"questionId":"20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_20","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence has a noun phrase structure: \"lawyer and cycling advocate [name].\" The name identifies the specific person referred to. Because the name is essential to identifying who is meant (without it, \"lawyer and cycling advocate\" could be anyone), it must not be set off by commas. The rule: essential (restrictive) noun phrases take no comma; non-essential ones take commas on both sides."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'advocate, Ernesto Hernandez-Lopez,'</strong>: Places commas on both sides of the name, treating it as non-essential information &mdash; but the name is essential to identify who is meant. &#10007;</li><li><strong>Choice B &mdash; 'advocate Ernesto Hernandez-Lopez,'</strong>: Correctly omits the comma before the name, but adds a comma after it. That comma would incorrectly separate the subject from its verb. &#10007;</li><li><strong>Choice C &mdash; 'advocate, Ernesto Hernandez-Lopez'</strong>: Places a comma before the name but not after, creating an asymmetric and grammatically broken construction. &#10007;</li><li><strong>Choice D &mdash; 'advocate Ernesto Hernandez-Lopez'</strong>: No comma before or after the name. The name is joined directly to the appositive noun phrase and the sentence flows correctly to its verb. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_20",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence has a noun phrase structure: \"lawyer and cycling advocate [name].\" The name identifies the specific person referred to. Because the name is essential to identifying who is meant (without it, \"lawyer and cycling advocate\" could be anyone), it must not be set off by commas. The rule: essential (restrictive) noun phrases take no comma; non-essential ones take commas on both sides."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; advocate, Ernesto Hernandez-Lopez,</strong>: Places commas on both sides of the name, treating it as non-essential information &mdash; but the name is essential to identify who is meant. &#10007;</li><li><strong>Choice B &mdash; advocate Ernesto Hernandez-Lopez,</strong>: Correctly omits the comma before the name, but adds a comma after it. That comma would incorrectly separate the subject from its verb. &#10007;</li><li><strong>Choice C &mdash; advocate, Ernesto Hernandez-Lopez</strong>: Places a comma before the name but not after, creating an asymmetric and grammatically broken construction. &#10007;</li><li><strong>Choice D &mdash; advocate Ernesto Hernandez-Lopez</strong>: No comma before or after the name. The name is joined directly to the appositive noun phrase and the sentence flows correctly to its verb. &#10003;</li></ul>That matches <strong>Choice D &mdash; advocate Ernesto Hernandez-Lopez</strong>."
+    }
+  ]
+}

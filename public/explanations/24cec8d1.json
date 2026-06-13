@@ -13,7 +13,7 @@
     },
     {
       "title": "Use angle sum to solve for the base angle",
-      "content": "The three angles of triangle $ORS$ sum to $180°$:<br/>$$\\angle ROS + \\angle ORS + \\angle RSO = 180°$$<br/>Substituting $\\angle ROS = 88°$ and $\\angle ORS = \\angle RSO = x$:<br/>$$88° + x + x = 180°$$<br/>$$88° + 2x = 180°$$<br/>$$2x = 92°$$<br/>$$x = 46°$$<br/>Therefore $\\angle RSO = 46°$, and the answer is <strong>46</strong>."
+      "content": "The three angles of triangle $ORS$ sum to $180^{\\circ}$:<br/>$$\\angle ROS + \\angle ORS + \\angle RSO = 180^{\\circ}$$<br/>Substituting $\\angle ROS = 88^{\\circ}$ and $\\angle ORS = \\angle RSO = x$:<br/>$$88^{\\circ} + x + x = 180^{\\circ}$$<br/>$$88^{\\circ} + 2x = 180^{\\circ}$$<br/>$$2x = 92^{\\circ}$$<br/>$$x = 46^{\\circ}$$<br/>Therefore $\\angle RSO = 46^{\\circ}$, and the answer is <strong>46</strong>."
     }
   ]
 }

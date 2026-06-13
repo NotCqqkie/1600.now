@@ -1,1 +1,15 @@
-{"questionId": "c54d1c21-6311-4c45-9089-a236778df0e9_23", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the contrast goal", "content": "The student wants to <em>contrast</em> first-class and second-class levers. The notes show the difference: in first-class levers the fulcrum is between effort and load; in second-class levers the load is between effort and fulcrum."}, {"title": "Match the choice", "content": "Choice D states both arrangements side-by-side, making the contrast explicit.<br/><br/>A contrasts effort and load (different concept). B is too vague (\"in different locations\"). C points out a similarity (both have a beam and fulcrum) rather than the contrast.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "c54d1c21-6311-4c45-9089-a236778df0e9_23",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the contrast goal",
+      "content": "The student wants to <em>contrast</em> first-class and second-class levers. The notes show the difference: in first-class levers the fulcrum is between effort and load; in second-class levers the load is between effort and fulcrum."
+    },
+    {
+      "title": "Match the choice",
+      "content": "The correct answer states both arrangements side-by-side, making the contrast explicit.<br/><br/>A contrasts effort and load (different concept). B is too vague (\"in different locations\"). C points out a similarity (both have a beam and fulcrum) rather than the contrast.<br/><br/>That is the correct answer."
+    }
+  ]
+}

@@ -9,7 +9,7 @@
     },
     {
       "title": "Interpret the calculation",
-      "content": "The slope $30$ means each additional lesson adds 30 dollars. The intercept $-30$ is not a literal fee here; it is the intercept of the simplified linear rule for $x>2$. The graph still has to pass through the two real charge points, and $y=30x-30$ does."
+      "content": "The slope $30$ means each additional lesson adds 30 dollars. The intercept $-30$ is not a literal fee here; it is the intercept of the simplified linear rule for $x\\gt 2$. The graph still has to pass through the two real charge points, and $y=30x-30$ does."
     },
     {
       "title": "Write $f(x)$",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Eliminate the other choices",
-      "content": "<ul><li>A) $f(x) = 25x$: $f(6) = 150$ but $f(17) = 425 \\ne 480$.</li><li>B) $f(x) = 25x + 55$: $f(6) = 205 \\ne 150$.</li><li>C) $f(x) = 30x$: $f(6) = 180 \\ne 150$.</li><li>D) $f(x) = 30x - 30$: $f(6) = 150$ and $f(17) = 480$, both match.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "content": "<ul><li>A) $f(x) = 25x$: $f(6) = 150$ but $f(17) = 425 \\ne 480$.</li><li>B) $f(x) = 25x + 55$: $f(6) = 205 \\ne 150$.</li><li>C) $f(x) = 30x$: $f(6) = 180 \\ne 150$.</li><li>D) $f(x) = 30x - 30$: $f(6) = 150$ and $f(17) = 480$, both match.</li></ul>That confirms <strong>D</strong> is correct."
     }
   ]
 }

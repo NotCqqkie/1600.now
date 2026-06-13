@@ -9,11 +9,11 @@
     },
     {
       "title": "Count the intersection points",
-      "content": "The lines have different slopes, so they meet at exactly one point. That matches choice <strong>B</strong> — <strong>B</strong> is correct."
+      "content": "The lines have different slopes, so they meet at exactly one point. That matches the correct answer — <strong>B</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice B, 1, and the other choices fail the same setup or substitution. Therefore <strong>B</strong> is correct."
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above is 1, and the other choices fail the same setup or substitution. Therefore <strong>B</strong> is correct."
     }
   ]
 }

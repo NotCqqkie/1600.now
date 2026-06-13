@@ -9,15 +9,15 @@
     },
     {
       "title": "Use the discriminant shortcut",
-      "content": "Two distinct real solutions means the discriminant is positive. With $a=k$, $b=-40$, and $c=8$, use $$(-40)^2-4(k)(8)>0.$$"
+      "content": "Two distinct real solutions means the discriminant is positive. With $a=k$, $b=-40$, and $c=8$, use $$(-40)^2-4(k)(8)\\gt 0.$$"
     },
     {
       "title": "Solve the threshold",
-      "content": "Simplify the inequality: $$1600-32k>0$$ $$1600>32k$$ $$50>k.$$"
+      "content": "Simplify the inequality: $$1600-32k\\gt 0$$ $$1600\\gt 32k$$ $$50\\gt k.$$"
     },
     {
       "title": "Choose the greatest integer",
-      "content": "The greatest integer less than $50$ is $49$. Check: $1600-32(49)=32>0$, so the quadratic still has two distinct real solutions. The answer is <strong>49</strong>."
+      "content": "The greatest integer less than $50$ is $49$. Check: $1600-32(49)=32\\gt 0$, so the quadratic still has two distinct real solutions. The answer is <strong>49</strong>."
     }
   ]
 }

@@ -9,7 +9,7 @@
     },
     {
       "title": "Find f(5)",
-      "content": "The problem says the graph passes through $(5, 2)$. Using our understanding from Step 1, the input is 5 and the output is 2, so $f(5) = 2$. That matches choice A — <strong>A</strong> is correct."
+      "content": "The problem says the graph passes through $(5, 2)$. Using our understanding from Step 1, the input is 5 and the output is 2, so $f(5) = 2$. That matches <strong>Choice A &mdash; 2</strong>."
     }
   ]
 }

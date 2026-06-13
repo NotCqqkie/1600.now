@@ -1,1 +1,15 @@
-{"questionId": "f8244f7c", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the contradiction needed to refute the hypothesis", "content": "The hypothesis claims larger bills appear in hotter habitats. To show this hypothesis isn't fully supported, we need data where the relationship reverses: a large bill in a cold habitat or vice versa."}, {"title": "Match the reversal to the data", "content": "D shows the largest-billed bird (ocellated, 3.26 cm²) in the coldest habitat (27.56°C) and the second-smallest-billed bird (Bendire's, 1.98 cm²) in the hottest habitat (36.57°C)—a direct reversal of the hypothesis.<br/><br/>A and B contain factual errors about the temperature data; C shows a correlation that would actually support the hypothesis.<br/><br/>This matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "f8244f7c",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the contradiction needed to refute the hypothesis",
+      "content": "The hypothesis claims larger bills appear in hotter habitats. To show this hypothesis isn't fully supported, we need data where the relationship reverses: a large bill in a cold habitat or vice versa."
+    },
+    {
+      "title": "Match the reversal to the data",
+      "content": "D shows the largest-billed bird (ocellated, 3.26 cm²) in the coldest habitat (27.56 degreesC) and the second-smallest-billed bird (Bendire's, 1.98 cm²) in the hottest habitat (36.57 degreesC)—a direct reversal of the hypothesis.<br/><br/>A and B contain factual errors about the temperature data; C shows a correlation that would actually support the hypothesis.<br/><br/>This matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

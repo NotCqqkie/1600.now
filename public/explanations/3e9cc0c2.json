@@ -13,7 +13,7 @@
     },
     {
       "title": "Eliminate wrong choices",
-      "content": "<ul><li>Choice A: $$1 - p^8$$ — would require a factor up to $$p^7$$, not $$p^6$$. Eliminated.</li><li>Choice B: $$1 - p^7$$ — matches the telescoped result. This is correct.</li><li>Choice C: $$1 - p^6$$ — would require the series to end at $$p^5$$. Eliminated.</li><li>Choice D: $$1 - p^5$$ — would require the series to end at $$p^4$$. Eliminated.</li></ul>That matches choice B — <strong>B</strong> is correct."
+      "content": "<ul><li>$1 - p^8$ — would require a factor up to $$p^7$$, not $$p^6$$. Eliminated.</li><li>The matching choice: $1 - p^7$ — matches the telescoped result. This is correct.</li><li>$1 - p^6$ — would require the series to end at $$p^5$$. Eliminated.</li><li>$1 - p^5$ — would require the series to end at $$p^4$$. Eliminated.</li></ul><strong>B</strong> is correct."
     }
   ]
 }

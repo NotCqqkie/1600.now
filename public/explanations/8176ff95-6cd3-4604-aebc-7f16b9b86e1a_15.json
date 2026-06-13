@@ -9,7 +9,7 @@
     },
     {
       "title": "Convert the growth factor to a percentage increase",
-      "content": "Calculate $(1.40)^2 = 1.96$. When $f(x)$ is multiplied by 1.96, the increase from the original value is $1.96 - 1 = 0.96$, or $0.96 \\times 100\\% = 96\\%$. That matches choice D — <strong>D</strong> is correct."
+      "content": "Calculate $(1.40)^2 = 1.96$. When $f(x)$ is multiplied by 1.96, the increase from the original value is $1.96 - 1 = 0.96$, or $0.96 \\times 100\\% = 96\\%$. That confirms <strong>D</strong> is correct."
     }
   ]
 }

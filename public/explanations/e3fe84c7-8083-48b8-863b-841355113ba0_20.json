@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; 'Ⅰ only'</strong>: ignores whether Ⅱ also works. &#10007;</li><li><strong>Choice B &mdash; 'Ⅱ only'</strong>: ignores whether Ⅰ also works. &#10007;</li><li><strong>Choice C &mdash; 'Ⅰ and Ⅱ'</strong>: Equation Ⅰ: divide $10.5x + 7.5y = 3$ by $1.5$ to get $7x + 5y = 2$ — the same line, so infinitely many solutions. &#10003; Equation Ⅱ: rewrite $10.5x - 7.5y = 3$ as $y = \\frac{7}{5}x - \\frac{2}{5}$ (slope $\\frac{7}{5}$). The original has slope $-\\frac{7}{5}$. Different slopes mean they intersect — one solution. &#10003; Both allow at least one solution. &#10003;</li><li><strong>Choice D &mdash; 'Neither Ⅰ nor Ⅱ'</strong>: both equations produce systems with solutions, so this is wrong. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.",
+      "content": "<ul><li><strong>\"I only\"</strong>: ignores whether Ⅱ also works. &#10007;</li><li><strong>\"II only\"</strong>: ignores whether Ⅰ also works. &#10007;</li><li><strong>\"I and II\"</strong>: Equation Ⅰ: divide $10.5x + 7.5y = 3$ by $1.5$ to get $7x + 5y = 2$ — the same line, so infinitely many solutions. &#10003; Equation Ⅱ: rewrite $10.5x - 7.5y = 3$ as $y = \\frac{7}{5}x - \\frac{2}{5}$ (slope $\\frac{7}{5}$). The original has slope $-\\frac{7}{5}$. Different slopes mean they intersect — one solution. &#10003; Both allow at least one solution. &#10003;</li><li><strong>\"Neither I nor II\"</strong>: both equations produce systems with solutions, so this is wrong. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct.",
       "desmosExpressions": [
         "y = \\frac{2 - 7x}{5}",
         "y = \\frac{3 - 10.5x}{7.5}",

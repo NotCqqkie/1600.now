@@ -9,14 +9,14 @@
     },
     {
       "title": "Use table values to test choices",
-      "content": "Evaluate the original and each choice on the same $x$-list. The list for choice A is identical to the original list; the other choices differ.",
+      "content": "Evaluate the original and each choice on the same $x$-list. The list for the correct answer is identical to the original list; the other choices differ.",
       "desmosExpressions": [
         "x_1=[-2,0,1,3]"
       ]
     },
     {
       "title": "Confirm the choice",
-      "content": "Only choice A matches the original expression across the tested values. That identifies the equivalent form without completing the square by hand, so choice <strong>A</strong> is correct."
+      "content": "The expression in <strong>A</strong> matches the original expression across the tested values. That identifies the equivalent form without completing the square by hand, so <strong>A</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId":"ff866f0f-f295-4895-b84d-a5c603adf51a_26","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The goal explicitly asks for the cup's name in Choctaw. The notes supply it: <em>isht ishko</em>. The correct choice must include that specific term."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A</strong>: mentions the cup without providing its Choctaw name. &#10007;</li><li><strong>Choice B &mdash; 'includes <em>isht ishko</em>'</strong>: provides the Choctaw name, fulfilling the goal exactly. &#10003;</li><li><strong>Choice C</strong>: skips the cup or omits the name. &#10007;</li><li><strong>Choice D</strong>: skips the cup or omits the name. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "ff866f0f-f295-4895-b84d-a5c603adf51a_26",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The goal explicitly asks for the cup's name in Choctaw. The notes supply it: <em>isht ishko</em>. The correct choice must include that specific term."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"The Hina Hanta archive features cultural artifacts, such as a cup and a stickball collar, that are relevant to the history of the Choctaw people.\"</strong>: mentions the cup without providing its Choctaw name. &#10007;</li><li><strong>\"The clay cup, which is included in the Hina Hanta online archive, is called an *isht ishko* in Choctaw.\"</strong>: provides the Choctaw name, fulfilling the goal exactly. &#10003;</li><li><strong>\"Hina Hanta, which means \"bright path\" in Choctaw, includes a cup in its archive.\"</strong>: skips the cup or omits the name. &#10007;</li><li><strong>\"The name of the online archive Hina Hanta means \"bright path\" in Choctaw.\"</strong>: skips the cup or omits the name. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+    }
+  ]
+}

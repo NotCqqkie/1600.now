@@ -1,1 +1,15 @@
-{"questionId":"73482b52-a20f-452d-896f-76f578ac2361_16","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence needs a verb for the subject \"an abstract cubist painting.\" Two things must be right: the verb must agree in number with that subject, and the tense must reflect that the painting entered the Western art canon at some point in the past with relevance that continues to the present."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'were entering'</strong>: plural verb. \"A painting were entering\" violates subject-verb agreement — a singular subject requires a singular verb. &#10007;</li><li><strong>Choice B &mdash; 'enter'</strong>: singular and present tense, but simple present describes habitual or ongoing action, not a completed event. The painting doesn't perpetually enter the canon; it entered it. &#10007;</li><li><strong>Choice C &mdash; 'has entered'</strong>: singular present perfect. Agrees with the singular subject and correctly signals a completed past action whose result still matters now — the painting has become part of the canon. &#10003;</li><li><strong>Choice D &mdash; 'have entered'</strong>: present perfect but plural. \"A painting have entered\" is grammatically incorrect — singular subject, plural verb. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "73482b52-a20f-452d-896f-76f578ac2361_16",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence needs a verb for the subject \"an abstract cubist painting.\" Two things must be right: the verb must agree in number with that subject, and the tense must reflect that the painting entered the Western art canon at some point in the past with relevance that continues to the present."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;were entering&rsquo;</strong>: plural verb. \"A painting were entering\" violates subject-verb agreement — a singular subject requires a singular verb. &#10007;</li><li><strong>Choice B &mdash; &lsquo;enter&rsquo;</strong>: singular and present tense, but simple present describes habitual or ongoing action, not a completed event. The painting doesn't perpetually enter the canon; it entered it. &#10007;</li><li><strong>Choice C &mdash; &lsquo;has entered&rsquo;</strong>: singular present perfect. Agrees with the singular subject and correctly signals a completed past action whose result still matters now — the painting has become part of the canon. &#10003;</li><li><strong>Choice D &mdash; &lsquo;have entered&rsquo;</strong>: present perfect but plural. \"A painting have entered\" is grammatically incorrect — singular subject, plural verb. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

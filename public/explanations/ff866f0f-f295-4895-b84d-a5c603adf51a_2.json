@@ -1,1 +1,15 @@
-{"questionId": "ff866f0f-f295-4895-b84d-a5c603adf51a_2", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The word 'instead' signals a contrast: most studies focus on people above sea level, but these researchers chose to study people below sea level. The blank must describe an approach that goes against standard practice."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'predictable'</strong>: implies routine practice &mdash; the opposite of what 'instead' signals. &#10007;</li><li><strong>Choice B &mdash; 'timeworn'</strong>: means old and conventional &mdash; contradicts the researchers' unconventional choice. &#10007;</li><li><strong>Choice C &mdash; 'innovative'</strong>: means new and unconventional &mdash; exactly fits researchers who pursued the opposite of standard methodology. &#10003;</li><li><strong>Choice D &mdash; 'idealistic'</strong>: refers to motivation or attitude, not methodology &mdash; doesn't capture the contrast the passage draws. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "ff866f0f-f295-4895-b84d-a5c603adf51a_2",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The word 'instead' signals a contrast: most studies focus on people above sea level, but these researchers chose to study people below sea level. The blank must describe an approach that goes against standard practice."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"predictable\"</strong>: implies routine practice &mdash; the opposite of what 'instead' signals. &#10007;</li><li><strong>\"timeworn\"</strong>: means old and conventional &mdash; contradicts the researchers' unconventional choice. &#10007;</li><li><strong>\"innovative\"</strong>: means new and unconventional &mdash; exactly fits researchers who pursued the opposite of standard methodology. &#10003;</li><li><strong>\"idealistic\"</strong>: refers to motivation or attitude, not methodology &mdash; doesn't capture the contrast the passage draws. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+    }
+  ]
+}

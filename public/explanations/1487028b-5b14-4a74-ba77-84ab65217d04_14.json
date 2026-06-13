@@ -1,1 +1,15 @@
-{"questionId": "1487028b-5b14-4a74-ba77-84ab65217d04_14", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the goal", "content": "The example must show that <strong>elevation and prominence can differ significantly</strong> for one mountain. We need one mountain whose two values are <strong>far apart</strong>."}, {"title": "Pick the data point", "content": "Choice A: <strong>Saser Kangri III</strong> — elevation $7{,}495$ m vs. prominence only $850$ m. That's a huge gap, perfectly illustrating the elevation/prominence distinction.<br/><br/>B and C compare two mountains, not the two metrics for one mountain. D gives only elevation. Only A directly shows the within-mountain disparity.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "1487028b-5b14-4a74-ba77-84ab65217d04_14",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the goal",
+      "content": "The example must show that <strong>elevation and prominence can differ significantly</strong> for one mountain. We need one mountain whose two values are <strong>far apart</strong>."
+    },
+    {
+      "title": "Pick the data point",
+      "content": "Choice A: Saser Kangri III has an elevation of 7,495 meters but a considerably lower prominence of 850 meters. — That's a huge gap, perfectly illustrating the elevation/prominence distinction.<br/><br/>B and C compare two mountains, not the two metrics for one mountain. D gives only elevation. Only A directly shows the within-mountain disparity.<br/><br/>That matches <strong>Choice A &mdash; Saser Kangri III has an elevation of 7,495 meters but a considerably lower prominence of 850 meters.</strong>."
+    }
+  ]
+}

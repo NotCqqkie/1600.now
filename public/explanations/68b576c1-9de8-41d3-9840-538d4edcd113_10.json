@@ -1,1 +1,15 @@
-{"questionId": "68b576c1-9de8-41d3-9840-538d4edcd113_10", "correctAnswer": "80", "section": "Math", "steps": [{"title": "Interpret the function", "content": "$W(x) = 4x + 80$ gives total time (minutes) to water $x$ plants <em>and</em> mow the grass. The $4x$ term scales with the number of plants (4 minutes per plant). The constant $80$ doesn't depend on $x$ — that's the mowing time."}, {"title": "Verify with x = 0", "content": "If $x = 0$ (no plants watered), $W(0) = 4(0) + 80 = 80$ minutes — time for mowing alone.<br/><br/>The answer is <strong>80</strong>."}]}
+{
+  "questionId": "68b576c1-9de8-41d3-9840-538d4edcd113_10",
+  "correctAnswer": "80",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret the function",
+      "content": "$W(x) = 4x + 80$ gives total time (minutes) to water $x$ plants <em>and</em> mow the grass. The $4x$ term scales with the number of plants (4 minutes per plant). The constant $80$ doesn't depend on $x$ — that's the mowing time."
+    },
+    {
+      "title": "Verify with x = 0",
+      "content": "If $x = 0$ (no plants watered), $W(0) = 4(0) + 80 = 80$ minutes — time for mowing alone.<br/><br/>The answer is <strong>80</strong>."
+    }
+  ]
+}

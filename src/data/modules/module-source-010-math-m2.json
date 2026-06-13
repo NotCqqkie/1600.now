@@ -178,19 +178,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$y>4x+3$"
+        "text": "$y\\gt 4x+3$"
       },
       {
         "label": "B",
-        "text": "$y>4x-3$"
+        "text": "$y\\gt 4x-3$"
       },
       {
         "label": "C",
-        "text": "$y < 4x + 3$"
+        "text": "$y \\lt 4x + 3$"
       },
       {
         "label": "D",
-        "text": "$y < 4x - 3$"
+        "text": "$y \\lt 4x - 3$"
       }
     ],
     "is_fill_in_blank": false,
@@ -394,7 +394,7 @@
     "difficulty": "Medium",
     "question_number": 13,
     "test_name": "Module Source 010 Math M2",
-    "passage": "$x - a = (x - a)(x - 24)$\nWhich of the following are solutions to the given equation, where $a$ is a constant and $a > 25$?\nI. $a$\nII. 24\nIII. 25",
+    "passage": "$x - a = (x - a)(x - 24)$\nWhich of the following are solutions to the given equation, where $a$ is a constant and $a \\gt 25$?\nI. $a$\nII. 24\nIII. 25",
     "question_text": null,
     "choices": [
       {
@@ -600,7 +600,7 @@
     "difficulty": "Medium",
     "question_number": 19,
     "test_name": "Module Source 010 Math M2",
-    "passage": "$3^{117n}(4^{117n})^2$\nFor what value of $x$ is the given expression equivalent to $12^{117nx}$ where $n>1$?",
+    "passage": "$\\sqrt[3]{117n}(\\sqrt[4]{117n})^2$\nFor what value of $x$ is the given expression equivalent to $(117n)^{12x}$ where $n \\gt 1$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

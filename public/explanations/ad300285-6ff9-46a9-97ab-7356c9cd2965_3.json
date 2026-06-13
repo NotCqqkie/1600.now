@@ -13,7 +13,7 @@
     },
     {
       "title": "Match the choice",
-      "content": "The fitted line has slope $\\frac{1}{4}$ and intercept $5$. Choice A matches both. Choice B has intercept $\\frac{1}{5}$, choice C has intercept $-\\frac{5}{4}$, and choice D has intercept $-5$. Choice <strong>A</strong> is correct."
+      "content": "The fitted line has slope $\\frac{1}{4}$ and intercept $5$, so $f(x)=\\frac{1}{4}x+5$. The distractors use intercepts $\\frac{1}{5}$, $-\\frac{5}{4}$, or $-5$ instead of $5$. <strong>A</strong> is correct."
     }
   ]
 }

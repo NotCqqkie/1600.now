@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice C is the only choice that puts $1.53$ with $a$, $1.44$ with $b$, and $1.49$ with the total. Therefore, <strong>C</strong> is correct."
+      "content": "Choice C (&lsquo;$1.53a + 1.44b = 35(1.49)$&rsquo;) is the only choice that puts $1.53$ with $a$, $1.44$ with $b$, and $1.49$ with the total. Therefore, <strong>C</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId": "88552b8b-f774-4f18-b52e-65b24051a3d9_18", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The blank falls between 'cinema' and 'her film.' The phrase before the blank — 'joined the growing number of Indigenous women adding their voices to North American cinema' — is a complete independent clause. The phrase after — 'her film, a selection of the Native Women in Film Festival, is about the art of painter and musician Rick Bartow' — is also a complete independent clause. Two independent clauses must be separated by a period, semicolon, or a comma with a coordinating conjunction."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'cinema, her'</strong>: joins two independent clauses with only a comma — a comma splice. &#10007;</li><li><strong>Choice B &mdash; 'cinema. Her'</strong>: places a period between the two independent clauses, correctly separating them into two complete sentences. &#10003;</li><li><strong>Choice C &mdash; 'cinema and her'</strong>: 'and' is a coordinating conjunction but is not preceded by a comma, and it creates an awkward construction that does not properly join the clauses. &#10007;</li><li><strong>Choice D &mdash; 'cinema her'</strong>: no punctuation between two independent clauses — a run-on sentence. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "88552b8b-f774-4f18-b52e-65b24051a3d9_18",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank falls between 'cinema' and 'her film.' The phrase before the blank — 'joined the growing number of Indigenous women adding their voices to North American cinema' — is a complete independent clause. The phrase after — 'her film, a selection of the Native Women in Film Festival, is about the art of painter and musician Rick Bartow' — is also a complete independent clause. Two independent clauses must be separated by a period, semicolon, or a comma with a coordinating conjunction."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; cinema, her</strong>: joins two independent clauses with only a comma — a comma splice. &#10007;</li><li><strong>Choice B &mdash; cinema. Her</strong>: places a period between the two independent clauses, correctly separating them into two complete sentences. &#10003;</li><li><strong>Choice C &mdash; cinema and her</strong>: 'and' is a coordinating conjunction but is not preceded by a comma, and it creates an awkward construction that does not properly join the clauses. &#10007;</li><li><strong>Choice D &mdash; cinema her</strong>: no punctuation between two independent clauses — a run-on sentence. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId":"e580c519-9667-4b3b-8a1e-a7bec6eba694_21","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The subject is a compound: &apos;a state&apos;s voting record and polling data&apos; &mdash; two items joined by &apos;and,&apos; so the subject is plural. The parenthetical &apos;not its population size&apos; does not change that. The blank needs a plural finite verb."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'determines'</strong>: singular (-s ending). A compound subject cannot take a singular verb. &#10007;</li><li><strong>Choice B &mdash; 'has determined'</strong>: singular auxiliary &apos;has.&apos; Same number error. &#10007;</li><li><strong>Choice C &mdash; 'determining'</strong>: a participle, not a finite verb. Leaves the sentence without a main verb. &#10007;</li><li><strong>Choice D &mdash; 'determine'</strong>: plural base form. &apos;Voting record and polling data determine its importance&apos; &mdash; subject and verb agree. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_21",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The subject is a compound: 'a state's voting record and polling data' &mdash; two items joined by 'and,' so the subject is plural. The parenthetical 'not its population size' does not change that. The blank needs a plural finite verb."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"determines\"</strong>: singular (-s ending). A compound subject cannot take a singular verb. &#10007;</li><li><strong>\"has determined\"</strong>: singular auxiliary 'has.' Same number error. &#10007;</li><li><strong>\"determining\"</strong>: a participle, not a finite verb. Leaves the sentence without a main verb. &#10007;</li><li><strong>\"determine\"</strong>: plural base form. 'Voting record and polling data determine its importance' &mdash; subject and verb agree. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

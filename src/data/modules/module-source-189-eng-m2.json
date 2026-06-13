@@ -38,8 +38,8 @@
     "difficulty": "Easy",
     "question_number": 2,
     "test_name": "Module Source 189 Eng M2",
-    "passage": "As used in the text, what does the word “raise” most nearly mean?\nThe following text is from Jhumpa Lahiri’s 2003 novel *The Namesake*. Gogol, a child, is at a beach in Massachusetts with his father. He watches his father raise a kite within minutes into the wind, so high that Gogol must tip his head back in order to see, a rippling speck against the sky. The wind whips around their ears, turning their faces cold.",
-    "question_text": "As used in the text, what does the word “raise” most nearly mean?",
+    "passage": "As used in the text, what does the word \"raise\" most nearly mean?\nThe following text is from Jhumpa Lahiri's 2003 novel *The Namesake*. Gogol, a child, is at a beach in Massachusetts with his father. He watches his father raise a kite within minutes into the wind, so high that Gogol must tip his head back in order to see, a rippling speck against the sky. The wind whips around their ears, turning their faces cold.",
+    "question_text": "As used in the text, what does the word \"raise\" most nearly mean?",
     "choices": [
       {
         "label": "A",
@@ -102,7 +102,7 @@
     "difficulty": "Medium",
     "question_number": 4,
     "test_name": "Module Source 189 Eng M2",
-    "passage": "Which choice best states the main purpose of the text?\nThe HMS *Conqueror* is just one of approximately three million known historical shipwrecks spread throughout the world’s oceans, and their impact on underwater life and ecosystems is of great interest to researchers. Rachel Mugge and colleagues were particularly curious about the effects of wooden shipwrecks on three different seafloor microbial communities: bacteria, archaea, and fungi. The researchers studied two wooden shipwrecks in the Gulf of Mexico by placing pieces of pine and oak between zero and 200 meters away from each shipwreck to collect samples of microbes. They found that wood type had a much more significant influence on bacterial community composition than on archaeal or fungal community composition.",
+    "passage": "Which choice best states the main purpose of the text?\nThe HMS *Conqueror* is just one of approximately three million known historical shipwrecks spread throughout the world's oceans, and their impact on underwater life and ecosystems is of great interest to researchers. Rachel Mugge and colleagues were particularly curious about the effects of wooden shipwrecks on three different seafloor microbial communities: bacteria, archaea, and fungi. The researchers studied two wooden shipwrecks in the Gulf of Mexico by placing pieces of pine and oak between zero and 200 meters away from each shipwreck to collect samples of microbes. They found that wood type had a much more significant influence on bacterial community composition than on archaeal or fungal community composition.",
     "question_text": "Which choice best states the main purpose of the text?",
     "choices": [
       {
@@ -134,24 +134,24 @@
     "difficulty": "Medium",
     "question_number": 5,
     "test_name": "Module Source 189 Eng M2",
-    "passage": "Which choice best describes the function of the underlined sentence in the text as a whole?\nIn the US, the Trademark Act of 1946 allows companies to own trademarks, which are words or images that represent specific products. “Kleenex,” for example, refers to products made specifically by Kimberly-Clark, the company that owns the trademark. <u>However, the Trademark Act of 1946 also allows a trademark to be taken away if it ceases to be specific.</u> For example, “cellophane” was once a trademark for a particular brand of food wrapping material. Over time, though, people started using “cellophane” to refer to many different brands. Because the word had become generic, a court decided that it could no longer be owned as a trademark.",
+    "passage": "Which choice best describes the function of the underlined sentence in the text as a whole?\nIn the US, the Trademark Act of 1946 allows companies to own trademarks, which are words or images that represent specific products. \"Kleenex,\" for example, refers to products made specifically by Kimberly-Clark, the company that owns the trademark. <u>However, the Trademark Act of 1946 also allows a trademark to be taken away if it ceases to be specific.</u> For example, \"cellophane\" was once a trademark for a particular brand of food wrapping material. Over time, though, people started using \"cellophane\" to refer to many different brands. Because the word had become generic, a court decided that it could no longer be owned as a trademark.",
     "question_text": "Which choice best describes the function of the underlined sentence in the text as a whole?",
     "choices": [
       {
         "label": "A",
-        "text": "It concludes the text’s argument about how the Trademark Act of 1946 can be improved."
+        "text": "It concludes the text's argument about how the Trademark Act of 1946 can be improved."
       },
       {
         "label": "B",
-        "text": "It completes the text’s comparison of trademark laws in the US to laws in other countries."
+        "text": "It completes the text's comparison of trademark laws in the US to laws in other countries."
       },
       {
         "label": "C",
-        "text": "It adds to the text’s description of products made by Kimberly-Clark."
+        "text": "It adds to the text's description of products made by Kimberly-Clark."
       },
       {
         "label": "D",
-        "text": "It begins the text’s discussion of the fact that trademarks can be taken away."
+        "text": "It begins the text's discussion of the fact that trademarks can be taken away."
       }
     ],
     "is_fill_in_blank": false,
@@ -166,16 +166,16 @@
     "difficulty": "Medium",
     "question_number": 6,
     "test_name": "Module Source 189 Eng M2",
-    "passage": "The author of Text 1 and the author of Text 2 both discuss which topic? Text 1\nFrom the extinct giant ground sloth to the living pygmy three-toed sloth, sloths are among the most appealing animals native to the Americas. But scientists still have a lot to learn about them. Unlike their ancient ground-dwelling relations, today’s sloths spend most of their time high up in trees. The sloths’ inaccessibility has made it hard for scientists to study them. Text 2\nBy using a backpack monitor, biologist Rebecca Cliffe and colleagues can at last discover the previously hidden activities of sloths. Such monitors can provide information to correct misconceptions. It was long believed that sloths are slow because of laziness. But, in fact, sloths have low metabolism, which makes them slow.",
-    "question_text": "The author of Text 1 and the author of Text 2 both discuss which topic?",
+    "passage": "The author of Text 1 and the author of Text 2 both discuss which topic? Text 1\nFrom the extinct giant ground sloth to the living pygmy three-toed sloth, sloths are among the most appealing animals native to the Americas. But scientists still have a lot to learn about them. Unlike their ancient ground-dwelling relations, today's sloths spend most of their time high up in trees. The sloths' inaccessibility has made it hard for scientists to study them. Text 2\nBy using a backpack monitor, biologist Rebecca Cliffe and colleagues can at last discover the previously hidden activities of sloths. Such monitors can provide information to correct misconceptions. It was long believed that sloths are slow because of laziness. But, in fact, sloths have low metabolism, which makes them slow.",
+    "question_text": "The author of Text 1 and the author of Text 2 both discuss which topic? Text 1",
     "choices": [
       {
         "label": "A",
-        "text": "Scientists’ efforts to understand sloths"
+        "text": "Scientists' efforts to understand sloths"
       },
       {
         "label": "B",
-        "text": "Changes in sloths’ habitats"
+        "text": "Changes in sloths' habitats"
       },
       {
         "label": "C",
@@ -198,16 +198,16 @@
     "difficulty": "Medium",
     "question_number": 7,
     "test_name": "Module Source 189 Eng M2",
-    "passage": "Based on the text, what is a benefit of visiting Rocky Ridge Farmhouse?\nRocky Ridge Farmhouse in Mansfield, Missouri, is the house where Laura Ingalls Wilder lived for nearly twenty years and wrote her novel *Little House on the Prairie*. Now the house is a museum dedicated to Wilder’s life and writings. It’s likely obvious why fans of Wilder’s works would choose to visit the museum. However, its curators also want to appeal to visitors who aren’t already familiar with Wilder. Guided tours and special events, such as outdoor plays based on Wilder’s books, are therefore important, since they help visitors find enjoyment in Wilder’s works.",
+    "passage": "Based on the text, what is a benefit of visiting Rocky Ridge Farmhouse?\nRocky Ridge Farmhouse in Mansfield, Missouri, is the house where Laura Ingalls Wilder lived for nearly twenty years and wrote her novel *Little House on the Prairie*. Now the house is a museum dedicated to Wilder's life and writings. It's likely obvious why fans of Wilder's works would choose to visit the museum. However, its curators also want to appeal to visitors who aren't already familiar with Wilder. Guided tours and special events, such as outdoor plays based on Wilder's books, are therefore important, since they help visitors find enjoyment in Wilder's works.",
     "question_text": "Based on the text, what is a benefit of visiting Rocky Ridge Farmhouse?",
     "choices": [
       {
         "label": "A",
-        "text": "It is superior to most museums dedicated to Wilder’s life."
+        "text": "It is superior to most museums dedicated to Wilder's life."
       },
       {
         "label": "B",
-        "text": "It helps visitors to appreciate Wilder’s works."
+        "text": "It helps visitors to appreciate Wilder's works."
       },
       {
         "label": "C",
@@ -230,8 +230,8 @@
     "difficulty": "Medium",
     "question_number": 8,
     "test_name": "Module Source 189 Eng M2",
-    "passage": "Which choice best describes information from the table that weakens the student’s claim?\nA student is researching volcanoes in Ecuador. The student claims that all volcanoes in Ecuador are shield volcanoes.",
-    "question_text": "Which choice best describes information from the table that weakens the student’s claim?",
+    "passage": "Which choice best describes information from the table that weakens the student's claim?\nA student is researching volcanoes in Ecuador. The student claims that all volcanoes in Ecuador are shield volcanoes.",
+    "question_text": "Which choice best describes information from the table that weakens the student's claim?",
     "choices": [
       {
         "label": "A",
@@ -313,19 +313,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "“How careful ought we to be to speak nothing but the truth, even in regard to the most trifling circumstances; and not only so, but to be well assured that what we suppose to be true, is truth, before we receive it as such.”"
+        "text": "\"How careful ought we to be to speak nothing but the truth, even in regard to the most trifling circumstances; and not only so, but to be well assured that what we suppose to be true, is truth, before we receive it as such.\""
       },
       {
         "label": "B",
-        "text": "“Home is home, to the lowly as well as the great; and no rank, or color, destroys its sacred character, its power over the mind, and the affections.”"
+        "text": "\"Home is home, to the lowly as well as the great; and no rank, or color, destroys its sacred character, its power over the mind, and the affections.\""
       },
       {
         "label": "C",
-        "text": "“Blessed are the slumbers of the innocent! They are kindlier than balm, and they refresh and gladden the spirit of childhood, like ministerings from a better world.”"
+        "text": "\"Blessed are the slumbers of the innocent! They are kindlier than balm, and they refresh and gladden the spirit of childhood, like ministerings from a better world.\""
       },
       {
         "label": "D",
-        "text": "“To give some idea of the high esteem in which the subject of the following narrative is held, and the strong interest her misfortunes have excited, a few, from the great number of recommendations in her possession, are selected.”"
+        "text": "\"To give some idea of the high esteem in which the subject of the following narrative is held, and the strong interest her misfortunes have excited, a few, from the great number of recommendations in her possession, are selected.\""
       }
     ],
     "is_fill_in_blank": false,
@@ -340,8 +340,8 @@
     "difficulty": "Medium",
     "question_number": 11,
     "test_name": "Module Source 189 Eng M2",
-    "passage": "Which finding, if true, would most directly support Alegado and colleagues’ conclusion?\nBiologist Rosanna Alegado believes that we might learn how multicellular organisms developed from single-celled ones if we understand why the single-celled organism *Salpingoeca rosetta*, the oldest living relative of animals, sometimes forms colonies of cells. Alegado and colleagues reviewed data from many studies about how *S. rosetta* responds when exposed to another type of single-celled organism, bacteria, including William C. Nierman’s work with *Caulobacter crescentus* bacteria and Josefa Antón’s work with *Salinibacter ruber* bacteria. Alegado and colleagues concluded that neither *C. crescentus* nor *S. ruber* are likely to have played a significant role in the development of multicellular organisms.",
-    "question_text": "Which finding, if true, would most directly support Alegado and colleagues’ conclusion?",
+    "passage": "Which finding, if true, would most directly support Alegado and colleagues' conclusion?\nBiologist Rosanna Alegado believes that we might learn how multicellular organisms developed from single-celled ones if we understand why the single-celled organism *Salpingoeca rosetta*, the oldest living relative of animals, sometimes forms colonies of cells. Alegado and colleagues reviewed data from many studies about how *S. rosetta* responds when exposed to another type of single-celled organism, bacteria, including William C. Nierman's work with *Caulobacter crescentus* bacteria and Josefa Antón's work with *Salinibacter ruber* bacteria. Alegado and colleagues concluded that neither *C. crescentus* nor *S. ruber* are likely to have played a significant role in the development of multicellular organisms.",
+    "question_text": "Which finding, if true, would most directly support Alegado and colleagues' conclusion?",
     "choices": [
       {
         "label": "A",
@@ -372,7 +372,7 @@
     "difficulty": "Medium",
     "question_number": 12,
     "test_name": "Module Source 189 Eng M2",
-    "passage": "Which choice most logically completes the text?\nHumans are overwhelmingly right-hand dominant (85–90%) and can thus be said to exhibit strong population-level right handedness (PLRH). Among studies of nonhuman primates, Margaret E. Redshaw’s 1993 study of captive gorillas purported to show PLRH, while William C. McGrew and colleagues’ 1999 study of wild chimpanzees did not. Overall, the studies claiming PLRH in nonhuman primates find much lower incidences of right-handedness than humans exhibit, but it’s worth noting that studies of captive primates tend to show significantly greater incidences of right-handedness than studies of wild primates do, therefore raising the possibility that ______",
+    "passage": "Which choice most logically completes the text?\nHumans are overwhelmingly right-hand dominant (85–90%) and can thus be said to exhibit strong population-level right handedness (PLRH). Among studies of nonhuman primates, Margaret E. Redshaw's 1993 study of captive gorillas purported to show PLRH, while William C. McGrew and colleagues' 1999 study of wild chimpanzees did not. Overall, the studies claiming PLRH in nonhuman primates find much lower incidences of right-handedness than humans exhibit, but it's worth noting that studies of captive primates tend to show significantly greater incidences of right-handedness than studies of wild primates do, therefore raising the possibility that ______",
     "question_text": "Which choice most logically completes the text?",
     "choices": [
       {
@@ -381,7 +381,7 @@
       },
       {
         "label": "B",
-        "text": "the apparent discrepancy between the studies’ results may be partly attributable to the 1993 study using different criteria when assessing hand dominance than were used in the 1999 study."
+        "text": "the apparent discrepancy between the studies' results may be partly attributable to the 1993 study using different criteria when assessing hand dominance than were used in the 1999 study."
       },
       {
         "label": "C",
@@ -500,7 +500,7 @@
     "difficulty": "Easy",
     "question_number": 16,
     "test_name": "Module Source 189 Eng M2",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nMuseo de Arte Dr. Pío López Martínez is an art museum in Cayey, Puerto Rico. It’s one of more than eighty museums in the US territory. Puerto Rico’s ______ showcase everything from the territory’s art to its architecture to its coffee.",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nMuseo de Arte Dr. Pío López Martínez is an art museum in Cayey, Puerto Rico. It's one of more than eighty museums in the US territory. Puerto Rico's ______ showcase everything from the territory's art to its architecture to its coffee.",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {
@@ -532,7 +532,7 @@
     "difficulty": "Easy",
     "question_number": 17,
     "test_name": "Module Source 189 Eng M2",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAt Playhouse West in Los Angeles, California, students can learn the world-famous Meisner technique. This technique emphasizes reacting naturally to one’s environment in a scene and ______ actors to focus less on their own movement and speech.",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAt Playhouse West in Los Angeles, California, students can learn the world-famous Meisner technique. This technique emphasizes reacting naturally to one's environment in a scene and ______ actors to focus less on their own movement and speech.",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {
@@ -596,7 +596,7 @@
     "difficulty": "Medium",
     "question_number": 19,
     "test_name": "Module Source 189 Eng M2",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWhen attempting to determine a fault’s seismic history, geophysicists like Dr. Estella Atekwana at the University of Delaware rely in part on data about the fault’s physical dimensions and geological features. For example, data from the US Geological Survey show the ______ and most recent deformation (less than 15 thousand years ago) of the Malibu Coast fault in Ventura County, California.",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWhen attempting to determine a fault's seismic history, geophysicists like Dr. Estella Atekwana at the University of Delaware rely in part on data about the fault's physical dimensions and geological features. For example, data from the US Geological Survey show the ______ and most recent deformation (less than 15 thousand years ago) of the Malibu Coast fault in Ventura County, California.",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {
@@ -628,7 +628,7 @@
     "difficulty": "Easy",
     "question_number": 20,
     "test_name": "Module Source 189 Eng M2",
-    "passage": "Which choice completes the text with the most logical transition?\nDuring the last Ice Age, glaciers covered what is now Finnmark, Norway. As these massive ice forms moved across the region, they bore down on Earth’s crust and, ______ left a deep, narrow 70 km inlet, or fjord, carved into the coastal landscape. Today, this spectacular cliff-sided body of water is known as Tanafjord.",
+    "passage": "Which choice completes the text with the most logical transition?\nDuring the last Ice Age, glaciers covered what is now Finnmark, Norway. As these massive ice forms moved across the region, they bore down on Earth's crust and, ______ left a deep, narrow 70 km inlet, or fjord, carved into the coastal landscape. Today, this spectacular cliff-sided body of water is known as Tanafjord.",
     "question_text": "Which choice completes the text with the most logical transition?",
     "choices": [
       {
@@ -756,24 +756,24 @@
     "difficulty": "Medium",
     "question_number": 24,
     "test_name": "Module Source 189 Eng M2",
-    "passage": "The student wants to specify how long Despina’s orbit of Neptune takes. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Each of Neptune’s fourteen moons takes a different amount of time to orbit Neptune.\n• The moon Despina completes an orbit of Neptune in 0.33 Earth days on average.\n• German mathematician and astronomer Johannes Kepler (1571–1630) developed three laws of planetary motion that describe the orbits of planets in a solar system.\n• Kepler’s laws also apply to the orbits of natural satellites (e.g., moons).",
-    "question_text": "The student wants to specify how long Despina’s orbit of Neptune takes. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "passage": "The student wants to specify how long Despina's orbit of Neptune takes. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Each of Neptune's fourteen moons takes a different amount of time to orbit Neptune.\n• The moon Despina completes an orbit of Neptune in 0.33 Earth days on average.\n• German mathematician and astronomer Johannes Kepler (1571–1630) developed three laws of planetary motion that describe the orbits of planets in a solar system.\n• Kepler's laws also apply to the orbits of natural satellites (e.g., moons).",
+    "question_text": "The student wants to specify how long Despina's orbit of Neptune takes. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
     "choices": [
       {
         "label": "A",
-        "text": "Among Neptune’s fourteen moons is Despina, which completes its orbit of the planet in 0.33 Earth days on average."
+        "text": "Among Neptune's fourteen moons is Despina, which completes its orbit of the planet in 0.33 Earth days on average."
       },
       {
         "label": "B",
-        "text": "Despina’s orbit of Neptune can be described using Kepler’s three laws of planetary motion."
+        "text": "Despina's orbit of Neptune can be described using Kepler's three laws of planetary motion."
       },
       {
         "label": "C",
-        "text": "It takes Despina three Earth days to orbit Neptune, a number that can be deduced from Kepler’s laws of planetary motion."
+        "text": "It takes Despina three Earth days to orbit Neptune, a number that can be deduced from Kepler's laws of planetary motion."
       },
       {
         "label": "D",
-        "text": "Kepler’s three laws of planetary motion describe the orbits of planets in a solar system, including Despina’s orbit, which takes 0.33 Earth days on average."
+        "text": "Kepler's three laws of planetary motion describe the orbits of planets in a solar system, including Despina's orbit, which takes 0.33 Earth days on average."
       }
     ],
     "is_fill_in_blank": false,
@@ -852,7 +852,7 @@
     "difficulty": "Medium",
     "question_number": 27,
     "test_name": "Module Source 189 Eng M2",
-    "passage": "The student wants to provide an example of an epistolary novel. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• *On Earth We’re Briefly Gorgeous* (2019) is an epistolary novel by American author Ocean Vuong.\n• Epistolary novels are novels written primarily as a series of fictional documents.\n• These documents can be letters, journal entries, newspaper clippings, and more.\n• *On Earth We’re Briefly Gorgeous* consists primarily of letters.\n• The letters are sent from a young man named Little Dog to his mother, Rose.",
+    "passage": "The student wants to provide an example of an epistolary novel. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• *On Earth We're Briefly Gorgeous* (2019) is an epistolary novel by American author Ocean Vuong.\n• Epistolary novels are novels written primarily as a series of fictional documents.\n• These documents can be letters, journal entries, newspaper clippings, and more.\n• *On Earth We're Briefly Gorgeous* consists primarily of letters.\n• The letters are sent from a young man named Little Dog to his mother, Rose.",
     "question_text": "The student wants to provide an example of an epistolary novel. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
     "choices": [
       {
@@ -861,11 +861,11 @@
       },
       {
         "label": "B",
-        "text": "Consisting primarily of letters sent from a young man named Little Dog to his mother, Rose, Ocean Vuong’s *On Earth We’re Briefly Gorgeous* is an epistolary novel."
+        "text": "Consisting primarily of letters sent from a young man named Little Dog to his mother, Rose, Ocean Vuong's *On Earth We're Briefly Gorgeous* is an epistolary novel."
       },
       {
         "label": "C",
-        "text": "It was Ocean Vuong who published the novel *On Earth We’re Briefly Gorgeous* in 2019."
+        "text": "It was Ocean Vuong who published the novel *On Earth We're Briefly Gorgeous* in 2019."
       },
       {
         "label": "D",

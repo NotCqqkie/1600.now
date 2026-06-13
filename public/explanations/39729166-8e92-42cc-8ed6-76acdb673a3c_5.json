@@ -14,11 +14,11 @@
     },
     {
       "title": "Connect the model to the fee structure",
-      "content": "The slope 20 means each additional hour adds $20. The expression $20x+10$ is equivalent to a $30 first-hour charge plus $20 for each hour after the first, because $30+20(x-1)=20x+10$."
+      "content": "The slope 20 means each additional hour adds \\$20. The expression $20x+10$ is equivalent to a \\$30 first-hour charge plus \\$20 for each hour after the first, because $30+20(x-1)=20x+10$."
     },
     {
       "title": "Write the function and identify the answer",
-      "content": "Choice C is $f(x)=20x+10$. It checks the table: $f(4)=80+10=90$ and $f(6)=120+10=130$. That matches choice C &mdash; <strong>C</strong> is correct."
+      "content": "The correct answer is $f(x)=20x+10$. It checks the table: $f(4)=80+10=90$ and $f(6)=120+10=130$. <strong>C</strong> is correct."
     }
   ]
 }

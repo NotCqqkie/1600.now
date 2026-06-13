@@ -1,1 +1,15 @@
-{"questionId": "9b403efb-f874-43ce-aa34-29cae02dce8e_1", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The blank describes the type of words whose frequency a corpus can determine. The parenthetical contrast is the key: &quot;Words used mainly in specialized or academic publications... tend to be poorly represented.&quot; So the blank must describe the opposite — words that ARE well-represented, i.e., common, everyday words. The example (&quot;world&quot; as the eighth most common noun) confirms this."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'trivial'</strong>: Means unimportant or insignificant. Describes low value, not high frequency. &quot;World&quot; isn't trivial — it's one of the most common nouns. &#10007;</li><li><strong>Choice B &mdash; 'conventional'</strong>: Means standard, ordinary, commonly used. Conventional words are the kind well-represented in a general corpus — the opposite of specialized academic vocabulary. Fits perfectly. &#10003;</li><li><strong>Choice C &mdash; 'profound'</strong>: Means deep or significant. Profound words would be rare and academic — closer to the contrast side, not the blank side. &#10007;</li><li><strong>Choice D &mdash; 'accidental'</strong>: Means unintentional or random. Irrelevant to how frequently words appear in a corpus. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "9b403efb-f874-43ce-aa34-29cae02dce8e_1",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank describes the type of words whose frequency a corpus can determine. The parenthetical contrast is the key: &quot;Words used mainly in specialized or academic publications... tend to be poorly represented.&quot; So the blank must describe the opposite — words that ARE well-represented, i.e., common, everyday words. The example (&quot;world&quot; as the eighth most common noun) confirms this."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; trivial</strong>: Means unimportant or insignificant. Describes low value, not high frequency. &quot;World&quot; isn't trivial — it's one of the most common nouns. &#10007;</li><li><strong>Choice B &mdash; conventional</strong>: Means standard, ordinary, commonly used. Conventional words are the kind well-represented in a general corpus — the opposite of specialized academic vocabulary. Fits perfectly. &#10003;</li><li><strong>Choice C &mdash; profound</strong>: Means deep or significant. Profound words would be rare and academic — closer to the contrast side, not the blank side. &#10007;</li><li><strong>Choice D &mdash; accidental</strong>: Means unintentional or random. Irrelevant to how frequently words appear in a corpus. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

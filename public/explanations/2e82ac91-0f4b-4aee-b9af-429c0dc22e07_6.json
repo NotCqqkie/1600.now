@@ -1,1 +1,15 @@
-{"questionId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_6", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The question asks for the function of the underlined sentence in the passage. The sentence describes Yung Wing writing about an imaginary trip to New York as a child &mdash; and the very next sentence states a general lesson: imagination sometimes foreshadows what is most on our minds."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'the narrator confuses fantasy with memory'</strong>: The passage never suggests Yung is confused about what was real. &#10007;</li><li><strong>Choice B &mdash; 'Yung published a childhood story'</strong>: Nothing in the passage mentions publishing. &#10007;</li><li><strong>Choice C &mdash; 'an event that exemplifies a phenomenon'</strong>: The childhood writing episode is the specific example that illustrates the broader claim made in the next sentence. &#10003;</li><li><strong>Choice D &mdash; 'evidence of Yung&apos;s general adventurousness'</strong>: The passage draws no such theme; the sentence serves a structural, not characterizing, role. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_6",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks for the function of the underlined sentence in the passage. The sentence describes Yung Wing writing about an imaginary trip to New York as a child &mdash; and the very next sentence states a general lesson: imagination sometimes foreshadows what is most on our minds."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — It indicates Yung's unwillingness to distinguish between reality and fantasy as a child.</strong>: The passage never suggests Yung is confused about what was real. &#10007;</li><li><strong>Choice B — It foreshadows Yung's future difficulties in publishing his writings.</strong>: Nothing in the passage mentions publishing. &#10007;</li><li><strong>Choice C — It describes an event in Yung's life that exemplifies a phenomenon.</strong>: The childhood writing episode is the specific example that illustrates the broader claim made in the next sentence. &#10003;</li><li><strong>Choice D — It illustrates the sense of adventure that Yung developed as a child.</strong>: The passage draws no such theme; the sentence serves a structural, not characterizing, role. &#10007;</li></ul><strong>C</strong> is correct."
+    }
+  ]
+}

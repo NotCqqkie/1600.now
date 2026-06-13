@@ -9,7 +9,7 @@
     },
     {
       "title": "Find the median of data set B and compare",
-      "content": "Data set B has 20 values after 19 is removed, so the median is the average of the 10th and 11th values. Both are still in the 3-eagle group, so median B is $\\frac{3+3}{2}=3$. Both medians equal 3, matching choice B."
+      "content": "Data set B has 20 values after 19 is removed, so the median is the average of the 10th and 11th values. Both are still in the 3-eagle group, so median B is $\\frac{3+3}{2}=3$. Both medians equal 3, matching <strong>Choice B &mdash; The median of data set B is equal to the median of data set A.</strong>."
     }
   ]
 }

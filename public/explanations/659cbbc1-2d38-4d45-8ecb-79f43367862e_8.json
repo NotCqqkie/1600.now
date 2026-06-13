@@ -1,1 +1,15 @@
-{"questionId": "659cbbc1-2d38-4d45-8ecb-79f43367862e_8", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Expand both sides", "content": "$18(x+5) = 18x + 90$. $2(x+c) + 16x = 2x + 2c + 16x = 18x + 2c$.<br/><br/>So the equation becomes $18x + 90 = 18x + 2c$."}, {"title": "Apply the infinite-solutions condition", "content": "For infinitely many solutions, both sides must be identical. The $x$-coefficients already match. Setting constants equal: $90 = 2c \\implies c = 45$.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "659cbbc1-2d38-4d45-8ecb-79f43367862e_8",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Expand both sides",
+      "content": "$18(x+5) = 18x + 90$. $2(x+c) + 16x = 2x + 2c + 16x = 18x + 2c$.<br/><br/>So the equation becomes $18x + 90 = 18x + 2c$."
+    },
+    {
+      "title": "Apply the infinite-solutions condition",
+      "content": "For infinitely many solutions, both sides must be identical. The $x$-coefficients already match. Setting constants equal: $90 = 2c \\implies c = 45$.<br/><br/>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_24", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Map the logical relationship", "content": "The passage moves from a success (NASA altered a moonlet&rsquo;s orbit in 2022) to an unproven claim (scientists have not yet shown that primary objects like 2013 PY6 would be similarly affected). The blank falls right before that unproven claim, so it must signal that this claim runs counter to &mdash; or qualifies &mdash; the demonstrated success. The logical relationship is contrast or concession."}, {"title": "Eliminate wrong choices, confirm the answer", "content": "<ul><li><strong>Choice A &mdash; 'for example,'</strong>: Signals that what follows is a specific instance illustrating the previous point, but the unproven status of primary objects does not illustrate the moonlet success &mdash; it limits it. &#10007;</li><li><strong>Choice B &mdash; 'though,'</strong>: Signals contrast or qualification: NASA succeeded with moonlets, though that success has not yet been extended to primary objects. This fits the logical shift perfectly. &#10003;</li><li><strong>Choice C &mdash; 'likewise,'</strong>: Signals similarity, but primary objects have not been shown to behave like moonlets &mdash; that is exactly what remains unproven. &#10007;</li><li><strong>Choice D &mdash; 'moreover,'</strong>: Signals an additional supporting point, but the unproven status of primary objects does not reinforce the moonlet success; it qualifies it. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_24",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Map the logical relationship",
+      "content": "The passage moves from a success (NASA altered a moonlet&rsquo;s orbit in 2022) to an unproven claim (scientists have not yet shown that primary objects like 2013 PY6 would be similarly affected). The blank falls right before that unproven claim, so it must signal that this claim runs counter to &mdash; or qualifies &mdash; the demonstrated success. The logical relationship is contrast or concession."
+    },
+    {
+      "title": "Eliminate wrong choices, confirm the answer",
+      "content": "<ul><li><strong>Choice A &mdash; for example,</strong>: Signals that what follows is a specific instance illustrating the previous point, but the unproven status of primary objects does not illustrate the moonlet success &mdash; it limits it. &#10007;</li><li><strong>Choice B &mdash; though,</strong>: Signals contrast or qualification: NASA succeeded with moonlets, though that success has not yet been extended to primary objects. This fits the logical shift perfectly. &#10003;</li><li><strong>Choice C &mdash; likewise,</strong>: Signals similarity, but primary objects have not been shown to behave like moonlets &mdash; that is exactly what remains unproven. &#10007;</li><li><strong>Choice D &mdash; moreover,</strong>: Signals an additional supporting point, but the unproven status of primary objects does not reinforce the moonlet success; it qualifies it. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

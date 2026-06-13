@@ -6,7 +6,7 @@
     "difficulty": "Medium",
     "question_number": 1,
     "test_name": "Module Source 029 Eng M2",
-    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nLady Grant and colleagues ______ pots of sterilized soil with slurries of live microbes collected from soil in five sites across Colorado, including areas of sagebrush and ponderosa pine forest. Grant and team then grew mustard plants in the pots to see if the different microbial slurries affected levels of spicy glucosinolates like butenyl in the plants’ seeds.",
+    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nLady Grant and colleagues ______ pots of sterilized soil with slurries of live microbes collected from soil in five sites across Colorado, including areas of sagebrush and ponderosa pine forest. Grant and team then grew mustard plants in the pots to see if the different microbial slurries affected levels of spicy glucosinolates like butenyl in the plants' seeds.",
     "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
     "choices": [
       {
@@ -70,7 +70,7 @@
     "difficulty": "Medium",
     "question_number": 3,
     "test_name": "Module Source 029 Eng M2",
-    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nDerived from research conducted with factory workers from 1924 to 1933, the Hawthorne effect suggests that participants’ awareness that they are being studied alters their behavior and influences study outcomes. Since then, several researchers have claimed to invalidate this phenomenon, positing that the Hawthorne effect cannot be ______ because attempts to detect it invariably involve faulty research methods.",
+    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nDerived from research conducted with factory workers from 1924 to 1933, the Hawthorne effect suggests that participants' awareness that they are being studied alters their behavior and influences study outcomes. Since then, several researchers have claimed to invalidate this phenomenon, positing that the Hawthorne effect cannot be ______ because attempts to detect it invariably involve faulty research methods.",
     "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
     "choices": [
       {
@@ -102,7 +102,7 @@
     "difficulty": "Medium",
     "question_number": 4,
     "test_name": "Module Source 029 Eng M2",
-    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nPaleontologists think that *Buitreraptor*, *Saltasaurus*, and other long-extinct theropods and sauropods may have breathed using air sacs connected to tubelike extensions inside the animals’ bones. Such structures are found in modern birds, which is why some paleontologists treat the respiratory systems of birds as ______ those of *Buitreraptor*, *Saltasaurus*, and other theropods and sauropods.",
+    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nPaleontologists think that *Buitreraptor*, *Saltasaurus*, and other long-extinct theropods and sauropods may have breathed using air sacs connected to tubelike extensions inside the animals' bones. Such structures are found in modern birds, which is why some paleontologists treat the respiratory systems of birds as ______ those of *Buitreraptor*, *Saltasaurus*, and other theropods and sauropods.",
     "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
     "choices": [
       {
@@ -230,12 +230,12 @@
     "difficulty": "Hard",
     "question_number": 8,
     "test_name": "Module Source 029 Eng M2",
-    "passage": "Which choice best states the main purpose of the text?\nIn their study of the steering muscles regulating sclerites (minute hardened structures) in the *Drosophila* (fruit fly) wing hinge, Johan M. Melis et al. used machine learning to devise a convolutional neural network (CNN) model capable of predicting the pattern of wing motion produced by the maximum activity of the muscles. The CNN model’s output aligned with results of prior studies by other researchers measuring muscle activity patterns directly—one of several indications, said Melis et al., that the model accurately represents important biomechanical processes underlying wing motion.",
+    "passage": "Which choice best states the main purpose of the text?\nIn their study of the steering muscles regulating sclerites (minute hardened structures) in the *Drosophila* (fruit fly) wing hinge, Johan M. Melis et al. used machine learning to devise a convolutional neural network (CNN) model capable of predicting the pattern of wing motion produced by the maximum activity of the muscles. The CNN model's output aligned with results of prior studies by other researchers measuring muscle activity patterns directly—one of several indications, said Melis et al., that the model accurately represents important biomechanical processes underlying wing motion.",
     "question_text": "Which choice best states the main purpose of the text?",
     "choices": [
       {
         "label": "A",
-        "text": "To present evidence from Melis et al.’s study in support of the efficacy of their CNN model."
+        "text": "To present evidence from Melis et al.'s study in support of the efficacy of their CNN model."
       },
       {
         "label": "B",
@@ -243,11 +243,11 @@
       },
       {
         "label": "C",
-        "text": "To compare results obtained by Melis et al. using their CNN model to prior results obtained from other researchers’ models."
+        "text": "To compare results obtained by Melis et al. using their CNN model to prior results obtained from other researchers' models."
       },
       {
         "label": "D",
-        "text": "To account for Melis et al.’s reliance in their study on a CNN model in lieu of direct measurement."
+        "text": "To account for Melis et al.'s reliance in their study on a CNN model in lieu of direct measurement."
       }
     ],
     "is_fill_in_blank": false,
@@ -294,7 +294,7 @@
     "difficulty": "Medium",
     "question_number": 10,
     "test_name": "Module Source 029 Eng M2",
-    "passage": "What does the text most strongly suggest about paintings by Demps?\nMotivated to sell as many paintings as possible, Alfred Hair, an influential figure among the landscape artists known as the Florida Highwaymen, pioneered “fast painting,” which in part involved swift applications of paint. That many of Hair's acolytes, including Rodney Demps, imitated the technique accounts in part for the impressionistic qualities that are now synonymous with the group's shared aesthetic. But not all Highwaymen fully embraced this approach; for instance, though Roy McLendon was also prolific, his paintings were executed with greater attention to detail.",
+    "passage": "What does the text most strongly suggest about paintings by Demps?\nMotivated to sell as many paintings as possible, Alfred Hair, an influential figure among the landscape artists known as the Florida Highwaymen, pioneered \"fast painting,\" which in part involved swift applications of paint. That many of Hair's acolytes, including Rodney Demps, imitated the technique accounts in part for the impressionistic qualities that are now synonymous with the group's shared aesthetic. But not all Highwaymen fully embraced this approach; for instance, though Roy McLendon was also prolific, his paintings were executed with greater attention to detail.",
     "question_text": "What does the text most strongly suggest about paintings by Demps?",
     "choices": [
       {
@@ -326,12 +326,12 @@
     "difficulty": "Medium",
     "question_number": 11,
     "test_name": "Module Source 029 Eng M2",
-    "passage": "Although many transposons, DNA sequences that move within an organism’s genome through shuffling or duplication, have become corrupted and inactive over time, those from the long interspersed nuclear elements (LINE) family appear to remain active in the genomes of some species. In humans, they are functionally important within the hippocampus, a brain structure that supports complex cognitive processes. When the results of molecular analysis of two species of octopus—an animal known for its intelligence—were announced in 2022, the confirmation of a LINE transposon in <em>Octopus vulgaris</em> and <em>Octopus bimaculoides</em> genomes prompted researchers to hypothesize that that transposon family is tied to a species’ capacity for advanced cognition. Which finding, if true, would most directly support the researchers’ hypothesis?",
+    "passage": "Although many transposons, DNA sequences that move within an organism's genome through shuffling or duplication, have become corrupted and inactive over time, those from the long interspersed nuclear elements (LINE) family appear to remain active in the genomes of some species. In humans, they are functionally important within the hippocampus, a brain structure that supports complex cognitive processes. When the results of molecular analysis of two species of octopus—an animal known for its intelligence—were announced in 2022, the confirmation of a LINE transposon in <em>Octopus vulgaris</em> and <em>Octopus bimaculoides</em> genomes prompted researchers to hypothesize that that transposon family is tied to a species' capacity for advanced cognition. Which finding, if true, would most directly support the researchers' hypothesis?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "The LINE transposon in <em>O. vulgaris </em>and <em>O. bimaculoides</em> genomes is active in an octopus brain structure that functions similarly to the human hippocampus."
+        "text": "The LINE transposon in <em>O. vulgaris</em> and <em>O. bimaculoides</em> genomes is active in an octopus brain structure that functions similarly to the human hippocampus."
       },
       {
         "label": "B",
@@ -343,12 +343,12 @@
       },
       {
         "label": "D",
-        "text": "<em>O. vulgaris </em>and <em>O. bimaculoides</em> have smaller brains than humans do relative to body size, but their genomes contain sequences from a wider variety of transposon families."
+        "text": "<em>O. vulgaris</em> and <em>O. bimaculoides</em> have smaller brains than humans do relative to body size, but their genomes contain sequences from a wider variety of transposon families."
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
-    "rationale": "Choice A is the best answer. The text says that LINE transposons are important in the human hippocampus, which supports complex cognition. If the LINE transposon found in octopuses is active in a similar part of their brain, that would suggest that LINE transposons support complex cognition in octopuses too, which in turn supports the hypothesis that LINE transposons are linked to advanced cognition in general.\nChoice B is incorrect. This choice doesn’t support the hypothesis. It doesn’t include anything about how LINE transposons function in species other than humans. Choice C is incorrect. This choice doesn’t support the hypothesis. It doesn’t include anything about how the LINE transposon in octopuses might support advanced cognition. Choice D is incorrect. This choice doesn’t support the hypothesis. It doesn’t include anything about how the LINE transposon in octopuses might support advanced cognition.",
+    "rationale": "Choice A is the best answer. The text says that LINE transposons are important in the human hippocampus, which supports complex cognition. If the LINE transposon found in octopuses is active in a similar part of their brain, that would suggest that LINE transposons support complex cognition in octopuses too, which in turn supports the hypothesis that LINE transposons are linked to advanced cognition in general.\nChoice B is incorrect. This choice doesn't support the hypothesis. It doesn't include anything about how LINE transposons function in species other than humans. Choice C is incorrect. This choice doesn't support the hypothesis. It doesn't include anything about how the LINE transposon in octopuses might support advanced cognition. Choice D is incorrect. This choice doesn't support the hypothesis. It doesn't include anything about how the LINE transposon in octopuses might support advanced cognition.",
     "id": "22e4d633"
   },
   {
@@ -358,8 +358,8 @@
     "difficulty": "Medium",
     "question_number": 12,
     "test_name": "Module Source 029 Eng M2",
-    "passage": "Assuming that the Volga and Don basins supported similarly sized hunter-gatherer populations 6,500-8,000 years ago, which finding, if true, would most directly support Courel and colleagues’ explanation?\nBlandine Courel and her colleagues analyzed pottery fragments from thirty-five sites across the Volga and Don river basins to determine whether the ways in which hunter-gatherer societies used pottery in these regions around 6,500-8,000 years ago were influenced primarily by local food availability or primarily by cultural factors. Analysis of organic residues on the pottery fragments showed different prevailing uses for pottery in these locations—cooking and storing terrestrial animal protein at Volga sites and cooking and storing aquatic animal protein at Don sites, which Courel and colleagues attribute to cultural differences.",
-    "question_text": "Assuming that the Volga and Don basins supported similarly sized hunter-gatherer populations 6,500-8,000 years ago, which finding, if true, would most directly support Courel and colleagues’ explanation?",
+    "passage": "Assuming that the Volga and Don basins supported similarly sized hunter-gatherer populations 6,500-8,000 years ago, which finding, if true, would most directly support Courel and colleagues' explanation?\nBlandine Courel and her colleagues analyzed pottery fragments from thirty-five sites across the Volga and Don river basins to determine whether the ways in which hunter-gatherer societies used pottery in these regions around 6,500-8,000 years ago were influenced primarily by local food availability or primarily by cultural factors. Analysis of organic residues on the pottery fragments showed different prevailing uses for pottery in these locations—cooking and storing terrestrial animal protein at Volga sites and cooking and storing aquatic animal protein at Don sites, which Courel and colleagues attribute to cultural differences.",
+    "question_text": "Assuming that the Volga and Don basins supported similarly sized hunter-gatherer populations 6,500-8,000 years ago, which finding, if true, would most directly support Courel and colleagues' explanation?",
     "choices": [
       {
         "label": "A",
@@ -422,7 +422,7 @@
     "difficulty": "Medium",
     "question_number": 14,
     "test_name": "Module Source 029 Eng M2",
-    "passage": "Which choice most logically completes the text?\nNortheastern North Carolina's Camden County is among the most rural counties in the United States: the US Census Bureau classified it as 99.5% rural in 2010. Researchers often struggle to recruit residents of counties like Camden for inclusion in studies. Melissa Valerio and colleagues tested whether an approach called snowball sampling improves recruitment. Working in two rural counties, they recruited a few people (known as “seeds”) with the characteristics desired for a proposed study and asked them to recruit additional participants from their social networks. Though the seeds were given minimal guidance, many more people they recruited had the desired characteristics for the study than would be expected by chance alone, most likely because ______.",
+    "passage": "Which choice most logically completes the text?\nNortheastern North Carolina's Camden County is among the most rural counties in the United States: the US Census Bureau classified it as 99.5% rural in 2010. Researchers often struggle to recruit residents of counties like Camden for inclusion in studies. Melissa Valerio and colleagues tested whether an approach called snowball sampling improves recruitment. Working in two rural counties, they recruited a few people (known as \"seeds\") with the characteristics desired for a proposed study and asked them to recruit additional participants from their social networks. Though the seeds were given minimal guidance, many more people they recruited had the desired characteristics for the study than would be expected by chance alone, most likely because ______.",
     "question_text": "Which choice most logically completes the text?",
     "choices": [
       {
@@ -471,7 +471,7 @@
       },
       {
         "label": "D",
-        "text": "modern writers’ foregrounding of female characters is chiefly motivated by a desire to counterbalance the primacy of male perspectives among earlier adaptations of Greek and Roman myths."
+        "text": "modern writers' foregrounding of female characters is chiefly motivated by a desire to counterbalance the primacy of male perspectives among earlier adaptations of Greek and Roman myths."
       }
     ],
     "is_fill_in_blank": false,
@@ -518,7 +518,7 @@
     "difficulty": "Hard",
     "question_number": 17,
     "test_name": "Module Source 029 Eng M2",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWhen a given term—“self-fulfilling prophecies” and “role models” are two well-known examples—is generally accepted and frequently used, ______ susceptible to obliteration by incorporation (OBI). In cases of OBI, widely used terms are rarely, if at all, attributed to the individuals who coined them.",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWhen a given term—\"self-fulfilling prophecies\" and \"role models\" are two well-known examples—is generally accepted and frequently used, ______ susceptible to obliteration by incorporation (OBI). In cases of OBI, widely used terms are rarely, if at all, attributed to the individuals who coined them.",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {
@@ -550,7 +550,7 @@
     "difficulty": "Medium",
     "question_number": 18,
     "test_name": "Module Source 029 Eng M2",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn pre-Columbian Mesoamerica, obsidian was used as a commodity currency. By using specific goods like obsidian as common units of exchange, commodity currency economies streamline trade, which is why they often replaced barter economies. Barter economies eschew ______ that requires what economist W.S. Jevons deems a “double coincidence of wants”—in other words, each trading party must want precisely what the other has.",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn pre-Columbian Mesoamerica, obsidian was used as a commodity currency. By using specific goods like obsidian as common units of exchange, commodity currency economies streamline trade, which is why they often replaced barter economies. Barter economies eschew ______ that requires what economist W.S. Jevons deems a \"double coincidence of wants\"—in other words, each trading party must want precisely what the other has.",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {
@@ -774,7 +774,7 @@
     "difficulty": "Hard",
     "question_number": 25,
     "test_name": "Module Source 029 Eng M2",
-    "passage": "Which choice completes the text with the most logical transition?\nIn Annie Dillard's *Pilgrim at Tinker Creek*—where, early on, the author marvels at a single goldfish's delicate fins but later winces when imagining a horde of goldfish laying and eating their own eggs—Dillard struggles to reconcile the complicated juxtapositions of the natural world. ______ nature's mesmerizing intricacy and pitiless harshness prove inextricably linked for Dillard, like “two branches of the same creek.”",
+    "passage": "Which choice completes the text with the most logical transition?\nIn Annie Dillard's *Pilgrim at Tinker Creek*—where, early on, the author marvels at a single goldfish's delicate fins but later winces when imagining a horde of goldfish laying and eating their own eggs—Dillard struggles to reconcile the complicated juxtapositions of the natural world. ______ nature's mesmerizing intricacy and pitiless harshness prove inextricably linked for Dillard, like \"two branches of the same creek.\"",
     "question_text": "Which choice completes the text with the most logical transition?",
     "choices": [
       {

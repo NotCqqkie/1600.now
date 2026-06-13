@@ -9,11 +9,11 @@
     },
     {
       "title": "Check each choice against $5x+7y=8$",
-      "content": "A point $(x,y)$ works for every real $r$ only if substituting it into $5x+7y=8$ always gives $8$. For choice A, $x=r$ and $y=-\\frac{5r}{7}+\\frac{8}{7}$, so $$5r+7\\left(-\\frac{5r}{7}+\\frac{8}{7}\\right)=5r-5r+8=8.$$ Choice A works for all $r$."
+      "content": "A point $(x,y)$ works for every real $r$ only if substituting it into $5x+7y=8$ always gives $8$. For <strong>Choice A &mdash; $(r,-\\frac{5r}{7}+\\frac{8}{7})$</strong>, $x=r$ and $y=-\\frac{5r}{7}+\\frac{8}{7}$, so $$5r+7\\left(-\\frac{5r}{7}+\\frac{8}{7}\\right)=5r-5r+8=8.$$ <strong>Choice A &mdash; $(r,-\\frac{5r}{7}+\\frac{8}{7})$</strong> works for all $r$."
     },
     {
       "title": "Eliminate the others",
-      "content": "Choice B gives $\\frac{24r+40}{7}$, which is not always $8$. Choices C and D include constants $8$ and $48$, making $5x+7y$ far larger than $8$. Therefore choice <strong>A</strong> is correct."
+      "content": "<strong>Choice B &mdash; $(-\\frac{5r}{7}+\\frac{8}{7},r)$</strong> gives $\\frac{24r+40}{7}$, which is not always $8$. Choices C and D include constants $8$ and $48$, making $5x+7y$ far larger than $8$. Therefore <strong>Choice A &mdash; $(r,-\\frac{5r}{7}+\\frac{8}{7})$</strong>."
     }
   ]
 }

@@ -9,7 +9,7 @@
     },
     {
       "title": "Identify a valid solution",
-      "content": "Among the choices, $0$ is a root of the equation. That matches choice <strong>B</strong> — <strong>B</strong> is correct."
+      "content": "Among the choices, $0$ is a root of the equation. It works because substituting $x=0$ makes the factor $4x$ equal zero. <strong>B</strong> is correct."
     }
   ]
 }

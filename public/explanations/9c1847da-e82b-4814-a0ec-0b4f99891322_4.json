@@ -9,7 +9,7 @@
     },
     {
       "title": "Backsolve with the answer choices",
-      "content": "Backsolving — testing choice B (15):<br/>$4(15) = 60$ and $9(15) = 135$. Is $60 \\le 140 \\le 135$? No, because $140 > 135$.<br/><br/>Fails. Testing choice C (34):<br/>$4(34) = 136$ and $9(34) = 306$. Is $136 \\le 140 \\le 306$? Yes!<br/><br/>That matches choice C — <strong>C</strong> is correct."
+      "content": "Backsolving — testing choice B (15):<br/>${4}(15) = 60$ and ${9}(15) = 135$. Is $60 \\le 140 \\le 135$? No, because $140 \\gt 135$.<br/><br/>Fails. Testing choice C (34):<br/>${4}(34) = 136$ and ${9}(34) = 306$. Is $136 \\le 140 \\le 306$? Yes!<br/><br/>That confirms <strong>C</strong> is correct."
     }
   ]
 }

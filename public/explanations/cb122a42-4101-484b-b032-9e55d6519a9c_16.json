@@ -1,1 +1,15 @@
-{"questionId":"cb122a42-4101-484b-b032-9e55d6519a9c_16","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank must refer back to the two paintings named in the first sentence: <em>Creek Council Tree</em> (1967) and <em>Cimarron Iron Bridge</em> (1972). The pronoun must match that antecedent in number and provide clear, specific reference."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'they were'</strong>: \"They\" is plural, matching the two paintings. \"Were\" is the correct plural past-tense verb. Clear, direct reference to the antecedent. &#10003;</li><li><strong>Choice B &mdash; 'this was'</strong>: \"This\" is singular. The antecedent is two paintings, not one. Singular pronoun cannot refer to a plural noun phrase. &#10007;</li><li><strong>Choice C &mdash; 'it was'</strong>: \"It\" is singular. Same problem as B &mdash; it cannot stand in for two paintings. &#10007;</li><li><strong>Choice D &mdash; 'some were'</strong>: \"Some\" is an indefinite pronoun with no clear antecedent. The sentence introduces exactly two paintings; \"some\" implies an unspecified subset of a larger group that was never mentioned. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "cb122a42-4101-484b-b032-9e55d6519a9c_16",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank must refer back to the two paintings named in the first sentence: <em>Creek Council Tree</em> (1967) and <em>Cimarron Iron Bridge</em> (1972). The pronoun must match that antecedent in number and provide clear, specific reference."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; they were</strong>: \"They\" is plural, matching the two paintings. \"Were\" is the correct plural past-tense verb. Clear, direct reference to the antecedent. &#10003;</li><li><strong>Choice B &mdash; this was</strong>: \"This\" is singular. The antecedent is two paintings, not one. Singular pronoun cannot refer to a plural noun phrase. &#10007;</li><li><strong>Choice C &mdash; it was</strong>: \"It\" is singular. Same problem as B &mdash; it cannot stand in for two paintings. &#10007;</li><li><strong>Choice D &mdash; some were</strong>: \"Some\" is an indefinite pronoun with no clear antecedent. The sentence introduces exactly two paintings; \"some\" implies an unspecified subset of a larger group that was never mentioned. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

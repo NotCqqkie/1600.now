@@ -1,1 +1,15 @@
-{"questionId": "73482b52-a20f-452d-896f-76f578ac2361_20", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Analyze the sentence structure", "content": "The subject is &ldquo;Paintings by the renowned twentieth-century US [blank]&rdquo; and the predicate is &ldquo;were featured in <em>Artist to Artist</em>&hellip;&rdquo; The blank must complete the noun phrase with a head noun and an appositive that names the two specific artists. Because the names identify <em>which</em> artists &mdash; essential information &mdash; the appositive is <strong>restrictive</strong> and takes no commas."}, {"title": "Eliminate each choice and pick the match", "content": "<ul><li><strong>Choice A &mdash; 'artists Thomas Hart Benton, and Jackson Pollack,'</strong>: The comma before <em>and</em> implies a three-item list with a missing third element, and the trailing comma is unmatched. &#10007;</li><li><strong>Choice B &mdash; 'artists: Thomas Hart Benton and Jackson Pollack,'</strong>: A colon cannot separate a noun from its appositive, and the trailing comma has nothing to close. &#10007;</li><li><strong>Choice C &mdash; 'artists Thomas Hart Benton and Jackson Pollack'</strong>: The names flow directly as a restrictive appositive with no punctuation &mdash; correct for essential identifying information. &#10003;</li><li><strong>Choice D &mdash; 'artists, Thomas Hart Benton and Jackson Pollack'</strong>: A comma before a restrictive appositive is incorrect; only non-restrictive appositives are set off by commas. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "73482b52-a20f-452d-896f-76f578ac2361_20",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Analyze the sentence structure",
+      "content": "The subject is &ldquo;Paintings by the renowned twentieth-century US [blank]&rdquo; and the predicate is &ldquo;were featured in <em>Artist to Artist</em>&hellip;&rdquo; The blank must complete the noun phrase with a head noun and an appositive that names the two specific artists. Because the names identify <em>which</em> artists &mdash; essential information &mdash; the appositive is <strong>restrictive</strong> and takes no commas."
+    },
+    {
+      "title": "Eliminate each choice and pick the match",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;artists Thomas Hart Benton, and Jackson Pollack,&rsquo;</strong>: The comma before <em>and</em> implies a three-item list with a missing third element, and the trailing comma is unmatched. &#10007;</li><li><strong>Choice B &mdash; &lsquo;artists: Thomas Hart Benton and Jackson Pollack,&rsquo;</strong>: A colon cannot separate a noun from its appositive, and the trailing comma has nothing to close. &#10007;</li><li><strong>Choice C &mdash; &lsquo;artists Thomas Hart Benton and Jackson Pollack&rsquo;</strong>: The names flow directly as a restrictive appositive with no punctuation &mdash; correct for essential identifying information. &#10003;</li><li><strong>Choice D &mdash; &lsquo;artists, Thomas Hart Benton and Jackson Pollack&rsquo;</strong>: A comma before a restrictive appositive is incorrect; only non-restrictive appositives are set off by commas. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

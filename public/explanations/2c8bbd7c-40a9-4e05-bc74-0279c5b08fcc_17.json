@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the Triangle Angle Sum",
-      "content": "The three interior angles of triangle PQR must sum to 180°:<br/>$$(3x + 5) + (2x + 9) + (4y + 5) = 180$$<br/>$$5x + 4y + 19 = 180$$<br/>$$5x + 4y = 161$$"
+      "content": "The three interior angles of triangle PQR must sum to $180^{\\circ}$:<br/>$$(3x + 5) + (2x + 9) + (4y + 5) = 180$$<br/>$$5x + 4y + 19 = 180$$<br/>$$5x + 4y = 161$$"
     },
     {
       "title": "Solve for x and y",

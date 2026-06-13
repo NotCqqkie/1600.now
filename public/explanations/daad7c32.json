@@ -13,7 +13,7 @@
     },
     {
       "title": "Eliminate the other choices",
-      "content": "<ul><li><strong>A)</strong> Length with no weight &mdash; that's the y-intercept 30, not the 2.</li><li><strong>B)</strong> Weight that stretches the spring 30 cm &mdash; nonsense for the coefficient 2.</li><li><strong>C)</strong> Weight increase per 1 cm of length &mdash; that would be the reciprocal slope $\\tfrac{1}{2}$ N per cm, not 2.</li><li><strong>D)</strong> Length increase per 1 N of weight &mdash; matches the slope of 2 cm per N exactly.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "content": "<ul><li><strong>The increase in the length, in centimeters, of the spring for each one-newton increase in the weight of the object</strong> is correct."
     }
   ]
 }

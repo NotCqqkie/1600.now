@@ -1,1 +1,15 @@
-{"questionId":"438ac81b-36aa-4552-b54a-16d92edcc54f_20","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence uses an em dash after the appositive phrase <em>the cellular organs that generate energy from light</em>. When an appositive is set off by an em dash on the closing side, a matching em dash is required on the opening side &mdash; immediately after the noun being renamed."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'chloroplasts;'</strong>: a semicolon separates independent clauses, not an appositive from its noun. &#10007;</li><li><strong>Choice B &mdash; 'chloroplasts'</strong>: no punctuation fails to mark the boundary of the appositive at all. &#10007;</li><li><strong>Choice C &mdash; 'chloroplasts,'</strong>: a comma mismatches with the closing em dash; both sides must use the same punctuation mark. &#10007;</li><li><strong>Choice D &mdash; 'chloroplasts&mdash;'</strong>: the opening em dash matches the closing em dash, correctly framing the appositive. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "438ac81b-36aa-4552-b54a-16d92edcc54f_20",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence uses an em dash after the appositive phrase <em>the cellular organs that generate energy from light</em>. When an appositive is set off by an em dash on the closing side, a matching em dash is required on the opening side &mdash; immediately after the noun being renamed."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — chloroplasts;</strong>: a semicolon separates independent clauses, not an appositive from its noun. &#10007;</li><li><strong>Choice B — chloroplasts</strong>: no punctuation fails to mark the boundary of the appositive at all. &#10007;</li><li><strong>Choice C — chloroplasts,</strong>: a comma mismatches with the closing em dash; both sides must use the same punctuation mark. &#10007;</li><li><strong>Choice D — chloroplasts—</strong>: the opening em dash matches the closing em dash, correctly framing the appositive. &#10003;</li></ul><strong>D</strong> is correct."
+    }
+  ]
+}

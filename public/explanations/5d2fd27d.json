@@ -1,1 +1,15 @@
-{"questionId": "5d2fd27d", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what word the blank requires", "content": "The passage states we must work with climate using computer models that represent various climate conditions. The blank describes what the models do to those conditions: they reproduce or mimic them. We need a verb meaning to imitate a real system."}, {"title": "Eliminate each choice and confirm the answer", "content": "<ul><li><strong>Choice A &mdash; 'invent'</strong>: Invent means to create something new. A model that &quot;invents&quot; climate conditions would fabricate them rather than reproduce real ones. &#10007;</li><li><strong>Choice B &mdash; 'simulate'</strong>: Simulate means to imitate or reproduce a system. Computer models that simulate climate conditions replicate real-world behavior &mdash; exactly what the passage describes. &#10003;</li><li><strong>Choice C &mdash; 'exaggerate'</strong>: Exaggerate means to overstate. A model that exaggerates conditions distorts rather than accurately represents them. &#10007;</li><li><strong>Choice D &mdash; 'preserve'</strong>: Preserve means to keep something unchanged. This implies storing conditions, not modeling their behavior. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "5d2fd27d",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what word the blank requires",
+      "content": "The passage states we must work with climate using computer models that represent various climate conditions. The blank describes what the models do to those conditions: they reproduce or mimic them. We need a verb meaning to imitate a real system."
+    },
+    {
+      "title": "Eliminate each choice and confirm the answer",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;invent&rsquo;</strong>: Invent means to create something new. A model that &quot;invents&quot; climate conditions would fabricate them rather than reproduce real ones. &#10007;</li><li><strong>Choice B &mdash; &lsquo;simulate&rsquo;</strong>: Simulate means to imitate or reproduce a system. Computer models that simulate climate conditions replicate real-world behavior &mdash; exactly what the passage describes. &#10003;</li><li><strong>Choice C &mdash; &lsquo;exaggerate&rsquo;</strong>: Exaggerate means to overstate. A model that exaggerates conditions distorts rather than accurately represents them. &#10007;</li><li><strong>Choice D &mdash; &lsquo;preserve&rsquo;</strong>: Preserve means to keep something unchanged. This implies storing conditions, not modeling their behavior. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

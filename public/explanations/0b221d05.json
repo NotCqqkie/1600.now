@@ -9,7 +9,7 @@
     },
     {
       "title": "Test answer choices",
-      "content": "<ul><li><strong>A</strong> $(-5,-6)$ is outside the shaded region.</li><li><strong>B</strong> $(-2,5)$ is outside the shaded region.</li><li><strong>C</strong> $(1,4)$ is outside the shaded region.</li><li><strong>D</strong> $(6,-2)$ is inside the shaded region.</li></ul>The only plotted choice in the shaded region is $(6,-2)$, so choice <strong>D</strong> is correct."
+      "content": "<ul><li><strong>A</strong> $(-5,-6)$ is outside the shaded region.</li><li><strong>B</strong> $(-2,5)$ is outside the shaded region.</li><li><strong>C</strong> $(1,4)$ is outside the shaded region.</li><li><strong>D</strong> $(6,-2)$ is inside the shaded region.</li></ul>The only plotted choice in the shaded region is $(6,-2)$, so <strong>Choice D &mdash; $\\left(6,-2\\right)$</strong>."
     }
   ]
 }

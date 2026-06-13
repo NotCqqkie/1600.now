@@ -1,1 +1,15 @@
-{"questionId": "7876fc9e-c914-40a9-9906-62c7e3b1bbce_21", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The first sentence claims the pseudonym &quot;accomplished far more than simply concealing his authorship.&quot; The second sentence reinforces that point: it was a complex rhetorical strategy, not an arbitrary pen name. The transition must signal confirmation and intensification of the same idea."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'Indeed'</strong>: signals confirmation and intensification &mdash; exactly the relationship between the two sentences. &#10003;</li><li><strong>Choice B &mdash; 'Conversely'</strong>: signals a contrast or reversal. The second sentence does not contradict the first. &#10007;</li><li><strong>Choice C &mdash; 'However'</strong>: also signals contrast. Same problem as &quot;Conversely.&quot; &#10007;</li><li><strong>Choice D &mdash; 'In addition'</strong>: introduces a new, separate point. The second sentence restates and deepens the first rather than adding a distinct idea. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "7876fc9e-c914-40a9-9906-62c7e3b1bbce_21",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The first sentence claims the pseudonym &quot;accomplished far more than simply concealing his authorship.&quot; The second sentence reinforces that point: it was a complex rhetorical strategy, not an arbitrary pen name. The transition must signal confirmation and intensification of the same idea."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Indeed,&rsquo;</strong>: signals confirmation and intensification &mdash; exactly the relationship between the two sentences. &#10003;</li><li><strong>Choice B &mdash; &lsquo;Conversely,&rsquo;</strong>: signals a contrast or reversal. The second sentence does not contradict the first. &#10007;</li><li><strong>Choice C &mdash; &lsquo;In addition,&rsquo;</strong>: also signals contrast. Same problem as &quot;Conversely.&quot; &#10007;</li><li><strong>Choice D &mdash; &lsquo;However,&rsquo;</strong>: introduces a new, separate point. The second sentence restates and deepens the first rather than adding a distinct idea. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

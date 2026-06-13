@@ -3,9 +3,21 @@
   "correctAnswer": "C",
   "section": "Math",
   "steps": [
-    "Subtract $66x$ from both sides of $66x = 66x$ to get $0 = 0$.",
-    "The statement $0 = 0$ is true for every value of $x$ with no restriction, so the equation is satisfied by all real numbers.",
-    "Test all four choices: <ul><li><strong>Choice A &mdash; 'Exactly one'</strong>: Exactly one solution means a unique value of $x$ satisfies the equation. Here every $x$ works, not just one. &#10007;</li><li><strong>Choice B &mdash; 'Exactly two'</strong>: A linear equation can never have exactly two solutions. &#10007;</li><li><strong>Choice C &mdash; 'Infinitely many'</strong>: Since $66x = 66x$ simplifies to $0 = 0$, which is always true, every real number is a solution. &#10003;</li><li><strong>Choice D &mdash; 'Zero'</strong>: Zero solutions requires a contradiction such as $0 = 5$. Here we get $0 = 0$, which is not a contradiction. &#10007;</li></ul>",
-    "That matches choice C &mdash; <strong>C</strong> is correct."
+    {
+      "title": "Step 1",
+      "content": "Subtract $66x$ from both sides of $66x = 66x$ to get $0 = 0$."
+    },
+    {
+      "title": "Step 2",
+      "content": "The statement $0 = 0$ is true for every value of $x$ with no restriction, so the equation is satisfied by all real numbers."
+    },
+    {
+      "title": "Step 3",
+      "content": "Test all four choices: <ul><li><strong>Choice A &mdash; &lsquo;Exactly one&rsquo;</strong>: Exactly one solution means a unique value of $x$ satisfies the equation. Here every $x$ works, not just one. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Exactly two&rsquo;</strong>: A linear equation can never have exactly two solutions. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Infinitely many&rsquo;</strong>: Since $66x = 66x$ simplifies to $0 = 0$, which is always true, every real number is a solution. &#10003;</li><li><strong>Choice D &mdash; &lsquo;Zero&rsquo;</strong>: Zero solutions requires a contradiction such as $0 = 5$. Here we get $0 = 0$, which is not a contradiction. &#10007;</li></ul>"
+    },
+    {
+      "title": "Step 4",
+      "content": "That confirms <strong>C</strong> is correct."
+    }
   ]
 }

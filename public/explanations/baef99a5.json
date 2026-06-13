@@ -1,1 +1,15 @@
-{"questionId":"baef99a5","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"This is a Central Ideas and Details question asking what is true about Dorian based on the passage. The passage describes Dorian's physical and emotional reaction upon first seeing Hallward's portrait of him. The correct answer must be directly supported by the text &mdash; no outside inference."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'He wants to know Hallward's opinion of the portrait.'</strong>: The passage says Dorian was 'dimly conscious that Hallward was speaking to him, but not catching the meaning of his words.' Dorian is absorbed in his own reaction, not concerned with Hallward's view. &#10007;</li><li><strong>Choice B &mdash; 'He is delighted by what he sees in the portrait.'</strong>: His cheeks 'flushed for a moment with pleasure,' a 'look of joy came into his eyes,' and the sense of his own beauty struck him 'like a revelation.' The text directly and repeatedly signals delight. &#10003;</li><li><strong>Choice C &mdash; 'He prefers portraits to other types of paintings.'</strong>: The text makes no comparison between portrait and other art forms. This is unsupported. &#10007;</li><li><strong>Choice D &mdash; 'He is uncertain of Hallward's talent as an artist.'</strong>: Nothing in the passage suggests doubt about Hallward's skill; Dorian's reaction is entirely focused on seeing his own beauty, not evaluating the painter. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "baef99a5",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a Central Ideas and Details question asking what is true about Dorian based on the passage. The passage describes Dorian's physical and emotional reaction upon first seeing Hallward's portrait of him. The correct answer must be directly supported by the text &mdash; no outside inference."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; He wants to know Hallward's opinion of the portrait.</strong>: The passage says Dorian was 'dimly conscious that Hallward was speaking to him, but not catching the meaning of his words.' Dorian is absorbed in his own reaction, not concerned with Hallward's view. &#10007;</li><li><strong>Choice B &mdash; He is delighted by what he sees in the portrait.</strong>: His cheeks 'flushed for a moment with pleasure,' a 'look of joy came into his eyes,' and the sense of his own beauty struck him 'like a revelation.' The text directly and repeatedly signals delight. &#10003;</li><li><strong>Choice C &mdash; He prefers portraits to other types of paintings.</strong>: The text makes no comparison between portrait and other art forms. This is unsupported. &#10007;</li><li><strong>Choice D &mdash; He is uncertain of Hallward's talent as an artist.</strong>: Nothing in the passage suggests doubt about Hallward's skill; Dorian's reaction is entirely focused on seeing his own beauty, not evaluating the painter. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

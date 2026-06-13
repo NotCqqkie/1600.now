@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "<ul><li>Choice A, $23$, is $23\\%$ of $100$. Correct.</li><li>Choice B, $46$, would be $46\\%$ of $100$.</li><li>Choice C, $77$, is $23\\%$ less than $100$, not $23\\%$ of $100$.</li><li>Choice D, $123$, is $23\\%$ greater than $100$, not $23\\%$ of $100$.</li></ul>That matches choice A."
+      "content": "<ul><li>Choice A, $23$, is $23\\%$ of $100$. Correct.</li><li>Choice B, $46$, would be $46\\%$ of $100$.</li><li>Choice C, $77$, is $23\\%$ less than $100$, not $23\\%$ of $100$.</li><li>Choice D, $123$, is $23\\%$ greater than $100$, not $23\\%$ of $100$.</li></ul>That is the correct answer."
     }
   ]
 }

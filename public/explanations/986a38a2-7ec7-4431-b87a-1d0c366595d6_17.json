@@ -1,1 +1,15 @@
-{"questionId":"986a38a2-7ec7-4431-b87a-1d0c366595d6_17","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The verb &quot;eschew&quot; takes &quot;currency&quot; as its direct object, and &quot;in favor of a direct trade system&quot; is a prepositional phrase that completes the meaning of that object. These two elements form a unified expression and must not be separated by punctuation."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; comma after &quot;currency&quot;</strong>: A comma separates &quot;currency&quot; from the phrase that defines what it's being exchanged for, fragmenting the meaning. &#10007;</li><li><strong>Choice B &mdash; dash after &quot;currency&quot;</strong>: A dash similarly breaks the tight connection between the object and its prepositional complement. &#10007;</li><li><strong>Choice C &mdash; no punctuation between &quot;currency&quot; and &quot;in favor of&quot;</strong>: Keeps the object and its prepositional phrase together, preserving the unified meaning. &#10003;</li><li><strong>Choice D &mdash; comma or dash elsewhere in the phrase</strong>: Any inserted punctuation disrupts the flow of the integral prepositional phrase. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "986a38a2-7ec7-4431-b87a-1d0c366595d6_17",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The verb &quot;eschew&quot; takes &quot;currency&quot; as its direct object, and &quot;in favor of a direct trade system&quot; is a prepositional phrase that completes the meaning of that object. These two elements form a unified expression and must not be separated by punctuation."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; currency, in favor of a direct trade system</strong>: A comma separates &quot;currency&quot; from the phrase that defines what it's being exchanged for, fragmenting the meaning. &#10007;</li><li><strong>Choice B &mdash; currency—in favor of a direct trade system</strong>: A dash similarly breaks the tight connection between the object and its prepositional complement. &#10007;</li><li><strong>Choice C &mdash; currency in favor of a direct trade system</strong>: Keeps the object and its prepositional phrase together, preserving the unified meaning. &#10003;</li><li><strong>Choice D &mdash; currency, in favor of a direct trade system,</strong>: Any inserted punctuation disrupts the flow of the integral prepositional phrase. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

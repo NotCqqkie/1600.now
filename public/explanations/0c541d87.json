@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate b to solve for e",
-      "content": "Multiply the first equation by 4 to align the bread terms:<br/>$$ 4b + 8e = 49.80 $$<br/>Subtract the second equation from this result:<br/>$$ (4b + 8e) - (4b + e) = 49.80 - 19.42 $$<br/>$$ 7e = 30.38 $$<br/>Divide both sides by 7:<br/>$$ e = \\frac{30.38}{7} = 4.34 $$<br/>This value matches choice D — <strong>D</strong> is correct."
+      "content": "Multiply the first equation by 4 to align the bread terms:<br/>$$ 4b + 8e = 49.80 $$<br/>Subtract the second equation from this result:<br/>$$ (4b + 8e) - (4b + e) = 49.80 - 19.42 $$<br/>$$ 7e = 30.38 $$<br/>Divide both sides by 7:<br/>$$ e = \\frac{30.38}{7} = 4.34 $$<br/>This value matches <strong>Choice D &mdash; $4.34$</strong> is correct."
     }
   ]
 }

@@ -10,7 +10,7 @@
     },
     {
       "title": "Calculate the sum and divide",
-      "content": "Sum: $1 + 4 + 7 + 10 + 33 = 55$. <br/> Divide by the count: $$\\frac{55}{5} = 11$$ That matches choice B — <strong>B</strong> is correct."
+      "content": "Sum: $1 + 4 + 7 + 10 + 33 = 55$. <br/> Divide by the count: $$\\frac{55}{5} = 11$$ That matches the correct answer — <strong>B</strong> is correct."
     }
   ]
 }

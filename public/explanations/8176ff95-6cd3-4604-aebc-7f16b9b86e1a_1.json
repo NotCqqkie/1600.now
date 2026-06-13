@@ -9,11 +9,11 @@
     },
     {
       "title": "Solve for x",
-      "content": "Add $18$, then divide by $-9$.<br/>$$-9x=-198\\;\\Rightarrow\\;x=22$$<br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."
+      "content": "Add $18$, then divide by $-9$.<br/>$$-9x=-198\\;\\Rightarrow\\;x=22$$<br/>That confirms <strong>B</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice B, 22. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above confirms <strong>B</strong>, 22. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
     }
   ]
 }

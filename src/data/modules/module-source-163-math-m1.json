@@ -257,7 +257,7 @@
     "difficulty": "Easy",
     "question_number": 10,
     "test_name": "Module Source 163 Math M1",
-    "passage": "The Mars Perseverance rover is a robot designed to collect samples of rock and soil. During an experiment, the rover moves at a constant speed on a straight path toward a designated target. The equation $ y = 390 - 142x $ gives the rover's remaining distance from its target $ y $, in meters, $ x $ hours after the start of the experiment. What is the best interpretation of 390 in this context?",
+    "passage": "The Mars Perseverance rover is a robot designed to collect samples of rock and soil. During an experiment, the rover moves at a constant speed on a straight path toward a designated target. The equation $y = 390 - 142x$ gives the rover's remaining distance from its target $y$, in meters, $x$ hours after the start of the experiment. What is the best interpretation of 390 in this context?",
     "question_text": null,
     "choices": [
       {
@@ -289,7 +289,7 @@
     "difficulty": "Easy",
     "question_number": 11,
     "test_name": "Module Source 163 Math M1",
-    "passage": "The graph of a polynomial function $ y = f(x) $ in the $ xy $-plane passes through the point (8,9). What is the value of $ f(8) $?",
+    "passage": "The graph of a polynomial function $y = f(x)$ in the $xy$-plane passes through the point (8,9). What is the value of $f(8)$?",
     "question_text": null,
     "choices": [
       {
@@ -456,7 +456,7 @@
     "difficulty": "Easy",
     "question_number": 16,
     "test_name": "Module Source 163 Math M1",
-    "passage": "Which expression is equivalent to $\\frac{20\\pi^{2}}{\\pi^{2}-x^{2}}-\\frac{20\\pi}{x+\\pi}$, where $x > \\pi$?",
+    "passage": "Which expression is equivalent to $\\frac{20\\pi^{2}}{\\pi^{2}-x^{2}}-\\frac{20\\pi}{x+\\pi}$, where $x \\gt \\pi$?",
     "question_text": null,
     "choices": [
       {
@@ -520,7 +520,7 @@
     "difficulty": "Hard",
     "question_number": 18,
     "test_name": "Module Source 163 Math M1",
-    "passage": "In the triangle shown, $ RS = \\sqrt{157} $. What is the value of $\\sin R$?",
+    "passage": "In the triangle shown, $RS = \\sqrt{157}$. What is the value of $\\sin R$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -613,7 +613,7 @@
     "difficulty": "Medium",
     "question_number": 21,
     "test_name": "Module Source 163 Math M1",
-    "passage": "$(x - 2) - 8(y + 3) = 123$\n$(x - 2) + 8(y + 3) = 432$\nThe solution to the given system of equations is $(x, y)$. What is the value of $10(x - 2)$?",
+    "passage": "$(x - 2) - 8(y + 3) = 123$\n$(x - 2) + 8(y + 3) = 432$\nThe solution to the given system of equations is $(x, y)$. What is the value of $10\\left(x - 2\\right)$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

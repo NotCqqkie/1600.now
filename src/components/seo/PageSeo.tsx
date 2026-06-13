@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { BRAND_URL, brandedTitle } from "@/lib/brand";
+import { BRAND_NAME, BRAND_URL, brandedTitle } from "@/lib/brand";
 
 type JsonLdPayload = Record<string, unknown>;
 
@@ -16,10 +16,12 @@ interface PageSeoProps {
   canonical?: string;
   alternates?: HreflangAlternate[];
   image?: string;
+  imageAlt?: string;
   type?: "website" | "article";
 }
 
 const DEFAULT_OG_IMAGE = `${BRAND_URL}/og-image.png`;
+const DEFAULT_OG_IMAGE_ALT = `${BRAND_NAME} Digital SAT prep tools and practice`;
 
 function upsertMetaByName(name: string, content: string) {
   let el = document.head.querySelector(`meta[name="${name}"]`) as HTMLMetaElement | null;
@@ -86,6 +88,7 @@ export const PageSeo = ({
   canonical,
   alternates,
   image,
+  imageAlt,
   type = "website",
 }: PageSeoProps) => {
   useEffect(() => {
@@ -93,6 +96,7 @@ export const PageSeo = ({
       canonical ??
       `${BRAND_URL}${window.location.pathname === "/" ? "/" : window.location.pathname}`;
     const imageUrl = image ?? DEFAULT_OG_IMAGE;
+    const resolvedImageAlt = imageAlt ?? DEFAULT_OG_IMAGE_ALT;
 
     if (title) {
       const finalTitle = brandedTitle(title);
@@ -111,9 +115,15 @@ export const PageSeo = ({
     upsertCanonical(canonicalUrl);
     upsertMetaByProperty("og:url", canonicalUrl);
     upsertMetaByProperty("og:type", type);
+    upsertMetaByProperty("og:site_name", BRAND_NAME);
+    upsertMetaByProperty("og:locale", "en_US");
     upsertMetaByProperty("og:image", imageUrl);
+    upsertMetaByProperty("og:image:alt", resolvedImageAlt);
+    upsertMetaByProperty("og:image:width", "1200");
+    upsertMetaByProperty("og:image:height", "630");
     upsertMetaByName("twitter:card", "summary_large_image");
     upsertMetaByName("twitter:image", imageUrl);
+    upsertMetaByName("twitter:image:alt", resolvedImageAlt);
     upsertMetaByName("robots", "index, follow, max-image-preview:large, max-snippet:-1");
     if (alternates && alternates.length > 0) {
       upsertAlternates(id, alternates);
@@ -125,7 +135,7 @@ export const PageSeo = ({
         .querySelectorAll(`link[rel="alternate"][data-seo-id="${id}"]`)
         .forEach((node) => node.remove());
     };
-  }, [id, title, description, jsonLd, canonical, alternates, image, type]);
+  }, [id, title, description, jsonLd, canonical, alternates, image, imageAlt, type]);
 
   return null;
 };
@@ -174,6 +184,36 @@ export const buildItemListJsonLd = (
     name: item.name,
     url: item.url,
   })),
+});
+
+export const buildWebApplicationJsonLd = (data: {
+  name: string;
+  url: string;
+  description?: string;
+  featureList?: string[];
+}) => ({
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  name: data.name,
+  url: data.url,
+  description: data.description,
+  applicationCategory: "EducationalApplication",
+  operatingSystem: "Web",
+  browserRequirements: "Requires JavaScript. Modern browser.",
+  isAccessibleForFree: true,
+  inLanguage: "en-US",
+  publisher: {
+    "@type": "Organization",
+    name: BRAND_NAME,
+    url: BRAND_URL,
+  },
+  offers: {
+    "@type": "Offer",
+    price: "0",
+    priceCurrency: "USD",
+    availability: "https://schema.org/InStock",
+  },
+  ...(data.featureList ? { featureList: data.featureList } : {}),
 });
 
 export interface QuizJsonLdQuestion {
@@ -234,21 +274,27 @@ export const buildArticleJsonLd = (data: {
   "@type": "Article",
   headline: data.title,
   description: data.description,
-  mainEntityOfPage: data.url,
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": data.url,
+  },
   url: data.url,
   datePublished: data.datePublished,
   dateModified: data.dateModified ?? data.datePublished,
   image: data.image ?? "https://1600.now/og-image.png",
   author: {
     "@type": "Organization",
-    name: data.author ?? "1600.now",
+    name: data.author ?? BRAND_NAME,
   },
   publisher: {
     "@type": "Organization",
-    name: "1600.now",
+    name: BRAND_NAME,
+    url: BRAND_URL,
     logo: {
       "@type": "ImageObject",
-      url: "https://1600.now/optimized/logo_text_b_1200.png",
+      url: `${BRAND_URL}/optimized/logo_text_b_1200.png`,
+      width: 1200,
+      height: 412,
     },
   },
 });

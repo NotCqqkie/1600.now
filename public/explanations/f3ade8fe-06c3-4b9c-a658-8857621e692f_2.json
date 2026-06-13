@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the answer",
-      "content": "The fitted expression is $x^4+23x^2+57$, which matches choice D. Choices A and B have the wrong $x^2$ coefficient, and choice C has the wrong constant, so choice <strong>D</strong> is correct."
+      "content": "The fitted expression is $x^4+23x^2+57$, which matches the correct answer, <strong>D</strong>. Two other options have the wrong $x^2$ coefficient, and another alternative has the wrong constant, so <strong>D</strong> is correct."
     }
   ]
 }

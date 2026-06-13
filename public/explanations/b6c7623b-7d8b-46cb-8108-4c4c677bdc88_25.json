@@ -1,1 +1,15 @@
-{"questionId": "b6c7623b-7d8b-46cb-8108-4c4c677bdc88_25", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the requirement", "content": "The student wants to indicate that <strong>both</strong> soundscapes are on the list. This is the goal any correct answer must accomplish."}, {"title": "Select the effective choice", "content": "Choice C names both soundscapes in a single statement: “Both the sound of the bell at Hikone Castle and the sound of crickets on the banks of the Yodo River are on the list.” The other three either mention only one soundscape or describe the list without specifying either item.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "b6c7623b-7d8b-46cb-8108-4c4c677bdc88_25",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the requirement",
+      "content": "The student wants to indicate that <strong>both</strong> soundscapes are on the list. This is the goal any correct answer must accomplish."
+    },
+    {
+      "title": "Select the effective choice",
+      "content": "Choice C names both soundscapes in a single statement: “Both the sound of the bell at Hikone Castle and the sound of crickets on the banks of the Yodo River are on the list.” The other three either mention only one soundscape or describe the list without specifying either item.<br/><br/>That is the correct answer."
+    }
+  ]
+}

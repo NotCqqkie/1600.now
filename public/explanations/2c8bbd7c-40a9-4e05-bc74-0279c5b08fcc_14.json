@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "What removing a value does to mean and median",
-      "content": "The original data set has 11 values. The new data set has 10 values after removing $78.2$&deg;F. Track the two measures separately:<ul><li><strong>Mean:</strong> removing a value above the old mean lowers the mean.</li><li><strong>Median:</strong> the old median is the 6th sorted value; after removing the largest value, the new median is the average of the old 5th and 6th sorted values.</li></ul>"
+      "content": "The original data set has 11 values. The new data set has 10 values after removing $78.2^{\\circ}\\text{F}$. Track the two measures separately:<ul><li><strong>Mean:</strong> removing a value above the old mean lowers the mean.</li><li><strong>Median:</strong> the old median is the 6th sorted value; after removing the largest value, the new median is the average of the old 5th and 6th sorted values.</li></ul>"
     },
     {
       "title": "Apply to this histogram",
-      "content": "The histogram gives two quick checks:<ul><li>The removed value, $78.2$&deg;F, is the high outlier, so it is above the original mean. Removing it must lower the mean. <strong>Statement I is true.</strong></li><li>The histogram does not force the old 5th and 6th values to be different. If those two values are equal, then averaging them gives the same median as before. <strong>Statement II is not guaranteed.</strong></li></ul>"
+      "content": "The histogram gives two quick checks:<ul><li>The removed value, $78.2^{\\circ}\\text{F}$, is the high outlier, so it is above the original mean. Removing it must lower the mean. <strong>Statement I is true.</strong></li><li>The histogram does not force the old 5th and 6th values to be different. If those two values are equal, then averaging them gives the same median as before. <strong>Statement II is not guaranteed.</strong></li></ul>"
     },
     {
       "title": "Eliminate the other choices",
-      "content": "<ul><li>A: I only &mdash; matches: removing the maximum 78.2 always lowers the mean, but the median need not strictly decrease.</li><li>B: II only &mdash; wrong because the mean must decrease (78.2 exceeds the original mean).</li><li>C: I and II &mdash; wrong because II is not forced: the 5th and 6th sorted values can be equal, leaving the median unchanged.</li><li>D: neither &mdash; wrong because I is always true.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li>A: I only &mdash; matches: removing the maximum 78.2 always lowers the mean, but the median need not strictly decrease.</li><li>B: II only &mdash; wrong because the mean must decrease (78.2 exceeds the original mean).</li><li>C: I and II &mdash; wrong because II is not forced: the 5th and 6th sorted values can be equal, leaving the median unchanged.</li><li>D: neither &mdash; wrong because I is always true.</li></ul><strong>A</strong> is correct."
     }
   ]
 }

@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; 'greater than 63.09% and less than 68.91%'</strong>: 66% &minus; 2.91% = 63.09% and 66% + 2.91% = 68.91%. Values between these bounds are plausible. &#10003;</li><li><strong>Choice B &mdash; 'greater than 63.09%'</strong>: Ignores the upper bound &mdash; values above 68.91% are not supported by the margin of error. &#10007;</li><li><strong>Choice C &mdash; 'less than 63.09% or greater than 68.91%'</strong>: These are exactly the values <em>outside</em> the confidence interval, not inside it. &#10007;</li><li><strong>Choice D &mdash; 'less than 68.91%'</strong>: Ignores the lower bound &mdash; values below 63.09% are not supported. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; Any value greater than 63.09% and less than 68.91%</strong>: 66% &minus; 2.91% = 63.09% and 66% + 2.91% = 68.91%. Values between these bounds are plausible. &#10003;</li><li><strong>Choice B &mdash; Any value greater than 63.09%</strong>: Ignores the upper bound &mdash; values above 68.91% are not supported by the margin of error. &#10007;</li><li><strong>Choice C &mdash; Any value less than 63.09% or greater than 68.91%</strong>: These are exactly the values <em>outside</em> the confidence interval, not inside it. &#10007;</li><li><strong>Choice D &mdash; Any value less than 68.91%</strong>: Ignores the lower bound &mdash; values below 63.09% are not supported. &#10007;</li></ul>That is the correct answer."
     }
   ]
 }

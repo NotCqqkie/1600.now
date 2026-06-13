@@ -134,7 +134,7 @@
     "difficulty": "Easy",
     "question_number": 5,
     "test_name": "Module Source 047 Math M1",
-    "passage": "The function g is defined by $g(x)=\\frac{5}{9}x-\\frac{7}{9}$. What is the value of $g(18)?$",
+    "passage": "The function g is defined by $g(x)=\\frac{5}{9}x-\\frac{7}{9}$. What is the value of $g(18)$?",
     "question_text": null,
     "choices": [
       {
@@ -228,7 +228,7 @@
     "difficulty": "Easy",
     "question_number": 9,
     "test_name": "Module Source 047 Math M1",
-    "passage": "$\\frac{27(k+6)}{3(k+6)}$\nThe given expression is equivalent to $c$, where $c$ is a constant and $k > -6$. What is the value of $c$?",
+    "passage": "$\\frac{27(k+6)}{3(k+6)}$\nThe given expression is equivalent to $c$, where $c$ is a constant and $k \\gt -6$. What is the value of $c$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

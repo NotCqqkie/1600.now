@@ -326,8 +326,8 @@
     "difficulty": "Medium",
     "question_number": 11,
     "test_name": "Module Source 151 Eng M1",
-    "passage": "Which choice most effectively uses data from the table to complete the conclusion?",
-    "question_text": "Which choice most effectively uses data from the table to complete the conclusion?",
+    "passage": "Which choice most effectively uses data from the table to complete the conclusion?\nIn an extensive review of existing literature, Léna de Framond and team cataloged the prevalence of broken-wing display—a defensive behavior observed in *Charadrius semipalmatus* (semipalmated plover) and many other species—throughout the Aves class. Documentation of the display in 285 species across 52 families suggests the behavior likely evolved independently multiple times, prompting the team to consider ecological and life-history characteristics with hypothesized associations to the behavior's emergence, including traits related to reproduction investment and future reproduction potential.\nBased on their review of those traits, the team concluded that ______",
+    "question_text": null,
     "choices": [
       {
         "label": "A",

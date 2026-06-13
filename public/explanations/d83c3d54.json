@@ -1,1 +1,15 @@
-{"questionId": "d83c3d54", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The conclusion is that the dam <strong>benefited grass plants but didn’t benefit trees</strong>.<br/><br/>The key clue in the passage is the word “<strong>whereas</strong>” — it signals a contrast between two trends.<br/><br/>The correct answer must show one group (grass) increasing over time and the other (forest) decreasing."}, {"title": "Match the meaning", "content": "Choice D directly shows <strong>grass cover increasing</strong> from 1987 to 2006 while <strong>forest cover decreased</strong> in those periods.<br/><br/>A, B, and C either focus on bare soil (irrelevant to the conclusion) or fail to show the critical shift in forest and grass trends after the dam in 1992.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "d83c3d54",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The conclusion is that the dam <strong>benefited grass plants but didn’t benefit trees</strong>.<br/><br/>The key clue in the passage is the word “<strong>whereas</strong>” — it signals a contrast between two trends.<br/><br/>The correct answer must show one group (grass) increasing over time and the other (forest) decreasing."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "<strong>Grass cover increased from 1987 to 1993 and from 1993 to 2006, whereas forest cover decreased in those periods.</strong> directly shows the vegetation pattern that supports the claim."
+    }
+  ]
+}

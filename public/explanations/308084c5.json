@@ -13,7 +13,7 @@
     },
     {
       "title": "Conclude from the inverse relationship with sample size",
-      "content": "The margin of error is inversely proportional to the square root of sample size.<br/><br/>A smaller sample size produces a larger margin of error; a larger sample size produces a smaller margin of error.<br/><br/>Since Sample A has a larger MOE (4.2% vs 1.6%), Sample A must have the smaller sample size.<br/><br/>That matches choice D — <strong>D</strong> is correct."
+      "content": "The margin of error is inversely proportional to the square root of sample size.<br/><br/>A smaller sample size produces a larger margin of error; a larger sample size produces a smaller margin of error.<br/><br/>Since Sample A has a larger MOE (4.2% vs 1.6%), Sample A must have the smaller sample size.<br/><br/><strong>D</strong> is correct."
     }
   ]
 }

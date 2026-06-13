@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Calculate 15 percent",
-      "content": "Convert $15\\%$ to $0.15$ and multiply by the bill amount: $$0.15\\cdot78.20=11.73.$$ The expected tip is $\\$11.73$."
+      "content": "Convert $15\\%$ to $0.15$ and multiply by the bill amount: $$0.15\\cdot78.20=11.73.$$ The expected tip is 11.73 dollars."
     },
     {
       "title": "Choose the closest amount",
-      "content": "The closest choice to $\\$11.73$ is $\\$12.00$, which is only $\\$0.27$ away."
+      "content": "The closest choice to 11.73 dollars is 12.00 dollars, which is only 0.27 dollars away."
     },
     {
       "title": "Confirm the choice",
-      "content": "$\\$12.00$ matches choice <strong>C</strong>."
+      "content": "12.00 dollars matches <strong>C</strong>."
     },
     {
       "title": "Round to the nearest listed dollar amount",

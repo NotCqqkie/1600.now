@@ -1,1 +1,15 @@
-{"questionId": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_10", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what 'most remarkably' signals", "content": "The phrase “most remarkably” indicates the student was struck by the most dramatic, striking difference in the data. The answer must show a large disparity—not just any variation between systems."}, {"title": "Find the maximum contrast in sales", "content": "Game & Watch sold 18,600,000 units, far exceeding all competitors (clustered at 2–4 million).<br/><br/>ColecoVision, at 2,000,000, is the lowest. This creates a 16.6-million-unit gap—by far the most extreme difference in the table.<br/><br/>Choices A and C compare systems within the crowded 2–4 million range (differing by only 1 million), and choice B incorrectly attributes 18.6 million to MSX.<br/><br/>This matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_10",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what 'most remarkably' signals",
+      "content": "The phrase “most remarkably” indicates the student was struck by the most dramatic, striking difference in the data. The answer must show a large disparity—not just any variation between systems."
+    },
+    {
+      "title": "Find the maximum contrast in sales",
+      "content": "Game & Watch sold 18,600,000 units, far exceeding all competitors (clustered at 2–4 million).<br/><br/>ColecoVision, at 2,000,000, is the lowest. This creates a 16.6-million-unit gap—by far the most extreme difference in the table.<br/><br/>The other choices compare systems within the crowded 2–4 million range (differing by only 1 million), and choice B (&lsquo;MSX sold approximately 18,600,000 units, whereas the Intellivision sold only approximately 2,000,000 units.&rsquo;) incorrectly attributes 18.6 million to MSX.<br/><br/>This confirms <strong>D</strong> is correct."
+    }
+  ]
+}

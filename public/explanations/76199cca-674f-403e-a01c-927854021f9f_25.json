@@ -1,1 +1,15 @@
-{"questionId": "76199cca-674f-403e-a01c-927854021f9f_25", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the student needs", "content": "The student wants to provide a specific example of a public service that Ixmiquilpan is responsible for. The notes name exactly one specific service: water treatment. Any correct choice must name that service explicitly."}, {"title": "Eliminate wrong choices and confirm the match", "content": "<ul><li><strong>Choice A &mdash; 'As a municipality, Ixmiquilpan is responsible for providing water treatment to its residents.'</strong>: names water treatment specifically as the service Ixmiquilpan provides &mdash; a direct example. &#10003;</li><li><strong>Choice B &mdash; 'Ixmiquilpan is one of 84 municipalities in Hidalgo providing public services to their communities.'</strong>: mentions services in general and focuses on how many municipalities exist, not on any specific service. &#10007;</li><li><strong>Choice C &mdash; 'Ixmiquilpan&mdash;a governmental region in the state of Hidalgo, Mexico&mdash;provides public services to its residents.'</strong>: says &quot;public services&quot; generically without naming any particular one. &#10007;</li><li><strong>Choice D &mdash; 'In 2020, the municipality of Ixmiquilpan had a population of 98,654.'</strong>: gives a population figure, not a public service example at all. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."} ]}
+{
+  "questionId": "76199cca-674f-403e-a01c-927854021f9f_25",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the student needs",
+      "content": "The student wants to provide a specific example of a public service that Ixmiquilpan is responsible for. The notes name exactly one specific service: water treatment. Any correct choice must name that service explicitly."
+    },
+    {
+      "title": "Eliminate wrong choices and confirm the match",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;As a municipality, Ixmiquilpan is responsible for providing water treatment to its residents.&rsquo;</strong>: names water treatment specifically as the service Ixmiquilpan provides &mdash; a direct example. &#10003;</li><li><strong>Choice B &mdash; &lsquo;Ixmiquilpan is one of 84 municipalities in Hidalgo providing public services to their communities.&rsquo;</strong>: mentions services in general and focuses on how many municipalities exist, not on any specific service. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Ixmiquilpan—a governmental region in the state of Hidalgo, Mexico—provides public services to its residents.&rsquo;</strong>: says &quot;public services&quot; generically without naming any particular one. &#10007;</li><li><strong>Choice D &mdash; &lsquo;In 2020, the municipality of Ixmiquilpan had a population of 98,654.&rsquo;</strong>: gives a population figure, not a public service example at all. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

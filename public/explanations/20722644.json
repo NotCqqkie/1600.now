@@ -13,11 +13,11 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice A treats $2^3$ like $2+3$. Choice B treats it like $2\\cdot3$. The cube means $2\\cdot2\\cdot2=8$."
+      "content": "<strong>Choice A &mdash; $14$</strong> treats $2^3$ like $2+3$. <strong>Choice B &mdash; $15$</strong> treats it like $2\\cdot3$. The cube means $2\\cdot2\\cdot2=8$."
     },
     {
       "title": "Answer",
-      "content": "$17$ matches choice C, so <strong>C</strong> is correct."
+      "content": "$17$ matches <strong>Choice C &mdash; $17$</strong>, so <strong>C</strong> is correct."
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the known angles in the triangle",
-      "content": "From the diagram, the right angle is at $B$ (marked with a small square), so $\\angle B = 90°$. The angle at $A$ is labeled as $56°$. We need to find $\\angle C$."
+      "content": "From the diagram, the right angle is at $B$ (marked with a small square), so $\\angle B = 90^{\\circ}$. The angle at $A$ is labeled as $56^{\\circ}$. We need to find $\\angle C$."
     },
     {
       "title": "Apply the angle sum property of triangles",
-      "content": "The sum of all angles in any triangle equals $180°$:<br/>$$\\angle A + \\angle B + \\angle C = 180°$$<br/>$$56° + 90° + \\angle C = 180°$$<br/>$$\\angle C = 180° - 146° = 34°$$<br/>That matches choice D — <strong>D</strong> is correct."
+      "content": "The sum of all angles in any triangle equals $180^{\\circ}$:<br/>$$\\angle A + \\angle B + \\angle C = 180^{\\circ}$$<br/>$$56^{\\circ} + 90^{\\circ} + \\angle C = 180^{\\circ}$$<br/>$$\\angle C = 180^{\\circ} - 146^{\\circ} = 34^{\\circ}$$<br/>That confirms <strong>D</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,19 @@
-{"questionId": "86b78078", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the rhetorical goal", "content": "The student wants to introduce both Samuel Selvon and his novel <em>The Lonely Londoners</em> to a new audience. The effective choice must name Selvon, identify him, name the novel, and give the audience enough context to know what it is about."}, {"title": "Test the candidates against the goal", "content": "The right choice will pack in author identity (Trinidadian), novel title, publication year, and subject (post-WWII Caribbean migration to Britain) in a single introductory sentence."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; 'In 1956, Trinidadian author Samuel Selvon published one of his most celebrated novels...'</strong>: names Selvon, identifies him as Trinidadian, names the novel, gives the year, and summarizes its subject. &#10003;</li><li><strong>Choice B &mdash; 'Samuel Selvon wrote the novel Moses Ascending after he wrote The Lonely Londoners'</strong>: misreads the goal &mdash; it focuses on a later novel and tells a new audience nothing about who Selvon is or what <em>The Lonely Londoners</em> is about. &#10007;</li><li><strong>Choice C &mdash; 'a celebrated novel that was published in 1956, depicts post-World War II Caribbean migration from the perspective of a Trinidadian author'</strong>: never names Samuel Selvon, so it fails to introduce the author. &#10007;</li><li><strong>Choice D &mdash; 'Some of the characters who appear in...Moses Ascending also appear in The Lonely Londoners'</strong>: misreads the goal &mdash; it is an intertextual detail, not an introduction, and gives no information about Selvon or what the novel is about. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "86b78078",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the rhetorical goal",
+      "content": "The student wants to introduce both Samuel Selvon and his novel <em>The Lonely Londoners</em> to a new audience. The effective choice must name Selvon, identify him, name the novel, and give the audience enough context to know what it is about."
+    },
+    {
+      "title": "Test the candidates against the goal",
+      "content": "The right choice will pack in author identity (Trinidadian), novel title, publication year, and subject (post-WWII Caribbean migration to Britain) in a single introductory sentence."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; In 1956, Trinidadian author Samuel Selvon published one of his most celebrated novels, <em>The Lonely Londoners,</em> which is about a group of men who emigrate from the Caribbean to Great Britain after World War II.</strong>: names Selvon, identifies him as Trinidadian, names the novel, gives the year, and summarizes its subject. &#10003;</li><li><strong>Choice B &mdash; Samuel Selvon wrote the novel <em>Moses Ascending</em> after he wrote <em>The Lonely Londoners.</em></strong>: misreads the goal &mdash; it focuses on a later novel and tells a new audience nothing about who Selvon is or what <em>The Lonely Londoners</em> is about. &#10007;</li><li><strong>Choice C &mdash; <em>The Lonely Londoners</em>, a celebrated novel that was published in 1956, depicts post–World War II Caribbean migration from the perspective of a Trinidadian author.</strong>: never names Samuel Selvon, so it fails to introduce the author. &#10007;</li><li><strong>Choice D &mdash; Some of the characters who appear in Samuel Selvon's <em>Moses Ascending</em> also appear in <em>The Lonely Londoners.</em></strong>: misreads the goal &mdash; it is an intertextual detail, not an introduction, and gives no information about Selvon or what the novel is about. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

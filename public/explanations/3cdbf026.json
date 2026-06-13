@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm with the easy point",
-      "content": "The point $(0,-3)$ makes the original equation especially quick: $a(0)+k(-3)=6$, so $-3k=6$ and $k=-2$. Choice <strong>A</strong> is correct.",
+      "content": "The point $(0,-3)$ makes the original equation especially quick: $a(0)+k(-3)=6$, so $-3k=6$ and $k=-2$. <strong>A</strong> is correct.",
       "desmosExpressions": [
         "3x-2y=6",
         "(-2,-6)",

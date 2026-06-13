@@ -9,7 +9,7 @@
     },
     {
       "title": "Use the complementary angle relationship",
-      "content": "In triangle $XYZ$, angle $X = 90°$, so the other two angles sum to $90°$:\n$$\\angle Y + \\angle Z = 90°$$ This means $\\angle Z = 90° - \\angle Y$, so:\n$$\\tan(\\angle Z) = \\tan(90° - \\angle Y) = \\cot(\\angle Y) = \\frac{1}{\\tan(\\angle Y)}$$ Substituting $\\tan(\\angle Y) = \\frac{3}{4}$:\n$$\\tan(\\angle Z) = \\frac{1}{\\frac{3}{4}} = \\frac{4}{3}$$ That matches choice D — <strong>D</strong> is correct."
+      "content": "In triangle $XYZ$, angle $X = 90^{\\circ}$, so the other two angles sum to $90^{\\circ}$:\n$$\\angle Y + \\angle Z = 90^{\\circ}$$ This means $\\angle Z = 90^{\\circ} - \\angle Y$, so:\n$$\\tan(\\angle Z) = \\tan(90^{\\circ} - \\angle Y) = \\cot(\\angle Y) = \\frac{1}{\\tan(\\angle Y)}$$ Substituting $\\tan(\\angle Y) = \\frac{3}{4}$:\n$$\\tan(\\angle Z) = \\frac{1}{\\frac{3}{4}} = \\frac{4}{3}$$ That confirms <strong>D</strong> is correct."
     }
   ]
 }

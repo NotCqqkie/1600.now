@@ -16,7 +16,7 @@
     },
     {
       "title": "Evaluating the constant in each choice",
-      "content": "Extract the constant $k$ from the right side of each equation:<ul><li>A) $k = 0$ ✓ exactly one solution</li><li>B) $k = -45$ → no real solutions</li><li>C) $k = 45$ → two solutions</li><li>D) $k = 135$ → two solutions</li></ul>Only choice A yields exactly one distinct real solution. That matches choice A — <strong>A</strong> is correct."
+      "content": "Extract the constant $k$ from the right side of each equation:<ul><li>A) $k = 0$ ✓ exactly one solution</li><li>B) $k = -45$ → no real solutions</li><li>C) $k = 45$ → two solutions</li><li>D) $k = 135$ → two solutions</li></ul>Only the matching choice yields exactly one distinct real solution. <strong>A</strong> is correct."
     }
   ]
 }

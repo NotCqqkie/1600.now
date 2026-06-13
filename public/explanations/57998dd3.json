@@ -1,1 +1,15 @@
-{"questionId": "57998dd3", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the time signal", "content": "The phrase &quot;in a later chapter&quot; anchors the action in the future, so the verb must express future time."}, {"title": "Eliminate past and present options, confirm the future", "content": "<ul><li><strong>Choice A &mdash; 'had learned'</strong>: Past perfect &mdash; places the action before another past event. No future meaning. &#10007;</li><li><strong>Choice B &mdash; 'had been learning'</strong>: Past perfect progressive &mdash; describes an ongoing action that ended in the past. Still no future meaning. &#10007;</li><li><strong>Choice C &mdash; 'will learn'</strong>: Simple future &mdash; correctly matches &quot;in a later chapter,&quot; placing the action ahead of the present moment. &#10003;</li><li><strong>Choice D &mdash; 'have learned'</strong>: Present perfect &mdash; links a past action to the present, not the future. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "57998dd3",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the time signal",
+      "content": "The phrase &quot;in a later chapter&quot; anchors the action in the future, so the verb must express future time."
+    },
+    {
+      "title": "Eliminate past and present options, confirm the future",
+      "content": "<ul><li><strong>Choice A — had learned</strong>: Past perfect &mdash; places the action before another past event. No future meaning. &#10007;</li><li><strong>Choice B — had been learning</strong>: Past perfect progressive &mdash; describes an ongoing action that ended in the past. Still no future meaning. &#10007;</li><li><strong>Choice C — will learn</strong>: Simple future &mdash; correctly matches &quot;in a later chapter,&quot; placing the action ahead of the present moment. &#10003;</li><li><strong>Choice D — have learned</strong>: Present perfect &mdash; links a past action to the present, not the future. &#10007;</li></ul><strong>C</strong> is correct."
+    }
+  ]
+}

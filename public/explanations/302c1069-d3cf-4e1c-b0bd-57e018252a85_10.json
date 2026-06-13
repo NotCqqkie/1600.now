@@ -1,1 +1,15 @@
-{"questionId": "302c1069-d3cf-4e1c-b0bd-57e018252a85_10", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The claim says olms come to the surface <em>to perform important activities such as finding food</em>. The phrase <strong>such as finding food</strong> is the decisive clue that links surfacing to obtaining food."}, {"title": "Match the meaning to the choices", "content": "Choice A shows that earthworms from surface soils are a major part of olms’ diet, indicating they must surface to find food, which directly supports the claim.<br/><br/>The other three choices either describe unrelated traits or do not mention surfacing for food.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "302c1069-d3cf-4e1c-b0bd-57e018252a85_10",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The claim says olms come to the surface <em>to perform important activities such as finding food</em>. The phrase <strong>such as finding food</strong> is the decisive clue that links surfacing to obtaining food."
+    },
+    {
+      "title": "Match the meaning to the choices",
+      "content": "The matching choice shows that earthworms from surface soils are a major part of olms’ diet, indicating they must surface to find food, which directly supports the claim.<br/><br/>The other three choices either describe unrelated traits or do not mention surfacing for food.<br/><br/><strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "47598085", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the structure of the underlined sentence", "content": "The underlined sentence reads: &quot;Yawn contagion occurs when one individual yawns in response to another&apos;s yawn.&quot; This has the form of a definition &mdash; it names a phenomenon and explains what it is. The rest of the passage then discusses research findings about this defined phenomenon."},{"title": "Eliminate wrong choices and confirm the match", "content": "<ul><li><strong>Choice A &mdash; 'It defines a phenomenon that is discussed in the text.'</strong>: The sentence names and defines yawn contagion, which the rest of the passage explores through research on primates, wild populations, and social patterns. &#10003;</li><li><strong>Choice B &mdash; 'It introduces a problem that is examined in the text.'</strong>: The sentence does not present a problem &mdash; it states what yawn contagion is. No difficulty or issue is raised. &#10007;</li><li><strong>Choice C &mdash; 'It makes a claim that is challenged in the text.'</strong>: The passage does not challenge the definition &mdash; it builds on it. Nothing in the text disputes that yawn contagion occurs. &#10007;</li><li><strong>Choice D &mdash; 'It presents a hypothesis that is evaluated in the text.'</strong>: A hypothesis is an untested prediction. The sentence states an established definition, not a conjecture to be tested. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "47598085",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the structure of the underlined sentence",
+      "content": "The underlined sentence reads: &quot;Yawn contagion occurs when one individual yawns in response to another&apos;s yawn.&quot; This has the form of a definition &mdash; it names a phenomenon and explains what it is. The rest of the passage then discusses research findings about this defined phenomenon."
+    },
+    {
+      "title": "Eliminate wrong choices and confirm the match",
+      "content": "<ul><li><strong>Choice A — It defines a phenomenon that is discussed in the text.</strong>: The sentence names and defines yawn contagion, which the rest of the passage explores through research on primates, wild populations, and social patterns. &#10003;</li><li><strong>Choice B — It introduces a problem that is examined in the text.</strong>: The sentence does not present a problem &mdash; it states what yawn contagion is. No difficulty or issue is raised. &#10007;</li><li><strong>Choice C — It makes a claim that is challenged in the text.</strong>: The passage does not challenge the definition &mdash; it builds on it. Nothing in the text disputes that yawn contagion occurs. &#10007;</li><li><strong>Choice D — It presents a hypothesis that is evaluated in the text.</strong>: A hypothesis is an untested prediction. The sentence states an established definition, not a conjecture to be tested. &#10007;</li></ul><strong>A</strong> is correct."
+    }
+  ]
+}

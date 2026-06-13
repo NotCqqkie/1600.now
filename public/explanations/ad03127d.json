@@ -13,7 +13,7 @@
     },
     {
       "title": "Eliminate wrong choices",
-      "content": "<ul><li>A: $s = 42r - t$ — multiplies rather than divides by 7. Incorrect.</li><li>B: $s = 7(6r - t)$ — multiplies by 7 instead of dividing. Incorrect.</li><li>C: $s = \\frac{6}{7}r - t$ — fails to divide $t$ by 7. Incorrect.</li><li>D: $s = \\frac{6r - t}{7}$ — both terms divided by 7 correctly. That matches choice D — <strong>D</strong> is correct.</li></ul>"
+      "content": "<ul><li>A: $s = 42r - t$ — multiplies rather than divides by 7. Incorrect.</li><li>B: $s = 7(6r - t)$ — multiplies by 7 instead of dividing. Incorrect.</li><li>C: $s = \\frac{6}{7}r - t$ — fails to divide $t$ by 7. Incorrect.</li><li>D: $s = \\frac{6r - t}{7}$ — both terms divided by 7 correctly. That is the correct answer.</li></ul>"
     }
   ]
 }

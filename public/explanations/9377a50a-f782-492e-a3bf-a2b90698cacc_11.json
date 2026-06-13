@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Perpendicular slopes are negative reciprocals",
-      "content": "Line $k$ has equation $y = -\\frac{22}{3}x + 2$, so its slope is $-\\frac{22}{3}$. For line $j$ perpendicular to $k$, flip and negate: $$m_j = -\\frac{1}{-\\frac{22}{3}} = \\frac{3}{22}.$$ That matches choice 3/22 — <strong>3/22</strong> is correct."
+      "content": "Line $k$ has equation $y = -\\frac{22}{3}x + 2$, so its slope is $-\\frac{22}{3}$. For line $j$ perpendicular to $k$, flip and negate: $$m_j = -\\frac{1}{-\\frac{22}{3}} = \\frac{3}{22}.$$ Therefore the correct slope is <strong>3/22</strong>."
     }
   ]
 }

@@ -1,4 +1,5 @@
 {
+  "questionId": "a130fcdc",
   "qid": "a130fcdc",
   "correctAnswer": "C",
   "steps": [
@@ -12,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice A starts with $g(-1)=7$, but it should be $-7$. Choice B starts with $g(-1)=-4$, also wrong. Choice D shows the outputs for $11x$, not $11x+4$. Choice C shows $-7$, $4$, and $15$ in order, so choice <strong>C</strong> is correct."
+      "content": "The table with outputs $7$, $11$, and $15$ starts with $g(-1)=7$, but it should be $-7$. The table with outputs $-4$, $0$, and $4$ starts with $g(-1)=-4$, also wrong. The table with outputs $-11$, $0$, and $11$ shows the outputs for $11x$, not $11x+4$. The correct answer shows $-7$, $4$, and $15$ in order, so <strong>C</strong> is correct."
     }
   ]
 }

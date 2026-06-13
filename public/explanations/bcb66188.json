@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the sine equality",
-      "content": "Since angle $F = $ angle $J$, their sine values must be equal:<br/>$$\\sin(F) = \\sin(J)$$<br/>We are given that $\\sin(F) = \\frac{308}{317}$, so:<br/>$$\\sin(J) = \\frac{308}{317}$$<br/>That matches choice B — <strong>B</strong> is correct."
+      "content": "Since angle $F = $ angle $J$, their sine values must be equal:<br/>$$\\sin(F) = \\sin(J)$$<br/>We are given that $\\sin(F) = \\frac{308}{317}$, so:<br/>$$\\sin(J) = \\frac{308}{317}$$<br/>That is the correct answer."
     }
   ]
 }

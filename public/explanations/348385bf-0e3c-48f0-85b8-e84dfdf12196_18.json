@@ -9,7 +9,7 @@
     },
     {
       "title": "Choose the consistent tense",
-      "content": "Rule: verbs describing actions in the same time frame must use consistent tense. All context verbs are simple past, so the blank must also be simple past. A. \"produce\" — simple present. Fails: switches to present tense mid-narrative about events from 2334-2154 BCE.\nB. \"produced\" — simple past. Matches the historical time frame and the past-tense verbs throughout the passage. Correct.\nC. \"will produce\" — simple future. Fails: the empire no longer exists; future tense is impossible and inconsistent.\nD. \"are producing\" — present progressive. Fails: describes ongoing present action, but the empire ended over 4,000 years ago. That matches choice B — <strong>B</strong> is correct."
+      "content": "Rule: verbs describing actions in the same time frame must use consistent tense. All context verbs are simple past, so the blank must also be simple past. A. \"produce\" — simple present. Fails: switches to present tense mid-narrative about events from 2334-2154 BCE.\nB. \"produced\" — simple past. Matches the historical time frame and the past-tense verbs throughout the passage. Correct.\nC. \"will produce\" — simple future. Fails: the empire no longer exists; future tense is impossible and inconsistent.\nD. \"are producing\" — present progressive. Fails: describes ongoing present action, but the empire ended over 4,000 years ago. <strong>B</strong> is correct."
     }
   ]
 }

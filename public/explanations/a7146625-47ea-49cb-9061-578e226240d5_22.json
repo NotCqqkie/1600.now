@@ -17,7 +17,7 @@
     },
     {
       "title": "Match against the choices",
-      "content": "<ul><li>Choice A (mean $8$, range $12$): wrong mean &mdash; the shift of $+17$ was ignored.</li><li>Choice B (mean $8$, range $29$): wrong mean and a range cannot grow from a constant shift.</li><li>Choice C (mean $25$, range $12$): matches both values.</li><li>Choice D (mean $25$, range $29$): right mean but range incorrectly enlarged by $17$.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+      "content": "<ul><li>Choice A (mean $8$, range $12$): wrong mean &mdash; the shift of $+17$ was ignored.</li><li>Choice B (mean $8$, range $29$): wrong mean and a range cannot grow from a constant shift.</li><li>Choice C (mean $25$, range $12$): matches both values.</li><li>Choice D (mean $25$, range $29$): right mean but range incorrectly enlarged by $17$.</li></ul>That is the correct answer."
     }
   ]
 }

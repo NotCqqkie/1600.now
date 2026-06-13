@@ -1,1 +1,19 @@
-{"questionId":"75012ee7","correctAnswer":"B","section":"Math","steps":[{"title":"Recognize the same line","content":"The second equation is $5$ times the first: $$5(2x+3y=7) gives 10x+15y=35.$$ So a point only needs to satisfy $2x+3y=7$ to lie on both graphs."},{"title":"Use r as the y-value","content":"The answer choices are written in terms of $r$. Let $y=r$ and solve the first equation for $x$: $$2x+3r=7$$ $$2x=7-3r$$ $$x=-3r/2+7/2$$"},{"title":"Match the point","content":"The point is therefore $(-3r/2+7/2,r)$, which matches choice <strong>B</strong>."}]}
+{
+  "questionId": "75012ee7",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the same line",
+      "content": "The second equation is $5$ times the first: $$5(2x+3y=7) gives 10x+15y=35.$$ So a point only needs to satisfy $2x+3y=7$ to lie on both graphs."
+    },
+    {
+      "title": "Use r as the y-value",
+      "content": "The answer choices are written in terms of $r$. Let $y=r$ and solve the first equation for $x$: $$2x+3r=7$$ $$2x=7-3r$$ $$x=-3r/2+7/2$$"
+    },
+    {
+      "title": "Match the point",
+      "content": "The point is therefore $(-3r/2+7/2,r)$, which matches <strong>B</strong>."
+    }
+  ]
+}

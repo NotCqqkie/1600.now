@@ -10,7 +10,7 @@
     },
     {
       "title": "Evaluate at t = 0 to find the initial value",
-      "content": "Since $t$ represents hours after the initial measurement, the initial measurement corresponds to $t = 0$.<br/><br/>Evaluate the function:<br/>$$f(0) = 28,000(2)^0 = 28,000 \\cdot 1 = 28,000$$<br/>This shows that 28,000 is the bacterial population at the initial measurement.<br/><br/>That matches choice A — <strong>A</strong> is correct."
+      "content": "Since $t$ represents hours after the initial measurement, the initial measurement corresponds to $t = 0$.<br/><br/>Evaluate the function:<br/>$$f(0) = 28,000(2)^0 = 28,000 \\cdot 1 = 28,000$$<br/>This shows that 28,000 is the bacterial population at the initial measurement.<br/><br/>That matches the correct answer — <strong>A</strong> is correct."
     }
   ]
 }

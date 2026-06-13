@@ -1,4 +1,5 @@
 {
+  "questionId": "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_13",
   "qid": "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_13",
   "steps": [
     {
@@ -11,11 +12,11 @@
       "text": "The interpretation is that plausible values for the true average weight of all bags lie between $28.75$ ounces and $29.01$ ounces. This does not say the true mean IS in the interval with certainty, only that these are plausible values consistent with the sample."
     },
     {
-      "text": "Choice A states plausible values are between $28.75$ and $29.01$ ounces, which exactly matches our calculation. That matches choice A &mdash; <strong>A</strong> is correct.",
+      "text": "The correct answer states plausible values are between $28.75$ and $29.01$ ounces, which exactly matches our calculation. That confirms <strong>A</strong> is correct.",
       "choices": [
         {
           "id": "A",
-          "text": "<ul><li>Plausible values between $28.75$ and $29.01$ ounces matches mean &plusmn; margin of error: $28.88 \\pm 0.13$. That matches choice A &mdash; <strong>A</strong> is correct.</li></ul>"
+          "text": "<ul><li>Plausible values between $28.75$ and $29.01$ ounces matches mean &plusmn; margin of error: $28.88 \\pm 0.13$. That confirms <strong>A</strong> is correct.</li></ul>"
         },
         {
           "id": "B",

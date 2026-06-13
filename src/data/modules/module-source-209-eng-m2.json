@@ -70,7 +70,7 @@
     "difficulty": "Easy",
     "question_number": 3,
     "test_name": "Module Source 209 Eng M2",
-    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nA casual description of Scherezade García’s 2019 mural *Blame It on the Bean: The Power of Coffee* can make the work seem ______—a painting that is housed in a coffee shop and that depicts three women drinking coffee may not sound particularly ambitious—but in fact the work is a complex, dynamic meditation on gender and the legacy of colonialism that demands serious attention.",
+    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nA casual description of Scherezade García's 2019 mural *Blame It on the Bean: The Power of Coffee* can make the work seem ______--a painting that is housed in a coffee shop and that depicts three women drinking coffee may not sound particularly ambitious--but in fact the work is a complex, dynamic meditation on gender and the legacy of colonialism that demands serious attention.",
     "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
     "choices": [
       {
@@ -102,7 +102,7 @@
     "difficulty": "Medium",
     "question_number": 4,
     "test_name": "Module Source 209 Eng M2",
-    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nSome robots such as *Actroid* (developed in 2003) and *Auriga* (developed in 2011) are designed to resemble humans so that people will find it easier to interact with them. To that end, certain features such as bipedal locomotion can help to ______ people's feelings of comfort, but a robot that looks too human can fall into the “uncanny valley,\" meaning that its appearance unintentionally unsettles those who encounter it.",
+    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nSome robots such as *Actroid* (developed in 2003) and *Auriga* (developed in 2011) are designed to resemble humans so that people will find it easier to interact with them. To that end, certain features such as bipedal locomotion can help to ______ people's feelings of comfort, but a robot that looks too human can fall into the \"uncanny valley,\" meaning that its appearance unintentionally unsettles those who encounter it.",
     "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
     "choices": [
       {
@@ -230,7 +230,7 @@
     "difficulty": "Medium",
     "question_number": 8,
     "test_name": "Module Source 209 Eng M2",
-    "passage": "Based on the texts, the author of Text 1 and the author of Text 2 would most likely give the same answer to which question?\nText 1\nIn separate studies, Marine Fernandez and colleagues and Hualiang Zhang and colleagues examined whether plants transfer nutrients to one another using a common mycorrhizal network (CMN)—a lattice of fungal strands in the soil. Fernandez and colleagues excluded all pathways other than the CMN by using barriers to keep the plants' root systems separate while allowing mycorrhizal strands through—a crucial step Zhang and colleagues' study did not take.\nText 2\nFernandez and colleagues took the necessary precaution of separating the plants' root systems (thereby excluding root-to-root transmission). However, any barrier used must allow the thread-like hyphae of a CMN to pass through, and this permeability would also allow liquids through. Thus, the researchers' experimental design cannot ensure that any nutrient transfer observed can be attributed to a CMN and not to some other pathway.",
+    "passage": "Based on the texts, the author of Text 1 and the author of Text 2 would most likely give the same answer to which question?\nText 1\nIn separate studies, Marine Fernandez and colleagues and Hualiang Zhang and colleagues examined whether plants transfer nutrients to one another using a common mycorrhizal network (CMN)--a lattice of fungal strands in the soil. Fernandez and colleagues excluded all pathways other than the CMN by using barriers to keep the plants' root systems separate while allowing mycorrhizal strands through--a crucial step Zhang and colleagues' study did not take.\nText 2\nFernandez and colleagues took the necessary precaution of separating the plants' root systems (thereby excluding root-to-root transmission). However, any barrier used must allow the thread-like hyphae of a CMN to pass through, and this permeability would also allow liquids through. Thus, the researchers' experimental design cannot ensure that any nutrient transfer observed can be attributed to a CMN and not to some other pathway.",
     "question_text": "Based on the texts, the author of Text 1 and the author of Text 2 would most likely give the same answer to which question?",
     "choices": [
       {
@@ -262,8 +262,8 @@
     "difficulty": "Hard",
     "question_number": 9,
     "test_name": "Module Source 209 Eng M2",
-    "passage": "According to the text, what was surprising about the researchers’ mapping of the magnetic field of galactic bone G47?\nUsing the Stratospheric Observatory for Infrared Astronomy (SOFIA), a team of astronomers mapped out the magnetic field of G47, one of the Milky Way's galactic bones (dense clouds of gas and dust that run through the middle of the arm of a spiral galaxy). Surprisingly, the map revealed a magnetic field with no clear pattern or direction. The researchers had expected the magnetic field to be similar to the more uniform fields seen in galactic bones in other arms of the Milky Way.",
-    "question_text": "According to the text, what was surprising about the researchers’ mapping of the magnetic field of galactic bone G47?",
+    "passage": "According to the text, what was surprising about the researchers' mapping of the magnetic field of galactic bone G47?\nUsing the Stratospheric Observatory for Infrared Astronomy (SOFIA), a team of astronomers mapped out the magnetic field of G47, one of the Milky Way's galactic bones (dense clouds of gas and dust that run through the middle of the arm of a spiral galaxy). Surprisingly, the map revealed a magnetic field with no clear pattern or direction. The researchers had expected the magnetic field to be similar to the more uniform fields seen in galactic bones in other arms of the Milky Way.",
+    "question_text": "According to the text, what was surprising about the researchers' mapping of the magnetic field of galactic bone G47?",
     "choices": [
       {
         "label": "A",
@@ -294,7 +294,7 @@
     "difficulty": "Medium",
     "question_number": 10,
     "test_name": "Module Source 209 Eng M2",
-    "passage": "What does the text most strongly suggest about the rooms in the rectory?\nThe following text is from Anthony Trollope’s 1855 novel *The Warden*. The narrator is describing a rectory, the residence of a clergyperson. There was an air of heaviness about the rooms which might have been avoided without any sacrifice of propriety; colours might have been better chosen and lights more perfectly diffused; but perhaps in doing so the thorough clerical aspect of the whole might have been somewhat marred; at any rate, it was not without ample consideration that those thick, dark, costly carpets were put down; those embossed, but sombre [wallpapers] hung up; those heavy curtains draped so as to half exclude the light of the sun.",
+    "passage": "What does the text most strongly suggest about the rooms in the rectory?\nThe following text is from Anthony Trollope's 1855 novel *The Warden*. The narrator is describing a rectory, the residence of a clergyperson. There was an air of heaviness about the rooms which might have been avoided without any sacrifice of propriety; colours might have been better chosen and lights more perfectly diffused; but perhaps in doing so the thorough clerical aspect of the whole might have been somewhat marred; at any rate, it was not without ample consideration that those thick, dark, costly carpets were put down; those embossed, but sombre [wallpapers] hung up; those heavy curtains draped so as to half exclude the light of the sun.",
     "question_text": "What does the text most strongly suggest about the rooms in the rectory?",
     "choices": [
       {
@@ -326,7 +326,7 @@
     "difficulty": "Medium",
     "question_number": 11,
     "test_name": "Module Source 209 Eng M2",
-    "passage": "Which choice best states the main idea of the text?\nThe following text is from Nathaniel Hawthorne's 1830 short story *Sir William Phips*. Few of the personages of past times (except such as have gained renown in fireside legends as well as in written history) are anything but mere names to their successors. They seldom stand up in our Imaginations like men. The knowledge, communicated by the historian and biographer, is analogous to that which we acquire of a country by the map—minute, perhaps, and accurate, and available for all necessary purposes, but cold and naked, and wholly destitute of the mimic charm produced by landscape painting.",
+    "passage": "Which choice best states the main idea of the text?\nThe following text is from Nathaniel Hawthorne's 1830 short story *Sir William Phips*. Few of the personages of past times (except such as have gained renown in fireside legends as well as in written history) are anything but mere names to their successors. They seldom stand up in our Imaginations like men. The knowledge, communicated by the historian and biographer, is analogous to that which we acquire of a country by the map--minute, perhaps, and accurate, and available for all necessary purposes, but cold and naked, and wholly destitute of the mimic charm produced by landscape painting.",
     "question_text": "Which choice best states the main idea of the text?",
     "choices": [
       {
@@ -390,8 +390,8 @@
     "difficulty": "Medium",
     "question_number": 13,
     "test_name": "Module Source 209 Eng M2",
-    "passage": "Which finding, if true, would most directly support Martinez and colleagues’ hypothesis?\nThe bird species *Saltator grossus* (the slate-colored grosbeak), which weighs about 45 grams, and *Microbates collaris* (the collared gnatwren), which weighs about 10 grams, share territory in French Guiana with *Thamnomanes caesius* (the cinereous antshrike), which emits a loud alarm call when it detects predators. Biologist Ari Martinez and colleagues, who studied the ecological community these species share, hypothesized that since there is an inverse relationship between body size and vulnerability to predation, there will also be an inverse relationship between body size and sensitivity to predator warning signals from neighboring species.",
-    "question_text": "Which finding, if true, would most directly support Martinez and colleagues’ hypothesis?",
+    "passage": "Which finding, if true, would most directly support Martinez and colleagues' hypothesis?\nThe bird species *Saltator grossus* (the slate-colored grosbeak), which weighs about 45 grams, and *Microbates collaris* (the collared gnatwren), which weighs about 10 grams, share territory in French Guiana with *Thamnomanes caesius* (the cinereous antshrike), which emits a loud alarm call when it detects predators. Biologist Ari Martinez and colleagues, who studied the ecological community these species share, hypothesized that since there is an inverse relationship between body size and vulnerability to predation, there will also be an inverse relationship between body size and sensitivity to predator warning signals from neighboring species.",
+    "question_text": "Which finding, if true, would most directly support Martinez and colleagues' hypothesis?",
     "choices": [
       {
         "label": "A",
@@ -422,24 +422,24 @@
     "difficulty": "Medium",
     "question_number": 14,
     "test_name": "Module Source 209 Eng M2",
-    "passage": "Which quotation from a literary scholar would most directly support the claim in the underlined portion of the text?\nScholars cite *Mr. President*, the 1946 novel by Guatemalan author Miguel Ángel Asturias, as a foundational text of magical realism, the Latin American style of fiction in which antirealistic plot devices—often borrowed from the spiritual and narrative traditions of Indigenous and colonial societies in the Americas—are deployed in an otherwise realistic mode of representation typical of the modern novel. This style has exerted a decisive influence on authors around the world, including Olga Tokarczuk, <u>whose 1996 novel *Primeval and Other Times* resembles classic magical realist novels in its juxtaposition of literary realism with folklore namely, that of Poland.</u>",
+    "passage": "Which quotation from a literary scholar would most directly support the claim in the underlined portion of the text?\nScholars cite *Mr. President*, the 1946 novel by Guatemalan author Miguel Ángel Asturias, as a foundational text of magical realism, the Latin American style of fiction in which antirealistic plot devices--often borrowed from the spiritual and narrative traditions of Indigenous and colonial societies in the Americas--are deployed in an otherwise realistic mode of representation typical of the modern novel. This style has exerted a decisive influence on authors around the world, including Olga Tokarczuk, <u>whose 1996 novel *Primeval and Other Times* resembles classic magical realist novels in its juxtaposition of literary realism with folklore namely, that of Poland.</u>",
     "question_text": "Which quotation from a literary scholar would most directly support the claim in the underlined portion of the text?",
     "choices": [
       {
         "label": "A",
-        "text": "“Like many works in the Latin American magical realist tradition, *Primeval and Other Times* is indebted to antirealistic elements in the folklore of Poland.\""
+        "text": "\"Like many works in the Latin American magical realist tradition, *Primeval and Other Times* is indebted to antirealistic elements in the folklore of Poland.\""
       },
       {
         "label": "B",
-        "text": "“While *Primeval and Other Times* alternates between realistic and antirealistic modes of representation, details suggesting the influence of Polish folklore nevertheless occur throughout the novel.\""
+        "text": "\"While *Primeval and Other Times* alternates between realistic and antirealistic modes of representation, details suggesting the influence of Polish folklore nevertheless occur throughout the novel.\""
       },
       {
         "label": "C",
-        "text": "“Although Polish folklore clearly informs the style and occasionally antirealistic plot of *Primeval and Other Times*, the novel also shows the inarguable influence of the magical realist tradition of Latin America.\""
+        "text": "\"Although Polish folklore clearly informs the style and occasionally antirealistic plot of *Primeval and Other Times*, the novel also shows the inarguable influence of the magical realist tradition of Latin America.\""
       },
       {
         "label": "D",
-        "text": "“The logic of the realistic plot of *Primeval and Other Times* is repeatedly and productively disrupted by the presence of imagery and situations drawn from Polish folklore.\""
+        "text": "\"The logic of the realistic plot of *Primeval and Other Times* is repeatedly and productively disrupted by the presence of imagery and situations drawn from Polish folklore.\""
       }
     ],
     "is_fill_in_blank": false,
@@ -646,7 +646,7 @@
     "difficulty": "Medium",
     "question_number": 21,
     "test_name": "Module Source 209 Eng M2",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThough he's performed on many respected albums, including *Loud Jazz* by John Scofield, drummer Dennis Chambers may be best known for his time as house drummer for the hip-hop label Sugar Hill Records. He did not play drums on the label's classic song “Rapper's ___ he joined the label after the song's release.",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThough he's performed on many respected albums, including *Loud Jazz* by John Scofield, drummer Dennis Chambers may be best known for his time as house drummer for the hip-hop label Sugar Hill Records. He did not play drums on the label's classic song \"Rapper's ___ he joined the label after the song's release.",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {
@@ -742,7 +742,7 @@
     "difficulty": "Medium",
     "question_number": 24,
     "test_name": "Module Source 209 Eng M2",
-    "passage": "Which choice completes the text with the most logical transition?\nWith many elements, like neon, scientists were able to isolate a relatively pure sample of the substance shortly after discovering its existence—but this wasn't the case with all elements. ______ the isolation process took years. The element erbium, for instance, was discovered in 1843 but not isolated until 1934.",
+    "passage": "Which choice completes the text with the most logical transition?\nWith many elements, like neon, scientists were able to isolate a relatively pure sample of the substance shortly after discovering its existence--but this wasn't the case with all elements. ______ the isolation process took years. The element erbium, for instance, was discovered in 1843 but not isolated until 1934.",
     "question_text": "Which choice completes the text with the most logical transition?",
     "choices": [
       {
@@ -774,7 +774,7 @@
     "difficulty": "Medium",
     "question_number": 25,
     "test_name": "Module Source 209 Eng M2",
-    "passage": "Which choice completes the text with the most logical transition?\nThough Middle English was widely spoken in fourteenth-century England, the English language was rarely employed in literature until poet Geoffrey Chaucer helped pioneer its literary use. ______ his manuscripts contain the first documented uses of over 2,000 English words—like the word “digestion\" in his 1395 poem *The Squire's Tale*—which led a contemporary to dub him “the first finder of our fair language.\"",
+    "passage": "Which choice completes the text with the most logical transition?\nThough Middle English was widely spoken in fourteenth-century England, the English language was rarely employed in literature until poet Geoffrey Chaucer helped pioneer its literary use. ______ his manuscripts contain the first documented uses of over 2,000 English words--like the word \"digestion\" in his 1395 poem *The Squire's Tale*--which led a contemporary to dub him \"the first finder of our fair language.\"",
     "question_text": "Which choice completes the text with the most logical transition?",
     "choices": [
       {
@@ -838,7 +838,7 @@
     "difficulty": "Hard",
     "question_number": 27,
     "test_name": "Module Source 209 Eng M2",
-    "passage": "The student wants to compare Kipen's theory of film authorship with Sarris's. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Auteur theory is a view of filmmaking that positions the director as the primary author of a film.\n• This now dominant theory was coined by film critic Andrew Sarris.\n• In a 1963 rebuttal, film critic Pauline Kael argued that film authorship should be shared among screenwriters, directors, and others involved in the filmmaking process.\n• In a 2006 book, film critic David Kipen proposed “schreiber theory.\"\n• Schreiber theory repositions the screenwriter as the primary author of a film.",
+    "passage": "The student wants to compare Kipen's theory of film authorship with Sarris's. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Auteur theory is a view of filmmaking that positions the director as the primary author of a film.\n• This now dominant theory was coined by film critic Andrew Sarris.\n• In a 1963 rebuttal, film critic Pauline Kael argued that film authorship should be shared among screenwriters, directors, and others involved in the filmmaking process.\n• In a 2006 book, film critic David Kipen proposed \"schreiber theory.\"\n• Schreiber theory repositions the screenwriter as the primary author of a film.",
     "question_text": "The student wants to compare Kipen's theory of film authorship with Sarris's. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
     "choices": [
       {

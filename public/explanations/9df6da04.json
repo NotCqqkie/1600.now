@@ -1,1 +1,15 @@
-{"questionId": "9df6da04", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the opening participle requires", "content": "The sentence begins with a participial phrase: “Knowing that flying insects keep their backs pointed toward sunlight during the day,” The participle “knowing” demands a subject capable of performing that action."}, {"title": "Apply the modifier-subject rule", "content": "A participial phrase at the start of a sentence must logically modify the subject of the main clause.<br/><br/>Choice A makes “the researchers” the subject, allowing them to logically perform the action (“knowing”) described by the participle.<br/><br/>Choices B, C, and D place “theory” or “moths” as the subject, creating dangling participles because neither can logically know a scientific fact.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "9df6da04",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the opening participle requires",
+      "content": "The sentence begins with a participial phrase: “Knowing that flying insects keep their backs pointed toward sunlight during the day,” The participle “knowing” demands a subject capable of performing that action."
+    },
+    {
+      "title": "Apply the modifier-subject rule",
+      "content": "A participial phrase at the start of a sentence must logically modify the subject of the main clause.<br/><br/>Choice A makes “the researchers” the subject, allowing them to logically perform the action (“knowing”) described by the participle.<br/><br/>Those choices, and D place “theory” or “moths” as the subject, creating dangling participles because neither can logically know a scientific fact.<br/><br/>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -17,7 +17,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice A is $14\\sin 58^\\circ$, which matches the expression for the opposite side. Choice C would use cosine and gives the adjacent side instead. Choices B and D divide by a trig ratio, which would be used if $14$ were a leg rather than the hypotenuse. Choice <strong>A</strong> is correct."
+      "content": "Choice A (&lsquo;$14\\sin58^\\circ$&rsquo;) is $14\\sin 58^\\circ$, which matches the expression for the opposite side. Choice C (&lsquo;$14\\cos58^\\circ$&rsquo;) would use cosine and gives the adjacent side instead. The other choices divide by a trig ratio, which would be used if $14$ were a leg rather than the hypotenuse. <strong>A</strong> is correct."
     }
   ]
 }

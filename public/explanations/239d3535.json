@@ -1,1 +1,19 @@
-{"questionId": "239d3535", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the 1891 column on the graph", "content": "The graph shows the four largest Canadian cities&apos; populations at each of the first four national censuses (1871, 1881, 1891, 1901). The task is to compare the four bars/points at 1891."}, {"title": "Compare the 1891 values", "content": "At 1891, Montr&eacute;al sits at roughly 220,000 &mdash; the tallest of the four. Toronto trails at about 180,000, with Qu&eacute;bec City near 60,000 and Halifax around 40,000."}, {"title": "Eliminate the other choices", "content": "<ul><li><strong>Choice A &mdash; &apos;Toronto&apos;</strong>: second largest in 1891, not the largest &mdash; misreads which line is highest. &#10007;</li><li><strong>Choice B &mdash; &apos;Montr&eacute;al&apos;</strong>: highest population in 1891. &#10003;</li><li><strong>Choice C &mdash; &apos;Qu&eacute;bec City&apos;</strong>: far below Montr&eacute;al and Toronto in 1891 &mdash; misreads the graph. &#10007;</li><li><strong>Choice D &mdash; &apos;Halifax&apos;</strong>: the smallest of the four in 1891 &mdash; misreads the graph. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "239d3535",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the 1891 column on the graph",
+      "content": "The graph shows the four largest Canadian cities&apos; populations at each of the first four national censuses (1871, 1881, 1891, 1901). The task is to compare the four bars/points at 1891."
+    },
+    {
+      "title": "Compare the 1891 values",
+      "content": "At 1891, Montr&eacute;al sits at roughly 220,000 &mdash; the tallest of the four. Toronto trails at about 180,000, with Qu&eacute;bec City near 60,000 and Halifax around 40,000."
+    },
+    {
+      "title": "Eliminate the other choices",
+      "content": "<ul><li><strong>Choice A &mdash; Toronto</strong>: second largest in 1891, not the largest &mdash; misreads which line is highest. &#10007;</li><li><strong>Choice B &mdash; Montréal</strong>: highest population in 1891. &#10003;</li><li><strong>Choice C &mdash; Québec City</strong>: far below Montr&eacute;al and Toronto in 1891 &mdash; misreads the graph. &#10007;</li><li><strong>Choice D &mdash; Halifax</strong>: the smallest of the four in 1891 &mdash; misreads the graph. &#10007;</li></ul>That matches <strong>Choice B &mdash; Montréal</strong>."
+    }
+  ]
+}

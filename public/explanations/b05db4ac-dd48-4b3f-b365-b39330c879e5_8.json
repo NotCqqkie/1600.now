@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the answer",
-      "content": "Choice B is $y=40x+z+72$. It charges 112 dollars for the first hour because $40(1)+72=112$, adds 40 dollars for each additional hour, and then adds the parts cost $z$. Choice <strong>B</strong> is correct.",
+      "content": "The correct answer is $y=40x+z+72$. It charges 112 dollars for the first hour because $40(1)+72=112$, adds 40 dollars for each additional hour, and then adds the parts cost $z$. <strong>B</strong> is correct.",
       "desmosExpressions": [
         "y=40x+72",
         "(1,112)",

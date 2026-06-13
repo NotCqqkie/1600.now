@@ -1,1 +1,15 @@
-{"questionId": "b46e0c8a", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Recognize what the audience already knows", "content": "The question directly specifies the audience is “already familiar with environmental DNA.” This is the defining context."}, {"title": "Select the choice that presents the study appropriately", "content": "Choice A presents the specific study—the researcher, method, location, and target species—without explaining eDNA.<br/><br/>Choices C and D define eDNA unnecessarily, while choice B discusses eDNA's capability in general rather than this particular study.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "b46e0c8a",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize what the audience already knows",
+      "content": "The question directly specifies the audience is “already familiar with environmental DNA.” This is the defining context."
+    },
+    {
+      "title": "Select the choice that presents the study appropriately",
+      "content": "The correct answer presents the specific study—the researcher, method, location, and target species—without explaining eDNA.<br/><br/>The other choices define eDNA unnecessarily, while choice B discusses eDNA's capability in general rather than this particular study.<br/><br/>That is the correct answer."
+    }
+  ]
+}

@@ -9,11 +9,11 @@
     },
     {
       "title": "Test the matching equation",
-      "content": "Choice B is $8x+12y=480$. Check the intercepts:<br/>$$(0,40):\\quad 8(0)+12(40)=480$$<br/>$$(60,0):\\quad 8(60)+12(0)=480$$<br/>Both points work, so choice <strong>B</strong> matches the graph."
+      "content": "The correct answer is $8x+12y=480$. Check the intercepts:<br/>$$(0,40):\\quad 8(0)+12(40)=480$$<br/>$$(60,0):\\quad 8(60)+12(0)=480$$<br/>Both points work, so the expression matches the graph."
     },
     {
       "title": "Eliminate the slope mismatches",
-      "content": "Choices A and C have positive slope, but the graph slopes downward. Choice D has the wrong intercepts. Therefore <strong>B</strong> is correct."
+      "content": "The other choices have positive slope, but the graph slopes downward. A choice with the wrong intercepts. Therefore <strong>B</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId":"7e608cd1-45e5-4f04-99b5-d0a95eb883a6_9","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks for the main idea of the text. The text establishes that the sonnet has a reputation for rigidity, then argues (via Carl Phillips) that it actually invites experimentation and variety."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;most modern examples are conventional&apos;</strong>: The text says the opposite &mdash; it highlights experimental sonnets and argues the form invites variety. &#10007;</li><li><strong>Choice B &mdash; &apos;encourages variety despite suggestions it wouldn&apos;t&apos;</strong>: Matches exactly: the sonnet&apos;s rigid reputation is contrasted with its actual capacity for experimentation. &#10003;</li><li><strong>Choice C &mdash; &apos;unexpected that the sonnet remains popular given antiquated features&apos;</strong>: The text is about variety and experimentation, not about the sonnet&apos;s continued popularity. &#10007;</li><li><strong>Choice D &mdash; &apos;long period with little innovation before it was recognized&apos;</strong>: The text makes no historical claim about a period of stagnation. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "7e608cd1-45e5-4f04-99b5-d0a95eb883a6_9",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks for the main idea of the text. The text establishes that the sonnet has a reputation for rigidity, then argues (via Carl Phillips) that it actually invites experimentation and variety."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Although Anderson's and Jess's sonnets are both widely celebrated for their striking originality, most modern examples of the form are generally regarded as conventional.&rsquo;</strong>: The text says the opposite &mdash; it highlights experimental sonnets and argues the form invites variety. &#10007;</li><li><strong>Choice B &mdash; &lsquo;As a form, the sonnet encourages a surprising amount of variety, even though certain characteristics associated with it suggest this would be unlikely.&rsquo;</strong>: Matches exactly: the sonnet&apos;s rigid reputation is contrasted with its actual capacity for experimentation. &#10003;</li><li><strong>Choice C &mdash; &lsquo;That the sonnet remains as popular as it is today is unexpected, given that many of the features associated with the form have long since seemed antiquated to readers.&rsquo;</strong>: The text is about variety and experimentation, not about the sonnet&apos;s continued popularity. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Although the sonnet is now recognized for the way it facilitates experimentation, there was a long period in its history in which very little innovation occurred.&rsquo;</strong>: The text makes no historical claim about a period of stagnation. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

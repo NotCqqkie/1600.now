@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up the conversion ratio between degrees and radians",
-      "content": "The fundamental relationship between degrees and radians is:<br/>$$180° = \\pi \\text{ radians}$$<br/>To convert any angle in degrees to radians, multiply by the conversion factor $\\frac{\\pi}{180}$."
+      "content": "The fundamental relationship between degrees and radians is:<br/>$$180^{\\circ} = \\pi \\text{ radians}$$<br/>To convert any angle in degrees to radians, multiply by the conversion factor $\\frac{\\pi}{180}$."
     },
     {
       "title": "Apply the conversion formula to 45 degrees",
-      "content": "Multiply 45° by the conversion factor:<br/>$$45° \\times \\frac{\\pi}{180} = \\frac{45\\pi}{180}$$<br/>Simplify by dividing both numerator and denominator by 45:<br/>$$\\frac{45\\pi}{180} = \\frac{\\pi}{4} = \\frac{1}{4}\\pi$$<br/>That matches choice D — <strong>D</strong> is correct."
+      "content": "Multiply 45° by the conversion factor:<br/>$$45^{\\circ} \\times \\frac{\\pi}{180} = \\frac{45\\pi}{180}$$<br/>Simplify by dividing both numerator and denominator by 45:<br/>$$\\frac{45\\pi}{180} = \\frac{\\pi}{4} = \\frac{1}{4}\\pi$$<br/>That confirms <strong>D</strong> is correct."
     }
   ]
 }

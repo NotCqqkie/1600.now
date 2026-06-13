@@ -9,7 +9,7 @@
     },
     {
       "title": "Calculate the probability",
-      "content": "$$P = \\frac{20}{80}$$ Divide numerator and denominator by 20: $$\\frac{1}{4}$$ That matches choice C — <strong>C</strong> is correct."
+      "content": "$$P = \\frac{20}{80}$$ Divide numerator and denominator by 20: $$\\frac{1}{4}$$ The probability uses all 80 students as the sample space. <strong>C</strong> is correct."
     }
   ]
 }

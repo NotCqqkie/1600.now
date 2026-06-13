@@ -1,1 +1,19 @@
-{"questionId": "a59245a1", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Locate the stated thesis", "content": "The passage explicitly identifies the cause of Izquierdo&apos;s obscurity: &quot;One reason for Izquierdo&apos;s relative obscurity is the enormous popularity of some of her peers&quot;&mdash;namely Kahlo and Rivera, who &quot;captivated the interest of US audiences&quot; so much that Izquierdo gets &quot;overlooked.&quot;"}, {"title": "Define what the main idea must contain", "content": "Any correct main-idea answer must capture two elements: (1) Izquierdo is not well-known in the US, and (2) the cause is Kahlo and Rivera drawing public attention away from her. Anything that adds new facts, reverses the relationship, or substitutes a different cause is wrong."}, {"title": "Eliminate by misread/overreach", "content": "<ul><li><strong>Choice A &mdash; &apos;not as well-known... because Kahlo and Rivera draw so much of the public&apos;s attention&apos;</strong>: directly restates both required elements. &#10003;</li><li><strong>Choice B &mdash; &apos;displayed in galleries... much more frequently than... Kahlo and Rivera&apos;</strong>: reverses the relationship and invents gallery-display data the passage never mentions. &#10007;</li><li><strong>Choice C &mdash; &apos;painted some of the same subjects... used different techniques&apos;</strong>: overreach&mdash;the passage says nothing about shared subjects or technique differences. &#10007;</li><li><strong>Choice D &mdash; &apos;produced only a small number of paintings&apos;</strong>: substitutes a different cause (low output) that the passage never claims; the passage attributes obscurity to peers&apos; popularity, not scarcity. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "a59245a1",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the stated thesis",
+      "content": "The passage explicitly identifies the cause of Izquierdo&apos;s obscurity: &quot;One reason for Izquierdo&apos;s relative obscurity is the enormous popularity of some of her peers&quot;&mdash;namely Kahlo and Rivera, who &quot;captivated the interest of US audiences&quot; so much that Izquierdo gets &quot;overlooked.&quot;"
+    },
+    {
+      "title": "Define what the main idea must contain",
+      "content": "Any correct main-idea answer must capture two elements: (1) Izquierdo is not well-known in the US, and (2) the cause is Kahlo and Rivera drawing public attention away from her. Anything that adds new facts, reverses the relationship, or substitutes a different cause is wrong."
+    },
+    {
+      "title": "Eliminate by misread/overreach",
+      "content": "<ul><li><strong>Choice A &mdash; Izquierdo's work is not as well-known in the United States as it should be because Kahlo and Rivera draw so much of the public's attention.</strong>: directly restates both required elements. &#10003;</li><li><strong>Choice B &mdash; During Izquierdo's lifetime, her paintings were displayed in galleries in the United States much more frequently than paintings by Kahlo and Rivera were.</strong>: reverses the relationship and invents gallery-display data the passage never mentions. &#10007;</li><li><strong>Choice C &mdash; Izquierdo painted some of the same subjects that Kahlo and Rivera painted but used different techniques than they used.</strong>: overreach&mdash;the passage says nothing about shared subjects or technique differences. &#10007;</li><li><strong>Choice D &mdash; Few of Izquierdo's works are in galleries today because she produced only a small number of paintings.</strong>: substitutes a different cause (low output) that the passage never claims; the passage attributes obscurity to peers&apos; popularity, not scarcity. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

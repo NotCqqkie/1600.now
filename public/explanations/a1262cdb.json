@@ -9,7 +9,7 @@
     },
     {
       "title": "Solve for c - b",
-      "content": "Starting with $12t + b = c$, subtract $b$ from both sides:<br/>$$12t + b - b = c - b$$<br/>$$12t = c - b$$<br/>Therefore $c - b = 12t$. That matches choice D — <strong>D</strong> is correct."
+      "content": "Starting with $12t + b = c$, subtract $b$ from both sides:<br/>$$12t + b - b = c - b$$<br/>$$12t = c - b$$<br/>Therefore $c - b = 12t$. That confirms <strong>D</strong> is correct."
     }
   ]
 }

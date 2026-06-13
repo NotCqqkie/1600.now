@@ -1,1 +1,15 @@
-{"questionId": "f3f444bc", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Understand the key finding and its implication", "content": "The passage establishes that EBF repels disease-carrying mosquitoes by activating Or31, a receptor shared across all such species. The question asks what researchers should do <em>next</em> to develop new repellents based on this mechanism."}, {"title": "Eliminate wrong directions and confirm the correct one", "content": "<ul><li><strong>Choice A &mdash; 'identify molecular components similar to EBF that target the activation of Or31 receptors.'</strong>: If Or31 is the key receptor and EBF works by activating it, finding other molecules that also activate Or31 is the direct path to new repellents. &#10003;</li><li><strong>Choice B &mdash; 'investigate alternative methods for extracting EBF molecules from chrysanthemums.'</strong>: Extraction methods address supply of EBF itself, not the development of new repellent compounds. This doesn&apos;t follow from the finding. &#10007;</li><li><strong>Choice C &mdash; 'verify the precise locations of Or31 and other odor receptors on mosquitoes&apos; antennae.'</strong>: Anatomical mapping of receptor locations is not the logical next step after identifying which receptor EBF activates. &#10007;</li><li><strong>Choice D &mdash; 'determine the maximum number of different odor receptors that can be activated by a single molecule.'</strong>: This addresses receptor capacity in general, not the Or31-specific mechanism identified in the passage. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "f3f444bc",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Understand the key finding and its implication",
+      "content": "The passage establishes that EBF repels disease-carrying mosquitoes by activating Or31, a receptor shared across all such species. The question asks what researchers should do <em>next</em> to develop new repellents based on this mechanism."
+    },
+    {
+      "title": "Eliminate wrong directions and confirm the correct one",
+      "content": "<ul><li><strong>\"identify molecular components similar to EBF that target the activation of Or31 receptors.\"</strong>: If Or31 is the key receptor and EBF works by activating it, finding other molecules that also activate Or31 is the direct path to new repellents. &#10003;</li><li><strong>\"investigate alternative methods for extracting EBF molecules from chrysanthemums.\"</strong>: Extraction methods address supply of EBF itself, not the development of new repellent compounds. This doesn't follow from the finding. &#10007;</li><li><strong>\"verify the precise locations of Or31 and other odor receptors on mosquitoes' antennae.\"</strong>: Anatomical mapping of receptor locations is not the logical next step after identifying which receptor EBF activates. &#10007;</li><li><strong>\"determine the maximum number of different odor receptors that can be activated by a single molecule.\"</strong>: This addresses receptor capacity in general, not the Or31-specific mechanism identified in the passage. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+    }
+  ]
+}

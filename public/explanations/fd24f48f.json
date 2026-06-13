@@ -1,1 +1,15 @@
-{"questionId":"fd24f48f","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"This is a transitions question. The passage opens by saying activists statewide sold tea for suffrage, then gives one example (San Francisco). The blank introduces a second parallel example (Los Angeles). The transition must signal similarity between two independent, coordinated examples."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;For example,&rsquo;</strong>: Signals that the second sentence exemplifies the first. But both sentences are distinct examples of the same general claim &mdash; one does not illustrate the other. &#10007;</li><li><strong>Choice B &mdash; &lsquo;To conclude,&rsquo;</strong>: Signals a closing summary. The passage is not wrapping up; it is adding a parallel case. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Similarly,&rsquo;</strong>: Signals that two things are alike. Nancy Tuttle Craig distributed tea in Los Angeles just as the Woman&rsquo;s Suffrage Party sold tea in San Francisco &mdash; a parallel action in a parallel city. &#10003;</li><li><strong>Choice D &mdash; &lsquo;In other words,&rsquo;</strong>: Signals restatement or paraphrase. The Los Angeles example is a new, distinct event, not a restatement of the San Francisco one. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "fd24f48f",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a transitions question. The passage opens by saying activists statewide sold tea for suffrage, then gives one example (San Francisco). The blank introduces a second parallel example (Los Angeles). The transition must signal similarity between two independent, coordinated examples."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"For example,\"</strong>: Signals that the second sentence exemplifies the first. But both sentences are distinct examples of the same general claim &mdash; one does not illustrate the other. &#10007;</li><li><strong>\"To conclude,\"</strong>: Signals a closing summary. The passage is not wrapping up; it is adding a parallel case. &#10007;</li><li><strong>\"Similarly,\"</strong>: Signals that two things are alike. Nancy Tuttle Craig distributed tea in Los Angeles just as the Woman&rsquo;s Suffrage Party sold tea in San Francisco &mdash; a parallel action in a parallel city. &#10003;</li><li><strong>\"In other words,\"</strong>: Signals restatement or paraphrase. The Los Angeles example is a new, distinct event, not a restatement of the San Francisco one. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+    }
+  ]
+}

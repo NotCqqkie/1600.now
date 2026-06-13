@@ -13,7 +13,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li>A. $12x = 40$ gives $x = \\frac{10}{3}$; different solution.</li><li>B. $12x = 80$ gives $x = \\frac{20}{3}$; different solution.</li><li>C. $12x = 120$ gives $x = 10$; matches the original.</li><li>D. $12x = 160$ gives $x = \\frac{40}{3}$; different solution.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+      "content": "<ul><li>A. $12x = 40$ gives $x = \\frac{10}{3}$; different solution.</li><li>B. $12x = 80$ gives $x = \\frac{20}{3}$; different solution.</li><li>C. $12x = 120$ gives $x = 10$; matches the original.</li><li>D. $12x = 160$ gives $x = \\frac{40}{3}$; different solution.</li></ul>That matches the correct answer — <strong>C</strong> is correct."
     }
   ]
 }

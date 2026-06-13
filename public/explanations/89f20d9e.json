@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the conditional probability formula",
-      "content": "$$P(A\\mid \\text{age}\\ge 10)=\\frac{25}{60}=\\frac{5}{12}.$$ That matches choice <strong>B</strong> — <strong>B</strong> is correct."
+      "content": "$$P(A\\mid \\text{age}\\ge 10)=\\frac{25}{60}=\\frac{5}{12}.$$ That confirms <strong>B</strong> is correct."
     }
   ]
 }

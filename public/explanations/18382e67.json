@@ -1,1 +1,15 @@
-{"questionId": "18382e67", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the blank needs", "content": "The blank fills &quot;In ______ place&quot; and refers back to &quot;the types of pop culture references&quot; &mdash; a plural noun. The blank needs a plural possessive pronoun."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; &apos;its&apos;</strong>: singular possessive; does not agree with the plural noun &quot;types.&quot; &#10007;</li><li><strong>Choice B &mdash; &apos;they&apos;re&apos;</strong>: contraction of &quot;they are&quot;; not a possessive at all. &#10007;</li><li><strong>Choice C &mdash; &apos;their&apos;</strong>: plural possessive pronoun; correctly agrees with the plural antecedent &quot;types.&quot; &#10003;</li><li><strong>Choice D &mdash; &apos;it&apos;s&apos;</strong>: contraction of &quot;it is&quot;; not a possessive. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "18382e67",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the blank needs",
+      "content": "The blank fills &quot;In ______ place&quot; and refers back to &quot;the types of pop culture references&quot; &mdash; a plural noun. The blank needs a plural possessive pronoun."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; its</strong>: singular possessive; does not agree with the plural noun &quot;types.&quot; &#10007;</li><li><strong>Choice B &mdash; they're</strong>: contraction of &quot;they are&quot;; not a possessive at all. &#10007;</li><li><strong>Choice C &mdash; their</strong>: plural possessive pronoun; correctly agrees with the plural antecedent &quot;types.&quot; &#10003;</li><li><strong>Choice D &mdash; it's</strong>: contraction of &quot;it is&quot;; not a possessive. &#10007;</li></ul>That matches <strong>Choice C &mdash; their</strong>."
+    }
+  ]
+}

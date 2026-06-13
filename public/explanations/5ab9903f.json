@@ -9,11 +9,11 @@
     },
     {
       "title": "Write the equation",
-      "content": "Total cost = flat fee + (extra hours) &times; (hourly rate):<br/>$$950 + 50(t - 3) = 1{,}150$$"
+      "content": "Total cost = flat fee + (extra hours) &times; (hourly rate):<br/>$$950 + 50(t - 3) = 1,150$$"
     },
     {
       "title": "Match to the answer choices",
-      "content": "<ul><li><strong>Choice A &mdash; '$950(t-3)+50t=1{,}150$'</strong>: Multiplies the flat fee by the variable extra hours, which makes no sense structurally. &#10007;</li><li><strong>Choice B &mdash; '$950(3t)+50t=1{,}150$'</strong>: Also incorrectly multiplies the flat fee by time, and uses total hours for the variable rate. &#10007;</li><li><strong>Choice C &mdash; '$950+50(t-3)=1{,}150$'</strong>: Correctly adds the fixed \\$950 to \\$50 times the number of hours beyond 3. &#10003;</li><li><strong>Choice D &mdash; '$950+50(3t)=1{,}150$'</strong>: Uses $$3t$$ instead of $$(t-3)$$ for extra hours &#8212; that would triple the total time, not subtract the first 3 hours. &#10007;</li></ul>That matches choice C &#8212; <strong>C</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;$950(t-3)+50t=1,150$&rsquo;</strong>: Multiplies the flat fee by the variable extra hours, which makes no sense structurally. &#10007;</li><li><strong>Choice B &mdash; &lsquo;$950(3t)+50t=1,150$&rsquo;</strong>: Also incorrectly multiplies the flat fee by time, and uses total hours for the variable rate. &#10007;</li><li><strong>Choice C &mdash; &lsquo;$950+50(t-3)=1,150$&rsquo;</strong>: Correctly adds the fixed \\$950 to \\$50 times the number of hours beyond 3. &#10003;</li><li><strong>Choice D &mdash; &lsquo;$950+50(3t)=1,150$&rsquo;</strong>: Uses $$3t$$ instead of $$(t-3)$$ for extra hours &#8212; that would triple the total time, not subtract the first 3 hours. &#10007;</li></ul>That confirms <strong>C</strong>. &#8212; <strong>C</strong> is correct."
     }
   ]
 }

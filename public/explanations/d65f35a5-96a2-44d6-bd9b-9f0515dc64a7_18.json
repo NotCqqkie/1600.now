@@ -13,7 +13,7 @@
     },
     {
       "title": "Choose the matching function",
-      "content": "After $x$ years, the value is $$f(x)=174{,}000(1.024)^x.$$ Choice A uses $0.024$ as the whole multiplier, choices B and D use the wrong percent, and choice C uses the correct growth multiplier. <strong>C</strong> is correct."
+      "content": "After $x$ years, the value is $$f(x)=174{,}000(1.024)^x.$$ The model uses the correct growth multiplier. <strong>C</strong> is correct."
     }
   ]
 }

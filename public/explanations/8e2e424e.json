@@ -9,7 +9,7 @@
     },
     {
       "title": "Find r using the condition k = 50r",
-      "content": "We are told that $k = 50r$. Since $k = 50(1.36)$, we can substitute:<br/>$$50(1.36) = 50r$$<br/>Dividing both sides by 50 gives:<br/>$$r = 1.36$$<br/>That matches choice C — <strong>C</strong> is correct."
+      "content": "We are told that $k = 50r$. Since $k = 50(1.36)$, we can substitute:<br/>$$50(1.36) = 50r$$<br/>Dividing both sides by 50 gives:<br/>$$r = 1.36$$<br/>That confirms <strong>C</strong> is correct."
     }
   ]
 }

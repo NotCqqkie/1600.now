@@ -1,1 +1,15 @@
-{"questionId": "eef91a50", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the structures", "content": "Before the blank: “a fifteen-year-old Montgomery girl named Claudette Colvin was arrested for the same [BLANK]” is an independent clause. After the blank comes “According to some historians, Colvin's arrest led to Parks's action...” — another independent clause."}, {"title": "Apply the independent clause separation rule", "content": "A period correctly separates two independent clauses, creating two complete sentences.<br/><br/>The other options fail: a comma (B) creates a comma splice, no punctuation (C) leaves a fused sentence, and “and according” (D) doesn't establish valid structure.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "eef91a50",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the structures",
+      "content": "Before the blank: “a fifteen-year-old Montgomery girl named Claudette Colvin was arrested for the same [BLANK]” is an independent clause. After the blank comes “According to some historians, Colvin's arrest led to Parks's action...” — another independent clause."
+    },
+    {
+      "title": "Apply the independent clause separation rule",
+      "content": "A period correctly separates two independent clauses, creating two complete sentences.<br/><br/>The other options fail: a comma creates a comma splice, no punctuation leaves a fused sentence, and “and according” doesn't establish valid structure.<br/><br/>That matches the correct answer — <strong>A</strong> is correct."
+    }
+  ]
+}

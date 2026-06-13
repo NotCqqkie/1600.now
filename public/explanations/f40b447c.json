@@ -1,1 +1,15 @@
-{"questionId": "f40b447c", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical role of the blank", "content": "The phrase &quot;a type of Chinese landscape painting ______ by the use of blue and green hues&quot; is an appositive — a noun phrase that renames <em>qingl&uuml; shanshui</em>. An appositive must remain a noun phrase, so the blank cannot be a finite verb (which would create a second independent clause joined to the first by only a comma, i.e., a comma splice). The blank must be a non-finite past participle functioning as a modifier."}, {"title": "Eliminate each choice and confirm the answer", "content": "<ul><li><strong>Choice A &mdash; 'has been characterized'</strong>: finite present-perfect verb; turns the appositive into a second main clause, creating a comma splice. &#10007;</li><li><strong>Choice B &mdash; 'will be characterized'</strong>: finite future verb; same comma-splice problem. &#10007;</li><li><strong>Choice C &mdash; 'characterized'</strong>: non-finite past participle; correctly modifies the noun phrase without creating a second clause. &#10003;</li><li><strong>Choice D &mdash; 'is characterized'</strong>: finite present verb; creates a comma splice just like A and B. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "f40b447c",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical role of the blank",
+      "content": "The phrase \"a type of Chinese landscape painting ______ by the use of blue and green hues\" is an appositive — a noun phrase that renames <em>qingl&uuml; shanshui</em>. An appositive must remain a noun phrase, so the blank cannot be a finite verb (which would create a second independent clause joined to the first by only a comma, i.e., a comma splice). The blank must be a non-finite past participle functioning as a modifier."
+    },
+    {
+      "title": "Eliminate each choice and confirm the answer",
+      "content": "<ul><li><strong>\"has been characterized\"</strong>: finite present-perfect verb; turns the appositive into a second main clause, creating a comma splice. &#10007;</li><li><strong>\"will be characterized\"</strong>: finite future verb; same comma-splice problem. &#10007;</li><li><strong>\"characterized\"</strong>: non-finite past participle; correctly modifies the noun phrase without creating a second clause. &#10003;</li><li><strong>\"is characterized\"</strong>: finite present verb; creates a comma splice just like A and B. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+    }
+  ]
+}

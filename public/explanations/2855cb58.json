@@ -13,7 +13,7 @@
     },
     {
       "title": "Eliminate wrong choices",
-      "content": "<ul><li><strong>Choice A &mdash; '$(x-16)^2+(y-17)^2=49k$'</strong>: The right side is $49k$, not $(7k)^2 = 49k^2$. The radius was not properly squared. &#10007;</li><li><strong>Choice B &mdash; '$(x-16)^2+(y-17)^2=49k^2$'</strong>: $(7k)^2 = 49k^2$. Center and radius are applied correctly. &#10003;</li><li><strong>Choice C &mdash; '$(x-16)^2+(y-17)^2=7k$'</strong>: The right side is just $7k$, which would mean $r = \\sqrt{7k}$, not $7k$. &#10007;</li><li><strong>Choice D &mdash; '$(x-16)^2+(y-17)^2=7k^2$'</strong>: $(7k)^2 = 49k^2$, not $7k^2$. Only $k$ was squared, not the full radius. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; ${(x-16)}^{2}+{(y-17)}^{2}=49k$</strong>: The right side is $49k$, not $(7k)^2 = 49k^2$. The radius was not properly squared. &#10007;</li><li><strong>Choice B &mdash; ${(x-16)}^{2}+{(y-17)}^{2}=49{k}^{2}$</strong>: $(7k)^2 = 49k^2$. Center and radius are applied correctly. &#10003;</li><li><strong>Choice C &mdash; ${(x-16)}^{2}+{(y-17)}^{2}=7k$</strong>: The right side is just $7k$, which would mean $r = \\sqrt{7k}$, not $7k$. &#10007;</li><li><strong>Choice D &mdash; ${(x-16)}^{2}+{(y-17)}^{2}=7{k}^{2}$</strong>: $(7k)^2 = 49k^2$, not $7k^2$. Only $k$ was squared, not the full radius. &#10007;</li></ul>That matches <strong>Choice B &mdash; ${(x-16)}^{2}+{(y-17)}^{2}=49{k}^{2}$</strong>."
     }
   ]
 }

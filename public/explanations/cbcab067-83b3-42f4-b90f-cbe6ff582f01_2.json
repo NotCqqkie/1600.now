@@ -1,1 +1,15 @@
-{"questionId":"cbcab067-83b3-42f4-b90f-cbe6ff582f01_2","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage opens with <strong>though</strong>, signaling a contrast: the game was originally distributed one way and is now &quot;readily available.&quot; The blank must be the opposite of openly available — something covert, fitting a political protest against an authoritarian regime."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'surreptitiously'</strong>: means secretly or stealthily — exactly how protest materials would circulate under authoritarian rule. &#10003;</li><li><strong>Choice B &mdash; 'disingenuously'</strong>: means insincerely or with hidden motives. The game&apos;s distribution was covert, not insincere. &#10007;</li><li><strong>Choice C &mdash; 'succinctly'</strong>: means briefly or concisely. This describes communication style, not manner of distribution. &#10007;</li><li><strong>Choice D &mdash; 'dispassionately'</strong>: means without emotion or bias. A political protest game would not be distributed emotionlessly, and the word doesn&apos;t fit the contrast. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "cbcab067-83b3-42f4-b90f-cbe6ff582f01_2",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage opens with <strong>though</strong>, signaling a contrast: the game was originally distributed one way and is now &quot;readily available.&quot; The blank must be the opposite of openly available — something covert, fitting a political protest against an authoritarian regime."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; surreptitiously</strong>: means secretly or stealthily — exactly how protest materials would circulate under authoritarian rule. &#10003;</li><li><strong>Choice B &mdash; disingenuously</strong>: means insincerely or with hidden motives. The game&apos;s distribution was covert, not insincere. &#10007;</li><li><strong>Choice C &mdash; succinctly</strong>: means briefly or concisely. This describes communication style, not manner of distribution. &#10007;</li><li><strong>Choice D &mdash; dispassionately</strong>: means without emotion or bias. A political protest game would not be distributed emotionlessly, and the word doesn&apos;t fit the contrast. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

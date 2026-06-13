@@ -1,1 +1,15 @@
-{"questionId": "189b5a24-f2f4-4932-9c4f-36aa310357ed_13", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the key relationship", "content": "The study found that when both a musician and nonmusician prefer the same recording, the musician's optimal listening volume is higher than the nonmusician's. Since the musician in this case prefers 84.8 decibels for their favorite recording, the nonmusician's optimal volume must be lower."}, {"title": "Determine the expected outcome", "content": "At 84.8 decibels, the nonmusician would be listening above their optimal volume, making it less enjoyable than a lower setting—exactly what choice A describes.<br/><br/>The other options misapply the pattern to different recordings or reverse the relationship.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "189b5a24-f2f4-4932-9c4f-36aa310357ed_13",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key relationship",
+      "content": "The study found that when both a musician and nonmusician prefer the same recording, the musician's optimal listening volume is higher than the nonmusician's. Since the musician in this case prefers 84.8 decibels for their favorite recording, the nonmusician's optimal volume must be lower."
+    },
+    {
+      "title": "Determine the expected outcome",
+      "content": "At 84.8 decibels, the nonmusician would be listening above their optimal volume, making it less enjoyable than a lower setting—exactly what <strong>Choice A &mdash; find listening to \"Crazy in Love\" at 84.8 decibels less enjoyable than listening to it at a lower volume</strong> describes.<br/><br/>The other options misapply the pattern to different recordings or reverse the relationship.<br/><br/>That matches <strong>Choice A &mdash; find listening to \"Crazy in Love\" at 84.8 decibels less enjoyable than listening to it at a lower volume</strong>."
+    }
+  ]
+}

@@ -13,7 +13,7 @@
     },
     {
       "title": "Use Pythagorean theorem to find pyramid height",
-      "content": "In a right square pyramid, the slant height $\\ell$, pyramid height $h$, and the distance from the base center to an edge midpoint ($s/2 = 55$) form a right triangle. By the Pythagorean theorem:<br/>$$h^2 + 55^2 = 73^2$$<br/>$$h^2 + 3,025 = 5,329$$<br/>$$h^2 = 2,304$$<br/>$$h = 48 \\text{ inches}$$<br/>That matches choice A — <strong>A</strong> is correct."
+      "content": "In a right square pyramid, the slant height $\\ell$, pyramid height $h$, and the distance from the base center to an edge midpoint ($s/2 = 55$) form a right triangle. By the Pythagorean theorem:<br/>$$h^2 + 55^2 = 73^2$$<br/>$$h^2 + 3,025 = 5,329$$<br/>$$h^2 = 2,304$$<br/>$$h = 48 \\text{ inches}$$<br/>That confirms <strong>A</strong> is correct."
     }
   ]
 }

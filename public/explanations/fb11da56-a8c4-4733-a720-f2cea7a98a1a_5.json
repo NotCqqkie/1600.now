@@ -9,7 +9,7 @@
     },
     {
       "title": "Write the remaining gas function",
-      "content": "The gas remaining equals the initial amount minus what was consumed: $$f(d) = 10 - \\frac{d}{35}$$ That matches choice C — <strong>C</strong> is correct."
+      "content": "The gas remaining equals the initial amount minus what was consumed: $$f(d) = 10 - \\frac{d}{35}$$ That matches the correct answer — <strong>C</strong> is correct."
     }
   ]
 }

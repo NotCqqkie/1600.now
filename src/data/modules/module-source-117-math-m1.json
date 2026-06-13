@@ -109,12 +109,12 @@
     "difficulty": "Easy",
     "question_number": 4,
     "test_name": "Module Source 117 Math M1",
-    "passage": "Casey is raising $h$ horses and $g$ goats. Each horse requires 2 acres of land, and each goat requires 1 acre of land. The $h$ horses and $g$ goats require a total of 21 acres of land. Which equation represents this situation?",
+    "passage": "$h$ horses and $g$ goats. Each horse requires 2 acres of land, and each goat requires 1 acre of land. The $h$ horses and $g$ goats require a total of 21 acres of land. Which equation represents this situation?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$2g + h = 21$"
+        "text": "$g + h = 21$"
       },
       {
         "label": "B",
@@ -300,7 +300,7 @@
       },
       {
         "label": "B",
-        "text": "$y > 26$"
+        "text": "$y \\gt 26$"
       },
       {
         "label": "C",
@@ -308,7 +308,7 @@
       },
       {
         "label": "D",
-        "text": "$x + y > 180$"
+        "text": "$x + y \\gt 180$"
       }
     ],
     "is_fill_in_blank": false,
@@ -394,7 +394,7 @@
     "difficulty": "Easy",
     "question_number": 13,
     "test_name": "Module Source 117 Math M1",
-    "passage": "If $5(3x+6)=3(3x+6)+78$, what is the value of $3x+6?$",
+    "passage": "If $5(3x+6)=3(3x+6)+78$, what is the value of $3x+6$?",
     "question_text": null,
     "choices": [
       {
@@ -426,7 +426,7 @@
     "difficulty": "Hard",
     "question_number": 14,
     "test_name": "Module Source 117 Math M1",
-    "passage": "The functions $g$ and $h$ are defined by the given equations.\n$g(x)=\\sqrt{(x-11)^{2}+45}$\n$h(x)=364+\\frac{x^{2}}{2}$\nIf $g(8) = t$, where $t$ is a constant, what is the value of $h(t)$?",
+    "passage": "The functions $g$ and $h$ are defined by the given equations.\n$g(x)=\\sqrt{(x-11)^{2}+45}$\n$h(x)=4+\\frac{x^{2}}{2}$\nIf $g(8) = t$, where $t$ is a constant, what is the value of $h(t)$?",
     "question_text": null,
     "choices": [
       {
@@ -522,7 +522,7 @@
     "difficulty": "Easy",
     "question_number": 17,
     "test_name": "Module Source 117 Math M1",
-    "passage": "For $x > 0$, the function $f$ is defined as follows:\n$f(x) = 1.11x$\nWhich of the following could describe this function?",
+    "passage": "For $x \\gt 0$, the function $f$ is defined as follows:\n$f(x)=111\\%$ of $x$\nWhich of the following could describe this function?",
     "question_text": null,
     "choices": [
       {

@@ -1,1 +1,15 @@
-{"questionId": "ed80971c", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the goal", "content": "The student wants to emphasize <em>how long</em> the museum has existed. The notes give the exact founding year: 1992. The correct choice must include that specific year in a way that highlights duration."}, {"title": "Eliminate wrong choices, confirm the match", "content": "Check each choice against the goal of emphasizing duration since founding:\n<ul>\n<li><strong>Choice A — &quot;The Pueblo of Zuni is home to the A:shiwi A:wan Museum and Heritage Center, which was founded by tribal members.&quot;</strong>: mentions the founding but omits the year entirely — no duration is conveyed. ✗</li>\n<li><strong>Choice B — &quot;The A:shiwi A:wan Museum and Heritage Center has served the Pueblo of Zuni since 1992.&quot;</strong>: the phrase &quot;has served...since 1992&quot; directly highlights how long the museum has existed. ✓</li>\n<li><strong>Choice C — &quot;According to its website, the A:shiwi A:wan Museum and Heritage Center (founded in the 1990s) works to &quot;emphasize A:shiwi ways of knowing.&quot;&quot;</strong>: uses vague &quot;1990s&quot; rather than the exact year and shifts focus to the mission, not duration. ✗</li>\n<li><strong>Choice D — &quot;Knowledge has been one of the central themes of the A:shiwi A:wan Museum and Heritage Center from its founding.&quot;</strong>: omits any date and focuses on theme, not duration. ✗</li>\n</ul>\nThat matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "ed80971c",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the goal",
+      "content": "The student wants to emphasize <em>how long</em> the museum has existed. The notes give the exact founding year: 1992. The correct choice must include that specific year in a way that highlights duration."
+    },
+    {
+      "title": "Eliminate wrong choices, confirm the match",
+      "content": "Check each choice against the goal of emphasizing duration since founding:\n<ul>\n<li><strong>\"The Pueblo of Zuni is home to the A:shiwi A:wan Museum and Heritage Center, which was founded by tribal members.\"</strong>: mentions the founding but omits the year entirely — no duration is conveyed. ✗</li>\n<li><strong>\"The A:shiwi A:wan Museum and Heritage Center has served the Pueblo of Zuni since 1992.\"</strong>: the phrase \"has served...since 1992\" directly highlights how long the museum has existed. ✓</li>\n<li><strong>\"According to its website, the A:shiwi A:wan Museum and Heritage Center (founded in the 1990s) works to \"emphasize A:shiwi ways of knowing.\"\"</strong>: uses vague \"1990s\" rather than the exact year and shifts focus to the mission, not duration. ✗</li>\n<li><strong>\"Knowledge has been one of the central themes of the A:shiwi A:wan Museum and Heritage Center from its founding.\"</strong>: omits any date and focuses on theme, not duration. ✗</li>\n</ul>\nThat matches the correct answer — <strong>B</strong> is correct."
+    }
+  ]
+}

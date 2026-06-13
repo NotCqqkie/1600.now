@@ -17,7 +17,7 @@
     },
     {
       "title": "Use the y-intercept first",
-      "content": "When $x=0$, the output must be $45$. Choices A, B, and C have constant term $45$, so they pass through $(0,45)$. Choice D has constant term $-45$, so eliminate D immediately."
+      "content": "When $x=0$, the output must be $45$. The equations $y = x^2 - 18x + 45$, $y = -x^2 + 12x + 45$, and $y = x^2 + 45$ have constant term $45$, so they pass through $(0,45)$. The equation $y = -3x^2 + 48x - 45$ has constant term $-45$, so eliminate it immediately."
     },
     {
       "title": "Check the other two points",
@@ -25,7 +25,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice B is the only equation that matches all three given points, so <strong>B</strong> is correct."
+      "content": "The correct answer is the only equation that matches all three given points, so <strong>B</strong> is correct."
     }
   ]
 }

@@ -15,11 +15,11 @@
     },
     {
       "title": "Identify the no-solution choice",
-      "content": "Choice B is<br/>$$-13x-\\frac{1}{9}=-13x+\\frac{1}{9}$$<br/>Both sides have slope $-13$, but their intercepts are different. The lines never meet, so there is no solution."
+      "content": "Choice B (&lsquo;$-13x-\\frac{1}{9}=-13x+\\frac{1}{9}$&rsquo;) is<br/>$$-13x-\\frac{1}{9}=-13x+\\frac{1}{9}$$<br/>Both sides have slope $-13$, but their intercepts are different. The lines never meet, so there is no solution."
     },
     {
       "title": "Check the others quickly",
-      "content": "Choice A has identical sides, so it has infinitely many solutions. Choices C and D have slope $13$ on the right side, so each intersects the left-side line once. Therefore only choice <strong>B</strong> has no solution."
+      "content": "Choice A (&lsquo;$-13x-\\frac{1}{9}=-13x-\\frac{1}{9}$&rsquo;) has identical sides, so it has infinitely many solutions. The other choices have slope $13$ on the right side, so each intersects the left-side line once. Therefore only <strong>B</strong> has no solution."
     }
   ]
 }

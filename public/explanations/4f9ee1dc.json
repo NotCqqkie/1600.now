@@ -1,1 +1,15 @@
-{"questionId": "4f9ee1dc", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Spot the shared location", "content": "The notes identify both the Kemp's ridley and olive ridley as sea turtles found in the Atlantic Ocean. This geographic similarity is the key fact to emphasize."}, {"title": "Match similarity to the answer choices", "content": "Choice C opens with “Both” and states these two species share the Atlantic Ocean.<br/><br/>The other three fail to emphasize similarity: <ul><li>A focuses on only one species</li><li>B uses “while” to contrast their scientific names</li><li>D explicitly calls them “different species</li></ul>.” That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "4f9ee1dc",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the shared location",
+      "content": "The notes identify both the Kemp's ridley and olive ridley as sea turtles found in the Atlantic Ocean. This geographic similarity is the key fact to emphasize."
+    },
+    {
+      "title": "Match similarity to the answer choices",
+      "content": "The correct answer opens with “Both” and states these two species share the Atlantic Ocean.<br/><br/>The other three fail to emphasize similarity: <ul><li>A focuses on only one species</li><li>B uses “while” to contrast their scientific names</li><li>D explicitly calls them “different species</li></ul>.” <strong>C</strong> is correct."
+    }
+  ]
+}

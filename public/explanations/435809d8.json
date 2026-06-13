@@ -1,1 +1,19 @@
-{"questionId": "435809d8", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Map the sentence structure", "content": "Before the blank: &quot;The vessel took six days to dislodge.&quot; The phrase &quot;in part due to its sheer size&quot; is a parenthetical reason attached to that clause. After the blank: &quot;it&rsquo;s as heavy as two thousand blue whales when fully loaded&quot; &mdash; a full independent clause that explains what &quot;sheer size&quot; means."}, {"title": "Decide the punctuation", "content": "The parenthetical &quot;in part due to its sheer size&quot; needs a comma on its left side. Between the two independent clauses, a comma alone would be a splice; a colon works because the second clause elaborates on &quot;sheer size.&quot;"}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; 'dislodge in part due to its sheer size,'</strong>: no comma before the parenthetical, and uses a comma between two independent clauses (comma splice). &#10007;</li><li><strong>Choice B &mdash; 'dislodge, in part due to its sheer size:'</strong>: opens the parenthetical with a comma and uses a colon to introduce the elaboration about weight. &#10003;</li><li><strong>Choice C &mdash; 'dislodge, in part due to its sheer size,'</strong>: still joins two independent clauses with only a comma &mdash; comma splice. &#10007;</li><li><strong>Choice D &mdash; 'dislodge, in part, due to its sheer size'</strong>: brackets &quot;in part&quot; with commas but leaves no punctuation at all between the two independent clauses &mdash; run-on. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "435809d8",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Map the sentence structure",
+      "content": "Before the blank: &quot;The vessel took six days to dislodge.&quot; The phrase &quot;in part due to its sheer size&quot; is a parenthetical reason attached to that clause. After the blank: &quot;it&rsquo;s as heavy as two thousand blue whales when fully loaded&quot; &mdash; a full independent clause that explains what &quot;sheer size&quot; means."
+    },
+    {
+      "title": "Decide the punctuation",
+      "content": "The parenthetical &quot;in part due to its sheer size&quot; needs a comma on its left side. Between the two independent clauses, a comma alone would be a splice; a colon works because the second clause elaborates on &quot;sheer size.&quot;"
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A — dislodge in part due to its sheer size,</strong>: no comma before the parenthetical, and uses a comma between two independent clauses (comma splice). &#10007;</li><li><strong>Choice B — dislodge, in part due to its sheer size:</strong>: opens the parenthetical with a comma and uses a colon to introduce the elaboration about weight. &#10003;</li><li><strong>Choice C — dislodge, in part due to its sheer size,</strong>: still joins two independent clauses with only a comma &mdash; comma splice. &#10007;</li><li><strong>Choice D — dislodge, in part, due to its sheer size</strong>: brackets &quot;in part&quot; with commas but leaves no punctuation at all between the two independent clauses &mdash; run-on. &#10007;</li></ul><strong>B</strong> is correct."
+    }
+  ]
+}

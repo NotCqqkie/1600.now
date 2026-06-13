@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate at x = 3 and test each choice",
-      "content": "Substitute $x = 3$:<br/>$$y = 8 - \\frac{1}{m}(3 - 2) = 8 - \\frac{1}{m}$$<br/>So line $l$ passes through $\\left(3,\\ 8 - \\frac{1}{m}\\right)$.<ul><li>A. $(3, 8 - \\frac{1}{m})$ &mdash; exactly the point we derived. Correct.</li><li>B. $(3, 8 + \\frac{1}{m})$ &mdash; wrong sign; this would require slope $+\\frac{1}{m}$, not perpendicular.</li><li>C. $(3, 8 - m)$ &mdash; uses slope $-m$ (same magnitude as $k$, not the negative reciprocal). Eliminated.</li><li>D. $(3, 8 + m)$ &mdash; uses slope $+m$, which is line $k$ itself, not perpendicular. Eliminated.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.",
+      "content": "Substitute $x = 3$:<br/>$$y = 8 - \\frac{1}{m}(3 - 2) = 8 - \\frac{1}{m}$$<br/>So line $l$ passes through $\\left(3,\\ 8 - \\frac{1}{m}\\right)$.<ul><li>A. $(3, 8 - \\frac{1}{m})$ &mdash; exactly the point we derived. Correct.</li><li>B. $(3, 8 + \\frac{1}{m})$ &mdash; wrong sign; this would require slope $+\\frac{1}{m}$, not perpendicular.</li><li>C. $(3, 8 - m)$ &mdash; uses slope $-m$ (same magnitude as $k$, not the negative reciprocal). Eliminated.</li><li>D. $(3, 8 + m)$ &mdash; uses slope $+m$, which is line $k$ itself, not perpendicular. Eliminated.</li></ul>That confirms <strong>A</strong> is correct.",
       "desmosExpressions": [
         "(2, 8)"
       ]

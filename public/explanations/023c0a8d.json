@@ -9,7 +9,7 @@
     },
     {
       "title": "Substitute and evaluate",
-      "content": "Substituting $x = 2$ into the functional equation $f(3x) = x - 6$: $$f(6) = f(3 \\cdot 2) = 2 - 6 = -4$$ That matches choice B — <strong>B</strong> is correct."
+      "content": "Substituting $x = 2$ into the functional equation $f(3x) = x - 6$: $$f(6) = f(3 \\cdot 2) = 2 - 6 = -4$$ That matches <strong>Choice B &mdash; $-4$</strong>."
     }
   ]
 }

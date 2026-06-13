@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; '0'</strong>: the graph does not pass through (0, 0). &#10007;</li><li><strong>Choice B &mdash; '8'</strong>: the graph passes through (0, 8). &#10003;</li><li><strong>Choice C &mdash; '11'</strong>: 11 is a y-value reached later in the interval, not at x = 0. &#10007;</li><li><strong>Choice D &mdash; '12'</strong>: 12 is the y-value at a different point, not at x = 0. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; 0</strong>: the graph does not pass through (0, 0). &#10007;</li><li><strong>Choice B &mdash; 8</strong>: the graph passes through (0, 8). &#10003;</li><li><strong>Choice C &mdash; 11</strong>: 11 is a y-value reached later in the interval, not at x = 0. &#10007;</li><li><strong>Choice D &mdash; 12</strong>: 12 is the y-value at a different point, not at x = 0. &#10007;</li></ul>That is the correct answer."
     }
   ]
 }

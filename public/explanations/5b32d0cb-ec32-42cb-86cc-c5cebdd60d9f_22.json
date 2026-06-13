@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the no-solution condition",
-      "content": "With $k=-\\frac{13}{14}$, the $x$-terms cancel. The constants are $-5n$ and $-\\frac{85}{18}$. Since $n>1$, $5n>5>\\frac{85}{18}$, so $-5n\\neq-\\frac{85}{18}$. The remaining statement is a contradiction, so no solution exists. Equivalent accepted answers are <strong>-13/14</strong>, <strong>-0.928</strong>, and <strong>-0.929</strong>."
+      "content": "With $k=-\\frac{13}{14}$, the $x$-terms cancel. The constants are $-5n$ and $-\\frac{85}{18}$. Since $n\\gt 1$, $5n\\gt 5\\gt \\frac{85}{18}$, so $-5n\\neq-\\frac{85}{18}$. The remaining statement is a contradiction, so no solution exists. Equivalent accepted answers are <strong>-13/14</strong>, <strong>-0.928</strong>, and <strong>-0.929</strong>."
     }
   ]
 }

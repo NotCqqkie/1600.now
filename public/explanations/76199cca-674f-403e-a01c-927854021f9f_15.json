@@ -1,1 +1,15 @@
-{"questionId":"76199cca-674f-403e-a01c-927854021f9f_15","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage states ferritic stainless steel contains at least 10.5% chromium and more chromium than austenitic. Since ferritic&apos;s minimum is 10.5% and austenitic always has less chromium than ferritic, austenitic must be below 10.5%. The question asks what must be true of both washing machines (200 series, austenitic) and furnaces (300 series, austenitic)."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'less than 10.5% chromium'</strong>: Both appliances use austenitic steel, which the passage establishes has less chromium than ferritic&apos;s 10.5% minimum. &#10003;</li><li><strong>Choice B &mdash; 'more nickel than ferritic'</strong>: The passage does not support reversing the nickel relationship in this direction. &#10007;</li><li><strong>Choice C &mdash; 'no cubic crystal structure'</strong>: The passage does not deny a cubic structure to storage containers or austenitic steel generally. &#10007;</li><li><strong>Choice D &mdash; 'same nitrogen levels as ferritic'</strong>: The passage gives no basis for equating nitrogen levels between austenitic and ferritic types. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "76199cca-674f-403e-a01c-927854021f9f_15",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage states ferritic stainless steel contains at least 10.5% chromium and more chromium than austenitic. Since ferritic&apos;s minimum is 10.5% and austenitic always has less chromium than ferritic, austenitic must be below 10.5%. The question asks what must be true of both washing machines (200 series, austenitic) and furnaces (300 series, austenitic)."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;furnaces and stainless steel used to manufacture washing machines will both have a chromium content of less than 10.5%.&rsquo;</strong>: Both appliances use austenitic steel, which the passage establishes has less chromium than ferritic&apos;s 10.5% minimum. &#10003;</li><li><strong>Choice B &mdash; &lsquo;washing machines will have a higher concentration of nickel in its composition than stainless steel used to manufacture furnaces will.&rsquo;</strong>: The passage does not support reversing the nickel relationship in this direction. &#10007;</li><li><strong>Choice C &mdash; &lsquo;induction cookers will have a face-centered cubic crystalline structure, but stainless steel used to manufacture storage containers will not.&rsquo;</strong>: The passage does not deny a cubic structure to storage containers or austenitic steel generally. &#10007;</li><li><strong>Choice D &mdash; &lsquo;storage containers and stainless steel used to manufacture induction cookers will have a similar concentration of nitrogen in their compositions.&rsquo;</strong>: The passage gives no basis for equating nitrogen levels between austenitic and ferritic types. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

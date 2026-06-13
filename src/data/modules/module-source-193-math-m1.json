@@ -6,7 +6,7 @@
     "difficulty": "Easy",
     "question_number": 1,
     "test_name": "Module Source 193 Math M1",
-    "passage": "For certain air temperatures, the table gives wind chill temperatures for two different wind speeds.\nAccording to the table, what is the wind chill temperature, in degrees Fahrenheit ($\\text{°F}$), when the air temperature is $33\\text{°F}$ and the wind speed is $20$ miles per hour (mph)? (Disregard the degree symbol when entering your answer.)",
+    "passage": "For certain air temperatures, the table gives wind chill temperatures for two different wind speeds.\nAccording to the table, what is the wind chill temperature, in degrees Fahrenheit (${}^{\\circ}\\text{F}$), when the air temperature is $33^{\\circ}\\text{F}$ and the wind speed is $20$ miles per hour (mph)? (Disregard the degree symbol when entering your answer.)",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -33,7 +33,7 @@
     "choices": [
       {
         "label": "A",
-        "text": "m = $\\frac{9(n+p)}{11}$"
+        "text": "$m = \\frac{9(n+p)}{11}$"
       },
       {
         "label": "B",
@@ -404,7 +404,7 @@
       },
       {
         "label": "C",
-        "text": "• The parabola opens upward.\n• The vertex is at the point $(-2, -2)$.\n• The parabola passes through the following points:\n• $(-3, -\\frac{9}{10})$\n• $(-2, -2)$\n• $(-1, -\\frac{9}{10})$",
+      "text": "• The parabola opens upward.\n• The vertex is at the point (negative 2 comma negative 2).\n• The parabola passes through the following points:\n• (negative 3 comma negative nine tenths)\n• (negative 2 comma negative 2)\n• (negative 1 comma negative nine tenths)",
         "image": "/images/SAT-Style%20Questions/e9aed539_C.png"
       },
       {
@@ -432,7 +432,7 @@
     "difficulty": "Medium",
     "question_number": 17,
     "test_name": "Module Source 193 Math M1",
-    "passage": "The solution to the given system of equations is $(x, y)$. What is the value of $xy$?",
+    "passage": "$5x + 12y = 27$\n$10x + 6y = 18$\nThe solution to the given system of equations is $(x, y)$. What is the value of $xy$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -545,19 +545,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$y > 5x - 35$"
+        "text": "$y \\gt 5x - 35$"
       },
       {
         "label": "B",
-        "text": "$y < 5x - 35$"
+        "text": "$y \\lt 5x - 35$"
       },
       {
         "label": "C",
-        "text": "$y > 25x - 35$"
+        "text": "$y \\gt 25x - 35$"
       },
       {
         "label": "D",
-        "text": "$y < 25x - 35$"
+        "text": "$y \\lt 25x - 35$"
       }
     ],
     "is_fill_in_blank": false,

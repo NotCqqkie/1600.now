@@ -9,7 +9,7 @@
     },
     {
       "title": "Use the area method to find the altitude NQ",
-      "content": "The area of triangle $MNP$ can be computed two different ways:<br/><br/><strong>Method 1:</strong> Using the two legs as base and height: $$\\text{Area} = \\frac{1}{2} \\cdot 3 \\cdot 4 = 6$$<br/><strong>Method 2:</strong> Using the hypotenuse $MP$ as base and altitude $NQ$ as the height: $$\\text{Area} = \\frac{1}{2} \\cdot MP \\cdot NQ = \\frac{1}{2} \\cdot 5 \\cdot NQ$$<br/>Setting the two areas equal: $$6 = \\frac{1}{2} \\cdot 5 \\cdot NQ$$ $$12 = 5 \\cdot NQ$$ $$NQ = \\frac{12}{5} = 2.4$$ That matches choice C — <strong>C</strong> is correct."
+      "content": "The area of triangle $MNP$ can be computed two different ways:<br/><br/><strong>Method 1:</strong> Using the two legs as base and height: $$\\text{Area} = \\frac{1}{2} \\cdot 3 \\cdot 4 = 6$$<br/><strong>Method 2:</strong> Using the hypotenuse $MP$ as base and altitude $NQ$ as the height: $$\\text{Area} = \\frac{1}{2} \\cdot MP \\cdot NQ = \\frac{1}{2} \\cdot 5 \\cdot NQ$$<br/>Setting the two areas equal: $$6 = \\frac{1}{2} \\cdot 5 \\cdot NQ$$ $$12 = 5 \\cdot NQ$$ $$NQ = \\frac{12}{5} = 2.4$$ That confirms <strong>C</strong> is correct."
     }
   ]
 }

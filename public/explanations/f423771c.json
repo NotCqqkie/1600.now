@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Find the exponential pattern",
-      "content": "Use the form $h(x)=ab^x$. The row $x=0$ gives $h(0)=a=1.23$. Use the row $x=2$: $$1.54=1.23b^2$$ $$b^2=\\frac{1.54}{1.23}\\approx1.252$$ $$b\\approx1.12.$$ So the model is $h(x)=1.23(1.12)^x$."
+      "content": "Use the form $h(x)=a\\cdot b^x$. The row $x=0$ gives $h(0)=a=1.23$. Use the row $x=2$: $$1.54=1.23b^2$$ $$b^2=\\frac{1.54}{1.23}\\approx1.252$$ $$b\\approx1.12.$$ So the model is $h(x)=1.23(1.12)^x$."
     },
     {
       "title": "Confirm the model against the table",
@@ -13,7 +13,7 @@
     },
     {
       "title": "Check each choice",
-      "content": "<ul><li>A) $1.12(0.23)^x$: $h(0)=1.12$, not $1.23$; and $0.23$ would shrink the values. Eliminated.</li><li>B) $1.12(1.23)^x$: $h(0)=1.12$, not $1.23$. Eliminated.</li><li>C) $1.23(0.12)^x$: correct starting value, but $h(2)=1.23(0.12)^2\\approx 0.018$, nowhere near $1.54$. Eliminated.</li><li>D) $1.23(1.12)^x$: $h(0)=1.23$, $h(2)\\approx 1.54$, $h(4)\\approx 1.94$. Matches all rows.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "content": "<ul><li><strong>$h \\left(x\\right)=1.12{ \\left(0.23\\right)}^{x}$</strong>: $1.12(0.23)^x$: $h(0)=1.12$, not $1.23$; and $0.23$ would shrink the values. Eliminated.</li><li><strong>$h \\left(x\\right)=1.12{ \\left(1.23\\right)}^{x}$</strong>: $1.12(1.23)^x$: $h(0)=1.12$, not $1.23$. Eliminated.</li><li><strong>$h \\left(x\\right)=1.23{ \\left(0.12\\right)}^{x}$</strong>: $1.23(0.12)^x$: correct starting value, but $h(2)=1.23(0.12)^2\\approx 0.018$, nowhere near $1.54$. Eliminated.</li><li><strong>$h \\left(x\\right)=1.23{ \\left(1.12\\right)}^{x}$</strong>: $1.23(1.12)^x$: $h(0)=1.23$, $h(2)\\approx 1.54$, $h(4)\\approx 1.94$. Matches all rows.</li></ul>That matches the correct answer — <strong>D</strong> is correct."
     }
   ]
 }

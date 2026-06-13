@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice D has the correct starting value and the doubling factor. Choices A and B use 44,000 as the exponential base, and choice C models halving instead of doubling. Choice <strong>D</strong> is correct.",
+      "content": "Choice D (&lsquo;$y=44,000{ \\left(2\\right)}^{t}$&rsquo;) has the correct starting value and the doubling factor. The other choices use 44,000 as the exponential base, and an incorrect response models halving instead of doubling. <strong>D</strong> is correct.",
       "desmosExpressions": [
         "y=44000(2)^x",
         "(0,44000)",

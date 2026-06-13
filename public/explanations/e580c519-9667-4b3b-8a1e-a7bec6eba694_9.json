@@ -1,1 +1,15 @@
-{"questionId":"e580c519-9667-4b3b-8a1e-a7bec6eba694_9","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The researchers warn that rising total seagrass coverage did not mean the ecosystem was resilient. The correct choice must show a scenario where coverage grew yet the system still collapsed under a different environmental stress."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; algal blooms block sunlight in early 2019</strong>: the graph shows all three lines dropping sharply in early 2019 after years of growth &mdash; a synchronized collapse that a light-blocking event would cause. &#10003;</li><li><strong>Choice B &mdash; fungal infection in 2018</strong>: the graph shows no 2018 decline; widgeon grass keeps rising through late 2018. &#10007;</li><li><strong>Choice C &mdash; nutrient runoff drove the 2012&ndash;2017 increase</strong>: explains the growth period, not the collapse. &#10007;</li><li><strong>Choice D &mdash; only widgeon grass tolerates the 2019 temperature spike</strong>: widgeon grass coverage also drops in 2019, so it did not thrive. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_9",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The researchers warn that rising total seagrass coverage did not mean the ecosystem was resilient. The correct choice must show a scenario where coverage grew yet the system still collapsed under a different environmental stress."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"In early 2019, unusually heavy rains washed excessive nutrients into the bay, leading to algal blooms that prevented sunlight from reaching many seagrass species.\"</strong>: the graph shows all three lines dropping sharply in early 2019 after years of growth &mdash; a synchronized collapse that a light-blocking event would cause. &#10003;</li><li><strong>\"In early 2018, a fungal infection that affects widgeon grass and eelgrass but does not affect other types of seagrass spread through the bay.\"</strong>: the graph shows no 2018 decline; widgeon grass keeps rising through late 2018. &#10007;</li><li><strong>\"Between 2012 and 2017, the total area covered by widgeon grass and the total area covered by all types of seagrass increased as water temperatures in the bay increased.\"</strong>: explains the growth period, not the collapse. &#10007;</li><li><strong>\"Water temperatures in the bay increased slowly from 2012 to 2018, but in early 2019 there was an unprecedentedly large increase in temperatures, which reached levels that can be tolerated by few seagrass species other than widgeon grass.\"</strong>: widgeon grass coverage also drops in 2019, so it did not thrive. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+    }
+  ]
+}

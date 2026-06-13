@@ -1,1 +1,15 @@
-{"questionId": "d2b52c50", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what 'emphasize the order' requires", "content": "To emphasize the order means showing which state became a state first and the temporal distance between them."}, {"title": "Find the choice that directly shows the sequence", "content": "Choice A explicitly shows the order with “before,” includes ordinal numbers (49th, 50th), and quantifies the gap (“several months”).<br/><br/>Choices B and D redirect to flag information; choice C downplays the temporal gap by highlighting only the shared year.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "d2b52c50",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what 'emphasize the order' requires",
+      "content": "To emphasize the order means showing which state became a state first and the temporal distance between them."
+    },
+    {
+      "title": "Find the choice that directly shows the sequence",
+      "content": "The correct answer explicitly shows the order with “before,” includes ordinal numbers (49th, 50th), and quantifies the gap (“several months”).<br/><br/>The other choices redirect to flag information; choice C downplays the temporal gap by highlighting only the shared year.<br/><br/>That is the correct answer."
+    }
+  ]
+}

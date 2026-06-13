@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the rule to the given expression",
-      "content": "Since $(158y)$ is raised to the power $\\frac{1}{2}$, we apply the rule directly:<br/>$$(158y)^{\\frac{1}{2}} = \\sqrt{158y}$$<br/>That matches choice C — <strong>C</strong> is correct."
+      "content": "Since $(158y)$ is raised to the power $\\frac{1}{2}$, we apply the rule directly:<br/>$$(158y)^{\\frac{1}{2}} = \\sqrt{158y}$$<br/>That confirms <strong>C</strong> is correct."
     }
   ]
 }

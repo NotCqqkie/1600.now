@@ -1,1 +1,15 @@
-{"questionId": "25547537-4b75-4c1c-8c86-e3b70293c301_24", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the cause-and-effect signal", "content": "The plant absorbs nickel from the soil. As a result, nickel concentrations in the soil decrease. The blank needs a transition that shows this consequence relationship."}, {"title": "Apply the cause-and-effect signal", "content": "”In turn,” signals that one thing results from another. Here, the soil's nickel decrease directly results from the plant's absorption — which is exactly what “in turn,” conveys.<br/><br/>The other three fail to capture this causal link: nevertheless suggests contrast, specifically narrows details, and in addition presents separate facts.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "25547537-4b75-4c1c-8c86-e3b70293c301_24",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the cause-and-effect signal",
+      "content": "The plant absorbs nickel from the soil. As a result, nickel concentrations in the soil decrease. The blank needs a transition that shows this consequence relationship."
+    },
+    {
+      "title": "Apply the cause-and-effect signal",
+      "content": "”In turn,” signals that one thing results from another. Here, the soil's nickel decrease directly results from the plant's absorption — which is exactly what “in turn,” conveys.<br/><br/>The other three fail to capture this causal link: nevertheless suggests contrast, specifically narrows details, and in addition presents separate facts.<br/><br/>That matches <strong>Choice A &mdash; in turn,</strong>."
+    }
+  ]
+}

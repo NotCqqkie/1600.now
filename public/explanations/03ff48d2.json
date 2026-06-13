@@ -9,11 +9,11 @@
     },
     {
       "title": "Use the no-real-solutions condition",
-      "content": "A quadratic has no real solutions when the expression under the square root in the quadratic formula is negative. For $kx^2-56x+16=0$, that condition is $$(-56)^2-4(k)(16)\\lt0.$$ Simplify: $$3136-64k\\lt0$$ so $$k>49.$$"
+      "content": "A quadratic has no real solutions when the expression under the square root in the quadratic formula is negative. For $kx^2-56x+16=0$, that condition is $$(-56)^2-4(k)(16)\\lt0.$$ Simplify: $$3136-64k\\lt0$$ so $$k\\gt 49.$$"
     },
     {
       "title": "Pick the least integer",
-      "content": "$k$ must be an integer greater than $49$, so the least value is $k=50$. That matches choice 50, so <strong>50</strong> is correct."
+      "content": "$k$ must be an integer greater than $49$, so the least possible integer is $k=50$. Therefore <strong>50</strong> is correct."
     }
   ]
 }

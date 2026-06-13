@@ -13,7 +13,7 @@
     },
     {
       "title": "Match to the answer choices",
-      "content": "<ul><li><strong>A</strong> &mdash; $\\frac{8}{13}(90)(3)$: uses 90 instead of 180. The radian-to-degree factor is 180/&pi;, not 90/&pi;. Wrong.</li><li><strong>B</strong> &mdash; $\\frac{8}{13}(180)(3)$: this is exactly $\\frac{8}{13} \\times 180 \\times 3$, matching our derivation. That matches choice B &mdash; <strong>B</strong> is correct.</li><li><strong>C</strong> &mdash; $\\frac{8}{13\\pi}(90)(3)$: places &pi; in the denominator instead of canceling it, and uses 90. Both wrong.</li><li><strong>D</strong> &mdash; $\\frac{8\\pi}{13}(180)(3)$: keeps &pi; in the numerator; the &pi; should cancel during conversion. Wrong.</li></ul>"
+      "content": "<ul><li><strong>A</strong> &mdash; $\\frac{8}{13}(90)(3)$: uses 90 instead of 180. The radian-to-degree factor is 180/&pi;, not 90/&pi;. Wrong.</li><li><strong>B</strong> &mdash; $\\frac{8}{13}(180)(3)$: this is exactly $\\frac{8}{13} \\times 180 \\times 3$, matching our derivation. That matches the correct answer — <strong>B</strong> is correct.</li><li><strong>C</strong> &mdash; $\\frac{8}{13\\pi}(90)(3)$: places &pi; in the denominator instead of canceling it, and uses 90. Both wrong.</li><li><strong>D</strong> &mdash; $\\frac{8\\pi}{13}(180)(3)$: keeps &pi; in the numerator; the &pi; should cancel during conversion. Wrong.</li></ul>"
     }
   ]
 }

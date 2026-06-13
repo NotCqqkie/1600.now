@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; '153'</strong>: this is the value in the venom-treated column for petri dish 6. Reading directly from that cell confirms 153 CFUs. &#10003;</li><li><strong>Choice B &mdash; '977'</strong>: this value appears in the saline-treated column for petri dish 6, not the venom column. It is the wrong chamber's reading for the same dish. &#10007;</li><li><strong>Choice C &mdash; '55'</strong>: this value comes from a different petri dish's venom column, not dish 6. Misreading the row produces this error. &#10007;</li><li><strong>Choice D &mdash; '103'</strong>: this value also belongs to a different row's venom column. It does not correspond to petri dish 6. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; 153</strong>: this is the value in the venom-treated column for petri dish 6. Reading directly from that cell confirms 153 CFUs. &#10003;</li><li><strong>Choice B &mdash; 977</strong>: this value appears in the saline-treated column for petri dish 6, not the venom column. It is the wrong chamber's reading for the same dish. &#10007;</li><li><strong>Choice C &mdash; 55</strong>: this value comes from a different petri dish's venom column, not dish 6. Misreading the row produces this error. &#10007;</li><li><strong>Choice D &mdash; 103</strong>: this value also belongs to a different row's venom column. It does not correspond to petri dish 6. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
     }
   ]
 }

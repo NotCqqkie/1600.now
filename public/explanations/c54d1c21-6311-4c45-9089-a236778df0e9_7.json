@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the fundamental flaw Text 2 raises",
-      "content": "Text 2 criticizes studies for lacking \u201ccontrol groups\u201d and \u201cpretraining baselines\u201d\u2014the methodological tools needed to answer one essential question: Did the high performance actually result from training, or would it have happened anyway?"
+      "content": "Text 2 criticizes studies for lacking “control groups” and “pretraining baselines”—the methodological tools needed to answer one essential question: Did the high performance actually result from training, or would it have happened anyway?"
     },
     {
       "title": "Match the objection these safeguards would eliminate",
-      "content": "Control groups and pretraining baselines directly rule out the objection that participants would show high performance regardless of training\u2014exactly what choice C expresses. A, B, and D address concerns outside Text 2's specific critique. That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "Control groups and pretraining baselines directly rule out the objection that participants would show high performance regardless of training—exactly what choice C expresses. A, B, and D address concerns outside Text 2's specific critique. That is the correct answer."
     }
   ]
 }

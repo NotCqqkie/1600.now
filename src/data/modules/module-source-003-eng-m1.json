@@ -134,8 +134,8 @@
     "difficulty": "Medium",
     "question_number": 5,
     "test_name": "Module Source 003 Eng M1",
-    "passage": "Which choice best states the main purpose of the text?\nUnderstanding juvenile sea turtles’ migratory patterns is crucial for conservation efforts. While adult sea turtles are well studied, little is known about juveniles during their oceanic stage, when they spend most of their time in the open ocean. To learn about this stage, researchers tagged and released six juvenile green sea turtles (*Chelonia mydas*) into the eastern Caribbean Sea. Their findings revealed that the majority of the turtles passively drifted with ocean currents throughout the region. However, two individuals swam against the currents, possibly in search of foraging grounds off the coast of South America.",
-    "question_text": "Which choice best states the main purpose of the text?",
+    "passage": "Which choice best states the main purpose of the text?\nUnderstanding juvenile sea turtles\" migratory patterns is crucial for conservation efforts. While adult sea turtles are well studied, little is known about juveniles during their oceanic stage, when they spend most of their time in the open ocean. To learn about this stage, researchers tagged and released six juvenile green sea turtles (*Chelonia mydas*) into the eastern Caribbean Sea. Their findings revealed that the majority of the turtles passively drifted with ocean currents throughout the region. However, two individuals swam against the currents, possibly in search of foraging grounds off the coast of South America.",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -166,16 +166,16 @@
     "difficulty": "Medium",
     "question_number": 6,
     "test_name": "Module Source 003 Eng M1",
-    "passage": "Which choice best describes the function of the underlined portion in the text as a whole?\nIn a section of a 1976 essay discussing cinema of the United States, James Baldwin observed that *Lady Sings the Blues* (1972), a biographical film about jazz singer Billie Holiday, can be said to reflect Holiday’s life and the experiences of Black Americans only “<u>by courtesy</u>.” According to Baldwin, the failure of this film to authentically represent its subject matter is indicative of a larger trend in films of the era: rather than leveraging the medium’s potential to confront difficult truths, filmmakers and studios often resorted to platitudes about contemporary US society.",
-    "question_text": "Which choice best describes the function of the underlined portion in the text as a whole?",
+    "passage": "Which choice best describes the function of the underlined portion in the text as a whole?\nIn a section of a 1976 essay discussing cinema of the United States, James Baldwin observed that *Lady Sings the Blues* (1972), a biographical film about jazz singer Billie Holiday, can be said to reflect Holiday's life and the experiences of Black Americans only \"<u>by courtesy</u>.\" According to Baldwin, the failure of this film to authentically represent its subject matter is indicative of a larger trend in films of the era: rather than leveraging the medium\"s potential to confront difficult truths, filmmakers and studios often resorted to platitudes about contemporary US society.",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "It expresses Baldwin’s initial reaction to a US film that the text suggests he would later reconsider."
+        "text": "It expresses Baldwin's initial reaction to a US film that the text suggests he would later reconsider."
       },
       {
         "label": "B",
-        "text": "It illustrates a view of Baldwin’s that the text explains departed substantially from the consensus view held by US film critics."
+        "text": "It illustrates a view of Baldwin's that the text explains departed substantially from the consensus view held by US film critics."
       },
       {
         "label": "C",
@@ -183,7 +183,7 @@
       },
       {
         "label": "D",
-        "text": "It conveys Baldwin’s rejection of contemporary US cinema in favor of earlier films that are more authentic representations of society."
+        "text": "It conveys Baldwin's rejection of contemporary US cinema in favor of earlier films that are more authentic representations of society."
       }
     ],
     "is_fill_in_blank": false,
@@ -397,20 +397,20 @@
     "difficulty": "Medium",
     "question_number": 13,
     "test_name": "Module Source 003 Eng M1",
-    "passage": "Which choice most logically completes the text?\nAntonia Olivia Dolan and colleagues had musicians and nonmusicians with clinically average hearing listen to recordings of nature sounds and music in popular genres like pop and classic rock and adjust the volume to optimize their listening enjoyment. The researchers found that for a given recording that a musician and nonmusician identified as their favorite among those included in the study, optimal volume tended to be higher for the musician than for the nonmusician. Thus, if a musician and nonmusician both identified Beyoncéʼs “Crazy in Love” as their favorite recording and the musician preferred to listen to it at a volume of 84.8 decibels, the nonmusician would be expected to ______.",
+    "passage": "Which choice most logically completes the text?\nAntonia Olivia Dolan and colleagues had musicians and nonmusicians with clinically average hearing listen to recordings of nature sounds and music in popular genres like pop and classic rock and adjust the volume to optimize their listening enjoyment. The researchers found that for a given recording that a musician and nonmusician identified as their favorite among those included in the study, optimal volume tended to be higher for the musician than for the nonmusician. Thus, if a musician and nonmusician both identified Beyoncéʼs \"Crazy in Love\" as their favorite recording and the musician preferred to listen to it at a volume of 84.8 decibels, the nonmusician would be expected to ______.",
     "question_text": "Which choice most logically completes the text?",
     "choices": [
       {
         "label": "A",
-        "text": "find listening to “Crazy in Love” at 84.8 decibels less enjoyable than listening to it at a lower volume"
+        "text": "find listening to \"Crazy in Love\" at 84.8 decibels less enjoyable than listening to it at a lower volume"
       },
       {
         "label": "B",
-        "text": "prefer listening to other music at 84.8 decibels over listening to “Crazy in Love” at that volume"
+        "text": "prefer listening to other music at 84.8 decibels over listening to \"Crazy in Love\" at that volume"
       },
       {
         "label": "C",
-        "text": "enjoy listening to the nature sounds at 84.8 decibels more than listening to “Crazy in Love” at 84.8 decibels"
+        "text": "enjoy listening to the nature sounds at 84.8 decibels more than listening to \"Crazy in Love\" at 84.8 decibels"
       },
       {
         "label": "D",

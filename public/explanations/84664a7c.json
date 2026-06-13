@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Build the linear equation from initial height and rate",
-      "content": "The car starts at height 15 feet. It rises at 8 feet per second, meaning after each second of time $s$, the height increases by $8s$ feet total. Therefore:<br/>$$h = \\text{initial height} + \\text{total rise} = 15 + 8s$$<br/>Rewriting in standard form:<br/>$$h = 8s + 15$$<br/>This matches choice A — <strong>A</strong> is correct."
+      "content": "The car starts at height 15 feet. It rises at 8 feet per second, meaning after each second of time $s$, the height increases by $8s$ feet total. Therefore:<br/>$$h = \\text{initial height} + \\text{total rise} = 15 + 8s$$<br/>Rewriting in standard form:<br/>$$h = 8s + 15$$<br/>That confirms <strong>A</strong> is correct."
     }
   ]
 }

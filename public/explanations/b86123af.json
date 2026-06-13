@@ -17,7 +17,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "The system should be $4x+2y=86$ and $3x+5y=166$. The source marks this system as choice A, so <strong>A</strong> is correct. If choice A displays without the coefficient $4$, the answer choice text is inconsistent with the problem statement."
+      "content": "The system $4x+2y=86$ and $3x+5y=166$ matches so <strong>A</strong> is correct."
     }
   ]
 }

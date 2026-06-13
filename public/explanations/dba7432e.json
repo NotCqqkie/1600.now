@@ -13,7 +13,7 @@
     },
     {
       "title": "Write and match the model",
-      "content": "The model is:<br/>$$f(x)=5\\left(\\frac{1}{2}\\right)^x$$<br/>Since $\\frac{1}{2}=2^{-1}$, this is also:<br/>$$f(x)=5\\cdot2^{-x}$$<br/>That matches choice D, so <strong>D</strong> is correct."
+      "content": "The model is:<br/>$$f(x)=5\\left(\\frac{1}{2}\\right)^x$$<br/>Since $\\frac{1}{2}=2^{-1}$, this is also:<br/>$$f(x)=5\\cdot2^{-x}$$<br/>That matches the computed answer, so <strong>D</strong> is correct."
     }
   ]
 }

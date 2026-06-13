@@ -1,1 +1,15 @@
-{"questionId": "0ea78efc-f415-4ef4-be7f-7d36b9549605_18", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the blank needs", "content": "After \"However,\" the blank must start a new independent clause finishing \"______ the most recognition for voice acting.\" That requires a subject and a verb. The subject must agree in number with its antecedent in the passage."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'those get'</strong>: \"those\" is plural and has no clear antecedent — the passage names one person, Keith David, not a group of things. &#10007;</li><li><strong>Choice B &mdash; 'both get'</strong>: \"both\" is plural and implies exactly two referents, but no two comparable things have been named. &#10007;</li><li><strong>Choice C &mdash; 'he gets'</strong>: \"he\" is singular and matches the antecedent Keith David; the sentence reads smoothly: \"However, he gets the most recognition for voice acting.\" &#10003;</li><li><strong>Choice D &mdash; 'they all get'</strong>: \"they all\" is plural with no plural antecedent; it also contradicts the idea that one person (David) is singled out for voice acting. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "0ea78efc-f415-4ef4-be7f-7d36b9549605_18",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the blank needs",
+      "content": "After \"However,\" the blank must start a new independent clause finishing \"______ the most recognition for voice acting.\" That requires a subject and a verb. The subject must agree in number with its antecedent in the passage."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; those get</strong>: \"those\" is plural and has no clear antecedent — the passage names one person, Keith David, not a group of things. &#10007;</li><li><strong>Choice B &mdash; both get</strong>: \"both\" is plural and implies exactly two referents, but no two comparable things have been named. &#10007;</li><li><strong>Choice C &mdash; he gets</strong>: \"he\" is singular and matches the antecedent Keith David; the sentence reads smoothly: \"However, he gets the most recognition for voice acting.\" &#10003;</li><li><strong>Choice D &mdash; they all get</strong>: \"they all\" is plural with no plural antecedent; it also contradicts the idea that one person (David) is singled out for voice acting. &#10007;</li></ul>That matches <strong>Choice C &mdash; he gets</strong>."
+    }
+  ]
+}

@@ -9,11 +9,11 @@
     },
     {
       "title": "Apply the Pythagorean theorem",
-      "content": "For a right triangle: a&sup2; + b&sup2; = c&sup2;<br/>Here a&sup2; + 6&sup2; = 21&sup2;<br/>Isolate a&sup2;: a&sup2; = 21&sup2; &minus; 6&sup2;<br/>Take the square root: a = \\sqrt{21^{2}-6^{2}}"
+      "content": "For a right triangle: $a^2+b^2=c^2$<br/>Here $a^2+6^2=21^2$<br/>Isolate $a^2$: $a^2=21^2-6^2$<br/>Take the square root: $a=\\sqrt{21^2-6^2}$"
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li>Choice A: \\sqrt{21^{2}-6^{2}} — exactly what the Pythagorean theorem gives. That matches choice A — <strong>A</strong> is correct.</li><li>Choice B: 21&sup2; &minus; 6&sup2; — this is a&sup2;, not a; missing the square root. Eliminated.</li><li>Choice C: \\sqrt{21&minus;6} — subtracts the sides before rooting; no Pythagorean basis. Eliminated.</li><li>Choice D: 21 &minus; 6 = 15 — simple subtraction of sides, not valid for finding a leg. Eliminated.</li></ul>That matches choice A — <strong>A</strong> is correct."
+      "content": "<ul><li><strong>\"$\\sqrt{{21}^{2}-{6}^{2}}$\"</strong>: exactly what the Pythagorean theorem gives. That matches the correct answer — <strong>A</strong> is correct.</li><li><strong>\"${21}^{2}-{6}^{2}$\"</strong>: this is $a^2$, not $a$; missing the square root. Eliminated.</li><li><strong>\"$\\sqrt{21-6}$\"</strong>: subtracts the sides before rooting; no Pythagorean basis. Eliminated.</li><li><strong>\"$21-6$\"</strong>: simple subtraction of sides, not valid for finding a leg. Eliminated.</li></ul>That matches the correct answer — <strong>A</strong> is correct."
     }
   ]
 }

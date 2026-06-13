@@ -1,1 +1,15 @@
-{"questionId":"76199cca-674f-403e-a01c-927854021f9f_1","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The motorman is frustrated (<em>chafed</em>) about the laborer&apos;s difficult lot. He then &quot;registered discontent.&quot; The word &quot;registered&quot; must describe how his internal frustration becomes externally visible — the target meaning is <strong>to show</strong> or <strong>to display</strong>."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'recorded'</strong>: Recording discontent suggests writing it down or logging it, not expressing it outwardly. &#10007;</li><li><strong>Choice B &mdash; 'reported'</strong>: Reporting implies communicating to someone formally — not how emotion is expressed on a face or body. &#10007;</li><li><strong>Choice C &mdash; 'noted'</strong>: Noting is a mental act of observing, not a visible expression of feeling. &#10007;</li><li><strong>Choice D &mdash; 'displayed'</strong>: Displayed means made visible or evident — exactly how frustration shows on someone&apos;s face or behavior. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "76199cca-674f-403e-a01c-927854021f9f_1",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The motorman is frustrated (<em>chafed</em>) about the laborer&apos;s difficult lot. He then &quot;registered discontent.&quot; The word &quot;registered&quot; must describe how his internal frustration becomes externally visible — the target meaning is <strong>to show</strong> or <strong>to display</strong>."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Bypassed&rsquo;</strong>: Recording discontent suggests writing it down or logging it, not expressing it outwardly. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Enrolled&rsquo;</strong>: Reporting implies communicating to someone formally — not how emotion is expressed on a face or body. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Valued&rsquo;</strong>: Noting is a mental act of observing, not a visible expression of feeling. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Displayed&rsquo;</strong>: Displayed means made visible or evident — exactly how frustration shows on someone&apos;s face or behavior. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

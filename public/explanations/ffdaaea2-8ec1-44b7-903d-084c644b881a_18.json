@@ -1,4 +1,5 @@
 {
+  "questionId": "ffdaaea2-8ec1-44b7-903d-084c644b881a_18",
   "qid": "ffdaaea2-8ec1-44b7-903d-084c644b881a_18",
   "steps": [
     {
@@ -7,13 +8,13 @@
     },
     {
       "title": "Find the tangent boundary first",
-      "content": "Two distinct real solutions require the discriminant to be positive: $$143^2-4(6)(864-c)>0.$$ Simplify: $$20449-20736+24c>0$$ $$24c-287>0$$ $$c>\\frac{287}{24}\\approx11.96.$$"
+      "content": "Two distinct real solutions require the discriminant to be positive: $$143^2-4(6)(864-c)\\gt 0.$$ Simplify: $$20449-20736+24c\\gt 0$$ $$24c-287\\gt 0$$ $$c\\gt \\frac{287}{24}\\approx11.96.$$"
     },
     {
       "title": "Pick the listed value that gives two intersections",
-      "content": "$c=\\frac{287}{24}$ gives one repeated solution, not two distinct solutions. The value must be greater than that boundary. Among the choices, only $24$ is greater, so choice D is correct."
+      "content": "$c=\\frac{287}{24}$ gives one repeated solution, not two distinct solutions. The value must be greater than that boundary. Among the choices, only $24$ is greater, so <strong>D</strong> is correct."
     }
   ],
-  "choiceElimination": "<ul><li><strong>Choice A &mdash; '7'</strong>: $7 \\lt 287/24 \\approx 11.96$, so the discriminant is negative and there are no real solutions. &#10007;</li><li><strong>Choice B &mdash; '11'</strong>: $11 \\lt 11.96$, so the discriminant is still negative. &#10007;</li><li><strong>Choice C &mdash; '$\\frac{287}{24}$'</strong>: Exactly at the threshold, the discriminant is $0$, giving one repeated solution instead of two distinct solutions. &#10007;</li><li><strong>Choice D &mdash; '24'</strong>: $24 \\gt 11.96$, so the discriminant is positive and there are two distinct real solutions. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.",
+  "choiceElimination": "<ul><li><strong>'7'</strong>: $7 \\lt 287/24 \\approx 11.96$, so the discriminant is negative and there are no real solutions. &#10007;</li><li><strong>'11'</strong>: $11 \\lt 11.96$, so the discriminant is still negative. &#10007;</li><li><strong>'$\\frac{287}{24}$'</strong>: Exactly at the threshold, the discriminant is $0$, giving one repeated solution instead of two distinct solutions. &#10007;</li><li><strong>'24'</strong>: $24 \\gt 11.96$, so the discriminant is positive and there are two distinct real solutions. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct.",
   "correctAnswer": "D"
 }

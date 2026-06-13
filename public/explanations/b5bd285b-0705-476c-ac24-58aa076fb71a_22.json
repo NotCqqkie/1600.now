@@ -1,1 +1,15 @@
-{"questionId": "b5bd285b-0705-476c-ac24-58aa076fb71a_22", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the comparative signal", "content": "The passage presents voting ages from two countries with different requirements — Panama at 18 and Isle of Man at 16. The transition should signal how these contrast with each other."}, {"title": "Apply the signal to the choices", "content": "”By comparison” directly indicates we're contrasting the two jurisdictions' voting requirements.<br/><br/>The other three misidentify the relationship: “Firstly” implies a series (none exists), “For example” treats the second item as exemplifying something unestablished, and “Therefore” invents causation.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "b5bd285b-0705-476c-ac24-58aa076fb71a_22",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the comparative signal",
+      "content": "The passage presents voting ages from two countries with different requirements — Panama at 18 and Isle of Man at 16. The transition should signal how these contrast with each other."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "”By comparison” directly indicates we're contrasting the two jurisdictions' voting requirements.<br/><br/>The other three misidentify the relationship: “Firstly” implies a series (none exists), “For example” treats the second item as exemplifying something unestablished, and “Therefore” invents causation.<br/><br/>That is the correct answer."
+    }
+  ]
+}

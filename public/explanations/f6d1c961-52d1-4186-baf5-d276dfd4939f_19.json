@@ -1,1 +1,15 @@
-{"questionId": "f6d1c961-52d1-4186-baf5-d276dfd4939f_19", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Locate the verb-object boundary", "content": "The blank follows the verb <em>compiled</em> and precedes the direct object &ldquo;climate data from several sites in Puerto Rico&rsquo;s Luquillo Mountains.&rdquo; There is nothing between them &mdash; no subordinate clause, no list, no inserted element."}, {"title": "Apply the verb-object punctuation rule", "content": "Standard English does not allow punctuation between a verb and its direct object.\n<ul>\n<li><strong>Choice A &mdash; &apos;compiled,&apos;</strong>: a comma between the verb and its object violates this rule. &#10007;</li>\n<li><strong>Choice B &mdash; &apos;compiled&apos;</strong>: no punctuation; <em>compiled</em> connects directly to <em>climate data</em>, conforming to Standard English. &#10003;</li>\n<li><strong>Choice C &mdash; &apos;compiled:&apos;</strong>: a colon between the verb and its object violates this rule. &#10007;</li>\n<li><strong>Choice D &mdash; &apos;compiled.&apos;</strong>: a period ends the sentence before the object is stated, creating an incomplete sentence. &#10007;</li>\n</ul>\nThat matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "f6d1c961-52d1-4186-baf5-d276dfd4939f_19",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the verb-object boundary",
+      "content": "The blank follows the verb <em>compiled</em> and precedes the direct object &ldquo;climate data from several sites in Puerto Rico&rsquo;s Luquillo Mountains.&rdquo; There is nothing between them &mdash; no subordinate clause, no list, no inserted element."
+    },
+    {
+      "title": "Apply the verb-object punctuation rule",
+      "content": "Standard English does not allow punctuation between a verb and its direct object.\n<ul>\n<li><strong>\"compiled,\"</strong>: a comma between the verb and its object violates this rule. &#10007;</li>\n<li><strong>\"compiled\"</strong>: no punctuation; <em>compiled</em> connects directly to <em>climate data</em>, conforming to Standard English. &#10003;</li>\n<li><strong>\"compiled:\"</strong>: a colon between the verb and its object violates this rule. &#10007;</li>\n<li><strong>\"compiled.\"</strong>: a period ends the sentence before the object is stated, creating an incomplete sentence. &#10007;</li>\n</ul>\nThat matches the correct answer — <strong>B</strong> is correct."
+    }
+  ]
+}

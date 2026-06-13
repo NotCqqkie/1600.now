@@ -1,1 +1,15 @@
-{"questionId": "dc78fb50-de84-439b-980f-0629b266ff8a_11", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the key signal: Contrast in ice trends", "content": "The passage states that &quot;some lakes have instead seen an increase in the duration of ice&quot; despite the overall decline. The strongest signal is the <em>change over time</em> for specific lakes, requiring a comparison between two distinct winter seasons to show a net increase."}, {"title": "Match the meaning in the correct choice", "content": "B identifies a single lake (Baikal) where the 2005-06 ice duration <strong>exceeds</strong> its 1980-81 duration, directly demonstrating a local increase in ice days over the study period.<br/><br/>A and C lack comparative timeframes. D involves lakes (Kegonsa and Oulujärvi) that do not show the required 1980-81 to 2005-06 increase.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "dc78fb50-de84-439b-980f-0629b266ff8a_11",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal: Contrast in ice trends",
+      "content": "The passage states that \"some lakes have instead seen an increase in the duration of ice\" despite the overall decline. The strongest signal is the <em>change over time</em> for specific lakes, requiring a comparison between two distinct winter seasons to show a net increase."
+    },
+    {
+      "title": "Match the meaning in the correct choice",
+      "content": "B identifies a single lake (Baikal) where the 2005-06 ice duration <strong>Lake Baikal, which had more days of ice in the winter of 2005-06 than it did in the winter of 1980-81.</strong> is correct."
+    }
+  ]
+}

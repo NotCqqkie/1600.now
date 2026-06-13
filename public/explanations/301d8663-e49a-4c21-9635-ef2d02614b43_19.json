@@ -13,7 +13,7 @@
     },
     {
       "title": "Eliminate wrong choices",
-      "content": "<ul><li>A: $\\frac{d}{3} + w = 21$ &mdash; This assigns 3 points per draw and 1 point per win, reversing the point values. Eliminated.</li><li>B: $d + \\frac{w}{3} = 21$ &mdash; This divides wins by 3 instead of multiplying, giving $\\frac{1}{3}$ point per win. Eliminated.</li><li>C: $d + w = 21$ &mdash; This treats every game as worth 1 point regardless of draw or win. Eliminated.</li><li>D: $d + 3w = 21$ &mdash; 1 point per draw plus 3 points per win equals 21. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
+      "content": "<ul><li>A: $\\frac{d}{3} + w = 21$ &mdash; This assigns 3 points per draw and 1 point per win, reversing the point values. Eliminated.</li><li>B: $d + \\frac{w}{3} = 21$ &mdash; This divides wins by 3 instead of multiplying, giving $\\frac{1}{3}$ point per win. Eliminated.</li><li>C: $d + w = 21$ &mdash; This treats every game as worth 1 point regardless of draw or win. Eliminated.</li><li>D: $d + 3w = 21$ &mdash; 1 point per draw plus 3 points per win equals 21. <strong>D</strong> is correct.</li></ul>"
     }
   ]
 }

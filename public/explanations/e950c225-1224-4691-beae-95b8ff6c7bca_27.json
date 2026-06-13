@@ -1,1 +1,15 @@
-{"questionId":"e950c225-1224-4691-beae-95b8ff6c7bca_27","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The student wants to explain why the third day of Prairial is named Trefle (clover). The answer must connect the naming of that specific day to the reason days were named at all: to honor an aspect of rural life."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A — \"The month of Prairial was divided into three weeks of ten days each…\"</strong>: describes the calendar's structure; says a day was named Trefle but gives no reason why. &#10007;</li><li><strong>Choice B — \"Developed during the French Revolution… the French Republican calendar has twelve months\"</strong>: historical background about the calendar; never explains why Trefle got its name. &#10007;</li><li><strong>Choice C — \"Each day of the French Republican calendar year honors an aspect of rural life, which is why the third of Prairial is named after a plant, the clover.\"</strong>: states the naming rule and explicitly applies it to Trefle with \"which is why.\" &#10003;</li><li><strong>Choice D — \"When the French Republican calendar was developed… the third of Prairial was named Trefle\"</strong>: states a historical fact but provides no explanation for the naming. &#10007;</li></ul>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "e950c225-1224-4691-beae-95b8ff6c7bca_27",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The student wants to explain why the third day of Prairial is named Trefle (clover). The answer must connect the naming of that specific day to the reason days were named at all: to honor an aspect of rural life."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"The month of Prairial was divided into three weeks of ten days each, and one of t se days was named Trefle.\"</strong>: describes the calendar's structure; says a day was named Trefle but gives no reason why. &#10007;</li><li><strong>\"Developed during the French Revolution, the French Republican calendar has twelve months, including Prairial.\"</strong>: historical background about the calendar; never explains why Trefle got its name. &#10007;</li><li><strong>\"Each day of the French Republican calendar year honors an aspect of rural life, which is why the third of Prairial is named after a plant, the clover.\"</strong>: states the naming rule and explicitly applies it to Trefle with \"which is why.\" &#10003;</li><li><strong>\"When the French Republican calendar was developed during the French Revolution, the third of Prairial was named Trefle.\"</strong>: states a historical fact but provides no explanation for the naming. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+    }
+  ]
+}

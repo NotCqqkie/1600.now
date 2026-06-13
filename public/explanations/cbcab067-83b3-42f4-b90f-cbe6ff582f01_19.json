@@ -1,1 +1,15 @@
-{"questionId": "cbcab067-83b3-42f4-b90f-cbe6ff582f01_19", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structures of each choice", "content": "Choices A and B present a noun + finite verb (asserted, were asserting).<br/><br/>Choice C presents a noun + comma + finite verb (had asserted).<br/><br/>Choice D presents a noun + comma + participle (asserting). Since the main verb <strong>helped</strong> appears later in the sentence, the blank must not introduce another finite verb that would create structural ambiguity."}, {"title": "Apply the comma rule for participial modifiers", "content": "A comma separates a noun from a participial phrase modifying it.<br/><br/>Choice D correctly uses <strong>authors, asserting that American publishers' appropriation of their work caused “deep and extensive injuries...,”</strong> where the participle modifies the noun and <strong>helped</strong> remains the sole main verb.<br/><br/>Choices A and B introduce a second finite verb, creating ambiguity.<br/><br/>Choice C misuses the comma before a finite verb, which doesn't follow the participial modifier rule.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "cbcab067-83b3-42f4-b90f-cbe6ff582f01_19",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures of each choice",
+      "content": "The incorrect choices present a noun plus a finite verb: “authors asserted,” “authors were asserting,” or “authors, had asserted.”<br/><br/>The correct choice presents a noun plus a comma and participle: “authors, asserting.” Since the main verb <strong>helped</strong> appears later in the sentence, the blank must not introduce another finite verb that would create structural ambiguity."
+    },
+    {
+      "title": "Apply the comma rule for participial modifiers",
+      "content": "A comma separates a noun from a participial phrase modifying it.<br/><br/>The phrase <strong>authors, asserting that American publishers' appropriation of their work caused “deep and extensive injuries...,”</strong> uses a participle to modify the noun while <strong>helped</strong> remains the sole main verb.<br/><br/>A comma before a finite verb does not follow the participial modifier rule, and the other finite-verb choices create structural ambiguity. <strong>D</strong> is correct."
+    }
+  ]
+}

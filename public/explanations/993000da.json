@@ -9,7 +9,7 @@
     },
     {
       "title": "Find p such that c equals p percent of b",
-      "content": "Since $c = \\frac{23}{6}b$ and we need $c = \\frac{p}{100}b$:<br/>$$\\frac{p}{100} = \\frac{23}{6}$$<br/>$$p = \\frac{23}{6} \\times 100 = \\frac{2300}{6} = 383.\\overline{3}$$<br/>The choice closest to $383.\\overline{3}$ is $383$. That matches choice D — <strong>D</strong> is correct."
+      "content": "Since $c = \\frac{23}{6}b$ and we need $c = \\frac{p}{100}b$:<br/>$$\\frac{p}{100} = \\frac{23}{6}$$<br/>$$p = \\frac{23}{6} \\times 100 = \\frac{2300}{6} = 383.\\overline{3}$$<br/>The choice closest to $383.\\overline{3}$ is $383$. That confirms <strong>D</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_19", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the structure", "content": "Before the blank: \"...two other Black Americans who served in <strong>Congress</strong>\" — a complete independent clause. After the blank: a list of two names. Independent clause + list = <strong>colon</strong>."}, {"title": "Eliminate each choice", "content": "Rule: a colon after a complete independent clause introduces a list or explanation.<br/><br/><strong>A — \"Congress.\"</strong> A period ends the sentence, leaving \"Ralph Harold Metcalfe of Illinois and George Henry White of North Carolina\" as a sentence fragment with no verb. Fails.<br/><br/><strong>B — \"Congress:\"</strong> A colon follows the complete clause \"...who served in Congress\" and correctly signals the list of names that follows. Correct.<br/><br/><strong>C — \"Congress;\"</strong> A semicolon joins two independent clauses, but the name list that follows is not an independent clause. Fails.<br/><br/><strong>D — \"Congress\"</strong> No punctuation runs the list of names directly into the clause with no signal, creating a confusing run-on. Fails.<br/><br/><strong>B</strong> is correct."}]}
+{
+  "questionId": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_19",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the structure",
+      "content": "Before the blank: \"...two other Black Americans who served in <strong>Congress</strong>\" — a complete independent clause. After the blank: a list of two names. Independent clause + list = <strong>colon</strong>."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "Rule: a colon after a complete independent clause introduces a list or explanation.<br/><br/><strong>A — Congress.</strong> A period ends the sentence, leaving \"Ralph Harold Metcalfe of Illinois and George Henry White of North Carolina\" as a sentence fragment with no verb. Fails.<br/><br/><strong>B — Congress:</strong> A colon follows the complete clause \"...who served in Congress\" and correctly signals the list of names that follows. Correct.<br/><br/><strong>C — Congress;</strong> A semicolon joins two independent clauses, but the name list that follows is not an independent clause. Fails.<br/><br/><strong>D — Congress</strong> No punctuation runs the list of names directly into the clause with no signal, creating a confusing run-on. Fails.<br/><br/><strong>B</strong> is correct."
+    }
+  ]
+}

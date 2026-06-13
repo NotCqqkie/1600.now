@@ -1,1 +1,15 @@
-{"questionId":"01d54ef3-3232-4ef0-afab-0cf0045af97e_16","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence announces &quot;three types of muscle&quot; and then lists smooth, cardiac, and skeletal. The blank must introduce that list with correct punctuation after a complete independent clause."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'awkward phrasing before the list'</strong>: the construction before the list is not a complete independent clause, so the punctuation is wrong. &#10007;</li><li><strong>Choice B &mdash; 'colon after &quot;muscle tissue&quot;'</strong>: a colon correctly follows the independent clause and introduces the three-item list. &#10003;</li><li><strong>Choice C &mdash; 'no punctuation'</strong>: omitting punctuation runs the list into the clause without a clear separator. &#10007;</li><li><strong>Choice D &mdash; 'period before the list'</strong>: splits the sentence so the list becomes a fragment disconnected from the clause that introduces it. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "01d54ef3-3232-4ef0-afab-0cf0045af97e_16",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence announces &quot;three types of muscle&quot; and then lists smooth, cardiac, and skeletal. The blank must introduce that list with correct punctuation after a complete independent clause."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; tissue and smooth,</strong>: the construction before the list is not a complete independent clause, so the punctuation is wrong. &#10007;</li><li><strong>Choice B &mdash; tissue: smooth,</strong>: a colon correctly follows the independent clause and introduces the three-item list. &#10003;</li><li><strong>Choice C &mdash; tissue smooth,</strong>: omitting punctuation runs the list into the clause without a clear separator. &#10007;</li><li><strong>Choice D &mdash; tissue. Smooth</strong>: splits the sentence so the list becomes a fragment disconnected from the clause that introduces it. &#10007;</li></ul>That matches <strong>Choice B &mdash; tissue: smooth,</strong>."
+    }
+  ]
+}

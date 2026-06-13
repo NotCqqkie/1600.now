@@ -1,1 +1,15 @@
-{"questionId":"9c1847da-e82b-4814-a0ec-0b4f99891322_11","correctAnswer":"D","section":"Math","steps":[{"title":"Set up","content":"All four choices share the base $2^x$ &mdash; they differ only by the added constant. Plug $x = 0$ into the table to find the constant: $2^0 = 1$, and the table gives $h(0) = 22$, so the constant must be $22 - 1 = 21$."},{"title":"Verify with the other rows","content":"That gives $h(x) = 2^x + 21$. Confirm: $h(1) = 2 + 21 = 23$ and $h(2) = 4 + 21 = 25$, both consistent with the table. That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "9c1847da-e82b-4814-a0ec-0b4f99891322_11",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "All four choices share the base $2^x$ &mdash; they differ only by the added constant. Plug $x = 0$ into the table to find the constant: $2^0 = 1$, and the table gives $h(0) = 22$, so the constant must be $22 - 1 = 21$."
+    },
+    {
+      "title": "Verify with the other rows",
+      "content": "That gives $h(x) = 2^x + 21$. Confirm: $h(1) = 2 + 21 = 23$ and $h(2) = 4 + 21 = 25$, both consistent with the table. That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

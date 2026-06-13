@@ -1,1 +1,15 @@
-{"questionId":"9ae9a989-b64a-43e1-92a8-37a91043b8ed_11","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"Toomer uses figurative language to <strong>connect Washington, DC, with the rural South</strong>. The correct quotation must (1) use figurative language and (2) bridge both places — not describe just one."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; the southern wind / soil of my homeland passage</strong>: A southern wind carries <em>soil of my homeland</em> (the rural South) and it <em>falls like a fertile shower</em> upon DC streets. The simile links both places through a single image. &#10003;</li><li><strong>Choice B</strong>: Describes DC alone — no figurative link to the rural South. &#10007;</li><li><strong>Choice C</strong>: Describes DC alone — no figurative link to the rural South. &#10007;</li><li><strong>Choice D</strong>: Describes train sounds in a valley — evokes the South but does not connect it to DC. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "9ae9a989-b64a-43e1-92a8-37a91043b8ed_11",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "Toomer uses figurative language to <strong>connect Washington, DC, with the rural South</strong>. The correct quotation must (1) use figurative language and (2) bridge both places — not describe just one."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; \"And when the wind is from the South, soil of my homeland falls like a fertile shower upon the lean streets of [Washington, DC].”</strong>: A southern wind carries <em>soil of my homeland</em> (the rural South) and it <em>falls like a fertile shower</em> upon DC streets. The simile links both places through a single image. &#10003;</li><li><strong>Choice B &mdash; \"The young trees had not outgrown their [planter] boxes then. V Street [in Washington, DC] was lined with them.\"</strong>: Describes DC alone — no figurative link to the rural South. &#10007;</li><li><strong>Choice C &mdash; “The Capitol dome looked like a gray ghost ship drifting in from sea.”</strong>: Describes DC alone — no figurative link to the rural South. &#10007;</li><li><strong>Choice D &mdash; “The [train] engines of this valley have a whistle, the echoes of which sound like iterated gasps and sobs. I always think of them as crude music.”</strong>: Describes train sounds in a valley — evokes the South but does not connect it to DC. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

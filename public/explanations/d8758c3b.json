@@ -1,1 +1,15 @@
-{"questionId": "d8758c3b", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the experimental finding", "content": "The passage's key observation is that 73% of children chose the teacher who counted aloud as fairer, showing that the <strong>method</strong> of distributing rewards—counting aloud versus silently—influenced children's fairness perception."}, {"title": "Apply the signal to the choices", "content": "Choice D directly states this: the way rewards are distributed may affect whether young children think a situation is fair.<br/><br/>The other options either deny children's fairness understanding, focus on math instruction, or mischaracterize what children expect.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "d8758c3b",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the experimental finding",
+      "content": "The passage's key observation is that 73% of children chose the teacher who counted aloud as fairer, showing that the <strong>method</strong> of distributing rewards—counting aloud versus silently—influenced children's fairness perception."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "<strong>An experiment showed that the way rewards are given out may affect whether young children think the situation is fair.</strong> directly states this: the way rewards are distributed may affect whether young children think a situation is fair.<br/><br/>The other options either deny children's fairness understanding, focus on math instruction, or mischaracterize what children expect.<br/><br/>That matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

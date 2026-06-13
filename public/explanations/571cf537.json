@@ -1,1 +1,15 @@
-{"questionId": "571cf537", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the key signal in the passage", "content": "The blank must describe the author&apos;s claim. The passage gives two direct clues: the claim <em>&quot;fails to account for several recent archaeological discoveries&quot;</em> and <em>&quot;would need to address recent finds to be convincing.&quot;</em> Both phrases point to an argument that lacks sufficient support &mdash; it is not well-grounded."}, {"title": "Eliminate each choice, then confirm the answer", "content": "<ul><li><strong>Choice A &mdash; &apos;disorienting&apos;</strong>: The passage critiques the claim for missing evidence, not for being confusing or hard to follow. &#10007;</li><li><strong>Choice B &mdash; &apos;tenuous&apos;</strong>: <em>Tenuous</em> means weak or insufficiently supported &mdash; exactly the quality of a claim that fails to account for important findings and needs more evidence to be convincing. &#10003;</li><li><strong>Choice C &mdash; &apos;nuanced&apos;</strong>: <em>Nuanced</em> is positive, suggesting careful attention to complexity. The passage presents this as a flaw, not a strength. &#10007;</li><li><strong>Choice D &mdash; &apos;unoriginal&apos;</strong>: The passage says nothing about the claim being derivative or repeated from prior work. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "571cf537",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal in the passage",
+      "content": "The blank must describe the author&apos;s claim. The passage gives two direct clues: the claim <em>&quot;fails to account for several recent archaeological discoveries&quot;</em> and <em>&quot;would need to address recent finds to be convincing.&quot;</em> Both phrases point to an argument that lacks sufficient support &mdash; it is not well-grounded."
+    },
+    {
+      "title": "Eliminate each choice, then confirm the answer",
+      "content": "<ul><li><strong>Choice A — disorienting</strong>: The passage critiques the claim for missing evidence, not for being confusing or hard to follow. &#10007;</li><li><strong>Choice B — tenuous</strong>: <em>Tenuous</em> means weak or insufficiently supported &mdash; exactly the quality of a claim that fails to account for important findings and needs more evidence to be convincing. &#10003;</li><li><strong>Choice C — nuanced</strong>: <em>Nuanced</em> is positive, suggesting careful attention to complexity. The passage presents this as a flaw, not a strength. &#10007;</li><li><strong>Choice D — unoriginal</strong>: The passage says nothing about the claim being derivative or repeated from prior work. &#10007;</li></ul><strong>B</strong> is correct."
+    }
+  ]
+}

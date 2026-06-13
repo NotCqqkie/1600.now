@@ -13,11 +13,11 @@
     },
     {
       "title": "Match the answer",
-      "content": "That matches choice <strong>B</strong> — <strong>B</strong> is correct."
+      "content": "That confirms <strong>B</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice B, 0. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above confirms <strong>B</strong>, 0. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
     }
   ]
 }

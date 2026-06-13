@@ -1,1 +1,15 @@
-{"questionId":"61095ce3-05bf-46a1-a191-e8b52ec70c8e_16","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence joins two independent clauses with the transition word &quot;though.&quot; The question asks which punctuation correctly sets off &quot;though&quot; between those two clauses."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; comma before &quot;though,&quot; semicolon after</strong>: a comma separates &quot;though&quot; from the first clause; a semicolon after &quot;though&quot; marks the start of the second independent clause. This comma&ndash;though&ndash;semicolon pattern correctly bridges two independent clauses. &#10003;</li><li><strong>Choice B &mdash; no punctuation before &quot;though&quot;</strong>: without a comma, the first clause runs directly into the transition with no boundary, creating a run-on. &#10007;</li><li><strong>Choice C &mdash; semicolons on both sides</strong>: a semicolon before &quot;though&quot; treats it as a conjunctive adverb, but &quot;though&quot; is not typically used that way; this creates awkward punctuation. &#10007;</li><li><strong>Choice D &mdash; comma on both sides</strong>: placing commas on both sides makes &quot;though&quot; a parenthetical rather than a transitional connector, which misrepresents its function here. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "61095ce3-05bf-46a1-a191-e8b52ec70c8e_16",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence joins two independent clauses with the transition word &quot;though.&quot; The question asks which punctuation correctly sets off &quot;though&quot; between those two clauses."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;shade, though;&rsquo;</strong>: a comma separates &quot;though&quot; from the first clause; a semicolon after &quot;though&quot; marks the start of the second independent clause. This comma&ndash;though&ndash;semicolon pattern correctly bridges two independent clauses. &#10003;</li><li><strong>Choice B &mdash; &lsquo;shade, though,&rsquo;</strong>: without a comma, the first clause runs directly into the transition with no boundary, creating a run-on. &#10007;</li><li><strong>Choice C &mdash; &lsquo;shade, though&rsquo;</strong>: a semicolon before &quot;though&quot; treats it as a conjunctive adverb, but &quot;though&quot; is not typically used that way; this creates awkward punctuation. &#10007;</li><li><strong>Choice D &mdash; &lsquo;shade; though&rsquo;</strong>: placing commas on both sides makes &quot;though&quot; a parenthetical rather than a transitional connector, which misrepresents its function here. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

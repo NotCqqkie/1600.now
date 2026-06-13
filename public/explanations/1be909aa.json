@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; '$\\frac{h^{10}}{q^{14}}$'</strong>: $h^{15-5} = h^{10}$ in the numerator; $q^{7-21} = q^{-14} = \\frac{1}{q^{14}}$ in the denominator. Correct. &#10003;</li><li><strong>Choice B &mdash; '$\\frac{h^{3}}{q^{3}}$'</strong>: $h^{15} / h^5 = h^{10}$, not $h^3$; and $q^7 / q^{21} = q^{-14}$, not $q^{-3}$. Both exponents are wrong. &#10007;</li><li><strong>Choice C &mdash; '$h^{10}q^{14}$'</strong>: Gets the $h$ exponent right but misplaces $q$ in the numerator instead of the denominator. &#10007;</li><li><strong>Choice D &mdash; '$h^{3}q^{3}$'</strong>: Both exponents are wrong and $q$ is in the wrong position. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; $\\frac{{h}^{10}}{{q}^{14}}$</strong>: $h^{15-5} = h^{10}$ in the numerator; $q^{7-21} = q^{-14} = \\frac{1}{q^{14}}$ in the denominator. Correct. &#10003;</li><li><strong>Choice B &mdash; $\\frac{{h}^{3}}{{q}^{3}}$</strong>: $h^{15} / h^5 = h^{10}$, not $h^3$; and $q^7 / q^{21} = q^{-14}$, not $q^{-3}$. Both exponents are wrong. &#10007;</li><li><strong>Choice C &mdash; ${h}^{10}{q}^{14}$</strong>: Gets the $h$ exponent right but misplaces $q$ in the numerator instead of the denominator. &#10007;</li><li><strong>Choice D &mdash; ${h}^{3}{q}^{3}$</strong>: Both exponents are wrong and $q$ is in the wrong position. &#10007;</li></ul>That matches <strong>Choice A &mdash; $\\frac{{h}^{10}}{{q}^{14}}$</strong>."
     }
   ]
 }

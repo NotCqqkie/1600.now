@@ -1,1 +1,15 @@
-{"questionId":"2c075bfa-775c-45f6-b974-0ac7c4fdc195_26","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The student must accomplish two things: (1) explain whom the A.M. Turing Award is named for, and (2) identify one recipient of it."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;The A.M. Turing Award is given for &quot;major contributions of lasting importance to computing.&quot;&apos;</strong>: explains the award&apos;s purpose but names neither the namesake nor a recipient. &#10007;</li><li><strong>Choice B &mdash; &apos;The A.M. Turing Award, which is named for British mathematician Alan Turing, was given to Judea Pearl in 2011.&apos;</strong>: names Alan Turing as the namesake and Judea Pearl as a recipient &mdash; both requirements met. &#10003;</li><li><strong>Choice C &mdash; &apos;In 2011, Judea Pearl won the A.M. Turing Award, which is given for &quot;major contributions of lasting importance to computing.&quot;&apos;</strong>: identifies a recipient but omits the namesake. &#10007;</li><li><strong>Choice D &mdash; &apos;It was in 2011 that Judea Pearl won the A.M. Turing Award.&apos;</strong>: names only a recipient; no namesake information. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_26",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The student must accomplish two things: (1) explain whom the A.M. Turing Award is named for, and (2) identify one recipient of it."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — The A.M. Turing Award is given for \"major contributions of lasting importance to computing.\"</strong>: explains the award&apos;s purpose but names neither the namesake nor a recipient. &#10007;</li><li><strong>Choice B — The A.M. Turing Award, which is named for British mathematician Alan Turing, was given to Judea Pearl in 2011.</strong>: names Alan Turing as the namesake and Judea Pearl as a recipient &mdash; both requirements met. &#10003;</li><li><strong>Choice C — In 2011, Judea Pearl won the A.M. Turing Award, which is given for \"major contributions of lasting importance to computing.\"</strong>: identifies a recipient but omits the namesake. &#10007;</li><li><strong>Choice D — It was in 2011 that Judea Pearl won the A.M. Turing Award.</strong>: names only a recipient; no namesake information. &#10007;</li></ul><strong>B</strong> is correct."
+    }
+  ]
+}

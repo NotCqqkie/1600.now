@@ -10,7 +10,7 @@
     },
     {
       "title": "Evaluate at the start of the experiment",
-      "content": "Since $x$ represents days after the start, $x = 0$ is the start of the experiment. Evaluating there:<br/>$$f(0) = 39 - 0.18(0) = 39$$<br/>The water height at the start is 39 cm. That matches choice A — <strong>A</strong> is correct."
+      "content": "Since $x$ represents days after the start, $x = 0$ is the start of the experiment. Evaluating there:<br/>$$f(0) = 39 - 0.18(0) = 39$$<br/>The water height at the start is 39 cm. That confirms <strong>A</strong> is correct."
     }
   ]
 }

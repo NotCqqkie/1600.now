@@ -1,1 +1,15 @@
-{"questionId":"9ce7f863-9f97-46a6-9458-7fb4726c3cb0_3","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The word &quot;although&quot; signals a contrast: the government tried to do something, but copies still circulated in secret. The blank must mean an action aimed at stopping or blocking the book's spread."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A</strong>: doesn't fit the logic of a government acting against a publication. &#10007;</li><li><strong>Choice B</strong>: implies promotion or encouragement &mdash; the opposite of what the contrast requires. &#10007;</li><li><strong>Choice C &mdash; 'Suppress'</strong>: to prevent publication or distribution. The government attempted to suppress the novel, but copies still circulated &mdash; the contrast holds perfectly. &#10003;</li><li><strong>Choice D</strong>: doesn't align with the idea of controlling or restricting a publication. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "9ce7f863-9f97-46a6-9458-7fb4726c3cb0_3",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The word &quot;although&quot; signals a contrast: the government tried to do something, but copies still circulated in secret. The blank must mean an action aimed at stopping or blocking the book's spread."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; replicate</strong>: doesn't fit the logic of a government acting against a publication. &#10007;</li><li><strong>Choice B &mdash; import</strong>: implies promotion or encouragement &mdash; the opposite of what the contrast requires. &#10007;</li><li><strong>Choice C &mdash; suppress</strong>: to prevent publication or distribution. The government attempted to suppress the novel, but copies still circulated &mdash; the contrast holds perfectly. &#10003;</li><li><strong>Choice D &mdash; critique</strong>: doesn't align with the idea of controlling or restricting a publication. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -9,7 +9,7 @@
     },
     {
       "title": "Evaluate f(3) to get minimum",
-      "content": "$f(3)=(2(3)-20)(2(3)+8)=(-14)(14)=-196$. That matches choice &minus;196 &mdash; <strong>&minus;196</strong> is correct."
+      "content": "$f(3)=(2(3)-20)(2(3)+8)=(-14)(14)=-196$. The computed minimum is <strong>&minus;196</strong>, matching the source choice value."
     },
     {
       "title": "Confirm the answer",

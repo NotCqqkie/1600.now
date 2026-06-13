@@ -1,1 +1,19 @@
-{"questionId": "a1139ff8", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Read what the colon is introducing", "content": "The blank describes how the tree-planting approach turned out, and the colon introduces the evidence: the bullfinch population rose from about 100 birds to roughly 1,300. That is a thirteenfold increase &mdash; clear proof the approach achieved its stated goal of boosting numbers."}, {"title": "Pick the word that matches the evidence", "content": "An approach that meets its goal so dramatically is, by definition, successful. &quot;Successful&quot; is the precise label for an effort that produced the desired result."}, {"title": "Rule out the alternatives", "content": "<ul><li><strong>Choice A &mdash; 'amusing'</strong>: conservation results aren't a matter of humor; the evidence is about effectiveness, not entertainment. &#10007;</li><li><strong>Choice B &mdash; 'costly'</strong>: the passage gives no dollar figures or resource expenditures &mdash; cost isn't what the colon's evidence supports. &#10007;</li><li><strong>Choice C &mdash; 'successful'</strong>: directly matches a 100-to-1,300 population jump. &#10003;</li><li><strong>Choice D &mdash; 'disastrous'</strong>: flatly contradicts a thirteenfold population increase. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "a1139ff8",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read what the colon is introducing",
+      "content": "The blank describes how the tree-planting approach turned out, and the colon introduces the evidence: the bullfinch population rose from about 100 birds to roughly 1,300. That is a thirteenfold increase &mdash; clear proof the approach achieved its stated goal of boosting numbers."
+    },
+    {
+      "title": "Pick the word that matches the evidence",
+      "content": "An approach that meets its goal so dramatically is, by definition, successful. &quot;Successful&quot; is the precise label for an effort that produced the desired result."
+    },
+    {
+      "title": "Rule out the alternatives",
+      "content": "<ul><li><strong>Choice A &mdash; amusing</strong>: conservation results aren't a matter of humor; the evidence is about effectiveness, not entertainment. &#10007;</li><li><strong>Choice B &mdash; costly</strong>: the passage gives no dollar figures or resource expenditures &mdash; cost isn't what the colon's evidence supports. &#10007;</li><li><strong>Choice C &mdash; successful</strong>: directly matches a 100-to-1,300 population jump. &#10003;</li><li><strong>Choice D &mdash; disastrous</strong>: flatly contradicts a thirteenfold population increase. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

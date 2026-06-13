@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate the answer choices",
-      "content": "<ul><li>A. $x^4(7x-6) = 7x^5 - 6x^4$ &mdash; missing the $9x^3$ term; eliminated.</li><li>B. $x^3(7x^2-6x+9) = 7x^5 - 6x^4 + 9x^3$ &mdash; matches.</li><li>C. $9x^3(7x^2-6x+1) = 63x^5 - 54x^4 + 9x^3$ &mdash; wrong coefficients; eliminated.</li><li>D. $6x^5(-6x^4+9x^3+1)$ produces $x^9$ terms; eliminated.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "<ul><li>A. $x^4(7x-6) = 7x^5 - 6x^4$ &mdash; missing the $9x^3$ term; eliminated.</li><li>B. $x^3(7x^2-6x+9) = 7x^5 - 6x^4 + 9x^3$ &mdash; matches.</li><li>C. $9x^3(7x^2-6x+1) = 63x^5 - 54x^4 + 9x^3$ &mdash; wrong coefficients; eliminated.</li><li>D. $6x^5(-6x^4+9x^3+1)$ produces $x^9$ terms; eliminated.</li></ul>That confirms <strong>B</strong> is correct."
     }
   ]
 }

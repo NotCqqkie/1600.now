@@ -9,7 +9,7 @@
     },
     {
       "title": "Calculate the product",
-      "content": "Expand $(1 + 0.14)(1 + 0.04)$: $$1.14 \\times 1.04 = 1 + 0.14 + 0.04 + (0.14)(0.04) = 1 + 0.18 + 0.0056 = 1.1856$$ That matches choice D — <strong>D</strong> is correct."
+      "content": "Expand $(1 + 0.14)(1 + 0.04)$: $$1.14 \\times 1.04 = 1 + 0.14 + 0.04 + (0.14)(0.04) = 1 + 0.18 + 0.0056 = 1.1856$$ That matches the correct answer — <strong>D</strong> is correct."
     }
   ]
 }

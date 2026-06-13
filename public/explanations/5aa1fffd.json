@@ -1,1 +1,15 @@
-{"questionId":"5aa1fffd","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"This is a Boundaries (Standard English Conventions) question. The sentence begins with the interrogative word &quot;Where,&quot; so the blank must complete a direct question. A direct question in Standard English requires subject-auxiliary inversion (auxiliary before subject) and a question mark at the end."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'did the word &quot;chortle&quot; come from.'</strong>: The word order is correct (auxiliary &quot;did&quot; before subject &quot;the word&quot;), but a period cannot end an interrogative sentence. &#10007;</li><li><strong>Choice B &mdash; 'the word &quot;chortle&quot; did come from?'</strong>: Ends with a question mark, but the subject &quot;the word&quot; comes before the auxiliary &quot;did,&quot; which violates the inversion rule for direct questions. &#10007;</li><li><strong>Choice C &mdash; 'did the word &quot;chortle&quot; come from?'</strong>: Auxiliary &quot;did&quot; precedes the subject &quot;the word&quot; (correct inversion), and the sentence ends with a question mark. This forms a grammatically correct direct question. &#10003;</li><li><strong>Choice D &mdash; 'the word &quot;chortle&quot; come from.'</strong>: No auxiliary verb at all, no inversion, and ends with a period &mdash; fails on every count. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "5aa1fffd",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a Boundaries (Standard English Conventions) question. The sentence begins with the interrogative word &quot;Where,&quot; so the blank must complete a direct question. A direct question in Standard English requires subject-auxiliary inversion (auxiliary before subject) and a question mark at the end."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;did the word \"chortle\" come from.&rsquo;</strong>: The word order is correct (auxiliary &quot;did&quot; before subject &quot;the word&quot;), but a period cannot end an interrogative sentence. &#10007;</li><li><strong>Choice B &mdash; &lsquo;the word \"chortle\" did come from?&rsquo;</strong>: Ends with a question mark, but the subject &quot;the word&quot; comes before the auxiliary &quot;did,&quot; which violates the inversion rule for direct questions. &#10007;</li><li><strong>Choice C &mdash; &lsquo;did the word \"chortle\" come from?&rsquo;</strong>: Auxiliary &quot;did&quot; precedes the subject &quot;the word&quot; (correct inversion), and the sentence ends with a question mark. This forms a grammatically correct direct question. &#10003;</li><li><strong>Choice D &mdash; &lsquo;the word \"chortle\" come from.&rsquo;</strong>: No auxiliary verb at all, no inversion, and ends with a period &mdash; fails on every count. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

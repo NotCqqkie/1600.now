@@ -13,7 +13,7 @@
     },
     {
       "title": "Reject the low-slope choices",
-      "content": "Graph the choices that should fail near the readable point $(10,735)$. Choices A and B are almost flat, and choice C is still too low near $x=10$. None of those reaches the height shown by the best-fit line.",
+      "content": "Graph the choices that should fail near the readable point $(10,735)$. The equations with slopes $0.02$ and $0.59$ are almost flat, and the equation with slope $48.61$ is still too low near $x=10$. None of those reaches the height shown by the best-fit line.",
       "desmosExpressions": [
         "y=148.13+0.02x",
         "y=148.13+0.59x",
@@ -23,7 +23,7 @@
     },
     {
       "title": "Confirm the matching slope",
-      "content": "Choice D reaches about $734$ at $x=10$: $148.13+58.61(10)=734.23$. That matches the drawn line and the estimated slope from the trend-line check.",
+      "content": "The correct answer reaches about $734$ at $x=10$: $148.13+58.61(10)=734.23$. That matches the drawn line and the estimated slope from the trend-line check.",
       "desmosExpressions": [
         "y=148.13+58.61x",
         "(10,735)",
@@ -32,7 +32,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "The slope closest to $58.7$ is $58.61$, so the best representation is $y=148.13+58.61x$. That is choice <strong>D</strong>."
+      "content": "The slope closest to $58.7$ is $58.61$, so the best representation is $y=148.13+58.61x$. The matching source choice is $y = 148.13 + 58.61x$."
     }
   ]
 }

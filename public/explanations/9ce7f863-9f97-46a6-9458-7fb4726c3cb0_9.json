@@ -1,1 +1,15 @@
-{"questionId":"9ce7f863-9f97-46a6-9458-7fb4726c3cb0_9","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage describes Wladyslaw I Herman as &apos;well-documented&apos; and Lestek with the phrase &apos;whose historical actuality is disputed.&apos; The correct choice must reflect exactly this contrast between the two figures."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; the <em>Gesta</em> provides more evidence for Lestek</strong>: the passage says the opposite &mdash; Lestek relies on oral tradition, not documented records. &#10007;</li><li><strong>Choice B &mdash; historians agree Wladyslaw existed but disagree about Lestek&apos;s existence</strong>: directly matches &apos;well-documented&apos; vs. &apos;historical actuality is disputed.&apos; &#10003;</li><li><strong>Choice C &mdash; Lestek ruled later than Wladyslaw</strong>: reverses the timeline &mdash; Lestek ruled in the 9th&ndash;10th centuries; Wladyslaw ruled 1079&ndash;1102. &#10007;</li><li><strong>Choice D &mdash; both figures are supported by similar stories</strong>: the passage distinguishes Lestek&apos;s oral tradition from Wladyslaw&apos;s documented records. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "9ce7f863-9f97-46a6-9458-7fb4726c3cb0_9",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage describes Wladyslaw I Herman as &apos;well-documented&apos; and Lestek with the phrase &apos;whose historical actuality is disputed.&apos; The correct choice must reflect exactly this contrast between the two figures."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Historians believe that the *Gesta principum Polonorum* provides more evidence for Lestek's existence than it does for Wladyslaw I Herman's existence.</strong>: the passage says the opposite &mdash; Lestek relies on oral tradition, not documented records. &#10007;</li><li><strong>Choice B &mdash; Historians agree that Wladyslaw I Herman existed, but disagree about whether Lestek existed.</strong>: directly matches &apos;well-documented&apos; vs. &apos;historical actuality is disputed.&apos; &#10003;</li><li><strong>Choice C &mdash; Historians agree that Lestek ruled Poland much later than Wladyslaw I Herman.</strong>: reverses the timeline &mdash; Lestek ruled in the 9th&ndash;10th centuries; Wladyslaw ruled 1079&ndash;1102. &#10007;</li><li><strong>Choice D &mdash; Historians find the orally transmitted stories affirming the existence of Wladyslaw I Herman to be more convincing than similar stories about Lestek.</strong>: the passage distinguishes Lestek&apos;s oral tradition from Wladyslaw&apos;s documented records. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

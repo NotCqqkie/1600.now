@@ -1,1 +1,15 @@
-{"questionId":"c54d28b8-d1aa-4370-ad6c-356768c9033c_22","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage contrasts how the volcanoes look similar from afar with the fact that volcanologists can tell them apart. The blank must express a concessive relationship &mdash; &apos;despite the appearance, the reality is different.&apos;"},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'in addition'</strong>: Adds information rather than acknowledging a contrast. &#10007;</li><li><strong>Choice B &mdash; 'therefore'</strong>: Implies the second fact follows causally from the first, but the sentences are in tension, not cause-and-effect. &#10007;</li><li><strong>Choice C &mdash; 'for example'</strong>: Introduces an illustration of a prior claim; that&apos;s not what the second sentence does. &#10007;</li><li><strong>Choice D &mdash; 'though'</strong>: Means &apos;even though&apos; or &apos;despite&apos; &mdash; it acknowledges the surface similarity while introducing the deeper truth that volcanologists can distinguish the types. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "c54d28b8-d1aa-4370-ad6c-356768c9033c_22",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage contrasts how the volcanoes look similar from afar with the fact that volcanologists can tell them apart. The blank must express a concessive relationship &mdash; &apos;despite the appearance, the reality is different.&apos;"
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; in addition,</strong>: Adds information rather than acknowledging a contrast. &#10007;</li><li><strong>Choice B &mdash; therefore,</strong>: Implies the second fact follows causally from the first, but the sentences are in tension, not cause-and-effect. &#10007;</li><li><strong>Choice C &mdash; for example,</strong>: Introduces an illustration of a prior claim; that&apos;s not what the second sentence does. &#10007;</li><li><strong>Choice D &mdash; though.</strong>: Means &apos;even though&apos; or &apos;despite&apos; &mdash; it acknowledges the surface similarity while introducing the deeper truth that volcanologists can distinguish the types. &#10003;</li></ul>That is the correct answer."
+    }
+  ]
+}

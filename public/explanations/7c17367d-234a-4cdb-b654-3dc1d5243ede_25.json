@@ -1,1 +1,15 @@
-{"questionId": "7c17367d-234a-4cdb-b654-3dc1d5243ede_25", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The student wants to explain what <em>Psydrax odorata</em> is. The notes identify it as a flowering shrub and as one of the native species on Oahu, Hawaii. The correct choice must define the plant itself, not describe what was done with it."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; describes seed use</strong>: focuses on what researchers did with the seeds, not on what the plant is. &#10007;</li><li><strong>Choice B &mdash; 'a flowering shrub species native to Oahu, Hawaii'</strong>: directly defines the plant using both key details from the notes. &#10003;</li><li><strong>Choice C &mdash; about non-native plants generally</strong>: discusses non-native species, not <em>Psydrax odorata</em> specifically. &#10007;</li><li><strong>Choice D &mdash; describes seed use</strong>: again focuses on what was done with the seeds rather than defining the plant. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "7c17367d-234a-4cdb-b654-3dc1d5243ede_25",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The student wants to explain what <em>Psydrax odorata</em> is. The notes identify it as a flowering shrub and as one of the native species on Oahu, Hawaii. The correct choice must define the plant itself, not describe what was done with it."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;In a 2019 study, researchers catalogued seeds from *Psydrax odorata*.&rsquo;</strong>: focuses on what researchers did with the seeds, not on what the plant is. &#10007;</li><li><strong>Choice B &mdash; &lsquo;*Psydrax odorata* is a flowering shrub species that is native to Oahu, Hawaii.&rsquo;</strong>: directly defines the plant using both key details from the notes. &#10003;</li><li><strong>Choice C &mdash; &lsquo;Most plant species found in Oahu, Hawaii, like *Hedychium gardnerianum*, are non-native.&rsquo;</strong>: discusses non-native species, not <em>Psydrax odorata</em> specifically. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Seeds from *Psydrax odorata* were found by researchers in the feces of non-native birds.&rsquo;</strong>: again focuses on what was done with the seeds rather than defining the plant. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

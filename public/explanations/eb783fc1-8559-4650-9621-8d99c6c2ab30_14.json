@@ -1,1 +1,15 @@
-{"questionId": "eb783fc1-8559-4650-9621-8d99c6c2ab30_14", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "Study 1 establishes that genetic similarity between breeds explains behavioral similarity in trainability. Study 2 finds bulldogs and French bulldogs show similar trainability. The question asks what logically follows from combining both findings."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; comparison to breeds not in Study 2</strong>: Introduces breeds not discussed — unsupported by the evidence. &#10007;</li><li><strong>Choice B &mdash; contradicts the similarity finding</strong>: Study 2 shows similar trainability, not dissimilar. &#10007;</li><li><strong>Choice C &mdash; shared genetic factors explain similar trainability</strong>: Directly applies Study 1&apos;s framework to Study 2&apos;s finding — similar trainability suggests shared genetics. &#10003;</li><li><strong>Choice D &mdash; speculates about future change</strong>: Neither study addresses future change. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "eb783fc1-8559-4650-9621-8d99c6c2ab30_14",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "Study 1 establishes that genetic similarity between breeds explains behavioral similarity in trainability. Study 2 finds bulldogs and French bulldogs show similar trainability. The question asks what logically follows from combining both findings."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"bulldogs and French bulldogs show a greater tendency toward trainability than most other dog breeds do.\"</strong>: Introduces breeds not discussed — unsupported by the evidence. &#10007;</li><li><strong>\"individual bulldogs likely display higher levels of trainability than individual French bulldogs.\"</strong>: Study 2 shows similar trainability, not dissimilar. &#10007;</li><li><strong>\"their similarities with respect to that behavior could result from a shared aspect of their genetics.\"</strong>: Directly applies Study 1's framework to Study 2's finding — similar trainability suggests shared genetics. &#10003;</li><li><strong>\"the two breeds will likely become less genetically similar over time.\"</strong>: Neither study addresses future change. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+    }
+  ]
+}

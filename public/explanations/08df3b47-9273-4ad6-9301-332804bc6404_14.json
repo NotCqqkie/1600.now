@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate all choices",
-      "content": "<ul><li><strong>Choice A &mdash; '$(x-5)^2+(y+1)^2=5$'</strong>: Center would be $(5,-1)$, not $(-5,1)$, and $r^2=5\\neq 25$. &#10007;</li><li><strong>Choice B &mdash; '$(x+5)^2+(y-1)^2=5$'</strong>: Center $(-5,1)$ is correct, but $r^2=5\\neq 25$. &#10007;</li><li><strong>Choice C &mdash; '$(x-5)^2+(y+1)^2=25$'</strong>: $r^2=25$ is correct, but center would be $(5,-1)$, not $(-5,1)$. &#10007;</li><li><strong>Choice D &mdash; '$(x+5)^2+(y-1)^2=25$'</strong>: Center $(-5,1)$ and $r^2=25$ both correct. That matches choice D &mdash; <strong>D</strong> is correct. &#10003;</li></ul>"
+      "content": "<ul><li><strong>Choice A &mdash; $(x - 5)^2 + (y + 1)^2 = 5$</strong>: Center would be $(5,-1)$, not $(-5,1)$, and $r^2=5\\neq 25$. &#10007;</li><li><strong>Choice B &mdash; $(x + 5)^2 + (y - 1)^2 = 5$</strong>: Center $(-5,1)$ is correct, but $r^2=5\\neq 25$. &#10007;</li><li><strong>Choice C &mdash; $(x - 5)^2 + (y + 1)^2 = 25$</strong>: $r^2=25$ is correct, but center would be $(5,-1)$, not $(-5,1)$. &#10007;</li><li><strong>Choice D &mdash; $(x + 5)^2 + (y - 1)^2 = 25$</strong>: Center $(-5,1)$ and $r^2=25$ both correct. That matches <strong>Choice D &mdash; $(x + 5)^2 + (y - 1)^2 = 25$</strong>. &#10003;</li></ul>"
     }
   ]
 }

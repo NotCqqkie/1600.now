@@ -9,7 +9,7 @@
     },
     {
       "title": "Read the coordinates of the marked point",
-      "content": "The marked point is (1.0, 4.8). This means x = 1.0 and y = 4.8. Therefore, at time = 1.0 second, the height = 4.8 meters. Translating to plain language: 1.0 second after the ball was launched, its height above ground is 4.8 meters. That matches choice A — <strong>A</strong> is correct."
+      "content": "The marked point is (1.0, 4.8). This means x = 1.0 and y = 4.8. Therefore, at time = 1.0 second, the height = 4.8 meters. Translating to plain language: 1.0 second after the ball was launched, its height above ground is 4.8 meters. <strong>A</strong> is correct."
     }
   ]
 }

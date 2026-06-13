@@ -1,1 +1,15 @@
-{"questionId": "839d1132-416e-4cc6-be17-13454f14da43_5", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the structural signal", "content": "The underlined portion sits after a dash following <strong>&ldquo;This approach has some limits&rdquo;</strong> &mdash; an explicit signal that the next phrase will name one of those limits. The function of the underlined text must therefore be to describe a specific limitation."}, {"title": "Evaluate each choice", "content": "<ul><li><strong>Choice A &mdash; &lsquo;It describes the imprecise and subjective nature of neighborhood boundaries.&rsquo;</strong>: Violates content &mdash; the underlined text says nothing about neighborhood boundaries or their subjectivity. &#10007;</li><li><strong>Choice B &mdash; &lsquo;It emphasizes the potential utility of the team&apos;s model.&rsquo;</strong>: Violates the signal &mdash; the dash-clause introduces a limitation, not a strength or use case. &#10007;</li><li><strong>Choice C &mdash; &lsquo;It introduces a model that a research team built to evaluate the mix of amenities in urban neighborhoods.&rsquo;</strong>: Violates scope &mdash; the model was introduced in the first two sentences; the underlined portion does not re-introduce it. &#10007;</li><li><strong>Choice D &mdash; &lsquo;It identifies a specific flaw in using a data set about amenities in cities.&rsquo;</strong>: Matches function &mdash; &ldquo;Places API data tend to be restricted to customer-facing places&rdquo; names exactly one concrete flaw in the data set used by the model. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "839d1132-416e-4cc6-be17-13454f14da43_5",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the structural signal",
+      "content": "The underlined portion sits after a dash following <strong>&ldquo;This approach has some limits&rdquo;</strong> &mdash; an explicit signal that the next phrase will name one of those limits. The function of the underlined text must therefore be to describe a specific limitation."
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; It describes the imprecise and subjective nature of neighborhood boundaries.</strong>: Violates content &mdash; the underlined text says nothing about neighborhood boundaries or their subjectivity. &#10007;</li><li><strong>Choice B &mdash; It emphasizes the potential utility of the team's model.</strong>: Violates the signal &mdash; the dash-clause introduces a limitation, not a strength or use case. &#10007;</li><li><strong>Choice C &mdash; It introduces a model that a research team built to evaluate the mix of amenities in urban neighborhoods.</strong>: Violates scope &mdash; the model was introduced in the first two sentences; the underlined portion does not re-introduce it. &#10007;</li><li><strong>Choice D &mdash; It identifies a specific flaw in using a data set about amenities in cities.</strong>: Matches function &mdash; &ldquo;Places API data tend to be restricted to customer-facing places&rdquo; names exactly one concrete flaw in the data set used by the model. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Solve for x",
-      "content": "$$x^{2} - \\frac{25}{81} = 0 \\implies x^{2} = \\frac{25}{81}$$<br/>Take square roots: $x = \\pm \\frac{5}{9}$."
+      "content": "$$x^{2} - \\frac{25}{81} = 0 \\implies x^{2} = \\frac{25}{81}$$<br/>Take square roots: $x = \\pm \\frac{5}{9}$. Because the right side is positive, both the positive and negative roots are valid real solutions."
     },
     {
       "title": "Count the solutions",
-      "content": "There are two distinct real solutions: $x = \\frac{5}{9}$ and $x = -\\frac{5}{9}$. That matches choice C — <strong>C</strong> is correct."
+      "content": "There are two distinct real solutions: $x = \\frac{5}{9}$ and $x = -\\frac{5}{9}$. That matches <strong>Choice C &mdash; Exactly two</strong>."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId":"2f36d10d-2b67-4940-be7e-7ae5a7f478f1_21","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank must join two independent clauses. Left of the blank: &quot;That the geographic center of North America lay in the state of North Dakota was conceded by all [blank]&quot; &mdash; the subject is the &apos;That&hellip;&apos; noun clause and the verb is &apos;was conceded.&apos; Right of the blank: &quot;establishing its precise coordinates proved more divisive&quot; &mdash; the gerund phrase &apos;establishing&hellip;&apos; serves as the subject with &apos;proved&apos; as the verb. Both sides are independent clauses, so they need a punctuation mark that can separate two independent clauses."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'involved'</strong>: No punctuation between two independent clauses &mdash; creates a run-on sentence. &#10007;</li><li><strong>Choice B &mdash; 'involved:'</strong>: A colon must be followed by an explanation, list, or elaboration of what came before &mdash; the second clause is a new independent statement, not an elaboration. &#10007;</li><li><strong>Choice C &mdash; 'involved;'</strong>: A semicolon correctly separates two independent clauses without a coordinating conjunction. &#10003;</li><li><strong>Choice D &mdash; 'involved,'</strong>: A comma alone between two independent clauses creates a comma splice. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_21",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank must join two independent clauses. Left of the blank: &quot;That the geographic center of North America lay in the state of North Dakota was conceded by all [blank]&quot; &mdash; the subject is the &apos;That&hellip;&apos; noun clause and the verb is &apos;was conceded.&apos; Right of the blank: &quot;establishing its precise coordinates proved more divisive&quot; &mdash; the gerund phrase &apos;establishing&hellip;&apos; serves as the subject with &apos;proved&apos; as the verb. Both sides are independent clauses, so they need a punctuation mark that can separate two independent clauses."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — involved</strong>: No punctuation between two independent clauses &mdash; creates a run-on sentence. &#10007;</li><li><strong>Choice B — involved:</strong>: A colon must be followed by an explanation, list, or elaboration of what came before &mdash; the second clause is a new independent statement, not an elaboration. &#10007;</li><li><strong>Choice C — involved;</strong>: A semicolon correctly separates two independent clauses without a coordinating conjunction. &#10003;</li><li><strong>Choice D — involved,</strong>: A comma alone between two independent clauses creates a comma splice. &#10007;</li></ul><strong>C</strong> is correct."
+    }
+  ]
+}

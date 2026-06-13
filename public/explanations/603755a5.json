@@ -1,1 +1,15 @@
-{"questionId": "603755a5", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structures", "content": "Left of the blank: <em>a scuba diving club</em> is a noun phrase. Right of the blank: <em>that is the oldest club for Black divers...</em> is a dependent relative clause."}, {"title": "Apply the punctuation rule for restrictive relative clauses", "content": "A restrictive relative clause is directly attached to its head noun without a comma. <strong>Club that is</strong> correctly applies this rule.<br/><br/>Options B and C violate it by inserting punctuation between the noun and the clause; option D disrupts the structure by adding <em>and</em>.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "603755a5",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures",
+      "content": "Left of the blank: <em>a scuba diving club</em> is a noun phrase. Right of the blank: <em>that is the oldest club for Black divers...</em> is a dependent relative clause."
+    },
+    {
+      "title": "Apply the punctuation rule for restrictive relative clauses",
+      "content": "A restrictive relative clause is directly attached to its head noun without a comma. <strong>Club that is</strong> correctly applies this rule.<br/><br/>The other options violate it by inserting punctuation between the noun and the clause; an incorrect option disrupts the structure by adding <em>and</em>.<br/><br/>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

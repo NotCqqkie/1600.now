@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice <strong>A</strong> is correct because $f(10)=5(10)+8=58$. Choice D is the trap from plugging $58$ into the function instead of finding the input."
+      "content": "<strong>A</strong> is correct because $f(10)=5(10)+8=58$. Choice D (&lsquo;$298$&rsquo;) is the trap from plugging $58$ into the function instead of finding the input."
     }
   ]
 }

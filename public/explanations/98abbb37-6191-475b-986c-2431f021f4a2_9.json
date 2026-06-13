@@ -1,1 +1,15 @@
-{"questionId": "98abbb37-6191-475b-986c-2431f021f4a2_9", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the passage's key claim", "content": "Panama City residents use parks more (53.5%) than Fortaleza residents (35.7%), yet fewer Panama City residents live within a 10-minute walk of a park. The final sentence draws the explicit conclusion: &quot;greater proximity alone can't explain the difference in park use.&quot; The word &quot;alone&quot; signals that proximity is not the full story."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; &apos;It was much larger than the researchers conducting the study expected.&apos;</strong>: the passage says nothing about researcher expectations. &#10007;</li><li><strong>Choice B &mdash; &apos;It could be due to inaccuracies in the survey results.&apos;</strong>: no mention of survey errors anywhere in the passage. &#10007;</li><li><strong>Choice C &mdash; &apos;It was calculated using sources that predate the survey.&apos;</strong>: the passage describes no outdated sources. &#10007;</li><li><strong>Choice D &mdash; &apos;It is caused by something other than the parks&apos; proximity to the residents.&apos;</strong>: directly restates the passage&apos;s conclusion that proximity &quot;alone&quot; cannot explain the gap. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "98abbb37-6191-475b-986c-2431f021f4a2_9",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the passage's key claim",
+      "content": "Panama City residents use parks more (53.5%) than Fortaleza residents (35.7%), yet fewer Panama City residents live within a 10-minute walk of a park. The final sentence draws the explicit conclusion: &quot;greater proximity alone can't explain the difference in park use.&quot; The word &quot;alone&quot; signals that proximity is not the full story."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; It was much larger than the researchers conducting the study expected.</strong>: the passage says nothing about researcher expectations. &#10007;</li><li><strong>Choice B &mdash; It could be due to inaccuracies in the survey results.</strong>: no mention of survey errors anywhere in the passage. &#10007;</li><li><strong>Choice C &mdash; It was calculated using sources that predate the survey.</strong>: the passage describes no outdated sources. &#10007;</li><li><strong>Choice D &mdash; It is caused by something other than the parks' proximity to the residents.</strong>: directly restates the passage&apos;s conclusion that proximity &quot;alone&quot; cannot explain the gap. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

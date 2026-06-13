@@ -12,6 +12,7 @@ import {
 const SITE_NAME = BRAND_NAME;
 const SITE_URL = BRAND_URL;
 const DEFAULT_OG_IMAGE = `${SITE_URL}/og-image.png`;
+const DEFAULT_OG_IMAGE_ALT = `${SITE_NAME} Digital SAT prep tools and practice`;
 
 type RouteMetadata = {
   pattern: string;
@@ -492,9 +493,25 @@ export const Seo = () => {
       property: "og:site_name",
       content: SITE_NAME,
     });
+    upsertMeta('meta[property="og:locale"]', {
+      property: "og:locale",
+      content: "en_US",
+    });
     upsertMeta('meta[property="og:image"]', {
       property: "og:image",
       content: DEFAULT_OG_IMAGE,
+    });
+    upsertMeta('meta[property="og:image:alt"]', {
+      property: "og:image:alt",
+      content: DEFAULT_OG_IMAGE_ALT,
+    });
+    upsertMeta('meta[property="og:image:width"]', {
+      property: "og:image:width",
+      content: "1200",
+    });
+    upsertMeta('meta[property="og:image:height"]', {
+      property: "og:image:height",
+      content: "630",
     });
     upsertMeta('meta[name="twitter:title"]', {
       name: "twitter:title",
@@ -507,6 +524,10 @@ export const Seo = () => {
     upsertMeta('meta[name="twitter:image"]', {
       name: "twitter:image",
       content: DEFAULT_OG_IMAGE,
+    });
+    upsertMeta('meta[name="twitter:image:alt"]', {
+      name: "twitter:image:alt",
+      content: DEFAULT_OG_IMAGE_ALT,
     });
     upsertMeta('meta[name="robots"]', {
       name: "robots",

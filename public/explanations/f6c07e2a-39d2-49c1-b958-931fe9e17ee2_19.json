@@ -13,7 +13,7 @@
     },
     {
       "title": "Solve by equating exponents",
-      "content": "Rewrite the left side as a power of 2: $2 = 2^1$. This gives us:<br/>$$2^1 = 2^{5r}$$<br/>Since the bases are equal, the exponents must be equal:<br/>$$1 = 5r$$<br/>$$r = \\frac{1}{5}$$<br/>That matches choice B — <strong>B</strong> is correct."
+      "content": "Rewrite the left side as a power of 2: $2 = 2^1$. This gives us:<br/>$$2^1 = 2^{5r}$$<br/>Since the bases are equal, the exponents must be equal:<br/>$$1 = 5r$$<br/>$$r = \\frac{1}{5}$$<br/>That matches the correct answer — <strong>B</strong> is correct."
     }
   ]
 }

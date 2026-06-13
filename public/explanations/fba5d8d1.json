@@ -1,1 +1,15 @@
-{"questionId": "fba5d8d1", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Spot what needs identifying", "content": "The sentence claims &quot;there was one personality trait&quot; and then must reveal which trait. The phrase &quot;openness to experience&quot; provides that identification&mdash;it is the answer to the implied question &quot;which trait?&quot;"}, {"title": "Choose punctuation that introduces the identification", "content": "A colon appropriately introduces &quot;openness to experience&quot; as the specific naming of the trait the sentence refers to. The portion before the colon (&quot;there was one personality trait that they scored particularly high on&quot;) is a complete independent clause, and a colon is the conventional mark used to signal that what follows identifies or names what the clause has set up. <strong>Choice D (high on:)</strong> satisfies this convention. <br/><br/>Choice A places a period after &quot;high&quot; and starts a new sentence with &quot;On openness to experience,&quot; producing a sentence fragment because &quot;On openness to experience&quot; lacks a subject and verb. Choice B uses a semicolon, but a semicolon must join two independent clauses; &quot;openness to experience&quot; is a noun phrase, not an independent clause, so the semicolon is ungrammatical. Choice C uses no punctuation at all, which fails to mark the shift from the general claim (&quot;there was one personality trait&quot;) to the specific naming of that trait; the convention here calls for a colon to introduce the identification. <br/><br/>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "fba5d8d1",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot what needs identifying",
+      "content": "The sentence claims \"there was one personality trait\" and then must reveal which trait. The phrase \"openness to experience\" provides that identification&mdash;it is the answer to the implied question \"which trait?\""
+    },
+    {
+      "title": "Choose punctuation that introduces the identification",
+      "content": "A colon appropriately introduces \"openness to experience\" as the specific naming of the trait the sentence refers to. The portion before the colon (\"there was one personality trait that they scored particularly high on\") is a complete independent clause, and a colon is the conventional mark used to signal that what follows identifies or names what the clause has set up. <strong>\"high on:\"</strong> satisfies this convention. <br/><br/>The no-punctuation alternative at all, which fails to mark the shift from the general claim (\"there was one personality trait\") to the specific naming of that trait; the convention here calls for a colon to introduce the identification. <br/><br/>That matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

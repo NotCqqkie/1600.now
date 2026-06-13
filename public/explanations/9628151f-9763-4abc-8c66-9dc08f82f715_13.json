@@ -13,7 +13,7 @@
     },
     {
       "title": "Compare with the choices",
-      "content": "<ul><li>A) $c = 200(0.04)^{m}$: base $0.04$ would shrink the total each month. Eliminated.</li><li>B) $c = 200(1.04)^{m}$: correctly applies a $4\\%$ monthly increase.</li><li>C) $c = 200(1.4)^{m}$: represents a $40\\%$ monthly increase, not $4\\%$. Eliminated.</li><li>D) $c = 200(4)^{m}$: would quadruple the total each month. Eliminated.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "<ul><li>A) $c = 200(0.04)^{m}$: base $0.04$ would shrink the total each month. Eliminated.</li><li>B) $c = 200(1.04)^{m}$: correctly applies a $4\\%$ monthly increase.</li><li>C) $c = 200(1.4)^{m}$: represents a $40\\%$ monthly increase, not $4\\%$. Eliminated.</li><li>D) $c = 200(4)^{m}$: would quadruple the total each month. Eliminated.</li></ul>That confirms <strong>B</strong> is correct."
     }
   ]
 }

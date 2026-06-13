@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the answer",
-      "content": "Choice A is the only option with initial value $70$ and multiplier $1.50$. Choice B is decay, and choices C and D start at $50$ instead of $70$, so choice <strong>A</strong> is correct."
+      "content": "The matching choice is the only option with initial value $70$ and multiplier $1.50$. A choice with decay, and the other choices start at $50$ instead of $70$, so <strong>A</strong> is correct."
     }
   ]
 }

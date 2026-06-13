@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the answer",
-      "content": "The slope of $y=t(x)$ is $9$, which matches choice <strong>D</strong>. By hand, the same slope is $\\dfrac{56-(-7)}{6-(-1)}=\\dfrac{63}{7}=9$."
+      "content": "The slope of $y=t(x)$ is $9$, which matches <strong>D</strong>. By hand, the same slope is $\\dfrac{56-(-7)}{6-(-1)}=\\dfrac{63}{7}=9$."
     }
   ]
 }

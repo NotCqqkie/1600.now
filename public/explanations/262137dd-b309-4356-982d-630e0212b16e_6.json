@@ -1,1 +1,15 @@
-{"questionId":"262137dd-b309-4356-982d-630e0212b16e_6","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks for the choice that best describes the overall structure of the passage. Look for two key moves the passage makes."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'identifies a collection of essays and notes something uncertain about them'</strong>: The passage introduces The Federalist Papers, then shifts with &quot;Though&quot; to reveal that some authorship is in question. Two-part structure matches exactly. &#10003;</li><li><strong>Choice B &mdash; 'describes disagreement over the essays&apos; arguments'</strong>: The passage raises uncertainty about authorship, not about the arguments made. &#10007;</li><li><strong>Choice C &mdash; 'explains that some essays were co-authored'</strong>: The passage says authorship of some essays is disputed, not that they were jointly written. &#10007;</li><li><strong>Choice D &mdash; 'shifts to publication history'</strong>: The second part of the passage is about authorship uncertainty, not publication history. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "262137dd-b309-4356-982d-630e0212b16e_6",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks for the choice that best describes the overall structure of the passage. Look for two key moves the passage makes."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; The text mentions a collection of essays and then points out something about these essays that is not completely known.</strong>: The passage introduces The Federalist Papers, then shifts with &quot;Though&quot; to reveal that some authorship is in question. Two-part structure matches exactly. &#10003;</li><li><strong>Choice B &mdash; The text summarizes an argument made in a collection of essays and then suggests that the essays' authors didn't unanimously agree with the argument.</strong>: The passage raises uncertainty about authorship, not about the arguments made. &#10007;</li><li><strong>Choice C &mdash; The text lists the authors of a collection of essays and then notes that some of the essays were written by one person, while others were written by two people.</strong>: The passage says authorship of some essays is disputed, not that they were jointly written. &#10007;</li><li><strong>Choice D &mdash; The text describes why a collection of essays is notable and then details its publication history.</strong>: The second part of the passage is about authorship uncertainty, not publication history. &#10007;</li></ul>That matches <strong>Choice A &mdash; The text mentions a collection of essays and then points out something about these essays that is not completely known.</strong>."
+    }
+  ]
+}

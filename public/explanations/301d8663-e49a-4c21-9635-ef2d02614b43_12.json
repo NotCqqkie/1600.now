@@ -1,5 +1,6 @@
 {
   "qid": "301d8663-e49a-4c21-9635-ef2d02614b43_12",
+  "questionId": "301d8663-e49a-4c21-9635-ef2d02614b43_12",
   "correctAnswer": "C",
   "steps": [
     {
@@ -12,8 +13,8 @@
     },
     {
       "title": "Match to the answer choices",
-      "content": "The result $x(17x^2 + 2x + 7)$ matches choice C exactly."
+      "content": "The result $x(17x^2 + 2x + 7)$ matches the correct answer exactly."
     }
   ],
-  "explanation": "<ul><li><strong>Choice A &mdash; 'x(x&sup2; + 2x + 7)'</strong>: Expanding gives x&sup3; + 2x&sup2; + 7x, missing the coefficient 17 on the cubic term. &#10007;</li><li><strong>Choice B &mdash; 'x(17x&sup3; + 2x&sup2; + 1)'</strong>: Expanding gives 17x&#8308; + 2x&sup3; + x, which changes the degree and loses the 7x term. &#10007;</li><li><strong>Choice C &mdash; 'x(17x&sup2; + 2x + 7)'</strong>: Expanding gives 17x&sup3; + 2x&sup2; + 7x, which is exactly the original expression. &#10003;</li><li><strong>Choice D &mdash; '26(x&sup3; + x&sup2; + x)'</strong>: Expanding gives 26x&sup3; + 26x&sup2; + 26x; the coefficients 17, 2, 7 are gone and replaced by 26. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+  "explanation": "<ul><li><strong>Choice A — $x(x^2 + 2x + 7)$</strong>: Expanding gives $x^3 + 2x^2 + 7x$, missing the coefficient 17 on the cubic term. &#10007;</li><li><strong>Choice B — $x(17x^3 + 2x^2 + 1)$</strong>: Expanding gives $17x^4 + 2x^3 + x$, which changes the degree and loses the 7x term. &#10007;</li><li><strong>Choice C — $x(17x^2 + 2x + 7)$</strong>: Expanding gives $17x^3 + 2x^2 + 7x$, which is exactly the original expression. &#10003;</li><li><strong>Choice D — $26\\left(x^3 + x^2 + x\\right)$</strong>: Expanding gives $26x^3 + 26x^2 + 26x$; the coefficients 17, 2, 7 are gone and replaced by 26. &#10007;</li></ul><strong>C</strong> is correct."
 }

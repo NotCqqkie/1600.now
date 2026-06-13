@@ -1,5 +1,6 @@
 {
   "qid": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_13",
+  "questionId": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_13",
   "correctAnswer": "A",
   "steps": [
     {
@@ -12,7 +13,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li>A: $\\left(8,5-\\dfrac{1}{m}\\right)$ — matches our result. That matches choice A — <strong>A</strong> is correct.</li><li>B: $\\left(8,5+\\dfrac{1}{m}\\right)$ — wrong sign; perpendicular slope is negative reciprocal, not positive. Incorrect.</li><li>C: $(8,5-m)$ — uses $m$ itself rather than $\\tfrac{1}{m}$. Incorrect.</li><li>D: $(8,5+m)$ — uses $+m$; both the sign and the value are wrong. Incorrect.</li></ul>"
+      "content": "<ul><li>A: $\\left(8,5-\\dfrac{1}{m}\\right)$ — matches our result. <strong>A</strong> is correct.</li><li>B: $\\left(8,5+\\dfrac{1}{m}\\right)$ — wrong sign; perpendicular slope is negative reciprocal, not positive. Incorrect.</li><li>C: $(8,5-m)$ — uses $m$ itself rather than $\\tfrac{1}{m}$. Incorrect.</li><li>D: $(8,5+m)$ — uses $+m$; both the sign and the value are wrong. Incorrect.</li></ul>"
     }
   ]
 }

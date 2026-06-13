@@ -9,7 +9,7 @@
     },
     {
       "title": "Compute r + t",
-      "content": "Use $(0,-11)$ first:$$0r-11t=-77\\Rightarrow t=7$$Then use $(-7,-10)$:$$-7r-10(7)=-77$$ $$-7r-70=-77\\Rightarrow r=1$$Therefore $r+t=1+7=8$, which matches choice <strong>A</strong>."
+      "content": "Use $(0,-11)$ first:$$0r-11t=-77\\Rightarrow t=7$$Then use $(-7,-10)$:$$-7r-10(7)=-77$$ $$-7r-70=-77\\Rightarrow r=1$$Therefore $r+t=1+7=8$, which matches <strong>A</strong>."
     },
     {
       "title": "Confirm the shortcut",

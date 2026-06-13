@@ -1,1 +1,15 @@
-{"questionId": "8af28416", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the pattern of data presentation", "content": "The sentence establishes a structure: it names California with a specific range (2,600–2,800 farms) and uses “and” to introduce another state's count. The task is to complete this parallel structure with accurate data from the graph showing the next point of comparison."}, {"title": "Match the graph values to the choices", "content": "Washington's bar shows approximately 650 organic farms, fitting squarely within the 600–800 range.<br/><br/>This choice mirrors the format of the California statement and provides a true contrast: California, the state with the most farms, is paired with Washington, another state shown on the graph with a significantly lower count.<br/><br/>The other choices misread the graph: New York reaches roughly 1,050 (not fewer than 800), Iowa sits around 700 (not 1,200–1,400), and Pennsylvania stands near 750 (not more than 1,200). <br/><br/>That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}
+{
+  "questionId": "8af28416",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the pattern of data presentation",
+      "content": "The sentence establishes a structure: it names California with a specific range (2,600–2,800 farms) and uses “and” to introduce another state's count. The task is to complete this parallel structure with accurate data from the graph showing the next point of comparison."
+    },
+    {
+      "title": "Match the graph values to the choices",
+      "content": "Washington's bar shows approximately 650 organic farms, fitting squarely within the 600–800 range.<br/><br/>This choice mirrors the format of the California statement and provides a true contrast: California, the state with the most farms, is paired with Washington, another state shown on the graph with a significantly lower count.<br/><br/>The other choices misread the graph: New York reaches roughly 1,050 (not fewer than 800), Iowa sits around 700 (not 1,200–1,400), and Pennsylvania stands near 750 (not more than 1,200). <br/><br/>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

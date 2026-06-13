@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the Pythagorean theorem",
-      "content": "For a right triangle, the hypotenuse and legs are related by the Pythagorean theorem. Solving for $c$, we get: $$c = \\sqrt{a^2 + b^2}$$ Substituting $a = 4$ and $b = 5$: $$c = \\sqrt{4^2 + 5^2}$$ That matches choice D — <strong>D</strong> is correct.",
+      "content": "For a right triangle, the hypotenuse and legs are related by the Pythagorean theorem. Solving for $c$, we get: $$c = \\sqrt{a^2 + b^2}$$ Substituting $a = 4$ and $b = 5$: $$c = \\sqrt{4^2 + 5^2}$$ That is the correct answer.",
       "formula": "$$c^2 = a^2 + b^2$$"
     }
   ]

@@ -1,1 +1,15 @@
-{"questionId":"a333c1fd-7b95-4086-a9bf-1d7c8b137d23_18","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank sits between <strong>&quot;novel&quot;</strong> and <strong>&quot;Gothic&quot;</strong>, where &quot;Mexican Gothic&quot; is the title of Moreno-Garcia&apos;s novel. The question tests whether any punctuation should appear between the noun &quot;novel&quot; and the title that directly names it."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'novel (Mexican'</strong>: Opens a parenthesis that is never closed within the sentence, creating a punctuation error. &#10007;</li><li><strong>Choice B &mdash; 'novel Mexican'</strong>: No punctuation between &quot;novel&quot; and its title &mdash; correct, because a title used as a direct identifier of the noun requires no boundary punctuation. &#10003;</li><li><strong>Choice C &mdash; 'novel: Mexican'</strong>: A colon after &quot;novel&quot; would require &quot;novel&quot; to introduce what follows as a list or explanation, but &quot;Mexican Gothic (2020) earning a spot...&quot; is a participial phrase modifying the noun phrase, not an independent clause or listed item. &#10007;</li><li><strong>Choice D &mdash; 'novel, Mexican'</strong>: A comma here would suggest &quot;Mexican&quot; is a non-restrictive modifier set off from the noun, but the title &quot;Mexican Gothic&quot; is essential to identifying which novel is meant. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_18",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank sits between <strong>&quot;novel&quot;</strong> and <strong>&quot;Gothic&quot;</strong>, where &quot;Mexican Gothic&quot; is the title of Moreno-Garcia&apos;s novel. The question tests whether any punctuation should appear between the noun &quot;novel&quot; and the title that directly names it."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; novel (Mexican</strong>: Opens a parenthesis that is never closed within the sentence, creating a punctuation error. &#10007;</li><li><strong>Choice B &mdash; novel Mexican</strong>: No punctuation between &quot;novel&quot; and its title &mdash; correct, because a title used as a direct identifier of the noun requires no boundary punctuation. &#10003;</li><li><strong>Choice C &mdash; novel: Mexican</strong>: A colon after &quot;novel&quot; would require &quot;novel&quot; to introduce what follows as a list or explanation, but &quot;Mexican Gothic (2020) earning a spot...&quot; is a participial phrase modifying the noun phrase, not an independent clause or listed item. &#10007;</li><li><strong>Choice D &mdash; novel, Mexican</strong>: A comma here would suggest &quot;Mexican&quot; is a non-restrictive modifier set off from the noun, but the title &quot;Mexican Gothic&quot; is essential to identifying which novel is meant. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

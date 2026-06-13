@@ -1,1 +1,15 @@
-{"questionId": "bc839e02-25bc-4632-be4e-0c0b81f62962_27", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the goal requires", "content": "The goal is to <strong>“indicate the location”</strong> of the Isthmus of Mansheya. This means the sentence must explicitly establish where this geographical feature is situated."}, {"title": "Match the requirement to the choices", "content": "Choice C directly indicates location by stating <strong>“located in Egypt”</strong> and specifying the geographic relationship: it <strong>“connects the island of Pharos to mainland Alexandria.”</strong> The other three fail the goal—<ul><li>A treats it only as an example</li><li>D describes its function but not its location</li><li>B provides a general definition without mentioning this isthmus</li></ul>.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "bc839e02-25bc-4632-be4e-0c0b81f62962_27",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the goal requires",
+      "content": "The goal is to <strong>“indicate the location”</strong> of the Isthmus of Mansheya. This means the sentence must explicitly establish where this geographical feature is situated."
+    },
+    {
+      "title": "Match the requirement to the choices",
+      "content": "The correct answer directly indicates location by stating <strong>“located in Egypt”</strong> and specifying the geographic relationship: it <strong>“connects the island of Pharos to mainland Alexandria.”</strong> The other three fail the goal—<ul><li>A treats it only as an example</li><li>D describes its function but not its location</li><li>B provides a general definition without mentioning this isthmus</li></ul>.<br/><br/>That is the correct answer."
+    }
+  ]
+}

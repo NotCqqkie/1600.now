@@ -13,11 +13,11 @@
     },
     {
       "title": "Match the choice",
-      "content": "The function $f(n)=14n+175$ matches choice <strong>A</strong>."
+      "content": "The function $f(n)=14n+175$ matches <strong>A</strong>."
     },
     {
       "title": "Check with the minimum group size",
-      "content": "When $n=25$, the charge should be $25\\cdot 21=525$. Choice A gives $14(25)+175=525$, so it preserves the cost for the first $25$ people."
+      "content": "When $n=25$, the charge should be $25\\cdot 21=525$. The correct answer gives $14(25)+175=525$, so it preserves the cost for the first $25$ people."
     }
   ]
 }

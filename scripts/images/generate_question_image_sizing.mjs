@@ -205,6 +205,7 @@ const mergeSize = (current, next) => {
 
 const refs = collectRefs();
 const sizesBySrc = new Map();
+const dimensionsBySrc = new Map();
 const counts = { compact: 0, standard: 0, wide: 0, large: 0, tall: 0, xlarge: 0 };
 
 for (const ref of refs) {
@@ -216,6 +217,9 @@ for (const ref of refs) {
   const { width, height } = readDimensions(filePath);
   const area = width * height;
   const bytesPerPixel = area ? stats.size / area : 0;
+  if (!dimensionsBySrc.has(ref.src)) {
+    dimensionsBySrc.set(ref.src, { width, height });
+  }
   const size = classify(ref, {
     width,
     height,
@@ -234,11 +238,27 @@ const entries = [...sizesBySrc.entries()]
   .sort(([left], [right]) => left.localeCompare(right))
   .map(([src, size]) => `  ${JSON.stringify(src)}: ${JSON.stringify(size)},`);
 
+const dimensionEntries = [...dimensionsBySrc.entries()]
+  .filter(([, dimensions]) => dimensions.width > 0 && dimensions.height > 0)
+  .sort(([left], [right]) => left.localeCompare(right))
+  .map(([src, dimensions]) => (
+    `  ${JSON.stringify(src)}: { width: ${dimensions.width}, height: ${dimensions.height} },`
+  ));
+
 const output = [
   'export type QuestionImageDisplaySize = "compact" | "standard" | "wide" | "large" | "tall" | "xlarge";',
   "",
+  "export interface QuestionImageDimensions {",
+  "  width: number;",
+  "  height: number;",
+  "}",
+  "",
   "export const questionImageDisplaySizeBySrc: Record<string, QuestionImageDisplaySize> = {",
   ...entries,
+  "};",
+  "",
+  "export const questionImageDimensionsBySrc: Record<string, QuestionImageDimensions> = {",
+  ...dimensionEntries,
   "};",
   "",
 ].join("\n");

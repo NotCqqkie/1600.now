@@ -1,1 +1,15 @@
-{"questionId": "aa443c4b", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structure", "content": "The blank separates the noun <strong>“This hypothesis”</strong> from the dependent clause <strong>“that certain trees survived...”</strong>.<br/><br/>The sentence's main verb <strong>“cannot stand”</strong> comes after this dependent clause.<br/><br/>This arrangement requires the blank to contain a form that creates a complete noun phrase to serve as the subject of the main verb."}, {"title": "Apply the participial form", "content": "The present participle <strong>suggesting</strong> forms the noun phrase <strong>“This hypothesis suggesting that certain trees survived”</strong>, which functions as the subject of <strong>“cannot stand”</strong>.<br/><br/>Finite verb forms like <em>suggests</em>, <em>suggested</em>, and <em>has suggested</em> would establish their own main clauses instead of modifying the noun.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "aa443c4b",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "The blank separates the noun <strong>“This hypothesis”</strong> from the dependent clause <strong>“that certain trees survived...”</strong>.<br/><br/>The sentence's main verb <strong>“cannot stand”</strong> comes after this dependent clause.<br/><br/>This arrangement requires the blank to contain a form that creates a complete noun phrase to serve as the subject of the main verb."
+    },
+    {
+      "title": "Apply the participial form",
+      "content": "The present participle <strong>suggesting</strong> forms the noun phrase <strong>“This hypothesis suggesting that certain trees survived”</strong>, which functions as the subject of <strong>“cannot stand”</strong>.<br/><br/>Finite verb forms like <em>suggests</em>, <em>suggested</em>, and <em>has suggested</em> would establish their own main clauses instead of modifying the noun.<br/><br/>That is the correct answer."
+    }
+  ]
+}

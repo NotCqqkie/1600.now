@@ -13,7 +13,7 @@
     },
     {
       "title": "Compare with the choices",
-      "content": "<ul><li><strong>148.15 dollars</strong> is below the maximum, but it is not the greatest possible listed price.</li><li><strong>161.53 dollars</strong> stays within the budget because $81(161.53)(1.07)\\approx 13{,}999.95$.</li><li><strong>172.84 dollars</strong> ignores the 7% tax.</li><li><strong>184.94 dollars</strong> applies the tax in the wrong direction.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "<ul><li><strong>148.15 dollars</strong> is below the maximum, but it is not the greatest possible listed price.</li><li><strong>161.53 dollars</strong> stays within the budget because $81(161.53)(1.07)\\approx 13{,}999.95$.</li><li><strong>172.84 dollars</strong> ignores the 7% tax.</li><li><strong>184.94 dollars</strong> applies the tax in the wrong direction.</li></ul>That matches <strong>Choice B &mdash; \\$161.53</strong>."
     }
   ]
 }

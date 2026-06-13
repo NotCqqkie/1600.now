@@ -13,7 +13,7 @@
     },
     {
       "title": "Match to the correct choice",
-      "content": "Choice A states: <em>The estimated number of online newsletter subscribers at the end of the first six-month period was 500.</em> This directly matches our interpretation of $(1, 500)$. That matches choice A — <strong>A</strong> is correct."
+      "content": "<strong>Choice A &mdash; The estimated number of online newsletter subscribers at the end of the first six-month period was 500.</strong> states: <em>The estimated number of online newsletter subscribers at the end of the first six-month period was 500.</em> This directly matches our interpretation of $(1, 500)$. That matches <strong>Choice A &mdash; The estimated number of online newsletter subscribers at the end of the first six-month period was 500.</strong>."
     }
   ]
 }

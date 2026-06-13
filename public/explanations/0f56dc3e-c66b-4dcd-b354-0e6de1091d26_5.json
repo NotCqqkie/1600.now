@@ -1,1 +1,15 @@
-{"questionId":"0f56dc3e-c66b-4dcd-b354-0e6de1091d26_5","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The underlined sentence is the last one: &quot;Such analysis, in turn, can contribute to reports of exaggerated effects.&quot; The phrase &apos;in turn&apos; signals a consequence flowing from what came before: biased analysis (caused by small sample sizes) leads to exaggerated reports."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'summarizes a shift in understanding of Hippocampus guttulatus'</strong>: no shift in understanding is described; the sentence adds a downstream consequence. &#10007;</li><li><strong>Choice B &mdash; 'elaborates on a potential consequence of relying on a small sample size'</strong>: traces the causal chain from small sample size to biased analysis to exaggerated reports. &#10003;</li><li><strong>Choice C &mdash; 'emphasizes the magnitude of Faleiro&apos;s reported effect'</strong>: the sentence warns about exaggeration, it does not amplify Faleiro&apos;s claim. &#10007;</li><li><strong>Choice D &mdash; 'counters Clements&apos; objection'</strong>: the sentence supports Clements&apos; concern, not counters it. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_5",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The underlined sentence is the last one: &quot;Such analysis, in turn, can contribute to reports of exaggerated effects.&quot; The phrase &apos;in turn&apos; signals a consequence flowing from what came before: biased analysis (caused by small sample sizes) leads to exaggerated reports."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; It summarizes a shift in scientists' understanding of how *Hippocampus guttulatus* has responded to ocean acidification.</strong>: no shift in understanding is described; the sentence adds a downstream consequence. &#10007;</li><li><strong>Choice B &mdash; It elaborates on a potential consequence of Faleiro and colleagues' reliance on a relatively small sample size.</strong>: traces the causal chain from small sample size to biased analysis to exaggerated reports. &#10003;</li><li><strong>Choice C &mdash; It emphasizes the magnitude of the effect reported by Faleiro and colleagues of ocean acidification on *Hippocampus guttulatus*.</strong>: the sentence warns about exaggeration, it does not amplify Faleiro&apos;s claim. &#10007;</li><li><strong>Choice D &mdash; It counters the objection of Clements and colleagues to studies that rely on relatively small sample sizes.</strong>: the sentence supports Clements&apos; concern, not counters it. &#10007;</li></ul>That matches <strong>Choice B &mdash; It elaborates on a potential consequence of Faleiro and colleagues' reliance on a relatively small sample size.</strong>."
+    }
+  ]
+}

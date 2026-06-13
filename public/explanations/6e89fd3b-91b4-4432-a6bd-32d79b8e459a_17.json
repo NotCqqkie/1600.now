@@ -1,1 +1,15 @@
-{"questionId":"6e89fd3b-91b4-4432-a6bd-32d79b8e459a_17","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The phrase 'Before that' signals that the blank describes a state that existed <em>before</em> the critic watched <em>North by Northwest</em> at last year&apos;s festival. When one past event precedes another past event, English requires the past perfect tense (had + past participle)."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'is'</strong>: Simple present tense describes the current moment, not a prior past state. The sentence is set entirely in the past. &#10007;</li><li><strong>Choice B &mdash; 'had been'</strong>: Past perfect correctly marks that <em>A Beautiful Mind</em> was the least enjoyed film at a point <em>before</em> he watched <em>North by Northwest</em> (the later past event). &#10003;</li><li><strong>Choice C &mdash; 'was being'</strong>: Past progressive describes an action unfolding over time (e.g., &apos;the film was being screened&apos;), not a completed prior state. &#10007;</li><li><strong>Choice D &mdash; 'has been'</strong>: Present perfect describes something that began in the past and continues into the present. The sentence is set entirely in the past, so present perfect is incorrect. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "6e89fd3b-91b4-4432-a6bd-32d79b8e459a_17",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The phrase 'Before that' signals that the blank describes a state that existed <em>before</em> the critic watched <em>North by Northwest</em> at last year&apos;s festival. When one past event precedes another past event, English requires the past perfect tense (had + past participle)."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;is&rsquo;</strong>: Simple present tense describes the current moment, not a prior past state. The sentence is set entirely in the past. &#10007;</li><li><strong>Choice B &mdash; &lsquo;had been&rsquo;</strong>: Past perfect correctly marks that <em>A Beautiful Mind</em> was the least enjoyed film at a point <em>before</em> he watched <em>North by Northwest</em> (the later past event). &#10003;</li><li><strong>Choice C &mdash; &lsquo;was being&rsquo;</strong>: Past progressive describes an action unfolding over time (e.g., &apos;the film was being screened&apos;), not a completed prior state. &#10007;</li><li><strong>Choice D &mdash; &lsquo;has been&rsquo;</strong>: Present perfect describes something that began in the past and continues into the present. The sentence is set entirely in the past, so present perfect is incorrect. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

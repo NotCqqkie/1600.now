@@ -9,11 +9,11 @@
     },
     {
       "title": "Locate the maximum",
-      "content": "Because the rightmost nonempty bar is $[200, 250)$ and it contains 5 values, the maximum length in the data set must be at least 200 feet and less than 250 feet."
+      "content": "Because the rightmost nonempty bar is the interval $\\left[200, 250\\right)$ and it contains 5 values, the maximum length in the data set must be at least 200 feet and less than 250 feet."
     },
     {
       "title": "Eliminate the answer choices",
-      "content": "<ul><li><strong>A</strong> 68 is far below the last bar, so it cannot be the maximum.</li><li><strong>B</strong> 118 is still below 200.</li><li><strong>C</strong> 168 is still below 200.</li><li><strong>D</strong> 218 falls in the rightmost nonempty bar, where the maximum must be.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "content": "<ul><li><strong>A</strong> 68 is far below the last bar, so it cannot be the maximum.</li><li><strong>B</strong> 118 is still below 200.</li><li><strong>C</strong> 168 is still below 200.</li><li><strong>D</strong> 218 falls in the rightmost nonempty bar, where the maximum must be.</li></ul>That matches <strong>Choice D &mdash; 218</strong>."
     }
   ]
 }

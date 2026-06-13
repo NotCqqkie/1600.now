@@ -1,1 +1,15 @@
-{"questionId":"377b5e71-7ceb-4971-8051-73a97f38ab22_11","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The claim says Newland compares his intellect &apos;favorably&apos; to other men. The evidence must show direct intellectual superiority with specific reasons, not just general attitude."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; describes physical movement</strong>: No intellectual comparison at all. &#10007;</li><li><strong>Choice B &mdash; discusses social etiquette norms</strong>: Covers manners, not intellectual standing relative to others. &#10007;</li><li><strong>Choice C &mdash; &apos;felt himself distinctly the superior&apos; with reasons</strong>: Explicitly states intellectual superiority and backs it with concrete evidence (&apos;read more, thought more, and even seen a good deal more of the world&apos;). &#10003;</li><li><strong>Choice D &mdash; accepts others&apos; moral views despite seeing them as individually inferior</strong>: Shows deference to collective norms, not a favorable intellectual self-comparison. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "377b5e71-7ceb-4971-8051-73a97f38ab22_11",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The claim says Newland compares his intellect &apos;favorably&apos; to other men. The evidence must show direct intellectual superiority with specific reasons, not just general attitude."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — \"Singly [the men around Newland] betrayed their inferiority; but grouped together they represented 'New York,' and the habit of masculine solidarity made him accept their doctrine on all the issues called moral.\"</strong>: No intellectual comparison at all. &#10007;</li><li><strong>Choice B — \"Newland Archer, leaning against the wall at the back of the club box [where his seat was], turned his eyes from the stage and scanned the opposite side of the house.\"</strong>: Covers manners, not intellectual standing relative to others. &#10007;</li><li><strong>Choice C — \"Newland Archer felt himself distinctly the superior of these chosen specimens of old New York gentility; he had probably read more, thought more, and even seen a good deal more of the world, than any other man of the number.\"</strong>: Explicitly states intellectual superiority and backs it with concrete evidence (&apos;read more, thought more, and even seen a good deal more of the world&apos;). &#10003;</li><li><strong>Choice D — \"To come to the Opera in a [carriage for hire] was almost as honourable a way of arriving as in one's own carriage.\"</strong>: Shows deference to collective norms, not a favorable intellectual self-comparison. &#10007;</li></ul><strong>C</strong> is correct."
+    }
+  ]
+}

@@ -117,7 +117,7 @@
     "difficulty": "Easy",
     "question_number": 5,
     "test_name": "Module Source 143 Math M1",
-    "passage": "In $△$ FGH, the measures of $\\angle$F and $\\angle$G are each 39°. What is the measure of $\\angle$H?",
+    "passage": "In $\\triangle FGH$, the measures of $\\angle F$ and $\\angle G$ are each $39^{\\circ}$. What is the measure of $\\angle H$?",
     "question_text": null,
     "choices": [
       {
@@ -415,7 +415,7 @@
     "difficulty": "Medium",
     "question_number": 16,
     "test_name": "Module Source 143 Math M1",
-    "passage": "g(x)= $\\frac{2}{7} x+ \\frac{8}{5}$\nh(x)=5x-7\nThe functions $g$ and $h$ are defined by the equations shown. Which expression is equivalent to $g(x) \\cdot h(x)$?",
+    "passage": "$g(x)=\\frac{2}{7}x+\\frac{8}{5}$\n$h(x)=5x-7$\nThe functions $g$ and $h$ are defined by the equations shown. Which expression is equivalent to $g(x) \\cdot h(x)$?",
     "question_text": null,
     "choices": [
       {

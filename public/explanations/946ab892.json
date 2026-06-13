@@ -13,11 +13,11 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "The function is $g(x)=2x+12$. This matches choice <strong>C</strong>."
+      "content": "The function is $g(x)=2x+12$. That confirms <strong>C</strong>."
     },
     {
       "title": "Use the point as a check",
-      "content": "Substituting $x=1$ into choice C gives $g(1)=2(1)+12=14$, exactly the given point. The other choices give $2$, $4$, or $16$ when $x=1$."
+      "content": "Substituting $x=1$ into the correct answer gives $g(1)=2(1)+12=14$, exactly the given point. The other choices give $2$, $4$, or $16$ when $x=1$."
     }
   ]
 }

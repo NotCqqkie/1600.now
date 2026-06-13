@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the area scaling rule",
-      "content": "Using the relationship between linear and area scale factors:<br/>$$k = 88^2 = 7744$$<br/>That matches choice A — <strong>A</strong> is correct.",
+      "content": "Using the relationship between linear and area scale factors:<br/>$$k = 88^2 = 7744$$<br/>That matches the correct answer — <strong>A</strong> is correct.",
       "formula": "$$\\text{Area scale factor} = (\\text{linear scale factor})^2$$"
     }
   ]

@@ -1,15 +1,19 @@
 {
   "qid": "2eef7e61",
+  "questionId": "2eef7e61",
   "correctAnswer": "B",
   "steps": [
     {
-      "explain": "Slope-intercept form is $f(x)=mx+b$ where $m$ is the slope and $b$ is the y-intercept ($f(0)$)."
+      "title": "Step 1",
+      "content": "Slope-intercept form is $f(x)=mx+b$ where $m$ is the slope and $b$ is the y-intercept ($f(0)$)."
     },
     {
-      "explain": "Given: slope $m=\\frac{3}{4}$ and $f(0)=3$, so $b=3$. The function is $f(x)=\\frac{3}{4}x+3$."
+      "title": "Step 2",
+      "content": "Given: slope $m=\\frac{3}{4}$ and $f(0)=3$, so $b=3$. The function is $f(x)=\\frac{3}{4}x+3$."
     },
     {
-      "explain": "Evaluate choices:<ul><li>A ($f(x)=\\frac{3}{4}x-3$): correct slope, wrong intercept ($-3$ instead of $3$) — eliminated.</li><li>B ($f(x)=\\frac{3}{4}x+3$): slope $\\frac{3}{4}$ and $f(0)=3$. That matches choice B — <strong>B</strong> is correct.</li><li>C ($f(x)=4x-3$): slope is inverted and intercept is negative — eliminated.</li><li>D ($f(x)=4x+3$): slope is the reciprocal of $\\frac{3}{4}$, not $\\frac{3}{4}$ — eliminated.</li></ul>"
+      "title": "Step 3",
+      "content": "Evaluate choices:<ul><li>A ($f(x)=\\frac{3}{4}x-3$): correct slope, wrong intercept ($-3$ instead of $3$) — eliminated.</li><li>B ($f(x)=\\frac{3}{4}x+3$): slope $\\frac{3}{4}$ and $f(0)=3$. <strong>B</strong> is correct.</li><li>C ($f(x)=4x-3$): slope is inverted and intercept is negative — eliminated.</li><li>D ($f(x)=4x+3$): slope is the reciprocal of $\\frac{3}{4}$, not $\\frac{3}{4}$ — eliminated.</li></ul>"
     }
   ]
 }

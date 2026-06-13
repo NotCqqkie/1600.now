@@ -13,7 +13,7 @@
     },
     {
       "title": "Compare answer choices to possible sums",
-      "content": "Choices B, C, and D appear in the possible-sum list. Choice A, $-14x+1540$, does not; the matching coefficient case gives $-14x+1040$, not $-14x+1540$. Choice <strong>A</strong> is correct."
+      "content": "The other choices appear in the possible-sum list. Choice A, $-14x+1540$, does not; the matching coefficient case gives $-14x+1040$, not $-14x+1540$. <strong>A</strong> is correct."
     }
   ]
 }

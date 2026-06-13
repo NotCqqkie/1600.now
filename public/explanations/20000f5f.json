@@ -1,1 +1,15 @@
-{"questionId": "20000f5f", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the barrier that copyright imposed", "content": "The passage explicitly states that before 2014, the right to adapt “was only available to those who could afford the copyright fee and gain approval from the strict copyright holders.” This names two core barriers: <strong>cost</strong> (the licensing fee) and <strong>gatekeeping</strong> (requiring approval from strict estate holders).<br/><br/>Journalists predict adaptations will increase “since the end of copyright means that” ___.<br/><br/>The word “since” signals cause-and-effect: removing copyright removes these barriers."}, {"title": "Match the outcome to the answer", "content": "Without copyright fees and approval gatekeeping, producers can create adaptations without paying for licensing or waiting for permission — making production easier and less expensive, exactly what C states.<br/><br/>A contradicts the premise by claiming stories become harder to find.<br/><br/>B shifts to audience interest, which is unrelated to production barriers.<br/><br/>D addresses restitution of past fees, not the removal of barriers to new production.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "20000f5f",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the barrier that copyright imposed",
+      "content": "The passage explicitly states that before 2014, the right to adapt “was only available to those who could afford the copyright fee and gain approval from the strict copyright holders.” This names two core barriers: <strong>cost</strong> (the licensing fee) and <strong>gatekeeping</strong> (requiring approval from strict estate holders).<br/><br/>Journalists predict adaptations will increase “since the end of copyright means that” ___.<br/><br/>The word “since” signals cause-and-effect: removing copyright removes these barriers."
+    },
+    {
+      "title": "Match the outcome to the answer",
+      "content": "Without copyright fees and approval gatekeeping, producers can create adaptations without paying for licensing or waiting for permission — making production easier and less expensive, exactly what C states.<br/><br/>A contradicts the premise by claiming stories become harder to find.<br/><br/>B shifts to audience interest, which is unrelated to production barriers.<br/><br/>D addresses restitution of past fees, not the removal of barriers to new production.<br/><br/>That matches <strong>Choice C &mdash; producing adaptations will become easier and less expensive.</strong>."
+    }
+  ]
+}

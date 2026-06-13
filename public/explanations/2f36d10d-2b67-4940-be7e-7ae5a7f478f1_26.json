@@ -1,1 +1,15 @@
-{"questionId":"2f36d10d-2b67-4940-be7e-7ae5a7f478f1_26","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The stated goal is to provide a <strong>specific example</strong> of what municipalities provide. The notes supply exactly one concrete example: water treatment."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; provides population statistics</strong>: Population data does not name a service municipalities provide. &#10007;</li><li><strong>Choice B &mdash; describes municipality count</strong>: The number of municipalities says nothing about what services they offer. &#10007;</li><li><strong>Choice C &mdash; names water treatment as a service</strong>: This is the specific example from the notes that directly fulfills the stated goal. &#10003;</li><li><strong>Choice D &mdash; mentions services generally without a specific example</strong>: Vague reference to &apos;services&apos; does not satisfy the requirement for a concrete, named example. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_26",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The stated goal is to provide a <strong>specific example</strong> of what municipalities provide. The notes supply exactly one concrete example: water treatment."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — In 2020, the municipality of Xochicoatlán had a population of 7,015.</strong>: Population data does not name a service municipalities provide. &#10007;</li><li><strong>Choice B — Xochicoatlán is one of 84 municipalities in Hidalgo, Mexico.</strong>: The number of municipalities says nothing about what services they offer. &#10007;</li><li><strong>Choice C — Water treatment is just one of the many public services that municipalities provide.</strong>: This is the specific example from the notes that directly fulfills the stated goal. &#10003;</li><li><strong>Choice D — The municipality Xochicoatlán in Hidalgo is responsible for providing many public services.</strong>: Vague reference to &apos;services&apos; does not satisfy the requirement for a concrete, named example. &#10007;</li></ul><strong>C</strong> is correct."
+    }
+  ]
+}

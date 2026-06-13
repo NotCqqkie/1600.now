@@ -9,7 +9,7 @@
     },
     {
       "title": "Sum all parts and simplify",
-      "content": "All part quantities must sum to 100:<br/>$$4n + n + 15 = 100$$<br/>Combining the $n$ terms: $4n + n = 5n$, which gives:<br/>$$5n + 15 = 100$$<br/>That matches choice D — <strong>D</strong> is correct."
+      "content": "All part quantities must sum to 100:<br/>$$4n + n + 15 = 100$$<br/>Combining the $n$ terms: $4n + n = 5n$, which gives:<br/>$$5n + 15 = 100$$<br/>That matches the correct answer — <strong>D</strong> is correct."
     }
   ]
 }

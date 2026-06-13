@@ -9,7 +9,7 @@
     },
     {
       "title": "Discriminant shortcut: solve for $c$",
-      "content": "$$(-8)^2-4(-16)(c)=0$$<br/>$$64+64c=0$$<br/>$$c=-1$$<br/>That matches choice -1, so <strong>-1</strong> is correct."
+      "content": "$$(-8)^2-4(-16)(c)=0$$<br/>$$64+64c=0$$<br/>$$c=-1$$<br/>The constant that makes the discriminant zero is <strong>-1</strong>."
     }
   ]
 }

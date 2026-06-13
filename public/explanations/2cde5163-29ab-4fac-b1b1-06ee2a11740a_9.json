@@ -1,1 +1,15 @@
-{"questionId": "2cde5163-29ab-4fac-b1b1-06ee2a11740a_9", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The question asks for the main topic &mdash; the one idea the entire passage is about. Every sentence should connect to it. The passage opens by announcing the discovery of a runestone, gives its approximate date, and closes by noting its scholarly value for understanding runic alphabets."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; &lsquo;A new method for dating rock samples&rsquo;</strong>: Carbon dating is mentioned only as a means of establishing the stone&apos;s age &mdash; it is a supporting detail, not the focus. &#10007;</li><li><strong>Choice B &mdash; &lsquo;A runestone found in Norway&rsquo;</strong>: Every sentence in the passage describes this runestone &mdash; its discovery, its age, its scholarly significance. This is the central topic. &#10003;</li><li><strong>Choice C &mdash; &lsquo;The research interests of Kristel Zilmer&rsquo;</strong>: Zilmer appears in one sentence as a source who comments on the stone; the passage is not about her research program. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Battles of the Iron Age&rsquo;</strong>: Iron Age Scandinavia is mentioned only as a historical context for runic alphabets; battles are never discussed. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "2cde5163-29ab-4fac-b1b1-06ee2a11740a_9",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks for the main topic &mdash; the one idea the entire passage is about. Every sentence should connect to it. The passage opens by announcing the discovery of a runestone, gives its approximate date, and closes by noting its scholarly value for understanding runic alphabets."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — A new method for dating rock samples</strong>: Carbon dating is mentioned only as a means of establishing the stone&apos;s age &mdash; it is a supporting detail, not the focus. &#10007;</li><li><strong>Choice B — A runestone found in Norway</strong>: Every sentence in the passage describes this runestone &mdash; its discovery, its age, its scholarly significance. This is the central topic. &#10003;</li><li><strong>Choice C — The research interests of Kristel Zilmer</strong>: Zilmer appears in one sentence as a source who comments on the stone; the passage is not about her research program. &#10007;</li><li><strong>Choice D — Battles of the Iron Age</strong>: Iron Age Scandinavia is mentioned only as a historical context for runic alphabets; battles are never discussed. &#10007;</li></ul><strong>B</strong> is correct."
+    }
+  ]
+}

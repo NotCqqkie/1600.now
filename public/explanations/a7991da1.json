@@ -1,1 +1,15 @@
-{"questionId": "a7991da1", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "This is a vocabulary-in-context question testing precise word choice. The sentence must complete the idiom &ldquo;can be ______ to how they are pronounced in Yoruba&rdquo; in a way that expresses <strong>attribution to an origin</strong> &mdash; the idea that Puerto Rican vowel sounds derive from Yoruba. The passage has just established that African languages &ldquo;made important contributions&rdquo; to the Puerto Rican dialect."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; &lsquo;traced&rsquo;</strong>: &ldquo;can be traced to&rdquo; is a standard idiom meaning &ldquo;can be attributed to its origin in&rdquo; &mdash; exactly the linguistic influence the passage describes. &#10003;</li><li><strong>Choice B &mdash; &lsquo;surrendered&rsquo;</strong>: means to hand something over on demand; &ldquo;can be surrendered to&rdquo; implies giving up rather than originating from, which is nonsensical in this context. &#10007;</li><li><strong>Choice C &mdash; &lsquo;announced&rsquo;</strong>: means officially declared or proclaimed; the passage discusses linguistic inheritance, not a public declaration about pronunciation. &#10007;</li><li><strong>Choice D &mdash; &lsquo;offered&rsquo;</strong>: means presented as a gift; &ldquo;can be offered to&rdquo; implies the Puerto Rican pronunciation is being given to Yoruba, reversing the direction of influence. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "a7991da1",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a vocabulary-in-context question testing precise word choice. The sentence must complete the idiom &ldquo;can be ______ to how they are pronounced in Yoruba&rdquo; in a way that expresses <strong>attribution to an origin</strong> &mdash; the idea that Puerto Rican vowel sounds derive from Yoruba. The passage has just established that African languages &ldquo;made important contributions&rdquo; to the Puerto Rican dialect."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; traced</strong>: &ldquo;can be traced to&rdquo; is a standard idiom meaning &ldquo;can be attributed to its origin in&rdquo; &mdash; exactly the linguistic influence the passage describes. &#10003;</li><li><strong>Choice B &mdash; surrendered</strong>: means to hand something over on demand; &ldquo;can be surrendered to&rdquo; implies giving up rather than originating from, which is nonsensical in this context. &#10007;</li><li><strong>Choice C &mdash; announced</strong>: means officially declared or proclaimed; the passage discusses linguistic inheritance, not a public declaration about pronunciation. &#10007;</li><li><strong>Choice D &mdash; offered</strong>: means presented as a gift; &ldquo;can be offered to&rdquo; implies the Puerto Rican pronunciation is being given to Yoruba, reversing the direction of influence. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

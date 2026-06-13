@@ -1,1 +1,15 @@
-{"questionId": "c39b24c5-b805-4b9b-a609-e68df8471f04_11", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what would refute the concern", "content": "The administrators claim that concerns about virtual tours discouraging in-person visits are “unjustified.” To support this claim, we need evidence showing that virtual tours do NOT actually prevent people from visiting in person — ideally evidence that virtual tours do something other than what the concern predicts."}, {"title": "Apply the signal to the choices", "content": "Choice C states that many surveyed visitors said the virtual tours convinced them to plan an in-person visit.<br/><br/>This directly contradicts the concern: rather than making in-person visits seem unnecessary, the tours actively encouraged visits.<br/><br/>The other choices either describe people unaware of the tours (A), demographic info unrelated to tour impact (B), or post-visit behavior that doesn't address the initial decision (D). <br/><br/>That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}
+{
+  "questionId": "c39b24c5-b805-4b9b-a609-e68df8471f04_11",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what would refute the concern",
+      "content": "The administrators claim that concerns about virtual tours discouraging in-person visits are “unjustified.” To support this claim, we need evidence showing that virtual tours do NOT actually prevent people from visiting in person — ideally evidence that virtual tours do something other than what the concern predicts."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "The correct answer states that many surveyed visitors said the virtual tours convinced them to plan an in-person visit.<br/><br/>This directly contradicts the concern: rather than making in-person visits seem unnecessary, the tours actively encouraged visits.<br/><br/>The other choices either describe people unaware of the tours, demographic info unrelated to tour impact, or post-visit behavior that doesn't address the initial decision. <br/><br/>That is the correct answer."
+    }
+  ]
+}

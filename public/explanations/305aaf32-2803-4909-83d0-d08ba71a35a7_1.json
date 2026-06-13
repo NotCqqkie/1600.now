@@ -5,12 +5,12 @@
   "steps": [
     {
       "title": "Apply the triangle angle sum property",
-      "content": "The sum of all interior angles in a triangle equals 180°. This is a fundamental property of all triangles.",
-      "formula": "$$A + B + C = 180°$$"
+      "content": "The sum of all interior angles in a triangle equals $180^{\\circ}$. This is a fundamental property of all triangles.",
+      "formula": "$$A + B + C = 180^{\\circ}$$"
     },
     {
       "title": "Substitute and solve for angle C",
-      "content": "Substitute A = 54° and B = 90° into the angle sum equation:<br/>$$54° + 90° + C = 180°$$<br/>$$144° + C = 180°$$<br/>$$C = 180° - 144° = 36°$$<br/>That matches choice A - <strong>A</strong> is correct."
+      "content": "Substitute A = $54^{\\circ}$ and B = $90^{\\circ}$ into the angle sum equation:<br/>$$54^{\\circ} + 90^{\\circ} + C = 180^{\\circ}$$<br/>$$144^{\\circ} + C = 180^{\\circ}$$<br/>$$C = 180^{\\circ} - 144^{\\circ} = 36^{\\circ}$$<br/>This matches - <strong>A</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId": "dbd99943-454f-4340-b42a-6a27b20e090c_23", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the relationship", "content": "Sentence 1: contour and box modeling process <strong>thousands</strong> of shapes. Sentence 2: these methods are <strong>more economical</strong> than surface models, which need millions of polygons. Fewer shapes processed = lower computing cost: the second sentence is a consequence of the first."}, {"title": "Pick the transition", "content": "The logical relationship is cause-effect/consequence: the lower shape count (cause) makes these methods more economical (effect).\n<ul>\n<li><strong>Choice A — \"Instead,\"</strong>: signals substitution or contradiction. The second sentence is not opposed to the first; it flows from it. ✗</li>\n<li><strong>Choice B — \"Specifically,\"</strong>: signals a narrowing detail or example of the prior claim. The economy comparison is a result, not a specification of thousands of shapes. ✗</li>\n<li><strong>Choice C — \"As such,\"</strong>: signals consequence — \"because of this.\" The economy is a direct result of processing fewer shapes. ✓</li>\n<li><strong>Choice D — \"For example,\"</strong>: signals a specific instance illustrating a general claim. The economy comparison is not an example of processing thousands of shapes. ✗</li>\n</ul>\nThat matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "dbd99943-454f-4340-b42a-6a27b20e090c_23",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the relationship",
+      "content": "Sentence 1: contour and box modeling process <strong>thousands</strong> of shapes. Sentence 2: these methods are <strong>more economical</strong> than surface models, which need millions of polygons. Fewer shapes processed = lower computing cost: the second sentence is a consequence of the first."
+    },
+    {
+      "title": "Pick the transition",
+      "content": "The logical relationship is cause-effect/consequence: the lower shape count (cause) makes these methods more economical (effect).\n<ul>\n<li><strong>\"Instead,\"</strong>: signals substitution or contradiction. The second sentence is not opposed to the first; it flows from it. ✗</li>\n<li><strong>\"Specifically,\"</strong>: signals a narrowing detail or example of the prior claim. The economy comparison is a result, not a specification of thousands of shapes. ✗</li>\n<li><strong>\"As such,\"</strong>: signals consequence — \"because of this.\" The economy is a direct result of processing fewer shapes. ✓</li>\n<li><strong>\"For example,\"</strong>: signals a specific instance illustrating a general claim. The economy comparison is not an example of processing thousands of shapes. ✗</li>\n</ul>\nThat matches the correct answer — <strong>C</strong> is correct."
+    }
+  ]
+}

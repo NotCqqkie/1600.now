@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the subject-verb boundary",
-      "content": "The subject is <strong>\u201cthe Huntington Library in California\u201d</strong> (with \u201cin California\u201d modifying it), and the main verb is <strong>\u201creceived.\u201d</strong> The blank occurs directly between them."
+      "content": "The subject is <strong>“the Huntington Library in California”</strong> (with “in California” modifying it), and the main verb is <strong>“received.”</strong> The blank occurs directly between them."
     },
     {
       "title": "Apply the rule",
-      "content": "No punctuation should separate a subject from its verb. Choice D is correct because it places no punctuation after \u201cCalifornia,\u201d allowing the subject \u201cthe Huntington Library in California\u201d to flow directly into \u201creceived.\u201d Choices A, B, and C all insert punctuation that breaks this rule.<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "No punctuation should separate a subject from its verb. The result is correct because it places no punctuation after “California,” allowing the subject “the Huntington Library in California” to flow directly into “received.” The other choices all insert punctuation that breaks this rule.<br/><br/>That is the correct answer."
     }
   ]
 }

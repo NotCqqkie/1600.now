@@ -1,1 +1,15 @@
-{"questionId":"ff866f0f-f295-4895-b84d-a5c603adf51a_27","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The student wants to <strong>specify how long</strong> Mozambique officially used the escudo. That requires stating both when the escudo became official (1914) and when it was replaced (1980)."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;Countries sometimes adopt new currency systems, as Mozambique did&hellip;&rsquo;</strong>: makes a general point about currency adoption; gives no dates for the escudo&rsquo;s duration. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Though Mozambique currently uses the metical&hellip; introduced in 1914.&rsquo;</strong>: gives only the start date; never says when the escudo ended. &#10007;</li><li><strong>Choice C &mdash; &lsquo;The escudo was Mozambique&rsquo;s official currency from 1914 to 1980.&rsquo;</strong>: states both dates and directly specifies the complete duration. &#10003;</li><li><strong>Choice D &mdash; &lsquo;The metical has been Mozambique&rsquo;s official currency since 1980&hellip;&rsquo;</strong>: focuses on the metical, not the escudo, and omits the escudo&rsquo;s start date. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "ff866f0f-f295-4895-b84d-a5c603adf51a_27",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The student wants to <strong>specify how long</strong> Mozambique officially used the escudo. That requires stating both when the escudo became official (1914) and when it was replaced (1980)."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"Countries sometimes adopt new currency systems, as Mozambique did when it replaced the escudo with the metical.\"</strong>: makes a general point about currency adoption; gives no dates for the escudo&rsquo;s duration. &#10007;</li><li><strong>The metical-focused alternative, the country's former official currency was introduced in 1914.\"</strong>: gives only the start date; never says when the escudo ended. &#10007;</li><li><strong>\"The escudo was Mozambique's official currency from 1914 to 1980.\"</strong>: states both dates and directly specifies the complete duration. &#10003;</li><li><strong>\"The metical has been Mozambique's official currency since 1980, when it replaced the escudo.\"</strong>: focuses on the metical, not the escudo, and omits the escudo&rsquo;s start date. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+    }
+  ]
+}

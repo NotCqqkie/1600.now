@@ -1,1 +1,15 @@
-{"questionId": "82d2436a", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find what the narrator actually does walking across the stage", "content": "The passage states: &quot;I did what my teacher had advised. Pretend you&apos;re only playing for one person. That way you won&apos;t be so nervous.&quot; Then the narrator glances at her father and closes her eyes. The narrator is explicitly following her teacher&apos;s advice to manage nervousness."}, {"title": "Eliminate wrong choices and confirm the answer", "content": "<ul><li><strong>Choice A &mdash; &apos;She thinks about the differences between playing the piano alone and playing in a band.&apos;</strong>: The narrator thinks about her teacher&apos;s advice, not about solo versus band playing. &#10007;</li><li><strong>Choice B &mdash; &apos;She feels excitement about playing in a music festival for the first time.&apos;</strong>: The text says she is nervous, not excited, and nothing indicates this is her first festival. &#10007;</li><li><strong>Choice C &mdash; &apos;She remembers how hard she has practiced for the performance.&apos;</strong>: No mention of practice appears; she is recalling her teacher&apos;s anti-nervousness strategy. &#10007;</li><li><strong>Choice D &mdash; &apos;She follows her teacher&apos;s advice about managing her nervousness.&apos;</strong>: Matches exactly &mdash; she does what her teacher advised to avoid being nervous. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "82d2436a",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find what the narrator actually does walking across the stage",
+      "content": "The passage states: &quot;I did what my teacher had advised. Pretend you&apos;re only playing for one person. That way you won&apos;t be so nervous.&quot; Then the narrator glances at her father and closes her eyes. The narrator is explicitly following her teacher&apos;s advice to manage nervousness."
+    },
+    {
+      "title": "Eliminate wrong choices and confirm the answer",
+      "content": "<ul><li><strong>Choice A &mdash; She thinks about the differences between playing the piano alone and playing in a band.</strong>: The narrator thinks about her teacher&apos;s advice, not about solo versus band playing. &#10007;</li><li><strong>Choice B &mdash; She feels excitement about playing in a music festival for the first time.</strong>: The text says she is nervous, not excited, and nothing indicates this is her first festival. &#10007;</li><li><strong>Choice C &mdash; She remembers how hard she has practiced for the performance.</strong>: No mention of practice appears; she is recalling her teacher&apos;s anti-nervousness strategy. &#10007;</li><li><strong>Choice D &mdash; She follows her teacher's advice about managing her nervousness.</strong>: Matches exactly &mdash; she does what her teacher advised to avoid being nervous. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

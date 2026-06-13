@@ -1,1 +1,15 @@
-{"questionId": "a87c3925", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what dipeptides do in soy sauce", "content": "Text 2 reveals a crucial finding: dipeptides (proteins in soy sauce) enhance umami flavor <strong>and also contribute to saltiness</strong>. This dual effect is the decisive clue."}, {"title": "Apply this discovery to the 2007 experiment", "content": "Ishii and O'Mahony used mushroom and seaweed broths specifically to define “pure umami flavor”—isolating umami without interference from other tastes.<br/><br/>If these broths had contained substantial dipeptides, those compounds would have added saltiness alongside the umami, contaminating the pure signal they were seeking.<br/><br/>Therefore, the broths would most likely have lacked substantial dipeptides.<br/><br/>Choices A, B, and C either make unsupported claims about national diets, propose unclear molecular weight comparisons, or mischaracterize how proteins entered soy sauce.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "a87c3925",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what dipeptides do in soy sauce",
+      "content": "Text 2 reveals a crucial finding: dipeptides (proteins in soy sauce) enhance umami flavor <strong>and also contribute to saltiness</strong>. This dual effect is the decisive clue."
+    },
+    {
+      "title": "Apply this discovery to the 2007 experiment",
+      "content": "Ishii and O'Mahony used mushroom and seaweed broths specifically to define “pure umami flavor”—isolating umami without interference from other tastes.<br/><br/>If these broths had contained substantial dipeptides, those compounds would have added saltiness alongside the umami, contaminating the pure signal they were seeking.<br/><br/>Therefore, the broths would most likely have lacked substantial dipeptides.<br/><br/>The other choices either make unsupported claims about national diets, propose unclear molecular weight comparisons, or mischaracterize how proteins entered soy sauce.<br/><br/>That is the correct answer."
+    }
+  ]
+}

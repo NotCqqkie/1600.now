@@ -9,11 +9,11 @@
     },
     {
       "title": "Check the answer choices",
-      "content": "Choice B is $h(x)=3x+5$, which matches the model. It also checks in the table: $h(4)=3(4)+5=17$ and $h(6)=3(6)+5=23$."
+      "content": "<strong>Choice B &mdash; $h(x)=3x+5$</strong> is $h(x)=3x+5$, which matches the model. It also checks in the table: $h(4)=3(4)+5=17$ and $h(6)=3(6)+5=23$."
     },
     {
       "title": "Eliminate wrong choices",
-      "content": "<ul><li>Choice A: $h(x)=\\frac{1}{3}x-\\frac{5}{3}$ gives $h(4)=-\\frac{1}{3}$, not 17. Eliminated.</li><li>Choice B: $h(x)=3x+5$ gives $h(4)=17$ and $h(6)=23$. Correct.</li><li>Choice C: $h(x)=4x+17$ has slope 4, but the table's line has slope 3. Eliminated.</li><li>Choice D: $h(x)=6x+23$ has slope 6, not 3. Eliminated.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "<ul><li>Choice A: $h(x)=\\frac{1}{3}x-\\frac{5}{3}$ gives $h(4)=-\\frac{1}{3}$, not 17. Eliminated.</li><li>Choice B: $h(x)=3x+5$ gives $h(4)=17$ and $h(6)=23$. Correct.</li><li>Choice C: $h(x)=4x+17$ has slope 4, but the table's line has slope 3. Eliminated.</li><li>Choice D: $h(x)=6x+23$ has slope 6, not 3. Eliminated.</li></ul>That matches <strong>Choice B &mdash; $h(x)=3x+5$</strong>."
     }
   ]
 }

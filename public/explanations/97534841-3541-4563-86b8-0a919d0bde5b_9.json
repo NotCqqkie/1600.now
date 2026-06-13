@@ -1,1 +1,15 @@
-{"questionId":"97534841-3541-4563-86b8-0a919d0bde5b_9","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The statement says the student was surprised the Amiga sold &quot;relatively few&quot; units. To justify that surprise, the completion must give the Amiga's correct sales figure and compare it to a system with dramatically higher sales."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; '1,600,000 units sold compared to the approximately 18,450,000 units sold of the Atari 2600.'</strong>: Correctly identifies the Amiga's figure (1,600,000) and pairs it with the highest figure in the table (Atari 2600 at 18,450,000) &mdash; more than 11 times higher. This makes the surprise logical. &#10003;</li><li><strong>Choice B &mdash; '3,935,000 units sold compared to the approximately 4,487,000 units sold of the Apple II.'</strong>: Uses 3,935,000 for the Amiga, but that figure belongs to the Sega SG-1000/Master System. &#10007;</li><li><strong>Choice C &mdash; '3,935,000 units sold compared to the approximately 4,487,000 units sold of the Atari 2600.'</strong>: Wrong figure for the Amiga and wrong figure for the Atari 2600. &#10007;</li><li><strong>Choice D &mdash; '1,600,000 units sold compared to the approximately 18,450,000 units sold of the Sega SG-1000/Master System.'</strong>: Correct Amiga figure, but 18,450,000 belongs to the Atari 2600, not the Sega. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "97534841-3541-4563-86b8-0a919d0bde5b_9",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The statement says the student was surprised the Amiga sold &quot;relatively few&quot; units. To justify that surprise, the completion must give the Amiga's correct sales figure and compare it to a system with dramatically higher sales."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 1,600,000 units sold compared to the approximately 18,450,000 units sold of the Atari 2600.</strong>: Correctly identifies the Amiga's figure (1,600,000) and pairs it with the highest figure in the table (Atari 2600 at 18,450,000) &mdash; more than 11 times higher. This makes the surprise logical. &#10003;</li><li><strong>Choice B &mdash; 3,935,000 units sold compared to the approximately 4,487,000 units sold of the Apple II.</strong>: Uses 3,935,000 for the Amiga, but that figure belongs to the Sega SG-1000/Master System. &#10007;</li><li><strong>Choice C &mdash; 3,935,000 units sold compared to the approximately 4,487,000 units sold of the Atari 2600.</strong>: Wrong figure for the Amiga and wrong figure for the Atari 2600. &#10007;</li><li><strong>Choice D &mdash; 1,600,000 units sold compared to the approximately 18,450,000 units sold of the Sega SG-1000/Master System.</strong>: Correct Amiga figure, but 18,450,000 belongs to the Atari 2600, not the Sega. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

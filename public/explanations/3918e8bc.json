@@ -9,7 +9,7 @@
     },
     {
       "title": "Evaluate the value h at t = 0",
-      "content": "Substitute $t = 0$ into $h = -4.9t^2 + 7t + 9$:<br/>$$h = -4.9(0)^2 + 7(0) + 9 = 9$$<br/>That matches choice D — <strong>D</strong> is correct."
+      "content": "Substitute $t = 0$ into $h = -4.9t^2 + 7t + 9$:<br/>$$h = -4.9(0)^2 + 7(0) + 9 = 9$$<br/><strong>D</strong> is correct."
     }
   ]
 }

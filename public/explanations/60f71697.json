@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice A is $11$, so it is correct. Choice B comes from subtracting $8$, choice C comes from adding $8$, and choice D, $704$, would solve $\\frac{x}{8}=88$, not $8x=88$."
+      "content": "Choice A (&lsquo;$11$&rsquo;) is $11$, so it is correct. Choice B (&lsquo;$80$&rsquo;) comes from subtracting $8$, choice C (&lsquo;$96$&rsquo;) comes from adding $8$, and choice D, $704$, would solve $\\frac{x}{8}=88$, not $8x=88$."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId": "a153ad6a", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the clause structures", "content": "Left side of the blank: <em>“One such type of matter is a form of cooled, condensed gas called a Bose-Einstein condensate (BEC)”</em> is an independent clause.<br/><br/>Right side: <em>“Dutch physicist Lene Hau famously used a BEC to slow a beam of light to a complete halt”</em> is also an independent clause."}, {"title": "Apply the rule for joining independent clauses", "content": "A semicolon joins two independent clauses correctly. The other choices violate this rule by using insufficient punctuation—either a comma without a conjunction, a conjunction without its required comma, or no punctuation at all. That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "a153ad6a",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the clause structures",
+      "content": "Left side of the blank: <em>“One such type of matter is a form of cooled, condensed gas called a Bose-Einstein condensate (BEC)”</em> is an independent clause.<br/><br/>Right side: <em>“Dutch physicist Lene Hau famously used a BEC to slow a beam of light to a complete halt”</em> is also an independent clause."
+    },
+    {
+      "title": "Apply the rule for joining independent clauses",
+      "content": "A semicolon joins two independent clauses correctly. The other choices violate this rule by using insufficient punctuation—either a comma without a conjunction, a conjunction without its required comma, or no punctuation at all. That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

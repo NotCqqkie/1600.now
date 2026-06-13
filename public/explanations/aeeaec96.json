@@ -13,7 +13,7 @@
     },
     {
       "title": "Eliminate wrong choices",
-      "content": "<ul><li>A: 0.059 &mdash; This comes from dividing 36 &div; 612, inverting the conversion. Eliminated.</li><li>B: 17 &mdash; Dividing 612 by 36 gives 17. That matches choice B &mdash; <strong>B</strong> is correct.</li><li>C: 576 &mdash; This is 612 &minus; 36, which is subtraction rather than conversion. Eliminated.</li><li>D: 22,032 &mdash; This is 612 &times; 36, multiplying instead of dividing. Eliminated.</li></ul>"
+      "content": "<ul><li>A: 0.059 &mdash; This comes from dividing 36 &div; 612, inverting the conversion. Eliminated.</li><li>B: 17 &mdash; Dividing 612 by 36 gives 17. That is the correct answer.</li><li>C: 576 &mdash; This is 612 &minus; 36, which is subtraction rather than conversion. Eliminated.</li><li>D: 22,032 &mdash; This is 612 &times; 36, multiplying instead of dividing. Eliminated.</li></ul>"
     }
   ]
 }

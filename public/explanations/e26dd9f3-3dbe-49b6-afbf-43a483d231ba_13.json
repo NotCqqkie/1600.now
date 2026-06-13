@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; ~150 opposite-side, ~60 same-side</strong>: Matches the graph values for Amur grape exactly. &#10003;</li><li><strong>Choice B &mdash; ~150 opposite-side, ~49 same-side</strong>: Misreads the same-side bar; the graph shows ~60, not 49. &#10007;</li><li><strong>Choice C &mdash; no same-side pairs</strong>: The graph clearly shows ~60 same-side pairs; this is factually wrong. &#10007;</li><li><strong>Choice D &mdash; no same-side pairs</strong>: Same error as C. &#10007;</li></ul>That matches choice A — <strong>A</strong> is correct."
+      "content": "<ul><li><strong>\"150 leaf pairs show opposite-side orientation, whereas approximately 60 pairs show same-side orientation.\"</strong>: Matches the graph values for Amur grape exactly. &#10003;</li><li><strong>\"150 leaf pairs show opposite-side orientation, whereas approximately 49 pairs show same-side orientation.\"</strong>: Misreads the same-side bar; the graph shows ~60, not 49. &#10007;</li><li><strong>\"150 leaf pairs show opposite-side orientation, whereas no pairs show same-side orientation.\"</strong>: The graph clearly shows ~60 same-side pairs; this is factually wrong. &#10007;</li><li><strong>\"60 leaf pairs show opposite-side orientation, whereas approximately 150 pairs show same-side orientation.\"</strong>: Same error as C. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
     }
   ]
 }

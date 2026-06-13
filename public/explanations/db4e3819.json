@@ -1,1 +1,15 @@
-{"questionId": "db4e3819", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what verb form the sentence requires", "content": "The sentence reads: she [blank] her fingers across the harp strings <strong>and creates</strong> a radiant sound. The subject is <em>she</em> (3rd person singular) and the paired verb <em>creates</em> is simple present. The blank must match both the subject and the tense."}, {"title": "Eliminate wrong forms and confirm the correct one", "content": "<ul><li><strong>Choice A &mdash; 'sweep'</strong>: This is the base form with no 3rd person singular ending. It does not agree with the subject <em>she</em>. &#10007;</li><li><strong>Choice B &mdash; 'are sweeping'</strong>: This is 1st/3rd person plural present progressive. <em>She</em> is singular, so this doesn&apos;t agree. &#10007;</li><li><strong>Choice C &mdash; 'were sweeping'</strong>: This is past progressive, mismatching the present tense of <em>creates</em>. &#10007;</li><li><strong>Choice D &mdash; 'sweeps'</strong>: Simple present, 3rd person singular &mdash; matches <em>she</em> and is parallel with <em>creates</em>. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "db4e3819",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what verb form the sentence requires",
+      "content": "The sentence reads: she [blank] her fingers across the harp strings <strong>and creates</strong> a radiant sound. The subject is <em>she</em> (3rd person singular) and the paired verb <em>creates</em> is simple present. The blank must match both the subject and the tense."
+    },
+    {
+      "title": "Eliminate wrong forms and confirm the correct one",
+      "content": "<ul><li><strong>\"sweep\"</strong>: This is the base form with no 3rd person singular ending. It does not agree with the subject <em>she</em>. &#10007;</li><li><strong>\"are sweeping\"</strong>: This is 1st/3rd person plural present progressive. <em>She</em> is singular, so this doesn't agree. &#10007;</li><li><strong>\"were sweeping\"</strong>: This is past progressive, mismatching the present tense of <em>creates</em>. &#10007;</li><li><strong>\"sweeps\"</strong>: Simple present, 3rd person singular &mdash; matches <em>she</em> and is parallel with <em>creates</em>. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

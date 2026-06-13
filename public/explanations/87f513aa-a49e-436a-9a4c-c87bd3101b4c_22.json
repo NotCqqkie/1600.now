@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the choices",
-      "content": "Choices A and D use base $1.29$, which means $129\\%$ of the old mass, not $129\\%$ greater than the old mass. Choice B uses the right base but the wrong starting value. Choice C has both model values, $51.12$ and $2.29$, so choice <strong>C</strong> is correct."
+      "content": "The equations with base $1.29$ model $129\\%$ of the old mass, not $129\\%$ greater than the old mass. The equation with base $2.29$ and starting value $34.11$ has the right growth factor but the wrong initial mass. The correct equation has both model values, $51.12$ and $2.29$, so <strong>C</strong> is correct."
     }
   ]
 }

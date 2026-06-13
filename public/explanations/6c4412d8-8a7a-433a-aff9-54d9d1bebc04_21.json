@@ -1,1 +1,15 @@
-{"questionId": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_21", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The sentence has a main clause ('Anderson chose a narrator who had participated in the protest') followed by a phrase explaining that choice ('a decision that... amplified the agency'). That explanatory phrase is a nonrestrictive appositive — it renames the preceding action. Appositives must be set off by a comma, not a period or semicolon."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'protest a decision that,'</strong>: No punctuation between 'protest' and 'a decision' runs the appositive into the main clause, creating a run-on. &#10007;</li><li><strong>Choice B &mdash; 'protest. A decision that'</strong>: A period creates a sentence fragment — 'A decision that... amplified the agency' has no main verb. &#10007;</li><li><strong>Choice C &mdash; 'protest; a decision that,'</strong>: A semicolon links independent clauses; 'a decision that...' is not an independent clause. &#10007;</li><li><strong>Choice D &mdash; 'protest, a decision that,'</strong>: A comma correctly introduces the appositive, and the second comma sets off the parenthetical 'by allowing the narrative to be shaped by one of their own.' &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_21",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence has a main clause ('Anderson chose a narrator who had participated in the protest') followed by a phrase explaining that choice ('a decision that... amplified the agency'). That explanatory phrase is a nonrestrictive appositive — it renames the preceding action. Appositives must be set off by a comma, not a period or semicolon."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;protest a decision that,&rsquo;</strong>: No punctuation between 'protest' and 'a decision' runs the appositive into the main clause, creating a run-on. &#10007;</li><li><strong>Choice B &mdash; &lsquo;protest. A decision that&rsquo;</strong>: A period creates a sentence fragment — 'A decision that... amplified the agency' has no main verb. &#10007;</li><li><strong>Choice C &mdash; &lsquo;protest; a decision that,&rsquo;</strong>: A semicolon links independent clauses; 'a decision that...' is not an independent clause. &#10007;</li><li><strong>Choice D &mdash; &lsquo;protest, a decision that,&rsquo;</strong>: A comma correctly introduces the appositive, and the second comma sets off the parenthetical 'by allowing the narrative to be shaped by one of their own.' &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

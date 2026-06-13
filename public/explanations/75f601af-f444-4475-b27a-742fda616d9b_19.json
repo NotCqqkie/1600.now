@@ -1,1 +1,15 @@
-{"questionId": "75f601af-f444-4475-b27a-742fda616d9b_19", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structure on each side of the blank", "content": "Left side: A noun phrase serving as the subject (A 2024 study by archaeologist Guadalupe Romero Villanueva and colleagues).<br/><br/>Right side: A dependent clause (“that comb-shaped motifs are approximately 8,200 years old”) immediately followed by an independent clause with the verb <strong>offers</strong>."}, {"title": "Apply the participle rule to prevent run-on sentences", "content": "When adding information about the subject without creating a second main verb, use a participle to form a modifying phrase; <strong>reporting</strong> creates such a phrase, leaving <strong>offers</strong> as the sentence's sole main verb.<br/><br/>Finite verbs in the blank (reported, has reported, reports) would create two main clauses without punctuation, producing a run-on sentence.<br/><br/>That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "75f601af-f444-4475-b27a-742fda616d9b_19",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure on each side of the blank",
+      "content": "Left side: A noun phrase serving as the subject (A 2024 study by archaeologist Guadalupe Romero Villanueva and colleagues).<br/><br/>Right side: A dependent clause (“that comb-shaped motifs are approximately 8,200 years old”) immediately followed by an independent clause with the verb <strong>offers</strong>."
+    },
+    {
+      "title": "Apply the participle rule to prevent run-on sentences",
+      "content": "When adding information about the subject without creating a second main verb, use a participle to form a modifying phrase; <strong>reporting</strong> creates such a phrase, leaving <strong>offers</strong> as the sentence's sole main verb.<br/><br/>Finite verbs in the blank (reported, has reported, reports) would create two main clauses without punctuation, producing a run-on sentence.<br/><br/>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

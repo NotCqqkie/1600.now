@@ -1,1 +1,15 @@
-{"questionId": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_2", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Recall the y-intercept definition", "content": "The y-intercept is the point where the graph crosses the y-axis — i.e., where $x = 0$. The y-intercept is always written as $(0, y)$."}, {"title": "Read the value", "content": "Choices A and B have $y = 0$ (those would be x-intercepts). From the graph, the line crosses the y-axis at $y = 8$, giving $(0, 8)$.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_2",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recall the y-intercept definition",
+      "content": "The y-intercept is the point where the graph crosses the y-axis — i.e., where $x = 0$. The y-intercept is always written as $(0, y)$."
+    },
+    {
+      "title": "Read the value",
+      "content": "The points with $y = 0$ would be x-intercepts, not y-intercepts. From the graph, the line crosses the y-axis at $y = 8$, giving $(0, 8)$.<br/><br/>That matches <strong>Choice D &mdash; (0, 8)</strong>."
+    }
+  ]
+}

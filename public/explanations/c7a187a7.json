@@ -9,7 +9,7 @@
     },
     {
       "title": "Test the choices using backsolving",
-      "content": "Backsolving — testing choice B ($-30$, 0):<br/>$$(-30)^2 - 18(-30) - 360 = 900 + 540 - 360 = 1080 \\neq 0$$<br/>Fails. Testing choice A ($-12$, 0):<br/>$$(-12)^2 - 18(-12) - 360 = 144 + 216 - 360 = 0$$<br/>That matches choice A — <strong>A</strong> is correct."
+      "content": "Backsolving — testing choice B ($-30$, 0):<br/>$$(-30)^2 - 18(-30) - 360 = 900 + 540 - 360 = 1080 \\neq 0$$<br/>Fails. Testing choice A ($-12$, 0):<br/>$$(-12)^2 - 18(-12) - 360 = 144 + 216 - 360 = 0$$<br/>That is the correct answer."
     }
   ]
 }

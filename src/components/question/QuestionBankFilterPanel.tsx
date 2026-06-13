@@ -57,6 +57,7 @@ interface FilterPanelProps {
   compactLabels?: boolean;
   homeDemoMultiOpen?: boolean;
   homeDemoCloseSignal?: number;
+  onHomeDemoControlOpenChange?: (control: string, open: boolean) => void;
 }
 
 const formatTimeSpentValue = (seconds: number, isUpperBound = false): string => {
@@ -101,6 +102,7 @@ export function QuestionBankFilterPanel({
   compactLabels = false,
   homeDemoMultiOpen = false,
   homeDemoCloseSignal = 0,
+  onHomeDemoControlOpenChange,
 }: FilterPanelProps) {
   const [internalOpen, setInternalOpen] = useState(defaultOpen);
   const [homeDemoOpenControls, setHomeDemoOpenControls] = useState<string[]>([]);
@@ -121,6 +123,7 @@ export function QuestionBankFilterPanel({
   };
   const openHomeDemoControl = (control: string, nextOpen: boolean) => {
     if (!homeDemoMultiOpen) return;
+    onHomeDemoControlOpenChange?.(control, nextOpen);
     setHomeDemoOpenControls((current) => {
       if (!nextOpen) return current.filter((item) => item !== control);
       return [control];
@@ -179,6 +182,7 @@ export function QuestionBankFilterPanel({
                   demoControl="difficulty"
                   demoOptionPrefix="difficulty"
                   closeOnSelect={compactLabels}
+                  preventAutoFocusScroll={homeDemoMultiOpen}
                   open={homeDemoMultiOpen ? homeDemoOpenControls.includes("difficulty") : undefined}
                   onOpenChange={(nextOpen) => openHomeDemoControl("difficulty", nextOpen)}
                 />

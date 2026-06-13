@@ -13,11 +13,11 @@
     },
     {
       "title": "Confirm with the graph",
-      "content": "For choice B, $f(x)=-3^x+5$, so the displayed curve would be $y=-3^x+9$. At $x=0$, this gives $y=-1+9=8$, matching the graph. The curve also decreases sharply as $x$ increases, matching the shown shape."
+      "content": "For the correct answer, $f(x)=-3^x+5$, so the displayed curve would be $y=-3^x+9$. At $x=0$, this gives $y=-1+9=8$, matching the graph. The curve also decreases sharply as $x$ increases, matching the shown shape."
     },
     {
       "title": "Eliminate the other constants",
-      "content": "Choices A, C, and D make the shifted $y$-intercept $4$, $11$, and $12$, respectively. The graph's shifted $y$-intercept is $8$, so only choice B works. Choice <strong>B</strong> is correct."
+      "content": "The other constants make the shifted $y$-intercept $4$, $11$, and $12$, respectively. The graph's shifted $y$-intercept is $8$, so only the answer with constant $5$ works. <strong>B</strong> is correct."
     }
   ]
 }

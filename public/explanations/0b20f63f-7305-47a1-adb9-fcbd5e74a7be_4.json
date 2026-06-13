@@ -13,11 +13,11 @@
     },
     {
       "title": "Evaluate each answer choice",
-      "content": "<ul><li>Choice A: $14(x - 10y)(x - 10y)$ has a middle term when expanded, so it is not the original.</li><li>Choice B: $14(x - 10y)(x + 10y)$ is exactly the difference-of-squares form.</li><li>Choice C: $14(x - 2y)(x - 50y)$ creates a middle term and the wrong sign on the $y^2$ term.</li><li>Choice D: $14(x - 2y)(x + 50y)$ also creates a middle term.</li></ul>That leaves choice B."
+      "content": "<ul><li>Choice A: 14(x - 10y)(x - 10y) &mdash; has a middle term when expanded, so it is not the original.</li><li>Choice B: 14(x - 10y)(x + 10y) &mdash; is exactly the difference-of-squares form.</li><li>Choice C: 14(x - 2y)(x - 50y) &mdash; creates a middle term and the wrong sign on the $y^2$ term.</li><li>Choice D: 14(x - 2y)(x + 50y) &mdash; also creates a middle term.</li></ul>That leaves <strong>Choice B &mdash; 14(x - 10y)(x + 10y)</strong>."
     },
     {
       "title": "Answer",
-      "content": "$14(x-10y)(x+10y)$ matches choice B, so <strong>B</strong> is correct."
+      "content": "$14(x-10y)(x+10y)$ matches <strong>Choice B &mdash; 14(x - 10y)(x + 10y)</strong>, so <strong>B</strong> is correct."
     }
   ]
 }

@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "Choices A and B incorrectly use $15{,}000$ as the exponential base. Choice C uses $0.96$, which would be a decrease. Choice D matches $15{,}000(1.04)^x$, so <strong>D</strong> is correct."
+      "content": "The equations $p=0.96{ \\left(15,000\\right)}^{x}$ and $p=1.04{ \\left(15,000\\right)}^{x}$ put $15{,}000$ in the exponential base and misuse the initial population. The equation $p=15,000{ \\left(0.96\\right)}^{x}$ uses $0.96$, which would be a decrease. The model $p=15,000{ \\left(1.04\\right)}^{x}$ is correct."
     }
   ]
 }

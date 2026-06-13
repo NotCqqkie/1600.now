@@ -1,1 +1,15 @@
-{"questionId": "662ebff2", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal", "content": "The passage sets up a contrast: Seira et al. found that risk-disclosure messages had <strong>limited effects</strong>, yet they assert these effects are <strong>“nevertheless worth pursuing.”</strong> The word <strong>“given”</strong> directly connects the underlined portion (negligible cost) as the stated justification for this assertion.<br/><br/>This is the decisive clue to the underlined portion's function."}, {"title": "Match the meaning to the choices", "content": "Choice A correctly identifies that negligible cost is what prevents dismissal of the approach.<br/><br/>The other choices misidentify the function: B introduces a different topic, C confuses Seira et al.'s assertion with a recommendation, and D mistakes cost for effectiveness.<br/><br/>This directly matches the underlined portion's role—providing the cost-benefit justification for pursuing limited effects.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "662ebff2",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal",
+      "content": "The passage sets up a contrast: Seira et al. found that risk-disclosure messages had <strong>limited effects</strong>, yet they assert these effects are <strong>“nevertheless worth pursuing.”</strong> The word <strong>“given”</strong> directly connects the underlined portion (negligible cost) as the stated justification for this assertion.<br/><br/>This is the decisive clue to the underlined portion's function."
+    },
+    {
+      "title": "Match the meaning to the choices",
+      "content": "Choice A (&lsquo;It notes a factor that led Seira et al. to not dismiss risk-disclosure messaging altogether despite their evidence of its limited utility.&rsquo;) correctly identifies that negligible cost is what prevents dismissal of the approach.<br/><br/>The other choices misidentify the function: B introduces a different topic, C confuses Seira et al.'s assertion with a recommendation, and D mistakes cost for effectiveness.<br/><br/>This directly matches the underlined portion's role—providing the cost-benefit justification for pursuing limited effects.<br/><br/>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

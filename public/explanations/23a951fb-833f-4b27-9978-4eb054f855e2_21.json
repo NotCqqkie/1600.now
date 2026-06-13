@@ -10,7 +10,7 @@
     },
     {
       "title": "Solve for c",
-      "content": "Multiply both sides by 2:<br/>$$-5.75 + c = -3.5$$<br/>Add 5.75 to both sides:<br/>$$c = 2.25$$<br/>Since $2.25 > 0$, this satisfies the constraint. That matches choice B - <strong>B</strong> is correct."
+      "content": "Multiply both sides by 2:<br/>$$-5.75 + c = -3.5$$<br/>Add 5.75 to both sides:<br/>$$c = 2.25$$<br/>Since $2.25 \\gt  0$, this satisfies the constraint. That matches <strong>Choice B &mdash; 2.25</strong>- <strong>B</strong>."
     }
   ]
 }

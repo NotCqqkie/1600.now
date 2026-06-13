@@ -1,4 +1,5 @@
 {
+  "questionId": "7cab9fe1",
   "qid": "7cab9fe1",
   "steps": [
     {
@@ -8,7 +9,7 @@
       "explanation": "Factoring: w + 0.43w = w(1 + 0.43) = 1.43w."
     },
     {
-      "explanation": "<ul><li>A: 1.43w &mdash; 1 + 0.43 = 1.43, so 1.43w represents w increased by 43%. That matches choice A &mdash; <strong>A</strong> is correct.</li><li>B: 0.57w &mdash; This equals w decreased by 43% (1 - 0.43 = 0.57), the opposite operation. Eliminated.</li><li>C: 43w &mdash; This multiplies w by 43, a 4300% increase, not 43%. Eliminated.</li><li>D: 0.43w &mdash; This is just 43% of w, not w increased by 43%. Eliminated.</li></ul>"
+      "explanation": "<ul><li>A: 1.43w &mdash; 1 + 0.43 = 1.43, so 1.43w represents w increased by 43%. That confirms <strong>A</strong> is correct.</li><li>B: 0.57w &mdash; This equals w decreased by 43% (1 - 0.43 = 0.57), the opposite operation. Eliminated.</li><li>C: 43w &mdash; This multiplies w by 43, a 4300% increase, not 43%. Eliminated.</li><li>D: 0.43w &mdash; This is just 43% of w, not w increased by 43%. Eliminated.</li></ul>"
     }
   ],
   "correctAnswer": "A"

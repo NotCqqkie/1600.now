@@ -1,1 +1,15 @@
-{"questionId":"986a38a2-7ec7-4431-b87a-1d0c366595d6_24","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank connects two ideas. Before the blank: Cuba still speaks Spanish &mdash; a strong, living colonial legacy. After the blank: Sardinia barely speaks Spanish &mdash; a colonial tie so weak it has almost vanished. The passage is moving from a strong-legacy example to a weak-legacy example. That requires a <strong>contrast</strong> transition."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Sometimes,'</strong>: Signals frequency or occasional occurrence, not a contrast between two different cases. &#10007;</li><li><strong>Choice B &mdash; 'On the other hand,'</strong>: Directly signals contrast between two alternatives. Cuba&#39;s strong legacy is set against Sardinia&#39;s near-absent one. &#10003;</li><li><strong>Choice C &mdash; 'At the same time,'</strong>: Implies the two things happen simultaneously or coexist in harmony. The passage is highlighting an opposition, not a simultaneity. &#10007;</li><li><strong>Choice D &mdash; 'In addition,'</strong>: Adds a similar or supporting point. The Sardinia example is not additional support for Cuba; it is the opposite case. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "986a38a2-7ec7-4431-b87a-1d0c366595d6_24",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank connects two ideas. Before the blank: Cuba still speaks Spanish &mdash; a strong, living colonial legacy. After the blank: Sardinia barely speaks Spanish &mdash; a colonial tie so weak it has almost vanished. The passage is moving from a strong-legacy example to a weak-legacy example. That requires a <strong>contrast</strong> transition."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Sometimes,</strong>: Signals frequency or occasional occurrence, not a contrast between two different cases. &#10007;</li><li><strong>Choice B &mdash; On the other hand,</strong>: Directly signals contrast between two alternatives. Cuba&#39;s strong legacy is set against Sardinia&#39;s near-absent one. &#10003;</li><li><strong>Choice C &mdash; At the same time,</strong>: Implies the two things happen simultaneously or coexist in harmony. The passage is highlighting an opposition, not a simultaneity. &#10007;</li><li><strong>Choice D &mdash; In addition,</strong>: Adds a similar or supporting point. The Sardinia example is not additional support for Cuba; it is the opposite case. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

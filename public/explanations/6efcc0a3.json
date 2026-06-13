@@ -1,1 +1,19 @@
-{"questionId":"6efcc0a3","correctAnswer":"A","section":"Math","steps":[{"title":"Use the two function values","content":"The values $h(0)=41$ and $h(1)=40$ give two points on the line: $(0,41)$ and $(1,40)$."},{"title":"Find the slope and intercept","content":"The slope is $$m=(40-41)/(1-0)=-1.$$ Since $h(0)=41$, the $y$-intercept is $41$."},{"title":"Write the function","content":"A linear function with slope $-1$ and intercept $41$ is $$h(x)=-x+41.$$ Choice <strong>A</strong> is correct."}]}
+{
+  "questionId": "6efcc0a3",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the two function values",
+      "content": "The values $h(0)=41$ and $h(1)=40$ give two points on the line: $(0,41)$ and $(1,40)$."
+    },
+    {
+      "title": "Find the slope and intercept",
+      "content": "The slope is $$m=(40-41)/(1-0)=-1.$$ Since $h(0)=41$, the $y$-intercept is $41$."
+    },
+    {
+      "title": "Write the function",
+      "content": "A linear function with slope $-1$ and intercept $41$ is $$h(x)=-x+41.$$ <strong>A</strong> is correct."
+    }
+  ]
+}

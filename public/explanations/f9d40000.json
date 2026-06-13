@@ -5,12 +5,12 @@
   "steps": [
     {
       "title": "Apply the angle sum property of triangles",
-      "content": "The three interior angles of any triangle sum to $180°$. We have $\\angle X = 23°$ and $\\angle Y = 66°$, so we need to find $\\angle Z$.",
-      "formula": "$$\\angle X + \\angle Y + \\angle Z = 180°$$"
+      "content": "The three interior angles of any triangle sum to $180^{\\circ}$. We have $\\angle X = 23^{\\circ}$ and $\\angle Y = 66^{\\circ}$, so we need to find $\\angle Z$.",
+      "formula": "$$\\angle X + \\angle Y + \\angle Z = 180^{\\circ}$$"
     },
     {
       "title": "Solve for angle Z",
-      "content": "Set up the equation: $$23° + 66° + \\angle Z = 180°$$<br/>Combine the known angles: $$89° + \\angle Z = 180°$$<br/>Subtract $89°$ from both sides: $$\\angle Z = 91°$$<br/>That matches choice C — <strong>C</strong> is correct."
+      "content": "Set up the equation: $$23^{\\circ} + 66^{\\circ} + \\angle Z = 180^{\\circ}$$<br/>Combine the known angles: $$89^{\\circ} + \\angle Z = 180^{\\circ}$$<br/>Subtract $89^{\\circ}$ from both sides: $$\\angle Z = 91^{\\circ}$$<br/>That matches the correct answer — <strong>C</strong> is correct."
     }
   ]
 }

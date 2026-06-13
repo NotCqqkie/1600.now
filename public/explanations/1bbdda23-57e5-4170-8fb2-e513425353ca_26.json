@@ -1,1 +1,15 @@
-{"questionId": "1bbdda23-57e5-4170-8fb2-e513425353ca_26", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The student wants to provide an example of a country that uses &quot;dinar&quot; in its currency name. A correct answer must (1) name a specific country and (2) show that country&apos;s currency includes the word &quot;dinar.&quot;"}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'The Latin word &quot;denarius&quot; is the origin of the Arabic word &quot;dinar.&quot;'</strong>: This is about etymology, not about any country&apos;s currency. No country is named. &#10007;</li><li><strong>Choice B &mdash; 'Today, several countries use the word &quot;dinar&quot; in naming their currencies.'</strong>: Mentions countries in general but names none. An example requires a specific country. &#10007;</li><li><strong>Choice C &mdash; 'Bahrain uses the Bahraini dinar as its national currency.'</strong>: Names a specific country (Bahrain) and explicitly shows its currency contains the word &quot;dinar.&quot; This is exactly the example the student needs. &#10003;</li><li><strong>Choice D &mdash; 'Bahrain does not refer to its currency by the Latin word &quot;denarius.&quot;'</strong>: Names Bahrain but focuses on what its currency is not called. It does not demonstrate that Bahrain uses &quot;dinar&quot; in its currency name. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "1bbdda23-57e5-4170-8fb2-e513425353ca_26",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The student wants to provide an example of a country that uses &quot;dinar&quot; in its currency name. A correct answer must (1) name a specific country and (2) show that country&apos;s currency includes the word &quot;dinar.&quot;"
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; The Latin word \"denarius\" is the origin of the Arabic word \"dinar.\"</strong>: This is about etymology, not about any country&apos;s currency. No country is named. &#10007;</li><li><strong>Choice B &mdash; Today, several countries use the word \"dinar\" in naming their currencies.</strong>: Mentions countries in general but names none. An example requires a specific country. &#10007;</li><li><strong>Choice C &mdash; Bahrain uses the Bahraini dinar as its national currency.</strong>: Names a specific country (Bahrain) and explicitly shows its currency contains the word &quot;dinar.&quot; This is exactly the example the student needs. &#10003;</li><li><strong>Choice D &mdash; Bahrain does not refer to its currency by the Latin word \"denarius.\"</strong>: Names Bahrain but focuses on what its currency is not called. It does not demonstrate that Bahrain uses &quot;dinar&quot; in its currency name. &#10007;</li></ul>That matches <strong>Choice C &mdash; Bahrain uses the Bahraini dinar as its national currency.</strong>."
+    }
+  ]
+}

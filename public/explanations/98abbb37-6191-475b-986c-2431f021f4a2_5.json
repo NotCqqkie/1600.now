@@ -1,1 +1,15 @@
-{"questionId":"98abbb37-6191-475b-986c-2431f021f4a2_5","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence sets up a contrast using 'but': robots designed to be comforting can backfire when they look too human, making people feel 'more unsettled than ______.' The blank names the positive emotional state the design was supposed to produce. Look for the word that matches the design intent of &quot;comforting semblance of humanity.&quot;"},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'soothed'</strong>: the passage says these robots are designed to create a &quot;comforting&quot; experience. Soothed is the positive, comforted state that the design aims for — but excessive human-likeness undermines it. &#10003;</li><li><strong>Choice B &mdash; 'indifferent'</strong>: feeling indifferent is neutral, not positive. A robot designed to comfort people wouldn't aim to make them indifferent. &#10007;</li><li><strong>Choice C &mdash; 'revolted'</strong>: revolted is even more negative than unsettled — you can't be more unsettled than revolted. The blank needs to be the positive baseline, not a worse reaction. &#10007;</li><li><strong>Choice D &mdash; 'vindicated'</strong>: vindicated means feeling justified or proven right — unrelated to how a comforting robot is supposed to make someone feel. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "98abbb37-6191-475b-986c-2431f021f4a2_5",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence sets up a contrast using 'but': robots designed to be comforting can backfire when they look too human, making people feel 'more unsettled than ______.' The blank names the positive emotional state the design was supposed to produce. Look for the word that matches the design intent of &quot;comforting semblance of humanity.&quot;"
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; soothed</strong>: the passage says these robots are designed to create a &quot;comforting&quot; experience. Soothed is the positive, comforted state that the design aims for — but excessive human-likeness undermines it. &#10003;</li><li><strong>Choice B &mdash; indifferent</strong>: feeling indifferent is neutral, not positive. A robot designed to comfort people wouldn't aim to make them indifferent. &#10007;</li><li><strong>Choice C &mdash; revolted</strong>: revolted is even more negative than unsettled — you can't be more unsettled than revolted. The blank needs to be the positive baseline, not a worse reaction. &#10007;</li><li><strong>Choice D &mdash; vindicated</strong>: vindicated means feeling justified or proven right — unrelated to how a comforting robot is supposed to make someone feel. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "ab1f424a", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the relationship between the two sentences", "content": "The first sentence describes snowpack behavior at lower elevations (deepest in early March). The sentence being completed shifts to higher elevations, which showed a different peak time (mid-March). These are two distinct conditions being compared &mdash; the relationship is contrast, not clarification, example, or summary.<ul><li><strong>Choice A &mdash; 'in other words,'</strong>: signals restatement of the same idea &#10007;</li><li><strong>Choice B &mdash; 'for instance,'</strong>: signals an example of the preceding point &#10007;</li><li><strong>Choice C &mdash; 'on the other hand,'</strong>: signals a contrasting condition &#10003;</li><li><strong>Choice D &mdash; 'in summary,'</strong>: signals a concluding wrap-up, not a comparison &#10007;</li></ul>"}, {"title": "Confirm the answer", "content": "Only &ldquo;on the other hand&rdquo; marks the shift from lower-elevation behavior to the contrasting higher-elevation behavior. That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "ab1f424a",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the relationship between the two sentences",
+      "content": "The first sentence describes snowpack behavior at lower elevations (deepest in early March). The sentence being completed shifts to higher elevations, which showed a different peak time (mid-March). These are two distinct conditions being compared &mdash; the relationship is contrast, not clarification, example, or summary.<ul><li><strong>Choice A &mdash; in other words,</strong>: signals restatement of the same idea &#10007;</li><li><strong>Choice B &mdash; for instance,</strong>: signals an example of the preceding point &#10007;</li><li><strong>Choice C &mdash; on the other hand,</strong>: signals a contrasting condition &#10003;</li><li><strong>Choice D &mdash; in summary,</strong>: signals a concluding wrap-up, not a comparison &#10007;</li></ul>"
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "Only &ldquo;on the other hand&rdquo; marks the shift from lower-elevation behavior to the contrasting higher-elevation behavior. That is the correct answer."
+    }
+  ]
+}

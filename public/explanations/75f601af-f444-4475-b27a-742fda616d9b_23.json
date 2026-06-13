@@ -1,1 +1,15 @@
-{"questionId":"75f601af-f444-4475-b27a-742fda616d9b_23","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage sets up a problem &mdash; Cristall was &quot;largely overlooked&quot; by twentieth-century scholars &mdash; then pivots to a 2020 analysis that &quot;helps illuminate&quot; her contributions. The blank must introduce that second sentence with a transition that signals the analysis responds to and corrects the neglect."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Illustrating this trend,'</strong>: Says the 2020 analysis illustrates the trend of overlooking Cristall, but the analysis does the opposite &mdash; it counters the neglect. &#10007;</li><li><strong>Choice B &mdash; 'In accordance with these scholars,'</strong>: Implies the 2020 analysis agrees with the scholars who ignored Cristall, which contradicts what the sentence says. &#10007;</li><li><strong>Choice C &mdash; 'In addition to this research,'</strong>: Frames the analysis as simply adding to prior scholarship rather than correcting an oversight. &#10007;</li><li><strong>Choice D &mdash; 'Addressing this oversight,'</strong>: &quot;Oversight&quot; directly names the scholars&apos; neglect, and &quot;addressing&quot; signals the analysis corrects it &mdash; a precise problem-to-solution transition. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "75f601af-f444-4475-b27a-742fda616d9b_23",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage sets up a problem &mdash; Cristall was &quot;largely overlooked&quot; by twentieth-century scholars &mdash; then pivots to a 2020 analysis that &quot;helps illuminate&quot; her contributions. The blank must introduce that second sentence with a transition that signals the analysis responds to and corrects the neglect."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Illustrating this trend,&rsquo;</strong>: Says the 2020 analysis illustrates the trend of overlooking Cristall, but the analysis does the opposite &mdash; it counters the neglect. &#10007;</li><li><strong>Choice B &mdash; &lsquo;In accordance with these scholars,&rsquo;</strong>: Implies the 2020 analysis agrees with the scholars who ignored Cristall, which contradicts what the sentence says. &#10007;</li><li><strong>Choice C &mdash; &lsquo;In addition to this research,&rsquo;</strong>: Frames the analysis as simply adding to prior scholarship rather than correcting an oversight. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Addressing this oversight,&rsquo;</strong>: &quot;Oversight&quot; directly names the scholars&apos; neglect, and &quot;addressing&quot; signals the analysis corrects it &mdash; a precise problem-to-solution transition. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

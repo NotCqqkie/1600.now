@@ -9,7 +9,7 @@
     },
     {
       "title": "Find the height at t = 10 seconds",
-      "content": "Substitute $(0,10)$: $$10=a(0-8)^2+1034$$ $$10=64a+1034$$ $$a=-16$$ So $h(t)=-16(t-8)^2+1034$. Evaluate at $t=10$: $$h(10)=-16(2)^2+1034=-64+1034=970$$ That matches choice <strong>C</strong>."
+      "content": "Substitute $(0,10)$: $$10=a(0-8)^2+1034$$ $$10=64a+1034$$ $$a=-16$$ So $h(t)=-16(t-8)^2+1034$. Evaluate at $t=10$: $$h(10)=-16(2)^2+1034=-64+1034=970$$ That confirms <strong>C</strong>."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId":"ec2ddee6-a98b-41ee-9169-7cea79c09b5c_23","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence structure is \"Chaucer didn't write in Modern English; [blank] he wrote in Middle English.\" The semicolon joins two clauses where the second directly corrects the first. The blank needs a transition that signals correction or substitution, not cause, similarity, or sequence."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'rather,'</strong>: Signals correction in the pattern \"not X; rather, Y\" &mdash; exactly the logic here. &#10003;</li><li><strong>Choice B &mdash; 'as a result,'</strong>: Signals causation (the second clause would be an effect of the first). Middle English isn't a result of not writing in Modern English; it's a correction of that claim. &#10007;</li><li><strong>Choice C &mdash; 'similarly,'</strong>: Signals that the two clauses share something in common. The clauses contrast, not parallel. &#10007;</li><li><strong>Choice D &mdash; 'finally,'</strong>: Signals the last step in a sequence. There is no sequence here, only a correction. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_23",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence structure is \"Chaucer didn't write in Modern English; [blank] he wrote in Middle English.\" The semicolon joins two clauses where the second directly corrects the first. The blank needs a transition that signals correction or substitution, not cause, similarity, or sequence."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"rather,\"</strong>: Signals correction in the pattern \"not X; rather, Y\" &mdash; exactly the logic here. &#10003;</li><li><strong>\"as a result,\"</strong>: Signals causation (the second clause would be an effect of the first). Middle English isn't a result of not writing in Modern English; it's a correction of that claim. &#10007;</li><li><strong>\"similarly,\"</strong>: Signals that the two clauses share something in common. The clauses contrast, not parallel. &#10007;</li><li><strong>\"finally,\"</strong>: Signals the last step in a sequence. There is no sequence here, only a correction. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+    }
+  ]
+}

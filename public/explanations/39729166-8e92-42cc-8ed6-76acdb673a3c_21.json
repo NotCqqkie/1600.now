@@ -17,11 +17,11 @@
     },
     {
       "title": "Evaluate all four answer choices",
-      "content": "<ul><li><strong>Choice A &mdash; 'I only'</strong>: Equation I gives infinitely many solutions &#10003;, but Equation II also gives at least one solution &#10003;, so &ldquo;I only&rdquo; is too restrictive. &#10007;</li><li><strong>Choice B &mdash; 'II only'</strong>: Equation II gives exactly one solution &#10003;, but Equation I also gives at least one solution &#10003;, so &ldquo;II only&rdquo; is too restrictive. &#10007;</li><li><strong>Choice C &mdash; 'I and II'</strong>: Both Equation I (infinitely many solutions) and Equation II (exactly one solution) satisfy the condition of having at least one solution. &#10003;</li><li><strong>Choice D &mdash; 'Neither I nor II'</strong>: Both equations do yield at least one solution, so &ldquo;Neither&rdquo; is incorrect. &#10007;</li></ul>"
+      "content": "<ul><li><strong>Choice A — I only</strong>: Equation I gives infinitely many solutions &#10003;, but Equation II also gives at least one solution &#10003;, so &ldquo;I only&rdquo; is too restrictive. &#10007;</li><li><strong>Choice B — II only</strong>: Equation II gives exactly one solution &#10003;, but Equation I also gives at least one solution &#10003;, so &ldquo;II only&rdquo; is too restrictive. &#10007;</li><li><strong>Choice C — I and II</strong>: Both Equation I (infinitely many solutions) and Equation II (exactly one solution) satisfy the condition of having at least one solution. &#10003;</li><li><strong>Choice D — Neither I nor II</strong>: Both equations do yield at least one solution, so &ldquo;Neither&rdquo; is incorrect. &#10007;</li></ul>"
     },
     {
       "title": "Conclusion",
-      "content": "Both equations can serve as the second equation in a system with at least one solution. That matches choice C &mdash; <strong>C</strong> is correct."
+      "content": "Both equations can serve as the second equation in a system with at least one solution. <strong>C</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,19 @@
-{"questionId": "5105ca38", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the scholars' reasoning and Brain's challenge", "content": "Some scholars infer the female figure is Venus because Venus is linked with cupids in Roman culture. Brain points out that cupids may also have been associated with fishing generally, which offers an alternative reason a cupid could appear in a fishing scene."}, {"title": "Derive what the cupid's presence shows", "content": "If a cupid can show up because of the fishing context rather than because of Venus, then the cupid&apos;s presence alone doesn&apos;t prove the figure is Venus. It still might be Venus &mdash; we just can&apos;t conclude that from the cupid."}, {"title": "Per-choice elimination", "content": "<ul><li><strong>Choice A &mdash; 'is not conclusive evidence that the figure is Venus.'</strong>: matches the logic &mdash; an alternative explanation for the cupid weakens the inference without ruling it out. &#10003;</li><li><strong>Choice B &mdash; 'suggests that Venus was often depicted fishing.'</strong>: overreach &mdash; nothing in the text supports a pattern of Venus fishing. &#10007;</li><li><strong>Choice C &mdash; 'eliminates the possibility that the figure is Venus.'</strong>: overreach &mdash; Brain only offers an alternative, not a refutation. &#10007;</li><li><strong>Choice D &mdash; 'would be difficult to account for if the figure is not Venus.'</strong>: contradicts Brain &mdash; her point is precisely that the cupid is easy to account for without Venus, via the fishing association. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "5105ca38",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the scholars' reasoning and Brain's challenge",
+      "content": "Some scholars infer the female figure is Venus because Venus is linked with cupids in Roman culture. Brain points out that cupids may also have been associated with fishing generally, which offers an alternative reason a cupid could appear in a fishing scene."
+    },
+    {
+      "title": "Derive what the cupid's presence shows",
+      "content": "If a cupid can show up because of the fishing context rather than because of Venus, then the cupid&apos;s presence alone doesn&apos;t prove the figure is Venus. It still might be Venus &mdash; we just can&apos;t conclude that from the cupid."
+    },
+    {
+      "title": "Per-choice elimination",
+      "content": "<ul><li><strong>Choice A — is not conclusive evidence that the figure is Venus.</strong>: matches the logic &mdash; an alternative explanation for the cupid weakens the inference without ruling it out. &#10003;</li><li><strong>Choice B — suggests that Venus was often depicted fishing.</strong>: overreach &mdash; nothing in the text supports a pattern of Venus fishing. &#10007;</li><li><strong>Choice C — eliminates the possibility that the figure is Venus.</strong>: overreach &mdash; Brain only offers an alternative, not a refutation. &#10007;</li><li><strong>Choice D — would be difficult to account for if the figure is not Venus.</strong>: contradicts Brain &mdash; her point is precisely that the cupid is easy to account for without Venus, via the fishing association. &#10007;</li></ul><strong>A</strong> is correct."
+    }
+  ]
+}

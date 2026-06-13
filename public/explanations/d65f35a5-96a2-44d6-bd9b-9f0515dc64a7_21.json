@@ -13,7 +13,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A — $-\\dfrac{27r}{7}$</strong>: This is the negative reciprocal of $\\dfrac{7}{27r}$, which would make the lines perpendicular (one solution), not parallel. &#10007;</li><li><strong>Choice B — $-\\dfrac{27}{7r}$</strong>: Negative and structurally different from $\\dfrac{7}{27r}$; lines would intersect at one point. &#10007;</li><li><strong>Choice C — $\\dfrac{7r}{27}$</strong>: Close but the $r$ is in the numerator instead of the denominator, making this a different value. Lines would intersect. &#10007;</li><li><strong>Choice D — $\\dfrac{7}{27r}$</strong>: Matches the slope of the given equation exactly. Parallel lines, no solution. &#10003;</li></ul>That matches choice D — <strong>D</strong> is correct."
+      "content": "<ul><li><strong>\"$-\\frac{27r}{7}$\"</strong>: This is the negative reciprocal of $\\dfrac{7}{27r}$, which would make the lines perpendicular (one solution), not parallel. &#10007;</li><li><strong>\"$-\\frac{27}{7r}$\"</strong>: Negative and structurally different from $\\dfrac{7}{27r}$; lines would intersect at one point. &#10007;</li><li><strong>\"$\\frac{7r}{27}$\"</strong>: Close but the $r$ is in the numerator instead of the denominator, making this a different value. Lines would intersect. &#10007;</li><li><strong>\"$\\frac{7}{27r}$\"</strong>: Matches the slope of the given equation exactly. Parallel lines, no solution. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
     }
   ]
 }

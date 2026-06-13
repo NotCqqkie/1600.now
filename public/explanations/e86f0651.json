@@ -10,7 +10,7 @@
     },
     {
       "title": "Substitute the radius and compute",
-      "content": "With $r = 43$ meters:<br/>$$A = \\pi (43)^2$$<br/>Since $43^2 = 1,849$:<br/>$$A = 1,849\\pi$$<br/>That matches choice D — <strong>D</strong> is correct."
+      "content": "With $r = 43$ meters:<br/>$$A = \\pi (43)^2$$<br/>Since $43^2 = 1,849$:<br/>$$A = 1,849\\pi$$<br/>That matches the correct answer — <strong>D</strong> is correct."
     }
   ]
 }

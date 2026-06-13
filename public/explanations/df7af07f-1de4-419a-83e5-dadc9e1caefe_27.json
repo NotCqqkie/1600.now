@@ -1,1 +1,15 @@
-{"questionId":"df7af07f-1de4-419a-83e5-dadc9e1caefe_27","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks how Cummings and Knapp contributed to Lullfitz&apos;s research. The notes show they confirmed their ancestors carried youlk when traveling &mdash; a concrete detail that supported Lullfitz&apos;s hypothesis about the plant&apos;s distribution."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'describes them vaguely'</strong>: identifies who Cummings and Knapp are without explaining what specific information they provided. &#10007;</li><li><strong>Choice B &mdash; 'misattributes Lullfitz&apos;s findings'</strong>: credits Cummings and Knapp with conclusions that belong to Lullfitz herself. &#10007;</li><li><strong>Choice C &mdash; 'focuses on identity, not contribution'</strong>: tells us about their background rather than what they contributed to the study. &#10007;</li><li><strong>Choice D &mdash; 'ancestors transported the plant, supporting the hypothesis'</strong>: states the specific information they gave (ancestors carried youlk) and explains why it mattered to Lullfitz&apos;s research. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "df7af07f-1de4-419a-83e5-dadc9e1caefe_27",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks how Cummings and Knapp contributed to Lullfitz's research. The notes show they confirmed their ancestors carried youlk when traveling &mdash; a concrete detail that supported Lullfitz's hypothesis about the plant's distribution."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"Lullfitz found that Cummings and Knapp had information relevant to her study of *Platysace deflexa*'s distribution.\"</strong>: identifies who Cummings and Knapp are without explaining what specific information they provided. &#10007;</li><li><strong>\"Cummings and Knapp confirmed that DNA sequences from the *Platysace deflexa* plants Lullfitz had gathered were in fact very similar.\"</strong>: credits Cummings and Knapp with conclusions that belong to Lullfitz herself. &#10007;</li><li><strong>\"Lullfitz consulted Cummings and Knapp, members of the Noongar Aboriginal group, who assisted with her study of *Platysace deflexa*, a small shrub with edible tubers.\"</strong>: tells us about their background rather than what they contributed to the study. &#10007;</li><li><strong>\"By indicating that their ancestors transported *Platysace deflexa*, Cummings and Knapp provided information that supported Lullfitz's hypothesis.\"</strong>: states the specific information they gave (ancestors carried youlk) and explains why it mattered to Lullfitz's research. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

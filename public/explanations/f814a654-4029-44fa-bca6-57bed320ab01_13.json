@@ -1,1 +1,15 @@
-{"questionId": "f814a654-4029-44fa-bca6-57bed320ab01_13", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the key contrast in the data", "content": "Three-host parasites (which depend on at least two vertebrate species) showed declining abundance as sea temperatures rose.<br/><br/>Two-host parasites (which depend on only one vertebrate species) remained stable.<br/><br/>The passage cites this difference to suggest something about how parasite vulnerability is related to the number of vertebrate hosts they require."}, {"title": "Match the explanation to the choices", "content": "Choice C explains the observed pattern: warming caused population changes among Puget Sound vertebrates that suppressed some parasites, but among the eight studied fish species specifically, there were no changes that affected two-host parasite abundance.<br/><br/>The other choices either reverse the observed effect (A), contradict the passage's claim that vertebrates are vulnerable to climate change (B), or assert a relationship opposite to the data (D—parasites with fewer hosts were less sensitive, not more).<br/><br/>The pattern in the data makes sense if parasites with more host dependencies are more vulnerable because warming can disrupt any of their multiple required vertebrate hosts. <br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "f814a654-4029-44fa-bca6-57bed320ab01_13",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key contrast in the data",
+      "content": "Three-host parasites (which depend on at least two vertebrate species) showed declining abundance as sea temperatures rose.<br/><br/>Two-host parasites (which depend on only one vertebrate species) remained stable.<br/><br/>The passage cites this difference to suggest something about how parasite vulnerability is related to the number of vertebrate hosts they require."
+    },
+    {
+      "title": "Match the explanation to the choices",
+      "content": "<strong>warming-induced population changes among Puget Sound vertebrates may have suppressed some parasite populations, but there were no changes among the eight studied host species that affected two-host parasite abundance.</strong> explains the observed pattern: warming caused population changes among Puget Sound vertebrates that suppressed some parasites, but among the eight studied fish species specifically, there were no changes that affected two-host parasite abundance.<br/><br/>The other choices either reverse the observed effect, contradict the passage's claim that vertebrates are vulnerable to climate change, or assert a relationship opposite to the data (D—parasites with fewer hosts were less sensitive, not more).<br/><br/>The pattern in the data makes sense if parasites with more host dependencies are more vulnerable because warming can disrupt any of their multiple required vertebrate hosts. <br/><br/>That matches the correct answer — <strong>C</strong> is correct."
+    }
+  ]
+}

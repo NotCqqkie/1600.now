@@ -1,1 +1,15 @@
-{"questionId": "a086c2cb", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the text's structure", "content": "The passage walks through a mechanism step by step: excess power pumps water up to a summit lake during low demand, and that stored water drains back down to generate electricity during peak demand. The text is a factual, sequential explanation of how one specific technology operates."}, {"title": "Eliminate wrong choices and confirm the answer", "content": "<ul><li><strong>Choice A &mdash; &lsquo;To point out the differences between two methods of energy generation&rsquo;</strong>: The text never compares pumped-storage hydropower to any other method; nuclear plants are only mentioned as the power source for pumping. &#10007;</li><li><strong>Choice B &mdash; &lsquo;To explain the basics of how a specific energy technology works&rsquo;</strong>: This matches exactly&mdash;the passage explains, step by step, how Raccoon Mountain&rsquo;s pumped-storage system works. &#10003;</li><li><strong>Choice C &mdash; &lsquo;To encourage regional electric utilities to build energy storage facilities&rsquo;</strong>: The text contains no persuasive language and makes no recommendation to build more facilities. &#10007;</li><li><strong>Choice D &mdash; &lsquo;To discuss the benefits of a new energy technology&rsquo;</strong>: Raccoon Mountain was built in the 1970s, so the technology is not new, and the text does not frame itself as a discussion of benefits. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "a086c2cb",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the text's structure",
+      "content": "The passage walks through a mechanism step by step: excess power pumps water up to a summit lake during low demand, and that stored water drains back down to generate electricity during peak demand. The text is a factual, sequential explanation of how one specific technology operates."
+    },
+    {
+      "title": "Eliminate wrong choices and confirm the answer",
+      "content": "<ul><li><strong>Choice A &mdash; To point out the differences between two methods of energy generation</strong>: The text never compares pumped-storage hydropower to any other method; nuclear plants are only mentioned as the power source for pumping. &#10007;</li><li><strong>Choice B &mdash; To explain the basics of how a specific energy technology works</strong>: This matches exactly&mdash;the passage explains, step by step, how Raccoon Mountain&rsquo;s pumped-storage system works. &#10003;</li><li><strong>Choice C &mdash; To encourage regional electric utilities to build energy storage facilities</strong>: The text contains no persuasive language and makes no recommendation to build more facilities. &#10007;</li><li><strong>Choice D &mdash; To discuss the benefits of a new energy technology</strong>: Raccoon Mountain was built in the 1970s, so the technology is not new, and the text does not frame itself as a discussion of benefits. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

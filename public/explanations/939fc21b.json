@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice B is correct. Choice A reverses the order and gives $(s,r)$. Choices C and D do not satisfy both $r=3$ and $s+7r=27$.",
+      "content": "The answer is $(3,6)$. Choice A reverses the order and gives $(s,r)$. The pairs $(3,27)$ and $(27,3)$ do not satisfy both $r=3$ and $s+7r=27$.",
       "desmosExpressions": [
         "y=27-7x",
         "x=3"

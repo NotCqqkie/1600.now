@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "<ul><li>Choice A, $\\frac{1}{799}$, is the probability of one particular teen, not this event.</li><li>Choice B, $\\frac{415}{799}$, uses the daily-talk column total over the survey total. Correct.</li><li>Choice C, $\\frac{384}{415}$, mixes the non-daily total with the daily total.</li><li>Choice D, $\\frac{384}{799}$, is the probability of not talking daily.</li></ul>That matches choice B."
+      "content": "<ul><li><strong>\"$1 / 799$\"</strong>: This is the probability of one particular teen, not this event.</li><li><strong>\"$415 / 799$\"</strong>: Uses the daily-talk column total over the survey total. Correct.</li><li><strong>\"$384 / 415$\"</strong>: Mixes the non-daily total with the daily total.</li><li><strong>\"$384 / 799$\"</strong>: This is the probability of not talking daily.</li></ul>That matches the correct answer, <strong>B</strong>."
     }
   ]
 }

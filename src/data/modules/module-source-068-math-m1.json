@@ -45,7 +45,7 @@
     "difficulty": "Easy",
     "question_number": 2,
     "test_name": "Module Source 068 Math M1",
-    "passage": "Which expression is equivalent to $9(x^{2}+6)$?",
+    "passage": "Which expression is equivalent to $9\\left(x^{2}+6\\right)$?",
     "question_text": null,
     "choices": [
       {
@@ -242,7 +242,7 @@
     "difficulty": "Easy",
     "question_number": 10,
     "test_name": "Module Source 068 Math M1",
-    "passage": "Which expression is equivalent to $7x^{6}-14x^{2}$, where $x>0$?",
+    "passage": "Which expression is equivalent to $7x^{6}-14x^{2}$, where $x \\gt 0$?",
     "question_text": null,
     "choices": [
       {
@@ -274,29 +274,29 @@
     "difficulty": "Easy",
     "question_number": 12,
     "test_name": "Module Source 068 Math M1",
-    "passage": "$x -9y > 12$\nWhich of the following inequalities is equivalent to the inequality above?",
+    "passage": "$x -9y \\gt 12$\nWhich of the following inequalities is equivalent to the inequality above?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$x - y > 2$"
+        "text": "$x - y \\gt 2$"
       },
       {
         "label": "B",
-        "text": "$x -3y > 4$"
+        "text": "$x -3y \\gt 4$"
       },
       {
         "label": "C",
-        "text": "$x -2y > 4$"
+        "text": "$x -2y \\gt 4$"
       },
       {
         "label": "D",
-        "text": "$y -2x > 2$"
+        "text": "$y -2x \\gt 2$"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
-    "rationale": "Choice B is correct. Both sides of the given inequality can be divided by 3 to yield $2x - 3y > 4$.\nChoices A, C, and D are incorrect because they are not equivalent to (do not have the same solution set as) the given inequality. For example, the ordered pair $(0, -1.5)$ is a solution to the given inequality, but it is not a solution to any of the inequalities in choices A, C, or D.",
+    "rationale": "Choice B is correct. Both sides of the given inequality can be divided by 3 to yield 2 x minus 3 y, is greater than 4.\nChoices A, C, and D are incorrect because they are not equivalent to (do not have the same solution set as) the given inequality. For example, the ordered pair $0, - 1.5$ is a solution to the given inequality, but it is not a solution to any of the inequalities in choices A, C, or D.",
     "id": "3c95093c"
   },
   {

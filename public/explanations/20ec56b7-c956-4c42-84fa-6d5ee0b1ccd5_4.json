@@ -1,1 +1,15 @@
-{"questionId": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_4", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the meaning the blank must carry", "content": "The example sentence is the key: scholars may &ldquo;inadvertently overlook nuances&rdquo; in Alcott&rsquo;s work. The blank must match &ldquo;overlook&rdquo;&mdash;to dismiss or undervalue subtle features of an author&rsquo;s style."}, {"title": "Eliminate wrong choices and confirm the answer", "content": "<ul><li><strong>Choice A &mdash; &lsquo;magnify&rsquo;</strong>: Magnify means to enlarge or emphasize&mdash;the opposite of overlooking. &#10007;</li><li><strong>Choice B &mdash; &lsquo;scrutinize&rsquo;</strong>: Scrutinize means to examine closely&mdash;again the opposite of overlooking. &#10007;</li><li><strong>Choice C &mdash; &lsquo;discount&rsquo;</strong>: Discount means to disregard or undervalue, which matches &ldquo;overlook&rdquo; in this context. &#10003;</li><li><strong>Choice D &mdash; &lsquo;denounce&rsquo;</strong>: Denounce means to publicly condemn&mdash;too active and hostile compared to inadvertently overlooking. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_4",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the meaning the blank must carry",
+      "content": "The example sentence is the key: scholars may &ldquo;inadvertently overlook nuances&rdquo; in Alcott&rsquo;s work. The blank must match &ldquo;overlook&rdquo;&mdash;to dismiss or undervalue subtle features of an author&rsquo;s style."
+    },
+    {
+      "title": "Eliminate wrong choices and confirm the answer",
+      "content": "<ul><li><strong>Choice A &mdash; magnify</strong>: Magnify means to enlarge or emphasize&mdash;the opposite of overlooking. &#10007;</li><li><strong>Choice B &mdash; scrutinize</strong>: Scrutinize means to examine closely&mdash;again the opposite of overlooking. &#10007;</li><li><strong>Choice C &mdash; discount</strong>: Discount means to disregard or undervalue, which matches &ldquo;overlook&rdquo; in this context. &#10003;</li><li><strong>Choice D &mdash; denounce</strong>: Denounce means to publicly condemn&mdash;too active and hostile compared to inadvertently overlooking. &#10007;</li></ul>That matches <strong>Choice C &mdash; discount</strong>."
+    }
+  ]
+}

@@ -9,7 +9,7 @@
     },
     {
       "title": "Calculate and identify the choice",
-      "content": "$$\\frac{2.7 \\times 3600}{1609} = \\frac{9720}{1609}$$<br/>Computing: $9720 \\div 1609 \\approx 6.04$<br/><br/>Rounded to the nearest tenth: 6.0. That matches choice B — <strong>B</strong> is correct."
+      "content": "$$\\frac{2.7 \\times 3600}{1609} = \\frac{9720}{1609}$$<br/>Computing: $9720 \\div 1609 \\approx 6.04$<br/><br/>Rounded to the nearest tenth: 6.0. That matches the correct answer — <strong>B</strong> is correct."
     }
   ]
 }

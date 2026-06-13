@@ -1,16 +1,10 @@
+import type { BankQuestion } from "@/data/questionBank";
 import {
   buildBankQuestionKey,
-  getAllSourceBankQuestions,
-  type BankQuestion,
   type BankSubject,
-} from "@/data/questionBank";
+} from "@/data/bankTypes";
 import { getSatImageDisplaySize } from "@/data/satQuestionImages";
-import { getPastQuestionDifficulty } from "@/data/pastQuestionDifficulty";
 import type { QuestionCategory } from "@/data/questionCategories";
-import {
-  questionSimilarityGroupByQuestion,
-  questionSimilarityGroupsById,
-} from "@/lib/generated/questionSimilarity.generated";
 
 const rawModuleImports = import.meta.glob("./modules/*.json", {
   eager: true,
@@ -202,9 +196,6 @@ const sortPracticeModules = (left: PracticeModule, right: PracticeModule) => {
   return left.testName.localeCompare(right.testName);
 };
 
-const pastMathBank = getAllSourceBankQuestions("math", "past");
-const pastReadingBank = getAllSourceBankQuestions("reading", "past");
-
 const synthesizedBankQuestions: Record<BankSubject, Map<string, BankQuestion>> = {
   math: new Map(),
   reading: new Map(),
@@ -243,11 +234,7 @@ const synthesizeBankQuestion = (
   })();
   const rawPrompt = rawQuestion.question_text ?? rawQuestion.passage ?? baseQuestion?.prompt ?? "";
   const stableId = baseQuestion?.stableId ?? buildBankQuestionKey("past", subject, rawQuestion.id);
-  const similarityGroupId =
-    baseQuestion?.similarityGroupId ?? questionSimilarityGroupByQuestion[stableId] ?? null;
-  const similarityGroup = similarityGroupId
-    ? questionSimilarityGroupsById[similarityGroupId]
-    : null;
+  const similarityGroupId = baseQuestion?.similarityGroupId ?? null;
   return {
     id: baseQuestion?.id ?? 0,
     stableId,
@@ -276,19 +263,19 @@ const synthesizeBankQuestion = (
       alt: img.alt ?? "",
       displaySize: getSatImageDisplaySize(img.src),
     })) ?? baseQuestion?.questionImages,
-    difficulty: getPastQuestionDifficulty(rawQuestion.id) ?? moduleDifficulty ?? baseQuestion?.difficulty ?? null,
+    difficulty: moduleDifficulty ?? baseQuestion?.difficulty ?? null,
     inPracticeTests: true,
     category,
     similarityTag: similarityGroupId,
     similarityGroupId,
-    similarityGroupLabel: baseQuestion?.similarityGroupLabel ?? similarityGroup?.label ?? null,
-    similarityGroupSize: baseQuestion?.similarityGroupSize ?? similarityGroup?.questionKeys.length ?? null,
+    similarityGroupLabel: baseQuestion?.similarityGroupLabel ?? null,
+    similarityGroupSize: baseQuestion?.similarityGroupSize ?? null,
   };
 };
 
 const bankQuestionIndexBySubject: Record<BankSubject, Map<string, BankQuestion>> = {
-  math: new Map(pastMathBank.map((question) => [question.sourceId, question])),
-  reading: new Map(pastReadingBank.map((question) => [question.sourceId, question])),
+  math: new Map(),
+  reading: new Map(),
 };
 
 const getModuleBankQuestion = (

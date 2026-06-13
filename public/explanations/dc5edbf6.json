@@ -1,1 +1,15 @@
-{"questionId": "dc5edbf6", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The passage states that Reichert's team found corals may store up to 20 million kilograms of microplastics <strong>annually in their skeletons and tissues</strong>. This specific claim about coral actively storing large quantities of microplastics is the main idea."}, {"title": "Match the meaning", "content": "Choice D captures the study's central finding: corals store large amounts of microplastics from ocean waters.<ul><li>A focuses on reef-building (not the study's focus)</li><li>B introduces vague unresolved questions (not in the text)</li><li>C only defines microplastics (background detail, not the main idea)</li><li>D restates the key finding about corals storing microplastics</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "dc5edbf6",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The passage states that Reichert's team found corals may store up to 20 million kilograms of microplastics <strong>annually in their skeletons and tissues</strong>. This specific claim about coral actively storing large quantities of microplastics is the main idea."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "<strong>Ecologists predict that corals store large amounts of microplastics from ocean waters.</strong> captures the study's central finding: corals store large amounts of microplastics from ocean waters.<ul><li>A focuses on reef-building (not the study's focus)</li><li>B introduces vague unresolved questions (not in the text)</li><li>C only defines microplastics (background detail, not the main idea)</li><li>D restates the key finding about corals storing microplastics</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

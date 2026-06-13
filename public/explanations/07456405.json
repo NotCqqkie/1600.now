@@ -1,1 +1,19 @@
-{"questionId": "07456405", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the claim to refute", "content": "The student wants to refute the claim that &quot;malapportionment in the Storting favors small urban districts.&quot; To refute it, the answer must show the opposite&mdash;that malapportionment actually favors rural districts."}, {"title": "Locate the supporting note", "content": "The notes state seats are awarded by formula at 1.8 points per unit of land vs. 1 point per resident, and that &quot;less populated rural districts with large tracts of land receive a disproportionate number of seats.&quot; Citing this directly refutes the urban-favoring claim."}, {"title": "Eliminate by misread/overreach", "content": "<ul><li><strong>Choice A &mdash; &apos;rural districts are disproportionally underrepresented... unfair advantage for... urban districts&apos;</strong>: contradicts the notes (rural are over-, not under-represented) and reinforces the claim instead of refuting it. &#10007;</li><li><strong>Choice B &mdash; &apos;formula... overrepresents more populated districts&apos;</strong>: also contradicts the notes&mdash;less populated rural districts are the ones overrepresented. &#10007;</li><li><strong>Choice C &mdash; &apos;A common feature of representative governments...&apos;</strong>: just defines malapportionment without addressing who benefits in Norway. &#10007;</li><li><strong>Choice D &mdash; &apos;Awarding more points per unit of land than... per resident... overrepresents less populated rural districts&apos;</strong>: cites the exact land-vs-resident weighting and identifies rural overrepresentation, directly refuting the urban-favoring claim. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "07456405",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the claim to refute",
+      "content": "The student wants to refute the claim that &quot;malapportionment in the Storting favors small urban districts.&quot; To refute it, the answer must show the opposite&mdash;that malapportionment actually favors rural districts."
+    },
+    {
+      "title": "Locate the supporting note",
+      "content": "The notes state seats are awarded by formula at 1.8 points per unit of land vs. 1 point per resident, and that &quot;less populated rural districts with large tracts of land receive a disproportionate number of seats.&quot; Citing this directly refutes the urban-favoring claim."
+    },
+    {
+      "title": "Eliminate by misread/overreach",
+      "content": "<ul><li><strong>Choice A &mdash; Less populated rural districts are disproportionally underrepresented in the Storting, creating an unfair advantage for smaller but more populated urban districts.</strong>: contradicts the notes (rural are over-, not under-represented) and reinforces the claim instead of refuting it. &#10007;</li><li><strong>Choice B &mdash; It's untrue that malapportionment in the 169-seat Storting favors small urban districts; rather, the formula for distributing seats overrepresents more populated districts.</strong>: also contradicts the notes&mdash;less populated rural districts are the ones overrepresented. &#10007;</li><li><strong>Choice C &mdash; A common feature of representative governments, malapportionment occurs when electoral districts are over- or underrepresented.</strong>: just defines malapportionment without addressing who benefits in Norway. &#10007;</li><li><strong>Choice D &mdash; Awarding more points per unit of land than points per resident, the formula for distributing Storting seats overrepresents less populated rural districts with large tracts of land.</strong>: cites the exact land-vs-resident weighting and identifies rural overrepresentation, directly refuting the urban-favoring claim. &#10003;</li></ul>That matches <strong>Choice D &mdash; Awarding more points per unit of land than points per resident, the formula for distributing Storting seats overrepresents less populated rural districts with large tracts of land.</strong>."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "a240b08f-646d-4227-8b1f-fadf4c312b08_4", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Use the density formula", "content": "$$\\text{density} = \\frac{\\text{mass}}{\\text{volume}} = \\frac{308 \\text{ g}}{28 \\text{ cm}^3}$$"}, {"title": "Compute", "content": "$\\frac{308}{28} = 11$ grams per cubic centimeter.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "a240b08f-646d-4227-8b1f-fadf4c312b08_4",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the density formula",
+      "content": "$$\\text{density} = \\frac{\\text{mass}}{\\text{volume}} = \\frac{308 \\text{ g}}{28 \\text{ cm}^3}$$"
+    },
+    {
+      "title": "Compute",
+      "content": "$\\frac{308}{28} = 11$ grams per cubic centimeter.<br/><br/>The units also check: grams divided by cubic centimeters gives grams per cubic centimeter, which is exactly the density unit requested. That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Apply the triangle angle sum theorem",
-      "content": "The figure shows a triangle with interior angles labeled $x°$, $y°$, and $z°$. The sum of the interior angles of any triangle equals $180°$:<br/>$$x + y + z = 180$$"
+      "content": "The figure shows a triangle with interior angles labeled $x^{\\circ}$, $y^{\\circ}$, and $z^{\\circ}$. The sum of the interior angles of any triangle equals $180^{\\circ}$:<br/>$$x + y + z = 180$$"
     },
     {
       "title": "Substitute the given values and solve",
-      "content": "Using the given values $y = 20$ and $z = 60$:<br/>$$x + 20 + 60 = 180$$<br/>$$x = 100$$<br/>That matches choice B — <strong>B</strong> is correct."
+      "content": "Using the given values $y = 20$ and $z = 60$:<br/>$$x + 20 + 60 = 180$$<br/>$$x = 100$$<br/>That is the correct answer."
     }
   ]
 }

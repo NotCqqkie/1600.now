@@ -1,1 +1,15 @@
-{"questionId": "d70596a3-d7c7-4cbc-9453-87383eff173a_3", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The passage says the measurement <strong>'differs significantly from the standard model&apos;s prediction'</strong> — a direct contradiction. The blank must name what a contradictory result does to a theory."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'satisfy'</strong>: means to fulfill or meet — opposite of the logic. &#10007;</li><li><strong>Choice B &mdash; 'simplify'</strong>: means to make easier — irrelevant to the contradiction. &#10007;</li><li><strong>Choice C &mdash; 'overtake'</strong>: means to surpass — wrong relationship; the measurement doesn&apos;t replace the theory. &#10007;</li><li><strong>Choice D &mdash; 'undermine'</strong>: means to weaken credibility or foundation — exactly what a contradictory measurement does to a theory. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "d70596a3-d7c7-4cbc-9453-87383eff173a_3",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage says the measurement <strong>'differs significantly from the standard model's prediction'</strong> — a direct contradiction. The blank must name what a contradictory result does to a theory."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"satisfy\"</strong>: means to fulfill or meet — opposite of the logic. &#10007;</li><li><strong>\"simplify\"</strong>: means to make easier — irrelevant to the contradiction. &#10007;</li><li><strong>\"overtake\"</strong>: means to surpass — wrong relationship; the measurement doesn't replace the theory. &#10007;</li><li><strong>\"undermine\"</strong>: means to weaken credibility or foundation — exactly what a contradictory measurement does to a theory. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

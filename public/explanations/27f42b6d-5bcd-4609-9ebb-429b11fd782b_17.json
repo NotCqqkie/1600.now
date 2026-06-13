@@ -1,1 +1,15 @@
-{"questionId": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_17", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the structure", "content": "The sentence: \"The part of a compound that determines the compound's color is ______ the chromophore.\" The verb \"called\" takes \"the chromophore\" as its required object complement — the name being assigned. Rule: no punctuation separates a verb from its required complement."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A — called—</strong>: \"...color is called— the chromophore.\" An em dash after \"called\" creates an abrupt break before the required complement, making the verb feel dangling. ✗</li><li><strong>Choice B — called;</strong>: \"...color is called; the chromophore.\" A semicolon joins two independent clauses, but \"the chromophore\" alone is not an independent clause — it is the object complement of \"called.\" ✗</li><li><strong>Choice C — called,</strong>: \"...color is called, the chromophore.\" A comma between a verb and its required object complement is never correct; it wrongly separates \"called\" from what it names. ✗</li><li><strong>Choice D — called</strong>: \"...color is called the chromophore.\" No punctuation — correct because \"the chromophore\" is the required object complement of \"called.\" ✓</li></ul>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_17",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the structure",
+      "content": "The sentence: \"The part of a compound that determines the compound's color is ______ the chromophore.\" The verb \"called\" takes \"the chromophore\" as its required object complement — the name being assigned. Rule: no punctuation separates a verb from its required complement."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A: called—</strong>: \"...color is called— the chromophore.\" An em dash after \"called\" creates an abrupt break before the required complement, making the verb feel dangling. ✗</li><li><strong>Choice B — called;</strong>: \"...color is called; the chromophore.\" A semicolon joins two independent clauses, but \"the chromophore\" alone is not an independent clause — it is the object complement of \"called.\" ✗</li><li><strong>Choice C — called,</strong>: \"...color is called, the chromophore.\" A comma between a verb and its required object complement is never correct; it wrongly separates \"called\" from what it names. ✗</li><li><strong>Choice D — called</strong>: \"...color is called the chromophore.\" No punctuation — correct because \"the chromophore\" is the required object complement of \"called.\" ✓</li></ul>That matches <strong>Choice D &mdash; called</strong>."
+    }
+  ]
+}

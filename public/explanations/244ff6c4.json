@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "<ul><li>Choice A, $-\\sqrt{3}$, has the correct magnitude and negative sign.</li><li>Choice B is the reciprocal value.</li><li>Choice C is positive and also reciprocal.</li><li>Choice D is the quadrant I value, but the angle lands in quadrant II.</li></ul>That matches choice A."
+      "content": "<ul><li><strong>Choice A &mdash; $-\\sqrt{3}$</strong>, $-\\sqrt{3}$, has the correct magnitude and negative sign.</li><li><strong>Choice B &mdash; $-\\frac{\\sqrt{3}}{3}$</strong> is the reciprocal value.</li><li><strong>Choice C &mdash; $\\frac{\\sqrt{3}}{3}$</strong> is positive and also reciprocal.</li><li><strong>Choice D &mdash; $\\sqrt{3}$</strong> is the quadrant I value, but the angle lands in quadrant II.</li></ul>That matches <strong>Choice A &mdash; $-\\sqrt{3}$</strong>."
     }
   ]
 }

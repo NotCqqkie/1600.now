@@ -9,7 +9,7 @@
     },
     {
       "title": "Combine like terms",
-      "content": "Adding the two parts gives $$x^4+22x^2+121+x^2-25=x^4+23x^2+96.$$ That matches choice B, so <strong>B</strong> is correct. The missing odd-power terms are expected because both parts create only even powers and constants."
+      "content": "Adding the two parts gives $$x^4+22x^2+121+x^2-25=x^4+23x^2+96.$$ This matches, so <strong>B</strong> is correct. The missing odd-power terms are expected because both parts create only even powers and constants."
     }
   ]
 }

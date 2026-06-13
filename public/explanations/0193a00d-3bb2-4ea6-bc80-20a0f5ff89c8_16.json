@@ -9,7 +9,7 @@
     },
     {
       "title": "Match the form",
-      "content": "With $c, d > 0$: choice A is $f(x) = -d - cx$, which has slope $-c \\lt 0$ and y-intercept $-d \\lt 0$. That matches both signs.<br/><br/>B has positive slope and intercept; C has positive slope; D has positive intercept.<br/><br/>That matches choice A — <strong>A</strong> is correct."
+      "content": "With $c, d \\gt  0$: <strong>Choice A &mdash; $f(x) = -d - cx$</strong> is $f(x) = -d - cx$, which has slope $-c \\lt 0$ and y-intercept $-d \\lt 0$. That matches both signs.<br/><br/>B has positive slope and intercept; C has positive slope; D has positive intercept.<br/><br/>That matches <strong>Choice A &mdash; $f(x) = -d - cx$</strong>."
     }
   ]
 }

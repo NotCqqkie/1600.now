@@ -788,16 +788,16 @@
     "difficulty": "Medium",
     "question_number": 25,
     "test_name": "Module Source 129 Eng M1",
-    "passage": "The student wants to provide an example of a sky island. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• The El Pinito Mountains are a mountain range located in northwestern Mexico.\n• The range is one of the dozens of “sky islands\" in the southwestern US and northwestern Mexico.\n• A sky island is an isolated mountain range whose environment differs drastically from that of the surrounding lowlands.\n• The US Forest Service (USFS) said, “The mountains are 'islands' surrounded by deserts that are 'seas.'”\n• The USFS said, “Each Sky Island is a unique ecosystem.”",
+    "passage": "The student wants to provide an example of a sky island. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• The El Pinito Mountains are a mountain range located in northwestern Mexico.\n• The range is one of the dozens of \"sky islands\" in the southwestern US and northwestern Mexico.\n• A sky island is an isolated mountain range whose environment differs drastically from that of the surrounding lowlands.\n• The US Forest Service (USFS) said, \"The mountains are 'islands' surrounded by deserts that are 'seas.'\"\n• The USFS said, \"Each Sky Island is a unique ecosystem.\"",
     "question_text": "The student wants to provide an example of a sky island. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
     "choices": [
       {
         "label": "A",
-        "text": "Sky islands are isolated mountain ranges whose environments differ drastically from that of the surrounding lowlands; as the USFS puts it, “the mountains are 'islands' surrounded by deserts that are 'seas.'”"
+        "text": "Sky islands are isolated mountain ranges whose environments differ drastically from that of the surrounding lowlands; as the USFS puts it, \"the mountains are 'islands' surrounded by deserts that are 'seas.'\""
       },
       {
         "label": "B",
-        "text": "The USFS considers each of the sky islands, whose environments differ drastically from that of the surrounding lowlands, to be a “unique ecosystem.”"
+        "text": "The USFS considers each of the sky islands, whose environments differ drastically from that of the surrounding lowlands, to be a \"unique ecosystem.\""
       },
       {
         "label": "C",

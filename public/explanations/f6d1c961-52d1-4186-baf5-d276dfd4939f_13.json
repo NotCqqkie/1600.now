@@ -1,1 +1,15 @@
-{"questionId":"f6d1c961-52d1-4186-baf5-d276dfd4939f_13","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage states that a kestrel&apos;s surroundings significantly affect its hormone levels, then uses &apos;Therefore&apos; to signal an expected finding. The blank must report a difference in hormone levels between wild and captive kestrels."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; compares hormone levels across different species</strong>: The passage is about wild vs. captive kestrels, not across species. &#10007;</li><li><strong>Choice B &mdash; claims wild and captive kestrels have similar hormone levels</strong>: &apos;Therefore&apos; signals that different surroundings should produce different levels — similarity contradicts the logic. &#10007;</li><li><strong>Choice C &mdash; addresses variation among individual kestrels</strong>: Individual variation is unrelated to the environmental effect the passage describes. &#10007;</li><li><strong>Choice D &mdash; wild males have higher androgen levels than captive males during breeding season</strong>: This reports a difference in hormone levels tied directly to setting (wild vs. captive), completing the &apos;Therefore&apos; inference. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "f6d1c961-52d1-4186-baf5-d276dfd4939f_13",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage states that a kestrel's surroundings significantly affect its hormone levels, then uses 'Therefore' to signal an expected finding. The blank must report a difference in hormone levels between wild and captive kestrels."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"hormone levels were higher in wild males than in captive male canaries.\"</strong>: The passage is about wild vs. captive kestrels, not across species. &#10007;</li><li><strong>\"wild males and captive males usually exhibited very similar hormone levels.\"</strong>: 'Therefore' signals that different surroundings should produce different levels — similarity contradicts the logic. &#10007;</li><li><strong>\"significant differences in hormone levels between individuals were found for both wild males and captive males.\"</strong>: Individual variation is unrelated to the environmental effect the passage describes. &#10007;</li><li><strong>\"levels of androgen hormones during breeding season the higher in wild males than they are in captive males.\"</strong>: This reports a difference in hormone levels tied directly to setting (wild vs. captive), completing the 'Therefore' inference. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

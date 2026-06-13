@@ -9,7 +9,7 @@
     },
     {
       "title": "Evaluate f(3)",
-      "content": "$$f(3)=3(3)-2=7.$$ The value is $7$, which matches choice <strong>B</strong>. This uses the requested input $x=3$, not the table input $x=2$, so it answers the actual question."
+      "content": "$$f(3)=3(3)-2=7.$$ The value is $7$, which matches <strong>B</strong>. This uses the requested input $x=3$, not the table input $x=2$, so it answers the actual question."
     }
   ]
 }

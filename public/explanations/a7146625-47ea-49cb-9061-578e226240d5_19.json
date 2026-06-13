@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Find base angles of isosceles triangle ACD",
-      "content": "Since $AC = CD$ (given) and $\\angle ACD = 108°$ (given), triangle $ACD$ is isosceles. The base angles opposite the equal sides are equal:<br/>$$\\angle CAD = \\angle CDA = \\frac{180° - 108°}{2} = \\frac{72°}{2} = 36°$$"
+      "content": "Since $AC = CD$ (given) and $\\angle ACD = 108^{\\circ}$ (given), triangle $ACD$ is isosceles. The base angles opposite the equal sides are equal:<br/>$$\\angle CAD = \\angle CDA = \\frac{180^{\\circ} - 108^{\\circ}}{2} = \\frac{72^{\\circ}}{2} = 36^{\\circ}$$"
     },
     {
       "title": "Use the crossing angle at D",
-      "content": "At $D$, $\\angle BDE$ is the same angle as $\\angle CDA$, so<br/>$$\\angle BDE=36°.$$"
+      "content": "At $D$, $\\angle BDE$ is the same angle as $\\angle CDA$, so<br/>$$\\angle BDE=36^{\\circ}.$$"
     },
     {
       "title": "Find the angle at E inside triangle BDE",
-      "content": "Since $B$, $C$, and $D$ are collinear in the figure, $\\angle DBE=\\angle EBC=29°$. In triangle $BDE$:<br/>$$\\angle DEB=180°-29°-36°=115°.$$"
+      "content": "Since $B$, $C$, and $D$ are collinear in the figure, $\\angle DBE=\\angle EBC=29^{\\circ}$. In triangle $BDE$:<br/>$$\\angle DEB=180^{\\circ}-29^{\\circ}-36^{\\circ}=115^{\\circ}.$$"
     },
     {
       "title": "Use the straight angle at E",
-      "content": "$\\angle DEB$ and $x°$ form a straight line, so they sum to $180°$:<br/>$$x=180°-115°=65°$$<br/>The answer is <strong>65</strong>."
+      "content": "$\\angle DEB$ and $x^{\\circ}$ form a straight line, so they sum to $180^{\\circ}$:<br/>$$x=180^{\\circ}-115^{\\circ}=65^{\\circ}$$<br/>The answer is <strong>65</strong>."
     }
   ]
 }

@@ -13,7 +13,7 @@
     },
     {
       "title": "Use the choices",
-      "content": "Because $y=f(x)+8$, choice B gives<br/>$$y=(-5x-9)+8=-5x-1$$<br/>which matches the graph. The other choices become lines with either slope $-14$ or y-intercept $16$, so they do not match. Therefore choice B, $f(x)=-5x-9$, is correct.",
+      "content": "Because $y=f(x)+8$, using $f(x)=-5x-9$ gives<br/>$$y=(-5x-9)+8=-5x-1$$<br/>which matches the graph. The other choices become lines with either slope $-14$ or y-intercept $16$, so they do not match. Therefore $f(x)=-5x-9$ is correct.",
       "desmosExpressions": [
         "y = -14x - 1",
         "y = -5x - 1",

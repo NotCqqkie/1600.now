@@ -1,1 +1,15 @@
-{"questionId":"11ab7acb-9d06-445e-8071-b2cefe5234c2_17","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence has two independent clauses joined by &apos;and.&apos; The second clause has the plural subject &apos;its theoretical linguistic properties&apos; and needs a finite main verb at the blank."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;having reflected&apos;</strong>: A perfect participle &mdash; non-finite, so it cannot serve as the main verb of an independent clause. This leaves the second clause without a verb. &#10007;</li><li><strong>Choice B &mdash; &apos;reflect&apos;</strong>: A finite plural verb agreeing with the plural subject &apos;properties.&apos; Completes the independent clause correctly. &#10003;</li><li><strong>Choice C &mdash; &apos;reflecting&apos;</strong>: A present participle &mdash; non-finite, same problem as A. No main verb for the clause. &#10007;</li><li><strong>Choice D &mdash; &apos;that reflect&apos;</strong>: Introduces a relative clause modifying &apos;properties,&apos; which leaves the independent clause without its own main verb. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "11ab7acb-9d06-445e-8071-b2cefe5234c2_17",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence has two independent clauses joined by &apos;and.&apos; The second clause has the plural subject &apos;its theoretical linguistic properties&apos; and needs a finite main verb at the blank."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; having reflected</strong>: A perfect participle &mdash; non-finite, so it cannot serve as the main verb of an independent clause. This leaves the second clause without a verb. &#10007;</li><li><strong>Choice B &mdash; reflect</strong>: A finite plural verb agreeing with the plural subject &apos;properties.&apos; Completes the independent clause correctly. &#10003;</li><li><strong>Choice C &mdash; reflecting</strong>: A present participle &mdash; non-finite, same problem as A. No main verb for the clause. &#10007;</li><li><strong>Choice D &mdash; that reflect</strong>: Introduces a relative clause modifying &apos;properties,&apos; which leaves the independent clause without its own main verb. &#10007;</li></ul>That matches <strong>Choice B &mdash; reflect</strong>."
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 {
+  "questionId": "89541f9b",
   "qid": "89541f9b",
   "correctAnswer": "C",
   "steps": [
@@ -19,7 +20,7 @@
       "content": "Only pairs I and II satisfy $5x - 3y \\lt 4$, so the answer is choice C. As a Desmos check, graph the inequality and plot the three points; pairs I and II land in the shaded solution region, while pair III does not."
     }
   ],
-  "explanation": "<ul><li><strong>Choice A &mdash; 'I only'</strong>: Pair I works, but Pair II also works, so this is incomplete. &#10007;</li><li><strong>Choice B &mdash; 'II only'</strong>: Pair II works, but so does Pair I, so this is incomplete. &#10007;</li><li><strong>Choice C &mdash; 'I and II only'</strong>: Pair I gives 2 &lt; 4 (true); Pair II gives &minus;5 &lt; 4 (true); Pair III gives 9 &lt; 4 (false). Exactly I and II satisfy the inequality. &#10003;</li><li><strong>Choice D &mdash; 'I and III only'</strong>: Pair III gives 9 &lt; 4, which is false, so III cannot be included. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.",
+  "explanation": "<ul><li><strong>Choice A &mdash; I only</strong>: Pair I works, but Pair II also works, so this is incomplete. &#10007;</li><li><strong>Choice B &mdash; II only</strong>: Pair II works, but so does Pair I, so this is incomplete. &#10007;</li><li><strong>Choice C &mdash; I and II only</strong>: Pair I gives 2 &lt; 4 (true); Pair II gives &minus;5 &lt; 4 (true); Pair III gives 9 &lt; 4 (false). Exactly I and II satisfy the inequality. &#10003;</li><li><strong>Choice D &mdash; I and III only</strong>: Pair III gives 9 &lt; 4, which is false, so III cannot be included. &#10007;</li></ul>That confirms <strong>C</strong> is correct.",
   "desmosExpressions": [
     "5x-3y<4",
     "(1,1)",

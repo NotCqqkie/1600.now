@@ -13,7 +13,7 @@
     },
     {
       "title": "Match to the choices",
-      "content": "<ul><li>A: $5x^2 - 5x$ &mdash; exactly what we derived. That matches choice A &mdash; <strong>A</strong> is correct.</li><li>B: $5x^2 + 5x$ &mdash; wrong sign on the second term. Eliminated.</li><li>C: $5x$ &mdash; missing the $x^2$ term. Eliminated.</li><li>D: $5x^2$ &mdash; missing the $-5x$ term. Eliminated.</li></ul>"
+      "content": "<ul><li>A: $5x^2 - 5x$ &mdash; exactly what we derived. That confirms <strong>A</strong> is correct.</li><li>B: $5x^2 + 5x$ &mdash; wrong sign on the second term. Eliminated.</li><li>C: $5x$ &mdash; missing the $x^2$ term. Eliminated.</li><li>D: $5x^2$ &mdash; missing the $-5x$ term. Eliminated.</li></ul>"
     }
   ]
 }

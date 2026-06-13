@@ -1,1 +1,15 @@
-{"questionId": "6e0e0de1", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the core problem and contrast", "content": "The passage identifies why conventional aerogels fail: they “fracture due to degradation from repeated exposure to high heat.” Duan's new aerogel exhibits opposite qualities—it's “uniquely flexible,” “contracts rather than expands when heated,” and “fully recovers” after extreme compression.<br/><br/>This direct contrast is the decisive clue."}, {"title": "Match the contrast to the correct inference", "content": "Choice D states the aerogel will be “less prone to the structural weakness that ultimately causes most other aerogels to break down”—the brittleness and degradation the passage identifies.<br/><br/>The new material's properties—contracting when heated and recovering fully from compression—are the opposite of what causes conventional aerogels to fail, meaning it will avoid this weakness.<br/><br/>The other choices either speculate about composition not mentioned (A), claim reduced heat resistance that contradicts the passage's implications (B), or introduce distinctions about heating rates not discussed in the passage (C).<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "6e0e0de1",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the core problem and contrast",
+      "content": "The passage identifies why conventional aerogels fail: they “fracture due to degradation from repeated exposure to high heat.” Duan's new aerogel exhibits opposite qualities—it's “uniquely flexible,” “contracts rather than expands when heated,” and “fully recovers” after extreme compression.<br/><br/>This direct contrast is the decisive clue."
+    },
+    {
+      "title": "Match the contrast to the correct inference",
+      "content": "Choice D (&lsquo;the aerogel will be less prone to the structural weakness that ultimately causes most other aerogels to break down with use.&rsquo;) states the aerogel will be “less prone to the structural weakness that ultimately causes most other aerogels to break down”—the brittleness and degradation the passage identifies.<br/><br/>The new material's properties—contracting when heated and recovering fully from compression—are the opposite of what causes conventional aerogels to fail, meaning it will avoid this weakness.<br/><br/>The other choices either speculate about composition not mentioned, claim reduced heat resistance that contradicts the passage's implications or introduce distinctions about heating rates not discussed in the passage.<br/><br/>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

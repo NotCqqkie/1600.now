@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Identify and cancel the common factor",
-      "content": "The numerator and denominator both contain the factor $(k+6)$. Since $k > -6$, we know $(k+6) \\neq 0$, so we can cancel this factor:<br/>$$\\frac{27(k+6)}{3(k+6)} = \\frac{27}{3}$$"
+      "content": "The numerator and denominator both contain the factor $(k+6)$. Since $k \\gt -6$, we know $(k+6) \\neq 0$, so we can cancel this factor:<br/>$$\\frac{27(k+6)}{3(k+6)} = \\frac{27}{3}$$"
     },
     {
       "title": "Simplify the fraction",

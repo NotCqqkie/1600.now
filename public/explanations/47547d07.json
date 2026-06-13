@@ -1,1 +1,15 @@
-{"questionId": "47547d07", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the sequential structure", "content": "The passage frames a sequence with explicit markers: “First, the turtle will dig her nest” (step 1) and “Finally, she will cover it all with sand” (step 3). The blank needs the transition for the middle step."}, {"title": "Choose the transition that marks the next step", "content": "”Next” directly signals the second step in a sequence, fitting between “First” and “Finally.” The other three all fail to show progression: “By contrast” introduces contradiction, “Similarly” suggests equivalence, and “For example” offers a specific instance rather than continuation.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "47547d07",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the sequential structure",
+      "content": "The passage frames a sequence with explicit markers: “First, the turtle will dig her nest” (step 1) and “Finally, she will cover it all with sand” (step 3). The blank needs the transition for the middle step."
+    },
+    {
+      "title": "Choose the transition that marks the next step",
+      "content": "”Next” directly signals the second step in a sequence, fitting between “First” and “Finally.” The other three all fail to show progression: “By contrast” introduces contradiction, “Similarly” suggests equivalence, and “For example” offers a specific instance rather than continuation.<br/><br/><strong>C</strong> is correct."
+    }
+  ]
+}

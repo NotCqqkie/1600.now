@@ -13,7 +13,7 @@
     },
     {
       "title": "Match the choice",
-      "content": "Choice D is the only function with initial value $3{,}000$ and decay factor $0.98$. Therefore, <strong>D</strong> is correct."
+      "content": "<strong>Choice D &mdash; $f(x) = 3,000 \\times (0.98)^x$</strong> is the only function with initial value $3{,}000$ and decay factor $0.98$. Therefore, <strong>D</strong> is correct."
     }
   ]
 }

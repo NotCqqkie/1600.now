@@ -1,14 +1,22 @@
-import {
-  BANK_COUNT_INDEX,
-  BANK_QUESTION_META_ROWS,
-  type BankQuestionMetaRow,
-} from "@/lib/generated/bankMetadata.generated";
+import { BANK_COUNT_INDEX } from "@/lib/generated/bankCountIndex.generated";
 import {
   defaultFilters,
   MAX_TIME_SPENT_FILTER_SECONDS,
   type QuestionBankFilters,
 } from "@/components/question/questionBankFilterModel";
 import type { BankSourceFilter, BankSubject } from "@/data/bankTypes";
+
+type BankQuestionMetaRow = [
+  stableId: string,
+  sourceId: string,
+  bankType: "past" | "unofficial",
+  subject: BankSubject,
+  domain: string,
+  skill: string,
+  difficulty: "Easy" | "Medium" | "Hard" | null,
+  active: boolean,
+  bankVisible: boolean,
+];
 
 export interface BankQuestionMeta {
   stableId: string;
@@ -66,13 +74,14 @@ const toMeta = (row: BankQuestionMetaRow): BankQuestionMeta => ({
   bankVisible: row[8],
 });
 
-const metaRows = BANK_QUESTION_META_ROWS.map(toMeta);
+let metaRowsPromise: Promise<BankQuestionMeta[]> | null = null;
 
-export const activePastQuestionSourceIds = new Set(
-  metaRows
-    .filter((question) => question.bankType === "past" && question.active)
-    .map((question) => question.sourceId),
-);
+const loadMetaRows = () => {
+  metaRowsPromise ??= import("@/lib/generated/bankMetadata.generated").then((mod) =>
+    (mod.BANK_QUESTION_META_ROWS as BankQuestionMetaRow[]).map(toMeta),
+  );
+  return metaRowsPromise;
+};
 
 const emptyBucket = (): QuestionCountBucket => ({
   total: 0,
@@ -180,35 +189,46 @@ const hasQuestionFilters = (filters: QuestionBankFilters) =>
   filters.activeQuestions !== defaultFilters.activeQuestions ||
   hasProgressFilters(filters);
 
-export const getBankQuestionMetaRows = (
+export const loadBankQuestionMetaRows = async (
   subject: BankSubject,
   bankSource: BankSourceFilter,
-) => metaRows.filter(
-  (question) => question.bankVisible && question.subject === subject && matchesBankSource(question, bankSource),
-);
+): Promise<BankQuestionMeta[]> =>
+  (await loadMetaRows()).filter(
+    (question) => question.bankVisible && question.subject === subject && matchesBankSource(question, bankSource),
+  );
 
-export const getQuestionCountTree = (
+const getQuestionCountTreeFromIndex = (
+  bankSource: BankSourceFilter,
+): QuestionCountTree => {
+  const tree = emptyTree();
+  for (const subject of ["math", "reading"] as const) {
+    const generated = BANK_COUNT_INDEX[bankSource][subject];
+    const bucket = tree[subject];
+    bucket.total = generated.total;
+    for (const [domain, total] of Object.entries(generated.domains)) {
+      bucket.domains[domain] = { total, correct: 0 };
+    }
+    for (const [skill, total] of Object.entries(generated.skills)) {
+      bucket.skills[skill] = { total, correct: 0 };
+    }
+  }
+  return tree;
+};
+
+export const getDefaultQuestionCountTree = getQuestionCountTreeFromIndex;
+
+export const loadQuestionCountTree = async (
   bankSource: BankSourceFilter,
   filters: QuestionBankFilters,
   getProgress: BankQuestionProgressLookup,
-): QuestionCountTree => {
+): Promise<QuestionCountTree> => {
   const tree = emptyTree();
 
   if (!hasQuestionFilters(filters) && getProgress === getEmptyProgress) {
-    for (const subject of ["math", "reading"] as const) {
-      const generated = BANK_COUNT_INDEX[bankSource][subject];
-      const bucket = tree[subject];
-      bucket.total = generated.total;
-      for (const [domain, total] of Object.entries(generated.domains)) {
-        bucket.domains[domain] = { total, correct: 0 };
-      }
-      for (const [skill, total] of Object.entries(generated.skills)) {
-        bucket.skills[skill] = { total, correct: 0 };
-      }
-    }
-    return tree;
+    return getQuestionCountTreeFromIndex(bankSource);
   }
 
+  const metaRows = await loadMetaRows();
   for (const question of metaRows) {
     if (!question.bankVisible) continue;
     if (!matchesBankSource(question, bankSource)) continue;
@@ -219,7 +239,7 @@ export const getQuestionCountTree = (
   return tree;
 };
 
-export const getFilteredQuestionMetaCount = (
+export const loadFilteredQuestionMetaCount = async (
   subject: BankSubject,
   bankSource: BankSourceFilter,
   filters: QuestionBankFilters,
@@ -230,6 +250,7 @@ export const getFilteredQuestionMetaCount = (
   } = {},
 ) => {
   let total = 0;
+  const metaRows = await loadMetaRows();
   for (const question of metaRows) {
     if (!question.bankVisible) continue;
     if (question.subject !== subject) continue;

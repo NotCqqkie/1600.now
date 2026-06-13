@@ -1,1 +1,15 @@
-{"questionId": "6c5588e4-f326-44d2-afd6-39547f4bb40a_27", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The passage traces water from Alaska's Susitna Glacier through a chain of rivers. The sentence after the blank describes the endpoint of that journey: the Susitna's mouth, where the water empties into the Gulf of Alaska. The blank must logically introduce this final destination."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'There,'</strong>: &quot;There&quot; is a locational adverb meaning &quot;at that place.&quot; It points to the Susitna's mouth just mentioned in the preceding sentence, signaling arrival at the journey's endpoint. &#10003;</li><li><strong>Choice B &mdash; 'For instance,'</strong>: &quot;For instance&quot; introduces an example. The sentence isn't giving an example of something; it's describing the final destination. &#10007;</li><li><strong>Choice C &mdash; 'Regardless,'</strong>: &quot;Regardless&quot; signals that something happens despite an obstacle or contrary condition. No contrast is being made here. &#10007;</li><li><strong>Choice D &mdash; 'Instead,'</strong>: &quot;Instead&quot; signals an alternative to what was just described. The water emptying into the Gulf isn't an alternative to traveling the rivers &mdash; it's the continuation and conclusion of that journey. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "6c5588e4-f326-44d2-afd6-39547f4bb40a_27",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage traces water from Alaska's Susitna Glacier through a chain of rivers. The sentence after the blank describes the endpoint of that journey: the Susitna's mouth, where the water empties into the Gulf of Alaska. The blank must logically introduce this final destination."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;There,&rsquo;</strong>: &quot;There&quot; is a locational adverb meaning &quot;at that place.&quot; It points to the Susitna's mouth just mentioned in the preceding sentence, signaling arrival at the journey's endpoint. &#10003;</li><li><strong>Choice B &mdash; &lsquo;For instance,&rsquo;</strong>: &quot;For instance&quot; introduces an example. The sentence isn't giving an example of something; it's describing the final destination. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Regardless,&rsquo;</strong>: &quot;Regardless&quot; signals that something happens despite an obstacle or contrary condition. No contrast is being made here. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Instead,&rsquo;</strong>: &quot;Instead&quot; signals an alternative to what was just described. The water emptying into the Gulf isn't an alternative to traveling the rivers &mdash; it's the continuation and conclusion of that journey. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

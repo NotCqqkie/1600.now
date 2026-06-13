@@ -9,7 +9,7 @@
     },
     {
       "title": "Match the verb tense to the time signal",
-      "content": "Identify the grammar issue: verb tense. Rule: the time adverb \"Currently\" demands a simple present tense verb for an ongoing state.\n<ul>\n<li><strong>Choice A — \"will have hung\"</strong>: future perfect tense; describes an action completed at a future point, contradicting \"currently.\" ✗</li>\n<li><strong>Choice B — \"hangs\"</strong>: simple present tense; correctly describes the painting's ongoing location right now. ✓</li>\n<li><strong>Choice C — \"hung\"</strong>: simple past tense; places the action in the past, contradicting \"currently.\" ✗</li>\n<li><strong>Choice D — \"was hanging\"</strong>: past progressive tense; describes a past ongoing action, contradicting \"currently.\" ✗</li>\n</ul>\nThat matches choice B — <strong>B</strong> is correct."
+      "content": "Identify the grammar issue: verb tense. Rule: the time adverb \"Currently\" demands a simple present tense verb for an ongoing state.\n<ul>\n<li><strong>\"will have hung\"</strong>: future perfect tense; describes an action completed at a future point, contradicting \"currently.\" ✗</li>\n<li><strong>\"hangs\"</strong>: simple present tense; correctly describes the painting's ongoing location right now. ✓</li>\n<li><strong>\"hung\"</strong>: simple past tense; places the action in the past, contradicting \"currently.\" ✗</li>\n<li><strong>\"was hanging\"</strong>: past progressive tense; describes a past ongoing action, contradicting \"currently.\" ✗</li>\n</ul>\nThat matches the correct answer — <strong>B</strong> is correct."
     }
   ]
 }

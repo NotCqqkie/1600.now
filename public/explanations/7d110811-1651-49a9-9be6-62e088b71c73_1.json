@@ -1,11 +1,24 @@
 {
+  "questionId": "7d110811-1651-49a9-9be6-62e088b71c73_1",
   "qid": "7d110811-1651-49a9-9be6-62e088b71c73_1",
   "correctAnswer": "C",
   "steps": [
-    "Identify the greatest common factor (GCF) of $v^{4}$ and $460v^{3}$. Both terms share $v^{3}$.",
-    "Factor out $v^{3}$: $v^{4} - 460v^{3} = v^{3}(v - 460)$.",
-    "Verify by expanding: $v^{3}(v - 460) = v^{4} - 460v^{3}$ &mdash; correct.",
-    "That matches choice C &mdash; <strong>C</strong> is correct."
+    {
+      "title": "Step 1",
+      "content": "Identify the greatest common factor (GCF) of $v^{4}$ and $460v^{3}$. Both terms share $v^{3}$."
+    },
+    {
+      "title": "Step 2",
+      "content": "Factor out $v^{3}$: $v^{4} - 460v^{3} = v^{3}(v - 460)$."
+    },
+    {
+      "title": "Step 3",
+      "content": "Verify by expanding: $v^{3}(v - 460) = v^{4} - 460v^{3}$ &mdash; correct."
+    },
+    {
+      "title": "Step 4",
+      "content": "That confirms <strong>C</strong> is correct."
+    }
   ],
   "choices": [
     {
@@ -21,7 +34,7 @@
     {
       "id": "C",
       "text": "$v^{3}(v-460)$",
-      "elimination": "<ul><li>Factor out $v^{3}$: $v^{4} - 460v^{3} = v^{3} \\cdot v - v^{3} \\cdot 460 = v^{3}(v - 460)$.</li><li>Expanding confirms: $v^{3}(v-460) = v^{4} - 460v^{3}$.</li><li>That matches choice C &mdash; <strong>C</strong> is correct.</li></ul>"
+      "elimination": "<ul><li>Factor out $v^{3}$: $v^{4} - 460v^{3} = v^{3} \\cdot v - v^{3} \\cdot 460 = v^{3}(v - 460)$.</li><li>Expanding confirms: $v^{3}(v-460) = v^{4} - 460v^{3}$.</li><li>That confirms <strong>C</strong> is correct.</li></ul>"
     },
     {
       "id": "D",

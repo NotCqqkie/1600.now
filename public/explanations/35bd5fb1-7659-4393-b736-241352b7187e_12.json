@@ -9,7 +9,7 @@
     },
     {
       "title": "Calculate the number of blue items",
-      "content": "Blue items are 35% of the total. So $$0.35 \\times 160 = 56$$.<br/>That matches choice D — <strong>D</strong> is correct."
+      "content": "Blue items are 35% of the total. So $$0.35 \\times 160 = 56$$. This uses the same total of 160 items found from the green-item percentage.<br/><strong>D</strong> is correct."
     }
   ]
 }

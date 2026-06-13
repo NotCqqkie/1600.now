@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply Vieta's sum shortcut",
-      "content": "Sum of solutions $= -b/a = -(-24)/1 = 24$. That matches choice D — <strong>D</strong> is correct."
+      "content": "Sum of solutions $= -b/a = -(-24)/1 = 24$. This shortcut uses the coefficient of $x$ directly, so there is no need to factor the quadratic or compute each root separately. That matches <strong>Choice D &mdash; 24</strong>."
     }
   ]
 }

@@ -9,7 +9,7 @@
     },
     {
       "title": "Compare the four weighted means",
-      "content": "Choice A gives $$\\frac{70(4)+80(5)+90(6)+100(7)}{4+5+6+7}=\\frac{1920}{22}\\approx87.27.$$ Choices B, C, and D each give $85$ because their frequencies are balanced around the midpoint between $80$ and $90$. The greatest mean is therefore choice <strong>A</strong>."
+      "content": "The correct answer gives $$\\frac{70(4)+80(5)+90(6)+100(7)}{4+5+6+7}=\\frac{1920}{22}\\approx87.27.$$ The other choices each give $85$ because their frequencies are balanced around the midpoint between $80$ and $90$. The greatest mean is therefore <strong>A</strong>."
     }
   ]
 }

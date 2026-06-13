@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Analyze f(x) for a maximum",
-      "content": "$f(x) = 18(1.25)^x + 41$ has base $1.25 > 1$, so it grows without bound as $x$ increases. For $x \\ge 0$ there is no maximum value. The constant $41$ is the minimum (at $x = 0$, $f(0) = 18 + 41 = 59$, with $41$ as a horizontal asymptote from below isn't relevant here &mdash; the value $41$ is simply a vertical shift, not a maximum). So $f$ does not display its maximum as a constant or coefficient."
+      "content": "$f(x) = 18(1.25)^x + 41$ has base $1.25 \\gt  1$, so it grows without bound as $x$ increases. For $x \\ge 0$ there is no maximum value. The constant $41$ is the minimum (at $x = 0$, $f(0) = 18 + 41 = 59$, with $41$ as a horizontal asymptote from below isn't relevant here &mdash; the value $41$ is simply a vertical shift, not a maximum). So $f$ does not display its maximum as a constant or coefficient."
     },
     {
       "title": "Analyze g(x) for a maximum",
@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li><strong>A) I only:</strong> $f$ has no maximum on $x \\ge 0$, so it cannot display one. Eliminated.</li><li><strong>B) II only:</strong> Only $g$ displays its maximum (the coefficient $9$). Matches.</li><li><strong>C) I and II:</strong> $f$ does not display a maximum. Eliminated.</li><li><strong>D) Neither I nor II:</strong> $g$ does display its maximum. Eliminated.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "<ul><li><strong>A) I only:</strong> $f$ has no maximum on $x \\ge 0$, so it cannot display one. Eliminated.</li><li><strong>B) II only:</strong> Only $g$ displays its maximum (the coefficient $9$). Matches.</li><li><strong>C) I and II:</strong> $f$ does not display a maximum. Eliminated.</li><li><strong>D) Neither I nor II:</strong> $g$ does display its maximum. Eliminated.</li></ul>That matches the correct answer — <strong>B</strong> is correct."
     }
   ]
 }

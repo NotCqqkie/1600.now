@@ -9,7 +9,7 @@
     },
     {
       "title": "Find circle B's radius and write its equation",
-      "content": "Circle B has the same center $(2, 3)$ but radius twice as large: $r_B = 2 \\times 3 = 6$.<br/><br/>Squaring the radius: $r_B^2 = 6^2 = 36$.<br/><br/>The equation for circle B is:<br/>$$(x - 2)^2 + (y - 3)^2 = 36$$<br/>That matches choice B — <strong>B</strong> is correct.",
+      "content": "Circle B has the same center $(2, 3)$ but radius twice as large: $r_B = 2 \\times 3 = 6$.<br/><br/>Squaring the radius: $r_B^2 = 6^2 = 36$.<br/><br/>The equation for circle B is:<br/>$$(x - 2)^2 + (y - 3)^2 = 36$$<br/>That confirms <strong>B</strong> is correct.",
       "desmosExpressions": [
         "(x-2)^2 + (y-3)^2 = 9",
         "(x-2)^2 + (y-3)^2 = 36"

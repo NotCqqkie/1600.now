@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Infinitely many solutions = same line",
-      "content": "A system has infinitely many solutions when the two equations represent the <strong>same line</strong>.<br/><br/>This means the second equation must have the <em>same slope and y-intercept</em> as the given equation $$y = \\frac{3}{8}x + 2$$.<br/><br/>Therefore, the slope of the second equation must be $$\\frac{3}{8}$$.<br/>That matches choice C — <strong>C</strong> is correct.",
+      "title": "Check the same line in Desmos",
+      "content": "A system has infinitely many solutions when the two equations graph as the <strong>same line</strong>.<br/><br/>This means the second equation must have the <em>same slope and y-intercept</em> as the given equation $$y = \\frac{3}{8}x + 2$$.<br/><br/>Therefore, the slope of the second equation must be $$\\frac{3}{8}$$<br/>That confirms <strong>C</strong> is correct.",
       "desmosExpressions": [
         "y = \\frac{3}{8}x + 2"
       ]

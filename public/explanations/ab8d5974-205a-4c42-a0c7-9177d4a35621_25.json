@@ -1,1 +1,15 @@
-{"questionId":"ab8d5974-205a-4c42-a0c7-9177d4a35621_25","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The student's goal is to explain what chapter 1 specifically covers. The notes state that chapter 1 outlines the origins and use of the term nostalgia — so the correct choice must reference that content and only that chapter."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; origins and use of nostalgia, citing chapter 1</strong>: directly matches what the notes say chapter 1 covers. &#10003;</li><li><strong>Choice B &mdash; cites the wrong chapter</strong>: draws from a different chapter's content, not chapter 1. &#10007;</li><li><strong>Choice C &mdash; mixes multiple chapters</strong>: combines content from several chapters rather than focusing on chapter 1 alone. &#10007;</li><li><strong>Choice D &mdash; generalizes to the whole book</strong>: describes the book's overall argument instead of what chapter 1 specifically covers. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "ab8d5974-205a-4c42-a0c7-9177d4a35621_25",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The student's goal is to explain what chapter 1 specifically covers. The notes state that chapter 1 outlines the origins and use of the term nostalgia — so the correct choice must reference that content and only that chapter."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Literary theorist Svetlana Boym outlines the origins and use of the term <em>nostalgia</em> in chapter 1 of her book.</strong>: directly matches what the notes say chapter 1 covers. &#10003;</li><li><strong>Choice B &mdash; As Svetlana Boym writes in the seventeenth chapter of her book, \"The poethics of nostalgia combines estrangement and human solidarity, affect and reflection.\"</strong>: draws from a different chapter's content, not chapter 1. &#10007;</li><li><strong>Choice C &mdash; After outlining the origins and use of the term <em>nostalgia</em>, Svetlana Boym goes on to discuss various skeptics' takes on the concept of nostalgia.</strong>: combines content from several chapters rather than focusing on chapter 1 alone. &#10007;</li><li><strong>Choice D &mdash; Svetlana Boym's <em>The Future of Nostalgia</em> explores the concept of nostalgia from various angles.</strong>: describes the book's overall argument instead of what chapter 1 specifically covers. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

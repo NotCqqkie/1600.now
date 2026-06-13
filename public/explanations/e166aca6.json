@@ -13,7 +13,7 @@
     },
     {
       "title": "Identifying the correct choice",
-      "content": "Among the given choices, (4, 0) is the point where the parabola touches the x-axis.<br/><br/>Checking alternatives: choices A and C involve negative x-values not shown on the visible domain; choice B, (5, 0), is wrong because x = 5 lies on the rising right branch of the parabola, which is above the x-axis at that point — the curve does not pass through (5, 0).<br/><br/>The point (4, 0) matches choice D — <strong>D</strong> is correct."
+      "content": "Among the given choices, (4, 0) is the point where the parabola touches the x-axis.<br/><br/>Checking alternatives: $\\left(-5,0\\right)$ and $\\left(-4,0\\right)$ involve negative x-values not shown on the visible domain. The point $\\left(5,0\\right)$ is wrong because x = 5 lies on the rising right branch of the parabola, which is above the x-axis at that point — the curve does not pass through (5, 0).<br/><br/>The point (4, 0) matches the correct answer — <strong>D</strong> is correct."
     }
   ]
 }

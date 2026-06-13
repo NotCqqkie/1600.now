@@ -9,7 +9,7 @@
     },
     {
       "title": "Read bar graph values and eliminate choices",
-      "content": "From the bar graph: Daisy = 60, Orchid = 100, Tulip = 190, Lily = 180, Sunflower = 170.<br/><br/><ul><li><strong>Choice A &mdash; Daisy and Orchid</strong>: $60 + 100 = 160 \\neq 280$. &#10007;</li><li><strong>Choice B &mdash; Orchid and Lily</strong>: $100 + 180 = 280$. &#10003;</li><li><strong>Choice C &mdash; Orchid and Sunflower</strong>: $100 + 170 = 270 \\neq 280$. &#10007;</li><li><strong>Choice D &mdash; Lily and Sunflower</strong>: $180 + 170 = 350 \\neq 280$. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "From the bar graph: Daisy = 60, Orchid = 100, Tulip = 190, Lily = 180, Sunflower = 170.<br/><br/><ul><li><strong>Choice A &mdash; Daisy and orchid</strong>: $60 + 100 = 160 \\neq 280$. &#10007;</li><li><strong>Choice B &mdash; Orchid and lily</strong>: $100 + 180 = 280$. &#10003;</li><li><strong>Choice C &mdash; Orchid and sunflower</strong>: $100 + 170 = 270 \\neq 280$. &#10007;</li><li><strong>Choice D &mdash; Lily and sunflower</strong>: $180 + 170 = 350 \\neq 280$. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
     }
   ]
 }

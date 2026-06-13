@@ -13,7 +13,7 @@
     },
     {
       "title": "Check by expanding",
-      "content": "Expanding choice B gives $$(x+3)^2-5=x^2+6x+9-5=x^2+6x+4,$$ so it matches the original expression.",
+      "content": "Expanding the correct answer gives $$(x+3)^2-5=x^2+6x+9-5=x^2+6x+4,$$ so it matches the original expression.",
       "desmosExpressions": [
         "y=x^2+6x+4",
         "y=(x+3)^2-5"

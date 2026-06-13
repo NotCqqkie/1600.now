@@ -1,1 +1,15 @@
-{"questionId": "fe41f258", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what follows the blank", "content": "The main clause ends with the quoted definition of pleasure (&ldquo;the absence of pain in the body and of trouble in the ______&rdquo;). What comes after is the participial phrase <em>positing that all life&rsquo;s virtues derived from this absence</em>, which supplements &mdash; but does not stand alone as &mdash; a new independent clause."}, {"title": "Eliminate each punctuation error, then confirm the match", "content": "<ul><li><strong>Choice A &mdash; &apos;soul,&rdquo; positing&apos;</strong>: A comma after the closing quotation mark correctly connects the main clause to the participial phrase; <em>positing</em> stays lowercase because it is not a new sentence. &#10003;</li><li><strong>Choice B &mdash; &apos;soul&rdquo;: positing&apos;</strong>: A colon cannot link a main clause to a participial phrase. &#10007;</li><li><strong>Choice C &mdash; &apos;soul&rdquo;; positing&apos;</strong>: A semicolon cannot link a main clause to a participial phrase. &#10007;</li><li><strong>Choice D &mdash; &apos;soul.&rdquo; Positing&apos;</strong>: The period ends the sentence prematurely, leaving <em>Positing&hellip;absence</em> as an unattached fragment. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "fe41f258",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what follows the blank",
+      "content": "The main clause ends with the quoted definition of pleasure (&ldquo;the absence of pain in the body and of trouble in the ______&rdquo;). What comes after is the participial phrase <em>positing that all life&rsquo;s virtues derived from this absence</em>, which supplements &mdash; but does not stand alone as &mdash; a new independent clause."
+    },
+    {
+      "title": "Eliminate each punctuation error, then confirm the match",
+      "content": "<ul><li><strong>\"soul,\" positing\"</strong>: A comma after the closing quotation mark correctly connects the main clause to the participial phrase; <em>positing</em> stays lowercase because it is not a new sentence. &#10003;</li><li><strong>\"soul\": positing\"</strong>: A colon cannot link a main clause to a participial phrase. &#10007;</li><li><strong>\"soul\"; positing\"</strong>: A semicolon cannot link a main clause to a participial phrase. &#10007;</li><li><strong>\"soul.\" Positing\"</strong>: The period ends the sentence prematurely, leaving <em>Positing&hellip;absence</em> as an unattached fragment. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+    }
+  ]
+}

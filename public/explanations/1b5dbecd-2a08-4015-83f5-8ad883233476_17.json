@@ -1,1 +1,15 @@
-{"questionId":"1b5dbecd-2a08-4015-83f5-8ad883233476_17","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence contains an opening em-dash before \"the International Criminal Police ______\". That phrase is an appositive renaming Interpol. An appositive set off by an opening dash must be closed by a matching dash before the sentence continues with \"in 1961\"."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Organization&mdash;'</strong>: closes the appositive with a matching em-dash, correctly mirroring the opening dash. The parenthetical is complete and the sentence reads cleanly. &#10003;</li><li><strong>Choice B &mdash; 'Organization:'</strong>: a colon does not match an opening dash. Using mismatched punctuation marks breaks the parenthetical structure. &#10007;</li><li><strong>Choice C &mdash; 'Organization,'</strong>: a comma is too weak to close what an em-dash opened, and creates inconsistent punctuation around the appositive. &#10007;</li><li><strong>Choice D &mdash; 'Organization'</strong>: no closing punctuation leaves the appositive unclosed, making it impossible to tell where the parenthetical ends and the main clause resumes. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "1b5dbecd-2a08-4015-83f5-8ad883233476_17",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence contains an opening em-dash before \"the International Criminal Police ______\". That phrase is an appositive renaming Interpol. An appositive set off by an opening dash must be closed by a matching dash before the sentence continues with \"in 1961\"."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A: Organization—</strong>: closes the appositive with a matching em-dash, correctly mirroring the opening dash. The parenthetical is complete and the sentence reads cleanly. &#10003;</li><li><strong>Choice B &mdash; Organization:</strong>: a colon does not match an opening dash. Using mismatched punctuation marks breaks the parenthetical structure. &#10007;</li><li><strong>Choice C &mdash; Organization,</strong>: a comma is too weak to close what an em-dash opened, and creates inconsistent punctuation around the appositive. &#10007;</li><li><strong>Choice D &mdash; Organization</strong>: no closing punctuation leaves the appositive unclosed, making it impossible to tell where the parenthetical ends and the main clause resumes. &#10007;</li></ul>That matches <strong>Choice A &mdash; Organization—</strong>."
+    }
+  ]
+}

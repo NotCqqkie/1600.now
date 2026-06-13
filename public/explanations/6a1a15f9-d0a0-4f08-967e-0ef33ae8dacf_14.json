@@ -1,1 +1,15 @@
-{"questionId":"6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_14","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"This is a Boundaries question. The sentence contains two independent clauses joined by the conjunctive adverb \"on the contrary.\" The SAT rule for conjunctive adverbs connecting two independent clauses is: semicolon before, comma after (IC; conjunctive adverb, IC)."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'rare, on the contrary,'</strong>: A comma alone cannot join two independent clauses; this creates a comma splice. &#10007;</li><li><strong>Choice B &mdash; 'rare, on the contrary;'</strong>: The comma is before the conjunctive adverb and the semicolon is after it, which is the reverse of the required pattern and leaves the first clause improperly joined. &#10007;</li><li><strong>Choice C &mdash; 'rare on the contrary,'</strong>: No punctuation separates the two independent clauses at all, creating a fused sentence. &#10007;</li><li><strong>Choice D &mdash; 'rare; on the contrary,'</strong>: The semicolon comes before \"on the contrary\" and the comma follows it, correctly applying the IC; conjunctive adverb, IC pattern to join two independent clauses. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_14",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a Boundaries question. The sentence contains two independent clauses joined by the conjunctive adverb \"on the contrary.\" The SAT rule for conjunctive adverbs connecting two independent clauses is: semicolon before, comma after (IC; conjunctive adverb, IC)."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;rare, on the contrary,&rsquo;</strong>: A comma alone cannot join two independent clauses; this creates a comma splice. &#10007;</li><li><strong>Choice B &mdash; &lsquo;rare, on the contrary;&rsquo;</strong>: The comma is before the conjunctive adverb and the semicolon is after it, which is the reverse of the required pattern and leaves the first clause improperly joined. &#10007;</li><li><strong>Choice C &mdash; &lsquo;rare on the contrary,&rsquo;</strong>: No punctuation separates the two independent clauses at all, creating a fused sentence. &#10007;</li><li><strong>Choice D &mdash; &lsquo;rare; on the contrary,&rsquo;</strong>: The semicolon comes before \"on the contrary\" and the comma follows it, correctly applying the IC; conjunctive adverb, IC pattern to join two independent clauses. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

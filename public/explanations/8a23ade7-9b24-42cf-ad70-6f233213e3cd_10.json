@@ -1,1 +1,15 @@
-{"questionId":"8a23ade7-9b24-42cf-ad70-6f233213e3cd_10","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"Venter et al. recommend that &quot;reducing anthropogenic emissions remain the primary focus&quot; rather than expanding green space. The question asks which finding best explains why green space alone is insufficient."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'reduced overall effectiveness'</strong>: names a result without explaining the mechanism. &#10007;</li><li><strong>Choice B &mdash; 'dense tree cover on busy streets blocks ventilation'</strong>: identifies the precise failure — tree cover undermines dispersion, the more effective mechanism, exactly where pollution is worst. &#10003;</li><li><strong>Choice C &mdash; 'vegetation selection as a solution'</strong>: suggests green space can still fix the problem with the right plants — contradicts the recommendation to prioritize emissions cuts. &#10007;</li><li><strong>Choice D &mdash; 'external weather as the limiting factor'</strong>: shifts blame to weather, not a flaw in green space itself. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_10",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "Venter et al. recommend that &quot;reducing anthropogenic emissions remain the primary focus&quot; rather than expanding green space. The question asks which finding best explains why green space alone is insufficient."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; The association between levels of coarse particulate matter and green space is strongly negative for locations containing or in close proximity to major cities but becomes insignificant for more rural locations.</strong>: names a result without explaining the mechanism. &#10007;</li><li><strong>Choice B &mdash; The association between green space and coarse particulate matter levels is moderately negative overall but becomes slightly negative and sometimes positive when consideration is limited to busy streets with tree cover heavy enough to hinder ventilation.</strong>: identifies the precise failure — tree cover undermines dispersion, the more effective mechanism, exactly where pollution is worst. &#10003;</li><li><strong>Choice C &mdash; Ambient levels of coarse particulate matter are comparable across locations with comparable local infrastructure (e.g., typical building shape) but vary considerably depending on the predominant type of vegetation present.</strong>: suggests green space can still fix the problem with the right plants — contradicts the recommendation to prioritize emissions cuts. &#10007;</li><li><strong>Choice D &mdash; There is a predictable relationship between a location's typical climate conditions and the efficacy of green space in that location, but anomalous local weather events have an outsized effect on deposition and dispersion of coarse particulate matter.</strong>: shifts blame to weather, not a flaw in green space itself. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

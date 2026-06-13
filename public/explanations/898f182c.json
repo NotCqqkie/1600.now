@@ -1,1 +1,15 @@
-{"questionId": "898f182c", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the blank must do grammatically", "content": "The blank follows the noun &ldquo;inventions&rdquo; and introduces a list of examples. A participial phrase using a present participle (&ldquo;including&rdquo;) is the correct structure to supplement a main clause with illustrative examples. A finite verb would create a structural error because the sentence already has a main verb (&ldquo;patented&rdquo;). Evaluate each choice:<ul><li><strong>Choice A &mdash; &lsquo;included&rsquo;</strong>: a finite past-tense verb &mdash; creates a second main clause without a conjunction, producing a run-on sentence. &#10007;</li><li><strong>Choice B &mdash; &lsquo;includes&rsquo;</strong>: a finite present-tense verb &mdash; same structural problem; tense also conflicts with the past-tense context. &#10007;</li><li><strong>Choice C &mdash; &lsquo;including&rsquo;</strong>: a nonfinite present participle &mdash; correctly forms a participial phrase that supplements the main clause without creating a run-on. &#10003;</li><li><strong>Choice D &mdash; &lsquo;will include&rsquo;</strong>: a finite future-tense verb &mdash; same structural problem; future tense is illogical for inventions already patented. &#10007;</li></ul>"}, {"title": "Confirm the answer", "content": "Only &ldquo;including&rdquo; is a nonfinite participle that can legally supplement the main clause &ldquo;he patented many inventions&rdquo; by listing examples. That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "898f182c",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the blank must do grammatically",
+      "content": "The blank follows the noun &ldquo;inventions&rdquo; and introduces a list of examples. A participial phrase using a present participle (&ldquo;including&rdquo;) is the correct structure to supplement a main clause with illustrative examples. A finite verb would create a structural error because the sentence already has a main verb (&ldquo;patented&rdquo;). Evaluate each choice:<ul><li><strong>Choice A &mdash; included</strong>: a finite past-tense verb &mdash; creates a second main clause without a conjunction, producing a run-on sentence. &#10007;</li><li><strong>Choice B &mdash; includes</strong>: a finite present-tense verb &mdash; same structural problem; tense also conflicts with the past-tense context. &#10007;</li><li><strong>Choice C &mdash; including</strong>: a nonfinite present participle &mdash; correctly forms a participial phrase that supplements the main clause without creating a run-on. &#10003;</li><li><strong>Choice D &mdash; will include</strong>: a finite future-tense verb &mdash; same structural problem; future tense is illogical for inventions already patented. &#10007;</li></ul>"
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "Only &ldquo;including&rdquo; is a nonfinite participle that can legally supplement the main clause &ldquo;he patented many inventions&rdquo; by listing examples. That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

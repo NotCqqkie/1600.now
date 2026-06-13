@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Convert radians to degrees and locate the angle",
-      "content": "To find sin(B) where $B = \\frac{3\\pi}{4}$ radians, first convert to degrees: $\\frac{3\\pi}{4} \\text{ radians} = \\frac{3}{4} \\times 180° = 135°$.<br/><br/>The angle 135° lies in the second quadrant (between 90° and 180°), where sine is positive."
+      "content": "To find $\\sin(B)$ where $B = \\frac{3\\pi}{4}$ radians, first convert to degrees: $\\frac{3\\pi}{4} \\text{ radians} = \\frac{3}{4} \\times 180^{\\circ} = 135^{\\circ}$.<br/><br/>The angle $135^{\\circ}$ lies in the second quadrant, between $90^{\\circ}$ and $180^{\\circ}$, where sine is positive."
     },
     {
       "title": "Use the reference angle to find sine",
-      "content": "The reference angle for 135° is $180° - 135° = 45°$.<br/><br/>We know that $\\sin(45°) = \\frac{\\sqrt{2}}{2}$.<br/><br/>Since 135° is in the second quadrant where sine is positive, $\\sin(135°) = \\frac{\\sqrt{2}}{2}$.<br/><br/>That matches choice D — <strong>D</strong> is correct."
+      "content": "The reference angle for $135^{\\circ}$ is $180^{\\circ} - 135^{\\circ} = 45^{\\circ}$.<br/><br/>We know that $\\sin(45^{\\circ}) = \\frac{\\sqrt{2}}{2}$.<br/><br/>Since $135^{\\circ}$ is in the second quadrant where sine is positive, $\\sin(135^{\\circ}) = \\frac{\\sqrt{2}}{2}$.<br/><br/>That is the correct answer."
     }
   ]
 }

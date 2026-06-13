@@ -149,7 +149,7 @@
     "difficulty": "Medium",
     "question_number": 6,
     "test_name": "Module Source 008 Math M1",
-    "passage": "The positive number $a$ is 240% of the number $b$, and $a$ is 70% of the number $c$. If $c$ is $p$% of $b$, which of the following is closest to the value of $p$?",
+    "passage": "The positive number $a$ is 240% of the number $b$, and $a$ is 70% of the number $c$. If $c$ is $p\\%$ of $b$, which of the following is closest to the value of $p$?",
     "question_text": null,
     "choices": [
       {
@@ -483,7 +483,7 @@
     "difficulty": "Medium",
     "question_number": 16,
     "test_name": "Module Source 008 Math M1",
-    "passage": "$a$ is 270% of the number $b$, and $a$ is 80% of the number $c$. If $c$ is $p$% of $b$, which of the following is closest to the value of $p$?",
+    "passage": "$a$ is 270% of the number $b$, and $a$ is 80% of the number $c$. If $c$ is $p\\%$ of $b$, which of the following is closest to the value of $p$?",
     "question_text": null,
     "choices": [
       {
@@ -682,7 +682,7 @@
     "difficulty": "Medium",
     "question_number": 22,
     "test_name": "Module Source 008 Math M1",
-    "passage": "For two acute angles $X$ and $Y$, the measure of angle $Y$ is 24° and $\\frac{\\sin X}{\\cos Y} = 1$. What is the measure, in degrees, of angle $X$?",
+    "passage": "For two acute angles $X$ and $Y$, the measure of angle $Y$ is $24^{\\circ}$ and $\\frac{\\sin X}{\\cos Y} = 1$. What is the measure, in degrees, of angle $X$?",
     "question_text": null,
     "choices": [
       {

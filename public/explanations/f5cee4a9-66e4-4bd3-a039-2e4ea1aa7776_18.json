@@ -9,11 +9,11 @@
     },
     {
       "title": "Find $\\tfrac{11}{4}x + 6y$",
-      "content": "Compute: $\\tfrac{11}{4}(4)+6(6)=11+36=47$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."
+      "content": "Compute: $\\tfrac{11}{4}(4)+6(6)=11+36=47$. That matches the correct answer — <strong>D</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice D, 47. The other choices do not satisfy the same condition from the question, so <strong>D</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above is 47. The other choices do not satisfy the same condition from the question, so <strong>D</strong> is correct."
     }
   ]
 }

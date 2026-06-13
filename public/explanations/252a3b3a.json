@@ -9,11 +9,11 @@
     },
     {
       "title": "Check end behavior to determine degree",
-      "content": "Both ends of the graph point downward, so the polynomial must have even degree and a negative leading coefficient. Choice A is cubic, so it would have opposite end behavior. Choice B is quartic because of $(x+5)^2$, so it fits."
+      "content": "Both ends of the graph point downward, so the polynomial must have even degree and a negative leading coefficient. <strong>Choice A &mdash; $y=-\\frac{1}{10}x \\left(x-4\\right) \\left(x+5\\right)$</strong> is cubic, so it would have opposite end behavior. <strong>Choice B &mdash; $y=-\\frac{1}{10}x \\left(x-4\\right){ \\left(x+5\\right)}^{2}$</strong> is quartic because of $(x+5)^2$, so it fits."
     },
     {
       "title": "Confirm root multiplicity at x = −5",
-      "content": "At $x=-5$, the graph touches the x-axis without crossing, which means the root has even multiplicity. Choice B has the factor $(x+5)^2$, so it matches the intercepts and the bounce. That makes <strong>B</strong> correct."
+      "content": "At $x=-5$, the graph touches the x-axis without crossing, which means the root has even multiplicity. <strong>Choice B &mdash; $y=-\\frac{1}{10}x \\left(x-4\\right){ \\left(x+5\\right)}^{2}$</strong> has the factor $(x+5)^2$, so it matches the intercepts and the bounce. That makes <strong>B</strong> correct."
     }
   ]
 }

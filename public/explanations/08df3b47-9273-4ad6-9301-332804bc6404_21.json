@@ -9,11 +9,11 @@
     },
     {
       "title": "Check the keyed choice",
-      "content": "Choice A is $\\frac{1}{2}x-4y=0$. Multiplying by $2$ gives $$x-8y=0,$$ or $$y=\\frac{1}{8}x.$$ This line has the same slope as the given line but a different $y$-intercept, so the two lines are parallel and never intersect. Therefore choice <strong>A</strong> could be the second equation."
+      "content": "<strong>Choice A &mdash; $\\frac{1}{2}x - 4y = 0$</strong> is $\\frac{1}{2}x-4y=0$. Multiplying by $2$ gives $$x-8y=0,$$ or $$y=\\frac{1}{8}x.$$ This line has the same slope as the given line but a different $y$-intercept, so the two lines are parallel and never intersect. Therefore <strong>Choice A &mdash; $\\frac{1}{2}x - 4y = 0$</strong> could be the second equation."
     },
     {
-      "title": "Note the source ambiguity",
-      "content": "As written, choices B and C also simplify to lines parallel to the given line with different $y$-intercepts. The keyed answer is <strong>A</strong>, and A is valid, but the current source text does not make A the only valid choice."
+      "title": "Eliminate the other choices",
+      "content": "Choice B, $x - 7y = 4$, has slope $\\frac{1}{7}$. Choice C, $\\frac{1}{2}x - 3y = 2$, has slope $\\frac{1}{6}$. Choice D, $x - 6y = 0$, also has slope $\\frac{1}{6}$. Since none of these slopes equals $\\frac{1}{8}$, each line would intersect the given line once. Only <strong>A</strong> makes a parallel line with a different intercept."
     }
   ]
 }

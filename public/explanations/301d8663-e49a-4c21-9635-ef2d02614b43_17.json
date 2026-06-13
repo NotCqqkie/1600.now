@@ -10,7 +10,7 @@
     },
     {
       "title": "Compute",
-      "content": "$\\frac{c}{a} = \\frac{-60}{1} = -60$. That matches choice A — <strong>A</strong> is correct."
+      "content": "$\\frac{c}{a} = \\frac{-60}{1} = -60$. <strong>A</strong> is correct. The shortcut works because the quadratic is monic, so the constant term is exactly the product of the two roots."
     }
   ]
 }

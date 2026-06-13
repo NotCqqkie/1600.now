@@ -9,7 +9,7 @@
     },
     {
       "title": "Set the period exponent",
-      "content": "Each $11.69$ minutes is one period, so the number of periods elapsed is $\\frac{t}{11.69}$. The model is $M=100(0.77)^{t/11.69}$.<br/><br/>The Desmos row below graphs the same decay model using $x$ for time and $y$ for mass, so the curve starts at $100$ and multiplies by $0.77$ each period. That matches choice A — <strong>A</strong> is correct.",
+      "content": "Each $11.69$ minutes is one period, so the number of periods elapsed is $\\frac{t}{11.69}$. The model is $M=100(0.77)^{t/11.69}$.<br/><br/>The Desmos row below graphs the same decay model using $x$ for time and $y$ for mass, so the curve starts at $100$ and multiplies by $0.77$ each period. That confirms <strong>A</strong> is correct.",
       "desmosExpressions": [
         "y = 100 \\cdot 0.77^{x / 11.69}"
       ]

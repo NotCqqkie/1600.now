@@ -1,1 +1,15 @@
-{"questionId": "57bcd0d6", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the time shift", "content": "The passage moves from studying since the 1920s to now receiving drone assistance. The transition must signal this shift from historical to present."}, {"title": "Match the temporal signal", "content": "”Currently” marks the present moment, showing how modern drones now enhance their long-standing research.<br/><br/>The other choices don't capture this progression: “In comparison” and “Still” ignore the temporal dimension, while “However” wrongly suggests the drones conflict with their work.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "57bcd0d6",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the time shift",
+      "content": "The passage moves from studying since the 1920s to now receiving drone assistance. The transition must signal this shift from historical to present."
+    },
+    {
+      "title": "Match the temporal signal",
+      "content": "”Currently” marks the present moment, showing how modern drones now enhance their long-standing research.<br/><br/>The other choices don't capture this progression: “In comparison” and “Still” ignore the temporal dimension, while “However” wrongly suggests the drones conflict with their work.<br/><br/><strong>A</strong> is correct."
+    }
+  ]
+}

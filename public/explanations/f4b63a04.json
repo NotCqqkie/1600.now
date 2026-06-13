@@ -1,1 +1,19 @@
-{"questionId": "f4b63a04", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Pin down the goal", "content": "The student wants to &quot;explain the origin of the species&apos; name.&quot; The answer must say what Mansourasaurus is named after, not just mention the discovery."}, {"title": "Find the relevant note", "content": "The last two bullets give the source: the team is from Mansoura University, and the species was named to recognize that team. So a complete explanation of the name must link &quot;Mansourasaurus&quot; to Mansoura University."}, {"title": "Eliminate per choice", "content": "<ul><li><strong>Choice A &mdash; 'a new species discovered in Egypt in 2013, lived approximately 80 million years ago'</strong>: gives discovery year and age but says nothing about where the name comes from. &#10007;</li><li><strong>Choice B &mdash; 'A partial dinosaur skeleton found in Egypt&apos;s Dakhla Oasis belonged to a species named Mansourasaurus'</strong>: states the name but never explains its origin. &#10007;</li><li><strong>Choice C &mdash; 'discovered in 2013 by Egyptian paleontologist Hesham Sallam and a team of university students'</strong>: identifies the discoverers but never connects the name to them or to Mansoura University. &#10007;</li><li><strong>Choice D &mdash; 'named Mansourasaurus to recognize the team that discovered it, a professor and students from Mansoura University'</strong>: explicitly ties the name to Mansoura University &mdash; the origin of the name. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "f4b63a04",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Pin down the goal",
+      "content": "The student wants to \"explain the origin of the species' name.\" The answer must say what Mansourasaurus is named after, not just mention the discovery."
+    },
+    {
+      "title": "Find the relevant note",
+      "content": "The last two bullets give the source: the team is from Mansoura University, and the species was named to recognize that team. So a complete explanation of the name must link \"Mansourasaurus\" to Mansoura University."
+    },
+    {
+      "title": "Eliminate per choice",
+      "content": "<ul><li><strong>'<em>Mansourasaurus,</em> a new species discovered in Egypt in 2013, lived approximately 80 million years ago.'</strong>: gives discovery year and age but says nothing about where the name comes from. &#10007;</li><li><strong>'A partial dinosaur skeleton found in Egypt's Dakhla Oasis belonged to a species named <em>Mansourasaurus</em>.'</strong>: states the name but never explains its origin. &#10007;</li><li><strong>'<em>Mansourasaurus,</em> a species that lived approximately 80 million years ago, was discovered in 2013 by Egyptian paleontologist Hesham Sallam and a team of university students.'</strong>: identifies the discoverers but never connects the name to them or to Mansoura University. &#10007;</li><li><strong>'The new species was named <em>Mansourasaurus</em> to recognize the team that discovered it, a professor and students from Mansoura University.'</strong>: explicitly ties the name to Mansoura University &mdash; the origin of the name. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

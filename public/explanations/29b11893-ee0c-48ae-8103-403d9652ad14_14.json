@@ -9,7 +9,7 @@
     },
     {
       "title": "Compute and solve",
-      "content": "For $ax^2+bx+c=0$, that expression is $b^2-4ac$. Here $a=7$ and $b=49$, so:<br/>$$49^2-4(7)(c)=0$$<br/>$$2401-28c=0$$<br/>$$c=\\frac{2401}{28}=\\frac{343}{4}$$<br/>That matches choice D, so <strong>D</strong> is correct."
+      "content": "For $ax^2+bx+c=0$, that expression is $b^2-4ac$. Here $a=7$ and $b=49$, so:<br/>$$49^2-4(7)(c)=0$$<br/>$$2401-28c=0$$<br/>$$c=\\frac{2401}{28}=\\frac{343}{4}$$<br/>That matches <strong>Choice D &mdash; $\\frac{343}{4}$</strong>, so <strong>D</strong>."
     }
   ]
 }

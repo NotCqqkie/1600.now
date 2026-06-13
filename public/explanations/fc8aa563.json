@@ -9,7 +9,7 @@
     },
     {
       "title": "Extract the center from the given equation",
-      "content": "The given equation is $(x-1)^2 + (y+7)^2 = 1$. Comparing to the standard form:<ul><li>$(x-1)^2$ corresponds to $(x-h)^2$, so $h = 1$</li><li>$(y+7)^2 = (y-(-7))^2$ corresponds to $(y-k)^2$, so $k = -7$</li></ul>Therefore, the center is $(1, -7)$. That matches choice C — <strong>C</strong> is correct."
+      "content": "The given equation is $(x-1)^2 + (y+7)^2 = 1$. Comparing to the standard form:<ul><li>$(x-1)^2$ corresponds to $(x-h)^2$, so $h = 1$</li><li>$(y+7)^2 = (y-(-7))^2$ corresponds to $(y-k)^2$, so $k = -7$</li></ul>Therefore, the center is $(1, -7)$. That matches the correct answer — <strong>C</strong> is correct."
     }
   ]
 }

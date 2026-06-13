@@ -13,11 +13,11 @@
     },
     {
       "title": "Match the answer",
-      "content": "That matches choice <strong>C</strong> — <strong>C</strong> is correct."
+      "content": "That is the correct answer."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice C, 6. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches 6. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
     }
   ]
 }

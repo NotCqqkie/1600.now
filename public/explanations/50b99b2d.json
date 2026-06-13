@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li><strong>A)</strong> $12y$ &mdash; this would be the time at speed $\\frac{2x}{y}$, half of R's speed instead of double. Wrong.</li><li><strong>B)</strong> $3y$ &mdash; matches $\\frac{24x}{8x/y} = 3y$. Correct.</li><li><strong>C)</strong> $16y$ &mdash; far too large; corresponds to no consistent speed ratio. Wrong.</li><li><strong>D)</strong> $6y$ &mdash; this is the time R would take to travel $24x$ (since R needs $y$ per $4x$, so $6y$ per $24x$), not S. Wrong.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "<ul><li><strong>A)</strong> $12y$ &mdash; this would be the time at speed $\\frac{2x}{y}$, half of R's speed instead of double. Wrong.</li><li><strong>B)</strong> $3y$ &mdash; matches $\\frac{24x}{8x/y} = 3y$. Correct.</li><li><strong>C)</strong> $16y$ &mdash; far too large; corresponds to no consistent speed ratio. Wrong.</li><li><strong>D)</strong> $6y$ &mdash; this is the time R would take to travel $24x$ (since R needs $y$ per $4x$, so $6y$ per $24x$), not S. Wrong.</li></ul><strong>B</strong> is correct."
     }
   ]
 }

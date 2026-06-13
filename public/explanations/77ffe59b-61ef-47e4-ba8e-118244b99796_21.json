@@ -1,1 +1,15 @@
-{"questionId":"77ffe59b-61ef-47e4-ba8e-118244b99796_21","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence already has a main verb &mdash; &quot;shows&quot; (&quot;Aslanian&apos;s macroanalysis ___ nearly 1,000 book titles... shows not only... but also...&quot;). The blank modifies &quot;macroanalysis&quot; and must not create a second competing main verb."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'had examined'</strong>: A finite past-perfect verb. This would create two main verbs in one clause (&quot;had examined... shows&quot;), which is ungrammatical. &#10007;</li><li><strong>Choice B &mdash; 'examining'</strong>: A present participle. It modifies &quot;macroanalysis&quot; as a participial phrase (&quot;macroanalysis examining nearly 1,000 book titles&quot;) without competing with &quot;shows.&quot; &#10003;</li><li><strong>Choice C &mdash; 'examines'</strong>: A finite present-tense verb. Same problem as A &mdash; two main verbs. &#10007;</li><li><strong>Choice D &mdash; 'examined'</strong>: A finite past-tense verb. Same problem as A and C. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "77ffe59b-61ef-47e4-ba8e-118244b99796_21",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence already has a main verb &mdash; &quot;shows&quot; (&quot;Aslanian&apos;s macroanalysis ___ nearly 1,000 book titles... shows not only... but also...&quot;). The blank modifies &quot;macroanalysis&quot; and must not create a second competing main verb."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;had examined&rsquo;</strong>: A finite past-perfect verb. This would create two main verbs in one clause (&quot;had examined... shows&quot;), which is ungrammatical. &#10007;</li><li><strong>Choice B &mdash; &lsquo;examining&rsquo;</strong>: A present participle. It modifies &quot;macroanalysis&quot; as a participial phrase (&quot;macroanalysis examining nearly 1,000 book titles&quot;) without competing with &quot;shows.&quot; &#10003;</li><li><strong>Choice C &mdash; &lsquo;examines&rsquo;</strong>: A finite present-tense verb. Same problem as A &mdash; two main verbs. &#10007;</li><li><strong>Choice D &mdash; &lsquo;examined&rsquo;</strong>: A finite past-tense verb. Same problem as A and C. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

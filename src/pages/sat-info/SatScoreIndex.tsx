@@ -1,11 +1,17 @@
 import { Link } from "react-router-dom";
 
 import { PageSeo, buildBreadcrumbJsonLd } from "@/components/seo/PageSeo";
-import { allSatScores } from "@/lib/seo-data/satScoreData";
-
 const title = "SAT Score Breakdowns: Every 400–1600 SAT Score Explained";
 const description =
   "Browse detailed breakdowns of every Digital SAT score from 400 to 1600. See the percentile, target colleges, and study plan for your SAT score.";
+
+const scoreBands = [
+  ["1500-1600", "Elite", "Protect every easy and medium point; use hard Module 2 review."],
+  ["1400-1490", "Strong", "Use timed modules to find the last section-specific misses."],
+  ["1300-1390", "Competitive", "Target the weakest section with skill-filtered bank practice."],
+  ["1200-1290", "Above average", "Clean up Algebra, punctuation, and pacing errors first."],
+  ["400-1190", "Building", "Start with fundamentals and review every miss before adding speed."],
+];
 
 const SatScoreIndex = () => {
   return (
@@ -34,27 +40,109 @@ const SatScoreIndex = () => {
           SAT Score Breakdowns: Every Score From 400 to 1600
         </h1>
         <p className="mt-3 text-lg text-muted-foreground">
-          Pick any Digital SAT score to see its percentile, how it compares to
-          other students, which colleges it is competitive for, and a focused
-          study plan to raise it. Use our{" "}
+          Use the score bands below to decide what to do next. For your actual
+          section split and current estimate, use the{" "}
           <Link className="underline" to="/score-calculator">
             Digital SAT score calculator
           </Link>{" "}
-          to estimate your own score first.
+          first, then drill the section that is holding the total down.
         </p>
       </header>
 
-      <ul className="grid grid-cols-3 gap-2 sm:grid-cols-4 md:grid-cols-6">
-        {allSatScores.map((score) => (
-          <li key={score}>
-            <Link
-              to={`/sat-score/${score}`}
-              className="block rounded-md border border-border px-3 py-2 text-center text-sm font-mono transition hover:bg-muted"
-            >
-              {score}
-            </Link>
-          </li>
+      <div className="grid gap-3">
+        {scoreBands.map(([range, tier, nextStep]) => (
+          <div key={range} className="rounded-lg border border-border p-4">
+            <div className="flex flex-wrap items-baseline justify-between gap-2">
+              <div className="font-mono text-lg font-semibold">{range}</div>
+              <div className="text-sm font-semibold">{tier}</div>
+            </div>
+            <p className="mt-2 text-sm text-muted-foreground">{nextStep}</p>
+          </div>
         ))}
+      </div>
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold tracking-tight">
+          How to use a score band
+        </h2>
+        <p className="mt-3 text-muted-foreground">
+          A score band is a starting diagnosis, not the plan itself. Two students with a 1350 can need completely different work if one is 750 Math / 600 Reading and Writing and the other is 660 Math / 690 Reading and Writing. Always turn the band into a section-specific decision.
+        </p>
+        <div className="mt-4 overflow-x-auto rounded-lg border border-border">
+          <table className="w-full min-w-[560px] text-left text-sm">
+            <thead className="bg-muted/70">
+              <tr>
+                <th className="px-4 py-3 font-semibold">Question to answer</th>
+                <th className="px-4 py-3 font-semibold">Why it matters</th>
+                <th className="px-4 py-3 font-semibold">Tool to use</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="border-t border-border">
+                <td className="px-4 py-3 text-muted-foreground">Is my total score competitive?</td>
+                <td className="px-4 py-3 text-muted-foreground">A 1400 can be excellent for one college list and below range for another.</td>
+                <td className="px-4 py-3 text-muted-foreground">Compare college targets.</td>
+              </tr>
+              <tr className="border-t border-border">
+                <td className="px-4 py-3 text-muted-foreground">Which section is holding me back?</td>
+                <td className="px-4 py-3 text-muted-foreground">The same total score can hide a very different Math/RW split.</td>
+                <td className="px-4 py-3 text-muted-foreground">Use the score calculator.</td>
+              </tr>
+              <tr className="border-t border-border">
+                <td className="px-4 py-3 text-muted-foreground">What should I practice next?</td>
+                <td className="px-4 py-3 text-muted-foreground">The next drill should come from repeated misses, not from the score label.</td>
+                <td className="px-4 py-3 text-muted-foreground">Open the filtered question bank.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold tracking-tight">
+          Common score-band mistakes
+        </h2>
+        <ul className="mt-3 list-disc space-y-2 pl-6 text-muted-foreground">
+          <li>Assuming a total score is enough information without checking section split.</li>
+          <li>Retaking full tests repeatedly when a narrow bank drill would fix the repeated miss type faster.</li>
+          <li>Comparing your score to national averages instead of your actual college list.</li>
+          <li>Chasing the next score band before protecting easy and medium questions in the current band.</li>
+        </ul>
+      </section>
+
+      <ul className="mt-6 flex flex-wrap gap-3">
+        <li>
+          <Link
+            to="/score-calculator"
+            className="inline-flex rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground hover:bg-cobalt hover:text-white"
+          >
+            Estimate your SAT score
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="/what-sat-score-do-i-need"
+            className="inline-flex rounded-lg border border-border px-4 py-2 text-sm font-semibold hover:bg-muted"
+          >
+            Compare college targets
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="/modules"
+            className="inline-flex rounded-lg border border-border px-4 py-2 text-sm font-semibold hover:bg-muted"
+          >
+            Take a timed module
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="/bank"
+            className="inline-flex rounded-lg border border-border px-4 py-2 text-sm font-semibold hover:bg-muted"
+          >
+            Drill weak skills
+          </Link>
+          </li>
       </ul>
     </div>
   );

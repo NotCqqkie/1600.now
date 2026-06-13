@@ -9,7 +9,7 @@
     },
     {
       "title": "Test each choice by distributing",
-      "content": "<ul><li><strong>A.</strong> $4ts(16s^2 - 14ts) = 64ts^3 - 56t^2s^2$ &mdash; wrong exponents on $t$.</li><li><strong>B.</strong> $4ts(16t^2s^2 - 14t) = 64t^3s^3 - 56t^2s$ &mdash; wrong exponents.</li><li><strong>C.</strong> $4t^2s(16ts - 14s) = 64t^3s^2 - 56t^2s^2$ &mdash; wrong exponents on $s$.</li><li><strong>D.</strong> $4t^2s(16s^2 - 14t) = 64t^2s^3 - 56t^3s$ &mdash; matches the original.</li></ul>That matches choice <strong>D</strong> &mdash; <strong>D</strong> is correct."
+      "content": "<ul><li><strong>$4ts \\left(16{s}^{2}-14ts\\right)$</strong>:  $4ts(16s^2 - 14ts) = 64ts^3 - 56t^2s^2$ &mdash; wrong exponents on $t$.</li><li><strong>$4ts \\left(16{t}^{2}{s}^{2}-14t\\right)$</strong>:  $4ts(16t^2s^2 - 14t) = 64t^3s^3 - 56t^2s$ &mdash; wrong exponents.</li><li><strong>$4{t}^{2}s \\left(16ts-14s\\right)$</strong>:  $4t^2s(16ts - 14s) = 64t^3s^2 - 56t^2s^2$ &mdash; wrong exponents on $s$.</li><li><strong>$4{t}^{2}s \\left(16{s}^{2}-14t\\right)$</strong>:  $4t^2s(16s^2 - 14t) = 64t^2s^3 - 56t^3s$ &mdash; matches the original.</li></ul>That matches the correct answer — <strong>D</strong> is correct."
     }
   ]
 }

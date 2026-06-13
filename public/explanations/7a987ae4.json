@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice <strong>B</strong> is correct. Choice C is the value of $2n$ before subtracting $1$, and choice A is a trap from using $n-1$ instead of $2n-1$."
+      "content": "<strong>B</strong> is correct. Choice C (&lsquo;50&rsquo;) is the value of $2n$ before subtracting $1$, and choice A (&lsquo;24&rsquo;) is a trap from using $n-1$ instead of $2n-1$."
     }
   ]
 }

@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Find the yearly savings",
-      "content": "The old yearly energy cost is $\\$4{,}334$ and the new yearly energy cost is $\\$2{,}712$, so the yearly savings are $$4{,}334-2{,}712.$$"
+      "content": "The old yearly energy cost is \\$4,334 and the new yearly energy cost is \\$2,712, so the yearly savings are $$4{,}334-2{,}712.$$"
     },
     {
       "title": "Represent savings after t years",
-      "content": "After $t$ years, the cumulative savings are $$(4{,}334-2{,}712)t.$$ The savings must exceed the $\\$25{,}000$ installation cost, so the savings must be greater than $25{,}000$."
+      "content": "After $t$ years, the cumulative savings are $$(4{,}334-2{,}712)t.$$ The savings must exceed the \\$25,000 installation cost, so the savings must be greater than $25{,}000$."
     },
     {
       "title": "Confirm the choice",
-      "content": "The inequality is $$25{,}000\\lt(4{,}334-2{,}712)t.$$ This matches choice <strong>B</strong>."
+      "content": "The inequality is $$25{,}000\\lt(4{,}334-2{,}712)t.$$ That confirms <strong>B</strong>."
     }
   ]
 }

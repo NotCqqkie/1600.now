@@ -1,1 +1,15 @@
-{"questionId":"2e82ac91-0f4b-4aee-b9af-429c0dc22e07_2","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank completes: &ldquo;filmmakers relied on film critics to influence the public&apos;s ______ the world of cinema.&rdquo; The next sentence explains how: critics drew similarities between film and traditional art forms to &ldquo;legitimize film as an art form.&rdquo; Legitimizing something changes how people view or think about it. The blank must name what critics were influencing &mdash; the public&apos;s view, understanding, or attitude toward cinema."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;contribution to&apos;</strong>: The public&apos;s contribution to cinema is not mentioned anywhere in the passage. &#10007;</li><li><strong>Choice B &mdash; &apos;perception of&apos;</strong>: Perception means how someone views or understands something &mdash; exactly what critics would shape by legitimizing cinema as an art form. &#10003;</li><li><strong>Choice C &mdash; &apos;reproduction of&apos;</strong>: The passage says nothing about reproducing cinema. &#10007;</li><li><strong>Choice D &mdash; &apos;application to&apos;</strong>: The public&apos;s application to cinema makes no sense in context. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_2",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank completes: &ldquo;filmmakers relied on film critics to influence the public&apos;s ______ the world of cinema.&rdquo; The next sentence explains how: critics drew similarities between film and traditional art forms to &ldquo;legitimize film as an art form.&rdquo; Legitimizing something changes how people view or think about it. The blank must name what critics were influencing &mdash; the public&apos;s view, understanding, or attitude toward cinema."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — contribution to</strong>: The public&apos;s contribution to cinema is not mentioned anywhere in the passage. &#10007;</li><li><strong>Choice B — perception of</strong>: Perception means how someone views or understands something &mdash; exactly what critics would shape by legitimizing cinema as an art form. &#10003;</li><li><strong>Choice C — reproduction of</strong>: The passage says nothing about reproducing cinema. &#10007;</li><li><strong>Choice D — application to</strong>: The public&apos;s application to cinema makes no sense in context. &#10007;</li></ul><strong>B</strong> is correct."
+    }
+  ]
+}

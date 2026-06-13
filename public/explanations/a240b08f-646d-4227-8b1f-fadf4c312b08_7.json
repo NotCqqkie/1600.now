@@ -9,11 +9,11 @@
     },
     {
       "title": "Verify the three components of SAS",
-      "content": "SAS (Side-Angle-Side) requires two sides and the included angle to be equal.<br/><br/><strong>First side:</strong> $GF = LK$ ✓<br/><strong>Included angle:</strong> $\\angle G = \\angle L = 30°$ (the angle at $G$ lies between sides $GF$ and $GH$; the angle at $L$ lies between sides $LK$ and $LM$) ✓<br/><strong>Second side:</strong> $GH = LM = 34$ cm ✓<br/><br/>All three components are satisfied."
+      "content": "SAS (Side-Angle-Side) requires two sides and the included angle to be equal.<br/><br/><strong>First side:</strong> $GF = LK$ ✓<br/><strong>Included angle:</strong> $\\angle G = \\angle L = 30^{\\circ}$ (the angle at $G$ lies between sides $GF$ and $GH$; the angle at $L$ lies between sides $LK$ and $LM$) ✓<br/><strong>Second side:</strong> $GH = LM = 34$ cm ✓<br/><br/>All three components are satisfied."
     },
     {
       "title": "Apply SAS and conclude",
-      "content": "Since both triangles have the same two sides and included angle, triangle $FGH \\cong$ triangle $KLM$ by the SAS criterion.<br/><br/>This congruence is established using only the given information, without requiring any additional details about the other angles or sides.<br/><br/>That matches choice D — <strong>D</strong> is correct."
+      "content": "Since both triangles have the same two sides and included angle, triangle $FGH \\cong$ triangle $KLM$ by the SAS criterion.<br/><br/>This congruence is established using only the given information, without requiring any additional details about the other angles or sides.<br/><br/>That confirms <strong>D</strong> is correct."
     }
   ]
 }

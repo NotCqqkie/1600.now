@@ -1,10 +1,23 @@
 {
+  "questionId": "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_4",
   "qid": "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_4",
   "correctAnswer": "D",
   "steps": [
-    "Recognize $x^2 - 100y^2$ as a difference of squares: $a^2 - b^2 = (a-b)(a+b)$ with $a = x$ and $b = 10y$.",
-    "Factor: $x^2 - 100y^2 = (x - 10y)(x + 10y)$.",
-    "Multiply back in the 11: $11(x^2 - 100y^2) = 11(x-10y)(x+10y)$.",
-    "Evaluate every choice:<ul><li>A: $11(x-2y)(x-50y)$ — expanding gives $11(x^2 - 52xy + 100y^2)$, which has the wrong sign on $100y^2$ and an extra $xy$ term. Eliminated.</li><li>B: $11(x-2y)(x+50y)$ — expanding gives $11(x^2 + 48xy - 100y^2)$, wrong factors entirely. Eliminated.</li><li>C: $11(x-10y)(x-10y)$ — this is $11(x-10y)^2 = 11(x^2 - 20xy + 100y^2)$, a perfect square, not a difference. Eliminated.</li><li>D: $11(x-10y)(x+10y)$ — matches the derived factorization exactly. That matches choice D — <strong>D</strong> is correct.</li></ul>"
+    {
+      "title": "Step 1",
+      "content": "Recognize $x^2 - 100y^2$ as a difference of squares: $a^2 - b^2 = (a-b)(a+b)$ with $a = x$ and $b = 10y$."
+    },
+    {
+      "title": "Step 2",
+      "content": "Factor: $x^2 - 100y^2 = (x - 10y)(x + 10y)$."
+    },
+    {
+      "title": "Step 3",
+      "content": "Multiply back in the 11: ${11}(x^2 - 100y^2) = 11(x-10y)(x+10y)$."
+    },
+    {
+      "title": "Step 4",
+      "content": "Evaluate every choice:<ul><li>A: ${11}(x-2y)(x-50y)$ — expanding gives ${11}(x^2 - 52xy + 100y^2)$, which has the wrong sign on $100y^2$ and an extra $xy$ term. Eliminated.</li><li>B: ${11}(x-2y)(x+50y)$ — expanding gives ${11}(x^2 + 48xy - 100y^2)$, wrong factors entirely. Eliminated.</li><li>C: ${11}(x-10y)(x-10y)$ — this is ${11}(x-10y)^2 = 11(x^2 - 20xy + 100y^2)$, a perfect square, not a difference. Eliminated.</li><li>D: ${11}(x-10y)(x+10y)$ — matches the derived factorization exactly. That confirms <strong>D</strong> is correct.</li></ul>"
+    }
   ]
 }

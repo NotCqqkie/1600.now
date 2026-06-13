@@ -1,1 +1,15 @@
-{"questionId":"cea66aee-3a10-4bb9-b653-46ec49321824_24","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks which choice best emphasizes a difference between Ricky Qui&ntilde;ones and John Catchings. From the notes: Qui&ntilde;ones played guitar, Catchings played cello &mdash; different instruments on different albums."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Ricky Qui&ntilde;ones and John Catchings have both lent their musical talents to albums by India Arie.'</strong>: Emphasizes a similarity (both contributed), not a difference. &#10007;</li><li><strong>Choice B &mdash; 'Both musicians have played on India Arie albums, but Ricky Qui&ntilde;ones played guitar, whereas John Catchings played cello.'</strong>: Uses <em>but</em> and <em>whereas</em> to directly contrast their instruments. This is the key difference from the notes. &#10003;</li><li><strong>Choice C &mdash; 'Ricky Qui&ntilde;ones played on India Arie&apos;s second studio album, Voyage to India, which was released one year after her album Acoustic Soul.'</strong>: Mentions only Qui&ntilde;ones and focuses on album release timing, not the difference between the two musicians. &#10007;</li><li><strong>Choice D &mdash; 'Acoustic Soul and Voyage to India, released in 2001 and 2002, respectively, are albums by singer and songwriter India Arie.'</strong>: Neither musician is mentioned; the focus is on the albums. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "cea66aee-3a10-4bb9-b653-46ec49321824_24",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks which choice best emphasizes a difference between Ricky Qui&ntilde;ones and John Catchings. From the notes: Qui&ntilde;ones played guitar, Catchings played cello &mdash; different instruments on different albums."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Ricky Quiñones and John Catchings have both lent their musical talents to albums by India Arie.</strong>: Emphasizes a similarity (both contributed), not a difference. &#10007;</li><li><strong>Choice B &mdash; Both musicians have played on India Arie albums, but Ricky Quiñones played guitar, whereas John Catchings played cello.</strong>: Uses <em>but</em> and <em>whereas</em> to directly contrast their instruments. This is the key difference from the notes. &#10003;</li><li><strong>Choice C &mdash; Ricky Quiñones played on India Arie's second studio album, <em>Voyage to India</em>, which was released one year after her album <em>Acoustic Soul</em>.</strong>: Mentions only Qui&ntilde;ones and focuses on album release timing, not the difference between the two musicians. &#10007;</li><li><strong>Choice D &mdash; <em>Acoustic Soul</em> and <em>Voyage to India</em>, released in 2001 and 2002, respectively, are albums by singer and songwriter India Arie.</strong>: Neither musician is mentioned; the focus is on the albums. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

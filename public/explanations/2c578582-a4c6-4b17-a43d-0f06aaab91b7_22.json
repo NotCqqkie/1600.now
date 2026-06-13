@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Break the charge into two pieces",
-      "content": "The first $25$ people cost $\\$28$ each, a fixed amount of $25\\cdot 28=\\$700$. Anyone beyond that is charged $\\$17$ each, and there are $n-25$ such people when $n\\ge 25$."
+      "content": "The first $25$ people cost 28 dollars each, a fixed amount of $25\\cdot 28=700$ dollars. Anyone beyond that is charged 17 dollars each, and there are $n-25$ such people when $n\\ge 25$."
     },
     {
       "title": "Write and simplify f(n)",
@@ -13,7 +13,7 @@
     },
     {
       "title": "Check each choice",
-      "content": "<ul><li>A) $17n+275$: gives $\\$700$ at $n=25$ and adds $\\$17$ per extra person. Matches.</li><li>B) $17n+28$: at $n=25$ this is $\\$453$, far less than $\\$700$. Eliminated.</li><li>C) $17n+700$: at $n=25$ this is $\\$1{,}125$, overcharging the base group. Eliminated.</li><li>D) $45n-425$: at $n=25$ this is $\\$700$ (coincidence), but slope is $\\$45$/person, not $\\$17$. Eliminated.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li>A) $17n+275$: gives 700 dollars at $n=25$ and adds 17 dollars per extra person. Matches.</li><li>B) $17n+28$: at $n=25$ this is 453 dollars, far less than 700 dollars. Eliminated.</li><li>C) $17n+700$: at $n=25$ this is 1,125 dollars, overcharging the base group. Eliminated.</li><li>D) $45n-425$: at $n=25$ this is 700 dollars (coincidence), but slope is 45 dollars per person, not 17 dollars. Eliminated.</li></ul><strong>A</strong> is correct."
     }
   ]
 }

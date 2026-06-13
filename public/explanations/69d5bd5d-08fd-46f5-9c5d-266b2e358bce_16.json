@@ -1,1 +1,15 @@
-{"questionId": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_16", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structures", "content": "To the left of the blank: “ratified in 1804” is a participial phrase. To the right: “separated the elections...” is the main clause. An opening comma already marks where the phrase begins."}, {"title": "Apply the rule for paired punctuation", "content": "When a parenthetical phrase begins with a comma, it must end with one to maintain symmetry.<br/><br/>The opening comma after “amendment” requires a closing comma after “1804.” Choices A, C, and D violate this—a colon doesn't apply, no punctuation leaves the phrase unclosed, and an em dash doesn't match the opening comma.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_16",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures",
+      "content": "To the left of the blank: “ratified in 1804” is a participial phrase. To the right: “separated the elections...” is the main clause. An opening comma already marks where the phrase begins."
+    },
+    {
+      "title": "Apply the rule for paired punctuation",
+      "content": "When a parenthetical phrase begins with a comma, it must end with one to maintain symmetry.<br/><br/>The opening comma after “amendment” requires a closing comma after “1804.” The other choices violate this—a colon doesn't apply, no punctuation leaves the phrase unclosed, and an em dash doesn't match the opening comma.<br/><br/>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

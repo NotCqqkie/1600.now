@@ -9,7 +9,7 @@
     },
     {
       "title": "Set the vertex height to zero",
-      "content": "Substitute $x=\\frac{5}{3}$ and set $y=0$:<br/>$$-9\\left(\\frac{5}{3}\\right)^2+30\\left(\\frac{5}{3}\\right)+c=0$$<br/>$$-25+50+c=0$$<br/>$$c=-25$$<br/>That matches choice C — <strong>C</strong> is correct."
+      "content": "Substitute $x=\\frac{5}{3}$ and set $y=0$:<br/>$$-9\\left(\\frac{5}{3}\\right)^2+30\\left(\\frac{5}{3}\\right)+c=0$$<br/>$$-25+50+c=0$$<br/>$$c=-25$$<br/>That matches <strong>Choice C &mdash; $-25$</strong>."
     }
   ]
 }

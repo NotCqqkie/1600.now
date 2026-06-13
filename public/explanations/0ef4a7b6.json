@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate all four choices",
-      "content": "<ul><li><strong>Choice A - '106&lt;h&lt;158'</strong>: Lower bound is 106 &gt; 100, so every h in this range exceeds 100. Correct</li><li><strong>Choice B - '80&lt;h&lt;100'</strong>: Lower bound is 80 &lt; 100 and upper bound is exactly 100; no value in this range exceeds 100. Incorrect</li><li><strong>Choice C - '42&lt;h&lt;87'</strong>: All values are well below 100. Incorrect</li><li><strong>Choice D - '17&lt;h&lt;85'</strong>: All values are well below 100. Incorrect</li></ul>That matches choice A - <strong>A</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; $106 \\lt h \\lt 158$</strong>: Lower bound is 106 &gt; 100, so every h in this range exceeds 100. Correct</li><li><strong>Choice B &mdash; $80 \\lt h \\lt 100$</strong>: Lower bound is 80 &lt; 100 and upper bound is exactly 100; no value in this range exceeds 100. Incorrect</li><li><strong>Choice C &mdash; $42 \\lt h \\lt 87$</strong>: All values are well below 100. Incorrect</li><li><strong>Choice D &mdash; $17 \\lt h \\lt 85$</strong>: All values are well below 100. Incorrect</li></ul>That matches <strong>Choice A &mdash; $106 \\lt h \\lt 158$</strong>."
     }
   ]
 }

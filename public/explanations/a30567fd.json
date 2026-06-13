@@ -1,1 +1,15 @@
-{"questionId": "a30567fd", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Analyze the structure after the comma", "content": "The main independent clause ends with &quot;lent Fairuz a timeless, cross-generational appeal.&quot; After the comma, what follows — &quot;[blank] her the moniker 'the soul of Lebanon'&quot; — must attach to that clause as a modifying phrase, not form a second independent clause."}, {"title": "Test each form against the participial phrase rule", "content": "After a comma following an independent clause, a present participle introduces a modifying phrase showing result or circumstance. A finite verb form instead creates a comma splice (two independent clauses joined only by a comma).<ul><li><strong>Choice A &mdash; 'earned'</strong>: Simple past finite verb — creates a comma splice by joining two independent clauses without a coordinating conjunction. &#10007;</li><li><strong>Choice B &mdash; 'had earned'</strong>: Past perfect finite verb — also creates a comma splice for the same reason. &#10007;</li><li><strong>Choice C &mdash; 'earning'</strong>: Present participle — introduces a participial phrase that correctly modifies the main clause by expressing the result of lending her that appeal. &#10003;</li><li><strong>Choice D &mdash; 'earn'</strong>: Base (infinitive) form — not a grammatical participial phrase and would require &quot;to&quot; to serve as an infinitive; does not conform to Standard English here. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "a30567fd",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Analyze the structure after the comma",
+      "content": "The main independent clause ends with &quot;lent Fairuz a timeless, cross-generational appeal.&quot; After the comma, what follows — &quot;[blank] her the moniker 'the soul of Lebanon'&quot; — must attach to that clause as a modifying phrase, not form a second independent clause."
+    },
+    {
+      "title": "Test each form against the participial phrase rule",
+      "content": "After a comma following an independent clause, a present participle introduces a modifying phrase showing result or circumstance. A finite verb form instead creates a comma splice (two independent clauses joined only by a comma).<ul><li><strong>Choice A &mdash; earned</strong>: Simple past finite verb — creates a comma splice by joining two independent clauses without a coordinating conjunction. &#10007;</li><li><strong>Choice B &mdash; had earned</strong>: Past perfect finite verb — also creates a comma splice for the same reason. &#10007;</li><li><strong>Choice C &mdash; earning</strong>: Present participle — introduces a participial phrase that correctly modifies the main clause by expressing the result of lending her that appeal. &#10003;</li><li><strong>Choice D &mdash; earn</strong>: Base (infinitive) form — not a grammatical participial phrase and would require &quot;to&quot; to serve as an infinitive; does not conform to Standard English here. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

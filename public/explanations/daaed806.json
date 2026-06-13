@@ -1,1 +1,15 @@
-{"questionId": "daaed806", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the key signal in the text", "content": "The researchers want to know whether biological traits are associated with &quot;considerable variations in venom potency.&quot; The phrase &quot;considerable variations&quot; signals the scale of effect being measured &mdash; something large and meaningful, not trivial or unnoticeable."}, {"title": "Eliminate each choice", "content": "<ul>\n<li><strong>Choice A &mdash; 'a disconcerting'</strong>: Means unsettling or disturbing &mdash; an emotional quality. The text is about measuring magnitude of variation, not how the researchers feel about the effect. &#10007;</li>\n<li><strong>Choice B &mdash; 'an acceptable'</strong>: Means satisfactory or adequate. The text never asks whether the effect is good enough; it asks whether it is large. &#10007;</li>\n<li><strong>Choice C &mdash; 'an imperceptible'</strong>: Means unnoticeable or too small to detect, which contradicts the goal of finding &quot;considerable variations.&quot; &#10007;</li>\n<li><strong>Choice D &mdash; 'a substantial'</strong>: Means sizable and significant, directly matching &quot;considerable variations in venom potency.&quot; &#10003;</li>\n</ul>\nThat matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "daaed806",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal in the text",
+      "content": "The researchers want to know whether biological traits are associated with \"considerable variations in venom potency.\" The phrase \"considerable variations\" signals the scale of effect being measured &mdash; something large and meaningful, not trivial or unnoticeable."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul>\n<li><strong>\"a disconcerting\"</strong>: Means unsettling or disturbing &mdash; an emotional quality. The text is about measuring magnitude of variation, not how the researchers feel about the effect. &#10007;</li>\n<li><strong>\"an acceptable\"</strong>: Means satisfactory or adequate. The text never asks whether the effect is good enough; it asks whether it is large. &#10007;</li>\n<li><strong>\"an imperceptible\"</strong>: Means unnoticeable or too small to detect, which contradicts the goal of finding \"considerable variations.\" &#10007;</li>\n<li><strong>\"a substantial\"</strong>: Means sizable and significant, directly matching \"considerable variations in venom potency.\" &#10003;</li>\n</ul>\nThat matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

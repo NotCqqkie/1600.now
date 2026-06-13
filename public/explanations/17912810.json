@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Use the angle at line q",
-      "content": "Angle $b$ is $122°$, so the adjacent angle on line $q$ is $180°-122°=58°$."
+      "content": "Angle $b$ is $122^{\\circ}$, so the adjacent angle on line $q$ is $180^{\\circ}-122^{\\circ}=58^{\\circ}$."
     },
     {
       "title": "Find the larger angle at line t",
-      "content": "Using the small triangle above line $q$, the exterior angle made by line $r$ and the horizontal is $43°+58°=101°$. Since $q \\parallel t$, the matching obtuse angle below line $t$ is also $101°$."
+      "content": "Using the small triangle above line $q$, the exterior angle made by line $r$ and the horizontal is $43^{\\circ}+58^{\\circ}=101^{\\circ}$. Since $q \\parallel t$, the matching obtuse angle below line $t$ is also $101^{\\circ}$."
     },
     {
       "title": "Use the equal w markings",
-      "content": "The diagram marks that obtuse angle as two equal angles, each labeled $w$. So $2w=101°$, and $w=\\frac{101}{2}$."
+      "content": "The diagram marks that obtuse angle as two equal angles, each labeled $w$. So $2w=101^{\\circ}$, and $w=\\frac{101}{2}$."
     }
   ]
 }

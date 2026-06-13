@@ -1,1 +1,15 @@
-{"questionId":"f773a56b","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The skill is Words in Context. The colon after the blank signals that the rest of the sentence explains it: Juarez&rsquo;s &quot;many significant accomplishments&quot; over a long tenure are listed as evidence. The blank must mean consequential or notable &mdash; the opposite of ordinary."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;unpredictable&rsquo;</strong>: means behaving in ways that cannot be anticipated &mdash; the text says nothing about Juarez&rsquo;s consistency or predictability; this attribute is absent from the passage. &#10007;</li><li><strong>Choice B &mdash; &lsquo;important&rsquo;</strong>: means marked by significant work or consequence &mdash; directly supported by &quot;many significant accomplishments,&quot; his historic status as the first Indigenous president, and his long, consequential tenure. &#10003;</li><li><strong>Choice C &mdash; &lsquo;secretive&rsquo;</strong>: means tending to keep things hidden &mdash; the text focuses on publicly known achievements and milestones; nothing suggests concealment. &#10007;</li><li><strong>Choice D &mdash; &lsquo;ordinary&rsquo;</strong>: means common or typical &mdash; directly contradicts the passage&rsquo;s emphasis on his historic firsts and &quot;many significant accomplishments.&quot; &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "f773a56b",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The skill is Words in Context. The colon after the blank signals that the rest of the sentence explains it: Juarez&rsquo;s \"many significant accomplishments\" over a long tenure are listed as evidence. The blank must mean consequential or notable &mdash; the opposite of ordinary."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"unpredictable\"</strong>: means behaving in ways that cannot be anticipated &mdash; the text says nothing about Juarez&rsquo;s consistency or predictability; this attribute is absent from the passage. &#10007;</li><li><strong>\"important\"</strong>: means marked by significant work or consequence &mdash; directly supported by \"many significant accomplishments,\" his historic status as the first Indigenous president, and his long, consequential tenure. &#10003;</li><li><strong>\"secretive\"</strong>: means tending to keep things hidden &mdash; the text focuses on publicly known achievements and milestones; nothing suggests concealment. &#10007;</li><li><strong>\"ordinary\"</strong>: means common or typical &mdash; directly contradicts the passage&rsquo;s emphasis on his historic firsts and \"many significant accomplishments.\" &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+    }
+  ]
+}

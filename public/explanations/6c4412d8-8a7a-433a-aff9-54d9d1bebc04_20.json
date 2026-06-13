@@ -1,1 +1,15 @@
-{"questionId":"6c4412d8-8a7a-433a-aff9-54d9d1bebc04_20","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence&apos;s main verb is &quot;became&quot; (&quot;Such meticulous documentation&hellip; became Kawara&apos;s life&apos;s work&quot;). The blank comes after &quot;information&quot; and before the main verb, so it must <strong>not</strong> introduce a second competing main verb &mdash; it should modify the documentation without creating a new independent clause."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;information, has generated&apos;</strong>: &quot;has generated&quot; is a finite main verb, creating two main verbs (&quot;has generated&quot; and &quot;became&quot;) joined only by a comma &mdash; a comma splice. &#10007;</li><li><strong>Choice B &mdash; &apos;information generates&apos;</strong>: &quot;generates&quot; is also a finite main verb, same comma-splice problem without even the comma. &#10007;</li><li><strong>Choice C &mdash; &apos;information, generating&apos;</strong>: the comma introduces a participial phrase (&quot;generating artworks&hellip;&quot;) that modifies the subject without competing with &quot;became&quot; as a second main verb. &#10003;</li><li><strong>Choice D &mdash; &apos;information generated&apos;</strong>: &quot;generated&quot; without a comma reads as a past-tense main verb, again giving the sentence two main verbs. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_20",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence&apos;s main verb is &quot;became&quot; (&quot;Such meticulous documentation&hellip; became Kawara&apos;s life&apos;s work&quot;). The blank comes after &quot;information&quot; and before the main verb, so it must <strong>not</strong> introduce a second competing main verb &mdash; it should modify the documentation without creating a new independent clause."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;information, has generated&rsquo;</strong>: &quot;has generated&quot; is a finite main verb, creating two main verbs (&quot;has generated&quot; and &quot;became&quot;) joined only by a comma &mdash; a comma splice. &#10007;</li><li><strong>Choice B &mdash; &lsquo;information generates&rsquo;</strong>: &quot;generates&quot; is also a finite main verb, same comma-splice problem without even the comma. &#10007;</li><li><strong>Choice C &mdash; &lsquo;information, generating&rsquo;</strong>: the comma introduces a participial phrase (&quot;generating artworks&hellip;&quot;) that modifies the subject without competing with &quot;became&quot; as a second main verb. &#10003;</li><li><strong>Choice D &mdash; &lsquo;information generated&rsquo;</strong>: &quot;generated&quot; without a comma reads as a past-tense main verb, again giving the sentence two main verbs. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

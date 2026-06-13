@@ -1,1 +1,15 @@
-{"questionId": "f7d58b53", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the key action in context", "content": "The passage says the principal chief and cabinet officials do something to laws <em>by devising policies and administering services in accordance with them</em>. That phrase tells us exactly what they do: they turn laws into concrete action through policies and services. The blank needs a word meaning to put laws into effect."}, {"title": "Eliminate wrong choices and confirm the answer", "content": "<ul><li><strong>Choice A &mdash; 'implement'</strong>: means to put into effect or carry out &mdash; perfectly matches &ldquo;devising policies and administering services in accordance with&rdquo; the laws. &#10003;</li><li><strong>Choice B &mdash; 'presume'</strong>: means to assume something based on incomplete information &mdash; nothing in the passage suggests the chief and cabinet are making assumptions about the laws. &#10007;</li><li><strong>Choice C &mdash; 'improvise'</strong>: means to create without preparation &mdash; the passage describes deliberate policy-making, the opposite of improvising. &#10007;</li><li><strong>Choice D &mdash; 'mimic'</strong>: means to copy or imitate &mdash; the chief and cabinet are not generating imitation laws; they are executing existing ones. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "f7d58b53",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key action in context",
+      "content": "The passage says the principal chief and cabinet officials do something to laws <em>by devising policies and administering services in accordance with them</em>. That phrase tells us exactly what they do: they turn laws into concrete action through policies and services. The blank needs a word meaning to put laws into effect."
+    },
+    {
+      "title": "Eliminate wrong choices and confirm the answer",
+      "content": "<ul><li><strong>\"implement\"</strong>: means to put into effect or carry out &mdash; perfectly matches &ldquo;devising policies and administering services in accordance with&rdquo; the laws. &#10003;</li><li><strong>\"presume\"</strong>: means to assume something based on incomplete information &mdash; nothing in the passage suggests the chief and cabinet are making assumptions about the laws. &#10007;</li><li><strong>\"improvise\"</strong>: means to create without preparation &mdash; the passage describes deliberate policy-making, the opposite of improvising. &#10007;</li><li><strong>\"mimic\"</strong>: means to copy or imitate &mdash; the chief and cabinet are not generating imitation laws; they are executing existing ones. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+    }
+  ]
+}

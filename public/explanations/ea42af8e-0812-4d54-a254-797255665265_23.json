@@ -1,1 +1,15 @@
-{"questionId": "ea42af8e-0812-4d54-a254-797255665265_23", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the goal", "content": "The student wants to emphasize a <em>difference</em> between winged kelp (moderate umami) and arame (high umami). The correct choice must contrast the two intensities."}, {"title": "Evaluate each choice", "content": "<ul><li><strong>Choice A &mdash; &ldquo;Both winged kelp and arame are types of brown seaweed&rdquo;</strong>: States a similarity, not a difference &mdash; no contrast between umami intensities. &#10007;</li><li><strong>Choice B &mdash; &ldquo;Winged kelp and arame both contain umami flavor&hellip;&rdquo;</strong>: Again emphasizes similarity (&ldquo;both contain&rdquo;) and adds irrelevant information about pork and soy &mdash; no contrast of intensity. &#10007;</li><li><strong>Choice C &mdash; &ldquo;Participants found winged kelp&hellip;moderate umami intensity, while arame&rsquo;s umami was more intense&rdquo;</strong>: Directly contrasts moderate (winged kelp) vs. more intense (arame) &mdash; fits the goal of highlighting a difference. &#10003;</li><li><strong>Choice D &mdash; &ldquo;Some types of brown seaweed, like winged kelp and arame, trigger umami&hellip;&rdquo;</strong>: Groups both seaweeds together rather than contrasting them. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "ea42af8e-0812-4d54-a254-797255665265_23",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the goal",
+      "content": "The student wants to emphasize a <em>difference</em> between winged kelp (moderate umami) and arame (high umami). The correct choice must contrast the two intensities."
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li><strong>\"Both winged kelp and arame are types of brown seaweed.\"</strong>: States a similarity, not a difference &mdash; no contrast between umami intensities. &#10007;</li><li><strong>\"Winged kelp and arame both contain umami flavor, which can also be triggered by compounds in pork and soy sauce.\"</strong>: Again emphasizes similarity (&ldquo;both contain&rdquo;) and adds irrelevant information about pork and soy &mdash; no contrast of intensity. &#10007;</li><li><strong>\"Participants in a research study found winged kelp, a type of brown seaweed, to have moderate umami intensity, while arame's umami was more intense.\"</strong>: Directly contrasts moderate (winged kelp) vs. more intense (arame) &mdash; fits the goal of highlighting a difference. &#10003;</li><li><strong>\"Some types of brown seaweed, like winged kelp and arame, trigger umami flavor in human taste buds.\"</strong>: Groups both seaweeds together rather than contrasting them. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+    }
+  ]
+}

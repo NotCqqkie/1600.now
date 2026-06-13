@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Find angle T using the triangle angle sum",
-      "content": "The three angles of triangle $RST$ sum to $180°$. Setting up the equation:<br/>$$50 + x + (4x - 5) = 180$$<br/>Combining like terms:<br/>$$45 + 5x = 180$$<br/>Solving for $x$:<br/>$$5x = 135$$<br/>$$x = 27$$<br/>Now we can find angle $T$:<br/>$$\\text{Angle } T = 4x - 5 = 4(27) - 5 = 108 - 5 = 103°$$"
+      "content": "The three angles of triangle $RST$ sum to $180^{\\circ}$. Setting up the equation:<br/>$$50 + x + (4x - 5) = 180$$<br/>Combining like terms:<br/>$$45 + 5x = 180$$<br/>Solving for $x$:<br/>$$5x = 135$$<br/>$$x = 27$$<br/>Now we can find angle $T$:<br/>$$\\text{Angle } T = 4x - 5 = 4(27) - 5 = 108 - 5 = 103^{\\circ}$$"
     },
     {
       "title": "Apply corresponding angles with parallel lines",

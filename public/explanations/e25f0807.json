@@ -18,7 +18,7 @@
     },
     {
       "title": "Confirm the answer",
-      "content": "The line $y=5x+15$ passes through both given points: $5(-12)+15=-45$ and $5(6)+15=45$. Therefore the requested value is <strong>16.25</strong>."
+      "content": "The line $y=5x+15$ passes through both given points: $\\left(5\\right)(-12)+15=-45$ and $\\left(5\\right)(6)+15=45$. Therefore the requested value is <strong>16.25</strong>."
     }
   ]
 }

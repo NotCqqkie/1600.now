@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate each answer choice",
-      "content": "<ul><li><strong>A</strong>: $120 \\le H \\le 162$ — The lower bound is 120 and the upper bound is 162, which matches our calculations. That matches choice A — <strong>A</strong> is correct.</li><li><strong>B</strong>: Upper bound 120 — This would mean the maximum is 120, but 120 is the minimum training heart rate. Incorrect.</li><li><strong>C</strong>: Upper bound 162 with a different lower bound — The lower bound shown is not 120, so this does not accurately represent the range. Incorrect.</li><li><strong>D</strong>: Upper bound 102 — $H = 102$ corresponds to $p = 0.35$, which is below the recommended range. Incorrect.</li></ul>"
+      "content": "<ul><li><strong>A</strong>: $120 \\le H \\le 162$ — The lower bound is 120 and the upper bound is 162, which matches our calculations. That is the correct answer.</li><li><strong>B</strong>: Upper bound 120 — This would mean the maximum is 120, but 120 is the minimum training heart rate. Incorrect.</li><li><strong>C</strong>: Upper bound 162 with a different lower bound — The lower bound shown is not 120, so this does not accurately represent the range. Incorrect.</li><li><strong>D</strong>: Upper bound 102 — $H = 102$ corresponds to $p = 0.35$, which is below the recommended range. Incorrect.</li></ul>"
     }
   ]
 }

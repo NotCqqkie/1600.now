@@ -9,7 +9,7 @@
     },
     {
       "title": "Convert π/2 radians to degrees",
-      "content": "Use the conversion factor: $\\text{degrees} = \\text{radians} \\times \\frac{180}{\\pi}$<br/>$$L = \\frac{\\pi}{2} \\times \\frac{180}{\\pi} = \\frac{180}{2} = 90°$$<br/>That matches choice B — <strong>B</strong> is correct."
+      "content": "Use the conversion factor: $\\text{degrees} = \\text{radians} \\times \\frac{180}{\\pi}$<br/>$$L = \\frac{\\pi}{2} \\times \\frac{180}{\\pi} = \\frac{180}{2} = 90^{\\circ}$$<br/>That confirms <strong>B</strong> is correct."
     }
   ]
 }

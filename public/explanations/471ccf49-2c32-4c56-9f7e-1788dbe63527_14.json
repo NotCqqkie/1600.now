@@ -13,7 +13,7 @@
     },
     {
       "title": "Solve for x",
-      "content": "From $\\frac{96}{12x} = 1$, multiply both sides by $12x$:<br/>$$96 = 12x$$<br/>Divide by 12:<br/>$$x = \\frac{96}{12} = 8$$<br/>That matches choice C — <strong>C</strong> is correct."
+      "content": "From $\\frac{96}{12x} = 1$, multiply both sides by $12x$:<br/>$$96 = 12x$$<br/>Divide by 12:<br/>$$x = \\frac{96}{12} = 8$$<br/><strong>C</strong> is correct."
     }
   ]
 }

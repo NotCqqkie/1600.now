@@ -1,1 +1,15 @@
-{"questionId": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_16", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structure", "content": "On the left: “poetic” is an adjective modifying the noun that follows. On the right: noun phrases serving as list items."}, {"title": "Apply the rule", "content": "A colon introduces a list or elaboration; choice B is correct.<br/><br/>The colon after “style” introduces what follows, while the comma between the two coordinate adjectives “terse” and “compressed” correctly joins them.<br/><br/>The other three choices fail: <ul><li>A creates an erroneous sentence boundary with a period</li><li>C uses a comma which cannot introduce a list</li><li>D uses a semicolon before an adjective</li></ul>.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_16",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "On the left: “poetic” is an adjective modifying the noun that follows. On the right: noun phrases serving as list items."
+    },
+    {
+      "title": "Apply the rule",
+      "content": "A colon introduces a list or elaboration; <strong>Choice B &mdash; style: terse,</strong> is correct.<br/><br/>The colon after “style” introduces what follows, while the comma between the two coordinate adjectives “terse” and “compressed” correctly joins them.<br/><br/>The other three choices fail: <ul><li>A creates an erroneous sentence boundary with a period</li><li>C uses a comma which cannot introduce a list</li><li>D uses a semicolon before an adjective</li></ul>.<br/><br/>That matches <strong>Choice B &mdash; style: terse,</strong>."
+    }
+  ]
+}

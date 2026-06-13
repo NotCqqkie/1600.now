@@ -5,8 +5,8 @@
   "steps": [
     {
       "title": "Apply the angle sum property of triangles",
-      "content": "In any triangle, the sum of the interior angles is 180°. For triangle EFG: $$\\angle E + \\angle F + \\angle G = 180°$$ Given that $\\angle E + \\angle F = 31°$, we substitute: $$31° + \\angle G = 180°$$ $$\\angle G = 180° - 31° = 149°$$ That matches choice D — <strong>D</strong> is correct.",
-      "formula": "$$\\angle A + \\angle B + \\angle C = 180°$$"
+      "content": "In any triangle, the sum of the interior angles is $180^{\\circ}$. For triangle EFG: $$\\angle E + \\angle F + \\angle G = 180^{\\circ}$$ Given that $\\angle E + \\angle F = 31^{\\circ}$, we substitute: $$31^{\\circ} + \\angle G = 180^{\\circ}$$ $$\\angle G = 180^{\\circ} - 31^{\\circ} = 149^{\\circ}$$ <strong>D</strong> is correct.",
+      "formula": "$$\\angle A + \\angle B + \\angle C = 180^{\\circ}$$"
     }
   ]
 }

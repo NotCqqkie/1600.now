@@ -1,1 +1,15 @@
-{"questionId":"fd74de5b-6191-4868-9a2d-dd70269d2477_20","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence ends &ldquo;...oil ______ which was created in 1910 by American artist Lyonel Feininger.&rdquo; The blank must name the painting (<em>Uprising</em>) and correctly punctuate the nonrestrictive &ldquo;which&rdquo; clause that follows."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'painting Uprising,'</strong>: places the comma directly after the title and before &ldquo;which,&rdquo; as required for a nonrestrictive relative clause. Correct. &#10003;</li><li><strong>Choice B &mdash; 'painting Uprising'</strong>: omits the comma before &ldquo;which,&rdquo; violating the rule that a nonrestrictive &ldquo;which&rdquo; clause must be preceded by a comma. &#10007;</li><li><strong>Choice C &mdash; 'painting, Uprising'</strong>: inserts a comma between &ldquo;painting&rdquo; and &ldquo;Uprising,&rdquo; breaking up the noun phrase incorrectly and still leaving no comma before &ldquo;which.&rdquo; &#10007;</li><li><strong>Choice D &mdash; 'painting. Uprising.'</strong>: the period after &ldquo;Uprising&rdquo; creates a fragment (&ldquo;Uprising. which was created...&rdquo;) since &ldquo;which&rdquo; cannot begin an independent sentence here. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "fd74de5b-6191-4868-9a2d-dd70269d2477_20",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence ends &ldquo;...oil ______ which was created in 1910 by American artist Lyonel Feininger.&rdquo; The blank must name the painting (<em>Uprising</em>) and correctly punctuate the nonrestrictive &ldquo;which&rdquo; clause that follows."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"painting Uprising,\"</strong>: places the comma directly after the title and before &ldquo;which,&rdquo; as required for a nonrestrictive relative clause. Correct. &#10003;</li><li><strong>\"painting Uprising\"</strong>: omits the comma before &ldquo;which,&rdquo; violating the rule that a nonrestrictive &ldquo;which&rdquo; clause must be preceded by a comma. &#10007;</li><li><strong>\"painting, Uprising\"</strong>: inserts a comma between &ldquo;painting&rdquo; and &ldquo;Uprising,&rdquo; breaking up the noun phrase incorrectly and still leaving no comma before &ldquo;which.&rdquo; &#10007;</li><li><strong>\"painting. Uprising.\"</strong>: the period after &ldquo;Uprising&rdquo; creates a fragment (&ldquo;Uprising. which was created...&rdquo;) since &ldquo;which&rdquo; cannot begin an independent sentence here. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+    }
+  ]
+}

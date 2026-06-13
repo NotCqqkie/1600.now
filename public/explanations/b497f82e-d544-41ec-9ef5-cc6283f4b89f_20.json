@@ -1,1 +1,15 @@
-{"questionId": "b497f82e-d544-41ec-9ef5-cc6283f4b89f_20", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Spot the explanation pattern", "content": "The sentence asserts that Kaihalulu's sand is <strong>strikingly different</strong>, then explains why using <strong>though</strong> to contrast sources of typical sand color with this beach's sources. The punctuation after <strong>shade</strong> must signal that an explanation follows."}, {"title": "Select the punctuation that introduces an explanation", "content": "A colon introduces an explanation or elaboration—so placing one after <strong>shade</strong> signals that the <strong>though</strong>-clause and independent clause that follow explain why the sand is different.<br/><br/>A comma doesn't signal this relationship, unnecessary punctuation in choice A disrupts the structure, and choice D's period incorrectly separates related clauses.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "b497f82e-d544-41ec-9ef5-cc6283f4b89f_20",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the explanation pattern",
+      "content": "The sentence asserts that Kaihalulu's sand is <strong>strikingly different</strong>, then explains why using <strong>though</strong> to contrast sources of typical sand color with this beach's sources. The punctuation after <strong>shade</strong> must signal that an explanation follows."
+    },
+    {
+      "title": "Select the punctuation that introduces an explanation",
+      "content": "A colon introduces an explanation or elaboration—so placing one after <strong>shade</strong> signals that the <strong>though</strong>-clause and independent clause that follow explain why the sand is different.<br/><br/>A comma doesn't signal this relationship, unnecessary punctuation in choice A disrupts the structure, and choice D's period incorrectly separates related clauses.<br/><br/>That is the correct answer."
+    }
+  ]
+}

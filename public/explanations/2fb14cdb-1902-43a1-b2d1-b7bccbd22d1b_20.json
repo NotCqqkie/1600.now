@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the conditional probability formula",
-      "content": "$$P(A\\mid \\text{age}\\ge 10)=\\frac{15}{60}=\\frac{1}{4}.$$ That matches choice <strong>B</strong> — <strong>B</strong> is correct."
+      "content": "$$P(A\\mid \\text{age}\\ge 10)=\\frac{15}{60}=\\frac{1}{4}.$$ The denominator is the restricted group of participants with at least 10 years, not the full table total. <strong>B</strong> is correct."
     }
   ]
 }

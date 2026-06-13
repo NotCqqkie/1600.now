@@ -88,6 +88,10 @@ export default defineConfig(({ mode }) => ({
             return "bank-data-metadata";
           }
 
+          if (id.includes("/src/lib/generated/bankCountIndex.generated.ts")) {
+            return "bank-data-count-index";
+          }
+
           if (id.includes("/src/lib/generated/bankTotals.generated.ts")) {
             return "bank-data-totals";
           }
@@ -108,6 +112,14 @@ export default defineConfig(({ mode }) => ({
             return "bank-data-unofficial";
           }
 
+          if (id.includes("/src/data/questions/unofficial_math.json")) {
+            return "bank-data-unofficial-math";
+          }
+
+          if (id.includes("/src/data/questions/unofficial_reading.json")) {
+            return "bank-data-unofficial-reading";
+          }
+
           if (id.includes("/src/data/questions/math_past.json")) {
             return "bank-data-past-math";
           }
@@ -121,7 +133,10 @@ export default defineConfig(({ mode }) => ({
           }
 
           if (id.includes("/src/data/modules/")) {
-            return "module-data";
+            const moduleFile = path.basename(id);
+            const subject = moduleFile.includes("-math-") ? "math" : "reading";
+            const moduleNumber = moduleFile.includes("-m2") ? "m2" : "m1";
+            return `module-data-${subject}-${moduleNumber}`;
           }
 
           if (

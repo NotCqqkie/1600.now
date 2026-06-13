@@ -1,1 +1,15 @@
-{"questionId": "23fd9cca-199e-4a62-b065-4e2d5997bf7f_19", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The sentence presents two linked questions: 'What are atmospheric rivers?' and 'how [blank]?' Both are direct questions, so two rules apply. First, auxiliary-subject inversion is required ('do they,' not 'they do'). Second, because this is a direct question, it must end with a question mark, not a period. The blank must satisfy both requirements."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'do they affect our weather.'</strong>: has correct word order (do they) but ends with a period instead of a question mark — wrong punctuation for a direct question. &#10007;</li><li><strong>Choice B &mdash; 'they do affect our weather.'</strong>: wrong word order (subject before auxiliary) and ends with a period — fails both tests. &#10007;</li><li><strong>Choice C &mdash; 'do they affect our weather?'</strong>: correct auxiliary-subject inversion and correct question mark. &#10003;</li><li><strong>Choice D &mdash; 'they do affect our weather?'</strong>: has a question mark but wrong word order (subject before auxiliary) — fails the inversion test. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "23fd9cca-199e-4a62-b065-4e2d5997bf7f_19",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence presents two linked questions: 'What are atmospheric rivers?' and 'how [blank]?' Both are direct questions, so two rules apply. First, auxiliary-subject inversion is required ('do they,' not 'they do'). Second, because this is a direct question, it must end with a question mark, not a period. The blank must satisfy both requirements."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; do they affect our weather.</strong>: has correct word order (do they) but ends with a period instead of a question mark — wrong punctuation for a direct question. &#10007;</li><li><strong>Choice B &mdash; they do affect our weather.</strong>: wrong word order (subject before auxiliary) and ends with a period — fails both tests. &#10007;</li><li><strong>Choice C &mdash; do they affect our weather?</strong>: correct auxiliary-subject inversion and correct question mark. &#10003;</li><li><strong>Choice D &mdash; they do affect our weather?</strong>: has a question mark but wrong word order (subject before auxiliary) — fails the inversion test. &#10007;</li></ul>That matches <strong>Choice C &mdash; do they affect our weather?</strong>."
+    }
+  ]
+}

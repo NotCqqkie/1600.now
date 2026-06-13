@@ -582,7 +582,7 @@
     "difficulty": "Hard",
     "question_number": 22,
     "test_name": "Module Source 127 Math M2",
-    "passage": "The mass of object A is 498% of the mass of object B, and the mass of object A is 0.830% of the mass of object C. If the mass of object C is $ p $% of the mass of object B, what is the value of $ p $?",
+    "passage": "The mass of object A is $498\\%$ of the mass of object B, and the mass of object A is $0.830\\%$ of the mass of object C. If the mass of object C is $p\\%$ of the mass of object B, what is the value of $p$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

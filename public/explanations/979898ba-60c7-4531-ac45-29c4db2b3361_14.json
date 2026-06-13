@@ -1,10 +1,20 @@
 {
+  "questionId": "979898ba-60c7-4531-ac45-29c4db2b3361_14",
   "qid": "979898ba-60c7-4531-ac45-29c4db2b3361_14",
   "correctAnswer": "C",
   "steps": [
-    "The first book costs $16. Every book after the first costs $12. If $x$ books are purchased, the number of additional books is $x - 1$.",
-    "Total cost: $y = 16 + 12(x-1)$, or equivalently $y = 12(x-1) + 16$.",
-    "Verify with $x = 1$: $y = 12(0) + 16 = 16$. With $x = 3$: $y = 12(2) + 16 = 40$. Both are correct."
+    {
+      "title": "Step 1",
+      "content": "The first book costs \\$16. Every book after the first costs \\$12. If $x$ books are purchased, the number of additional books is $x - 1$."
+    },
+    {
+      "title": "Step 2",
+      "content": "Total cost: $y = 16 + 12(x-1)$, or equivalently $y = 12(x-1) + 16$."
+    },
+    {
+      "title": "Step 3",
+      "content": "Verify with $x = 1$: $y = 12(0) + 16 = 16$. With $x = 3$: $y = 12(2) + 16 = 40$. Both are correct."
+    }
   ],
   "choices": [
     {
@@ -20,12 +30,12 @@
     {
       "id": "C",
       "text": "$y = 12(x - 1) + 16$",
-      "explanation": "<ul><li>Test $x = 1$: $y = 12(0) + 16 = 16$. Correct. Test $x = 4$: $y = 12(3) + 16 = 52$. Correct.</li><li>The structure exactly mirrors the problem: \\$16 fixed for book 1, \\$12 for each of the $(x-1)$ remaining books.</li><li>That matches choice C &mdash; <strong>C</strong> is correct.</li></ul>"
+      "explanation": "<ul><li>Test $x = 1$: $y = 12(0) + 16 = 16$. Correct. Test $x = 4$: $y = 12(3) + 16 = 52$. Correct.</li><li>The structure exactly mirrors the problem: \\$16 fixed for book 1, \\$12 for each of the $(x-1)$ remaining books.</li><li>That confirms <strong>C</strong> is correct.</li></ul>"
     },
     {
       "id": "D",
       "text": "$y = (x - 1) + 16$",
-      "explanation": "<ul><li>Test $x = 2$: $y = 1 + 16 = 17$. But the actual cost is $16 + 12 = 28$.</li><li>This charges \\$1 per additional book instead of \\$12.</li><li>Eliminated because the \\$12 rate for additional books is missing.</li></ul>"
+      "explanation": "<ul><li>Test $x = 2$: $y = 1 + 16 = 17$. But the actual cost is 16 + 12 = 28.</li><li>This charges \\$1 per additional book instead of \\$12.</li><li>Eliminated because the \\$12 rate for additional books is missing.</li></ul>"
     }
   ]
 }

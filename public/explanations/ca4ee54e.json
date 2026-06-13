@@ -9,11 +9,11 @@
     },
     {
       "title": "Use interval elimination",
-      "content": "Only one answer choice lies in that interval: $13,632$. The other choices correspond to values that are too low or too high for the graph reading at $x=3$."
+      "content": "Only $13,632$ lies in that interval. The other choices correspond to values that are too low or too high for the graph reading at $x=3$."
     },
     {
       "title": "Confirm the estimate",
-      "content": "The closest predicted value $3$ years after purchase is $13,632$, which matches choice <strong>B</strong>."
+      "content": "The closest predicted value $3$ years after purchase is $13,632$, which matches <strong>B</strong>."
     }
   ]
 }

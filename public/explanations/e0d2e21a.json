@@ -9,7 +9,7 @@
     },
     {
       "title": "Read angle A from the diagram and conclude",
-      "content": "From the diagram, angle $A$ in triangle $ABC$ is labeled as $60°$. Since dilation preserves angles, angle $X = $ angle $A = 60°$. That matches choice C - <strong>C</strong> is correct."
+      "content": "From the diagram, angle $A$ in triangle $ABC$ is labeled as $60^{\\circ}$. Since dilation preserves angles, angle $X = $ angle $A = 60^{\\circ}$. That matches the correct answer — <strong>C</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId": "1487028b-5b14-4a74-ba77-84ab65217d04_17", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the clause boundary", "content": "Before the blank: \"a complex network of radiating veins that provide structural <strong>support</strong>\" — a complete independent clause. After: \"<strong>... in thickness from the center to the edges, these veins allow...</strong>\" — another independent clause with its own subject (\"these veins\")."}, {"title": "Apply the rule", "content": "Two ICs require a period (or semicolon). The participle \"Decreasing in thickness...\" then opens a participial phrase modifying \"these veins.\"<br/><br/>Choice A's <strong>period</strong> creates that needed sentence break.<br/><br/>B is a comma splice. C's \"while decreasing\" jams two ICs together with only a comma. D drops punctuation entirely.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "1487028b-5b14-4a74-ba77-84ab65217d04_17",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the clause boundary",
+      "content": "Before the blank: \"a complex network of radiating veins that provide structural <strong>support</strong>\" — a complete independent clause. After: \"<strong>... in thickness from the center to the edges, these veins allow...</strong>\" — another independent clause with its own subject (\"these veins\")."
+    },
+    {
+      "title": "Apply the rule",
+      "content": "Two ICs require a period (or semicolon). The participle \"Decreasing in thickness...\" then opens a participial phrase modifying \"these veins.\"<br/><br/><strong>Choice A &mdash; support. Decreasing</strong>'s <strong>period</strong> creates that needed sentence break.<br/><br/>B is a comma splice. C's \"while decreasing\" jams two ICs together with only a comma. D drops punctuation entirely.<br/><br/>That matches <strong>Choice A &mdash; support. Decreasing</strong>."
+    }
+  ]
+}

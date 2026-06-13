@@ -1,1 +1,15 @@
-{"questionId": "1bbdda23-57e5-4170-8fb2-e513425353ca_17", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The subject is &apos;Such lists,&apos; which is plural. The phrase &apos;observed sharply yet simply by Shonagon, who served as a lady-in-waiting to Empress Teishi in the tenth century&apos; is a modifier — it does not add another subject. The verb must agree with the plural subject &apos;lists.&apos;"}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; &apos;reveals&apos;</strong>: singular verb form. Does not agree with the plural subject &apos;Such lists.&apos; &#10007;</li><li><strong>Choice B &mdash; &apos;has revealed&apos;</strong>: singular present-perfect verb form. Does not agree with the plural subject. &#10007;</li><li><strong>Choice C &mdash; &apos;to reveal&apos;</strong>: an infinitive, not a conjugated verb. Cannot serve as the main verb of the sentence. &#10007;</li><li><strong>Choice D &mdash; &apos;reveal&apos;</strong>: plural present-tense verb. Correctly agrees with the plural subject &apos;Such lists.&apos; &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "1bbdda23-57e5-4170-8fb2-e513425353ca_17",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The subject is &apos;Such lists,&apos; which is plural. The phrase &apos;observed sharply yet simply by Shonagon, who served as a lady-in-waiting to Empress Teishi in the tenth century&apos; is a modifier — it does not add another subject. The verb must agree with the plural subject &apos;lists.&apos;"
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; reveals</strong>: singular verb form. Does not agree with the plural subject &apos;Such lists.&apos; &#10007;</li><li><strong>Choice B &mdash; was revealing</strong>: singular present-perfect verb form. Does not agree with the plural subject. &#10007;</li><li><strong>Choice C &mdash; to reveal</strong>: an infinitive, not a conjugated verb. Cannot serve as the main verb of the sentence. &#10007;</li><li><strong>Choice D &mdash; reveal</strong>: plural present-tense verb. Correctly agrees with the plural subject &apos;Such lists.&apos; &#10003;</li></ul>That matches <strong>Choice D &mdash; reveal</strong>."
+    }
+  ]
+}

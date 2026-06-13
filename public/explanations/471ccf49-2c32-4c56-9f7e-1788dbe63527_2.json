@@ -13,7 +13,7 @@
     },
     {
       "title": "Match the equation",
-      "content": "Choice A has slope $-19$, not $-2$. Choice B has the right slope but goes through $(0,0)$ instead of $(0,-19)$. Choice D has positive slope. Only choice C, $f(x)=-2x-19$, matches. Choice <strong>C</strong> is correct."
+      "content": "A choice with slope $-19$, not $-2$. A choice with the right slope but goes through $(0,0)$ instead of $(0,-19)$. A choice with positive slope. Only the matching choice, $f(x)=-2x-19$, matches. <strong>C</strong> is correct."
     }
   ]
 }

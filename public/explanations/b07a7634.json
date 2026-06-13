@@ -1,1 +1,15 @@
-{"questionId": "b07a7634", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the goal requires", "content": "To effectively describe how DLS cures 3D objects, an answer must trace the actual mechanism from start to finish. The notes show the sequence: UV light projects into liquid resin → layers build up → final baking."}, {"title": "Find the choice that captures this sequence", "content": "Choice C traces the mechanism precisely: UV light projects into liquid resin (initiating curing), layers build up, then the object bakes in an oven.<br/><br/>The other choices either wrongly place curing in the dead zone, skip the UV-into-resin initiation, or scramble the sequence.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "b07a7634",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the goal requires",
+      "content": "To effectively describe how DLS cures 3D objects, an answer must trace the actual mechanism from start to finish. The notes show the sequence: UV light projects into liquid resin → layers build up → final baking."
+    },
+    {
+      "title": "Find the choice that captures this sequence",
+      "content": "Choice C traces the mechanism precisely: UV light projects into liquid resin (initiating curing), layers build up, then the object bakes in an oven.<br/><br/>The other choices either wrongly place curing in the dead zone, skip the UV-into-resin initiation, or scramble the sequence.<br/><br/>That is the correct answer."
+    }
+  ]
+}

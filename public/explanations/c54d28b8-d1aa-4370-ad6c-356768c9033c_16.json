@@ -1,1 +1,15 @@
-{"questionId": "c54d28b8-d1aa-4370-ad6c-356768c9033c_16", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the structure around the blank", "content": "Before the blank is an independent clause ending with a list: &quot;Her work challenges conventional notions of race, gender, history, and ______.&quot; After the blank is another independent clause: &quot;she is credited with expanding the horizons of conceptual photographic art.&quot; Joining two independent clauses requires a coordinating conjunction preceded by a comma (the comma + FANBOYS rule)."}, {"title": "Eliminate each choice and confirm the answer", "content": "<ul><li><strong>Choice A &mdash; &apos;memory and&apos;</strong>: Provides &apos;and&apos; to connect the clauses but omits the required comma before it, creating a run-on sentence. &#10007;</li><li><strong>Choice B &mdash; &apos;memory, and&apos;</strong>: Completes the list with &apos;memory,&apos; then places a comma before &apos;and&apos; to correctly join the two independent clauses. &#10003;</li><li><strong>Choice C &mdash; &apos;memory&apos;</strong>: No conjunction or punctuation to connect the two independent clauses &mdash; creates a comma splice or run-on. &#10007;</li><li><strong>Choice D &mdash; &apos;memory,&apos;</strong>: A comma alone cannot join two independent clauses; that is a comma splice. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "c54d28b8-d1aa-4370-ad6c-356768c9033c_16",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the structure around the blank",
+      "content": "Before the blank is an independent clause ending with a list: &quot;Her work challenges conventional notions of race, gender, history, and ______.&quot; After the blank is another independent clause: &quot;she is credited with expanding the horizons of conceptual photographic art.&quot; Joining two independent clauses requires a coordinating conjunction preceded by a comma (the comma + FANBOYS rule)."
+    },
+    {
+      "title": "Eliminate each choice and confirm the answer",
+      "content": "<ul><li><strong>Choice A &mdash; memory and</strong>: Provides &apos;and&apos; to connect the clauses but omits the required comma before it, creating a run-on sentence. &#10007;</li><li><strong>Choice B &mdash; memory, and</strong>: Completes the list with &apos;memory,&apos; then places a comma before &apos;and&apos; to correctly join the two independent clauses. &#10003;</li><li><strong>Choice C &mdash; memory</strong>: No conjunction or punctuation to connect the two independent clauses &mdash; creates a comma splice or run-on. &#10007;</li><li><strong>Choice D &mdash; memory,</strong>: A comma alone cannot join two independent clauses; that is a comma splice. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

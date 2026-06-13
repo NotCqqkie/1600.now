@@ -1,1 +1,15 @@
-{"questionId": "c54d28b8-d1aa-4370-ad6c-356768c9033c_12", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "Jack sarcastically says Bartley would carry a leaky pail on his head instead of a hat, just to have something to complain about. This reveals Jack&apos;s view of Bartley&apos;s character — not anything about weather or hay."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'Jack doubts Bartley&apos;s ability to predict weather'</strong>: Jack&apos;s line is about complaining, not weather-predicting skill. &#10007;</li><li><strong>Choice B &mdash; 'Jack thinks Bartley wants to help with the hay'</strong>: nothing in the exchange suggests cooperative intent from Bartley. &#10007;</li><li><strong>Choice C &mdash; 'Jack believes Bartley misjudges the weather'</strong>: the pail-on-head image is about inventing reasons to complain, not about weather accuracy. &#10007;</li><li><strong>Choice D &mdash; 'Jack believes Bartley is always ready to find fault'</strong>: the sarcasm directly implies Bartley would manufacture a complaint even where none exists — perpetually fault-finding. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "c54d28b8-d1aa-4370-ad6c-356768c9033c_12",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "Jack sarcastically says Bartley would carry a leaky pail on his head instead of a hat, just to have something to complain about. This reveals Jack&apos;s view of Bartley&apos;s character — not anything about weather or hay."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Bartley is worried that Jack is unaware of the coming rain.</strong>: Jack&apos;s line is about complaining, not weather-predicting skill. &#10007;</li><li><strong>Choice B &mdash; Bartley will be able to help Jack with cutting the hay.</strong>: nothing in the exchange suggests cooperative intent from Bartley. &#10007;</li><li><strong>Choice C &mdash; Bartley is a poor judge of the weather.</strong>: the pail-on-head image is about inventing reasons to complain, not about weather accuracy. &#10007;</li><li><strong>Choice D &mdash; Bartley will find fault with any situation.</strong>: the sarcasm directly implies Bartley would manufacture a complaint even where none exists — perpetually fault-finding. &#10003;</li></ul>That is the correct answer."
+    }
+  ]
+}

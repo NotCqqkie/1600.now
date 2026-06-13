@@ -13,7 +13,7 @@
     },
     {
       "title": "Match the final form",
-      "content": "The denominator $xy(x-8)$ is the same as $x^2y-8xy$, so the simplified expression is $$\\frac{xy^2+13xy-8y}{x^2y-8xy}$$ That matches choice <strong>C</strong>."
+      "content": "The denominator $xy(x-8)$ is the same as $x^2y-8xy$, so the simplified expression is $$\\frac{xy^2+13xy-8y}{x^2y-8xy}$$ That matches <strong>Choice C &mdash; $\\frac{x{y}^{2}+13xy-8y}{{x}^{2}y-8xy}$</strong>."
     }
   ]
 }

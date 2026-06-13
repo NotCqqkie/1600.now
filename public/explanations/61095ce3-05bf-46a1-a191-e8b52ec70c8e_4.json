@@ -1,1 +1,15 @@
-{"questionId":"61095ce3-05bf-46a1-a191-e8b52ec70c8e_4","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"Critics say limitarianism is ______ because it requires inter-government cooperation that is \"likely unachievable.\" The blank must capture something that is idealistic but impractical."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'perfunctory'</strong>: Means carried out with minimal effort or as a routine duty. The critics are not saying limitarianism is careless — they're saying it's unrealistic. Wrong meaning. &#10007;</li><li><strong>Choice B &mdash; 'utopian'</strong>: Means idealistic and impractical, impossible to achieve in reality. This directly captures the critics' claim: limitarianism requires cooperation that is \"likely unachievable.\" &#10003;</li><li><strong>Choice C &mdash; 'punitive'</strong>: Means intended as punishment. The critics' argument is about feasibility, not whether limitarianism is punishing someone. Unrelated. &#10007;</li><li><strong>Choice D &mdash; 'viable'</strong>: Means capable of working. This contradicts the critics' point entirely — they argue it is not achievable. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "61095ce3-05bf-46a1-a191-e8b52ec70c8e_4",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "Critics say limitarianism is ______ because it requires inter-government cooperation that is \"likely unachievable.\" The blank must capture something that is idealistic but impractical."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;perfunctory&rsquo;</strong>: Means carried out with minimal effort or as a routine duty. The critics are not saying limitarianism is careless — they're saying it's unrealistic. Wrong meaning. &#10007;</li><li><strong>Choice B &mdash; &lsquo;utopian&rsquo;</strong>: Means idealistic and impractical, impossible to achieve in reality. This directly captures the critics' claim: limitarianism requires cooperation that is \"likely unachievable.\" &#10003;</li><li><strong>Choice C &mdash; &lsquo;punitive&rsquo;</strong>: Means intended as punishment. The critics' argument is about feasibility, not whether limitarianism is punishing someone. Unrelated. &#10007;</li><li><strong>Choice D &mdash; &lsquo;viable&rsquo;</strong>: Means capable of working. This contradicts the critics' point entirely — they argue it is not achievable. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

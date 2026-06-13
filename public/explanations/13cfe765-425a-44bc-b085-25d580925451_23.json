@@ -1,1 +1,15 @@
-{"questionId": "13cfe765-425a-44bc-b085-25d580925451_23", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Spot the cause-and-effect structure", "content": "The passage first explains Precisionist values (cold, machine-like perfection, geometric shapes), then describes what subjects they actually painted. The third sentence presents what naturally results from the second."}, {"title": "Match the transition to consequential logic", "content": "The logical relationship is cause-and-effect: because Precisionists valued geometric shapes and machine-like perfection, they naturally painted subjects like skyscrapers, bridges, and factories that embody those qualities. The blank needs a transition signaling that the subject matter follows logically from the aesthetic values.<ul><li><strong>Choice A — \"However,\"</strong>: signals contrast, so fails — the subjects Precisionists chose are not surprising or contradictory given their values; they fit perfectly. ✗</li><li><strong>Choice B — \"That said,\"</strong>: signals a qualifying concession, so fails — the third sentence does not walk back or limit what sentence two stated. ✗</li><li><strong>Choice C — \"Accordingly,\"</strong>: signals a result that follows logically, so fits — skyscrapers and factories are the expected subjects for artists who prize geometric, machine-like perfection. ✓</li><li><strong>Choice D — \"In the end,\"</strong>: signals a final conclusion after a process, so fails — no sequence of events is being resolved here. ✗</li></ul>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "13cfe765-425a-44bc-b085-25d580925451_23",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the cause-and-effect structure",
+      "content": "The passage first explains Precisionist values (cold, machine-like perfection, geometric shapes), then describes what subjects they actually painted. The third sentence presents what naturally results from the second."
+    },
+    {
+      "title": "Match the transition to consequential logic",
+      "content": "The logical relationship is cause-and-effect: because Precisionists valued geometric shapes and machine-like perfection, they naturally painted subjects like skyscrapers, bridges, and factories that embody those qualities. The blank needs a transition signaling that the subject matter follows logically from the aesthetic values.<ul><li><strong>Choice A — However,</strong>: signals contrast, so fails — the subjects Precisionists chose are not surprising or contradictory given their values; they fit perfectly. ✗</li><li><strong>Choice B — That said,</strong>: signals a qualifying concession, so fails — the third sentence does not walk back or limit what sentence two stated. ✗</li><li><strong>Choice C — Accordingly,</strong>: signals a result that follows logically, so fits — skyscrapers and factories are the expected subjects for artists who prize geometric, machine-like perfection. ✓</li><li><strong>Choice D — In the end,</strong>: signals a final conclusion after a process, so fails — no sequence of events is being resolved here. ✗</li></ul>That matches <strong>Choice C &mdash; Accordingly,</strong>."
+    }
+  ]
+}

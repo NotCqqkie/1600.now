@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li>Choice A: 13t — 156 / (13t) = 12/t ✓. That matches choice A — <strong>A</strong> is correct.</li><li>Choice B: 12t — 156 / (12t) = 13/t &ne; 12/t. Eliminated.</li><li>Choice C: 144t — 156 / (144t) &ne; 12/t. Eliminated.</li><li>Choice D: 168t — 156 / (168t) &ne; 12/t. Eliminated.</li></ul>That matches choice A — <strong>A</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;$13t$&rsquo;</strong>: 13t — 156 / (13t) = 12/t ✓. That confirms <strong>A</strong> is correct.</li><li><strong>Choice B &mdash; &lsquo;$12t$&rsquo;</strong>: 12t — 156 / (12t) = 13/t &ne; 12/t. Eliminated.</li><li><strong>Choice C &mdash; &lsquo;$144t$&rsquo;</strong>: 144t — 156 / (144t) &ne; 12/t. Eliminated.</li><li><strong>Choice D &mdash; &lsquo;$168t$&rsquo;</strong>: 168t — 156 / (168t) &ne; 12/t. Eliminated.</li></ul>That confirms <strong>A</strong> is correct."
     }
   ]
 }

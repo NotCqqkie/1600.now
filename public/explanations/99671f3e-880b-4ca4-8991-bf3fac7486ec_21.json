@@ -1,1 +1,15 @@
-{"questionId": "99671f3e-880b-4ca4-8991-bf3fac7486ec_21", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what comes before and after the blank", "content": "Before the blank: <em>&ldquo;Not all plants benefit equally or from the same kind of [mycorrhizae]&rdquo;</em> &mdash; a complete independent clause making a general claim. After the blank: three examples separated by semicolons (alfalfa/forsythia, tree species, Ericaceae plants) that illustrate exactly <em>how</em> plants differ. When a complete independent clause is followed by a list of illustrating examples, the correct punctuation is a <strong>colon</strong>."}, {"title": "Test each punctuation mark", "content": "<ul><li><strong>Choice A &mdash; &lsquo;mycorrhizae;&rsquo;</strong>: A semicolon signals two parallel independent clauses of equal weight. The right side is an elaboration, not a parallel thought, and what follows is a series, not a single clause. &#10007;</li><li><strong>Choice B &mdash; &lsquo;mycorrhizae&rsquo;</strong>: No punctuation runs the independent clause directly into the examples &mdash; a run-on. &#10007;</li><li><strong>Choice C &mdash; &lsquo;mycorrhizae,&rsquo;</strong>: A comma between an independent clause and the list of examples that follows it creates a comma splice. &#10007;</li><li><strong>Choice D &mdash; &lsquo;mycorrhizae:&rsquo;</strong>: The colon follows the complete independent clause and correctly introduces the three illustrating examples. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "99671f3e-880b-4ca4-8991-bf3fac7486ec_21",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what comes before and after the blank",
+      "content": "Before the blank: <em>&ldquo;Not all plants benefit equally or from the same kind of [mycorrhizae]&rdquo;</em> &mdash; a complete independent clause making a general claim. After the blank: three examples separated by semicolons (alfalfa/forsythia, tree species, Ericaceae plants) that illustrate exactly <em>how</em> plants differ. When a complete independent clause is followed by a list of illustrating examples, the correct punctuation is a <strong>colon</strong>."
+    },
+    {
+      "title": "Test each punctuation mark",
+      "content": "<ul><li><strong>Choice A &mdash; mycorrhizae;</strong>: A semicolon signals two parallel independent clauses of equal weight. The right side is an elaboration, not a parallel thought, and what follows is a series, not a single clause. &#10007;</li><li><strong>Choice B &mdash; mycorrhizae</strong>: No punctuation runs the independent clause directly into the examples &mdash; a run-on. &#10007;</li><li><strong>Choice C &mdash; mycorrhizae,</strong>: A comma between an independent clause and the list of examples that follows it creates a comma splice. &#10007;</li><li><strong>Choice D &mdash; mycorrhizae:</strong>: The colon follows the complete independent clause and correctly introduces the three illustrating examples. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

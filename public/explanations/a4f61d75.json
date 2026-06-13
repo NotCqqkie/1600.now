@@ -9,7 +9,7 @@
     },
     {
       "title": "Find integer factor pairs of 12",
-      "content": "Since the roots are integers and their product is 12, we look for integer factor pairs of 12.<br/>Both roots must be either both positive or both negative to give a positive product.<br/>Because the sum equals $$a>0$$, the roots cannot both be negative (that would give a negative sum).<br/>Thus we only consider positive pairs:<ul><li>$$1\\times12=12$$ → sum $$1+12=13$$</li><li>$$2\\times6=12$$ → sum $$2+6=8$$</li><li>$$3\\times4=12$$ → sum $$3+4=7$$</li></ul>Hence the possible values of $$a$$ (the sum) are 13, 8, and 7."
+      "content": "Since the roots are integers and their product is 12, we look for integer factor pairs of 12.<br/>Both roots must be either both positive or both negative to give a positive product.<br/>Because the sum equals $$a\\gt0$$, the roots cannot both be negative (that would give a negative sum).<br/>Thus we only consider positive pairs:<ul><li>$$1\\times12=12$$ → sum $$1+12=13$$</li><li>$$2\\times6=12$$ → sum $$2+6=8$$</li><li>$$3\\times4=12$$ → sum $$3+4=7$$</li></ul>Hence the possible values of $$a$$ (the sum) are 13, 8, and 7."
     },
     {
       "title": "Select a possible value",

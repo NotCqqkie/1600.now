@@ -1,9 +1,19 @@
 {
+  "questionId": "f3ade8fe-06c3-4b9c-a658-8857621e692f_11",
   "qid": "f3ade8fe-06c3-4b9c-a658-8857621e692f_11",
   "steps": [
-    "Translate equivalent ratios into a proportion: &quot;5 to x is equivalent to y to 8&quot; means $\\frac{5}{x} = \\frac{y}{8}$.",
-    "Cross-multiply: $5 \\cdot 8 = y \\cdot x$, so $40 = xy$. Divide both sides by $y$: $x = \\frac{40}{y}$.",
-    "Evaluate each choice:<ul><li><strong>A: $x = \\frac{5y}{8}$</strong> — this comes from incorrectly writing $\\frac{5}{y} = \\frac{x}{8}$, reversing the second ratio. Incorrect.</li><li><strong>B: $x = \\frac{8y}{5}$</strong> — this would come from $\\frac{5}{8} = \\frac{x}{y}$, mixing up the original ratios. Incorrect.</li><li><strong>C: $x = \\frac{y}{40}$</strong> — inverts the correct answer; would mean $xy = 1$ only when $x = 1/40$. Incorrect.</li><li><strong>D: $x = \\frac{40}{y}$</strong> — matches the result $xy = 40$ derived by cross-multiplication. That matches choice D — <strong>D</strong> is correct.</li></ul>"
+    {
+      "title": "Step 1",
+      "content": "Translate equivalent ratios into a proportion: \"5 to x is equivalent to y to 8\" means $\\frac{5}{x} = \\frac{y}{8}$."
+    },
+    {
+      "title": "Step 2",
+      "content": "Cross-multiply: $5 \\cdot 8 = y \\cdot x$, so $40 = xy$. Divide both sides by $y$: $x = \\frac{40}{y}$."
+    },
+    {
+      "title": "Step 3",
+      "content": "Evaluate each choice:<ul><li><strong>A: $x=\\frac{5y}{8}$</strong> — this comes from incorrectly writing $\\frac{5}{y} = \\frac{x}{8}$, reversing the second ratio. Incorrect.</li><li><strong>B: $x=\\frac{8y}{5}$</strong> — this would come from $\\frac{5}{8} = \\frac{x}{y}$, mixing up the original ratios. Incorrect.</li><li><strong>C: $x=\\frac{y}{40}$</strong> — inverts the derived relationship; it would mean $xy = 1$ only when $x = 1/40$. Incorrect.</li><li><strong>D: $x=\\frac{40}{y}$</strong> — matches the result $xy = 40$ derived by cross-multiplication. That matches the correct answer — <strong>D</strong> is correct.</li></ul>"
+    }
   ],
   "correctAnswer": "D"
 }

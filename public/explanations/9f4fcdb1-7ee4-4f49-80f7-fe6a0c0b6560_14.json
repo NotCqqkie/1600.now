@@ -1,1 +1,15 @@
-{"questionId": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_14", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structures at the boundary", "content": "The left side completes an independent clause: “...the curve can be used to determine whether tax cuts will ultimately increase a country's tax revenue, according to some [economists]” (subject: curve; verb: can be used).<br/><br/>The right side is an independent clause: “2017 data suggested that South Korea was below the threshold for a tax cut” (subject: data; verb: suggested)."}, {"title": "Apply the sentence boundary rule", "content": "Two independent clauses must be separated by a period, semicolon, or a comma + coordinating conjunction.<br/><br/>Choice D uses a period (“economists. The”) to correctly separate these two independent clauses into two complete sentences.<br/><br/>The other choices violate this rule: <ul><li>A uses a comma alone (comma splice)</li><li>B has no punctuation (run-on)</li><li>C uses a semicolon before a dependent clause introduced by “as” (semicolons cannot precede dependent clauses)</li></ul>.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_14",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures at the boundary",
+      "content": "The left side completes an independent clause: “...the curve can be used to determine whether tax cuts will ultimately increase a country's tax revenue, according to some [economists]” (subject: curve; verb: can be used).<br/><br/>The right side is an independent clause: “2017 data suggested that South Korea was below the threshold for a tax cut” (subject: data; verb: suggested)."
+    },
+    {
+      "title": "Apply the sentence boundary rule",
+      "content": "Two independent clauses must be separated by a period, semicolon, or a comma + coordinating conjunction.<br/><br/><strong>D</strong> uses a period (“economists. The”) to correctly separate these two independent clauses into two complete sentences.<br/><br/>The other choices violate this rule: <ul><li>A uses a comma alone (comma splice)</li><li>B has no punctuation (run-on)</li><li>C uses a semicolon before a dependent clause introduced by “as” (semicolons cannot precede dependent clauses)</li></ul>.<br/><br/>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

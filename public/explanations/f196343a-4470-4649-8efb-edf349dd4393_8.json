@@ -9,11 +9,11 @@
     },
     {
       "title": "Factor each pair",
-      "content": "From the first pair, factor $x$: $x(3x-5)$. From the second pair, factor $2$: $2(3x-5)$. The shared factor is $3x-5$, giving $(3x-5)(x+2)$."
+      "content": "From the first pair, factor $x$: $x(3x-5)$. From the second pair, factor $2$: $\\left(2\\right)(3x-5)$. The shared factor is $3x-5$, giving $(3x-5)(x+2)$."
     },
     {
       "title": "Match against each choice",
-      "content": "Compare the factors $(3x-5)$ and $(x+2)$ to the options:<ul><li>$x-2$: sign is wrong; the linear factor is $x+2$.</li><li>$x+5$: not a factor.</li><li>$3x-5$: appears in the factorization.</li><li>$3x+2$: not a factor.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+      "content": "Compare the factors $(3x-5)$ and $(x+2)$ to the options:<ul><li>$x-2$: sign is wrong; the linear factor is $x+2$.</li><li>$x+5$: not a factor.</li><li>$3x-5$: appears in the factorization.</li><li>$3x+2$: not a factor.</li></ul>That matches the correct answer — <strong>C</strong> is correct."
     }
   ]
 }

@@ -9,11 +9,11 @@
     },
     {
       "title": "Factor the denominator",
-      "content": "The denominator factors as $$x^2-2x-3=(x-3)(x+1).$$ Since $x>3$, $x-3\\ne0$, so the common factor $x-3$ can be canceled."
+      "content": "The denominator factors as $$x^2-2x-3=(x-3)(x+1).$$ Since $x\\gt 3$, $x-3\\ne0$, so the common factor $x-3$ can be canceled."
     },
     {
       "title": "Match the simplified expression",
-      "content": "After canceling, the expression is<br/>$$\\frac{x(x+3)}{x+1}$$<br/>That matches choice <strong>D</strong>."
+      "content": "After canceling, the expression is<br/>$$\\frac{x(x+3)}{x+1}$$<br/>That matches <strong>Choice D &mdash; $\\frac{x(x + 3)}{x + 1}$</strong>."
     }
   ]
 }

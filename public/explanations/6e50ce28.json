@@ -9,7 +9,7 @@
     },
     {
       "title": "Match the system",
-      "content": "The system must contain both equations: $$x+7=2y$$ and $$y=x-3.$$ Choice <strong>A</strong> gives exactly that system. Choice C reverses the first relationship, and choices B and D use $y=3-x$ instead of $y=x-3$."
+      "content": "The system must contain both equations: $$x+7=2y$$ and $$y=x-3.$$ The choice with $x+7=2y$ and $y=x-3$ gives exactly that system. The system with $2 \\left(x+7\\right)=y$ reverses the first relationship, and the systems with $y=3-x$ reverse the second relationship. That confirms <strong>A</strong> is correct."
     }
   ]
 }

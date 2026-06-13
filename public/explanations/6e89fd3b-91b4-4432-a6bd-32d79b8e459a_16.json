@@ -1,1 +1,15 @@
-{"questionId":"6e89fd3b-91b4-4432-a6bd-32d79b8e459a_16","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank falls between &quot;photograph&quot; and the title &apos;The Freeloaders&apos;. The title identifies which specific photograph is being discussed, so the question is what punctuation (if any) belongs between the noun and its restrictive identifier."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; photograph,</strong>: a comma before the title would make it a non-restrictive appositive, implying the title is just extra information about any photograph by Bravo. But the title is needed to specify <em>which</em> photograph &mdash; it is restrictive. &#10007;</li><li><strong>Choice B &mdash; photograph</strong>: no punctuation lets &apos;The Freeloaders&apos; attach directly as a restrictive identifier, which is correct when the title specifies which one. &#10003;</li><li><strong>Choice C &mdash; photograph;</strong>: a semicolon joins two independent clauses. &apos;The Freeloaders&apos; is not a clause; this creates a fragment. &#10007;</li><li><strong>Choice D &mdash; photograph:</strong>: a colon requires a complete independent clause before it. &quot;Lola Álvarez Bravo&apos;s photograph&quot; is only a noun phrase, not an independent clause. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "6e89fd3b-91b4-4432-a6bd-32d79b8e459a_16",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank falls between &quot;photograph&quot; and the title &apos;The Freeloaders&apos;. The title identifies which specific photograph is being discussed, so the question is what punctuation (if any) belongs between the noun and its restrictive identifier."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;photograph,&rsquo;</strong>: a comma before the title would make it a non-restrictive appositive, implying the title is just extra information about any photograph by Bravo. But the title is needed to specify <em>which</em> photograph &mdash; it is restrictive. &#10007;</li><li><strong>Choice B &mdash; &lsquo;photograph&rsquo;</strong>: no punctuation lets &apos;The Freeloaders&apos; attach directly as a restrictive identifier, which is correct when the title specifies which one. &#10003;</li><li><strong>Choice C &mdash; &lsquo;photograph;&rsquo;</strong>: a semicolon joins two independent clauses. &apos;The Freeloaders&apos; is not a clause; this creates a fragment. &#10007;</li><li><strong>Choice D &mdash; &lsquo;photograph:&rsquo;</strong>: a colon requires a complete independent clause before it. &quot;Lola Álvarez Bravo&apos;s photograph&quot; is only a noun phrase, not an independent clause. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

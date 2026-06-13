@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Build the total cost",
-      "content": "Each container costs &#36;1.87, so $c$ containers cost $1.87c$ dollars. Each roll of tape costs &#36;2.40, so $t$ rolls cost $2.40t$ dollars. Total spent: $1.87c + 2.40t$."
+      "content": "Each container costs 1.87 dollars, so $c$ containers cost $1.87c$ dollars. Each roll of tape costs 2.40 dollars, so $t$ rolls cost $2.40t$ dollars. Total spent: $1.87c + 2.40t$."
     },
     {
       "title": "Apply the budget",
-      "content": "Leo has &#36;15, which is the maximum he can spend. The total cost must be at most $15$, giving $1.87c + 2.40t \\le 15$."
+      "content": "Leo has 15 dollars, which is the maximum he can spend. The total cost must be at most 15 dollars, giving $1.87c + 2.40t \\le 15$."
     },
     {
       "title": "Test the choices",
-      "content": "<ul><li><strong>Choice A &mdash; $1.87c + 2.40t \\le 15$</strong>: Correct coefficients (containers at $1.87$, tape at $2.40$) and the correct $\\le$ direction for a spending limit. Works.</li><li><strong>Choice B &mdash; $1.87c + 2.40t \\ge 15$</strong>: Coefficients are right, but $\\ge 15$ would force Leo to spend at least &#36;15. He only has &#36;15. Eliminate.</li><li><strong>Choice C &mdash; $2.40c + 1.87t \\le 15$</strong>: The coefficients on $c$ and $t$ are swapped, charging the tape price for containers. Eliminate.</li><li><strong>Choice D &mdash; $2.40c + 1.87t \\ge 15$</strong>: Both the coefficients and the inequality direction are wrong. Eliminate.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; $1.87c+2.40t\\le15$</strong>: Correct coefficients (containers at 1.87 dollars, tape at 2.40 dollars) and the correct $\\le$ direction for a spending limit. Works.</li><li><strong>Choice B &mdash; $1.87c+2.40t\\ge15$</strong>: Coefficients are right, but $\\ge 15$ would force Leo to spend at least 15 dollars. He only has 15 dollars. Eliminate.</li><li><strong>Choice C &mdash; $2.40c+1.87t\\le15$</strong>: The coefficients on $c$ and $t$ are swapped, charging the tape price for containers. Eliminate.</li><li><strong>Choice D &mdash; $2.40c+1.87t\\ge15$</strong>: Both the coefficients and the inequality direction are wrong. Eliminate.</li></ul>That matches <strong>Choice A &mdash; $1.87c+2.40t\\le15$</strong>."
     }
   ]
 }

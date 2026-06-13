@@ -9,11 +9,11 @@
     },
     {
       "title": "Count the solutions",
-      "content": "There are two real solutions, $\\tfrac{8}{5}$ and $-\\tfrac{8}{5}$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."
+      "content": "There are two real solutions, $\\tfrac{8}{5}$ and $-\\tfrac{8}{5}$. <strong>C</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice C, Exactly two. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches the correct answer, Exactly two. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
     }
   ]
 }

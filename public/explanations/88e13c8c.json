@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up the function evaluation",
-      "content": "We're given $f(x) = 36x + 1,000$. Since the monthly payment is \\$400, we need to evaluate $f(400)$."
+      "content": "We're given $f(x) = 36x + 1,000$, where $x$ is the monthly payment and $f(x)$ is the total lease cost. Since the monthly payment is \\$400, the question is asking for the function value $f(400)$, not for a monthly amount."
     },
     {
       "title": "Substitute and calculate",
-      "content": "Substitute $x = 400$:<br/>$$f(400) = 36(400) + 1,000 = 14,400 + 1,000 = 15,400$$<br/>That matches choice C — <strong>C</strong> is correct."
+      "content": "Substitute $x = 400$:<br/>$$f(400) = 36(400) + 1,000 = 14,400 + 1,000 = 15,400$$<br/>That confirms <strong>C</strong> is correct."
     }
   ]
 }

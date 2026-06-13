@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply SAS to complete the proof",
-      "content": "We now have three equalities:<ul><li>$GF = LK$</li><li>$\\angle G = \\angle L = 30°$</li><li>$GH = LM = 34$</li></ul>In each triangle, the angle is between its two sides. By Side-Angle-Side (SAS) congruence, $\\triangle FGH \\cong \\triangle KLM$ with the given information alone. That matches choice D — <strong>D</strong> is correct."
+      "content": "We now have three equalities:<ul><li>$GF = LK$</li><li>$\\angle G = \\angle L = 30^{\\circ}$</li><li>$GH = LM = 34$</li></ul>In each triangle, the angle is between its two sides. By Side-Angle-Side (SAS) congruence, $\\triangle FGH \\cong \\triangle KLM$ with the given information alone. <strong>D</strong> is correct."
     }
   ]
 }

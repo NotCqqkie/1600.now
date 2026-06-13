@@ -13,7 +13,7 @@
     },
     {
       "title": "Convert the sum difference to a mean difference",
-      "content": "Each data set has $23$ integers, so divide the smallest possible sum difference by $23$:<br/>$$\\frac{23}{23}=1$$<br/>That matches choice B, so <strong>B</strong> is correct."
+      "content": "Each data set has $23$ integers, so divide the smallest possible sum difference by $23$:<br/>$$\\frac{23}{23}=1$$<br/>That matches the computed answer, so <strong>B</strong> is correct."
     }
   ]
 }

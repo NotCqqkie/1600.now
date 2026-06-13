@@ -1,1 +1,15 @@
-{"questionId": "94978129", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the key pattern the researchers' claim requires", "content": "The researchers claim that despite varying widely in spoken speed, languages can deliver roughly the same amount of information.<br/><br/>To support this claim, the data must show two languages with noticeably different speech rates (syllables per second) but similar information rates (bits per second)—proving that speed and information delivery are independent."}, {"title": "Find the language pair matching that pattern", "content": "Vietnamese is spoken at 5.3 syllables per second while Spanish is spoken at 7.7 syllables per second—a substantial difference—yet Vietnamese conveys 42.5 bits per second and Spanish conveys 42.0 bits per second, essentially the same information rate.<br/><br/>This directly demonstrates the researchers' claim: the faster language does not deliver meaningfully more information.<br/><br/>The other choices either show rates that move together in the same direction, show the slowest languages also convey the least information, or present false comparisons of the data.<br/><br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}
+{
+  "questionId": "94978129",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key pattern the researchers' claim requires",
+      "content": "The researchers claim that despite varying widely in spoken speed, languages can deliver roughly the same amount of information.<br/><br/>To support this claim, the data must show two languages with noticeably different speech rates (syllables per second) but similar information rates (bits per second)—proving that speed and information delivery are independent."
+    },
+    {
+      "title": "Find the language pair matching that pattern",
+      "content": "Vietnamese is spoken at 5.3 syllables per second while Spanish is spoken at 7.7 syllables per second—a substantial difference—yet Vietnamese conveys 42.5 bits per second and Spanish conveys 42.0 bits per second, essentially the same information rate.<br/><br/>This directly demonstrates the researchers' claim: the faster language does not deliver meaningfully more information.<br/><br/>The other choices either show rates that move together in the same direction, show the slowest languages also convey the least information, or present false comparisons of the data.<br/><br/>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

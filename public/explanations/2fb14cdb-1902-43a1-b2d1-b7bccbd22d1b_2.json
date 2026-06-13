@@ -13,7 +13,7 @@
     },
     {
       "title": "Add the totals and compare with the choices",
-      "content": "The two accounts combine to $6{,}600$: $$6{,}600 = 12x + 24y.$$<ul><li>A) $6{,}600 = 12x + 12y$: treats $y$ as deposited only once a month. Eliminated.</li><li>B) $6{,}600 = 12x + 24y$: correct yearly totals for both accounts.</li><li>C) $6{,}600 = 24x + 12y$: swaps the once-vs-twice roles. Eliminated.</li><li>D) $6{,}600 = 24x + 24y$: doubles the first account incorrectly. Eliminated.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "The two accounts combine to $6{,}600$: $$6{,}600 = 12x + 24y.$$<ul><li>A) $6{,}600 = 12x + 12y$: treats $y$ as deposited only once a month. Eliminated.</li><li>B) $6{,}600 = 12x + 24y$: correct yearly totals for both accounts.</li><li>C) $6{,}600 = 24x + 12y$: swaps the once-vs-twice roles. Eliminated.</li><li>D) $6{,}600 = 24x + 24y$: doubles the first account incorrectly. Eliminated.</li></ul><strong>B</strong> is correct."
     }
   ]
 }

@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; '$240(1.01t)$'</strong>: linear in $t$ &mdash; multiplies by a fixed amount each year, not a fixed percent. &#10007;</li><li><strong>Choice B &mdash; '$240(1.1t)$'</strong>: also linear in $t$. &#10007;</li><li><strong>Choice C &mdash; '$240(1.01)^t$'</strong>: exponential with base $1.01$, representing 1% growth per year. &#10003;</li><li><strong>Choice D &mdash; '$240(1.1)^t$'</strong>: exponential, but base $1.1$ is 10% growth per year, not 1%. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; $V(t) = 240(1.01t)$</strong>: linear in $t$ &mdash; multiplies by a fixed amount each year, not a fixed percent. &#10007;</li><li><strong>Choice B &mdash; $V(t) = 240(1.1t)$</strong>: also linear in $t$. &#10007;</li><li><strong>Choice C &mdash; $V(t) = 240(1.01)^t$</strong>: exponential with base $1.01$, representing 1% growth per year. &#10003;</li><li><strong>Choice D &mdash; $V(t) = 240(1.1)^t$</strong>: exponential, but base $1.1$ is 10% growth per year, not 1%. &#10007;</li></ul>That is the correct answer."
     }
   ]
 }

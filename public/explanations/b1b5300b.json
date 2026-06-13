@@ -9,7 +9,7 @@
     },
     {
       "title": "Calculate the probability",
-      "content": "$$\\frac{2}{14} = \\frac{1}{7}$$<br/>That matches choice A — <strong>A</strong> is correct."
+      "content": "There are 2 favorable cars out of 14 total cars, so the probability is:<br/>$$\\frac{2}{14} = \\frac{1}{7}$$<br/>This is a probability, so it must be written as the favorable count divided by the total count. That is the correct answer."
     }
   ]
 }

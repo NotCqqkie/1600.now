@@ -9,11 +9,11 @@
     },
     {
       "title": "Test all four choices for the slope of a parallel line",
-      "content": "<ul><li><strong>Choice A &mdash; '$-4$'</strong>: Slope $= -4 \\neq \\frac{4}{3}$. Not parallel. &#10007;</li><li><strong>Choice B &mdash; '$-3$'</strong>: Slope $= -3 \\neq \\frac{4}{3}$. Not parallel. &#10007;</li><li><strong>Choice C &mdash; '$\\frac{3}{4}$'</strong>: Slope $= \\frac{3}{4} \\neq \\frac{4}{3}$. Not parallel (this is the reciprocal, not the same slope). &#10007;</li><li><strong>Choice D &mdash; '$\\frac{4}{3}$'</strong>: Slope $= \\frac{4}{3}$. Matches slope of line $r$ exactly. Parallel lines have equal slopes. &#10003;</li></ul>"
+      "content": "<ul><li><strong>Choice A &mdash; -4</strong>: Slope $= -4 \\neq \\frac{4}{3}$. Not parallel. &#10007;</li><li><strong>Choice B &mdash; -3</strong>: Slope $= -3 \\neq \\frac{4}{3}$. Not parallel. &#10007;</li><li><strong>Choice C &mdash; $\\frac{3}{4}$</strong>: Slope $= \\frac{3}{4} \\neq \\frac{4}{3}$. Not parallel (this is the reciprocal, not the same slope). &#10007;</li><li><strong>Choice D &mdash; $\\frac{4}{3}$</strong>: Slope $= \\frac{4}{3}$. Matches slope of line $r$ exactly. Parallel lines have equal slopes. &#10003;</li></ul>"
     },
     {
       "title": "Conclusion",
-      "content": "Parallel lines have the same slope. Line $r$ has slope $\\frac{4}{3}$, so line $s$ must also have slope $\\frac{4}{3}$. That matches choice D &mdash; <strong>D</strong> is correct."
+      "content": "Parallel lines have the same slope. Line $r$ has slope $\\frac{4}{3}$, so line $s$ must also have slope $\\frac{4}{3}$. That confirms <strong>D</strong> is correct."
     }
   ]
 }

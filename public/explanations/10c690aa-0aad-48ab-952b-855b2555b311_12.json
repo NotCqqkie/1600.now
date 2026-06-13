@@ -9,11 +9,11 @@
     },
     {
       "title": "Calculate the interval bounds",
-      "content": "Substitute the given values:<br/>$$\\text{Lower bound} = 3.28 - 0.06 = 3.22$$<br/>$$\\text{Upper bound} = 3.28 + 0.06 = 3.34$$<br/>The confidence interval is [\\$3.22, \\$3.34]."
+      "content": "Substitute the given values:<br/>$$\\text{Lower bound} = 3.28 - 0.06 = 3.22$$<br/>$$\\text{Upper bound} = 3.28 + 0.06 = 3.34$$<br/>The confidence interval is from 3.22 dollars to 3.34 dollars."
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; &quot;It is between \\$3.22 and \\$3.34.&quot;</strong>: This is exactly the confidence interval — a plausible range for the true population mean. &#10003;</li><li><strong>Choice B &mdash; &quot;It is either less than \\$3.22 or greater than \\$3.34.&quot;</strong>: This asserts the true mean falls outside the confidence interval, which is implausible. &#10007;</li><li><strong>Choice C &mdash; &quot;It is less than \\$3.22.&quot;</strong>: Only the far lower tail — not supported by the data. &#10007;</li><li><strong>Choice D &mdash; &quot;It is greater than \\$3.34.&quot;</strong>: Only the far upper tail — not supported by the data. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li><strong>The interval from 3.22 dollars to 3.34 dollars</strong>: This is exactly the confidence interval — a plausible range for the true population mean. &#10003;</li><li><strong>The outside-interval option</strong>: This asserts the true mean falls outside the confidence interval, which is implausible. &#10007;</li><li><strong>The below-3.22-dollars option</strong>: Only the far lower tail — not supported by the data. &#10007;</li><li><strong>The above-3.34-dollars option</strong>: Only the far upper tail — not supported by the data. &#10007;</li></ul>That matches the stated confidence interval."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId": "8790d061", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the structure", "content": "The phrase &quot;a construction system known as ______&quot; is a nonrestrictive appositive that renames &quot;These temporary supports.&quot; The rule: a nonrestrictive appositive inserted into the middle of a sentence must be set off by paired commas (one before, one after)."}, {"title": "Evaluate each choice", "content": "<ul><li><strong>A (falsework;)</strong> &mdash; wrong. A semicolon joins two independent clauses; it cannot close a nonrestrictive appositive.</li><li><strong>B (falsework)</strong> &mdash; wrong. Omitting punctuation leaves the appositive unclosed, so the comma that opened it has no partner.</li><li><strong>C (falsework,)</strong> &mdash; correct. The comma after &quot;falsework&quot; pairs with the comma after &quot;supports,&quot; properly enclosing the nonrestrictive appositive.</li><li><strong>D (falsework:)</strong> &mdash; wrong. A colon introduces a list or explanation that follows an independent clause; it cannot close an appositive interrupting a sentence.</li></ul>That matches choice C."}]}
+{
+  "questionId": "8790d061",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the structure",
+      "content": "The phrase &quot;a construction system known as ______&quot; is a nonrestrictive appositive that renames &quot;These temporary supports.&quot; The rule: a nonrestrictive appositive inserted into the middle of a sentence must be set off by paired commas (one before, one after)."
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li><strong>A (falsework;)</strong> &mdash; wrong. A semicolon joins two independent clauses; it cannot close a nonrestrictive appositive.</li><li><strong>B (falsework)</strong> &mdash; wrong. Omitting punctuation leaves the appositive unclosed, so the comma that opened it has no partner.</li><li><strong>C (falsework,)</strong> &mdash; correct. The comma after &quot;falsework&quot; pairs with the comma after &quot;supports,&quot; properly enclosing the nonrestrictive appositive.</li><li><strong>D (falsework:)</strong> &mdash; wrong. A colon introduces a list or explanation that follows an independent clause; it cannot close an appositive interrupting a sentence.</li></ul>That confirms <strong>C</strong>."
+    }
+  ]
+}

@@ -9,11 +9,11 @@
     },
     {
       "title": "Compute the y-intercept",
-      "content": "$f(0)=(-7)(1)+31=24$, so the intercept is $(0,24)$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."
+      "content": "$f(0)=(-7)(1)+31=24$, so the intercept is $(0,24)$. That confirms <strong>A</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice A, $(0, 24)$. The other choices do not satisfy the same condition from the question, so <strong>A</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches the correct answer, $(0, 24)$. The other choices do not satisfy the same condition from the question, so <strong>A</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId":"2c075bfa-775c-45f6-b974-0ac7c4fdc195_19","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence needs a verb for the main clause. The subject is &quot;the emission of light with a wavelength of 516.7 nanometers (nm), which falls in the 500&ndash;570 nm range defining the green portion of the visible spectrum&quot; &mdash; singular. The blank must supply a finite verb that agrees with this singular subject."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'identifying'</strong>: Present participle &mdash; not a finite verb, cannot serve as the main predicate of a clause. &#10007;</li><li><strong>Choice B &mdash; 'identifies'</strong>: Singular finite verb. Agrees with singular subject &quot;emission&quot; and completes the clause. &#10003;</li><li><strong>Choice C &mdash; 'to identify'</strong>: Infinitive &mdash; not a finite verb, cannot serve as the main predicate. &#10007;</li><li><strong>Choice D &mdash; 'having identified'</strong>: Perfect participle &mdash; not a finite verb, cannot serve as the main predicate. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_19",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence needs a verb for the main clause. The subject is &quot;the emission of light with a wavelength of 516.7 nanometers (nm), which falls in the 500&ndash;570 nm range defining the green portion of the visible spectrum&quot; &mdash; singular. The blank must supply a finite verb that agrees with this singular subject."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — identifying</strong>: Present participle &mdash; not a finite verb, cannot serve as the main predicate of a clause. &#10007;</li><li><strong>Choice B — identifies</strong>: Singular finite verb. Agrees with singular subject &quot;emission&quot; and completes the clause. &#10003;</li><li><strong>Choice C — to identify</strong>: Infinitive &mdash; not a finite verb, cannot serve as the main predicate. &#10007;</li><li><strong>Choice D — having identified</strong>: Perfect participle &mdash; not a finite verb, cannot serve as the main predicate. &#10007;</li></ul><strong>B</strong> is correct."
+    }
+  ]
+}

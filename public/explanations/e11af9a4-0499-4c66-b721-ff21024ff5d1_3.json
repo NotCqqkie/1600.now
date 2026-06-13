@@ -1,1 +1,15 @@
-{"questionId": "e11af9a4-0499-4c66-b721-ff21024ff5d1_3", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what faulty methods prevent", "content": "The phrase “because attempts to detect it invariably involve faulty research methods” signals causality: unreliable detection methods prevent something from occurring. The blank must name something that requires valid evidence to accomplish."}, {"title": "Find the word that fits this logic", "content": "The word “substantiated” means established as fact through evidence—exactly what faulty research methods prevent.<br/><br/>The other three don't depend on research validity: hypothesized (you can propose theories with any data), rectified (correction doesn't depend on method soundness), inculcated (teaching doesn't require proof).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "e11af9a4-0499-4c66-b721-ff21024ff5d1_3",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what faulty methods prevent",
+      "content": "The phrase “because attempts to detect it invariably involve faulty research methods” signals causality: unreliable detection methods prevent something from occurring. The blank must name something that requires valid evidence to accomplish."
+    },
+    {
+      "title": "Find the word that fits this logic",
+      "content": "The word “substantiated” means established as fact through evidence—exactly what faulty research methods prevent.<br/><br/>The other three don't depend on research validity: hypothesized (you can propose theories with any data), rectified (correction doesn't depend on method soundness), inculcated (teaching doesn't require proof).<br/><br/>That matches the correct answer — <strong>A</strong> is correct."
+    }
+  ]
+}

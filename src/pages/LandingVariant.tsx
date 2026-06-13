@@ -84,6 +84,43 @@ const LandingVariant = () => {
       </section>
 
       <section className="mt-12">
+        <h2 className="text-2xl font-semibold">First session plan</h2>
+        <div className="mt-4 overflow-x-auto rounded-lg border border-border">
+          <table className="w-full min-w-[560px] text-left text-sm">
+            <thead className="bg-muted/70">
+              <tr>
+                <th className="px-4 py-3 font-semibold">Time</th>
+                <th className="px-4 py-3 font-semibold">Do this</th>
+                <th className="px-4 py-3 font-semibold">Why it matters</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="border-t border-border">
+                <td className="px-4 py-3 text-muted-foreground">10 min</td>
+                <td className="px-4 py-3 text-muted-foreground">Open the question bank and pick one Math skill plus one Reading and Writing skill.</td>
+                <td className="px-4 py-3 text-muted-foreground">A narrow start gives cleaner data than random mixed practice.</td>
+              </tr>
+              <tr className="border-t border-border">
+                <td className="px-4 py-3 text-muted-foreground">35 min</td>
+                <td className="px-4 py-3 text-muted-foreground">Do a focused drill and write down every miss type.</td>
+                <td className="px-4 py-3 text-muted-foreground">The miss pattern tells you what to study next.</td>
+              </tr>
+              <tr className="border-t border-border">
+                <td className="px-4 py-3 text-muted-foreground">35 min</td>
+                <td className="px-4 py-3 text-muted-foreground">Take a timed module or short timed set.</td>
+                <td className="px-4 py-3 text-muted-foreground">Timed work proves whether the skill transfers under SAT pressure.</td>
+              </tr>
+              <tr className="border-t border-border">
+                <td className="px-4 py-3 text-muted-foreground">10 min</td>
+                <td className="px-4 py-3 text-muted-foreground">Use the score calculator or review page to choose the next drill.</td>
+                <td className="px-4 py-3 text-muted-foreground">The next session should be based on data, not vibes.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section className="mt-12">
         <h2 className="text-2xl font-semibold">{variant.keyword} FAQs</h2>
         <div className="mt-4 space-y-4">
           {variant.faqs.map((faq, faqIndex) => (
@@ -108,16 +145,16 @@ const LandingVariant = () => {
             <Link to="/score-calculator" className="hover:underline">SAT Score Calculator</Link>
           </li>
           <li>
-            <Link to="/sat-vocabulary" className="hover:underline">SAT Vocabulary List</Link>
+            <Link to="/vocab" className="hover:underline">SAT Vocabulary Practice</Link>
           </li>
           <li>
-            <Link to="/sat-skill" className="hover:underline">SAT Skills Hub</Link>
+            <Link to="/bank/math/browse" className="hover:underline">SAT Math Practice</Link>
           </li>
           <li>
-            <Link to="/blog" className="hover:underline">SAT Prep Blog</Link>
+            <Link to="/bank/reading/browse" className="hover:underline">Reading and Writing Practice</Link>
           </li>
           <li>
-            <Link to="/sat-resources" className="hover:underline">SAT Resources</Link>
+            <Link to="/hard" className="hover:underline">100 Hard Math Questions</Link>
           </li>
         </ul>
       </section>

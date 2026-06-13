@@ -1,1 +1,15 @@
-{"questionId": "b93428a6", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "This is a Words in Context question. The blank describes what the skeptical colleagues believed about the kea parrot's interactions with the stones. The contrast word &quot;but&quot; signals that the blank must mean the opposite of &quot;deliberately&quot; &mdash; the colleagues thought the behavior was unintentional, not planned."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'intriguing'</strong>: &quot;Intriguing&quot; means fascinating or interesting. Finding the behavior intriguing does not conflict with Bastos's finding that it was deliberate &mdash; it describes a reaction, not skepticism about intent. &#10007;</li><li><strong>Choice B &mdash; 'obvious'</strong>: &quot;Obvious&quot; means clearly evident. Calling the stone use obvious does not contradict the claim that it was deliberate; someone could find deliberate behavior obvious. No real contrast. &#10007;</li><li><strong>Choice C &mdash; 'accidental'</strong>: &quot;Accidental&quot; means unplanned or unintentional &mdash; the direct opposite of &quot;deliberately.&quot; Skeptics suggesting the interactions were accidental is exactly the doubt that Bastos and her team disproved. &#10003;</li><li><strong>Choice D &mdash; 'observable'</strong>: &quot;Observable&quot; means able to be seen or noticed. This does not conflict with deliberate behavior; something can be both observable and deliberate. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "b93428a6",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a Words in Context question. The blank describes what the skeptical colleagues believed about the kea parrot's interactions with the stones. The contrast word &quot;but&quot; signals that the blank must mean the opposite of &quot;deliberately&quot; &mdash; the colleagues thought the behavior was unintentional, not planned."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; intriguing</strong>: &quot;Intriguing&quot; means fascinating or interesting. Finding the behavior intriguing does not conflict with Bastos's finding that it was deliberate &mdash; it describes a reaction, not skepticism about intent. &#10007;</li><li><strong>Choice B &mdash; obvious</strong>: &quot;Obvious&quot; means clearly evident. Calling the stone use obvious does not contradict the claim that it was deliberate; someone could find deliberate behavior obvious. No real contrast. &#10007;</li><li><strong>Choice C &mdash; accidental</strong>: &quot;Accidental&quot; means unplanned or unintentional &mdash; the direct opposite of &quot;deliberately.&quot; Skeptics suggesting the interactions were accidental is exactly the doubt that Bastos and her team disproved. &#10003;</li><li><strong>Choice D &mdash; observable</strong>: &quot;Observable&quot; means able to be seen or noticed. This does not conflict with deliberate behavior; something can be both observable and deliberate. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

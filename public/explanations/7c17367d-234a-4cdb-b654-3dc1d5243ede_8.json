@@ -1,1 +1,15 @@
-{"questionId":"7c17367d-234a-4cdb-b654-3dc1d5243ede_8","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks what the two authors mainly disagree about. Text 1 concludes Ollantay was created in the late 1700s based on its Spanish writing style. Text 2 argues it is an authentic Inca work from the 1500s based on structural and cultural details. The core dispute is the play's origin date."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'What inspired a Spanish writer in the 1700s to write a play about the Inca Empire'</strong>: Neither text discusses a Spanish writer or what inspired one — this misreads both texts entirely. &#10007;</li><li><strong>Choice B &mdash; 'Whether Ollantay is an Inca play from the 1500s or was instead created much later, in the 1700s'</strong>: This is exactly the dispute — Text 1 says 1700s creation, Text 2 says 1500s Inca origin. &#10003;</li><li><strong>Choice C &mdash; 'How the Inca author of Ollantay knew so much about plays from Spain'</strong>: Text 2 does not claim an Inca author knew about Spanish plays; it says Spanish influence crept in later during transcription. Neither text debates this question. &#10007;</li><li><strong>Choice D &mdash; 'Why Inca plays became more popular in the 1700s than they had been when they were first performed in the 1500s'</strong>: Neither text discusses the relative popularity of Inca plays across centuries. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "7c17367d-234a-4cdb-b654-3dc1d5243ede_8",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks what the two authors mainly disagree about. Text 1 concludes Ollantay was created in the late 1700s based on its Spanish writing style. Text 2 argues it is an authentic Inca work from the 1500s based on structural and cultural details. The core dispute is the play's origin date."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;What inspired a Spanish writer in the 1700s to write a play about the Inca Empire.&rsquo;</strong>: Neither text discusses a Spanish writer or what inspired one — this misreads both texts entirely. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Whether *Ollantay* is an Inca play from the 1500s or was instead created much later, in the 1700s.&rsquo;</strong>: This is exactly the dispute — Text 1 says 1700s creation, Text 2 says 1500s Inca origin. &#10003;</li><li><strong>Choice C &mdash; &lsquo;How the Inca author of *Ollantay* knew so much about plays from Spain.&rsquo;</strong>: Text 2 does not claim an Inca author knew about Spanish plays; it says Spanish influence crept in later during transcription. Neither text debates this question. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Why Inca plays became more popular in the 1700s than they had been when they were first performed in the 1500s.&rsquo;</strong>: Neither text discusses the relative popularity of Inca plays across centuries. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

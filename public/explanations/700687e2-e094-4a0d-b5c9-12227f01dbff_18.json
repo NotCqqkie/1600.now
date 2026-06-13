@@ -1,1 +1,15 @@
-{"questionId":"700687e2-e094-4a0d-b5c9-12227f01dbff_18","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence lists three factors after &quot;namely.&quot; Two of those items contain internal commas (&quot;their velocity upon entering Earth's mesosphere, with higher-velocity meteoroids releasing more energy&quot; and &quot;atmospheric fluctuations, such as changes in humidity&quot;). When list items contain internal commas, Standard English uses semicolons to separate the main items so readers can tell where one factor ends and the next begins."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; em dash</strong>: An em dash signals elaboration or a sharp break, not a list separator. &#10007;</li><li><strong>Choice B &mdash; comma</strong>: Using a comma here blurs the boundary between the first and second factors because commas already appear inside the second and third items. &#10007;</li><li><strong>Choice C &mdash; semicolon</strong>: Correctly separates the first factor from the second in a complex list, distinguishing the main items from the internal commas within them. &#10003;</li><li><strong>Choice D &mdash; period</strong>: A period would end the sentence mid-list, cutting off the second and third factors entirely. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "700687e2-e094-4a0d-b5c9-12227f01dbff_18",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence lists three factors after &quot;namely.&quot; Two of those items contain internal commas (&quot;their velocity upon entering Earth's mesosphere, with higher-velocity meteoroids releasing more energy&quot; and &quot;atmospheric fluctuations, such as changes in humidity&quot;). When list items contain internal commas, Standard English uses semicolons to separate the main items so readers can tell where one factor ends and the next begins."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;meteoroids—their&rsquo;</strong>: An em dash signals elaboration or a sharp break, not a list separator. &#10007;</li><li><strong>Choice B &mdash; &lsquo;meteoroids, their&rsquo;</strong>: Using a comma here blurs the boundary between the first and second factors because commas already appear inside the second and third items. &#10007;</li><li><strong>Choice C &mdash; &lsquo;meteoroids; their&rsquo;</strong>: Correctly separates the first factor from the second in a complex list, distinguishing the main items from the internal commas within them. &#10003;</li><li><strong>Choice D &mdash; &lsquo;meteoroids. Their&rsquo;</strong>: A period would end the sentence mid-list, cutting off the second and third factors entirely. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

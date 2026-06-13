@@ -1,1 +1,15 @@
-{"questionId": "6b1e987d-70b0-4072-9d03-3ebd56371518_4", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Use slope-intercept form", "content": "$f(x)=mx+b$ with slope $m=51$. Passing through $(0,0)$ means the $y$-intercept $b=0$:<br/>$$f(x) = 51x + 0 = 51x$$"}, {"title": "Match the answer", "content": "That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "6b1e987d-70b0-4072-9d03-3ebd56371518_4",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use slope-intercept form",
+      "content": "$f(x)=mx+b$ with slope $m=51$. Passing through $(0,0)$ means the $y$-intercept $b=0$:<br/>$$f(x) = 51x + 0 = 51x$$"
+    },
+    {
+      "title": "Match the answer",
+      "content": "That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Apply the angle sum property of triangles",
-      "content": "The angles of any triangle sum to 180°:<br/>$$\\angle D + \\angle E + \\angle F = 180°$$<br/>Substituting the given value $\\angle D = 114°$:<br/>$$114° + \\angle E + \\angle F = 180°$$<br/>$$\\angle E + \\angle F = 66°$$"
+      "content": "The angles of any triangle sum to 180°:<br/>$$\\angle D + \\angle E + \\angle F = 180^{\\circ}$$<br/>Substituting the given value $\\angle D = 114^{\\circ}$:<br/>$$114^{\\circ} + \\angle E + \\angle F = 180^{\\circ}$$<br/>$$\\angle E + \\angle F = 66^{\\circ}$$"
     },
     {
       "title": "Determine which choice satisfies the constraint",
-      "content": "For a valid triangle, both $\\angle E$ and $\\angle F$ must be positive angles. Since $\\angle E + \\angle F = 66°$ and both must be positive, we need $0° \\lt \\angle E \\lt 66°$.<br/><br/>Testing each choice:<ul><li>A) $115°$ — exceeds $66°$, so $\\angle F$ would be negative</li><li>B) $90°$ — exceeds $66°$, so $\\angle F$ would be negative</li><li>C) $67°$ — exceeds $66°$, so $\\angle F$ would be negative</li><li>D) $65°$ — less than $66°$, so $\\angle F = 1°$ (valid)</li></ul>That matches choice D — <strong>D</strong> is correct."
+      "content": "For a valid triangle, both $\\angle E$ and $\\angle F$ must be positive angles. Since $\\angle E + \\angle F = 66^{\\circ}$ and both must be positive, we need $0^{\\circ} \\lt \\angle E \\lt 66^{\\circ}$.<br/><br/>Testing each choice:<ul><li>A) $115^{\\circ}$ — exceeds $66^{\\circ}$, so $\\angle F$ would be negative</li><li>B) $90^{\\circ}$ — exceeds $66^{\\circ}$, so $\\angle F$ would be negative</li><li>C) $67^{\\circ}$ — exceeds $66^{\\circ}$, so $\\angle F$ would be negative</li><li>D) $65^{\\circ}$ — less than $66^{\\circ}$, so $\\angle F = 1^{\\circ}$ (valid)</li></ul>That confirms <strong>D</strong> is correct."
     }
   ]
 }

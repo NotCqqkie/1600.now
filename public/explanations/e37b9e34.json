@@ -1,1 +1,19 @@
-{"questionId": "e37b9e34", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the question type", "content": "This is a word-in-context question. The phrase after the colon &mdash; &quot;present yet having essentially no effect on our bodily processes&quot; &mdash; defines exactly what the blank must mean."}, {"title": "Reason toward the answer", "content": "We need a word that means &quot;present but inactive.&quot; <em>Dormant</em> precisely captures this idea of something existing in an inactive or sleeping state."}, {"title": "Eliminate the wrong choices", "content": "<ul><li><strong>Choice A &mdash; 'decisive'</strong>: means having a major effect, which contradicts &quot;having essentially no effect.&quot; &#10007;</li><li><strong>Choice B &mdash; 'lacking'</strong>: means absent or missing, which contradicts &quot;present.&quot; &#10007;</li><li><strong>Choice C &mdash; 'variable'</strong>: means changing or inconsistent, but the text describes a steady state of inactivity, not variation. &#10007;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "e37b9e34",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the question type",
+      "content": "This is a word-in-context question. The phrase after the colon &mdash; \"present yet having essentially no effect on our bodily processes\" &mdash; defines exactly what the blank must mean."
+    },
+    {
+      "title": "Reason toward the answer",
+      "content": "We need a word that means \"present but inactive.\" <em>Dormant</em> precisely captures this idea of something existing in an inactive or sleeping state."
+    },
+    {
+      "title": "Eliminate the wrong choices",
+      "content": "<ul><li><strong>\"decisive\"</strong>: means having a major effect, which contradicts \"having essentially no effect.\" &#10007;</li><li><strong>\"lacking\"</strong>: means absent or missing, which contradicts \"present.\" &#10007;</li><li><strong>\"variable\"</strong>: means changing or inconsistent, but the text describes a steady state of inactivity, not variation. &#10007;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

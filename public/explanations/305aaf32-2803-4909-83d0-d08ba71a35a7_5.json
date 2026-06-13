@@ -9,15 +9,15 @@
     },
     {
       "title": "Reject the wrong vertices",
-      "content": "Choices A and B shift the vertex left to $x=-1$, and choice D puts the vertex at $(0,0)$. None of those match the graph's vertex $(0,3)$."
+      "content": "The other choices shift the vertex left to $x=-1$ or put the vertex at $(0,0)$. None of those match the graph's vertex $(0,3)$."
     },
     {
       "title": "Confirm with the matching graph",
-      "content": "Choice C, $f(x)=5x^2+3$, has vertex $(0,3)$. It also gives $f(1)=5(1)^2+3=8$, matching the visible point $(1,8)$ on the graph."
+      "content": "The matching choice, $f(x)=5x^2+3$, has vertex $(0,3)$. It also gives $f(1)=5(1)^2+3=8$, matching the visible point $(1,8)$ on the graph."
     },
     {
       "title": "Choose the match",
-      "content": "Choice C is the only graph with vertex $(0,3)$ and the correct height at $x=1$. Therefore choice <strong>C</strong> is correct."
+      "content": "The matching choice is the only graph with vertex $(0,3)$ and the correct height at $x=1$. Therefore, <strong>C</strong> is correct."
     }
   ]
 }

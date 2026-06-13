@@ -1,1 +1,15 @@
-{"questionId": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_13", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The nitrogen-treated SiC fiber has a lower minimum creep rate than the two polymer-derived fibers. A lower creep rate means the material deforms under stress more slowly, indicating superior resistance."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; polymer-derived fibers are stronger overall</strong>: This contradicts the data showing the nitrogen-treated fiber performs better. &#10007;</li><li><strong>Choice B &mdash; composites with nitrogen-treated fiber withstand stress longer</strong>: Lower creep rate directly implies the material resists deformation longer under the same stress. &#10003;</li><li><strong>Choice C &mdash; only under certain temperature conditions</strong>: No temperature condition is stated in the comparison. &#10007;</li><li><strong>Choice D &mdash; polymer-derived fibers are more cost-effective</strong>: Cost is not discussed anywhere in the passage. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_13",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The nitrogen-treated SiC fiber has a lower minimum creep rate than the two polymer-derived fibers. A lower creep rate means the material deforms under stress more slowly, indicating superior resistance."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"unlike the two polymer derived SiC fibers, the nitrogen-treated SiC fiber can substantially inhibit creep, provided that temperatures and loads are consistent.\"</strong>: This contradicts the data showing the nitrogen-treated fiber performs better. &#10007;</li><li><strong>\"aerospace composites containing the nitrogen-treated SiC fiber may have the ability to withstand mechanical stress for a longer period of time than can aerospace composites containing either of the two polymer-derived SiC fibers.\"</strong>: Lower creep rate directly implies the material resists deformation longer under the same stress. &#10003;</li><li><strong>\"composites based on the two polymer-derived SiC fibers have chemical properties that may improve the mechanical and thermal stability of aerospace equipment to a greater extent than do composites based on the nitrogen-treated SiC fiber.\"</strong>: No temperature condition is stated in the comparison. &#10007;</li><li><strong>\"the two polymer-derived SiC fibers likely hold similar potential for reducing the creep resistance of materials exposed to stress and elevated temperatures, thus prolonging the life span of aerospace machinery.\"</strong>: Cost is not discussed anywhere in the passage. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+    }
+  ]
+}

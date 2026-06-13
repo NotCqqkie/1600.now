@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the formula and verify",
-      "content": "Substitute into the exponential growth formula:<br/>$$y = 48,000(2)^t$$<br/>Test at $t = 1$: $y = 48,000(2)^1 = 96,000$, which shows the population doubled from the initial 48,000. That matches choice D - <strong>D</strong> is correct."
+      "content": "Substitute into the exponential growth formula:<br/>$$y = 48,000(2)^t$$<br/>Test at $t = 1$: $y = 48,000(2)^1 = 96,000$, which shows the population doubled from the initial 48,000. This matches - <strong>D</strong> is correct."
     }
   ]
 }

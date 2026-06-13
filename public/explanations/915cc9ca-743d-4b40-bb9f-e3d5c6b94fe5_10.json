@@ -9,7 +9,7 @@
     },
     {
       "title": "Check the choices with R positive",
-      "content": "Set $R=1$ in Desmos and graph the four forms. Choice A has negative slope and positive $y$-intercept; the others have the wrong slope sign, wrong intercept sign, or both.",
+      "content": "Set $R=1$ in Desmos and graph the four forms. The correct answer has negative slope and positive $y$-intercept; the others have the wrong slope sign, wrong intercept sign, or both.",
       "desmosExpressions": [
         "R=1",
         "R x+12y=18",
@@ -20,7 +20,7 @@
     },
     {
       "title": "Confirm algebraically",
-      "content": "Choice A gives $Rx+12y=18$, so $y=-\\frac{R}{12}x+\\frac{18}{12}=-\\frac{R}{12}x+1.5$. With $R>0$, this has negative slope and $y$-intercept $1.5$, matching the graph. Choice <strong>A</strong> is correct."
+      "content": "The correct answer gives $Rx+12y=18$, so $y=-\\frac{R}{12}x+\\frac{18}{12}=-\\frac{R}{12}x+1.5$. With $R\\gt 0$, this has negative slope and $y$-intercept $1.5$, matching the graph. <strong>A</strong> is correct."
     }
   ]
 }

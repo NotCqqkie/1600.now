@@ -1,1 +1,15 @@
-{"questionId":"29741ebc","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"This is a &quot;function of underlined text&quot; question. The underlined phrase &quot;(film containing scaled-down reproductions of documents)&quot; appears in parentheses immediately after the word &quot;microfilm&quot; — a classic signal that the parenthetical is defining the preceding term."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;It gives information about a famous person.&apos;</strong>: The parenthetical describes film technology, not Frederick Douglass or any person. &#10007;</li><li><strong>Choice B &mdash; &apos;It explains the meaning of a word.&apos;</strong>: The phrase restates &quot;microfilm&quot; in plain language (&quot;film containing scaled-down reproductions of documents&quot;), functioning as an inline definition. &#10003;</li><li><strong>Choice C &mdash; &apos;It describes a debate among historians.&apos;</strong>: No debate appears anywhere in the underlined portion or the sentence containing it. &#10007;</li><li><strong>Choice D &mdash; &apos;It summarizes an unexpected finding.&apos;</strong>: A parenthetical definition cannot summarize a finding; it merely clarifies a term. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "29741ebc",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a &quot;function of underlined text&quot; question. The underlined phrase &quot;(film containing scaled-down reproductions of documents)&quot; appears in parentheses immediately after the word &quot;microfilm&quot; — a classic signal that the parenthetical is defining the preceding term."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; It gives information about a famous person.</strong>: The parenthetical describes film technology, not Frederick Douglass or any person. &#10007;</li><li><strong>Choice B &mdash; It explains the meaning of a word.</strong>: The phrase restates &quot;microfilm&quot; in plain language (&quot;film containing scaled-down reproductions of documents&quot;), functioning as an inline definition. &#10003;</li><li><strong>Choice C &mdash; It describes a debate among historians.</strong>: No debate appears anywhere in the underlined portion or the sentence containing it. &#10007;</li><li><strong>Choice D &mdash; It summarizes an unexpected finding.</strong>: A parenthetical definition cannot summarize a finding; it merely clarifies a term. &#10007;</li></ul>That matches <strong>Choice B &mdash; It explains the meaning of a word.</strong>."
+    }
+  ]
+}

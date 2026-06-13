@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the sequential structure",
-      "content": "The sentence begins with <em>\u201cfirst consider\u201d</em> and uses a semicolon to join a second clause. The word <em>\u201cfirst\u201d</em> signals a multi-step procedure, so the transition after the semicolon must show what step comes next in that sequence."
+      "content": "The sentence begins with <em>“first consider”</em> and uses a semicolon to join a second clause. The word <em>“first”</em> signals a multi-step procedure, so the transition after the semicolon must show what step comes next in that sequence."
     },
     {
       "title": "Match the transition to the sequence",
-      "content": "<em>\u201cNext\u201d</em> marks the second step in the procedure\u2014you first consider one painting, then move to the next action of comparing it with another. The other options don't fit this sequential logic. That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "<em>“Next”</em> marks the second step in the procedure—you first consider one painting, then move to the next action of comparing it with another. The other options don't fit this sequential logic. That matches the correct answer — <strong>B</strong> is correct."
     }
   ]
 }

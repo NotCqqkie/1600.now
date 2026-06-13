@@ -9,7 +9,7 @@
     },
     {
       "title": "Write and factor the function",
-      "content": "The line is $$f(x)=-5x-15.$$ Factor out $-5$: $$f(x)=-5(x+3).$$ That matches choice C, so <strong>C</strong> is correct."
+      "content": "The line is $$f(x)=-5x-15.$$ Factor out $-5$: $$f(x)=-5(x+3).$$ The factored form keeps the same slope and $y$-intercept as the table, so <strong>C</strong> is correct."
     }
   ]
 }

@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice <strong>D</strong> is correct because $12^2-53=144-53=91$. The larger answer choices would make $k^2$ far too large."
+      "content": "<strong>D</strong> is correct because $12^2-53=144-53=91$. The larger answer choices would make $k^2$ far too large."
     }
   ]
 }

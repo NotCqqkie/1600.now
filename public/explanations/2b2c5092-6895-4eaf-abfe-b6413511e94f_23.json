@@ -1,1 +1,15 @@
-{"questionId": "2b2c5092-6895-4eaf-abfe-b6413511e94f_23", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "This is a Transitions question. Sentence 1 says the 1920 method &quot;seems rudimentary today.&quot; Sentence 2 says the 2015 study confirmed it was &quot;relatively accurate.&quot; The blank must signal a concession: despite the apparent crudeness, the method actually worked."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'For example,'</strong>: signals that what follows illustrates the previous point. Sentence 2 contradicts, not illustrates, sentence 1. &#10007;</li><li><strong>Choice B &mdash; 'That said,'</strong>: signals a concession &mdash; &quot;despite what was just stated.&quot; This correctly bridges the apparent rudimentariness to the evidence of accuracy. &#10003;</li><li><strong>Choice C &mdash; 'As such,'</strong>: signals a consequence or result. Sentence 2 is not a result of the method seeming rudimentary. &#10007;</li><li><strong>Choice D &mdash; 'In other words,'</strong>: signals a restatement of the same idea. Sentence 2 contradicts sentence 1 rather than restating it. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "2b2c5092-6895-4eaf-abfe-b6413511e94f_23",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a Transitions question. Sentence 1 says the 1920 method &quot;seems rudimentary today.&quot; Sentence 2 says the 2015 study confirmed it was &quot;relatively accurate.&quot; The blank must signal a concession: despite the apparent crudeness, the method actually worked."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; For example,</strong>: signals that what follows illustrates the previous point. Sentence 2 contradicts, not illustrates, sentence 1. &#10007;</li><li><strong>Choice B &mdash; That said,</strong>: signals a concession &mdash; &quot;despite what was just stated.&quot; This correctly bridges the apparent rudimentariness to the evidence of accuracy. &#10003;</li><li><strong>Choice C &mdash; As such,</strong>: signals a consequence or result. Sentence 2 is not a result of the method seeming rudimentary. &#10007;</li><li><strong>Choice D &mdash; In other words,</strong>: signals a restatement of the same idea. Sentence 2 contradicts sentence 1 rather than restating it. &#10007;</li></ul>That matches <strong>Choice B &mdash; That said,</strong>."
+    }
+  ]
+}

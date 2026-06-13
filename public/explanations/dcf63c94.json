@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate the coefficient",
-      "content": "Divide to find the constant factor:<br/>$$\\frac{272}{16} = 17$$<br/>Therefore $h(x) = 17 \\cdot 2^x$. That matches choice A — <strong>A</strong> is correct."
+      "content": "Divide to find the constant factor:<br/>$$\\frac{272}{16} = 17$$<br/>Therefore $h(x) = 17 \\cdot 2^x$. That matches the correct answer — <strong>A</strong> is correct."
     }
   ]
 }

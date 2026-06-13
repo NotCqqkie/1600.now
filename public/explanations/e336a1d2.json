@@ -10,11 +10,11 @@
     },
     {
       "title": "Calculate 41 squared",
-      "content": "First, compute $41 \\times 41$:<br/>$$41 \\times 41 = 1,681$$<br/>Note that 1,681 is choice B — a common error for students who use area instead of volume."
+      "content": "First, compute $41 \\times 41$:<br/>$$41 \\times 41 = 1,681$$<br/>Note that 1,681 is the remaining alternative — a common error for students who use area instead of volume."
     },
     {
       "title": "Multiply by 41 once more",
-      "content": "Now we compute $1,681 \\times 41$ by splitting into tens and ones:<br/>$$1,681 \\times 40 = 67,240$$<br/>$$1,681 \\times 1 = 1,681$$<br/>$$67,240 + 1,681 = 68,921$$<br/>That matches choice D — <strong>D</strong> is correct."
+      "content": "Now we compute $1,681 \\times 41$ by splitting into tens and ones:<br/>$$1,681 \\times 40 = 67,240$$<br/>$$1,681 \\times 1 = 1,681$$<br/>$$67,240 + 1,681 = 68,921$$<br/>That matches the correct answer — <strong>D</strong> is correct."
     }
   ]
 }

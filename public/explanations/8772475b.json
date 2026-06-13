@@ -1,1 +1,19 @@
-{"questionId": "8772475b", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the two clauses", "content": "Before the blank: &quot;goats are notoriously indiscriminate&quot; &mdash; an independent clause. After the blank: &quot;they will devour all kinds of shrubs and weeds, leaving virtually no part of any plant unconsumed&quot; &mdash; also an independent clause that explains what &quot;indiscriminate&quot; means here."}, {"title": "Pick the punctuation that joins them correctly", "content": "Two independent clauses where the second elaborates on the first call for a colon. A comma alone would create a comma splice; no punctuation would create a run-on; &quot;and&quot; without a comma would fuse them improperly."}, {"title": "Per-choice elimination", "content": "<ul><li><strong>Choice A &mdash; &apos;indiscriminate and&apos;</strong>: joins two independent clauses with a coordinating conjunction but no preceding comma, producing a run-on. &#10007;</li><li><strong>Choice B &mdash; &apos;indiscriminate,&apos;</strong>: a single comma between two independent clauses is a comma splice. &#10007;</li><li><strong>Choice C &mdash; &apos;indiscriminate&apos;</strong>: no punctuation between two independent clauses creates a fused (run-on) sentence. &#10007;</li><li><strong>Choice D &mdash; &apos;indiscriminate:&apos;</strong>: the colon correctly introduces the second clause as an elaboration of the first. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "8772475b",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the two clauses",
+      "content": "Before the blank: &quot;goats are notoriously indiscriminate&quot; &mdash; an independent clause. After the blank: &quot;they will devour all kinds of shrubs and weeds, leaving virtually no part of any plant unconsumed&quot; &mdash; also an independent clause that explains what &quot;indiscriminate&quot; means here."
+    },
+    {
+      "title": "Pick the punctuation that joins them correctly",
+      "content": "Two independent clauses where the second elaborates on the first call for a colon. A comma alone would create a comma splice; no punctuation would create a run-on; &quot;and&quot; without a comma would fuse them improperly."
+    },
+    {
+      "title": "Per-choice elimination",
+      "content": "<ul><li><strong>Choice A &mdash; indiscriminate and</strong>: joins two independent clauses with a coordinating conjunction but no preceding comma, producing a run-on. &#10007;</li><li><strong>Choice B &mdash; indiscriminate,</strong>: a single comma between two independent clauses is a comma splice. &#10007;</li><li><strong>Choice C &mdash; indiscriminate</strong>: no punctuation between two independent clauses creates a fused (run-on) sentence. &#10007;</li><li><strong>Choice D &mdash; indiscriminate:</strong>: the colon correctly introduces the second clause as an elaboration of the first. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

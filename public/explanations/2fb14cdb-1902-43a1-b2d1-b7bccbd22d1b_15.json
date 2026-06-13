@@ -8,12 +8,12 @@
       "content": "The question asks which listed number <em>could be</em> the number sold, so testing choices is faster than solving the whole quadratic. For $n$ products sold, the price is $120-2.50n$ and the revenue is $n(120-2.50n)$."
     },
     {
-      "title": "Test choice A",
-      "content": "For choice A, $n=23$. The price is $120-2.50(23)=62.50$. The revenue is:<br/>$$23(62.50)=1{,}437.50$$<br/>That exactly matches the required revenue."
+      "title": "Test the correct answer",
+      "content": "For the correct answer, $n=23$. The price is $120-2.50(23)=62.50$. The revenue is:<br/>$$23(62.50)=1{,}437.50$$<br/>That exactly matches the required revenue."
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li><strong>A: 23</strong> gives exactly $1{,}437.50$, so it works. &#10003;</li><li><strong>B: 24</strong> gives price $60$ and revenue $24(60)=1{,}440$, too high. &#10007;</li><li><strong>C: 527</strong> and <strong>D: 1,440</strong> would make the price negative, so they are impossible. &#10007;</li></ul>Choice <strong>A</strong> is correct."
+      "content": "<ul><li><strong>A: 23</strong> gives exactly $1{,}437.50$, so it works. &#10003;</li><li><strong>B: 24</strong> gives price $60$ and revenue $24(60)=1{,}440$, too high. &#10007;</li><li><strong>C: 527</strong> and <strong>D: 1,440</strong> would make the price negative, so they are impossible. &#10007;</li></ul><strong>A</strong> is correct."
     }
   ]
 }

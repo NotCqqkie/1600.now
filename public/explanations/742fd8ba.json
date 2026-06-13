@@ -1,1 +1,19 @@
-{"questionId": "742fd8ba", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Restate the hypothesis", "content": "Ayalew and colleagues hypothesized that the plants' response to kanamycin involves <em>altering</em> their uptake of metals such as iron and zinc. Supporting data must show a difference in metal content between the kanamycin-exposed plants and the control plants."}, {"title": "Read what the graph shows", "content": "The graph plots iron and zinc concentrations for the two groups. The kanamycin-exposed plants have noticeably lower iron and lower zinc than the control plants, consistent with kanamycin altering (specifically reducing) the plants' uptake of both metals."}, {"title": "Eliminate per choice", "content": "<ul><li><strong>Choice A &mdash; 'control plants contained higher levels of zinc than iron, but plants exposed to kanamycin contained higher levels of iron than zinc'</strong>: this flip of relative levels does not match the graph, which shows iron higher than zinc in both groups (misread of the data). &#10007;</li><li><strong>Choice B &mdash; 'Both groups...more than 200 parts per million of both iron and zinc'</strong>: even if true, a shared baseline does not show any <em>difference</em> between groups, so it cannot support an 'altering' claim (misread of what would count as support). &#10007;</li><li><strong>Choice C &mdash; 'Zinc levels were around 300 parts per million in the control plants but nearly 400...in the plants exposed to kanamycin'</strong>: reverses the direction of the zinc difference shown in the graph and ignores iron (misread of the data). &#10007;</li><li><strong>Choice D &mdash; 'plants exposed to kanamycin showed lower levels of iron and zinc than the control plants'</strong>: matches the graph and directly shows kanamycin altering the plants' uptake of both metals named in the hypothesis. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "742fd8ba",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Restate the hypothesis",
+      "content": "Ayalew and colleagues hypothesized that the plants' response to kanamycin involves <em>altering</em> their uptake of metals such as iron and zinc. Supporting data must show a difference in metal content between the kanamycin-exposed plants and the control plants."
+    },
+    {
+      "title": "Read what the graph shows",
+      "content": "The graph plots iron and zinc concentrations for the two groups. The kanamycin-exposed plants have noticeably lower iron and lower zinc than the control plants, consistent with kanamycin altering (specifically reducing) the plants' uptake of both metals."
+    },
+    {
+      "title": "Eliminate per choice",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;The control plants contained higher levels of zinc than iron, but plants exposed to kanamycin contained higher levels of iron than zinc.&rsquo;</strong>: this flip of relative levels does not match the graph, which shows iron higher than zinc in both groups (misread of the data). &#10007;</li><li><strong>Choice B &mdash; &lsquo;Both groups of plants contained more than 200 parts per million of both iron and zinc.&rsquo;</strong>: even if true, a shared baseline does not show any <em>difference</em> between groups, so it cannot support an 'altering' claim (misread of what would count as support). &#10007;</li><li><strong>Choice C &mdash; &lsquo;Zinc levels were around 300 parts per million in the control plants but nearly 400 parts per million in the plants exposed to kanamycin.&rsquo;</strong>: reverses the direction of the zinc difference shown in the graph and ignores iron (misread of the data). &#10007;</li><li><strong>Choice D &mdash; &lsquo;The plants exposed to kanamycin showed lower levels of iron and zinc than the control plants did.&rsquo;</strong>: matches the graph and directly shows kanamycin altering the plants' uptake of both metals named in the hypothesis. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

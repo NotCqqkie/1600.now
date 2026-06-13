@@ -16,6 +16,7 @@ const targetCleanStreak = requestedTargetCleanStreak === "all"
 const maxQuestions = Number.parseInt(args.get("max-questions") ?? "20000", 10);
 const reportLimit = Number.parseInt(args.get("report-limit") ?? "80", 10);
 const port = Number.parseInt(args.get("port") ?? "5187", 10);
+const includeHidden = args.get("include-hidden") === "true";
 const baseUrl = `http://127.0.0.1:${port}`;
 
 const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
@@ -85,17 +86,22 @@ try {
   await page.goto(baseUrl, { waitUntil: "networkidle0" });
 
   const result = await page.evaluate(
-    async ({ targetCleanStreak, maxQuestions, reportLimit }) => {
-      const [{ getBankPool }, { renderMixedContent }, { normalizeReadingDisplayText }] =
+    async ({ targetCleanStreak, maxQuestions, reportLimit, includeHidden }) => {
+      const [{ loadBankPool }, { renderMixedContent }, { normalizeReadingDisplayText }] =
         await Promise.all([
           import("/src/data/questionBank.ts"),
           import("/src/lib/text/mathRendering.ts"),
           import("/src/lib/text/readingTextNormalization.ts"),
         ]);
+      const { loadAllSourceBankQuestions } = await import("/src/data/questionBank.ts");
 
+      const [mathPool, readingPool] = await Promise.all([
+        includeHidden ? loadAllSourceBankQuestions("math", "all") : loadBankPool("math", "all"),
+        includeHidden ? loadAllSourceBankQuestions("reading", "all") : loadBankPool("reading", "all"),
+      ]);
       const pools = [
-        ...getBankPool("math", "all"),
-        ...getBankPool("reading", "all"),
+        ...mathPool,
+        ...readingPool,
       ];
       const resolvedTargetCleanStreak = targetCleanStreak === "all" ? pools.length : targetCleanStreak;
 
@@ -310,6 +316,13 @@ try {
           rejects: [/\$-\s*a\$/],
         },
         {
+          name: "multi-letter product equation",
+          subject: "math",
+          raw: "$18qrt - 2qrs + 10rst = 0$",
+          includes: ["18qrt", "10rst", "=0"],
+          rejects: [/\$18qrt - 2qrs \+ 10rst = 0\$/],
+        },
+        {
           name: "unit text leading spaces",
           subject: "math",
           raw: "$\\left(\\text{ ft}^2\\right)$",
@@ -466,7 +479,7 @@ try {
         issueTypes: Object.fromEntries([...issueTypes.entries()].sort((a, b) => b[1] - a[1])),
       };
     },
-    { targetCleanStreak, maxQuestions, reportLimit },
+    { targetCleanStreak, maxQuestions, reportLimit, includeHidden },
   );
 
   if (browserErrors.length) {

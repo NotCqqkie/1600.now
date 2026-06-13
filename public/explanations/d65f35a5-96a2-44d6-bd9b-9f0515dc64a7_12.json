@@ -9,7 +9,7 @@
     },
     {
       "title": "Compute the square's perimeter",
-      "content": "An inscribed circle touches all four sides, so the square's side equals the circle's <strong>diameter</strong>: $s = 2r = 24$. The perimeter is $4s = 4\\cdot 24 = 96$. That matches choice <strong>C</strong>."
+      "content": "An inscribed circle touches all four sides, so the square's side equals the circle's <strong>diameter</strong>: $s = 2r = 24$. The perimeter is $4s = 4\\cdot 24 = 96$. That matches the correct answer, <strong>C</strong>."
     }
   ]
 }

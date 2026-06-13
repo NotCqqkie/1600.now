@@ -17,7 +17,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice A matches the equation. It also checks directly: $h(0)=0$ and $h(11)=\\frac{5}{11}(11)=5$, so choice <strong>A</strong> is correct."
+      "content": "The correct answer matches the equation. It also checks directly: $h(0)=0$ and $h(11)=\\frac{5}{11}(11)=5$, so <strong>A</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId":"6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_27","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The student wants to <strong>compare the curviness</strong> of the two rivers. A successful answer must state which river is curvier &mdash; not just define sinuosity or describe one river alone."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A</strong>: reverses the data &mdash; it implies the Luni is the curvier river, but the Embarras has the higher sinuosity ratio. &#10007;</li><li><strong>Choice B</strong>: directly states that the Embarras River&apos;s sinuosity is <strong>greater than</strong> the Luni&apos;s &mdash; a clear, accurate comparison. &#10003;</li><li><strong>Choice C</strong>: only defines sinuosity without comparing the two rivers. &#10007;</li><li><strong>Choice D</strong>: only defines sinuosity without comparing the two rivers. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_27",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The student wants to <strong>compare the curviness</strong> of the two rivers. A successful answer must state which river is curvier &mdash; not just define sinuosity or describe one river alone."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;The high-sinuosity Luni River in India is curvier than the low-sinuosity Embarras River in Canada.&rsquo;</strong>: reverses the data &mdash; it implies the Luni is the curvier river, but the Embarras has the higher sinuosity ratio. &#10007;</li><li><strong>Choice B &mdash; &lsquo;The Embarras River's ratio of stream length to valley length, also known as sinuosity, is greater than that of the Luni River.&rsquo;</strong>: directly states that the Embarras River&apos;s sinuosity is <strong>greater than</strong> the Luni&apos;s &mdash; a clear, accurate comparison. &#10003;</li><li><strong>Choice C &mdash; &lsquo;By comparing the stream lengths of the Embarras and Luni rivers to their valley lengths, one can calculate their curviness, or sinuosity.&rsquo;</strong>: only defines sinuosity without comparing the two rivers. &#10007;</li><li><strong>Choice D &mdash; &lsquo;In both the Embarras and the Luni rivers, curviness is determined by comparing stream length to valley length.&rsquo;</strong>: only defines sinuosity without comparing the two rivers. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

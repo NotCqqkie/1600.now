@@ -1,10 +1,20 @@
 {
+  "questionId": "f89e1d6f",
   "qid": "f89e1d6f",
   "correctAnswer": "C",
   "steps": [
-    "Regroup the expression: $x^2 - c^2 - 2cd - d^2 = x^2 - (c^2 + 2cd + d^2)$.",
-    "Recognize that $c^2 + 2cd + d^2 = (c+d)^2$. Since $a = c + d$, substitute to get $x^2 - a^2$.",
-    "Apply the difference of squares formula: $x^2 - a^2 = (x+a)(x-a)$."
+    {
+      "title": "Step 1",
+      "content": "Regroup the expression: $x^2 - c^2 - 2cd - d^2 = x^2 - (c^2 + 2cd + d^2)$."
+    },
+    {
+      "title": "Step 2",
+      "content": "Recognize that $c^2 + 2cd + d^2 = (c+d)^2$. Since $a = c + d$, substitute to get $x^2 - a^2$."
+    },
+    {
+      "title": "Step 3",
+      "content": "Apply the difference of squares formula: $x^2 - a^2 = (x+a)(x-a)$."
+    }
   ],
   "choices": [
     {
@@ -19,8 +29,8 @@
     },
     {
       "id": "C",
-      "text": "$(x + a)(x - a)$",
-      "explanation": "<ul><li>This is the difference of squares: $(x+a)(x-a) = x^2 - a^2$.</li><li>We showed $x^2 - c^2 - 2cd - d^2 = x^2 - (c+d)^2 = x^2 - a^2$, which matches exactly.</li><li>That matches choice C &mdash; <strong>C</strong> is correct.</li></ul>"
+      "text": "$(x + a) \\times (x - a)$",
+      "explanation": "<ul><li>This is the difference of squares: $(x+a)(x-a) = x^2 - a^2$.</li><li>We showed $x^2 - c^2 - 2cd - d^2 = x^2 - (c+d)^2 = x^2 - a^2$, which matches exactly.</li><li>That matches $(x + a) \\times (x - a)$, so <strong>C</strong> is correct.</li></ul>"
     },
     {
       "id": "D",

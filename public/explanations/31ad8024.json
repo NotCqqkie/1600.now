@@ -1,1 +1,15 @@
-{"questionId": "31ad8024", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the key prediction", "content": "The hypothesis predicts that in low-visibility conditions, wider-headed fish will bump into obstructions more often than narrower-headed fish (because they detect vortices worse)."}, {"title": "Apply to the hypothesis", "content": "C directly compares a <strong>wide-headed fish to a narrow-headed fish</strong>, showing the wide-headed fish bumped into <strong>more</strong> obstructions in low-visibility conditions with medium vortices.<br/><br/>The other three either don't compare head types directly or show no difference between them.<br/><br/>This direct comparison showing wider-headed fish performing worse in low-visibility is what the hypothesis predicts.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "31ad8024",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key prediction",
+      "content": "The hypothesis predicts that in low-visibility conditions, wider-headed fish will bump into obstructions more often than narrower-headed fish (because they detect vortices worse)."
+    },
+    {
+      "title": "Apply to the hypothesis",
+      "content": "C directly compares a <strong>wide-headed fish to a narrow-headed fish</strong>, showing the wide-headed fish bumped into <strong>more</strong> obstructions in low-visibility conditions with medium vortices.<br/><br/>The other three either don't compare head types directly or show no difference between them.<br/><br/>This direct comparison showing wider-headed fish performing worse in low-visibility is what the hypothesis predicts.<br/><br/><strong>C</strong> is correct."
+    }
+  ]
+}

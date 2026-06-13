@@ -1,1 +1,15 @@
-{"questionId": "3a715eca", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the relationship", "content": "The first sentence states the lesson (genes interact with protein products). The second sentence describes researchers' response: they shifted focus to include the proteome, not just the genome. The transition must show this cause-and-effect connection."}, {"title": "Apply the signal", "content": "”Accordingly” means “as a result; in an appropriate way given the circumstances,” and here it shows that the research shift is a logical response to learning about gene-protein interactions. “In other words” would restate, “That said” would introduce contrast, and “For example” would provide an example, none fitting the cause-and-effect relationship.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "3a715eca",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the relationship",
+      "content": "The first sentence states the lesson (genes interact with protein products). The second sentence describes researchers' response: they shifted focus to include the proteome, not just the genome. The transition must show this cause-and-effect connection."
+    },
+    {
+      "title": "Apply the signal",
+      "content": "”Accordingly” means “as a result; in an appropriate way given the circumstances,” and here it shows that the research shift is a logical response to learning about gene-protein interactions. “In other words” would restate, “That said” would introduce contrast, and “For example” would provide an example, none fitting the cause-and-effect relationship.<br/><br/><strong>D</strong> is correct."
+    }
+  ]
+}

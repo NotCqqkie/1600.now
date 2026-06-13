@@ -9,7 +9,7 @@
     },
     {
       "title": "Solve for y",
-      "content": "From $$80+20y=160$$, subtract 80 from both sides: $$20y=80$$. Divide both sides by 20: $$y=4$$. Therefore, Yesenia purchased 4 shirts. That matches choice B — <strong>B</strong> is correct."
+      "content": "From $$80+20y=160$$, subtract 80 from both sides: $$20y=80$$. Divide both sides by 20: $$y=4$$. Therefore, Yesenia purchased 4 shirts, and the substituted equation checks because $80+20(4)=160$. <strong>B</strong> is correct."
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Apply the triangle inequality on each pair",
-      "content": "For sides $8$, $13$, and $x$, the sum of any two must exceed the third:<br/>$$8 + 13 > x \\Rightarrow x \\lt 21$$<br/>$$8 + x > 13 \\Rightarrow x > 5$$<br/>$$13 + x > 8 \\Rightarrow x > -5 \\text{ (auto-true since lengths are positive)}$$"
+      "content": "For sides $8$, $13$, and $x$, the sum of any two must exceed the third:<br/>$$8 + 13 \\gt  x \\Rightarrow x \\lt 21$$<br/>$$8 + x \\gt  13 \\Rightarrow x \\gt  5$$<br/>$$13 + x \\gt  8 \\Rightarrow x \\gt  -5 \\text{ (auto-true since lengths are positive)}$$"
     },
     {
       "title": "Combine the active constraints",
-      "content": "$x > 5$ and $x \\lt 21$ together give $5 \\lt x \\lt 21$.<br/><br/>That matches choice C — <strong>C</strong> is correct."
+      "content": "$x \\gt  5$ and $x \\lt 21$ together give $5 \\lt x \\lt 21$.<br/><br/>That matches the correct answer — <strong>C</strong> is correct."
     }
   ]
 }

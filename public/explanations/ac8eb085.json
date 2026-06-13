@@ -1,1 +1,15 @@
-{"questionId": "ac8eb085", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the blank must do", "content": "Sentence 1 sets up a world where companies own and sell breathable air. Sentence 2 states that people must purchase it. The blank must connect a cause (companies selling air) to its direct consequence (people buying it)."}, {"title": "Eliminate each choice and pick the match", "content": "<ul><li><strong>Choice A &mdash; 'As a result,'</strong>: Signals that sentence 2 is the logical consequence of sentence 1 &mdash; exactly the cause-and-effect link needed. &#10003;</li><li><strong>Choice B &mdash; 'In any case,'</strong>: Means &ldquo;no matter what the situation is,&rdquo; implying multiple scenarios exist; only one scenario is described here. &#10007;</li><li><strong>Choice C &mdash; 'Nevertheless,'</strong>: Signals contradiction or concession &mdash; the second sentence does not contradict the first. &#10007;</li><li><strong>Choice D &mdash; 'Earlier,'</strong>: Signals a shift back in time; both sentences describe the same fictional present. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "ac8eb085",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the blank must do",
+      "content": "Sentence 1 sets up a world where companies own and sell breathable air. Sentence 2 states that people must purchase it. The blank must connect a cause (companies selling air) to its direct consequence (people buying it)."
+    },
+    {
+      "title": "Eliminate each choice and pick the match",
+      "content": "<ul><li><strong>Choice A &mdash; As a result,</strong>: Signals that sentence 2 is the logical consequence of sentence 1 &mdash; exactly the cause-and-effect link needed. &#10003;</li><li><strong>Choice B &mdash; In any case,</strong>: Means &ldquo;no matter what the situation is,&rdquo; implying multiple scenarios exist; only one scenario is described here. &#10007;</li><li><strong>Choice C &mdash; Nevertheless,</strong>: Signals contradiction or concession &mdash; the second sentence does not contradict the first. &#10007;</li><li><strong>Choice D &mdash; Earlier,</strong>: Signals a shift back in time; both sentences describe the same fictional present. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

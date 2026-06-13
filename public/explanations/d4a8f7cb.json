@@ -1,1 +1,15 @@
-{"questionId":"d4a8f7cb","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question tests word choice precision. The decisive clue is the example: live performances featured videos of people sharing their stories and audience members sharing pictures of their hairstyles. The blank must describe people taking an active role in Zollar's creative process."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'nervous about'</strong>: describes an emotional state of anxiety; nothing in the text suggests people feel anxious about Zollar's creative process. &#10007;</li><li><strong>Choice B &mdash; 'completed by'</strong>: implies Zollar's process makes the audience whole or finished; the text instead shows the audience contributing to the process, not being completed by it. &#10007;</li><li><strong>Choice C &mdash; 'delayed by'</strong>: implies the audience obstructs or postpones Zollar's process; the text describes the opposite, with audiences actively participating. &#10007;</li><li><strong>Choice D &mdash; 'involved in'</strong>: means playing an active role in; precisely matches the example of audience members contributing stories and pictures to the performances. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "d4a8f7cb",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question tests word choice precision. The decisive clue is the example: live performances featured videos of people sharing their stories and audience members sharing pictures of their hairstyles. The blank must describe people taking an active role in Zollar's creative process."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"nervous about\"</strong>: describes an emotional state of anxiety; nothing in the text suggests people feel anxious about Zollar's creative process. &#10007;</li><li><strong>\"completed by\"</strong>: implies Zollar's process makes the audience whole or finished; the text instead shows the audience contributing to the process, not being completed by it. &#10007;</li><li><strong>\"delayed by\"</strong>: implies the audience obstructs or postpones Zollar's process; the text describes the opposite, with audiences actively participating. &#10007;</li><li><strong>\"involved in\"</strong>: means playing an active role in; precisely matches the example of audience members contributing stories and pictures to the performances. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

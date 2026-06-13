@@ -9,11 +9,11 @@
     },
     {
       "title": "Find the base a using the point (2, 32)",
-      "content": "Substitute the point $(2, 32)$ into $h(x) = a^x + b$ with $b = 7$:<br/>$$h(2) = a^2 + 7 = 32$$<br/>Solve for $a^2$:<br/>$$a^2 = 25$$<br/>Since $a > 0$, take the positive square root: $$a = 5$$"
+      "content": "Substitute the point $(2, 32)$ into $h(x) = a^x + b$ with $b = 7$:<br/>$$h(2) = a^2 + 7 = 32$$<br/>Solve for $a^2$:<br/>$$a^2 = 25$$<br/>Since $a \\gt  0$, take the positive square root: $$a = 5$$"
     },
     {
       "title": "Calculate ab",
-      "content": "With $a = 5$ and $b = 7$:<br/>$$ab = 5 \\cdot 7 = 35$$<br/>That matches choice B — <strong>B</strong> is correct."
+      "content": "With $a = 5$ and $b = 7$:<br/>$$ab = 5 \\cdot 7 = 35$$<br/>That matches <strong>Choice B &mdash; 35</strong>."
     }
   ]
 }

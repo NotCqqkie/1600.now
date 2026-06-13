@@ -1,1 +1,19 @@
-{"questionId": "ec3d7605", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Compare the two sentences", "content": "Sentence 1: McFerrin considers background research &quot;its own reward.&quot; Sentence 2: she admits finding research &quot;just as fascinating and engaging as exploring a location in person.&quot; The second sentence intensifies and confirms the first &mdash; same idea pushed further."}, {"title": "Decide what the transition must do", "content": "The blank needs a word that emphasizes or strengthens the prior claim, not contrasts with it, parallels a different subject, or simply tacks on extra info."}, {"title": "Eliminate per choice", "content": "<ul><li><strong>Choice A &mdash; 'By contrast,'</strong>: signals opposition, but sentence 2 reinforces sentence 1 rather than opposing it. &#10007;</li><li><strong>Choice B &mdash; 'Likewise,'</strong>: signals a parallel claim about a different subject, but both sentences are about the same person and the same research. &#10007;</li><li><strong>Choice C &mdash; 'Besides,'</strong>: signals an additional, separate point, but sentence 2 restates and intensifies sentence 1 rather than adding a new point. &#10007;</li><li><strong>Choice D &mdash; 'In fact,'</strong>: signals that what follows strengthens or confirms the prior claim, matching the intensification from &quot;its own reward&quot; to &quot;just as fascinating...as exploring in person.&quot; &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "ec3d7605",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the two sentences",
+      "content": "Sentence 1: McFerrin considers background research \"its own reward.\" Sentence 2: she admits finding research \"just as fascinating and engaging as exploring a location in person.\" The second sentence intensifies and confirms the first &mdash; same idea pushed further."
+    },
+    {
+      "title": "Decide what the transition must do",
+      "content": "The blank needs a word that emphasizes or strengthens the prior claim, not contrasts with it, parallels a different subject, or simply tacks on extra info."
+    },
+    {
+      "title": "Eliminate per choice",
+      "content": "<ul><li><strong>\"By contrast,\"</strong>: signals opposition, but sentence 2 reinforces sentence 1 rather than opposing it. &#10007;</li><li><strong>\"Likewise,\"</strong>: signals a parallel claim about a different subject, but both sentences are about the same person and the same research. &#10007;</li><li><strong>\"Besides,\"</strong>: signals an additional, separate point, but sentence 2 restates and intensifies sentence 1 rather than adding a new point. &#10007;</li><li><strong>\"In fact,\"</strong>: signals that what follows strengthens or confirms the prior claim, matching the intensification from \"its own reward\" to \"just as fascinating...as exploring in person.\" &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

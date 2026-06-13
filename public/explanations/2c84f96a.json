@@ -1,1 +1,15 @@
-{"questionId":"2c84f96a","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"This is a sentence boundary question. The blank falls between two independent clauses: &ldquo;In 2017 &hellip; <em>Nutcracker</em>&rdquo; and &ldquo;According to reviewers &hellip; Latin American culture.&rdquo; The correct choice must properly separate those two complete sentences without creating a run-on or comma splice."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;<em>Nutcracker</em> according,&rsquo;</strong>: Creates a run-on sentence by fusing two independent clauses with no boundary punctuation between them; the comma after &ldquo;according&rdquo; incorrectly splits the phrase &ldquo;according to reviewers.&rdquo; &#10007;</li><li><strong>Choice B &mdash; &lsquo;<em>Nutcracker</em>, according&rsquo;</strong>: Creates a comma splice. A comma alone cannot separate two independent clauses; a coordinating conjunction would also be needed. &#10007;</li><li><strong>Choice C &mdash; &lsquo;<em>Nutcracker</em> according&rsquo;</strong>: Creates a run-on sentence by fusing two independent clauses with no punctuation or conjunction at all. &#10007;</li><li><strong>Choice D &mdash; &lsquo;<em>Nutcracker</em>. According&rsquo;</strong>: Uses a period to correctly end the first independent clause and begin a new sentence. &ldquo;According to reviewers&rdquo; then functions as a properly placed introductory phrase for the second sentence. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "2c84f96a",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a sentence boundary question. The blank falls between two independent clauses: &ldquo;In 2017 &hellip; <em>Nutcracker</em>&rdquo; and &ldquo;According to reviewers &hellip; Latin American culture.&rdquo; The correct choice must properly separate those two complete sentences without creating a run-on or comma splice."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — <em>Nutcracker</em> according,</strong>: Creates a run-on sentence by fusing two independent clauses with no boundary punctuation between them; the comma after &ldquo;according&rdquo; incorrectly splits the phrase &ldquo;according to reviewers.&rdquo; &#10007;</li><li><strong>Choice B — <em>Nutcracker</em>, according</strong>: Creates a comma splice. A comma alone cannot separate two independent clauses; a coordinating conjunction would also be needed. &#10007;</li><li><strong>Choice C — <em>Nutcracker</em> according</strong>: Creates a run-on sentence by fusing two independent clauses with no punctuation or conjunction at all. &#10007;</li><li><strong>Choice D — <em>Nutcracker</em>. According</strong>: Uses a period to correctly end the first independent clause and begin a new sentence. &ldquo;According to reviewers&rdquo; then functions as a properly placed introductory phrase for the second sentence. &#10003;</li></ul><strong>D</strong> is correct."
+    }
+  ]
+}

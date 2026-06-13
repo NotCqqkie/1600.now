@@ -8,12 +8,12 @@
       "content": "All answer choices use $x=3$, $5$, and $7$. Compute the right side of $y\\lt6x+2$ for each value: $$6(3)+2=20$$ $$6(5)+2=32$$ $$6(7)+2=44.$$ The $y$-values must be less than $20$, $32$, and $44$, respectively."
     },
     {
-      "title": "Compare choice C to the boundary",
-      "content": "Choice C has $y$-values $16$, $28$, and $40$. These satisfy $$16\\lt20$$ $$28\\lt32$$ and $$40\\lt44.$$"
+      "title": "Compare the candidate to the boundary",
+      "content": "The correct table has $x$-values $3$, $5$, and $7$ paired with $y$-values $16$, $28$, and $40$. Each output is strictly below the matching cutoff: $16\\lt20$, $28\\lt32$, and $40\\lt44$."
     },
     {
       "title": "Eliminate the failed choices",
-      "content": "Choice A fails because it includes $y=20$ when $x=3$, and $20\\lt 20$ is false. Choice B fails because $36\\lt 32$ is false when $x=5$. Choice D fails because $24\\lt 20$ is false when $x=3$. So choice C is correct."
+      "content": "The boundary table with $y$-values $20$, $32$, and $44$ is not strictly below the cutoff. Another table fails because $36$ is above the allowed cutoff $32$, and the remaining table fails immediately at $(3,24)$. The table with all three $y$-values below their cutoffs is correct, so <strong>C</strong> is correct."
     }
   ]
 }

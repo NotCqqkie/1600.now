@@ -1,1 +1,15 @@
-{"questionId": "e26dd9f3-3dbe-49b6-afbf-43a483d231ba_1", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The question asks what both &quot;carves&quot; and &quot;leaves&quot; mean in context. Gogol carves his name into clay and leaves his signature in brush strokes &mdash; both actions create a lasting visible impression. The correct word must fit naturally in both slots."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'marks'</strong>: means makes a visible sign or impression on a surface. &quot;He marks his name into clay&quot; and &quot;marks his signature in fat brush strokes&quot; &mdash; both fit perfectly. &#10003;</li><li><strong>Choice B &mdash; 'passes'</strong>: means moves by or transfers something. Gogol is not moving past the clay or handing off the paintings &mdash; he is creating impressions on them. &#10007;</li><li><strong>Choice C &mdash; 'turns'</strong>: means rotates or changes direction. Neither carving a name nor brushing a signature involves turning anything. &#10007;</li><li><strong>Choice D &mdash; 'follows'</strong>: means goes after something or traces a pre-existing path. Gogol is originating the marks himself, not following anything set by someone else. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "e26dd9f3-3dbe-49b6-afbf-43a483d231ba_1",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks what both \"carves\" and \"leaves\" mean in context. Gogol carves his name into clay and leaves his signature in brush strokes &mdash; both actions create a lasting visible impression. The correct word must fit naturally in both slots."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"Marks\"</strong>: means makes a visible sign or impression on a surface. \"He marks his name into clay\" and \"marks his signature in fat brush strokes\" &mdash; both fit perfectly. &#10003;</li><li><strong>\"Passes\"</strong>: means moves by or transfers something. Gogol is not moving past the clay or handing off the paintings &mdash; he is creating impressions on them. &#10007;</li><li><strong>\"Turns\"</strong>: means rotates or changes direction. Neither carving a name nor brushing a signature involves turning anything. &#10007;</li><li><strong>\"Follows\"</strong>: means goes after something or traces a pre-existing path. Gogol is originating the marks himself, not following anything set by someone else. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+    }
+  ]
+}

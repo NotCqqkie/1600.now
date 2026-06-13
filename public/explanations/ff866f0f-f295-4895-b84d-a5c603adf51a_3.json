@@ -1,1 +1,15 @@
-{"questionId":"ff866f0f-f295-4895-b84d-a5c603adf51a_3","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage says romantic paintings <em>&quot;______ their subjects&apos; beauty or heroism while hiding all imperfection.&quot;</em> The contrast with realism (which portrays experiences accurately) and the phrase &apos;while hiding all imperfection&apos; indicate the blank must describe actively emphasizing or highlighting positive qualities."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'counteract'</strong>: To counteract means to work against something. But romantic painters were not working against beauty or heroism &mdash; they were promoting those qualities. &#10007;</li><li><strong>Choice B &mdash; 'accentuate'</strong>: To accentuate means to emphasize or make more prominent. Romantics accentuated beauty and heroism while concealing flaws &mdash; exactly the contrast the passage describes. &#10003;</li><li><strong>Choice C &mdash; 'rectify'</strong>: To rectify means to correct a mistake or error. Beauty and heroism are not errors to be corrected. &#10007;</li><li><strong>Choice D &mdash; 'obscure'</strong>: To obscure means to hide or conceal. But &apos;hiding&apos; already appears in the same clause for imperfection &mdash; using obscure for beauty and heroism would mean the painters were hiding those qualities too, which contradicts the passage. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "ff866f0f-f295-4895-b84d-a5c603adf51a_3",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage says romantic paintings <em>\"______ their subjects' beauty or heroism while hiding all imperfection.\"</em> The contrast with realism (which portrays experiences accurately) and the phrase 'while hiding all imperfection' indicate the blank must describe actively emphasizing or highlighting positive qualities."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"counteract\"</strong>: To counteract means to work against something. But romantic painters were not working against beauty or heroism &mdash; they were promoting those qualities. &#10007;</li><li><strong>\"accentuate\"</strong>: To accentuate means to emphasize or make more prominent. Romantics accentuated beauty and heroism while concealing flaws &mdash; exactly the contrast the passage describes. &#10003;</li><li><strong>\"rectify\"</strong>: To rectify means to correct a mistake or error. Beauty and heroism are not errors to be corrected. &#10007;</li><li><strong>\"obscure\"</strong>: To obscure means to hide or conceal. But 'hiding' already appears in the same clause for imperfection &mdash; using obscure for beauty and heroism would mean the painters were hiding those qualities too, which contradicts the passage. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+    }
+  ]
+}

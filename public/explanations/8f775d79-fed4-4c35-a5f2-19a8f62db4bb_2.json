@@ -9,11 +9,11 @@
     },
     {
       "title": "Count the solutions",
-      "content": "There are zero real solutions. That matches choice <strong>A</strong> — <strong>A</strong> is correct."
+      "content": "There are zero real solutions. That confirms <strong>A</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice A, Zero. The other choices do not satisfy the same condition from the question, so <strong>A</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches the correct answer, Zero. The other choices do not satisfy the same condition from the question, so <strong>A</strong> is correct."
     }
   ]
 }

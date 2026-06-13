@@ -9,7 +9,7 @@
     },
     {
       "title": "Use the points directly",
-      "content": "Use the table points directly. From $(0,12)$ to $(1,14)$, the slope is $m=\\frac{14-12}{1-0}=2.$ Substituting a point into $y=mx+b$ gives $b=12$. This matches choice D &mdash; <strong>D</strong> is correct.",
+      "content": "Use the table points directly. From $(0,12)$ to $(1,14)$, the slope is $m=\\frac{14-12}{1-0}=2.$ Substituting a point into $y=mx+b$ gives $b=12$. That confirms <strong>D</strong> is correct.",
       "desmosExpressions": [
         "x_1=[0,1]",
         "y_1=[12,14]"

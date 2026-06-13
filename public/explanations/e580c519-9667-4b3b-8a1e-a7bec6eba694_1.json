@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The blank completes: &quot;the Shatt al-Arab River delta is ______.&quot; The colon after the blank signals that what follows defines the blank word. That definition: &quot;a constantly evolving network of channels and strips of land that change in size and shape.&quot; The word must mean something like <em>constantly changing</em>."
+      "content": "The blank completes: \"the Shatt al-Arab River delta is ______.\" The colon after the blank signals that what follows defines the blank word. That definition: \"a constantly evolving network of channels and strips of land that change in size and shape.\" The word must mean something like <em>constantly changing</em>."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; &apos;dynamic&apos;</strong>: means characterized by constant change and activity. &quot;The delta is dynamic&quot; matches &quot;constantly evolving&quot; and &quot;change in size and shape&quot; exactly. &#10003;</li><li><strong>Choice B &mdash; &apos;immutable&apos;</strong>: means unchanging, permanent. Directly contradicts the passage&apos;s statement that the delta changes constantly. &#10007;</li><li><strong>Choice C &mdash; &apos;unrivaled&apos;</strong>: means having no equal. The passage makes no comparison between this delta and others &mdash; it says nothing about the delta being superior. &#10007;</li><li><strong>Choice D &mdash; &apos;sustainable&apos;</strong>: means able to be maintained over time. The passage describes ongoing transformation, not long-term viability. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li><strong>\"dynamic\"</strong>: means characterized by constant change and activity. \"The delta is dynamic\" matches \"constantly evolving\" and \"change in size and shape\" exactly. &#10003;</li><li><strong>\"immutable\"</strong>: means unchanging, permanent. Directly contradicts the passage's statement that the delta changes constantly. &#10007;</li><li><strong>\"unrivaled\"</strong>: means having no equal. The passage makes no comparison between this delta and others &mdash; it says nothing about the delta being superior. &#10007;</li><li><strong>\"sustainable\"</strong>: means able to be maintained over time. The passage describes ongoing transformation, not long-term viability. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
     }
   ]
 }

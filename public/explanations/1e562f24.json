@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate all four choices",
-      "content": "<ul><li><strong>Choice A &mdash; 'It is plausible that the proportion is between 0.45 and 0.53.'</strong>: This exactly describes the interval. &#10003;</li><li><strong>Choice B &mdash; 'It is plausible that the proportion is less than 0.45.'</strong>: Values below 0.45 are outside the interval. &#10007;</li><li><strong>Choice C &mdash; 'The proportion is exactly 0.49.'</strong>: 0.49 is the point estimate, not guaranteed to be the true population proportion. &#10007;</li><li><strong>Choice D &mdash; 'It is plausible that the proportion is greater than 0.53.'</strong>: Values above 0.53 are outside the interval. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; It is plausible that the proportion is between $0.45$ and $0.53$.</strong>: This exactly describes the interval. &#10003;</li><li><strong>Choice B &mdash; It is plausible that the proportion is less than $0.45$.</strong>: Values below 0.45 are outside the interval. &#10007;</li><li><strong>Choice C &mdash; The proportion is exactly $0.49$.</strong>: 0.49 is the point estimate, not guaranteed to be the true population proportion. &#10007;</li><li><strong>Choice D &mdash; It is plausible that the proportion is greater than $0.53$.</strong>: Values above 0.53 are outside the interval. &#10007;</li></ul>That matches <strong>Choice A &mdash; It is plausible that the proportion is between $0.45$ and $0.53$.</strong>."
     }
   ]
 }

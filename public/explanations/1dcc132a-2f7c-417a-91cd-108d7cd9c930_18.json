@@ -13,7 +13,7 @@
     },
     {
       "title": "Identify the choice",
-      "content": "The rewritten form $\\frac{1}{1024} \\cdot \\left(\\frac{1}{4}\\right)^{5x}$ displays the y-intercept, $\\frac{1}{1024}$, as the coefficient. That matches choice A, so <strong>A</strong> is correct."
+      "content": "The rewritten form $\\frac{1}{1024} \\cdot \\left(\\frac{1}{4}\\right)^{5x}$ displays the y-intercept, $\\frac{1}{1024}$, as the coefficient. That matches <strong>Choice A &mdash; $f(x)=\\frac{1}{1,024}(\\frac{1}{4})^{5x}$</strong>, so <strong>A</strong>."
     }
   ]
 }

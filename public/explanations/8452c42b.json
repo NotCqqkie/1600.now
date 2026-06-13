@@ -9,7 +9,7 @@
     },
     {
       "title": "Test each choice",
-      "content": "<ul><li><strong>A)</strong> $250x^2$: would come from multiplying $50 \\times 5$, not adding. Eliminate.</li><li><strong>B)</strong> $10x^2$: would come from $50/5$, not addition. Eliminate.</li><li><strong>C)</strong> $45x^2$: would come from $50-5$, not addition. Eliminate.</li><li><strong>D)</strong> $55x^2$: equals $50+5=55$ times $x^2$. &check;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "content": "<ul><li><strong>A)</strong> $250x^2$: would come from multiplying $50 \\times 5$, not adding. Eliminate.</li><li><strong>B)</strong> $10x^2$: would come from $50/5$, not addition. Eliminate.</li><li><strong>C)</strong> $45x^2$: would come from $50-5$, not addition. Eliminate.</li><li><strong>D)</strong> $55x^2$: equals $50+5=55$ times $x^2$. &check;</li></ul>That confirms <strong>D</strong> is correct."
     }
   ]
 }

@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the Pythagorean theorem to the right triangle",
-      "content": "Point $B$ also lies on the circle, so $CB = \\sqrt{103}$ (the same radius). Since $\\angle ACB$ is a right angle, triangle $ACB$ is a right triangle with legs $CA$ and $CB$.<br/><br/>By the Pythagorean theorem:<br/>$$AB^2 = (\\sqrt{103})^2 + (\\sqrt{103})^2 = 206$$<br/>$$AB = \\sqrt{206}$$<br/>That matches choice A — <strong>A</strong> is correct."
+      "content": "Point $B$ also lies on the circle, so $CB = \\sqrt{103}$ (the same radius). Since $\\angle ACB$ is a right angle, triangle $ACB$ is a right triangle with legs $CA$ and $CB$.<br/><br/>By the Pythagorean theorem:<br/>$$AB^2 = (\\sqrt{103})^2 + (\\sqrt{103})^2 = 206$$<br/>$$AB = \\sqrt{206}$$<br/>That matches <strong>Choice A &mdash; $\\sqrt{206}$</strong>."
     }
   ]
 }

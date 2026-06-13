@@ -1,1 +1,15 @@
-{"questionId": "3ea7372e", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the Goal's Requirement", "content": "The student wants to <strong>“emphasize a difference”</strong>—this requires explicit comparison language, not just facts."}, {"title": "Apply to the Choices", "content": "B accomplishes this with <strong>“Unlike traditional biennials,”</strong> directly establishing the contrast before stating the key differences: different venues and an uneven schedule.<br/><br/>Choices A, C, and D either present isolated facts without contrasting (A), define the term through negation (C), or obscure the distinction (D).<br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "3ea7372e",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the Goal's Requirement",
+      "content": "The student wants to <strong>“emphasize a difference”</strong>—this requires explicit comparison language, not just facts."
+    },
+    {
+      "title": "Apply to the Choices",
+      "content": "B accomplishes this with <strong>“Unlike traditional biennials,”</strong> directly establishing the contrast before stating the key differences: different venues and an uneven schedule.<br/><br/>The other choices either present isolated facts without contrasting (A), define the term through negation (C), or obscure the distinction (D).<br/><strong>B</strong> is correct."
+    }
+  ]
+}

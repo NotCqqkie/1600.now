@@ -1,1 +1,15 @@
-{"questionId": "d0198544", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the evidence shift", "content": "Text 2 confirms the Polynesian origin claim yet signals a critical evolution in the evidence.<br/><br/>Storey's unique genetic mutation—the original basis—was weakened (shown to occur worldwide), but Luzuriaga-Neira's discovery of different genetic markers shared only by South American and Polynesian breeds now provides stronger support for the same conclusion."}, {"title": "Match to the answer's logic", "content": "D captures this response: Luzuriaga-Neira's evidence is stronger and more decisive than Storey's original mutation evidence.<br/><br/>The others either misread what the claim says (B suggests it denies reverse transfer; C assumes European genetic uniformity) or falsely attribute disagreement Text 2 doesn't express (A claims it disputes the timeline).<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "d0198544",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the evidence shift",
+      "content": "Text 2 confirms the Polynesian origin claim yet signals a critical evolution in the evidence.<br/><br/>Storey's unique genetic mutation—the original basis—was weakened (shown to occur worldwide), but Luzuriaga-Neira's discovery of different genetic markers shared only by South American and Polynesian breeds now provides stronger support for the same conclusion."
+    },
+    {
+      "title": "Match to the answer's logic",
+      "content": "D captures this response: Luzuriaga-Neira's evidence is stronger and more decisive than Storey's original mutation evidence.<br/><br/>The others either misread what the claim says (B suggests it denies reverse transfer; C assumes European genetic uniformity) or falsely attribute disagreement Text 2 doesn't express (A claims it disputes the timeline).<br/><br/>That is the correct answer."
+    }
+  ]
+}

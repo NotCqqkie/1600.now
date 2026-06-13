@@ -1,1 +1,28 @@
-{"questionId":"6197d48e-7c76-4333-af39-0b9aa39e924c_7","correctAnswer":"D","section":"Math","steps":[{"title":"Identify slope direction","content":"The scatterplot trends downward: $y$ falls from about $10$ near $x=0$ to about $2$ near $x=10$. This rules out the positive-slope choices A ($y=0.8+8.5x$) and C ($y=8.5+0.8x$)."},{"title":"Compare the two negative-slope choices","content":"The Desmos expressions below recreate representative points from the scatterplot and overlay choice D's line to check the fit.<ul><li><strong>Choice B</strong> $y = 0.8 - 8.5x$: $y$-intercept $0.8$ is far below the observed value near $10$, and slope $-8.5$ would drop $y$ by $85$ units across $0 \\le x \\le 10$. &#10007;</li><li><strong>Choice D</strong> $y = 8.5 - 0.8x$: $y$-intercept $8.5$ is close to the data near $x=0$, and slope $-0.8$ predicts a drop of $8$ units across the visible $x$-range, matching the trend. &#10003;</li></ul>That matches choice D — <strong>D</strong> is correct.","desmosExpressions":["(0,10)","(1.2,7)","(2.3,6)","(3,5)","(4.7,4)","(5.3,6)","(6.5,4)","(7.2,3)","(8.7,1)","(9.7,2)","y = 8.5 - 0.8x"]}]}
+{
+  "questionId": "6197d48e-7c76-4333-af39-0b9aa39e924c_7",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify slope direction",
+      "content": "The scatterplot trends downward: $y$ falls from about $10$ near $x=0$ to about $2$ near $x=10$. This rules out the positive-slope the other choices ($y=0.8+8.5x$) and C ($y=8.5+0.8x$)."
+    },
+    {
+      "title": "Compare the two negative-slope choices",
+      "content": "The Desmos expressions below recreate representative points from the scatterplot and overlay choice D's line to check the fit.<ul><li><strong>Choice B &mdash; &lsquo;$y=0.8-8.5x$&rsquo;</strong> $y = 0.8 - 8.5x$: $y$-intercept $0.8$ is far below the observed value near $10$, and slope $-8.5$ would drop $y$ by $85$ units across $0 \\le x \\le 10$. &#10007;</li><li><strong>Choice D &mdash; &lsquo;$y=8.5-0.8x$&rsquo;</strong> $y = 8.5 - 0.8x$: $y$-intercept $8.5$ is close to the data near $x=0$, and slope $-0.8$ predicts a drop of $8$ units across the visible $x$-range, matching the trend. &#10003;</li></ul>That confirms <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "(0,10)",
+        "(1.2,7)",
+        "(2.3,6)",
+        "(3,5)",
+        "(4.7,4)",
+        "(5.3,6)",
+        "(6.5,4)",
+        "(7.2,3)",
+        "(8.7,1)",
+        "(9.7,2)",
+        "y = 8.5 - 0.8x"
+      ]
+    }
+  ]
+}

@@ -38,7 +38,7 @@
     "difficulty": "Medium",
     "question_number": 2,
     "test_name": "Module Source 133 Eng M2",
-    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nWriter Lydia Davis observed that while traditional literary forms, such as the poem, are recognizable as such even as they evolve, there are more ______ forms that might, for example, borrow elements from both fables and realist narratives to make something unconventional. Davis’s own very short literary pieces arguably fit in this category, since they straddle the line between prose and poetry.",
+    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nWriter Lydia Davis observed that while traditional literary forms, such as the poem, are recognizable as such even as they evolve, there are more ______ forms that might, for example, borrow elements from both fables and realist narratives to make something unconventional. Davis's own very short literary pieces arguably fit in this category, since they straddle the line between prose and poetry.",
     "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
     "choices": [
       {
@@ -198,8 +198,8 @@
     "difficulty": "Medium",
     "question_number": 7,
     "test_name": "Module Source 133 Eng M2",
-    "passage": "Based on the texts, both the author of Text 1 and the author of Text 2 would most likely agree with which statement about scholarship on works from the modernist period in Britain and Ireland?\nText 1\nScholarship today overrepresents experimentally fragmented narrative structures, such as that of Flann O’Brien's *At Swim-Two-Birds*, beyond the degree to which they actually influenced fiction in Britain and Ireland during the modernist period (roughly 1900-1945). Meanwhile, Elizabeth Bowen's *The Last September*, whose coherent, linear narrative structure recalls the fiction of previous centuries, attracts woefully little attention from scholars of modernism.\nText 2\nDistant reading, or computer-assisted quantitative analysis of massive collections of digitized texts, can reveal stylistic elements that have heretofore escaped notice, despite being shared by numerous texts from the modernist period. For too long, scholars have focused on narrative fragmentation versus coherence, inhibiting inquiry into other points of stylistic correspondence among works that would enrich our understanding of the modernist canon.",
-    "question_text": "Based on the texts, both the author of Text 1 and the author of Text 2 would most likely agree with which statement about scholarship on works from the modernist period in Britain and Ireland?",
+    "passage": "Based on the texts, both the author of Text 1 and the author of Text 2 would most likely agree with which statement about scholarship on works from the modernist period in Britain and Ireland?\nText 1\nScholarship today overrepresents experimentally fragmented narrative structures, such as that of Flann O\"Brien's *At Swim-Two-Birds*, beyond the degree to which they actually influenced fiction in Britain and Ireland during the modernist period (roughly 1900-1945). Meanwhile, Elizabeth Bowen's *The Last September*, whose coherent, linear narrative structure recalls the fiction of previous centuries, attracts woefully little attention from scholars of modernism.\nText 2\nDistant reading, or computer-assisted quantitative analysis of massive collections of digitized texts, can reveal stylistic elements that have heretofore escaped notice, despite being shared by numerous texts from the modernist period. For too long, scholars have focused on narrative fragmentation versus coherence, inhibiting inquiry into other points of stylistic correspondence among works that would enrich our understanding of the modernist canon.",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -500,7 +500,7 @@
     "difficulty": "Medium",
     "question_number": 16,
     "test_name": "Module Source 133 Eng M2",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nEach year, the Nobel Prize in Literature is given to an author who has, in the words of its founder Alfred Nobel, \"produced the most outstanding work in an idealistic ______ in 1909, for instance, judges recognized Selma Ottilia Lovisa Lagerlöf “[for] the lofty idealism, vivid imagination and spiritual perception that characterize her writings.”",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nEach year, the Nobel Prize in Literature is given to an author who has, in the words of its founder Alfred Nobel, \"produced the most outstanding work in an idealistic ______ in 1909, for instance, judges recognized Selma Ottilia Lovisa Lagerlöf \"[for] the lofty idealism, vivid imagination and spiritual perception that characterize her writings.\"",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {
@@ -788,7 +788,7 @@
     "difficulty": "Hard",
     "question_number": 25,
     "test_name": "Module Source 133 Eng M2",
-    "passage": "The student wants to contrast the subject matter of the two prints. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• *Hyde Park* is a 1931 color linocut print by Canadian artist Sybil Andrews.\n• It depicts a tranquil, everyday scene (a spring day in a city park).\n• *Amanzi Amthatha* (“The cold water takes him\") is a 2001 black-and-white linocut print by South African artist Nomathemba Tana.\n• It features a scene with an explicitly political point of view (a Xhosa warrior fighting British colonial rule).\n• Relief printing is a technique in which an image is carved onto a printing block, covered in ink or paint, and stamped onto paper.\n• Linocutting is a type of relief printing that uses linoleum tile as the printing block.",
+    "passage": "The student wants to contrast the subject matter of the two prints. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• *Hyde Park* is a 1931 color linocut print by Canadian artist Sybil Andrews.\n• It depicts a tranquil, everyday scene (a spring day in a city park).\n• *Amanzi Amthatha* (\"The cold water takes him\") is a 2001 black-and-white linocut print by South African artist Nomathemba Tana.\n• It features a scene with an explicitly political point of view (a Xhosa warrior fighting British colonial rule).\n• Relief printing is a technique in which an image is carved onto a printing block, covered in ink or paint, and stamped onto paper.\n• Linocutting is a type of relief printing that uses linoleum tile as the printing block.",
     "question_text": "The student wants to contrast the subject matter of the two prints. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
     "choices": [
       {

@@ -9,11 +9,11 @@
     },
     {
       "title": "Check squared deviations",
-      "content": "For choice D, $46,47,47,47,48$ has deviations $-1,0,0,0,1$, so the sum of squared deviations is $$1+0+0+0+1=2$$ The other choices include values farther from $47$, so their sums of squared deviations are larger."
+      "content": "For $46,47,47,47,48$ has deviations $-1,0,0,0,1$, so the sum of squared deviations is $$1+0+0+0+1=2$$ The other choices include values farther from $47$, so their sums of squared deviations are larger."
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice D has the least spread and therefore the smallest standard deviation. <strong>D</strong> is correct."
+      "content": "<strong>46, 47, 47, 47, 48</strong> has the least spread and therefore the smallest standard deviation. <strong>D</strong> is correct."
     }
   ]
 }

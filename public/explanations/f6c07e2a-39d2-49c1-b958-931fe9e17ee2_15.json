@@ -9,7 +9,7 @@
     },
     {
       "title": "Compare the horizontal line to the parabola",
-      "content": "The horizontal line $y = 23$ is above the parabola's maximum value of $20$ (since $23 > 20$). A horizontal line positioned above a downward-opening parabola cannot intersect it. Therefore, there are zero intersection points. That matches choice D — <strong>D</strong> is correct.",
+      "content": "The horizontal line $y = 23$ is above the parabola's maximum value of $20$ (since $23 \\gt  20$). A horizontal line positioned above a downward-opening parabola cannot intersect it. Therefore, there are zero intersection points. That matches the correct answer — <strong>D</strong> is correct.",
       "desmosExpressions": [
         "y = 23",
         "y = -3(x - 23)^{2} + 20"

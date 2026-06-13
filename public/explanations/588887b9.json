@@ -1,1 +1,15 @@
-{"questionId": "588887b9", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the time relationship", "content": "The main clause says Faure's design increased the electricity the battery could hold &mdash; a past-tense action. The relative clause describes what Gaston Plant&eacute; did to that battery <em>fifteen years earlier</em>. The blank must show an action completed before another past action, which requires the past perfect (had + past participle)."}, {"title": "Eliminate wrong choices and confirm the answer", "content": "Check each choice against the past-perfect requirement:\n<ul>\n<li><strong>Choice A &mdash; 'is inventing'</strong>: Present progressive; describes an action happening right now, not fifteen years before a past event. &#10007;</li>\n<li><strong>Choice B &mdash; 'will invent'</strong>: Simple future; describes an action that has not yet occurred, contradicting the fifteen-years-earlier context. &#10007;</li>\n<li><strong>Choice C &mdash; 'invents'</strong>: Simple present; describes a current or habitual action, not a completed past action. &#10007;</li>\n<li><strong>Choice D &mdash; 'had invented'</strong>: Past perfect; correctly shows an action (Plant&eacute;'s invention) completed before the main clause's past action (Faure's improvement). &#10003;</li>\n</ul>\nThat matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "588887b9",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the time relationship",
+      "content": "The main clause says Faure's design increased the electricity the battery could hold &mdash; a past-tense action. The relative clause describes what Gaston Plant&eacute; did to that battery <em>fifteen years earlier</em>. The blank must show an action completed before another past action, which requires the past perfect (had + past participle)."
+    },
+    {
+      "title": "Eliminate wrong choices and confirm the answer",
+      "content": "Check each choice against the past-perfect requirement:\n<ul>\n<li><strong>Choice A — is inventing</strong>: Present progressive; describes an action happening right now, not fifteen years before a past event. &#10007;</li>\n<li><strong>Choice B — will invent</strong>: Simple future; describes an action that has not yet occurred, contradicting the fifteen-years-earlier context. &#10007;</li>\n<li><strong>Choice C — invents</strong>: Simple present; describes a current or habitual action, not a completed past action. &#10007;</li>\n<li><strong>Choice D — had invented</strong>: Past perfect; correctly shows an action (Plant&eacute;'s invention) completed before the main clause's past action (Faure's improvement). &#10003;</li>\n</ul>\n<strong>D</strong> is correct."
+    }
+  ]
+}

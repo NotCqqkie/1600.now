@@ -1,1 +1,15 @@
-{"questionId":"700687e2-e094-4a0d-b5c9-12227f01dbff_3","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank describes the beads' presence across many MSA sites in western North Africa. The passage attributes this pattern to two causes: the evolution of symbolic behavior (motivation to make ornaments) and widespread shell availability (raw material). The word must describe what those two causes together produce."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'antiquity'</strong>: means great age. The passage discusses age but doesn't invoke it as something caused by those two factors. &#10007;</li><li><strong>Choice B &mdash; 'intricacy'</strong>: means complexity or detail. The passage doesn't describe the beads as intricate. &#10007;</li><li><strong>Choice C &mdash; 'ubiquity'</strong>: means widespread presence. Symbolic behavior evolution + shell availability across the region naturally produce ubiquity — beads everywhere. &#10003;</li><li><strong>Choice D &mdash; 'durability'</strong>: means long-lasting. Nothing in the passage attributes the beads' survival to those two causes. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "700687e2-e094-4a0d-b5c9-12227f01dbff_3",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank describes the beads' presence across many MSA sites in western North Africa. The passage attributes this pattern to two causes: the evolution of symbolic behavior (motivation to make ornaments) and widespread shell availability (raw material). The word must describe what those two causes together produce."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;expediency&rsquo;</strong>: means great age. The passage discusses age but doesn't invoke it as something caused by those two factors. &#10007;</li><li><strong>Choice B &mdash; &lsquo;fecundity&rsquo;</strong>: means complexity or detail. The passage doesn't describe the beads as intricate. &#10007;</li><li><strong>Choice C &mdash; &lsquo;ubiquity&rsquo;</strong>: means widespread presence. Symbolic behavior evolution + shell availability across the region naturally produce ubiquity — beads everywhere. &#10003;</li><li><strong>Choice D &mdash; &lsquo;heterogeneity&rsquo;</strong>: means long-lasting. Nothing in the passage attributes the beads' survival to those two causes. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

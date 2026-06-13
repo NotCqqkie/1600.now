@@ -9,7 +9,7 @@
     },
     {
       "title": "Solve for b",
-      "content": "Subtract the first equation from the second: $28-32=(2m+b)-(m+b)$, so $m=-4$. Substitute into $32=m+b$: $$32=-4+b,$$ so $$b=36.$$ The question asks for the value of $b$, so choice <strong>D</strong> is correct."
+      "content": "Subtract the first equation from the second: $28-32=(2m+b)-(m+b)$, so $m=-4$. Substitute into $32=m+b$: $$32=-4+b,$$ so $$b=36.$$ The question asks for the value of $b$, so <strong>Choice D &mdash; $36$</strong>."
     }
   ]
 }

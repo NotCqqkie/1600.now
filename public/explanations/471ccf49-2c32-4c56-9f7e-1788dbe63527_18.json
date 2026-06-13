@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Recognize complementary angles in the right triangle",
-      "content": "Since angle J is the right angle (90°), the other two angles K and L must be complementary: <br/>$$K + L = 90°$$<br/>This means $L = 90° - K$."
+      "content": "Since angle J is the right angle ($90^{\\circ}$), the other two angles K and L must be complementary: <br/>$$K + L = 90^{\\circ}$$<br/>This means $L = 90^{\\circ} - K$."
     },
     {
       "title": "Apply the cofunction identity",
-      "content": "When two angles are complementary, their sine and cosine are cofunctions:<br/>$$\\cos(L) = \\cos(90° - K) = \\sin(K)$$<br/>So we need to find $\\sin(K)$."
+      "content": "When two angles are complementary, their sine and cosine are cofunctions:<br/>$$\\cos(L) = \\cos(90^{\\circ} - K) = \\sin(K)$$<br/>So we need to find $\\sin(K)$."
     },
     {
       "title": "Use the Pythagorean identity to find sin(K)",

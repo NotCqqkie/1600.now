@@ -1,1 +1,15 @@
-{"questionId": "aad56f2b", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the key signal in the passage", "content": "The passage says Klein created images with elements &ldquo;generally seen as flaws&rdquo; &mdash; deliberate rule-breaking. It also calls his work &ldquo;so unorthodox&rdquo; that publishers rejected it. We need a word meaning he deliberately broke from conventions."}, {"title": "Eliminate wrong choices and confirm the answer", "content": "<ul><li><strong>Choice A &mdash; &lsquo;reviewed&rsquo;</strong>: &ldquo;Reviewed&rdquo; means analyzed or evaluated. Klein didn&rsquo;t examine photography&rsquo;s conventions &mdash; he broke them. &#10007;</li><li><strong>Choice B &mdash; &lsquo;defied&rsquo;</strong>: &ldquo;Defied&rdquo; means deliberately resisted or disobeyed. This fits Klein&rsquo;s intentional use of elements considered flaws. &#10003;</li><li><strong>Choice C &mdash; &lsquo;respected&rsquo;</strong>: &ldquo;Respected&rdquo; means admired or followed. Klein clearly did the opposite, using features deemed flaws. &#10007;</li><li><strong>Choice D &mdash; &lsquo;prevented&rsquo;</strong>: &ldquo;Prevented&rdquo; means stopped. Klein didn&rsquo;t stop conventions from existing &mdash; he simply ignored them. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "aad56f2b",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal in the passage",
+      "content": "The passage says Klein created images with elements &ldquo;generally seen as flaws&rdquo; &mdash; deliberate rule-breaking. It also calls his work &ldquo;so unorthodox&rdquo; that publishers rejected it. We need a word meaning he deliberately broke from conventions."
+    },
+    {
+      "title": "Eliminate wrong choices and confirm the answer",
+      "content": "<ul><li><strong>Choice A &mdash; reviewed</strong>: &ldquo;Reviewed&rdquo; means analyzed or evaluated. Klein didn&rsquo;t examine photography&rsquo;s conventions &mdash; he broke them. &#10007;</li><li><strong>Choice B &mdash; defied</strong>: &ldquo;Defied&rdquo; means deliberately resisted or disobeyed. This fits Klein&rsquo;s intentional use of elements considered flaws. &#10003;</li><li><strong>Choice C &mdash; respected</strong>: &ldquo;Respected&rdquo; means admired or followed. Klein clearly did the opposite, using features deemed flaws. &#10007;</li><li><strong>Choice D &mdash; prevented</strong>: &ldquo;Prevented&rdquo; means stopped. Klein didn&rsquo;t stop conventions from existing &mdash; he simply ignored them. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

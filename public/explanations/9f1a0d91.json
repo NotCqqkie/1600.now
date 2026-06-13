@@ -1,1 +1,15 @@
-{"questionId":"9f1a0d91","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"This is a transitions question. The previous sentence states that recent research shows tulip mania was &quot;neither as frenzied nor as disastrous as has been thought.&quot; The blank introduces the conclusion that the popular myth should be viewed skeptically &mdash; a direct result of that research finding."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;for example,&rsquo;</strong>: Signals that this sentence illustrates the previous one. But skepticism about the myth is not an example of the research &mdash; it is a consequence of it. &#10007;</li><li><strong>Choice B &mdash; &lsquo;by contrast,&rsquo;</strong>: Signals opposition between two ideas. This sentence does not oppose the previous sentence; it follows from it. &#10007;</li><li><strong>Choice C &mdash; &lsquo;nevertheless,&rsquo;</strong>: Signals that something is true despite an obstacle. Nothing here is concessive &mdash; the skepticism flows directly from the research. &#10007;</li><li><strong>Choice D &mdash; &lsquo;therefore,&rsquo;</strong>: Signals a cause-and-effect relationship. Because research contradicts the myth, the myth deserves skepticism. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "9f1a0d91",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a transitions question. The previous sentence states that recent research shows tulip mania was &quot;neither as frenzied nor as disastrous as has been thought.&quot; The blank introduces the conclusion that the popular myth should be viewed skeptically &mdash; a direct result of that research finding."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; for example,</strong>: Signals that this sentence illustrates the previous one. But skepticism about the myth is not an example of the research &mdash; it is a consequence of it. &#10007;</li><li><strong>Choice B &mdash; by contrast,</strong>: Signals opposition between two ideas. This sentence does not oppose the previous sentence; it follows from it. &#10007;</li><li><strong>Choice C &mdash; nevertheless,</strong>: Signals that something is true despite an obstacle. Nothing here is concessive &mdash; the skepticism flows directly from the research. &#10007;</li><li><strong>Choice D &mdash; therefore,</strong>: Signals a cause-and-effect relationship. Because research contradicts the myth, the myth deserves skepticism. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

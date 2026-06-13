@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Spot the contrast signal",
-      "content": "The word \u201cBut\u201d and phrase \u201cnot all flying birds are so light\u201d signal that the passage needs a counterexample\u2014a flying bird that weighs significantly more than the \u201cless than a kilogram\u201d baseline established earlier."
+      "content": "The word “But” and phrase “not all flying birds are so light” signal that the passage needs a counterexample—a flying bird that weighs significantly more than the “less than a kilogram” baseline established earlier."
     },
     {
       "title": "Apply the signal to the choices",
-      "content": "The Dalmatian pelican qualifies: it's capable of flight and weighs 11.5 kg, directly supporting the \u201cnot all flying birds are so light\u201d claim. A and C use a non-flying bird; B misrepresents the condor's weight. That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "The Dalmatian pelican qualifies: it's capable of flight and weighs 11.5 kg, directly supporting the “not all flying birds are so light” claim. A and C use a non-flying bird; B misrepresents the condor's weight. That confirms <strong>D</strong> is correct."
     }
   ]
 }

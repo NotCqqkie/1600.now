@@ -1,1 +1,15 @@
-{"questionId":"65933baf-7287-4c7d-a62b-3e57c00f4a9e_12","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage claims most home lands are much smaller than the nearly-100-square-mile maximum, then gives Kalamaula (7.95 sq mi) as the first example. The blank must give Makuu&apos;s total area from the table &mdash; and that value must also be small to support the claim."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; '3.44 square miles.'</strong>: The table lists Makuu at 3.44 square miles &mdash; well under 100, consistent with the &quot;much smaller&quot; claim. &#10003;</li><li><strong>Choice B &mdash; '37.26 square miles.'</strong>: This is the area of Kahikaiui, not Makuu. &#10007;</li><li><strong>Choice C &mdash; '15.99 square miles.'</strong>: This is the area of Kawailoa, not Makuu. &#10007;</li><li><strong>Choice D &mdash; '23.57 square miles.'</strong>: This is the area of Kaena, not Makuu. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_12",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage claims most home lands are much smaller than the nearly-100-square-mile maximum, then gives Kalamaula (7.95 sq mi) as the first example. The blank must give Makuu&apos;s total area from the table &mdash; and that value must also be small to support the claim."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;3.44 square miles.&rsquo;</strong>: The table lists Makuu at 3.44 square miles &mdash; well under 100, consistent with the &quot;much smaller&quot; claim. &#10003;</li><li><strong>Choice B &mdash; &lsquo;37.26 square miles.&rsquo;</strong>: This is the area of Kahikaiui, not Makuu. &#10007;</li><li><strong>Choice C &mdash; &lsquo;15.99 square miles.&rsquo;</strong>: This is the area of Kawailoa, not Makuu. &#10007;</li><li><strong>Choice D &mdash; &lsquo;23.57 square miles.&rsquo;</strong>: This is the area of Kaena, not Makuu. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

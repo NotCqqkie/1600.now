@@ -1,1 +1,15 @@
-{"questionId": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_2", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the signal of restoration", "content": "The phrase “making the data available again” combined with “stored on outdated technologies” creates a restoration narrative: previously inaccessible data is being returned to a state where it can be used. The word “again” is decisive."}, {"title": "Determine what happens to the usefulness", "content": "”Renewing” means restoring something to former usefulness—which is precisely what the project does by transferring the data to modern formats.<br/><br/>The other choices don't capture this restoration: “persisting” suggests mere continuation, “exceeding” overstates by implying greater usefulness, and “installing” doesn't match the context.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_2",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the signal of restoration",
+      "content": "The phrase “making the data available again” combined with “stored on outdated technologies” creates a restoration narrative: previously inaccessible data is being returned to a state where it can be used. The word “again” is decisive."
+    },
+    {
+      "title": "Determine what happens to the usefulness",
+      "content": "”Renewing” means restoring something to former usefulness—which is precisely what the project does by transferring the data to modern formats.<br/><br/>The other choices don't capture this restoration: “persisting” suggests mere continuation, “exceeding” overstates by implying greater usefulness, and “installing” doesn't match the context.<br/><br/>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

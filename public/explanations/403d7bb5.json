@@ -1,1 +1,15 @@
-{"questionId": "403d7bb5", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical role of 'falling' in the sentence", "content": "The word &ldquo;falling&rdquo; ends the subordinate clause &ldquo;while falling&rdquo; which is embedded inside the larger subject phrase: &ldquo;the reason seeds from a dying dandelion appear to float in the air while falling.&rdquo; Nothing in this clause requires punctuation after &ldquo;falling&rdquo;&mdash;it is in the middle of an uninterrupted noun phrase, not at the end of a supplemental element."}, {"title": "Eliminate punctuated choices and confirm the answer", "content": "<ul><li><strong>Choice A &mdash; 'falling,'</strong>: A comma here would incorrectly split the subject (&ldquo;the reason seeds &hellip; while falling&rdquo;) from its main verb (&ldquo;is&rdquo;). &#10007;</li><li><strong>Choice B &mdash; 'falling:'</strong>: A colon here is grammatically impossible; the material before it is not an independent clause. &#10007;</li><li><strong>Choice C &mdash; 'falling;'</strong>: A semicolon joins two independent clauses, but &ldquo;the reason seeds &hellip; while falling&rdquo; is a subject phrase, not an independent clause. &#10007;</li><li><strong>Choice D &mdash; 'falling'</strong>: No punctuation allows the subject to connect directly to its main verb &ldquo;is&rdquo;&mdash;the only grammatically correct option. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "403d7bb5",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical role of 'falling' in the sentence",
+      "content": "The word &ldquo;falling&rdquo; ends the subordinate clause &ldquo;while falling&rdquo; which is embedded inside the larger subject phrase: &ldquo;the reason seeds from a dying dandelion appear to float in the air while falling.&rdquo; Nothing in this clause requires punctuation after &ldquo;falling&rdquo;&mdash;it is in the middle of an uninterrupted noun phrase, not at the end of a supplemental element."
+    },
+    {
+      "title": "Eliminate punctuated choices and confirm the answer",
+      "content": "<ul><li><strong>Choice A — falling,</strong>: A comma here would incorrectly split the subject (&ldquo;the reason seeds &hellip; while falling&rdquo;) from its main verb (&ldquo;is&rdquo;). &#10007;</li><li><strong>Choice B — falling:</strong>: A colon here is grammatically impossible; the material before it is not an independent clause. &#10007;</li><li><strong>Choice C — falling;</strong>: A semicolon joins two independent clauses, but &ldquo;the reason seeds &hellip; while falling&rdquo; is a subject phrase, not an independent clause. &#10007;</li><li><strong>Choice D — falling</strong>: No punctuation allows the subject to connect directly to its main verb &ldquo;is&rdquo;&mdash;the only grammatically correct option. &#10003;</li></ul><strong>D</strong> is correct."
+    }
+  ]
+}

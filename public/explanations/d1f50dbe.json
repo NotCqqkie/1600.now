@@ -1,10 +1,23 @@
 {
+  "questionId": "d1f50dbe",
   "qid": "d1f50dbe",
   "steps": [
-    "One gallon of stain covers 170 square feet. So to cover $A$ square feet once, you need $\\frac{A}{170}$ gallons.",
-    "The fence has area $w$ square feet and must be stained twice, so the total area to cover is $2w$ square feet.",
-    "Substitute into the rate: $S = \\frac{2w}{170}$.",
-    "Simplify the fraction: $\\frac{2}{170} = \\frac{1}{85}$, giving $S = \\frac{w}{85}$."
+    {
+      "title": "Step 1",
+      "content": "One gallon of stain covers 170 square feet. So to cover $A$ square feet once, you need $\\frac{A}{170}$ gallons."
+    },
+    {
+      "title": "Step 2",
+      "content": "The fence has area $w$ square feet and must be stained twice, so the total area to cover is $2w$ square feet."
+    },
+    {
+      "title": "Step 3",
+      "content": "Substitute into the rate: $S = \\frac{2w}{170}$."
+    },
+    {
+      "title": "Step 4",
+      "content": "Simplify the fraction: $\\frac{2}{170} = \\frac{1}{85}$, giving $S = \\frac{w}{85}$."
+    }
   ],
   "choices": [
     {
@@ -25,7 +38,7 @@
     {
       "id": "D",
       "text": "$S = \\dfrac{w}{85}$",
-      "explanation": "<ul><li>Total area for two coats = $2w$. Gallons = $\\frac{2w}{170} = \\frac{w}{85}$. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
+      "explanation": "<ul><li>Total area for two coats = $2w$. Gallons = $\\frac{2w}{170} = \\frac{w}{85}$. That is the correct answer.</li></ul>"
     }
   ],
   "correctAnswer": "D"

@@ -9,7 +9,7 @@
     },
     {
       "title": "Translate the constraint",
-      "content": "&ldquo;At most 210 inches&rdquo; means the perimeter is less than or equal to 210: $2x + 100 \\le 210$.<ul><li><strong>A ($2x + 100 \\le 210$):</strong> Matches both the perimeter expression and the &le; constraint. That matches choice A &mdash; <strong>A</strong> is correct.</li><li><strong>B ($2x + 100 \\ge 210$):</strong> Uses $\\ge$, meaning &ldquo;at least&rdquo; &mdash; wrong direction.</li><li><strong>C ($2x + 50 \\le 210$):</strong> Constant should be $2 \\times 50 = 100$, not 50 &mdash; wrong coefficient.</li><li><strong>D ($2x + 50 \\ge 210$):</strong> Both the constant and the inequality direction are wrong.</li></ul>"
+      "content": "&ldquo;At most 210 inches&rdquo; means the perimeter is less than or equal to 210: $2x + 100 \\le 210$.<ul><li><strong>A ($2x + 100 \\le 210$):</strong> Matches both the perimeter expression and the &le; constraint. <strong>A</strong> is correct.</li><li><strong>B ($2x + 100 \\ge 210$):</strong> Uses $\\ge$, meaning &ldquo;at least&rdquo; &mdash; wrong direction.</li><li><strong>C ($2x + 50 \\le 210$):</strong> Constant should be $2 \\times 50 = 100$, not 50 &mdash; wrong coefficient.</li><li><strong>D ($2x + 50 \\ge 210$):</strong> Both the constant and the inequality direction are wrong.</li></ul>"
     }
   ]
 }

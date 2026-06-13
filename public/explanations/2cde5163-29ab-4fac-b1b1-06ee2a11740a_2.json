@@ -1,1 +1,15 @@
-{"questionId":"2cde5163-29ab-4fac-b1b1-06ee2a11740a_2","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The phrase &apos;these characteristic works&apos; signals something typical or signature about Edwards. The blank must convey being known or recognized for something — specifically for painting this kind of portrait."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; negative sentiment</strong>: Implies a bad or critical connotation. The passage treats the works as esteemed, not criticized. &#10007;</li><li><strong>Choice B &mdash; doubt'</strong>: Suggests uncertainty about Edwards. The passage gives no reason to doubt his standing. &#10007;</li><li><strong>Choice C &mdash; obligation'</strong>: Implies Edwards was required to paint these works. No such constraint is mentioned. &#10007;</li><li><strong>Choice D &mdash; 'reputation for'</strong>: Directly conveys being known for something. Edwards&apos;s signature, esteemed portraits naturally support his having a reputation for them. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "2cde5163-29ab-4fac-b1b1-06ee2a11740a_2",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The phrase &apos;these characteristic works&apos; signals something typical or signature about Edwards. The blank must convey being known or recognized for something — specifically for painting this kind of portrait."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — complaint about</strong>: Implies a bad or critical connotation. The passage treats the works as esteemed, not criticized. &#10007;</li><li><strong>Choice B — question about</strong>: Suggests uncertainty about Edwards. The passage gives no reason to doubt his standing. &#10007;</li><li><strong>Choice C — requirement for</strong>: Implies Edwards was required to paint these works. No such constraint is mentioned. &#10007;</li><li><strong>Choice D — reputation for</strong>: Directly conveys being known for something. Edwards&apos;s signature, esteemed portraits naturally support his having a reputation for them. &#10003;</li></ul><strong>D</strong> is correct."
+    }
+  ]
+}

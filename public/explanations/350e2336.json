@@ -1,1 +1,19 @@
-{"questionId": "350e2336", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Read the setup before the blank", "content": "The text says the declaration is &quot;explicitly addressed to the Haitian people&quot; but signals a tension with &quot;even though&quot;: the conclusion must contrast with that surface-level audience."}, {"title": "Inventory the evidence", "content": "The declaration is written in French (diplomatic language, not most Haitians' first language), reassures neighboring nations including the United States, and sets Haiti up as an example for future anti-colonial struggles. These features only make sense if the declaration was also speaking to outsiders, not just Haitians."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; 'aspects of the declaration were modeled on similar documents from other countries'</strong>: overreach &mdash; the passage never mentions any source documents the declaration was based on. &#10007;</li><li><strong>Choice B &mdash; 'the French government may have been surprised by the declaration'</strong>: overreach &mdash; the passage says nothing about France's reaction. &#10007;</li><li><strong>Choice C &mdash; 'many Haitian people opposed the revolution and the declaration'</strong>: overreach &mdash; no evidence about Haitian opposition appears in the text. &#10007;</li><li><strong>Choice D &mdash; 'the declaration actually had several intended audiences'</strong>: matches the evidence (French language, US reassurance, message to future colonies) and resolves the &quot;even though&quot; contrast. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "350e2336",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the setup before the blank",
+      "content": "The text says the declaration is &quot;explicitly addressed to the Haitian people&quot; but signals a tension with &quot;even though&quot;: the conclusion must contrast with that surface-level audience."
+    },
+    {
+      "title": "Inventory the evidence",
+      "content": "The declaration is written in French (diplomatic language, not most Haitians' first language), reassures neighboring nations including the United States, and sets Haiti up as an example for future anti-colonial struggles. These features only make sense if the declaration was also speaking to outsiders, not just Haitians."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A — aspects of the declaration were modeled on similar documents from other countries.</strong>: overreach &mdash; the passage never mentions any source documents the declaration was based on. &#10007;</li><li><strong>Choice B — the French government may have been surprised by the declaration.</strong>: overreach &mdash; the passage says nothing about France's reaction. &#10007;</li><li><strong>Choice C — many Haitian people opposed the revolution and the declaration.</strong>: overreach &mdash; no evidence about Haitian opposition appears in the text. &#10007;</li><li><strong>Choice D — the declaration actually had several intended audiences.</strong>: matches the evidence (French language, US reassurance, message to future colonies) and resolves the &quot;even though&quot; contrast. &#10003;</li></ul><strong>D</strong> is correct."
+    }
+  ]
+}

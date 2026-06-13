@@ -1,1 +1,15 @@
-{"questionId":"d9f381e2-df35-4ee7-a137-e689faac81b5_19","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence is: &ldquo;space shuttle flight STS-68 landed ______ Edwards Air Force Base.&rdquo; The blank connects the verb landed to its location. A preposition must link a verb to a noun phrase directly, with no intervening punctuation. Any mark between a preposition and its object violates Standard English conventions."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'at&mdash;'</strong>: An em dash after the preposition creates an abrupt break between at and Edwards Air Force Base. A preposition must connect directly to its object; inserting a dash severs that connection. &#10007;</li><li><strong>Choice B &mdash; 'at,'</strong>: A comma after the preposition separates at from its noun phrase. Prepositions are not followed by commas before their objects in Standard English. &#10007;</li><li><strong>Choice C &mdash; 'at:'</strong>: A colon introduces what follows only when a complete independent clause precedes it. &ldquo;Space shuttle flight STS-68 landed at&rdquo; is not a complete independent clause, so the colon is grammatically unjustified. &#10007;</li><li><strong>Choice D &mdash; 'at'</strong>: The bare preposition at directly precedes its object Edwards Air Force Base with no intervening punctuation, which is the only correct way to join a preposition to its noun phrase. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "d9f381e2-df35-4ee7-a137-e689faac81b5_19",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence is: &ldquo;space shuttle flight STS-68 landed ______ Edwards Air Force Base.&rdquo; The blank connects the verb landed to its location. A preposition must link a verb to a noun phrase directly, with no intervening punctuation. Any mark between a preposition and its object violates Standard English conventions."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"at—\"</strong>: An em dash after the preposition creates an abrupt break between at and Edwards Air Force Base. A preposition must connect directly to its object; inserting a dash severs that connection. &#10007;</li><li><strong>\"at,\"</strong>: A comma after the preposition separates at from its noun phrase. Prepositions are not followed by commas before their objects in Standard English. &#10007;</li><li><strong>\"at:\"</strong>: A colon introduces what follows only when a complete independent clause precedes it. &ldquo;Space shuttle flight STS-68 landed at&rdquo; is not a complete independent clause, so the colon is grammatically unjustified. &#10007;</li><li><strong>\"at\"</strong>: The bare preposition at directly precedes its object Edwards Air Force Base with no intervening punctuation, which is the only correct way to join a preposition to its noun phrase. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

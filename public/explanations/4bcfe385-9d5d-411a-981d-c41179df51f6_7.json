@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up the equation using exponent rules",
-      "content": "Write the function values: $$f(7)=c^7$$ and $$f(5)=c^5$$.<br/>Substitute into the given condition $$f(7)=9\\cdot f(5)$$: $$c^7 = 9 \\cdot c^5$$.<br/>Since $$c>0$$, divide both sides by $$c^5$$: $$c^2 = 9$$."
+      "content": "Write the function values: $$f(7)=c^7$$ and $$f(5)=c^5$$.<br/>Substitute into the given condition $$f(7)=9\\cdot f(5)$$: $$c^7 = 9 \\cdot c^5$$.<br/>Since $$c\\gt 0$$, divide both sides by $$c^5$$: $$c^2 = 9$$."
     },
     {
       "title": "Solve for c and select the answer",
-      "content": "Take the square root of both sides: $$c = \\sqrt{9} = 3$$ (the negative root is excluded because $$c>1$$).<br/>The answer is <strong>3</strong>."
+      "content": "Take the square root of both sides: $$c = \\sqrt{9} = 3$$ (the negative root is excluded because $$c\\gt 1$$).<br/>The answer is <strong>3</strong>."
     }
   ]
 }

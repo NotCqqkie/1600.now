@@ -8,12 +8,12 @@
       "content": "All four answer choices use $x=3$, $5$, and $7$. Compute the boundary value $6x+2$ for each:<br/>$$6(3)+2=20$$<br/>$$6(5)+2=32$$<br/>$$6(7)+2=44$$"
     },
     {
-      "title": "Compare choice C in one row",
-      "content": "Choice C has $y$-values $16$, $28$, and $40$. Each one is strictly below the matching cutoff: $16\\lt20$, $28\\lt32$, and $40\\lt44$."
+      "title": "Compare the candidate in one row",
+      "content": "The correct table has $x$-values $3$, $5$, and $7$ paired with $y$-values $16$, $28$, and $40$. Each output is strictly below the matching cutoff: $16\\lt20$, $28\\lt32$, and $40\\lt44$."
     },
     {
       "title": "Eliminate the others",
-      "content": "Choice A fails because $(3,20)$ is on the boundary, not less than it. Choice B fails because $(5,36)$ is above the allowed cutoff $32$. Choice D fails immediately at $(3,24)$. Only choice C has all three $y$-values below their cutoffs, so <strong>C</strong> is correct."
+      "content": "The boundary table with $y$-values $20$, $32$, and $44$ is not strictly below the cutoff. Another table fails because $36$ is above the allowed cutoff $32$, and the remaining table fails immediately at $(3,24)$. The table with all three $y$-values below their cutoffs is correct, so <strong>C</strong> is correct."
     }
   ]
 }

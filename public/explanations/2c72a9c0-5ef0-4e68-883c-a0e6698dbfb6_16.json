@@ -13,7 +13,7 @@
     },
     {
       "title": "Match to the form with positive $c,d$",
-      "content": "Rewrite as $f(x)=-10-2x=-d-cx$ with $d=10$ and $c=2$, both positive. That matches choice <strong>A</strong>."
+      "content": "Rewrite as $f(x)=-10-2x=-d-cx$ with $d=10$ and $c=2$, both positive. The result matches."
     }
   ]
 }

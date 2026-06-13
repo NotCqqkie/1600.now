@@ -1,1 +1,15 @@
-{"questionId":"986a38a2-7ec7-4431-b87a-1d0c366595d6_18","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question tests Subject-Verb Agreement. The grammatical subject is the gerund phrase &ldquo;Distinguishing &lsquo;exactly the same&rsquo; and &lsquo;nearly the same&rsquo; commodities&rdquo; &mdash; gerund phrases are always singular. The em-dash parenthetical (&ldquo;whether crops, lumber, or precious metals&rdquo;) is an interrupter and does not change the subject. The blank needs a singular past-tense finite verb."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;were&rsquo;</strong>: A plural past-tense verb that violates subject-verb agreement with the singular gerund-phrase subject. &#10007;</li><li><strong>Choice B &mdash; &lsquo;was&rsquo;</strong>: A singular past-tense finite verb that correctly agrees with the singular gerund-phrase subject. &#10003;</li><li><strong>Choice C &mdash; &lsquo;having been&rsquo;</strong>: A perfect participle &mdash; a non-finite form that cannot serve as the main verb of the sentence, leaving the sentence without a predicate. &#10007;</li><li><strong>Choice D &mdash; &lsquo;being&rsquo;</strong>: A present participle &mdash; also non-finite and unable to act as a main verb, creating the same predicateless sentence error as Choice C. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "986a38a2-7ec7-4431-b87a-1d0c366595d6_18",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question tests Subject-Verb Agreement. The grammatical subject is the gerund phrase &ldquo;Distinguishing &lsquo;exactly the same&rsquo; and &lsquo;nearly the same&rsquo; commodities&rdquo; &mdash; gerund phrases are always singular. The em-dash parenthetical (&ldquo;whether crops, lumber, or precious metals&rdquo;) is an interrupter and does not change the subject. The blank needs a singular past-tense finite verb."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; were</strong>: A plural past-tense verb that violates subject-verb agreement with the singular gerund-phrase subject. &#10007;</li><li><strong>Choice B &mdash; was</strong>: A singular past-tense finite verb that correctly agrees with the singular gerund-phrase subject. &#10003;</li><li><strong>Choice C &mdash; having been</strong>: A perfect participle &mdash; a non-finite form that cannot serve as the main verb of the sentence, leaving the sentence without a predicate. &#10007;</li><li><strong>Choice D &mdash; being</strong>: A present participle &mdash; also non-finite and unable to act as a main verb, creating the same predicateless sentence error as Choice C. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

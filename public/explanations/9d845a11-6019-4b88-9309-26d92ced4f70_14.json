@@ -1,9 +1,19 @@
 {
+  "questionId": "9d845a11-6019-4b88-9309-26d92ced4f70_14",
   "qid": "9d845a11-6019-4b88-9309-26d92ced4f70_14",
   "correctAnswer": "A",
   "steps": [
-    "The problem defines force as the <strong>product</strong> of mass and acceleration: $$F = m \\cdot a$$",
-    "Substitute the given mass of 33 kg and acceleration $a$ m/s$^2$: $$F = 33 \\cdot a = 33a$$",
-    "Evaluate each choice:<ul><li>A: $F = 33a$ — Force equals mass times acceleration with mass = 33. This is exactly what the formula gives. That matches choice A — <strong>A</strong> is correct.</li><li>B: $F = 33 + a$ — Uses addition instead of multiplication; the problem says &quot;product,&quot; not sum. Eliminated.</li><li>C: $F = 33 - a$ — Uses subtraction; unrelated to the definition given. Eliminated.</li><li>D: $F = a - 33$ — Uses subtraction in the wrong order; unrelated to the definition given. Eliminated.</li></ul>"
+    {
+      "title": "Step 1",
+      "content": "The problem defines force as the <strong>product</strong> of mass and acceleration: $$F = m \\cdot a$$"
+    },
+    {
+      "title": "Step 2",
+      "content": "Substitute the given mass of 33 kg and acceleration $a$ m/s$^2$: $$F = 33 \\cdot a = 33a$$"
+    },
+    {
+      "title": "Step 3",
+      "content": "Evaluate each choice:<ul><li>A: $F = 33a$ — Force equals mass times acceleration with mass = 33. This is exactly what the formula gives. That confirms <strong>A</strong> is correct.</li><li>B: $F = 33 + a$ — Uses addition instead of multiplication; the problem says &quot;product,&quot; not sum. Eliminated.</li><li>C: $F = 33 - a$ — Uses subtraction; unrelated to the definition given. Eliminated.</li><li>D: $F = a - 33$ — Uses subtraction in the wrong order; unrelated to the definition given. Eliminated.</li></ul>"
+    }
   ]
 }

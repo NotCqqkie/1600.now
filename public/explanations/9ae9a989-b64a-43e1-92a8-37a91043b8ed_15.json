@@ -1,1 +1,15 @@
-{"questionId":"9ae9a989-b64a-43e1-92a8-37a91043b8ed_15","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage opens by stating volunteering benefits society as a whole, then shows a survey where most youths see only individual benefits — and only 6% recognize societal value. The gap between actual societal impact and youth perception drives the correct answer."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'geographic limits on volunteering'</strong>: The passage says nothing about where volunteering opportunities exist. &#10007;</li><li><strong>Choice B &mdash; 'more helpful than many young people think'</strong>: Volunteering's societal value is established upfront, but most youths miss it — so it is more helpful than they realize. &#10003;</li><li><strong>Choice C &mdash; 'access to opportunities'</strong>: The survey addresses perception of benefits, not whether youths can find volunteer work. &#10007;</li><li><strong>Choice D &mdash; 'individual vs. societal help by magnitude'</strong>: The passage doesn't compare how much individual versus societal help volunteering provides. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "9ae9a989-b64a-43e1-92a8-37a91043b8ed_15",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage opens by stating volunteering benefits society as a whole, then shows a survey where most youths see only individual benefits — and only 6% recognize societal value. The gap between actual societal impact and youth perception drives the correct answer."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; many young people think they can volunteer only within their own communities.</strong>: The passage says nothing about where volunteering opportunities exist. &#10007;</li><li><strong>Choice B &mdash; volunteering may be even more helpful than many young people think it is.</strong>: Volunteering's societal value is established upfront, but most youths miss it — so it is more helpful than they realize. &#10003;</li><li><strong>Choice C &mdash; volunteering can help society overall more than it can help individual people.</strong>: The survey addresses perception of benefits, not whether youths can find volunteer work. &#10007;</li><li><strong>Choice D &mdash; many young people may not know how to find ways to volunteer their time.</strong>: The passage doesn't compare how much individual versus societal help volunteering provides. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

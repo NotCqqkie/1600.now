@@ -1,1 +1,15 @@
-{"questionId":"cb122a42-4101-484b-b032-9e55d6519a9c_3","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"In &apos;of a good height, as could be seen even from the seated figure,&apos; the word <em>good</em> modifies a physical dimension. We need the meaning of <em>good</em> that fits describing height as something notable or substantial."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;well-behaved&apos;</strong>: describes conduct, not physical size. &#10007;</li><li><strong>Choice B &mdash; &apos;considerable&apos;</strong>: means notable or substantial in amount&mdash;exactly what &apos;a good height&apos; conveys when describing stature. &#10003;</li><li><strong>Choice C &mdash; &apos;capable&apos;</strong>: describes ability or skill, not a physical dimension. &#10007;</li><li><strong>Choice D &mdash; &apos;reliable&apos;</strong>: describes dependability, not size. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "cb122a42-4101-484b-b032-9e55d6519a9c_3",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "In &apos;of a good height, as could be seen even from the seated figure,&apos; the word <em>good</em> modifies a physical dimension. We need the meaning of <em>good</em> that fits describing height as something notable or substantial."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Well-behaved</strong>: describes conduct, not physical size. &#10007;</li><li><strong>Choice B &mdash; Considerable</strong>: means notable or substantial in amount&mdash;exactly what &apos;a good height&apos; conveys when describing stature. &#10003;</li><li><strong>Choice C &mdash; Capable</strong>: describes ability or skill, not a physical dimension. &#10007;</li><li><strong>Choice D &mdash; Reliable</strong>: describes dependability, not size. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

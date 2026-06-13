@@ -1,1 +1,15 @@
-{"questionId":"e7b4b1e2-7d10-40a5-b5c1-741fcd71803b_17","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank fills two slots: a noun describing the weavers who developed the style, and a time expression meaning &lsquo;160 years in the past.&rsquo; Standard English requires (1) a plural, non-possessive noun for the weavers and (2) a plain plural <em>years</em> with no apostrophe, since the number is the object of <em>ago</em>, not a possessor."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;artist&rsquo;s over 160 year&rsquo;s&rsquo;</strong>: both words carry apostrophes. <em>Artist&rsquo;s</em> is singular possessive (wrong number and wrong case) and <em>year&rsquo;s</em> turns the time unit into a possessor, which is ungrammatical with <em>ago</em>. &#10007;</li><li><strong>Choice B &mdash; &lsquo;artists over 160 years&rsquo;&rsquo;</strong>: <em>artists</em> is correctly plural, but <em>years&rsquo;</em> is plural possessive. A time unit with <em>ago</em> is never possessive. &#10007;</li><li><strong>Choice C &mdash; &lsquo;artists&rsquo; over 160 years&rsquo;</strong>: <em>years</em> is correct here, but <em>artists&rsquo;</em> is plural possessive &mdash; nothing is possessed by the artists in this phrase. &#10007;</li><li><strong>Choice D &mdash; &lsquo;artists over 160 years&rsquo;</strong>: <em>artists</em> is plural non-possessive and <em>years</em> is plain plural. Both forms are correct. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "e7b4b1e2-7d10-40a5-b5c1-741fcd71803b_17",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank fills two slots: a noun describing the weavers who developed the style, and a time expression meaning &lsquo;160 years in the past.&rsquo; Standard English requires (1) a plural, non-possessive noun for the weavers and (2) a plain plural <em>years</em> with no apostrophe, since the number is the object of <em>ago</em>, not a possessor."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"artist's over 160 year's\"</strong>: both words carry apostrophes. <em>Artist&rsquo;s</em> is singular possessive (wrong number and wrong case) and <em>year&rsquo;s</em> turns the time unit into a possessor, which is ungrammatical with <em>ago</em>. &#10007;</li><li><strong>\"artists over 160 years'\"</strong>: <em>artists</em> is correctly plural, but <em>years&rsquo;</em> is plural possessive. A time unit with <em>ago</em> is never possessive. &#10007;</li><li><strong>\"artists' over 160 years\"</strong>: <em>years</em> is correct here, but <em>artists&rsquo;</em> is plural possessive &mdash; nothing is possessed by the artists in this phrase. &#10007;</li><li><strong>\"artists over 160 years\"</strong>: <em>artists</em> is plural non-possessive and <em>years</em> is plain plural. Both forms are correct. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

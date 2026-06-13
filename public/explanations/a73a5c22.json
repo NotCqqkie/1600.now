@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice D is correct. Choice A answers a different question, finding when the output is $8$. Choices B and C confuse the input or coefficient with the function value.",
+      "content": "The result is correct. The correct answer answers a different question, finding when the output is $8$. The other choices confuse the input or coefficient with the function value.",
       "desmosExpressions": [
         "g(x)=10x+8",
         "x=8"

@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li>A: Rate of $2$ cm/hour from $x=2$ to $x=4$ would require a sloped segment, but the graph is flat there. Eliminated.</li><li>B: The greatest rate occurs where the curve is steepest, which is in the early hours, not between $x=4$ and $x=10$. Eliminated.</li><li>C: From $x=0$ to $x=2$ the slope is roughly constant, not increasing. Eliminated.</li><li>D: The flat segment from $x=2$ to $x=4$ gives a rate of $0$ cm/hour, which matches the graph.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "content": "<ul><li>A: Rate of $2$ cm/hour from $x=2$ to $x=4$ would require a sloped segment, but the graph is flat there. Eliminated.</li><li>B: The greatest rate occurs where the curve is steepest, which is in the early hours, not between $x=4$ and $x=10$. Eliminated.</li><li>C: From $x=0$ to $x=2$ the slope is roughly constant, not increasing. Eliminated.</li><li>D: The flat segment from $x=2$ to $x=4$ gives a rate of $0$ cm/hour, which matches the graph.</li></ul>That confirms <strong>D</strong> is correct."
     }
   ]
 }

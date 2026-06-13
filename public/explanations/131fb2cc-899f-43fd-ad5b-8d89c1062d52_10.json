@@ -13,11 +13,11 @@
     },
     {
       "title": "Identify the matching factor",
-      "content": "So $x^8+y^4$ is a factor. That matches choice <strong>A</strong> — <strong>A</strong> is correct."
+      "content": "So $x^8+y^4$ is a factor. That matches <strong>Choice A &mdash; $x^8 + y^4$</strong>."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice A, $x^8 + y^4$. The other choices do not satisfy the same condition from the question, so <strong>A</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches <strong>Choice A &mdash; $x^8 + y^4$</strong>, $x^8 + y^4$. The other choices do not satisfy the same condition from the question, so <strong>A</strong>."
     }
   ]
 }

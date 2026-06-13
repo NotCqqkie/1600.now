@@ -1,1 +1,15 @@
-{"questionId":"1487028b-5b14-4a74-ba77-84ab65217d04_21","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence has a long subject: \"a unique tradition of embroidery [blank] back over two thousand years &mdash; one that includes iconic double-sided stitching... &mdash; remains popular.\" The main verb is \"remains.\" The blank must link \"embroidery\" to \"back over two thousand years\" without adding a second finite verb that would compete with \"remains.\""},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'dates'</strong>: A finite present-tense verb. Using \"dates\" creates two competing main verbs in one clause &mdash; \"dates\" and \"remains\" &mdash; making the sentence a run-on without a conjunction. &#10007;</li><li><strong>Choice B &mdash; 'date'</strong>: Also a finite verb (base form). Same problem as A: it competes with \"remains\" as a second predicate with no conjunction to join them. &#10007;</li><li><strong>Choice C &mdash; 'has dated'</strong>: A finite present-perfect verb. Same structural problem &mdash; it creates a second predicate, and \"has dated back\" is not idiomatic in this context. &#10007;</li><li><strong>Choice D &mdash; 'dating'</strong>: A present participle. \"Dating back over two thousand years\" is a participial phrase that modifies \"tradition of embroidery\" without adding a second finite verb. The sentence's one main verb remains \"remains.\" &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "1487028b-5b14-4a74-ba77-84ab65217d04_21",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence has a long subject: \"a unique tradition of embroidery [blank] back over two thousand years &mdash; one that includes iconic double-sided stitching... &mdash; remains popular.\" The main verb is \"remains.\" The blank must link \"embroidery\" to \"back over two thousand years\" without adding a second finite verb that would compete with \"remains.\""
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; dates</strong>: A finite present-tense verb. Using \"dates\" creates two competing main verbs in one clause &mdash; \"dates\" and \"remains\" &mdash; making the sentence a run-on without a conjunction. &#10007;</li><li><strong>Choice B &mdash; date</strong>: Also a finite verb (base form). Same problem as A: it competes with \"remains\" as a second predicate with no conjunction to join them. &#10007;</li><li><strong>Choice C &mdash; has dated</strong>: A finite present-perfect verb. Same structural problem &mdash; it creates a second predicate, and \"has dated back\" is not idiomatic in this context. &#10007;</li><li><strong>Choice D &mdash; dating</strong>: A present participle. \"Dating back over two thousand years\" is a participial phrase that modifies \"tradition of embroidery\" without adding a second finite verb. The sentence's one main verb remains \"remains.\" &#10003;</li></ul>That matches <strong>Choice D &mdash; dating</strong>."
+    }
+  ]
+}

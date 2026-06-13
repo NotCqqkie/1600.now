@@ -1,1 +1,15 @@
-{"questionId": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_5", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Spot the causal trigger", "content": "The sentence immediately following the underlined portion states <strong>“the reductions inspired an air-cooling device,”</strong> establishing a direct link between the observation and the practical application that follows."}, {"title": "Apply to the choices", "content": "Choice C correctly identifies the observation as central to the text's practical application discussion.<br/><br/>The other three either misplace the observation's temporal role, conflate it with supporting an earlier claim, or reverse the cause-and-effect relationship.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_5",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the causal trigger",
+      "content": "The sentence immediately following the underlined portion states <strong>“the reductions inspired an air-cooling device,”</strong> establishing a direct link between the observation and the practical application that follows."
+    },
+    {
+      "title": "Apply to the choices",
+      "content": "<strong>Choice C &mdash; It establishes a finding central to the text's discussion of a practical application resulting from the team's study of fungal thermal biology.</strong> correctly identifies the observation as central to the text's practical application discussion.<br/><br/>The other three either misplace the observation's temporal role, conflate it with supporting an earlier claim, or reverse the cause-and-effect relationship.<br/><br/>That matches <strong>Choice C &mdash; It establishes a finding central to the text's discussion of a practical application resulting from the team's study of fungal thermal biology.</strong>."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId":"b78de54c-47f1-4693-80d0-aa6689b6a9f5_19","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The main clause ends with &quot;...collective defense,&quot; followed by a comma. What comes after that comma must grammatically attach to the main clause. A comma cannot join two independent clauses (comma splice), so the second element must be a non-finite participial phrase."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'has pledged'</strong>: finite verb — creates an independent clause joined by only a comma. Comma splice. &#10007;</li><li><strong>Choice B &mdash; 'pledging'</strong>: present participle — forms a participial phrase that correctly modifies the subject of the main clause. &#10003;</li><li><strong>Choice C &mdash; 'pledges'</strong>: finite verb — creates an independent clause joined by only a comma. Comma splice. &#10007;</li><li><strong>Choice D &mdash; 'is pledging'</strong>: finite verb — creates an independent clause joined by only a comma. Comma splice. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_19",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The main clause ends with &quot;...collective defense,&quot; followed by a comma. What comes after that comma must grammatically attach to the main clause. A comma cannot join two independent clauses (comma splice), so the second element must be a non-finite participial phrase."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; has pledged</strong>: finite verb — creates an independent clause joined by only a comma. Comma splice. &#10007;</li><li><strong>Choice B &mdash; pledging</strong>: present participle — forms a participial phrase that correctly modifies the subject of the main clause. &#10003;</li><li><strong>Choice C &mdash; pledges</strong>: finite verb — creates an independent clause joined by only a comma. Comma splice. &#10007;</li><li><strong>Choice D &mdash; is pledging</strong>: finite verb — creates an independent clause joined by only a comma. Comma splice. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

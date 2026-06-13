@@ -171,7 +171,7 @@
     "difficulty": "Easy",
     "question_number": 7,
     "test_name": "Module Source 019 Math M1",
-    "passage": "If $9x+4=32$, what is the value of $3(9x+4)$?",
+    "passage": "If $9x+4=32$, what is the value of ${3}(9x+4)$?",
     "question_text": null,
     "choices": [
       {
@@ -218,7 +218,7 @@
     "difficulty": "Easy",
     "question_number": 9,
     "test_name": "Module Source 019 Math M1",
-    "passage": "A savings account is opened with an initial deposit of \\$7,000. The amount of money in the account t years after the initial deposit is given by the function $f(t)=7,000(1.01)^{2t}$. Which of the following is the best interpretation of the statement \"f(3) is approximately equal to 7,430.64\" in this context?",
+    "passage": "A savings account is opened with an initial deposit of \\$7{,}000. The amount of money in the account $t$ years after the initial deposit is given by the function $f(t)=7{,}000(1.01)^{2t}$. Which of the following is the best interpretation of the statement \"$f(3)$ is approximately equal to 7,430.64\" in this context?",
     "question_text": null,
     "choices": [
       {
@@ -435,19 +435,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$y>3x+7$"
+        "text": "$y\\gt 3x+7$"
       },
       {
         "label": "B",
-        "text": "$y>3x-7$"
+        "text": "$y\\gt 3x-7$"
       },
       {
         "label": "C",
-        "text": "$y<3x+7$"
+        "text": "$y\\lt 3x+7$"
       },
       {
         "label": "D",
-        "text": "$y<3x-7$"
+        "text": "$y\\lt 3x-7$"
       }
     ],
     "is_fill_in_blank": false,
@@ -478,15 +478,15 @@
       },
       {
         "label": "B",
-        "text": "$93(360)$"
+        "text": "$\\left(93\\right)(360)$"
       },
       {
         "label": "C",
-        "text": "$93(2)(360)$"
+        "text": "$\\left(93\\right)(2)(360)$"
       },
       {
         "label": "D",
-        "text": "$180(93)(360)$"
+        "text": "$\\left(180\\right)(93)(360)$"
       }
     ],
     "is_fill_in_blank": false,

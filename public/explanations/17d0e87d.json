@@ -17,7 +17,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li>A) $w = \\sqrt{\\frac{x}{y}} - 19$: takes the square root instead of squaring — reverses the operation. Incorrect.</li><li>B) $w = \\sqrt{\\frac{28x}{14y}} - 19$: fails to simplify $\\frac{14x}{7y}$ correctly and takes a square root instead of squaring. Incorrect.</li><li>C) $w = \\left(\\frac{x}{y}\\right)^2 - 19$: matches the derived result exactly. That matches choice C — <strong>C</strong> is correct.</li><li>D) $w = \\left(\\frac{28x}{14y}\\right)^2 - 19$: simplifies $\\frac{28x}{14y} = \\frac{2x}{y}$, but forgets to divide by 2 before squaring, so $\\left(\\frac{2x}{y}\\right)^2 = \\frac{4x^2}{y^2} \\neq \\left(\\frac{x}{y}\\right)^2$. Incorrect.</li></ul>"
+      "content": "<ul><li>A) $w = \\sqrt{\\frac{x}{y}} - 19$: takes the square root instead of squaring — reverses the operation. Incorrect.</li><li>B) $w = \\sqrt{\\frac{28x}{14y}} - 19$: fails to simplify $\\frac{14x}{7y}$ correctly and takes a square root instead of squaring. Incorrect.</li><li>C) $w = \\left(\\frac{x}{y}\\right)^2 - 19$: matches the derived result exactly. That matches <strong>Choice C &mdash; $w={ \\left(\\frac{x}{y}\\right)}^{2}-19$</strong>.</li><li>D) $w = \\left(\\frac{28x}{14y}\\right)^2 - 19$: simplifies $\\frac{28x}{14y} = \\frac{2x}{y}$, but forgets to divide by 2 before squaring, so $\\left(\\frac{2x}{y}\\right)^2 = \\frac{4x^2}{y^2} \\neq \\left(\\frac{x}{y}\\right)^2$. Incorrect.</li></ul>"
     }
   ]
 }

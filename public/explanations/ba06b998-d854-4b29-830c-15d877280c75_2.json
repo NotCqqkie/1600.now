@@ -13,7 +13,7 @@
     },
     {
       "title": "Eliminate each choice",
-      "content": "<ul><li>A) $y=0.8+1.7x$ - positive y-intercept, positive slope. Matches.</li><li>B) $y=0.8-1.7x$ - slope negative; the line rises, eliminate.</li><li>C) $y=-0.8+1.7x$ - y-intercept negative; line crosses above zero, eliminate.</li><li>D) $y=-0.8-1.7x$ - both wrong signs, eliminate.</li></ul>That matches choice A - <strong>A</strong> is correct."
+      "content": "<ul><li>A) $y=0.8+1.7x$ - positive y-intercept, positive slope. Matches.</li><li>B) $y=0.8-1.7x$ - slope negative; the line rises, eliminate.</li><li>C) $y=-0.8+1.7x$ - y-intercept negative; line crosses above zero, eliminate.</li><li>D) $y=-0.8-1.7x$ - both wrong signs, eliminate.</li></ul>That is the correct answer."
     }
   ]
 }

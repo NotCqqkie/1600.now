@@ -1,1 +1,15 @@
-{"questionId": "189b5a24-f2f4-4932-9c4f-36aa310357ed_8", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The question asks which statement about the Hispanic Society of America is <strong>best supported by the text</strong>. Go to the passage and find every specific claim made about the Hispanic Society: it was founded in 1904, it is located in New York City, and it has more than 18,000 objects in its museum collection. The correct answer will match one of these exactly."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; &quot;It is no longer located in New York City.&quot;</strong>: the passage says it <em>is</em> located in New York City &mdash; this directly contradicts the text. &#10007;</li><li><strong>Choice B &mdash; &quot;It was founded after 2000.&quot;</strong>: the passage says it was founded in 1904, which is well before 2000. &#10007;</li><li><strong>Choice C &mdash; &quot;It is visited by more people than any other Latino cultural institution in the US.&quot;</strong>: visitor numbers are never mentioned in the passage. &#10007;</li><li><strong>Choice D &mdash; &quot;Its collection includes over 18,000 objects.&quot;</strong>: the passage states it &quot;has more than 18,000 objects in its museum collection&quot; &mdash; a direct match. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "189b5a24-f2f4-4932-9c4f-36aa310357ed_8",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks which statement about the Hispanic Society of America is <strong>best supported by the text</strong>. Go to the passage and find every specific claim made about the Hispanic Society: it was founded in 1904, it is located in New York City, and it has more than 18,000 objects in its museum collection. The correct answer will match one of these exactly."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; It is no longer located in New York City.</strong>: the passage says it <em>is</em> located in New York City &mdash; this directly contradicts the text. &#10007;</li><li><strong>Choice B &mdash; It was founded after 2000.</strong>: the passage says it was founded in 1904, which is well before 2000. &#10007;</li><li><strong>Choice C &mdash; It is visited by more people than any other Latino cultural institution in the US.</strong>: visitor numbers are never mentioned in the passage. &#10007;</li><li><strong>Choice D &mdash; Its collection includes over 18,000 objects.</strong>: the passage states it &quot;has more than 18,000 objects in its museum collection&quot; &mdash; a direct match. &#10003;</li></ul>That matches <strong>Choice D &mdash; Its collection includes over 18,000 objects.</strong>."
+    }
+  ]
+}

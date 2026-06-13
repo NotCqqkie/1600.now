@@ -134,7 +134,7 @@
     "difficulty": "Medium",
     "question_number": 5,
     "test_name": "Module Source 082 Eng M1",
-    "passage": "Which choice best states the function of the underlined sentence in the text as a whole?\nVertical gene transfer involves the transmission of genetic material from a parent to offspring; horizontal gene transfer, on the other hand, involves the exchange of genetic material between organisms not in a parent-offspring relationship. While horizontal gene transfer is common among prokaryotes—single-celled organisms such as the bacteria *Carnobacterium viridans* and *Moraxella caviae*—it has rarely been observed among eukaryotes (typically multicellular organisms). <u>However, new studies suggest that horizontal gene transfer is more common in eukaryotes than originally thought.</u>",
+    "passage": "Which choice best states the function of the underlined sentence in the text as a whole?\nVertical gene transfer involves the transmission of genetic material from a parent to offspring; horizontal gene transfer, on the other hand, involves the exchange of genetic material between organisms not in a parent-offspring relationship. While horizontal gene transfer is common among prokaryotes--single-celled organisms such as the bacteria *Carnobacterium viridans* and *Moraxella caviae*--it has rarely been observed among eukaryotes (typically multicellular organisms). <u>However, new studies suggest that horizontal gene transfer is more common in eukaryotes than originally thought.</u>",
     "question_text": "Which choice best states the function of the underlined sentence in the text as a whole?",
     "choices": [
       {
@@ -166,7 +166,7 @@
     "difficulty": "Medium",
     "question_number": 6,
     "test_name": "Module Source 082 Eng M1",
-    "passage": "Which choice best states the main purpose of the text?\nThough John Crowley, author of *Endless Things*, is perhaps not as well known as the most widely read American writers of the past fifty years, influential figures have championed his work, including the poet James Merrill and the literary critic Harold Bloom. In his afterword to Crowley's book *Little, Big*, Bloom praises the novel's adroit blend of what playwright Friedrich Schiller termed the naive and sentimental modes—while Schiller thought works could be classified as either naive (seeking to describe reality) or sentimental (seeking to develop ideas), *Little, Big* demonstrates that a work can be both.",
+    "passage": "Which choice best states the main purpose of the text?\nThough John Crowley, author of *Endless Things*, is perhaps not as well known as the most widely read American writers of the past fifty years, influential figures have championed his work, including the poet James Merrill and the literary critic Harold Bloom. In his afterword to Crowley's book *Little, Big*, Bloom praises the novel's adroit blend of what playwright Friedrich Schiller termed the naive and sentimental modes--while Schiller thought works could be classified as either naive (seeking to describe reality) or sentimental (seeking to develop ideas), *Little, Big* demonstrates that a work can be both.",
     "question_text": "Which choice best states the main purpose of the text?",
     "choices": [
       {
@@ -230,7 +230,7 @@
     "difficulty": "Medium",
     "question_number": 8,
     "test_name": "Module Source 082 Eng M1",
-    "passage": "Based on the text, what is one reason why simulants are valuable for scientists?\nThe soil on Mars can make missions to explore the planet challenging, as the sand and dust are known to clog filters and lock moving parts on robotic rovers and other exploration devices. Using simulants, which are materials designed to simulate different planetary surfaces, scientists are able to study the characteristics of Mars's surface. Simulants like the Mars Mojave simulant—which was developed using lava deposits from California's Mojave Desert—help scientists evaluate how well their devices will handle the surface when operated on Mars.",
+    "passage": "Based on the text, what is one reason why simulants are valuable for scientists?\nThe soil on Mars can make missions to explore the planet challenging, as the sand and dust are known to clog filters and lock moving parts on robotic rovers and other exploration devices. Using simulants, which are materials designed to simulate different planetary surfaces, scientists are able to study the characteristics of Mars's surface. Simulants like the Mars Mojave simulant--which was developed using lava deposits from California's Mojave Desert--help scientists evaluate how well their devices will handle the surface when operated on Mars.",
     "question_text": "Based on the text, what is one reason why simulants are valuable for scientists?",
     "choices": [
       {
@@ -333,7 +333,7 @@
     "difficulty": "Hard",
     "question_number": 11,
     "test_name": "Module Source 082 Eng M1",
-    "passage": "Which choice best describes data from the graph that weaken the student's claim?\nTo measure whether countries in free trade agreements (FTAs)—agreements among nations to reduce tariffs, duties, and other trade barriers—experience changes in total agricultural exports, economist Kayode Ajewole and colleagues calculated average export growth rates for several countries over the five years before and the five years after entering an FTA with the United States. The graph shows the results for three countries in the study. Consulting the graph, a student claims that joining an FTA increases the rate of growth of a country's total agricultural exports.",
+    "passage": "Which choice best describes data from the graph that weaken the student's claim?\nTo measure whether countries in free trade agreements (FTAs)--agreements among nations to reduce tariffs, duties, and other trade barriers--experience changes in total agricultural exports, economist Kayode Ajewole and colleagues calculated average export growth rates for several countries over the five years before and the five years after entering an FTA with the United States. The graph shows the results for three countries in the study. Consulting the graph, a student claims that joining an FTA increases the rate of growth of a country's total agricultural exports.",
     "question_text": "Which choice best describes data from the graph that weaken the student's claim?",
     "choices": [
       {
@@ -619,7 +619,7 @@
       },
       {
         "label": "B",
-        "text": "artist—"
+        "text": "artist--"
       },
       {
         "label": "C",
@@ -738,7 +738,7 @@
     "difficulty": "Medium",
     "question_number": 23,
     "test_name": "Module Source 082 Eng M1",
-    "passage": "Which choice completes the text with the most logical transition?\nWhile most animals prefer the safety of nighttime migration, many poisonous amphibians—a category that includes the Panamanian golden frog and the cane toad—safely engage in migratory behavior during the day. ______ with the sun in the sky, the amphibians' striking color patterns deter visually oriented daytime predators by serving as a warning of toxicity.",
+    "passage": "Which choice completes the text with the most logical transition?\nWhile most animals prefer the safety of nighttime migration, many poisonous amphibians--a category that includes the Panamanian golden frog and the cane toad--safely engage in migratory behavior during the day. ______ with the sun in the sky, the amphibians' striking color patterns deter visually oriented daytime predators by serving as a warning of toxicity.",
     "question_text": "Which choice completes the text with the most logical transition?",
     "choices": [
       {

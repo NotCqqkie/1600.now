@@ -1,1 +1,15 @@
-{"questionId":"6af96c1c-ea52-4b92-a15c-9c8a703443c6_23","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage defines extinct languages and then uses Umbrian as a case in point. The blank must introduce a specific illustration of a general principle."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Therefore'</strong>: signals a conclusion drawn from prior reasoning. No argument precedes the blank, so a concluding transition is wrong. &#10007;</li><li><strong>Choice B &mdash; 'However'</strong>: signals a contrast or concession. Umbrian isn't being opposed to anything here. &#10007;</li><li><strong>Choice C &mdash; 'For example'</strong>: signals that a specific instance illustrates the general definition just given. Umbrian is exactly that instance. &#10003;</li><li><strong>Choice D &mdash; 'As a result'</strong>: signals a consequence. Umbrian is not a consequence of the definition. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_23",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage defines extinct languages and then uses Umbrian as a case in point. The blank must introduce a specific illustration of a general principle."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Therefore,&rsquo;</strong>: signals a conclusion drawn from prior reasoning. No argument precedes the blank, so a concluding transition is wrong. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Admittedly,&rsquo;</strong>: signals a contrast or concession. Umbrian isn't being opposed to anything here. &#10007;</li><li><strong>Choice C &mdash; &lsquo;For example,&rsquo;</strong>: signals that a specific instance illustrates the general definition just given. Umbrian is exactly that instance. &#10003;</li><li><strong>Choice D &mdash; &lsquo;In conclusion,&rsquo;</strong>: signals a consequence. Umbrian is not a consequence of the definition. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

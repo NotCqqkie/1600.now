@@ -9,11 +9,11 @@
     },
     {
       "title": "Eliminate the y-intercept interpretations",
-      "content": "Choices B and C refer to the system's cost, which is a fixed initial expense. In $y = mx + b$, that fixed cost is the $y$-intercept (the value when $x = 0$), not the slope. The slope specifically measures the additional cost per game, not a one-time system fee."
+      "content": "The other choices refer to the system's cost, which is a fixed initial expense. In $y = mx + b$, that fixed cost is the $y$-intercept (the value when $x = 0$), not the slope. The slope specifically measures the additional cost per game, not a one-time system fee."
     },
     {
       "title": "Identify the slope and choose",
-      "content": "Among the answer choices, only choice A states a cost of $25 per game, which represents a slope of 25. The other choices describe a system cost (a fixed one-time fee), which is the y-intercept, not the slope. That matches choice A — <strong>A</strong> is correct."
+      "content": "Among the answer choices, only the credited option states a cost of &#36;25 per game, which represents a slope of 25. The other choices describe a system cost (a fixed one-time fee), which is the y-intercept, not the slope. <strong>A</strong> is correct."
     }
   ]
 }

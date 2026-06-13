@@ -1,1 +1,15 @@
-{"questionId": "a7146625-47ea-49cb-9061-578e226240d5_3", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Translate each fact", "content": "$x$ = length, $y$ = height. <br/><br/>\"Height is 61 inches\" → $y = 61$.<br/>\"Length is 3 times its height\" → $x = 3y$."}, {"title": "Match the system", "content": "System: $\\{x = 3y,\\ y = 61\\}$.<br/><br/>A and B reverse the relationship ($y = 3x$ would mean height is 3× length). C uses $x = 61$, conflating length with the given height value.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "a7146625-47ea-49cb-9061-578e226240d5_3",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate each fact",
+      "content": "$x$ = length, $y$ = height. <br/><br/>\"Height is 61 inches\" → $y = 61$.<br/>\"Length is 3 times its height\" → $x = 3y$."
+    },
+    {
+      "title": "Match the system",
+      "content": "System: $\\{x = 3y,\\ y = 61\\}$.<br/><br/>A and B reverse the relationship ($y = 3x$ would mean height is 3× length). C uses $x = 61$, conflating length with the given height value.<br/><br/>That is the correct answer."
+    }
+  ]
+}

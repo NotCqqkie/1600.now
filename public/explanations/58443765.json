@@ -13,11 +13,11 @@
     },
     {
       "title": "Test the matching point",
-      "content": "For choice B, $(0,4)$: $$5(0)+4=4$$ and $$5(0)^2+4=4$$ Both equations give $y=4$, so $(0,4)$ satisfies the system."
+      "content": "Test $(0,4)$: $$5(0)+4=4$$ and $$5(0)^2+4=4$$ Both equations give $y=4$, so $(0,4)$ satisfies the system."
     },
     {
       "title": "Confirm the answer",
-      "content": "Choice A has the right $x$ but wrong $y$. Choices C and D fail when $x=8$. The point that satisfies both equations is $(0,4)$, so choice B is correct."
+      "content": "A choice with the right $x$ but wrong $y$. The two points with $x=8$ fail. The point that satisfies both equations is $(0,4)$, so <strong>B</strong> is correct."
     }
   ]
 }

@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the answer",
-      "content": "$17(x-10y)(x+10y)$ is choice D. Expanding the two binomials gives $x^2-100y^2$, and the outside $17$ matches the original expression, so <strong>D</strong> is correct."
+      "content": "$\\left(17\\right)(x-10y)(x+10y)$ is the remaining alternative. Expanding the two binomials gives $x^2-100y^2$, and the outside $17$ matches the original expression, so <strong>D</strong> is correct."
     }
   ]
 }

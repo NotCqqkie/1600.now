@@ -13,7 +13,7 @@
     },
     {
       "title": "Read the coordinates from the graph",
-      "content": "At the intersection point, the $x$-coordinate is $2$ and the $y$-coordinate is $4$. Therefore, the solution to the system is $(2,4)$. That matches choice <strong>C</strong>."
+      "content": "At the intersection point, the $x$-coordinate is $2$ and the $y$-coordinate is $4$. Therefore, the solution to the system is $(2,4)$. The result matches."
     }
   ]
 }

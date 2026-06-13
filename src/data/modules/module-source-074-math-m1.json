@@ -124,7 +124,7 @@
     "difficulty": "Medium",
     "question_number": 6,
     "test_name": "Module Source 074 Math M1",
-    "passage": "$x = 16$\n$-3x + y = -5$\nThe solution to the given system of equations is $(x, y)$. What is the value of $x + y$?",
+    "passage": "$x = 4$\n$-3x + y = -5$\nThe solution to the given system of equations is $(x, y)$. What is the value of $x + y$?",
     "question_text": null,
     "choices": [
       {
@@ -503,7 +503,7 @@
     "difficulty": "Hard",
     "question_number": 21,
     "test_name": "Module Source 074 Math M1",
-    "passage": "According to a US law, ramps for use by the general public must form an angle with level ground such that $\\tan \\theta < \\frac{1}{12}$. If the ramp in the figure conforms to this law and has a height of 29.1 inches, what is the least possible value of $x$, in inches?",
+    "passage": "According to a US law, ramps for use by the general public must form an angle with level ground such that $\\tan \\theta \\lt \\frac{1}{12}$. If the ramp in the figure conforms to this law and has a height of 29.1 inches, what is the least possible value of $x$, in inches?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -525,7 +525,7 @@
     "difficulty": "Medium",
     "question_number": 22,
     "test_name": "Module Source 074 Math M1",
-    "passage": "The equation of the graph shown is $ y = az + b $, where $ a $ and $ b $ are constants. What is the value of $ a - b $?",
+    "passage": "The equation of the graph shown is $y=a^x+b$, where $ a $ and $ b $ are constants. What is the value of $ a - b $?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

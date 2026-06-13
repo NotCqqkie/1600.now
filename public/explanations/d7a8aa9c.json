@@ -9,12 +9,12 @@
     },
     {
       "title": "Evaluate each choice numerically",
-      "content": "A) $\\frac{29}{28} \\approx 1.036 > 1$ &mdash; T's sides are longer than S's &check;<br/>B) $1$ &mdash; sides are equal, not greater<br/>C) $\\frac{28}{29} \\approx 0.966 \\lt 1$ &mdash; T's sides would be shorter<br/>D) $0$ &mdash; sides collapse to length zero"
+      "content": "<strong>$\\frac{29}{28}$</strong> $\\frac{29}{28} \\approx 1.036 \\gt  1$ &mdash; T's sides are longer than S's &check;<br/>B) $1$ &mdash; sides are equal, not greater<br/>C) $\\frac{28}{29} \\approx 0.966 \\lt 1$ &mdash; T's sides would be shorter<br/>D) $0$ &mdash; sides collapse to length zero"
     },
     {
       "title": "Select the valid value",
-      "content": "Only $\\frac{29}{28}$ exceeds 1. That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "Only $\\frac{29}{28}$ exceeds 1. That matches the correct answer — <strong>A</strong> is correct."
     }
   ],
-  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; '29/28'</strong>: $\\frac{29}{28} \\approx 1.036 > 1$, so each side of T is strictly longer than the corresponding side of S. &#10003;</li><li><strong>Choice B &mdash; '1'</strong>: k = 1 produces a congruent triangle &mdash; sides are equal, not greater. &#10007;</li><li><strong>Choice C &mdash; '28/29'</strong>: $\\frac{28}{29} \\approx 0.966 \\lt 1$, so each side of T would be shorter than S's sides. &#10007;</li><li><strong>Choice D &mdash; '0'</strong>: k = 0 collapses every side to length 0 &mdash; not a valid triangle. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+  "choiceAnalysis": "<ul><li><strong>'$\\frac{29}{28}$'</strong>: $\\frac{29}{28} \\approx 1.036 \\gt  1$, so each side of T is strictly longer than the corresponding side of S. &#10003;</li><li><strong>'$1$'</strong>: k = 1 produces a congruent triangle &mdash; sides are equal, not greater. &#10007;</li><li><strong>'$\\frac{28}{29}$'</strong>: $\\frac{28}{29} \\approx 0.966 \\lt 1$, so each side of T would be shorter than S's sides. &#10007;</li><li><strong>'$0$'</strong>: k = 0 collapses every side to length 0 &mdash; not a valid triangle. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
 }

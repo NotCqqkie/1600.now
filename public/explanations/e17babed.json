@@ -18,7 +18,7 @@
     },
     {
       "title": "Match the count",
-      "content": "There are $6$ points above the line, so there are $6$ data points whose actual $y$-value is greater than the predicted $y$-value. That matches choice <strong>C</strong>."
+      "content": "There are $6$ points above the line, so there are $6$ data points whose actual $y$-value is greater than the predicted $y$-value. That matches the correct answer, <strong>C</strong>."
     }
   ]
 }

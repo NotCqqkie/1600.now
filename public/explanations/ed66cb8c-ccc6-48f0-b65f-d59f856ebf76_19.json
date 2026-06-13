@@ -1,1 +1,15 @@
-{"questionId":"ed66cb8c-ccc6-48f0-b65f-d59f856ebf76_19","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The subject is &quot;researchers like Aliya Bhatia of the Center for Democracy and Technology.&quot; The head noun is &apos;researchers&apos; (plural). The blank must be a present-tense verb that agrees with a plural subject."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; singular verb form</strong>: does not agree with the plural subject &apos;researchers.&apos; &#10007;</li><li><strong>Choice B &mdash; singular verb form</strong>: does not agree with the plural subject &apos;researchers.&apos; &#10007;</li><li><strong>Choice C &mdash; 'fear'</strong>: plural present-tense verb; agrees with the plural subject &apos;researchers.&apos; &#10003;</li><li><strong>Choice D &mdash; singular verb form</strong>: does not agree with the plural subject &apos;researchers.&apos; &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "ed66cb8c-ccc6-48f0-b65f-d59f856ebf76_19",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The subject is \"researchers like Aliya Bhatia of the Center for Democracy and Technology.\" The head noun is 'researchers' (plural). The blank must be a present-tense verb that agrees with a plural subject."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"fears\"</strong>: does not agree with the plural subject 'researchers.' &#10007;</li><li><strong>\"has feared\"</strong>: does not agree with the plural subject 'researchers.' &#10007;</li><li><strong>\"fear\"</strong>: plural present-tense verb; agrees with the plural subject 'researchers.' &#10003;</li><li><strong>\"is fearful\"</strong>: does not agree with the plural subject 'researchers.' &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+    }
+  ]
+}

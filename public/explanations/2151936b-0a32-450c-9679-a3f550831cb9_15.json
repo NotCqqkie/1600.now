@@ -1,1 +1,15 @@
-{"questionId": "2151936b-0a32-450c-9679-a3f550831cb9_15", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The basking shark runs 1.0&ndash;1.5 &deg;C above ambient (heat retention), yet its temperature still declines as ambient temperature falls. Despite generating metabolic heat, its body temperature tracks the environment."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; basking shark has a fixed body temperature</strong>: The data shows its temperature varies with ambient conditions, not fixed. &#10007;</li><li><strong>Choice B &mdash; both species&apos; temperatures are at least partly determined by ambient water</strong>: Pacific halibut is fully ectothermic; the basking shark&apos;s temperature still tracks ambient despite heat retention. Both fit. &#10003;</li><li><strong>Choice C &mdash; basking shark is fully ectothermic like Pacific halibut</strong>: The basking shark does retain some heat (1.0&ndash;1.5 &deg;C above ambient), so it is not fully ectothermic. &#10007;</li><li><strong>Choice D &mdash; Pacific halibut can regulate its own temperature</strong>: No data in the passage supports this; halibut is described as ectothermic. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "2151936b-0a32-450c-9679-a3f550831cb9_15",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The basking shark runs 1.0&ndash;1.5 &deg;C above ambient (heat retention), yet its temperature still declines as ambient temperature falls. Despite generating metabolic heat, its body temperature tracks the environment."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; yellowfin tuna and the shortfin mako shark are likely to be more variable than the body temperature of the basking shark.</strong>: The data shows its temperature varies with ambient conditions, not fixed. &#10007;</li><li><strong>Choice B &mdash; Pacific halibut and the basking shark are at least partly determined by the ambient water temperature.</strong>: Pacific halibut is fully ectothermic; the basking shark&apos;s temperature still tracks ambient despite heat retention. Both fit. &#10003;</li><li><strong>Choice C &mdash; basking shark and the shortfin mako shark remain fixed even as ambient water temperature changes, while the body temperature of the Pacific halibut changes with variations in the ambient water temperature.</strong>: The basking shark does retain some heat (1.0&ndash;1.5 &deg;C above ambient), so it is not fully ectothermic. &#10007;</li><li><strong>Choice D &mdash; basking shark and the yellowfin tuna remain fixed even if the ambient water temperature changes, while the body temperature of the oceanic whitetip shark varies even if the ambient temperature is stable.</strong>: No data in the passage supports this; halibut is described as ectothermic. &#10007;</li></ul>That matches <strong>Choice B &mdash; Pacific halibut and the basking shark are at least partly determined by the ambient water temperature.</strong>."
+    }
+  ]
+}

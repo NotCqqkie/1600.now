@@ -9,7 +9,7 @@
     },
     {
       "title": "Interpret the point in context",
-      "content": "In the model, $$x$$ represents days after the IPO and $$y$$ is the estimated stock price in dollars. Therefore $$(x,y) = (1,88)$$ means that 1 day after going public, the estimated stock price is <strong>\\$88</strong>.<br/>That matches choice A — <strong>A</strong> is correct."
+      "content": "In the model, $$x$$ represents days after the IPO and $$y$$ is the estimated stock price in dollars. Therefore $$(x,y) = (1,88)$$ means that 1 day after going public, the estimated stock price is <strong>\\$88</strong>.<br/>That is the correct answer."
     }
   ]
 }

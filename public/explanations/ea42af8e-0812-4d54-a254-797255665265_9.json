@@ -1,1 +1,15 @@
-{"questionId":"ea42af8e-0812-4d54-a254-797255665265_9","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage opens with what people typically think about feathered dinosaurs, then pivots with &apos;However&apos; to broaden the picture. The question asks what the passage is mainly about."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'feathered dinosaurs were more widespread than commonly thought'</strong>: The &apos;However&apos; pivot introduces wingless feathered dinosaurs alongside the familiar winged types, showing feathering was more common than people assume. &#10003;</li><li><strong>Choice B &mdash; something about dinosaurs without feathers</strong>: The passage focuses on dinosaurs <em>with</em> feathers, not those without. &#10007;</li><li><strong>Choice C &mdash; fossil value</strong>: Fossil value is never mentioned in the passage. &#10007;</li><li><strong>Choice D &mdash; birds</strong>: Birds are not the subject; the passage is about feathered dinosaurs as a broader group. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "ea42af8e-0812-4d54-a254-797255665265_9",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage opens with what people typically think about feathered dinosaurs, then pivots with 'However' to broaden the picture. The question asks what the passage is mainly about."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"Dinosaurs with feathers\"</strong>: The 'However' pivot introduces wingless feathered dinosaurs alongside the familiar winged types, showing feathering was more common than people assume. &#10003;</li><li><strong>\"Animals without feathers\"</strong>: The passage focuses on dinosaurs <em>with</em> feathers, not those without. &#10007;</li><li><strong>\"The most valuable fossil\"</strong>: Fossil value is never mentioned in the passage. &#10007;</li><li><strong>\"Bird species\"</strong>: Birds are not the subject; the passage is about feathered dinosaurs as a broader group. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+    }
+  ]
+}

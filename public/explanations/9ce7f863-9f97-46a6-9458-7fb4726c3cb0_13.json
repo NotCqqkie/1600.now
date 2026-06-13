@@ -1,1 +1,15 @@
-{"questionId": "9ce7f863-9f97-46a6-9458-7fb4726c3cb0_13", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the critical prediction", "content": "The hypothesis predicts that leaders reflecting on mistakes <em>with learning</em> should show more humility than those without this reflection. The supporting data would show the learning-based group scoring highest on the humility scale."}, {"title": "Find the group with the highest humility score", "content": "From the graph, the <em>mistake with learning</em> group scored approximately 3.1, the control group approximately 2.9, and the <em>mistake without learning</em> group approximately 2.6.<br/><br/>The learning-based group demonstrates the highest average humility, directly supporting the hypothesis.<br/><br/>Choice B is true but unrelated to the hypothesis; Choice C misrepresents the data—the control group actually exceeded the no-learning group; Choice D cannot be verified from the graph.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "9ce7f863-9f97-46a6-9458-7fb4726c3cb0_13",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the critical prediction",
+      "content": "The hypothesis predicts that leaders reflecting on mistakes <em>with learning</em> should show more humility than those without this reflection. The supporting data would show the learning-based group scoring highest on the humility scale."
+    },
+    {
+      "title": "Find the group with the highest humility score",
+      "content": "From the graph, the <em>mistake with learning</em> group scored approximately 3.1, the control group approximately 2.9, and the <em>mistake without learning</em> group approximately 2.6.<br/><br/>The learning-based group demonstrates the highest average humility, directly supporting the hypothesis.<br/><br/>The remaining statements either give a true but unrelated comparison, misrepresent the graph, or make a claim that cannot be verified from the graph.<br/><br/>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

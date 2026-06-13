@@ -17,7 +17,7 @@
     },
     {
       "title": "Eliminate each choice",
-      "content": "<ul><li>A) $f(x)=2x+42$: gives $f(0)=42\\neq 2$. Eliminate.</li><li>B) $f(x)=32x+36$: gives $f(0)=36\\neq 2$. Eliminate.</li><li>C) $f(x)=4x+2$: gives $f(0)=2$ and $f(8)=34$. Keep.</li><li>D) $f(x)=8x+2$: gives $f(8)=66\\neq 34$. Eliminate.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+      "content": "<ul><li>A) $f(x)=2x+42$: gives $f(0)=42\\neq 2$. Eliminate.</li><li>B) $f(x)=32x+36$: gives $f(0)=36\\neq 2$. Eliminate.</li><li>C) $f(x)=4x+2$: gives $f(0)=2$ and $f(8)=34$. Keep.</li><li>D) $f(x)=8x+2$: gives $f(8)=66\\neq 34$. Eliminate.</li></ul>That is the correct answer."
     }
   ]
 }

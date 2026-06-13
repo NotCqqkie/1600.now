@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply discriminant condition",
-      "content": "For two distinct real solutions, the discriminant must be positive: $b^{2} - 4ac > 0$.<br/>$$(-112)^{2} - 4(k)(16) > 0$$<br/>$$12{,}544 - 64k > 0 \\;\\Rightarrow\\; k \\lt 196$$<br/>Since $k$ is an integer, the greatest possible value is $k = 195$.<br/><br/>The answer is <strong>195</strong>."
+      "content": "For two distinct real solutions, the discriminant must be positive: $b^{2} - 4ac \\gt  0$.<br/>$$(-112)^{2} - 4(k)(16) \\gt  0$$<br/>$$12{,}544 - 64k \\gt  0 \\;\\Rightarrow\\; k \\lt 196$$<br/>Since $k$ is an integer, the greatest possible value is $k = 195$.<br/><br/>The answer is <strong>195</strong>."
     }
   ]
 }

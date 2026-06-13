@@ -1,1 +1,15 @@
-{"questionId": "8c90f26b-77aa-4ba4-80ae-bd4881600582_3", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "This is a vocabulary-in-context question. The blank completes the phrase &apos;would have been forced to _____ the throne.&apos; The sentence argues that without the right legitimacy characteristics, a monarch loses power over the throne &mdash; so the blank must mean something like &apos;give up&apos; or &apos;renounce.&apos;"}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'reciprocate'</strong>: Means to return something in kind &mdash; makes no sense with &apos;throne.&apos; &#10007;</li><li><strong>Choice B &mdash; 'annotate'</strong>: Means to add notes or commentary &mdash; unrelated to power or rulership. &#10007;</li><li><strong>Choice C &mdash; 'abandon'</strong>: Means to give up or relinquish &mdash; exactly what a monarch without legitimacy would be forced to do with the throne. &#10003;</li><li><strong>Choice D &mdash; 'equalize'</strong>: Means to make equal &mdash; does not convey loss of power or surrender. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "8c90f26b-77aa-4ba4-80ae-bd4881600582_3",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a vocabulary-in-context question. The blank completes the phrase &apos;would have been forced to _____ the throne.&apos; The sentence argues that without the right legitimacy characteristics, a monarch loses power over the throne &mdash; so the blank must mean something like &apos;give up&apos; or &apos;renounce.&apos;"
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; reciprocate</strong>: Means to return something in kind &mdash; makes no sense with &apos;throne.&apos; &#10007;</li><li><strong>Choice B &mdash; annotate</strong>: Means to add notes or commentary &mdash; unrelated to power or rulership. &#10007;</li><li><strong>Choice C &mdash; abandon</strong>: Means to give up or relinquish &mdash; exactly what a monarch without legitimacy would be forced to do with the throne. &#10003;</li><li><strong>Choice D &mdash; equalize</strong>: Means to make equal &mdash; does not convey loss of power or surrender. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+    }
+  ]
+}

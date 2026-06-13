@@ -1,1 +1,15 @@
-{"questionId": "7c17367d-234a-4cdb-b654-3dc1d5243ede_20", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the subject", "content": "The grammatical subject is &quot;Barrada&apos;s pieces&quot; &mdash; a plural noun. The long participial phrase (&quot;utilizing elements as disparate as plant-dyed fabrics, wire crab traps filled with stones, and cotton balls dangling above a fan&quot;) is a modifier that separates the subject from the blank but does not change it. A finite, plural main verb is required."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; 'has explored'</strong>: Singular present-perfect verb; violates subject-verb agreement with the plural subject &quot;Barrada&apos;s pieces.&quot; &#10007;</li><li><strong>Choice B &mdash; 'explore'</strong>: Simple present plural verb; agrees with the plural subject &quot;Barrada&apos;s pieces.&quot; &#10003;</li><li><strong>Choice C &mdash; 'explores'</strong>: Singular present verb; violates subject-verb agreement with the plural subject. &#10007;</li><li><strong>Choice D &mdash; 'exploring'</strong>: A present participle, not a finite verb; a sentence cannot be complete without a finite main verb, so this creates a fragment. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "7c17367d-234a-4cdb-b654-3dc1d5243ede_20",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the subject",
+      "content": "The grammatical subject is &quot;Barrada&apos;s pieces&quot; &mdash; a plural noun. The long participial phrase (&quot;utilizing elements as disparate as plant-dyed fabrics, wire crab traps filled with stones, and cotton balls dangling above a fan&quot;) is a modifier that separates the subject from the blank but does not change it. A finite, plural main verb is required."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;has explored&rsquo;</strong>: Singular present-perfect verb; violates subject-verb agreement with the plural subject &quot;Barrada&apos;s pieces.&quot; &#10007;</li><li><strong>Choice B &mdash; &lsquo;explore&rsquo;</strong>: Simple present plural verb; agrees with the plural subject &quot;Barrada&apos;s pieces.&quot; &#10003;</li><li><strong>Choice C &mdash; &lsquo;explores&rsquo;</strong>: Singular present verb; violates subject-verb agreement with the plural subject. &#10007;</li><li><strong>Choice D &mdash; &lsquo;exploring&rsquo;</strong>: A present participle, not a finite verb; a sentence cannot be complete without a finite main verb, so this creates a fragment. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

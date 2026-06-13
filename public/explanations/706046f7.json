@@ -1,1 +1,15 @@
-{"questionId": "706046f7", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Locate the direct textual evidence", "content": "The passage states explicitly: &ldquo;She was also the leader of what became known as the Cambridge movement.&rdquo; The question asks what Gloria Richardson led, so the answer must come directly from this sentence."}, {"title": "Eliminate each unsupported choice, then confirm the match", "content": "<ul><li><strong>Choice A &mdash; &apos;The Cambridge movement&apos;</strong>: Matches the passage verbatim &mdash; Gloria is named as its leader. &#10003;</li><li><strong>Choice B &mdash; &apos;Her daughter Donna&apos;s high school&apos;</strong>: The passage says Gloria was inspired by Donna, not that she led her daughter&rsquo;s school. &#10007;</li><li><strong>Choice C &mdash; &apos;Protests to support environmental protections&apos;</strong>: Environmental protests are never mentioned; the passage concerns racial equality. &#10007;</li><li><strong>Choice D &mdash; &apos;A new business in Cambridge, Maryland&apos;</strong>: No business is mentioned anywhere in the passage. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "706046f7",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the direct textual evidence",
+      "content": "The passage states explicitly: &ldquo;She was also the leader of what became known as the Cambridge movement.&rdquo; The question asks what Gloria Richardson led, so the answer must come directly from this sentence."
+    },
+    {
+      "title": "Eliminate each unsupported choice, then confirm the match",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;The Cambridge movement&rsquo;</strong>: Matches the passage verbatim &mdash; Gloria is named as its leader. &#10003;</li><li><strong>Choice B &mdash; &lsquo;Her daughter Donna's high school&rsquo;</strong>: The passage says Gloria was inspired by Donna, not that she led her daughter&rsquo;s school. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Protests to support environmental protections&rsquo;</strong>: Environmental protests are never mentioned; the passage concerns racial equality. &#10007;</li><li><strong>Choice D &mdash; &lsquo;A new business in Cambridge, Maryland&rsquo;</strong>: No business is mentioned anywhere in the passage. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

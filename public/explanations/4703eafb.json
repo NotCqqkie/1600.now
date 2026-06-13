@@ -1,1 +1,15 @@
-{"questionId": "4703eafb", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the logical relationship between the two sentences", "content": "The first sentence uses the vague phrase &quot;certain grains.&quot; The second sentence names those grains &mdash; maize and wheat &mdash; and describes their specific role. The blank must signal that what follows is a precise specification of what was stated generally, not a contrast, comparison, or list item."}, {"title": "Eliminate wrong choices and confirm the answer", "content": "Test each transition against the general-to-specific relationship:<ul><li><strong>Choice A &mdash; 'in particular,'</strong>: means &quot;to be more specific&quot; and correctly introduces maize and wheat as the precise examples of &quot;certain grains.&quot; &#10003;</li><li><strong>Choice B &mdash; 'alternatively,'</strong>: signals an alternative option to the previous information, but maize and wheat are not an alternative &mdash; they are the very grains being specified. &#10007;</li><li><strong>Choice C &mdash; 'by comparison,'</strong>: signals a contrast or comparison between two items, but the second sentence elaborates on the first rather than comparing it to something else. &#10007;</li><li><strong>Choice D &mdash; 'second of all,'</strong>: signals a second item in a list, but there is no first item in such a list, and the relationship is specificity, not enumeration. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "4703eafb",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the logical relationship between the two sentences",
+      "content": "The first sentence uses the vague phrase &quot;certain grains.&quot; The second sentence names those grains &mdash; maize and wheat &mdash; and describes their specific role. The blank must signal that what follows is a precise specification of what was stated generally, not a contrast, comparison, or list item."
+    },
+    {
+      "title": "Eliminate wrong choices and confirm the answer",
+      "content": "Test each transition against the general-to-specific relationship:<ul><li><strong>Choice A — in particular,</strong>: means &quot;to be more specific&quot; and correctly introduces maize and wheat as the precise examples of &quot;certain grains.&quot; &#10003;</li><li><strong>Choice B — alternatively,</strong>: signals an alternative option to the previous information, but maize and wheat are not an alternative &mdash; they are the very grains being specified. &#10007;</li><li><strong>Choice C — by comparison,</strong>: signals a contrast or comparison between two items, but the second sentence elaborates on the first rather than comparing it to something else. &#10007;</li><li><strong>Choice D — second of all,</strong>: signals a second item in a list, but there is no first item in such a list, and the relationship is specificity, not enumeration. &#10007;</li></ul><strong>A</strong> is correct."
+    }
+  ]
+}

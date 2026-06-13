@@ -1,10 +1,23 @@
 {
   "qid": "46545dd6",
+  "questionId": "46545dd6",
   "correctAnswer": "B",
   "steps": [
-    "The question asks: of all students who completed internships in 2010, what fraction were from Valley High School?",
-    "From the table, Valley 2010 = 65. Foothill 2010 = 75. Total 2010 = 65 + 75 = 140.",
-    "The fraction is $\\frac{65}{140}$.",
-    "<ul><li><strong>A: 10/140</strong> — The numerator 10 does not correspond to any 2010 value. Eliminated.</li><li><strong>B: 65/140</strong> — Valley 2010 = 65 out of total 2010 = 140. That matches choice B — <strong>B</strong> is correct.</li><li><strong>C: 75/140</strong> — 75 is Foothill&apos;s count, not Valley&apos;s. Eliminated.</li><li><strong>D: 65/75</strong> — This compares Valley to Foothill only, not to the total. Eliminated.</li></ul>"
+    {
+      "title": "Step 1",
+      "content": "The question asks: of all students who completed internships in 2010, what fraction were from Valley High School?"
+    },
+    {
+      "title": "Step 2",
+      "content": "From the table, Valley 2010 = 65. Foothill 2010 = 75. Total 2010 = 65 + 75 = 140."
+    },
+    {
+      "title": "Step 3",
+      "content": "The fraction is $\\frac{65}{140}$."
+    },
+    {
+      "title": "Step 4",
+      "content": "<ul><li><strong>A: 10/140</strong> — The numerator 10 does not correspond to any 2010 value. Eliminated.</li><li><strong>B: 65/140</strong> — Valley 2010 = 65 out of total 2010 = 140. <strong>B</strong> is correct.</li><li><strong>C: 75/140</strong> — 75 is Foothill&apos;s count, not Valley&apos;s. Eliminated.</li><li><strong>D: 65/75</strong> — This compares Valley to Foothill only, not to the total. Eliminated.</li></ul>"
+    }
   ]
 }

@@ -6,8 +6,8 @@
     "difficulty": "Easy",
     "question_number": 1,
     "test_name": "Module Source 188 Eng M2",
-    "passage": "As used in the text, what does the word “part” most nearly mean?\nThe following text is from Jacqueline Woodson’s 2018 novel *Harbor Me*. My uncle is a musician and a storyteller. He says the hardest <u>part</u> of telling a story is finding the beginning.\n©2018 by Jacqueline Woodson",
-    "question_text": "As used in the text, what does the word “part” most nearly mean?",
+    "passage": "As used in the text, what does the word \"part\" most nearly mean?\nThe following text is from Jacqueline Woodson's 2018 novel *Harbor Me*. My uncle is a musician and a storyteller. He says the hardest <u>part</u> of telling a story is finding the beginning.\n©2018 by Jacqueline Woodson",
+    "question_text": "As used in the text, what does the word \"part\" most nearly mean?",
     "choices": [
       {
         "label": "A",
@@ -38,7 +38,7 @@
     "difficulty": "Medium",
     "question_number": 2,
     "test_name": "Module Source 188 Eng M2",
-    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nOften, the Nobel Prize in Chemistry is given to a single person, such as Theodore William Richards in 1914. But recognition isn’t restricted to _____________ individuals. Instead, success in fields like chemistry is usually achieved through collaboration with other experts, as was the case for Jennifer Doudna, who was among those awarded for “the development of a method for genome editing.”",
+    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nOften, the Nobel Prize in Chemistry is given to a single person, such as Theodore William Richards in 1914. But recognition isn't restricted to _____________ individuals. Instead, success in fields like chemistry is usually achieved through collaboration with other experts, as was the case for Jennifer Doudna, who was among those awarded for \"the development of a method for genome editing.\"",
     "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
     "choices": [
       {
@@ -102,7 +102,7 @@
     "difficulty": "Medium",
     "question_number": 4,
     "test_name": "Module Source 188 Eng M2",
-    "passage": "Which choice best describes the function of the underlined portion of the text?\nThe following text is adapted from Adib Khorram’s 2018 novel *Darius the Great Is Not Okay*. The narrator, Darius, is a teenager visiting family in Iran. He and his friend Sohrab are at the entrance of the ruins of the ancient city of Persepolis.\n“The Gate of All Nations,” Sohrab said. He gestured to the lamassus [sculptures] and pillars surrounding us. “That’s the name in English.”\nIt wasn’t much of a gate anymore, since anyone of any nation could have easily stepped around it instead of walking through. But it was still amazing.\nBehind the lamassu, more columns <u>sprouted from the ground like ancient trees in a petrified forest</u>, forty feet tall, spindly but still miraculously upright. Giant stone slabs formed the remains of what must once have been a breathtaking structure.\n©2018 by Adib Khorram",
+    "passage": "Which choice best describes the function of the underlined portion of the text?\nThe following text is adapted from Adib Khorram's 2018 novel *Darius the Great Is Not Okay*. The narrator, Darius, is a teenager visiting family in Iran. He and his friend Sohrab are at the entrance of the ruins of the ancient city of Persepolis.\n\"The Gate of All Nations,\" Sohrab said. He gestured to the lamassus [sculptures] and pillars surrounding us. \"That's the name in English.\"\nIt wasn't much of a gate anymore, since anyone of any nation could have easily stepped around it instead of walking through. But it was still amazing.\nBehind the lamassu, more columns <u>sprouted from the ground like ancient trees in a petrified forest</u>, forty feet tall, spindly but still miraculously upright. Giant stone slabs formed the remains of what must once have been a breathtaking structure.\n©2018 by Adib Khorram",
     "question_text": "Which choice best describes the function of the underlined portion of the text?",
     "choices": [
       {
@@ -166,7 +166,7 @@
     "difficulty": "Medium",
     "question_number": 6,
     "test_name": "Module Source 188 Eng M2",
-    "passage": "Text 1 and Text 2 present points of view about which topic?\nText 1\nDespite how the Indian dish korma differs from Indonesia’s rendang, both dishes are described as a “curry.” The word’s history, however, is fraught. It’s a term created by British and Portuguese colonizers to refer to the myriad spiced sauces with ties to the Indian subcontinent. In 1973, chef Madhur Jaffrey dismissed the term “curry” as inaccurate, and in 2021 blogger Chaheti Bansal suggested that people abandon the term both for its colonial origin and for its failure to grasp the intricacies of India’s cuisines.\nText 2\nGrowing up in India, chef Chintan Pandya didn’t encounter the term “curry” often: his family didn’t cook curries, but some of his neighbors did. Although the blanket use of the term is rooted in colonialism, Pandya calls some of his dishes curries. Having traveled throughout India as part of his training, he came to appreciate the country’s diverse cuisines and the diverse uses of the term “curry.”",
+    "passage": "Text 1 and Text 2 present points of view about which topic?\nText 1\nDespite how the Indian dish korma differs from Indonesia's rendang, both dishes are described as a \"curry.\" The word's history, however, is fraught. It's a term created by British and Portuguese colonizers to refer to the myriad spiced sauces with ties to the Indian subcontinent. In 1973, chef Madhur Jaffrey dismissed the term \"curry\" as inaccurate, and in 2021 blogger Chaheti Bansal suggested that people abandon the term both for its colonial origin and for its failure to grasp the intricacies of India's cuisines.\nText 2\nGrowing up in India, chef Chintan Pandya didn't encounter the term \"curry\" often: his family didn't cook curries, but some of his neighbors did. Although the blanket use of the term is rooted in colonialism, Pandya calls some of his dishes curries. Having traveled throughout India as part of his training, he came to appreciate the country's diverse cuisines and the diverse uses of the term \"curry.\"",
     "question_text": "Text 1 and Text 2 present points of view about which topic?",
     "choices": [
       {
@@ -175,7 +175,7 @@
       },
       {
         "label": "B",
-        "text": "The best method for studying a region’s cuisine"
+        "text": "The best method for studying a region's cuisine"
       },
       {
         "label": "C",
@@ -183,7 +183,7 @@
       },
       {
         "label": "D",
-        "text": "The use of the term “curry”"
+        "text": "The use of the term \"curry\""
       }
     ],
     "is_fill_in_blank": false,
@@ -198,7 +198,7 @@
     "difficulty": "Medium",
     "question_number": 7,
     "test_name": "Module Source 188 Eng M2",
-    "passage": "What does the text most strongly suggest about the work of John Crowley?\nThough John Crowley, author of *Engine Summer*, is perhaps not as well known as the most commercially successful American writers of the past fifty years, his work has had several influential champions, including the poet James Merrill and the literary critic Harold Bloom. According to journalist Graeme Wood, Bloom claimed to have read Crowley’s novel *Little, Big* at least forty-six times, and in his posthumously published afterword to a 2022 edition of the book, Bloom called himself its “lifelong enthusiast” and described it as a “masterwork.”",
+    "passage": "What does the text most strongly suggest about the work of John Crowley?\nThough John Crowley, author of *Engine Summer*, is perhaps not as well known as the most commercially successful American writers of the past fifty years, his work has had several influential champions, including the poet James Merrill and the literary critic Harold Bloom. According to journalist Graeme Wood, Bloom claimed to have read Crowley's novel *Little, Big* at least forty-six times, and in his posthumously published afterword to a 2022 edition of the book, Bloom called himself its \"lifelong enthusiast\" and described it as a \"masterwork.\"",
     "question_text": "What does the text most strongly suggest about the work of John Crowley?",
     "choices": [
       {
@@ -262,7 +262,7 @@
     "difficulty": "Easy",
     "question_number": 9,
     "test_name": "Module Source 188 Eng M2",
-    "passage": "Which choice most effectively uses data from the table to complete the statement?\nApproximate Numbers of Speakers of Four Indigenous Languages in Mexico\nLanguage\nRegion\nNumber of speakers in Mexico\nRarámuri\nnorthern Mexico\n73,856\nMe’phaa\nsouthern Mexico\n134,100\nOtomi\ncentral Mexico\n307,900\nTzeltal\nsouthern Mexico\n556,700\nThe Tzeltal people of the southern Mexican state of Chiapas speak a modern form of the language of the ancient Maya kingdoms in what is now southern Mexico. Tzeltal is one of the most widely spoken Indigenous languages in Mexico, with over half a million speakers, according to a 2015 report. Though it is not as widely spoken as Tzeltal, the Otomi language of central Mexico also has a robust number of speakers: approximately ____________",
+    "passage": "Which choice most effectively uses data from the table to complete the statement?\nApproximate Numbers of Speakers of Four Indigenous Languages in Mexico\nLanguage\nRegion\nNumber of speakers in Mexico\nRarámuri\nnorthern Mexico\n73,856\nMe'phaa\nsouthern Mexico\n134,100\nOtomi\ncentral Mexico\n307,900\nTzeltal\nsouthern Mexico\n556,700\nThe Tzeltal people of the southern Mexican state of Chiapas speak a modern form of the language of the ancient Maya kingdoms in what is now southern Mexico. Tzeltal is one of the most widely spoken Indigenous languages in Mexico, with over half a million speakers, according to a 2015 report. Though it is not as widely spoken as Tzeltal, the Otomi language of central Mexico also has a robust number of speakers: approximately ____________",
     "question_text": "Which choice most effectively uses data from the table to complete the statement?",
     "choices": [
       {
@@ -294,7 +294,7 @@
     "difficulty": "Medium",
     "question_number": 10,
     "test_name": "Module Source 188 Eng M2",
-    "passage": "Which finding, if true, would most directly support the underlined claim?\nThe Albertina Museum in Vienna, Austria, has over 1 million works of art. Digital images of hundreds of thousands of those works have been put online through the museum’s website and the Google Arts & Culture project. One of the images is of *Self-Portrait*, a drawing by Hendrick Goltzius. In a paper, a student claims that<u> putting a work from the museum online increases the number of people who experience that work.</u>",
+    "passage": "Which finding, if true, would most directly support the underlined claim?\nThe Albertina Museum in Vienna, Austria, has over 1 million works of art. Digital images of hundreds of thousands of those works have been put online through the museum's website and the Google Arts & Culture project. One of the images is of *Self-Portrait*, a drawing by Hendrick Goltzius. In a paper, a student claims that <u>putting a work from the museum online increases the number of people who experience that work.</u>",
     "question_text": "Which finding, if true, would most directly support the underlined claim?",
     "choices": [
       {
@@ -326,24 +326,24 @@
     "difficulty": "Hard",
     "question_number": 11,
     "test_name": "Module Source 188 Eng M2",
-    "passage": "Which quotation from a scientist not involved in the study would most directly undermine the student’s conclusion?\nElaine Ostrander led an international collaboration with Nicolas Dubos and other researchers to study the evolutionary history of size differences in modern dogs, including very small breeds such as Yorkshire terriers. The researchers determined that among dogs as a whole, there are many different variations of the gene that regulates the production of IGF-1 (insulin growth factor 1), a hormone that promotes growth. After reviewing the study, a student concludes that these variations must account for the observed variance in body size among dog breeds.",
-    "question_text": "Which quotation from a scientist not involved in the study would most directly undermine the student’s conclusion?",
+    "passage": "Which quotation from a scientist not involved in the study would most directly undermine the student's conclusion?\nElaine Ostrander led an international collaboration with Nicolas Dubos and other researchers to study the evolutionary history of size differences in modern dogs, including very small breeds such as Yorkshire terriers. The researchers determined that among dogs as a whole, there are many different variations of the gene that regulates the production of IGF-1 (insulin growth factor 1), a hormone that promotes growth. After reviewing the study, a student concludes that these variations must account for the observed variance in body size among dog breeds.",
+    "question_text": "Which quotation from a scientist not involved in the study would most directly undermine the student's conclusion?",
     "choices": [
       {
         "label": "A",
-        "text": "“The gene that regulates IGF-1 production is one of multiple genes known to affect the size of dogs.”"
+        "text": "\"The gene that regulates IGF-1 production is one of multiple genes known to affect the size of dogs.\""
       },
       {
         "label": "B",
-        "text": "“In fact, only one-third of the most prevalent dog breeds carry the same variant of the gene regulating IGF-1 production.”"
+        "text": "\"In fact, only one-third of the most prevalent dog breeds carry the same variant of the gene regulating IGF-1 production.\""
       },
       {
         "label": "C",
-        "text": "“Variations of the IGF-1 gene result in substantial body size variance among dog breeds and may influence additional characteristics as well.”"
+        "text": "\"Variations of the IGF-1 gene result in substantial body size variance among dog breeds and may influence additional characteristics as well.\""
       },
       {
         "label": "D",
-        "text": "“The researchers’ conclusions regarding the IGF-1 gene may not apply to other species given that dogs vary in size more than any other group of land mammals does.”"
+        "text": "\"The researchers' conclusions regarding the IGF-1 gene may not apply to other species given that dogs vary in size more than any other group of land mammals does.\""
       }
     ],
     "is_fill_in_blank": false,
@@ -358,7 +358,7 @@
     "difficulty": "Medium",
     "question_number": 12,
     "test_name": "Module Source 188 Eng M2",
-    "passage": "Which choice most logically completes the text?\nTo better understand consumer loyalty to specific online retailers, Stevan Milisavljević and team conducted a survey using 58 statements as proxy indicators of customer experience with receiving goods purchased online. The statements were categorized by topic—e.g., statement 24, “It takes less effort to have the goods delivered to me versus going to the store,” was categorized as convenience—and respondents rated the importance of each statement to their experience. The researchers found that factors relating to package aesthetics were of low importance while those relating to speedy delivery and package tracking were of high importance; given the positive link between customer experience and customer retention that prior studies have established, these findings suggest that _______________",
+    "passage": "Which choice most logically completes the text?\nTo better understand consumer loyalty to specific online retailers, Stevan Milisavljević and team conducted a survey using 58 statements as proxy indicators of customer experience with receiving goods purchased online. The statements were categorized by topic—e.g., statement 24, \"It takes less effort to have the goods delivered to me versus going to the store,\" was categorized as convenience—and respondents rated the importance of each statement to their experience. The researchers found that factors relating to package aesthetics were of low importance while those relating to speedy delivery and package tracking were of high importance; given the positive link between customer experience and customer retention that prior studies have established, these findings suggest that _______________",
     "question_text": "Which choice most logically completes the text?",
     "choices": [
       {
@@ -367,11 +367,11 @@
       },
       {
         "label": "B",
-        "text": "the likelihood of customers making repeat purchases from a specific online retailer is more closely related to the efficiency and transparency of the retailer’s delivery process than to the retailer’s package design."
+        "text": "the likelihood of customers making repeat purchases from a specific online retailer is more closely related to the efficiency and transparency of the retailer's delivery process than to the retailer's package design."
       },
       {
         "label": "C",
-        "text": "when leaving online reviews of retailers, customers are most concerned with retailers’ ability to deliver goods quickly and to provide easy ways of tracking those goods during shipment."
+        "text": "when leaving online reviews of retailers, customers are most concerned with retailers' ability to deliver goods quickly and to provide easy ways of tracking those goods during shipment."
       },
       {
         "label": "D",
@@ -390,7 +390,7 @@
     "difficulty": "Medium",
     "question_number": 13,
     "test_name": "Module Source 188 Eng M2",
-    "passage": "Which choice most logically completes the text?\nThe National Educational Panel Study (NEPS) seeks to discover long-term trends related to education by compiling and analyzing evidence from approximately 60,000 participants in Germany. As with most longitudinal studies, extensive funding support is needed for NEPS to collect the relevant data over timescales and at intervals that will support robust conclusions. But the quality of a more constrained investigation, such as a transportation study seeking only to yield the average number of people per day who use a city’s public transportation system, is much less dependent on high levels of funding because __________________",
+    "passage": "Which choice most logically completes the text?\nThe National Educational Panel Study (NEPS) seeks to discover long-term trends related to education by compiling and analyzing evidence from approximately 60,000 participants in Germany. As with most longitudinal studies, extensive funding support is needed for NEPS to collect the relevant data over timescales and at intervals that will support robust conclusions. But the quality of a more constrained investigation, such as a transportation study seeking only to yield the average number of people per day who use a city's public transportation system, is much less dependent on high levels of funding because __________________",
     "question_text": "Which choice most logically completes the text?",
     "choices": [
       {
@@ -422,7 +422,7 @@
     "difficulty": "Easy",
     "question_number": 14,
     "test_name": "Module Source 188 Eng M2",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nQabaniso Malewezi, a spoken-word poet, has been recognized as one of Malawi’s leading writers. Malewezi _________________ born in 1979 in Lilongwe.",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nQabaniso Malewezi, a spoken-word poet, has been recognized as one of Malawi's leading writers. Malewezi _________________ born in 1979 in Lilongwe.",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {
@@ -486,7 +486,7 @@
     "difficulty": "Easy",
     "question_number": 16,
     "test_name": "Module Source 188 Eng M2",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\n*NASA’s Spirit* rover first touched down on Mars on July 4, 2004. The rover spent over six years gathering information about Mars’s rocky surface. Scientists playfully __________ one of the rocks it found Esperanza.",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\n*NASA's Spirit* rover first touched down on Mars on July 4, 2004. The rover spent over six years gathering information about Mars's rocky surface. Scientists playfully __________ one of the rocks it found Esperanza.",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {
@@ -518,7 +518,7 @@
     "difficulty": "Easy",
     "question_number": 17,
     "test_name": "Module Source 188 Eng M2",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nMany ranching terms come from Spanish. For example, the word “lasso” (a rope) comes from the Spanish word lazo, and “stockade” (a fence) __________ from *estacada*. This is because the first Anglo, African, and Native American cattle ranchers in the southwestern US learned the trade from Spanish-speaking Mexican *vaqueros*, or cowboys.",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nMany ranching terms come from Spanish. For example, the word \"lasso\" (a rope) comes from the Spanish word lazo, and \"stockade\" (a fence) __________ from *estacada*. This is because the first Anglo, African, and Native American cattle ranchers in the southwestern US learned the trade from Spanish-speaking Mexican *vaqueros*, or cowboys.",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {
@@ -550,7 +550,7 @@
     "difficulty": "Medium",
     "question_number": 18,
     "test_name": "Module Source 188 Eng M2",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nEdward Everett’s image was printed on \\$50 US banknotes in 1878, making the former US secretary of state one of many nonpresidents ______ on US currency.",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nEdward Everett's image was printed on \\$50 US banknotes in 1878, making the former US secretary of state one of many nonpresidents ______ on US currency.",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {
@@ -582,7 +582,7 @@
     "difficulty": "Easy",
     "question_number": 19,
     "test_name": "Module Source 188 Eng M2",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nHow a folktale begins depends largely on the language in which it originates. Many folktales in the Slovak language open with a phrase that roughly translates to “beyond seven mountains and seven valleys.” Tales in ___________ the other hand, often begin with “once upon a time.”",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nHow a folktale begins depends largely on the language in which it originates. Many folktales in the Slovak language open with a phrase that roughly translates to \"beyond seven mountains and seven valleys.\" Tales in ___________ the other hand, often begin with \"once upon a time.\"",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {
@@ -614,7 +614,7 @@
     "difficulty": "Easy",
     "question_number": 20,
     "test_name": "Module Source 188 Eng M2",
-    "passage": "Which choice completes the text with the most logical transition?\nBecause of its bulky body, the world’s first airplane, the 1903 Wright Flyer, was not very aerodynamic. Modern planes, like the F-4 Phantom II jet, have much sleeker, more streamlined bodies. ___________ they are much more aerodynamic.",
+    "passage": "Which choice completes the text with the most logical transition?\nBecause of its bulky body, the world's first airplane, the 1903 Wright Flyer, was not very aerodynamic. Modern planes, like the F-4 Phantom II jet, have much sleeker, more streamlined bodies. ___________ they are much more aerodynamic.",
     "question_text": "Which choice completes the text with the most logical transition?",
     "choices": [
       {
@@ -646,7 +646,7 @@
     "difficulty": "Medium",
     "question_number": 21,
     "test_name": "Module Source 188 Eng M2",
-    "passage": "Which choice completes the text with the most logical transition?\nCertain phenotypes, such as lip color and eye shape, are passed from parents to their biological children through genes. These genes compose the individual’s genome, determining whether the child has rosy lips, for instance, or almond-shaped eyes. _________ these inherited traits may be passed along from the child to the child’s own descendants.",
+    "passage": "Which choice completes the text with the most logical transition?\nCertain phenotypes, such as lip color and eye shape, are passed from parents to their biological children through genes. These genes compose the individual's genome, determining whether the child has rosy lips, for instance, or almond-shaped eyes. _________ these inherited traits may be passed along from the child to the child's own descendants.",
     "question_text": "Which choice completes the text with the most logical transition?",
     "choices": [
       {
@@ -710,7 +710,7 @@
     "difficulty": "Medium",
     "question_number": 23,
     "test_name": "Module Source 188 Eng M2",
-    "passage": "Which choice completes the text with the most logical transition?\nTwo of the largest proposed offshore wind farms are Scotland’s Moray West farm, which would generate 1,866 megawatts of electricity (MW), and South Korea’s Sinan farm, which would generate 8,200 MW. __________ the most electricity generated by a single offshore wind farm is 1,218 MW.",
+    "passage": "Which choice completes the text with the most logical transition?\nTwo of the largest proposed offshore wind farms are Scotland's Moray West farm, which would generate 1,866 megawatts of electricity (MW), and South Korea's Sinan farm, which would generate 8,200 MW. __________ the most electricity generated by a single offshore wind farm is 1,218 MW.",
     "question_text": "Which choice completes the text with the most logical transition?",
     "choices": [
       {
@@ -751,7 +751,7 @@
       },
       {
         "label": "B",
-        "text": "Both Svanoe’s and Dorn’s games were inspired by works of fiction."
+        "text": "Both Svanoe's and Dorn's games were inspired by works of fiction."
       },
       {
         "label": "C",
@@ -774,7 +774,7 @@
     "difficulty": "Medium",
     "question_number": 25,
     "test_name": "Module Source 188 Eng M2",
-    "passage": "The student wants to contrast the orbits of the two moons. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Jupiter has ninety-five moons, including Callisto and Adrastea.\n• Callisto completes an orbit of Jupiter in 16.69 Earth days on average.\n• Adrastea completes an orbit of Jupiter in 0.30 Earth days on average.\n• German mathematician and astronomer Johannes Kepler (1571–1630) described the orbits of planets as elliptical in shape rather than circular.\n• Kepler published three laws of planetary motion to describe the orbits of planets around the Sun.\n• Kepler’s laws also apply to the elliptical orbits of natural satellites (e.g., moons).",
+    "passage": "The student wants to contrast the orbits of the two moons. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Jupiter has ninety-five moons, including Callisto and Adrastea.\n• Callisto completes an orbit of Jupiter in 16.69 Earth days on average.\n• Adrastea completes an orbit of Jupiter in 0.30 Earth days on average.\n• German mathematician and astronomer Johannes Kepler (1571–1630) described the orbits of planets as elliptical in shape rather than circular.\n• Kepler published three laws of planetary motion to describe the orbits of planets around the Sun.\n• Kepler's laws also apply to the elliptical orbits of natural satellites (e.g., moons).",
     "question_text": "The student wants to contrast the orbits of the two moons. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
     "choices": [
       {
@@ -783,15 +783,15 @@
       },
       {
         "label": "B",
-        "text": "Jupiter’s moons, specifically Callisto and Adrastea, orbit their planet in the same way the planets orbit the Sun."
+        "text": "Jupiter's moons, specifically Callisto and Adrastea, orbit their planet in the same way the planets orbit the Sun."
       },
       {
         "label": "C",
-        "text": "Kepler’s three laws of planetary motion describe the orbits of planets and natural satellites, including those of Callisto and Adrastea."
+        "text": "Kepler's three laws of planetary motion describe the orbits of planets and natural satellites, including those of Callisto and Adrastea."
       },
       {
         "label": "D",
-        "text": "Callisto’s orbit of Jupiter is elliptical in shape and takes, on average, 16.69 Earth days, while Adrastea’s orbit of Jupiter is circular in shape and takes, on average, 0.30 Earth days."
+        "text": "Callisto's orbit of Jupiter is elliptical in shape and takes, on average, 16.69 Earth days, while Adrastea's orbit of Jupiter is circular in shape and takes, on average, 0.30 Earth days."
       }
     ],
     "is_fill_in_blank": false,
@@ -838,20 +838,20 @@
     "difficulty": "Medium",
     "question_number": 27,
     "test_name": "Module Source 188 Eng M2",
-    "passage": "The student wants to explain what makes the neon sculpture glow. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• *Need Money for Cars* is a 2023 sculpture by American artist Beau Dunn.\n• It consists of the title phrase (“need money for cars”) spelled out in glowing white neon lighting.\n• To make neon lighting, glass tubes are heated, molded into shape, and filled with gas.\n• An electrical current is passed through the gas to make it glow.",
+    "passage": "The student wants to explain what makes the neon sculpture glow. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• *Need Money for Cars* is a 2023 sculpture by American artist Beau Dunn.\n• It consists of the title phrase (\"need money for cars\") spelled out in glowing white neon lighting.\n• To make neon lighting, glass tubes are heated, molded into shape, and filled with gas.\n• An electrical current is passed through the gas to make it glow.",
     "question_text": "The student wants to explain what makes the neon sculpture glow. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
     "choices": [
       {
         "label": "A",
-        "text": "Dunn’s 2023 sculpture spells out the phrase “need money for cars” in glowing white neon lights."
+        "text": "Dunn's 2023 sculpture spells out the phrase \"need money for cars\" in glowing white neon lights."
       },
       {
         "label": "B",
-        "text": "The sculpture’s glass tubes have been heated and molded to spell out the phrase “need money for cars.”"
+        "text": "The sculpture's glass tubes have been heated and molded to spell out the phrase \"need money for cars.\""
       },
       {
         "label": "C",
-        "text": "A glow emanates from Dunn’s sculpture, which is made of glass tubes."
+        "text": "A glow emanates from Dunn's sculpture, which is made of glass tubes."
       },
       {
         "label": "D",

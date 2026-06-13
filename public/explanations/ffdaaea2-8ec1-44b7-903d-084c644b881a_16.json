@@ -9,11 +9,11 @@
     },
     {
       "title": "Simplify each term",
-      "content": "$15 \\cdot x = 15x$ and $15 \\cdot 10 = 150$, so $15(x+10) = 15x + 150$."
+      "content": "$15 \\cdot x = 15x$ and $15 \\cdot 10 = 150$, so $\\left(15\\right)(x+10) = 15x + 150$."
     },
     {
       "title": "Compare with the choices",
-      "content": "<ul><li>A) $15x+10$: forgot to multiply $10$ by $15$. Eliminated.</li><li>B) $15x+150$: matches the distributed expression.</li><li>C) $15x+25$: added $15+10$ instead of multiplying. Eliminated.</li><li>D) $15x+5$: subtracted instead of multiplying. Eliminated.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "<ul><li>A) $15x+10$: forgot to multiply $10$ by $15$. Eliminated.</li><li>B) $15x+150$: matches the distributed expression.</li><li>C) $15x+25$: added $15+10$ instead of multiplying. Eliminated.</li><li>D) $15x+5$: subtracted instead of multiplying. Eliminated.</li></ul>That matches the correct answer — <strong>B</strong> is correct."
     }
   ]
 }

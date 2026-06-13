@@ -1,4 +1,5 @@
 {
+  "questionId": "0c54aae7-15f2-4e7b-a138-cae820ff684e_17",
   "qid": "0c54aae7-15f2-4e7b-a138-cae820ff684e_17",
   "correctAnswer": "C",
   "steps": [
@@ -16,7 +17,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li>Choice A: SD of A &lt; SD of B. Group A&rsquo;s values are more spread from its mean than group B&rsquo;s values are from theirs, so A&rsquo;s SD is larger, not smaller. Eliminated.</li><li>Choice B: SD of A = SD of B. The spreads are clearly different; A is more dispersed. Eliminated.</li><li>Choice C: SD of A &gt; SD of B. Group A has more frequency far from its mean, group B is tightly clustered near its mean, so group A has a greater standard deviation. That matches choice C &mdash; <strong>C</strong> is correct.</li><li>Choice D: Not enough information. The histograms give all the data needed to compare spreads. Eliminated.</li></ul>"
+      "content": "<ul><li>Choice A: The standard deviation of weight for the objects in group A is less than the standard deviation of weight for the objects in group B. &mdash; Group A&rsquo;s values are more spread from its mean than group B&rsquo;s values are from theirs, so A&rsquo;s SD is larger, not smaller. Eliminated.</li><li>Choice B: The standard deviation of weight for the objects in group A is equal to the standard deviation of weight for the objects in group B. &mdash; The spreads are clearly different; A is more dispersed. Eliminated.</li><li>Choice C: The standard deviation of weight for the objects in group A is greater than the standard deviation of weight for the objects in group B. &mdash; Group A has more frequency far from its mean, group B is tightly clustered near its mean, so group A has a greater standard deviation. That matches <strong>Choice C &mdash; The standard deviation of weight for the objects in group A is greater than the standard deviation of weight for the objects in group B.</strong>.</li><li>Choice D: There is not enough information to compare the standard deviations of weight for the objects in these two groups. &mdash; The histograms give all the data needed to compare spreads. Eliminated.</li></ul>"
     }
   ]
 }

@@ -13,7 +13,7 @@
     },
     {
       "title": "Eliminate each choice",
-      "content": "<ul><li>A) Initial population in 2012 - matches $f(0)=4{,}000$. Correct.</li><li>B) Population 7 years after 2012 - that would be $f(7)=4{,}000(0.75)^7\\approx 534$, not 4,000.</li><li>C) Percent decrease each year - that comes from $1-0.75=0.25$, i.e. 25%, not 4,000.</li><li>D) Percent decrease every 7 years - again a percentage from the base 0.75, not 4,000.</li></ul>That matches choice A - <strong>A</strong> is correct."
+      "content": "<ul><li>A) Initial population in 2012 - matches $f(0)=4{,}000$. Correct.</li><li>B) Population 7 years after 2012 - that would be $f(7)=4{,}000(0.75)^7\\approx 534$, not 4,000.</li><li>C) Percent decrease each year - that comes from $1-0.75=0.25$, i.e. 25%, not 4,000.</li><li>D) Percent decrease every 7 years - again a percentage from the base 0.75, not 4,000.</li></ul>That matches <strong>Choice A &mdash; The estimated initial beetle population for this species and area in $2012$</strong>- <strong>A</strong>."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId": "dc78fb50-de84-439b-980f-0629b266ff8a_1", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "This is a Words in Context question. The blank follows &quot;despite the education specialist's ______ her expertise on the subject in general.&quot; The word &quot;despite&quot; signals a contrast: her state regarding her expertise must conflict with her ability to speak authoritatively about children's literature. Look for a word meaning uncertainty or reluctance."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'affinity for'</strong>: &quot;Affinity for&quot; means a liking or attraction. If she had an affinity for her expertise, that would align with speaking authoritatively &mdash; no contrast is created. &#10007;</li><li><strong>Choice B &mdash; 'exceptions to'</strong>: &quot;Exceptions to her expertise&quot; is semantically awkward and does not produce a meaningful contrast with speaking authoritatively. &#10007;</li><li><strong>Choice C &mdash; 'hesitancy about'</strong>: &quot;Hesitancy about her expertise&quot; means she doubted or was unsure of her general knowledge. &quot;Despite&quot; that hesitancy, she still managed to speak authoritatively about children's literature &mdash; a clear and logical contrast. &#10003;</li><li><strong>Choice D &mdash; 'insight into'</strong>: &quot;Insight into her expertise&quot; implies she understood her own knowledge well, which would support speaking authoritatively rather than contrast with it. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "dc78fb50-de84-439b-980f-0629b266ff8a_1",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a Words in Context question. The blank follows \"despite the education specialist's ______ her expertise on the subject in general.\" The word \"despite\" signals a contrast: her state regarding her expertise must conflict with her ability to speak authoritatively about children's literature. Look for a word meaning uncertainty or reluctance."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"affinity for\"</strong>: \"Affinity for\" means a liking or attraction. If she had an affinity for her expertise, that would align with speaking authoritatively &mdash; no contrast is created. &#10007;</li><li><strong>\"exceptions to\"</strong>: \"Exceptions to her expertise\" is semantically awkward and does not produce a meaningful contrast with speaking authoritatively. &#10007;</li><li><strong>\"hesitancy about\"</strong>: \"Hesitancy about her expertise\" means she doubted or was unsure of her general knowledge. \"Despite\" that hesitancy, she still managed to speak authoritatively about children's literature &mdash; a clear and logical contrast. &#10003;</li><li><strong>\"insight into\"</strong>: \"Insight into her expertise\" implies she understood her own knowledge well, which would support speaking authoritatively rather than contrast with it. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+    }
+  ]
+}

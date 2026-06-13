@@ -1,1 +1,15 @@
-{"questionId": "a226962a-9c3e-4022-aee4-7a2796cbe032_2", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal", "content": "The passage shows the program was successful: it “could even distinguish between concrete and cobblestone.” For a program to distinguish between different sidewalk materials, it must first successfully locate the sidewalks in the aerial images."}, {"title": "Match the meaning to the choices", "content": "”Detected” is the word that expresses finding or identifying something in data — the core task of a computer vision program analyzing aerial images.<br/><br/>The other choices don't work: “approved” has no relevance to image analysis, “neglected” contradicts the shown success, and “mistook” contradicts both “accurately” and the demonstrated distinction-making.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "a226962a-9c3e-4022-aee4-7a2796cbe032_2",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal",
+      "content": "The passage shows the program was successful: it “could even distinguish between concrete and cobblestone.” For a program to distinguish between different sidewalk materials, it must first successfully locate the sidewalks in the aerial images."
+    },
+    {
+      "title": "Match the meaning to the choices",
+      "content": "”Detected” is the word that expresses finding or identifying something in data — the core task of a computer vision program analyzing aerial images.<br/><br/>The other choices don't work: “approved” has no relevance to image analysis, “neglected” contradicts the shown success, and “mistook” contradicts both “accurately” and the demonstrated distinction-making.<br/><br/>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

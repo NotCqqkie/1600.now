@@ -1,1 +1,15 @@
-{"questionId": "eb783fc1-8559-4650-9621-8d99c6c2ab30_25", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The goal is to emphasize a similarity between two organisms. Both <em>Artemia franciscana</em> and <em>Achromobacter</em> share one key trait: they live in the southern portion of the Great Salt Lake."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; names only one organism</strong>: Cannot show a shared feature with only one subject. &#10007;</li><li><strong>Choice B &mdash; names only one organism</strong>: Same problem. &#10007;</li><li><strong>Choice C &mdash; names neither organism explicitly</strong>: Fails to establish any relationship between the two. &#10007;</li><li><strong>Choice D &mdash; 'both live in the southern portion of the Great Salt Lake'</strong>: Names both organisms and states their shared habitat, directly establishing the similarity. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "eb783fc1-8559-4650-9621-8d99c6c2ab30_25",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The goal is to emphasize a similarity between two organisms. Both <em>Artemia franciscana</em> and <em>Achromobacter</em> share one key trait: they live in the southern portion of the Great Salt Lake."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"*Artemia franciscana*, a type of crustacean, lives in the Great Salt Lake.\"</strong>: Cannot show a shared feature with only one subject. &#10007;</li><li><strong>\"Bacteria called *Achromobacter* live in the Great Salt Lake, which is located in Utah.\"</strong>: Same problem. &#10007;</li><li><strong>\"The Great Salt Lake in Utah is one of the saltiest bodies of water in the world.\"</strong>: Fails to establish any relationship between the two. &#10007;</li><li><strong>\"Crustaceans called *Artemia franciscana* and bacteria called *Achromobacter* both live in the southern portion of the Great Salt Lake.\"</strong>: Names both organisms and states their shared habitat, directly establishing the similarity. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+    }
+  ]
+}

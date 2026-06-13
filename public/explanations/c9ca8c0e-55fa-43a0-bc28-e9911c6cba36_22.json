@@ -1,1 +1,15 @@
-{"questionId":"c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_22","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The first sentence states a general principle: sleek vehicles are more aerodynamic than bulkier ones. The second sentence presents the Airbus A350&apos;s streamlined nose as a concrete case. The blank must signal that the second sentence is an example illustrating the first."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Meanwhile'</strong>: implies two things happening at the same time, not that one illustrates the other. &#10007;</li><li><strong>Choice B &mdash; 'However'</strong>: signals contrast or contradiction, the opposite of what&apos;s needed. &#10007;</li><li><strong>Choice C &mdash; 'Additionally'</strong>: adds a separate point rather than showing the A350 as a specific instance of the principle. &#10007;</li><li><strong>Choice D &mdash; 'For example'</strong>: introduces the A350&apos;s streamlined nose as a concrete instance of why sleek vehicles are more aerodynamic. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_22",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The first sentence states a general principle: sleek vehicles are more aerodynamic than bulkier ones. The second sentence presents the Airbus A350&apos;s streamlined nose as a concrete case. The blank must signal that the second sentence is an example illustrating the first."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; meanwhile,</strong>: implies two things happening at the same time, not that one illustrates the other. &#10007;</li><li><strong>Choice B &mdash; however,</strong>: signals contrast or contradiction, the opposite of what&apos;s needed. &#10007;</li><li><strong>Choice C &mdash; additionally,</strong>: adds a separate point rather than showing the A350 as a specific instance of the principle. &#10007;</li><li><strong>Choice D &mdash; for example,</strong>: introduces the A350&apos;s streamlined nose as a concrete instance of why sleek vehicles are more aerodynamic. &#10003;</li></ul>That is the correct answer."
+    }
+  ]
+}

@@ -257,7 +257,7 @@
     "difficulty": "Easy",
     "question_number": 11,
     "test_name": "Module Source 069 Math M1",
-    "passage": "A rectangle has a length that is 72 times its width. The function $y=(72w)(w)$ represents this situation, where $y$ is the area, in square feet, of the rectangle and $y > 0$. Which of the following is the best interpretation of $72w$ in this context?",
+    "passage": "A rectangle has a length that is 72 times its width. The function $y=(72w)(w)$ represents this situation, where $y$ is the area, in square feet, of the rectangle and $y \\gt 0$. Which of the following is the best interpretation of $72w$ in this context?",
     "question_text": null,
     "choices": [
       {
@@ -508,7 +508,7 @@
     "difficulty": "Medium",
     "question_number": 22,
     "test_name": "Module Source 069 Math M1",
-    "passage": "In the $xy$-plane, line $k$ and line $l$ are perpendicular and intersect at the point $(2, 8)$. If line $k$ is defined by the equation $y = mx + b$, where $m$ and $b$ are constants and $m > 1$, which of the following points lies on line $l$?",
+    "passage": "In the $xy$-plane, line $k$ and line $l$ are perpendicular and intersect at the point $(2, 8)$. If line $k$ is defined by the equation $y = mx + b$, where $m$ and $b$ are constants and $m \\gt 1$, which of the following points lies on line $l$?",
     "question_text": null,
     "choices": [
       {

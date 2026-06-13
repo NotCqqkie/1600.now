@@ -1,1 +1,15 @@
-{"questionId": "9091458d", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the interrogative structure", "content": "The blank must complete a sentence beginning with <strong>How</strong> that asks a direct question. The following sentence, <em>“A layer of microbubbles on their plumage reduces friction as the penguins speed to the surface,”</em> is an independent clause providing the explanation."}, {"title": "Match the interrogative form and punctuation", "content": "Direct interrogative sentences require inversion of the auxiliary verb and subject: <strong>are they able to move</strong> not <strong>they are able to move</strong>, and they end with a question mark.<br/><br/>D provides both—<strong>“How are they able to move so fast?”</strong>—making it the correct interrogative form that precedes and sets up the explanation in the next sentence.<br/><br/>A and C fail the inversion requirement, while B has the inversion but uses a period instead of a question mark.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "9091458d",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the interrogative structure",
+      "content": "The blank must complete a sentence beginning with <strong>How</strong> that asks a direct question. The following sentence, <em>“A layer of microbubbles on their plumage reduces friction as the penguins speed to the surface,”</em> is an independent clause providing the explanation."
+    },
+    {
+      "title": "Match the interrogative form and punctuation",
+      "content": "Direct interrogative sentences require inversion of the auxiliary verb and subject: <strong>are they able to move</strong> not <strong>they are able to move</strong>, and they end with a question mark.<br/><br/>D provides both—<strong>“How are they able to move so fast?”</strong>—making it the correct interrogative form that precedes and sets up the explanation in the next sentence.<br/><br/>A and C fail the inversion requirement, while B has the inversion but uses a period instead of a question mark.<br/><br/>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

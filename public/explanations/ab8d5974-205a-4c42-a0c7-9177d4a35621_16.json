@@ -1,1 +1,15 @@
-{"questionId": "ab8d5974-205a-4c42-a0c7-9177d4a35621_16", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "After &quot;investigate how,&quot; the blank must complete an indirect question &mdash; a subordinate noun clause that acts as the object of the verb. Indirect questions use statement word order (subject before auxiliary verb) and end with a period, not a question mark."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; inverted word order with question mark</strong>: flips auxiliary before subject, treating this as a direct question. Indirect questions never use direct-question word order. &#10007;</li><li><strong>Choice B &mdash; statement order with period</strong>: keeps subject before auxiliary (&quot;their use could be better regulated&quot;) and ends with a period. Correct indirect question structure. &#10003;</li><li><strong>Choice C &mdash; inverted word order with period</strong>: drops the question mark but keeps the inverted auxiliary-first order, which is still wrong for an indirect question. &#10007;</li><li><strong>Choice D &mdash; statement order with question mark</strong>: gets the word order right but ends with a question mark, which turns the whole sentence into a direct question. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "ab8d5974-205a-4c42-a0c7-9177d4a35621_16",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "After &quot;investigate how,&quot; the blank must complete an indirect question &mdash; a subordinate noun clause that acts as the object of the verb. Indirect questions use statement word order (subject before auxiliary verb) and end with a period, not a question mark."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; could their use be better regulated?</strong>: flips auxiliary before subject, treating this as a direct question. Indirect questions never use direct-question word order. &#10007;</li><li><strong>Choice B &mdash; their use could be better regulated.</strong>: keeps subject before auxiliary (&quot;their use could be better regulated&quot;) and ends with a period. Correct indirect question structure. &#10003;</li><li><strong>Choice C &mdash; their use could be better regulated?</strong>: drops the question mark but keeps the inverted auxiliary-first order, which is still wrong for an indirect question. &#10007;</li><li><strong>Choice D &mdash; could their use be better regulated.</strong>: gets the word order right but ends with a question mark, which turns the whole sentence into a direct question. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

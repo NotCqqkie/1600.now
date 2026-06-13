@@ -1,1 +1,15 @@
-{"questionId":"df7af07f-1de4-419a-83e5-dadc9e1caefe_11","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks which plant had the lowest average power generated per year in 2019. Look at the <strong>Average power generation (MWh/yr)</strong> column."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Wisconsin (White River)'</strong>: 3,999 MWh/yr &mdash; the smallest value in the column. &#10003;</li><li><strong>Choice B &mdash; 'Florida'</strong>: 193,864 MWh/yr &mdash; the highest value, not the lowest. &#10007;</li><li><strong>Choice C &mdash; 'Michigan'</strong>: 10,693 MWh/yr &mdash; higher than Wisconsin. &#10007;</li><li><strong>Choice D &mdash; 'Indiana'</strong>: 19,751 MWh/yr &mdash; higher than Wisconsin. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "df7af07f-1de4-419a-83e5-dadc9e1caefe_11",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks which plant had the lowest average power generated per year in 2019. Look at the <strong>Average power generation (MWh/yr)</strong> column."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"Wisconsin.\"</strong>: 3,999 MWh/yr &mdash; the smallest value in the column. &#10003;</li><li><strong>\"Michigan.\"</strong>: 193,864 MWh/yr &mdash; the highest value, not the lowest. &#10007;</li><li><strong>\"Florida.\"</strong>: 10,693 MWh/yr &mdash; higher than Wisconsin. &#10007;</li><li><strong>\"Indiana.\"</strong>: 19,751 MWh/yr &mdash; higher than Wisconsin. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+    }
+  ]
+}

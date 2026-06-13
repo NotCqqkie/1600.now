@@ -6,7 +6,7 @@
     "difficulty": "Easy",
     "question_number": 1,
     "test_name": "Module Source 126 Math M2",
-    "passage": "If $44 = 6 + 2(x - 3)$, what is the value of $2(x - 3)$?",
+    "passage": "If $44 = 6 + 2(x - 3)$, what is the value of $2\\left(x - 3\\right)$?",
     "question_text": null,
     "choices": [
       {
@@ -102,7 +102,7 @@
     "difficulty": "Medium",
     "question_number": 4,
     "test_name": "Module Source 126 Math M2",
-    "passage": "What is the $y$-intercept of the graph of $y = 12(5)x + 2$ in the $xy$-plane?",
+    "passage": "What is the $y$-intercept of the graph of $y = 12(5)^{x+2}$ in the $xy$-plane?",
     "question_text": null,
     "choices": [
       {
@@ -257,11 +257,11 @@
     "choices": [
       {
         "label": "A",
-        "text": "$q < s$"
+        "text": "$q \\lt s$"
       },
       {
         "label": "B",
-        "text": "$q > s$"
+        "text": "$q \\gt s$"
       },
       {
         "label": "C",
@@ -323,7 +323,7 @@
     "difficulty": "Medium",
     "question_number": 12,
     "test_name": "Module Source 126 Math M2",
-    "passage": "For an online trivia game, 490 points are awarded for a correct answer if a question is answered in less than 5 seconds from the time the question is asked. Each 5 seconds after the question is asked, the number of points awarded for a correct answer decreases by 20% of the number of points awarded for a correct answer in the previous 5 seconds. Which function gives the number of points awarded for a correct answer $a$ seconds from the time the question is asked, where $x$ is a multiple of 5?",
+    "passage": "For an online trivia game, 490 points are awarded for a correct answer if a question is answered in less than 5 seconds from the time the question is asked. Each 5 seconds after the question is asked, the number of points awarded for a correct answer decreases by 20% of the number of points awarded for a correct answer in the previous 5 seconds. Which function gives the number of points awarded for a correct answer $x$ seconds from the time the question is asked, where $x$ is a multiple of 5?",
     "question_text": null,
     "choices": [
       {
@@ -613,7 +613,7 @@
     "difficulty": "Hard",
     "question_number": 22,
     "test_name": "Module Source 126 Math M2",
-    "passage": "The mass of object A is 416% of the mass of object B, and the mass of object A is 0.064% of the mass of object C. If the mass of object C is $p$% of the mass of object B, what is the value of $\\frac{p}{1,000}$?",
+    "passage": "The mass of object A is $416\\%$ of the mass of object B, and the mass of object A is $0.064\\%$ of the mass of object C. If the mass of object C is $p\\%$ of the mass of object B, what is the value of $\\frac{p}{1,000}$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

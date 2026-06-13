@@ -1,1 +1,15 @@
-{"questionId": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_10", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the requirement for the claim", "content": "The second team claims these sounds are primarily for intraspecies communication. For this claim to hold, other caterpillars must actually be present when sounds are produced—communication requires an audience."}, {"title": "Test which finding most directly challenges this", "content": "Choice C reveals that the caterpillars producing these sounds are typically solitary and tested in isolation.<br/><br/>If no other caterpillars are present, intraspecies communication is physically impossible, directly destroying the second team's claim.<br/><br/>Choices A and D suggest the sounds serve defensive functions instead, while B addresses species that don't produce sounds during attacks.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_10",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the requirement for the claim",
+      "content": "The second team claims these sounds are primarily for intraspecies communication. For this claim to hold, other caterpillars must actually be present when sounds are produced—communication requires an audience."
+    },
+    {
+      "title": "Test which finding most directly challenges this",
+      "content": "<strong>Choice C &mdash; Caterpillars that were found to produce sounds in response to simulated attacks are typically solitary and were tested in isolation.</strong> reveals that the caterpillars producing these sounds are typically solitary and tested in isolation.<br/><br/>If no other caterpillars are present, intraspecies communication is physically impossible, directly destroying the second team's claim.<br/><br/>The defensive-function alternatives support a different explanation, while the species-without-sounds alternative does not address the sound-producing caterpillars.<br/><br/>That matches <strong>Choice C &mdash; Caterpillars that were found to produce sounds in response to simulated attacks are typically solitary and were tested in isolation.</strong>."
+    }
+  ]
+}

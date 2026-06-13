@@ -1,1 +1,15 @@
-{"questionId": "872f5c64-d384-4d98-b5b2-8f9c1b11bbd1_4", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The passage states the program identified sidewalks in <strong>the vast majority of cases</strong> and has <strong>already-strong performance</strong> that will improve further. These phrases signal consistent, successful operation."}, {"title": "Match the word to the context", "content": "The program needs to mean it ______ identified sidewalks in the vast majority of cases — the blank describes how consistently it performed. Substitute each choice: <ul><li><strong>Choice A — clumsily</strong>: awkwardly or poorly — contradicts the \"vast majority\" success rate and \"already-strong performance.\" ✗</li><li><strong>Choice B — reliably</strong>: consistently and dependably — matches a program that identified sidewalks in the vast majority of cases with already-strong performance. ✓</li><li><strong>Choice C — rarely</strong>: infrequently — directly contradicts \"the vast majority of cases.\" ✗</li><li><strong>Choice D — slowly</strong>: at a low speed — the passage says nothing about processing speed, only accuracy. ✗</li></ul> That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "872f5c64-d384-4d98-b5b2-8f9c1b11bbd1_4",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The passage states the program identified sidewalks in <strong>the vast majority of cases</strong> and has <strong>already-strong performance</strong> that will improve further. These phrases signal consistent, successful operation."
+    },
+    {
+      "title": "Match the word to the context",
+      "content": "The program needs to mean it ______ identified sidewalks in the vast majority of cases — the blank describes how consistently it performed. Substitute each choice: <ul><li><strong>Choice A &mdash; clumsily</strong>: awkwardly or poorly — contradicts the \"vast majority\" success rate and \"already-strong performance.\" ✗</li><li><strong>Choice B &mdash; reliably</strong>: consistently and dependably — matches a program that identified sidewalks in the vast majority of cases with already-strong performance. ✓</li><li><strong>Choice C &mdash; rarely</strong>: infrequently — directly contradicts \"the vast majority of cases.\" ✗</li><li><strong>Choice D &mdash; slowly</strong>: at a low speed — the passage says nothing about processing speed, only accuracy. ✗</li></ul> That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

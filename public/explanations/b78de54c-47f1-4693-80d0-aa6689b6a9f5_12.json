@@ -1,1 +1,15 @@
-{"questionId":"b78de54c-47f1-4693-80d0-aa6689b6a9f5_12","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage states some expressions appear only in songs, while current preservation efforts focus on spoken language. The question asks what logically follows — the answer must bridge that gap."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'unrelated analysis'</strong>: Proposes analyzing songs for something other than preservation. Does not solve the preservation gap. &#10007;</li><li><strong>Choice B &mdash; 'describe songs without solving preservation'</strong>: Acknowledges songs exist but takes no action toward preserving their unique expressions. &#10007;</li><li><strong>Choice C &mdash; 'incorporating songs into preservation efforts'</strong>: Directly closes the gap — if songs contain expressions not found in speech, adding songs to preservation efforts captures all expressions. &#10003;</li><li><strong>Choice D &mdash; 'unsupported claim'</strong>: Makes a claim the passage does not support. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_12",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage states some expressions appear only in songs, while current preservation efforts focus on spoken language. The question asks what logically follows — the answer must bridge that gap."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; analyze musical similarities in the songs of the Warlpiri and Karen (hta) Hin Lad Nai people.</strong>: Proposes analyzing songs for something other than preservation. Does not solve the preservation gap. &#10007;</li><li><strong>Choice B &mdash; acknowledge that Indigenous songs are largely but not entirely composed using phrases taken from spoken language.</strong>: Acknowledges songs exist but takes no action toward preserving their unique expressions. &#10007;</li><li><strong>Choice C &mdash; incorporate the preservation of songs into their broader efforts to protect Indigenous languages.</strong>: Directly closes the gap — if songs contain expressions not found in speech, adding songs to preservation efforts captures all expressions. &#10003;</li><li><strong>Choice D &mdash; recognize that Indigenous languages likely have more unique expressions that represent ecological knowledge than represent other types of information.</strong>: Makes a claim the passage does not support. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

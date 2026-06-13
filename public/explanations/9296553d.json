@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice B has the right slope but the wrong intercept. Choices C and D have positive slope, which is the wrong direction. Choice <strong>A</strong>, $y=-x+6$, is correct.",
+      "content": "$y = - x -6$ has the right slope but the wrong intercept. The positive-slope equations have the wrong direction. The matching equation is $y = - x + 6$.",
       "desmosExpressions": [
         "y=-x+6"
       ]

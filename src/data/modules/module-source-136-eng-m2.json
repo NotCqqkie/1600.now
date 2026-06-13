@@ -38,8 +38,8 @@
     "difficulty": "Hard",
     "question_number": 2,
     "test_name": "Module Source 136 Eng M2",
-    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nWhen discussing literary movements in Spain, scholars regularly characterize the works of Miguel de Unamuno as especially representative of the Generation of ‘98. The reasons for this characterization may seem ______, but linking Unamuno with the Generation of '98 risks disregarding the subtleties in his style that do not neatly conform to the conventions of this literary movement.",
-    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nWhen discussing literary movements in Spain, scholars regularly characterize the works of Miguel de Unamuno as especially representative of the Generation of \"98. The reasons for this characterization may seem ______, but linking Unamuno with the Generation of '98 risks disregarding the subtleties in his style that do not neatly conform to the conventions of this literary movement.",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -134,8 +134,8 @@
     "difficulty": "Hard",
     "question_number": 5,
     "test_name": "Module Source 136 Eng M2",
-    "passage": "Which choice best describes the function of the underlined sentence in the text as a whole?\nIn 2015 Filipa Faleiro and colleagues published a study concluding that ocean acidification has a strong effect on the behavior of *Hippocampus guttulatus*, a species of fish. However, Faleiro and colleagues’ study relied on a mean sample size of only 6 fish. In a 2022 review of various scientists’ conclusions about the impacts of ocean acidification on fish behavior, Jeff C. Clements and colleagues caution that relying on such a relatively small sample size can increase the potential for biased analysis. <u>Such analysis, in turn, can contribute to reports of exaggerated effects.</u>",
-    "question_text": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "passage": "Which choice best describes the function of the underlined sentence in the text as a whole?\nIn 2015 Filipa Faleiro and colleagues published a study concluding that ocean acidification has a strong effect on the behavior of *Hippocampus guttulatus*, a species of fish. However, Faleiro and colleagues\" study relied on a mean sample size of only 6 fish. In a 2022 review of various scientists\" conclusions about the impacts of ocean acidification on fish behavior, Jeff C. Clements and colleagues caution that relying on such a relatively small sample size can increase the potential for biased analysis. <u>Such analysis, in turn, can contribute to reports of exaggerated effects.</u>",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
@@ -166,7 +166,7 @@
     "difficulty": "Medium",
     "question_number": 6,
     "test_name": "Module Source 136 Eng M2",
-    "passage": "Taken together, the three underlined portions most clearly serve which function in the text as a whole?\nThe following text is from a 1911 translation of Guy de Maupassant's 1881 short story “A Family Affair.” The narrator is describing Monsieur Alfred Caravan, a bureaucrat in the French government. For the last thirty years he had invariably gone the same way to his office every morning, and had met the same men going to business at the same time, and nearly on the same spot. Every morning, after buying his penny paper at the corner of the Faubourg Saint Honore, he bought two rolls, and then went to his office, <u>like a culprit</u> who is giving himself up to justice, and got to his desk as quickly as possible, always feeling uneasy, as though he were <u>expecting a rebuke</u> for some neglect of duty of which he might have been guilty.",
+    "passage": "Taken together, the three underlined portions most clearly serve which function in the text as a whole?\nThe following text is from a 1911 translation of Guy de Maupassant's 1881 short story \"A Family Affair.\" The narrator is describing Monsieur Alfred Caravan, a bureaucrat in the French government. For the last thirty years he had invariably gone the same way to his office every morning, and had met the same men going to business at the same time, and nearly on the same spot. Every morning, after buying his penny paper at the corner of the Faubourg Saint Honore, he bought two rolls, and then went to his office, <u>like a culprit</u> who is giving himself up to justice, and got to his desk as quickly as possible, always feeling uneasy, as though he were <u>expecting a rebuke</u> for some neglect of duty of which he might have been guilty.",
     "question_text": "Taken together, the three underlined portions most clearly serve which function in the text as a whole?",
     "choices": [
       {
@@ -230,7 +230,7 @@
     "difficulty": "Medium",
     "question_number": 8,
     "test_name": "Module Source 136 Eng M2",
-    "passage": "Based on the texts, how would the author of Text 2 most likely respond to the problem presented in Text 1?\nText 1\nOne challenge faced by researchers studying global urbanization is that countries may define urban settlements differently. Many countries define urban settlements based on the number of people living in them. However, countries do not all use the same number; for example, Greenland uses a minimum population of 200, while the Netherlands uses 20,000. Other countries use a combination of population and other factors. This variation makes it difficult for researchers to compare aspects of urbanization in different countries.\nText 2\nRecently, a group of six international organizations developed global definitions of common types of settlements. The group developed a new measure called the “degree of urbanization.” This new measure establishes global criteria used to define three types of settlements (cities, towns, and rural areas) and allows researchers to better understand global urbanization rates.",
+    "passage": "Based on the texts, how would the author of Text 2 most likely respond to the problem presented in Text 1?\nText 1\nOne challenge faced by researchers studying global urbanization is that countries may define urban settlements differently. Many countries define urban settlements based on the number of people living in them. However, countries do not all use the same number; for example, Greenland uses a minimum population of 200, while the Netherlands uses 20,000. Other countries use a combination of population and other factors. This variation makes it difficult for researchers to compare aspects of urbanization in different countries.\nText 2\nRecently, a group of six international organizations developed global definitions of common types of settlements. The group developed a new measure called the \"degree of urbanization.\" This new measure establishes global criteria used to define three types of settlements (cities, towns, and rural areas) and allows researchers to better understand global urbanization rates.",
     "question_text": "Based on the texts, how would the author of Text 2 most likely respond to the problem presented in Text 1?",
     "choices": [
       {
@@ -397,7 +397,7 @@
     "difficulty": "Medium",
     "question_number": 13,
     "test_name": "Module Source 136 Eng M2",
-    "passage": "Which choice most logically completes the text?\nTo understand consumer loyalty to specific online retailers, Marina Ẑiẑakov and colleagues conducted a survey using 58 statements as proxy indicators of customer experience with receiving online purchases. The statements were categorized by topic—e.g, statement 13, “I am eagerly awaiting the delivery of the ordered items,” was categorized as joyful anticipation and respondents, all of whom were from Serbia (which is characterized as having a developing economy), rated the importance of each statement to their experience. Researchers found that participants placed low importance on package aesthetics and high importance on speedy delivery and package tracking, but the researchers cautioned against applying the findings to customers generally, suggesting that ______",
+    "passage": "Which choice most logically completes the text?\nTo understand consumer loyalty to specific online retailers, Marina Ẑiẑakov and colleagues conducted a survey using 58 statements as proxy indicators of customer experience with receiving online purchases. The statements were categorized by topic—e.g, statement 13, \"I am eagerly awaiting the delivery of the ordered items,\" was categorized as joyful anticipation and respondents, all of whom were from Serbia (which is characterized as having a developing economy), rated the importance of each statement to their experience. Researchers found that participants placed low importance on package aesthetics and high importance on speedy delivery and package tracking, but the researchers cautioned against applying the findings to customers generally, suggesting that ______",
     "question_text": "Which choice most logically completes the text?",
     "choices": [
       {
@@ -717,7 +717,7 @@
     "difficulty": "Hard",
     "question_number": 23,
     "test_name": "Module Source 136 Eng M2",
-    "passage": "Which choice completes the text with the most logical transition?\nIn a 2022 analysis of 200 terms, researchers found a broad pattern of valence—dependent mutation for which negative words saw a faster rate of cognate replacement—______ the rate at which a word will be replaced over time with a noncognate form. Adjectives (e.g., “frightened”) saw the largest effect; nouns (e.g., “pain”), meanwhile, saw the smallest.",
+    "passage": "Which choice completes the text with the most logical transition?\nIn a 2022 analysis of 200 terms, researchers found a broad pattern of valence—dependent mutation for which negative words saw a faster rate of cognate replacement—______ the rate at which a word will be replaced over time with a noncognate form. Adjectives (e.g., \"frightened\") saw the largest effect; nouns (e.g., \"pain\"), meanwhile, saw the smallest.",
     "question_text": "Which choice completes the text with the most logical transition?",
     "choices": [
       {
@@ -813,8 +813,8 @@
     "difficulty": "Medium",
     "question_number": 26,
     "test_name": "Module Source 136 Eng M2",
-    "passage": "The student wants to define the term “high-sinuosity river.” Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• A U-shaped curve in a river channel is called a meander.\n• A meander forms when water erodes sediment from one side of the riverbank and redeposits that sediment on the opposite side.\n• Meanders will gradually change shape and migrate downstream over time.\n• A river with high sinuosity has many meanders, and a river with low sinuosity has few.\n• The Willapa River in the United States has high sinuosity.",
-    "question_text": "The student wants to define the term “high-sinuosity river.” Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "passage": "The student wants to define the term \"high-sinuosity river.\" Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• A U-shaped curve in a river channel is called a meander.\n• A meander forms when water erodes sediment from one side of the riverbank and redeposits that sediment on the opposite side.\n• Meanders will gradually change shape and migrate downstream over time.\n• A river with high sinuosity has many meanders, and a river with low sinuosity has few.\n• The Willapa River in the United States has high sinuosity.",
+    "question_text": "The student wants to define the term \"high-sinuosity river.\" Which choice most effectively uses relevant information from the notes to accomplish this goal?",
     "choices": [
       {
         "label": "A",

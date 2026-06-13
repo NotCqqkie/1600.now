@@ -9,7 +9,7 @@
     },
     {
       "title": "Find the period in months",
-      "content": "If growth of 4% occurs every $n$ months, then in 12 months (1 year), there are $\\frac{12}{n}$ periods. This must equal 1.5:<br/>$$\\frac{12}{n} = 1.5$$<br/>$$n = \\frac{12}{1.5} = 8$$<br/>That matches choice A — <strong>A</strong> is correct."
+      "content": "If growth of 4% occurs every $n$ months, then in 12 months (1 year), there are $\\frac{12}{n}$ periods. This must equal 1.5:<br/>$$\\frac{12}{n} = 1.5$$<br/>$$n = \\frac{12}{1.5} = 8$$<br/>That matches <strong>Choice A &mdash; $8$</strong>."
     }
   ]
 }

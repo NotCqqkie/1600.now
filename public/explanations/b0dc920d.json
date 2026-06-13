@@ -1,17 +1,22 @@
 {
+  "questionId": "b0dc920d",
   "qid": "b0dc920d",
   "steps": [
     {
-      "text": "The volume of a right cylinder is $V = \\pi r^2 h$. The height is 4 inches longer than the radius, so $h = r + 4$."
+      "title": "Step 1",
+      "content": "The volume of a right cylinder is $V = \\pi r^2 h$. The height is 4 inches longer than the radius, so $h = r + 4$."
     },
     {
-      "text": "Substitute: $V = \\pi r^2(r + 4)$."
+      "title": "Step 2",
+      "content": "Substitute: $V = \\pi r^2(r + 4)$."
     },
     {
-      "text": "Distribute: $V = \\pi r^3 + 4\\pi r^2$."
+      "title": "Step 3",
+      "content": "Distribute: $V = \\pi r^3 + 4\\pi r^2$."
     },
     {
-      "text": "<ul><li>A: $4\\pi r^3$ requires $h = 4r$, not $h = r + 4$. Eliminated.</li><li>B: $\\pi(2r)^3 = 8\\pi r^3$ — uses $(2r)^3$, unrelated to the height constraint. Eliminated.</li><li>C: $\\pi r^2 + 4\\pi r = \\pi r(r + 4)$ — missing one factor of $r$. Eliminated.</li><li>D: $\\pi r^3 + 4\\pi r^2 = \\pi r^2(r + 4)$ — matches exactly. That matches choice D — <strong>D</strong> is correct.</li></ul>"
+      "title": "Step 4",
+      "content": "<ul><li>A: $4\\pi r^3$ requires $h = 4r$, not $h = r + 4$. Eliminated.</li><li>B: $\\pi(2r)^3 = 8\\pi r^3$ — uses $(2r)^3$, unrelated to the height constraint. Eliminated.</li><li>C: $\\pi r^2 + 4\\pi r = \\pi r(r + 4)$ — missing one factor of $r$. Eliminated.</li><li>D: $\\pi r^3 + 4\\pi r^2 = \\pi r^2(r + 4)$ — matches exactly. That is the correct answer.</li></ul>"
     }
   ],
   "correctAnswer": "D"

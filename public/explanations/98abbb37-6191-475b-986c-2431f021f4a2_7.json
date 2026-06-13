@@ -1,1 +1,15 @@
-{"questionId":"98abbb37-6191-475b-986c-2431f021f4a2_7","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage opens by noting that feathered dinosaurs are commonly associated with wings, then uses 'However' to pivot to its actual main point: many non-winged dinosaurs also had feathers, illustrated by Yutyrannus. The question asks for the choice that best describes the passage&apos;s main purpose."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; feathers on both winged and wingless dinosaurs</strong>: matches the passage&apos;s central contrast between the common assumption (wings = feathers) and the reality (many feathered dinosaurs lacked wings). &#10003;</li><li><strong>Choice B &mdash; differences between bird and dinosaur feathers</strong>: the passage never compares bird feathers to dinosaur feathers &mdash; this topic is absent. &#10007;</li><li><strong>Choice C &mdash; how feathered dinosaurs went extinct</strong>: extinction is not discussed anywhere in the passage. &#10007;</li><li><strong>Choice D &mdash; Yutyrannus as the only feathered dinosaur</strong>: the passage presents Yutyrannus as one example among many, not the sole feathered dinosaur. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "98abbb37-6191-475b-986c-2431f021f4a2_7",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage opens by noting that feathered dinosaurs are commonly associated with wings, then uses 'However' to pivot to its actual main point: many non-winged dinosaurs also had feathers, illustrated by Yutyrannus. The question asks for the choice that best describes the passage&apos;s main purpose."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; To discuss the presence of feathers on certain types of dinosaurs</strong>: matches the passage&apos;s central contrast between the common assumption (wings = feathers) and the reality (many feathered dinosaurs lacked wings). &#10003;</li><li><strong>Choice B &mdash; To point out the differences between dinosaur feathers and bird feathers</strong>: the passage never compares bird feathers to dinosaur feathers &mdash; this topic is absent. &#10007;</li><li><strong>Choice C &mdash; To explain why feathered dinosaurs went extinct</strong>: extinction is not discussed anywhere in the passage. &#10007;</li><li><strong>Choice D &mdash; To argue that only one species of dinosaur had feathers</strong>: the passage presents Yutyrannus as one example among many, not the sole feathered dinosaur. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "2ecbcc31-a047-4184-8f07-5ee89663c904_3", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The blank describes how drivers who believe the toll is already too high will respond to arguments for increasing it. The passage then says advocates should direct arguments toward a more &quot;persuadable&quot; segment — implying these drivers are not persuadable, i.e., they resist or reject such arguments."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'cited in'</strong>: Means referenced or quoted in those arguments. Drivers opposed to the toll wouldn't be cited in pro-increase arguments. &#10007;</li><li><strong>Choice B &mdash; 'apprised of'</strong>: Means informed or notified. Being informed of arguments says nothing about rejecting them — doesn't capture resistance. &#10007;</li><li><strong>Choice C &mdash; 'unsympathetic to'</strong>: Means not receptive or opposed. Drivers who already think the toll is too high would be unsympathetic to arguments for raising it. &#10003;</li><li><strong>Choice D &mdash; 'placated by'</strong>: Means calmed or appeased by. This implies the arguments would satisfy them — the opposite of the passage's meaning. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "2ecbcc31-a047-4184-8f07-5ee89663c904_3",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank describes how drivers who believe the toll is already too high will respond to arguments for increasing it. The passage then says advocates should direct arguments toward a more &quot;persuadable&quot; segment — implying these drivers are not persuadable, i.e., they resist or reject such arguments."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — cited in</strong>: Means referenced or quoted in those arguments. Drivers opposed to the toll wouldn't be cited in pro-increase arguments. &#10007;</li><li><strong>Choice B — apprised of</strong>: Means informed or notified. Being informed of arguments says nothing about rejecting them — doesn't capture resistance. &#10007;</li><li><strong>Choice C — unsympathetic to</strong>: Means not receptive or opposed. Drivers who already think the toll is too high would be unsympathetic to arguments for raising it. &#10003;</li><li><strong>Choice D — placated by</strong>: Means calmed or appeased by. This implies the arguments would satisfy them — the opposite of the passage's meaning. &#10007;</li></ul><strong>C</strong> is correct."
+    }
+  ]
+}

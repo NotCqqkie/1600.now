@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find base angles of isosceles triangle ACD",
-      "content": "Since $AC = CD$ and angle $ACD = 104°$, triangle $ACD$ is isosceles. In an isosceles triangle, the base angles are equal:<br/>$$\\angle CAD = \\angle CDA = \\frac{180° - 104°}{2} = \\frac{76°}{2} = 38°$$"
+      "content": "Since $AC = CD$ and angle $ACD = 104^{\\circ}$, triangle $ACD$ is isosceles. In an isosceles triangle, the base angles are equal:<br/>$$\\angle CAD = \\angle CDA = \\frac{180^{\\circ} - 104^{\\circ}}{2} = \\frac{76^{\\circ}}{2} = 38^{\\circ}$$"
     },
     {
       "title": "Identify the relevant collinear points from the figure",
-      "content": "From the figure, points $D$, $C$, $B$ are collinear (so $\\angle ACB$ and $\\angle ACD$ form a linear pair), and points $D$, $E$, $A$ are collinear (so $E$ lies on segment $DA$). In particular, $\\angle BDE = \\angle CDA = 38°$ since $E$ is on $DA$ and $C$ is on $DB$."
+      "content": "From the figure, points $D$, $C$, $B$ are collinear (so $\\angle ACB$ and $\\angle ACD$ form a linear pair), and points $D$, $E$, $A$ are collinear (so $E$ lies on segment $DA$). In particular, $\\angle BDE = \\angle CDA = 38^{\\circ}$ since $E$ is on $DA$ and $C$ is on $DB$."
     },
     {
       "title": "Apply the exterior angle theorem to triangle BDE",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Substitute the known angles to find x",
-      "content": "We have $\\angle DBE = \\angle EBC = 45°$ (given) and $\\angle BDE = 38°$ (from Step 1). Therefore:<br/>$$x = 45° + 38° = 83°$$<br/>The answer is <strong>83</strong>."
+      "content": "We have $\\angle DBE = \\angle EBC = 45^{\\circ}$ (given) and $\\angle BDE = 38^{\\circ}$ (from Step 1). Therefore:<br/>$$x = 45^{\\circ} + 38^{\\circ} = 83^{\\circ}$$<br/>The answer is <strong>83</strong>."
     }
   ]
 }

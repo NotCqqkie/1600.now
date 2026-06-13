@@ -9,7 +9,7 @@
     },
     {
       "title": "Find $\\tfrac{17}{2}x + 18y$",
-      "content": "Subtract first from second: $-x = -2$ so $x = 2$. From first: $7 + 6y = 25$ so $y = 3$. Then $\\frac{17}{2}(2) + 18(3) = 17 + 54 = 71$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."
+      "content": "Subtract first from second: $-x = -2$ so $x = 2$. From first: $7 + 6y = 25$ so $y = 3$. Then $\\frac{17}{2}(2) + 18(3) = 17 + 54 = 71$. <strong>D</strong> is correct."
     }
   ]
 }

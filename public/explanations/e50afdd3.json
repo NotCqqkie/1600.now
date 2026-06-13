@@ -9,7 +9,7 @@
     },
     {
       "title": "Determine which x-coordinate is on the circle",
-      "content": "For a point $(a, b)$ on the circle, $(a+4)^2 + (b-19)^2 = 121$.<br/>Rearranging: $(b-19)^2 = 121 - (a+4)^2$.<br/>For $b$ to be real, we need $(a+4)^2 \\leq 121$.<br/><br/>Backsolving — testing choice B ($a = -14$):<br/>$(a+4)^2 = (-14+4)^2 = (-10)^2 = 100 \\leq 121$ ✓<br/><br/>Testing the others:<ul><li>A) $(-16+4)^2 = (-12)^2 = 144 > 121$ — Fails</li><li>C) $(11+4)^2 = 15^2 = 225 > 121$ — Fails</li><li>D) $(19+4)^2 = 23^2 = 529 > 121$ — Fails</li></ul>That matches choice B — <strong>B</strong> is correct."
+      "content": "For a point $(a, b)$ on the circle, $(a+4)^2 + (b-19)^2 = 121$.<br/>Rearranging: $(b-19)^2 = 121 - (a+4)^2$.<br/>For $b$ to be real, we need $(a+4)^2 \\leq 121$.<br/><br/>Backsolving by testing the candidate ($a = -14$):<br/>$(a+4)^2 = (-14+4)^2 = (-10)^2 = 100 \\leq 121$ ✓<br/><br/>Testing the others:<ul><li><strong>$-16$</strong>: $(-16+4)^2 = (-12)^2 = 144 \\gt  121$ — Fails</li><li><strong>$11$</strong>: $(11+4)^2 = 15^2 = 225 \\gt  121$ — Fails</li><li><strong>$19$</strong>: $(19+4)^2 = 23^2 = 529 \\gt  121$ — Fails</li></ul>That matches the correct answer — <strong>B</strong> is correct."
     }
   ]
 }

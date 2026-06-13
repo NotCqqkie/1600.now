@@ -13,7 +13,7 @@
     },
     {
       "title": "Eliminate the other choices",
-      "content": "Choice A is the same line, so it would give infinitely many solutions. Choices B and C use $x+3y$, so they are not parallel to $x-3y=6n$. Choice D, $x-3y=3n$, is parallel to the original and distinct because $n>0$, so $3n\\ne6n$. Choice <strong>D</strong> is correct."
+      "content": "A choice with the same line, so it would give infinitely many solutions. The other choices use $x+3y$, so they are not parallel to $x-3y=6n$. The matching choice, $x-3y=3n$, is parallel to the original and distinct because $n\\gt 0$, so $3n\\ne6n$. <strong>D</strong> is correct."
     }
   ]
 }

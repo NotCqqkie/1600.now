@@ -1,1 +1,15 @@
-{"questionId": "23fd9cca-199e-4a62-b065-4e2d5997bf7f_25", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the key temporal signal", "content": "The passage provides two specific dates: February 14, 1927 (when <em>Vernonia liatroides</em> was collected) and May 3, 1930 (when <em>Achyrocline vauthieriana</em> was collected). These dates reveal a clear temporal relationship between the two collections."}, {"title": "Match the signal to the choices", "content": "Choice D uses “after collecting <em>Vernonia liatroides</em> in February of 1927” to show that the 1930 sample came later — the word “after” directly expresses the temporal sequence.<br/><br/>The other three choices focus on location (A), provide a single date in isolation (B), or emphasize geography and plant family rather than timing (C).<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "23fd9cca-199e-4a62-b065-4e2d5997bf7f_25",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key temporal signal",
+      "content": "The passage provides two specific dates: February 14, 1927 (when <em>Vernonia liatroides</em> was collected) and May 3, 1930 (when <em>Achyrocline vauthieriana</em> was collected). These dates reveal a clear temporal relationship between the two collections."
+    },
+    {
+      "title": "Match the signal to the choices",
+      "content": "<strong>Choice D &mdash; Ynés Mexía collected a sample of *Achyrocline vauthierana* in May of 1930, after collecting *Vernonia liatroides* in February of 1927.</strong> uses “after collecting <em>Vernonia liatroides</em> in February of 1927” to show that the 1930 sample came later — the word “after” directly expresses the temporal sequence.<br/><br/>The other three choices focus on location, provide a single date in isolation, or emphasize geography and plant family rather than timing.<br/><br/>That matches <strong>Choice D &mdash; Ynés Mexía collected a sample of *Achyrocline vauthierana* in May of 1930, after collecting *Vernonia liatroides* in February of 1927.</strong>."
+    }
+  ]
+}

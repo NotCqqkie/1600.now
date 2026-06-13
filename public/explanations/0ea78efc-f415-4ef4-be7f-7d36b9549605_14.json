@@ -1,1 +1,15 @@
-{"questionId":"0ea78efc-f415-4ef4-be7f-7d36b9549605_14","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"In a field where creativity is prized, readers who see the novel as merely fictionalized true events would underestimate its creative achievement. The question asks what consequence logically follows."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; </strong>The work would appear less imaginatively accomplished than it actually is&mdash;a direct consequence of readers discounting the creative invention involved. &#10003;</li><li><strong>Choice B &mdash; </strong>Focuses on identifying real-life counterparts, which the passage does not address as a concern. &#10007;</li><li><strong>Choice C &mdash; </strong>Prescribes decisions the author should make, which goes beyond what the passage discusses. &#10007;</li><li><strong>Choice D &mdash; </strong>Introduces critic disagreement that is never mentioned in the passage. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "0ea78efc-f415-4ef4-be7f-7d36b9549605_14",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "In a field where creativity is prized, readers who see the novel as merely fictionalized true events would underestimate its creative achievement. The question asks what consequence logically follows."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; *Journey to the End of the Night* is less of an imaginative achievement than it actually is.</strong>: The work would appear less imaginatively accomplished than it actually is&mdash;a direct consequence of readers discounting the creative invention involved. &#10003;</li><li><strong>Choice B &mdash; the real-world counterparts of other characters in *Journey to the End of the Night* are hard to identify.</strong>: Focuses on identifying real-life counterparts, which the passage does not address as a concern. &#10007;</li><li><strong>Choice C &mdash; Céline should not have claimed that *Journey to the End of the Night* is based on real events.</strong>: Prescribes decisions the author should make, which goes beyond what the passage discusses. &#10007;</li><li><strong>Choice D &mdash; critics disagree about whether *Journey to the End of the Night* shows greater originality than works</strong>: Introduces critic disagreement that is never mentioned in the passage. &#10007;</li></ul>That matches <strong>Choice A &mdash; *Journey to the End of the Night* is less of an imaginative achievement than it actually is.</strong>."
+    }
+  ]
+}

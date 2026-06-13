@@ -1,1 +1,15 @@
-{"questionId": "a9e5b788", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structure around the blank", "content": "The sentence contains two independent clauses: (1) &quot;Saville is not the protagonist of Shelley&apos;s [novel]&quot; and (2) &quot;she&apos;s the &apos;occasion&apos; of it.&quot; The word &quot;rather&quot; is a conjunctive adverb introducing the second clause. The rule: when a conjunctive adverb joins two independent clauses, use a semicolon before it and a comma after it."}, {"title": "Evaluate each choice", "content": "<ul><li><strong>Choice A &mdash; &apos;novel&apos;</strong>: Run-on sentence error &mdash; the two independent clauses are fused with no punctuation or conjunction between them. &#10007;</li><li><strong>Choice B &mdash; &apos;novel,&apos;</strong>: Comma splice error &mdash; a comma alone cannot join two independent clauses without a coordinating conjunction. &#10007;</li><li><strong>Choice C &mdash; &apos;novel; rather,&apos;</strong>: Correct &mdash; the semicolon separates the two independent clauses and the comma follows the conjunctive adverb &quot;rather,&quot; conforming to Standard English. &#10003;</li><li><strong>Choice D &mdash; &apos;novel, rather,&apos;</strong>: Comma splice error &mdash; the comma before &quot;rather&quot; cannot replace the required semicolon when joining two independent clauses. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "a9e5b788",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure around the blank",
+      "content": "The sentence contains two independent clauses: (1) &quot;Saville is not the protagonist of Shelley&apos;s [novel]&quot; and (2) &quot;she&apos;s the &apos;occasion&apos; of it.&quot; The word &quot;rather&quot; is a conjunctive adverb introducing the second clause. The rule: when a conjunctive adverb joins two independent clauses, use a semicolon before it and a comma after it."
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; novel</strong>: Run-on sentence error &mdash; the two independent clauses are fused with no punctuation or conjunction between them. &#10007;</li><li><strong>Choice B &mdash; novel,</strong>: Comma splice error &mdash; a comma alone cannot join two independent clauses without a coordinating conjunction. &#10007;</li><li><strong>Choice C &mdash; novel; rather,</strong>: Correct &mdash; the semicolon separates the two independent clauses and the comma follows the conjunctive adverb &quot;rather,&quot; conforming to Standard English. &#10003;</li><li><strong>Choice D &mdash; novel, rather,</strong>: Comma splice error &mdash; the comma before &quot;rather&quot; cannot replace the required semicolon when joining two independent clauses. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

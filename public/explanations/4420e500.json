@@ -10,7 +10,7 @@
     },
     {
       "title": "Calculate using the given dimensions",
-      "content": "With length = 4 cm and width = 2 cm, the area is:<br/>$$A = 4 \\times 2 = 8 \\text{ cm}^2$$<br/>That matches choice B — <strong>B</strong> is correct."
+      "content": "With length = 4 cm and width = 2 cm, the area is:<br/>$$A = 4 \\times 2 = 8 \\text{ cm}^2$$<br/><strong>B</strong> is correct."
     }
   ]
 }

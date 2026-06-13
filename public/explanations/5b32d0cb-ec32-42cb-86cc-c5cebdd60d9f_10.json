@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate each answer choice",
-      "content": "<ul><li><strong>A</strong>: $25x^4 + 3$ &mdash; the exponent 4 is wrong; combining $x^2$ terms does not change the exponent. Incorrect.</li><li><strong>B</strong>: $25x^2 + 3$ &mdash; matches our result exactly. That matches choice B &mdash; <strong>B</strong> is correct.</li><li><strong>C</strong>: $28x^4$ &mdash; the coefficient 28 and exponent 4 are both wrong, and the constant 3 is missing. Incorrect.</li><li><strong>D</strong>: $28x^2$ &mdash; the coefficient should be 25, not 28 ($20 + 5 = 25$, not 28), and the constant 3 is missing. Incorrect.</li></ul>"
+      "content": "<ul><li><strong>A</strong>: $25x^4 + 3$ &mdash; the exponent 4 is wrong; combining $x^2$ terms does not change the exponent. Incorrect.</li><li><strong>B</strong>: $25x^2 + 3$ &mdash; matches our result exactly. That confirms <strong>B</strong> is correct.</li><li><strong>C</strong>: $28x^4$ &mdash; the coefficient 28 and exponent 4 are both wrong, and the constant 3 is missing. Incorrect.</li><li><strong>D</strong>: $28x^2$ &mdash; the coefficient should be 25, not 28 ($20 + 5 = 25$, not 28), and the constant 3 is missing. Incorrect.</li></ul>"
     }
   ]
 }

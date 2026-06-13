@@ -9,7 +9,7 @@
     },
     {
       "title": "Simplify the fraction and subtract",
-      "content": "Divide: $\\frac{300}{30} = 10$.<br/>Then: $$d = 16 - 10 = 6$$<br/>That matches choice B — <strong>B</strong> is correct."
+      "content": "Divide: $\\frac{300}{30} = 10$.<br/>Then: $$d = 16 - 10 = 6$$ The expression measures the remaining value after subtracting $x/30$, so <strong>B</strong> is correct."
     }
   ]
 }

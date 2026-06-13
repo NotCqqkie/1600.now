@@ -1,4 +1,5 @@
 {
+  "questionId": "ab56a107",
   "section": "Reading and Writing",
   "correctAnswer": "C",
   "steps": [
@@ -12,7 +13,7 @@
     },
     {
       "title": "Per-choice elimination",
-      "content": "<ul><li><strong>Choice A &mdash; 'digital... can still be displayed traditionally'</strong>: display format is not what Text 1 disputes; Text 1 disputes skill. Off topic. &#10007;</li><li><strong>Choice B &mdash; 'much harder to use a tablet and stylus... than... paint and a brush'</strong>: Text 2 never claims digital is harder, only that it requires real skill. Overreach. &#10007;</li><li><strong>Choice C &mdash; 'digital art requires artistic abilities and skill even if it employs less traditional tools'</strong>: directly answers Text 1&#39;s &quot;not real art / less skill&quot; charge using Text 2&#39;s points. &#10003;</li><li><strong>Choice D &mdash; 'most digital artists don&#39;t think fundamental drawing skills are important'</strong>: contradicts Text 2, which stresses art fundamentals and drawing on paper first. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; By arguing that a piece of art created digitally can still be displayed traditionally</strong>: display format is not what Text 1 disputes; Text 1 disputes skill. Off topic. &#10007;</li><li><strong>Choice B &mdash; By explaining that it's actually much harder to use a tablet and stylus to create art than to use paint and a brush</strong>: Text 2 never claims digital is harder, only that it requires real skill. Overreach. &#10007;</li><li><strong>Choice C &mdash; By insisting that digital art requires artistic abilities and skill even if it employs less traditional tools</strong>: directly answers Text 1&#39;s &quot;not real art / less skill&quot; charge using Text 2&#39;s points. &#10003;</li><li><strong>Choice D &mdash; By admitting that most digital artists don't think fundamental drawing skills are important</strong>: contradicts Text 2, which stresses art fundamentals and drawing on paper first. &#10007;</li></ul>That is the correct answer."
     }
   ]
 }

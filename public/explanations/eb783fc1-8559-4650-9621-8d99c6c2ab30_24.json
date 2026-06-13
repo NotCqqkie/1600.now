@@ -1,1 +1,15 @@
-{"questionId": "eb783fc1-8559-4650-9621-8d99c6c2ab30_24", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the logical relationship", "content": "The first sentence shows residents heavily rely on the transit system; the second reveals that officials work to maintain it. The key signal is the cause-and-effect connection: heavy usage necessitates maintenance efforts."}, {"title": "Match to the correct choice", "content": "”Accordingly” (meaning “as a result”) fits because it shows how the officials' maintenance efforts logically follow from the heavy reliance just stated.<br/><br/>The other three introduce wrong relationships: “Alternatively” presents opposing choices, “For example” presents an illustration, and “However” presents a contradiction.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "eb783fc1-8559-4650-9621-8d99c6c2ab30_24",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the logical relationship",
+      "content": "The first sentence shows residents heavily rely on the transit system; the second reveals that officials work to maintain it. The key signal is the cause-and-effect connection: heavy usage necessitates maintenance efforts."
+    },
+    {
+      "title": "Match to the correct choice",
+      "content": "”Accordingly” (meaning “as a result”) fits because it shows how the officials' maintenance efforts logically follow from the heavy reliance just stated.<br/><br/>The other three introduce wrong relationships: “Alternatively” presents opposing choices, “For example” presents an illustration, and “However” presents a contradiction.<br/><br/>That matches the correct answer — <strong>A</strong> is correct."
+    }
+  ]
+}

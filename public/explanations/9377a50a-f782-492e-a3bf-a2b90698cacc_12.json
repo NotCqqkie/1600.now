@@ -13,7 +13,7 @@
     },
     {
       "title": "Eliminate the other choices",
-      "content": "<ul><li><strong>A) $79$</strong> &mdash; just a constant, not the full length factor.</li><li><strong>B) $w(w+79)$</strong> &mdash; this is the entire area, not the length.</li><li><strong>C) $(w+79)$</strong> &mdash; matches the derived length.</li><li><strong>D) $w$</strong> &mdash; this is the width, not the length.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+      "content": "<ul><li><strong>A) $79$</strong> &mdash; just a constant, not the full length factor.</li><li><strong>B) $w(w+79)$</strong> &mdash; this is the entire area, not the length.</li><li><strong>C) $(w+79)$</strong> &mdash; matches the derived length.</li><li><strong>D) $w$</strong> &mdash; this is the width, not the length.</li></ul>That confirms <strong>C</strong> is correct."
     }
   ]
 }

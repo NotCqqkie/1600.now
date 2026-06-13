@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Backsolving — testing choice B (6)",
-      "content": "Backsolving — testing choice B (6):<br/>$$f(6) = 8(2\\cdot6 + 2) = 8(12+2) = 8\\cdot14 = 112$$<br/>Since 112 ≠ 80, choice B fails."
+      "title": "Backsolving — testing <strong>Choice B &mdash; 6</strong> (6)",
+      "content": "Backsolving — testing <strong>Choice B &mdash; 6</strong> (6):<br/>$$f(6) = 8(2\\cdot6 + 2) = 8(12+2) = 8\\cdot14 = 112$$<br/>Since $112 \\ne 80$, <strong>Choice B &mdash; 6</strong> fails."
     },
     {
-      "title": "Backsolving — testing choice A (4)",
-      "content": "Backsolving — testing choice A (4):<br/>$$f(4) = 8(2\\cdot4 + 2) = 8(8+2) = 8\\cdot10 = 80$$<br/>Since 80 = 80, choice A works. That matches choice A — <strong>A</strong> is correct."
+      "title": "Backsolving — testing <strong>Choice A &mdash; 4</strong> (4)",
+      "content": "Backsolving — testing <strong>Choice A &mdash; 4</strong> (4):<br/>$$f(4) = 8(2\\cdot4 + 2) = 8(8+2) = 8\\cdot10 = 80$$<br/>Since 80 = 80, <strong>Choice A &mdash; 4</strong> works. That matches <strong>Choice A &mdash; 4</strong>."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId": "0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_10", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The passage claims discoveries &quot;have persisted into the 2000s.&quot; The answer must cite a hoard discovered in the 2000s to support that claim."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A</strong>: mixes a 2000s find with pre-2000 data, diluting the evidence for the specific claim. &#10007;</li><li><strong>Choice B &mdash; 'Carrick-on-Suir (2013)'</strong>: the only hoard in the table discovered in the 2000s &mdash; directly supports the passage&apos;s claim. &#10003;</li><li><strong>Choice C</strong>: does not highlight the 2000s timeframe or contains factual errors relative to the table. &#10007;</li><li><strong>Choice D</strong>: describes a pattern unrelated to the 2000s discovery claim. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_10",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage claims discoveries &quot;have persisted into the 2000s.&quot; The answer must cite a hoard discovered in the 2000s to support that claim."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; the Broighter Hoard, Coggalbeg Hoard, and Carrick-on-Suir Hoard have all been found since 1896.</strong>: mixes a 2000s find with pre-2000 data, diluting the evidence for the specific claim. &#10007;</li><li><strong>Choice B &mdash; the Carrick-on-Suir Hoard was found in 2013.</strong>: the only hoard in the table discovered in the 2000s &mdash; directly supports the passage&apos;s claim. &#10003;</li><li><strong>Choice C &mdash; the Carrick-on-Suir Hoard was found after the Broighter Hoard.</strong>: does not highlight the 2000s timeframe or contains factual errors relative to the table. &#10007;</li><li><strong>Choice D &mdash; the Broighter Hoard and Coggalbeg Hoard were both found after 2000.</strong>: describes a pattern unrelated to the 2000s discovery claim. &#10007;</li></ul>That matches <strong>Choice B &mdash; the Carrick-on-Suir Hoard was found in 2013.</strong>."
+    }
+  ]
+}

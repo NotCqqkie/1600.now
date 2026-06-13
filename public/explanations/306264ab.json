@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the area formula for a right triangle",
-      "content": "The area of a right triangle is $A = \\frac{1}{2} \\times \\text{leg}_1 \\times \\text{leg}_2$.<br/>$$A = \\frac{1}{2} \\times 2\\sqrt{2} \\times 6\\sqrt{2}$$<br/>When multiplying the legs, combine the coefficients and radicals:<br/>$$2\\sqrt{2} \\times 6\\sqrt{2} = (2 \\times 6) \\times (\\sqrt{2} \\times \\sqrt{2}) = 12 \\times 2 = 24$$<br/>Therefore:<br/>$$A = \\frac{1}{2} \\times 24 = 12$$<br/>That matches choice B — <strong>B</strong> is correct."
+      "content": "The area of a right triangle is $A = \\frac{1}{2} \\times \\text{leg}_1 \\times \\text{leg}_2$.<br/>$$A = \\frac{1}{2} \\times 2\\sqrt{2} \\times 6\\sqrt{2}$$<br/>When multiplying the legs, combine the coefficients and radicals:<br/>$$2\\sqrt{2} \\times 6\\sqrt{2} = (2 \\times 6) \\times (\\sqrt{2} \\times \\sqrt{2}) = 12 \\times 2 = 24$$<br/>Therefore:<br/>$$A = \\frac{1}{2} \\times 24 = 12$$<br/><strong>B</strong> is correct."
     }
   ]
 }

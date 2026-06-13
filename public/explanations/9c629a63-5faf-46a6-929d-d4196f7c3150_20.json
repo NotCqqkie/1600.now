@@ -9,7 +9,7 @@
     },
     {
       "title": "Key fact about adding a constant",
-      "content": "Adding the same constant to every value in a data set shifts the mean by that constant but leaves the standard deviation unchanged. So if $h=28$, Set B is just Set A shifted by $+1$, giving $\\text{SD}(B)=\\text{SD}(A)$. To make $\\text{SD}(A)>\\text{SD}(B)$, $h$ must be closer to the rest of the data than $28$ is &mdash; that is, between roughly the mean of the other five values and $28$."
+      "content": "Adding the same constant to every value in a data set shifts the mean by that constant but leaves the standard deviation unchanged. So if $h=28$, Set B is just Set A shifted by $+1$, giving $\\text{SD}(B)=\\text{SD}(A)$. To make $\\text{SD}(A)\\gt \\text{SD}(B)$, $h$ must be closer to the rest of the data than $28$ is &mdash; that is, between roughly the mean of the other five values and $28$."
     },
     {
       "title": "Test each option",
@@ -27,7 +27,7 @@
     },
     {
       "title": "Match to a choice",
-      "content": "<ul><li>A) I only &mdash; matches our result.</li><li>B) II only &mdash; II gives equal SDs, not greater. Eliminated.</li><li>C) III only &mdash; III gives SD(B)$>$SD(A). Eliminated.</li><li>D) II or III &mdash; neither works. Eliminated.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li>A) I only &mdash; matches our result.</li><li>B) II only &mdash; II gives equal SDs, not greater. Eliminated.</li><li>C) III only &mdash; III gives SD(B)$\\gt $SD(A). Eliminated.</li><li>D) II or III &mdash; neither works. Eliminated.</li></ul>That confirms <strong>A</strong> is correct."
     }
   ]
 }

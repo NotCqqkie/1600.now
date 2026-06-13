@@ -84,7 +84,7 @@
     "difficulty": "Medium",
     "question_number": 3,
     "test_name": "Module Source 050 Math M2",
-    "passage": "If $4(2x+11)-2(2x-5)=-9+13x$, what is the value of $12x$?",
+    "passage": "If ${4}(2x+11)-2(2x-5)=-9+13x$, what is the value of $12x$?",
     "question_text": null,
     "choices": [
       {
@@ -148,20 +148,20 @@
     "difficulty": "Hard",
     "question_number": 5,
     "test_name": "Module Source 050 Math M2",
-    "passage": "In the $xy$-plane, which of the following does NOT contain any points that are part of the solution set to $3x - 7y > 21$?",
+    "passage": "In the $xy$-plane, which of the following does NOT contain any points that are part of the solution set to $3x - 7y \\gt 21$?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "The region where $x < 0$ and $y > 0$"
+        "text": "The region where $x \\lt 0$ and $y \\gt 0$"
       },
       {
         "label": "B",
-        "text": "The region where $x < 0$ and $y < 0$"
+        "text": "The region where $x \\lt 0$ and $y \\lt 0$"
       },
       {
         "label": "C",
-        "text": "The region where $x > 0$ and $y > 0$"
+        "text": "The region where $x \\gt 0$ and $y \\gt 0$"
       },
       {
         "label": "D",
@@ -421,7 +421,7 @@
     "difficulty": "Hard",
     "question_number": 15,
     "test_name": "Module Source 050 Math M2",
-    "passage": "$y=9(\\frac{a}{6})^{x+c}-b$\nHow many times does the graph of the given equation in the $xy$-plane cross the $x$-axis, where $a$, $b$, and $c$ are positive constants such that $a>6$ and $b>c$?",
+    "passage": "$y=9(\\frac{a}{6})^{x+c}-b$\nHow many times does the graph of the given equation in the $xy$-plane cross the $x$-axis, where $a$, $b$, and $c$ are positive constants such that $a \\gt 6$ and $b \\gt c$?",
     "question_text": null,
     "choices": [
       {
@@ -571,7 +571,7 @@
     "difficulty": "Hard",
     "question_number": 20,
     "test_name": "Module Source 050 Math M2",
-    "passage": "The percent increase in mass of a certain red kangaroo from 80 days old to 160 days old was 676 %. If this red kangaroo's mass was k grams at 80 days old, which expression represents its mass, in grams, at 160 days old?",
+    "passage": "The percent increase in mass of a certain red kangaroo from 80 days old to 160 days old was 676%. If this red kangaroo's mass was k grams at 80 days old, which expression represents its mass, in grams, at 160 days old?",
     "question_text": null,
     "choices": [
       {

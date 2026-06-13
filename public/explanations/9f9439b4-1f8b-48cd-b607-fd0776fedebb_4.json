@@ -1,1 +1,15 @@
-{"questionId": "9f9439b4-1f8b-48cd-b607-fd0776fedebb_4", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the contrast", "content": "The passage sets up a clear progression: <em>when few planets had been discovered</em>, the naming task was [blank], but <em>now</em> that over 500,000 exist, the task has become nearly impossible. The blank must describe what the task was when it was still being accomplished."}, {"title": "Match the meaning", "content": "<strong>Feasible</strong> means achievable. When few planets existed, naming was feasible; as the number grew to over 500,000, the task became nearly impossible.<br/><br/>The other choices either don't address feasibility, describe the wrong aspect of the problem, or contradict the passage's suggestion that naming was achievable in the past.<br/><br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}
+{
+  "questionId": "9f9439b4-1f8b-48cd-b607-fd0776fedebb_4",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the contrast",
+      "content": "The passage sets up a clear progression: <em>when few planets had been discovered</em>, the naming task was [blank], but <em>now</em> that over 500,000 exist, the task has become nearly impossible. The blank must describe what the task was when it was still being accomplished."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "<strong>Feasible</strong> means achievable. When few planets existed, naming was feasible; as the number grew to over 500,000, the task became nearly impossible.<br/><br/>The other choices either don't address feasibility, describe the wrong aspect of the problem, or contradict the passage's suggestion that naming was achievable in the past.<br/><br/>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

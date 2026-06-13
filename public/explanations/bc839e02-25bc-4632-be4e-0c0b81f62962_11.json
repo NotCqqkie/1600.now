@@ -1,1 +1,15 @@
-{"questionId": "bc839e02-25bc-4632-be4e-0c0b81f62962_11", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The student must show that Ecuador has different types of volcanoes. The correct choice must pair two Ecuadorian volcanoes that are classified as different types in the table."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A</strong>: includes Alcedo, which is in the Gal&aacute;pagos rather than mainland Ecuador, so it does not serve as a valid Ecuadorian example. &#10007;</li><li><strong>Choice B</strong>: misidentifies Cuicocha&apos;s type, so the pairing is factually wrong per the table. &#10007;</li><li><strong>Choice C</strong>: also includes Alcedo or misclassifies a volcano type, making the example inaccurate. &#10007;</li><li><strong>Choice D &mdash; Cuicocha (caldera) and Cayambe (compound)</strong>: both are Ecuadorian volcanoes and are classified as different types in the table &mdash; exactly what the student needs to demonstrate. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "bc839e02-25bc-4632-be4e-0c0b81f62962_11",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The student must show that Ecuador has different types of volcanoes. The correct choice must pair two Ecuadorian volcanoes that are classified as different types in the table."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; Cuicocha is a caldera volcano, and Alcedo is a stratovolcano.</strong>: includes Alcedo, which is in the Gal&aacute;pagos rather than mainland Ecuador, so it does not serve as a valid Ecuadorian example. &#10007;</li><li><strong>Choice B &mdash; Cayambe is a compound volcano, and Cuicocha is a shield volcano.</strong>: misidentifies Cuicocha&apos;s type, so the pairing is factually wrong per the table. &#10007;</li><li><strong>Choice C &mdash; Reventador is a caldera volcano, and Alcedo is a stratovolcano.</strong>: also includes Alcedo or misclassifies a volcano type, making the example inaccurate. &#10007;</li><li><strong>Choice D &mdash; Cuicocha is a caldera volcano, and Cayambe is a compound volcano.</strong>: both are Ecuadorian volcanoes and are classified as different types in the table &mdash; exactly what the student needs to demonstrate. &#10003;</li></ul>That is the correct answer."
+    }
+  ]
+}

@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "<ul><li>Choice A, $25\\%$, gives $0.25(300)=75$. Correct.</li><li>Choice B, $50\\%$, gives $150$.</li><li>Choice C, $75\\%$, gives $225$.</li><li>Choice D, $225\\%$, gives $675$.</li></ul>That matches choice A."
+      "content": "<ul><li>$25\\%$, gives $0.25(300)=75$. Correct.</li><li>$50\\%$, gives $150$.</li><li>$75\\%$, gives $225$.</li><li>$225\\%$, gives $675$.</li></ul>That matches the correct answer, <strong>A</strong>."
     }
   ]
 }

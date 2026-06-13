@@ -1,1 +1,15 @@
-{"questionId": "11ab7acb-9d06-445e-8071-b2cefe5234c2_25", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The student wants to describe the researchers&apos; <strong>methodology</strong> &mdash; not the goal, not the results, but what they actually did. A methodology statement covers the experimental setup: what was tested, under what conditions, with what controls."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'stating the research goal'</strong>: Describes what the researchers hoped to find, not what they did. &#10007;</li><li><strong>Choice B &mdash; 'stating a general result'</strong>: Describes an outcome, not a procedure. &#10007;</li><li><strong>Choice C &mdash; 'describing the test conditions'</strong>: Identifies that 125 ingested seeds and 125 non-ingested control seeds were used &mdash; exactly the experimental setup. &#10003;</li><li><strong>Choice D &mdash; 'stating one specific result number'</strong>: Gives a single data point from the findings, not the methodology. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "11ab7acb-9d06-445e-8071-b2cefe5234c2_25",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The student wants to describe the researchers&apos; <strong>methodology</strong> &mdash; not the goal, not the results, but what they actually did. A methodology statement covers the experimental setup: what was tested, under what conditions, with what controls."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; J.E. López and C. Vaughan wanted to explore the effects of chestnut short-tailed bats' ingestion on *Piper sancti-felicis* seed germination.</strong>: Describes what the researchers hoped to find, not what they did. &#10007;</li><li><strong>Choice B &mdash; In the study, a lower percentage of *Piper sancti-felicis* seeds ingested by bats germinated than those that had not been ingested by bats.</strong>: Describes an outcome, not a procedure. &#10007;</li><li><strong>Choice C &mdash; The team of researchers tested the germination of 125 *Piper sancti-felicis* seeds that had been ingested by chestnut short-tailed bats and 125 *Piper sancti-felicis* seeds that had not been ingested.</strong>: Identifies that 125 ingested seeds and 125 non-ingested control seeds were used &mdash; exactly the experimental setup. &#10003;</li><li><strong>Choice D &mdash; Research by J.E. López and C. Vaughan revealed that 82 of 125—that is, 66%—of the *Piper sancti-felicis* seeds that had been ingested by the bats germinated.</strong>: Gives a single data point from the findings, not the methodology. &#10007;</li></ul>That matches <strong>Choice C &mdash; The team of researchers tested the germination of 125 *Piper sancti-felicis* seeds that had been ingested by chestnut short-tailed bats and 125 *Piper sancti-felicis* seeds that had not been ingested.</strong>."
+    }
+  ]
+}

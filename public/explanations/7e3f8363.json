@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice <strong>C</strong> is correct. It passes both point checks: $f(0)=3$ gives the intercept, and $f(7)=31$ confirms the slope calculation."
+      "content": "<strong>C</strong> is correct. It passes both point checks: $f(0)=3$ gives the intercept, and $f(7)=31$ confirms the slope calculation."
     }
   ]
 }

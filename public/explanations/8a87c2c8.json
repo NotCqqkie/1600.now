@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "The question asks for $2x$, so there is no need to solve for $x$ or $y$. The value is $12$, which matches choice <strong>C</strong>. Choice B is the trap from giving $x$ instead of $2x$."
+      "content": "The question asks for $2x$, so there is no need to solve for $x$ or $y$. The value is $12$, which matches <strong>C</strong>. The value $6$ is the trap from giving $x$ instead of $2x$."
     }
   ]
 }

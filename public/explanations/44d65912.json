@@ -9,7 +9,7 @@
     },
     {
       "title": "Evaluate each answer choice",
-      "content": "The correct system must match $20c + 10s = 700$ and $25c + 12s = 850$.<ul><li><strong>A.</strong> $10c + 20s = 700$ swaps the coin and star counts; eliminated.</li><li><strong>B.</strong> $20c + 10s = 700$ and $25c + 12s = 850$ matches both games exactly.</li><li><strong>C.</strong> Places 700 and 850 as coefficients of $s$, which is dimensionally wrong; eliminated.</li><li><strong>D.</strong> Places 700 and 850 as coefficients of $c$ with 10 and 12 on the right side; eliminated.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "The correct system must match $20c + 10s = 700$ and $25c + 12s = 850$.<ul><li><strong>A.</strong> $10c + 20s = 700$ swaps the coin and star counts; eliminated.</li><li><strong>B.</strong> $20c + 10s = 700$ and $25c + 12s = 850$ matches both games exactly.</li><li><strong>C.</strong> Places 700 and 850 as coefficients of $s$, which is dimensionally wrong; eliminated.</li><li><strong>D.</strong> Places 700 and 850 as coefficients of $c$ with 10 and 12 on the right side; eliminated.</li></ul><strong>B</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId": "b497f82e-d544-41ec-9ef5-cc6283f4b89f_27", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The student wants to refute the claim that malapportionment in the Storting favors small urban districts. To refute means to contradict directly, using notes that show the formula actually favors rural districts instead."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'formula...overrepresents more populated districts'</strong>: Self-contradictory: the notes say rural (less populated) districts are overrepresented, not more populated ones. &#10007;</li><li><strong>Choice B &mdash; 'rural districts are disproportionally underrepresented...unfair advantage for urban districts'</strong>: This supports the claim being refuted rather than contradicting it. &#10007;</li><li><strong>Choice C &mdash; 'Awarding more points per unit of land than per resident...overrepresents less populated rural districts'</strong>: Cites the formula directly (1.8 points/land vs. 1 point/resident) and states that rural, not urban, districts benefit &mdash; a direct refutation. &#10003;</li><li><strong>Choice D &mdash; 'malapportionment occurs when electoral districts are over- or underrepresented'</strong>: A general definition; does not address which districts are favored in the Storting at all. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "b497f82e-d544-41ec-9ef5-cc6283f4b89f_27",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The student wants to refute the claim that malapportionment in the Storting favors small urban districts. To refute means to contradict directly, using notes that show the formula actually favors rural districts instead."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; It's untrue that malapportionment in the 169-seat Storting favors small urban districts; rather, the formula for distributing seats overrepresents more populated districts.</strong>: Self-contradictory: the notes say rural (less populated) districts are overrepresented, not more populated ones. &#10007;</li><li><strong>Choice B &mdash; Less populated rural districts are disproportionally underrepresented in the Storting, creating an unfair advantage for smaller but more populated urban districts.</strong>: This supports the claim being refuted rather than contradicting it. &#10007;</li><li><strong>Choice C &mdash; Awarding more points per unit of land than points per resident, the formula for distributing Storting seats overrepresents less populated rural districts with large tracts of land.</strong>: Cites the formula directly (1.8 points/land vs. 1 point/resident) and states that rural, not urban, districts benefit &mdash; a direct refutation. &#10003;</li><li><strong>Choice D &mdash; A common feature of representative governments, malapportionment occurs when electoral districts are over- or underrepresented.</strong>: A general definition; does not address which districts are favored in the Storting at all. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

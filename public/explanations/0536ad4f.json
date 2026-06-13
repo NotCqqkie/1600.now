@@ -13,7 +13,7 @@
     },
     {
       "title": "Compare with each choice",
-      "content": "<ul><li><strong>A) $10w$:</strong> would require $20w-10w$, but we have $20w-7w$. Eliminated.</li><li><strong>B) $13w$:</strong> equals $20w-7w$. Matches.</li><li><strong>C) $19w$:</strong> would require subtracting only $w$, not $7w$. Eliminated.</li><li><strong>D) $21w$:</strong> larger than $20w$, but subtraction makes the value smaller. Eliminated.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "<ul><li><strong>A) $10w$:</strong> would require $20w-10w$, but we have $20w-7w$. Eliminated.</li><li><strong>B) $13w$:</strong> equals $20w-7w$. Matches.</li><li><strong>C) $19w$:</strong> would require subtracting only $w$, not $7w$. Eliminated.</li><li><strong>D) $21w$:</strong> larger than $20w$, but subtraction makes the value smaller. Eliminated.</li></ul>That matches <strong>Choice B &mdash; $13w$</strong>."
     }
   ]
 }

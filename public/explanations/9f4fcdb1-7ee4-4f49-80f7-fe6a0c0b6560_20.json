@@ -1,1 +1,15 @@
-{"questionId":"9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_20","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank falls inside a sentence that has two parts: a noun phrase ('the Hanseatic League') that renames 'the alliance,' and then a second independent clause beginning 'a loose confederation...' The punctuation in the blank must (1) set off that renaming phrase and (2) separate two independent clauses."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'centuries: the Hanseatic League,'</strong>: A colon can introduce an appositive, but a comma cannot separate the two independent clauses that follow. &#10007;</li><li><strong>Choice B &mdash; 'centuries&mdash;the Hanseatic League;'</strong>: An em dash sets off the appositive 'the Hanseatic League,' and a semicolon correctly separates the two independent clauses on either side. &#10003;</li><li><strong>Choice C &mdash; 'centuries; the Hanseatic League,'</strong>: A semicolon here splits the first independent clause from its own appositive, breaking the sentence structure before the appositive is resolved. &#10007;</li><li><strong>Choice D &mdash; 'centuries, the Hanseatic League,'</strong>: Two commas cannot set off an appositive and also separate independent clauses; the result is a run-on. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_20",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank falls inside a sentence that has two parts: a noun phrase ('the Hanseatic League') that renames 'the alliance,' and then a second independent clause beginning 'a loose confederation...' The punctuation in the blank must (1) set off that renaming phrase and (2) separate two independent clauses."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; centuries: the Hanseatic League,</strong>: A colon can introduce an appositive, but a comma cannot separate the two independent clauses that follow. &#10007;</li><li><strong>Choice B &mdash; centuries—the Hanseatic League;</strong>: An em dash sets off the appositive 'the Hanseatic League,' and a semicolon correctly separates the two independent clauses on either side. &#10003;</li><li><strong>Choice C &mdash; centuries; the Hanseatic League,</strong>: A semicolon here splits the first independent clause from its own appositive, breaking the sentence structure before the appositive is resolved. &#10007;</li><li><strong>Choice D &mdash; centuries, the Hanseatic League,</strong>: Two commas cannot set off an appositive and also separate independent clauses; the result is a run-on. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+    }
+  ]
+}

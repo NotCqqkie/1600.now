@@ -1,1 +1,15 @@
-{"questionId": "1772a8fc-3104-49c8-9168-d2704967f5fd_21", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The sentence says NATO's collective defense gives Canada 'both benefits and [blank].' What follows — 'the organization's many members... are all bound to defend Canada, the reverse is also true' — elaborates on what those obligations look like in practice. A colon is the correct mark to introduce a clause that directly explains or expands on the preceding noun."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'obligations: while the'</strong>: The colon correctly introduces the elaborating clause, and 'while' sets up the contrast ('bound to defend Canada... the reverse is also true'). &#10003;</li><li><strong>Choice B &mdash; 'obligations; the'</strong>: A semicolon links two independent clauses of equal weight; here the second clause elaborates on 'obligations,' making a colon the better choice. Also drops the contrast word 'while.' &#10007;</li><li><strong>Choice C &mdash; 'obligations, while the'</strong>: A comma is too weak to introduce a full explanatory clause after the summary phrase 'both benefits and obligations.' &#10007;</li><li><strong>Choice D &mdash; 'obligations. The'</strong>: A period cuts the sentence off and severs the direct link between 'obligations' and its explanation. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "1772a8fc-3104-49c8-9168-d2704967f5fd_21",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence says NATO's collective defense gives Canada 'both benefits and [blank].' What follows — 'the organization's many members... are all bound to defend Canada, the reverse is also true' — elaborates on what those obligations look like in practice. A colon is the correct mark to introduce a clause that directly explains or expands on the preceding noun."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; obligations: while the</strong>: The colon correctly introduces the elaborating clause, and 'while' sets up the contrast ('bound to defend Canada... the reverse is also true'). &#10003;</li><li><strong>Choice B &mdash; obligations; the</strong>: A semicolon links two independent clauses of equal weight; here the second clause elaborates on 'obligations,' making a colon the better choice. Also drops the contrast word 'while.' &#10007;</li><li><strong>Choice C &mdash; obligations, while the</strong>: A comma is too weak to introduce a full explanatory clause after the summary phrase 'both benefits and obligations.' &#10007;</li><li><strong>Choice D &mdash; obligations. The</strong>: A period cuts the sentence off and severs the direct link between 'obligations' and its explanation. &#10007;</li></ul>That matches <strong>Choice A &mdash; obligations: while the</strong>."
+    }
+  ]
+}

@@ -9,11 +9,11 @@
     },
     {
       "title": "Match to the answer choices",
-      "content": "The simplified expression is $8x^2+48$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."
+      "content": "The simplified expression is $8x^2+48$. That is the correct answer."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice A, $8x^2 + 48$. The other choices do not satisfy the same condition from the question, so <strong>A</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches $8x^2 + 48$. The other choices do not satisfy the same condition from the question, so <strong>A</strong> is correct."
     }
   ]
 }

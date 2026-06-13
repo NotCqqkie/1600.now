@@ -4,13 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "explanation": "Walking takes a fixed 20 minutes. Taking the bus takes $w$ minutes of waiting plus 5 minutes of riding, for a total of $w + 5$ minutes."
+      "title": "Step 1",
+      "content": "Walking takes a fixed 20 minutes. Taking the bus takes $w$ minutes of waiting plus 5 minutes of riding, for a total of $w + 5$ minutes."
     },
     {
-      "explanation": "Walking is faster than the bus when the walking time is less than the bus total time: $20 \\lt w + 5$, which rearranges to $w + 5 \\gt 20$."
+      "title": "Step 2",
+      "content": "Walking is faster than the bus when the walking time is less than the bus total time: $20 \\lt w + 5$, which rearranges to $w + 5 \\gt 20$."
     },
     {
-      "explanation": "Evaluate each choice:<ul><li>Choice A: $w - 5 \\lt 20$ simplifies to $w \\lt 25$. This is almost always true within the 0&ndash;30 range and does not identify when walking is faster. Incorrect.</li><li>Choice B: $w - 5 \\gt 20$ simplifies to $w \\gt 25$, meaning the bus total would exceed 30 minutes, which is near the edge of the wait range. This does not correctly represent the comparison. Incorrect.</li><li>Choice C: $w + 5 \\lt 20$ simplifies to $w \\lt 15$. This says the bus is faster than walking, the opposite of what is asked. Incorrect.</li><li>Choice D: $w + 5 \\gt 20$ directly states that the total bus time exceeds the 20-minute walk, so walking is faster. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
+      "title": "Step 3",
+      "content": "Evaluate each choice:<ul><li>$w -5 \\lt 20$ simplifies to $w \\lt 25$. This is almost always true within the 0&ndash;30 range and does not identify when walking is faster. Incorrect.</li><li>$w -5 \\gt 20$ simplifies to $w \\gt 25$, meaning the bus total would exceed 30 minutes, which is near the edge of the wait range. This does not correctly represent the comparison. Incorrect.</li><li>$w + 5 \\lt 20$ simplifies to $w \\lt 15$. This says the bus is faster than walking, the opposite of what is asked. Incorrect.</li><li>The matching choice: $w + 5 \\gt 20$ directly states that the total bus time exceeds the 20-minute walk, so walking is faster. <strong>D</strong> is correct.</li></ul>"
     }
   ]
 }

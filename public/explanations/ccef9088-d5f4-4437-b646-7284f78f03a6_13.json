@@ -1,1 +1,15 @@
-{"questionId": "ccef9088-d5f4-4437-b646-7284f78f03a6_13", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The passage explains that longitudinal studies like NEPS require extensive funding to collect data \"over timescales and at intervals.\" The blank must complete the contrast introduced by \"But\" — explaining why a transportation study seeking only average daily usage is much less dependent on high funding."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'such studies are not trying to identify trends over time'</strong>: Directly explains the contrast. A one-time count of daily transit users doesn't need repeated measurements across years, so it avoids the expensive timescale-and-interval requirement that drives NEPS's funding needs. &#10003;</li><li><strong>Choice B &mdash; 'such studies are likely to be a lower priority for funding than NEPS'</strong>: Discusses funding priority between the two studies, not why the transportation study is less dependent on high funding. &#10007;</li><li><strong>Choice C &mdash; 'the transportation study is unlikely to be able to recruit 60,000 participants'</strong>: Introduces participant count, which the passage doesn't link to funding dependence. &#10007;</li><li><strong>Choice D &mdash; 'expanding the scope of such studies is unlikely to be feasible'</strong>: Scope expansion is never connected to funding levels in the passage. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "ccef9088-d5f4-4437-b646-7284f78f03a6_13",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage explains that longitudinal studies like NEPS require extensive funding to collect data \"over timescales and at intervals.\" The blank must complete the contrast introduced by \"But\" — explaining why a transportation study seeking only average daily usage is much less dependent on high funding."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; such studies are not trying to identify trends over time.</strong>: Directly explains the contrast. A one-time count of daily transit users doesn't need repeated measurements across years, so it avoids the expensive timescale-and-interval requirement that drives NEPS's funding needs. &#10003;</li><li><strong>Choice B &mdash; such studies are likely to be a lower priority for funding than NEPS.</strong>: Discusses funding priority between the two studies, not why the transportation study is less dependent on high funding. &#10007;</li><li><strong>Choice C &mdash; the transportation study is unlikely to be able to recruit 60,000 participants.</strong>: Introduces participant count, which the passage doesn't link to funding dependence. &#10007;</li><li><strong>Choice D &mdash; expanding the scope of such studies is unlikely to be feasible.</strong>: Scope expansion is never connected to funding levels in the passage. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

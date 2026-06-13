@@ -1,1 +1,15 @@
-{"questionId":"1bab97be-1fd5-4874-9973-125f743d4cac_4","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage states that other economists &quot;clearly find her studies valuable&quot; (after the dash), and gives frequent citations as evidence. The blank must connect the citations to that conclusion &mdash; the word should mean &quot;emphasizes&quot; or &quot;supports.&quot;"},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; forestalls</strong>: means to prevent or pre-empt. Frequent citations don&apos;t prevent anything; this goes the wrong direction. &#10007;</li><li><strong>Choice B &mdash; belies</strong>: means to contradict. The passage argues <em>for</em> her usefulness, not against it. &#10007;</li><li><strong>Choice C &mdash; underscores</strong>: means to emphasize or highlight. Frequent citations underscore (i.e., reinforce) the conclusion that other economists value her work. &#10003;</li><li><strong>Choice D &mdash; overshadows</strong>: means to diminish by comparison. This would imply citations reduce rather than support her usefulness. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "1bab97be-1fd5-4874-9973-125f743d4cac_4",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage states that other economists &quot;clearly find her studies valuable&quot; (after the dash), and gives frequent citations as evidence. The blank must connect the citations to that conclusion &mdash; the word should mean &quot;emphasizes&quot; or &quot;supports.&quot;"
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; forestalls</strong>: means to prevent or pre-empt. Frequent citations don&apos;t prevent anything; this goes the wrong direction. &#10007;</li><li><strong>Choice B &mdash; belies</strong>: means to contradict. The passage argues <em>for</em> her usefulness, not against it. &#10007;</li><li><strong>Choice C &mdash; underscores</strong>: means to emphasize or highlight. Frequent citations underscore (i.e., reinforce) the conclusion that other economists value her work. &#10003;</li><li><strong>Choice D &mdash; overshadows</strong>: means to diminish by comparison. This would imply citations reduce rather than support her usefulness. &#10007;</li></ul>That matches <strong>Choice C &mdash; underscores</strong>."
+    }
+  ]
+}

@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice B is correct. The other choices use nonzero $x$-values, but two different lines through the origin can intersect only at the origin unless they are the same line.",
+      "content": "The answer is $0$. The other choices use nonzero $x$-values, but two different lines through the origin can intersect only at the origin unless they are the same line.",
       "desmosExpressions": [
         "y=-x/5",
         "y=x/7"

@@ -1,1 +1,15 @@
-{"questionId":"dbd78791","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence uses present-tense verbs throughout (&ldquo;are,&rdquo; &ldquo;travel,&rdquo; &ldquo;pack&rdquo;) to describe the Sherpas&rsquo; recurring activities. The blank is the second verb in a compound predicate joined by &ldquo;and,&rdquo; so it must match the present tense established by &ldquo;pack.&rdquo;"},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;get&rsquo;</strong>: Simple present tense, consistent with &ldquo;pack&rdquo; and the other present-tense verbs. &#10003;</li><li><strong>Choice B &mdash; &lsquo;had gotten&rsquo;</strong>: Past perfect tense &mdash; signals an action completed before another past event, contradicting the present-tense context. &#10007;</li><li><strong>Choice C &mdash; &lsquo;got&rsquo;</strong>: Simple past tense, inconsistent with the present-tense verbs used throughout the sentence. &#10007;</li><li><strong>Choice D &mdash; &lsquo;were getting&rsquo;</strong>: Past progressive tense, inconsistent with the present-tense context. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "dbd78791",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence uses present-tense verbs throughout (&ldquo;are,&rdquo; &ldquo;travel,&rdquo; &ldquo;pack&rdquo;) to describe the Sherpas&rsquo; recurring activities. The blank is the second verb in a compound predicate joined by &ldquo;and,&rdquo; so it must match the present tense established by &ldquo;pack.&rdquo;"
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>\"get\"</strong>: Simple present tense, consistent with &ldquo;pack&rdquo; and the other present-tense verbs. &#10003;</li><li><strong>\"had gotten\"</strong>: Past perfect tense &mdash; signals an action completed before another past event, contradicting the present-tense context. &#10007;</li><li><strong>\"got\"</strong>: Simple past tense, inconsistent with the present-tense verbs used throughout the sentence. &#10007;</li><li><strong>\"were getting\"</strong>: Past progressive tense, inconsistent with the present-tense context. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+    }
+  ]
+}

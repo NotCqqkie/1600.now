@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the answer",
-      "content": "Choice C has the correct starting value, multiplier, and exponent. Choices A and B use decay factor $0.70$, and choice D uses exponent $2x$ instead of $x/2$, so choice <strong>C</strong> is correct."
+      "content": "Choice C (&lsquo;$f \\left(x\\right)=233{ \\left(1.70\\right)}^{\\frac{x}{2}}$&rsquo;) has the correct starting value, multiplier, and exponent. The other choices use decay factor $0.70$, and choice D (&lsquo;$f \\left(x\\right)=233{ \\left(1.70\\right)}^{2x}$&rsquo;) uses exponent $2x$ instead of $x/2$, so <strong>C</strong> is correct."
     }
   ]
 }

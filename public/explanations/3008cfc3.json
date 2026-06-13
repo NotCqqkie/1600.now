@@ -1,1 +1,19 @@
-{"questionId":"3008cfc3","correctAnswer":"33","section":"Math","steps":[{"title":"Use the y-intercept","content":"A $y$-intercept has $x=0$. Since the intercept is $(k-5,b)$, $$k-5=0$$ $$k=5$$"},{"title":"Find the slope from the table","content":"The table gives the two points $(k,13)$ and $(k+7,-15)$. Their slope is $$m=(-15-13)/((k+7)-k)=-28/7=-4.$$"},{"title":"Move from the table point to the intercept","content":"From $(k,13)$ to the intercept $(k-5,b)$, the $x$-value decreases by $5$. With slope $-4$, moving left $5$ makes $y$ increase by $20$: $$b=13+20=33.$$ The answer is <strong>33</strong>."}]}
+{
+  "questionId": "3008cfc3",
+  "correctAnswer": "33",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the y-intercept",
+      "content": "A $y$-intercept has $x=0$. Since the intercept is $(k-5,b)$, $$k-5=0$$ $$k=5$$"
+    },
+    {
+      "title": "Find the slope from the table",
+      "content": "The table gives the two points $(k,13)$ and $(k+7,-15)$. Their slope is $$m=(-15-13)/((k+7)-k)=-28/7=-4.$$"
+    },
+    {
+      "title": "Move from the table point to the intercept",
+      "content": "From $(k,13)$ to the intercept $(k-5,b)$, the $x$-value decreases by $5$. With slope $-4$, moving left $5$ makes $y$ increase by $20$: $$b=13+20=33.$$ The answer is <strong>33</strong>."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId":"bcfca978-b649-44b6-8774-fc731fcc4199_2","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence says &quot;it was not a surprise&quot; that the book received a Newbery Honor &mdash; implying readers had already responded positively. The blank must describe a reader action that would logically predict or justify an award."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A</strong>: a negative or neutral response would make the award surprising, not expected. &#10007;</li><li><strong>Choice B</strong>: readers don&apos;t create or produce books. &#10007;</li><li><strong>Choice C &mdash; &apos;praised&apos;</strong>: a strongly positive reader response that would naturally lead one to anticipate an award. &#10003;</li><li><strong>Choice D</strong>: a negative response contradicts the &quot;not a surprise&quot; framing. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "bcfca978-b649-44b6-8774-fc731fcc4199_2",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence says &quot;it was not a surprise&quot; that the book received a Newbery Honor &mdash; implying readers had already responded positively. The blank must describe a reader action that would logically predict or justify an award."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; rejected</strong>: a negative or neutral response would make the award surprising, not expected. &#10007;</li><li><strong>Choice B &mdash; created</strong>: readers don&apos;t create or produce books. &#10007;</li><li><strong>Choice C &mdash; praised</strong>: a strongly positive reader response that would naturally lead one to anticipate an award. &#10003;</li><li><strong>Choice D &mdash; ignored</strong>: a negative response contradicts the &quot;not a surprise&quot; framing. &#10007;</li></ul>That is the correct answer."
+    }
+  ]
+}

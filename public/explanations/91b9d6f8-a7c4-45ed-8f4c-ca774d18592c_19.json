@@ -13,15 +13,15 @@
     },
     {
       "title": "Compare the linear choices first",
-      "content": "Choice A, $y=-582+1.2x$, has positive slope and runs through the middle of the data. For example, at $x=3500$, it predicts $-582+1.2(3500)=3618$, close to the plotted value near $3700$. Choice B has negative slope, so it trends the wrong direction."
+      "content": "$y=-582+1.2x$ has positive slope and runs through the middle of the data. For example, at $x=3500$, it predicts $-582+1.2(3500)=3618$, close to the plotted value near $3700$. The equation $y=582-1.2x$ has negative slope, so it trends the wrong direction."
     },
     {
       "title": "Reject the exponential choices",
-      "content": "Choices C and D are exponential models. The scatterplot does not curve upward like exponential growth; it stays close to a straight line. Choice C is also negative for positive $x$, which is nowhere near the positive data values. These exponential choices are better eliminated by shape instead of graphing them on the thousand-scale $x$-axis."
+      "content": "The exponential models do not match the scatterplot because the data do not curve upward like exponential growth; they stay close to a straight line. The negative exponential model is also negative for positive $x$, which is nowhere near the positive data values. These exponential choices are better eliminated by shape instead of graphing them on the thousand-scale $x$-axis."
     },
     {
       "title": "Confirm the model",
-      "content": "The only model with the correct linear shape, positive slope, and reasonable predictions is $y=-582+1.2x$. Choice <strong>A</strong> is correct."
+      "content": "The only model with the correct linear shape, positive slope, and reasonable predictions is $y=-582+1.2x$. <strong>A</strong> is correct."
     }
   ]
 }

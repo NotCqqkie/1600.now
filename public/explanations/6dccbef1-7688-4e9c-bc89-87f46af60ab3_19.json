@@ -1,13 +1,26 @@
 {
+  "questionId": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_19",
   "qid": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_19",
   "correctAnswer": "D",
   "steps": [
-    "Exponential growth follows y = a \\cdot b^t, where a is the initial amount and b is the growth factor per time period.",
-    "Bacteria double every hour, so b = 2. The initial count is 66,000, so a = 66,000.",
-    "The equation is y = 66{,}000 \\cdot 2^t.",
-    "Check: at t = 0, y = 66,000 \\cdot 1 = 66,000 \\checkmark; at t = 1, y = 132,000 (doubled). \\checkmark"
+    {
+      "title": "Step 1",
+      "content": "Exponential growth follows y = a \\cdot b^t, where a is the initial amount and b is the growth factor per time period."
+    },
+    {
+      "title": "Step 2",
+      "content": "Bacteria double every hour, so b = 2. The initial count is 66,000, so a = 66,000."
+    },
+    {
+      "title": "Step 3",
+      "content": "The equation is y = 66{,}000 \\cdot 2^t."
+    },
+    {
+      "title": "Step 4",
+      "content": "Check: at t = 0, y = 66,000 \\cdot 1 = 66,000 \\checkmark; at t = 1, y = 132,000 (doubled). \\checkmark"
+    }
   ],
-  "explanation": "<ul><li><strong>Choice A &mdash; '$y=\\frac{1}{2}(66{,}000)^{t}$'</strong>: This raises 66,000 to the power t and multiplies by 1/2 &mdash; not an exponential growth model. At t = 2 this gives an astronomically large number unrelated to doubling. &#10007;</li><li><strong>Choice B &mdash; '$y=2(66{,}000)^{t}$'</strong>: Raises the initial population to the power t, making t = 1 give 2 &times; 66,000 = 132,000 coincidentally, but t = 2 gives 2 &times; 66,000&sup2; &approx; 8.7 &times; 10&sup9;, not 264,000. Wrong structure. &#10007;</li><li><strong>Choice C &mdash; '$y=66{,}000(\\frac{1}{2})^{t}$'</strong>: The initial value is correct but the growth factor 1/2 means the population halves each hour (exponential decay), not doubles. &#10007;</li><li><strong>Choice D &mdash; '$y=66{,}000(2)^{t}$'</strong>: Initial value 66,000 &times; growth factor 2 raised to t hours. At t = 1: 132,000; at t = 2: 264,000. Doubles each hour. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.",
+  "explanation": "<ul><li><strong>Choice A &mdash; &lsquo;$y=\\frac{1}{2}(66,000)^{t}$&rsquo;</strong>: This raises 66,000 to the power t and multiplies by 1/2 &mdash; not an exponential growth model. At t = 2 this gives an astronomically large number unrelated to doubling. &#10007;</li><li><strong>Choice B &mdash; &lsquo;$y=2(66,000)^{t}$&rsquo;</strong>: Raises the initial population to the power t, making t = 1 give 2 &times; 66,000 = 132,000 coincidentally, but t = 2 gives 2 &times; 66,000&sup2; &approx; 8.7 &times; 10&sup9;, not 264,000. Wrong structure. &#10007;</li><li><strong>Choice C &mdash; &lsquo;$y=66,000(\\frac{1}{2})^{t}$&rsquo;</strong>: The initial value is correct but the growth factor 1/2 means the population halves each hour (exponential decay), not doubles. &#10007;</li><li><strong>Choice D &mdash; &lsquo;$y=66,000(2)^{t}$&rsquo;</strong>: Initial value 66,000 &times; growth factor 2 raised to t hours. At t = 1: 132,000; at t = 2: 264,000. Doubles each hour. &#10003;</li></ul>That confirms <strong>D</strong> is correct.",
   "desmosExpressions": [
     {
       "id": "g1",

@@ -13,7 +13,7 @@
     },
     {
       "title": "Find x at the tangent point",
-      "content": "With $a = -8$: $2x^2 - 24x + 72 = 0$, or $x^2 - 12x + 36 = 0$, which factors as $(x-6)^2 = 0$. So $x = 6$. That matches choice C — <strong>C</strong> is correct."
+      "content": "With $a = -8$: $2x^2 - 24x + 72 = 0$, or $x^2 - 12x + 36 = 0$, which factors as $(x-6)^2 = 0$. So $x = 6$. That confirms <strong>C</strong> is correct."
     }
   ]
 }

@@ -9,7 +9,7 @@
     },
     {
       "title": "Substitute and find the center in standard form",
-      "content": "Substitute the completed squares into the original equation:<br/>$$(x + 10)^2 - 100 + (y + 8)^2 - 64 = -20$$<br/>Combine constants on the right:<br/>$$(x + 10)^2 + (y + 8)^2 = -20 + 100 + 64 = 144$$<br/>The standard form $(x - h)^2 + (y - k)^2 = r^2$ has center $(h, k)$. Since $(x + 10)^2 = (x - (-10))^2$ and $(y + 8)^2 = (y - (-8))^2$, the center is $(-10, -8)$. That matches choice B — <strong>B</strong> is correct."
+      "content": "Substitute the completed squares into the original equation:<br/>$$(x + 10)^2 - 100 + (y + 8)^2 - 64 = -20$$<br/>Combine constants on the right:<br/>$$(x + 10)^2 + (y + 8)^2 = -20 + 100 + 64 = 144$$<br/>The standard form $(x - h)^2 + (y - k)^2 = r^2$ has center $(h, k)$. Since $(x + 10)^2 = (x - (-10))^2$ and $(y + 8)^2 = (y - (-8))^2$, the center is $(-10, -8)$. That matches <strong>Choice B &mdash; $(-10,-8)$</strong>."
     }
   ]
 }

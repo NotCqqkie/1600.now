@@ -10,7 +10,7 @@
     },
     {
       "title": "Find r² using the point on the circle",
-      "content": "Since $(-9, 5)$ lies on the circle, it must satisfy the equation. Substitute $x = -9$ and $y = 5$: $$(-9 + 5)^2 + (5 - 2)^2 = r^2$$ $$(-4)^2 + (3)^2 = r^2$$ $$16 + 9 = r^2$$ $$r^2 = 25$$ Therefore the equation is $$(x + 5)^2 + (y - 2)^2 = 25$$. That matches choice D — <strong>D</strong> is correct."
+      "content": "Since $(-9, 5)$ lies on the circle, it must satisfy the equation. Substitute $x = -9$ and $y = 5$: $$(-9 + 5)^2 + (5 - 2)^2 = r^2$$ $$(-4)^2 + (3)^2 = r^2$$ $$16 + 9 = r^2$$ $$r^2 = 25$$ Therefore the equation is $$(x + 5)^2 + (y - 2)^2 = 25$$. That matches <strong>Choice D &mdash; $(x+5)^{2}+(y-2)^{2}=25$</strong>."
     }
   ]
 }
