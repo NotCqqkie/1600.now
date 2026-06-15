@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Apply the volume formula for a triangular prism",
       "content": "We have the formula: $$V = Bh$$ Given: $V = 216\\text{ cm}^3$ and $h = 8\\text{ cm}$. Substituting these values into the formula: $$216 = B \\cdot 8$$"
     },

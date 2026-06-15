@@ -4,12 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set the equations equal",
-      "content": "Since both equations equal $y$, set the right-hand sides equal to each other:<br/>$$3x = x^2 - 28$$"
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$y = 3x$$<br/>$$y = x^2 - 28$$<br/>You do not need to solve or rearrange them first.",
+      "desmosExpressions": [
+        "y = 3x",
+        "y = x^2 - 28"
+      ]
     },
     {
-      "title": "Solve and apply the constraint",
-      "content": "Rearrange to standard form:<br/>$$x^2 - 3x - 28 = 0$$<br/>Factor by finding two numbers that multiply to $-28$ and add to $-3$. Those are $-7$ and $4$:<br/>$$(x - 7)(x + 4) = 0$$<br/>So $x = 7$ or $x = -4$. Since we need $x \\gt  0$, the answer is $x = 7$."
+      "title": "Read the x-coordinate",
+      "content": "Click the intersection point and read the x-coordinate. It matches <strong>$7$</strong>."
+    },
+    {
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

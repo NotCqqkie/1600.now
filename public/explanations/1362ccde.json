@@ -4,24 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute for y",
-      "content": "The first equation gives $y=4x+1$. Substitute that into $4y=15x-8$:<br/>$$4(4x+1)=15x-8$$"
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$y=4x+1$$<br/>$$4y=15x-8$$<br/>You do not need to solve or rearrange them first.",
+      "desmosExpressions": [
+        "y=4x+1",
+        "4y=15x-8"
+      ]
     },
     {
-      "title": "Solve for x",
-      "content": "$$16x+4=15x-8$$<br/>$$x+4=-8$$<br/>$$x=-12$$"
+      "title": "Read the x-coordinate",
+      "content": "Click the intersection point and read the x-coordinate. It matches <strong>$35$</strong>."
     },
     {
-      "title": "Find y",
-      "content": "Use $y=4x+1$:<br/>$$y=4(-12)+1=-48+1=-47$$"
-    },
-    {
-      "title": "Compute x minus y",
-      "content": "$$x-y=-12-(-47)=35$$<br/>Subtracting a negative adds, which is why the result is positive."
-    },
-    {
-      "title": "Answer",
-      "content": "The value of $x-y$ is <strong>35</strong>."
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Extract the radius from the diameter",
       "content": "The diameter is 6 inches. Since radius is half the diameter:<br/>$$r = \\frac{6}{2} = 3 \\text{ inches}$$"
     },

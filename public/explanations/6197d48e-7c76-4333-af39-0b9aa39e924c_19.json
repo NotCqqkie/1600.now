@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Determine the right angle and set up the tangent ratio",
       "content": "Since angles $A$ and $B$ are both acute in triangle $ABC$, the right angle must be at vertex $C$. This makes $AC$ and $BC$ the two legs of the right triangle.<br/><br/>For angle $B$, the tangent ratio is:<br/>$$\\tan(B) = \\frac{\\text{opposite}}{\\text{adjacent}} = \\frac{AC}{BC}$$"
     },

@@ -4,6 +4,14 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest check: compare a table or graph",
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>C</strong>, $3w^2 + 11w - 70$."
+    },
+    {
+      "title": "Algebra check",
+      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+    },
+    {
       "title": "Multiply the binomials",
       "content": "Use FOIL on $(w+7)(3w-10)$:<br/>$$w\\cdot3w=3w^2$$<br/>$$w\\cdot(-10)=-10w$$<br/>$$7\\cdot3w=21w$$<br/>$$7\\cdot(-10)=-70$$"
     },

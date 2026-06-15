@@ -4,16 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve the system by elimination",
-      "content": "Add $x+y=19$ and $x-y=9$ to eliminate $y$: $$2x = 28 \\Rightarrow x = 14.$$"
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$19=x+y$$<br/>$$x-y=9$$<br/>You do not need to solve or rearrange them first.",
+      "desmosExpressions": [
+        "19=x+y",
+        "x-y=9"
+      ]
     },
     {
-      "title": "Find $x$",
-      "content": "So $x=14$. That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Read the x-coordinate",
+      "content": "Click the intersection point and read the x-coordinate. It matches <strong>C</strong>, 14."
     },
     {
-      "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above is 14. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

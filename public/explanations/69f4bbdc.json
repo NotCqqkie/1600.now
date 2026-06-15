@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+    },
+    {
       "title": "Apply the triangle angle-sum theorem",
       "content": "The triangle has a right angle ($90^{\\circ}$), an angle of $13^{\\circ}$, and unknown angle $a$. Apply the triangle angle-sum theorem:<br/>$$90^{\\circ} + 13^{\\circ} + a = 180^{\\circ}$$"
     },

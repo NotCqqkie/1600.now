@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: use the function table",
+      "content": "Enter the function in Desmos or a calculator table and scan for the row with the output named in the question. The input that works gives <strong>$12$</strong>. This is just a table lookup, and the arithmetic below confirms the same value."
+    },
+    {
       "title": "Set up and isolate the exponential",
       "content": "Starting with $f(x) = 38$, substitute the function definition: $$9^{\\frac{x}{8}} + 11 = 38$$ Subtract 11 from both sides to isolate the exponential term: $$9^{\\frac{x}{8}} = 27$$"
     },
     {
       "title": "Rewrite both sides with a common base",
       "content": "Recognize that both 9 and 27 are powers of 3: $9 = 3^2$ and $27 = 3^3$.<br/><br/>Substitute to rewrite the equation: $$(3^2)^{\\frac{x}{8}} = 3^3$$ Apply the power rule $(a^m)^n = a^{mn}$: $$3^{\\frac{2x}{8}} = 3^3$$ Simplify the left exponent: $$3^{\\frac{x}{4}} = 3^3$$"
-    },
-    {
-      "title": "Equate exponents and solve",
-      "content": "Since the bases are equal, the exponents must be equal: $$\\frac{x}{4} = 3$$ Multiply both sides by 4: $$x = 12$$"
     }
   ]
 }

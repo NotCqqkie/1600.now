@@ -4,6 +4,14 @@
   "correctAnswer": "D",
   "steps": [
     {
+      "title": "Fastest check: compare a table or graph",
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, ${11}(x-10y)(x+10y)$."
+    },
+    {
+      "title": "Algebra check",
+      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+    },
+    {
       "title": "Step 1",
       "content": "Recognize $x^2 - 100y^2$ as a difference of squares: $a^2 - b^2 = (a-b)(a+b)$ with $a = x$ and $b = 10y$."
     },
@@ -14,10 +22,7 @@
     {
       "title": "Step 3",
       "content": "Multiply back in the 11: ${11}(x^2 - 100y^2) = 11(x-10y)(x+10y)$."
-    },
-    {
-      "title": "Step 4",
-      "content": "Evaluate every choice:<ul><li>A: ${11}(x-2y)(x-50y)$ — expanding gives ${11}(x^2 - 52xy + 100y^2)$, which has the wrong sign on $100y^2$ and an extra $xy$ term. Eliminated.</li><li>B: ${11}(x-2y)(x+50y)$ — expanding gives ${11}(x^2 + 48xy - 100y^2)$, wrong factors entirely. Eliminated.</li><li>C: ${11}(x-10y)(x-10y)$ — this is ${11}(x-10y)^2 = 11(x^2 - 20xy + 100y^2)$, a perfect square, not a difference. Eliminated.</li><li>D: ${11}(x-10y)(x+10y)$ — matches the derived factorization exactly. That confirms <strong>D</strong> is correct.</li></ul>"
     }
-  ]
+  ],
+  "section": "Math"
 }

@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+    },
+    {
       "title": "Use the scale shortcut: similar triangles give equal ratios",
       "content": "Since $LM \\parallel PQ$, triangles $LRM$ and $QRP$ are similar (vertical angle at $R$ + alternate interior angles from parallel lines). Corresponding sides are proportional:<br/>$$\\frac{LR}{RQ} = \\frac{MR}{RP} \\implies \\frac{7}{RQ} = \\frac{6}{11}$$"
     },

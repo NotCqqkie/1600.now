@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Rewrite each equation for $y$",
-      "content": "From $x^2+y+7=7$, subtract $x^2$ to get $$y=-x^2.$$ From $20x+100-y=0$, add $y$ to both sides to get $$y=20x+100.$$"
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$${x}^{2}+y+7=7$$<br/>$$20x+100-y=0$$<br/>You do not need to solve or rearrange them first.",
+      "desmosExpressions": [
+        "{x}^{2}+y+7=7",
+        "20x+100-y=0"
+      ]
     },
     {
-      "title": "Set the expressions equal",
-      "content": "At the solution, both expressions equal $y$, so $$-x^2=20x+100.$$ Move everything to one side: $$x^2+20x+100=0.$$"
+      "title": "Read the x-coordinate",
+      "content": "Click the intersection point and read the x-coordinate. It matches <strong>$-10$</strong>."
     },
     {
-      "title": "Factor the perfect square",
-      "content": "$$x^2+20x+100=(x+10)^2,$$ so $$(x+10)^2=0.$$ Therefore, $x=-10$."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The graphs touch at one point with x-coordinate $-10$, so the value of $x$ is <strong>-10</strong>."
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

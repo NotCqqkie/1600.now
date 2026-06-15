@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the circle facts first: radii are equal, a diameter sets up a right angle, a tangent is perpendicular to the radius, and central/inscribed angles connect to arcs."
+    },
+    {
       "title": "Find the radius and semicircle arc length",
       "content": "From the circumference formula:<br/>$$C = 2\\pi r = 84\\pi$$<br/>Dividing both sides by $2\\pi$: $r = 42$.<br/><br/>Since any semicircle subtends half the circumference, the arc length of a semicircle is:<br/>$$\\text{Semicircle arc} = \\pi r = 42\\pi$$"
     },

@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+    },
+    {
       "title": "Apply the angle sum property of triangles",
       "content": "The angles of any triangle sum to 180°:<br/>$$\\angle D + \\angle E + \\angle F = 180^{\\circ}$$<br/>Substituting the given value $\\angle D = 114^{\\circ}$:<br/>$$114^{\\circ} + \\angle E + \\angle F = 180^{\\circ}$$<br/>$$\\angle E + \\angle F = 66^{\\circ}$$"
     },

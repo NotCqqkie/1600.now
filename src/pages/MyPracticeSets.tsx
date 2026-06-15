@@ -47,6 +47,7 @@ const subjectLabel = (subject: CustomPracticeSet["subject"]) =>
   subject === "math" ? "Math" : subject === "reading" ? "Reading & Writing" : "Mixed";
 
 const PRACTICE_SET_HELP_REQUEST_KEY = "practice-set-help-requested";
+const PRACTICE_SET_HELP_EVENT = "onboarding:practice-set-help";
 const completedQuestionStatuses = new Set(["correct-first", "correct-later", "incorrect"]);
 
 const getPracticeSetProgress = (
@@ -112,7 +113,12 @@ const MyPracticeSets = () => {
 
   const handleShowPracticeSetHelp = () => {
     sessionStorage.setItem(PRACTICE_SET_HELP_REQUEST_KEY, "1");
-    window.dispatchEvent(new CustomEvent("onboarding:practice-set-help"));
+    window.dispatchEvent(new CustomEvent(PRACTICE_SET_HELP_EVENT));
+    window.setTimeout(() => {
+      if (sessionStorage.getItem(PRACTICE_SET_HELP_REQUEST_KEY) === "1") {
+        window.dispatchEvent(new CustomEvent(PRACTICE_SET_HELP_EVENT));
+      }
+    }, 0);
   };
 
   return (
@@ -231,9 +237,6 @@ const MyPracticeSets = () => {
               <h2 className="mt-4 text-2xl font-semibold tracking-[-0.025em] text-foreground sm:text-3xl">
                 Make your first practice set from any question
               </h2>
-              <p className="mt-3 max-w-xl text-sm leading-6 text-muted-foreground">
-                Open a question, tap More, then choose Create Practice Set. The set uses questions with the same SAT skill and content type, then saves them here.
-              </p>
 
               <div className="mt-6 space-y-3">
                 {tutorialSteps.map((step, index) => (

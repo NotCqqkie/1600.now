@@ -4,6 +4,13 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$f \\left(x\\right)= \\left(x-10\\right) \\left(x+13\\right)$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is $-\\frac{3}{2}$.",
+      "desmosExpressions": [
+        "f \\left(x\\right)= \\left(x-10\\right) \\left(x+13\\right)"
+      ]
+    },
+    {
       "title": "Identify the roots",
       "content": "$f(x) = (x - 10)(x + 13) = 0$ gives roots $x = 10$ and $x = -13$."
     },

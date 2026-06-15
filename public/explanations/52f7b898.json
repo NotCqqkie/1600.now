@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Determine angle A",
       "content": "In right triangle ABC with the right angle at C and angle B = $30^{\\circ}$, use the angle sum property:<br/>$$A + 90 + 30 = 180$$<br/>Therefore angle A = $60^{\\circ}$."
     },

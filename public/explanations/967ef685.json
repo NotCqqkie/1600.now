@@ -4,6 +4,14 @@
   "correctAnswer": "D",
   "steps": [
     {
+      "title": "Fastest check: compare a table or graph",
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $\\frac{42a \\left({k}^{2}+1\\right)}{k}$."
+    },
+    {
+      "title": "Algebra check",
+      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+    },
+    {
       "title": "Step 1",
       "content": "Rewrite the second term with denominator k: $42ak = \\frac{42ak^{2}}{k}$."
     },
@@ -14,10 +22,6 @@
     {
       "title": "Step 3",
       "content": "Factor 42a from the numerator: $\\frac{42a(1 + k^{2})}{k} = \\frac{42a(k^{2}+1)}{k}$."
-    },
-    {
-      "title": "Step 4",
-      "content": "That confirms <strong>D</strong> is correct."
     }
   ],
   "choices": [
@@ -41,5 +45,6 @@
       "text": "$\\frac{42a\\left({k}^{2}+1\\right)}{k}$",
       "elimination": "<ul><li>Convert the second term: $42ak = \\frac{42ak^{2}}{k}$.</li><li>Add: $\\frac{42a}{k} + \\frac{42ak^{2}}{k} = \\frac{42a(1+k^{2})}{k} = \\frac{42a(k^{2}+1)}{k}$.</li><li>This matches exactly. That confirms <strong>D</strong> is correct.</li></ul>"
     }
-  ]
+  ],
+  "section": "Math"
 }

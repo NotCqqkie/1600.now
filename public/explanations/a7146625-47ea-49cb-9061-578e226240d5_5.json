@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: use the function table",
+      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $\\frac{83}{9}$, so the answer is <strong>C</strong>, $\\frac{83}{9}$. This is just a one-row lookup, and the arithmetic below confirms the table value."
+    },
+    {
       "title": "Substitute x = 18 and simplify the first term",
       "content": "Substitute $x = 18$ into $g(x) = \\frac{5}{9}x - \\frac{7}{9}$:<br/>$$g(18) = \\frac{5}{9}(18) - \\frac{7}{9}$$<br/>Simplify the first term: $\\frac{5}{9} \\cdot 18 = \\frac{90}{9} = 10$. Therefore:<br/>$$g(18) = 10 - \\frac{7}{9}$$"
     },

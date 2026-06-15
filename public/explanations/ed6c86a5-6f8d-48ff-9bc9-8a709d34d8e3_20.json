@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Find the linear scale factor from surface areas",
       "content": "The surface area ratio is $\\frac{880}{55} = 16$.<br/>For similar figures, surface area scales by $k^2$ where $k$ is the linear scale factor.<br/>Therefore: $k^2 = 16$, which means $k = 4$."
     },

@@ -4,6 +4,14 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest check: compare a table or graph",
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $v^{3}(v-590)$."
+    },
+    {
+      "title": "Algebra check",
+      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+    },
+    {
       "title": "Find the greatest common factor",
       "content": "Both terms $v^4$ and $590v^3$ share a factor of $v^3$. Factor it out:<br/>$$v^4 - 590v^3 = v^3(v - 590)$$"
     },

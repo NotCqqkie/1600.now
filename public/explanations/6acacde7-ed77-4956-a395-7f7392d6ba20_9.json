@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Read the circle center from the graph",
       "content": "Use the visible symmetry instead of setting up perpendicular-bisector algebra. The points $(11,10)$ and $(11,4)$ are vertically aligned and have midpoint:<br/>$$\\left(11,\\frac{10+4}{2}\\right)=(11,7)$$<br/>The point $(8,7)$ is also on the circle, exactly $3$ units left of $(11,7)$, so the center is visibly $(11,7)$."
     },

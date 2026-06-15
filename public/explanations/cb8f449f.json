@@ -4,12 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Isolate y from the first equation",
-      "content": "From the first equation, $$\\frac{1}{2}y = 4$$. Multiply both sides by 2:<br/>$$y = 8$$"
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$\\frac{1}{2}y = 4$$<br/>$$x - \\frac{1}{2}y = 2$$<br/>You do not need to solve or rearrange them first.",
+      "desmosExpressions": [
+        "\\frac{1}{2}y = 4",
+        "x - \\frac{1}{2}y = 2"
+      ]
     },
     {
-      "title": "Substitute y into the second equation and solve for x",
-      "content": "Substitute $y = 8$ into the second equation:<br/>$$x - \\frac{1}{2}(8) = 2$$<br/>$$x - 4 = 2$$<br/>$$x = 6$$<br/>That is the correct answer."
+      "title": "Read the x-coordinate",
+      "content": "Click the intersection point and read the x-coordinate. It matches <strong>D</strong>, $6$."
+    },
+    {
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

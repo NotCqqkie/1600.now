@@ -4,16 +4,19 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$f(x) = (2x - 20)(2x + 8)$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is $-196$.",
+      "desmosExpressions": [
+        "f(x) = (2x - 20)(2x + 8)"
+      ]
+    },
+    {
       "title": "Find vertex x from midpoint of zeros",
       "content": "Zeros: $2x-20=0 \\Rightarrow x=10$; $2x+8=0 \\Rightarrow x=-4$. Vertex $x = \\frac{10+(-4)}{2} = 3$."
     },
     {
       "title": "Evaluate f(3) to get minimum",
       "content": "$f(3)=(2(3)-20)(2(3)+8)=(-14)(14)=-196$. The computed minimum is <strong>&minus;196</strong>, matching the source choice value."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $-196$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $-196$."
     }
   ]
 }

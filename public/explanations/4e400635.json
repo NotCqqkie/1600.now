@@ -4,16 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Subtract the equations",
-      "content": "The $3x$ terms match, so subtract the second equation from the first: $$(3x+6)-(3x+4)=4y-2y.$$"
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$3x+6=4y$$<br/>$$3x+4=2y$$<br/>You do not need to solve or rearrange them first.",
+      "desmosExpressions": [
+        "3x+6=4y",
+        "3x+4=2y"
+      ]
     },
     {
-      "title": "Solve for $y$",
-      "content": "The left side simplifies to $2$, and the right side simplifies to $2y$, so $$2=2y.$$ Divide by $2$ to get $$y=1.$$"
+      "title": "Read the y-coordinate",
+      "content": "Click the intersection point and read the y-coordinate. It matches <strong>$1$</strong>."
     },
     {
-      "title": "Confirm the answer",
-      "content": "The question only asks for $y$, so there is no need to find $x$. The value of $y$ is <strong>1</strong>."
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

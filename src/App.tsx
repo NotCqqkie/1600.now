@@ -96,6 +96,7 @@ const SatToActConverter = preloadableLazy(() => import("./pages/tools/SatToActCo
 const SatPercentileCalculator = preloadableLazy(() => import("./pages/tools/SatPercentileCalculator"));
 const PsatToSatPredictor = preloadableLazy(() => import("./pages/tools/PsatToSatPredictor"));
 const SatStudyPlanGenerator = preloadableLazy(() => import("./pages/tools/SatStudyPlanGenerator"));
+const StudyPlanLab = preloadableLazy(() => import("./pages/tools/StudyPlanLab"));
 const WhatSatScoreDoINeed = preloadableLazy(() => import("./pages/tools/WhatSatScoreDoINeed"));
 const SatTestCountdown = preloadableLazy(() => import("./pages/tools/SatTestCountdown"));
 const CountryHubPage = preloadableLazy(() => import("./pages/country/CountryHubPage"));
@@ -1955,6 +1956,7 @@ const classifySkeleton = (pathname: string) => {
       "/sat-percentile-calculator",
       "/psat-to-sat-predictor",
       "/sat-study-plan-generator",
+      "/study-plan-lab",
       "/what-sat-score-do-i-need",
       "/sat-test-countdown",
     ].includes(pathname)
@@ -2094,6 +2096,7 @@ const routePreloaders: RoutePreloader[] = [
   { match: exactRoute("/sat-percentile-calculator"), preload: shellPreload(SatPercentileCalculator) },
   { match: exactRoute("/psat-to-sat-predictor"), preload: shellPreload(PsatToSatPredictor) },
   { match: exactRoute("/sat-study-plan-generator"), preload: shellPreload(SatStudyPlanGenerator) },
+  { match: exactRoute("/study-plan-lab"), preload: StudyPlanLab.preload },
   { match: exactRoute("/what-sat-score-do-i-need"), preload: shellPreload(WhatSatScoreDoINeed) },
   { match: exactRoute("/sat-test-countdown"), preload: shellPreload(SatTestCountdown) },
   { match: exactRoute("/in"), preload: shellPreload(CountryHubPage) },
@@ -2112,6 +2115,14 @@ const preloadRouteForLocation = (location: Location) =>
 
 const getLocationIdentity = (location: Location) =>
   `${location.pathname}${location.search}${location.hash}:${location.key}`;
+
+const AUTH_ROUTE_PATHS = new Set(["/login", "/signup", "/verify-email"]);
+
+const getRouteErrorBoundaryKey = (pathname: string) => {
+  if (/^\/hard\/[^/]+$/.test(pathname)) return "/hard/:id";
+  if (/^\/bank\/(?:math|reading)\/(?!browse$)[^/]+$/.test(pathname)) return "/bank/:subject/:id";
+  return pathname;
+};
 
 const Loading = () => {
   const location = useLocation();
@@ -2164,7 +2175,7 @@ const Loading = () => {
 
 const RouteErrorBoundary = ({ children }: { children: ReactNode }) => {
   const location = useLocation();
-  return <ErrorBoundary key={location.pathname}>{children}</ErrorBoundary>;
+  return <ErrorBoundary key={getRouteErrorBoundaryKey(location.pathname)}>{children}</ErrorBoundary>;
 };
 
 const withSuspense = (page: ReactNode) => (
@@ -2307,6 +2318,7 @@ const AppRoutes = ({ location }: { location: Location }) => (
     <Route path="/sat-percentile-calculator" element={withShellSuspense(<SatPercentileCalculator />)} />
     <Route path="/psat-to-sat-predictor" element={withShellSuspense(<PsatToSatPredictor />)} />
     <Route path="/sat-study-plan-generator" element={withShellSuspense(<SatStudyPlanGenerator />)} />
+    <Route path="/study-plan-lab" element={withSuspense(<StudyPlanLab />)} />
     <Route path="/what-sat-score-do-i-need" element={withShellSuspense(<WhatSatScoreDoINeed />)} />
     <Route path="/sat-test-countdown" element={withShellSuspense(<SatTestCountdown />)} />
     <Route path="/in" element={withShellSuspense(<CountryHubPage />)} />
@@ -2339,6 +2351,15 @@ const StableRoutes = () => {
 
     const transitionId = transitionIdRef.current + 1;
     transitionIdRef.current = transitionId;
+
+    if (AUTH_ROUTE_PATHS.has(displayLocation.pathname)) {
+      setPendingLocation(null);
+      setShowPendingSkeleton(false);
+      setDisplayLocation(actualLocation);
+      void preloadRouteForLocation(actualLocation).catch(() => undefined);
+      return;
+    }
+
     setPendingLocation(actualLocation);
     setShowPendingSkeleton(false);
 
@@ -2364,7 +2385,7 @@ const StableRoutes = () => {
     return () => {
       if (skeletonTimer) clearTimeout(skeletonTimer);
     };
-  }, [actualLocation, actualLocationIdentity, displayLocationIdentity]);
+  }, [actualLocation, actualLocationIdentity, displayLocation.pathname, displayLocationIdentity]);
 
   const renderedRoutes =
     showPendingSkeleton && pendingLocation

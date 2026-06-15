@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Recognize the standard form of a circle",
       "content": "A circle with center $(h, k)$ and radius $r$ has the equation $(x-h)^2 + (y-k)^2 = r^2$. We can read the center directly from this form without any algebra."
     },

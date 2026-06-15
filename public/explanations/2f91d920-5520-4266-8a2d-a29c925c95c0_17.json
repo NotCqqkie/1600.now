@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Recognize complementary angles in the right triangle",
       "content": "In right triangle RST, we're told that the sum of angles R and S equals $90^{\\circ}$. This means R and S are <strong>complementary angles</strong> - together they make a right angle."
     },

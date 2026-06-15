@@ -4,16 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Compare the slopes of both lines",
-      "content": "Both equations are in slope-intercept form $y = mx + b$.<br/><br/>Line 1: $y = 5x + 10$ has slope $m = 5$<br/>Line 2: $y = 5x - 2$ has slope $m = 5$<br/><br/>Both lines have the same slope but different y-intercepts (10 and -2, respectively)."
-    },
-    {
-      "title": "Parallel lines never intersect",
-      "content": "When two lines have the same slope and different y-intercepts, they are parallel. Parallel lines never intersect in the coordinate plane. Therefore, the graphs meet at zero points. That is the correct answer.",
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$y = 5x + 10$$<br/>$$y = 5x - 2$$<br/>You do not need to solve or rearrange them first.",
       "desmosExpressions": [
         "y = 5x + 10",
         "y = 5x - 2"
       ]
+    },
+    {
+      "title": "Read the number of intersections",
+      "content": "The graphs show Zero intersection point(s), so the matching answer is <strong>A</strong>, Zero."
+    },
+    {
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

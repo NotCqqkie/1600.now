@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Identify corresponding angles from similarity",
       "content": "Since triangle $ABC$ is similar to triangle $DEF$ and angle $A$ corresponds to angle $D$, these angles are equal: $\\angle A = \\angle D$. Therefore, $\\sin D = \\sin A$."
     },

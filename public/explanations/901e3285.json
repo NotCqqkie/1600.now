@@ -3,17 +3,22 @@
   "qid": "901e3285",
   "steps": [
     {
-      "explanation": "In an isosceles triangle, exactly two angles are equal. Angle A = 50°. Three cases to check: (1) A = B, (2) A = C, (3) B = C."
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
     },
     {
-      "explanation": "Case 1: A = B = 50°, so C = 180° - 50° - 50° = 80°. Valid triangle. B = 50°. Case 2: A = C = 50°, so B = 180° - 50° - 50° = 80°. Valid. B = 80°. Case 3: B = C, so 50° + 2B = 180°, giving B = 65°. Valid."
+      "title": "Explanation",
+      "content": "In an isosceles triangle, exactly two angles are equal. Angle A = 50°. Three cases to check: (1) A = B, (2) A = C, (3) B = C."
     },
     {
-      "explanation": "Possible values of angle B are 50°, 65°, and 80°. B = 100° is not achievable: if B = 100°, then A + B = 150°, C = 30°. The angles 50°, 100°, 30° have no two equal — not isosceles."
+      "title": "Explanation",
+      "content": "Case 1: A = B = 50°, so C = 180° - 50° - 50° = 80°. Valid triangle. B = 50°. Case 2: A = C = 50°, so B = 180° - 50° - 50° = 80°. Valid. B = 80°. Case 3: B = C, so 50° + 2B = 180°, giving B = 65°. Valid."
     },
     {
-      "explanation": "<ul><li>A: B = 50° — possible (Case 1 above).</li><li>B: B = 65° — possible (Case 3 above).</li><li>C: B = 80° — possible (Case 2 above).</li><li>D: B = 100° — leads to angles 50°, 100°, 30° with no two equal, so not isosceles. That confirms <strong>D</strong> is correct.</li></ul>"
+      "title": "Explanation",
+      "content": "Possible values of angle B are 50°, 65°, and 80°. B = 100° is not achievable: if B = 100°, then A + B = 150°, C = 30°. The angles 50°, 100°, 30° have no two equal — not isosceles."
     }
   ],
-  "correctAnswer": "D"
+  "correctAnswer": "D",
+  "section": "Math"
 }

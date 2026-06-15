@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Divide by 2 to get standard form coefficients",
       "content": "The equation $2x^2 + 2y^2 + tx + ty - 78 = 0$ has a coefficient of 2 for both squared terms. Divide the entire equation by 2 to get coefficients of 1:<br/>$$x^2 + y^2 + \\frac{t}{2}x + \\frac{t}{2}y - 39 = 0$$"
     },

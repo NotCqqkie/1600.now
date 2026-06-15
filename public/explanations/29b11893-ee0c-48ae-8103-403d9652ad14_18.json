@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Apply cofunction identities",
       "content": "Use the cofunction shortcut: $\\cos(90 - a)^{\\circ} = \\sin a^{\\circ}$ and $\\sin(90 - b)^{\\circ} = \\cos b^{\\circ}$. With $y = 0$, $\\sin(a + 0)^{\\circ} = \\sin a^{\\circ}$. The expression becomes: $$2\\sin a^{\\circ} \\cdot \\cos b^{\\circ} + \\sin a^{\\circ} \\cdot \\cos b^{\\circ}.$$"
     },

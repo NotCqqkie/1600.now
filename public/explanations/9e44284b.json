@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Factor out 2 to prepare for completing the square",
       "content": "Group the $x$ and $y$ terms with the coefficient 2 factored out:<br/>$$2x^2 - 6x + 2y^2 + 2y = 45$$<br/>$$2(x^2 - 3x) + 2(y^2 + y) = 45$$"
     },

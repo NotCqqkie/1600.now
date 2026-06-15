@@ -4,6 +4,14 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest check: compare a table or graph",
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $\\frac{{h}^{10}}{{q}^{14}}$."
+    },
+    {
+      "title": "Algebra check",
+      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+    },
+    {
       "title": "Apply the quotient rule for exponents",
       "content": "When dividing powers with the same base, subtract the exponents. Apply this separately to $h$ and $q$:<br/>$$\\frac{h^{15}}{h^5} = h^{15-5} = h^{10}$$<br/>$$\\frac{q^{7}}{q^{21}} = q^{7-21} = q^{-14}$$"
     },

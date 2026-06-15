@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Identify the circle's center and radius",
       "content": "From the standard form $(x-6)^2+(y-2)^2=36$, we have center $(6, 2)$ and radius $6$."
     },
     {
       "title": "Substitute the point into the circle equation and solve",
       "content": "Since $(12, c)$ lies on the circle:<br/>$$(12-6)^2+(c-2)^2=36$$<br/>$$36+(c-2)^2=36$$<br/>$$(c-2)^2=0$$<br/>$$c=2$$"
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $2$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $2$."
     }
   ]
 }

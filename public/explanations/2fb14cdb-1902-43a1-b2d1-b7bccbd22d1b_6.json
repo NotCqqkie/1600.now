@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Start with the given equation",
       "content": "The equation is $$R=\\frac{0.43l}{A}$$ To solve for $l$, first undo the division by $A$."
     },
@@ -14,10 +18,6 @@
     {
       "title": "Check the operation order",
       "content": "Because $A$ is in the denominator of the original fraction, it must be multiplied to the other side. It should not be added to or subtracted from $R$."
-    },
-    {
-      "title": "Match the choice",
-      "content": "$l=\\frac{AR}{0.43}$ matches the correct answer."
     }
   ]
 }

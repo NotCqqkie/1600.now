@@ -4,12 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use substitution to eliminate y",
-      "content": "From $8x + y = -11$, we get $y = -11 - 8x$. Substitute into $2x^2 = y + 341$:<br/>$$2x^2 = (-11 - 8x) + 341 = 330 - 8x$$<br/>$$2x^2 + 8x - 330 = 0$$<br/>Dividing by 2:<br/>$$x^2 + 4x - 165 = 0$$"
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$8x+y=-11$$<br/>$$2{x}^{2}=y+341$$<br/>You do not need to solve or rearrange them first.",
+      "desmosExpressions": [
+        "8x+y=-11",
+        "2{x}^{2}=y+341"
+      ]
     },
     {
-      "title": "Backsolve using integer choices",
-      "content": "Backsolving — testing choice A (-15):<br/>$$(-15)^2 + 4(-15) - 165 = 225 - 60 - 165 = 0$$ ✓<br/>The equation is satisfied. That confirms <strong>A</strong> is correct."
+      "title": "Read the x-coordinate",
+      "content": "Click the intersection point and read the x-coordinate. It matches <strong>A</strong>, $-15$."
+    },
+    {
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

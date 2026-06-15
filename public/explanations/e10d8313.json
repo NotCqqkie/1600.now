@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+    },
+    {
       "title": "Find the third angle in triangle QXS",
       "content": "In triangle QXS, we have two angles: \\angle SQX = 48 degrees and \\angle SXQ = 86 degrees. Using the angle sum property:<br/>$$\\angle QSX = 180^{\\circ} - 48^{\\circ} - 86^{\\circ} = 46^{\\circ}$$<br/>This is the angle at vertex S between ray SQ (along line PV) and ray SX (toward point X). Since W lies on segment SX, this same angle applies to ray SW."
     },
@@ -14,10 +18,6 @@
     {
       "title": "Find ∠TRU using triangle RWS",
       "content": "In triangle $RWS$, we now have:<ul><li>$\\angle RWS=95^\\circ$</li><li>$\\angle WSR=46^\\circ$, the same as $\\angle QSX$</li></ul>Use the triangle angle sum: $$\\angle WRS=180^\\circ-95^\\circ-46^\\circ=39^\\circ.$$ Since $W$ lies on line $RU$, ray $RW$ points in the same direction as ray $RU$. Since $S$ and $T$ lie on line $PV$, ray $RS$ points in the same direction as ray $RT$. Therefore, $\\angle TRU=39^\\circ$."
-    },
-    {
-      "title": "Find ∠RTU and solve for ∠TUR",
-      "content": "At point T on line PV, we're given \\angle VTU = 162 degrees. Since P and V lie on opposite sides of T along line PV:<br/>$$\\angle PTU = 180^{\\circ} - 162^{\\circ} = 18^{\\circ}$$<br/>Since R lies between P and T on line PV, ray TR points in the same direction as ray TP, so \\angle RTU = 18 degrees.<br/><br/>Now in triangle RTU:<br/>$$\\angle RTU + \\angle TRU + \\angle TUR = 180^{\\circ}$$<br/>$$18^{\\circ} + 39^{\\circ} + \\angle TUR = 180^{\\circ}$$<br/>$$\\angle TUR = 123^{\\circ}$$<br/>The answer is <strong>123</strong> degrees."
     }
   ]
 }

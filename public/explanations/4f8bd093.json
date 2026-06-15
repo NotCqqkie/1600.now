@@ -4,14 +4,19 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$16x+24=24x$$Graph or solve it directly and read the x-value that works. The requested value is $3$.",
+      "desmosExpressions": [
+        "16x+24=24x"
+      ]
+    },
+    {
       "title": "Isolate x",
-      "content": "Simplify the equation $16x + 24 = 24x$ by subtracting $16x$ from both sides:<br/>$$16x+24=24x$$<br/>$$24=24x-16x$$<br/>$$24=8x$$",
-      "formula": null
+      "content": "Simplify the equation $16x + 24 = 24x$ by subtracting $16x$ from both sides:<br/>$$16x+24=24x$$<br/>$$24=24x-16x$$<br/>$$24=8x$$"
     },
     {
       "title": "Solve for x",
-      "content": "Divide both sides by 8 to find the value of $x$:<br/>$$x=\\frac{24}{8}=3$$ Substitution checks the result because $16(3)+24=72$ and $24(3)=72$.<br/><strong>D</strong> is correct.",
-      "formula": null
+      "content": "Divide both sides by 8 to find the value of $x$:<br/>$$x=\\frac{24}{8}=3$$ Substitution checks the result because $16(3)+24=72$ and $24(3)=72$.<br/><strong>D</strong> is correct."
     }
   ]
 }

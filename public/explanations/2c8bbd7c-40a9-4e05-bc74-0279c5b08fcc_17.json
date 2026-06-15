@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+    },
+    {
       "title": "Apply the Exterior Angle Theorem",
       "content": "When side QR is extended through R to point S, angle PRS becomes an exterior angle of triangle PQR. By the Exterior Angle Theorem, an exterior angle equals the sum of the two remote interior angles (the two angles not at the exterior angle's vertex).<br/><br/>The remote angles are P and Q:<br/>$$(x + y) = (3x + 5) + (2x + 9)$$<br/>$$x + y = 5x + 14$$<br/>$$y = 4x + 14$$"
     },

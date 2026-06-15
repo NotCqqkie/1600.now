@@ -2,9 +2,9 @@
 
 export const hiddenBankQuestionCoverage = {
   "policy": "text-template tolerant duplicate clusters with identical image signatures; keep one representative",
-  "hiddenCount": 701,
-  "duplicateClusterCount": 462,
-  "duplicateClusterMemberCount": 1163
+  "hiddenCount": 695,
+  "duplicateClusterCount": 460,
+  "duplicateClusterMemberCount": 1155
 } as const;
 
 export const HIDDEN_BANK_QUESTION_IDS = [
@@ -73,6 +73,7 @@ export const HIDDEN_BANK_QUESTION_IDS = [
   "bank-past-math-68b576c1-9de8-41d3-9840-538d4edcd113_2",
   "bank-past-math-68b576c1-9de8-41d3-9840-538d4edcd113_3",
   "bank-past-math-68b576c1-9de8-41d3-9840-538d4edcd113_8",
+  "bank-past-math-6acacde7-ed77-4956-a395-7f7392d6ba20_18",
   "bank-past-math-6acacde7-ed77-4956-a395-7f7392d6ba20_21",
   "bank-past-math-6acacde7-ed77-4956-a395-7f7392d6ba20_3",
   "bank-past-math-6b1e987d-70b0-4072-9d03-3ebd56371518_11",
@@ -335,7 +336,6 @@ export const HIDDEN_BANK_QUESTION_IDS = [
   "bank-past-math-d5718376-6a71-41d6-aa0f-411bb7f3bb75_15",
   "bank-past-math-d5718376-6a71-41d6-aa0f-411bb7f3bb75_16",
   "bank-past-math-d5718376-6a71-41d6-aa0f-411bb7f3bb75_17",
-  "bank-past-math-d5718376-6a71-41d6-aa0f-411bb7f3bb75_18",
   "bank-past-math-d5718376-6a71-41d6-aa0f-411bb7f3bb75_19",
   "bank-past-math-d5718376-6a71-41d6-aa0f-411bb7f3bb75_20",
   "bank-past-math-d5718376-6a71-41d6-aa0f-411bb7f3bb75_22",
@@ -503,7 +503,6 @@ export const HIDDEN_BANK_QUESTION_IDS = [
   "bank-unofficial-math-09e5e4d3",
   "bank-unofficial-math-0adbe034",
   "bank-unofficial-math-0b332f00",
-  "bank-unofficial-math-0bd33265",
   "bank-unofficial-math-0cadb20e",
   "bank-unofficial-math-0d391910",
   "bank-unofficial-math-0d5495a6",
@@ -559,10 +558,8 @@ export const HIDDEN_BANK_QUESTION_IDS = [
   "bank-unofficial-math-58477a6c",
   "bank-unofficial-math-58c26db8",
   "bank-unofficial-math-590f2187",
-  "bank-unofficial-math-5ab9903f",
   "bank-unofficial-math-5b2b8866",
   "bank-unofficial-math-5b4757df",
-  "bank-unofficial-math-5bf5136d",
   "bank-unofficial-math-5c94e6fa",
   "bank-unofficial-math-5edc8c98",
   "bank-unofficial-math-608eeb6e",
@@ -594,7 +591,6 @@ export const HIDDEN_BANK_QUESTION_IDS = [
   "bank-unofficial-math-7a8cb72a",
   "bank-unofficial-math-7ba694f3",
   "bank-unofficial-math-7d093333",
-  "bank-unofficial-math-7d5d1b32",
   "bank-unofficial-math-8027db3f",
   "bank-unofficial-math-83fb222d",
   "bank-unofficial-math-842cec4d",
@@ -616,7 +612,6 @@ export const HIDDEN_BANK_QUESTION_IDS = [
   "bank-unofficial-math-993000da",
   "bank-unofficial-math-9966235e",
   "bank-unofficial-math-99ea3715",
-  "bank-unofficial-math-9b5b23fc",
   "bank-unofficial-math-9c44f828",
   "bank-unofficial-math-9ed4c1a2",
   "bank-unofficial-math-9fc31513",
@@ -631,7 +626,6 @@ export const HIDDEN_BANK_QUESTION_IDS = [
   "bank-unofficial-math-a91a2b75",
   "bank-unofficial-math-a94ed4e0",
   "bank-unofficial-math-aa2d36fe",
-  "bank-unofficial-math-ac472881",
   "bank-unofficial-math-adf60b28",
   "bank-unofficial-math-ae05d37b",
   "bank-unofficial-math-aee9fd2d",
@@ -646,7 +640,6 @@ export const HIDDEN_BANK_QUESTION_IDS = [
   "bank-unofficial-math-bb7c8186",
   "bank-unofficial-math-bd45df49",
   "bank-unofficial-math-bdb0aa23",
-  "bank-unofficial-math-beca03de",
   "bank-unofficial-math-c048055c",
   "bank-unofficial-math-c0586eb5",
   "bank-unofficial-math-c13016f9",
@@ -699,6 +692,7 @@ export const HIDDEN_BANK_QUESTION_IDS = [
   "bank-unofficial-math-fb5e7f59",
   "bank-unofficial-math-fd4b2aa0",
   "bank-unofficial-math-fd8745fc",
+  "bank-unofficial-math-fecc446d",
   "bank-unofficial-math-ff2e5c76",
   "bank-unofficial-math-ff501705",
   "bank-unofficial-reading-1455b754",

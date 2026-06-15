@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Identify the tangency condition",
       "content": "A circle intersects the <em>y</em>-axis at exactly one point when it is tangent to the <em>y</em>-axis. This occurs when the distance from the circle's center to the <em>y</em>-axis equals the circle's radius.<br/><br/>For a circle $(x - h)^2 + (y - k)^2 = r^2$:<ul><li>Center: $(h, k)$</li><li>Radius: $r$</li><li>Distance from center to <em>y</em>-axis: $|h|$</li></ul>We need: $|h| = r$"
     },

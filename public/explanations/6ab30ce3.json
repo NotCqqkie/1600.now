@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Find angle A",
       "content": "Given $\\tan(A) = \\sqrt{3}$. The angle whose tangent equals $\\sqrt{3}$ is $60^{\\circ}$, so $A = 60^{\\circ}$. In triangle $ABC$, angles sum to $180^{\\circ}$. With $C = 90^{\\circ}$ and $A = 60^{\\circ}$, we get $B = 30^{\\circ}$."
     },

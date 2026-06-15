@@ -4,16 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up",
-      "content": "At an intersection point both equations share the same $(x, y)$. Set the right-hand sides equal: $$x^2 + 17x + 4 = x + 4$$"
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$y=x^{2}+17x+4$$<br/>$$y=x+4$$<br/>You do not need to solve or rearrange them first.",
+      "desmosExpressions": [
+        "y=x^{2}+17x+4",
+        "y=x+4"
+      ]
     },
     {
-      "title": "Solve",
-      "content": "Subtract $x + 4$ from both sides: $$x^2 + 16x = 0$$ Factor: $$x(x + 16) = 0$$ So $x = 0$ or $x = -16$. Only $-16$ appears among the choices."
+      "title": "Read the x-coordinate",
+      "content": "Click the intersection point and read the x-coordinate. It matches <strong>A</strong>, $-16$."
     },
     {
-      "title": "Answer",
-      "content": "<strong>A</strong> is correct."
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

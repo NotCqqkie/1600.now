@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+    },
+    {
       "title": "Find cos R from tan R",
       "content": "In right triangle $RST$ with $\\angle T = 90^{\\circ}$ and $\\tan R = \\frac{216}{713}$, we have $\\tan R = \\frac{TS}{RT} = \\frac{216}{713}$.<br/><br/>Setting $TS = 216$ and $RT = 713$, the hypotenuse is $$RS = \\sqrt{216^2 + 713^2} = \\sqrt{46656 + 508369} = \\sqrt{555025} = 745$$ Therefore, $$\\cos R = \\frac{RT}{RS} = \\frac{713}{745}$$",
       "formula": "$$\\cos \\theta = \\frac{\\text{adjacent}}{\\text{hypotenuse}}$$"

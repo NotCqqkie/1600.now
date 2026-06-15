@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Use hemisphere volume",
       "content": "A hemisphere has half the volume of a sphere, so $$V=\\frac{1}{2}\\cdot\\frac{4}{3}\\pi r^3=\\frac{2}{3}\\pi r^3$$"
     },
@@ -14,10 +18,6 @@
     {
       "title": "Confirm the choice",
       "content": "The closest answer choice is $41{,}200$, so <strong>D</strong> is correct."
-    },
-    {
-      "title": "Check the scale of the answer",
-      "content": "Since $27^3=19{,}683$, the volume should be in the tens of thousands of cubic inches. That rules out $1{,}500$ and $6{,}100$, and $41{,}200$ is closest to $13{,}122pi$."
     }
   ]
 }

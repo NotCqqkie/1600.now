@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+    },
+    {
       "title": "Combine the right-side fractions over a common denominator",
       "content": "Starting from $\\frac{1}{R} = \\frac{1}{p} + \\frac{1}{q} + \\frac{1}{s} + \\frac{1}{13}$, use the common denominator $13pqs$:<br/><br/>$\\frac{1}{p} = \\frac{13qs}{13pqs}$, $\\frac{1}{q} = \\frac{13ps}{13pqs}$, $\\frac{1}{s} = \\frac{13pq}{13pqs}$, $\\frac{1}{13} = \\frac{pqs}{13pqs}$.<br/><br/>So $\\frac{1}{R} = \\frac{13qs + 13ps + 13pq + pqs}{13pqs}$."
     },

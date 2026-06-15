@@ -4,6 +4,14 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest check: compare a table or graph",
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $f(x)=26(2)^{x}$."
+    },
+    {
+      "title": "Algebra check",
+      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+    },
+    {
       "title": "Find the y-intercept of f",
       "content": "Evaluate at $x=0$: $$f(0)=20(2)^{0}+6(2)^{0}=20+6=26.$$ So the y-intercept is $26$."
     },

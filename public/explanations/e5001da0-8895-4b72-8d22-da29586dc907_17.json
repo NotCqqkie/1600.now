@@ -4,6 +4,13 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$\\sqrt{(x+15)^2}=x+15$$Graph or solve it directly and read the x-value that works. The requested value is $-15$.",
+      "desmosExpressions": [
+        "\\sqrt{(x+15)^2}=x+15"
+      ]
+    },
+    {
       "title": "Simplify the square root using the absolute value property",
       "content": "The left side has $\\sqrt{(x+15)^2}$. By the property $\\sqrt{a^2} = |a|$, this simplifies to $|x+15|$. The equation becomes:<br/>$$|x+15| = x+15$$"
     },

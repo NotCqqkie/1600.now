@@ -4,16 +4,20 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest check: compare a table or graph",
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $10x+30$."
+    },
+    {
+      "title": "Algebra check",
+      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+    },
+    {
       "title": "Distribute and combine like terms",
       "content": "Distribute $10$:$$10(x+3)=10x+30$$"
     },
     {
       "title": "Match to the answer choices",
       "content": "The simplified expression is $10x+30$. That matches the correct answer — <strong>D</strong> is correct."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above is $10x+30$. The other choices do not satisfy the same condition from the question, so <strong>D</strong> is correct."
     }
   ]
 }

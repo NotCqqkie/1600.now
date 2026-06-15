@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Identify the radii",
       "content": "Since $Q$ and $R$ lie on the circle with center $P$ and radius 9 inches, both $PQ$ and $PR$ are radii of the circle. Therefore, $PQ = 9$ and $PR = 9$."
     },

@@ -4,6 +4,13 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$(x-16)(x-12)(x+7)(x+13)=0$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is $16$ or $12$.",
+      "desmosExpressions": [
+        "(x-16)(x-12)(x+7)(x+13)=0"
+      ]
+    },
+    {
       "title": "Use the zero product property",
       "content": "The equation is already factored: $$(x-16)(x-12)(x+7)(x+13)=0.$$ A product is $0$ when at least one factor is $0$."
     },

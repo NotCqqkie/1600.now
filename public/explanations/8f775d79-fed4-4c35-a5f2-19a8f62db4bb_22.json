@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Find the width using the given base area",
       "content": "The base area is the product of length and width. Given base area = $28p$ and length = 12:<br/>$$12w = 28p$$<br/>$$w = \\frac{28p}{12} = \\frac{7p}{3}$$<br/>The prism has dimensions: length = 12 cm, width = $\\frac{7p}{3}$ cm, height = 4 cm."
     },

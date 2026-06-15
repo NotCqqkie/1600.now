@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Identify the perimeter formula for a rectangle",
       "content": "The perimeter of a rectangle is the sum of all four sides. Since opposite sides are equal, we use length and width to calculate it. We're given <strong>length = 13</strong> and <strong>width = 6</strong>.",
       "formula": "$$P = 2l + 2w$$"

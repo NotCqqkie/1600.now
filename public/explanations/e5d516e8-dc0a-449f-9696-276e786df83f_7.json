@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: use the function table",
+      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $37$, so the answer is <strong>$37$</strong>. This is just a one-row lookup, and the arithmetic below confirms the table value."
+    },
+    {
       "title": "Substitute the value x = 2",
       "content": "Replace $x$ with $2$ in $$f(x) = x^2 + x + 31.$$ This gives $$f(2) = (2)^2 + 2 + 31.$$"
     },

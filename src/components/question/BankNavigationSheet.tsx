@@ -1,13 +1,10 @@
-import { type ReactNode, useMemo } from "react";
+import { type ReactNode, useCallback } from "react";
 import {
   QuestionNavigatorSheet,
   type QuestionNavigatorItem,
 } from "@/components/question/QuestionNavigatorSheet";
 import { useAuth } from "@/contexts/AuthContext";
-import {
-  getQuestionStatus,
-  isQuestionFlagged,
-} from "@/lib/practice/questionUiState";
+import { getQuestionUiStates } from "@/lib/practice/questionUiState";
 
 interface BankNavigationSheetProps {
   currentQuestion: number;
@@ -32,8 +29,8 @@ export const BankNavigationSheet = ({
 }: BankNavigationSheetProps) => {
   const { user } = useAuth();
   const uid = user?.id ?? null;
-  const navigatorItems = useMemo<QuestionNavigatorItem[]>(
-    () => {
+  const buildNavigatorItems = useCallback(
+    (): QuestionNavigatorItem[] => {
       const sourceItems =
         items && items.length > 0
           ? items
@@ -42,15 +39,28 @@ export const BankNavigationSheet = ({
               storageId: storagePrefix ? `${storagePrefix}-${i + 1}` : "",
             }));
 
-      return sourceItems.map((item, index) => {
+      const resolvedItems = sourceItems.map((item, index) => {
         const fallbackStorageId = storagePrefix ? `${storagePrefix}-${item.id}` : undefined;
-        const storageId = item?.storageId || fallbackStorageId;
+        return {
+          index,
+          item,
+          storageId: item?.storageId || fallbackStorageId,
+        };
+      });
+      const stateByStorageId = getQuestionUiStates(
+        resolvedItems
+          .map(({ storageId }) => storageId)
+          .filter((storageId): storageId is string => Boolean(storageId)),
+        uid,
+      );
 
+      return resolvedItems.map(({ item, index, storageId }) => {
+        const state = storageId ? stateByStorageId[storageId] : undefined;
         return {
           key: item.id,
           label: item.id,
-          status: storageId ? getQuestionStatus(storageId, uid) : "unanswered",
-          isFlagged: storageId ? isQuestionFlagged(storageId, uid) : false,
+          status: state?.status || "unanswered",
+          isFlagged: state?.flagged === true,
           isCurrent: item.id === currentQuestion,
           onSelect: () => onJump(item.id),
           title: `Question ${index + 1}`,
@@ -65,7 +75,7 @@ export const BankNavigationSheet = ({
       buttonLabel={`Question ${currentQuestion}`}
       title="Question Navigator"
       subtitle={`Total: ${totalQuestions}`}
-      items={navigatorItems}
+      buildItems={buildNavigatorItems}
       isSplitScreenActive={isSplitScreenActive}
       splitPosition={splitPosition}
       headerActions={headerActions}

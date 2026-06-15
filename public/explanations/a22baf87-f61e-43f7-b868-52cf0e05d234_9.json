@@ -4,16 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve the system by substitution",
-      "content": "Set the two expressions for $y$ equal: $$-12x+16=-20x+24.$$ Solve: $8x=8$, so $x=1$."
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$y=-12x+16$$<br/>$$y=-20x+24$$<br/>You do not need to solve or rearrange them first.",
+      "desmosExpressions": [
+        "y=-12x+16",
+        "y=-20x+24"
+      ]
     },
     {
-      "title": "Find the matching ordered pair",
-      "content": "Substitute $x=1$ into $y=-12x+16$ to get $y=4$. The answer is <strong>(A) $(1,4)$</strong>."
+      "title": "Read the full intersection point",
+      "content": "Click the intersection point and read the full intersection point. It matches <strong>A</strong>, $(1,4)$."
     },
     {
-      "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches the correct answer, $(1,4)$. The other choices do not satisfy the same condition from the question, so <strong>A</strong> is correct."
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

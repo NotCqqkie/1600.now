@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: use the function table",
+      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $37$, so the answer is <strong>B</strong>, $37$. This is just a one-row lookup, and the arithmetic below confirms the table value."
+    },
+    {
       "title": "Substitute x equals 10",
       "content": "Replace $x$ with $10$ in $f(x)=4x-3$: $$f(10)=4(10)-3$$"
     },
     {
       "title": "Simplify",
       "content": "$$4(10)=40$$ $$40-3=37$$ Therefore, $f(10)=37$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "$37$ is correct. A negative-sign error, forgetting to subtract $3$, or adding $3$ instead would not match the rule $f(x)=4x-3$ at $x=10$, where multiplication comes before subtraction."
     }
   ]
 }

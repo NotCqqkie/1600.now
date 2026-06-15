@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Identify the relationship (Pythagoras / SOH-CAH-TOA)",
       "content": "From angle $x^{\\circ}$, the opposite side is $63$ and the hypotenuse is $73$. Apply SOH:<br/>$$\\sin(x^{\\circ}) = \\frac{\\text{opposite}}{\\text{hypotenuse}}$$"
     },
     {
       "title": "Solve for the missing side",
       "content": "Substitute the values:<br/>$$\\sin(x^{\\circ}) = \\frac{63}{73}$$<br/><strong>C</strong> is correct."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches the correct answer, $\\frac{63}{73}$, and the other choices fail the same setup or substitution. Therefore <strong>C</strong> is correct."
     }
   ]
 }

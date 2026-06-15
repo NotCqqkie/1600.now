@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Identify the triangle angle-sum relationship",
       "content": "The triangle has a right angle ($90^{\\circ}$), an angle of $24^{\\circ}$, and the unknown angle $a$. The three interior angles of any triangle sum to $180^{\\circ}$:<br/>$$90^{\\circ} + 24^{\\circ} + a = 180^{\\circ}$$"
     },

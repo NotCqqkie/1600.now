@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Establish arc relationships from the diameters",
       "content": "Since $PR$ is a diameter, the arc from $P$ to $R$ (passing through $Q$) spans a semicircle:<br/>$$PQ + QR = 72\\pi$$ (half of the $144\\pi$ circumference). Similarly, since $QS$ is a diameter:<br/>$$QR + RS = 72\\pi$$<br/>Subtracting the first equation from the second: $RS = PQ$. Let $PQ = x$. Then $QR = 72\\pi - x$ and $RS = x$."
     },

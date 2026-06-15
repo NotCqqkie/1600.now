@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+    },
+    {
       "title": "Identify the angle relationship",
       "content": "At the intersection of transversal $t$ with line $m$, angle $x^{\\circ}$ is located on the left side of $t$.<br/><br/>At the intersection of transversal $t$ with line $n$, angle $33^{\\circ}$ is located on the right side of $t$.<br/><br/>Both angles lie in the interior region between the two parallel lines.<br/><br/>This makes them <strong>co-interior angles</strong> (also called consecutive interior angles or same-side interior angles)."
     },

@@ -4,16 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute the equations",
-      "content": "The first equation gives $y = x + 48$. Substitute into the second equation: $$(x + 48)^2 = x + 48$$"
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$x + 48 = y$$<br/>$$(x + 48)^2 = y$$<br/>You do not need to solve or rearrange them first.",
+      "desmosExpressions": [
+        "x + 48 = y",
+        "(x + 48)^2 = y"
+      ]
     },
     {
-      "title": "Solve for x",
-      "content": "Let $u = x + 48$, so $u^2 = u$, which gives $u^2 - u = 0$, or $u(u - 1) = 0$. Thus $u = 0$ or $u = 1$.<br/><br/>Substituting back: $x + 48 = 0 \\Rightarrow x = -48$, or $x + 48 = 1 \\Rightarrow x = -47$."
+      "title": "Read the x-coordinate",
+      "content": "Click the intersection point and read the x-coordinate. It matches <strong>A</strong>, -47."
     },
     {
-      "title": "Match to the answer choices",
-      "content": "$x = -48$ does not appear among the choices. $x = -47$ is the remaining alternative. That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

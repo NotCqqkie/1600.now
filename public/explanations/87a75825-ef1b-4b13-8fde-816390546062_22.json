@@ -4,6 +4,14 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest check: compare a table or graph",
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $f(x)=73(3^{3})^{\\frac{1}{6}x}$."
+    },
+    {
+      "title": "Algebra check",
+      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+    },
+    {
       "title": "Determine the structure of f(x) using the doubling constraint",
       "content": "For an exponential function $f(x) = a \\cdot b^{kx}$, when $x$ increases by $c$, we have:\n$$f(x+c) = a \\cdot b^{k(x+c)} = a \\cdot b^{kx} \\cdot b^{kc} = f(x) \\cdot b^{kc}$$ Since $f(x)$ increases by a factor of 27 when $x$ increases by $c$, we need:\n$$b^{kc} = 27$$ If the coefficient of $x$ is $\\frac{1}{c}$, then $k = \\frac{1}{c}$, so:\n$$b^{\\frac{1}{c} \\cdot c} = b^1 = 27$$ Therefore, the correct form must have base 27 with coefficient $\\frac{1}{c}$ of $x$."
     },

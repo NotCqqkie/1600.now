@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Find the scale factor between the two radii",
       "content": "The radius of circle A is $2x$ and the radius of circle B is $94x$. To compare the areas, start with the ratio of the radii:<br/>$$k = \\frac{\\text{radius B}}{\\text{radius A}} = \\frac{94x}{2x} = 47$$"
     },

@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: try the choices",
+      "content": "Because the choices give possible solutions, plug them into the equation instead of solving from scratch. The only choice that satisfies the equation is <strong>D</strong>, $\\frac{1 + \\sqrt{11}}{2}$."
+    },
+    {
       "title": "Graph both sides first",
       "content": "A fast Desmos method is to graph the left and right sides separately:<br/>$$y=2x^2-2$$<br/>$$y=2x+3$$<br/>The x-coordinates of the intersections are the solutions.",
       "desmosExpressions": [

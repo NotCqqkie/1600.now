@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Find the radius using the distance from center C to point A",
       "content": "The radius is the distance from $C(h, k)$ to $A(h+1, k+\\sqrt{230})$:<br/>$$r = \\sqrt{(h+1-h)^2 + (k+\\sqrt{230}-k)^2} = \\sqrt{1^2 + (\\sqrt{230})^2} = \\sqrt{1 + 230} = \\sqrt{231}$$"
     },

@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Combine the equations",
-      "content": "Both equations equal $y$, so $$-\\tfrac{1}{7}x=\\tfrac{1}{5}x.$$"
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$y=-\\frac{1}{7}x$$<br/>$$y=\\frac{1}{5}x$$<br/>You do not need to solve or rearrange them first.",
+      "desmosExpressions": [
+        "y=-\\frac{1}{7}x",
+        "y=\\frac{1}{5}x"
+      ]
     },
     {
-      "title": "Solve for $x$",
-      "content": "Subtract to get $(-\\tfrac{1}{7}-\\tfrac{1}{5})x=0$. Since the coefficient is nonzero, $x=0$."
+      "title": "Read the x-coordinate",
+      "content": "Click the intersection point and read the x-coordinate. It matches <strong>C</strong>, 0."
     },
     {
-      "title": "Match the answer",
-      "content": "That confirms <strong>C</strong> is correct."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above confirms <strong>C</strong>, 0. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

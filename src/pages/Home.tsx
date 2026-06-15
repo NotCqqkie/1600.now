@@ -55,7 +55,6 @@ const defaultBankFilters: QuestionBankFilters = {
 };
 const HOME_DEMO_USER_SCROLL_EVENT = "home-demo-user-scroll";
 const STYLE_POSITION_RELATIVE: CSSProperties = { position: "relative" };
-const STYLE_ACCENT_TEXT: CSSProperties = { fontStyle: "normal", color: "hsl(201,100%,70%)" };
 
 const forwardHomeScroll = (deltaX: number, deltaY: number) => {
   if (!deltaX && !deltaY) return;
@@ -461,7 +460,6 @@ const HeroQuestionPreview = memo(({
 });
 HeroQuestionPreview.displayName = "HeroQuestionPreview";
 const ExplanationFeatureSection = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
-  const navigate = useNavigate();
   const rowRef = useRef<HTMLDivElement>(null);
   const isNear = useIsNearViewport(rowRef, "300px 0px");
   return (
@@ -481,17 +479,24 @@ const ExplanationFeatureSection = memo(({ isDarkMode }: { isDarkMode: boolean })
       <div>
         <h2
           style={{
-            fontFamily: "'Geist', Georgia, serif",
-            fontSize: "clamp(40px, 5.5vw, 68px)",
-            lineHeight: 0.98,
-            letterSpacing: "-0.025em",
-            color: "hsl(var(--foreground))",
+            fontFamily: "'Geist', system-ui, sans-serif",
+            fontWeight: 500,
+            fontSize: "clamp(36px, 4.6vw, 60px)",
+            lineHeight: 1,
+            letterSpacing: "-0.035em",
+            color: "rgb(var(--ink))",
             margin: "0 0 22px",
           }}
         >
           See how every
           <br />
-          <em style={STYLE_ACCENT_TEXT}>
+          <em
+            style={{
+              fontStyle: "normal",
+              fontWeight: 600,
+              color: "rgb(var(--cobalt))",
+            }}
+          >
             answer is built.
           </em>
         </h2>
@@ -507,26 +512,6 @@ const ExplanationFeatureSection = memo(({ isDarkMode }: { isDarkMode: boolean })
         >
           Learn step-by-step through every solution.
         </p>
-        <button
-          type="button"
-          onClick={() => navigate("/bank")}
-          style={{
-            display: "inline-flex",
-            alignItems: "center",
-            gap: 6,
-            fontSize: 14,
-            fontWeight: 600,
-            color: "hsl(201,100%,70%)",
-            background: "transparent",
-            border: "none",
-            cursor: "pointer",
-            padding: 0,
-            fontFamily: "'Geist', sans-serif",
-          }}
-        >
-          Open question bank
-          <ArrowRight size={14} />
-        </button>
       </div>
 
       <div style={STYLE_POSITION_RELATIVE}>

@@ -4,6 +4,14 @@
   "correctAnswer": "B",
   "steps": [
     {
+      "title": "Fastest check: compare a table or graph",
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $x \\times y^2$."
+    },
+    {
+      "title": "Algebra check",
+      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+    },
+    {
       "title": "Apply the product property of cube roots",
       "content": "$$\\sqrt[3]{x^3 \\cdot y^6} = \\sqrt[3]{x^3} \\cdot \\sqrt[3]{y^6}$$"
     },
@@ -15,5 +23,6 @@
       "title": "Evaluate each choice",
       "content": "<ul><li><strong>$y^2$</strong> $y^2$. This omits the $x$ factor entirely. Eliminated.</li><li><strong>$x \\times y^2$</strong> $x \\times y^2$. Multiplying the two simplified factors gives $x \\cdot y^2$. That is the correct answer.</li><li><strong>$y^3$</strong> $y^3$. $\\sqrt[3]{y^6} = y^2$, not $y^3$, and the $x$ is missing. Eliminated.</li><li><strong>$x \\times y^3$</strong> $x \\times y^3$. The exponent on $y$ is $\\frac{6}{3} = 2$, not 3. Eliminated.</li></ul>"
     }
-  ]
+  ],
+  "section": "Math"
 }

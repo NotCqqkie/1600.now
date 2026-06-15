@@ -4,6 +4,13 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$5 \\left|x\\right|=45$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is $9$.",
+      "desmosExpressions": [
+        "5 \\left|x\\right|=45"
+      ]
+    },
+    {
       "title": "Isolate the absolute value",
       "content": "Start with $5|x|=45$. Divide both sides by $5$:<br/>$$|x|=9$$"
     },
@@ -14,10 +21,6 @@
     {
       "title": "Pick the positive solution",
       "content": "The question asks for the positive solution, so choose $9$, not $-9$."
-    },
-    {
-      "title": "Answer",
-      "content": "The positive solution is <strong>9</strong>."
     }
   ]
 }

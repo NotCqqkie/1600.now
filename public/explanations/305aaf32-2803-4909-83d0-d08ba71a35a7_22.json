@@ -4,6 +4,13 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$-2|x - 7| = -8x$$Graph or solve it directly and read the x-value that works. The requested value is $\\frac{7}{5}$.",
+      "desmosExpressions": [
+        "-2|x - 7| = -8x"
+      ]
+    },
+    {
       "title": "Simplify the equation",
       "content": "Start with the absolute-value equation and divide both sides by $-2$: $$|x-7|=4x$$ Since an absolute value is never negative, $4x\\ge 0$, so $x\\ge 0$."
     },

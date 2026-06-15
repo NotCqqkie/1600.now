@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Find point H on the unit circle",
       "content": "Since $H=(-1,y)$ lies on the unit circle $x^{2}+y^{2}=1$: $$(-1)^{2}+y^{2}=1 \\Rightarrow y^{2}=0 \\Rightarrow y=0.$$ So $H=(-1,0)$, directly opposite $F=(1,0)$."
     },

@@ -4,16 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use substitution",
-      "content": "The first equation already gives $y=-3x$. Substitute that into the second equation."
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$y=-3x$$<br/>$$4x+y=15$$<br/>You do not need to solve or rearrange them first.",
+      "desmosExpressions": [
+        "y=-3x",
+        "4x+y=15"
+      ]
     },
     {
-      "title": "Solve for x",
-      "content": "$$4x+(-3x)=15$$ $$x=15$$"
+      "title": "Read the x-coordinate",
+      "content": "Click the intersection point and read the x-coordinate. It matches <strong>C</strong>, $15$."
     },
     {
-      "title": "Check the choices",
-      "content": "<ul><li>The other choices are too small because substituting them gives $4x-3x=x$, not $15$.</li><li>The matching choice, $15$, satisfies the system. Correct.</li><li>$45$ is the absolute value of the corresponding $y$-value, since $y=-45$ when $x=15$.</li></ul>The result matches."
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

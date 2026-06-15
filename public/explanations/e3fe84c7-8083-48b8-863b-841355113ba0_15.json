@@ -3,6 +3,14 @@
   "qid": "e3fe84c7-8083-48b8-863b-841355113ba0_15",
   "steps": [
     {
+      "title": "Fastest check: compare a table or graph",
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $f(x)=48(4,096)^{\\frac{x}{2}}$."
+    },
+    {
+      "title": "Algebra check",
+      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+    },
+    {
       "title": "Step 1",
       "content": "Every increase of 2 in $a$ multiplies $f(a)$ by the constant $c$. All four choices are equivalent forms of the same function; verify with the remaining alternative: $f(x)=48(64)^{x}$. When $x$ increases by 2, $f(x+2)=48(64)^{x+2}=48(64)^x \\cdot 64^2 = f(x)\\cdot 4096$. So $c=4096$."
     },
@@ -15,5 +23,6 @@
       "content": "Check each choice for whether its base or coefficient equals 4096: <ul><li>A: $f(x)=48(2)^{6x}$ — base is 2, not 4096. When $x$ increases by 2, factor is $2^{12}=4096$, but 4096 is not visible as the base or coefficient. Eliminated.</li><li>B: $f(x)=48(8)^{2x}$ — base is 8, not 4096. Factor per $+2$ is $8^4=4096$, but 4096 is not displayed. Eliminated.</li><li><strong>$f(x)=48(64)^{x}$</strong>: $f(x)=48(64)^x$ — base is 64, not 4096. Factor per $+2$ is $64^2=4096$, but 4096 is not displayed. Eliminated.</li><li><strong>$f(x)=48(4,096)^{\\frac{x}{2}}$</strong>: $f(x)=48(4096)^{\\frac{x}{2}}$ — base is 4096. When $x$ increases by 2, $\\frac{x}{2}$ increases by 1, so $f$ multiplies by $4096^1=4096=c$. The value of $c$ is the base itself. That matches the correct answer — <strong>D</strong> is correct.</li></ul>"
     }
   ],
-  "correctAnswer": "D"
+  "correctAnswer": "D",
+  "section": "Math"
 }

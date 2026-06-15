@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Use the midpoint condition to find key distances",
       "content": "P is the midpoint of $\\overline{NQ}$, so $NP = PQ = 52$ feet. Therefore, $NQ = 52 + 52 = 104$ feet."
     },

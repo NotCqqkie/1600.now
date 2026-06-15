@@ -4,6 +4,13 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$13x = 42 - x$$Graph or solve it directly and read the x-value that works. The requested value is $3$.",
+      "desmosExpressions": [
+        "13x = 42 - x"
+      ]
+    },
+    {
       "title": "Combine x terms",
       "content": "Add $x$ to both sides to gather all $x$-terms on the left: $$13x+x=42 \\implies 14x=42.$$"
     },

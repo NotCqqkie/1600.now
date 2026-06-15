@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Recognize that completing the square converts to standard form",
       "content": "We have the equation $x^2 + x + y^2 + y = \\frac{199}{2}$. To find the radius, we need standard form $(x-h)^2 + (y-k)^2 = r^2$. The fastest approach is completing the square for both the $x$ terms and the $y$ terms."
     },

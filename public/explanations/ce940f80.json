@@ -4,6 +4,13 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$\\frac{{x}^{2}}{25}=36$$Graph or solve it directly and read the x-value that works. The requested value is $30$.",
+      "desmosExpressions": [
+        "\\frac{{x}^{2}}{25}=36"
+      ]
+    },
+    {
       "title": "Multiply both sides by 25",
       "content": "To isolate $x^2$, multiply both sides by 25:<br/>$$\\frac{x^2}{25} \\cdot 25 = 36 \\cdot 25$$<br/>$$x^2 = 900$$"
     },

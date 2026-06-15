@@ -4,16 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve the system by elimination",
-      "content": "Add the two equations to cancel $y$: $$(x+5y)+(x-5y)=5+7\\Rightarrow 2x=12.$$"
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$x + 5y = 5$$<br/>$$x - 5y = 7$$<br/>You do not need to solve or rearrange them first.",
+      "desmosExpressions": [
+        "x + 5y = 5",
+        "x - 5y = 7"
+      ]
     },
     {
-      "title": "Find $x$",
-      "content": "Divide by 2: $x=6$. That confirms <strong>C</strong> is correct."
+      "title": "Read the x-coordinate",
+      "content": "Click the intersection point and read the x-coordinate. It matches <strong>C</strong>, 6."
     },
     {
-      "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches the correct answer, 6. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

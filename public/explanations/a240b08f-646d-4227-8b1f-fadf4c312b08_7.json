@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+    },
+    {
       "title": "Extract side equality from the ratio",
       "content": "From $\\frac{GH}{GF} = \\frac{LM}{LK}$ and the given $GH = LM = 34$ cm, we substitute:<br/>$$\\frac{34}{GF} = \\frac{34}{LK}$$<br/>Since the numerators are equal, the denominators must be equal:<br/>$$GF = LK$$"
     },

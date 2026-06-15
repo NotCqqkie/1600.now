@@ -4,16 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve the system by substitution",
-      "content": "Substitute $y=3x+9$ into $3y=8x-6$: $$3(3x+9)=8x-6 \\Rightarrow 9x+27=8x-6 \\Rightarrow x=-33.$$ Then $y=3(-33)+9=-90$."
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$y = 3x + 9$$<br/>$$3y = 8x - 6$$<br/>You do not need to solve or rearrange them first.",
+      "desmosExpressions": [
+        "y = 3x + 9",
+        "3y = 8x - 6"
+      ]
     },
     {
-      "title": "Find $x - y$",
-      "content": "So $x-y=-33-(-90)=57$. <strong>D</strong> is correct."
+      "title": "Read the x-coordinate",
+      "content": "Click the intersection point and read the x-coordinate. It matches <strong>D</strong>, 57."
     },
     {
-      "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches the correct answer, 57. The other choices do not satisfy the same condition from the question, so <strong>D</strong> is correct."
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

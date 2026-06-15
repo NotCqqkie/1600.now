@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the circle facts first: radii are equal, a diameter sets up a right angle, a tangent is perpendicular to the radius, and central/inscribed angles connect to arcs."
+    },
+    {
       "title": "Find angle T in radians",
       "content": "Angle $T$ is $\\frac{5\\pi}{12}$ radians greater than angle $R = \\frac{2\\pi}{3}$, so:<br/>$$T = \\frac{2\\pi}{3} + \\frac{5\\pi}{12}$$To add these fractions, convert $\\frac{2\\pi}{3}$ to a denominator of 12:<br/>$$\\frac{2\\pi}{3} = \\frac{8\\pi}{12}$$Therefore:<br/>$$T = \\frac{8\\pi}{12} + \\frac{5\\pi}{12} = \\frac{13\\pi}{12}$$"
     },

@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: use the function table",
+      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $-12$, so the answer is <strong>A</strong>, -12. This is just a one-row lookup, and the arithmetic below confirms the table value."
+    },
+    {
       "title": "Set up",
       "content": "Plug $x=-1$ into $f(x)=-5x^2-7$."
     },
     {
       "title": "Solve",
       "content": "$$f(-1)=-5(-1)^2-7=-5(1)-7=-12$$"
-    },
-    {
-      "title": "Answer",
-      "content": "<strong>A</strong> is correct."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches the correct answer, -12. The other choices do not satisfy the same condition from the question, so <strong>A</strong> is correct."
     }
   ]
 }

@@ -4,13 +4,13 @@
   "correctAnswer": "D",
   "steps": [
     {
-      "explain": "Distribute $2a^2$ to each term inside the parentheses: $2a^2\\cdot a+2a^2\\cdot3$."
+      "title": "Fastest check: compare a table or graph",
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $2a^3 + 6a^2$."
     },
     {
-      "explain": "$2a^2\\cdot a=2a^{2+1}=2a^3$. $2a^2\\cdot3=6a^2$. Result: $2a^3+6a^2$."
-    },
-    {
-      "explain": "Evaluate choices:<ul><li>A ($5a^3$): adding exponents incorrectly and combining unlike terms — eliminated.</li><li>B ($8a^5$): multiplying everything incorrectly — eliminated.</li><li>C ($2a^3+3$): dropped the $a^2$ on the second term — eliminated.</li><li>D ($2a^3+6a^2$): matches exactly. That confirms <strong>D</strong> is correct.</li></ul>"
+      "title": "Algebra check",
+      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
     }
-  ]
+  ],
+  "section": "Math"
 }

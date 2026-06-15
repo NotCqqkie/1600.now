@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Recognize complementary angles",
       "content": "In a right triangle, the two acute angles add to $90$ degrees. Since angle $R$ and angle $S$ are complementary, $$\\sin(R)=\\cos(S).$$"
     },

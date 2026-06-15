@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set the equations equal",
-      "content": "Setting $x + 24 = 7x$ gives $24 = 6x$, so $x = 4$."
-    },
-    {
-      "title": "Count the intersection points",
-      "content": "Two lines intersect at exactly one point. That confirms <strong>B</strong> is correct.",
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$y = x + 24$$<br/>$$y = 7x$$<br/>You do not need to solve or rearrange them first.",
       "desmosExpressions": [
         "y = x + 24",
         "y = 7x"
       ]
     },
     {
-      "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches the correct answer, 1, and the other choices fail the same setup or substitution. Therefore <strong>B</strong> is correct."
+      "title": "Read the number of intersections",
+      "content": "The graphs show $1$ intersection point(s), so the matching answer is <strong>B</strong>, 1."
+    },
+    {
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

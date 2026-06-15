@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the given $x$-value",
-      "content": "The first equation says $x=4$. Substitute that into $y=5-x$: $$y=5-4.$$"
-    },
-    {
-      "title": "Find $y$",
-      "content": "$$y=1.$$"
-    },
-    {
-      "title": "Check the choices",
-      "content": "$1$ is correct. $4$ is $x$, not $y$. Two other options come from not substituting $x=4$ correctly. The system's solution is $(4,1)$, and the question asks only for the $y$-coordinate.",
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$x=4$$<br/>$$y=5-x$$<br/>You do not need to solve or rearrange them first.",
       "desmosExpressions": [
         "x=4",
         "y=5-x"
       ]
+    },
+    {
+      "title": "Read the y-coordinate",
+      "content": "Click the intersection point and read the y-coordinate. It matches <strong>A</strong>, $1$."
+    },
+    {
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

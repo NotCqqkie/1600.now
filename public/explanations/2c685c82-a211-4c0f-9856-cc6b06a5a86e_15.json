@@ -4,6 +4,14 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest check: compare a table or graph",
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $f(x)=42(4,096)^{\\frac{x}{2}}$."
+    },
+    {
+      "title": "Algebra check",
+      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+    },
+    {
       "title": "Compute c",
       "content": "$c$ is the multiplicative factor when $x$ increases by 2. For $f(x) = 42 \\cdot (\\text{base})^{\\text{exp}}$, compute base raised to power 2 in each choice: A gives $2^{12} = 4096$, B gives $8^4 = 4096$, C gives $64^2 = 4096$, D gives $4096^1 = 4096$. All are equivalent, so $c = 4096$."
     },

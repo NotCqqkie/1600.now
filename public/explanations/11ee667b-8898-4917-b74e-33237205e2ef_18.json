@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Set up the tangent inequality",
       "content": "We know that for a right triangle, $\\tan\\theta = \\dfrac{\\text{opposite}}{\\text{adjacent}} = \\dfrac{22.7}{x}$. <br/> The law requires $\\tan\\theta \\le \\dfrac{1}{12}$, so $$\\dfrac{22.7}{x} \\le \\dfrac{1}{12}.$$ Since $x\\gt 0$, multiply both sides by $12x$: $$22.7 \\cdot 12 \\le x.$$ That simplifies to $x \\ge 272.4$."
     },

@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Identify the circle's center from standard form",
       "content": "The equation $(x-6)^2 + (y+5)^2 = 16$ is in the form $(x-h)^2 + (y-k)^2 = r^2$, which tells us the center is $(h, k)$ and radius is $r$. <br/>Here: center $= (6, -5)$ and radius $= \\sqrt{16} = 4$."
     },

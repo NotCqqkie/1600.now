@@ -4,6 +4,14 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest check: compare a table or graph",
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>C</strong>, $2x^2+25x-42$."
+    },
+    {
+      "title": "Algebra check",
+      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+    },
+    {
       "title": "Expand inside first",
       "content": "Multiply the binomials: $$(x-\\frac{3}{2})(x+14)=x^2+14x-\\frac{3}{2}x-21=x^2+\\frac{25}{2}x-21$$"
     },
@@ -14,10 +22,6 @@
     {
       "title": "Confirm the choice",
       "content": "<strong>C</strong> is $2x^2+25x-42$, so <strong>C</strong> is correct."
-    },
-    {
-      "title": "Avoid the common traps",
-      "content": "<strong>A</strong> forgets to multiply the expanded result by the outside $2$. <strong>B</strong> has the wrong middle coefficient, and <strong>D</strong> drops the $25x$ term. <strong>C</strong> keeps all three terms after distributing."
     }
   ]
 }

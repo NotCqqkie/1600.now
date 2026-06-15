@@ -4,6 +4,13 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$2 \\left|4-x\\right|+3 \\left|4-x\\right|=25$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is $9$.",
+      "desmosExpressions": [
+        "2 \\left|4-x\\right|+3 \\left|4-x\\right|=25"
+      ]
+    },
+    {
       "title": "Combine like absolute-value terms",
       "content": "Both terms contain $|4-x|$, so combine their coefficients: $$2|4-x|+3|4-x|=5|4-x|.$$ The equation becomes $$5|4-x|=25.$$"
     },

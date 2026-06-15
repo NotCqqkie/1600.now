@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the circle facts first: radii are equal, a diameter sets up a right angle, a tangent is perpendicular to the radius, and central/inscribed angles connect to arcs."
+    },
+    {
       "title": "Use tangent's period",
       "content": "Tangent has period $\\pi$, so subtract multiples of $\\pi$ until the angle is familiar. $$\\frac{92\\pi}{3}=30\\pi+\\frac{2\\pi}{3}$$ Therefore, $$\\tan\\frac{92\\pi}{3}=\\tan\\frac{2\\pi}{3}$$"
     },

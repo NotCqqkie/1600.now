@@ -4,6 +4,14 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest check: compare a table or graph",
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $\\sqrt[14]{x}$."
+    },
+    {
+      "title": "Algebra check",
+      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+    },
+    {
       "title": "Use the fractional exponent rule",
       "content": "A fractional exponent with numerator $1$ means a root: $$x^{1/n}=\\sqrt[n]{x}.$$ Here $n=14$, so $$x^{1/14}=\\sqrt[14]{x}.$$"
     },

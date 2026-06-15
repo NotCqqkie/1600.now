@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+    },
+    {
       "title": "Use the isosceles property to match base angles",
       "content": "Since $ABC$ is isosceles with $AB = AC$, the base angles are equal: $\\angle ABC = \\angle ACB$. Point $E$ lies on $AB$ and point $F$ lies on $AC$, so when we form triangles $BED$ and $CFD$, the angles at $B$ and $C$ in these triangles are the same: $\\angle DBE = \\angle DCF$."
     },
@@ -14,10 +18,6 @@
     {
       "title": "Apply similarity and find the ratio of sides",
       "content": "Triangles $BED$ and $CFD$ now have two pairs of equal angles ($\\angle DBE = \\angle DCF$ and $\\angle BED = \\angle CFD$), so by AA similarity they are similar.<br/><br/>The correspondence is $B \\leftrightarrow C$, $E \\leftrightarrow F$, $D \\leftrightarrow D$.<br/><br/>Therefore, corresponding sides are proportional:<br/>$$\\frac{BE}{CF} = \\frac{BD}{CD}$$"
-    },
-    {
-      "title": "Calculate $CF$ using the given ratio",
-      "content": "We have $BD = \\frac{4}{7}BC$ and $CD = BC - BD = \\frac{3}{7}BC$. Substituting into the proportion:<br/>$$CF = \\frac{CD \\cdot BE}{BD} = \\frac{\\frac{3}{7}BC \\cdot 8}{\\frac{4}{7}BC} = \\frac{3 \\cdot 8}{4} = 6$$<br/>That is the correct answer."
     }
   ]
 }

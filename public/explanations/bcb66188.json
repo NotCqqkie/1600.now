@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Use similarity to relate angles",
       "content": "When two triangles are similar, their corresponding angles are equal. The problem states that angle $F$ corresponds to angle $J$. Therefore, angle $F = $ angle $J$."
     },

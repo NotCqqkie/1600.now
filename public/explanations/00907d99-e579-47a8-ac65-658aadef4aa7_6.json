@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the given x-value",
-      "content": "The system already gives $x=4$. Substitute $4$ into the second equation:<br/>$$-3x+y=-5$$<br/>$$-3(4)+y=-5$$"
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$x = 4$$<br/>$$-3x + y = -5$$<br/>You do not need to solve or rearrange them first.",
+      "desmosExpressions": [
+        "x = 4",
+        "-3x + y = -5"
+      ]
     },
     {
-      "title": "Solve for y",
-      "content": "$$-12+y=-5$$<br/>$$y=7$$<br/>So the solution is $(4,7)$."
+      "title": "Read the x-coordinate",
+      "content": "Click the intersection point and read the x-coordinate. It matches <strong>C</strong>, 11."
     },
     {
-      "title": "Check the solution",
-      "content": "The point $(4,7)$ satisfies both equations: $x=4$ and $-3(4)+7=-5$."
-    },
-    {
-      "title": "Find x + y",
-      "content": "$$x+y=4+7=11$$<br/>That matches <strong>Choice C &mdash; 11</strong>, so <strong>C</strong>."
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

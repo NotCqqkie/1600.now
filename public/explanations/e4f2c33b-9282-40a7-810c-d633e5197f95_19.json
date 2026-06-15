@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Find the missing width",
       "content": "The base area is $56t$ and the length is $\\frac{14}{3}$, so $$\\text{width}=56t\\div\\frac{14}{3}=56t\\cdot\\frac{3}{14}=12t.$$"
     },
@@ -14,10 +18,6 @@
     {
       "title": "Double the face areas",
       "content": "A rectangular prism has two of each face, so the surface area is $$2(56t+14+36t)=2(92t+14)=184t+28.$$"
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "$184t+28$ matches the correct answer, <strong>B</strong>."
     }
   ]
 }

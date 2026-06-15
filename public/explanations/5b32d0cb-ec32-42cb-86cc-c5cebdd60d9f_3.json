@@ -4,12 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve the system by substitution",
-      "content": "From $10x = 110$, $x = 11$. Substitute into $8x - 86 = y$."
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$10x=110$$<br/>$$8x-86=y$$<br/>You do not need to solve or rearrange them first.",
+      "desmosExpressions": [
+        "10x=110",
+        "8x-86=y"
+      ]
     },
     {
-      "title": "Find $y$",
-      "content": "$y = 8(11) - 86 = 88 - 86 = 2$. The ordered solution is $(11,2)$, and the question asks for the $y$-value, so the answer is <strong>D</strong>."
+      "title": "Read the y-coordinate",
+      "content": "Click the intersection point and read the y-coordinate. It matches <strong>D</strong>, $2$."
+    },
+    {
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

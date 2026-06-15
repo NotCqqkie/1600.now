@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Recall the 30-60-90 triangle side ratio",
       "content": "In a 30-60-90 triangle, the sides opposite the 30°, 60°, and 90° angles are always in the ratio 1: √3: 2. If we let the shortest side (opposite 30°) be $s$, then the three sides are:<ul><li>Shortest side (opposite 30°): $s$</li><li>Middle side (opposite 60°): $s\\sqrt{3}$</li><li>Longest side, the hypotenuse (opposite 90°): $2s$</li></ul>",
       "formula": "$$1: \\sqrt{3}: 2$$"

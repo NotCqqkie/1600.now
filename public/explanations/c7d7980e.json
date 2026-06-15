@@ -4,16 +4,19 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$13x=112-x$$Graph or solve it directly and read the x-value that works. The requested value is $8$.",
+      "desmosExpressions": [
+        "13x=112-x"
+      ]
+    },
+    {
       "title": "Gather the $x$ terms",
       "content": "Start with $$13x=112-x.$$ Add $x$ to both sides so all $x$ terms are on one side: $$14x=112.$$"
     },
     {
       "title": "Solve for $x$",
       "content": "Divide by $14$: $$x=\\frac{112}{14}=8.$$"
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "Check: $13(8)=104$ and $112-8=104$, so the solution is <strong>8</strong>. Both sides match, which confirms the value solves the original equation, not just the simplified one."
     }
   ]
 }

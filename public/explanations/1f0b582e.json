@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Find the perimeter of square X",
       "content": "Square X has side length 12 cm. The perimeter of any square is $4 \\times \\text{side}$.<br/>Perimeter of X = $4 \\times 12 = 48$ cm"
     },

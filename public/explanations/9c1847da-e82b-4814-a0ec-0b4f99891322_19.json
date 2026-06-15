@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Set up proportion using arc length formula",
       "content": "The arc length $L$ relates to the circumference $C$ and central angle $\\theta$ (in degrees) by $$L = \\frac{\\theta}{360} \\cdot C.$$<br/>Substitute the given values $L = 3$ inches and $\\theta = 36^\\circ$: $$3 = \\frac{36}{360} \\cdot C.$$<br/>Simplify the fraction: $$\\frac{36}{360} = \\frac{1}{10}.$$"
     },

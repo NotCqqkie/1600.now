@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Determine angle correspondence",
       "content": "Since triangle ABC ∼ triangle DEF with angle A ↔ angle D and angle C ↔ angle F, we have angle B ↔ angle E. Thus angle B = angle E."
     },

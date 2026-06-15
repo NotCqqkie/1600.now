@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+    },
+    {
       "title": "Find all three angles in each triangle",
       "content": "Angles in a triangle sum to $180^\\circ$. Triangle DEF has $F=180^\\circ-47^\\circ-97^\\circ=36^\\circ$. Triangle RST has $T=180^\\circ-47^\\circ-97^\\circ=36^\\circ$."
     },

@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Calculate the area of circle K",
       "content": "Use the circle area formula with radius 2 mm: <br/>$$A_K = \\pi(2)^2 = 4\\pi \\text{ mm}^2$$",
       "formula": "$$A = \\pi r^2$$"

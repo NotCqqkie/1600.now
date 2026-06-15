@@ -4,16 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve the system by substitution",
-      "content": "Substitute $y=35$ into the first equation: $$35=10x-15.$$ Solve: $10x=50$, so $x=5$."
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$y = 10x - 15$$<br/>$$y = 35$$<br/>You do not need to solve or rearrange them first.",
+      "desmosExpressions": [
+        "y = 10x - 15",
+        "y = 35"
+      ]
     },
     {
-      "title": "Find the matching ordered pair",
-      "content": "The ordered pair is $(5,35)$. The answer is <strong>(A) $(5,35)$</strong>."
+      "title": "Read the full intersection point",
+      "content": "Click the intersection point and read the full intersection point. It matches <strong>A</strong>, $(5, 35)$."
     },
     {
-      "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches <strong>Choice A &mdash; $(5, 35)$</strong>, $(5, 35)$. The other choices do not satisfy the same condition from the question, so <strong>A</strong>."
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

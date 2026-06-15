@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Find the sum of the two acute angles in a right triangle",
       "content": "In any triangle, the sum of all three angles is 180°. A right triangle has one angle measuring 90°. Therefore, the two acute angles must sum to:<br/>$$180^{\\circ} - 90^{\\circ} = 90^{\\circ}$$<br/>This means the two acute angles are <strong>complementary</strong> — they always add up to 90°."
     },

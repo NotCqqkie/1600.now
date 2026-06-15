@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Identify the right angle and sides relative to angle B",
       "content": "In right triangle ABC with angles A and B acute, the right angle is at C. From angle B's perspective, AC is the opposite side and BC is the adjacent side."
     },

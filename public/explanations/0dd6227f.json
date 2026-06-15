@@ -4,12 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Compare slopes of the two lines",
-      "content": "From $y = x + 20$, the slope is $1$.<br/>From $y = 8x$, the slope is $8$.<br/>Since $1 \\neq 8$, the slopes are different."
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$y=x+20$$<br/>$$y=8x$$<br/>You do not need to solve or rearrange them first.",
+      "desmosExpressions": [
+        "y=x+20",
+        "y=8x"
+      ]
     },
     {
-      "title": "Apply the intersection rule for lines",
-      "content": "When two lines in the plane have different slopes, they must intersect at exactly one point. That matches <strong>Choice B &mdash; $1$</strong>."
+      "title": "Read the number of intersections",
+      "content": "The graphs show $1$ intersection point(s), so the matching answer is <strong>B</strong>, $1$."
+    },
+    {
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

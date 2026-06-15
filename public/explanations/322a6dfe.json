@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+    },
+    {
       "title": "Establish vertex correspondence",
       "content": "We are given that $P$ corresponds to $W$, $Q$ corresponds to $X$, and $R$ corresponds to $Y$. Since the quadrilaterals are listed as $PQRS$ and $WXYZ$, vertices must correspond in order. Therefore, $S$ must correspond to $Z$."
     },

@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Convert to standard form by completing the square",
       "content": "The equation $x^2 + 9x + y^2 - 7y + 11 = 0$ is a circle in general form. To find the radius, we must rewrite it in standard form $(x-h)^2 + (y-k)^2 = r^2$ by completing the square separately for the $x$ and $y$ terms."
     },

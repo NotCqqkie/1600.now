@@ -20,7 +20,7 @@ import {
   Clock,
   Bookmark,
   CheckCircle,
-  XCircle,
+  Percent,
   BarChart3,
   Zap,
 } from "lucide-react";
@@ -273,7 +273,7 @@ export function QuestionBankFilterPanel({
                 </Select>
               </FilterCard>
 
-              <FilterCard icon={XCircle} label={compactLabels ? "Incorrect" : "Answered Incorrectly"} className="min-w-0">
+              <FilterCard icon={Percent} label="Accuracy" className="min-w-0">
                 <Select
                   value={filters.answeredIncorrectly}
                   onValueChange={(v) => updateFilter("answeredIncorrectly", v as typeof filters.answeredIncorrectly)}
@@ -287,8 +287,8 @@ export function QuestionBankFilterPanel({
                     className="w-[var(--radix-select-trigger-width)] min-w-0"
                   >
                     <SelectItem data-filter-demo-option="incorrect:all" value="all">Any</SelectItem>
-                    <SelectItem data-filter-demo-option="incorrect:yes" value="yes">Incorrect Only</SelectItem>
-                    <SelectItem data-filter-demo-option="incorrect:no" value="no">Not Incorrect</SelectItem>
+                    <SelectItem data-filter-demo-option="incorrect:no" value="no">Correct</SelectItem>
+                    <SelectItem data-filter-demo-option="incorrect:yes" value="yes">Incorrect</SelectItem>
                   </SelectContent>
                 </Select>
               </FilterCard>

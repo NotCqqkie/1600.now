@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+    },
+    {
       "title": "Set up the angle relationships",
       "content": "Two intersecting lines create four angles. Vertical angles are equal, and adjacent angles are supplementary (sum to 180&deg;). If one angle is $(9x - 140)$&deg;, then its vertical angle is also $(9x - 140)$&deg;, and each of the other two angles is $180 - (9x - 140) = (320 - 9x)$&deg;."
     },

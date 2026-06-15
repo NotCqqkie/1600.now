@@ -4,12 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set the equations equal to find intersection points",
-      "content": "When two graphs intersect, they meet at a point where both equations are true simultaneously — that is, they have the same $y$-value for the same $x$-value. So we set the right-hand sides equal:<br/>$$2x + 10 = 2x - 1$$"
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$y=2x+10$$<br/>$$y=2x-1$$<br/>You do not need to solve or rearrange them first.",
+      "desmosExpressions": [
+        "y=2x+10",
+        "y=2x-1"
+      ]
     },
     {
-      "title": "Simplify and identify the contradiction",
-      "content": "Subtracting $2x$ from both sides:<br/>$$10 = -1$$<br/>This is false, so there is no $x$ value that makes both equations true at the same time. The graphs do not intersect, so <strong>A</strong> is correct."
+      "title": "Read the number of intersections",
+      "content": "The graphs show Zero intersection point(s), so the matching answer is <strong>A</strong>, Zero."
+    },
+    {
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

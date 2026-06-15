@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: try the choices",
+      "content": "Because the choices give possible solutions, plug them into the equation instead of solving from scratch. The only choice that satisfies the equation is <strong>B</strong>, $324$."
+    },
+    {
       "title": "Undo the addition",
       "content": "The equation is $k+12=336$. Subtract $12$ from both sides: $$k=336-12.$$"
     },

@@ -4,6 +4,14 @@
   "correctAnswer": "B",
   "steps": [
     {
+      "title": "Fastest check: compare a table or graph",
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $\\sqrt[144]{{a}^{132}}$."
+    },
+    {
+      "title": "Algebra check",
+      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+    },
+    {
       "title": "Step 1",
       "content": "Recall that $a^{p/q} = \\sqrt[q]{a^p}$. Here the exponent is $\\frac{11}{12}$, so $a^{11/12} = \\sqrt[12]{a^{11}}$."
     },
@@ -15,5 +23,6 @@
       "title": "Step 3",
       "content": "Evaluate each choice:<ul><li>A: $\\sqrt[12]{a^{132}} = a^{132/12} = a^{11}$. This equals $a^{11}$, not $a^{11/12}$. Eliminated.</li><li>B: $\\sqrt[144]{a^{132}} = a^{132/144} = a^{11/12}$. This equals the given expression exactly. <strong>B</strong> is correct.</li><li>C: $\\sqrt[121]{a^{132}} = a^{132/121} = a^{12/11}$. The exponent $12/11 \\neq 11/12$. Eliminated.</li><li>D: $\\sqrt[11]{a^{132}} = a^{132/11} = a^{12}$. This equals $a^{12}$, not $a^{11/12}$. Eliminated.</li></ul>"
     }
-  ]
+  ],
+  "section": "Math"
 }

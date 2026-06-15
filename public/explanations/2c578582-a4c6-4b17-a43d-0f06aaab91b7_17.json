@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Find the radius using the given distance PO",
       "content": "Since O is the center of the semicircle and NP is its diameter, O is the midpoint of NP. This means PO equals the radius. Given PO = 52 feet, we have radius = 52 feet and diameter NP = 104 feet."
     },

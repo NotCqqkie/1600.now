@@ -48,11 +48,16 @@ import {
 import { questions as originalQuestions } from "@/data/hardQuestions";
 import {
   getBankCounts,
+  getResolvedAllSourceBankQuestions,
+  getResolvedBankPool,
+  loadBankQuestionRouteRefs,
   loadAllSourceBankQuestions,
   loadBankPool,
   loadQuestionSimilarityMeta,
+  loadRouteIndexedBankQuestion,
   normalizeBankSource,
   type BankQuestion,
+  type BankQuestionRouteRef,
   type BankQuestionSimilarityMeta,
   type BankSourceFilter,
 } from "@/data/questionBank";
@@ -112,6 +117,11 @@ import { useThemeMode } from "@/hooks/useThemeMode";
 import "katex/dist/katex.min.css";
 
 const HIDDEN_MEASUREMENT_STYLE = { visibility: 'hidden', pointerEvents: 'none' } as const;
+
+const getVisibleElementWidth = (element: HTMLElement) => {
+  const viewportWidth = window.visualViewport?.width ?? window.innerWidth;
+  return Math.min(element.offsetWidth, viewportWidth);
+};
 
 const hardQuestions = originalQuestions.map(originalQuestion => ({
   ...originalQuestion,
@@ -222,6 +232,18 @@ type OrderedNavigationItem = {
 type LoadedBankQuestionPoolState = {
   requestKey: string | null;
   questions: BankQuestion[];
+  isLoading: boolean;
+};
+
+type LoadedBankRouteRefsState = {
+  requestKey: string | null;
+  refs: BankQuestionRouteRef[];
+  isLoading: boolean;
+};
+
+type LoadedRouteIndexedQuestionState = {
+  requestKey: string | null;
+  question: BankQuestion | null;
   isLoading: boolean;
 };
 
@@ -369,11 +391,28 @@ const looksLikePassageBlock = (text: string): boolean => {
   return false;
 };
 
+const extractLeadingQuestionBeforePassageMarker = (
+  text: string,
+): { sentence?: string; remainder: string } | null => {
+  const trimmed = text.trim();
+  const match = trimmed.match(/^([\s\S]+?\?)\s+(Text\s+[1-4]\b[\s\S]*)$/i);
+  if (!match) return null;
+
+  const sentence = match[1].trim();
+  const remainder = match[2].trim();
+  if (!looksLikeQuestionSentence(sentence) || !looksLikePassageBlock(remainder)) return null;
+
+  return { sentence, remainder };
+};
+
 const extractLeadingQuestionSentence = (text: string): { sentence?: string; remainder: string } => {
   const trimmed = text.trim();
   if (!trimmed) {
     return { remainder: trimmed };
   }
+
+  const leadingQuestionBeforeMarker = extractLeadingQuestionBeforePassageMarker(trimmed);
+  if (leadingQuestionBeforeMarker) return leadingQuestionBeforeMarker;
 
   const newlineIndex = trimmed.indexOf("\n");
   if (newlineIndex !== -1) {
@@ -678,6 +717,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       return [];
     }
   }, [isPracticeMode]);
+  const hasActivePracticeSet = isPracticeMode && practiceSet.length > 0;
   const practiceRunId = isPracticeMode ? sessionStorage.getItem(PRACTICE_RUN_STORAGE_KEY) : null;
   const [practiceExitTo, setPracticeExitTo] = useState(() => sessionStorage.getItem("practiceExitTo"));
   useEffect(() => {
@@ -732,7 +772,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
         : null,
     [idParam, modulePracticeBank, modulePracticeSlug, practiceTestSetId, subject],
   );
-  const bankQuestionPoolMode = isPracticeMode ? "source" : "visible";
+  const bankQuestionPoolMode = hasActivePracticeSet ? "source" : "visible";
   const bankQuestionPoolRequestKey = useMemo(
     () => [subject, bankSource, bankQuestionPoolMode].join(":"),
     [bankQuestionPoolMode, bankSource, subject],
@@ -741,21 +781,170 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     !is100Hard &&
     !moduleQuestion &&
     !(needsModulePracticeBank && !modulePracticeBank);
-  const [loadedBankQuestionPoolData, setLoadedBankQuestionPoolData] = useState<LoadedBankQuestionPoolState>({
+  const canUseRouteIndexedBankQuestion = needsBankQuestionPool && !hasActivePracticeSet;
+  const bankRouteRefsRequestKey = useMemo(
+    () => [subject, bankSource].join(":"),
+    [bankSource, subject],
+  );
+  const routeIndexedQuestionRequestKey = useMemo(
+    () => [subject, bankSource, idParam].join(":"),
+    [bankSource, idParam, subject],
+  );
+  const [loadedBankRouteRefsData, setLoadedBankRouteRefsData] = useState<LoadedBankRouteRefsState>({
     requestKey: null,
-    questions: [],
+    refs: [],
     isLoading: false,
+  });
+  const currentBankRouteRefs =
+    loadedBankRouteRefsData.requestKey === bankRouteRefsRequestKey
+      ? loadedBankRouteRefsData.refs
+      : null;
+  const [loadedRouteIndexedQuestionData, setLoadedRouteIndexedQuestionData] = useState<LoadedRouteIndexedQuestionState>({
+    requestKey: null,
+    question: null,
+    isLoading: false,
+  });
+  const currentRouteIndexedQuestion =
+    loadedRouteIndexedQuestionData.requestKey === routeIndexedQuestionRequestKey
+      ? loadedRouteIndexedQuestionData.question
+      : null;
+  const isRouteIndexedQuestionLoading =
+    canUseRouteIndexedBankQuestion &&
+    (loadedRouteIndexedQuestionData.isLoading || loadedRouteIndexedQuestionData.requestKey !== routeIndexedQuestionRequestKey);
+  const [loadedBankQuestionPoolData, setLoadedBankQuestionPoolData] = useState<LoadedBankQuestionPoolState>(() => {
+    if (!needsBankQuestionPool) {
+      return {
+        requestKey: null,
+        questions: [],
+        isLoading: false,
+      };
+    }
+
+    const resolvedQuestions = hasActivePracticeSet
+      ? getResolvedAllSourceBankQuestions(subject, bankSource)
+      : getResolvedBankPool(subject, bankSource);
+
+    return resolvedQuestions
+      ? {
+          requestKey: bankQuestionPoolRequestKey,
+          questions: resolvedQuestions,
+          isLoading: false,
+        }
+      : {
+          requestKey: null,
+          questions: [],
+          isLoading: false,
+        };
   });
   const currentLoadedBankQuestionPool =
     loadedBankQuestionPoolData.requestKey === bankQuestionPoolRequestKey
       ? loadedBankQuestionPoolData.questions
       : null;
+  const bankQuestionBySourceId = useMemo(() => {
+    if (!currentLoadedBankQuestionPool) return null;
+    return new Map(currentLoadedBankQuestionPool.map((question) => [question.sourceId, question]));
+  }, [currentLoadedBankQuestionPool]);
   const isBankQuestionPoolLoading =
     needsBankQuestionPool &&
     (loadedBankQuestionPoolData.isLoading || loadedBankQuestionPoolData.requestKey !== bankQuestionPoolRequestKey);
 
   useEffect(() => {
+    if (!canUseRouteIndexedBankQuestion) {
+      setLoadedBankRouteRefsData({
+        requestKey: null,
+        refs: [],
+        isLoading: false,
+      });
+      setLoadedRouteIndexedQuestionData({
+        requestKey: null,
+        question: null,
+        isLoading: false,
+      });
+      return;
+    }
+
+    let cancelled = false;
+    setLoadedBankRouteRefsData((current) =>
+      current.requestKey === bankRouteRefsRequestKey
+        ? current
+        : {
+            requestKey: bankRouteRefsRequestKey,
+            refs: [],
+            isLoading: true,
+          },
+    );
+    setLoadedRouteIndexedQuestionData((current) =>
+      current.requestKey === routeIndexedQuestionRequestKey
+        ? current
+        : {
+            requestKey: routeIndexedQuestionRequestKey,
+            question: null,
+            isLoading: true,
+          },
+    );
+
+    const refsPromise = loadBankQuestionRouteRefs(subject, bankSource);
+    refsPromise.then((refs) => {
+      if (cancelled) return;
+      setLoadedBankRouteRefsData({
+        requestKey: bankRouteRefsRequestKey,
+        refs,
+        isLoading: false,
+      });
+    });
+
+    loadRouteIndexedBankQuestion(subject, idParam, bankSource).then((question) => {
+      if (cancelled) return;
+      setLoadedRouteIndexedQuestionData({
+        requestKey: routeIndexedQuestionRequestKey,
+        question,
+        isLoading: false,
+      });
+    });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [
+    bankRouteRefsRequestKey,
+    bankSource,
+    canUseRouteIndexedBankQuestion,
+    idParam,
+    routeIndexedQuestionRequestKey,
+    subject,
+  ]);
+
+  useEffect(() => {
     if (!needsBankQuestionPool) return;
+    if (canUseRouteIndexedBankQuestion) {
+      setLoadedBankQuestionPoolData((current) =>
+        current.requestKey === null && current.questions.length === 0 && !current.isLoading
+          ? current
+          : {
+              requestKey: null,
+              questions: [],
+              isLoading: false,
+            },
+      );
+      return;
+    }
+
+    const resolvedQuestions = hasActivePracticeSet
+      ? getResolvedAllSourceBankQuestions(subject, bankSource)
+      : getResolvedBankPool(subject, bankSource);
+
+    if (resolvedQuestions) {
+      setLoadedBankQuestionPoolData((current) =>
+        current.requestKey === bankQuestionPoolRequestKey && current.questions === resolvedQuestions && !current.isLoading
+          ? current
+          : {
+              requestKey: bankQuestionPoolRequestKey,
+              questions: resolvedQuestions,
+              isLoading: false,
+            },
+      );
+      return;
+    }
 
     let cancelled = false;
     setLoadedBankQuestionPoolData((current) =>
@@ -768,7 +957,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
           },
     );
 
-    const poolPromise = isPracticeMode
+    const poolPromise = hasActivePracticeSet
       ? loadAllSourceBankQuestions(subject, bankSource)
       : loadBankPool(subject, bankSource);
 
@@ -784,7 +973,14 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     return () => {
       cancelled = true;
     };
-  }, [bankQuestionPoolRequestKey, bankSource, isPracticeMode, needsBankQuestionPool, subject]);
+  }, [
+    bankQuestionPoolRequestKey,
+    bankSource,
+    canUseRouteIndexedBankQuestion,
+    hasActivePracticeSet,
+    needsBankQuestionPool,
+    subject,
+  ]);
 
   const questionData = useMemo(() => {
     if (is100Hard) {
@@ -798,16 +994,26 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       };
     }
 
+    if (canUseRouteIndexedBankQuestion && currentRouteIndexedQuestion) {
+      return {
+        ...currentRouteIndexedQuestion,
+        uuid: currentRouteIndexedQuestion.stableId,
+      };
+    }
+
     if (!currentLoadedBankQuestionPool) return null;
 
-    const sourceQuestionById = currentLoadedBankQuestionPool.find((question) => question.sourceId === idParam);
+    const sourceQuestionById = bankQuestionBySourceId?.get(idParam);
     const question =
       sourceQuestionById ??
       (hasNumericIdParam ? currentLoadedBankQuestionPool[questionNumber - 1] : null);
 
     return question ? { ...question, uuid: question.stableId } : null;
   }, [
+    bankQuestionBySourceId,
+    canUseRouteIndexedBankQuestion,
     currentLoadedBankQuestionPool,
+    currentRouteIndexedQuestion,
     hasNumericIdParam,
     idParam,
     is100Hard,
@@ -816,22 +1022,18 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   ]);
   const currentQuestionStableId = isBankQuestionWithUuid(questionData) ? questionData.stableId : null;
   const [similarityMetaByStableId, setSimilarityMetaByStableId] = useState<Record<string, BankQuestionSimilarityMeta | null>>({});
-  useEffect(() => {
-    if (!currentQuestionStableId || is100Hard) return;
-    if (Object.prototype.hasOwnProperty.call(similarityMetaByStableId, currentQuestionStableId)) return;
+  const ensureCurrentSimilarityMeta = useCallback(async () => {
+    if (!currentQuestionStableId || is100Hard) return null;
+    if (Object.prototype.hasOwnProperty.call(similarityMetaByStableId, currentQuestionStableId)) {
+      return similarityMetaByStableId[currentQuestionStableId] ?? null;
+    }
 
-    let cancelled = false;
-    loadQuestionSimilarityMeta(currentQuestionStableId).then((meta) => {
-      if (cancelled) return;
-      setSimilarityMetaByStableId((current) => ({
-        ...current,
-        [currentQuestionStableId]: meta,
-      }));
-    });
-
-    return () => {
-      cancelled = true;
-    };
+    const meta = await loadQuestionSimilarityMeta(currentQuestionStableId);
+    setSimilarityMetaByStableId((current) => ({
+      ...current,
+      [currentQuestionStableId]: meta,
+    }));
+    return meta;
   }, [currentQuestionStableId, is100Hard, similarityMetaByStableId]);
   const currentQuestion = useMemo(() => {
     if (!isBankQuestionWithUuid(questionData)) return questionData;
@@ -1010,6 +1212,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     getStoredQuestionViewMode(subject, isBank),
   );
   const effectiveQuestionViewMode = isMobile ? "vertical" : questionViewMode;
+  const effectiveTopShouldCompress = topShouldCompress || isMobile;
   const [questionSplitPosition, setQuestionSplitPosition] = useState(() =>
     getDefaultQuestionSplitPosition(subject),
   );
@@ -1241,6 +1444,15 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     }
 
     if (isBank) {
+      if (currentBankRouteRefs) {
+        return currentBankRouteRefs
+          .filter((question) => !difficultyFilter || question.difficulty === difficultyFilter)
+          .map((question) => ({
+            id: question.id,
+            storageId: question.stableId,
+          }));
+      }
+
       return (currentLoadedBankQuestionPool ?? [])
         .filter((question) => !difficultyFilter || question.difficulty === difficultyFilter)
         .map((question) => ({
@@ -1252,6 +1464,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     return [];
   }, [
     bankSource,
+    currentBankRouteRefs,
     currentLoadedBankQuestionPool,
     difficultyFilter,
     is100Hard,
@@ -1296,6 +1509,10 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   const orderedQuestionIds = useMemo(
     () => orderedNavigationItems.map((item) => item.id),
     [orderedNavigationItems],
+  );
+  const orderedQuestionIndexById = useMemo(
+    () => new Map(orderedQuestionIds.map((id, index) => [id, index])),
+    [orderedQuestionIds],
   );
 
   useEffect(() => {
@@ -1472,7 +1689,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       }
 
       if (topNavRef.current && topLeftRef.current && topRightControlsRef.current && topTimerRef.current) {
-        const containerWidth = topNavRef.current.offsetWidth;
+        const containerWidth = getVisibleElementWidth(topNavRef.current);
         const leftWidth = topLeftRef.current.offsetWidth;
         const rightControlsWidth = topRightControlsRef.current.offsetWidth;
         const timerWidth = topTimerRef.current.offsetWidth;
@@ -1495,7 +1712,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       }
 
       if (topNavRef.current && topMeasurementRef.current && topLeftMeasurementRef.current) {
-        const containerWidth = topNavRef.current.offsetWidth;
+        const containerWidth = getVisibleElementWidth(topNavRef.current);
         const leftNaturalWidth = topLeftMeasurementRef.current.scrollWidth;
         const rightNaturalWidth = topMeasurementRef.current.scrollWidth;
         const requiredWidth = leftNaturalWidth + rightNaturalWidth + 40;
@@ -1549,11 +1766,13 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     if (bottomMeasurementRef.current) resizeObserver.observe(bottomMeasurementRef.current);
 
     window.addEventListener('resize', scheduleCheck);
+    window.visualViewport?.addEventListener('resize', scheduleCheck);
     scheduleCheck();
 
     return () => {
       if (frameId !== null) cancelAnimationFrame(frameId);
       window.removeEventListener('resize', scheduleCheck);
+      window.visualViewport?.removeEventListener('resize', scheduleCheck);
       resizeObserver.disconnect();
     };
   }, []);
@@ -1844,16 +2063,17 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     if (is100Hard) return 100;
     if (effectivePracticeMode) return practiceSet.length;
     if (previewQuestionLimit !== null) return previewQuestionLimit;
+    if (isBank && orderedNavigationItems.length > 0) return orderedNavigationItems.length;
     if (subject) {
       const counts = getBankCounts(bankSource);
       return counts[subject] || 0;
     }
     return 0;
-  }, [is100Hard, effectivePracticeMode, practiceSet, previewQuestionLimit, subject, bankSource]);
+  }, [is100Hard, effectivePracticeMode, practiceSet, previewQuestionLimit, isBank, orderedNavigationItems, subject, bankSource]);
 
   const currentOrderedQuestionIndex = useMemo(
-    () => orderedQuestionIds.indexOf(resolvedQuestionNumber),
-    [orderedQuestionIds, resolvedQuestionNumber],
+    () => orderedQuestionIndexById.get(resolvedQuestionNumber) ?? -1,
+    [orderedQuestionIndexById, resolvedQuestionNumber],
   );
   const displayQuestionNumber = isPracticeTestMode
     ? practiceTestQuestionNumberInModule || currentPracticeIndex + 1
@@ -2148,6 +2368,10 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     orderedQuestionIds,
     subject,
   ]);
+  const handleBankNavigatorJump = useCallback((qNum: number) => {
+    const base = '/bank';
+    navigate(`${base}/${subject}/${qNum}${isBank ? bankQuerySuffix : ""}`);
+  }, [bankQuerySuffix, isBank, navigate, subject]);
 
   const handleEmbedAwareNext = useCallback(() => {
     if (shouldShowEmbedUpsellBeforeAdvance()) {
@@ -2573,7 +2797,8 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   const isReadingPassageAnnotatable = subject === "reading" && Boolean(readingPassageContent);
   const shouldReduceQuestionImageSize = isBank;
   const isQuestionDataLoading =
-    (needsModulePracticeBank && !modulePracticeBank) || isBankQuestionPoolLoading;
+    (needsModulePracticeBank && !modulePracticeBank) ||
+    (canUseRouteIndexedBankQuestion ? isRouteIndexedQuestionLoading : isBankQuestionPoolLoading);
   const shouldShowQuestionDataLoading = !currentQuestion && isQuestionDataLoading;
 
   const renderQuestionImages = () => {
@@ -2689,8 +2914,14 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     applyTheme(!isDark);
   };
   const handleCreateSimilarPracticeSet = async (startNow: boolean) => {
-    if (!currentBankQuestion) return;
-    const practiceSet = await createCustomPracticeSetForQuestion(currentBankQuestion, uid);
+    if (!currentQuestion || !isBankQuestionWithUuid(currentQuestion)) return;
+    const similarityMeta = await ensureCurrentSimilarityMeta();
+    const questionWithSimilarity = similarityMeta
+      ? { ...currentQuestion, ...similarityMeta }
+      : currentQuestion;
+    if (!questionWithSimilarity.similarityGroupId) return;
+
+    const practiceSet = await createCustomPracticeSetForQuestion(questionWithSimilarity, uid);
     if (startNow) {
       launchCustomPracticeSet(practiceSet, navigate);
       return;
@@ -2709,7 +2940,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       };
       setPracticeTestSessionMeta(pausedSession);
       savePracticeTestSession(pausedSession);
-      navigate(`/practice-tests/${practiceTestSet.id}/start`);
+      navigate("/modules");
       return;
     }
 
@@ -2771,7 +3002,13 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     </>
   );
   const questionInfoDialog = questionInfo ? (
-    <Dialog open={isQuestionInfoOpen} onOpenChange={setIsQuestionInfoOpen}>
+    <Dialog
+      open={isQuestionInfoOpen}
+      onOpenChange={(open) => {
+        setIsQuestionInfoOpen(open);
+        if (open) void ensureCurrentSimilarityMeta();
+      }}
+    >
       <DialogContent container={windowPortalContainer} className="max-h-[85vh] max-w-3xl overflow-hidden border-border bg-card p-7 text-card-foreground shadow-2xl sm:rounded-[28px] dark:border-white/10 dark:bg-[#101010] dark:text-white [&>button]:right-5 [&>button]:top-5 [&>button]:flex [&>button]:h-11 [&>button]:w-11 [&>button]:items-center [&>button]:justify-center [&>button]:rounded-2xl [&>button]:border [&>button]:border-border [&>button]:bg-background/80 [&>button]:p-0 [&>button]:text-muted-foreground [&>button]:opacity-100 [&>button]:ring-0 [&>button]:ring-offset-0 [&>button]:transition-colors [&>button]:hover:bg-muted [&>button]:hover:text-foreground dark:[&>button]:border-white/30 dark:[&>button]:bg-transparent dark:[&>button]:text-white/80 dark:[&>button]:hover:bg-white/10 dark:[&>button]:hover:text-white [&>button_svg]:h-5 [&>button_svg]:w-5">
         <DialogHeader className="space-y-0">
           <DialogTitle className="text-[1.7rem] font-semibold tracking-[-0.025em] text-foreground dark:text-white">
@@ -3069,8 +3306,8 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                 <AlertDialog>
                   <AlertDialogTrigger asChild>
                     <Button variant="ghost" size="sm">
-                      <ChevronLeft className={topShouldCompress ? "h-4 w-4" : "mr-1 h-4 w-4"} />
-                      {!topShouldCompress && "Save & Exit"}
+                      <ChevronLeft className={effectiveTopShouldCompress ? "h-4 w-4" : "mr-1 h-4 w-4"} />
+                      {!effectiveTopShouldCompress && "Save & Exit"}
                     </Button>
                   </AlertDialogTrigger>
                   <AlertDialogContent>
@@ -3101,8 +3338,8 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                     navigate(backDestination);
                   }}
                 >
-                  <ChevronLeft className={topShouldCompress ? "h-4 w-4" : "mr-1 h-4 w-4"} />
-                  {!topShouldCompress && "Home"}
+                  <ChevronLeft className={effectiveTopShouldCompress ? "h-4 w-4" : "mr-1 h-4 w-4"} />
+                  {!effectiveTopShouldCompress && "Home"}
                 </Button>
               )}
             </div>
@@ -3126,7 +3363,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                       onFocus={() => bringToFront('referenceSheet')}
                       zIndex={getZIndex('referenceSheet')}
                       constrainToLeft={isSplitScreenActive ? splitPosition : undefined}
-                      compressed={topShouldCompress}
+                      compressed={effectiveTopShouldCompress}
                       windowPortalContainer={windowPortalContainer}
                       windowBoundsElement={windowBoundsElement}
                     />
@@ -3139,7 +3376,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                       constrainToLeft={isSplitScreenActive ? splitPosition : undefined}
                       isSidebarred={sidebarredWindows.has('desmos')}
                       onSidebarToggle={handleSidebarToggle}
-                      compressed={topShouldCompress}
+                      compressed={effectiveTopShouldCompress}
                       windowPortalContainer={windowPortalContainer}
                       windowBoundsElement={windowBoundsElement}
                       storageArea={desmosStorageArea}
@@ -3156,7 +3393,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                     variant="outline"
                     size="sm"
                     className={cn(
-                      topShouldCompress ? "w-9 px-0" : "min-w-[112px]",
+                      effectiveTopShouldCompress ? "w-9 px-0" : "min-w-[112px]",
                       isAnnotationModeEnabled
                         ? "border-primary bg-primary text-primary-foreground shadow-sm hover:!border-cobalt hover:!bg-cobalt hover:!text-white dark:border-primary dark:bg-primary dark:text-primary-foreground dark:hover:!border-cobalt dark:hover:!bg-cobalt dark:hover:!text-white"
                         : "bg-background text-foreground dark:border-white/20",
@@ -3165,15 +3402,17 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                     title={isAnnotationModeEnabled ? "Turn annotation mode off" : "Turn annotation mode on"}
                     aria-pressed={isAnnotationModeEnabled}
                   >
-                    <Highlighter className={topShouldCompress ? "h-4 w-4" : "mr-2 h-4 w-4"} />
-                    {!topShouldCompress && "Annotate"}
+                    <Highlighter className={effectiveTopShouldCompress ? "h-4 w-4" : "mr-2 h-4 w-4"} />
+                    {!effectiveTopShouldCompress && "Annotate"}
                   </Button>
                 )}
-                <DropdownMenu>
+                <DropdownMenu onOpenChange={(open) => {
+                  if (open) void ensureCurrentSimilarityMeta();
+                }}>
                   <DropdownMenuTrigger asChild>
                     <Button variant="outline" size="sm" title="More" data-tour="question-more-menu">
-                      <MoreHorizontal className={topShouldCompress ? "h-4 w-4" : "mr-2 h-4 w-4"} />
-                      {!topShouldCompress && "More"}
+                      <MoreHorizontal className={effectiveTopShouldCompress ? "h-4 w-4" : "mr-2 h-4 w-4"} />
+                      {!effectiveTopShouldCompress && "More"}
                     </Button>
                   </DropdownMenuTrigger>
                   <DropdownMenuContent align="end" className="z-[160] w-56" container={windowPortalContainer}>
@@ -3605,10 +3844,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                  <BankNavigationSheet
                     currentQuestion={resolvedQuestionNumber}
                     totalQuestions={totalQuestions}
-                    onJump={(qNum) => {
-                       const base = '/bank';
-                       navigate(`${base}/${subject}/${qNum}${isBank ? bankQuerySuffix : ""}`);
-                    }}
+                    onJump={handleBankNavigatorJump}
                     items={orderedNavigationItems}
                     isSplitScreenActive={isSplitScreenActive}
                     splitPosition={splitPosition}

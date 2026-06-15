@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Set up the total area equation",
       "content": "The region contains 88 square lots, each of area $R$ square units, so the total area is $88R$. <br/><br/>The length is 5.5 times the width. If the width is $W$, then length is $5.5W$. <br/><br/>Using the rectangle area formula:<br/>$$\\text{Area} = \\text{length} \\times \\text{width} = 5.5W \\times W = 5.5W^2 = 88R$$"
     },

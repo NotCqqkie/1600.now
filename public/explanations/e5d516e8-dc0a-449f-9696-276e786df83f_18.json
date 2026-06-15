@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Calculate the new angle after rotation",
       "content": "Point A is at (0, 1), which is at angle $\\frac{\\pi}{2}$ on the unit circle. Rotating counterclockwise by $\\frac{7\\pi}{6}$ adds this angle to the current angle: $$\\theta = \\frac{\\pi}{2} + \\frac{7\\pi}{6} = \\frac{3\\pi}{6} + \\frac{7\\pi}{6} = \\frac{10\\pi}{6} = \\frac{5\\pi}{3}$$"
     },

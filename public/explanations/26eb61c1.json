@@ -4,6 +4,14 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest check: compare a table or graph",
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>C</strong>, $6{x}^{2}{y}^{2} \\left({x}^{6}+2\\right)$."
+    },
+    {
+      "title": "Algebra check",
+      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+    },
+    {
       "title": "Factor the expression",
       "content": "Factor $6x^8y^2 + 12x^2y^2$ by pulling out the greatest common factor. Both terms share $6x^2y^2$: $6x^8y^2 + 12x^2y^2 = 6x^2y^2(x^6 + 2)$."
     },

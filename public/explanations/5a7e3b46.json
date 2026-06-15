@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Recognize the 3-4-5 Pythagorean triple",
       "content": "Since $\\cos A = \\frac{3}{5}$ and $\\sin^2 A + \\cos^2 A = 1$, we have $\\sin A = \\frac{4}{5}$.<br/><br/>In right triangle ABC with ∠B = 90°, the trigonometric ratios $\\cos A = \\frac{AB}{AC} = \\frac{3}{5}$ and $\\sin A = \\frac{BC}{AC} = \\frac{4}{5}$ match the 3-4-5 Pythagorean triple.<br/><br/>Therefore, AB: BC: AC = 3: 4: 5."
     },

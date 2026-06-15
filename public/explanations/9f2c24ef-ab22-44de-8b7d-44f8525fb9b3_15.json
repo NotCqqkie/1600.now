@@ -4,16 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve the system by substitution",
-      "content": "From the first equation, $y=-x^{2}$. Substitute into $8x+16-y=0$: $$8x+16-(-x^{2})=0 \\Rightarrow x^{2}+8x+16=0.$$"
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$x^{2}+y+3=3$$<br/>$$8x+16-y=0$$<br/>You do not need to solve or rearrange them first.",
+      "desmosExpressions": [
+        "x^{2}+y+3=3",
+        "8x+16-y=0"
+      ]
     },
     {
-      "title": "Find $x$",
-      "content": "This factors as $(x+4)^2=0$, so $x=-4$. That confirms <strong>B</strong> is correct."
+      "title": "Read the x-coordinate",
+      "content": "Click the intersection point and read the x-coordinate. It matches <strong>B</strong>, $-4$."
     },
     {
-      "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches the correct answer, $-4$. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

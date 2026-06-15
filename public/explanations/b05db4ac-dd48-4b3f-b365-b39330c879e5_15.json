@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Set up equations from the geometry",
       "content": "For a right rectangular prism with a square base, let $s$ = side of the square base and $h$ = height. <br/><br/> The volume is the base area times height: $$s^2 h = 539$$ <br/> Each of the four lateral faces is a rectangle with dimensions $s \\times h$, so each face has area: $$s h = 77$$"
     },

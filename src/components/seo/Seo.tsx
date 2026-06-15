@@ -265,6 +265,13 @@ const routeMetadata: RouteMetadata[] = [
       "Generate a week-by-week SAT study plan from your current score, target score, and test date.",
   },
   {
+    pattern: "/study-plan-lab",
+    title: "SAT Study Plan Lab",
+    description:
+      "Hidden SAT study planning lab with calendar tasks, score-report intake, focus areas, and printable daily plans.",
+    noindex: true,
+  },
+  {
     pattern: "/what-sat-score-do-i-need",
     title: "What SAT Score Do I Need?",
     description:

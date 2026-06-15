@@ -3,6 +3,10 @@
   "qid": "a2e76b60",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Step 1",
       "content": "Find the total volume of the cylindrical can using $V = \\text{base area} \\times \\text{height} = 75 \\times 10 = 750$ cm$^3$."
     },
@@ -15,5 +19,6 @@
       "content": "Evaluate each answer choice:<ul><li><strong>Choice A &mdash; 7.5 centimeters cubed</strong>: this would result from dividing 75 by 10, not using the correct formula. Eliminated.</li><li><strong>Choice B &mdash; 185</strong>: this would result from adding 75 and 110, which has no physical meaning here. Eliminated.</li><li><strong>Choice C &mdash; 640</strong>: equals $750 - 110$, the total can volume minus the syrup. That confirms <strong>C</strong> is correct.</li><li><strong>Choice D &mdash; 750</strong>: this is the total can volume, not the fruit volume alone. Eliminated.</li></ul>"
     }
   ],
-  "correctAnswer": "C"
+  "correctAnswer": "C",
+  "section": "Math"
 }

@@ -4,16 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve the system by elimination",
-      "content": "Subtract the first equation from the second: $$(x+y+y)-(x+y)=115-105,$$ giving $y=10$."
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$x + y = 105$$<br/>$$x + y + y = 115$$<br/>You do not need to solve or rearrange them first.",
+      "desmosExpressions": [
+        "x + y = 105",
+        "x + y + y = 115"
+      ]
     },
     {
-      "title": "Find $y$",
-      "content": "The answer is <strong>10</strong>."
+      "title": "Read the y-coordinate",
+      "content": "Click the intersection point and read the y-coordinate. It matches <strong>$10$</strong>."
     },
     {
-      "title": "Confirm the answer",
-      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $10$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $10$."
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

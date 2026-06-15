@@ -4,16 +4,20 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest check: compare a table or graph",
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $7x^{2}(x^{4}-2)$."
+    },
+    {
+      "title": "Algebra check",
+      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+    },
+    {
       "title": "Factor the common term",
       "content": "Both terms in $7x^6-14x^2$ share a factor of $7x^2$. Factor that out: $$7x^6-14x^2=7x^2(x^4-2).$$"
     },
     {
       "title": "Match the factored form",
       "content": "The expression $7x^2(x^4-2)$ is exactly choice D. The other choices introduce extra powers or different factors, so they are not equivalent to the original expression."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The correct answer is $7x^2(x^4-2)$, which matches $7x^6-14x^2$. Therefore <strong>D</strong> is correct."
     }
   ]
 }

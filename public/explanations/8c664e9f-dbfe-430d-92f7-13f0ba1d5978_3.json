@@ -4,16 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve the system by elimination",
-      "content": "Multiply the second equation by $2$ to get $0.7x+1.4y=4.9$. Subtract the first equation: $$(0.7x+1.4y)-(0.7x+0.35y)=4.9-1.75,$$ giving $1.05y=3.15$."
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$0.7x + 0.35y = 1.75$$<br/>$$0.35x + 0.7y = 2.45$$<br/>You do not need to solve or rearrange them first.",
+      "desmosExpressions": [
+        "0.7x + 0.35y = 1.75",
+        "0.35x + 0.7y = 2.45"
+      ]
     },
     {
-      "title": "Find $y$",
-      "content": "Divide: $$y=\\frac{3.15}{1.05}=3.$$ The answer is <strong>3</strong>."
+      "title": "Read the y-coordinate",
+      "content": "Click the intersection point and read the y-coordinate. It matches <strong>$3$</strong>."
     },
     {
-      "title": "Confirm the answer",
-      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $3$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $3$."
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

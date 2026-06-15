@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Identify the triangle configuration",
       "content": "We have triangle XYZ where angle X measures <strong>52°</strong>, side XY = <strong>24 units</strong>, and side XZ = <strong>17 units</strong>. These are two sides emanating from vertex X with the angle between them known — this is a <strong>Side-Angle-Side (SAS) configuration</strong>."
     },

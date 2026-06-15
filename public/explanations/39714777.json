@@ -4,6 +4,13 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$p \\left(x\\right)+57={x}^{2}$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is $-57$.",
+      "desmosExpressions": [
+        "p \\left(x\\right)+57={x}^{2}"
+      ]
+    },
+    {
       "title": "Isolate $p(x)$",
       "content": "$p(x)+57=x^2 \\Rightarrow p(x)=x^2-57$"
     },

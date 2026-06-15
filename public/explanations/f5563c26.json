@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the given $y$-value",
-      "content": "The first equation gives $y=4$. Substitute into $x=y+6$: $$x=4+6.$$"
-    },
-    {
-      "title": "Find $x$",
-      "content": "$$x=10.$$"
-    },
-    {
-      "title": "Check the choices",
-      "content": "The correct answer is <strong>A</strong>. $4$ is $y$, not $x$, and the other choices do not satisfy $x=y+6$ when $y=4$. The ordered pair would be $(10,4)$, so the requested $x$-value is $10$.",
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$y=4$$<br/>$$x=y+6$$<br/>You do not need to solve or rearrange them first.",
       "desmosExpressions": [
         "y=4",
         "x=y+6"
       ]
+    },
+    {
+      "title": "Read the x-coordinate",
+      "content": "Click the intersection point and read the x-coordinate. It matches <strong>A</strong>, $10$."
+    },
+    {
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

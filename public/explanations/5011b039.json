@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Recognize the standard form of a circle equation",
       "content": "The equation $(x+2)^2 + (y+5)^2 = 169$ matches the standard form $(x-h)^2 + (y-k)^2 = r^2$. In this form, the number on the right side of the equation is $r^2$ (the radius squared), not the radius itself."
     },

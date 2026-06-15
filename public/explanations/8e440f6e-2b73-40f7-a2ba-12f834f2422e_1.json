@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Set up the density formula",
       "content": "Population density equals total population divided by total area:<br/>$$\\text{Density} = \\frac{\\text{Population}}{\\text{Area}} = \\frac{2{,}278}{134} \\text{ muskrats per acre}$$"
     },

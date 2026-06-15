@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the given x-value",
-      "content": "The first equation gives $x=10$."
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$x=10$$<br/>$$y=x+21$$<br/>You do not need to solve or rearrange them first.",
+      "desmosExpressions": [
+        "x=10",
+        "y=x+21"
+      ]
     },
     {
-      "title": "Substitute into the second equation",
-      "content": "Using $y=x+21$, substitute $x=10$: $y=10+21=31$."
+      "title": "Read the y-coordinate",
+      "content": "Click the intersection point and read the y-coordinate. It matches <strong>D</strong>, $31$."
     },
     {
-      "title": "Match the choice",
-      "content": "The value of $y$ is $31$, which matches <strong>D</strong>."
-    },
-    {
-      "title": "Keep x and y separate",
-      "content": "The correct answer gives the value of $x$, not $y$. The question asks for $y$, so after using $x=10$, the second equation must still be evaluated to get $31$."
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

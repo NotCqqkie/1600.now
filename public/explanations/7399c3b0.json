@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: try the choices",
+      "content": "Because the choices give possible solutions, plug them into the equation instead of solving from scratch. The only choice that satisfies the equation is <strong>D</strong>, $12$."
+    },
+    {
       "title": "Isolate the square",
       "content": "Start with $k^2-53=91$. Add $53$ to both sides so the square term is alone: $$k^2=144.$$"
     },

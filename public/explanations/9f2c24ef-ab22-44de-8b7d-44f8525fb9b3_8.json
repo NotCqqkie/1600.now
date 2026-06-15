@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: use the function table",
+      "content": "Enter the function in Desmos or a calculator table and scan for the row with the output named in the question. The input that works gives <strong>$112$</strong>. This is just a table lookup, and the arithmetic below confirms the same value."
+    },
+    {
       "title": "Set the output equal to 76",
       "content": "The question asks for the input where $g(x)=76$. Since $g(x)=2x-148$, solve $$2x-148=76.$$"
     },
     {
       "title": "Solve for x",
       "content": "Add $148$ to both sides: $$2x=224.$$ Then divide by $2$: $$x=112.$$"
-    },
-    {
-      "title": "Check by substitution",
-      "content": "Substitute $112$ into the function: $g(112)=2(112)-148=224-148=76$. This gives the required output, so the value of $x$ is <strong>112</strong>."
     }
   ]
 }

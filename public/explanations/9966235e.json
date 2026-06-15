@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Establish dimensions and calculate cube volume",
       "content": "The cube has edge length 68 inches. Since the sphere touches the center of each face, the sphere is centered at the cube's center, making the radius equal to half the edge length: $\\frac{68}{2} = 34$ inches.<br/><br/>The volume of the cube is:<br/>$$V_{\\text{cube}} = 68^3 = 314,432 \\text{ cubic inches}$$"
     },

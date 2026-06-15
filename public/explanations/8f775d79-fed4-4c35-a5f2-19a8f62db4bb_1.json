@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Apply the Pythagorean theorem",
       "content": "In a right triangle with legs $a = 1$ and $b = 1$, the hypotenuse $z$ satisfies $z^{2} = a^{2} + b^{2}$:<br/>$$z^{2} = 1^{2} + 1^{2} = 2$$<br/>Taking the positive square root:<br/>$$z = \\sqrt{2}$$<br/>That confirms <strong>D</strong> is correct."
     }

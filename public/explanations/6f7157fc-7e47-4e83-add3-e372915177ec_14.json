@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Recognize the standard form of a circle equation",
       "content": "The given equation $(x + 4)^2 + (y + 8)^2 = 169$ matches the standard form $(x - h)^2 + (y - k)^2 = r^2$. In this form, the right side always equals $r^2$, so we can immediately identify that $r^2 = 169$.",
       "formula": "$$(x - h)^2 + (y - k)^2 = r^2$$"

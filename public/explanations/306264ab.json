@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Verify the Pythagorean theorem to identify the legs",
       "content": "Since we're given three sides and told it's a right triangle, we need to confirm which sides are the legs. Compute the squares:<br/>$$(2\\sqrt{2})^2 = 4 \\cdot 2 = 8$$<br/>$$(6\\sqrt{2})^2 = 36 \\cdot 2 = 72$$<br/>$$(\\sqrt{80})^2 = 80$$<br/>Check: $8 + 72 = 80$ ✓<br/><br/>So $2\\sqrt{2}$ and $6\\sqrt{2}$ are the legs, and $\\sqrt{80}$ is the hypotenuse."
     },

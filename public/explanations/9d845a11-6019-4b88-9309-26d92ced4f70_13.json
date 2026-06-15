@@ -4,23 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Connect one intersection to tangency",
-      "content": "The line and parabola have exactly one intersection only when the line just touches the parabola. Algebraically, that means setting their $y$-values equal should produce a quadratic with one repeated solution:<br/>$$2x^2-13x+24=3x+a$$<br/>$$2x^2-16x+(24-a)=0$$<br/>A quadratic has one repeated solution when its discriminant is $0$."
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$y = 2x^2 - 13x + 24$$<br/>$$y = 3x + a$$<br/>You do not need to solve or rearrange them first."
     },
     {
-      "title": "Graph the corrected line",
-      "content": "Set the discriminant equal to $0$:<br/>$$(-16)^2-4(2)(24-a)=0$$<br/>$$256-192+8a=0$$<br/>$$64+8a=0$$<br/>$$a=-8$$ So the line is $y=3x-8$. Graph $y=2x^2-13x+24$ with $y=3x-8$ as a visual check; the graphs touch once.",
-      "desmosExpressions": [
-        "y = 2x^2 - 13x + 24",
-        "y = 3x - 8"
-      ]
+      "title": "Read the x-coordinate",
+      "content": "Click the intersection point and read the x-coordinate. It matches <strong>C</strong>, 4."
     },
     {
-      "title": "Confirm the x-value",
-      "content": "Substitute $a=-8$ into the intersection equation:<br/>$$2x^2-16x+32=0$$<br/>Divide by $2$: $$x^2-8x+16=0$$<br/>$$(x-4)^2=0$$<br/>So the single intersection has $x=4$. That confirms <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "(4,4)"
-      ]
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

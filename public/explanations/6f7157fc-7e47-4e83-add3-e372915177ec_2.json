@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: use the function table",
+      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $58$, so the answer is <strong>A</strong>, 58. This is just a one-row lookup, and the arithmetic below confirms the table value."
+    },
+    {
       "title": "Substitute",
       "content": "Plug $x=-6$ into $f(x)=-3x+40$.<br/>$$f(-6)=-3(-6)+40$$"
     },
     {
       "title": "Compute the result",
       "content": "Multiply then add.<br/>$$f(-6)=18+40=58$$<br/>That confirms <strong>A</strong> is correct."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above confirms <strong>A</strong>, 58. The other choices do not satisfy the same condition from the question, so <strong>A</strong> is correct."
     }
   ]
 }

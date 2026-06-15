@@ -3,6 +3,14 @@
   "qid": "beb86a0c",
   "steps": [
     {
+      "title": "Fastest check: compare a table or graph",
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $x \\left(9x+5\\right)$."
+    },
+    {
+      "title": "Algebra check",
+      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+    },
+    {
       "title": "Step 1",
       "content": "Identify the greatest common factor of $9x^2$ and $5x$: both terms share a factor of x."
     },
@@ -16,5 +24,6 @@
     }
   ],
   "eliminationHtml": "<ul><li><strong>Choice A &mdash; $x \\left(9x+5\\right)$</strong>: Distributes to $9x^2 + 5x$, which matches exactly. &#10003;</li><li><strong>Choice B &mdash; $5x \\left(9x+1\\right)$</strong>: Distributes to $45x^2 + 5x$, not $9x^2 + 5x$. &#10007;</li><li><strong>Choice C &mdash; $9x \\left(x+5\\right)$</strong>: Distributes to $9x^2 + 45x$, not $9x^2 + 5x$. &#10007;</li><li><strong>Choice D &mdash; ${x}^{2} \\left(9x+5\\right)$</strong>: Distributes to $9x^3 + 5x^2$, not $9x^2 + 5x$. &#10007;</li></ul>That is the correct answer.",
-  "correctAnswer": "A"
+  "correctAnswer": "A",
+  "section": "Math"
 }

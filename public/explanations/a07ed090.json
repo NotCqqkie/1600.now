@@ -3,17 +3,22 @@
   "qid": "a07ed090",
   "steps": [
     {
-      "text": "The volume of a right circular cylinder is $V = \\pi r^2 h$. The first cylinder has volume $V_1 = \\pi r^2 h$. The second cylinder must have volume $V_2 = 392 \\cdot \\pi r^2 h$, so $\\pi R^2 H = 392 \\pi r^2 h$, which simplifies to $R^2 H = 392 r^2 h$."
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
     },
     {
-      "text": "Factor 392: $392 = 8 \\times 49 = 8 \\times 7^2$. So the ratio must satisfy $\\frac{R^2}{r^2} \\cdot \\frac{H}{h} = 392$."
+      "title": "Explanation",
+      "content": "The volume of a right circular cylinder is $V = \\pi r^2 h$. The first cylinder has volume $V_1 = \\pi r^2 h$. The second cylinder must have volume $V_2 = 392 \\cdot \\pi r^2 h$, so $\\pi R^2 H = 392 \\pi r^2 h$, which simplifies to $R^2 H = 392 r^2 h$."
     },
     {
-      "text": "Test each listed pair by computing $\\frac{R^2}{r^2} \\cdot \\frac{H}{h}$: $R=8r$ and $H=7h$ gives $64 \\times 7 = 448$; $R=8r$ and $H=49h$ gives $64 \\times 49 = 3{,}136$; $R=7r$ and $H=8h$ gives $49 \\times 8 = 392$; $R=49r$ and $H=8h$ gives $2{,}401 \\times 8 = 19{,}208$."
+      "title": "Explanation",
+      "content": "Factor 392: $392 = 8 \\times 49 = 8 \\times 7^2$. So the ratio must satisfy $\\frac{R^2}{r^2} \\cdot \\frac{H}{h} = 392$."
     },
     {
-      "text": "<ul><li><strong>Choice A &mdash; $R=8r$ and $H=7h$</strong>: The scale factor is $(8)^2(7)=448$, not $392$. &#10007;</li><li><strong>Choice B &mdash; $R=8r$ and $H=49h$</strong>: The scale factor is $(8)^2(49)=3{,}136$, not $392$. &#10007;</li><li><strong>Choice C &mdash; $R=7r$ and $H=8h$</strong>: The scale factor is $(7)^2(8)=392$, so this works. &#10003;</li><li><strong>Choice D &mdash; $R=49r$ and $H=8h$</strong>: The scale factor is $(49)^2(8)=19{,}208$, not $392$. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+      "title": "Explanation",
+      "content": "Test each listed pair by computing $\\frac{R^2}{r^2} \\cdot \\frac{H}{h}$: $R=8r$ and $H=7h$ gives $64 \\times 7 = 448$; $R=8r$ and $H=49h$ gives $64 \\times 49 = 3{,}136$; $R=7r$ and $H=8h$ gives $49 \\times 8 = 392$; $R=49r$ and $H=8h$ gives $2{,}401 \\times 8 = 19{,}208$."
     }
   ],
-  "correctAnswer": "C"
+  "correctAnswer": "C",
+  "section": "Math"
 }

@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: try the choices",
+      "content": "Because the choices give possible solutions, plug them into the equation instead of solving from scratch. The only choice that satisfies the equation is <strong>D</strong>, 36."
+    },
+    {
       "title": "Isolate the square root term",
       "content": "Subtract 34 from both sides of the equation:<br/>$$\\sqrt{w} + 34 - 34 = 40 - 34$$<br/>$$\\sqrt{w} = 6$$"
     },

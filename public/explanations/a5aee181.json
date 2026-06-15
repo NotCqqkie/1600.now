@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Apply the Pythagorean theorem for the rectangle's diagonal",
       "content": "In a rectangle, the diagonal and two adjacent sides form a right triangle. With diagonal $5\\sqrt{17}$, shorter side $5$, and unknown longer side $x$:<br/>$$(5\\sqrt{17})^2 = 5^2 + x^2$$"
     },

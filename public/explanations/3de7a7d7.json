@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: try the choices",
+      "content": "Because the choices give possible solutions, plug them into the equation instead of solving from scratch. The only choice that satisfies the equation is <strong>B</strong>, 2."
+    },
+    {
       "title": "Isolate the square term",
       "content": "Start with $$2x^2-4=x^2$$ Subtract $x^2$ from both sides: $$x^2-4=0$$ so $$x^2=4$$"
     },
@@ -14,10 +18,6 @@
     {
       "title": "Confirm the choice",
       "content": "Among the choices, $2$ is a solution. <strong>B</strong> is correct."
-    },
-    {
-      "title": "Use the answer choices",
-      "content": "The equation has two mathematical solutions, $-2$ and $2$, but only positive $2$ appears in the choices. Substituting $2$ gives $2(4)-4=4$, which equals $2^2$."
     }
   ]
 }

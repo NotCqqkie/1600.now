@@ -4,12 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set equations equal to solve for x",
-      "content": "Since both equations equal $y$, set them equal:<br/>$$-15x + 21 = -21x + 27$$<br/>Add $21x$ to both sides: $6x + 21 = 27$<br/>Subtract 21: $6x = 6$<br/>Divide by 6: $x = 1$"
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$y=-15x+21$$<br/>$$y=-21x+27$$<br/>You do not need to solve or rearrange them first.",
+      "desmosExpressions": [
+        "y=-15x+21",
+        "y=-21x+27"
+      ]
     },
     {
-      "title": "Substitute to find y",
-      "content": "Plug $x = 1$ into the first equation:<br/>$$y = -15(1) + 21 = 6$$<br/>The solution is $(1, 6)$. That confirms <strong>C</strong> is correct."
+      "title": "Read the full intersection point",
+      "content": "Click the intersection point and read the full intersection point. It matches <strong>C</strong>, $(1,6)$."
+    },
+    {
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

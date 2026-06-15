@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Identify the cylinder volume formula",
       "content": "The volume of a right circular cylinder is the product of its base area and height.<br/>$$V = B \\cdot h$$<br/>where $B$ is the base area and $h$ is the height. We're given $V = 432$ cubic centimeters and $B = 24$ square centimeters.",
       "formula": "$$V = B \\cdot h$$"

@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Identify the standard circle equation and extract values",
       "content": "A circle with center $(h, k)$ and radius $r$ follows a standard form. From the problem: center is $(19, 16)$ (so $h = 19$, $k = 16$) and radius is $8k$ (so $r = 8k$).",
       "formula": "$$(x-h)^2 + (y-k)^2 = r^2$$"

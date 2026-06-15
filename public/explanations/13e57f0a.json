@@ -4,6 +4,13 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$-4{x}^{2}-7x=-36$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is $\\frac{9}{4}$.",
+      "desmosExpressions": [
+        "-4{x}^{2}-7x=-36"
+      ]
+    },
+    {
       "title": "Move everything to one side",
       "content": "Start with $-4x^2-7x=-36$. Add $36$ to both sides, then multiply by $-1$ to make factoring easier:<br/>$$-4x^2-7x+36=0$$<br/>$$4x^2+7x-36=0$$"
     },
@@ -14,14 +21,6 @@
     {
       "title": "Solve both factors",
       "content": "$$4x-9=0\\Rightarrow x=\\frac{9}{4}$$<br/>$$x+4=0\\Rightarrow x=-4$$"
-    },
-    {
-      "title": "Pick the positive solution",
-      "content": "The positive solution is $\\frac{9}{4}$."
-    },
-    {
-      "title": "Answer",
-      "content": "$\\frac{9}{4}$ matches <strong>Choice B &mdash; $\\frac{9}{4}$</strong>, so <strong>B</strong> is correct."
     }
   ]
 }

@@ -4,6 +4,13 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$5{x}^{2}-37x-24=0$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is $8$.",
+      "desmosExpressions": [
+        "5{x}^{2}-37x-24=0"
+      ]
+    },
+    {
       "title": "Factor the quadratic",
       "content": "Find two factors of $5x^2-37x-24$:<br/>$$5x^2-37x-24=(5x+3)(x-8)$$"
     },
@@ -14,14 +21,6 @@
     {
       "title": "Pick the positive solution",
       "content": "The positive solution is $8$."
-    },
-    {
-      "title": "Check the positive solution",
-      "content": "Substitute $x=8$: $$5(8)^2-37(8)-24=320-296-24=0.$$ So $8$ is a valid solution."
-    },
-    {
-      "title": "Answer",
-      "content": "$8$ matches <strong>Choice C &mdash; $8$</strong>, so <strong>C</strong> is correct."
     }
   ]
 }

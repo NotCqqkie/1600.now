@@ -4,6 +4,10 @@
   "correctAnswer": "D",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+    },
+    {
       "title": "Step 1",
       "content": "List the known angles. Triangle $DEF$: $\\angle D = 40^\\circ$, $\\angle E = 95^\\circ$. Triangle $RST$: $\\angle R = 40^\\circ$, $\\angle S = 95^\\circ$. We already have two pairs of equal corresponding angles: $\\angle D = \\angle R$ and $\\angle E = \\angle S$."
     },
@@ -14,10 +18,7 @@
     {
       "title": "Step 3",
       "content": "Confirm the third angles are implicitly equal anyway. Angle sum: $\\angle F = 180^\\circ - 40^\\circ - 95^\\circ = 45^\\circ$ and $\\angle T = 180^\\circ - 40^\\circ - 95^\\circ = 45^\\circ$. They are forced equal by the first two pairs."
-    },
-    {
-      "title": "Step 4",
-      "content": "Evaluate all choices:<ul><li><strong>A: The measure of angle $F$</strong> - We already have two equal angle pairs, so AA similarity is already established without knowing $\\angle F$. Incorrect.</li><li><strong>B: The measure of angle $T$</strong> - Same reasoning; $\\angle T$ is not needed. Incorrect.</li><li><strong>Choice C &mdash; The measure of angle $F$ and the measure of angle $T$</strong> - Neither is needed; AA criterion is already satisfied. Incorrect.</li><li><strong>Choice D &mdash; No additional information is needed.</strong> - Two pairs of equal angles ($40^\\circ = 40^\\circ$ and $95^\\circ = 95^\\circ$) are already given, which satisfies AA similarity. That is the correct answer.</li></ul>"
     }
-  ]
+  ],
+  "section": "Math"
 }

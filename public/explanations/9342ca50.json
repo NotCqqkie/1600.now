@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+    },
+    {
       "title": "Identify the parallel lines and transversal",
       "content": "Line $AC$ cuts through the two parallel lines $BC$ and $AD$, making it a transversal. The angle $x^{\\circ}$ at point $C$ (between $BC$ and $AC$) and the angle $y^{\\circ}$ at point $A$ (between $AC$ and $AD$) are interior angles on opposite sides of the transversal."
     },

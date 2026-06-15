@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Identify angle x° and its relative sides",
       "content": "The angle $x^{\\circ}$ is at the top-right corner. From this angle:<ul><li>Opposite side = 40</li><li>Adjacent side = 39</li></ul>"
     },

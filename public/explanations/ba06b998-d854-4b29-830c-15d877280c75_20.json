@@ -4,16 +4,19 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$-3x^{2}-7x+1=0$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is $-\\frac{7}{6}+\\frac{\\sqrt{61}}{6}$.",
+      "desmosExpressions": [
+        "-3x^{2}-7x+1=0"
+      ]
+    },
+    {
       "title": "Find the roots",
       "content": "This is a quadratic equation, so the goal is to find its roots. The quadratic formula is a direct way to solve it when simple factoring is not the focus. Multiply by $-1$: $3x^2+7x-1=0$. Apply the quadratic formula with $a=3,b=7,c=-1$: $$x=\\frac{-7\\pm\\sqrt{49+12}}{6}=\\frac{-7\\pm\\sqrt{61}}{6}.$$"
     },
     {
       "title": "Identify the greatest solution",
       "content": "The larger root is $-\\tfrac{7}{6}+\\tfrac{\\sqrt{61}}{6}$. That is the correct answer."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches $-\\frac{7}{6}+\\frac{\\sqrt{61}}{6}$. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
     }
   ]
 }

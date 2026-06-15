@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Identify the radius squared from Circle A's equation",
       "content": "Circle A is given as $x^2 + (y-6)^2 = 7$. This is in standard form $(x-h)^2 + (y-k)^2 = r^2$, where the right side equals $r^2$. Therefore the radius squared is $r^2 = 7$."
     },

@@ -4,16 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute the equations",
-      "content": "Replace $y$ in the second equation using $y=x+47$: $$(x+47)^2=x+47.$$"
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$x + 47 = y$$<br/>$$(x + 47)^2 = y$$<br/>You do not need to solve or rearrange them first.",
+      "desmosExpressions": [
+        "x + 47 = y",
+        "(x + 47)^2 = y"
+      ]
     },
     {
-      "title": "Solve the equation",
-      "content": "Let $u=x+47$, so $u^2=u$ gives $u(u-1)=0$, meaning $x+47=0$ or $x+47=1$. Thus $x=-47$ or $x=-46$."
+      "title": "Read the x-coordinate",
+      "content": "Click the intersection point and read the x-coordinate. It matches <strong>D</strong>, $-46$."
     },
     {
-      "title": "Pick a valid x",
-      "content": "Among the choices, $x=-46$ appears. The other possible solution, $x=-47$, is not the listed value needed for the answer. <strong>D</strong> is correct."
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

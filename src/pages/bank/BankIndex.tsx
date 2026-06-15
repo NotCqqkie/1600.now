@@ -603,7 +603,7 @@ export const BankIndex = ({
     if (filters.answeredIncorrectly !== "all") {
       const incorrect = isQuestionAnsweredIncorrectly(progress);
       if (filters.answeredIncorrectly === "yes" && !incorrect) return false;
-      if (filters.answeredIncorrectly === "no" && incorrect) return false;
+      if (filters.answeredIncorrectly === "no" && !isQuestionSolved(progress)) return false;
     }
     const [minTimeSpent, maxTimeSpent] = filters.timeSpentRange;
     if (progress.totalTimeSpentSeconds < minTimeSpent) return false;

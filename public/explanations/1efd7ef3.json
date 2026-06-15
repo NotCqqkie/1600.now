@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the circle facts first: radii are equal, a diameter sets up a right angle, a tangent is perpendicular to the radius, and central/inscribed angles connect to arcs."
+    },
+    {
       "title": "Use the unit circle period",
       "content": "Sine repeats every $2\\pi$. Since $42\\pi=21(2\\pi)$, the angle makes exactly $21$ full rotations around the unit circle."
     },
@@ -14,14 +18,6 @@
     {
       "title": "Evaluate",
       "content": "$$\\sin(42\\pi)=0$$"
-    },
-    {
-      "title": "Check the choices",
-      "content": "<strong>Choice D &mdash; $1$</strong> is the value of cosine at this angle, not sine. The sine value is $0$."
-    },
-    {
-      "title": "Answer",
-      "content": "$0$ matches <strong>Choice A &mdash; $0$</strong>, so <strong>A</strong> is correct."
     }
   ]
 }

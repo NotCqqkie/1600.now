@@ -4,16 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve the system by elimination",
-      "content": "Multiply the first equation by 10: $25x-2y=480$. Add to $x+2y=-12$: $$26x=468 \\Rightarrow x=18, \\ y=\\tfrac{-12-18}{2}=-15.$$"
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$\\frac{5}{2}x - \\frac{1}{5}y = 48$$<br/>$$x + 2y = -12$$<br/>You do not need to solve or rearrange them first.",
+      "desmosExpressions": [
+        "\\frac{5}{2}x - \\frac{1}{5}y = 48",
+        "x + 2y = -12"
+      ]
     },
     {
-      "title": "Find the value of $x + y$",
-      "content": "Then $x+y=18+(-15)=3$. That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Read the x-coordinate",
+      "content": "Click the intersection point and read the x-coordinate. It matches <strong>C</strong>, 3."
     },
     {
-      "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above is 3. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Identify the vertices and diagonal structure",
       "content": "The figure shows a square with vertices at C(0, 5), D(5, 0), A(0, −5), and B(−5, 0).<br/><br/>Since the diagonals lie on the coordinate axes, they are perpendicular and bisect each other at the origin.<br/><br/>The diagonals divide the square into 4 congruent right triangles, each with legs extending 5 units from the center to a vertex on the nearest axis."
     },

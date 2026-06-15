@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Set up the perimeter equation",
       "content": "The perimeter of triangle ABC equals the sum of its three sides. With perimeter = 17 inches, AB = 4 inches, and AC = 7 inches, we write: $$AB + AC + BC = 17$$ Substituting the known values: $$4 + 7 + BC = 17$$"
     },

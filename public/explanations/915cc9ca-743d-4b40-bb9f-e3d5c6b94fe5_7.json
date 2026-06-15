@@ -4,16 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve the system by elimination",
-      "content": "Rewrite as $6x+7y=2550$ and divide the second by $4$ to get $6x-7y=450$. Add: $$12x=3000 \\Rightarrow x=250,$$ then $7y=2550-6(250)=1050$, so $y=150$."
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$7y = -6x + 2550$$<br/>$$24x - 28y = 1800$$<br/>You do not need to solve or rearrange them first.",
+      "desmosExpressions": [
+        "7y = -6x + 2550",
+        "24x - 28y = 1800"
+      ]
     },
     {
-      "title": "Find the value of $x + y$",
-      "content": "So $x+y=250+150=400$. The answer is <strong>400</strong>."
+      "title": "Read the x-coordinate",
+      "content": "Click the intersection point and read the x-coordinate. It matches <strong>$400$</strong>."
     },
     {
-      "title": "Confirm the answer",
-      "content": "As a final check, make sure the computed value answers exactly what the question asks for. The work above gives $400$; substituting or interpreting it in the original condition satisfies the requirement, so $400$ is the value to enter."
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

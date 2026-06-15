@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Translate the diagonal constraint to a side relationship",
       "content": "Let the shortest side be $a$ and the other side be $b$. The diagonal is $\\sqrt{a^2 + b^2}$. The problem states the diagonal equals twice the shortest side:<br/>$$\\sqrt{a^2 + b^2} = 2a$$<br/>Squaring both sides:<br/>$$a^2 + b^2 = 4a^2$$<br/>$$b^2 = 3a^2$$<br/>$$b = a\\sqrt{3}$$"
     },

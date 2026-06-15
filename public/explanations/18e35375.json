@@ -4,6 +4,13 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$f \\left(x\\right)= \\left(x-14\\right) \\left(x+19\\right)$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is $-\\frac{5}{2}$.",
+      "desmosExpressions": [
+        "f \\left(x\\right)= \\left(x-14\\right) \\left(x+19\\right)"
+      ]
+    },
+    {
       "title": "Identify the roots",
       "content": "$f(x) = (x-14)(x+19) = 0$ has roots $x = 14$ and $x = -19$."
     },

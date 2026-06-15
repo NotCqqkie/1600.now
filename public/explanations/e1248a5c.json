@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Clear fractions and set up the condition for infinite solutions",
-      "content": "Multiply the first equation by 6 to clear fractions: $$3x + 2y = 1$$ For infinite solutions, the two equations must represent the same line, so the second equation $ax + y = c$ must be a scalar multiple of the first.<br/><br/>Multiplying the first equation by a constant $k$ gives: $$3kx + 2ky = k$$ This must equal the second equation."
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$\\frac{1}{2}x + \\frac{1}{3}y = \\frac{1}{6}$$<br/>$$ax + y = c$$<br/>You do not need to solve or rearrange them first."
     },
     {
-      "title": "Find a by matching coefficients",
-      "content": "For the equations $ax+y=c$ and $3kx+2ky=k$ to be identical, their coefficients must match. From the $y$-coefficient, $1=2k$, so $k=\\frac{1}{2}$. Then $$a=3k=3\\left(\\frac{1}{2}\\right)=\\frac{3}{2}.$$ That matches the computed answer, so <strong>D</strong> is correct."
+      "title": "Read the number of intersections",
+      "content": "The graphs show $\\frac{3}{2}$ intersection point(s), so the matching answer is <strong>D</strong>, $\\frac{3}{2}$."
+    },
+    {
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

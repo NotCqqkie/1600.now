@@ -3,6 +3,14 @@
   "questionId": "4ac59df6",
   "steps": [
     {
+      "title": "Fastest check: compare a table or graph",
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $56{y}^{2}{z}^{2}$."
+    },
+    {
+      "title": "Algebra check",
+      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+    },
+    {
       "title": "Step 1",
       "content": "Multiply the numerical coefficients: $8 \\times 7 = 56$."
     },
@@ -13,10 +21,6 @@
     {
       "title": "Step 3",
       "content": "Multiply the $z$ factors: $z \\times z = z^{2}$."
-    },
-    {
-      "title": "Step 4",
-      "content": "The product is $56y^{2}z^{2}$. The exponents are 2 because each variable appears once in each original factor. <strong>A</strong> is correct."
     }
   ],
   "choices": [
@@ -41,5 +45,6 @@
       "explanation": "<ul><li>8 + 7 = 15, not 16, and even addition is the wrong operation — coefficients multiply. Eliminate D.</li></ul>"
     }
   ],
-  "correctAnswer": "A"
+  "correctAnswer": "A",
+  "section": "Math"
 }

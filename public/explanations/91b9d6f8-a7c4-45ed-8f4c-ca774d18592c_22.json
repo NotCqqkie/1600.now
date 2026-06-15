@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Set up the sine ratio",
       "content": "From angle A, we need $\\sin A = \\frac{\\text{opposite}}{\\text{hypotenuse}}$. The hypotenuse is $AB = 24$. The side opposite angle A is $BC$, which we must find first."
     },

@@ -4,6 +4,14 @@
   "correctAnswer": "B",
   "steps": [
     {
+      "title": "Fastest check: compare a table or graph",
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $2a b -4$."
+    },
+    {
+      "title": "Algebra check",
+      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+    },
+    {
       "title": "Distribute the 2 into the parentheses",
       "content": "$$2 \\times (ab - 3) + 2 = 2ab - 6 + 2$$"
     },
@@ -15,5 +23,6 @@
       "title": "Evaluate each choice",
       "content": "<ul><li><strong>\"$2a b -1$\"</strong>: Combining $-6 + 2$ gives $-4$, not $-1$. Eliminated.</li><li><strong>\"$2a b -4$\"</strong>: This matches $2ab - 4$ exactly. That matches the correct answer — <strong>B</strong> is correct.</li><li><strong>\"$2a b -5$\"</strong>: The constant would need to be $-5$, but it is $-4$. Eliminated.</li><li><strong>\"$2a b -8$\"</strong>: This would follow from $\\left(2\\right)(ab-3) - 2$, not $+2$. Eliminated.</li></ul>"
     }
-  ]
+  ],
+  "section": "Math"
 }

@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Read the shown leg",
       "content": "The segment shown has endpoints $(-6,4)$ and $(3,10)$. Its horizontal change is $3-(-6)=9$, and its vertical change is $10-4=6$."
     },
@@ -14,10 +18,6 @@
     {
       "title": "Use the area",
       "content": "Let the other leg be $x$. The area is $36\\sqrt{13}$, so $$36\\sqrt{13}=\\frac{1}{2}(3\\sqrt{13})x$$ Multiplying by $2$ gives $72\\sqrt{13}=3\\sqrt{13}x$."
-    },
-    {
-      "title": "Solve for the other leg",
-      "content": "Divide by $3\\sqrt{13}$: $$x=\\frac{72\\sqrt{13}}{3\\sqrt{13}}=24$$ The other leg is $24$ units, which matches <strong>Choice B &mdash; $24$</strong>."
     }
   ]
 }

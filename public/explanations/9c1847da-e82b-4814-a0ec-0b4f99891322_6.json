@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+    },
+    {
       "title": "Compute the third side using perimeter",
       "content": "The perimeter is 32 m and two sides are 8 m and 9 m. Let the third side be $x$. Then<br/>$$x = 32 - 8 - 9 = 15$$<br/>So the third side must be 15 meters."
     },

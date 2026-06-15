@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: use the function table",
+      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $27$, so the answer is <strong>$27$</strong>. This is just a one-row lookup, and the arithmetic below confirms the table value."
+    },
+    {
       "title": "Set up",
       "content": "Plug $x = 2$ into $f(x) = x^3 + 19$."
     },
     {
       "title": "Solve",
       "content": "$f(2) = 2^3 + 19 = 8 + 19 = 27$"
-    },
-    {
-      "title": "Answer",
-      "content": "<strong>27</strong> is correct."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $27$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $27$."
     }
   ]
 }

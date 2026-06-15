@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Identify the standard form of a circle equation",
       "content": "The standard form of a circle equation reveals the center and radius directly. If an equation matches this pattern, the center is at $(h,k)$ and the radius is $r$, with no additional work needed.",
       "formula": "$$(x-h)^2 + (y-k)^2 = r^2$$"

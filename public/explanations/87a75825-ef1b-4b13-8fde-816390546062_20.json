@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+    },
+    {
       "title": "Find tan(Y) from the right triangle formed by the altitude",
       "content": "The altitude $WX$ from the right angle vertex $X$ to the hypotenuse $YZ$ creates a right triangle $XWY$ (right angle at $W$). In this triangle:<br/>$$\\tan(Y) = \\frac{WX}{YW} = \\frac{459}{612} = \\frac{3}{4}$$"
     },

@@ -4,6 +4,10 @@
   "correctAnswer": "D",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+    },
+    {
       "title": "Step 1",
       "content": "Triangle $QRS$ has a right angle at $R$. The side $SR = 47$ is the side opposite angle $Q$. Since the right angle is at $R$, the hypotenuse is $QS$. The condition $QR \\lt QS$ confirms $QS$ is the hypotenuse."
     },
@@ -14,10 +18,7 @@
     {
       "title": "Step 3",
       "content": "Solve for $QS$: multiply both sides by $QS$ and divide by $\\sin Q$ to get $QS = \\dfrac{47}{\\sin Q}$."
-    },
-    {
-      "title": "Step 4",
-      "content": "<ul><li><strong>\"$47\\cos Q$\"</strong>: Cosine times a leg gives a shorter segment, not the hypotenuse; incorrect.</li><li><strong>\"$47\\sin Q$\"</strong>: Multiplying by sine shrinks the value below 47, but $QS$ is the hypotenuse and must be the longest side; incorrect.</li><li><strong>\"$\\frac{47}{\\cos Q}$\"</strong>: this would follow from $\\cos Q = 47/QS$, meaning 47 is the adjacent side; but 47 = SR is opposite to $Q$, not adjacent; incorrect.</li><li><strong>\"$\\frac{47}{\\sin Q}$\"</strong>: since $\\sin Q = 47/QS$, rearranging gives $QS = 47/\\sin Q$. That matches the correct answer — <strong>D</strong> is correct.</li></ul>"
     }
-  ]
+  ],
+  "section": "Math"
 }

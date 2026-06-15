@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Use the standard circle equation",
       "content": "A circle with center $(h,k)$ and radius $r$ has equation$$(x-h)^{2}+(y-k)^{2}=r^{2}.$$Here $(h,k)=(-8,6)$ and $r=5$, so $r^{2}=25$."
     },

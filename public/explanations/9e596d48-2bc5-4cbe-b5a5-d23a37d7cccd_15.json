@@ -4,23 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Connect one intersection to tangency",
-      "content": "The line and parabola have exactly one intersection only when the line just touches the parabola. Algebraically, that means setting their $y$-values equal should produce a quadratic with one repeated solution:<br/>$$2x^2-19x+40=x+a$$<br/>$$2x^2-20x+(40-a)=0$$<br/>A quadratic has one repeated solution when its discriminant is $0$."
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$y = 2x^2 - 19x + 40$$<br/>$$y = x + a$$<br/>You do not need to solve or rearrange them first."
     },
     {
-      "title": "Find the line and graph it",
-      "content": "Set the discriminant equal to $0$:<br/>$$(-20)^2-4(2)(40-a)=0$$<br/>$$400-320+8a=0$$<br/>$$80+8a=0$$<br/>$$a=-10$$ The actual line is therefore $y=x-10$, not $y=x+5$. Graphing $y=2x^2-19x+40$ and $y=x-10$ shows the line just touches the parabola at one point.",
-      "desmosExpressions": [
-        "y = 2x^2 - 19x + 40",
-        "y = x - 10"
-      ]
+      "title": "Read the x-coordinate",
+      "content": "Click the intersection point and read the x-coordinate. It matches <strong>C</strong>, 5."
     },
     {
-      "title": "Confirm the x-value",
-      "content": "Substitute $a=-10$ into the intersection equation:<br/>$$2x^2-20x+50=0$$<br/>Divide by $2$: $$x^2-10x+25=0$$<br/>$$(x-5)^2=0$$<br/>So the single intersection has $x=5$. That confirms <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "(5,-5)"
-      ]
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

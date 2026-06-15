@@ -4,6 +4,14 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest check: compare a table or graph",
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $y=7\\left(x-\\frac{b}{14}\\right)^{2}-6-\\frac{b^{2}}{28}$."
+    },
+    {
+      "title": "Algebra check",
+      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+    },
+    {
       "title": "Pick a convenient positive value for b",
       "content": "The answer must work for any positive constant $b$, so test a simple legal value such as $b=14$. The original becomes $y=7x^2-14x-6$."
     },

@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Convert radians to degrees and locate the angle",
       "content": "To find $\\sin(B)$ where $B = \\frac{3\\pi}{4}$ radians, first convert to degrees: $\\frac{3\\pi}{4} \\text{ radians} = \\frac{3}{4} \\times 180^{\\circ} = 135^{\\circ}$.<br/><br/>The angle $135^{\\circ}$ lies in the second quadrant, between $90^{\\circ}$ and $180^{\\circ}$, where sine is positive."
     },

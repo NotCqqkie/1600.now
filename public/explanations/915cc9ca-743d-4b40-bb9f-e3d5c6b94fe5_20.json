@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Calculate the side length from the perimeter",
       "content": "Since the equilateral triangle has perimeter 876 cm and all three sides are equal:<br/>$$s = \\frac{876}{3} = 292 \\text{ cm}$$"
     },

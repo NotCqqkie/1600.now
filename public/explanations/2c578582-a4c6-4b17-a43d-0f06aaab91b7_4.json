@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Set up",
       "content": "Density = mass &divide; volume. Substitute the given values: $$\\text{density} = \\frac{308}{28}$$"
     },
@@ -14,10 +18,6 @@
     {
       "title": "Answer",
       "content": "<strong>A</strong> is correct."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches the correct answer, 11. The other choices do not satisfy the same condition from the question, so <strong>A</strong> is correct."
     }
   ]
 }

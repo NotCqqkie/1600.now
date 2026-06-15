@@ -4,6 +4,13 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$${x}^{2}= \\left(22\\right) \\left(22\\right)$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is $22$.",
+      "desmosExpressions": [
+        "{x}^{2}= \\left(22\\right) \\left(22\\right)"
+      ]
+    },
+    {
       "title": "Recognize the square",
       "content": "The right side is $(22)(22)=22^2$, so the equation is $$x^2=22^2.$$"
     },

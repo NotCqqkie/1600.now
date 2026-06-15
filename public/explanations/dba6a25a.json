@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Use similar triangles to find CA",
       "content": "Since $\\overline{BD} \\parallel \\overline{AE}$, triangles $CBD$ and $CAE$ are similar by AA similarity (they share angle $C$, and corresponding angles are equal). The similarity ratio is:<br/>$$\\frac{BD}{AE} = \\frac{6}{18} = \\frac{1}{3}$$<br/>From this ratio, corresponding sides are proportional:<br/>$$\\frac{CB}{CA} = \\frac{1}{3}$$<br/>Since $CB = 8$:<br/>$$\\frac{8}{CA} = \\frac{1}{3} \\implies CA = 24$$"
     },

@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Identify the center from the circle equation",
       "content": "The equation $(x - a)^2 + (y - 17)^2 = r^2$ is in standard form. The center is $(a, 17)$."
     },

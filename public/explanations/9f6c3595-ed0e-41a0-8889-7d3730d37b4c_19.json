@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Set up",
       "content": "A 60&deg; arc is $\\frac{60}{360} = \\frac{1}{6}$ of the full circle, so arc length = $\\frac{1}{6} \\cdot C$. Set that equal to 4: $$4 = \\frac{1}{6} \\cdot C$$"
     },

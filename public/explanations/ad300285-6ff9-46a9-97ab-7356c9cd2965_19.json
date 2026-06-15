@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Use the circle equation form",
       "content": "A circle with center $(h,k)$ and radius $r$ has equation $$(x-h)^2+(y-k)^2=r^2.$$"
     },
@@ -14,14 +18,6 @@
     {
       "title": "Square the radius",
       "content": "$(7k)^2=49k^2$, so the equation is $$(x-16)^2+(y-17)^2=49k^2.$$"
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "This matches <strong>B</strong>."
-    },
-    {
-      "title": "Avoid the radius-squared trap",
-      "content": "The right side of a circle equation is the radius squared. Since the radius is $7k$, the right side is $(7k)^2=49k^2$, not $7k$ or $49k$."
     }
   ]
 }

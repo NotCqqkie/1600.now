@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Identify the relationship between the inscribed square and circle",
       "content": "When a square is inscribed in a circle, all four vertices touch the circle. The key insight: the diagonal of the square equals the diameter of the circle, since the diagonal passes through the center.<br/><br/>The diameter is:<br/>$$D = 2r = 2 \\cdot \\frac{20\\sqrt{2}}{2} = 20\\sqrt{2}$$"
     },

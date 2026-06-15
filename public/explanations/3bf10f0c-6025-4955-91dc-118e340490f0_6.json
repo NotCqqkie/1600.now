@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Complete the square to find the radius",
       "content": "Starting with $x^2 - 6x + y^2 - 12y - 36 = 0$, rearrange to get $x^2 - 6x + y^2 - 12y = 36$.<br/><br/>Complete the square for each variable:<br/>$$(x^2 - 6x + 9) + (y^2 - 12y + 36) = 36 + 9 + 36$$<br/>$$(x-3)^2 + (y-6)^2 = 81$$<br/>The circle has radius $r = 9$."
     },

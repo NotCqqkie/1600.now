@@ -4,6 +4,13 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$(x + 2) \\times (x + 3) = (x -2) \\times (x -3) + 10$$Graph or solve it directly and read the x-value that works. The requested value is $1$.",
+      "desmosExpressions": [
+        "(x + 2) \\times (x + 3) = (x -2) \\times (x -3) + 10"
+      ]
+    },
+    {
       "title": "Expand both sides",
       "content": "Expand the products: $$(x+2)(x+3)=x^2+5x+6$$ and $$(x-2)(x-3)+10=x^2-5x+6+10=x^2-5x+16.$$"
     },
@@ -18,10 +25,6 @@
         "y=(x+2)(x+3)",
         "y=(x-2)(x-3)+10"
       ]
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "The solution $x=1$ matches <strong>A</strong>. The other listed values do not make the two sides equal when substituted into the original equation."
     }
   ]
 }

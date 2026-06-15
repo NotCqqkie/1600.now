@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Extract center and radius from circle A",
       "content": "From the standard form $(x - h)^2 + (y - k)^2 = r^2$, the equation $(x - 2)^2 + (y - 3)^2 = 9$ tells us:<ul><li>Center: $(2, 3)$</li><li>Radius: $r_A = \\sqrt{9} = 3$</li></ul>"
     },

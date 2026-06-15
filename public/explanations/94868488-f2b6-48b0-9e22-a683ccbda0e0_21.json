@@ -1,18 +1,23 @@
 {
   "steps": [
     {
-      "explanation": "Need to convert 310 ft&sup2;/hr to m&sup2;/min. Two conversions needed: length (feet to meters) applied twice for area, and time (hours to minutes)."
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
     },
     {
-      "explanation": "Area conversion: 1 m = 3.28 ft, so 1 m&sup2; = (3.28)&sup2; ft&sup2; = 10.7584 ft&sup2;. Time: 1 hr = 60 min."
+      "title": "Explanation",
+      "content": "Need to convert 310 ft&sup2;/hr to m&sup2;/min. Two conversions needed: length (feet to meters) applied twice for area, and time (hours to minutes)."
     },
     {
-      "explanation": "310 ft&sup2;/hr &times; (1 m&sup2; / 10.7584 ft&sup2;) &times; (1 hr / 60 min) = 310 / (10.7584 &times; 60) = 310 / 645.504 &asymp; 0.48 m&sup2;/min."
+      "title": "Explanation",
+      "content": "Area conversion: 1 m = 3.28 ft, so 1 m&sup2; = (3.28)&sup2; ft&sup2; = 10.7584 ft&sup2;. Time: 1 hr = 60 min."
     },
     {
-      "explanation": "<ul><li>A: 28.81 &mdash; this is 310/10.7584 without the hour-to-minute conversion.</li><li>B: 1.58 &mdash; does not match any correct intermediate.</li><li>C: 16.95 &mdash; result of an incorrect conversion factor.</li><li>D: 0.48 &mdash; matches the fully converted rate above.</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Explanation",
+      "content": "310 ft&sup2;/hr &times; (1 m&sup2; / 10.7584 ft&sup2;) &times; (1 hr / 60 min) = 310 / (10.7584 &times; 60) = 310 / 645.504 &asymp; 0.48 m&sup2;/min."
     }
   ],
   "correctAnswer": "D",
-  "questionId": "94868488-f2b6-48b0-9e22-a683ccbda0e0_21"
+  "questionId": "94868488-f2b6-48b0-9e22-a683ccbda0e0_21",
+  "section": "Math"
 }

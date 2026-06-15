@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Find cos(A) and determine angle A",
       "content": "In right triangle ABC with right angle at C, use the cosine ratio with AC = 19 (adjacent to angle A) and AB = 38 (hypotenuse): $$\\cos(A) = \\frac{19}{38} = \\frac{1}{2}$$ This is the cosine of a special angle: $\\cos(60^{\\circ}) = \\frac{1}{2}$, so $A = 60^{\\circ}$."
     },

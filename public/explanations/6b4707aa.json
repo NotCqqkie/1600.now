@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Identify the radius of circle A",
       "content": "The equation of circle A is $(x+5)^2 + (y-5)^2 = 25$. This is in standard form $(x-h)^2 + (y-k)^2 = r^2$, where the right side equals $r_A^2$. Therefore $r_A^2 = 25$, giving us $r_A = 5$."
     },

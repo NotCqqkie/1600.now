@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Recognize the standard form of a circle",
       "content": "The equation is in the standard form of a circle, where the right side equals $r^2$ (the square of the radius), not the radius itself."
     },

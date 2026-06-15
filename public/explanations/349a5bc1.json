@@ -4,6 +4,13 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$4x+5=165$$Graph or solve it directly and read the x-value that works. The requested value is $40$.",
+      "desmosExpressions": [
+        "4x+5=165"
+      ]
+    },
+    {
       "title": "Undo the addition",
       "content": "Start with $4x+5=165$. Subtract $5$ from both sides so the term with $x$ is alone: $$4x=160.$$"
     },

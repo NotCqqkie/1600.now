@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Set up",
       "content": "Two chords AC and BE intersect at D inside the circle. The intersecting chords theorem gives $AD \\cdot DC = BD \\cdot DE$. Since $BD = DE = \\sqrt{398}$, the right side is $\\sqrt{398} \\cdot \\sqrt{398} = 398$, so $AD \\cdot DC = 398$.<br/><br/>Because $BD = DE$, point D is the midpoint of chord BE. The perpendicular from the center to a chord bisects it, so AC &mdash; which is perpendicular to BE at D &mdash; passes through the center, making AC a diameter: $AD + DC = 201$."
     },

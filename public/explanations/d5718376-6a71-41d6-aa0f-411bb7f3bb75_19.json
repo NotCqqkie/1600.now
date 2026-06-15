@@ -4,16 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set the equations equal",
-      "content": "Set the right sides equal: $$x+15=5x \\;\\Rightarrow\\; 4x=15 \\;\\Rightarrow\\; x=\\tfrac{15}{4}.$$"
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$y=x+15$$<br/>$$y=5x$$<br/>You do not need to solve or rearrange them first.",
+      "desmosExpressions": [
+        "y=x+15",
+        "y=5x"
+      ]
     },
     {
-      "title": "Count the intersection points",
-      "content": "The lines have different slopes, so they meet at exactly one point. That matches the correct answer — <strong>B</strong> is correct."
+      "title": "Read the number of intersections",
+      "content": "The graphs show $1$ intersection point(s), so the matching answer is <strong>B</strong>, 1."
     },
     {
-      "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above is 1, and the other choices fail the same setup or substitution. Therefore <strong>B</strong> is correct."
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

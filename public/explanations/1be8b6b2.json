@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Extract the radius from the base area",
       "content": "The base area of the cone is $\\pi r^2 = 5,929\\pi$. Dividing both sides by $\\pi$ gives $r^2 = 5,929$. Taking the square root: $r = \\sqrt{5,929} = 77$ cm (since $77^2 = 5,929$)."
     },

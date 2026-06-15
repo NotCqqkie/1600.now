@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the circle facts first: radii are equal, a diameter sets up a right angle, a tangent is perpendicular to the radius, and central/inscribed angles connect to arcs."
+    },
+    {
       "title": "Reduce by full rotations",
       "content": "Cosine repeats every $2\\pi$. Since $$\\frac{565\\pi}{6}=\\frac{564\\pi}{6}+\\frac{\\pi}{6}=47(2\\pi)+\\frac{\\pi}{6},$$ the angle is coterminal with $\\frac{\\pi}{6}$."
     },

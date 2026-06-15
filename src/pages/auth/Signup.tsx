@@ -1,12 +1,12 @@
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import { getPostAuthReturnTo } from "@/components/auth/authReturnPath";
 import { BrandLogo } from "@/components/brand/BrandLogo";
 import { useAuth } from "@/contexts/AuthContext";
-import { getAuthReturnTo } from "@/components/auth/AuthReturnTracker";
 import { useToast } from "@/hooks/use-toast";
 import { describeAuthError } from "@/lib/firebase/authErrors";
 import { ArrowUpRight, BookOpenCheck, Calculator, Loader2, Target, TrendingUp } from "lucide-react";
@@ -55,6 +55,7 @@ const Signup = () => {
   const { signInWithGoogle, signUpWithEmailPassword, user, loading: authLoading, redirectError, clearRedirectError } = useAuth();
   const navigate = useNavigate();
   const { toast } = useToast();
+  const postAuthReturnToRef = useRef<string | null>(null);
 
   const emailIssue = getEmailIssue(email);
   const passwordIssue = getPasswordIssue(password);
@@ -66,8 +67,8 @@ const Signup = () => {
     if (!user.emailVerified) navigate("/verify-email", { replace: true });
     else {
       sessionStorage.setItem("onboarding-pending", "1");
-      const stored = getAuthReturnTo();
-      navigate(stored === "/" ? "/bank" : stored, { replace: true });
+      postAuthReturnToRef.current ??= getPostAuthReturnTo();
+      navigate(postAuthReturnToRef.current, { replace: true });
     }
   }, [user, authLoading, navigate]);
 

@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Use the area scale factor for similar figures",
       "content": "When linear dimensions scale by a factor of $k$, areas scale by $k^2$. Since the side of square M is 9 times the side of square N, the area of square M is $9^2 = 81$ times the area of square N."
     },

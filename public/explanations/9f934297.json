@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Apply the surface area formula for a rectangular prism",
       "content": "A rectangular prism has six faces in three distinct pairs. We sum the area of each pair and multiply by 2:<br/><br/>Calculate each distinct face area with $l = 28$ cm, $w = 15$ cm, and $h = 16$ cm:<br/>$$lw = 28 \\times 15 = 420$$$$lh = 28 \\times 16 = 448$$$$wh = 15 \\times 16 = 240$$",
       "formula": "$$SA = 2(lw + lh + wh)$$"

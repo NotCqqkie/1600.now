@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Factor the legs and apply the Pythagorean theorem",
       "content": "Notice that both legs have a factor of 3: $24 = 3(8)$ and $21 = 3(7)$. Using the Pythagorean theorem:<br/>$$c^2 = 24^2 + 21^2 = [3(8)]^2 + [3(7)]^2$$"
     },

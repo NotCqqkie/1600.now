@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+    },
+    {
       "title": "Recall the property of similar figures",
       "content": "When two figures are similar, their corresponding angles are equal. This is true regardless of the scale factor between them. The problem states that quadrilateral $P'Q'R'S'$ is similar to quadrilateral $PQRS$, with $P$ corresponding to $P'$, $Q$ to $Q'$, $R$ to $R'$, and $S$ to $S'$."
     },

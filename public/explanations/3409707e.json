@@ -4,16 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the repeated expression",
-      "content": "The first equation says $x+y=125$. The second equation is $x+y+y=155$, which is the same as $(x+y)+y=155$."
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$x+y=125$$<br/>$$x+y+y=155$$<br/>You do not need to solve or rearrange them first.",
+      "desmosExpressions": [
+        "x+y=125",
+        "x+y+y=155"
+      ]
     },
     {
-      "title": "Substitute instead of solving the whole system",
-      "content": "Replace $x+y$ in the second equation with $125$: $$125+y=155.$$ Subtract $125$ from both sides to get $$y=30.$$"
+      "title": "Read the y-coordinate",
+      "content": "Click the intersection point and read the y-coordinate. It matches <strong>$30$</strong>."
     },
     {
-      "title": "Confirm the answer",
-      "content": "The value of $y$ is <strong>30</strong>. This method is faster than finding both coordinates because the question only asks for $y$."
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

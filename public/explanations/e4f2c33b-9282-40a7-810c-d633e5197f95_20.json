@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Use unit circle coordinates to find sine and cosine",
       "content": "On a unit circle, a point at angle $\\theta$ from the positive $x$-axis has coordinates $(\\cos\\theta, \\sin\\theta)$.<br/><br/>Point $A = (1,0)$ is at angle $0$. Point $B = \\left(\\frac{5}{\\sqrt{34}}, -\\frac{3}{\\sqrt{34}}\\right)$ is on the unit circle.<br/><br/>If angle $p$ is the angle from ray $OA$ to ray $OB$ (counterclockwise positive), then $B$ is located at angle $p$, so by the unit circle property:<br/>$$\\cos p = \\frac{5}{\\sqrt{34}} \\quad \\text{and} \\quad \\sin p = -\\frac{3}{\\sqrt{34}}$$"
     },

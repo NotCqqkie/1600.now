@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Read the graph at 200 kelvins",
       "content": "The question asks for the estimated volume when the temperature is $200$ kelvins. Locate $x=200$ on the horizontal axis, then move to the graph and read the corresponding $y$-value."
     },
     {
       "title": "Read the volume",
       "content": "At $x=200$, the graph shows $y=9$. Since $y$ is measured in liters, the estimated volume is $9$ liters."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The estimated volume at $200$ kelvins is $9$ liters, which matches <strong>B</strong>."
     }
   ]
 }

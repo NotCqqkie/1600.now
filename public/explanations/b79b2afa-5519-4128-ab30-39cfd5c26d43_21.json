@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Set up the trigonometric ratio from the right triangle",
       "content": "In the right triangle, $\\theta$ is at the base with the height (28.4 inches) opposite to it and the horizontal distance $x$ adjacent to it. Using the tangent ratio: $$\\tan \\theta = \\frac{28.4}{x}$$",
       "formula": "$$\\tan \\theta = \\frac{\\text{opposite}}{\\text{adjacent}}$$"

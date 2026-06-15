@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: try the choices",
+      "content": "Because the choices give possible solutions, plug them into the equation instead of solving from scratch. The only choice that satisfies the equation is <strong>D</strong>, $-6+2\\sqrt{19}$."
+    },
+    {
       "title": "Solve the quadratic",
       "content": "This is a quadratic equation, so the goal is to find its roots. The quadratic formula is a direct way to solve it when simple factoring is not the focus. Apply the quadratic formula with $a=1, b=12, c=-40$: $$w=\\frac{-12\\pm\\sqrt{144+160}}{2}=\\frac{-12\\pm\\sqrt{304}}{2}.$$ Since $\\sqrt{304}=4\\sqrt{19}$, $w=-6\\pm 2\\sqrt{19}$."
     },

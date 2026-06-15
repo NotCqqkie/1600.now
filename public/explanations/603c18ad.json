@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Find angle Y in the sub-triangle",
       "content": "Point $W$ on hypotenuse $YZ$ creates right triangle $XWY$ with a right angle at $W$ (since $WX \\perp YZ$).<br/><br/>In this right triangle, the angle at $Y$ is the same as $\\angle XYZ$ in the original triangle.<br/><br/>Therefore:\n$$\\tan(\\angle Y) = \\frac{\\text{opposite}}{\\text{adjacent}} = \\frac{WX}{WY} = \\frac{429}{572}$$ Both values share a common factor: $429 = 3 \\times 143$ and $572 = 4 \\times 143$.<br/><br/>So:\n$$\\tan(\\angle Y) = \\frac{3 \\times 143}{4 \\times 143} = \\frac{3}{4}$$"
     },

@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Find the semicircle radius",
       "content": "Since $K$ is the midpoint of $\\overline{JL}$ and $JK=13$, then $KL=13$ and $JL=26$. Point $L$ is the center of the semicircle, so $LM$ is a radius and $JM$ is a diameter. Because $JM=JL+LM$, $$2r=26+r,$$ so $r=26$."
     },
@@ -14,10 +18,6 @@
     {
       "title": "Add the semicircle area",
       "content": "The semicircle area is $$\\frac{1}{2}\\pi(26)^2=338\\pi.$$ Therefore the total area is $$546+338\\pi.$$"
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "$546+338\\pi$ matches <strong>Choice C &mdash; $546 + 338\\pi$</strong>. The choices with $676\\pi$ use the full circle area instead of the semicircle area."
     }
   ]
 }

@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Apply the cylinder volume formula",
       "content": "The volume of a cylinder is $V = \\pi r^2 h$. Substituting the given values $V = 45\\pi$ and $h = 5$:<br/>$$45\\pi = \\pi r^2(5)$$"
     },

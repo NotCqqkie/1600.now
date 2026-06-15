@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Convert cubic meters to cubic centimeters",
       "content": "Since $1\\text{ m} = 100\\text{ cm}$, one cubic meter equals $(100)^3 = 1{,}000{,}000\\text{ cm}^3$.$$0.84\\text{ m}^3 = 0.84 \\times 1{,}000{,}000 = 840{,}000\\text{ cm}^3$$"
     },

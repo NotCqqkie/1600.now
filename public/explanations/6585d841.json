@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Rearrange and complete the square",
       "content": "Rearrange to collect <em>x</em> and <em>y</em> terms on the left:<br/>$$x^2 + 14x + y^2 - 6y = 109$$<br/>Complete the square for <em>x</em>: Since the coefficient of <em>x</em> is 14, take half and square: $(14/2)^2 = 49$.<br/>$$x^2 + 14x = (x+7)^2 - 49$$<br/>Complete the square for <em>y</em>: Since the coefficient of <em>y</em> is $-6$, take half and square: $(-6/2)^2 = 9$.<br/>$$y^2 - 6y = (y-3)^2 - 9$$"
     },

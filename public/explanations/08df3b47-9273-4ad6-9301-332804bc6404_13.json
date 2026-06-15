@@ -4,12 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set equations equal and simplify",
-      "content": "At an intersection point, both equations yield the same $y$-value. Set them equal:\n$$x^2 + 16x + 8 = x + 8$$\nSubtract $x + 8$ from both sides:\n$$x^2 + 15x = 0$$"
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$y = x^2 + 16x + 8$$<br/>$$y = x + 8$$<br/>You do not need to solve or rearrange them first.",
+      "desmosExpressions": [
+        "y = x^2 + 16x + 8",
+        "y = x + 8"
+      ]
     },
     {
-      "title": "Factor and identify the answer",
-      "content": "Factor out $x$:\n$$x(x + 15) = 0$$\nThis gives $x = 0$ or $x = -15$. Since $-15$ is one of the available choices, that matches <strong>Choice A &mdash; $-15$</strong>."
+      "title": "Read the x-coordinate",
+      "content": "Click the intersection point and read the x-coordinate. It matches <strong>A</strong>, $-15$."
+    },
+    {
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

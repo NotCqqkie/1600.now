@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+    },
+    {
       "title": "Identify base angles in isosceles triangle",
       "content": "Since $AB = AC$, triangle $ABC$ is isosceles. In an isosceles triangle, the angles opposite the equal sides are equal. The sides $AB$ and $AC$ are equal, so the angles at $B$ and $C$ (the base angles) must be equal.<br/><br/>Therefore: $\\angle ABC = \\angle ACB = 67^{\\circ}$"
     },

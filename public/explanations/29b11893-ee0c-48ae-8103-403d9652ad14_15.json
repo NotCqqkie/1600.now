@@ -4,6 +4,13 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$p(x)=2x^{2}+20x+15$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is $-35$.",
+      "desmosExpressions": [
+        "p(x)=2x^{2}+20x+15"
+      ]
+    },
+    {
       "title": "Find the vertex x-coordinate",
       "content": "For any quadratic $ax^2 + bx + c$, the vertex (minimum when $a \\gt  0$) is at $x = -\\frac{b}{2a}$. For $p(x) = 2x^2 + 20x + 15$: $$x = -\\frac{20}{2(2)} = -\\frac{20}{4} = -5.$$"
     },

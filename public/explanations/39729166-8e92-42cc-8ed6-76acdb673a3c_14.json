@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+    },
+    {
       "title": "Apply the height formula for equilateral triangles",
       "content": "For an equilateral triangle with side $s$, the height formula is $h = \\frac{s\\sqrt{3}}{2}$.<br/><br/>With height $h = 49\\sqrt{3}$, substitute to get:<br/>$$49\\sqrt{3} = \\frac{s\\sqrt{3}}{2}$$"
     },

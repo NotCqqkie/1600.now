@@ -4,13 +4,25 @@
   "correctAnswer": "B",
   "steps": [
     {
+      "title": "Fastest check: compare a table or graph",
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $10\\left(x^2 + 13\\right)$."
+    },
+    {
+      "title": "Algebra check",
+      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+    },
+    {
+      "title": "Explanation",
       "content": "Find the greatest common factor (GCF) of both terms. $10x^2$ has factors $1, 2, 5, 10$; $130$ has factors $1, 2, 5, 10, 13, \\ldots$ The GCF is $10$. Factor it out: $$10x^2 + 130 = 10(x^2 + 13)$$"
     },
     {
+      "title": "Explanation",
       "content": "Verify by distributing back: $\\left(10\\right)(x^2 + 13) = 10x^2 + 130$. Correct."
     },
     {
+      "title": "Explanation",
       "content": "Evaluate all choices:<ul><li><strong>A: $10\\left(13x^2\\right)$</strong> &mdash; Distributing gives $130x^2$, which is not the original expression. Incorrect.</li><li><strong>B: $10\\left(x^2 + 13\\right)$</strong> &mdash; Distributing gives $10x^2 + 130$, which matches exactly. That matches the correct answer — <strong>B</strong> is correct.</li><li><strong>C: $130\\left(10x^2\\right)$</strong> &mdash; Distributing gives $1300x^2$, completely different. Incorrect.</li><li><strong>D: $130\\left(10x^2 + 1\\right)$</strong> &mdash; Distributing gives $1300x^2 + 130$, which adds a wrong coefficient on $x^2$. Incorrect.</li></ul>"
     }
-  ]
+  ],
+  "section": "Math"
 }

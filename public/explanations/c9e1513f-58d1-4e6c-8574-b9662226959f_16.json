@@ -4,12 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the elimination strategy",
-      "content": "Notice that the first equation has $+5y$ and the second has $-5y$. Adding these equations will eliminate $y$, leaving us with a simple equation in $x$."
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$x + 5y = 5$$<br/>$$x - 5y = 3$$<br/>You do not need to solve or rearrange them first.",
+      "desmosExpressions": [
+        "x + 5y = 5",
+        "x - 5y = 3"
+      ]
     },
     {
-      "title": "Add the equations and solve for x",
-      "content": "Add the two equations together:<br/>$$x + 5y = 5$$<br/>$$x - 5y = 3$$<br/>The sum gives:<br/>$$2x = 8$$<br/>Dividing both sides by 2:<br/>$$x = 4$$<br/>That is the correct answer."
+      "title": "Read the x-coordinate",
+      "content": "Click the intersection point and read the x-coordinate. It matches <strong>B</strong>, 4."
+    },
+    {
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

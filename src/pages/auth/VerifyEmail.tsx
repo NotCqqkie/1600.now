@@ -1,6 +1,7 @@
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+import { getPostAuthReturnTo } from "@/components/auth/authReturnPath";
 import { BrandLogo } from "@/components/brand/BrandLogo";
 import { useAuth } from "@/contexts/AuthContext";
 import { useToast } from "@/hooks/use-toast";
@@ -14,27 +15,33 @@ const VerifyEmail = () => {
   const [checking, setChecking] = useState(false);
   const [cooldown, setCooldown] = useState(30);
   const pollRef = useRef<number | null>(null);
+  const postAuthReturnToRef = useRef<string | null>(null);
+  const getVerifiedDestination = useCallback(() => {
+    postAuthReturnToRef.current ??= getPostAuthReturnTo();
+    return postAuthReturnToRef.current;
+  }, []);
+
   useEffect(() => {
     if (loading) return;
     if (!user) navigate("/login", { replace: true });
     else if (user.emailVerified) {
       sessionStorage.setItem("onboarding-pending", "1");
-      navigate("/bank", { replace: true });
+      navigate(getVerifiedDestination(), { replace: true });
     }
-  }, [user, loading, navigate]);
+  }, [user, loading, navigate, getVerifiedDestination]);
   useEffect(() => {
     pollRef.current = window.setInterval(async () => {
       const verified = await reloadUser();
       if (verified) {
         if (pollRef.current) window.clearInterval(pollRef.current);
         sessionStorage.setItem("onboarding-pending", "1");
-        navigate("/bank", { replace: true });
+        navigate(getVerifiedDestination(), { replace: true });
       }
     }, 4000);
     return () => {
       if (pollRef.current) window.clearInterval(pollRef.current);
     };
-  }, [reloadUser, navigate]);
+  }, [reloadUser, navigate, getVerifiedDestination]);
   useEffect(() => {
     if (cooldown <= 0) return;
     const timerId = window.setTimeout(() => setCooldown((currentCooldown) => currentCooldown - 1), 1000);
@@ -61,7 +68,7 @@ const VerifyEmail = () => {
       const verified = await reloadUser();
       if (verified) {
         sessionStorage.setItem("onboarding-pending", "1");
-        navigate("/bank", { replace: true });
+        navigate(getVerifiedDestination(), { replace: true });
       } else {
         toast({ title: "Not verified yet", description: "Click the link in your email, then try again." });
       }

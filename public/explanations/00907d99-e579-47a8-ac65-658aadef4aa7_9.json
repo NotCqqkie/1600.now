@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Extract circle F's radius from its equation",
       "content": "The equation $(x + 7)^2 + (y + 7)^2 = 36$ is in standard form $(x - h)^2 + (y - k)^2 = r^2$. The right side equals $r_F^2 = 36$, so the radius of circle F is $r_F = \\sqrt{36} = 6$."
     },

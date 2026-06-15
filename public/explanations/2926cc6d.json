@@ -4,6 +4,13 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$\\left(5x+4\\right) \\left(2x-5\\right)=0$$Graph or solve it directly and read the x-value that works. The requested value is $-\\frac{4}{5}$.",
+      "desmosExpressions": [
+        "\\left(5x+4\\right) \\left(2x-5\\right)=0"
+      ]
+    },
+    {
       "title": "Use the zero-product shortcut",
       "content": "The product $(5x+4)(2x-5)$ equals $0$, so at least one factor must equal $0$."
     },

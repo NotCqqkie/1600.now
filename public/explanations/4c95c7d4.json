@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Determine the side length from the perimeter constraint",
       "content": "The trapezoid is formed by three congruent equilateral triangles: two pointing upward (shaded) at the bottom corners, and one pointing downward (unshaded) in the middle. Let each equilateral triangle have side length $s$.<br/><br/>The trapezoid's perimeter consists of:<ul><li>Bottom edge: $2s$ (spanning the bases of both upward triangles)</li><li>Left edge: $s$ (left side of the left triangle)</li><li>Top edge: $s$ (the span between the two upward peaks)</li><li>Right edge: $s$ (right side of the right triangle)</li></ul>Therefore:<br/>$$5s = 20$$<br/>$$s = 4 \\text{ cm}$$"
     },

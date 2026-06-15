@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Set up",
       "content": "Right triangle ABC has a right angle at B, hypotenuse $AC = 90$, and $\\tan(\\angle C) = \\frac{3}{4}$. Since $\\tan(C) = \\frac{\\text{opposite}}{\\text{adjacent}} = \\frac{AB}{BC}$, write $AB = 3m$ and $BC = 4m$."
     },

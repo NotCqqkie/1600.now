@@ -4,16 +4,19 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$\\frac{25x}{x^2-25}=\\frac{x}{x-5}+\\frac{20}{x+5}$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is $10$.",
+      "desmosExpressions": [
+        "\\frac{25x}{x^2-25}=\\frac{x}{x-5}+\\frac{20}{x+5}"
+      ]
+    },
+    {
       "title": "Solve the equation",
       "content": "Multiply both sides by $x^2-25=(x-5)(x+5)$: $$25x=x(x+5)+20(x-5).$$ Simplify to $x^2=100$, so $x=\\pm 10$."
     },
     {
       "title": "Identify the positive solution",
       "content": "Take the positive root (and check it doesn't make a denominator zero). The answer is <strong>10</strong>."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "As a final check, make sure the computed value answers exactly what the question asks for. The work above gives $10$; substituting or interpreting it in the original condition satisfies the requirement, so $10$ is the value to enter."
     }
   ]
 }

@@ -4,6 +4,13 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$f \\left(x\\right)=4{x}^{2}-50x+126$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is $25/4$.",
+      "desmosExpressions": [
+        "f \\left(x\\right)=4{x}^{2}-50x+126"
+      ]
+    },
+    {
       "title": "Recognize the parabola opens upward with minimum at its vertex",
       "content": "The function $f(x) = 4x^2 - 50x + 126$ has leading coefficient $a = 4 \\gt 0$. Since the parabola opens upward, its minimum value occurs at the vertex. We need the x-coordinate of this vertex."
     },

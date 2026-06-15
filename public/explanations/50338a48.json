@@ -3,6 +3,14 @@
   "questionId": "50338a48",
   "steps": [
     {
+      "title": "Fastest check: compare a table or graph",
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $w \\left(15w+8\\right)$."
+    },
+    {
+      "title": "Algebra check",
+      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+    },
+    {
       "title": "Step 1",
       "content": "Identify the greatest common factor (GCF) of 15w\\u00b2 and 8w: both terms share a factor of w."
     },
@@ -13,12 +21,9 @@
     {
       "title": "Step 3",
       "content": "Verify by distributing: w \\u00b7 15w = 15w\\u00b2 and w \\u00b7 8 = 8w. Sum is 15w\\u00b2 + 8w. \\u2713"
-    },
-    {
-      "title": "Step 4",
-      "content": "Match to the answer choices."
     }
   ],
   "choiceAnalysis": "<ul><li><strong>Choice A — $w \\left(15w+8\\right)$</strong>: Distributing gives 15w\\u00b2 + 8w, which matches the original expression exactly. &#10003;</li><li><strong>Choice B — $8w \\left(15w+1\\right)$</strong>: Distributing gives 120w\\u00b2 + 8w, which does not equal 15w\\u00b2 + 8w. &#10007;</li><li><strong>Choice C — $15{w}^{2} \\left(8w+1\\right)$</strong>: Distributing gives 120w\\u00b3 + 15w\\u00b2, which changes both the degree and the coefficients. &#10007;</li><li><strong>Choice D — $23 \\left({w}^{2}+w\\right)$</strong>: Distributing gives 23w\\u00b2 + 23w, which does not match; 23 is not a factor of 15w\\u00b2 + 8w. &#10007;</li></ul><strong>A</strong> is correct.",
-  "correctAnswer": "A"
+  "correctAnswer": "A",
+  "section": "Math"
 }

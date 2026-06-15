@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: use the function table",
+      "content": "Enter the function in Desmos or a calculator table and scan for the row with the output named in the question. The input that works gives <strong>B</strong>, $9$. This is just a table lookup, and the arithmetic below confirms the same value."
+    },
+    {
       "title": "Set the function equal to 72",
       "content": "The function is $f(x)=8x$. If $f(x)=72$, then $$8x=72$$"
     },
     {
       "title": "Solve for x",
       "content": "Divide by $8$: $$x=9$$"
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "The correct answer is $9$, so <strong>B</strong> is correct."
-    },
-    {
-      "title": "Verify by substitution",
-      "content": "Plugging $x=9$ back into the function gives $f(9)=8(9)=72$. That matches the required output, while the other choices would give different function values."
     }
   ]
 }

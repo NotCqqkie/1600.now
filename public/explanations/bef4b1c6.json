@@ -4,6 +4,13 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$\\frac{55}{x+6}=x$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is $5$.",
+      "desmosExpressions": [
+        "\\frac{55}{x+6}=x"
+      ]
+    },
+    {
       "title": "Clear the denominator",
       "content": "Start with $$\\frac{55}{x+6}=x.$$ Since the positive solution will not make $x+6=0$, multiply both sides by $x+6$: $$55=x(x+6).$$"
     },

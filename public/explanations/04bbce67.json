@@ -4,6 +4,13 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$f \\left(x\\right)={ \\left(x+7\\right)}^{2}+4$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is $-7$.",
+      "desmosExpressions": [
+        "f \\left(x\\right)={ \\left(x+7\\right)}^{2}+4"
+      ]
+    },
+    {
       "title": "Recognize vertex form",
       "content": "$f(x) = (x+7)^2 + 4$ is in vertex form $a(x-h)^2 + k$ with $a = 1$, $h = -7$, $k = 4$."
     },

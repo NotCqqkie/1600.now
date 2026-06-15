@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Identify the right triangle setup",
       "content": "The right angle is at P (shown by the square). The 30° angle is at R, making the angle at Q equal to 60°. The hypotenuse QR = 8. We need PQ, which is the side opposite the 30° angle at R."
     },

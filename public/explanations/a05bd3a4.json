@@ -4,6 +4,14 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest check: compare a table or graph",
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>C</strong>, $(x + \\sqrt{5})(x - \\sqrt{5})$."
+    },
+    {
+      "title": "Algebra check",
+      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+    },
+    {
       "title": "Recognize a difference of squares",
       "content": "Rewrite $5$ as $(\\sqrt{5})^2$:<br/>$$x^2-5=x^2-(\\sqrt{5})^2$$"
     },
@@ -20,10 +28,6 @@
         "y=(x+\\sqrt{5})^2",
         "y=(x-\\sqrt{5})^2"
       ]
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The equivalent expression is $(x+\\sqrt{5})(x-\\sqrt{5})$, which is choice C. So <strong>C</strong> is correct."
     }
   ]
 }

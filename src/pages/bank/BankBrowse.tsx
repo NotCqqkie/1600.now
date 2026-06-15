@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo } from "react";
 import { useNavigate, useParams, useSearchParams } from "react-router-dom";
 import {
   loadBankPool,
@@ -12,6 +12,7 @@ import {
   type BankQuestion,
   type BankSourceFilter,
 } from "@/data/questionBank";
+import { getDefaultQuestionCountTree } from "@/data/bankQuestionMetadata";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -71,36 +72,13 @@ const BankBrowse = () => {
     ? Object.fromEntries(Object.entries(mathDomainSkills).map(([k, v]) => [k, [...v]]))
     : Object.fromEntries(Object.entries(englishDomainSkills).map(([k, v]) => [k, [...v]]));
 
-  const [bankPool, setBankPool] = useState<BankQuestion[]>([]);
-
-  useEffect(() => {
-    let cancelled = false;
-    setBankPool([]);
-    loadBankPool(validSubject, bankSource).then((questions) => {
-      if (!cancelled) setBankPool(questions);
-    });
-    return () => {
-      cancelled = true;
-    };
-  }, [bankSource, validSubject]);
-
-  const domainCounts = useMemo(() => {
-    const counts: Record<string, number> = {};
-    for (const question of bankPool) {
-      counts[question.category.domain] = (counts[question.category.domain] || 0) + 1;
-    }
-    return counts;
-  }, [bankPool]);
-
-  const skillCounts = useMemo(() => {
-    const counts: Record<string, number> = {};
-    for (const question of bankPool) {
-      counts[question.category.skill] = (counts[question.category.skill] || 0) + 1;
-    }
-    return counts;
-  }, [bankPool]);
-
-  const totalQuestions = bankPool.length;
+  const questionCounts = useMemo(
+    () => getDefaultQuestionCountTree(bankSource)[validSubject],
+    [bankSource, validSubject],
+  );
+  const domainCounts = questionCounts.domains;
+  const skillCounts = questionCounts.skills;
+  const totalQuestions = questionCounts.total;
 
   const handleBankSourceChange = (nextSource: BankSourceFilter) => {
     const nextParams = new URLSearchParams(searchParams);
@@ -138,23 +116,25 @@ const BankBrowse = () => {
     return spaceOutNearDuplicates<BankQuestion>(shuffled, questionFingerprint);
   };
 
-  const handleShuffleDomain = (domain: string) => {
+  const handleShuffleDomain = async (domain: string) => {
+    const bankPool = await loadBankPool(validSubject, bankSource);
     const questions = bankPool.filter((question) => question.category.domain === domain);
     startPracticeSession(shuffleArray(questions));
   };
 
-  const handleShuffleSkill = (skill: string) => {
+  const handleShuffleSkill = async (skill: string) => {
+    const bankPool = await loadBankPool(validSubject, bankSource);
     const questions = bankPool.filter((question) => question.category.skill === skill);
     startPracticeSession(shuffleArray(questions));
   };
 
-  const handleShuffleAll = () => {
+  const handleShuffleAll = async () => {
+    const bankPool = await loadBankPool(validSubject, bankSource);
     startPracticeSession(shuffleArray(bankPool));
   };
 
   const handleSkillClick = (skill: string) => {
-    const questions = bankPool.filter((question) => question.category.skill === skill);
-    if (questions.length > 0) {
+    if ((skillCounts[skill] || 0) > 0) {
       navigate(`${basePath}/${validSubject}/skill/${encodeURIComponent(skill)}${bankQuerySuffix}`);
     }
   };
@@ -335,7 +315,7 @@ const BankBrowse = () => {
                 >
                     <Shuffle className="h-4 w-4" />
                 </Button>
-                <Button className="flex-1 sm:flex-none" onClick={() => navigate(`${basePath}/${validSubject}/1`)}>
+                <Button className="flex-1 sm:flex-none" onClick={() => navigate(`${basePath}/${validSubject}/1${bankQuerySuffix}`)}>
                   Start
                   <ChevronRight className="h-4 w-4 ml-1" />
                 </Button>

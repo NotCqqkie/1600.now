@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Find the scale factor from perimeters",
       "content": "For similar triangles, the ratio of corresponding side lengths is the same as the ratio of the perimeters. The table gives perimeter $37$ for triangle $TUV$ and $333$ for triangle $XYZ$, so the scale factor from $TUV$ to $XYZ$ is $$\\frac{333}{37}=9.$$"
     },

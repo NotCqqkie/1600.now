@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: use the function table",
+      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $18$, so the answer is <strong>C</strong>, 18. This is just a one-row lookup, and the arithmetic below confirms the table value."
+    },
+    {
       "title": "Substitute x = 2 into the function",
       "content": "We're given $f(x) = 2 \\cdot 3^x$ and need to find $f(2)$. Substitute $x = 2$ directly into the function: $$f(2) = 2 \\cdot 3^2$$"
     },

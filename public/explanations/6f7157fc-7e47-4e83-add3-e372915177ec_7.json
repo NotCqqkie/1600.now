@@ -4,12 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set the two equations equal",
-      "content": "Since both expressions equal $y$, set them equal:<br/>$$4x + 12 = (x+2)^2$$"
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$y=4x+12$$<br/>$$y=(x+2)^2$$<br/>You do not need to solve or rearrange them first.",
+      "desmosExpressions": [
+        "y=4x+12",
+        "y=(x+2)^2"
+      ]
     },
     {
-      "title": "Expand and solve for x²",
-      "content": "Expand the right side:<br/>$$(x+2)^2 = x^2 + 4x + 4$$<br/>So the equation becomes:<br/>$$4x + 12 = x^2 + 4x + 4$$<br/>Subtract $4x$ from both sides:<br/>$$12 = x^2 + 4$$<br/>Subtract 4 from both sides:<br/>$$x^2 = 8$$"
+      "title": "Read the x-coordinate",
+      "content": "Click the intersection point and read the x-coordinate. It matches <strong>$8$</strong>."
+    },
+    {
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

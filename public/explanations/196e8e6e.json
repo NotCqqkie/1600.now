@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Find the radius of the circle",
       "content": "Since point $A$ lies on the circle with center $C(h, k)$, the radius equals the distance from $C$ to $A$.<br/>$$r = CA = \\sqrt{(h+1-h)^2 + (k+\\sqrt{102}-k)^2} = \\sqrt{1^2 + (\\sqrt{102})^2} = \\sqrt{1 + 102} = \\sqrt{103}$$"
     },

@@ -4,6 +4,13 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$x(x-13)(x+6)(x-5)^{2}=0$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is $13$.",
+      "desmosExpressions": [
+        "x(x-13)(x+6)(x-5)^{2}=0"
+      ]
+    },
+    {
       "title": "Use the zero product property",
       "content": "The equation is already factored: $$x(x-13)(x+6)(x-5)^2=0.$$ A product equals $0$ when at least one factor equals $0$."
     },
@@ -14,10 +21,6 @@
     {
       "title": "Choose the greatest solution",
       "content": "Among $-6$, $0$, $5$, and $13$, the greatest solution is $13$."
-    },
-    {
-      "title": "Confirm on the graph",
-      "content": "The graph crosses or touches the $x$-axis at $x=-6$, $0$, $5$, and $13$. The rightmost intercept is $13$, so the greatest solution is <strong>13</strong>."
     }
   ]
 }

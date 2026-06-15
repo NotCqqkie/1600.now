@@ -4,6 +4,14 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest check: compare a table or graph",
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $4{t}^{2}s \\left(16{s}^{2}-14t\\right)$."
+    },
+    {
+      "title": "Algebra check",
+      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+    },
+    {
       "title": "Factor the expression",
       "content": "Find the GCF of $64t^2s^3$ and $56t^3s$. The numerical GCF of 64 and 56 is 8; the variable GCF is $t^2s$ (lowest power of $t$ is 2, lowest power of $s$ is 1). The combined GCF is $8t^2s$, but the answer choices factor only $4t^2s$ or $4ts$ out, so pull out $4t^2s$:<br/>$$64t^2s^3 - 56t^3s = 4t^2s(16s^2 - 14t)$$"
     },

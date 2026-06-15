@@ -3,6 +3,14 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest check: compare a table or graph",
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $x + 1 - \\frac{2}{x - 3}$."
+    },
+    {
+      "title": "Algebra check",
+      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+    },
+    {
       "title": "Divide the polynomials",
       "content": "Divide $x^2-2x-5$ by $x-3$. The first term is $x$ because $x^2\\div x=x$. Subtracting $x(x-3)=x^2-3x$ leaves $x-5$."
     },

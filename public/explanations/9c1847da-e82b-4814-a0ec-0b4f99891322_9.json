@@ -4,6 +4,14 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest check: compare a table or graph",
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>C</strong>, $-7x^{2}+6x^{3}-13x+6$."
+    },
+    {
+      "title": "Algebra check",
+      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+    },
+    {
       "title": "Distribute the subtraction",
       "content": "Subtracting a polynomial means every term in the second parentheses changes sign:<br/>$$(6x^3-6x+4)-(7x^2+7x-2)$$<br/>$$=6x^3-6x+4-7x^2-7x+2$$"
     },

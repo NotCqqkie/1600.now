@@ -4,16 +4,19 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$(3x + 8)(4x - 3) = 0$$Graph or solve it directly and read the x-value that works. The requested value is $- \\frac{8}{3}$.",
+      "desmosExpressions": [
+        "(3x + 8)(4x - 3) = 0"
+      ]
+    },
+    {
       "title": "Apply the zero-product property",
       "content": "The equation is already factored, so set each factor of $(3x+8)(4x-3)=0$ to zero: $3x+8=0$ gives $x=-\\tfrac{8}{3}$, and $4x-3=0$ gives $x=\\tfrac{3}{4}$."
     },
     {
       "title": "Identify the matching solution",
       "content": "The solutions are $-\\tfrac{8}{3}$ and $\\tfrac{3}{4}$. That is the correct answer."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches $- \\frac{8}{3}$, and the other choices fail the same setup or substitution. Therefore <strong>A</strong> is correct."
     }
   ]
 }

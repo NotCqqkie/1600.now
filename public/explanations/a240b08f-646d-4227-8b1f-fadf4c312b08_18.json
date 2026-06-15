@@ -4,6 +4,14 @@
   "correctAnswer": "B",
   "steps": [
     {
+      "title": "Fastest check: compare a table or graph",
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $\\sqrt{\\frac{5x - 4z}{20x^{2}z^{2}}}$."
+    },
+    {
+      "title": "Algebra check",
+      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+    },
+    {
       "title": "Isolate xyz on one side",
       "content": "Subtract $\\tfrac{1}{5xy}$ from both sides: $$xyz=\\frac{1}{4yz}-\\frac{1}{5xy}$$ Find the common denominator $20xy^2z$: $$xyz=\\frac{5x-4z}{20xy^2z}$$"
     },
@@ -14,10 +22,7 @@
     {
       "title": "Take the positive square root",
       "content": "Since $y$ is positive: $$y=\\sqrt{\\frac{5x-4z}{20x^2z^2}}$$"
-    },
-    {
-      "title": "Evaluate each choice",
-      "content": "<ul><li>A: $\\dfrac{5x-4z}{20x^2z^2}$ — this is $y^2$, not $y$. Incorrect.</li><li>B: $\\sqrt{\\dfrac{5x-4z}{20x^2z^2}}$ — matches exactly. That confirms <strong>B</strong> is correct.</li><li>C and D involve $4xz^2-5x^2-z$, which does not arise from the algebra. Incorrect.</li></ul>"
     }
-  ]
+  ],
+  "section": "Math"
 }

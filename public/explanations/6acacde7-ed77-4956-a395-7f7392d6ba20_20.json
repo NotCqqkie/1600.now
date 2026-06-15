@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Identify conversion factors for area and time",
       "content": "To convert 180 cm²/hour to m²/minute, we need two conversions:<ul><li><strong>Area:</strong> 1 m = 100 cm, so 1 m² = 100² = 10,000 cm²</li><li><strong>Time:</strong> 1 hour = 60 minutes</li></ul>"
     },

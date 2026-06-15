@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+    },
+    {
       "title": "Recognize two pairs of corresponding angles are already equal",
       "content": "We are given $\\angle D = \\angle R = 47^{\\circ}$ and $\\angle E = \\angle S = 97^{\\circ}$. Under the natural correspondence ($D \\leftrightarrow R$, $E \\leftrightarrow S$), we already have two pairs of corresponding angles that are congruent."
     },

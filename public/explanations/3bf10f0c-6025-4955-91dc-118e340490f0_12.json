@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Set up the Pythagorean theorem",
       "content": "A right triangle has one leg of 37.8 mm and a hypotenuse of 172.2 mm. Using the Pythagorean theorem, where $a = 37.8$, $c = 172.2$, and $b$ is the unknown leg:<br/>$$37.8^2 + b^2 = 172.2^2$$",
       "formula": "$$a^2 + b^2 = c^2$$"

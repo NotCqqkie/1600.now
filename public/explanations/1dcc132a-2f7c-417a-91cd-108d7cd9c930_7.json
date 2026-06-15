@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Apply the standard form using the given center",
       "content": "The standard form uses center $(h, k)$ and radius $r$. With center at $(-5, 2)$, we have $h = -5$ and $k = 2$. Substituting into the standard form gives $$(x - (-5))^2 + (y - 2)^2 = r^2$$ which simplifies to $$(x + 5)^2 + (y - 2)^2 = r^2$$",
       "formula": "$$(x - h)^2 + (y - k)^2 = r^2$$"

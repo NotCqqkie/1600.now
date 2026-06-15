@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Read the center and radius",
       "content": "The equation $(x+3)^{2}+(y-18)^{2}=169$ is in standard circle form $(x-h)^{2}+(y-k)^{2}=r^{2}$, giving center $(-3,18)$ and radius $r=\\sqrt{169}=13$."
     },

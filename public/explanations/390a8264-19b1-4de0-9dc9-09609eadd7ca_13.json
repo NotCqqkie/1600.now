@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: use the function table",
+      "content": "Enter the function in Desmos or a calculator table and scan for the row with the output named in the question. The input that works gives <strong>$4$</strong>. This is just a table lookup, and the arithmetic below confirms the same value."
+    },
+    {
       "title": "Set the function equal to 12",
       "content": "The function is $g(x)=3x$. If $g(x)=12$, then $$3x=12$$"
     },
     {
       "title": "Solve for x",
       "content": "Divide both sides by $3$: $$x=4$$"
-    },
-    {
-      "title": "Answer",
-      "content": "The value of $x$ is <strong>4</strong>."
-    },
-    {
-      "title": "Verify by substitution",
-      "content": "Substitute $x=4$ back into the function: $g(4)=3(4)=12$. That matches the required output, so the free-response answer is <strong>4</strong>."
     }
   ]
 }

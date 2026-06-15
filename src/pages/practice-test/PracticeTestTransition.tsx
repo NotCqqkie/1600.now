@@ -35,7 +35,7 @@ const PracticeTestTransition = () => {
     const targetQuestion = questionSet?.[activeSession.currentIndex];
     if (!targetQuestion) return;
 
-    sessionStorage.setItem("practiceExitTo", `/practice-tests/${practiceSet.id}/start`);
+    sessionStorage.setItem("practiceExitTo", "/modules");
     sessionStorage.setItem("practiceSet", JSON.stringify(questionSet));
 
     navigate(

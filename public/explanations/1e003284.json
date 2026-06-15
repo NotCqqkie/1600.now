@@ -4,12 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Extract the x-coordinate from the first equation",
-      "content": "The first equation $x = 49$ directly specifies the x-coordinate of the intersection point."
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$x=49$$<br/>$$y=\\sqrt{x}+9$$<br/>You do not need to solve or rearrange them first.",
+      "desmosExpressions": [
+        "x=49",
+        "y=\\sqrt{x}+9"
+      ]
     },
     {
-      "title": "Substitute x = 49 into the second equation to find y",
-      "content": "With $x = 49$, substitute into $y = \\sqrt{x} + 9$:<br/>$$y = \\sqrt{49} + 9 = 7 + 9 = 16$$<br/>That matches <strong>Choice A &mdash; $16$</strong>."
+      "title": "Read the y-coordinate",
+      "content": "Click the intersection point and read the y-coordinate. It matches <strong>A</strong>, $16$."
+    },
+    {
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

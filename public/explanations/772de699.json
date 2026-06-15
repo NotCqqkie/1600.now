@@ -4,6 +4,14 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest check: compare a table or graph",
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>C</strong>, $x \\left(23{x}^{2}+2x+9\\right)$."
+    },
+    {
+      "title": "Algebra check",
+      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+    },
+    {
       "title": "Find the greatest common factor",
       "content": "Look at $23x^3+2x^2+9x$. The coefficients $23$, $2$, and $9$ share no common factor other than $1$. Every term has at least one factor of $x$, so the GCF is just $x$."
     },

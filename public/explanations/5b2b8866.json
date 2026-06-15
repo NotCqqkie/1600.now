@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Identify the scale factor for each dimension",
       "content": "Each dimension increases by 20%, so the new dimension is 120% of the original. This corresponds to a scale factor of $k = 1.2 = \\frac{6}{5}$."
     },

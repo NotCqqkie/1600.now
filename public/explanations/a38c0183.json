@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Extract Circle A's center and radius, identify transformations",
       "content": "From the equation $(x+2)^2 + y^2 = 9$, circle A has center $(-2, 0)$ and radius $\\sqrt{9} = 3$. <br/>Circle B involves two transformations: <ul><li>Shift down 6 units (center moves in the negative $y$ direction)</li><li>New radius is $2 \\times 3 = 6$</li></ul>"
     },

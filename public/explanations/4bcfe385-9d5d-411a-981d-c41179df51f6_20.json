@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Express the perimeter in terms of the hypotenuse",
       "content": "In an isosceles right triangle with legs of length $a$ and hypotenuse $h$, the Pythagorean theorem gives $h = a\\sqrt{2}$, so $a = \\frac{h}{\\sqrt{2}}$ and $2a = h\\sqrt{2}$.<br/><br/>The perimeter is $2a + h = h\\sqrt{2} + h = h(1 + \\sqrt{2})$."
     },

@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the circle facts first: radii are equal, a diameter sets up a right angle, a tangent is perpendicular to the radius, and central/inscribed angles connect to arcs."
+    },
+    {
       "title": "Identify the component shapes",
       "content": "The figure combines a rectangle and a semicircle. The rectangle has width $WX = 20$ and height $WZ = 5$. The semicircle sits on top with diameter 20."
     },

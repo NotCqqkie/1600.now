@@ -4,16 +4,19 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$\\frac{2}{x} = \\frac{1}{7}$$Graph or solve it directly and read the x-value that works. The requested value is $14$.",
+      "desmosExpressions": [
+        "\\frac{2}{x} = \\frac{1}{7}"
+      ]
+    },
+    {
       "title": "Isolate the variable",
       "content": "Cross-multiply: $$2\\cdot 7=1\\cdot x.$$"
     },
     {
       "title": "Solve for the variable",
       "content": "So $x=14$. That matches <strong>Choice A &mdash; 14</strong>."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches <strong>Choice A &mdash; 14</strong>, 14. The other choices do not satisfy the same condition from the question, so <strong>A</strong>."
     }
   ]
 }

@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+    },
+    {
       "title": "Identify the 8 angles formed by the transversal",
       "content": "When a transversal crosses two parallel lines, at each intersection it creates 4 angles.<br/><br/>Vertical angles are equal, so we get 2 pairs of equal angles at each intersection.<br/><br/>Because the lines are parallel, corresponding angles are equal—meaning both intersections have the same pair of angle measures.<br/><br/>Let the acute angle measure be $\\alpha$ and the obtuse angle measure be $180 - \\alpha$.<br/><br/>This gives us 4 angles of measure $\\alpha$ (acute) and 4 angles of measure $180 - \\alpha$ (obtuse)."
     },
@@ -15,10 +19,6 @@
     {
       "title": "Substitute the given angle and evaluate both cases",
       "content": "One angle is $(7x - 250)^{\\circ}$, so either $\\alpha = 7x - 250$ or $180 - \\alpha = 7x - 250$ (meaning $\\alpha = 430 - 7x$).<br/><br/><strong>Case 1</strong> ($\\alpha = 7x - 250$): Possible sums are $28x - 1000$, $1720 - 28x$, $14x - 320$, $360$, $1040 - 14x$.<br/><br/><strong>Case 2</strong> ($\\alpha = 430 - 7x$): Possible sums are $1720 - 28x$, $28x - 1000$, $1040 - 14x$, $360$, $14x - 320$.<br/><br/>Combined set: $\\{28x - 1000, \\, 1720 - 28x, \\, 14x - 320, \\, 360, \\, 1040 - 14x\\}$"
-    },
-    {
-      "title": "Compare each choice to the set of possible values",
-      "content": "Check which expression cannot appear as $k$:<ul><li><strong>$-14x+1,540$</strong> is correct."
     }
   ]
 }

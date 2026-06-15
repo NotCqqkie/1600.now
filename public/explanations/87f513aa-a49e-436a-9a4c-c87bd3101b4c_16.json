@@ -4,6 +4,13 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$f(x)=x^{2}-12x+30$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is $-6$.",
+      "desmosExpressions": [
+        "f(x)=x^{2}-12x+30"
+      ]
+    },
+    {
       "title": "Minimum value = c - b²/(4a) — no need to find x first",
       "content": "For $f(x) = x^2 - 12x + 30$, use $a = 1$, $b = -12$, $c = 30$. The minimum value is $c - \\frac{b^2}{4a} = 30 - \\frac{(-12)^2}{4(1)} = 30 - \\frac{144}{4} = 30 - 36 = -6$."
     },

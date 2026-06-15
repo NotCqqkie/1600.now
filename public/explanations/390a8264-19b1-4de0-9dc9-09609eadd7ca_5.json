@@ -4,6 +4,14 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest check: compare a table or graph",
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $ (x + 15)^2 $."
+    },
+    {
+      "title": "Algebra check",
+      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+    },
+    {
       "title": "Identify what the question needs",
       "content": "The expression $(x+8)^2 + 14(x+8) + 49$ is a trinomial with a compound base. Recognize whether it fits the perfect-square pattern $u^2 + 14u + 49 = (u+7)^2$ by setting $u = x+8$."
     },

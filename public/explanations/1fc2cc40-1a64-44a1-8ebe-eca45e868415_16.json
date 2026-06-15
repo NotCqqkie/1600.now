@@ -3,6 +3,10 @@
   "qid": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_16",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Step 1",
       "content": "Let w = width (cm). The length is 35 cm greater than the width, so length = w + 35."
     },
@@ -12,5 +16,6 @@
     }
   ],
   "choiceElimination": "<ul><li><strong>Choice A &mdash; $A=(w)(w+35)$</strong>: Width is w, length is w + 35; their product gives the correct area formula. &#10003;</li><li><strong>Choice B &mdash; $A=(w)(35w)$</strong>: This would mean length = 35w (35 times the width), not 35 more than the width. &#10007;</li><li><strong>Choice C &mdash; $A=(w)(\\frac{w}{35})$</strong>: This makes length a fraction of the width, contradicting &quot;35 cm greater.&quot; &#10007;</li><li><strong>Choice D &mdash; $A=(w)(w-35)$</strong>: This subtracts 35 instead of adding it, reversing the relationship. &#10007;</li></ul>That matches <strong>Choice A &mdash; $A=(w)(w+35)$</strong>.",
-  "correctAnswer": "A"
+  "correctAnswer": "A",
+  "section": "Math"
 }

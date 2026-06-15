@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Convert the linear measurement to squared",
       "content": "To convert <strong>area</strong> units, the conversion factor must be <strong>squared</strong>. Since 1 mile = 1,760 yards: $$(1,760)^2 = 3,097,600 \\text{ square yards per square mile}$$"
     },

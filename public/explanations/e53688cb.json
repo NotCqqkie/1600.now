@@ -4,16 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the given value of $3y$",
-      "content": "The first equation is $x+3y=29$, and the second equation says $3y=11$. Substitute $11$ for the whole $3y$ term."
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$x+3y=29$$<br/>$$3y=11$$<br/>You do not need to solve or rearrange them first.",
+      "desmosExpressions": [
+        "x+3y=29",
+        "3y=11"
+      ]
     },
     {
-      "title": "Solve for $x$",
-      "content": "$$x+11=29,$$ so $$x=18.$$"
+      "title": "Read the x-coordinate",
+      "content": "Click the intersection point and read the x-coordinate. It matches <strong>$18$</strong>."
     },
     {
-      "title": "Check the answer",
-      "content": "Using $x=18$ and $3y=11$ gives $18+11=29$, so the first equation is satisfied. The question asks for $x$, not $y$, so the answer is <strong>18</strong>."
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

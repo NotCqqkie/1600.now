@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Find the linear scale factor from surface area ratio",
       "content": "For similar solids, areas scale by the square of the linear scale factor. Calculate the surface area ratio:<br/>$$\\frac{\\text{Surface Area of X}}{\\text{Surface Area of Y}} = \\frac{58}{1,450} = \\frac{1}{25}$$<br/>Since $k^2 = \\frac{1}{25}$, the linear scale factor is $k = \\frac{1}{5}$."
     },

@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+    },
+    {
       "title": "Recall the radian-to-degree conversion factor",
       "content": "To convert an angle from radians to degrees, multiply by the conversion factor below. Since $\\pi$ radians equals $180^{\\circ}$, we divide $180^{\\circ}$ by $\\pi$ to get our conversion factor."
     },

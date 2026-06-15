@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Extract center and radius from Circle A",
       "content": "The equation $(x - 7)^2 + (y + 3)^2 = 1$ is in standard form $(x - h)^2 + (y - k)^2 = r^2$. The center is $(7, -3)$ and the radius is $1$."
     },

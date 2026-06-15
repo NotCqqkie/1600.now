@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Eliminate $x$ to get $y$ faster",
-      "content": "The question asks for $y$. Multiply the second equation by $4$ so the $x$-coefficients match: $$24x+4y=288.$$"
-    },
-    {
-      "title": "Subtract the first equation",
-      "content": "Subtract $24x+y=48$ from $24x+4y=288$: $$(24x+4y)-(24x+y)=288-48.$$ This gives $3y=240$."
-    },
-    {
-      "title": "Solve and verify",
-      "content": "Divide by $3$ to get $y=80$. Check in the second equation: $$6x+80=72,$$ so $x=-\\frac{4}{3}$. Substituting into the first equation gives $$24\\left(-\\frac{4}{3}\\right)+80=48,$$ so $y=80$ is consistent.",
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$24x+y=48$$<br/>$$6x+y=72$$<br/>You do not need to solve or rearrange them first.",
       "desmosExpressions": [
         "24x+y=48",
         "6x+y=72"
       ]
+    },
+    {
+      "title": "Read the y-coordinate",
+      "content": "Click the intersection point and read the y-coordinate. It matches <strong>$80$</strong>."
+    },
+    {
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

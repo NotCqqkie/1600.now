@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+    },
+    {
       "title": "Identify given information and angle positioning",
       "content": "We are given AB = DE = 5 cm and \\angle A = \\angle D = 35 degrees. In triangle ABC, angle A is located at vertex A, positioned between sides AB and AC.<br/><br/>In triangle DEF, angle D is located at vertex D, positioned between sides DE and DF.<br/><br/>To prove congruence, we need one of the standard criteria: SSS, SAS, ASA, AAS, or HL.<br/><br/>Since we have one side and one angle, we should consider SAS (Side-Angle-Side), which requires two sides with the angle between them."
     },

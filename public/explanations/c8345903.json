@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Identify complementary arcs and use the arc length formula",
       "content": "Arc <em>ADC</em> and arc <em>ABC</em> are two different paths from point A to point C around the circle. Together, they form the complete circumference: Arc <em>ADC</em> + Arc <em>ABC</em> = 2πr. We're given arc <em>ADC</em> = 5π. The angle x = 100° represents the central angle that corresponds to arc <em>ADC</em>.<br/><br/>Using the arc length formula $\\text{Arc length} = \\frac{\\text{central angle}}{360^{\\circ}} \\cdot 2\\pi r$, we can find the radius:<br/>$$5\\pi = \\frac{100^{\\circ}}{360^{\\circ}} \\cdot 2\\pi r$$"
     },

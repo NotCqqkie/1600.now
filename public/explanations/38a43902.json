@@ -4,16 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute from the first equation",
-      "content": "The first equation already gives $y=-2x$. Substitute that into the second equation $3x+y=40$ instead of solving for both variables from scratch."
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$y=-2x$$<br/>$$3x+y=40$$<br/>You do not need to solve or rearrange them first.",
+      "desmosExpressions": [
+        "y=-2x",
+        "3x+y=40"
+      ]
     },
     {
-      "title": "Solve for $x$",
-      "content": "$$3x+(-2x)=40$$ $$x=40.$$ The intersection of the two lines also has x-coordinate $40$."
+      "title": "Read the x-coordinate",
+      "content": "Click the intersection point and read the x-coordinate. It matches <strong>$40$</strong>."
     },
     {
-      "title": "Confirm the answer",
-      "content": "The question asks for $x$, so the answer is <strong>40</strong>. If needed, the corresponding $y$ would be $-80$, but that is not required."
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

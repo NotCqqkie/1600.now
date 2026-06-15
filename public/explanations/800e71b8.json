@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Recognize how the two arcs partition the circle",
       "content": "The minor arc MN (the shorter path from M to N) and the major arc MPN (the longer path from M through P to N) together form the complete circle. These two arcs share endpoints M and N but cover all other points on the circle exactly once—no overlap, no gaps."
     },

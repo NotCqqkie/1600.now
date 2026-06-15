@@ -4,6 +4,13 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$\\sqrt{{ \\left(x-2\\right)}^{2}}=\\sqrt{3x+34}$$Graph or solve it directly and read the x-value that works. The requested value is $-3$.",
+      "desmosExpressions": [
+        "\\sqrt{{ \\left(x-2\\right)}^{2}}=\\sqrt{3x+34}"
+      ]
+    },
+    {
       "title": "Simplify using the radical property",
       "content": "Recognize that $\\sqrt{(x-2)^2} = |x-2|$ by the property $\\sqrt{u^2} = |u|$. This gives:<br/>$$|x-2| = \\sqrt{3x+34}$$<br/>Square both sides (valid since both are non-negative):<br/>$$|x-2|^2 = 3x+34$$<br/>Since $|x-2|^2 = (x-2)^2$, we have:<br/>$$(x-2)^2 = 3x+34$$"
     },

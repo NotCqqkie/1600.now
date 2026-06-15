@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: track what changes",
+      "content": "When the same amount is added to every value, the mean and median move by that amount. The range and standard deviation stay the same because the spacing between values does not change."
+    },
+    {
       "title": "Set up the structure of the data set",
       "content": "With 27 numbers and a mean of 33, the total sum is $27 \\times 33 = 891$. Since 27 is odd, the median is the 14th value when sorted. That means 13 values are less than 33, one value equals 33 (the median itself), and 13 values are greater than 33."
     },
@@ -14,10 +18,6 @@
     {
       "title": "Check whether the median changes",
       "content": "Subtracting 7 from any value that was less than 33 keeps it less than 33; adding 7 to any value greater than 33 keeps it greater than 33. The relative order is preserved, so the 14th value remains 33.<ul><li>The median remains 33, so it is not the answer.</li></ul>"
-    },
-    {
-      "title": "Determine the effect on standard deviation",
-      "content": "Standard deviation measures how spread out values are around the mean (33). For each value below the mean, the transformation moves it $7$ units farther from 33. For each value above the mean, it moves $7$ units farther from 33. The median value itself stays at 33. Every non-median squared deviation strictly increases, so variance increases and standard deviation increases.<ul><li>The correct answer (Standard deviation): larger in the new data set than the original — this does NOT have the same value. <strong>D</strong> is correct.</li></ul>"
     }
   ]
 }

@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the circle facts first: radii are equal, a diameter sets up a right angle, a tangent is perpendicular to the radius, and central/inscribed angles connect to arcs."
+    },
+    {
       "title": "Extract the radius from the diameter",
       "content": "The diameter is 33 cm, so the radius is $r = \\frac{33}{2} = 16.5$ cm."
     },

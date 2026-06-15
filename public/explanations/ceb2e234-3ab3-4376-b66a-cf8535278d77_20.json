@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Set up",
       "content": "Right angle at $S$, so $TR = 84$ is the hypotenuse and $RS = \\sqrt{167}$. Find leg $TS$ via the Pythagorean theorem: $$TS^2 = 84^2 - 167 = 7056 - 167 = 6889$$ $$TS = 83$$"
     },

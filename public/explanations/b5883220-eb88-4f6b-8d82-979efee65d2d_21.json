@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Set up the unit conversions needed",
       "content": "We're converting from square feet per hour to square meters per minute. This requires two separate conversions:<ul><li>Area units: square feet to square meters</li><li>Time rate: per hour to per minute</li></ul>Since area is 2-dimensional, the linear scale factor (1 m = 3.28 ft) must be squared:<br/>$$1 \\text{ m}^2 = (3.28)^2 \\text{ ft}^2 = 10.7584 \\text{ ft}^2$$"
     },

@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set the equations equal",
-      "content": "Substitute $y = 3x + a$ into $y = 2x^2 - 21x + 64$:<br/>$$3x + a = 2x^2 - 21x + 64$$<br/>$$2x^2 - 24x + (64 - a) = 0$$"
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$y=2{x}^{2}-21x+64$$<br/>$$y=3x+a$$<br/>You do not need to solve or rearrange them first."
     },
     {
-      "title": "Apply the one-intersection condition",
-      "content": "For exactly one intersection point, the discriminant must equal $0$:<br/>$$(-24)^2-4(2)(64-a)=0$$<br/>$$576-512+8a=0$$<br/>$$64+8a=0$$<br/>$$a=-8$$"
+      "title": "Read the x-coordinate",
+      "content": "Click the intersection point and read the x-coordinate. It matches <strong>C</strong>, $6$."
     },
     {
-      "title": "Find x at the tangent point",
-      "content": "With $a = -8$: $2x^2 - 24x + 72 = 0$, or $x^2 - 12x + 36 = 0$, which factors as $(x-6)^2 = 0$. So $x = 6$. That confirms <strong>C</strong> is correct."
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

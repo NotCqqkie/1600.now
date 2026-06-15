@@ -143,6 +143,42 @@ export const getQuestionUiState = (
   return legacy;
 };
 
+export const getQuestionUiStates = (
+  storageIds: string[],
+  uid: string | null | undefined,
+): QuestionUiStateMap => {
+  const map = getQuestionUiStateMap(uid);
+  const result: QuestionUiStateMap = {};
+  let nextMap = map;
+  let migratedLegacy = false;
+
+  for (const storageId of storageIds) {
+    const state = map[storageId];
+    if (state) {
+      result[storageId] = state;
+      continue;
+    }
+
+    const legacy = readLegacyQuestionUiState(storageId);
+    if (!legacy) {
+      result[storageId] = {};
+      continue;
+    }
+
+    if (nextMap === map) nextMap = { ...map };
+    nextMap[storageId] = legacy;
+    result[storageId] = legacy;
+    removeLegacyQuestionUiState(storageId);
+    migratedLegacy = true;
+  }
+
+  if (migratedLegacy) {
+    saveQuestionUiStateMap(uid, nextMap);
+  }
+
+  return result;
+};
+
 export const saveQuestionUiState = (
   storageId: string,
   patch: QuestionUiState,

@@ -3,6 +3,14 @@
   "qid": "974d33dc",
   "steps": [
     {
+      "title": "Fastest check: compare a table or graph",
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $r^3 + 6r^2 + 8r + 19$."
+    },
+    {
+      "title": "Algebra check",
+      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+    },
+    {
       "title": "Step 1",
       "content": "Write the sum and align like terms: $(r^3 + 5r^2 + 0r + 7) + (0r^3 + r^2 + 8r + 12)$."
     },
@@ -15,5 +23,6 @@
       "content": "Evaluate all four choices: <ul><li>A: $r^5 + 13r^3 + 19$ — introduces $r^5$ and $r^3$ terms by incorrectly multiplying rather than adding exponents. Eliminated.</li><li>B: $2r^3 + 13r^2 + 19$ — doubles the $r^3$ coefficient and adds the $r^2$ terms incorrectly; missing the $8r$ term. Eliminated.</li><li>C: $r^3 + 5r^2 + 7r + 12$ — drops the $r^2$ from the second polynomial and does not add the constants. Eliminated.</li><li>D: $r^3 + 6r^2 + 8r + 19$ — matches every coefficient derived above. That confirms <strong>D</strong> is correct.</li></ul>"
     }
   ],
-  "correctAnswer": "D"
+  "correctAnswer": "D",
+  "section": "Math"
 }

@@ -4,6 +4,14 @@
   "correctAnswer": "D",
   "steps": [
     {
+      "title": "Fastest check: compare a table or graph",
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $19x^2 - 152$."
+    },
+    {
+      "title": "Algebra check",
+      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+    },
+    {
       "title": "Step 1",
       "content": "Distribute 19 across both terms inside the parentheses: 19(x^2 - 8) = 19 \\cdot x^2 - 19 \\cdot 8."
     },
@@ -14,11 +22,8 @@
     {
       "title": "Step 3",
       "content": "Result: 19x^2 - 152."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches $19x^2 - 152$. The other choices do not satisfy the same condition from the question, so <strong>D</strong> is correct."
     }
   ],
-  "explanation": "<ul><li><strong>Choice A &mdash; $19x^2 + 11$</strong>: The constant term should be -152 (subtracting), not +11. This confuses -8 with -(19-8) = -11 and flips the sign. &#10007;</li><li><strong>Choice B &mdash; $19x^2 - 8$</strong>: Fails to multiply the 8 by 19. This treats the expression as 19x^2 + (-8) without distributing the 19. &#10007;</li><li><strong>Choice C &mdash; $19x^2 - 27$</strong>: Appears to compute 19 - 8 = 11 then subtract differently &mdash; no valid distribution yields -27 here. &#10007;</li><li><strong>Choice D &mdash; $19x^2 - 152$</strong>: 19 &times; x^2 = 19x^2 and 19 &times; 8 = 152, so the result is 19x^2 - 152. &#10003;</li></ul>That is the correct answer."
+  "explanation": "<ul><li><strong>Choice A &mdash; $19x^2 + 11$</strong>: The constant term should be -152 (subtracting), not +11. This confuses -8 with -(19-8) = -11 and flips the sign. &#10007;</li><li><strong>Choice B &mdash; $19x^2 - 8$</strong>: Fails to multiply the 8 by 19. This treats the expression as 19x^2 + (-8) without distributing the 19. &#10007;</li><li><strong>Choice C &mdash; $19x^2 - 27$</strong>: Appears to compute 19 - 8 = 11 then subtract differently &mdash; no valid distribution yields -27 here. &#10007;</li><li><strong>Choice D &mdash; $19x^2 - 152$</strong>: 19 &times; x^2 = 19x^2 and 19 &times; 8 = 152, so the result is 19x^2 - 152. &#10003;</li></ul>That is the correct answer.",
+  "section": "Math"
 }

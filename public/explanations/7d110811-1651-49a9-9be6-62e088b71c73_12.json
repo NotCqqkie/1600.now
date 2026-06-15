@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+    },
+    {
       "title": "Identify the right triangle setup",
       "content": "Triangle JKL has a right angle at K (shown by the square). The hypotenuse is $JL = 24$. Angle $y$ is located at vertex $L$, and we need to find side $\\overline{KL}$."
     },

@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Find one dimension from given info",
       "content": "The slant $AB = 78$, the height $h = 39$, and the radius $r$ form a right triangle (apex $A$, center of base, point $B$ on the rim). Apply Pythagoras:<br/>$$r^2 = AB^2 - h^2 = 78^2 - 39^2 = 6084 - 1521 = 4563$$"
     },

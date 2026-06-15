@@ -4,16 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set the equations equal",
-      "content": "Since both expressions equal $y$, set them equal to each other:<br/>$$4x = x^2 - 12$$"
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$y=4x$$<br/>$$y={x}^{2}-12$$<br/>You do not need to solve or rearrange them first.",
+      "desmosExpressions": [
+        "y=4x",
+        "y={x}^{2}-12"
+      ]
     },
     {
-      "title": "Rearrange to standard form and factor",
-      "content": "Move all terms to one side:<br/>$$x^2 - 4x - 12 = 0$$<br/>Factor by finding two numbers that multiply to $-12$ and add to $-4$. Those numbers are $-6$ and $2$:<br/>$$(x - 6)(x + 2) = 0$$<br/>This gives $x = 6$ or $x = -2$."
+      "title": "Read the x-coordinate",
+      "content": "Click the intersection point and read the x-coordinate. It matches <strong>$6$</strong>."
     },
     {
-      "title": "Apply the positivity constraint",
-      "content": "Since the problem requires $x \\gt  0$, we eliminate $x = -2$ and keep $x = 6$."
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

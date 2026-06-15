@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: use the function table",
+      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $13$, so the answer is <strong>$13$</strong>. This is just a one-row lookup, and the arithmetic below confirms the table value."
+    },
+    {
       "title": "Substitute the value x = 36",
       "content": "Replace $x$ with $36$ in $$f(x) = 7 + \\sqrt{x}.$$ This gives $$f(36) = 7 + \\sqrt{36}.$$"
     },
     {
       "title": "Compute the result",
       "content": "Simplify: $$f(36) = 7 + 6 = 13.$$ The answer is <strong>13</strong>."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "As a final check, make sure the computed value answers exactly what the question asks for. The work above gives $13$; substituting or interpreting it in the original condition satisfies the requirement, so $13$ is the value to enter."
     }
   ]
 }

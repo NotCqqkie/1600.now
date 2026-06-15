@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Find the side length from the perimeter",
       "content": "The perimeter of an equilateral triangle equals three times the side length. With a perimeter of 624 cm:<br/>$$\\text{Side length} = \\frac{624}{3} = 208 \\text{ cm}$$"
     },

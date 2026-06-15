@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Extract the circle's center and radius",
       "content": "The equation $(x+4)^2 + (y-19)^2 = 121$ is in standard form.<br/>Center: $(-4, 19)$<br/>Radius: $\\sqrt{121} = 11$"
     },

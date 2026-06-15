@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: use the function table",
+      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $3200$, so the answer is <strong>$3200$</strong>. This is just a one-row lookup, and the arithmetic below confirms the table value."
+    },
+    {
       "title": "Set up",
       "content": "The function is $f(x) = 320x$. Substitute $x = 10$."
     },
     {
       "title": "Solve",
       "content": "$$f(10) = 320 × 10 = 3200$$<br/><br/>This is a direct function evaluation: $x=10$ means use the output of the rule at input 10, not solve for a new input."
-    },
-    {
-      "title": "Answer",
-      "content": "<strong>3200</strong> is correct."
     }
   ]
 }

@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+    },
+    {
       "title": "Set up",
       "content": "The three angles of the triangle sum to 180&deg;: $$47 + 90 + \\frac{k}{2} = 180$$"
     },
@@ -14,10 +18,6 @@
     {
       "title": "Answer",
       "content": "<strong>C</strong> is correct."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches 86, and the other choices fail the same setup or substitution. Therefore <strong>C</strong> is correct."
     }
   ]
 }

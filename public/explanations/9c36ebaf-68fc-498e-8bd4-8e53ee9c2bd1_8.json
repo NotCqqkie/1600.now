@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Identify what the question needs",
       "content": "Since ABC ~ DEF with A corresponding to D, the angles are equal, so sin D = sin A. The numbers 35, 612, 613 form a Pythagorean triple: 35&sup2; + 612&sup2; = 613&sup2;. In right triangle ABC with &ang;C = 90&deg;, this means the two legs are 35 and 612, and the hypotenuse is 613. If the side opposite A = 612 and the hypotenuse = 613, then sin A = opposite/hypotenuse = 612/613. The given ratio 612/613 is therefore interpreted as sin A (not tan A), consistent with the 35-612-613 right triangle. Because sin D = sin A, we have sin D = 612/613."
     },

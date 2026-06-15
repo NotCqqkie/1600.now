@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the circle facts first: radii are equal, a diameter sets up a right angle, a tangent is perpendicular to the radius, and central/inscribed angles connect to arcs."
+    },
+    {
       "title": "Apply the radian-to-degree conversion formula",
       "content": "To convert from radians to degrees, multiply by $\\frac{180}{\\pi}$. For this angle:<br/>$$\\frac{16\\pi}{15} \\times \\frac{180}{\\pi}$$",
       "formula": "$$\\text{degrees} = \\text{radians} \\times \\frac{180}{\\pi}$$"

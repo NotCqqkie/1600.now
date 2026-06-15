@@ -4,6 +4,13 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$\\frac{x}{(x-1)(x+1)}=\\frac{81}{56x}$$Graph or solve it directly and read the x-value that works. The requested value is $\\frac{9}{5}$.",
+      "desmosExpressions": [
+        "\\frac{x}{(x-1)(x+1)}=\\frac{81}{56x}"
+      ]
+    },
+    {
       "title": "Check domain and cross multiply",
       "content": "Choice C ($x=1$) makes $(x-1)=0$, so the left side is undefined—eliminate it.<br/>Cross multiply the equation:<br/>$$56x^2 = 81(x-1)(x+1)$$<br/>Expand using $(x-1)(x+1) = x^2 - 1$:<br/>$$56x^2 = 81(x^2-1)$$"
     },

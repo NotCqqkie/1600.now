@@ -60,6 +60,8 @@ interface SpotlightStep extends BaseStep {
   pad?: number;
   clickFirst?: string;
   clickOnExit?: string;
+  waitMs?: number;
+  afterClickMs?: number;
   preferSide?: "right" | "left" | "bottom" | "top";
   revealContent?: boolean;
 }
@@ -244,17 +246,20 @@ const MAIN_STEPS: Step[] = [
   },
 ];
 
+const PRACTICE_SET_HELP_QUESTION_ROUTE = "/bank/math/9c1847da-e82b-4814-a0ec-0b4f99891322_4?bankType=past";
+
 const PRACTICE_SET_STEPS: Step[] = [
   {
     kind: "spotlight",
     key: "practice-set-more",
     icon: MoreHorizontal,
     title: "Open More",
-    body: "From any bank question, the More menu can build a focused practice set from related questions.",
+    body: "From any bank question, the more menu can build a focused practice set from related questions.",
     accent: "sky",
     target: "question-more-menu",
-    route: "/bank/math/1",
+    route: PRACTICE_SET_HELP_QUESTION_ROUTE,
     pad: 6,
+    waitMs: 8000,
     preferSide: "bottom",
   },
   {
@@ -267,7 +272,10 @@ const PRACTICE_SET_STEPS: Step[] = [
     target: "create-practice-set-menu-item",
     clickFirst: "question-more-menu",
     pad: 8,
+    waitMs: 8000,
+    afterClickMs: 360,
     preferSide: "left",
+    clickOnExit: "question-more-menu",
   },
 ];
 
@@ -335,19 +343,26 @@ const clickByTour = (target: string) => {
 };
 
 const computeCoachPos = (rect: Rect, cardW = 380, cardH = 240, gap = 18, prefer?: "right" | "left" | "bottom" | "top") => {
-  const vw = window.innerWidth;
-  const vh = window.innerHeight;
-  const rightSpace = vw - (rect.x + rect.w);
-  const leftSpace = rect.x;
-  const bottomSpace = vh - (rect.y + rect.h);
-  const topSpace = rect.y;
+  const viewport = window.visualViewport;
+  const viewLeft = viewport?.offsetLeft ?? 0;
+  const viewTop = viewport?.offsetTop ?? 0;
+  const vw = viewport?.width ?? window.innerWidth;
+  const vh = viewport?.height ?? window.innerHeight;
+  const viewRight = viewLeft + vw;
+  const viewBottom = viewTop + vh;
+  const effectiveCardW = Math.min(cardW, vw * 0.92);
+  const effectiveCardH = Math.min(cardH, vh - 24);
+  const rightSpace = viewRight - (rect.x + rect.w);
+  const leftSpace = rect.x - viewLeft;
+  const bottomSpace = viewBottom - (rect.y + rect.h);
+  const topSpace = rect.y - viewTop;
 
   let side: "right" | "left" | "bottom" | "top" = "right";
   if (prefer && (
-    (prefer === "right" && rightSpace >= cardW + gap + 12) ||
-    (prefer === "left" && leftSpace >= cardW + gap + 12) ||
-    (prefer === "bottom" && bottomSpace >= cardH + gap + 12) ||
-    (prefer === "top" && topSpace >= cardH + gap + 12)
+    (prefer === "right" && rightSpace >= effectiveCardW + gap + 12) ||
+    (prefer === "left" && leftSpace >= effectiveCardW + gap + 12) ||
+    (prefer === "bottom" && bottomSpace >= effectiveCardH + gap + 12) ||
+    (prefer === "top" && topSpace >= effectiveCardH + gap + 12)
   )) {
     side = prefer;
   } else {
@@ -359,13 +374,17 @@ const computeCoachPos = (rect: Rect, cardW = 380, cardH = 240, gap = 18, prefer?
   }
 
   let left = 0, top = 0;
-  if (side === "right")  { left = rect.x + rect.w + gap; top = rect.y + rect.h / 2 - cardH / 2; }
-  if (side === "left")   { left = rect.x - cardW - gap; top = rect.y + rect.h / 2 - cardH / 2; }
-  if (side === "bottom") { top = rect.y + rect.h + gap; left = rect.x + rect.w / 2 - cardW / 2; }
-  if (side === "top")    { top = rect.y - cardH - gap; left = rect.x + rect.w / 2 - cardW / 2; }
+  if (side === "right")  { left = rect.x + rect.w + gap; top = rect.y + rect.h / 2 - effectiveCardH / 2; }
+  if (side === "left")   { left = rect.x - effectiveCardW - gap; top = rect.y + rect.h / 2 - effectiveCardH / 2; }
+  if (side === "bottom") { top = rect.y + rect.h + gap; left = rect.x + rect.w / 2 - effectiveCardW / 2; }
+  if (side === "top")    { top = rect.y - effectiveCardH - gap; left = rect.x + rect.w / 2 - effectiveCardW / 2; }
 
-  left = Math.max(12, Math.min(left, vw - cardW - 12));
-  top = Math.max(12, Math.min(top, vh - cardH - 12));
+  const minLeft = viewLeft + 12;
+  const maxLeft = Math.max(minLeft, viewRight - effectiveCardW - 12);
+  const minTop = viewTop + 12;
+  const maxTop = Math.max(minTop, viewBottom - effectiveCardH - 12);
+  left = Math.max(minLeft, Math.min(left, maxLeft));
+  top = Math.max(minTop, Math.min(top, maxTop));
   return { left, top, side };
 };
 
@@ -491,6 +510,9 @@ export const OnboardingTour = () => {
 
   const step = steps[index] ?? steps[0];
   const total = steps.length;
+  const isStepResolving = step.kind === "spotlight" && !rect;
+  const isFirst = index === 0;
+  const isLast = index === total - 1;
 
   useEffect(() => {
     if (loading || !user) return;
@@ -590,7 +612,7 @@ export const OnboardingTour = () => {
       setIsNavigating(false);
       return;
     }
-    const fingerprint = `${index}:${step.key}`;
+    const fingerprint = `${index}:${step.key}:${location.pathname}${location.search}`;
     if (lastResolvedKeyRef.current === fingerprint) {
       return;
     }
@@ -602,7 +624,7 @@ export const OnboardingTour = () => {
     let cancelled = false;
 
     const run = async () => {
-      const startingPath = location.pathname;
+      const startingPath = `${location.pathname}${location.search}`;
       const willNavigate = step.route && step.route !== startingPath;
       if (willNavigate) {
         const aside = document.querySelector<HTMLElement>('aside[data-tour="sidebar"]');
@@ -620,22 +642,20 @@ export const OnboardingTour = () => {
         await waitForTarget(step.clickFirst, 0, 2500);
         if (cancelled) return;
         clickByTour(step.clickFirst);
-        await new Promise((r) => setTimeout(r, 220));
+        await new Promise((r) => setTimeout(r, step.afterClickMs ?? 220));
       }
       if (cancelled) return;
 
-      const targetRect = await waitForTarget(step.target, step.pad ?? 4);
+      const targetRect = await waitForTarget(step.target, step.pad ?? 4, step.waitMs);
       if (cancelled) return;
       if (targetRect) setRect(targetRect);
-      if (willNavigate) {
-        await new Promise((res) => setTimeout(res, 60));
-        if (!cancelled) setIsNavigating(false);
-      }
+      await new Promise((res) => setTimeout(res, 60));
+      if (!cancelled) setIsNavigating(false);
     };
     run();
 
     return () => { cancelled = true; };
-  }, [open, index, step, location.pathname, navigate]);
+  }, [open, index, step, location.pathname, location.search, navigate]);
   useEffect(() => {
     if (!open || step.kind !== "spotlight") return;
     const reposition = () => {
@@ -650,21 +670,78 @@ export const OnboardingTour = () => {
     };
   }, [open, step]);
 
+  const resetStepResolution = useCallback(() => {
+    lastResolvedKeyRef.current = "";
+    setRect(null);
+    setIsNavigating(false);
+  }, []);
   const next = useCallback(() => {
     if (index === 0) preloadRoutesOnce();
+    resetStepResolution();
     setIndex((i) => Math.min(i + 1, total - 1));
-  }, [index, preloadRoutesOnce, total]);
-  const prev = useCallback(() => setIndex((i) => Math.max(i - 1, 0)), []);
+  }, [index, preloadRoutesOnce, resetStepResolution, total]);
+  const prev = useCallback(() => {
+    resetStepResolution();
+    setIndex((i) => Math.max(i - 1, 0));
+  }, [resetStepResolution]);
+  const stopTourEvent = useCallback((event: React.MouseEvent | React.PointerEvent) => {
+    event.stopPropagation();
+  }, []);
+  const tourControlActionRef = useRef({
+    close,
+    isFirst,
+    isLast,
+    isStepResolving,
+    next,
+    prev,
+  });
+  const lastTourControlPressRef = useRef(0);
+  useEffect(() => {
+    tourControlActionRef.current = {
+      close,
+      isFirst,
+      isLast,
+      isStepResolving,
+      next,
+      prev,
+    };
+  }, [close, isFirst, isLast, isStepResolving, next, prev]);
+  useEffect(() => {
+    if (!open) return;
+    const handleControlPress = (event: PointerEvent | MouseEvent) => {
+      if (event.button !== 0 || !(event.target instanceof Element)) return;
+      if (event.type === "mousedown" && event.timeStamp - lastTourControlPressRef.current < 80) return;
+      const button = event.target.closest<HTMLButtonElement>("[data-tour-control]");
+      if (!button || button.disabled) return;
+      const control = button.dataset.tourControl;
+      const actions = tourControlActionRef.current;
+      if (control === "back" && (actions.isFirst || actions.isStepResolving)) return;
+      if ((control === "next" || control === "done") && actions.isStepResolving) return;
+      lastTourControlPressRef.current = event.timeStamp;
+      event.preventDefault();
+      event.stopPropagation();
+      event.stopImmediatePropagation();
+      if (control === "back") actions.prev();
+      else if (control === "skip" || control === "done") actions.close();
+      else if (control === "next") actions.next();
+    };
+    document.addEventListener("pointerdown", handleControlPress, true);
+    document.addEventListener("mousedown", handleControlPress, true);
+    return () => {
+      document.removeEventListener("pointerdown", handleControlPress, true);
+      document.removeEventListener("mousedown", handleControlPress, true);
+    };
+  }, [open]);
   useEffect(() => {
     if (!open) return;
     const handleKeyDown = (event: KeyboardEvent) => {
       if (event.key === "Escape") close();
-      else if (event.key === "ArrowRight" || event.key === "Enter") next();
-      else if (event.key === "ArrowLeft") prev();
+      else if (!isStepResolving && (event.key === "ArrowRight" || event.key === "Enter")) next();
+      else if (!isStepResolving && event.key === "ArrowLeft") prev();
     };
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [open, next, prev, close]);
+  }, [open, next, prev, close, isStepResolving]);
 
   const coachPos = useMemo(() => {
     if (!rect || step.kind !== "spotlight") return null;
@@ -673,8 +750,6 @@ export const OnboardingTour = () => {
 
   if (!open) return null;
 
-  const isFirst = index === 0;
-  const isLast = index === total - 1;
   const accent = step.accent;
   const accentClass = ACCENT_CLASSES[accent];
   const Icon = step.icon;
@@ -794,6 +869,9 @@ export const OnboardingTour = () => {
         return (
         <div
           className={`tour-coach-card absolute z-10 w-[380px] max-w-[92vw] rounded-2xl border border-border bg-card shadow-[0_24px_60px_-15px_rgba(0,0,0,0.55)] ${accentClass.text}`}
+          onPointerDown={stopTourEvent}
+          onMouseDown={stopTourEvent}
+          onClick={stopTourEvent}
           style={{
             ...positionStyle,
             borderTop: "3px solid currentColor",
@@ -838,14 +916,57 @@ export const OnboardingTour = () => {
             </div>
 
             <div className="mt-4 flex items-center justify-between gap-2">
-              <Button variant="ghost" size="sm" onClick={prev} disabled={isFirst} className="gap-1.5">
+              <Button
+                variant="ghost"
+                size="sm"
+                data-tour-control="back"
+                onPointerDown={(event) => {
+                  if (event.button !== 0 || isFirst || isStepResolving) return;
+                  event.preventDefault();
+                  stopTourEvent(event);
+                  prev();
+                }}
+                onClick={(event) => {
+                  stopTourEvent(event);
+                  if (event.detail === 0 && !isFirst && !isStepResolving) prev();
+                }}
+                disabled={isFirst || isStepResolving}
+                className="gap-1.5"
+              >
                 <ArrowLeft className="h-3.5 w-3.5" /> Back
               </Button>
               <div className="flex items-center gap-2">
-                <Button variant="ghost" size="sm" onClick={close} className="text-muted-foreground hover:text-foreground">
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  data-tour-control="skip"
+                  onClick={(event) => {
+                    stopTourEvent(event);
+                    close();
+                  }}
+                  className="text-muted-foreground hover:text-foreground"
+                >
                   Skip
                 </Button>
-                <Button size="sm" onClick={isLast ? close : next} className="gap-1.5">
+                <Button
+                  size="sm"
+                  data-tour-control={isLast ? "done" : "next"}
+                  onPointerDown={(event) => {
+                    if (event.button !== 0 || isStepResolving) return;
+                    event.preventDefault();
+                    stopTourEvent(event);
+                    if (isLast) close();
+                    else next();
+                  }}
+                  onClick={(event) => {
+                    stopTourEvent(event);
+                    if (event.detail !== 0 || isStepResolving) return;
+                    if (isLast) close();
+                    else next();
+                  }}
+                  disabled={isStepResolving}
+                  className="gap-1.5"
+                >
                   {isLast ? "Done" : "Next"}
                   <ArrowRight className="h-3.5 w-3.5" />
                 </Button>

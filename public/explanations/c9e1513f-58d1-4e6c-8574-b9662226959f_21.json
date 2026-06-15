@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Identify the center and radius of circle M",
       "content": "The equation $(x + 6a)^2 + (y - 38a)^2 = 36a^2$ is in standard form. Rewrite it as $(x - (-6a))^2 + (y - 38a)^2 = (6a)^2$ to identify:<ul><li>Center M: $(-6a, 38a)$</li><li>Radius: $6a$</li></ul>"
     },

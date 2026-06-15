@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: use the function table",
+      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is 0.3,3/10, so the answer is <strong>0.3,3/10</strong>. This is just a one-row lookup, and the arithmetic below confirms the table value."
+    },
+    {
       "title": "Substitute the value x = 6",
       "content": "Replace $x$ with $6$ in $$f(x) = \\frac{x-3}{x^2-7x+16}.$$ This gives $$f(6) = \\frac{6-3}{(6)^2-7(6)+16}.$$"
     },

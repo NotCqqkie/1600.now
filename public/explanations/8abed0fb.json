@@ -4,12 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the given value for x",
-      "content": "The second equation directly specifies $x = 1$. Rather than solving the system algebraically, substitute this known value into the first equation."
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$y = 2x + 3$$<br/>$$x = 1$$<br/>You do not need to solve or rearrange them first.",
+      "desmosExpressions": [
+        "y = 2x + 3",
+        "x = 1"
+      ]
     },
     {
-      "title": "Substitute and solve for y",
-      "content": "Plug $x = 1$ into $y = 2x + 3$: $$y = 2(1) + 3 = 2 + 3 = 5$$ The solution to the system is $(x, y) = (1, 5)$. That confirms <strong>B</strong> is correct."
+      "title": "Read the full intersection point",
+      "content": "Click the intersection point and read the full intersection point. It matches <strong>B</strong>, $(1,5)$."
+    },
+    {
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

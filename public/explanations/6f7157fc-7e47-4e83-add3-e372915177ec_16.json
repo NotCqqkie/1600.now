@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Set up and simplify the area equation",
       "content": "Use the formula for the area of a triangle: $A = \\frac{1}{2} \\times \\text{base} \\times \\text{height}$ <br/><br/>Let $h$ = height. The base is 12 cm greater, so base $= h + 12$. <br/><br/>Substitute into the area formula: <br/>$$270 = \\frac{1}{2}(h + 12) \\cdot h$$ <br/>Multiply both sides by 2 to clear the fraction: <br/>$$540 = h^2 + 12h$$ <br/>$$h^2 + 12h - 540 = 0$$"
     },

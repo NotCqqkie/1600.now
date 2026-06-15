@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+    },
+    {
       "title": "Check Statement II using SAS",
       "content": "Statement II gives $AC=DF$. Combine that with the information already given:<ul><li>$AB=DE=6$</li><li>$\\angle A=\\angle D=40^\\circ$</li><li>$AC=DF$</li></ul>The equal angle is between the two equal sides in each triangle, so this is SAS congruence. Statement II is <strong>sufficient</strong>."
     },
@@ -15,14 +19,6 @@
     {
       "title": "Counterexample for Statement III",
       "content": "The second case ($AC + DF \\neq AC = DF$) allows non-congruent triangles. For instance:<br/><br/>Suppose $\\triangle ABC$ has angles $A = 40^{\\circ}, B = 40^{\\circ}, C = 100^{\\circ}$ and $AB = 6$.<br/>Suppose $\\triangle DEF$ has angles $D = 40^{\\circ}, E = 60^{\\circ}, F = 80^{\\circ}$ and $DE = 6$.<br/><br/>Using the Law of Sines, both triangles can be constructed with:<br/>$$BC = \\frac{6\\sin(40^{\\circ})}{\\sin(100^{\\circ})} \\approx 3.92, \\qquad EF = \\frac{6\\sin(40^{\\circ})}{\\sin(80^{\\circ})} \\approx 3.92$$<br/>Since $\\sin(100^{\\circ}) = \\sin(80^{\\circ})$, these are equal. But $AC \\approx 3.92$ (because $\\triangle ABC$ is isosceles with $A = B = 40^{\\circ}$) and $DF \\approx 5.28$, so $AC \\neq DF$.<br/><br/>These triangles satisfy all given conditions <em>plus</em> $BC = EF$, yet they are <strong>not congruent</strong> because their angles differ. Statement III is <strong>not sufficient</strong>."
-    },
-    {
-      "title": "Check Statement I",
-      "content": "Statement I claims angle $B = $ angle $C$ in $\\triangle ABC$.<br/><br/>This means $\\triangle ABC$ is isosceles with:<br/>$$40^{\\circ} + B + C = 180^{\\circ} \\implies B = C = 70^{\\circ}$$<br/>So $\\triangle ABC$ has angles $40^{\\circ}–70^{\\circ}–70^{\\circ}$. However, this tells us <strong>nothing about</strong> $\\triangle DEF$. We only know $D = 40^{\\circ}$ and $DE = 6$ for triangle $DEF$; angles $E$ and $F$ are unrestricted (as long as $E + F = 140^{\\circ}$). Without knowing whether $\\triangle DEF$ also has the $40^{\\circ}–70^{\\circ}–70^{\\circ}$ angle configuration, we cannot prove congruence. Statement I is <strong>not sufficient</strong>."
-    },
-    {
-      "title": "Conclusion",
-      "content": "Summary:<ul><li><strong>Statement I</strong> — Not sufficient (defines angles in $ABC$ only, no constraint on $DEF$)</li><li><strong>Statement II</strong> — <strong>Sufficient</strong> (SAS congruence)</li><li><strong>Statement III</strong> — Not sufficient (ambiguous case; non-congruent triangles possible)</li></ul>Only Statement II guarantees congruence. <strong>B</strong> is correct."
     }
   ]
 }

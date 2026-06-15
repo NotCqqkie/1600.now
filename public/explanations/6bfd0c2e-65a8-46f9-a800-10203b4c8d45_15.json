@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Locate the angle on the unit circle",
       "content": "The angle $\\frac{3\\pi}{4}$ radians equals $\\frac{3}{4} \\times 180^{\\circ} = 135^{\\circ}$. This places the angle in the second quadrant, between $90^{\\circ}$ and $180^{\\circ}$."
     },

@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Set up the right triangle and identify the legs",
       "content": "In triangle $XYZ$, the right angle is at $Y$, which means the two legs are $XY$ and $YZ$. We're given that $YZ = 22$ units and angle $Z = 39^{\\circ}$. To find the area, we need both legs, so we must find the length of $XY$."
     },

@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Recognize complementary angles",
       "content": "The problem states $R + S = 90^{\\circ}$, so angles $R$ and $S$ are complementary. By the cofunction identity, when two angles sum to $90^{\\circ}$:<br/>$$\\sin(R) = \\cos(S)$$"
     },

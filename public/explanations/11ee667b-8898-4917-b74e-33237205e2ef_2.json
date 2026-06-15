@@ -4,16 +4,20 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest check: compare a table or graph",
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $7x^{2}+35$."
+    },
+    {
+      "title": "Algebra check",
+      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+    },
+    {
       "title": "Distribute",
       "content": "Distribute $7$:$$7(x^2+5)=7x^2+35$$"
     },
     {
       "title": "Match to the answer choices",
       "content": "The simplified expression is $7x^2+35$. That matches <strong>Choice A &mdash; $7x^{2}+35$</strong>."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches <strong>Choice A &mdash; $7x^{2}+35$</strong>, $7x^{2}+35$. The other choices do not satisfy the same condition from the question, so <strong>A</strong>."
     }
   ]
 }

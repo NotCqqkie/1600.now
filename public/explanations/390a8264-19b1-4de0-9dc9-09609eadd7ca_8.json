@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Apply the Pythagorean theorem",
       "content": "Since angle B is the right angle, AC is the hypotenuse. We have:<br/>$$AC^2 = (10\\sqrt{39})^2 + (24\\sqrt{39})^2$$<br/>Squaring each term:<br/>$$AC^2 = 100 \\cdot 39 + 576 \\cdot 39 = 39(100 + 576) = 39 \\cdot 676$$"
     },

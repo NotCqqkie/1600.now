@@ -4,16 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute the equations",
-      "content": "Replace $y$ in the second equation using $y=x+33$: $$(x+33)^2=x+33.$$"
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$x + 33 = y$$<br/>$$(x + 33)^2 = y$$<br/>You do not need to solve or rearrange them first.",
+      "desmosExpressions": [
+        "x + 33 = y",
+        "(x + 33)^2 = y"
+      ]
     },
     {
-      "title": "Solve the equation",
-      "content": "Let $u=x+33$, so $u^2=u$ gives $u(u-1)=0$, meaning $x+33=0$ or $x+33=1$. Thus $x=-33$ or $x=-32$."
+      "title": "Read the x-coordinate",
+      "content": "Click the intersection point and read the x-coordinate. It matches <strong>A</strong>, -32."
     },
     {
-      "title": "Pick a valid x",
-      "content": "Among the choices, $x=-32$ appears. The other solution, $x=-33$, is valid algebraically but is not listed as an answer choice. That confirms <strong>A</strong> is correct."
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

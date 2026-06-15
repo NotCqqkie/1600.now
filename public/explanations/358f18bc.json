@@ -4,6 +4,13 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$f \\left(x\\right)={x}^{2}-48x+2,304$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is $1728$.",
+      "desmosExpressions": [
+        "f \\left(x\\right)={x}^{2}-48x+2,304"
+      ]
+    },
+    {
       "title": "Find the vertex x-coordinate",
       "content": "The quadratic $f(x)=x^2-48x+2304$ opens upward because the coefficient of $x^2$ is positive, so its vertex gives the minimum. Use $$x=-\\dfrac{b}{2a}=-\\dfrac{-48}{2(1)}=24.$$"
     },

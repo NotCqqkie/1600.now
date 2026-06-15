@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: use the function table",
+      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $245$, so the answer is <strong>D</strong>, 245. This is just a one-row lookup, and the arithmetic below confirms the table value."
+    },
+    {
       "title": "Substitute the value x = 7",
       "content": "Replace $x$ with $7$ in $$f(x) = 5x^2.$$ This gives $$f(7) = 5(7)^2.$$"
     },
     {
       "title": "Compute the result",
       "content": "Simplify: $$f(7) = 5(49) = 245.$$ That confirms <strong>D</strong> is correct."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above confirms <strong>D</strong>, 245, and the other choices fail the same setup or substitution. Therefore <strong>D</strong> is correct."
     }
   ]
 }

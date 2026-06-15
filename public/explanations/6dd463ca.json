@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+    },
+    {
       "title": "Apply the corresponding angles property with parallel lines",
       "content": "BD is parallel to AE, so line CE is a transversal cutting both parallel lines. Angles AEC and BDC are corresponding angles in this configuration. By the corresponding angles property: $$\\angle AEC = \\angle BDC = 58^{\\circ}$$"
     },

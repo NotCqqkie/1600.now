@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+    },
+    {
       "title": "Set up",
       "content": "Triangle ABC ~ triangle XYZ with A&#8596;X, B&#8596;Y, C&#8596;Z, so &ang;Z = &ang;C. The interior angles of triangle ABC sum to 180&deg;: $$∠A + ∠B + ∠C = 180^{\\circ}$$"
     },

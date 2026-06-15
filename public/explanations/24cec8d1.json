@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Identify radii create an isosceles triangle",
       "content": "Since <em>R</em> and <em>S</em> lie on the circle with center <em>O</em>, the distances $OR$ and $OS$ are both radii of the same circle. Therefore $OR = OS$, which means triangle $ORS$ is isosceles."
     },

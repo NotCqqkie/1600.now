@@ -4,16 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recognize the system of equations",
-      "content": "The two equations are $4x + 5y = 100$ and $5x + 4y = 62$. Rather than solving for $x$ and $y$ individually, notice what happens when you add them."
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$x + 5y = 100$$<br/>$$5x + 4y = 62$$<br/>You do not need to solve or rearrange them first.",
+      "desmosExpressions": [
+        "x + 5y = 100",
+        "5x + 4y = 62"
+      ]
     },
     {
-      "title": "Add the two equations",
-      "content": "$$4x + 5y = 100$$<br/>$$5x + 4y = 62$$<br/>Adding left sides: $(4x + 5x) + (5y + 4y) = 9x + 9y$.<br/>Adding right sides: $100 + 62 = 162$.<br/>So $9x + 9y = 162$."
+      "title": "Read the x-coordinate",
+      "content": "Click the intersection point and read the x-coordinate. It matches <strong>C</strong>, 18."
     },
     {
-      "title": "Solve for x + y",
-      "content": "Divide both sides by 9:<br/>$$x + y = \\frac{162}{9} = 18$$<br/>That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+    },
+    {
       "title": "Find T in radians by adding",
       "content": "Since T is $\\frac{7\\pi}{12}$ radians greater than R:<br/>$$T = R + \\frac{7\\pi}{12} = \\frac{5\\pi}{6} + \\frac{7\\pi}{12}$$<br/>Convert to common denominator 12:<br/>$$\\frac{5\\pi}{6} = \\frac{10\\pi}{12}$$<br/>So:<br/>$$T = \\frac{10\\pi}{12} + \\frac{7\\pi}{12} = \\frac{17\\pi}{12}$$"
     },

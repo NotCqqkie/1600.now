@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Area of Circle N",
       "content": "<strong>Radius of N:</strong> 9 mm<br/><strong>Area formula:</strong> $$A = \\pi r^2$$<br/><strong>Area of N:</strong> $$\\pi \\times 9^2 = 81\\pi$$ mm^2"
     },

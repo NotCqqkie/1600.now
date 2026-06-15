@@ -4,6 +4,13 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$10x=86$$Graph or solve it directly and read the x-value that works. The requested value is $8.6$.",
+      "desmosExpressions": [
+        "10x=86"
+      ]
+    },
+    {
       "title": "Undo multiplication by 10",
       "content": "The equation is $10x=86$. Divide both sides by $10$ to isolate $x$: $$x=\\dfrac{86}{10}.$$"
     },

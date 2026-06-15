@@ -4,12 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Eliminate y by setting equations equal",
-      "content": "Since both equations equal $y$, we can set them equal to each other:<br/>$$8x = x^2 - 20$$<br/>Move all terms to one side:<br/>$$x^2 - 8x - 20 = 0$$"
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$y = 8x$$<br/>$$y = x^2 - 20$$<br/>You do not need to solve or rearrange them first.",
+      "desmosExpressions": [
+        "y = 8x",
+        "y = x^2 - 20"
+      ]
     },
     {
-      "title": "Factor the quadratic and apply the constraint",
-      "content": "Factor by finding two numbers that multiply to $-20$ and add to $-8$: those are $-10$ and $2$.<br/>$$(x - 10)(x + 2) = 0$$<br/>This gives $x = 10$ or $x = -2$. Since we need $x \\gt  0$, the answer is $x = 10$."
+      "title": "Read the x-coordinate",
+      "content": "Click the intersection point and read the x-coordinate. It matches <strong>$10$</strong>."
+    },
+    {
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

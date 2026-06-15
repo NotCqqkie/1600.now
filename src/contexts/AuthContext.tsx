@@ -126,20 +126,38 @@ const createGoogleProvider = (authModule: typeof import("firebase/auth")) => {
   return provider;
 };
 
+const FAST_AUTH_REDIRECT_PATHS = new Set(["/login", "/signup", "/verify-email"]);
+
+const shouldApplyUserBeforeClaims = () =>
+  typeof window !== "undefined" && FAST_AUTH_REDIRECT_PATHS.has(window.location.pathname);
+
 export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
   const [session, setSession] = useState<AppUser | null>(null);
   const [user, setUser] = useState<AppUser | null>(null);
   const [loading, setLoading] = useState(true);
   const [redirectError, setRedirectError] = useState<unknown>(null);
   const clearRedirectError = useCallback(() => setRedirectError(null), []);
-  const applyFirebaseUser = useCallback(async (firebaseUser: FirebaseUser | null) => {
-    const tokenResult = firebaseUser ? await firebaseUser.getIdTokenResult() : undefined;
-    const appUser = toAppUser(firebaseUser, tokenResult);
+
+  const applyAppUser = useCallback((appUser: AppUser | null) => {
     setSession(appUser);
     setUser(appUser);
     setLoading(false);
     void identifyUser(appUser?.uid ?? null);
   }, []);
+
+  const applyFirebaseUser = useCallback(async (firebaseUser: FirebaseUser | null) => {
+    if (!firebaseUser) {
+      applyAppUser(null);
+      return;
+    }
+
+    if (shouldApplyUserBeforeClaims()) {
+      applyAppUser(toAppUser(firebaseUser));
+    }
+
+    const tokenResult = await firebaseUser.getIdTokenResult();
+    applyAppUser(toAppUser(firebaseUser, tokenResult));
+  }, [applyAppUser]);
 
   useEffect(() => {
     let cancelled = false;

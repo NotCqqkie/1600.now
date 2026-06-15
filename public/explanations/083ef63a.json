@@ -4,6 +4,13 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$f \\left(x\\right)= \\left(x-2\\right) \\left(x+15\\right)$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is $-13/2$.",
+      "desmosExpressions": [
+        "f \\left(x\\right)= \\left(x-2\\right) \\left(x+15\\right)"
+      ]
+    },
+    {
       "title": "Use the roots shortcut",
       "content": "$f(x)=(x-2)(x+15)$ is an upward-opening parabola. Its roots are $x=2$ and $x=-15$."
     },

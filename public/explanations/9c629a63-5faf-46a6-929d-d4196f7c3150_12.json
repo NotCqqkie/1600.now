@@ -4,16 +4,19 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$4x^2 - x = 18$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is 2.25,9/4.",
+      "desmosExpressions": [
+        "4x^2 - x = 18"
+      ]
+    },
+    {
       "title": "Solve the equation",
       "content": "Rewrite as $4x^2-x-18=0$ and factor: $$(4x-9)(x+2)=0.$$ The roots are $x=\\tfrac{9}{4}$ and $x=-2$."
     },
     {
       "title": "Identify the positive solution",
       "content": "Take the positive root. The answer is <strong>9/4</strong>."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $2.25,9/4$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $2.25,9/4$."
     }
   ]
 }

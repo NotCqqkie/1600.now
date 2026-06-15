@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Set up the standard form equation",
       "content": "The standard form of a circle with center $(h, k)$ and radius $r$ is $$(x - h)^2 + (y - k)^2 = r^2$$ With center $(-4, 4)$ and radius $7$, substitute: $$(x - (-4))^2 + (y - 4)^2 = 7^2$$ $$(x + 4)^2 + (y - 4)^2 = 49$$"
     },

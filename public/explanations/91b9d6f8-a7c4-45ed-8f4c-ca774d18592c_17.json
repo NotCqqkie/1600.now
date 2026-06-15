@@ -4,6 +4,13 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$(2x - 7)^2 - 8(2x - 7) + 15 = 0$$Graph or solve it directly and read the x-value that works. The requested value is $5$ or $6$.",
+      "desmosExpressions": [
+        "(2x - 7)^2 - 8(2x - 7) + 15 = 0"
+      ]
+    },
+    {
       "title": "Substitute to eliminate the repeated expression",
       "content": "Notice that $(2x - 7)$ appears twice in the equation. Let $u = 2x - 7$ to simplify. The equation becomes:<br/>$$u^2 - 8u + 15 = 0$$"
     },

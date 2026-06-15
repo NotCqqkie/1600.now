@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Set up the surface area formula",
       "content": "A rectangular prism has three types of faces appearing twice each. With dimensions $l = 4$, $w = 5$, and $h = 6$ inches, we calculate the sum of the three distinct rectangular face areas, then double it.",
       "formula": "$$SA = 2(lw + lh + wh)$$"

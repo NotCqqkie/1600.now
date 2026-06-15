@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Set up the hemisphere volume formula",
       "content": "A hemisphere is half a sphere. The volume of a sphere is $V = \\frac{4}{3}\\pi r^3$. Therefore, the volume of a hemisphere is:<br/>$$V = \\frac{1}{2} \\cdot \\frac{4}{3}\\pi r^3 = \\frac{2}{3}\\pi r^3$$",
       "formula": "$$V = \\frac{2}{3}\\pi r^3$$"

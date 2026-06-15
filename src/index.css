@@ -1085,6 +1085,26 @@ body.tour-active aside[data-tour="sidebar"] a[data-tour^="nav-"] {
     box-shadow 600ms cubic-bezier(0.22, 1, 0.36, 1) !important;
 }
 
+body.tour-active [role="dialog"][aria-modal="true"],
+body.tour-active .tour-coach-card {
+  pointer-events: auto !important;
+}
+
+body.tour-active [role="menu"],
+body.tour-active [role="menu"] * {
+  pointer-events: none !important;
+  -webkit-user-select: none !important;
+  user-select: none !important;
+}
+
+body.tour-active [role="menuitem"][data-highlighted],
+body.tour-active [role="menuitemcheckbox"][data-highlighted],
+body.tour-active [role="menuitemradio"][data-highlighted] {
+  background-color: transparent !important;
+  color: inherit !important;
+  outline: none !important;
+}
+
 @keyframes question-image-placeholder-shimmer {
   0% { transform: translateX(-120%) skewX(-12deg); }
   100% { transform: translateX(220%) skewX(-12deg); }

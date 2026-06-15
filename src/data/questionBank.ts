@@ -78,6 +78,34 @@ let hiddenBankQuestionIdsPromise: Promise<Set<string>> | null = null;
 let pastQuestionDifficultyMapPromise: Promise<Record<string, CanonicalDifficulty | undefined>> | null = null;
 let questionSimilarityPromise: Promise<Pick<QuestionBankMetadata, "questionSimilarityGroupByQuestion" | "questionSimilarityGroupsById">> | null = null;
 
+type BankRouteIndexRow = readonly [
+  id: number,
+  stableId: string,
+  sourceId: string,
+  bankType: BankSourceId,
+  difficulty: "Easy" | "Medium" | "Hard" | null,
+  detailShard: number,
+];
+
+const bankRouteIndexLoaders = {
+  past: {
+    math: () => import("@/lib/generated/bank-route-index/past-math.generated").then((mod) => mod.BANK_ROUTE_INDEX_ROWS as readonly BankRouteIndexRow[]),
+    reading: () => import("@/lib/generated/bank-route-index/past-reading.generated").then((mod) => mod.BANK_ROUTE_INDEX_ROWS as readonly BankRouteIndexRow[]),
+  },
+  unofficial: {
+    math: () => import("@/lib/generated/bank-route-index/unofficial-math.generated").then((mod) => mod.BANK_ROUTE_INDEX_ROWS as readonly BankRouteIndexRow[]),
+    reading: () => import("@/lib/generated/bank-route-index/unofficial-reading.generated").then((mod) => mod.BANK_ROUTE_INDEX_ROWS as readonly BankRouteIndexRow[]),
+  },
+  all: {
+    math: () => import("@/lib/generated/bank-route-index/all-math.generated").then((mod) => mod.BANK_ROUTE_INDEX_ROWS as readonly BankRouteIndexRow[]),
+    reading: () => import("@/lib/generated/bank-route-index/all-reading.generated").then((mod) => mod.BANK_ROUTE_INDEX_ROWS as readonly BankRouteIndexRow[]),
+  },
+} satisfies Record<BankSourceFilter, Record<BankSubject, () => Promise<readonly BankRouteIndexRow[]>>>;
+
+const bankRouteIndexRowsPromiseCache = new Map<string, Promise<readonly BankRouteIndexRow[]>>();
+const bankQuestionDetailShardCache = new Map<string, Promise<readonly BankQuestion[]>>();
+const bankQuestionDetailShardBaseUrl = "/generated/bank-question-shards";
+
 const makeSourceSubjectCacheKey = (sourceId: BankSourceId, subject: BankSubject) =>
   `${sourceId}:${subject}`;
 
@@ -101,6 +129,19 @@ const loadQuestionSimilarity = () => {
     questionSimilarityGroupsById: mod.questionSimilarityGroupsById as Record<string, QuestionSimilarityGroupRecord>,
   }));
   return questionSimilarityPromise;
+};
+
+const loadBankRouteIndexRows = (
+  subject: BankSubject,
+  bankSource: BankSourceFilter = DEFAULT_BANK_SOURCE,
+): Promise<readonly BankRouteIndexRow[]> => {
+  const cacheKey = `${bankSource}:${subject}`;
+  const cached = bankRouteIndexRowsPromiseCache.get(cacheKey);
+  if (cached) return cached;
+
+  const promise = bankRouteIndexLoaders[bankSource][subject]();
+  bankRouteIndexRowsPromiseCache.set(cacheKey, promise);
+  return promise;
 };
 
 export const loadQuestionSimilarityMeta = async (
@@ -195,6 +236,15 @@ export interface BankQuestion {
   similarityGroupId?: string | null;
   similarityGroupLabel?: string | null;
   similarityGroupSize?: number | null;
+}
+
+export interface BankQuestionRouteRef {
+  id: number;
+  stableId: string;
+  sourceId: string;
+  bankType: BankSourceId;
+  difficulty?: "Easy" | "Medium" | "Hard" | null;
+  detailShard: number;
 }
 
 // Re-export category types for consumers
@@ -384,6 +434,21 @@ const isLikelyPassageBlock = (text: string): boolean => {
   return false;
 };
 
+const splitLeadingQuestionBeforePassageMarker = (raw: string): { passage?: string; questionText?: string } | null => {
+  const trimmed = raw.trim();
+  const match = trimmed.match(/^([\s\S]+?\?)\s+(Text\s+[1-4]\b[\s\S]*)$/i);
+  if (!match) return null;
+
+  const questionText = match[1].trim();
+  const passage = match[2].trim();
+  if (!isLikelyQuestionPrompt(questionText) || !isLikelyPassageBlock(passage)) return null;
+
+  return {
+    passage: sanitizeReadingText(passage),
+    questionText: sanitizeReadingText(questionText),
+  };
+};
+
 const splitInlinePromptByPattern = (raw: string): { passage?: string; questionText?: string } | null => {
   const trimmed = raw.trim();
   if (!trimmed.endsWith("?")) return null;
@@ -426,6 +491,9 @@ const splitQuestionFirstStem = (raw: string): { passage?: string; questionText?:
 
   const inlineSplit = splitInlinePromptByPattern(trimmed);
   if (inlineSplit) return inlineSplit;
+
+  const leadingQuestionBeforeMarkerSplit = splitLeadingQuestionBeforePassageMarker(trimmed);
+  if (leadingQuestionBeforeMarkerSplit) return leadingQuestionBeforeMarkerSplit;
 
   const newlineIndex = trimmed.indexOf("\n");
   if (newlineIndex !== -1) {
@@ -663,6 +731,8 @@ const normalizeQuestion = (
 
 const poolCache = new Map<string, Promise<BankQuestion[]>>();
 const sourcePoolCache = new Map<string, Promise<BankQuestion[]>>();
+const resolvedPoolCache = new Map<string, BankQuestion[]>();
+const resolvedSourcePoolCache = new Map<string, BankQuestion[]>();
 const rawSourceSubjectCache = new Map<string, Promise<SourceQuestion[]>>();
 const normalizedSourceSubjectCache = new Map<string, Promise<Omit<BankQuestion, "id">[]>>();
 
@@ -788,10 +858,12 @@ export const loadBankPool = async (
 
     const visiblePool = rawPool.filter((question) => !question.hiddenFromBank);
 
-    return spaceOutNearDuplicates(visiblePool).map((question, index) => ({
+    const questions = spaceOutNearDuplicates(visiblePool).map((question, index) => ({
       ...question,
       id: index + 1,
     }));
+    resolvedPoolCache.set(cacheKey, questions);
+    return questions;
   })();
 
   poolCache.set(cacheKey, promise);
@@ -799,6 +871,12 @@ export const loadBankPool = async (
 };
 
 export const loadAllBankQuestions = loadBankPool;
+
+export const getResolvedBankPool = (
+  subject: BankSubject,
+  bankSource: BankSourceFilter = DEFAULT_BANK_SOURCE,
+  options: QuestionBankLoadOptions = {},
+): BankQuestion[] | null => resolvedPoolCache.get(makePoolCacheKey(subject, bankSource, options)) ?? null;
 
 export const loadAllSourceBankQuestions = async (
   subject: BankSubject,
@@ -820,13 +898,126 @@ export const loadAllSourceBankQuestions = async (
       )
     ).flat();
 
-    return sourcePool.map((question, index) => ({
+    const questions = sourcePool.map((question, index) => ({
       ...question,
       id: index + 1,
     }));
+    resolvedSourcePoolCache.set(cacheKey, questions);
+    return questions;
   })();
 
   sourcePoolCache.set(cacheKey, promise);
+  return promise;
+};
+
+export const getResolvedAllSourceBankQuestions = (
+  subject: BankSubject,
+  bankSource: BankSourceFilter = DEFAULT_BANK_SOURCE,
+  options: QuestionBankLoadOptions = {},
+): BankQuestion[] | null => resolvedSourcePoolCache.get(makePoolCacheKey(subject, bankSource, options)) ?? null;
+
+const routeRefsCache = new Map<string, Promise<BankQuestionRouteRef[]>>();
+const routeRefBySourceIdCache = new Map<string, Promise<Map<string, BankQuestionRouteRef>>>();
+const routeIndexedQuestionCache = new Map<string, Promise<BankQuestion | null>>();
+
+const loadBankQuestionDetailShard = (
+  sourceId: BankSourceId,
+  subject: BankSubject,
+  shardIndex: number,
+): Promise<readonly BankQuestion[]> => {
+  const cacheKey = `${sourceId}:${subject}:${shardIndex}`;
+  const cached = bankQuestionDetailShardCache.get(cacheKey);
+  if (cached) return cached;
+
+  const promise = fetch(
+    `${bankQuestionDetailShardBaseUrl}/${sourceId}-${subject}-${shardIndex}.json`,
+  ).then((response) =>
+    response.json() as Promise<readonly BankQuestion[]>,
+  );
+  bankQuestionDetailShardCache.set(cacheKey, promise);
+  return promise;
+};
+
+const routeRowToRef = (row: BankRouteIndexRow): BankQuestionRouteRef => ({
+  id: row[0],
+  stableId: row[1],
+  sourceId: row[2],
+  bankType: row[3],
+  difficulty: row[4],
+  detailShard: row[5],
+});
+
+export const loadBankQuestionRouteRefs = (
+  subject: BankSubject,
+  bankSource: BankSourceFilter = DEFAULT_BANK_SOURCE,
+): Promise<BankQuestionRouteRef[]> => {
+  const cacheKey = `${subject}:${bankSource}`;
+  const cached = routeRefsCache.get(cacheKey);
+  if (cached) return cached;
+
+  const promise = loadBankRouteIndexRows(subject, bankSource).then((rows) =>
+    rows.map(routeRowToRef),
+  );
+
+  routeRefsCache.set(cacheKey, promise);
+  return promise;
+};
+
+export const loadBankQuestionRouteRef = async (
+  subject: BankSubject,
+  idParam: string,
+  bankSource: BankSourceFilter = DEFAULT_BANK_SOURCE,
+): Promise<BankQuestionRouteRef | null> => {
+  const refs = await loadBankQuestionRouteRefs(subject, bankSource);
+  if (/^\d+$/.test(idParam)) {
+    const questionNumber = Number.parseInt(idParam, 10);
+    return refs[questionNumber - 1] ?? null;
+  }
+
+  const cacheKey = `${subject}:${bankSource}`;
+  let sourceIdIndex = routeRefBySourceIdCache.get(cacheKey);
+  if (!sourceIdIndex) {
+    sourceIdIndex = Promise.resolve(new Map(refs.map((ref) => [ref.sourceId, ref])));
+    routeRefBySourceIdCache.set(cacheKey, sourceIdIndex);
+  }
+
+  return (await sourceIdIndex).get(idParam) ?? null;
+};
+
+export const loadRouteIndexedBankQuestion = (
+  subject: BankSubject,
+  idParam: string,
+  bankSource: BankSourceFilter = DEFAULT_BANK_SOURCE,
+  options: QuestionBankLoadOptions = {},
+): Promise<BankQuestion | null> => {
+  const cacheKey = `${makePoolCacheKey(subject, bankSource, options)}:${idParam}`;
+  const cached = routeIndexedQuestionCache.get(cacheKey);
+  if (cached) return cached;
+
+  const promise = (async () => {
+    const routeRef = await loadBankQuestionRouteRef(subject, idParam, bankSource);
+    if (!routeRef) return null;
+
+    const detailShard = await loadBankQuestionDetailShard(
+      routeRef.bankType,
+      subject,
+      routeRef.detailShard,
+    );
+    const question = detailShard.find((candidate) => candidate.sourceId === routeRef.sourceId);
+    if (!question) return null;
+
+    const similarityMeta = options.includeSimilarity
+      ? await loadQuestionSimilarityMeta(routeRef.stableId)
+      : null;
+
+    return {
+      ...question,
+      ...(similarityMeta ?? {}),
+      id: routeRef.id,
+    };
+  })();
+
+  routeIndexedQuestionCache.set(cacheKey, promise);
   return promise;
 };
 

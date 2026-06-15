@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Write the volume formula for a prism",
       "content": "$$V = B h$$"
     },
     {
       "title": "Solve for base area",
       "content": "$$B = \\frac{V}{h} = \\frac{60}{3} = 20\\text{ cm}^2$$ The answer is <strong>20</strong>."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $20$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $20$."
     }
   ]
 }

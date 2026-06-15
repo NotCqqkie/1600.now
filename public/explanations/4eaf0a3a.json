@@ -4,6 +4,14 @@
   "correctAnswer": "B",
   "steps": [
     {
+      "title": "Fastest check: compare a table or graph",
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, ${ \\left(xy\\right)}^{\\frac{9}{7}}$."
+    },
+    {
+      "title": "Algebra check",
+      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+    },
+    {
       "title": "Rewrite the radical as a fractional exponent",
       "content": "$$\\sqrt[7]{x^9y^9}=(x^9y^9)^{1/7}$$"
     },
@@ -14,10 +22,7 @@
     {
       "title": "Apply the power rule",
       "content": "$$\\bigl((xy)^9\\bigr)^{1/7}=(xy)^{9\\cdot\\frac{1}{7}}=(xy)^{9/7}$$"
-    },
-    {
-      "title": "Evaluate each choice",
-      "content": "<ul><li>A: $(xy)^{7/9}$ — exponent is inverted. Incorrect.</li><li>B: $(xy)^{9/7}$ — matches exactly. <strong>B</strong> is correct.</li><li>C: $(xy)^{16}$ — 9+7=16 is the wrong operation; exponents multiply, not add. Incorrect.</li><li>D: $(xy)^{63}$ — 9&times;7=63 confuses the index with a multiplier. Incorrect.</li></ul>"
     }
-  ]
+  ],
+  "section": "Math"
 }

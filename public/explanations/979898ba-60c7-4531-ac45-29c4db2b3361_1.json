@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: use the function table",
+      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $22$, so the answer is <strong>B</strong>, $22$. This is just a one-row lookup, and the arithmetic below confirms the table value."
+    },
+    {
       "title": "Substitute into the function",
       "content": "With $g(x)=25-x$, replace $x$ with $3$: $$g(3)=25-3.$$"
     },
     {
       "title": "Simplify",
       "content": "$$g(3)=22.$$"
-    },
-    {
-      "title": "Avoid the input-output trap",
-      "content": "The input $3$ is not the answer by itself. The question asks for the output of the function when $x=3$, so the subtraction in $25-x$ must be completed."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The value of $g(3)$ is $22$, so <strong>B</strong> is correct."
     }
   ]
 }

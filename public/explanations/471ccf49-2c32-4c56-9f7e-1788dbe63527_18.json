@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Recognize complementary angles in the right triangle",
       "content": "Since angle J is the right angle ($90^{\\circ}$), the other two angles K and L must be complementary: <br/>$$K + L = 90^{\\circ}$$<br/>This means $L = 90^{\\circ} - K$."
     },

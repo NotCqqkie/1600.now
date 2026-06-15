@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Use the scale shortcut: perimeter scales by linear factor k",
       "content": "Triangle $ABC$ and triangle $DEF$ are similar with $DE = 2 \\cdot AB$, so the linear scale factor is $k = 2$.<br/>Perimeters scale by the same factor:<br/>$$2 \\times 20 = 40$$<br/>That matches <strong>Choice B &mdash; 40</strong>."
     }

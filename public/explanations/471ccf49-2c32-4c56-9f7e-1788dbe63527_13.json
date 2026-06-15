@@ -4,6 +4,13 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$x(x - 15) = 34$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is $17$.",
+      "desmosExpressions": [
+        "x(x - 15) = 34"
+      ]
+    },
+    {
       "title": "Set up",
       "content": "Expand and rearrange into standard form: $x^2 - 15x - 34 = 0$"
     },

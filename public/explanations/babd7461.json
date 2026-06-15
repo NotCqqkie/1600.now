@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Find the scale factor from corresponding sides",
       "content": "Since $J$ corresponds to $R$ and $K$ corresponds to $S$, the sides $\\overline{JK}$ and $\\overline{RS}$ are corresponding sides. The scale factor is:<br/>$$k = \\frac{RS}{JK} = \\frac{135}{15} = 9$$"
     },

@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Identify the given information",
       "content": "From the diagram and problem statement: the area of triangle ABC is 220 square centimeters, and the base (AC) is 10 centimeters. We need to find the height h, which is the perpendicular distance from vertex B to the base."
     },

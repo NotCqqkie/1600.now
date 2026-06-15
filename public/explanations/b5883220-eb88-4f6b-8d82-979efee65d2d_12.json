@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+    },
+    {
       "title": "Recall the height formula for an equilateral triangle",
       "content": "For an equilateral triangle with side length $s$, the height is determined by dropping a perpendicular from one vertex to the opposite side.<br/><br/>This divides the triangle into two congruent right triangles, each with hypotenuse $s$ and base $\\frac{s}{2}$.<br/><br/>Using the Pythagorean theorem, we can derive the formula for the height.",
       "formula": "$$h = \\frac{s\\sqrt{3}}{2}$$"

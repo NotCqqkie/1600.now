@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+    },
+    {
       "title": "Apply angle-angle similarity criterion",
       "content": "We already have angle <em>L</em> = angle <em>R</em> = 60 degrees. For AA similarity, we need one more pair of equal angles. The side-length options alone do not establish similarity here, so focus on the additional angle information."
     },

@@ -18,7 +18,8 @@ interface QuestionNavigatorSheetProps {
   buttonLabel: string;
   title?: string;
   subtitle?: string;
-  items: QuestionNavigatorItem[];
+  items?: QuestionNavigatorItem[];
+  buildItems?: () => QuestionNavigatorItem[];
   isSplitScreenActive?: boolean;
   splitPosition?: number;
   headerActions?: ReactNode;
@@ -51,7 +52,8 @@ export const QuestionNavigatorSheet = ({
   buttonLabel,
   title = "Question Navigator",
   subtitle,
-  items,
+  items = [],
+  buildItems,
   isSplitScreenActive = false,
   splitPosition = 50,
   headerActions,
@@ -61,6 +63,7 @@ export const QuestionNavigatorSheet = ({
   const gridRef = useRef<HTMLDivElement>(null);
   const panelRef = useRef<HTMLDivElement>(null);
   const triggerRef = useRef<HTMLButtonElement>(null);
+  const visibleItems = isOpen ? (buildItems ? buildItems() : items) : [];
 
   useEffect(() => {
     if (!isOpen) return;
@@ -192,7 +195,7 @@ export const QuestionNavigatorSheet = ({
             className="overflow-y-auto overflow-x-hidden max-h-[calc(55vh-180px)] p-1"
             style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(2.5rem, 1fr))", gap: "0.5rem" }}
           >
-            {items.map((item) => (
+            {visibleItems.map((item) => (
               <button
                 key={item.key}
                 onClick={() => {

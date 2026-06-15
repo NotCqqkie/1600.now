@@ -3,6 +3,14 @@
   "qid": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_12",
   "steps": [
     {
+      "title": "Fastest check: compare a table or graph",
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $9x^2(x^4 - 7)$."
+    },
+    {
+      "title": "Algebra check",
+      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+    },
+    {
       "title": "Find the greatest common factor",
       "content": "Identify the greatest common factor (GCF) of $9x^6$ and $63x^2$. The GCF of 9 and 63 is 9, and the GCF of $x^6$ and $x^2$ is $x^2$, so the overall GCF is $9x^2$.<br/><br/><strong>Result:</strong> GCF = $9x^2$"
     },
@@ -13,11 +21,8 @@
     {
       "title": "Check by expanding",
       "content": "Verify by expanding: $9x^2 \\cdot x^4 = 9x^6$ and $9x^2 \\cdot 7 = 63x^2$, so $9x^2(x^4-7) = 9x^6 - 63x^2$. Confirmed.<br/><br/><strong>Result:</strong> Factored form is correct"
-    },
-    {
-      "title": "Compare with the choices",
-      "content": "<ul><li><strong>\"$\\left(9\\right)(x^3 - 7x^2)^2$\"</strong>: Expanding gives $\\left(9\\right)(x^6 - 14x^5 + 49x^4)$, which introduces $x^5$ and $x^4$ terms not in the original. Eliminated.</li><li><strong>\"$x^2(9x - 7)^4$\"</strong>: Raising $(9x-7)$ to the fourth power yields a polynomial with five terms; multiplied by $x^2$ this cannot simplify to just two terms. Eliminated.</li><li><strong>\"$9x^2(x - 7)^4$\"</strong>: Expanding $(x-7)^4$ gives $x^4 - 28x^3 + 294x^2 - 1372x + 2401$; after multiplying by $9x^2$ there are far more terms than the original expression. Eliminated.</li><li><strong>\"$9x^2(x^4 - 7)$\"</strong>: Matches exactly. That matches the correct answer — <strong>D</strong> is correct.</li></ul><br/><br/><strong>Result:</strong> D"
     }
   ],
-  "correctAnswer": "D"
+  "correctAnswer": "D",
+  "section": "Math"
 }

@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+    },
+    {
       "title": "Identify corresponding sides and set up proportion",
       "content": "Since $A \\leftrightarrow X$, $B \\leftrightarrow Y$, and $C \\leftrightarrow Z$, the sides correspond as: $AB \\leftrightarrow XY$ and $BC \\leftrightarrow YZ$.<br/>For similar triangles, the ratios of corresponding sides are equal:<br/>$$\\frac{AB}{XY} = \\frac{BC}{YZ}$$<br/>Substituting the known values:<br/>$$\\frac{170}{XY} = \\frac{850}{60}$$"
     },

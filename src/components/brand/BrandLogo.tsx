@@ -39,7 +39,8 @@ export const BrandLogo = ({
         <>
           <img
             src={fullSrc}
-            alt="1600.now"
+            alt=""
+            aria-hidden="true"
             className={cn(
               "absolute inset-0 h-full w-full object-contain object-left",
               collapsed ? "pointer-events-none opacity-0" : "opacity-100",
@@ -65,7 +66,8 @@ export const BrandLogo = ({
       ) : (
         <img
           src={variant === "mark" ? markSrc : fullSrc}
-          alt="1600.now"
+          alt=""
+          aria-hidden="true"
           className={cn(
             "absolute inset-0 h-full w-full object-contain",
             imageClassName,

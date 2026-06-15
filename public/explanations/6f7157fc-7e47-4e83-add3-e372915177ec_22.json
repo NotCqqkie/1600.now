@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+    },
+    {
       "title": "Set up the similarity ratio using the intercept theorem",
       "content": "Since $\\overline{LM} \\parallel \\overline{PQ}$ and $\\overline{LQ}$ intersects $\\overline{MP}$ at R, triangles LRM and QRP are similar by AA (vertical angles at R; alternate interior angles with the parallel lines). Therefore: $$\\frac{LR}{RQ} = \\frac{MR}{RP} \\implies \\frac{10}{RQ} = \\frac{9}{19} \\implies RQ = \\frac{190}{9}$$"
     },

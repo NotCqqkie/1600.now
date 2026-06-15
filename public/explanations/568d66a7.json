@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Set up the perimeter equation for a 45-45-90 triangle",
       "content": "An isosceles right triangle has legs of equal length. Let's call the leg length $a$.<br/><br/>In a 45-45-90 triangle, the hypotenuse equals $a\\sqrt{2}$. The perimeter is: $$2a + a\\sqrt{2} = a(2 + \\sqrt{2}) = 94 + 94\\sqrt{2}$$"
     },

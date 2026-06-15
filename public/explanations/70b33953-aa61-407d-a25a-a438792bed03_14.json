@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+    },
+    {
       "title": "Read the figure and set up similar triangles",
       "content": "The figure shows that angle $A$ is a right angle, $AC = 17$, and $BE = 9$. Since $\\overline{DE} \\parallel \\overline{AC}$, triangles $BDE$ and $BAC$ are similar (AA similarity), giving ratio $k = \\frac{BD}{BA} = \\frac{BE}{BC} = \\frac{DE}{AC}$. With $BE = 9$, the ratio is $k = \\frac{9}{BC}$."
     },
@@ -14,14 +18,6 @@
     {
       "title": "Verify with the right-angle triangle",
       "content": "With $BC = 18$ and $AC = 17$ and right angle at $A$: $AB = \\sqrt{BC^2 - AC^2} = \\sqrt{324 - 289} = \\sqrt{35}$. Then $BD = \\frac{AB}{2} = \\frac{\\sqrt{35}}{2}$ (since $D$ is the midpoint of $AB$). The median from $A$ to the midpoint of hypotenuse $BC$ equals half the hypotenuse: $AE = \\frac{BC}{2} = 9$. These values are consistent with the problem&apos;s geometric setup, confirming $BC = 18$."
-    },
-    {
-      "title": "Check the other choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;153&rsquo;</strong>: $BC = 153$ gives $k = \\frac{9}{153} = \\frac{1}{17}$, so $D$ is $\\frac{1}{17}$ of the way from $B$ to $A$. No consistent solution emerges. &#10007;</li><li><strong>Choice B &mdash; &lsquo;34&rsquo;</strong>: $BC = 34$ gives $k = \\frac{9}{34}$. Then $AB = \\sqrt{34^2 - 17^2} = \\sqrt{1156 - 289} = \\sqrt{867}$, and $BD = \\frac{9\\sqrt{867}}{34}$. This does not satisfy the geometric constraint. &#10007;</li><li><strong>Choice C &mdash; &lsquo;26&rsquo;</strong>: $BC = 26$ gives $k = \\frac{9}{26}$. Then $AB = \\sqrt{676 - 289} = \\sqrt{387}$, and $BD = \\frac{9\\sqrt{387}}{26}$. Not consistent. &#10007;</li><li><strong>Choice D &mdash; &lsquo;18&rsquo;</strong>: $BC = 18$ gives $k = \\frac{1}{2}$, $E$ is the midpoint of $BC$, $D$ is the midpoint of $AB$, and $AB = \\sqrt{35}$. The configuration is fully consistent. &#10003;</li></ul>"
-    },
-    {
-      "title": "Conclusion",
-      "content": "With $BC = 18$, $k = \\frac{1}{2}$, $D$ is the midpoint of $AB$ and $E$ is the midpoint of $BC$. That confirms <strong>D</strong> is correct."
     }
   ]
 }

@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Use tangent properties and perimeter to find the tangent segment length",
       "content": "Tangent lines to a circle are perpendicular to the radius at the point of tangency, so $\\angle GMH = \\angle GNH = 90^{\\circ}$. Also, tangent segments from an external point to a circle are equal, so $HM = HN$.<br/><br/>The perimeter of quadrilateral $GMHN$ is:<br/>$$GM + MH + HN + NG = 3,856$$<br/>Since $GM = GN = 168$ (both radii) and $MH = HN = t$ (equal tangent segments), we have:<br/>$$168 + t + t + 168 = 3,856$$<br/>$$336 + 2t = 3,856$$<br/>$$2t = 3,520$$<br/>$$t = 1,760 \\text{ mm}$$"
     },

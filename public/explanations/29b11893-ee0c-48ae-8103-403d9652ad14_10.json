@@ -4,6 +4,10 @@
   "correctAnswer": "A",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+    },
+    {
       "title": "Use corresponding angles",
       "content": "In similar triangles, corresponding angles are always equal. Since $A$ corresponds to $D$, we have $\\angle D = \\angle A = 26^{\\circ}$. Statement I is true."
     },
@@ -15,5 +19,6 @@
       "title": "Check the choices",
       "content": "<ul><li>Choice A: I only &mdash; Statement I ($\\angle D = 26^{\\circ}$) must be true; Statement II ($DE = 4$) need not be true. That matches <strong>Choice A &mdash; I only</strong>.</li><li>Choice B: II only &mdash; Statement I is definitely true and Statement II is not guaranteed. Eliminated.</li><li>Choice C: I and II &mdash; Statement II is not necessarily true. Eliminated.</li><li>Choice D: Neither I nor II &mdash; Statement I must be true. Eliminated.</li></ul>"
     }
-  ]
+  ],
+  "section": "Math"
 }

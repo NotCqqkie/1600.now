@@ -4,16 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set the equations equal",
-      "content": "Set $x+21 = 12x$, giving $$11x = 21 \\Rightarrow x = \\tfrac{21}{11}.$$"
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$y = x + 21$$<br/>$$y = 12x$$<br/>You do not need to solve or rearrange them first.",
+      "desmosExpressions": [
+        "y = x + 21",
+        "y = 12x"
+      ]
     },
     {
-      "title": "Count the intersection points",
-      "content": "Two distinct lines with different slopes meet at exactly one point. That confirms <strong>B</strong> is correct."
+      "title": "Read the number of intersections",
+      "content": "The graphs show $1$ intersection point(s), so the matching answer is <strong>B</strong>, 1."
     },
     {
-      "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches the correct answer, 1, and the other choices fail the same setup or substitution. Therefore <strong>B</strong> is correct."
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

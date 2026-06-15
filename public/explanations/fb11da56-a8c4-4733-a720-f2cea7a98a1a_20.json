@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+    },
+    {
       "title": "Identify that angle BDE equals angle CDF",
       "content": "In triangle $BED$, the angle sum gives $\\angle BDE = 180^{\\circ} - \\angle DBE - \\angle BED = 180^{\\circ} - \\angle ABC - \\angle BED$.<br/><br/>In triangle $CFD$, similarly $\\angle CDF = 180^{\\circ} - \\angle DCF - \\angle CFD = 180^{\\circ} - \\angle ACB - \\angle CFD$.<br/><br/>Since triangle $ABC$ is isosceles with $AB = AC$, we have $\\angle ABC = \\angle ACB$.<br/><br/>The problem states $\\angle BED = \\angle CFD$. Therefore:<br/>$$\\angle BDE = 180^{\\circ} - \\angle ABC - \\angle BED = \\angle CDF$$"
     },

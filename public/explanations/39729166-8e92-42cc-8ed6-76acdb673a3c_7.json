@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Set up",
       "content": "Area of rectangle X = 24 &times; 17.5 = 420 mm&sup2;. The rectangle&apos;s area is 3 times the triangle&apos;s area, so triangle Y&apos;s area = 420 &divide; 3 = 140 mm&sup2;."
     },

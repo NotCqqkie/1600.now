@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Apply Pythagorean Theorem to find the other side",
       "content": "The diagonal of a rectangle forms a right triangle with its two adjacent sides. Starting with side $a = 4$ and diagonal $d = \\sqrt{65}$:<br/>$$(\\sqrt{65})^2 = 4^2 + b^2$$<br/>$$65 = 16 + b^2$$<br/>$$b^2 = 49$$<br/>$$b = 7$$",
       "formula": "$$a^2 + b^2 = d^2$$"

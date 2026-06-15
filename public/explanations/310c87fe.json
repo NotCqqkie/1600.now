@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Find the side length using the surface area formula",
       "content": "A cube has 6 square faces, each with area $s^2$, where $s$ is the side length. Given that the surface area is 54, we solve: $$6s^2 = 54$$ Dividing both sides by 6: $$s^2 = 9$$ Taking the positive square root: $$s = 3 \\text{ meters}$$",
       "formula": "$$SA = 6s^2$$"

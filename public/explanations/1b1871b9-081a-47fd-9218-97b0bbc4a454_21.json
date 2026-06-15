@@ -4,6 +4,13 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$15x^2 = 15(9)$$Graph or solve it directly and read the x-value that works. The requested value is $-3$.",
+      "desmosExpressions": [
+        "15x^2 = 15(9)"
+      ]
+    },
+    {
       "title": "Divide both sides by 15 to simplify",
       "content": "The equation $15x^2 = 15(9)$ has a common factor of 15 on both sides. Divide both sides by 15:<br/>$$x^2 = 9$$"
     },

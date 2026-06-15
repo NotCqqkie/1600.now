@@ -4,6 +4,13 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$(3x - 8)^2 - 11(3x - 8) + 28 = 0$$Graph or solve it directly and read the x-value that works. The requested value is $4$ or $5$.",
+      "desmosExpressions": [
+        "(3x - 8)^2 - 11(3x - 8) + 28 = 0"
+      ]
+    },
+    {
       "title": "Substitute to simplify the repeating expression",
       "content": "Notice that $(3x - 8)$ appears twice in the equation. Substitute $u = 3x - 8$ to transform it into a standard quadratic:<br/>$$u^2 - 11u + 28 = 0$$"
     },

@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: use the function table",
+      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $\\frac{35}{4}$, so the answer is <strong>B</strong>, $\\frac{35}{4}$. This is just a one-row lookup, and the arithmetic below confirms the table value."
+    },
+    {
       "title": "Substitute the value x = 3",
       "content": "Replace $x$ with $3$ in $$h(x) = 14 \\cdot 2^{-x} + 7.$$ This gives $$h(3) = 14 \\cdot 2^{-3} + 7.$$"
     },

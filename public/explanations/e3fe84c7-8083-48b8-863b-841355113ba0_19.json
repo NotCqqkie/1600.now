@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Complete the square for x and y",
       "content": "Group and complete the square: $$(x^2+4x)+(y^2-8y)=80 \\Rightarrow (x+2)^2 + (y-4)^2 = 100.$$"
     },

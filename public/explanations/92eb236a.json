@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Complementary angle identity for right triangles",
       "content": "In a right triangle, the two acute angles are complementary—they sum to 90°. If one acute angle is θ, the other is 90° − θ. For complementary angles, the tangent of one equals the reciprocal of the tangent of the other.",
       "formula": "$$\\tan(90^{\\circ} - \\theta) = \\cot(\\theta) = \\frac{1}{\\tan(\\theta)}$$"

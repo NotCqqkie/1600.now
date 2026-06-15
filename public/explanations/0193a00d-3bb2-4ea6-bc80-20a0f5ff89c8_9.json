@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Interpret the tangent ratio",
       "content": "In right triangle $ABC$ with right angle at $B$, tangent is opposite over adjacent. So:<br/>$$\\tan(C) = \\frac{AB}{BC} = \\frac{3}{4}$$<br/>This means $AB: BC = 3: 4$, so we can write $AB = 3k$ and $BC = 4k$ for some positive constant $k$."
     },

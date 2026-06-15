@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Set up the standard form using the given center",
       "content": "For a circle, we substitute the center $(-4, 1)$ into the standard form where $(h, k) = (-4, 1)$, giving $h = -4$ and $k = 1$:<br/>$$(x + 4)^2 + (y - 1)^2 = r^2$$"
     },

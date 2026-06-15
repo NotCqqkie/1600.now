@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Determine the outer rectangle dimensions",
       "content": "Since the concrete path is x feet wide on all sides, it adds x feet in each direction. The outer rectangle has dimensions:<ul><li>Length: 21 + 2x feet</li><li>Width: 11 + 2x feet</li></ul>"
     },

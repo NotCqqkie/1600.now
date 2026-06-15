@@ -4,6 +4,14 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest check: compare a table or graph",
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, ${d}^{2}+11$."
+    },
+    {
+      "title": "Algebra check",
+      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+    },
+    {
       "title": "Combine the constants",
       "content": "The expression $8+d^2+3$ has two numerical constants and one $d^2$ term. Add the constants: $$8+3=11.$$ The $d^2$ term has no like term to combine with, so it stays as is."
     },

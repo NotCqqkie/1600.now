@@ -4,6 +4,13 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$\\frac{ \\left(x+9\\right) \\left(x-9\\right)}{x+9}=7$$Graph or solve it directly and read the x-value that works. The requested value is $16$.",
+      "desmosExpressions": [
+        "\\frac{ \\left(x+9\\right) \\left(x-9\\right)}{x+9}=7"
+      ]
+    },
+    {
       "title": "Cancel the common factor",
       "content": "The numerator and denominator both contain $x+9$. Since none of the choices is $-9$, the expression simplifies safely for the answer choices: $$\\frac{(x+9)(x-9)}{x+9}=x-9$$"
     },

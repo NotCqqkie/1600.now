@@ -4,6 +4,13 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$38{x}^{2}=38 \\left(9\\right)$$Graph or solve it directly and read the x-value that works. The requested value is $-3$.",
+      "desmosExpressions": [
+        "38{x}^{2}=38 \\left(9\\right)"
+      ]
+    },
+    {
       "title": "Divide both sides by 38",
       "content": "The coefficient 38 appears on both sides. Divide to simplify:<br/>$$x^2 = 9$$"
     },

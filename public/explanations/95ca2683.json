@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+    },
+    {
       "title": "Use the angle sum property of triangles",
       "content": "The angles in any triangle sum to 180°. We have angle A = 54°, angle B = 90°, and angle C = (k/2)°.<br/><br/>Setting up the equation:<br/>$$54 + 90 + \\frac{k}{2} = 180$$<br/>Simplifying the left side:<br/>$$144 + \\frac{k}{2} = 180$$<br/>Isolating the term with k:<br/>$$\\frac{k}{2} = 36$$"
     },

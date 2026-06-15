@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: try the choices",
+      "content": "Because the choices give possible solutions, plug them into the equation instead of solving from scratch. The only choice that satisfies the equation is <strong>A</strong>, $-1$."
+    },
+    {
       "title": "Combine constants first",
       "content": "$(p+3)+8$ is the same as $p+11$, so the equation becomes $$p+11=10$$"
     },

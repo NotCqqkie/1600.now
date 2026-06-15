@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Identify center and radius of circle P",
       "content": "Standard form $(x-h)^2 + (y-k)^2 = r^2$ has center $(h,k)$ and radius $r$. For $(x-3)^2 + (y+7)^2 = 25$: center $(3, -7)$, radius $\\sqrt{25} = 5$."
     },
@@ -14,10 +18,6 @@
     {
       "title": "Find radius of circle Q",
       "content": "Diameter of Q is double that of P. P has diameter $10$, so Q has diameter $20$ and radius $10$. Thus $r^2 = 100$."
-    },
-    {
-      "title": "Eliminate the choices",
-      "content": "<ul><li>A: $(x-2)^2 + (y+5)^2 = 50$ &mdash; wrong shift (would mean 1 left, 2 up) and wrong radius.</li><li>B: $(x-4)^2 + (y+9)^2 = 50$ &mdash; correct center but $r^2 = 50$ gives $r = \\sqrt{50}$, not 10.</li><li>C: $(x-2)^2 + (y+5)^2 = 100$ &mdash; correct radius but wrong center shift.</li><li>D: $(x-4)^2 + (y+9)^2 = 100$ &mdash; correct center $(4,-9)$ and $r^2 = 100$.</li></ul>That confirms <strong>D</strong> is correct."
     }
   ]
 }

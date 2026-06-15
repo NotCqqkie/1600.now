@@ -4,6 +4,13 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$f(x)=(x-4)^{2}+6$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is $6$.",
+      "desmosExpressions": [
+        "f(x)=(x-4)^{2}+6"
+      ]
+    },
+    {
       "title": "Vertex form gives the minimum instantly",
       "content": "$f(x) = (x-4)^2 + 6$ is in vertex form $(x-h)^2 + k$ with vertex $(4, 6)$. Since the leading coefficient is positive the parabola opens up, so the vertex is the minimum."
     },

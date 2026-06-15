@@ -43,7 +43,7 @@ export const launchPracticeTest = ({
     savePracticeTestSession(session);
   }
 
-  sessionStorage.setItem("practiceExitTo", `/practice-tests/${practiceSet.id}/start`);
+  sessionStorage.setItem("practiceExitTo", "/modules");
   sessionStorage.setItem("practiceSet", JSON.stringify(questionSet));
 
   if (resumeExisting && savedSession?.phase === "review") {
@@ -73,7 +73,7 @@ export const resumePracticeTestFromRoute = (
   const session = getPracticeTestSession(practiceSet.id);
   if (!session) return;
 
-  sessionStorage.setItem("practiceExitTo", `/practice-tests/${practiceSet.id}/start`);
+  sessionStorage.setItem("practiceExitTo", "/modules");
   sessionStorage.setItem("practiceSet", JSON.stringify(questionSet));
 
   const targetQuestion = questionSet[session.currentIndex];

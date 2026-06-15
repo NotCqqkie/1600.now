@@ -41,7 +41,7 @@ export const launchModulePractice = ({
     saveModulePracticeSession(session);
   }
 
-  sessionStorage.setItem("practiceExitTo", `/modules/${module.slug}`);
+  sessionStorage.setItem("practiceExitTo", "/modules");
   sessionStorage.setItem("practiceSet", JSON.stringify(practiceSet));
 
   const targetIndex = resumeExisting ? session.currentIndex : 0;

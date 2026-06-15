@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Complete the square for x and y",
       "content": "$x^2 - 16x + y^2 - 10y - 55 = 0$ becomes $(x-8)^2 - 64 + (y-5)^2 - 25 - 55 = 0$, so $(x-8)^2 + (y-5)^2 = 144$."
     },

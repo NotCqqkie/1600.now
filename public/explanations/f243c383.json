@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Express surface area formulas",
       "content": "A rectangular prism with square base of side $s$ and height $h$ has surface area $2s^2 + 4sh$.<br/><br/>For each given prism with height 90 cm:<br/>$$K = 2s^2 + 4s(90) = 2s^2 + 360s = 2s(s + 180)$$<br/>When two prisms are glued along a square base, they form a prism of height 180 cm:<br/>$$2s^2 + 4s(180) = 2s^2 + 720s = 2s(s + 360)$$"
     },

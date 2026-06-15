@@ -4,6 +4,13 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$\\left|x-5\\right|=10$$Graph or solve it directly and read the x-value that works. The requested value is $15$.",
+      "desmosExpressions": [
+        "\\left|x-5\\right|=10"
+      ]
+    },
+    {
       "title": "Set Up Both Cases for Absolute Value",
       "content": "The equation $|x - 5| = 10$ means $(x - 5)$ equals either $10$ or $-10$.<br/>$$x - 5 = 10 \\quad \\text{or} \\quad x - 5 = -10$$"
     },

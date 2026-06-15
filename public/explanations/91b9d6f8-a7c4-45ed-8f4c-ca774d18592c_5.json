@@ -3,17 +3,26 @@
   "qid": "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_5",
   "steps": [
     {
-      "text": "Distribute the subtraction sign across the second parenthesis: $(9c + 8) - (4c^3 - 6) = 9c + 8 - 4c^3 + 6$."
+      "title": "Fastest check: compare a table or graph",
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $-4c^3 + 9c + 14$."
     },
     {
-      "text": "Combine the constant terms: $8 + 6 = 14$. The linear term $9c$ and cubic term $-4c^3$ have no like terms to combine."
+      "title": "Algebra check",
+      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
     },
     {
-      "text": "Write the result in descending degree order: $-4c^3 + 9c + 14$."
+      "title": "Explanation",
+      "content": "Distribute the subtraction sign across the second parenthesis: $(9c + 8) - (4c^3 - 6) = 9c + 8 - 4c^3 + 6$."
     },
     {
-      "text": "Evaluate all choices:<ul><li>A: $4c^3 + 9c + 2$ — the cubic term has a positive sign (should be negative) and constant is wrong. Eliminated.</li><li>B: $4c^3 + 9c + 14$ — the cubic term has a positive sign (should be negative). Eliminated.</li><li>C: $-4c^3 + 9c + 2$ — cubic term and linear term are correct but the constant should be 14, not 2. Eliminated.</li><li>D: $-4c^3 + 9c + 14$ — all three terms match exactly. That confirms <strong>D</strong> is correct.</li></ul>"
+      "title": "Explanation",
+      "content": "Combine the constant terms: $8 + 6 = 14$. The linear term $9c$ and cubic term $-4c^3$ have no like terms to combine."
+    },
+    {
+      "title": "Explanation",
+      "content": "Write the result in descending degree order: $-4c^3 + 9c + 14$."
     }
   ],
-  "correctAnswer": "D"
+  "correctAnswer": "D",
+  "section": "Math"
 }

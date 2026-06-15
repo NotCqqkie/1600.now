@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Find the slope of the tangent line",
       "content": "A tangent line is perpendicular to the radius at the point of tangency. The radius from center $(-1,1)$ to $(7,-6)$ has slope $\\dfrac{-6-1}{7-(-1)}=\\dfrac{-7}{8}$, so the tangent slope is the negative reciprocal: $\\dfrac{8}{7}$."
     },

@@ -4,6 +4,13 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$2.6+x=2.8$$Graph or solve it directly and read the x-value that works. The requested value is $0.2$.",
+      "desmosExpressions": [
+        "2.6+x=2.8"
+      ]
+    },
+    {
       "title": "Subtract the constant",
       "content": "Start with $2.6+x=2.8$. Subtract $2.6$ from both sides to isolate $x$: $$x=2.8-2.6.$$"
     },

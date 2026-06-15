@@ -4,6 +4,13 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$g \\left(x\\right)={x}^{2}+55$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is $55$.",
+      "desmosExpressions": [
+        "g \\left(x\\right)={x}^{2}+55"
+      ]
+    },
+    {
       "title": "Read the vertex from the equation",
       "content": "$g(x)=x^2+55$ is in vertex form $(x-0)^2+55$, so the vertex is $(0,55)$."
     },

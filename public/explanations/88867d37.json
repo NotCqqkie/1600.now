@@ -4,6 +4,13 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$\\left(x+2\\right) \\left(x-5\\right) \\left(x+9\\right)=0$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is $5$.",
+      "desmosExpressions": [
+        "\\left(x+2\\right) \\left(x-5\\right) \\left(x+9\\right)=0"
+      ]
+    },
+    {
       "title": "Use the zero product property",
       "content": "A product equals zero when at least one factor equals zero."
     },

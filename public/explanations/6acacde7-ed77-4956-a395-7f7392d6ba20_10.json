@@ -4,12 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set equations equal and solve for x",
-      "content": "Since both expressions equal $y$, set them equal:<br/>$$-2x - 10 = 2x + 16$$<br/>Combine like terms by moving all $x$ terms to one side:<br/>$$-2x - 2x = 16 + 10$$<br/>$$-4x = 26$$<br/>$$x = -\\frac{13}{2} = -6.5$$"
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$y=-2x-10$$<br/>$$y=2x+16$$<br/>You do not need to solve or rearrange them first.",
+      "desmosExpressions": [
+        "y=-2x-10",
+        "y=2x+16"
+      ]
     },
     {
-      "title": "Substitute to find y",
-      "content": "Use either original equation. Substituting $x = -6.5$ into $y = 2x + 16$:<br/>$$y = 2(-6.5) + 16 = -13 + 16 = 3$$<br/>That confirms <strong>C</strong> is correct."
+      "title": "Read the y-coordinate",
+      "content": "Click the intersection point and read the y-coordinate. It matches <strong>C</strong>, 3."
+    },
+    {
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

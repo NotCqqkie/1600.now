@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Understand the volume conversion rule",
       "content": "When linear dimensions scale by factor $k$, volume scales by $k^3$ (not just $k$). Since 1 yard = 0.914 meter, to convert from cubic yards to cubic meters, we multiply by $(0.914)^3$.",
       "formula": "$$V_{\\text{new}} = V_{\\text{old}} \\times k^3$$"

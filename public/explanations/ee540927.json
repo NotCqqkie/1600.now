@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Set up the standard form",
       "content": "To find a circle's center from its general form equation, rewrite it in standard form $(x-h)^2 + (y-k)^2 = r^2$ by completing the square. The $y$ terms are already in simplified form ($y^2$ with no linear term), so we only need to complete the square for $x$."
     },

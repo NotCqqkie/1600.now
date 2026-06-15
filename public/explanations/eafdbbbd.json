@@ -4,6 +4,13 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$\\frac{1}{4} \\left(x+5\\right)-\\frac{1}{3} \\left(x+5\\right)=-7$$Graph or solve it directly and read the x-value that works. The requested value is $79$.",
+      "desmosExpressions": [
+        "\\frac{1}{4} \\left(x+5\\right)-\\frac{1}{3} \\left(x+5\\right)=-7"
+      ]
+    },
+    {
       "title": "Factor the repeated group",
       "content": "Both terms contain $(x+5)$, so combine the coefficients first: $$\\left(\\frac{1}{4}-\\frac{1}{3}\\right)(x+5)=-7.$$"
     },

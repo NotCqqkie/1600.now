@@ -4,24 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Clear the decimal equation",
-      "content": "Start with $-0.9y=0.8x+2.2$. Multiply by $-10$ to avoid decimals: $$9y=-8x-22,$$ or $$8x+9y=-22.$$"
-    },
-    {
-      "title": "Rewrite the second equation",
-      "content": "The second equation is $4y=-3x+18$, which can be written as $$3x+4y=18.$$"
-    },
-    {
-      "title": "Eliminate y",
-      "content": "Multiply $8x+9y=-22$ by $4$ to get $32x+36y=-88$. Multiply $3x+4y=18$ by $9$ to get $27x+36y=162$. Subtract the second from the first: $$5x=-250.$$ Thus $x=-50$."
-    },
-    {
-      "title": "Check with Desmos",
-      "content": "Graphing the two original lines gives an intersection with $x=-50$, which is exactly what the question asks for. The answer is <strong>-50</strong>.",
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$-0.9y=0.8x+2.2$$<br/>$$4y=-3x+18$$<br/>You do not need to solve or rearrange them first.",
       "desmosExpressions": [
-        "y=\\frac{-0.8x-2.2}{0.9}",
-        "y=\\frac{-3x+18}{4}"
+        "-0.9y=0.8x+2.2",
+        "4y=-3x+18"
       ]
+    },
+    {
+      "title": "Read the x-coordinate",
+      "content": "Click the intersection point and read the x-coordinate. It matches <strong>$-50$</strong>."
+    },
+    {
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

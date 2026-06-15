@@ -4,6 +4,13 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$\\left|x+45\\right|=48$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is $3$.",
+      "desmosExpressions": [
+        "\\left|x+45\\right|=48"
+      ]
+    },
+    {
       "title": "Split the absolute value",
       "content": "$$|x+45|=48$$ means the expression inside the absolute value is either $48$ or $-48$: $$x+45=48 \\quad \\text{or} \\quad x+45=-48.$$"
     },

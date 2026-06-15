@@ -4,6 +4,14 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest check: compare a table or graph",
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>C</strong>, $\\sqrt{39y}$."
+    },
+    {
+      "title": "Algebra check",
+      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+    },
+    {
       "title": "Rewrite the half-power as a square root",
       "content": "A rational exponent of $\\tfrac{1}{2}$ is the principal square root: for any $a\\ge 0$, $a^{1/2}=\\sqrt{a}$. Applying this with $a=39y$:$$(39y)^{1/2}=\\sqrt{39y}.$$"
     },

@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: use the function table",
+      "content": "Enter the function in Desmos or a calculator table and scan for the row with the output named in the question. The input that works gives <strong>B</strong>, 22. This is just a table lookup, and the arithmetic below confirms the same value."
+    },
+    {
       "title": "Set up the equation",
       "content": "Set $g(x)=-216$ and write the equation.<br/>$$-18-9x=-216$$"
     },
     {
       "title": "Solve for x",
       "content": "Add $18$, then divide by $-9$.<br/>$$-9x=-198\\;\\Rightarrow\\;x=22$$<br/>That confirms <strong>B</strong> is correct."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above confirms <strong>B</strong>, 22. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
     }
   ]
 }

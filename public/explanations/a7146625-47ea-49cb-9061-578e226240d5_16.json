@@ -4,6 +4,10 @@
   "correctAnswer": "B",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Step 1",
       "content": "Read circle $M$: $(x-3)^{2}+(y-6)^{2}=4$ is in standard form $(x-h)^{2}+(y-k)^{2}=r^{2}$, so center $= (3,6)$ and $r_{M} = \\sqrt{4} = 2$."
     },
@@ -15,5 +19,6 @@
       "title": "Step 3",
       "content": "Circle $P$&apos;s equation is $(x-3)^{2}+(y-6)^{2}=16$. The formula $(x-3)^{2}+(y-6)^{2}=8$ uses $r^{2}=8$, giving $r=2\\sqrt{2}\\approx2.83$, not twice circle $M$&apos;s radius of 2. The formula $(x-3)^{2}+(y-6)^{2}=16$ has center $(3,6)$ and $r^{2}=16$, so $r=4=2\\times2$. The formulas with center $(6,12)$ are eliminated because circle $P$ must keep center $(3,6)$. That leaves <strong>B</strong>."
     }
-  ]
+  ],
+  "section": "Math"
 }

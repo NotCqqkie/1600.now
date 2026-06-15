@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Recognize that angles K and L are complementary",
       "content": "Since angle J is a right angle (90°), and the sum of angles in a triangle is 180°, we have J + K + L = 180°. Substituting J = 90°: 90° + K + L = 180°, which simplifies to K + L = 90°. This means K and L are complementary angles."
     },

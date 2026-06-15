@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the circle facts first: radii are equal, a diameter sets up a right angle, a tangent is perpendicular to the radius, and central/inscribed angles connect to arcs."
+    },
+    {
       "title": "Find the circle's diameter from its circumference",
       "content": "Given circumference $C = 114\\pi$, we use $C = 2\\pi r$ to find the radius: $$114\\pi = 2\\pi r \\implies r = 57$$ The diameter is $d = 2r = 114$. Since the rectangle is inscribed in the circle, its diagonal equals the diameter: $d_{\\text{rect}} = 114$."
     },

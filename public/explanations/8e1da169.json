@@ -4,6 +4,13 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$f \\left(x\\right)= \\left(x-44\\right) \\left(x-46\\right)$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is $45$.",
+      "desmosExpressions": [
+        "f \\left(x\\right)= \\left(x-44\\right) \\left(x-46\\right)"
+      ]
+    },
+    {
       "title": "Use the intercept shortcut",
       "content": "$f(x)=(x-44)(x-46)$ has zeros at $x=44$ and $x=46$. Because the coefficient of $x^2$ is positive, the parabola opens upward, so its minimum occurs at the vertex."
     },

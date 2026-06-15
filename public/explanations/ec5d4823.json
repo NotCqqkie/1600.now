@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Identify the volume formula for a rectangular prism",
       "content": "The volume of a right rectangular prism is found by multiplying its three dimensions together. We're given:<ul><li>Length = 4 cm</li><li>Width = 9 cm</li><li>Height = 10 cm</li></ul>",
       "formula": "$$V = \\text{length} \\times \\text{width} \\times \\text{height}$$"

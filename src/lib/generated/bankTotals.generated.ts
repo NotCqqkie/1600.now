@@ -4,21 +4,21 @@ export const BANK_TOTAL_PAST_MATH = 1538;
 export const BANK_TOTAL_PAST_READING = 3589;
 export const BANK_TOTAL_PAST = 5127;
 
-export const BANK_TOTAL_UNOFFICIAL_MATH = 1542;
+export const BANK_TOTAL_UNOFFICIAL_MATH = 1548;
 export const BANK_TOTAL_UNOFFICIAL_READING = 1680;
-export const BANK_TOTAL_UNOFFICIAL = 3222;
+export const BANK_TOTAL_UNOFFICIAL = 3228;
 
-export const BANK_TOTAL_ALL = 8349;
+export const BANK_TOTAL_ALL = 8355;
 
 export const BANK_COUNT_BY_OFFICIAL_SKILL: Record<string, number> = {
   "Ratios, rates, proportional relationships, and units": 57,
   "Nonlinear functions": 112,
-  "Equivalent expressions": 241,
+  "Equivalent expressions": 242,
   "Linear inequalities in one or two variables": 58,
   "Linear functions": 215,
   "Lines, angles, and triangles": 74,
   "Systems of two linear equations in two variables": 114,
-  "Linear equations in two variables": 124,
+  "Linear equations in two variables": 123,
   "Area and volume": 63,
   "Right triangles and trigonometry": 46,
   "Probability and conditional probability": 16,
@@ -44,22 +44,22 @@ export const BANK_COUNT_BY_OFFICIAL_SKILL: Record<string, number> = {
 
 export const BANK_COUNT_BY_ALL_SKILL: Record<string, number> = {
   "Ratios, rates, proportional relationships, and units": 139,
-  "Nonlinear functions": 326,
-  "Equivalent expressions": 339,
-  "Linear inequalities in one or two variables": 124,
-  "Linear functions": 346,
-  "Lines, angles, and triangles": 150,
+  "Nonlinear functions": 327,
+  "Equivalent expressions": 340,
+  "Linear inequalities in one or two variables": 125,
+  "Linear functions": 347,
+  "Lines, angles, and triangles": 149,
   "Systems of two linear equations in two variables": 208,
-  "Linear equations in two variables": 244,
+  "Linear equations in two variables": 243,
   "Area and volume": 132,
   "Right triangles and trigonometry": 97,
   "Probability and conditional probability": 61,
-  "Linear equations in one variable": 177,
+  "Linear equations in one variable": 180,
   "Percentages": 157,
   "Circles": 98,
   "One-variable data: Distributions and measures of center and spread": 120,
   "Inference from sample statistics and margin of error": 33,
-  "Two-variable data: Models and scatterplots": 94,
+  "Two-variable data: Models and scatterplots": 95,
   "Nonlinear equations in one variable and systems of equations in two variables": 219,
   "Evaluating statistical claims: Observational studies and experiments": 16,
   "Words in Context": 775,

@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Substitute the point into the circle equation",
       "content": "Since $(6, c)$ lies on the circle $(x-3)^2 + (y-5)^2 = 9$, substitute $x = 6$ and $y = c$:<br/>$$(6-3)^2 + (c-5)^2 = 9$$<br/>Simplify:<br/>$$9 + (c-5)^2 = 9$$"
     },

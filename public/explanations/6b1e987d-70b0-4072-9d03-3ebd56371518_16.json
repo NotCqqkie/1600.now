@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Extract circle M's center and double its radius",
       "content": "From $(x - 3)^2 + (y - 6)^2 = 4$, circle M has center $(3, 6)$ and radius $\\sqrt{4} = 2$. Circle P has the same center but its radius is twice: $2 \\times 2 = 4$. For the equation, the radius squared is $4^2 = 16$."
     },

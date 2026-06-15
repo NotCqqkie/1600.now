@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Identify the diameter and what we're finding",
       "content": "QS is a diameter of the circle with center C, and its length is 76 mm. Point R lies on the circle, so segment CR connects the center to a point on the circle — meaning CR is a <strong>radius</strong> of the circle."
     },

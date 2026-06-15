@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+    },
+    {
       "title": "Use the scale shortcut: find the linear ratio",
       "content": "Since $\\overline{LK} \\parallel \\overline{RT}$, triangle $SKL \\sim$ triangle $STR$ (AA similarity). The linear scale factor is:<br/>$$\\frac{LK}{RT} = \\frac{24}{72} = \\frac{1}{3}$$"
     },

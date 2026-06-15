@@ -4,6 +4,14 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest check: compare a table or graph",
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $ f(x) = 26(4,096)^{\\frac{x}{2}} $."
+    },
+    {
+      "title": "Algebra check",
+      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+    },
+    {
       "title": "Step 1",
       "content": "The feature to display is $c$, the factor by which $f(x)$ multiplies for every increase of 2 in $x$. Compute $c$: from any form, $c = f(x+2)/f(x)$. Using the displayed form as the reference, $c = 2^{6 \\cdot 2} = 2^{12} = 4{,}096$."
     },
@@ -14,10 +22,6 @@
     {
       "title": "Step 3",
       "content": "Scan each choice for 4,096 appearing literally as the base: A has base 2, B has base 8, and C has base 64. Only D writes the base as $4{,}096$ with exponent $x/2$, so a step of 2 in $x$ raises the base to the first power exactly once."
-    },
-    {
-      "title": "Step 4",
-      "content": "That matches the correct answer — <strong>D</strong> is correct."
     }
   ]
 }

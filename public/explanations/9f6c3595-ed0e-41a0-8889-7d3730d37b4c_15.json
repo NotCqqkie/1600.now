@@ -4,12 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Express y from the linear equation",
-      "content": "From the second equation $-x + y = 1$, rearrange to isolate $y$:<br/>$$y = x + 1$$<br/>Now substitute this expression into the first equation."
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$x^{2}+y=21$$<br/>$$-x+y=1$$<br/>You do not need to solve or rearrange them first.",
+      "desmosExpressions": [
+        "x^{2}+y=21",
+        "-x+y=1"
+      ]
     },
     {
-      "title": "Substitute and solve the resulting quadratic",
-      "content": "Substitute $y = x + 1$ into $x^2 + y = 21$:<br/>$$x^2 + (x + 1) = 21$$<br/>$$x^2 + x + 1 = 21$$<br/>$$x^2 + x - 20 = 0$$<br/>Factor:<br/>$$(x + 5)(x - 4) = 0$$<br/>This yields $x = -5$ or $x = 4$. Since the question asks for a possible value and $-5$ appears in the choices, we have found it. That confirms <strong>A</strong> is correct."
+      "title": "Read the x-coordinate",
+      "content": "Click the intersection point and read the x-coordinate. It matches <strong>A</strong>, -5."
+    },
+    {
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

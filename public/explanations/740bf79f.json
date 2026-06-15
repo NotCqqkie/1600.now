@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+    },
+    {
       "title": "Recognize the right triangle and find the hypotenuse",
       "content": "Triangle $MNP$ has sides $MN = 3$ and $NP = 4$, meeting at vertex $N$.<br/><br/>These are two sides of a classic 3-4-5 right triangle. Since the figure shows $NQ \\perp MP$ (a right angle at $Q$), the angle at $N$ is the right angle.<br/><br/>By the Pythagorean theorem: $$MP^2 = MN^2 + NP^2 = 3^2 + 4^2 = 9 + 16 = 25$$ $$MP = 5$$"
     },

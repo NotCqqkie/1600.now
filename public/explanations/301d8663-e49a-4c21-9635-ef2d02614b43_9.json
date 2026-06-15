@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: try the choices",
+      "content": "Because the choices give possible solutions, plug them into the equation instead of solving from scratch. The only choice that satisfies the equation is <strong>D</strong>, 100."
+    },
+    {
       "title": "Isolate the radical",
       "content": "Subtract $37$ from both sides: $$\\sqrt{w}=47-37=10.$$"
     },
     {
       "title": "Solve for the variable",
       "content": "Square both sides: $w=100$. <strong>D</strong> is correct."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches the correct answer, 100. The other choices do not satisfy the same condition from the question, so <strong>D</strong> is correct."
     }
   ]
 }

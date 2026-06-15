@@ -4,6 +4,14 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest check: compare a table or graph",
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $2xy \\left(8{x}^{2}y+7\\right)$."
+    },
+    {
+      "title": "Algebra check",
+      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+    },
+    {
       "title": "Factor the common term",
       "content": "Both terms, $16x^3y^2$ and $14xy$, share a greatest common factor of $2xy$. Factor that out first."
     },
@@ -20,10 +28,6 @@
         "o_1=16x_1^3y_1^2+14x_1y_1",
         "b_1=2x_1y_1(8x_1^2y_1+7)"
       ]
-    },
-    {
-      "title": "Match the choice",
-      "content": "$2xy(8x^2y+7)$ is choice B, so <strong>B</strong> is correct."
     }
   ]
 }

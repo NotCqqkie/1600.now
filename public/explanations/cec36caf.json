@@ -4,6 +4,13 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$8{x}^{2}-40=32$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is $3$.",
+      "desmosExpressions": [
+        "8{x}^{2}-40=32"
+      ]
+    },
+    {
       "title": "Isolate $x^2$",
       "content": "Start with $$8x^2-40=32.$$ Add $40$ to both sides: $$8x^2=72.$$ Divide by $8$: $$x^2=9.$$"
     },

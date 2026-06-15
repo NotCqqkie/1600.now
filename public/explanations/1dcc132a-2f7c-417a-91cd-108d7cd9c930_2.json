@@ -4,16 +4,20 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest check: compare a table or graph",
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $12yz^{3}+6yz$."
+    },
+    {
+      "title": "Algebra check",
+      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+    },
+    {
       "title": "Identify the like terms",
       "content": "In $9yz^3+6yz+3yz^3$, the terms $9yz^3$ and $3yz^3$ are like terms. The term $6yz$ is separate because it has $z^1$, not $z^3$."
     },
     {
       "title": "Combine coefficients, not exponents",
       "content": "Only the coefficients on the $yz^3$ terms add:<br/>$$9yz^3+3yz^3=12yz^3$$<br/>The $6yz$ term stays as it is, so the expression simplifies to:<br/>$$12yz^3+6yz$$"
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "<strong>Choice A &mdash; $12yz^{3}+6yz$</strong> is $12yz^3+6yz$. Choices B, C, and D treat multiplying or adding like terms as if exponents should be added, which is not correct here. Therefore <strong>A</strong> is correct."
     }
   ]
 }

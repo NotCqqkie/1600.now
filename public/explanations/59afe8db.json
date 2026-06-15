@@ -4,6 +4,13 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$3x+5(x+4)=76$$Graph or solve it directly and read the x-value that works. The requested value is $7$.",
+      "desmosExpressions": [
+        "3x+5(x+4)=76"
+      ]
+    },
+    {
       "title": "Distribute",
       "content": "$$3x+5(x+4)=76$$ $$3x+5x+20=76$$ $$8x+20=76$$"
     },

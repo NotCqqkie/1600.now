@@ -4,16 +4,20 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest check: compare a table or graph",
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $x^{4}+23x^{2}+57$."
+    },
+    {
+      "title": "Algebra check",
+      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+    },
+    {
       "title": "Expand the two parts",
       "content": "First expand the square and the product: $$(x^2+11)^2=x^4+22x^2+121$$ $$(x-8)(x+8)=x^2-64.$$"
     },
     {
       "title": "Combine like terms",
       "content": "Add the two expanded expressions: $$x^4+22x^2+121+x^2-64=x^4+23x^2+57.$$"
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The fitted expression is $x^4+23x^2+57$, which matches the correct answer, <strong>D</strong>. Two other options have the wrong $x^2$ coefficient, and another alternative has the wrong constant, so <strong>D</strong> is correct."
     }
   ]
 }

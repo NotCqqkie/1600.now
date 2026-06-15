@@ -4,6 +4,13 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$x^{2}-28x=0$$Graph or solve it directly and read the x-value that works. The requested value is $28$.",
+      "desmosExpressions": [
+        "x^{2}-28x=0"
+      ]
+    },
+    {
       "title": "Factor the equation",
       "content": "Factor out the common $x$ from $x^{2}-28x=0$:$$x(x-28)=0$$"
     },

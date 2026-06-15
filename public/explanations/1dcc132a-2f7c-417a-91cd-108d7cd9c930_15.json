@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Set up",
       "content": "The pool is $21$ ft by $11$ ft. A path $x$ ft wide surrounds it, making the outer rectangle $(21 + 2x)$ by $(11 + 2x)$. Path area = outer area &minus; pool area:<br/>$$(21 + 2x)(11 + 2x) - 231 = 144$$"
     },

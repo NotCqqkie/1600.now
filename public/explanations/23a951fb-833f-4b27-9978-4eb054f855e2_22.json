@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Note that angles K and L are complementary",
       "content": "Triangle JKL has $\\angle J = 90^\\circ$, $\\angle K = 71^\\circ$, $\\angle L = 19^\\circ$. The two acute angles in any right triangle sum to $90^\\circ$, and indeed $71^\\circ + 19^\\circ = 90^\\circ$, so $K$ and $L$ are complementary."
     },

@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Identify the sides relative to angle A",
       "content": "Angle A is at the bottom left corner. The side adjacent to angle A is $AC = 41$. The hypotenuse (opposite the right angle at C) is $AB = 42$.",
       "formula": "$$\\cos A = \\frac{\\text{adjacent}}{\\text{hypotenuse}}$$"

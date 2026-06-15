@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: track what changes",
+      "content": "When the same amount is added to every value, the mean and median move by that amount. The range and standard deviation stay the same because the spacing between values does not change."
+    },
+    {
       "title": "Use the constant-shift rule",
       "content": "Data set B is created by adding $56$ to every value in data set A. Adding a constant shifts the whole dot plot right but does not stretch it out."
     },
@@ -14,10 +18,6 @@
     {
       "title": "Compare ranges",
       "content": "The minimum and maximum of data set A are $22$ and $26$, so its range is $26-22=4$. In data set B, those become $78$ and $82$, so the range is $82-78=4$. The range stays equal."
-    },
-    {
-      "title": "Match the comparison",
-      "content": "The median of B is greater than the median of A, and the range of B equals the range of A. The result matches."
     }
   ]
 }

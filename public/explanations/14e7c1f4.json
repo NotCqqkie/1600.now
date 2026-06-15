@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Recognize complementary angles from cos(Q) = sin(R)",
       "content": "The equation $\\cos(Q) = \\sin(R)$ indicates that Q and R are complementary angles. Using the identity $\\sin(\\theta) = \\cos(90^{\\circ} - \\theta)$:<br/>$$Q + R = 90^{\\circ}$$"
     },

@@ -4,16 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find $x$ first",
-      "content": "From $10x=110$, divide by $10$: $$x=11.$$"
+      "title": "Fastest path: graph the equations as written",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$10x=110$$<br/>$$6x-63=y$$<br/>You do not need to solve or rearrange them first.",
+      "desmosExpressions": [
+        "10x=110",
+        "6x-63=y"
+      ]
     },
     {
-      "title": "Substitute into the second equation",
-      "content": "$$y=6x-63=6(11)-63=66-63=3.$$"
+      "title": "Read the y-coordinate",
+      "content": "Click the intersection point and read the y-coordinate. It matches <strong>D</strong>, $3$."
     },
     {
-      "title": "Check the choices",
-      "content": "Choice D, $3$, is correct. Choice B, $11$, is $x$, not $y$; choice A, $63$, uses the constant without subtracting it from $6x$. The solution is $(11,3)$, and the question asks for the second coordinate."
+      "title": "Why this works",
+      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

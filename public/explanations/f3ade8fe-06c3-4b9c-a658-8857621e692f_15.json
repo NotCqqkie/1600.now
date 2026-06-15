@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Calculate the length of the shown line segment",
       "content": "From the graph, the line segment spans horizontally from approximately $x = -3$ to $x = 3$, giving $\\Delta x = 6$ units. Vertically, the segment rises $\\Delta y = 9$ units. Using the distance formula:<br/>$$L_1 = \\sqrt{(\\Delta x)^2 + (\\Delta y)^2} = \\sqrt{6^2 + 9^2} = \\sqrt{36 + 81} = \\sqrt{117}$$<br/>Factor: $\\sqrt{117} = \\sqrt{9 \\cdot 13} = 3\\sqrt{13}$"
     },

@@ -4,6 +4,14 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest check: compare a table or graph",
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $6x^2 + 18x$."
+    },
+    {
+      "title": "Algebra check",
+      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+    },
+    {
       "title": "Set up",
       "content": "Distribute $6x$ across $(x + 3)$ using the distributive property."
     },
@@ -14,10 +22,6 @@
     {
       "title": "Answer",
       "content": "<strong>B</strong> is correct."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above is $6x^2 + 18x$. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
     }
   ]
 }

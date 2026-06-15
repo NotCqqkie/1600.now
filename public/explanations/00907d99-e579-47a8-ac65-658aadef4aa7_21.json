@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Set up the tangent relationship from the right triangle",
       "content": "In a right triangle formed by the ramp, the angle $\\theta$ with the ground satisfies:<br/>$$\\tan \\theta = \\frac{\\text{height}}{\\text{horizontal distance}} = \\frac{29.1}{x}$$<br/>The legal constraint requires $\\tan \\theta \\lt \\frac{1}{12}$, so:<br/>$$\\frac{29.1}{x} \\lt \\frac{1}{12}$$"
     },

@@ -1,5 +1,5 @@
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -12,9 +12,9 @@ import {
   DialogHeader,
   DialogTitle,
 } from "@/components/ui/dialog";
+import { getPostAuthReturnTo } from "@/components/auth/authReturnPath";
 import { BrandLogo } from "@/components/brand/BrandLogo";
 import { useAuth } from "@/contexts/AuthContext";
-import { getAuthReturnTo } from "@/components/auth/AuthReturnTracker";
 import { useToast } from "@/hooks/use-toast";
 import { describeAuthError } from "@/lib/firebase/authErrors";
 import { Loader2, ArrowLeft } from "lucide-react";
@@ -36,11 +36,15 @@ const Login = () => {
   const { signInWithGoogle, signInWithEmailPassword, sendPasswordReset, user, loading: authLoading, redirectError, clearRedirectError } = useAuth();
   const navigate = useNavigate();
   const { toast } = useToast();
+  const postAuthReturnToRef = useRef<string | null>(null);
 
   useEffect(() => {
     if (authLoading || !user) return;
     if (!user.emailVerified) navigate("/verify-email", { replace: true });
-    else navigate(getAuthReturnTo(), { replace: true });
+    else {
+      postAuthReturnToRef.current ??= getPostAuthReturnTo();
+      navigate(postAuthReturnToRef.current, { replace: true });
+    }
   }, [user, authLoading, navigate]);
 
   useEffect(() => {

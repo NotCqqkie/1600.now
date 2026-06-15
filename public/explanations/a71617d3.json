@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Use the triangle angle sum property",
       "content": "The figure shows a right triangle with one angle of $90^{\\circ}$ and one angle of $45^{\\circ}$. The three interior angles of any triangle sum to $180^{\\circ}$:<br/>$$90 + 45 + x = 180$$<br/>$$135 + x = 180$$<br/>$$x = 45$$"
     },

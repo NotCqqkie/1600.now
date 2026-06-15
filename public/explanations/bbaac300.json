@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Identify corresponding angles in the similar triangles",
       "content": "Triangle ABC ~ Triangle DEF with angle A corresponding to angle D. Since angles C and F are both right angles (90°), angles B and E are the two acute angles in their respective triangles."
     },

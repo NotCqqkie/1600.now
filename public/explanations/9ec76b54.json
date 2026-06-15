@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Apply Pythagorean theorem with early factoring",
       "content": "For a right triangle, use the Pythagorean theorem. Notice both legs are divisible by 4: $28 = 4(7)$ and $20 = 4(5)$. <br/>$$c^2 = [4(7)]^2 + [4(5)]^2 = 16(49) + 16(25) = 16(49 + 25) = 16(74)$$",
       "formula": "$$c^2 = a^2 + b^2$$"

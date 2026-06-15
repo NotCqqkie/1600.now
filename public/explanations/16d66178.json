@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Apply the sine addition identity",
       "content": "The sine angle-addition identity states:<br/>$$\\sin(A+B) = \\sin A \\cos B + \\cos A \\sin B$$<br/>Setting $A = 24^\\circ$ and $B = 66^\\circ$:<br/>$$\\sin(24^\\circ)\\cos(66^\\circ) + \\cos(24^\\circ)\\sin(66^\\circ) = \\sin(24^\\circ + 66^\\circ) = \\sin(90^\\circ) = 1$$"
     },

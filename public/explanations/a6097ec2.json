@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Use SOH for sine",
       "content": "Sine is opposite over hypotenuse. From angle $x^\\circ$, the opposite side is $63$ and the hypotenuse is $73$."
     },

@@ -4,13 +4,17 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Find the width of the base",
       "content": "Base area = length &times; width, so:<br/>$$24t = \\frac{8}{3} \\times w \\implies w = 24t \\times \\frac{3}{8} = 9t \\text{ cm}$$<br/>Dimensions: l = 8/3 cm, w = 9t cm, h = 15 cm."
     },
     {
       "title": "Apply the surface area formula",
-      "formula": "$$SA = 2(lw + lh + wh)$$",
-      "content": "Compute each face pair:<ul><li>$$lw = \\frac{8}{3} \\times 9t = 24t$$</li><li>$$lh = \\frac{8}{3} \\times 15 = 40$$</li><li>$$wh = 9t \\times 15 = 135t$$</li></ul>$$SA = 2(24t + 40 + 135t) = 2(159t + 40) = 318t + 80$$"
+      "content": "Compute each face pair:<ul><li>$$lw = \\frac{8}{3} \\times 9t = 24t$$</li><li>$$lh = \\frac{8}{3} \\times 15 = 40$$</li><li>$$wh = 9t \\times 15 = 135t$$</li></ul>$$SA = 2(24t + 40 + 135t) = 2(159t + 40) = 318t + 80$$",
+      "formula": "$$SA = 2(lw + lh + wh)$$"
     },
     {
       "title": "Evaluate each choice",

@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Find the slope of the radius to the tangent point",
       "content": "The radius connects the center $(-1, 1)$ to the tangent point $(5, -4)$:<br/>$$m_{\\text{radius}} = \\frac{-4 - 1}{5 - (-1)} = \\frac{-5}{6}$$"
     },

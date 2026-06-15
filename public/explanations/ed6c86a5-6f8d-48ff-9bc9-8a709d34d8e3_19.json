@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Use the perpendicularity property",
       "content": "A tangent line to a circle is perpendicular to the radius at the point of tangency. The radius goes from the center $(-2, 2)$ to the tangent point $(3, -1)$.<br/><br/>Radius slope: $$m_{\\text{radius}} = \\frac{-1-2}{3-(-2)} = \\frac{-3}{5}$$<br/>Since the tangent line is perpendicular, its slope is the negative reciprocal: $$m_{\\text{tangent}} = \\frac{5}{3}$$"
     },

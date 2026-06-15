@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
       "title": "Identify the right angle and triangle structure",
       "content": "Since angles $A$ and $B$ are acute in right triangle $ABC$, the right angle must be at $C$. This makes $AC$ and $BC$ the two legs of the triangle."
     },

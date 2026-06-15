@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
       "title": "Apply the rectangle area formula",
       "content": "For a rectangle, area = length $\\times$ width. We know the area is 70 square inches and one side (the longest) is 14 inches. Setting up the equation with $w$ as the unknown side:<br/>$$70 = 14 \\times w$$"
     },

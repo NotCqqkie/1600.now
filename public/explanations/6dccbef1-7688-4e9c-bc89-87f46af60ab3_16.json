@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Use the diagonal formula to find the side length",
       "content": "A square with side length $s$ has diagonal $d = s\\sqrt{2}$. Substituting $d = 228$:<br/>$$228 = s\\sqrt{2}$$<br/>$$s = \\frac{228}{\\sqrt{2}} = \\frac{228\\sqrt{2}}{2} = 114\\sqrt{2}$$"
     },

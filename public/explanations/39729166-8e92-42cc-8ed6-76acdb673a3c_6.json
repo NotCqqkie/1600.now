@@ -4,6 +4,13 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$g(x) = (36 - 2x)(10 + 2x)$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is $6.5$.",
+      "desmosExpressions": [
+        "g(x) = (36 - 2x)(10 + 2x)"
+      ]
+    },
+    {
       "title": "Find the zeros by setting each factor to zero",
       "content": "$g(x) = (36 - 2x)(10 + 2x)$ equals zero when each factor equals zero:<ul><li>$36 - 2x = 0 \\Rightarrow x = 18$</li><li>$10 + 2x = 0 \\Rightarrow x = -5$</li></ul>"
     },

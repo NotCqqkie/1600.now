@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Set up",
       "content": "Complete the square to find the circle&apos;s radius:<br/>$$x^2 - 4x + y^2 - 8y - 80 = 0$$<br/>$$(x-2)^2 - 4 + (y-4)^2 - 16 - 80 = 0$$<br/>$$(x-2)^2 + (y-4)^2 = 100$$<br/>Radius $r = \\sqrt{100} = 10$."
     },

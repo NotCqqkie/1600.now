@@ -4,6 +4,13 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$x+40=95$$Graph or solve it directly and read the x-value that works. The requested value is $55$.",
+      "desmosExpressions": [
+        "x+40=95"
+      ]
+    },
+    {
       "title": "Undo the addition",
       "content": "The equation is $x+40=95$. To isolate $x$, subtract $40$ from both sides: $$x=95-40.$$"
     },

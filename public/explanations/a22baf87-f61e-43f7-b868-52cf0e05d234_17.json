@@ -4,6 +4,10 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
       "title": "Find circle A's intercept",
       "content": "Circle A has equation $$(x+8)^2+(y-8)^2=64.$$ Its center is $(-8,8)$ and its radius is $8$. Since the center is $8$ units above the $x$-axis, the circle touches the $x$-axis at $(-8,0)$. Thus $(r,s)=(-8,0)$."
     },
