@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+      "title": "Set up the unit conversion",
+      "content": "This is a rate conversion. Convert square centimeters to square meters using $1\\text{ m}^2=10{,}000\\text{ cm}^2$, then convert hours to minutes using $1\\text{ hour}=60\\text{ minutes}$."
     },
     {
       "title": "Identify conversion factors for area and time",

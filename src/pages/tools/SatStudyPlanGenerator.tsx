@@ -1,13 +1,12 @@
 import { useMemo, useState } from "react";
-import { Link } from "react-router-dom";
+
+import { satToolBySlug } from "@/lib/seo-data/satTools";
 
 import {
-  PageSeo,
-  buildBreadcrumbJsonLd,
-  buildFaqJsonLd,
-  buildWebApplicationJsonLd,
-} from "@/components/seo/PageSeo";
-import { satToolBySlug } from "@/lib/seo-data/satTools";
+  SatToolPageScaffold,
+  TOOL_INPUT_CLASS,
+  TOOL_SECTION_HEADING_CLASS,
+} from "./SatToolPageScaffold";
 
 interface WeekPlan {
   week: number;
@@ -18,10 +17,8 @@ interface WeekPlan {
 
 const generatePlan = (
   baseline: number,
-  target: number,
   weeks: number,
 ): WeekPlan[] => {
-  const gap = Math.max(0, target - baseline);
   const needsFoundation = baseline < 1200;
   const plan: WeekPlan[] = [];
 
@@ -110,9 +107,9 @@ const generatePlan = (
 
 const SatStudyPlanGenerator = () => {
   const meta = satToolBySlug.get("sat-study-plan-generator")!;
-  const [baseline, setBaseline] = useState<string>("1100");
-  const [target, setTarget] = useState<string>("1400");
-  const [weeks, setWeeks] = useState<string>("10");
+  const [baseline, setBaseline] = useState("1100");
+  const [target, setTarget] = useState("1400");
+  const [weeks, setWeeks] = useState("10");
 
   const plan = useMemo(() => {
     const baselineScore = Number(baseline);
@@ -121,13 +118,12 @@ const SatStudyPlanGenerator = () => {
     if (!Number.isFinite(baselineScore) || !Number.isFinite(targetScore) || !Number.isFinite(weekCount)) {
       return null;
     }
-    return generatePlan(baselineScore, targetScore, Math.min(24, Math.max(2, weekCount)));
+    return generatePlan(baselineScore, Math.min(24, Math.max(2, weekCount)));
   }, [baseline, target, weeks]);
 
   const gap = Number(target) - Number(baseline);
   const aggressive = gap > (Number(weeks) || 1) * 20;
 
-  const url = `https://1600.now/${meta.slug}`;
   const faqs = [
     {
       question: "How many points can I gain per week?",
@@ -152,37 +148,7 @@ const SatStudyPlanGenerator = () => {
   ];
 
   return (
-    <div className="mx-auto max-w-3xl px-6 py-10">
-      <PageSeo
-        id={`tool-${meta.slug}`}
-        title={meta.metaTitle}
-        description={meta.metaDescription}
-        jsonLd={[
-          buildBreadcrumbJsonLd([
-            { name: "Home", url: "https://1600.now/" },
-            { name: meta.name, url },
-          ]),
-          buildFaqJsonLd(faqs),
-          buildWebApplicationJsonLd({
-            name: meta.name,
-            url,
-            description: meta.metaDescription,
-          }),
-        ]}
-      />
-
-      <nav className="mb-6 text-sm text-muted-foreground">
-        <Link className="hover:underline" to="/">
-          Home
-        </Link>{" "}
-        › <span className="text-foreground">{meta.name}</span>
-      </nav>
-
-      <h1 className="text-4xl font-semibold tracking-tight md:text-5xl">
-        {meta.name}
-      </h1>
-      <p className="mt-4 text-lg text-muted-foreground">{meta.intro}</p>
-
+    <SatToolPageScaffold meta={meta} faqs={faqs}>
       <div className="mt-8 grid gap-4 rounded-xl border border-border p-6 md:grid-cols-3">
         <div>
           <label className="text-sm font-semibold">Baseline SAT</label>
@@ -193,7 +159,7 @@ const SatStudyPlanGenerator = () => {
             step={10}
             value={baseline}
             onChange={(e) => setBaseline(e.target.value)}
-            className="mt-2 w-full rounded-lg border border-border bg-background px-3 py-2"
+            className={TOOL_INPUT_CLASS}
           />
         </div>
         <div>
@@ -205,7 +171,7 @@ const SatStudyPlanGenerator = () => {
             step={10}
             value={target}
             onChange={(e) => setTarget(e.target.value)}
-            className="mt-2 w-full rounded-lg border border-border bg-background px-3 py-2"
+            className={TOOL_INPUT_CLASS}
           />
         </div>
         <div>
@@ -216,7 +182,7 @@ const SatStudyPlanGenerator = () => {
             max={24}
             value={weeks}
             onChange={(e) => setWeeks(e.target.value)}
-            className="mt-2 w-full rounded-lg border border-border bg-background px-3 py-2"
+            className={TOOL_INPUT_CLASS}
           />
         </div>
       </div>
@@ -231,7 +197,7 @@ const SatStudyPlanGenerator = () => {
 
       {plan && plan.length > 0 && (
         <section className="mt-10">
-          <h2 className="text-2xl font-semibold tracking-tight">
+          <h2 className={TOOL_SECTION_HEADING_CLASS}>
             Your {plan.length}-week Digital SAT plan
           </h2>
           <ol className="mt-4 space-y-4">
@@ -254,19 +220,7 @@ const SatStudyPlanGenerator = () => {
           </ol>
         </section>
       )}
-
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold tracking-tight">FAQs</h2>
-        <div className="mt-4 space-y-5">
-          {faqs.map((faq) => (
-            <div key={faq.question}>
-              <h3 className="text-base font-semibold">{faq.question}</h3>
-              <p className="mt-1 text-muted-foreground">{faq.answer}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-    </div>
+    </SatToolPageScaffold>
   );
 };
 

@@ -8,16 +8,22 @@ export interface QuestionUiState {
 }
 
 export type QuestionUiStateMap = Record<string, QuestionUiState>;
+const LEGACY_QUESTION_UI_STATE_FIELDS = ["answer", "checkedAnswers", "status", "flagged"] as const;
+type LegacyQuestionUiStateField = (typeof LEGACY_QUESTION_UI_STATE_FIELDS)[number];
+type SaveQuestionUiStateMapOptions = Readonly<{ notify?: boolean }>;
+type SaveQuestionUiStateOptions = SaveQuestionUiStateMapOptions &
+  Readonly<{ updatedAt?: number; removeLegacy?: boolean }>;
 
 const QUESTION_UI_STATE_PREFIX = "question-ui-state:v1:";
 const ANON_SUFFIX = "anon";
 
-export const QUESTION_UI_STATE_EVENT = "app-question-ui-state-change";
+const QUESTION_UI_STATE_EVENT = "app-question-ui-state-change";
+const LEGACY_QUESTION_UI_STATE_KEY_PATTERN = /^(.*)-(answer|checkedAnswers|status|flagged)$/;
 
-export const questionUiStateStorageKey = (uid: string | null | undefined) =>
+export const questionUiStateStorageKey = (uid: string | null | undefined): string =>
   `${QUESTION_UI_STATE_PREFIX}${uid ?? ANON_SUFFIX}`;
 
-const getStorage = () =>
+const getStorage = (): Storage | null =>
   typeof window === "undefined" ? null : window.localStorage;
 
 const readJson = <T>(key: string, fallback: T): T => {
@@ -31,16 +37,16 @@ const readJson = <T>(key: string, fallback: T): T => {
   }
 };
 
-const writeJson = (key: string, value: unknown) => {
+const writeJson = (key: string, value: unknown): void => {
   const storage = getStorage();
   if (!storage) return;
   storage.setItem(key, JSON.stringify(value));
 };
 
-const legacyKey = (storageId: string, field: "answer" | "checkedAnswers" | "status" | "flagged") =>
+const legacyKey = (storageId: string, field: LegacyQuestionUiStateField): string =>
   `${storageId}-${field}`;
 
-const parseLegacyCheckedAnswers = (raw: string | null) => {
+const parseLegacyCheckedAnswers = (raw: string | null): Record<string, boolean> | undefined => {
   if (!raw) return undefined;
   try {
     const parsed = JSON.parse(raw);
@@ -80,13 +86,12 @@ const readLegacyQuestionUiState = (storageId: string): QuestionUiState | null =>
   };
 };
 
-const removeLegacyQuestionUiState = (storageId: string) => {
+const removeLegacyQuestionUiState = (storageId: string): void => {
   const storage = getStorage();
   if (!storage) return;
-  storage.removeItem(legacyKey(storageId, "answer"));
-  storage.removeItem(legacyKey(storageId, "checkedAnswers"));
-  storage.removeItem(legacyKey(storageId, "status"));
-  storage.removeItem(legacyKey(storageId, "flagged"));
+  for (const field of LEGACY_QUESTION_UI_STATE_FIELDS) {
+    storage.removeItem(legacyKey(storageId, field));
+  }
 };
 
 export const getQuestionUiStateMap = (
@@ -96,8 +101,8 @@ export const getQuestionUiStateMap = (
 export const saveQuestionUiStateMap = (
   uid: string | null | undefined,
   map: QuestionUiStateMap,
-  options: { notify?: boolean } = {},
-) => {
+  options: SaveQuestionUiStateMapOptions = {},
+): void => {
   writeJson(questionUiStateStorageKey(uid), map);
   if (options.notify !== false && typeof window !== "undefined") {
     window.dispatchEvent(new Event(QUESTION_UI_STATE_EVENT));
@@ -139,21 +144,25 @@ export const getQuestionUiState = (
   const legacy = readLegacyQuestionUiState(storageId);
   if (!legacy) return {};
 
-  saveQuestionUiState(storageId, legacy, uid, { updatedAt: legacy.updatedAt, removeLegacy: true });
+  saveQuestionUiState(storageId, legacy, uid, {
+    updatedAt: legacy.updatedAt,
+    removeLegacy: true,
+    notify: false,
+  });
   return legacy;
 };
 
 export const getQuestionUiStates = (
-  storageIds: string[],
+  storageIds: readonly string[],
   uid: string | null | undefined,
 ): QuestionUiStateMap => {
   const map = getQuestionUiStateMap(uid);
   const result: QuestionUiStateMap = {};
   let nextMap = map;
-  let migratedLegacy = false;
+  const migratedStorageIds: string[] = [];
 
   for (const storageId of storageIds) {
-    const state = map[storageId];
+    const state = nextMap[storageId];
     if (state) {
       result[storageId] = state;
       continue;
@@ -168,12 +177,12 @@ export const getQuestionUiStates = (
     if (nextMap === map) nextMap = { ...map };
     nextMap[storageId] = legacy;
     result[storageId] = legacy;
-    removeLegacyQuestionUiState(storageId);
-    migratedLegacy = true;
+    migratedStorageIds.push(storageId);
   }
 
-  if (migratedLegacy) {
-    saveQuestionUiStateMap(uid, nextMap);
+  if (migratedStorageIds.length > 0) {
+    saveQuestionUiStateMap(uid, nextMap, { notify: false });
+    migratedStorageIds.forEach(removeLegacyQuestionUiState);
   }
 
   return result;
@@ -183,8 +192,8 @@ export const saveQuestionUiState = (
   storageId: string,
   patch: QuestionUiState,
   uid: string | null | undefined,
-  options: { updatedAt?: number; removeLegacy?: boolean; notify?: boolean } = {},
-) => {
+  options: SaveQuestionUiStateOptions = {},
+): void => {
   const map = getQuestionUiStateMap(uid);
   const updatedAt = options.updatedAt ?? Date.now();
   const nextState = {
@@ -202,27 +211,12 @@ export const saveQuestionUiState = (
   if (options.removeLegacy) removeLegacyQuestionUiState(storageId);
 };
 
-const answeredStatuses = new Set(["answered", "correct-first", "correct-later", "incorrect"]);
-
 export const getQuestionStatus = (
   storageId: string,
   uid: string | null | undefined,
-) => getQuestionUiState(storageId, uid).status || "unanswered";
+): string => getQuestionUiState(storageId, uid).status || "unanswered";
 
-export const getQuestionAnswered = (
-  storageId: string,
-  uid: string | null | undefined,
-) => {
-  const state = getQuestionUiState(storageId, uid);
-  return Boolean(state.answer) || answeredStatuses.has(state.status || "");
-};
-
-export const isQuestionFlagged = (
-  storageId: string,
-  uid: string | null | undefined,
-) => getQuestionUiState(storageId, uid).flagged === true;
-
-export const migrateLegacyQuestionUiState = (uid: string | null | undefined) => {
+export const migrateLegacyQuestionUiState = (uid: string | null | undefined): void => {
   const storage = getStorage();
   if (!storage) return;
 
@@ -230,7 +224,9 @@ export const migrateLegacyQuestionUiState = (uid: string | null | undefined) => 
   for (let index = 0; index < storage.length; index += 1) {
     const key = storage.key(index);
     if (!key) continue;
-    const match = key.match(/^(.*)-(answer|checkedAnswers|status|flagged)$/);
+    const match = key.startsWith(QUESTION_UI_STATE_PREFIX)
+      ? null
+      : key.match(LEGACY_QUESTION_UI_STATE_KEY_PATTERN);
     if (match) storageIds.add(match[1]);
   }
 
@@ -249,7 +245,7 @@ export const migrateLegacyQuestionUiState = (uid: string | null | undefined) => 
   saveQuestionUiStateMap(uid, map, { notify: false });
 };
 
-export const subscribeToQuestionUiState = (callback: () => void) => {
+export const subscribeToQuestionUiState = (callback: () => void): (() => void) => {
   if (typeof window === "undefined") return () => {};
   window.addEventListener(QUESTION_UI_STATE_EVENT, callback);
   return () => window.removeEventListener(QUESTION_UI_STATE_EVENT, callback);

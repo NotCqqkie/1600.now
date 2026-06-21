@@ -1,11 +1,12 @@
-
-export interface FriendlyAuthError {
+interface FriendlyAuthError {
   title: string;
   description: string;
   field?: "email" | "password";
 }
 
-export function describeAuthError(error: unknown, mode: "signin" | "signup"): FriendlyAuthError {
+type AuthErrorMode = "signin" | "signup";
+
+export function describeAuthError(error: unknown, mode: AuthErrorMode): FriendlyAuthError {
   const code = (error as { code?: string } | null)?.code ?? "";
   const fallbackMsg = (error as { message?: string } | null)?.message ?? "Something went wrong. Please try again.";
   const genericSignIn = {

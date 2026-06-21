@@ -1,3 +1,4 @@
+import type { ReactNode } from "react";
 import { Link, Navigate, useLocation } from "react-router-dom";
 
 import {
@@ -31,6 +32,17 @@ const carnegieLabel = (code: number | null): string => {
   if (code >= 21 && code <= 23) return "Liberal arts / baccalaureate college";
   return "Four-year college";
 };
+
+const OUTCOME_CARD_CLASS = "rounded-xl border border-border p-4";
+const METRIC_LABEL_CLASS = "text-sm text-muted-foreground";
+const OUTCOME_VALUE_CLASS = "text-lg font-semibold";
+
+const OutcomeCard = ({ label, value }: { label: string; value: ReactNode }) => (
+  <div className={OUTCOME_CARD_CLASS}>
+    <div className={METRIC_LABEL_CLASS}>{label}</div>
+    <div className={OUTCOME_VALUE_CLASS}>{value}</div>
+  </div>
+);
 
 const CollegePage = () => {
   const location = useLocation();
@@ -170,38 +182,16 @@ const CollegePage = () => {
           Tuition and outcomes
         </h2>
         <div className="mt-4 grid gap-3 md:grid-cols-2">
-          <div className="rounded-xl border border-border p-4">
-            <div className="text-sm text-muted-foreground">
-              Tuition (in-state)
-            </div>
-            <div className="text-lg font-semibold">
-              {formatUsd(college.tuitionIn)}
-            </div>
-          </div>
-          <div className="rounded-xl border border-border p-4">
-            <div className="text-sm text-muted-foreground">
-              Tuition (out-of-state)
-            </div>
-            <div className="text-lg font-semibold">
-              {formatUsd(college.tuitionOut)}
-            </div>
-          </div>
-          <div className="rounded-xl border border-border p-4">
-            <div className="text-sm text-muted-foreground">
-              Median earnings 10 years after entry
-            </div>
-            <div className="text-lg font-semibold">
-              {formatUsd(college.earnings10yr)}
-            </div>
-          </div>
-          <div className="rounded-xl border border-border p-4">
-            <div className="text-sm text-muted-foreground">
-              4-year completion rate (150% time)
-            </div>
-            <div className="text-lg font-semibold">
-              {formatPct(college.completionRate)}
-            </div>
-          </div>
+          <OutcomeCard label="Tuition (in-state)" value={formatUsd(college.tuitionIn)} />
+          <OutcomeCard label="Tuition (out-of-state)" value={formatUsd(college.tuitionOut)} />
+          <OutcomeCard
+            label="Median earnings 10 years after entry"
+            value={formatUsd(college.earnings10yr)}
+          />
+          <OutcomeCard
+            label="4-year completion rate (150% time)"
+            value={formatPct(college.completionRate)}
+          />
         </div>
         <p className="mt-3 text-xs text-muted-foreground">
           Source: US Department of Education College Scorecard, most recent

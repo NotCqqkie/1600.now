@@ -12,6 +12,12 @@ type RenderMixedContentOptions = {
   convertTexLineBreaks?: boolean;
 };
 
+type MathDelimiter = { open: "$" | "$$" | "\\(" | "\\["; close: "$" | "$$" | "\\)" | "\\]" };
+type TexDelimiter = "\\(" | "\\)" | "\\[" | "\\]" | "$" | "$$";
+type ContentSegment =
+  | { type: "text"; value: string }
+  | { type: "math"; value: string; displayMode: boolean };
+
 const collapseTableBlockNewlines = (content: string): string =>
   content.replace(/<table\b[\s\S]*?<\/table>/gi, (tableHtml) =>
     tableHtml.replace(/[ \t]*\n[ \t]*/g, " "),
@@ -32,47 +38,45 @@ const normalizeInlineWhitespace = (content: string): string =>
     .replace(/[ \t]+([,.;:!?])/g, "$1")
     .replace(/[ \t]{2,}/g, " ");
 
-const convertLineBreaksOutsideMath = (content: string): string => {
-  type MathDelimiter = { open: "$" | "$$" | "\\(" | "\\["; close: "$" | "$$" | "\\)" | "\\]" };
+const readOpeningMathDelimiterAt = (content: string, index: number): MathDelimiter | null => {
+  if (isEscapedAt(content, index)) return null;
+  if (content.startsWith("$$", index)) return { open: "$$", close: "$$" };
+  if (content[index] === "$") return { open: "$", close: "$" };
+  if (content.startsWith("\\(", index)) return { open: "\\(", close: "\\)" };
+  if (content.startsWith("\\[", index)) return { open: "\\[", close: "\\]" };
+  return null;
+};
 
+const findUnescapedDelimiter = (content: string, delimiter: string, from: number): number => {
+  let cursor = from;
+  while (cursor < content.length) {
+    if (content.startsWith(delimiter, cursor) && !isEscapedAt(content, cursor)) {
+      return cursor;
+    }
+    cursor += 1;
+  }
+  return content.length;
+};
+
+const convertLineBreaksOutsideMath = (content: string): string => {
   const convert = (value: string): string =>
     value
       .replace(/\\\\\\\\/g, "<br /><br />")
       .replace(/\\\\/g, "<br />")
       .replace(/\\n/g, "<br />");
 
-  const readDelimiterAt = (index: number): MathDelimiter | null => {
-    if (!isEscapedAt(content, index)) {
-      if (content.startsWith("$$", index)) return { open: "$$", close: "$$" };
-      if (content[index] === "$") return { open: "$", close: "$" };
-      if (content.startsWith("\\(", index)) return { open: "\\(", close: "\\)" };
-      if (content.startsWith("\\[", index)) return { open: "\\[", close: "\\]" };
-    }
-    return null;
-  };
-
   let result = "";
   let cursor = 0;
   let textStart = 0;
 
   while (cursor < content.length) {
-    const delimiter = readDelimiterAt(cursor);
+    const delimiter = readOpeningMathDelimiterAt(content, cursor);
     if (!delimiter) {
       cursor += 1;
       continue;
     }
 
-    let closing = cursor + delimiter.open.length;
-
-    while (closing < content.length) {
-      if (
-        content.startsWith(delimiter.close, closing) &&
-        !isEscapedAt(content, closing)
-      ) {
-        break;
-      }
-      closing += 1;
-    }
+    const closing = findUnescapedDelimiter(content, delimiter.close, cursor + delimiter.open.length);
 
     if (closing >= content.length) {
       cursor += 1;
@@ -90,13 +94,11 @@ const convertLineBreaksOutsideMath = (content: string): string => {
 };
 
 const normalizeTexDelimiters = (content: string): string => {
-  type Delimiter = "\\(" | "\\)" | "\\[" | "\\]" | "$" | "$$";
-
   const segments: { type: "text" | "math"; value: string; displayMode?: boolean }[] = [];
   let cursor = 0;
   let textStart = 0;
 
-  const findNextDelimiter = (from: number): { index: number; delimiter: Delimiter } | null => {
+  const findNextDelimiter = (from: number): { index: number; delimiter: TexDelimiter } | null => {
     let scan = from;
     while (scan < content.length) {
       if (!isEscapedAt(content, scan)) {
@@ -127,12 +129,7 @@ const normalizeTexDelimiters = (content: string): string => {
     const closeDelimiter = next.delimiter === "\\(" ? "\\)" : next.delimiter === "\\[" ? "\\]" : next.delimiter;
     const openLength = next.delimiter.length;
     const closeLength = closeDelimiter.length;
-    let closing = next.index + openLength;
-
-    while (closing < content.length) {
-      if (content.startsWith(closeDelimiter, closing) && !isEscapedAt(content, closing)) break;
-      closing += 1;
-    }
+    const closing = findUnescapedDelimiter(content, closeDelimiter, next.index + openLength);
 
     if (closing >= content.length) {
       cursor = next.index + openLength;
@@ -167,15 +164,8 @@ const normalizeTexDelimiters = (content: string): string => {
     .join("");
 };
 
-export function renderMixedContent(text: string, options: RenderMixedContentOptions = {}): string {
-  if (!text) return "";
-  const { normalizeMath = true, convertTexLineBreaks = true } = options;
-
-  let processedText = text;
-  if (convertTexLineBreaks) {
-    processedText = convertLineBreaksOutsideMath(processedText);
-  }
-  processedText = processedText.replace(
+const normalizeBulletListBlocks = (content: string): string =>
+  content.replace(
     /(?:(?:^|\n)\s*•\s*[^\n]+){2,}/g,
     (block: string) => {
       const items = block
@@ -187,17 +177,155 @@ export function renderMixedContent(text: string, options: RenderMixedContentOpti
       return `\n<ol type="I" class="bullet-list">${lis}</ol>\n`;
     },
   );
-  processedText = processedText.replace(
+
+const normalizeTableHtmlBeforeMath = (content: string): string => {
+  let normalized = content.replace(
     /(<t[hd]\b[^>]*>)([\s\S]*?)(<\/t[hd]>)/gi,
     (_, open: string, inner: string, close: string) =>
       `${open}${inner.replace(/\\\$/g, "$")}${close}`,
   );
-  processedText = collapseTableBlockNewlines(processedText);
-  processedText = processedText.replace(
+  normalized = collapseTableBlockNewlines(normalized);
+  normalized = normalized.replace(
     /(<\/?(?:table|thead|tbody|tfoot|tr|td|th|colgroup|col|caption)\b[^>]*>)\s+(?=<\/?(?:table|thead|tbody|tfoot|tr|td|th|colgroup|col|caption)\b)/gi,
     "$1",
   );
-  processedText = processedText.replace(/(<\/(?:table|ol|ul|tbody|thead|tr)>)\s*\n+\s*/g, "$1");
+  normalized = normalized.replace(/(<\/(?:table|ol|ul|tbody|thead|tr)>)\s*\n+\s*/g, "$1");
+  return normalized;
+};
+
+const splitTextAndMath = (content: string): ContentSegment[] => {
+  const segments: ContentSegment[] = [];
+  let cursor = 0;
+  let textStart = 0;
+
+  while (cursor < content.length) {
+    if (content[cursor] !== "$" || isEscapedAt(content, cursor)) {
+      cursor += 1;
+      continue;
+    }
+
+    const isDisplayMath = content[cursor + 1] === "$" && !isEscapedAt(content, cursor + 1);
+    const delimiterLength = isDisplayMath ? 2 : 1;
+
+    let closing = cursor + delimiterLength;
+    while (closing < content.length) {
+      if (
+        content[closing] === "$" &&
+        !isEscapedAt(content, closing) &&
+        (isDisplayMath ? content[closing + 1] === "$" : content[closing + 1] !== "$")
+      ) {
+        break;
+      }
+      closing += 1;
+    }
+
+    if (closing >= content.length) {
+      cursor += 1;
+      continue;
+    }
+
+    const mathCandidate = content.slice(cursor + delimiterLength, closing);
+    if (
+      /^\s*\d[\d,.]*\s*[,;:]?\s*$/.test(mathCandidate) &&
+      /\d/.test(content[closing + delimiterLength] ?? "")
+    ) {
+      cursor += 1;
+      continue;
+    }
+    if (!isLikelyInlineMath(mathCandidate)) {
+      cursor += 1;
+      continue;
+    }
+
+    if (textStart < cursor) {
+      segments.push({ type: "text", value: content.slice(textStart, cursor) });
+    }
+    segments.push({ type: "math", value: mathCandidate, displayMode: isDisplayMath });
+
+    cursor = closing + delimiterLength;
+    textStart = cursor;
+  }
+
+  if (textStart < content.length) {
+    segments.push({ type: "text", value: content.slice(textStart) });
+  }
+
+  return segments;
+};
+
+const trimHtmlWrapperSpacing = (content: string, tag: "strong" | "em"): string =>
+  content.replace(new RegExp(`<${tag}>([\\s\\S]*?)<\\/${tag}>`, "gi"), (_, inner: string) => {
+    const trimmed = inner.trim();
+    if (!trimmed) return inner.length > 0 ? inner : "";
+    const leading = inner.match(/^\s*/)?.[0] ?? "";
+    const trailing = inner.match(/\s*$/)?.[0] ?? "";
+    return `${leading}<${tag}>${trimmed}</${tag}>${trailing}`;
+  });
+
+const applyInlineFormatting = (content: string): string => {
+  let html = content.replace(/\n/g, "<br />");
+  const protectedTags: string[] = [];
+  const protectTags = (value: string) =>
+    value.replace(/<\/?[A-Za-z][^>]*>/g, (tag: string) => {
+      const index = protectedTags.push(tag) - 1;
+      return `\uE000${index}\uE001`;
+    });
+  const restoreTags = (value: string) =>
+    value.replace(/\uE000(\d+)\uE001/g, (_match: string, index: string) => protectedTags[Number(index)] ?? "");
+
+  html = html.replace(/~~([^~]+?)~~/g, (_, inner: string) => {
+    const trimmed = inner.trim();
+    return trimmed ? `<del>${trimmed}</del>` : _;
+  });
+
+  html = trimHtmlWrapperSpacing(html, "strong");
+  html = trimHtmlWrapperSpacing(html, "em");
+
+  html = protectTags(html);
+
+  html = html.replace(/\*\*([^*]+?)\*\*/g, (_, inner: string) => {
+    const trimmed = inner.trim();
+    return trimmed ? `<strong>${trimmed}</strong>` : _;
+  });
+
+  html = html.replace(/__([^_]+?)__/g, (_, inner: string) => {
+    const trimmed = inner.trim();
+    return trimmed ? `<u>${trimmed}</u>` : _;
+  });
+
+  html = html.replace(/(^|[^*])\*([^*]+?)\*(?!\*)/g, (_, prefix: string, inner: string) => {
+    const trimmed = inner.trim();
+    if (!trimmed) return _;
+    return `${prefix}<em>${trimmed}</em>`;
+  });
+
+  html = html.replace(/(^|[^\w])_([^_]+?)_(?![\w_])/g, (_, prefix: string, inner: string) => {
+    const trimmed = inner.trim();
+    if (!trimmed) return _;
+    return `${prefix}<em>${trimmed}</em>`;
+  });
+
+  html = restoreTags(html);
+
+  html = html.replace(
+    /(<img\b[^>]*\bsrc\s*=\s*)(["'])([^"']+)(\2)/gi,
+    (_, prefix: string, quote: string, src: string) =>
+      `${prefix}${quote}${normalizePublicAssetPath(src)}${quote}`,
+  );
+
+  return html;
+};
+
+export function renderMixedContent(text: string, options: RenderMixedContentOptions = {}): string {
+  if (!text) return "";
+  const { normalizeMath = true, convertTexLineBreaks = true } = options;
+
+  let processedText = text;
+  if (convertTexLineBreaks) {
+    processedText = convertLineBreaksOutsideMath(processedText);
+  }
+  processedText = normalizeBulletListBlocks(processedText);
+  processedText = normalizeTableHtmlBeforeMath(processedText);
   processedText = processedText.replace(/\n/g, "<br />");
   if (normalizeMath) {
     processedText = normalizeTextForMathRendering(processedText);
@@ -205,138 +333,7 @@ export function renderMixedContent(text: string, options: RenderMixedContentOpti
   processedText = normalizeInlineWhitespace(processedText);
   processedText = normalizeTexDelimiters(processedText);
 
-  type ContentSegment =
-    | { type: "text"; value: string }
-    | { type: "math"; value: string; displayMode: boolean };
-
-  const splitTextAndMath = (content: string): ContentSegment[] => {
-    const segments: ContentSegment[] = [];
-    let cursor = 0;
-    let textStart = 0;
-
-    while (cursor < content.length) {
-      if (content[cursor] !== "$" || isEscapedAt(content, cursor)) {
-        cursor += 1;
-        continue;
-      }
-
-      const isDisplayMath = content[cursor + 1] === "$" && !isEscapedAt(content, cursor + 1);
-      const delimiterLength = isDisplayMath ? 2 : 1;
-
-      let closing = cursor + delimiterLength;
-      while (closing < content.length) {
-        if (
-          content[closing] === "$" &&
-          !isEscapedAt(content, closing) &&
-          (isDisplayMath ? content[closing + 1] === "$" : content[closing + 1] !== "$")
-        ) {
-          break;
-        }
-        closing += 1;
-      }
-
-      if (closing >= content.length) {
-        cursor += 1;
-        continue;
-      }
-
-      const mathCandidate = content.slice(cursor + delimiterLength, closing);
-      if (
-        /^\s*\d[\d,.]*\s*[,;:]?\s*$/.test(mathCandidate) &&
-        /\d/.test(content[closing + delimiterLength] ?? "")
-      ) {
-        cursor += 1;
-        continue;
-      }
-      if (!isLikelyInlineMath(mathCandidate)) {
-        cursor += 1;
-        continue;
-      }
-
-      if (textStart < cursor) {
-        segments.push({ type: "text", value: content.slice(textStart, cursor) });
-      }
-      segments.push({ type: "math", value: mathCandidate, displayMode: isDisplayMath });
-
-      cursor = closing + delimiterLength;
-      textStart = cursor;
-    }
-
-    if (textStart < content.length) {
-      segments.push({ type: "text", value: content.slice(textStart) });
-    }
-
-    return segments;
-  };
-
   const parts = splitTextAndMath(processedText);
-
-  const applyInlineFormatting = (content: string): string => {
-    let html = content.replace(/\n/g, "<br />");
-    const protectedTags: string[] = [];
-    const protectTags = (value: string) =>
-      value.replace(/<\/?[A-Za-z][^>]*>/g, (tag: string) => {
-        const index = protectedTags.push(tag) - 1;
-        return `\uE000${index}\uE001`;
-      });
-    const restoreTags = (value: string) =>
-      value.replace(/\uE000(\d+)\uE001/g, (_match: string, index: string) => protectedTags[Number(index)] ?? "");
-
-    html = html.replace(/~~([^~]+?)~~/g, (_, inner: string) => {
-      const trimmed = inner.trim();
-      return trimmed ? `<del>${trimmed}</del>` : _;
-    });
-
-    html = html.replace(/<strong>([\s\S]*?)<\/strong>/gi, (_, inner: string) => {
-      const trimmed = inner.trim();
-      if (!trimmed) return inner.length > 0 ? inner : "";
-      const leading = inner.match(/^\s*/)?.[0] ?? "";
-      const trailing = inner.match(/\s*$/)?.[0] ?? "";
-      return `${leading}<strong>${trimmed}</strong>${trailing}`;
-    });
-
-    html = html.replace(/<em>([\s\S]*?)<\/em>/gi, (_, inner: string) => {
-      const trimmed = inner.trim();
-      if (!trimmed) return inner.length > 0 ? inner : "";
-      const leading = inner.match(/^\s*/)?.[0] ?? "";
-      const trailing = inner.match(/\s*$/)?.[0] ?? "";
-      return `${leading}<em>${trimmed}</em>${trailing}`;
-    });
-
-    html = protectTags(html);
-
-    html = html.replace(/\*\*([^*]+?)\*\*/g, (_, inner: string) => {
-      const trimmed = inner.trim();
-      return trimmed ? `<strong>${trimmed}</strong>` : _;
-    });
-
-    html = html.replace(/__([^_]+?)__/g, (_, inner: string) => {
-      const trimmed = inner.trim();
-      return trimmed ? `<u>${trimmed}</u>` : _;
-    });
-
-    html = html.replace(/(^|[^*])\*([^*]+?)\*(?!\*)/g, (_, prefix: string, inner: string) => {
-      const trimmed = inner.trim();
-      if (!trimmed) return _;
-      return `${prefix}<em>${trimmed}</em>`;
-    });
-
-    html = html.replace(/(^|[^\w])_([^_]+?)_(?![\w_])/g, (_, prefix: string, inner: string) => {
-      const trimmed = inner.trim();
-      if (!trimmed) return _;
-      return `${prefix}<em>${trimmed}</em>`;
-    });
-
-    html = restoreTags(html);
-
-    html = html.replace(
-      /(<img\b[^>]*\bsrc\s*=\s*)(["'])([^"']+)(\2)/gi,
-      (_, prefix: string, quote: string, src: string, closingQuote: string) =>
-        `${prefix}${quote}${normalizePublicAssetPath(src)}${closingQuote}`,
-    );
-
-    return html;
-  };
 
   const rendered = parts
     .map((part) => {

@@ -243,6 +243,200 @@
   .border-line-soft { border-color: rgb(var(--ds-line-soft) / 0.08); }
   .border-line      { border-color: rgb(var(--ds-line-soft) / 0.10); }
 
+  .ui-button-motion > svg:last-child:not(:first-child) {
+    transition: transform 150ms ease;
+  }
+
+  .ui-button-motion:hover > svg:last-child:not(:first-child) {
+    transform: translateX(2px);
+  }
+
+  .keyword-count-pulse {
+    animation: keyword-count-pulse 260ms cubic-bezier(0.22, 1, 0.36, 1);
+    transform-origin: center;
+  }
+
+  .bank-result-row {
+    transition:
+      background-color 160ms ease,
+      border-color 160ms ease,
+      box-shadow 160ms ease,
+      transform 160ms ease;
+  }
+
+  .bank-result-row:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgb(var(--ink) / 0.05);
+  }
+
+  .bank-result-arrow {
+    transition:
+      color 160ms ease,
+      opacity 160ms ease,
+      transform 160ms ease;
+  }
+
+  .bank-result-row:hover .bank-result-arrow {
+    color: rgb(var(--ds-accent-deep));
+    transform: translateX(2px);
+  }
+
+  .bank-filter-control:hover,
+  .bank-filter-control:active,
+  .bank-filter-control.ui-button-polish:hover,
+  .bank-filter-control.ui-button-polish:active,
+  [data-filter-demo-control="time"] [role="slider"]:hover,
+  [data-filter-demo-control="time"] [role="slider"]:active {
+    transform: none !important;
+  }
+
+  .bank-filter-control.ui-button-polish:hover > svg:last-child:not(:first-child) {
+    transform: none;
+  }
+
+  .bank-filter-reset-actions {
+    display: flex;
+    min-width: 0;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 0;
+    row-gap: 0.75rem;
+    transition: column-gap 280ms cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .bank-filter-reset-actions-open {
+    column-gap: 0.75rem;
+  }
+
+  .bank-filter-reset-slot {
+    flex: 0 0 0;
+    width: 0;
+    min-width: 0;
+    overflow: visible;
+    pointer-events: none;
+    transition:
+      flex-basis 280ms cubic-bezier(0.22, 1, 0.36, 1),
+      width 280ms cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .bank-filter-reset-slot-open {
+    flex-basis: 129px;
+    width: 129px;
+    pointer-events: auto;
+  }
+
+  .bank-filter-reset-slot-inner {
+    width: max-content;
+    opacity: 0;
+    transform: translateX(-10px);
+    transition:
+      opacity 180ms ease,
+      transform 280ms cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .bank-filter-reset-slot-open .bank-filter-reset-slot-inner {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .bank-filter-panel-motion {
+    display: block;
+    height: 0;
+    overflow: hidden;
+    pointer-events: none;
+    visibility: hidden;
+    transition:
+      height 260ms cubic-bezier(0.22, 1, 0.36, 1),
+      visibility 0s linear 260ms;
+  }
+
+  .bank-filter-panel-motion-open {
+    height: var(--bank-filter-panel-height);
+    pointer-events: auto;
+    visibility: visible;
+    transition: height 260ms cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .bank-filter-panel-motion-inner {
+    min-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(-8px);
+    transition:
+      opacity 180ms ease,
+      transform 260ms cubic-bezier(0.22, 1, 0.36, 1);
+    will-change: opacity, transform;
+  }
+
+  .bank-filter-panel-motion-open .bank-filter-panel-motion-inner {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  @media (min-width: 640px) {
+    .bank-filter-reset-actions {
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+    }
+
+    .bank-filter-reset-actions-open {
+      column-gap: 1rem;
+    }
+  }
+
+  .bank-accordion-panel {
+    display: grid;
+    grid-template-rows: 0fr;
+    opacity: 0;
+    transition:
+      grid-template-rows 240ms ease,
+      opacity 180ms ease;
+  }
+
+  .bank-accordion-panel-open {
+    grid-template-rows: 1fr;
+    opacity: 1;
+  }
+
+  .bank-accordion-panel-inner {
+    min-height: 0;
+    overflow: hidden;
+  }
+
+  .bank-accordion-chevron {
+    transition: transform 220ms ease;
+  }
+
+  .bank-accordion-chevron-open {
+    transform: rotate(90deg);
+  }
+
+  .toast-progress-timer::after,
+  .sonner-progress-toast::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 3px;
+    transform-origin: left center;
+    animation: toast-progress-timer var(--toast-progress-duration, 5000ms) linear forwards;
+  }
+
+  .toast-progress-timer::after {
+    background: rgb(var(--ds-accent));
+  }
+
+  .toast-progress-timer.destructive::after {
+    background: rgb(255 255 255 / 0.72);
+  }
+
+  .sonner-progress-toast::after {
+    background: rgb(var(--ds-accent));
+    animation-duration: var(--sonner-toast-duration, 2000ms);
+  }
+
   .ds-caption {
     font-family: 'Inter', system-ui, sans-serif;
     font-weight: 600;
@@ -624,6 +818,17 @@
   0% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.4); }
   70% { box-shadow: 0 0 0 10px rgba(34, 197, 94, 0); }
   100% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); }
+}
+
+@keyframes keyword-count-pulse {
+  0% { transform: scale(0.96); opacity: 0.72; }
+  70% { transform: scale(1.04); opacity: 1; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes toast-progress-timer {
+  from { transform: scaleX(1); }
+  to { transform: scaleX(0); }
 }
 
 @keyframes glow-pulse {
@@ -1031,7 +1236,8 @@ ol.bullet-list li {
 
 .tour-spot-pulse { animation: tour-spot-pulse 2.4s ease-in-out infinite; }
 .tour-coach-in   { animation: tour-coach-in 180ms cubic-bezier(0.22, 1, 0.36, 1) both; }
-.tour-coach-card { animation: tour-coach-in 200ms cubic-bezier(0.22, 1, 0.36, 1) both; }
+.tour-coach-card { will-change: transform; }
+.tour-coach-content { animation: tour-coach-in 200ms cubic-bezier(0.22, 1, 0.36, 1) both; }
 .tour-splash-orb { animation: tour-splash-orb 450ms cubic-bezier(0.34, 1.56, 0.64, 1) both; }
 .tour-splash-text{ animation: tour-splash-text 380ms cubic-bezier(0.22, 1, 0.36, 1) both; }
 .tour-float-y    { animation: tour-float-y 4.2s ease-in-out infinite; }
@@ -1077,13 +1283,6 @@ ol.bullet-list li {
 .tour-step-badge-pop { animation: tour-step-badge-pop 300ms cubic-bezier(0.34, 1.56, 0.64, 1) both; }
 .tour-icon-bounce    { animation: tour-icon-bounce 2.4s ease-in-out infinite; }
 .tour-action-shake   { animation: tour-action-shake 1.6s ease-in-out infinite; }
-
-body.tour-active aside[data-tour="sidebar"] a[data-tour^="nav-"] {
-  transition:
-    background-color 600ms cubic-bezier(0.22, 1, 0.36, 1),
-    color 600ms cubic-bezier(0.22, 1, 0.36, 1),
-    box-shadow 600ms cubic-bezier(0.22, 1, 0.36, 1) !important;
-}
 
 body.tour-active [role="dialog"][aria-modal="true"],
 body.tour-active .tour-coach-card {

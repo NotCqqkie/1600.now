@@ -4,16 +4,17 @@
   "correctAnswer": "B",
   "steps": [
     {
-      "explanation": "Set up the proportion. The ratio 10 to 2 is equivalent to the ratio 40 to $2k$, so write $\\frac{10}{2} = \\frac{40}{2k}$. Simplify the left side: $5 = \\frac{40}{2k}$."
+      "title": "Set up the proportion",
+      "content": "The ratio $10$ to $2$ is equivalent to the ratio $40$ to $2k$, so $$\\frac{10}{2}=\\frac{40}{2k}.$$ The left side simplifies to $5$."
     },
     {
-      "explanation": "Multiply both sides by $2k$: $10k = 40$. Divide both sides by 10: $k = 4$."
+      "title": "Solve for k",
+      "content": "$$5=\\frac{40}{2k}$$ Multiply both sides by $2k$: $$10k=40.$$ Divide by $10$: $$k=4.$$"
     },
     {
-      "explanation": "Verify: with $k = 4$, the ratio 40 to ${2}(4) = 8$ simplifies to $\\frac{40}{8} = 5$, which equals $\\frac{10}{2} = 5$. The ratios are equivalent."
-    },
-    {
-      "explanation": "<ul><li><strong>Choice A &mdash; $0.5$</strong>: Then $2k=1$, so the ratio $40$ to $2k$ is $40$ to $1$, or $40$, not $5$. &#10007;</li><li><strong>Choice B &mdash; $4$</strong>: Then $2k=8$, so the ratio $40$ to $2k$ is $40$ to $8$, or $5$, matching $10$ to $2$. &#10003;</li><li><strong>Choice C &mdash; $8$</strong>: Then $2k=16$, so the ratio is $40$ to $16$, or $2.5$, not $5$. &#10007;</li><li><strong>Choice D &mdash; $80$</strong>: Then $2k=160$, so the ratio is $40$ to $160$, or $0.25$, not $5$. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Check the choices",
+      "content": "<ul><li><strong>Choice A &mdash; $0.5$</strong>: Then $2k=1$, so the ratio $40$ to $2k$ is $40$ to $1$, not $5$. &#10007;</li><li><strong>Choice B &mdash; $4$</strong>: Then $2k=8$, so $\\frac{40}{8}=5$, matching $\\frac{10}{2}=5$. &#10003;</li><li><strong>Choice C &mdash; $8$</strong>: Then $2k=16$, so the ratio is $40$ to $16$, or $2.5$. &#10007;</li><li><strong>Choice D &mdash; $80$</strong>: Then $2k=160$, so the ratio is $40$ to $160$, or $0.25$. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
     }
-  ]
+  ],
+  "section": "Math"
 }

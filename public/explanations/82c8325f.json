@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+      "title": "Use the center and a point on the circle",
+      "content": "A circle with center $(-4,5)$ has equation $(x+4)^2+(y-5)^2=r^2$. Use the given point $(-8,8)$ to find $r^2$."
     },
     {
       "title": "Write the standard form with the center",

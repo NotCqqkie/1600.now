@@ -4,8 +4,8 @@
   "correctAnswer": "A",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+      "title": "Use corresponding parts of similar triangles",
+      "content": "In similar triangles, corresponding angles are congruent. Corresponding side lengths are proportional, but they are not necessarily equal unless the scale factor is 1."
     },
     {
       "title": "Use corresponding angles",

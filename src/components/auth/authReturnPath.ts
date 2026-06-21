@@ -1,13 +1,22 @@
 const AUTH_PATHS = new Set(["/login", "/signup", "/verify-email"]);
 
-export const AUTH_RETURN_KEY = "authReturnTo";
+const AUTH_RETURN_KEY = "authReturnTo";
 
 const isSafeReturnPath = (value: string): boolean =>
   value.startsWith("/") && !value.startsWith("//") && !value.startsWith("/\\");
 
-export const isAuthPath = (pathname: string): boolean => AUTH_PATHS.has(pathname);
+const isAuthPath = (pathname: string): boolean => AUTH_PATHS.has(pathname);
 
-export const getAuthReturnTo = (): string => {
+export const storeAuthReturnTo = (pathname: string, search: string) => {
+  if (isAuthPath(pathname)) return;
+  try {
+    sessionStorage.setItem(AUTH_RETURN_KEY, pathname + search);
+  } catch {
+    return;
+  }
+};
+
+const getAuthReturnTo = (): string => {
   try {
     const stored = sessionStorage.getItem(AUTH_RETURN_KEY);
     sessionStorage.removeItem(AUTH_RETURN_KEY);

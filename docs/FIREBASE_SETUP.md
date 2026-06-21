@@ -62,3 +62,20 @@ Use `VITE_FIREBASE_AUTH_DOMAIN_LOCAL` for localhost/dev so Google sign-in works 
   - `http://localhost:8081`
 - Authorized redirect URI:
   - `https://auth.1600.now/__/auth/handler`
+
+## 7) Verification Email Deliverability
+- Firebase Console -> Authentication -> Templates:
+  - Set the public-facing sender name to `1600.now`.
+  - Edit the verification and password-reset templates so the subject and first line clearly mention `1600.now`.
+  - Avoid marketing language, all-caps copy, link shorteners, or multiple external links.
+- Firebase Console -> Authentication -> Settings -> Authorized domains:
+  - Keep `1600.now` authorized.
+  - If you use branded Firebase action links, add and verify the same Firebase Hosting domain you set as `VITE_FIREBASE_AUTH_LINK_DOMAIN`.
+- Recommended production env:
+
+```txt
+VITE_FIREBASE_AUTH_DOMAIN=auth.1600.now
+VITE_FIREBASE_AUTH_LINK_DOMAIN=auth.1600.now
+```
+
+The app passes Firebase action-code settings for verification and password-reset emails so links continue back to `https://1600.now/verify-email` or `https://1600.now/login`. Inbox placement still depends on the Firebase template, sender reputation, and the configured action-link domain.

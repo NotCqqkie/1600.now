@@ -1074,13 +1074,26 @@ export const getBankCounts = (
 
 export const bankCounts = getBankCounts("all");
 
+const loadFilteredBankPool = async (
+  subject: BankSubject,
+  bankSource: BankSourceFilter,
+  options: QuestionBankLoadOptions,
+  predicate: (question: BankQuestion) => boolean,
+): Promise<BankQuestion[]> =>
+  (await loadBankPool(subject, bankSource, options)).filter(predicate);
+
 export const loadQuestionsByDomain = async (
   subject: BankSubject,
   domain: MathDomain | EnglishDomain,
   bankSource: BankSourceFilter = DEFAULT_BANK_SOURCE,
   options: QuestionBankLoadOptions = {},
 ): Promise<BankQuestion[]> =>
-  (await loadBankPool(subject, bankSource, options)).filter((question) => question.category.domain === domain);
+  loadFilteredBankPool(
+    subject,
+    bankSource,
+    options,
+    (question) => question.category.domain === domain,
+  );
 
 export const loadQuestionsBySkill = async (
   subject: BankSubject,
@@ -1088,7 +1101,12 @@ export const loadQuestionsBySkill = async (
   bankSource: BankSourceFilter = DEFAULT_BANK_SOURCE,
   options: QuestionBankLoadOptions = {},
 ): Promise<BankQuestion[]> =>
-  (await loadBankPool(subject, bankSource, options)).filter((question) => question.category.skill === skill);
+  loadFilteredBankPool(
+    subject,
+    bankSource,
+    options,
+    (question) => question.category.skill === skill,
+  );
 
 export const loadDomainCounts = async (
   subject: BankSubject,

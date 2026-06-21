@@ -168,7 +168,7 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/4c95c7d4_q_01.png",
-        "alt": "The figure presents a trapezoid, which consists of three congruent equilateral triangles. Two of the triangles are shaded, and each of those triangles shares a side with the unshaded triangle."
+        "alt": "Logo in the shape of a trapezoid made from three congruent equilateral triangles; the left and right triangles are shaded."
       }
     ]
   },
@@ -295,7 +295,7 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/a67b9f88_q_01.png",
-        "alt": ""
+        "alt": "Right triangle RST with a right angle at S, hypotenuse TR labeled 53, and leg RS labeled square root of 105."
       }
     ]
   },
@@ -311,7 +311,7 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/6933b3d9_q_01.png",
-        "alt": ""
+        "alt": "Right triangle RST with a right angle at S, side RS labeled 12, side ST labeled 5, and hypotenuse RT."
       }
     ]
   },
@@ -711,7 +711,7 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/a38c0183_q_01.png",
-        "alt": ""
+        "alt": "Coordinate plane showing circle A centered at (-2, 0) with radius 3."
       }
     ]
   },
@@ -791,7 +791,7 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/3b44439b_q_01.png",
-        "alt": ""
+        "alt": "Parallel lines p and q cut by transversal t. At the intersection with q, adjacent angles labeled x degrees and 142 degrees form a straight line."
       }
     ]
   },
@@ -941,7 +941,7 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/dfc420b2_q_01.png",
-        "alt": "The figure presents line segments A, D and B E intersecting at point C. Line segments A, B and D E together with line segments A, D and B E form two triangles, A, B C and C D E.  In triangle A, B C, angle A, measures 20 degrees, angle B measures x degrees, and the measure of angle C is not given. In triangle C D E, angle D measures y degrees, angle E measures 40 degrees, and the measure of angle C is not given. Angle C of triangle A, B C appears to be congruent to angle C of triangle C D E. A note states that the figure is not drawn to scale."
+        "alt": "Segments AD and BE intersect at C, forming triangles ABC and CDE. In triangle ABC, angle A is 20 degrees and angle B is x degrees; in triangle CDE, angle D is y degrees and angle E is 40 degrees."
       }
     ]
   },
@@ -1043,7 +1043,7 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/c8d60e48_q_01.png",
-        "alt": "The figure presents triangle B A, C, such that side B C is horizontal and vertex A, is above side B C. Angle A, is labeled x degrees."
+        "alt": "Isosceles triangle ABC with AB = AC, base BC horizontal, base angle at B labeled 67 degrees, and vertex angle A labeled x degrees."
       }
     ]
   },
@@ -1187,7 +1187,7 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/e0d2e21a_q_01.png",
-        "alt": ""
+        "alt": "Triangle ABC with angle A labeled 60 degrees and side AC labeled d; triangle XYZ is a dilation of triangle ABC with corresponding vertex X. Figure not drawn to scale."
       }
     ]
   },
@@ -1195,7 +1195,7 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/6a3fbec3_q_01.png",
-        "alt": "The figure presents right triangle A B C . Side A C is horizontal, vertex C is to the right of vertex A, vertex B is above side A C , and angle A B C is a right angle. Point D lies on side A C, directly below vertex B, and vertical line segment B D is drawn, dividing triangle A B C into two smaller triangles, triangle A B D and triangle B D C. Angle A D B is a right angle. A note states that the figure is not drawn to scale."
+        "alt": "Right triangle ABC has a right angle at B. Segment BD is perpendicular to hypotenuse AC at D, forming right triangles ABD and BDC. Figure not drawn to scale."
       }
     ]
   },
@@ -1478,7 +1478,7 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/1bf809b5_q_01.png",
-        "alt": ""
+        "alt": "Right triangle with right angle at the lower left, angle x degrees at the top left, adjacent vertical leg labeled 11, and hypotenuse labeled 28. Figure not drawn to scale."
       }
     ]
   },
@@ -1807,7 +1807,7 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/69b0d79d_q_01.png",
-        "alt": "The figure presents a circle with center O. Point A, lies on the upper left part of the circle. Point B lies on the upper right part of the circle. Point C is indicated at the bottom of the circle, directly below the center O. Line segment O A, line segment O B, and horizontal line segment A, B are drawn forming triangle O A, B. Vertical line segment O C is drawn."
+        "alt": "Circle centered at O with radii OA, OB, and OC. Chord AB is drawn, OC is labeled 18, angle OAB is 30 degrees, and arc AB is requested."
       }
     ]
   },
@@ -1863,7 +1863,7 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/64d1f49f_q_01.png",
-        "alt": ""
+        "alt": "Two intersecting lines form opposite vertical angles labeled w degrees and z degrees."
       }
     ]
   },
@@ -2168,7 +2168,7 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/099526fc_q_01.png",
-        "alt": ""
+        "alt": "Line segment in the xy-plane with endpoints (-6, 4) and (3, 10)."
       }
     ]
   },
@@ -2416,7 +2416,7 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/694b7fce_q_01.png",
-        "alt": ""
+        "alt": "Triangle ADE with A, C, and E on horizontal segment AE, C between A and E. Segment BC is perpendicular to AE at C, segment DE is perpendicular to AE at E, and B lies on segment AD. Figure not drawn to scale."
       }
     ]
   },
@@ -2496,7 +2496,7 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/17912810_q_01.png",
-        "alt": ""
+        "alt": "Parallel lines q and t are cut by transversals r and s. Angle a is 43 degrees where r and s intersect, angle b is 122 degrees on line q, and the obtuse angle below line t is split into two equal angles labeled w."
       }
     ]
   },
@@ -2632,7 +2632,7 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/145337bc_q_01.png",
-        "alt": ""
+        "alt": "Right triangle with a right angle at the bottom right, both acute angles labeled 45 degrees, vertical leg labeled 24, and horizontal leg labeled x. Figure not drawn to scale."
       }
     ]
   },

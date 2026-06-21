@@ -10,6 +10,31 @@ import { blogPosts } from "@/lib/seo-data/blogData";
 const title = "1600.now Blog: Digital SAT Prep Guides & Strategy";
 const description =
   "In-depth guides on the Digital SAT: scoring, strategy, math formulas, vocabulary, adaptive testing, and study plans. Updated for 2026.";
+const BLOG_URL = "https://1600.now/blog";
+const BLOG_LIST_CARD_CLASS = "block rounded-xl border border-border p-5 transition hover:bg-muted";
+const blogPostsNewestFirst = [...blogPosts].sort((leftPost, rightPost) =>
+  leftPost.datePublished < rightPost.datePublished ? 1 : -1,
+);
+const blogIndexJsonLd = [
+  buildBreadcrumbJsonLd([
+    { name: "Home", url: "https://1600.now/" },
+    { name: "Blog", url: BLOG_URL },
+  ]),
+  {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    name: "1600.now Blog",
+    url: BLOG_URL,
+    description,
+  },
+  buildItemListJsonLd(
+    "1600.now Digital SAT blog posts",
+    blogPosts.map((post) => ({
+      name: post.title,
+      url: `${BLOG_URL}/${post.slug}`,
+    })),
+  ),
+];
 
 const BlogIndex = () => {
   return (
@@ -18,26 +43,7 @@ const BlogIndex = () => {
         id="blog-index"
         title={title}
         description={description}
-        jsonLd={[
-          buildBreadcrumbJsonLd([
-            { name: "Home", url: "https://1600.now/" },
-            { name: "Blog", url: "https://1600.now/blog" },
-          ]),
-          {
-            "@context": "https://schema.org",
-            "@type": "Blog",
-            name: "1600.now Blog",
-            url: "https://1600.now/blog",
-            description,
-          },
-          buildItemListJsonLd(
-            "1600.now Digital SAT blog posts",
-            blogPosts.map((post) => ({
-              name: post.title,
-              url: `https://1600.now/blog/${post.slug}`,
-            })),
-          ),
-        ]}
+        jsonLd={blogIndexJsonLd}
       />
 
       <header className="mb-10">
@@ -51,25 +57,22 @@ const BlogIndex = () => {
       </header>
 
       <ul className="space-y-6">
-        {blogPosts
-          .slice()
-          .sort((leftPost, rightPost) => (leftPost.datePublished < rightPost.datePublished ? 1 : -1))
-          .map((post) => (
-            <li key={post.slug}>
-              <Link
-                to={`/blog/${post.slug}`}
-                className="block rounded-xl border border-border p-5 transition hover:bg-muted"
-              >
-                <div className="text-xs uppercase tracking-wider text-muted-foreground">
-                  {post.tag} · {post.readingMinutes} min read
-                </div>
-                <h2 className="mt-1 text-xl font-semibold">{post.title}</h2>
-                <p className="mt-2 text-sm text-muted-foreground">
-                  {post.description}
-                </p>
-              </Link>
-            </li>
-          ))}
+        {blogPostsNewestFirst.map((post) => (
+          <li key={post.slug}>
+            <Link
+              to={`/blog/${post.slug}`}
+              className={BLOG_LIST_CARD_CLASS}
+            >
+              <div className="text-xs uppercase tracking-wider text-muted-foreground">
+                {post.tag} · {post.readingMinutes} min read
+              </div>
+              <h2 className="mt-1 text-xl font-semibold">{post.title}</h2>
+              <p className="mt-2 text-sm text-muted-foreground">
+                {post.description}
+              </p>
+            </Link>
+          </li>
+        ))}
       </ul>
     </div>
   );

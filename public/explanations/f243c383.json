@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+      "title": "Track the exposed faces",
+      "content": "Let $s$ be the side length of each square base. Write the surface area of one prism, then write the surface area after the two prisms are glued together and the glued square faces are no longer exposed."
     },
     {
       "title": "Express surface area formulas",

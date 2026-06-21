@@ -4,32 +4,18 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ChevronUp, ChevronDown } from "lucide-react";
 import { renderMixedContent } from "@/lib/text/mathRendering";
-import {
-  getCachedExplanation,
-  normalizeExplanationData,
-  type ExplanationData,
-  type ExplanationStep,
-} from "@/lib/explanationApi";
+import { normalizeExplanationData } from "@/lib/explanationApi";
 import { InlineDesmos } from "@/components/tools/InlineDesmos";
-import type { QuestionImageDisplaySize } from "@/data/questionImageSizing.generated";
 import "katex/dist/katex.min.css";
+type ExplanationData = NonNullable<ReturnType<typeof normalizeExplanationData>>;
+type ExplanationStep = ExplanationData["steps"][number];
+
 interface StepByStepExplanationProps {
   questionId: string;
-  question: {
-    section: string;
-    passage: string;
-    questionText?: string | null;
-    choices?: { label: string; text: string; image?: string; imageDisplaySize?: QuestionImageDisplaySize }[];
-    correctAnswer: string;
-    domain?: string;
-    skill?: string;
-    difficulty?: string;
-    isFillInBlank?: boolean;
-  };
-  questionImages?: { src: string; alt: string; displaySize?: QuestionImageDisplaySize }[];
+  correctAnswer?: string | null;
 }
 
-export function StepByStepExplanation({ questionId, question }: StepByStepExplanationProps) {
+export function StepByStepExplanation({ questionId, correctAnswer }: StepByStepExplanationProps) {
   const [data, setData] = useState<ExplanationData | null>(null);
   const [revealedUpTo, setRevealedUpTo] = useState(0);
   const [currentStep, setCurrentStep] = useState(0);
@@ -37,25 +23,17 @@ export function StepByStepExplanation({ questionId, question }: StepByStepExplan
   const [animKey, setAnimKey] = useState(0);
 
   useEffect(() => {
-    const cached = normalizeExplanationData(getCachedExplanation(questionId));
-    if (cached) {
-      setData(cached);
-      setRevealedUpTo(0);
-      setCurrentStep(0);
-      return;
-    }
     setData(null);
     setRevealedUpTo(0);
     setCurrentStep(0);
-    const id = questionId;
     fetch(`/explanations/${questionId}.json`)
       .then(response => response.ok ? response.json() : null)
       .then(payload => {
         const normalized = normalizeExplanationData(payload);
-        if (normalized && id === questionId) setData(normalized);
+        if (normalized) setData(normalized);
       })
       .catch(() => {
-        if (id === questionId) setData(null);
+        setData(null);
       });
   }, [questionId]);
   const [searchParams] = useSearchParams();
@@ -104,14 +82,14 @@ export function StepByStepExplanation({ questionId, question }: StepByStepExplan
   const isAllRevealed = revealedUpTo >= totalSteps - 1;
   const isOnLastRevealed = currentStep === revealedUpTo;
   const step = data.steps[Math.min(currentStep, totalSteps - 1)];
-  const correctAnswer = question.correctAnswer || data.correctAnswer;
+  const displayedCorrectAnswer = correctAnswer || data.correctAnswer;
 
   return (
     <div className="flex flex-col h-full">
       <div className="flex items-center justify-between px-3 py-2 border-b border-border/50 bg-background/95 backdrop-blur-sm shrink-0">
-        {correctAnswer ? (
+        {displayedCorrectAnswer ? (
           <Badge variant="outline" className="text-[10px] px-1.5 py-0">
-            Correct answer: {correctAnswer}
+            Correct answer: {displayedCorrectAnswer}
           </Badge>
         ) : <span />}
         <div className="flex gap-1.5">
@@ -181,27 +159,30 @@ function cleanStepContent(raw: unknown): string {
   s = s.replace(/\b(matches\s+choice\s+)([A-Z])\b(?!<\/strong>)/gi, "$1<strong>$2</strong>");
   return s.trim();
 }
+const renderStepHtml = (value: string) => renderMixedContent(value, { convertTexLineBreaks: false });
+
 function StepContent({ step, stepIndex, totalSteps }: { step: ExplanationStep; stepIndex: number; totalSteps: number }) {
+  const stepNumber = stepIndex + 1;
   const cleaned = cleanStepContent(step.content);
-  const contentHtml = renderMixedContent(cleaned, { convertTexLineBreaks: false });
-  const title = typeof step.title === "string" ? step.title : `Step ${stepIndex + 1}`;
-  const titleHtml = renderMixedContent(title.replace(/^Step\s*\d+\s*:\s*/i, ""), { convertTexLineBreaks: false });
+  const contentHtml = renderStepHtml(cleaned);
+  const title = typeof step.title === "string" ? step.title : `Step ${stepNumber}`;
+  const titleHtml = renderStepHtml(title.replace(/^Step\s*\d+\s*:\s*/i, ""));
 
   return (
     <div className="space-y-2">
       <div className="flex items-start gap-2">
         <div className="w-7 h-7 rounded-full bg-primary/20 flex items-center justify-center text-xs font-bold text-primary flex-shrink-0 mt-0.5">
-          {stepIndex + 1}
+          {stepNumber}
         </div>
         <div>
           <h3 className="font-semibold text-base leading-snug" dangerouslySetInnerHTML={{ __html: titleHtml }} />
-          <span className="text-xs text-muted-foreground">Step {stepIndex + 1} of {totalSteps}</span>
+          <span className="text-xs text-muted-foreground">Step {stepNumber} of {totalSteps}</span>
         </div>
       </div>
 
       {step.formula && (
         <div className="ml-9 p-2 rounded-lg bg-primary/5 border border-primary/20">
-          <div className="text-center text-base" dangerouslySetInnerHTML={{ __html: renderMixedContent(step.formula, { convertTexLineBreaks: false }) }} />
+          <div className="text-center text-base" dangerouslySetInnerHTML={{ __html: renderStepHtml(step.formula) }} />
         </div>
       )}
 

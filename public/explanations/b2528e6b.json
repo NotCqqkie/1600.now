@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+      "title": "Use the circle points",
+      "content": "Read the plotted points, identify the center and radius of the circle, then use $C=2\\pi r$ to find the coefficient of $\\pi$."
     },
     {
       "title": "Read the three points from the coordinate grid",

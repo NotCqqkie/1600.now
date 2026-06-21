@@ -8,7 +8,7 @@
       "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
     },
     {
-      "title": "Use the parperp shortcut: find radius slope",
+      "title": "Use perpendicular slopes",
       "content": "The radius connects center $(-4, -6)$ to tangent point $(-7, -7)$:<br/>$$m_{\\text{radius}} = \\frac{-7 - (-6)}{-7 - (-4)} = \\frac{-1}{-3} = \\frac{1}{3}$$"
     },
     {

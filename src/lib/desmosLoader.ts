@@ -1,11 +1,44 @@
 const DESMOS_SRC =
   "https://www.desmos.com/api/v1.11/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6";
+const DESMOS_LOAD_ERROR = "Desmos failed to load";
+
+export interface DesmosCalculator {
+  destroy: () => void;
+  resize: () => void;
+  setExpression: (expr: { id: string; latex?: string; color?: string }) => void;
+  getState?: () => unknown;
+  setState?: (state: unknown, options?: { allowUndo?: boolean }) => void;
+  observeEvent?: (eventName: string, callback: () => void) => void;
+  unobserveEvent?: (eventName: string, callback: () => void) => void;
+}
+
+export interface DesmosApi {
+  GraphingCalculator: (
+    el: HTMLElement,
+    options?: Record<string, unknown>,
+  ) => DesmosCalculator;
+}
+
+export type DesmosWindow = Window & {
+  Desmos?: DesmosApi;
+};
 
 let desmosLoadPromise: Promise<void> | null = null;
 
+const hasDesmos = () => Boolean((window as DesmosWindow).Desmos);
+
+const handleLoadFailure = (
+  script: HTMLScriptElement,
+  reject: (reason?: unknown) => void,
+) => {
+  script.remove();
+  desmosLoadPromise = null;
+  reject(new Error(DESMOS_LOAD_ERROR));
+};
+
 export const loadDesmos = (): Promise<void> => {
   if (typeof window === "undefined") return Promise.resolve();
-  if ((window as typeof window & { Desmos?: unknown }).Desmos) {
+  if (hasDesmos()) {
     return Promise.resolve();
   }
   if (desmosLoadPromise) return desmosLoadPromise;
@@ -15,17 +48,24 @@ export const loadDesmos = (): Promise<void> => {
       `script[src="${DESMOS_SRC}"]`,
     );
     if (existing) {
-      if ((window as typeof window & { Desmos?: unknown }).Desmos) {
+      if (hasDesmos()) {
         resolve();
         return;
       }
-      existing.addEventListener("load", () => resolve(), { once: true });
+      existing.addEventListener(
+        "load",
+        () => {
+          if (hasDesmos()) {
+            resolve();
+            return;
+          }
+          handleLoadFailure(existing, reject);
+        },
+        { once: true },
+      );
       existing.addEventListener(
         "error",
-        () => {
-          desmosLoadPromise = null;
-          reject(new Error("Desmos failed to load"));
-        },
+        () => handleLoadFailure(existing, reject),
         { once: true },
       );
       return;
@@ -34,11 +74,14 @@ export const loadDesmos = (): Promise<void> => {
     const script = document.createElement("script");
     script.src = DESMOS_SRC;
     script.async = true;
-    script.onload = () => resolve();
-    script.onerror = () => {
-      desmosLoadPromise = null;
-      reject(new Error("Desmos failed to load"));
+    script.onload = () => {
+      if (hasDesmos()) {
+        resolve();
+        return;
+      }
+      handleLoadFailure(script, reject);
     };
+    script.onerror = () => handleLoadFailure(script, reject);
     document.head.appendChild(script);
   });
 

@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Mark the circle facts first: radii are equal, a diameter sets up a right angle, a tangent is perpendicular to the radius, and central/inscribed angles connect to arcs."
+      "title": "Use the circumference to get the diameter",
+      "content": "The rectangle is inscribed in the circle, so its diagonal is the circle's diameter. From $C=114\\pi$ and $C=2\\pi r$, the radius is $57$ and the diameter is $114$."
     },
     {
       "title": "Find the circle's diameter from its circumference",

@@ -1,11 +1,9 @@
 import { getAuth, connectAuthEmulator } from "firebase/auth";
 import { app, firebaseConfigError } from "@/lib/firebase/firebaseApp";
+import { isLocalHost } from "@/lib/firebase/firebaseHosts";
 
 export { firebaseConfigError };
 export const auth = app ? getAuth(app) : null;
-
-const isLocalHost = (hostname: string): boolean =>
-  hostname === "localhost" || hostname === "127.0.0.1" || hostname === "::1";
 
 if (
   auth &&

@@ -10,9 +10,42 @@ import { pillarBySlug } from "@/lib/seo-data/pillarData";
 import { satSkillBySlug } from "@/lib/seo-data/satSkillsData";
 
 const PILLAR_PUBLISHED = "2026-04-01";
+const TABLE_HEAD_CELL_CLASS = "px-4 py-3 font-semibold";
+const TABLE_ROW_CLASS = "border-t border-border";
+const TABLE_CELL_CLASS = "px-4 py-3 text-muted-foreground";
+const CARD_LINK_CLASS = "block rounded-xl border border-border p-4 transition hover:bg-muted";
 
-const skillPracticeHref = (skill: NonNullable<ReturnType<typeof satSkillBySlug.get>>) =>
+type RelatedSkill = NonNullable<ReturnType<typeof satSkillBySlug.get>>;
+
+const skillPracticeHref = (skill: RelatedSkill) =>
   `/bank/${skill.section === "Math" ? "math" : "reading"}/skill/${encodeURIComponent(skill.officialSkill)}`;
+
+type PracticeSessionRowProps = {
+  step: string;
+  work: string;
+  output: string;
+};
+
+const PracticeSessionRow = ({ step, work, output }: PracticeSessionRowProps) => (
+  <tr className={TABLE_ROW_CLASS}>
+    <td className={TABLE_CELL_CLASS}>{step}</td>
+    <td className={TABLE_CELL_CLASS}>{work}</td>
+    <td className={TABLE_CELL_CLASS}>{output}</td>
+  </tr>
+);
+
+type PracticeCardLinkProps = {
+  to: string;
+  title: string;
+  description: string;
+};
+
+const PracticeCardLink = ({ to, title, description }: PracticeCardLinkProps) => (
+  <Link to={to} className={CARD_LINK_CLASS}>
+    <div className="font-semibold">{title}</div>
+    <p className="mt-1 text-sm text-muted-foreground">{description}</p>
+  </Link>
+);
 
 const PillarPage = () => {
   const location = useLocation();
@@ -90,27 +123,27 @@ const PillarPage = () => {
           <table className="w-full min-w-[560px] text-left text-sm">
             <thead className="bg-muted/70">
               <tr>
-                <th className="px-4 py-3 font-semibold">Step</th>
-                <th className="px-4 py-3 font-semibold">Work</th>
-                <th className="px-4 py-3 font-semibold">Output</th>
+                <th className={TABLE_HEAD_CELL_CLASS}>Step</th>
+                <th className={TABLE_HEAD_CELL_CLASS}>Work</th>
+                <th className={TABLE_HEAD_CELL_CLASS}>Output</th>
               </tr>
             </thead>
             <tbody>
-              <tr className="border-t border-border">
-                <td className="px-4 py-3 text-muted-foreground">1</td>
-                <td className="px-4 py-3 text-muted-foreground">Read the guide and write the three rules or decisions that matter most.</td>
-                <td className="px-4 py-3 text-muted-foreground">A short checklist you can use during questions.</td>
-              </tr>
-              <tr className="border-t border-border">
-                <td className="px-4 py-3 text-muted-foreground">2</td>
-                <td className="px-4 py-3 text-muted-foreground">Drill the related bank skills below for 30-45 minutes.</td>
-                <td className="px-4 py-3 text-muted-foreground">A miss log sorted by skill instead of by page.</td>
-              </tr>
-              <tr className="border-t border-border">
-                <td className="px-4 py-3 text-muted-foreground">3</td>
-                <td className="px-4 py-3 text-muted-foreground">Take a timed module and watch whether the same mistakes repeat.</td>
-                <td className="px-4 py-3 text-muted-foreground">Proof that the guide transferred to timed work.</td>
-              </tr>
+              <PracticeSessionRow
+                step="1"
+                work="Read the guide and write the three rules or decisions that matter most."
+                output="A short checklist you can use during questions."
+              />
+              <PracticeSessionRow
+                step="2"
+                work="Drill the related bank skills below for 30-45 minutes."
+                output="A miss log sorted by skill instead of by page."
+              />
+              <PracticeSessionRow
+                step="3"
+                work="Take a timed module and watch whether the same mistakes repeat."
+                output="Proof that the guide transferred to timed work."
+              />
             </tbody>
           </table>
         </div>
@@ -136,15 +169,11 @@ const PillarPage = () => {
           <ul className="mt-4 grid gap-3 md:grid-cols-2">
             {relatedSkills.map((skill) => (
               <li key={skill.slug}>
-                <Link
+                <PracticeCardLink
                   to={skillPracticeHref(skill)}
-                  className="block rounded-xl border border-border p-4 transition hover:bg-muted"
-                >
-                  <div className="font-semibold">{skill.name}</div>
-                  <p className="mt-1 text-sm text-muted-foreground">
-                    {skill.shortDescription}
-                  </p>
-                </Link>
+                  title={skill.name}
+                  description={skill.shortDescription}
+                />
               </li>
             ))}
           </ul>
@@ -157,37 +186,25 @@ const PillarPage = () => {
         </h2>
         <ul className="mt-4 grid gap-3 md:grid-cols-3">
           <li>
-            <Link
+            <PracticeCardLink
               to="/bank"
-              className="block rounded-xl border border-border p-4 transition hover:bg-muted"
-            >
-              <div className="font-semibold">Drill targeted questions</div>
-              <p className="mt-1 text-sm text-muted-foreground">
-                Filter the bank by section, domain, skill, and difficulty.
-              </p>
-            </Link>
+              title="Drill targeted questions"
+              description="Filter the bank by section, domain, skill, and difficulty."
+            />
           </li>
           <li>
-            <Link
+            <PracticeCardLink
               to="/modules"
-              className="block rounded-xl border border-border p-4 transition hover:bg-muted"
-            >
-              <div className="font-semibold">Take timed modules</div>
-              <p className="mt-1 text-sm text-muted-foreground">
-                Check whether the strategy holds up under real pacing.
-              </p>
-            </Link>
+              title="Take timed modules"
+              description="Check whether the strategy holds up under real pacing."
+            />
           </li>
           <li>
-            <Link
+            <PracticeCardLink
               to="/score-calculator"
-              className="block rounded-xl border border-border p-4 transition hover:bg-muted"
-            >
-              <div className="font-semibold">Model your score</div>
-              <p className="mt-1 text-sm text-muted-foreground">
-                Convert module results into a 400-1600 estimate.
-              </p>
-            </Link>
+              title="Model your score"
+              description="Convert module results into a 400-1600 estimate."
+            />
           </li>
         </ul>
       </section>

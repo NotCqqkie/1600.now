@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+      "title": "Use the points to locate the circle",
+      "content": "Because the three points define the circle, the center must be equally distant from all three. Use the vertical chord from $(7,11)$ to $(7,5)$ and the point $(4,8)$ to identify the center and radius."
     },
     {
       "title": "Identify the three points from the coordinate grid",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Calculate the circumference and find $k$",
-      "content": "With radius $r = 3$:<br/>$$C = 2\\pi r = 2\\pi(3) = 6\\pi$$Therefore $k = 6$. That matches <strong>Choice B &mdash; $6$</strong>."
+      "content": "With radius $r = 3$:<br/>$C = 2\\pi r = 2\\pi(3) = 6\\pi$<br/>Therefore $k = 6$. That matches <strong>Choice B &mdash; $6$</strong>."
     }
   ]
 }

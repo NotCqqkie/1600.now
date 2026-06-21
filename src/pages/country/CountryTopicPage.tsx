@@ -10,6 +10,36 @@ import {
   countryHubByCode,
   countryPageBySlug,
 } from "@/lib/seo-data/countryHubData";
+import {
+  CountryActionLink,
+  CountryFaqSection,
+  CountrySections,
+} from "./countryContentBlocks";
+import { countryPageClasses } from "./countryPageClasses";
+
+const ACTION_PLAN_ROWS = [
+  [
+    "Should I take the SAT?",
+    "Whether your target universities accept or value SAT scores.",
+    "Compare college score targets, then set a 1600-scale goal.",
+  ],
+  [
+    "When should I test?",
+    "School exams, application deadlines, and retake room.",
+    "Pick a date and count backward into weekly modules and drills.",
+  ],
+  [
+    "What should I practice first?",
+    "Your weaker section and the skills causing repeated misses.",
+    "Start a targeted bank drill before taking another timed module.",
+  ],
+] as const;
+
+const CTA_LINKS = [
+  { to: "/bank", label: "Start targeted practice" },
+  { to: "/modules", label: "Take timed modules" },
+  { to: "/what-sat-score-do-i-need", label: "Compare college scores" },
+] as const;
 
 const CountryTopicPage = () => {
   const location = useLocation();
@@ -25,7 +55,7 @@ const CountryTopicPage = () => {
   const hubUrl = `https://1600.now/${hub.hubSlug}`;
 
   return (
-    <div className="mx-auto max-w-3xl px-6 py-10">
+    <div className={countryPageClasses.page}>
       <PageSeo
         id={`country-page-${page.slug}`}
         title={page.metaTitle}
@@ -52,47 +82,29 @@ const CountryTopicPage = () => {
         ]}
       />
 
-      <nav className="mb-6 text-sm text-muted-foreground">
-        <Link className="hover:underline" to="/">
+      <nav className={countryPageClasses.nav}>
+        <Link className={countryPageClasses.homeLink} to="/">
           Home
         </Link>{" "}
         ›{" "}
-        <Link className="hover:underline" to={`/${hub.hubSlug}`}>
+        <Link className={countryPageClasses.homeLink} to={`/${hub.hubSlug}`}>
           {hub.name}
         </Link>{" "}
-        › <span className="text-foreground">{page.headline}</span>
+        › <span className={countryPageClasses.navCurrent}>{page.headline}</span>
       </nav>
 
-      <h1 className="text-4xl font-semibold tracking-tight md:text-5xl">
+      <h1 className={countryPageClasses.title}>
         {page.headline}
       </h1>
-      <p className="mt-4 text-lg text-muted-foreground">{page.intro}</p>
+      <p className={countryPageClasses.intro}>{page.intro}</p>
 
-      {page.sections.map((section) => (
-        <section key={section.heading} className="mt-10">
-          <h2 className="text-2xl font-semibold tracking-tight">
-            {section.heading}
-          </h2>
-          {section.paragraphs.map((paragraph, paragraphIndex) => (
-            <p key={paragraphIndex} className="mt-3 text-muted-foreground">
-              {paragraph}
-            </p>
-          ))}
-          {section.bullets && section.bullets.length > 0 && (
-            <ul className="mt-3 list-disc space-y-1 pl-6 text-muted-foreground">
-              {section.bullets.map((bullet, bulletIndex) => (
-                <li key={bulletIndex}>{bullet}</li>
-              ))}
-            </ul>
-          )}
-        </section>
-      ))}
+      <CountrySections sections={page.sections} />
 
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold tracking-tight">
+      <section className={countryPageClasses.section}>
+        <h2 className={countryPageClasses.sectionTitle}>
           Student action plan
         </h2>
-        <p className="mt-3 text-muted-foreground">
+        <p className={countryPageClasses.paragraph}>
           Use this page to make a concrete admissions or prep decision, then test that decision in the actual 1600.now tools.
         </p>
         <div className="mt-4 overflow-x-auto rounded-lg border border-border">
@@ -105,61 +117,30 @@ const CountryTopicPage = () => {
               </tr>
             </thead>
             <tbody>
-              <tr className="border-t border-border">
-                <td className="px-4 py-3 text-muted-foreground">Should I take the SAT?</td>
-                <td className="px-4 py-3 text-muted-foreground">Whether your target universities accept or value SAT scores.</td>
-                <td className="px-4 py-3 text-muted-foreground">Compare college score targets, then set a 1600-scale goal.</td>
-              </tr>
-              <tr className="border-t border-border">
-                <td className="px-4 py-3 text-muted-foreground">When should I test?</td>
-                <td className="px-4 py-3 text-muted-foreground">School exams, application deadlines, and retake room.</td>
-                <td className="px-4 py-3 text-muted-foreground">Pick a date and count backward into weekly modules and drills.</td>
-              </tr>
-              <tr className="border-t border-border">
-                <td className="px-4 py-3 text-muted-foreground">What should I practice first?</td>
-                <td className="px-4 py-3 text-muted-foreground">Your weaker section and the skills causing repeated misses.</td>
-                <td className="px-4 py-3 text-muted-foreground">Start a targeted bank drill before taking another timed module.</td>
-              </tr>
+              {ACTION_PLAN_ROWS.map((row) => (
+                <tr key={row[0]} className="border-t border-border">
+                  {row.map((cell) => (
+                    <td key={cell} className={countryPageClasses.tableCell}>
+                      {cell}
+                    </td>
+                  ))}
+                </tr>
+              ))}
             </tbody>
           </table>
         </div>
       </section>
 
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold tracking-tight">FAQs</h2>
-        <div className="mt-4 space-y-5">
-          {page.faqs.map((faq) => (
-            <div key={faq.question}>
-              <h3 className="text-base font-semibold">{faq.question}</h3>
-              <p className="mt-1 text-muted-foreground">{faq.answer}</p>
-            </div>
-          ))}
-        </div>
-      </section>
+      <CountryFaqSection faqs={page.faqs} />
 
-      <section className="mt-10 rounded-xl border border-border p-5">
+      <section className={countryPageClasses.card}>
         <h2 className="text-xl font-semibold tracking-tight">
           Keep working on 1600.now
         </h2>
         <div className="mt-4 flex flex-wrap gap-3">
-          <Link
-            to="/bank"
-            className="rounded-lg border border-border px-3 py-2 text-sm font-semibold hover:bg-muted"
-          >
-            Start targeted practice
-          </Link>
-          <Link
-            to="/modules"
-            className="rounded-lg border border-border px-3 py-2 text-sm font-semibold hover:bg-muted"
-          >
-            Take timed modules
-          </Link>
-          <Link
-            to="/what-sat-score-do-i-need"
-            className="rounded-lg border border-border px-3 py-2 text-sm font-semibold hover:bg-muted"
-          >
-            Compare college scores
-          </Link>
+          {CTA_LINKS.map((link) => (
+            <CountryActionLink key={link.to} to={link.to} label={link.label} />
+          ))}
         </div>
       </section>
     </div>

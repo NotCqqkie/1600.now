@@ -1,8 +1,5 @@
 import type { NavigateFunction } from "react-router-dom";
-import {
-  buildModulePracticeSet,
-  type PracticeModule,
-} from "@/data/modulePracticeBank";
+import type { PracticeModule } from "@/data/modulePracticeBank";
 import {
   clearModulePracticeSession,
   createModulePracticeSession,
@@ -10,14 +7,33 @@ import {
   type ModulePracticeSessionMeta,
   type ModulePracticeSettings,
 } from "@/lib/practice/modulePracticeSession";
+import { buildModulePracticeQuestionRoute } from "@/lib/practice/practiceBankRoutes";
+import { writePracticeLaunchStorage } from "@/lib/practice/practiceRunStorage";
 
-type LaunchModulePracticeArgs = {
+const buildModulePracticeSetFromModule = (module: PracticeModule) =>
+  module.questions.map((entry, index) => ({
+    subject: module.subject,
+    id: entry.bankQuestion.id,
+    sourceId: entry.bankQuestion.sourceId,
+    bankType: entry.bankQuestion.bankType,
+    storageId: entry.bankQuestion.stableId,
+    index,
+  }));
+
+type LaunchModulePracticeArgs = Readonly<{
   module: PracticeModule;
   navigate: NavigateFunction;
-  resumeExisting: boolean;
-  savedSession: ModulePracticeSessionMeta | null;
-  settings: ModulePracticeSettings;
-};
+}> & (
+  Readonly<{
+    resumeExisting: true;
+    savedSession: ModulePracticeSessionMeta;
+    settings?: ModulePracticeSettings;
+  }> | Readonly<{
+    resumeExisting: false;
+    savedSession: ModulePracticeSessionMeta | null;
+    settings: ModulePracticeSettings;
+  }>
+);
 
 export const launchModulePractice = ({
   module,
@@ -25,30 +41,36 @@ export const launchModulePractice = ({
   resumeExisting,
   savedSession,
   settings,
-}: LaunchModulePracticeArgs) => {
-  const practiceSet = buildModulePracticeSet(module.slug);
-  if (!practiceSet?.length) return;
+}: LaunchModulePracticeArgs): void => {
+  const practiceSet = buildModulePracticeSetFromModule(module);
+  if (!practiceSet.length) return;
 
-  if (!resumeExisting && savedSession) {
+  const shouldResume = resumeExisting && savedSession !== null;
+
+  if (!shouldResume && savedSession) {
     clearModulePracticeSession(module.slug);
   }
 
-  const session = resumeExisting && savedSession
+  const session = shouldResume
     ? { ...savedSession, status: "active" as const }
     : createModulePracticeSession(module, settings);
 
-  if (resumeExisting && savedSession) {
+  if (shouldResume) {
     saveModulePracticeSession(session);
   }
 
-  sessionStorage.setItem("practiceExitTo", "/modules");
-  sessionStorage.setItem("practiceSet", JSON.stringify(practiceSet));
+  writePracticeLaunchStorage(practiceSet);
 
-  const targetIndex = resumeExisting ? session.currentIndex : 0;
+  const targetIndex = shouldResume ? session.currentIndex : 0;
   const targetQuestion = practiceSet[targetIndex];
   if (!targetQuestion) return;
 
-  navigate(
-    `/bank/${targetQuestion.subject}/${targetQuestion.sourceId}?bankType=past&practice=true&idx=${targetIndex + 1}&modulePractice=${module.slug}&moduleSession=${session.sessionId}`,
-  );
+  navigate(buildModulePracticeQuestionRoute({
+    subject: targetQuestion.subject,
+    sourceId: targetQuestion.sourceId,
+    bankType: targetQuestion.bankType,
+    idx: targetIndex + 1,
+    moduleSlug: module.slug,
+    moduleSessionId: session.sessionId,
+  }));
 };

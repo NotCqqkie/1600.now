@@ -1,5 +1,4 @@
-
-export interface SatFaqPage {
+interface SatFaqPage {
   slug: string;
   question: string;
   shortAnswer: string;

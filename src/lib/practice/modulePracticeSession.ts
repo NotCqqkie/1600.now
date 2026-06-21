@@ -3,7 +3,7 @@ import type { BankQuestion } from "@/data/questionBank";
 import { getDesmosStoragePrefix } from "@/lib/practice/desmosSessionState";
 import { answersEquivalent } from "@/lib/text/answerEquivalence";
 
-export type ModulePracticeQuestionStatus =
+type ModulePracticeQuestionStatus =
   | "unanswered"
   | "answered"
   | "incorrect"
@@ -59,7 +59,7 @@ export interface ModulePracticeQuestionResult {
   skill: string;
 }
 
-export interface ModulePracticeSkillResult {
+interface ModulePracticeSkillResult {
   skill: string;
   domain: string;
   attempted: number;
@@ -122,15 +122,18 @@ const writeJson = (storage: Storage, key: string, value: unknown) => {
 };
 
 const getSessionKey = (moduleSlug: string) => `${ACTIVE_SESSION_PREFIX}${moduleSlug}`;
+const getResultScope = (uid?: string | null) => uid ?? ANON_SUFFIX;
 const scopedResultKey = (sessionId: string, uid?: string | null) =>
-  `${SCOPED_RESULT_PREFIX}${uid ?? ANON_SUFFIX}:${sessionId}`;
+  `${SCOPED_RESULT_PREFIX}${getResultScope(uid)}:${sessionId}`;
 const scopedLatestResultKey = (moduleSlug: string, uid?: string | null) =>
-  `${SCOPED_LATEST_RESULT_PREFIX}${uid ?? ANON_SUFFIX}:${moduleSlug}`;
+  `${SCOPED_LATEST_RESULT_PREFIX}${getResultScope(uid)}:${moduleSlug}`;
 
 const getTimerRemainderMs = (value: number | undefined) =>
-  Number.isFinite(value) ? Math.max(0, Math.min(999, Math.floor(value ?? 0))) : 0;
+  typeof value === "number" && Number.isFinite(value)
+    ? Math.max(0, Math.min(999, Math.floor(value)))
+    : 0;
 
-export const getModulePracticeSessionStateKey = (sessionId: string, storageId: string) =>
+const getModulePracticeSessionStateKey = (sessionId: string, storageId: string) =>
   `${SESSION_STATE_PREFIX}${sessionId}:${storageId}`;
 
 export const getModulePracticeNoteStorageKey = (sessionId: string, storageId: string) =>
@@ -199,14 +202,13 @@ export const advanceModulePracticeSessionTimer = (
     return { ...session, timerRemainderMs };
   }
 
-  const elapsedSeconds =
-    session.settings.timed && session.remainingSeconds !== null
-      ? Math.min(elapsedWholeSeconds, session.remainingSeconds)
-      : elapsedWholeSeconds;
-  const remainingSeconds =
-    session.settings.timed && session.remainingSeconds !== null
-      ? Math.max(0, session.remainingSeconds - elapsedSeconds)
-      : null;
+  const hasCountdown = session.settings.timed && session.remainingSeconds !== null;
+  const elapsedSeconds = hasCountdown
+    ? Math.min(elapsedWholeSeconds, session.remainingSeconds)
+    : elapsedWholeSeconds;
+  const remainingSeconds = hasCountdown
+    ? Math.max(0, session.remainingSeconds - elapsedSeconds)
+    : null;
 
   return {
     ...session,
@@ -216,19 +218,20 @@ export const advanceModulePracticeSessionTimer = (
   };
 };
 
-export const clearModulePracticeSessionArtifacts = (sessionId: string) => {
+const clearModulePracticeSessionArtifacts = (sessionId: string) => {
   const keysToRemove: string[] = [];
   const desmosPrefix = getDesmosStoragePrefix(`module-practice:${sessionId}`);
+  const artifactPrefixes = [
+    `${SESSION_STATE_PREFIX}${sessionId}:`,
+    `${SESSION_NOTE_PREFIX}${sessionId}:`,
+    `${SESSION_ANNOTATION_PREFIX}${sessionId}:`,
+    desmosPrefix,
+  ];
 
   for (let index = 0; index < sessionStorage.length; index += 1) {
     const key = sessionStorage.key(index);
     if (!key) continue;
-    if (
-      key.startsWith(`${SESSION_STATE_PREFIX}${sessionId}:`) ||
-      key.startsWith(`${SESSION_NOTE_PREFIX}${sessionId}:`) ||
-      key.startsWith(`${SESSION_ANNOTATION_PREFIX}${sessionId}:`) ||
-      key.startsWith(desmosPrefix)
-    ) {
+    if (artifactPrefixes.some((prefix) => key.startsWith(prefix))) {
       keysToRemove.push(key);
     }
   }
@@ -324,15 +327,16 @@ export const buildModulePracticeResult = (
     const state = getModulePracticeQuestionState(session.sessionId, question.stableId);
     const userAnswer =
       question.type === "free-response" ? state.freeResponseAnswer : state.answer;
-    const hasCheckedAnswer = Object.keys(state.checkedAnswers).length > 0;
-    const hasCheckedCorrectAnswer = Object.values(state.checkedAnswers).some(Boolean);
+    const checkedAnswerValues = Object.values(state.checkedAnswers);
+    const hasCheckedAnswer = checkedAnswerValues.length > 0;
+    const hasCheckedCorrectAnswer = checkedAnswerValues.some(Boolean);
     const isAnswered =
       Boolean(userAnswer) ||
       (session.settings.allowCheckingAnswers && hasCheckedAnswer);
     const isCorrect =
       session.settings.allowCheckingAnswers && hasCheckedCorrectAnswer
         ? true
-        : Boolean(userAnswer) && answersEquivalent(userAnswer, question.correctAnswer);
+        : answersEquivalent(userAnswer, question.correctAnswer);
     const status = resolveQuestionStatus(state, question, session.settings.allowCheckingAnswers);
 
     return {
@@ -351,38 +355,50 @@ export const buildModulePracticeResult = (
     };
   });
 
-  const answeredCount = questions.filter((question) => question.isAnswered).length;
-  const correctCount = questions.filter((question) => question.isCorrect).length;
+  let answeredCount = 0;
+  let correctCount = 0;
+  let longestQuestion: ModulePracticeQuestionResult | null = null;
+  let shortestQuestion: ModulePracticeQuestionResult | null = null;
+  const counts = { correct: 0, incorrect: 0, correctAfterReview: 0 };
+  const skillMap = new Map<string, ModulePracticeSkillResult>();
+
+  for (const question of questions) {
+    if (question.isAnswered) {
+      answeredCount += 1;
+      if (question.isCorrect) correctCount += 1;
+
+      const key = `${question.domain}:::${question.skill}`;
+      const current = skillMap.get(key) ?? {
+        skill: question.skill,
+        domain: question.domain,
+        attempted: 0,
+        correct: 0,
+        accuracy: 0,
+        totalTimeSeconds: 0,
+        averageTimeSeconds: 0,
+      };
+      current.attempted += 1;
+      current.totalTimeSeconds += question.timeSpentSeconds;
+      if (question.isCorrect) current.correct += 1;
+      skillMap.set(key, current);
+    }
+
+    if (question.status === "correct-first") counts.correct += 1;
+    if (question.status === "correct-later") counts.correctAfterReview += 1;
+    if (question.status === "incorrect") counts.incorrect += 1;
+
+    if (question.timeSpentSeconds > 0) {
+      if (!longestQuestion || question.timeSpentSeconds > longestQuestion.timeSpentSeconds) {
+        longestQuestion = question;
+      }
+      if (!shortestQuestion || question.timeSpentSeconds < shortestQuestion.timeSpentSeconds) {
+        shortestQuestion = question;
+      }
+    }
+  }
+
   const incorrectCount = answeredCount - correctCount;
   const unansweredCount = questions.length - answeredCount;
-  const counts = questions.reduce(
-    (acc, question) => {
-      if (question.status === "correct-first") acc.correct += 1;
-      if (question.status === "correct-later") acc.correctAfterReview += 1;
-      if (question.status === "incorrect") acc.incorrect += 1;
-      return acc;
-    },
-    { correct: 0, incorrect: 0, correctAfterReview: 0 },
-  );
-
-  const skillMap = new Map<string, ModulePracticeSkillResult>();
-  questions.forEach((question) => {
-    if (!question.isAnswered) return;
-    const key = `${question.domain}:::${question.skill}`;
-    const current = skillMap.get(key) ?? {
-      skill: question.skill,
-      domain: question.domain,
-      attempted: 0,
-      correct: 0,
-      accuracy: 0,
-      totalTimeSeconds: 0,
-      averageTimeSeconds: 0,
-    };
-    current.attempted += 1;
-    current.totalTimeSeconds += question.timeSpentSeconds;
-    if (question.isCorrect) current.correct += 1;
-    skillMap.set(key, current);
-  });
 
   const skills = [...skillMap.values()]
     .map((skill) => ({
@@ -393,18 +409,6 @@ export const buildModulePracticeResult = (
         : 0,
     }))
     .sort((left, right) => right.attempted - left.attempted || left.skill.localeCompare(right.skill));
-
-  const timedQuestions = questions.filter((question) => question.timeSpentSeconds > 0);
-  const longestQuestion = timedQuestions.length
-    ? timedQuestions.reduce((best, question) =>
-        question.timeSpentSeconds > best.timeSpentSeconds ? question : best,
-      )
-    : null;
-  const shortestQuestion = timedQuestions.length
-    ? timedQuestions.reduce((best, question) =>
-        question.timeSpentSeconds < best.timeSpentSeconds ? question : best,
-      )
-    : null;
 
   return {
     version: 1,
@@ -463,18 +467,21 @@ export const getAllModulePracticeResults = (
   uid?: string | null,
 ): ModulePracticeResult[] => {
   const results: ModulePracticeResult[] = [];
-  const scopedPrefix = `${SCOPED_RESULT_PREFIX}${uid ?? ANON_SUFFIX}:`;
+  const scopedPrefix = `${SCOPED_RESULT_PREFIX}${getResultScope(uid)}:`;
+  const appendResult = (key: string) => {
+    const result = readJson<ModulePracticeResult>(localStorage, key);
+    if (result) results.push(result);
+  };
+
   for (let index = 0; index < localStorage.length; index += 1) {
     const key = localStorage.key(index);
     if (!key) continue;
     if (key.startsWith(scopedPrefix)) {
-      const result = readJson<ModulePracticeResult>(localStorage, key);
-      if (result) results.push(result);
+      appendResult(key);
       continue;
     }
     if (uid != null || !key.startsWith(RESULT_PREFIX)) continue;
-    const result = readJson<ModulePracticeResult>(localStorage, key);
-    if (result) results.push(result);
+    appendResult(key);
   }
   return results.sort((leftResult, rightResult) => rightResult.submittedAt - leftResult.submittedAt);
 };

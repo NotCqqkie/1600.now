@@ -25,8 +25,12 @@ export const REPORT_REASONS = [
 
 export type ReportReasonKey = (typeof REPORT_REASONS)[number]["key"];
 
-export type ReportCounts = Partial<Record<ReportReasonKey, number>> & {
+type ReportCounts = Partial<Record<ReportReasonKey, number>> & {
   other?: number;
+};
+
+type FirestoreTimestampLike = {
+  seconds: number;
 };
 
 export interface QuestionReport {
@@ -34,7 +38,7 @@ export interface QuestionReport {
   counts: ReportCounts;
   otherComments?: { text: string; timestamp: number; userId?: string }[];
   totalReports: number;
-  lastReportedAt?: number;
+  lastReportedAt?: number | FirestoreTimestampLike;
 }
 
 const COLLECTION = "question_reports";

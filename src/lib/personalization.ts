@@ -1,14 +1,14 @@
-export const PERSONALIZATION_STORAGE_KEY = "personalization-preferences";
-export const PERSONALIZATION_EVENT = "app-personalization-change";
+const PERSONALIZATION_STORAGE_KEY = "personalization-preferences";
+const PERSONALIZATION_EVENT = "app-personalization-change";
 
-export type QuestionFontId =
+type QuestionFontId =
   | "default"
   | "georgia"
   | "times"
   | "inter"
   | "helvetica"
   | "mono";
-export type QuestionTextSize =
+type QuestionTextSize =
   | "xsmall"
   | "small"
   | "default"
@@ -100,6 +100,15 @@ export const applyPersonalizationPreferences = (
     window.dispatchEvent(new Event(PERSONALIZATION_EVENT));
   }
 };
+
+export const updatePersonalizationPreferences = (
+  patch: Partial<PersonalizationPreferences>,
+) =>
+  applyPersonalizationPreferences({
+    ...getPersonalizationPreferences(),
+    ...patch,
+  });
+
 export const resetPersonalizationPreferences = () => {
   writePrefsToDocument(DEFAULT_PERSONALIZATION);
 
@@ -122,8 +131,5 @@ export const subscribeToPersonalization = (callback: () => void) => {
   };
 };
 if (typeof document !== "undefined") {
-  const prefs = getPersonalizationPreferences();
-  const root = document.documentElement;
-  root.style.setProperty("--question-font-family", fontStackFor(prefs.font));
-  root.style.setProperty("--question-font-scale", String(scaleFor(prefs.textSize)));
+  writePrefsToDocument(getPersonalizationPreferences());
 }

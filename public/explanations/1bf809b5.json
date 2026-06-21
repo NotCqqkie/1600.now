@@ -1,19 +1,19 @@
 {
   "questionId": "1bf809b5",
-  "correctAnswer": ".3928",
+  "correctAnswer": "11/28,.3928,.3929,0.392,0.393",
   "section": "Math",
   "steps": [
     {
       "title": "Set up the cosine ratio",
-      "content": "In a right triangle, $\\cos\\theta=\\dfrac{\\text{adjacent}}{\\text{hypotenuse}}$. From the figure, identify the side adjacent to the angle $x^\\circ$ and the hypotenuse (the side opposite the right angle)."
+      "content": "In a right triangle, $\\cos\\theta=\\dfrac{\\text{adjacent}}{\\text{hypotenuse}}$. From the figure, the side adjacent to angle $x^{\\circ}$ is $11$, and the hypotenuse is $28$."
     },
     {
-      "title": "Plug in and compute",
-      "content": "Using the side lengths shown in the figure, form the ratio $\\cos x^\\circ = \\dfrac{\\text{adjacent}}{\\text{hypotenuse}}$. Dividing the adjacent length by the hypotenuse length gives approximately $0.3928$."
+      "title": "Compute the value",
+      "content": "Therefore:<br/>$$\\cos x^{\\circ}=\\frac{11}{28}$$<br/>As a decimal, $\\frac{11}{28}\\approx0.3929$, and SAT-style rounded or truncated entries such as $0.3928$, $0.3929$, $0.392$, and $0.393$ are accepted."
     },
     {
       "title": "State the answer",
-      "content": "So $\\cos x^\\circ \\approx 0.3928$. The answer is <strong>.3928</strong>."
+      "content": "The exact answer is <strong>11/28</strong>."
     }
   ]
 }

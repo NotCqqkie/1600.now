@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+      "title": "Use the equilateral triangle height",
+      "content": "Find the side length from the perimeter first. Then use the equilateral-triangle height formula $h=\\frac{s\\sqrt{3}}{2}$."
     },
     {
       "title": "Find the side length from the perimeter",

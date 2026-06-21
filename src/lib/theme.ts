@@ -1,21 +1,22 @@
+import { useSyncExternalStore } from "react";
 import { flushSync } from "react-dom";
 
-export const THEME_STORAGE_KEY = "theme";
-export const THEME_EVENT = "app-theme-change";
+const THEME_STORAGE_KEY = "theme";
+const THEME_EVENT = "app-theme-change";
 
-export const isDarkThemeActive = () => {
+const isDarkThemeActive = () => {
   if (typeof document === "undefined") return false;
   return document.documentElement.classList.contains("dark");
 };
 
-const getStoredTheme = (): "dark" | "light" | null => {
+const getStoredTheme = () => {
   if (typeof window === "undefined") return null;
 
   const savedTheme = localStorage.getItem(THEME_STORAGE_KEY);
   return savedTheme === "dark" || savedTheme === "light" ? savedTheme : null;
 };
 
-export const getPreferredDarkMode = () => {
+const getPreferredDarkMode = () => {
   if (typeof window === "undefined") return false;
 
   const savedTheme = getStoredTheme();
@@ -48,11 +49,7 @@ export const applyTheme = (isDark: boolean) => {
   const prefersReducedMotion =
     typeof window !== "undefined" &&
     window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
-  const startViewTransition = (
-    document as Document & {
-      startViewTransition?: (cb: () => void) => { finished: Promise<void> };
-    }
-  ).startViewTransition;
+  const startViewTransition = document.startViewTransition;
   const skipViewTransition = Boolean(document.querySelector("[data-home-page='true']"));
 
   if (startViewTransition && !prefersReducedMotion && !skipViewTransition) {
@@ -75,7 +72,7 @@ export const applyTheme = (isDark: boolean) => {
   dispatchThemeChange();
 };
 
-export const subscribeToTheme = (callback: () => void) => {
+const subscribeToTheme = (callback: () => void) => {
   if (typeof window === "undefined") return () => {};
 
   const handleStorage = (event: StorageEvent) => {
@@ -92,3 +89,10 @@ export const subscribeToTheme = (callback: () => void) => {
     window.removeEventListener("storage", handleStorage);
   };
 };
+
+export const useThemeMode = () =>
+  useSyncExternalStore(
+    subscribeToTheme,
+    getPreferredDarkMode,
+    () => false,
+  );

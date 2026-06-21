@@ -3,34 +3,55 @@ import { Link } from "react-router-dom";
 import { PageSeo, buildBreadcrumbJsonLd } from "@/components/seo/PageSeo";
 import { satSkills } from "@/lib/seo-data/satSkillsData";
 
-const title = "Digital SAT Skills List: Every Math & Reading Skill Tested";
-const description =
-  "Browse every skill tested on the Digital SAT, by section and domain. Learn the skill, see key tips, and jump to targeted practice questions.";
+type SatSkill = (typeof satSkills)[number];
 
-const skillPracticeHref = (skill: (typeof satSkills)[number]) =>
+type SkillGroup = {
+  heading: string;
+  list: SatSkill[];
+};
+
+const PAGE_ID = "sat-skill-index";
+const PAGE_TITLE = "Digital SAT Skills List: Every Math & Reading Skill Tested";
+const PAGE_DESCRIPTION =
+  "Browse every skill tested on the Digital SAT, by section and domain. Learn the skill, see key tips, and jump to targeted practice questions.";
+const HOME_URL = "https://1600.now/";
+const SAT_SKILL_URL = "https://1600.now/sat-skill";
+const MATH_SECTION: SatSkill["section"] = "Math";
+const READING_WRITING_SECTION: SatSkill["section"] = "Reading & Writing";
+const SECTION_HEADING_CLASS = "text-2xl font-semibold tracking-tight";
+
+const SKILL_GROUPS: SkillGroup[] = [
+  {
+    heading: "Digital SAT Math Skills",
+    list: satSkills.filter((skill) => skill.section === MATH_SECTION),
+  },
+  {
+    heading: "Digital SAT Reading & Writing Skills",
+    list: satSkills.filter((skill) => skill.section === READING_WRITING_SECTION),
+  },
+];
+
+const skillPracticeHref = (skill: SatSkill) =>
   `/bank/${skill.section === "Math" ? "math" : "reading"}/skill/${encodeURIComponent(skill.officialSkill)}`;
 
 const SatSkillIndex = () => {
-  const mathSkills = satSkills.filter((skill) => skill.section === "Math");
-  const readingSkills = satSkills.filter((skill) => skill.section === "Reading & Writing");
-
   return (
     <div className="mx-auto max-w-5xl px-6 py-10">
       <PageSeo
-        id="sat-skill-index"
-        title={title}
-        description={description}
+        id={PAGE_ID}
+        title={PAGE_TITLE}
+        description={PAGE_DESCRIPTION}
         jsonLd={[
           buildBreadcrumbJsonLd([
-            { name: "Home", url: "https://1600.now/" },
-            { name: "SAT Skills", url: "https://1600.now/sat-skill" },
+            { name: "Home", url: HOME_URL },
+            { name: "SAT Skills", url: SAT_SKILL_URL },
           ]),
           {
             "@context": "https://schema.org",
             "@type": "CollectionPage",
-            name: title,
-            description,
-            url: "https://1600.now/sat-skill",
+            name: PAGE_TITLE,
+            description: PAGE_DESCRIPTION,
+            url: SAT_SKILL_URL,
           },
         ]}
       />
@@ -46,7 +67,7 @@ const SatSkillIndex = () => {
       </header>
 
       <section className="mb-10 rounded-xl border border-border p-5">
-        <h2 className="text-2xl font-semibold tracking-tight">
+        <h2 className={SECTION_HEADING_CLASS}>
           How to use this skill list
         </h2>
         <ol className="mt-3 list-decimal space-y-2 pl-6 text-muted-foreground">
@@ -57,12 +78,9 @@ const SatSkillIndex = () => {
         </ol>
       </section>
 
-      {[
-        { heading: "Digital SAT Math Skills", list: mathSkills },
-        { heading: "Digital SAT Reading & Writing Skills", list: readingSkills },
-      ].map((group) => (
+      {SKILL_GROUPS.map((group) => (
         <section key={group.heading} className="mb-10">
-          <h2 className="text-2xl font-semibold tracking-tight">
+          <h2 className={SECTION_HEADING_CLASS}>
             {group.heading}
           </h2>
           <ul className="mt-4 grid gap-3 md:grid-cols-2">

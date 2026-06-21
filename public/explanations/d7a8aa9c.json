@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+      "title": "Use the scale factor",
+      "content": "Each side of triangle T equals $k$ times the corresponding side of triangle S. Since T's side length is greater than S's side length, the scale factor must satisfy $k>1$."
     },
     {
       "title": "Determine what scale factor k must satisfy",
-      "content": "Side of T = k &times; side of S. For T's side to be **greater** than S's side, we need k &gt; 1."
+      "content": "Side of T = k &times; side of S. For T's side to be <strong>greater</strong> than S's side, we need k &gt; 1."
     },
     {
       "title": "Evaluate each choice numerically",
@@ -19,6 +19,5 @@
       "title": "Select the valid value",
       "content": "Only $\\frac{29}{28}$ exceeds 1. That matches the correct answer — <strong>A</strong> is correct."
     }
-  ],
-  "choiceAnalysis": "<ul><li><strong>'$\\frac{29}{28}$'</strong>: $\\frac{29}{28} \\approx 1.036 \\gt  1$, so each side of T is strictly longer than the corresponding side of S. &#10003;</li><li><strong>'$1$'</strong>: k = 1 produces a congruent triangle &mdash; sides are equal, not greater. &#10007;</li><li><strong>'$\\frac{28}{29}$'</strong>: $\\frac{28}{29} \\approx 0.966 \\lt 1$, so each side of T would be shorter than S's sides. &#10007;</li><li><strong>'$0$'</strong>: k = 0 collapses every side to length 0 &mdash; not a valid triangle. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+  ]
 }

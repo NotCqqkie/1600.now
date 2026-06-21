@@ -4,10 +4,6 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
-    },
-    {
       "title": "Recall the circle area formula",
       "content": "For any circle with radius $r$, we apply the standard area formula.",
       "formula": "$$A = \\pi r^2$$"

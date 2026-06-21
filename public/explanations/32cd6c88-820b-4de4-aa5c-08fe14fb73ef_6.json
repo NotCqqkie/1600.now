@@ -41,5 +41,6 @@
       "explanation": "<ul><li>Both $x = 3$ and $x = 4$ are past the vertex at $x = 2$, placing this interval entirely on the descending branch. The height is decreasing throughout. This is incorrect.</li></ul>"
     }
   ],
-  "correctAnswer": "A"
+  "correctAnswer": "A",
+  "section": "Math"
 }

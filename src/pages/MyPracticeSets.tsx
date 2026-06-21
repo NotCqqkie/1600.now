@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import {
   BookOpen,
@@ -30,8 +30,8 @@ import {
   type CustomPracticeSet,
 } from "@/lib/practice/customPracticeSets";
 import {
-  getQuestionAnswered,
-  getQuestionStatus,
+  getQuestionUiStateMap,
+  type QuestionUiStateMap,
 } from "@/lib/practice/questionUiState";
 import { useUserProgress, type QuestionProgress } from "@/hooks/useUserProgress";
 import { useAuth } from "@/contexts/AuthContext";
@@ -49,11 +49,12 @@ const subjectLabel = (subject: CustomPracticeSet["subject"]) =>
 const PRACTICE_SET_HELP_REQUEST_KEY = "practice-set-help-requested";
 const PRACTICE_SET_HELP_EVENT = "onboarding:practice-set-help";
 const completedQuestionStatuses = new Set(["correct-first", "correct-later", "incorrect"]);
+const PRACTICE_SET_PLACEHOLDER_ROWS = [0, 1, 2, 3];
 
 const getPracticeSetProgress = (
   set: CustomPracticeSet,
   progress: Record<string, QuestionProgress>,
-  uid: string | null | undefined,
+  questionStateById: QuestionUiStateMap,
 ) => {
   let completedCount = 0;
   let started = false;
@@ -62,9 +63,10 @@ const getPracticeSetProgress = (
   set.items.forEach((item, index) => {
     const questionProgress = progress[item.storageId];
     const hasAttempt = Boolean(questionProgress?.attempts.length);
-    const status = getQuestionStatus(item.storageId, uid);
-    const hasCompletedStatus = Boolean(status && completedQuestionStatuses.has(status));
-    const hasSavedAnswer = getQuestionAnswered(item.storageId, uid);
+    const questionState = questionStateById[item.storageId] || {};
+    const status = questionState.status || "unanswered";
+    const hasCompletedStatus = completedQuestionStatuses.has(status);
+    const hasSavedAnswer = Boolean(questionState.answer) || status === "answered" || hasCompletedStatus;
     const isComplete = hasAttempt || hasCompletedStatus;
 
     if (isComplete) completedCount += 1;
@@ -100,11 +102,9 @@ const MyPracticeSets = () => {
   const { user } = useAuth();
   const uid = user?.id ?? null;
   const { progress } = useUserProgress();
-  const [refreshKey, setRefreshKey] = useState(0);
-  const practiceSets = useMemo(() => {
-    void refreshKey;
-    return getCustomPracticeSets(uid);
-  }, [refreshKey, uid]);
+  const [, setRefreshKey] = useState(0);
+  const practiceSets = getCustomPracticeSets(uid);
+  const questionStateById = getQuestionUiStateMap(uid);
 
   const handleDelete = (setId: string) => {
     deleteCustomPracticeSet(setId, uid);
@@ -132,7 +132,7 @@ const MyPracticeSets = () => {
       {practiceSets.length > 0 ? (
         <div className="grid gap-4 lg:grid-cols-2">
           {practiceSets.map((set) => {
-            const setProgress = getPracticeSetProgress(set, progress, uid);
+            const setProgress = getPracticeSetProgress(set, progress, questionStateById);
             const progressPercent = setProgress.totalCount
               ? Math.round((setProgress.completedCount / setProgress.totalCount) * 100)
               : 0;
@@ -288,7 +288,7 @@ const MyPracticeSets = () => {
                 <div className="h-3 w-11/12 rounded-full bg-muted" />
                 <div className="h-3 w-4/5 rounded-full bg-muted" />
                 <div className="mt-5 space-y-2">
-                  {[0, 1, 2, 3].map((item) => (
+                  {PRACTICE_SET_PLACEHOLDER_ROWS.map((item) => (
                     <div key={item} className="h-8 rounded-md border border-border/70 bg-card" />
                   ))}
                 </div>

@@ -30,17 +30,6 @@ export const colleges: College[] = rawColleges as College[];
 
 export const collegeBySlug = new Map(colleges.map((college) => [college.slug, college]));
 
-export const collegesByState = (() => {
-  const map = new Map<string, College[]>();
-  for (const c of colleges) {
-    if (!c.state) continue;
-    const arr = map.get(c.state) ?? [];
-    arr.push(c);
-    map.set(c.state, arr);
-  }
-  return map;
-})();
-
 export const formatUsd = (n: number | null): string =>
   n == null ? "—" : `$${Math.round(n).toLocaleString("en-US")}`;
 

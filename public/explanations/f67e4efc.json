@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+      "title": "Use the cylinder volume formula",
+      "content": "For a cylinder, $V=\\pi r^2h$. Substitute the given volume $45\\pi$ and height $5$, then solve for the positive radius."
     },
     {
       "title": "Apply the cylinder volume formula",

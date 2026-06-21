@@ -6,8 +6,7 @@ import { DraggableWindow } from "@/components/DraggableWindow";
 import { StepByStepExplanation } from "@/components/question/StepByStepExplanation";
 import { renderMixedContent } from "@/lib/text/mathRendering";
 import { normalizeReadingDisplayText } from "@/lib/text/readingTextNormalization";
-import { normalizeExplanationData, type ExplanationData } from "@/lib/explanationApi";
-import type { QuestionImageDisplaySize } from "@/data/questionImageSizing.generated";
+import { normalizeExplanationData } from "@/lib/explanationApi";
 
 interface ExplanationWindowProps {
   onSplitScreenChange?: (isSplit: boolean, windowId: string) => void;
@@ -19,21 +18,22 @@ interface ExplanationWindowProps {
   constrainToLeft?: number;
   isSidebarred?: boolean;
   onSidebarToggle?: (windowId: string, shouldBeSidebarred: boolean) => void;
-  windowId?: string;
   correctAnswer?: string | null;
   rationale?: string | null;
-  questionType?: "multiple-choice" | "free-response";
-  choices?: { id: string; text?: string; image?: string; imageDisplaySize?: QuestionImageDisplaySize }[];
   questionId?: string | number;
   questionSection?: string;
   questionText?: string;
-  questionDomain?: string;
-  questionSkill?: string;
-  questionDifficulty?: string | null;
-  questionImages?: { src: string; alt: string; displaySize?: QuestionImageDisplaySize }[];
   windowPortalContainer?: HTMLElement | null;
   windowBoundsElement?: HTMLElement | null;
+  contentSplitExitPosition?: number;
 }
+
+const EXPLANATION_WINDOW_ID = "explanation";
+
+const getExplanationLookupId = (fullId: string) => {
+  const parts = fullId.split("-");
+  return parts[0] === "bank" && parts.length > 3 ? parts.slice(3).join("-") : fullId;
+};
 
 export const ExplanationWindow = ({
   onSplitScreenChange,
@@ -45,28 +45,26 @@ export const ExplanationWindow = ({
   constrainToLeft,
   isSidebarred = false,
   onSidebarToggle,
-  windowId = "explanation",
   correctAnswer,
   rationale,
-  questionType,
-  choices,
   questionId,
   questionSection,
   questionText,
-  questionDomain,
-  questionSkill,
-  questionDifficulty,
-  questionImages,
   windowPortalContainer,
   windowBoundsElement,
+  contentSplitExitPosition,
 }: ExplanationWindowProps) => {
   const [isOpen, setIsOpen] = useState(false);
-  const [savedExplanation, setSavedExplanation] = useState<ExplanationData | null>(null);
+  const [hasStructuredExplanation, setHasStructuredExplanation] = useState(false);
   const [explanationChecked, setExplanationChecked] = useState(false);
   const [searchParams] = useSearchParams();
   const autoExplain = searchParams.get("autoExplain") === "1";
   const autoOpenedRef = useRef(false);
+  const windowId = EXPLANATION_WINDOW_ID;
   const shouldOpenInSidebar = !compressed;
+  const rawQuestionId = typeof questionId === "string" || typeof questionId === "number"
+    ? getExplanationLookupId(String(questionId))
+    : "";
   const correctAnswerText = typeof correctAnswer === "string" ? correctAnswer.trim() : "";
   const renderCorrectAnswerBadge = () =>
     correctAnswerText ? (
@@ -92,23 +90,15 @@ export const ExplanationWindow = ({
   }, [autoExplain, explanationChecked, onFocus, onSplitScreenChange, onSidebarToggle, shouldOpenInSidebar, windowId]);
 
   useEffect(() => {
-    if (!isOpen || !isSidebarred || shouldOpenInSidebar) return;
-    if (onSplitScreenChange) onSplitScreenChange(false, windowId);
-    if (onSidebarToggle) onSidebarToggle(windowId, false);
-  }, [isOpen, isSidebarred, onSplitScreenChange, onSidebarToggle, shouldOpenInSidebar, windowId]);
-
-  useEffect(() => {
     if (!questionId) {
-      setSavedExplanation(null);
+      setHasStructuredExplanation(false);
       setExplanationChecked(true);
       return;
     }
     const fullId = String(questionId);
-    const parts = fullId.split("-");
-    const rawId = parts[0] === "bank" && parts.length > 3 ? parts.slice(3).join("-") : fullId;
     setExplanationChecked(false);
-    setSavedExplanation(null);
-    fetch(`/explanations/${rawId}.json`)
+    setHasStructuredExplanation(false);
+    fetch(`/explanations/${rawQuestionId}.json`)
       .then(response => response.ok ? response.text() : null)
       .then(text => {
         if (fullId !== String(questionId)) return;
@@ -116,15 +106,15 @@ export const ExplanationWindow = ({
           try {
             const json = JSON.parse(text);
             const normalized = normalizeExplanationData(json);
-            if (normalized) setSavedExplanation(normalized);
+            if (normalized) setHasStructuredExplanation(true);
           } catch {
-            setSavedExplanation(null);
+            setHasStructuredExplanation(false);
           }
         }
         setExplanationChecked(true);
       })
       .catch(() => { if (fullId === String(questionId)) setExplanationChecked(true); });
-  }, [questionId]);
+  }, [questionId, rawQuestionId]);
 
   const handleToggle = () => {
     if (!isOpen) {
@@ -139,18 +129,7 @@ export const ExplanationWindow = ({
     setIsOpen(prev => !prev);
   };
   const explanationQuestion = questionText && correctAnswerText ? {
-    section: questionSection || "Math",
-    passage: questionText,
-    choices: choices?.map(choice => ({
-      label: choice.id,
-      text: choice.text || "",
-      image: choice.image,
-      imageDisplaySize: choice.imageDisplaySize,
-    })),
     correctAnswer: correctAnswerText,
-    domain: questionDomain,
-    skill: questionSkill,
-    difficulty: questionDifficulty ?? undefined,
   } : null;
   const isMath = questionSection === "Math";
   const rationaleHtml = rationale
@@ -161,7 +140,7 @@ export const ExplanationWindow = ({
 
   return (
     <>
-      <Button variant="outline" size="sm" onClick={handleToggle} className="h-10">
+      <Button variant="outline" size="sm" onClick={handleToggle} className={compressed ? "h-10 w-10 px-0" : "h-10"}>
         <Lightbulb className={compressed ? "h-4 w-4" : "mr-2 h-4 w-4"} />
         {!compressed && "Explanation"}
       </Button>
@@ -174,7 +153,6 @@ export const ExplanationWindow = ({
         onSplitScreenChange={onSplitScreenChange}
         onSplitPositionChange={onSplitPositionChange}
         splitPosition={splitPosition}
-        enableSplitScreen={true}
         diagonalResizeOnly={true}
         lockAspectRatio={true}
         windowId={windowId}
@@ -185,17 +163,13 @@ export const ExplanationWindow = ({
         onSidebarToggle={onSidebarToggle}
         portalContainer={windowPortalContainer}
         boundsElement={windowBoundsElement}
+        contentSplitExitPosition={contentSplitExitPosition}
       >
         <div className="w-full h-full flex flex-col overflow-hidden">
-          {savedExplanation && explanationQuestion ? (
+          {hasStructuredExplanation && explanationQuestion ? (
             <StepByStepExplanation
-              questionId={(() => {
-                const fullId = String(questionId || "");
-                const idParts = fullId.split("-");
-                return idParts[0] === "bank" && idParts.length > 3 ? idParts.slice(3).join("-") : fullId;
-              })()}
-              question={explanationQuestion}
-              questionImages={questionImages}
+              questionId={rawQuestionId}
+              correctAnswer={explanationQuestion.correctAnswer}
             />
           ) : explanationChecked && rationaleHtml ? (
             <div className="flex-1 overflow-y-auto px-4 py-3">

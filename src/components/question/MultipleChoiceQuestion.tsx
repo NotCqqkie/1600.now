@@ -23,7 +23,6 @@ interface MultipleChoiceQuestionProps {
   checkedAnswers?: Record<string, boolean>;
   questionId: number | string;
   subject?: "math" | "reading";
-  choiceImageClassName?: string;
   struckOutChoiceIds?: string[];
   onStruckOutChange?: (choiceIds: string[]) => void;
 }
@@ -37,7 +36,6 @@ export const MultipleChoiceQuestion = ({
   checkedAnswers = {},
   questionId,
   subject = "math",
-  choiceImageClassName,
   struckOutChoiceIds,
   onStruckOutChange,
 }: MultipleChoiceQuestionProps) => {
@@ -91,11 +89,9 @@ export const MultipleChoiceQuestion = ({
               alt={`SAT question ${questionId} choice ${choice.id} image`}
               className={cn(
                 "w-auto max-w-full h-auto object-contain block",
-                choiceImageClassName ?? getChoiceImageClassName(choice.imageDisplaySize),
+                getChoiceImageClassName(choice.imageDisplaySize),
                 dimmed && "opacity-60"
               )}
-              wrapperClassName="max-w-full"
-              loading="lazy"
               trimWhitespace
             />
           </div>

@@ -1,13 +1,13 @@
 import { satSkills } from "@/lib/seo-data/satSkillsData";
 
-export type LinkableAssetKind =
+type LinkableAssetKind =
   | "worksheet"
   | "chart"
   | "college"
   | "study-plan"
   | "tool-companion";
 
-export interface LinkableAssetTable {
+interface LinkableAssetTable {
   headers: string[];
   rows: string[][];
 }
@@ -33,7 +33,7 @@ export interface LinkableAsset {
   productLinks?: { label: string; href: string }[];
 }
 
-export interface LinkableHub {
+interface LinkableHub {
   slug: string;
   title: string;
   metaTitle: string;
@@ -1508,7 +1508,7 @@ const staticAssets: LinkableAsset[] = [
     kind: "tool-companion",
     category: "Math",
     title: "Desmos SAT Shortcuts",
-    metaTitle: "Desmos SAT Shortcuts: Digital SAT Calculator Strategies",
+    metaTitle: "SAT Desmos Shortcuts: Digital SAT Calculator Strategies",
     metaDescription: "Desmos SAT shortcuts for graphing, systems, tables, sliders, regressions, and checking answer choices quickly.",
     intro: "Desmos can turn many hard-looking SAT Math questions into graphing or table problems. The key is knowing when to switch tools.",
     sections: [
@@ -1678,11 +1678,11 @@ const staticAssets: LinkableAsset[] = [
   },
 ];
 
-export const linkableAssets: LinkableAsset[] = [...skillWorksheetAssets, ...staticAssets];
+const linkableAssets: LinkableAsset[] = [...skillWorksheetAssets, ...staticAssets];
 
 export const linkableAssetBySlug = new Map(linkableAssets.map((asset) => [asset.slug, asset]));
 
-export const linkableHubs: LinkableHub[] = [
+const linkableHubs: LinkableHub[] = [
   {
     slug: "sat-resources",
     title: "SAT Resources",
@@ -1718,6 +1718,3 @@ export const linkableHubs: LinkableHub[] = [
 ];
 
 export const linkableHubBySlug = new Map(linkableHubs.map((hub) => [hub.slug, hub]));
-
-export const linkableAssetSlugs = linkableAssets.map((asset) => asset.slug);
-export const linkableHubSlugs = linkableHubs.map((hub) => hub.slug);

@@ -11,6 +11,31 @@ import { scoreGoalBySlug } from "@/lib/seo-data/scoreGoalData";
 import { getScoreProfile } from "@/lib/seo-data/satScoreData";
 
 const SCORE_GOAL_PUBLISHED = "2026-04-01";
+const SECTION_HEADING_CLASS = "text-2xl font-semibold tracking-tight";
+const INLINE_LINK_CLASS = "underline";
+const CTA_LIST_CLASS = "mt-3 flex flex-wrap gap-2";
+const CTA_LINK_CLASS = "inline-block rounded-lg border border-border px-3 py-1.5 text-sm hover:bg-muted";
+const TABLE_HEAD_CELL_CLASS = "px-4 py-3 font-semibold";
+const TABLE_ROW_CLASS = "border-t border-border";
+const TABLE_BODY_CELL_CLASS = "px-4 py-3 text-muted-foreground";
+
+const WEEKLY_PLAN_ROWS = [
+  [
+    "Section split",
+    "Whether Math or Reading and Writing is limiting the total.",
+    "Drill the weaker section before another full module.",
+  ],
+  [
+    "Miss pattern",
+    "Which skills repeat across practice sets.",
+    "Create a narrow bank set for the repeated skill.",
+  ],
+  [
+    "Timed-module score",
+    "Whether drills are transferring under real pacing.",
+    "Keep the plan if timing improves; narrow it if misses repeat.",
+  ],
+] as const;
 
 interface NumericGoalContent {
   sectionSplit: { rw: number; math: number };
@@ -36,6 +61,21 @@ const numericContent = (score: number): NumericGoalContent => {
   };
 };
 
+type Faq = { question: string; answer: string };
+type CtaLinkItem = { to: string; label: string };
+
+const CtaLinkList = ({ links }: { links: readonly CtaLinkItem[] }) => (
+  <ul className={CTA_LIST_CLASS}>
+    {links.map(({ to, label }) => (
+      <li key={`${to}:${label}`}>
+        <Link to={to} className={CTA_LINK_CLASS}>
+          {label}
+        </Link>
+      </li>
+    ))}
+  </ul>
+);
+
 const ScoreGoalPage = () => {
   const location = useLocation();
   const slug = location.pathname.replace(/^\//, "").replace(/\/$/, "");
@@ -45,7 +85,7 @@ const ScoreGoalPage = () => {
 
   const url = `https://1600.now/${page.slug}`;
 
-  let faqs: { question: string; answer: string }[] = [];
+  let faqs: Faq[];
   let body: ReactNode;
 
   if (typeof page.target === "number") {
@@ -73,7 +113,7 @@ const ScoreGoalPage = () => {
     body = (
       <>
         <section>
-          <h2 className="text-2xl font-semibold tracking-tight">
+          <h2 className={SECTION_HEADING_CLASS}>
             What a {score} means
           </h2>
           <p className="mt-3 text-muted-foreground">
@@ -84,7 +124,7 @@ const ScoreGoalPage = () => {
         </section>
 
         <section className="mt-10">
-          <h2 className="text-2xl font-semibold tracking-tight">
+          <h2 className={SECTION_HEADING_CLASS}>
             Section split for a {score}
           </h2>
           <p className="mt-3 text-muted-foreground">
@@ -97,7 +137,7 @@ const ScoreGoalPage = () => {
         </section>
 
         <section className="mt-10">
-          <h2 className="text-2xl font-semibold tracking-tight">
+          <h2 className={SECTION_HEADING_CLASS}>
             How many questions you can afford to miss
           </h2>
           <p className="mt-3 text-muted-foreground">
@@ -110,14 +150,14 @@ const ScoreGoalPage = () => {
         </section>
 
         <section className="mt-10">
-          <h2 className="text-2xl font-semibold tracking-tight">
+          <h2 className={SECTION_HEADING_CLASS}>
             What to focus on
           </h2>
           <p className="mt-3 text-muted-foreground">{content.studyFocus}</p>
         </section>
 
         <section className="mt-10">
-          <h2 className="text-2xl font-semibold tracking-tight">
+          <h2 className={SECTION_HEADING_CLASS}>
             An 8-week study plan to reach {score}
           </h2>
           <ul className="mt-3 list-disc space-y-2 pl-6 text-muted-foreground">
@@ -127,7 +167,7 @@ const ScoreGoalPage = () => {
             </li>
             <li>
               Weeks 2–3: Drill weak skills in the{" "}
-              <Link className="underline" to="/bank">
+              <Link className={INLINE_LINK_CLASS} to="/bank">
                 question bank
               </Link>{" "}
               — 40 questions per day, reviewed thoroughly.
@@ -138,7 +178,7 @@ const ScoreGoalPage = () => {
             </li>
             <li>
               Weeks 6–7: Full-length{" "}
-              <Link className="underline" to="/modules">
+              <Link className={INLINE_LINK_CLASS} to="/modules">
                 practice modules
               </Link>{" "}
               twice a week, plus focused review of every wrong answer.
@@ -151,7 +191,7 @@ const ScoreGoalPage = () => {
         </section>
 
         <section className="mt-10">
-          <h2 className="text-2xl font-semibold tracking-tight">
+          <h2 className={SECTION_HEADING_CLASS}>
             Colleges where {score} is competitive
           </h2>
           <ul className="mt-3 list-disc space-y-1 pl-6 text-muted-foreground">
@@ -162,35 +202,16 @@ const ScoreGoalPage = () => {
         </section>
 
         <section className="mt-10">
-          <h2 className="text-2xl font-semibold tracking-tight">
+          <h2 className={SECTION_HEADING_CLASS}>
             Turn this target into practice
           </h2>
-          <ul className="mt-3 flex flex-wrap gap-2">
-            <li>
-              <Link
-                to="/score-calculator"
-                className="inline-block rounded-lg border border-border px-3 py-1.5 text-sm hover:bg-muted"
-              >
-                Model your current score
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/modules"
-                className="inline-block rounded-lg border border-border px-3 py-1.5 text-sm hover:bg-muted"
-              >
-                Take a timed module
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/bank"
-                className="inline-block rounded-lg border border-border px-3 py-1.5 text-sm hover:bg-muted"
-              >
-                Drill weak skills
-              </Link>
-            </li>
-          </ul>
+          <CtaLinkList
+            links={[
+              { to: "/score-calculator", label: "Model your current score" },
+              { to: "/modules", label: "Take a timed module" },
+              { to: "/bank", label: "Drill weak skills" },
+            ]}
+          />
         </section>
       </>
     );
@@ -221,7 +242,7 @@ const ScoreGoalPage = () => {
     body = (
       <>
         <section>
-          <h2 className="text-2xl font-semibold tracking-tight">
+          <h2 className={SECTION_HEADING_CLASS}>
             What a 1600 actually requires
           </h2>
           <p className="mt-3 text-muted-foreground">
@@ -238,7 +259,7 @@ const ScoreGoalPage = () => {
         </section>
 
         <section className="mt-10">
-          <h2 className="text-2xl font-semibold tracking-tight">
+          <h2 className={SECTION_HEADING_CLASS}>
             How rare is a 1600?
           </h2>
           <p className="mt-3 text-muted-foreground">
@@ -249,7 +270,7 @@ const ScoreGoalPage = () => {
         </section>
 
         <section className="mt-10">
-          <h2 className="text-2xl font-semibold tracking-tight">
+          <h2 className={SECTION_HEADING_CLASS}>
             What 1600 scorers do differently
           </h2>
           <ul className="mt-3 list-disc space-y-2 pl-6 text-muted-foreground">
@@ -260,14 +281,14 @@ const ScoreGoalPage = () => {
             <li>
               They use the Desmos graphing calculator to verify algebra
               answers. Practice calculator-friendly questions in the{" "}
-              <Link className="underline" to="/bank/math/browse">
+              <Link className={INLINE_LINK_CLASS} to="/bank/math/browse">
                 SAT Math bank
               </Link>
               .
             </li>
             <li>
               They take full-length{" "}
-              <Link className="underline" to="/modules">
+              <Link className={INLINE_LINK_CLASS} to="/modules">
                 practice modules
               </Link>{" "}
               weekly and review every wrong answer with a written explanation.
@@ -280,7 +301,7 @@ const ScoreGoalPage = () => {
         </section>
 
         <section className="mt-10">
-          <h2 className="text-2xl font-semibold tracking-tight">
+          <h2 className={SECTION_HEADING_CLASS}>
             Colleges that expect a near-perfect SAT
           </h2>
           <p className="mt-3 text-muted-foreground">
@@ -318,7 +339,7 @@ const ScoreGoalPage = () => {
     body = (
       <>
         <section>
-          <h2 className="text-2xl font-semibold tracking-tight">
+          <h2 className={SECTION_HEADING_CLASS}>
             The honest answer
           </h2>
           <p className="mt-3 text-muted-foreground">
@@ -330,7 +351,7 @@ const ScoreGoalPage = () => {
         </section>
 
         <section className="mt-10">
-          <h2 className="text-2xl font-semibold tracking-tight">
+          <h2 className={SECTION_HEADING_CLASS}>
             By tier of college
           </h2>
           <ul className="mt-3 list-disc space-y-2 pl-6 text-muted-foreground">
@@ -358,7 +379,7 @@ const ScoreGoalPage = () => {
         </section>
 
         <section className="mt-10">
-          <h2 className="text-2xl font-semibold tracking-tight">
+          <h2 className={SECTION_HEADING_CLASS}>
             National benchmarks
           </h2>
           <p className="mt-3 text-muted-foreground">
@@ -369,35 +390,16 @@ const ScoreGoalPage = () => {
         </section>
 
         <section className="mt-10">
-          <h2 className="text-2xl font-semibold tracking-tight">
+          <h2 className={SECTION_HEADING_CLASS}>
             Put your percentile target into practice
           </h2>
-          <ul className="mt-3 flex flex-wrap gap-2">
-            <li>
-              <Link
-                to="/score-calculator"
-                className="inline-block rounded-lg border border-border px-3 py-1.5 text-sm hover:bg-muted"
-              >
-                Model a target score
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/what-sat-score-do-i-need"
-                className="inline-block rounded-lg border border-border px-3 py-1.5 text-sm hover:bg-muted"
-              >
-                Compare college ranges
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/modules"
-                className="inline-block rounded-lg border border-border px-3 py-1.5 text-sm hover:bg-muted"
-              >
-                Take a timed module
-              </Link>
-            </li>
-          </ul>
+          <CtaLinkList
+            links={[
+              { to: "/score-calculator", label: "Model a target score" },
+              { to: "/what-sat-score-do-i-need", label: "Compare college ranges" },
+              { to: "/modules", label: "Take a timed module" },
+            ]}
+          />
         </section>
       </>
     );
@@ -428,7 +430,7 @@ const ScoreGoalPage = () => {
     body = (
       <>
         <section>
-          <h2 className="text-2xl font-semibold tracking-tight">
+          <h2 className={SECTION_HEADING_CLASS}>
             The current average
           </h2>
           <p className="mt-3 text-muted-foreground">
@@ -440,7 +442,7 @@ const ScoreGoalPage = () => {
         </section>
 
         <section className="mt-10">
-          <h2 className="text-2xl font-semibold tracking-tight">
+          <h2 className={SECTION_HEADING_CLASS}>
             Who takes the SAT
           </h2>
           <p className="mt-3 text-muted-foreground">
@@ -453,7 +455,7 @@ const ScoreGoalPage = () => {
         </section>
 
         <section className="mt-10">
-          <h2 className="text-2xl font-semibold tracking-tight">
+          <h2 className={SECTION_HEADING_CLASS}>
             Setting a realistic target
           </h2>
           <p className="mt-3 text-muted-foreground">
@@ -465,35 +467,16 @@ const ScoreGoalPage = () => {
         </section>
 
         <section className="mt-10">
-          <h2 className="text-2xl font-semibold tracking-tight">
+          <h2 className={SECTION_HEADING_CLASS}>
             Set a realistic score target
           </h2>
-          <ul className="mt-3 flex flex-wrap gap-2">
-            <li>
-              <Link
-                to="/score-calculator"
-                className="inline-block rounded-lg border border-border px-3 py-1.5 text-sm hover:bg-muted"
-              >
-                Estimate your current score
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/what-sat-score-do-i-need"
-                className="inline-block rounded-lg border border-border px-3 py-1.5 text-sm hover:bg-muted"
-              >
-                Find college target ranges
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/bank"
-                className="inline-block rounded-lg border border-border px-3 py-1.5 text-sm hover:bg-muted"
-              >
-                Start targeted practice
-              </Link>
-            </li>
-          </ul>
+          <CtaLinkList
+            links={[
+              { to: "/score-calculator", label: "Estimate your current score" },
+              { to: "/what-sat-score-do-i-need", label: "Find college target ranges" },
+              { to: "/bank", label: "Start targeted practice" },
+            ]}
+          />
         </section>
       </>
     );
@@ -537,41 +520,33 @@ const ScoreGoalPage = () => {
       {body}
 
       <section className="mt-12">
-        <h2 className="text-2xl font-semibold tracking-tight">
+        <h2 className={SECTION_HEADING_CLASS}>
           How to turn this score target into a weekly plan
         </h2>
         <div className="mt-4 overflow-x-auto rounded-lg border border-border">
           <table className="w-full min-w-[560px] text-left text-sm">
             <thead className="bg-muted/70">
               <tr>
-                <th className="px-4 py-3 font-semibold">Weekly check</th>
-                <th className="px-4 py-3 font-semibold">What it tells you</th>
-                <th className="px-4 py-3 font-semibold">Next move</th>
+                <th className={TABLE_HEAD_CELL_CLASS}>Weekly check</th>
+                <th className={TABLE_HEAD_CELL_CLASS}>What it tells you</th>
+                <th className={TABLE_HEAD_CELL_CLASS}>Next move</th>
               </tr>
             </thead>
             <tbody>
-              <tr className="border-t border-border">
-                <td className="px-4 py-3 text-muted-foreground">Section split</td>
-                <td className="px-4 py-3 text-muted-foreground">Whether Math or Reading and Writing is limiting the total.</td>
-                <td className="px-4 py-3 text-muted-foreground">Drill the weaker section before another full module.</td>
-              </tr>
-              <tr className="border-t border-border">
-                <td className="px-4 py-3 text-muted-foreground">Miss pattern</td>
-                <td className="px-4 py-3 text-muted-foreground">Which skills repeat across practice sets.</td>
-                <td className="px-4 py-3 text-muted-foreground">Create a narrow bank set for the repeated skill.</td>
-              </tr>
-              <tr className="border-t border-border">
-                <td className="px-4 py-3 text-muted-foreground">Timed-module score</td>
-                <td className="px-4 py-3 text-muted-foreground">Whether drills are transferring under real pacing.</td>
-                <td className="px-4 py-3 text-muted-foreground">Keep the plan if timing improves; narrow it if misses repeat.</td>
-              </tr>
+              {WEEKLY_PLAN_ROWS.map(([check, signal, nextMove]) => (
+                <tr key={check} className={TABLE_ROW_CLASS}>
+                  <td className={TABLE_BODY_CELL_CLASS}>{check}</td>
+                  <td className={TABLE_BODY_CELL_CLASS}>{signal}</td>
+                  <td className={TABLE_BODY_CELL_CLASS}>{nextMove}</td>
+                </tr>
+              ))}
             </tbody>
           </table>
         </div>
       </section>
 
       <section className="mt-12">
-        <h2 className="text-2xl font-semibold tracking-tight">FAQs</h2>
+        <h2 className={SECTION_HEADING_CLASS}>FAQs</h2>
         <div className="mt-4 space-y-5">
           {faqs.map((faq) => (
             <div key={faq.question}>
@@ -586,15 +561,15 @@ const ScoreGoalPage = () => {
         <h3 className="text-lg font-semibold">Start practicing now</h3>
         <p className="mt-2 text-muted-foreground">
           Run a timed{" "}
-          <Link className="underline" to="/modules">
+          <Link className={INLINE_LINK_CLASS} to="/modules">
             Digital SAT module
           </Link>
           , drill targeted skills in the{" "}
-          <Link className="underline" to="/bank">
+          <Link className={INLINE_LINK_CLASS} to="/bank">
             question bank
           </Link>
           , or estimate your current score with the{" "}
-          <Link className="underline" to="/score-calculator">
+          <Link className={INLINE_LINK_CLASS} to="/score-calculator">
             SAT score calculator
           </Link>
           .

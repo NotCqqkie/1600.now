@@ -4,21 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+      "title": "Use the vertical angle first",
+      "content": "The angle vertical to $y$ also has measure $y$. That vertical angle is the same-side interior angle paired with $x$ on the parallel lines."
     },
     {
-      "title": "Identify co-interior angles from the parallel lines and transversal",
-      "content": "Lines $r$ and $s$ are parallel, and line $m$ is a transversal that intersects both. The angles $x$ and $y$ are co-interior angles (same-side interior angles)—both lie between the two parallel lines on the same side of the transversal.",
-      "formula": "$$\\text{Co-interior angles sum to } 180^{\\circ}$$"
-    },
-    {
-      "title": "Apply the parallel lines property",
-      "content": "When two parallel lines are cut by a transversal, co-interior angles are supplementary:<br/>$$x + y = 180^{\\circ}$$<br/>Rearranging for $x$:<br/>$$x = 180^{\\circ} - y$$"
-    },
-    {
-      "title": "Use the constraint to find the range of x",
-      "content": "We are given that $y \\lt 65$. Substituting into $x = 180^{\\circ} - y$:<br/>$$x = 180^{\\circ} - y \\gt 180^{\\circ} - 65^{\\circ}$$<br/>$$x \\gt 115^{\\circ}$$<br/>This is the correct answer."
+      "title": "Apply the same-side interior angle rule",
+      "content": "Same-side interior angles formed by parallel lines are supplementary, so $$x+y=180^{\\circ}.$$ Since $y\\lt65^{\\circ}$, $$x=180^{\\circ}-y\\gt180^{\\circ}-65^{\\circ}=115^{\\circ}.$$"
     }
   ]
 }

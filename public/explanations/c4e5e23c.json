@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+      "title": "Use the square area scale factor",
+      "content": "The side length of square M is $6$ times the side length of square N. Since area scales by the square of the side-length scale factor, square M's area is $6^2=36$ times square N's area."
     },
     {
       "title": "Find the side length of square N",

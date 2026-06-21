@@ -1,6 +1,5 @@
-
-import React, { createContext, useCallback, useContext, useEffect, useState } from "react";
-import type { Auth, IdTokenResult, User as FirebaseUser } from "firebase/auth";
+import { createContext, type ReactNode, useCallback, useContext, useEffect, useState } from "react";
+import type { ActionCodeSettings, Auth, IdTokenResult, User as FirebaseUser } from "firebase/auth";
 import { identifyUser, trackLogin, trackSignUp } from "@/lib/analytics";
 import {
   assertAuthAttemptAllowed,
@@ -9,6 +8,8 @@ import {
   recordAuthAttempt,
   validatePasswordPolicy,
 } from "@/lib/authSecurity";
+import { BRAND_URL } from "@/lib/brand";
+import { isLocalHost } from "@/lib/firebase/firebaseHosts";
 
 export interface AppUser {
   id: string;
@@ -18,11 +19,9 @@ export interface AppUser {
   photoURL: string | null;
   emailVerified: boolean;
   isAdmin: boolean;
-  raw: FirebaseUser;
 }
 
 interface AuthContextType {
-  session: AppUser | null;
   user: AppUser | null;
   loading: boolean;
   signInWithEmailPassword: (email: string, password: string) => Promise<void>;
@@ -37,7 +36,6 @@ interface AuthContextType {
 }
 
 const AuthContext = createContext<AuthContextType>({
-  session: null,
   user: null,
   loading: true,
   signInWithEmailPassword: async () => {},
@@ -52,6 +50,22 @@ const AuthContext = createContext<AuthContextType>({
 });
 
 export const useAuth = () => useContext(AuthContext);
+
+const authActionOrigin = () => {
+  if (typeof window !== "undefined" && isLocalHost(window.location.hostname)) {
+    return window.location.origin;
+  }
+  return BRAND_URL;
+};
+
+const authActionSettings = (path: "/login" | "/verify-email"): ActionCodeSettings => {
+  const settings: ActionCodeSettings = {
+    url: `${authActionOrigin()}${path}`,
+  };
+  const linkDomain = import.meta.env.VITE_FIREBASE_AUTH_LINK_DOMAIN;
+  if (linkDomain) settings.linkDomain = linkDomain;
+  return settings;
+};
 
 const getAuthUnavailableError = (firebaseConfigError?: string | null) =>
   new Error(
@@ -95,7 +109,6 @@ const toAppUser = (
     photoURL: firebaseUser.photoURL,
     emailVerified: firebaseUser.emailVerified,
     isAdmin: tokenResult?.claims.admin === true,
-    raw: firebaseUser,
   };
 };
 
@@ -131,15 +144,13 @@ const FAST_AUTH_REDIRECT_PATHS = new Set(["/login", "/signup", "/verify-email"])
 const shouldApplyUserBeforeClaims = () =>
   typeof window !== "undefined" && FAST_AUTH_REDIRECT_PATHS.has(window.location.pathname);
 
-export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
-  const [session, setSession] = useState<AppUser | null>(null);
+export const AuthProvider = ({ children }: { children: ReactNode }) => {
   const [user, setUser] = useState<AppUser | null>(null);
   const [loading, setLoading] = useState(true);
   const [redirectError, setRedirectError] = useState<unknown>(null);
   const clearRedirectError = useCallback(() => setRedirectError(null), []);
 
   const applyAppUser = useCallback((appUser: AppUser | null) => {
-    setSession(appUser);
     setUser(appUser);
     setLoading(false);
     void identifyUser(appUser?.uid ?? null);
@@ -242,7 +253,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
     await applyFirebaseUser(result.user);
     trackSignUp("password");
     try {
-      await authModule.sendEmailVerification(result.user);
+      await authModule.sendEmailVerification(result.user, authActionSettings("/verify-email"));
     } catch {
       return { requiresVerification: !result.user.emailVerified };
     }
@@ -256,7 +267,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
     const identifier = normalizeAuthIdentifier(auth.currentUser.email || auth.currentUser.uid);
     assertAuthAttemptAllowed("emailVerification", identifier);
     recordAuthAttempt("emailVerification", identifier);
-    await authModule.sendEmailVerification(auth.currentUser);
+    await authModule.sendEmailVerification(auth.currentUser, authActionSettings("/verify-email"));
   };
 
   const reloadUser = async () => {
@@ -266,7 +277,6 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
     const tokenResult = await auth.currentUser.getIdTokenResult(true);
     const refreshed = toAppUser(auth.currentUser, tokenResult);
     setUser(refreshed);
-    setSession(refreshed);
     return !!auth.currentUser.emailVerified;
   };
 
@@ -295,7 +305,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
     assertAuthAttemptAllowed("passwordReset", identifier);
     recordAuthAttempt("passwordReset", identifier);
     try {
-      await authModule.sendPasswordResetEmail(auth, email);
+      await authModule.sendPasswordResetEmail(auth, email, authActionSettings("/login"));
     } catch (error: unknown) {
       const code = (error as { code?: string } | null)?.code;
       if (code === "auth/user-not-found") return;
@@ -306,7 +316,6 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
   return (
     <AuthContext.Provider
       value={{
-        session,
         user,
         loading,
         signInWithEmailPassword,

@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+      "title": "Use complementary trig values",
+      "content": "For acute angles, the sine of one angle equals the cosine of its complement. Therefore, if $\\cos(Q)=\\sin(R)$, then angles $Q$ and $R$ are complementary."
     },
     {
       "title": "Recognize complementary angles from cos(Q) = sin(R)",

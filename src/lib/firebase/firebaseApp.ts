@@ -1,4 +1,5 @@
 import { initializeApp, getApps, getApp } from "firebase/app";
+import { isLocalHost } from "@/lib/firebase/firebaseHosts";
 
 const requiredEnvKeys = [
   "VITE_FIREBASE_API_KEY",
@@ -22,13 +23,11 @@ const prodAuthDomain = import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || "";
 const devAuthDomain = import.meta.env.VITE_FIREBASE_AUTH_DOMAIN_LOCAL || prodAuthDomain;
 const isFirebaseDefaultDomain = (domain: string) =>
   domain.endsWith(".firebaseapp.com") || domain.endsWith(".web.app");
-const isLocalHostname = (hostname: string) =>
-  hostname === "localhost" || hostname === "127.0.0.1" || hostname === "::1";
 const runtimeAuthDomain =
   !import.meta.env.DEV &&
   typeof window !== "undefined" &&
   window.location.host &&
-  !isLocalHostname(window.location.hostname) &&
+  !isLocalHost(window.location.hostname) &&
   isFirebaseDefaultDomain(prodAuthDomain)
     ? window.location.host
     : import.meta.env.DEV

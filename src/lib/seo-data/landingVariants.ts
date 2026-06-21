@@ -1,5 +1,5 @@
 
-export interface LandingVariant {
+interface LandingVariant {
   slug: string;
   keyword: string;
   h1: string;
@@ -39,7 +39,7 @@ const makeVariant = (partial: Omit<LandingVariant, "features"> & { features?: La
   features: partial.features ?? SHARED_FEATURES(partial.keyword),
 });
 
-export const landingVariants: LandingVariant[] = [
+const landingVariants: LandingVariant[] = [
   makeVariant({
     slug: "free-sat-practice",
     keyword: "Free SAT Practice",

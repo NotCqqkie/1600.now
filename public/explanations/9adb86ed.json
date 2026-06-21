@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+      "title": "Use the circle radii",
+      "content": "Since $P$ is the center and $Q$ and $R$ lie on the circle, $PQ$ and $PR$ are both radii. Each has length $9$, so the perimeter equation has only $QR$ unknown."
     },
     {
       "title": "Identify the radii",

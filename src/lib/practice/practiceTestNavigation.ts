@@ -1,25 +1,56 @@
 import type { NavigateFunction } from "react-router-dom";
-import {
-  buildPracticeTestQuestionSet,
-  getPracticeSet,
-  type PracticeSet,
-} from "@/data/modulePracticeBank";
+import type { PracticeSet, PracticeTestQuestionItem } from "@/data/modulePracticeBank";
 import {
   clearPracticeTestSession,
   createPracticeTestSession,
-  getPracticeTestSession,
   savePracticeTestSession,
   type PracticeTestSettings,
   type PracticeTestSessionMeta,
 } from "@/lib/practice/practiceTestSession";
+import { buildPracticeTestQuestionRoute } from "@/lib/practice/practiceBankRoutes";
+import { writePracticeLaunchStorage } from "@/lib/practice/practiceRunStorage";
 
-type LaunchPracticeTestArgs = {
+const buildPracticeTestQuestionSetFromSet = (
+  practiceSet: PracticeSet,
+): PracticeTestQuestionItem[] => {
+  let globalQuestionNumber = 0;
+
+  return practiceSet.modules.flatMap((module) =>
+    module.questions.map((entry) => {
+      globalQuestionNumber += 1;
+
+      return {
+        subject: module.subject,
+        id: entry.bankQuestion.id,
+        sourceId: entry.bankQuestion.sourceId,
+        bankType: entry.bankQuestion.bankType,
+        storageId: entry.bankQuestion.stableId,
+        practiceSetId: practiceSet.id,
+        practiceSetNumber: practiceSet.setNumber,
+        moduleSlug: module.slug,
+        moduleNumber: module.moduleNumber,
+        moduleTitle: module.publicTitle,
+        moduleQuestionNumber: entry.slot,
+        globalQuestionNumber,
+      };
+    }),
+  );
+};
+
+type LaunchPracticeTestArgs = Readonly<{
   practiceSet: PracticeSet;
   navigate: NavigateFunction;
-  resumeExisting: boolean;
-  savedSession: PracticeTestSessionMeta | null;
-  settings: PracticeTestSettings;
-};
+}> & (
+  Readonly<{
+    resumeExisting: true;
+    savedSession: PracticeTestSessionMeta;
+    settings?: PracticeTestSettings;
+  }> | Readonly<{
+    resumeExisting: false;
+    savedSession: PracticeTestSessionMeta | null;
+    settings: PracticeTestSettings;
+  }>
+);
 
 export const launchPracticeTest = ({
   practiceSet,
@@ -27,59 +58,41 @@ export const launchPracticeTest = ({
   resumeExisting,
   savedSession,
   settings,
-}: LaunchPracticeTestArgs) => {
-  const questionSet = buildPracticeTestQuestionSet(practiceSet.id);
-  if (!questionSet?.length) return;
+}: LaunchPracticeTestArgs): void => {
+  const questionSet = buildPracticeTestQuestionSetFromSet(practiceSet);
+  if (!questionSet.length) return;
 
-  if (!resumeExisting && savedSession) {
+  const shouldResume = resumeExisting && savedSession !== null;
+
+  if (!shouldResume && savedSession) {
     clearPracticeTestSession(practiceSet.id);
   }
 
-  const session = resumeExisting && savedSession
+  const session = shouldResume
     ? { ...savedSession, status: "active" as const }
     : createPracticeTestSession(practiceSet, settings);
 
-  if (resumeExisting && savedSession) {
+  if (shouldResume) {
     savePracticeTestSession(session);
   }
 
-  sessionStorage.setItem("practiceExitTo", "/modules");
-  sessionStorage.setItem("practiceSet", JSON.stringify(questionSet));
+  writePracticeLaunchStorage(questionSet);
 
-  if (resumeExisting && savedSession?.phase === "review") {
+  if (shouldResume && savedSession.phase === "review") {
     navigate(`/practice-tests/${practiceSet.id}/review?session=${savedSession.sessionId}`);
     return;
   }
 
-  const targetIndex = resumeExisting ? session.currentIndex : 0;
+  const targetIndex = shouldResume ? session.currentIndex : 0;
   const targetQuestion = questionSet[targetIndex];
   if (!targetQuestion) return;
 
-  navigate(
-    `/bank/${targetQuestion.subject}/${targetQuestion.sourceId}?bankType=past&practice=true&idx=${targetIndex + 1}&practiceTest=${practiceSet.id}&practiceTestSession=${session.sessionId}`,
-  );
-};
-
-export const resumePracticeTestFromRoute = (
-  practiceSetId: string,
-  navigate: NavigateFunction,
-) => {
-  const practiceSet = getPracticeSet(practiceSetId);
-  if (!practiceSet) return;
-
-  const questionSet = buildPracticeTestQuestionSet(practiceSet.id);
-  if (!questionSet?.length) return;
-
-  const session = getPracticeTestSession(practiceSet.id);
-  if (!session) return;
-
-  sessionStorage.setItem("practiceExitTo", "/modules");
-  sessionStorage.setItem("practiceSet", JSON.stringify(questionSet));
-
-  const targetQuestion = questionSet[session.currentIndex];
-  if (!targetQuestion) return;
-
-  navigate(
-    `/bank/${targetQuestion.subject}/${targetQuestion.sourceId}?bankType=past&practice=true&idx=${session.currentIndex + 1}&practiceTest=${practiceSet.id}&practiceTestSession=${session.sessionId}`,
-  );
+  navigate(buildPracticeTestQuestionRoute({
+    subject: targetQuestion.subject,
+    sourceId: targetQuestion.sourceId,
+    bankType: targetQuestion.bankType,
+    idx: targetIndex + 1,
+    practiceSetId: practiceSet.id,
+    practiceTestSessionId: session.sessionId,
+  }));
 };

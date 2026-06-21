@@ -312,7 +312,7 @@
     },
     "id": "bb560789",
     "testName": "SAT Question Bank",
-    "text": "Triangle R has an area of $80\\text{square centimeters }\\left({\\text{cm}}^{2}\\right)$. Square S has side lengths of $4\\,\\text{cm}$. What is the total area of triangle R and square S, $\\text{in cm}^2$?",
+    "text": "Triangle R has an area of $80\\,\\text{square centimeters}\\,\\left(\\text{cm}^2\\right)$. Square S has side lengths of $4\\,\\text{cm}$. What is the total area of triangle R and square S, $\\text{in cm}^2$?",
     "correctAnswer": "D",
     "type": "multiple-choice",
     "choices": [
@@ -578,14 +578,14 @@
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and volume",
+    "skill": "Lines, angles, and triangles",
     "difficulty": "Easy",
     "inPracticeTests": false,
     "rationale": "Choice A is correct. It's given that triangle $JKL$ is similar to triangle $RST$, where $J$ corresponds to $R$ and $K$ corresponds to $S$. It follows that $\\overline{JK}$ corresponds to $\\overline{RS}$. If two triangles are similar, then the scale factor between their perimeters is equal to the scale factor between the lengths of their corresponding sides. It's given that the length of $\\overline{JK}$ is $15$ and the length of $\\overline{RS}$ is $135$. Therefore, the scale factor from the length of $\\overline{JK}$ to the length of $\\overline{RS}$ is $\\frac{135}{15}$, or $9$. It's given that the perimeter of triangle $JKL$ is $36$. Let $p$ represent the perimeter of triangle $RST$. It follows that $\\frac{p}{36}=9$. Multiplying each side of this equation by $36$ yields $p=324$. Therefore, the perimeter of triangle $RST$ is $324$.\nChoice B is incorrect and may result from conceptual or calculation errors.\nChoice C is incorrect and may result from conceptual or calculation errors.\nChoice D is incorrect and may result from conceptual or calculation errors.",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and volume",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     },
     "id": "babd7461",
@@ -819,14 +819,14 @@
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and volume",
+    "skill": "Circles",
     "difficulty": "Medium",
     "inPracticeTests": false,
     "rationale": "Choice B is correct. It's given that the three points shown define a circle, so the center of that circle is an equal distance from each of the three points. The point $(7,8)$ is halfway between the points $(7,5)$ and $(7,11)$ and is a distance of $3$ units from each of those two points. The point $(7,8)$ is also a distance of $3$ units from $(4,8)$. Because the point $(7,8)$ is the same distance from all three given points, it must be the center of the circle. The radius of a circle is the distance from the center to any point on the circle. Since that distance is $3$, it follows that the radius of the circle is $3$. The circumference of a circle with radius $r$ is equal to $2πr$. It follows that the circumference of the circle is ${2}(π)(3)$, or $6π$. It's given that the circumference of the circle is $kπ$. Therefore, the value of $k$ is $6$.\nChoice A is incorrect. This is the radius of the circle, not the value of $k$ in the expression $kπ$.\nChoice C is incorrect. This is the <em>x</em>-coordinate of the center of the circle, not the value of $k$ in the expression $kπ$.\nChoice D is incorrect. This is the value of $k$ for which $kπ$ represents the area of the circle, in square units, not the circumference of the circle, in units.",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and volume",
+      "skill": "Circles",
       "confidence": "high"
     },
     "id": "096c7ef5",
@@ -1045,7 +1045,7 @@
     "skill": "Lines, angles, and triangles",
     "difficulty": "Medium",
     "inPracticeTests": false,
-    "rationale": "Choice B is correct. Each tree and its shadow can be modeled using a right triangle, where the height of the tree and the length of its shadow are the legs of the triangle. At a given point in time, the right triangles formed by two nearby trees and their respective shadows will be similar. Therefore, if the height of the other tree is $x$, in feet, the value of $x$ can be calculated by solving the proportional relationship $\\frac{10\\text{feet tall}}{5\\text{feet long}}=\\frac{x\\text{feet tall}}{2\\text{feet long}}$. This equation is equivalent to$\\frac{10}{5}=\\frac{x}{2}$, or $2=\\frac{x}{2}$. Multiplying each side of the equation $2=\\frac{x}{2}$ by $2$ yields $4=x$. Therefore, the other tree is $4\\text{feet}$ tall.\nChoice A is incorrect and may result from calculating the difference between the lengths of the shadows, rather than the height of the other tree.\nChoice C is incorrect and may result from calculating the difference between the height of the $10$-foot-tall tree and the length of the shadow of the other tree, rather than calculating the height of the other tree.\nChoice D is incorrect and may result from a conceptual or calculation error.",
+    "rationale": "Choice B is correct. Each tree and its shadow can be modeled using a right triangle, where the height of the tree and the length of its shadow are the legs of the triangle. At a given point in time, the right triangles formed by two nearby trees and their respective shadows will be similar. Therefore, if the height of the other tree is $x$, in feet, the value of $x$ can be calculated by solving the proportional relationship $\\frac{10\\text{feet tall}}{5\\text{feet long}}=\\frac{x\\text{feet tall}}{2\\text{feet long}}$. This equation is equivalent to $\\frac{10}{5}=\\frac{x}{2}$, or $2=\\frac{x}{2}$. Multiplying each side of the equation $2=\\frac{x}{2}$ by $2$ yields $4=x$. Therefore, the other tree is $4\\text{feet}$ tall.\nChoice A is incorrect and may result from calculating the difference between the lengths of the shadows, rather than the height of the other tree.\nChoice C is incorrect and may result from calculating the difference between the height of the $10$-foot-tall tree and the length of the shadow of the other tree, rather than calculating the height of the other tree.\nChoice D is incorrect and may result from a conceptual or calculation error.",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
@@ -1547,7 +1547,7 @@
     "skill": "Area and volume",
     "difficulty": "Medium",
     "inPracticeTests": false,
-    "rationale": "Choice D is correct. The volume, $V$, of a cube can be found using the formula $V={s}^{3}$, where $s$ is the edge length of the cube. It's given that a cube has an edge length of $41$ inches. Substituting $41$ inches for $s$ in this equation yields $V={41}^{3}$ cubic inches, or $V=68,921$ cubic inches. Therefore, the volume of the cube is $68,921$ cubic inches.\nChoice A is incorrect. This is the perimeter, in inches, of the cube.\nChoice B is incorrect. This is the area, in square inches, of a face of the cube.\nChoice C is incorrect. This is the surface area, in square inches, of the cube.",
+    "rationale": "Choice D is correct. The volume, $V$, of a cube can be found using the formula $V={s}^{3}$, where $s$ is the edge length of the cube. It's given that a cube has an edge length of $41$ inches. Substituting $41$ inches for $s$ in this equation yields $V={41}^{3}$ cubic inches, or $V=68,921$ cubic inches. Therefore, the volume of the cube is $68,921$ cubic inches.\nChoice A is incorrect. This is the perimeter, in inches, of one square face of the cube.\nChoice B is incorrect. This is the area, in square inches, of a face of the cube.\nChoice C is incorrect. This is the surface area, in square inches, of the cube.",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
@@ -1909,7 +1909,7 @@
     "id": "1429dcdf",
     "testName": "SAT Question Bank",
     "text": "In the triangle shown, what is the value of $\\sin x^\\circ$?",
-    "correctAnswer": ".6956",
+    "correctAnswer": "16/23,.6956,.6957,0.695,0.696",
     "type": "free-response"
   },
   {
@@ -1955,7 +1955,7 @@
     "skill": "Circles",
     "difficulty": "Hard",
     "inPracticeTests": true,
-    "rationale": "The correct answer is $5$. The standard form of an equation of a circle in the <em>xy</em>-plane is ${\\left(x-h\\right)}^{2}+{\\left(y-k\\right)}^{2}={r}^{2}$, where $h$, $k$, and $r$ are constants, the coordinates of the center of the circle are $\\left(h,k\\right)$, and the length of the radius of the circle is $r$. It′s given that an equation of the circle is ${\\left(x-2\\right)}^{2}+{\\left(y-9\\right)}^{2}={r}^{2}$. Therefore, the center of this circle is $\\left(2,9\\right)$. It's given that the endpoints of a diameter of the circle are $\\left(2,4\\right)$ and $\\left(2,14\\right)$. The length of the radius is the distance from the center of the circle to an endpoint of a diameter of the circle, which can be found using the distance formula, $\\sqrt{{\\left({x}_{1}-{x}_{2}\\right)}^{2}+{\\left({y}_{1}-{y}_{2}\\right)}^{2}}$. Substituting the center of the circle $\\left(2,9\\right)$ and one endpoint of the diameter $\\left(2,4\\right)$ in this formula gives a distance of $\\sqrt{{\\left(2-2\\right)}^{2}+{\\left(9-4\\right)}^{2}}$, or $\\sqrt{{0}^{2}+{5}^{2}}$, which is equivalent to $5$. Since the distance from the center of the circle to an endpoint of a diameter is $5$, the value of $r$ is $5$.",
+    "rationale": "The correct answer is $5$. The standard form of an equation of a circle in the <em>xy</em>-plane is ${\\left(x-h\\right)}^{2}+{\\left(y-k\\right)}^{2}={r}^{2}$, where $h$, $k$, and $r$ are constants, the coordinates of the center of the circle are $\\left(h,k\\right)$, and the length of the radius of the circle is $r$. It's given that an equation of the circle is ${\\left(x-2\\right)}^{2}+{\\left(y-9\\right)}^{2}={r}^{2}$. Therefore, the center of this circle is $\\left(2,9\\right)$. It's given that the endpoints of a diameter of the circle are $\\left(2,4\\right)$ and $\\left(2,14\\right)$. The length of the radius is the distance from the center of the circle to an endpoint of a diameter of the circle, which can be found using the distance formula, $\\sqrt{{\\left({x}_{1}-{x}_{2}\\right)}^{2}+{\\left({y}_{1}-{y}_{2}\\right)}^{2}}$. Substituting the center of the circle $\\left(2,9\\right)$ and one endpoint of the diameter $\\left(2,4\\right)$ in this formula gives a distance of $\\sqrt{{\\left(2-2\\right)}^{2}+{\\left(9-4\\right)}^{2}}$, or $\\sqrt{{0}^{2}+{5}^{2}}$, which is equivalent to $5$. Since the distance from the center of the circle to an endpoint of a diameter is $5$, the value of $r$ is $5$.",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
@@ -2160,7 +2160,7 @@
     "skill": "Right triangles and trigonometry",
     "difficulty": "Easy",
     "inPracticeTests": true,
-    "rationale": "Choice C is correct. The tangent of an acute angle in a right triangle is defined as the ratio of the length of the side opposite the angle to the length of the shorter side adjacent to the angle. In the triangle shown, the length of the side opposite the angle with measure $x^\\circ$ is $26$ units and the length of the side adjacent to the angle with measure $x^\\circ$ is $7$ units. Therefore, the value of $\\tanx^\\circ$ is $\\frac{26}{7}$.\nChoice A is incorrect and may result from conceptual or calculation errors.\nChoice B is incorrect and may result from conceptual or calculation errors.\nChoice D is incorrect and may result from conceptual or calculation errors.",
+    "rationale": "Choice C is correct. The tangent of an acute angle in a right triangle is defined as the ratio of the length of the side opposite the angle to the length of the side adjacent to the angle. In the triangle shown, the length of the side opposite the angle with measure $x^\\circ$ is $26$ units and the length of the side adjacent to the angle with measure $x^\\circ$ is $7$ units. Therefore, the value of $\\tanx^\\circ$ is $\\frac{26}{7}$.\nChoice A is incorrect and may result from conceptual or calculation errors.\nChoice B is incorrect and may result from conceptual or calculation errors.\nChoice D is incorrect and may result from conceptual or calculation errors.",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
@@ -2212,7 +2212,7 @@
     "choices": [
       {
         "id": "A",
-        "text": "$\\left(26·57\\right)^\\circ$"
+        "text": "$\\left(26\\cdot57\\right)^\\circ$"
       },
       {
         "id": "B",
@@ -2268,14 +2268,14 @@
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and volume",
+    "skill": "Circles",
     "difficulty": "Hard",
     "inPracticeTests": false,
     "rationale": "The correct answer is $8$. It's given that the three points shown define a circle, so the center of that circle is an equal distance from each of the three points. The point $(6,6)$ is halfway between the points $(6,2)$ and $(6,10)$, and is a distance of $4$ units from each of those two points. The point $(6,6)$ is also a distance of $4$ units from $(2,6)$. Because the point $(6,6)$ is the same distance from all three points shown, it must be the center of the circle. Since that distance is $4$, it follows that the radius of the circle is $4$. The circumference of a circle with radius $r$ is equal to $2πr$. It follows that the circumference of the given circle is $2π(4)$, or $8π$. It's given that the circumference of the circle is $kπ$. Therefore, the value of $k$ is $8$.",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and volume",
+      "skill": "Circles",
       "confidence": "high"
     },
     "id": "b2528e6b",
@@ -2418,14 +2418,14 @@
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and volume",
+    "skill": "Lines, angles, and triangles",
     "difficulty": "Easy",
     "inPracticeTests": true,
     "rationale": "Choice B is correct. The perimeter of a triangle is the sum of the lengths of all three sides of the triangle. It's given that the lengths of side $AB$ and side $AC$ are $4$ inches and $7$ inches, respectively. Let $x$ represent the length, in inches, of side $BC$. The sum of the lengths, in inches, of all three sides of triangle $ABC$ can be represented by the expression $4+7+x$. Since it's given that the perimeter of triangle $ABC$ is $17$ inches, it follows that $17=4+7+x$, or $17=11+x$. Subtracting $11$ from both sides of this equation yields $6=x$. Therefore, the length, in inches, of side $BC$ is $6$.\nChoice A is incorrect. This is the length, in inches, of side $AB$.\nChoice C is incorrect. This is the length, in inches, of side $AC$.\nChoice D is incorrect. This is the sum of the lengths, in inches, of sides $AB$ and $AC$.",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and volume",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     },
     "id": "0d43db90",
@@ -2458,7 +2458,7 @@
     "skill": "Right triangles and trigonometry",
     "difficulty": "Hard",
     "inPracticeTests": true,
-    "rationale": "Choice D is correct. The figure shows that triangle $QRS$ is a right triangle. Each of the given choices is an expression containing $\\sinQ$ or $\\cosQ$. For an acute angle in a right triangle, the sine of the angle is the length of the opposite leg divided by the length of the hypotenuse, and the cosine of the angle is the length of the adjacent leg divided by the length of the hypotenuse. It follows that $\\sinQ=\\frac{RS}{QS}$ and $\\cosQ=\\frac{QR}{QS}$, where $QR\\lt RS$. It's given in the figure that the length of side $RS$ is $18$. Since only the equation $\\sinQ=\\frac{RS}{QS}$ contains $RS$, an expression representing $QS$ can be found by substituting $18$ for $RS$ in this equation, which yields $\\sinQ=\\frac{18}{QS}$. Multiplying both sides of this equation by $QS$ yields $QS·\\sinQ=18$. Dividing both sides of this equation by $\\sinQ$ yields $QS=\\frac{18}{\\sinQ}$. Therefore, the expression $\\frac{18}{\\sinQ}$ represents the length of $QS$.\nChoice A is incorrect and may result from conceptual or calculation errors.\nChoice B is incorrect and may result from conceptual or calculation errors.\nChoice C is incorrect and may result from conceptual or calculation errors.",
+    "rationale": "Choice D is correct. The figure shows that triangle $QRS$ is a right triangle. Each of the given choices is an expression containing $\\sinQ$ or $\\cosQ$. For an acute angle in a right triangle, the sine of the angle is the length of the opposite leg divided by the length of the hypotenuse, and the cosine of the angle is the length of the adjacent leg divided by the length of the hypotenuse. It follows that $\\sinQ=\\frac{RS}{QS}$ and $\\cosQ=\\frac{QR}{QS}$, where $QR\\lt RS$. It's given in the figure that the length of side $RS$ is $18$. Since only the equation $\\sinQ=\\frac{RS}{QS}$ contains $RS$, an expression representing $QS$ can be found by substituting $18$ for $RS$ in this equation, which yields $\\sinQ=\\frac{18}{QS}$. Multiplying both sides of this equation by $QS$ yields $QS\\cdot\\sinQ=18$. Dividing both sides of this equation by $\\sinQ$ yields $QS=\\frac{18}{\\sinQ}$. Therefore, the expression $\\frac{18}{\\sinQ}$ represents the length of $QS$.\nChoice A is incorrect and may result from conceptual or calculation errors.\nChoice B is incorrect and may result from conceptual or calculation errors.\nChoice C is incorrect and may result from conceptual or calculation errors.",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
@@ -2492,14 +2492,14 @@
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and volume",
+    "skill": "Lines, angles, and triangles",
     "difficulty": "Medium",
     "inPracticeTests": true,
     "rationale": "Choice D is correct. It's given that triangle$XYZ$ is similar to triangle $TUV$. Therefore, each side of triangle $XYZ$ is $k$ times its corresponding side of triangle $TUV$, where $k$ is a constant. It follows that the perimeter of triangle $XYZ$ is $k$ times the perimeter of triangle $TUV$. It's also given that $\\overline{TU}$ corresponds to $\\overline{XY}$ and the length of $\\overline{TU}$ is $18$. Let $x$ represent the length of $\\overline{XY}$. It follows that $x=18k$. The table shows that the perimeters of triangles $TUV$ and $XYZ$ are $37$ and $333$, respectively. It follows that $333=37k$, or $9=k$. Substituting $9$ for $k$ in the equation $x=18k$ yields $x=\\left(18\\right)\\left(9\\right)$, or $x=162$. Therefore, the length of $\\overline{XY}$ is $162$.\nChoice A is incorrect and may result from conceptual or calculation errors.\nChoice B is incorrect. This is the length of $\\overline{TU}$, not the length of $\\overline{XY}$.\nChoice C is incorrect and may result from conceptual or calculation errors.",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and volume",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     },
     "id": "e0874bc2",
@@ -2597,7 +2597,7 @@
       },
       {
         "id": "D",
-        "text": "$\\sqrt{34·37}$"
+        "text": "$\\sqrt{34\\cdot37}$"
       }
     ]
   },
@@ -2607,7 +2607,7 @@
     "skill": "Area and volume",
     "difficulty": "Easy",
     "inPracticeTests": false,
-    "rationale": "Choice D is correct. The area of a rectangle is given by $lw$, where $l$ is the length of the rectangle and $w$ is the width of the rectangle. It's given that a rectangle has a length of $3$ units and a width of $39$ units. It follows that the area of the rectangle is $3·39$ square units. Therefore, the expression that gives the area, in square units, of this rectangle, is $3·39$.\nChoice A is incorrect. This expression gives the perimeter, in units, of this rectangle.\nChoice B is incorrect and may result from conceptual errors.\nChoice C is incorrect and may result from conceptual errors.",
+    "rationale": "Choice D is correct. The area of a rectangle is given by $lw$, where $l$ is the length of the rectangle and $w$ is the width of the rectangle. It's given that a rectangle has a length of $3$ units and a width of $39$ units. It follows that the area of the rectangle is $3\\cdot39$ square units. Therefore, the expression that gives the area, in square units, of this rectangle, is $3\\cdot39$.\nChoice A is incorrect. This expression gives the perimeter, in units, of this rectangle.\nChoice B is incorrect and may result from conceptual errors.\nChoice C is incorrect and may result from conceptual errors.",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
@@ -2626,7 +2626,7 @@
       },
       {
         "id": "B",
-        "text": "$2\\left(3·39\\right)$"
+        "text": "$2\\left(3\\cdot39\\right)$"
       },
       {
         "id": "C",
@@ -2634,7 +2634,7 @@
       },
       {
         "id": "D",
-        "text": "$3·39$"
+        "text": "$3\\cdot39$"
       }
     ]
   },
@@ -2644,7 +2644,7 @@
     "skill": "Lines, angles, and triangles",
     "difficulty": "Hard",
     "inPracticeTests": true,
-    "rationale": "Choice C is correct. It's given that triangle $XYZ$ is similar to triangle $RST$, such that $X$, $Y$, and $Z$ correspond to $R$, $S$, and $T$, respectively. Since corresponding angles of similar triangles are congruent, it follows that the measure of $∠Z$ is congruent to the measure of $∠T$. It's given that the measure of $∠Z$ is $20^\\circ$. Therefore, the measure of $∠T$ is $20^\\circ$.\nChoice A is incorrect and may result from a conceptual error.\nChoice B is incorrect. This is half the measure of $∠Z$.\nChoice D is incorrect. This is twice the measure of $∠Z$.",
+    "rationale": "Choice C is correct. It's given that triangle $XYZ$ is similar to triangle $RST$, such that $X$, $Y$, and $Z$ correspond to $R$, $S$, and $T$, respectively. Since corresponding angles of similar triangles are congruent, it follows that the measure of $\\angle Z$ is congruent to the measure of $\\angle T$. It's given that the measure of $\\angle Z$ is $20^\\circ$. Therefore, the measure of $\\angle T$ is $20^\\circ$.\nChoice A is incorrect and may result from a conceptual error.\nChoice B is incorrect. This is half the measure of $\\angle Z$.\nChoice D is incorrect. This is twice the measure of $\\angle Z$.",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
@@ -2681,7 +2681,7 @@
     "skill": "Circles",
     "difficulty": "Hard",
     "inPracticeTests": true,
-    "rationale": "The correct answer is $100$. It's given that point $O$ is the center of a circle and the measure of arc $RS$ on the circle is $100^\\circ$. It follows that points $R$ and $S$ lie on the circle. Therefore, $\\overline{OR}$ and $\\overline{OS}$ are radii of the circle. A central angle is an angle formed by two radii of a circle, with its vertex at the center of the circle. Therefore, $∠ROS$ is a central angle. Because the degree measure of an arc is equal to the measure of its associated central angle, it follows that the measure, in degrees, of $∠ROS$ is $100$.",
+    "rationale": "The correct answer is $100$. It's given that point $O$ is the center of a circle and the measure of arc $RS$ on the circle is $100^\\circ$. It follows that points $R$ and $S$ lie on the circle. Therefore, $\\overline{OR}$ and $\\overline{OS}$ are radii of the circle. A central angle is an angle formed by two radii of a circle, with its vertex at the center of the circle. Therefore, $\\angle ROS$ is a central angle. Because the degree measure of an arc is equal to the measure of its associated central angle, it follows that the measure, in degrees, of $\\angle ROS$ is $100$.",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
@@ -2697,14 +2697,14 @@
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and volume",
+    "skill": "Lines, angles, and triangles",
     "difficulty": "Easy",
     "inPracticeTests": false,
     "rationale": "Choice C is correct. It's given that triangle $TUV$ is similar to triangle $XYZ$, and $\\overline{TU}$ corresponds to $\\overline{XY}$. If two triangles are similar, then the ratio of their perimeters is equal to the ratio of their corresponding sides. It's given that the perimeter of triangle $TUV$ is $50$, the perimeter of triangle $XYZ$ is $150$, and the length of $\\overline{TU}$ is $6$. Let $n$ represent the length of $\\overline{XY}$. It follows that $\\frac{50}{150}=\\frac{6}{n}$, or $\\frac{1}{3}=\\frac{6}{n}$. Multiplying each side of this equation by $n$ yields $\\frac{n}{3}=6$. Multiplying each side of this equation by $3$ yields $n=18$. Therefore, the length of $\\overline{XY}$ is $18$.\nChoice A is incorrect. This is the solution to $\\frac{3}{1}=\\frac{6}{n}$, not $\\frac{1}{3}=\\frac{6}{n}$.\nChoice B is incorrect. This is the length of $\\overline{TU}$, not $\\overline{XY}$.\nChoice D is incorrect. This is the sum of the length of $\\overline{TU}$ and the perimeter of triangle $TUV$, not the length of $\\overline{XY}$.",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and volume",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     },
     "id": "fc5ef8d3",
@@ -2904,7 +2904,7 @@
     "skill": "Lines, angles, and triangles",
     "difficulty": "Easy",
     "inPracticeTests": true,
-    "rationale": "Choice C is correct. The triangle angle sum theorem states that the sum of the measures of the interior angles of a triangle is $180^\\circ$. It's given that in $△XYZ$, the measure of $∠X$ is $23^\\circ$ and the measure of $∠Y$ is $66^\\circ$. It follows that the measure of $∠Z$ is $\\left(180-23-66\\right)^\\circ$, or $91^\\circ$.\nChoice A is incorrect and may result from conceptual or calculation errors.\nChoice B is incorrect. This is the sum of the measures of $∠X$ and $∠Y$, not the measure of $∠Z$.\nChoice D is incorrect and may result from conceptual or calculation errors.",
+    "rationale": "Choice C is correct. The triangle angle sum theorem states that the sum of the measures of the interior angles of a triangle is $180^\\circ$. It's given that in $\\triangle XYZ$, the measure of $\\angle X$ is $23^\\circ$ and the measure of $\\angle Y$ is $66^\\circ$. It follows that the measure of $\\angle Z$ is $\\left(180-23-66\\right)^\\circ$, or $91^\\circ$.\nChoice A is incorrect and may result from conceptual or calculation errors.\nChoice B is incorrect. This is the sum of the measures of $\\angle X$ and $\\angle Y$, not the measure of $\\angle Z$.\nChoice D is incorrect and may result from conceptual or calculation errors.",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
@@ -2997,7 +2997,7 @@
     "skill": "Lines, angles, and triangles",
     "difficulty": "Easy",
     "inPracticeTests": true,
-    "rationale": "Choice A is correct. The sum of the measures of the angles of a triangle is $180^\\circ$. Therefore, the sum of the measures of $∠R$, $∠S$, and $∠T$ is $180^\\circ$. It's given that the measure of $∠R$ is $63^\\circ$. It follows that the sum of the measures of $∠S$ and $∠T$ is $\\left(180-63\\right)^\\circ$, or $117^\\circ$. Therefore, the measure of $∠S$, in degrees, must be less than $117$. Of the given choices, only $116$ is less than $117$. Thus, the measure, in degrees, of $∠S$ could be $116$.\nChoice B is incorrect. If the measure of $∠S$ is $118^\\circ$, then the sum of the measures of the angles of the triangle is greater than, not equal to, $180^\\circ$.\nChoice C is incorrect. If the measure of $∠S$ is $126^\\circ$, then the sum of the measures of the angles of the triangle is greater than, not equal to, $180^\\circ$.\nChoice D is incorrect. This is the sum of the measures of the angles of a triangle, in degrees.",
+    "rationale": "Choice A is correct. The sum of the measures of the angles of a triangle is $180^\\circ$. Therefore, the sum of the measures of $\\angle R$, $\\angle S$, and $\\angle T$ is $180^\\circ$. It's given that the measure of $\\angle R$ is $63^\\circ$. It follows that the sum of the measures of $\\angle S$ and $\\angle T$ is $\\left(180-63\\right)^\\circ$, or $117^\\circ$. Therefore, the measure of $\\angle S$, in degrees, must be less than $117$. Of the given choices, only $116$ is less than $117$. Thus, the measure, in degrees, of $\\angle S$ could be $116$.\nChoice B is incorrect. If the measure of $\\angle S$ is $118^\\circ$, then the sum of the measures of the angles of the triangle is greater than, not equal to, $180^\\circ$.\nChoice C is incorrect. If the measure of $\\angle S$ is $126^\\circ$, then the sum of the measures of the angles of the triangle is greater than, not equal to, $180^\\circ$.\nChoice D is incorrect. This is the sum of the measures of the angles of a triangle, in degrees.",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
@@ -3256,7 +3256,7 @@
     "skill": "Circles",
     "difficulty": "Hard",
     "inPracticeTests": false,
-    "rationale": "Choice B is correct. The standard equation of a circle in the <em>xy</em>-plane is of the form $(x - h)^2 + (y - k)^2 = r^2$, where the ordered pair h comma k are the coordinates of the center of the circle and <em>r</em> is the radius. The given equation can be rewritten in standard form by completing the squares. So the sum of the first two terms, $x^2 + 20x$, needs a 100 to complete the square, and the sum of the second two terms, $y^2 + 16y$, needs a 64 to complete the square. Adding 100 and 64 to both sides of the given equation yields $(x^2 + 20x + 100) + (y^2 + 16y + 64) = - 20 + 100 + 64$, which is equivalent to $(x + 10)^2 + (y + 8)^2 = 144$. Therefore, the coordinates of the center of the circle are $- 10, - 8$.\nChoices A, C, and D are incorrect and may result from computational errors made when attempting to complete the squares or when identifying the coordinates of the center.",
+    "rationale": "Choice B is correct. The standard equation of a circle in the <em>xy</em>-plane is of the form $(x - h)^2 + (y - k)^2 = r^2$, where the ordered pair $(h,k)$ gives the coordinates of the center of the circle and <em>r</em> is the radius. The given equation can be rewritten in standard form by completing the squares. So the sum of the first two terms, $x^2 + 20x$, needs a 100 to complete the square, and the sum of the second two terms, $y^2 + 16y$, needs a 64 to complete the square. Adding 100 and 64 to both sides of the given equation yields $(x^2 + 20x + 100) + (y^2 + 16y + 64) = - 20 + 100 + 64$, which is equivalent to $(x + 10)^2 + (y + 8)^2 = 144$. Therefore, the coordinates of the center of the circle are $(-10,-8)$.\nChoices A, C, and D are incorrect and may result from computational errors made when attempting to complete the squares or when identifying the coordinates of the center.",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
@@ -3330,7 +3330,7 @@
     "skill": "Lines, angles, and triangles",
     "difficulty": "Medium",
     "inPracticeTests": true,
-    "rationale": "Choice B is correct. It's given that quadrilateral ${P}^{'}{Q}^{'}{R}^{'}{S}^{'}$ is similar to quadrilateral $PQRS$, where $P$, $Q$, $R$, and $S$ correspond to ${P}^{'}$, ${Q}^{'}$, ${R}^{'}$, and ${S}^{'}$, respectively. Since corresponding angles of similar quadrilaterals are congruent, it follows that the measure of angle $P$ is equal to the measure of angle ${P}^{'}$. It's given that the measure of angle $P$ is $30^\\circ$. Therefore, the measure of angle ${P}^{'}$ is $30^\\circ$.\nChoice A is incorrect. This is $\\frac{1}{3}$ the measure of angle ${P}^{'}$.\nChoice C is incorrect and may result from conceptual or calculation errors.\nChoice D is incorrect. This is $3$ times the measure of angle ${P}^{'}$.",
+    "rationale": "Choice B is correct. It's given that quadrilateral $P'Q'R'S'$ is similar to quadrilateral $PQRS$, where $P$, $Q$, $R$, and $S$ correspond to $P'$, $Q'$, $R'$, and $S'$, respectively. Since corresponding angles of similar quadrilaterals are congruent, it follows that the measure of angle $P$ is equal to the measure of angle $P'$. It's given that the measure of angle $P$ is $30^\\circ$. Therefore, the measure of angle $P'$ is $30^\\circ$.\nChoice A is incorrect. This is $\\frac{1}{3}$ the measure of angle $P'$.\nChoice C is incorrect and may result from conceptual or calculation errors.\nChoice D is incorrect. This is $3$ times the measure of angle $P'$.",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
@@ -3339,7 +3339,7 @@
     },
     "id": "c7bed21d",
     "testName": "SAT Question Bank",
-    "text": "Quadrilateral ${P}^{'}{Q}^{'}{R}^{'}{S}^{'}$ is similar to quadrilateral $PQRS$, where $P$, $Q$, $R$, and $S$ correspond to ${P}^{'}$, ${Q}^{'}$, ${R}^{'}$, and ${S}^{'}$, respectively. The measure of angle $P$ is $30^\\circ$, the measure of angle $Q$ is $50^\\circ$, and the measure of angle $R$ is $70^\\circ$. The length of each side of ${P}^{'}{Q}^{'}{R}^{'}{S}^{'}$ is $3$ times the length of each corresponding side of $PQRS$. What is the measure of angle ${P}^{'}$?",
+    "text": "Quadrilateral $P'Q'R'S'$ is similar to quadrilateral $PQRS$, where $P$, $Q$, $R$, and $S$ correspond to $P'$, $Q'$, $R'$, and $S'$, respectively. The measure of angle $P$ is $30^\\circ$, the measure of angle $Q$ is $50^\\circ$, and the measure of angle $R$ is $70^\\circ$. The length of each side of $P'Q'R'S'$ is $3$ times the length of each corresponding side of $PQRS$. What is the measure of angle $P'$?",
     "correctAnswer": "B",
     "type": "multiple-choice",
     "choices": [
@@ -3512,14 +3512,14 @@
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Circles",
+    "skill": "Right triangles and trigonometry",
     "difficulty": "Easy",
     "inPracticeTests": false,
     "rationale": "Choice C is correct. The cosine of an angle is equal to the cosine of $n(2π)$ radians more than the angle, where $n$ is an integer constant. Since $\\frac{565π}{6}$ is equivalent to ${47}(2π)+\\frac{π}{6}$, $\\cos(\\frac{565π}{6})$ can be rewritten as $\\cos(47(2π)+\\frac{π}{6})$, which is equal to $\\cos(\\frac{π}{6})$. Therefore, the value of $\\cos(\\frac{565π}{6})$ is equal to the value of $\\cos(\\frac{π}{6})$, which is $\\frac{\\sqrt{3}}{2}$.\nAlternate approach: A trigonometric ratio can be found using the unit circle, that is, a circle with radius $1$ unit. The cosine of a number $t$ is the <em>x</em>-coordinate of the point resulting from traveling a distance of $t$ counterclockwise from the point $(1,0)$ around a unit circle centered at the origin in the <em>xy</em>-plane. A unit circle has a circumference of $2π$. It follows that since $\\frac{565π}{6}$ is equal to ${47}(2π)+\\frac{π}{6}$, traveling a distance of $\\frac{565π}{6}$ counterclockwise around a unit circle means traveling around the circle completely $47$ times and then another $\\frac{π}{6}$ beyond that. That is, traveling $\\frac{565π}{6}$ results in the same point as traveling $\\frac{π}{6}$. Traveling $\\frac{π}{6}$ counterclockwise from the point $(1,0)$ around a unit circle centered at the origin in the <em>xy</em>-plane results in the point $(\\frac{\\sqrt{3}}{2},\\frac{1}{2})$. Thus, the value of $\\cos\\frac{565π}{6}$ is the <em>x</em>-coordinate of the point $(\\frac{\\sqrt{3}}{2},\\frac{1}{2})$, which is $\\frac{\\sqrt{3}}{2}$.\nChoice A is incorrect. This is the value of $\\sin\\frac{565π}{6}$, not $\\cos\\frac{565π}{6}$.\nChoice B is incorrect. This is the value of the cosine of a multiple of $2π$, not $\\frac{565π}{6}$.\nChoice D is incorrect. This is the value of $\\frac{1}{\\tan\\frac{565π}{6}}$, not $\\cos\\frac{565π}{6}$.",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Circles",
+      "skill": "Right triangles and trigonometry",
       "confidence": "high"
     },
     "id": "f2495de4",
@@ -3663,7 +3663,7 @@
     "skill": "Right triangles and trigonometry",
     "difficulty": "Hard",
     "inPracticeTests": true,
-    "rationale": "Choice C is correct. Since the triangle is an isosceles right triangle, the two sides that form the right angle must be the same length. Let $x$ be the length, in inches, of each of those sides. The Pythagorean theorem states that in a right triangle, ${a}^{2}+{b}^{2}={c}^{2}$, where $c$ is the length of the hypotenuse and $a$ and $b$ are the lengths of the other two sides. Substituting $x$ for $a$, $x$ for $b$, and $58$ for $c$ in this equation yields ${x}^{2}+{x}^{2}={58}^{2}$, or $2{x}^{2}={58}^{2}$. Dividing each side of this equation by $2$ yields ${x}^{2}=\\frac{{58}^{2}}{2}$, or ${x}^{2}=\\frac{2·{58}^{2}}{4}$. Taking the square root of each side of this equation yields two solutions: $x=\\frac{58\\sqrt{2}}{2}$ and $x=-\\frac{58\\sqrt{2}}{2}$. The value of $x$ must be positive because it represents a side length. Therefore, $x=\\frac{58\\sqrt{2}}{2}$, or $x=29\\sqrt{2}$. The perimeter, in inches, of the triangle is $58+x+x$, or $58+2x$. Substituting $29\\sqrt{2}$ for $x$ in this expression gives a perimeter, in inches, of $58+2\\left(29\\sqrt{2}\\right)$, or $58+58\\sqrt{2}$.\nChoice A is incorrect. This is the length, in inches, of each of the congruent sides of the triangle, not the perimeter, in inches, of the triangle.\nChoice B is incorrect. This is the sum of the lengths, in inches, of the congruent sides of the triangle, not the perimeter, in inches, of the triangle.\nChoice D is incorrect and may result from conceptual or calculation errors.",
+    "rationale": "Choice C is correct. Since the triangle is an isosceles right triangle, the two sides that form the right angle must be the same length. Let $x$ be the length, in inches, of each of those sides. The Pythagorean theorem states that in a right triangle, ${a}^{2}+{b}^{2}={c}^{2}$, where $c$ is the length of the hypotenuse and $a$ and $b$ are the lengths of the other two sides. Substituting $x$ for $a$, $x$ for $b$, and $58$ for $c$ in this equation yields ${x}^{2}+{x}^{2}={58}^{2}$, or $2{x}^{2}={58}^{2}$. Dividing each side of this equation by $2$ yields ${x}^{2}=\\frac{{58}^{2}}{2}$, or ${x}^{2}=\\frac{2\\cdot{58}^{2}}{4}$. Taking the square root of each side of this equation yields two solutions: $x=\\frac{58\\sqrt{2}}{2}$ and $x=-\\frac{58\\sqrt{2}}{2}$. The value of $x$ must be positive because it represents a side length. Therefore, $x=\\frac{58\\sqrt{2}}{2}$, or $x=29\\sqrt{2}$. The perimeter, in inches, of the triangle is $58+x+x$, or $58+2x$. Substituting $29\\sqrt{2}$ for $x$ in this expression gives a perimeter, in inches, of $58+2\\left(29\\sqrt{2}\\right)$, or $58+58\\sqrt{2}$.\nChoice A is incorrect. This is the length, in inches, of each of the congruent sides of the triangle, not the perimeter, in inches, of the triangle.\nChoice B is incorrect. This is the sum of the lengths, in inches, of the congruent sides of the triangle, not the perimeter, in inches, of the triangle.\nChoice D is incorrect and may result from conceptual or calculation errors.",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
@@ -3700,7 +3700,7 @@
     "skill": "Circles",
     "difficulty": "Hard",
     "inPracticeTests": true,
-    "rationale": "The correct answer is $46$. It's given that $O$ is the center of a circle and that points $R$ and $S$ lie on the circle. Therefore, $\\overline{OR}$ and $\\overline{OS}$ are radii of the circle. It follows that $OR=OS$. If two sides of a triangle are congruent, then the angles opposite them are congruent. It follows that the angles $∠RSO$ and $∠ORS$, which are across from the sides of equal length, are congruent. Let $x^\\circ$ represent the measure of $∠RSO$. It follows that the measure of $∠ORS$ is also $x^\\circ$. It's given that the measure of $∠ROS$ is $88^\\circ$. Because the sum of the measures of the interior angles of a triangle is $180^\\circ$, the equation $x^\\circ+x^\\circ+88^\\circ=180^\\circ$, or $2x+88=180$, can be used to find the measure of $∠RSO$. Subtracting $88$ from both sides of this equation yields $2x=92$. Dividing both sides of this equation by $2$ yields $x=46$. Therefore, the measure of $∠RSO$, in degrees, is $46$.",
+    "rationale": "The correct answer is $46$. It's given that $O$ is the center of a circle and that points $R$ and $S$ lie on the circle. Therefore, $\\overline{OR}$ and $\\overline{OS}$ are radii of the circle. It follows that $OR=OS$. If two sides of a triangle are congruent, then the angles opposite them are congruent. It follows that the angles $\\angle RSO$ and $\\angle ORS$, which are across from the sides of equal length, are congruent. Let $x^\\circ$ represent the measure of $\\angle RSO$. It follows that the measure of $\\angle ORS$ is also $x^\\circ$. It's given that the measure of $\\angle ROS$ is $88^\\circ$. Because the sum of the measures of the interior angles of a triangle is $180^\\circ$, the equation $x^\\circ+x^\\circ+88^\\circ=180^\\circ$, or $2x+88=180$, can be used to find the measure of $\\angle RSO$. Subtracting $88$ from both sides of this equation yields $2x=92$. Dividing both sides of this equation by $2$ yields $x=46$. Therefore, the measure of $\\angle RSO$, in degrees, is $46$.",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
@@ -3756,7 +3756,7 @@
     "skill": "Lines, angles, and triangles",
     "difficulty": "Easy",
     "inPracticeTests": true,
-    "rationale": "Choice D is correct. The sum of the angle measures of a triangle is $180^\\circ$. It's given that the measure of angle $Q$ is $132^\\circ$, the measure of angle $P$ is $24^\\circ$, and the measure of angle $R$ is $x^\\circ$. It follows that $x+132+24=180$, or $x+152=180$. Subtracting $152$ from both sides of this equation yields $x=24$.\nAlternate approach: It's given that in the triangle shown, $PQ=QR$. Thus, triangle $PQR$ is an isosceles triangle. Since base angles of an isosceles triangle are congruent, the measure of angle $P$ is equal to the measure of angle $R$. Therefore, the measure of angle $R$ is $24^\\circ$, and the value of $x$ is $24$.\nChoice A is incorrect. This is the sum of the measures, in degrees, of angles $Q$ and $P$, not the measure, in degrees, of angle $R$.\nChoice B is incorrect and may result from conceptual or calculation errors.\nChoice C is incorrect. This is the sum of the measures, in degrees, of angles $P$ and $R$, not the measure, in degrees, of angle $R$.",
+    "rationale": "Choice D is correct. The sum of the angle measures of a triangle is $180^\\circ$. It's given that the measure of angle $Q$ is $132^\\circ$, the measure of angle $P$ is $24^\\circ$, and the measure of angle $R$ is $x^\\circ$. It follows that $x+132+24=180$, or $x+156=180$. Subtracting $156$ from both sides of this equation yields $x=24$.\nAlternate approach: It's given that in the triangle shown, $PQ=QR$. Thus, triangle $PQR$ is an isosceles triangle. Since base angles of an isosceles triangle are congruent, the measure of angle $P$ is equal to the measure of angle $R$. Therefore, the measure of angle $R$ is $24^\\circ$, and the value of $x$ is $24$.\nChoice A is incorrect. This is the sum of the measures, in degrees, of angles $Q$ and $P$, not the measure, in degrees, of angle $R$.\nChoice B is incorrect and may result from conceptual or calculation errors.\nChoice C is incorrect. This is the sum of the measures, in degrees, of angles $P$ and $R$, not the measure, in degrees, of angle $R$.",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
@@ -3868,7 +3868,7 @@
     "skill": "Lines, angles, and triangles",
     "difficulty": "Medium",
     "inPracticeTests": false,
-    "rationale": "Choice B is correct. In the figure shown, since $\\overline{QS}$ is a line segment, the sum of the measures of $∠PRS$ and $∠PRQ$ is $180^\\circ$. It's given that the measure of $∠PRS$ is $163^\\circ$. Thus, the measure of $∠PRQ$ is $(180-163)^\\circ$, or $17^\\circ$. The sum of the measures of the interior angles of a triangle is $180^\\circ$. It's given that the measure of $∠PQR$ is $132^\\circ$. Therefore, the measure of $∠QPR$ is $(180-17-132)^\\circ$, or $31^\\circ$.\nChoice A is incorrect. This is the measure of the supplement of $∠PQR$, not the measure of $∠QPR$.\nChoice C is incorrect and may result from conceptual or calculation errors.\nChoice D is incorrect. This is the measure of $∠PRQ$, not the measure of $∠QPR$.",
+    "rationale": "Choice B is correct. In the figure shown, since $\\overline{QS}$ is a line segment, the sum of the measures of $\\angle PRS$ and $\\angle PRQ$ is $180^\\circ$. It's given that the measure of $\\angle PRS$ is $163^\\circ$. Thus, the measure of $\\angle PRQ$ is $(180-163)^\\circ$, or $17^\\circ$. The sum of the measures of the interior angles of a triangle is $180^\\circ$. It's given that the measure of $\\angle PQR$ is $132^\\circ$. Therefore, the measure of $\\angle QPR$ is $(180-17-132)^\\circ$, or $31^\\circ$.\nChoice A is incorrect. This is the measure of the supplement of $\\angle PQR$, not the measure of $\\angle QPR$.\nChoice C is incorrect and may result from conceptual or calculation errors.\nChoice D is incorrect. This is the measure of $\\angle PRQ$, not the measure of $\\angle QPR$.",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
@@ -3942,7 +3942,7 @@
     "skill": "Lines, angles, and triangles",
     "difficulty": "Hard",
     "inPracticeTests": false,
-    "rationale": "Choice D is correct. Corresponding angles in similar figures have equal measure. It's given that quadrilaterals $PQRS$ and $WXYZ$ are similar and that $P$, $Q$, and $R$ correspond to $W$, $X$, and $Y$. It follows that $∠S$ corresponds to $∠Z$. It's also given that the measure of $∠S$ is $135^\\circ$. Therefore, the measure of $∠Z$ is $135^\\circ$.\nChoice A is incorrect and may result from conceptual errors.\nChoice B is incorrect and may result from conceptual errors.\nChoice C is incorrect. This is the supplement of the measure of $∠Z$, not the measure of $∠Z$.",
+    "rationale": "Choice D is correct. Corresponding angles in similar figures have equal measure. It's given that quadrilaterals $PQRS$ and $WXYZ$ are similar and that $P$, $Q$, and $R$ correspond to $W$, $X$, and $Y$. It follows that $\\angle S$ corresponds to $\\angle Z$. It's also given that the measure of $\\angle S$ is $135^\\circ$. Therefore, the measure of $\\angle Z$ is $135^\\circ$.\nChoice A is incorrect and may result from conceptual errors.\nChoice B is incorrect and may result from conceptual errors.\nChoice C is incorrect. This is the supplement of the measure of $\\angle Z$, not the measure of $\\angle Z$.",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
@@ -4181,14 +4181,14 @@
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Circles",
+    "skill": "Lines, angles, and triangles",
     "difficulty": "Medium",
     "inPracticeTests": false,
-    "rationale": "The correct answer is $81$. The measure of an angle, in degrees, can be found by multiplying its measure, in radians, by $\\frac{180\\text{degrees}}{π\\text{radians}}$. Multiplying the given angle measure, $\\frac{9π}{20}$ radians, by $\\frac{180\\text{degrees}}{π\\text{radians}}$ yields $\\left(\\frac{9π}{20}\\text{radians}\\right)\\left(\\frac{180\\text{degrees}}{π\\text{radians}}\\right)$, which is equivalent to $81$ degrees.",
+    "rationale": "The correct answer is $81$. The measure of an angle, in degrees, can be found by multiplying its measure, in radians, by $\\frac{180\\text{degrees}}{\\pi\\text{radians}}$. Multiplying the given angle measure, $\\frac{9\\pi}{20}$ radians, by $\\frac{180\\text{degrees}}{\\pi\\text{radians}}$ yields $\\left(\\frac{9\\pi}{20}\\text{radians}\\right)\\left(\\frac{180\\text{degrees}}{\\pi\\text{radians}}\\right)$, which is equivalent to $81$ degrees.",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Circles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     },
     "id": "74d8b897",
@@ -4315,7 +4315,7 @@
     "skill": "Right triangles and trigonometry",
     "difficulty": "Hard",
     "inPracticeTests": true,
-    "rationale": "The correct answer is $113$. It's given that the legs of a right triangle have lengths $24$ centimeters and $21$ centimeters. In a right triangle, the square of the length of the hypotenuse is equal to the sum of the squares of the lengths of the two legs. It follows that if $h$ represents the length, in centimeters, of the hypotenuse of the right triangle, ${h}^{2}={24}^{2}+{21}^{2}$. This equation is equivalent to ${h}^{2}=1,017$. Taking the square root of each side of this equation yields $h=\\sqrt{1,017}$. This equation can be rewritten as $h=\\sqrt{9·113}$, or $h=\\sqrt{9}·\\sqrt{113}$. This equation is equivalent to $h=3\\sqrt{113}$. It's given that the length of the triangle's hypotenuse, in centimeters, can be written in the form $3\\sqrt{d}$. It follows that the value of $d$ is $113$.",
+    "rationale": "The correct answer is $113$. It's given that the legs of a right triangle have lengths $24$ centimeters and $21$ centimeters. In a right triangle, the square of the length of the hypotenuse is equal to the sum of the squares of the lengths of the two legs. It follows that if $h$ represents the length, in centimeters, of the hypotenuse of the right triangle, ${h}^{2}={24}^{2}+{21}^{2}$. This equation is equivalent to ${h}^{2}=1,017$. Taking the square root of each side of this equation yields $h=\\sqrt{1,017}$. This equation can be rewritten as $h=\\sqrt{9\\cdot113}$, or $h=\\sqrt{9}\\cdot\\sqrt{113}$. This equation is equivalent to $h=3\\sqrt{113}$. It's given that the length of the triangle's hypotenuse, in centimeters, can be written in the form $3\\sqrt{d}$. It follows that the value of $d$ is $113$.",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
@@ -4665,14 +4665,14 @@
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Circles",
+    "skill": "Lines, angles, and triangles",
     "difficulty": "Medium",
     "inPracticeTests": false,
-    "rationale": "Choice B is correct. The measure of an angle, in radians, can be found by multiplying its measure, in degrees, by $\\frac{π}{180}$. It's given that the measure of angle $Z$ is $60^\\circ$. It follows that the measure, in radians, of angle $Z$ is $60\\left(\\frac{π}{180}\\right)$, or $\\frac{1}{3}π$.\nChoice A is incorrect. This is the measure, in radians, of an angle whose measure is $30^\\circ$, not $60^\\circ$.\nChoice C is incorrect. This is the measure, in radians, of an angle whose measure is $120^\\circ$, not $60^\\circ$.\nChoice D is incorrect. This is the measure, in radians, of an angle whose measure is $180^\\circ$, not $60^\\circ$.",
+    "rationale": "Choice B is correct. The measure of an angle, in radians, can be found by multiplying its measure, in degrees, by $\\frac{\\pi}{180}$. It's given that the measure of angle $Z$ is $60^\\circ$. It follows that the measure, in radians, of angle $Z$ is $60\\left(\\frac{\\pi}{180}\\right)$, or $\\frac{1}{3}\\pi$.\nChoice A is incorrect. This is the measure, in radians, of an angle whose measure is $30^\\circ$, not $60^\\circ$.\nChoice C is incorrect. This is the measure, in radians, of an angle whose measure is $120^\\circ$, not $60^\\circ$.\nChoice D is incorrect. This is the measure, in radians, of an angle whose measure is $180^\\circ$, not $60^\\circ$.",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Circles",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     },
     "id": "2d521ca9",
@@ -4795,14 +4795,14 @@
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Circles",
+    "skill": "Right triangles and trigonometry",
     "difficulty": "Hard",
     "inPracticeTests": true,
-    "rationale": "Choice A is correct. A trigonometric ratio can be found using the unit circle, that is, a circle with radius $1$ unit. If a central angle of a unit circle in the <em>xy</em>-plane centered at the origin has its starting side on the positive <em>x</em>-axis and its terminal side intersects the circle at a point $\\left(x,y\\right)$, then the value of the tangent of the central angle is equal to the <em>y</em>-coordinate divided by the <em>x</em>-coordinate. There are $2π$ radians in a circle. Dividing $\\frac{92π}{3}$ by $2π$ yields $\\frac{92}{6}$, which is equivalent to $15+\\frac{2}{3}$. It follows that on the unit circle centered at the origin in the <em>xy</em>-plane, the angle $\\frac{92π}{3}$ is the result of $15$ revolutions from its starting side on the positive <em>x</em>-axis followed by a rotation through $\\frac{2π}{3}$ radians. Therefore, the angles $\\frac{92π}{3}$ and $\\frac{2π}{3}$ are coterminal angles and $\\tan\\left(\\frac{92π}{3}\\right)$ is equal to $\\tan\\left(\\frac{2π}{3}\\right)$. Since $\\frac{2π}{3}$ is greater than $\\frac{π}{2}$ and less than $π$, it follows that the terminal side of the angle is in quadrant II and forms an angle of $\\frac{π}{3}$, or $60^\\circ$, with the negative <em>x</em>-axis. Therefore, the terminal side of the angle intersects the unit circle at the point $\\left(-\\frac{1}{2},\\frac{\\sqrt{3}}{2}\\right)$. It follows that the value of $\\tan\\left(\\frac{2π}{3}\\right)$ is $\\frac{\\frac{\\sqrt{3}}{2}}{-\\frac{1}{2}}$, which is equivalent to $-\\sqrt{3}$. Therefore, the value of $\\tan\\left(\\frac{92π}{3}\\right)$ is $-\\sqrt{3}$.\nChoice B is incorrect. This is the value of $\\frac{1}{\\tan\\left(\\frac{92π}{3}\\right)}$, not $\\tan\\left(\\frac{92π}{3}\\right)$.\nChoice C is incorrect. This is the value of $\\frac{1}{\\tan\\left(\\frac{π}{3}\\right)}$, not $\\tan\\left(\\frac{92π}{3}\\right)$.\nChoice D is incorrect. This is the value of $\\tan\\left(\\frac{π}{3}\\right)$, not $\\tan\\left(\\frac{92π}{3}\\right)$.",
+    "rationale": "Choice A is correct. A trigonometric ratio can be found using the unit circle, that is, a circle with radius $1$ unit. If a central angle of a unit circle in the <em>xy</em>-plane centered at the origin has its starting side on the positive <em>x</em>-axis and its terminal side intersects the circle at a point $\\left(x,y\\right)$, then the value of the tangent of the central angle is equal to the <em>y</em>-coordinate divided by the <em>x</em>-coordinate. There are $2\\pi$ radians in a circle. Dividing $\\frac{92\\pi}{3}$ by $2\\pi$ yields $\\frac{92}{6}$, which is equivalent to $15+\\frac{2}{3}$. It follows that on the unit circle centered at the origin in the <em>xy</em>-plane, the angle $\\frac{92\\pi}{3}$ is the result of $15$ revolutions from its starting side on the positive <em>x</em>-axis followed by a rotation through $\\frac{2\\pi}{3}$ radians. Therefore, the angles $\\frac{92\\pi}{3}$ and $\\frac{2\\pi}{3}$ are coterminal angles and $\\tan\\left(\\frac{92\\pi}{3}\\right)$ is equal to $\\tan\\left(\\frac{2\\pi}{3}\\right)$. Since $\\frac{2\\pi}{3}$ is greater than $\\frac{\\pi}{2}$ and less than $\\pi$, it follows that the terminal side of the angle is in quadrant II and forms an angle of $\\frac{\\pi}{3}$, or $60^\\circ$, with the negative <em>x</em>-axis. Therefore, the terminal side of the angle intersects the unit circle at the point $\\left(-\\frac{1}{2},\\frac{\\sqrt{3}}{2}\\right)$. It follows that the value of $\\tan\\left(\\frac{2\\pi}{3}\\right)$ is $\\frac{\\frac{\\sqrt{3}}{2}}{-\\frac{1}{2}}$, which is equivalent to $-\\sqrt{3}$. Therefore, the value of $\\tan\\left(\\frac{92\\pi}{3}\\right)$ is $-\\sqrt{3}$.\nChoice B is incorrect. This is the value of $\\frac{1}{\\tan\\left(\\frac{92\\pi}{3}\\right)}$, not $\\tan\\left(\\frac{92\\pi}{3}\\right)$.\nChoice C is incorrect. This is the value of $\\frac{1}{\\tan\\left(\\frac{\\pi}{3}\\right)}$, not $\\tan\\left(\\frac{92\\pi}{3}\\right)$.\nChoice D is incorrect. This is the value of $\\tan\\left(\\frac{\\pi}{3}\\right)$, not $\\tan\\left(\\frac{92\\pi}{3}\\right)$.",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Circles",
+      "skill": "Right triangles and trigonometry",
       "confidence": "high"
     },
     "id": "244ff6c4",
@@ -5037,14 +5037,14 @@
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Area and volume",
+    "skill": "Lines, angles, and triangles",
     "difficulty": "Easy",
     "inPracticeTests": true,
     "rationale": "Choice A is correct. The perimeter of a triangle is the sum of the lengths of its three sides. The triangle shown has side lengths $x$, $y$, and $z$. It's given that the triangle has a perimeter of $22$ units. Therefore, $x+y+z=22$. If $x=9$ units and $y=7$ units, the value of $z$, in units, can be found by substituting $9$ for $x$ and $7$ for $y$ in the equation $x+y+z=22$, which yields $9+7+z=22$, or $16+z=22$. Subtracting $16$ from both sides of this equation yields $z=6$. Therefore, if $x=9$ units and $y=7$ units, the value of $z$, in units, is $6$.\nChoice B is incorrect. This is the value of $y$, in units, not the value of $z$, in units.\nChoice C is incorrect. This is the value of $x$, in units, not the value of $z$, in units.\nChoice D is incorrect. This is the value of $x+y$, in units, not the value of $z$, in units.",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Area and volume",
+      "skill": "Lines, angles, and triangles",
       "confidence": "high"
     },
     "id": "29e9b28c",
@@ -5105,7 +5105,7 @@
     },
     "id": "ca2235f6",
     "testName": "SAT Question Bank",
-    "text": "A circle has center $O$, and points $A$ and $B$ lie on the circle. The measure of arc $AB$ is ${45}^{∘}$ and the length of arc $AB$ is $3$ inches. What is the circumference, in inches, of the circle?",
+    "text": "A circle has center $O$, and points $A$ and $B$ lie on the circle. The measure of arc $AB$ is $45^\\circ$ and the length of arc $AB$ is $3$ inches. What is the circumference, in inches, of the circle?",
     "correctAnswer": "D",
     "type": "multiple-choice",
     "choices": [
@@ -5374,7 +5374,7 @@
     "skill": "Area and volume",
     "difficulty": "Medium",
     "inPracticeTests": false,
-    "rationale": "Choice D is correct. The area of a square is given by ${s}^{2}$, where $s$ is the length of each side of the square. It's given that the length of each side of a square is $94\\text{cm}$. It follows that the area, in ${\\text{cm}}^{2}$, of the square is ${\\left(94\\right)}^{2}$, or $94·94$. Therefore, the expression that gives the area, in ${\\text{cm}}^{2}$, of the square is $94·94$.\nChoice A is incorrect and may result from conceptual errors.\nChoice B is incorrect and may result from conceptual errors.\nChoice C is incorrect. This expression gives the perimeter, in $\\text{cm}$, of the square.",
+    "rationale": "Choice D is correct. The area of a square is given by ${s}^{2}$, where $s$ is the length of each side of the square. It's given that the length of each side of a square is $94\\text{cm}$. It follows that the area, in ${\\text{cm}}^{2}$, of the square is ${\\left(94\\right)}^{2}$, or $94\\cdot 94$. Therefore, the expression that gives the area, in ${\\text{cm}}^{2}$, of the square is $94\\cdot 94$.\nChoice A is incorrect and may result from conceptual errors.\nChoice B is incorrect and may result from conceptual errors.\nChoice C is incorrect. This expression gives the perimeter, in $\\text{cm}$, of the square.",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
@@ -5389,19 +5389,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "$2·94$"
+        "text": "$2\\cdot 94$"
       },
       {
         "id": "B",
-        "text": "$2·94·94$"
+        "text": "$2\\cdot 94\\cdot 94$"
       },
       {
         "id": "C",
-        "text": "$4·94$"
+        "text": "$4\\cdot 94$"
       },
       {
         "id": "D",
-        "text": "$94·94$"
+        "text": "$94\\cdot 94$"
       }
     ]
   },
@@ -5634,7 +5634,7 @@
     "skill": "Area and volume",
     "difficulty": "Hard",
     "inPracticeTests": true,
-    "rationale": "Choice B is correct. Let $x$ represent the side length, in $\\text{cm}$, of each square base. If the two prisms are glued together along a square base, the resulting prism has a surface area equal to twice the surface area of one of the prisms, minus the area of the two square bases that are being glued together, which yields $2K-2{x}^{2}{\\text{cm}}^{2}$. It's given that this resulting surface area is equal to $\\frac{92}{47}K{\\text{cm}}^{2}$, so $2K-2{x}^{2}=\\frac{92}{47}K$. Subtracting $\\frac{92}{47}K$ from both sides of this equation yields $2K-\\frac{92}{47}K-2{x}^{2}=0$. This equation can be rewritten by multiplying $2K$ on the left-hand side by $\\frac{47}{47}$, which yields $\\frac{94}{47}K-\\frac{92}{47}K-2{x}^{2}=0$, or $\\frac{2}{47}K-2{x}^{2}=0$. Adding $2{x}^{2}$ to both sides of this equation yields $\\frac{2}{47}K=2{x}^{2}$. Multiplying both sides of this equation by $\\frac{47}{2}$ yields $K=47{x}^{2}$. The surface area $K$, in ${\\text{cm}}^{2}$, of each rectangular prism is equivalent to the sum of the areas of the two square bases and the areas of the four lateral faces. Since the height of each rectangular prism is $90\\text{cm}$ and the side length of each square base is $x\\text{cm}$, it follows that the area of each square base is ${x}^{2}{\\text{cm}}^{2}$ and the area of each lateral face is $90x{\\text{cm}}^{2}$. Therefore, the surface area of each rectangular prism can be represented by the expression $2{x}^{2}+4\\left(90x\\right)$, or $2{x}^{2}+360x$. Substituting this expression for $K$ in the equation $K=47{x}^{2}$ yields $2{x}^{2}+360x=47{x}^{2}$. Subtracting $2{x}^{2}$ and $360x$ from both sides of this equation yields $0=45{x}^{2}-360x$. Factoring $x$ from the right-hand side of this equation yields $0=x\\left(45x-360\\right)$. Applying the zero product property, it follows that $x=0$ and $45x-360=0$. Adding $360$ to both sides of the equation $45x-360=0$ yields $45x=360$. Dividing both sides of this equation by $45$ yields $x=8$. Since a side length of a rectangular prism can't be $0$, the length of each square base is $8$ $\\text{cm}$.\nChoice A is incorrect and may result from conceptual or calculation errors.\nChoice C is incorrect and may result from conceptual or calculation errors.\nChoice D is incorrect and may result from conceptual or calculation errors.",
+    "rationale": "Choice B is correct. Let $x$ represent the side length, in $\\text{cm}$, of each square base. If the two prisms are glued together along a square base, the resulting prism has a surface area equal to twice the surface area of one of the prisms, minus the area of the two square bases that are being glued together, which yields $2K-2{x}^{2}{\\text{cm}}^{2}$. It's given that this resulting surface area is equal to $\\frac{92}{47}K\\,\\text{cm}^{2}$, so $2K-2{x}^{2}=\\frac{92}{47}K$. Subtracting $\\frac{92}{47}K$ from both sides of this equation yields $2K-\\frac{92}{47}K-2{x}^{2}=0$. This equation can be rewritten by multiplying $2K$ on the left-hand side by $\\frac{47}{47}$, which yields $\\frac{94}{47}K-\\frac{92}{47}K-2{x}^{2}=0$, or $\\frac{2}{47}K-2{x}^{2}=0$. Adding $2{x}^{2}$ to both sides of this equation yields $\\frac{2}{47}K=2{x}^{2}$. Multiplying both sides of this equation by $\\frac{47}{2}$ yields $K=47{x}^{2}$. The surface area $K$, in ${\\text{cm}}^{2}$, of each rectangular prism is equivalent to the sum of the areas of the two square bases and the areas of the four lateral faces. Since the height of each rectangular prism is $90\\text{cm}$ and the side length of each square base is $x\\text{cm}$, it follows that the area of each square base is ${x}^{2}{\\text{cm}}^{2}$ and the area of each lateral face is $90x{\\text{cm}}^{2}$. Therefore, the surface area of each rectangular prism can be represented by the expression $2{x}^{2}+4\\left(90x\\right)$, or $2{x}^{2}+360x$. Substituting this expression for $K$ in the equation $K=47{x}^{2}$ yields $2{x}^{2}+360x=47{x}^{2}$. Subtracting $2{x}^{2}$ and $360x$ from both sides of this equation yields $0=45{x}^{2}-360x$. Factoring $x$ from the right-hand side of this equation yields $0=x\\left(45x-360\\right)$. Applying the zero product property, it follows that $x=0$ and $45x-360=0$. Adding $360$ to both sides of the equation $45x-360=0$ yields $45x=360$. Dividing both sides of this equation by $45$ yields $x=8$. Since a side length of a rectangular prism can't be $0$, the length of each square base is $8$ $\\text{cm}$.\nChoice A is incorrect and may result from conceptual or calculation errors.\nChoice C is incorrect and may result from conceptual or calculation errors.\nChoice D is incorrect and may result from conceptual or calculation errors.",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
@@ -5643,7 +5643,7 @@
     },
     "id": "f243c383",
     "testName": "SAT Question Bank",
-    "text": "Two identical rectangular prisms each have a height of $90\\,\\text{centimeters }\\left(\\text{cm}\\right)$. The base of each prism is a square, and the surface area of each prism is $K{\\text{cm}}^{2}$. If the prisms are glued together along a square base, the resulting prism has a surface area of $\\frac{92}{47}K{\\text{cm}}^{2}$. What is the side length, in $\\text{cm}$, of each square base?",
+    "text": "Two identical rectangular prisms each have a height of $90\\,\\text{centimeters }\\left(\\text{cm}\\right)$. The base of each prism is a square, and the surface area of each prism is $K\\,\\text{cm}^{2}$. If the prisms are glued together along a square base, the resulting prism has a surface area of $\\frac{92}{47}K\\,\\text{cm}^{2}$. What is the side length, in $\\text{cm}$, of each square base?",
     "correctAnswer": "B",
     "type": "multiple-choice",
     "choices": [
@@ -6053,7 +6053,7 @@
     "id": "c6dff223",
     "testName": "SAT Question Bank",
     "text": "Triangle $ABC$ is similar to triangle $DEF$, where angle $A$ corresponds to angle $D$ and angles $C$ and $F$ are right angles. The length of $\\overline{AB}$ is $2.9$ times the length of $\\overline{DE}$. If $\\tan A=\\frac{21}{20}$, what is the value of $\\sin D$?",
-    "correctAnswer": ".7241",
+    "correctAnswer": "21/29,.7241,0.724,.724",
     "type": "free-response"
   },
   {
@@ -6394,14 +6394,14 @@
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Right triangles and trigonometry",
+    "skill": "Area and volume",
     "difficulty": "Hard",
     "inPracticeTests": false,
     "rationale": "Choice C is correct. It's given that the logo is in the shape of a trapezoid that consists of three congruent equilateral triangles, and that the perimeter of the trapezoid is 20 centimeters (cm). Since the perimeter of the trapezoid is the sum of the lengths of 5 of the sides of the triangles, the length of each side of an equilateral triangle is $\\frac{20}{5} = 4$ centimeters. Dividing up one equilateral triangle into two right triangles yields a pair of congruent 30°-60°-90° triangles. The shorter leg of each right triangle is half the length of the side of an equilateral triangle, or 2 cm. Using the Pythagorean Theorem, $a^2 + b^2 = c^2$, the height of the equilateral triangle can be found. Substituting $a = 2$ and $c = 4$ and solving for <em>b</em> yields $\\sqrt{4^2 - 2^2} = \\sqrt{12} = 2\\sqrt{3}$ centimeters. The area of one equilateral triangle is $\\frac{1}{2} b h$, where $b = 4$ and $h = 2\\sqrt{3}$. Therefore, the area of one equilateral triangle is $\\frac{1}{2} \\cdot 4 \\cdot 2\\sqrt{3} = 4\\sqrt{3}$ square centimeters. The shaded area consists of two such triangles, so its area is $2 \\cdot 4\\sqrt{3} = 8\\sqrt{3}$ square centimeters.\nAlternate approach: The area of a trapezoid can be found by evaluating the expression $\\frac{1}{2}(b_1 + b_2) \\cdot h$, where $b_1$ is the length of one base, $b_2$ is the length of the other base, and <em>h</em> is the height of the trapezoid. Substituting $b_1 = 8$, $b_2 = 4$, and $h = 2\\sqrt{3}$ yields the expression $\\frac{1}{2}(8 + 4) \\cdot 2\\sqrt{3} = \\frac{1}{2} \\cdot 12 \\cdot 2\\sqrt{3}$, which gives an area of $12\\sqrt{3}$ square centimeters for the trapezoid. Since two-thirds of the trapezoid is shaded, the area of the shaded region is $\\frac{2}{3} \\cdot 12\\sqrt{3} = 8\\sqrt{3}$.\nChoice A is incorrect. This is the height of the trapezoid. Choice B is incorrect. This is the area of one of the equilateral triangles, not two. Choice D is incorrect and may result from using a height of 4 for each triangle rather than the height of $2\\sqrt{3}$.",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Right triangles and trigonometry",
+      "skill": "Area and volume",
       "confidence": "high"
     },
     "id": "4c95c7d4",
@@ -6472,7 +6472,7 @@
     "skill": "Right triangles and trigonometry",
     "difficulty": "Hard",
     "inPracticeTests": false,
-    "rationale": "The correct answer is $\\frac{52}{53}$. In a right triangle, the square of the length of the hypotenuse is equal to the sum of the squares of the lengths of the two legs. The length of the hypotenuse of the right triangle shown is $53$. It's given that $RS=\\sqrt{105}$. Therefore, the length of one of the legs of the triangle shown is $\\sqrt{105}$. Let $x$ represent $TS$, the length of the other leg of the triangle shown. Therefore, ${53}^{2}={(\\sqrt{105})}^{2}+{x}^{2}$, or $2,809=105+{x}^{2}$. Subtracting $105$ from both sides of this equation yields $2,704={x}^{2}$. Taking the positive square root of both sides of this equation yields $52=x$. Therefore, $TS$, the length of the other leg of the triangle shown, is $52$. The sine of an acute angle in a right triangle is defined as the ratio of the length of the leg opposite the angle to the length of the hypotenuse. The length of the leg opposite angle $R$ is $52$, and the length of the hypotenuse is $53$. Therefore, the value of $\\sinR$ is $\\frac{52}{53}$. Note that 52/53 or.9811 are examples of ways to enter a correct answer.",
+    "rationale": "The correct answer is $\\frac{52}{53}$. In a right triangle, the square of the length of the hypotenuse is equal to the sum of the squares of the lengths of the two legs. The length of the hypotenuse of the right triangle shown is $53$. It's given that $RS=\\sqrt{105}$. Therefore, the length of one of the legs of the triangle shown is $\\sqrt{105}$. Let $x$ represent $TS$, the length of the other leg of the triangle shown. Therefore, ${53}^{2}={(\\sqrt{105})}^{2}+{x}^{2}$, or $2,809=105+{x}^{2}$. Subtracting $105$ from both sides of this equation yields $2,704={x}^{2}$. Taking the positive square root of both sides of this equation yields $52=x$. Therefore, $TS$, the length of the other leg of the triangle shown, is $52$. The sine of an acute angle in a right triangle is defined as the ratio of the length of the leg opposite the angle to the length of the hypotenuse. The length of the leg opposite angle $R$ is $52$, and the length of the hypotenuse is $53$. Therefore, the value of $\\sin R$ is $\\frac{52}{53}$. Note that 52/53 or .9811 are examples of ways to enter a correct answer.",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
@@ -6482,7 +6482,7 @@
     "id": "a67b9f88",
     "testName": "SAT Question Bank",
     "text": "In the triangle shown, $RS=\\sqrt{105}$. What is the value of $\\sin R$?",
-    "correctAnswer": ".9811",
+    "correctAnswer": "52/53,.9811,0.9811",
     "type": "free-response"
   },
   {
@@ -6548,7 +6548,7 @@
     "skill": "Right triangles and trigonometry",
     "difficulty": "Hard",
     "inPracticeTests": false,
-    "rationale": "The correct answer is $\\frac{7}{50}$. It's given that triangle $ABC$ is similar to triangle $DEF$, where angle $A$ corresponds to angle $D$ and angle $C$ corresponds to angle $F$. In similar triangles, the tangents of corresponding angles are equal. Since angle $A$ and angle $D$ are corresponding angles, if $\\tan\\left(A\\right)=\\frac{50}{7}$, then $\\tan\\left(D\\right)=\\frac{50}{7}$. It's also given that angles $C$ and $F$ are right angles. It follows that triangle $DEF$ is a right triangle with acute angles $D$ and $E$. The tangent of one acute angle in a right triangle is the inverse of the tangent of the other acute angle in the triangle. Therefore, $\\tan\\left(E\\right)=\\frac{1}{\\tan\\left(D\\right)}$. Substituting $\\frac{50}{7}$ for $\\tan\\left(D\\right)$ in this equation yields $\\tan\\left(E\\right)=\\frac{1}{\\frac{50}{7}}$, or $\\tan\\left(E\\right)=\\frac{7}{50}$. Thus, if $\\tan\\left(A\\right)=\\frac{50}{7}$, the value of $\\tan\\left(E\\right)$ is $\\frac{7}{50}$. Note that 7/50 and.14 are examples of ways to enter a correct answer.",
+    "rationale": "The correct answer is $\\frac{7}{50}$. It's given that triangle $ABC$ is similar to triangle $DEF$, where angle $A$ corresponds to angle $D$ and angle $C$ corresponds to angle $F$. In similar triangles, the tangents of corresponding angles are equal. Since angle $A$ and angle $D$ are corresponding angles, if $\\tan\\left(A\\right)=\\frac{50}{7}$, then $\\tan\\left(D\\right)=\\frac{50}{7}$. It's also given that angles $C$ and $F$ are right angles. It follows that triangle $DEF$ is a right triangle with acute angles $D$ and $E$. The tangent of one acute angle in a right triangle is the inverse of the tangent of the other acute angle in the triangle. Therefore, $\\tan\\left(E\\right)=\\frac{1}{\\tan\\left(D\\right)}$. Substituting $\\frac{50}{7}$ for $\\tan\\left(D\\right)$ in this equation yields $\\tan\\left(E\\right)=\\frac{1}{\\frac{50}{7}}$, or $\\tan\\left(E\\right)=\\frac{7}{50}$. Thus, if $\\tan\\left(A\\right)=\\frac{50}{7}$, the value of $\\tan\\left(E\\right)$ is $\\frac{7}{50}$. Note that 7/50 and .14 are examples of ways to enter a correct answer.",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
@@ -6558,7 +6558,7 @@
     "id": "2be01bd9",
     "testName": "SAT Question Bank",
     "text": "Triangle $ABC$ is similar to triangle $DEF$, where angle $A$ corresponds to angle $D$ and angle $C$ corresponds to angle $F$. Angles $C$ and $F$ are right angles. If $\\tan\\left(A\\right)=\\frac{50}{7}$, what is the value of $\\tan\\left(E\\right)$?",
-    "correctAnswer": ".14",
+    "correctAnswer": "7/50",
     "type": "free-response"
   },
   {
@@ -6771,7 +6771,7 @@
     "skill": "Area and volume",
     "difficulty": "Medium",
     "inPracticeTests": true,
-    "rationale": "Choice A is correct. The volume, $V$, of a right circular cylinder is given by the formula $V=π{r}^{2}h$, where $π{r}^{2}$ is the area of the base of the cylinder and $h$ is the height. It's given that a right circular cylinder has a volume of $432$ cubic centimeters and the area of the base is $24$ square centimeters. Substituting $432$ for $V$ and $24$ for $π{r}^{2}$ in the formula $V=π{r}^{2}h$ yields $432=24h$. Dividing both sides of this equation by $24$ yields $18=h$. Therefore, the height of the cylinder, in centimeters, is $18$.\nChoice B is incorrect. This is the area of the base, in square centimeters, not the height, in centimeters, of the cylinder.\nChoice C is incorrect. This is the height, in centimeters, of a cylinder if its volume is $432$ cubic centimeters and the area of its base is $2$, not $24$, cubic centimeters.\nChoice D is incorrect. This is the height, in centimeters, of a cylinder if its volume is $432$ cubic centimeters and the area of its base is $\\frac{1}{24}$, not $24$, cubic centimeters.",
+    "rationale": "Choice A is correct. The volume, $V$, of a right circular cylinder is given by the formula $V=π{r}^{2}h$, where $π{r}^{2}$ is the area of the base of the cylinder and $h$ is the height. It's given that a right circular cylinder has a volume of $432$ cubic centimeters and the area of the base is $24$ square centimeters. Substituting $432$ for $V$ and $24$ for $π{r}^{2}$ in the formula $V=π{r}^{2}h$ yields $432=24h$. Dividing both sides of this equation by $24$ yields $18=h$. Therefore, the height of the cylinder, in centimeters, is $18$.\nChoice B is incorrect. This is the area of the base, in square centimeters, not the height, in centimeters, of the cylinder.\nChoice C is incorrect. This is the height, in centimeters, of a cylinder if its volume is $432$ cubic centimeters and the area of its base is $2$, not $24$, square centimeters.\nChoice D is incorrect. This is the height, in centimeters, of a cylinder if its volume is $432$ cubic centimeters and the area of its base is $\\frac{1}{24}$, not $24$, square centimeters.",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
@@ -6882,7 +6882,7 @@
     "skill": "Right triangles and trigonometry",
     "difficulty": "Hard",
     "inPracticeTests": true,
-    "rationale": "The correct answer is $\\frac{11}{28}$. The cosine of an acute angle in a right triangle is defined as the ratio of the length of the leg adjacent to the angle to the length of the hypotenuse. In the triangle shown, the length of the leg adjacent to the angle with measure $x^\\circ$ is $11$ units and the length of the hypotenuse is $28$ units. Therefore, the value of $\\cosx^\\circ$ is $\\frac{11}{28}$. Note that 11/28,.3928,.3929, 0.392, and 0.393 are examples of ways to enter a correct answer.",
+    "rationale": "The correct answer is $\\frac{11}{28}$. The cosine of an acute angle in a right triangle is defined as the ratio of the length of the leg adjacent to the angle to the length of the hypotenuse. In the triangle shown, the length of the leg adjacent to the angle with measure $x^\\circ$ is $11$ units and the length of the hypotenuse is $28$ units. Therefore, the value of $\\cos x^\\circ$ is $\\frac{11}{28}$. Note that 11/28, .3928, .3929, 0.392, and 0.393 are examples of ways to enter a correct answer.",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
@@ -6892,7 +6892,7 @@
     "id": "1bf809b5",
     "testName": "SAT Question Bank",
     "text": "In the triangle shown, what is the value of $\\cos x^\\circ$?",
-    "correctAnswer": ".3928",
+    "correctAnswer": "11/28,.3928,.3929,0.392,0.393",
     "type": "free-response"
   },
   {
@@ -7245,7 +7245,7 @@
     "id": "459dd6c5",
     "testName": "SAT Question Bank",
     "text": "Triangles $\\text{A}\\text{B}\\text{C}$ and $\\text{D}\\text{E}\\text{F}$ are similar. Each side length of triangle $\\text{A}\\text{B}\\text{C}$ is $4$ times the corresponding side length of triangle $\\text{D}\\text{E}\\text{F}$. The area of triangle $\\text{A}\\text{B}\\text{C}$ is $270$ square inches. What is the area, in square inches, of triangle $\\text{D}\\text{E}\\text{F}$?",
-    "correctAnswer": "135/8",
+    "correctAnswer": "135/8,16.87,16.88",
     "type": "free-response"
   },
   {
@@ -7254,7 +7254,7 @@
     "skill": "Right triangles and trigonometry",
     "difficulty": "Hard",
     "inPracticeTests": true,
-    "rationale": "Choice D is correct. It's given that in triangle $XYZ$, the measure of angle $X$ is $90^\\circ$, so triangle $XYZ$ is a right triangle. It's also given that point $W$ lies on segment $YZ$, and segment $WX$ is perpendicular to segment $YZ$. It follows that triangle $WYX$ is a right triangle. Triangle $WYX$ and triangle $XYZ$ are right triangles with the same interior angle measure at point $Y$. It follows that triangle $WYX$ and triangle $XYZ$ are similar, where angles $W$, $Y$, and $X$ in triangle $WYX$ correspond to angles $X$, $Y$, and $Z$, respectively, in triangle $XYZ$. Since corresponding angles in similar triangles are congruent, their tangents have equal value. Thus, the tangent of angle $Z$ is equal to the tangent of angle $X$ in triangle $WYX$. The opposite side of angle $X$ in triangle $WYX$ is segment $WY$, and the adjacent side is segment $WX$. It's given that the length of segment $WY$ is $572$ and the length of segment $WX$ is $429$. It follows that the tangent of angle $X$ in triangle $WYX$ is $\\frac{572}{429}$, or $\\frac{4}{3}$. Therefore, the value of $\\tanZ$ is $\\frac{4}{3}$.\nChoice A is incorrect. This is the value of $\\cosZ$, not $\\tanZ$.\nChoice B is incorrect. This is the value of $\\tanY$, not $\\tanZ$.\nChoice C is incorrect. This is the value of $\\sinZ$, not $\\tanZ$.",
+    "rationale": "Choice D is correct. It's given that in triangle $XYZ$, the measure of angle $X$ is $90^\\circ$, so triangle $XYZ$ is a right triangle. It's also given that point $W$ lies on segment $YZ$, and segment $WX$ is perpendicular to segment $YZ$. It follows that triangle $WYX$ is a right triangle. Triangle $WYX$ and triangle $XYZ$ are right triangles with the same interior angle measure at point $Y$. It follows that triangle $WYX$ and triangle $XYZ$ are similar, where angles $W$, $Y$, and $X$ in triangle $WYX$ correspond to angles $X$, $Y$, and $Z$, respectively, in triangle $XYZ$. Since corresponding angles in similar triangles are congruent, their tangents have equal value. Thus, the tangent of angle $Z$ is equal to the tangent of angle $X$ in triangle $WYX$. The opposite side of angle $X$ in triangle $WYX$ is segment $WY$, and the adjacent side is segment $WX$. It's given that the length of segment $WY$ is $572$ and the length of segment $WX$ is $429$. It follows that the tangent of angle $X$ in triangle $WYX$ is $\\frac{572}{429}$, or $\\frac{4}{3}$. Therefore, the value of $\\tan Z$ is $\\frac{4}{3}$.\nChoice A is incorrect. This is the value of $\\cos Z$, not $\\tan Z$.\nChoice B is incorrect. This is the value of $\\tan Y$, not $\\tan Z$.\nChoice C is incorrect. This is the value of $\\sin Z$, not $\\tan Z$.",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
@@ -7362,14 +7362,14 @@
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Circles",
+    "skill": "Right triangles and trigonometry",
     "difficulty": "Hard",
     "inPracticeTests": true,
-    "rationale": "Choice A is correct. The sine of a number $t$ is the <em>y</em>-coordinate of the point arrived at by traveling a distance of $t$ units counterclockwise around the unit circle from the starting point $\\left(1,0\\right)$. Since the unit circle has a circumference of $2π$ units, it follows that one full rotation around the circle is equal to a distance of $2π$ units. Therefore, a distance of $42π$ units around the circle from the starting point $\\left(1,0\\right)$ would result in exactly $21$ full rotations, arriving back at the point $\\left(1,0\\right)$. So, $\\sin42π$ is equal to the <em>y</em>-coordinate of the point $\\left(1,0\\right)$, which is $0$.\nChoice B is incorrect and may result from conceptual or calculation errors.\nChoice C is incorrect and may result from conceptual or calculation errors.\nChoice D is incorrect. This is the value of $\\cos42π$, not $\\sin42π$.",
+    "rationale": "Choice A is correct. The sine of a number $t$ is the <em>y</em>-coordinate of the point arrived at by traveling a distance of $t$ units counterclockwise around the unit circle from the starting point $\\left(1,0\\right)$. Since the unit circle has a circumference of $2\\pi$ units, it follows that one full rotation around the circle is equal to a distance of $2\\pi$ units. Therefore, a distance of $42\\pi$ units around the circle from the starting point $\\left(1,0\\right)$ would result in exactly $21$ full rotations, arriving back at the point $\\left(1,0\\right)$. So, $\\sin(42\\pi)$ is equal to the <em>y</em>-coordinate of the point $\\left(1,0\\right)$, which is $0$.\nChoice B is incorrect and may result from conceptual or calculation errors.\nChoice C is incorrect and may result from conceptual or calculation errors.\nChoice D is incorrect. This is the value of $\\cos(42\\pi)$, not $\\sin(42\\pi)$.",
     "category": {
       "subject": "Math",
       "domain": "Geometry and Trigonometry",
-      "skill": "Circles",
+      "skill": "Right triangles and trigonometry",
       "confidence": "high"
     },
     "id": "1efd7ef3",
@@ -7510,19 +7510,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "$20 / 29$"
+        "text": "$\\frac{20}{29}$"
       },
       {
         "id": "B",
-        "text": "$21 / 29$"
+        "text": "$\\frac{21}{29}$"
       },
       {
         "id": "C",
-        "text": "$20 / 21$"
+        "text": "$\\frac{20}{21}$"
       },
       {
         "id": "D",
-        "text": "$21 / 20$"
+        "text": "$\\frac{21}{20}$"
       }
     ]
   },
@@ -7653,7 +7653,7 @@
     "id": "eeb4143c",
     "testName": "SAT Question Bank",
     "text": "The area of triangle $ABC$ above is at least 48 but no more than 60. If $y$ is an integer, what is one possible value of $x$?",
-    "correctAnswer": "10/3,15/4,25/6,3.333,3.33,3.3,3.75,4.166,4.167,4.17,4.2",
+    "correctAnswer": "10/3,15/4,25/6",
     "type": "free-response"
   },
   {

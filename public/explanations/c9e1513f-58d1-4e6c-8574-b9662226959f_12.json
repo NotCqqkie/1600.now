@@ -4,10 +4,6 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
-    },
-    {
       "title": "Set up the quadratic equation",
       "content": "The area of a rectangle equals width times length. With width $n$ and length $n+5$: <br/>$$n(n+5) = 204$$<br/>Expand and rearrange to standard form:<br/>$$n^2 + 5n - 204 = 0$$"
     },

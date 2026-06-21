@@ -9,11 +9,11 @@
     },
     {
       "title": "Read the circle center from the graph",
-      "content": "Use the visible symmetry instead of setting up perpendicular-bisector algebra. The points $(11,10)$ and $(11,4)$ are vertically aligned and have midpoint:<br/>$$\\left(11,\\frac{10+4}{2}\\right)=(11,7)$$<br/>The point $(8,7)$ is also on the circle, exactly $3$ units left of $(11,7)$, so the center is visibly $(11,7)$."
+      "content": "Use the visible symmetry instead of setting up perpendicular-bisector algebra. The points $(12,10)$ and $(12,4)$ are vertically aligned and have midpoint:<br/>$$\\left(12,\\frac{10+4}{2}\\right)=(12,7)$$<br/>The point $(9,7)$ is also on the circle, exactly $3$ units left of $(12,7)$, so the center is visibly $(12,7)$."
     },
     {
       "title": "Find the radius",
-      "content": "From center $(11,7)$ to $(11,10)$ is $3$ units. From center $(11,7)$ to $(11,4)$ is also $3$ units, and from center $(11,7)$ to $(8,7)$ is $3$ units. Therefore, the radius is $r=3$."
+      "content": "From center $(12,7)$ to $(12,10)$ is $3$ units. From center $(12,7)$ to $(12,4)$ is also $3$ units, and from center $(12,7)$ to $(9,7)$ is $3$ units. Therefore, the radius is $r=3$."
     },
     {
       "title": "Calculate the circumference",

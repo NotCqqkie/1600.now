@@ -146,7 +146,9 @@ const buildSourceIndex = () => {
   try {
     moduleFiles = readdirSync(moduleDir).filter((file) => /math.*\.json$/i.test(file)).sort();
   } catch (error) {
-    addFailure("parse", "src/data/modules", error.message, "src/data/modules");
+    if (error.code !== "ENOENT") {
+      addFailure("parse", "src/data/modules", error.message, "src/data/modules");
+    }
   }
 
   for (const file of moduleFiles) {

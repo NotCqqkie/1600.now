@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the grammatical structures on each side of the blank",
-      "content": "The left side forms an incomplete independent clause: “What increases is the rate at which the water turns to” (awaiting an object).<br/>The right side contains a second independent clause: “an airtight seal traps the vapor in the pot, creating pressure...” (with “a pressure cooker pot” as an introductory noun phrase)."
+      "content": "The blank must complete the first sentence: “What increases is the rate at which the water turns to ___.” The word <em>vapor</em> supplies that object. After the period, the next sentence begins with the introductory prepositional phrase “With a pressure cooker pot, though,” before the independent clause about the airtight seal."
     },
     {
       "title": "Apply the rule for joining independent clauses",
-      "content": "Two independent clauses must be joined with a period, semicolon, or comma plus a coordinating conjunction.<br/><br/>Choice A (&lsquo;vapor. With&rsquo;) uses a period, which correctly separates the two independent clauses into distinct sentences.<br/>The other options fail this rule: <ul><li>C creates a comma splice (joining with a comma but no coordinating conjunction)</li><li>D creates a run-on (no punctuation)</li><li>B creates an ungrammatical phrase</li></ul><br/>That confirms <strong>A</strong> is correct."
+      "content": "Choice A (&lsquo;vapor. With&rsquo;) correctly completes the first sentence and then starts a new sentence. The other options fail to create a clean boundary: <ul><li>C creates a comma splice</li><li>D creates a run-on</li><li>B creates an ungrammatical phrase</li></ul><br/>That confirms <strong>A</strong> is correct."
     }
   ]
 }

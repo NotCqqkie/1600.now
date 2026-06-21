@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+      "title": "Use the tangent-radius relationship",
+      "content": "A tangent line is perpendicular to the radius at the point of tangency. First find the slope from the center $(-1,1)$ to the tangent point $(5,-4)$, then use the negative reciprocal for line $t$."
     },
     {
       "title": "Find the slope of the radius to the tangent point",

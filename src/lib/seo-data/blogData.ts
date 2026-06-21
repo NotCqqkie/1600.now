@@ -1,10 +1,10 @@
-export interface BlogSection {
+interface BlogSection {
   heading: string;
   body: string[];
   list?: string[];
 }
 
-export interface BlogPost {
+interface BlogPost {
   slug: string;
   title: string;
   description: string;

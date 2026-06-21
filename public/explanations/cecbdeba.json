@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+      "title": "Use volume equals base area times height",
+      "content": "A cylinder's volume is the area of its base times its height: $V=B\\cdot h$. Here, the volume is $432$ cubic centimeters and the base area is $24$ square centimeters."
     },
     {
       "title": "Identify the cylinder volume formula",

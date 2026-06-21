@@ -6,5 +6,5 @@ const CONFIG: Config = {
 };
 
 export function sanitizeHtml(dirty: string): string {
-  return DOMPurify.sanitize(dirty, CONFIG) as unknown as string;
+  return DOMPurify.sanitize(dirty, CONFIG);
 }

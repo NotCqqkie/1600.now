@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+      "title": "Use the equal legs",
+      "content": "The figure shows a right triangle with two congruent legs, each of length $32$. A right triangle with congruent legs is isosceles, so its two acute angles are congruent."
     },
     {
-      "title": "Use the triangle angle sum property",
-      "content": "The figure shows a right triangle with one angle of $90^{\\circ}$ and one angle of $45^{\\circ}$. The three interior angles of any triangle sum to $180^{\\circ}$:<br/>$$90 + 45 + x = 180$$<br/>$$135 + x = 180$$<br/>$$x = 45$$"
-    },
-    {
-      "title": "Confirm with the isosceles right triangle property",
-      "content": "Because two angles are equal ($45^{\\circ} = 45^{\\circ}$), the triangle is isosceles. The two legs opposite the equal angles are congruent, which is consistent with a 45-45-90 right triangle.<br/><br/>Therefore $x = $ <strong>45</strong>."
+      "title": "Use the triangle angle sum",
+      "content": "The right angle measures $90^{\\circ}$, leaving $90^{\\circ}$ for the two equal acute angles. Therefore, $$2x=90,$$ so $$x=45.$$"
     }
   ]
 }

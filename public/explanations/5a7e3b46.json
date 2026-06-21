@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+      "title": "Label the sides relative to angle A",
+      "content": "Use the given trigonometric ratio to identify the side pair for angle A: opposite, adjacent, and hypotenuse. Then apply the matching right-triangle shortcut."
     },
     {
       "title": "Recognize the 3-4-5 Pythagorean triple",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Calculate AB and match the choice",
-      "content": "AB corresponds to 3 in the ratio: $$AB = 3 \\cdot 34 = 102 \\text{ mm}$$That confirms <strong>B</strong> is correct."
+      "content": "AB corresponds to 3 in the ratio: $$AB = 3 \\cdot 34 = 102 \\text{ mm}$$<br/><br/>That confirms <strong>B</strong> is correct."
     }
   ]
 }

@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the total of the other 5 resistors",
-      "content": "In a series circuit the resistances add. All 8 resistors sum to 130 ohms, and 3 of them sum to 90 ohms, so the remaining 5 resistors sum to $130 - 90 = 40$ ohms."
+      "title": "Find the total for the remaining resistors",
+      "content": "The total resistance is $130$ ohms, and three of the eight resistors have a total resistance of $90$ ohms. Therefore, the other five resistors have total resistance $130-90=40$ ohms."
     },
     {
-      "title": "Bound a single resistor c",
-      "content": "Let the 5 remaining resistances be $c, r_2, r_3, r_4, r_5$, all positive, with $c + r_2 + r_3 + r_4 + r_5 = 40$. Since each $r_i \\gt  0$, the four companions sum to $40 - c \\gt  0$, which requires $c \\lt 40$. Combined with $c \\gt  0$, the strict mathematical bound is $0 \\lt c \\lt 40$."
+      "title": "Bound one positive resistor",
+      "content": "Let one of those five resistors have resistance $c$. Since all five remaining resistances are positive and have sum $40$, $c$ must be greater than $0$ and less than $40$: $$0\\lt c\\lt 40.$$"
     },
     {
-      "title": "Check each inequality",
-      "content": "<ul><li>$40 \\lt c \\lt 50$ &mdash; impossible: $c$ alone would exceed the 40-ohm total for the group of five.</li><li>$40 \\lt c \\lt 60$ &mdash; also impossible for the same reason.</li><li>$0 \\lt c \\lt 10$ &mdash; too tight; $c$ could equal, say, 15 ohms (with four companions averaging 6.25 ohms each), so this range wrongly excludes valid values.</li><li>$0 \\lt c \\lt 20$ &mdash; fully contained within the valid range $0 \\lt c \\lt 40$ and not ruled out by the constraints; it is the only answer choice that is both possible and not obviously too narrow compared to the impossible or overly narrow intervals.</li></ul>The other listed ranges are eliminated outright: ranges above $40$ are impossible, and $0 \\lt c \\lt 10$ is too restrictive. The interval $0 \\lt c \\lt 20$ is the best available answer &mdash; <strong>B</strong> is correct."
+      "title": "Choose the exact interval",
+      "content": "The interval $0\\lt c\\lt 10$ is too narrow because $c$ could be, for example, $30$ while the other four positive resistors sum to $10$. The exact set of possible values is $0\\lt c\\lt 40$, so <strong>B</strong> is correct."
     }
   ]
 }

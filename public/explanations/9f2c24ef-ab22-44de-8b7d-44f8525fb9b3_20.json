@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+      "title": "Read circle P from standard form",
+      "content": "Use $(x-h)^2+(y-k)^2=r^2$ to read circle P's center and radius, then apply the stated shift and diameter change to circle Q."
     },
     {
       "title": "Identify center and radius of circle P",
@@ -18,6 +18,10 @@
     {
       "title": "Find radius of circle Q",
       "content": "Diameter of Q is double that of P. P has diameter $10$, so Q has diameter $20$ and radius $10$. Thus $r^2 = 100$."
+    },
+    {
+      "title": "Write the final equation",
+      "content": "Circle Q has center $(4,-9)$ and radius $10$, so its equation is $$(x-4)^2+(y+9)^2=100.$$ That matches <strong>D</strong>."
     }
   ]
 }

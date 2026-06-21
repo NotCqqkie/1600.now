@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+      "title": "Use the rectangle diagonal",
+      "content": "A rectangle's diagonal forms a right triangle with the rectangle's two side lengths as the legs. Use the Pythagorean theorem with hypotenuse $3\\sqrt{17}$ and one leg $3$."
     },
     {
       "title": "Apply the Pythagorean theorem to the rectangle",

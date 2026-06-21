@@ -1,4 +1,3 @@
-
 import { useState, useEffect, useRef } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
@@ -9,7 +8,14 @@ import { BrandLogo } from "@/components/brand/BrandLogo";
 import { useAuth } from "@/contexts/AuthContext";
 import { useToast } from "@/hooks/use-toast";
 import { describeAuthError } from "@/lib/firebase/authErrors";
-import { ArrowUpRight, BookOpenCheck, Calculator, Loader2, Target, TrendingUp } from "lucide-react";
+import {
+  ArrowUpRight,
+  BookOpenCheck,
+  Calculator,
+  Loader2,
+  Target,
+  TrendingUp,
+} from "lucide-react";
 
 const GoogleIcon = () => (
   <svg className="h-4 w-4" aria-hidden="true" viewBox="0 0 488 512" fill="currentColor">
@@ -52,7 +58,14 @@ const Signup = () => {
   const [hasSubmitted, setHasSubmitted] = useState(false);
   const [touched, setTouched] = useState({ email: false, password: false });
   const [authFieldErrors, setAuthFieldErrors] = useState<Partial<Record<"email" | "password", string>>>({});
-  const { signInWithGoogle, signUpWithEmailPassword, user, loading: authLoading, redirectError, clearRedirectError } = useAuth();
+  const {
+    signInWithGoogle,
+    signUpWithEmailPassword,
+    user,
+    loading: authLoading,
+    redirectError,
+    clearRedirectError,
+  } = useAuth();
   const navigate = useNavigate();
   const { toast } = useToast();
   const postAuthReturnToRef = useRef<string | null>(null);
@@ -138,7 +151,7 @@ const Signup = () => {
         </svg>
 
         <div className="relative flex h-full w-full flex-col px-8 py-7 xl:px-12 xl:py-9">
-          <BrandLogo variant="full" className="h-10 w-[165px]" />
+          <BrandLogo variant="full" />
 
           <div className="flex flex-1 flex-col justify-center gap-6">
             <div className="max-w-[470px]">

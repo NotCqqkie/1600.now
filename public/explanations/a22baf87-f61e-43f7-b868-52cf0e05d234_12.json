@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "explanation": "Apply the Factor Theorem: if $f(a) = 0$, then $(x - a)$ is a factor of $f(x)$. The three x-intercepts give three zeros: $x = -3$, $x = 1$, and $x = 4$."
+      "title": "Use the Factor Theorem",
+      "content": "If $f(a)=0$, then $(x-a)$ is a factor of $f(x)$. The graph passes through $(-3,0)$, $(1,0)$, and $(4,0)$, so the zeros are $-3$, $1$, and $4$."
     },
     {
-      "explanation": "Convert zeros to factors: $x = -3 \\Rightarrow (x+3)$, $x = 1 \\Rightarrow (x-1)$, $x = 4 \\Rightarrow (x-4)$."
-    },
-    {
-      "explanation": "Identify which factor appears among the answer choices. The factors are $(x+3)$, $(x-1)$, and $(x-4)$. Only $(x-1)$ matches a listed choice."
-    },
-    {
-      "explanation": "Evaluate all choices:<ul><li><strong>Choice A &mdash; $x + 1$</strong>: This factor would correspond to zero $x=-1$, which is not one of the x-intercepts. &#10007;</li><li><strong>Choice B &mdash; $x + 4$</strong>: This factor would correspond to zero $x=-4$, which is not one of the x-intercepts. &#10007;</li><li><strong>Choice C &mdash; $x - 1$</strong>: This factor corresponds to zero $x=1$, which is one of the x-intercepts, so it must be a factor. &#10003;</li><li><strong>Choice D &mdash; $x - 3$</strong>: This factor would correspond to zero $x=3$, which is not one of the x-intercepts. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+      "title": "Convert zeros to factors",
+      "content": "The zeros give the factors $(x+3)$, $(x-1)$, and $(x-4)$. Of the choices, only <strong>Choice C &mdash; $x-1$</strong> must be a factor."
     }
   ]
 }

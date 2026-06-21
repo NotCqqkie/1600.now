@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+      "title": "Complete the square",
+      "content": "This is an equation-only circle problem. Complete the square for both variables to write the equation in standard form, then read the radius from $r^2$."
     },
     {
       "title": "Recognize that completing the square converts to standard form",

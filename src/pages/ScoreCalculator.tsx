@@ -4,7 +4,8 @@ import { RotateCcw } from "lucide-react";
 import { Slider } from "@/components/ui/slider";
 import { ScoreCalculatorSeoContent } from "@/components/seo/ScoreCalculatorSeoContent";
 import { satCalculatorYears } from "@/data/satCalculator";
-import { useThemeMode } from "@/hooks/useThemeMode";
+import { useThemeMode } from "@/lib/theme";
+import { MOBILE_MEDIA_QUERY } from "@/hooks/use-mobile";
 import { cn } from "@/lib/utils";
 
 const digitalSatSections = satCalculatorYears[0].sections;
@@ -23,17 +24,18 @@ const getScoreAccent = (score: number, maxScore: number) => {
   return `hsl(${hue.toFixed(1)} ${saturation.toFixed(1)}% ${lightness.toFixed(1)}%)`;
 };
 
-const SCORE_TRANSITION = "color 0.24s ease, background 0.24s ease, box-shadow 0.24s ease";
+const SCORE_RING_TRANSITION = "box-shadow 0.24s ease";
+const SCORE_TEXT_TRANSITION = "color 0.24s ease";
 const ScoreCalculator = () => {
   const isDarkMode = useThemeMode();
   const [isPhone, setIsPhone] = useState<boolean>(() =>
     typeof window !== "undefined"
-      ? window.matchMedia("(max-width: 767px)").matches
+      ? window.matchMedia(MOBILE_MEDIA_QUERY).matches
       : false,
   );
   useEffect(() => {
     if (typeof window === "undefined") return;
-    const mql = window.matchMedia("(max-width: 767px)");
+    const mql = window.matchMedia(MOBILE_MEDIA_QUERY);
     const onChange = (e: MediaQueryListEvent) => setIsPhone(e.matches);
     mql.addEventListener("change", onChange);
     return () => mql.removeEventListener("change", onChange);
@@ -382,10 +384,10 @@ const ScoreSummaryCard = ({
   onReset,
   themeColors,
 }: ScoreSummaryCardProps) => {
-  const totalProgress = (scores.total / 1600) * 100;
-  const ringBackground = totalProgress >= 100
-    ? scores.totalColor
-    : `conic-gradient(${scores.totalColor} 0deg, ${scores.totalColor} ${totalProgress * 3.6}deg, rgba(148,163,184,0.18) ${totalProgress * 3.6}deg, rgba(148,163,184,0.18) 360deg)`;
+  const totalProgress = Math.max(0, Math.min((scores.total / 1600) * 100, 100));
+  const ringAngle = totalProgress * 3.6;
+  const ringRailColor = "rgba(148,163,184,0.18)";
+  const ringBackground = `conic-gradient(${scores.totalColor} 0deg, ${scores.totalColor} ${ringAngle}deg, ${ringRailColor} ${ringAngle}deg, ${ringRailColor} 360deg)`;
 
   return (
     <div
@@ -409,7 +411,7 @@ const ScoreSummaryCard = ({
             background: ringBackground,
             padding: 12,
             boxShadow: `0 0 50px ${scores.totalColor}22`,
-            transition: SCORE_TRANSITION,
+            transition: SCORE_RING_TRANSITION,
           }}
         >
           <div
@@ -436,7 +438,7 @@ const ScoreSummaryCard = ({
                     fontSize: "clamp(40px, 5vw, 64px)",
                     lineHeight: 1,
                     color: scores.totalColor,
-                    transition: SCORE_TRANSITION,
+                    transition: SCORE_TEXT_TRANSITION,
                     "--score-glow": `${scores.totalColor}55`,
                   } as CSSProperties
                 }

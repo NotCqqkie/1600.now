@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+      "title": "Use the diameters and arcs",
+      "content": "The two diameters split the circle into opposite arc pairs. Mark the semicircles from each diameter, then use the fact that vertical central angles intercept congruent arcs."
     },
     {
       "title": "Establish arc relationships from the diameters",

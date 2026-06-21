@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 import { createHash } from "node:crypto";
-import { existsSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
+import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
+import { collectActivePracticeQuestionKeys } from "./practice-data-utils.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "..");
@@ -74,7 +75,7 @@ const looksLikeImageDescription = (text) => {
   if (!trimmed) return false;
   if (/\$[^$]+\$/.test(trimmed)) return false;
   if (/^\s*•/.test(trimmed)) return true;
-  return /(comma\s+(negative\s+)?\d|open parenthesis|close parenthesis|y\s*-\s*intercept|x\s*-\s*intercept|parabola opens|the curve|the graph|the line passes through|left to right|quadrant\s+\d)/i.test(trimmed);
+  return /(comma\s+(negative\s+)?\d|open parenthesis|close parenthesis|y\s*-\s*intercept|x\s*-\s*intercept|parabola opens|the graph|the line passes through|left to right|quadrant\s+\d)/i.test(trimmed);
 };
 
 const hasUnsalvageableChoices = (question) => {
@@ -156,26 +157,12 @@ const tolerantTemplateSignature = (question) => {
     .join(" ");
 };
 
-const collectActivePastQuestionIds = () => {
-  const ids = new Set();
-  const moduleDir = path.join(root, "src/data/modules");
-  for (const fileName of readdirSync(moduleDir)) {
-    if (!fileName.endsWith(".json")) continue;
-    const moduleQuestions = JSON.parse(readFileSync(path.join(moduleDir, fileName), "utf8"));
-    if (!Array.isArray(moduleQuestions)) continue;
-    for (const question of moduleQuestions) {
-      if (typeof question?.id === "string" && question.id) ids.add(question.id);
-    }
-  }
-  return ids;
-};
-
-const activePastQuestionIds = collectActivePastQuestionIds();
+const activePracticeQuestionKeys = collectActivePracticeQuestionKeys(root);
 
 const keepPriority = (record) => [
   record.bankType === "past" ? 0 : 1,
   record.question.inPracticeTests === true ||
-  (record.bankType === "past" && activePastQuestionIds.has(String(record.question.id)))
+  activePracticeQuestionKeys.has(`${record.bankType}:${normalizeSubject(record.question)}:${String(record.question.id)}`)
     ? 0
     : 1,
   String(record.question.id),
@@ -224,8 +211,7 @@ for (const records of buckets.values()) {
   safeClusterCount += 1;
   safeClusterMemberCount += records.length;
 
-  const [keep, ...hide] = [...records].sort(compareRecords);
-  void keep;
+  const [, ...hide] = [...records].sort(compareRecords);
   for (const record of hide) hiddenIds.add(bankQuestionKey(record));
 }
 

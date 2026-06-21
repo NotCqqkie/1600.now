@@ -6,42 +6,51 @@ import {
   buildBreadcrumbJsonLd,
   buildFaqJsonLd,
 } from "@/components/seo/PageSeo";
-import { colleges, formatPct } from "@/lib/seo-data/collegesData";
+import { colleges, formatPct, type College } from "@/lib/seo-data/collegesData";
+
+const COLLEGE_INDEX_URL = "https://1600.now/college";
+const DEFAULT_RESULT_LIMIT = 60;
+const SEARCH_RESULT_LIMIT = 80;
+
+const COLLEGE_FAQS = [
+  {
+    question: "How many colleges are in this directory?",
+    answer: `This directory covers ${colleges.length.toLocaleString("en-US")} four-year, degree-granting US institutions that report SAT score data to the US Department of Education.`,
+  },
+  {
+    question: "Where does the admissions data come from?",
+    answer:
+      "All figures come from the US Department of Education College Scorecard, which aggregates data reported annually by each institution. We refresh our snapshot on each site build.",
+  },
+  {
+    question: "Is this list exhaustive?",
+    answer:
+      "No — we exclude branch campuses, certificate-only institutions, and colleges that do not report SAT data. For a complete list, see collegescorecard.ed.gov.",
+  },
+];
+
+const COLLEGE_INDEX_JSON_LD = [
+  buildBreadcrumbJsonLd([
+    { name: "Home", url: "https://1600.now/" },
+    { name: "Colleges", url: COLLEGE_INDEX_URL },
+  ]),
+  buildFaqJsonLd(COLLEGE_FAQS),
+];
+
+const matchesCollegeSearch = (college: College, normalizedQuery: string) =>
+  college.name.toLowerCase().includes(normalizedQuery) ||
+  (college.alias?.toLowerCase().includes(normalizedQuery) ?? false) ||
+  college.state?.toLowerCase() === normalizedQuery ||
+  (college.city?.toLowerCase().includes(normalizedQuery) ?? false);
 
 const CollegeIndex = () => {
   const [query, setQuery] = useState("");
 
   const results = useMemo(() => {
     const normalizedQuery = query.trim().toLowerCase();
-    if (!normalizedQuery) return colleges.slice(0, 60);
-    return colleges
-      .filter(
-        (college) =>
-          college.name.toLowerCase().includes(normalizedQuery) ||
-          (college.alias?.toLowerCase().includes(normalizedQuery) ?? false) ||
-          (college.state?.toLowerCase() === normalizedQuery) ||
-          (college.city?.toLowerCase().includes(normalizedQuery) ?? false),
-      )
-      .slice(0, 80);
+    if (!normalizedQuery) return colleges.slice(0, DEFAULT_RESULT_LIMIT);
+    return colleges.filter((college) => matchesCollegeSearch(college, normalizedQuery)).slice(0, SEARCH_RESULT_LIMIT);
   }, [query]);
-
-  const url = "https://1600.now/college";
-  const faqs = [
-    {
-      question: "How many colleges are in this directory?",
-      answer: `This directory covers ${colleges.length.toLocaleString("en-US")} four-year, degree-granting US institutions that report SAT score data to the US Department of Education.`,
-    },
-    {
-      question: "Where does the admissions data come from?",
-      answer:
-        "All figures come from the US Department of Education College Scorecard, which aggregates data reported annually by each institution. We refresh our snapshot on each site build.",
-    },
-    {
-      question: "Is this list exhaustive?",
-      answer:
-        "No — we exclude branch campuses, certificate-only institutions, and colleges that do not report SAT data. For a complete list, see collegescorecard.ed.gov.",
-    },
-  ];
 
   return (
     <div className="mx-auto max-w-3xl px-6 py-10">
@@ -49,14 +58,8 @@ const CollegeIndex = () => {
         id="college-index"
         title="US College Directory: SAT Scores, Acceptance Rates & Admissions"
         description={`Searchable directory of ${colleges.length} US colleges with SAT ranges, acceptance rates, tuition, and outcomes data from the College Scorecard.`}
-        canonical={url}
-        jsonLd={[
-          buildBreadcrumbJsonLd([
-            { name: "Home", url: "https://1600.now/" },
-            { name: "Colleges", url },
-          ]),
-          buildFaqJsonLd(faqs),
-        ]}
+        canonical={COLLEGE_INDEX_URL}
+        jsonLd={COLLEGE_INDEX_JSON_LD}
       />
 
       <nav className="mb-6 text-sm text-muted-foreground">
@@ -117,7 +120,7 @@ const CollegeIndex = () => {
       <section className="mt-10">
         <h2 className="text-2xl font-semibold tracking-tight">FAQs</h2>
         <div className="mt-4 space-y-5">
-          {faqs.map((faq) => (
+          {COLLEGE_FAQS.map((faq) => (
             <div key={faq.question}>
               <h3 className="text-base font-semibold">{faq.question}</h3>
               <p className="mt-1 text-muted-foreground">{faq.answer}</p>

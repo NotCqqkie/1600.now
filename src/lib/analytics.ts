@@ -3,13 +3,13 @@ const loadAnalyticsBundle = async () => {
   return analyticsPromise;
 };
 
-export async function trackEvent(
+async function trackEvent(
   name: string,
   params?: Record<string, unknown>,
 ): Promise<void> {
   const bundle = await loadAnalyticsBundle();
   if (!bundle) return;
-  bundle.logEvent(bundle.analytics, name as string, params);
+  bundle.logEvent(bundle.analytics, name, params);
 }
 
 export async function identifyUser(userId: string | null): Promise<void> {
@@ -18,10 +18,10 @@ export async function identifyUser(userId: string | null): Promise<void> {
   bundle.setUserId(bundle.analytics, userId);
 }
 
-export function trackPageView(path: string): void {
+export function trackPageView(pagePath: string): void {
   void trackEvent("page_view", {
-    page_path: path,
-    page_location: typeof window !== "undefined" ? window.location.href : path,
+    page_path: pagePath,
+    page_location: typeof window !== "undefined" ? window.location.href : pagePath,
     page_title: typeof document !== "undefined" ? document.title : undefined,
   });
 }

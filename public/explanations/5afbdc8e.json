@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+      "title": "Set the circle area equal to the square area",
+      "content": "Set the circle area equal to the square area. Find the circle's area from $A=\\pi r^2$ with $r=2$, then set that equal to the square's area $s^2$."
     },
     {
       "title": "Find the circle's area",

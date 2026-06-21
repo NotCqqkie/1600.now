@@ -1,11 +1,11 @@
 {
   "questionId": "2be01bd9",
-  "correctAnswer": ".14",
+  "correctAnswer": "7/50",
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+      "title": "Use corresponding and complementary angles",
+      "content": "Since triangle $ABC$ is similar to triangle $DEF$, angle $A$ corresponds to angle $D$ and angle $B$ corresponds to angle $E$. In the right triangle, the two acute angles are complementary."
     },
     {
       "title": "Determine angle correspondence",

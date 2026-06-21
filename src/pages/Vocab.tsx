@@ -1,7 +1,7 @@
 import { useState, useMemo, useEffect, useLayoutEffect, useRef, useCallback, type CSSProperties } from "react";
 import { PageSeo, buildBreadcrumbJsonLd } from "@/components/seo/PageSeo";
 import type { VocabPos, VocabSet } from "@/data/vocabulary";
-import { useThemeMode } from "@/hooks/useThemeMode";
+import { useThemeMode } from "@/lib/theme";
 import { useAuth } from "@/contexts/AuthContext";
 import { vocabStorageKey } from "@/hooks/useUserProgress";
 import { db } from "@/lib/firebase/firebaseDb";

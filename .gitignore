@@ -37,6 +37,8 @@ rescraped_images_*/
 
 # Worker state and debug artifacts
 .playwright/
+/.firebase/hosting.*.cache
+/tmp/
 category_audit_findings.md
 scripts/images/unreferenced_images.txt
 scripts/extract/_runs/

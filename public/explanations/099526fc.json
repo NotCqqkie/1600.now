@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+      "title": "Find the shown leg length",
+      "content": "The segment shown has endpoints $(-6,4)$ and $(3,10)$. Its horizontal change is $9$ and its vertical change is $6$, so its length is $$\\sqrt{9^2+6^2}=\\sqrt{117}=3\\sqrt{13}.$$"
     },
     {
-      "title": "Read the shown leg",
-      "content": "The segment shown has endpoints $(-6,4)$ and $(3,10)$. Its horizontal change is $3-(-6)=9$, and its vertical change is $10-4=6$."
+      "title": "Use the triangle area formula",
+      "content": "Let the other leg be $x$. The area is $36\\sqrt{13}$, so $$36\\sqrt{13}=\\frac{1}{2}(3\\sqrt{13})x.$$"
     },
     {
-      "title": "Find that leg length",
-      "content": "Use the distance formula: $$\\sqrt{9^2+6^2}=\\sqrt{81+36}=\\sqrt{117}=3\\sqrt{13}$$ So one leg of the right triangle is $3\\sqrt{13}$ units long."
-    },
-    {
-      "title": "Use the area",
-      "content": "Let the other leg be $x$. The area is $36\\sqrt{13}$, so $$36\\sqrt{13}=\\frac{1}{2}(3\\sqrt{13})x$$ Multiplying by $2$ gives $72\\sqrt{13}=3\\sqrt{13}x$."
+      "title": "Solve for x",
+      "content": "Multiply both sides by $2$: $$72\\sqrt{13}=3\\sqrt{13}x.$$ Divide by $3\\sqrt{13}$ to get $$x=24.$$ <strong>B</strong> is correct."
     }
   ]
 }

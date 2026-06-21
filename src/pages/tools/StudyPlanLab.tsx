@@ -1,30 +1,48 @@
 import { useEffect, useMemo, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import {
-  AlertCircle,
-  BarChart3,
   Check,
   ClipboardList,
   Clock3,
   FileText,
-  Flame,
   Minus,
   MoveRight,
   Plus,
   Printer,
-  RefreshCw,
   Upload,
 } from "lucide-react";
 
 import { Checkbox } from "@/components/ui/checkbox";
 import { Slider } from "@/components/ui/slider";
 import {
+  buildModulePracticeSet,
+  getPracticeModule,
+  getPracticeModules,
+  type PracticeModule,
+} from "@/data/modulePracticeBank";
+import {
   allEnglishDomains,
   allMathDomains,
   englishDomainSkills,
   mathDomainSkills,
   type EnglishDomain,
+  type EnglishSkill,
   type MathDomain,
+  type MathSkill,
 } from "@/data/questionCategories";
+import {
+  loadQuestionsByDomain,
+  loadQuestionsBySkill,
+  type BankQuestion,
+  type BankSubject,
+} from "@/data/questionBank";
+import {
+  clearModulePracticeSession,
+  createModulePracticeSession,
+  getModulePracticeDefaultTimeMinutes,
+} from "@/lib/practice/modulePracticeSession";
+import { PRACTICE_RUN_STORAGE_KEY } from "@/lib/practice/practiceRunStorage";
+import { buildModulePracticeQuestionRoute, buildPracticeBankQuestionRoute } from "@/lib/practice/practiceBankRoutes";
 import {
   parseScoreReportFile,
   type ParsedScoreReport,
@@ -35,12 +53,33 @@ type FocusId =
   | MathDomain
   | EnglishDomain
   | "Pacing"
-  | "Error Log"
   | "Full Practice";
 
 type Intensity = "light" | "normal" | "heavy";
 type TaskType = "diagnostic" | "learn" | "drill" | "review" | "timed" | "mock" | "taper";
-type ViewMode = "today" | "calendar" | "progress" | "settings";
+type ViewMode = "dashboard" | "settings";
+type PacingMode = "steady" | "tighten";
+type PlannerTaskAction =
+  | {
+      kind: "bank-set";
+      subject: BankSubject;
+      filterType: "domain" | "skill";
+      filterValue: string;
+      questionCount: number;
+    }
+  | {
+      kind: "module";
+      moduleSlug: string;
+      timeLimitMinutes: number;
+    }
+  | {
+      kind: "module-slice";
+      moduleSlug: string;
+      startQuestionIndex: number;
+      questionCount: number;
+      timeLimitMinutes: number;
+      sliceLabel: "first half" | "second half";
+    };
 
 interface FocusArea {
   id: FocusId;
@@ -57,6 +96,7 @@ interface PlannerSettings {
   currentMath: number;
   currentReadingWriting: number;
   minutesPerDay: number;
+  pacingMode: PacingMode;
   freeWeekdays: number[];
   focus: FocusId[];
   intensity: Record<FocusId, Intensity>;
@@ -81,6 +121,7 @@ interface PlannerTask {
   type: TaskType;
   detail: string;
   route?: string;
+  action?: PlannerTaskAction;
 }
 
 interface StoredProgress {
@@ -94,17 +135,18 @@ const SCORE_REPORT_KEY = "1600now-study-plan-score-report";
 const PLAN_SNAPSHOT_KEY = "1600now-study-plan-snapshot";
 
 const officialSatDates = [
-  { date: "2026-08-22", label: "Aug. 22, 2026", deadline: "Aug. 7, 2026" },
-  { date: "2026-09-12", label: "Sept. 12, 2026", deadline: "Aug. 28, 2026" },
-  { date: "2026-10-03", label: "Oct. 3, 2026", deadline: "Sept. 18, 2026" },
-  { date: "2026-11-07", label: "Nov. 7, 2026", deadline: "Oct. 23, 2026" },
-  { date: "2026-12-05", label: "Dec. 5, 2026", deadline: "Nov. 20, 2026" },
-  { date: "2027-03-06", label: "March 6, 2027", deadline: "Feb. 19, 2027" },
-  { date: "2027-05-01", label: "May 1, 2027", deadline: "Apr. 16, 2027" },
-  { date: "2027-06-05", label: "June 5, 2027", deadline: "May 21, 2027" },
+  { date: "2026-08-22", monthLabel: "August 2026", label: "Aug. 22, 2026", deadline: "Aug. 7, 2026" },
+  { date: "2026-09-12", monthLabel: "September 2026", label: "Sept. 12, 2026", deadline: "Aug. 28, 2026" },
+  { date: "2026-10-03", monthLabel: "October 2026", label: "Oct. 3, 2026", deadline: "Sept. 18, 2026" },
+  { date: "2026-11-07", monthLabel: "November 2026", label: "Nov. 7, 2026", deadline: "Oct. 23, 2026" },
+  { date: "2026-12-05", monthLabel: "December 2026", label: "Dec. 5, 2026", deadline: "Nov. 20, 2026" },
+  { date: "2027-03-06", monthLabel: "March 2027", label: "March 6, 2027", deadline: "Feb. 19, 2027" },
+  { date: "2027-05-01", monthLabel: "May 2027", label: "May 1, 2027", deadline: "Apr. 16, 2027" },
+  { date: "2027-06-05", monthLabel: "June 2027", label: "June 5, 2027", deadline: "May 21, 2027" },
 ];
 
 const weekdayLabels = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+const officialSatDateKeys = new Set(officialSatDates.map((date) => date.date));
 const defaultToday = "2026-06-15";
 const studyPlanPrintCss = `
   @media print {
@@ -177,11 +219,13 @@ const mathFocus: FocusArea[] = allMathDomains.map((domain) => ({
   skills: mathDomainSkills[domain].slice(0, 3),
 }));
 
+const isVocabSkill = (skill: string) => /vocab|words in context/i.test(skill);
+
 const englishFocus: FocusArea[] = allEnglishDomains.map((domain) => ({
   id: domain,
   label: domain,
   section: "Reading and Writing",
-  skills: englishDomainSkills[domain].slice(0, 3),
+  skills: englishDomainSkills[domain].filter((skill) => !isVocabSkill(skill)).slice(0, 3),
 }));
 
 const strategyFocus: FocusArea[] = [
@@ -190,12 +234,6 @@ const strategyFocus: FocusArea[] = [
     label: "Pacing",
     section: "Strategy",
     skills: ["Module timing", "Question triage", "End-check routine"],
-  },
-  {
-    id: "Error Log",
-    label: "Error Log",
-    section: "Strategy",
-    skills: ["Miss review", "Pattern tracking", "Retest queue"],
   },
   {
     id: "Full Practice",
@@ -207,24 +245,6 @@ const strategyFocus: FocusArea[] = [
 
 const focusAreas: FocusArea[] = [...englishFocus, ...mathFocus, ...strategyFocus];
 const focusById = new Map(focusAreas.map((focus) => [focus.id, focus]));
-
-const scoreReportGuideSteps = [
-  {
-    title: "Open Student Score Reports",
-    detail: "Go to the College Board score portal and sign in with the account that took the SAT.",
-    image: "/study-plan/college-board-score-portal.png",
-  },
-  {
-    title: "Open Score Details",
-    detail: "Choose the SAT score, then open the score details page before downloading the PDF.",
-    image: "/study-plan/college-board-score-details.png",
-  },
-  {
-    title: "Save the Report",
-    detail: "Download the score report PDF or take a clear screenshot of the Knowledge and Skills bars.",
-    image: "/study-plan/college-board-score-download.png",
-  },
-];
 
 const defaultIntensity = focusAreas.reduce((acc, focus) => {
   acc[focus.id] = "normal";
@@ -239,6 +259,7 @@ const defaultSettings = (): PlannerSettings => ({
   currentMath: 610,
   currentReadingWriting: 620,
   minutesPerDay: 45,
+  pacingMode: "steady",
   freeWeekdays: [1, 2, 3, 4, 6],
   focus: [
     "Standard English Conventions",
@@ -251,14 +272,66 @@ const defaultSettings = (): PlannerSettings => ({
   blackoutDates: [],
 });
 
-const routeForFocus = (focus: FocusId) => {
+const practiceTestModules = getPracticeModules()
+  .sort((left, right) => {
+    if (left.setNumber !== right.setNumber) return left.setNumber - right.setNumber;
+    if (left.subject !== right.subject) return left.subject === "reading" ? -1 : 1;
+    if (left.moduleNumber !== right.moduleNumber) return left.moduleNumber - right.moduleNumber;
+    return left.slug.localeCompare(right.slug);
+  });
+
+const moduleForIndex = (index: number): PracticeModule | null =>
+  practiceTestModules.length ? practiceTestModules[index % practiceTestModules.length] : null;
+
+const fullModuleBudgetMinutes = Math.max(
+  35,
+  ...practiceTestModules.map((module) => getModulePracticeDefaultTimeMinutes(module.subject)),
+);
+
+const questionCountForMinutes = (minutes: number, subject: BankSubject) => {
+  const perQuestion = subject === "math" ? 4 : 3;
+  return Math.max(5, Math.min(18, Math.round(minutes / perQuestion)));
+};
+
+const moduleActionForIndex = (index: number, timeLimitMinutes: number): PlannerTaskAction => {
+  const module = moduleForIndex(index);
+  return {
+    kind: "module",
+    moduleSlug: module?.slug ?? "",
+    timeLimitMinutes,
+  };
+};
+
+const moduleSliceActionForIndex = (index: number, timeLimitMinutes: number): PlannerTaskAction => {
+  const module = moduleForIndex(Math.floor(index / 2));
+  const firstHalf = index % 2 === 0;
+  const midpoint = module ? Math.ceil(module.questionCount / 2) : 0;
+  return {
+    kind: "module-slice",
+    moduleSlug: module?.slug ?? "",
+    startQuestionIndex: firstHalf ? 0 : midpoint,
+    questionCount: module ? (firstHalf ? midpoint : module.questionCount - midpoint) : 0,
+    timeLimitMinutes,
+    sliceLabel: firstHalf ? "first half" : "second half",
+  };
+};
+
+const bankActionForFocus = (focus: FocusId, minutes: number, index: number): PlannerTaskAction => {
   const area = focusById.get(focus);
-  if (!area) return "/bank";
-  if (area.section === "Math") return `/bank/math/domain/${encodeURIComponent(area.label)}?bankType=all`;
-  if (area.section === "Reading and Writing") return `/bank/reading/domain/${encodeURIComponent(area.label)}?bankType=all`;
-  if (focus === "Full Practice") return "/modules";
-  if (focus === "Error Log") return "/my-practice-sets";
-  return "/bank";
+  if (!area || area.section === "Strategy") {
+    return minutes < fullModuleBudgetMinutes
+      ? moduleSliceActionForIndex(index, minutes)
+      : moduleActionForIndex(index, Math.min(minutes, fullModuleBudgetMinutes));
+  }
+  const subject: BankSubject = area.section === "Math" ? "math" : "reading";
+  const skill = area.skills[index % Math.max(1, area.skills.length)];
+  return {
+    kind: "bank-set",
+    subject,
+    filterType: area.section === "Reading and Writing" && skill ? "skill" : "domain",
+    filterValue: area.section === "Reading and Writing" && skill ? skill : area.label,
+    questionCount: questionCountForMinutes(minutes, subject),
+  };
 };
 
 const taskTypeLabel: Record<TaskType, string> = {
@@ -305,28 +378,125 @@ const weightedFocusQueue = (settings: PlannerSettings) => {
   return queue.length > 0 ? queue : defaultSettings().focus;
 };
 
-const taskTitleFor = (type: TaskType, focus: FocusId) => {
+const actionLabel = (action?: PlannerTaskAction) => {
+  if (!action) return "practice";
+  if (action.kind === "bank-set") return `${action.questionCount}-question set`;
+  const module = getPracticeModule(action.moduleSlug);
+  const moduleLabel = module
+    ? module.testName.includes(module.publicTitle)
+      ? module.testName
+      : `${module.testName} ${module.publicTitle}`
+    : "SAT module";
+  if (action.kind === "module-slice") {
+    const start = action.startQuestionIndex + 1;
+    const end = action.startQuestionIndex + action.questionCount;
+    return `${moduleLabel} ${action.sliceLabel}, Q${start}-${end} (${action.timeLimitMinutes} min)`;
+  }
+  return `${moduleLabel} (${action.timeLimitMinutes} min)`;
+};
+
+const taskTitleFor = (type: TaskType, focus: FocusId, action?: PlannerTaskAction) => {
   const area = focusById.get(focus);
   const label = area?.label ?? focus;
   if (type === "diagnostic") return "Baseline score report review";
   if (type === "learn") return `${label} concept pass`;
-  if (type === "drill") return `${label} targeted drill`;
-  if (type === "review") return `${label} error-log review`;
-  if (type === "timed") return `${label} timed set`;
-  if (type === "mock") return "Full-length practice test";
+  if (type === "drill") return `${label} ${actionLabel(action)}`;
+  if (type === "review") return `${label} mistake review`;
+  if (type === "timed") return action?.kind === "module" || action?.kind === "module-slice" ? `Timed ${actionLabel(action)}` : `${label} timed ${actionLabel(action)}`;
+  if (type === "mock") return `Official ${actionLabel(action)}`;
   return "Light test-week review";
 };
 
-const taskDetailFor = (type: TaskType, focus: FocusId) => {
+const taskDetailFor = (type: TaskType, focus: FocusId, action?: PlannerTaskAction) => {
   const area = focusById.get(focus);
   const skills = area?.skills.slice(0, 2).join(" and ");
-  if (type === "diagnostic") return "Confirm section scores, mark weak domains, and create a miss log before drilling.";
+  if (type === "diagnostic") return `Start with a concrete ${actionLabel(action)} from one weak area, then review every miss.`;
   if (type === "learn") return `Review the core rule set, then solve untimed examples${skills ? ` for ${skills}` : ""}.`;
-  if (type === "drill") return "Complete a focused set, review every miss, and tag the reason for each error.";
+  if (type === "drill") return `Complete the assigned ${actionLabel(action)}, review every miss, and tag the reason for each error.`;
   if (type === "review") return "Redo missed problems without notes, then write the shortest rule that would prevent the miss.";
-  if (type === "timed") return "Use strict module pacing and stop when time expires.";
-  if (type === "mock") return "Take the test in one sitting, then review the score report before the next study block.";
+  if (type === "timed") return action?.kind === "module"
+    ? "Use the shorter timer, stop when time expires, then review the misses inside today's study block."
+    : action?.kind === "module-slice"
+      ? "Take only this half-module today, then continue the next practice chunk on another study day."
+    : `Run the assigned ${actionLabel(action)} under time pressure, then review misses.`;
+  if (type === "mock") return action?.kind === "module-slice"
+    ? "Take this half-module instead of a full test sitting, then review misses before the next chunk."
+    : "Run the assigned official module and use the results to refresh next week's priorities.";
   return "Keep it light: formulas, grammar rules, pacing checkpoints, and sleep schedule.";
+};
+
+const moduleMinutesFor = (settings: PlannerSettings, weekIndex: number) =>
+  settings.pacingMode === "tighten"
+    ? Math.max(25, fullModuleBudgetMinutes - Math.floor(weekIndex / 2) * 2)
+    : fullModuleBudgetMinutes;
+
+const practiceTaskFocusFor = (type: TaskType): FocusId =>
+  type === "mock" ? "Full Practice" : "Pacing";
+
+const reviewTaskForRemainder = (
+  dateKey: string,
+  focus: FocusId,
+  minutes: number,
+  index: number,
+): PlannerTask => ({
+  id: `${dateKey}-practice-review-${focus}-${index}`,
+  date: dateKey,
+  title: taskTitleFor("review", focus),
+  minutes,
+  focus,
+  type: "review",
+  detail: taskDetailFor("review", focus),
+});
+
+const buildPracticeTasksForDay = (
+  dateKey: string,
+  type: TaskType,
+  dailyBudget: number,
+  settings: PlannerSettings,
+  weekIndex: number,
+  index: number,
+): PlannerTask[] => {
+  const focus = practiceTaskFocusFor(type);
+  const moduleMinutes = moduleMinutesFor(settings, weekIndex);
+
+  if (dailyBudget < fullModuleBudgetMinutes) {
+    const action = moduleSliceActionForIndex(index, dailyBudget);
+    return [{
+      id: `${dateKey}-${type}-${focus}-${action.kind}-${action.moduleSlug}-${action.startQuestionIndex}`,
+      date: dateKey,
+      title: taskTitleFor(type, focus, action),
+      minutes: dailyBudget,
+      focus,
+      type,
+      detail: taskDetailFor(type, focus, action),
+      action,
+    }];
+  }
+
+  const moduleCount = dailyBudget >= fullModuleBudgetMinutes * 2 ? 2 : 1;
+  let remaining = dailyBudget;
+  const tasks: PlannerTask[] = [];
+
+  for (let offset = 0; offset < moduleCount && remaining >= moduleMinutes; offset += 1) {
+    const action = moduleActionForIndex(index * moduleCount + offset, moduleMinutes);
+    tasks.push({
+      id: `${dateKey}-${type}-${focus}-${action.kind}-${action.moduleSlug}`,
+      date: dateKey,
+      title: taskTitleFor(type, focus, action),
+      minutes: moduleMinutes,
+      focus,
+      type,
+      detail: taskDetailFor(type, focus, action),
+      action,
+    });
+    remaining -= moduleMinutes;
+  }
+
+  if (remaining > 0) {
+    tasks.push(reviewTaskForRemainder(dateKey, focus, remaining, index));
+  }
+
+  return tasks;
 };
 
 const generatePlan = (settings: PlannerSettings): PlannerTask[] => {
@@ -334,83 +504,79 @@ const generatePlan = (settings: PlannerSettings): PlannerTask[] => {
   const studyDays = range.filter((dateKey) => isStudyDay(dateKey, settings));
   const queue = weightedFocusQueue(settings);
   const tasks: PlannerTask[] = [];
-  const totalStudyDays = studyDays.length || 1;
   const scoreGap = Math.max(0, settings.targetScore - settings.currentMath - settings.currentReadingWriting);
-  const loadMultiplier = scoreGap >= 260 ? 1.45 : scoreGap >= 180 ? 1.25 : scoreGap >= 100 ? 1.12 : 1;
-  const adjustedBaseMinutes = Math.min(150, Math.max(15, Math.round((settings.minutesPerDay * loadMultiplier) / 5) * 5));
+  const dailyBudget = Math.min(150, Math.max(15, Math.round(settings.minutesPerDay / 5) * 5));
 
   studyDays.forEach((dateKey, index) => {
     const daysUntilTest = daysBetween(dateKey, settings.satDate);
     const weekIndex = Math.floor(index / Math.max(1, settings.freeWeekdays.length));
-    const focus = queue[index % queue.length];
+    const queuedFocus = queue[index % queue.length];
     const isFirstDay = index === 0;
-    const isMockDay = index > 0 && (index + 1) % Math.max(4, settings.freeWeekdays.length * 2) === 0 && daysUntilTest > 7;
     const isTaper = daysUntilTest <= 6;
+    const wantsTimedModule =
+      settings.pacingMode === "tighten" &&
+      index > 0 &&
+      !isTaper &&
+      weekIndex % 2 === 1;
+    const wantsModule =
+      !isFirstDay &&
+      !isTaper &&
+      (wantsTimedModule ||
+        queuedFocus === "Pacing" ||
+        queuedFocus === "Full Practice" ||
+        ((index + 1) % Math.max(5, settings.freeWeekdays.length * 2) === 0 && daysUntilTest > 7));
     const type: TaskType = isFirstDay
       ? "diagnostic"
       : isTaper
         ? "taper"
-        : isMockDay
-          ? "mock"
+        : wantsModule
+          ? wantsTimedModule ? "timed" : "mock"
           : weekIndex % 3 === 0
             ? "learn"
             : weekIndex % 3 === 1
               ? "drill"
               : "timed";
-    const minutes = type === "mock"
-      ? Math.max(120, adjustedBaseMinutes * 3)
-      : type === "diagnostic"
-        ? Math.max(45, adjustedBaseMinutes)
-        : type === "taper"
-          ? Math.min(35, adjustedBaseMinutes)
-          : adjustedBaseMinutes;
+    if (wantsModule) {
+      tasks.push(...buildPracticeTasksForDay(dateKey, type, dailyBudget, settings, weekIndex, index));
+      return;
+    }
+
+    const focus = queuedFocus;
+    const reviewFits =
+      dailyBudget >= 45 &&
+      !isTaper &&
+      type !== "diagnostic" &&
+      (index % 2 === 1 || scoreGap >= 180);
+    const reviewMinutes = reviewFits ? Math.min(30, Math.max(15, Math.round((dailyBudget * 0.35) / 5) * 5)) : 0;
+    const minutes = dailyBudget - reviewMinutes;
+    const action = bankActionForFocus(focus, minutes, index);
 
     tasks.push({
       id: `${dateKey}-${type}-${focus}`,
       date: dateKey,
-      title: taskTitleFor(type, focus),
+      title: taskTitleFor(type, focus, action),
       minutes,
       focus,
       type,
-      detail: taskDetailFor(type, focus),
-      route: routeForFocus(focus),
+      detail: taskDetailFor(type, focus, action),
+      action,
     });
 
-    if (!isTaper && type !== "mock" && adjustedBaseMinutes >= 45 && (index % 2 === 1 || scoreGap >= 180)) {
+    if (reviewFits) {
       const reviewFocus = queue[(index + 2) % queue.length];
+      const reviewAction = bankActionForFocus(reviewFocus, reviewMinutes, index + 2);
       tasks.push({
         id: `${dateKey}-review-${reviewFocus}`,
         date: dateKey,
-        title: taskTitleFor("review", reviewFocus),
-        minutes: Math.min(30, Math.round(adjustedBaseMinutes / 2)),
+        title: taskTitleFor("review", reviewFocus, reviewAction),
+        minutes: reviewMinutes,
         focus: reviewFocus,
         type: "review",
-        detail: taskDetailFor("review", reviewFocus),
-        route: routeForFocus(reviewFocus),
+        detail: taskDetailFor("review", reviewFocus, reviewAction),
+        action: reviewAction,
       });
     }
   });
-
-  const targetMocks = totalStudyDays >= 20 ? 3 : totalStudyDays >= 10 ? 2 : 1;
-  const existingMocks = tasks.filter((task) => task.type === "mock").length;
-  if (studyDays.length > 4 && existingMocks < targetMocks) {
-    studyDays
-      .slice(Math.max(1, studyDays.length - targetMocks * 5), -2)
-      .filter((_, index) => index % 4 === 0)
-      .slice(0, targetMocks - existingMocks)
-      .forEach((dateKey, index) => {
-        tasks.push({
-          id: `${dateKey}-extra-mock-${index}`,
-          date: dateKey,
-          title: "Full-length Bluebook practice test",
-          minutes: Math.max(120, settings.minutesPerDay * 3),
-          focus: "Full Practice",
-          type: "mock",
-          detail: "Run a realistic practice test and use the score report to refresh the next week's priorities.",
-          route: "/modules",
-        });
-      });
-  }
 
   return tasks.sort((a, b) => `${a.date}-${a.id}`.localeCompare(`${b.date}-${b.id}`));
 };
@@ -428,6 +594,72 @@ const loadJson = <T,>(key: string, fallback: T): T => {
   } catch {
     return fallback;
   }
+};
+
+const isKnownFocus = (focus: string): focus is FocusId =>
+  focusById.has(focus as FocusId);
+
+const normalizeSettings = (settings: PlannerSettings): PlannerSettings => {
+  const fallback = defaultSettings();
+  const focus = settings.focus.filter((item) => isKnownFocus(item));
+  const intensity = focusAreas.reduce((acc, area) => {
+    acc[area.id] = settings.intensity?.[area.id] ?? "normal";
+    return acc;
+  }, {} as Record<FocusId, Intensity>);
+  return {
+    ...settings,
+    satDate: officialSatDateKeys.has(settings.satDate) ? settings.satDate : fallback.satDate,
+    pacingMode: settings.pacingMode === "tighten" ? "tighten" : "steady",
+    minutesPerDay: Math.min(150, Math.max(15, Math.round((settings.minutesPerDay ?? fallback.minutesPerDay) / 5) * 5)),
+    focus: focus.length > 0 ? focus : fallback.focus,
+    intensity,
+  };
+};
+
+const normalizeSnapshot = (snapshot: PlannerTask[]) =>
+  snapshot.filter((task) => isKnownFocus(task.focus));
+
+const hashString = (value: string) => {
+  let hash = 2166136261;
+  for (let index = 0; index < value.length; index += 1) {
+    hash ^= value.charCodeAt(index);
+    hash = Math.imul(hash, 16777619);
+  }
+  return hash >>> 0;
+};
+
+const isVocabQuestion = (question: BankQuestion) =>
+  isVocabSkill(question.category.skill);
+
+const selectPracticeQuestions = (questions: BankQuestion[], count: number, seed: string) =>
+  questions
+    .filter((question) => !isVocabQuestion(question))
+    .map((question, index) => ({
+      question,
+      rank: hashString(`${seed}:${question.stableId}:${index}`),
+    }))
+    .sort((left, right) => {
+      if (left.rank !== right.rank) return left.rank - right.rank;
+      return left.question.stableId.localeCompare(right.question.stableId);
+    })
+    .slice(0, count)
+    .map(({ question }) => question);
+
+const buildPracticeSetItems = (questions: BankQuestion[]) =>
+  questions.map((question, index) => ({
+    subject: question.subject,
+    id: question.id,
+    sourceId: question.sourceId,
+    bankType: question.bankType,
+    storageId: question.stableId,
+    index: index + 1,
+  }));
+
+const taskActionLabel = (task: PlannerTask) => {
+  if (!task.action) return "Start assignment";
+  if (task.action.kind === "module") return task.type === "timed" ? "Start timed module" : "Start module";
+  if (task.action.kind === "module-slice") return "Start half module";
+  return `Start ${task.action.questionCount}-question set`;
 };
 
 const mergeLockedPlan = (
@@ -464,7 +696,33 @@ const sanitizeParsedReport = (parsed: ParsedScoreReport): ParsedScoreReport => (
 });
 
 const clampToStep = (value: number, min: number, max: number, step: number) =>
-  Math.min(max, Math.max(min, Math.round(value / step) * step));
+  Math.min(max, Math.max(min, Math.trunc(value / step) * step));
+
+const normalizeScoreDraft = (draft: string, min: number, max: number, step: number, fallback: number) => {
+  const digits = draft.replace(/\D/g, "");
+  if (!digits) return fallback;
+  const whole = Number(digits);
+  if (!Number.isFinite(whole)) return fallback;
+  if (whole >= min && whole <= max) return clampToStep(whole, min, max, step);
+
+  const candidates: number[] = [];
+  const addCandidate = (value: string) => {
+    if (!value) return;
+    const parsed = Number(value);
+    if (parsed >= min && parsed <= max) candidates.push(parsed);
+  };
+  const maxDigits = String(max).length;
+  if (digits.length > maxDigits) {
+    addCandidate(digits.slice(0, maxDigits));
+    addCandidate(digits.slice(-maxDigits));
+  }
+  if (digits.length > 3) {
+    addCandidate(digits.slice(0, 3));
+    addCandidate(digits.slice(-3));
+  }
+  if (candidates.length > 0) return clampToStep(candidates[0], min, max, step);
+  return clampToStep(whole, min, max, step);
+};
 
 const hasReportDomainEvidence = (domain: ParsedScoreReport["domains"][number]) =>
   typeof domain.proficiency === "number" || typeof domain.performanceMidpoint === "number";
@@ -477,9 +735,6 @@ const hasConsistentReportScores = (parsed: ParsedScoreReport) =>
   typeof parsed.readingWritingScore === "number" &&
   typeof parsed.mathScore === "number" &&
   parsed.totalScore === parsed.readingWritingScore + parsed.mathScore;
-
-const isStrongReportParse = (parsed: ParsedScoreReport) =>
-  hasConsistentReportScores(parsed) && reportDomainEvidenceCount(parsed) >= 4 && parsed.warnings.length === 0;
 
 const intensityFromParsedReport = (
   parsed: ParsedScoreReport,
@@ -516,47 +771,61 @@ const ScoreInput = ({
   max: number;
   onChange: (value: number) => void;
 }) => {
+  const [draft, setDraft] = useState(String(value));
+  const [isEditing, setIsEditing] = useState(false);
+
+  useEffect(() => {
+    if (!isEditing) setDraft(String(value));
+  }, [isEditing, value]);
+
   const applyValue = (next: number) => {
     if (!Number.isFinite(next)) return;
-    onChange(clampToStep(next, min, max, 10));
+    const clamped = clampToStep(next, min, max, 10);
+    setDraft(String(clamped));
+    onChange(clamped);
+  };
+
+  const commitDraft = () => {
+    setIsEditing(false);
+    applyValue(normalizeScoreDraft(draft, min, max, 10, value));
   };
 
   return (
-    <label className="block text-sm font-semibold">
-      {label}
-      <div className="mt-1 grid h-12 grid-cols-[2.5rem_1fr_2.5rem] overflow-hidden rounded-lg border border-border bg-background">
+    <div className="block text-sm font-semibold">
+      <div>{label}</div>
+      <div className="mt-1 grid h-12 grid-cols-[2.5rem_minmax(0,1fr)_2.5rem] gap-1">
         <button
           type="button"
           onClick={() => applyValue(value - 10)}
-          className="flex items-center justify-center border-r border-border text-ink-mid hover:bg-muted"
+          className="flex items-center justify-center rounded-lg border border-border bg-background text-ink-mid hover:bg-muted"
           aria-label={`Decrease ${label}`}
         >
           <Minus className="h-4 w-4" />
         </button>
         <input
-          type="number"
-          min={min}
-          max={max}
-          step={10}
-          value={value}
-          onChange={(event) => {
-            if (event.target.value === "") return;
-            const next = Number(event.target.value);
-            if (Number.isFinite(next)) onChange(Math.min(max, Math.max(min, next)));
+          type="text"
+          inputMode="numeric"
+          pattern="[0-9]*"
+          aria-label={label}
+          value={draft}
+          onFocus={() => setIsEditing(true)}
+          onChange={(event) => setDraft(event.target.value)}
+          onBlur={commitDraft}
+          onKeyDown={(event) => {
+            if (event.key === "Enter") event.currentTarget.blur();
           }}
-          onBlur={() => applyValue(value)}
-          className="min-w-0 border-0 bg-transparent px-2 text-center text-lg font-semibold outline-none"
+          className="min-w-0 rounded-lg border border-border bg-background px-2 text-center text-lg font-semibold outline-none focus:border-cobalt focus:ring-2 focus:ring-cobalt/20"
         />
         <button
           type="button"
           onClick={() => applyValue(value + 10)}
-          className="flex items-center justify-center border-l border-border text-ink-mid hover:bg-muted"
+          className="flex items-center justify-center rounded-lg border border-border bg-background text-ink-mid hover:bg-muted"
           aria-label={`Increase ${label}`}
         >
           <Plus className="h-4 w-4" />
         </button>
       </div>
-    </label>
+    </div>
   );
 };
 
@@ -587,7 +856,8 @@ const buildPrintableWeeks = (tasks: PlannerTask[]) => {
 };
 
 const StudyPlanLab = () => {
-  const [settings, setSettings] = useState<PlannerSettings>(() => loadJson(STORAGE_KEY, defaultSettings()));
+  const navigate = useNavigate();
+  const [settings, setSettings] = useState<PlannerSettings>(() => normalizeSettings(loadJson(STORAGE_KEY, defaultSettings())));
   const [progress, setProgress] = useState<StoredProgress>(() =>
     loadJson(PROGRESS_KEY, { completed: {}, confidence: {} }),
   );
@@ -595,12 +865,13 @@ const StudyPlanLab = () => {
     loadJson<UploadedScoreReport | null>(SCORE_REPORT_KEY, null),
   );
   const [planSnapshot, setPlanSnapshot] = useState<PlannerTask[]>(() =>
-    loadJson<PlannerTask[]>(PLAN_SNAPSHOT_KEY, []),
+    normalizeSnapshot(loadJson<PlannerTask[]>(PLAN_SNAPSHOT_KEY, [])),
   );
   const [selectedDate, setSelectedDate] = useState(
     () => buildDateRange(settings.startDate, settings.satDate).find((dateKey) => isStudyDay(dateKey, settings)) ?? settings.startDate,
   );
-  const [viewMode, setViewMode] = useState<ViewMode>("today");
+  const [viewMode, setViewMode] = useState<ViewMode>("dashboard");
+  const [launchingTaskId, setLaunchingTaskId] = useState<string | null>(null);
   const [isParsingReport, setIsParsingReport] = useState(false);
   const todayKey = currentDateKey();
 
@@ -641,9 +912,7 @@ const StudyPlanLab = () => {
   }, [tasks]);
 
   const selectedTasks = tasksByDate.get(selectedDate) ?? [];
-  const completedCount = tasks.filter((task) => progress.completed[task.id]).length;
   const totalMinutes = tasks.reduce((sum, task) => sum + task.minutes, 0);
-  const completedMinutes = tasks.reduce((sum, task) => sum + (progress.completed[task.id] ? task.minutes : 0), 0);
   const studyDays = buildDateRange(settings.startDate, settings.satDate).filter((dateKey) => isStudyDay(dateKey, settings));
   const averageMinutes = studyDays.length ? Math.round(totalMinutes / studyDays.length) : 0;
   const daysUntilTest = Math.max(0, daysBetween(todayKey, settings.satDate));
@@ -653,8 +922,6 @@ const StudyPlanLab = () => {
     : averageMinutes >= 45 || scoreGap > studyDays.length * 4
       ? "Balanced"
       : "Light";
-  const hardTasks = tasks.filter((task) => progress.confidence[task.id] === "hard");
-  const missedTasks = tasks.filter((task) => task.date < todayKey && !progress.completed[task.id]).length;
   const nextTask = tasks.find((task) => task.date >= todayKey && !progress.completed[task.id]) ?? tasks[0];
   const printableWeeks = useMemo(() => buildPrintableWeeks(tasks), [tasks]);
   const currentWeekStart = useMemo(() => weekStartFor(todayKey), [todayKey]);
@@ -721,6 +988,89 @@ const StudyPlanLab = () => {
     }));
   };
 
+  const launchBankSet = async (task: PlannerTask, action: Extract<PlannerTaskAction, { kind: "bank-set" }>) => {
+    const questions = action.filterType === "domain"
+      ? await loadQuestionsByDomain(action.subject, action.filterValue as MathDomain | EnglishDomain, "all")
+      : await loadQuestionsBySkill(action.subject, action.filterValue as MathSkill | EnglishSkill, "all");
+    const selected = selectPracticeQuestions(questions, action.questionCount, task.id);
+    const practiceSet = buildPracticeSetItems(selected);
+    const first = practiceSet[0];
+    if (!first) return;
+
+    sessionStorage.setItem("practiceExitTo", "/study-plan-lab");
+    sessionStorage.setItem("practiceSet", JSON.stringify(practiceSet));
+    sessionStorage.setItem("practiceSetTotal", String(practiceSet.length));
+    sessionStorage.setItem(PRACTICE_RUN_STORAGE_KEY, `study-plan-${task.id}-${Date.now()}`);
+    navigate(buildPracticeBankQuestionRoute({
+      subject: first.subject,
+      sourceId: first.sourceId,
+      bankType: first.bankType,
+      idx: 1,
+    }));
+  };
+
+  const launchModule = (task: PlannerTask, action: Extract<PlannerTaskAction, { kind: "module" }>) => {
+    const module = getPracticeModule(action.moduleSlug);
+    const practiceSet = action.moduleSlug ? buildModulePracticeSet(action.moduleSlug) : null;
+    const first = practiceSet?.[0];
+    if (!module || !practiceSet?.length || !first) return;
+
+    clearModulePracticeSession(module.slug);
+    const session = createModulePracticeSession(module, {
+      timed: true,
+      timeLimitSeconds: action.timeLimitMinutes * 60,
+      allowCheckingAnswers: false,
+    });
+    sessionStorage.setItem("practiceExitTo", "/study-plan-lab");
+    sessionStorage.setItem("practiceSet", JSON.stringify(practiceSet));
+    sessionStorage.setItem("practiceSetTotal", String(practiceSet.length));
+    navigate(buildModulePracticeQuestionRoute({
+      subject: first.subject,
+      sourceId: first.sourceId,
+      bankType: first.bankType,
+      idx: 1,
+      moduleSlug: module.slug,
+      moduleSessionId: session.sessionId,
+    }));
+  };
+
+  const launchModuleSlice = (task: PlannerTask, action: Extract<PlannerTaskAction, { kind: "module-slice" }>) => {
+    const module = getPracticeModule(action.moduleSlug);
+    const fullSet = action.moduleSlug ? buildModulePracticeSet(action.moduleSlug) : null;
+    const practiceSet = fullSet
+      ?.slice(action.startQuestionIndex, action.startQuestionIndex + action.questionCount)
+      .map((item, index) => ({ ...item, index: index + 1 }));
+    const first = practiceSet?.[0];
+    if (!module || !practiceSet?.length || !first) return;
+
+    sessionStorage.setItem("practiceExitTo", "/study-plan-lab");
+    sessionStorage.setItem("practiceSet", JSON.stringify(practiceSet));
+    sessionStorage.setItem("practiceSetTotal", String(practiceSet.length));
+    sessionStorage.setItem(PRACTICE_RUN_STORAGE_KEY, `study-plan-${task.id}-${Date.now()}`);
+    navigate(buildPracticeBankQuestionRoute({
+      subject: first.subject,
+      sourceId: first.sourceId,
+      bankType: first.bankType,
+      idx: 1,
+    }));
+  };
+
+  const openTask = async (task: PlannerTask) => {
+    if (!task.action || launchingTaskId) return;
+    setLaunchingTaskId(task.id);
+    try {
+      if (task.action.kind === "bank-set") {
+        await launchBankSet(task, task.action);
+      } else if (task.action.kind === "module-slice") {
+        launchModuleSlice(task, task.action);
+      } else {
+        launchModule(task, task.action);
+      }
+    } finally {
+      setLaunchingTaskId(null);
+    }
+  };
+
   const handleScoreReport = async (file: File | undefined) => {
     if (!file) return;
     setIsParsingReport(true);
@@ -733,7 +1083,7 @@ const StudyPlanLab = () => {
         focusById.has(focus),
       );
       const nextFocus = parsedFocus.length > 0 && hasDomainEvidence
-        ? Array.from(new Set<FocusId>([...parsedFocus, "Pacing", "Error Log"])).slice(0, 7)
+        ? Array.from(new Set<FocusId>([...parsedFocus, "Pacing"])).slice(0, 7)
         : [];
 
       setSettings((current) => {
@@ -779,65 +1129,13 @@ const StudyPlanLab = () => {
     setPlanSnapshot(nextPlan);
     setSettings((current) => ({ ...current, setupComplete: true }));
     setSelectedDate(nextPlan.find((task) => task.date >= todayKey && !progress.completed[task.id])?.date ?? nextPlan[0]?.date ?? settings.startDate);
-    setViewMode("today");
-  };
-
-  const applyTemplate = (template: "balanced" | "math" | "rw" | "weekend" | "crash") => {
-    setSettings((current) => {
-      if (template === "math") {
-        return {
-          ...current,
-          minutesPerDay: 60,
-          freeWeekdays: [1, 2, 3, 4, 6],
-          focus: ["Algebra", "Advanced Math", "Problem-Solving and Data Analysis", "Geometry and Trigonometry", "Pacing"],
-          intensity: { ...current.intensity, Algebra: "heavy", "Advanced Math": "heavy", "Geometry and Trigonometry": "normal" },
-        };
-      }
-      if (template === "rw") {
-        return {
-          ...current,
-          minutesPerDay: 60,
-          freeWeekdays: [1, 2, 3, 4, 6],
-          focus: ["Information and Ideas", "Craft and Structure", "Expression of Ideas", "Standard English Conventions", "Error Log"],
-          intensity: { ...current.intensity, "Information and Ideas": "heavy", "Standard English Conventions": "heavy" },
-        };
-      }
-      if (template === "weekend") {
-        return {
-          ...current,
-          minutesPerDay: 90,
-          freeWeekdays: [0, 6],
-          focus: ["Full Practice", "Error Log", "Pacing", "Algebra", "Standard English Conventions"],
-        };
-      }
-      if (template === "crash") {
-        return {
-          ...current,
-          minutesPerDay: 75,
-          freeWeekdays: [0, 1, 2, 3, 4, 5, 6],
-          focus: ["Pacing", "Error Log", "Full Practice", "Advanced Math", "Standard English Conventions"],
-          intensity: { ...current.intensity, Pacing: "heavy", "Error Log": "heavy", "Full Practice": "heavy" },
-        };
-      }
-      return {
-        ...current,
-        minutesPerDay: 45,
-        freeWeekdays: [1, 2, 3, 4, 6],
-        focus: defaultSettings().focus,
-        intensity: { ...current.intensity, ...defaultIntensity },
-      };
-    });
-  };
-
-  const resetProgress = () => {
-    setProgress({ completed: {}, confidence: {} });
+    setViewMode("dashboard");
   };
 
   const currentTotal = settings.currentMath + settings.currentReadingWriting;
   const firstPreviewTask = generatedTasks.find((task) => task.date >= todayKey) ?? generatedTasks[0];
-  const setupMode = !settings.setupComplete || viewMode === "settings";
-  const reportIsStrong = report?.parsed ? isStrongReportParse(report.parsed) : false;
-  const showTaskRail = viewMode === "today" || viewMode === "calendar";
+  const hasActivePlan = settings.setupComplete && planSnapshot.length > 0;
+  const setupMode = !hasActivePlan || viewMode === "settings";
   const selectedDayPanel = (
     <section className="rounded-lg border border-border bg-card p-4 shadow-sm">
       <div className="mb-3 flex items-start justify-between gap-3">
@@ -888,14 +1186,16 @@ const StudyPlanLab = () => {
                       ))}
                     </div>
                   )}
-                  {task.route && (
-                    <a
-                      href={task.route}
-                      className="mt-3 inline-flex items-center gap-1 text-sm font-semibold text-cobalt-ink hover:underline dark:text-cobalt print:hidden"
+                  {task.action && (
+                    <button
+                      type="button"
+                      onClick={() => openTask(task)}
+                      disabled={launchingTaskId === task.id}
+                      className="mt-3 inline-flex items-center gap-1 text-sm font-semibold text-cobalt-ink hover:underline disabled:cursor-wait disabled:opacity-60 dark:text-cobalt print:hidden"
                     >
-                      Open practice
+                      {launchingTaskId === task.id ? "Starting..." : taskActionLabel(task)}
                       <MoveRight className="h-4 w-4" />
-                    </a>
+                    </button>
                   )}
                 </div>
               </div>
@@ -927,10 +1227,10 @@ const StudyPlanLab = () => {
             <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">Build your SAT plan</h1>
             <p className="mt-1 text-sm text-ink-mid">Upload a score report or enter scores, then choose time and weak areas.</p>
           </div>
-          {settings.setupComplete && (
+          {hasActivePlan && (
             <button
               type="button"
-              onClick={() => setViewMode("today")}
+              onClick={() => setViewMode("dashboard")}
               className="h-10 rounded-lg border border-border bg-card px-4 text-sm font-semibold"
             >
               Back to dashboard
@@ -960,28 +1260,9 @@ const StudyPlanLab = () => {
                   className="sr-only"
                 />
               </label>
-              {report && (
-                <div className={`mt-3 rounded-lg border p-3 text-sm ${report.parsed && reportIsStrong ? "border-green-500/30 bg-green-500/10" : "border-amber-400/40 bg-amber-300/15"}`}>
-                  <div className="font-semibold">{report.name}</div>
-                  {report.parsed ? (
-                    <>
-                      <div className="mt-1 text-ink-mid">
-                        {reportIsStrong ? "Read" : "Partially read"} {report.parsed.totalScore ?? "total unknown"} total, RW {report.parsed.readingWritingScore ?? "-"}, Math {report.parsed.mathScore ?? "-"}.
-                      </div>
-                      {report.error && <div className="mt-2 text-amber-800 dark:text-amber-100">{report.error}</div>}
-                      {report.parsed.recommendedFocus.length > 0 && (
-                        <div className="mt-2 flex flex-wrap gap-1">
-                          {report.parsed.recommendedFocus.slice(0, 5).map((focus) => (
-                            <span key={focus} className="rounded-full bg-white/80 px-2 py-1 text-xs font-semibold text-green-800 dark:bg-ink/30 dark:text-green-200">
-                              {focus}
-                            </span>
-                          ))}
-                        </div>
-                      )}
-                    </>
-                  ) : (
-                    <div className="mt-1 text-ink-mid">{report.error ?? "Upload received."}</div>
-                  )}
+              {report?.error && (
+                <div className="mt-3 rounded-lg border border-amber-400/40 bg-amber-300/15 p-3 text-sm text-amber-800 dark:text-amber-100">
+                  {report.error}
                 </div>
               )}
               <div className="mt-4 grid gap-3 sm:grid-cols-3">
@@ -1022,7 +1303,7 @@ const StudyPlanLab = () => {
               </div>
               <div className="grid gap-3 sm:grid-cols-2">
                 <label className="block text-sm font-semibold">
-                  Study starts
+                  When do you want to start?
                   <input
                     type="date"
                     value={settings.startDate}
@@ -1031,32 +1312,26 @@ const StudyPlanLab = () => {
                   />
                 </label>
                 <label className="block text-sm font-semibold">
-                  Test date
-                  <input
-                    type="date"
+                  Which SAT are you taking?
+                  <select
                     value={settings.satDate}
                     onChange={(event) => updateSetting("satDate", event.target.value)}
                     className="mt-1 h-11 w-full rounded-lg border border-border bg-background px-3"
-                  />
-                </label>
-              </div>
-              <div className="mt-3 flex flex-wrap gap-2">
-                {officialSatDates.slice(0, 5).map((date) => (
-                  <button
-                    key={date.date}
-                    type="button"
-                    onClick={() => updateSetting("satDate", date.date)}
-                    className={`rounded-lg border px-3 py-2 text-xs font-semibold ${
-                      settings.satDate === date.date ? "border-ds-accent-deep bg-ds-accent text-ink-fixed" : "border-border bg-background"
-                    }`}
                   >
-                    {date.label}
-                  </button>
-                ))}
+                    {officialSatDates.map((date) => (
+                      <option key={date.date} value={date.date}>
+                        {date.monthLabel}
+                      </option>
+                    ))}
+                  </select>
+                  <span className="mt-1 block text-xs font-normal text-ink-muted">
+                    {officialSatDates.find((date) => date.date === settings.satDate)?.label}
+                  </span>
+                </label>
               </div>
               <div className="mt-4">
                 <div className="flex items-center justify-between text-sm font-semibold">
-                  <span>Base minutes per study day</span>
+                  <span>Minutes per study day</span>
                   <span>{settings.minutesPerDay}</span>
                 </div>
                 <Slider
@@ -1066,6 +1341,32 @@ const StudyPlanLab = () => {
                   step={15}
                   onValueChange={([value]) => updateSetting("minutesPerDay", value)}
                 />
+              </div>
+              <div className="mt-4 grid gap-2 sm:grid-cols-2">
+                {([
+                  {
+                    value: "steady",
+                    title: "Keep timing steady",
+                    detail: "Timed work uses normal pacing.",
+                  },
+                  {
+                    value: "tighten",
+                    title: "Tighten module timing",
+                    detail: "Math module timers get a little shorter over time.",
+                  },
+                ] as const).map((option) => (
+                  <button
+                    key={option.value}
+                    type="button"
+                    onClick={() => updateSetting("pacingMode", option.value)}
+                    className={`rounded-lg border p-3 text-left ${
+                      settings.pacingMode === option.value ? "border-ds-accent-deep bg-ds-accent/20" : "border-border bg-background"
+                    }`}
+                  >
+                    <div className="font-semibold">{option.title}</div>
+                    <div className="mt-1 text-xs text-ink-mid">{option.detail}</div>
+                  </button>
+                ))}
               </div>
               <div className="mt-4 grid grid-cols-7 gap-1">
                 {weekdayLabels.map((label, index) => {
@@ -1087,18 +1388,11 @@ const StudyPlanLab = () => {
             </div>
 
             <div className="rounded-lg border border-border bg-card p-5 shadow-sm">
-              <div className="mb-4 flex items-center justify-between gap-3">
+              <div className="mb-4">
                 <div>
                   <h2 className="font-semibold">3. Focus</h2>
                   <p className="text-sm text-ink-mid">Pick weak domains or let the score report choose them.</p>
                 </div>
-                <button
-                  type="button"
-                  onClick={() => applyTemplate("balanced")}
-                  className="h-9 rounded-lg border border-border bg-background px-3 text-sm font-semibold"
-                >
-                  Balanced
-                </button>
               </div>
               <div className="grid gap-2 sm:grid-cols-2">
                 {focusAreas.map((area) => {
@@ -1130,19 +1424,19 @@ const StudyPlanLab = () => {
           <aside className="space-y-4">
             <section className="rounded-lg border border-border bg-card p-5 shadow-sm">
               <div className="text-sm font-semibold text-ink-muted">Preview</div>
-              <div className="mt-3 text-3xl font-semibold">{daysBetween(settings.startDate, settings.satDate)}</div>
-              <div className="text-sm text-ink-mid">calendar days until test</div>
+              <div className="mt-3 text-3xl font-semibold">{Math.max(0, daysBetween(settings.startDate, settings.satDate))}</div>
+              <div className="text-sm text-ink-mid">days until test</div>
               <div className="mt-5 grid gap-3">
                 <div className="rounded-lg bg-background p-3">
-                  <div className="text-xs font-semibold uppercase text-ink-muted">Study rhythm</div>
-                  <div className="mt-1 font-semibold">{settings.freeWeekdays.length} days/week · {settings.minutesPerDay} min base</div>
+                  <div className="text-xs font-semibold uppercase text-ink-muted">Your study days</div>
+                  <div className="mt-1 font-semibold">{settings.freeWeekdays.length} days/week · {settings.minutesPerDay} min each</div>
                 </div>
                 <div className="rounded-lg bg-background p-3">
                   <div className="text-xs font-semibold uppercase text-ink-muted">Score gap</div>
                   <div className="mt-1 font-semibold">{Math.max(0, settings.targetScore - currentTotal)} points</div>
                 </div>
                 <div className="rounded-lg bg-background p-3">
-                  <div className="text-xs font-semibold uppercase text-ink-muted">First task</div>
+                  <div className="text-xs font-semibold uppercase text-ink-muted">First study day</div>
                   <div className="mt-1 font-semibold">{firstPreviewTask?.title ?? "No study day selected"}</div>
                   {firstPreviewTask && <div className="text-sm text-ink-mid">{formatDate(firstPreviewTask.date)} · {firstPreviewTask.minutes} min</div>}
                 </div>
@@ -1153,32 +1447,9 @@ const StudyPlanLab = () => {
                 disabled={isParsingReport || generatedTasks.length === 0}
                 className="mt-5 h-12 w-full rounded-lg bg-ink-fixed px-4 font-semibold text-white disabled:cursor-not-allowed disabled:opacity-60 dark:bg-white dark:text-ink-fixed"
               >
-                {settings.setupComplete ? "Save schedule" : "Create plan"}
+                {hasActivePlan ? "Save schedule" : "Create plan"}
               </button>
             </section>
-
-            <details className="rounded-lg border border-border bg-card p-4 shadow-sm">
-              <summary className="cursor-pointer text-sm font-semibold">Need help finding your report?</summary>
-              <div className="mt-3 space-y-3">
-                {scoreReportGuideSteps.map((step, index) => (
-                  <article key={step.title} className="overflow-hidden rounded-lg border border-border bg-background">
-                    <img src={step.image} alt={step.title} className="h-28 w-full object-cover object-top" loading="lazy" />
-                    <div className="p-3 text-sm">
-                      <div className="font-semibold text-ink">{index + 1}. {step.title}</div>
-                      <div className="mt-1 text-ink-mid">{step.detail}</div>
-                    </div>
-                  </article>
-                ))}
-              </div>
-              <a
-                href="https://satsuite.collegeboard.org/scores/score-release-dates/getting-sat-weekend-scores"
-                target="_blank"
-                rel="noreferrer"
-                className="mt-3 inline-flex text-sm font-semibold text-cobalt-ink hover:underline dark:text-cobalt"
-              >
-                Official College Board instructions
-              </a>
-            </details>
           </aside>
         </div>
       </main>
@@ -1259,7 +1530,7 @@ const StudyPlanLab = () => {
         </div>
       </section>
 
-      <div className={`grid gap-5 print:hidden ${showTaskRail ? "xl:grid-cols-[minmax(0,1fr)_22rem]" : ""}`}>
+      <div className="grid gap-5 print:hidden xl:grid-cols-[minmax(0,1fr)_22rem]">
         <section className="min-w-0 space-y-4">
           <div className="rounded-lg border border-border bg-card p-4 shadow-sm">
             <div className="mb-4 flex flex-wrap items-start justify-between gap-3">
@@ -1289,52 +1560,81 @@ const StudyPlanLab = () => {
                 <div className="text-xs text-ink-mid">{averageMinutes} min per study day</div>
               </div>
               <div>
-                <div className="text-xs font-semibold uppercase text-ink-muted">Progress</div>
-                <div className="mt-1 text-2xl font-semibold sm:text-3xl">{completedCount}/{tasks.length}</div>
-                <div className="text-xs text-ink-mid">{completedMinutes} of {totalMinutes} minutes done</div>
+                <div className="text-xs font-semibold uppercase text-ink-muted">Study days</div>
+                <div className="mt-1 text-2xl font-semibold sm:text-3xl">{studyDays.length}</div>
+                <div className="text-xs text-ink-mid">{tasks.length} tasks · {totalMinutes} minutes</div>
               </div>
               <div>
-                <div className="text-xs font-semibold uppercase text-ink-muted">Adaptive flags</div>
-                <div className="mt-1 text-2xl font-semibold sm:text-3xl">{hardTasks.length + missedTasks}</div>
-                <div className="text-xs text-ink-mid">{missedTasks} missed, {hardTasks.length} marked hard</div>
+                <div className="text-xs font-semibold uppercase text-ink-muted">Next up</div>
+                <div className="mt-1 truncate text-2xl font-semibold sm:text-3xl">{nextTask?.minutes ?? 0} min</div>
+                <div className="truncate text-xs text-ink-mid">{nextTask ? nextTask.title : "No task scheduled"}</div>
               </div>
             </div>
           </div>
 
-          <div className="rounded-lg border border-border bg-card p-2 shadow-sm print:hidden">
-            <div className="grid grid-cols-4 gap-1">
-              {(["today", "calendar", "progress", "settings"] as ViewMode[]).map((mode) => (
-                <button
-                  key={mode}
-                  type="button"
-                  onClick={() => setViewMode(mode)}
-                  className={`h-10 rounded-lg text-xs font-semibold ${
-                    viewMode === mode ? "bg-ink-fixed text-white dark:bg-white dark:text-ink-fixed" : "text-ink-mid"
-                  }`}
-                >
-                  {mode === "settings" ? "Edit" : mode[0].toUpperCase() + mode.slice(1)}
-                </button>
-              ))}
+          <section className="rounded-lg border border-border bg-card p-4 shadow-sm">
+            <div className="mb-4 flex items-center justify-between gap-3">
+              <div>
+                <h2 className="font-semibold">Today and calendar</h2>
+                <p className="text-sm text-ink-mid">Pick a day, review the tasks, and print the full plan.</p>
+              </div>
+              <button
+                type="button"
+                onClick={() => window.print()}
+                className="inline-flex h-9 items-center gap-2 rounded-lg border border-border bg-background px-3 text-sm font-semibold"
+              >
+                <Printer className="h-4 w-4" />
+                Print
+              </button>
             </div>
-          </div>
 
-          <div className={viewMode === "calendar" ? "block" : "hidden"}>
-            <section className="rounded-lg border border-border bg-card p-4 shadow-sm">
+            <div className="mb-4 xl:hidden">
+              {selectedDayPanel}
+            </div>
+
+            <section className="mb-5">
               <div className="mb-3 flex items-center justify-between gap-3">
                 <div>
-                  <h2 className="font-semibold">Daily calendar</h2>
-                  <p className="text-sm text-ink-mid">Click a day to inspect tasks and mark progress.</p>
+                  <h3 className="font-semibold">This week</h3>
+                  <p className="text-sm text-ink-mid">{formatDate(currentWeekStart)} - {formatDate(addDays(currentWeekStart, 6))} · {currentWeekMinutes} minutes</p>
                 </div>
-                <div className="flex gap-2 print:hidden">
+                <div className="rounded-full bg-muted px-3 py-1 text-xs font-semibold text-ink-mid">
+                  {currentWeekDates.reduce((sum, date) => sum + (tasksByDate.get(date)?.length ?? 0), 0)} tasks
+                </div>
+              </div>
+              <div className="grid grid-cols-2 gap-2 sm:grid-cols-4 md:grid-cols-7">
+                {currentWeekDates.map((date) => {
+                  const dayTasks = tasksByDate.get(date) ?? [];
+                  const isSelected = date === selectedDate;
+                  return (
                   <button
+                    key={date}
                     type="button"
-                    onClick={() => window.print()}
-                    className="inline-flex h-9 items-center gap-2 rounded-lg border border-border bg-background px-3 text-sm font-semibold"
+                    onClick={() => setSelectedDate(date)}
+                    className={`min-h-20 min-w-0 overflow-hidden rounded-lg border p-2 text-left sm:min-h-24 sm:p-3 ${
+                      isSelected ? "border-ink bg-ink text-white dark:border-white dark:bg-white dark:text-ink-fixed" : "border-border bg-background"
+                    }`}
                   >
-                    <Printer className="h-4 w-4" />
-                    Print
+                    <div className="text-xs font-semibold">{weekdayLabels[new Date(`${date}T12:00:00`).getDay()]}</div>
+                    <div className="mt-1 text-lg font-semibold">{new Date(`${date}T12:00:00`).getDate()}</div>
+                    {dayTasks.length > 0 ? (
+                      <div className="mt-2 text-xs">
+                        <div className="font-semibold">{dayTasks.length} task{dayTasks.length === 1 ? "" : "s"}</div>
+                        <div className="opacity-80">{dayTasks.reduce((sum, task) => sum + task.minutes, 0)} min</div>
+                      </div>
+                    ) : (
+                      <div className="mt-2 text-xs opacity-70">Open</div>
+                    )}
                   </button>
-                </div>
+                  );
+                })}
+              </div>
+            </section>
+
+            <section className="border-t border-border pt-4">
+              <div className="mb-3">
+                <h3 className="font-semibold">Daily calendar</h3>
+                <p className="text-sm text-ink-mid">Click a day to inspect tasks and mark progress.</p>
               </div>
               <div className="grid grid-cols-7 gap-1 text-center text-xs font-semibold text-ink-muted">
                 {weekdayLabels.map((day) => (
@@ -1387,107 +1687,14 @@ const StudyPlanLab = () => {
                   );
                 })}
               </div>
-              <div className="mt-4 xl:hidden">
-                {selectedDayPanel}
-              </div>
             </section>
-          </div>
-
-          <div className={viewMode === "today" ? "block" : "hidden"}>
-            <div className="mb-4 xl:hidden">
-              {selectedDayPanel}
-            </div>
-            <section className="rounded-lg border border-border bg-card p-4 shadow-sm">
-              <div className="mb-3 flex items-center justify-between gap-3">
-                <div>
-                  <h2 className="font-semibold">This week</h2>
-                  <p className="text-sm text-ink-mid">{formatDate(currentWeekStart)} - {formatDate(addDays(currentWeekStart, 6))} · {currentWeekMinutes} minutes</p>
-                </div>
-                <div className="rounded-full bg-muted px-3 py-1 text-xs font-semibold text-ink-mid">
-                  {currentWeekDates.reduce((sum, date) => sum + (tasksByDate.get(date)?.length ?? 0), 0)} tasks
-                </div>
-              </div>
-              <div className="grid grid-cols-2 gap-2 sm:grid-cols-4 md:grid-cols-7">
-                {currentWeekDates.map((date) => {
-                  const dayTasks = tasksByDate.get(date) ?? [];
-                  const isSelected = date === selectedDate;
-                  return (
-                    <button
-                      key={date}
-                      type="button"
-                      onClick={() => {
-                        setSelectedDate(date);
-                        setViewMode("today");
-                      }}
-                      className={`min-h-20 min-w-0 overflow-hidden rounded-lg border p-2 text-left sm:min-h-24 sm:p-3 ${
-                        isSelected ? "border-ink bg-ink text-white dark:border-white dark:bg-white dark:text-ink-fixed" : "border-border bg-background"
-                      }`}
-                    >
-                      <div className="text-xs font-semibold">{weekdayLabels[new Date(`${date}T12:00:00`).getDay()]}</div>
-                      <div className="mt-1 text-lg font-semibold">{new Date(`${date}T12:00:00`).getDate()}</div>
-                      {dayTasks.length > 0 ? (
-                        <div className="mt-2 text-xs">
-                          <div className="font-semibold">{dayTasks.length} task{dayTasks.length === 1 ? "" : "s"}</div>
-                          <div className="opacity-80">{dayTasks.reduce((sum, task) => sum + task.minutes, 0)} min</div>
-                        </div>
-                      ) : (
-                        <div className="mt-2 text-xs opacity-70">Open</div>
-                      )}
-                    </button>
-                  );
-                })}
-              </div>
-            </section>
-          </div>
-
-          <div className={viewMode === "progress" ? "block" : "hidden"}>
-            <section className="rounded-lg border border-border bg-card p-4 shadow-sm">
-              <div className="mb-3 flex items-center justify-between gap-3">
-                <div>
-                  <h2 className="font-semibold">Progress and rebalancing</h2>
-                  <p className="text-sm text-ink-mid">Hard or missed work becomes the next review priority.</p>
-                </div>
-                <button
-                  type="button"
-                  onClick={resetProgress}
-                  className="inline-flex h-9 items-center gap-2 rounded-lg border border-border bg-background px-3 text-sm font-semibold print:hidden"
-                >
-                  <RefreshCw className="h-4 w-4" />
-                  Reset
-                </button>
-              </div>
-              <div className="grid gap-3 md:grid-cols-3">
-                <div className="rounded-lg border border-border bg-background p-4">
-                  <Flame className="h-5 w-5 text-amber-600" />
-                  <div className="mt-3 text-2xl font-semibold">{Math.round((completedCount / Math.max(1, tasks.length)) * 100)}%</div>
-                  <div className="text-sm text-ink-mid">completion</div>
-                </div>
-                <div className="rounded-lg border border-border bg-background p-4">
-                  <BarChart3 className="h-5 w-5 text-green-700" />
-                  <div className="mt-3 text-2xl font-semibold">{scoreGap}</div>
-                  <div className="text-sm text-ink-mid">points to target</div>
-                </div>
-                <div className="rounded-lg border border-border bg-background p-4">
-                  <AlertCircle className="h-5 w-5 text-red-600" />
-                  <div className="mt-3 text-2xl font-semibold">{missedTasks}</div>
-                  <div className="text-sm text-ink-mid">overdue tasks</div>
-                </div>
-              </div>
-              {(hardTasks.length > 0 || missedTasks > 0) && (
-                <div className="mt-3 rounded-lg border border-amber-400/40 bg-amber-300/15 p-4 text-sm">
-                  Next generated review priority: {hardTasks[0]?.title ?? "unfinished earlier work"}. Add a review block or increase that focus area's intensity.
-                </div>
-              )}
-            </section>
-          </div>
+          </section>
         </section>
 
-        {showTaskRail && (
-          <aside className="hidden space-y-4 xl:block">
-            {selectedDayPanel}
-            {nextUpPanel}
-          </aside>
-        )}
+        <aside className="hidden space-y-4 xl:block">
+          {selectedDayPanel}
+          {nextUpPanel}
+        </aside>
       </div>
     </main>
   );

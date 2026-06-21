@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+      "title": "Identify diameter AC",
+      "content": "The diagram marks angle $ABC$ as a right angle. An inscribed right angle subtends a diameter, so $AC$ is a diameter of the circle. Since the diameter is $175$, $$AD+CD=175.$$"
     },
     {
-      "title": "Set up coordinates using perpendicular chords",
-      "content": "Since $AC \\perp BE$ and they intersect at $D$, place $D$ at the origin with $AC$ along the x-axis and $BE$ along the y-axis. Let $AD = x$ and $CD = y$. Then:<ul><li>$A = (-x, 0)$</li><li>$C = (y, 0)$</li><li>$B = (0, \\sqrt{346})$ (since $BD = \\sqrt{346}$)</li><li>$E = (0, -z)$ for some $z \\gt  0$</li></ul>By the intersecting chords theorem: $AD \\cdot CD = BD \\cdot DE$, so $xy = \\sqrt{346} \\cdot z$, giving $z = \\frac{xy}{\\sqrt{346}}$."
+      "title": "Use the altitude-to-hypotenuse theorem",
+      "content": "Because $AC\\perp BE$ at $D$, segment $BD$ is the altitude from the right angle to hypotenuse $AC$ in right triangle $ABC$. Therefore: $$BD^2=AD\\cdot CD.$$ With $BD=\\sqrt{346}$, this gives $$AD\\cdot CD=346.$$"
     },
     {
-      "title": "Find the circle's center using perpendicular bisectors",
-      "content": "All four points lie on a circle with radius $\\frac{175}{2} = 87.5$. The center lies on the perpendicular bisector of each chord:<ul><li>Perpendicular bisector of $AC$ (horizontal chord): vertical line at $x = \\frac{y-x}{2}$, so $h = \\frac{y-x}{2}$</li><li>Perpendicular bisector of $BE$ (vertical chord): horizontal line at $y = \\frac{\\sqrt{346}-z}{2}$, so $k = \\frac{\\sqrt{346}-z}{2}$</li></ul>Substituting $z = \\frac{xy}{\\sqrt{346}}$ into the expression for $k$: $$k = \\frac{\\sqrt{346} - \\frac{xy}{\\sqrt{346}}}{2} = \\frac{346 - xy}{2\\sqrt{346}}$$"
-    },
-    {
-      "title": "Apply circle equation to derive constraint on ratio",
-      "content": "Use point $A = (-x, 0)$ in the circle equation $(X-h)^2 + (Y-k)^2 = 87.5^2$:<br/>$$\\left(-x - \\frac{y-x}{2}\\right)^2 + \\left(\\frac{346-xy}{2\\sqrt{346}}\\right)^2 = 7656.25$$<br/>Simplifying the left side: $\\left(-\\frac{x+y}{2}\\right)^2 + \\frac{(346-xy)^2}{4 \\cdot 346} = 7656.25$<br/>Multiply by $1384 = 4 \\cdot 346$:<br/>$$346(x+y)^2 + (346-xy)^2 = 346 \\cdot 30625$$<br/>The diameter gives $x + y = 175$, so substitute $s = xy$:<br/>$$346(175)^2 + (346 - s)^2 = 346 \\cdot 30625$$<br/>$$346 \\cdot 30625 + (346 - s)^2 = 346 \\cdot 30625$$<br/>$$(346 - s)^2 = 0 \\implies s = xy = 346$$<br/>Now solve the system $x + y = 175$ and $xy = 346$. These are roots of:<br/>$$t^2 - 175t + 346 = 0$$<br/>$$t = \\frac{175 \\pm \\sqrt{175^2 - 4 \\cdot 346}}{2} = \\frac{175 \\pm 171}{2}$$<br/>So $t = 173$ or $t = 2$. Since $AB\\lt BC$, $CD$ is the longer segment, so $r=\\frac{CD}{AD}=\\frac{173}{2}$. The exact answer is <strong>173/2</strong>."
+      "title": "Solve for the two hypotenuse segments",
+      "content": "The two positive numbers $AD$ and $CD$ have sum $175$ and product $346$, so they are the roots of $$t^2-175t+346=0.$$ Factoring gives $t=2$ and $t=173$. Since $AB\\lt BC$, the segment adjacent to $AB$ is shorter, so $AD=2$ and $CD=173$. Thus $$r=\\frac{CD}{AD}=\\frac{173}{2}.$$"
     }
   ]
 }

@@ -1,10 +1,8 @@
-import React, { Component, ErrorInfo, ReactNode } from "react";
+import { Component, type ErrorInfo, type ReactNode } from "react";
 import { isChunkLoadError, recoverFromChunkLoadError } from "@/lib/chunkLoadRecovery";
 
 interface Props {
   children: ReactNode;
-  title?: string;
-  description?: string;
 }
 
 interface State {
@@ -48,11 +46,9 @@ export class ErrorBoundary extends Component<Props, State> {
           role="alert"
           className="fixed bottom-4 right-4 z-[1000] w-[min(calc(100vw-2rem),360px)] rounded-lg border border-destructive/25 bg-background p-3 text-foreground shadow-2xl"
         >
-          <h2 className="text-sm font-semibold">
-            {this.props.title ?? "Something went wrong"}
-          </h2>
+          <h2 className="text-sm font-semibold">Something went wrong</h2>
           <p className="mt-1 text-xs leading-5 text-muted-foreground">
-            {this.props.description ?? "This part of the page could not load. You can keep working or try again."}
+            This part of the page could not load. You can keep working or try again.
           </p>
           {import.meta.env.DEV && (
             <pre className="mt-2 max-h-28 overflow-auto rounded-md bg-muted p-2 text-[11px] text-muted-foreground">

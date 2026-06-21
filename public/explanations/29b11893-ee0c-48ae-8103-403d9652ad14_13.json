@@ -13,7 +13,7 @@
     },
     {
       "title": "Answer",
-      "content": "Matching to the given form $\\frac{m \\pm \\sqrt{q}}{2}$: $m = -5$ and $q = 213$. Therefore $m + q = -5 + 213 = $ <strong>208</strong>."
+      "content": "Matching to the given form $\\frac{m \\pm \\sqrt{q}}{2}$: $m = -5$ and $q = 213$. Therefore $m+q=-5+213=208$."
     }
   ]
 }

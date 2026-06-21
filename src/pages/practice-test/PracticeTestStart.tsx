@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Slider } from "@/components/ui/slider";
 import { Switch } from "@/components/ui/switch";
-import { getPracticeSet } from "@/data/modulePracticeBank";
+import { getPracticeSet, type PracticeSet } from "@/data/modulePracticeBank";
 import {
   buildPracticeTestDefaultTiming,
   clearPracticeTestSession,
@@ -16,6 +16,7 @@ import {
 import { launchPracticeTest } from "@/lib/practice/practiceTestNavigation";
 
 type TimedPreset = "normal" | "1.5x" | "2x" | "advanced";
+type PracticeTestModule = PracticeSet["modules"][number];
 
 const TIMED_PRESETS: Array<{ key: TimedPreset; label: string; multiplier: number | null }> = [
   { key: "normal", label: "Normal", multiplier: 1 },
@@ -24,29 +25,47 @@ const TIMED_PRESETS: Array<{ key: TimedPreset; label: string; multiplier: number
   { key: "advanced", label: "Advanced", multiplier: null },
 ];
 
-const formatMinutes = (seconds: number | null) =>
-  seconds === null ? "Untimed" : `${Math.round(seconds / 60)} min`;
+const MODULES_PATH = "/modules";
+const MIN_MODULE_MINUTES = 1;
+const BACK_BUTTON_CLASS = "-ml-3 w-fit gap-2 px-3";
+const OPTION_SECTION_CLASS = "rounded-2xl border border-border/60 bg-muted/30 p-5";
+const OPTION_SECTION_HEADER_CLASS = "flex items-start justify-between gap-4";
+const MODULE_TIME_CARD_CLASS = "rounded-xl border border-border/60 bg-background px-4 py-3";
+const START_NEW_ATTEMPT_CONFIRM_MESSAGE =
+  "Starting a new attempt will discard your saved progress for this practice test. Continue?";
+
+const roundSecondsToMinutes = (seconds: number): number => Math.round(seconds / 60);
+
+const getDefaultModuleSeconds = (module: PracticeTestModule): number =>
+  getPracticeTestDefaultTimeLimitSeconds(module.subject, module.moduleNumber);
+
+const buildPresetModuleMinutes = (
+  practiceSet: PracticeSet,
+  multiplier: number,
+): Record<string, number> =>
+  Object.fromEntries(
+    practiceSet.modules.map((module) => [
+      module.slug,
+      roundSecondsToMinutes(getDefaultModuleSeconds(module) * multiplier),
+    ]),
+  );
+
+const formatMinutes = (seconds: number | null): string =>
+  seconds === null ? "Untimed" : `${roundSecondsToMinutes(seconds)} min`;
 
 const PracticeTestStart = () => {
   const { setId } = useParams<{ setId: string }>();
   const navigate = useNavigate();
   const practiceSet = useMemo(() => (setId ? getPracticeSet(setId) : null), [setId]);
-  const [sessionRefreshKey, setSessionRefreshKey] = useState(0);
-  const savedSession = useMemo(
-    () => {
-      void sessionRefreshKey;
-      return practiceSet ? getPracticeTestSession(practiceSet.id) : null;
-    },
-    [practiceSet, sessionRefreshKey],
-  );
+  const [, setSessionRefreshKey] = useState(0);
+  const savedSession = practiceSet ? getPracticeTestSession(practiceSet.id) : null;
 
   const defaultTiming = useMemo(
     () => (practiceSet ? buildPracticeTestDefaultTiming(practiceSet) : {}),
     [practiceSet],
   );
 
-  const savedTimingMode = savedSession?.settings.timed ?? true;
-  const [timed, setTimed] = useState(savedTimingMode);
+  const [timed, setTimed] = useState(savedSession?.settings.timed ?? true);
   const [allowCheckingAnswers, setAllowCheckingAnswers] = useState(
     savedSession?.settings.allowCheckingAnswers ?? false,
   );
@@ -54,16 +73,15 @@ const PracticeTestStart = () => {
   const initialPreset = useMemo<TimedPreset>(() => {
     if (!practiceSet || !savedSession?.settings.timed) return "normal";
 
-    const multipliers = [1, 1.5, 2];
-    for (const multiplier of multipliers) {
+    for (const preset of TIMED_PRESETS) {
+      if (preset.multiplier === null) continue;
+
       const matches = practiceSet.modules.every((module) => {
-        const expected = Math.round(
-          getPracticeTestDefaultTimeLimitSeconds(module.subject, module.moduleNumber) * multiplier,
-        );
+        const expected = Math.round(getDefaultModuleSeconds(module) * preset.multiplier);
         return savedSession.settings.moduleTimeLimitSeconds[module.slug] === expected;
       });
       if (matches) {
-        return multiplier === 1 ? "normal" : multiplier === 1.5 ? "1.5x" : "2x";
+        return preset.key;
       }
     }
 
@@ -78,7 +96,7 @@ const PracticeTestStart = () => {
       practiceSet.modules.map((module) => {
         const savedSeconds = savedSession?.settings.moduleTimeLimitSeconds[module.slug];
         const defaultSeconds = defaultTiming[module.slug];
-        return [module.slug, Math.round((savedSeconds ?? defaultSeconds) / 60)];
+        return [module.slug, roundSecondsToMinutes(savedSeconds ?? defaultSeconds)];
       }),
     );
   });
@@ -86,8 +104,8 @@ const PracticeTestStart = () => {
   if (!practiceSet) {
     return (
       <div className="mx-auto flex min-h-screen w-full max-w-3xl flex-col gap-6 px-4 py-12 sm:px-6">
-        <Button variant="ghost" asChild className="-ml-3 w-fit gap-2 px-3">
-          <Link to="/modules">
+        <Button variant="ghost" asChild className={BACK_BUTTON_CLASS}>
+          <Link to={MODULES_PATH}>
             <ArrowLeft className="h-4 w-4" />
             Back
           </Link>
@@ -106,16 +124,7 @@ const PracticeTestStart = () => {
     if (preset === "advanced") return;
 
     const multiplier = TIMED_PRESETS.find((entry) => entry.key === preset)?.multiplier ?? 1;
-    setModuleMinutes(
-      Object.fromEntries(
-        practiceSet.modules.map((module) => [
-          module.slug,
-          Math.round(
-            (getPracticeTestDefaultTimeLimitSeconds(module.subject, module.moduleNumber) * (multiplier ?? 1)) / 60,
-          ),
-        ]),
-      ),
-    );
+    setModuleMinutes(buildPresetModuleMinutes(practiceSet, multiplier));
   };
 
   const settings: PracticeTestSettings = {
@@ -124,7 +133,7 @@ const PracticeTestStart = () => {
     moduleTimeLimitSeconds: Object.fromEntries(
       practiceSet.modules.map((module) => [
         module.slug,
-        timed ? Math.max(1, moduleMinutes[module.slug] ?? 1) * 60 : null,
+        timed ? Math.max(MIN_MODULE_MINUTES, moduleMinutes[module.slug] ?? MIN_MODULE_MINUTES) * 60 : null,
       ]),
     ),
   };
@@ -134,9 +143,7 @@ const PracticeTestStart = () => {
       !resumeExisting &&
       savedSession &&
       savedSession.status !== "submitted" &&
-      !window.confirm(
-        "Starting a new attempt will discard your saved progress for this practice test. Continue?",
-      )
+      !window.confirm(START_NEW_ATTEMPT_CONFIRM_MESSAGE)
     ) {
       return;
     }
@@ -155,8 +162,8 @@ const PracticeTestStart = () => {
 
   return (
     <div className="mx-auto flex min-h-screen w-full max-w-4xl flex-col gap-6 px-4 py-8 sm:px-6 lg:px-8">
-      <Button variant="ghost" asChild className="-ml-3 w-fit gap-2 px-3">
-        <Link to="/modules">
+      <Button variant="ghost" asChild className={BACK_BUTTON_CLASS}>
+        <Link to={MODULES_PATH}>
           <ArrowLeft className="h-4 w-4" />
           Back
         </Link>
@@ -221,8 +228,8 @@ const PracticeTestStart = () => {
           <CardTitle>Options</CardTitle>
         </CardHeader>
         <CardContent className="space-y-6">
-          <div className="rounded-2xl border border-border/60 bg-muted/30 p-5">
-            <div className="flex items-start justify-between gap-4">
+          <div className={OPTION_SECTION_CLASS}>
+            <div className={OPTION_SECTION_HEADER_CLASS}>
               <div>
                 <div className="text-base font-semibold">Timed</div>
               </div>
@@ -253,24 +260,24 @@ const PracticeTestStart = () => {
                     {practiceSet.modules.map((module) => (
                       <div
                         key={module.slug}
-                        className="rounded-xl border border-border/60 bg-background px-4 py-3"
+                        className={MODULE_TIME_CARD_CLASS}
                       >
                         <div className="flex items-center justify-between gap-3">
                           <div className="text-sm font-medium">{module.publicTitle}</div>
                           <div className="inline-flex items-center rounded-full border border-border/70 bg-background px-3 py-1 text-sm font-medium">
-                            {moduleMinutes[module.slug] ?? 1} min
+                            {moduleMinutes[module.slug] ?? MIN_MODULE_MINUTES} min
                           </div>
                         </div>
                         <div className="mt-4">
                           <Slider
-                            min={1}
-                            max={Math.round((getPracticeTestDefaultTimeLimitSeconds(module.subject, module.moduleNumber) * 2) / 60)}
+                            min={MIN_MODULE_MINUTES}
+                            max={roundSecondsToMinutes(getDefaultModuleSeconds(module) * 2)}
                             step={1}
-                            value={[moduleMinutes[module.slug] ?? 1]}
+                            value={[moduleMinutes[module.slug] ?? MIN_MODULE_MINUTES]}
                             onValueChange={(value) =>
                               setModuleMinutes((previous) => ({
                                 ...previous,
-                                [module.slug]: Math.max(1, value[0] ?? 1),
+                                [module.slug]: Math.max(MIN_MODULE_MINUTES, value[0] ?? MIN_MODULE_MINUTES),
                               }))
                             }
                           />
@@ -283,8 +290,8 @@ const PracticeTestStart = () => {
             )}
           </div>
 
-          <div className="rounded-2xl border border-border/60 bg-muted/30 p-5">
-            <div className="flex items-start justify-between gap-4">
+          <div className={OPTION_SECTION_CLASS}>
+            <div className={OPTION_SECTION_HEADER_CLASS}>
               <div>
                 <div className="text-base font-semibold">Enable checking answers</div>
                 <p className="mt-1 text-sm leading-6 text-muted-foreground">
@@ -298,10 +305,10 @@ const PracticeTestStart = () => {
             </div>
           </div>
 
-          <div className="rounded-2xl border border-border/60 bg-muted/30 p-5">
+          <div className={OPTION_SECTION_CLASS}>
             <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
               {practiceSet.modules.map((module) => (
-                <div key={module.slug} className="rounded-xl border border-border/60 bg-background px-4 py-3">
+                <div key={module.slug} className={MODULE_TIME_CARD_CLASS}>
                   <div className="text-sm font-medium">{module.publicTitle}</div>
                   <div className="mt-1 text-sm text-muted-foreground">
                     {timed ? formatMinutes(settings.moduleTimeLimitSeconds[module.slug]) : "Untimed"}
@@ -313,7 +320,7 @@ const PracticeTestStart = () => {
 
           <div className="flex flex-wrap justify-end gap-3">
             <Button variant="outline" asChild>
-              <Link to="/modules">Cancel</Link>
+              <Link to={MODULES_PATH}>Cancel</Link>
             </Button>
             <Button onClick={() => launchSession(false)}>
               Start

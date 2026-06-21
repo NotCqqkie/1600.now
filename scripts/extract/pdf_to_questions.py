@@ -125,7 +125,7 @@ def process_single_pdf(
             if explanations_path.exists():
                 explanations = json.loads(explanations_path.read_text())
         else:
-            print(f"\n=== Stage 3b: Processing answer PDF ===")
+            print("\n=== Stage 3b: Processing answer PDF ===")
             explanations = extract_answer_pdf(
                 answers_pdf_path, work_dir, client, dpi, batch_size, checkpoint=checkpoint
             )

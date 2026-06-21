@@ -1,11 +1,11 @@
 {
   "questionId": "c6dff223",
-  "correctAnswer": ".7241",
+  "correctAnswer": "21/29,.7241,0.724,.724",
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+      "title": "Use the corresponding angle",
+      "content": "Triangles $ABC$ and $DEF$ are similar, and angle $A$ corresponds to angle $D$. Therefore, the acute angles are congruent and $\\sin D=\\sin A$."
     },
     {
       "title": "Identify corresponding angles from similarity",

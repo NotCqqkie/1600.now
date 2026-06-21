@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The blank fills \"Many of whom, like neuroscience and biophysics expert Elba Serrano, ______ this mechanism.\" The subject is \"Many\" — plural. The phrase \"like Elba Serrano\" is a parenthetical example inserted between the subject and the verb; it does not change the subject."
+      "content": "The blank completes the sentence \"many of whom, like neuroscience and biophysics expert Elba Serrano, ______ this mechanism.\" The subject is \"many\" &mdash; plural. The phrase \"like Elba Serrano\" is a parenthetical example inserted between the subject and the verb; it does not change the subject."
     },
     {
       "title": "Eliminate the choices",

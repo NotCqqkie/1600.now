@@ -69,10 +69,12 @@ export const getPastBankFiles = () => [
 ];
 
 export const getModuleFiles = () =>
-  readdirSync(path.join(ROOT, "src/data/modules"))
-    .filter((fileName) => fileName.endsWith(".json"))
-    .sort()
-    .map((fileName) => `src/data/modules/${fileName}`);
+  existsSync(path.join(ROOT, "src/data/modules"))
+    ? readdirSync(path.join(ROOT, "src/data/modules"))
+      .filter((fileName) => fileName.endsWith(".json"))
+      .sort()
+      .map((fileName) => `src/data/modules/${fileName}`)
+    : [];
 
 export const readPastBankRecords = () =>
   getPastBankFiles().flatMap((filePath) =>

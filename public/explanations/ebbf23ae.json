@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+      "title": "Use the diameter endpoints",
+      "content": "The diameter endpoints are given directly, so find the diameter length first and then take half of it to get the radius."
     },
     {
       "title": "Calculate the diameter length",

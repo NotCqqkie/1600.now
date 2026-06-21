@@ -94,31 +94,6 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
   ],
   "linear-functions": [
     {
-      "id": "4e1b3643-30b1-41c4-9027-1f149baf52c7_8",
-      "difficulty": "Easy",
-      "testName": "Past SAT-based",
-      "text": "$h(x) = 9|x|$. What is the value of $h(-8)$?",
-      "choices": [
-        {
-          "id": "A",
-          "text": "-72"
-        },
-        {
-          "id": "B",
-          "text": "1"
-        },
-        {
-          "id": "C",
-          "text": "17"
-        },
-        {
-          "id": "D",
-          "text": "72"
-        }
-      ],
-      "correctAnswer": "D"
-    },
-    {
       "id": "a240b08f-646d-4227-8b1f-fadf4c312b08_6",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
@@ -167,30 +142,55 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
         }
       ],
       "correctAnswer": "A"
+    },
+    {
+      "id": "d2870056-c182-4523-a3f3-884eafe68114_3",
+      "difficulty": "Easy",
+      "testName": "Past SAT-based",
+      "text": "$f(x) = 100x + 5$. What is the value of $f(x)$ when $x = 7$?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "112"
+        },
+        {
+          "id": "B",
+          "text": "135"
+        },
+        {
+          "id": "C",
+          "text": "700"
+        },
+        {
+          "id": "D",
+          "text": "705"
+        }
+      ],
+      "correctAnswer": "D"
     }
   ],
   "linear-equations-two-variables": [
     {
-      "id": "70b33953-aa61-407d-a25a-a438792bed03_3",
+      "id": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_10",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "If $\\frac{x}{y} = 52$ and $\\frac{cx}{4y} = 52$, what is the value of $c$?",
+      "text": "If $\\frac{x}{y}=64$ and $\\frac{cx}{4y}=64$, what is the value of c?",
       "choices": [
         {
           "id": "A",
-          "text": "4"
+          "text": "$4$"
         },
         {
           "id": "B",
-          "text": "13"
+          "text": "$16$"
         },
         {
           "id": "C",
-          "text": "52"
+          "text": "$64$"
         },
         {
           "id": "D",
-          "text": "208"
+          "text": "$256$"
         }
       ],
       "correctAnswer": "A"
@@ -504,6 +504,31 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "correctAnswer": "C"
     },
     {
+      "id": "4e1b3643-30b1-41c4-9027-1f149baf52c7_8",
+      "difficulty": "Easy",
+      "testName": "Past SAT-based",
+      "text": "$h(x) = 9|x|$. What is the value of $h(-8)$?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "-72"
+        },
+        {
+          "id": "B",
+          "text": "1"
+        },
+        {
+          "id": "C",
+          "text": "17"
+        },
+        {
+          "id": "D",
+          "text": "72"
+        }
+      ],
+      "correctAnswer": "D"
+    },
+    {
       "id": "6197d48e-7c76-4333-af39-0b9aa39e924c_21",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
@@ -527,31 +552,6 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
         }
       ],
       "correctAnswer": "C"
-    },
-    {
-      "id": "29b11893-ee0c-48ae-8103-403d9652ad14_15",
-      "difficulty": "Easy",
-      "testName": "Past SAT-based",
-      "text": "$p(x)=2x^{2}+20x+15$\nWhat is the minimum value of the given function?",
-      "choices": [
-        {
-          "id": "A",
-          "text": "-35"
-        },
-        {
-          "id": "B",
-          "text": "-15"
-        },
-        {
-          "id": "C",
-          "text": "-5"
-        },
-        {
-          "id": "D",
-          "text": "15"
-        }
-      ],
-      "correctAnswer": "A"
     }
   ],
   "equivalent-expressions": [
@@ -633,6 +633,31 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
   ],
   "ratios-rates-proportions": [
     {
+      "id": "979898ba-60c7-4531-ac45-29c4db2b3361_3",
+      "difficulty": "Easy",
+      "testName": "Past SAT-based",
+      "text": "The ratio $10$ to $2$ is equivalent to the ratio $40$ to $2k$, where $k$ is a constant. What is the value of $k$?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "$0.5$"
+        },
+        {
+          "id": "B",
+          "text": "$4$"
+        },
+        {
+          "id": "C",
+          "text": "$8$"
+        },
+        {
+          "id": "D",
+          "text": "$80$"
+        }
+      ],
+      "correctAnswer": "B"
+    },
+    {
       "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_3",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
@@ -681,31 +706,6 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
         }
       ],
       "correctAnswer": "D"
-    },
-    {
-      "id": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_4",
-      "difficulty": "Easy",
-      "testName": "Past SAT-based",
-      "text": "A certain pigeon species can fly at an average speed of 16 meters per second when in continuous flight. At this rate, how many meters would this pigeon species fly in 4 seconds?",
-      "choices": [
-        {
-          "id": "A",
-          "text": "64"
-        },
-        {
-          "id": "B",
-          "text": "20"
-        },
-        {
-          "id": "C",
-          "text": "16"
-        },
-        {
-          "id": "D",
-          "text": "12"
-        }
-      ],
-      "correctAnswer": "A"
     }
   ],
   "percentages": [
@@ -939,7 +939,9 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
         }
       ],
       "correctAnswer": "B"
-    },
+    }
+  ],
+  "sample-statistics-margin-of-error": [
     {
       "id": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_9",
       "difficulty": "Easy",
@@ -964,9 +966,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
         }
       ],
       "correctAnswer": "A"
-    }
-  ],
-  "sample-statistics-margin-of-error": [
+    },
     {
       "id": "10c690aa-0aad-48ab-952b-855b2555b311_12",
       "difficulty": "Medium",
@@ -1016,31 +1016,6 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
         }
       ],
       "correctAnswer": "B"
-    },
-    {
-      "id": "b5883220-eb88-4f6b-8d82-979efee65d2d_4",
-      "difficulty": "Medium",
-      "testName": "Past SAT-based",
-      "text": "For a survey, a sample of 1,018 people was selected at random from all registered voters in a county. Based on the survey, it is estimated that 66% of all registered voters in the county are in favor of a new law, with an associated margin of error of 2.91%. Which of the following best describes the plausible values for the percent of all registered voters in the county who are in favor of the new law?",
-      "choices": [
-        {
-          "id": "A",
-          "text": "Any value greater than 63.09% and less than 68.91%"
-        },
-        {
-          "id": "B",
-          "text": "Any value greater than 63.09%"
-        },
-        {
-          "id": "C",
-          "text": "Any value less than 63.09% or greater than 68.91%"
-        },
-        {
-          "id": "D",
-          "text": "Any value less than 68.91%"
-        }
-      ],
-      "correctAnswer": "A"
     }
   ],
   "evaluating-statistical-claims": [
@@ -1403,10 +1378,10 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "correctAnswer": "D"
     },
     {
-      "id": "6b1e987d-70b0-4072-9d03-3ebd56371518_13",
+      "id": "a7146625-47ea-49cb-9061-578e226240d5_13",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "A circle in the $xy$-plane has the equation $(x - 14)^2 + (y - k)^2 = 36$. Which of the following gives the center of the circle and its radius?",
+      "text": "A circle in the $xy$-plane has the equation $(x-14)^{2}+(y-k)^{2}=36$. Which of the following gives the center of the circle and its radius?",
       "choices": [
         {
           "id": "A",
@@ -1637,7 +1612,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "id": "97534841-3541-4563-86b8-0a919d0bde5b_6",
       "difficulty": "Medium",
       "testName": "Past SAT-based",
-      "text": "The author of Text 1 and the author of Text 2 both discuss which topic? Text 1\nFrom the extinct giant ground sloth to the living pygmy three-toed sloth, sloths are among the most appealing animals native to the Americas. But scientists still have a lot to learn about them. Unlike their ancient ground-dwelling relations, today's sloths spend most of their time high up in trees. The sloths' inaccessibility has made it hard for scientists to study them. Text 2\nBy using a backpack monitor, biologist Rebecca Cliffe and colleagues can at last discover the previously hidden activities of sloths. Such monitors can provide information to correct misconceptions. It was long believed that sloths are slow because of laziness. But, in fact, sloths have low metabolism, which makes them slow.",
+      "text": "The author of Text 1 and the author of Text 2 both discuss which topic?\nText 1\nFrom the extinct giant ground sloth to the living pygmy three-toed sloth, sloths are among the most appealing animals native to the Americas. But scientists still have a lot to learn about them. Unlike their ancient ground-dwelling relations, today's sloths spend most of their time high up in trees. The sloths' inaccessibility has made it hard for scientists to study them.\nText 2\nBy using a backpack monitor, biologist Rebecca Cliffe and colleagues can at last discover the previously hidden activities of sloths. Such monitors can provide information to correct misconceptions. It was long believed that sloths are slow because of laziness. But, in fact, sloths have low metabolism, which makes them slow.",
       "choices": [
         {
           "id": "A",
@@ -1840,10 +1815,10 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "correctAnswer": "A"
     },
     {
-      "id": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_14",
+      "id": "b6c7623b-7d8b-46cb-8108-4c4c677bdc88_15",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "Which choice most logically completes the text?\nScientists recently created a model to predict how increasing human activity will affect future mammal population sizes in Us national forests. Unfortunately, when the model is applied to large forests, its predictions for large-mammal populations are too high, and when applied to small forests, its predictions for small-mammal populations are too high. Beaverhead-Deerlodge National Forest in Montana is a large forest, covering more than 3 million acres. If used to evaluate the effect of increasing human activity on this forest in ten years, the model would likely therefore ______",
+      "text": "Which choice most logically completes the text?\nScientists recently created a model to predict how increasing human activity will affect future mammal population sizes in US national forests. Unfortunately, when the model is applied to large forests, its predictions for large-mammal populations are too high, and when applied to small forests, its predictions for small-mammal populations are too high. Beaverhead-Deerlodge National Forest in Montana is a large forest, covering more than 3 million acres. If used to evaluate the effect of increasing human activity on this forest in ten years, the model would likely therefore ______",
       "choices": [
         {
           "id": "A",

@@ -13,9 +13,7 @@ window.addEventListener("unhandledrejection", (event) => {
   recoverFromChunkLoadError();
 });
 
-window.addEventListener("load", () => {
-  clearChunkRecoveryFlag();
-});
+window.addEventListener("load", clearChunkRecoveryFlag);
 
 createRoot(document.getElementById("root")!).render(
   <ErrorBoundary>

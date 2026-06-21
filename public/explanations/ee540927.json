@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+      "title": "Complete the square",
+      "content": "Rewrite the equation in circle standard form, $(x-h)^2+(y-k)^2=r^2$, by completing the square for the $x$ terms. Then read the center as $(h,k)$."
     },
     {
       "title": "Set up the standard form",

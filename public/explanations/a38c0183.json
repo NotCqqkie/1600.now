@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+      "title": "Read circle A's center and radius",
+      "content": "From $(x+2)^2+y^2=9$, circle A has center $(-2,0)$ and radius $3$. The graph confirms that center and radius before the transformations are applied."
     },
     {
       "title": "Extract Circle A's center and radius, identify transformations",

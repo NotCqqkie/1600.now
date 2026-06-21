@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+      "title": "Compare the circle radii",
+      "content": "Circle B's radius is $129n$ and circle A's radius is $3n$, so the linear scale factor from circle A to circle B is $\\frac{129n}{3n}=43$. Areas scale by the square of the linear scale factor."
     },
     {
       "title": "Find the scale factor between the radii",

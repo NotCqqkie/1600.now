@@ -8,9 +8,13 @@ import {
 import {
   countryHubByCode,
   countryPages,
-  hreflangGroup,
-  type CountryHubConfig,
 } from "@/lib/seo-data/countryHubData";
+import { hreflangGroup } from "@/lib/seo-data/hreflangData";
+import {
+  CountryFaqSection,
+  CountrySections,
+} from "./countryContentBlocks";
+import { countryPageClasses } from "./countryPageClasses";
 
 const countryTopicActionFor = (slug: string) => {
   if (slug.includes("score") || slug.includes("scholarship") || slug.includes("universities")) {
@@ -28,8 +32,7 @@ const countryTopicActionFor = (slug: string) => {
 const CountryHubPage = () => {
   const location = useLocation();
   const code = location.pathname.replace(/^\//, "").replace(/\/$/, "");
-  const hub: CountryHubConfig | undefined =
-    code === "in" || code === "ae" ? countryHubByCode.get(code) : undefined;
+  const hub = code === "in" || code === "ae" ? countryHubByCode.get(code) : undefined;
 
   if (!hub) return <Navigate to="/" replace />;
 
@@ -37,7 +40,7 @@ const CountryHubPage = () => {
   const topicPages = countryPages.filter((countryPage) => countryPage.country === hub.code);
 
   return (
-    <div className="mx-auto max-w-3xl px-6 py-10">
+    <div className={countryPageClasses.page}>
       <PageSeo
         id={`country-hub-${hub.code}`}
         title={hub.hubTitle}
@@ -66,40 +69,22 @@ const CountryHubPage = () => {
         ]}
       />
 
-      <nav className="mb-6 text-sm text-muted-foreground">
-        <Link className="hover:underline" to="/">
+      <nav className={countryPageClasses.nav}>
+        <Link className={countryPageClasses.homeLink} to="/">
           Home
         </Link>{" "}
-        › <span className="text-foreground">Digital SAT in {hub.name}</span>
+        › <span className={countryPageClasses.navCurrent}>Digital SAT in {hub.name}</span>
       </nav>
 
-      <h1 className="text-4xl font-semibold tracking-tight md:text-5xl">
+      <h1 className={countryPageClasses.title}>
         {hub.hubTitle}
       </h1>
-      <p className="mt-4 text-lg text-muted-foreground">{hub.hubIntro}</p>
+      <p className={countryPageClasses.intro}>{hub.hubIntro}</p>
 
-      {hub.hubSections.map((section) => (
-        <section key={section.heading} className="mt-10">
-          <h2 className="text-2xl font-semibold tracking-tight">
-            {section.heading}
-          </h2>
-          {section.paragraphs.map((paragraph, paragraphIndex) => (
-            <p key={paragraphIndex} className="mt-3 text-muted-foreground">
-              {paragraph}
-            </p>
-          ))}
-          {section.bullets && section.bullets.length > 0 && (
-            <ul className="mt-3 list-disc space-y-1 pl-6 text-muted-foreground">
-              {section.bullets.map((bullet, bulletIndex) => (
-                <li key={bulletIndex}>{bullet}</li>
-              ))}
-            </ul>
-          )}
-        </section>
-      ))}
+      <CountrySections sections={hub.hubSections} />
 
-      <section className="mt-10 rounded-xl border border-border p-5">
-        <h2 className="text-2xl font-semibold tracking-tight">
+      <section className={countryPageClasses.card}>
+        <h2 className={countryPageClasses.sectionTitle}>
           Best way to start from {hub.name}
         </h2>
         <ol className="mt-4 list-decimal space-y-2 pl-6 text-muted-foreground">
@@ -111,8 +96,8 @@ const CountryHubPage = () => {
       </section>
 
       {topicPages.length > 0 && (
-        <section className="mt-10">
-          <h2 className="text-2xl font-semibold tracking-tight">
+        <section className={countryPageClasses.section}>
+          <h2 className={countryPageClasses.sectionTitle}>
             More for {hub.name} students
           </h2>
           <ul className="mt-4 space-y-3">
@@ -121,17 +106,17 @@ const CountryHubPage = () => {
               return (
                 <li
                   key={topicPage.slug}
-                  className="rounded-xl border border-border p-4"
+                  className={countryPageClasses.topicCard}
                 >
                   <Link
                     to={action.href}
-                    className="text-base font-semibold hover:underline"
+                    className={countryPageClasses.topicLink}
                   >
                     {topicPage.headline}
                   </Link>
-                <p className="mt-1 text-sm text-muted-foreground">
-                  {topicPage.metaDescription}
-                </p>
+                  <p className={countryPageClasses.topicDescription}>
+                    {topicPage.metaDescription}
+                  </p>
                   <div className="mt-3 text-sm font-semibold">{action.label}</div>
                 </li>
               );
@@ -140,17 +125,7 @@ const CountryHubPage = () => {
         </section>
       )}
 
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold tracking-tight">FAQs</h2>
-        <div className="mt-4 space-y-5">
-          {hub.hubFaqs.map((faq) => (
-            <div key={faq.question}>
-              <h3 className="text-base font-semibold">{faq.question}</h3>
-              <p className="mt-1 text-muted-foreground">{faq.answer}</p>
-            </div>
-          ))}
-        </div>
-      </section>
+      <CountryFaqSection faqs={hub.hubFaqs} />
     </div>
   );
 };

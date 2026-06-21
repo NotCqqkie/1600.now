@@ -2,7 +2,7 @@ import { useState, useMemo, useCallback, useEffect, useRef, type Dispatch, type 
 import { useNavigate, useSearchParams } from "react-router-dom";
 import type { BankQuestion } from "@/data/questionBank";
 import { mathDomainSkills, englishDomainSkills, allMathDomains, allEnglishDomains } from "@/data/questionCategories";
-import { normalizeBankSource, BANK_SOURCE_LABELS, type BankSubject, type BankSourceFilter } from "@/data/bankTypes";
+import { normalizeBankSource, type BankSubject, type BankSourceFilter } from "@/data/bankTypes";
 import {
   getDefaultQuestionCountTree,
   getEmptyProgress,
@@ -26,13 +26,14 @@ import {
   Search,
   X,
 } from "lucide-react";
+import { QuestionBankFilterPanel } from "@/components/question/QuestionBankFilterPanel";
 import {
-  QuestionBankFilterPanel,
-  QuestionBankFilters,
-  defaultFilters,
+  createDefaultQuestionBankFilters,
   hasActiveQuestionBankFilters,
   MAX_TIME_SPENT_FILTER_SECONDS,
-} from "@/components/question/QuestionBankFilterPanel";
+  normalizeQuestionBankFilters,
+  type QuestionBankFilters,
+} from "@/lib/questionBankFilters";
 import { BankSourceToggle } from "@/components/question/BankSourceToggle";
 import { spaceOutNearDuplicates, questionFingerprint } from "@/lib/text/nearDuplicateSpacing";
 import {
@@ -47,6 +48,7 @@ import {
   QuestionProgress,
 } from "@/hooks/useUserProgress";
 import { PageSeo, buildBreadcrumbJsonLd } from "@/components/seo/PageSeo";
+import { clearBankQuestionViewModeStorage } from "@/lib/questionViewModeStorage";
 import "katex/dist/katex.min.css";
 
 const loadBankPool = async (
@@ -135,15 +137,12 @@ const getQuestionPreviewText = (question: BankQuestion): string =>
     .replace(/\s+/g, " ")
     .trim();
 
-const getSubjectLabel = (subject: BankSubject) =>
-  subject === "math" ? "Math" : "Reading & Writing";
-
 const keywordSubjectOptions: readonly SegmentedToggleOption<BankSubject>[] = [
   { value: "math", label: "Math", title: "Show Math questions" },
   { value: "reading", label: "Reading", title: "Show Reading questions" },
 ];
 
-const shuffleQuestions = (questions: BankQuestion[]): BankQuestion[] => {
+const shuffleQuestions = (questions: readonly BankQuestion[]): BankQuestion[] => {
   const shuffled = [...questions];
   for (let currentIndex = shuffled.length - 1; currentIndex > 0; currentIndex--) {
     const randomIndex = Math.floor(Math.random() * (currentIndex + 1));
@@ -208,15 +207,7 @@ const readStoredBankFilters = (): QuestionBankFilters | null => {
   try {
     const raw = sessionStorage.getItem(BANK_FILTERS_STORAGE_KEY);
     if (!raw) return null;
-    const parsed = JSON.parse(raw) as QuestionBankFilters;
-    return {
-      ...defaultFilters,
-      ...parsed,
-      difficulty: Array.isArray(parsed.difficulty) ? parsed.difficulty : defaultFilters.difficulty,
-      timeSpentRange: Array.isArray(parsed.timeSpentRange) && parsed.timeSpentRange.length === 2
-        ? parsed.timeSpentRange
-        : defaultFilters.timeSpentRange,
-    };
+    return normalizeQuestionBankFilters(JSON.parse(raw));
   } catch {
     return null;
   }
@@ -417,23 +408,22 @@ export const BankIndex = ({
   }, [isEmbed]);
 
   useEffect(() => {
-    sessionStorage.removeItem(`question-view-mode:bank:math`);
-    sessionStorage.removeItem(`question-view-mode:bank:reading`);
+    clearBankQuestionViewModeStorage();
   }, []);
   const [isMultiSelect, setIsMultiSelect] = useState(false);
   const [internalFilters, setInternalFilters] = useState<QuestionBankFilters>(() => {
-    if (isHomeFilterDemo) return homeFilterDemoFilters ?? defaultFilters;
+    if (isHomeFilterDemo) return homeFilterDemoFilters ?? createDefaultQuestionBankFilters();
     try {
       const raw = sessionStorage.getItem("bankFilterPreset");
-      if (!raw) return readStoredBankFilters() ?? defaultFilters;
+      if (!raw) return readStoredBankFilters() ?? createDefaultQuestionBankFilters();
       const preset = JSON.parse(raw) as { difficulties?: string[] };
       if (preset.difficulties?.length) {
-        return { ...defaultFilters, difficulty: preset.difficulties as QuestionBankFilters["difficulty"] };
+        return normalizeQuestionBankFilters({ difficulty: preset.difficulties });
       }
     } catch {
-      return readStoredBankFilters() ?? defaultFilters;
+      return readStoredBankFilters() ?? createDefaultQuestionBankFilters();
     }
-    return readStoredBankFilters() ?? defaultFilters;
+    return readStoredBankFilters() ?? createDefaultQuestionBankFilters();
   });
   const filters = homeFilterDemoFilters ?? internalFilters;
   const setFilters: Dispatch<SetStateAction<QuestionBankFilters>> = useCallback((value) => {
@@ -466,15 +456,7 @@ export const BankIndex = ({
       if (event.origin !== window.location.origin) return;
       const data = event.data;
       if (!data || data.type !== "homeFilterDemoSetFilters") return;
-      setFilters((current) => ({
-        ...current,
-        ...(Array.isArray(data.difficulty) ? { difficulty: data.difficulty } : null),
-        ...(Array.isArray(data.timeSpentRange) ? { timeSpentRange: data.timeSpentRange } : null),
-        ...(typeof data.activeQuestions === "string" ? { activeQuestions: data.activeQuestions } : null),
-        ...(typeof data.markedForReview === "string" ? { markedForReview: data.markedForReview } : null),
-        ...(typeof data.solved === "string" ? { solved: data.solved } : null),
-        ...(typeof data.answeredIncorrectly === "string" ? { answeredIncorrectly: data.answeredIncorrectly } : null),
-      }));
+      setFilters((current) => normalizeQuestionBankFilters(data, current));
     };
     window.addEventListener("message", onMessage);
     return () => window.removeEventListener("message", onMessage);
@@ -654,10 +636,7 @@ export const BankIndex = ({
       cancelled = true;
     };
   }, [bankSource, isHomeFilterDemo, keywordSearch, questionPassesFilters]);
-  const getFilteredQuestions = useCallback((
-    questions: BankQuestion[],
-    _subject: BankSubject
-  ): BankQuestion[] => {
+  const getFilteredQuestions = useCallback((questions: BankQuestion[]): BankQuestion[] => {
     return questions.filter(q => questionPassesFilters(q));
   }, [questionPassesFilters]);
   const [questionCounts, setQuestionCounts] = useState(() => getDefaultQuestionCountTree(bankSource));
@@ -791,7 +770,7 @@ export const BankIndex = ({
   ): Promise<BankQuestion[]> => {
     if (subjectOverride) {
       const questions = await loadBankPool(subjectOverride, bankSource);
-      let filtered = getFilteredQuestions(questions, subjectOverride);
+      let filtered = getFilteredQuestions(questions);
 
       if (skillOverride) {
         filtered = filtered.filter(q => q.category.skill === skillOverride);
@@ -814,7 +793,7 @@ export const BankIndex = ({
 
     for (const { subject, skill } of selectedTopicsInfo.selectedSkills) {
       const pool = await getSubjectPool(subject);
-      const filtered = getFilteredQuestions(pool, subject).filter(q => q.category.skill === skill);
+      const filtered = getFilteredQuestions(pool).filter(q => q.category.skill === skill);
       const key = `${subject}-${skill}`;
       skillQuestionMap.set(key, { subject, questions: filtered });
     }
@@ -832,38 +811,28 @@ export const BankIndex = ({
   const startBankPracticeSession = useCallback((questions: BankQuestion[], exitTo = `/bank?bankType=${bankSource}`) => {
     if (isHomeFilterDemo || questions.length === 0) return;
 
-    questions = spaceOutNearDuplicates<BankQuestion>(questions, questionFingerprint);
+    const spacedQuestions = spaceOutNearDuplicates<BankQuestion>(questions, questionFingerprint);
 
     const practiceSet = createBankPracticeSessionFromQuestions({
-      questions,
+      questions: spacedQuestions,
     });
     launchCustomPracticeSet(practiceSet, navigate, exitTo);
   }, [bankSource, isHomeFilterDemo, navigate]);
 
-  const handleCreatePracticeSet = useCallback(async (shuffle: boolean = false) => {
+  const handleCreatePracticeSet = useCallback(async (shouldShuffle: boolean = false) => {
     let questions = await getSelectedQuestions();
 
-    if (shuffle) {
-      const shuffled = [...questions];
-      for (let currentIndex = shuffled.length - 1; currentIndex > 0; currentIndex--) {
-        const randomIndex = Math.floor(Math.random() * (currentIndex + 1));
-        [shuffled[currentIndex], shuffled[randomIndex]] = [shuffled[randomIndex], shuffled[currentIndex]];
-      }
-      questions = shuffled;
+    if (shouldShuffle) {
+      questions = shuffleQuestions(questions);
     }
     startBankPracticeSession(questions);
   }, [getSelectedQuestions, startBankPracticeSession]);
 
-  const handleQuickStart = useCallback(async (subject: "math" | "reading", domain?: string, skill?: string, shuffle: boolean = false) => {
+  const handleQuickStart = useCallback(async (subject: "math" | "reading", domain?: string, skill?: string, shouldShuffle: boolean = false) => {
     let questions = await getSelectedQuestions(subject, domain, skill);
 
-    if (shuffle) {
-      const shuffled = [...questions];
-      for (let currentIndex = shuffled.length - 1; currentIndex > 0; currentIndex--) {
-        const randomIndex = Math.floor(Math.random() * (currentIndex + 1));
-        [shuffled[currentIndex], shuffled[randomIndex]] = [shuffled[randomIndex], shuffled[currentIndex]];
-      }
-      questions = shuffled;
+    if (shouldShuffle) {
+      questions = shuffleQuestions(questions);
     }
     questions = spaceOutNearDuplicates<BankQuestion>(questions, questionFingerprint);
 
@@ -926,14 +895,14 @@ export const BankIndex = ({
   const renderKeywordSearch = () => (
     <div className="space-y-2">
       <div className="flex flex-col gap-2 sm:flex-row">
-        <div className="relative min-w-0 flex-1">
-          <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-ink-muted" />
+        <div className="group relative min-w-0 flex-1 rounded-[10px] transition-shadow duration-200 focus-within:shadow-[0_0_0_4px_rgb(var(--ds-accent)/0.26)]">
+          <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-ink-muted transition-colors duration-200 group-focus-within:text-cobalt-deep dark:group-focus-within:text-cobalt" />
           <Input
             value={keywordSearch}
             onChange={(event) => handleKeywordSearchChange(event.target.value)}
             placeholder="Search questions by keyword"
             aria-label="Search questions by keyword"
-            className="h-10 pl-10 pr-10"
+            className="h-10 pl-10 pr-10 focus-visible:border-ds-accent-deep/60 focus-visible:ring-0 focus-visible:ring-offset-0"
           />
           {keywordSearch && (
             <Button
@@ -950,6 +919,14 @@ export const BankIndex = ({
         </div>
         {isKeywordSearchActive && (
           <div className="flex shrink-0 flex-wrap gap-2 sm:flex-nowrap">
+            <span
+              key={`${keywordSubject}-${keywordPracticeQuestions.length}-${isKeywordSearchLoading ? "loading" : "ready"}`}
+              className="keyword-count-pulse flex h-10 shrink-0 items-center rounded-full border border-ds-line bg-white px-3 font-display text-[12px] font-semibold tabular-nums text-ink dark:bg-card"
+            >
+              {isKeywordSearchLoading
+                ? "Searching..."
+                : `${keywordPracticeQuestions.length.toLocaleString()} question${keywordPracticeQuestions.length === 1 ? "" : "s"}`}
+            </span>
             {shouldShowKeywordSubjectToggle && (
               <SegmentedToggle
                 value={keywordSubject}
@@ -957,6 +934,7 @@ export const BankIndex = ({
                 onChange={(value) => setKeywordSubject(value)}
                 className="h-10 shrink-0"
                 buttonClassName="h-[30px] px-3 py-0 text-[13px] leading-none"
+                clippedActiveText
               />
             )}
             <Button
@@ -991,11 +969,6 @@ export const BankIndex = ({
               <h2 className="font-display text-[15px] font-semibold leading-tight text-ink">
                 Search results
               </h2>
-              <p className="mt-0.5 text-xs text-ink-muted">
-                {isKeywordSearchLoading
-                  ? "Searching..."
-                  : `${keywordSearchResults.length.toLocaleString()} ${getSubjectLabel(keywordSubject)} question${keywordSearchResults.length === 1 ? "" : "s"} shown - Math ${keywordSearchInfo.mathCount.toLocaleString()} - Reading ${keywordSearchInfo.readingCount.toLocaleString()}`}
-              </p>
             </div>
             <Button
               type="button"
@@ -1037,7 +1010,7 @@ export const BankIndex = ({
                     key={question.stableId}
                     type="button"
                     onClick={() => handleKeywordResultClick(question)}
-                    className="grid w-full grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-2 px-3 py-2 text-left transition-colors hover:bg-muted/60 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ds-accent focus-visible:ring-inset"
+                    className="bank-result-row group grid w-full grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-2 border-l-2 border-l-transparent px-3 py-2 text-left hover:border-l-ds-accent-deep hover:bg-muted/45 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ds-accent focus-visible:ring-inset"
                   >
                     <div className={`flex h-7 w-7 shrink-0 items-center justify-center rounded-md ${isMathQuestionResult ? "bg-primary/10" : "bg-secondary/10"}`}>
                       {isMathQuestionResult ? (
@@ -1065,7 +1038,7 @@ export const BankIndex = ({
                         dangerouslySetInnerHTML={{ __html: previewHtml }}
                       />
                     </div>
-                    <ChevronRight className="h-4 w-4 shrink-0 text-ink-muted" />
+                    <ChevronRight className="bank-result-arrow h-4 w-4 shrink-0 text-ink-muted" />
                   </button>
                 );
               })}
@@ -1104,7 +1077,10 @@ export const BankIndex = ({
             </div>
             <div className="min-w-0">
               <h2 className={isHomeFilterDemo ? "font-display text-[15px] font-semibold leading-[1.05] text-ink" : "font-display text-[22px] font-semibold leading-[1.1] tracking-[-0.015em] text-ink"}>Math</h2>
-              <p className={isHomeFilterDemo ? "font-display text-[12px] leading-[1.15] tabular-nums" : "font-display text-[12px] leading-[1.3] tabular-nums"}>
+              <p
+                className={isHomeFilterDemo ? "font-display text-[12px] leading-[1.15] tabular-nums" : "font-display text-[12px] leading-[1.3] tabular-nums"}
+                data-home-demo-subject-count={isHomeFilterDemo ? "true" : undefined}
+              >
                 <AnimatedCount value={questionCounts.math.correct} className="font-semibold text-good" />
                 <span className="mx-1 font-medium text-ink-muted">/</span>
                 <AnimatedCount value={questionCounts.math.total} className="font-medium text-ink-muted" />
@@ -1177,21 +1153,20 @@ export const BankIndex = ({
                         setExpandedDomains(prev => ({ ...prev, [domain]: !prev[domain] }));
                       }}
                     >
-                      <span className={isHomeFilterDemo ? "font-display text-[11px] tabular-nums" : "font-display text-[14px] tabular-nums"}>
+                      <span className={isHomeFilterDemo ? "inline-block w-[9.5ch] shrink-0 whitespace-nowrap text-right font-display text-[11px] tabular-nums" : "font-display text-[14px] tabular-nums"}>
                         <AnimatedCount value={questionCounts.math.domains[domain]?.correct || 0} className="font-semibold text-good" />
                         <span className="font-medium text-ink-muted">/</span>
                         <AnimatedCount value={questionCounts.math.domains[domain]?.total || 0} className="font-medium text-ink-muted" />
                       </span>
-                      {expandedDomains[domain] ? (
-                        <ChevronDown className="h-[11px] w-[11px] text-ink-muted" />
-                      ) : (
-                        <ChevronRight className="h-[11px] w-[11px] text-ink-muted" />
-                      )}
+                      <ChevronRight className={`bank-accordion-chevron h-[11px] w-[11px] text-ink-muted ${expandedDomains[domain] ? "bank-accordion-chevron-open" : ""}`} />
                     </div>
                   </div>
                 </div>
-                {expandedDomains[domain] && (
-                  <div className={isHomeFilterDemo ? "ml-4 mt-1.5 space-y-1.5" : "mt-2 ml-6 space-y-1"}>
+                <div
+                  aria-hidden={!expandedDomains[domain]}
+                  className={`${isHomeFilterDemo ? "bank-accordion-panel ml-4" : "bank-accordion-panel ml-6"} ${expandedDomains[domain] ? "bank-accordion-panel-open" : ""}`}
+                >
+                  <div className={isHomeFilterDemo ? "bank-accordion-panel-inner space-y-1.5 pt-1.5" : "bank-accordion-panel-inner space-y-1 pt-2"}>
                     {getSkillsForDisplay("math", domain).map((skill) => {
                       const skillLabel = getTopicDisplayLabel("math", skill);
                       return (
@@ -1229,7 +1204,7 @@ export const BankIndex = ({
                           >
                             <Shuffle className="h-3 w-3" />
                           </Button>
-                          <span className={isHomeFilterDemo ? "shrink-0 font-display text-[10px] tabular-nums" : "font-display text-[13px] tabular-nums"}>
+                          <span className={isHomeFilterDemo ? "inline-block w-[8.5ch] shrink-0 whitespace-nowrap text-right font-display text-[10px] tabular-nums" : "font-display text-[13px] tabular-nums"}>
                             <AnimatedCount value={questionCounts.math.skills[skill]?.correct || 0} className="font-semibold text-good" />
                             <span className="font-medium text-ink-muted">/</span>
                             <AnimatedCount value={questionCounts.math.skills[skill]?.total || 0} className="font-medium text-ink-muted" />
@@ -1238,7 +1213,7 @@ export const BankIndex = ({
                       );
                     })}
                   </div>
-                )}
+                </div>
               </div>
             );
           })}
@@ -1265,7 +1240,10 @@ export const BankIndex = ({
             </div>
             <div className="min-w-0">
               <h2 className={isHomeFilterDemo ? "font-display text-[15px] font-semibold leading-[1.05] text-ink" : "font-display text-[22px] font-semibold leading-[1.1] tracking-[-0.015em] text-ink"}>Reading & Writing</h2>
-              <p className={isHomeFilterDemo ? "font-display text-[12px] leading-[1.15] tabular-nums" : "font-display text-[12px] leading-[1.3] tabular-nums"}>
+              <p
+                className={isHomeFilterDemo ? "font-display text-[12px] leading-[1.15] tabular-nums" : "font-display text-[12px] leading-[1.3] tabular-nums"}
+                data-home-demo-subject-count={isHomeFilterDemo ? "true" : undefined}
+              >
                 <AnimatedCount value={questionCounts.reading.correct} className="font-semibold text-good" />
                 <span className="mx-1 font-medium text-ink-muted">/</span>
                 <AnimatedCount value={questionCounts.reading.total} className="font-medium text-ink-muted" />
@@ -1335,21 +1313,20 @@ export const BankIndex = ({
                       setExpandedDomains(prev => ({ ...prev, [domain]: !prev[domain] }));
                     }}
                   >
-                    <span className={isHomeFilterDemo ? "font-display text-[11px] tabular-nums" : "font-display text-[14px] tabular-nums"}>
+                    <span className={isHomeFilterDemo ? "inline-block w-[9.5ch] shrink-0 whitespace-nowrap text-right font-display text-[11px] tabular-nums" : "font-display text-[14px] tabular-nums"}>
                       <AnimatedCount value={questionCounts.reading.domains[domain]?.correct || 0} className="font-semibold text-good" />
                       <span className="font-medium text-ink-muted">/</span>
                       <AnimatedCount value={questionCounts.reading.domains[domain]?.total || 0} className="font-medium text-ink-muted" />
                     </span>
-                    {expandedDomains[domain] ? (
-                      <ChevronDown className="h-[11px] w-[11px] text-ink-muted" />
-                    ) : (
-                      <ChevronRight className="h-[11px] w-[11px] text-ink-muted" />
-                    )}
+                    <ChevronRight className={`bank-accordion-chevron h-[11px] w-[11px] text-ink-muted ${expandedDomains[domain] ? "bank-accordion-chevron-open" : ""}`} />
                   </div>
                 </div>
               </div>
-              {expandedDomains[domain] && (
-                <div className={isHomeFilterDemo ? "ml-4 mt-1.5 space-y-1.5" : "mt-2 ml-6 space-y-1"}>
+              <div
+                aria-hidden={!expandedDomains[domain]}
+                className={`${isHomeFilterDemo ? "bank-accordion-panel ml-4" : "bank-accordion-panel ml-6"} ${expandedDomains[domain] ? "bank-accordion-panel-open" : ""}`}
+              >
+                <div className={isHomeFilterDemo ? "bank-accordion-panel-inner space-y-1.5 pt-1.5" : "bank-accordion-panel-inner space-y-1 pt-2"}>
                   {getSkillsForDisplay("reading", domain).map((skill) => (
                     <div
                       key={skill}
@@ -1382,7 +1359,7 @@ export const BankIndex = ({
                       >
                        <Shuffle className="h-3 w-3" />
                       </Button>
-                      <span className={isHomeFilterDemo ? "shrink-0 font-display text-[10px] tabular-nums" : "font-display text-[13px] tabular-nums"}>
+                      <span className={isHomeFilterDemo ? "inline-block w-[8.5ch] shrink-0 whitespace-nowrap text-right font-display text-[10px] tabular-nums" : "font-display text-[13px] tabular-nums"}>
                         <AnimatedCount value={questionCounts.reading.skills[skill]?.correct || 0} className="font-semibold text-good" />
                         <span className="font-medium text-ink-muted">/</span>
                         <AnimatedCount value={questionCounts.reading.skills[skill]?.total || 0} className="font-medium text-ink-muted" />
@@ -1390,13 +1367,15 @@ export const BankIndex = ({
                     </div>
                   ))}
                 </div>
-              )}
+              </div>
             </div>
           ))}
         </div>
       </div>
     </div>
   );
+
+  const hasActiveFilters = hasActiveQuestionBankFilters(filters);
 
   return (
     <div
@@ -1433,6 +1412,13 @@ export const BankIndex = ({
               font-variant-numeric: tabular-nums;
               transition: color 220ms ease;
             }
+            .home-filter-demo-bank [data-home-demo-subject-count="true"] {
+              display: block;
+              width: 17ch;
+              min-width: 17ch;
+              text-align: left;
+              white-space: nowrap;
+            }
             .home-filter-demo-bank [data-home-demo-section] button {
               border-radius: 8px;
             }
@@ -1459,6 +1445,19 @@ export const BankIndex = ({
             }
             .home-filter-demo-bank [data-radix-popper-content-wrapper] [data-state="open"] {
               animation: none !important;
+            }
+            .home-filter-demo-bank .bank-filter-panel-motion {
+              height: auto !important;
+              overflow: visible !important;
+              pointer-events: auto;
+              visibility: visible;
+              transition: none !important;
+            }
+            .home-filter-demo-bank .bank-filter-panel-motion-inner {
+              opacity: 1 !important;
+              overflow: visible !important;
+              transform: none !important;
+              transition: none !important;
             }
             .home-filter-demo-bank [data-tour="bank-filters"] {
               margin-bottom: 0.25rem;
@@ -1553,7 +1552,6 @@ export const BankIndex = ({
                   Question Bank
                 </h1>
                 <p className="font-sans text-[14px] leading-[1.5] text-ink-mid">
-                  {`${BANK_SOURCE_LABELS[bankSource]} \u00b7 `}
                   <AnimatedCount
                     value={questionCounts.math.total + questionCounts.reading.total}
                     className="font-display font-semibold tabular-nums text-ink"
@@ -1581,28 +1579,37 @@ export const BankIndex = ({
               rightContent={!isHomeFilterDemo ? (
                 <div className="flex w-full flex-col items-stretch gap-3 sm:w-auto sm:flex-row sm:items-center sm:gap-4">
                   <BankSourceToggle value={bankSource} onChange={handleBankSourceChange} />
-                  {hasActiveQuestionBankFilters(filters) && (
-                    <Button
-                      variant="ghost"
-                      size="sm"
-                      onClick={() => setFilters(defaultFilters)}
-                      className="h-10 gap-2 text-muted-foreground hover:text-foreground"
+                  <div className={`bank-filter-reset-actions w-full sm:w-auto ${hasActiveFilters ? "bank-filter-reset-actions-open" : ""}`}>
+                    <div
+                      className={`bank-filter-reset-slot ${hasActiveFilters ? "bank-filter-reset-slot-open" : ""}`}
+                      aria-hidden={!hasActiveFilters}
                     >
-                      <RotateCcw className="h-3 w-3" />
-                      Reset Filters
-                    </Button>
-                  )}
-                  <div className="flex items-center justify-between gap-2 sm:justify-start">
-                    <Checkbox
-                      id="multi-select-mode"
-                      checked={isMultiSelect}
-                      onCheckedChange={(checked) => setIsMultiSelect(!!checked)}
-                      className={multiSelectModeCheckboxClass}
-                    />
-                    <Label htmlFor="multi-select-mode" className="cursor-pointer text-sm font-medium text-foreground">
-                      <span className="sm:hidden">Multi-select</span>
-                      <span className="hidden sm:inline">Select multiple topics</span>
-                    </Label>
+                      <div className="bank-filter-reset-slot-inner">
+                        <Button
+                          variant="ghost"
+                          size="sm"
+                          onClick={() => setFilters(createDefaultQuestionBankFilters())}
+                          disabled={!hasActiveFilters}
+                          tabIndex={hasActiveFilters ? undefined : -1}
+                          className="h-10 gap-2 text-muted-foreground hover:text-foreground"
+                        >
+                          <RotateCcw className="h-3 w-3" />
+                          Reset Filters
+                        </Button>
+                      </div>
+                    </div>
+                    <div className="flex min-w-0 flex-1 items-center justify-between gap-2 sm:flex-none sm:justify-start">
+                      <Checkbox
+                        id="multi-select-mode"
+                        checked={isMultiSelect}
+                        onCheckedChange={(checked) => setIsMultiSelect(!!checked)}
+                        className={multiSelectModeCheckboxClass}
+                      />
+                      <Label htmlFor="multi-select-mode" className="cursor-pointer text-sm font-medium text-foreground">
+                        <span className="sm:hidden">Multi-select</span>
+                        <span className="hidden sm:inline">Select multiple topics</span>
+                      </Label>
+                    </div>
                   </div>
                 </div>
               ) : undefined}
@@ -1619,7 +1626,7 @@ export const BankIndex = ({
             size="icon"
             variant="outline"
             onClick={() => handleCreatePracticeSet(true)}
-            className="h-12 w-12 shrink-0 rounded-full shadow-lg"
+            className="ui-button-motion h-12 w-12 shrink-0 rounded-full shadow-lg transition-[background-color,border-color,color,box-shadow,transform] hover:-translate-y-0.5 active:translate-y-0 active:scale-[0.98]"
             title="Create Shuffled Practice Set"
           >
             <Shuffle className="h-5 w-5" />
@@ -1627,7 +1634,7 @@ export const BankIndex = ({
           <Button
             size="lg"
             onClick={() => handleCreatePracticeSet(false)}
-            className="min-w-0 flex-1 gap-2 px-3 text-[13px] shadow-lg sm:flex-none sm:px-[22px] sm:text-[15px]"
+            className="ui-button-motion min-w-0 flex-1 gap-2 px-3 text-[13px] shadow-lg transition-[background-color,border-color,color,box-shadow,transform] hover:-translate-y-0.5 hover:shadow-[0_4px_14px_rgba(58,120,216,0.32)] active:translate-y-0 active:scale-[0.98] sm:flex-none sm:px-[22px] sm:text-[15px]"
           >
             <Play className="h-4 w-4 shrink-0" />
             <span className="truncate sm:hidden">Create Set ({selectedQuestionCount})</span>

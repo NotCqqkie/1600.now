@@ -5,12 +5,12 @@ import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 
 const buttonVariants = cva(
-  "inline-flex min-w-0 select-none items-center justify-center gap-2 whitespace-nowrap rounded-[10px] font-sans text-[14px] font-semibold tracking-[-0.005em] ring-offset-background transition-[background-color,border-color,color,box-shadow,transform] duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [-webkit-user-drag:none] [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0",
+  "ui-button-polish inline-flex min-w-0 select-none items-center justify-center gap-2 whitespace-nowrap rounded-[10px] font-sans text-[14px] font-semibold tracking-[-0.005em] ring-offset-background transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [-webkit-user-drag:none] [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0",
   {
     variants: {
       variant: {
         default:
-          "bg-ds-accent text-ink-fixed hover:bg-cobalt hover:text-white hover:shadow-[0_4px_14px_rgba(58,120,216,0.32)] active:bg-cobalt-deep active:text-white active:scale-[0.98]",
+          "bg-ds-accent text-ink-fixed hover:bg-cobalt hover:text-white active:bg-cobalt-deep active:text-white",
         destructive: "bg-ds-bad text-white hover:bg-ds-bad/90",
         outline:
           "border border-ds-line bg-white text-ink hover:bg-primary/15 hover:border-primary hover:text-cobalt-deep dark:bg-card dark:text-ink dark:border-ds-line dark:hover:bg-primary/15 dark:hover:border-primary/60 dark:hover:text-cobalt",

@@ -13,7 +13,6 @@ output dir, dedupes against the existing banks, and appends new questions to
 from __future__ import annotations
 import argparse
 import json
-import re
 from pathlib import Path
 
 from .utils.dedup import normalize_for_hash

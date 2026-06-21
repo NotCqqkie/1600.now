@@ -1,13 +1,19 @@
 import { useMemo, useState } from "react";
-import { Link } from "react-router-dom";
+
+import { satToolBySlug } from "@/lib/seo-data/satTools";
 
 import {
-  PageSeo,
-  buildBreadcrumbJsonLd,
-  buildFaqJsonLd,
-  buildWebApplicationJsonLd,
-} from "@/components/seo/PageSeo";
-import { satToolBySlug } from "@/lib/seo-data/satTools";
+  SatToolPageScaffold,
+  TOOL_INFO_TABLE_CELL_CLASS,
+  TOOL_INFO_TABLE_CLASS,
+  TOOL_INFO_TABLE_HEAD_CLASS,
+  TOOL_INFO_TABLE_HEADER_CELL_CLASS,
+  TOOL_INFO_TABLE_ROW_CLASS,
+  TOOL_INFO_TABLE_WRAPPER_CLASS,
+  TOOL_INPUT_CLASS,
+  TOOL_RESULT_CARD_CLASS,
+  TOOL_SECTION_HEADING_CLASS,
+} from "./SatToolPageScaffold";
 const SAT_TO_ACT: [number, number][] = [
   [1600, 36], [1590, 36], [1580, 36], [1570, 35], [1560, 35],
   [1550, 35], [1540, 35], [1530, 34], [1520, 34], [1510, 34],
@@ -38,6 +44,29 @@ const actToSat = (act: number): number | null => {
   return match ? match[0] : null;
 };
 
+const faqs = [
+  {
+    question: "Which concordance table does this converter use?",
+    answer:
+      "The official 2018 College Board × ACT concordance tables, which remain the concordance of record for the Digital SAT in 2026.",
+  },
+  {
+    question: "Do colleges accept SAT-to-ACT conversions?",
+    answer:
+      "Most colleges either publish both SAT and ACT ranges or use concordance tables internally. They do not convert for you — send whichever score looks stronger after conversion.",
+  },
+  {
+    question: "Is there a single best score to send?",
+    answer:
+      "Send the score with the higher percentile. If your SAT percentile is higher than the equivalent ACT percentile, send SAT, and vice versa.",
+  },
+  {
+    question: "What if my score isn't on the table?",
+    answer:
+      "SAT scores below 900 or above 1600, and ACT scores below 16 or above 36, fall outside the official concordance. The tool rounds SAT scores to the nearest 10.",
+  },
+];
+
 const SatToActConverter = () => {
   const meta = satToolBySlug.get("sat-to-act-converter")!;
   const [sat, setSat] = useState<string>("1400");
@@ -53,64 +82,10 @@ const SatToActConverter = () => {
     return Number.isFinite(actScore) ? actToSat(actScore) : null;
   }, [act]);
 
-  const url = `https://1600.now/${meta.slug}`;
-  const faqs = [
-    {
-      question: "Which concordance table does this converter use?",
-      answer:
-        "The official 2018 College Board × ACT concordance tables, which remain the concordance of record for the Digital SAT in 2026.",
-    },
-    {
-      question: "Do colleges accept SAT-to-ACT conversions?",
-      answer:
-        "Most colleges either publish both SAT and ACT ranges or use concordance tables internally. They do not convert for you — send whichever score looks stronger after conversion.",
-    },
-    {
-      question: "Is there a single best score to send?",
-      answer:
-        "Send the score with the higher percentile. If your SAT percentile is higher than the equivalent ACT percentile, send SAT, and vice versa.",
-    },
-    {
-      question: "What if my score isn't on the table?",
-      answer:
-        "SAT scores below 900 or above 1600, and ACT scores below 16 or above 36, fall outside the official concordance. The tool rounds SAT scores to the nearest 10.",
-    },
-  ];
-
   return (
-    <div className="mx-auto max-w-3xl px-6 py-10">
-      <PageSeo
-        id={`tool-${meta.slug}`}
-        title={meta.metaTitle}
-        description={meta.metaDescription}
-        jsonLd={[
-          buildBreadcrumbJsonLd([
-            { name: "Home", url: "https://1600.now/" },
-            { name: meta.name, url },
-          ]),
-          buildFaqJsonLd(faqs),
-          buildWebApplicationJsonLd({
-            name: meta.name,
-            url,
-            description: meta.metaDescription,
-          }),
-        ]}
-      />
-
-      <nav className="mb-6 text-sm text-muted-foreground">
-        <Link className="hover:underline" to="/">
-          Home
-        </Link>{" "}
-        › <span className="text-foreground">{meta.name}</span>
-      </nav>
-
-      <h1 className="text-4xl font-semibold tracking-tight md:text-5xl">
-        {meta.name}
-      </h1>
-      <p className="mt-4 text-lg text-muted-foreground">{meta.intro}</p>
-
+    <SatToolPageScaffold meta={meta} faqs={faqs}>
       <div className="mt-8 grid gap-6 md:grid-cols-2">
-        <div className="rounded-xl border border-border p-6">
+        <div className={TOOL_RESULT_CARD_CLASS}>
           <label className="text-sm font-semibold">SAT total score</label>
           <input
             type="number"
@@ -119,7 +94,7 @@ const SatToActConverter = () => {
             step={10}
             value={sat}
             onChange={(event) => setSat(event.target.value)}
-            className="mt-2 w-full rounded-lg border border-border bg-background px-3 py-2"
+            className={TOOL_INPUT_CLASS}
           />
           <div className="mt-4 text-sm text-muted-foreground">
             Equivalent ACT composite
@@ -129,7 +104,7 @@ const SatToActConverter = () => {
           </div>
         </div>
 
-        <div className="rounded-xl border border-border p-6">
+        <div className={TOOL_RESULT_CARD_CLASS}>
           <label className="text-sm font-semibold">ACT composite</label>
           <input
             type="number"
@@ -138,7 +113,7 @@ const SatToActConverter = () => {
             step={1}
             value={act}
             onChange={(event) => setAct(event.target.value)}
-            className="mt-2 w-full rounded-lg border border-border bg-background px-3 py-2"
+            className={TOOL_INPUT_CLASS}
           />
           <div className="mt-4 text-sm text-muted-foreground">
             Equivalent SAT total
@@ -150,7 +125,7 @@ const SatToActConverter = () => {
       </div>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold tracking-tight">
+        <h2 className={TOOL_SECTION_HEADING_CLASS}>
           Full concordance table
         </h2>
         <div className="mt-4 overflow-x-auto">
@@ -174,32 +149,32 @@ const SatToActConverter = () => {
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold tracking-tight">
+        <h2 className={TOOL_SECTION_HEADING_CLASS}>
           Which score should you send?
         </h2>
         <p className="mt-3 text-muted-foreground">
           Concordance is not a reward chart; it is a comparison tool. Use it to decide which test better represents your application, then check the college's actual score policy for superscoring and test-optional rules.
         </p>
-        <div className="mt-4 overflow-x-auto rounded-lg border border-border">
-          <table className="w-full min-w-[560px] text-left text-sm">
-            <thead className="bg-muted/70">
+        <div className={TOOL_INFO_TABLE_WRAPPER_CLASS}>
+          <table className={TOOL_INFO_TABLE_CLASS}>
+            <thead className={TOOL_INFO_TABLE_HEAD_CLASS}>
               <tr>
-                <th className="px-4 py-3 font-semibold">Situation</th>
-                <th className="px-4 py-3 font-semibold">Decision</th>
+                <th className={TOOL_INFO_TABLE_HEADER_CELL_CLASS}>Situation</th>
+                <th className={TOOL_INFO_TABLE_HEADER_CELL_CLASS}>Decision</th>
               </tr>
             </thead>
             <tbody>
-              <tr className="border-t border-border">
-                <td className="px-4 py-3 text-muted-foreground">SAT converts to a higher ACT than your actual ACT</td>
-                <td className="px-4 py-3 text-muted-foreground">Send SAT unless a college specifically prefers ACT section data.</td>
+              <tr className={TOOL_INFO_TABLE_ROW_CLASS}>
+                <td className={TOOL_INFO_TABLE_CELL_CLASS}>SAT converts to a higher ACT than your actual ACT</td>
+                <td className={TOOL_INFO_TABLE_CELL_CLASS}>Send SAT unless a college specifically prefers ACT section data.</td>
               </tr>
-              <tr className="border-t border-border">
-                <td className="px-4 py-3 text-muted-foreground">ACT converts to a higher SAT than your actual SAT</td>
-                <td className="px-4 py-3 text-muted-foreground">Send ACT and use SAT practice only if you plan to retest.</td>
+              <tr className={TOOL_INFO_TABLE_ROW_CLASS}>
+                <td className={TOOL_INFO_TABLE_CELL_CLASS}>ACT converts to a higher SAT than your actual SAT</td>
+                <td className={TOOL_INFO_TABLE_CELL_CLASS}>Send ACT and use SAT practice only if you plan to retest.</td>
               </tr>
-              <tr className="border-t border-border">
-                <td className="px-4 py-3 text-muted-foreground">Scores are equivalent</td>
-                <td className="px-4 py-3 text-muted-foreground">Send the test with stronger section balance or the score your college superscores best.</td>
+              <tr className={TOOL_INFO_TABLE_ROW_CLASS}>
+                <td className={TOOL_INFO_TABLE_CELL_CLASS}>Scores are equivalent</td>
+                <td className={TOOL_INFO_TABLE_CELL_CLASS}>Send the test with stronger section balance or the score your college superscores best.</td>
               </tr>
             </tbody>
           </table>
@@ -207,7 +182,7 @@ const SatToActConverter = () => {
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold tracking-tight">
+        <h2 className={TOOL_SECTION_HEADING_CLASS}>
           Common concordance mistakes
         </h2>
         <ul className="mt-3 list-disc space-y-2 pl-6 text-muted-foreground">
@@ -217,18 +192,7 @@ const SatToActConverter = () => {
         </ul>
       </section>
 
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold tracking-tight">FAQs</h2>
-        <div className="mt-4 space-y-5">
-          {faqs.map((faq) => (
-            <div key={faq.question}>
-              <h3 className="text-base font-semibold">{faq.question}</h3>
-              <p className="mt-1 text-muted-foreground">{faq.answer}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-    </div>
+    </SatToolPageScaffold>
   );
 };
 

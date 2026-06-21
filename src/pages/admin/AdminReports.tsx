@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { Navigate } from "react-router-dom";
-import { toast } from "sonner";
+import { toast } from "@/components/ui/sonner";
 
 import { Button } from "@/components/ui/button";
 import { useAuth } from "@/contexts/AuthContext";
@@ -9,34 +9,41 @@ import {
   REPORT_REASONS,
   listQuestionReports,
   type QuestionReport,
+  type ReportReasonKey,
 } from "@/lib/questionReports";
 import { loadBankQuestionBySourceId, type BankSubject } from "@/data/questionBank";
 
-type Row = QuestionReport & {
+type AdminReportRow = QuestionReport & {
   preview?: string;
-  bankSubject?: BankSubject;
-  bankSourceId?: string;
 };
+
+type ParsedStableId = {
+  subject: BankSubject;
+  sourceId: string;
+};
+
+const REPORT_STATUS_PANEL_CLASS =
+  "rounded-md border border-border/60 bg-muted/30 p-6 text-center text-sm text-muted-foreground";
 
 const REASON_LABEL_BY_KEY = Object.fromEntries(
   REPORT_REASONS.map((reason) => [reason.key, reason.label]),
-) as Record<string, string>;
+) as Record<ReportReasonKey, string>;
 
 const parseStableId = (
   id: string,
-): { subject?: BankSubject; sourceId?: string } => {
+): ParsedStableId | null => {
   const match = id.match(/^bank-(?:past|unofficial)-(math|reading)-(.+)$/);
-  if (!match) return {};
+  if (!match) return null;
   return { subject: match[1] as BankSubject, sourceId: match[2] };
 };
 
-const enrich = async (report: QuestionReport): Promise<Row> => {
-  const { subject, sourceId } = parseStableId(report.questionId);
-  if (!subject || !sourceId) return report;
-  const question = await loadBankQuestionBySourceId(subject, sourceId, "all");
+const enrich = async (report: QuestionReport): Promise<AdminReportRow> => {
+  const parsed = parseStableId(report.questionId);
+  if (!parsed) return report;
+  const question = await loadBankQuestionBySourceId(parsed.subject, parsed.sourceId, "all");
   const text = question?.questionText ?? question?.prompt ?? question?.passage ?? "";
   const preview = text.replace(/\s+/g, " ").trim().slice(0, 160);
-  return { ...report, preview, bankSubject: subject, bankSourceId: sourceId };
+  return { ...report, preview };
 };
 
 const formatTimestamp = (ts: number | { seconds: number } | undefined): string => {
@@ -48,7 +55,7 @@ const formatTimestamp = (ts: number | { seconds: number } | undefined): string =
 
 const AdminReports = () => {
   const { user, loading: authLoading } = useAuth();
-  const [reports, setReports] = useState<Row[] | null>(null);
+  const [reports, setReports] = useState<AdminReportRow[] | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [refreshKey, setRefreshKey] = useState(0);
 
@@ -120,13 +127,13 @@ const AdminReports = () => {
       )}
 
       {!error && reports === null && (
-        <div className="rounded-md border border-border/60 bg-muted/30 p-6 text-center text-sm text-muted-foreground">
+        <div className={REPORT_STATUS_PANEL_CLASS}>
           Loading reports…
         </div>
       )}
 
       {reports !== null && reports.length === 0 && (
-        <div className="rounded-md border border-border/60 bg-muted/30 p-6 text-center text-sm text-muted-foreground">
+        <div className={REPORT_STATUS_PANEL_CLASS}>
           No reports yet.
         </div>
       )}

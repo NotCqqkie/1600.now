@@ -14,6 +14,10 @@
     {
       "title": "Rewrite both sides with a common base",
       "content": "Recognize that both 9 and 27 are powers of 3: $9 = 3^2$ and $27 = 3^3$.<br/><br/>Substitute to rewrite the equation: $$(3^2)^{\\frac{x}{8}} = 3^3$$ Apply the power rule $(a^m)^n = a^{mn}$: $$3^{\\frac{2x}{8}} = 3^3$$ Simplify the left exponent: $$3^{\\frac{x}{4}} = 3^3$$"
+    },
+    {
+      "title": "Equate exponents and solve",
+      "content": "Since the bases are equal, the exponents must be equal:<br/>$$\\frac{x}{4}=3$$<br/>Multiply both sides by 4:<br/>$$x=12$$<br/>The answer is <strong>12</strong>."
     }
   ]
 }

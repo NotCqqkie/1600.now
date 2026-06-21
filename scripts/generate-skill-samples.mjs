@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 
-import { existsSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
+import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
+import { collectActivePracticeQuestionKeys } from "./practice-data-utils.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "..");
@@ -101,7 +102,7 @@ const looksLikeImageDescription = (text) => {
   if (!trimmed) return false;
   if (/\$[^$]+\$/.test(trimmed)) return false;
   if (/^\s*•/.test(trimmed)) return true;
-  return /(comma\s+(negative\s+)?\d|open parenthesis|close parenthesis|y\s*-\s*intercept|x\s*-\s*intercept|parabola opens|the curve|the graph|the line passes through|left to right|quadrant\s+\d)/i.test(trimmed);
+  return /(comma\s+(negative\s+)?\d|open parenthesis|close parenthesis|y\s*-\s*intercept|x\s*-\s*intercept|parabola opens|the graph|the line passes through|left to right|quadrant\s+\d)/i.test(trimmed);
 };
 
 const hasUnsalvageableChoices = (question) => {
@@ -284,27 +285,14 @@ writeFileSync(
     ";\n",
 );
 
-const activePastQuestionSourceIds = new Set();
-try {
-  const moduleDir = path.join(root, "src/data/modules");
-  for (const fileName of readdirSync(moduleDir)) {
-    if (!fileName.endsWith(".json")) continue;
-    const moduleQuestions = JSON.parse(readFileSync(path.join(moduleDir, fileName), "utf8"));
-    if (!Array.isArray(moduleQuestions)) continue;
-    for (const q of moduleQuestions) {
-      if (typeof q?.id === "string" && q.id) activePastQuestionSourceIds.add(q.id);
-    }
-  }
-} catch (err) {
-  console.warn("generate-skill-samples: could not collect active module ids —", err.message);
-}
+const activePracticeQuestionKeys = collectActivePracticeQuestionKeys(root);
 
 const makeBankQuestionMetaRow = (bankType, q) => {
   const subject = normalizeSubject(q);
   const sourceId = String(q.id);
   const domain = q?.category?.domain ?? q.domain ?? "Unassigned";
   const skill = q?.category?.skill ?? q.skill ?? "Unassigned";
-  const active = q.inPracticeTests === true || (bankType === "past" && activePastQuestionSourceIds.has(sourceId));
+  const active = q.inPracticeTests === true || activePracticeQuestionKeys.has(`${bankType}:${subject}:${sourceId}`);
   const bankVisible = isBankVisibleQuestion(bankType, q);
   return [
     `bank-${bankType}-${subject}-${sourceId}`,

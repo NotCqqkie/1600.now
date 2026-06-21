@@ -20,7 +20,7 @@ const server = await createServer({
 });
 
 try {
-  const { loadBankPool } = await server.ssrLoadModule("/src/data/questionBank.ts");
+  const { loadBankPool, loadAllSourceBankQuestions } = await server.ssrLoadModule("/src/data/questionBank.ts");
   const generatedDir = path.join(root, "src/lib/generated/bank-route-index");
   const detailShardDir = path.join(root, "public/generated/bank-question-shards");
   const legacyDetailShardDir = path.join(root, "src/lib/generated/bank-question-shards");
@@ -36,7 +36,10 @@ try {
 
   for (const source of detailSources) {
     for (const subject of subjects) {
-      const questions = await loadBankPool(subject, source);
+      const questions =
+        subject === "reading"
+          ? await loadAllSourceBankQuestions(subject, source)
+          : await loadBankPool(subject, source);
       totalDetailRows += questions.length;
 
       for (let shardIndex = 0; shardIndex * DETAIL_SHARD_SIZE < questions.length; shardIndex += 1) {
@@ -61,9 +64,21 @@ try {
 
   for (const source of sources) {
     for (const subject of subjects) {
-      const questions = await loadBankPool(subject, source);
-      const rows = questions.map((question) => [
-        question.id,
+      const visibleQuestions = await loadBankPool(subject, source);
+      let questions = visibleQuestions;
+      if (subject === "reading") {
+        const visibleQuestionKeys = new Set(
+          visibleQuestions.map((question) => `${question.bankType}:${question.sourceId}`),
+        );
+        questions = [
+          ...visibleQuestions,
+          ...(await loadAllSourceBankQuestions(subject, source)).filter(
+            (question) => !visibleQuestionKeys.has(`${question.bankType}:${question.sourceId}`),
+          ),
+        ];
+      }
+      const rows = questions.map((question, index) => [
+        index + 1,
         question.stableId,
         question.sourceId,
         question.bankType,

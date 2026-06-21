@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the angle correspondence under dilation",
-      "content": "When a figure is dilated, all side lengths scale by the scale factor, but angles are preserved-they remain unchanged.<br/><br/>Triangle $ABC$ is dilated by scale factor $3$ to produce triangle $XYZ$, so corresponding vertices are: $A \\leftrightarrow X$, $B \\leftrightarrow Y$, and $C \\leftrightarrow Z$.<br/><br/>Therefore, angle $X$ (at vertex $X$ in the dilated triangle) equals angle $A$ (at the corresponding vertex $A$ in the original triangle)."
+      "content": "When a figure is dilated, all side lengths scale by the scale factor, but angles are preserved; they remain unchanged.<br/><br/>Triangle $ABC$ is dilated by scale factor $3$ to produce triangle $XYZ$, so corresponding vertices are: $A \\leftrightarrow X$, $B \\leftrightarrow Y$, and $C \\leftrightarrow Z$.<br/><br/>Therefore, angle $X$ at vertex $X$ in the dilated triangle equals angle $A$ at the corresponding vertex in the original triangle."
     },
     {
       "title": "Read angle A from the diagram and conclude",
-      "content": "From the diagram, angle $A$ in triangle $ABC$ is labeled as $60^{\\circ}$. Since dilation preserves angles, angle $X = $ angle $A = 60^{\\circ}$. That matches the correct answer — <strong>C</strong> is correct."
+      "content": "From the diagram, angle $A$ in triangle $ABC$ is labeled as $60^{\\circ}$. Since dilation preserves angles, $\\angle X=\\angle A=60^{\\circ}$. That matches the correct answer — <strong>C</strong> is correct."
     }
   ]
 }

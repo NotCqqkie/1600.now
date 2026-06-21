@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Recognize the implicit comparison",
-      "content": "London Array's output (630 MW) is presented first, then Hornsea Project One is introduced as generating <strong>the most power of any single offshore farm</strong> (1,218 MW). Placing two farms with different power outputs back-to-back signals you're meant to compare them."
+      "content": "London Array's generating capacity (about 630 MW) is presented first, then Hornsea Project One is introduced as having a generating capacity of 1,218 MW. Placing two farms with different capacities back-to-back signals that the values should be compared."
     },
     {
       "title": "Select the transition expressing comparison",
-      "content": "The logical relationship is contrast — London Array's 630 MW output is placed beside Hornsea Project One's 1,218 MW to show the scale difference. The blank needs a transition signaling that side-by-side comparison.\n<ul>\n<li><strong>Choice A &mdash; &lsquo;As a result,&rsquo;</strong>: signals cause-effect, so fails — Hornsea's output is not caused by London Array's output. ✗</li>\n<li><strong>Choice B &mdash; &lsquo;That is,&rsquo;</strong>: signals restatement or clarification, so fails — Hornsea's figure is a new, different fact, not a rephrasing of London Array's. ✗</li>\n<li><strong>Choice C &mdash; &lsquo;By comparison,&rsquo;</strong>: signals a direct contrast between two measured quantities, so fits. ✓</li>\n<li><strong>Choice D &mdash; &lsquo;For instance,&rsquo;</strong>: signals a specific example of a general claim, so fails — no general claim precedes the Hornsea sentence. ✗</li>\n</ul>\nThis confirms <strong>C</strong> is correct."
+      "content": "The logical relationship is contrast: London Array's 630 MW capacity is placed beside Hornsea Project One's 1,218 MW capacity to show the scale difference. The blank needs a transition signaling that side-by-side comparison.\n<ul>\n<li><strong>Choice A &mdash; &lsquo;As a result,&rsquo;</strong>: signals cause-effect, so fails because Hornsea's capacity is not caused by London Array's capacity. ✗</li>\n<li><strong>Choice B &mdash; &lsquo;That is,&rsquo;</strong>: signals restatement or clarification, so fails because Hornsea's figure is a new, different fact. ✗</li>\n<li><strong>Choice C &mdash; &lsquo;By comparison,&rsquo;</strong>: signals a direct comparison between two measured quantities, so fits. ✓</li>\n<li><strong>Choice D &mdash; &lsquo;For instance,&rsquo;</strong>: signals a specific example of a general claim, so fails because no general claim precedes the Hornsea sentence. ✗</li>\n</ul>\nThis confirms <strong>C</strong> is correct."
     }
   ]
 }

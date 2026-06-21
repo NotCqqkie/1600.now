@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+      "title": "Use the cone volume formula",
+      "content": "For a cone, volume is $V=\\frac{1}{3}\\pi r^2h$. The radius is $6$ cm and the height is $13$ cm, so substitute those values directly."
     },
     {
       "title": "Set up",

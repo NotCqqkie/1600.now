@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The sentence makes a main claim (processor power has drastically increased) and then elaborates with a surprising consequence introduced by &quot;even&quot; — even once-revolutionary dual-core technology is now commonplace. The punctuation must correctly attach that elaboration to the main clause."
+      "content": "The sentence opens an inserted phrase after &quot;drastically&quot; with an em dash: &quot;cores now number in the dozens, hundreds, or even thousands.&quot; The blank must close that inserted phrase after &quot;thousands&quot; so the larger <em>so ... that</em> sentence can continue."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;thousands, that&rsquo;</strong>: Creates a comma splice with no coordinating conjunction. &#10007;</li><li><strong>Choice B &mdash; &lsquo;thousands that-&rsquo;</strong>: The punctuation pattern is grammatically invalid. &#10007;</li><li><strong>Choice C &mdash; &lsquo;thousands - that&rsquo;</strong>: A dash correctly introduces the elaborating clause; &quot;that&quot; marks it as subordinate, making the whole construction grammatical. &#10003;</li><li><strong>Choice D &mdash; &lsquo;thousands. That&rsquo;</strong>: Splits the elaboration into a fragment — &quot;That the once-revolutionary...&quot; has no predicate. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;thousands, that&rsquo;</strong>: A comma cannot close the inserted dash phrase. &#10007;</li><li><strong>Choice B &mdash; &lsquo;thousands that&mdash;&rsquo;</strong>: Places the dash after &quot;that,&quot; which leaves the inserted phrase unclosed. &#10007;</li><li><strong>Choice C &mdash; &lsquo;thousands&mdash;that&rsquo;</strong>: The em dash closes the inserted phrase, and &quot;that&quot; then completes the <em>so drastically ... that</em> construction. &#10003;</li><li><strong>Choice D &mdash; &lsquo;thousands. That&rsquo;</strong>: Splits the result clause into a fragment. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
     }
   ]
 }

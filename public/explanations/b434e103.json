@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+      "title": "Use the triangle angle sum",
+      "content": "The angles in a triangle sum to $180^{\\circ}$. Since $\\angle R=63^{\\circ}$, the other two angles must sum to $117^{\\circ}$, so $\\angle S$ must be less than $117^{\\circ}$."
     },
     {
       "title": "Step 1",

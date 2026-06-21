@@ -1,20 +1,13 @@
 
-export interface ExplanationStep {
+interface ExplanationStep {
   title: string;
   content: string;
-  highlights?: { text: string; color: "green" | "red" | "yellow" | "blue" }[];
   formula?: string;
-  eliminationChoices?: {
-    label: string;
-    text: string;
-    eliminated: boolean;
-    reason?: string;
-  }[];
   desmosExpressions?: string[];
   desmosGraphs?: { label?: string; expressions: string[] }[];
 }
 
-export interface ExplanationData {
+interface ExplanationData {
   questionId: string;
   correctAnswer: string;
   steps: ExplanationStep[];
@@ -49,8 +42,9 @@ const normalizeComparableHtml = (value: string): string =>
     .toLowerCase();
 
 function normalizeStep(rawStep: unknown, index: number): ExplanationStep | null {
+  const defaultTitle = `Step ${index + 1}`;
   if (typeof rawStep === "string") {
-    return { title: `Step ${index + 1}`, content: rawStep };
+    return { title: defaultTitle, content: rawStep };
   }
 
   const step = asRecord(rawStep);
@@ -72,7 +66,7 @@ function normalizeStep(rawStep: unknown, index: number): ExplanationStep | null 
     asString(step.title) ??
     asString(step.heading) ??
     asString(step.label) ??
-    `Step ${index + 1}`;
+    defaultTitle;
 
   const normalized: ExplanationStep = {
     title,
@@ -126,19 +120,19 @@ export function normalizeExplanationData(raw: unknown): ExplanationData | null {
   const shouldAppendChoiceElimination =
     choiceElimination &&
     !existingStepContent.includes(normalizeComparableHtml(choiceElimination).slice(0, 120));
+  const rootDesmosExpressions = asStringArray(data.desmosExpressions);
 
   if (shouldAppendChoiceElimination) {
     steps.push({
       title: "Check the choices",
       content: choiceElimination,
-      desmosExpressions: asStringArray(data.desmosExpressions),
+      desmosExpressions: rootDesmosExpressions,
     });
-  } else if (steps.length && Array.isArray(data.desmosExpressions)) {
-    const desmosExpressions = asStringArray(data.desmosExpressions);
-    if (desmosExpressions?.length) {
+  } else if (steps.length) {
+    if (rootDesmosExpressions?.length) {
       steps[steps.length - 1] = {
         ...steps[steps.length - 1],
-        desmosExpressions,
+        desmosExpressions: rootDesmosExpressions,
       };
     }
   }
@@ -151,8 +145,4 @@ export function normalizeExplanationData(raw: unknown): ExplanationData | null {
     steps,
     generatedAt: typeof data.generatedAt === "number" ? data.generatedAt : 0,
   };
-}
-
-export function getCachedExplanation(_questionId: string): ExplanationData | null {
-  return null;
 }

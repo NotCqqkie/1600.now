@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li><strong>\"$\\sqrt{{21}^{2}-{6}^{2}}$\"</strong>: exactly what the Pythagorean theorem gives. That matches the correct answer — <strong>A</strong> is correct.</li><li><strong>\"${21}^{2}-{6}^{2}$\"</strong>: this is $a^2$, not $a$; missing the square root. Eliminated.</li><li><strong>\"$\\sqrt{21-6}$\"</strong>: subtracts the sides before rooting; no Pythagorean basis. Eliminated.</li><li><strong>\"$21-6$\"</strong>: simple subtraction of sides, not valid for finding a leg. Eliminated.</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+      "content": "<ul><li><strong>\"$\\sqrt{{21}^{2}-{6}^{2}}$\"</strong>: exactly what the Pythagorean theorem gives. That matches the correct answer — <strong>A</strong> is correct.</li><li><strong>\"${21}^{2}-{6}^{2}$\"</strong>: this is $a^2$, not $a$; missing the square root. Eliminated.</li><li><strong>\"$\\sqrt{21-6}$\"</strong>: subtracts the sides before rooting; no Pythagorean basis. Eliminated.</li><li><strong>\"$21-6$\"</strong>: simple subtraction of sides, not valid for finding a leg. Eliminated.</li></ul>"
     }
   ]
 }

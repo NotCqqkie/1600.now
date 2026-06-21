@@ -11,9 +11,41 @@ import {
   getModulePracticeDefaultTimeMinutes,
   getModulePracticeMaximumTimeMinutes,
   getModulePracticeSession,
+  type ModulePracticeSessionMeta,
   type ModulePracticeSettings,
 } from "@/lib/practice/modulePracticeSession";
 import { launchModulePractice } from "@/lib/practice/modulePracticeNavigation";
+
+const MODULES_PATH = "/modules";
+const FALLBACK_DEFAULT_MINUTES = 35;
+const FALLBACK_MAX_MINUTES = 70;
+const MIN_TIME_MINUTES = 1;
+const BACK_BUTTON_CLASS = "-ml-3 w-fit gap-2 px-3";
+const OPTION_SECTION_CLASS = "rounded-2xl border border-border/60 bg-muted/30 p-5";
+const OPTION_SECTION_HEADER_CLASS = "flex items-start justify-between gap-4";
+const START_FRESH_CONFIRM_MESSAGE =
+  "Starting fresh will discard your saved progress for this module. Continue?";
+
+const getInitialTimeMinutes = (
+  savedSession: ModulePracticeSessionMeta | null,
+  defaultMinutes: number,
+): number =>
+  savedSession?.settings.timeLimitSeconds
+    ? Math.round(savedSession.settings.timeLimitSeconds / 60)
+    : defaultMinutes;
+
+const formatSavedRemainingMinutes = (remainingSeconds: number | null | undefined): string =>
+  `${Math.max(0, Math.floor((remainingSeconds ?? 0) / 60))} minutes remaining`;
+
+const buildModulePracticeSettings = (
+  timed: boolean,
+  timeMinutes: number,
+  allowCheckingAnswers: boolean,
+): ModulePracticeSettings => ({
+  timed,
+  timeLimitSeconds: timed ? timeMinutes * 60 : null,
+  allowCheckingAnswers,
+});
 
 const ModuleStart = () => {
   const { moduleId } = useParams<{ moduleId: string }>();
@@ -22,20 +54,14 @@ const ModuleStart = () => {
     () => (moduleId ? getPracticeModule(moduleId) : null),
     [moduleId],
   );
-  const [sessionRefreshKey, setSessionRefreshKey] = useState(0);
-  const savedSession = useMemo(
-    () => {
-      void sessionRefreshKey;
-      return module ? getModulePracticeSession(module.slug) : null;
-    },
-    [module, sessionRefreshKey],
-  );
+  const [, setSessionRefreshKey] = useState(0);
+  const savedSession = module ? getModulePracticeSession(module.slug) : null;
   const defaultMinutes = module
     ? getModulePracticeDefaultTimeMinutes(module.subject)
-    : 35;
+    : FALLBACK_DEFAULT_MINUTES;
   const maxMinutes = module
     ? getModulePracticeMaximumTimeMinutes(module.subject)
-    : 70;
+    : FALLBACK_MAX_MINUTES;
   const [timed, setTimed] = useState(
     savedSession?.settings.timed ?? true,
   );
@@ -43,16 +69,14 @@ const ModuleStart = () => {
     savedSession?.settings.allowCheckingAnswers ?? false,
   );
   const [timeMinutes, setTimeMinutes] = useState(
-    savedSession?.settings.timeLimitSeconds
-      ? Math.round(savedSession.settings.timeLimitSeconds / 60)
-      : defaultMinutes,
+    getInitialTimeMinutes(savedSession, defaultMinutes),
   );
 
   if (!module) {
     return (
       <div className="mx-auto flex min-h-screen w-full max-w-3xl flex-col gap-6 px-4 py-12 sm:px-6">
-        <Button variant="ghost" asChild className="-ml-3 w-fit gap-2 px-3">
-          <Link to="/modules">
+        <Button variant="ghost" asChild className={BACK_BUTTON_CLASS}>
+          <Link to={MODULES_PATH}>
             <ArrowLeft className="h-4 w-4" />
             Back to modules
           </Link>
@@ -66,14 +90,14 @@ const ModuleStart = () => {
     );
   }
 
+  const hasActiveSavedSession = savedSession !== null && savedSession.status !== "submitted";
+  const settings = buildModulePracticeSettings(timed, timeMinutes, allowCheckingAnswers);
+
   const launchSession = (resumeExisting: boolean) => {
     if (
       !resumeExisting &&
-      savedSession &&
-      savedSession.status !== "submitted" &&
-      !window.confirm(
-        "Starting fresh will discard your saved progress for this module. Continue?",
-      )
+      hasActiveSavedSession &&
+      !window.confirm(START_FRESH_CONFIRM_MESSAGE)
     ) {
       return;
     }
@@ -82,18 +106,14 @@ const ModuleStart = () => {
       navigate,
       resumeExisting,
       savedSession,
-      settings: {
-        timed,
-        timeLimitSeconds: timed ? timeMinutes * 60 : null,
-        allowCheckingAnswers,
-      } satisfies ModulePracticeSettings,
+      settings,
     });
   };
 
   return (
     <div className="mx-auto flex min-h-screen w-full max-w-4xl flex-col gap-6 px-4 py-8 sm:px-6 lg:px-8">
-      <Button variant="ghost" asChild className="-ml-3 w-fit gap-2 px-3">
-        <Link to="/modules">
+      <Button variant="ghost" asChild className={BACK_BUTTON_CLASS}>
+        <Link to={MODULES_PATH}>
           <ArrowLeft className="h-4 w-4" />
           Back to modules
         </Link>
@@ -113,7 +133,7 @@ const ModuleStart = () => {
         </h1>
       </div>
 
-      {savedSession && savedSession.status !== "submitted" && (
+      {hasActiveSavedSession && (
         <Card className="border-primary/30 bg-primary/5">
           <CardHeader className="pb-3">
             <CardTitle className="text-xl">Saved session found</CardTitle>
@@ -125,7 +145,7 @@ const ModuleStart = () => {
               </p>
               <p>
                 {savedSession.settings.timed
-                  ? `${Math.max(0, Math.floor((savedSession.remainingSeconds ?? 0) / 60))} minutes remaining`
+                  ? formatSavedRemainingMinutes(savedSession.remainingSeconds)
                   : "Untimed session"}
                 {" · "}
                 {savedSession.settings.allowCheckingAnswers
@@ -158,8 +178,8 @@ const ModuleStart = () => {
           <CardTitle>Practice options</CardTitle>
         </CardHeader>
         <CardContent className="space-y-6">
-          <div className="rounded-2xl border border-border/60 bg-muted/30 p-5">
-            <div className="flex items-start justify-between gap-4">
+          <div className={OPTION_SECTION_CLASS}>
+            <div className={OPTION_SECTION_HEADER_CLASS}>
               <div>
                 <div className="text-base font-semibold">Timed module</div>
               </div>
@@ -178,11 +198,11 @@ const ModuleStart = () => {
                   </div>
                 </div>
                 <Slider
-                  min={1}
+                  min={MIN_TIME_MINUTES}
                   max={maxMinutes}
                   step={1}
                   value={[timeMinutes]}
-                  onValueChange={(value) => setTimeMinutes(Math.max(1, value[0] ?? defaultMinutes))}
+                  onValueChange={(value) => setTimeMinutes(Math.max(MIN_TIME_MINUTES, value[0] ?? defaultMinutes))}
                 />
                 <div className="flex justify-between text-xs text-muted-foreground">
                   <span>1 min</span>
@@ -193,8 +213,8 @@ const ModuleStart = () => {
             )}
           </div>
 
-          <div className="rounded-2xl border border-border/60 bg-muted/30 p-5">
-            <div className="flex items-start justify-between gap-4">
+          <div className={OPTION_SECTION_CLASS}>
+            <div className={OPTION_SECTION_HEADER_CLASS}>
               <div>
                 <div className="text-base font-semibold">Enable checking answers</div>
                 <p className="mt-1 text-sm leading-6 text-muted-foreground">

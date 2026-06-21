@@ -7,6 +7,30 @@ import {
 } from "@/components/seo/PageSeo";
 import { blogPostBySlug, blogPosts } from "@/lib/seo-data/blogData";
 
+const BLOG_URL = "https://1600.now/blog";
+const SECTION_HEADING_CLASS = "text-2xl font-semibold tracking-tight";
+const PRACTICE_CARD_CLASS = "block rounded-xl border border-border p-4 transition hover:bg-muted";
+const PRACTICE_CARD_TITLE_CLASS = "font-semibold";
+const PRACTICE_CARD_DESCRIPTION_CLASS = "mt-1 text-sm text-muted-foreground";
+
+const PRACTICE_LINKS = [
+  {
+    to: "/bank",
+    title: "Drill questions",
+    description: "Turn the strategy into targeted SAT practice.",
+  },
+  {
+    to: "/modules",
+    title: "Take a timed module",
+    description: "Check pacing with a realistic module.",
+  },
+  {
+    to: "/score-calculator",
+    title: "Estimate your score",
+    description: "Convert raw results into a 1600-scale estimate.",
+  },
+] as const;
+
 const blogActionPlanFor = (tag: string) => {
   if (tag.includes("Scoring")) {
     return {
@@ -71,8 +95,10 @@ const BlogPost = () => {
     );
   }
 
-  const url = `https://1600.now/blog/${post.slug}`;
+  const url = `${BLOG_URL}/${post.slug}`;
   const actionPlan = blogActionPlanFor(post.tag);
+  const postIndex =
+    blogPosts.findIndex((candidate) => candidate.slug === post.slug) + 1;
 
   return (
     <article className="mx-auto max-w-3xl px-6 py-10">
@@ -84,7 +110,7 @@ const BlogPost = () => {
         jsonLd={[
           buildBreadcrumbJsonLd([
             { name: "Home", url: "https://1600.now/" },
-            { name: "Blog", url: "https://1600.now/blog" },
+            { name: "Blog", url: BLOG_URL },
             { name: post.title, url },
           ]),
           buildArticleJsonLd({
@@ -126,7 +152,7 @@ const BlogPost = () => {
 
       {post.sections.map((section) => (
         <section key={section.heading} className="mt-8">
-          <h2 className="text-2xl font-semibold tracking-tight">
+          <h2 className={SECTION_HEADING_CLASS}>
             {section.heading}
           </h2>
           {section.body.map((paragraph, paragraphIndex) => (
@@ -145,7 +171,7 @@ const BlogPost = () => {
       ))}
 
       <section className="mt-12">
-        <h2 className="text-2xl font-semibold tracking-tight">
+        <h2 className={SECTION_HEADING_CLASS}>
           What to do after reading this
         </h2>
         <ol className="mt-3 list-decimal space-y-2 pl-6 text-muted-foreground">
@@ -156,7 +182,7 @@ const BlogPost = () => {
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold tracking-tight">
+        <h2 className={SECTION_HEADING_CLASS}>
           Mistakes to avoid
         </h2>
         <ul className="mt-3 list-disc space-y-2 pl-6 text-muted-foreground">
@@ -167,43 +193,20 @@ const BlogPost = () => {
       </section>
 
       <section className="mt-12">
-        <h2 className="text-2xl font-semibold tracking-tight">
+        <h2 className={SECTION_HEADING_CLASS}>
           Use this in practice
         </h2>
         <ul className="mt-4 grid gap-3 md:grid-cols-3">
-          <li>
-            <Link
-              to="/bank"
-              className="block rounded-xl border border-border p-4 transition hover:bg-muted"
-            >
-              <div className="font-semibold">Drill questions</div>
-              <p className="mt-1 text-sm text-muted-foreground">
-                Turn the strategy into targeted SAT practice.
-              </p>
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="/modules"
-              className="block rounded-xl border border-border p-4 transition hover:bg-muted"
-            >
-              <div className="font-semibold">Take a timed module</div>
-              <p className="mt-1 text-sm text-muted-foreground">
-                Check pacing with a realistic module.
-              </p>
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="/score-calculator"
-              className="block rounded-xl border border-border p-4 transition hover:bg-muted"
-            >
-              <div className="font-semibold">Estimate your score</div>
-              <p className="mt-1 text-sm text-muted-foreground">
-                Convert raw results into a 1600-scale estimate.
-              </p>
-            </Link>
-          </li>
+          {PRACTICE_LINKS.map((link) => (
+            <li key={link.to}>
+              <Link to={link.to} className={PRACTICE_CARD_CLASS}>
+                <div className={PRACTICE_CARD_TITLE_CLASS}>{link.title}</div>
+                <p className={PRACTICE_CARD_DESCRIPTION_CLASS}>
+                  {link.description}
+                </p>
+              </Link>
+            </li>
+          ))}
         </ul>
       </section>
 
@@ -227,8 +230,7 @@ const BlogPost = () => {
       </section>
 
       <p className="mt-8 text-xs text-muted-foreground">
-        Post {blogPosts.findIndex((p) => p.slug === post.slug) + 1} of{" "}
-        {blogPosts.length} in the 1600.now Digital SAT blog.
+        Post {postIndex} of {blogPosts.length} in the 1600.now Digital SAT blog.
       </p>
     </article>
   );

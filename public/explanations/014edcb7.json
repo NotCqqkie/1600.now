@@ -9,11 +9,11 @@
     },
     {
       "title": "Find the interior angle at R using the linear pair",
-      "content": "Since S, R, and Q are collinear, angles ∠QRP and ∠PRS form a linear pair on the line and are supplementary.<br/>$$∠QRP + ∠PRS = 180^{\\circ}$$<br/>$$∠QRP = 180^{\\circ} - 163^{\\circ} = 17^{\\circ}$$"
+      "content": "Since $S$, $R$, and $Q$ are collinear, angles $\\angle QRP$ and $\\angle PRS$ form a linear pair on the line and are supplementary.<br/>$$\\angle QRP + \\angle PRS = 180^{\\circ}$$<br/>$$\\angle QRP = 180^{\\circ} - 163^{\\circ} = 17^{\\circ}$$"
     },
     {
-      "title": "Apply the angle sum property to find ∠QPR",
-      "content": "The sum of all angles in triangle PQR equals 180°:<br/>$$∠QPR + ∠PQR + ∠QRP = 180^{\\circ}$$<br/>$$∠QPR + 132^{\\circ} + 17^{\\circ} = 180^{\\circ}$$<br/>$$∠QPR = 31^{\\circ}$$<br/>That matches <strong>Choice B &mdash; $31^\\circ$</strong>."
+      "title": "Apply the angle sum property to find $\\angle QPR$",
+      "content": "The sum of all angles in triangle $PQR$ equals $180^{\\circ}$:<br/>$$\\angle QPR + \\angle PQR + \\angle QRP = 180^{\\circ}$$<br/>$$\\angle QPR + 132^{\\circ} + 17^{\\circ} = 180^{\\circ}$$<br/>$$\\angle QPR = 31^{\\circ}$$<br/>That matches <strong>Choice B &mdash; $31^\\circ$</strong>."
     }
   ]
 }

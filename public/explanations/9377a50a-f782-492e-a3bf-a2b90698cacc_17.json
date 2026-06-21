@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph the equations as written",
-      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$-0.9y=0.8x+2.2$$<br/>$$4y=-3x+18$$<br/>You do not need to solve or rearrange them first.",
-      "desmosExpressions": [
-        "-0.9y=0.8x+2.2",
-        "4y=-3x+18"
-      ]
+      "title": "Clear the decimals",
+      "content": "Multiply the first equation by $10$: $$-9y=8x+22,$$ so $$8x+9y=-22.$$ Rewrite the second equation as $$3x+4y=18.$$"
     },
     {
-      "title": "Read the x-coordinate",
-      "content": "Click the intersection point and read the x-coordinate. It matches <strong>$-50$</strong>."
+      "title": "Eliminate y",
+      "content": "Multiply $8x+9y=-22$ by $4$ to get $$32x+36y=-88.$$ Multiply $3x+4y=18$ by $9$ to get $$27x+36y=162.$$ Subtract the second equation from the first: $$5x=-250.$$"
     },
     {
-      "title": "Why this works",
-      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
+      "title": "Solve for x",
+      "content": "$$x=\\frac{-250}{5}=-50.$$ Therefore, the value of $x$ is <strong>$-50$</strong>."
     }
   ]
 }

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="4042" height="1037" viewBox="0 0 4042 1037">
+  <rect width="4042" height="1037" fill="#fff"/>
+  <style>
+    text { font-family: "Times New Roman", Times, serif; fill: #000; }
+    .title { font-size: 92px; }
+    .header { font-size: 86px; }
+    .body { font-size: 78px; }
+    line { stroke: #000; stroke-width: 4; shape-rendering: crispEdges; }
+  </style>
+  <text class="title" x="2021" y="82" text-anchor="middle">Days per Winter That Lakes Have Surface Ice</text>
+  <line x1="0" y1="145" x2="4042" y2="145"/>
+  <line x1="0" y1="470" x2="4042" y2="470"/>
+  <line x1="0" y1="658" x2="4042" y2="658"/>
+  <line x1="0" y1="848" x2="4042" y2="848"/>
+  <line x1="0" y1="1035" x2="4042" y2="1035"/>
+  <line x1="2" y1="145" x2="2" y2="1037"/>
+  <line x1="680" y1="145" x2="680" y2="1037"/>
+  <line x1="1160" y1="145" x2="1160" y2="1037"/>
+  <line x1="1640" y1="145" x2="1640" y2="1037"/>
+  <line x1="2120" y1="145" x2="2120" y2="1037"/>
+  <line x1="2600" y1="145" x2="2600" y2="1037"/>
+  <line x1="3080" y1="145" x2="3080" y2="1037"/>
+  <line x1="3560" y1="145" x2="3560" y2="1037"/>
+  <line x1="4040" y1="145" x2="4040" y2="1037"/>
+  <text class="header" x="340" y="338" text-anchor="middle">Lake</text>
+  <text class="header" x="920" y="270" text-anchor="middle">Latitude</text>
+  <text class="header" x="920" y="408" text-anchor="middle">(degrees)</text>
+  <text class="header" x="1400" y="338" text-anchor="middle">1980-81</text>
+  <text class="header" x="1880" y="338" text-anchor="middle">1985-86</text>
+  <text class="header" x="2360" y="338" text-anchor="middle">1990-91</text>
+  <text class="header" x="2840" y="338" text-anchor="middle">1995-96</text>
+  <text class="header" x="3320" y="338" text-anchor="middle">2000-01</text>
+  <text class="header" x="3800" y="338" text-anchor="middle">2005-06</text>
+  <text class="body" x="340" y="588" text-anchor="middle">Kalmarinjarvi</text>
+  <text class="body" x="920" y="588" text-anchor="middle">62.79</text>
+  <text class="body" x="1400" y="588" text-anchor="middle">198</text>
+  <text class="body" x="1880" y="588" text-anchor="middle">172</text>
+  <text class="body" x="2360" y="588" text-anchor="middle">175</text>
+  <text class="body" x="2840" y="588" text-anchor="middle">184</text>
+  <text class="body" x="3320" y="588" text-anchor="middle">131</text>
+  <text class="body" x="3800" y="588" text-anchor="middle">152</text>
+  <text class="body" x="340" y="778" text-anchor="middle">Lake Neusiedl</text>
+  <text class="body" x="920" y="778" text-anchor="middle">47.82</text>
+  <text class="body" x="1400" y="778" text-anchor="middle">77</text>
+  <text class="body" x="1880" y="778" text-anchor="middle">86</text>
+  <text class="body" x="2360" y="778" text-anchor="middle">87</text>
+  <text class="body" x="2840" y="778" text-anchor="middle">128</text>
+  <text class="body" x="3320" y="778" text-anchor="middle">50</text>
+  <text class="body" x="3800" y="778" text-anchor="middle">104</text>
+  <text class="body" x="340" y="966" text-anchor="middle">Mirror Lake</text>
+  <text class="body" x="920" y="966" text-anchor="middle">43.94</text>
+  <text class="body" x="1400" y="966" text-anchor="middle">122</text>
+  <text class="body" x="1880" y="966" text-anchor="middle">129</text>
+  <text class="body" x="2360" y="966" text-anchor="middle">125</text>
+  <text class="body" x="2840" y="966" text-anchor="middle">136</text>
+  <text class="body" x="3320" y="966" text-anchor="middle">141</text>
+  <text class="body" x="3800" y="966" text-anchor="middle">119</text>
+</svg>

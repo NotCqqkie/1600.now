@@ -5,15 +5,11 @@
   "steps": [
     {
       "title": "Apply the equality from the given condition",
-      "content": "Two equal fractions with different denominators force the numerator to be $0$: $x-17=0$, so $x=17$."
+      "content": "The two fractions have the same numerator, $x-17$, but different denominators. If that numerator were nonzero, dividing it by $18$ and by $6$ would give different values. Therefore the shared numerator must be $0$: $x-17=0$, so $x=17$."
     },
     {
       "title": "Compute the target value",
       "content": "Then $x+17 = 17+17 = 34$. That confirms <strong>D</strong> is correct."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches the correct answer, $34$, and the other choices fail the same setup or substitution. Therefore <strong>D</strong> is correct."
     }
   ]
 }

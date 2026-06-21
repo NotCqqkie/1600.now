@@ -19,6 +19,27 @@ interface TransparentAwareImageProps {
 
 const transparencyCache = new Map<string, boolean>();
 const trimmedImageCache = new Map<string, string>();
+const TABLE_IMAGE_HEIGHT_REPLACEMENTS: readonly (readonly [string, string])[] = [
+  ["max-h-[460px]", "max-h-[368px]"],
+  ["max-h-[420px]", "max-h-[336px]"],
+  ["max-h-[340px]", "max-h-[272px]"],
+  ["max-h-[309px]", "max-h-[247px]"],
+  ["max-h-[260px]", "max-h-[208px]"],
+  ["max-h-[220px]", "max-h-[176px]"],
+  ["max-h-[195px]", "max-h-[156px]"],
+  ["sm:max-h-[260px]", "sm:max-h-[208px]"],
+];
+const BACKGROUND_CLUSTER_TOLERANCE = 30;
+const CROP_BACKGROUND_TOLERANCE = 10;
+const MIN_CROP_REDUCTION_PX = 24;
+const CROP_PADDING_PX = 2;
+
+type RgbaSample = {
+  r: number;
+  g: number;
+  b: number;
+  a: number;
+};
 
 const isPngAsset = (src: string) => /\.png(?:$|[?#])/i.test(src);
 
@@ -31,17 +52,7 @@ const hasExplicitQuestionImageSize = (className?: string) =>
 
 const scaleTableImageClassName = (className?: string) => {
   let scaled = className ?? "";
-  const replacements: [string, string][] = [
-    ["max-h-[460px]", "max-h-[368px]"],
-    ["max-h-[420px]", "max-h-[336px]"],
-    ["max-h-[340px]", "max-h-[272px]"],
-    ["max-h-[309px]", "max-h-[247px]"],
-    ["max-h-[260px]", "max-h-[208px]"],
-    ["max-h-[220px]", "max-h-[176px]"],
-    ["max-h-[195px]", "max-h-[156px]"],
-    ["sm:max-h-[260px]", "sm:max-h-[208px]"],
-  ];
-  replacements.forEach(([from, to]) => {
+  TABLE_IMAGE_HEIGHT_REPLACEMENTS.forEach(([from, to]) => {
     scaled = scaled.split(from).join(to);
   });
   return cn(scaled, "max-w-[80%] border-0 rounded-none");
@@ -61,7 +72,7 @@ const getReservedImageSize = (
   parentWidth: number,
   maxWidth: number | undefined,
   maxHeight: number | undefined,
-) => {
+): ImageIntrinsicSize => {
   let width = Math.min(intrinsicSize.width, parentWidth || intrinsicSize.width, maxWidth ?? Number.POSITIVE_INFINITY);
   let height = width * (intrinsicSize.height / intrinsicSize.width);
 
@@ -131,22 +142,21 @@ const cropWhitespace = (img: HTMLImageElement): string | null => {
     ((height - 1) * width) * 4,
     (((height - 1) * width) + (width - 1)) * 4,
   ];
-  const backgroundSamples = corners.map((offset) => ({
+  const backgroundSamples: RgbaSample[] = corners.map((offset) => ({
     r: data[offset],
     g: data[offset + 1],
     b: data[offset + 2],
     a: data[offset + 3],
   }));
-  const clusterTolerance = 30;
-  const clusters: (typeof backgroundSamples)[] = [];
+  const clusters: RgbaSample[][] = [];
   for (const sample of backgroundSamples) {
     let placed = false;
     for (const cluster of clusters) {
       const ref = cluster[0];
       if (
-        channelsAreNear(sample.r, ref.r, clusterTolerance) &&
-        channelsAreNear(sample.g, ref.g, clusterTolerance) &&
-        channelsAreNear(sample.b, ref.b, clusterTolerance)
+        channelsAreNear(sample.r, ref.r, BACKGROUND_CLUSTER_TOLERANCE) &&
+        channelsAreNear(sample.g, ref.g, BACKGROUND_CLUSTER_TOLERANCE) &&
+        channelsAreNear(sample.b, ref.b, BACKGROUND_CLUSTER_TOLERANCE)
       ) {
         cluster.push(sample);
         placed = true;
@@ -173,7 +183,6 @@ const cropWhitespace = (img: HTMLImageElement): string | null => {
     a: clusterSum.a / winnerCluster.length,
   };
 
-  const tolerance = 10;
   let minX = width;
   let minY = height;
   let maxX = -1;
@@ -183,12 +192,12 @@ const cropWhitespace = (img: HTMLImageElement): string | null => {
     for (let x = 0; x < width; x += 1) {
       const offset = (y * width + x) * 4;
       const alpha = data[offset + 3];
-      const isTransparentBackground = alpha <= tolerance;
+      const isTransparentBackground = alpha <= CROP_BACKGROUND_TOLERANCE;
       const matchesBackground =
-        channelsAreNear(data[offset], background.r, tolerance) &&
-        channelsAreNear(data[offset + 1], background.g, tolerance) &&
-        channelsAreNear(data[offset + 2], background.b, tolerance) &&
-        channelsAreNear(alpha, background.a, tolerance);
+        channelsAreNear(data[offset], background.r, CROP_BACKGROUND_TOLERANCE) &&
+        channelsAreNear(data[offset + 1], background.g, CROP_BACKGROUND_TOLERANCE) &&
+        channelsAreNear(data[offset + 2], background.b, CROP_BACKGROUND_TOLERANCE) &&
+        channelsAreNear(alpha, background.a, CROP_BACKGROUND_TOLERANCE);
 
       if (isTransparentBackground || matchesBackground) {
         continue;
@@ -210,15 +219,14 @@ const cropWhitespace = (img: HTMLImageElement): string | null => {
   const horizontalReduction = width - croppedWidth;
   const verticalReduction = height - croppedHeight;
 
-  if (horizontalReduction < 24 && verticalReduction < 24) {
+  if (horizontalReduction < MIN_CROP_REDUCTION_PX && verticalReduction < MIN_CROP_REDUCTION_PX) {
     return null;
   }
 
-  const padding = 2;
-  const paddedMinX = Math.max(0, minX - padding);
-  const paddedMinY = Math.max(0, minY - padding);
-  const paddedMaxX = Math.min(width - 1, maxX + padding);
-  const paddedMaxY = Math.min(height - 1, maxY + padding);
+  const paddedMinX = Math.max(0, minX - CROP_PADDING_PX);
+  const paddedMinY = Math.max(0, minY - CROP_PADDING_PX);
+  const paddedMaxX = Math.min(width - 1, maxX + CROP_PADDING_PX);
+  const paddedMaxY = Math.min(height - 1, maxY + CROP_PADDING_PX);
   const paddedWidth = paddedMaxX - paddedMinX + 1;
   const paddedHeight = paddedMaxY - paddedMinY + 1;
 

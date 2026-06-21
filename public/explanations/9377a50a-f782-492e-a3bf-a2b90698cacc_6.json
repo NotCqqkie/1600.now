@@ -13,11 +13,7 @@
     },
     {
       "title": "Answer",
-      "content": "<strong>B</strong> is correct."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches the correct answer, $\\frac{1}{5}$. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
+      "content": "The computed value $\\frac{1}{5}$ matches <strong>B</strong>. This also follows from the reciprocal relationship: if $\\frac{x}{9}=5$, then the reversed fraction $\\frac{9}{x}$ must be the reciprocal, $\\frac{1}{5}$."
     }
   ]
 }

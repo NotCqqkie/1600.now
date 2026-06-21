@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { AlertCircle, ArrowRight, ChevronRight, LogOut, Settings, Type, User } from "lucide-react";
 
 import { useAuth } from "@/contexts/AuthContext";
-import { useThemeMode } from "@/hooks/useThemeMode";
+import { useThemeMode } from "@/lib/theme";
 import { useUserProgress } from "@/hooks/useUserProgress";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -136,7 +136,7 @@ const SettingsView = ({
   isDarkMode,
   onOpenPersonalization,
 }: {
-  user: { email?: string | null; id?: string | null } | null;
+  user: { email?: string | null; id?: string | null };
   handleResetProgress: () => void;
   isDarkMode: boolean;
   onOpenPersonalization: () => void;
@@ -166,11 +166,11 @@ const SettingsView = ({
         <CardContent className="space-y-4">
           <div>
             <label className="text-sm font-medium" style={{ color: mutedColor }}>Email</label>
-            <div className="text-lg" style={{ color: headingColor }}>{user?.email || "Not logged in"}</div>
+            <div className="text-lg" style={{ color: headingColor }}>{user.email || "Not logged in"}</div>
           </div>
           <div>
             <label className="text-sm font-medium" style={{ color: mutedColor }}>User ID</label>
-            <div className="break-all font-mono text-xs" style={{ color: mutedColor }}>{user?.id || "-"}</div>
+            <div className="break-all font-mono text-xs" style={{ color: mutedColor }}>{user.id || "-"}</div>
           </div>
         </CardContent>
       </Card>

@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+      "title": "Use the 45-45-90 ratio",
+      "content": "An isosceles right triangle is a 45-45-90 triangle. Its legs are congruent, and the hypotenuse equals a leg times $\\sqrt{2}$."
     },
     {
       "title": "Use the 45-45-90 triangle ratio",

@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+      "title": "Use the vertical angle first",
+      "content": "The angle vertical to the given $58^\\circ$ angle also measures $58^\\circ$, because vertical angles are congruent."
     },
     {
-      "title": "Use consecutive interior angles to find y",
-      "content": "Lines $q$ and $r$ are parallel, and line $s$ is a transversal. The angles 58° and $y^{\\circ}$ are consecutive interior angles (also called same-side interior angles), which are supplementary for parallel lines:<br/>$$58^{\\circ} + y^{\\circ} = 180^{\\circ}$$<br/>$$y = 122$$"
+      "title": "Use same-side interior angles",
+      "content": "That $58^\\circ$ angle and the angle measuring $y^\\circ$ are same-side interior angles between parallel lines $q$ and $r$, so they are supplementary:<br/>$$58+y=180$$<br/>$$y=122$$"
     },
     {
-      "title": "Substitute y into the given equation to find x",
-      "content": "Given $y = 2x + 8$, substitute $y = 122$:<br/>$$122 = 2x + 8$$<br/>$$114 = 2x$$<br/>$$x = 57$$"
+      "title": "Solve for x",
+      "content": "Substitute $y=122$ into $y=2x+8$:<br/>$$122=2x+8$$<br/>$$114=2x$$<br/>$$x=57$$"
     }
   ]
 }

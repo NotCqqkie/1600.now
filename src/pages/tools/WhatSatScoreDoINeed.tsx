@@ -1,64 +1,68 @@
 import { useMemo, useState } from "react";
-import { Link } from "react-router-dom";
+
+import { satToolBySlug } from "@/lib/seo-data/satTools";
 
 import {
-  PageSeo,
-  buildBreadcrumbJsonLd,
-  buildFaqJsonLd,
-  buildWebApplicationJsonLd,
-} from "@/components/seo/PageSeo";
-import { satToolBySlug } from "@/lib/seo-data/satTools";
+  SatToolPageScaffold,
+  TOOL_INFO_TABLE_CELL_CLASS,
+  TOOL_INFO_TABLE_CLASS,
+  TOOL_INFO_TABLE_HEAD_CLASS,
+  TOOL_INFO_TABLE_HEADER_CELL_CLASS,
+  TOOL_INFO_TABLE_ROW_CLASS,
+  TOOL_INFO_TABLE_WRAPPER_CLASS,
+  TOOL_INPUT_CLASS,
+  TOOL_SECTION_HEADING_CLASS,
+} from "./SatToolPageScaffold";
 interface CollegeProfile {
   name: string;
   p25: number;
   p75: number;
   acceptance: number;
-  tags: string[];
 }
 
 const COLLEGES: CollegeProfile[] = [
-  { name: "Harvard University", p25: 1500, p75: 1580, acceptance: 3, tags: ["Ivy", "reach"] },
-  { name: "MIT", p25: 1520, p75: 1580, acceptance: 4, tags: ["STEM", "reach"] },
-  { name: "Stanford University", p25: 1500, p75: 1570, acceptance: 4, tags: ["reach"] },
-  { name: "Princeton University", p25: 1510, p75: 1570, acceptance: 4, tags: ["Ivy", "reach"] },
-  { name: "Yale University", p25: 1500, p75: 1580, acceptance: 4, tags: ["Ivy", "reach"] },
-  { name: "Columbia University", p25: 1490, p75: 1570, acceptance: 4, tags: ["Ivy", "reach"] },
-  { name: "University of Pennsylvania", p25: 1500, p75: 1570, acceptance: 6, tags: ["Ivy", "reach"] },
-  { name: "Brown University", p25: 1490, p75: 1570, acceptance: 5, tags: ["Ivy", "reach"] },
-  { name: "Cornell University", p25: 1470, p75: 1550, acceptance: 7, tags: ["Ivy", "reach"] },
-  { name: "Dartmouth College", p25: 1480, p75: 1570, acceptance: 6, tags: ["Ivy", "reach"] },
-  { name: "Duke University", p25: 1490, p75: 1570, acceptance: 6, tags: ["reach"] },
-  { name: "University of Chicago", p25: 1500, p75: 1570, acceptance: 5, tags: ["reach"] },
-  { name: "Northwestern University", p25: 1480, p75: 1560, acceptance: 7, tags: ["reach"] },
-  { name: "Johns Hopkins University", p25: 1500, p75: 1560, acceptance: 7, tags: ["reach"] },
-  { name: "Caltech", p25: 1530, p75: 1580, acceptance: 3, tags: ["STEM", "reach"] },
-  { name: "Carnegie Mellon University", p25: 1480, p75: 1560, acceptance: 11, tags: ["STEM"] },
-  { name: "Washington University in St. Louis", p25: 1490, p75: 1560, acceptance: 12, tags: [] },
-  { name: "Rice University", p25: 1490, p75: 1560, acceptance: 8, tags: [] },
-  { name: "Vanderbilt University", p25: 1480, p75: 1560, acceptance: 7, tags: [] },
-  { name: "Emory University", p25: 1420, p75: 1540, acceptance: 13, tags: [] },
-  { name: "Notre Dame", p25: 1440, p75: 1550, acceptance: 13, tags: [] },
-  { name: "UC Berkeley", p25: 1390, p75: 1540, acceptance: 12, tags: ["public"] },
-  { name: "UCLA", p25: 1380, p75: 1540, acceptance: 9, tags: ["public"] },
-  { name: "University of Michigan", p25: 1360, p75: 1530, acceptance: 18, tags: ["public"] },
-  { name: "University of Virginia", p25: 1370, p75: 1520, acceptance: 19, tags: ["public"] },
-  { name: "UNC Chapel Hill", p25: 1330, p75: 1500, acceptance: 17, tags: ["public"] },
-  { name: "Georgia Tech", p25: 1400, p75: 1530, acceptance: 17, tags: ["STEM", "public"] },
-  { name: "University of Florida", p25: 1340, p75: 1470, acceptance: 24, tags: ["public"] },
-  { name: "UT Austin", p25: 1290, p75: 1490, acceptance: 31, tags: ["public"] },
-  { name: "NYU", p25: 1440, p75: 1540, acceptance: 8, tags: [] },
-  { name: "Boston University", p25: 1370, p75: 1490, acceptance: 14, tags: [] },
-  { name: "Tufts University", p25: 1450, p75: 1540, acceptance: 10, tags: [] },
-  { name: "University of Southern California", p25: 1390, p75: 1530, acceptance: 12, tags: [] },
-  { name: "Boston College", p25: 1410, p75: 1510, acceptance: 16, tags: [] },
-  { name: "University of Wisconsin-Madison", p25: 1320, p75: 1480, acceptance: 49, tags: ["public"] },
-  { name: "University of Illinois Urbana-Champaign", p25: 1290, p75: 1480, acceptance: 45, tags: ["public"] },
-  { name: "Penn State", p25: 1180, p75: 1370, acceptance: 55, tags: ["public"] },
-  { name: "Ohio State", p25: 1240, p75: 1420, acceptance: 53, tags: ["public"] },
-  { name: "Purdue University", p25: 1200, p75: 1440, acceptance: 53, tags: ["STEM", "public"] },
-  { name: "University of Washington", p25: 1230, p75: 1440, acceptance: 48, tags: ["public"] },
-  { name: "Rutgers University", p25: 1250, p75: 1440, acceptance: 66, tags: ["public"] },
-  { name: "Arizona State University", p25: 1120, p75: 1360, acceptance: 88, tags: ["public"] },
+  { name: "Harvard University", p25: 1500, p75: 1580, acceptance: 3 },
+  { name: "MIT", p25: 1520, p75: 1580, acceptance: 4 },
+  { name: "Stanford University", p25: 1500, p75: 1570, acceptance: 4 },
+  { name: "Princeton University", p25: 1510, p75: 1570, acceptance: 4 },
+  { name: "Yale University", p25: 1500, p75: 1580, acceptance: 4 },
+  { name: "Columbia University", p25: 1490, p75: 1570, acceptance: 4 },
+  { name: "University of Pennsylvania", p25: 1500, p75: 1570, acceptance: 6 },
+  { name: "Brown University", p25: 1490, p75: 1570, acceptance: 5 },
+  { name: "Cornell University", p25: 1470, p75: 1550, acceptance: 7 },
+  { name: "Dartmouth College", p25: 1480, p75: 1570, acceptance: 6 },
+  { name: "Duke University", p25: 1490, p75: 1570, acceptance: 6 },
+  { name: "University of Chicago", p25: 1500, p75: 1570, acceptance: 5 },
+  { name: "Northwestern University", p25: 1480, p75: 1560, acceptance: 7 },
+  { name: "Johns Hopkins University", p25: 1500, p75: 1560, acceptance: 7 },
+  { name: "Caltech", p25: 1530, p75: 1580, acceptance: 3 },
+  { name: "Carnegie Mellon University", p25: 1480, p75: 1560, acceptance: 11 },
+  { name: "Washington University in St. Louis", p25: 1490, p75: 1560, acceptance: 12 },
+  { name: "Rice University", p25: 1490, p75: 1560, acceptance: 8 },
+  { name: "Vanderbilt University", p25: 1480, p75: 1560, acceptance: 7 },
+  { name: "Emory University", p25: 1420, p75: 1540, acceptance: 13 },
+  { name: "Notre Dame", p25: 1440, p75: 1550, acceptance: 13 },
+  { name: "UC Berkeley", p25: 1390, p75: 1540, acceptance: 12 },
+  { name: "UCLA", p25: 1380, p75: 1540, acceptance: 9 },
+  { name: "University of Michigan", p25: 1360, p75: 1530, acceptance: 18 },
+  { name: "University of Virginia", p25: 1370, p75: 1520, acceptance: 19 },
+  { name: "UNC Chapel Hill", p25: 1330, p75: 1500, acceptance: 17 },
+  { name: "Georgia Tech", p25: 1400, p75: 1530, acceptance: 17 },
+  { name: "University of Florida", p25: 1340, p75: 1470, acceptance: 24 },
+  { name: "UT Austin", p25: 1290, p75: 1490, acceptance: 31 },
+  { name: "NYU", p25: 1440, p75: 1540, acceptance: 8 },
+  { name: "Boston University", p25: 1370, p75: 1490, acceptance: 14 },
+  { name: "Tufts University", p25: 1450, p75: 1540, acceptance: 10 },
+  { name: "University of Southern California", p25: 1390, p75: 1530, acceptance: 12 },
+  { name: "Boston College", p25: 1410, p75: 1510, acceptance: 16 },
+  { name: "University of Wisconsin-Madison", p25: 1320, p75: 1480, acceptance: 49 },
+  { name: "University of Illinois Urbana-Champaign", p25: 1290, p75: 1480, acceptance: 45 },
+  { name: "Penn State", p25: 1180, p75: 1370, acceptance: 55 },
+  { name: "Ohio State", p25: 1240, p75: 1420, acceptance: 53 },
+  { name: "Purdue University", p25: 1200, p75: 1440, acceptance: 53 },
+  { name: "University of Washington", p25: 1230, p75: 1440, acceptance: 48 },
+  { name: "Rutgers University", p25: 1250, p75: 1440, acceptance: 66 },
+  { name: "Arizona State University", p25: 1120, p75: 1360, acceptance: 88 },
 ];
 
 const chanceLabel = (sat: number, profile: CollegeProfile): string => {
@@ -72,8 +76,8 @@ const chanceLabel = (sat: number, profile: CollegeProfile): string => {
 
 const WhatSatScoreDoINeed = () => {
   const meta = satToolBySlug.get("what-sat-score-do-i-need")!;
-  const [query, setQuery] = useState<string>("");
-  const [currentSat, setCurrentSat] = useState<string>("1300");
+  const [query, setQuery] = useState("");
+  const [currentSat, setCurrentSat] = useState("1300");
 
   const matches = useMemo(() => {
     const normalizedQuery = query.trim().toLowerCase();
@@ -84,7 +88,6 @@ const WhatSatScoreDoINeed = () => {
   const sat = Number(currentSat);
   const satValid = Number.isFinite(sat) && sat >= 400 && sat <= 1600;
 
-  const url = `https://1600.now/${meta.slug}`;
   const faqs = [
     {
       question: "What SAT score do I need for Ivy League schools?",
@@ -109,37 +112,7 @@ const WhatSatScoreDoINeed = () => {
   ];
 
   return (
-    <div className="mx-auto max-w-3xl px-6 py-10">
-      <PageSeo
-        id={`tool-${meta.slug}`}
-        title={meta.metaTitle}
-        description={meta.metaDescription}
-        jsonLd={[
-          buildBreadcrumbJsonLd([
-            { name: "Home", url: "https://1600.now/" },
-            { name: meta.name, url },
-          ]),
-          buildFaqJsonLd(faqs),
-          buildWebApplicationJsonLd({
-            name: meta.name,
-            url,
-            description: meta.metaDescription,
-          }),
-        ]}
-      />
-
-      <nav className="mb-6 text-sm text-muted-foreground">
-        <Link className="hover:underline" to="/">
-          Home
-        </Link>{" "}
-        › <span className="text-foreground">{meta.name}</span>
-      </nav>
-
-      <h1 className="text-4xl font-semibold tracking-tight md:text-5xl">
-        {meta.name}
-      </h1>
-      <p className="mt-4 text-lg text-muted-foreground">{meta.intro}</p>
-
+    <SatToolPageScaffold meta={meta} faqs={faqs}>
       <div className="mt-8 grid gap-4 rounded-xl border border-border p-6 md:grid-cols-2">
         <div>
           <label className="text-sm font-semibold">Search a college</label>
@@ -148,7 +121,7 @@ const WhatSatScoreDoINeed = () => {
             value={query}
             onChange={(event) => setQuery(event.target.value)}
             placeholder="e.g. Harvard, UCLA, Penn State"
-            className="mt-2 w-full rounded-lg border border-border bg-background px-3 py-2"
+            className={TOOL_INPUT_CLASS}
           />
         </div>
         <div>
@@ -162,7 +135,7 @@ const WhatSatScoreDoINeed = () => {
             step={10}
             value={currentSat}
             onChange={(event) => setCurrentSat(event.target.value)}
-            className="mt-2 w-full rounded-lg border border-border bg-background px-3 py-2"
+            className={TOOL_INPUT_CLASS}
           />
         </div>
       </div>
@@ -208,7 +181,7 @@ const WhatSatScoreDoINeed = () => {
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold tracking-tight">
+        <h2 className={TOOL_SECTION_HEADING_CLASS}>
           How to use these SAT ranges
         </h2>
         <ul className="mt-3 list-disc space-y-1 pl-6 text-muted-foreground">
@@ -228,51 +201,39 @@ const WhatSatScoreDoINeed = () => {
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold tracking-tight">
+        <h2 className={TOOL_SECTION_HEADING_CLASS}>
           How to build your college score list
         </h2>
-        <div className="mt-4 overflow-x-auto rounded-lg border border-border">
-          <table className="w-full min-w-[560px] text-left text-sm">
-            <thead className="bg-muted/70">
+        <div className={TOOL_INFO_TABLE_WRAPPER_CLASS}>
+          <table className={TOOL_INFO_TABLE_CLASS}>
+            <thead className={TOOL_INFO_TABLE_HEAD_CLASS}>
               <tr>
-                <th className="px-4 py-3 font-semibold">Bucket</th>
-                <th className="px-4 py-3 font-semibold">SAT target</th>
-                <th className="px-4 py-3 font-semibold">Application meaning</th>
+                <th className={TOOL_INFO_TABLE_HEADER_CELL_CLASS}>Bucket</th>
+                <th className={TOOL_INFO_TABLE_HEADER_CELL_CLASS}>SAT target</th>
+                <th className={TOOL_INFO_TABLE_HEADER_CELL_CLASS}>Application meaning</th>
               </tr>
             </thead>
             <tbody>
-              <tr className="border-t border-border">
-                <td className="px-4 py-3 text-muted-foreground">Reach</td>
-                <td className="px-4 py-3 text-muted-foreground">Below or near the 25th percentile</td>
-                <td className="px-4 py-3 text-muted-foreground">Apply only if the rest of the file is unusually strong or policy is test-optional.</td>
+              <tr className={TOOL_INFO_TABLE_ROW_CLASS}>
+                <td className={TOOL_INFO_TABLE_CELL_CLASS}>Reach</td>
+                <td className={TOOL_INFO_TABLE_CELL_CLASS}>Below or near the 25th percentile</td>
+                <td className={TOOL_INFO_TABLE_CELL_CLASS}>Apply only if the rest of the file is unusually strong or policy is test-optional.</td>
               </tr>
-              <tr className="border-t border-border">
-                <td className="px-4 py-3 text-muted-foreground">Target</td>
-                <td className="px-4 py-3 text-muted-foreground">Between the midpoint and 75th percentile</td>
-                <td className="px-4 py-3 text-muted-foreground">The score supports the application without carrying it alone.</td>
+              <tr className={TOOL_INFO_TABLE_ROW_CLASS}>
+                <td className={TOOL_INFO_TABLE_CELL_CLASS}>Target</td>
+                <td className={TOOL_INFO_TABLE_CELL_CLASS}>Between the midpoint and 75th percentile</td>
+                <td className={TOOL_INFO_TABLE_CELL_CLASS}>The score supports the application without carrying it alone.</td>
               </tr>
-              <tr className="border-t border-border">
-                <td className="px-4 py-3 text-muted-foreground">Likely</td>
-                <td className="px-4 py-3 text-muted-foreground">Above the 75th percentile</td>
-                <td className="px-4 py-3 text-muted-foreground">The SAT is a strength; focus next on essays, fit, and scholarships.</td>
+              <tr className={TOOL_INFO_TABLE_ROW_CLASS}>
+                <td className={TOOL_INFO_TABLE_CELL_CLASS}>Likely</td>
+                <td className={TOOL_INFO_TABLE_CELL_CLASS}>Above the 75th percentile</td>
+                <td className={TOOL_INFO_TABLE_CELL_CLASS}>The SAT is a strength; focus next on essays, fit, and scholarships.</td>
               </tr>
             </tbody>
           </table>
         </div>
       </section>
-
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold tracking-tight">FAQs</h2>
-        <div className="mt-4 space-y-5">
-          {faqs.map((faq) => (
-            <div key={faq.question}>
-              <h3 className="text-base font-semibold">{faq.question}</h3>
-              <p className="mt-1 text-muted-foreground">{faq.answer}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-    </div>
+    </SatToolPageScaffold>
   );
 };
 

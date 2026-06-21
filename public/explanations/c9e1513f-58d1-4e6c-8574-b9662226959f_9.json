@@ -13,11 +13,11 @@
     },
     {
       "title": "Read the number of intersections",
-      "content": "The graphs show Zero intersection point(s), so the matching answer is <strong>A</strong>, Zero."
+      "content": "The graphs show zero intersection points, so the matching answer is <strong>A</strong>, Zero."
     },
     {
       "title": "Why this works",
-      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
+      "content": "The two equations have the same slope, 5, but different y-intercepts, 10 and -2. Lines with the same slope and different y-intercepts are parallel, so they never intersect."
     }
   ]
 }

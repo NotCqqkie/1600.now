@@ -4,7 +4,6 @@ import { cn } from "@/lib/utils";
 export type SegmentedToggleOption<T extends string> = {
   value: T;
   label: ReactNode;
-  ariaLabel?: string;
   title?: string;
 };
 
@@ -14,6 +13,8 @@ type SegmentedToggleProps<T extends string> = {
   onChange: (value: T) => void;
   className?: string;
   buttonClassName?: string;
+  clippedActiveText?: boolean;
+  activeTextClassName?: string;
 };
 
 export function SegmentedToggle<T extends string>({
@@ -22,10 +23,12 @@ export function SegmentedToggle<T extends string>({
   onChange,
   className,
   buttonClassName,
+  clippedActiveText = false,
+  activeTextClassName,
 }: SegmentedToggleProps<T>) {
   const containerRef = useRef<HTMLDivElement>(null);
   const buttonRefs = useRef<Map<T, HTMLButtonElement>>(new Map());
-  const [slider, setSlider] = useState({ left: 0, width: 0 });
+  const [slider, setSlider] = useState({ left: 0, width: 0, right: 0 });
   const [hasMeasured, setHasMeasured] = useState(false);
   const [transitionsEnabled, setTransitionsEnabled] = useState(false);
 
@@ -35,9 +38,12 @@ export function SegmentedToggle<T extends string>({
     if (!container || !btn) return;
     const containerRect = container.getBoundingClientRect();
     const btnRect = btn.getBoundingClientRect();
+    const left = btnRect.left - containerRect.left - container.clientLeft;
+    const width = btnRect.width;
     setSlider({
-      left: btnRect.left - containerRect.left - container.clientLeft,
-      width: btnRect.width,
+      left,
+      width,
+      right: Math.max(0, container.clientWidth - left - width),
     });
     setHasMeasured(true);
   }, [value]);
@@ -45,6 +51,15 @@ export function SegmentedToggle<T extends string>({
   useLayoutEffect(() => {
     measureSlider();
   }, [measureSlider, options]);
+
+  const transition = transitionsEnabled ? "left 300ms ease-out, width 300ms ease-out" : "none";
+  const baseButtonClassName =
+    "relative z-10 inline-flex items-center justify-center rounded-[8px] px-[14px] py-[8px] font-sans text-[14px] transition-colors duration-200";
+  const clippedButtonClassName = cn(
+    baseButtonClassName,
+    "font-semibold text-ink hover:text-ink",
+    buttonClassName,
+  );
 
   return (
     <div
@@ -60,9 +75,36 @@ export function SegmentedToggle<T extends string>({
           left: slider.left,
           width: slider.width,
           visibility: hasMeasured ? "visible" : "hidden",
-          transition: transitionsEnabled ? "left 300ms ease-out, width 300ms ease-out" : "none",
+          transition,
         }}
       />
+
+      {clippedActiveText && (
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-0 z-20 overflow-hidden rounded-[10px]"
+          style={{
+            clipPath: `inset(4px ${slider.right}px 4px ${slider.left}px round 8px)`,
+            visibility: hasMeasured ? "visible" : "hidden",
+            transition: transitionsEnabled ? "clip-path 300ms ease-out" : "none",
+          }}
+        >
+          <div className="inline-flex flex-nowrap items-stretch p-1">
+            {options.map((option) => (
+              <span
+                key={option.value}
+                className={cn(
+                  clippedButtonClassName,
+                  "text-ink-fixed hover:text-ink-fixed",
+                  activeTextClassName,
+                )}
+              >
+                {option.label}
+              </span>
+            ))}
+          </div>
+        </div>
+      )}
 
       {options.map((option) => (
         <button
@@ -71,18 +113,21 @@ export function SegmentedToggle<T extends string>({
             if (el) buttonRefs.current.set(option.value, el);
           }}
           type="button"
-          aria-label={option.ariaLabel}
           title={option.title}
           onClick={() => {
             setTransitionsEnabled(true);
             onChange(option.value);
           }}
           className={cn(
-            "relative z-10 inline-flex items-center justify-center rounded-[8px] px-[14px] py-[8px] font-sans text-[14px] transition-colors duration-200",
-            value === option.value
-              ? "font-semibold text-ink-fixed"
-              : "font-medium text-ink-mid hover:text-ink",
-            buttonClassName,
+            clippedActiveText
+              ? clippedButtonClassName
+              : cn(
+                  baseButtonClassName,
+                  value === option.value
+                    ? "font-semibold text-ink-fixed"
+                    : "font-medium text-ink-mid hover:text-ink",
+                  buttonClassName,
+                ),
           )}
         >
           {option.label}

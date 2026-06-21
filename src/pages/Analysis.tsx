@@ -17,9 +17,6 @@ import {
 import { intervalToDuration } from "date-fns";
 import {
   Target,
-  Clock,
-  Zap,
-  BookOpen,
   ArrowRight,
   TrendingDown,
   TrendingUp,
@@ -27,7 +24,7 @@ import {
   ChevronLeft,
   ChevronRight,
 } from "lucide-react";
-import { useThemeMode } from "@/hooks/useThemeMode";
+import { useThemeMode } from "@/lib/theme";
 import {
   getAllPracticeTestResults,
   type PracticeTestResult,
@@ -224,14 +221,12 @@ const SubjectInsightCard = ({
 const StatTile = ({
   value,
   label,
-  icon,
   color,
   empty,
   isDarkMode,
 }: {
   value: string;
   label: string;
-  icon: ReactNode;
   color?: string;
   empty?: boolean;
   isDarkMode: boolean;
@@ -249,7 +244,7 @@ const StatTile = ({
       style={{
         display: "flex",
         alignItems: "center",
-        justifyContent: "space-between",
+        justifyContent: "flex-start",
         gap: 8,
         color: isDarkMode ? "rgba(255,255,255,0.42)" : "rgba(15,23,42,0.5)",
         fontSize: 11,
@@ -259,21 +254,6 @@ const StatTile = ({
       }}
     >
       <span>{label}</span>
-      <span
-        style={{
-          width: 28,
-          height: 28,
-          borderRadius: 999,
-          display: "inline-flex",
-          alignItems: "center",
-          justifyContent: "center",
-          background: "transparent",
-          color: isDarkMode ? "hsl(201,100%,78%)" : "hsl(201,100%,40%)",
-          flexShrink: 0,
-        }}
-      >
-        {icon}
-      </span>
     </div>
     <div
       style={{
@@ -525,6 +505,8 @@ const formatTestDate = (timestamp: number) =>
     year: "numeric",
   });
 
+const PAST_TEST_SCROLL_STEP = 320;
+
 const PastTestsStrip = ({ results }: { results: PracticeTestResult[] }) => {
   const navigate = useNavigate();
   const scrollerRef = useRef<HTMLDivElement | null>(null);
@@ -557,7 +539,7 @@ const PastTestsStrip = ({ results }: { results: PracticeTestResult[] }) => {
         <div style={{ display: "flex", gap: 6 }}>
           <button
             type="button"
-            onClick={() => scrollBy(-320)}
+            onClick={() => scrollBy(-PAST_TEST_SCROLL_STEP)}
             aria-label="Scroll past tests left"
             style={{
               width: 32,
@@ -576,7 +558,7 @@ const PastTestsStrip = ({ results }: { results: PracticeTestResult[] }) => {
           </button>
           <button
             type="button"
-            onClick={() => scrollBy(320)}
+            onClick={() => scrollBy(PAST_TEST_SCROLL_STEP)}
             aria-label="Scroll past tests right"
             style={{
               width: 32,
@@ -770,8 +752,7 @@ const Analysis = () => {
     let totalAttempted = 0,
       totalCorrect = 0,
       totalTime = 0,
-      correctFirstTry = 0,
-      solvedCount = 0;
+      correctFirstTry = 0;
 
     const subjectTotals: Record<
       BankSubject,
@@ -804,7 +785,6 @@ const Analysis = () => {
       totalTime += qp.totalTimeSpentSeconds;
       if (isSolved) {
         totalCorrect++;
-        solvedCount++;
         if (isFirstTry) correctFirstTry++;
       }
 
@@ -847,12 +827,8 @@ const Analysis = () => {
       .slice(-60)
       .map(([key, { total, correct }]) => {
         const [, month, day] = key.split("-");
-        const months = [
-          "Jan","Feb","Mar","Apr","May","Jun",
-          "Jul","Aug","Sep","Oct","Nov","Dec",
-        ];
         return {
-          date: `${months[parseInt(month) - 1]} ${parseInt(day)}`,
+          date: `${MONTHS[parseInt(month) - 1]} ${parseInt(day)}`,
           accuracy: Math.round((correct / total) * 100),
           count: total,
         };
@@ -1042,6 +1018,8 @@ const Analysis = () => {
                 ? "linear-gradient(rgba(255,255,255,0.022) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.022) 1px, transparent 1px)"
                 : "linear-gradient(rgba(15,23,42,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(15,23,42,0.05) 1px, transparent 1px)",
             backgroundSize: "52px 52px",
+            maskImage: "linear-gradient(to bottom, black 0%, black 58%, transparent 100%)",
+            WebkitMaskImage: "linear-gradient(to bottom, black 0%, black 58%, transparent 100%)",
             pointerEvents: "none",
           }}
         />
@@ -1068,27 +1046,6 @@ const Analysis = () => {
             padding: "48px 24px 52px",
           }}
         >
-          <div style={{ marginBottom: 14 }}>
-            <span
-              style={{
-                display: "inline-block",
-                padding: "3px 12px",
-                borderRadius: 100,
-                background: isDarkMode ? "rgba(125,211,252,0.1)" : "rgba(56,189,248,0.1)",
-                border: isDarkMode
-                  ? "1px solid rgba(125,211,252,0.18)"
-                  : "1px solid rgba(56,189,248,0.25)",
-                fontSize: 11,
-                color: isDarkMode ? "hsl(201,100%,78%)" : "hsl(201,100%,40%)",
-                fontWeight: 500,
-                letterSpacing: "0.06em",
-                textTransform: "uppercase",
-              }}
-            >
-              Your Progress
-            </span>
-          </div>
-
           <h1
             style={{
               fontFamily: "'Geist', Georgia, serif",
@@ -1120,14 +1077,12 @@ const Analysis = () => {
             <StatTile
               value={stats.totalAttempted.toLocaleString()}
               label="Questions"
-              icon={<BookOpen size={13} />}
               empty={isEmpty}
               isDarkMode={isDarkMode}
             />
             <StatTile
               value={`${accuracy}%`}
               label="Accuracy"
-              icon={<Target size={13} />}
               color={accuracyColor(accuracy)}
               empty={isEmpty}
               isDarkMode={isDarkMode}
@@ -1135,7 +1090,6 @@ const Analysis = () => {
             <StatTile
               value={`${firstTryRate}%`}
               label="First Try"
-              icon={<Zap size={13} />}
               color={accuracyColor(firstTryRate)}
               empty={isEmpty}
               isDarkMode={isDarkMode}
@@ -1143,28 +1097,24 @@ const Analysis = () => {
             <StatTile
               value={fmtTime(stats.totalTime)}
               label="Time Studied"
-              icon={<Clock size={13} />}
               empty={isEmpty}
               isDarkMode={isDarkMode}
             />
             <StatTile
               value={fmtTime(Math.round(stats.avgTimePerQuestion.math ?? 0))}
               label="Math Time / Q"
-              icon={<Clock size={13} />}
               empty={isEmpty || stats.avgTimePerQuestion.math == null}
               isDarkMode={isDarkMode}
             />
             <StatTile
               value={fmtTime(Math.round(stats.avgTimePerQuestion.reading ?? 0))}
               label="Reading Time / Q"
-              icon={<Clock size={13} />}
               empty={isEmpty || stats.avgTimePerQuestion.reading == null}
               isDarkMode={isDarkMode}
             />
             <StatTile
               value={`${stats.subjectAccuracy.math ?? 0}%`}
               label="Math Accuracy"
-              icon={<TrendingUp size={13} />}
               color={accuracyColor(stats.subjectAccuracy.math ?? 0)}
               empty={isEmpty || stats.subjectAccuracy.math == null}
               isDarkMode={isDarkMode}
@@ -1172,7 +1122,6 @@ const Analysis = () => {
             <StatTile
               value={`${stats.subjectAccuracy.reading ?? 0}%`}
               label="Reading Accuracy"
-              icon={<TrendingDown size={13} />}
               color={accuracyColor(stats.subjectAccuracy.reading ?? 0)}
               empty={isEmpty || stats.subjectAccuracy.reading == null}
               isDarkMode={isDarkMode}

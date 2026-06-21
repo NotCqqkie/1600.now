@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+      "title": "Use the similar right triangles",
+      "content": "The altitude from $X$ to $YZ$ creates similar right triangles because the smaller triangle shares angle $Y$ with the original triangle. Find $\\tan(\\angle Y)$ from $WX$ and $WY$, then use the complementary relationship between $Y$ and $Z$."
     },
     {
       "title": "Find angle Y in the sub-triangle",

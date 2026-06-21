@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "Writing the percentage statement as an equation gives $x=\\frac{33}{100}y$. Multiply both sides by $\\frac{100}{33}$ to isolate $y$: $y=\\frac{100}{33}x$.<ul><li><strong>Choice A — $\\frac{100}{33}x$</strong>: matches exactly. &#10003;</li><li><strong>Choice B — $\\frac{10}{33}x$</strong>: off by a factor of 10; comes from treating 33% as $\\frac{3.3}{100}$ rather than $\\frac{33}{100}$. &#10007;</li><li><strong>Choice C — $\\frac{1}{33}x$</strong>: omits the factor of 100 entirely; this would give $y$ in terms of a 3300% relationship. &#10007;</li><li><strong>Choice D — $\\frac{67}{100}x$</strong>: uses $100-33=67$, confusing \"33% of $y$\" with \"$y$ minus 33% of $y$\". &#10007;</li></ul><strong>A</strong> is correct."
+      "content": "Writing the percentage statement as an equation gives $x=\\frac{33}{100}y$. Multiply both sides by $\\frac{100}{33}$ to isolate $y$: $y=\\frac{100}{33}x$.<ul><li><strong>Choice A — $\\frac{100}{33}x$</strong>: matches exactly. &#10003;</li><li><strong>Choice B — $\\frac{10}{33}x$</strong>: off by a factor of 10; it would correspond to a different percent relationship, not $x$ being $33\\%$ of $y$. &#10007;</li><li><strong>Choice C — $\\frac{1}{33}x$</strong>: omits the factor of 100 entirely; this would give $y$ in terms of a 3300% relationship. &#10007;</li><li><strong>Choice D — $\\frac{67}{100}x$</strong>: uses $100-33=67$, confusing \"33% of $y$\" with \"$y$ minus 33% of $y$\". &#10007;</li></ul><strong>A</strong> is correct."
     }
   ]
 }

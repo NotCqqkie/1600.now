@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+      "title": "Use the arc fraction",
+      "content": "An arc's length is the same fraction of the circumference as the arc's degree measure is of $360^{\\circ}$. Set up a proportion using the $45^{\\circ}$ arc and its $3$-inch length."
     },
     {
       "title": "Set up the arc length formula",

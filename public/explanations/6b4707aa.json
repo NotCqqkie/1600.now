@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+      "title": "Read the radius from standard form",
+      "content": "In the circle equation, the right side equals $r^2$. Read circle A's radius from its equation first, then double that radius for circle B."
     },
     {
       "title": "Identify the radius of circle A",

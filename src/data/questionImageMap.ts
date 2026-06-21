@@ -32,7 +32,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
   "6172d662-f820-4d74-acac-4b49873dfc8f_11": {
     "questionImages": [
       {
-        "src": "/images/SAT-Style%20Questions/6172d662-f820-4d74-acac-4b49873dfc8f_11_q_01_FIX.png",
+        "src": "/images/SAT-Style%20Questions/6172d662-f820-4d74-acac-4b49873dfc8f_11_q_01_FIX.svg",
         "alt": "Question 11 Image"
       }
     ]
@@ -137,7 +137,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/27f42b6d-5bcd-4609-9ebb-429b11fd782b_10_q_01_FIX.png",
-        "alt": "Question 10 Image"
+        "alt": "Table titled Minimum and Maximum Depths of Stony Coral Species in Caribbean and Indo-Pacific Waters. Agaricia grahamae, Caribbean, minimum 20 meters, maximum 115 meters. Acropora bushyensis, Indo-Pacific, minimum 0 meters, maximum 5 meters. Mussa angulosa, Caribbean, minimum 5 meters, maximum 30 meters. Indophyllia macassarensis, Indo-Pacific, minimum 20 meters, maximum 25 meters."
       }
     ]
   },
@@ -145,7 +145,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/27f42b6d-5bcd-4609-9ebb-429b11fd782b_11_q_01_FIX.png",
-        "alt": "Question 11 Image"
+        "alt": "Bar graph titled Annual Average Hours of Highway Traffic Delay per Auto Commuter. Years 1990, 1992, 1994, 1996, 1998, 2000. Beaumont, Texas: 8, 11, 15, 16, 20, 23 hours. Philadelphia, Pennsylvania: 30, 32, 34, 36, 39, 41 hours. Albany-Schenectady-Troy, New York: 17, 18, 20, 22, 26, 29 hours."
       }
     ]
   },
@@ -153,7 +153,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_12_q_01_FIX.png",
-        "alt": "Question 12 Image"
+        "alt": "Line graph of survival during A. sicerae infection over 10 days: Type A flies remain near 95% survival, while Type B flies drop to nearly 0% by day 10."
       }
     ]
   },
@@ -681,7 +681,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_1_q_01_FIX.png",
-        "alt": "Question 1 Image"
+        "alt": "Right triangle with one angle marked 24 degrees, one right angle marked 90 degrees, and the remaining angle labeled a."
       }
     ]
   },
@@ -689,7 +689,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_7_q_01_FIX.png",
-        "alt": "Question 7 Image"
+        "alt": "Table of T-shirt counts by size and team. Small: Hawks 6, Stars 9, total 15. Medium: Hawks 21, Stars 34, total 55. Large: Hawks 15, Stars 25, total 40. Totals: Hawks 42, Stars 68, total 110."
       }
     ]
   },
@@ -697,7 +697,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_9_q_01_FIX.png",
-        "alt": "Question 9 Image"
+        "alt": "Right triangle JKL with right angle at K and hypotenuse LJ labeled 90. Figure not drawn to scale."
       }
     ]
   },
@@ -705,7 +705,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_16_q_01_FIX.png",
-        "alt": "Question 16 Image"
+        "alt": "Coordinate plane showing the line y = f(x) + 11 passing through (-4, 9) and (0, 1), with negative slope."
       }
     ]
   },
@@ -713,7 +713,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_22_q_01_FIX.png",
-        "alt": "Question 22 Image"
+        "alt": "Circle with points A, B, C, and E on the circumference. Chords AC and BE intersect perpendicularly at D; angle ABC is marked right. Figure not drawn to scale."
       }
     ]
   },
@@ -953,7 +953,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/9f6c3595-ed0e-41a0-8889-7d3730d37b4c_6_q_01_FIX.png",
-        "alt": "Question 6 Image"
+        "alt": "Table of task completion times: Task A is 8 minutes, Task B is 5 minutes, Task C is 12 minutes, Task D is 10 minutes, and Task E is 10 minutes."
       }
     ]
   },
@@ -5018,7 +5018,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/4e1b3643-30b1-41c4-9027-1f149baf52c7_9_q_01_FIX.png",
-        "alt": "Question 9 Image"
+        "alt": "Scatterplot with a downward trend and a line of best fit passing approximately through (0, 12) and (8, 6)."
       }
     ]
   },
@@ -5090,7 +5090,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/4e1b3643-30b1-41c4-9027-1f149baf52c7_1_q_01_FIX.png",
-        "alt": "Question 1 Image"
+        "alt": "Coordinate plane showing two lines intersecting at (-2, 3); the y-value of the solution is 3."
       }
     ]
   },
@@ -5098,7 +5098,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/4e1b3643-30b1-41c4-9027-1f149baf52c7_4_q_01_FIX.png",
-        "alt": "Question 4 Image"
+        "alt": "Table with columns x and y and rows (0, 20), (1, 21), and (2, 22)."
       }
     ]
   },
@@ -5106,7 +5106,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/4e1b3643-30b1-41c4-9027-1f149baf52c7_10_q_01_FIX.png",
-        "alt": "Question 10 Image"
+        "alt": "Parallel lines q and r cut by transversal s. The 74-degree angle at line q and the angle corresponding to y at line r determine a linear-pair relationship."
       }
     ]
   },
@@ -5114,7 +5114,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_1_q_01_FIX.png",
-        "alt": "Question 1 Image"
+        "alt": "Right triangle with one acute angle labeled 24 degrees and the other acute angle labeled a degrees."
       }
     ]
   },
@@ -5122,7 +5122,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_9_q_01_FIX.png",
-        "alt": "Question 9 Image"
+        "alt": "Right triangle ABC with right angle at B, hypotenuse AC labeled 25, and tangent of angle C equal to 3/4."
       }
     ]
   },

@@ -1,4 +1,4 @@
-export interface ScoreProfile {
+interface ScoreProfile {
   score: number;
   percentile: number;
   tier: string;
@@ -10,6 +10,7 @@ export interface ScoreProfile {
 const SCORE_MIN = 400;
 const SCORE_MAX = 1600;
 const SCORE_STEP = 10;
+type TierProfile = Pick<ScoreProfile, "tier" | "tierDescription" | "collegeExamples" | "studyFocus">;
 
 export const allSatScores = (() => {
   const arr: number[] = [];
@@ -18,7 +19,6 @@ export const allSatScores = (() => {
 })();
 
 const approxPercentile = (score: number): number => {
-  if (score >= 1590) return 99;
   if (score >= 1550) return 99;
   if (score >= 1500) return 98;
   if (score >= 1450) return 96;
@@ -43,7 +43,7 @@ const approxPercentile = (score: number): number => {
   return 1;
 };
 
-const tierFor = (score: number): Pick<ScoreProfile, "tier" | "tierDescription" | "collegeExamples" | "studyFocus"> => {
+const tierFor = (score: number): TierProfile => {
   if (score >= 1550) {
     return {
       tier: "Elite",

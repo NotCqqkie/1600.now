@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+      "title": "Use the cube volume formula",
+      "content": "A cube's volume is the cube of its edge length: $V=s^3$. With edge length $41$, compute $41^3$."
     },
     {
       "title": "Apply the cube volume formula",

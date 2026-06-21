@@ -1,11 +1,11 @@
 {
   "questionId": "459dd6c5",
-  "correctAnswer": "135/8",
+  "correctAnswer": "135/8,16.87,16.88",
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+      "title": "Use the area scale factor",
+      "content": "For similar triangles, areas scale by the square of the side-length scale factor. Since triangle $ABC$ has side lengths $4$ times those of triangle $DEF$, its area is $4^2=16$ times the area of triangle $DEF$."
     },
     {
       "title": "Identify the linear scale factor",

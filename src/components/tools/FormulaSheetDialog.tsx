@@ -4,8 +4,6 @@ import { FileText } from "lucide-react";
 import { DraggableWindow } from "@/components/DraggableWindow";
 
 interface FormulaSheetDialogProps {
-  onSplitScreenChange?: (isSplit: boolean, windowId: string) => void;
-  splitPosition?: number;
   onFocus?: () => void;
   zIndex?: number;
   constrainToLeft?: number;
@@ -31,9 +29,21 @@ const REFERENCE_SHEET_PANELS = [
   { id: 14, src: "/reference-sheet/14.png", width: 1640, height: 90 },
 ] as const;
 
-const getDefaultPanelWidth = (width: number) => `${Math.round(width / 2)}px`;
+const REFERENCE_SHEET_DISPLAY_SCALE = 0.5;
+const REFERENCE_SHEET_STACK_START_ID = 12;
+const REFERENCE_SHEET_TITLE = "Reference Sheet";
 
-export const FormulaSheetDialog = ({ onSplitScreenChange, splitPosition, onFocus, zIndex = 50, constrainToLeft, compressed = false, windowPortalContainer, windowBoundsElement }: FormulaSheetDialogProps) => {
+const getDefaultPanelWidth = (width: number) =>
+  `${Math.round(width * REFERENCE_SHEET_DISPLAY_SCALE)}px`;
+
+export const FormulaSheetDialog = ({
+  onFocus,
+  zIndex = 50,
+  constrainToLeft,
+  compressed = false,
+  windowPortalContainer,
+  windowBoundsElement,
+}: FormulaSheetDialogProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const handleToggle = () => {
@@ -45,19 +55,28 @@ export const FormulaSheetDialog = ({ onSplitScreenChange, splitPosition, onFocus
 
   return (
     <>
-      <Button variant="outline" size="sm" onClick={handleToggle} data-tour="reference-button">
-        <FileText className={compressed ? "h-4 w-4" : "mr-2 h-4 w-4"} />
-        {!compressed && "Reference Sheet"}
+      <Button
+        variant="outline"
+        size="sm"
+        type="button"
+        onClick={handleToggle}
+        data-tour="reference-button"
+        aria-label={compressed ? REFERENCE_SHEET_TITLE : undefined}
+        className={compressed ? "w-9 px-0" : undefined}
+      >
+        <FileText
+          className={compressed ? "h-4 w-4" : "mr-2 h-4 w-4"}
+          aria-hidden="true"
+        />
+        {!compressed && REFERENCE_SHEET_TITLE}
       </Button>
 
       <DraggableWindow
         isOpen={isOpen}
         onClose={() => setIsOpen(false)}
-        title="Reference Sheet"
+        title={REFERENCE_SHEET_TITLE}
         defaultWidth={760}
         defaultHeight={560}
-        onSplitScreenChange={onSplitScreenChange}
-        splitPosition={splitPosition}
         enableSplitScreen={false}
         windowId="referenceSheet"
         onFocus={onFocus}
@@ -70,7 +89,7 @@ export const FormulaSheetDialog = ({ onSplitScreenChange, splitPosition, onFocus
           <div className="mx-auto w-full max-w-[1400px]">
             <div className="flex flex-wrap items-start gap-x-6 gap-y-5">
               {REFERENCE_SHEET_PANELS.map((panel) => {
-                const shouldAlwaysStack = panel.id >= 12;
+                const shouldAlwaysStack = panel.id >= REFERENCE_SHEET_STACK_START_ID;
 
                 return (
                   <div

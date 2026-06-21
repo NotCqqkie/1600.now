@@ -7,14 +7,35 @@ import {
 } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { History, CheckCircle2, XCircle, RotateCcw } from "lucide-react";
-import { Attempt } from "@/hooks/useUserProgress";
+import { CheckCircle2, XCircle, RotateCcw } from "lucide-react";
+import type { Attempt } from "@/hooks/useUserProgress";
 import { ScrollArea } from "@/components/ui/scroll-area";
 
 interface PreviousAttemptsDialogProps {
   attempts: Attempt[];
-  questionText?: string;
 }
+
+interface AttemptSession {
+  summary: string;
+  lastAttempt: Attempt;
+  totalDuration: number;
+  result: Attempt["result"];
+}
+
+const SESSION_GAP_MS = 20 * 60 * 1000;
+const ATTEMPT_LABEL_CLASS = "text-sm text-muted-foreground";
+const ATTEMPT_ICON_CLASS = "h-3 w-3 mr-1";
+const CORRECT_BADGE_CLASS = "bg-green-600 hover:bg-green-700";
+const INCORRECT_BADGE_CLASS = "bg-red-600 hover:bg-red-700";
+const DATE_TIME_FORMAT_OPTIONS: Intl.DateTimeFormatOptions = {
+  month: 'numeric',
+  day: 'numeric',
+  year: 'numeric',
+  hour: 'numeric',
+  minute: '2-digit',
+  second: '2-digit',
+  hour12: true,
+};
 
 function formatDuration(seconds: number): string {
   const hrs = Math.floor(seconds / 3600);
@@ -25,32 +46,22 @@ function formatDuration(seconds: number): string {
 
 function formatDateTime(timestamp: number): string {
   const date = new Date(timestamp);
-  return date.toLocaleString('en-US', {
-    month: 'numeric',
-    day: 'numeric',
-    year: 'numeric',
-    hour: 'numeric',
-    minute: '2-digit',
-    second: '2-digit',
-    hour12: true
-  });
+  return date.toLocaleString('en-US', DATE_TIME_FORMAT_OPTIONS);
 }
 
-export function PreviousAttemptsDialog({ attempts, questionText }: PreviousAttemptsDialogProps) {
+function formatAttemptAnswer(answer: string): string {
+  const ans = answer || "—";
+  const match = ans.match(/^([A-D])\./);
+  return match ? match[1] : ans;
+}
+
+export function PreviousAttemptsDialog({ attempts }: PreviousAttemptsDialogProps) {
   if (!attempts || attempts.length === 0) {
     return null;
   }
   const chronoAttempts = [...attempts].sort((leftAttempt, rightAttempt) => leftAttempt.timestamp - rightAttempt.timestamp);
-  interface Session {
-    attempts: Attempt[];
-    summary: string;
-    lastAttempt: Attempt;
-    totalDuration: number;
-    result: "correct" | "incorrect";
-    recoveredAfterIncorrect: boolean;
-  }
 
-  const sessions: Session[] = [];
+  const sessions: AttemptSession[] = [];
   let currentGroup: Attempt[] = [];
 
   const finishSession = () => {
@@ -72,12 +83,10 @@ export function PreviousAttemptsDialog({ attempts, questionText }: PreviousAttem
     }
 
     sessions.push({
-      attempts: [...currentGroup],
       summary,
       lastAttempt: last,
       totalDuration,
       result: last.result,
-      recoveredAfterIncorrect: last.result === "correct" && incorrectCount > 0,
     });
     currentGroup = [];
   };
@@ -87,7 +96,7 @@ export function PreviousAttemptsDialog({ attempts, questionText }: PreviousAttem
       currentGroup.push(att);
     } else {
       const last = currentGroup[currentGroup.length - 1];
-      if (att.timestamp - last.timestamp > 20 * 60 * 1000) {
+      if (att.timestamp - last.timestamp > SESSION_GAP_MS) {
         finishSession();
         currentGroup.push(att);
       } else {
@@ -119,73 +128,62 @@ export function PreviousAttemptsDialog({ attempts, questionText }: PreviousAttem
         </DialogHeader>
         <ScrollArea className="max-h-[60vh]">
           <div className="space-y-4 pr-4">
-            {displaySessions.map((session, index) => (
-              <div
-                key={index}
-                className="border rounded-lg p-4 space-y-3 bg-card"
-              >
-                <div className="flex items-center justify-between">
-                  <Badge
-                    className={
-                      session.result === "incorrect"
-                        ? "bg-red-600 hover:bg-red-700"
-                        : "bg-green-600 hover:bg-green-700"
-                    }
-                  >
-                    {session.result === "correct" ? (
-                      <><CheckCircle2 className="h-3 w-3 mr-1" /> {session.summary}</>
-                    ) : (
-                      <><XCircle className="h-3 w-3 mr-1" /> {session.summary}</>
-                    )}
-                  </Badge>
-                  <span className="text-xs text-muted-foreground ml-2 text-right">
-                    {formatDateTime(session.lastAttempt.timestamp)}
-                  </span>
-                </div>
+            {displaySessions.map((session, index) => {
+              const dateTimeLabel = formatDateTime(session.lastAttempt.timestamp);
 
-                <div>
-                  <p className="text-sm text-muted-foreground">
-                    {session.result === 'correct' ? 'Answer' : 'Last Answer'}
-                  </p>
-                  <p className="font-medium text-lg font-mono">
-                     {(() => {
-                        const ans = session.lastAttempt.answer || "—";
-                        const match = ans.match(/^([A-D])\./);
-                        return match ? match[1] : ans;
-                     })()}
-                  </p>
-                </div>
-
-                <div className="grid grid-cols-2 gap-4">
-                  <div>
-                    <p className="text-sm text-muted-foreground">Time Taken</p>
-                    <p className="font-medium">{formatDuration(session.totalDuration)}</p>
-                  </div>
-                  <div>
-
-                    <p className="text-sm text-muted-foreground">Date/Time</p>
-
-                    <p className="font-medium">{formatDateTime(session.lastAttempt.timestamp)}</p>
-
+              return (
+                <div
+                  key={index}
+                  className="border rounded-lg p-4 space-y-3 bg-card"
+                >
+                  <div className="flex items-center justify-between">
+                    <Badge
+                      className={
+                        session.result === "incorrect"
+                          ? INCORRECT_BADGE_CLASS
+                          : CORRECT_BADGE_CLASS
+                      }
+                    >
+                      {session.result === "correct" ? (
+                        <><CheckCircle2 className={ATTEMPT_ICON_CLASS} /> {session.summary}</>
+                      ) : (
+                        <><XCircle className={ATTEMPT_ICON_CLASS} /> {session.summary}</>
+                      )}
+                    </Badge>
+                    <span className="text-xs text-muted-foreground ml-2 text-right">
+                      {dateTimeLabel}
+                    </span>
                   </div>
 
-                </div>
-
-
-
-                {session.lastAttempt.explanation && (
-
                   <div>
-
-                    <p className="text-sm text-muted-foreground">Explanation</p>
-
-                    <p className="text-sm">{session.lastAttempt.explanation}</p>
-
+                    <p className={ATTEMPT_LABEL_CLASS}>
+                      {session.result === 'correct' ? 'Answer' : 'Last Answer'}
+                    </p>
+                    <p className="font-medium text-lg font-mono">
+                       {formatAttemptAnswer(session.lastAttempt.answer)}
+                    </p>
                   </div>
 
-                )}
-              </div>
-            ))}
+                  <div className="grid grid-cols-2 gap-4">
+                    <div>
+                      <p className={ATTEMPT_LABEL_CLASS}>Time Taken</p>
+                      <p className="font-medium">{formatDuration(session.totalDuration)}</p>
+                    </div>
+                    <div>
+                      <p className={ATTEMPT_LABEL_CLASS}>Date/Time</p>
+                      <p className="font-medium">{dateTimeLabel}</p>
+                    </div>
+                  </div>
+
+                  {session.lastAttempt.explanation && (
+                    <div>
+                      <p className={ATTEMPT_LABEL_CLASS}>Explanation</p>
+                      <p className="text-sm">{session.lastAttempt.explanation}</p>
+                    </div>
+                  )}
+                </div>
+              );
+            })}
           </div>
         </ScrollArea>
       </DialogContent>

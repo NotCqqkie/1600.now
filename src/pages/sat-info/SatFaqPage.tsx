@@ -2,6 +2,23 @@ import { Link, useParams, Navigate } from "react-router-dom";
 import { PageSeo, buildFaqJsonLd, buildBreadcrumbJsonLd } from "@/components/seo/PageSeo";
 import { satFaqPageBySlug } from "@/lib/seo-data/satFaqData";
 
+const SAT_FAQ_URL = "https://1600.now/sat-faq";
+const FALLBACK_ROUTE = "/bank";
+const SECTION_HEADING_CLASS = "text-2xl font-semibold";
+const SECTION_BODY_CLASS = "mt-3 space-y-3 text-foreground/90";
+const BODY_PARAGRAPH_CLASS = "mt-3 text-foreground/90";
+const BULLET_LIST_CLASS = "mt-3 list-disc space-y-2 pl-6 text-foreground/90";
+const CTA_ROW_CLASS = "mt-3 flex flex-wrap gap-3";
+const SECONDARY_CTA_CLASS = "rounded-lg border border-border px-4 py-2 text-sm font-semibold hover:bg-muted";
+const PRIMARY_CTA_CLASS = "rounded-lg bg-primary px-5 py-2 text-sm font-semibold text-primary-foreground transition-colors hover:bg-cobalt hover:text-white";
+const OUTLINE_CTA_CLASS = "rounded-lg border border-border px-5 py-2 text-sm font-semibold text-foreground hover:bg-muted";
+
+const USE_ANSWER_LINKS = [
+  { to: "/modules", label: "Take timed modules" },
+  { to: "/score-calculator", label: "Estimate your score" },
+  { to: "/sat-test-countdown", label: "Check test timing" },
+] as const;
+
 const faqActionPlanFor = (slug: string) => {
   if (slug.includes("calculator") || slug.includes("desmos")) {
     return {
@@ -70,9 +87,9 @@ const SatFaqPage = () => {
   const { slug } = useParams<{ slug: string }>();
   const page = slug ? satFaqPageBySlug.get(slug) : undefined;
 
-  if (!page) return <Navigate to="/bank" replace />;
+  if (!page) return <Navigate to={FALLBACK_ROUTE} replace />;
 
-  const url = `https://1600.now/sat-faq/${page.slug}`;
+  const url = `${SAT_FAQ_URL}/${page.slug}`;
   const actionPlan = faqActionPlanFor(page.slug);
 
   return (
@@ -84,7 +101,7 @@ const SatFaqPage = () => {
         jsonLd={[
           buildBreadcrumbJsonLd([
             { name: "1600.now", url: "https://1600.now/" },
-            { name: "SAT FAQ", url: "https://1600.now/sat-faq" },
+            { name: "SAT FAQ", url: SAT_FAQ_URL },
             { name: page.question, url },
           ]),
           buildFaqJsonLd([{ question: page.question, answer: page.shortAnswer }]),
@@ -103,8 +120,8 @@ const SatFaqPage = () => {
       <div className="mt-10 space-y-10">
         {page.sections.map((section, sectionIndex) => (
           <section key={sectionIndex}>
-            <h2 className="text-2xl font-semibold">{section.heading}</h2>
-            <div className="mt-3 space-y-3 text-foreground/90">
+            <h2 className={SECTION_HEADING_CLASS}>{section.heading}</h2>
+            <div className={SECTION_BODY_CLASS}>
               {section.body.map((paragraph, paragraphIndex) => (
                 <p key={paragraphIndex}>{paragraph}</p>
               ))}
@@ -121,11 +138,11 @@ const SatFaqPage = () => {
       </div>
 
       <section className="mt-12">
-        <h2 className="text-2xl font-semibold">What this means for your prep</h2>
-        <p className="mt-3 text-foreground/90">
+        <h2 className={SECTION_HEADING_CLASS}>What this means for your prep</h2>
+        <p className={BODY_PARAGRAPH_CLASS}>
           Do not leave this answer as background knowledge. Connect it to a practice decision: what to drill, when to test, how to pace a module, or how to interpret a score report.
         </p>
-        <ul className="mt-3 list-disc space-y-2 pl-6 text-foreground/90">
+        <ul className={BULLET_LIST_CLASS}>
           <li>If the answer is about timing or format, test it in a timed module.</li>
           <li>If the answer is about scoring, run your current numbers through the score calculator.</li>
           <li>If the answer is about tools or calculator policy, practice the relevant Math question type immediately.</li>
@@ -133,7 +150,7 @@ const SatFaqPage = () => {
       </section>
 
       <section className="mt-12">
-        <h2 className="text-2xl font-semibold">{actionPlan.heading}</h2>
+        <h2 className={SECTION_HEADING_CLASS}>{actionPlan.heading}</h2>
         <ol className="mt-3 list-decimal space-y-2 pl-6 text-foreground/90">
           {actionPlan.steps.map((step) => (
             <li key={step}>{step}</li>
@@ -142,8 +159,8 @@ const SatFaqPage = () => {
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold">Common mistakes</h2>
-        <ul className="mt-3 list-disc space-y-2 pl-6 text-foreground/90">
+        <h2 className={SECTION_HEADING_CLASS}>Common mistakes</h2>
+        <ul className={BULLET_LIST_CLASS}>
           {actionPlan.traps.map((trap) => (
             <li key={trap}>{trap}</li>
           ))}
@@ -152,16 +169,12 @@ const SatFaqPage = () => {
 
       <section className="mt-12">
         <h2 className="text-xl font-semibold">Use this answer</h2>
-        <div className="mt-3 flex flex-wrap gap-3">
-          <Link to="/modules" className="rounded-lg border border-border px-4 py-2 text-sm font-semibold hover:bg-muted">
-            Take timed modules
-          </Link>
-          <Link to="/score-calculator" className="rounded-lg border border-border px-4 py-2 text-sm font-semibold hover:bg-muted">
-            Estimate your score
-          </Link>
-          <Link to="/sat-test-countdown" className="rounded-lg border border-border px-4 py-2 text-sm font-semibold hover:bg-muted">
-            Check test timing
-          </Link>
+        <div className={CTA_ROW_CLASS}>
+          {USE_ANSWER_LINKS.map((link) => (
+            <Link key={link.to} to={link.to} className={SECONDARY_CTA_CLASS}>
+              {link.label}
+            </Link>
+          ))}
         </div>
       </section>
 
@@ -170,11 +183,11 @@ const SatFaqPage = () => {
         <p className="mt-2 text-sm text-foreground/90">
           Drill free SAT questions by skill, take timed modules, and project your 1600-scale score.
         </p>
-        <div className="mt-3 flex flex-wrap gap-3">
-          <Link to="/bank" className="rounded-lg bg-primary px-5 py-2 text-sm font-semibold text-primary-foreground transition-colors hover:bg-cobalt hover:text-white">
+        <div className={CTA_ROW_CLASS}>
+          <Link to="/bank" className={PRIMARY_CTA_CLASS}>
             Question bank
           </Link>
-          <Link to="/score-calculator" className="rounded-lg border border-border px-5 py-2 text-sm font-semibold text-foreground hover:bg-muted">
+          <Link to="/score-calculator" className={OUTLINE_CTA_CLASS}>
             Score calculator
           </Link>
         </div>

@@ -1,16 +1,15 @@
-
-export interface PillarSection {
+interface PillarSection {
   heading: string;
   body: string[];
   list?: string[];
 }
 
-export interface PillarFaq {
+interface PillarFaq {
   question: string;
   answer: string;
 }
 
-export interface PillarPageData {
+interface PillarPageData {
   slug: string;
   title: string;
   metaTitle: string;
@@ -24,7 +23,7 @@ export interface PillarPageData {
   relatedScoreTargets?: number[];
 }
 
-export const pillarPages: PillarPageData[] = [
+const pillarPages: PillarPageData[] = [
   {
     slug: "digital-sat-guide",
     title: "The Digital SAT: Complete 2026 Guide",
@@ -341,7 +340,7 @@ export const pillarPages: PillarPageData[] = [
   {
     slug: "bluebook-app-guide",
     title: "Bluebook App: Complete Guide to the Digital SAT Testing Software",
-    metaTitle: "Bluebook App Guide: Install, Navigate, and Test on Digital SAT",
+    metaTitle: "SAT Bluebook App Guide: Download, Practice Tests, and Tools",
     metaDescription:
       "How to install Bluebook, take practice tests, use the flag and cross-out tools, run the built-in Desmos calculator, and troubleshoot on test day.",
     heroIntro:
@@ -427,7 +426,7 @@ export const pillarPages: PillarPageData[] = [
     slug: "desmos-sat-guide",
     title: "Desmos on the Digital SAT: A Complete Calculator Strategy Guide",
     metaTitle:
-      "Desmos SAT Guide: Using Desmos on Every Math Question (2026)",
+      "SAT Desmos Calculator Guide: Shortcuts for Digital SAT Math (2026)",
     metaDescription:
       "Master the built-in Desmos calculator on the Digital SAT — graphing, tables, regression, statistics, and when to use Desmos instead of algebra.",
     heroIntro:

@@ -9,11 +9,7 @@ export const isChunkLoadError = (error: unknown): boolean => {
         : "";
 
   const normalized = message.toLowerCase();
-  return (
-    normalized.includes("dynamically imported module") ||
-    normalized.includes("failed to fetch dynamically imported module") ||
-    normalized.includes("error loading dynamically imported module")
-  );
+  return normalized.includes("dynamically imported module");
 };
 
 export const recoverFromChunkLoadError = (): void => {

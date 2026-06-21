@@ -7,11 +7,33 @@ import {
   getPersonalizationPreferences,
   resetPersonalizationPreferences,
   subscribeToPersonalization,
+  type PersonalizationPreferences,
 } from "@/lib/personalization";
 import {
   getQuestionUiStateMap,
   subscribeToQuestionUiState,
+  type QuestionUiStateMap,
 } from "@/lib/practice/questionUiState";
+import type { CustomPracticeSet } from "@/lib/practice/customPracticeSets";
+
+type AccountSyncFirestorePatch = {
+  user_id: string;
+  personalization?: PersonalizationPreferences;
+  questionState?: QuestionUiStateMap;
+  customPracticeSets?: CustomPracticeSet[];
+};
+
+const writeUserProgressPatch = (
+  database: NonNullable<typeof db>,
+  patch: AccountSyncFirestorePatch,
+  errorMessage: string,
+) => {
+  const ref = doc(database, "user_progress", patch.user_id);
+  setDoc(ref, patch, { merge: true }).catch((err) =>
+    console.error(errorMessage, err),
+  );
+};
+
 export const AccountSync = () => {
   useUserProgress();
 
@@ -31,13 +53,10 @@ export const AccountSync = () => {
 
     const push = () => {
       const prefs = getPersonalizationPreferences();
-      const ref = doc(db, "user_progress", user.id);
-      setDoc(
-        ref,
+      writeUserProgressPatch(
+        db,
         { user_id: user.id, personalization: prefs },
-        { merge: true },
-      ).catch((err) =>
-        console.error("Failed to sync personalization to Firestore:", err),
+        "Failed to sync personalization to Firestore:",
       );
     };
 
@@ -48,13 +67,10 @@ export const AccountSync = () => {
     if (!user || !db) return;
 
     const push = () => {
-      const ref = doc(db, "user_progress", user.id);
-      setDoc(
-        ref,
+      writeUserProgressPatch(
+        db,
         { user_id: user.id, questionState: getQuestionUiStateMap(user.id) },
-        { merge: true },
-      ).catch((err) =>
-        console.error("Failed to sync question state to Firestore:", err),
+        "Failed to sync question state to Firestore:",
       );
     };
 
@@ -72,16 +88,13 @@ export const AccountSync = () => {
       if (cancelled) return;
 
       const push = () => {
-        const ref = doc(db, "user_progress", user.id);
-        setDoc(
-          ref,
+        writeUserProgressPatch(
+          db,
           {
             user_id: user.id,
             customPracticeSets: customSets.getCustomPracticeSets(user.id),
           },
-          { merge: true },
-        ).catch((err) =>
-          console.error("Failed to sync custom practice sets to Firestore:", err),
+          "Failed to sync custom practice sets to Firestore:",
         );
       };
 

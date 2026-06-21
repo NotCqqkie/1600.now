@@ -1,5 +1,4 @@
-
-export interface ScoreGoalPage {
+interface ScoreGoalPage {
   slug: string;
   target: number | "perfect" | "good" | "average";
   metaTitle: string;
@@ -10,7 +9,7 @@ export interface ScoreGoalPage {
 
 const howToGetTargets = [1000, 1100, 1200, 1250, 1300, 1350, 1400, 1450, 1500, 1550, 1600];
 
-export const scoreGoalPages: ScoreGoalPage[] = [
+const scoreGoalPages: ScoreGoalPage[] = [
   ...howToGetTargets.map((targetScore): ScoreGoalPage => ({
     slug: `how-to-get-${targetScore}-sat`,
     target: targetScore,

@@ -1,13 +1,13 @@
 import { useMemo, useState } from "react";
-import { Link } from "react-router-dom";
+
+import { satToolBySlug } from "@/lib/seo-data/satTools";
 
 import {
-  PageSeo,
-  buildBreadcrumbJsonLd,
-  buildFaqJsonLd,
-  buildWebApplicationJsonLd,
-} from "@/components/seo/PageSeo";
-import { satToolBySlug } from "@/lib/seo-data/satTools";
+  SatToolPageScaffold,
+  TOOL_FORM_CARD_CLASS,
+  TOOL_INPUT_CLASS,
+  TOOL_SECTION_HEADING_CLASS,
+} from "./SatToolPageScaffold";
 const TEST_DATES: { date: string; label: string }[] = [
   { date: "2026-05-02", label: "May 2, 2026" },
   { date: "2026-06-06", label: "June 6, 2026" },
@@ -41,7 +41,7 @@ const SatTestCountdown = () => {
     [today],
   );
 
-  const [selected, setSelected] = useState<string>(
+  const [selected, setSelected] = useState(
     upcoming[0]?.date ?? TEST_DATES[0].date,
   );
 
@@ -50,7 +50,6 @@ const SatTestCountdown = () => {
   const weeks = Math.floor(days / 7);
   const remainderDays = days % 7;
 
-  const url = `https://1600.now/${meta.slug}`;
   const faqs = [
     {
       question: "When is the next SAT test date?",
@@ -77,43 +76,13 @@ const SatTestCountdown = () => {
   ];
 
   return (
-    <div className="mx-auto max-w-3xl px-6 py-10">
-      <PageSeo
-        id={`tool-${meta.slug}`}
-        title={meta.metaTitle}
-        description={meta.metaDescription}
-        jsonLd={[
-          buildBreadcrumbJsonLd([
-            { name: "Home", url: "https://1600.now/" },
-            { name: meta.name, url },
-          ]),
-          buildFaqJsonLd(faqs),
-          buildWebApplicationJsonLd({
-            name: meta.name,
-            url,
-            description: meta.metaDescription,
-          }),
-        ]}
-      />
-
-      <nav className="mb-6 text-sm text-muted-foreground">
-        <Link className="hover:underline" to="/">
-          Home
-        </Link>{" "}
-        › <span className="text-foreground">{meta.name}</span>
-      </nav>
-
-      <h1 className="text-4xl font-semibold tracking-tight md:text-5xl">
-        {meta.name}
-      </h1>
-      <p className="mt-4 text-lg text-muted-foreground">{meta.intro}</p>
-
-      <div className="mt-8 rounded-xl border border-border p-6">
+    <SatToolPageScaffold meta={meta} faqs={faqs}>
+      <div className={TOOL_FORM_CARD_CLASS}>
         <label className="text-sm font-semibold">Your target SAT date</label>
         <select
           value={selected}
           onChange={(event) => setSelected(event.target.value)}
-          className="mt-2 w-full rounded-lg border border-border bg-background px-3 py-2"
+          className={TOOL_INPUT_CLASS}
         >
           {upcoming.map((testDate) => (
             <option key={testDate.date} value={testDate.date}>
@@ -137,7 +106,7 @@ const SatTestCountdown = () => {
       </div>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold tracking-tight">
+        <h2 className={TOOL_SECTION_HEADING_CLASS}>
           Full 2026–2027 Digital SAT test dates
         </h2>
         <ul className="mt-4 space-y-2 text-muted-foreground">
@@ -172,7 +141,7 @@ const SatTestCountdown = () => {
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold tracking-tight">
+        <h2 className={TOOL_SECTION_HEADING_CLASS}>
           How to plan backwards from a test date
         </h2>
         <ul className="mt-3 list-disc space-y-1 pl-6 text-muted-foreground">
@@ -195,18 +164,7 @@ const SatTestCountdown = () => {
         </ul>
       </section>
 
-      <section className="mt-10">
-        <h2 className="text-2xl font-semibold tracking-tight">FAQs</h2>
-        <div className="mt-4 space-y-5">
-          {faqs.map((faq) => (
-            <div key={faq.question}>
-              <h3 className="text-base font-semibold">{faq.question}</h3>
-              <p className="mt-1 text-muted-foreground">{faq.answer}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-    </div>
+    </SatToolPageScaffold>
   );
 };
 

@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+      "title": "Use the area ratio",
+      "content": "For similar rectangles, areas scale by the square of the linear scale factor. Compare the two areas first, then take the square root to find the side-length scale factor."
     },
     {
       "title": "Find the linear scale factor from the area ratio",

@@ -1,8 +1,8 @@
-import { useEffect, useState, useCallback, useMemo, useRef } from "react";
+import { useEffect, useLayoutEffect, useState, useCallback, useMemo, useRef } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { useAuth } from "@/contexts/AuthContext";
-import { useThemeMode } from "@/hooks/useThemeMode";
+import { useThemeMode } from "@/lib/theme";
 import {
   ArrowRight,
   ArrowLeft,
@@ -11,7 +11,6 @@ import {
   BookOpen,
   BookOpenCheck,
   Calculator,
-  ClipboardList,
   Columns2,
   Compass,
   FileText,
@@ -25,24 +24,22 @@ import {
   PanelRight,
   PartyPopper,
   Sparkles,
-  Target,
   Wand2,
 } from "lucide-react";
 
 type LucideIcon = React.ComponentType<{ className?: string }>;
 
-type AccentName = "sky" | "violet" | "emerald" | "amber" | "rose" | "cyan" | "fuchsia" | "indigo" | "teal" | "orange";
-const ACCENT_CLASSES: Record<AccentName, { text: string; ring: string; bg: string; chip: string; grad: string }> = {
-  sky:      { text: "text-sky-500",     ring: "ring-sky-400/40",     bg: "bg-sky-500/25",     chip: "bg-sky-500/30 text-sky-700 dark:text-sky-200",         grad: "from-sky-500/30 via-sky-500/10 to-transparent" },
-  violet:   { text: "text-violet-500",  ring: "ring-violet-400/40",  bg: "bg-violet-500/25",  chip: "bg-violet-500/30 text-violet-700 dark:text-violet-200", grad: "from-violet-500/30 via-violet-500/10 to-transparent" },
-  emerald:  { text: "text-emerald-600", ring: "ring-emerald-400/40", bg: "bg-emerald-500/25", chip: "bg-emerald-500/30 text-emerald-700 dark:text-emerald-200", grad: "from-emerald-500/30 via-emerald-500/10 to-transparent" },
-  amber:    { text: "text-amber-500",   ring: "ring-amber-400/40",   bg: "bg-amber-500/25",   chip: "bg-amber-500/30 text-amber-700 dark:text-amber-200",   grad: "from-amber-500/30 via-amber-500/10 to-transparent" },
-  rose:     { text: "text-rose-500",    ring: "ring-rose-400/40",    bg: "bg-rose-500/25",    chip: "bg-rose-500/30 text-rose-700 dark:text-rose-200",     grad: "from-rose-500/30 via-rose-500/10 to-transparent" },
-  cyan:     { text: "text-cyan-600",    ring: "ring-cyan-400/40",    bg: "bg-cyan-500/25",    chip: "bg-cyan-500/30 text-cyan-700 dark:text-cyan-200",     grad: "from-cyan-500/30 via-cyan-500/10 to-transparent" },
-  fuchsia:  { text: "text-fuchsia-500", ring: "ring-fuchsia-400/40", bg: "bg-fuchsia-500/25", chip: "bg-fuchsia-500/30 text-fuchsia-700 dark:text-fuchsia-200", grad: "from-fuchsia-500/30 via-fuchsia-500/10 to-transparent" },
-  indigo:   { text: "text-indigo-500",  ring: "ring-indigo-400/40",  bg: "bg-indigo-500/25",  chip: "bg-indigo-500/30 text-indigo-700 dark:text-indigo-200", grad: "from-indigo-500/30 via-indigo-500/10 to-transparent" },
-  teal:     { text: "text-teal-600",    ring: "ring-teal-400/40",    bg: "bg-teal-500/25",    chip: "bg-teal-500/30 text-teal-700 dark:text-teal-200",     grad: "from-teal-500/30 via-teal-500/10 to-transparent" },
-  orange:   { text: "text-orange-500",  ring: "ring-orange-400/40",  bg: "bg-orange-500/25",  chip: "bg-orange-500/30 text-orange-700 dark:text-orange-200", grad: "from-orange-500/30 via-orange-500/10 to-transparent" },
+type AccentName = "sky" | "violet" | "emerald" | "amber" | "rose" | "cyan" | "fuchsia" | "indigo" | "teal";
+const ACCENT_CLASSES: Record<AccentName, { text: string; bg: string; chip: string }> = {
+  sky:      { text: "text-sky-500",     bg: "bg-sky-500/25",     chip: "bg-sky-500/30 text-sky-700 dark:text-sky-200" },
+  violet:   { text: "text-violet-500",  bg: "bg-violet-500/25",  chip: "bg-violet-500/30 text-violet-700 dark:text-violet-200" },
+  emerald:  { text: "text-emerald-600", bg: "bg-emerald-500/25", chip: "bg-emerald-500/30 text-emerald-700 dark:text-emerald-200" },
+  amber:    { text: "text-amber-500",   bg: "bg-amber-500/25",   chip: "bg-amber-500/30 text-amber-700 dark:text-amber-200" },
+  rose:     { text: "text-rose-500",    bg: "bg-rose-500/25",    chip: "bg-rose-500/30 text-rose-700 dark:text-rose-200" },
+  cyan:     { text: "text-cyan-600",    bg: "bg-cyan-500/25",    chip: "bg-cyan-500/30 text-cyan-700 dark:text-cyan-200" },
+  fuchsia:  { text: "text-fuchsia-500", bg: "bg-fuchsia-500/25", chip: "bg-fuchsia-500/30 text-fuchsia-700 dark:text-fuchsia-200" },
+  indigo:   { text: "text-indigo-500",  bg: "bg-indigo-500/25",  chip: "bg-indigo-500/30 text-indigo-700 dark:text-indigo-200" },
+  teal:     { text: "text-teal-600",    bg: "bg-teal-500/25",    chip: "bg-teal-500/30 text-teal-700 dark:text-teal-200" },
 };
 
 interface BaseStep {
@@ -293,6 +290,7 @@ const preloadTourRoutes = () => {
 };
 
 type Rect = { x: number; y: number; w: number; h: number };
+type CoachPositionStyle = Pick<React.CSSProperties, "left" | "top" | "right" | "bottom" | "transform">;
 
 const findTargetRect = (target: string, pad = 4): Rect | null => {
   const el = document.querySelector<HTMLElement>(`[data-tour="${target}"]`);
@@ -400,7 +398,7 @@ const FloatingBlobs = ({ accent }: { accent: AccentName }) => {
 };
 
 const SplashCard = ({ step, onNext, onSkip, index, total, isDark }: {
-  step: Step; onNext: () => void; onSkip: () => void; index: number; total: number; isDark: boolean;
+  step: SplashStep; onNext: () => void; onSkip: () => void; index: number; total: number; isDark: boolean;
 }) => {
   const titleColor = isDark ? "text-white" : "text-slate-900";
   const bodyColor = isDark ? "text-white/75" : "text-slate-700";
@@ -436,7 +434,7 @@ const SplashCard = ({ step, onNext, onSkip, index, total, isDark }: {
 };
 
 const FinaleCard = ({ step, onClose, onJump, index, total, isDark }: {
-  step: Step; onClose: () => void; onJump: (path: string) => void; index: number; total: number; isDark: boolean;
+  step: FinaleStep; onClose: () => void; onJump: (path: string) => void; index: number; total: number; isDark: boolean;
 }) => {
   const accentClass = ACCENT_CLASSES[step.accent];
   const titleColor = isDark ? "text-white" : "text-slate-900";
@@ -606,6 +604,10 @@ export const OnboardingTour = () => {
   const lastResolvedKeyRef = useRef<string>("");
   const [isNavigating, setIsNavigating] = useState(false);
   const [contentLeft, setContentLeft] = useState(0);
+  const lastCoachPositionStyleRef = useRef<CoachPositionStyle | null>(null);
+  const coachCardRef = useRef<HTMLDivElement | null>(null);
+  const lastCoachBoxRef = useRef<DOMRectReadOnly | null>(null);
+  const coachAnimationRef = useRef<Animation | null>(null);
   useEffect(() => {
     if (!open) {
       lastResolvedKeyRef.current = "";
@@ -747,6 +749,97 @@ export const OnboardingTour = () => {
     if (!rect || step.kind !== "spotlight") return null;
     return computeCoachPos(rect, 380, 260, 18, step.preferSide);
   }, [rect, step]);
+  const isRevealStep = step.kind === "spotlight" && Boolean(step.revealContent);
+  const coachLeft = coachPos?.left;
+  const coachTop = coachPos?.top;
+  const isCoachPositionResolved = isRevealStep || (coachLeft !== undefined && coachTop !== undefined);
+  const coachPositionStyle = useMemo<CoachPositionStyle | null>(() => {
+    if (step.kind !== "spotlight") return null;
+    if (isRevealStep) {
+      return { right: 24, bottom: 24, left: "auto", top: "auto", transform: "none" };
+    }
+    if (coachLeft !== undefined && coachTop !== undefined) {
+      return { left: coachLeft, top: coachTop, right: "auto", bottom: "auto", transform: "none" };
+    }
+    return lastCoachPositionStyleRef.current;
+  }, [coachLeft, coachTop, isRevealStep, step.kind]);
+  const coachPositionFingerprint = coachPositionStyle
+    ? `${coachPositionStyle.left ?? ""}|${coachPositionStyle.top ?? ""}|${coachPositionStyle.right ?? ""}|${coachPositionStyle.bottom ?? ""}|${coachPositionStyle.transform ?? ""}`
+    : "";
+
+  useEffect(() => {
+    if (open) return;
+    lastCoachPositionStyleRef.current = null;
+    lastCoachBoxRef.current = null;
+    coachAnimationRef.current?.cancel();
+    coachAnimationRef.current = null;
+  }, [open]);
+
+  useLayoutEffect(() => {
+    if (!open || step.kind !== "spotlight" || !coachPositionStyle) {
+      lastCoachBoxRef.current = null;
+      coachAnimationRef.current?.cancel();
+      coachAnimationRef.current = null;
+      return;
+    }
+
+    const node = coachCardRef.current;
+    if (!node) return;
+
+    const rememberCoachBox = () => {
+      const settledBox = node.getBoundingClientRect();
+      lastCoachBoxRef.current = settledBox;
+      if (isCoachPositionResolved) {
+        lastCoachPositionStyleRef.current = {
+          left: settledBox.left,
+          top: settledBox.top,
+          right: "auto",
+          bottom: "auto",
+          transform: "none",
+        };
+      }
+    };
+
+    const nextBox = node.getBoundingClientRect();
+    const previousBox = lastCoachBoxRef.current;
+    lastCoachBoxRef.current = nextBox;
+    if (isCoachPositionResolved) {
+      lastCoachPositionStyleRef.current = {
+        left: nextBox.left,
+        top: nextBox.top,
+        right: "auto",
+        bottom: "auto",
+        transform: "none",
+      };
+    }
+    if (!previousBox) return;
+
+    const dx = previousBox.left - nextBox.left;
+    const dy = previousBox.top - nextBox.top;
+    if (Math.hypot(dx, dy) < 1) return;
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
+    coachAnimationRef.current?.cancel();
+    const animation = node.animate(
+      [
+        { transform: `translate(${dx}px, ${dy}px)` },
+        { transform: "translate(0, 0)" },
+      ],
+      {
+        duration: 350,
+        easing: "cubic-bezier(0.22, 1, 0.36, 1)",
+      },
+    );
+    coachAnimationRef.current = animation;
+    animation.onfinish = () => {
+      if (coachAnimationRef.current !== animation) return;
+      rememberCoachBox();
+      coachAnimationRef.current = null;
+    };
+    animation.oncancel = () => {
+      if (coachAnimationRef.current === animation) coachAnimationRef.current = null;
+    };
+  }, [coachPositionFingerprint, coachPositionStyle, isCoachPositionResolved, open, step.kind]);
 
   if (!open) return null;
 
@@ -855,31 +948,23 @@ export const OnboardingTour = () => {
       </div>
 
       {step.kind === "spotlight" && (() => {
-        const reveal = (step as SpotlightStep).revealContent;
         const TR = "350ms cubic-bezier(0.22, 1, 0.36, 1)";
-        const allTR = `left ${TR}, top ${TR}, right ${TR}, bottom ${TR}, transform ${TR}`;
-        let positionStyle: React.CSSProperties;
-        if (reveal) {
-          positionStyle = { right: 24, bottom: 24, left: "auto", top: "auto", transform: "none", transition: allTR };
-        } else if (coachPos) {
-          positionStyle = { left: coachPos.left, top: coachPos.top, right: "auto", bottom: "auto", transform: "none", transition: allTR };
-        } else {
-          positionStyle = { left: "50%", top: "auto", bottom: 32, right: "auto", transform: "translateX(-50%)", transition: allTR };
-        }
+        if (!coachPositionStyle) return null;
         return (
         <div
+          ref={coachCardRef}
           className={`tour-coach-card absolute z-10 w-[380px] max-w-[92vw] rounded-2xl border border-border bg-card shadow-[0_24px_60px_-15px_rgba(0,0,0,0.55)] ${accentClass.text}`}
           onPointerDown={stopTourEvent}
           onMouseDown={stopTourEvent}
           onClick={stopTourEvent}
           style={{
-            ...positionStyle,
+            ...coachPositionStyle,
             borderTop: "3px solid currentColor",
-            transition: `${positionStyle.transition}, border-top-color ${TR}`,
+            transition: `border-top-color ${TR}`,
           }}
         >
 
-          <div className="relative p-5">
+          <div className="relative p-5 tour-coach-content">
             <div className="mb-3 flex items-center gap-2.5">
               <div className={`flex h-9 w-9 items-center justify-center rounded-xl ${accentClass.bg} ${accentClass.text}`} style={{ transition: `background ${TR}, color ${TR}` }}>
                 <Icon className="h-5 w-5" />

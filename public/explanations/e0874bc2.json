@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+      "title": "Use the perimeter scale factor",
+      "content": "For similar triangles, corresponding side lengths and perimeters use the same scale factor. Compare the two perimeters first, then apply that factor to the corresponding side."
     },
     {
       "title": "Find the scale factor from perimeters",

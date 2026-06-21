@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+      "title": "Use the parallel sides",
+      "content": "Extend $BC$ and $DE$ until they meet at point $X$. Since $AB\\parallel DE$, the exterior angle at $B$ and angle $CXD$ are alternate interior angles."
     },
     {
-      "title": "Sum of interior angles in a pentagon",
-      "content": "The sum of interior angles in any pentagon is $(5-2) \\times 180^{\\circ} = 540^{\\circ}$.<br/><br/>Given $\\angle B = 139^{\\circ}$ and $\\angle D = 174^{\\circ}$:<br/>$$\\angle A + 139^{\\circ} + \\angle C + 174^{\\circ} + \\angle E = 540^{\\circ}$$$$\\angle A + \\angle C + \\angle E = 227^{\\circ}$$"
+      "title": "Find the two angles in triangle CDX",
+      "content": "The exterior angle at $B$ is $180^{\\circ}-139^{\\circ}=41^{\\circ}$, so $\\angle CXD=41^{\\circ}$. Also, $\\angle CDX=180^{\\circ}-174^{\\circ}=6^{\\circ}$."
     },
     {
-      "title": "Parallel lines and exterior angle turns",
-      "content": "Since $AB \\parallel DE$, consider how direction changes as we traverse the pentagon from $B$ to $D$ through $C$. At each vertex, we turn by the exterior angle ($180^{\\circ}$ minus the interior angle):<ul><li>Exterior angle at $B$: $180^{\\circ} - 139^{\\circ} = 41^{\\circ}$</li><li>Exterior angle at $C$: $180^{\\circ} - \\angle C$</li><li>Exterior angle at $D$: $180^{\\circ} - 174^{\\circ} = 6^{\\circ}$</li></ul>The total directional change from side $AB$ to side $DE$ is:<br/>$$41^{\\circ} + (180^{\\circ} - \\angle C) + 6^{\\circ} = 227^{\\circ} - \\angle C$$<br/>For parallel lines with opposite orientations (as required in this configuration), this total change must equal $180^{\\circ}$."
-    },
-    {
-      "title": "Solve for angle C",
-      "content": "Setting the total directional change equal to $180^{\\circ}$:<br/>$$227^{\\circ} - \\angle C = 180^{\\circ}$$$$\\angle C = 47^{\\circ}$$"
+      "title": "Use the exterior angle theorem",
+      "content": "Angle $C$ of the pentagon is the exterior angle of triangle $CDX$, so its measure is the sum of the two remote interior angles: $$41+6=47.$$"
     }
   ]
 }

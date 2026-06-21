@@ -1,10 +1,8 @@
 import { getFirestore, connectFirestoreEmulator } from "firebase/firestore";
 import { app } from "@/lib/firebase/firebaseApp";
+import { isLocalHost } from "@/lib/firebase/firebaseHosts";
 
 export const db = app ? getFirestore(app) : null;
-
-const isLocalHost = (hostname: string): boolean =>
-  hostname === "localhost" || hostname === "127.0.0.1" || hostname === "::1";
 
 if (
   db &&

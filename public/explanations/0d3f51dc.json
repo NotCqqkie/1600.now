@@ -9,11 +9,11 @@
     },
     {
       "title": "Identify the angle relationship",
-      "content": "At the intersection of transversal $t$ with line $m$, angle $x^{\\circ}$ is located on the left side of $t$.<br/><br/>At the intersection of transversal $t$ with line $n$, angle $33^{\\circ}$ is located on the right side of $t$.<br/><br/>Both angles lie in the interior region between the two parallel lines.<br/><br/>This makes them <strong>co-interior angles</strong> (also called consecutive interior angles or same-side interior angles)."
+      "content": "At the intersection of transversal $t$ with line $m$, angle $x^{\\circ}$ is outside the region between the parallel lines. The $33^{\\circ}$ angle at line $n$ is also outside that region, and the two angles are on the same side of the transversal. They are same-side exterior angles."
     },
     {
       "title": "Apply the parallel lines property",
-      "content": "When a transversal intersects two parallel lines, co-interior angles are supplementary — they sum to $180^{\\circ}$.<br/>$$x^{\\circ} + 33^{\\circ} = 180^{\\circ}$$"
+      "content": "When a transversal intersects two parallel lines, same-side exterior angles are supplementary, so they sum to $180^{\\circ}$.<br/>$$x^{\\circ} + 33^{\\circ} = 180^{\\circ}$$"
     },
     {
       "title": "Solve for x",

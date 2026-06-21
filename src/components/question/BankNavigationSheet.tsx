@@ -1,8 +1,5 @@
 import { type ReactNode, useCallback } from "react";
-import {
-  QuestionNavigatorSheet,
-  type QuestionNavigatorItem,
-} from "@/components/question/QuestionNavigatorSheet";
+import { QuestionNavigatorSheet } from "@/components/question/QuestionNavigatorSheet";
 import { useAuth } from "@/contexts/AuthContext";
 import { getQuestionUiStates } from "@/lib/practice/questionUiState";
 
@@ -13,7 +10,6 @@ interface BankNavigationSheetProps {
   isSplitScreenActive?: boolean;
   splitPosition?: number;
   items?: Array<{ id: number; storageId: string }>;
-  storagePrefix?: string;
   headerActions?: ReactNode;
 }
 
@@ -21,41 +17,32 @@ export const BankNavigationSheet = ({
   currentQuestion,
   totalQuestions,
   onJump,
-  isSplitScreenActive = false,
-  splitPosition = 50,
+  isSplitScreenActive,
+  splitPosition,
   items,
-  storagePrefix,
   headerActions,
 }: BankNavigationSheetProps) => {
   const { user } = useAuth();
   const uid = user?.id ?? null;
   const buildNavigatorItems = useCallback(
-    (): QuestionNavigatorItem[] => {
+    () => {
       const sourceItems =
         items && items.length > 0
           ? items
           : Array.from({ length: totalQuestions }, (_, i) => ({
               id: i + 1,
-              storageId: storagePrefix ? `${storagePrefix}-${i + 1}` : "",
+              storageId: "",
             }));
 
-      const resolvedItems = sourceItems.map((item, index) => {
-        const fallbackStorageId = storagePrefix ? `${storagePrefix}-${item.id}` : undefined;
-        return {
-          index,
-          item,
-          storageId: item?.storageId || fallbackStorageId,
-        };
-      });
-      const stateByStorageId = getQuestionUiStates(
-        resolvedItems
-          .map(({ storageId }) => storageId)
-          .filter((storageId): storageId is string => Boolean(storageId)),
-        uid,
-      );
+      const storageIds = sourceItems
+        .map(({ storageId }) => storageId)
+        .filter((storageId): storageId is string => Boolean(storageId));
+      const stateByStorageId = storageIds.length
+        ? getQuestionUiStates(storageIds, uid)
+        : {};
 
-      return resolvedItems.map(({ item, index, storageId }) => {
-        const state = storageId ? stateByStorageId[storageId] : undefined;
+      return sourceItems.map((item, index) => {
+        const state = item.storageId ? stateByStorageId[item.storageId] : undefined;
         return {
           key: item.id,
           label: item.id,
@@ -67,13 +54,12 @@ export const BankNavigationSheet = ({
         };
       });
     },
-    [currentQuestion, items, onJump, storagePrefix, totalQuestions, uid]
+    [currentQuestion, items, onJump, totalQuestions, uid]
   );
 
   return (
     <QuestionNavigatorSheet
       buttonLabel={`Question ${currentQuestion}`}
-      title="Question Navigator"
       subtitle={`Total: ${totalQuestions}`}
       buildItems={buildNavigatorItems}
       isSplitScreenActive={isSplitScreenActive}

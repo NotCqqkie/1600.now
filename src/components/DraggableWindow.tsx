@@ -23,13 +23,13 @@ interface DraggableWindowProps {
   constrainToLeft?: number;
   isSidebarred?: boolean;
   onSidebarToggle?: (windowId: string, shouldBeSidebarred: boolean, reason?: "close") => void;
-  isMaximized?: boolean;
   persistenceKey?: string;
   persistenceStorage?: Storage;
   portalContainer?: HTMLElement | null;
   boundsElement?: HTMLElement | null;
   centerOnExitSidebar?: boolean;
   keepMountedWhenClosed?: boolean;
+  contentSplitExitPosition?: number;
 }
 
 interface PersistedWindowState {
@@ -37,6 +37,20 @@ interface PersistedWindowState {
   size: { width: number; height: number };
   isMinimized: boolean;
 }
+
+const SIDEBAR_SPLIT_MIN = 35;
+const SIDEBAR_SPLIT_MAX = 70;
+const SIDEBAR_DISMISS_EDGE_MIN_PX = 56;
+const SIDEBAR_DISMISS_EDGE_MAX_PX = 128;
+const SIDEBAR_DISMISS_EDGE_RATIO = 0.08;
+const SIDEBAR_EXIT_MS = 200;
+const SIDEBAR_EXIT_EASING = "cubic-bezier(0.22, 1, 0.36, 1)";
+
+const getSidebarDismissEdgePx = (width: number) =>
+  Math.max(
+    SIDEBAR_DISMISS_EDGE_MIN_PX,
+    Math.min(SIDEBAR_DISMISS_EDGE_MAX_PX, width * SIDEBAR_DISMISS_EDGE_RATIO),
+  );
 
 export const DraggableWindow = ({
   isOpen,
@@ -57,26 +71,23 @@ export const DraggableWindow = ({
   constrainToLeft,
   isSidebarred = false,
   onSidebarToggle,
-  isMaximized = false,
   persistenceKey,
   persistenceStorage = localStorage,
   portalContainer,
   boundsElement,
   centerOnExitSidebar = false,
   keepMountedWhenClosed = false,
+  contentSplitExitPosition = 100,
 }: DraggableWindowProps) => {
   const [position, setPosition] = useState({ x: 100, y: 100 });
   const [size, setSize] = useState({ width: defaultWidth, height: defaultHeight });
   const [isDragging, setIsDragging] = useState(false);
   const [isResizing, setIsResizing] = useState<string | null>(null);
   const [isMinimized, setIsMinimized] = useState(false);
-  const [dragOffset, setDragOffset] = useState({ x: 0, y: 0 });
-  const [resizeStart, setResizeStart] = useState({ x: 0, y: 0, width: 0, height: 0, posX: 0, posY: 0 });
   const [isReady, setIsReady] = useState(false);
   const [isResizingSplit, setIsResizingSplit] = useState(false);
-  const windowRef = useRef<HTMLDivElement>(null);
+  const [isSidebarExiting, setIsSidebarExiting] = useState(false);
   const prevIsOpenRef = useRef(false);
-  const lastSplitPositionRef = useRef<number | null>(null);
   const wasSidebarredRef = useRef(isSidebarred);
   const openedAsSidebarRef = useRef(false);
   const previousWindowStateRef = useRef<{
@@ -143,18 +154,19 @@ export const DraggableWindow = ({
   }, [boundsElement, portalContainer]);
   const positionRef = useRef(position);
   const sizeRef = useRef(size);
-  const dragOffsetRef = useRef(dragOffset);
-  const resizeStartRef = useRef(resizeStart);
+  const dragOffsetRef = useRef({ x: 0, y: 0 });
+  const resizeStartRef = useRef({ x: 0, y: 0, width: 0, height: 0, posX: 0, posY: 0 });
   const isMinimizedRef = useRef(isMinimized);
   const isDraggingRef = useRef(isDragging);
   const isResizingRef = useRef(isResizing);
+  const sidebarExitTimerRef = useRef<number | null>(null);
+  const isClosingFromSidebarRef = useRef(false);
   useEffect(() => { positionRef.current = position; }, [position]);
   useEffect(() => { sizeRef.current = size; }, [size]);
-  useEffect(() => { dragOffsetRef.current = dragOffset; }, [dragOffset]);
-  useEffect(() => { resizeStartRef.current = resizeStart; }, [resizeStart]);
   useEffect(() => { isMinimizedRef.current = isMinimized; }, [isMinimized]);
   useEffect(() => { isDraggingRef.current = isDragging; }, [isDragging]);
   useEffect(() => { isResizingRef.current = isResizing; }, [isResizing]);
+  const renderAsSidebar = isSidebarred || isSidebarExiting;
 
   const persistCurrentFloatingState = useCallback(() => {
     writePersistedState({
@@ -163,8 +175,34 @@ export const DraggableWindow = ({
       isMinimized: isMinimizedRef.current,
     });
   }, [writePersistedState]);
+
+  const closeWindow = useCallback(() => {
+    if (renderAsSidebar) {
+      isClosingFromSidebarRef.current = true;
+    }
+    setIsMinimized(false);
+    onClose();
+    if (renderAsSidebar) {
+      if (onSidebarToggle) {
+        onSidebarToggle(windowId, false, "close");
+      }
+      if (onSplitScreenChange) {
+        onSplitScreenChange(false, windowId);
+      }
+    }
+  }, [renderAsSidebar, onClose, onSidebarToggle, onSplitScreenChange, windowId]);
+
+  useEffect(() => {
+    return () => {
+      if (sidebarExitTimerRef.current !== null) {
+        window.clearTimeout(sidebarExitTimerRef.current);
+      }
+    };
+  }, []);
   useEffect(() => {
     if (isOpen && !prevIsOpenRef.current) {
+      isClosingFromSidebarRef.current = false;
+      setIsSidebarExiting(false);
       if (isSidebarred) {
         const persistedState = readPersistedState();
         previousWindowStateRef.current = persistedState
@@ -225,12 +263,14 @@ export const DraggableWindow = ({
       }
     }
     if (!isOpen && prevIsOpenRef.current) {
-      if (!isSidebarred) {
+      const wasClosingFromSidebar = isClosingFromSidebarRef.current;
+      if (!isSidebarred && !wasClosingFromSidebar) {
         persistCurrentFloatingState();
       }
       setIsReady(false);
       setIsMinimized(false);
-      if (isSidebarred) {
+      setIsSidebarExiting(false);
+      if (isSidebarred || wasClosingFromSidebar) {
         if (onSplitScreenChange) {
           onSplitScreenChange(false, windowId);
         }
@@ -238,6 +278,7 @@ export const DraggableWindow = ({
           onSidebarToggle(windowId, false, "close");
         }
       }
+      isClosingFromSidebarRef.current = false;
     }
 
     prevIsOpenRef.current = isOpen;
@@ -278,6 +319,11 @@ export const DraggableWindow = ({
       return () => window.removeEventListener('resize', updateSidebarPosition);
     } else {
       if (wasSidebarred) {
+        if (isClosingFromSidebarRef.current || isSidebarExiting) {
+          wasSidebarredRef.current = false;
+          openedAsSidebarRef.current = false;
+          return;
+        }
         const savedState = previousWindowStateRef.current;
         if (savedState) {
           const bottomBarHeight = 80;
@@ -307,7 +353,7 @@ export const DraggableWindow = ({
     }
   }, [splitPosition, isSidebarred, isOpen, getBounds, persistCurrentFloatingState, centerOnExitSidebar]);
   useEffect(() => {
-    if (!isMinimized && isOpen && !isSidebarred && isReady) {
+    if (!isMinimized && isOpen && !renderAsSidebar && isReady) {
       const bottomBarHeight = 80;
       const bounds = getBounds();
       const maxX = bounds.width - size.width;
@@ -320,10 +366,10 @@ export const DraggableWindow = ({
         setPosition({ x: correctedX, y: correctedY });
       }
     }
-  }, [isMinimized, isOpen, isSidebarred, isReady, size.width, size.height, position.x, position.y, getBounds]);
+  }, [isMinimized, isOpen, renderAsSidebar, isReady, size.width, size.height, position.x, position.y, getBounds]);
 
   useEffect(() => {
-    if (!isOpen || isSidebarred || !isReady) return;
+    if (!isOpen || renderAsSidebar || !isReady) return;
     const timeoutId = window.setTimeout(() => {
       writePersistedState({
         position,
@@ -332,22 +378,57 @@ export const DraggableWindow = ({
       });
     }, 200);
     return () => window.clearTimeout(timeoutId);
-  }, [isOpen, isReady, isSidebarred, position, size, isMinimized, writePersistedState]);
+  }, [isOpen, isReady, renderAsSidebar, position, size, isMinimized, writePersistedState]);
   useEffect(() => {
     if (!isSidebarred || !isResizingSplit) return;
 
     document.body.classList.add("noselect");
     let latestRoundedPosition: number | null = null;
+    let dismissedDuringDrag = false;
+
+    const finishSidebarDismiss = () => {
+      sidebarExitTimerRef.current = null;
+      isClosingFromSidebarRef.current = true;
+      setIsMinimized(false);
+      onClose();
+      if (onSidebarToggle) {
+        onSidebarToggle(windowId, false, "close");
+      }
+      if (onSplitScreenChange) {
+        onSplitScreenChange(false, windowId);
+      }
+    };
+
+    const startSidebarDismiss = () => {
+      if (dismissedDuringDrag) return;
+      dismissedDuringDrag = true;
+      isClosingFromSidebarRef.current = true;
+      setIsResizingSplit(false);
+      setIsSidebarExiting(true);
+      document.documentElement.style.setProperty("--sat-content-split-pct", `${contentSplitExitPosition}%`);
+      document.documentElement.style.setProperty("--sat-nav-split-pct", "100%");
+      document.body.classList.remove("noselect");
+      sidebarExitTimerRef.current = window.setTimeout(finishSidebarDismiss, SIDEBAR_EXIT_MS);
+    };
 
     const updateFromClientX = (clientX: number) => {
       const bounds = getBounds();
       const point = getBoundsPoint(clientX, 0);
+      if (point.x >= bounds.width - getSidebarDismissEdgePx(bounds.width)) {
+        startSidebarDismiss();
+        return;
+      }
       const newPosition = (point.x / bounds.width) * 100;
-      const clampedPosition = Math.max(35, Math.min(70, newPosition));
+      const clampedPosition = Math.max(SIDEBAR_SPLIT_MIN, Math.min(SIDEBAR_SPLIT_MAX, newPosition));
       const roundedPosition = Math.round(clampedPosition * 4) / 4;
       if (latestRoundedPosition === roundedPosition) return;
       latestRoundedPosition = roundedPosition;
       document.documentElement.style.setProperty("--sat-split-pct", `${roundedPosition}%`);
+      document.documentElement.style.setProperty("--sat-content-split-pct", `${roundedPosition}%`);
+      document.documentElement.style.setProperty("--sat-nav-split-pct", `${roundedPosition}%`);
+      if (onSplitPositionChange) {
+        onSplitPositionChange(roundedPosition);
+      }
     };
 
     const handleMouseMove = (e: MouseEvent) => updateFromClientX(e.clientX);
@@ -359,12 +440,18 @@ export const DraggableWindow = ({
     };
 
     const stop = () => {
+      if (dismissedDuringDrag) return;
       setIsResizingSplit(false);
       document.body.classList.remove("noselect");
+      if (onSidebarToggle) {
+        onSidebarToggle(windowId, true);
+      }
+      if (onSplitScreenChange) {
+        onSplitScreenChange(true, windowId);
+      }
       if (latestRoundedPosition !== null && onSplitPositionChange) {
         onSplitPositionChange(latestRoundedPosition);
       }
-      lastSplitPositionRef.current = null;
     };
 
     document.addEventListener('mousemove', handleMouseMove);
@@ -380,9 +467,8 @@ export const DraggableWindow = ({
       document.removeEventListener('touchend', stop);
       document.removeEventListener('touchcancel', stop);
       document.body.classList.remove("noselect");
-      lastSplitPositionRef.current = null;
     };
-  }, [isResizingSplit, isSidebarred, onSplitPositionChange, getBounds, getBoundsPoint]);
+  }, [isResizingSplit, isSidebarred, onSplitPositionChange, getBounds, getBoundsPoint, onClose, onSidebarToggle, onSplitScreenChange, windowId, contentSplitExitPosition]);
 
   const beginDragFrom = (clientX: number, clientY: number, target: HTMLElement) => {
     const isHeader = Boolean(target.closest(".window-header"));
@@ -390,14 +476,13 @@ export const DraggableWindow = ({
       target.closest("button, [role='button'], input, textarea, select, a")
     );
 
-    if (!isSidebarred && isHeader && !isInteractiveTarget) {
+    if (!isSidebarred && !isSidebarExiting && isHeader && !isInteractiveTarget) {
       setIsDragging(true);
       const point = getBoundsPoint(clientX, clientY);
       const newDragOffset = {
         x: point.x - position.x,
         y: point.y - position.y,
       };
-      setDragOffset(newDragOffset);
       dragOffsetRef.current = newDragOffset;
       return true;
     }
@@ -420,7 +505,7 @@ export const DraggableWindow = ({
   };
 
   const handleResizeStart = (e: React.MouseEvent, edge: string) => {
-    if (isSidebarred) return;
+    if (isSidebarred || isSidebarExiting) return;
     e.preventDefault();
     e.stopPropagation();
     setIsResizing(edge);
@@ -433,12 +518,11 @@ export const DraggableWindow = ({
       posX: position.x,
       posY: position.y,
     };
-    setResizeStart(startData);
     resizeStartRef.current = startData;
   };
 
   const handleResizeTouchStart = (e: React.TouchEvent, edge: string) => {
-    if (isSidebarred) return;
+    if (isSidebarred || isSidebarExiting) return;
     if (e.touches.length === 0) return;
     e.preventDefault();
     e.stopPropagation();
@@ -453,7 +537,6 @@ export const DraggableWindow = ({
       posX: position.x,
       posY: position.y,
     };
-    setResizeStart(startData);
     resizeStartRef.current = startData;
   };
 
@@ -590,6 +673,7 @@ export const DraggableWindow = ({
 
   const toggleSidebar = () => {
     const newSidebarState = !isSidebarred;
+    isClosingFromSidebarRef.current = false;
     if (newSidebarState && isMinimized) {
       setIsMinimized(false);
     }
@@ -602,21 +686,10 @@ export const DraggableWindow = ({
     }
   };
 
-  const handleClose = () => {
-    if (isSidebarred) {
-      if (onSidebarToggle) {
-        onSidebarToggle(windowId, false, "close");
-      }
-      if (onSplitScreenChange) {
-        onSplitScreenChange(false, windowId);
-      }
-    }
-    setIsMinimized(false);
-    onClose();
-  };
+  const handleClose = closeWindow;
 
   if (!isOpen && !keepMountedWhenClosed) return null;
-  const windowStyle: React.CSSProperties = isSidebarred && !isMaximized
+  const windowStyle: React.CSSProperties = renderAsSidebar
     ? {
         left: `var(--sat-split-pct, ${splitPosition}%)`,
         top: 0,
@@ -625,14 +698,20 @@ export const DraggableWindow = ({
         zIndex,
         visibility: "visible",
         display: isOpen ? undefined : "none",
+        opacity: isSidebarExiting ? 0 : 1,
+        transform: isSidebarExiting ? "translateX(100%)" : "translateX(0)",
+        transition: isResizingSplit
+          ? "none"
+          : `transform ${SIDEBAR_EXIT_MS}ms ${SIDEBAR_EXIT_EASING}, opacity ${SIDEBAR_EXIT_MS}ms ease-out`,
+        willChange: "transform, opacity",
       }
     : {
-        left: isMaximized ? 0 : position.x,
-        top: isMaximized ? 0 : position.y,
-        width: isMaximized ? '100%' : size.width,
-        height: isMaximized ? '100%' : (isMinimized ? '56px' : size.height),
-        zIndex: isMaximized ? 100 : zIndex,
-        visibility: (isReady || isMaximized) ? 'visible' : 'hidden',
+        left: position.x,
+        top: position.y,
+        width: size.width,
+        height: isMinimized ? '56px' : size.height,
+        zIndex,
+        visibility: isReady ? 'visible' : 'hidden',
         display: isOpen ? undefined : 'none',
       };
 
@@ -650,7 +729,7 @@ export const DraggableWindow = ({
 
   return createPortal(
     <>
-      {isSidebarred && isOpen && (
+      {isSidebarred && isOpen && !isSidebarExiting && (
         <div
           className="fixed bottom-0 top-0 w-4 cursor-col-resize flex items-center justify-center group touch-none"
           style={{
@@ -658,13 +737,11 @@ export const DraggableWindow = ({
             zIndex: zIndex + 10 // Always above this window
           }}
           onMouseDown={() => {
-            lastSplitPositionRef.current = null;
             setIsResizingSplit(true);
           }}
           onTouchStart={(e) => {
             if (e.touches.length === 0) return;
             e.preventDefault();
-            lastSplitPositionRef.current = null;
             setIsResizingSplit(true);
           }}
         >
@@ -673,20 +750,19 @@ export const DraggableWindow = ({
       )}
 
       <div
-        ref={windowRef}
         data-window-id={windowId}
         data-tour={`window-${windowId}`}
         className={cn(
           "fixed bg-card border-2 border-border rounded-lg shadow-2xl flex flex-col overflow-hidden",
           isDragging ? "cursor-grabbing" : "",
-          isSidebarred ? "pointer-events-auto rounded-none border-l-2 border-t-0 border-r-0 border-b-0" : ""
+          renderAsSidebar ? "pointer-events-auto rounded-none border-l-2 border-t-0 border-r-0 border-b-0" : ""
         )}
         style={windowStyle}
         onMouseDown={handleMouseDown}
         onTouchStart={handleTouchStart}
         onDragStart={handleNativeDragStart}
       >
-        {!isMinimized && !isSidebarred && (
+        {!isMinimized && !renderAsSidebar && (
           <>
             {!diagonalResizeOnly && (
               <>
@@ -737,25 +813,25 @@ export const DraggableWindow = ({
 
         <div className={cn(
           "window-header flex select-none items-center justify-between px-4 py-3 bg-muted border-b border-border",
-          isSidebarred ? "cursor-default" : "cursor-grab active:cursor-grabbing"
+          renderAsSidebar ? "cursor-default" : "cursor-grab active:cursor-grabbing"
         )}>
           <div className="flex min-w-0 items-center gap-2">
             {enableSplitScreen && (
               <Button
                 variant="ghost"
                 size="icon"
-                className={cn("h-8 w-8 shrink-0", isSidebarred && "bg-primary/20")}
+                className={cn("h-8 w-8 shrink-0", renderAsSidebar && "bg-primary/20")}
                 onClick={toggleSidebar}
                 data-tour={`sidebar-toggle-${windowId}`}
-                title={isSidebarred ? "Hide away" : "Pop out"}
+                title={renderAsSidebar ? "Hide away" : "Pop out"}
               >
-                {isSidebarred ? <ChevronRight className="h-4 w-4" /> : <Columns2 className="h-4 w-4" />}
+                {renderAsSidebar ? <ChevronRight className="h-4 w-4" /> : <Columns2 className="h-4 w-4" />}
               </Button>
             )}
             <h3 className="truncate font-semibold text-foreground">{title}</h3>
           </div>
           <div className="flex items-center gap-2">
-            {!isSidebarred && (
+            {!renderAsSidebar && (
               <Button
                 variant="ghost"
                 size="icon"

@@ -1,12 +1,6 @@
 import { useEffect, useRef, useState } from "react";
-import { loadDesmos } from "@/lib/desmosLoader";
+import { loadDesmos, type DesmosCalculator } from "@/lib/desmosLoader";
 import { cn } from "@/lib/utils";
-
-interface DesmosCalc {
-  destroy: () => void;
-  resize: () => void;
-  setExpression: (expr: { id: string; latex?: string; color?: string }) => void;
-}
 
 interface InlineDesmosProps {
   expressions: string[];
@@ -15,17 +9,16 @@ interface InlineDesmosProps {
   className?: string;
 }
 
-const COLORS = [
+const DESMOS_EXPRESSION_COLORS = [
   "#2d70b3",
   "#388c46",
   "#fa7e19",
   "#c74440",
   "#6042a6",
-];
+] as const;
 
 export function InlineDesmos({ expressions, height = 360, forwardScrollToPage = false, className }: InlineDesmosProps) {
   const containerRef = useRef<HTMLDivElement>(null);
-  const calcRef = useRef<DesmosCalc | null>(null);
   const [ready, setReady] = useState(false);
 
   useEffect(() => {
@@ -35,7 +28,7 @@ export function InlineDesmos({ expressions, height = 360, forwardScrollToPage = 
 
     let lastTouchX: number | null = null;
     let lastTouchY: number | null = null;
-    const forwardScroll = (deltaX: number, deltaY: number) => {
+    const forwardPageScroll = (deltaX: number, deltaY: number) => {
       if (!deltaX && !deltaY) return;
       if (window.self !== window.top) {
         window.parent.postMessage({ type: "homeDemoScroll", deltaX, deltaY }, window.location.origin);
@@ -46,7 +39,7 @@ export function InlineDesmos({ expressions, height = 360, forwardScrollToPage = 
     const onWheel = (event: WheelEvent) => {
       event.preventDefault();
       event.stopPropagation();
-      forwardScroll(event.deltaX, event.deltaY);
+      forwardPageScroll(event.deltaX, event.deltaY);
     };
     const onTouchStart = (event: TouchEvent) => {
       if (event.touches.length !== 1) {
@@ -67,9 +60,9 @@ export function InlineDesmos({ expressions, height = 360, forwardScrollToPage = 
       if (Math.abs(deltaX) + Math.abs(deltaY) < 1) return;
       event.preventDefault();
       event.stopPropagation();
-      forwardScroll(deltaX, deltaY);
+      forwardPageScroll(deltaX, deltaY);
     };
-    const resetTouch = () => {
+    const resetForwardedTouch = () => {
       lastTouchX = null;
       lastTouchY = null;
     };
@@ -77,22 +70,23 @@ export function InlineDesmos({ expressions, height = 360, forwardScrollToPage = 
     node.addEventListener("wheel", onWheel, { passive: false, capture: true });
     node.addEventListener("touchstart", onTouchStart, { passive: true, capture: true });
     node.addEventListener("touchmove", onTouchMove, { passive: false, capture: true });
-    node.addEventListener("touchend", resetTouch, { capture: true });
-    node.addEventListener("touchcancel", resetTouch, { capture: true });
+    node.addEventListener("touchend", resetForwardedTouch, { capture: true });
+    node.addEventListener("touchcancel", resetForwardedTouch, { capture: true });
 
     return () => {
       node.removeEventListener("wheel", onWheel, { capture: true });
       node.removeEventListener("touchstart", onTouchStart, { capture: true });
       node.removeEventListener("touchmove", onTouchMove, { capture: true });
-      node.removeEventListener("touchend", resetTouch, { capture: true });
-      node.removeEventListener("touchcancel", resetTouch, { capture: true });
+      node.removeEventListener("touchend", resetForwardedTouch, { capture: true });
+      node.removeEventListener("touchcancel", resetForwardedTouch, { capture: true });
     };
   }, [forwardScrollToPage]);
 
   useEffect(() => {
     let cancelled = false;
-    let calc: DesmosCalc | null = null;
-    let raf = 0;
+    let calc: DesmosCalculator | null = null;
+    let outerRaf = 0;
+    let innerRaf = 0;
 
     loadDesmos()
       .then(() => {
@@ -115,32 +109,30 @@ export function InlineDesmos({ expressions, height = 360, forwardScrollToPage = 
           border: false,
           expressionsCollapsed: false,
           backgroundColor: "#ffffff",
-        }) as DesmosCalc;
+        });
 
         expressions.forEach((latex, i) => {
           calc?.setExpression({
             id: `expr-${i}`,
             latex,
-            color: COLORS[i % COLORS.length],
+            color: DESMOS_EXPRESSION_COLORS[i % DESMOS_EXPRESSION_COLORS.length],
           });
         });
 
-        calcRef.current = calc;
-
-        raf = requestAnimationFrame(() =>
-          requestAnimationFrame(() => {
+        outerRaf = requestAnimationFrame(() => {
+          innerRaf = requestAnimationFrame(() => {
             if (!cancelled) setReady(true);
-          })
-        );
+          });
+        });
       })
       .catch(() => {
       });
 
     return () => {
       cancelled = true;
-      if (raf) cancelAnimationFrame(raf);
+      if (outerRaf) cancelAnimationFrame(outerRaf);
+      if (innerRaf) cancelAnimationFrame(innerRaf);
       calc?.destroy();
-      calcRef.current = null;
       setReady(false);
     };
   }, [expressions]);

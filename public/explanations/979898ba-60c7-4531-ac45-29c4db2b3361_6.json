@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Test inequality I",
-      "content": "Substitute P$(3, -3)$ into $y \\lt -3x + 8$:<br/>$$-3 \\lt -3(3) + 8$$<br/>$$-3 \\lt -1$$<br/>This is <strong>true</strong>. ✓"
+      "content": "Substitute point P, $(3, -3),$ into $y \\lt -3x + 8$:<br/>$$-3 \\lt -3(3) + 8$$<br/>$$-3 \\lt -1$$<br/>This is <strong>true</strong>. ✓"
     },
     {
       "title": "Test inequality II",
-      "content": "Substitute P$(3, -3)$ into $y \\gt x - 4$:<br/>$$-3 \\gt 3 - 4$$<br/>$$-3 \\gt -1$$<br/>This is <strong>false</strong>. ✗"
+      "content": "Substitute point P, $(3, -3),$ into $y \\gt x - 4$:<br/>$$-3 \\gt 3 - 4$$<br/>$$-3 \\gt -1$$<br/>This is <strong>false</strong>. ✗"
     },
     {
       "title": "Conclude",

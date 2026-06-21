@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+      "title": "Use the Pythagorean theorem",
+      "content": "The two given side lengths, $11$ and $9$, are the legs of a right triangle. Use $a^2+b^2=c^2$ to find the hypotenuse."
     },
     {
       "title": "Set up the Pythagorean theorem",

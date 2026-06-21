@@ -2,27 +2,12 @@ import { useState, useEffect, useRef, useCallback } from "react";
 import { Button } from "@/components/ui/button";
 import { Calculator } from "lucide-react";
 import { DraggableWindow } from "@/components/DraggableWindow";
-import { loadDesmos } from "@/lib/desmosLoader";
+import { loadDesmos, type DesmosCalculator } from "@/lib/desmosLoader";
 
 declare global {
   interface Window {
-    Desmos: {
-      GraphingCalculator: (
-        el: HTMLElement,
-        options?: Record<string, unknown>
-      ) => DesmosCalculator;
-    };
+    Desmos?: import("@/lib/desmosLoader").DesmosApi;
   }
-}
-
-interface DesmosCalculator {
-  destroy: () => void;
-  resize: () => void;
-  setExpression: (expr: { id: string; latex?: string }) => void;
-  getState?: () => unknown;
-  setState?: (state: unknown, options?: { allowUndo?: boolean }) => void;
-  observeEvent?: (eventName: string, callback: () => void) => void;
-  unobserveEvent?: (eventName: string, callback: () => void) => void;
 }
 
 interface DesmosDialogProps {
@@ -42,8 +27,8 @@ interface DesmosDialogProps {
   windowStateKey?: string;
   layoutStateKey?: string;
   openStateKey?: string;
-  closeSignal?: string | number;
   onRestoreSidebarPosition?: () => void;
+  contentSplitExitPosition?: number;
 }
 
 export const DesmosDialog = ({
@@ -63,8 +48,8 @@ export const DesmosDialog = ({
   windowStateKey,
   layoutStateKey,
   openStateKey,
-  closeSignal,
   onRestoreSidebarPosition,
+  contentSplitExitPosition,
 }: DesmosDialogProps) => {
   const [isOpen, setIsOpen] = useState(false);
   const [hasEverOpened, setHasEverOpened] = useState(false);
@@ -79,9 +64,7 @@ export const DesmosDialog = ({
   const onSidebarToggleRef = useRef(onSidebarToggle);
   const previousCalculatorStateKeyRef = useRef(calculatorStateKey);
   const previousStorageAreaRef = useRef(storageArea);
-  const previousCloseSignalRef = useRef(closeSignal);
   const restoredOpenStateKeyRef = useRef<string | undefined>(undefined);
-  const suppressNextLayoutPersistRef = useRef(false);
   const isOpenRef = useRef(isOpen);
 
   calculatorStateKeyRef.current = calculatorStateKey;
@@ -149,9 +132,7 @@ export const DesmosDialog = ({
   const handleSidebarToggle = useCallback(
     (windowId: string, shouldBeSidebarred: boolean, reason?: "close") => {
       if (layoutStateKey && storageArea) {
-        if ((suppressNextLayoutPersistRef.current || reason === "close") && !shouldBeSidebarred) {
-          suppressNextLayoutPersistRef.current = false;
-        } else {
+        if (!(reason === "close" && !shouldBeSidebarred)) {
           storageArea.setItem(layoutStateKey, shouldBeSidebarred ? "sidebar" : "floating");
         }
       }
@@ -190,7 +171,7 @@ export const DesmosDialog = ({
         if (savedState && calc.setState) {
           calc.setState(savedState, { allowUndo: false });
         }
-        const handleChange = () => {
+        const handleCalculatorChange = () => {
           if (writeTimerRef.current !== null) {
             window.clearTimeout(writeTimerRef.current);
           }
@@ -199,8 +180,8 @@ export const DesmosDialog = ({
             writeTimerRef.current = null;
           }, 250);
         };
-        calc.observeEvent?.("change", handleChange);
-        removeChangeObserverRef.current = () => calc.unobserveEvent?.("change", handleChange);
+        calc.observeEvent?.("change", handleCalculatorChange);
+        removeChangeObserverRef.current = () => calc.unobserveEvent?.("change", handleCalculatorChange);
       })
       .catch(() => {
       });
@@ -254,16 +235,6 @@ export const DesmosDialog = ({
   }, [calculatorStateKey, flushCalculatorState, onSidebarToggle, onSplitScreenChange, storageArea]);
 
   useEffect(() => {
-    if (previousCloseSignalRef.current === closeSignal) return;
-    previousCloseSignalRef.current = closeSignal;
-    if (!isOpen) return;
-
-    flushCalculatorState();
-    suppressNextLayoutPersistRef.current = true;
-    writeOpenState(false);
-    setIsOpen(false);
-  }, [closeSignal, flushCalculatorState, isOpen, writeOpenState]);
-  useEffect(() => {
     return () => {
       flushCalculatorState();
       if (writeTimerRef.current !== null) {
@@ -286,7 +257,13 @@ export const DesmosDialog = ({
 
   return (
     <>
-      <Button variant="outline" size="sm" onClick={handleToggle} data-tour="desmos-button">
+      <Button
+        variant="outline"
+        size="sm"
+        onClick={handleToggle}
+        data-tour="desmos-button"
+        className={compressed ? "w-9 px-0" : undefined}
+      >
         <Calculator className={compressed ? "h-4 w-4" : "mr-2 h-4 w-4"} />
         {!compressed && "Desmos"}
       </Button>
@@ -313,6 +290,7 @@ export const DesmosDialog = ({
         portalContainer={windowPortalContainer}
         boundsElement={windowBoundsElement}
         centerOnExitSidebar
+        contentSplitExitPosition={contentSplitExitPosition}
       >
         <div ref={containerRef} className="w-full h-full" />
       </DraggableWindow>

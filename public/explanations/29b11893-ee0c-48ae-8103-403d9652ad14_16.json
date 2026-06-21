@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Recognize that both equations describe the same line",
-      "content": "Multiply the first equation by 6:$$6(5x+7y)=6(8)\\Rightarrow 30x+42y=48$$This is exactly the second equation. So the &quot;system&quot; is really one line: $5x+7y=8$. Any point on that line satisfies both equations."
+      "content": "Multiply the first equation by 6:<br/><br/>$$6(5x+7y)=6(8)\\Rightarrow 30x+42y=48$$<br/><br/>This is exactly the second equation. So the system is really one line: $5x+7y=8$. Any point on that line satisfies both equations."
     },
     {
       "title": "Check each choice against $5x+7y=8$",

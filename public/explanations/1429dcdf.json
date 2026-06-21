@@ -1,15 +1,15 @@
 {
   "questionId": "1429dcdf",
-  "correctAnswer": ".6956",
+  "correctAnswer": "16/23,.6956,.6957,0.695,0.696",
   "section": "Math",
   "steps": [
     {
       "title": "Set up the sine ratio",
-      "content": "In a right triangle, $\\sin\\theta=\\dfrac{\\text{opposite}}{\\text{hypotenuse}}$. From the figure, identify the side opposite the angle marked $x^\\circ$ and the hypotenuse, then form that ratio."
+      "content": "In a right triangle, $\\sin\\theta=\\dfrac{\\text{opposite}}{\\text{hypotenuse}}$. From the figure, the side opposite $x^\\circ$ is 16 and the hypotenuse is 23."
     },
     {
       "title": "Evaluate",
-      "content": "From the figure, the ratio of the opposite side to the hypotenuse evaluates to $0.6956$. So $\\sin x^\\circ = 0.6956$. The answer is <strong>.6956</strong>."
+      "content": "Therefore, $$\\sin x^\\circ=\\frac{16}{23}\\approx0.6956.$$ The exact fraction $16/23$ and the listed decimal forms are accepted, so equivalent entries receive credit."
     }
   ]
 }

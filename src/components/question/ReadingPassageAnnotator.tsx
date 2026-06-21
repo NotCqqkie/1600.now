@@ -1,6 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Trash2 } from "lucide-react";
-import { toast } from "sonner";
 import { cn } from "@/lib/utils";
 import { sanitizeHtml } from "@/lib/text/sanitizeHtml";
 
@@ -24,7 +23,6 @@ interface ReadingPassageAnnotatorProps {
   html: string;
   storageKey: string;
   enabled: boolean;
-  className?: string;
   storageArea?: Storage;
 }
 
@@ -61,6 +59,7 @@ const ANNOTATION_COLORS: Record<
 const clampPopupY = (y: number) => Math.max(16, y);
 const POPUP_GAP = 8;
 const POPUP_SHADOW = "shadow-[0_18px_40px_rgba(15,23,42,0.18)]";
+const ACTIVE_POPUP_DELETE_EXTRA_WIDTH = 40;
 
 const isAnnotationColor = (value: unknown): value is AnnotationColor =>
   value === "yellow" || value === "green" || value === "blue" || value === "pink";
@@ -103,7 +102,7 @@ const saveAnnotations = (
 
 const getTextLength = (root: HTMLElement) => root.textContent?.length ?? 0;
 
-const getPopupPlacement = (anchor: FloatingPoint, expanded: boolean) => {
+const getPopupPlacement = (anchor: FloatingPoint) => {
   if (typeof window === "undefined") {
     return {
       left: anchor.x,
@@ -112,7 +111,7 @@ const getPopupPlacement = (anchor: FloatingPoint, expanded: boolean) => {
     };
   }
 
-  const shouldOpenBelow = anchor.aboveY < (expanded ? 240 : 96);
+  const shouldOpenBelow = anchor.aboveY < 96;
 
   if (shouldOpenBelow) {
     return {
@@ -126,6 +125,14 @@ const getPopupPlacement = (anchor: FloatingPoint, expanded: boolean) => {
     left: anchor.x,
     top: anchor.aboveY,
     transform: "translate(-50%, calc(-100% - 0.5rem))",
+  };
+};
+
+const getActivePopupPlacement = (anchor: FloatingPoint) => {
+  const placement = getPopupPlacement(anchor);
+  return {
+    ...placement,
+    left: placement.left + ACTIVE_POPUP_DELETE_EXTRA_WIDTH / 2,
   };
 };
 
@@ -205,7 +212,6 @@ export const ReadingPassageAnnotator = ({
   html,
   storageKey,
   enabled,
-  className,
   storageArea = localStorage,
 }: ReadingPassageAnnotatorProps) => {
   const rootRef = useRef<HTMLDivElement>(null);
@@ -341,16 +347,6 @@ export const ReadingPassageAnnotator = ({
   const addAnnotation = (color: AnnotationColor) => {
     if (!pendingSelection) return;
 
-    const overlapsExisting = annotations.some(
-      (annotation) =>
-        pendingSelection.start < annotation.end && pendingSelection.end > annotation.start,
-    );
-
-    if (overlapsExisting) {
-      toast.error("Highlights cannot overlap. Delete the existing one first.");
-      return;
-    }
-
     const nextAnnotation: PassageAnnotation = {
       id: `${Date.now()}-${Math.random().toString(36).slice(2, 8)}`,
       start: pendingSelection.start,
@@ -413,10 +409,10 @@ export const ReadingPassageAnnotator = ({
     ? annotations.find((annotation) => annotation.id === activeAnnotation.id) ?? null
     : null;
   const pendingSelectionPlacement = pendingSelection
-    ? getPopupPlacement(pendingSelection.anchor, false)
+    ? getPopupPlacement(pendingSelection.anchor)
     : null;
   const activeAnnotationPlacement = activeAnnotation
-    ? getPopupPlacement(activeAnnotation.anchor, false)
+    ? getActivePopupPlacement(activeAnnotation.anchor)
     : null;
 
   return (
@@ -426,7 +422,6 @@ export const ReadingPassageAnnotator = ({
         className={cn(
           "text-foreground break-words prose prose-stone dark:prose-invert max-w-none",
           enabled && "selection:bg-amber-200/60 dark:selection:bg-amber-500/40",
-          className,
         )}
         style={{ fontFamily: "var(--question-font-family, 'Noto Serif', serif)", fontSize: "calc(1rem * var(--question-font-scale, 1))", lineHeight: "1.73" }}
         onMouseUp={handleMouseUp}
@@ -473,7 +468,7 @@ export const ReadingPassageAnnotator = ({
         <div
           ref={annotationPopupRef}
           className={cn(
-            "fixed z-[150] border border-border bg-background/95 backdrop-blur rounded-full px-2 py-1.5",
+            "fixed z-[150] border border-border bg-background/95 backdrop-blur rounded-full py-1.5 pl-2 pr-12",
             POPUP_SHADOW,
           )}
           style={activeAnnotationPlacement ?? undefined}
@@ -516,7 +511,7 @@ export const ReadingPassageAnnotator = ({
 
             <button
               type="button"
-              className="ml-auto flex h-10 w-10 items-center justify-center rounded-full border border-foreground/15 text-muted-foreground transition-colors hover:bg-red-50 hover:text-red-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-red-400 dark:hover:bg-red-950/50"
+              className="absolute right-2 top-1/2 flex h-8 w-8 -translate-y-1/2 animate-scale-in items-center justify-center text-muted-foreground transition-[color,transform] hover:scale-110 hover:text-red-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-red-400"
               aria-label="Delete annotation"
               title="Delete annotation"
               onClick={removeAnnotation}

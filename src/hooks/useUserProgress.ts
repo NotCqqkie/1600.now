@@ -43,7 +43,7 @@ const loadFirestoreDependencies = () => {
   return firestoreDependenciesPromise;
 };
 
-export const progressStorageKey = (uid: string | null | undefined) =>
+const progressStorageKey = (uid: string | null | undefined) =>
   `${PROGRESS_KEY_PREFIX}${uid ?? ANON_SUFFIX}`;
 export const vocabStorageKey = (uid: string | null | undefined) =>
   `${VOCAB_KEY_PREFIX}${uid ?? ANON_SUFFIX}`;
@@ -110,22 +110,6 @@ const readVocabFor = (uid: string | null | undefined): Record<string, unknown> =
     return {};
   }
 };
-export const getUserProgressStatic = (
-  uid?: string | null,
-): Record<string, QuestionProgress> => readProgressFor(uid);
-
-export const getQuestionProgressStatic = (
-  questionId: string,
-  uid?: string | null,
-): QuestionProgress => {
-  const all = readProgressFor(uid);
-  return all[questionId] || {
-    questionId,
-    isMarkedForReview: false,
-    attempts: [],
-    totalTimeSpentSeconds: 0,
-  };
-};
 const mergeProgress = (
   local: Record<string, QuestionProgress>,
   remote: Record<string, QuestionProgress>,
@@ -166,20 +150,12 @@ export const isQuestionAnsweredIncorrectly = (progress: QuestionProgress): boole
   return progress.attempts.length > 0 && !isQuestionSolved(progress);
 };
 
-export const hasQuestionBeenAttempted = (progress: QuestionProgress): boolean => {
-  return progress.attempts.length > 0;
-};
-
-export const getTimeSpentRange = (seconds: number): string => {
-  if (seconds === 0) return 'none';
-  if (seconds <= 20) return '0-20s';
-  if (seconds <= 40) return '20-40s';
-  if (seconds <= 60) return '40s-1m';
-  if (seconds <= 120) return '1m-2m';
-  if (seconds <= 180) return '2m-3m';
-  if (seconds <= 300) return '3m-5m';
-  return '5m+';
-};
+const createEmptyQuestionProgress = (questionId: string): QuestionProgress => ({
+  questionId,
+  isMarkedForReview: false,
+  attempts: [],
+  totalTimeSpentSeconds: 0,
+});
 
 export const useUserProgress = () => {
   const { user } = useAuth();
@@ -359,12 +335,7 @@ export const useUserProgress = () => {
     explanation?: string
   ) => {
     const prev = progressSnapshotRef.current;
-    const current = prev[questionId] || {
-      questionId,
-      isMarkedForReview: false,
-      attempts: [],
-      totalTimeSpentSeconds: 0
-    };
+    const current = prev[questionId] || createEmptyQuestionProgress(questionId);
 
     const newAttempt: Attempt = {
       timestamp: Date.now(),
@@ -390,12 +361,7 @@ export const useUserProgress = () => {
 
   const addTimeSpent = useCallback(async (questionId: string, seconds: number) => {
     const prev = progressSnapshotRef.current;
-    const current = prev[questionId] || {
-      questionId,
-      isMarkedForReview: false,
-      attempts: [],
-      totalTimeSpentSeconds: 0
-    };
+    const current = prev[questionId] || createEmptyQuestionProgress(questionId);
 
     const updated = {
       ...prev,
@@ -412,12 +378,7 @@ export const useUserProgress = () => {
 
   const toggleReview = useCallback(async (questionId: string) => {
     const prev = progressSnapshotRef.current;
-    const current = prev[questionId] || {
-      questionId,
-      isMarkedForReview: false,
-      attempts: [],
-      totalTimeSpentSeconds: 0
-    };
+    const current = prev[questionId] || createEmptyQuestionProgress(questionId);
 
     const updated = {
       ...prev,
@@ -433,12 +394,7 @@ export const useUserProgress = () => {
   }, [persist]);
 
   const getProgress = useCallback((questionId: string): QuestionProgress => {
-    return progress[questionId] || {
-      questionId,
-      isMarkedForReview: false,
-      attempts: [],
-      totalTimeSpentSeconds: 0
-    };
+    return progress[questionId] || createEmptyQuestionProgress(questionId);
   }, [progress]);
   const isSolved = useCallback((questionId: string): boolean => {
     return isQuestionSolved(getProgress(questionId));

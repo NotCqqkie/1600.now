@@ -3,7 +3,7 @@ import { BRAND_NAME, BRAND_URL, brandedTitle } from "@/lib/brand";
 
 type JsonLdPayload = Record<string, unknown>;
 
-export interface HreflangAlternate {
+interface HreflangAlternate {
   hreflang: string;
   href: string;
 }
@@ -216,7 +216,7 @@ export const buildWebApplicationJsonLd = (data: {
   ...(data.featureList ? { featureList: data.featureList } : {}),
 });
 
-export interface QuizJsonLdQuestion {
+interface QuizJsonLdQuestion {
   questionName: string;
   questionText: string;
   choices: { id: string; text: string }[];
@@ -281,7 +281,7 @@ export const buildArticleJsonLd = (data: {
   url: data.url,
   datePublished: data.datePublished,
   dateModified: data.dateModified ?? data.datePublished,
-  image: data.image ?? "https://1600.now/og-image.png",
+  image: data.image ?? DEFAULT_OG_IMAGE,
   author: {
     "@type": "Organization",
     name: data.author ?? BRAND_NAME,

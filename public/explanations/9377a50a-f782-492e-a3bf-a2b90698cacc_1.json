@@ -13,11 +13,7 @@
     },
     {
       "title": "Answer",
-      "content": "<strong>A</strong> is correct."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches the correct answer, $600$, and the other choices fail the same setup or substitution. Therefore <strong>A</strong> is correct."
+      "content": "Since $840+600=1440$, the daylight and non-daylight minutes add to one full day. The non-daylight value is $600$ minutes, so <strong>A</strong> is correct."
     }
   ]
 }

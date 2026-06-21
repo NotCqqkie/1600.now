@@ -4,27 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $y=7\\left(x-\\frac{b}{14}\\right)^{2}-6-\\frac{b^{2}}{28}$."
+      "title": "Complete the square",
+      "content": "Start with $$y=7x^2-bx-6.$$ Factor $7$ from the $x$ terms: $$y=7\\left(x^2-\\frac{b}{7}x\\right)-6.$$ Half of $\\frac{b}{7}$ is $\\frac{b}{14}$, so add and subtract $\\left(\\frac{b}{14}\\right)^2$ inside the parentheses."
     },
     {
-      "title": "Algebra check",
-      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+      "title": "Adjust the constant",
+      "content": "$$7\\left(x^2-\\frac{b}{7}x+\\frac{b^2}{196}-\\frac{b^2}{196}\\right)-6$$ $$=7\\left(x-\\frac{b}{14}\\right)^2-\\frac{7b^2}{196}-6$$ Since $\\frac{7b^2}{196}=\\frac{b^2}{28}$, this becomes $$y=7\\left(x-\\frac{b}{14}\\right)^2-6-\\frac{b^2}{28}.$$"
     },
     {
-      "title": "Pick a convenient positive value for b",
-      "content": "The answer must work for any positive constant $b$, so test a simple legal value such as $b=14$. The original becomes $y=7x^2-14x-6$."
-    },
-    {
-      "title": "Use table values to test choices",
-      "content": "Evaluate the original and each choice on the same $x$-list. The list for the correct answer is identical to the original list; the other choices differ.",
-      "desmosExpressions": [
-        "x_1=[-2,0,1,3]"
-      ]
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "The expression in <strong>A</strong> matches the original expression across the tested values. That identifies the equivalent form without completing the square by hand, so <strong>A</strong> is correct."
+      "title": "Match the equivalent expression",
+      "content": "The derived form exactly matches <strong>Choice A</strong>: $$y=7\\left(x-\\frac{b}{14}\\right)^2-6-\\frac{b^2}{28}.$$ Therefore, <strong>A</strong> is correct."
     }
   ]
 }

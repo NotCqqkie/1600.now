@@ -1,63 +1,109 @@
-import { useLayoutEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import { Link, useParams, useSearchParams } from "react-router-dom";
-import { ArrowDown, ArrowLeft, ArrowRight, ArrowUp, ChevronDown, ChevronLeft, ChevronRight, Eye, EyeOff, Lightbulb, Share2 } from "lucide-react";
-import { toast } from "sonner";
+import {
+  ArrowDown,
+  ArrowLeft,
+  ArrowRight,
+  ArrowUp,
+  ChevronDown,
+  ChevronLeft,
+  ChevronRight,
+  Eye,
+  EyeOff,
+  Lightbulb,
+  Share2,
+} from "lucide-react";
+import { toast } from "@/components/ui/sonner";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { TransparentAwareImage } from "@/components/TransparentAwareImage";
 import { StepByStepExplanation } from "@/components/question/StepByStepExplanation";
 import { DraggableWindow } from "@/components/DraggableWindow";
+import { usePracticeResultSplitCssVariable } from "@/hooks/usePracticeResultSplitCssVariable";
 import {
   getLatestPracticeTestResult,
   getPracticeTestResult,
   type PracticeTestResult,
-  type PracticeTestQuestionResult,
 } from "@/lib/practice/practiceTestSession";
+import {
+  REVIEW_HTML_CLASS,
+  RESULT_REVIEW_ANSWER_CHOICE_BASE_CLASS,
+  RESULT_REVIEW_ANSWER_REVEAL_BUTTON_CLASS,
+  RESULT_REVIEW_CHOICE_HTML_CLASS,
+  RESULT_REVIEW_CHOICE_IMAGE_CLASS,
+  RESULT_REVIEW_FREE_RESPONSE_CLASS,
+  RESULT_REVIEW_QUESTION_IMAGE_CLASS,
+  SECTION_LABEL_CLASS,
+  answerLabel,
+  getChoiceReviewClassName,
+  getQuestionCorrectnessRank,
+  getRenderedContentHtml,
+  statusClasses,
+  statusLabel,
+  stripBankPrefix,
+} from "@/lib/practice/resultReview";
+import { formatPracticeResultTime } from "@/lib/practice/practiceTime";
 import { getPracticeSet } from "@/data/modulePracticeBank";
 import { cn, normalizePublicAssetPath } from "@/lib/utils";
 import {
   getReviewChoiceImageClassName,
   getReviewQuestionImageClassName,
 } from "@/lib/questionImageDisplay";
-import { renderMixedContent } from "@/lib/text/mathRendering";
-import { normalizeReadingDisplayText } from "@/lib/text/readingTextNormalization";
 import { useAuth } from "@/contexts/AuthContext";
 
-const lerp = (start: number, end: number, amount: number) =>
-  start + (end - start) * amount;
-
 const SHARE_URL = "https://1600.now";
+const MODULES_PATH = "/modules";
+const SCORE_RANGE_LABEL = "200 - 800";
+const TOTAL_SCORE_RANGE_LABEL = "400 - 1600";
+const RESULTS_ROOT_CLASS = "mx-auto flex min-h-screen w-full flex-col gap-6 px-4 py-8 sm:px-6 lg:px-8";
+const NOT_FOUND_SHELL_CLASS = "mx-auto flex min-h-screen w-full max-w-3xl flex-col gap-6 px-4 py-12 sm:px-6";
+const BACK_BUTTON_CLASS = "w-fit gap-2 px-0";
+const RESULTS_HEADING_STYLE = {
+  fontFamily: "'Geist', Georgia, serif",
+  fontSize: "clamp(34px, 4.5vw, 56px)",
+  fontWeight: 400,
+  letterSpacing: "-0.04em",
+  lineHeight: 1,
+} as const;
+const SHARE_BUTTON_CLASS = "shrink-0 self-end bg-transparent sm:self-start";
+const SCORE_CARD_CLASS = "border-border/70 bg-gradient-to-br from-card to-muted/30";
+const SCORE_GRID_CLASS = "grid gap-6 p-6 sm:grid-cols-3 sm:items-end";
+const TOTAL_SCORE_LABEL_CLASS = "text-[11px] font-semibold uppercase tracking-[0.18em] text-muted-foreground";
+const SECTION_SCORE_LABEL_CLASS = "text-[11px] font-semibold uppercase tracking-[0.16em] text-muted-foreground";
+const TOTAL_SCORE_VALUE_CLASS = "mt-2 text-7xl font-semibold leading-none tracking-[-0.08em] text-foreground";
+const SECTION_SCORE_VALUE_CLASS = "mt-2 text-5xl font-semibold leading-none tracking-[-0.05em] text-foreground";
+const SCORE_RANGE_CLASS = "mt-2 text-sm font-medium text-muted-foreground";
+const STANDARD_CARD_CLASS = "border-border/70 bg-card";
+const MODULE_BREAKDOWN_GRID_CLASS = "grid gap-4 sm:grid-cols-2 xl:grid-cols-4";
+const MODULE_BREAKDOWN_CARD_CLASS = "rounded-2xl border border-border/60 bg-muted/30 p-5";
+const CONTROL_ROW_CLASS = "flex flex-col gap-3 sm:flex-row sm:items-center";
+const CONTROL_BUTTON_CLASS = "gap-2 bg-transparent";
+const QUESTION_ROW_BASE_CLASS = "py-5";
+const QUESTION_ROW_BORDER_CLASS = "border-b border-border/60";
+const QUESTION_ROW_HEADER_CLASS = "flex cursor-pointer flex-col gap-3 sm:flex-row sm:items-start sm:justify-between";
+const DIFFICULTY_BADGE_BASE_CLASS = "inline-flex items-center rounded-full border px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider";
+const CHEVRON_TOGGLE_CLASS = "mt-1 h-4 w-4 shrink-0 text-muted-foreground transition-transform";
+const QUESTION_DETAIL_GRID_CLASS = "mt-5 grid gap-5 border-t border-border/60 pt-5 lg:grid-cols-[minmax(0,1.15fr)_minmax(300px,0.85fr)]";
+const STATUS_BADGE_BASE_CLASS = "inline-flex items-center rounded-full border px-3 py-1 text-xs font-semibold";
+const RATIONALE_CARD_CLASS = "col-span-full mt-1 rounded-xl border border-border/60 bg-muted/20 p-4";
+const RATIONALE_HTML_CLASS = "question-html mt-2 break-words prose prose-stone max-w-none text-sm leading-7 text-foreground dark:prose-invert";
+const EXPLANATION_BUTTON_ACTIVE_CLASS = "ring-2 ring-primary/50";
+const FOOTER_ACTIONS_CLASS = "flex flex-wrap justify-end gap-3";
+const EXPLANATION_WINDOW_ID = "review-explanation";
 
-const getScoreAccent = (score: number, maxScore: number) => {
-  const normalized = Math.max(0, Math.min(score / maxScore, 1));
-  const hue = lerp(8, 268, normalized);
-  const saturation = lerp(68, 78, normalized);
-  const lightness = lerp(48, 58, normalized);
-  return `hsl(${hue.toFixed(1)} ${saturation.toFixed(1)}% ${lightness.toFixed(1)}%)`;
+type QuestionSortMode = "seen" | "correct";
+type QuestionSortDirection = "asc" | "desc";
+
+const toggleStringSet = (previous: Set<string>, value: string): Set<string> => {
+  const next = new Set(previous);
+  if (next.has(value)) {
+    next.delete(value);
+  } else {
+    next.add(value);
+  }
+  return next;
 };
-
-const formatTime = (seconds: number) => {
-  if (!seconds) return "0s";
-  const minutes = Math.floor(seconds / 60);
-  const remainder = seconds % 60;
-  if (!minutes) return `${remainder}s`;
-  return `${minutes}m ${String(remainder).padStart(2, "0")}s`;
-};
-
-const statusLabel = (question: PracticeTestQuestionResult) => {
-  if (!question.isAnswered) return "Unanswered";
-  return question.isCorrect ? "Correct" : "Incorrect";
-};
-
-const statusClasses = (question: PracticeTestQuestionResult) => {
-  if (!question.isAnswered) return "border-border bg-muted/30 text-muted-foreground";
-  return question.isCorrect
-    ? "border-emerald-500/30 bg-emerald-500/10 text-emerald-700 dark:text-emerald-300"
-    : "border-rose-500/30 bg-rose-500/10 text-rose-700 dark:text-rose-300";
-};
-
-const answerLabel = (answer: string) => (answer?.trim() ? answer : "No answer");
 
 const getResultDateLabel = (timestamp: number) =>
   new Intl.DateTimeFormat("en-US", {
@@ -143,39 +189,18 @@ const buildShareImageFile = async (result: PracticeTestResult) => {
   });
 };
 
-const getQuestionCorrectnessRank = (
-  question: PracticeTestQuestionResult,
-  direction: "asc" | "desc",
-) => {
-  if (question.isCorrect) return 2;
-  if (question.isAnswered) return direction === "asc" ? 0 : 1;
-  return direction === "asc" ? 1 : 0;
-};
-
-const getRenderedContentHtml = (
-  subject: "math" | "reading",
-  content: string,
-) => {
-  if (!content) return "";
-  const formattedContent =
-    subject === "reading" ? normalizeReadingDisplayText(content) : content;
-  return renderMixedContent(formattedContent, {
-    normalizeMath: subject === "math",
-  });
-};
-
 const PracticeTestResults = () => {
   const { setId } = useParams<{ setId: string }>();
   const [searchParams] = useSearchParams();
   const [expandedQuestions, setExpandedQuestions] = useState<Set<string>>(() => new Set());
   const [hideCorrectAnswers, setHideCorrectAnswers] = useState(false);
   const [revealedAnswers, setRevealedAnswers] = useState<Set<string>>(() => new Set());
-  const [activeExplanationIndex, setActiveExplanationIndex] = useState<number | null>(null);
+  const [activeExplanationStorageId, setActiveExplanationStorageId] = useState<string | null>(null);
   const [explanationSplitPosition, setExplanationSplitPosition] = useState(65);
   const [isExplanationSidebarred, setIsExplanationSidebarred] = useState(true);
-  const [questionSortMode, setQuestionSortMode] = useState<"seen" | "correct">("seen");
-  const [questionSortDirection, setQuestionSortDirection] = useState<"asc" | "desc">("asc");
-  const [moduleFilter, setModuleFilter] = useState<string>("all");
+  const [questionSortMode, setQuestionSortMode] = useState<QuestionSortMode>("seen");
+  const [questionSortDirection, setQuestionSortDirection] = useState<QuestionSortDirection>("asc");
+  const [moduleFilter, setModuleFilter] = useState("all");
   const [isSharing, setIsSharing] = useState(false);
   const { user } = useAuth();
   const uid = user?.id ?? null;
@@ -217,30 +242,24 @@ const PracticeTestResults = () => {
       return (left.globalQuestionNumber - right.globalQuestionNumber) * directionMultiplier;
     });
   }, [moduleFilter, questionSortDirection, questionSortMode, result]);
+  const activeExplanationIndex = activeExplanationStorageId
+    ? orderedQuestions.findIndex((question) => question.storageId === activeExplanationStorageId)
+    : -1;
   const activeExplanationQuestion =
-    activeExplanationIndex !== null ? orderedQuestions[activeExplanationIndex] : null;
-  const activeExplanationSource = activeExplanationQuestion
-    ? sourceQuestionMap.get(activeExplanationQuestion.storageId)
-    : null;
+    activeExplanationIndex >= 0 ? orderedQuestions[activeExplanationIndex] : null;
+  const hasActiveExplanationSource = activeExplanationQuestion
+    ? sourceQuestionMap.has(activeExplanationQuestion.storageId)
+    : false;
   const isExplanationOpen = activeExplanationQuestion !== null;
   const useSidebarLayout = isExplanationOpen && isExplanationSidebarred;
 
-  useLayoutEffect(() => {
-    if (!useSidebarLayout) {
-      document.documentElement.style.removeProperty("--sat-split-pct");
-      return;
-    }
-    document.documentElement.style.setProperty("--sat-split-pct", `${explanationSplitPosition}%`);
-    return () => {
-      document.documentElement.style.removeProperty("--sat-split-pct");
-    };
-  }, [explanationSplitPosition, useSidebarLayout]);
+  usePracticeResultSplitCssVariable(useSidebarLayout, explanationSplitPosition);
 
   if (!practiceSet || !result) {
     return (
-      <div className="mx-auto flex min-h-screen w-full max-w-3xl flex-col gap-6 px-4 py-12 sm:px-6">
-        <Button variant="ghost" asChild className="w-fit gap-2 px-0">
-          <Link to="/modules">
+      <div className={NOT_FOUND_SHELL_CLASS}>
+        <Button variant="ghost" asChild className={BACK_BUTTON_CLASS}>
+          <Link to={MODULES_PATH}>
             <ArrowLeft className="h-4 w-4" />
             Back to modules
           </Link>
@@ -255,15 +274,7 @@ const PracticeTestResults = () => {
   }
 
   const toggleExpandedQuestion = (storageId: string) => {
-    setExpandedQuestions((previous) => {
-      const next = new Set(previous);
-      if (next.has(storageId)) {
-        next.delete(storageId);
-      } else {
-        next.add(storageId);
-      }
-      return next;
-    });
+    setExpandedQuestions((previous) => toggleStringSet(previous, storageId));
   };
   const areAllVisibleQuestionsExpanded =
     orderedQuestions.length > 0 &&
@@ -282,12 +293,7 @@ const PracticeTestResults = () => {
   };
 
   const toggleRevealedAnswer = (storageId: string) => {
-    setRevealedAnswers((previous) => {
-      const next = new Set(previous);
-      if (next.has(storageId)) next.delete(storageId);
-      else next.add(storageId);
-      return next;
-    });
+    setRevealedAnswers((previous) => toggleStringSet(previous, storageId));
   };
 
   const scrollToQuestion = (storageId: string) => {
@@ -305,16 +311,11 @@ const PracticeTestResults = () => {
 
   const shareMessage = getShareMessage(result);
 
-  const stripBankPrefix = (id: string) => {
-    const parts = id.split("-");
-    return parts[0] === "bank" && parts.length > 3 ? parts.slice(3).join("-") : id;
-  };
-
   const navigateExplanation = (delta: -1 | 1) => {
-    if (activeExplanationIndex === null) return;
+    if (activeExplanationIndex < 0) return;
     const nextIndex = activeExplanationIndex + delta;
     if (nextIndex < 0 || nextIndex >= orderedQuestions.length) return;
-    setActiveExplanationIndex(nextIndex);
+    setActiveExplanationStorageId(orderedQuestions[nextIndex].storageId);
     scrollToQuestion(orderedQuestions[nextIndex].storageId);
   };
 
@@ -363,15 +364,15 @@ const PracticeTestResults = () => {
 
   return (
     <div
-      className="mx-auto flex min-h-screen w-full flex-col gap-6 px-4 py-8 sm:px-6 lg:px-8"
+      className={RESULTS_ROOT_CLASS}
       style={
         useSidebarLayout
           ? { maxWidth: `var(--sat-split-pct, ${explanationSplitPosition}%)`, marginLeft: 0, marginRight: 0 }
           : { maxWidth: "72rem" }
       }
     >
-      <Button variant="ghost" asChild className="w-fit gap-2 px-0">
-        <Link to="/modules">
+      <Button variant="ghost" asChild className={BACK_BUTTON_CLASS}>
+        <Link to={MODULES_PATH}>
           <ArrowLeft className="h-4 w-4" />
           Back to modules
         </Link>
@@ -379,15 +380,7 @@ const PracticeTestResults = () => {
 
       <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
         <div className="space-y-3">
-          <h1
-            style={{
-              fontFamily: "'Geist', Georgia, serif",
-              fontSize: "clamp(34px, 4.5vw, 56px)",
-              fontWeight: 400,
-              letterSpacing: "-0.04em",
-              lineHeight: 1,
-            }}
-          >
+          <h1 style={RESULTS_HEADING_STYLE}>
             Practice Test Results
           </h1>
           <div className="text-sm font-medium uppercase tracking-[0.16em] text-muted-foreground">
@@ -398,7 +391,7 @@ const PracticeTestResults = () => {
           type="button"
           variant="outline"
           size="icon-lg"
-          className="shrink-0 self-end bg-transparent sm:self-start"
+          className={SHARE_BUTTON_CLASS}
           aria-label="Share results"
           disabled={isSharing}
           onClick={shareResult}
@@ -407,45 +400,45 @@ const PracticeTestResults = () => {
         </Button>
       </div>
 
-      <Card className="border-border/70 bg-gradient-to-br from-card to-muted/30">
-        <CardContent className="grid gap-6 p-6 sm:grid-cols-3 sm:items-end">
+      <Card className={SCORE_CARD_CLASS}>
+        <CardContent className={SCORE_GRID_CLASS}>
           <div>
-            <div className="text-[11px] font-semibold uppercase tracking-[0.18em] text-muted-foreground">Total Score</div>
-            <div className="mt-2 text-7xl font-semibold leading-none tracking-[-0.08em] text-foreground">
+            <div className={TOTAL_SCORE_LABEL_CLASS}>Total Score</div>
+            <div className={TOTAL_SCORE_VALUE_CLASS}>
               {result.totalScore}
             </div>
-            <div className="mt-2 text-sm font-medium text-muted-foreground">400 - 1600</div>
+            <div className={SCORE_RANGE_CLASS}>{TOTAL_SCORE_RANGE_LABEL}</div>
           </div>
           <div>
-            <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-muted-foreground">
+            <div className={SECTION_SCORE_LABEL_CLASS}>
               Reading & Writing
             </div>
-            <div className="mt-2 text-5xl font-semibold leading-none tracking-[-0.05em] text-foreground">
+            <div className={SECTION_SCORE_VALUE_CLASS}>
               {result.readingWritingScore}
             </div>
-            <div className="mt-2 text-sm font-medium text-muted-foreground">200 - 800</div>
+            <div className={SCORE_RANGE_CLASS}>{SCORE_RANGE_LABEL}</div>
           </div>
           <div>
-            <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-muted-foreground">
+            <div className={SECTION_SCORE_LABEL_CLASS}>
               Math
             </div>
-            <div className="mt-2 text-5xl font-semibold leading-none tracking-[-0.05em] text-foreground">
+            <div className={SECTION_SCORE_VALUE_CLASS}>
               {result.mathScore}
             </div>
-            <div className="mt-2 text-sm font-medium text-muted-foreground">200 - 800</div>
+            <div className={SCORE_RANGE_CLASS}>{SCORE_RANGE_LABEL}</div>
           </div>
         </CardContent>
       </Card>
 
-      <Card className="border-border/70 bg-card">
+      <Card className={STANDARD_CARD_CLASS}>
         <CardHeader>
           <CardTitle>Module Breakdown</CardTitle>
         </CardHeader>
-        <CardContent className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
+        <CardContent className={MODULE_BREAKDOWN_GRID_CLASS}>
           {result.modules.map((module) => (
             <div
               key={module.moduleSlug}
-              className="rounded-2xl border border-border/60 bg-muted/30 p-5"
+              className={MODULE_BREAKDOWN_CARD_CLASS}
             >
               <div className="text-sm font-semibold text-foreground">{module.moduleTitle}</div>
               <div className="mt-3 text-sm text-muted-foreground">
@@ -461,15 +454,15 @@ const PracticeTestResults = () => {
         </CardContent>
       </Card>
 
-      <Card className="border-border/70 bg-card">
+      <Card className={STANDARD_CARD_CLASS}>
         <CardHeader className="pb-4">
           <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
             <CardTitle className="text-2xl tracking-[-0.03em]">Question Breakdown</CardTitle>
-            <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
+            <div className={CONTROL_ROW_CLASS}>
               <Button
                 type="button"
                 variant="outline"
-                className="gap-2 bg-transparent"
+                className={CONTROL_BUTTON_CLASS}
                 disabled={!orderedQuestions.length}
                 onClick={toggleAllVisibleQuestions}
               >
@@ -484,7 +477,7 @@ const PracticeTestResults = () => {
               <Button
                 type="button"
                 variant="outline"
-                className={cn("gap-2 bg-transparent", hideCorrectAnswers && "border-primary text-primary")}
+                className={cn(CONTROL_BUTTON_CLASS, hideCorrectAnswers && "border-primary text-primary")}
                 onClick={() => {
                   setHideCorrectAnswers((prev) => !prev);
                   setRevealedAnswers(new Set());
@@ -496,7 +489,7 @@ const PracticeTestResults = () => {
               <div className="w-full sm:w-[200px]">
                 <Select
                   value={moduleFilter}
-                  onValueChange={(value: string) => setModuleFilter(value)}
+                  onValueChange={setModuleFilter}
                 >
                   <SelectTrigger>
                     <SelectValue />
@@ -514,7 +507,7 @@ const PracticeTestResults = () => {
               <div className="w-full sm:w-[180px]">
                 <Select
                   value={questionSortMode}
-                  onValueChange={(value: "seen" | "correct") => setQuestionSortMode(value)}
+                  onValueChange={(value: QuestionSortMode) => setQuestionSortMode(value)}
                 >
                   <SelectTrigger>
                     <SelectValue />
@@ -528,7 +521,7 @@ const PracticeTestResults = () => {
               <Button
                 type="button"
                 variant="outline"
-                className="gap-2 bg-transparent"
+                className={CONTROL_BUTTON_CLASS}
                 onClick={() =>
                   setQuestionSortDirection((previous) => (previous === "asc" ? "desc" : "asc"))
                 }
@@ -555,12 +548,12 @@ const PracticeTestResults = () => {
                 key={question.storageId}
                 id={`question-review-${question.storageId}`}
                 className={cn(
-                  "py-5",
-                  index !== orderedQuestions.length - 1 && "border-b border-border/60",
+                  QUESTION_ROW_BASE_CLASS,
+                  index !== orderedQuestions.length - 1 && QUESTION_ROW_BORDER_CLASS,
                 )}
               >
                 <div
-                  className="flex cursor-pointer flex-col gap-3 sm:flex-row sm:items-start sm:justify-between"
+                  className={QUESTION_ROW_HEADER_CLASS}
                   onClick={() => toggleExpandedQuestion(question.storageId)}
                 >
                   <div className="min-w-0 flex-1">
@@ -576,7 +569,7 @@ const PracticeTestResults = () => {
                           {sourceQuestion?.difficulty && (
                             <span
                               className={cn(
-                                "inline-flex items-center rounded-full border px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider",
+                                DIFFICULTY_BADGE_BASE_CLASS,
                                 sourceQuestion.difficulty === "Easy" &&
                                   "border-emerald-500/30 bg-emerald-500/10 text-emerald-600 dark:text-emerald-400",
                                 sourceQuestion.difficulty === "Medium" &&
@@ -592,14 +585,14 @@ const PracticeTestResults = () => {
                       </div>
                       <ChevronDown
                         className={cn(
-                          "mt-1 h-4 w-4 shrink-0 text-muted-foreground transition-transform",
+                          CHEVRON_TOGGLE_CLASS,
                           isExpanded && "rotate-180",
                         )}
                       />
                     </div>
                     <div className="mt-3 flex flex-wrap items-center gap-x-5 gap-y-2 text-sm">
                       <span className="text-muted-foreground">
-                        Time: <span className="font-medium text-foreground">{formatTime(question.timeSpentSeconds)}</span>
+                        Time: <span className="font-medium text-foreground">{formatPracticeResultTime(question.timeSpentSeconds)}</span>
                       </span>
                       <span className="text-muted-foreground">
                         Chosen: <span className="font-medium text-foreground">{answerLabel(question.userAnswer)}</span>
@@ -614,7 +607,7 @@ const PracticeTestResults = () => {
                   </div>
                   <div className="flex shrink-0 flex-wrap items-center justify-end gap-2">
                     <div
-                      className={`inline-flex items-center rounded-full border px-3 py-1 text-xs font-semibold ${statusClasses(question)}`}
+                      className={`${STATUS_BADGE_BASE_CLASS} ${statusClasses(question)}`}
                     >
                       {statusLabel(question)}
                     </div>
@@ -622,7 +615,7 @@ const PracticeTestResults = () => {
                 </div>
 
                 {isExpanded && sourceQuestion ? (
-                  <div className="mt-5 grid gap-5 border-t border-border/60 pt-5 lg:grid-cols-[minmax(0,1.15fr)_minmax(300px,0.85fr)]">
+                  <div className={QUESTION_DETAIL_GRID_CLASS}>
                     <div className="space-y-4">
                       {sourceQuestion.questionImages?.length ? (
                         <div className="space-y-3">
@@ -632,11 +625,9 @@ const PracticeTestResults = () => {
                                 src={normalizePublicAssetPath(image.src)}
                                 alt={image.alt || `SAT question ${question.globalQuestionNumber} image ${imageIndex + 1}`}
                                 className={cn(
-                                  "w-auto rounded-[10px] border border-border object-contain",
+                                  RESULT_REVIEW_QUESTION_IMAGE_CLASS,
                                   getReviewQuestionImageClassName(image.displaySize),
                                 )}
-                                wrapperClassName="max-w-full"
-                                loading="lazy"
                                 trimWhitespace
                               />
                             </div>
@@ -645,11 +636,11 @@ const PracticeTestResults = () => {
                       ) : null}
                       {sourceQuestion.passage ? (
                         <div>
-                          <div className="text-xs font-semibold uppercase tracking-[0.14em] text-muted-foreground">
+                          <div className={SECTION_LABEL_CLASS}>
                             Passage
                           </div>
                           <div
-                            className="question-html mt-2 break-words prose prose-stone max-w-none text-sm leading-7 text-foreground dark:prose-invert [&_img]:my-3 [&_img]:block [&_img]:max-w-full [&_img]:h-auto [&_img]:mx-auto [&_img]:object-contain"
+                            className={REVIEW_HTML_CLASS}
                             dangerouslySetInnerHTML={{
                               __html: getRenderedContentHtml(question.subject, sourceQuestion.passage),
                             }}
@@ -657,11 +648,11 @@ const PracticeTestResults = () => {
                         </div>
                       ) : null}
                       <div>
-                        <div className="text-xs font-semibold uppercase tracking-[0.14em] text-muted-foreground">
+                        <div className={SECTION_LABEL_CLASS}>
                           Question
                         </div>
                         <div
-                          className="question-html mt-2 break-words prose prose-stone max-w-none text-sm leading-7 text-foreground dark:prose-invert [&_img]:my-3 [&_img]:block [&_img]:max-w-full [&_img]:h-auto [&_img]:mx-auto [&_img]:object-contain"
+                          className={REVIEW_HTML_CLASS}
                           dangerouslySetInnerHTML={{
                             __html: getRenderedContentHtml(
                               question.subject,
@@ -674,14 +665,14 @@ const PracticeTestResults = () => {
 
                     <div>
                       <div className="flex items-center justify-between">
-                        <div className="text-xs font-semibold uppercase tracking-[0.14em] text-muted-foreground">
+                        <div className={SECTION_LABEL_CLASS}>
                           Answer Choices
                         </div>
                         {hideCorrectAnswers && (
                           <button
                             type="button"
                             onClick={() => toggleRevealedAnswer(question.storageId)}
-                            className="flex items-center gap-1.5 rounded-md px-2 py-1 text-xs font-medium text-muted-foreground hover:bg-muted hover:text-foreground transition-colors"
+                            className={RESULT_REVIEW_ANSWER_REVEAL_BUTTON_CLASS}
                           >
                             {isAnswerRevealed ? (
                               <><EyeOff className="h-3.5 w-3.5" /> Hide answer</>
@@ -703,23 +694,16 @@ const PracticeTestResults = () => {
                               <div
                                 key={choice.id}
                                 className={cn(
-                                  "rounded-xl px-3 py-3 text-sm",
-                                  showCorrect && isCorrect
-                                    ? "bg-emerald-500/10 text-foreground ring-1 ring-emerald-500/30"
-                                    : isChosen
-                                      ? "bg-rose-500/10 text-foreground ring-1 ring-rose-500/30"
-                                      : "bg-muted/25 text-foreground ring-1 ring-border/60",
+                                  RESULT_REVIEW_ANSWER_CHOICE_BASE_CLASS,
+                                  getChoiceReviewClassName(showCorrect, isCorrect, isChosen),
                                 )}
                               >
                                 <div className="font-semibold">{choice.id}</div>
                                 {hasText ? (
                                   <div
-                                    className="question-html mt-1 break-words prose prose-stone max-w-none leading-6 text-muted-foreground dark:prose-invert [&_img]:my-2 [&_img]:block [&_img]:max-w-full [&_img]:h-auto [&_img]:mx-auto [&_img]:object-contain"
+                                    className={RESULT_REVIEW_CHOICE_HTML_CLASS}
                                     dangerouslySetInnerHTML={{
-                                      __html: getRenderedContentHtml(
-                                        question.subject,
-                                        choice.text ?? "",
-                                      ),
+                                      __html: getRenderedContentHtml(question.subject, choice.text),
                                     }}
                                   />
                                 ) : null}
@@ -729,11 +713,9 @@ const PracticeTestResults = () => {
                                       src={normalizePublicAssetPath(choice.image)}
                                       alt={`SAT question ${question.globalQuestionNumber} choice ${choice.id} image`}
                                       className={cn(
-                                        "w-auto max-w-full rounded-[10px] object-contain",
+                                        RESULT_REVIEW_CHOICE_IMAGE_CLASS,
                                         getReviewChoiceImageClassName(choice.imageDisplaySize),
                                       )}
-                                      wrapperClassName="max-w-full"
-                                      loading="lazy"
                                       trimWhitespace
                                     />
                                   </div>
@@ -742,7 +724,7 @@ const PracticeTestResults = () => {
                             );
                           })
                         ) : (
-                          <div className="rounded-xl bg-muted/25 px-3 py-3 text-sm text-muted-foreground ring-1 ring-border/60">
+                          <div className={RESULT_REVIEW_FREE_RESPONSE_CLASS}>
                             Free-response question
                           </div>
                         )}
@@ -750,12 +732,12 @@ const PracticeTestResults = () => {
                     </div>
 
                     {sourceQuestion.rationale && (
-                      <div className="col-span-full mt-1 rounded-xl border border-border/60 bg-muted/20 p-4">
-                        <div className="text-xs font-semibold uppercase tracking-[0.14em] text-muted-foreground">
+                      <div className={RATIONALE_CARD_CLASS}>
+                        <div className={SECTION_LABEL_CLASS}>
                           Rationale
                         </div>
                         <div
-                          className="question-html mt-2 break-words prose prose-stone max-w-none text-sm leading-7 text-foreground dark:prose-invert"
+                          className={RATIONALE_HTML_CLASS}
                           dangerouslySetInnerHTML={{
                             __html: getRenderedContentHtml(question.subject, sourceQuestion.rationale),
                           }}
@@ -768,16 +750,12 @@ const PracticeTestResults = () => {
                         variant="outline"
                         size="sm"
                         className={cn(
-                          "gap-2 bg-transparent",
-                          activeExplanationIndex !== null &&
+                          CONTROL_BUTTON_CLASS,
+                          activeExplanationIndex >= 0 &&
                             orderedQuestions[activeExplanationIndex]?.storageId === question.storageId &&
-                            "ring-2 ring-primary/50",
+                            EXPLANATION_BUTTON_ACTIVE_CLASS,
                         )}
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          const idx = orderedQuestions.findIndex((q) => q.storageId === question.storageId);
-                          if (idx >= 0) setActiveExplanationIndex(idx);
-                        }}
+                        onClick={() => setActiveExplanationStorageId(question.storageId)}
                       >
                         <Lightbulb className="h-4 w-4" />
                         Show Step-by-Step Explanation
@@ -791,19 +769,19 @@ const PracticeTestResults = () => {
         </CardContent>
       </Card>
 
-      <div className="flex flex-wrap justify-end gap-3">
+      <div className={FOOTER_ACTIONS_CLASS}>
         <Button asChild>
-          <Link to="/modules">
+          <Link to={MODULES_PATH}>
             More practice
             <ArrowRight className="ml-2 h-4 w-4" />
           </Link>
         </Button>
       </div>
 
-      {activeExplanationQuestion && activeExplanationSource && (
+      {activeExplanationQuestion && hasActiveExplanationSource && (
         <DraggableWindow
           isOpen={isExplanationOpen}
-          onClose={() => setActiveExplanationIndex(null)}
+          onClose={() => setActiveExplanationStorageId(null)}
           title={`${activeExplanationQuestion.moduleTitle} · Q${activeExplanationQuestion.moduleQuestionNumber} — Explanation`}
           defaultWidth={460}
           defaultHeight={560}
@@ -814,32 +792,13 @@ const PracticeTestResults = () => {
           onSplitScreenChange={(active) => {
             if (!active) setIsExplanationSidebarred(false);
           }}
-          windowId="review-explanation"
+          windowId={EXPLANATION_WINDOW_ID}
         >
           <div className="flex h-full flex-col overflow-hidden">
             <div className="flex-1 overflow-hidden">
               <StepByStepExplanation
                 questionId={stripBankPrefix(activeExplanationQuestion.storageId)}
-                question={{
-                  section:
-                    activeExplanationQuestion.subject === "math"
-                      ? "Math"
-                      : "Reading and Writing",
-                  passage: activeExplanationSource.passage || "",
-                  questionText:
-                    activeExplanationSource.questionText || activeExplanationSource.prompt,
-                  choices: activeExplanationSource.choices?.map((choice) => ({
-                    label: choice.id,
-                    text: choice.text ?? "",
-                    image: choice.image,
-                  })),
-                  correctAnswer: activeExplanationQuestion.correctAnswer,
-                  domain: activeExplanationQuestion.domain || activeExplanationSource.domain,
-                  skill: activeExplanationQuestion.skill,
-                  difficulty: activeExplanationSource.difficulty,
-                  isFillInBlank: activeExplanationSource.type === "free-response",
-                }}
-                questionImages={activeExplanationSource.questionImages}
+                correctAnswer={activeExplanationQuestion.correctAnswer}
               />
             </div>
             <div className="flex items-center justify-between border-t border-border/40 px-3 py-2">
@@ -854,7 +813,7 @@ const PracticeTestResults = () => {
                 Previous
               </Button>
               <span className="text-xs text-muted-foreground">
-                {(activeExplanationIndex ?? 0) + 1} / {orderedQuestions.length}
+                {activeExplanationIndex + 1} / {orderedQuestions.length}
               </span>
               <Button
                 variant="outline"

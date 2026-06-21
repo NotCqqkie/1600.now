@@ -2,6 +2,8 @@ import { useEffect, useMemo } from "react";
 import { useNavigate, useParams, useSearchParams } from "react-router-dom";
 import {
   loadBankPool,
+  loadQuestionsByDomain,
+  loadQuestionsBySkill,
   mathDomainSkills,
   englishDomainSkills,
   allMathDomains,
@@ -11,6 +13,10 @@ import {
   type BankSubject,
   type BankQuestion,
   type BankSourceFilter,
+  type MathDomain,
+  type EnglishDomain,
+  type MathSkill,
+  type EnglishSkill,
 } from "@/data/questionBank";
 import { getDefaultQuestionCountTree } from "@/data/bankQuestionMetadata";
 import { Button } from "@/components/ui/button";
@@ -34,6 +40,15 @@ import {
 import { BankSourceToggle } from "@/components/question/BankSourceToggle";
 import { spaceOutNearDuplicates, questionFingerprint } from "@/lib/text/nearDuplicateSpacing";
 import { PageSeo, buildBreadcrumbJsonLd } from "@/components/seo/PageSeo";
+import {
+  buildPracticeRunId,
+  PRACTICE_EXIT_TO_STORAGE_KEY,
+  PRACTICE_RUN_STORAGE_KEY,
+  PRACTICE_SET_STORAGE_KEY,
+  PRACTICE_SET_TOTAL_STORAGE_KEY,
+} from "@/lib/practice/practiceRunStorage";
+import { buildPracticeBankQuestionRoute } from "@/lib/practice/practiceBankRoutes";
+import { clearBankQuestionViewModeStorage } from "@/lib/questionViewModeStorage";
 
 const domainIcons: Record<string, string> = {
   "Algebra": "📐",
@@ -46,10 +61,19 @@ const domainIcons: Record<string, string> = {
   "Standard English Conventions": "📝",
 };
 
-const PRACTICE_RUN_STORAGE_KEY = "practiceRunId";
+const countTotal = (count: number | { total: number } | undefined): number =>
+  typeof count === "number" ? count : count?.total ?? 0;
 
-const buildPracticeRunId = (subject: BankSubject) =>
-  `${subject}-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
+type BankBrowseDomain = MathDomain | EnglishDomain;
+type BankBrowseSkill = MathSkill | EnglishSkill;
+type BankBrowsePracticeSetItem = Readonly<{
+  subject: BankSubject;
+  id: number;
+  sourceId: string;
+  bankType: BankSourceFilter;
+  storageId: string;
+  index: number;
+}>;
 
 const BankBrowse = () => {
   const navigate = useNavigate();
@@ -62,13 +86,12 @@ const BankBrowse = () => {
   const bankQuerySuffix = `?bankType=${bankSource}`;
 
   useEffect(() => {
-    sessionStorage.removeItem(`question-view-mode:bank:math`);
-    sessionStorage.removeItem(`question-view-mode:bank:reading`);
+    clearBankQuestionViewModeStorage();
   }, []);
 
   const isMath = validSubject === "math";
-  const domains: string[] = isMath ? [...allMathDomains] : [...allEnglishDomains];
-  const domainSkillMap: Record<string, string[]> = isMath
+  const domains: BankBrowseDomain[] = isMath ? [...allMathDomains] : [...allEnglishDomains];
+  const domainSkillMap: Partial<Record<BankBrowseDomain, BankBrowseSkill[]>> = isMath
     ? Object.fromEntries(Object.entries(mathDomainSkills).map(([k, v]) => [k, [...v]]))
     : Object.fromEntries(Object.entries(englishDomainSkills).map(([k, v]) => [k, [...v]]));
 
@@ -80,18 +103,18 @@ const BankBrowse = () => {
   const skillCounts = questionCounts.skills;
   const totalQuestions = questionCounts.total;
 
-  const handleBankSourceChange = (nextSource: BankSourceFilter) => {
+  const handleBankSourceChange = (nextSource: BankSourceFilter): void => {
     const nextParams = new URLSearchParams(searchParams);
     nextParams.set("bankType", nextSource);
     setSearchParams(nextParams);
   };
 
-  const startPracticeSession = (questions: BankQuestion[]) => {
+  const startPracticeSession = (questions: BankQuestion[]): void => {
     if (questions.length === 0) return;
 
-    questions = spaceOutNearDuplicates<BankQuestion>(questions, questionFingerprint);
+    const spacedQuestions = spaceOutNearDuplicates(questions, questionFingerprint);
 
-    const practiceSet = questions.map((q, index) => ({
+    const practiceSet: BankBrowsePracticeSetItem[] = spacedQuestions.map((q, index) => ({
       subject: q.subject,
       id: q.id,
       sourceId: q.sourceId,
@@ -99,12 +122,17 @@ const BankBrowse = () => {
       storageId: q.stableId,
       index: index + 1,
     }));
-    sessionStorage.removeItem('practiceExitTo');
-    sessionStorage.setItem('practiceSet', JSON.stringify(practiceSet));
-    sessionStorage.setItem('practiceSetTotal', String(practiceSet.length));
+    sessionStorage.removeItem(PRACTICE_EXIT_TO_STORAGE_KEY);
+    sessionStorage.setItem(PRACTICE_SET_STORAGE_KEY, JSON.stringify(practiceSet));
+    sessionStorage.setItem(PRACTICE_SET_TOTAL_STORAGE_KEY, String(practiceSet.length));
     sessionStorage.setItem(PRACTICE_RUN_STORAGE_KEY, buildPracticeRunId(validSubject));
     const first = practiceSet[0];
-    navigate(`/bank/${first.subject}/${first.id}?bankType=${first.bankType}&practice=true&idx=1`);
+    navigate(buildPracticeBankQuestionRoute({
+      subject: first.subject,
+      sourceId: first.sourceId,
+      bankType: first.bankType,
+      idx: 1,
+    }));
   };
 
   const shuffleArray = (arr: BankQuestion[]): BankQuestion[] => {
@@ -116,30 +144,29 @@ const BankBrowse = () => {
     return spaceOutNearDuplicates<BankQuestion>(shuffled, questionFingerprint);
   };
 
-  const handleShuffleDomain = async (domain: string) => {
-    const bankPool = await loadBankPool(validSubject, bankSource);
-    const questions = bankPool.filter((question) => question.category.domain === domain);
+  const startShuffledPracticeSession = (questions: BankQuestion[]): void => {
     startPracticeSession(shuffleArray(questions));
   };
 
-  const handleShuffleSkill = async (skill: string) => {
-    const bankPool = await loadBankPool(validSubject, bankSource);
-    const questions = bankPool.filter((question) => question.category.skill === skill);
-    startPracticeSession(shuffleArray(questions));
+  const handleShuffleDomain = async (domain: BankBrowseDomain): Promise<void> => {
+    startShuffledPracticeSession(await loadQuestionsByDomain(validSubject, domain, bankSource));
   };
 
-  const handleShuffleAll = async () => {
-    const bankPool = await loadBankPool(validSubject, bankSource);
-    startPracticeSession(shuffleArray(bankPool));
+  const handleShuffleSkill = async (skill: BankBrowseSkill): Promise<void> => {
+    startShuffledPracticeSession(await loadQuestionsBySkill(validSubject, skill, bankSource));
   };
 
-  const handleSkillClick = (skill: string) => {
-    if ((skillCounts[skill] || 0) > 0) {
+  const handleShuffleAll = async (): Promise<void> => {
+    startShuffledPracticeSession(await loadBankPool(validSubject, bankSource));
+  };
+
+  const handleSkillClick = (skill: BankBrowseSkill): void => {
+    if (countTotal(skillCounts[skill]) > 0) {
       navigate(`${basePath}/${validSubject}/skill/${encodeURIComponent(skill)}${bankQuerySuffix}`);
     }
   };
 
-  const handleDomainClick = (domain: string) => {
+  const handleDomainClick = (domain: BankBrowseDomain): void => {
     navigate(`${basePath}/${validSubject}/domain/${encodeURIComponent(domain)}${bankQuerySuffix}`);
   };
 
@@ -206,7 +233,7 @@ const BankBrowse = () => {
           <Accordion type="multiple" defaultValue={domains} className="space-y-3">
             {domains.map((domain) => {
               const skills = domainSkillMap[domain] || [];
-              const domainCount = domainCounts[domain] || 0;
+              const domainCount = countTotal(domainCounts[domain]);
               const icon = domainIcons[domain] || "📚";
 
               return (
@@ -257,7 +284,7 @@ const BankBrowse = () => {
                   <AccordionContent className="pb-4">
                     <div className="grid gap-2 px-3 sm:pl-8 sm:pr-4">
                       {skills.map((skill) => {
-                        const count = skillCounts[skill] || 0;
+                        const count = countTotal(skillCounts[skill]);
                         return (
                           <Card
                             key={skill}
@@ -313,7 +340,7 @@ const BankBrowse = () => {
                   title="Shuffle All"
                   className="h-11 w-11 shrink-0"
                 >
-                    <Shuffle className="h-4 w-4" />
+                  <Shuffle className="h-4 w-4" />
                 </Button>
                 <Button className="flex-1 sm:flex-none" onClick={() => navigate(`${basePath}/${validSubject}/1${bankQuerySuffix}`)}>
                   Start

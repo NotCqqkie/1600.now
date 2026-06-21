@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+      "title": "Read the circle from standard form",
+      "content": "The equation $x^2+(y-2)^2=36$ is in standard circle form, so circle A has center $(0,2)$ and radius $6$. A downward shift changes only the center's $y$-coordinate."
     },
     {
       "title": "Read circle A",

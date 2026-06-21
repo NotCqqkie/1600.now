@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+      "title": "Set up the rectangular-prism surface area",
+      "content": "Find the missing base width from base area divided by base length. Then use the rectangular-prism surface-area formula $SA=2(lw+lh+wh)$."
     },
     {
       "title": "Find the width of the base",

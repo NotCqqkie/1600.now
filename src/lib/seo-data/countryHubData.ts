@@ -1,23 +1,18 @@
-import { hreflangGroup } from "@/lib/seo-data/hreflangData";
-
-export { hreflangGroup };
-
-export interface CountrySection {
+interface CountrySection {
   heading: string;
   paragraphs: string[];
   bullets?: string[];
 }
 
-export interface CountryFaq {
+interface CountryFaq {
   question: string;
   answer: string;
 }
 
-export interface CountryPage {
+interface CountryPage {
   slug: string;
   country: "in" | "ae";
   language: string;
-  englishCanonicalSlug?: string;
   metaTitle: string;
   metaDescription: string;
   headline: string;
@@ -26,7 +21,7 @@ export interface CountryPage {
   faqs: CountryFaq[];
 }
 
-export interface CountryHubConfig {
+interface CountryHubConfig {
   code: "in" | "ae";
   name: string;
   language: string;
@@ -38,7 +33,7 @@ export interface CountryHubConfig {
   hubFaqs: CountryFaq[];
 }
 
-export const countryHubs: CountryHubConfig[] = [
+const countryHubs: CountryHubConfig[] = [
   {
     code: "in",
     name: "India",
@@ -171,7 +166,6 @@ export const countryPages: CountryPage[] = [
     slug: "in/sat-vs-jee",
     country: "in",
     language: "en-IN",
-    englishCanonicalSlug: undefined,
     metaTitle: "SAT vs JEE: Which Exam Should Indian Students Take? (2026)",
     metaDescription:
       "Full comparison of the Digital SAT vs JEE Mains for Indian students. Difficulty, syllabus, cost, university acceptance, and how to choose.",
@@ -1348,8 +1342,3 @@ export const countryPages: CountryPage[] = [
 ];
 
 export const countryPageBySlug = new Map(countryPages.map((page) => [page.slug, page]));
-
-export const allCountrySlugs = (): string[] => [
-  ...countryHubs.map((hub) => hub.hubSlug),
-  ...countryPages.map((page) => page.slug),
-];

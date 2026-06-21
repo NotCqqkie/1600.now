@@ -17,7 +17,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li>A: $12{,}560c$ matches the derived sum. Keep.</li><li>B: $6{,}125c$ would require $b \\approx 6{,}065c$, far from $12{,}500c$. Eliminate.</li><li>C: $6{,}008c$ is roughly $a$ plus $\\frac{1}{2}b$ only; too small. Eliminate.</li><li>D: $1{,}850c$ is far below the actual sum. Eliminate.</li></ul><strong>A</strong> is correct."
+      "content": "<ul><li>A: $12{,}560c$ matches the derived sum. Keep.</li><li>B: $6{,}125c$ would require $b \\approx 6{,}065c$, far from $12{,}500c$. Eliminate.</li><li>C: $6{,}008c$ is far too small and likely comes from an incorrect percent conversion. Eliminate.</li><li>D: $1{,}850c$ is far below the actual sum. Eliminate.</li></ul><strong>A</strong> is correct."
     }
   ]
 }

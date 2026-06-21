@@ -15,6 +15,14 @@ export function spaceOutNearDuplicates<T>(
   const result: T[] = [];
   const resultFps: string[] = [];
   const deferred: { item: T; fp: string }[] = [];
+  const appendResult = (item: T, fp: string) => {
+    result.push(item);
+    resultFps.push(fp);
+  };
+  const insertResult = (index: number, item: T, fp: string) => {
+    result.splice(index, 0, item);
+    resultFps.splice(index, 0, fp);
+  };
   let prevFp: string | null = null;
 
   for (let i = 0; i < items.length; i++) {
@@ -23,23 +31,20 @@ export function spaceOutNearDuplicates<T>(
       deferred.push({ item: items[i], fp });
       continue;
     }
-    result.push(items[i]);
-    resultFps.push(fp);
+    appendResult(items[i], fp);
     prevFp = fp;
   }
   for (const { item, fp } of deferred) {
     let inserted = false;
     for (let i = 1; i < result.length; i++) {
       if (resultFps[i - 1] !== fp && resultFps[i] !== fp) {
-        result.splice(i, 0, item);
-        resultFps.splice(i, 0, fp);
+        insertResult(i, item, fp);
         inserted = true;
         break;
       }
     }
     if (!inserted) {
-      result.push(item);
-      resultFps.push(fp);
+      appendResult(item, fp);
     }
   }
 

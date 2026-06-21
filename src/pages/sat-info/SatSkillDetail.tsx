@@ -10,10 +10,22 @@ import { satSkillBySlug, satSkills } from "@/lib/seo-data/satSkillsData";
 import { skillSampleQuestions } from "@/lib/generated/skillSampleQuestions.generated";
 import { renderMixedContent } from "@/lib/text/mathRendering";
 
+const SECTION_HEADING_CLASS = "text-2xl font-semibold tracking-tight";
+const MUTED_BLOCK_CLASS = "mt-3 text-muted-foreground";
+const LIST_CLASS = "mt-3 list-disc space-y-2 pl-6 text-muted-foreground";
+const BREADCRUMB_LINK_CLASS = "hover:underline";
+const UNDERLINE_LINK_CLASS = "underline";
+const TABLE_ROW_CLASS = "border-t border-border";
+const TABLE_HEAD_CELL_CLASS = "px-4 py-3 font-semibold";
+const TABLE_BODY_CELL_CLASS = "px-4 py-3 text-muted-foreground";
+
 const skillPracticeHref = (skill: NonNullable<ReturnType<typeof satSkillBySlug.get>>) =>
   `/bank/${skill.section === "Math" ? "math" : "reading"}/skill/${encodeURIComponent(skill.officialSkill)}`;
 
 type Skill = (typeof satSkills)[number];
+
+const renderTextItems = (items: readonly string[]) =>
+  items.map((item) => <li key={item}>{item}</li>);
 
 const skillPlaybookFor = (skill: Skill) => {
   const mathWorkflow = [
@@ -96,9 +108,9 @@ const SatSkillDetail = () => {
     return (
       <div className="mx-auto max-w-2xl px-6 py-20 text-center">
         <h1 className="text-3xl font-semibold">Skill not found</h1>
-        <p className="mt-3 text-muted-foreground">
+        <p className={MUTED_BLOCK_CLASS}>
           Browse{" "}
-          <Link className="underline" to="/bank">
+          <Link className={UNDERLINE_LINK_CLASS} to="/bank">
             the question bank
           </Link>
           .
@@ -109,7 +121,9 @@ const SatSkillDetail = () => {
 
   const url = `https://1600.now/sat-skill/${skill.slug}`;
   const title = `${skill.name} on the Digital SAT: Tips, Examples & Practice`;
-  const description = `${skill.shortDescription} Learn how to master ${skill.name.toLowerCase()} on the Digital SAT ${skill.section} section with focused tips and practice.`;
+  const skillNameLower = skill.name.toLowerCase();
+  const practiceHref = skillPracticeHref(skill);
+  const description = `${skill.shortDescription} Learn how to master ${skillNameLower} on the Digital SAT ${skill.section} section with focused tips and practice.`;
 
   const faqs = [
     {
@@ -117,12 +131,12 @@ const SatSkillDetail = () => {
       answer: skill.description,
     },
     {
-      question: `How hard are ${skill.name.toLowerCase()} questions?`,
+      question: `How hard are ${skillNameLower} questions?`,
       answer: `${skill.name} questions appear at every difficulty level on the Digital SAT ${skill.section} section. The hardest versions gate access to the top scaled scores in the hard Module 2.`,
     },
     {
-      question: `How do I practice ${skill.name.toLowerCase()}?`,
-      answer: `Use the 1600.now question bank to filter for ${skill.name.toLowerCase()} questions, solve at least 20 in a row, and review every miss with the written explanation.`,
+      question: `How do I practice ${skillNameLower}?`,
+      answer: `Use the 1600.now question bank to filter for ${skillNameLower} questions, solve at least 20 in a row, and review every miss with the written explanation.`,
     },
   ];
 
@@ -132,6 +146,23 @@ const SatSkillDetail = () => {
 
   const samples = skillSampleQuestions[skill.slug] ?? [];
   const playbook = skillPlaybookFor(skill);
+  const practiceRows = [
+    {
+      block: "Warmup",
+      whatToDo: <>Solve 10 untimed {skillNameLower} questions and write the rule used for each.</>,
+      moveOnWhen: "You can explain 8 of 10 without reading the explanation.",
+    },
+    {
+      block: "Timed drill",
+      whatToDo: "Solve 20 filtered bank questions at real module pace.",
+      moveOnWhen: "Accuracy is at least 80% and misses are not repeating.",
+    },
+    {
+      block: "Transfer",
+      whatToDo: <>Take a mixed timed module and mark each {skill.domain} miss.</>,
+      moveOnWhen: "The skill still holds up when mixed with other question types.",
+    },
+  ];
 
   const quizJsonLd = samples.length
     ? buildQuizJsonLd({
@@ -174,11 +205,11 @@ const SatSkillDetail = () => {
       />
 
       <nav className="mb-6 text-sm text-muted-foreground">
-        <Link className="hover:underline" to="/">
+        <Link className={BREADCRUMB_LINK_CLASS} to="/">
           Home
         </Link>{" "}
         ›{" "}
-        <Link className="hover:underline" to="/sat-skill">
+        <Link className={BREADCRUMB_LINK_CLASS} to="/sat-skill">
           SAT Skills
         </Link>{" "}
         › <span className="text-foreground">{skill.name}</span>
@@ -197,62 +228,54 @@ const SatSkillDetail = () => {
       </header>
 
       <section>
-        <h2 className="text-2xl font-semibold tracking-tight">
+        <h2 className={SECTION_HEADING_CLASS}>
           What the SAT Tests
         </h2>
-        <p className="mt-3 text-muted-foreground">{skill.description}</p>
+        <p className={MUTED_BLOCK_CLASS}>{skill.description}</p>
       </section>
 
       <section className="mt-8">
-        <h2 className="text-2xl font-semibold tracking-tight">
+        <h2 className={SECTION_HEADING_CLASS}>
           Key Tips for {skill.name}
         </h2>
-        <ul className="mt-3 list-disc space-y-2 pl-6 text-muted-foreground">
-          {skill.keyTips.map((tip) => (
-            <li key={tip}>{tip}</li>
-          ))}
+        <ul className={LIST_CLASS}>
+          {renderTextItems(skill.keyTips)}
         </ul>
       </section>
 
       <section className="mt-8">
-        <h2 className="text-2xl font-semibold tracking-tight">
+        <h2 className={SECTION_HEADING_CLASS}>
           How to recognize {skill.name} questions
         </h2>
-        <ul className="mt-3 list-disc space-y-2 pl-6 text-muted-foreground">
-          {playbook.recognition.map((item) => (
-            <li key={item}>{item}</li>
-          ))}
+        <ul className={LIST_CLASS}>
+          {renderTextItems(playbook.recognition)}
         </ul>
       </section>
 
       <section className="mt-8">
-        <h2 className="text-2xl font-semibold tracking-tight">
+        <h2 className={SECTION_HEADING_CLASS}>
           Fast solving workflow
         </h2>
         <ol className="mt-3 list-decimal space-y-2 pl-6 text-muted-foreground">
-          {playbook.workflow.map((item) => (
-            <li key={item}>{item}</li>
-          ))}
+          {renderTextItems(playbook.workflow)}
         </ol>
       </section>
 
       <section className="mt-8">
-        <h2 className="text-2xl font-semibold tracking-tight">
+        <h2 className={SECTION_HEADING_CLASS}>
           Common traps
         </h2>
-        <ul className="mt-3 list-disc space-y-2 pl-6 text-muted-foreground">
-          {playbook.traps.map((trap) => (
-            <li key={trap}>{trap}</li>
-          ))}
+        <ul className={LIST_CLASS}>
+          {renderTextItems(playbook.traps)}
         </ul>
       </section>
 
       {samples.length > 0 && (
         <section className="mt-10">
-          <h2 className="text-2xl font-semibold tracking-tight">
+          <h2 className={SECTION_HEADING_CLASS}>
             Sample {skill.name} Questions
           </h2>
-          <p className="mt-3 text-muted-foreground">
+          <p className={MUTED_BLOCK_CLASS}>
             These are real practice questions pulled from our Digital SAT bank.
             Try each one before reading the highlighted correct answer.
           </p>
@@ -305,19 +328,19 @@ const SatSkillDetail = () => {
       )}
 
       <section className="mt-8">
-        <h2 className="text-2xl font-semibold tracking-tight">
+        <h2 className={SECTION_HEADING_CLASS}>
           Practice {skill.name} Questions
         </h2>
-        <p className="mt-3 text-muted-foreground">
-          Drill {skill.name.toLowerCase()} questions in the{" "}
+        <p className={MUTED_BLOCK_CLASS}>
+          Drill {skillNameLower} questions in the{" "}
           <Link
-            className="underline"
-            to={skillPracticeHref(skill)}
+            className={UNDERLINE_LINK_CLASS}
+            to={practiceHref}
           >
             Digital SAT {skill.section} question bank
           </Link>
           , or take a full-length{" "}
-          <Link className="underline" to="/modules">
+          <Link className={UNDERLINE_LINK_CLASS} to="/modules">
             practice module
           </Link>{" "}
           to see how this skill appears under test conditions.
@@ -326,46 +349,26 @@ const SatSkillDetail = () => {
           <table className="w-full min-w-[560px] text-left text-sm">
             <thead className="bg-muted/70">
               <tr>
-                <th className="px-4 py-3 font-semibold">Practice block</th>
-                <th className="px-4 py-3 font-semibold">What to do</th>
-                <th className="px-4 py-3 font-semibold">Move on when</th>
+                <th className={TABLE_HEAD_CELL_CLASS}>Practice block</th>
+                <th className={TABLE_HEAD_CELL_CLASS}>What to do</th>
+                <th className={TABLE_HEAD_CELL_CLASS}>Move on when</th>
               </tr>
             </thead>
             <tbody>
-              <tr className="border-t border-border">
-                <td className="px-4 py-3 text-muted-foreground">Warmup</td>
-                <td className="px-4 py-3 text-muted-foreground">
-                  Solve 10 untimed {skill.name.toLowerCase()} questions and write the rule used for each.
-                </td>
-                <td className="px-4 py-3 text-muted-foreground">
-                  You can explain 8 of 10 without reading the explanation.
-                </td>
-              </tr>
-              <tr className="border-t border-border">
-                <td className="px-4 py-3 text-muted-foreground">Timed drill</td>
-                <td className="px-4 py-3 text-muted-foreground">
-                  Solve 20 filtered bank questions at real module pace.
-                </td>
-                <td className="px-4 py-3 text-muted-foreground">
-                  Accuracy is at least 80% and misses are not repeating.
-                </td>
-              </tr>
-              <tr className="border-t border-border">
-                <td className="px-4 py-3 text-muted-foreground">Transfer</td>
-                <td className="px-4 py-3 text-muted-foreground">
-                  Take a mixed timed module and mark each {skill.domain} miss.
-                </td>
-                <td className="px-4 py-3 text-muted-foreground">
-                  The skill still holds up when mixed with other question types.
-                </td>
-              </tr>
+              {practiceRows.map((row) => (
+                <tr key={row.block} className={TABLE_ROW_CLASS}>
+                  <td className={TABLE_BODY_CELL_CLASS}>{row.block}</td>
+                  <td className={TABLE_BODY_CELL_CLASS}>{row.whatToDo}</td>
+                  <td className={TABLE_BODY_CELL_CLASS}>{row.moveOnWhen}</td>
+                </tr>
+              ))}
             </tbody>
           </table>
         </div>
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold tracking-tight">FAQs</h2>
+        <h2 className={SECTION_HEADING_CLASS}>FAQs</h2>
         <div className="mt-4 space-y-5">
           {faqs.map((faq) => (
             <div key={faq.question}>
@@ -377,7 +380,7 @@ const SatSkillDetail = () => {
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold tracking-tight">
+        <h2 className={SECTION_HEADING_CLASS}>
           Related {skill.section} Skills
         </h2>
         <ul className="mt-4 grid gap-3 md:grid-cols-2">

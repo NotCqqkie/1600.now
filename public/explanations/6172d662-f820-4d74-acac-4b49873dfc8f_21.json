@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the two independent clauses",
-      "content": "Two independent clauses are joined here: <em>He did not play drums on the label's classic song 'Rapper's Delight'</em> and <em>he joined the label after the song's release.</em> The word <em>however</em> sits between them as a conjunctive adverb."
+      "content": "The sentence first says that Chambers was associated with Sugar Hill Records, then contrasts that association with the fact that he did not play drums on the label's classic song <em>\"Rapper's Delight\"</em>. The word <em>however</em> belongs in that first independent clause to mark the contrast."
     },
     {
       "title": "Apply the punctuation pattern",
-      "content": "Per the answer key, the correct pattern places a comma inside the closing quotation mark and a semicolon after <em>however</em>: <em>Delight,\" however;</em>. The semicolon joins the two independent clauses around the conjunctive adverb.<br/><br/>An incorrect response places a period before <em>However</em>, which would split the thought into two sentences; an incorrect response creates a comma splice; choice D (&lsquo;Delight\" however&rsquo;) omits all punctuation, creating a run-on.<br/><br/>The answer is <strong>B</strong>."
+      "content": "Choice B correctly places the comma inside the closing quotation mark and uses a semicolon after <em>however</em>: <em>Delight,\" however;</em>. The semicolon separates the next independent clause, <em>he joined the label after the song's release</em>.<br/><br/>Choice C is not wrong simply because it creates two sentences; it is wrong because it separates <em>However</em> from the clause it needs to interrupt. Choice A creates a comma splice, and choice D omits needed punctuation.<br/><br/>The answer is <strong>B</strong>."
     }
   ]
 }

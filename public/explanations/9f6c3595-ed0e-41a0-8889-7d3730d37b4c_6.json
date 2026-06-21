@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Read the table",
-      "content": "The five task times (in minutes) are: Task 1 = 8, Task 2 = 5, Task 3 = 12, Task 4 = 10, Task 5 = 10."
+      "content": "The five task times are: Task A = 8, Task B = 5, Task C = 12, Task D = 10, and Task E = 10 minutes."
     },
     {
       "title": "Compute the mean",

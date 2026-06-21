@@ -100,7 +100,7 @@ def extract_figures(
             try:
                 bbox = parse_json_response(response)
                 if bbox is None:
-                    print(f"    No figure found")
+                    print("    No figure found")
                     continue
 
                 if isinstance(bbox, list):

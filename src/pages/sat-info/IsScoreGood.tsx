@@ -2,11 +2,19 @@ import { Link, useLocation, Navigate } from "react-router-dom";
 import { PageSeo, buildFaqJsonLd, buildBreadcrumbJsonLd } from "@/components/seo/PageSeo";
 import { getScoreProfile } from "@/lib/seo-data/satScoreData";
 
-const VALID_SCORES = (() => {
-  const scores: number[] = [];
-  for (let score = 400; score <= 1600; score += 10) scores.push(score);
-  return scores;
-})();
+const MIN_VALID_SCORE = 400;
+const MAX_VALID_SCORE = 1600;
+const SCORE_INCREMENT = 10;
+const SCORE_ROUTE_REGEX = /^\/is-a-(\d+)-a-good-sat-score$/;
+const STAT_CARD_CLASS = "rounded-xl border border-border bg-card p-4";
+const STAT_LABEL_CLASS = "text-xs uppercase tracking-wider text-muted-foreground";
+const STAT_VALUE_CLASS = "mt-1 text-3xl font-bold";
+const TIER_VALUE_CLASS = "mt-1 text-lg font-semibold";
+
+const VALID_SCORES = Array.from(
+  { length: (MAX_VALID_SCORE - MIN_VALID_SCORE) / SCORE_INCREMENT + 1 },
+  (_, index) => MIN_VALID_SCORE + index * SCORE_INCREMENT,
+);
 
 const verdictFor = (score: number, percentile: number) => {
   if (score >= 1500) return `Yes — a ${score} is an exceptional SAT score. At the ${percentile}th percentile, it places you in the top 2% of all SAT test takers and makes you a strong candidate at every university in the country.`;
@@ -20,7 +28,7 @@ const verdictFor = (score: number, percentile: number) => {
 
 const IsScoreGood = () => {
   const location = useLocation();
-  const match = location.pathname.match(/^\/is-a-(\d+)-a-good-sat-score$/);
+  const match = location.pathname.match(SCORE_ROUTE_REGEX);
   const score = match ? parseInt(match[1], 10) : NaN;
 
   if (!VALID_SCORES.includes(score)) return <Navigate to="/score-calculator" replace />;
@@ -28,6 +36,14 @@ const IsScoreGood = () => {
   const profile = getScoreProfile(score);
   const verdict = verdictFor(score, profile.percentile);
   const url = `https://1600.now/is-a-${score}-a-good-sat-score`;
+  const collegeExamplesText = profile.collegeExamples.slice(0, 4).join(", ");
+  const hasLowerScore = VALID_SCORES.includes(score - SCORE_INCREMENT);
+  const hasHigherScore = VALID_SCORES.includes(score + SCORE_INCREMENT);
+  const stats = [
+    { label: "Score", value: score, valueClassName: STAT_VALUE_CLASS },
+    { label: "Percentile", value: profile.percentile, valueClassName: STAT_VALUE_CLASS },
+    { label: "Tier", value: profile.tier, valueClassName: TIER_VALUE_CLASS },
+  ] as const;
 
   const title = `Is a ${score} a Good SAT Score? Percentile, Colleges & Advice`;
   const description = `Is a ${score} a good SAT score? See the percentile, target colleges, and what to do next if you scored ${score} on the Digital SAT.`;
@@ -43,7 +59,7 @@ const IsScoreGood = () => {
     },
     {
       q: `What colleges can I get into with a ${score} SAT score?`,
-      a: `A ${score} makes you competitive at schools such as ${profile.collegeExamples.slice(0, 4).join(", ")}. Always check each school's published middle-50% SAT range.`,
+      a: `A ${score} makes you competitive at schools such as ${collegeExamplesText}. Always check each school's published middle-50% SAT range.`,
     },
     {
       q: `Should I retake the SAT if I scored ${score}?`,
@@ -87,18 +103,12 @@ const IsScoreGood = () => {
       <p className="mt-4 text-lg text-foreground/90">{verdict}</p>
 
       <div className="mt-8 grid gap-4 sm:grid-cols-3">
-        <div className="rounded-xl border border-border bg-card p-4">
-          <div className="text-xs uppercase tracking-wider text-muted-foreground">Score</div>
-          <div className="mt-1 text-3xl font-bold">{score}</div>
-        </div>
-        <div className="rounded-xl border border-border bg-card p-4">
-          <div className="text-xs uppercase tracking-wider text-muted-foreground">Percentile</div>
-          <div className="mt-1 text-3xl font-bold">{profile.percentile}</div>
-        </div>
-        <div className="rounded-xl border border-border bg-card p-4">
-          <div className="text-xs uppercase tracking-wider text-muted-foreground">Tier</div>
-          <div className="mt-1 text-lg font-semibold">{profile.tier}</div>
-        </div>
+        {stats.map((stat) => (
+          <div key={stat.label} className={STAT_CARD_CLASS}>
+            <div className={STAT_LABEL_CLASS}>{stat.label}</div>
+            <div className={stat.valueClassName}>{stat.value}</div>
+          </div>
+        ))}
       </div>
 
       <section className="mt-10">
@@ -144,13 +154,13 @@ const IsScoreGood = () => {
       </section>
 
       <section className="mt-10 flex justify-between text-sm">
-        {VALID_SCORES.includes(score - 10) && (
+        {hasLowerScore && (
           <Link to="/score-calculator" className="text-foreground/80 hover:underline">
             Model a lower score split
           </Link>
         )}
         <span />
-        {VALID_SCORES.includes(score + 10) && (
+        {hasHigherScore && (
           <Link to="/bank" className="ml-auto text-foreground/80 hover:underline">
             Drill for a higher score →
           </Link>

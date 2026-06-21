@@ -13,7 +13,7 @@
     },
     {
       "title": "Per-choice elimination",
-      "content": "<ul><li><strong>Choice A &mdash; risky</strong>: implies danger or downside, but the sentence describes a positive outcome (being seen as important). Contradicts context. &#10007;</li><li><strong>Choice B &mdash; misleading</strong>: would mean the feature gave a false impression, but the passage treats the implication of importance as accurate, not deceptive. &#10007;</li><li><strong>Choice D &mdash; unremarkable</strong>: means not worth notice, the opposite of the &quot;important part of the community&quot; signal the feature conveyed. &#10007;</li></ul>That is the correct answer."
+      "content": "<ul><li><strong>Choice A &mdash; risky</strong>: implies danger or downside, but the sentence describes a positive outcome from being seen as important. &#10007;</li><li><strong>Choice B &mdash; misleading</strong>: would mean the feature gave a false impression, but the passage treats the implication of importance as accurate, not deceptive. &#10007;</li><li><strong>Choice C &mdash; advantageous</strong>: means beneficial or favorable, matching the idea that the feature signaled community importance. &#10003;</li><li><strong>Choice D &mdash; unremarkable</strong>: means not worth notice, the opposite of the \"important part of the community\" signal the feature conveyed. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
     }
   ]
 }

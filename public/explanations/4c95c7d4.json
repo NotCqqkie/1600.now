@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+      "title": "Use the equilateral triangles",
+      "content": "The trapezoid is made from three congruent equilateral triangles. Use the perimeter to find each triangle's side length, then use the equilateral-triangle area formula for the two shaded triangles."
     },
     {
       "title": "Determine the side length from the perimeter constraint",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Find the combined area of the two shaded regions",
-      "content": "The two shaded triangles (left and \\right) are congruent equilateral triangles. Their combined area is:<br/>$$2 \\times 4\\sqrt{3} = 8\\sqrt{3} \\text{ cm}^2$$<br/><strong>C</strong> is correct."
+      "content": "The two shaded triangles (left and right) are congruent equilateral triangles. Their combined area is:<br/>$$2 \\times 4\\sqrt{3} = 8\\sqrt{3} \\text{ cm}^2$$<br/><strong>C</strong> is correct."
     }
   ]
 }

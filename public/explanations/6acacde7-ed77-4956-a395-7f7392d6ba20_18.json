@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Express the supplementary angle",
-      "content": "The acute angle formed by the transversal is $(9x - 490)$. Since acute and obtuse angles on a straight line are supplementary:<br/>$$\\text{obtuse} = 180 - (9x - 490) = 670 - 9x$$"
+      "title": "Express the obtuse angle",
+      "content": "The acute angle is $(9x-490)^\\circ$. Since each acute angle and adjacent obtuse angle are supplementary, an obtuse angle has measure:<br/>$$180-(9x-490)=670-9x$$"
     },
     {
-      "title": "Write the sum expression",
-      "content": "The total measure $w$ equals one acute angle plus three obtuse angles:<br/>$$w = (9x - 490) + 3(670 - 9x)$$"
+      "title": "Match the given sum form",
+      "content": "The sum of one acute angle and three obtuse angles is:<br/>$$(9x-490)+3(670-9x)=9x-490+2010-27x=-18x+1520$$"
     },
     {
-      "title": "Expand and simplify",
-      "content": "$$w = 9x - 490 + 2010 - 27x = -18x + 1520$$<br/>The coefficient of $x$ is $-18$ and the constant is $\\mathbf{1520}$, so $w = 1520$ when the $x$-terms cancel.<br/>The answer is <strong>1520</strong>."
+      "title": "Compare constants",
+      "content": "The problem says this sum is $(-18x+w)^\\circ$. Since the simplified expression is $-18x+1520$, the constant term is $w=1520$. The answer is <strong>1520</strong>."
     }
   ]
 }

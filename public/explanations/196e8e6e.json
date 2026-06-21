@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+      "title": "Find the radius from the coordinates",
+      "content": "Point $A$ lies on the circle with center $C(h,k)$, so $CA$ is a radius. Use the distance from $C(h,k)$ to $A(h+1,k+\\sqrt{102})$ to find that radius."
     },
     {
       "title": "Find the radius of the circle",

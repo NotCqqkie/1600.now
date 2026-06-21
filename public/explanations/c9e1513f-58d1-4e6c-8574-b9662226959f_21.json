@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+      "title": "Use standard circle form",
+      "content": "A circle in standard form is $(x-h)^2+(y-k)^2=r^2$, where $(h,k)$ is the center and $r$ is the radius. Since $(x+6a)^2=(x-(-6a))^2$, circle $M$ has center $(-6a,38a)$ and radius $6a$."
     },
     {
-      "title": "Identify the center and radius of circle M",
-      "content": "The equation $(x + 6a)^2 + (y - 38a)^2 = 36a^2$ is in standard form. Rewrite it as $(x - (-6a))^2 + (y - 38a)^2 = (6a)^2$ to identify:<ul><li>Center M: $(-6a, 38a)$</li><li>Radius: $6a$</li></ul>"
+      "title": "Shift the center right",
+      "content": "Moving a circle $12a$ units to the right adds $12a$ to the x-coordinate of the center and leaves the y-coordinate and radius unchanged:<br/>$$(-6a+12a,38a)=(6a,38a)$$"
     },
     {
-      "title": "Apply the rightward shift to find circle V",
-      "content": "Shifting circle M rightward by $12a$ units means adding $12a$ to the x-coordinate of its center:<br/><strong>New center V: $(-6a + 12a, 38a) = (6a, 38a)$</strong><br/>The y-coordinate and radius remain unchanged, so circle V has equation:<br/>$$(x - 6a)^2 + (y - 38a)^2 = 36a^2$$<br/>That is the correct answer."
+      "title": "Write the shifted equation",
+      "content": "A circle with center $(6a,38a)$ and radius $6a$ has equation:<br/>$$(x-6a)^2+(y-38a)^2=36a^2$$<br/>That matches <strong>D</strong>."
     }
   ]
 }

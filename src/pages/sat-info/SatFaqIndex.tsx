@@ -2,6 +2,21 @@ import { Link } from "react-router-dom";
 import { PageSeo, buildBreadcrumbJsonLd, buildFaqJsonLd } from "@/components/seo/PageSeo";
 import { satFaqPages } from "@/lib/seo-data/satFaqData";
 
+const TITLE = "SAT FAQ: Answers to the Most Common SAT Questions";
+const DESCRIPTION =
+  "Answers to the most-searched SAT questions — test length, calculator rules, scoring, percentiles, fee waivers, and more.";
+const SAT_FAQ_URL = "https://1600.now/sat-faq";
+const FAQ_CARD_CLASS = "block rounded-lg border border-border bg-card p-4 transition hover:border-foreground/40";
+const faqIndexJsonLd = [
+  buildBreadcrumbJsonLd([
+    { name: "Home", url: "https://1600.now/" },
+    { name: "SAT FAQ", url: SAT_FAQ_URL },
+  ]),
+  buildFaqJsonLd(
+    satFaqPages.map((faqPage) => ({ question: faqPage.question, answer: faqPage.shortAnswer })),
+  ),
+];
+
 const faqActionFor = (slug: string) => {
   if (slug.includes("score") || slug.includes("percentile") || slug.includes("curved")) {
     return { href: "/score-calculator", label: "Use score calculator" };
@@ -25,25 +40,13 @@ const faqActionFor = (slug: string) => {
 };
 
 const SatFaqIndex = () => {
-  const title = "SAT FAQ: Answers to the Most Common SAT Questions";
-  const description =
-    "Answers to the most-searched SAT questions — test length, calculator rules, scoring, percentiles, fee waivers, and more.";
-
   return (
     <div className="mx-auto max-w-4xl px-6 py-12">
       <PageSeo
         id="sat-faq-index"
-        title={title}
-        description={description}
-        jsonLd={[
-          buildBreadcrumbJsonLd([
-            { name: "Home", url: "https://1600.now/" },
-            { name: "SAT FAQ", url: "https://1600.now/sat-faq" },
-          ]),
-          buildFaqJsonLd(
-            satFaqPages.map((faqPage) => ({ question: faqPage.question, answer: faqPage.shortAnswer })),
-          ),
-        ]}
+        title={TITLE}
+        description={DESCRIPTION}
+        jsonLd={faqIndexJsonLd}
       />
 
       <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">SAT FAQ</h1>
@@ -73,10 +76,10 @@ const SatFaqIndex = () => {
             <li key={faqPage.slug}>
               <Link
                 to={action.href}
-                className="block rounded-lg border border-border bg-card p-4 transition hover:border-foreground/40"
+                className={FAQ_CARD_CLASS}
               >
-              <div className="font-semibold">{faqPage.question}</div>
-              <p className="mt-1 text-sm text-muted-foreground">{faqPage.shortAnswer}</p>
+                <div className="font-semibold">{faqPage.question}</div>
+                <p className="mt-1 text-sm text-muted-foreground">{faqPage.shortAnswer}</p>
                 <div className="mt-3 text-sm font-semibold text-foreground">{action.label}</div>
               </Link>
             </li>

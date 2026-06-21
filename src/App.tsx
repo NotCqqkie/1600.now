@@ -2395,7 +2395,7 @@ const StableRoutes = () => {
   return (
     <>
       <Seo />
-      <ScrollToTop location={displayLocation} />
+      <ScrollToTop pathname={displayLocation.pathname} />
       <AuthReturnTracker />
       <EmailVerificationGuard />
       <AnalyticsPageTracker />

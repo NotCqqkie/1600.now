@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+      "title": "Read the radius from standard form",
+      "content": "A circle in standard form has right side $r^2$. Find the radius by taking the square root, then double it to get the diameter."
     },
     {
       "title": "Identify the radius using standard circle form",
@@ -14,7 +14,7 @@
     },
     {
       "title": "Calculate the diameter",
-      "content": "From $r^2 = 16$, we get $r = \\sqrt{16} = 4$. Since diameter equals twice the radius: $$d = 2(4) = 8$$ That is the correct answer."
+      "content": "From $r^2 = 16$, we get $r = \\sqrt{16} = 4$. Since diameter equals twice the radius: $$d = 2(4) = 8$$<br/><br/>That is the correct answer."
     }
   ]
 }

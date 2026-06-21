@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 
 import { PageSeo, buildBreadcrumbJsonLd } from "@/components/seo/PageSeo";
+import { legalPageClasses } from "./legalPageClasses";
 
 const contactEmail = "info@1600.now";
 
@@ -127,7 +128,7 @@ const sections = [
 
 const PrivacyPolicy = () => {
   return (
-    <main className="mx-auto max-w-4xl px-6 py-10">
+    <main className={legalPageClasses.main}>
       <PageSeo
         id="privacy-policy"
         title="Privacy Policy | 1600.now"
@@ -146,14 +147,14 @@ const PrivacyPolicy = () => {
         ]}
       />
 
-      <header className="mb-10">
-        <p className="text-sm font-medium text-muted-foreground">
+      <header className={legalPageClasses.header}>
+        <p className={legalPageClasses.effectiveDate}>
           Effective date: April 20, 2026
         </p>
-        <h1 className="mt-2 text-4xl font-semibold tracking-tight">
+        <h1 className={legalPageClasses.title}>
           Privacy Policy
         </h1>
-        <p className="mt-4 text-lg text-muted-foreground">
+        <p className={legalPageClasses.intro}>
           This Privacy Policy explains how 1600.now collects, uses, shares, and
           protects information when you use our SAT prep website, tools,
           practice modules, question bank, score calculator, and related
@@ -161,13 +162,13 @@ const PrivacyPolicy = () => {
         </p>
       </header>
 
-      <div className="space-y-8">
+      <div className={legalPageClasses.sections}>
         {sections.map((section) => (
           <section key={section.title}>
-            <h2 className="text-2xl font-semibold tracking-tight">
+            <h2 className={legalPageClasses.sectionTitle}>
               {section.title}
             </h2>
-            <div className="mt-3 space-y-3 text-muted-foreground">
+            <div className={legalPageClasses.sectionBody}>
               {section.body.map((paragraph) => (
                 <p key={paragraph}>{paragraph}</p>
               ))}
@@ -176,17 +177,17 @@ const PrivacyPolicy = () => {
         ))}
       </div>
 
-      <div className="mt-12 rounded-lg border border-border bg-card p-5 text-sm text-muted-foreground">
+      <div className={legalPageClasses.footer}>
         <p>
           For account, privacy, or support questions, email{" "}
-          <a className="font-medium text-foreground underline" href={`mailto:${contactEmail}`}>
+          <a className={legalPageClasses.link} href={`mailto:${contactEmail}`}>
             {contactEmail}
           </a>
           .
         </p>
-        <p className="mt-2">
+        <p className={legalPageClasses.footerSecondary}>
           Review the{" "}
-          <Link className="font-medium text-foreground underline" to="/terms">
+          <Link className={legalPageClasses.link} to="/terms">
             Terms of Service
           </Link>
           .

@@ -1,71 +1,50 @@
 import type { QuestionImageDisplaySize } from "@/data/questionImageSizing.generated";
 
 type QuestionImageSubject = "math" | "reading";
+const questionImageSubjects = ["math", "reading"] as const;
+const questionImageDisplaySizes: QuestionImageDisplaySize[] = [
+  "compact",
+  "standard",
+  "wide",
+  "large",
+  "tall",
+  "xlarge",
+];
+const defaultQuestionImageDisplaySize: QuestionImageDisplaySize = "standard";
 
-const questionImageClassNames: Record<QuestionImageSubject, Record<QuestionImageDisplaySize, string>> = {
-  math: {
-    compact: "question-image-size question-image-bank question-image-math question-image-compact",
-    standard: "question-image-size question-image-bank question-image-math question-image-standard",
-    wide: "question-image-size question-image-bank question-image-math question-image-wide",
-    large: "question-image-size question-image-bank question-image-math question-image-large",
-    tall: "question-image-size question-image-bank question-image-math question-image-tall",
-    xlarge: "question-image-size question-image-bank question-image-math question-image-xlarge",
-  },
-  reading: {
-    compact: "question-image-size question-image-bank question-image-reading question-image-compact",
-    standard: "question-image-size question-image-bank question-image-reading question-image-standard",
-    wide: "question-image-size question-image-bank question-image-reading question-image-wide",
-    large: "question-image-size question-image-bank question-image-reading question-image-large",
-    tall: "question-image-size question-image-bank question-image-reading question-image-tall",
-    xlarge: "question-image-size question-image-bank question-image-reading question-image-xlarge",
-  },
-};
+const buildSubjectImageClassNames = (layoutClassName: string) =>
+  Object.fromEntries(
+    questionImageSubjects.map((subject) => [
+      subject,
+      Object.fromEntries(
+        questionImageDisplaySizes.map((size) => [
+          size,
+          `question-image-size ${layoutClassName} question-image-${subject} question-image-${size}`,
+        ]),
+      ),
+    ]),
+  ) as Record<QuestionImageSubject, Record<QuestionImageDisplaySize, string>>;
 
-const relaxedQuestionImageClassNames: Record<QuestionImageSubject, Record<QuestionImageDisplaySize, string>> = {
-  math: {
-    compact: "question-image-size question-image-relaxed question-image-math question-image-compact",
-    standard: "question-image-size question-image-relaxed question-image-math question-image-standard",
-    wide: "question-image-size question-image-relaxed question-image-math question-image-wide",
-    large: "question-image-size question-image-relaxed question-image-math question-image-large",
-    tall: "question-image-size question-image-relaxed question-image-math question-image-tall",
-    xlarge: "question-image-size question-image-relaxed question-image-math question-image-xlarge",
-  },
-  reading: {
-    compact: "question-image-size question-image-relaxed question-image-reading question-image-compact",
-    standard: "question-image-size question-image-relaxed question-image-reading question-image-standard",
-    wide: "question-image-size question-image-relaxed question-image-reading question-image-wide",
-    large: "question-image-size question-image-relaxed question-image-reading question-image-large",
-    tall: "question-image-size question-image-relaxed question-image-reading question-image-tall",
-    xlarge: "question-image-size question-image-relaxed question-image-reading question-image-xlarge",
-  },
-};
+const buildSizeImageClassNames = (baseClassName: string, sizePrefix: string) =>
+  Object.fromEntries(
+    questionImageDisplaySizes.map((size) => [
+      size,
+      `question-image-size ${baseClassName} ${sizePrefix}-${size}`,
+    ]),
+  ) as Record<QuestionImageDisplaySize, string>;
 
-const reviewQuestionImageClassNames: Record<QuestionImageDisplaySize, string> = {
-  compact: "question-image-size question-image-review question-image-compact",
-  standard: "question-image-size question-image-review question-image-standard",
-  wide: "question-image-size question-image-review question-image-wide",
-  large: "question-image-size question-image-review question-image-large",
-  tall: "question-image-size question-image-review question-image-tall",
-  xlarge: "question-image-size question-image-review question-image-xlarge",
-};
+const questionImageClassNames = buildSubjectImageClassNames("question-image-bank");
 
-const choiceImageClassNames: Record<QuestionImageDisplaySize, string> = {
-  compact: "question-image-size question-choice-image question-choice-image-compact",
-  standard: "question-image-size question-choice-image question-choice-image-standard",
-  wide: "question-image-size question-choice-image question-choice-image-wide",
-  large: "question-image-size question-choice-image question-choice-image-large",
-  tall: "question-image-size question-choice-image question-choice-image-tall",
-  xlarge: "question-image-size question-choice-image question-choice-image-xlarge",
-};
+const relaxedQuestionImageClassNames = buildSubjectImageClassNames("question-image-relaxed");
 
-const reviewChoiceImageClassNames: Record<QuestionImageDisplaySize, string> = {
-  compact: "question-image-size question-choice-image-review question-choice-image-compact",
-  standard: "question-image-size question-choice-image-review question-choice-image-standard",
-  wide: "question-image-size question-choice-image-review question-choice-image-wide",
-  large: "question-image-size question-choice-image-review question-choice-image-large",
-  tall: "question-image-size question-choice-image-review question-choice-image-tall",
-  xlarge: "question-image-size question-choice-image-review question-choice-image-xlarge",
-};
+const reviewQuestionImageClassNames = buildSizeImageClassNames("question-image-review", "question-image");
+
+const choiceImageClassNames = buildSizeImageClassNames("question-choice-image", "question-choice-image");
+
+const reviewChoiceImageClassNames = buildSizeImageClassNames(
+  "question-choice-image-review",
+  "question-choice-image",
+);
 
 export const getQuestionImageClassName = (
   displaySize: QuestionImageDisplaySize | undefined,
@@ -73,17 +52,17 @@ export const getQuestionImageClassName = (
   reduced: boolean,
 ) => {
   const sizes = reduced ? questionImageClassNames : relaxedQuestionImageClassNames;
-  return sizes[subject][displaySize ?? "standard"];
+  return sizes[subject][displaySize ?? defaultQuestionImageDisplaySize];
 };
 
 export const getReviewQuestionImageClassName = (
   displaySize: QuestionImageDisplaySize | undefined,
-) => reviewQuestionImageClassNames[displaySize ?? "standard"];
+) => reviewQuestionImageClassNames[displaySize ?? defaultQuestionImageDisplaySize];
 
 export const getChoiceImageClassName = (
   displaySize: QuestionImageDisplaySize | undefined,
-) => choiceImageClassNames[displaySize ?? "standard"];
+) => choiceImageClassNames[displaySize ?? defaultQuestionImageDisplaySize];
 
 export const getReviewChoiceImageClassName = (
   displaySize: QuestionImageDisplaySize | undefined,
-) => reviewChoiceImageClassNames[displaySize ?? "standard"];
+) => reviewChoiceImageClassNames[displaySize ?? defaultQuestionImageDisplaySize];

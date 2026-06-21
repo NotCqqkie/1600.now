@@ -130,7 +130,7 @@ def validate_and_output(
     report_path = output_dir / f"{slug}_report.json"
     report_path.write_text(json.dumps(report, indent=2))
 
-    print(f"\n=== Validation Report ===")
+    print("\n=== Validation Report ===")
     print(f"Math: {len(math_questions)} questions")
     print(f"R&W:  {len(rw_questions)} questions")
     print(f"Total: {len(math_questions) + len(rw_questions)}")

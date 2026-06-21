@@ -16,8 +16,9 @@
     },
     {
       "title": "Step 4",
-      "content": "<ul><li>The matching choice: $v=\\sqrt{\\frac{2K}{49}}$. Matches the derived expression exactly. <strong>A</strong> is correct.</li><li>$v=\\sqrt{\\frac{49}{2K}}$. This has the fraction inverted; it would follow from $v^2 = \\frac{49}{2K}$, which is wrong. Eliminated.</li><li>$v=\\frac{49^{x}}{2K}$. Introduces an exponent variable $x$ that does not appear in the problem and does not follow from the algebra. Eliminated.</li><li>$v=\\frac{2K}{49^{x}}$. Also introduces $x$ and is not derived from the equation; there is no step in the solution that produces a quotient of this form. Eliminated.</li></ul>"
+      "content": "<ul><li>The matching choice: $v=\\sqrt{\\frac{2K}{49}}$. Matches the derived expression exactly. <strong>A</strong> is correct.</li><li>$v=\\sqrt{\\frac{49}{2K}}$. This has the fraction inverted; it would follow from $v^2 = \\frac{49}{2K}$, which is wrong. Eliminated.</li><li>$v=\\frac{49^{2}}{2K}$. This is not a square root and does not follow from solving for $v$. Eliminated.</li><li>$v=\\frac{2K}{49^{2}}$. This is also not a square root and incorrectly squares the denominator. Eliminated.</li></ul>"
     }
   ],
-  "correctAnswer": "A"
+  "correctAnswer": "A",
+  "section": "Math"
 }

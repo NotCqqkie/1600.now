@@ -237,8 +237,8 @@
   },
   {
     "section": "Math",
-    "domain": "Algebra",
-    "skill": "Linear equations in two variables",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
     "difficulty": "Medium",
     "rationale": null,
     "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_10",
@@ -310,8 +310,8 @@
   },
   {
     "section": "Math",
-    "domain": "Algebra",
-    "skill": "Linear functions",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
     "difficulty": "Medium",
     "rationale": null,
     "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_13",
@@ -886,7 +886,7 @@
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Systems of two linear equations in two variables",
+    "skill": "Linear inequalities in one or two variables",
     "difficulty": "Medium",
     "rationale": null,
     "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_14",
@@ -1031,8 +1031,8 @@
   },
   {
     "section": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Area and volume",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, rates, proportional relationships, and units",
     "difficulty": "Medium",
     "rationale": null,
     "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_20",
@@ -1057,8 +1057,8 @@
   },
   {
     "section": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Lines, angles, and triangles",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
     "difficulty": "Hard",
     "rationale": null,
     "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_22",
@@ -1117,8 +1117,8 @@
   },
   {
     "section": "Math",
-    "domain": "Algebra",
-    "skill": "Linear equations in two variables",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, angles, and triangles",
     "difficulty": "Easy",
     "rationale": null,
     "id": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_2",
@@ -1277,7 +1277,7 @@
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Probability and conditional probability",
+    "skill": "Inference from sample statistics and margin of error",
     "difficulty": "Easy",
     "rationale": null,
     "id": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_9",
@@ -1336,8 +1336,8 @@
   },
   {
     "section": "Math",
-    "domain": "Algebra",
-    "skill": "Linear functions",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
     "difficulty": "Easy",
     "rationale": null,
     "id": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_11",
@@ -1397,7 +1397,7 @@
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear equations in one variable",
+    "skill": "Linear equations in two variables",
     "difficulty": "Medium",
     "rationale": null,
     "id": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_13",
@@ -1456,8 +1456,8 @@
   },
   {
     "section": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of two linear equations in two variables",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
     "difficulty": "Medium",
     "rationale": null,
     "id": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_15",
@@ -1516,8 +1516,8 @@
   },
   {
     "section": "Math",
-    "domain": "Algebra",
-    "skill": "Linear equations in two variables",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
     "difficulty": "Medium",
     "rationale": null,
     "id": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_17",
@@ -1698,7 +1698,7 @@
     "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_2",
     "testName": "Past SAT-based",
-    "text": "If $8(x + 3) = 64$, what is the value of $x$ + 3?",
+    "text": "If $8(x + 3) = 64$, what is the value of $x+3$?",
     "choices": [
       {
         "id": "A",
@@ -1752,8 +1752,8 @@
   },
   {
     "section": "Math",
-    "domain": "Algebra",
-    "skill": "Linear functions",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
     "difficulty": "Easy",
     "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_4",
@@ -1783,7 +1783,7 @@
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent expressions",
+    "skill": "Nonlinear functions",
     "difficulty": "Easy",
     "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_5",
@@ -1842,8 +1842,8 @@
   },
   {
     "section": "Math",
-    "domain": "Algebra",
-    "skill": "Linear equations in two variables",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
     "difficulty": "Medium",
     "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_7",
@@ -1872,8 +1872,8 @@
   },
   {
     "section": "Math",
-    "domain": "Advanced Math",
-    "skill": "Equivalent expressions",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: Distributions and measures of center and spread",
     "difficulty": "Hard",
     "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_8",
@@ -1886,7 +1886,7 @@
       },
       {
         "id": "B",
-        "text": "The range of the masses, in kg, of the plants that Ari examined is less than the range of the masses, in kg, of the plants that Chihiro examined."
+        "text": "The range of the masses, in kg, of the plants that Ari examined is greater than the range of the masses, in kg, of the plants that Chihiro examined."
       },
       {
         "id": "C",
@@ -2110,7 +2110,7 @@
     "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_18",
     "testName": "Past SAT-based",
-    "text": "$2\\cos(90 - a)\\degree \\cdot \\cos b\\degree + \\sin(a + y)\\degree \\cdot \\sin(90 - b)\\degree$\nIn the given expression, $a$ and $b$ are constants such that $\\sin a\\degree = 0.50$, $\\cos b\\degree = 0.99$, and $0 \\lt b \\lt 90$. What is the value of the given expression when $y = 0$?",
+    "text": "$2\\cos((90-a)^\\circ) \\cdot \\cos(b^\\circ) + \\sin((a+y)^\\circ) \\cdot \\sin((90-b)^\\circ)$\nIn the given expression, $a$ and $b$ are constants such that $\\sin(a^\\circ)=0.50$, $\\cos(b^\\circ)=0.99$, and $0 \\lt b \\lt 90$. What is the value of the given expression when $y = 0$?",
     "choices": [],
     "correctAnswer": "1.485",
     "type": "free-response"
@@ -2281,12 +2281,12 @@
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent expressions",
+    "skill": "Nonlinear functions",
     "difficulty": "Medium",
     "rationale": null,
     "id": "a22baf87-f61e-43f7-b868-52cf0e05d234_3",
     "testName": "Past SAT-based",
-    "text": "Anton is selling toys from his toy collection. When he started selling the toys, there were 2,800 toys in the collection. At the end of each week for 3 weeks after Anton started selling the toys, the number of toys in the collection had decreased by $\\frac{1}{2}$ of the toys in the collection at the end of the previous week. Which equation gives the number of toys, $c$, in the collection $w$ weeks after Anton started selling the toys, where $0 \\leq w$?",
+    "text": "Anton is selling toys from his toy collection. When he started selling the toys, there were 2,800 toys in the collection. At the end of each week for 3 weeks after Anton started selling the toys, the number of toys in the collection had decreased by $\\frac{1}{2}$ of the toys in the collection at the end of the previous week. Which equation gives the number of toys, $c$, in the collection $w$ weeks after Anton started selling the toys, where $0 \\leq w \\leq 3$?",
     "choices": [
       {
         "id": "A",
@@ -2340,8 +2340,8 @@
   },
   {
     "section": "Math",
-    "domain": "Algebra",
-    "skill": "Linear functions",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
     "difficulty": "Easy",
     "rationale": null,
     "id": "a22baf87-f61e-43f7-b868-52cf0e05d234_5",
@@ -2482,8 +2482,8 @@
   },
   {
     "section": "Math",
-    "domain": "Algebra",
-    "skill": "Linear functions",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
     "difficulty": "Medium",
     "rationale": null,
     "id": "a22baf87-f61e-43f7-b868-52cf0e05d234_12",
@@ -2761,8 +2761,8 @@
   },
   {
     "section": "Math",
-    "domain": "Advanced Math",
-    "skill": "Equivalent expressions",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
     "difficulty": "Medium",
     "rationale": null,
     "id": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_2",
@@ -2881,8 +2881,8 @@
   },
   {
     "section": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Area and volume",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
     "difficulty": "Medium",
     "rationale": null,
     "id": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_6",
@@ -3147,8 +3147,8 @@
   },
   {
     "section": "Math",
-    "domain": "Algebra",
-    "skill": "Linear equations in one variable",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
     "difficulty": "Medium",
     "rationale": null,
     "id": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_16",
@@ -3366,8 +3366,8 @@
   },
   {
     "section": "Math",
-    "domain": "Algebra",
-    "skill": "Linear equations in two variables",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, angles, and triangles",
     "difficulty": "Easy",
     "rationale": null,
     "id": "9377a50a-f782-492e-a3bf-a2b90698cacc_3",
@@ -3482,8 +3482,8 @@
   },
   {
     "section": "Math",
-    "domain": "Algebra",
-    "skill": "Linear equations in one variable",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, angles, and triangles",
     "difficulty": "Easy",
     "rationale": null,
     "id": "9377a50a-f782-492e-a3bf-a2b90698cacc_8",
@@ -3542,8 +3542,8 @@
   },
   {
     "section": "Math",
-    "domain": "Algebra",
-    "skill": "Linear functions",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
     "difficulty": "Easy",
     "rationale": null,
     "id": "9377a50a-f782-492e-a3bf-a2b90698cacc_10",
@@ -3599,7 +3599,7 @@
   {
     "section": "Math",
     "domain": "Geometry and Trigonometry",
-    "skill": "Lines, angles, and triangles",
+    "skill": "Right triangles and trigonometry",
     "difficulty": "Medium",
     "rationale": null,
     "id": "9377a50a-f782-492e-a3bf-a2b90698cacc_13",
@@ -3744,8 +3744,8 @@
   },
   {
     "section": "Math",
-    "domain": "Algebra",
-    "skill": "Linear functions",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
     "difficulty": "Hard",
     "rationale": null,
     "id": "9377a50a-f782-492e-a3bf-a2b90698cacc_19",
@@ -3877,8 +3877,8 @@
   },
   {
     "section": "Math",
-    "domain": "Advanced Math",
-    "skill": "Equivalent expressions",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
     "difficulty": "Medium",
     "rationale": null,
     "id": "979898ba-60c7-4531-ac45-29c4db2b3361_2",
@@ -3907,8 +3907,8 @@
   },
   {
     "section": "Math",
-    "domain": "Advanced Math",
-    "skill": "Equivalent expressions",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, rates, proportional relationships, and units",
     "difficulty": "Easy",
     "rationale": null,
     "id": "979898ba-60c7-4531-ac45-29c4db2b3361_3",
@@ -4191,7 +4191,7 @@
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent expressions",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
     "difficulty": "Hard",
     "rationale": null,
     "id": "979898ba-60c7-4531-ac45-29c4db2b3361_15",
@@ -4220,8 +4220,8 @@
   },
   {
     "section": "Math",
-    "domain": "Algebra",
-    "skill": "Linear equations in one variable",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
     "difficulty": "Medium",
     "rationale": null,
     "id": "979898ba-60c7-4531-ac45-29c4db2b3361_16",
@@ -4336,8 +4336,8 @@
   },
   {
     "section": "Math",
-    "domain": "Algebra",
-    "skill": "Linear equations in two variables",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
     "difficulty": "Hard",
     "rationale": null,
     "id": "979898ba-60c7-4531-ac45-29c4db2b3361_21",
@@ -4516,8 +4516,8 @@
   },
   {
     "section": "Math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: Distributions and measures of center and spread",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
     "difficulty": "Easy",
     "rationale": null,
     "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_6",
@@ -4606,8 +4606,8 @@
   },
   {
     "section": "Math",
-    "domain": "Algebra",
-    "skill": "Linear functions",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
     "difficulty": "Easy",
     "rationale": null,
     "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_9",
@@ -4666,8 +4666,8 @@
   },
   {
     "section": "Math",
-    "domain": "Algebra",
-    "skill": "Linear equations in two variables",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, angles, and triangles",
     "difficulty": "Medium",
     "rationale": null,
     "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_11",
@@ -4696,8 +4696,8 @@
   },
   {
     "section": "Math",
-    "domain": "Advanced Math",
-    "skill": "Equivalent expressions",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
     "difficulty": "Easy",
     "rationale": null,
     "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_12",
@@ -4795,13 +4795,13 @@
   },
   {
     "section": "Math",
-    "domain": "Algebra",
-    "skill": "Linear equations in two variables",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
     "difficulty": "Easy",
     "rationale": null,
     "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_17",
     "testName": "Past SAT-based",
-    "text": "$y=500(2)^{2x}$\nThe equation gives the estimated number of online newsletter subscribers at the end of every six-month period, $x$, starting from the end of January 1997, where $0 \\lt x \\lt 4$. Which statement is the best interpretation of the $y$ intercept of the graph of this equation in the $xy$-plane?",
+    "text": "$y=500(2)^{2x}$\nThe equation gives the estimated number of online newsletter subscribers at the end of every six-month period, $x$, starting from the end of January 1997, where $0 \\le x \\lt 4$. Which statement is the best interpretation of the $y$ intercept of the graph of this equation in the $xy$-plane?",
     "choices": [
       {
         "id": "A",
@@ -4852,7 +4852,7 @@
       },
       {
         "id": "B",
-        "text": "$0 \\lt c \\lt 20$"
+        "text": "$0 \\lt c \\lt 40$"
       },
       {
         "id": "C",
@@ -4954,8 +4954,8 @@
   },
   {
     "section": "Math",
-    "domain": "Algebra",
-    "skill": "Linear functions",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
     "difficulty": "Easy",
     "rationale": null,
     "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_2",
@@ -5015,11 +5015,11 @@
       },
       {
         "id": "C",
-        "text": "$v=\\frac{49^{x}}{2K}$"
+        "text": "$v=\\frac{49^{2}}{2K}$"
       },
       {
         "id": "D",
-        "text": "$v=\\frac{2K}{49^{x}}$"
+        "text": "$v=\\frac{2K}{49^{2}}$"
       }
     ],
     "correctAnswer": "A",
@@ -5057,8 +5057,8 @@
   },
   {
     "section": "Math",
-    "domain": "Algebra",
-    "skill": "Linear functions",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
     "difficulty": "Easy",
     "rationale": null,
     "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_6",
@@ -5088,7 +5088,7 @@
   {
     "section": "Math",
     "domain": "Problem-Solving and Data Analysis",
-    "skill": "Percentages",
+    "skill": "Probability and conditional probability",
     "difficulty": "Easy",
     "rationale": null,
     "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_7",
@@ -5101,7 +5101,7 @@
   {
     "section": "Math",
     "domain": "Advanced Math",
-    "skill": "Equivalent expressions",
+    "skill": "Nonlinear functions",
     "difficulty": "Medium",
     "rationale": null,
     "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_8",
@@ -5233,21 +5233,21 @@
   },
   {
     "section": "Math",
-    "domain": "Algebra",
-    "skill": "Linear inequalities in one or two variables",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
     "difficulty": "Medium",
     "rationale": null,
     "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_13",
     "testName": "Past SAT-based",
     "text": "$\\sqrt[7]{x^5}$\nIn the given expression, $m$ is a constant and $x \\gt 1$. The expression can be rewritten as $x^m$. What is the value of $m$?",
     "choices": [],
-    "correctAnswer": "5/7,0.714,.7143",
+    "correctAnswer": "5/7",
     "type": "free-response"
   },
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear inequalities in one or two variables",
+    "skill": "Linear equations in two variables",
     "difficulty": "Medium",
     "rationale": null,
     "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_14",
@@ -5662,8 +5662,8 @@
   },
   {
     "section": "Math",
-    "domain": "Algebra",
-    "skill": "Linear functions",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
     "difficulty": "Easy",
     "rationale": null,
     "id": "4e1b3643-30b1-41c4-9027-1f149baf52c7_8",
@@ -5821,8 +5821,8 @@
   },
   {
     "section": "Math",
-    "domain": "Algebra",
-    "skill": "Linear equations in two variables",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
     "difficulty": "Medium",
     "rationale": null,
     "id": "4e1b3643-30b1-41c4-9027-1f149baf52c7_16",
@@ -5894,8 +5894,8 @@
   },
   {
     "section": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of two linear equations in two variables",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
     "difficulty": "Hard",
     "rationale": null,
     "id": "4e1b3643-30b1-41c4-9027-1f149baf52c7_19",

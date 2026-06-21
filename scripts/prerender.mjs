@@ -107,8 +107,8 @@ function urlsFromSitemap() {
 }
 
 function outputPathFor(route) {
-  const clean = route === "/" ? "/index.html" : `${route.replace(/\/$/, "")}/index.html`;
-  return path.join(dist, clean);
+  if (route === "/") return path.join(dist, "index.html");
+  return path.join(dist, `${route.replace(/^\/|\/$/g, "")}.html`);
 }
 
 async function main() {
@@ -177,9 +177,7 @@ async function main() {
       },
       { timeout: PRERENDER_READY_TIMEOUT_MS, polling: 100 },
     );
-    await page.evaluate(
-      () => new Promise((r) => requestAnimationFrame(() => requestAnimationFrame(r))),
-    );
+    await page.evaluate(() => document.documentElement.scrollHeight);
     const html = await page.content();
     const out = outputPathFor(route);
     mkdirSync(path.dirname(out), { recursive: true });

@@ -1,12 +1,11 @@
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { cn } from "@/lib/utils";
-import { useThemeMode } from "@/hooks/useThemeMode";
+import { useThemeMode } from "@/lib/theme";
 
 interface BrandLogoProps {
   className?: string;
   imageClassName?: string;
-  href?: string;
-  variant?: "full" | "mark" | "adaptive";
+  variant: "full" | "mark" | "adaptive";
   collapsed?: boolean;
 }
 
@@ -15,8 +14,7 @@ const highPriorityImageProps = { fetchpriority: "high" } as const;
 export const BrandLogo = ({
   className,
   imageClassName,
-  href = "/",
-  variant = "full",
+  variant,
   collapsed = false,
 }: BrandLogoProps) => {
   const isDark = useThemeMode();
@@ -82,14 +80,14 @@ export const BrandLogo = ({
 
   return (
     <Link
-      to={href}
+      to="/"
       className="inline-flex items-center no-underline"
       aria-label="1600.now homepage"
       onClick={(event) => {
         if (event.defaultPrevented) return;
         if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
         event.preventDefault();
-        if (location.pathname === href) {
+        if (location.pathname === "/") {
           const startY = window.scrollY || document.documentElement.scrollTop;
           if (startY <= 0) return;
           const duration = 500;
@@ -102,7 +100,7 @@ export const BrandLogo = ({
           };
           requestAnimationFrame(step);
         } else {
-          navigate(href);
+          navigate("/");
         }
       }}
     >

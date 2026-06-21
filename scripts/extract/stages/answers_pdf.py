@@ -155,7 +155,7 @@ def extract_answer_pdf(
 
     metadata_path = answers_work_dir / "page_metadata.json"
     if metadata_path.exists() and (answers_work_dir / "pages").exists():
-        print(f"Reusing cached answer PDF render")
+        print("Reusing cached answer PDF render")
         metadata = json.loads(metadata_path.read_text())
     else:
         print(f"Rendering answer PDF: {answers_pdf_path}")

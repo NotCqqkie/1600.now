@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+      "title": "Use the rectangle perimeter formula",
+      "content": "A rectangle's perimeter is the sum of all four sides. This rectangle has two sides of length $4$ and two sides of width $9$, so add all four side lengths or use $P=2l+2w$."
     },
     {
       "title": "Recall the perimeter formula",

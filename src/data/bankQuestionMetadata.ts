@@ -1,9 +1,9 @@
 import { BANK_COUNT_INDEX } from "@/lib/generated/bankCountIndex.generated";
 import {
-  defaultFilters,
+  hasActiveQuestionBankFilters,
   MAX_TIME_SPENT_FILTER_SECONDS,
   type QuestionBankFilters,
-} from "@/components/question/questionBankFilterModel";
+} from "@/lib/questionBankFilters";
 import type { BankSourceFilter, BankSubject } from "@/data/bankTypes";
 
 type BankQuestionMetaRow = [
@@ -32,23 +32,23 @@ export interface BankQuestionMeta {
   bankVisible: boolean;
 }
 
-export interface BankQuestionProgressSnapshot {
+interface BankQuestionProgressSnapshot {
   questionId: string;
   isMarkedForReview: boolean;
   attempts: Array<{ result: "correct" | "incorrect" }>;
   totalTimeSpentSeconds: number;
 }
 
-export type BankQuestionProgressLookup = (question: BankQuestionMeta) => BankQuestionProgressSnapshot;
+type BankQuestionProgressLookup = (question: BankQuestionMeta) => BankQuestionProgressSnapshot;
 
-export interface QuestionCountBucket {
+interface QuestionCountBucket {
   total: number;
   correct: number;
   domains: Record<string, { total: number; correct: number }>;
   skills: Record<string, { total: number; correct: number }>;
 }
 
-export interface QuestionCountTree {
+interface QuestionCountTree {
   math: QuestionCountBucket;
   reading: QuestionCountBucket;
 }
@@ -116,7 +116,7 @@ const matchesActiveFilter = (question: BankQuestionMeta, filters: QuestionBankFi
   return !question.active;
 };
 
-export const questionMetaPassesFilters = (
+const questionMetaPassesFilters = (
   question: BankQuestionMeta,
   filters: QuestionBankFilters,
   getProgress: BankQuestionProgressLookup,
@@ -155,6 +155,18 @@ export const questionMetaPassesFilters = (
   return true;
 };
 
+const addCountEntry = (
+  counts: QuestionCountBucket["domains"],
+  key: string,
+  total: number,
+  correct: number,
+) => {
+  const entry = counts[key] ?? { total: 0, correct: 0 };
+  entry.total += total;
+  entry.correct += correct;
+  counts[key] = entry;
+};
+
 const addQuestion = (
   bucket: QuestionCountBucket,
   question: BankQuestionMeta,
@@ -165,29 +177,9 @@ const addQuestion = (
 
   bucket.total += 1;
   bucket.correct += correct;
-
-  const domainBucket = bucket.domains[domain] ?? { total: 0, correct: 0 };
-  domainBucket.total += 1;
-  domainBucket.correct += correct;
-  bucket.domains[domain] = domainBucket;
-
-  const skillBucket = bucket.skills[skill] ?? { total: 0, correct: 0 };
-  skillBucket.total += 1;
-  skillBucket.correct += correct;
-  bucket.skills[skill] = skillBucket;
+  addCountEntry(bucket.domains, domain, 1, correct);
+  addCountEntry(bucket.skills, skill, 1, correct);
 };
-
-const hasProgressFilters = (filters: QuestionBankFilters) =>
-  filters.markedForReview !== defaultFilters.markedForReview ||
-  filters.solved !== defaultFilters.solved ||
-  filters.answeredIncorrectly !== defaultFilters.answeredIncorrectly ||
-  filters.timeSpentRange[0] !== defaultFilters.timeSpentRange[0] ||
-  filters.timeSpentRange[1] !== defaultFilters.timeSpentRange[1];
-
-const hasQuestionFilters = (filters: QuestionBankFilters) =>
-  filters.difficulty.length > 0 ||
-  filters.activeQuestions !== defaultFilters.activeQuestions ||
-  hasProgressFilters(filters);
 
 export const loadBankQuestionMetaRows = async (
   subject: BankSubject,
@@ -197,7 +189,7 @@ export const loadBankQuestionMetaRows = async (
     (question) => question.bankVisible && question.subject === subject && matchesBankSource(question, bankSource),
   );
 
-const getQuestionCountTreeFromIndex = (
+export const getDefaultQuestionCountTree = (
   bankSource: BankSourceFilter,
 ): QuestionCountTree => {
   const tree = emptyTree();
@@ -206,16 +198,14 @@ const getQuestionCountTreeFromIndex = (
     const bucket = tree[subject];
     bucket.total = generated.total;
     for (const [domain, total] of Object.entries(generated.domains)) {
-      bucket.domains[domain] = { total, correct: 0 };
+      addCountEntry(bucket.domains, domain, total, 0);
     }
     for (const [skill, total] of Object.entries(generated.skills)) {
-      bucket.skills[skill] = { total, correct: 0 };
+      addCountEntry(bucket.skills, skill, total, 0);
     }
   }
   return tree;
 };
-
-export const getDefaultQuestionCountTree = getQuestionCountTreeFromIndex;
 
 export const loadQuestionCountTree = async (
   bankSource: BankSourceFilter,
@@ -224,8 +214,8 @@ export const loadQuestionCountTree = async (
 ): Promise<QuestionCountTree> => {
   const tree = emptyTree();
 
-  if (!hasQuestionFilters(filters) && getProgress === getEmptyProgress) {
-    return getQuestionCountTreeFromIndex(bankSource);
+  if (!hasActiveQuestionBankFilters(filters) && getProgress === getEmptyProgress) {
+    return getDefaultQuestionCountTree(bankSource);
   }
 
   const metaRows = await loadMetaRows();

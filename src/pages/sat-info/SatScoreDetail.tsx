@@ -7,6 +7,41 @@ import {
 } from "@/components/seo/PageSeo";
 import { allSatScores, getScoreProfile } from "@/lib/seo-data/satScoreData";
 
+const SECTION_HEADING_CLASS = "text-2xl font-semibold tracking-tight";
+const INLINE_LINK_CLASS = "underline";
+const TOOL_LINK_CLASS =
+  "inline-block rounded-lg border border-border px-3 py-2 text-sm transition hover:bg-muted";
+const FOOTER_LINK_CLASS = "text-sm underline";
+const TABLE_HEAD_CELL_CLASS = "px-4 py-3 font-semibold";
+const TABLE_ROW_CLASS = "border-t border-border";
+const TABLE_BODY_CELL_CLASS = "px-4 py-3 text-muted-foreground";
+const STAT_LABEL_CLASS = "text-xs uppercase tracking-wider text-muted-foreground";
+
+const ACTION_TABLE_ROWS = [
+  [
+    "Math is lower than Reading and Writing by 40+ points",
+    "Run two Math domain drills, then a timed Math module.",
+  ],
+  [
+    "Reading and Writing is lower by 40+ points",
+    "Split practice between Standard English Conventions and evidence/inference drills.",
+  ],
+  [
+    "Both sections are balanced but below target",
+    "Alternate full timed modules with narrow review sets from the bank.",
+  ],
+  [
+    "Most misses are careless or from rushing",
+    "Add a checkpoint plan and practice leaving two minutes for flagged questions.",
+  ],
+] as const;
+
+const TOOL_LINKS = [
+  { to: "/score-calculator", label: "Model section splits" },
+  { to: "/what-sat-score-do-i-need", label: "Compare college targets" },
+  { to: "/test-results", label: "Review saved test results" },
+] as const;
+
 const scoreActionPlan = (score: number) => {
   if (score >= 1550) {
     return {
@@ -73,7 +108,7 @@ const SatScoreDetail = () => {
         <h1 className="text-3xl font-semibold">Score not found</h1>
         <p className="mt-3 text-muted-foreground">
           Estimate your score with the{" "}
-          <Link className="underline" to="/score-calculator">
+          <Link className={INLINE_LINK_CLASS} to="/score-calculator">
             SAT score calculator
           </Link>
           .
@@ -90,6 +125,13 @@ const SatScoreDetail = () => {
   const rwTarget = Math.round(score / 2);
   const mathTarget = score - rwTarget;
   const actionPlan = scoreActionPlan(score);
+  const targetColleges = profile.collegeExamples.slice(0, 3).join(", ");
+  const missedQuestionEstimate = Math.round((1600 - score) / 15);
+  const scoreStats = [
+    { label: "Score", value: score, className: "font-mono text-3xl" },
+    { label: "Percentile", value: profile.percentile, className: "font-mono text-3xl" },
+    { label: "Tier", value: profile.tier, className: "text-lg font-semibold" },
+  ] as const;
 
   const faqs = [
     {
@@ -102,7 +144,7 @@ const SatScoreDetail = () => {
     },
     {
       question: `What colleges can I get into with a ${score} SAT?`,
-      answer: `A ${score} is competitive at schools such as ${profile.collegeExamples.slice(0, 3).join(", ")}. Many more schools are reachable depending on your GPA and application.`,
+      answer: `A ${score} is competitive at schools such as ${targetColleges}. Many more schools are reachable depending on your GPA and application.`,
     },
     {
       question: `How do I raise a ${score} SAT score?`,
@@ -110,7 +152,7 @@ const SatScoreDetail = () => {
     },
     {
       question: `How many questions did I miss to get a ${score}?`,
-      answer: `A ${score} typically corresponds to roughly ${Math.round((1600 - score) / 15)} missed questions across the Digital SAT, but the adaptive module routing means exact counts vary.`,
+      answer: `A ${score} typically corresponds to roughly ${missedQuestionEstimate} missed questions across the Digital SAT, but the adaptive module routing means exact counts vary.`,
     },
   ];
 
@@ -161,7 +203,7 @@ const SatScoreDetail = () => {
           {profile.tierDescription}
         </p>
         <p className="mt-3 text-sm">
-          <Link to="/what-sat-score-do-i-need" className="underline">
+          <Link to="/what-sat-score-do-i-need" className={INLINE_LINK_CLASS}>
             Compare this score with college target ranges →
           </Link>
         </p>
@@ -169,29 +211,17 @@ const SatScoreDetail = () => {
 
       <section className="rounded-2xl border border-border p-6">
         <div className="grid grid-cols-3 gap-4 text-center">
-          <div>
-            <div className="text-xs uppercase tracking-wider text-muted-foreground">
-              Score
+          {scoreStats.map((stat) => (
+            <div key={stat.label}>
+              <div className={STAT_LABEL_CLASS}>{stat.label}</div>
+              <div className={stat.className}>{stat.value}</div>
             </div>
-            <div className="font-mono text-3xl">{score}</div>
-          </div>
-          <div>
-            <div className="text-xs uppercase tracking-wider text-muted-foreground">
-              Percentile
-            </div>
-            <div className="font-mono text-3xl">{profile.percentile}</div>
-          </div>
-          <div>
-            <div className="text-xs uppercase tracking-wider text-muted-foreground">
-              Tier
-            </div>
-            <div className="text-lg font-semibold">{profile.tier}</div>
-          </div>
+          ))}
         </div>
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold tracking-tight">
+        <h2 className={SECTION_HEADING_CLASS}>
           Section Breakdown for a {score}
         </h2>
         <p className="mt-3 text-muted-foreground">
@@ -208,7 +238,7 @@ const SatScoreDetail = () => {
         </ul>
         <p className="mt-3 text-muted-foreground">
           You can model different section splits using the free{" "}
-          <Link className="underline" to="/score-calculator">
+          <Link className={INLINE_LINK_CLASS} to="/score-calculator">
             Digital SAT score calculator
           </Link>
           .
@@ -216,7 +246,7 @@ const SatScoreDetail = () => {
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold tracking-tight">
+        <h2 className={SECTION_HEADING_CLASS}>
           Colleges Where a {score} Is Competitive
         </h2>
         <p className="mt-3 text-muted-foreground">
@@ -235,18 +265,18 @@ const SatScoreDetail = () => {
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold tracking-tight">
+        <h2 className={SECTION_HEADING_CLASS}>
           How to Raise a {score} SAT Score
         </h2>
         <p className="mt-3 text-muted-foreground">{profile.studyFocus}</p>
         <p className="mt-3 text-muted-foreground">
           Start by taking a full-length{" "}
-          <Link className="underline" to="/modules">
+          <Link className={INLINE_LINK_CLASS} to="/modules">
             Digital SAT practice module
           </Link>{" "}
           and logging which question types you miss. Then drill those exact
           skills in the{" "}
-          <Link className="underline" to="/bank">
+          <Link className={INLINE_LINK_CLASS} to="/bank">
             SAT question bank
           </Link>
           .
@@ -254,7 +284,7 @@ const SatScoreDetail = () => {
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold tracking-tight">
+        <h2 className={SECTION_HEADING_CLASS}>
           Score-specific action plan
         </h2>
         <p className="mt-3 text-muted-foreground">
@@ -269,34 +299,24 @@ const SatScoreDetail = () => {
           <table className="w-full min-w-[560px] text-left text-sm">
             <thead className="bg-muted/70">
               <tr>
-                <th className="px-4 py-3 font-semibold">If your next report shows...</th>
-                <th className="px-4 py-3 font-semibold">Do this before retesting</th>
+                <th className={TABLE_HEAD_CELL_CLASS}>If your next report shows...</th>
+                <th className={TABLE_HEAD_CELL_CLASS}>Do this before retesting</th>
               </tr>
             </thead>
             <tbody>
-              <tr className="border-t border-border">
-                <td className="px-4 py-3 text-muted-foreground">Math is lower than Reading and Writing by 40+ points</td>
-                <td className="px-4 py-3 text-muted-foreground">Run two Math domain drills, then a timed Math module.</td>
-              </tr>
-              <tr className="border-t border-border">
-                <td className="px-4 py-3 text-muted-foreground">Reading and Writing is lower by 40+ points</td>
-                <td className="px-4 py-3 text-muted-foreground">Split practice between Standard English Conventions and evidence/inference drills.</td>
-              </tr>
-              <tr className="border-t border-border">
-                <td className="px-4 py-3 text-muted-foreground">Both sections are balanced but below target</td>
-                <td className="px-4 py-3 text-muted-foreground">Alternate full timed modules with narrow review sets from the bank.</td>
-              </tr>
-              <tr className="border-t border-border">
-                <td className="px-4 py-3 text-muted-foreground">Most misses are careless or from rushing</td>
-                <td className="px-4 py-3 text-muted-foreground">Add a checkpoint plan and practice leaving two minutes for flagged questions.</td>
-              </tr>
+              {ACTION_TABLE_ROWS.map(([report, nextStep]) => (
+                <tr key={report} className={TABLE_ROW_CLASS}>
+                  <td className={TABLE_BODY_CELL_CLASS}>{report}</td>
+                  <td className={TABLE_BODY_CELL_CLASS}>{nextStep}</td>
+                </tr>
+              ))}
             </tbody>
           </table>
         </div>
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold tracking-tight">
+        <h2 className={SECTION_HEADING_CLASS}>
           Frequently Asked Questions
         </h2>
         <div className="mt-4 space-y-5">
@@ -310,56 +330,33 @@ const SatScoreDetail = () => {
       </section>
 
       <section className="mt-10">
-        <h2 className="text-2xl font-semibold tracking-tight">
+        <h2 className={SECTION_HEADING_CLASS}>
           Use this score in the real tools
         </h2>
         <ul className="mt-4 flex flex-wrap gap-2">
-          <li>
-            <Link
-              to="/score-calculator"
-              className="inline-block rounded-lg border border-border px-3 py-2 text-sm transition hover:bg-muted"
-            >
-              Model section splits
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="/what-sat-score-do-i-need"
-              className="inline-block rounded-lg border border-border px-3 py-2 text-sm transition hover:bg-muted"
-            >
-              Compare college targets
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="/test-results"
-              className="inline-block rounded-lg border border-border px-3 py-2 text-sm transition hover:bg-muted"
-            >
-              Review saved test results
-            </Link>
-          </li>
+          {TOOL_LINKS.map((link) => (
+            <li key={link.to}>
+              <Link to={link.to} className={TOOL_LINK_CLASS}>
+                {link.label}
+              </Link>
+            </li>
+          ))}
         </ul>
       </section>
 
       <section className="mt-10 flex items-center justify-between rounded-xl border border-border p-4">
         {score > 400 ? (
-          <Link
-            className="text-sm underline"
-            to="/score-calculator"
-          >
+          <Link className={FOOTER_LINK_CLASS} to="/score-calculator">
             Estimate a lower split
           </Link>
         ) : (
           <span />
         )}
-        <Link className="text-sm underline" to="/modules">
+        <Link className={FOOTER_LINK_CLASS} to="/modules">
           Take a module
         </Link>
         {score < 1600 ? (
-          <Link
-            className="text-sm underline"
-            to="/bank"
-          >
+          <Link className={FOOTER_LINK_CLASS} to="/bank">
             Drill for a higher score →
           </Link>
         ) : (

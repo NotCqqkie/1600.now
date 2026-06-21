@@ -2,10 +2,10 @@ import { useState } from "react";
 import { Navigate, useLocation, useNavigate } from "react-router-dom";
 import { ArrowLeft, Paintbrush, RotateCcw, Type } from "lucide-react";
 
-import { useThemeMode } from "@/hooks/useThemeMode";
+import { useThemeMode } from "@/lib/theme";
 import { usePersonalization } from "@/hooks/usePersonalization";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 import { useAuth } from "@/contexts/AuthContext";
 import {
@@ -13,9 +13,8 @@ import {
   FONT_OPTIONS,
   TEXT_SIZE_OPTIONS,
   applyPersonalizationPreferences,
-  getPersonalizationPreferences,
-  type QuestionFontId,
-  type QuestionTextSize,
+  updatePersonalizationPreferences,
+  type PersonalizationPreferences,
 } from "@/lib/personalization";
 
 const Personalization = () => {
@@ -30,10 +29,10 @@ const Personalization = () => {
     backgroundColor: isDarkMode ? "rgba(15,23,42,0.84)" : "#ffffff",
     borderColor: isDarkMode ? "rgba(148,163,184,0.16)" : "rgba(15, 23, 42, 0.08)",
   };
-  const setFont = (font: QuestionFontId) =>
-    applyPersonalizationPreferences({ ...getPersonalizationPreferences(), font });
-  const setTextSize = (textSize: QuestionTextSize) =>
-    applyPersonalizationPreferences({ ...getPersonalizationPreferences(), textSize });
+  const setFont = (font: PersonalizationPreferences["font"]) =>
+    updatePersonalizationPreferences({ font });
+  const setTextSize = (textSize: PersonalizationPreferences["textSize"]) =>
+    updatePersonalizationPreferences({ textSize });
   const resetToDefaults = () =>
     applyPersonalizationPreferences(DEFAULT_PERSONALIZATION);
 
@@ -89,104 +88,104 @@ const Personalization = () => {
           </p>
         </div>
 
-        <div className="grid gap-6 lg:grid-cols-[1fr_1.1fr]">
-          <div className="space-y-6">
-            <Card style={cardStyle}>
-              <CardHeader>
-                <CardTitle className="flex items-center gap-2" style={{ color: headingColor }}>
+        <div className="grid gap-8 lg:grid-cols-[1fr_1.1fr] lg:items-start">
+          <div className="space-y-8">
+            <section className="space-y-3">
+              <div>
+                <h2 className="flex items-center gap-2 text-xl font-semibold" style={{ color: headingColor }}>
                   <Type className="h-5 w-5" />
                   Question Font
-                </CardTitle>
-                <CardDescription style={{ color: mutedColor }}>
+                </h2>
+                <p className="mt-1 text-sm" style={{ color: mutedColor }}>
                   Used for question stems, passages, and answer choices.
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
-                  {FONT_OPTIONS.map((opt) => {
-                    const selected = prefs.font === opt.id;
-                    return (
-                      <button
-                        key={opt.id}
-                        type="button"
-                        onClick={() => setFont(opt.id)}
-                        className={cn(
-                          "flex flex-col items-start gap-1 rounded-lg border-2 p-3 text-left transition-colors",
-                          selected
-                            ? "border-primary bg-primary/5 hover:bg-primary/10 dark:bg-primary/10 dark:hover:bg-primary/15"
-                            : "border-border hover:bg-muted/40",
-                        )}
+                </p>
+              </div>
+              <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 xl:grid-cols-3">
+                {FONT_OPTIONS.map((opt) => {
+                  const selected = prefs.font === opt.id;
+                  return (
+                    <button
+                      key={opt.id}
+                      type="button"
+                      onClick={() => setFont(opt.id)}
+                      className={cn(
+                        "flex flex-col items-start gap-1 rounded-lg border-2 p-3 text-left transition-colors",
+                        selected
+                          ? "border-primary bg-primary/5 hover:bg-primary/10 dark:bg-primary/10 dark:hover:bg-primary/15"
+                          : "border-border hover:bg-muted/40",
+                      )}
+                    >
+                      <span
+                        className="text-xs uppercase tracking-wide"
+                        style={{ color: mutedColor }}
                       >
-                        <span
-                          className="text-xs uppercase tracking-wide"
-                          style={{ color: mutedColor }}
-                        >
-                          {opt.label}
-                        </span>
-                        <span
-                          style={{
-                            fontFamily: opt.stack,
-                            fontSize: "1rem",
-                            color: headingColor,
-                          }}
-                        >
-                          The quick brown fox
-                        </span>
-                      </button>
-                    );
-                  })}
-                </div>
-              </CardContent>
-            </Card>
+                        {opt.label}
+                      </span>
+                      <span
+                        style={{
+                          fontFamily: opt.stack,
+                          fontSize: "1rem",
+                          color: headingColor,
+                        }}
+                      >
+                        The quick brown fox
+                      </span>
+                    </button>
+                  );
+                })}
+              </div>
+            </section>
 
-            <Card style={cardStyle}>
-              <CardHeader>
-                <CardTitle className="flex items-center gap-2" style={{ color: headingColor }}>
+            <section className="space-y-3">
+              <div>
+                <h2 className="flex items-center gap-2 text-xl font-semibold" style={{ color: headingColor }}>
                   <Paintbrush className="h-5 w-5" />
                   Text Size
-                </CardTitle>
-                <CardDescription style={{ color: mutedColor }}>
+                </h2>
+                <p className="mt-1 text-sm" style={{ color: mutedColor }}>
                   Scales question and answer-choice text proportionally.
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div className="flex flex-wrap gap-2">
-                  {TEXT_SIZE_OPTIONS.map((opt) => {
-                    const selected = prefs.textSize === opt.id;
-                    return (
-                      <button
-                        key={opt.id}
-                        type="button"
-                        onClick={() => setTextSize(opt.id)}
-                        className={cn(
-                          "flex flex-1 min-w-[80px] flex-col items-center gap-1 rounded-lg border-2 px-3 py-2 transition-colors",
-                          selected
-                            ? "border-primary bg-primary/5 hover:bg-primary/10 dark:bg-primary/10 dark:hover:bg-primary/15"
-                            : "border-border hover:bg-muted/40",
-                        )}
+                </p>
+              </div>
+              <div className="grid grid-cols-5 gap-2">
+                {TEXT_SIZE_OPTIONS.map((opt) => {
+                  const selected = prefs.textSize === opt.id;
+                  return (
+                    <button
+                      key={opt.id}
+                      type="button"
+                      onClick={() => setTextSize(opt.id)}
+                      className={cn(
+                        "flex h-20 min-w-0 flex-col items-center justify-center gap-1 rounded-lg border-2 px-1 py-2 text-center transition-colors",
+                        selected
+                          ? "border-primary bg-primary/5 hover:bg-primary/10 dark:bg-primary/10 dark:hover:bg-primary/15"
+                          : "border-border hover:bg-muted/40",
+                      )}
+                    >
+                      <span
+                        className="flex h-7 items-center"
+                        style={{ fontSize: `${opt.scale}rem`, color: headingColor, lineHeight: 1 }}
                       >
-                        <span
-                          style={{ fontSize: `${opt.scale}rem`, color: headingColor, lineHeight: 1 }}
-                        >
-                          Aa
-                        </span>
-                        <span className="text-xs" style={{ color: mutedColor }}>
-                          {opt.label}
-                        </span>
-                      </button>
-                    );
-                  })}
-                </div>
-              </CardContent>
-            </Card>
+                        Aa
+                      </span>
+                      <span className="text-[10px] leading-tight sm:text-xs" style={{ color: mutedColor }}>
+                        {opt.label}
+                      </span>
+                    </button>
+                  );
+                })}
+              </div>
+            </section>
           </div>
 
-          <Card style={cardStyle}>
+          <Card
+            className="transition-shadow duration-200 ease-out lg:sticky lg:self-start"
+            style={{
+              ...cardStyle,
+              top: "clamp(1.5rem, calc(50vh - 14rem), 11rem)",
+            }}
+          >
             <CardHeader>
               <CardTitle style={{ color: headingColor }}>Live preview</CardTitle>
-              <CardDescription style={{ color: mutedColor }}>
-                Sample question rendered with your current selections.
-              </CardDescription>
             </CardHeader>
             <CardContent>
               <PreviewQuestion isDarkMode={isDarkMode} />
@@ -210,18 +209,10 @@ const PREVIEW_CHOICES: { id: string; text: string }[] = [
 
 const PreviewQuestion = ({ isDarkMode }: { isDarkMode: boolean }) => {
   const [selected, setSelected] = useState<string | null>(null);
-  const borderColor = isDarkMode ? "rgba(148,163,184,0.2)" : "rgba(15,23,42,0.1)";
   const textColor = isDarkMode ? "#f8fafc" : "#0f172a";
-  const mutedColor = isDarkMode ? "rgba(226,232,240,0.72)" : "#64748b";
 
   return (
-    <div
-      className="rounded-xl border p-4"
-      style={{ borderColor, backgroundColor: isDarkMode ? "rgba(15,23,42,0.4)" : "#fafafa" }}
-    >
-      <div className="mb-3 text-xs uppercase tracking-wide" style={{ color: mutedColor }}>
-        Preview question
-      </div>
+    <div>
       <div
         id="question-content"
         style={{

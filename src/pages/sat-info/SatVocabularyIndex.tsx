@@ -1,9 +1,25 @@
 import { Link } from "react-router-dom";
 
-import { PageSeo, buildFaqJsonLd, buildBreadcrumbJsonLd } from "@/components/seo/PageSeo";
+import {
+  PageSeo,
+  buildBreadcrumbJsonLd,
+  buildFaqJsonLd,
+  type FaqItem,
+} from "@/components/seo/PageSeo";
 import { seoVocabEntries } from "@/lib/seo-data/vocabSeo";
 
-const faqs = [
+const PAGE_ID = "sat-vocabulary-index";
+const SAT_VOCABULARY_URL = "https://1600.now/sat-vocabulary";
+const PAGE_TITLE = `SAT Vocabulary List: ${seoVocabEntries.length}+ Digital SAT Words in Context`;
+const PAGE_DESCRIPTION =
+  "Complete Digital SAT vocabulary list with definitions. Study every high-frequency SAT Words-in-Context word, grouped by difficulty, with examples for each word.";
+const CTA_LINK_CLASS = "rounded-full border px-4 py-1 hover:bg-muted";
+const SECTION_HEADING_CLASS = "text-2xl font-semibold tracking-tight";
+const TABLE_HEAD_CELL_CLASS = "px-4 py-3 font-semibold";
+const TABLE_ROW_CLASS = "border-t border-border";
+const TABLE_BODY_CELL_CLASS = "px-4 py-3 text-muted-foreground";
+
+const FAQS: FaqItem[] = [
   {
     question: "How many vocabulary words are on the Digital SAT?",
     answer:
@@ -21,37 +37,61 @@ const faqs = [
   },
 ];
 
+const STUDY_STEPS = [
+  [
+    "Learn in context",
+    "Read the sentence before the definition and predict the word's role.",
+    "Words-in-Context tests meaning in a passage, not dictionary recall.",
+  ],
+  [
+    "Sort by difficulty",
+    "Master easy and medium words before spending time on rare hard words.",
+    "Medium words appear more often and protect more score points.",
+  ],
+  [
+    "Apply immediately",
+    "After flashcards, do a Words-in-Context question set.",
+    "The real skill is choosing the meaning that fits the sentence logic.",
+  ],
+] as const;
+
+const DIFFICULTIES = ["Easy", "Medium", "Hard"] as const;
+
+const DIFFICULTY_DESCRIPTIONS = {
+  Easy: "Words that appear in the easier half of Digital SAT Words-in-Context questions.",
+  Medium: "Mid-difficulty SAT vocabulary that separates a 1300 from a 1450.",
+  Hard: "The toughest SAT Words-in-Context vocabulary — these are the score-ceiling words.",
+} as const;
+
+const VOCAB_BY_DIFFICULTY = {
+  Easy: seoVocabEntries.filter((entry) => entry.difficulty === "Easy"),
+  Medium: seoVocabEntries.filter((entry) => entry.difficulty === "Medium"),
+  Hard: seoVocabEntries.filter((entry) => entry.difficulty === "Hard"),
+};
+
+const pageJsonLd = [
+  buildFaqJsonLd(FAQS),
+  buildBreadcrumbJsonLd([
+    { name: "Home", url: "https://1600.now/" },
+    { name: "SAT Vocabulary", url: SAT_VOCABULARY_URL },
+  ]),
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: PAGE_TITLE,
+    description: PAGE_DESCRIPTION,
+    url: SAT_VOCABULARY_URL,
+  },
+];
+
 const SatVocabularyIndex = () => {
-  const grouped = {
-    Easy: seoVocabEntries.filter((entry) => entry.difficulty === "Easy"),
-    Medium: seoVocabEntries.filter((entry) => entry.difficulty === "Medium"),
-    Hard: seoVocabEntries.filter((entry) => entry.difficulty === "Hard"),
-  };
-
-  const title = `SAT Vocabulary List: ${seoVocabEntries.length}+ Digital SAT Words in Context`;
-  const description =
-    "Complete Digital SAT vocabulary list with definitions. Study every high-frequency SAT Words-in-Context word, grouped by difficulty, with examples for each word.";
-
   return (
     <div className="mx-auto max-w-5xl px-6 py-10">
       <PageSeo
-        id="sat-vocabulary-index"
-        title={title}
-        description={description}
-        jsonLd={[
-          buildFaqJsonLd(faqs),
-          buildBreadcrumbJsonLd([
-            { name: "Home", url: "https://1600.now/" },
-            { name: "SAT Vocabulary", url: "https://1600.now/sat-vocabulary" },
-          ]),
-          {
-            "@context": "https://schema.org",
-            "@type": "CollectionPage",
-            name: title,
-            description,
-            url: "https://1600.now/sat-vocabulary",
-          },
-        ]}
+        id={PAGE_ID}
+        title={PAGE_TITLE}
+        description={PAGE_DESCRIPTION}
+        jsonLd={pageJsonLd}
       />
 
       <header className="mb-10">
@@ -64,11 +104,11 @@ const SatVocabularyIndex = () => {
           definition, example usage, and how it shows up on the SAT.
         </p>
         <div className="mt-4 flex gap-2 text-sm">
-          <Link className="rounded-full border px-4 py-1 hover:bg-muted" to="/vocab">
+          <Link className={CTA_LINK_CLASS} to="/vocab">
             Practice with flashcards
           </Link>
           <Link
-            className="rounded-full border px-4 py-1 hover:bg-muted"
+            className={CTA_LINK_CLASS}
             to="/bank/reading/browse"
           >
             Browse Reading &amp; Writing questions
@@ -77,53 +117,41 @@ const SatVocabularyIndex = () => {
       </header>
 
       <section className="mb-10 rounded-xl border border-border p-5">
-        <h2 className="text-2xl font-semibold tracking-tight">
+        <h2 className={SECTION_HEADING_CLASS}>
           How to study SAT vocabulary without memorizing useless lists
         </h2>
         <div className="mt-4 overflow-x-auto rounded-lg border border-border">
           <table className="w-full min-w-[560px] text-left text-sm">
             <thead className="bg-muted/70">
               <tr>
-                <th className="px-4 py-3 font-semibold">Step</th>
-                <th className="px-4 py-3 font-semibold">What to do</th>
-                <th className="px-4 py-3 font-semibold">SAT reason</th>
+                <th className={TABLE_HEAD_CELL_CLASS}>Step</th>
+                <th className={TABLE_HEAD_CELL_CLASS}>What to do</th>
+                <th className={TABLE_HEAD_CELL_CLASS}>SAT reason</th>
               </tr>
             </thead>
             <tbody>
-              <tr className="border-t border-border">
-                <td className="px-4 py-3 text-muted-foreground">Learn in context</td>
-                <td className="px-4 py-3 text-muted-foreground">Read the sentence before the definition and predict the word's role.</td>
-                <td className="px-4 py-3 text-muted-foreground">Words-in-Context tests meaning in a passage, not dictionary recall.</td>
-              </tr>
-              <tr className="border-t border-border">
-                <td className="px-4 py-3 text-muted-foreground">Sort by difficulty</td>
-                <td className="px-4 py-3 text-muted-foreground">Master easy and medium words before spending time on rare hard words.</td>
-                <td className="px-4 py-3 text-muted-foreground">Medium words appear more often and protect more score points.</td>
-              </tr>
-              <tr className="border-t border-border">
-                <td className="px-4 py-3 text-muted-foreground">Apply immediately</td>
-                <td className="px-4 py-3 text-muted-foreground">After flashcards, do a Words-in-Context question set.</td>
-                <td className="px-4 py-3 text-muted-foreground">The real skill is choosing the meaning that fits the sentence logic.</td>
-              </tr>
+              {STUDY_STEPS.map(([step, action, reason]) => (
+                <tr key={step} className={TABLE_ROW_CLASS}>
+                  <td className={TABLE_BODY_CELL_CLASS}>{step}</td>
+                  <td className={TABLE_BODY_CELL_CLASS}>{action}</td>
+                  <td className={TABLE_BODY_CELL_CLASS}>{reason}</td>
+                </tr>
+              ))}
             </tbody>
           </table>
         </div>
       </section>
 
-      {(["Easy", "Medium", "Hard"] as const).map((difficulty) => (
+      {DIFFICULTIES.map((difficulty) => (
         <section key={difficulty} className="mb-10">
-          <h2 className="text-2xl font-semibold tracking-tight">
-            SAT {difficulty} Vocabulary ({grouped[difficulty].length} words)
+          <h2 className={SECTION_HEADING_CLASS}>
+            SAT {difficulty} Vocabulary ({VOCAB_BY_DIFFICULTY[difficulty].length} words)
           </h2>
           <p className="mt-1 text-sm text-muted-foreground">
-            {difficulty === "Easy"
-              ? "Words that appear in the easier half of Digital SAT Words-in-Context questions."
-              : difficulty === "Medium"
-                ? "Mid-difficulty SAT vocabulary that separates a 1300 from a 1450."
-                : "The toughest SAT Words-in-Context vocabulary — these are the score-ceiling words."}
+            {DIFFICULTY_DESCRIPTIONS[difficulty]}
           </p>
           <ul className="mt-4 grid grid-cols-2 gap-2 sm:grid-cols-3 md:grid-cols-4">
-            {grouped[difficulty].map((entry) => (
+            {VOCAB_BY_DIFFICULTY[difficulty].map((entry) => (
               <li
                 key={entry.slug}
                 className="rounded-md border border-border px-3 py-2 text-sm"
@@ -139,11 +167,11 @@ const SatVocabularyIndex = () => {
       ))}
 
       <section className="mt-12">
-        <h2 className="text-2xl font-semibold tracking-tight">
+        <h2 className={SECTION_HEADING_CLASS}>
           Frequently Asked Questions
         </h2>
         <div className="mt-4 space-y-5">
-          {faqs.map((faq) => (
+          {FAQS.map((faq) => (
             <div key={faq.question}>
               <h3 className="text-base font-semibold">{faq.question}</h3>
               <p className="mt-1 text-muted-foreground">{faq.answer}</p>

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the relationship from the figure",
-      "content": "The figure shows a right triangle. One acute angle is labeled $66^{\\circ}$, the other is therefore $90^{\\circ} - 66^{\\circ} = 24^{\\circ}$. The variable $x$ represents that second acute angle, so $x = 24$."
+      "title": "Identify the triangle type",
+      "content": "The figure shows a right triangle with both acute angles labeled $45^{\\circ}$. A right triangle with two equal acute angles is an isosceles right triangle."
     },
     {
-      "title": "Identify the answer",
-      "content": "So $x = 24$. That matches <strong>Choice A &mdash; $24$</strong>."
+      "title": "Use equal legs",
+      "content": "In an isosceles right triangle, the two legs have equal length. One leg is labeled $24$ and the other leg is labeled $x$, so $x=24$. That matches <strong>Choice A &mdash; $24$</strong>."
     }
   ]
 }

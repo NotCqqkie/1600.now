@@ -1,4 +1,3 @@
-
 import { useState, useEffect, useRef } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
@@ -18,6 +17,7 @@ import { useAuth } from "@/contexts/AuthContext";
 import { useToast } from "@/hooks/use-toast";
 import { describeAuthError } from "@/lib/firebase/authErrors";
 import { Loader2, ArrowLeft } from "lucide-react";
+
 const GoogleIcon = () => (
   <svg className="h-4 w-4" aria-hidden="true" viewBox="0 0 488 512" fill="currentColor">
     <path d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z" />
@@ -33,7 +33,15 @@ const Login = () => {
   const [resetOpen, setResetOpen] = useState(false);
   const [resetEmail, setResetEmail] = useState("");
   const [resetSubmitting, setResetSubmitting] = useState(false);
-  const { signInWithGoogle, signInWithEmailPassword, sendPasswordReset, user, loading: authLoading, redirectError, clearRedirectError } = useAuth();
+  const {
+    signInWithGoogle,
+    signInWithEmailPassword,
+    sendPasswordReset,
+    user,
+    loading: authLoading,
+    redirectError,
+    clearRedirectError,
+  } = useAuth();
   const navigate = useNavigate();
   const { toast } = useToast();
   const postAuthReturnToRef = useRef<string | null>(null);
@@ -103,7 +111,7 @@ const Login = () => {
   return (
     <div className="min-h-screen flex flex-col bg-background">
       <div className="flex items-center justify-between px-6 py-4">
-        <BrandLogo variant="mark" className="h-10 w-10" />
+        <BrandLogo variant="mark" />
         <Button variant="ghost" size="sm" className="gap-2" onClick={() => navigate("/")}>
           <ArrowLeft className="h-4 w-4" />
           Back to home
@@ -167,7 +175,11 @@ const Login = () => {
                   required
                 />
               </div>
-              <Button type="submit" className="w-full cursor-pointer" disabled={isSubmitting || authLoading || !isValidEmail(email) || !password}>
+              <Button
+                type="submit"
+                className="w-full cursor-pointer"
+                disabled={isSubmitting || authLoading || !isValidEmail(email) || !password}
+              >
                 {isSubmitting && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
                 Log in
               </Button>
@@ -204,7 +216,7 @@ const Login = () => {
                 autoFocus
               />
             </div>
-            <DialogFooter className="mt-6 gap-2 sm:gap-2">
+            <DialogFooter className="mt-6 gap-2">
               <Button
                 type="button"
                 variant="outline"

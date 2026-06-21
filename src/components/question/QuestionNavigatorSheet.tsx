@@ -4,7 +4,7 @@ import { Bookmark, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
-export interface QuestionNavigatorItem {
+interface QuestionNavigatorItem {
   key: string | number;
   label: string | number;
   status: string;
@@ -108,14 +108,17 @@ export const QuestionNavigatorSheet = ({
   return (
     <>
       <Button
+        type="button"
         ref={triggerRef}
         variant="outline"
         size="sm"
+        data-question-navigator-trigger
+        className="shrink-0"
         onClick={() => setIsOpen((prev) => !prev)}
         aria-haspopup="dialog"
         aria-expanded={isOpen}
       >
-        {buttonLabel}
+        <span className="shrink-0">{buttonLabel}</span>
       </Button>
 
       {isOpen && typeof document !== "undefined" && createPortal(
@@ -142,9 +145,11 @@ export const QuestionNavigatorSheet = ({
             <div className="flex items-center gap-2">
               {headerActions}
               <Button
+                type="button"
                 variant="ghost"
                 size="sm"
                 className="h-8 w-8 p-0"
+                aria-label="Close question navigator"
                 onClick={() => setIsOpen(false)}
               >
                 <X className="h-4 w-4" />
@@ -197,6 +202,7 @@ export const QuestionNavigatorSheet = ({
           >
             {visibleItems.map((item) => (
               <button
+                type="button"
                 key={item.key}
                 onClick={() => {
                   item.onSelect();

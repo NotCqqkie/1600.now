@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { BankNavigationSheet } from "@/components/question/BankNavigationSheet";
 import { PracticeNavigationSheet } from "@/components/practice/PracticeNavigationSheet";
-import { ModulePracticeNavigationSheet } from "@/components/practice/ModulePracticeNavigationSheet";
+import { QuestionNavigatorSheet } from "@/components/question/QuestionNavigatorSheet";
 import { FormulaSheetDialog } from "@/components/tools/FormulaSheetDialog";
 import { DesmosDialog } from "@/components/tools/DesmosDialog";
 import { ExplanationWindow } from "@/components/question/ExplanationWindow";
@@ -16,7 +16,7 @@ import { PreviousAttemptsDialog } from "@/components/question/PreviousAttemptsDi
 import { TransparentAwareImage } from "@/components/TransparentAwareImage";
 import { PageSeo, buildBreadcrumbJsonLd } from "@/components/seo/PageSeo";
 import { BookOpenCheck, ChevronLeft, ChevronRight, Check, Bookmark, Eye, EyeOff, Flag, Pause, Play, Strikethrough, Maximize2, Minimize2, Rows3, Columns3, Info, Highlighter, Moon, MoreHorizontal, StickyNote, Sun } from "lucide-react";
-import { toast } from "sonner";
+import { toast } from "@/components/ui/sonner";
 import {
   DropdownMenu,
   DropdownMenuCheckboxItem,
@@ -62,10 +62,13 @@ import {
   type BankSourceFilter,
 } from "@/data/questionBank";
 import type { PracticeModule, PracticeSet } from "@/data/modulePracticeBank";
+import { PRACTICE_RUN_STORAGE_KEY } from "@/lib/practice/practiceRunStorage";
+import { formatPracticeClock } from "@/lib/practice/practiceTime";
 import {
-  createCustomPracticeSetForQuestion,
-  launchCustomPracticeSet,
-} from "@/lib/practice/customPracticeSets";
+  getStoredQuestionViewMode,
+  setStoredQuestionViewMode,
+  type QuestionViewMode,
+} from "@/lib/questionViewModeStorage";
 import { cn, normalizePublicAssetPath } from "@/lib/utils";
 import { getQuestionImageClassName } from "@/lib/questionImageDisplay";
 import {
@@ -75,7 +78,7 @@ import {
 import { answersEquivalent } from "@/lib/text/answerEquivalence";
 import { renderMixedContent } from "@/lib/text/mathRendering";
 import { normalizeReadingDisplayText } from "@/lib/text/readingTextNormalization";
-import { applyTheme } from "@/lib/theme";
+import { applyTheme, useThemeMode } from "@/lib/theme";
 import {
   advanceModulePracticeSessionTimer,
   buildModulePracticeResult,
@@ -104,16 +107,16 @@ import {
   savePracticeTestSession,
   type PracticeTestSessionMeta,
 } from "@/lib/practice/practiceTestSession";
-import { clearDesmosUiState } from "@/lib/practice/desmosSessionState";
+import { clearDesmosUiState, getDesmosStorageKeys } from "@/lib/practice/desmosSessionState";
 import { useUserProgress } from "@/hooks/useUserProgress";
 import { useAuth } from "@/contexts/AuthContext";
 import { useIsMobile } from "@/hooks/use-mobile";
 import {
   getQuestionStatus as getStoredQuestionUiStatus,
   getQuestionUiState,
+  getQuestionUiStates,
   saveQuestionUiState,
 } from "@/lib/practice/questionUiState";
-import { useThemeMode } from "@/hooks/useThemeMode";
 import "katex/dist/katex.min.css";
 
 const HIDDEN_MEASUREMENT_STYLE = { visibility: 'hidden', pointerEvents: 'none' } as const;
@@ -121,6 +124,12 @@ const HIDDEN_MEASUREMENT_STYLE = { visibility: 'hidden', pointerEvents: 'none' }
 const getVisibleElementWidth = (element: HTMLElement) => {
   const viewportWidth = window.visualViewport?.width ?? window.innerWidth;
   return Math.min(element.offsetWidth, viewportWidth);
+};
+
+const setElementStyleProperty = (element: HTMLElement, property: string, value: string) => {
+  if (element.style.getPropertyValue(property) !== value) {
+    element.style.setProperty(property, value);
+  }
 };
 
 const hardQuestions = originalQuestions.map(originalQuestion => ({
@@ -169,13 +178,6 @@ type LowerThanHysteresisArgs = {
   exitThreshold: number;
 };
 
-type GreaterThanHysteresisArgs = {
-  currentState: boolean;
-  value: number;
-  enterThreshold: number;
-  exitThreshold: number;
-};
-
 const getNextStateForLowerThan = ({
   currentState,
   value,
@@ -188,16 +190,32 @@ const getNextStateForLowerThan = ({
   return value < enterThreshold;
 };
 
-const getNextStateForGreaterThan = ({
-  currentState,
-  value,
-  enterThreshold,
-  exitThreshold,
-}: GreaterThanHysteresisArgs) => {
-  if (currentState) {
-    return value >= exitThreshold;
-  }
-  return value > enterThreshold;
+const BOTTOM_NAV_TEXT_PUSH_ENTER_PX = 32;
+const BOTTOM_NAV_TEXT_PUSH_EXIT_PX = 16;
+
+type CenterOffsetArgs = {
+  containerWidth: number;
+  leftWidth: number;
+  rightWidth: number;
+  centerWidth: number;
+  gap: number;
+};
+
+const getPushedCenterOffset = ({
+  containerWidth,
+  leftWidth,
+  rightWidth,
+  centerWidth,
+  gap,
+}: CenterOffsetArgs) => {
+  const desiredLeft = containerWidth / 2 - centerWidth / 2;
+  const minLeft = leftWidth + gap;
+  const maxLeft = containerWidth - rightWidth - gap - centerWidth;
+  const pushedLeft = minLeft <= maxLeft
+    ? Math.min(Math.max(desiredLeft, minLeft), maxLeft)
+    : Math.max(0, Math.min(containerWidth - centerWidth, (minLeft + maxLeft) / 2));
+
+  return Math.round(pushedLeft - desiredLeft);
 };
 
 type PracticeSetItem = {
@@ -246,11 +264,6 @@ type LoadedRouteIndexedQuestionState = {
   question: BankQuestion | null;
   isLoading: boolean;
 };
-
-const getStoredQuestionStatus = (
-  storageId: string,
-  uid: string | null | undefined,
-): string => getStoredQuestionUiStatus(storageId, uid);
 
 const checkedQuestionStatuses = new Set(["incorrect", "correct-first", "correct-later"]);
 
@@ -301,12 +314,6 @@ const reconcileQuestionOrder = (defaultOrder: number[], storedOrder: number[] | 
 
   if (ordered.length === 0) return defaultOrder;
   return [...ordered, ...defaultOrder.filter((id) => !seen.has(id))];
-};
-
-const formatTimer = (totalSeconds: number) => {
-  const minutes = Math.floor(totalSeconds / 60);
-  const seconds = totalSeconds % 60;
-  return `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
 };
 
 const QUESTION_SENTENCE_PATTERNS = [
@@ -497,44 +504,12 @@ const stripDuplicatedLeadingQuestion = (
   return trimmedPassage.replace(duplicatePrefixPattern, "").trim();
 };
 
-type QuestionViewMode = "vertical" | "horizontal";
-
-const getDefaultQuestionViewMode = (
-  subject: "math" | "reading",
-  isBank: boolean,
-): QuestionViewMode => {
-  if (isBank) {
-    return subject === "reading" ? "horizontal" : "vertical";
-  }
-
-  return "vertical";
-};
-
-const getQuestionViewModeStorageKey = (
-  subject: "math" | "reading",
-  isBank: boolean,
-) => {
-  if (isBank) return `question-view-mode:bank:${subject}`;
-  return "question-view-mode:hard";
-};
-
-const getStoredQuestionViewMode = (
-  subject: "math" | "reading",
-  isBank: boolean,
-): QuestionViewMode => {
-  const storedMode = sessionStorage.getItem(getQuestionViewModeStorageKey(subject, isBank));
-  return storedMode === "horizontal" || storedMode === "vertical"
-    ? storedMode
-    : getDefaultQuestionViewMode(subject, isBank);
-};
-
 const getDefaultQuestionSplitPosition = (subject: "math" | "reading") =>
   subject === "reading" ? 55 : 50;
 
 const READING_ANNOTATION_MODE_STORAGE_KEY = "question-reading-annotation-mode";
 const QUESTION_BANK_HIDE_CHOICES_STORAGE_KEY = "question-bank-hide-answer-choices";
 const QUESTION_BANK_STRIKEOUT_MODE_STORAGE_KEY = "question-bank-strikeout-mode";
-const PRACTICE_RUN_STORAGE_KEY = "practiceRunId";
 const DESMOS_DEFAULT_SPLIT_POSITION = 70;
 
 const questionBankViewerStorageData = new Map<string, string>();
@@ -696,6 +671,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   const modulePracticeSessionId = searchParams.get("moduleSession");
   const practiceTestSetId = searchParams.get("practiceTest");
   const practiceTestSessionId = searchParams.get("practiceTestSession");
+  const customPracticeId = searchParams.get("customPractice");
   const rawPracticeIndex = searchParams.get("idx");
   const bankSource = previewEmbed?.bankType ?? normalizeBankSource(searchParams.get("bankType"));
   const previewQuestionLimit = previewEmbed?.questionLimit ?? null;
@@ -768,9 +744,9 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   const moduleQuestion = useMemo(
     () =>
       modulePracticeBank && (modulePracticeSlug || practiceTestSetId)
-        ? modulePracticeBank.getSynthesizedPracticeQuestion(subject, idParam)
+        ? modulePracticeBank.getSynthesizedPracticeQuestion(subject, idParam, bankSource === "unofficial" ? "unofficial" : "past")
         : null,
-    [idParam, modulePracticeBank, modulePracticeSlug, practiceTestSetId, subject],
+    [bankSource, idParam, modulePracticeBank, modulePracticeSlug, practiceTestSetId, subject],
   );
   const bankQuestionPoolMode = hasActivePracticeSet ? "source" : "visible";
   const bankQuestionPoolRequestKey = useMemo(
@@ -1101,16 +1077,26 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     subject,
   ]);
   const effectivePracticeMode = !is100Hard && isPracticeMode && practiceSet.length > 0 && currentPracticeIndex >= 0;
-  const modulePracticeStateSessionId = modulePracticeSessionId || modulePracticeSessionMeta?.sessionId || null;
-  const practiceTestStateSessionId = practiceTestSessionId || practiceTestSessionMeta?.sessionId || null;
+  const activeModulePracticeSessionId = modulePracticeSessionMeta?.sessionId ?? null;
+  const modulePracticeSessionMatchesRoute =
+    !modulePracticeSessionId || modulePracticeSessionId === activeModulePracticeSessionId;
+  const modulePracticeStateSessionId =
+    modulePracticeSessionMatchesRoute ? activeModulePracticeSessionId : null;
+  const activePracticeTestSessionId = practiceTestSessionMeta?.sessionId ?? null;
+  const practiceTestSessionMatchesRoute =
+    !practiceTestSessionId || practiceTestSessionId === activePracticeTestSessionId;
+  const practiceTestStateSessionId =
+    practiceTestSessionMatchesRoute ? activePracticeTestSessionId : null;
   const isModulePracticeMode = Boolean(
     effectivePracticeMode &&
       modulePracticeSlug &&
+      modulePracticeSessionMeta &&
       modulePracticeStateSessionId,
   );
   const isPracticeTestMode = Boolean(
     effectivePracticeMode &&
       practiceTestSetId &&
+      practiceTestSessionMeta &&
       practiceTestStateSessionId,
   );
   const isAssessmentMode = isModulePracticeMode || isPracticeTestMode;
@@ -1123,7 +1109,8 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     ? sessionStorage
     : QUESTION_BANK_VIEWER_STORAGE;
   const desmosStorageScope = useMemo(() => {
-    if (practiceTestSetId) return `practice-test:${practiceTestStateSessionId ?? practiceTestSetId}`;
+    if (practiceTestStateSessionId) return `practice-test:${practiceTestStateSessionId}`;
+    if (practiceTestSetId) return `practice-test:${practiceTestSetId}`;
     if (modulePracticeSlug) return `module-practice:${modulePracticeStateSessionId ?? modulePracticeSlug}`;
     if (!is100Hard && isPracticeMode) return `practice-set:${practiceRunId ?? "active"}`;
     if (isBank) return `question-bank:${bankSource}`;
@@ -1139,11 +1126,12 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     practiceTestSetId,
     practiceTestStateSessionId,
   ]);
-  const desmosCalculatorStateKey = `${desmosStorageScope}:desmos:calculator`;
-  const desmosWindowStateKey = `${desmosStorageScope}:desmos:window`;
-  const desmosLayoutStateKey = `${desmosStorageScope}:desmos:layout`;
-  const desmosOpenStateKey = `${desmosStorageScope}:desmos:open`;
-  const desmosSplitPositionKey = `${desmosStorageScope}:desmos:split-position`;
+  const desmosStorageKeys = useMemo(() => getDesmosStorageKeys(desmosStorageScope), [desmosStorageScope]);
+  const desmosCalculatorStateKey = desmosStorageKeys.calculator;
+  const desmosWindowStateKey = desmosStorageKeys.window;
+  const desmosLayoutStateKey = desmosStorageKeys.layout;
+  const desmosOpenStateKey = desmosStorageKeys.open;
+  const desmosSplitPositionKey = desmosStorageKeys.splitPosition;
   const clearCurrentDesmosUiState = useCallback(() => {
     clearDesmosUiState(desmosStorageArea, desmosStorageScope);
   }, [desmosStorageArea, desmosStorageScope]);
@@ -1195,7 +1183,6 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   );
   const [struckOutChoiceIds, setStruckOutChoiceIds] = useState<string[]>([]);
   const [checkButtonState, setCheckButtonState] = useState<"idle" | "incorrect" | "correct-first" | "correct-later">("idle");
-  const [checkFlashKey, setCheckFlashKey] = useState(0);
   const [checkColorVisible, setCheckColorVisible] = useState(false);
   const [checkedAnswers, setCheckedAnswers] = useState<Record<string, boolean>>({});
   const [splitScreenWindows, setSplitScreenWindows] = useState<Set<string>>(new Set());
@@ -1204,15 +1191,17 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   const [attemptCount, setAttemptCount] = useState(0);
   const [shouldCompress, setShouldCompress] = useState(false);
   const [topShouldCompress, setTopShouldCompress] = useState(false);
-  const [shouldPinBottomNavCenter, setShouldPinBottomNavCenter] = useState(true);
-  const [shouldPinTopTimerCenter, setShouldPinTopTimerCenter] = useState(true);
   const [windowOrder, setWindowOrder] = useState<string[]>(['referenceSheet', 'desmos', 'explanation', 'note']);
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [questionViewMode, setQuestionViewMode] = useState<QuestionViewMode>(() =>
     getStoredQuestionViewMode(subject, isBank),
   );
   const effectiveQuestionViewMode = isMobile ? "vertical" : questionViewMode;
-  const effectiveTopShouldCompress = topShouldCompress || isMobile;
+  const questionSplitExitPosition =
+    effectiveQuestionViewMode === "horizontal" || typeof window === "undefined"
+      ? 100
+      : Math.min(100, (1280 / Math.max(window.innerWidth, 1)) * 100);
+  const effectiveTopShouldCompress = topShouldCompress;
   const [questionSplitPosition, setQuestionSplitPosition] = useState(() =>
     getDefaultQuestionSplitPosition(subject),
   );
@@ -1236,6 +1225,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   const bottomNavLeftRef = useRef<HTMLDivElement>(null);
   const bottomNavCenterRef = useRef<HTMLDivElement>(null);
   const bottomNavRightRef = useRef<HTMLDivElement>(null);
+  const bottomLeftMeasurementRef = useRef<HTMLDivElement>(null);
   const bottomMeasurementRef = useRef<HTMLDivElement>(null);
   const topNavRef = useRef<HTMLDivElement>(null);
   const topLeftRef = useRef<HTMLDivElement>(null);
@@ -1246,8 +1236,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   const topMeasurementRef = useRef<HTMLDivElement>(null);
   const topCompressStateRef = useRef(false);
   const bottomCompressStateRef = useRef(false);
-  const bottomCenterPinnedRef = useRef(true);
-  const topTimerPinnedRef = useRef(true);
+  const toolbarSpaceCheckRef = useRef<(() => void) | null>(null);
   const startTimeRef = useRef(Date.now());
   const questionVisitStartedAtRef = useRef(Date.now());
   const timerLastSyncedAtRef = useRef(Date.now());
@@ -1533,8 +1522,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
 
   const handleQuestionViewModeChange = (mode: QuestionViewMode) => {
     if (isMobile && mode === "horizontal") return;
-    const storageKey = getQuestionViewModeStorageKey(subject, isBank);
-    sessionStorage.setItem(storageKey, mode);
+    setStoredQuestionViewMode(subject, isBank, mode);
     setQuestionViewMode(mode);
   };
 
@@ -1636,21 +1624,38 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
 
   useLayoutEffect(() => {
     const checkSpace = () => {
-      if (bottomNavRef.current && bottomMeasurementRef.current) {
-        const containerWidth = bottomNavRef.current.offsetWidth;
-        const buttonsNaturalWidth = bottomMeasurementRef.current.scrollWidth;
-        const navSheet = bottomNavRef.current.querySelector('[data-nav-sheet]');
-        const navSheetWidth = navSheet ? (navSheet as HTMLElement).offsetWidth : 120;
-        const prevButtonWidth = 100;
-        const requiredWidth = prevButtonWidth + navSheetWidth + buttonsNaturalWidth + 48;
+      if (
+        bottomNavGridRef.current &&
+        bottomNavCenterRef.current &&
+        bottomLeftMeasurementRef.current &&
+        bottomMeasurementRef.current
+      ) {
+        const gridGap = Number.parseFloat(getComputedStyle(bottomNavGridRef.current).columnGap || "8") || 8;
+        const containerWidth = getVisibleElementWidth(bottomNavGridRef.current);
+        const leftNaturalWidth = bottomLeftMeasurementRef.current.scrollWidth;
+        const rightNaturalWidth = bottomMeasurementRef.current.scrollWidth;
+        const navSheetButton = bottomNavCenterRef.current.querySelector<HTMLElement>("[data-question-navigator-trigger]");
+        const navSheetWidth = navSheetButton
+          ? Math.max(navSheetButton.scrollWidth, navSheetButton.offsetWidth)
+          : 120;
+        const requiredWidth = leftNaturalWidth + navSheetWidth + rightNaturalWidth + gridGap * 2;
         const currentlyCompressed = bottomCompressStateRef.current;
+        const naturalCenterOffset = getPushedCenterOffset({
+          containerWidth,
+          leftWidth: leftNaturalWidth,
+          rightWidth: rightNaturalWidth,
+          centerWidth: navSheetWidth,
+          gap: gridGap,
+        });
+        const pushThreshold = currentlyCompressed ? BOTTOM_NAV_TEXT_PUSH_EXIT_PX : BOTTOM_NAV_TEXT_PUSH_ENTER_PX;
 
-        const nextCompressed = getNextStateForLowerThan({
+        const nextCompressedByWidth = getNextStateForLowerThan({
           currentState: currentlyCompressed,
           value: containerWidth,
-          enterThreshold: requiredWidth + 12,
-          exitThreshold: requiredWidth + 36,
+          enterThreshold: requiredWidth,
+          exitThreshold: requiredWidth + 24,
         });
+        const nextCompressed = nextCompressedByWidth || Math.abs(naturalCenterOffset) > pushThreshold;
 
         if (nextCompressed !== currentlyCompressed) {
           bottomCompressStateRef.current = nextCompressed;
@@ -1665,27 +1670,23 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
         bottomNavGridRef.current
       ) {
         const gridGap = Number.parseFloat(getComputedStyle(bottomNavGridRef.current).columnGap || "8") || 8;
-        const containerWidth = bottomNavRef.current?.offsetWidth ?? 0;
+        const containerWidth = getVisibleElementWidth(bottomNavGridRef.current);
         const leftWidth = bottomNavLeftRef.current.offsetWidth;
         const rightWidth = bottomNavRightRef.current.offsetWidth;
-        const centerWidth = bottomNavCenterRef.current.offsetWidth;
-        const centeredLeft = containerWidth / 2 - centerWidth / 2;
-        const centeredRight = containerWidth / 2 + centerWidth / 2;
-        const leftGap = centeredLeft - leftWidth;
-        const rightGap = (containerWidth - rightWidth) - centeredRight;
-        const currentlyPinned = bottomCenterPinnedRef.current;
-        const splitThresholdBuffer = 30;
-        const repinSlack = 12;
+        const navSheetButton = bottomNavCenterRef.current.querySelector<HTMLElement>("[data-question-navigator-trigger]");
+        const centerWidth = navSheetButton
+          ? Math.max(navSheetButton.scrollWidth, navSheetButton.offsetWidth)
+          : bottomNavCenterRef.current.offsetWidth;
 
-        const nextPinned = currentlyPinned
-          ? leftGap >= gridGap + splitThresholdBuffer && rightGap >= gridGap + splitThresholdBuffer
-          : leftGap >= gridGap + splitThresholdBuffer + repinSlack &&
-            rightGap >= gridGap + splitThresholdBuffer + repinSlack;
+        const nextOffset = getPushedCenterOffset({
+          containerWidth,
+          leftWidth,
+          rightWidth,
+          centerWidth,
+          gap: gridGap,
+        });
 
-        if (nextPinned !== currentlyPinned) {
-          bottomCenterPinnedRef.current = nextPinned;
-          setShouldPinBottomNavCenter(nextPinned);
-        }
+        setElementStyleProperty(bottomNavCenterRef.current, "--sat-bottom-center-offset", `${nextOffset}px`);
       }
 
       if (topNavRef.current && topLeftRef.current && topRightControlsRef.current && topTimerRef.current) {
@@ -1694,35 +1695,32 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
         const rightControlsWidth = topRightControlsRef.current.offsetWidth;
         const timerWidth = topTimerRef.current.offsetWidth;
         const navGap = Number.parseFloat(getComputedStyle(topNavRef.current).columnGap || "12") || 12;
-        const centeredLeft = containerWidth / 2 - timerWidth / 2;
-        const centeredRight = containerWidth / 2 + timerWidth / 2;
-        const leftGap = centeredLeft - leftWidth;
-        const rightGap = (containerWidth - rightControlsWidth) - centeredRight;
-        const currentlyPinned = topTimerPinnedRef.current;
-        const repinSlack = 12;
 
-        const nextPinned = currentlyPinned
-          ? leftGap >= navGap && rightGap >= navGap
-          : leftGap >= navGap + repinSlack && rightGap >= navGap + repinSlack;
+        const nextOffset = getPushedCenterOffset({
+          containerWidth,
+          leftWidth,
+          rightWidth: rightControlsWidth,
+          centerWidth: timerWidth,
+          gap: navGap,
+        });
 
-        if (nextPinned !== currentlyPinned) {
-          topTimerPinnedRef.current = nextPinned;
-          setShouldPinTopTimerCenter(nextPinned);
-        }
+        setElementStyleProperty(topTimerRef.current, "--sat-top-timer-offset", `${nextOffset}px`);
       }
 
-      if (topNavRef.current && topMeasurementRef.current && topLeftMeasurementRef.current) {
+      if (topNavRef.current && topMeasurementRef.current && topLeftMeasurementRef.current && topTimerRef.current) {
         const containerWidth = getVisibleElementWidth(topNavRef.current);
+        const navGap = Number.parseFloat(getComputedStyle(topNavRef.current).columnGap || "12") || 12;
         const leftNaturalWidth = topLeftMeasurementRef.current.scrollWidth;
         const rightNaturalWidth = topMeasurementRef.current.scrollWidth;
-        const requiredWidth = leftNaturalWidth + rightNaturalWidth + 40;
+        const timerWidth = topTimerRef.current.offsetWidth;
+        const requiredWidth = leftNaturalWidth + timerWidth + rightNaturalWidth + navGap * 2;
         const currentlyCompressed = topCompressStateRef.current;
 
         const nextCompressed = getNextStateForLowerThan({
           currentState: currentlyCompressed,
           value: containerWidth,
-          enterThreshold: requiredWidth + 12,
-          exitThreshold: requiredWidth + 40,
+          enterThreshold: requiredWidth,
+          exitThreshold: requiredWidth + 24,
         });
 
         if (nextCompressed !== currentlyCompressed) {
@@ -1731,6 +1729,8 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
         }
       }
     };
+
+    toolbarSpaceCheckRef.current = checkSpace;
 
     let frameId: number | null = null;
     const scheduleCheck = () => {
@@ -1763,19 +1763,40 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       if (bottomNavRightRef.current) resizeObserver.observe(bottomNavRightRef.current);
     }
     if (topMeasurementRef.current) resizeObserver.observe(topMeasurementRef.current);
+    if (topLeftMeasurementRef.current) resizeObserver.observe(topLeftMeasurementRef.current);
+    if (bottomLeftMeasurementRef.current) resizeObserver.observe(bottomLeftMeasurementRef.current);
     if (bottomMeasurementRef.current) resizeObserver.observe(bottomMeasurementRef.current);
 
     window.addEventListener('resize', scheduleCheck);
     window.visualViewport?.addEventListener('resize', scheduleCheck);
     scheduleCheck();
+    const settleCheckIds = [50, 150, 300].map((delay) => window.setTimeout(scheduleCheck, delay));
 
     return () => {
       if (frameId !== null) cancelAnimationFrame(frameId);
+      if (toolbarSpaceCheckRef.current === checkSpace) toolbarSpaceCheckRef.current = null;
+      settleCheckIds.forEach((id) => window.clearTimeout(id));
       window.removeEventListener('resize', scheduleCheck);
       window.visualViewport?.removeEventListener('resize', scheduleCheck);
       resizeObserver.disconnect();
     };
-  }, []);
+  }, [
+    assessmentAllowsChecking,
+    currentProgress.attempts.length,
+    currentPracticeIndex,
+    currentQuestionId,
+    effectivePracticeMode,
+    isAssessmentMode,
+    isEmbed,
+    isMobile,
+    orderedNavigationItems.length,
+    practiceSet.length,
+    subject,
+  ]);
+
+  useLayoutEffect(() => {
+    toolbarSpaceCheckRef.current?.();
+  });
 
   useEffect(() => {
     if (!isResizingQuestionSplit) return;
@@ -1834,6 +1855,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   const handleSplitPositionChange = useCallback((newPosition: number) => {
     const roundedPosition = Math.round(newPosition * 4) / 4;
     setSplitPosition(prev => (Math.abs(prev - roundedPosition) < 0.25 ? prev : roundedPosition));
+    requestAnimationFrame(() => toolbarSpaceCheckRef.current?.());
     if (sidebarredWindows.has("desmos")) {
       desmosStorageArea.setItem(desmosSplitPositionKey, String(roundedPosition));
     }
@@ -1864,13 +1886,19 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     if (isSplitScreenActive) {
       document.documentElement.style.setProperty('--modal-center-x', `${splitPosition / 2}%`);
       document.documentElement.style.setProperty('--sat-split-pct', `${splitPosition}%`);
+      document.documentElement.style.setProperty('--sat-content-split-pct', `${splitPosition}%`);
+      document.documentElement.style.setProperty('--sat-nav-split-pct', `${splitPosition}%`);
     } else {
       document.documentElement.style.removeProperty('--modal-center-x');
       document.documentElement.style.removeProperty('--sat-split-pct');
+      document.documentElement.style.removeProperty('--sat-content-split-pct');
+      document.documentElement.style.removeProperty('--sat-nav-split-pct');
     }
     return () => {
       document.documentElement.style.removeProperty('--modal-center-x');
       document.documentElement.style.removeProperty('--sat-split-pct');
+      document.documentElement.style.removeProperty('--sat-content-split-pct');
+      document.documentElement.style.removeProperty('--sat-nav-split-pct');
     };
   }, [isSplitScreenActive, splitPosition]);
 
@@ -2017,7 +2045,6 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   const getRenderedContentHtml = (
     content: string,
     options: {
-      center?: boolean;
       emphasizeHeaders?: boolean;
     } = {},
   ) => {
@@ -2039,16 +2066,14 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   const renderContent = (
     content: string,
     options: {
-      center?: boolean;
       emphasizeHeaders?: boolean;
     } = {},
   ) => {
     if (!content) return null;
-    const { center = false } = options;
     const html = getRenderedContentHtml(content, options);
     return (
       <div
-        className={cn("text-foreground break-words prose prose-stone dark:prose-invert max-w-none", center && "text-center")}
+        className="text-foreground break-words prose prose-stone dark:prose-invert max-w-none"
         style={{ fontFamily: "var(--question-font-family, 'Noto Serif', serif)", fontSize: "calc(1rem * var(--question-font-scale, 1))", lineHeight: "1.73" }}
       >
         <span
@@ -2080,11 +2105,6 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     : effectivePracticeMode
       ? currentPracticeIndex + 1
       : resolvedQuestionNumber;
-  const isAtPracticeTestModuleEnd = Boolean(
-    isPracticeTestMode &&
-      practiceTestCurrentModuleEndIndex >= 0 &&
-      currentPracticeIndex === practiceTestCurrentModuleEndIndex,
-  );
   const canGoPrevious = is100Hard
     ? currentOrderedQuestionIndex > 0
     : isPracticeTestMode
@@ -2202,9 +2222,14 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       params.set("practiceTestSession", practiceTestStateSessionId);
     }
 
+    if (customPracticeId && !modulePracticeSlug && !practiceTestSetId) {
+      params.set("customPractice", customPracticeId);
+    }
+
     const targetIdSegment = target.sourceId ?? target.id;
     navigate(`${base}/${target.subject}/${targetIdSegment}?${params.toString()}`);
   }, [
+    customPracticeId,
     effectivePracticeMode,
     flushModulePracticeQuestionTime,
     modulePracticeSlug,
@@ -2404,11 +2429,17 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   const handleGroupAnswered = () => {
     if (effectivePracticeMode || orderedNavigationItems.length === 0) return;
 
+    const stateByStorageId = getQuestionUiStates(
+      orderedNavigationItems.map((item) => item.storageId),
+      uid,
+    );
+    const getItemStatus = (storageId: string) =>
+      stateByStorageId[storageId]?.status || "unanswered";
     const answeredItems = orderedNavigationItems.filter(
-      (item) => getStoredQuestionStatus(item.storageId, uid) !== "unanswered",
+      (item) => getItemStatus(item.storageId) !== "unanswered",
     );
     const unansweredItems = orderedNavigationItems.filter(
-      (item) => getStoredQuestionStatus(item.storageId, uid) === "unanswered",
+      (item) => getItemStatus(item.storageId) === "unanswered",
     );
     const nextOrder = [...answeredItems, ...unansweredItems].map((item) => item.id);
 
@@ -2446,7 +2477,8 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   const handleCheck = useCallback((overrideAnswer?: string) => {
     if (!currentQuestion) return;
     if (isAssessmentMode && !assessmentAllowsChecking) return;
-    const userAnswer = overrideAnswer || (currentQuestion.type === 'multiple-choice' ? selectedAnswer : freeResponseAnswer);
+    const rawUserAnswer = overrideAnswer || (currentQuestion.type === 'multiple-choice' ? selectedAnswer : freeResponseAnswer);
+    const userAnswer = currentQuestion.type === "free-response" ? rawUserAnswer.trim() : rawUserAnswer;
 
     if (!userAnswer) {
       toast.error("Please provide an answer");
@@ -2459,7 +2491,6 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
         ? checkButtonState
         : null;
     if (checkedAnswers[userAnswer] !== undefined) {
-      setCheckFlashKey((k) => k + 1);
       return;
     }
 
@@ -2481,7 +2512,6 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     setCheckedAnswers(newCheckedAnswers);
     const newAttemptCount = attemptCount + 1;
     setAttemptCount(newAttemptCount);
-    setCheckFlashKey((k) => k + 1);
 
     if (isCorrect) {
       const status = alreadyCorrectStatus ?? (newAttemptCount === 1 ? 'correct-first' : 'correct-later');
@@ -2679,22 +2709,39 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     usesTransientQuestionAnswerUi,
   ]);
 
+  const freeResponseAnswerForCheck = freeResponseAnswer.trim();
   const hasSelection = currentQuestion
     ? currentQuestion.type === 'multiple-choice'
       ? Boolean(selectedAnswer)
-      : Boolean(freeResponseAnswer)
+      : freeResponseAnswerForCheck.length > 0
     : false;
+  const canCheckAnswers = !isAssessmentMode || assessmentAllowsChecking;
   const isCheckDisabled = !hasSelection;
+  const showInlineFreeResponseCheck =
+    currentQuestion?.type === "free-response" &&
+    canCheckAnswers &&
+    freeResponseAnswerForCheck.length > 0;
   const freeResponseCheckedResult =
-    currentQuestion?.type === "free-response" && freeResponseAnswer
-      ? checkedAnswers[freeResponseAnswer]
+    currentQuestion?.type === "free-response" && freeResponseAnswerForCheck
+      ? checkedAnswers[freeResponseAnswerForCheck]
       : undefined;
-  const freeResponseInputClassName = cn(
-    "max-w-md transition-colors",
+  const freeResponseAnswerStateClassName = cn(
     freeResponseCheckedResult === true &&
       "border-2 border-[#1B5E20] bg-[#C8E6C9]/20 dark:border-[#2E7D32] dark:bg-[#1B5E20]/20",
     freeResponseCheckedResult === false &&
       "border-2 border-[#B71C1C] bg-[#FFCDD2]/20 dark:border-[#8B0000] dark:bg-[#5C1010]/20",
+  );
+  const freeResponseInputClassName = cn(
+    "max-w-md flex-[1_1_16rem] transition-colors duration-150 ease-out",
+    freeResponseAnswerStateClassName,
+  );
+  const freeResponseInlineCheckButtonClassName = cn(
+    "h-11 shrink-0 rounded-[9px] border border-ds-line bg-white px-[14px] py-[11px] font-sans text-[15px] font-medium text-ink shadow-none transition-colors duration-150 ease-out hover:border-ds-line hover:bg-white hover:text-ink dark:border-ds-line dark:bg-card dark:text-ink dark:hover:border-ds-line dark:hover:bg-card dark:hover:text-ink",
+    freeResponseAnswerStateClassName,
+    freeResponseCheckedResult === true &&
+      "hover:border-[#1B5E20] hover:bg-[#C8E6C9]/20 hover:text-ink dark:hover:border-[#2E7D32] dark:hover:bg-[#1B5E20]/20 dark:hover:text-ink",
+    freeResponseCheckedResult === false &&
+      "hover:border-[#B71C1C] hover:bg-[#FFCDD2]/20 hover:text-ink dark:hover:border-[#8B0000] dark:hover:bg-[#5C1010]/20 dark:hover:text-ink",
   );
 
   const getCheckButtonClasses = () => {
@@ -2719,6 +2766,33 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
         return hasSelection ? "bg-primary/10 hover:bg-primary/20 border-primary/40 text-foreground" : "bg-background text-foreground border-border";
     }
   };
+
+  const renderFreeResponseAnswerControls = () => (
+    <div className="space-y-3">
+      <label className="text-sm font-medium text-foreground">Your Answer:</label>
+      <div className="flex w-full flex-wrap items-center gap-2">
+        <Input
+          key={localStateKey}
+          type="text"
+          value={freeResponseAnswer}
+          onChange={(e) => handleFreeResponseChange(e.target.value)}
+          placeholder="Enter your answer"
+          className={freeResponseInputClassName}
+        />
+        {showInlineFreeResponseCheck && (
+          <Button
+            onClick={() => handleCheck()}
+            disabled={isCheckDisabled}
+            variant="outline"
+            className={freeResponseInlineCheckButtonClassName}
+          >
+            <Check className="mr-1 h-4 w-4" />
+            <span>Check</span>
+          </Button>
+        )}
+      </div>
+    </div>
+  );
 
   const questionWithBankFields = (currentQuestion ?? {}) as Partial<{
     prompt: string;
@@ -2820,7 +2894,6 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                   getQuestionImageClassName(img.displaySize, subject, shouldReduceQuestionImageSize),
                 )}
                 wrapperClassName={cn("max-w-full", shouldReduceQuestionImageSize && "flex justify-center")}
-                loading="lazy"
                 trimWhitespace={isBank && bankSource === 'unofficial'}
                 reserveWhiteBackground={reserveWhiteBackground}
                 intrinsicSize={reserveWhiteBackground ? questionImageDimensionsBySrc[src] : undefined}
@@ -2913,7 +2986,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     }
     applyTheme(!isDark);
   };
-  const handleCreateSimilarPracticeSet = async (startNow: boolean) => {
+  const handleCreateSimilarPracticeSet = async () => {
     if (!currentQuestion || !isBankQuestionWithUuid(currentQuestion)) return;
     const similarityMeta = await ensureCurrentSimilarityMeta();
     const questionWithSimilarity = similarityMeta
@@ -2921,11 +2994,8 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       : currentQuestion;
     if (!questionWithSimilarity.similarityGroupId) return;
 
-    const practiceSet = await createCustomPracticeSetForQuestion(questionWithSimilarity, uid);
-    if (startNow) {
-      launchCustomPracticeSet(practiceSet, navigate);
-      return;
-    }
+    const { createCustomPracticeSetForQuestion } = await import("@/lib/practice/customPracticeSets");
+    await createCustomPracticeSetForQuestion(questionWithSimilarity, uid);
     toast.success("Practice set created");
     navigate("/my-practice-sets");
   };
@@ -2983,10 +3053,17 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
         onClick={() => setIsTimerVisible((prev) => !prev)}
         title={isTimerVisible ? "Hide timer" : "Show timer"}
       >
-        {isTimerVisible ? <Eye className="h-5 w-5" /> : <EyeOff className="h-5 w-5" />}
+        {isTimerVisible ? (
+          <Eye className="h-5 w-5" />
+        ) : (
+          <EyeOff className="h-5 w-5" />
+        )}
       </Button>
-      <span className="min-w-[5ch] text-center text-xl font-semibold tabular-nums">
-        {isTimerVisible ? formatTimer(displayedTimerSeconds) : "-:--"}
+      <span className={cn(
+        "text-center font-semibold tabular-nums",
+        "min-w-[5ch] text-xl",
+      )}>
+        {isTimerVisible ? formatPracticeClock(displayedTimerSeconds) : "-:--"}
       </span>
       {!isAssessmentMode && (
         <Button
@@ -2996,7 +3073,11 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
           onClick={() => setIsTimerPaused((prev) => !prev)}
           title={isTimerPaused ? "Resume timer" : "Pause timer"}
         >
-          {isTimerPaused ? <Play className="h-5 w-5" /> : <Pause className="h-5 w-5" />}
+          {isTimerPaused ? (
+            <Play className="h-5 w-5" />
+          ) : (
+            <Pause className="h-5 w-5" />
+          )}
         </Button>
       )}
     </>
@@ -3091,6 +3172,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     );
   };
   const handleFreeResponseChange = (answer: string) => {
+    const hasAnswer = answer.trim().length > 0;
     setFreeResponseAnswer(answer);
     if (isAssessmentMode) {
       persistModulePracticeQuestionState((previous) => ({
@@ -3102,7 +3184,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
             previous.status === "correct-first" ||
             previous.status === "correct-later")
             ? previous.status
-            : answer
+            : hasAnswer
               ? "answered"
               : "unanswered",
       }));
@@ -3114,7 +3196,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
           ? getNavigationOnlyQuestionUiPatch(
               isCheckedQuestionStatus(storedStatus)
                 ? storedStatus
-                : answer
+                : hasAnswer
                   ? "answered"
                   : "unanswered",
             )
@@ -3125,7 +3207,6 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   };
   const handleStrikeoutChange = (choiceIds: string[]) => {
     setStruckOutChoiceIds(choiceIds);
-    if (!isAssessmentMode) return;
     persistModulePracticeQuestionState((previous) => ({
       ...previous,
       struckOutChoiceIds: choiceIds,
@@ -3297,15 +3378,15 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       />
       <header className="border-b border-border bg-card sticky top-0 z-10">
         <div
-          className="container mx-auto px-4 py-4"
-          style={isSplitScreenActive ? { maxWidth: "var(--sat-split-pct, 70%)", marginLeft: 0 } : undefined}
+          className="container mx-auto px-4 py-4 transition-[max-width] duration-200 ease-out motion-reduce:transition-none"
+          style={isSplitScreenActive ? { maxWidth: "var(--sat-content-split-pct, 70%)", marginLeft: 0 } : undefined}
         >
           <div className="relative flex items-center justify-between gap-1 sm:gap-3" ref={topNavRef}>
-            <div ref={topLeftRef} data-header-left className="flex-shrink-0">
+            <div ref={topLeftRef} data-header-left className="shrink-0">
               {isEmbed ? null : isAssessmentMode ? (
                 <AlertDialog>
                   <AlertDialogTrigger asChild>
-                    <Button variant="ghost" size="sm">
+                    <Button variant="ghost" size="sm" className={effectiveTopShouldCompress ? "w-9 px-0" : undefined}>
                       <ChevronLeft className={effectiveTopShouldCompress ? "h-4 w-4" : "mr-1 h-4 w-4"} />
                       {!effectiveTopShouldCompress && "Save & Exit"}
                     </Button>
@@ -3332,6 +3413,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                 <Button
                   variant="ghost"
                   size="sm"
+                  className={effectiveTopShouldCompress ? "w-9 px-0" : undefined}
                   onClick={() => {
                     clearQuestionBankViewerNotes();
                     clearCurrentDesmosUiState();
@@ -3343,23 +3425,19 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                 </Button>
               )}
             </div>
-            {shouldPinTopTimerCenter && (
-              <div ref={topTimerRef} className="absolute left-1/2 -translate-x-1/2 flex items-center gap-2">
-                {timerControls}
-              </div>
-            )}
-            <div ref={topRightRef} className="flex items-center gap-1 sm:gap-2">
-              {!shouldPinTopTimerCenter && (
-                <div ref={topTimerRef} className="flex items-center gap-1 sm:gap-2 mr-0 sm:mr-1">
-                  {timerControls}
-                </div>
-              )}
-              <div ref={topRightControlsRef} className="flex items-center gap-1 sm:gap-2">
+            <div
+              ref={topTimerRef}
+              data-header-center
+              className="absolute left-1/2 flex -translate-x-1/2 items-center gap-1 sm:gap-2"
+              style={{ transform: "translateX(calc(-50% + var(--sat-top-timer-offset, 0px)))" }}
+            >
+              {timerControls}
+            </div>
+            <div ref={topRightRef} className="ml-auto flex min-w-0 items-center justify-end">
+              <div ref={topRightControlsRef} className="flex min-w-0 items-center justify-end gap-1 sm:gap-2">
                 {subject === "math" && (
                   <>
                     <FormulaSheetDialog
-                      onSplitScreenChange={handleSplitScreenChange}
-                      splitPosition={splitPosition}
                       onFocus={() => bringToFront('referenceSheet')}
                       zIndex={getZIndex('referenceSheet')}
                       constrainToLeft={isSplitScreenActive ? splitPosition : undefined}
@@ -3385,6 +3463,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                       layoutStateKey={desmosLayoutStateKey}
                       openStateKey={desmosOpenStateKey}
                       onRestoreSidebarPosition={restoreDesmosSplitPosition}
+                      contentSplitExitPosition={questionSplitExitPosition}
                     />
                   </>
                 )}
@@ -3410,7 +3489,13 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                   if (open) void ensureCurrentSimilarityMeta();
                 }}>
                   <DropdownMenuTrigger asChild>
-                    <Button variant="outline" size="sm" title="More" data-tour="question-more-menu">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      title="More"
+                      data-tour="question-more-menu"
+                      className={effectiveTopShouldCompress ? "w-9 px-0" : undefined}
+                    >
                       <MoreHorizontal className={effectiveTopShouldCompress ? "h-4 w-4" : "mr-2 h-4 w-4"} />
                       {!effectiveTopShouldCompress && "More"}
                     </Button>
@@ -3438,7 +3523,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                     {canCreateSimilarPracticeSet && (
                       <DropdownMenuItem
                         data-tour="create-practice-set-menu-item"
-                        onClick={() => handleCreateSimilarPracticeSet(false)}
+                        onClick={handleCreateSimilarPracticeSet}
                       >
                         <BookOpenCheck className="mr-2 h-4 w-4" />
                         Create Practice Set
@@ -3510,7 +3595,6 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
               className="absolute -left-[9999px] flex items-center gap-2 whitespace-nowrap"
               style={HIDDEN_MEASUREMENT_STYLE}
             >
-              <div className="h-8 w-14 rounded-full border" />
               {subject === "math" && (
                 <>
                   <Button variant="outline" size="sm">
@@ -3533,19 +3617,14 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                 <span className="mr-2 inline-block h-4 w-4" />
                 More
               </Button>
-              <div className="inline-flex items-center gap-2">
-                <div className="h-9 w-9 rounded-md border" />
-                <div className="w-[5ch]" />
-                <div className="h-9 w-9 rounded-md border" />
-              </div>
             </div>
           </div>
         </div>
       </header>
 
       <main
-        className={`flex-1 pb-28 ${effectiveQuestionViewMode === 'horizontal' ? 'px-8 py-6' : 'px-4 py-8'}`}
-        style={isSplitScreenActive ? { maxWidth: "var(--sat-split-pct, 70%)", marginLeft: 0 } : effectiveQuestionViewMode === 'horizontal' ? { width: "100%" } : { maxWidth: "1280px", margin: "0 auto", width: "100%" }}
+        className={`flex-1 pb-28 transition-[max-width,width] duration-200 ease-out motion-reduce:transition-none ${effectiveQuestionViewMode === 'horizontal' ? 'px-8 py-6' : 'px-4 py-8'}`}
+        style={isSplitScreenActive ? { maxWidth: "var(--sat-content-split-pct, 70%)", marginLeft: 0 } : effectiveQuestionViewMode === 'horizontal' ? { width: "100%" } : { maxWidth: "1280px", margin: "0 auto", width: "100%" }}
       >
         <div
           className={`relative ${effectiveQuestionViewMode === 'horizontal' ? 'p-6' : 'p-4 sm:p-6 md:p-8'}`}
@@ -3638,17 +3717,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                     onStruckOutChange={isAssessmentMode ? handleStrikeoutChange : undefined}
                   />
                 ) : (
-                  <div className="space-y-3">
-                    <label className="text-sm font-medium text-foreground">Your Answer:</label>
-                    <Input
-                      key={localStateKey}
-                      type="text"
-                      value={freeResponseAnswer}
-                      onChange={(e) => handleFreeResponseChange(e.target.value)}
-                      placeholder="Enter your answer"
-                      className={freeResponseInputClassName}
-                    />
-                  </div>
+                  renderFreeResponseAnswerControls()
                 )}
               </div>
             </div>
@@ -3737,17 +3806,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                   onStruckOutChange={isAssessmentMode ? handleStrikeoutChange : undefined}
                 />
               ) : (
-                <div className="space-y-3">
-                  <label className="text-sm font-medium text-foreground">Your Answer:</label>
-                  <Input
-                    key={localStateKey}
-                    type="text"
-                    value={freeResponseAnswer}
-                    onChange={(e) => handleFreeResponseChange(e.target.value)}
-                    placeholder="Enter your answer"
-                    className={freeResponseInputClassName}
-                  />
-                </div>
+                renderFreeResponseAnswerControls()
               )}
             </>
           )}
@@ -3756,17 +3815,17 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
 
       <div
         ref={bottomNavRef}
-        className={cn(isNativeEmbed ? "absolute" : "fixed", "bottom-0 left-0 right-0 bg-card border-t-2 border-border shadow-lg z-40")}
-        style={isSplitScreenActive ? { width: "var(--sat-split-pct, 70%)" } : undefined}
+        className={cn(isNativeEmbed ? "absolute" : "fixed", "bottom-0 left-0 right-0 bg-card border-t-2 border-border shadow-lg z-40 transition-[width] duration-200 ease-out motion-reduce:transition-none")}
+        style={isSplitScreenActive ? { width: "var(--sat-nav-split-pct, 70%)" } : undefined}
       >
-        <div className="container mx-auto px-4 py-3">
-          <div ref={bottomNavGridRef} className="relative grid grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-2">
-            <div ref={bottomNavLeftRef} className="shrink-0" style={{ minWidth: shouldCompress ? undefined : '100px' }}>
+        <div className="container mx-auto px-2 py-3 sm:px-4">
+          <div ref={bottomNavGridRef} className="relative flex items-center justify-between gap-1 sm:gap-2">
+            <div ref={bottomNavLeftRef} className="shrink-0">
               <Button
                 variant="outline"
                 onClick={handlePrevious}
                 disabled={!canGoPrevious}
-                className={cn("h-10", shouldCompress && "w-11 px-0")}
+                className={cn("h-10", shouldCompress && "w-10 px-0")}
               >
                 <ChevronLeft className={shouldCompress ? "h-4 w-4" : "mr-1 h-4 w-4"} />
                 {!shouldCompress && <span>Previous</span>}
@@ -3776,14 +3835,16 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
             <div
               ref={bottomNavCenterRef}
               data-nav-sheet
-              className={cn(
-                "min-w-0 flex items-center justify-center gap-1 overflow-hidden px-1",
-                shouldPinBottomNavCenter && !shouldCompress
-                  ? "absolute left-1/2 -translate-x-1/2"
-                  : "justify-self-center"
-              )}
+              className="absolute left-1/2 flex items-center justify-center overflow-visible px-1"
+              style={{
+                transform: "translateX(calc(-50% + var(--sat-bottom-center-offset, 0px)))",
+              }}
             >
-              {!isEmbed && !isAssessmentMode && <PreviousAttemptsDialog attempts={currentProgress.attempts} />}
+              {!isEmbed && !isAssessmentMode && currentProgress.attempts.length > 0 && (
+                <div className="absolute right-full mr-1 flex shrink-0 items-center">
+                  <PreviousAttemptsDialog attempts={currentProgress.attempts} />
+                </div>
+              )}
               {!isEmbed && (is100Hard ? (
                   <BankNavigationSheet
                     currentQuestion={resolvedQuestionNumber}
@@ -3800,7 +3861,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                   />
               ) : effectivePracticeMode ? (
                  isAssessmentMode ? (
-                      <ModulePracticeNavigationSheet
+                      <QuestionNavigatorSheet
                         buttonLabel={
                           isPracticeTestMode
                             ? practiceTestReviewPhase
@@ -3809,11 +3870,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                             : `Question ${currentPracticeIndex + 1} of ${practiceSet.length}`
                         }
                         title={isPracticeTestMode ? practiceTestNavigatorTitle : modulePracticeModule?.publicTitle || "Module Navigator"}
-                        subtitle={isPracticeTestMode ? practiceTestNavigatorSubtitle : (
-                          modulePracticeAllowsChecking
-                            ? `${practiceSet.length} questions in this module`
-                            : `${practiceSet.length} questions in this module`
-                        )}
+                        subtitle={isPracticeTestMode ? practiceTestNavigatorSubtitle : `${practiceSet.length} questions in this module`}
                         items={modulePracticeNavigatorItems}
                         isSplitScreenActive={isSplitScreenActive}
                         splitPosition={splitPosition}
@@ -3834,8 +3891,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                      <PracticeNavigationSheet
                         currentIndex={currentPracticeIndex}
                         practiceSet={practiceSet}
-                        onJump={(idx) => navigateToPracticeIndex(idx)}
-                        exitTo={practiceExitTo || `/bank?bankType=${bankSource}`}
+                        onJump={navigateToPracticeIndex}
                         isSplitScreenActive={isSplitScreenActive}
                         splitPosition={splitPosition}
                      />
@@ -3860,7 +3916,6 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
             <div
               ref={bottomNavRightRef}
               className={cn("ml-auto flex shrink-0 justify-end", shouldCompress ? "gap-1" : "gap-2")}
-              style={{ minWidth: shouldCompress ? undefined : '280px' }}
             >
               {!isAssessmentMode && (
                 <ExplanationWindow
@@ -3875,17 +3930,12 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                   onSidebarToggle={handleSidebarToggle}
                   correctAnswer={currentQuestion?.correctAnswer}
                   rationale={currentExplanationQuestion?.rationale}
-                  questionType={currentQuestion?.type}
-                  choices={currentQuestion?.choices}
                   questionId={currentQuestion?.uuid || currentQuestion?.id}
                   questionSection={currentExplanationQuestion?.category.subject}
                   questionText={currentExplanationQuestion?.prompt}
-                  questionDomain={currentExplanationQuestion?.category.domain}
-                  questionSkill={currentExplanationQuestion?.category.skill}
-                  questionDifficulty={currentExplanationQuestion?.difficulty}
-                  questionImages={questionImages}
                   windowPortalContainer={windowPortalContainer}
                   windowBoundsElement={windowBoundsElement}
+                  contentSplitExitPosition={questionSplitExitPosition}
                 />
               )}
               {(!isAssessmentMode || assessmentAllowsChecking) && (
@@ -3893,7 +3943,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                   onClick={() => handleCheck()}
                   disabled={isCheckDisabled}
                   variant="outline"
-                  className={cn("h-10 border-2 transition-colors duration-700", shouldCompress && "w-11 px-0", getCheckButtonClasses())}
+                  className={cn("h-10 border-2 transition-colors duration-150 ease-out", shouldCompress && "w-10 px-0", getCheckButtonClasses())}
                 >
                   <Check className={shouldCompress ? "h-4 w-4" : "mr-1 h-4 w-4"} />
                   {!shouldCompress && <span>Check</span>}
@@ -3903,7 +3953,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                 onClick={handleEmbedAwareAdvance}
                 disabled={isAssessmentMode ? false : !canGoNext && !isAtPreviewQuestionLimit}
                 variant="outline"
-                className={cn("h-10 transition-colors duration-200 ease-out", shouldCompress && "w-11 px-0")}
+                className={cn("h-10 transition-colors duration-200 ease-out", shouldCompress && "w-10 px-0")}
               >
                 {!shouldCompress && (
                   <span>
@@ -3915,24 +3965,35 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
             </div>
 
             <div
+              ref={bottomLeftMeasurementRef}
+              aria-hidden="true"
+              className="absolute -left-[9999px] whitespace-nowrap"
+              style={HIDDEN_MEASUREMENT_STYLE}
+            >
+              <Button variant="outline" className="h-10">
+                <ChevronLeft className="mr-1 h-4 w-4" />
+                <span>Previous</span>
+              </Button>
+            </div>
+            <div
               ref={bottomMeasurementRef}
               aria-hidden="true"
               className="absolute -left-[9999px] flex gap-2 whitespace-nowrap"
               style={HIDDEN_MEASUREMENT_STYLE}
             >
               {!isAssessmentMode && (
-                <Button variant="secondary" size="default">
-                  <span className="mr-2 h-4 w-4">▶</span>
+                <Button variant="outline" size="sm" className="h-10">
+                  <span className="mr-2 inline-block h-4 w-4" />
                   Explanation
                 </Button>
               )}
               {(!isAssessmentMode || assessmentAllowsChecking) && (
-                <Button size="default">
+                <Button variant="outline" className="h-10 border-2">
                   <Check className="mr-1 h-4 w-4" />
                   <span>Check</span>
                 </Button>
               )}
-              <Button size="default">
+              <Button variant="outline" className="h-10">
                 <span>{practiceTestAdvanceLabel}</span>
                 <ChevronRight className="ml-1 h-4 w-4" />
               </Button>

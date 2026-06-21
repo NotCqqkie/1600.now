@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the angle relationship",
-      "content": "From the figure, the angle marked $x^{\\circ}$ and the angle marked $145^{\\circ}$ are formed by the transversal $k$ cutting the parallel lines $m$ and $n$, in positions that make them vertical angles (or corresponding angles between parallel lines &mdash; both relationships force equality)."
+      "content": "From the figure, the angle marked $x^{\\circ}$ and the angle marked $145^{\\circ}$ are opposite angles formed where lines $k$ and $n$ intersect. These are vertical angles."
     },
     {
-      "title": "Apply the theorem and check each choice",
-      "content": "Vertical angles are congruent, and corresponding angles formed by a transversal cutting parallel lines are also congruent. Either way, $x = 145$.<br/><ul><li>A) $x \\lt 145$: false, since $x = 145$. Eliminate.</li><li>B) $x \\gt  145$: false, since $x = 145$. Eliminate.</li><li>C) $x = 145$: matches the vertical/corresponding angle relationship. Match.</li><li>D) Cannot be determined: false &mdash; the parallel-line and transversal setup pins $x$ exactly. Eliminate.</li></ul><strong>C</strong> is correct."
+      "title": "Apply the vertical angles theorem",
+      "content": "Vertical angles are congruent, so $$x=145.$$<br/><ul><li>A) $x \\lt 145$: false, since $x=145$. Eliminate.</li><li>B) $x \\gt 145$: false, since $x=145$. Eliminate.</li><li>C) $x=145$: true. Match.</li><li>D) Cannot be determined: false because the vertical angle relationship determines $x$. Eliminate.</li></ul><strong>C</strong> is correct."
     }
   ]
 }

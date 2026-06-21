@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+      "title": "Use the triangle angle sum",
+      "content": "The figure shows a right triangle with one angle of $24^{\\circ}$ and another angle labeled $a$. The three interior angles of a triangle sum to $180^{\\circ}$."
     },
     {
       "title": "Identify the triangle angle-sum relationship",
@@ -13,7 +13,7 @@
     },
     {
       "title": "Solve for the missing angle",
-      "content": "Solve for $a$:<br/>$$a = 180^{\\circ} - 90^{\\circ} - 24^{\\circ} = 66^{\\circ}$$<strong>B</strong> is correct."
+      "content": "Solve for $a$:<br/>$$a = 180^{\\circ} - 90^{\\circ} - 24^{\\circ} = 66^{\\circ}$$<br/><strong>B</strong> is correct."
     }
   ]
 }

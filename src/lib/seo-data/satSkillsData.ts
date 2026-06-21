@@ -1,6 +1,6 @@
 import type { MathSkill, EnglishSkill } from "@/data/questionCategories";
 
-export interface SatSkill {
+interface SatSkill {
   slug: string;
   name: string;
   section: "Math" | "Reading & Writing";

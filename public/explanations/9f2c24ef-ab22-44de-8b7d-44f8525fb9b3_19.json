@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+      "title": "Use cylinder volume scaling",
+      "content": "Cylinder volume is $V=\\pi r^2h$. If the radius is scaled by $a$ and the height by $b$, the volume is scaled by $a^2b$."
     },
     {
       "title": "Set up the volume equation",
@@ -13,10 +13,9 @@
     },
     {
       "title": "Factor 576 to find the scaling factors",
-      "content": "When the radius scales by factor $a$ and height by factor $b$, the volume scales by $a^2 b$.<br/><br/>We need $a^2 b = 576$. Factoring:<br/>$$576 = 64 \\times 9 = 8^2 \\times 9$$<br/>This means the radius scales by $a = 8$ and the height scales by $b = 9$, so $R = 8r$ and $H = 9h$. The Desmos expressions check the same volume multipliers for the answer choices.<br/><br/>That confirms <strong>C</strong>. &#8212; <strong>C</strong> is correct."
+      "content": "When the radius scales by factor $a$ and height by factor $b$, the volume scales by $a^2 b$.<br/><br/>We need $a^2 b = 576$. Factoring:<br/>$$576 = 64 \\times 9 = 8^2 \\times 9$$<br/>This means the radius scales by $a = 8$ and the height scales by $b = 9$, so $R = 8r$ and $H = 9h$. The Desmos expressions check the same volume multipliers for the answer choices.<br/><br/>That confirms <strong>C</strong> is correct."
     }
   ],
-  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; $R=9r$ and $H=8h$</strong>: Volume ratio = (9)<sup>2</sup> &times; 8 = 81 &times; 8 = 648 &ne; 576. &#10007;</li><li><strong>Choice B &mdash; $R=9r$ and $H=64h$</strong>: Volume ratio = (9)<sup>2</sup> &times; 64 = 81 &times; 64 = 5,184 &ne; 576. &#10007;</li><li><strong>Choice C &mdash; $R=8r$ and $H=9h$</strong>: Volume ratio = (8)<sup>2</sup> &times; 9 = 64 &times; 9 = 576. &#10003;</li><li><strong>Choice D &mdash; $R=64r$ and $H=9h$</strong>: Volume ratio = (64)<sup>2</sup> &times; 9 = 4,096 &times; 9 = 36,864 &ne; 576. &#10007;</li></ul>That confirms <strong>C</strong>. &#8212; <strong>C</strong> is correct.",
   "desmosExpressions": [
     "8^{2} \\cdot 9",
     "9^{2} \\cdot 8",

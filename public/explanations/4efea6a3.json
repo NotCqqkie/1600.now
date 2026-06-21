@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+      "title": "Use the rectangle area formula",
+      "content": "For a rectangle, area equals longest side times shortest side. Let $w$ be the shortest side. Since the area is $57$ and the longest side is $19$, use $57=19w$."
     },
     {
       "title": "Set up the rectangle area equation",

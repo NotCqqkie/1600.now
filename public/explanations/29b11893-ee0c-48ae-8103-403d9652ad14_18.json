@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+      "title": "Use cofunction identities",
+      "content": "Use $\\cos((90-a)^\\circ)=\\sin(a^\\circ)$ and $\\sin((90-b)^\\circ)=\\cos(b^\\circ)$. When $y=0$, $\\sin((a+y)^\\circ)=\\sin(a^\\circ)$."
     },
     {
       "title": "Apply cofunction identities",

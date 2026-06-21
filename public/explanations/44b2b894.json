@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+      "title": "Use the rectangle diagonal",
+      "content": "A rectangle inscribed in a circle has its diagonal equal to the circle's diameter. The diagonal and the two side lengths form a right triangle, so start by connecting the diagonal constraint to the rectangle's side lengths."
     },
     {
       "title": "Translate the diagonal constraint to a side relationship",

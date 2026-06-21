@@ -6,7 +6,7 @@ const NotFound = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-background px-6">
       <div className="mb-8">
-        <BrandLogo variant="mark" className="h-10 w-10" />
+        <BrandLogo variant="mark" />
       </div>
 
       <div className="text-center max-w-sm">

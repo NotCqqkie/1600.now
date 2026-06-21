@@ -44,7 +44,6 @@ def main():
     print(f"Existing explanations: {len(existing)}")
 
     # Find expected (section, module, question_number) tuples by scanning raw_text
-    import re
     expected_questions = []
     for group in groups:
         for p in group["pages"]:

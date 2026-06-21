@@ -1,14 +1,13 @@
 import { useEffect, useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import {
-  getPracticeModule,
   getPracticeSets,
   type PracticeModule,
   type PracticeSet,
 } from "@/data/modulePracticeBank";
 import {
-  classifyModuleCompletion,
-  getModuleProgressCounts,
+  getModuleCompletionStatus,
+  type ModuleCompletionStatus,
 } from "@/lib/practice/moduleProgress";
 import {
   clearModulePracticeSession,
@@ -25,7 +24,6 @@ import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
-  CardHeader,
 } from "@/components/ui/card";
 import {
   AlertDialog,
@@ -49,14 +47,40 @@ import { useAuth } from "@/contexts/AuthContext";
 import { PageSeo, buildBreadcrumbJsonLd } from "@/components/seo/PageSeo";
 
 const practiceSets = getPracticeSets();
+const MODULES_RETURN_SCROLL_Y_STORAGE_KEY = "modules:returnScrollY";
+
+type SubjectFilter = "all" | "reading" | "math";
+type ModuleFilter = "all" | "1" | "2";
+type CompletionFilter = "all" | ModuleCompletionStatus;
+type ModuleResumeSession = NonNullable<ReturnType<typeof getModulePracticeSession>>;
+type ResumeEntry =
+  | {
+      kind: "module";
+      startedAt: number;
+      module: PracticeModule;
+      session: ModuleResumeSession;
+    }
+  | {
+      kind: "test";
+      startedAt: number;
+      practiceSet: PracticeSet;
+      session: PracticeTestSessionMeta;
+    };
+
+const formatResumeTimeLeft = (seconds: number): string => {
+  const safe = Math.max(0, seconds);
+  const minutes = Math.floor(safe / 60);
+  const remainder = safe % 60;
+  return `${minutes}:${String(remainder).padStart(2, "0")} left`;
+};
 
 const Modules = () => {
   const navigate = useNavigate();
   const { user } = useAuth();
   const uid = user?.id ?? null;
-  const [subjectFilter, setSubjectFilter] = useState<"all" | "reading" | "math">("all");
-  const [moduleFilter, setModuleFilter] = useState<"all" | "1" | "2">("all");
-  const [completionFilter, setCompletionFilter] = useState<"all" | "not-started" | "in-progress" | "completed">("all");
+  const [subjectFilter, setSubjectFilter] = useState<SubjectFilter>("all");
+  const [moduleFilter, setModuleFilter] = useState<ModuleFilter>("all");
+  const [completionFilter, setCompletionFilter] = useState<CompletionFilter>("all");
   const [progressRefreshKey, setProgressRefreshKey] = useState(0);
   const [discardDialogOpen, setDiscardDialogOpen] = useState(false);
 
@@ -71,9 +95,9 @@ const Modules = () => {
   }, []);
 
   useEffect(() => {
-    const stored = sessionStorage.getItem("modules:returnScrollY");
+    const stored = sessionStorage.getItem(MODULES_RETURN_SCROLL_Y_STORAGE_KEY);
     if (stored === null) return;
-    sessionStorage.removeItem("modules:returnScrollY");
+    sessionStorage.removeItem(MODULES_RETURN_SCROLL_Y_STORAGE_KEY);
     const scrollY = Number.parseInt(stored, 10);
     if (Number.isNaN(scrollY)) return;
     const run = () => window.scrollTo(0, scrollY);
@@ -81,33 +105,19 @@ const Modules = () => {
     setTimeout(run, 50);
   }, []);
 
-  const rememberScrollAnd = (run: () => void) => {
-    sessionStorage.setItem("modules:returnScrollY", String(window.scrollY));
+  const rememberScrollAnd = (run: () => void): void => {
+    sessionStorage.setItem(MODULES_RETURN_SCROLL_Y_STORAGE_KEY, String(window.scrollY));
     run();
   };
 
-  const moduleProgressBySlug = useMemo(() => {
+  const moduleCompletionBySlug = useMemo(() => {
     void progressRefreshKey;
     return new Map(
       practiceSets.flatMap((practiceSet) =>
-        practiceSet.modules.map((module) => [module.slug, getModuleProgressCounts(module, uid)] as const),
+        practiceSet.modules.map((module) => [module.slug, getModuleCompletionStatus(module, uid)] as const),
       ),
     );
   }, [progressRefreshKey, uid]);
-
-  type ResumeEntry =
-    | {
-        kind: "module";
-        startedAt: number;
-        module: PracticeModule;
-        session: NonNullable<ReturnType<typeof getModulePracticeSession>>;
-      }
-    | {
-        kind: "test";
-        startedAt: number;
-        practiceSet: PracticeSet;
-        session: PracticeTestSessionMeta;
-      };
 
   const mostRecentSession = useMemo<ResumeEntry | null>(() => {
     void progressRefreshKey;
@@ -149,35 +159,27 @@ const Modules = () => {
           if (subjectFilter !== "all" && module.subject !== subjectFilter) return false;
           if (moduleFilter !== "all" && String(module.moduleNumber) !== moduleFilter) return false;
           if (completionFilter !== "all") {
-            const counts = moduleProgressBySlug.get(module.slug) ?? {
-              correct: 0,
-              incorrect: 0,
-              correctAfterReview: 0,
-            };
-            const status = classifyModuleCompletion(counts, module.questionCount);
+            const status = moduleCompletionBySlug.get(module.slug) ?? "not-started";
             if (status !== completionFilter) return false;
           }
           return true;
         }),
       }))
       .filter((practiceSet) => practiceSet.modules.length > 0);
-  }, [moduleFilter, subjectFilter, completionFilter, moduleProgressBySlug]);
+  }, [moduleFilter, subjectFilter, completionFilter, moduleCompletionBySlug]);
 
-  const openModule = (module: PracticeModule) => {
+  const openModule = (module: PracticeModule): void => {
     navigate(`/modules/${module.slug}`);
   };
 
-  const resumeMostRecentSession = () => {
+  const resumeMostRecentSession = (): void => {
     if (!mostRecentSession) return;
     if (mostRecentSession.kind === "module") {
-      const module = getPracticeModule(mostRecentSession.module.slug);
-      if (!module) return;
       launchModulePractice({
-        module,
+        module: mostRecentSession.module,
         navigate,
         resumeExisting: true,
         savedSession: mostRecentSession.session,
-        settings: mostRecentSession.session.settings,
       });
       return;
     }
@@ -186,11 +188,10 @@ const Modules = () => {
       navigate,
       resumeExisting: true,
       savedSession: mostRecentSession.session,
-      settings: mostRecentSession.session.settings,
     });
   };
 
-  const discardMostRecentSession = () => {
+  const discardMostRecentSession = (): void => {
     if (!mostRecentSession) return;
     if (mostRecentSession.kind === "module") {
       clearModulePracticeSession(mostRecentSession.module.slug);
@@ -248,12 +249,6 @@ const Modules = () => {
           const remainingSeconds = isModule
             ? mostRecentSession.session.remainingSeconds ?? 0
             : mostRecentSession.session.modules[mostRecentSession.session.activeModuleIndex]?.remainingSeconds ?? 0;
-          const formatTime = (secs: number) => {
-            const safe = Math.max(0, secs);
-            const minutes = Math.floor(safe / 60);
-            const seconds = safe % 60;
-            return `${minutes}:${String(seconds).padStart(2, "0")} left`;
-          };
           const activeModuleTitle = !isModule
             ? mostRecentSession.session.modules[mostRecentSession.session.activeModuleIndex]?.moduleTitle
             : null;
@@ -272,7 +267,7 @@ const Modules = () => {
                   {activeModuleTitle ? `${activeModuleTitle} · ` : ""}
                   Question {currentIndex + 1} of {questionCount}
                   {" · "}
-                  {timed ? formatTime(remainingSeconds) : "Untimed"}
+                  {timed ? formatResumeTimeLeft(remainingSeconds) : "Untimed"}
                 </div>
               </div>
 
@@ -320,7 +315,7 @@ const Modules = () => {
         })() : null}
 
       <div className="grid gap-2 sm:grid-cols-3">
-        <Select value={subjectFilter} onValueChange={(value) => setSubjectFilter(value as typeof subjectFilter)}>
+        <Select value={subjectFilter} onValueChange={(value) => setSubjectFilter(value as SubjectFilter)}>
           <SelectTrigger className="h-9">
             <SelectValue placeholder="Subject" />
           </SelectTrigger>
@@ -331,7 +326,7 @@ const Modules = () => {
           </SelectContent>
         </Select>
 
-        <Select value={moduleFilter} onValueChange={(value) => setModuleFilter(value as typeof moduleFilter)}>
+        <Select value={moduleFilter} onValueChange={(value) => setModuleFilter(value as ModuleFilter)}>
           <SelectTrigger className="h-9">
             <SelectValue placeholder="Module" />
           </SelectTrigger>
@@ -342,7 +337,7 @@ const Modules = () => {
           </SelectContent>
         </Select>
 
-        <Select value={completionFilter} onValueChange={(value) => setCompletionFilter(value as typeof completionFilter)}>
+        <Select value={completionFilter} onValueChange={(value) => setCompletionFilter(value as CompletionFilter)}>
           <SelectTrigger className="h-9">
             <SelectValue placeholder="Status" />
           </SelectTrigger>

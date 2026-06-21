@@ -17,5 +17,5 @@ const sourceOptions: readonly SegmentedToggleOption<BankSourceFilter>[] = (["all
 );
 
 export const BankSourceToggle = ({ value, onChange }: BankSourceToggleProps) => (
-  <SegmentedToggle value={value} options={sourceOptions} onChange={onChange} />
+  <SegmentedToggle value={value} options={sourceOptions} onChange={onChange} clippedActiveText />
 );

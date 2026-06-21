@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Use two points on the fit line",
-      "content": "The line of best fit falls from left to right, so the slope must be negative. Two readable points on the line are approximately $(0,10)$ and $(12,0)$."
+      "content": "The line of best fit falls from left to right, so the slope must be negative. Two visible points on the drawn line are approximately $(0,11.2)$ and $(8,4.5)$."
     },
     {
       "title": "Calculate the slope",
-      "content": "$$m=\\frac{0-10}{12-0}=\\frac{-10}{12}\\approx -0.83$$"
+      "content": "$$m=\\frac{4.5-11.2}{8-0}=\\frac{-6.7}{8}\\approx -0.84.$$"
     },
     {
       "title": "Match the choices",

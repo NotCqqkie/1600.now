@@ -80,7 +80,7 @@ const VerifyEmail = () => {
   return (
     <div className="min-h-screen flex flex-col bg-background">
       <div className="flex items-center justify-between px-6 py-4">
-        <BrandLogo variant="mark" className="h-10 w-10" />
+        <BrandLogo variant="mark" />
         <Button variant="ghost" size="sm" onClick={() => signOut().then(() => navigate("/login"))}>
           Sign out
         </Button>

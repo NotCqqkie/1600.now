@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Mark the circle facts first: radii are equal, a diameter sets up a right angle, a tangent is perpendicular to the radius, and central/inscribed angles connect to arcs."
+      "title": "Convert degrees to radians",
+      "content": "To convert a degree measure to radians, multiply by $\\frac{\\pi}{180}$. Apply that conversion directly to $60^{\\circ}$."
     },
     {
       "title": "Apply the degree-to-radian conversion formula",

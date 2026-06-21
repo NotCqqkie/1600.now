@@ -11,6 +11,11 @@ type AttemptState = {
   lockedUntil?: number;
 };
 
+type AuthAttemptError = Error & {
+  code?: string;
+  lockedUntil?: number;
+};
+
 const attemptRules: Record<AuthAttemptScope, AttemptRule> = {
   signin: { maxAttempts: 5, windowMs: 15 * 60 * 1000, lockoutMs: 15 * 60 * 1000 },
   signup: { maxAttempts: 5, windowMs: 30 * 60 * 1000, lockoutMs: 30 * 60 * 1000 },
@@ -18,9 +23,9 @@ const attemptRules: Record<AuthAttemptScope, AttemptRule> = {
   emailVerification: { maxAttempts: 3, windowMs: 10 * 60 * 1000, lockoutMs: 10 * 60 * 1000 },
 };
 
-export const AUTH_PASSWORD_DESCRIPTION = "Use at least 8 characters and 1 number.";
+const AUTH_PASSWORD_DESCRIPTION = "Use at least 8 characters and 1 number.";
 
-export const isPasswordPolicyCompliant = (password: string): boolean =>
+const isPasswordPolicyCompliant = (password: string): boolean =>
   password.length >= 8 && /\d/.test(password);
 
 export const validatePasswordPolicy = (password: string): void => {
@@ -33,11 +38,8 @@ export const validatePasswordPolicy = (password: string): void => {
 export const normalizeAuthIdentifier = (value: string | null | undefined): string =>
   (value || "anonymous").trim().toLowerCase();
 
-const getAttemptError = (lockedUntil: number) => {
-  const error = new Error("Too many attempts. Try again later.") as Error & {
-    code?: string;
-    lockedUntil?: number;
-  };
+const getAttemptError = (lockedUntil: number): AuthAttemptError => {
+  const error = new Error("Too many attempts. Try again later.") as AuthAttemptError;
   error.code = "auth/client-rate-limited";
   error.lockedUntil = lockedUntil;
   return error;
@@ -54,6 +56,12 @@ const getStorage = (): Storage | null => {
 
 const getAttemptKey = (scope: AuthAttemptScope, identifier: string): string =>
   `1600now:auth-attempts:${scope}:${identifier}`;
+
+const getRecentAttempts = (
+  attempts: number[],
+  now: number,
+  windowMs: number,
+): number[] => attempts.filter((ts) => now - ts <= windowMs);
 
 const readAttemptState = (key: string): AttemptState => {
   const storage = getStorage();
@@ -90,7 +98,7 @@ export const assertAuthAttemptAllowed = (
   if (state.lockedUntil && state.lockedUntil > now) {
     throw getAttemptError(state.lockedUntil);
   }
-  const attempts = state.attempts.filter((ts) => now - ts <= rule.windowMs);
+  const attempts = getRecentAttempts(state.attempts, now, rule.windowMs);
   if (attempts.length >= rule.maxAttempts) {
     const lockedUntil = now + rule.lockoutMs;
     writeAttemptState(key, { attempts, lockedUntil });
@@ -107,7 +115,7 @@ export const recordAuthAttempt = (
   const key = getAttemptKey(scope, identifier);
   const now = Date.now();
   const state = readAttemptState(key);
-  const attempts = [...state.attempts.filter((ts) => now - ts <= rule.windowMs), now];
+  const attempts = [...getRecentAttempts(state.attempts, now, rule.windowMs), now];
   const lockedUntil =
     attempts.length >= rule.maxAttempts ? now + rule.lockoutMs : state.lockedUntil;
   writeAttemptState(key, { attempts, lockedUntil });

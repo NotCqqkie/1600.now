@@ -10,7 +10,6 @@ import {
 } from "@/components/seo/PageSeo";
 import {
   linkableAssetBySlug,
-  linkableAssets,
   linkableHubBySlug,
   type LinkableAsset,
   type LinkableAssetSection,
@@ -33,6 +32,15 @@ import { useAuth } from "@/contexts/AuthContext";
 
 const SITE = "https://1600.now";
 const ASSET_PUBLISHED = "2026-05-28";
+const SECTION_HEADING_CLASS = "text-2xl font-semibold tracking-tight";
+const SECTION_PARAGRAPH_CLASS = "mt-3 text-muted-foreground";
+const SECTION_LIST_CLASS = "mt-4 list-disc space-y-2 pl-6 text-muted-foreground";
+const SECTION_TABLE_WRAPPER_CLASS = "mt-4 overflow-x-auto rounded-lg border border-border";
+const SECTION_TABLE_CLASS = "w-full min-w-[560px] text-left text-sm";
+const SECTION_TABLE_HEAD_CLASS = "bg-muted/70";
+const SECTION_TABLE_HEADER_CELL_CLASS = "px-4 py-3 font-semibold";
+const SECTION_TABLE_ROW_CLASS = "border-t border-border";
+const SECTION_TABLE_CELL_CLASS = "px-4 py-3 text-muted-foreground";
 
 type TextLinkRule = {
   phrases: string[];
@@ -324,6 +332,41 @@ const renderLinkedText = (
 
   flushBuffer();
   return nodes;
+};
+
+const renderSectionTable = (
+  section: LinkableAssetSection,
+  currentSlug: string,
+  keyPrefix: "table" | "generated-table",
+) => {
+  if (!section.table) return null;
+
+  return (
+    <div className={SECTION_TABLE_WRAPPER_CLASS}>
+      <table className={SECTION_TABLE_CLASS}>
+        <thead className={SECTION_TABLE_HEAD_CLASS}>
+          <tr>
+            {section.table.headers.map((header) => (
+              <th key={header} className={SECTION_TABLE_HEADER_CELL_CLASS}>
+                {header}
+              </th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {section.table.rows.map((row) => (
+            <tr key={row.join("|")} className={SECTION_TABLE_ROW_CLASS}>
+              {row.map((cell, cellIndex) => (
+                <td key={`${cell}-${cellIndex}`} className={SECTION_TABLE_CELL_CLASS}>
+                  {renderLinkedText(cell, currentSlug, `${keyPrefix}-${section.heading}-${row.join("|")}-${cellIndex}`)}
+                </td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
 };
 
 const categoryGroups = (assets: LinkableAsset[]) => {
@@ -804,7 +847,7 @@ const LinkableAssetPage = () => {
         <div className="grid gap-8">
           {Array.from(grouped.entries()).map(([category, items]) => (
             <section key={category}>
-              <h2 className="text-2xl font-semibold tracking-tight">
+              <h2 className={SECTION_HEADING_CLASS}>
                 {category}
               </h2>
               <div className="mt-4 grid gap-3 md:grid-cols-2">
@@ -882,16 +925,16 @@ const LinkableAssetPage = () => {
       <div className="space-y-10">
         {page.sections.map((section) => (
           <section key={section.heading}>
-            <h2 className="text-2xl font-semibold tracking-tight">
+            <h2 className={SECTION_HEADING_CLASS}>
               {section.heading}
             </h2>
             {section.body.map((paragraph) => (
-              <p key={paragraph} className="mt-3 text-muted-foreground">
+              <p key={paragraph} className={SECTION_PARAGRAPH_CLASS}>
                 {renderLinkedText(paragraph, page.slug, `body-${section.heading}-${paragraph}`)}
               </p>
             ))}
             {section.list && (
-              <ul className="mt-4 list-disc space-y-2 pl-6 text-muted-foreground">
+              <ul className={SECTION_LIST_CLASS}>
                 {section.list.map((item) => (
                   <li key={item}>
                     {renderLinkedText(item, page.slug, `list-${section.heading}-${item}`)}
@@ -899,45 +942,20 @@ const LinkableAssetPage = () => {
                 ))}
               </ul>
             )}
-            {section.table && (
-              <div className="mt-4 overflow-x-auto rounded-lg border border-border">
-                <table className="w-full min-w-[560px] text-left text-sm">
-                  <thead className="bg-muted/70">
-                    <tr>
-                      {section.table.headers.map((header) => (
-                        <th key={header} className="px-4 py-3 font-semibold">
-                          {header}
-                        </th>
-                      ))}
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {section.table.rows.map((row) => (
-                      <tr key={row.join("|")} className="border-t border-border">
-                        {row.map((cell, cellIndex) => (
-                          <td key={`${cell}-${cellIndex}`} className="px-4 py-3 text-muted-foreground">
-                            {renderLinkedText(cell, page.slug, `table-${section.heading}-${row.join("|")}-${cellIndex}`)}
-                          </td>
-                        ))}
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
-            )}
+            {renderSectionTable(section, page.slug, "table")}
           </section>
         ))}
 
         <section>
-          <h2 className="text-2xl font-semibold tracking-tight">
+          <h2 className={SECTION_HEADING_CLASS}>
             {applicationSection.heading}
           </h2>
           {applicationSection.body.map((paragraph) => (
-            <p key={paragraph} className="mt-3 text-muted-foreground">
+            <p key={paragraph} className={SECTION_PARAGRAPH_CLASS}>
               {renderLinkedText(paragraph, page.slug, `application-${paragraph}`)}
             </p>
           ))}
-          <ul className="mt-4 list-disc space-y-2 pl-6 text-muted-foreground">
+          <ul className={SECTION_LIST_CLASS}>
             {applicationSection.list.map((item) => (
               <li key={item}>
                 {renderLinkedText(item, page.slug, `application-list-${item}`)}
@@ -948,16 +966,16 @@ const LinkableAssetPage = () => {
 
         {generatedDetailSections.map((section) => (
           <section key={section.heading}>
-            <h2 className="text-2xl font-semibold tracking-tight">
+            <h2 className={SECTION_HEADING_CLASS}>
               {section.heading}
             </h2>
             {section.body.map((paragraph) => (
-              <p key={paragraph} className="mt-3 text-muted-foreground">
+              <p key={paragraph} className={SECTION_PARAGRAPH_CLASS}>
                 {renderLinkedText(paragraph, page.slug, `generated-${section.heading}-${paragraph}`)}
               </p>
             ))}
             {section.list && (
-              <ul className="mt-4 list-disc space-y-2 pl-6 text-muted-foreground">
+              <ul className={SECTION_LIST_CLASS}>
                 {section.list.map((item) => (
                   <li key={item}>
                     {renderLinkedText(item, page.slug, `generated-list-${section.heading}-${item}`)}
@@ -965,32 +983,7 @@ const LinkableAssetPage = () => {
                 ))}
               </ul>
             )}
-            {section.table && (
-              <div className="mt-4 overflow-x-auto rounded-lg border border-border">
-                <table className="w-full min-w-[560px] text-left text-sm">
-                  <thead className="bg-muted/70">
-                    <tr>
-                      {section.table.headers.map((header) => (
-                        <th key={header} className="px-4 py-3 font-semibold">
-                          {header}
-                        </th>
-                      ))}
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {section.table.rows.map((row) => (
-                      <tr key={row.join("|")} className="border-t border-border">
-                        {row.map((cell, cellIndex) => (
-                          <td key={`${cell}-${cellIndex}`} className="px-4 py-3 text-muted-foreground">
-                            {renderLinkedText(cell, page.slug, `generated-table-${section.heading}-${row.join("|")}-${cellIndex}`)}
-                          </td>
-                        ))}
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
-            )}
+            {renderSectionTable(section, page.slug, "generated-table")}
           </section>
         ))}
       </div>
@@ -1022,7 +1015,7 @@ const LinkableAssetPage = () => {
       )}
 
       <section className="mt-12">
-        <h2 className="text-2xl font-semibold tracking-tight">FAQs</h2>
+        <h2 className={SECTION_HEADING_CLASS}>FAQs</h2>
         <div className="mt-4 space-y-5">
           {page.faqs.map((faq) => (
             <div key={faq.question}>
@@ -1034,7 +1027,7 @@ const LinkableAssetPage = () => {
       </section>
 
       <section className="mt-12">
-        <h2 className="text-2xl font-semibold tracking-tight">
+        <h2 className={SECTION_HEADING_CLASS}>
           Keep working
         </h2>
         <div className="mt-4 flex flex-wrap gap-2">

@@ -23,10 +23,12 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { SatScoreCard } from "@/components/practice/SatScoreCard";
 import {
+  defaultFilters,
   MAX_TIME_SPENT_FILTER_SECONDS,
   type QuestionBankFilters,
-} from "@/components/question/questionBankFilterModel";
-import { useThemeMode } from "@/hooks/useThemeMode";
+} from "@/lib/questionBankFilters";
+import { MOBILE_MEDIA_QUERY } from "@/hooks/use-mobile";
+import { useThemeMode } from "@/lib/theme";
 import { BANK_TOTAL_ALL } from "@/lib/generated/bankTotals.generated";
 import { renderMixedContent } from "@/lib/text/mathRendering";
 import "katex/dist/katex.min.css";
@@ -45,14 +47,7 @@ const EmbeddedQuestionPreview = lazy(loadEmbeddedQuestionPreview);
 const EmbeddedBankIndexPreview = lazy(() =>
   import("@/pages/bank/BankIndex").then((mod) => ({ default: mod.BankIndex })),
 );
-const defaultBankFilters: QuestionBankFilters = {
-  difficulty: [],
-  timeSpentRange: [0, MAX_TIME_SPENT_FILTER_SECONDS],
-  activeQuestions: "all",
-  markedForReview: "all",
-  solved: "all",
-  answeredIncorrectly: "all",
-};
+const defaultBankFilters = defaultFilters;
 const HOME_DEMO_USER_SCROLL_EVENT = "home-demo-user-scroll";
 const STYLE_POSITION_RELATIVE: CSSProperties = { position: "relative" };
 
@@ -356,10 +351,10 @@ const HeroQuestionPreview = memo(({
     questionLimit: HERO_QUESTION_PREVIEW_LIMIT,
   }), [handlePreviewNavigate, handlePreviewReady, isDarkMode, onOpenBank, previewQuestion.id, previewQuestion.subject]);
   const [isPhone, setIsPhone] = useState<boolean>(() =>
-    typeof window !== "undefined" ? window.matchMedia("(max-width: 767px)").matches : false,
+    typeof window !== "undefined" ? window.matchMedia(MOBILE_MEDIA_QUERY).matches : false,
   );
   useEffect(() => {
-    const mql = window.matchMedia("(max-width: 767px)");
+    const mql = window.matchMedia(MOBILE_MEDIA_QUERY);
     const onChange = (e: MediaQueryListEvent) => setIsPhone(e.matches);
     mql.addEventListener("change", onChange);
     return () => mql.removeEventListener("change", onChange);
@@ -696,10 +691,8 @@ AnimatedExplanation.displayName = "AnimatedExplanation";
 
 const FilterFeatureSection = memo(({
   isDarkMode,
-  totalQuestions,
 }: {
   isDarkMode: boolean;
-  totalQuestions: number;
 }) => {
   const navigate = useNavigate();
   return (
@@ -1224,31 +1217,22 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
     const now = Date.now();
     if (now - lastManualInteractionAtRef.current < 50) return;
     lastManualInteractionAtRef.current = now;
-    const manualScrollX = window.scrollX;
-    const manualScrollY = window.scrollY;
-    const restoreManualClickScroll = () => {
-      if (Math.abs(window.scrollX - manualScrollX) > 2 || Math.abs(window.scrollY - manualScrollY) > 2) {
-        window.scrollTo(manualScrollX, manualScrollY);
-      }
-    };
     const hiddenCursor = { ...cursorRef.current, visible: false, durationMs: 0 };
     cursorRef.current = hiddenCursor;
     setCursor(hiddenCursor);
     userFilterPauseUntilRef.current = now + FILTER_DEMO_USER_INTERACTION_PAUSE_MS;
     setManualInteractionVersion((version) => version + 1);
     queueManualResume();
-    restoreManualClickScroll();
-    window.requestAnimationFrame(restoreManualClickScroll);
-    window.requestAnimationFrame(() => window.requestAnimationFrame(restoreManualClickScroll));
-    window.setTimeout(restoreManualClickScroll, 0);
-    window.setTimeout(restoreManualClickScroll, 16);
-    window.setTimeout(restoreManualClickScroll, 40);
-    window.setTimeout(restoreManualClickScroll, 80);
-    window.setTimeout(restoreManualClickScroll, 140);
-    window.setTimeout(restoreManualClickScroll, 220);
   }, [queueManualResume]);
   const pauseForHomeFilterMenuChange = useCallback((_control: string, open: boolean) => {
     if (scriptedInteractionDepthRef.current > 0) return;
+    const scrollX = window.scrollX;
+    const scrollY = window.scrollY;
+    const restoreScroll = () => {
+      if (Math.abs(window.scrollX - scrollX) > 1 || Math.abs(window.scrollY - scrollY) > 1) {
+        window.scrollTo(scrollX, scrollY);
+      }
+    };
     const now = Date.now();
     const hiddenCursor = { ...cursorRef.current, visible: false, durationMs: 0 };
     cursorRef.current = hiddenCursor;
@@ -1256,6 +1240,11 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
     userFilterPauseUntilRef.current = now + (open
       ? FILTER_DEMO_USER_INTERACTION_PAUSE_MS
       : FILTER_DEMO_MANUAL_CLOSE_PAUSE_MS);
+    if (open) {
+      window.requestAnimationFrame(restoreScroll);
+      window.setTimeout(restoreScroll, 80);
+      window.setTimeout(restoreScroll, 220);
+    }
     setManualInteractionVersion((version) => version + 1);
     queueManualResume();
   }, [queueManualResume]);
@@ -1430,13 +1419,16 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
       return scheduleDemoTick(FILTER_DEMO_CURSOR_NEXT_STEP_PAUSE_MS);
     }
 
-    const containerRect = container.getBoundingClientRect();
-    const scrollX = window.scrollX;
-    const scrollY = window.scrollY;
+    let protectedScrollX = window.scrollX;
+    let protectedScrollY = window.scrollY;
     const timers: number[] = [];
     const rafs = new Set<number>();
     let demoInterrupted = false;
     let userScrolled = false;
+    const captureProtectedScroll = () => {
+      protectedScrollX = window.scrollX;
+      protectedScrollY = window.scrollY;
+    };
     const viewportPointForElement = (element: HTMLElement) => {
       const rect = element.getBoundingClientRect();
       return { x: rect.left + rect.width / 2, y: rect.top + rect.height / 2 };
@@ -1483,8 +1475,11 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
     const restoreScroll = () => {
       if (userScrolled) return;
       if (!isVisibleInViewport(container)) return;
-      if (Math.abs(window.scrollX - scrollX) > 12 || Math.abs(window.scrollY - scrollY) > 12) {
-        window.scrollTo(scrollX, scrollY);
+      if (
+        Math.abs(window.scrollX - protectedScrollX) > 12 ||
+        Math.abs(window.scrollY - protectedScrollY) > 12
+      ) {
+        window.scrollTo(protectedScrollX, protectedScrollY);
       }
     };
     const raf = (callback: (time: number) => void) => {
@@ -1511,11 +1506,14 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
       schedule(restoreScroll, 80);
       schedule(restoreScroll, 220);
     };
-    const cursorForViewportPoint = (point: { x: number; y: number }) => ({
-      x: point.x - containerRect.left - FILTER_DEMO_CURSOR_HOTSPOT_X,
-      y: point.y - containerRect.top - FILTER_DEMO_CURSOR_HOTSPOT_Y,
-      visible: true,
-    });
+    const cursorForViewportPoint = (point: { x: number; y: number }) => {
+      const currentContainerRect = container.getBoundingClientRect();
+      return {
+        x: point.x - currentContainerRect.left - FILTER_DEMO_CURSOR_HOTSPOT_X,
+        y: point.y - currentContainerRect.top - FILTER_DEMO_CURSOR_HOTSPOT_Y,
+        visible: true,
+      };
+    };
     const setCursorToPoint = (point: { x: number; y: number }, durationOverride?: number) => {
       const nextPoint = cursorForViewportPoint(point);
       let previous = cursorRef.current;
@@ -1623,12 +1621,14 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
             queueDemoRetry();
             return;
           }
+          captureProtectedScroll();
           activateScriptedElement(target);
           afterClick?.();
         }, FILTER_DEMO_OPTION_PRESS_MS);
         schedule(() => target.classList.remove("filter-demo-option-press"), FILTER_DEMO_OPTION_PRESS_MS + 140);
         return true;
       }
+      captureProtectedScroll();
       activateScriptedElement(target);
       afterClick?.();
       return true;
@@ -1641,11 +1641,12 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
       setRange: (range: [number, number]) => void,
       duration = 560,
     ) => {
+      captureProtectedScroll();
       const startedAt = performance.now();
       let lastValue = Number.NaN;
       const step = (now: number) => {
         if (demoInterrupted || Date.now() < userFilterPauseUntilRef.current) return;
-        const progress = duration <= 0 ? 1 : Math.min(1, (now - startedAt) / duration);
+        const progress = duration <= 0 ? 1 : Math.min(1, Math.max(0, (now - startedAt) / duration));
         const nextValue = roundDemoTimeStep(startValue + (endValue - startValue) * getDemoCursorEase(progress));
         if (nextValue !== lastValue) {
           lastValue = nextValue;
@@ -1663,6 +1664,7 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
       const { from, to, setRange } = action.timeDrag;
       const changedHandles = ([0, 1] as const).filter((index) => from[index] !== to[index]);
       if (changedHandles.length === 0) {
+        captureProtectedScroll();
         setRange([to[0], to[1]]);
         restoreScrollSoon();
         queueDemoTick();
@@ -1687,6 +1689,7 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
           setClickKey((key) => key + 1);
           const animationBase: [number, number] = [currentRange[0], currentRange[1]];
           const dragDuration = setCursorToPoint(getDemoTimePoint(action.target, endValue));
+          captureProtectedScroll();
           animateRangeValue(handleIndex, startValue, endValue, animationBase, setRange, dragDuration);
           schedule(() => {
             if (!canRunStep(action.target)) {
@@ -1695,11 +1698,13 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
             }
             currentRange = [currentRange[0], currentRange[1]];
             currentRange[handleIndex] = endValue;
+            captureProtectedScroll();
             setRange(currentRange);
             restoreScrollSoon();
             if (handlePosition + 1 < changedHandles.length) {
               runTimeHandle(handlePosition + 1);
             } else {
+              captureProtectedScroll();
               setRange([to[0], to[1]]);
               queueDemoTick();
             }
@@ -1728,6 +1733,7 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
         }
         setCursorToPoint(viewportPointForElement(controlTarget), 0);
         setClickKey((key) => key + 1);
+        captureProtectedScroll();
         applyDemoOptionKey(action.optionKey!);
         restoreScrollSoon();
         queueDemoTick();
@@ -1905,7 +1911,8 @@ const useIsNearViewport = <T extends HTMLElement>(
       return true;
     };
     if (checkNearViewport()) return;
-    if (!("IntersectionObserver" in window)) {
+    const supportsIntersectionObserver = "IntersectionObserver" in window;
+    if (!supportsIntersectionObserver) {
       setIsNear(true);
       return;
     }
@@ -1958,7 +1965,8 @@ const useIsCurrentlyInViewport = <T extends HTMLElement>(
 
     checkVisible();
 
-    if (!("IntersectionObserver" in window)) {
+    const supportsIntersectionObserver = "IntersectionObserver" in window;
+    if (!supportsIntersectionObserver) {
       window.addEventListener("scroll", checkVisible, { passive: true });
       window.addEventListener("resize", checkVisible);
       return () => {
@@ -2230,18 +2238,6 @@ type HPPhase =
   | "graphing"
   | "graphHold";
 
-type SlotState =
-  | {
-      mode: "typing";
-      latex: string;
-      html: string;
-      cycleKey: number;
-      charCount: number;
-      durationMs: number;
-    }
-  | { mode: "rendered"; latex: string; html: string }
-  | { mode: "empty" };
-
 const HomePageBackdrop = memo(({
   isDarkMode,
   onReady,
@@ -2251,7 +2247,6 @@ const HomePageBackdrop = memo(({
 }) => {
   const [cycle, setCycle] = useState(0);
   const [phase, setPhase] = useState<HPPhase>("typing");
-  const HP_PANEL_FONT_PX = 26;
   const HP_MS_PER_CHAR = 90;
   const FIRST_CURVE_START_MS = 140;
   const [firstCurveEarly, setFirstCurveEarly] = useState(false);
@@ -2290,7 +2285,6 @@ const HomePageBackdrop = memo(({
   }, []);
 
   const currentEq = HP_EQUATIONS[cycle % HP_EQUATIONS.length];
-  const prevEq = cycle === 0 ? null : HP_EQUATIONS[(cycle - 1) % HP_EQUATIONS.length];
   const isFirstCycle = cycle === 0;
   const currentTypingMs = currentEq.charCount * HP_MS_PER_CHAR;
   useEffect(() => {
@@ -2336,36 +2330,6 @@ const HomePageBackdrop = memo(({
     return () => window.clearTimeout(id);
   }, [phase]);
 
-  const typingSlot = (): SlotState => ({
-    mode: "typing",
-    latex: currentEq.latex,
-    html: currentEq.html,
-    cycleKey: cycle,
-    charCount: currentEq.charCount,
-    durationMs: currentTypingMs,
-  });
-
-  let slot1: SlotState;
-  let slot2: SlotState;
-  if (isFirstCycle) {
-    slot1 = phase === "typing"
-      ? typingSlot()
-      : { mode: "rendered", latex: currentEq.latex, html: currentEq.html };
-    slot2 = { mode: "empty" };
-  } else {
-    if (phase === "typing" || phase === "typingHold" || phase === "pushing") {
-      slot1 = { mode: "rendered", latex: prevEq!.latex, html: prevEq!.html };
-    } else {
-      slot1 = { mode: "rendered", latex: currentEq.latex, html: currentEq.html };
-    }
-    if (phase === "typing") {
-      slot2 = typingSlot();
-    } else if (phase === "typingHold" || phase === "pushing") {
-      slot2 = { mode: "rendered", latex: currentEq.latex, html: currentEq.html };
-    } else {
-      slot2 = { mode: "empty" };
-    }
-  }
   let staticCurveIdx: number | null = null;
   let staticFading = false;
   if (cycle > 0) {
@@ -2560,111 +2524,6 @@ const HomePageBackdrop = memo(({
   );
 });
 HomePageBackdrop.displayName = "HomePageBackdrop";
-const DesmosRow = memo(
-  ({
-    number,
-    slot,
-    isDarkMode,
-    variant,
-    fadeIn = false,
-  }: {
-    number: number;
-    slot: SlotState;
-    isDarkMode: boolean;
-    variant: "primary" | "secondary";
-    fadeIn?: boolean;
-  }) => {
-    const isPrimary = variant === "primary";
-    return (
-      <div
-        style={{
-          display: "flex",
-          alignItems: "stretch",
-          height: "1.6em",
-          borderBottom: isPrimary
-            ? `1px solid ${isDarkMode ? "rgba(125,211,252,0.12)" : "rgba(15,23,42,0.08)"}`
-            : "none",
-        }}
-      >
-        <div
-          style={{
-            width: 36,
-            flexShrink: 0,
-            fontFamily: "system-ui, sans-serif",
-            fontSize: 13,
-            fontWeight: 500,
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            background: isPrimary
-              ? (isDarkMode ? "rgba(56,189,248,0.22)" : "#dbeafe")
-              : (isDarkMode ? "rgba(125,211,252,0.06)" : "rgba(15,23,42,0.04)"),
-            color: isPrimary
-              ? (isDarkMode ? "#7dd3fc" : "#1d4ed8")
-              : (isDarkMode ? "#94a3b8" : "#64748b"),
-          }}
-        >
-          {number}
-        </div>
-        <div
-          style={{
-            flex: 1,
-            display: "flex",
-            alignItems: "center",
-            padding: "0 14px",
-            overflow: "hidden",
-          }}
-        >
-          <DesmosLine slot={slot} fadeIn={fadeIn} />
-        </div>
-      </div>
-    );
-  }
-);
-DesmosRow.displayName = "DesmosRow";
-
-const DesmosLine = memo(
-  ({ slot, fadeIn = false }: { slot: SlotState; fadeIn?: boolean }) => {
-    if (slot.mode === "empty") {
-      return <div style={{ height: "1.6em" }} />;
-    }
-    if (slot.mode === "typing") {
-      const fullHtml = { __html: slot.html };
-      const animStyle = {
-        animationDuration: `${slot.durationMs}ms`,
-        animationTimingFunction: `steps(${slot.charCount}, end)`,
-      } as React.CSSProperties;
-      return (
-        <div
-          key={slot.cycleKey}
-          className="hp-tw-wrap"
-          style={{ height: "1.6em", position: "relative" }}
-        >
-          <span
-            className="hp-tw-reveal hp-latex"
-            style={{ display: "inline-block", ...animStyle }}
-            dangerouslySetInnerHTML={fullHtml}
-          />
-          <span className="hp-tw-caret" style={animStyle} />
-        </div>
-      );
-    }
-    const html = { __html: slot.html };
-    return (
-      <div
-        className={fadeIn ? "hp-row-fade-in" : ""}
-        style={{ height: "1.6em" }}
-      >
-        <span
-          key={slot.latex}
-          className="hp-row-fade-in hp-latex"
-          dangerouslySetInnerHTML={html}
-        />
-      </div>
-    );
-  }
-);
-DesmosLine.displayName = "DesmosLine";
 
 const ParallaxTilt = memo(({
   children,
@@ -3026,7 +2885,7 @@ const Home = () => {
               letterSpacing: "-0.035em",
             }}
           >
-            Reach your
+            Reach your{" "}
             <br />
             <span
               style={{
@@ -3258,7 +3117,6 @@ const Home = () => {
       <section className="bg-background" style={sectionVisibility("auto 760px")}>
         <FilterFeatureSection
           isDarkMode={isDarkMode}
-          totalQuestions={totalQuestions}
         />
       </section>
 

@@ -35,6 +35,7 @@ import {
   type QuestionUiState,
   type QuestionUiStateMap,
 } from "@/lib/practice/questionUiState";
+import { clearBankQuestionViewModeStorage } from "@/lib/questionViewModeStorage";
 
 const isAnsweredQuestionState = (state: QuestionUiState | undefined) =>
   Boolean(state?.answer) ||
@@ -42,6 +43,8 @@ const isAnsweredQuestionState = (state: QuestionUiState | undefined) =>
   state?.status === "correct-first" ||
   state?.status === "correct-later" ||
   state?.status === "incorrect";
+
+const QUESTIONS_PER_PAGE = 50;
 
 const BankFiltered = () => {
   const navigate = useNavigate();
@@ -56,7 +59,6 @@ const BankFiltered = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const { user } = useAuth();
   const uid = user?.id ?? null;
-  const questionsPerPage = 50;
   const deferredSearch = useDeferredValue(search);
   const [questionUiStateMap, setQuestionUiStateMap] = useState<QuestionUiStateMap>(() =>
     getQuestionUiStateMap(uid),
@@ -71,8 +73,7 @@ const BankFiltered = () => {
   const bankQuerySuffix = `?bankType=${bankSource}`;
 
   useEffect(() => {
-    sessionStorage.removeItem(`question-view-mode:bank:math`);
-    sessionStorage.removeItem(`question-view-mode:bank:reading`);
+    clearBankQuestionViewModeStorage();
   }, []);
 
   useEffect(() => {
@@ -128,11 +129,11 @@ const BankFiltered = () => {
     );
   }, [deferredSearch, questions]);
 
-  const totalPages = Math.ceil(filteredQuestions.length / questionsPerPage);
+  const totalPages = Math.ceil(filteredQuestions.length / QUESTIONS_PER_PAGE);
   const safeCurrentPage = totalPages === 0 ? 1 : Math.min(currentPage, totalPages);
   const paginatedQuestions = filteredQuestions.slice(
-    (safeCurrentPage - 1) * questionsPerPage,
-    safeCurrentPage * questionsPerPage
+    (safeCurrentPage - 1) * QUESTIONS_PER_PAGE,
+    safeCurrentPage * QUESTIONS_PER_PAGE
   );
 
   useEffect(() => {
@@ -219,8 +220,8 @@ const BankFiltered = () => {
             </Button>
           </Card>
 
-          <div className="relative">
-            <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
+          <div className="group relative rounded-[10px] transition-shadow duration-200 focus-within:shadow-[0_0_0_4px_rgb(var(--ds-accent)/0.26)]">
+            <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground transition-colors duration-200 group-focus-within:text-cobalt-deep dark:group-focus-within:text-cobalt" />
             <Input
               placeholder="Search questions..."
               value={search}
@@ -228,7 +229,7 @@ const BankFiltered = () => {
                 setSearch(event.target.value);
                 setCurrentPage(1);
               }}
-              className="pl-10"
+              className="pl-10 focus-visible:border-ds-accent-deep/60 focus-visible:ring-0 focus-visible:ring-offset-0"
             />
           </div>
 
@@ -247,7 +248,7 @@ const BankFiltered = () => {
                     return (
                       <div
                         key={question.id}
-                        className="p-4 hover:bg-muted/50 cursor-pointer transition-colors flex items-center gap-4 group"
+                        className="bank-result-row group flex cursor-pointer items-center gap-4 border-l-2 border-l-transparent p-4 hover:border-l-ds-accent-deep hover:bg-muted/45"
                         onClick={() => handleQuestionClick(question)}
                       >
                         <div className="flex items-center gap-2">
@@ -286,7 +287,7 @@ const BankFiltered = () => {
                           >
                             {question.category.confidence}
                           </Badge>
-                          <ChevronRight className="h-5 w-5 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
+                          <ChevronRight className="bank-result-arrow h-5 w-5 text-muted-foreground opacity-0 group-hover:opacity-100" />
                         </div>
                       </div>
                     );
