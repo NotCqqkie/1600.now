@@ -1238,6 +1238,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   });
   const [modulePracticeMarkedForReview, setModulePracticeMarkedForReview] = useState(false);
   const bottomNavRef = useRef<HTMLDivElement>(null);
+  const questionContentRef = useRef<HTMLDivElement>(null);
   const bottomNavGridRef = useRef<HTMLDivElement>(null);
   const bottomNavLeftRef = useRef<HTMLDivElement>(null);
   const bottomNavCenterRef = useRef<HTMLDivElement>(null);
@@ -1634,6 +1635,112 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   ]);
 
   const isSplitScreenActive = splitScreenWindows.size > 0;
+
+  useLayoutEffect(() => {
+    if (!isBank || isEmbed) return;
+
+    const root = document.documentElement;
+    const body = document.body;
+    let frameId: number | null = null;
+    let scrollResetFrameId: number | null = null;
+    let isScrollLocked = false;
+
+    const resetScrollPosition = () => {
+      if (scrollResetFrameId !== null) return;
+      scrollResetFrameId = requestAnimationFrame(() => {
+        scrollResetFrameId = null;
+        if (isScrollLocked && window.scrollY !== 0) {
+          window.scrollTo({ left: window.scrollX, top: 0 });
+        }
+      });
+    };
+
+    const setScrollLocked = (locked: boolean) => {
+      isScrollLocked = locked;
+      root.classList.toggle("question-page-scroll-locked", locked);
+      body.classList.toggle("question-page-scroll-locked", locked);
+      if (locked) {
+        resetScrollPosition();
+      }
+    };
+
+    const preventLockedScroll = (event: WheelEvent | TouchEvent) => {
+      if (!isScrollLocked) return;
+      event.preventDefault();
+      resetScrollPosition();
+    };
+
+    const preventLockedKeyScroll = (event: KeyboardEvent) => {
+      if (!isScrollLocked) return;
+      const target = event.target;
+      if (target instanceof Element && target.closest("input, textarea, [contenteditable='true']")) return;
+      if (![" ", "PageDown", "PageUp", "Home", "End"].includes(event.key)) return;
+      event.preventDefault();
+      resetScrollPosition();
+    };
+
+    const handleLockedScroll = () => {
+      if (!isScrollLocked || window.scrollY === 0) return;
+      resetScrollPosition();
+    };
+
+    const updateScrollLock = () => {
+      frameId = null;
+      const content = questionContentRef.current;
+      const bottomNav = bottomNavRef.current;
+      if (!content || !bottomNav) {
+        setScrollLocked(false);
+        return;
+      }
+
+      const contentRect = content.getBoundingClientRect();
+      const bottomNavRect = bottomNav.getBoundingClientRect();
+      const contentDocumentTop = contentRect.top + window.scrollY;
+      const availableContentHeight = window.innerHeight - bottomNavRect.height - contentDocumentTop;
+
+      setScrollLocked(contentRect.height <= availableContentHeight + 1);
+    };
+
+    const scheduleScrollLockUpdate = () => {
+      if (frameId !== null) {
+        cancelAnimationFrame(frameId);
+      }
+      frameId = requestAnimationFrame(updateScrollLock);
+    };
+
+    const resizeObserver = new ResizeObserver(scheduleScrollLockUpdate);
+    if (questionContentRef.current) resizeObserver.observe(questionContentRef.current);
+    if (bottomNavRef.current) resizeObserver.observe(bottomNavRef.current);
+    window.addEventListener("resize", scheduleScrollLockUpdate);
+    window.visualViewport?.addEventListener("resize", scheduleScrollLockUpdate);
+    window.addEventListener("wheel", preventLockedScroll, { capture: true, passive: false });
+    window.addEventListener("touchmove", preventLockedScroll, { capture: true, passive: false });
+    window.addEventListener("keydown", preventLockedKeyScroll, { capture: true });
+    window.addEventListener("scroll", handleLockedScroll, { passive: true });
+    scheduleScrollLockUpdate();
+    const settleCheckIds = [50, 150, 300].map((delay) => window.setTimeout(scheduleScrollLockUpdate, delay));
+
+    return () => {
+      if (frameId !== null) cancelAnimationFrame(frameId);
+      if (scrollResetFrameId !== null) cancelAnimationFrame(scrollResetFrameId);
+      settleCheckIds.forEach((id) => window.clearTimeout(id));
+      resizeObserver.disconnect();
+      window.removeEventListener("resize", scheduleScrollLockUpdate);
+      window.visualViewport?.removeEventListener("resize", scheduleScrollLockUpdate);
+      window.removeEventListener("wheel", preventLockedScroll, { capture: true });
+      window.removeEventListener("touchmove", preventLockedScroll, { capture: true });
+      window.removeEventListener("keydown", preventLockedKeyScroll, { capture: true });
+      window.removeEventListener("scroll", handleLockedScroll);
+      setScrollLocked(false);
+    };
+  }, [
+    currentQuestionId,
+    effectiveQuestionViewMode,
+    isBank,
+    isEmbed,
+    isSplitScreenActive,
+    subject,
+  ]);
 
   useEffect(() => {
     restoreDesmosSplitPosition();
@@ -3653,6 +3760,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
         style={isSplitScreenActive ? { maxWidth: "var(--sat-content-split-pct, 70%)", marginLeft: 0 } : effectiveQuestionViewMode === 'horizontal' ? { width: "100%" } : { maxWidth: "1280px", margin: "0 auto", width: "100%" }}
       >
         <div
+          ref={questionContentRef}
           className={`relative ${effectiveQuestionViewMode === 'horizontal' ? 'p-6' : 'p-4 sm:p-6 md:p-8'}`}
           style={{ maxWidth: isSplitScreenActive || effectiveQuestionViewMode === 'horizontal' ? "100%" : "56rem", margin: isSplitScreenActive || effectiveQuestionViewMode === 'horizontal' ? "0" : "0 auto" }}
         >
