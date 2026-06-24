@@ -13,6 +13,30 @@ const detailSources = ["past", "unofficial"];
 const subjects = ["math", "reading"];
 const DETAIL_SHARD_SIZE = 64;
 
+const normalizeQuestionSearchText = (value) =>
+  (value ?? "")
+    .toLowerCase()
+    .replace(/<[^>]*>/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+
+const getQuestionSearchText = (question) =>
+  [
+    question.prompt,
+    question.passage,
+    question.questionText,
+    question.choices?.map((choice) => choice.text || "").join(" "),
+    question.correctAnswer,
+  ]
+    .map((value) => normalizeQuestionSearchText(value))
+    .join(" ");
+
+const getQuestionPreviewText = (question) =>
+  (question.questionText || question.prompt || question.passage || "Question preview unavailable")
+    .replace(/<[^>]*>/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+
 const server = await createServer({
   appType: "custom",
   logLevel: "error",
@@ -23,14 +47,18 @@ try {
   const { loadBankPool, loadAllSourceBankQuestions } = await server.ssrLoadModule("/src/data/questionBank.ts");
   const generatedDir = path.join(root, "src/lib/generated/bank-route-index");
   const detailShardDir = path.join(root, "public/generated/bank-question-shards");
+  const searchIndexDir = path.join(root, "public/generated/bank-search");
   const legacyDetailShardDir = path.join(root, "src/lib/generated/bank-question-shards");
   let totalRouteRows = 0;
   let totalDetailRows = 0;
+  let totalSearchRows = 0;
   rmSync(generatedDir, { recursive: true, force: true });
   rmSync(detailShardDir, { recursive: true, force: true });
+  rmSync(searchIndexDir, { recursive: true, force: true });
   rmSync(legacyDetailShardDir, { recursive: true, force: true });
   mkdirSync(generatedDir, { recursive: true });
   mkdirSync(detailShardDir, { recursive: true });
+  mkdirSync(searchIndexDir, { recursive: true });
 
   const detailShardByQuestion = new Map();
 
@@ -63,8 +91,26 @@ try {
   }
 
   for (const source of sources) {
+    const searchRows = [];
+
     for (const subject of subjects) {
       const visibleQuestions = await loadBankPool(subject, source);
+      searchRows.push(
+        ...visibleQuestions.map((question) => [
+          question.id,
+          question.stableId,
+          question.sourceId,
+          question.bankType,
+          question.subject,
+          question.difficulty ?? null,
+          question.category.domain,
+          question.category.skill,
+          question.inPracticeTests === true,
+          getQuestionPreviewText(question),
+          getQuestionSearchText(question),
+        ]),
+      );
+
       let questions = visibleQuestions;
       if (subject === "reading") {
         const visibleQuestionKeys = new Set(
@@ -104,12 +150,18 @@ export type BankRouteIndexRow = readonly [
         `${header}export const BANK_ROUTE_INDEX_ROWS: readonly BankRouteIndexRow[] = ${JSON.stringify(rows)};\n`,
       );
     }
+
+    totalSearchRows += searchRows.length;
+    writeFileSync(
+      path.join(searchIndexDir, `${source}.json`),
+      JSON.stringify(searchRows),
+    );
   }
 
   rmSync(path.join(root, "src/lib/generated/bankRouteIndex.generated.ts"), { force: true });
 
   console.log(
-    `generate-bank-route-index: wrote ${totalRouteRows} route rows and ${totalDetailRows} detail rows`,
+    `generate-bank-route-index: wrote ${totalRouteRows} route rows, ${totalDetailRows} detail rows, and ${totalSearchRows} search rows`,
   );
 } finally {
   await server.close();

@@ -2240,12 +2240,26 @@ const DeferredOnboardingTour = () => {
 
   useEffect(() => {
     const enable = () => setEnabled(true);
+    let timeoutId: ReturnType<typeof setTimeout> | undefined;
+    let idleId: number | undefined;
     window.addEventListener("onboarding:replay", enable);
     window.addEventListener("onboarding:practice-set-help", enable);
-    if (hasPendingTourRequest()) enable();
+    if (hasPendingTourRequest()) {
+      enable();
+    } else if ("requestIdleCallback" in window) {
+      idleId = window.requestIdleCallback(enable, { timeout: 2500 });
+    } else {
+      timeoutId = setTimeout(enable, 1200);
+    }
     return () => {
       window.removeEventListener("onboarding:replay", enable);
       window.removeEventListener("onboarding:practice-set-help", enable);
+      if (idleId !== undefined && "cancelIdleCallback" in window) {
+        window.cancelIdleCallback(idleId);
+      }
+      if (timeoutId !== undefined) {
+        clearTimeout(timeoutId);
+      }
     };
   }, []);
 

@@ -278,6 +278,7 @@ const PRACTICE_SET_STEPS: Step[] = [
 
 const tourKey = (uid: string | undefined) => `onboarding-seen:${uid ?? "anon"}`;
 const ONBOARDING_REPLAY_REQUEST_KEY = "onboarding-replay-requested";
+const ONBOARDING_REPLAY_RETURN_PATH_KEY = "onboarding-replay-return-path";
 const PRACTICE_SET_HELP_REQUEST_KEY = "practice-set-help-requested";
 
 const preloadTourRoutes = () => {
@@ -288,6 +289,12 @@ const preloadTourRoutes = () => {
   void import("@/pages/Analysis");
   void import("@/pages/bank/Question");
 };
+
+const getFullPath = (location: ReturnType<typeof useLocation>) =>
+  `${location.pathname}${location.search}${location.hash}`;
+
+const normalizeReturnPath = (path: string | null) =>
+  path && path.startsWith("/") && !path.startsWith("//") ? path : null;
 
 type Rect = { x: number; y: number; w: number; h: number };
 type CoachPositionStyle = Pick<React.CSSProperties, "left" | "top" | "right" | "bottom" | "transform">;
@@ -417,10 +424,10 @@ const SplashCard = ({ step, onNext, onSkip, index, total, isDark }: {
         >
           {step.title}
         </h2>
-        <p className={`mx-auto max-w-md text-[15px] leading-relaxed tour-splash-text ${bodyColor}`} style={{ animationDelay: "60ms" }}>
+        <p className={`mx-auto max-w-md text-[15px] leading-relaxed tour-splash-text ${bodyColor}`} style={{ transitionDelay: "60ms" }}>
           {step.body}
         </p>
-        <div className="mt-9 flex items-center justify-center gap-3 tour-splash-text" style={{ animationDelay: "120ms" }}>
+        <div className="mt-9 flex items-center justify-center gap-3 tour-splash-text" style={{ transitionDelay: "120ms" }}>
           <Button variant="ghost" onClick={onSkip} className={skipColor}>Skip tour</Button>
           <Button size="lg" onClick={onNext} className="gap-2 px-6">
             Take the tour
@@ -474,10 +481,10 @@ const FinaleCard = ({ step, onClose, onJump, index, total, isDark }: {
         <h2 className={`mb-4 tour-splash-text ${titleColor}`} style={{ fontFamily: "'Geist', Georgia, serif", fontSize: 56, lineHeight: 1.02 }}>
           {step.title}
         </h2>
-        <p className={`mx-auto max-w-md text-[15px] leading-relaxed tour-splash-text ${bodyColor}`} style={{ animationDelay: "60ms" }}>
+        <p className={`mx-auto max-w-md text-[15px] leading-relaxed tour-splash-text ${bodyColor}`} style={{ transitionDelay: "60ms" }}>
           {step.body}
         </p>
-        <div className="mt-9 flex flex-wrap items-center justify-center gap-3 tour-splash-text" style={{ animationDelay: "120ms" }}>
+        <div className="mt-9 flex flex-wrap items-center justify-center gap-3 tour-splash-text" style={{ transitionDelay: "120ms" }}>
           <Button variant="outline" onClick={() => onJump("/bank")} className={`gap-2 ${outlineBtn}`}>
             <BookOpen className="h-4 w-4" /> Question Bank
           </Button>
@@ -505,6 +512,7 @@ export const OnboardingTour = () => {
   const [rect, setRect] = useState<Rect | null>(null);
   const [steps, setSteps] = useState<Step[]>(MAIN_STEPS);
   const [activeTour, setActiveTour] = useState<ActiveTour>("main");
+  const mainTourReturnPathRef = useRef<string | null>(null);
 
   const step = steps[index] ?? steps[0];
   const total = steps.length;
@@ -517,6 +525,7 @@ export const OnboardingTour = () => {
     if (!user.emailVerified) return;
     const pending = sessionStorage.getItem("onboarding-pending");
     if (pending === "1") {
+      mainTourReturnPathRef.current = getFullPath(location);
       setSteps(MAIN_STEPS);
       setActiveTour("main");
       setIndex(0);
@@ -524,9 +533,12 @@ export const OnboardingTour = () => {
       setOpen(true);
       sessionStorage.removeItem("onboarding-pending");
     }
-  }, [user, loading]);
+  }, [user, loading, location]);
   useEffect(() => {
     const replay = () => {
+      mainTourReturnPathRef.current =
+        normalizeReturnPath(sessionStorage.getItem(ONBOARDING_REPLAY_RETURN_PATH_KEY)) ??
+        getFullPath(location);
       sessionStorage.removeItem(ONBOARDING_REPLAY_REQUEST_KEY);
       setSteps(MAIN_STEPS);
       setActiveTour("main");
@@ -539,10 +551,11 @@ export const OnboardingTour = () => {
     }
     window.addEventListener("onboarding:replay", replay);
     return () => window.removeEventListener("onboarding:replay", replay);
-  }, []);
+  }, [location]);
 
   useEffect(() => {
     const showPracticeSetHelp = () => {
+      mainTourReturnPathRef.current = null;
       sessionStorage.removeItem(PRACTICE_SET_HELP_REQUEST_KEY);
       setSteps(PRACTICE_SET_STEPS);
       setActiveTour("practice-set");
@@ -577,15 +590,20 @@ export const OnboardingTour = () => {
   const close = useCallback(() => {
     const shouldReturnToBank = activeTour === "main";
     const shouldReturnToPracticeSets = activeTour === "practice-set";
+    const currentPath = getFullPath(location);
+    const returnPath = mainTourReturnPathRef.current ?? currentPath;
+    const mainTourDestination = index === 0 ? returnPath : "/bank";
     if (shouldReturnToBank && user) localStorage.setItem(tourKey(user.uid), "1");
     setOpen(false);
     setIndex(0);
     setRect(null);
     setSteps(MAIN_STEPS);
     setActiveTour("main");
-    if (shouldReturnToBank && location.pathname !== "/bank") navigate("/bank");
+    mainTourReturnPathRef.current = null;
+    sessionStorage.removeItem(ONBOARDING_REPLAY_RETURN_PATH_KEY);
+    if (shouldReturnToBank && currentPath !== mainTourDestination) navigate(mainTourDestination);
     if (shouldReturnToPracticeSets && location.pathname !== "/my-practice-sets") navigate("/my-practice-sets");
-  }, [activeTour, user, location.pathname, navigate]);
+  }, [activeTour, index, user, location, navigate]);
   const prevIndexRef = useRef<number | null>(null);
   useEffect(() => {
     if (!open) {
@@ -849,7 +867,7 @@ export const OnboardingTour = () => {
 
   return (
     <div
-      className="fixed inset-0 z-[200] animate-onboarding-fade"
+      className="tour-dialog-enter fixed inset-0 z-[200]"
       role="dialog"
       aria-modal="true"
       aria-labelledby="onboarding-title"
@@ -981,7 +999,7 @@ export const OnboardingTour = () => {
                 fontFamily: "'Geist', Georgia, serif",
                 fontSize: 26,
                 lineHeight: 1.1,
-                letterSpacing: "-0.01em",
+                letterSpacing: 0,
               }}
             >
               {step.title}

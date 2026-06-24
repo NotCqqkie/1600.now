@@ -1,4 +1,4 @@
-import { useState, useMemo, useCallback, useEffect, useRef, type Dispatch, type SetStateAction, type SyntheticEvent } from "react";
+import { startTransition, useDeferredValue, useState, useMemo, useCallback, useEffect, useRef, type Dispatch, type SetStateAction, type SyntheticEvent } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import type { BankQuestion } from "@/data/questionBank";
 import { mathDomainSkills, englishDomainSkills, allMathDomains, allEnglishDomains } from "@/data/questionCategories";
@@ -34,6 +34,11 @@ import {
   normalizeQuestionBankFilters,
   type QuestionBankFilters,
 } from "@/lib/questionBankFilters";
+import type {
+  BankSearchProgressEntry,
+  BankSearchResult,
+  BankSearchWorkerResponse,
+} from "@/lib/bankSearchTypes";
 import { BankSourceToggle } from "@/components/question/BankSourceToggle";
 import { spaceOutNearDuplicates, questionFingerprint } from "@/lib/text/nearDuplicateSpacing";
 import {
@@ -113,36 +118,12 @@ const HOME_FILTER_DEMO_ALLOW_SELECTOR = [
   '[cmdk-item]',
 ].join(",");
 
-const normalizeQuestionSearchText = (value: string | null | undefined): string =>
-  (value ?? "")
-    .toLowerCase()
-    .replace(/<[^>]*>/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
-
-const getQuestionSearchText = (question: BankQuestion): string =>
-  [
-    question.prompt,
-    question.passage,
-    question.questionText,
-    question.choices?.map((choice) => choice.text || "").join(" "),
-    question.correctAnswer,
-  ]
-    .map((value) => normalizeQuestionSearchText(value))
-    .join(" ");
-
-const getQuestionPreviewText = (question: BankQuestion): string =>
-  (question.questionText || question.prompt || question.passage || "Question preview unavailable")
-    .replace(/<[^>]*>/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
-
 const keywordSubjectOptions: readonly SegmentedToggleOption<BankSubject>[] = [
   { value: "math", label: "Math", title: "Show Math questions" },
   { value: "reading", label: "Reading", title: "Show Reading questions" },
 ];
 
-const shuffleQuestions = (questions: readonly BankQuestion[]): BankQuestion[] => {
+const shuffleQuestions = <T,>(questions: readonly T[]): T[] => {
   const shuffled = [...questions];
   for (let currentIndex = shuffled.length - 1; currentIndex > 0; currentIndex--) {
     const randomIndex = Math.floor(Math.random() * (currentIndex + 1));
@@ -171,16 +152,17 @@ const getTopicDisplayLabel = (subject: BankSubject, label: string) =>
   subject === "math" ? MATH_TOPIC_DISPLAY_LABELS[label] ?? label : label;
 
 type KeywordSearchInfo = {
-  results: BankQuestion[];
+  results: BankSearchResult[];
   rawCount: number;
   mathCount: number;
   readingCount: number;
+  preferredSubject: BankSubject | null;
   focusedSubject: BankSubject | null;
   filteredSubject: BankSubject | null;
   filteredSubjectCount: number;
 };
 
-const getKeywordSearchInfo = (results: BankQuestion[]): KeywordSearchInfo => {
+const getKeywordSearchInfo = (results: BankSearchResult[]): KeywordSearchInfo => {
   const mathResults = results.filter((question) => question.subject === "math");
   const readingResults = results.filter((question) => question.subject === "reading");
   const dominantSubject: BankSubject = mathResults.length >= readingResults.length ? "math" : "reading";
@@ -191,12 +173,21 @@ const getKeywordSearchInfo = (results: BankQuestion[]): KeywordSearchInfo => {
     filteredSubjectCount > 0 &&
     filteredSubjectCount <= BANK_SEARCH_MINOR_SUBJECT_MAX &&
     focusedResults.length >= 4;
+  const preferredSubject =
+    results.length === 0
+      ? null
+      : shouldFocus
+        ? dominantSubject
+        : mathResults.length >= readingResults.length
+          ? "math"
+          : "reading";
 
   return {
     results: shouldFocus ? focusedResults : results,
     rawCount: results.length,
     mathCount: mathResults.length,
     readingCount: readingResults.length,
+    preferredSubject,
     focusedSubject: shouldFocus ? dominantSubject : null,
     filteredSubject: shouldFocus ? filteredSubject : null,
     filteredSubjectCount: shouldFocus ? filteredSubjectCount : 0,
@@ -338,10 +329,31 @@ export const BankIndex = ({
     setHomeDemoPortalContainer(node);
   }, []);
   const [keywordSearch, setKeywordSearch] = useState(keywordSearchParam);
-  const [rawKeywordSearchResults, setRawKeywordSearchResults] = useState<BankQuestion[]>([]);
+  const deferredKeywordSearch = useDeferredValue(keywordSearch);
+  const [rawKeywordSearchResults, setRawKeywordSearchResults] = useState<BankSearchResult[]>([]);
+  const [rawKeywordSearchQuery, setRawKeywordSearchQuery] = useState("");
   const [isKeywordSearchLoading, setIsKeywordSearchLoading] = useState(false);
+  const [isKeywordPracticeLoading, setIsKeywordPracticeLoading] = useState(false);
   const [isKeywordListCollapsed, setIsKeywordListCollapsed] = useState(false);
   const [keywordSubject, setKeywordSubject] = useState<BankSubject>("math");
+  const [isKeywordSubjectPinned, setIsKeywordSubjectPinned] = useState(false);
+  const isKeywordSearchPending = deferredKeywordSearch !== keywordSearch;
+  const bankSearchWorkerRef = useRef<Worker | null>(null);
+  const bankSearchRequestIdRef = useRef(0);
+  const keywordSearchAreaRef = useRef<HTMLDivElement | null>(null);
+
+  const getBankSearchWorker = useCallback(() => {
+    bankSearchWorkerRef.current ??= new Worker(
+      new URL("../../lib/bankSearch.worker.ts", import.meta.url),
+      { type: "module" },
+    );
+    return bankSearchWorkerRef.current;
+  }, []);
+
+  useEffect(() => () => {
+    bankSearchWorkerRef.current?.terminate();
+    bankSearchWorkerRef.current = null;
+  }, []);
 
   useEffect(() => {
     setKeywordSearch(keywordSearchParam);
@@ -510,6 +522,19 @@ export const BankIndex = ({
   };
   const [expandedDomains, setExpandedDomains] = useState<Record<string, boolean>>(createDefaultExpandedDomains);
   const { progress: userProgress } = useUserProgress();
+  const keywordSearchProgress = useMemo<Record<string, BankSearchProgressEntry>>(
+    () => Object.fromEntries(
+      Object.entries(userProgress).map(([stableId, progress]) => [
+        stableId,
+        {
+          isMarkedForReview: progress.isMarkedForReview,
+          attempts: progress.attempts.map((attempt) => ({ result: attempt.result })),
+          totalTimeSpentSeconds: progress.totalTimeSpentSeconds,
+        },
+      ]),
+    ),
+    [userProgress],
+  );
   const getQuestionProgress = useCallback((q: { stableId: string; subject: BankSubject }): QuestionProgress => {
     if (isHomeFilterDemo) return getHomeDemoProgress(q);
     const key = q.stableId;
@@ -606,36 +631,82 @@ export const BankIndex = ({
   }, [filters, getQuestionProgress, isQuestionActive]);
 
   useEffect(() => {
-    const searchTerms = normalizeQuestionSearchText(keywordSearch).split(/\s+/).filter(Boolean);
+    if (isHomeFilterDemo) return;
 
-    if (isHomeFilterDemo || searchTerms.length === 0) {
-      setRawKeywordSearchResults([]);
+    let cancelled = false;
+    const warm = () => {
+      if (cancelled) return;
+      getBankSearchWorker().postMessage({ type: "warm", bankSource });
+    };
+    const idleWindow = window as Window & {
+      requestIdleCallback?: (callback: () => void, options?: { timeout?: number }) => number;
+      cancelIdleCallback?: (handle: number) => void;
+    };
+
+    if (typeof idleWindow.requestIdleCallback === "function") {
+      const handle = idleWindow.requestIdleCallback(warm, { timeout: 900 });
+      return () => {
+        cancelled = true;
+        idleWindow.cancelIdleCallback?.(handle);
+      };
+    }
+
+    const handle = window.setTimeout(warm, 250);
+    return () => {
+      cancelled = true;
+      window.clearTimeout(handle);
+    };
+  }, [bankSource, getBankSearchWorker, isHomeFilterDemo]);
+
+  useEffect(() => {
+    const trimmedSearch = deferredKeywordSearch.trim();
+
+    if (isHomeFilterDemo || trimmedSearch.length === 0) {
+      startTransition(() => {
+        setRawKeywordSearchResults([]);
+        setRawKeywordSearchQuery("");
+      });
       setIsKeywordSearchLoading(false);
       return;
     }
 
     let cancelled = false;
+    const requestId = bankSearchRequestIdRef.current + 1;
+    bankSearchRequestIdRef.current = requestId;
+    const worker = getBankSearchWorker();
     setIsKeywordSearchLoading(true);
 
-    Promise.all([
-      loadBankPool("math", bankSource),
-      loadBankPool("reading", bankSource),
-    ]).then(([mathQuestions, readingQuestions]) => {
-      if (cancelled) return;
-      const results = [...mathQuestions, ...readingQuestions].filter((question) => {
-        if (!questionPassesFilters(question)) return false;
-        const searchableText = getQuestionSearchText(question);
-        return searchTerms.every((term) => searchableText.includes(term));
+    const onMessage = (event: MessageEvent<BankSearchWorkerResponse>) => {
+      if (cancelled || event.data.requestId !== requestId) return;
+      startTransition(() => {
+        setRawKeywordSearchResults(event.data.type === "result" ? event.data.results : []);
+        setRawKeywordSearchQuery(event.data.type === "result" ? event.data.query : "");
       });
-      setRawKeywordSearchResults(results);
-    }).finally(() => {
-      if (!cancelled) setIsKeywordSearchLoading(false);
+      setIsKeywordSearchLoading(false);
+    };
+
+    worker.addEventListener("message", onMessage);
+    worker.postMessage({
+      type: "query",
+      requestId,
+      bankSource,
+      query: deferredKeywordSearch,
+      filters,
+      progress: keywordSearchProgress,
     });
 
     return () => {
       cancelled = true;
+      worker.removeEventListener("message", onMessage);
     };
-  }, [bankSource, isHomeFilterDemo, keywordSearch, questionPassesFilters]);
+  }, [
+    bankSource,
+    deferredKeywordSearch,
+    filters,
+    getBankSearchWorker,
+    isHomeFilterDemo,
+    keywordSearchProgress,
+  ]);
   const getFilteredQuestions = useCallback((questions: BankQuestion[]): BankQuestion[] => {
     return questions.filter(q => questionPassesFilters(q));
   }, [questionPassesFilters]);
@@ -839,7 +910,7 @@ export const BankIndex = ({
     startBankPracticeSession(questions);
   }, [startBankPracticeSession, getSelectedQuestions]);
 
-  const handleKeywordResultClick = useCallback((question: BankQuestion) => {
+  const handleKeywordResultClick = useCallback((question: BankSearchResult) => {
     navigate(`${basePath}/${question.subject}/${question.id}?bankType=${bankSource}`);
   }, [bankSource, basePath, navigate]);
 
@@ -847,20 +918,50 @@ export const BankIndex = ({
     () => getKeywordSearchInfo(rawKeywordSearchResults),
     [rawKeywordSearchResults],
   );
+  const isKeywordResultCurrent =
+    rawKeywordSearchQuery.trim() === deferredKeywordSearch.trim();
+  const activeKeywordSubject =
+    !isKeywordSubjectPinned &&
+    isKeywordResultCurrent &&
+    !isKeywordSearchLoading &&
+    !isKeywordSearchPending &&
+    keywordSearchInfo.preferredSubject
+      ? keywordSearchInfo.preferredSubject
+      : keywordSubject;
 
   useEffect(() => {
-    if (!keywordSearch.trim()) return;
-    if (keywordSubject === "math" && keywordSearchInfo.mathCount === 0 && keywordSearchInfo.readingCount > 0) {
-      setKeywordSubject("reading");
-    }
-    if (keywordSubject === "reading" && keywordSearchInfo.readingCount === 0 && keywordSearchInfo.mathCount > 0) {
-      setKeywordSubject("math");
-    }
-  }, [keywordSearch, keywordSearchInfo.mathCount, keywordSearchInfo.readingCount, keywordSubject]);
+    if (!isKeywordSubjectPinned) return undefined;
+
+    const shouldResetPinnedSubject = (target: EventTarget | null) => {
+      const searchArea = keywordSearchAreaRef.current;
+      return searchArea && target instanceof Node && !searchArea.contains(target);
+    };
+
+    const handlePointerDown = (event: PointerEvent) => {
+      if (shouldResetPinnedSubject(event.target)) setIsKeywordSubjectPinned(false);
+    };
+
+    const handleFocusIn = (event: FocusEvent) => {
+      if (shouldResetPinnedSubject(event.target)) setIsKeywordSubjectPinned(false);
+    };
+
+    document.addEventListener("pointerdown", handlePointerDown, true);
+    document.addEventListener("focusin", handleFocusIn, true);
+
+    return () => {
+      document.removeEventListener("pointerdown", handlePointerDown, true);
+      document.removeEventListener("focusin", handleFocusIn, true);
+    };
+  }, [isKeywordSubjectPinned]);
+
+  const handleKeywordSubjectChange = useCallback((value: BankSubject) => {
+    setIsKeywordSubjectPinned(true);
+    setKeywordSubject(value);
+  }, []);
 
   const keywordSearchResults = useMemo(
-    () => rawKeywordSearchResults.filter((question) => question.subject === keywordSubject),
-    [keywordSubject, rawKeywordSearchResults],
+    () => rawKeywordSearchResults.filter((question) => question.subject === activeKeywordSubject),
+    [activeKeywordSubject, rawKeywordSearchResults],
   );
   const keywordPracticeQuestions = useMemo(
     () => keywordSearchResults,
@@ -869,15 +970,38 @@ export const BankIndex = ({
   const canCreateKeywordPracticeSet =
     keywordPracticeQuestions.length >= KEYWORD_PRACTICE_MIN_QUESTIONS;
 
+  const hydrateKeywordPracticeQuestions = useCallback(async (
+    results: readonly BankSearchResult[],
+  ): Promise<BankQuestion[]> => {
+    const pool = await loadBankPool(activeKeywordSubject, bankSource);
+    const byStableId = new Map(pool.map((question) => [question.stableId, question]));
+    return results
+      .map((result) => byStableId.get(result.stableId))
+      .filter((question): question is BankQuestion => Boolean(question));
+  }, [activeKeywordSubject, bankSource]);
+
   const handleCreateKeywordPracticeSet = useCallback(async (shuffle = false) => {
     const nextParams = new URLSearchParams();
     nextParams.set("bankType", bankSource);
     nextParams.set("q", keywordSearch.trim());
-    startBankPracticeSession(
-      shuffle ? shuffleQuestions(keywordPracticeQuestions) : keywordPracticeQuestions,
-      `/bank?${nextParams.toString()}`,
-    );
-  }, [bankSource, keywordSearch, keywordPracticeQuestions, startBankPracticeSession]);
+    const selectedResults = shuffle ? shuffleQuestions(keywordPracticeQuestions) : keywordPracticeQuestions;
+    setIsKeywordPracticeLoading(true);
+    try {
+      const questions = await hydrateKeywordPracticeQuestions(selectedResults);
+      startBankPracticeSession(
+        questions,
+        `/bank?${nextParams.toString()}`,
+      );
+    } finally {
+      setIsKeywordPracticeLoading(false);
+    }
+  }, [
+    bankSource,
+    hydrateKeywordPracticeQuestions,
+    keywordPracticeQuestions,
+    keywordSearch,
+    startBankPracticeSession,
+  ]);
 
 
   const mathDomainsForDisplay = allMathDomains;
@@ -888,12 +1012,17 @@ export const BankIndex = ({
   };
 
   const isKeywordSearchActive = keywordSearch.trim().length > 0;
+  const isKeywordSearchBusy = isKeywordSearchLoading || isKeywordSearchPending;
+  const isKeywordActionBusy = isKeywordSearchBusy || isKeywordPracticeLoading;
   const shouldShowKeywordSubjectToggle =
-    keywordSearchInfo.mathCount > 0 && keywordSearchInfo.readingCount > 0;
+    isKeywordSubjectPinned || (keywordSearchInfo.mathCount > 0 && keywordSearchInfo.readingCount > 0);
   const visibleKeywordSearchResults = keywordSearchResults.slice(0, BANK_SEARCH_RESULT_LIMIT);
 
   const renderKeywordSearch = () => (
-    <div className="space-y-2">
+    <div
+      ref={keywordSearchAreaRef}
+      className="space-y-2"
+    >
       <div className="flex flex-col gap-2 sm:flex-row">
         <div className="group relative min-w-0 flex-1 rounded-[10px] transition-shadow duration-200 focus-within:shadow-[0_0_0_4px_rgb(var(--ds-accent)/0.26)]">
           <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-ink-muted transition-colors duration-200 group-focus-within:text-cobalt-deep dark:group-focus-within:text-cobalt" />
@@ -920,18 +1049,18 @@ export const BankIndex = ({
         {isKeywordSearchActive && (
           <div className="flex shrink-0 flex-wrap gap-2 sm:flex-nowrap">
             <span
-              key={`${keywordSubject}-${keywordPracticeQuestions.length}-${isKeywordSearchLoading ? "loading" : "ready"}`}
+              key={`${activeKeywordSubject}-${keywordPracticeQuestions.length}-${isKeywordSearchBusy ? "loading" : "ready"}`}
               className="keyword-count-pulse flex h-10 shrink-0 items-center rounded-full border border-ds-line bg-white px-3 font-display text-[12px] font-semibold tabular-nums text-ink dark:bg-card"
             >
-              {isKeywordSearchLoading
+              {isKeywordSearchBusy
                 ? "Searching..."
                 : `${keywordPracticeQuestions.length.toLocaleString()} question${keywordPracticeQuestions.length === 1 ? "" : "s"}`}
             </span>
             {shouldShowKeywordSubjectToggle && (
               <SegmentedToggle
-                value={keywordSubject}
+                value={activeKeywordSubject}
                 options={keywordSubjectOptions}
-                onChange={(value) => setKeywordSubject(value)}
+                onChange={handleKeywordSubjectChange}
                 className="h-10 shrink-0"
                 buttonClassName="h-[30px] px-3 py-0 text-[13px] leading-none"
                 clippedActiveText
@@ -940,7 +1069,7 @@ export const BankIndex = ({
             <Button
               type="button"
               size="sm"
-              disabled={isKeywordSearchLoading || !canCreateKeywordPracticeSet}
+              disabled={isKeywordActionBusy || !canCreateKeywordPracticeSet}
               onClick={() => handleCreateKeywordPracticeSet(false)}
               className="h-10 flex-1 shrink-0 sm:flex-none"
             >
@@ -951,7 +1080,7 @@ export const BankIndex = ({
               type="button"
               variant="outline"
               size="icon"
-              disabled={isKeywordSearchLoading || !canCreateKeywordPracticeSet}
+              disabled={isKeywordActionBusy || !canCreateKeywordPracticeSet}
               onClick={() => handleCreateKeywordPracticeSet(true)}
               aria-label={`Shuffle practice ${keywordPracticeQuestions.length.toLocaleString()} questions`}
               title="Shuffle Practice"
@@ -986,7 +1115,7 @@ export const BankIndex = ({
             </Button>
           </div>
 
-          {isKeywordListCollapsed ? null : isKeywordSearchLoading && visibleKeywordSearchResults.length === 0 ? (
+          {isKeywordListCollapsed ? null : isKeywordSearchBusy && visibleKeywordSearchResults.length === 0 ? (
             <div className="p-10 text-center text-sm text-ink-muted">
               Searching question text...
             </div>
@@ -996,13 +1125,13 @@ export const BankIndex = ({
             </div>
           ) : (
             <div
-              aria-busy={isKeywordSearchLoading ? "true" : undefined}
-              className={`divide-y divide-ds-line${isKeywordSearchLoading ? " pointer-events-none opacity-60" : ""}`}
+              aria-busy={isKeywordSearchBusy ? "true" : undefined}
+              className={`divide-y divide-ds-line${isKeywordSearchBusy ? " pointer-events-none opacity-60" : ""}`}
             >
               {visibleKeywordSearchResults.map((question) => {
                 const isMathQuestionResult = question.subject === "math";
                 const skillLabel = getTopicDisplayLabel(question.subject, question.category.skill);
-                const previewHtml = renderMixedContent(getQuestionPreviewText(question), {
+                const previewHtml = renderMixedContent(question.previewText || "Question preview unavailable", {
                   convertTexLineBreaks: false,
                 });
                 return (

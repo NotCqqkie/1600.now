@@ -3780,7 +3780,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
         <div
           ref={questionContentRef}
           className={`relative ${effectiveQuestionViewMode === 'horizontal' ? 'p-6' : 'p-4 sm:p-6 md:p-8'}`}
-          style={{ maxWidth: isSplitScreenActive || effectiveQuestionViewMode === 'horizontal' ? "100%" : "56rem", margin: isSplitScreenActive || effectiveQuestionViewMode === 'horizontal' ? "0" : "0 auto" }}
+          style={{ maxWidth: effectiveQuestionViewMode === 'horizontal' ? "100%" : "56rem", margin: effectiveQuestionViewMode === 'horizontal' ? "0" : "0 auto" }}
         >
           {effectiveQuestionViewMode === 'horizontal' ? (
             <div className="flex relative" style={{ minHeight: '400px' }}>

@@ -39,6 +39,7 @@ import { useIsMobile } from "@/hooks/use-mobile";
 import { applyTheme, useThemeMode } from "@/lib/theme";
 
 const ONBOARDING_REPLAY_REQUEST_KEY = "onboarding-replay-requested";
+const ONBOARDING_REPLAY_RETURN_PATH_KEY = "onboarding-replay-return-path";
 const DESKTOP_SIDEBAR_DEFAULT_WIDTH = 256;
 const DESKTOP_SIDEBAR_MIN_WIDTH = 224;
 const DESKTOP_SIDEBAR_MAX_WIDTH = 320;
@@ -394,6 +395,10 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
   };
 
   const handleReplayTour = () => {
+    sessionStorage.setItem(
+      ONBOARDING_REPLAY_RETURN_PATH_KEY,
+      `${location.pathname}${location.search}${location.hash}`,
+    );
     sessionStorage.setItem(ONBOARDING_REPLAY_REQUEST_KEY, "1");
     window.dispatchEvent(new CustomEvent("onboarding:replay"));
   };
