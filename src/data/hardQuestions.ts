@@ -415,7 +415,7 @@ const baseQuestions: Question[] = [
     type: "multiple-choice",
   },
   {
-    id: 43,
+    id: 90,
     text: "A quadratic function models the height, in feet, of an object above ground in terms of time, in seconds, after the object is thrown from a raised surface. The model shows that at a time of $4$ seconds, the object is $76$ feet above the ground. At a time of $8$ seconds, the object is $92$ feet above the ground. If the object was at a height of $20$ feet when it was launched, what is the height, in feet, of the object above ground $12$ seconds after being launched?",
     choices: [
       { id: "A", text: "$68$" },
@@ -844,7 +844,7 @@ const baseQuestions: Question[] = [
     type: "multiple-choice",
   },
   {
-    id: 90,
+    id: 43,
     text: "The quadratic function $f$ has a vertex at $(-7,-138)$, passes through the point $(-3,-186)$, and has a $y$-intercept at $(0,c)$. The graph of $6f(x)$ has a $y$-intercept at $(0,d)$. What is the positive difference between $c$ and $d$?",
     correctAnswer: "1425",
     type: "free-response",
