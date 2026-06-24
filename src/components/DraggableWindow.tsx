@@ -30,6 +30,8 @@ interface DraggableWindowProps {
   centerOnExitSidebar?: boolean;
   keepMountedWhenClosed?: boolean;
   contentSplitExitPosition?: number;
+  sidebarExitHeaderMaxWidth?: number;
+  sidebarExitMainMaxWidth?: number;
 }
 
 interface PersistedWindowState {
@@ -78,6 +80,8 @@ export const DraggableWindow = ({
   centerOnExitSidebar = false,
   keepMountedWhenClosed = false,
   contentSplitExitPosition = 100,
+  sidebarExitHeaderMaxWidth,
+  sidebarExitMainMaxWidth,
 }: DraggableWindowProps) => {
   const [position, setPosition] = useState({ x: 100, y: 100 });
   const [size, setSize] = useState({ width: defaultWidth, height: defaultHeight });
@@ -421,6 +425,20 @@ export const DraggableWindow = ({
       isClosingFromSidebarRef.current = true;
       setIsResizingSplit(false);
       setIsSidebarExiting(true);
+      const viewportWidth = document.body.clientWidth || document.documentElement.clientWidth || window.innerWidth;
+      const getCenteredExitSize = (maxWidth?: number) => {
+        const width = maxWidth ? Math.min(viewportWidth, maxWidth) : viewportWidth;
+        return {
+          width,
+          offset: Math.max(0, (viewportWidth - width) / 2),
+        };
+      };
+      const headerExit = getCenteredExitSize(sidebarExitHeaderMaxWidth);
+      const mainExit = getCenteredExitSize(sidebarExitMainMaxWidth);
+      document.documentElement.style.setProperty("--sat-header-content-width", `${headerExit.width}px`);
+      document.documentElement.style.setProperty("--sat-header-content-offset-x", `${headerExit.offset}px`);
+      document.documentElement.style.setProperty("--sat-main-content-width", `${mainExit.width}px`);
+      document.documentElement.style.setProperty("--sat-main-content-offset-x", `${mainExit.offset}px`);
       document.documentElement.style.setProperty("--sat-content-split-pct", `${contentSplitExitPosition}%`);
       document.documentElement.style.setProperty("--sat-nav-split-pct", "100%");
       document.body.classList.remove("noselect", "col-resize-active");
@@ -496,7 +514,7 @@ export const DraggableWindow = ({
       cancelPendingFrame();
       document.body.classList.remove("noselect", "col-resize-active");
     };
-  }, [isResizingSplit, isSidebarred, onSplitPositionChange, getBounds, getBoundsPoint, onClose, onSidebarToggle, onSplitScreenChange, windowId, contentSplitExitPosition]);
+  }, [isResizingSplit, isSidebarred, onSplitPositionChange, getBounds, getBoundsPoint, onClose, onSidebarToggle, onSplitScreenChange, windowId, contentSplitExitPosition, sidebarExitHeaderMaxWidth, sidebarExitMainMaxWidth]);
 
   const beginDragFrom = (clientX: number, clientY: number, target: HTMLElement) => {
     const isHeader = Boolean(target.closest(".window-header"));

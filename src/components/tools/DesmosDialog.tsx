@@ -30,6 +30,8 @@ interface DesmosDialogProps {
   openStateKey?: string;
   onRestoreSidebarPosition?: () => void;
   contentSplitExitPosition?: number;
+  sidebarExitHeaderMaxWidth?: number;
+  sidebarExitMainMaxWidth?: number;
 }
 
 export const DesmosDialog = ({
@@ -52,6 +54,8 @@ export const DesmosDialog = ({
   openStateKey,
   onRestoreSidebarPosition,
   contentSplitExitPosition,
+  sidebarExitHeaderMaxWidth,
+  sidebarExitMainMaxWidth,
 }: DesmosDialogProps) => {
   const [isOpen, setIsOpen] = useState(false);
   const [hasEverOpened, setHasEverOpened] = useState(false);
@@ -303,6 +307,8 @@ export const DesmosDialog = ({
         boundsElement={windowBoundsElement}
         centerOnExitSidebar
         contentSplitExitPosition={contentSplitExitPosition}
+        sidebarExitHeaderMaxWidth={sidebarExitHeaderMaxWidth}
+        sidebarExitMainMaxWidth={sidebarExitMainMaxWidth}
       >
         <div ref={containerRef} className="w-full h-full" />
       </DraggableWindow>

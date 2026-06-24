@@ -26,6 +26,8 @@ interface ExplanationWindowProps {
   windowPortalContainer?: HTMLElement | null;
   windowBoundsElement?: HTMLElement | null;
   contentSplitExitPosition?: number;
+  sidebarExitHeaderMaxWidth?: number;
+  sidebarExitMainMaxWidth?: number;
 }
 
 const EXPLANATION_WINDOW_ID = "explanation";
@@ -53,6 +55,8 @@ export const ExplanationWindow = ({
   windowPortalContainer,
   windowBoundsElement,
   contentSplitExitPosition,
+  sidebarExitHeaderMaxWidth,
+  sidebarExitMainMaxWidth,
 }: ExplanationWindowProps) => {
   const [isOpen, setIsOpen] = useState(false);
   const [hasStructuredExplanation, setHasStructuredExplanation] = useState(false);
@@ -164,6 +168,8 @@ export const ExplanationWindow = ({
         portalContainer={windowPortalContainer}
         boundsElement={windowBoundsElement}
         contentSplitExitPosition={contentSplitExitPosition}
+        sidebarExitHeaderMaxWidth={sidebarExitHeaderMaxWidth}
+        sidebarExitMainMaxWidth={sidebarExitMainMaxWidth}
       >
         <div className="w-full h-full flex flex-col overflow-hidden">
           {hasStructuredExplanation && explanationQuestion ? (

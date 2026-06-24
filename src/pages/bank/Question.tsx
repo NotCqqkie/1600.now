@@ -508,6 +508,8 @@ const READING_ANNOTATION_MODE_STORAGE_KEY = "question-reading-annotation-mode";
 const QUESTION_BANK_HIDE_CHOICES_STORAGE_KEY = "question-bank-hide-answer-choices";
 const QUESTION_BANK_STRIKEOUT_MODE_STORAGE_KEY = "question-bank-strikeout-mode";
 const DESMOS_DEFAULT_SPLIT_POSITION = 70;
+const QUESTION_HEADER_CONTAINER_MAX_WIDTH = 1400;
+const QUESTION_CONTENT_MAX_WIDTH = 1280;
 
 const questionBankViewerStorageData = new Map<string, string>();
 let isQuestionBankViewerStorageActive = true;
@@ -2025,12 +2027,20 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       document.documentElement.style.removeProperty('--sat-split-pct');
       document.documentElement.style.removeProperty('--sat-content-split-pct');
       document.documentElement.style.removeProperty('--sat-nav-split-pct');
+      document.documentElement.style.removeProperty('--sat-header-content-width');
+      document.documentElement.style.removeProperty('--sat-header-content-offset-x');
+      document.documentElement.style.removeProperty('--sat-main-content-width');
+      document.documentElement.style.removeProperty('--sat-main-content-offset-x');
     }
     return () => {
       document.documentElement.style.removeProperty('--modal-center-x');
       document.documentElement.style.removeProperty('--sat-split-pct');
       document.documentElement.style.removeProperty('--sat-content-split-pct');
       document.documentElement.style.removeProperty('--sat-nav-split-pct');
+      document.documentElement.style.removeProperty('--sat-header-content-width');
+      document.documentElement.style.removeProperty('--sat-header-content-offset-x');
+      document.documentElement.style.removeProperty('--sat-main-content-width');
+      document.documentElement.style.removeProperty('--sat-main-content-offset-x');
     };
   }, [isSplitScreenActive, splitPosition]);
 
@@ -3510,8 +3520,11 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       />
       <header className="border-b border-border bg-card sticky top-0 z-10">
         <div
-          className="sat-resize-transition container mx-auto px-4 py-4 transition-[max-width] duration-200 ease-out motion-reduce:transition-none"
-          style={isSplitScreenActive ? { maxWidth: "var(--sat-content-split-pct, 70%)", marginLeft: 0 } : undefined}
+          className="sat-resize-transition container mx-auto px-4 py-4 transition-[max-width,margin-left] duration-200 ease-out motion-reduce:transition-none"
+          style={isSplitScreenActive ? {
+            maxWidth: "var(--sat-header-content-width, var(--sat-content-split-pct, 70%))",
+            marginLeft: "var(--sat-header-content-offset-x, 0px)",
+          } : undefined}
         >
           <div className="relative flex items-center justify-between gap-1 sm:gap-3" ref={topNavRef}>
             <div ref={topLeftRef} data-header-left className="shrink-0">
@@ -3597,6 +3610,8 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                       openStateKey={desmosOpenStateKey}
                       onRestoreSidebarPosition={restoreDesmosSplitPosition}
                       contentSplitExitPosition={questionSplitExitPosition}
+                      sidebarExitHeaderMaxWidth={QUESTION_HEADER_CONTAINER_MAX_WIDTH}
+                      sidebarExitMainMaxWidth={effectiveQuestionViewMode === "horizontal" ? undefined : QUESTION_CONTENT_MAX_WIDTH}
                     />
                   </>
                 )}
@@ -3756,8 +3771,11 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       </header>
 
       <main
-        className={`sat-resize-transition flex-1 pb-28 transition-[max-width,width] duration-200 ease-out motion-reduce:transition-none ${effectiveQuestionViewMode === 'horizontal' ? 'px-8 py-6' : 'px-4 py-8'}`}
-        style={isSplitScreenActive ? { maxWidth: "var(--sat-content-split-pct, 70%)", marginLeft: 0 } : effectiveQuestionViewMode === 'horizontal' ? { width: "100%" } : { maxWidth: "1280px", margin: "0 auto", width: "100%" }}
+        className={`sat-resize-transition flex-1 pb-28 transition-[max-width,width,margin-left] duration-200 ease-out motion-reduce:transition-none ${effectiveQuestionViewMode === 'horizontal' ? 'px-8 py-6' : 'px-4 py-8'}`}
+        style={isSplitScreenActive ? {
+          maxWidth: "var(--sat-main-content-width, var(--sat-content-split-pct, 70%))",
+          marginLeft: "var(--sat-main-content-offset-x, 0px)",
+        } : effectiveQuestionViewMode === 'horizontal' ? { width: "100%" } : { maxWidth: "1280px", margin: "0 auto", width: "100%" }}
       >
         <div
           ref={questionContentRef}
@@ -4081,6 +4099,8 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                   windowPortalContainer={windowPortalContainer}
                   windowBoundsElement={windowBoundsElement}
                   contentSplitExitPosition={questionSplitExitPosition}
+                  sidebarExitHeaderMaxWidth={QUESTION_HEADER_CONTAINER_MAX_WIDTH}
+                  sidebarExitMainMaxWidth={effectiveQuestionViewMode === "horizontal" ? undefined : QUESTION_CONTENT_MAX_WIDTH}
                 />
               )}
               {(!isAssessmentMode || assessmentAllowsChecking) && (
