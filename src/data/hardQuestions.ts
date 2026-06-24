@@ -440,7 +440,7 @@ const baseQuestions: Question[] = [
   },
   {
     id: 45,
-    text: "$$m^{\\frac{3}{4}} = p^{\\frac{3}{11}}$$\\\\$$m^{7a - \\frac{1}{2}} = p$$\\\\where $m$ and $p$ are positive constants, and $m$ is not equal to $1$. What is the value of $a$?",
+    text: "$m^{\\frac{3}{4}} = p^{\\frac{3}{11}}$\\\\$m^{7a - \\frac{1}{2}} = p$\\\\where $m$ and $p$ are positive constants, and $m$ is not equal to $1$. What is the value of $a$?",
     correctAnswer: "13/28,0.4643",
     type: "free-response",
   },
