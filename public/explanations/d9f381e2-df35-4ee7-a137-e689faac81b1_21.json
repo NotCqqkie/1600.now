@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"Thus,\"</strong>: signals direct contrast. The contrast was already introduced in the prior sentence. &#10007;</li><li><strong>\"However,\"</strong>: signals a logical conclusion drawn from prior evidence. Nothing here is being concluded. &#10007;</li><li><strong>\"Moreover,\"</strong>: signals an addition of a parallel point. This is a qualification, not an addition. &#10007;</li><li><strong>\"Sometimes,\"</strong>: signals that the pattern (years-long isolation) held in some but not all cases — exactly what the radium example illustrates. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+      "content": "<ul><li><strong>\"Thus,\"</strong>: signals a result, but the sentence is giving an occasional exception, not a consequence. &#10007;</li><li><strong>\"However,\"</strong>: signals contrast, but the previous sentence already establishes the contrast; the blank needs a frequency/qualification signal. &#10007;</li><li><strong>\"Moreover,\"</strong>: signals an addition of a parallel point. This is a qualification, not an addition. &#10007;</li><li><strong>\"Sometimes,\"</strong>: signals that the pattern (years-long isolation) held in some but not all cases — exactly what the radium example illustrates. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
     }
   ]
 }

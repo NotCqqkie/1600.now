@@ -264,6 +264,8 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
   const [sidebarWidth, setSidebarWidth] = useState(DESKTOP_SIDEBAR_DEFAULT_WIDTH);
   const [isSidebarDragging, setIsSidebarDragging] = useState(false);
   const sidebarWidthBeforeDragRef = useRef(DESKTOP_SIDEBAR_DEFAULT_WIDTH);
+  const sidebarElementRef = useRef<HTMLElement | null>(null);
+  const contentElementRef = useRef<HTMLDivElement | null>(null);
   const lastIsMobileRef = useRef<boolean | null>(null);
   useEffect(() => {
     if (lastIsMobileRef.current === null) {
@@ -289,37 +291,72 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
   useEffect(() => {
     if (!isSidebarDragging) return;
 
-    document.body.classList.add("noselect");
+    document.body.classList.add("noselect", "col-resize-active");
     let dismissedDuringDrag = false;
+    let latestWidth = sidebarWidth;
+    let latestClientX: number | null = null;
+    let frameId: number | null = null;
+
+    const applySidebarWidth = (width: number) => {
+      latestWidth = width;
+      const widthValue = `${width}px`;
+      sidebarElementRef.current?.style.setProperty("--app-sidebar-width", widthValue);
+      sidebarElementRef.current?.style.setProperty("--app-sidebar-padding", widthValue);
+      contentElementRef.current?.style.setProperty("--app-sidebar-width", widthValue);
+      contentElementRef.current?.style.setProperty("--app-sidebar-padding", widthValue);
+    };
+
+    const cancelPendingFrame = () => {
+      if (frameId === null) return;
+      window.cancelAnimationFrame(frameId);
+      frameId = null;
+    };
 
     const dismissFromDrag = () => {
       if (dismissedDuringDrag) return;
       dismissedDuringDrag = true;
+      cancelPendingFrame();
+      applySidebarWidth(DESKTOP_SIDEBAR_MIN_WIDTH);
       setIsSidebarDragging(false);
-      document.body.classList.remove("noselect");
+      document.body.classList.remove("noselect", "col-resize-active");
       setIsSidebarHidden(true);
       window.setTimeout(() => {
         setSidebarWidth(sidebarWidthBeforeDragRef.current);
       }, 200);
     };
 
-    const updateFromClientX = (clientX: number) => {
+    const applyClientX = (clientX: number) => {
       if (clientX <= DESKTOP_SIDEBAR_DISMISS_THRESHOLD) {
-        setSidebarWidth(DESKTOP_SIDEBAR_MIN_WIDTH);
         dismissFromDrag();
         return;
       }
 
-      setSidebarWidth(Math.max(
+      applySidebarWidth(Math.max(
         DESKTOP_SIDEBAR_MIN_WIDTH,
         Math.min(DESKTOP_SIDEBAR_MAX_WIDTH, clientX),
       ));
     };
 
+    const updateFromClientX = (clientX: number) => {
+      latestClientX = clientX;
+      if (frameId !== null) return;
+      frameId = window.requestAnimationFrame(() => {
+        frameId = null;
+        if (latestClientX === null || dismissedDuringDrag) return;
+        applyClientX(latestClientX);
+      });
+    };
+
     const stopDragging = () => {
       if (dismissedDuringDrag) return;
+      cancelPendingFrame();
+      if (latestClientX !== null) {
+        applyClientX(latestClientX);
+      }
+      if (dismissedDuringDrag) return;
       setIsSidebarDragging(false);
-      document.body.classList.remove("noselect");
+      setSidebarWidth(latestWidth);
+      document.body.classList.remove("noselect", "col-resize-active");
     };
 
     const handleMouseMove = (event: MouseEvent) => updateFromClientX(event.clientX);
@@ -341,9 +378,10 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
       document.removeEventListener("touchmove", handleTouchMove);
       document.removeEventListener("touchend", stopDragging);
       document.removeEventListener("touchcancel", stopDragging);
-      document.body.classList.remove("noselect");
+      cancelPendingFrame();
+      document.body.classList.remove("noselect", "col-resize-active");
     };
-  }, [isSidebarDragging]);
+  }, [isSidebarDragging, sidebarWidth]);
 
   const handleSignOut = async () => {
     setIsLogoutDialogOpen(false);
@@ -376,10 +414,11 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
       )}
 
       <aside
+        ref={sidebarElementRef}
         data-tour="sidebar"
         style={sidebarLayoutStyle}
         className={cn(
-          "fixed inset-y-0 left-0 z-40 flex w-72 flex-col overscroll-x-none border-r border-border/60 bg-card/95 py-3 backdrop-blur transition-transform duration-200 will-change-transform motion-reduce:transition-none lg:w-[var(--app-sidebar-width)] lg:px-4",
+          "sat-resize-transition fixed inset-y-0 left-0 z-40 flex w-72 flex-col overscroll-x-none border-r border-border/60 bg-card/95 py-3 backdrop-blur transition-transform duration-200 will-change-transform motion-reduce:transition-none lg:w-[var(--app-sidebar-width)] lg:px-4",
           isSidebarHidden
             ? "-translate-x-full px-4"
             : "translate-x-0 px-4",
@@ -401,7 +440,10 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
             type="button"
             aria-label="Resize or hide sidebar"
             title="Drag to resize or hide sidebar"
-            className="group absolute inset-y-0 right-[-6px] z-50 hidden w-3 cursor-col-resize touch-none items-center justify-center lg:flex"
+            className={cn(
+              "group absolute inset-y-0 right-[-6px] z-50 hidden w-3 cursor-col-resize touch-none items-center justify-center lg:flex",
+              isSidebarDragging && "pointer-events-none",
+            )}
             onMouseDown={(event) => {
               if (event.button !== 0) return;
               event.preventDefault();
@@ -415,7 +457,12 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
               setIsSidebarDragging(true);
             }}
           >
-            <span className="h-full w-px bg-transparent transition-colors duration-150 group-hover:bg-primary/30" />
+            <span
+              className={cn(
+                "h-full w-px",
+                isSidebarDragging ? "bg-primary/30 transition-none" : "bg-transparent transition-colors duration-150 group-hover:bg-primary/30",
+              )}
+            />
           </button>
         )}
 
@@ -532,9 +579,10 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
       </Button>
 
       <div
+        ref={contentElementRef}
         style={sidebarLayoutStyle}
         className={cn(
-          "min-h-screen pt-14 transition-[padding] duration-200 motion-reduce:transition-none lg:pl-[var(--app-sidebar-padding)] lg:pt-0",
+          "sat-resize-transition min-h-screen pt-14 transition-[padding] duration-200 motion-reduce:transition-none lg:pl-[var(--app-sidebar-padding)] lg:pt-0",
           isSidebarDragging && "duration-0",
         )}
       >

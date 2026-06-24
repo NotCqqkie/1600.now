@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate each wrong choice and confirm the answer",
-      "content": "Test all four choices against the finite-verb requirement:<ul><li><strong>Choice A &mdash; houses</strong>: finite simple-present verb that correctly serves as the main verb of the noun clause. &#10003;</li><li><strong>Choice B &mdash; to have housed</strong>: violates the finite-verb rule &mdash; an infinitive phrase cannot be the main verb of a clause. &#10007;</li><li><strong>Choice C &mdash; housing</strong>: violates the finite-verb rule &mdash; a present participle cannot be the main verb of a clause. &#10007;</li><li><strong>Choice D &mdash; to house</strong>: violates the finite-verb rule &mdash; a bare infinitive cannot be the main verb of a clause. &#10007;</li></ul>That matches <strong>Choice A &mdash; houses</strong>."
+      "content": "Test all four choices against the finite-verb requirement:<ul><li><strong>Choice A &mdash; houses</strong>: finite simple-present verb that correctly serves as the main verb of the noun clause. &#10003;</li><li><strong>Choice B &mdash; to have housed</strong>: violates the finite-verb rule &mdash; an infinitive phrase cannot be the main verb of a clause. &#10007;</li><li><strong>Choice C &mdash; housing</strong>: violates the finite-verb rule &mdash; a present participle cannot be the main verb of a clause. &#10007;</li><li><strong>Choice D &mdash; to house</strong>: violates the finite-verb rule &mdash; an infinitive phrase cannot be the main verb of a clause. &#10007;</li></ul>That matches <strong>Choice A &mdash; houses</strong>."
     }
   ]
 }

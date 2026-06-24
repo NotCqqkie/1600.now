@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the clause structures",
-      "content": "”They are hardly pristine” is an independent clause. The word “though” is a subordinating conjunction, making any clause it introduces dependent on the first clause."
+      "content": "“They are hardly pristine” is an independent clause. Here, “though” works as a sentence adverb meaning “however,” so it needs to be set off from the surrounding clauses."
     },
     {
-      "title": "Apply the rule for punctuating subordinating conjunctions",
-      "content": "The keyed punctuation is “pristine, though;”: the comma after “pristine” separates the dependent connector “though”, and the semicolon then breaks before the next clause.<br/><br/>“pristine; though” uses a semicolon before “though”, “pristine, though,” adds an unnecessary comma after “though”, and “pristine, though” omits the semicolon needed before the next clause."
+      "title": "Apply the punctuation rule",
+      "content": "The keyed punctuation is “pristine, though;”: the comma after “pristine” sets off “though,” and the semicolon then breaks before the next independent clause.<br/><br/>“pristine; though” incorrectly places the semicolon before “though,” “pristine, though,” adds an unnecessary comma after “though,” and “pristine, though” omits the semicolon needed before the next clause."
     }
   ]
 }

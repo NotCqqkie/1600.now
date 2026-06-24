@@ -5,6 +5,14 @@ export interface QuestionImageMapEntry {
 }
 
 export const questionImageMap: Record<string, QuestionImageMapEntry> = {
+  "262137dd-b309-4356-982d-630e0212b16e_12": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/262137dd-b309-4356-982d-630e0212b16e_12_q_01_FIX.png",
+        "alt": "Question 12 Image"
+      }
+    ]
+  },
   "ff866f0f-f295-4895-b84d-a5c603adf51a_11": {
     "questionImages": [
       {
@@ -32,7 +40,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
   "6172d662-f820-4d74-acac-4b49873dfc8f_11": {
     "questionImages": [
       {
-        "src": "/images/SAT-Style%20Questions/6172d662-f820-4d74-acac-4b49873dfc8f_11_q_01_FIX.svg",
+        "src": "/images/SAT-Style%20Questions/6172d662-f820-4d74-acac-4b49873dfc8f_11_q_01_FIX.png",
         "alt": "Question 11 Image"
       }
     ]

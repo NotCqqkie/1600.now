@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The passage states researchers &lsquo;did not observe even one&rsquo; of a species &mdash; meaning the blank must name a species and time period where the graph shows zero individuals. The lined rockskipper (dashed line with squares) reads zero for all four months: January, April, July, and October 2001. The barred flagtail shows 15, 10, 8, and 16 across those months; the combtooth blenny shows 62, 3, 3, and 2."
+      "content": "The passage states researchers &lsquo;did not observe even one&rsquo; of a species &mdash; meaning the blank must name a species and time period where the graph shows zero individuals. The lined rockskipper (dashed line with squares) reads zero in April and July 2001, but not in January or October. The barred flagtail shows 15, 10, 8, and 16 across those months; the combtooth blenny shows 62, 3, 3, and 2."
     },
     {
       "title": "Eliminate the choices",

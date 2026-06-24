@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "This is a Command of Evidence (textual) question asking what claim the passage makes about petroleum demand. The decisive evidence is the clause: &ldquo;as social attitudes increasingly favor using less carbon intensive sources of energy demand for petroleum falls.&rdquo; The response must reflect this stated relationship."
+      "content": "This is a Command of Evidence (textual) question asking what claim the passage makes about petroleum demand. The decisive evidence is the clause: &ldquo;as social attitudes increasingly favor using less carbon-intensive sources of energy, demand for petroleum falls.&rdquo; The response must reflect this stated relationship."
     },
     {
       "title": "Eliminate the choices",

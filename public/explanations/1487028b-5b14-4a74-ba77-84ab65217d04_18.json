@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The blank fills the gap between two independent clauses: &ldquo;Dickens's novel originally had a different [blank]&rdquo; and &ldquo;while writing and editing, Dickens had planned to call the novel Mag's Diversions.&rdquo; The word &ldquo;though&rdquo; is a conjunctive adverb that must be placed correctly, and the two independent clauses must be joined with appropriate punctuation."
+      "content": "The blank fills the gap between two independent clauses: &ldquo;Dickens's novel originally had a different [blank]&rdquo; and &ldquo;while writing and editing, Dickens had planned to call the novel <em>Mag's Diversions</em>.&rdquo; The word &ldquo;though&rdquo; is a conjunctive adverb that must be placed correctly, and the two independent clauses must be joined with appropriate punctuation."
     },
     {
       "title": "Eliminate the choices",

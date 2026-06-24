@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The blank follows &quot;The keenest vision can&apos;t ___.&quot; The surrounding context describes the border between a leaf and its reflection as perfectly blended and imperceptible. The word must describe what sharp eyesight attempts but fails to do with that boundary."
+      "content": "The target word appears in the line &quot;The keenest vision can&apos;t define;&quot; The surrounding context describes the border between a leaf and its reflection as perfectly blended and imperceptible, so &quot;define&quot; means to make out or perceive that boundary."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Perceive&rsquo;</strong>: Correct. The sharpest sight cannot perceive (make out) the border line because the blending is so perfect. &#10003;</li><li><strong>Choice B &mdash; &lsquo;Abbreviate&rsquo;</strong>: Wrong. &quot;Define&quot; is a conceptual act, not a visual one; the blank calls for a word about seeing. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Restate&rsquo;</strong>: Wrong. The poem is saying vision fails to detect the line, not that it chooses to look away. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Explain&rsquo;</strong>: Wrong. Reflecting is what the water does; it doesn&apos;t describe what vision fails to do. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Perceive&rsquo;</strong>: Correct. The sharpest sight cannot perceive (make out) the border line because the blending is so perfect. &#10003;</li><li><strong>Choice B &mdash; &lsquo;Abbreviate&rsquo;</strong>: Wrong. &quot;Abbreviate&quot; means to shorten, but the line is about whether vision can make out a boundary. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Restate&rsquo;</strong>: Wrong. &quot;Restate&quot; means to say again in different words; the poem is about seeing, not rephrasing. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Explain&rsquo;</strong>: Wrong. &quot;Explain&quot; means to make something clear in words; the line says even the sharpest vision cannot detect the border. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
     }
   ]
 }

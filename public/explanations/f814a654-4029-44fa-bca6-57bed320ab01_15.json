@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The subject is <strong>the average processing power</strong> (singular). Strip out the parenthetical '(now often containing dozens of cores)' &mdash; it modifies microchips, not the subject. The sentence also uses 'since then,' pointing to a span from the early 2000s to the present, which requires present-perfect tense."
+      "content": "The subject is <strong>the average processing power</strong> (singular). Strip out the nonessential clause \"whose cores can number in the dozens, hundreds, or even thousands\" &mdash; it modifies microchips, not the subject. The sentence also uses 'since then,' pointing to a span from the early 2000s to the present, which requires present-perfect tense."
     },
     {
       "title": "Eliminate the choices",

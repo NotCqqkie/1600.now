@@ -7,6 +7,8 @@
   "scripts": {
     "dev": "vite",
     "build": "npm run lint:undef && node scripts/generate-hidden-bank-questions.mjs && node scripts/generate-skill-samples.mjs && node scripts/generate-bank-route-index.mjs && node scripts/generate-sitemap.mjs && vite build && node scripts/prerender.mjs",
+    "deploy": "npm run build && firebase deploy --only hosting --project now-483609",
+    "deploy:hosting": "firebase deploy --only hosting --project now-483609",
     "difficulty:sync": "node scripts/sync-past-question-difficulties.mjs",
     "difficulty:validate": "node scripts/validate-past-question-difficulties.mjs",
     "audit:math-explanations": "node scripts/audit-math-explanations.mjs",

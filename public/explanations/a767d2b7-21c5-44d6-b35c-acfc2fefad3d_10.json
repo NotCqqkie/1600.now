@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Identify the highest bar in the graph",
-      "content": "The question asks for the highest percentage of lithium recovered.<br/><br/>Scan all four bars in the graph: Type A Process 1 reaches about 29%, Type A Process 2 reaches about 55%, Type B Process 1 reaches about 35%, and Type B Process 2 (the dark bar on the far \\right) reaches the highest point on the y-axis."
+      "content": "The question asks for the highest percentage of lithium recovered.<br/><br/>Scan all four bars in the graph: Type A Process 1 reaches about 30%, Type A Process 2 reaches about 55%, Type B Process 1 reaches about 35%, and Type B Process 2 (the dark bar on the far right) reaches the highest point on the y-axis."
     },
     {
       "title": "Read the value and match it to a choice",

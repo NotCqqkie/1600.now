@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate wrong choices, confirm the answer",
-      "content": "<ul><li><strong>\"The board game *Arkham Horror* was designed by Richard Launius.\"</strong>: This states who designed the game, not when it was released. &#10007;</li><li><strong>\"The board game *Arkham Horror* was released in 2005.\"</strong>: This directly uses the release-year note to state when the game came out &mdash; exactly what the goal requires. &#10003;</li><li><strong>\"The board game *Arkham Horror* is based on horror stories.\"</strong>: This describes the game's source material, not its release date. &#10007;</li><li><strong>\"The board game *Arkham Horror* is based on the writing of H.P. Lovecraft.\"</strong>: This identifies the author whose work inspired the game, not when the game was released. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+      "content": "<ul><li><strong>\"The board game *Arkham Horror* was designed by Richard Launius.\"</strong>: This states who designed the game, not when it was released. &#10007;</li><li><strong>\"The board game *Arkham Horror* was released in 2005.\"</strong>: This directly uses the release-year note to state when the game came out &mdash; exactly what the goal requires. &#10003;</li><li><strong>\"The board game *Arkham Horror* is based on horror stories.\"</strong>: This describes the game's source material, not its release date. &#10007;</li><li><strong>\"The board game *Arkham Horror* is based on the writing of H. P. Lovecraft.\"</strong>: This identifies the author whose work inspired the game, not when the game was released. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
     }
   ]
 }

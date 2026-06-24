@@ -471,6 +471,15 @@
     -ms-user-select: none;
   }
 
+  body.col-resize-active,
+  body.col-resize-active * {
+    cursor: col-resize !important;
+  }
+
+  body.col-resize-active .sat-resize-transition {
+    transition: none !important;
+  }
+
   #question-content,
   .choice-content {
     font-family: var(--question-font-family, "Minion Pro", "Source Serif 4", Georgia, serif);

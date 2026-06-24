@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Identify the pretraining-baselines critique Text 2 targets",
-      "content": "Text 2 lists four methodological flaws in entrepreneurial-training research. The one that maps to The correct answer is the failure to establish pretraining baselines for the measured attributes of participants — that is, studies never record where participants stood on key attributes <em>before</em> training began, making it impossible to judge how much training actually changed them."
+      "content": "Text 2 lists four methodological flaws in entrepreneurial-training research. The flaw relevant to the correct answer is the failure to establish pretraining baselines for the measured attributes of participants — that is, studies never record where participants stood on key attributes <em>before</em> training began, making it impossible to judge how much training actually changed them."
     },
     {
       "title": "Match this concern to what Text 1 leaves unanswered",

@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Identify the structures around the blank",
-      "content": "The sentence has a main independent clause ending at the blank: <strong>“The Suzuki method is an approach to music instruction.”</strong> After the blank comes an infinitive phrase <strong>“to teach music in the same natural way children learn language”</strong> and then a finite verb <strong>“emphasizes immersion in a musical community.”</strong> The blank must introduce a relative clause that incorporates both elements."
+      "content": "The blank comes after <strong>“an approach to music instruction”</strong>; the sentence needs a relative clause whose main verb phrase is <strong>“emphasizes immersion in a musical community”</strong>, with <strong>“aiming to teach music in the same natural way children learn language”</strong> inserted parenthetically."
     },
     {
       "title": "Apply the rule for relative clauses with inserted description",

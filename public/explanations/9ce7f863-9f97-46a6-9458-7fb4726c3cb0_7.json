@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The question asks what \"specific\" most nearly means as used in the passage. Moss has never tired of this view &mdash; the word singles out one particular view (from the elevated track above West Oakland) as distinct from any other view he might have."
+      "content": "The question asks what function the underlined sentence serves. It explains why horizontal gene transfer matters: it can increase bacterial antibiotic resistance, and understanding how to prevent it could help mitigate dangerous pathogens."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; It suggests that a commonly held belief regarding an organism is mistaken.</strong>: The view is real and physically described; nothing is fictional or invented. &#10007;</li><li><strong>Choice B &mdash; It summarizes the history of research into a biological phenomenon.</strong>: \"Correct\" implies truth or accuracy, not the sense of picking out one distinct thing from others. &#10007;</li><li><strong>Choice C &mdash; It illustrates why one organism may pose more of a threat than another.</strong>: Describes liveliness or action; the word modifies a view, not a person or movement. &#10007;</li><li><strong>Choice D &mdash; It explains a practical benefit of researching a particular biological process.</strong>: Captures exactly the sense of this one, unique, identifiable view &mdash; as opposed to views in general. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; It suggests that a commonly held belief regarding an organism is mistaken.</strong>: The sentence does not correct a mistaken belief; it identifies a practical reason to study horizontal gene transfer. &#10007;</li><li><strong>Choice B &mdash; It summarizes the history of research into a biological phenomenon.</strong>: The sentence does not summarize research history; it focuses on a possible practical benefit of understanding how to prevent horizontal gene transfer. &#10007;</li><li><strong>Choice C &mdash; It illustrates why one organism may pose more of a threat than another.</strong>: The sentence does not compare one organism with another; it explains that horizontal gene transfer can increase bacterial antibiotic resistance. &#10007;</li><li><strong>Choice D &mdash; It explains a practical benefit of researching a particular biological process.</strong>: The sentence explains a practical benefit of researching horizontal gene transfer: preventing it could help mitigate dangerous pathogens. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
     }
   ]
 }

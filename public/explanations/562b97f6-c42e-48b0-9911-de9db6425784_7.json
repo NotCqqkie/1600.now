@@ -1,6 +1,6 @@
 {
   "questionId": "562b97f6-c42e-48b0-9911-de9db6425784_7",
-  "correctAnswer": "A",
+  "correctAnswer": "B",
   "section": "Reading and Writing",
   "steps": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A — It can provide new information about the attributed artist's practices.</strong>: The Monet example shows a previously unknown step (painting over water lilies) — new information about his working method. The forgery example also reveals information relevant to who made the work. This matches both examples. &#10003;</li><li><strong>Choice B — It can definitively undermine that attribution.</strong>: The forgery example can rule out a claimed attribution, but the passage says &quot;in some cases&quot; — not definitively or always. Too strong. &#10007;</li><li><strong>Choice C — It can confirm that attribution with a high degree of confidence.</strong>: The passage describes detecting forgeries (undermining attribution) and revealing artistic process — not confirming who painted something. &#10007;</li><li><strong>Choice D — It can show how the work is similar to others attributed to the same artist.</strong>: The passage never discusses comparing multiple works by the same artist. Not supported. &#10007;</li></ul><strong>A</strong> is correct."
+      "content": "<ul><li><strong>Choice A — It can provide new information about the attributed artist's practices.</strong>: The Monet example reveals a hidden step in Monet's process, but the question asks specifically about judging attribution. A hidden working method alone does not determine whether an attribution is valid. &#10007;</li><li><strong>Choice B — It can definitively undermine that attribution.</strong>: The titanium oxide example shows that nonvisible spectra can reveal an anachronistic pigment throughout a painting's layers, proving that a work attributed to an 18th-century artist can only be a forgery. That definitively undermines the attribution in that case. &#10003;</li><li><strong>Choice C — It can confirm that attribution with a high degree of confidence.</strong>: The passage describes detecting forgeries, not confirming an attribution. &#10007;</li><li><strong>Choice D — It can show how the work is similar to others attributed to the same artist.</strong>: The passage never discusses comparing multiple works by the same artist. Not supported. &#10007;</li></ul><strong>B</strong> is correct."
     }
   ]
 }

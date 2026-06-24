@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"In 1940, a short story by J.D. Salinger appeared in Story.\"</strong>: Names the publication and year but omits the title entirely. &#10007;</li><li><strong>\"Acclaimed writer J.D. Salinger's first published work of fiction was a short story.\"</strong>: Describes the genre of the work but gives no title. &#10007;</li><li><strong>\"J.D. Salinger's first published work of fiction appeared in 1940.\"</strong>: States when it appeared but still does not name it. &#10007;</li><li><strong>\"J. Salinger's first published short story was called \"The Young Folks.\"\"</strong>: Directly states the title \"The Young Folks,\" which is exactly what the goal requires. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+      "content": "<ul><li><strong>\"In 1940, a short story by J.D. Salinger appeared in Story.\"</strong>: Names the publication and year but omits the title entirely. &#10007;</li><li><strong>\"Acclaimed writer J.D. Salinger's first published work of fiction was a short story.\"</strong>: Describes the genre of the work but gives no title. &#10007;</li><li><strong>\"J.D. Salinger's first published work of fiction appeared in 1940.\"</strong>: States when it appeared but still does not name it. &#10007;</li><li><strong>\"J.D. Salinger's first published short story was called \"The Young Folks.\"</strong>: Directly states the title \"The Young Folks,\" which is exactly what the goal requires. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
     }
   ]
 }

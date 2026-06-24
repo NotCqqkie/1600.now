@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Find the contrast signal",
-      "content": "The sentence says Greco-Roman sculpture is &quot;sometimes characterized as idealizing human subjects, but in fact there are many&quot; that depict people in a decidedly ______ way. The phrase &quot;but in fact&quot; is a contrast signal: the blank must be the opposite of idealizing &mdash; something that means depicting people negatively or unflatteringly rather than beautifully."
+      "content": "The sentence says Greco-Roman sculpture is &quot;sometimes characterized as idealizing human subjects, but in fact there are many&quot; that depict people in decidedly ______ ways. The phrase &quot;but in fact&quot; is a contrast signal: the blank must be the opposite of idealizing &mdash; something that means depicting people negatively or unflatteringly rather than beautifully."
     },
     {
       "title": "Eliminate each choice and pick the match",

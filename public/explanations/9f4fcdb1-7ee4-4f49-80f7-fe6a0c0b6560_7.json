@@ -1,15 +1,15 @@
 {
   "questionId": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_7",
-  "correctAnswer": "D",
+  "correctAnswer": "C",
   "section": "Reading and Writing",
   "steps": [
     {
       "title": "Identify the central claim",
-      "content": "The passage places Drelichman and Voth's research alongside Brewer's earlier work on European early modern state finance, and notes their unique contribution — reconstructing the earliest extant fiscal records — which adds new texture to that prior body of research."
+      "content": "The passage mentions Brewer only as background for the field. Its main point is that Drelichman and Voth made a unique contribution by reconstructing early fiscal records and using them to explain Philip II's defaults."
     },
     {
       "title": "Match to the choices",
-      "content": "The correct answer captures this relationship: D&V build on earlier work (like Brewer's) and add nuance through their reconstruction of fiscal records.<br/><br/>“Analysis of the earliest available records of a sovereign state's finances can be found not in the work of Brewer but in that of Drelichman and Voth” overstates the contrast with Brewer. The claim about “short-term problems with cash that forced Philip II to default on his debts” introduces specific causal claims the passage doesn't establish as the main point. The statement that Drelichman and Voth “assembled a novel collection of evidence” ignores the connection to prior scholarship that the passage explicitly draws.<br/><br/>The answer is <strong>D</strong>."
+      "content": "Choice C captures that main idea: Drelichman and Voth advanced research on early modern state finance by assembling evidence that gave them insight into Philip II's debt defaults.<br/><br/>Choice A overstates the contrast with Brewer. Choice B adds an unsupported explanation involving the logistics of ruling Spain and Northern Catalonia. Choice D overstates the Brewer connection; the passage says their work relates to the field that includes Brewer, not that it builds on Brewer's findings.<br/><br/>The answer is <strong>C</strong>."
     }
   ]
 }

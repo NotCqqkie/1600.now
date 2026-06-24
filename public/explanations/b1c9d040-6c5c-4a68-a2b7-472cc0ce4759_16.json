@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Recognize the mid-sentence appositive",
-      "content": "The phrase \"a lawyer and cycling advocate\" is an appositive—a noun phrase that renames \"Ernesto Hernandez-Lopez\" and appears between the subject and the main verb \"has identified\"."
+      "content": "The phrase \"a lawyer and cycling advocate\" is an appositive—a noun phrase that renames \"Ernesto Hernández-López\" and appears between the subject and the main verb \"has identified\"."
     },
     {
       "title": "Apply the nonrestrictive appositive rule",
-      "content": "Rule: a nonrestrictive appositive (extra, non-identifying information) that interrupts the main clause must be enclosed in commas on both sides. \"a lawyer and cycling advocate\" adds description about Hernandez-Lopez but doesn't identify which Hernandez-Lopez — it's nonrestrictive and needs two commas.<br/><br/><strong>A:</strong> \"Ernesto Hernandez-Lopez a lawyer and cycling advocate has identified\" — no commas at all around the appositive. Incorrect.<br/><br/><strong>B:</strong> \"Ernesto Hernandez-Lopez, a lawyer and cycling advocate, has identified\" — commas on both sides properly enclose the nonrestrictive appositive. <strong>Correct.</strong><br/><br/><strong>C:</strong> \"Ernesto Hernandez-Lopez a lawyer and cycling advocate, has identified\" — only a trailing comma; the opening comma is missing. Incorrect.<br/><br/><strong>D:</strong> \"Ernesto Hernandez-Lopez, a lawyer and cycling advocate has identified\" — only a leading comma; the closing comma is missing, leaving the appositive unclosed. Incorrect."
+      "content": "Rule: a nonrestrictive appositive (extra, non-identifying information) that interrupts the main clause must be enclosed in commas on both sides. \"a lawyer and cycling advocate\" adds description about Hernández-López but doesn't identify which Hernández-López — it's nonrestrictive and needs two commas.<br/><br/><strong>A:</strong> \"Ernesto Hernández-López a lawyer and cycling advocate has identified\" — no commas at all around the appositive. Incorrect.<br/><br/><strong>B:</strong> \"Ernesto Hernández-López, a lawyer and cycling advocate, has identified\" — commas on both sides properly enclose the nonrestrictive appositive. <strong>Correct.</strong><br/><br/><strong>C:</strong> \"Ernesto Hernández-López a lawyer and cycling advocate, has identified\" — only a trailing comma; the opening comma is missing. Incorrect.<br/><br/><strong>D:</strong> \"Ernesto Hernández-López, a lawyer and cycling advocate has identified\" — only a leading comma; the closing comma is missing, leaving the appositive unclosed. Incorrect."
     }
   ]
 }

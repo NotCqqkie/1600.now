@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The sentence is: &quot;In 1989, Missouri [blank] official fossil: the Eperisocrinus...&quot; Two things need to be correct: (1) the subject of the verb &quot;designated&quot; must be plural (the legislature, i.e., lawmakers as a group), so it should be the plain noun &quot;lawmakers&quot; not the possessive &quot;lawmaker&apos;s&quot;; (2) the fossil belongs to the state, so &quot;state&quot; needs a possessive apostrophe: &quot;state&apos;s.&quot;"
+      "content": "The sentence is: &quot;In 1989, Missouri [blank] official fossil: the species Eperisocrinus missouriensis...&quot; Two things need to be correct: (1) the subject of the verb &quot;designated&quot; must be plural (the legislature, i.e., lawmakers as a group), so it should be the plain noun &quot;lawmakers&quot; not the possessive &quot;lawmaker&apos;s&quot;; (2) the fossil belongs to the state, so &quot;state&quot; needs a possessive apostrophe: &quot;state&apos;s.&quot;"
     },
     {
       "title": "Eliminate the choices",

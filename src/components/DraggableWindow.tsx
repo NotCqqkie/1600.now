@@ -382,9 +382,24 @@ export const DraggableWindow = ({
   useEffect(() => {
     if (!isSidebarred || !isResizingSplit) return;
 
-    document.body.classList.add("noselect");
-    let latestRoundedPosition: number | null = null;
+    document.body.classList.add("noselect", "col-resize-active");
+    let latestCommitPosition: number | null = null;
+    let latestCssPosition: number | null = null;
+    let latestClientX: number | null = null;
+    let frameId: number | null = null;
     let dismissedDuringDrag = false;
+
+    const setSplitCssPosition = (position: number) => {
+      document.documentElement.style.setProperty("--sat-split-pct", `${position}%`);
+      document.documentElement.style.setProperty("--sat-content-split-pct", `${position}%`);
+      document.documentElement.style.setProperty("--sat-nav-split-pct", `${position}%`);
+    };
+
+    const cancelPendingFrame = () => {
+      if (frameId === null) return;
+      window.cancelAnimationFrame(frameId);
+      frameId = null;
+    };
 
     const finishSidebarDismiss = () => {
       sidebarExitTimerRef.current = null;
@@ -402,16 +417,17 @@ export const DraggableWindow = ({
     const startSidebarDismiss = () => {
       if (dismissedDuringDrag) return;
       dismissedDuringDrag = true;
+      cancelPendingFrame();
       isClosingFromSidebarRef.current = true;
       setIsResizingSplit(false);
       setIsSidebarExiting(true);
       document.documentElement.style.setProperty("--sat-content-split-pct", `${contentSplitExitPosition}%`);
       document.documentElement.style.setProperty("--sat-nav-split-pct", "100%");
-      document.body.classList.remove("noselect");
+      document.body.classList.remove("noselect", "col-resize-active");
       sidebarExitTimerRef.current = window.setTimeout(finishSidebarDismiss, SIDEBAR_EXIT_MS);
     };
 
-    const updateFromClientX = (clientX: number) => {
+    const applyClientX = (clientX: number) => {
       const bounds = getBounds();
       const point = getBoundsPoint(clientX, 0);
       if (point.x >= bounds.width - getSidebarDismissEdgePx(bounds.width)) {
@@ -420,15 +436,21 @@ export const DraggableWindow = ({
       }
       const newPosition = (point.x / bounds.width) * 100;
       const clampedPosition = Math.max(SIDEBAR_SPLIT_MIN, Math.min(SIDEBAR_SPLIT_MAX, newPosition));
-      const roundedPosition = Math.round(clampedPosition * 4) / 4;
-      if (latestRoundedPosition === roundedPosition) return;
-      latestRoundedPosition = roundedPosition;
-      document.documentElement.style.setProperty("--sat-split-pct", `${roundedPosition}%`);
-      document.documentElement.style.setProperty("--sat-content-split-pct", `${roundedPosition}%`);
-      document.documentElement.style.setProperty("--sat-nav-split-pct", `${roundedPosition}%`);
-      if (onSplitPositionChange) {
-        onSplitPositionChange(roundedPosition);
-      }
+      const cssPosition = Math.round(clampedPosition * 100) / 100;
+      latestCommitPosition = Math.round(clampedPosition * 4) / 4;
+      if (latestCssPosition === cssPosition) return;
+      latestCssPosition = cssPosition;
+      setSplitCssPosition(cssPosition);
+    };
+
+    const updateFromClientX = (clientX: number) => {
+      latestClientX = clientX;
+      if (frameId !== null) return;
+      frameId = window.requestAnimationFrame(() => {
+        frameId = null;
+        if (latestClientX === null || dismissedDuringDrag) return;
+        applyClientX(latestClientX);
+      });
     };
 
     const handleMouseMove = (e: MouseEvent) => updateFromClientX(e.clientX);
@@ -441,16 +463,21 @@ export const DraggableWindow = ({
 
     const stop = () => {
       if (dismissedDuringDrag) return;
+      cancelPendingFrame();
+      if (latestClientX !== null) {
+        applyClientX(latestClientX);
+      }
+      if (dismissedDuringDrag) return;
       setIsResizingSplit(false);
-      document.body.classList.remove("noselect");
+      document.body.classList.remove("noselect", "col-resize-active");
       if (onSidebarToggle) {
         onSidebarToggle(windowId, true);
       }
       if (onSplitScreenChange) {
         onSplitScreenChange(true, windowId);
       }
-      if (latestRoundedPosition !== null && onSplitPositionChange) {
-        onSplitPositionChange(latestRoundedPosition);
+      if (latestCommitPosition !== null && onSplitPositionChange) {
+        onSplitPositionChange(latestCommitPosition);
       }
     };
 
@@ -466,7 +493,8 @@ export const DraggableWindow = ({
       document.removeEventListener('touchmove', handleTouchMove);
       document.removeEventListener('touchend', stop);
       document.removeEventListener('touchcancel', stop);
-      document.body.classList.remove("noselect");
+      cancelPendingFrame();
+      document.body.classList.remove("noselect", "col-resize-active");
     };
   }, [isResizingSplit, isSidebarred, onSplitPositionChange, getBounds, getBoundsPoint, onClose, onSidebarToggle, onSplitScreenChange, windowId, contentSplitExitPosition]);
 
@@ -731,7 +759,10 @@ export const DraggableWindow = ({
     <>
       {isSidebarred && isOpen && !isSidebarExiting && (
         <div
-          className="fixed bottom-0 top-0 w-4 cursor-col-resize flex items-center justify-center group touch-none"
+          className={cn(
+            "fixed bottom-0 top-0 w-4 cursor-col-resize flex items-center justify-center group touch-none",
+            isResizingSplit && "pointer-events-none",
+          )}
           style={{
             left: `calc(var(--sat-split-pct, ${splitPosition}%) - 8px)`,
             zIndex: zIndex + 10 // Always above this window
@@ -745,7 +776,7 @@ export const DraggableWindow = ({
             setIsResizingSplit(true);
           }}
         >
-          <div className="w-1 h-full bg-border group-hover:bg-primary/50 transition-colors" />
+          <div className={cn("w-1 h-full", isResizingSplit ? "bg-primary/50 transition-none" : "bg-border transition-colors group-hover:bg-primary/50")} />
         </div>
       )}
 

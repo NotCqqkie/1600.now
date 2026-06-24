@@ -24,6 +24,7 @@ interface DesmosDialogProps {
   windowBoundsElement?: HTMLElement | null;
   storageArea?: Storage;
   calculatorStateKey?: string;
+  calculatorIdentityKey?: string;
   windowStateKey?: string;
   layoutStateKey?: string;
   openStateKey?: string;
@@ -45,6 +46,7 @@ export const DesmosDialog = ({
   windowBoundsElement,
   storageArea = typeof window !== "undefined" ? window.localStorage : undefined,
   calculatorStateKey,
+  calculatorIdentityKey,
   windowStateKey,
   layoutStateKey,
   openStateKey,
@@ -63,9 +65,11 @@ export const DesmosDialog = ({
   const onSplitScreenChangeRef = useRef(onSplitScreenChange);
   const onSidebarToggleRef = useRef(onSidebarToggle);
   const previousCalculatorStateKeyRef = useRef(calculatorStateKey);
+  const previousCalculatorIdentityKeyRef = useRef(calculatorIdentityKey ?? calculatorStateKey);
   const previousStorageAreaRef = useRef(storageArea);
   const restoredOpenStateKeyRef = useRef<string | undefined>(undefined);
   const isOpenRef = useRef(isOpen);
+  const effectiveCalculatorIdentityKey = calculatorIdentityKey ?? calculatorStateKey;
 
   calculatorStateKeyRef.current = calculatorStateKey;
   storageAreaRef.current = storageArea;
@@ -209,8 +213,15 @@ export const DesmosDialog = ({
 
   useEffect(() => {
     const previousKey = previousCalculatorStateKeyRef.current;
+    const previousIdentityKey = previousCalculatorIdentityKeyRef.current;
     const previousArea = previousStorageAreaRef.current;
-    if (previousKey === calculatorStateKey && previousArea === storageArea) return;
+    if (
+      previousKey === calculatorStateKey &&
+      previousIdentityKey === effectiveCalculatorIdentityKey &&
+      previousArea === storageArea
+    ) {
+      return;
+    }
     const wasOpen = isOpenRef.current;
 
     flushCalculatorState(previousKey, previousArea);
@@ -231,8 +242,9 @@ export const DesmosDialog = ({
       onSidebarToggle?.("desmos", false);
     }
     previousCalculatorStateKeyRef.current = calculatorStateKey;
+    previousCalculatorIdentityKeyRef.current = effectiveCalculatorIdentityKey;
     previousStorageAreaRef.current = storageArea;
-  }, [calculatorStateKey, flushCalculatorState, onSidebarToggle, onSplitScreenChange, storageArea]);
+  }, [calculatorStateKey, effectiveCalculatorIdentityKey, flushCalculatorState, onSidebarToggle, onSplitScreenChange, storageArea]);
 
   useEffect(() => {
     return () => {

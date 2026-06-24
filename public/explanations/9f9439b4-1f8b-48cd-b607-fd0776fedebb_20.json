@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the grammatical structure",
-      "content": "<em>A government body officially known as the Althing,</em> is a noun phrase serving as the subject. The blank must be filled with an appositive that renames this noun, followed by a predicate verb that completes the sentence."
+      "content": "<em>A government body officially known as the Althing,</em> is an introductory appositive phrase. The text after the comma must supply a subject that names that same entity and a predicate that completes the sentence."
     },
     {
       "title": "Apply the grammatical rule for appositives",
-      "content": "The correct choice places <em>Iceland's parliament</em> correctly as an appositive, followed by the predicate <em>is one of the oldest in the world.</em> The other choices either join two independent clauses with only a comma (B, C) or use an appositive that contradicts the original noun (D).<br/><br/>That confirms <strong>A</strong> is correct."
+      "content": "The correct choice places <em>Iceland's parliament</em> immediately after the introductory appositive, making it the subject, followed by the predicate <em>is one of the oldest in the world.</em> Choices B, C, and D create dangling modifier errors.<br/><br/>That confirms <strong>A</strong> is correct."
     }
   ]
 }

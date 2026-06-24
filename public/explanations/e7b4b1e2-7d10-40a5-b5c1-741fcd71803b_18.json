@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Spot the appositive that needs punctuation",
-      "content": "The sentence has two ways to describe the person: “essayist” (her role) and “author of <em>Of Landscape and Longing</em>“ (her published work).<br/><br/>The phrase “author of <em>Of Landscape and Longing</em>“ is an appositive—it provides additional information about the noun it follows.<br/><br/>Appositives must be set off by commas when they provide non-essential detail."
+      "content": "The sentence has two ways to describe the person: &ldquo;essayist&rdquo; (her role) and &ldquo;author of <em>Of Landscape and Longing</em>&rdquo; (her published work).<br/><br/>The phrase &ldquo;author of <em>Of Landscape and Longing</em>&rdquo; is an appositive—it provides additional information about the noun it follows.<br/><br/>Appositives must be set off by commas when they provide non-essential detail."
     },
     {
       "title": "Match punctuation to structure",
-      "content": "”<strong>essayist Carolyn Servid,</strong> is correct."
+      "content": "<strong>&quot;essayist Carolyn Servid,&quot;</strong> is correct."
     }
   ]
 }

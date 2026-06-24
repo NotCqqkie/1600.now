@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The researcher has no access to inorganic soil additives, so the correct amendment must be organic only. The data shows plant weight and root length for each treatment; the best choice produces the largest gains in both measures."
+      "content": "The farmers have no access to inorganic soil additives, so the correct amendment must be organic only. The table shows fruit weight, fruit length, and fruit diameter for each treatment; among the organic options, the best choice produces the largest gains in all three measurements."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; biochar and NPK fertilizer</strong>: NPK fertilizer is inorganic &mdash; excluded by the constraint. &#10007;</li><li><strong>Choice B &mdash; biochar and compost</strong>: both organic; produces 979.3 g weight (153.4 g above the 825.9 g control) and 6.76 cm root length (0.62 cm above control) &mdash; the largest gains of any organic option. &#10003;</li><li><strong>Choice C &mdash; biochar alone</strong>: organic, but weight gain is only 89.8 g above control &mdash; far less than choice B. &#10007;</li><li><strong>Choice D &mdash; compost alone</strong>: organic, but weight gain is only 38.9 g above control &mdash; the smallest improvement among organic choices. &#10007;</li></ul>That is the correct answer."
+      "content": "<ul><li><strong>Choice A &mdash; biochar and NPK fertilizer</strong>: NPK fertilizer is inorganic &mdash; excluded by the constraint. &#10007;</li><li><strong>Choice B &mdash; biochar and compost</strong>: both organic; produces 979.3 g weight (153.4 g above the 825.9 g control), 6.76 cm fruit length (0.62 cm above control), and 13.68 cm fruit diameter (0.05 cm above control) &mdash; the largest gains across all three measurements among organic options. &#10003;</li><li><strong>Choice C &mdash; biochar alone</strong>: organic, but weight gain is only 89.8 g above control &mdash; far less than choice B. &#10007;</li><li><strong>Choice D &mdash; compost alone</strong>: organic, but weight gain is only 38.9 g above control &mdash; the smallest improvement among organic choices. &#10007;</li></ul>That is the correct answer."
     }
   ]
 }

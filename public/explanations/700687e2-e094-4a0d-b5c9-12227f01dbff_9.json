@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find the key signal",
-      "content": "The city planner's conclusion focuses on stakeholders ranking the <strong>enhancement of pollination</strong> highly.<br/><br/>The table shows stakeholders ranked this service as 2, which is the <em>second-highest</em> in their row.<br/><br/>The decisive clue is that this ranking must be compared to other services listed for stakeholders."
+      "content": "The city planner's conclusion focuses on stakeholders ranking the <strong>enhancement of pollination</strong> highly.<br/><br/>The table shows stakeholders ranked this service as 7. Because 1 is the highest rank, 7 is higher than the other stakeholder rankings shown: 11, 15, 21, and 22.<br/><br/>The decisive clue is that this ranking must be compared to other services listed for stakeholders."
     },
     {
       "title": "Match the meaning",
-      "content": "Choice A (&lsquo;The enhancement of pollination was ranked higher for stakeholders than were the other four services.&rsquo;) states the enhancement of pollination was ranked higher for stakeholders than the <em>other four services</em> in the table.<br/><br/>For stakeholders, the four services other than pollination (e.g., prevention of soil erosion, biodiversity, air quality, and carbon sequestration) are ranked 3, 4, 5, and 1.<br/><br/>Since '2' is higher than three of these four and equal to only one (carbon sequestration, which is top-ranked), A correctly identifies pollination as relatively prioritized.<br/><br/>The other three choices either compare to the wrong group (B and C) or reverse the rankings.<br/><br/>That confirms <strong>A</strong> is correct."
+      "content": "Choice A (&lsquo;The enhancement of pollination was ranked higher for stakeholders than were the other four services.&rsquo;) states the enhancement of pollination was ranked higher for stakeholders than the <em>other four services</em> in the table.<br/><br/>For stakeholders, the four services other than pollination are ranked 21 (provision of medicinal plants), 22 (enhancement of carbon sequestration), 15 (preservation of cultural knowledge and heritage), and 11 (prevention of soil erosion).<br/><br/>Since 7 is closer to 1 than all four of those rankings, A correctly identifies pollination as the highest-ranked listed service for stakeholders.<br/><br/>The other three choices either compare to the wrong group (B and C) or reverse the rankings.<br/><br/>That confirms <strong>A</strong> is correct."
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "questionId": "562b97f6-c42e-48b0-9911-de9db6425784_4",
-  "correctAnswer": "C",
+  "correctAnswer": "B",
   "section": "Reading and Writing",
   "steps": [
     {
@@ -8,8 +8,8 @@
       "content": "The word “while” introduces a concessive clause that notes mass extinctions seem abrupt in geological terms."
     },
     {
-      "title": "Match the support-and-qualification logic",
-      "content": "The matching choice explains that the clause backs the earlier claim about a sudden CO₂ cause by showing that even an event described as abrupt in geological terms can unfold over thousands or millions of years, making the cause plausible.<br/>The other three either mischaracterize the clause as expanding uncertainty, framing an unresolved question, or merely noting a perspective shift, none of which capture the support‑then‑qualification structure.<br/><strong>C</strong> is correct."
+      "title": "Match the concessive logic",
+      "content": "The underlined phrase concedes that mass extinctions can seem abrupt when viewed on a geological timescale. The information that follows then clarifies that, from another point of view, these events still unfold over thousands or millions of years.<br/><br/>Choice B captures that shift in perspective. The phrase does not support the CO₂-cause claim, expand uncertainty about bivalves, or introduce an unresolved research question.<br/><strong>B</strong> is correct."
     }
   ]
 }

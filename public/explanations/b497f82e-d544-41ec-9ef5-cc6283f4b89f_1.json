@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; creative</strong>: directly contradicts the point &mdash; users choosing convenience avoid complexity. &#10007;</li><li><strong>Choice B &mdash; useful</strong>: the evidence is about frequency of use, not originality. The sixth most common password is the opposite of creative. &#10007;</li><li><strong>Choice C &mdash; complex</strong>: the statistic says nothing about utility; it measures how often a password appears across accounts. &#10007;</li><li><strong>Choice D &mdash; popular</strong>: &apos;sixth most commonly used&apos; is a ranking of popularity. The word matches the evidence exactly. &#10003;</li></ul>That is the correct answer."
+      "content": "<ul><li><strong>Choice A &mdash; creative</strong>: directly contradicts the point &mdash; users choosing convenience avoid complexity. &#10007;</li><li><strong>Choice B &mdash; useful</strong>: the evidence is about frequency/popularity, not usefulness. &#10007;</li><li><strong>Choice C &mdash; complex</strong>: this contradicts the passage's point that users choose easy-to-remember, convenience-oriented passwords. &#10007;</li><li><strong>Choice D &mdash; popular</strong>: &apos;sixth most commonly used&apos; is a ranking of popularity. The word matches the evidence exactly. &#10003;</li></ul>That is the correct answer."
     }
   ]
 }

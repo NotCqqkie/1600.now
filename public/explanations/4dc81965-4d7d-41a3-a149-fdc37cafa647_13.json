@@ -9,7 +9,7 @@
     },
     {
       "title": "Test the prediction against the choices",
-      "content": "B directly contradicts the predicted pattern: languages in Europe and Western Asia (closer to Africa) have more sounds than languages in Africa, reversing the expected correlation.<br/><br/>The other options either support the claim or don't test the distance-sound relationship.<br/><br/><strong>B</strong> is correct."
+      "content": "B directly contradicts the predicted pattern: because the claim predicts that languages that emerged in Africa should retain more sounds than languages that emerged farther from Africa, languages in Europe and Western Asia should not tend to have more sounds than languages in Africa, reversing the expected correlation.<br/><br/>The other options either support the claim or don't test the distance-sound relationship.<br/><br/><strong>B</strong> is correct."
     }
   ]
 }

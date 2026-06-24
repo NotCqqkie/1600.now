@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The phrase &quot;or superDARN, as space physicists like Nozomu Nishitani call it&quot; is an appositive that provides an alternative name for the radar network. A dash already appears after &quot;it&quot; to close the appositive; the opening of the phrase must be set off by a matching dash after &quot;Network&quot; to form a proper paired-dash construction."
+      "content": "The phrase &quot;or SuperDARN, as space physicists like Nozomu Nishitani call it&quot; is an appositive that provides an alternative name for the radar network. A dash already appears after &quot;it&quot; to close the appositive; the opening of the phrase must be set off by a matching dash after &quot;Network&quot; to form a proper paired-dash construction."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; Network,</strong>: Without an opening dash, the appositive is not properly framed, making the sentence grammatically ambiguous. &#10007;</li><li><strong>Choice B &mdash; Network:</strong>: A comma opens the appositive but the closing punctuation is a dash, creating a mismatched pair. &#10007;</li><li><strong>Choice C &mdash; Network</strong>: A colon introduces a list or explanation, not a paired appositive. It also mismatches the closing dash. &#10007;</li><li><strong>Choice D &mdash; Network—</strong>: Places the required opening dash to match the closing dash after &quot;it,&quot; correctly enclosing the appositive phrase. &#10003;</li></ul>That is the correct answer."
+      "content": "<ul><li><strong>Choice A &mdash; Network,</strong>: Without an opening dash, the appositive is not properly framed, making the sentence grammatically ambiguous. &#10007;</li><li><strong>Choice B &mdash; Network:</strong>: A colon after &quot;Network&quot; cannot pair with the closing dash and would incorrectly introduce the appositive. &#10007;</li><li><strong>Choice C &mdash; Network</strong>: No punctuation after &quot;Network&quot; leaves the appositive without an opening mark to match the closing dash. &#10007;</li><li><strong>Choice D &mdash; Network—</strong>: Places the required opening dash to match the closing dash after &quot;it,&quot; correctly enclosing the appositive phrase. &#10003;</li></ul>That is the correct answer."
     }
   ]
 }

@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; female that was 13 years old.</strong>: The 13-year-old female weighs 400 lbs &mdash; not the lowest. &#10007;</li><li><strong>Choice B &mdash; female that was 6 years old.</strong>: The 6-year-old female weighs 800 lbs &mdash; the heaviest in the table, not the lowest. &#10007;</li><li><strong>Choice C &mdash; male that was 10 years old.</strong>: The 10-year-old male weighs 375 lbs &mdash; lower than A and B, but not the minimum. &#10007;</li><li><strong>Choice D &mdash; male that was 3 years old.</strong>: Bear 122, a 3-year-old male, weighs 200 lbs &mdash; the lowest value in the table. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; female that was 13 years old.</strong>: The 13-year-old female weighs 375 lbs &mdash; not the lowest. &#10007;</li><li><strong>Choice B &mdash; female that was 6 years old.</strong>: The 6-year-old female weighs 400 lbs &mdash; the heaviest in the table, not the lowest. &#10007;</li><li><strong>Choice C &mdash; male that was 10 years old.</strong>: The 10-year-old male weighs 800 lbs &mdash; lower than A and B, but not the minimum. &#10007;</li><li><strong>Choice D &mdash; male that was 3 years old.</strong>: Bear 122, a 3-year-old male, weighs 200 lbs &mdash; the lowest value in the table. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
     }
   ]
 }

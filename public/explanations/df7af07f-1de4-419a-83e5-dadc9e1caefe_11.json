@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"Wisconsin.\"</strong>: 3,999 MWh/yr &mdash; the smallest value in the column. &#10003;</li><li><strong>\"Michigan.\"</strong>: 193,864 MWh/yr &mdash; the highest value, not the lowest. &#10007;</li><li><strong>\"Florida.\"</strong>: 10,693 MWh/yr &mdash; higher than Wisconsin. &#10007;</li><li><strong>\"Indiana.\"</strong>: 19,751 MWh/yr &mdash; higher than Wisconsin. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+      "content": "<ul><li><strong>\"Wisconsin.\"</strong>: 3,999 MWh/yr &mdash; the smallest value in the column. &#10003;</li><li><strong>\"Michigan.\"</strong>: 10,693 MWh/yr &mdash; higher than Wisconsin, not the lowest. &#10007;</li><li><strong>\"Florida.\"</strong>: 193,864 MWh/yr &mdash; the highest value, not the lowest. &#10007;</li><li><strong>\"Indiana.\"</strong>: 19,751 MWh/yr &mdash; higher than Wisconsin. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
     }
   ]
 }

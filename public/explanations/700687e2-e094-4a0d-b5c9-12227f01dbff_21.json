@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "After the comma following &lsquo;headrests,&rsquo; the phrase &lsquo;their design ______ airflow &hellip;&rsquo; is separated from the main clause. A phrase following a comma that modifies the noun &lsquo;their design&rsquo; and adds detail about it must be an absolute phrase &mdash; a noun plus a participle (&lsquo;-ing&rsquo; form). A finite verb (one with its own tense) would create a grammatically broken structure."
+      "content": "After the comma following &lsquo;headrests,&rsquo; the phrase &lsquo;their design ______ airflow &hellip;&rsquo; is separated from the main clause. The phrase after the comma is an absolute phrase built from a noun phrase plus a participle (&lsquo;their design prioritizing...&rsquo;), adding detail to the main clause without creating a new finite clause. A finite verb (one with its own tense) would create a grammatically broken structure."
     },
     {
       "title": "Eliminate the choices",

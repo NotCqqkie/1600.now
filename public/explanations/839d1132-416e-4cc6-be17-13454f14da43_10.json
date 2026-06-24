@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Read the 1993 column of the table",
-      "content": "The question asks which category had the most members in 1993. The 1993 column shows: Brownies = 1,225 thousand, Ambassadors = 826 thousand, Daisies = 191 thousand, Cadettes = 168 thousand. Brownies is the largest by a wide margin.<ul><li><strong>Choice A &mdash; Ambassadors.</strong>: Ambassadors had 826 thousand members in 1993 &mdash; less than Brownies. &#10007;</li><li><strong>Choice B &mdash; Brownies.</strong>: Brownies had 1,225 thousand members in 1993 &mdash; the highest value in the column. &#10003;</li><li><strong>Choice C &mdash; Daisies.</strong>: Daisies had only 191 thousand members in 1993, far below Brownies. &#10007;</li><li><strong>Choice D &mdash; Cadettes.</strong>: Cadettes had only 168 thousand members in 1993, the smallest of the four categories. &#10007;</li></ul>"
+      "content": "The question asks which category had the most members in 1993. The 1993 column shows: Brownies = 1,225 thousand, Adults = 826 thousand, Daisies = 191 thousand, Cadettes = 168 thousand. Brownies is the largest by a wide margin.<ul><li><strong>Choice A &mdash; Adults.</strong>: Adults had 826 thousand members in 1993 &mdash; less than Brownies. &#10007;</li><li><strong>Choice B &mdash; Brownies.</strong>: Brownies had 1,225 thousand members in 1993 &mdash; the highest value in the column. &#10003;</li><li><strong>Choice C &mdash; Daisies.</strong>: Daisies had only 191 thousand members in 1993, far below Brownies. &#10007;</li><li><strong>Choice D &mdash; Cadettes.</strong>: Cadettes had only 168 thousand members in 1993, the smallest of the four categories. &#10007;</li></ul>"
     },
     {
       "title": "Confirm the correct choice",

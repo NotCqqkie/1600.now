@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; influence,</strong>: A comma alone between two independent clauses is a comma splice. &#10007;</li><li><strong>Choice B &mdash; influence and</strong>: A coordinating conjunction alone, with no comma, between two independent clauses is a fused sentence. &#10007;</li><li><strong>Choice C &mdash; influence, and</strong>: Comma + coordinating conjunction correctly joins the two independent clauses. &#10003;</li><li><strong>Choice D &mdash; influence</strong>: No punctuation or conjunction at all &mdash; a fused sentence. &#10007;</li></ul>That matches <strong>Choice C &mdash; influence, and</strong>."
+      "content": "<ul><li><strong>Choice A &mdash; influence,</strong>: A comma alone between two independent clauses is a comma splice. &#10007;</li><li><strong>Choice B &mdash; influence and</strong>: A coordinating conjunction without the required comma between two independent clauses violates the comma-plus-coordinating-conjunction rule. &#10007;</li><li><strong>Choice C &mdash; influence, and</strong>: Comma + coordinating conjunction correctly joins the two independent clauses. &#10003;</li><li><strong>Choice D &mdash; influence</strong>: No punctuation or conjunction at all &mdash; a fused sentence. &#10007;</li></ul>That matches <strong>Choice C &mdash; influence, and</strong>."
     }
   ]
 }

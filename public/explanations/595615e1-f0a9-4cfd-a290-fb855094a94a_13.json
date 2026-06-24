@@ -9,7 +9,7 @@
     },
     {
       "title": "Match the meaning to the choices",
-      "content": "If the graph shows different correlations for abstract vs. cubist while P6's actual ratings were identical for both, the <em>predicted</em> ratings must differ between the styles — equal predictions can't produce two distinct correlations against an identical actual signal.<br/><br/>So P6's predicted ratings for abstract and cubist paintings would differ from one another.<br/><br/><strong>A</strong> is correct."
+      "content": "The graph shows different model-participant correlations for P6 in the two styles; under the prompt's assumption that P6's reported ratings were equal, that difference supports that the model's predicted ratings differed by style.<br/><br/>So P6's predicted ratings for abstract and cubist paintings would differ from one another.<br/><br/><strong>A</strong> is correct."
     }
   ]
 }

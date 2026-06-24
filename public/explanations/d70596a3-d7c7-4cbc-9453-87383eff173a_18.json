@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Identify the sentence structure",
-      "content": "The sentence begins with subject <strong>“Trisyllabic words”</strong> and ends with what should be the main verb <strong>“consist.”</strong> The blank must contain either a finite verb (A, B, C) or a participle to complete the thought."
+      "content": "The sentence begins with subject <strong>“Trisyllabic words”</strong> and ends with the main verb <strong>“consist.”</strong> The blank must contain a participle that modifies <strong>“Trisyllabic words”</strong> while leaving <strong>“consist”</strong> as the sentence's main verb."
     },
     {
       "title": "A participle reduces a relative clause without creating multiple main verbs",

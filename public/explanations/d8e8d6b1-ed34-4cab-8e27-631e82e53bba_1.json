@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"creative\"</strong>: Contradicts the point &mdash; '123456789' is the opposite of secure. &#10007;</li><li><strong>\"useful\"</strong>: A password used by millions is by definition not unique. &#10007;</li><li><strong>\"complex\"</strong>: Contradicts the contrast with expert advice for complicated passwords. &#10007;</li><li><strong>\"popular\"</strong>: Ranking as the third most commonly used password is direct evidence that people choose it widely, i.e., it is popular. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+      "content": "<ul><li><strong>\"creative\"</strong>: Contradicts the point &mdash; '123456789' is common and unimaginative, not creative. &#10007;</li><li><strong>\"useful\"</strong>: A password used by millions may be convenient, but the evidence supports popularity, not usefulness. &#10007;</li><li><strong>\"complex\"</strong>: Contradicts the contrast with expert advice for complicated passwords. &#10007;</li><li><strong>\"popular\"</strong>: Ranking as the third most commonly used password is direct evidence that people choose it widely, i.e., it is popular. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
     }
   ]
 }

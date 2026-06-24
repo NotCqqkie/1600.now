@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; 1981</strong>: this is another country&apos;s year in the table, not India&apos;s. &#10007;</li><li><strong>Choice B &mdash; 1998</strong>: not India&apos;s value in the table. 1998 also falls outside the 1980s, making it suspicious as a trap for the &quot;1990s&quot; part of the text. &#10007;</li><li><strong>Choice C &mdash; 1983</strong>: another country&apos;s year in the table, not India&apos;s. &#10007;</li><li><strong>Choice D &mdash; 1986</strong>: the table shows 1986 for India. This falls within the 1980s period stated in the text. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; 1981</strong>: this does not match India&apos;s row in the table. &#10007;</li><li><strong>Choice B &mdash; 1998</strong>: this is Morocco&apos;s year in the table, not India&apos;s. &#10007;</li><li><strong>Choice C &mdash; 1983</strong>: this does not match India&apos;s row in the table. &#10007;</li><li><strong>Choice D &mdash; 1986</strong>: the table shows 1986 for India. This falls within the 1980s period stated in the text. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
     }
   ]
 }

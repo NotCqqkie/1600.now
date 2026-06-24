@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Identify the grammatical structures",
-      "content": "The left side ends with an incomplete independent clause: <strong>“The Australian Desert in Australasia is an arid [____]”</strong> (the verb <em>is</em> needs a noun complement). <br/><br/> The right side contains an independent clause preceded by a prepositional phrase: <strong>“with a total area of about 2,700,000 km 2, it is one of the largest deserts of any type”</strong> (subject <em>it</em>, verb <em>is</em>)."
+      "content": "The left side ends with an incomplete independent clause: <strong>“The Australian Desert in Australasia is an arid [____]”</strong> (the verb <em>is</em> needs a noun complement). <br/><br/> The right side contains an independent clause preceded by a prepositional phrase: <strong>“with a total area of about 2,700,000 km², it is one of the largest deserts of any type”</strong> (subject <em>it</em>, verb <em>is</em>)."
     },
     {
       "title": "Apply the joining rule",

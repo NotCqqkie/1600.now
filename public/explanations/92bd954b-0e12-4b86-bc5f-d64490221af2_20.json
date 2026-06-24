@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Find the antecedent of the blank",
-      "content": "The sentence introduces <strong>the judges for the 1974 Nobel Prize in Literature</strong> as the subject making a decision. The blank must be a pronoun that refers back to &ldquo;the judges&rdquo; &mdash; a plural noun. Any pronoun in the blank must be plural to agree with that antecedent."
+      "content": "The sentence introduces <strong>the judges for the 1974 Nobel Prize in Literature</strong> as the subject making a decision. The blank must be a pronoun that points to the later noun phrase &ldquo;the judges&rdquo; &mdash; a plural noun. The pronoun in the blank must be plural to agree with that noun phrase."
     },
     {
       "title": "Eliminate wrong choices and confirm the answer",

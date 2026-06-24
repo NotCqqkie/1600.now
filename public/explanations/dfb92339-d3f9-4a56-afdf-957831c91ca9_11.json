@@ -9,7 +9,7 @@
     },
     {
       "title": "Match the meaning",
-      "content": "<strong>Cuicocha is a caldera volcano, and Cayambe is a compound volcano.</strong> pairs Cuicocho as a caldera with Cayambe as a compound, matching the table’s classifications.<br/><br/>The other three either misidentify a volcano’s type or duplicate types, which contradicts the instruction to highlight “different” categories.<br/><br/>That matches the correct answer — <strong>C</strong> is correct."
+      "content": "<strong>Cuicocha is a caldera volcano, and Cayambe is a compound volcano.</strong> pairs Cuicocha as a caldera with Cayambe as a compound, matching the table’s classifications.<br/><br/>The other three misidentify at least one volcano's type, which contradicts the table.<br/><br/>That matches the correct answer — <strong>C</strong> is correct."
     }
   ]
 }

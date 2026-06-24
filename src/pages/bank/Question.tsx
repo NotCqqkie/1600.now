@@ -190,9 +190,6 @@ const getNextStateForLowerThan = ({
   return value < enterThreshold;
 };
 
-const BOTTOM_NAV_TEXT_PUSH_ENTER_PX = 32;
-const BOTTOM_NAV_TEXT_PUSH_EXIT_PX = 16;
-
 type CenterOffsetArgs = {
   containerWidth: number;
   leftWidth: number;
@@ -1127,11 +1124,31 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     practiceTestStateSessionId,
   ]);
   const desmosStorageKeys = useMemo(() => getDesmosStorageKeys(desmosStorageScope), [desmosStorageScope]);
-  const desmosCalculatorStateKey = desmosStorageKeys.calculator;
   const desmosWindowStateKey = desmosStorageKeys.window;
   const desmosLayoutStateKey = desmosStorageKeys.layout;
   const desmosOpenStateKey = desmosStorageKeys.open;
   const desmosSplitPositionKey = desmosStorageKeys.splitPosition;
+  const desmosCalculatorStorageScope = useMemo(() => {
+    if (isPracticeTestMode && practiceTestStateSessionId && currentQuestionId) {
+      return `practice-test:${practiceTestStateSessionId}:desmos:question:${currentQuestionId}`;
+    }
+    if (isModulePracticeMode && modulePracticeStateSessionId && currentQuestionId) {
+      return `module-practice:${modulePracticeStateSessionId}:desmos:question:${currentQuestionId}`;
+    }
+    return null;
+  }, [
+    currentQuestionId,
+    isModulePracticeMode,
+    isPracticeTestMode,
+    modulePracticeStateSessionId,
+    practiceTestStateSessionId,
+  ]);
+  const desmosCalculatorStateKey = useMemo(
+    () => (desmosCalculatorStorageScope ? getDesmosStorageKeys(desmosCalculatorStorageScope).calculator : undefined),
+    [desmosCalculatorStorageScope],
+  );
+  const desmosCalculatorIdentityKey =
+    desmosCalculatorStorageScope ?? `${desmosStorageScope}:transient-question:${currentQuestionId ?? "none"}`;
   const clearCurrentDesmosUiState = useCallback(() => {
     clearDesmosUiState(desmosStorageArea, desmosStorageScope);
   }, [desmosStorageArea, desmosStorageScope]);
@@ -1640,22 +1657,12 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
           : 120;
         const requiredWidth = leftNaturalWidth + navSheetWidth + rightNaturalWidth + gridGap * 2;
         const currentlyCompressed = bottomCompressStateRef.current;
-        const naturalCenterOffset = getPushedCenterOffset({
-          containerWidth,
-          leftWidth: leftNaturalWidth,
-          rightWidth: rightNaturalWidth,
-          centerWidth: navSheetWidth,
-          gap: gridGap,
-        });
-        const pushThreshold = currentlyCompressed ? BOTTOM_NAV_TEXT_PUSH_EXIT_PX : BOTTOM_NAV_TEXT_PUSH_ENTER_PX;
-
-        const nextCompressedByWidth = getNextStateForLowerThan({
+        const nextCompressed = getNextStateForLowerThan({
           currentState: currentlyCompressed,
           value: containerWidth,
           enterThreshold: requiredWidth,
           exitThreshold: requiredWidth + 24,
         });
-        const nextCompressed = nextCompressedByWidth || Math.abs(naturalCenterOffset) > pushThreshold;
 
         if (nextCompressed !== currentlyCompressed) {
           bottomCompressStateRef.current = nextCompressed;
@@ -1801,7 +1808,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   useEffect(() => {
     if (!isResizingQuestionSplit) return;
 
-    document.body.classList.add("noselect");
+    document.body.classList.add("noselect", "col-resize-active");
 
     const handleMouseMove = (e: MouseEvent) => {
       const availableWidth = isSplitScreenActive
@@ -1812,18 +1819,36 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       setQuestionSplitPosition(clampedPosition);
     };
 
-    const handleMouseUp = () => {
+    const handleTouchMove = (e: TouchEvent) => {
+      if (e.touches.length === 0) return;
+      e.preventDefault();
+      const touch = e.touches[0];
+      const availableWidth = isSplitScreenActive
+        ? (window.innerWidth * splitPosition) / 100
+        : window.innerWidth;
+      const newPosition = (touch.clientX / availableWidth) * 100;
+      const clampedPosition = Math.max(25, Math.min(75, newPosition));
+      setQuestionSplitPosition(clampedPosition);
+    };
+
+    const stopResizing = () => {
       setIsResizingQuestionSplit(false);
-      document.body.classList.remove("noselect");
+      document.body.classList.remove("noselect", "col-resize-active");
     };
 
     document.addEventListener('mousemove', handleMouseMove);
-    document.addEventListener('mouseup', handleMouseUp);
+    document.addEventListener('mouseup', stopResizing);
+    document.addEventListener('touchmove', handleTouchMove, { passive: false });
+    document.addEventListener('touchend', stopResizing);
+    document.addEventListener('touchcancel', stopResizing);
 
     return () => {
       document.removeEventListener('mousemove', handleMouseMove);
-      document.removeEventListener('mouseup', handleMouseUp);
-      document.body.classList.remove("noselect");
+      document.removeEventListener('mouseup', stopResizing);
+      document.removeEventListener('touchmove', handleTouchMove);
+      document.removeEventListener('touchend', stopResizing);
+      document.removeEventListener('touchcancel', stopResizing);
+      document.body.classList.remove("noselect", "col-resize-active");
     };
   }, [isResizingQuestionSplit, isSplitScreenActive, splitPosition]);
 
@@ -3378,7 +3403,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       />
       <header className="border-b border-border bg-card sticky top-0 z-10">
         <div
-          className="container mx-auto px-4 py-4 transition-[max-width] duration-200 ease-out motion-reduce:transition-none"
+          className="sat-resize-transition container mx-auto px-4 py-4 transition-[max-width] duration-200 ease-out motion-reduce:transition-none"
           style={isSplitScreenActive ? { maxWidth: "var(--sat-content-split-pct, 70%)", marginLeft: 0 } : undefined}
         >
           <div className="relative flex items-center justify-between gap-1 sm:gap-3" ref={topNavRef}>
@@ -3459,6 +3484,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                       windowBoundsElement={windowBoundsElement}
                       storageArea={desmosStorageArea}
                       calculatorStateKey={desmosCalculatorStateKey}
+                      calculatorIdentityKey={desmosCalculatorIdentityKey}
                       windowStateKey={desmosWindowStateKey}
                       layoutStateKey={desmosLayoutStateKey}
                       openStateKey={desmosOpenStateKey}
@@ -3485,7 +3511,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                     {!effectiveTopShouldCompress && "Annotate"}
                   </Button>
                 )}
-                <DropdownMenu onOpenChange={(open) => {
+                <DropdownMenu modal={false} onOpenChange={(open) => {
                   if (open) void ensureCurrentSimilarityMeta();
                 }}>
                   <DropdownMenuTrigger asChild>
@@ -3623,7 +3649,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       </header>
 
       <main
-        className={`flex-1 pb-28 transition-[max-width,width] duration-200 ease-out motion-reduce:transition-none ${effectiveQuestionViewMode === 'horizontal' ? 'px-8 py-6' : 'px-4 py-8'}`}
+        className={`sat-resize-transition flex-1 pb-28 transition-[max-width,width] duration-200 ease-out motion-reduce:transition-none ${effectiveQuestionViewMode === 'horizontal' ? 'px-8 py-6' : 'px-4 py-8'}`}
         style={isSplitScreenActive ? { maxWidth: "var(--sat-content-split-pct, 70%)", marginLeft: 0 } : effectiveQuestionViewMode === 'horizontal' ? { width: "100%" } : { maxWidth: "1280px", margin: "0 auto", width: "100%" }}
       >
         <div
@@ -3650,10 +3676,21 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
               </div>
 
               <div
-                className="w-4 cursor-col-resize flex items-center justify-center group flex-shrink-0 self-stretch"
-                onMouseDown={() => setIsResizingQuestionSplit(true)}
+                className={cn(
+                  "w-4 cursor-col-resize flex items-center justify-center group flex-shrink-0 self-stretch touch-none",
+                  isResizingQuestionSplit && "pointer-events-none",
+                )}
+                onMouseDown={(event) => {
+                  event.preventDefault();
+                  setIsResizingQuestionSplit(true);
+                }}
+                onTouchStart={(event) => {
+                  if (event.touches.length === 0) return;
+                  event.preventDefault();
+                  setIsResizingQuestionSplit(true);
+                }}
               >
-                <div className="w-1 h-full bg-border group-hover:bg-primary/50 transition-colors rounded" />
+                <div className={cn("w-1 h-full rounded", isResizingQuestionSplit ? "bg-primary/50 transition-none" : "bg-border transition-colors group-hover:bg-primary/50")} />
               </div>
 
               <div
@@ -3815,7 +3852,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
 
       <div
         ref={bottomNavRef}
-        className={cn(isNativeEmbed ? "absolute" : "fixed", "bottom-0 left-0 right-0 bg-card border-t-2 border-border shadow-lg z-40 transition-[width] duration-200 ease-out motion-reduce:transition-none")}
+        className={cn(isNativeEmbed ? "absolute" : "fixed", "sat-resize-transition bottom-0 left-0 right-0 bg-card border-t-2 border-border shadow-lg z-40 transition-[width] duration-200 ease-out motion-reduce:transition-none")}
         style={isSplitScreenActive ? { width: "var(--sat-nav-split-pct, 70%)" } : undefined}
       >
         <div className="container mx-auto px-2 py-3 sm:px-4">

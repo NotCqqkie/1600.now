@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The sentence: &quot;Artemisia Gentileschi&apos;s painting La Pittura, symbolically ______ to portray the power of female artists..., is a highly regarded example of allegory.&quot; The blank sits inside a comma-set modifier that describes the noun &quot;painting.&quot; A noun modifier set off by commas must use a participle, not a finite verb."
+      "content": "The sentence: &quot;Artemisia Gentileschi&apos;s painting <em>La Pittura</em>, symbolically ______ to portray the power of female artists..., is a highly regarded example of allegory.&quot; The blank sits inside a comma-set modifier that describes the noun &quot;painting.&quot; A noun modifier set off by commas must use a participle, not a finite verb."
     },
     {
       "title": "Eliminate the choices",

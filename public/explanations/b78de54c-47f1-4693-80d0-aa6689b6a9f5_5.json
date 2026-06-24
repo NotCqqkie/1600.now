@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the function of the highlighted sentence",
-      "content": "The sentence begins with &quot;However,&quot; signaling a pivot away from Lai and colleagues&apos; findings. What follows raises a concern about the study: it questions whether the methodology (or conclusion) is sound. The sentence&apos;s purpose is therefore to flag a potential flaw in a scientific study, not to report a finding or introduce a debate."
+      "title": "Identify the main purpose of the text",
+      "content": "The text introduces Lai and colleagues' study, then pivots with &quot;However&quot; to emphasize a concern about that study: its small sample size may increase the potential for biased analysis and exaggerated effects. The main purpose is therefore to note a potential concern about the findings of a scientific study."
     },
     {
       "title": "Eliminate wrong choices and confirm the match",
-      "content": "<ul><li><strong>Choice A &mdash; To note a potential concern about the findings of a scientific study</strong>: Matches the sentence&apos;s function &mdash; it uses &quot;However&quot; to introduce skepticism about Lai et al.&apos;s study. &#10003;</li><li><strong>Choice B &mdash; To explain how the behavior of a fish species has changed overtime</strong>: Misreads the sentence as describing behavioral change in the species itself rather than questioning the study&apos;s methodology. &#10007;</li><li><strong>Choice C &mdash; To discuss an aspect of ocean acidifcation that is frequently overlooked</strong>: Confuses ocean acidification as a subject of analysis rather than a variable in the study&apos;s execution. &#10007;</li><li><strong>Choice D &mdash; To present a debate between two research teams about a cause of ocean acidification</strong>: No such debate between teams appears in the passage. &#10007;</li></ul>That is the correct answer."
+      "content": "<ul><li><strong>Choice A &mdash; To note a potential concern about the findings of a scientific study</strong>: Matches the text's main purpose &mdash; it introduces Lai et al.&apos;s study and then explains why its findings may be overstated. &#10003;</li><li><strong>Choice B &mdash; To explain how the behavior of a fish species has changed over time</strong>: Misreads the text as describing behavioral change in the species itself rather than questioning the study&apos;s methodology. &#10007;</li><li><strong>Choice C &mdash; To discuss an aspect of ocean acidification that is frequently overlooked</strong>: Confuses ocean acidification as a subject of analysis rather than a variable in the study&apos;s execution. &#10007;</li><li><strong>Choice D &mdash; To present a debate between two research teams about a cause of ocean acidification</strong>: No such debate between teams appears in the passage. &#10007;</li></ul>That is the correct answer."
     }
   ]
 }

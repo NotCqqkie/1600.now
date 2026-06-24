@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"were,\"</strong>: \"Are\" is a plural verb and does not agree with the singular subject \"The Proto-Atlantic-Congo language.\" ✗</li><li><strong>\"is,\"</strong>: \"Is\" is the singular present-tense form that correctly agrees with the singular subject. ✓</li><li><strong>\"are,\"</strong>: \"Have been\" is a plural perfect form that does not satisfy singular subject-verb agreement. ✗</li><li><strong>\"have been,\"</strong>: \"Were\" is a past-tense plural form that also fails to match the singular subject. ✗</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+      "content": "<ul><li><strong>\"were,\"</strong>: \"Were\" is a past-tense plural form and does not agree with the singular subject \"The Proto-Atlantic-Congo language.\" ✗</li><li><strong>\"is,\"</strong>: \"Is\" is the singular present-tense form that correctly agrees with the singular subject. ✓</li><li><strong>\"are,\"</strong>: \"Are\" is a plural verb that does not satisfy singular subject-verb agreement. ✗</li><li><strong>\"have been,\"</strong>: \"Have been\" is a plural perfect form that also fails to match the singular subject. ✗</li></ul>That matches the correct answer — <strong>B</strong> is correct."
     }
   ]
 }

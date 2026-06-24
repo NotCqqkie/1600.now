@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; elevation and</strong>: Joining two independent clauses with only a comma is a comma splice. &#10007;</li><li><strong>Choice B &mdash; elevation</strong>: Embedding the conjunction here breaks the appositive and misreads the sentence structure. &#10007;</li><li><strong>Choice C &mdash; elevation,</strong>: The punctuation does not properly close the appositive phrase before the boundary. &#10007;</li><li><strong>Choice D &mdash; elevation, and</strong>: A comma closes the appositive, and 'and' (a coordinating conjunction) correctly joins the two independent clauses. &#10003;</li></ul>That matches <strong>Choice D &mdash; elevation, and</strong>."
+      "content": "<ul><li><strong>Choice A &mdash; elevation and</strong>: lacks a comma to close the appositive phrase before the coordinating conjunction, so the sentence structure breaks down. &#10007;</li><li><strong>Choice B &mdash; elevation</strong>: leaves the appositive phrase unclosed and creates an ungrammatical run-on before &ldquo;it had shifted.&rdquo; &#10007;</li><li><strong>Choice C &mdash; elevation,</strong>: closes the appositive phrase but leaves two independent clauses joined only by a comma, creating a comma splice. &#10007;</li><li><strong>Choice D &mdash; elevation, and</strong>: A comma closes the appositive, and &ldquo;and&rdquo; correctly joins the two independent clauses. &#10003;</li></ul>That matches <strong>Choice D &mdash; elevation, and</strong>."
     }
   ]
 }

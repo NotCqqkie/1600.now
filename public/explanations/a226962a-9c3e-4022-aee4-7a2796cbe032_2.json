@@ -9,7 +9,7 @@
     },
     {
       "title": "Match the meaning to the choices",
-      "content": "”Detected” is the word that expresses finding or identifying something in data — the core task of a computer vision program analyzing aerial images.<br/><br/>The other choices don't work: “approved” has no relevance to image analysis, “neglected” contradicts the shown success, and “mistook” contradicts both “accurately” and the demonstrated distinction-making.<br/><br/>That confirms <strong>D</strong> is correct."
+      "content": "“Detected” is the word that expresses finding or identifying something in data — the core task of a computer vision program analyzing aerial images.<br/><br/>The other choices don't work: “approved” has no relevance to image analysis, “neglected” contradicts the shown success, and “mistook” contradicts both “accurately” and the program's demonstrated ability to distinguish between materials.<br/><br/>That confirms <strong>D</strong> is correct."
     }
   ]
 }

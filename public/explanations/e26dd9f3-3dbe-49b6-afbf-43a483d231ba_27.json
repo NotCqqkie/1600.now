@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the artistic timeline",
-      "content": "The prompt asks to connect Save Me to the history of neon in art. The notes establish a specific historical fact: neon became popular with artists in the 1960s and continues today. An effective answer must anchor this 2018 sculpture to that documented lineage."
+      "content": "The prompt asks to connect <em>Save Me</em> to the history of neon in art. The notes establish a specific historical fact: neon became popular with artists in the 1960s and continues today. An effective answer must anchor this 2018 sculpture to that documented lineage."
     },
     {
       "title": "Anchor the sculpture to that lineage",
-      "content": "<strong>With Save Me, Steele joins the decades-long lineage of artists who have helped make neon a popular artistic medium since the 1960s.</strong> states that Steele “joins the decades-long lineage of artists who have helped make neon a popular artistic medium since the 1960s,” positioning Save Me within the documented artistic movement.<br/><br/>Two other options mention Save Me but lack the historical anchor (A focuses on handmade production, D contradicts the notes about artistic popularity), while the history-only alternative presents neon history without connecting it to the sculpture or artist.<br/><br/>That matches the correct answer — <strong>B</strong> is correct."
+      "content": "<strong>With <em>Save Me</em>, Steele joins the decades-long lineage of artists who have helped make neon a popular artistic medium since the 1960s.</strong> states that Steele “joins the decades-long lineage of artists who have helped make neon a popular artistic medium since the 1960s,” positioning <em>Save Me</em> within the documented artistic movement.<br/><br/>Two other options mention <em>Save Me</em> but lack the historical anchor (A focuses on handmade production, D contradicts the notes about artistic popularity), while the history-only alternative presents neon history without connecting it to the sculpture or artist.<br/><br/>That matches the correct answer — <strong>B</strong> is correct."
     }
   ]
 }

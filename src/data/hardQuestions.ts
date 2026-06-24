@@ -146,7 +146,7 @@ const baseQuestions: Question[] = [
   },
   {
     id: 15,
-    text: "What is the value of $63m$ if the given equation only has one solution?\\\\$\\frac{\\|x+7\\|}{63} = m$",
+    text: "What is the value of $63m$ if the given equation only has one solution?\\\\$\\frac{|x+7|}{63} = m$",
     choices: [
       { id: "A", text: "$-7$ only" },
       { id: "B", text: "$0$ only" },
@@ -656,7 +656,7 @@ const baseQuestions: Question[] = [
   },
   {
     id: 70,
-    text: "Which of the following inequalities gives all possible values of $k$ for which the equation below has no real solutions?\\\\$9 - 3\\left\\|\\frac{4x}{5} + \\frac{3}{7}\\right\\| = 4 + k$",
+    text: "Which of the following inequalities gives all possible values of $k$ for which the equation below has no real solutions?\\\\$9 - 3\\left|\\frac{4x}{5} + \\frac{3}{7}\\right| = 4 + k$",
     choices: [
       { id: "A", text: "$k < 5$" },
       { id: "B", text: "$k > 5$" },

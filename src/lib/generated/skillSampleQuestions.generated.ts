@@ -1408,7 +1408,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "id": "9ae9a989-b64a-43e1-92a8-37a91043b8ed_2",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "Which choice completes the text with most logical and precise word or phrase?\nJi‑li Jiang's book *Red Kite* and *Blue Kite* has earned a lot of praise. In fact, the book ______ the Asian/Pacific American Award for Literature.",
+      "text": "Which choice completes the text with the most logical and precise word or phrase?\nJi‑li Jiang's book *Red Kite, Blue Kite* has earned a lot of praise. In fact, the book ______ the Asian/Pacific American Award for Literature.",
       "choices": [
         {
           "id": "A",
@@ -1587,7 +1587,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "id": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_7",
       "difficulty": "Medium",
       "testName": "Past SAT-based",
-      "text": "Which choice best describes a notable difference in how the speaker of Text 1 and the speaker of Text 2 portray the moon?\nText 1 is T.L. Hulme's 1912 poem \"Above the Dock.\" Text 2 is from Amy Lowell's 1912 poem \"The Crescent Moon.\"\nText 1\nAbove the quiet dock in midnight,\nTangled in the tall mast's corded height,\nHangs the moon. What seemed so far away\nIs but a child's balloon, forgotten after play.\nText 2\nSlipping softly through the sky\nLittle horned, happy moon,\nCan you hear me up so high?\nWill you come down soon?",
+      "text": "Which choice best describes a notable difference in how the speaker of Text 1 and the speaker of Text 2 portray the moon?\nText 1 is T. E. Hulme's 1912 poem \"Above the Dock.\" Text 2 is from Amy Lowell's 1912 poem \"The Crescent Moon.\"\nText 1\nAbove the quiet dock in mid night,\nTangled in the tall mast's corded height,\nHangs the moon. What seemed so far away\nIs but a child's balloon, forgotten after play.\nText 2\nSlipping softly through the sky\nLittle horned, happy moon,\nCan you hear me up so high?\nWill you come down soon?",
       "choices": [
         {
           "id": "A",
@@ -1661,6 +1661,31 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "correctAnswer": "A"
     },
     {
+      "id": "ea42af8e-0812-4d54-a254-797255665265_9",
+      "difficulty": "Easy",
+      "testName": "Past SAT-based",
+      "text": "Which choice best states the main topic of the text?\nWhen people think of dinosaurs with feathers, they typically think of winged dinosaurs, such as the bat-like *Yi qi*. However, many dinosaurs that didn't have wings also had feathers on their bodies. For instance, research indicates that the wingless, herbivorous *Kulindadromeus* likely had feathers.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Dinosaurs with feathers"
+        },
+        {
+          "id": "B",
+          "text": "Animals without feathers"
+        },
+        {
+          "id": "C",
+          "text": "The most valuable fossil"
+        },
+        {
+          "id": "D",
+          "text": "Bird species"
+        }
+      ],
+      "correctAnswer": "A"
+    },
+    {
       "id": "d9f381e2-df35-4ee7-a137-e689faac81b5_8",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
@@ -1684,31 +1709,6 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
         }
       ],
       "correctAnswer": "D"
-    },
-    {
-      "id": "4dc81965-4d7d-41a3-a149-fdc37cafa647_9",
-      "difficulty": "Easy",
-      "testName": "Past SAT-based",
-      "text": "According to the text, what is someone who professionally evaluates books called?\n*Seesaw Girl* was Linda Sue Park's debut novel. It was published in 1999. A debut novel is the first book that an author has published. Debut novels are especially interesting to literary critics (people whose job it is to evaluate books) and readers because these books offer a look at new voices in the literary world.",
-      "choices": [
-        {
-          "id": "A",
-          "text": "A book publisher"
-        },
-        {
-          "id": "B",
-          "text": "A literary critic"
-        },
-        {
-          "id": "C",
-          "text": "A bookseller"
-        },
-        {
-          "id": "D",
-          "text": "An author"
-        }
-      ],
-      "correctAnswer": "B"
     }
   ],
   "command-of-evidence": [
@@ -1724,7 +1724,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
         },
         {
           "id": "B",
-          "text": "\"Then [Dorothy] went back to the house, and having, helped herself and Toto to a good drink of the cool, clear water, she set about making ready for the journey to the City of Emeralds.\""
+          "text": "\"Then [Dorothy] went back to the house, and having helped herself and Toto to a good drink of the cool, clear water, she set about making ready for the journey to the City of Emeralds.\""
         },
         {
           "id": "C",
@@ -1736,31 +1736,6 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
         }
       ],
       "correctAnswer": "C"
-    },
-    {
-      "id": "91ff0c6a-268b-4d8b-9642-b9fb25a907b4_12",
-      "difficulty": "Easy",
-      "testName": "Past SAT-based",
-      "text": "Which quotation from *Treasure Island* most effectively illustrates the claim?\n*Treasure Island* is an 1883 novel by Robert Louis Stevenson. When the narrator was a child, his father ran a hotel. A mysterious sailor came to stay at the hotel. The narrator was frightened of the sailor, as can be seen when the narrator says, ______",
-      "choices": [
-        {
-          "id": "A",
-          "text": "\"How [the sailor] haunted my dreams, I need scarcely tell you. On stormy nights, when the wind shook the four corners of the house and the surf roared along the cove and up the cliffs, I would see him in a thousand forms, and with a thousand diabolical expressions.\""
-        },
-        {
-          "id": "B",
-          "text": "\"I remember [the sailor] as if it were yesterday, as he came plodding to the inn door, his sea chest following behind him in a hand-barrow.\""
-        },
-        {
-          "id": "C",
-          "text": "\"[The sailor] was a very silent man by custom. All day he hung round the cove or upon the cliffs with a brass telescope.\""
-        },
-        {
-          "id": "D",
-          "text": "\"All the time he lived with us [the sailor] made no change whatever in his dress but to buy some stockings from a hawker. One of the [corners] of his hat having fallen down, he let it hang from that day forth, though it was a great annoyance when it blew.\""
-        }
-      ],
-      "correctAnswer": "A"
     },
     {
       "id": "97534841-3541-4563-86b8-0a919d0bde5b_10",
@@ -1786,6 +1761,31 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
         }
       ],
       "correctAnswer": "B"
+    },
+    {
+      "id": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_12",
+      "difficulty": "Easy",
+      "testName": "Past SAT-based",
+      "text": "Which quotation from *The Wonderful Wizard of Oz* most effectively illustrates the claim?\n*The Wonderful Wizard of Oz* is a 1900 novel by L. Frank Baum. In the novel, Dorothy lives in Kansas with her aunt and uncle, but she later finds herself in a land called Oz. The narrator indicates that her aunt and uncle's house in Kansas is remote and solitary, writing that ______",
+      "choices": [
+        {
+          "id": "A",
+          "text": "in Kansas, \"When Dorothy stood in the doorway and looked around, she could see nothing but the great gray prairie on every side. Not a tree nor a house broke the broad sweep of flat country.\""
+        },
+        {
+          "id": "B",
+          "text": "in Kansas, \"Once the house had been painted, but the sun blistered the paint and the rains washed it away, and now the house was as dull and gray as everything else.\""
+        },
+        {
+          "id": "C",
+          "text": "in Oz, \"Dorothy fell asleep only once, and then she dreamed she was in Kansas, where Aunt Em was telling her how glad she was to have her little girl at home again.\""
+        },
+        {
+          "id": "D",
+          "text": "in Oz, \"[Dorothy and her companions] walked along listening to the singing of the brightly colored birds and looking at the lovely flowers which now became so thick that the ground was carpeted with them.\""
+        }
+      ],
+      "correctAnswer": "A"
     }
   ],
   "inference": [

@@ -2,8 +2,6 @@
   "questionId": "b5bd285b-0705-476c-ac24-58aa076fb71a_12",
   "correctAnswer": "B",
   "section": "Reading and Writing",
-  "needs_review": true,
-  "needs_review_reason": "Specific graph values cited in step 2 cannot be verified without rendering the image; the prior explanation stated precise point differences that may be fabricated. Steps below use the correct logical reasoning but a human should confirm the actual spoiled/unspoiled gap sizes from the graph before publishing.",
   "steps": [
     {
       "title": "Identify what the question needs",

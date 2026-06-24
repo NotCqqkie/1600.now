@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Recognize the construction-problem pattern",
-      "content": "The passage links size differences between worker and drone cells to a construction problem: the larger the difference, the more nonhexagonal cells bees must use for gaps.<br/><br/>The graph shows Western honeybee using roughly 0.5–0.4% combined nonhexagonal cells, while black dwarf and dwarf honeybees use roughly 2.4–2.6% and 2.1–2.6% respectively—a stark difference revealing which species has the smallest construction problem."
+      "content": "The passage links size differences between worker and drone cells to a construction problem: the larger the difference, the more nonhexagonal cells bees must use for gaps.<br/><br/>The graph shows the western honeybee using roughly 0.1–0.5% combined nonhexagonal cells, while black dwarf and dwarf honeybees use roughly 2.4–2.6% and 2.1–2.6% respectively—a stark difference revealing which species has the smallest construction problem."
     },
     {
       "title": "Connect the data to the conclusion",
-      "content": "Western honeybee's minimal nonhexagonal percentage indicates the smallest size difference between worker and drone cells—those cells are probably closest in size in that species. <strong>\"cells for worker eggs are probably closer in size to cells for drone eggs in the hives of the western honeybee than in the hives of the dwarf honeybee and the black dwarf honeybee.\"</strong> states exactly this relationship.<br/><br/>The other choices contradict the data pattern, make unsupported claims about specific cell types, or reverse the relationship.<br/><br/>That matches the correct answer — <strong>A</strong> is correct."
+      "content": "The western honeybee's minimal nonhexagonal percentage indicates the smallest size difference between worker and drone cells—those cells are probably closest in size in that species. <strong>\"cells for worker eggs are probably closer in size to cells for drone eggs in the hives of the western honeybee than in the hives of the dwarf honeybee and the black dwarf honeybee.\"</strong> states exactly this relationship.<br/><br/>The other choices contradict the data pattern, make unsupported claims about specific cell types, or reverse the relationship.<br/><br/>That matches the correct answer — <strong>A</strong> is correct."
     }
   ]
 }

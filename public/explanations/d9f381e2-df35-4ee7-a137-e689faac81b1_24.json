@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The question asks which choice most effectively uses data from the table. The passage has already defined nameplate capacity and established that Hallett Wind Farm is in Australia. An effective use of the data must cite a specific number from the table and connect it to a meaningful point."
+      "content": "The question asks which choice most effectively uses information from the notes. The notes have already defined nameplate capacity and established that Hallett Wind Farm is in Australia. An effective answer must cite Hallett Wind Farm’s 351-megawatt nameplate capacity."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"Hallett Wind Farm in Hallett, Australia, has a nameplate capacity of 351 megawatts.\"</strong>: Combines the farm's name, country, and the precise figure from the table in one focused sentence. &#10003;</li><li><strong>\"Wind farms like Hallett Wind Farm harness the power of wind, which they convert into electricity.\"</strong>: Does not cite any specific figure from the table, so it fails to use the data. &#10007;</li><li><strong>\"Hallett, Australia, is home to Hallett Wind Farm.\"</strong>: Mentions Hallett but drops the 351-megawatt statistic the question requires using. &#10007;</li><li><strong>\"Nameplate capacity is another name for a wind farm’s maximum electrical output.\"</strong>: Re-explains a term already defined and never connects it to the table's data for this specific farm. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+      "content": "<ul><li><strong>\"Hallett Wind Farm in Hallett, Australia, has a nameplate capacity of 351 megawatts.\"</strong>: Combines the farm's name, country, and the precise figure from the notes in one focused sentence. &#10003;</li><li><strong>\"Wind farms like Hallett Wind Farm harness the power of wind, which they convert into electricity.\"</strong>: Does not cite any specific figure from the notes, so it fails to use the information. &#10007;</li><li><strong>\"Hallett, Australia, is home to Hallett Wind Farm.\"</strong>: Mentions Hallett but drops the 351-megawatt statistic the question requires using. &#10007;</li><li><strong>\"Nameplate capacity is another name for a wind farm’s maximum electrical output.\"</strong>: Re-explains a term already defined and never connects it to the notes' information for this specific farm. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
     }
   ]
 }

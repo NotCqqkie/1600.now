@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the key signal",
-      "content": "The critical signal is in the previous sentence: <em>“Roman numerals typically indicate the order in which the moons were named rather than the order of their proximity to Jupiter.”</em> This clarifies what the Roman numerals actually represent—naming sequence, not physical position."
+      "content": "The critical signal is in the previous sentence: <em>“Roman numerals typically indicate numerical designation sequence rather than proximity to Jupiter.”</em> This clarifies what the Roman numerals actually represent—numerical designation sequence, not physical position."
     },
     {
       "title": "Apply the signal to find the transition",
-      "content": "<em>“Then”</em> marks the logical consequence: given that Roman numerals indicate naming order (not proximity), it then follows that it is incorrect to assume Eirene is the fifty-seventh moon from Jupiter in terms of proximity.<br/><br/>Moreover suggests addition rather than inference, finally suggests an endpoint in a sequence, and however signals contrast rather than consequence—none fit the logical flow.<br/><br/>That confirms <strong>D</strong> is correct."
+      "content": "<em>“Then”</em> marks the logical consequence: given that Roman numerals indicate numerical designation sequence (not proximity), it then follows that it is incorrect to assume Eirene is the fifty-seventh moon from Jupiter in terms of proximity.<br/><br/>Moreover suggests addition rather than inference, finally suggests an endpoint in a sequence, and however signals contrast rather than consequence—none fit the logical flow.<br/><br/>That confirms <strong>D</strong> is correct."
     }
   ]
 }
