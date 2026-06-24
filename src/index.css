@@ -902,6 +902,186 @@
 .h-fade-5 { animation: homeFadeUp 0.75s ease 0.64s both; }
 .h-fade-6 { animation: homeFadeUp 0.85s ease 0.8s both; }
 
+@keyframes demoClickPulse {
+  0% { transform: scale(0.72); opacity: 0; }
+  30% { transform: scale(1); opacity: 0.8; }
+  100% { transform: scale(1.65); opacity: 0; }
+}
+
+[data-filter-demo-option].filter-demo-option-press {
+  background: hsl(var(--accent)) !important;
+  color: hsl(var(--accent-foreground)) !important;
+}
+
+@keyframes explanationStepSlide {
+  from { opacity: 0; transform: translateY(calc(22px * var(--step-dir, 1))); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.explanation-step-slide {
+  animation: explanationStepSlide 0.5s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes floatSymUp {
+  0% { transform: translateY(0) rotate(-4deg); opacity: 0; }
+  12% { opacity: 1; }
+  88% { opacity: 1; }
+  100% { transform: translateY(-130vh) rotate(18deg); opacity: 0; }
+}
+
+.float-sym {
+  position: absolute;
+  bottom: -80px;
+  font-family: 'Geist', Georgia, serif;
+  font-style: italic;
+  animation: floatSymUp linear infinite;
+  pointer-events: none;
+  user-select: none;
+  will-change: transform, opacity;
+}
+
+@keyframes hpDraw {
+  0% { stroke-dashoffset: 3500; opacity: 0; }
+  5% { opacity: 1; }
+  100% { stroke-dashoffset: 0; opacity: 1; }
+}
+
+.hp-curve {
+  stroke-dasharray: 3500;
+  stroke-dashoffset: 3500;
+  animation: hpDraw 3.6s cubic-bezier(0.65, 0.05, 0.35, 1) forwards;
+}
+
+.hp-static-curve {
+  opacity: 1;
+  transition: opacity 900ms ease;
+}
+
+.hp-static-curve.fading {
+  opacity: 0;
+}
+
+@keyframes hpCaret {
+  0%, 50% { opacity: 1; }
+  50.01%, 100% { opacity: 0; }
+}
+
+@keyframes hpRowFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.hp-row-fade-in { animation: hpRowFadeIn 420ms ease forwards; }
+
+.hp-equation-text {
+  font-family: "Geist Mono", "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.96em;
+  letter-spacing: 0;
+}
+
+@keyframes hpTwReveal {
+  from { clip-path: inset(0 100% 0 0); }
+  to { clip-path: inset(0 0 0 0); }
+}
+
+@keyframes hpTwCaret {
+  from { left: 0%; }
+  to { left: 100%; }
+}
+
+.hp-tw-wrap { display: inline-block; }
+
+.hp-tw-reveal {
+  clip-path: inset(0 100% 0 0);
+  animation-name: hpTwReveal;
+  animation-fill-mode: forwards;
+}
+
+.hp-tw-caret {
+  position: absolute;
+  top: 0.1em;
+  width: 2px;
+  height: 1.1em;
+  background: currentColor;
+  animation-name: hpTwCaret, hpCaret;
+  animation-fill-mode: forwards, none;
+  animation-iteration-count: 1, infinite;
+  animation-duration: inherit, 1s;
+}
+
+.hp-tw-caret { animation-timing-function: inherit, steps(2); }
+
+.hp-fixed-layer { opacity: 1; transition: opacity 350ms ease; }
+body.hp-bg-hidden .hp-fixed-layer { opacity: 0; }
+
+body:has([data-home-page="true"])::before {
+  content: '';
+  position: fixed;
+  top: -200px;
+  left: 0;
+  right: 0;
+  height: 200px;
+  background: rgb(var(--card));
+  z-index: 30;
+  pointer-events: none;
+}
+
+html.theme-transitioning [data-home-header='true'] {
+  background-color: hsl(var(--card) / 0.98) !important;
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+}
+
+.practice-score-stack {
+  position: relative;
+  height: 380px;
+  overflow: visible;
+  isolation: isolate;
+}
+
+.practice-score-card-viewport {
+  position: absolute;
+  inset: 0;
+  z-index: 30;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  overflow: visible;
+  border-radius: 0;
+  isolation: isolate;
+  box-shadow: none;
+}
+
+.dark .practice-score-card-viewport {
+  box-shadow: none;
+}
+
+.practice-score-card-shell {
+  position: relative;
+  width: min(560px, 100%);
+  height: 316px;
+  backface-visibility: hidden;
+  overflow: visible;
+  border-radius: 18px;
+  contain: layout;
+}
+
+.practice-score-card-shell > article {
+  position: relative;
+  z-index: 1;
+  height: 316px;
+  box-shadow: 0 24px 54px -30px rgba(14,33,56,0.38) !important;
+}
+
+@keyframes scoreGlowPulse {
+  0%, 100% { text-shadow: 0 0 40px var(--score-glow, rgba(125,211,252,0.3)); }
+  50% { text-shadow: 0 0 70px var(--score-glow, rgba(125,211,252,0.5)); }
+}
+
+.score-number {
+  animation: scoreGlowPulse 4s ease-in-out infinite;
+}
+
 @media (max-width: 767px) {
 
   .vocab-flashcard-container,

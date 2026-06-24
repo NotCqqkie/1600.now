@@ -38,6 +38,26 @@ interface MultiSelectProps {
   preventAutoFocusScroll?: boolean
 }
 
+const commandItemClassName = [
+  "transition-colors",
+  "hover:bg-primary/15 hover:text-white hover:[&_svg]:text-white",
+  "active:bg-cobalt active:text-white active:[&_svg]:text-white",
+  "data-[selected='true']:bg-primary/15 data-[selected='true']:text-white",
+  "data-[selected=true]:bg-primary/15 data-[selected=true]:text-white",
+  "data-[selected='true']:[&_svg]:text-white data-[selected=true]:[&_svg]:text-white",
+  "dark:hover:bg-primary/15 dark:hover:text-white dark:hover:[&_svg]:text-white",
+  "dark:data-[selected='true']:bg-primary/15 dark:data-[selected='true']:text-white",
+  "dark:data-[selected=true]:bg-primary/15 dark:data-[selected=true]:text-white",
+  "dark:data-[selected='true']:[&_svg]:text-white dark:data-[selected=true]:[&_svg]:text-white",
+].join(" ")
+
+const selectedItemClassName = [
+  "bg-primary/15 text-white [&_svg]:text-white",
+  "hover:!bg-cobalt hover:!text-white hover:[&_svg]:!text-white",
+  "active:!bg-cobalt active:!text-white active:[&_svg]:!text-white",
+  "dark:text-white",
+].join(" ")
+
 export function MultiSelect({
   options,
   selected,
@@ -79,10 +99,6 @@ export function MultiSelect({
     }
     if (closeOnSelect) setOpen(false)
   }
-  const commandItemClassName =
-    "transition-colors hover:bg-primary/15 hover:text-white hover:[&_svg]:text-white active:bg-cobalt active:text-white active:[&_svg]:text-white data-[selected='true']:bg-primary/15 data-[selected='true']:text-white data-[selected=true]:bg-primary/15 data-[selected=true]:text-white data-[selected='true']:[&_svg]:text-white data-[selected=true]:[&_svg]:text-white dark:hover:bg-primary/15 dark:hover:text-white dark:hover:[&_svg]:text-white dark:data-[selected='true']:bg-primary/15 dark:data-[selected='true']:text-white dark:data-[selected=true]:bg-primary/15 dark:data-[selected=true]:text-white dark:data-[selected='true']:[&_svg]:text-white dark:data-[selected=true]:[&_svg]:text-white"
-  const selectedItemClassName =
-    "bg-primary/15 text-white [&_svg]:text-white hover:!bg-cobalt hover:!text-white hover:[&_svg]:!text-white active:!bg-cobalt active:!text-white active:[&_svg]:!text-white dark:text-white"
   const usePlainList = hideSearch && preventAutoFocusScroll
 
   return (

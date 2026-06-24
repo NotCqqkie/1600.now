@@ -56,20 +56,8 @@ const ScoreCalculator = () => {
       "https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap";
     document.head.appendChild(link);
 
-    const style = document.createElement("style");
-    style.id = "calc-keyframes";
-    style.textContent = `
-      @keyframes scoreGlowPulse {
-        0%, 100% { text-shadow: 0 0 40px var(--score-glow, rgba(125,211,252,0.3)); }
-        50% { text-shadow: 0 0 70px var(--score-glow, rgba(125,211,252,0.5)); }
-      }
-      .score-number { animation: scoreGlowPulse 4s ease-in-out infinite; }
-    `;
-    document.head.appendChild(style);
-
     return () => {
       document.head.removeChild(link);
-      document.getElementById("calc-keyframes")?.remove();
     };
   }, []);
 
