@@ -13,9 +13,10 @@ import {
   LogIn,
   LogOut,
   Menu,
+  Moon,
   Settings,
   SpellCheck,
-  SunMoon,
+  Sun,
   Target,
   UserPlus,
   type LucideIcon,
@@ -42,13 +43,14 @@ import { preloadRouteIntent } from "@/lib/routePreload";
 
 const ONBOARDING_REPLAY_REQUEST_KEY = "onboarding-replay-requested";
 const ONBOARDING_REPLAY_RETURN_PATH_KEY = "onboarding-replay-return-path";
-const DESKTOP_SIDEBAR_DEFAULT_WIDTH = 256;
+const DESKTOP_SIDEBAR_DEFAULT_WIDTH = 224;
 const DESKTOP_SIDEBAR_COLLAPSED_WIDTH = 72;
 const DESKTOP_SIDEBAR_MIN_WIDTH = 224;
-const DESKTOP_SIDEBAR_MAX_WIDTH = 320;
 const DESKTOP_SIDEBAR_DISMISS_THRESHOLD = 96;
+const DESKTOP_SIDEBAR_EXPAND_THRESHOLD = 200;
 const DESKTOP_SIDEBAR_EASING = "cubic-bezier(0.22, 1, 0.36, 1)";
 const SIDEBAR_COLLAPSE_STORAGE_PREFIX = "app-sidebar-collapsed";
+type SidebarDragOrigin = "expanded" | "collapsed";
 
 const sidebarCollapseStorageKey = (uid: string | null | undefined) =>
   `${SIDEBAR_COLLAPSE_STORAGE_PREFIX}:${uid ?? "anon"}`;
@@ -124,7 +126,7 @@ const SidebarLinkContent = ({
       </span>
       <span
         className={cn(
-          "min-w-0 overflow-hidden whitespace-nowrap",
+          "min-w-0 overflow-hidden whitespace-nowrap transition-[max-width,opacity,transform,margin] duration-200 ease-out",
           showLabel ? "ml-0 max-w-[10rem] opacity-100 translate-x-0" : "ml-0 max-w-0 opacity-0 -translate-x-1",
         )}
       >
@@ -144,8 +146,8 @@ const SidebarNavRow = ({
   showLabel: boolean;
 }) => {
   const className = cn(
-    "flex h-10 items-center overflow-hidden rounded-lg font-sans text-[13px] font-semibold tracking-[-0.005em] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ds-accent focus-visible:ring-offset-2 focus-visible:ring-offset-card",
-    showLabel ? "w-full pr-3" : "w-10 pr-0",
+    "flex items-center overflow-hidden rounded-lg font-sans text-[13px] font-semibold tracking-[-0.005em] transition-[width,height,padding] duration-200 ease-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ds-accent focus-visible:ring-offset-2 focus-visible:ring-offset-card",
+    showLabel ? "h-10 w-full pr-3" : "h-10 w-10 pr-0",
     active
       ? "bg-ink-fixed text-white shadow-sm dark:bg-white dark:text-ink-fixed"
       : "text-ink-mid hover:bg-ds-accent/25 hover:text-ink dark:hover:bg-white/10",
@@ -171,7 +173,7 @@ const SidebarNavSectionLabel = ({ label, showLabel }: { label: string; showLabel
       <div
         aria-hidden={!showLabel}
         className={cn(
-          "ds-caption absolute left-0 top-1/2 -translate-y-1/2",
+          "ds-caption absolute left-0 top-1/2 -translate-y-1/2 transition-opacity duration-200 ease-out",
           showLabel ? "opacity-100" : "opacity-0",
         )}
       >
@@ -180,7 +182,7 @@ const SidebarNavSectionLabel = ({ label, showLabel }: { label: string; showLabel
       <span
         aria-hidden="true"
         className={cn(
-          "absolute left-0 top-1/2 block h-px w-6 -translate-y-1/2 rounded-full bg-border/90",
+          "absolute left-0 top-1/2 block h-px w-6 -translate-y-1/2 rounded-full bg-border/90 transition-opacity duration-200 ease-out",
           showLabel ? "opacity-0" : "opacity-100",
         )}
       />
@@ -221,6 +223,7 @@ const SidebarNavContent = ({
 const FooterActionButton = ({
   label,
   icon: Icon,
+  renderIcon,
   expanded,
   onClick,
   variant = "ghost",
@@ -231,6 +234,7 @@ const FooterActionButton = ({
 }: {
   label: string;
   icon: LucideIcon;
+  renderIcon?: (className: string) => ReactNode;
   expanded: boolean;
   onClick: () => void;
   variant?: "ghost" | "outline";
@@ -255,8 +259,8 @@ const FooterActionButton = ({
       title={title ?? label}
       data-tour={tourId}
       className={cn(
-        "flex h-10 items-center overflow-hidden rounded-lg font-sans text-[13px] font-medium text-ink",
-        expanded ? "w-full pr-3" : "w-10 pr-0",
+        "flex items-center overflow-hidden rounded-lg font-sans text-[13px] font-medium text-ink transition-[width,height,padding] duration-200 ease-out",
+        expanded ? "h-10 w-full pr-3" : "h-10 w-10 pr-0",
         variant === "outline"
           ? "border border-ds-line hover:bg-ds-accent/25"
           : "hover:bg-ds-accent/25",
@@ -264,11 +268,11 @@ const FooterActionButton = ({
       )}
     >
       <span className="flex h-10 w-10 shrink-0 items-center justify-center">
-        <Icon className="h-4 w-4 shrink-0" />
+        {renderIcon ? renderIcon("h-4 w-4 shrink-0") : <Icon className="h-4 w-4 shrink-0" />}
       </span>
       <span
         className={cn(
-          "min-w-0 overflow-hidden whitespace-nowrap",
+          "min-w-0 overflow-hidden whitespace-nowrap transition-[max-width,opacity,transform,margin] duration-200 ease-out",
           expanded ? "ml-0 max-w-[10rem] opacity-100 translate-x-0" : "ml-0 max-w-0 opacity-0 -translate-x-1",
         )}
       >
@@ -277,6 +281,23 @@ const FooterActionButton = ({
     </button>
   );
 };
+
+const ThemeToggleIcon = ({ isDark, className }: { isDark: boolean; className: string }) => (
+  <span className={cn("pointer-events-none relative inline-flex", className)} aria-hidden="true">
+    <Moon
+      className={cn(
+        "absolute inset-0 h-full w-full transition-[opacity,transform] duration-200 ease-out",
+        isDark ? "scale-75 rotate-45 opacity-0" : "scale-100 rotate-0 opacity-100",
+      )}
+    />
+    <Sun
+      className={cn(
+        "absolute inset-0 h-full w-full transition-[opacity,transform] duration-200 ease-out",
+        isDark ? "scale-100 rotate-0 opacity-100" : "scale-75 -rotate-45 opacity-0",
+      )}
+    />
+  </span>
+);
 
 export const AppShell = ({ children }: { children: ReactNode }) => {
   const location = useLocation();
@@ -293,16 +314,20 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
     if (typeof window === "undefined") return false;
     return window.matchMedia("(max-width: 1023px)").matches;
   });
-  const [isDesktopSidebarCollapsed, setIsDesktopSidebarCollapsed] = useState(() =>
+  const [isDesktopSidebarCollapsed, setIsDesktopSidebarCollapsedState] = useState(() =>
+    readSidebarCollapsedPreference(null) ?? false,
+  );
+  const [isDesktopSidebarVisuallyCollapsed, setIsDesktopSidebarVisuallyCollapsed] = useState(() =>
     readSidebarCollapsedPreference(null) ?? false,
   );
   const [sidebarWidth, setSidebarWidth] = useState(DESKTOP_SIDEBAR_DEFAULT_WIDTH);
   const [isSidebarDragging, setIsSidebarDragging] = useState(false);
-  const sidebarWidthBeforeDragRef = useRef(DESKTOP_SIDEBAR_DEFAULT_WIDTH);
+  const [sidebarDragOrigin, setSidebarDragOrigin] = useState<SidebarDragOrigin | null>(null);
   const sidebarElementRef = useRef<HTMLElement | null>(null);
   const contentElementRef = useRef<HTMLDivElement | null>(null);
   const lastIsMobileRef = useRef<boolean | null>(null);
   const loadedSidebarPreferenceKeyRef = useRef<string | null>(null);
+  const collapseAnimationFrameRef = useRef<number | null>(null);
   useEffect(() => {
     if (lastIsMobileRef.current === null) {
       lastIsMobileRef.current = isMobile;
@@ -323,22 +348,24 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
     loadedSidebarPreferenceKeyRef.current = key;
     const scopedPreference = readSidebarCollapsedPreference(userId);
     if (scopedPreference !== null) {
-      setIsDesktopSidebarCollapsed(scopedPreference);
+      setIsDesktopSidebarCollapsedState(scopedPreference);
+      setIsDesktopSidebarVisuallyCollapsed(scopedPreference);
       return;
     }
 
     const anonymousPreference = userId ? readSidebarCollapsedPreference(null) : null;
     if (anonymousPreference !== null) {
       writeSidebarCollapsedPreference(userId, anonymousPreference);
-      setIsDesktopSidebarCollapsed(anonymousPreference);
+      setIsDesktopSidebarCollapsedState(anonymousPreference);
+      setIsDesktopSidebarVisuallyCollapsed(anonymousPreference);
       return;
     }
 
     writeSidebarCollapsedPreference(userId, isDesktopSidebarCollapsed);
   }, [isDesktopSidebarCollapsed, userId]);
   const [isLogoutDialogOpen, setIsLogoutDialogOpen] = useState(false);
-  const showExpandedContent = isMobile || !isDesktopSidebarCollapsed;
-  const desktopSidebarWidth = isDesktopSidebarCollapsed
+  const showExpandedContent = isMobile || !isDesktopSidebarVisuallyCollapsed || sidebarDragOrigin === "collapsed";
+  const desktopSidebarWidth = isDesktopSidebarVisuallyCollapsed
     ? DESKTOP_SIDEBAR_COLLAPSED_WIDTH
     : sidebarWidth;
   const sidebarLayoutStyle = {
@@ -347,23 +374,44 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
     transitionTimingFunction: DESKTOP_SIDEBAR_EASING,
   } as CSSProperties;
 
-  const setDesktopSidebarCollapsed = useCallback((collapsed: boolean) => {
-    setIsDesktopSidebarCollapsed(collapsed);
+  const setDesktopSidebarCollapsed = useCallback((collapsed: boolean, animate = true) => {
+    if (!collapsed) {
+      setSidebarWidth(DESKTOP_SIDEBAR_DEFAULT_WIDTH);
+    }
+    setIsDesktopSidebarCollapsedState(collapsed);
     writeSidebarCollapsedPreference(userId, collapsed);
+    if (collapseAnimationFrameRef.current !== null) {
+      window.cancelAnimationFrame(collapseAnimationFrameRef.current);
+      collapseAnimationFrameRef.current = null;
+    }
+    if (!animate || typeof window === "undefined") {
+      setIsDesktopSidebarVisuallyCollapsed(collapsed);
+      return;
+    }
+    setIsDesktopSidebarVisuallyCollapsed(!collapsed);
+    collapseAnimationFrameRef.current = window.requestAnimationFrame(() => {
+      collapseAnimationFrameRef.current = null;
+      setIsDesktopSidebarVisuallyCollapsed(collapsed);
+    });
   }, [userId]);
+
+  useEffect(() => () => {
+    if (collapseAnimationFrameRef.current !== null) {
+      window.cancelAnimationFrame(collapseAnimationFrameRef.current);
+    }
+  }, []);
 
   useEffect(() => {
     if (!isSidebarDragging) return;
 
+    const dragOrigin = sidebarDragOrigin ?? (isDesktopSidebarVisuallyCollapsed ? "collapsed" : "expanded");
     document.body.classList.add("noselect", "col-resize-active", "col-resize-cursor-active");
     let dismissedDuringDrag = false;
     let keepCursorUntilRelease = false;
-    let latestWidth = sidebarWidth;
     let latestClientX: number | null = null;
     let frameId: number | null = null;
 
     const applySidebarWidth = (width: number) => {
-      latestWidth = width;
       const widthValue = `${width}px`;
       sidebarElementRef.current?.style.setProperty("--app-sidebar-width", widthValue);
       sidebarElementRef.current?.style.setProperty("--app-sidebar-padding", widthValue);
@@ -393,26 +441,43 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
       window.addEventListener("touchcancel", releaseCursor, { once: true });
     };
 
-    const dismissFromDrag = () => {
+    const finishDrag = () => {
+      setIsSidebarDragging(false);
+      setSidebarDragOrigin(null);
+      document.body.classList.remove("noselect", "col-resize-active", "col-resize-cursor-active");
+    };
+
+    const collapseFromDrag = () => {
       if (dismissedDuringDrag) return;
       dismissedDuringDrag = true;
       cancelPendingFrame();
-      applySidebarWidth(DESKTOP_SIDEBAR_COLLAPSED_WIDTH);
-      setIsSidebarDragging(false);
-      document.body.classList.remove("noselect", "col-resize-active");
+      finishDrag();
       releaseCursorOnPointerUp();
       setDesktopSidebarCollapsed(true);
     };
 
+    const expandFromDrag = () => {
+      if (dismissedDuringDrag) return;
+      dismissedDuringDrag = true;
+      cancelPendingFrame();
+      finishDrag();
+      releaseCursorOnPointerUp();
+      setDesktopSidebarCollapsed(false);
+    };
+
     const applyClientX = (clientX: number) => {
-      if (clientX <= DESKTOP_SIDEBAR_DISMISS_THRESHOLD) {
-        dismissFromDrag();
+      if (dragOrigin === "expanded" && clientX <= DESKTOP_SIDEBAR_DISMISS_THRESHOLD) {
+        collapseFromDrag();
+        return;
+      }
+      if (dragOrigin === "collapsed" && clientX >= DESKTOP_SIDEBAR_EXPAND_THRESHOLD) {
+        expandFromDrag();
         return;
       }
 
       applySidebarWidth(Math.max(
-        DESKTOP_SIDEBAR_MIN_WIDTH,
-        Math.min(DESKTOP_SIDEBAR_MAX_WIDTH, clientX),
+        DESKTOP_SIDEBAR_COLLAPSED_WIDTH,
+        Math.min(DESKTOP_SIDEBAR_MIN_WIDTH, clientX),
       ));
     };
 
@@ -433,9 +498,8 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
         applyClientX(latestClientX);
       }
       if (dismissedDuringDrag) return;
-      setIsSidebarDragging(false);
-      setSidebarWidth(latestWidth);
-      document.body.classList.remove("noselect", "col-resize-active", "col-resize-cursor-active");
+      finishDrag();
+      setSidebarWidth(DESKTOP_SIDEBAR_DEFAULT_WIDTH);
     };
 
     const handleMouseMove = (event: MouseEvent) => updateFromClientX(event.clientX);
@@ -461,7 +525,7 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
       document.body.classList.remove("noselect", "col-resize-active");
       if (!keepCursorUntilRelease) document.body.classList.remove("col-resize-cursor-active");
     };
-  }, [isSidebarDragging, setDesktopSidebarCollapsed, sidebarWidth]);
+  }, [isDesktopSidebarVisuallyCollapsed, isSidebarDragging, setDesktopSidebarCollapsed, sidebarDragOrigin, sidebarWidth]);
 
   const handleSignOut = async () => {
     setIsLogoutDialogOpen(false);
@@ -509,10 +573,11 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
       <aside
         ref={sidebarElementRef}
         data-tour="sidebar"
+        data-collapsed={isDesktopSidebarVisuallyCollapsed ? "true" : "false"}
+        data-dragging={isSidebarDragging ? "true" : "false"}
         style={sidebarLayoutStyle}
         className={cn(
-          "sat-resize-transition fixed inset-y-0 left-0 z-40 flex w-72 flex-col overscroll-x-none border-r border-border/60 bg-card/95 py-3 backdrop-blur transition-transform duration-200 will-change-transform motion-reduce:transition-none lg:px-4",
-          isDesktopSidebarCollapsed ? "lg:w-[4.5rem]" : "lg:w-[var(--app-sidebar-width)]",
+          "app-sidebar-shell sat-resize-transition fixed inset-y-0 left-0 z-40 flex w-72 flex-col overscroll-x-none border-r border-border/60 bg-card/95 py-3 backdrop-blur will-change-transform motion-reduce:transition-none lg:px-4",
           isSidebarHidden
             ? "-translate-x-full px-4 lg:translate-x-0"
             : "translate-x-0 px-4",
@@ -523,7 +588,7 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
           type="button"
           className={cn(
             "absolute top-3 z-50 hidden items-center justify-center text-muted-foreground hover:text-foreground lg:inline-flex",
-            isDesktopSidebarCollapsed
+            isDesktopSidebarVisuallyCollapsed
               ? "left-full h-8 w-6 rounded-r-lg border border-l-0 border-border/70 bg-card/95 shadow-sm"
               : "right-4 h-9 w-9 rounded-lg",
           )}
@@ -538,36 +603,34 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
           )}
         </button>
 
-        {!isDesktopSidebarCollapsed && (
-          <button
-            type="button"
-            aria-label="Resize or collapse sidebar"
-            title="Drag to resize or collapse sidebar"
+        <button
+          type="button"
+          aria-label={isDesktopSidebarVisuallyCollapsed ? "Drag to expand sidebar" : "Drag to collapse sidebar"}
+          title={isDesktopSidebarVisuallyCollapsed ? "Drag to expand sidebar" : "Drag to collapse sidebar"}
+          className={cn(
+            "group absolute inset-y-0 right-[-6px] z-40 hidden w-3 cursor-col-resize touch-none items-center justify-center lg:flex",
+            isSidebarDragging && "pointer-events-none",
+          )}
+          onMouseDown={(event) => {
+            if (event.button !== 0) return;
+            event.preventDefault();
+            setSidebarDragOrigin(isDesktopSidebarVisuallyCollapsed ? "collapsed" : "expanded");
+            setIsSidebarDragging(true);
+          }}
+          onTouchStart={(event) => {
+            if (event.touches.length === 0) return;
+            event.preventDefault();
+            setSidebarDragOrigin(isDesktopSidebarVisuallyCollapsed ? "collapsed" : "expanded");
+            setIsSidebarDragging(true);
+          }}
+        >
+          <span
             className={cn(
-              "group absolute inset-y-0 right-[-6px] z-50 hidden w-3 cursor-col-resize touch-none items-center justify-center lg:flex",
-              isSidebarDragging && "pointer-events-none",
+              "h-full w-px",
+              isSidebarDragging ? "bg-primary/30 transition-none" : "bg-transparent transition-colors duration-150 group-hover:bg-primary/30",
             )}
-            onMouseDown={(event) => {
-              if (event.button !== 0) return;
-              event.preventDefault();
-              sidebarWidthBeforeDragRef.current = sidebarWidth;
-              setIsSidebarDragging(true);
-            }}
-            onTouchStart={(event) => {
-              if (event.touches.length === 0) return;
-              event.preventDefault();
-              sidebarWidthBeforeDragRef.current = sidebarWidth;
-              setIsSidebarDragging(true);
-            }}
-          >
-            <span
-              className={cn(
-                "h-full w-px",
-                isSidebarDragging ? "bg-primary/30 transition-none" : "bg-transparent transition-colors duration-150 group-hover:bg-primary/30",
-              )}
-            />
-          </button>
-        )}
+          />
+        </button>
 
         <div className="flex h-9 items-start overflow-hidden">
           <BrandLogo
@@ -599,7 +662,8 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
             />
             <FooterActionButton
               label={isDark ? "Light" : "Dark"}
-              icon={SunMoon}
+              icon={isDark ? Sun : Moon}
+              renderIcon={(className) => <ThemeToggleIcon isDark={isDark} className={className} />}
               expanded={showExpandedContent}
               onClick={handleThemeToggle}
               variant="outline"
@@ -673,10 +737,11 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
 
       <div
         ref={contentElementRef}
+        data-collapsed={isDesktopSidebarVisuallyCollapsed ? "true" : "false"}
+        data-dragging={isSidebarDragging ? "true" : "false"}
         style={sidebarLayoutStyle}
         className={cn(
-          "sat-resize-transition min-h-screen pt-14 motion-reduce:transition-none lg:pt-0",
-          isDesktopSidebarCollapsed ? "lg:pl-[4.5rem]" : "lg:pl-[var(--app-sidebar-padding)]",
+          "app-sidebar-content sat-resize-transition min-h-screen pt-14 motion-reduce:transition-none lg:pt-0",
           isSidebarDragging && "duration-0",
         )}
       >

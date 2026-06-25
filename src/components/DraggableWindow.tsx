@@ -79,9 +79,6 @@ export const DraggableWindow = ({
   boundsElement,
   centerOnExitSidebar = false,
   keepMountedWhenClosed = false,
-  contentSplitExitPosition = 100,
-  sidebarExitHeaderMaxWidth,
-  sidebarExitMainMaxWidth,
 }: DraggableWindowProps) => {
   const [position, setPosition] = useState({ x: 100, y: 100 });
   const [size, setSize] = useState({ width: defaultWidth, height: defaultHeight });
@@ -180,27 +177,73 @@ export const DraggableWindow = ({
     });
   }, [writePersistedState]);
 
-  const closeWindow = useCallback(() => {
-    if (renderAsSidebar) {
-      isClosingFromSidebarRef.current = true;
+  const setSplitCssPosition = useCallback((position: number) => {
+    document.documentElement.style.setProperty("--sat-split-pct", `${position}%`);
+    document.documentElement.style.setProperty("--sat-content-split-pct", `${position}%`);
+    document.documentElement.style.setProperty("--sat-nav-split-pct", `${position}%`);
+  }, []);
+
+  const releaseSidebarLayoutClose = useCallback(() => {
+    window.setTimeout(() => {
+      document.body.classList.remove("sat-sidebar-close-active");
+    }, 80);
+  }, []);
+
+  const startSidebarExit = useCallback((closeOpenWindow: boolean, preservedSplitPosition = splitPosition) => {
+    if (sidebarExitTimerRef.current !== null) return;
+    document.body.classList.add("sat-sidebar-close-active");
+    setSplitCssPosition(preservedSplitPosition);
+    if (onSplitPositionChange) {
+      onSplitPositionChange(preservedSplitPosition);
     }
+    isClosingFromSidebarRef.current = closeOpenWindow;
     setIsMinimized(false);
-    onClose();
-    if (renderAsSidebar) {
-      if (onSidebarToggle) {
-        onSidebarToggle(windowId, false, "close");
+    setIsResizingSplit(false);
+    setIsSidebarExiting(true);
+    sidebarExitTimerRef.current = window.setTimeout(() => {
+      sidebarExitTimerRef.current = null;
+      if (closeOpenWindow) {
+        onClose();
+        if (onSidebarToggle) {
+          onSidebarToggle(windowId, false, "close");
+        }
+      } else if (onSidebarToggle) {
+        onSidebarToggle(windowId, false);
       }
       if (onSplitScreenChange) {
         onSplitScreenChange(false, windowId);
       }
+      if (!closeOpenWindow) {
+        setIsSidebarExiting(false);
+      }
+      releaseSidebarLayoutClose();
+    }, SIDEBAR_EXIT_MS);
+  }, [
+    onClose,
+    onSidebarToggle,
+    onSplitPositionChange,
+    onSplitScreenChange,
+    releaseSidebarLayoutClose,
+    setSplitCssPosition,
+    splitPosition,
+    windowId,
+  ]);
+
+  const closeWindow = useCallback(() => {
+    if (renderAsSidebar) {
+      startSidebarExit(true);
+      return;
     }
-  }, [renderAsSidebar, onClose, onSidebarToggle, onSplitScreenChange, windowId]);
+    setIsMinimized(false);
+    onClose();
+  }, [renderAsSidebar, onClose, startSidebarExit]);
 
   useEffect(() => {
     return () => {
       if (sidebarExitTimerRef.current !== null) {
         window.clearTimeout(sidebarExitTimerRef.current);
       }
+      document.body.classList.remove("sat-sidebar-close-active");
     };
   }, []);
   useEffect(() => {
@@ -355,7 +398,7 @@ export const DraggableWindow = ({
       wasSidebarredRef.current = false;
       openedAsSidebarRef.current = false;
     }
-  }, [splitPosition, isSidebarred, isOpen, getBounds, persistCurrentFloatingState, centerOnExitSidebar]);
+  }, [splitPosition, isSidebarred, isOpen, isSidebarExiting, getBounds, persistCurrentFloatingState, centerOnExitSidebar]);
   useEffect(() => {
     if (!isMinimized && isOpen && !renderAsSidebar && isReady) {
       const bottomBarHeight = 80;
@@ -393,12 +436,7 @@ export const DraggableWindow = ({
     let frameId: number | null = null;
     let dismissedDuringDrag = false;
     let keepCursorUntilRelease = false;
-
-    const setSplitCssPosition = (position: number) => {
-      document.documentElement.style.setProperty("--sat-split-pct", `${position}%`);
-      document.documentElement.style.setProperty("--sat-content-split-pct", `${position}%`);
-      document.documentElement.style.setProperty("--sat-nav-split-pct", `${position}%`);
-    };
+    const dragStartSplitPosition = splitPosition;
 
     const cancelPendingFrame = () => {
       if (frameId === null) return;
@@ -422,45 +460,13 @@ export const DraggableWindow = ({
       window.addEventListener("touchcancel", releaseCursor, { once: true });
     };
 
-    const finishSidebarDismiss = () => {
-      sidebarExitTimerRef.current = null;
-      isClosingFromSidebarRef.current = true;
-      setIsMinimized(false);
-      onClose();
-      if (onSidebarToggle) {
-        onSidebarToggle(windowId, false, "close");
-      }
-      if (onSplitScreenChange) {
-        onSplitScreenChange(false, windowId);
-      }
-    };
-
     const startSidebarDismiss = () => {
       if (dismissedDuringDrag) return;
       dismissedDuringDrag = true;
       cancelPendingFrame();
-      isClosingFromSidebarRef.current = true;
-      setIsResizingSplit(false);
-      setIsSidebarExiting(true);
-      const viewportWidth = document.body.clientWidth || document.documentElement.clientWidth || window.innerWidth;
-      const getCenteredExitSize = (maxWidth?: number) => {
-        const width = maxWidth ? Math.min(viewportWidth, maxWidth) : viewportWidth;
-        return {
-          width,
-          offset: Math.max(0, (viewportWidth - width) / 2),
-        };
-      };
-      const headerExit = getCenteredExitSize(sidebarExitHeaderMaxWidth);
-      const mainExit = getCenteredExitSize(sidebarExitMainMaxWidth);
-      document.documentElement.style.setProperty("--sat-header-content-width", `${headerExit.width}px`);
-      document.documentElement.style.setProperty("--sat-header-content-offset-x", `${headerExit.offset}px`);
-      document.documentElement.style.setProperty("--sat-main-content-width", `${mainExit.width}px`);
-      document.documentElement.style.setProperty("--sat-main-content-offset-x", `${mainExit.offset}px`);
-      document.documentElement.style.setProperty("--sat-content-split-pct", `${contentSplitExitPosition}%`);
-      document.documentElement.style.setProperty("--sat-nav-split-pct", "100%");
+      startSidebarExit(true, dragStartSplitPosition);
       document.body.classList.remove("noselect", "col-resize-active");
       releaseCursorOnPointerUp();
-      sidebarExitTimerRef.current = window.setTimeout(finishSidebarDismiss, SIDEBAR_EXIT_MS);
     };
 
     const applyClientX = (clientX: number) => {
@@ -533,7 +539,7 @@ export const DraggableWindow = ({
       document.body.classList.remove("noselect", "col-resize-active");
       if (!keepCursorUntilRelease) document.body.classList.remove("col-resize-cursor-active");
     };
-  }, [isResizingSplit, isSidebarred, onSplitPositionChange, getBounds, getBoundsPoint, onClose, onSidebarToggle, onSplitScreenChange, windowId, contentSplitExitPosition, sidebarExitHeaderMaxWidth, sidebarExitMainMaxWidth]);
+  }, [isResizingSplit, isSidebarred, onSplitPositionChange, getBounds, getBoundsPoint, setSplitCssPosition, splitPosition, startSidebarExit]);
 
   const beginDragFrom = (clientX: number, clientY: number, target: HTMLElement) => {
     const isHeader = Boolean(target.closest(".window-header"));
@@ -745,6 +751,10 @@ export const DraggableWindow = ({
   const toggleSidebar = () => {
     const newSidebarState = !isSidebarred;
     isClosingFromSidebarRef.current = false;
+    if (!newSidebarState && renderAsSidebar) {
+      startSidebarExit(false);
+      return;
+    }
     if (newSidebarState && isMinimized) {
       setIsMinimized(false);
     }
