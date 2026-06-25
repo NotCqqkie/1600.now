@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { PreloadLink } from "@/components/PreloadLink";
 
 const linkClassName = "hover:text-muted-foreground/70 hover:underline";
 
@@ -9,11 +9,11 @@ export const LegalDisclaimer = () => {
         SAT® is a trademark registered by the College Board, which is not affiliated with, and does not endorse, this product.
       </p>
       <div className="flex items-center gap-2 text-[9px] leading-tight text-muted-foreground/45">
-        <Link to="/privacy" className={linkClassName}>Privacy</Link>
+        <PreloadLink to="/privacy" className={linkClassName}>Privacy</PreloadLink>
         <span aria-hidden="true">·</span>
-        <Link to="/terms" className={linkClassName}>Terms</Link>
+        <PreloadLink to="/terms" className={linkClassName}>Terms</PreloadLink>
         <span aria-hidden="true">·</span>
-        <Link to="/sat-resources" className={linkClassName}>Resources</Link>
+        <PreloadLink to="/sat-resources" className={linkClassName}>Resources</PreloadLink>
         <span aria-hidden="true">·</span>
         <a href="mailto:info@1600.now" className={linkClassName}>Contact</a>
       </div>

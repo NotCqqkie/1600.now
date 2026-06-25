@@ -120,6 +120,8 @@ import {
 import "katex/dist/katex.min.css";
 
 const HIDDEN_MEASUREMENT_STYLE = { visibility: 'hidden', pointerEvents: 'none' } as const;
+const COUNT_UP_IDLE_PAUSE_MS = 10 * 60 * 1000;
+const COUNT_UP_IDLE_DEMO_PAUSE_MS = 5 * 1000;
 
 const getVisibleElementWidth = (element: HTMLElement) => {
   const viewportWidth = window.visualViewport?.width ?? window.innerWidth;
@@ -1228,6 +1230,8 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   const [elapsedSeconds, setElapsedSeconds] = useState(0);
   const [isTimerPaused, setIsTimerPaused] = useState(false);
   const [isTimerVisible, setIsTimerVisible] = useState(true);
+  const [isIdleTimerPaused, setIsIdleTimerPaused] = useState(false);
+  const [isIdleTimerPromptOpen, setIsIdleTimerPromptOpen] = useState(false);
   const [isTimerExpiredOpen, setIsTimerExpiredOpen] = useState(false);
   const [groupedOrderVersion, setGroupedOrderVersion] = useState(0);
   const [isQuestionInfoOpen, setIsQuestionInfoOpen] = useState(false);
@@ -1260,9 +1264,25 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   const startTimeRef = useRef(Date.now());
   const questionVisitStartedAtRef = useRef(Date.now());
   const timerLastSyncedAtRef = useRef(Date.now());
+  const idleLastActivityAtRef = useRef(Date.now());
+  const idlePauseStartedAtRef = useRef<number | null>(null);
+  const isIdleTimerPausedRef = useRef(false);
   const modulePracticeSessionMetaRef = useRef<ModulePracticeSessionMeta | null>(modulePracticeSessionMeta);
   const practiceTestSessionMetaRef = useRef<PracticeTestSessionMeta | null>(practiceTestSessionMeta);
   const hasTimerExpiredRef = useRef(false);
+  const usesCountdownTimer = Boolean(
+    (isPracticeTestMode && practiceTestIsTimed) ||
+      (isModulePracticeMode && modulePracticeSessionMeta?.settings.timed),
+  );
+  const idleTimerMsParam = searchParams.get("idleTimerMs");
+  const idleTimerDemoParam = searchParams.get("idleTimerDemo");
+  const idleTimerTimeoutOverride = Number.parseInt(idleTimerMsParam || "", 10);
+  const idleTimerTimeoutMs = Number.isFinite(idleTimerTimeoutOverride) && idleTimerTimeoutOverride >= 1000
+    ? idleTimerTimeoutOverride
+    : idleTimerDemoParam === "1"
+      ? COUNT_UP_IDLE_DEMO_PAUSE_MS
+      : COUNT_UP_IDLE_PAUSE_MS;
+  const shouldUseIdleTimerPause = Boolean(currentQuestionId && !isEmbed && !usesCountdownTimer);
 
   useEffect(() => {
     modulePracticeSessionMetaRef.current = modulePracticeSessionMeta;
@@ -1271,6 +1291,10 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   useEffect(() => {
     practiceTestSessionMetaRef.current = practiceTestSessionMeta;
   }, [practiceTestSessionMeta]);
+
+  useEffect(() => {
+    isIdleTimerPausedRef.current = isIdleTimerPaused;
+  }, [isIdleTimerPaused]);
 
   useEffect(() => {
     if (!modulePracticeSlug) {
@@ -1292,6 +1316,11 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     const elapsedMs = Math.max(0, now - timerLastSyncedAtRef.current);
     timerLastSyncedAtRef.current = now;
     if (!elapsedMs) return null;
+    if (isIdleTimerPausedRef.current) {
+      if (isPracticeTestMode) return practiceTestSessionMetaRef.current;
+      if (isModulePracticeMode) return modulePracticeSessionMetaRef.current;
+      return null;
+    }
 
     if (isPracticeTestMode) {
       const previous = practiceTestSessionMetaRef.current;
@@ -1563,7 +1592,12 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     startTimeRef.current = Date.now();
     questionVisitStartedAtRef.current = Date.now();
     timerLastSyncedAtRef.current = Date.now();
+    idleLastActivityAtRef.current = Date.now();
+    idlePauseStartedAtRef.current = null;
+    isIdleTimerPausedRef.current = false;
     hasTimerExpiredRef.current = false;
+    setIsIdleTimerPaused(false);
+    setIsIdleTimerPromptOpen(false);
     setIsTimerExpiredOpen(false);
 
     if (isPracticeTestMode && practiceTestActiveModule) {
@@ -1585,11 +1619,14 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     currentQuestionId,
     isModulePracticeMode,
     isPracticeTestMode,
-    modulePracticeSessionMeta,
-    practiceTestActiveModule,
+    modulePracticeSessionMeta?.sessionId,
+    practiceTestActiveModule?.moduleSlug,
+    practiceTestSessionMeta?.sessionId,
   ]);
 
   useEffect(() => {
+    if (isIdleTimerPaused) return;
+
     if (isPracticeTestMode && practiceTestSessionMeta && practiceTestActiveModule) {
       if (practiceTestSessionMeta.status !== "active") {
         return;
@@ -1626,6 +1663,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
 
     return () => window.clearInterval(timerId);
   }, [
+    isIdleTimerPaused,
     isTimerPaused,
     isModulePracticeMode,
     isPracticeTestMode,
@@ -2276,6 +2314,10 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   const flushModulePracticeQuestionTime = useCallback((updateState = true) => {
     syncAssessmentTimer(Date.now(), updateState);
     if (!isAssessmentMode || !currentQuestionId) return;
+    if (isIdleTimerPausedRef.current) {
+      questionVisitStartedAtRef.current = Date.now();
+      return;
+    }
     const delta = Math.max(
       0,
       Math.round((Date.now() - questionVisitStartedAtRef.current) / 1000),
@@ -2287,6 +2329,89 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     }));
     questionVisitStartedAtRef.current = Date.now();
   }, [currentQuestionId, isAssessmentMode, persistModulePracticeQuestionState, syncAssessmentTimer]);
+
+  const resumeIdleTimer = useCallback(() => {
+    const now = Date.now();
+    const pausedAt = idlePauseStartedAtRef.current;
+    if (pausedAt !== null) {
+      startTimeRef.current += Math.max(0, now - pausedAt);
+    }
+    idlePauseStartedAtRef.current = null;
+    idleLastActivityAtRef.current = now;
+    questionVisitStartedAtRef.current = now;
+    timerLastSyncedAtRef.current = now;
+    isIdleTimerPausedRef.current = false;
+    setIsIdleTimerPaused(false);
+    setIsIdleTimerPromptOpen(false);
+  }, []);
+
+  const pauseTimerForIdle = useCallback(() => {
+    if (isIdleTimerPausedRef.current || !shouldUseIdleTimerPause) return;
+    if (isAssessmentMode) {
+      flushModulePracticeQuestionTime();
+    }
+    const now = Date.now();
+    questionVisitStartedAtRef.current = now;
+    timerLastSyncedAtRef.current = now;
+    idlePauseStartedAtRef.current = now;
+    isIdleTimerPausedRef.current = true;
+    setIsIdleTimerPaused(true);
+    setIsIdleTimerPromptOpen(true);
+  }, [flushModulePracticeQuestionTime, isAssessmentMode, shouldUseIdleTimerPause]);
+
+  useEffect(() => {
+    if (shouldUseIdleTimerPause) return;
+    idlePauseStartedAtRef.current = null;
+    isIdleTimerPausedRef.current = false;
+    setIsIdleTimerPaused(false);
+    setIsIdleTimerPromptOpen(false);
+  }, [shouldUseIdleTimerPause]);
+
+  useEffect(() => {
+    if (!shouldUseIdleTimerPause || isTimerPaused) return;
+
+    idleLastActivityAtRef.current = Date.now();
+
+    const recordActivity = () => {
+      if (isIdleTimerPausedRef.current) return;
+      idleLastActivityAtRef.current = Date.now();
+    };
+    const events = [
+      "keydown",
+      "mousedown",
+      "mousemove",
+      "pointerdown",
+      "pointermove",
+      "scroll",
+      "touchstart",
+      "touchmove",
+      "wheel",
+      "input",
+    ];
+    const listenerOptions = { capture: true, passive: true } as const;
+    events.forEach((eventName) => {
+      window.addEventListener(eventName, recordActivity, listenerOptions);
+    });
+    const idleCheckId = window.setInterval(() => {
+      if (isIdleTimerPausedRef.current) return;
+      if (Date.now() - idleLastActivityAtRef.current >= idleTimerTimeoutMs) {
+        pauseTimerForIdle();
+      }
+    }, 1000);
+
+    return () => {
+      events.forEach((eventName) => {
+        window.removeEventListener(eventName, recordActivity, listenerOptions);
+      });
+      window.clearInterval(idleCheckId);
+    };
+  }, [
+    currentQuestionId,
+    idleTimerTimeoutMs,
+    isTimerPaused,
+    pauseTimerForIdle,
+    shouldUseIdleTimerPause,
+  ]);
 
   useEffect(() => {
     if (isPracticeTestMode && practiceTestSessionMeta) {
@@ -2368,12 +2493,22 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       params.set("customPractice", customPracticeId);
     }
 
+    if (idleTimerMsParam) {
+      params.set("idleTimerMs", idleTimerMsParam);
+    }
+
+    if (idleTimerDemoParam) {
+      params.set("idleTimerDemo", idleTimerDemoParam);
+    }
+
     const targetIdSegment = target.sourceId ?? target.id;
     navigate(`${base}/${target.subject}/${targetIdSegment}?${params.toString()}`);
   }, [
     customPracticeId,
     effectivePracticeMode,
     flushModulePracticeQuestionTime,
+    idleTimerDemoParam,
+    idleTimerMsParam,
     modulePracticeSlug,
     modulePracticeStateSessionId,
     navigate,
@@ -2619,6 +2754,9 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   const handleCheck = useCallback((overrideAnswer?: string) => {
     if (!currentQuestion) return;
     if (isAssessmentMode && !assessmentAllowsChecking) return;
+    if (isIdleTimerPausedRef.current) {
+      resumeIdleTimer();
+    }
     const rawUserAnswer = overrideAnswer || (currentQuestion.type === 'multiple-choice' ? selectedAnswer : freeResponseAnswer);
     const userAnswer = currentQuestion.type === "free-response" ? rawUserAnswer.trim() : rawUserAnswer;
 
@@ -2730,6 +2868,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     isEmbed,
     localStateKey,
     persistModulePracticeQuestionState,
+    resumeIdleTimer,
     selectedAnswer,
     uid,
     usesTransientQuestionAnswerUi,
@@ -3186,6 +3325,8 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       : isModulePracticeMode && modulePracticeSessionMeta?.settings.timed
       ? modulePracticeSessionMeta.remainingSeconds ?? 0
       : elapsedSeconds;
+  const isTimerControlPaused = isIdleTimerPaused || isTimerPaused;
+  const shouldShowTimerPauseControl = !isAssessmentMode || isIdleTimerPaused;
   const timerControls = (
     <>
       <Button
@@ -3207,15 +3348,21 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       )}>
         {isTimerVisible ? formatPracticeClock(displayedTimerSeconds) : "-:--"}
       </span>
-      {!isAssessmentMode && (
+      {shouldShowTimerPauseControl && (
         <Button
           variant="ghost"
           size="icon"
           className="h-9 w-9"
-          onClick={() => setIsTimerPaused((prev) => !prev)}
-          title={isTimerPaused ? "Resume timer" : "Pause timer"}
+          onClick={() => {
+            if (isIdleTimerPaused) {
+              resumeIdleTimer();
+              return;
+            }
+            setIsTimerPaused((prev) => !prev);
+          }}
+          title={isTimerControlPaused ? "Resume timer" : "Pause timer"}
         >
-          {isTimerPaused ? (
+          {isTimerControlPaused ? (
             <Play className="h-5 w-5" />
           ) : (
             <Pause className="h-5 w-5" />
@@ -3485,6 +3632,34 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       ) : null}
       {questionInfoDialog}
       {isModulePracticeMode && modulePracticeSessionMeta?.settings.timed ? timerExpiredDialog : null}
+      {isIdleTimerPromptOpen && (
+        <div className={cn(isNativeEmbed ? "absolute" : "fixed", "inset-x-0 bottom-5 z-[90] flex justify-center px-4 sm:bottom-7")}>
+          <div
+            role="dialog"
+            aria-modal="false"
+            aria-labelledby="idle-timer-title"
+            className="w-full max-w-sm rounded-xl border border-border bg-card p-5 text-card-foreground shadow-2xl"
+          >
+            <div className="mb-2 text-xs font-semibold uppercase text-muted-foreground">
+              Timer paused
+            </div>
+            <h2 id="idle-timer-title" className="text-lg font-semibold text-foreground">
+              Still here?
+            </h2>
+            <p className="mt-2 text-sm leading-6 text-muted-foreground">
+              We paused the timer so your stats stay clean while you're away.
+            </p>
+            <div className="mt-4 flex flex-col-reverse gap-2 sm:flex-row sm:justify-end">
+              <Button variant="outline" onClick={() => setIsIdleTimerPromptOpen(false)}>
+                Keep it paused
+              </Button>
+              <Button onClick={resumeIdleTimer}>
+                I'm here
+              </Button>
+            </div>
+          </div>
+        </div>
+      )}
       {showEmbedUpsell && (
         <div className={cn(isNativeEmbed ? "absolute" : "fixed", "inset-0 z-[80] flex items-center justify-center bg-background/80 p-6 backdrop-blur-sm")}>
           <div className="w-full max-w-sm rounded-xl border border-border bg-card p-6 text-center shadow-2xl">

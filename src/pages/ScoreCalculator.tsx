@@ -49,18 +49,6 @@ const ScoreCalculator = () => {
     ),
   );
 
-  useEffect(() => {
-    const link = document.createElement("link");
-    link.rel = "stylesheet";
-    link.href =
-      "https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap";
-    document.head.appendChild(link);
-
-    return () => {
-      document.head.removeChild(link);
-    };
-  }, []);
-
   const scores = useMemo(() => {
     const readingWriting =
       (digitalSatSections[0].scores[rawScores["0"] ?? 0] ?? 0) +

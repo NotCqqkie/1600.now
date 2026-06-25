@@ -478,12 +478,19 @@
   }
 
   body.col-resize-active,
-  body.col-resize-active * {
+  body.col-resize-active *,
+  body.col-resize-cursor-active,
+  body.col-resize-cursor-active * {
     cursor: col-resize !important;
   }
 
   body.col-resize-active .sat-resize-transition {
     transition: none !important;
+  }
+
+  body.window-drag-active,
+  body.window-drag-active * {
+    cursor: grabbing !important;
   }
 
   #question-content,
@@ -1394,10 +1401,6 @@ ol.bullet-list li {
 @keyframes tour-splash-text {
   0%   { transform: translateY(10px) scale(0.985); }
   100% { transform: translateY(0) scale(1); }
-}
-@keyframes tour-orbit {
-  from { transform: rotate(0deg) translateX(var(--orbit-r, 120px)) rotate(0deg); }
-  to   { transform: rotate(360deg) translateX(var(--orbit-r, 120px)) rotate(-360deg); }
 }
 @keyframes tour-float-y {
   0%, 100% { transform: translateY(0); }

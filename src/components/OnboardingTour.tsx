@@ -443,7 +443,6 @@ const SplashCard = ({ step, onNext, onSkip, index, total, isDark }: {
 const FinaleCard = ({ step, onClose, onJump, index, total, isDark }: {
   step: FinaleStep; onClose: () => void; onJump: (path: string) => void; index: number; total: number; isDark: boolean;
 }) => {
-  const accentClass = ACCENT_CLASSES[step.accent];
   const titleColor = isDark ? "text-white" : "text-slate-900";
   const bodyColor = isDark ? "text-white/75" : "text-slate-700";
   const captionColor = isDark ? "text-white/60" : "text-slate-500";
@@ -453,29 +452,6 @@ const FinaleCard = ({ step, onClose, onJump, index, total, isDark }: {
   return (
     <div className="relative flex h-full w-full items-center justify-center px-6">
       <FloatingBlobs accent={step.accent} />
-
-      <div aria-hidden className="pointer-events-none absolute inset-0 z-[1]">
-        {[0, 1, 2, 3, 4, 5].map((orbitIndex) => {
-          const orbitRadius = 200 + (orbitIndex % 3) * 60;
-          const duration = 22 + (orbitIndex % 4) * 6;
-          const delay = orbitIndex * -4;
-          const Glyph = [Sparkles, PartyPopper, Wand2, Sparkles, Sparkles, PartyPopper][orbitIndex];
-          return (
-            <div
-              key={orbitIndex}
-              className="absolute left-1/2 top-1/2 h-7 w-7"
-              style={{
-                ["--orbit-r" as never]: `${orbitRadius}px`,
-                animation: `tour-orbit ${duration}s linear infinite`,
-                animationDelay: `${delay}s`,
-                opacity: 0.32,
-              }}
-            >
-              <Glyph className={`h-7 w-7 ${accentClass.text}`} />
-            </div>
-          );
-        })}
-      </div>
 
       <div className="relative z-10 max-w-xl text-center">
         <h2 className={`mb-4 tour-splash-text ${titleColor}`} style={{ fontFamily: "'Geist', Georgia, serif", fontSize: 56, lineHeight: 1.02 }}>
@@ -971,18 +947,25 @@ export const OnboardingTour = () => {
         return (
         <div
           ref={coachCardRef}
-          className={`tour-coach-card absolute z-10 w-[380px] max-w-[92vw] rounded-2xl border border-border bg-card shadow-[0_24px_60px_-15px_rgba(0,0,0,0.55)] ${accentClass.text}`}
+          className={`tour-coach-card absolute z-10 w-[380px] max-w-[92vw] overflow-hidden rounded-2xl border border-border bg-card shadow-[0_24px_60px_-15px_rgba(0,0,0,0.55)] ${accentClass.text}`}
           onPointerDown={stopTourEvent}
           onMouseDown={stopTourEvent}
           onClick={stopTourEvent}
           style={{
             ...coachPositionStyle,
-            borderTop: "3px solid currentColor",
-            transition: `border-top-color ${TR}`,
+            transition: `color ${TR}`,
           }}
         >
+          <div
+            aria-hidden
+            className="pointer-events-none absolute inset-x-0 top-0 h-6"
+            style={{
+              background: "linear-gradient(180deg, currentColor 0%, transparent 100%)",
+              opacity: 0.24,
+            }}
+          />
 
-          <div className="relative p-5 tour-coach-content">
+          <div className="relative z-10 p-5 tour-coach-content">
             <div className="mb-3 flex items-center gap-2.5">
               <div className={`flex h-9 w-9 items-center justify-center rounded-xl ${accentClass.bg} ${accentClass.text}`} style={{ transition: `background ${TR}, color ${TR}` }}>
                 <Icon className="h-5 w-5" />

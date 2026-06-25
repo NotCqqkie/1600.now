@@ -386,12 +386,13 @@ export const DraggableWindow = ({
   useEffect(() => {
     if (!isSidebarred || !isResizingSplit) return;
 
-    document.body.classList.add("noselect", "col-resize-active");
+    document.body.classList.add("noselect", "col-resize-active", "col-resize-cursor-active");
     let latestCommitPosition: number | null = null;
     let latestCssPosition: number | null = null;
     let latestClientX: number | null = null;
     let frameId: number | null = null;
     let dismissedDuringDrag = false;
+    let keepCursorUntilRelease = false;
 
     const setSplitCssPosition = (position: number) => {
       document.documentElement.style.setProperty("--sat-split-pct", `${position}%`);
@@ -403,6 +404,22 @@ export const DraggableWindow = ({
       if (frameId === null) return;
       window.cancelAnimationFrame(frameId);
       frameId = null;
+    };
+
+    const releaseCursor = () => {
+      keepCursorUntilRelease = false;
+      document.body.classList.remove("col-resize-cursor-active");
+      window.removeEventListener("mouseup", releaseCursor);
+      window.removeEventListener("touchend", releaseCursor);
+      window.removeEventListener("touchcancel", releaseCursor);
+    };
+
+    const releaseCursorOnPointerUp = () => {
+      if (keepCursorUntilRelease) return;
+      keepCursorUntilRelease = true;
+      window.addEventListener("mouseup", releaseCursor, { once: true });
+      window.addEventListener("touchend", releaseCursor, { once: true });
+      window.addEventListener("touchcancel", releaseCursor, { once: true });
     };
 
     const finishSidebarDismiss = () => {
@@ -442,6 +459,7 @@ export const DraggableWindow = ({
       document.documentElement.style.setProperty("--sat-content-split-pct", `${contentSplitExitPosition}%`);
       document.documentElement.style.setProperty("--sat-nav-split-pct", "100%");
       document.body.classList.remove("noselect", "col-resize-active");
+      releaseCursorOnPointerUp();
       sidebarExitTimerRef.current = window.setTimeout(finishSidebarDismiss, SIDEBAR_EXIT_MS);
     };
 
@@ -487,7 +505,7 @@ export const DraggableWindow = ({
       }
       if (dismissedDuringDrag) return;
       setIsResizingSplit(false);
-      document.body.classList.remove("noselect", "col-resize-active");
+      document.body.classList.remove("noselect", "col-resize-active", "col-resize-cursor-active");
       if (onSidebarToggle) {
         onSidebarToggle(windowId, true);
       }
@@ -513,6 +531,7 @@ export const DraggableWindow = ({
       document.removeEventListener('touchcancel', stop);
       cancelPendingFrame();
       document.body.classList.remove("noselect", "col-resize-active");
+      if (!keepCursorUntilRelease) document.body.classList.remove("col-resize-cursor-active");
     };
   }, [isResizingSplit, isSidebarred, onSplitPositionChange, getBounds, getBoundsPoint, onClose, onSidebarToggle, onSplitScreenChange, windowId, contentSplitExitPosition, sidebarExitHeaderMaxWidth, sidebarExitMainMaxWidth]);
 
@@ -591,6 +610,11 @@ export const DraggableWindow = ({
       document.body.classList.add("noselect");
     } else {
       document.body.classList.remove("noselect");
+    }
+    if (isDragging) {
+      document.body.classList.add("window-drag-active");
+    } else {
+      document.body.classList.remove("window-drag-active");
     }
 
     const applyMove = (clientX: number, clientY: number) => {
@@ -697,7 +721,7 @@ export const DraggableWindow = ({
     const handlePointerUp = () => {
       setIsDragging(false);
       setIsResizing(null);
-      document.body.classList.remove("noselect");
+      document.body.classList.remove("noselect", "window-drag-active");
     };
 
     if (isDragging || isResizing) {
@@ -714,6 +738,7 @@ export const DraggableWindow = ({
       document.removeEventListener("touchmove", handleTouchMove);
       document.removeEventListener("touchend", handlePointerUp);
       document.removeEventListener("touchcancel", handlePointerUp);
+      document.body.classList.remove("window-drag-active");
     };
   }, [isDragging, isResizing, lockAspectRatio, diagonalResizeOnly, getBounds, getBoundsPoint]);
 

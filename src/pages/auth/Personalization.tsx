@@ -96,9 +96,6 @@ const Personalization = () => {
                   <Type className="h-5 w-5" />
                   Question Font
                 </h2>
-                <p className="mt-1 text-sm" style={{ color: mutedColor }}>
-                  Used for question stems, passages, and answer choices.
-                </p>
               </div>
               <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 xl:grid-cols-3">
                 {FONT_OPTIONS.map((opt) => {
@@ -142,9 +139,6 @@ const Personalization = () => {
                   <Paintbrush className="h-5 w-5" />
                   Text Size
                 </h2>
-                <p className="mt-1 text-sm" style={{ color: mutedColor }}>
-                  Scales question and answer-choice text proportionally.
-                </p>
               </div>
               <div className="grid grid-cols-5 gap-2">
                 {TEXT_SIZE_OPTIONS.map((opt) => {

@@ -1,7 +1,8 @@
 import { Suspense, lazy, memo, useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState, type CSSProperties } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { useAuth } from "@/contexts/AuthContext";
 import { BrandLogo } from "@/components/brand/BrandLogo";
+import { PreloadLink } from "@/components/PreloadLink";
 import {
   ArrowRight,
   BarChart3,
@@ -29,6 +30,7 @@ import {
 } from "@/lib/questionBankFilters";
 import { MOBILE_MEDIA_QUERY } from "@/hooks/use-mobile";
 import { useThemeMode } from "@/lib/theme";
+import { preloadRouteIntent } from "@/lib/routePreload";
 import { BANK_TOTAL_ALL } from "@/lib/generated/bankTotals.generated";
 import { renderMixedContent } from "@/lib/text/mathRendering";
 import "katex/dist/katex.min.css";
@@ -37,6 +39,12 @@ const DEFAULT_QUESTION_BANK_TOTAL = BANK_TOTAL_ALL;
 const PRACTICE_TESTS_COUNT = 34;
 const HERO_QUESTION_PREVIEW_LIMIT = 3;
 const HERO_PREVIEW_FORCE_READY_MS = 1400;
+const preloadBankRoute = () => preloadRouteIntent("/bank");
+const preloadModulesRoute = () => preloadRouteIntent("/modules");
+const preloadProfileRoute = () => preloadRouteIntent("/profile");
+const preloadAnalysisRoute = () => preloadRouteIntent("/analysis");
+const preloadLoginRoute = () => preloadRouteIntent("/login");
+const preloadSignupRoute = () => preloadRouteIntent("/signup");
 
 const InlineDesmos = lazy(() =>
   import("@/components/tools/InlineDesmos").then((mod) => ({ default: mod.InlineDesmos })),
@@ -765,6 +773,10 @@ const FilterFeatureSection = memo(({
         <button
           type="button"
           onClick={() => navigate("/bank")}
+          onFocus={preloadBankRoute}
+          onPointerDown={preloadBankRoute}
+          onPointerEnter={preloadBankRoute}
+          onTouchStart={preloadBankRoute}
           style={{
             display: "inline-flex",
             alignItems: "center",
@@ -882,6 +894,10 @@ const PracticeTestsFeatureSection = memo(({ isDarkMode }: { isDarkMode: boolean 
         <button
           type="button"
           onClick={() => navigate("/modules")}
+          onFocus={preloadModulesRoute}
+          onPointerDown={preloadModulesRoute}
+          onPointerEnter={preloadModulesRoute}
+          onTouchStart={preloadModulesRoute}
           style={{
             display: "inline-flex",
             alignItems: "center",
@@ -2545,6 +2561,7 @@ const Home = () => {
   const navigate = useNavigate();
   const handleHeroOpenBank = useCallback(() => navigate("/bank"), [navigate]);
   const { user, signOut } = useAuth();
+  const preloadFinalCtaRoute = useCallback(() => preloadRouteIntent(user ? "/bank" : "/signup"), [user]);
   const [isHeaderScrolled, setIsHeaderScrolled] = useState(false);
   const isDarkMode = useThemeMode();
   const totalQuestions = DEFAULT_QUESTION_BANK_TOTAL;
@@ -2615,30 +2632,30 @@ const Home = () => {
           <BrandLogo variant="mark" className="h-9 w-9" />
 
           <nav className="absolute left-1/2 hidden -translate-x-1/2 items-center gap-1 md:flex">
-            <Link
+            <PreloadLink
               to="/bank"
               className="rounded-md px-3 py-1.5 font-sans text-[14px] font-medium tracking-[-0.005em] text-ink transition-opacity hover:opacity-70"
             >
               Question Bank
-            </Link>
-            <Link
+            </PreloadLink>
+            <PreloadLink
               to="/hard"
               className="rounded-md px-3 py-1.5 font-sans text-[14px] font-medium tracking-[-0.005em] text-ink transition-opacity hover:opacity-70"
             >
               100 Hard Math
-            </Link>
-            <Link
+            </PreloadLink>
+            <PreloadLink
               to="/modules"
               className="rounded-md px-3 py-1.5 font-sans text-[14px] font-medium tracking-[-0.005em] text-ink transition-opacity hover:opacity-70"
             >
               Practice Tests
-            </Link>
-            <Link
+            </PreloadLink>
+            <PreloadLink
               to="/score-calculator"
               className="rounded-md px-3 py-1.5 font-sans text-[14px] font-medium tracking-[-0.005em] text-ink transition-opacity hover:opacity-70"
             >
               Score Calculator
-            </Link>
+            </PreloadLink>
           </nav>
 
           <div className="inline-flex flex-shrink-0 items-center gap-2">
@@ -2657,11 +2674,19 @@ const Home = () => {
                     {user.email}
                   </div>
                   <DropdownMenuSeparator />
-                  <DropdownMenuItem onClick={() => navigate("/profile")}>
+                  <DropdownMenuItem
+                    onFocus={preloadProfileRoute}
+                    onPointerEnter={preloadProfileRoute}
+                    onClick={() => navigate("/profile")}
+                  >
                     <Settings className="mr-2 h-4 w-4" />
                     <span>Profile</span>
                   </DropdownMenuItem>
-                  <DropdownMenuItem onClick={() => navigate("/analysis")}>
+                  <DropdownMenuItem
+                    onFocus={preloadAnalysisRoute}
+                    onPointerEnter={preloadAnalysisRoute}
+                    onClick={() => navigate("/analysis")}
+                  >
                     <BarChart3 className="mr-2 h-4 w-4" />
                     <span>Statistics</span>
                   </DropdownMenuItem>
@@ -2682,10 +2707,22 @@ const Home = () => {
                   size="sm"
                   className="hidden sm:inline-flex !rounded-full !font-medium"
                   onClick={() => navigate("/login")}
+                  onFocus={preloadLoginRoute}
+                  onPointerDown={preloadLoginRoute}
+                  onPointerEnter={preloadLoginRoute}
+                  onTouchStart={preloadLoginRoute}
                 >
                   Log In
                 </Button>
-                <Button size="sm" className="!rounded-full" onClick={() => navigate("/signup")}>
+                <Button
+                  size="sm"
+                  className="!rounded-full"
+                  onClick={() => navigate("/signup")}
+                  onFocus={preloadSignupRoute}
+                  onPointerDown={preloadSignupRoute}
+                  onPointerEnter={preloadSignupRoute}
+                  onTouchStart={preloadSignupRoute}
+                >
                   Sign Up
                 </Button>
               </div>
@@ -2771,6 +2808,10 @@ const Home = () => {
           >
             <button
               onClick={() => navigate("/bank")}
+              onFocus={preloadBankRoute}
+              onPointerDown={preloadBankRoute}
+              onPointerEnter={preloadBankRoute}
+              onTouchStart={preloadBankRoute}
               style={{
                 display: "inline-flex",
                 alignItems: "center",
@@ -2827,6 +2868,10 @@ const Home = () => {
 
             <button
               onClick={() => navigate("/modules")}
+              onFocus={preloadModulesRoute}
+              onPointerDown={preloadModulesRoute}
+              onPointerEnter={preloadModulesRoute}
+              onTouchStart={preloadModulesRoute}
               style={{
                 display: "inline-flex",
                 alignItems: "center",
@@ -3002,6 +3047,10 @@ const Home = () => {
           </h2>
           <button
             onClick={() => navigate(user ? "/bank" : "/signup")}
+            onFocus={preloadFinalCtaRoute}
+            onPointerDown={preloadFinalCtaRoute}
+            onPointerEnter={preloadFinalCtaRoute}
+            onTouchStart={preloadFinalCtaRoute}
             style={{
               display: "inline-flex",
               alignItems: "center",

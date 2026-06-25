@@ -54,6 +54,7 @@ import {
 } from "@/hooks/useUserProgress";
 import { PageSeo, buildBreadcrumbJsonLd } from "@/components/seo/PageSeo";
 import { clearBankQuestionViewModeStorage } from "@/lib/questionViewModeStorage";
+import { cn } from "@/lib/utils";
 import "katex/dist/katex.min.css";
 
 const loadBankPool = async (
@@ -107,6 +108,8 @@ const BANK_FILTERS_STORAGE_KEY = "question-bank-filters";
 const BANK_SEARCH_RESULT_LIMIT = 50;
 const BANK_SEARCH_MINOR_SUBJECT_MAX = 2;
 const KEYWORD_PRACTICE_MIN_QUESTIONS = 5;
+const KEYWORD_SEARCH_BUSY_DELAY_MS = 200;
+const KEYWORD_SEARCH_BUSY_MIN_VISIBLE_MS = 200;
 const HOME_DEMO_SKILLS_PER_DOMAIN = 2;
 const HOME_FILTER_DEMO_ALLOW_SELECTOR = [
   '[data-tour="bank-filters"]',
@@ -192,6 +195,13 @@ const getKeywordSearchInfo = (results: BankSearchResult[]): KeywordSearchInfo =>
     filteredSubject: shouldFocus ? filteredSubject : null,
     filteredSubjectCount: shouldFocus ? filteredSubjectCount : 0,
   };
+};
+
+const getKeywordSearchLoadingLabel = (query: string) => {
+  const normalized = query.trim().replace(/\s+/g, " ");
+  if (!normalized) return "Searching question text...";
+  const displayQuery = normalized.length > 56 ? `${normalized.slice(0, 53)}...` : normalized;
+  return `Searching for "${displayQuery}"...`;
 };
 
 const readStoredBankFilters = (): QuestionBankFilters | null => {
@@ -333,6 +343,7 @@ export const BankIndex = ({
   const [rawKeywordSearchResults, setRawKeywordSearchResults] = useState<BankSearchResult[]>([]);
   const [rawKeywordSearchQuery, setRawKeywordSearchQuery] = useState("");
   const [isKeywordSearchLoading, setIsKeywordSearchLoading] = useState(false);
+  const [showKeywordSearchBusy, setShowKeywordSearchBusy] = useState(false);
   const [isKeywordPracticeLoading, setIsKeywordPracticeLoading] = useState(false);
   const [isKeywordListCollapsed, setIsKeywordListCollapsed] = useState(false);
   const [keywordSubject, setKeywordSubject] = useState<BankSubject>("math");
@@ -341,6 +352,7 @@ export const BankIndex = ({
   const bankSearchWorkerRef = useRef<Worker | null>(null);
   const bankSearchRequestIdRef = useRef(0);
   const keywordSearchAreaRef = useRef<HTMLDivElement | null>(null);
+  const keywordSearchBusyShownAtRef = useRef(0);
 
   const getBankSearchWorker = useCallback(() => {
     bankSearchWorkerRef.current ??= new Worker(
@@ -1011,19 +1023,52 @@ export const BankIndex = ({
     return isHomeFilterDemo ? skills.slice(0, HOME_DEMO_SKILLS_PER_DOMAIN) : skills;
   };
 
-  const isKeywordSearchActive = keywordSearch.trim().length > 0;
+  const trimmedKeywordSearch = keywordSearch.trim();
+  const isKeywordSearchActive = trimmedKeywordSearch.length > 0;
   const isKeywordSearchBusy = isKeywordSearchLoading || isKeywordSearchPending;
   const isKeywordActionBusy = isKeywordSearchBusy || isKeywordPracticeLoading;
   const shouldShowKeywordSubjectToggle =
     isKeywordSubjectPinned || (keywordSearchInfo.mathCount > 0 && keywordSearchInfo.readingCount > 0);
   const visibleKeywordSearchResults = keywordSearchResults.slice(0, BANK_SEARCH_RESULT_LIMIT);
+  const keywordSearchLoadingLabel = getKeywordSearchLoadingLabel(trimmedKeywordSearch);
+  const keywordResultCountLabel = showKeywordSearchBusy
+    ? "Searching..."
+    : `${keywordPracticeQuestions.length.toLocaleString()} question${keywordPracticeQuestions.length === 1 ? "" : "s"}`;
+
+  useEffect(() => {
+    let timer: ReturnType<typeof setTimeout> | undefined;
+
+    if (isKeywordSearchBusy) {
+      if (!showKeywordSearchBusy) {
+        timer = setTimeout(() => {
+          keywordSearchBusyShownAtRef.current = Date.now();
+          setShowKeywordSearchBusy(true);
+        }, KEYWORD_SEARCH_BUSY_DELAY_MS);
+      }
+    } else if (showKeywordSearchBusy) {
+      const visibleForMs = Date.now() - keywordSearchBusyShownAtRef.current;
+      timer = setTimeout(() => {
+        keywordSearchBusyShownAtRef.current = 0;
+        setShowKeywordSearchBusy(false);
+      }, Math.max(0, KEYWORD_SEARCH_BUSY_MIN_VISIBLE_MS - visibleForMs));
+    } else {
+      keywordSearchBusyShownAtRef.current = 0;
+    }
+
+    return () => {
+      if (timer) clearTimeout(timer);
+    };
+  }, [isKeywordSearchBusy, showKeywordSearchBusy]);
 
   const renderKeywordSearch = () => (
     <div
       ref={keywordSearchAreaRef}
       className="space-y-2"
     >
-      <div className="flex flex-col gap-2 sm:flex-row">
+      <div className={cn(
+        "grid gap-2",
+        isKeywordSearchActive && "lg:grid-cols-[minmax(0,1fr)_31.5rem]",
+      )}>
         <div className="group relative min-w-0 flex-1 rounded-[10px] transition-shadow duration-200 focus-within:shadow-[0_0_0_4px_rgb(var(--ds-accent)/0.26)]">
           <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-ink-muted transition-colors duration-200 group-focus-within:text-cobalt-deep dark:group-focus-within:text-cobalt" />
           <Input
@@ -1047,31 +1092,26 @@ export const BankIndex = ({
           )}
         </div>
         {isKeywordSearchActive && (
-          <div className="flex shrink-0 flex-wrap gap-2 sm:flex-nowrap">
-            <span
-              key={`${activeKeywordSubject}-${keywordPracticeQuestions.length}-${isKeywordSearchBusy ? "loading" : "ready"}`}
-              className="keyword-count-pulse flex h-10 shrink-0 items-center rounded-full border border-ds-line bg-white px-3 font-display text-[12px] font-semibold tabular-nums text-ink dark:bg-card"
-            >
-              {isKeywordSearchBusy
-                ? "Searching..."
-                : `${keywordPracticeQuestions.length.toLocaleString()} question${keywordPracticeQuestions.length === 1 ? "" : "s"}`}
+          <div className="flex flex-wrap gap-2 sm:grid sm:grid-cols-[8.75rem_9.25rem_9rem_2.5rem]">
+            <span className="flex h-10 w-[8.75rem] shrink-0 items-center justify-center rounded-full border border-ds-line bg-white px-3 font-display text-[12px] font-semibold tabular-nums text-ink dark:bg-card">
+              {keywordResultCountLabel}
             </span>
-            {shouldShowKeywordSubjectToggle && (
+            <div className="w-[9.25rem]">
               <SegmentedToggle
                 value={activeKeywordSubject}
                 options={keywordSubjectOptions}
                 onChange={handleKeywordSubjectChange}
-                className="h-10 shrink-0"
+                className={cn("h-10 w-full shrink-0", !shouldShowKeywordSubjectToggle && "invisible")}
                 buttonClassName="h-[30px] px-3 py-0 text-[13px] leading-none"
                 clippedActiveText
               />
-            )}
+            </div>
             <Button
               type="button"
               size="sm"
               disabled={isKeywordActionBusy || !canCreateKeywordPracticeSet}
               onClick={() => handleCreateKeywordPracticeSet(false)}
-              className="h-10 flex-1 shrink-0 sm:flex-none"
+              className="h-10 w-36 shrink-0"
             >
               <Play className="h-4 w-4" />
               Practice {keywordPracticeQuestions.length.toLocaleString()}
@@ -1117,7 +1157,9 @@ export const BankIndex = ({
 
           {isKeywordListCollapsed ? null : isKeywordSearchBusy && visibleKeywordSearchResults.length === 0 ? (
             <div className="p-10 text-center text-sm text-ink-muted">
-              Searching question text...
+              <span className={cn("inline-block max-w-full truncate", !showKeywordSearchBusy && "invisible")}>
+                {keywordSearchLoadingLabel}
+              </span>
             </div>
           ) : visibleKeywordSearchResults.length === 0 ? (
             <div className="p-10 text-center text-sm text-ink-muted">
@@ -1126,7 +1168,7 @@ export const BankIndex = ({
           ) : (
             <div
               aria-busy={isKeywordSearchBusy ? "true" : undefined}
-              className={`divide-y divide-ds-line${isKeywordSearchBusy ? " pointer-events-none opacity-60" : ""}`}
+              className={`divide-y divide-ds-line${showKeywordSearchBusy ? " pointer-events-none opacity-60" : ""}`}
             >
               {visibleKeywordSearchResults.map((question) => {
                 const isMathQuestionResult = question.subject === "math";
@@ -1139,7 +1181,7 @@ export const BankIndex = ({
                     key={question.stableId}
                     type="button"
                     onClick={() => handleKeywordResultClick(question)}
-                    className="bank-result-row group grid w-full grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-2 border-l-2 border-l-transparent px-3 py-2 text-left hover:border-l-ds-accent-deep hover:bg-muted/45 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ds-accent focus-visible:ring-inset"
+                    className="bank-result-row group grid w-full grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-2 border-l-2 border-l-ds-line px-3 py-2 text-left hover:border-l-ds-accent-deep hover:bg-muted/45 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ds-accent focus-visible:ring-inset"
                   >
                     <div className={`flex h-7 w-7 shrink-0 items-center justify-center rounded-md ${isMathQuestionResult ? "bg-primary/10" : "bg-secondary/10"}`}>
                       {isMathQuestionResult ? (

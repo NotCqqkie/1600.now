@@ -13,6 +13,7 @@ import { LegalDisclaimer } from "@/components/brand/LegalDisclaimer";
 import { BrandLogo } from "@/components/brand/BrandLogo";
 import { Seo } from "@/components/seo/Seo";
 import { ErrorBoundary } from "@/components/ErrorBoundary";
+import { registerRoutePreloader } from "@/lib/routePreload";
 import "@/lib/personalization";
 
 type LoadableModule<T extends ComponentType<unknown>> = { default: T };
@@ -104,6 +105,8 @@ const CountryTopicPage = preloadableLazy(() => import("./pages/country/CountryTo
 const CollegeIndex = preloadableLazy(() => import("./pages/college/CollegeIndex"));
 const CollegePage = preloadableLazy(() => import("./pages/college/CollegePage"));
 const AdminReports = preloadableLazy(() => import("./pages/admin/AdminReports"));
+const BankSearchLayoutDemo = preloadableLazy(() => import("./pages/dev/BankSearchLayoutDemo"));
+const IdleTimerDemo = preloadableLazy(() => import("./pages/dev/IdleTimerDemo"));
 const AppShell = preloadableLazy(() => import("./components/AppShell").then((mod) => ({ default: mod.AppShell })));
 const AccountSync = preloadableLazy(() => import("./components/auth/AccountSync").then((mod) => ({ default: mod.AccountSync })));
 const OnboardingTour = preloadableLazy(() => import("./components/OnboardingTour").then((mod) => ({ default: mod.OnboardingTour })));
@@ -2110,8 +2113,13 @@ const routePreloaders: RoutePreloader[] = [
   { match: () => true, preload: shellPreload(NotFound) },
 ];
 
+const preloadPathnameFromRoutes = (pathname: string) =>
+  routePreloaders.find((route) => route.match(pathname))?.preload() ?? Promise.resolve();
+
+registerRoutePreloader(preloadPathnameFromRoutes);
+
 const preloadRouteForLocation = (location: Location) =>
-  routePreloaders.find((route) => route.match(location.pathname))?.preload() ?? Promise.resolve();
+  preloadPathnameFromRoutes(location.pathname);
 
 const getLocationIdentity = (location: Location) =>
   `${location.pathname}${location.search}${location.hash}:${location.key}`;
@@ -2342,6 +2350,8 @@ const AppRoutes = ({ location }: { location: Location }) => (
     <Route path="/college" element={withShellSuspense(<CollegeIndex />)} />
     <Route path="/college/:slug" element={withShellSuspense(<CollegePage />)} />
     <Route path="/admin/reports" element={withShellSuspense(<AdminReports />)} />
+    <Route path="/dev/bank-search-layout-demo" element={withShellSuspense(<BankSearchLayoutDemo />)} />
+    <Route path="/dev/idle-timer-demo" element={withShellSuspense(<IdleTimerDemo />)} />
     <Route path="/:slug" element={withShellSuspense(<TopLevelSeoPage />)} />
     <Route path="*" element={withShellSuspense(<NotFound />)} />
   </Routes>
@@ -2374,17 +2384,23 @@ const StableRoutes = () => {
       return;
     }
 
+    if (!shouldShowRouteSkeleton(actualLocation.pathname)) {
+      setPendingLocation(null);
+      setShowPendingSkeleton(false);
+      setDisplayLocation(actualLocation);
+      void preloadRouteForLocation(actualLocation).catch(() => undefined);
+      return;
+    }
+
     setPendingLocation(actualLocation);
     setShowPendingSkeleton(false);
 
     let skeletonTimer: ReturnType<typeof setTimeout> | undefined;
-    if (shouldShowRouteSkeleton(actualLocation.pathname)) {
-      skeletonTimer = setTimeout(() => {
-        if (transitionIdRef.current === transitionId) {
-          setShowPendingSkeleton(true);
-        }
-      }, SLOW_ROUTE_SKELETON_DELAY_MS);
-    }
+    skeletonTimer = setTimeout(() => {
+      if (transitionIdRef.current === transitionId) {
+        setShowPendingSkeleton(true);
+      }
+    }, SLOW_ROUTE_SKELETON_DELAY_MS);
 
     preloadRouteForLocation(actualLocation)
       .catch(() => undefined)
