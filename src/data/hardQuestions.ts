@@ -584,13 +584,13 @@ const baseQuestions: Question[] = [
   },
   {
     id: 60,
-    text: "$x^2 - 6x + 3 = 0$\\\\\\\\If one solution to the given equation can be represented by $3 + \\sqrt{p}$, where $p$ is a constant, what is the value of $p$?",
+    text: "$x^2 - 6x + 3 = 0$\\\\If one solution to the given equation can be represented by $3 + \\sqrt{p}$, where $p$ is a constant, what is the value of $p$?",
     correctAnswer: "6",
     type: "free-response",
   },
   {
     id: 61,
-    text: "$4y = 18$\\\\$y = -8x^2 + bx$\\\\\\\\In the $xy$-plane, the two given equations intersect at exactly one point. If $b$ is a positive constant, what is the value of $b$?",
+    text: "$4y = 18$\\\\$y = -8x^2 + bx$\\\\In the $xy$-plane, the two given equations intersect at exactly one point. If $b$ is a positive constant, what is the value of $b$?",
     correctAnswer: "12",
     type: "free-response",
   },
@@ -602,7 +602,7 @@ const baseQuestions: Question[] = [
   },
   {
     id: 63,
-    text: "$-25x^2 + (5ab)x + 25 = 0$\\\\\\\\For the given equation, $a$ and $b$ are positive constants. If the sum of solutions to the given equation is $mab$, where $m$ is a constant, what is the value of $m$?",
+    text: "$-25x^2 + (5ab)x + 25 = 0$\\\\For the given equation, $a$ and $b$ are positive constants. If the sum of solutions to the given equation is $mab$, where $m$ is a constant, what is the value of $m$?",
     choices: [
       { id: "A", text: "$\\frac{1}{25}$" },
       { id: "B", text: "$\\frac{1}{5}$" },
@@ -773,9 +773,15 @@ const baseQuestions: Question[] = [
   },
   {
     id: 81,
-    text: "$-16(4x-3)^2 + 6(3x-7)^2$\\\\The given equation above can be rewritten into the form $\\frac{a}{13} x^2 + \\frac{b}{13} x + \\frac{c}{13}$, where $a$, $b$, and $c$ are constants. What is the value of $a + b + c$?",
-    correctAnswer: "1040",
-    type: "free-response",
+    text: "Which of the following expressions has a factor of $x + 8a$, where $a$ is a positive integer constant?",
+    choices: [
+      { id: "A", text: "$2x^2 + 20x + 16a$" },
+      { id: "B", text: "$2x^2 + 30x + 16a$" },
+      { id: "C", text: "$2x^2 + 40x + 16a$" },
+      { id: "D", text: "$2x^2 + 50x + 16a$" },
+    ],
+    correctAnswer: "D",
+    type: "multiple-choice",
   },
   {
     id: 82,
