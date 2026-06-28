@@ -714,8 +714,8 @@ const baseQuestions: Question[] = [
     choices: [
       { id: "A", text: "$x < a$ or $x > b$" },
       { id: "B", text: "$a < x < b$" },
-      { id: "C", text: "$x > a$" },
-      { id: "D", text: "$x < b$" },
+      { id: "C", text: "$x < a$" },
+      { id: "D", text: "$x > b$" },
     ],
     correctAnswer: "B",
     type: "multiple-choice",
