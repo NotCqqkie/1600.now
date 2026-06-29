@@ -785,7 +785,7 @@ const baseQuestions: Question[] = [
   },
   {
     id: 82,
-    text: "The area of a rectangular factory consists of $11{,}132$ equal squares, where each of these squares has an area of $k$ meters. If the length of the factory is $5.75$ times that of the width, and the width is equal to $x\\sqrt{k}$, what is the value of $x$?",
+    text: "The area of a rectangular factory consists of $11{,}132$ equal squares, where each of these squares has an area of $k$ square meters. If the length of the factory is $5.75$ times that of the width, and the width is equal to $x\\sqrt{k}$, what is the value of $x$?",
     correctAnswer: "44",
     type: "free-response",
   },
