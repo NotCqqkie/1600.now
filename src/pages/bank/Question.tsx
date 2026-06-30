@@ -1262,6 +1262,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   const bottomCompressStateRef = useRef(false);
   const toolbarSpaceCheckRef = useRef<(() => void) | null>(null);
   const startTimeRef = useRef(Date.now());
+  const elapsedSecondsRef = useRef(0);
   const questionVisitStartedAtRef = useRef(Date.now());
   const timerLastSyncedAtRef = useRef(Date.now());
   const idleLastActivityAtRef = useRef(Date.now());
@@ -1301,6 +1302,10 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   useEffect(() => {
     isTimerPausedRef.current = isTimerPaused;
   }, [isTimerPaused]);
+
+  useEffect(() => {
+    elapsedSecondsRef.current = elapsedSeconds;
+  }, [elapsedSeconds]);
 
   useEffect(() => {
     if (!modulePracticeSlug) {
@@ -2337,6 +2342,12 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     questionVisitStartedAtRef.current = now;
   }, [currentQuestionId, isAssessmentMode, persistModulePracticeQuestionState, syncAssessmentTimer]);
 
+  const alignCountUpStartToDisplayedSeconds = useCallback((now = Date.now()) => {
+    const displayedElapsedSeconds = Math.max(0, elapsedSecondsRef.current);
+    startTimeRef.current = now - displayedElapsedSeconds * 1000;
+    return displayedElapsedSeconds;
+  }, []);
+
   const resumeIdleTimer = useCallback(() => {
     const now = Date.now();
     const pausedAt = idlePauseStartedAtRef.current;
@@ -2357,7 +2368,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     if (isAssessmentMode) {
       flushModulePracticeQuestionTime(true, pauseAt);
     } else {
-      setElapsedSeconds(Math.max(0, Math.floor((pauseAt - startTimeRef.current) / 1000)));
+      setElapsedSeconds(alignCountUpStartToDisplayedSeconds(pauseAt));
     }
     questionVisitStartedAtRef.current = pauseAt;
     timerLastSyncedAtRef.current = pauseAt;
@@ -2365,21 +2376,21 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     isIdleTimerPausedRef.current = true;
     setIsIdleTimerPaused(true);
     setIsIdleTimerPromptOpen(true);
-  }, [flushModulePracticeQuestionTime, isAssessmentMode, shouldUseIdleTimerPause]);
+  }, [alignCountUpStartToDisplayedSeconds, flushModulePracticeQuestionTime, isAssessmentMode, shouldUseIdleTimerPause]);
 
   const pauseCountUpTimer = useCallback(() => {
     const now = Date.now();
     if (isAssessmentMode) {
       flushModulePracticeQuestionTime(true, now);
     } else {
-      setElapsedSeconds(Math.max(0, Math.floor((now - startTimeRef.current) / 1000)));
+      setElapsedSeconds(alignCountUpStartToDisplayedSeconds(now));
     }
     manualTimerPauseStartedAtRef.current = now;
     questionVisitStartedAtRef.current = now;
     timerLastSyncedAtRef.current = now;
     isTimerPausedRef.current = true;
     setIsTimerPaused(true);
-  }, [flushModulePracticeQuestionTime, isAssessmentMode]);
+  }, [alignCountUpStartToDisplayedSeconds, flushModulePracticeQuestionTime, isAssessmentMode]);
 
   const resumeCountUpTimer = useCallback(() => {
     const now = Date.now();

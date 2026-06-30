@@ -134,6 +134,7 @@ export const MultipleChoiceQuestion = ({
               <div
                 className={cn(
                   "flex min-w-0 flex-1 gap-3 rounded-xl border-2 border-border bg-muted/30 p-3 sm:p-4 cursor-pointer hover:bg-muted/50 transition-colors",
+                  shouldReserveInlineCheck && "md:pr-28",
                   hasImage ? "items-start" : "items-center"
                 )}
                 onClick={(e) => {

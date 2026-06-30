@@ -809,7 +809,7 @@ const baseQuestions: Question[] = [
   },
   {
     id: 86,
-    text: "A scientist is using a sample of Technetium-99m with $23$-tera atoms. The number of Technetium-99 m's tera atoms decays in half every $6$ hours. Which of the following functions $T$ gives the number of tera-atoms $n$ days from now?",
+    text: "A scientist is using a sample of Technetium-99m with $23$ tera-atoms. The number of Technetium-99m tera-atoms decays in half every $6$ hours. Which of the following functions $T$ gives the number of tera-atoms $n$ days from now?",
     choices: [
       { id: "A", text: "$T(n) = 23(2)^{4n}$" },
       { id: "B", text: "$T(n) = 23(3)^{n/4}$" },
