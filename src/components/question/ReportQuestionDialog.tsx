@@ -83,7 +83,7 @@ export const ReportQuestionDialog = ({
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="max-w-md" container={portalContainer}>
+      <DialogContent className="z-[220] max-w-md" overlayClassName="z-[210]" container={portalContainer}>
         <DialogHeader>
           <DialogTitle>Report a question</DialogTitle>
         </DialogHeader>

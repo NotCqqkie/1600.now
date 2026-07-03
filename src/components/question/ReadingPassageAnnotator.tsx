@@ -215,17 +215,10 @@ export const ReadingPassageAnnotator = ({
   storageArea = localStorage,
 }: ReadingPassageAnnotatorProps) => {
   const rootRef = useRef<HTMLDivElement>(null);
-  const selectionPopupRef = useRef<HTMLDivElement>(null);
   const annotationPopupRef = useRef<HTMLDivElement>(null);
   const [annotations, setAnnotations] = useState<PassageAnnotation[]>(() =>
     loadAnnotations(storageArea, storageKey),
   );
-  const [pendingSelection, setPendingSelection] = useState<{
-    start: number;
-    end: number;
-    text: string;
-    anchor: FloatingPoint;
-  } | null>(null);
   const [activeAnnotation, setActiveAnnotation] = useState<{
     id: string;
     anchor: FloatingPoint;
@@ -233,7 +226,6 @@ export const ReadingPassageAnnotator = ({
 
   useEffect(() => {
     setAnnotations(loadAnnotations(storageArea, storageKey));
-    setPendingSelection(null);
     setActiveAnnotation(null);
   }, [storageArea, storageKey]);
 
@@ -243,21 +235,14 @@ export const ReadingPassageAnnotator = ({
 
   useEffect(() => {
     if (enabled) return;
-    setPendingSelection(null);
     setActiveAnnotation(null);
   }, [enabled]);
 
   useEffect(() => {
     const handlePointerDown = (event: MouseEvent) => {
       const target = event.target as HTMLElement;
-      const clickedInsideSelectionPopup = Boolean(selectionPopupRef.current?.contains(target));
       const clickedInsideAnnotationPopup = Boolean(annotationPopupRef.current?.contains(target));
       const clickedAnnotation = Boolean(target.closest("[data-annotation-id]"));
-      const clickedInsideRoot = Boolean(rootRef.current?.contains(target));
-
-      if (!clickedInsideSelectionPopup && !clickedInsideRoot) {
-        setPendingSelection(null);
-      }
 
       if (!clickedInsideAnnotationPopup && !clickedAnnotation) {
         setActiveAnnotation(null);
@@ -265,7 +250,6 @@ export const ReadingPassageAnnotator = ({
     };
 
     const handleRepositionSensitiveChange = () => {
-      setPendingSelection(null);
       setActiveAnnotation(null);
     };
 
@@ -286,32 +270,20 @@ export const ReadingPassageAnnotator = ({
   );
 
   const handleMouseUp = () => {
-    if (!enabled || !rootRef.current) {
-      setPendingSelection(null);
-      return;
-    }
+    if (!enabled || !rootRef.current) return;
 
     const selection = window.getSelection();
-    if (!selection || selection.rangeCount === 0 || selection.isCollapsed) {
-      setPendingSelection(null);
-      return;
-    }
+    if (!selection || selection.rangeCount === 0 || selection.isCollapsed) return;
 
     const range = selection.getRangeAt(0);
     const commonAncestor = range.commonAncestorContainer;
     const withinRoot =
       commonAncestor === rootRef.current || rootRef.current.contains(commonAncestor);
 
-    if (!withinRoot) {
-      setPendingSelection(null);
-      return;
-    }
+    if (!withinRoot) return;
 
     const text = selection.toString().trim();
-    if (!text) {
-      setPendingSelection(null);
-      return;
-    }
+    if (!text) return;
 
     const prefixRange = range.cloneRange();
     prefixRange.selectNodeContents(rootRef.current);
@@ -319,49 +291,22 @@ export const ReadingPassageAnnotator = ({
     const start = prefixRange.toString().length;
     const end = start + range.toString().length;
 
-    if (start === end) {
-      setPendingSelection(null);
-      return;
-    }
+    if (start === end) return;
 
     const rootTextLength = getTextLength(rootRef.current);
-    if (end > rootTextLength) {
-      setPendingSelection(null);
-      return;
-    }
-
-    const rect = range.getBoundingClientRect();
-    setActiveAnnotation(null);
-    setPendingSelection({
-      start,
-      end,
-      text,
-      anchor: {
-        x: rect.left + rect.width / 2,
-        aboveY: clampPopupY(rect.top - 14),
-        belowY: rect.bottom + 14,
-      },
-    });
-  };
-
-  const addAnnotation = (color: AnnotationColor) => {
-    if (!pendingSelection) return;
+    if (end > rootTextLength) return;
 
     const nextAnnotation: PassageAnnotation = {
       id: `${Date.now()}-${Math.random().toString(36).slice(2, 8)}`,
-      start: pendingSelection.start,
-      end: pendingSelection.end,
-      color,
-      text: pendingSelection.text,
+      start,
+      end,
+      color: "yellow",
+      text,
     };
 
     setAnnotations((prev) => [...prev, nextAnnotation].sort((leftAnnotation, rightAnnotation) => leftAnnotation.start - rightAnnotation.start));
-    setActiveAnnotation({
-      id: nextAnnotation.id,
-      anchor: pendingSelection.anchor,
-    });
-    setPendingSelection(null);
-    window.getSelection()?.removeAllRanges();
+    setActiveAnnotation(null);
+    selection.removeAllRanges();
   };
 
   const handleAnnotationClick = (event: React.MouseEvent<HTMLDivElement>) => {
@@ -373,7 +318,6 @@ export const ReadingPassageAnnotator = ({
     event.preventDefault();
     event.stopPropagation();
     window.getSelection()?.removeAllRanges();
-    setPendingSelection(null);
 
     const id = annotationElement.dataset.annotationId;
     if (!id) return;
@@ -408,9 +352,6 @@ export const ReadingPassageAnnotator = ({
   const selectedAnnotation = activeAnnotation
     ? annotations.find((annotation) => annotation.id === activeAnnotation.id) ?? null
     : null;
-  const pendingSelectionPlacement = pendingSelection
-    ? getPopupPlacement(pendingSelection.anchor)
-    : null;
   const activeAnnotationPlacement = activeAnnotation
     ? getActivePopupPlacement(activeAnnotation.anchor)
     : null;
@@ -432,37 +373,6 @@ export const ReadingPassageAnnotator = ({
           dangerouslySetInnerHTML={{ __html: annotatedHtml }}
         />
       </div>
-
-      {pendingSelection && (
-        <div
-          ref={selectionPopupRef}
-          className={cn(
-            "fixed z-[150] border border-border bg-background/95 backdrop-blur rounded-full px-2 py-1.5",
-            POPUP_SHADOW,
-          )}
-          style={pendingSelectionPlacement ?? undefined}
-        >
-          <div className="flex items-center gap-2">
-            {(
-              Object.entries(ANNOTATION_COLORS) as Array<
-                [AnnotationColor, (typeof ANNOTATION_COLORS)[AnnotationColor]]
-              >
-            ).map(([color, meta]) => (
-              <button
-                key={color}
-                type="button"
-                className="flex h-10 w-10 items-center justify-center rounded-full border border-black/10 transition-transform hover:scale-105 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary"
-                style={{ backgroundColor: meta.fill, boxShadow: `inset 0 0 0 1px ${meta.border}` }}
-                title={`Highlight ${meta.label}`}
-                aria-label={`Highlight ${meta.label}`}
-                onClick={() => addAnnotation(color)}
-              >
-                <span className={cn("h-7 w-7 rounded-full", meta.chip)} />
-              </button>
-            ))}
-          </div>
-        </div>
-      )}
 
       {activeAnnotation && selectedAnnotation && (
         <div
@@ -511,7 +421,7 @@ export const ReadingPassageAnnotator = ({
 
             <button
               type="button"
-              className="absolute right-2 top-1/2 flex h-8 w-8 -translate-y-1/2 animate-scale-in items-center justify-center text-muted-foreground transition-[color,transform] hover:scale-110 hover:text-red-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-red-400"
+              className="absolute right-2 top-1/2 flex h-8 w-8 -translate-y-1/2 animate-annotation-trash-in items-center justify-center text-muted-foreground transition-colors hover:text-red-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-red-400"
               aria-label="Delete annotation"
               title="Delete annotation"
               onClick={removeAnnotation}

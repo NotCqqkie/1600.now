@@ -122,7 +122,7 @@ export function PreviousAttemptsDialog({ attempts }: PreviousAttemptsDialogProps
           <RotateCcw className="h-4 w-4" />
         </Button>
       </DialogTrigger>
-      <DialogContent className="sm:max-w-[500px]" onClick={(e) => e.stopPropagation()}>
+      <DialogContent className="z-[220] sm:max-w-[500px]" overlayClassName="z-[210]" onClick={(e) => e.stopPropagation()}>
         <DialogHeader>
           <DialogTitle className="text-2xl font-bold">Previous attempts</DialogTitle>
         </DialogHeader>
