@@ -1,4 +1,5 @@
 import { initializeApp, getApps, getApp } from "firebase/app";
+import { initializeAppCheck, ReCaptchaV3Provider } from "firebase/app-check";
 import { isLocalHost } from "@/lib/firebase/firebaseHosts";
 
 const requiredEnvKeys = [
@@ -50,11 +51,9 @@ export const app = hasFirebaseConfig
 
 const appCheckSiteKey = import.meta.env.VITE_RECAPTCHA_SITE_KEY || "";
 if (app && appCheckSiteKey && typeof window !== "undefined") {
-  void import("firebase/app-check").then(({ initializeAppCheck, ReCaptchaV3Provider }) => {
-    initializeAppCheck(app, {
-      provider: new ReCaptchaV3Provider(appCheckSiteKey),
-      isTokenAutoRefreshEnabled: true,
-    });
+  initializeAppCheck(app, {
+    provider: new ReCaptchaV3Provider(appCheckSiteKey),
+    isTokenAutoRefreshEnabled: true,
   });
 }
 
