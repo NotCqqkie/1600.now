@@ -16,6 +16,45 @@ service cloud.firestore {
              && request.auth.token.admin == true;
     }
 
+    function reportCountKeys() {
+      return ['incorrectAnswer', 'incorrectQuestion', 'missingImage',
+              'corrupted', 'typo', 'wrongExplanation', 'other'];
+    }
+
+    function countCreateValid(k, counts) {
+      return (!(k in counts) || (counts[k] is int && counts[k] == 1));
+    }
+
+    function countsValidOnCreate(counts) {
+      return counts.keys().hasOnly(reportCountKeys())
+             && countCreateValid('incorrectAnswer', counts)
+             && countCreateValid('incorrectQuestion', counts)
+             && countCreateValid('missingImage', counts)
+             && countCreateValid('corrupted', counts)
+             && countCreateValid('typo', counts)
+             && countCreateValid('wrongExplanation', counts)
+             && countCreateValid('other', counts);
+    }
+
+    function countStepValid(k, next, prev) {
+      let previous = k in prev ? prev[k] : 0;
+      return (!(k in next)
+              || (next[k] is int
+                  && next[k] >= previous
+                  && next[k] <= previous + 1));
+    }
+
+    function countsValidOnUpdate(next, prev) {
+      return next.keys().hasOnly(reportCountKeys())
+             && countStepValid('incorrectAnswer', next, prev)
+             && countStepValid('incorrectQuestion', next, prev)
+             && countStepValid('missingImage', next, prev)
+             && countStepValid('corrupted', next, prev)
+             && countStepValid('typo', next, prev)
+             && countStepValid('wrongExplanation', next, prev)
+             && countStepValid('other', next, prev);
+    }
+
     // Per-user progress, vocab, and personalization. Only the owning user
     // (with a verified email) may read or write their own doc, and the
     // document's user_id field must match the auth uid.
@@ -44,6 +83,8 @@ service cloud.firestore {
                     && request.auth.token.email_verified == true
                     && request.resource.data.questionId == questionId
                     && request.resource.data.totalReports == 1
+                    && (!('counts' in request.resource.data)
+                        || countsValidOnCreate(request.resource.data.counts))
                     && (!('otherComments' in request.resource.data)
                         || request.resource.data.otherComments.size() <= 1);
 
@@ -51,9 +92,13 @@ service cloud.firestore {
                     && request.auth.token.email_verified == true
                     && request.resource.data.questionId == questionId
                     && request.resource.data.totalReports == resource.data.totalReports + 1
+                    && (!('counts' in request.resource.data)
+                        || countsValidOnUpdate(request.resource.data.counts,
+                                               ('counts' in resource.data ? resource.data.counts : {})))
                     && (!('otherComments' in request.resource.data)
                         || !('otherComments' in resource.data)
-                        || request.resource.data.otherComments.size() <= resource.data.otherComments.size() + 1)
+                        || (request.resource.data.otherComments.size() >= resource.data.otherComments.size()
+                            && request.resource.data.otherComments.size() <= resource.data.otherComments.size() + 1))
                     && (!('otherComments' in request.resource.data)
                         || request.resource.data.otherComments.size() <= 500);
     }

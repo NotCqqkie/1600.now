@@ -48,4 +48,14 @@ export const app = hasFirebaseConfig
   ? (getApps().length ? getApp() : initializeApp(firebaseConfig))
   : null;
 
+const appCheckSiteKey = import.meta.env.VITE_RECAPTCHA_SITE_KEY || "";
+if (app && appCheckSiteKey && typeof window !== "undefined") {
+  void import("firebase/app-check").then(({ initializeAppCheck, ReCaptchaV3Provider }) => {
+    initializeAppCheck(app, {
+      provider: new ReCaptchaV3Provider(appCheckSiteKey),
+      isTokenAutoRefreshEnabled: true,
+    });
+  });
+}
+
 export const firebaseConfigError = hasFirebaseConfig ? null : missingConfigMessage;
