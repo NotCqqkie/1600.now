@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Group the terms",
-      "content": "Group: $(7x^2 - 9x) + (14x - 18)$."
+      "content": "Group: $(5x^2 - 8x) + (15x - 24)$."
     },
     {
       "title": "Apply the common-factor step",
-      "content": "Factor each pair: $$x(7x-9) + 2(7x-9) = (x+2)(7x-9).$$"
+      "content": "Factor each pair: $$x(5x-8) + 3(5x-8) = (x+3)(5x-8).$$"
     },
     {
       "title": "Identify the matching factor",
-      "content": "So $x+2$ is a factor. <strong>D</strong> is correct."
+      "content": "So $x+3$ is a factor. <strong>D</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches the correct answer, x + 2, and the other choices fail the same setup or substitution. Therefore <strong>D</strong> is correct."
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches the correct answer, x + 3, and the other choices fail the same setup or substitution. Therefore <strong>D</strong> is correct."
     }
   ]
 }

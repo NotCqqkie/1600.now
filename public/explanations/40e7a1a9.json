@@ -1,15 +1,15 @@
 {
   "questionId": "40e7a1a9",
-  "correctAnswer": "600",
+  "correctAnswer": "500",
   "section": "Math",
   "steps": [
     {
       "title": "Set up percent increase formula",
-      "content": "The percent increase from an original value to a new value is given by $$\\frac{\\text{new} - \\text{original}}{\\text{original}} \\times 100\\%.$$ Here the original is 30 and the new is 210."
+      "content": "The percent increase from an original value to a new value is given by $$\\frac{\\text{new} - \\text{original}}{\\text{original}} \\times 100\\%.$$ Here the original is 48 and the new is 288."
     },
     {
       "title": "Calculate p",
-      "content": "$$\\frac{210-30}{30} \\times 100 = \\frac{180}{30} \\times 100 = 6 \\times 100 = 600.$$ The answer is <strong>600</strong>."
+      "content": "$$\\frac{288-48}{48} \\times 100 = \\frac{240}{48} \\times 100 = 5 \\times 100 = 500.$$ The answer is <strong>500</strong>."
     }
   ]
 }

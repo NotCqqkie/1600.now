@@ -1,19 +1,19 @@
 {
   "questionId": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_22",
-  "correctAnswer": "-18",
+  "correctAnswer": "-20",
   "section": "Math",
   "steps": [
     {
       "title": "Clear fractions",
-      "content": "Multiply both sides of $\\frac{1}{cx}=\\frac{x}{72}+\\frac{1}{c}$ by $72cx$: $$72=cx^2+72x.$$ So the equation becomes $$cx^2+72x-72=0.$$"
+      "content": "Multiply both sides of $\\frac{1}{cx}=\\frac{x}{80}+\\frac{1}{c}$ by $80cx$: $$80=cx^2+80x.$$ So the equation becomes $$cx^2+80x-80=0.$$"
     },
     {
       "title": "Solve the discriminant equation",
-      "content": "A quadratic has exactly one real solution when its discriminant is $0$. Here the discriminant is $$72^2-4(c)(-72)=72^2+4c(72).$$ Set the discriminant equal to $0$ and solve to get $c=-18$."
+      "content": "A quadratic has exactly one real solution when its discriminant is $0$. Here the discriminant is $$80^2-4(c)(-80)=80^2+4c(80).$$ Set the discriminant equal to $0$ and solve to get $c=-20$."
     },
     {
       "title": "Confirm the answer",
-      "content": "Solving by hand gives $$72^2+288c=0$$ $$5{,}184+288c=0$$ $$c=-18.$$ The answer is <strong>-18</strong>."
+      "content": "Solving by hand gives $$80^2+320c=0$$ $$6{,}400+320c=0$$ $$c=-20.$$ The answer is <strong>-20</strong>."
     }
   ]
 }

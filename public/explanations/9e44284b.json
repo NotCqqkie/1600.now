@@ -9,15 +9,15 @@
     },
     {
       "title": "Factor out 2 to prepare for completing the square",
-      "content": "Group the $x$ and $y$ terms with the coefficient 2 factored out:<br/>$$2x^2 - 6x + 2y^2 + 2y = 45$$<br/>$$2(x^2 - 3x) + 2(y^2 + y) = 45$$"
+      "content": "Group the $x$ and $y$ terms with the coefficient 2 factored out:<br/>$$2x^2 - 10x + 2y^2 + 2y = 59$$<br/>$$2(x^2 - 5x) + 2(y^2 + y) = 59$$"
     },
     {
       "title": "Complete the square for both variables",
-      "content": "For $x^2 - 3x$, add and subtract $(3/2)^2 = 9/4$. For $y^2 + y$, add and subtract $(1/2)^2 = 1/4$.<br/>$$2\\left[\\left(x - \\frac{3}{2}\\right)^2 - \\frac{9}{4}\\right] + 2\\left[\\left(y + \\frac{1}{2}\\right)^2 - \\frac{1}{4}\\right] = 45$$<br/>Distribute the 2:<br/>$$2\\left(x - \\frac{3}{2}\\right)^2 + 2\\left(y + \\frac{1}{2}\\right)^2 - \\frac{9}{2} - \\frac{1}{2} = 45$$<br/>$$2\\left(x - \\frac{3}{2}\\right)^2 + 2\\left(y + \\frac{1}{2}\\right)^2 = 50$$"
+      "content": "For $x^2 - 5x$, add and subtract $(5/2)^2 = 25/4$. For $y^2 + y$, add and subtract $(1/2)^2 = 1/4$.<br/>$$2\\left[\\left(x - \\frac{5}{2}\\right)^2 - \\frac{25}{4}\\right] + 2\\left[\\left(y + \\frac{1}{2}\\right)^2 - \\frac{1}{4}\\right] = 59$$<br/>Distribute the 2:<br/>$$2\\left(x - \\frac{5}{2}\\right)^2 + 2\\left(y + \\frac{1}{2}\\right)^2 - \\frac{25}{2} - \\frac{1}{2} = 59$$<br/>$$2\\left(x - \\frac{5}{2}\\right)^2 + 2\\left(y + \\frac{1}{2}\\right)^2 = 72$$"
     },
     {
       "title": "Convert to standard circle form and find the radius",
-      "content": "Divide both sides by 2:<br/>$$\\left(x - \\frac{3}{2}\\right)^2 + \\left(y + \\frac{1}{2}\\right)^2 = 25$$<br/>This is now in standard form $(x-h)^2 + (y-k)^2 = r^2$ with $r^2 = 25$. Taking the square root: $r = 5$. That confirms <strong>A</strong> is correct."
+      "content": "Divide both sides by 2:<br/>$$\\left(x - \\frac{5}{2}\\right)^2 + \\left(y + \\frac{1}{2}\\right)^2 = 36$$<br/>This is now in standard form $(x-h)^2 + (y-k)^2 = r^2$ with $r^2 = 36$. Taking the square root: $r = 6$. That confirms <strong>A</strong> is correct."
     }
   ]
 }

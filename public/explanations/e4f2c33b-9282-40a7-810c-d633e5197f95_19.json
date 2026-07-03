@@ -9,15 +9,15 @@
     },
     {
       "title": "Find the missing width",
-      "content": "The base area is $56t$ and the length is $\\frac{14}{3}$, so $$\\text{width}=56t\\div\\frac{14}{3}=56t\\cdot\\frac{3}{14}=12t.$$"
+      "content": "The base area is $63t$ and the length is $\\frac{21}{4}$, so $$\\text{width}=63t\\div\\frac{21}{4}=63t\\cdot\\frac{4}{21}=12t.$$"
     },
     {
       "title": "Find the three face areas",
-      "content": "The base area is $56t$. The front face area is $$\\frac{14}{3}\\cdot3=14.$$ The side face area is $$12t\\cdot3=36t.$$"
+      "content": "The base area is $63t$. The front face area is $$\\frac{21}{4}\\cdot4=21.$$ The side face area is $$12t\\cdot4=48t.$$"
     },
     {
       "title": "Double the face areas",
-      "content": "A rectangular prism has two of each face, so the surface area is $$2(56t+14+36t)=2(92t+14)=184t+28.$$"
+      "content": "A rectangular prism has two of each face, so the surface area is $$2(63t+21+48t)=2(111t+21)=222t+42.$$"
     }
   ]
 }

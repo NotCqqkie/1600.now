@@ -9,12 +9,12 @@
     },
     {
       "title": "Identify the standard circle equation and extract values",
-      "content": "A circle with center $(h, k)$ and radius $r$ follows a standard form. From the problem: center is $(19, 16)$ (so $h = 19$, $k = 16$) and radius is $8k$ (so $r = 8k$).",
+      "content": "A circle with center $(h, k)$ and radius $r$ follows a standard form. From the problem: center is $(17, 14)$ (so $h = 17$, $k = 14$) and radius is $7k$ (so $r = 7k$).",
       "formula": "$$(x-h)^2 + (y-k)^2 = r^2$$"
     },
     {
       "title": "Substitute and square the radius",
-      "content": "Substitute into the formula: $(x-19)^2 + (y-16)^2 = (8k)^2$. Calculate $(8k)^2 = 64k^2$. That is the correct answer."
+      "content": "Substitute into the formula: $(x-17)^2 + (y-14)^2 = (7k)^2$. Calculate $(7k)^2 = 49k^2$. That is the correct answer."
     }
   ]
 }

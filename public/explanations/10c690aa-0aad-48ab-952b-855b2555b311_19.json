@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The store starts with 700 customers in January 2018 ($m=0$) and grows 8% per month. An 8% monthly increase means each month&apos;s count is multiplied by $1.08$. The model is $c = 700(1.08)^m$."
+      "content": "The company starts with 600 customers in March 2019 ($m=0$) and grows 6% per month. A 6% monthly increase means each month&apos;s count is multiplied by $1.06$. The model is $c = 600(1.06)^m$."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; $c = 700(0.08)^m$</strong>: $0.08$ is just the rate, not the growth factor; this decays to zero. &#10007;</li><li><strong>Choice B &mdash; $c = 700(1.08)^m$</strong>: starting value 700, growth factor $1 + 0.08 = 1.08$, exponent $m$ months. &#10003;</li><li><strong>Choice C &mdash; $c = 700(1.8)^m$</strong>: uses a growth factor of 1.8, which would mean an 80% monthly increase, not 8%. &#10007;</li><li><strong>Choice D &mdash; $c = 700(8)^m$</strong>: uses a growth factor of 8, which is far larger than an 8% increase. &#10007;</li></ul>That matches <strong>Choice B &mdash; $c = 700(1.08)^m$</strong>."
+      "content": "<ul><li><strong>Choice A &mdash; $c = 600(0.06)^m$</strong>: $0.06$ is just the rate, not the growth factor; this decays to zero. &#10007;</li><li><strong>Choice B &mdash; $c = 600(1.06)^m$</strong>: starting value 600, growth factor $1 + 0.06 = 1.06$, exponent $m$ months. &#10003;</li><li><strong>Choice C &mdash; $c = 600(1.6)^m$</strong>: uses a growth factor of 1.6, which would mean a 60% monthly increase, not 6%. &#10007;</li><li><strong>Choice D &mdash; $c = 600(6)^m$</strong>: uses a growth factor of 6, which is far larger than a 6% increase. &#10007;</li></ul>That matches <strong>Choice B &mdash; $c = 600(1.06)^m$</strong>."
     }
   ]
 }

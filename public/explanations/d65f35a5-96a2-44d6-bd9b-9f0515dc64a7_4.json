@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify what -3 represents in the linear function",
-      "content": "The function $t(x) = -3x + 74$ is a linear function in the form $f(x) = mx + b$. The value $-3$ is the coefficient of $x$, which is the slope of the line."
+      "title": "Identify what -4 represents in the linear function",
+      "content": "The function $t(x) = -4x + 72$ is a linear function in the form $f(x) = mx + b$. The value $-4$ is the coefficient of $x$, which is the slope of the line."
     },
     {
       "title": "Interpret the slope as the rate of change per hour",
-      "content": "In this context, $x$ represents hours after 6 p.m., so the slope tells us how much the temperature changes per hour. Since the slope is $-3$, the temperature decreases by 3 degrees Fahrenheit for each hour that passes. That matches the correct answer — <strong>A</strong> is correct."
+      "content": "In this context, $x$ represents hours after 6 p.m., so the slope tells us how much the temperature changes per hour. Since the slope is $-4$, the temperature decreases by 4 degrees Fahrenheit for each hour that passes. That matches the correct answer - <strong>A</strong> is correct."
     }
   ]
 }

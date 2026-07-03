@@ -1,6 +1,6 @@
 {
   "questionId": "9f934297",
-  "correctAnswer": "2216",
+  "correctAnswer": "2088",
   "section": "Math",
   "steps": [
     {
@@ -9,12 +9,12 @@
     },
     {
       "title": "Apply the surface area formula for a rectangular prism",
-      "content": "A rectangular prism has six faces in three distinct pairs. We sum the area of each pair and multiply by 2:<br/><br/>Calculate each distinct face area with $l = 28$ cm, $w = 15$ cm, and $h = 16$ cm:<br/>$$lw = 28 \\times 15 = 420$$<br/>$$lh = 28 \\times 16 = 448$$<br/>$$wh = 15 \\times 16 = 240$$",
+      "content": "A rectangular prism has six faces in three distinct pairs. We sum the area of each pair and multiply by 2:<br/><br/>Calculate each distinct face area with $l = 26$ cm, $w = 17$ cm, and $h = 14$ cm:<br/>$$lw = 26 \\times 17 = 442$$<br/>$$lh = 26 \\times 14 = 364$$<br/>$$wh = 17 \\times 14 = 238$$",
       "formula": "$$SA = 2(lw + lh + wh)$$"
     },
     {
       "title": "Sum the face areas and multiply by 2",
-      "content": "$$420 + 448 + 240 = 1108$$<br/>$$SA = 2 \\times 1108 = 2216 \\text{ cm}^2$$<br/>The surface area is <strong>2216 cm²</strong>."
+      "content": "$$442 + 364 + 238 = 1044$$<br/>$$SA = 2 \\times 1044 = 2088 \\text{ cm}^2$$<br/>The surface area is <strong>2088 cm^2</strong>."
     }
   ]
 }

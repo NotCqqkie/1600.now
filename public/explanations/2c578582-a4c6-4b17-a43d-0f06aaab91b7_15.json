@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set y = 0 and isolate the exponential",
-      "content": "An $x$-axis crossing means $y = 0$:$$0 = 9\\left(\\frac{a}{6}\\right)^{x+c} - b$$$$\\left(\\frac{a}{6}\\right)^{x+c} = \\frac{b}{9}$$"
+      "content": "An $x$-axis crossing means $y = 0$:$$0 = 7\\left(\\frac{a}{4}\\right)^{x+c} - b$$$$\\left(\\frac{a}{4}\\right)^{x+c} = \\frac{b}{7}$$"
     },
     {
       "title": "Count solutions of the exponential equation",
-      "content": "Because $a \\gt  6$, the base $\\frac{a}{6} \\gt  1$, so $\\left(\\frac{a}{6}\\right)^{x+c}$ is a strictly increasing, continuous function of $x$ with range $(0, \\infty)$. Since $b \\gt  0$, the target $\\frac{b}{9}$ is a positive real number, which lies in $(0, \\infty)$. A strictly increasing function hits each value in its range exactly once, so there is exactly <strong>one</strong> solution. (The condition $b \\gt  c$ plays no role in the count.)<br/><br/>The result matches."
+      "content": "Because $a \\gt  4$, the base $\\frac{a}{4} \\gt  1$, so $\\left(\\frac{a}{4}\\right)^{x+c}$ is a strictly increasing, continuous function of $x$ with range $(0, \\infty)$. Since $b \\gt  0$, the target $\\frac{b}{7}$ is a positive real number, which lies in $(0, \\infty)$. A strictly increasing function hits each value in its range exactly once, so there is exactly <strong>one</strong> solution. (The condition $b \\gt  c$ plays no role in the count.)<br/><br/>The result matches."
     }
   ]
 }

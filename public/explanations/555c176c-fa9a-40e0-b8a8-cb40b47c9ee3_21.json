@@ -1,19 +1,19 @@
 {
   "questionId": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_21",
-  "correctAnswer": "750",
+  "correctAnswer": "448",
   "section": "Math",
   "steps": [
     {
       "title": "Treat the model as ordinary exponential growth",
-      "content": "Since $f(x)=ab^{x/n}$, let $k=b^{1/n}$. Then the model is $f(x)=ak^x$, where $k$ is the multiplier for each 1-unit increase in $x$. This avoids guessing separate values of $b$ and $n$."
+      "content": "Since $f(x)=ab^{x/n}$, let $k=b^{1/n}$. Then the model is $f(x)=ak^x$, where $k$ is the multiplier for each 1-unit increase in $x$. Because $b$ is positive, $k$ is positive. This avoids guessing separate values of $b$ and $n$."
     },
     {
       "title": "Find the 1-unit multiplier",
-      "content": "Use the two given values as a ratio:<br/>$$\\frac{f(5)}{f(3)}=\\frac{150}{6}=25$$<br/>The input increased by $2$, so $k^2=25$. Because the function values are positive, $k=5$."
+      "content": "Use the two given values as a ratio:<br/>$$\\frac{f(5)}{f(3)}=\\frac{112}{7}=16$$<br/>The input increased by $2$, so $k^2=16$. Since $k$ is positive, $k=4$."
     },
     {
       "title": "Move one step from x = 5 to x = 6",
-      "content": "From $x=5$ to $x=6$ is one 1-unit increase, so multiply by $k=5$:<br/>$$f(6)=150\\cdot 5=750$$<br/>The answer is <strong>750</strong>."
+      "content": "From $x=5$ to $x=6$ is one 1-unit increase, so multiply by $k=4$:<br/>$$f(6)=112\\cdot 4=448$$<br/>The answer is <strong>448</strong>."
     }
   ]
 }

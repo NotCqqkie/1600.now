@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up the quadratic solution form",
-      "content": "The answer choices are written as exact radical expressions for the solutions, so solve the quadratic and then match the simplified form. For $x^2 - 2x - 9 = 0$, the coefficients are $a = 1$, $b = -2$, and $c = -9$. First compute the discriminant:<br/>$$b^2 - 4ac = (-2)^2 - 4(1)(-9) = 4 + 36 = 40$$<br/>Then substitute into the quadratic formula:<br/>$$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a} = \\frac{2 \\pm \\sqrt{40}}{2}$$"
+      "content": "The answer choices are written as exact radical expressions for the solutions, so solve the quadratic and then match the simplified form. For $x^2 - 6x - 4 = 0$, the coefficients are $a = 1$, $b = -6$, and $c = -4$. First compute the discriminant:<br/>$$b^2 - 4ac = (-6)^2 - 4(1)(-4) = 36 + 16 = 52$$<br/>Then substitute into the quadratic formula:<br/>$$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a} = \\frac{6 \\pm \\sqrt{52}}{2}$$"
     },
     {
       "title": "Simplify the radical and extract k",
-      "content": "Simplify $\\sqrt{40} = \\sqrt{4 \\cdot 10} = 2\\sqrt{10}$. Substitute back to get:<br/>$$x = \\frac{2 \\pm 2\\sqrt{10}}{2} = \\frac{2(1 \\pm \\sqrt{10})}{2} = 1 \\pm \\sqrt{10}$$<br/>One solution is $x = 1 + \\sqrt{10}$. Comparing to the form $1 + \\sqrt{k}$, we see that $k = 10$. That is the correct answer."
+      "content": "Simplify $\\sqrt{52} = \\sqrt{4 \\cdot 13} = 2\\sqrt{13}$. Substitute back to get:<br/>$$x = \\frac{6 \\pm 2\\sqrt{13}}{2} = \\frac{2(3 \\pm \\sqrt{13})}{2} = 3 \\pm \\sqrt{13}$$<br/>One solution is $x = 3 + \\sqrt{13}$. Comparing to the form $3 + \\sqrt{k}$, we see that $k = 13$, so the correct answer is choice B."
     }
   ]
 }

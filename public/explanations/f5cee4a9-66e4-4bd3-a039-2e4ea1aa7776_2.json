@@ -3,7 +3,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $13x^{2}-91$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $12x^{2}-96$."
     },
     {
       "title": "Algebra check",
@@ -11,11 +11,11 @@
     },
     {
       "title": "Explanation",
-      "content": "Distribute 13 across the binomial: 13(x&sup2; &minus; 7) = 13 &middot; x&sup2; &minus; 13 &middot; 7 = 13x&sup2; &minus; 91."
+      "content": "Distribute 12 across the binomial: 12(x&sup2; &minus; 8) = 12 &middot; x&sup2; &minus; 12 &middot; 8 = 12x&sup2; &minus; 96."
     },
     {
       "title": "Explanation",
-      "content": "<ul><li><strong>$13x^{2}-91$</strong>: 13x&sup2; &minus; 91 &mdash; matches 13 &middot; x&sup2; minus 13 &middot; 7 exactly.</li><li><strong>$13x^{2}-20$</strong>: 13x&sup2; &minus; 20 &mdash; subtracts 7 + 13 instead of multiplying.</li><li><strong>$13x^{2}-7$</strong>: 13x&sup2; &minus; 7 &mdash; does not distribute 13 onto the constant term.</li><li><strong>$13x^{2}+6$</strong>: 13x&sup2; + 6 &mdash; adds 13 and &minus;7 instead of distributing.</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+      "content": "<ul><li><strong>$12x^{2}-96$</strong>: 12x&sup2; &minus; 96 &mdash; matches 12 &middot; x&sup2; minus 12 &middot; 8 exactly.</li><li><strong>$12x^{2}-20$</strong>: 12x&sup2; &minus; 20 &mdash; subtracts 8 + 12 instead of multiplying.</li><li><strong>$12x^{2}-8$</strong>: 12x&sup2; &minus; 8 &mdash; does not distribute 12 onto the constant term.</li><li><strong>$12x^{2}+4$</strong>: 12x&sup2; + 4 &mdash; adds 12 and &minus;8 instead of distributing.</li></ul>That matches the correct answer, so <strong>A</strong> is correct."
     }
   ],
   "correctAnswer": "A",

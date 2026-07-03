@@ -8,13 +8,13 @@
     },
     {
       "title": "Use the coverage rate",
-      "content": "At 1 gallon per 70 square feet, the gallons needed are $P = \\frac{2w}{70}$."
+      "content": "At 1 gallon per 80 square feet, the gallons needed are $P = \\frac{2w}{80}$."
     },
     {
       "title": "Simplify and match",
-      "content": "Simplify: $\\frac{2w}{70} = \\frac{w}{35}$. This keeps the units as gallons and accounts for both coats.<br/><br/>That matches <strong>Choice D &mdash; $P=\\frac{w}{35}$</strong>."
+      "content": "Simplify: $\\frac{2w}{80} = \\frac{w}{40}$. This keeps the units as gallons and accounts for both coats.<br/><br/>That matches <strong>Choice D &mdash; $P=\\frac{w}{40}$</strong>."
     }
   ],
-  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; $P=\\frac{w}{70}$</strong>: This covers the walls only once, not twice. &#10007;</li><li><strong>Choice B &mdash; $P=70w$</strong>: This multiplies instead of divides, giving a nonsensically large number of gallons. &#10007;</li><li><strong>Choice C &mdash; $P=140w$</strong>: Also multiplies, making $P$ grow with $w$ at a rate of 140. Dimensionally wrong. &#10007;</li><li><strong>Choice D &mdash; $P=\\frac{w}{35}$</strong>: Equivalent to $\\frac{2w}{70}$, correctly accounting for two coats. &#10003;</li></ul>That matches <strong>Choice D &mdash; $P=\\frac{w}{35}$</strong>.",
+  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; $P=\\frac{w}{80}$</strong>: This covers the walls only once, not twice. &#10007;</li><li><strong>Choice B &mdash; $P=80w$</strong>: This multiplies instead of divides, giving a nonsensically large number of gallons. &#10007;</li><li><strong>Choice C &mdash; $P=160w$</strong>: Also multiplies, making $P$ grow with $w$ at a rate of 160. Dimensionally wrong. &#10007;</li><li><strong>Choice D &mdash; $P=\\frac{w}{40}$</strong>: Equivalent to $\\frac{2w}{80}$, correctly accounting for two coats. &#10003;</li></ul>That matches <strong>Choice D &mdash; $P=\\frac{w}{40}$</strong>.",
   "correctAnswer": "D"
 }

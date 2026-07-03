@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Analyze $f(x)=-6(3)^x-3$",
-      "content": "The base $3\\gt 1$ makes $(3)^x$ grow without bound as $x\\to\\infty$, and the $-6$ coefficient flips the sign, so $-6(3)^x\\to-\\infty$. Thus $f(x)\\to-\\infty$ as $x\\to\\infty$, meaning $f$ has no minimum value. The horizontal asymptote $y=-3$ is approached as $x\\to-\\infty$ but never attained."
+      "title": "Analyze $f(x)=-5(4)^x-4$",
+      "content": "The base $4\\gt 1$ makes $(4)^x$ grow without bound as $x\\to\\infty$, and the $-5$ coefficient flips the sign, so $-5(4)^x\\to-\\infty$. Thus $f(x)\\to-\\infty$ as $x\\to\\infty$, meaning $f$ has no minimum value. The horizontal asymptote $y=-4$ is approached as $x\\to-\\infty$ but never attained."
     },
     {
-      "title": "Analyze $g(x)=-3(6)^x$",
-      "content": "Similarly $(6)^x\\to\\infty$ as $x\\to\\infty$, so $g(x)=-3(6)^x\\to-\\infty$. There is no minimum value; the asymptote $y=0$ is approached as $x\\to-\\infty$ but never reached, and $g$ never equals $-3$ at a minimum."
+      "title": "Analyze $g(x)=-4(5)^x$",
+      "content": "Similarly $(5)^x\\to\\infty$ as $x\\to\\infty$, so $g(x)=-4(5)^x\\to-\\infty$. There is no minimum value; the asymptote $y=0$ is approached as $x\\to-\\infty$ but never reached, and $g$ never equals $-4$ at a minimum."
     },
     {
       "title": "Choose the statement",
-      "content": "Neither function has a minimum value of $-3$: both continue decreasing without bound. That matches <strong>Choice D &mdash; Neither I nor II</strong>."
+      "content": "Neither function has a minimum value of $-4$: both continue decreasing without bound. That matches <strong>Choice D &mdash; Neither I nor II</strong>."
     }
   ]
 }

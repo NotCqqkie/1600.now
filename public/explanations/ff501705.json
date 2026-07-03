@@ -1,15 +1,15 @@
 {
   "questionId": "ff501705",
-  "correctAnswer": "6",
+  "correctAnswer": "5",
   "section": "Math",
   "steps": [
     {
       "title": "Apply the no-solution condition",
-      "content": "Combine and clear fractions: the first becomes $x-12y=-\\tfrac{8}{3}$ and the second becomes $x-2py=6$. For no solution, the $y$-coefficients must match: $$-12=-2p.$$"
+      "content": "Combine and clear fractions: the first becomes $x-10y=-3$ and the second becomes $x-2py=4$. For no solution, the $y$-coefficients must match: $$-10=-2p.$$"
     },
     {
       "title": "Solve for the parameter",
-      "content": "Solve $$-12=-2p$$ by dividing both sides by $-2$: $$6=p.$$ The constants $-\\tfrac{8}{3}$ and $6$ differ, confirming no solution. The answer is <strong>6</strong>."
+      "content": "Solve $$-10=-2p$$ by dividing both sides by $-2$: $$5=p.$$ The constants $-3$ and $4$ differ, confirming no solution. The answer is <strong>5</strong>."
     }
   ]
 }

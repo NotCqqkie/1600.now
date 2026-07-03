@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Analyze the equation",
-      "content": "Isolate $x^2$: $$x^2=\\tfrac{64}{25}.$$ The right side is positive, so $x=\\pm\\tfrac{8}{5}$."
+      "content": "Isolate $x^2$: $$x^2=\\tfrac{49}{36}.$$ The right side is positive, so $x=\\pm\\tfrac{7}{6}$."
     },
     {
       "title": "Count the solutions",
-      "content": "There are two real solutions, $\\tfrac{8}{5}$ and $-\\tfrac{8}{5}$. <strong>C</strong> is correct."
+      "content": "There are two real solutions, $\\tfrac{7}{6}$ and $-\\tfrac{7}{6}$. <strong>C</strong> is correct."
     },
     {
       "title": "Confirm the answer",

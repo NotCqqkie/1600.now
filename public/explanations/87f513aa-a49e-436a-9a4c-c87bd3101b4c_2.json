@@ -9,11 +9,11 @@
     },
     {
       "title": "Apply the rectangle area formula",
-      "content": "For a rectangle, area = length $\\times$ width. We know the area is 70 square inches and one side (the longest) is 14 inches. Setting up the equation with $w$ as the unknown side:<br/>$$70 = 14 \\times w$$"
+      "content": "For a rectangle, area = length $\\times$ width. We know the area is 60 square inches and one side (the longest) is 12 inches. Setting up the equation with $w$ as the unknown side:<br/>$$60 = 12 \\times w$$"
     },
     {
       "title": "Solve for the shortest side",
-      "content": "Divide both sides by 14:<br/>$$w = \\frac{70}{14} = 5$$<br/>Since $5 \\lt 14$, the shortest side is 5 inches. That confirms <strong>A</strong> is correct."
+      "content": "Divide both sides by 12:<br/>$$w = \\frac{60}{12} = 5$$<br/>Since $5 \\lt 12$, the shortest side is 5 inches. That confirms <strong>A</strong> is correct."
     }
   ]
 }

@@ -8,16 +8,16 @@
       "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
     },
     {
-      "title": "Find angle T in radians",
-      "content": "Angle S = $\\frac{8\\pi}{13}$ radians. Angle T is 3 times angle S:<br/>$$T = 3 \\times \\frac{8\\pi}{13} = \\frac{24\\pi}{13} \\text{ radians}$$"
+      "title": "Find angle K in radians",
+      "content": "Angle J = $\\frac{7\\pi}{11}$ radians. Angle K is 4 times angle J:<br/>$$K = 4 \\times \\frac{7\\pi}{11} = \\frac{28\\pi}{11} \\text{ radians}$$"
     },
     {
-      "title": "Convert angle T to degrees",
-      "content": "To convert radians to degrees, multiply by $\\frac{180}{\\pi}$:<br/>$$T = \\frac{24\\pi}{13} \\times \\frac{180}{\\pi} = \\frac{24 \\times 180}{13}$$<br/>The $\\pi$ cancels. Factor 24 = 8 &times; 3:<br/>$$T = \\frac{8}{13} \\times 180 \\times 3$$"
+      "title": "Convert angle K to degrees",
+      "content": "To convert radians to degrees, multiply by $\\frac{180}{\\pi}$:<br/>$$K = \\frac{28\\pi}{11} \\times \\frac{180}{\\pi} = \\frac{28 \\times 180}{11}$$<br/>The $\\pi$ cancels. Factor 28 = 7 &times; 4:<br/>$$K = \\frac{7}{11} \\times 180 \\times 4$$"
     },
     {
       "title": "Match to the answer choices",
-      "content": "<ul><li><strong>A</strong> &mdash; $\\frac{8}{13}(90)(3)$: uses 90 instead of 180. The radian-to-degree factor is 180/&pi;, not 90/&pi;. Wrong.</li><li><strong>B</strong> &mdash; $\\frac{8}{13}(180)(3)$: this is exactly $\\frac{8}{13} \\times 180 \\times 3$, matching our derivation. That matches the correct answer — <strong>B</strong> is correct.</li><li><strong>C</strong> &mdash; $\\frac{8}{13\\pi}(90)(3)$: places &pi; in the denominator instead of canceling it, and uses 90. Both wrong.</li><li><strong>D</strong> &mdash; $\\frac{8\\pi}{13}(180)(3)$: keeps &pi; in the numerator; the &pi; should cancel during conversion. Wrong.</li></ul>"
+      "content": "<ul><li><strong>A</strong> &mdash; $\\frac{7}{11}(90)(4)$: uses 90 instead of 180. The radian-to-degree factor is 180/&pi;, not 90/&pi;. Wrong.</li><li><strong>B</strong> &mdash; $\\frac{7}{11}(180)(4)$: this is exactly $\\frac{7}{11} \\times 180 \\times 4$, matching our derivation. That matches the correct answer &mdash; <strong>B</strong> is correct.</li><li><strong>C</strong> &mdash; $\\frac{7}{11\\pi}(90)(4)$: places &pi; in the denominator instead of canceling it, and uses 90. Both wrong.</li><li><strong>D</strong> &mdash; $\\frac{7\\pi}{11}(180)(4)$: keeps &pi; in the numerator; the &pi; should cancel during conversion. Wrong.</li></ul>"
     }
   ]
 }

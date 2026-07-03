@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Convert given rates to calories per hour",
-      "content": "The problem gives exercise rates in 30-minute intervals. To work with hours, multiply each rate by 2:<br/><div class='callout'>Hiking: $200 \\times 2 = 400$ calories/hour<br/>Bicycling: $150 \\times 2 = 300$ calories/hour</div>"
+      "content": "The problem gives exercise rates in 30-minute intervals. To work with hours, multiply each rate by 2:<br/><div class='callout'>Hiking: $240 \\times 2 = 480$ calories/hour<br/>Bicycling: $180 \\times 2 = 360$ calories/hour</div>"
     },
     {
       "title": "Calculate calories from 1 hour of bicycling",
-      "content": "The adult has already completed 1 hour of bicycling:<br/>$$1 \\text{ hour} \\times 300 \\text{ calories/hour} = 300 \\text{ calories}$$"
+      "content": "The adult has already completed 1 hour of bicycling:<br/>$$1 \\text{ hour} \\times 360 \\text{ calories/hour} = 360 \\text{ calories}$$"
     },
     {
       "title": "Set up and solve for hiking hours",
-      "content": "Find the remaining calories needed, then solve for hiking time. Remaining calories: $1,900 - 300 = 1,600$. Let $h$ = hours of hiking. Then:<br/>$$400h = 1,600$$<br/>$$h = \\frac{1,600}{400} = 4$$<br/>This matches - <strong>D</strong> is correct."
+      "content": "Find the remaining calories needed, then solve for hiking time. Remaining calories: $2,760 - 360 = 2,400$. Let $h$ = hours of hiking. Then:<br/>$$480h = 2,400$$<br/>$$h = \\frac{2,400}{480} = 5$$<br/>This matches - <strong>D</strong> is correct."
     }
   ]
 }

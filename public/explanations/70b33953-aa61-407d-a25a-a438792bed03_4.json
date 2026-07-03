@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Treat $8 - 4x$ as a single variable",
-      "content": "Let $u = 8 - 4x$. The equation becomes $5u + 2 = 4u + 18$."
+      "title": "Treat $7 - 3x$ as a single variable",
+      "content": "Let $u = 7 - 3x$. The equation becomes $5u + 4 = 4u + 23$."
     },
     {
       "title": "Isolate $u$",
-      "content": "Subtract $4u$ from both sides: $u + 2 = 18$. Subtract $2$ from both sides: $u = 16$."
+      "content": "Subtract $4u$ from both sides: $u + 4 = 23$. Subtract $4$ from both sides: $u = 19$."
     },
     {
       "title": "Compute the target value",
-      "content": "Since $u = 8 - 4x$, we have $8 - 4x = 16$. That confirms <strong>D</strong> is correct."
+      "content": "Since $u = 7 - 3x$, we have $7 - 3x = 19$. That confirms <strong>D</strong> is correct."
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "questionId": "4b7bb316",
-  "correctAnswer": "4205",
+  "correctAnswer": "4805",
   "section": "Math",
   "steps": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "title": "Calculate the total exterior surface area",
-      "content": "Each face is a square with side length 29 inches. The area of one square face is:<br/>$$29^2 = 841\\text{ square inches}$$<br/>The total exterior surface area with 5 faces is:<br/>$$5 \\times 841 = 4205\\text{ square inches}$$"
+      "content": "Each face is a square with side length 31 inches. The area of one square face is:<br/>$$31^2 = 961\\text{ square inches}$$<br/>The total exterior surface area with 5 faces is:<br/>$$5 \\times 961 = 4805\\text{ square inches}$$"
     }
   ]
 }

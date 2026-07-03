@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Write the probability formula and substitute given values",
-      "content": "Probability equals the ratio of favorable outcomes to total outcomes. Given that $P(\\text{blue}) = 0.35$ and there are 60 total marbles:<br/>$$0.35 = \\frac{\\text{blue marbles}}{60}$$"
+      "content": "Probability equals the ratio of favorable outcomes to total outcomes. Given that $P(\\text{blue}) = 0.40$ and there are 70 total marbles:<br/>$$0.40 = \\frac{\\text{blue marbles}}{70}$$"
     },
     {
       "title": "Solve for the number of blue marbles",
-      "content": "Multiply both sides by 60:<br/>$$\\text{blue marbles} = 0.35 \\times 60 = 21$$<br/>That matches <strong>Choice A &mdash; 21</strong>."
+      "content": "Multiply both sides by 70:<br/>$$\\text{blue marbles} = 0.40 \\times 70 = 28$$<br/>That matches <strong>Choice A &mdash; 28</strong>."
     }
   ]
 }

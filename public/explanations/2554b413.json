@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Recognize the y-intercept",
-      "content": "The point $(0, 8)$ lies on the line. Since $x = 0$ at this point, $y = 8$ is the $y$-intercept."
+      "content": "The point $(0, 9)$ lies on the line. Since $x = 0$ at this point, $y = 9$ is the $y$-intercept."
     },
     {
       "title": "Write the equation",
-      "content": "With slope $m = 6$ and $y$-intercept $b = 8$, slope-intercept form gives: $$y = 6x + 8$$"
+      "content": "With slope $m = 7$ and $y$-intercept $b = 9$, slope-intercept form gives: $$y = 7x + 9$$"
     },
     {
       "title": "Match the answer",
-      "content": "The equation with slope $6$ and $y$-intercept $8$ is $y=6x+8$. That matches <strong>Choice A &mdash; $y = 6x + 8$</strong>."
+      "content": "The equation with slope $7$ and $y$-intercept $9$ is $y=7x+9$. That matches <strong>Choice A &mdash; $y = 7x + 9$</strong>."
     }
   ]
 }

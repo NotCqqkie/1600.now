@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Write the daily-gain inequality",
-      "content": "The elephant starts at $200$ pounds and gains more than $2$ but less than $3$ pounds per day. After $d$ days, the possible weight is:<br/>$$200+2d\\lt w\\lt200+3d$$"
+      "content": "The elephant starts at $210$ pounds and gains more than $2$ but less than $3$ pounds per day. After $d$ days, the possible weight is:<br/>$$210+2d\\lt w\\lt210+3d$$"
     },
     {
       "title": "Substitute 365 days",
-      "content": "Use $d=365$:<br/>$$200+2(365)\\lt w\\lt200+3(365)$$"
+      "content": "Use $d=365$:<br/>$$210+2(365)\\lt w\\lt210+3(365)$$"
     },
     {
       "title": "Compute the endpoints",
-      "content": "$$200+730\\lt w\\lt200+1095$$<br/>$$930\\lt w\\lt1295$$"
+      "content": "$$210+730\\lt w\\lt210+1095$$<br/>$$940\\lt w\\lt1305$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "The possible weights are represented by $930\\lt w\\lt1295$, which is choice D. Choice C (&lsquo;$730 \\lt w \\lt 1,095$&rsquo;) is only the weight gained; it forgets to add the starting $200$ pounds."
+      "content": "The possible weights are represented by $940\\lt w\\lt1305$, which is choice D. Choice C (&lsquo;$730 \\lt w \\lt 1,095$&rsquo;) is only the weight gained; it forgets to add the starting $210$ pounds."
     }
   ]
 }

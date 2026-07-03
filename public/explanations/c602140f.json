@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Expand the first product",
-      "content": "$$(x-11y)(2x-3y)=2x^2-3xy-22xy+33y^2$$<br/>Combine the $xy$ terms:<br/>$$2x^2-25xy+33y^2$$"
+      "content": "$$(x-9y)(2x-5y)=2x^2-5xy-18xy+45y^2$$<br/>Combine the $xy$ terms:<br/>$$2x^2-23xy+45y^2$$"
     },
     {
       "title": "Expand the second product",
-      "content": "$$-12y(-2x+3y)=24xy-36y^2$$"
+      "content": "$$-8y(-2x+5y)=16xy-40y^2$$"
     },
     {
       "title": "Combine like terms",
-      "content": "$$2x^2-25xy+33y^2+24xy-36y^2$$<br/>The $xy$ terms combine to $-xy$, and the $y^2$ terms combine to $-3y^2$. So the equivalent expression is $$2x^2-xy-3y^2.$$"
+      "content": "$$2x^2-23xy+45y^2+16xy-40y^2$$<br/>The $xy$ terms combine to $-7xy$, and the $y^2$ terms combine to $5y^2$. So the equivalent expression is $$2x^2-7xy+5y^2.$$"
     },
     {
       "title": "State the equivalent expression",
-      "content": "The simplified expression is $2x^2-xy-3y^2$, which is the correct equivalent form. This final expression keeps the $x^2$ term from the first product and combines the two $xy$ contributions into $-xy$."
+      "content": "The simplified expression is $2x^2-7xy+5y^2$, which is choice B and the correct equivalent form. This final expression keeps the $x^2$ term from the first product and combines the two $xy$ contributions into $-7xy$."
     }
   ]
 }

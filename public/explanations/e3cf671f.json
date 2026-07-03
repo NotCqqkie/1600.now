@@ -1,15 +1,15 @@
 {
   "questionId": "e3cf671f",
-  "correctAnswer": "67",
+  "correctAnswer": "82",
   "section": "Math",
   "steps": [
     {
-      "title": "Use f(5) = 32 to find k",
-      "content": "Substitute $x = 5$ into the function definition:<br/>$$f(5) = 4(5) + k(5-1) = 32$$<br/>$$20 + 4k = 32$$<br/>$$4k = 12$$<br/>$$k = 3$$"
+      "title": "Use f(6) = 42 to find k",
+      "content": "Substitute $x = 6$ into the function definition:<br/>$$f(6) = 5(6) + k(6-2) = 42$$<br/>$$30 + 4k = 42$$<br/>$$4k = 12$$<br/>$$k = 3$$"
     },
     {
-      "title": "Evaluate f(10) with k = 3",
-      "content": "Now that $k = 3$, simplify the original function:<br/>$$f(x) = 4x + 3(x-1) = 4x + 3x - 3 = 7x - 3$$<br/>Evaluate at $x = 10$:<br/>$$f(10) = 7(10) - 3 = 70 - 3 = 67$$"
+      "title": "Evaluate f(11) with k = 3",
+      "content": "Now that $k = 3$, simplify the original function:<br/>$$f(x) = 5x + 3(x-2) = 5x + 3x - 6 = 8x - 6$$<br/>Evaluate at $x = 11$:<br/>$$f(11) = 8(11) - 6 = 88 - 6 = 82$$"
     }
   ]
 }

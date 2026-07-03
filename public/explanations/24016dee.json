@@ -13,15 +13,15 @@
     },
     {
       "title": "Distribute the subtraction",
-      "content": "Subtract every term in the second parentheses:<br/>$$(8x^3+8)-(x^3-2)=8x^3+8-x^3+2$$"
+      "content": "Subtract every term in the second parentheses:<br/>$$(9x^3+6)-(2x^3-4)=9x^3+6-2x^3+4$$"
     },
     {
       "title": "Combine like terms",
-      "content": "$$8x^3-x^3=7x^3$$<br/>$$8+2=10$$<br/>So the expression is $$7x^3+10.$$"
+      "content": "$$9x^3-2x^3=7x^3$$<br/>$$6+4=10$$<br/>So the expression is $$7x^3+10.$$"
     },
     {
       "title": "Choose the match",
-      "content": "$7x^3+10$ matches <strong>Choice B &mdash; $7{x}^{3}+10$</strong>. The constant becomes $10$ because subtracting the second polynomial changes $-2$ to $+2$. This is why the expression is not $7x^3+6$ or $7x^3-10$."
+      "content": "$7x^3+10$ matches <strong>Choice B &mdash; $7{x}^{3}+10$</strong>. The constant becomes $10$ because subtracting the second polynomial changes $-4$ to $+4$. This is why the expression is not $7x^3+2$ or $7x^3-10$."
     }
   ]
 }

@@ -9,15 +9,15 @@
     },
     {
       "title": "Identify the circle's center from standard form",
-      "content": "The equation $(x-6)^2 + (y+5)^2 = 16$ is in the form $(x-h)^2 + (y-k)^2 = r^2$, which tells us the center is $(h, k)$ and radius is $r$. <br/>Here: center $= (6, -5)$ and radius $= \\sqrt{16} = 4$."
+      "content": "The equation $(x-4)^2 + (y+7)^2 = 25$ is in the form $(x-h)^2 + (y-k)^2 = r^2$, which tells us the center is $(h, k)$ and radius is $r$. <br/>Here: center $= (4, -7)$ and radius $= \\sqrt{25} = 5$."
     },
     {
       "title": "Apply the diameter midpoint property",
-      "content": "For any diameter of a circle, the center is the midpoint of its two endpoints. Since $\\overline{PQ}$ is a diameter with $P = (10, -5)$ and center $(6, -5)$, we set up the midpoint formula:<br/>$$\\frac{x_P + x_Q}{2} = 6 \\quad \\text{and} \\quad \\frac{y_P + y_Q}{2} = -5$$<br/>Substituting $P = (10, -5)$:<br/>$$\\frac{10 + x_Q}{2} = 6 \\quad \\text{and} \\quad \\frac{-5 + y_Q}{2} = -5$$"
+      "content": "For any diameter of a circle, the center is the midpoint of its two endpoints. Since $\\overline{PQ}$ is a diameter with $P = (9, -7)$ and center $(4, -7)$, we set up the midpoint formula:<br/>$$\\frac{x_P + x_Q}{2} = 4 \\quad \\text{and} \\quad \\frac{y_P + y_Q}{2} = -7$$<br/>Substituting $P = (9, -7)$:<br/>$$\\frac{9 + x_Q}{2} = 4 \\quad \\text{and} \\quad \\frac{-7 + y_Q}{2} = -7$$"
     },
     {
       "title": "Solve for point Q",
-      "content": "From the first equation: $10 + x_Q = 12$, so $x_Q = 2$.<br/>From the second equation: $-5 + y_Q = -10$, so $y_Q = -5$.<br/>Point $Q$ is $(2, -5)$. That confirms <strong>A</strong> is correct."
+      "content": "From the first equation: $9 + x_Q = 8$, so $x_Q = -1$.<br/>From the second equation: $-7 + y_Q = -14$, so $y_Q = -7$.<br/>Point $Q$ is $(-1, -7)$. That confirms <strong>A</strong> is correct."
     }
   ]
 }

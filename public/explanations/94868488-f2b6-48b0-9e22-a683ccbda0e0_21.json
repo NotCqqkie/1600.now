@@ -6,7 +6,7 @@
     },
     {
       "title": "Explanation",
-      "content": "Need to convert 310 ft&sup2;/hr to m&sup2;/min. Two conversions needed: length (feet to meters) applied twice for area, and time (hours to minutes)."
+      "content": "Need to convert 330 ft&sup2;/hr to m&sup2;/min. Two conversions are needed: length (feet to meters) applied twice for area, and time (hours to minutes)."
     },
     {
       "title": "Explanation",
@@ -14,7 +14,7 @@
     },
     {
       "title": "Explanation",
-      "content": "310 ft&sup2;/hr &times; (1 m&sup2; / 10.7584 ft&sup2;) &times; (1 hr / 60 min) = 310 / (10.7584 &times; 60) = 310 / 645.504 &asymp; 0.48 m&sup2;/min."
+      "content": "330 ft&sup2;/hr &times; (1 m&sup2; / 10.7584 ft&sup2;) &times; (1 hr / 60 min) = 330 / (10.7584 &times; 60) = 330 / 645.504 &asymp; 0.51 m&sup2;/min."
     }
   ],
   "correctAnswer": "D",

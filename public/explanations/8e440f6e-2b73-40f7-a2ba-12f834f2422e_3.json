@@ -1,15 +1,15 @@
 {
   "questionId": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_3",
-  "correctAnswer": "66",
+  "correctAnswer": "90",
   "section": "Math",
   "steps": [
     {
-      "title": "Convert 20% to a simplified fraction",
-      "content": "Express 20% as a fraction: $$20\\% = \\frac{20}{100}$$. Simplify by dividing numerator and denominator by 20: $$\\frac{20}{100} = \\frac{1}{5}$$"
+      "title": "Convert 25% to a simplified fraction",
+      "content": "Express 25% as a fraction: $$25\\% = \\frac{25}{100}$$. Simplify by dividing numerator and denominator by 25: $$\\frac{25}{100} = \\frac{1}{4}$$"
     },
     {
-      "title": "Calculate the number of green buttons",
-      "content": "Find 1/5 of 330 by dividing: $$330 \\div 5 = 66$$. There are 66 green buttons in the jar."
+      "title": "Calculate the number of blue beads",
+      "content": "Find 1/4 of 360 by dividing: $$360 \\div 4 = 90$$. There are 90 blue beads in the box."
     }
   ]
 }

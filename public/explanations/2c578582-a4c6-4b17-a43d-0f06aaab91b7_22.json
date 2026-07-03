@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Break the charge into two pieces",
-      "content": "The first $25$ people cost 28 dollars each, a fixed amount of $25\\cdot 28=700$ dollars. Anyone beyond that is charged 17 dollars each, and there are $n-25$ such people when $n\\ge 25$."
+      "content": "The first $30$ people cost 26 dollars each, a fixed amount of $30\\cdot 26=780$ dollars. Anyone beyond that is charged 18 dollars each, and there are $n-30$ such people when $n\\ge 30$."
     },
     {
       "title": "Write and simplify f(n)",
-      "content": "$$f(n)=700+17(n-25)=700+17n-425=17n+275.$$ Sanity check at $n=25$: $17(25)+275=425+275=700$, which matches $25\\cdot 28$."
+      "content": "$$f(n)=780+18(n-30)=780+18n-540=18n+240.$$ Sanity check at $n=30$: $18(30)+240=540+240=780$, which matches $30\\cdot 26$."
     },
     {
       "title": "Check each choice",
-      "content": "<ul><li>A) $17n+275$: gives 700 dollars at $n=25$ and adds 17 dollars per extra person. Matches.</li><li>B) $17n+28$: at $n=25$ this is 453 dollars, far less than 700 dollars. Eliminated.</li><li>C) $17n+700$: at $n=25$ this is 1,125 dollars, overcharging the base group. Eliminated.</li><li>D) $45n-425$: at $n=25$ this is 700 dollars (coincidence), but slope is 45 dollars per person, not 17 dollars. Eliminated.</li></ul><strong>A</strong> is correct."
+      "content": "<ul><li>A) $18n+240$: gives 780 dollars at $n=30$ and adds 18 dollars per extra person. Matches.</li><li>B) $18n+26$: at $n=30$ this is 566 dollars, far less than 780 dollars. Eliminated.</li><li>C) $18n+780$: at $n=30$ this is 1,320 dollars, overcharging the base group. Eliminated.</li><li>D) $44n-540$: at $n=30$ this is 780 dollars (coincidence), but slope is 44 dollars per person, not 18 dollars. Eliminated.</li></ul><strong>A</strong> is correct."
     }
   ]
 }

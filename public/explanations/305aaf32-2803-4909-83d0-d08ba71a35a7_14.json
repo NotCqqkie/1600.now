@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the criterion for tall",
-      "content": "A perennial flower is classified as tall if its height exceeds 100 centimeters. To represent a tall species, an inequality must include at least some possible heights where $h \\gt  100$."
+      "content": "A perennial shrub is classified as tall if its height exceeds 120 centimeters. To represent a tall species, an inequality must include at least some possible heights where $h \\gt  120$."
     },
     {
-      "title": "Find the range that includes heights greater than 100",
-      "content": "Check the maximum value in each inequality:<ul><li><strong>Choice A — $86 \\lt h \\lt 86$</strong> impossible</li><li><strong>Choice B — $86 \\lt h \\lt 89$</strong> all values are less than 100</li><li><strong>Choice C — $86 \\lt h \\lt 100$</strong> all values satisfy $h \\lt 100$</li><li><strong>Choice D — $86 \\lt h \\lt 154$</strong> includes values greater than 100 (from 100 to 154)</li></ul>Only the matching choice's range permits tall plants. <strong>D</strong> is correct."
+      "title": "Find the range that includes heights greater than 120",
+      "content": "Check the maximum value in each inequality:<ul><li><strong>Choice A &mdash; $94 \\lt h \\lt 94$</strong> impossible</li><li><strong>Choice B &mdash; $94 \\lt h \\lt 117$</strong> all values are less than 120</li><li><strong>Choice C &mdash; $94 \\lt h \\lt 120$</strong> all values satisfy $h \\lt 120$</li><li><strong>Choice D &mdash; $94 \\lt h \\lt 168$</strong> includes values greater than 120 (between 120 and 168)</li></ul>Only the matching choice's range permits tall plants. <strong>D</strong> is correct."
     }
   ]
 }

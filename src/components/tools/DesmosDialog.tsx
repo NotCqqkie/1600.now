@@ -62,6 +62,7 @@ export const DesmosDialog = ({
   const [calculatorResetKey, setCalculatorResetKey] = useState(0);
   const containerRef = useRef<HTMLDivElement>(null);
   const calcRef = useRef<DesmosCalculator | null>(null);
+  const blankCalculatorStateRef = useRef<unknown | null>(null);
   const writeTimerRef = useRef<number | null>(null);
   const removeChangeObserverRef = useRef<(() => void) | null>(null);
   const calculatorStateKeyRef = useRef(calculatorStateKey);
@@ -102,6 +103,17 @@ export const DesmosDialog = ({
     }
   }, []);
 
+  const applyCalculatorStateForCurrentKey = useCallback(() => {
+    const calc = calcRef.current;
+    if (!calc?.setState) return;
+    const savedState = readCalculatorState();
+    const nextState = savedState ?? blankCalculatorStateRef.current;
+    if (nextState) {
+      calc.setState(nextState, { allowUndo: false });
+    }
+    window.requestAnimationFrame(() => calcRef.current?.resize());
+  }, [readCalculatorState]);
+
   const writeOpenState = useCallback(
     (nextOpen: boolean) => {
       if (!openStateKey || !storageArea) return;
@@ -109,6 +121,20 @@ export const DesmosDialog = ({
     },
     [openStateKey, storageArea],
   );
+
+  const shouldOpenInSidebar = useCallback(() => {
+    if (!layoutStateKey || !storageArea) return false;
+    return storageArea.getItem(layoutStateKey) !== "floating";
+  }, [layoutStateKey, storageArea]);
+
+  const openInSidebar = useCallback(() => {
+    if (layoutStateKey && storageArea) {
+      storageArea.setItem(layoutStateKey, "sidebar");
+    }
+    onRestoreSidebarPosition?.();
+    onSidebarToggle?.("desmos", true);
+    onSplitScreenChange?.(true, "desmos");
+  }, [layoutStateKey, onRestoreSidebarPosition, onSidebarToggle, onSplitScreenChange, storageArea]);
 
   const handleToggle = () => {
     if (isOpen) {
@@ -120,11 +146,7 @@ export const DesmosDialog = ({
 
     if (onFocus) onFocus();
 
-    if (layoutStateKey && storageArea?.getItem(layoutStateKey) === "sidebar") {
-      onRestoreSidebarPosition?.();
-      onSidebarToggle?.("desmos", true);
-      onSplitScreenChange?.(true, "desmos");
-    }
+    openInSidebar();
 
     setHasEverOpened(true);
     writeOpenState(true);
@@ -175,6 +197,7 @@ export const DesmosDialog = ({
           backgroundColor: "#ffffff",
         });
         calcRef.current = calc;
+        blankCalculatorStateRef.current = calc.getState?.() ?? blankCalculatorStateRef.current;
         const savedState = readCalculatorState();
         if (savedState && calc.setState) {
           calc.setState(savedState, { allowUndo: false });
@@ -205,15 +228,13 @@ export const DesmosDialog = ({
     restoredOpenStateKeyRef.current = openStateKey;
     if (storageArea.getItem(openStateKey) !== "true") return;
 
-    if (layoutStateKey && storageArea.getItem(layoutStateKey) === "sidebar") {
-      onRestoreSidebarPosition?.();
-      onSidebarToggle?.("desmos", true);
-      onSplitScreenChange?.(true, "desmos");
+    if (shouldOpenInSidebar()) {
+      openInSidebar();
     }
 
     setHasEverOpened(true);
     setIsOpen(true);
-  }, [layoutStateKey, onRestoreSidebarPosition, onSidebarToggle, onSplitScreenChange, openStateKey, storageArea]);
+  }, [openInSidebar, openStateKey, shouldOpenInSidebar, storageArea]);
 
   useEffect(() => {
     const previousKey = previousCalculatorStateKeyRef.current;
@@ -233,22 +254,17 @@ export const DesmosDialog = ({
       window.clearTimeout(writeTimerRef.current);
       writeTimerRef.current = null;
     }
-    removeChangeObserverRef.current?.();
-    removeChangeObserverRef.current = null;
-    calcRef.current?.destroy();
-    calcRef.current = null;
-    setHasEverOpened(wasOpen);
-    setIsOpen(wasOpen);
-    if (wasOpen) {
+    if (calcRef.current?.setState) {
+      applyCalculatorStateForCurrentKey();
+    } else if (wasOpen) {
+      setHasEverOpened(true);
+      setIsOpen(true);
       setCalculatorResetKey((key) => key + 1);
-    } else {
-      onSplitScreenChange?.(false, "desmos");
-      onSidebarToggle?.("desmos", false);
     }
     previousCalculatorStateKeyRef.current = calculatorStateKey;
     previousCalculatorIdentityKeyRef.current = effectiveCalculatorIdentityKey;
     previousStorageAreaRef.current = storageArea;
-  }, [calculatorStateKey, effectiveCalculatorIdentityKey, flushCalculatorState, onSidebarToggle, onSplitScreenChange, storageArea]);
+  }, [applyCalculatorStateForCurrentKey, calculatorStateKey, effectiveCalculatorIdentityKey, flushCalculatorState, storageArea]);
 
   useEffect(() => {
     return () => {
@@ -310,7 +326,7 @@ export const DesmosDialog = ({
         sidebarExitHeaderMaxWidth={sidebarExitHeaderMaxWidth}
         sidebarExitMainMaxWidth={sidebarExitMainMaxWidth}
       >
-        <div ref={containerRef} className="w-full h-full" />
+        <div ref={containerRef} className="h-full w-full bg-white" />
       </DraggableWindow>
     </>
   );

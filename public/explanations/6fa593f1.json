@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Substitute directly",
-      "content": "The question gives $x=40$ and asks for $x+6$. Replace $x$ with $40$: $$x+6=40+6.$$"
+      "content": "The question gives $x=35$ and asks for $x+8$. Replace $x$ with $35$: $$x+8=35+8.$$"
     },
     {
       "title": "Compute and compare",
-      "content": "$40+6=46$, so the target value is $46$. An incorrect response subtracts $6$, an incorrect response stops at $x$, and an incorrect response adds the wrong amount. <strong>C</strong> is correct."
+      "content": "$35+8=43$, so the target value is $43$. An incorrect response subtracts $8$, an incorrect response stops at $x$, and an incorrect response reverses the digits of the correct value. <strong>C</strong> is correct."
     }
   ]
 }

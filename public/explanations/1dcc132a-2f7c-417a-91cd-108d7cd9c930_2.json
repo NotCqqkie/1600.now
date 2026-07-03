@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $12yz^{3}+6yz$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $15yz^{4}+5yz$."
     },
     {
       "title": "Algebra check",
@@ -13,11 +13,11 @@
     },
     {
       "title": "Identify the like terms",
-      "content": "In $9yz^3+6yz+3yz^3$, the terms $9yz^3$ and $3yz^3$ are like terms. The term $6yz$ is separate because it has $z^1$, not $z^3$."
+      "content": "In $8yz^4+5yz+7yz^4$, the terms $8yz^4$ and $7yz^4$ are like terms. The term $5yz$ is separate because it has $z^1$, not $z^4$."
     },
     {
       "title": "Combine coefficients, not exponents",
-      "content": "Only the coefficients on the $yz^3$ terms add:<br/>$$9yz^3+3yz^3=12yz^3$$<br/>The $6yz$ term stays as it is, so the expression simplifies to:<br/>$$12yz^3+6yz$$"
+      "content": "Only the coefficients on the $yz^4$ terms add:<br/>$$8yz^4+7yz^4=15yz^4$$<br/>The $5yz$ term stays as it is, so the expression simplifies to:<br/>$$15yz^4+5yz$$"
     }
   ]
 }

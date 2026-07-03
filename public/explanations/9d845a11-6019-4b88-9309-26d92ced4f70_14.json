@@ -9,11 +9,11 @@
     },
     {
       "title": "Step 2",
-      "content": "Substitute the given mass of 33 kg and acceleration $a$ m/s$^2$: $$F = 33 \\cdot a = 33a$$"
+      "content": "Substitute the given mass of 27 kg and acceleration $a$ m/s$^2$: $$F = 27 \\cdot a = 27a$$"
     },
     {
       "title": "Step 3",
-      "content": "Evaluate each choice:<ul><li>A: $F = 33a$ — Force equals mass times acceleration with mass = 33. This is exactly what the formula gives. That confirms <strong>A</strong> is correct.</li><li>B: $F = 33 + a$ — Uses addition instead of multiplication; the problem says &quot;product,&quot; not sum. Eliminated.</li><li>C: $F = 33 - a$ — Uses subtraction; unrelated to the definition given. Eliminated.</li><li>D: $F = a - 33$ — Uses subtraction in the wrong order; unrelated to the definition given. Eliminated.</li></ul>"
+      "content": "Evaluate each choice:<ul><li>A: $F = 27a$ &mdash; Force equals mass times acceleration with mass = 27. This is exactly what the formula gives. That confirms <strong>A</strong> is correct.</li><li>B: $F = 27 + a$ &mdash; Uses addition instead of multiplication; the problem says &quot;product,&quot; not sum. Eliminated.</li><li>C: $F = 27 - a$ &mdash; Uses subtraction; unrelated to the definition given. Eliminated.</li><li>D: $F = a - 27$ &mdash; Uses subtraction in the wrong order; unrelated to the definition given. Eliminated.</li></ul>"
     }
   ]
 }

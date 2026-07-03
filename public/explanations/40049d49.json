@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "State the condition for infinitely many solutions",
-      "content": "An equation in $x$ has infinitely many solutions when both sides are identical expressions for all $x$. Factor the left side: $$4x + 12 = 4(x + 3)$$ So the equation becomes: $$4(x+3) = \\frac{a(x+3)}{2}$$"
+      "content": "An equation in $x$ has infinitely many solutions when both sides are identical expressions for all $x$. Factor the left side: $$5x + 20 = 5(x + 4)$$ So the equation becomes: $$5(x+4) = \\frac{a(x+4)}{2}$$"
     },
     {
       "title": "Solve for a",
-      "content": "Multiply both sides by $2$: $$8(x+3)=a(x+3)$$ For this to hold for every $x$, the coefficient of $(x+3)$ must match, so $a=8$. A direct calculation using two simple $x$-values also returns $a=8$."
+      "content": "Multiply both sides by $2$: $$10(x+4)=a(x+4)$$ For this to hold for every $x$, the coefficient of $(x+4)$ must match, so $a=10$. A direct calculation using two simple $x$-values also returns $a=10$."
     },
     {
       "title": "Test all four choices",
-      "content": "<ul><li><strong>Choice A — $0$</strong>: $a=0$ gives $4x+12=0$, true only when $x=-3$ &mdash; exactly one solution, not infinitely many. &#10007;</li><li><strong>Choice B — $3$</strong>: $a=3$ gives $4x+12 = \\frac{3}{2}x + \\frac{9}{2}$. Coefficients $4 \\neq \\frac{3}{2}$, so exactly one solution. &#10007;</li><li><strong>Choice C — $8$</strong>: $a=8$ gives right side $\\frac{8(x+3)}{2} = 4(x+3) = 4x+12$. Both sides identical &mdash; infinitely many solutions. &#10003;</li><li><strong>Choice D — $12$</strong>: $a=12$ gives right side $\\frac{12(x+3)}{2} = 6x+18$. Coefficients $4 \\neq 6$, so exactly one solution. &#10007;</li></ul>This matches &#8212; <strong>C</strong> is correct."
+      "content": "<ul><li><strong>Choice A — $0$</strong>: $a=0$ gives $5x+20=0$, true only when $x=-4$ &mdash; exactly one solution, not infinitely many. &#10007;</li><li><strong>Choice B — $4$</strong>: $a=4$ gives $5x+20 = 2x + 8$. Coefficients $5 \\neq 2$, so exactly one solution. &#10007;</li><li><strong>Choice C — $10$</strong>: $a=10$ gives right side $\\frac{10(x+4)}{2} = 5(x+4) = 5x+20$. Both sides identical &mdash; infinitely many solutions. &#10003;</li><li><strong>Choice D — $20$</strong>: $a=20$ gives right side $\\frac{20(x+4)}{2} = 10x+40$. Coefficients $5 \\neq 10$, so exactly one solution. &#10007;</li></ul>This matches &#8212; <strong>C</strong> is correct."
     }
   ]
 }

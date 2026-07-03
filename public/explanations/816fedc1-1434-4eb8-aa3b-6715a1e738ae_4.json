@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Translate each animal's land use",
-      "content": "Each horse requires $2$ acres, so $h$ horses require $2h$ acres. Each goat requires $1$ acre, so $g$ goats require $g$ acres."
+      "content": "Each horse requires $3$ acres, so $h$ horses require $3h$ acres. Each goat requires $1$ acre, so $g$ goats require $g$ acres."
     },
     {
       "title": "Write the total",
-      "content": "The total land required is $21$ acres, so $$2h+g=21.$$ This is equivalent to $$g+2h=21.$$"
+      "content": "The total land required is $27$ acres, so $$3h+g=27.$$ This is equivalent to $$g+3h=27.$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "$g+2h=21$ matches <strong>B</strong>."
+      "content": "$g+3h=27$ matches <strong>B</strong>."
     }
   ]
 }

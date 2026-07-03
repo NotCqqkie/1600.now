@@ -5,23 +5,23 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $16x+240$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $14x+182$."
     },
     {
       "title": "Algebra check",
       "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
     },
     {
-      "title": "Distribute $16$",
-      "content": "Apply the distributive property to both terms inside the parentheses: $$16(x+15)=16x+16(15).$$"
+      "title": "Distribute $14$",
+      "content": "Apply the distributive property to both terms inside the parentheses: $$14(x+13)=14x+14(13).$$"
     },
     {
       "title": "Multiply the constant",
-      "content": "$16(15)=240$, so the expression becomes $$16x+240.$$"
+      "content": "$14(13)=182$, so the expression becomes $$14x+182.$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "<strong>B</strong> is correct. Forgetting to multiply $15$ by $16$ or using a different constant term would not preserve the distributive property applied to both terms."
+      "content": "<strong>B</strong> is correct. Forgetting to multiply $13$ by $14$ or using a different constant term would not preserve the distributive property applied to both terms."
     }
   ]
 }

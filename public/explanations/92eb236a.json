@@ -14,7 +14,7 @@
     },
     {
       "title": "Calculate the tangent of the other angle",
-      "content": "We are given that $\\tan(\\theta) = \\frac{\\sqrt{3}}{3}$. Using this complementary angle relationship:<br/>$$\\tan(90^{\\circ} - \\theta) = \\frac{1}{\\tan(\\theta)} = \\frac{1}{\\frac{\\sqrt{3}}{3}} = \\frac{3}{\\sqrt{3}}$$<br/>That confirms <strong>D</strong> is correct."
+      "content": "We are given that $\\tan(\\theta) = \\frac{\\sqrt{5}}{5}$. Using this complementary angle relationship:<br/>$$\\tan(90^{\\circ} - \\theta) = \\frac{1}{\\tan(\\theta)} = \\frac{1}{\\frac{\\sqrt{5}}{5}} = \\frac{5}{\\sqrt{5}}$$<br/>That confirms <strong>D</strong> is correct."
     }
   ]
 }

@@ -112,7 +112,7 @@ const BankBrowse = () => {
   const startPracticeSession = (questions: BankQuestion[]): void => {
     if (questions.length === 0) return;
 
-    const spacedQuestions = spaceOutNearDuplicates(questions, questionFingerprint);
+    const spacedQuestions = spaceOutNearDuplicates<BankQuestion>(questions, questionFingerprint);
 
     const practiceSet: BankBrowsePracticeSetItem[] = spacedQuestions.map((q, index) => ({
       subject: q.subject,

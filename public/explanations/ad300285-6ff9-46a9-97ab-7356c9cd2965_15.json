@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Apply the cross-multiplication from the given condition",
-      "content": "Multiply both sides by $x$: $42 = 7x^{2}$."
+      "content": "Multiply both sides by $x$: $56 = 8x^{2}$."
     },
     {
       "title": "Compute the target value",
-      "content": "So $7x^{2} = 42$. That is the correct answer."
+      "content": "So $8x^{2} = 56$. That is the correct answer."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches 42. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches 56. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
     }
   ]
 }

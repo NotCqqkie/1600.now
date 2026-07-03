@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Set up",
-      "content": "The list is 15, 14, 18, 17, $x$. The sum of the known values is $15 + 14 + 18 + 17 = 64$, so mean $= \\frac{64 + x}{5}$. The median is the 3rd value when all five numbers are in order. Test each choice to see which makes mean $\\neq$ median."
+      "content": "The list is 20, 19, 23, 22, $x$. The sum of the known values is $20 + 19 + 23 + 22 = 84$, so mean $= \\frac{84 + x}{5}$. The median is the 3rd value when all five numbers are in order. Test each choice to see which makes mean $\\neq$ median."
     },
     {
       "title": "Eliminate the choices",
-      "content": "Test choice A, 6: if $x = 6$, the mean is $\\frac{64+6}{5}=14$. Ordered, the list is $6,14,15,17,18$, so the median is $15$. Since the mean and median are not equal, $x = 6$ is not possible."
+      "content": "Test choice A, 11: if $x = 11$, the mean is $\\frac{84+11}{5}=19$. Ordered, the list is $11,19,20,22,23$, so the median is $20$. Since the mean and median are not equal, $x = 11$ is not possible."
     },
     {
       "title": "Confirm the answer",
-      "content": "<ul><li>A: mean $14$, median $15$ &mdash; not equal, so this is the value that is <em>not</em> possible.</li><li>B: mean $15$, median $15$ &mdash; possible.</li><li>C: mean $16$, median $16$ &mdash; possible.</li><li>D: mean $17$, median $17$ &mdash; possible.</li></ul>That is the correct answer."
+      "content": "<ul><li>A: mean $19$, median $20$ &mdash; not equal, so this is the value that is <em>not</em> possible.</li><li>B: mean $20$, median $20$ &mdash; possible.</li><li>C: mean $21$, median $21$ &mdash; possible.</li><li>D: mean $22$, median $22$ &mdash; possible.</li></ul>That is the correct answer."
     }
   ]
 }

@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Set up",
-      "content": "Given $\\frac{x}{9}=5$, solve for $x$ first: $x = 45$."
+      "content": "Given $\\frac{x}{8}=6$, solve for $x$ first: $x = 48$."
     },
     {
       "title": "Solve",
-      "content": "$$\\frac{9}{x}=\\frac{9}{45}=\\frac{1}{5}$$"
+      "content": "$$\\frac{8}{x}=\\frac{8}{48}=\\frac{1}{6}$$"
     },
     {
       "title": "Answer",
-      "content": "The computed value $\\frac{1}{5}$ matches <strong>B</strong>. This also follows from the reciprocal relationship: if $\\frac{x}{9}=5$, then the reversed fraction $\\frac{9}{x}$ must be the reciprocal, $\\frac{1}{5}$."
+      "content": "The computed value $\\frac{1}{6}$ matches <strong>B</strong>. This also follows from the reciprocal relationship: if $\\frac{x}{8}=6$, then the reversed fraction $\\frac{8}{x}$ must be the reciprocal, $\\frac{1}{6}$."
     }
   ]
 }

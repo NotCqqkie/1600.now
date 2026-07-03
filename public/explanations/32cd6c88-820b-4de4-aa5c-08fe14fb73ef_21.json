@@ -1,23 +1,23 @@
 {
   "questionId": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_21",
-  "correctAnswer": "-7",
+  "correctAnswer": "-6",
   "section": "Math",
   "steps": [
     {
       "title": "Treat the repeated expression as one value",
-      "content": "Let $u=4-9x$. Then the equation $$9-4(4-9x)=2-5(4-9x)$$ becomes $$9-4u=2-5u.$$"
+      "content": "Let $u=5-8x$. Then the equation $$10-3(5-8x)=4-4(5-8x)$$ becomes $$10-3u=4-4u.$$"
     },
     {
       "title": "Solve for u",
-      "content": "Add $5u$ to both sides: $$9+u=2.$$ Subtract $9$: $$u=-7.$$"
+      "content": "Add $4u$ to both sides: $$10+u=4.$$ Subtract $10$: $$u=-6.$$"
     },
     {
       "title": "Answer the requested expression",
-      "content": "Since $u$ was defined as $4-9x$, the value of $4-9x$ is <strong>-7</strong>."
+      "content": "Since $u$ was defined as $5-8x$, the value of $5-8x$ is <strong>-6</strong>."
     },
     {
       "title": "Check in the original equation",
-      "content": "If $4-9x=-7$, then $9-4(-7)=37$ and $2-5(-7)=37$. Both sides match, so $-7$ is correct."
+      "content": "If $5-8x=-6$, then $10-3(-6)=28$ and $4-4(-6)=28$. Both sides match, so $-6$ is correct."
     }
   ]
 }

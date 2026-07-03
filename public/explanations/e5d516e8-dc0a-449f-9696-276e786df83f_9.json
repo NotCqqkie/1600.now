@@ -1,15 +1,15 @@
 {
   "questionId": "e5d516e8-dc0a-449f-9696-276e786df83f_9",
-  "correctAnswer": "8",
+  "correctAnswer": "9",
   "section": "Math",
   "steps": [
     {
       "title": "Set up the equation using slope-intercept form",
-      "content": "We're given the slope $m = -6$ and y-intercept at $(0, 48)$. Using the slope-intercept form $y = mx + b$, the equation of line $k$ is:<br/>$$y = -6x + 48$$"
+      "content": "We're given the slope $m = -5$ and y-intercept at $(0, 45)$. Using the slope-intercept form $y = mx + b$, the equation of line $k$ is:<br/>$$y = -5x + 45$$"
     },
     {
       "title": "Find the x-intercept by setting y equals 0",
-      "content": "The x-intercept occurs where the line crosses the x-axis, which means $y = 0$. Substitute into the equation:<br/>$$0 = -6x + 48$$<br/>Solve for $x$:<br/>$$6x = 48$$<br/>$$x = 8$$<br/>The x-coordinate of the x-intercept is <strong>8</strong>."
+      "content": "The x-intercept occurs where the line crosses the x-axis, which means $y = 0$. Substitute into the equation:<br/>$$0 = -5x + 45$$<br/>Solve for $x$:<br/>$$5x = 45$$<br/>$$x = 9$$<br/>The x-coordinate of the x-intercept is <strong>9</strong>."
     }
   ]
 }

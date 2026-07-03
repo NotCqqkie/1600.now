@@ -9,15 +9,15 @@
     },
     {
       "title": "Identify the circle&apos;s center and radius",
-      "content": "Compare $(x+3)^2 + (y-18)^2 = 169$ to the standard form $(x-h)^2 + (y-k)^2 = r^2$. Center: $(-3,\\ 18)$. Radius: $\\sqrt{169} = 13$."
+      "content": "Compare $(x+5)^2 + (y-14)^2 = 144$ to the standard form $(x-h)^2 + (y-k)^2 = r^2$. Center: $(-5,\\ 14)$. Radius: $\\sqrt{144} = 12$."
     },
     {
       "title": "Find the range of valid $x$-values on the circle",
-      "content": "The $x$-coordinate of any point on the circle lies within one radius of the center&apos;s $x$-coordinate: $$-3 - 13 \\le a \\le -3 + 13$$ $$-16 \\le a \\le 10$$"
+      "content": "The $x$-coordinate of any point on the circle lies within one radius of the center&apos;s $x$-coordinate: $$-5 - 12 \\le a \\le -5 + 12$$ $$-17 \\le a \\le 7$$"
     },
     {
       "title": "Test each choice against the range",
-      "content": "<ul><li>A) $a = -17$: $-17 \\lt -16$, outside the range &mdash; eliminate.</li><li>B) $a = -11$: $-16 \\le -11 \\le 10$, inside the range &mdash; valid.</li><li>C) $a = 13$: $13 \\gt  10$, outside the range &mdash; eliminate.</li><li>D) $a = 18$: $18 \\gt  10$, outside the range &mdash; eliminate.</li></ul>That matches <strong>Choice B &mdash; -11</strong>."
+      "content": "<ul><li>A) $a = -18$: $-18 \\lt -17$, outside the range &mdash; eliminate.</li><li>B) $a = -12$: $-17 \\le -12 \\le 7$, inside the range &mdash; valid.</li><li>C) $a = 12$: $12 \\gt  7$, outside the range &mdash; eliminate.</li><li>D) $a = 14$: $14 \\gt  7$, outside the range &mdash; eliminate.</li></ul>That matches <strong>Choice B &mdash; -12</strong>."
     }
   ]
 }

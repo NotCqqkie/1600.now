@@ -1,15 +1,15 @@
 {
   "questionId": "a45ffacb",
-  "correctAnswer": "5",
+  "correctAnswer": "7",
   "section": "Math",
   "steps": [
     {
       "title": "Find b from the y-intercept",
-      "content": "The function is $f(x) = -a^x + b$. At the y-intercept of $y = f(x) - 15$, we have $x = 0$ and $y = -\\frac{99}{7}$.<br/><br/>Since $a^0 = 1$, we have $f(0) = -1 + b$. Therefore:\n$$f(0) - 15 = -\\frac{99}{7}$$\n$$-1 + b - 15 = -\\frac{99}{7}$$\n$$b = 16 - \\frac{99}{7} = \\frac{13}{7}$$"
+      "content": "The function is $f(x) = -a^x + b$. At the y-intercept of $y = f(x) - 18$, we have $x = 0$ and $y = -\\frac{84}{5}$.<br/><br/>Since $a^0 = 1$, we have $f(0) = -1 + b$. Therefore:\n$$f(0) - 18 = -\\frac{84}{5}$$\n$$-1 + b - 18 = -\\frac{84}{5}$$\n$$b = 19 - \\frac{84}{5} = \\frac{11}{5}$$"
     },
     {
       "title": "Solve for a using the product condition",
-      "content": "We have $ab = \\frac{65}{7}$ and $b = \\frac{13}{7}$. Substitute:\n$$a \\cdot \\frac{13}{7} = \\frac{65}{7}$$\n$$a = \\frac{65}{7} \\cdot \\frac{7}{13} = \\frac{65}{13} = 5$$"
+      "content": "We have $ab = \\frac{77}{5}$ and $b = \\frac{11}{5}$. Substitute:\n$$a \\cdot \\frac{11}{5} = \\frac{77}{5}$$\n$$a = \\frac{77}{5} \\cdot \\frac{5}{11} = \\frac{77}{11} = 7$$"
     }
   ]
 }

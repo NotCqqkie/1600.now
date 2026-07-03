@@ -1,19 +1,19 @@
 {
   "questionId": "659cbbc1-2d38-4d45-8ecb-79f43367862e_22",
-  "correctAnswer": "15435",
+  "correctAnswer": "12150",
   "section": "Math",
   "steps": [
     {
       "title": "Substitute the given values",
-      "content": "Use the given model $y=900ax^2$. The rope with circumference $1.75$ inches has breaking strength $3{,}858.75$, so substitute $x=1.75$ and $y=3{,}858.75$: $$3{,}858.75=900a(1.75)^2$$"
+      "content": "Use the given model $y=900ax^2$. The cable with circumference $1.50$ inches has breaking strength $3{,}037.5$, so substitute $x=1.50$ and $y=3{,}037.5$: $$3{,}037.5=900a(1.50)^2$$"
     },
     {
       "title": "Solve for the unknown",
-      "content": "Since $(1.75)^2=3.0625$, the equation becomes $$3{,}858.75=2{,}756.25a$$ $$a=1.4$$ That makes $900a=900(1.4)=1{,}260$. For $x=3.50$, evaluate $$1{,}260(3.50)^2=1{,}260(12.25)=15{,}435$$ The answer is <strong>15435</strong>."
+      "content": "Since $(1.50)^2=2.25$, the equation becomes $$3{,}037.5=2{,}025a$$ $$a=1.5$$ That makes $900a=900(1.5)=1{,}350$. For $x=3.00$, evaluate $$1{,}350(3.00)^2=1{,}350(9)=12{,}150$$ The answer is <strong>12150</strong>."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $15435$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $15435$."
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $12150$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $12150$."
     }
   ]
 }

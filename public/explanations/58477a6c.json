@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Test Equation I",
-      "content": "Multiply the given equation $2x + 9y = 7$ by 1.5: $3x + 13.5y = 10.5$. This is identical to Equation I, so both represent the same line — infinitely many solutions. Equation I works."
+      "content": "Multiply the given equation $4x + 7y = 8$ by 1.5: $6x + 10.5y = 12$. This is identical to Equation I, so both represent the same line and have infinitely many solutions. Equation I works."
     },
     {
       "title": "Test Equation II",
-      "content": "For Equation II ($3x - 13.5y = 10.5$) to be the same line, we'd need a scalar $k$ where $2k=3$ and $9k=-13.5$. The first gives $k=1.5$, the second gives $k=-1.5$ — contradiction. So the lines are not parallel; they intersect at exactly one point. Equation II also works."
+      "content": "For Equation II ($6x - 10.5y = 12$) to be the same line, we'd need a scalar $k$ where $4k=6$ and $7k=-10.5$. The first gives $k=1.5$, the second gives $k=-1.5$, which is a contradiction. So the lines are not parallel; they intersect at exactly one point. Equation II also works."
     },
     {
       "title": "Conclusion",

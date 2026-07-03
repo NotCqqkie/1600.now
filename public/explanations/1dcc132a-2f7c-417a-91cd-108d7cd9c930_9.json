@@ -9,11 +9,11 @@
     },
     {
       "title": "Confirm with coefficients",
-      "content": "Expanding gives $$18(x+5)=18x+90$$ and $$2(x+c)+16x=18x+2c.$$ The $x$-coefficients are already both $18$, so only the constants need to match: $$90=2c$$ $$c=45$$"
+      "content": "Expanding gives $$18(x+6)=18x+108$$ and $$2(x+c)+16x=18x+2c.$$ The $x$-coefficients are already both $18$, so only the constants need to match: $$108=2c$$ $$c=54$$"
     },
     {
       "title": "Check the choices",
-      "content": "The value $c=45$ matches <strong>Choice B &mdash; $45$</strong>. Substituting $c=45$ gives $18x+90=18x+90$, an identity, so the equation has infinitely many solutions."
+      "content": "The value $c=54$ matches <strong>Choice B &mdash; $54$</strong>. Substituting $c=54$ gives $18x+108=18x+108$, an identity, so the equation has infinitely many solutions."
     }
   ]
 }

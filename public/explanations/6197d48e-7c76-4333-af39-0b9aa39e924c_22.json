@@ -8,16 +8,16 @@
       "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
     },
     {
-      "title": "Locate point H on the unit circle",
-      "content": "$H = (-1, y)$ lies on the unit circle $x^2 + y^2 = 1$:<br/>$$(-1)^2 + y^2 = 1 \\Rightarrow y^2 = 0 \\Rightarrow y = 0$$<br/>So $H = (-1, 0)$, directly opposite $F = (1, 0)$ across the center $G = (0, 0)$."
+      "title": "Locate point L on the circle",
+      "content": "$L = (-3, y)$ lies on the circle $x^2 + y^2 = 9$:<br/>$$(-3)^2 + y^2 = 9 \\Rightarrow y^2 = 0 \\Rightarrow y = 0$$<br/>So $L = (-3, 0)$, directly opposite $J = (3, 0)$ across the center $K = (0, 0)$."
     },
     {
-      "title": "Find all possible positive measures of angle FGH",
-      "content": "$F$ and $H$ are diametrically opposite, so the central angle between them is $\\pi$ radians. Adding any whole number of full rotations gives the general form:<br/>$$\\angle FGH = \\pi + 2\\pi k = (2k+1)\\pi \\text{ for integer } k \\ge 0$$<br/>Valid measures are odd integer multiples of $\\pi$: $\\pi, 3\\pi, 5\\pi, \\dots, 35\\pi, \\dots$"
+      "title": "Find all possible positive measures of angle JKL",
+      "content": "$J$ and $L$ are diametrically opposite, so the central angle between them is $\\pi$ radians. Adding any whole number of full rotations gives the general form:<br/>$$\\angle JKL = \\pi + 2\\pi k = (2k+1)\\pi \\text{ for integer } k \\ge 0$$<br/>Valid measures are odd integer multiples of $\\pi$: $\\pi, 3\\pi, 5\\pi, \\dots, 43\\pi, \\dots$"
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;$\\frac{37\\pi}{2}$&rsquo;</strong>: $\\frac{37\\pi}{2} = 18.5\\pi$ &mdash; not an integer multiple of $\\pi$. Eliminate.</li><li><strong>Choice B &mdash; &lsquo;$\\frac{39\\pi}{2}$&rsquo;</strong>: $\\frac{39\\pi}{2} = 19.5\\pi$ &mdash; not an integer multiple of $\\pi$. Eliminate.</li><li><strong>Choice C &mdash; &lsquo;$34\\pi$&rsquo;</strong>: $34\\pi$ &mdash; an even multiple of $\\pi$, which corresponds to landing back at $F$, not at $H$. Eliminate.</li><li><strong>Choice D &mdash; &lsquo;$35\\pi$&rsquo;</strong>: $35\\pi = (2 \\cdot 17 + 1)\\pi$ &mdash; an odd multiple of $\\pi$, valid.</li></ul>That confirms <strong>D</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;$\\frac{45\\pi}{2}$&rsquo;</strong>: $\\frac{45\\pi}{2} = 22.5\\pi$ &mdash; not an integer multiple of $\\pi$. Eliminate.</li><li><strong>Choice B &mdash; &lsquo;$\\frac{47\\pi}{2}$&rsquo;</strong>: $\\frac{47\\pi}{2} = 23.5\\pi$ &mdash; not an integer multiple of $\\pi$. Eliminate.</li><li><strong>Choice C &mdash; &lsquo;$42\\pi$&rsquo;</strong>: $42\\pi$ &mdash; an even multiple of $\\pi$, which corresponds to landing back at $J$, not at $L$. Eliminate.</li><li><strong>Choice D &mdash; &lsquo;$43\\pi$&rsquo;</strong>: $43\\pi = (2 \\cdot 21 + 1)\\pi$ &mdash; an odd multiple of $\\pi$, valid.</li></ul>That confirms <strong>D</strong> is correct."
     }
   ]
 }

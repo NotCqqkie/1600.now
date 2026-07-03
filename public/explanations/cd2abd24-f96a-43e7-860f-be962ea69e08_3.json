@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Enter two months of data",
-      "content": "At birth, $x=0$ and the whale is $157$ cm long. After $1$ month, it has grown by $4.6$ cm, so the length is $161.6$ cm. Use the points $(0,157)$ and $(1,161.6)$."
+      "content": "At birth, $x=0$ and the seal is $122$ cm long. After $1$ month, it has grown by $3.8$ cm, so the length is $125.8$ cm. Use the points $(0,122)$ and $(1,125.8)$."
     },
     {
       "title": "Fit the linear model",
-      "content": "The slope is $$m=\\frac{161.6-157}{1-0}=4.6.$$ The $y$-intercept is the starting length, $157$, so the equation is $y=4.6x+157$."
+      "content": "The slope is $$m=\\frac{125.8-122}{1-0}=3.8.$$ The $y$-intercept is the starting length, $122$, so the equation is $y=3.8x+122$."
     },
     {
       "title": "Confirm the answer",
-      "content": "$y=157x$ makes $157$ the monthly growth rate and starts at $0$. $y=157x+157$ has the right starting length but the wrong monthly growth. $y=4.6x+4.6$ has the right monthly growth but starts at $4.6$ cm. The model $y=4.6x+157$ has growth rate $4.6$ and starting length $157$, so <strong>D</strong> is correct."
+      "content": "$y=122x$ makes $122$ the monthly growth rate and starts at $0$. $y=122x+122$ has the right starting length but the wrong monthly growth. $y=3.8x+3.8$ has the right monthly growth but starts at $3.8$ cm. The model $y=3.8x+122$ has growth rate $3.8$ and starting length $122$, so <strong>D</strong> is correct."
     }
   ]
 }

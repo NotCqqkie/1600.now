@@ -1,19 +1,19 @@
 {
   "questionId": "87a75825-ef1b-4b13-8fde-816390546062_13",
-  "correctAnswer": "26/3,8.666,8.667",
+  "correctAnswer": "22/3,7.333,7.334",
   "section": "Math",
   "steps": [
     {
       "title": "Solve the equation",
-      "content": "Isolate: $-8|3x-13|+4=-36$ gives $|3x-13|=5$. So $3x-13=5$ or $3x-13=-5$, giving $x=6$ or $x=8/3$."
+      "content": "Isolate: $-6|3x-11|+5=-19$ gives $|3x-11|=4$. So $3x-11=4$ or $3x-11=-4$, giving $x=5$ or $x=7/3$."
     },
     {
       "title": "Sum the solutions",
-      "content": "Add: $6+\\dfrac{8}{3}=\\dfrac{18}{3}+\\dfrac{8}{3}=\\dfrac{26}{3}$.<br/><br/>The answer is <strong>26/3</strong>."
+      "content": "Add: $5+\\dfrac{7}{3}=\\dfrac{15}{3}+\\dfrac{7}{3}=\\dfrac{22}{3}$.<br/><br/>The answer is <strong>22/3</strong>."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $26/3,8.666,8.667$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $26/3,8.666,8.667$."
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $22/3,7.333,7.334$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $22/3,7.333,7.334$."
     }
   ]
 }

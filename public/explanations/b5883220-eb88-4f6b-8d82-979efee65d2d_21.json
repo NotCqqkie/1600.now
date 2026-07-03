@@ -4,7 +4,7 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
+      "title": "Fastest path: track the scale factor first",
       "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
     },
     {
@@ -13,11 +13,11 @@
     },
     {
       "title": "Apply both conversions to the rate",
-      "content": "Multiply by the area conversion and divide by the time conversion:<br/>$$270 \\text{ ft}^2/\\text{hour} \\times \\frac{1 \\text{ m}^2}{10.7584 \\text{ ft}^2} \\times \\frac{1 \\text{ hour}}{60 \\text{ min}} = \\frac{270}{10.7584 \\times 60} = \\frac{270}{645.504} = 0.4182 \\text{ m}^2/\\text{min}$$"
+      "content": "Multiply by the area conversion and divide by the time conversion:<br/>$$330 \\text{ ft}^2/\\text{hour} \\times \\frac{1 \\text{ m}^2}{10.7584 \\text{ ft}^2} \\times \\frac{1 \\text{ hour}}{60 \\text{ min}} = \\frac{330}{10.7584 \\times 60} = \\frac{330}{645.504} = 0.5112 \\text{ m}^2/\\text{min}$$"
     },
     {
       "title": "Match to the answer choice",
-      "content": "The calculated rate of 0.4182 square meters per minute is closest to 0.42. That is the correct answer."
+      "content": "The calculated rate of 0.5112 square meters per minute is closest to 0.51. That is the correct answer."
     }
   ]
 }

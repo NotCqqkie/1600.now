@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Convert percentage changes to multipliers",
-      "content": "A 193% increase means multiply by $1 + 1.93 = 2.93$. A 31% decrease means multiply by $1 - 0.31 = 0.69$."
+      "content": "A 184% increase means multiply by $1 + 1.84 = 2.84$. A 28% decrease means multiply by $1 - 0.28 = 0.72$."
     },
     {
       "title": "Chain the multipliers across both years",
-      "content": "Starting with value $V$ at end 2016, the toy's value is multiplied by 2.93 in 2017, then by 0.69 in 2018: $$V \\times 2.93 \\times 0.69 = V \\times (2.93 \\times 0.69) = V \\times 2.0217$$"
+      "content": "Starting with value $V$ at end 2019, the collectible's value is multiplied by 2.84 in 2020, then by 0.72 in 2021: $$V \\times 2.84 \\times 0.72 = V \\times (2.84 \\times 0.72) = V \\times 2.0448$$"
     },
     {
       "title": "Calculate the net percentage increase",
-      "content": "The value changed from $V$ to $2.0217V$, a factor of 2.0217. The net percentage increase is $(2.0217 - 1) \\times 100\\% = 1.0217 \\times 100\\% = 102.17\\%$. <strong>A</strong> is correct."
+      "content": "The value changed from $V$ to $2.0448V$, a factor of 2.0448. The net percentage increase is $(2.0448 - 1) \\times 100\\% = 1.0448 \\times 100\\% = 104.48\\%$. <strong>A</strong> is correct."
     }
   ]
 }

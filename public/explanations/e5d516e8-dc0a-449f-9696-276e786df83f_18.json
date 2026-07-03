@@ -9,11 +9,11 @@
     },
     {
       "title": "Calculate the new angle after rotation",
-      "content": "Point A is at (0, 1), which is at angle $\\frac{\\pi}{2}$ on the unit circle. Rotating counterclockwise by $\\frac{7\\pi}{6}$ adds this angle to the current angle: $$\\theta = \\frac{\\pi}{2} + \\frac{7\\pi}{6} = \\frac{3\\pi}{6} + \\frac{7\\pi}{6} = \\frac{10\\pi}{6} = \\frac{5\\pi}{3}$$"
+      "content": "Point A is at (0, 1), which is at angle $\\frac{\\pi}{2}$ on the unit circle. Rotating counterclockwise by $\\frac{2\\pi}{3}$ adds this angle to the current angle: $$\\theta = \\frac{\\pi}{2} + \\frac{2\\pi}{3} = \\frac{3\\pi}{6} + \\frac{4\\pi}{6} = \\frac{7\\pi}{6}$$"
     },
     {
       "title": "Use the unit circle formula to find coordinates",
-      "content": "For a point on the unit circle at angle $\\theta$, the coordinates are $(\\cos \\theta, \\sin \\theta)$.<br/><br/>At $\\theta = \\frac{5\\pi}{3}$ (in the fourth quadrant): $$\\cos\\left(\\frac{5\\pi}{3}\\right) = \\frac{1}{2}, \\quad \\sin\\left(\\frac{5\\pi}{3}\\right) = -\\frac{\\sqrt{3}}{2}$$ Therefore, $P = \\left(\\frac{1}{2}, -\\frac{\\sqrt{3}}{2}\\right)$.<br/><br/>That matches the correct answer — <strong>D</strong> is correct."
+      "content": "For a point on the unit circle at angle $\\theta$, the coordinates are $(\\cos \\theta, \\sin \\theta)$.<br/><br/>At $\\theta = \\frac{7\\pi}{6}$ (in the third quadrant): $$\\cos\\left(\\frac{7\\pi}{6}\\right) = -\\frac{\\sqrt{3}}{2}, \\quad \\sin\\left(\\frac{7\\pi}{6}\\right) = -\\frac{1}{2}$$ Therefore, $P = \\left(-\\frac{\\sqrt{3}}{2}, -\\frac{1}{2}\\right)$.<br/><br/>That matches the correct answer — <strong>D</strong> is correct."
     }
   ]
 }

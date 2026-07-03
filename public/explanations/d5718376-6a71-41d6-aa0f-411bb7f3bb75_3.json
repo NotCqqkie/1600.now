@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Subtract 40 from both sides",
-      "content": "Starting with $12x + 40 = 160$, subtract $40$ from both sides:<br/>$$12x = 160 - 40 = 120$$"
+      "title": "Subtract 45 from both sides",
+      "content": "Starting with $15x + 45 = 180$, subtract $45$ from both sides:<br/>$$15x = 180 - 45 = 135$$"
     },
     {
       "title": "Identify the equivalent equation",
-      "content": "The original equation is equivalent to $12x = 120$, which has the same solution ($x = 10$)."
+      "content": "The original equation is equivalent to $15x = 135$, which has the same solution ($x = 9$)."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li>A. $12x = 40$ gives $x = \\frac{10}{3}$; different solution.</li><li>B. $12x = 80$ gives $x = \\frac{20}{3}$; different solution.</li><li>C. $12x = 120$ gives $x = 10$; matches the original.</li><li>D. $12x = 160$ gives $x = \\frac{40}{3}$; different solution.</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+      "content": "<ul><li>A. $15x = 45$ gives $x = 3$; different solution.</li><li>B. $15x = 90$ gives $x = 6$; different solution.</li><li>C. $15x = 135$ gives $x = 9$; matches the original.</li><li>D. $15x = 180$ gives $x = 12$; different solution.</li></ul>That matches the correct answer - <strong>C</strong> is correct."
     }
   ]
 }

@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Identify the starting value and growth",
-      "content": "The problem gives the first point directly: when $x=0$, $y=90$. A $20\\%$ increase means the next value is $120\\%$ of the old value, so each step multiplies by $1.20$."
+      "content": "The problem gives the first point directly: when $x=0$, $y=80$. A $15\\%$ increase means the next value is $115\\%$ of the old value, so each step multiplies by $1.15$."
     },
     {
       "title": "Find the exponential pattern",
-      "content": "An exponential model has the form $y=a(b)^x$. The value at $x=0$ is $a$, so $a=90$. A $20\\%$ increase means the growth factor is $1.20$, so the model is $y=90(1.20)^x$."
+      "content": "An exponential model has the form $y=a(b)^x$. The value at $x=0$ is $a$, so $a=80$. A $15\\%$ increase means the growth factor is $1.15$, so the model is $y=80(1.15)^x$."
     },
     {
       "title": "Confirm the answer",
-      "content": "The matching choice has the starting value $90$ and the growth factor $1.20$. The other choices either use the wrong starting value or the wrong multiplier, so <strong>A</strong> is correct."
+      "content": "The matching choice has the starting value $80$ and the growth factor $1.15$. The other choices either use the wrong starting value or the wrong multiplier, so <strong>A</strong> is correct."
     }
   ]
 }

@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Set the shifted function equal to zero",
-      "content": "The $x$-intercept of the graph of $y=f(x)+6$ occurs when $y=0$. So solve $$f(x)+6=0.$$ Since $f(x)=3d(26x+27)+18$, this becomes $$3d(26x+27)+24=0.$$"
+      "content": "The $x$-intercept of the graph of $y=f(x)+5$ occurs when $y=0$. So solve $$f(x)+5=0.$$ Since $f(x)=4d(24x+25)+15$, this becomes $$4d(24x+25)+20=0.$$"
     },
     {
       "title": "Solve for the x-coordinate",
-      "content": "Expand and isolate $x$: $$78dx+81d+24=0$$ $$78dx=-81d-24$$ $$x=\\frac{-81d-24}{78d}.$$ Therefore the intercept is $$\\left(\\frac{-81d-24}{78d},0\\right).$$"
+      "content": "Expand and isolate $x$: $$96dx+100d+20=0$$ $$96dx=-100d-20$$ $$x=\\frac{-100d-20}{96d}.$$ Therefore the intercept is $$\\left(\\frac{-100d-20}{96d},0\\right).$$"
     },
     {
       "title": "Check with a sample value",
-      "content": "Because $d$ is positive, test an easy value such as $d=1$. The formula gives $$x=\\frac{-81(1)-24}{78(1)}=\\frac{-105}{78}.$$ Substituting this into $3(26x+27)+24$ gives $0$, so it is the correct intercept."
+      "content": "For a quick check, test an easy value such as $d=1$. The formula gives $$x=\\frac{-100(1)-20}{96(1)}=\\frac{-120}{96}.$$ Substituting this into $4(24x+25)+20$ gives $0$, so it is the correct intercept."
     },
     {
       "title": "Confirm the choice",
-      "content": "<strong>Choice A &mdash; $\\left(\\frac{-81d+24}{78d},0\\right)$</strong> has the wrong sign on $24$. <strong>Choice C &mdash; $\\left(6-\\frac{81d+18}{78d},0\\right)$</strong> treats the vertical shift like a horizontal change. <strong>Choice D &mdash; $\\left(-\\frac{45}{78d+6},0\\right)$</strong> incorrectly puts the added $6$ in the denominator. Only <strong>Choice B &mdash; $\\left(\\frac{-81d-24}{78d},0\\right)$</strong> matches the intercept."
+      "content": "<strong>Choice A &mdash; $\\left(\\frac{-100d+20}{96d},0\\right)$</strong> has the wrong sign on $20$. <strong>Choice C &mdash; $\\left(5-\\frac{100d+15}{96d},0\\right)$</strong> treats the vertical shift like a horizontal change. <strong>Choice D &mdash; $\\left(-\\frac{40}{96d+5},0\\right)$</strong> incorrectly puts the added $5$ in the denominator. Only <strong>Choice B &mdash; $\\left(\\frac{-100d-20}{96d},0\\right)$</strong> matches the intercept."
     }
   ]
 }

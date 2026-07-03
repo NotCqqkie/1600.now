@@ -1,19 +1,19 @@
 {
   "questionId": "9c1847da-e82b-4814-a0ec-0b4f99891322_18",
-  "correctAnswer": "16",
+  "correctAnswer": "18",
   "section": "Math",
   "steps": [
     {
       "title": "Solve the equation",
-      "content": "Add $|x-8|$ to both sides: $2|x-8|=20$, so $|x-8|=10$. This gives $x=18$ or $x=-2$."
+      "content": "Add $|x-9|$ to both sides: $2|x-9|=24$, so $|x-9|=12$. This gives $x=21$ or $x=-3$."
     },
     {
       "title": "Sum the solutions",
-      "content": "Add: $18+(-2)=16$. (Or use the shortcut: solutions of $|x-a|=b$ sum to $2a=16$.)<br/><br/>The answer is <strong>16</strong>."
+      "content": "Add: $21+(-3)=18$. (Or use the shortcut: solutions of $|x-a|=b$ sum to $2a=18$.)<br/><br/>The answer is <strong>18</strong>."
     },
     {
       "title": "Confirm the answer",
-      "content": "As a final check, make sure the computed value answers exactly what the question asks for. The work above gives $16$; substituting or interpreting it in the original condition satisfies the requirement, so $16$ is the value to enter."
+      "content": "As a final check, make sure the computed value answers exactly what the question asks for. The work above gives $18$; substituting or interpreting it in the original condition satisfies the requirement, so $18$ is the value to enter."
     }
   ]
 }

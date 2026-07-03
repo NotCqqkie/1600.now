@@ -9,11 +9,11 @@
     },
     {
       "title": "Apply it to the equation",
-      "content": "The equation asks for $$x^2=-841$$ but $-841$ is negative. Therefore, no real value of $x$ can satisfy the equation."
+      "content": "The equation asks for $$x^2=-784$$ but $-784$ is negative. Therefore, no real value of $x$ can satisfy the equation."
     },
     {
       "title": "Check the choices",
-      "content": "There are zero distinct real solutions, so choice D (&lsquo;Zero&rsquo;) is correct. There would be two real solutions for $x^2=841$, but the negative right side changes the result."
+      "content": "There are zero distinct real solutions, so choice D (&lsquo;Zero&rsquo;) is correct. There would be two real solutions for $x^2=784$, but the negative right side changes the result."
     }
   ]
 }

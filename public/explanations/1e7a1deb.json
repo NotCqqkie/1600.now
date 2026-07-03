@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $-3k+17r-3$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $-4k+13r-5$."
     },
     {
       "title": "Algebra check",
@@ -13,11 +13,11 @@
     },
     {
       "title": "Substitute and distribute the negative sign",
-      "content": "Substitute $a = 4k + 5r$ and $b = 7k - 12r + 3$ into $a - b$, then distribute the negative through $b$: $$a - b = (4k + 5r) - (7k - 12r + 3) = 4k + 5r - 7k + 12r - 3$$"
+      "content": "Substitute $a = 6k + 4r$ and $b = 10k - 9r + 5$ into $a - b$, then distribute the negative through $b$: $$a - b = (6k + 4r) - (10k - 9r + 5) = 6k + 4r - 10k + 9r - 5$$"
     },
     {
       "title": "Combine like terms to find the answer",
-      "content": "Collect terms by variable:<ul><li>k: $4k - 7k = -3k$</li><li>r: $5r + 12r = 17r$</li><li>Constant: $-3$</li></ul>The expression simplifies to $-3k + 17r - 3$. That matches <strong>Choice B &mdash; $-3k+17r-3$</strong>."
+      "content": "Collect terms by variable:<ul><li>k: $6k - 10k = -4k$</li><li>r: $4r + 9r = 13r$</li><li>Constant: $-5$</li></ul>The expression simplifies to $-4k + 13r - 5$. That matches <strong>Choice B &mdash; $-4k+13r-5$</strong>."
     }
   ]
 }

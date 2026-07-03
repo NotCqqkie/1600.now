@@ -1,15 +1,15 @@
 {
   "questionId": "9c7741c6",
-  "correctAnswer": "3",
+  "correctAnswer": "4",
   "section": "Math",
   "steps": [
     {
       "title": "Set up the distance equation",
-      "content": "For each part of the trip, distance equals rate times time. The first $x$ hours at 60 mph covers $60x$ miles. The remaining $y$ hours at 50 mph covers $50y$ miles. The total distance is 210 miles, so:<br/>$$60x + 50y = 210$$"
+      "content": "For each part of the trip, distance equals rate times time. The first $x$ hours at 70 mph covers $70x$ miles. The remaining $y$ hours at 40 mph covers $40y$ miles. The total distance is 230 miles, so:<br/>$$70x + 40y = 230$$"
     },
     {
       "title": "Substitute x = 1 and solve for y",
-      "content": "We know $x = 1$, so substitute into the equation:<br/>$$60(1) + 50y = 210$$<br/>$$60 + 50y = 210$$<br/>Subtract 60 from both sides:<br/>$$50y = 150$$<br/>Divide both sides by 50:<br/>$$y = 3$$"
+      "content": "We know $x = 1$, so substitute into the equation:<br/>$$70(1) + 40y = 230$$<br/>$$70 + 40y = 230$$<br/>Subtract 70 from both sides:<br/>$$40y = 160$$<br/>Divide both sides by 40:<br/>$$y = 4$$"
     }
   ]
 }

@@ -8,12 +8,12 @@
       "content": "Enter the function in Desmos or a calculator table and scan for the row with the output named in the question. The input that works gives <strong>B</strong>, $9$. This is just a table lookup, and the arithmetic below confirms the same value."
     },
     {
-      "title": "Set the function equal to 72",
-      "content": "The function is $f(x)=8x$. If $f(x)=72$, then $$8x=72$$"
+      "title": "Set the function equal to 63",
+      "content": "The function is $f(x)=7x$. If $f(x)=63$, then $$7x=63$$"
     },
     {
       "title": "Solve for x",
-      "content": "Divide by $8$: $$x=9$$"
+      "content": "Divide by $7$: $$x=9$$"
     }
   ]
 }

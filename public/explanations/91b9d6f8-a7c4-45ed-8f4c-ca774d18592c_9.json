@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Find the slope of line r",
-      "content": "Rearrange $4x - 3y = 8$ into slope-intercept form: $$-3y = -4x + 8 \\implies y = \\frac{4}{3}x - \\frac{8}{3}$$ Slope of line $r$ $= \\frac{4}{3}$."
+      "content": "Rearrange $5x - 2y = 10$ into slope-intercept form: $$-2y = -5x + 10 \\implies y = \\frac{5}{2}x - 5$$ Slope of line $r$ $= \\frac{5}{2}$."
     },
     {
       "title": "Test all four choices for the slope of a parallel line",
-      "content": "<ul><li><strong>Choice A &mdash; -4</strong>: Slope $= -4 \\neq \\frac{4}{3}$. Not parallel. &#10007;</li><li><strong>Choice B &mdash; -3</strong>: Slope $= -3 \\neq \\frac{4}{3}$. Not parallel. &#10007;</li><li><strong>Choice C &mdash; $\\frac{3}{4}$</strong>: Slope $= \\frac{3}{4} \\neq \\frac{4}{3}$. Not parallel (this is the reciprocal, not the same slope). &#10007;</li><li><strong>Choice D &mdash; $\\frac{4}{3}$</strong>: Slope $= \\frac{4}{3}$. Matches slope of line $r$ exactly. Parallel lines have equal slopes. &#10003;</li></ul>"
+      "content": "<ul><li><strong>Choice A &mdash; -5</strong>: Slope $= -5 \\neq \\frac{5}{2}$. Not parallel. &#10007;</li><li><strong>Choice B &mdash; -2</strong>: Slope $= -2 \\neq \\frac{5}{2}$. Not parallel. &#10007;</li><li><strong>Choice C &mdash; $\\frac{2}{5}$</strong>: Slope $= \\frac{2}{5} \\neq \\frac{5}{2}$. Not parallel (this is the reciprocal, not the same slope). &#10007;</li><li><strong>Choice D &mdash; $\\frac{5}{2}$</strong>: Slope $= \\frac{5}{2}$. Matches slope of line $r$ exactly. Parallel lines have equal slopes. &#10003;</li></ul>"
     },
     {
       "title": "Conclusion",
-      "content": "Parallel lines have the same slope. Line $r$ has slope $\\frac{4}{3}$, so line $s$ must also have slope $\\frac{4}{3}$. That confirms <strong>D</strong> is correct."
+      "content": "Parallel lines have the same slope. Line $r$ has slope $\\frac{5}{2}$, so line $s$ must also have slope $\\frac{5}{2}$. That confirms <strong>D</strong> is correct."
     }
   ]
 }

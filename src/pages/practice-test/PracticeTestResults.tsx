@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Link, useParams, useSearchParams } from "react-router-dom";
 import {
   ArrowDown,
@@ -44,7 +44,7 @@ import {
   stripBankPrefix,
 } from "@/lib/practice/resultReview";
 import { formatPracticeResultTime } from "@/lib/practice/practiceTime";
-import { getPracticeSet } from "@/data/modulePracticeBank";
+import { getLoadedPracticeSet, getPracticeSet, loadPracticeSet } from "@/data/modulePracticeBank";
 import { cn, normalizePublicAssetPath } from "@/lib/utils";
 import {
   getReviewChoiceImageClassName,
@@ -206,6 +206,20 @@ const PracticeTestResults = () => {
   const uid = user?.id ?? null;
   const sessionId = searchParams.get("session");
   const practiceSet = useMemo(() => (setId ? getPracticeSet(setId) : null), [setId]);
+  const [loadedPracticeSet, setLoadedPracticeSet] = useState(() =>
+    setId ? getLoadedPracticeSet(setId) : null,
+  );
+  useEffect(() => {
+    let cancelled = false;
+    setLoadedPracticeSet(setId ? getLoadedPracticeSet(setId) : null);
+    if (!setId) return;
+    void loadPracticeSet(setId).then((loaded) => {
+      if (!cancelled) setLoadedPracticeSet(loaded);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [setId]);
   const result = useMemo(() => {
     if (!practiceSet) return null;
     if (sessionId) {
@@ -214,13 +228,13 @@ const PracticeTestResults = () => {
     return getLatestPracticeTestResult(practiceSet.id, uid);
   }, [practiceSet, sessionId, uid]);
   const sourceQuestionMap = useMemo(() => {
-    if (!practiceSet) return new Map();
+    if (!loadedPracticeSet) return new Map();
     return new Map(
-      practiceSet.modules.flatMap((module) =>
+      loadedPracticeSet.modules.flatMap((module) =>
         module.questions.map((entry) => [entry.bankQuestion.stableId, entry.bankQuestion] as const),
       ),
     );
-  }, [practiceSet]);
+  }, [loadedPracticeSet]);
   const orderedQuestions = useMemo(() => {
     if (!result) return [];
     const directionMultiplier = questionSortDirection === "asc" ? 1 : -1;
@@ -619,19 +633,26 @@ const PracticeTestResults = () => {
                     <div className="space-y-4">
                       {sourceQuestion.questionImages?.length ? (
                         <div className="space-y-3">
-                          {sourceQuestion.questionImages.map((image, imageIndex) => (
-                            <div key={`${image.src}-${imageIndex}`} className="flex justify-center">
-                              <TransparentAwareImage
-                                src={normalizePublicAssetPath(image.src)}
-                                alt={image.alt || `SAT question ${question.globalQuestionNumber} image ${imageIndex + 1}`}
-                                className={cn(
-                                  RESULT_REVIEW_QUESTION_IMAGE_CLASS,
-                                  getReviewQuestionImageClassName(image.displaySize),
-                                )}
-                                trimWhitespace
-                              />
-                            </div>
-                          ))}
+	                          {sourceQuestion.questionImages.map((image, imageIndex) => (
+	                            <div key={`${image.src}-${imageIndex}`} className="flex justify-center">
+	                              <TransparentAwareImage
+	                                src={normalizePublicAssetPath(image.src)}
+	                                alt={image.alt || `SAT question ${question.globalQuestionNumber} image ${imageIndex + 1}`}
+	                                optimizedSrc={image.optimizedSrc}
+	                                srcSet={image.srcSet}
+	                                sizes={image.sizes}
+	                                width={image.width}
+	                                height={image.height}
+	                                intrinsicSize={image.width && image.height ? { width: image.width, height: image.height } : undefined}
+	                                hasTransparency={image.hasTransparency}
+	                                className={cn(
+	                                  RESULT_REVIEW_QUESTION_IMAGE_CLASS,
+	                                  getReviewQuestionImageClassName(image.displaySize),
+	                                )}
+	                                trimWhitespace={!image.optimizedSrc}
+	                              />
+	                            </div>
+	                          ))}
                         </div>
                       ) : null}
                       {sourceQuestion.passage ? (
@@ -709,15 +730,22 @@ const PracticeTestResults = () => {
                                 ) : null}
                                 {hasImage ? (
                                   <div className={cn("mt-2 flex justify-center", hasText && "pt-1")}>
-                                    <TransparentAwareImage
-                                      src={normalizePublicAssetPath(choice.image)}
-                                      alt={`SAT question ${question.globalQuestionNumber} choice ${choice.id} image`}
-                                      className={cn(
-                                        RESULT_REVIEW_CHOICE_IMAGE_CLASS,
-                                        getReviewChoiceImageClassName(choice.imageDisplaySize),
-                                      )}
-                                      trimWhitespace
-                                    />
+	                                    <TransparentAwareImage
+	                                      src={normalizePublicAssetPath(choice.image)}
+	                                      alt={`SAT question ${question.globalQuestionNumber} choice ${choice.id} image`}
+	                                      optimizedSrc={choice.imageOptimizedSrc}
+	                                      srcSet={choice.imageSrcSet}
+	                                      sizes={choice.imageSizes}
+	                                      width={choice.imageWidth}
+	                                      height={choice.imageHeight}
+	                                      intrinsicSize={choice.imageWidth && choice.imageHeight ? { width: choice.imageWidth, height: choice.imageHeight } : undefined}
+	                                      hasTransparency={choice.imageHasTransparency}
+	                                      className={cn(
+	                                        RESULT_REVIEW_CHOICE_IMAGE_CLASS,
+	                                        getReviewChoiceImageClassName(choice.imageDisplaySize),
+	                                      )}
+	                                      trimWhitespace={!choice.imageOptimizedSrc}
+	                                    />
                                   </div>
                                 ) : null}
                               </div>
@@ -793,6 +821,7 @@ const PracticeTestResults = () => {
             if (!active) setIsExplanationSidebarred(false);
           }}
           windowId={EXPLANATION_WINDOW_ID}
+          centerOnExitSidebar
         >
           <div className="flex h-full flex-col overflow-hidden">
             <div className="flex-1 overflow-hidden">

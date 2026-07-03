@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Set up",
-      "content": "The tip is 10% of the \\$30.00 bill. Multiply the bill by 0.10."
+      "content": "The tip is 10% of the \\$40.00 bill. Multiply the bill by 0.10."
     },
     {
       "title": "Solve",
-      "content": "$0.10 × 30 = 3$"
+      "content": "$0.10 × 40 = 4$"
     },
     {
       "title": "Answer",
-      "content": "The tip is \\$3.00. <strong>B</strong> is correct."
+      "content": "The tip is \\$4.00. <strong>B</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches \\$3.00. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches \\$4.00. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
     }
   ]
 }

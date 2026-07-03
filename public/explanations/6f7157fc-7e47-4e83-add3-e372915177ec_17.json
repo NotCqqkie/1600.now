@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Establish the pay structure",
-      "content": "For the first 40 hours, the employee earns \\$30/hr, yielding 40 × \\$30 = \\$1,200. For each hour beyond 40, the rate is \\$45/hr. The goal is at least \\$1,610."
+      "content": "For the first 40 hours, the employee earns \\$28/hr, yielding 40(\\$28) = \\$1,120. For each hour beyond 40, the rate is \\$42/hr. The goal is at least \\$1,510."
     },
     {
       "title": "Backsolve the candidates",
-      "content": "Backsolving — testing choice B (49): The employee works 49 − 40 = 9 hours of overtime at \\$45/hr, yielding \\$1,200 + 9(\\$45) = \\$1,200 + \\$405 = \\$1,605.<br/><br/>Since \\$1,605 \\lt \\$1,610, B fails.<br/><br/>Testing choice A (50): The employee works 50 − 40 = 10 hours of overtime at \\$45/hr, yielding \\$1,200 + 10(\\$45) = \\$1,200 + \\$450 = \\$1,650.<br/><br/>Since \\$1,650 ≥ \\$1,610, the target is met. That confirms <strong>A</strong> is correct."
+      "content": "Backsolving &mdash; testing choice B (49): The employee works 49 - 40 = 9 hours of overtime at \\$42/hr, yielding \\$1,120 + 9(\\$42) = \\$1,120 + \\$378 = \\$1,498.<br/><br/>Since \\$1,498 &lt; \\$1,510, B fails.<br/><br/>Testing choice A (50): The employee works 50 - 40 = 10 hours of overtime at \\$42/hr, yielding \\$1,120 + 10(\\$42) = \\$1,120 + \\$420 = \\$1,540.<br/><br/>Since \\$1,540 &ge; \\$1,510, the target is met. That confirms <strong>A</strong> is correct."
     }
   ]
 }

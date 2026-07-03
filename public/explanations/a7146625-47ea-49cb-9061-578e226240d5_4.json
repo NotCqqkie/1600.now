@@ -9,11 +9,11 @@
     },
     {
       "title": "Substitute the given information",
-      "content": "The slope is $-54$, so $m=-54$. The line passes through $(0,0)$, so $f(0)=0$ and $b=0$. Therefore $$f(x)=-54x.$$"
+      "content": "The slope is $-48$, so $m=-48$. The line passes through $(0,0)$, so $f(0)=0$ and $b=0$. Therefore $$f(x)=-48x.$$"
     },
     {
       "title": "Confirm the answer",
-      "content": "$f(x)=-54x$ is the correct answer. The other choices have slopes $-36$, $-18$, and $1$, so they cannot match the given slope. <strong>A</strong> is correct."
+      "content": "$f(x)=-48x$ is the correct answer. The other choices have slopes $-32$, $-16$, and $1$, so they cannot match the given slope. <strong>A</strong> is correct."
     }
   ]
 }

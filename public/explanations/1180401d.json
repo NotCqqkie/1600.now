@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Calculate land area",
-      "content": "Subtract water area from total area: <br/> $$92.1 - 11.3 = 80.8 \\text{ square miles}$$"
+      "content": "Subtract water area from total area: <br/> $$87.4 - 9.6 = 77.8 \\text{ square miles}$$"
     },
     {
       "title": "Calculate population density",
-      "content": "Divide population by land area: <br/> $$\\frac{621,000}{80.8} \\approx 7,687 \\text{ people per square mile}$$<br/>This is closest to <strong>Choice B &mdash; 7,690</strong> is correct.",
+      "content": "Divide population by land area: <br/> $$\\frac{540,000}{77.8} \\approx 6,941 \\text{ people per square mile}$$<br/>This is closest to <strong>Choice B &mdash; 6,940</strong> is correct.",
       "formula": "$$\\text{Population density} = \\frac{\\text{Population}}{\\text{Land area}}$$"
     }
   ]

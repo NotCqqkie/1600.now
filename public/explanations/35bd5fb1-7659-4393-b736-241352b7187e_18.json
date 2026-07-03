@@ -9,15 +9,15 @@
     },
     {
       "title": "Convert the word condition into an inequality",
-      "content": "The phrase <em>product of 28 and the third is at most 50 less than the sum of the first and fourth</em> translates to:<br/>$$28(x + 4) \\leq (x + (x + 6)) - 50$$<br/>Simplify the right side:<br/>$$28(x + 4) \\leq 2x + 6 - 50$$<br/>$$28(x + 4) \\leq 2x - 44$$"
+      "content": "The phrase <em>product of 24 and the third is at most 42 less than the sum of the first and fourth</em> translates to:<br/>$$24(x + 4) \\leq (x + (x + 6)) - 42$$<br/>Simplify the right side:<br/>$$24(x + 4) \\leq 2x + 6 - 42$$<br/>$$24(x + 4) \\leq 2x - 36$$"
     },
     {
       "title": "Expand and solve for x",
-      "content": "Expand the left side:<br/>$$28x + 112 \\leq 2x - 44$$<br/>Subtract $2x$ from both sides:<br/>$$26x + 112 \\leq -44$$<br/>Subtract 112 from both sides:<br/>$$26x \\leq -156$$<br/>Divide by 26:<br/>$$x \\leq -6$$"
+      "content": "Expand the left side:<br/>$$24x + 96 \\leq 2x - 36$$<br/>Subtract $2x$ from both sides:<br/>$$22x + 96 \\leq -36$$<br/>Subtract 96 from both sides:<br/>$$22x \\leq -132$$<br/>Divide by 22:<br/>$$x \\leq -6$$"
     },
     {
       "title": "Find the greatest possible odd integer value",
-      "content": "We need the greatest value of $x$ such that $x \\leq -6$ and $x$ is odd. Checking odd integers near the boundary: $-5 \\gt  -6$ (violates the constraint) and $-7 \\lt -6$ (satisfies the constraint and is odd). The greatest odd integer satisfying $x \\leq -6$ is $x = -7$. The answer is <strong>−7</strong>."
+      "content": "We need the greatest value of $x$ such that $x \\leq -6$ and $x$ is odd. Checking odd integers near the boundary: $-5 \\gt -6$ (violates the constraint) and $-7 \\lt -6$ (satisfies the constraint and is odd). The greatest odd integer satisfying $x \\leq -6$ is $x = -7$. The answer is <strong>-7</strong>."
     }
   ]
 }

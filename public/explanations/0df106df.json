@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up the system of equations",
-      "content": "Let $n$ = number of novels and $m$ = number of magazines.<br/><br/>Since there are 11 total items: $$n + m = 11$$<br/>Since the total cost is &#36;20: $$4n + m = 20$$"
+      "content": "Let $n$ = number of novels and $m$ = number of magazines.<br/><br/>Since there are 14 total items: $$n + m = 14$$<br/>Since the total cost is &#36;34: $$5n + m = 34$$"
     },
     {
       "title": "Solve by elimination",
-      "content": "Subtract the first equation from the second to eliminate $m$:<br/>$$(4n + m) - (n + m) = 20 - 11$$<br/>Simplify: $$3n = 9$$<br/>Divide both sides by 3: $$n = 3$$<br/>That matches <strong>Choice B &mdash; 3</strong>."
+      "content": "Subtract the first equation from the second to eliminate $m$:<br/>$$(5n + m) - (n + m) = 34 - 14$$<br/>Simplify: $$4n = 20$$<br/>Divide both sides by 4: $$n = 5$$<br/>That matches <strong>Choice B &mdash; 5</strong>."
     }
   ]
 }

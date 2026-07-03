@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The $y$-intercept is the value of $y$ when $x = 0$. Substitute: $y = 400(3)^{2(0)} = 400(1) = 400$. Since $x$ counts six-month periods starting from the end of January 1997, $x = 0$ is that starting moment. The $y$-intercept means 400 subscribers at the end of January 1997."
+      "content": "The $y$-intercept is the value of $y$ when $x = 0$. Substitute: $y = 250(4)^{2(0)} = 250(1) = 250$. Since $x$ counts six-month periods starting from the end of March 2001, $x = 0$ is that starting moment. The $y$-intercept means 250 subscribers at the end of March 2001."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"The estimated number of online newsletter subscribers at the end of the first six-month period was 400.\"</strong>: that's $x = 1$, not $x = 0$. &#10007;</li><li><strong>\"The estimated number of online newsletter subscribers at the end of January 1997 was 400.\"</strong>: matches the $y$-intercept exactly. &#10003;</li><li><strong>\"The estimated number of online newsletter subscribers at the end of January 1998 was 1,200.\"</strong>: the $y$-intercept is a starting value, not a rate. &#10007;</li><li><strong>\"The estimated number of online newsletter subscribers at the end of January 1997 was 1,200.\"</strong>: that's what $x$ represents, not $y$. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+      "content": "<ul><li><strong>\"The estimated number of online newsletter subscribers at the end of the first six-month period was 250.\"</strong>: that's $x = 1$, not $x = 0$. &#10007;</li><li><strong>\"The estimated number of online newsletter subscribers at the end of March 2001 was 250.\"</strong>: matches the $y$-intercept exactly. &#10003;</li><li><strong>\"The estimated number of online newsletter subscribers at the end of March 2002 was 1,000.\"</strong>: the $y$-intercept is a starting value, not a later value. &#10007;</li><li><strong>\"The estimated number of online newsletter subscribers at the end of March 2001 was 1,000.\"</strong>: uses the wrong subscriber count for the starting moment. &#10007;</li></ul>That matches the correct answer - <strong>B</strong> is correct."
     }
   ]
 }

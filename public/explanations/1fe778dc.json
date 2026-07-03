@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the y‑intercept",
-      "content": "Any point with $x=0$ lies on the y‑axis, so its y‑coordinate is the y‑intercept.<br/>The line passes through $(0,3)$; therefore the y‑intercept is $b = 3$."
+      "title": "Find the y-intercept",
+      "content": "Any point with $x=0$ lies on the y-axis, so its y-coordinate is the y-intercept.<br/>The line passes through $(0,4)$; therefore the y-intercept is $b = 4$."
     },
     {
-      "title": "Write the equation in slope‑intercept form",
-      "content": "The slope‑intercept form is $$y = mx + b$$ with slope $m = -\\frac{1}{2}$ and intercept $b = 3$ from step 1.<br/>Substitute: $$y = -\\frac{1}{2}x + 3$$.<br/>That matches <strong>Choice B &mdash; $y=-\\frac{1}{2}x+3$</strong>."
+      "title": "Write the equation in slope-intercept form",
+      "content": "The slope-intercept form is $$y = mx + b$$ with slope $m = -\\frac{2}{3}$ and intercept $b = 4$ from step 1.<br/>Substitute: $$y = -\\frac{2}{3}x + 4$$.<br/>That matches <strong>Choice B &mdash; $y=-\\frac{2}{3}x+4$</strong>."
     }
   ]
 }

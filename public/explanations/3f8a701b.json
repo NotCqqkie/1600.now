@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Solve for the needed coefficient",
-      "content": "For an equation in $x$ to have no solutions, the $x$-coefficients must match but the constants must not match. Expanding the right side gives $$9x+5=ax+ab.$$ Matching the $x$-coefficients gives $a=9$, so statement I must be true."
+      "content": "For an equation in $x$ to have no solutions, the $x$-coefficients must match but the constants must not match. Expanding the right side gives $$7x+4=ax+ab.$$ Matching the $x$-coefficients gives $a=7$, so statement I must be true."
     },
     {
       "title": "Find the excluded value of b",
-      "content": "With $a=9$, the equation becomes $9x+5=9x+9b$. If $5=9b$, the equation would have infinitely many solutions instead of no solutions. Therefore no solutions require $$9b\\neq5\\Rightarrow b\\neq\\frac{5}{9}.$$"
+      "content": "With $a=7$, the equation becomes $7x+4=7x+7b$. If $4=7b$, the equation would have infinitely many solutions instead of no solutions. Therefore no solutions require $$7b\\neq4\\Rightarrow b\\neq\\frac{4}{7}.$$"
     },
     {
       "title": "Translate the condition",
-      "content": "The condition is exactly $$a=9\\quad\\text{and}\\quad b\\neq\\frac{5}{9}.$$ That means $a$ must equal $9$, while $b$ only has to avoid one value."
+      "content": "The condition is exactly $$a=7\\quad\\text{and}\\quad b\\neq\\frac{4}{7}.$$ That means $a$ must equal $7$, while $b$ only has to avoid one value."
     },
     {
       "title": "Select the answer",
-      "content": "Statement I is required. Statement II is not required because $b$ can be any value except $\\frac{5}{9}$. Statement III is required. Therefore only I and III must be true, which matches the correct answer."
+      "content": "Statement I is required. Statement II is not required because $b$ can be any value except $\\frac{4}{7}$. Statement III is required. Therefore only I and III must be true, which is choice D."
     }
   ]
 }

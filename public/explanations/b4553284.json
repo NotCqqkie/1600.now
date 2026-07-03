@@ -1,19 +1,19 @@
 {
   "questionId": "b4553284",
-  "correctAnswer": "54",
+  "correctAnswer": "48",
   "section": "Math",
   "steps": [
     {
       "title": "Solve for $x$",
-      "content": "From $2x=12$, divide both sides by $2$: $$x=6.$$"
+      "content": "From $3x=18$, divide both sides by $3$: $$x=6.$$"
     },
     {
-      "title": "Evaluate $9x$",
-      "content": "Now multiply by $9$: $$9x=9(6)=54.$$"
+      "title": "Evaluate $8x$",
+      "content": "Now multiply by $8$: $$8x=8(6)=48.$$"
     },
     {
       "title": "Confirm the answer",
-      "content": "The requested value is <strong>54</strong>. The question asks for $9x$, so stopping at $x=6$ would answer only an intermediate step. Always finish with the expression named in the question."
+      "content": "The requested value is <strong>48</strong>. The question asks for $8x$, so stopping at $x=6$ would answer only an intermediate step. Always finish with the expression named in the question."
     }
   ]
 }

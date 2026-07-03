@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Substitute the given input and output",
-      "content": "The function is $f(x)=4x+b$, and $f(7)=28$. Substitute $x=7$ and $f(x)=28$:<br/>$$28=4(7)+b$$"
+      "content": "The function is $f(x)=5x+b$, and $f(6)=30$. Substitute $x=6$ and $f(x)=30$:<br/>$$30=5(6)+b$$"
     },
     {
       "title": "Solve for b",
-      "content": "$$28=28+b$$<br/>Subtract $28$ from both sides:<br/>$$b=0$$"
+      "content": "$$30=30+b$$<br/>Subtract $30$ from both sides:<br/>$$b=0$$"
     },
     {
       "title": "Check the choices",
-      "content": "If $b=1$, $4$, or $7$, then $f(7)$ would be greater than $28$. Only $b=0$ keeps $f(7)=28$."
+      "content": "If $b=1$, $5$, or $6$, then $f(6)$ would be greater than $30$. Only $b=0$ keeps $f(6)=30$."
     },
     {
       "title": "Answer",

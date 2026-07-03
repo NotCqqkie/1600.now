@@ -5,16 +5,16 @@
   "steps": [
     {
       "title": "Apply the vertical shift rule",
-      "content": "When a function is shifted up by $k$ units, we add $k$ to the function value. For a shift up by 9 units, we have:<br/>$$g(x) = f(x) + 9$$",
+      "content": "When a function is shifted up by $k$ units, we add $k$ to the function value. For a shift up by 8 units, we have:<br/>$$g(x) = f(x) + 8$$",
       "formula": "$$g(x) = f(x) + k$$"
     },
     {
       "title": "Substitute and simplify",
-      "content": "Substitute $f(x) = 3x + 5$:<br/>$$g(x) = (3x + 5) + 9 = 3x + 14$$"
+      "content": "Substitute $f(x) = 4x + 7$:<br/>$$g(x) = (4x + 7) + 8 = 4x + 15$$"
     },
     {
       "title": "Check all choices",
-      "content": "<ul><li><strong>\"$g(x) = 3x + 5 + 9$\"</strong>: Equals $3x + 14$, which is $f(x)$ shifted up by 9 &#10003;</li><li><strong>\"$g(x) = 3x + 5 - 9$\"</strong>: Equals $3x - 4$, a shift down by 9, not up &#10007;</li><li><strong>\"$g(x) = 3x + 45$\"</strong>: Shifts $f(x)$ up by 40 units (from $3x+5$ to $3x+45$), not 9 units. Eliminated &#10007;</li><li><strong>\"$g(x) = 27x + 5$\"</strong>: Multiplies the slope by 9 instead of adding 9 to the output &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+      "content": "<ul><li><strong>\"$g(x) = 4x + 7 + 8$\"</strong>: Equals $4x + 15$, which is $f(x)$ shifted up by 8 &#10003;</li><li><strong>\"$g(x) = 4x + 7 - 8$\"</strong>: Equals $4x - 1$, a shift down by 8, not up &#10007;</li><li><strong>\"$g(x) = 4x + 56$\"</strong>: Shifts $f(x)$ up by 49 units (from $4x+7$ to $4x+56$), not 8 units. Eliminated &#10007;</li><li><strong>\"$g(x) = 32x + 7$\"</strong>: Multiplies the slope by 8 instead of adding 8 to the output &#10007;</li></ul>That matches the correct answer - <strong>A</strong> is correct."
     }
   ]
 }

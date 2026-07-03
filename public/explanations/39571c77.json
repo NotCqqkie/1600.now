@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up the cost equation",
-      "content": "Let $r$ = number of rabbit snails. The total cost equals cost of rabbit snails plus cost of nerite snails:<br/>$$8r + 6(2) = 52$$"
+      "content": "Let $m$ = number of mystery snails. The total cost equals cost of mystery snails plus cost of ramshorn snails:<br/>$$9m + 7(3) = 66$$"
     },
     {
-      "title": "Solve for r",
-      "content": "Simplify the left side:<br/>$$8r + 12 = 52$$<br/>Subtract 12:<br/>$$8r = 40$$<br/>Divide by 8:<br/>$$r = 5$$<br/><strong>A</strong> is correct."
+      "title": "Solve for m",
+      "content": "Simplify the left side:<br/>$$9m + 21 = 66$$<br/>Subtract 21:<br/>$$9m = 45$$<br/>Divide by 9:<br/>$$m = 5$$<br/><strong>A</strong> is correct."
     }
   ]
 }

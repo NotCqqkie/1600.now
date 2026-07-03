@@ -9,11 +9,11 @@
     },
     {
       "title": "Scale by the change",
-      "content": "For a 3.4-kelvin increase, $$\\Delta F=\\tfrac{9}{5}\\cdot 3.4=6.12.$$<br/><br/>Only the change in temperature matters here; the intercept of the conversion formula does not affect how much $F$ changes when $x$ increases."
+      "content": "For a 4.2-kelvin increase, $$\\Delta F=\\tfrac{9}{5}\\cdot 4.2=7.56.$$<br/><br/>Only the change in temperature matters here; the intercept of the conversion formula does not affect how much $F$ changes when $x$ increases."
     },
     {
       "title": "State the answer",
-      "content": "That matches <strong>Choice A &mdash; 6.12</strong>."
+      "content": "That matches <strong>Choice A &mdash; 7.56</strong>."
     }
   ]
 }

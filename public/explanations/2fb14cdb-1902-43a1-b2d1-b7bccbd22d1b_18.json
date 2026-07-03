@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the rate of change from the linear equation",
-      "content": "The equation $d = 6t + 210$ is linear, where the coefficient of $t$ represents the rate of change. Here, the rate is 6 feet per minute."
+      "content": "The equation $d = 7t + 185$ is linear, where the coefficient of $t$ represents the rate of change. Here, the rate is 7 feet per minute."
     },
     {
-      "title": "Calculate the distance increase over 20 minutes",
-      "content": "Over a 20-minute period, the total increase in distance is: $$\\Delta d = 6 \\times 20 = 120 \\text{ feet}$$ <strong>C</strong> is correct."
+      "title": "Calculate the distance increase over 30 minutes",
+      "content": "Over a 30-minute period, the total increase in distance is: $$\\Delta d = 7 \\times 30 = 210 \\text{ feet}$$ <strong>C</strong> is correct."
     }
   ]
 }

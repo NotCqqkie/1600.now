@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+      "title": "Fastest path: find the rate per second",
+      "content": "Divide the amount of water in one drop by the number of seconds per drop. Then use the initial volume as the constant term in a linear model."
     },
     {
       "title": "Identify what the question needs",
-      "content": "The container starts at 21 mL. One 0.06 mL drop falls every 6 seconds, so the rate is $\\frac{0.06}{6}=0.01$ mL per second. The question asks which equation models $v$ (total volume) after $t$ seconds."
+      "content": "The container starts at 18 mL. One 0.08 mL drop falls every 8 seconds, so the rate is $\\frac{0.08}{8}=0.01$ mL per second. The question asks which equation models $v$ (total volume) after $t$ seconds."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; $v=6t$</strong>: ignores the starting 21 mL and uses the wrong rate. &#10007;</li><li><strong>Choice B &mdash; $v=0.36t+21$</strong>: rate 0.36 mL/s would mean 0.36&times;6=2.16 mL per drop, far too fast. &#10007;</li><li><strong>Choice C &mdash; $v=0.01t+21$</strong>: starts at 21 mL and adds 0.01 mL each second, matching the calculated rate. &#10003;</li><li><strong>Choice D &mdash; $v=0.06t+21$</strong>: uses 0.06 mL/s instead of 0.06 mL per 6 s &mdash; off by a factor of 6. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; $v=8t$</strong>: ignores the starting 18 mL and uses the wrong rate. &#10007;</li><li><strong>Choice B &mdash; $v=0.64t+18$</strong>: rate 0.64 mL/s would mean 0.64&times;8=5.12 mL per drop, far too fast. &#10007;</li><li><strong>Choice C &mdash; $v=0.01t+18$</strong>: starts at 18 mL and adds 0.01 mL each second, matching the calculated rate. &#10003;</li><li><strong>Choice D &mdash; $v=0.08t+18$</strong>: uses 0.08 mL/s instead of 0.08 mL per 8 s &mdash; off by a factor of 8. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
     }
   ]
 }

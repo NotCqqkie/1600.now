@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Identify the key facts",
-      "content": "The passage states that only about 6% of bodies imaged by HST are within the solar system &mdash; meaning roughly 94% of its observations are of objects outside the solar system. Young and colleagues recommend a new telescope &quot;dedicated exclusively to solar-system observations.&quot;"
+      "content": "The passage states that only about 6% of bodies imaged by HST are within the solar system &mdash; meaning most of the bodies it has imaged are outside the solar system. Kim and colleagues recommend a new telescope &quot;dedicated exclusively to solar-system observations.&quot;"
     },
     {
       "title": "Derive the implication",
@@ -13,7 +13,7 @@
     },
     {
       "title": "Eliminate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; will likely continue to be used primarily to observe objects outside the solar system.</strong>: matches the 6%/94% data and the need for a separate dedicated telescope. &#10003;</li><li><strong>Choice B &mdash; will no longer be used to observe solar system objects if the telescope recommended by Young and colleagues is deployed.</strong>: overreach &mdash; the recommendation is to add a new telescope, not to bar HST from any solar-system observation. &#10007;</li><li><strong>Choice C &mdash; can be modified to observe the features of solar system objects that are of interest to Young and colleagues.</strong>: overreach &mdash; the passage never mentions modifying HST; the researchers want a new, separate instrument. &#10007;</li><li><strong>Choice D &mdash; lacks the sensors to observe the wavelengths of light needed to discern how solar system bodies change over time.</strong>: contradicts the passage, which says HST has revolutionized visible and UV imaging. &#10007;</li></ul>That matches <strong>Choice A &mdash; will likely continue to be used primarily to observe objects outside the solar system.</strong>."
+      "content": "<ul><li><strong>Choice A &mdash; will likely continue to be used primarily to observe objects outside the solar system.</strong>: matches the fact that only about 6% of the bodies imaged by HST are in the solar system and the need for a separate dedicated telescope. &#10003;</li><li><strong>Choice B &mdash; will no longer be used to observe solar system objects if the telescope recommended by Kim and colleagues is deployed.</strong>: overreach &mdash; the recommendation is to add a new telescope, not to bar HST from any solar-system observation. &#10007;</li><li><strong>Choice C &mdash; can be modified to observe the features of solar system objects that are of interest to Kim and colleagues.</strong>: overreach &mdash; the passage never mentions modifying HST; the researchers want a new, separate instrument. &#10007;</li><li><strong>Choice D &mdash; lacks the sensors to observe the wavelengths of light needed to discern how solar system bodies change over time.</strong>: contradicts the passage, which says HST has revolutionized visible and UV imaging. &#10007;</li></ul>That matches <strong>Choice A &mdash; will likely continue to be used primarily to observe objects outside the solar system.</strong>."
     }
   ]
 }

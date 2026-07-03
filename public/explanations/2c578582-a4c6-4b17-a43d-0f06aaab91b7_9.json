@@ -1,15 +1,15 @@
 {
   "questionId": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_9",
-  "correctAnswer": "3",
+  "correctAnswer": "4",
   "section": "Math",
   "steps": [
     {
       "title": "Express the given condition in exponential form",
-      "content": "Since $f(x) = c^x$, we have $f(6) = c^6$ and $f(4) = c^4$. The condition $f(6) = 9 \\cdot f(4)$ becomes:<br/>$$c^6 = 9 \\cdot c^4$$"
+      "content": "Since $f(x) = c^x$, we have $f(8) = c^8$ and $f(6) = c^6$. The condition $f(8) = 16 \\cdot f(6)$ becomes:<br/>$$c^8 = 16 \\cdot c^6$$"
     },
     {
-      "title": "Divide by $c^4$ and solve for $c$",
-      "content": "Dividing both sides by $c^4$ (valid since $c \\gt  1$ means $c^4 \\gt  0$):<br/>$$c^2 = 9$$<br/>Taking the square root and using $c \\gt  1$:<br/>$$c = 3$$"
+      "title": "Divide by $c^6$ and solve for $c$",
+      "content": "Dividing both sides by $c^6$ (valid since $c \\gt  1$ means $c^6 \\gt  0$):<br/>$$c^2 = 16$$<br/>Taking the square root and using $c \\gt  1$:<br/>$$c = 4$$"
     }
   ]
 }

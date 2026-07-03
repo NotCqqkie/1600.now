@@ -1,19 +1,19 @@
 {
   "questionId": "d7afa874-519b-4f1b-b45f-1c75ea45613b_15",
-  "correctAnswer": "-123",
+  "correctAnswer": "-107",
   "section": "Math",
   "steps": [
     {
       "title": "One real solution → discriminant = 0",
-      "content": "Rearrange $4x^2 + 21 = 48x + r$ to standard form: $4x^2 - 48x + (21 - r) = 0$. So $a = 4$, $b = -48$, $c = 21 - r$. Exactly one solution means $b^2 - 4ac = 0$."
+      "content": "Rearrange $5x^2 + 18 = 50x + r$ to standard form: $5x^2 - 50x + (18 - r) = 0$. So $a = 5$, $b = -50$, $c = 18 - r$. Exactly one solution means $b^2 - 4ac = 0$."
     },
     {
       "title": "Plug in and solve for r",
-      "content": "$(-48)^2 - 4(4)(21 - r) = 0$ → $2304 - 16(21 - r) = 0$ → $144 = 21 - r$ → $r = -123$."
+      "content": "$(-50)^2 - 4(5)(18 - r) = 0$ → $2500 - 20(18 - r) = 0$ → $125 = 18 - r$ → $r = -107$."
     },
     {
       "title": "Answer",
-      "content": "The required value is $r = -123$, so <strong>-123</strong> is correct."
+      "content": "The required value is $r = -107$, so <strong>-107</strong> is correct."
     }
   ]
 }

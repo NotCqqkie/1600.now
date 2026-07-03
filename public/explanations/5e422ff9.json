@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Substitute y from first equation into second equation",
-      "content": "Replace y in the second equation using the expression from the first equation: $$3(2x - 3) = 5x$$"
+      "content": "Replace y in the second equation using the expression from the first equation: $$2(3x - 4) = 5x$$"
     },
     {
       "title": "Solve for x",
-      "content": "Expand and simplify: $$6x - 9 = 5x$$ $$x = 9$$<br/>Now substitute $x = 9$ into the first equation."
+      "content": "Expand and simplify: $$6x - 8 = 5x$$ $$x = 8$$<br/>Now substitute $x = 8$ into the first equation."
     },
     {
-      "title": "Find y using x = 9",
-      "content": "Calculate: $$y = 2(9) - 3 = 15$$<br/>That confirms <strong>D</strong> is correct."
+      "title": "Find y using x = 8",
+      "content": "Calculate: $$y = 3(8) - 4 = 20$$<br/>That confirms <strong>D</strong> is correct."
     }
   ]
 }

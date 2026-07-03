@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify slope and intercept",
-      "content": "$$f(x)=8x+4$$ <br/> The function is in slope‑intercept form $y=mx+b$. The slope $m=8$ represents the estimated growth in feet per year. The y‑intercept $b=4$ gives the height when $x=0$."
+      "content": "$$f(x)=7x+6$$ <br/> The function is in slope-intercept form $y=mx+b$. The slope $m=7$ represents the estimated growth in feet per year. The y-intercept $b=6$ gives the height when $x=0$."
     },
     {
       "title": "Find the initial height",
-      "content": "$$f(0)=8\\cdot0+4=4$$ <br/> When the tree was first measured ($x=0$), its estimated height is 4 feet. That is the correct answer."
+      "content": "$$f(0)=7\\cdot0+6=6$$ <br/> When the tree was first measured ($x=0$), its estimated height is 6 feet. That is the correct answer."
     }
   ]
 }

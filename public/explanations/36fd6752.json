@@ -1,19 +1,19 @@
 {
   "questionId": "36fd6752",
-  "correctAnswer": "10",
+  "correctAnswer": "8",
   "section": "Math",
   "steps": [
     {
       "title": "Put both equations in matching form",
-      "content": "Rewrite the first equation as $7r-pw=-6$. Rewrite the second as $7r-10w=11$. For the system to have no solution, the $r$- and $w$-coefficients must match proportionally, while the constants are different."
+      "content": "Rewrite the first equation as $5r-pw=-8$. Rewrite the second as $5r-8w=13$. For the system to have no solution, the $r$- and $w$-coefficients must match proportionally, while the constants are different."
     },
     {
       "title": "Match the coefficients",
-      "content": "The $r$-coefficients are both $7$, so the scale factor is $1$. Therefore the $w$-coefficients must match: $-p=-10$, so $p=10$."
+      "content": "The $r$-coefficients are both $5$, so the scale factor is $1$. Therefore the $w$-coefficients must match: $-p=-8$, so $p=8$."
     },
     {
       "title": "Confirm no solution",
-      "content": "With $p=10$, the equations have the same left side, $7r-10w$, but different constants, $-6$ and $11$. That creates parallel distinct lines, so the system has no solution. The answer is <strong>10</strong>."
+      "content": "With $p=8$, the equations have the same left side, $5r-8w$, but different constants, $-8$ and $13$. That creates parallel distinct lines, so the system has no solution. The answer is <strong>8</strong>."
     }
   ]
 }

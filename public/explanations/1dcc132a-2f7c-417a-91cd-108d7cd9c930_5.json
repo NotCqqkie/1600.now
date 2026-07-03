@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up",
-      "content": "Add the two equations. The $y$ terms cancel, leaving $13x = 6$, so $x = 6/13$."
+      "content": "Add the two equations. The $y$ terms cancel, leaving $11x = 8$, so $x = 8/11$."
     },
     {
       "title": "Solve",
-      "content": "Multiply both sides by 3: $39x = 3 × 6 = 18$."
+      "content": "Multiply both sides by 4: $44x = 4 × 8 = 32$."
     },
     {
       "title": "Answer",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches <strong>Choice D &mdash; $18$</strong>, $18$, and the other choices fail the same setup or substitution. Therefore <strong>D</strong>."
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches <strong>Choice D &mdash; $32$</strong>, $32$, and the other choices fail the same setup or substitution. Therefore <strong>D</strong>."
     }
   ]
 }

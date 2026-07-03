@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Take the square root of both sides",
-      "content": "Starting with $(x+5)^2=4$, take the square root of both sides. Remember the $\\pm$:<br/>$$x+5=\\pm 2$$"
+      "content": "Starting with $(x+7)^2=9$, take the square root of both sides. Remember the $\\pm$:<br/>$$x+7=\\pm 3$$"
     },
     {
       "title": "Solve for x",
-      "content": "From $x+5=2$: $x=-3$.<br/>From $x+5=-2$: $x=-7$.<br/>So the possible values are $-3$ and $-7$."
+      "content": "From $x+7=3$: $x=-4$.<br/>From $x+7=-3$: $x=-10$.<br/>So the possible values are $-4$ and $-10$."
     },
     {
       "title": "Test each choice",
-      "content": "Plug each into $(x+5)^2$ and see which gives 4:<ul><li><strong>A)</strong> $x=1$: $(1+5)^2=36 \\ne 4$. Eliminate.</li><li><strong>B)</strong> $x=-1$: $(-1+5)^2=16 \\ne 4$. Eliminate.</li><li><strong>C)</strong> $x=-2$: $(-2+5)^2=9 \\ne 4$. Eliminate.</li><li><strong>D)</strong> $x=-3$: $(-3+5)^2=4$ &check;.</li></ul><strong>D</strong> is correct."
+      "content": "Plug each into $(x+7)^2$ and see which gives 9:<ul><li><strong>A)</strong> $x=-2$: $(-2+7)^2=25 \\ne 9$. Eliminate.</li><li><strong>B)</strong> $x=2$: $(2+7)^2=81 \\ne 9$. Eliminate.</li><li><strong>C)</strong> $x=-3$: $(-3+7)^2=16 \\ne 9$. Eliminate.</li><li><strong>D)</strong> $x=-4$: $(-4+7)^2=9$ &check;.</li></ul><strong>D</strong> is correct."
     }
   ]
 }

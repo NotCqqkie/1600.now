@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Translate the time used per box",
-      "content": "$x$ large boxes use $10x$ minutes (10 min each). $y$ small boxes use $5y$ minutes (5 min each)."
+      "content": "$x$ large boxes use $12x$ minutes (12 min each). $y$ small boxes use $6y$ minutes (6 min each)."
     },
     {
-      "title": "Set the total equal to 700",
-      "content": "The total daily time is 700 minutes: $10x + 5y = 700$."
+      "title": "Set the total equal to 720",
+      "content": "The total daily time is 720 minutes: $12x + 6y = 720$."
     },
     {
       "title": "Eliminate the other choices",
-      "content": "<ul><li><strong>$5x+10y=700$</strong>: $5x + 10y = 700$: swaps the per-box times (5 min for large, 10 min for small).</li><li><strong>$10x+5y=700$</strong>: $10x + 5y = 700$: correctly multiplies each box count by its own time.</li><li><strong>$\\left(x+y\\right)\\left(10+5\\right)=700$</strong>: $(x+y)(10+5)=700$: this would only work if every box took 15 minutes, which is not the case.</li><li><strong>$\\left(10+x\\right)\\left(5+y\\right)=700$</strong>: $(10+x)(5+y)=700$: adds counts and times, which is not how time accumulates.</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+      "content": "<ul><li><strong>$6x+12y=720$</strong>: $6x + 12y = 720$: swaps the per-box times (6 min for large, 12 min for small).</li><li><strong>$12x+6y=720$</strong>: $12x + 6y = 720$: correctly multiplies each box count by its own time.</li><li><strong>$\\left(x+y\\right)\\left(12+6\\right)=720$</strong>: $(x+y)(12+6)=720$: this would only work if every box took 18 minutes, which is not the case.</li><li><strong>$\\left(12+x\\right)\\left(6+y\\right)=720$</strong>: $(12+x)(6+y)=720$: adds counts and times, which is not how time accumulates.</li></ul>That matches the correct answer — <strong>B</strong> is correct."
     }
   ]
 }

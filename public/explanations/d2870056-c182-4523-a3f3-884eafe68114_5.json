@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Make the two-row table",
-      "content": "Use the starting value and rate directly. At birth, $x=0$ and the whale is $160$ cm long. One month later, the length is $160+4.8=164.8$ cm. Use those two points: $(0,160)$ and $(1,164.8)$."
+      "content": "Use the starting value and rate directly. At birth, $x=0$ and the seal is $85$ cm long. One month later, the length is $85+3.2=88.2$ cm. Use those two points: $(0,85)$ and $(1,88.2)$."
     },
     {
       "title": "Write the linear model",
-      "content": "The starting value is the $y$-intercept, so $b=160$. The whale grows $4.8$ cm per month, so the slope is $m=4.8$. The model is $$y=4.8x+160.$$"
+      "content": "The starting value is the $y$-intercept, so $b=85$. The seal grows $3.2$ cm per month, so the slope is $m=3.2$. The model is $$y=3.2x+85.$$"
     },
     {
       "title": "Check the choices",
-      "content": "The slope must be $4.8$ centimeters per month, and the starting value must be $160$ centimeters. The correct answer is the only one with both: $y=4.8x+160$. <strong>D</strong> is correct."
+      "content": "The slope must be $3.2$ centimeters per month, and the starting value must be $85$ centimeters. The correct answer is the only one with both: $y=3.2x+85$. <strong>D</strong> is correct."
     }
   ]
 }

@@ -1,15 +1,15 @@
 {
   "questionId": "32388549-e820-4b4a-91a9-d9c32e611098_20",
-  "correctAnswer": "152",
+  "correctAnswer": "216",
   "section": "Math",
   "steps": [
     {
       "title": "Use vertex form to find the leading coefficient",
-      "content": "<strong>Shortcut (vertex form):</strong> Vertex at $(4, -6)$ gives $f(x) = A(x-4)^2 - 6$. Plug in the known point $(3, -8)$:<br/>$-8 = A(3-4)^2 - 6 = A(1) - 6$<br/>$A = -2$"
+      "content": "<strong>Shortcut (vertex form):</strong> Vertex at $(5, -4)$ gives $f(x) = A(x-5)^2 - 4$. Plug in the known point $(4, -6)$:<br/>$-6 = A(4-5)^2 - 4 = A(1) - 4$<br/>$A = -2$"
     },
     {
       "title": "Find the y-intercepts and their positive difference",
-      "content": "$a = f(0) = -2(0-4)^2 - 6 = -2(16) - 6 = -38$<br/>$b = 5 \\cdot f(0) = 5(-38) = -190$<br/>Positive difference: $|b - a| = |-190 - (-38)| = 152$. The answer is <strong>152</strong>. The problem asks for a positive difference, so the order of subtraction is handled by the absolute value."
+      "content": "$a = f(0) = -2(0-5)^2 - 4 = -2(25) - 4 = -54$<br/>$b = 5 \\cdot f(0) = 5(-54) = -270$<br/>Positive difference: $|b - a| = |-270 - (-54)| = 216$. The answer is <strong>216</strong>. The problem asks for a positive difference, so the order of subtraction is handled by the absolute value."
     }
   ]
 }

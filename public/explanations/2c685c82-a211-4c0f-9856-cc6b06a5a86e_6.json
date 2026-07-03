@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Observe that x coefficients are opposites",
-      "content": "The two equations are:<br/>$$y = \\frac{x}{4} + 6$$<br/>$$y = -\\frac{x}{4} + 30$$<br/>The x coefficients are $\\frac{1}{4}$ and $-\\frac{1}{4}$—exact opposites. Since we need $2y$, adding the equations will eliminate the x terms entirely."
+      "content": "The two equations are:<br/>$$y = \\frac{x}{5} + 8$$<br/>$$y = -\\frac{x}{5} + 30$$<br/>The x coefficients are $\\frac{1}{5}$ and $-\\frac{1}{5}$—exact opposites. Since we need $2y$, adding the equations will eliminate the x terms entirely."
     },
     {
       "title": "Add the equations to eliminate x",
-      "content": "Add the left sides and right sides together:<br/>$$y + y = \\left(\\frac{x}{4} + 6\\right) + \\left(-\\frac{x}{4} + 30\\right)$$<br/>Combine like terms on the right:<br/>$$2y = \\frac{x}{4} + \\left(-\\frac{x}{4}\\right) + 6 + 30$$<br/>$$2y = 0 + 36$$<br/>$$2y = 36$$<br/><strong>D</strong> is correct."
+      "content": "Add the left sides and right sides together:<br/>$$y + y = \\left(\\frac{x}{5} + 8\\right) + \\left(-\\frac{x}{5} + 30\\right)$$<br/>Combine like terms on the right:<br/>$$2y = \\frac{x}{5} + \\left(-\\frac{x}{5}\\right) + 8 + 30$$<br/>$$2y = 0 + 38$$<br/>$$2y = 38$$<br/><strong>D</strong> is correct."
     }
   ]
 }

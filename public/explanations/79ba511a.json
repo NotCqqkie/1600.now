@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Substitute the input",
-      "content": "The function is $f(x)=x^3+15$. To find $f(2)$, replace every $x$ with $2$: $$f(2)=2^3+15.$$"
+      "content": "The function is $f(x)=x^3+14$. To find $f(3)$, replace every $x$ with $3$: $$f(3)=3^3+14.$$"
     },
     {
       "title": "Apply the exponent first",
-      "content": "$2^3=8$, so $$f(2)=8+15=23.$$ Do not read $x^3$ as $3x$; that mistake would give $21$ instead."
+      "content": "$3^3=27$, so $$f(3)=27+14=41.$$ Do not read $x^3$ as $3x$; that mistake would give $23$ instead."
     },
     {
       "title": "Confirm the choice",
-      "content": "The computed value is $23$, which matches <strong>C</strong>. The nearby answers are traps from arithmetic or exponent mistakes, not alternate valid function values."
+      "content": "The computed value is $41$, which matches <strong>C</strong>. The nearby answers are traps from arithmetic or exponent mistakes, not alternate valid function values."
     }
   ]
 }

@@ -3,20 +3,20 @@
   "qid": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_11",
   "steps": [
     {
-      "text": "Hannah saves $\\frac{1}{5}$ of her salary $h$ each month, contributing $\\frac{1}{5}h$ dollars. Wyatt saves $\\frac{2}{7}$ of his salary $w$ each month, contributing $\\frac{2}{7}w$ dollars. Together they save \\$3,270, so: $\\frac{1}{5}h + \\frac{2}{7}w = 3{,}270$.",
-      "content": "Hannah saves $\\frac{1}{5}$ of her salary $h$ each month, contributing $\\frac{1}{5}h$ dollars. Wyatt saves $\\frac{2}{7}$ of his salary $w$ each month, contributing $\\frac{2}{7}w$ dollars. Together they save &#36;3,270, so: $\\frac{1}{5}h + \\frac{2}{7}w = 3{,}270$."
+      "text": "Harper saves $\\frac{1}{6}$ of her salary $h$ each month, contributing $\\frac{1}{6}h$ dollars. Wesley saves $\\frac{3}{8}$ of his salary $w$ each month, contributing $\\frac{3}{8}w$ dollars. Together they save \\$2,850, so: $\\frac{1}{6}h + \\frac{3}{8}w = 2{,}850$.",
+      "content": "Harper saves $\\frac{1}{6}$ of her salary $h$ each month, contributing $\\frac{1}{6}h$ dollars. Wesley saves $\\frac{3}{8}$ of his salary $w$ each month, contributing $\\frac{3}{8}w$ dollars. Together they save &#36;2,850, so: $\\frac{1}{6}h + \\frac{3}{8}w = 2{,}850$."
     },
     {
       "title": "Step 2",
-      "content": "Eliminate fractions by multiplying both sides by the LCD of 5 and 7, which is 35: $35 \\cdot \\frac{1}{5}h + 35 \\cdot \\frac{2}{7}w = 35 \\cdot 3{,}270$."
+      "content": "Eliminate fractions by multiplying both sides by the LCD of 6 and 8, which is 24: $24 \\cdot \\frac{1}{6}h + 24 \\cdot \\frac{3}{8}w = 24 \\cdot 2{,}850$."
     },
     {
       "title": "Step 3",
-      "content": "Simplify: $7h + 10w = 114{,}450$."
+      "content": "Simplify: $4h + 9w = 68{,}400$."
     },
     {
       "title": "Step 4",
-      "content": "<ul><li>Choice A: $h+w=3,270$ &mdash; would mean they save their entire salaries combined, ignoring the fractions. Eliminated.</li><li>Choice B: $h+2w=3,270$ &mdash; uses incorrect coefficients that don't reflect the given fractions. Eliminated.</li><li>Choice C: $10h+7w=114,450$ &mdash; reverses the coefficients (Hannah's coefficient should be 7, Wyatt's should be 10). Eliminated.</li><li>Choice D: $7h+10w=114,450$ &mdash; matches the equation derived by multiplying through by 35. That matches <strong>Choice D &mdash; $7h+10w=114,450$</strong>.</li></ul>"
+      "content": "<ul><li>Choice A: $h+w=2,850$ &mdash; would mean they save their entire salaries combined, ignoring the fractions. Eliminated.</li><li>Choice B: $h+3w=2,850$ &mdash; uses incorrect coefficients that don't reflect the given fractions. Eliminated.</li><li>Choice C: $9h+4w=68,400$ &mdash; reverses the coefficients (Harper's coefficient should be 4, Wesley's should be 9). Eliminated.</li><li>Choice D: $4h+9w=68,400$ &mdash; matches the equation derived by multiplying through by 24. That matches <strong>Choice D &mdash; $4h+9w=68,400$</strong>.</li></ul>"
     }
   ],
   "correctAnswer": "D"

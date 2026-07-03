@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Translate the total shrub constraint",
-      "content": "The phrase <em>no more than 244 total shrubs</em> means the sum cannot exceed 244. The phrase <em>no more than</em> translates to the inequality symbol ≤. Therefore, the total number of shrubs is:\n$$h + w \\le 244$$\nThis eliminates choices C and D, which use ≥ instead."
+      "content": "The phrase <em>no more than 268 total shrubs</em> means the sum cannot exceed 268. The phrase <em>no more than</em> translates to the inequality symbol ≤. Therefore, the total number of shrubs is:\n$$h + w \\le 268$$\nThis eliminates choices C and D, which use ≥ instead."
     },
     {
-      "title": "Translate the hydrangea-to-hazel relationship",
-      "content": "The phrase <em>the number of hydrangeas will be at most three times the number of winter hazels</em> means hydrangeas cannot exceed 3 times the hazel count.<br/><br/>The phrase <em>at most</em> translates to ≤. Therefore:\n$$h \\le 3w$$\n<strong>Choice B &mdash; $h + w \\le 244$\n$3h \\ge w$</strong> has $3h \\ge w$ (equivalent to $h \\ge \\frac{w}{3}$), which says hydrangeas are <em>at least</em> one-third the hazel count — the opposite of what we need.<br/><br/><strong>Choice D &mdash; $h + w \\ge 244$\n$3h \\ge w$</strong> also has this reversed relationship. Only <strong>Choice A &mdash; $h + w \\le 244$\n$h \\le 3w$</strong> has both $h + w \\le 244$ and $h \\le 3w$. That matches <strong>Choice A &mdash; $h + w \\le 244$\n$h \\le 3w$</strong>."
+      "title": "Translate the holly-to-weigela relationship",
+      "content": "The phrase <em>the number of hollies will be at most three times the number of weigelas</em> means hollies cannot exceed 3 times the weigela count.<br/><br/>The phrase <em>at most</em> translates to ≤. Therefore:\n$$h \\le 3w$$\n<strong>Choice B &mdash; $h + w \\le 268$\n$3h \\ge w$</strong> has $3h \\ge w$ (equivalent to $h \\ge \\frac{w}{3}$), which says hollies are <em>at least</em> one-third the weigela count &mdash; the opposite of what we need.<br/><br/><strong>Choice D &mdash; $h + w \\ge 268$\n$3h \\ge w$</strong> also has this reversed relationship. Only <strong>Choice A &mdash; $h + w \\le 268$\n$h \\le 3w$</strong> has both $h + w \\le 268$ and $h \\le 3w$. That matches <strong>Choice A &mdash; $h + w \\le 268$\n$h \\le 3w$</strong>."
     }
   ]
 }

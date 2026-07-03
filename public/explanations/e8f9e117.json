@@ -1,15 +1,15 @@
 {
   "questionId": "e8f9e117",
-  "correctAnswer": "20",
+  "correctAnswer": "21",
   "section": "Math",
   "steps": [
     {
       "title": "Set up the inequality from Ohm's law",
-      "content": "Use Ohm's law, $I=\\frac{V}{R}$. The problem gives:<ul><li>Resistance: $R=500$ ohms</li><li>Potential difference: $V=6n$ volts</li><li>Current limit: $I\\leq 0.25$ amperes</li></ul>Substitute those values into $I=\\frac{V}{R}$:$$\\frac{6n}{500}\\leq 0.25$$"
+      "content": "Use Ohm's law, $I=\\frac{V}{R}$. The problem gives:<ul><li>Resistance: $R=520$ ohms</li><li>Potential difference: $V=6n$ volts</li><li>Current limit: $I\\leq 0.25$ amperes</li></ul>Substitute those values into $I=\\frac{V}{R}$:$$\\frac{6n}{520}\\leq 0.25$$"
     },
     {
       "title": "Solve for n by isolating the variable",
-      "content": "Multiply both sides by 500:<br/>$$6n \\leq 0.25 \\times 500$$<br/>$$6n \\leq 125$$<br/>Divide both sides by 6:<br/>$$n \\leq \\frac{125}{6} = 20.8\\overline{3}$$<br/>Since n must be a whole number of batteries, the greatest number of six-volt batteries that can be used is <strong>20</strong>."
+      "content": "Multiply both sides by 520:<br/>$$6n \\leq 0.25 \\times 520$$<br/>$$6n \\leq 130$$<br/>Divide both sides by 6:<br/>$$n \\leq \\frac{130}{6} = 21.6\\overline{6}$$<br/>Since n must be a whole number of batteries, the greatest number of six-volt batteries that can be used is <strong>21</strong>."
     }
   ]
 }

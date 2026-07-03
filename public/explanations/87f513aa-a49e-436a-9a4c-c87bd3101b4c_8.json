@@ -12,8 +12,8 @@
       "content": "$\\frac{\\sin X}{\\cos Y} = 1$ → $\\sin X = \\cos Y$. The complementary identity says: if $\\sin A = \\cos B$ (both acute), then $A + B = 90^{\\circ}$."
     },
     {
-      "title": "Plug in Y = 32° and solve",
-      "content": "$X + 32^{\\circ} = 90^{\\circ}$ → $X = 58^{\\circ}$. That confirms <strong>B</strong> is correct."
+      "title": "Plug in Y = 27° and solve",
+      "content": "$X + 27^{\\circ} = 90^{\\circ}$ → $X = 63^{\\circ}$. That confirms <strong>B</strong> is correct."
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Interpret the second condition",
-      "content": "Simplify what we're given for $f(s+1)$:<br/>$$f(s+1)=t-0.87t=(1-0.87)t=0.13t$$"
+      "content": "Simplify what we're given for $f(s+1)$:<br/>$$f(s+1)=t-0.76t=(1-0.76)t=0.24t$$"
     },
     {
       "title": "Use the exponential growth property",
-      "content": "For $f(x) = a\\cdot b^x$, stepping forward by 1 unit multiplies the output by $b$. Therefore:<br/>$$f(s+1) = f(s) \\cdot b$$<br/>Substitute the known values:<br/>$$0.13t = t \\cdot b$$<br/>$$b = 0.13$$<br/><strong>A</strong> is correct."
+      "content": "For $f(x) = a\\cdot b^x$, stepping forward by 1 unit multiplies the output by $b$. Therefore:<br/>$$f(s+1) = f(s) \\cdot b$$<br/>Substitute the known values:<br/>$$0.24t = t \\cdot b$$<br/>$$b = 0.24$$<br/><strong>A</strong> is correct."
     }
   ]
 }

@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Identify the growth model",
-      "content": "The bacteria double every hour. Doubling means the count is multiplied by 2 for each hour that passes. Starting from 44,000:<br/>After 1 hr: $$44,000 \\cdot 2$$<br/>After 2 hrs: $$44,000 \\cdot 2^2$$<br/>After $t$ hrs: $$y = 44,000 \\cdot 2^t$$"
+      "content": "The yeast cells double every hour. Doubling means the count is multiplied by 2 for each hour that passes. Starting from 38,000:<br/>After 1 hr: $$38,000 \\cdot 2$$<br/>After 2 hrs: $$38,000 \\cdot 2^2$$<br/>After $t$ hrs: $$y = 38,000 \\cdot 2^t$$"
     },
     {
       "title": "Eliminate wrong structures",
-      "content": "In exponential growth $y = a \\cdot b^t$, the <em>base</em> is the growth factor (2) and the <em>coefficient</em> is the starting amount (44,000). Any formula that swaps these roles or uses $\\frac{1}{2}$ as the base would model decay, not growth."
+      "content": "In exponential growth $y = a \\cdot b^t$, the <em>base</em> is the growth factor (2) and the <em>coefficient</em> is the starting amount (38,000). Any formula that swaps these roles or uses $\\frac{1}{2}$ as the base would model decay, not growth."
     },
     {
       "title": "Match to the choices",
-      "content": "<ul><li>A: $y=\\frac{1}{2}(44,000)^t$ - base is 44,000, coefficient is $\\frac{1}{2}$. Both roles are wrong. Eliminated.</li><li>B: $y=2(44,000)^t$ - base is 44,000, not 2. Wrong structure. Eliminated.</li><li>C: $y=44,000\\left(\\frac{1}{2}\\right)^t$ - coefficient is correct but base $\\frac{1}{2}$ models halving (decay), not doubling. Eliminated.</li><li>D: $y=44,000(2)^t$ - coefficient 44,000 is the initial count, base 2 is the doubling factor. That matches <strong>Choice D</strong>.</li></ul>"
+      "content": "<ul><li>A: $y=\\frac{1}{2}(38,000)^t$ - base is 38,000, coefficient is $\\frac{1}{2}$. Both roles are wrong. Eliminated.</li><li>B: $y=2(38,000)^t$ - base is 38,000, not 2. Wrong structure. Eliminated.</li><li>C: $y=38,000\\left(\\frac{1}{2}\\right)^t$ - coefficient is correct but base $\\frac{1}{2}$ models halving (decay), not doubling. Eliminated.</li><li>D: $y=38,000(2)^t$ - coefficient 38,000 is the initial count, base 2 is the doubling factor. That matches <strong>Choice D</strong>.</li></ul>"
     }
   ]
 }

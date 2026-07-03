@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $ (x + 15)^2 $."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $ (x + 13)^2 $."
     },
     {
       "title": "Algebra check",
@@ -13,11 +13,11 @@
     },
     {
       "title": "Identify what the question needs",
-      "content": "The expression $(x+8)^2 + 14(x+8) + 49$ is a trinomial with a compound base. Recognize whether it fits the perfect-square pattern $u^2 + 14u + 49 = (u+7)^2$ by setting $u = x+8$."
+      "content": "The expression $(x+5)^2 + 16(x+5) + 64$ is a trinomial with a compound base. Recognize whether it fits the perfect-square pattern $u^2 + 16u + 64 = (u+8)^2$ by setting $u = x+5$."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A — $ (x + 15)^2 $</strong>: substituting $u = x+8$ gives $(u+7)^2 = (x+8+7)^2 = (x+15)^2$. &#10003;</li><li><strong>Choice B — $ (x + 7)^2 $</strong>: this would come from using $x$ as the base instead of $x+8$. &#10007;</li><li><strong>Choice C — $ 8(x + 7)^2 $</strong>: this adds an outside factor of 8 and uses the wrong binomial. &#10007;</li><li><strong>Choice D — $ 7(x + 8)^2 $</strong>: this keeps the base $x+8$ but treats the expression like a multiple, not a completed square. &#10007;</li></ul><strong>A</strong> is correct."
+      "content": "<ul><li><strong>Choice A — $ (x + 13)^2 $</strong>: substituting $u = x+5$ gives $(u+8)^2 = (x+5+8)^2 = (x+13)^2$. &#10003;</li><li><strong>Choice B — $ (x + 8)^2 $</strong>: this would come from using $x$ as the base instead of $x+5$. &#10007;</li><li><strong>Choice C — $ 5(x + 8)^2 $</strong>: this adds an outside factor of 5 and uses the wrong binomial. &#10007;</li><li><strong>Choice D — $ 8(x + 5)^2 $</strong>: this keeps the base $x+5$ but treats the expression like a multiple, not a completed square. &#10007;</li></ul><strong>A</strong> is correct."
     }
   ]
 }

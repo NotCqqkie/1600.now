@@ -1,15 +1,15 @@
 {
   "questionId": "c19d1fb0",
-  "correctAnswer": "18",
+  "correctAnswer": "24",
   "section": "Math",
   "steps": [
     {
       "title": "Identify the initial moment",
-      "content": "<em>From which the egg was thrown</em> refers to time $t = 0$, the initial moment when the egg leaves the rooftop."
+      "content": "<em>From which the tennis ball was launched</em> refers to time $t = 0$, the initial moment when the tennis ball leaves the balcony."
     },
     {
       "title": "Evaluate the equation at t = 0",
-      "content": "Substitute $t = 0$ into $h = -4.9t^2 + 9t + 18$:<br/>$$h = -4.9(0)^2 + 9(0) + 18 = 18$$The initial height is <strong>18 meters</strong>."
+      "content": "Substitute $t = 0$ into $h = -4.9t^2 + 7t + 24$:<br/>$$h = -4.9(0)^2 + 7(0) + 24 = 24$$The initial height is <strong>24 meters</strong>."
     }
   ]
 }

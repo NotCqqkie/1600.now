@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Isolate m",
-      "content": "Starting from $7m = 2(n+p)$, divide both sides by $7$:<br/>$$m = \\frac{2(n+p)}{7}$$"
+      "title": "Isolate r",
+      "content": "Starting from $9r = 4(s+t)$, divide both sides by $9$:<br/>$$r = \\frac{4(s+t)}{9}$$"
     },
     {
       "title": "Check each choice",
-      "content": "<ul><li>Choice A ($m = \\frac{2(n+p)}{7}$): exactly the result of dividing by $7$.</li><li>Choice B ($m = 2(n+p)$): forgets to divide by $7$.</li><li>Choice C ($m = 2(n+p) - 7$): subtracts $7$ instead of dividing &mdash; wrong inverse operation.</li><li>Choice D ($m = 2 - n - p - 7$): distributes and subtracts incorrectly.</li></ul>That confirms <strong>A</strong> is correct."
+      "content": "<ul><li>Choice A ($r = \\frac{4(s+t)}{9}$): exactly the result of dividing by $9$.</li><li>Choice B ($r = 4(s+t)$): forgets to divide by $9$.</li><li>Choice C ($r = 4(s+t) - 9$): subtracts $9$ instead of dividing &mdash; wrong inverse operation.</li><li>Choice D ($r = 4 - s - t - 9$): distributes and subtracts incorrectly.</li></ul>That confirms <strong>A</strong> is correct."
     }
   ]
 }

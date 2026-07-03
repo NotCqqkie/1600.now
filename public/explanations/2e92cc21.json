@@ -1,15 +1,15 @@
 {
   "questionId": "2e92cc21",
-  "correctAnswer": "9.87",
+  "correctAnswer": "15.84",
   "section": "Math",
   "steps": [
     {
-      "title": "Compute b as 90% less than 47",
-      "content": "<ul><li>90% less than 47 means subtract 90% of 47 from 47.</li><li>$$b = 47 - 0.90 \\times 47 = 47(1-0.90) = 47 \\times 0.10 = 4.7$$</li></ul>"
+      "title": "Compute b as 80% less than 36",
+      "content": "<ul><li>80% less than 36 means subtract 80% of 36 from 36.</li><li>$$b = 36 - 0.80 \\times 36 = 36(1-0.80) = 36 \\times 0.20 = 7.2$$</li></ul>"
     },
     {
-      "title": "Compute a as 110% greater than b",
-      "content": "<ul><li>110% greater than b means add 110% of b to b.</li><li>$$a = b + 1.10b = b(1+1.10) = 2.10b = 2.10 \\times 4.7 = 9.87$$</li><li>The answer is <strong>9.87</strong>.</li></ul>"
+      "title": "Compute a as 120% greater than b",
+      "content": "<ul><li>120% greater than b means add 120% of b to b.</li><li>$$a = b + 1.20b = b(1+1.20) = 2.20b = 2.20 \\times 7.2 = 15.84$$</li><li>The answer is <strong>15.84</strong>.</li></ul>"
     }
   ]
 }

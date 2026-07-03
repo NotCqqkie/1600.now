@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+      "title": "Fastest path: use the triangle relationships first",
+      "content": "Label the equal legs as $a$ and use the special right-triangle ratio to connect the legs to the hypotenuse."
     },
     {
       "title": "Isosceles right triangle relationships",
@@ -13,7 +13,7 @@
     },
     {
       "title": "Backsolving with choice C",
-      "content": "Backsolving — testing choice C (18): If the hypotenuse is 18, then since the hypotenuse equals $a\\sqrt{2}$, we have $a = \\frac{18}{\\sqrt{2}} = 9\\sqrt{2}$. The perimeter is:<br/>$$2(9\\sqrt{2}) + 18 = 18\\sqrt{2} + 18 = 18 + 18\\sqrt{2}$$<br/>This matches the given perimeter exactly. That confirms <strong>C</strong> is correct."
+      "content": "Backsolving — testing choice C (20): If the hypotenuse is 20, then since the hypotenuse equals $a\\sqrt{2}$, we have $a = \\frac{20}{\\sqrt{2}} = 10\\sqrt{2}$. The perimeter is:<br/>$$2(10\\sqrt{2}) + 20 = 20\\sqrt{2} + 20 = 20 + 20\\sqrt{2}$$<br/>This matches the given perimeter exactly. That confirms <strong>C</strong> is correct."
     }
   ]
 }

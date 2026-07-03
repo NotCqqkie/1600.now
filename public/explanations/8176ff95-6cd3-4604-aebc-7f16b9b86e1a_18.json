@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Use the answer-choice structure",
-      "content": "\"158% greater\" means the mass is multiplied by $1+1.58=2.58$ each growth period. Since each period is $5$ weeks, the exponent must count 5-week periods: $t/5$."
+      "content": "\"140% greater\" means the mass is multiplied by $1+1.40=2.40$ each growth period. Since each period is $5$ weeks, the exponent must count 5-week periods: $t/5$."
     },
     {
       "title": "Eliminate by multiplier and exponent",
-      "content": "The equations with multiplier $1.58$ represent a $58\\%$ increase, not a $158\\%$ increase. The equation with multiplier $2.58$ and exponent $5/t$ has the right multiplier but decreases as time increases. Only $M=36.55(2.58)^{\\frac{t}{5}}$ has both $2.58$ and $t/5$."
+      "content": "The equations with multiplier $1.40$ represent a $40\\%$ increase, not a $140\\%$ increase. The equation with multiplier $2.40$ and exponent $5/t$ has the right multiplier but decreases as time increases. Only $M=42.75(2.40)^{\\frac{t}{5}}$ has both $2.40$ and $t/5$."
     },
     {
       "title": "Quickly verify the starting value",
-      "content": "The correct answer says $M=36.55(2.58)^{t/5}$. At $t=15$, this gives:<br/>$$36.55(2.58)^3\\approx627.7$$<br/>That matches the given mass."
+      "content": "The correct answer says $M=42.75(2.40)^{t/5}$. At $t=15$, this gives:<br/>$$42.75(2.40)^3\\approx591.0$$<br/>That matches the given mass."
     },
     {
       "title": "Evaluate all choices",
-      "content": "<ul><li>A: $M = 538.92(1.58)^{5/t}$ &mdash; Uses multiplier 1.58 (not 2.58) and wrong exponent $\\frac{5}{t}$. Eliminated.</li><li>B: $M = 457.66(2.58)^{5/t}$ &mdash; Correct multiplier but wrong exponent direction $\\frac{5}{t}$; also wrong initial mass. Eliminated.</li><li>C: $M = 159.14(1.58)^{t/5}$ &mdash; Uses multiplier 1.58 instead of 2.58. Eliminated.</li><li>D: $M = 36.55(2.58)^{t/5}$ &mdash; Multiplier 2.58 and exponent $\\frac{t}{5}$ are both correct, and $M_0 \\approx 36.55$ matches our calculation. That confirms <strong>D</strong> is correct.</li></ul>"
+      "content": "<ul><li>A: $M = 528.30(1.40)^{5/t}$ &mdash; Uses multiplier 1.40 (not 2.40) and wrong exponent $\\frac{5}{t}$. Eliminated.</li><li>B: $M = 441.42(2.40)^{5/t}$ &mdash; Correct multiplier but wrong exponent direction $\\frac{5}{t}$; also wrong initial mass. Eliminated.</li><li>C: $M = 215.38(1.40)^{t/5}$ &mdash; Uses multiplier 1.40 instead of 2.40. Eliminated.</li><li>D: $M = 42.75(2.40)^{t/5}$ &mdash; Multiplier 2.40 and exponent $\\frac{t}{5}$ are both correct, and $M_0 \\approx 42.75$ matches our calculation. That confirms <strong>D</strong> is correct.</li></ul>"
     }
   ]
 }

@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Use the rectangle area formula",
-      "content": "The area of a rectangle is length times width. Here, the length is $4$ cm and the width is $2$ cm."
+      "content": "The area of a rectangle is length times width. Here, the length is $5$ cm and the width is $3$ cm."
     },
     {
       "title": "Recall the rectangle area formula",
@@ -14,7 +14,7 @@
     },
     {
       "title": "Calculate using the given dimensions",
-      "content": "With length = 4 cm and width = 2 cm, the area is:<br/>$$A = 4 \\times 2 = 8 \\text{ cm}^2$$<br/><strong>B</strong> is correct."
+      "content": "With length = 5 cm and width = 3 cm, the area is:<br/>$$A = 5 \\times 3 = 15 \\text{ cm}^2$$<br/><strong>B</strong> is correct."
     }
   ]
 }

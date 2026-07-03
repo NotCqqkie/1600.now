@@ -1,16 +1,16 @@
 {
   "questionId": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_7",
-  "correctAnswer": "0.1,1/10",
+  "correctAnswer": "0.2,1/5",
   "section": "Math",
   "steps": [
     {
       "title": "Identify the probability formula and outcomes",
-      "content": "We use the probability formula, where:<ul><li>Favorable outcomes (blank tiles) = 5</li><li>Total outcomes (all tiles) = 50</li></ul>",
+      "content": "We use the probability formula, where:<ul><li>Favorable outcomes (blank tiles) = 8</li><li>Total outcomes (all tiles) = 40</li></ul>",
       "formula": "$$P(\\text{event}) = \\frac{\\text{favorable outcomes}}{\\text{total outcomes}}$$"
     },
     {
       "title": "Calculate the probability",
-      "content": "Apply the formula with our values:<br/>$$P(\\text{blank tile}) = \\frac{5}{50}$$<br/>Simplify by dividing both numerator and denominator by 5:<br/>$$\\frac{5}{50} = \\frac{1}{10}$$<br/>Converting to decimal form: $0.1$<br/><br/><strong>The answer is $\\frac{1}{10}$ or $0.1$</strong><br/>The answer is <strong>0.1,1/10</strong>."
+      "content": "Apply the formula with our values:<br/>$$P(\\text{blank tile}) = \\frac{8}{40}$$<br/>Simplify by dividing both numerator and denominator by 8:<br/>$$\\frac{8}{40} = \\frac{1}{5}$$<br/>Converting to decimal form: $0.2$<br/><br/><strong>The answer is $\\frac{1}{5}$ or $0.2$</strong><br/>The answer is <strong>0.2,1/5</strong>."
     }
   ]
 }

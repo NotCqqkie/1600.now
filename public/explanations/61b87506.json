@@ -1,15 +1,15 @@
 {
   "questionId": "61b87506",
-  "correctAnswer": "17",
+  "correctAnswer": "19",
   "section": "Math",
   "steps": [
     {
       "title": "Set up the ratio",
-      "content": "The ratio of $j$ to $k$ is given as 11 to 12, so $$j/k = \\frac{11}{12}$$."
+      "content": "The ratio of $m$ to $n$ is given as 7 to 10, so $$m/n = \\frac{7}{10}$$."
     },
     {
       "title": "Apply the same factor to both terms",
-      "content": "Multiplying $j$ by 17 gives $17j$. To keep the ratio unchanged, we must multiply $k$ by the same factor: $$(17j)/(17k) = j/k = \\frac{11}{12}$$. Thus $k$ is also multiplied by 17. The answer is <strong>17</strong>."
+      "content": "Multiplying $m$ by 19 gives $19m$. To keep the ratio unchanged, we must multiply $n$ by the same factor: $$(19m)/(19n) = m/n = \\frac{7}{10}$$. Thus $n$ is also multiplied by 19. The answer is <strong>19</strong>."
     }
   ]
 }

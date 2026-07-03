@@ -9,11 +9,11 @@
     },
     {
       "title": "Set up",
-      "content": "Mass = density &times; volume. Volume of a sphere with $r=3$: $$V=\\frac{4}{3}\\pi(3)^{3}=\\frac{4}{3}\\pi(27)=36\\pi \\text{ in}^{3}$$"
+      "content": "Mass = density &times; volume. Volume of a sphere with $r=4$: $$V=\\frac{4}{3}\\pi(4)^{3}=\\frac{4}{3}\\pi(64)=\\frac{256\\pi}{3} \\text{ in}^{3}$$"
     },
     {
       "title": "Solve",
-      "content": "$$M=51\\times36\\pi=1{,}836\\pi \\text{ oz}$$"
+      "content": "$$M=48\\times\\frac{256\\pi}{3}=4{,}096\\pi \\text{ oz}$$"
     },
     {
       "title": "Answer",

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Expand the right side",
-      "content": "Distribute 2 on the right side of $w - 10 = 2(w + 5)$: $$w - 10 = 2w + 10$$"
+      "content": "Distribute 2 on the right side of $w - 12 = 2(w + 6)$: $$w - 12 = 2w + 12$$"
     },
     {
       "title": "Isolate w",
-      "content": "Subtract $w$ from both sides: $$-10 = w + 10$$ Then subtract 10 from both sides: $$-20 = w$$ That matches the correct answer — <strong>D</strong> is correct."
+      "content": "Subtract $w$ from both sides: $$-12 = w + 12$$ Then subtract 12 from both sides: $$-24 = w$$ That matches the correct answer: <strong>D</strong> is correct."
     }
   ]
 }

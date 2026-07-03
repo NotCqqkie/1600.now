@@ -1,15 +1,15 @@
 {
   "questionId": "ee2f611f",
-  "correctAnswer": "28",
+  "correctAnswer": "29",
   "section": "Math",
   "steps": [
     {
       "title": "Set up the inequality for when a monthly pass saves money",
-      "content": "To find the minimum number of trips where a monthly pass becomes cheaper, assume all trips cost the maximum price (3.50 dollars each). For the pass to cost less than individual tickets:<br/>$$95 \\lt n \\times 3.50$$<br/>where $n$ is the number of trips."
+      "content": "To find the minimum number of trips where a monthly pass becomes cheaper, assume all trips cost the maximum price (3.25 dollars each). For the pass to cost less than individual tickets:<br/>$$92 \\lt n \\times 3.25$$<br/>where $n$ is the number of trips."
     },
     {
       "title": "Solve for the minimum number of trips",
-      "content": "Divide both sides by $3.50$:<br/>$$n \\gt  \\frac{95}{3.50}$$<br/>Rewrite the fraction:<br/>$$n \\gt  \\frac{950}{35} = \\frac{190}{7}$$<br/>Calculate: $190 \\div 7 = 27\\frac{1}{7} \\approx 27.14$<br/><br/>Since $n$ must be a whole number and $n \\gt  27.14$, the minimum is $n = 28$.<br/><br/>Verification: 28 trips at 3.50 dollars each cost 98 dollars, which exceeds the 95-dollar monthly pass. Therefore, the answer is 28."
+      "content": "Divide both sides by $3.25$:<br/>$$n \\gt  \\frac{92}{3.25}$$<br/>Rewrite the fraction:<br/>$$n \\gt  \\frac{9200}{325} = \\frac{368}{13}$$<br/>Calculate: $368 \\div 13 = 28\\frac{4}{13} \\approx 28.31$<br/><br/>Since $n$ must be a whole number and $n \\gt  28.31$, the minimum is $n = 29$.<br/><br/>Verification: 29 trips at 3.25 dollars each cost 94.25 dollars, which exceeds the 92-dollar monthly pass. Therefore, the answer is 29."
     }
   ]
 }

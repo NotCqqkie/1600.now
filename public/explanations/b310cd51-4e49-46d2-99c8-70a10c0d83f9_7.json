@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Identify what y represents",
-      "content": "The variable $y$ represents the total amount of fat (in pounds) that the polar bear ate during the entire 5-day period described in the problem."
+      "content": "The variable $y$ represents the total amount of shellfish (in pounds) that the sea otter ate during the entire 6-day period described in the problem."
     },
     {
       "title": "Extract the given information and write the equation",
-      "content": "The problem states: <em>In 5 days, a polar bear ate 22.0 pounds of fat.</em> Since $y$ is defined as the total amount eaten in these 5 days, we directly have $y = 22$."
+      "content": "The problem states: <em>In 6 days, a sea otter ate 27.0 pounds of shellfish.</em> Since $y$ is defined as the total amount eaten in these 6 days, we directly have $y = 27$."
     },
     {
       "title": "Evaluate all choices",
-      "content": "<ul><li><strong>Choice A &mdash; $y = 22 + 5$</strong>: Adding the number of days to the pounds has no meaning here — the total is 22 pounds, not 27. &#10007;</li><li><strong>Choice B &mdash; $y = 22$</strong>: The polar bear ate exactly 22.0 pounds total over the 5 days — $y$ equals that constant. &#10003;</li><li><strong>Choice C &mdash; $y = \\frac{22}{5}$</strong>: This gives the average per day (4.4 lb/day), but $y$ represents the total over all 5 days, not the daily rate. &#10007;</li><li><strong>Choice D &mdash; $y = 5$</strong>: 5 is the number of days, not the amount of fat eaten. &#10007;</li></ul>That is the correct answer."
+      "content": "<ul><li><strong>Choice A &mdash; $y = 27 + 6$</strong>: Adding the number of days to the pounds has no meaning here &mdash; the total is 27 pounds, not 33. &#10007;</li><li><strong>Choice B &mdash; $y = 27$</strong>: The sea otter ate exactly 27.0 pounds total over the 6 days &mdash; $y$ equals that constant. &#10003;</li><li><strong>Choice C &mdash; $y = \\frac{27}{6}$</strong>: This gives the average per day (4.5 lb/day), but $y$ represents the total over all 6 days, not the daily rate. &#10007;</li><li><strong>Choice D &mdash; $y = 6$</strong>: 6 is the number of days, not the amount of shellfish eaten. &#10007;</li></ul>That is the correct answer."
     }
   ]
 }

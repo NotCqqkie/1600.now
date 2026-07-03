@@ -1,15 +1,15 @@
 {
   "questionId": "c13016f9",
-  "correctAnswer": "77",
+  "correctAnswer": "80",
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute the value x = 2",
-      "content": "Replace $x$ with $2$ in $$f(x) = x^2 + x + 71.$$ This gives $$f(2) = (2)^2 + 2 + 71.$$"
+      "title": "Substitute the value x = 3",
+      "content": "Replace $x$ with $3$ in $$f(x) = x^2 + x + 68.$$ This gives $$f(3) = (3)^2 + 3 + 68.$$"
     },
     {
       "title": "Compute the result",
-      "content": "Simplify: $$f(2) = 4 + 2 + 71 = 77.$$ The answer is <strong>77</strong>."
+      "content": "Simplify: $$f(3) = 9 + 3 + 68 = 80.$$ The answer is <strong>80</strong>."
     }
   ]
 }

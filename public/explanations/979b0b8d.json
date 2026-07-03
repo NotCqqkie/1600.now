@@ -9,11 +9,11 @@
     },
     {
       "title": "Substitute the given information",
-      "content": "The slope is $39$, so $m=39$. The graph passes through $(0,0)$, so the $y$-intercept is $b=0$. Therefore $$f(x)=39x+0=39x.$$"
+      "content": "The slope is $42$, so $m=42$. The graph passes through $(0,0)$, so the $y$-intercept is $b=0$. Therefore $$f(x)=42x+0=42x.$$"
     },
     {
       "title": "Check the answer choices",
-      "content": "$f(x)=-39x$ has slope $-39$, $f(x)=\\frac{1}{39}x$ has slope $\\frac{1}{39}$, and $f(x)=x-39$ has slope $1$ with intercept $-39$. The function $f(x)=39x$ has slope $39$ and passes through the origin."
+      "content": "$f(x)=-42x$ has slope $-42$, $f(x)=\\frac{1}{42}x$ has slope $\\frac{1}{42}$, and $f(x)=x-42$ has slope $1$ with intercept $-42$. The function $f(x)=42x$ has slope $42$ and passes through the origin."
     }
   ]
 }

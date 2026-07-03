@@ -13,7 +13,7 @@
     },
     {
       "title": "Substitute and solve for x",
-      "content": "Use the angle measures $Q = x + 61$ and $R = 4x + 4$ in the complementary angle equation:<br/>$$(x + 61) + (4x + 4) = 90$$<br/>Simplify:<br/>$$5x + 65 = 90$$<br/>$$5x = 25$$<br/>$$x = 5$$<br/>That matches <strong>Choice A &mdash; $5$</strong>."
+      "content": "Use the angle measures $Q = x + 54$ and $R = 4x + 6$ in the complementary angle equation:<br/>$$(x + 54) + (4x + 6) = 90$$<br/>Simplify:<br/>$$5x + 60 = 90$$<br/>$$5x = 30$$<br/>$$x = 6$$<br/>That matches <strong>Choice A &mdash; $6$</strong>."
     }
   ]
 }

@@ -1,19 +1,19 @@
 {
   "questionId": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_10",
-  "correctAnswer": "8",
+  "correctAnswer": "9",
   "section": "Math",
   "steps": [
     {
       "title": "Multiply the expressions",
-      "content": "Combine like terms: $$7x^6+9x^6-8x^6=(7+9-8)x^6=8x^6.$$"
+      "content": "Combine like terms: $$8x^6+6x^6-5x^6=(8+6-5)x^6=9x^6.$$"
     },
     {
       "title": "Identify b",
-      "content": "Comparing $8x^6=bx^6$ gives $b=8$. The answer is <strong>8</strong>."
+      "content": "Comparing $9x^6=bx^6$ gives $b=9$. The answer is <strong>9</strong>."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $8$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $8$."
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $9$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $9$."
     }
   ]
 }

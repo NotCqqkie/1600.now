@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Determine the annual multiplier",
-      "content": "When the value depreciates by 20% each year, 80% of the value remains. The multiplier per year is $1 - 0.20 = 0.8$."
+      "content": "When the value depreciates by 10% each year, 90% of the value remains. The multiplier per year is $1 - 0.10 = 0.9$."
     },
     {
       "title": "Calculate the 2-year depreciated value",
-      "content": "After 2 years, multiply the initial value by the multiplier twice: $$800 \\times (0.8)^2 = 800 \\times 0.64 = 512$$ This matches the correct answer — <strong>B</strong> is correct."
+      "content": "After 2 years, multiply the initial value by the multiplier twice: $$600 \\times (0.9)^2 = 600 \\times 0.81 = 486$$ This matches the correct answer - <strong>B</strong> is correct."
     }
   ]
 }

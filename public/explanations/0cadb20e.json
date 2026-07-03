@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up the equation",
-      "content": "Since $f(a) = 10$ and $f(x) = \\frac{x+15}{5}$, substitute $a$ into the function definition:<br/>$$\\frac{a+15}{5} = 10$$"
+      "content": "Since $f(a) = 9$ and $f(x) = \\frac{x+18}{6}$, substitute $a$ into the function definition:<br/>$$\\frac{a+18}{6} = 9$$"
     },
     {
       "title": "Solve for a",
-      "content": "Multiply both sides by 5 to eliminate the fraction:<br/>$$a + 15 = 50$$<br/>Subtract 15 from both sides:<br/>$$a = 35$$<br/>That matches <strong>Choice C &mdash; $35$</strong>."
+      "content": "Multiply both sides by 6 to eliminate the fraction:<br/>$$a + 18 = 54$$<br/>Subtract 18 from both sides:<br/>$$a = 36$$<br/>That matches <strong>Choice C &mdash; $36$</strong>."
     }
   ]
 }

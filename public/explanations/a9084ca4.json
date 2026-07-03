@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Evaluate the y-intercept",
-      "content": "The $y$-intercept occurs where $x = 0$:<br/>$$f(0) = 9,000(0.66)^0 = 9,000$$"
+      "content": "The $y$-intercept occurs where $x = 0$:<br/>$$f(0) = 8,500(0.64)^0 = 8,500$$"
     },
     {
       "title": "Interpret and identify the answer",
-      "content": "The variable $x$ represents <em>years since 1997</em>, so $x = 0$ is the year 1997.<br/><br/>The $y$-intercept value of 9,000 represents the estimated number of advertisements sent in 1997.<br/><br/>The other choices incorrectly describe this as a minimum value.<br/><br/>The correct answer states the wrong number (1,708). That is the correct answer."
+      "content": "The variable $x$ represents <em>years since 2003</em>, so $x = 0$ is the year 2003.<br/><br/>The $y$-intercept value of 8,500 represents the estimated number of brochures mailed in 2003.<br/><br/>The other choices incorrectly describe this as a minimum value or use the later estimated amount.<br/><br/>Choice <strong>D</strong> states the correct starting amount and year."
     }
   ]
 }

@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $4nr^{2}+7n^{2}r+8nr$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $6pt^{2}+8p^{2}t+9pt$."
     },
     {
       "title": "Algebra check",
@@ -13,15 +13,15 @@
     },
     {
       "title": "Explanation",
-      "content": "Remove the parentheses (no sign change needed since both groups are added): $$4nr^{2}+6nr+7n^{2}r+2nr$$"
+      "content": "Remove the parentheses (no sign change needed since both groups are added): $$6pt^{2}+5pt+8p^{2}t+4pt$$"
     },
     {
       "title": "Explanation",
-      "content": "Identify like terms: $6nr$ and $2nr$ both have the factor $nr$. The terms $4nr^{2}$ and $7n^{2}r$ have no matching terms."
+      "content": "Identify like terms: $5pt$ and $4pt$ both have the factor $pt$. The terms $6pt^{2}$ and $8p^{2}t$ have no matching terms."
     },
     {
       "title": "Explanation",
-      "content": "Combine: $6nr + 2nr = 8nr$. The expression becomes $$4nr^{2}+7n^{2}r+8nr$$"
+      "content": "Combine: $5pt + 4pt = 9pt$. The expression becomes $$6pt^{2}+8p^{2}t+9pt$$"
     }
   ],
   "section": "Math"

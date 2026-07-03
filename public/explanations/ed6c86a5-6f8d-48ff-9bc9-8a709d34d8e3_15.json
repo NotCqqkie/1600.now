@@ -1,19 +1,19 @@
 {
   "questionId": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_15",
-  "correctAnswer": "6/7",
+  "correctAnswer": "5/6",
   "section": "Math",
   "steps": [
     {
       "title": "Substitute the expression for t",
-      "content": "Start with $p^{\\frac{5}{4}} = t^{\\frac{7}{4}}$ and the relation $t = p^{2n-1}$. Substitute the expression for $t$:\n$$p^{\\frac{5}{4}} = (p^{2n-1})^{\\frac{7}{4}}$$"
+      "content": "Start with $p^{\\frac{4}{5}} = t^{\\frac{6}{5}}$ and the relation $t = p^{2n-1}$. Substitute the expression for $t$:\n$$p^{\\frac{4}{5}} = (p^{2n-1})^{\\frac{6}{5}}$$"
     },
     {
       "title": "Apply power rule and equate exponents",
-      "content": "Simplify the right side using the power rule $(a^m)^k = a^{mk}$:\n$$p^{\\frac{5}{4}} = p^{\\frac{7(2n-1)}{4}}$$ Since the bases are equal and $p \\gt  1$, the exponents must be equal:\n$$\\frac{5}{4} = \\frac{7(2n-1)}{4}$$"
+      "content": "Simplify the right side using the power rule $(a^m)^k = a^{mk}$:\n$$p^{\\frac{4}{5}} = p^{\\frac{6(2n-1)}{5}}$$ Since the bases are equal and $p \\gt  1$, the exponents must be equal:\n$$\\frac{4}{5} = \\frac{6(2n-1)}{5}$$"
     },
     {
       "title": "Solve for n",
-      "content": "Multiply both sides by 4:\n$$5 = 7(2n-1)$$ Distribute:\n$$5 = 14n - 7$$ Add 7 to both sides:\n$$12 = 14n$$ Divide by 14:\n$$n = \\frac{12}{14} = \\frac{6}{7}$$"
+      "content": "Multiply both sides by 5:\n$$4 = 6(2n-1)$$ Distribute:\n$$4 = 12n - 6$$ Add 6 to both sides:\n$$10 = 12n$$ Divide by 12:\n$$n = \\frac{10}{12} = \\frac{5}{6}$$"
     }
   ]
 }

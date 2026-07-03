@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Express the total number of animals",
-      "content": "Let $c$ be the number of cats and $d$ be the number of dogs. The total number of animals cared for is $c+d$."
+      "content": "Let $r$ be the number of rabbits and $h$ be the number of hamsters. The total number of animals cared for is $r+h$."
     },
     {
-      "title": "Translate &quot;at most 43&quot; into an inequality",
-      "content": "The phrase &quot;at most 43&quot; means the total is less than or equal to 43, so $c+d \\le 43$."
+      "title": "Translate &quot;at most 58&quot; into an inequality",
+      "content": "The phrase &quot;at most 58&quot; means the total is less than or equal to 58, so $r+h \\le 58$."
     },
     {
       "title": "Match against the choices",
-      "content": "Compare to each option:<ul><li>A) $c-d \\le 43$ uses subtraction, not the sum of animals &mdash; eliminate.</li><li>B) $c-d \\ge 43$ uses subtraction and the wrong direction &mdash; eliminate.</li><li>C) $c+d \\ge 43$ has the correct sum but reverses the direction (this says at least 43) &mdash; eliminate.</li><li>D) $c+d \\le 43$ correctly expresses &quot;the total is at most 43.&quot;</li></ul>That confirms <strong>D</strong> is correct."
+      "content": "Compare to each option:<ul><li>A) $r-h \\le 58$ uses subtraction, not the sum of animals &mdash; eliminate.</li><li>B) $r-h \\ge 58$ uses subtraction and the wrong direction &mdash; eliminate.</li><li>C) $r+h \\ge 58$ has the correct sum but reverses the direction (this says at least 58) &mdash; eliminate.</li><li>D) $r+h \\le 58$ correctly expresses &quot;the total is at most 58.&quot;</li></ul>That confirms <strong>D</strong> is correct."
     }
   ]
 }

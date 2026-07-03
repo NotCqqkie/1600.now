@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Turn the g table into an f table",
-      "content": "The table gives $g(x)$, but the question asks for the y-intercept of $y=f(x)$. Since $g(x)=\\dfrac{f(x)}{x+3}$, multiply each table output by $x+3$ to get $f(x)$:<ul><li>$f(-21)=2(-21+3)=-36$</li><li>$f(-9)=0(-9+3)=0$</li><li>$f(15)=4(15+3)=72$</li></ul>"
+      "content": "The table gives $g(x)$, but the question asks for the y-intercept of $y=f(x)$. Since $g(x)=\\dfrac{f(x)}{x+2}$, multiply each table output by $x+2$ to get $f(x)$:<ul><li>$f(-14)=1(-14+2)=-12$</li><li>$f(-8)=0(-8+2)=0$</li><li>$f(10)=3(10+2)=36$</li></ul>"
     },
     {
       "title": "Find the linear function f",
-      "content": "Use two of the converted points, $(-9,0)$ and $(15,72)$. The slope is $$m=\\frac{72-0}{15-(-9)}=\\frac{72}{24}=3.$$ Since $f(-9)=0$, use $f(x)=3x+b$:$$0=3(-9)+b\\Rightarrow b=27$$So $f(x)=3x+27$."
+      "content": "Use two of the converted points, $(-8,0)$ and $(10,36)$. The slope is $$m=\\frac{36-0}{10-(-8)}=\\frac{36}{18}=2.$$ Since $f(-8)=0$, use $f(x)=2x+b$:$$0=2(-8)+b\\Rightarrow b=16$$So $f(x)=2x+16$."
     },
     {
       "title": "Identify the intercept",
-      "content": "The y-intercept of $y=f(x)$ is where $x=0$. From $f(x)=3x+27$, the intercept is $(0,27)$. <strong>D</strong> is correct."
+      "content": "The y-intercept of $y=f(x)$ is where $x=0$. From $f(x)=2x+16$, the intercept is $(0,16)$. <strong>D</strong> is correct."
     }
   ]
 }

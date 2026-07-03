@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Analyze the equation",
-      "content": "Subtract $2$, then divide by $8$ in $8x+2=10$: $$x=1.$$ The coefficient on $x$ is nonzero."
+      "content": "Subtract $5$, then divide by $6$ in $6x+5=17$: $$x=2.$$ The coefficient on $x$ is nonzero."
     },
     {
       "title": "Count the solutions",

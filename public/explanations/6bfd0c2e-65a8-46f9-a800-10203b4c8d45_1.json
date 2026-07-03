@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Identify the variables",
-      "content": "Let $h$ be the hours worked at the regular job and $c$ be the hours worked at the second job. The equation $20h+14c=716$ represents total weekly earnings in dollars."
+      "content": "Let $h$ be the hours worked at the regular job and $c$ be the hours worked at the second job. The equation $22h+15c=783$ represents total weekly earnings in dollars."
     },
     {
       "title": "Interpret the coefficient",
-      "content": "In the term $20h$, $h$ is measured in hours and $20h$ is measured in dollars. Therefore $20$ means &#36;20 per hour for the regular job."
+      "content": "In the term $22h$, $h$ is measured in hours and $22h$ is measured in dollars. Therefore $22$ means &#36;22 per hour for the regular job."
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice A (&lsquo;The amount, in dollars, the technician earned for each hour she worked at her regular job&rsquo;) says $20$ is the amount earned for each hour at the regular job, which matches the coefficient of $h$. Choice B (&lsquo;The amount, in dollars, the technician earned for each hour she worked at her second job&rsquo;) describes the coefficient of $c$, which is $14$. The other choices describe numbers of hours, but those are represented by variables. Therefore <strong>A</strong> is correct."
+      "content": "Choice A (&lsquo;The amount, in dollars, the designer earned for each hour she worked at her regular job&rsquo;) says $22$ is the amount earned for each hour at the regular job, which matches the coefficient of $h$. Choice B (&lsquo;The amount, in dollars, the designer earned for each hour she worked at her second job&rsquo;) describes the coefficient of $c$, which is $15$. The other choices describe numbers of hours, but those are represented by variables. Therefore <strong>A</strong> is correct."
     }
   ]
 }

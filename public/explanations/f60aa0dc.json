@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Apply the simplification from the given condition",
-      "content": "The given equation is $\\left(9\\right)(4-3x)+2 = 8(4-3x)+18$.<br/><br/>Subtract $\\left(8\\right)(4-3x)$ from both sides:<br/>$$(4-3x) + 2 = 18$$<br/><br/>Subtract 2 from both sides:<br/>$$4 - 3x = 16$$"
+      "content": "The given equation is $\\left(10\\right)(6-4x)+5 = 9(6-4x)+23$.<br/><br/>Subtract $\\left(9\\right)(6-4x)$ from both sides:<br/>$$(6-4x) + 5 = 23$$<br/><br/>Subtract 5 from both sides:<br/>$$6 - 4x = 18$$"
     },
     {
       "title": "Compute the target value",
-      "content": "So $4-3x = 16$. That matches the correct answer — <strong>D</strong> is correct."
+      "content": "So $6-4x = 18$. That matches the correct answer -- <strong>D</strong> is correct."
     }
   ]
 }

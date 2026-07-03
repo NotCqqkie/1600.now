@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The stock <em>increases by 1% of its value the previous year</em> &mdash; this is exponential (compound) growth, not linear. The model is $V(t) = 240(1 + 0.01)^t = 240(1.01)^t$."
+      "content": "The stock <em>increases by 2% of its value the previous year</em> &mdash; this is exponential (compound) growth, not linear. The model is $V(t) = 180(1 + 0.02)^t = 180(1.02)^t$."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; $V(t) = 240(1.01t)$</strong>: linear in $t$ &mdash; multiplies by a fixed amount each year, not a fixed percent. &#10007;</li><li><strong>Choice B &mdash; $V(t) = 240(1.1t)$</strong>: also linear in $t$. &#10007;</li><li><strong>Choice C &mdash; $V(t) = 240(1.01)^t$</strong>: exponential with base $1.01$, representing 1% growth per year. &#10003;</li><li><strong>Choice D &mdash; $V(t) = 240(1.1)^t$</strong>: exponential, but base $1.1$ is 10% growth per year, not 1%. &#10007;</li></ul>That is the correct answer."
+      "content": "<ul><li><strong>Choice A &mdash; $V(t) = 180(1.02t)$</strong>: linear in $t$ &mdash; multiplies by a fixed amount each year, not a fixed percent. &#10007;</li><li><strong>Choice B &mdash; $V(t) = 180(1.2t)$</strong>: also linear in $t$. &#10007;</li><li><strong>Choice C &mdash; $V(t) = 180(1.02)^t$</strong>: exponential with base $1.02$, representing 2% growth per year. &#10003;</li><li><strong>Choice D &mdash; $V(t) = 180(1.2)^t$</strong>: exponential, but base $1.2$ is 20% growth per year, not 2%. &#10007;</li></ul>That is the correct answer."
     }
   ]
 }

@@ -8,17 +8,17 @@
     },
     {
       "title": "Step 2",
-      "content": "Total mass of $146r$ such objects: $146r \\times \\frac{t}{r} = 146t$ kg. The $r$ cancels."
+      "content": "Total mass of $132r$ such objects: $132r \\times \\frac{t}{r} = 132t$ kg. The $r$ cancels."
     },
     {
       "title": "Step 3",
-      "content": "The answer is $146t$."
+      "content": "The answer is $132t$."
     },
     {
       "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches $146t$, and the other choices fail the same setup or substitution. Therefore <strong>D</strong> is correct."
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches $132t$, and the other choices fail the same setup or substitution. Therefore <strong>D</strong> is correct."
     }
   ],
-  "choiceEliminations": "<ul><li><strong>Choice A &mdash; $146 - t$</strong>: Subtracting $t$ from 146 has no physical meaning for scaling mass. &#10007;</li><li><strong>Choice B &mdash; $146 + t$</strong>: Adding $t$ to 146 does not reflect proportional scaling. &#10007;</li><li><strong>Choice C &mdash; $\\frac{t}{146}$</strong>: This would give the mass of $\\frac{r}{146}$ objects, the opposite of what is needed. &#10007;</li><li><strong>Choice D &mdash; $146t$</strong>: Multiplying $146r$ objects by $\\frac{t}{r}$ each correctly gives $146t$. &#10003;</li></ul>That is the correct answer.",
+  "choiceEliminations": "<ul><li><strong>Choice A &mdash; $132 - t$</strong>: Subtracting $t$ from 132 has no physical meaning for scaling mass. &#10007;</li><li><strong>Choice B &mdash; $132 + t$</strong>: Adding $t$ to 132 does not reflect proportional scaling. &#10007;</li><li><strong>Choice C &mdash; $\\frac{t}{132}$</strong>: This would give the mass of $\\frac{r}{132}$ objects, the opposite of what is needed. &#10007;</li><li><strong>Choice D &mdash; $132t$</strong>: Multiplying $132r$ objects by $\\frac{t}{r}$ each correctly gives $132t$. &#10003;</li></ul>That is the correct answer.",
   "correctAnswer": "D"
 }

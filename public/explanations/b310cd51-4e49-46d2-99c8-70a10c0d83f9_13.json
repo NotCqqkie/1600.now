@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Backsolve $\\frac{8}{27}$",
-      "content": "Backsolve $\\frac{8}{27}$:<br/>$$f\\left(\\frac{8}{27}\\right)=\\sqrt{3\\cdot\\frac{8}{27}+8}=\\sqrt{\\frac{8}{9}+8}=\\sqrt{\\frac{80}{9}}=\\frac{\\sqrt{80}}{3}\\approx 2.98$$<br/>$$-9\\cdot\\frac{8}{27}=-\\frac{8}{3}\\approx -2.67$$<br/>Since the left-hand side is positive and the right-hand side is negative, they cannot be equal, so $\\frac{8}{27}$ is not correct."
+      "title": "Backsolve $\\frac{3}{16}$",
+      "content": "Backsolve $\\frac{3}{16}$:<br/>$$f\\left(\\frac{3}{16}\\right)=\\sqrt{5\\cdot\\frac{3}{16}+6}=\\sqrt{\\frac{15}{16}+6}=\\sqrt{\\frac{111}{16}}=\\frac{\\sqrt{111}}{4}\\approx 2.63$$<br/>$$-12\\cdot\\frac{3}{16}=-\\frac{36}{16}=-\\frac{9}{4}$$<br/>Since the left-hand side is positive and the right-hand side is negative, they cannot be equal, so $\\frac{3}{16}$ is not correct."
     },
     {
-      "title": "Test $-\\frac{8}{27}$",
-      "content": "Test $-\\frac{8}{27}$:<br/>$$f\\left(-\\frac{8}{27}\\right)=\\sqrt{3\\cdot\\left(-\\frac{8}{27}\\right)+8}=\\sqrt{-\\frac{8}{9}+8}=\\sqrt{\\frac{64}{9}}=\\frac{8}{3}$$<br/>$$-9\\cdot\\left(-\\frac{8}{27}\\right)=\\frac{72}{27}=\\frac{8}{3}$$<br/>Both sides equal $\\frac{8}{3}$, so the equation holds.<br/>That is the correct answer."
+      "title": "Test $-\\frac{3}{16}$",
+      "content": "Test $-\\frac{3}{16}$:<br/>$$f\\left(-\\frac{3}{16}\\right)=\\sqrt{5\\cdot\\left(-\\frac{3}{16}\\right)+6}=\\sqrt{-\\frac{15}{16}+6}=\\sqrt{\\frac{81}{16}}=\\frac{9}{4}$$<br/>$$-12\\cdot\\left(-\\frac{3}{16}\\right)=\\frac{36}{16}=\\frac{9}{4}$$<br/>Both sides equal $\\frac{9}{4}$, so the equation holds.<br/>That is the correct answer."
     }
   ]
 }

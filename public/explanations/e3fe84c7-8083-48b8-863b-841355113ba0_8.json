@@ -12,12 +12,12 @@
       "content": "A hemisphere is half a sphere. Volume of a sphere $= \\frac{4}{3}\\pi r^3$, so hemisphere volume $= \\frac{2}{3}\\pi r^3$."
     },
     {
-      "title": "Compute r³ for r = 83",
-      "content": "$83^2 = 6{,}889$; $\\;83^3 = 6{,}889 \\times 83 = 571{,}787$."
+      "title": "Compute r³ for r = 79",
+      "content": "$79^2 = 6{,}241$; $\\;79^3 = 6{,}241 \\times 79 = 493{,}039$."
     },
     {
       "title": "Multiply by (2/3)π",
-      "content": "$$V = \\frac{2}{3}\\pi(571{,}787) \\approx \\frac{2}{3}(3.14159)(571{,}787) \\approx 2.0944 \\times 571{,}787 \\approx 1{,}197{,}500$$"
+      "content": "$$V = \\frac{2}{3}\\pi(493{,}039) \\approx \\frac{2}{3}(3.14159)(493{,}039) \\approx 2.0944 \\times 493{,}039 \\approx 1{,}032{,}600$$ This is closest to choice <strong>D</strong>."
     }
   ]
 }

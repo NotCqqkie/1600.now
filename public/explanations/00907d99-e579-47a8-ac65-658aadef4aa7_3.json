@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Calculate calcium from milk",
-      "content": "Each cup of milk has 304 mg of calcium. The batch uses 4 cups, so the total calcium from milk is:<br/>$$4 \\times 304 = 1216 \\text{ mg}$$"
+      "content": "Each cup of milk has 286 mg of calcium. The batch uses 4 cups, so the total calcium from milk is:<br/>$$4 \\times 286 = 1144 \\text{ mg}$$"
     },
     {
       "title": "Find calcium from bananas",
-      "content": "The batch contains 1,228 mg total. The calcium from bananas is:<br/>$$1228 - 1216 = 12 \\text{ mg}$$<br/>This is from 2 bananas combined."
+      "content": "The batch contains 1,158 mg total. The calcium from bananas is:<br/>$$1158 - 1144 = 14 \\text{ mg}$$<br/>This is from 2 bananas combined."
     },
     {
       "title": "Divide by number of bananas",
-      "content": "Dividing by the number of bananas:<br/>$$\\frac{12}{2} = 6 \\text{ mg per banana}$$<br/>That matches <strong>Choice D &mdash; 6</strong>."
+      "content": "Dividing by the number of bananas:<br/>$$\\frac{14}{2} = 7 \\text{ mg per banana}$$<br/>That matches <strong>Choice D &mdash; 7</strong>."
     }
   ]
 }

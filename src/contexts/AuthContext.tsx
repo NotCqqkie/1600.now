@@ -86,11 +86,16 @@ const loadAuthDependencies = async () => {
     authDependenciesPromise = Promise.all([
       import("firebase/auth"),
       import("@/lib/firebase/firebaseAuth"),
-    ]).then(([authModule, firebaseModule]) => ({
-      auth: firebaseModule.auth,
-      firebaseConfigError: firebaseModule.firebaseConfigError,
-      authModule,
-    }));
+    ])
+      .then(([authModule, firebaseModule]) => ({
+        auth: firebaseModule.auth,
+        firebaseConfigError: firebaseModule.firebaseConfigError,
+        authModule,
+      }))
+      .catch((error) => {
+        authDependenciesPromise = null;
+        throw error;
+      });
   }
 
   return authDependenciesPromise;
@@ -166,8 +171,12 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
       applyAppUser(toAppUser(firebaseUser));
     }
 
-    const tokenResult = await firebaseUser.getIdTokenResult();
-    applyAppUser(toAppUser(firebaseUser, tokenResult));
+    try {
+      const tokenResult = await firebaseUser.getIdTokenResult();
+      applyAppUser(toAppUser(firebaseUser, tokenResult));
+    } catch {
+      applyAppUser(toAppUser(firebaseUser));
+    }
   }, [applyAppUser]);
 
   useEffect(() => {

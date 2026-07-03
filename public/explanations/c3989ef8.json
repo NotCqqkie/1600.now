@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Calculate spending on purchased movies",
-      "content": "Henry buys 3 movies at \\$7.50 each:<br/>$$3 \\times 7.50 = 22.50$$<br/>So he spends \\$22.50 on purchases."
+      "content": "Maya buys 3 movies at \\$7.50 each:<br/>$$3 \\times 7.50 = 22.50$$<br/>So she spends \\$22.50 on purchases."
     },
     {
       "title": "Find the remaining gift card balance",
-      "content": "Starting balance minus purchase spending:<br/>$$60.00 - 22.50 = 37.50$$<br/>Henry has \\$37.50 left to spend on rentals."
+      "content": "Starting balance minus purchase spending:<br/>$$60.00 - 22.50 = 37.50$$<br/>Maya has \\$37.50 left to spend on rentals."
     },
     {
-      "title": "Calculate how many rental movies he can afford",
-      "content": "With \\$37.50 remaining and rental movies costing \\$1.50 each:<br/>$$\\frac{37.50}{1.50} = 25$$<br/>Henry can rent 25 movies. That is the correct answer."
+      "title": "Calculate how many rental movies she can afford",
+      "content": "With \\$37.50 remaining and rental movies costing \\$1.50 each:<br/>$$\\frac{37.50}{1.50} = 25$$<br/>Maya can rent 25 movies. The correct answer is choice B."
     }
   ]
 }

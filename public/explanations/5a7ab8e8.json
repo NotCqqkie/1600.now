@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Step 1",
-      "content": "Subtract $66x$ from both sides of $66x = 66x$ to get $0 = 0$."
+      "content": "Subtract $72x$ from both sides of $72x = 72x$ to get $0 = 0$."
     },
     {
       "title": "Step 2",
@@ -13,7 +13,7 @@
     },
     {
       "title": "Step 3",
-      "content": "Test all four choices: <ul><li><strong>Choice A &mdash; &lsquo;Exactly one&rsquo;</strong>: Exactly one solution means a unique value of $x$ satisfies the equation. Here every $x$ works, not just one. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Exactly two&rsquo;</strong>: A linear equation can never have exactly two solutions. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Infinitely many&rsquo;</strong>: Since $66x = 66x$ simplifies to $0 = 0$, which is always true, every real number is a solution. &#10003;</li><li><strong>Choice D &mdash; &lsquo;Zero&rsquo;</strong>: Zero solutions requires a contradiction such as $0 = 5$. Here we get $0 = 0$, which is not a contradiction. &#10007;</li></ul>"
+      "content": "Test all four choices: <ul><li><strong>Choice A &mdash; &lsquo;Exactly one&rsquo;</strong>: Exactly one solution means a unique value of $x$ satisfies the equation. Here every $x$ works, not just one. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Exactly two&rsquo;</strong>: A linear equation can never have exactly two solutions. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Infinitely many&rsquo;</strong>: Since $72x = 72x$ simplifies to $0 = 0$, which is always true, every real number is a solution. &#10003;</li><li><strong>Choice D &mdash; &lsquo;Zero&rsquo;</strong>: Zero solutions requires a contradiction such as $0 = 5$. Here we get $0 = 0$, which is not a contradiction. &#10007;</li></ul>"
     },
     {
       "title": "Step 4",

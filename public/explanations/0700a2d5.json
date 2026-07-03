@@ -1,6 +1,6 @@
 {
   "questionId": "0700a2d5",
-  "correctAnswer": "423.5",
+  "correctAnswer": "456.5",
   "section": "Math",
   "steps": [
     {
@@ -9,15 +9,15 @@
     },
     {
       "title": "Set up the unit cancellation",
-      "content": "$$77\\text{ rods}\\cdot\\frac{5.5\\text{ yards}}{1\\text{ rod}}$$<br/>The rod units cancel, leaving yards."
+      "content": "$$83\\text{ rods}\\cdot\\frac{5.5\\text{ yards}}{1\\text{ rod}}$$<br/>The rod units cancel, leaving yards."
     },
     {
       "title": "Multiply",
-      "content": "$$77(5.5)=423.5$$"
+      "content": "$$83(5.5)=456.5$$"
     },
     {
       "title": "Answer",
-      "content": "$77$ rods are equivalent to <strong>423.5</strong> yards."
+      "content": "$83$ rods are equivalent to <strong>456.5</strong> yards."
     }
   ]
 }

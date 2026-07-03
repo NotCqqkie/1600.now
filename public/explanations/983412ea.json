@@ -1,20 +1,20 @@
 {
   "questionId": "983412ea",
-  "correctAnswer": "12",
+  "correctAnswer": "11",
   "section": "Math",
   "steps": [
     {
       "title": "Set up the volume formula for a square prism",
-      "content": "A right square prism has volume equal to base area times height. The base is a square with side length $s$, so the base area is $s^2$. Substituting the given values $V = 2016$ and $h = 14$:<br/>$$2016 = s^2 \\cdot 14$$",
+      "content": "A right square prism has volume equal to base area times height. The base is a square with side length $s$, so the base area is $s^2$. Substituting the given values $V = 1815$ and $h = 15$:<br/>$$1815 = s^2 \\cdot 15$$",
       "formula": "$$V = s^2 h$$"
     },
     {
-      "title": "Solve for s² by dividing both sides by the height",
-      "content": "Divide by 14:<br/>$$s^2 = \\frac{2016}{14} = 144$$"
+      "title": "Solve for s^2 by dividing both sides by the height",
+      "content": "Divide by 15:<br/>$$s^2 = \\frac{1815}{15} = 121$$"
     },
     {
       "title": "Take the square root to find the edge length",
-      "content": "Since $s$ represents a length and must be positive:<br/>$$s = \\sqrt{144} = 12$$<br/>The edge length of the base is 12 units."
+      "content": "Since $s$ represents a length and must be positive:<br/>$$s = \\sqrt{121} = 11$$<br/>The edge length of the base is 11 units."
     }
   ]
 }

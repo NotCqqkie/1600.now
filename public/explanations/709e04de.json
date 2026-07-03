@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Calculate z",
-      "content": "We're given $z = 1.13 \\times 100$. Multiply:\n$$z = 1.13 \\times 100 = 113$$"
+      "content": "We're given $z = 1.18 \\times 100$. Multiply:\n$$z = 1.18 \\times 100 = 118$$"
     },
     {
       "title": "Find the percent increase",
-      "content": "The percent increase from 100 to 113 is:\n$$\\frac{113 - 100}{100} \\times 100\\% = \\frac{13}{100} \\times 100\\% = 13\\%$$ That confirms <strong>B</strong> is correct."
+      "content": "The percent increase from 100 to 118 is:\n$$\\frac{118 - 100}{100} \\times 100\\% = \\frac{18}{100} \\times 100\\% = 18\\%$$ That confirms <strong>B</strong> is correct."
     }
   ]
 }

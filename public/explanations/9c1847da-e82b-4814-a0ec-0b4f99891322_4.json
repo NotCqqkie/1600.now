@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up the constraint",
-      "content": "Each pull delivers 4–9 liters. If the elephant pulls $n$ times, the total is between $4n$ and $9n$ liters. For 140 liters:<br/>$$4n \\le 140 \\le 9n$$<br/>Which choice for $n$ satisfies this constraint?"
+      "content": "Each pull delivers 5-11 liters. If the elephant pulls $n$ times, the total is between $5n$ and $11n$ liters. For 198 liters:<br/>$$5n \\le 198 \\le 11n$$<br/>Which choice for $n$ satisfies this constraint?"
     },
     {
       "title": "Backsolve with the answer choices",
-      "content": "Backsolving — testing choice B (15):<br/>${4}(15) = 60$ and ${9}(15) = 135$. Is $60 \\le 140 \\le 135$? No, because $140 \\gt 135$.<br/><br/>Fails. Testing choice C (34):<br/>${4}(34) = 136$ and ${9}(34) = 306$. Is $136 \\le 140 \\le 306$? Yes!<br/><br/>That confirms <strong>C</strong> is correct."
+      "content": "Backsolving - testing choice B (17):<br/>${5}(17) = 85$ and ${11}(17) = 187$. Is $85 \\le 198 \\le 187$? No, because $198 \\gt 187$.<br/><br/>Fails. Testing choice C (37):<br/>${5}(37) = 185$ and ${11}(37) = 407$. Is $185 \\le 198 \\le 407$? Yes!<br/><br/>That confirms <strong>C</strong> is correct."
     }
   ]
 }

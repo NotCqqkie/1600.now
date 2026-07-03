@@ -14,11 +14,11 @@
     },
     {
       "title": "Find the leg length from the hypotenuse",
-      "content": "Since the hypotenuse is 58 inches:<br/>$$a\\sqrt{2} = 58$$<br/>Rationalize to solve for $a$:<br/>$$a = \\frac{58}{\\sqrt{2}} \\cdot \\frac{\\sqrt{2}}{\\sqrt{2}} = \\frac{58\\sqrt{2}}{2} = 29\\sqrt{2} \\text{ inches}$$"
+      "content": "Since the hypotenuse is 62 inches:<br/>$$a\\sqrt{2} = 62$$<br/>Rationalize to solve for $a$:<br/>$$a = \\frac{62}{\\sqrt{2}} \\cdot \\frac{\\sqrt{2}}{\\sqrt{2}} = \\frac{62\\sqrt{2}}{2} = 31\\sqrt{2} \\text{ inches}$$"
     },
     {
       "title": "Calculate the perimeter",
-      "content": "Sum all three sides:<br/>$$P = 29\\sqrt{2} + 29\\sqrt{2} + 58 = 58\\sqrt{2} + 58 = 58 + 58\\sqrt{2}$$<br/>That matches the correct answer — <strong>C</strong> is correct."
+      "content": "Sum all three sides:<br/>$$P = 31\\sqrt{2} + 31\\sqrt{2} + 62 = 62\\sqrt{2} + 62 = 62 + 62\\sqrt{2}$$<br/>That matches the correct answer — <strong>C</strong> is correct."
     }
   ]
 }

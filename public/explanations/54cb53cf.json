@@ -1,19 +1,19 @@
 {
   "questionId": "54cb53cf",
-  "correctAnswer": "79",
+  "correctAnswer": "76",
   "section": "Math",
   "steps": [
     {
       "title": "Reverse the relationship between populations",
-      "content": "Given that the 2018 population is 1.27 times the 2014 population, I need to reverse this to express 2014 in terms of 2018.<br/><br/>If $Z_{2018} = 1.27 \\cdot Z_{2014}$, then dividing both sides by 1.27:<br/>$$Z_{2014} = \\frac{1}{1.27} \\cdot Z_{2018}$$"
+      "content": "Given that the 2020 population is 1.32 times the 2016 population, I need to reverse this to express 2016 in terms of 2020.<br/><br/>If $Z_{2020} = 1.32 \\cdot Z_{2016}$, then dividing both sides by 1.32:<br/>$$Z_{2016} = \\frac{1}{1.32} \\cdot Z_{2020}$$"
     },
     {
       "title": "Set up the percentage equation",
-      "content": "The problem asks for $p$ such that 2014 is $p\\%$ of 2018:<br/>$$Z_{2014} = \\frac{p}{100} \\cdot Z_{2018}$$<br/>Comparing with the equation from Step 1, the coefficient of $Z_{2018}$ must match:<br/>$$\\frac{p}{100} = \\frac{1}{1.27}$$"
+      "content": "The problem asks for $p$ such that 2016 is $p\\%$ of 2020:<br/>$$Z_{2016} = \\frac{p}{100} \\cdot Z_{2020}$$<br/>Comparing with the equation from Step 1, the coefficient of $Z_{2020}$ must match:<br/>$$\\frac{p}{100} = \\frac{1}{1.32}$$"
     },
     {
       "title": "Solve for p and round to nearest integer",
-      "content": "Multiplying both sides by 100:<br/>$$p = \\frac{100}{1.27}$$<br/>Calculating: $100 \\div 1.27 \\approx 78.74$<br/><br/>Rounding to the nearest whole number, $p = 79$."
+      "content": "Multiplying both sides by 100:<br/>$$p = \\frac{100}{1.32}$$<br/>Calculating: $100 \\div 1.32 \\approx 75.76$<br/><br/>Rounding to the nearest whole number, $p = 76$."
     }
   ]
 }

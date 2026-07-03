@@ -9,7 +9,7 @@
     },
     {
       "title": "Step 2",
-      "content": "$2{,}300 \\div 100 = 23$ meters."
+      "content": "$4{,}600 \\div 100 = 46$ meters."
     },
     {
       "title": "Step 3",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Step 4",
-      "content": "<ul><li>$0.043$ &mdash; this is far too small; dividing by 100 does not yield a value less than 1 for 2,300 cm; incorrect.</li><li>The matching choice: $23$ &mdash; $2300 \\div 100 = 23$. <strong>B</strong> is correct.</li><li>$2{,}400$ &mdash; this is larger than the original number of centimeters and goes in the wrong direction; incorrect.</li><li>$230{,}000$ &mdash; this would result from multiplying by 100 instead of dividing; incorrect.</li></ul>"
+      "content": "<ul><li>$0.022$ &mdash; this is far too small; dividing by 100 does not yield a value less than 1 for 4,600 cm; incorrect.</li><li>The matching choice: $46$ &mdash; $4600 \\div 100 = 46$. <strong>B</strong> is correct.</li><li>$4{,}700$ &mdash; this is larger than the original number of centimeters and goes in the wrong direction; incorrect.</li><li>$460{,}000$ &mdash; this would result from multiplying by 100 instead of dividing; incorrect.</li></ul>"
     }
   ]
 }

@@ -1,15 +1,15 @@
 {
   "questionId": "d7afa874-519b-4f1b-b45f-1c75ea45613b_9",
-  "correctAnswer": "70875",
+  "correctAnswer": "50460",
   "section": "Math",
   "steps": [
     {
       "title": "Use the known point to find the coefficient",
-      "content": "The model is $y=900ax^2$, and the graph contains the point $(2.75,9528.75)$. Substitute the point:<br/>$$9528.75=900a(2.75)^2.$$"
+      "content": "The model is $y=800ax^2$, and the graph contains the point $(3.25,10140)$. Substitute the point:<br/>$$10140=800a(3.25)^2.$$"
     },
     {
       "title": "Solve and evaluate",
-      "content": "Since $\\left(900\\right)(2.75)^2=6806.25$, $$a=\\frac{9528.75}{6806.25}=1.4.$$ Then $900a=1260$, so at $x=7.50$: $$y=1260(7.50)^2=70{,}875.$$ The answer is <strong>70875</strong>. The requested response box wants the numerical value only, so enter 70875 without a comma."
+      "content": "Since $\\left(800\\right)(3.25)^2=8450$, $$a=\\frac{10140}{8450}=1.2.$$ Then $800a=960$, so at $x=7.25$: $$y=960(7.25)^2=50{,}460.$$ The answer is <strong>50460</strong>. The requested response box wants the numerical value only, so enter 50460 without a comma."
     }
   ]
 }

@@ -1,15 +1,15 @@
 {
   "questionId": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_11",
-  "correctAnswer": "19.6",
+  "correctAnswer": "18.3",
   "section": "Math",
   "steps": [
     {
       "title": "Find the pasture percentage",
-      "content": "Farmland comprises 48.0% of the plot, so the remaining pasture is:<br/>$$100\\% - 48\\% = 52\\%$$"
+      "content": "Cropland comprises 44.0% of the tract, so the remaining pasture is:<br/>$$100\\% - 44\\% = 56\\%$$"
     },
     {
-      "title": "Calculate each region's building coverage as a percentage of the total plot",
-      "content": "<strong>Farmland:</strong> Buildings cover 23.5% of the farmland, which itself is 48% of the total plot. Multiply the percentages:<br/>$$0.235 \\times 0.48 = 0.1128 = 11.28\\%$$ of the total plot<br/><br/><strong>Pasture:</strong> Buildings cover 16% of the pasture, which itself is 52% of the total plot.<br/>$$0.16 \\times 0.52 = 0.0832 = 8.32\\%$$ of the total plot<br/><br/><strong>Total buildings on the plot:</strong><br/>$$p = 11.28\\% + 8.32\\% = 19.6\\%$$"
+      "title": "Calculate each region's building coverage as a percentage of the total tract",
+      "content": "<strong>Cropland:</strong> Buildings cover 22.5% of the cropland, which itself is 44% of the total tract. Multiply the percentages:<br/>$$0.225 \\times 0.44 = 0.099 = 9.9\\%$$ of the total tract<br/><br/><strong>Pasture:</strong> Buildings cover 15% of the pasture, which itself is 56% of the total tract.<br/>$$0.15 \\times 0.56 = 0.084 = 8.4\\%$$ of the total tract<br/><br/><strong>Total buildings on the tract:</strong><br/>$$p = 9.9\\% + 8.4\\% = 18.3\\%$$"
     }
   ]
 }

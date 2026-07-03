@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find the area scale factor",
-      "content": "When both length and width increase by 20%, each is multiplied by $1.2$. The area, being the product of these dimensions, is multiplied by $(1.2)^2 = 1.44$."
+      "content": "When both length and width increase by 30%, each is multiplied by $1.3$. The area, being the product of these dimensions, is multiplied by $(1.3)^2 = 1.69$."
     },
     {
       "title": "Calculate the new area",
-      "content": "$$A_{\\text{new}} = 1.44 \\times 2300 = 3312$$<br/>That confirms <strong>D</strong> is correct."
+      "content": "$$A_{\\text{new}} = 1.69 \\times 2400 = 4056$$<br/>That confirms <strong>D</strong> is correct."
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Convert percentage changes to multipliers",
-      "content": "When a value <strong>increases by 178%</strong>, we multiply by $1 + 1.78 = 2.78$. When it <strong>decreases by 21%</strong>, we multiply by $1 - 0.21 = 0.79$."
+      "content": "When a value <strong>increases by 165%</strong>, we multiply by $1 + 1.65 = 2.65$. When it <strong>decreases by 18%</strong>, we multiply by $1 - 0.18 = 0.82$."
     },
     {
       "title": "Calculate the net percentage increase",
-      "content": "Apply both multipliers in sequence: $$2.78 \\times 0.79 = 2.1962$$ This means the final value is $2.1962$ times the initial value. Converting to a percentage increase: $$(2.1962 - 1) \\times 100\\% = 119.62\\%$$ That confirms <strong>A</strong> is correct."
+      "content": "Apply both multipliers in sequence: $$2.65 \\times 0.82 = 2.173$$ This means the final value is $2.173$ times the initial value. Converting to a percentage increase: $$(2.173 - 1) \\times 100\\% = 117.30\\%$$ That confirms <strong>A</strong> is correct."
     }
   ]
 }

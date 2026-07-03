@@ -1,19 +1,19 @@
 {
   "questionId": "e9f4521a",
-  "correctAnswer": "52",
+  "correctAnswer": "60",
   "section": "Math",
   "steps": [
     {
       "title": "Use part over whole",
-      "content": "$13$ is the part and $25$ is the whole. Convert the fraction to a percent: $$\\frac{13}{25}\\cdot 100$$"
+      "content": "$27$ is the part and $45$ is the whole. Convert the fraction to a percent: $$\\frac{27}{45}\\cdot 100$$"
     },
     {
       "title": "Calculate p",
-      "content": "$$\\frac{13}{25}=0.52$$ $$0.52\\cdot 100=52$$ Therefore, $13$ is $52\\%$ of $25$."
+      "content": "$$\\frac{27}{45}=0.60$$ $$0.60\\cdot 100=60$$ Therefore, $27$ is $60\\%$ of $45$."
     },
     {
       "title": "Confirm the grid-in answer",
-      "content": "Since $p$ is the number in $p\\%$, enter <strong>52</strong>, not $0.52$."
+      "content": "Since $p$ is the number in $p\\%$, enter <strong>60</strong>, not $0.60$."
     }
   ]
 }

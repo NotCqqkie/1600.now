@@ -1,6 +1,6 @@
 {
   "questionId": "08b7a3f5",
-  "correctAnswer": "27",
+  "correctAnswer": "35",
   "section": "Math",
   "steps": [
     {
@@ -9,11 +9,11 @@
     },
     {
       "title": "Apply the volume formula for a triangular prism",
-      "content": "We have the formula: $$V = Bh$$ Given: $V = 216\\text{ cm}^3$ and $h = 8\\text{ cm}$. Substituting these values into the formula: $$216 = B \\cdot 8$$"
+      "content": "We have the formula: $$V = Bh$$ Given: $V = 315\\text{ cm}^3$ and $h = 9\\text{ cm}$. Substituting these values into the formula: $$315 = B \\cdot 9$$"
     },
     {
       "title": "Solve for the area of the base",
-      "content": "Divide both sides by 8 to isolate $B$: $$B = \\frac{216}{8} = 27$$ The area of the base is <strong>27 cm²</strong>."
+      "content": "Divide both sides by 9 to isolate $B$: $$B = \\frac{315}{9} = 35$$ The area of the base is <strong>35 cm^2</strong>."
     }
   ]
 }

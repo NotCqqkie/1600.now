@@ -1,5 +1,6 @@
-const DESMOS_SRC =
-  "https://www.desmos.com/api/v1.11/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6";
+const DESMOS_API_KEY =
+  import.meta.env.VITE_DESMOS_API_KEY ?? "dcb31709b452b1cf9dc26972add0fda6";
+const DESMOS_SRC = `https://www.desmos.com/api/v1.11/calculator.js?apiKey=${DESMOS_API_KEY}`;
 const DESMOS_LOAD_ERROR = "Desmos failed to load";
 
 export interface DesmosCalculator {

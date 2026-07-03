@@ -6,7 +6,6 @@ import { ChevronUp, ChevronDown } from "lucide-react";
 import { renderMixedContent } from "@/lib/text/mathRendering";
 import { normalizeExplanationData } from "@/lib/explanationApi";
 import { InlineDesmos } from "@/components/tools/InlineDesmos";
-import "katex/dist/katex.min.css";
 type ExplanationData = NonNullable<ReturnType<typeof normalizeExplanationData>>;
 type ExplanationStep = ExplanationData["steps"][number];
 

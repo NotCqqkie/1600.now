@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Turn the data into points",
-      "content": "The input $t$ is years after 2000. The two points are $(0,4)$ and $(13,1.9)$, where the output is in millions of barrels."
+      "content": "The input $t$ is years after 2000. The two points are $(0,5)$ and $(15,2.7)$, where the output is in millions of barrels."
     },
     {
       "title": "Find the rate of change",
-      "content": "The slope is $$m=\\frac{1.9-4}{13-0}=\\frac{-2.1}{13}=-\\frac{21}{130}$$ The initial value is $4$, so $$f(t)=-\\frac{21}{130}t+4$$"
+      "content": "The slope is $$m=\\frac{2.7-5}{15-0}=\\frac{-2.3}{15}=-\\frac{23}{150}$$ The initial value is $5$, so $$f(t)=-\\frac{23}{150}t+5$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "<strong>Choice C &mdash; $f(t) = -\\frac{21}{130}t + 4$</strong> has this negative rate and initial value, so <strong>C</strong> is correct."
+      "content": "<strong>Choice C &mdash; $f(t) = -\\frac{23}{150}t + 5$</strong> has this negative rate and initial value, so <strong>C</strong> is correct."
     }
   ]
 }

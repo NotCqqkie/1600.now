@@ -1,6 +1,6 @@
 {
   "questionId": "8e7689e0",
-  "correctAnswer": "4",
+  "correctAnswer": "3",
   "section": "Math",
   "steps": [
     {
@@ -9,12 +9,12 @@
     },
     {
       "title": "Apply the degree-to-radian conversion formula",
-      "content": "To convert from degrees to radians, multiply the degree measure by $\\frac{\\pi}{180}$. For a 720-degree angle:<br/>$$720^{\\circ} \\times \\frac{\\pi}{180} = \\frac{720\\pi}{180}$$",
+      "content": "To convert from degrees to radians, multiply the degree measure by $\\frac{\\pi}{180}$. For a 540-degree angle:<br/>$$540^{\\circ} \\times \\frac{\\pi}{180} = \\frac{540\\pi}{180}$$",
       "formula": "$$\\text{radians} = \\text{degrees} \\times \\frac{\\pi}{180}$$"
     },
     {
       "title": "Simplify to find a",
-      "content": "Simplify $\\frac{720\\pi}{180}$ by dividing both the numerator and denominator by 180:<br/>$$\\frac{720\\pi}{180} = \\frac{720}{180} \\times \\pi = 4\\pi$$<br/>Since the angle equals $4\\pi$ radians, the constant $a = 4$."
+      "content": "Simplify $\\frac{540\\pi}{180}$ by dividing both the numerator and denominator by 180:<br/>$$\\frac{540\\pi}{180} = \\frac{540}{180} \\times \\pi = 3\\pi$$<br/>Since the angle equals $3\\pi$ radians, the constant $a = 3$."
     }
   ]
 }

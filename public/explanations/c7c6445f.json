@@ -8,8 +8,8 @@
       "content": "When converting between units, area scales by the square of the linear conversion factor. Since 1 mile = 1,760 yards, we have:<br/>$$1 \\text{ square mile} = (1,760)^2 \\text{ square yards}$$<br/>Calculate the conversion factor:<br/>$$1,760^2 = 3,097,600 \\text{ square yards per square mile}$$"
     },
     {
-      "title": "Multiply the town's area by the conversion factor",
-      "content": "Convert 4.36 square miles to square yards:<br/>$$4.36 \\times 3,097,600 = 13,505,536 \\text{ square yards}$$<br/>That is the correct answer."
+      "title": "Multiply the township's area by the conversion factor",
+      "content": "Convert 5.12 square miles to square yards:<br/>$$5.12 \\times 3,097,600 = 15,859,712 \\text{ square yards}$$<br/>This corresponds to choice D."
     }
   ]
 }

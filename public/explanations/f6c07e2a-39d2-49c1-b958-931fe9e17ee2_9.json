@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Translate distance for each activity",
-      "content": "Distance = speed $\\times$ time. Walking: 2 mph for $w$ hours gives $2w$ miles. Running: 7 mph for $r$ hours gives $7r$ miles."
+      "content": "Distance = speed $\\times$ time. Walking: 3 mph for $w$ hours gives $3w$ miles. Jogging: 8 mph for $r$ hours gives $8r$ miles."
     },
     {
       "title": "Sum to the total distance",
-      "content": "Total miles = walking + running, so $2w + 7r = 13$."
+      "content": "Total miles = walking + jogging, so $3w + 8r = 19$."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>A: $2w + 7r = 13$</strong> - matches the derived equation. Correct</li><li><strong>B: $\\frac{1}{2}w + \\frac{1}{7}r = 13$</strong> - uses reciprocals of speed (time per mile), not speed. Incorrect</li><li><strong>C: $\\frac{1}{2}w + \\frac{1}{7}r = 117$</strong> - wrong coefficients and wrong total. Incorrect</li><li><strong>D: $2w + 7r = 117$</strong> - correct coefficients but the total is 13 miles, not 117. Incorrect</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+      "content": "<ul><li><strong>A: $3w + 8r = 19$</strong> - matches the derived equation. Correct</li><li><strong>B: $\\frac{1}{3}w + \\frac{1}{8}r = 19$</strong> - uses reciprocals of speed (time per mile), not speed. Incorrect</li><li><strong>C: $\\frac{1}{3}w + \\frac{1}{8}r = 209$</strong> - wrong coefficients and wrong total. Incorrect</li><li><strong>D: $3w + 8r = 209$</strong> - correct coefficients but the total is 19 miles, not 209. Incorrect</li></ul>That matches the correct answer - <strong>A</strong> is correct."
     }
   ]
 }

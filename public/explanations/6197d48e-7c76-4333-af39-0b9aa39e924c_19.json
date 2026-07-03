@@ -13,7 +13,7 @@
     },
     {
       "title": "Solve for BC",
-      "content": "Substitute the known values ($\\tan(B) = \\frac{1}{9}$ and $AC = 29.5$):<br/>$$\\frac{1}{9} = \\frac{29.5}{BC}$$<br/>Cross-multiply to solve for $BC$:<br/>$$BC = 29.5 \\times 9 = 265.5$$<br/>That confirms <strong>B</strong> is correct."
+      "content": "Substitute the known values ($\\tan(B) = \\frac{1}{8}$ and $AC = 31.4$):<br/>$$\\frac{1}{8} = \\frac{31.4}{BC}$$<br/>Cross-multiply to solve for $BC$:<br/>$$BC = 31.4 \\times 8 = 251.2$$<br/>That confirms <strong>B</strong> is correct."
     }
   ]
 }

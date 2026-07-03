@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $13w$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $15w$."
     },
     {
       "title": "Algebra check",
@@ -13,15 +13,15 @@
     },
     {
       "title": "Simplify inside the parentheses",
-      "content": "Combine the like terms inside the parentheses first:$$4w+3w=7w$$So the expression becomes $20w-7w$."
+      "content": "Combine the like terms inside the parentheses first:$$5w+4w=9w$$So the expression becomes $24w-9w$."
     },
     {
       "title": "Subtract the like terms",
-      "content": "Subtract:$$20w-7w=13w$$"
+      "content": "Subtract:$$24w-9w=15w$$"
     },
     {
       "title": "Compare with each choice",
-      "content": "<ul><li><strong>A) $10w$:</strong> would require $20w-10w$, but we have $20w-7w$. Eliminated.</li><li><strong>B) $13w$:</strong> equals $20w-7w$. Matches.</li><li><strong>C) $19w$:</strong> would require subtracting only $w$, not $7w$. Eliminated.</li><li><strong>D) $21w$:</strong> larger than $20w$, but subtraction makes the value smaller. Eliminated.</li></ul>That matches <strong>Choice B &mdash; $13w$</strong>."
+      "content": "<ul><li><strong>A) $12w$:</strong> would require $24w-12w$, but we have $24w-9w$. Eliminated.</li><li><strong>B) $15w$:</strong> equals $24w-9w$. Matches.</li><li><strong>C) $23w$:</strong> would require subtracting only $w$, not $9w$. Eliminated.</li><li><strong>D) $25w$:</strong> would require adding $w$ to $24w$, but the expression subtracts $9w$. Eliminated.</li></ul>That matches <strong>Choice B &mdash; $15w$</strong>."
     }
   ]
 }

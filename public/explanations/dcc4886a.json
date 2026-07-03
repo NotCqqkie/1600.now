@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Condition for infinitely many solutions",
-      "content": "A system of two linear equations has infinitely many solutions when the equations are <strong>identical</strong> &mdash; same slope and same y-intercept.<br/>Given: $y = \\dfrac{2}{7}x + 3$. The second equation $y = mx + b$ must satisfy $m = \\dfrac{2}{7}$ and $b = 3$."
+      "content": "A system of two linear equations has infinitely many solutions when the equations are <strong>identical</strong> &mdash; same slope and same y-intercept.<br/>Given: $y = \\dfrac{3}{8}x + 4$. The second equation $y = mx + b$ must satisfy $m = \\dfrac{3}{8}$ and $b = 4$."
     },
     {
       "title": "Test all four choices for b",
-      "content": "<ul><li><strong>\"$-3$\"</strong>: $b = -3$ gives $y = \\frac{2}{7}x - 3$. Different y-intercept from the first equation ($3 \\ne -3$) &mdash; parallel lines, no solutions. &#10007;</li><li><strong>\"$-\\frac{1}{3}$\"</strong>: $b = -\\frac{1}{3}$ gives $y = \\frac{2}{7}x - \\frac{1}{3}$. Different y-intercept &mdash; parallel, no solutions. &#10007;</li><li><strong>\"$\\frac{1}{3}$\"</strong>: $b = \\frac{1}{3}$ gives $y = \\frac{2}{7}x + \\frac{1}{3}$. Different y-intercept &mdash; parallel, no solutions. &#10007;</li><li><strong>\"$3$\"</strong>: $b = 3$ gives $y = \\frac{2}{7}x + 3$, identical to the first equation. Every point on the line is a solution &mdash; infinitely many solutions. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+      "content": "<ul><li><strong>\"$-4$\"</strong>: $b = -4$ gives $y = \\frac{3}{8}x - 4$. Different y-intercept from the first equation ($4 \\ne -4$) &mdash; parallel lines, no solutions. &#10007;</li><li><strong>\"$-\\frac{1}{4}$\"</strong>: $b = -\\frac{1}{4}$ gives $y = \\frac{3}{8}x - \\frac{1}{4}$. Different y-intercept &mdash; parallel, no solutions. &#10007;</li><li><strong>\"$\\frac{1}{4}$\"</strong>: $b = \\frac{1}{4}$ gives $y = \\frac{3}{8}x + \\frac{1}{4}$. Different y-intercept &mdash; parallel, no solutions. &#10007;</li><li><strong>\"$4$\"</strong>: $b = 4$ gives $y = \\frac{3}{8}x + 4$, identical to the first equation. Every point on the line is a solution &mdash; infinitely many solutions. &#10003;</li></ul>That matches the correct answer &mdash; <strong>D</strong> is correct."
     }
   ]
 }

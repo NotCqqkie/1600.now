@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Apply the simplification from the given condition",
-      "content": "Subtract $3(3x+6)$: $2(3x+6)=78$."
+      "content": "Subtract $3(4x+8)$: $3(4x+8)=84$."
     },
     {
       "title": "Compute the target value",
-      "content": "Divide by $2$: $3x+6 = 39$. That confirms <strong>B</strong> is correct."
+      "content": "Divide by $3$: $4x+8 = 28$. That confirms <strong>B</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above confirms <strong>B</strong>, 39. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above confirms <strong>B</strong>, 28. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
     }
   ]
 }

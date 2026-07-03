@@ -9,11 +9,11 @@
     },
     {
       "title": "Locate the right angle and the angle equal to $W$",
-      "content": "Check the Pythagorean theorem: $504^2+128^2=270400=520^2$, so the right angle is at $S$ and $TR$ is the hypotenuse. Since $T$ corresponds to $W$, $\\tan W=\\tan T$."
+      "content": "Check the Pythagorean theorem: $360^2+192^2=166464=408^2$, so the right angle is at $S$ and $TR$ is the hypotenuse. Since $T$ corresponds to $W$, $\\tan W=\\tan T$."
     },
     {
       "title": "Compute the tangent ratio",
-      "content": "For angle $T$, the opposite leg is $RS=504$ and the adjacent leg is $ST=128$. $$\\tan W=\\tan T=\\frac{504}{128}=\\frac{63}{16}.$$ <strong>D</strong> is correct."
+      "content": "For angle $T$, the opposite leg is $RS=360$ and the adjacent leg is $ST=192$. $$\\tan W=\\tan T=\\frac{360}{192}=\\frac{15}{8}.$$ <strong>D</strong> is correct."
     }
   ]
 }

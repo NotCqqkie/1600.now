@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Fastest path: try the choices",
-      "content": "Because the choices give possible solutions, plug them into the equation instead of solving from scratch. The only choice that satisfies the equation is <strong>B</strong>, 2."
+      "content": "Because the choices give possible solutions, plug them into the equation instead of solving from scratch. The only choice that satisfies the equation is <strong>B</strong>, 3."
     },
     {
       "title": "Isolate the square term",
-      "content": "Start with $$2x^2-4=x^2$$ Subtract $x^2$ from both sides: $$x^2-4=0$$ so $$x^2=4$$"
+      "content": "Start with $$2x^2-9=x^2$$ Subtract $x^2$ from both sides: $$x^2-9=0$$ so $$x^2=9$$"
     },
     {
       "title": "Solve for x",
-      "content": "Taking square roots gives $$x=\\pm2$$"
+      "content": "Taking square roots gives $$x=\\pm3$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "Among the choices, $2$ is a solution. <strong>B</strong> is correct."
+      "content": "Among the choices, $3$ is a solution. <strong>B</strong> is correct."
     }
   ]
 }

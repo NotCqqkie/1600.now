@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Treat $x+4$ as a single variable",
-      "content": "Let $u = x+4$. The equation becomes $5u = 4u + 39$."
+      "title": "Treat $x+5$ as a single variable",
+      "content": "Let $u = x+5$. The equation becomes $6u = 5u + 42$."
     },
     {
       "title": "Solve for $u$",
-      "content": "Subtract $4u$ from both sides: $u = 39$. Since $u = x+4$, we get $x+4 = 39$. That matches the correct answer — <strong>C</strong> is correct."
+      "content": "Subtract $5u$ from both sides: $u = 42$. Since $u = x+5$, we get $x+5 = 42$. That matches the correct answer: <strong>C</strong> is correct."
     }
   ]
 }

@@ -1,19 +1,19 @@
 {
   "questionId": "1178f2df",
-  "correctAnswer": "-2112",
+  "correctAnswer": "-1594",
   "section": "Math",
   "steps": [
     {
       "title": "Convert the table to f(x) values",
-      "content": "The table is for $y=f(x)+4$, but the question asks about the graph of $y=f(x)$. Subtract 4 from each listed $y$-value:<ul><li>$f(21)=-8-4=-12$</li><li>$f(23)=8-4=4$</li><li>$f(25)=-8-4=-12$</li></ul>"
+      "content": "The table is for $y=f(x)+4$, but the question asks about the graph of $y=f(x)$. Subtract 4 from each listed $y$-value:<ul><li>$f(18)=-6-4=-10$</li><li>$f(20)=10-4=6$</li><li>$f(22)=-6-4=-10$</li></ul>"
     },
     {
       "title": "Use symmetry to write vertex form",
-      "content": "The equal values $f(21)=f(25)=-12$ show symmetry around $x=23$, and $f(23)=4$, so the vertex is $(23,4)$. Write $f(x)=a(x-23)^2+4$."
+      "content": "The equal values $f(18)=f(22)=-10$ show symmetry around $x=20$, and $f(20)=6$, so the vertex is $(20,6)$. Write $f(x)=a(x-20)^2+6$."
     },
     {
       "title": "Find the y-intercept",
-      "content": "Use $(21,-12)$: $-12=4a+4$, so $a=-4$. Then $f(0)=-4(23)^2+4=-2112$. The answer is <strong>-2112</strong>."
+      "content": "Use $(18,-10)$: $-10=4a+6$, so $a=-4$. Then $f(0)=-4(20)^2+6=-1594$. The answer is <strong>-1594</strong>."
     }
   ]
 }

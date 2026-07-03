@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Apply the factoring from the given condition",
-      "content": "Factor $6$ on the left: ${6}(x+6)=18$."
+      "content": "Factor $8$ on the left: ${8}(x+4)=24$."
     },
     {
       "title": "Compute the target value",
-      "content": "Divide by $6$: $x+6 = 3$. That confirms <strong>A</strong> is correct."
+      "content": "Divide by $8$: $x+4 = 3$. That confirms <strong>A</strong> is correct."
     },
     {
       "title": "Confirm the answer",

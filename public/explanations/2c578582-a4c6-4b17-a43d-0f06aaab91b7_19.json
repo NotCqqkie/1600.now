@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Isolate the absolute value",
-      "content": "Divide both sides of $2|x - 5| = k$ by $2$: $$|x - 5| = \\frac{k}{2}$$ For an equation of the form $|A|=c$, the number of solutions depends on $c$: positive gives two solutions, zero gives one solution, and negative gives no solutions."
+      "content": "Divide both sides of $3|x - 7| = k$ by $3$: $$|x - 7| = \\frac{k}{3}$$ For an equation of the form $|A|=c$, the number of solutions depends on $c$: positive gives two solutions, zero gives one solution, and negative gives no solutions."
     },
     {
       "title": "Find the value that gives one solution",
-      "content": "To have exactly one solution, the right side must be $0$: $$\\frac{k}{2}=0$$ Then $|x-5|=0$, so the only solution is $x=5$."
+      "content": "To have exactly one solution, the right side must be $0$: $$\\frac{k}{3}=0$$ Then $|x-7|=0$, so the only solution is $x=7$."
     },
     {
       "title": "Match the choice",
-      "content": "The only possible value of $\\frac{k}{2}$ is $0$. The result matches."
+      "content": "The only possible value of $\\frac{k}{3}$ is $0$. The result matches."
     }
   ]
 }

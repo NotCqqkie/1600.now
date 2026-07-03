@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $\\frac{20\\pi x}{\\pi^{2}-x^{2}}$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $\\frac{18\\pi x}{\\pi^{2}-x^{2}}$."
     },
     {
       "title": "Algebra check",
@@ -13,7 +13,7 @@
     },
     {
       "title": "Simplify the expression",
-      "content": "Factor the first denominator: $\\pi^2 - x^2 = (\\pi-x)(\\pi+x)$. To match this, multiply the second fraction by $\\frac{\\pi-x}{\\pi-x}$: $$\\frac{20\\pi}{x+\\pi} = \\frac{20\\pi(\\pi-x)}{\\pi^2 - x^2}.$$ Now subtract over the common denominator: $$\\frac{20\\pi^2 - 20\\pi(\\pi - x)}{\\pi^2 - x^2} = \\frac{20\\pi x}{\\pi^2 - x^2}.$$"
+      "content": "Factor the first denominator: $\\pi^2 - x^2 = (\\pi-x)(\\pi+x)$. To match this, multiply the second fraction by $\\frac{\\pi-x}{\\pi-x}$: $$\\frac{18\\pi}{x+\\pi} = \\frac{18\\pi(\\pi-x)}{\\pi^2 - x^2}.$$ Now subtract over the common denominator: $$\\frac{18\\pi^2 - 18\\pi(\\pi - x)}{\\pi^2 - x^2} = \\frac{18\\pi x}{\\pi^2 - x^2}.$$"
     },
     {
       "title": "Match to the answer choices",

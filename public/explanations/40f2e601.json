@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Start by dividing by N",
-      "content": "Begin with $$P = N(19 - C).$$ Divide both sides by $N$ to undo the multiplication: $$\\frac{P}{N} = 19 - C.$$"
+      "content": "Begin with $$P = N(17 - C).$$ Divide both sides by $N$ to undo the multiplication: $$\\frac{P}{N} = 17 - C.$$"
     },
     {
       "title": "Solve for C",
-      "content": "Rearrange to isolate $C$. Add $C$ to both sides and subtract $\\frac{P}{N}$: $$C = 19 - \\frac{P}{N}.$$"
+      "content": "Rearrange to isolate $C$. Add $C$ to both sides and subtract $\\frac{P}{N}$: $$C = 17 - \\frac{P}{N}.$$"
     },
     {
       "title": "Compare with each choice",
-      "content": "<ul><li><strong>A.</strong> $C=\\frac{19+P}{N}$ &mdash; would require $P=NC-19$, not the given form.</li><li><strong>B.</strong> $C=\\frac{19-P}{N}$ &mdash; would require dividing 19 by $N$, but 19 was never divided.</li><li><strong>C.</strong> $C=19+\\frac{P}{N}$ &mdash; wrong sign on the fraction.</li><li><strong>D.</strong> $C=19-\\frac{P}{N}$ &mdash; matches the derivation exactly.</li></ul><strong>D</strong> is correct."
+      "content": "<ul><li><strong>A.</strong> $C=\\frac{17+P}{N}$ &mdash; would require $P=NC-17$, not the given form.</li><li><strong>B.</strong> $C=\\frac{17-P}{N}$ &mdash; would require dividing 17 by $N$, but 17 was never divided.</li><li><strong>C.</strong> $C=17+\\frac{P}{N}$ &mdash; wrong sign on the fraction.</li><li><strong>D.</strong> $C=17-\\frac{P}{N}$ &mdash; matches the derivation exactly.</li></ul><strong>D</strong> is correct."
     }
   ]
 }

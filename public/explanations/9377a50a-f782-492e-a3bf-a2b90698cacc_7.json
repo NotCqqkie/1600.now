@@ -1,19 +1,19 @@
 {
   "questionId": "9377a50a-f782-492e-a3bf-a2b90698cacc_7",
-  "correctAnswer": "14",
+  "correctAnswer": "27",
   "section": "Math",
   "steps": [
     {
       "title": "Convert the percent",
-      "content": "A percent means out of $100$, so $4\\%=\\frac{4}{100}=0.04$."
+      "content": "A percent means out of $100$, so $6\\%=\\frac{6}{100}=0.06$."
     },
     {
-      "title": "Take 4 percent of 350",
-      "content": "Multiply the total number of objects by the decimal form of the percent: $$0.04(350)=14.$$"
+      "title": "Take 6 percent of 450",
+      "content": "Multiply the total number of objects by the decimal form of the percent: $$0.06(450)=27.$$"
     },
     {
       "title": "Confirm the count",
-      "content": "The question asks for the number of spheres, and $4\\%$ of $350$ objects is $14$ objects. Therefore there are <strong>14</strong> spheres in the bag."
+      "content": "The question asks for the number of cubes, and $6\\%$ of $450$ objects is $27$ objects. Therefore there are <strong>27</strong> cubes in the box."
     }
   ]
 }

@@ -1,15 +1,15 @@
 {
   "questionId": "27590f35-8d6e-45c6-b665-222acb5e516d_15",
-  "correctAnswer": "19",
+  "correctAnswer": "17",
   "section": "Math",
   "steps": [
     {
       "title": "Set up the quadratic equation",
-      "content": "The product of $x$ and $(x-7)$ equals $228$: $$x(x-7)=228 \\implies x^2-7x-228=0.$$"
+      "content": "The product of $x$ and $(x-6)$ equals $187$: $$x(x-6)=187 \\implies x^2-6x-187=0.$$"
     },
     {
       "title": "Solve and identify x",
-      "content": "Factor: $(x-19)(x+12)=0$, giving $x=19$ or $x=-12$. Since $x$ is positive, $x=19$. The answer is <strong>19</strong>.<br/><br/>The negative root is rejected because the problem asks for a positive value, leaving the positive factor solution only."
+      "content": "Factor: $(x-17)(x+11)=0$, giving $x=17$ or $x=-11$. Since $x$ is positive, $x=17$. The answer is <strong>17</strong>.<br/><br/>The negative root is rejected because the problem asks for a positive value, leaving the positive factor solution only."
     }
   ]
 }

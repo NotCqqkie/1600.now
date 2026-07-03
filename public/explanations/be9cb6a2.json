@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Model the rental cost",
-      "content": "Renting for $x$ days costs:<ul><li>&#36;270 for the first day</li><li>&#36;135 for each additional day</li></ul>There are $x-1$ additional days, so $$y=270+135(x-1)$$"
+      "content": "Renting for $x$ days costs:<ul><li>&#36;300 for the first day</li><li>&#36;150 for each additional day</li></ul>There are $x-1$ additional days, so $$y=300+150(x-1)$$"
     },
     {
       "title": "Expand to match the answer choice format",
-      "content": "$$y=270+135x-135=135x+135$$ Check $x=1$: $135(1)+135=270$, which is the one-day cost."
+      "content": "$$y=300+150x-150=150x+150$$ Check $x=1$: $150(1)+150=300$, which is the one-day cost."
     },
     {
       "title": "Match the choice",
-      "content": "The equation $y=135x+135$ matches <strong>D</strong>."
+      "content": "The equation $y=150x+150$ matches <strong>D</strong>."
     }
   ]
 }

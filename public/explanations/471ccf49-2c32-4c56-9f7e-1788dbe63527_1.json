@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute w = 10 into the equation",
-      "content": "The equation $d = 33w + 100$ gives total savings $d$ after $w$ weeks. To find the total savings in 10 weeks, we substitute $w = 10$:<br/>$$d = 33(10) + 100$$"
+      "title": "Substitute w = 12 into the equation",
+      "content": "The equation $d = 31w + 90$ gives total savings $d$ after $w$ weeks. To find the total savings in 12 weeks, we substitute $w = 12$:<br/>$$d = 31(12) + 90$$"
     },
     {
       "title": "Calculate the result",
-      "content": "Evaluate the expression:<br/>$$d = 330 + 100 = 430$$<br/>This matches - <strong>B</strong> is correct."
+      "content": "Evaluate the expression:<br/>$$d = 372 + 90 = 462$$<br/>This matches - <strong>B</strong> is correct."
     }
   ]
 }

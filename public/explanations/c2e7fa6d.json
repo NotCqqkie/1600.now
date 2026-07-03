@@ -1,6 +1,6 @@
 {
   "questionId": "c2e7fa6d",
-  "correctAnswer": "4176",
+  "correctAnswer": "4464",
   "section": "Math",
   "steps": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "title": "Find the fraction for the larger square",
-      "content": "The larger square is $\\frac{9}{10}$ of the total area. Since flux is proportional to area (uniform field, perpendicular surface), flux through larger square $= \\frac{9}{10} \\times 4{,}640 = 4{,}176$ volts·meters. That matches the answer — <strong>4176</strong> is correct."
+      "content": "The larger square is $\\frac{9}{10}$ of the total area. Since flux is proportional to area (uniform field, perpendicular surface), flux through larger square $= \\frac{9}{10} \\times 4{,}960 = 4{,}464$ volts·meters. That matches the answer — <strong>4464</strong> is correct."
     }
   ]
 }

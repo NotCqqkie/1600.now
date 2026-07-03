@@ -4,7 +4,7 @@
   "steps": [
     {
       "title": "Step 1",
-      "content": "A margin of error applied to a sample mean produces a confidence interval. With mean $20.5$ and margin of error $1$: lower bound $= 20.5 - 1 = 19.5$, upper bound $= 20.5 + 1 = 21.5$. The interval is $[19.5, 21.5]$."
+      "content": "A margin of error applied to a sample mean produces a confidence interval. With mean $23.4$ and margin of error $1.3$: lower bound $= 23.4 - 1.3 = 22.1$, upper bound $= 23.4 + 1.3 = 24.7$. The interval is $[22.1, 24.7]$."
     },
     {
       "title": "Step 2",
@@ -12,7 +12,7 @@
     },
     {
       "title": "Step 3",
-      "content": "The interval describes the <em>mean</em> of the population, not the range of every individual data value in the population."
+      "content": "The interval describes the <em>mean</em> of the population, not the range of every individual data value in the population. Therefore, <strong>Choice A</strong> is correct."
     }
   ],
   "correctAnswer": "A"

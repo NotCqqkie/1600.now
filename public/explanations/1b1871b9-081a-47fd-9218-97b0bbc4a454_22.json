@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Evaluate f at x equals 0",
-      "content": "Substitute $x = 0$ into the function $f(x) = a(4)^x$:\n$$f(0) = a(4)^0 = a \\cdot 1 = a$$\nSo the function value at $x = 0$ is the constant $a$."
+      "content": "Substitute $x = 0$ into the function $f(x) = a(5)^x$:\n$$f(0) = a(5)^0 = a \\cdot 1 = a$$\nSo the function value at $x = 0$ is the constant $a$."
     },
     {
       "title": "Use the point on the graph to find f(0)",
-      "content": "The graph passes through $(0, 13)$, meaning when $x = 0$, the value is $y = 13$. Since $y = f(x)$, we have:\n$$f(0) = 13$$\nThat matches <strong>Choice C &mdash; 13</strong>."
+      "content": "The graph passes through $(0, 14)$, meaning when $x = 0$, the value is $y = 14$. Since $y = f(x)$, we have:\n$$f(0) = 14$$\nThat matches <strong>Choice C &mdash; 14</strong>."
     }
   ]
 }

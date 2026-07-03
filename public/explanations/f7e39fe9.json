@@ -1,15 +1,15 @@
 {
   "questionId": "f7e39fe9",
-  "correctAnswer": "11",
+  "correctAnswer": "9",
   "section": "Math",
   "steps": [
     {
       "title": "Use one table row in the given model",
-      "content": "The problem already tells you the linear relationship has the form $f(x)=mx-28$. Use a table row, such as $x=10$ and $f(x)=82$."
+      "content": "The problem already tells you the linear relationship has the form $f(x)=mx-24$. Use a table row, such as $x=8$ and $f(x)=48$."
     },
     {
       "title": "Solve for the coefficient",
-      "content": "Substitute the row into the equation: $$82=10m-28.$$ Add $28$ to both sides: $$110=10m.$$ Divide by $10$: $$m=11.$$ The correct free-response answer is <strong>11</strong>."
+      "content": "Substitute the row into the equation: $$48=8m-24.$$ Add $24$ to both sides: $$72=8m.$$ Divide by $8$: $$m=9.$$ The correct free-response answer is <strong>9</strong>."
     }
   ]
 }

@@ -9,11 +9,11 @@
     },
     {
       "title": "Complete the square for both variables",
-      "content": "<strong>For $x^2 + 20x$:</strong> Take half of 20 to get 10, then square: $10^2 = 100$. Thus $x^2 + 20x = (x + 10)^2 - 100$.<br/><br/><strong>For $y^2 + 16y$:</strong> Take half of 16 to get 8, then square: $8^2 = 64$. Thus $y^2 + 16y = (y + 8)^2 - 64$."
+      "content": "<strong>For $x^2 + 18x$:</strong> Take half of 18 to get 9, then square: $9^2 = 81$. Thus $x^2 + 18x = (x + 9)^2 - 81$.<br/><br/><strong>For $y^2 + 12y$:</strong> Take half of 12 to get 6, then square: $6^2 = 36$. Thus $y^2 + 12y = (y + 6)^2 - 36$."
     },
     {
       "title": "Substitute and find the center in standard form",
-      "content": "Substitute the completed squares into the original equation:<br/>$$(x + 10)^2 - 100 + (y + 8)^2 - 64 = -20$$<br/>Combine constants on the right:<br/>$$(x + 10)^2 + (y + 8)^2 = -20 + 100 + 64 = 144$$<br/>The standard form $(x - h)^2 + (y - k)^2 = r^2$ has center $(h, k)$. Since $(x + 10)^2 = (x - (-10))^2$ and $(y + 8)^2 = (y - (-8))^2$, the center is $(-10, -8)$. That matches <strong>Choice B &mdash; $(-10,-8)$</strong>."
+      "content": "Substitute the completed squares into the original equation:<br/>$$(x + 9)^2 - 81 + (y + 6)^2 - 36 = -36$$<br/>Combine constants on the right:<br/>$$(x + 9)^2 + (y + 6)^2 = -36 + 81 + 36 = 81$$<br/>The standard form $(x - h)^2 + (y - k)^2 = r^2$ has center $(h, k)$. Since $(x + 9)^2 = (x - (-9))^2$ and $(y + 6)^2 = (y - (-6))^2$, the center is $(-9, -6)$. That matches <strong>Choice B &mdash; $(-9,-6)$</strong>."
     }
   ]
 }

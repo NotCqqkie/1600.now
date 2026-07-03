@@ -1,3 +1,4 @@
+import { createHash } from "node:crypto";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -8,7 +9,11 @@ const sourceFiles = [
   "src/data/unofficialQuestionImageMap.ts",
 ];
 const outputPath = path.join(root, "src/data/questionImageSizing.generated.ts");
+const generatedImageDir = path.join(root, "public/generated/sat-images");
+const generatedImageBase = "/generated/sat-images/";
 const imageBase = "/images/SAT-Style%20Questions/";
+const maxOptimizedWidth = 1600;
+const maxOptimizedHeight = 1280;
 const sizeRank = {
   compact: 0,
   standard: 1,
@@ -17,6 +22,13 @@ const sizeRank = {
   tall: 4,
   xlarge: 5,
 };
+
+let sharp = null;
+try {
+  sharp = (await import("sharp")).default;
+} catch {
+  sharp = null;
+}
 
 const findObjectLiteral = (text) => {
   const exportIndex = text.indexOf("export const questionImageMap");
@@ -46,12 +58,14 @@ const toLocalPath = (src) => {
 const collectRefs = () => {
   const refs = [];
   for (const sourceFile of sourceFiles) {
+    const source = sourceFile.includes("unofficial") ? "unofficial" : "official";
     const imageMap = readImageMap(sourceFile);
     for (const [questionId, entry] of Object.entries(imageMap)) {
       for (const image of entry.questionImages ?? []) {
         refs.push({
           questionId,
           kind: "question",
+          source,
           src: toCanonicalSrc(image.src),
           alt: image.alt ?? "",
         });
@@ -61,6 +75,7 @@ const collectRefs = () => {
           questionId,
           choiceId,
           kind: "choice",
+          source,
           src: toCanonicalSrc(src),
           alt: "",
         });
@@ -133,14 +148,19 @@ const readWebpDimensions = (buffer) => {
   return { width: 0, height: 0 };
 };
 
-const readDimensions = (filePath) => {
-  const buffer = fs.readFileSync(filePath);
+const readDimensions = (filePath, buffer) => {
   const extension = path.extname(filePath).toLowerCase();
   if (extension === ".png") return readPngDimensions(buffer);
   if (extension === ".jpg" || extension === ".jpeg") return readJpegDimensions(buffer);
   if (extension === ".svg") return readSvgDimensions(buffer);
   if (extension === ".webp") return readWebpDimensions(buffer);
   return { width: 0, height: 0 };
+};
+
+const readPngHasAlpha = (buffer) => {
+  if (buffer.length < 26 || buffer.toString("ascii", 1, 4) !== "PNG") return false;
+  const colorType = buffer[25];
+  return colorType === 4 || colorType === 6;
 };
 
 const atLeast = (size, minimum) =>
@@ -203,30 +223,133 @@ const mergeSize = (current, next) => {
   return sizeRank[next] > sizeRank[current] ? next : current;
 };
 
+const escapeTsString = (value) => JSON.stringify(value);
+
+const getImageSizes = (displaySize, kind) => {
+  if (kind === "choice") {
+    if (displaySize === "compact") return "(max-width: 640px) 50vw, 180px";
+    if (displaySize === "wide") return "(max-width: 640px) 100vw, 420px";
+    return "(max-width: 640px) 100vw, 520px";
+  }
+  if (displaySize === "compact") return "(max-width: 640px) 100vw, 340px";
+  if (displaySize === "wide") return "(max-width: 900px) 100vw, 720px";
+  if (displaySize === "xlarge") return "(max-width: 1000px) 100vw, 940px";
+  return "(max-width: 800px) 100vw, 680px";
+};
+
+const getHasTransparentPixel = async (filePath, fallbackHasAlpha) => {
+  if (!sharp || !fallbackHasAlpha) return fallbackHasAlpha;
+  try {
+    const stats = await sharp(filePath, { limitInputPixels: false }).ensureAlpha().stats();
+    return (stats.channels[3]?.min ?? 255) < 255;
+  } catch {
+    return fallbackHasAlpha;
+  }
+};
+
+const createOptimizedVariant = async ({ filePath, src, buffer, hasTransparentPixel, shouldTrim }) => {
+  if (!sharp || path.extname(filePath).toLowerCase() === ".svg") return null;
+
+  const basename = path.basename(decodeURIComponent(src), path.extname(src));
+  const hash = createHash("sha1").update(buffer).digest("hex").slice(0, 10);
+  const extension = hasTransparentPixel ? "png" : "webp";
+  const outputName = `${basename}-${hash}.${extension}`;
+  const outputPath = path.join(generatedImageDir, outputName);
+  const outputSrc = `${generatedImageBase}${encodeURIComponent(outputName)}`;
+
+  let pipeline = sharp(filePath, { limitInputPixels: false }).rotate();
+  if (shouldTrim) {
+    pipeline = pipeline.trim({ threshold: 10 });
+  }
+  pipeline = pipeline.resize({
+    width: maxOptimizedWidth,
+    height: maxOptimizedHeight,
+    fit: "inside",
+    withoutEnlargement: true,
+  });
+
+  if (hasTransparentPixel) {
+    pipeline = pipeline.png({ compressionLevel: 9, palette: true });
+  } else {
+    pipeline = pipeline.flatten({ background: "#fff" }).webp({ quality: 92, effort: 4 });
+  }
+
+  const info = await pipeline.toFile(outputPath);
+  return {
+    src: outputSrc,
+    width: info.width,
+    height: info.height,
+    type: hasTransparentPixel ? "image/png" : "image/webp",
+  };
+};
+
 const refs = collectRefs();
+const refsBySrc = new Map();
+for (const ref of refs) {
+  const current = refsBySrc.get(ref.src);
+  if (!current) {
+    refsBySrc.set(ref.src, { ...ref, refs: [ref] });
+    continue;
+  }
+  current.refs.push(ref);
+  current.kind = current.kind === "choice" || ref.kind === "choice" ? "choice" : current.kind;
+  current.source = current.source === "unofficial" || ref.source === "unofficial" ? "unofficial" : current.source;
+  current.alt = current.alt || ref.alt;
+}
+
+fs.rmSync(generatedImageDir, { recursive: true, force: true });
+fs.mkdirSync(generatedImageDir, { recursive: true });
+
 const sizesBySrc = new Map();
 const dimensionsBySrc = new Map();
+const metadataBySrc = new Map();
 const counts = { compact: 0, standard: 0, wide: 0, large: 0, tall: 0, xlarge: 0 };
+let optimizedCount = 0;
 
-for (const ref of refs) {
+for (const ref of refsBySrc.values()) {
   const filePath = toLocalPath(ref.src);
   if (!fs.existsSync(filePath)) {
     throw new Error(`Missing image asset: ${ref.src}`);
   }
+  const buffer = fs.readFileSync(filePath);
   const stats = fs.statSync(filePath);
-  const { width, height } = readDimensions(filePath);
+  const { width, height } = readDimensions(filePath, buffer);
   const area = width * height;
   const bytesPerPixel = area ? stats.size / area : 0;
-  if (!dimensionsBySrc.has(ref.src)) {
-    dimensionsBySrc.set(ref.src, { width, height });
-  }
   const size = classify(ref, {
     width,
     height,
     bytesPerPixel,
     alt: ref.alt,
   });
+  const hasTransparentPixel = await getHasTransparentPixel(filePath, readPngHasAlpha(buffer));
+  const shouldTrim = ref.kind === "choice" || ref.source === "unofficial";
+  const variant = await createOptimizedVariant({
+    filePath,
+    src: ref.src,
+    buffer,
+    hasTransparentPixel,
+    shouldTrim,
+  });
+
   sizesBySrc.set(ref.src, mergeSize(sizesBySrc.get(ref.src), size));
+  if (!dimensionsBySrc.has(ref.src)) {
+    dimensionsBySrc.set(ref.src, { width, height });
+  }
+  if (variant) optimizedCount += 1;
+  metadataBySrc.set(ref.src, {
+    width,
+    height,
+    bytes: stats.size,
+    displaySize: size,
+    hasTransparentPixel,
+    optimizedSrc: variant?.src,
+    optimizedWidth: variant?.width,
+    optimizedHeight: variant?.height,
+    optimizedType: variant?.type,
+    srcSet: variant ? `${variant.src} ${variant.width}w` : undefined,
+    sizes: getImageSizes(size, ref.kind),
+  });
 }
 
 for (const size of sizesBySrc.values()) {
@@ -236,14 +359,34 @@ for (const size of sizesBySrc.values()) {
 const entries = [...sizesBySrc.entries()]
   .filter(([, size]) => size !== "standard")
   .sort(([left], [right]) => left.localeCompare(right))
-  .map(([src, size]) => `  ${JSON.stringify(src)}: ${JSON.stringify(size)},`);
+  .map(([src, size]) => `  ${escapeTsString(src)}: ${escapeTsString(size)},`);
 
 const dimensionEntries = [...dimensionsBySrc.entries()]
   .filter(([, dimensions]) => dimensions.width > 0 && dimensions.height > 0)
   .sort(([left], [right]) => left.localeCompare(right))
   .map(([src, dimensions]) => (
-    `  ${JSON.stringify(src)}: { width: ${dimensions.width}, height: ${dimensions.height} },`
+    `  ${escapeTsString(src)}: { width: ${dimensions.width}, height: ${dimensions.height} },`
   ));
+
+const metadataEntries = [...metadataBySrc.entries()]
+  .filter(([, metadata]) => metadata.width > 0 && metadata.height > 0)
+  .sort(([left], [right]) => left.localeCompare(right))
+  .map(([src, metadata]) => {
+    const fields = [
+      `width: ${metadata.width}`,
+      `height: ${metadata.height}`,
+      `bytes: ${metadata.bytes}`,
+      `displaySize: ${escapeTsString(metadata.displaySize)}`,
+      `hasTransparentPixel: ${metadata.hasTransparentPixel}`,
+    ];
+    if (metadata.optimizedSrc) fields.push(`optimizedSrc: ${escapeTsString(metadata.optimizedSrc)}`);
+    if (metadata.optimizedWidth) fields.push(`optimizedWidth: ${metadata.optimizedWidth}`);
+    if (metadata.optimizedHeight) fields.push(`optimizedHeight: ${metadata.optimizedHeight}`);
+    if (metadata.optimizedType) fields.push(`optimizedType: ${escapeTsString(metadata.optimizedType)}`);
+    if (metadata.srcSet) fields.push(`srcSet: ${escapeTsString(metadata.srcSet)}`);
+    if (metadata.sizes) fields.push(`sizes: ${escapeTsString(metadata.sizes)}`);
+    return `  ${escapeTsString(src)}: { ${fields.join(", ")} },`;
+  });
 
 const output = [
   'export type QuestionImageDisplaySize = "compact" | "standard" | "wide" | "large" | "tall" | "xlarge";',
@@ -251,6 +394,18 @@ const output = [
   "export interface QuestionImageDimensions {",
   "  width: number;",
   "  height: number;",
+  "}",
+  "",
+  "export interface QuestionImageAssetMetadata extends QuestionImageDimensions {",
+  "  bytes: number;",
+  "  displaySize: QuestionImageDisplaySize;",
+  "  hasTransparentPixel: boolean;",
+  "  optimizedSrc?: string;",
+  "  optimizedWidth?: number;",
+  "  optimizedHeight?: number;",
+  "  optimizedType?: string;",
+  "  srcSet?: string;",
+  "  sizes?: string;",
   "}",
   "",
   "export const questionImageDisplaySizeBySrc: Record<string, QuestionImageDisplaySize> = {",
@@ -261,10 +416,15 @@ const output = [
   ...dimensionEntries,
   "};",
   "",
+  "export const questionImageAssetMetadataBySrc: Record<string, QuestionImageAssetMetadata> = {",
+  ...metadataEntries,
+  "};",
+  "",
 ].join("\n");
 
 fs.writeFileSync(outputPath, output);
 console.log(`Wrote ${path.relative(root, outputPath)}`);
+console.log(`Wrote ${optimizedCount} optimized images to ${path.relative(root, generatedImageDir)}`);
 console.log(
   Object.entries(counts)
     .map(([size, count]) => `${size}:${count}`)

@@ -9,7 +9,7 @@
     },
     {
       "title": "Test <strong>Choice B &mdash; 32</strong>",
-      "content": "Backsolving — testing <strong>Choice B &mdash; 32</strong> (32):<br/>$$t = 1000 + 18 \\times 32 = 1000 + 576 = 1576$$<br/>This equals the given total pay of &#36;1576, so <strong>Choice B &mdash; 32</strong> satisfies the equation.<br/>That matches <strong>Choice B &mdash; 32</strong>."
+      "content": "Backsolving — testing <strong>Choice B &mdash; 32</strong> (32):<br/>$$T = 990 + 22 \\times 32 = 990 + 704 = 1694$$<br/>This equals the given total pay of &#36;1694, so <strong>Choice B &mdash; 32</strong> satisfies the equation.<br/>That matches <strong>Choice B &mdash; 32</strong>."
     }
   ]
 }

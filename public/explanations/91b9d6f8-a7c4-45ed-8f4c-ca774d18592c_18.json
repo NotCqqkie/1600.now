@@ -1,19 +1,19 @@
 {
   "questionId": "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_18",
-  "correctAnswer": "-117",
+  "correctAnswer": "-51",
   "section": "Math",
   "steps": [
     {
       "title": "Apply the vertical translation rule",
-      "content": "Translating a graph up $k$ units transforms the function by adding $k$ to its value. Since the graph of $y = g(x)$ is the result of translating $y = f(x)$ up 3 units, we have:<br/>$$g(x) = f(x) + 3$$<br/>To find $g(0)$, we need:<br/>$$g(0) = f(0) + 3$$"
+      "content": "Translating a graph up $k$ units transforms the function by adding $k$ to its value. Since the graph of $y = g(x)$ is the result of translating $y = f(x)$ up 5 units, we have:<br/>$$g(x) = f(x) + 5$$<br/>To find $g(0)$, we need:<br/>$$g(0) = f(0) + 5$$"
     },
     {
       "title": "Evaluate f(0) by substitution",
-      "content": "Substitute $x = 0$ into $f(x) = (x - 8)(x - 5)(x - 3)$:<br/>$$f(0) = (0 - 8)(0 - 5)(0 - 3) = (-8)(-5)(-3)$$"
+      "content": "Substitute $x = 0$ into $f(x) = (x - 7)(x - 4)(x - 2)$:<br/>$$f(0) = (0 - 7)(0 - 4)(0 - 2) = (-7)(-4)(-2)$$"
     },
     {
       "title": "Calculate the product and find g(0)",
-      "content": "Multiply the factors step by step:<br/>$$(-8)(-5) = 40$$<br/>$$40 \\cdot (-3) = -120$$<br/>So $f(0) = -120$. Therefore:<br/>$$g(0) = f(0) + 3 = -120 + 3 = -117$$"
+      "content": "Multiply the factors step by step:<br/>$$(-7)(-4) = 28$$<br/>$$28 \\cdot (-2) = -56$$<br/>So $f(0) = -56$. Therefore:<br/>$$g(0) = f(0) + 5 = -56 + 5 = -51$$"
     }
   ]
 }

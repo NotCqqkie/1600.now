@@ -1,19 +1,19 @@
 {
   "questionId": "a4f61d75",
-  "correctAnswer": "7,8,13",
+  "correctAnswer": "9,11,19",
   "section": "Math",
   "steps": [
     {
       "title": "Use Vieta's formulas",
-      "content": "For a quadratic $$x^2 + bx + c = 0$$, Vieta’s formulas give the sum of the roots $$=-\\frac{b}{a}$$ and the product $$=\\frac{c}{a}$$ (where the leading coefficient is 1 here).<br/>In $$x^2 - a x + 12 = 0$$ we have $$b = -a$$ and $$c = 12$$.<br/>Therefore<br/>$$\\text{sum of roots}= -\\frac{-a}{1}=a$$<br/>$$\\text{product of roots}= \\frac{12}{1}=12$$"
+      "content": "For a quadratic $$x^2 + bx + c = 0$$, Vieta's formulas give the sum of the roots $$=-\\frac{b}{a}$$ and the product $$=\\frac{c}{a}$$ (where the leading coefficient is 1 here).<br/>In $$x^2 - a x + 18 = 0$$ we have $$b = -a$$ and $$c = 18$$.<br/>Therefore<br/>$$\\text{sum of roots}= -\\frac{-a}{1}=a$$<br/>$$\\text{product of roots}= \\frac{18}{1}=18$$"
     },
     {
-      "title": "Find integer factor pairs of 12",
-      "content": "Since the roots are integers and their product is 12, we look for integer factor pairs of 12.<br/>Both roots must be either both positive or both negative to give a positive product.<br/>Because the sum equals $$a\\gt0$$, the roots cannot both be negative (that would give a negative sum).<br/>Thus we only consider positive pairs:<ul><li>$$1\\times12=12$$ → sum $$1+12=13$$</li><li>$$2\\times6=12$$ → sum $$2+6=8$$</li><li>$$3\\times4=12$$ → sum $$3+4=7$$</li></ul>Hence the possible values of $$a$$ (the sum) are 13, 8, and 7."
+      "title": "Find integer factor pairs of 18",
+      "content": "Since the roots are integers and their product is 18, we look for integer factor pairs of 18.<br/>Both roots must be either both positive or both negative to give a positive product.<br/>Because the sum equals $$a\\gt0$$, the roots cannot both be negative (that would give a negative sum).<br/>Thus we only consider positive pairs:<ul><li>$$1\\times18=18$$ -> sum $$1+18=19$$</li><li>$$2\\times9=18$$ -> sum $$2+9=11$$</li><li>$$3\\times6=18$$ -> sum $$3+6=9$$</li></ul>Hence the possible values of $$a$$ (the sum) are 19, 11, and 9."
     },
     {
       "title": "Select a possible value",
-      "content": "Choosing one of these, take $$a=8$$ (it satisfies all conditions).<br/>The answer is <strong>8</strong>.<br/><br/>Equivalent forms accepted: <strong>7</strong>, <strong>8</strong>, or <strong>13</strong>."
+      "content": "Choosing one of these, take $$a=11$$ (it satisfies all conditions).<br/>The answer is <strong>11</strong>.<br/><br/>Equivalent forms accepted: <strong>9</strong>, <strong>11</strong>, or <strong>19</strong>."
     }
   ]
 }

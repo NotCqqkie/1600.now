@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Use the axis of symmetry",
-      "content": "The maximum height occurs at $t=3$, so the parabola's axis of symmetry is $t=3$."
+      "content": "The maximum height occurs at $t=4$, so the parabola's axis of symmetry is $t=4$."
     },
     {
       "title": "Reflect the launch time",
-      "content": "The object has height $7$ at $t=0$. The matching time with the same height is the same distance on the other side of $t=3$: $$3+(3-0)=6.$$ That matches <strong>Choice B &mdash; $6$</strong>."
+      "content": "The object has height $9$ at $t=0$. The matching time with the same height is the same distance on the other side of $t=4$: $$4+(4-0)=8.$$ That matches <strong>Choice B &mdash; $8$</strong>."
     }
   ]
 }

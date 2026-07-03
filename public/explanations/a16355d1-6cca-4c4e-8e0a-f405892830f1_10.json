@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set the equations equal",
-      "content": "To find the intersection, set the two expressions for y equal: $$5x+8 = 6x-2$$.<br/>Subtract $5x$ from both sides: $$8 = x-2$$.<br/>Add 2 to both sides: $$x = 10$$."
+      "content": "To find the intersection, set the two expressions for y equal: $$4x+7 = 5x-3$$.<br/>Subtract $4x$ from both sides: $$7 = x-3$$.<br/>Add 3 to both sides: $$x = 10$$."
     },
     {
-      "title": "Find the y‑coordinate",
-      "content": "Substitute $x=10$ into either original equation; using $y=5x+8$ gives $$y = 5(10)+8 = 50+8 = 58$$.<br/>Thus the intersection point is $(10,58)$.<br/>That confirms <strong>C</strong> is correct."
+      "title": "Find the y-coordinate",
+      "content": "Substitute $x=10$ into either original equation; using $y=4x+7$ gives $$y = 4(10)+7 = 40+7 = 47$$.<br/>Thus the intersection point is $(10,47)$.<br/>That confirms <strong>C</strong> is correct."
     }
   ]
 }

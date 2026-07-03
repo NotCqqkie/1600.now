@@ -1,6 +1,6 @@
 {
   "questionId": "0f9f8ea7",
-  "correctAnswer": "3600",
+  "correctAnswer": "4200",
   "section": "Math",
   "steps": [
     {
@@ -9,11 +9,11 @@
     },
     {
       "title": "Substitute x = 0 into the equation",
-      "content": "When $x=0$, the model gives $$y=3600(a)^0.$$ By the zero exponent rule, $a^0=1$ for any nonzero base $a$. Therefore $$y=3600\\cdot1=3600.$$ The predicted initial number of bacteria was <strong>3600</strong>."
+      "content": "When $x=0$, the model gives $$y=4200(a)^0.$$ By the zero exponent rule, $a^0=1$ for any nonzero base $a$. Therefore $$y=4200\\cdot1=4200.$$ The predicted initial number of yeast cells was <strong>4200</strong>."
     },
     {
       "title": "Confirm the answer",
-      "content": "No graph is needed here: for an exponential model, the initial value is the value at $x=0$. That value is the coefficient $3600$, so the answer is <strong>3600</strong>."
+      "content": "No graph is needed here: for an exponential model, the initial value is the value at $x=0$. That value is the coefficient $4200$, so the answer is <strong>4200</strong>."
     }
   ]
 }

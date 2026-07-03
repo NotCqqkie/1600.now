@@ -1,15 +1,15 @@
 {
   "questionId": "3c4ce699",
-  "correctAnswer": "27",
+  "correctAnswer": "44",
   "section": "Math",
   "steps": [
     {
       "title": "Match the target expression",
-      "content": "You do not need to solve for $x$. The expression being asked for is $18+3x$, and that factors as $$18+3x=3(6+x).$$"
+      "content": "You do not need to solve for $x$. The expression being asked for is $28+4x$, and that factors as $$28+4x=4(7+x).$$"
     },
     {
       "title": "Use the given value",
-      "content": "Since $6+x=9$, substitute directly into the factored expression: $$18+3x=3(6+x)=3(9)=27.$$ The answer is <strong>27</strong>. Solving for $x$ first also works, but factoring the target is faster."
+      "content": "Since $7+x=11$, substitute directly into the factored expression: $$28+4x=4(7+x)=4(11)=44.$$ The answer is <strong>44</strong>. Solving for $x$ first also works, but factoring the target is faster."
     }
   ]
 }

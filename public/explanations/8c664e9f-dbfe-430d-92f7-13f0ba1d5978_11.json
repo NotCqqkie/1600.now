@@ -13,11 +13,11 @@
     },
     {
       "title": "Substitute the given side length",
-      "content": "The sail&#39;s side length is $8.75w$ meters, so $A = (8.75w)(8.75w)$."
+      "content": "The panel&#39;s side length is $7.25w$ meters, so $A = (7.25w)(7.25w)$."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li>Choice A ($A=(w+8.75)(w+8.75)$): adds the numbers instead of multiplying; the side is $8.75w$, not $w+8.75$.</li><li>Choice B ($A=(4)(8.75w)$): that is a perimeter expression ($4s$), not an area.</li><li>Choice C ($A=(8.75w)(8.75w)$): correctly squares the side length $8.75w$.</li><li>Choice D ($A=(8.75/w)(8.75/w)$): divides instead of multiplies, so the units and value are wrong.</li></ul>That confirms <strong>C</strong> is correct."
+      "content": "<ul><li>Choice A ($A=(w+7.25)(w+7.25)$): adds the numbers instead of multiplying; the side is $7.25w$, not $w+7.25$.</li><li>Choice B ($A=(4)(7.25w)$): that is a perimeter expression ($4s$), not an area.</li><li>Choice C ($A=(7.25w)(7.25w)$): correctly squares the side length $7.25w$.</li><li>Choice D ($A=(7.25/w)(7.25/w)$): divides instead of multiplies, so the units and value are wrong.</li></ul>That confirms <strong>C</strong> is correct."
     }
   ]
 }

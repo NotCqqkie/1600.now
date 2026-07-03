@@ -9,11 +9,11 @@
     },
     {
       "title": "Solve each factor for x",
-      "content": "Setting each of the three factors equal to zero:<br/>$$x + 4 = 0 \\quad \\Rightarrow \\quad x = -4$$<br/>$$x - 1 = 0 \\quad \\Rightarrow \\quad x = 1$$<br/>$$2x - 3 = 0 \\quad \\Rightarrow \\quad x = \\tfrac{3}{2}$$<br/>The x-intercepts are $(-4, 0)$, $(1, 0)$, and $\\left(\\tfrac{3}{2}, 0\\right)$."
+      "content": "Setting each of the three factors equal to zero:<br/>$$x + 5 = 0 \\quad \\Rightarrow \\quad x = -5$$<br/>$$x - 2 = 0 \\quad \\Rightarrow \\quad x = 2$$<br/>$$3x - 4 = 0 \\quad \\Rightarrow \\quad x = \\tfrac{4}{3}$$<br/>The x-intercepts are $(-5, 0)$, $(2, 0)$, and $\\left(\\tfrac{4}{3}, 0\\right)$."
     },
     {
       "title": "Identify the choice that is NOT an x-intercept",
-      "content": "Comparing our three zeros with the answer choices: the remaining alternative gives $\\left(-\\tfrac{2}{3}, 0\\right)$. This value does not match any of our zeros ($-4$, $1$, or $\\tfrac{3}{2}$), so it is not an x-intercept. That matches the correct answer — <strong>B</strong> is correct."
+      "content": "Comparing our three zeros with the answer choices: the remaining alternative gives $\\left(-\\tfrac{3}{4}, 0\\right)$. This value does not match any of our zeros ($-5$, $2$, or $\\tfrac{4}{3}$), so it is not an x-intercept. That matches the correct answer &mdash; <strong>B</strong> is correct."
     }
   ]
 }

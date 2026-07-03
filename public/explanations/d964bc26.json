@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Isolate $y$",
-      "content": "The equation is $$y-57=px.$$ Add $57$ to both sides to undo the subtraction."
+      "content": "The equation is $$y-62=px.$$ Add $62$ to both sides to undo the subtraction."
     },
     {
       "title": "Write the result",
-      "content": "$$y=px+57.$$"
+      "content": "$$y=px+62.$$"
     },
     {
       "title": "Check the choices",
-      "content": "$y=px+57$ is correct. $y=57x+p$ attaches $57$ to $x$ incorrectly, while the multiplication and division alternatives use $57$ incorrectly because the original equation subtracts $57$."
+      "content": "$y=px+62$ is correct, which is <strong>Choice B</strong>. $y=62x+p$ attaches $62$ to $x$ incorrectly, while the multiplication and division alternatives use $62$ incorrectly because the original equation subtracts $62$."
     }
   ]
 }

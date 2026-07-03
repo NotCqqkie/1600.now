@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Apply the given relationship by substitution",
-      "content": "We're given $t = 4u$ and need to find what $2t$ equals. Substitute the relationship directly into the expression:<br/>$$2t = 2(4u)$$"
+      "content": "We're given $v = 6w$ and need to find what $3v$ equals. Substitute the relationship directly into the expression:<br/>$$3v = 3(6w)$$"
     },
     {
       "title": "Multiply to get the answer",
-      "content": "Multiply the coefficient 2 by the expression in parentheses:<br/>$$2(4u) = 8u$$<br/>This confirms <strong>A</strong> is correct."
+      "content": "Multiply the coefficient 3 by the expression in parentheses:<br/>$$3(6w) = 18w$$<br/>This confirms <strong>A</strong> is correct."
     }
   ]
 }

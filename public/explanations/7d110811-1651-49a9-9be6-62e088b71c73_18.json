@@ -8,18 +8,18 @@
     },
     {
       "title": "Step 1",
-      "content": "Let the width be $w$ cm. The problem states the length is 41 cm greater than the width, so length $= w + 41$."
+      "content": "Let the width be $w$ cm. The problem states the length is 38 cm greater than the width, so length $= w + 38$."
     },
     {
       "title": "Step 2",
-      "content": "Area of a rectangle $= \\text{length} \\times \\text{width} = (w)(w + 41)$."
+      "content": "Area of a rectangle $= \\text{length} \\times \\text{width} = (w)(w + 38)$."
     },
     {
       "title": "Step 3",
-      "content": "Check each choice against $A = w(w+41)$."
+      "content": "Check each choice against $A = w(w+38)$."
     }
   ],
-  "explanation": "<ul><li><strong>Choice A &mdash; &lsquo;$A=(w)\\left(\\frac{w}{41}\\right)$&rsquo;</strong>: This makes length $= w/41$, a fraction of the width - the opposite relationship from what is stated. Incorrect</li><li><strong>Choice B &mdash; &lsquo;$A=(w)(41w)$&rsquo;</strong>: This makes length $= 41w$, meaning 41 times the width, not 41 more than the width. Incorrect</li><li><strong>Choice C &mdash; &lsquo;$A=(w)(w+41)$&rsquo;</strong>: Length $= w + 41$ (41 greater than the width); area $= w(w+41)$. This matches exactly. Correct</li><li><strong>Choice D &mdash; &lsquo;$A=w^2$&rsquo;</strong>: This requires length $= w$, i.e., a square. But the paving stone is not a square - the length exceeds the width by 41 cm. Incorrect</li></ul>That confirms <strong>C</strong> is correct.",
+  "explanation": "<ul><li><strong>Choice A &mdash; &lsquo;$A=(w)\\left(\\frac{w}{38}\\right)$&rsquo;</strong>: This makes length $= w/38$, a fraction of the width - the opposite relationship from what is stated. Incorrect</li><li><strong>Choice B &mdash; &lsquo;$A=(w)(38w)$&rsquo;</strong>: This makes length $= 38w$, meaning 38 times the width, not 38 more than the width. Incorrect</li><li><strong>Choice C &mdash; &lsquo;$A=(w)(w+38)$&rsquo;</strong>: Length $= w + 38$ (38 greater than the width); area $= w(w+38)$. This matches exactly. Correct</li><li><strong>Choice D &mdash; &lsquo;$A=w^2$&rsquo;</strong>: This requires length $= w$, i.e., a square. But the block is not a square - the length exceeds the width by 38 cm. Incorrect</li></ul>That confirms <strong>C</strong> is correct.",
   "correctAnswer": "C",
   "section": "Math"
 }

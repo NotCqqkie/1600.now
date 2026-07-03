@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Put the equation in quadratic form",
-      "content": "Start with the given equation: $$x(13x+27)+c=5$$ Expanding and moving everything to one side gives $$13x^2+27x+(c-5)=0.$$"
+      "content": "Start with the given equation: $$x(11x+25)+c=4$$ Expanding and moving everything to one side gives $$11x^2+25x+(c-4)=0.$$"
     },
     {
       "title": "Match the given radical",
-      "content": "For $13x^2+27x+(c-5)=0$, the quadratic formula has denominator $2(13)=26$, matching the given solution. The expression under the square root must be $261$."
+      "content": "For $11x^2+25x+(c-4)=0$, the quadratic formula has denominator $2(11)=22$, matching the given solution. The expression under the square root must be $185$."
     },
     {
       "title": "Confirm algebraically",
-      "content": "Set the discriminant equal to $261$: $$27^2-4(13)(c-5)=261$$ $$989-52c=261$$ $$c=14$$ The result matches."
+      "content": "Set the discriminant equal to $185$: $$25^2-4(11)(c-4)=185$$ $$801-44c=185$$ $$c=14$$ The result matches."
     }
   ]
 }

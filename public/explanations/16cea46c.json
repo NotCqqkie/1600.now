@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Extract data from the table",
-      "content": "The baritone row shows 10 singers. The total number of singers is 4 + 6 + 10 + 5 = 25."
+      "content": "The baritone row shows 12 singers. The total number of singers is 5 + 7 + 12 + 6 = 30."
     },
     {
       "title": "Calculate the probability",
-      "content": "The probability that a randomly selected singer is a baritone is:<br/>$$P(\\text{baritone}) = \\frac{\\text{number of baritones}}{\\text{total singers}} = \\frac{10}{25} = \\frac{2}{5} = 0.4$$<br/>That matches <strong>Choice B &mdash; 0.40</strong>."
+      "content": "The probability that a randomly selected singer is a baritone is:<br/>$$P(\\text{baritone}) = \\frac{\\text{number of baritones}}{\\text{total singers}} = \\frac{12}{30} = \\frac{2}{5} = 0.4$$<br/>That matches <strong>Choice B &mdash; 0.40</strong>."
     }
   ]
 }

@@ -9,11 +9,11 @@
     },
     {
       "title": "Find the choice that names the location",
-      "content": "Only one choice actually states where the fossil was found. The correct answer says it was found in western Indias Thar Desert &mdash; pulled directly from the relevant note."
+      "content": "Only one choice actually states where the fossil was found. The correct answer says it was found in western India's Thar Desert &mdash; pulled directly from the relevant note."
     },
     {
       "title": "Eliminate per choice",
-      "content": "<ul><li><strong>Choice A &mdash; The dicraeosaurid fossil was found in western India's Thar Desert.</strong>: names the exact location from the notes; satisfies the goal. &#10003;</li><li><strong>Choice B &mdash; Bajpai's team recently found the oldest dicraeosaurid fossil ever recovered.</strong>: describes the fossil&apos;s significance, not its location. Misses the goal. &#10007;</li><li><strong>Choice C &mdash; Dr. Sunil Bajpai, of the Indian Institute of Technology, is part of a research team.</strong>: describes the researcher, not where the fossil was found. Misses the goal. &#10007;</li><li><strong>Choice D &mdash; The fossil, which is from the dicraeosaurid dinosaur group, is 167 million years old.</strong>: gives the fossil&apos;s age, not its location. Misses the goal. &#10007;</li></ul>That is the correct answer."
+      "content": "<ul><li><strong>Choice A &mdash; The dicraeosaurid fossil was found in western India's Thar Desert.</strong>: names the exact location from the notes; satisfies the goal. &#10003;</li><li><strong>Choice B &mdash; Menon's team recently found the oldest dicraeosaurid fossil ever recovered.</strong>: describes the fossil&apos;s significance, not its location. Misses the goal. &#10007;</li><li><strong>Choice C &mdash; Dr. Ravi Menon, of the Indian Institute of Technology, is part of a research team.</strong>: describes the researcher, not where the fossil was found. Misses the goal. &#10007;</li><li><strong>Choice D &mdash; The fossil, which is from the dicraeosaurid dinosaur group, is 167 million years old.</strong>: gives the fossil&apos;s age, not its location. Misses the goal. &#10007;</li></ul>That is the correct answer."
     }
   ]
 }

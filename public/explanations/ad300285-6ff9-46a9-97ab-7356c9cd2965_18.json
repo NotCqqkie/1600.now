@@ -1,19 +1,19 @@
 {
   "questionId": "ad300285-6ff9-46a9-97ab-7356c9cd2965_18",
-  "correctAnswer": "526.1",
+  "correctAnswer": "512.4",
   "section": "Math",
   "steps": [
     {
       "title": "Identify the role of the coefficient",
-      "content": "The formula converts kelvins to Fahrenheit. Substitute $h=467.33$ and isolate the fraction: $$467.33-12=\\frac{9(v-273.15)}{5}.$$"
+      "content": "The formula converts kelvins to Fahrenheit. Substitute $h=440.65$ and isolate the fraction: $$440.65-10=\\frac{9(v-273.15)}{5}.$$"
     },
     {
       "title": "Interpret in context",
-      "content": "So $455.33=\\frac{9(v-273.15)}{5}$, giving $v-273.15=\\frac{5\\cdot 455.33}{9}\\approx 252.96$ and $v\\approx 526.1$. The answer is <strong>526.1</strong>."
+      "content": "So $430.65=\\frac{9(v-273.15)}{5}$, giving $v-273.15=\\frac{5\\cdot 430.65}{9}=239.25$ and $v=512.4$. The answer is <strong>512.4</strong>."
     },
     {
       "title": "Confirm the answer",
-      "content": "As a final check, make sure the computed value answers exactly what the question asks for. The work above gives $526.1$; substituting or interpreting it in the original condition satisfies the requirement, so $526.1$ is the value to enter."
+      "content": "As a final check, make sure the computed value answers exactly what the question asks for. The work above gives $512.4$; substituting or interpreting it in the original condition satisfies the requirement, so $512.4$ is the value to enter."
     }
   ]
 }

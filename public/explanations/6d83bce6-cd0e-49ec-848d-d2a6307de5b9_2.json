@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up",
-      "content": "The $y$-intercept is the point where $x = 0$. Substitute $x = 0$ into $y = 6x^2 + 4x + 3$."
+      "content": "The $y$-intercept is the point where $x = 0$. Substitute $x = 0$ into $y = 8x^2 + 5x + 4$."
     },
     {
       "title": "Solve",
-      "content": "$$y = 6(0)^2 + 4(0) + 3 = 3$$<br/>The $y$-intercept is $(0, 3)$."
+      "content": "$$y = 8(0)^2 + 5(0) + 4 = 4$$<br/>The $y$-intercept is $(0, 4)$."
     },
     {
       "title": "Answer",

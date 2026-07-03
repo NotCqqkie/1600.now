@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up the ratio relationship",
-      "content": "The ratio of $XY$ to $ZV$ is $6$ to $1$, which means $XY$ is $6$ times as long as $ZV$. We can express this as: $$XY = 6 \\cdot ZV$$"
+      "content": "The ratio of $AB$ to $CD$ is $6$ to $1$, which means $AB$ is $6$ times as long as $CD$. We can express this as: $$AB = 6 \\cdot CD$$"
     },
     {
-      "title": "Substitute and solve for ZV",
-      "content": "Substituting $XY = 102$ inches: $$102 = 6 \\cdot ZV$$ Dividing both sides by $6$: $$ZV = \\frac{102}{6} = 17$$ The length of line segment $ZV$ is $17$ inches. That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Substitute and solve for CD",
+      "content": "Substituting $AB = 132$ inches: $$132 = 6 \\cdot CD$$ Dividing both sides by $6$: $$CD = \\frac{132}{6} = 22$$ The length of line segment $CD$ is $22$ inches. That matches the correct answer - <strong>A</strong> is correct."
     }
   ]
 }

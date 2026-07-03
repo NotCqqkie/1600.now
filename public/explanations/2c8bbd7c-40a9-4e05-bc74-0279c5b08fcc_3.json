@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Evaluate at the city border crossing",
-      "content": "Since $x$ is hours after crossing the city border, $x = 0$ is the moment of crossing. Substituting into $f(x) = 50x + 8$:<br/>$$f(0) = 50(0) + 8 = 8 \\text{ km}$$<br/>The train has traveled 8 km total by the moment it reaches the city border."
+      "content": "Since $x$ is hours after crossing the city border, $x = 0$ is the moment of crossing. Substituting into $f(x) = 60x + 12$:<br/>$$f(0) = 60(0) + 12 = 12 \\text{ km}$$<br/>The train has traveled 12 km total by the moment it reaches the city border."
     },
     {
       "title": "Identify the source of the initial distance",
-      "content": "The 8 km total distance at $x = 0$ must come from the segment between the station and the city border, since the train hasn't traveled any additional distance after crossing yet.<br/><br/><strong>A</strong> is correct."
+      "content": "The 12 km total distance at $x = 0$ must come from the segment between the station and the city border, since the train hasn't traveled any additional distance after crossing yet.<br/><br/><strong>A</strong> is correct."
     }
   ]
 }

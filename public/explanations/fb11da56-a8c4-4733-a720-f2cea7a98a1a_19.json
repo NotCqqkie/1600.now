@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $10x+30$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $12x+60$."
     },
     {
       "title": "Algebra check",
@@ -13,11 +13,11 @@
     },
     {
       "title": "Distribute and combine like terms",
-      "content": "Distribute $10$:$$10(x+3)=10x+30$$"
+      "content": "Distribute $12$:$$12(x+5)=12x+60$$"
     },
     {
       "title": "Match to the answer choices",
-      "content": "The simplified expression is $10x+30$. That matches the correct answer — <strong>D</strong> is correct."
+      "content": "The simplified expression is $12x+60$. That matches the correct answer - <strong>D</strong> is correct."
     }
   ]
 }

@@ -1,19 +1,19 @@
 {
   "questionId": "fcdf87b7",
-  "correctAnswer": "either 0 or 3",
+  "correctAnswer": "0, 4",
   "section": "Math",
   "steps": [
     {
       "title": "Set the equations equal",
-      "content": "Since both expressions equal <em>y</em>, we set them equal: $$x^2 - 4x + 4 = 4 - x$$"
+      "content": "Since both expressions equal <em>y</em>, we set them equal: $$x^2 - 5x + 6 = 6 - x$$"
     },
     {
       "title": "Simplify to standard form",
-      "content": "Move all terms to the left side. Add <em>x</em> to both sides and subtract 4 from both sides: $$x^2 - 4x + x + 4 - 4 = 0$$ $$x^2 - 3x = 0$$"
+      "content": "Move all terms to the left side. Add <em>x</em> to both sides and subtract 6 from both sides: $$x^2 - 5x + x + 6 - 6 = 0$$ $$x^2 - 4x = 0$$"
     },
     {
       "title": "Factor and find the solutions",
-      "content": "Factor out the common factor <em>x</em>: $$x(x - 3) = 0$$ This gives us <em>x</em> = 0 or <em>x</em> = 3. Either value satisfies both equations."
+      "content": "Factor out the common factor <em>x</em>: $$x(x - 4) = 0$$ This gives us <em>x</em> = 0 or <em>x</em> = 4. Either value satisfies both equations."
     }
   ]
 }

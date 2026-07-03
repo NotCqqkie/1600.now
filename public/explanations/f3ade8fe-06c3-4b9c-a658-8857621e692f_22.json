@@ -1,19 +1,19 @@
 {
   "questionId": "f3ade8fe-06c3-4b9c-a658-8857621e692f_22",
-  "correctAnswer": "650",
+  "correctAnswer": "800",
   "section": "Math",
   "steps": [
     {
       "title": "Express A in two ways using the given percentages",
-      "content": "Convert the given percentages to equations:<ul><li><em>Mass of A is 416% of B</em> gives $A = 4.16B$</li><li><em>Mass of A is 0.064% of C</em> gives $A = 0.00064C$</li></ul>"
+      "content": "Convert the given percentages to equations:<ul><li><em>Mass of A is 384% of B</em> gives $A = 3.84B$</li><li><em>Mass of A is 0.048% of C</em> gives $A = 0.00048C$</li></ul>"
     },
     {
       "title": "Set the expressions equal and solve for C in terms of B",
-      "content": "Since both expressions equal $A$, equate them:<br/>$$4.16B = 0.00064C$$<br/>Divide both sides by $0.00064$:<br/>$$C = \\frac{4.16B}{0.00064}$$<br/>Simplifying the coefficient: $\\frac{4.16}{0.00064} = 6500$, so $C = 6500B$."
+      "content": "Since both expressions equal $A$, equate them:<br/>$$3.84B = 0.00048C$$<br/>Divide both sides by $0.00048$:<br/>$$C = \\frac{3.84B}{0.00048}$$<br/>Simplifying the coefficient: $\\frac{3.84}{0.00048} = 8000$, so $C = 8000B$."
     },
     {
       "title": "Convert to percentage form and calculate p/1000",
-      "content": "Since $C = 6500B$, the mass of $C$ is $650,000\\%$ of the mass of $B$ (since $6500 \\times 100\\% = 650,000\\%$). Thus $p = 650,000$. Therefore:<br/>$$\\frac{p}{1000} = \\frac{650000}{1000} = 650$$"
+      "content": "Since $C = 8000B$, the mass of $C$ is $800,000\\%$ of the mass of $B$ (since $8000 \\times 100\\% = 800,000\\%$). Thus $p = 800,000$. Therefore:<br/>$$\\frac{p}{1000} = \\frac{800000}{1000} = 800$$"
     }
   ]
 }

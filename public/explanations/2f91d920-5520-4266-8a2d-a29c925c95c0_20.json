@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Simplify the given line",
-      "content": "Start with $3(x-n)=9y+15n$. Expanding gives $3x-3n=9y+15n$, so $3x-9y=18n$. Divide by $3$ to get $$x-3y=6n.$$"
+      "content": "Start with $4(x-n)=12y+24n$. Expanding gives $4x-4n=12y+24n$, so $4x-12y=28n$. Divide by $4$ to get $$x-3y=7n.$$"
     },
     {
       "title": "Use the no-solution condition",
-      "content": "A system of two linear equations has no solution when the lines are parallel and distinct. The second equation must have the same $x-3y$ left side but a different constant from $6n$."
+      "content": "A system of two linear equations has no solution when the lines are parallel and distinct. The second equation must have the same $x-3y$ left side but a different constant from $7n$."
     },
     {
       "title": "Eliminate the other choices",
-      "content": "A choice with the same line, so it would give infinitely many solutions. The other choices use $x+3y$, so they are not parallel to $x-3y=6n$. The matching choice, $x-3y=3n$, is parallel to the original and distinct because $n\\gt 0$, so $3n\\ne6n$. <strong>D</strong> is correct."
+      "content": "A choice with the same line, so it would give infinitely many solutions. The other choices use $x+3y$, so they are not parallel to $x-3y=7n$. The matching choice, $x-3y=4n$, is parallel to the original and distinct because $n\\gt 0$, so $4n\\ne7n$. <strong>D</strong> is correct."
     }
   ]
 }

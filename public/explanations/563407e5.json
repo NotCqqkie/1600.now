@@ -4,21 +4,21 @@
   "steps": [
     {
       "title": "Step 1",
-      "content": "Each tray holds at least 50 and at most 60 cookies."
+      "content": "Each tray holds at least 45 and at most 55 rolls."
     },
     {
       "title": "Step 2",
-      "content": "With 4 trays, the minimum total is 4 &times; 50 = 200 and the maximum is 4 &times; 60 = 240."
+      "content": "With 4 trays, the minimum total is 4 &times; 45 = 180 and the maximum is 4 &times; 55 = 220."
     },
     {
       "title": "Step 3",
-      "content": "Any valid answer must satisfy 200 &le; total &le; 240."
+      "content": "Any valid answer must satisfy 180 &le; total &le; 220."
     },
     {
       "title": "Step 4",
       "content": "Check each choice against this range."
     }
   ],
-  "eliminationHtml": "<ul><li><strong>Choice A — 165</strong>: 165 &lt; 200, below the minimum possible total. &#10007;</li><li><strong>Choice B — 205</strong>: 200 &le; 205 &le; 240, achievable (e.g., three trays of 50 and one of 55). &#10003;</li><li><strong>Choice C — 245</strong>: 245 &gt; 240, above the maximum possible total. &#10007;</li><li><strong>Choice D — 285</strong>: 285 &gt; 240, well above the maximum possible total. &#10007;</li></ul><strong>B</strong> is correct.",
+  "eliminationHtml": "<ul><li><strong>Choice A &mdash; 145</strong>: 145 &lt; 180, below the minimum possible total. &#10007;</li><li><strong>Choice B &mdash; 185</strong>: 180 &le; 185 &le; 220, achievable (e.g., three trays of 45 and one of 50). &#10003;</li><li><strong>Choice C &mdash; 225</strong>: 225 &gt; 220, above the maximum possible total. &#10007;</li><li><strong>Choice D &mdash; 265</strong>: 265 &gt; 220, well above the maximum possible total. &#10007;</li></ul><strong>B</strong> is correct.",
   "correctAnswer": "B"
 }

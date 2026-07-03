@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Analyze the equation",
-      "content": "Subtract $2x$ from both sides of $2x-3=2x$: $$-3=0.$$ This is false for every $x$."
+      "content": "Subtract $5x$ from both sides of $5x-7=5x$: $$-7=0.$$ This is false for every $x$."
     },
     {
       "title": "Count the solutions",

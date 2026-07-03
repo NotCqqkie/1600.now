@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Recognize 50% as one-half",
-      "content": "Fifty percent is the same as one-half: 50% = $\\frac{1}{2}$. We need to find half of 340 seats."
+      "content": "Fifty percent is the same as one-half: 50% = $\\frac{1}{2}$. We need to find half of 420 seats."
     },
     {
       "title": "Divide to find the answer",
-      "content": "$$\\frac{340}{2} = 170$$ occupied seats. That matches <strong>Choice C &mdash; 170</strong>."
+      "content": "$$\\frac{420}{2} = 210$$ occupied seats. That matches <strong>Choice C &mdash; 210</strong>."
     },
     {
       "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches <strong>Choice C &mdash; 170</strong>, 170, and the other choices fail the same setup or substitution. Therefore <strong>C</strong>."
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches <strong>Choice C &mdash; 210</strong>, 210, and the other choices fail the same setup or substitution. Therefore <strong>C</strong>."
     }
   ]
 }

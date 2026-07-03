@@ -1,15 +1,15 @@
 {
   "questionId": "3d12b1e0",
-  "correctAnswer": "-1",
+  "correctAnswer": "-4",
   "section": "Math",
   "steps": [
     {
       "title": "Exactly one solution means discriminant $= 0$",
-      "content": "For $-16x^2-8x+c=0$, identify $a=-16$, $b=-8$, and constant term $c$. A quadratic has exactly one real solution only when the graph is tangent to the $x$-axis, which is the same as setting the discriminant equal to $0$."
+      "content": "For $-9x^2-12x+c=0$, identify $a=-9$, $b=-12$, and constant term $c$. A quadratic has exactly one real solution only when the graph is tangent to the $x$-axis, which is the same as setting the discriminant equal to $0$."
     },
     {
       "title": "Discriminant shortcut: solve for $c$",
-      "content": "$$(-8)^2-4(-16)(c)=0$$<br/>$$64+64c=0$$<br/>$$c=-1$$<br/>The constant that makes the discriminant zero is <strong>-1</strong>."
+      "content": "$$(-12)^2-4(-9)(c)=0$$<br/>$$144+36c=0$$<br/>$$c=-4$$<br/>The constant that makes the discriminant zero is <strong>-4</strong>."
     }
   ]
 }

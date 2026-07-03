@@ -9,11 +9,11 @@
     },
     {
       "title": "Identify the dimensions",
-      "content": "The width is $w=9$ cm. The length is $50$ cm longer than the width, so $\\ell = 9 + 50 = 59$ cm."
+      "content": "The width is $w=8$ cm. The length is $45$ cm longer than the width, so $\\ell = 8 + 45 = 53$ cm."
     },
     {
       "title": "Apply the area formula",
-      "content": "Area of a rectangle is $A = \\ell \\cdot w$, so $A = 59 \\cdot 9 = 531$ square cm. That matches <strong>Choice B &mdash; $531$</strong>."
+      "content": "Area of a rectangle is $A = \\ell \\cdot w$, so $A = 53 \\cdot 8 = 424$ square cm. That matches <strong>Choice B &mdash; $424$</strong>."
     }
   ]
 }

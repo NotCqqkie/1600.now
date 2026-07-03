@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Set the two expressions for y equal",
-      "content": "Both equations equal $y$, so set the right sides equal:<br/>$$x + 1 = x^2 + x$$"
+      "content": "Both equations equal $y$, so set the right sides equal:<br/>$$x + 4 = x^2 + x$$"
     },
     {
       "title": "Solve for x",
-      "content": "Subtract $x$ from both sides:<br/>$$1 = x^2$$<br/>So $x^2 = 1$, giving $x = 1$ or $x = -1$."
+      "content": "Subtract $x$ from both sides:<br/>$$4 = x^2$$<br/>So $x^2 = 4$, giving $x = 2$ or $x = -2$."
     },
     {
       "title": "Test each choice",
-      "content": "<ul><li><strong>–1</strong> –1 &mdash; one of our solutions. Check: $y = -1 + 1 = 0$ and $y = (-1)^2 + (-1) = 0$. Match. Correct.</li><li><strong>0</strong> 0 &mdash; gives $y = 1$ from the first equation but $y = 0$ from the second. Not a solution.</li><li><strong>2</strong> 2 &mdash; gives $y = 3$ vs. $y = 6$. Not a solution.</li><li><strong>3</strong> 3 &mdash; gives $y = 4$ vs. $y = 12$. Not a solution.</li></ul>That is the correct answer."
+      "content": "<ul><li><strong>&ndash;2</strong> &ndash;2 &mdash; one of our solutions. Check: $y = -2 + 4 = 2$ and $y = (-2)^2 + (-2) = 2$. Match. Correct.</li><li><strong>0</strong> 0 &mdash; gives $y = 4$ from the first equation but $y = 0$ from the second. Not a solution.</li><li><strong>3</strong> 3 &mdash; gives $y = 7$ vs. $y = 12$. Not a solution.</li><li><strong>4</strong> 4 &mdash; gives $y = 8$ vs. $y = 20$. Not a solution.</li></ul>Therefore, the correct answer is choice A."
     }
   ]
 }

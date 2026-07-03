@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "f(x) = 26(1.20)^(x/3). We need the percent increase when x increases by 6. A 6-unit increase adds 6/3 = 2 to the exponent, so f is multiplied by (1.20)&sup2; = 1.44. The percent increase p satisfies 1 + p/100 = 1.44, so p = 44."
+      "content": "f(x) = 28(1.30)^(x/4). We need the percent increase when x increases by 8. An 8-unit increase adds 8/4 = 2 to the exponent, so f is multiplied by (1.30)&sup2; = 1.69. The percent increase p satisfies 1 + p/100 = 1.69, so p = 69."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;20&rsquo;</strong>: 20% is the growth factor per 3 units, not per 6. &#10007;</li><li><strong>Choice B &mdash; &lsquo;31&rsquo;</strong>: No clean derivation; likely a misremembered approximation. &#10007;</li><li><strong>Choice C &mdash; &lsquo;40&rsquo;</strong>: Doubling 20 ignores compounding (20 + 20 = 40, but the correct answer compounds). &#10007;</li><li><strong>Choice D &mdash; &lsquo;44&rsquo;</strong>: (1.20)&sup2; = 1.44, a 44% increase. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;30&rsquo;</strong>: 30% is the growth factor per 4 units, not per 8. &#10007;</li><li><strong>Choice B &mdash; &lsquo;48&rsquo;</strong>: This comes from using the wrong exponent change, since 100((1.30)^(3/2) - 1) rounds to 48. &#10007;</li><li><strong>Choice C &mdash; &lsquo;60&rsquo;</strong>: Doubling 30 ignores compounding (30 + 30 = 60, but the correct answer compounds). &#10007;</li><li><strong>Choice D &mdash; &lsquo;69&rsquo;</strong>: (1.30)&sup2; = 1.69, a 69% increase. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
     }
   ]
 }

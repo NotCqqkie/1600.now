@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Summarize each author's view",
-      "content": "Text 1 says it &quot;is best&quot; to understand Soyinka's drama chronologically and divides it into three periods, each with &quot;a particular thematic and stylistic cohesion.&quot; Text 2 calls it &quot;tempting&quot; to impose such order but argues critics who use three phases &quot;overlook potential commonalities&quot; across phases and &quot;discount significant differences&quot; within them."
+      "content": "Text 1 says it &quot;is best&quot; to understand Okoro's drama chronologically and divides it into three periods, each with &quot;a particular thematic and stylistic cohesion:&quot; Text 2 calls it &quot;tempting&quot; to impose such order but argues critics who use three phases &quot;overlook potential commonalities&quot; across phases and &quot;discount significant differences&quot; within them."
     },
     {
       "title": "Name the difference",
@@ -13,7 +13,7 @@
     },
     {
       "title": "Eliminate per choice",
-      "content": "<ul><li><strong>Choice A — While the author of Text 1 believes that thinking about Soyinka's works of theater in phases is useful, the author of Text 2 views such an approach as limiting.</strong>: matches both authors' positions exactly. &#10003;</li><li><strong>Choice B — Although the author of Text 1 claims that Soyinka's style as a dramatist has evolved over time, the author of Text 2 argues that Soyinka's style has remained consistent throughout his career.</strong>: Text 2 never claims consistency; it claims phases miss both commonalities and differences &mdash; misreads Text 2. &#10007;</li><li><strong>Choice C — The author of Text 1 considers Soyinka's plays to showcase his strongest writing, whereas the author of Text 2 believes that Soyinka's poetry is where he is most skilled.</strong>: neither text discusses poetry &mdash; overreach beyond what is stated. &#10007;</li><li><strong>Choice D — The author of Text 1 argues that Soyinka's early plays were his most politically charged, whereas the author of Text 2 claims that Soyinka's most recent plays are the most politicized.</strong>: neither text ranks plays by political content &mdash; overreach. &#10007;</li></ul><strong>A</strong> is correct."
+      "content": "<ul><li><strong>Choice A — While the author of Text 1 believes that thinking about Okoro's works of theater in phases is useful, the author of Text 2 views such an approach as limiting.</strong>: matches both authors' positions exactly. &#10003;</li><li><strong>Choice B — Although the author of Text 1 claims that Okoro's style as a dramatist has evolved over time, the author of Text 2 argues that Okoro's style has remained consistent throughout his career.</strong>: Text 2 never claims consistency; it claims phases miss both commonalities and differences &mdash; misreads Text 2. &#10007;</li><li><strong>Choice C — The author of Text 1 considers Okoro's plays to showcase his strongest writing, whereas the author of Text 2 believes that Okoro's poetry is where he is most skilled.</strong>: neither text discusses poetry &mdash; overreach beyond what is stated. &#10007;</li><li><strong>Choice D — The author of Text 1 argues that Okoro's early plays were his most politically charged, whereas the author of Text 2 claims that Okoro's most recent plays are the most politicized.</strong>: neither text ranks plays by political content &mdash; overreach. &#10007;</li></ul><strong>A</strong> is correct."
     }
   ]
 }

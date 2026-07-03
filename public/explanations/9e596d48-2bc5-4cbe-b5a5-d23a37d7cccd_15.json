@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Fastest path: graph the equations as written",
-      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$y = 2x^2 - 19x + 40$$<br/>$$y = x + a$$<br/>You do not need to solve or rearrange them first."
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$y = 2x^2 - 23x + 60$$<br/>$$y = x + a$$<br/>You do not need to solve or rearrange them first."
     },
     {
       "title": "Read the x-coordinate",
-      "content": "Click the intersection point and read the x-coordinate. It matches <strong>C</strong>, 5."
+      "content": "Click the intersection point and read the x-coordinate. It matches <strong>C</strong>, 6."
     },
     {
       "title": "Why this works",

@@ -1,6 +1,6 @@
 {
   "questionId": "76670c80",
-  "correctAnswer": "180",
+  "correctAnswer": "152",
   "section": "Math",
   "steps": [
     {
@@ -13,7 +13,7 @@
     },
     {
       "title": "Substitute the given side length and calculate",
-      "content": "Substitute $s = 45$ into the formula:<br/>$$P = 4(45) = 180$$<br/>The perimeter is 180."
+      "content": "Substitute $s = 38$ into the formula:<br/>$$P = 4(38) = 152$$<br/>The perimeter is 152."
     }
   ]
 }

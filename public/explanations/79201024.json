@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Identify favorable and total outcomes",
-      "content": "There are $45$ band members total, and $11$ of them play saxophone. The favorable outcomes are the saxophone players."
+      "content": "There are $52$ choir singers total, and $13$ of them are altos. The favorable outcomes are the altos."
     },
     {
       "title": "Write the probability",
-      "content": "Probability is favorable outcomes over total outcomes: $$P(\\text{saxophone})=\\frac{11}{45}$$"
+      "content": "Probability is favorable outcomes over total outcomes: $$P(\\text{alto})=\\frac{13}{52}$$"
     },
     {
       "title": "Check the choices",
-      "content": "<ul><li>Choice A, $\\frac{1}{45}$, is one specific band member.</li><li>Choice B, $\\frac{11}{45}$, uses the $11$ saxophone players out of $45$ members. Correct.</li><li>Choice C, $\\frac{34}{45}$, is the probability of not selecting a saxophone player.</li><li>Choice D, $\\frac{45}{45}$, would mean every band member plays saxophone.</li></ul>That confirms <strong>B</strong>."
+      "content": "<ul><li>Choice A, $\\frac{1}{52}$, is one specific choir singer.</li><li>Choice B, $\\frac{13}{52}$, uses the $13$ altos out of $52$ singers. Correct.</li><li>Choice C, $\\frac{39}{52}$, is the probability of not selecting an alto.</li><li>Choice D, $\\frac{52}{52}$, would mean every choir singer is an alto.</li></ul>That confirms <strong>B</strong>."
     }
   ]
 }

@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Fastest path: use the function table",
-      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $750$, so the answer is <strong>C</strong>, 750. This is just a one-row lookup, and the arithmetic below confirms the table value."
+      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $1,080$, so the answer is <strong>C</strong>, 1,080. This is just a one-row lookup, and the arithmetic below confirms the table value."
     },
     {
       "title": "Simplify the coefficient",
-      "content": "In the first parenthesis, combine like terms:<br/>$$x + 0.25x = (1 + 0.25)x = 1.25x$$<br/>So the function becomes:<br/>$$f(x) = 1.25x(50 - x)$$"
+      "content": "In the first parenthesis, combine like terms:<br/>$$x + 0.25x = (1 + 0.25)x = 1.25x$$<br/>So the function becomes:<br/>$$f(x) = 1.25x(60 - x)$$"
     },
     {
-      "title": "Substitute x = 20 and calculate",
-      "content": "$$f(20) = 1.25(20)(50 - 20)$$<br/>Evaluate each part:<ul><li>$1.25 \\times 20 = 25$</li><li>$50 - 20 = 30$</li></ul>Then multiply:<br/>$$f(20) = 25 \\times 30 = 750$$<br/>That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Substitute x = 24 and calculate",
+      "content": "$$f(24) = 1.25(24)(60 - 24)$$<br/>Evaluate each part:<ul><li>$1.25 \\times 24 = 30$</li><li>$60 - 24 = 36$</li></ul>Then multiply:<br/>$$f(24) = 30 \\times 36 = 1,080$$<br/>That matches the correct answer - <strong>C</strong> is correct."
     }
   ]
 }

@@ -1,15 +1,15 @@
 {
   "questionId": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_2",
-  "correctAnswer": "5780",
+  "correctAnswer": "5900",
   "section": "Math",
   "steps": [
     {
       "title": "Identify the linear model parameters",
-      "content": "The whale's weight follows a linear model with:<ul><li>Initial weight: 5,710 pounds (at birth, when time = 0)</li><li>Rate of gain: 10.0 pounds per hour</li><li>Time of interest: 7 hours after birth</li></ul>The formula for a linear model is: $$\\text{Weight} = \\text{Initial weight} + \\text{(rate)} \\times \\text{(time)}$$"
+      "content": "The whale's weight follows a linear model with:<ul><li>Initial weight: 5,820 pounds (at birth, when time = 0)</li><li>Rate of gain: 10.0 pounds per hour</li><li>Time of interest: 8 hours after birth</li></ul>The formula for a linear model is: $$\\text{Weight} = \\text{Initial weight} + \\text{(rate)} \\times \\text{(time)}$$"
     },
     {
       "title": "Substitute and calculate",
-      "content": "Plug in the values: $$\\text{Weight} = 5710 + 10.0 \\times 7$$ $$\\text{Weight} = 5710 + 70$$ $$\\text{Weight} = 5780 \\text{ pounds}$$ The estimated weight 7 hours after birth is <strong>5,780 pounds</strong>."
+      "content": "Plug in the values: $$\\text{Weight} = 5820 + 10.0 \\times 8$$ $$\\text{Weight} = 5820 + 80$$ $$\\text{Weight} = 5900 \\text{ pounds}$$ The estimated weight 8 hours after birth is <strong>5,900 pounds</strong>."
     }
   ]
 }

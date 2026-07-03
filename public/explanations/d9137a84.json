@@ -3,13 +3,13 @@
   "qid": "d9137a84",
   "steps": [
     {
-      "content": "Distribute the monomial $x^{-6}y^{3}z^{5}$ to each term of the binomial: $(x^{-6}y^{3}z^{5})(x^{4}z^{5}+y^{8}z^{-7}) = (x^{-6}y^{3}z^{5})(x^{4}z^{5}) + (x^{-6}y^{3}z^{5})(y^{8}z^{-7})$."
+      "content": "Distribute the monomial $x^{-5}y^{4}z^{3}$ to each term of the binomial: $(x^{-5}y^{4}z^{3})(x^{2}z^{6}+y^{7}z^{-5}) = (x^{-5}y^{4}z^{3})(x^{2}z^{6}) + (x^{-5}y^{4}z^{3})(y^{7}z^{-5})$."
     },
     {
-      "content": "Apply the rule $x^{a}\\cdot x^{b}=x^{a+b}$ to each product. First term: $x^{-6+4}y^{3}z^{5+5}=x^{-2}y^{3}z^{10}$. Second term: $x^{-6}y^{3+8}z^{5+(-7)}=x^{-6}y^{11}z^{-2}$."
+      "content": "Apply the rule $x^{a}\\cdot x^{b}=x^{a+b}$ to each product. First term: $x^{-5+2}y^{4}z^{3+6}=x^{-3}y^{4}z^{9}$. Second term: $x^{-5}y^{4+7}z^{3+(-5)}=x^{-5}y^{11}z^{-2}$."
     },
     {
-      "content": "Combine to get $x^{-2}y^{3}z^{10}+x^{-6}y^{11}z^{-2}$. Evaluate each choice:<ul><li><strong>\"${x}^{-2}{z}^{10}+{y}^{11}{z}^{-2}$\"</strong>: missing the $y^{3}$ factor in the first term and the $x^{-6}$ factor in the second term. Incorrect.</li><li><strong>\"${x}^{-2}{z}^{10}+{x}^{-6}{z}^{-2}$\"</strong>: missing $y^{3}$ in the first term and $y^{11}$ in the second term. Incorrect.</li><li><strong>\"${x}^{-2}{y}^{3}{z}^{10}+{y}^{8}{z}^{-7}$\"</strong>: the first term is correct but the second term retains the original $y^{8}z^{-7}$ without the $x^{-6}y^{3}$ factors applied. Incorrect.</li><li><strong>\"${x}^{-2}{y}^{3}{z}^{10}+{x}^{-6}{y}^{11}{z}^{-2}$\"</strong>: matches both computed terms exactly. That matches the correct answer — <strong>D</strong> is correct.</li></ul>"
+      "content": "Combine to get $x^{-3}y^{4}z^{9}+x^{-5}y^{11}z^{-2}$. Evaluate each choice:<ul><li><strong>\"${x}^{-3}{z}^{9}+{y}^{11}{z}^{-2}$\"</strong>: missing the $y^{4}$ factor in the first term and the $x^{-5}$ factor in the second term. Incorrect.</li><li><strong>\"${x}^{-3}{z}^{9}+{x}^{-5}{z}^{-2}$\"</strong>: missing $y^{4}$ in the first term and $y^{11}$ in the second term. Incorrect.</li><li><strong>\"${x}^{-3}{y}^{4}{z}^{9}+{y}^{7}{z}^{-5}$\"</strong>: the first term is correct but the second term retains the original $y^{7}z^{-5}$ without the $x^{-5}y^{4}$ factors applied. Incorrect.</li><li><strong>\"${x}^{-3}{y}^{4}{z}^{9}+{x}^{-5}{y}^{11}{z}^{-2}$\"</strong>: matches both computed terms exactly. That matches the correct answer - <strong>D</strong> is correct.</li></ul>"
     }
   ],
   "correctAnswer": "D"

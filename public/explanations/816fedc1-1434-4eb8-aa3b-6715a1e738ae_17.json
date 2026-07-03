@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Convert percentage to multiplier",
-      "content": "Interpret 111% of x as multiplying x by 1.11: $$f(x)=1.11x$$."
+      "content": "Interpret 118% of x as multiplying x by 1.18: $$f(x)=1.18x$$."
     },
     {
       "title": "Identify type of function",
-      "content": "This is a linear function of the form $y=mx+b$ with slope $m=1.11$ and intercept $b=0$. Since the slope is positive, the function increases as $x$ increases, so it is increasing linear. That confirms <strong>D</strong> is correct."
+      "content": "This is a linear function of the form $y=mx+b$ with slope $m=1.18$ and intercept $b=0$. Since the slope is positive, the function increases as $x$ increases, so it is increasing linear. That confirms <strong>D</strong> is correct."
     }
   ]
 }

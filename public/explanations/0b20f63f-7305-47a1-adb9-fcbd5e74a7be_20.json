@@ -1,19 +1,19 @@
 {
   "questionId": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_20",
-  "correctAnswer": "-314",
+  "correctAnswer": "-307",
   "section": "Math",
   "steps": [
     {
       "title": "Evaluate the function f at x=0",
-      "content": "$$ f(0) = (0-10)(0-8)(0-4) = (-10)(-8)(-4) = -320 $$"
+      "content": "$$ f(0) = (0-9)(0-7)(0-5) = (-9)(-7)(-5) = -315 $$"
     },
     {
-      "title": "Translate up 6 units and compute g(0)",
-      "content": "$$ g(0) = f(0) + 6 = -320 + 6 = -314 $$<br/>The answer is <strong>-314</strong>."
+      "title": "Translate up 8 units and compute g(0)",
+      "content": "$$ g(0) = f(0) + 8 = -315 + 8 = -307 $$<br/>The answer is <strong>-307</strong>."
     },
     {
       "title": "Confirm the answer",
-      "content": "As a final check, make sure the computed value answers exactly what the question asks for. The work above gives $-314$; substituting or interpreting it in the original condition satisfies the requirement, so $-314$ is the value to enter."
+      "content": "As a final check, make sure the computed value answers exactly what the question asks for. The work above gives $-307$; substituting or interpreting it in the original condition satisfies the requirement, so $-307$ is the value to enter."
     }
   ]
 }

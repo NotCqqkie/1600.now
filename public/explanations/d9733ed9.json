@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Set up the inequality test",
-      "content": "Test each $(x, y)$ pair against $y \\gt  4x + 8$."
+      "content": "Test each $(x, y)$ pair against $y \\gt  5x + 7$."
     },
     {
       "title": "Test each table",
-      "content": "For the shared $x$-values, the boundary values are $$4(2)+8=16,$$ $$4(4)+8=24,$$ and $$4(6)+8=32.$$ The listed $y$-values must be greater than $16$, $24$, and $32$, respectively."
+      "content": "For the shared $x$-values, the boundary values are $$5(2)+7=17,$$ $$5(4)+7=27,$$ and $$5(6)+7=37.$$ The listed $y$-values must be greater than $17$, $27$, and $37$, respectively."
     },
     {
       "title": "Identify the table",
-      "content": "The correct table has $x$-values $2$, $4$, and $6$ paired with $y$-values $19$, $30$, and $41$. Each listed $y$-value is greater than the matching boundary value: $$19\\gt 16,$$ $$30\\gt 24,$$ and $$41\\gt 32.$$ The other tables fail at least one row, so <strong>A</strong> is correct."
+      "content": "The correct table has $x$-values $2$, $4$, and $6$ paired with $y$-values $20$, $33$, and $46$. Each listed $y$-value is greater than the matching boundary value: $$20\\gt 17,$$ $$33\\gt 27,$$ and $$46\\gt 37.$$ The other tables fail at least one row, so <strong>A</strong> is correct."
     }
   ]
 }

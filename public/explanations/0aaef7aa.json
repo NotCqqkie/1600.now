@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up the equation",
-      "content": "We're given $p(n) = 7n^3$ and need $p(n) = 56$. Set the function equal to 56:<br/>$$7n^3 = 56$$"
+      "content": "We're given $p(n) = 5n^3$ and need $p(n) = 135$. Set the function equal to 135:<br/>$$5n^3 = 135$$"
     },
     {
       "title": "Solve for n",
-      "content": "Divide both sides by 7:<br/>$$n^3 = 8$$<br/>Take the cube root of both sides:<br/>$$n = \\sqrt[3]{8} = 2$$<br/>That matches <strong>Choice A &mdash; $2$</strong>."
+      "content": "Divide both sides by 5:<br/>$$n^3 = 27$$<br/>Take the cube root of both sides:<br/>$$n = \\sqrt[3]{27} = 3$$<br/>That matches <strong>Choice A &mdash; $3$</strong>."
     }
   ]
 }

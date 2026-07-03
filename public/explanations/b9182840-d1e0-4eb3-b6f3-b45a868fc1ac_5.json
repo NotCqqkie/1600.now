@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Substitute the value x=0",
-      "content": "The $y$-intercept occurs at $x=0$: $f(0)=2(0)-\\tfrac{1}{4}$."
+      "content": "The $y$-intercept occurs at $x=0$: $f(0)=3(0)-\\tfrac{1}{5}$."
     },
     {
       "title": "Compute the y-intercept",
-      "content": "$f(0)=-\\tfrac{1}{4}$, so the intercept is $(0,-\\tfrac{1}{4})$. That is the correct answer."
+      "content": "$f(0)=-\\tfrac{1}{5}$, so the intercept is $(0,-\\tfrac{1}{5})$. That is the correct answer."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches $(0,-\\frac{1}{4})$. The other choices do not satisfy the same condition from the question, so <strong>A</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches $(0,-\\frac{1}{5})$. The other choices do not satisfy the same condition from the question, so <strong>A</strong> is correct."
     }
   ]
 }

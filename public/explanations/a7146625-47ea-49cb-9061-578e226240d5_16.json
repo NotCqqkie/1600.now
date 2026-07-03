@@ -9,15 +9,15 @@
     },
     {
       "title": "Step 1",
-      "content": "Read circle $M$: $(x-3)^{2}+(y-6)^{2}=4$ is in standard form $(x-h)^{2}+(y-k)^{2}=r^{2}$, so center $= (3,6)$ and $r_{M} = \\sqrt{4} = 2$."
+      "content": "Read circle $M$: $(x-5)^{2}+(y-8)^{2}=9$ is in standard form $(x-h)^{2}+(y-k)^{2}=r^{2}$, so center $= (5,8)$ and $r_{M} = \\sqrt{9} = 3$."
     },
     {
       "title": "Step 2",
-      "content": "Circle $P$ has the same center $(3,6)$ and radius $r_{P} = 2 \\times r_{M} = 2 \\times 2 = 4$, so $r_{P}^{2} = 16$."
+      "content": "Circle $P$ has the same center $(5,8)$ and radius $r_{P} = 2 \\times r_{M} = 2 \\times 3 = 6$, so $r_{P}^{2} = 36$."
     },
     {
       "title": "Step 3",
-      "content": "Circle $P$&apos;s equation is $(x-3)^{2}+(y-6)^{2}=16$. The formula $(x-3)^{2}+(y-6)^{2}=8$ uses $r^{2}=8$, giving $r=2\\sqrt{2}\\approx2.83$, not twice circle $M$&apos;s radius of 2. The formula $(x-3)^{2}+(y-6)^{2}=16$ has center $(3,6)$ and $r^{2}=16$, so $r=4=2\\times2$. The formulas with center $(6,12)$ are eliminated because circle $P$ must keep center $(3,6)$. That leaves <strong>B</strong>."
+      "content": "Circle $P$&apos;s equation is $(x-5)^{2}+(y-8)^{2}=36$. The formula $(x-5)^{2}+(y-8)^{2}=18$ uses $r^{2}=18$, giving $r=3\\sqrt{2}\\approx4.24$, not twice circle $M$&apos;s radius of 3. The formula $(x-5)^{2}+(y-8)^{2}=36$ has center $(5,8)$ and $r^{2}=36$, so $r=6=2\\times3$. The formulas with center $(10,16)$ are eliminated because circle $P$ must keep center $(5,8)$. That leaves <strong>B</strong>."
     }
   ],
   "section": "Math"

@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>C</strong>, $3w^2 + 11w - 70$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>C</strong>, $4w^2 + 15w - 54$."
     },
     {
       "title": "Algebra check",
@@ -13,11 +13,11 @@
     },
     {
       "title": "Multiply the binomials",
-      "content": "Use FOIL on $(w+7)(3w-10)$:<br/>$$w\\cdot3w=3w^2$$<br/>$$w\\cdot(-10)=-10w$$<br/>$$7\\cdot3w=21w$$<br/>$$7\\cdot(-10)=-70$$"
+      "content": "Use FOIL on $(w+6)(4w-9)$:<br/>$$w\\cdot4w=4w^2$$<br/>$$w\\cdot(-9)=-9w$$<br/>$$6\\cdot4w=24w$$<br/>$$6\\cdot(-9)=-54$$"
     },
     {
       "title": "Combine like terms",
-      "content": "The middle terms combine to $-10w+21w=11w$, so the product is $$3w^2+11w-70.$$ That confirms <strong>C</strong> is correct. This also checks the answer choices: C is the only option with all three parts, $3w^2$, $+11w$, and $-70$."
+      "content": "The middle terms combine to $-9w+24w=15w$, so the product is $$4w^2+15w-54.$$ That confirms <strong>C</strong> is correct. This also checks the answer choices: C is the only option with all three parts, $4w^2$, $+15w$, and $-54$."
     }
   ]
 }

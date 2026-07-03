@@ -4,13 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "content": "Check whether the polynomial is a perfect square trinomial. The first term $4a^2 = (2a)^2$ and the last term $25b^2 = (5b)^2$ are both perfect squares."
+      "content": "Check whether the polynomial is a perfect square trinomial. The first term $9a^2 = (3a)^2$ and the last term $16b^2 = (4b)^2$ are both perfect squares."
     },
     {
-      "content": "For $(2a + 5b)^2$, the middle term would be $2 \\cdot (2a) \\cdot (5b) = 20ab$. The given polynomial has exactly $20ab$, so $4a^2 + 20ab + 25b^2 = (2a + 5b)^2$. Therefore $(2a + 5b)$ is a factor."
+      "content": "For $(3a + 4b)^2$, the middle term would be $2 \\cdot (3a) \\cdot (4b) = 24ab$. The given polynomial has exactly $24ab$, so $9a^2 + 24ab + 16b^2 = (3a + 4b)^2$. Therefore $(3a + 4b)$ is a factor."
     },
     {
-      "content": "Evaluate each choice:<ul><li><strong>\"$a + b$\"</strong>: Dividing $(2a+5b)^2$ by $(a+b)$ does not yield a polynomial with integer coefficients; $(a+b)$ is not a factor. Incorrect.</li><li><strong>\"$2a + 5b$\"</strong>: Since $4a^2 + 20ab + 25b^2 = (2a+5b)^2$, the factor $2a+5b$ appears twice. That matches the correct answer — <strong>B</strong> is correct.</li><li><strong>\"$4a + 5b$\"</strong>: Testing $a=1, b=1$: polynomial $= 4+20+25 = 49$ and $\\left(4\\right)(1)+5(1) = 9$. Since $9 \\nmid 49$, this is not a factor. Incorrect.</li><li><strong>\"$4a + 25b$\"</strong>: Testing $a=1, b=1$: $4+25 = 29$. Since $29 \\nmid 49$, this is not a factor. Incorrect.</li></ul>"
+      "content": "Evaluate each choice:<ul><li><strong>\"$a + b$\"</strong>: Dividing $(3a+4b)^2$ by $(a+b)$ does not yield a polynomial with integer coefficients; $(a+b)$ is not a factor. Incorrect.</li><li><strong>\"$3a + 4b$\"</strong>: Since $9a^2 + 24ab + 16b^2 = (3a+4b)^2$, the factor $3a+4b$ appears twice. That matches the correct answer &mdash; <strong>B</strong> is correct.</li><li><strong>\"$9a + 4b$\"</strong>: Testing $a=1, b=1$: polynomial $= 9+24+16 = 49$ and $\\left(9\\right)(1)+4(1) = 13$. Since $13 \\nmid 49$, this is not a factor. Incorrect.</li><li><strong>\"$9a + 16b$\"</strong>: Testing $a=1, b=1$: $9+16 = 25$. Since $25 \\nmid 49$, this is not a factor. Incorrect.</li></ul>"
     }
   ]
 }

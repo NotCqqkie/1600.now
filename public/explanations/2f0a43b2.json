@@ -1,15 +1,15 @@
 {
   "questionId": "2f0a43b2",
-  "correctAnswer": ".2",
+  "correctAnswer": ".25",
   "section": "Math",
   "steps": [
     {
       "title": "Use the reciprocal shortcut",
-      "content": "The given equation is $\\frac{x}{8}=5$. Taking reciprocals switches both sides, so<br/>$$\\frac{8}{x}=\\frac{1}{5}$$<br/>This works because $x$ is not $0$; in fact, the equation implies $x=40$."
+      "content": "The given equation is $\\frac{x}{6}=4$. Taking reciprocals switches both sides, so<br/>$$\\frac{6}{x}=\\frac{1}{4}$$<br/>This works because $x$ is not $0$; in fact, the equation implies $x=24$."
     },
     {
       "title": "Confirm by substitution",
-      "content": "If you solve first, $x=8\\cdot5=40$. Then<br/>$$\\frac{8}{x}=\\frac{8}{40}=\\frac{1}{5}=0.2$$<br/>Therefore acceptable entries include <strong>1/5</strong> or <strong>0.2</strong>."
+      "content": "If you solve first, $x=6\\cdot4=24$. Then<br/>$$\\frac{6}{x}=\\frac{6}{24}=\\frac{1}{4}=0.25$$<br/>Therefore acceptable entries include <strong>1/4</strong> or <strong>0.25</strong>."
     }
   ]
 }

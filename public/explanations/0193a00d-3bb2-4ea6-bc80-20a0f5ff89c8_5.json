@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Solve for v^2",
-      "content": "Start with $47 = \\frac{2K}{v^2}$. Multiply both sides by $v^2$: $47v^2 = 2K$. Divide both sides by 47: $v^2 = \\frac{2K}{47}$."
+      "content": "Start with $53 = \\frac{2K}{v^2}$. Multiply both sides by $v^2$: $53v^2 = 2K$. Divide both sides by 53: $v^2 = \\frac{2K}{53}$."
     },
     {
       "title": "Take the positive square root",
-      "content": "Since $v$ is positive, $v = \\sqrt{\\frac{2K}{47}}$."
+      "content": "Since $v$ is positive, $v = \\sqrt{\\frac{2K}{53}}$."
     },
     {
       "title": "Match against the choices",
-      "content": "<ul><li>Choice A: $v=\\sqrt{\\frac{2K}{47}}$ &mdash; Matches exactly. Works.</li><li>Choice B: $v=\\sqrt{\\frac{47}{2K}}$ &mdash; has the fraction inverted. Eliminated.</li><li>Choice C: $v=\\frac{47^{2}}{2K}$ &mdash; is not a square root and the form is wrong. Eliminated.</li><li>Choice D: $v=\\frac{2K}{47^{2}}$ &mdash; is not a square root and uses $47^2$. Eliminated.</li></ul>That matches <strong>Choice A &mdash; $v=\\sqrt{\\frac{2K}{47}}$</strong>."
+      "content": "<ul><li>Choice A: $v=\\sqrt{\\frac{2K}{53}}$ &mdash; Matches exactly. Works.</li><li>Choice B: $v=\\sqrt{\\frac{53}{2K}}$ &mdash; has the fraction inverted. Eliminated.</li><li>Choice C: $v=\\frac{53^{2}}{2K}$ &mdash; is not a square root and the form is wrong. Eliminated.</li><li>Choice D: $v=\\frac{2K}{53^{2}}$ &mdash; is not a square root and uses $53^2$. Eliminated.</li></ul>That matches <strong>Choice A &mdash; $v=\\sqrt{\\frac{2K}{53}}$</strong>."
     }
   ]
 }

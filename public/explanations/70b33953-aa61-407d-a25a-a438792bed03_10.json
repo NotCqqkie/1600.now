@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The first three terms $x^4 + 14ax^2 + 49a^2$ form a perfect square: $(x^2 + 7a)^2$. So the full expression is:<br/>$$(x^2 + 7a)^2 - 64 = (x^2 + 7a)^2 - 8^2$$<br/>Apply difference of squares $A^2 - B^2 = (A-B)(A+B)$:<br/>$$(x^2 + 7a - 8)(x^2 + 7a + 8)$$<br/>The two factors are $x^2 + 7a - 8$ and $x^2 + 7a + 8$."
+      "content": "The first three terms $x^4 + 12ax^2 + 36a^2$ form a perfect square: $(x^2 + 6a)^2$. So the full expression is:<br/>$$(x^2 + 6a)^2 - 25 = (x^2 + 6a)^2 - 5^2$$<br/>Apply difference of squares $A^2 - B^2 = (A-B)(A+B)$:<br/>$$(x^2 + 6a - 5)(x^2 + 6a + 5)$$<br/>The two factors are $x^2 + 6a - 5$ and $x^2 + 6a + 5$."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;$x^2 + 7a + 8$&rsquo;</strong>: matches $x^2 + 7a + 8$ exactly. Correct</li><li><strong>Choice B &mdash; &lsquo;$x^2 - 7a - 8$&rsquo;</strong>: has $-7a$ instead of $+7a$ - wrong sign. Incorrect</li><li><strong>Choice C &mdash; &lsquo;$x^2 + 14a$&rsquo;</strong>: not produced by this factorization. Incorrect</li><li><strong>Choice D &mdash; &lsquo;$x^2 - 8a$&rsquo;</strong>: mixes the constants in a way that doesn&apos;t divide the expression. Incorrect</li></ul>That confirms <strong>A</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;$x^2 + 6a + 5$&rsquo;</strong>: matches $x^2 + 6a + 5$ exactly. Correct</li><li><strong>Choice B &mdash; &lsquo;$x^2 - 6a - 5$&rsquo;</strong>: has $-6a$ instead of $+6a$ - wrong sign. Incorrect</li><li><strong>Choice C &mdash; &lsquo;$x^2 + 12a$&rsquo;</strong>: not produced by this factorization. Incorrect</li><li><strong>Choice D &mdash; &lsquo;$x^2 - 5a$&rsquo;</strong>: mixes the constants in a way that doesn&apos;t divide the expression. Incorrect</li></ul>That confirms <strong>A</strong> is correct."
     }
   ]
 }

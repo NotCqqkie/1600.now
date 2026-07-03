@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>C</strong>, $2x^2+25x-42$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>C</strong>, $2x^2+19x-60$."
     },
     {
       "title": "Algebra check",
@@ -13,15 +13,15 @@
     },
     {
       "title": "Expand inside first",
-      "content": "Multiply the binomials: $$(x-\\frac{3}{2})(x+14)=x^2+14x-\\frac{3}{2}x-21=x^2+\\frac{25}{2}x-21$$"
+      "content": "Multiply the binomials: $$(x-\\frac{5}{2})(x+12)=x^2+12x-\\frac{5}{2}x-30=x^2+\\frac{19}{2}x-30$$"
     },
     {
       "title": "Multiply by 2",
-      "content": "Now distribute the outside $2$: $$2\\left(x^2+\\frac{25}{2}x-21\\right)=2x^2+25x-42$$"
+      "content": "Now distribute the outside $2$: $$2\\left(x^2+\\frac{19}{2}x-30\\right)=2x^2+19x-60$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "<strong>C</strong> is $2x^2+25x-42$, so <strong>C</strong> is correct."
+      "content": "<strong>C</strong> is $2x^2+19x-60$, so <strong>C</strong> is correct."
     }
   ]
 }

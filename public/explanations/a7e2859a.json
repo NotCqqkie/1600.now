@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Set up the cost",
-      "content": "The first day costs &#36;430. Each additional day costs &#36;215. For $x$ total days, there are $x-1$ additional days."
+      "content": "The first day costs &#36;360. Each additional day costs &#36;180. For $x$ total days, there are $x-1$ additional days."
     },
     {
       "title": "Write the equation",
-      "content": "The total cost is $$y=430+215(x-1)$$ Simplify: $$y=430+215x-215=215x+215$$"
+      "content": "The total cost is $$y=360+180(x-1)$$ Simplify: $$y=360+180x-180=180x+180$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "When $x=1$, the equation gives $y=430$, the first-day cost. When $x=2$, it gives $y=645$, which is $430+215$. That is the correct answer."
+      "content": "When $x=1$, the equation gives $y=360$, the first-day cost. When $x=2$, it gives $y=540$, which is $360+180$. That confirms <strong>A</strong> is correct."
     }
   ]
 }

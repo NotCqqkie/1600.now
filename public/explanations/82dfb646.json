@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the sampling population",
-      "content": "The 200 people were selected at random from people who indicated they liked the book.<br/><br/>A valid statistical inference can only be generalized to the population from which the random sample was drawn.<br/><br/>Sampling population: people who like the book. Result: 95% disliked the movie."
+      "content": "The 180 people were selected at random from people who indicated they liked the novel.<br/><br/>A valid statistical inference can only be generalized to the population from which the random sample was drawn.<br/><br/>Sampling population: people who like the novel. Result: 92% disliked the show."
     },
     {
       "title": "Apply the sampling principle to each choice",
-      "content": "<ul><li><strong>A:</strong> Generalizes to <em>all people who go see movies</em> &mdash; this population was not sampled, so no valid inference can be made about them</li><li><strong>B:</strong> Generalizes to <em>all people who read books</em> &mdash; we only sampled those who like THIS particular book, not all readers</li><li><strong>C:</strong> Makes a claim about people who <em>dislike</em> the book &mdash; we sampled zero people from this group, so we have no data on them</li><li><strong>D:</strong> Makes a claim about people who <em>like</em> the book &mdash; this is exactly our sampling population, and 95% (which is &quot;most&quot;) disliked the movie</li></ul>That confirms <strong>D</strong> is correct."
+      "content": "<ul><li><strong>A:</strong> Generalizes to <em>all people who watch television shows</em> &mdash; this population was not sampled, so no valid inference can be made about them</li><li><strong>B:</strong> Generalizes to <em>all people who read novels</em> &mdash; we only sampled those who like THIS particular novel, not all readers</li><li><strong>C:</strong> Makes a claim about people who <em>dislike</em> the novel &mdash; we sampled zero people from this group, so we have no data on them</li><li><strong>D:</strong> Makes a claim about people who <em>like</em> the novel &mdash; this is exactly our sampling population, and 92% (which is &quot;most&quot;) disliked the show</li></ul>That confirms <strong>D</strong> is correct."
     }
   ]
 }

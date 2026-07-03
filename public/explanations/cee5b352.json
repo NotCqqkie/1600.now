@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Make two whale-length points",
-      "content": "At birth, $x=0$ and the whale is 162 cm long, so the starting value is $162$. The whale grows $4.8$ cm per month, so the slope is $4.8$."
+      "title": "Make two seal-length points",
+      "content": "At birth, $x=0$ and the seal is 148 cm long, so the starting value is $148$. The seal grows $5.2$ cm per month, so the slope is $5.2$."
     },
     {
       "title": "Read the linear model",
-      "content": "A linear model is $$y=\\text{starting value}+(\\text{monthly growth})x.$$ Substituting the values gives $$y=162+4.8x,$$ or $$y=4.8x+162.$$"
+      "content": "A linear model is $$y=\\text{starting value}+(\\text{monthly growth})x.$$ Substituting the values gives $$y=148+5.2x,$$ or $$y=5.2x+148.$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "The correct answer is the only equation with starting length $162$ and monthly growth $4.8$. <strong>D</strong> is correct."
+      "content": "The correct answer is the only equation with starting length $148$ and monthly growth $5.2$. <strong>D</strong> is correct."
     }
   ]
 }

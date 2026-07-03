@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Factor the denominator",
-      "content": "The denominator $6x + 42$ has a greatest common factor of 6: $$6x + 42 = 6(x + 7)$$"
+      "content": "The denominator $5x + 45$ has a greatest common factor of 5: $$5x + 45 = 5(x + 9)$$"
     },
     {
       "title": "Simplify and find b",
-      "content": "Substitute the factored form and simplify: $$\\frac{24}{6(x+7)} = \\frac{4}{x+7}$$ by dividing numerator and denominator by 6. Comparing to $\\frac{4}{x+b}$, we have $x + 7 = x + b$, so $b = 7$. That confirms <strong>A</strong> is correct."
+      "content": "Substitute the factored form and simplify: $$\\frac{30}{5(x+9)} = \\frac{6}{x+9}$$ by dividing numerator and denominator by 5. Comparing to $\\frac{6}{x+b}$, we have $x + 9 = x + b$, so $b = 9$. That confirms <strong>A</strong> is correct."
     }
   ]
 }

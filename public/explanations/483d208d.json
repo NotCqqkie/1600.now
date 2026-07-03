@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Read the coefficients",
-      "content": "In $80S+90C=1{,}120$, $80S$ represents the points from square tokens, so each square token is worth $80$ points. Similarly, $90C$ shows each circle token is worth $90$ points."
+      "content": "In $70T+85C=1{,}240$, $70T$ represents the points from triangle tokens, so each triangle token is worth $70$ points. Similarly, $85C$ shows each circle token is worth $85$ points."
     },
     {
       "title": "Find the difference",
-      "content": "A circle token is worth $90-80=10$ more points than a square token."
+      "content": "A circle token is worth $85-70=15$ more points than a triangle token."
     },
     {
       "title": "Match the choice",
-      "content": "The difference is $10$, which matches the correct answer."
+      "content": "The difference is $15$, which matches choice D."
     }
   ]
 }

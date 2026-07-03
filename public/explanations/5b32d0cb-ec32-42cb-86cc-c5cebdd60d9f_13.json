@@ -1,15 +1,15 @@
 {
   "questionId": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_13",
-  "correctAnswer": "-8",
+  "correctAnswer": "-11",
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute x = 7 into the function",
-      "content": "We have $f(x) = 2x + b$. Using the condition $f(7) = 6$, substitute $x = 7$: $$f(7) = 2(7) + b = 14 + b$$"
+      "title": "Substitute x = 5 into the function",
+      "content": "We have $f(x) = 3x + b$. Using the condition $f(5) = 4$, substitute $x = 5$: $$f(5) = 3(5) + b = 15 + b$$"
     },
     {
       "title": "Solve the equation for b",
-      "content": "Since $f(7) = 6$, we have: $$14 + b = 6$$ Subtract 14 from both sides: $$b = 6 - 14 = -8$$"
+      "content": "Since $f(5) = 4$, we have: $$15 + b = 4$$ Subtract 15 from both sides: $$b = 4 - 15 = -11$$"
     }
   ]
 }

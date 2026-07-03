@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Apply the substitution from the given condition",
-      "content": "Subtract $9$ from both sides of $4c=16$: $4c-9 = 16-9$."
+      "content": "Subtract $11$ from both sides of $5c=30$: $5c-11 = 30-11$."
     },
     {
       "title": "Compute the target value",
-      "content": "So $4c-9 = 7$. That is the correct answer."
+      "content": "So $5c-11 = 19$. That is the correct answer."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches 7. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches 19. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
     }
   ]
 }

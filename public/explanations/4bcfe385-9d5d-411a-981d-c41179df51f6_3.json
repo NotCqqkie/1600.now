@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find the roots",
-      "content": "By the zero-product property, $4x(x-3)(x+9)=0$ requires one factor to be zero. That gives $x=0$, $x=3$, or $x=-9$."
+      "content": "By the zero-product property, $6x(x-4)(x+8)=0$ requires one factor to be zero. That gives $x=0$, $x=4$, or $x=-8$."
     },
     {
       "title": "Identify a valid solution",
-      "content": "Among the choices, $0$ is a root of the equation. It works because substituting $x=0$ makes the factor $4x$ equal zero. <strong>B</strong> is correct."
+      "content": "Among the choices, $0$ is a root of the equation. It works because substituting $x=0$ makes the factor $6x$ equal zero. <strong>B</strong> is correct."
     }
   ]
 }

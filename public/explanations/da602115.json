@@ -1,20 +1,20 @@
 {
   "questionId": "da602115",
-  "correctAnswer": "28",
+  "correctAnswer": "25",
   "section": "Math",
   "steps": [
     {
       "title": "Factor and apply absolute value property",
-      "content": "Recognize that $4x - 4 = 4(x-1)$:<br/>$$|4(x-1)| = 112$$<br/>Apply the property for absolute values to get:<br/>$$4|x-1| = 112$$",
+      "content": "Recognize that $6x - 6 = 6(x-1)$:<br/>$$|6(x-1)| = 150$$<br/>Apply the property for absolute values to get:<br/>$$6|x-1| = 150$$",
       "formula": "$$|ab| = |a| \\cdot |b|$$"
     },
     {
       "title": "Isolate the absolute value",
-      "content": "Divide both sides by 4:<br/>$$|x-1| = 28$$"
+      "content": "Divide both sides by 6:<br/>$$|x-1| = 25$$"
     },
     {
       "title": "Identify the positive solution",
-      "content": "From $|x-1| = 28$, we have two cases: $x - 1 = 28$ or $x - 1 = -28$. The positive value of $x - 1$ is $28$."
+      "content": "From $|x-1| = 25$, we have two cases: $x - 1 = 25$ or $x - 1 = -25$. The positive value of $x - 1$ is $25$."
     }
   ]
 }

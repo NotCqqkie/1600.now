@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set the two kinetic energy expressions equal",
-      "content": "The general kinetic energy formula is $K = \\frac{1}{2}mv^2$. We're told that for this object, $K = 34v^2$. Since both represent the same kinetic energy, we can set them equal:<br/>$$\\frac{1}{2}mv^2 = 34v^2$$"
+      "content": "The general kinetic energy formula is $K = \\frac{1}{2}mv^2$. We're told that for this object, $K = 38v^2$. Since both represent the same kinetic energy, we can set them equal:<br/>$$\\frac{1}{2}mv^2 = 38v^2$$"
     },
     {
       "title": "Solve for m",
-      "content": "Divide both sides by $v^2$ (valid since $v \\neq 0$):<br/>$$\\frac{1}{2}m = 34$$<br/>Multiply both sides by 2:<br/>$$m = 68$$<br/>That matches <strong>Choice C &mdash; 68</strong>."
+      "content": "Divide both sides by $v^2$ (valid since $v \\neq 0$):<br/>$$\\frac{1}{2}m = 38$$<br/>Multiply both sides by 2:<br/>$$m = 76$$<br/>That matches <strong>Choice C &mdash; 76</strong>."
     }
   ]
 }

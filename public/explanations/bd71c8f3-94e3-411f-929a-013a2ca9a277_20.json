@@ -9,7 +9,7 @@
     },
     {
       "title": "Substitute and evaluate",
-      "content": "$$y = -(4)^0 - 39$$\nSince $(4)^0 = 1$:\n$$y = -(1) - 39 = -40$$\n<br/>The $y$-intercept is the point $(0, -40)$. That is the correct answer."
+      "content": "$$y = -(5)^0 - 44$$\nSince $(5)^0 = 1$:\n$$y = -(1) - 44 = -45$$\n<br/>The $y$-intercept is the point $(0, -45)$. That is the correct answer."
     }
   ]
 }

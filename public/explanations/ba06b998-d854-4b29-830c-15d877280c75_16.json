@@ -1,15 +1,15 @@
 {
   "questionId": "ba06b998-d854-4b29-830c-15d877280c75_16",
-  "correctAnswer": "257",
+  "correctAnswer": "252",
   "section": "Math",
   "steps": [
     {
       "title": "Calculate the cost per tablet including tax",
-      "content": "Each tablet costs \\$164. With 6% tax applied to the total order, the effective cost per tablet is:<br/>$$164 \\times 1.06 = 173.84$$"
+      "content": "Each tablet costs \\$156. With 8% tax applied to the total order, the effective cost per tablet is:<br/>$$156 \\times 1.08 = 168.48$$"
     },
     {
       "title": "Find the maximum number of tablets the budget allows",
-      "content": "Set up the constraint: if the school orders $n$ tablets, the total cost is $173.84n$, and this must not exceed \\$44,800:<br/>$$173.84n \\leq 44,800$$<br/>$$n \\leq \\frac{44,800}{173.84} \\approx 257.7$$<br/>Since the school can only order whole tablets, the maximum number is <strong>257</strong>."
+      "content": "Set up the constraint: if the school orders $n$ tablets, the total cost is $168.48n$, and this must not exceed \\$42,500:<br/>$$168.48n \\leq 42,500$$<br/>$$n \\leq \\frac{42,500}{168.48} \\approx 252.3$$<br/>Since the school can only order whole tablets, the maximum number is <strong>252</strong>."
     }
   ]
 }

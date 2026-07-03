@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Apply the multiplier from the given condition",
-      "content": "Note $80x+70 = 10(8x+7)$, and $8x+7=79$."
+      "content": "Note $60x+50 = 10(6x+5)$, and $6x+5=59$."
     },
     {
       "title": "Compute the target value",
-      "content": "So $80x+70 = 10 \\cdot 79 = 790$. That confirms <strong>A</strong> is correct."
+      "content": "So $60x+50 = 10 \\cdot 59 = 590$. That confirms <strong>A</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above confirms <strong>A</strong>, 790. The other choices do not satisfy the same condition from the question, so <strong>A</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above confirms <strong>A</strong>, 590. The other choices do not satisfy the same condition from the question, so <strong>A</strong> is correct."
     }
   ]
 }

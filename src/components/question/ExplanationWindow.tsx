@@ -165,6 +165,7 @@ export const ExplanationWindow = ({
         constrainToLeft={constrainToLeft}
         isSidebarred={isSidebarred}
         onSidebarToggle={onSidebarToggle}
+        centerOnExitSidebar
         portalContainer={windowPortalContainer}
         boundsElement={windowBoundsElement}
         contentSplitExitPosition={contentSplitExitPosition}

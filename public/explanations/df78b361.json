@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Interpret the equation as breaking down the total jam",
-      "content": "The equation $4x + 6y = 36$ represents how 36 cups of jam are distributed. Since $x$ is the number of small containers and $y$ is the number of large containers, the terms $4x$ and $6y$ must each represent amounts of jam in cups, not container counts."
+      "title": "Interpret the equation as breaking down the total salsa",
+      "content": "The equation $5x + 8y = 40$ represents how 40 cups of salsa are distributed. Since $x$ is the number of small jars and $y$ is the number of large jars, the terms $5x$ and $8y$ must each represent amounts of salsa in cups, not jar counts."
     },
     {
       "title": "Decode what each coefficient represents",
-      "content": "In $4x$: the coefficient 4 represents cups per small container.<br/><br/>Multiplying by $x$ (the number of small containers) gives the total cups in small containers.<br/><br/>In $6y$: the coefficient 6 represents cups per large container.<br/><br/>Multiplying by $y$ (the number of large containers) gives the total cups in large containers."
+      "content": "In $5x$: the coefficient 5 represents cups per small jar.<br/><br/>Multiplying by $x$ (the number of small jars) gives the total cups in small jars.<br/><br/>In $8y$: the coefficient 8 represents cups per large jar.<br/><br/>Multiplying by $y$ (the number of large jars) gives the total cups in large jars."
     },
     {
-      "title": "Identify what 6y represents",
-      "content": "$6y$ represents (6 cups per large container) times (the number of large containers), which is the total cups of jam in the large containers. That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Identify what 8y represents",
+      "content": "$8y$ represents (8 cups per large jar) times (the number of large jars), which is the total cups of salsa in the large jars. That matches the correct answer - <strong>C</strong> is correct."
     }
   ]
 }

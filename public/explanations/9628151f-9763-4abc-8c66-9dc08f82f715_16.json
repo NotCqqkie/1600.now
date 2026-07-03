@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Isolate $x^2 - 2x$ by dividing both sides",
-      "content": "Divide both sides by $3$: $x^{2}-2x-10=0$."
+      "title": "Isolate $x^2 - 3x$ by dividing both sides",
+      "content": "Divide both sides by $4$: $x^{2}-3x-7=0$."
     },
     {
       "title": "Compute the target value",
-      "content": "So $x^{2}-2x = 10$. That confirms <strong>A</strong> is correct."
+      "content": "So $x^{2}-3x = 7$. That confirms <strong>A</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches the correct answer, 10. The other choices do not satisfy the same condition from the question, so <strong>A</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches the correct answer, 7. The other choices do not satisfy the same condition from the question, so <strong>A</strong> is correct."
     }
   ]
 }

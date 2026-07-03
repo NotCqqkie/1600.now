@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Translate the length-height relationship",
-      "content": "The problem states <em>the vehicle's length is 4 times its height</em>. Since $x$ represents length and $y$ represents height, this translates to $x = 4y$. Systems that use $y = 4x$ reverse the relationship, making height 4 times length instead."
+      "content": "The problem states <em>the unit's length is 3 times its height</em>. Since $x$ represents length and $y$ represents height, this translates to $x = 3y$. Systems that use $y = 3x$ reverse the relationship, making height 3 times length instead."
     },
     {
       "title": "Translate the height value and identify the system",
-      "content": "The problem states <em>the height of a certain vehicle is 76 inches</em>. Since $y$ represents height, this gives us $y = 76$. The system of equations must contain both $x = 4y$ and $y = 76$. That matches the correct answer — <strong>B</strong> is correct."
+      "content": "The problem states <em>the height of a certain storage unit is 84 inches</em>. Since $y$ represents height, this gives us $y = 84$. The system of equations must contain both $x = 3y$ and $y = 84$. That matches the correct answer; <strong>B</strong> is correct."
     }
   ]
 }

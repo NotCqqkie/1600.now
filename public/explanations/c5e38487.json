@@ -1,15 +1,15 @@
 {
   "questionId": "c5e38487",
-  "correctAnswer": "46",
+  "correctAnswer": "56",
   "section": "Math",
   "steps": [
     {
       "title": "Define variable and set up equation",
-      "content": "Let w be the volume of water in mL. The total volume is the sum of water and acetic acid: $$w + 10 = 56.$$"
+      "content": "Let w be the volume of water in mL. The total volume is the sum of water and acetic acid: $$w + 12 = 68.$$"
     },
     {
       "title": "Solve for water volume",
-      "content": "Subtract 10 from both sides: $$w = 56 - 10 = 46.$$ The answer is <strong>46</strong>."
+      "content": "Subtract 12 from both sides: $$w = 68 - 12 = 56.$$ The answer is <strong>56</strong>."
     }
   ]
 }

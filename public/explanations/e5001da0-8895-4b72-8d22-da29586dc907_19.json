@@ -1,6 +1,6 @@
 {
   "questionId": "e5001da0-8895-4b72-8d22-da29586dc907_19",
-  "correctAnswer": "1.3,13/10",
+  "correctAnswer": "1.6,8/5",
   "section": "Math",
   "steps": [
     {
@@ -9,11 +9,11 @@
     },
     {
       "title": "Find the multiplier",
-      "content": "Compare the $x$-coefficients. If the second equation is $s$ times the first equation, then $$\\frac{8}{13}=s\\left(\\frac{4}{5}\\right).$$ Therefore $$s=\\frac{8}{13}\\div\\frac{4}{5}=\\frac{8}{13}\\cdot\\frac{5}{4}=\\frac{10}{13}.$$"
+      "content": "Compare the $x$-coefficients. If the second equation is $s$ times the first equation, then $$\\frac{15}{28}=s\\left(\\frac{6}{7}\\right).$$ Therefore $$s=\\frac{15}{28}\\div\\frac{6}{7}=\\frac{15}{28}\\cdot\\frac{7}{6}=\\frac{5}{8}.$$"
     },
     {
       "title": "Convert the multiplier to the requested ratio",
-      "content": "The same multiplier applies to the constants, so $k=sg=\\frac{10}{13}g$. The question asks for $\\frac{g}{k}$: $$\\frac{g}{k}=\\frac{g}{(10/13)g}=\\frac{13}{10}=1.3.$$ The answer is <strong>1.3,13/10</strong>."
+      "content": "The same multiplier applies to the constants, so $k=sg=\\frac{5}{8}g$. The question asks for $\\frac{g}{k}$: $$\\frac{g}{k}=\\frac{g}{(5/8)g}=\\frac{8}{5}=1.6.$$ The answer is <strong>1.6,8/5</strong>."
     }
   ]
 }

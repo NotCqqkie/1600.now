@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The passage says cacao's structure 'is no longer identical' to its wild ancestor, then signals 'Maize (corn) also ______.' The word 'also' signals that maize does something parallel to cacao: it differs from its wild ancestor. The next two sentences confirm this &mdash; the ancestor had few small kernels, but selective breeding produced many large ones."
+      "content": "The passage says cacao's structure 'is no longer identical' to its wild ancestor, then signals 'Maize (corn) also ______ its wild ancestor.' The word 'also' signals that maize does something parallel to cacao: it differs from its wild ancestor. The next two sentences confirm this &mdash; the ancestor had few small kernels, but selective breeding produced numerous fleshy kernels."
     },
     {
       "title": "Eliminate the choices",

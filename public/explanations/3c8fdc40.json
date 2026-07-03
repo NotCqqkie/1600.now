@@ -1,15 +1,15 @@
 {
   "questionId": "3c8fdc40",
-  "correctAnswer": "2520",
+  "correctAnswer": "2160",
   "section": "Math",
   "steps": [
     {
       "title": "Set up the unit conversion",
-      "content": "To convert from posters per minute to posters per hour, we need to multiply by the number of minutes in an hour. Since 1 hour = 60 minutes, multiply the given rate by 60."
+      "content": "To convert from flyers per minute to flyers per hour, we need to multiply by the number of minutes in an hour. Since 1 hour = 60 minutes, multiply the given rate by 60."
     },
     {
       "title": "Calculate the hourly production rate",
-      "content": "The printer produces 42 posters per minute. Multiplying by 60:<br/>$$42 \\times 60 = 2520 \\text{ posters/hour}$$"
+      "content": "The printer produces 36 flyers per minute. Multiplying by 60:<br/>$$36 \\times 60 = 2160 \\text{ flyers/hour}$$"
     }
   ]
 }

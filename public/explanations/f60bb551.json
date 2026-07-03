@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Use the rectangle area formula",
-      "content": "For a rectangle, area equals length times width. Here, the area is $630$ square inches and the length is $70$ inches, so set up $630=70w$."
+      "content": "For a rectangle, area equals length times width. Here, the area is $560$ square inches and the length is $80$ inches, so set up $560=80w$."
     },
     {
       "title": "Use the area formula to find width",
-      "content": "For a rectangle, area equals length times width. We have area = 630 and length = 70, so:<br/>$$630 = 70 \\times w$$<br/>Divide both sides by 70:<br/>$$w = \\frac{630}{70} = 9$$<br/>The width is 9 inches. That matches the correct answer — <strong>A</strong> is correct.",
+      "content": "For a rectangle, area equals length times width. We have area = 560 and length = 80, so:<br/>$$560 = 80 \\times w$$<br/>Divide both sides by 80:<br/>$$w = \\frac{560}{80} = 7$$<br/>The width is 7 inches. That matches the correct answer - <strong>A</strong> is correct.",
       "formula": "$$A = L \\times W$$"
     }
   ]

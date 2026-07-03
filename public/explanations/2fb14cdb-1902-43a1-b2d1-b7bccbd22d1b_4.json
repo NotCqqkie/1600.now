@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Set the two ratios equal",
-      "content": "$\\frac{6}{3} = \\frac{24}{3k}$.<br/>Simplify the left side: $\\frac{6}{3} = 2$, so $2 = \\frac{24}{3k}$."
+      "content": "$\\frac{8}{4} = \\frac{40}{4k}$.<br/>Simplify the left side: $\\frac{8}{4} = 2$, so $2 = \\frac{40}{4k}$."
     },
     {
       "title": "Solve for $k$",
-      "content": "Multiply both sides by $3k$: $2 \\cdot 3k = 24$, giving $6k = 24$, so $k = 4$."
+      "content": "Multiply both sides by $4k$: $2 \\cdot 4k = 40$, giving $8k = 40$, so $k = 5$."
     },
     {
       "title": "Check the answer choices",
-      "content": "<ul><li>A. $0.75$ &mdash; gives $3k = 2.25$, ratio $24/2.25 \\approx 10.7 \\neq 2$; eliminated.</li><li>B. $4$ &mdash; gives $3k = 12$, ratio $24/12 = 2$; matches.</li><li>C. $12$ &mdash; gives $3k = 36$, ratio $24/36 \\approx 0.67 \\neq 2$; eliminated.</li><li>D. $72$ &mdash; gives $3k = 216$, ratio $24/216 \\approx 0.11 \\neq 2$; eliminated.</li></ul><strong>B</strong> is correct."
+      "content": "<ul><li>A. $0.8$ &mdash; gives $4k = 3.2$, ratio $40/3.2 = 12.5 \\neq 2$; eliminated.</li><li>B. $5$ &mdash; gives $4k = 20$, ratio $40/20 = 2$; matches.</li><li>C. $20$ &mdash; gives $4k = 80$, ratio $40/80 = 0.5 \\neq 2$; eliminated.</li><li>D. $160$ &mdash; gives $4k = 640$, ratio $40/640 = 0.0625 \\neq 2$; eliminated.</li></ul><strong>B</strong> is correct."
     }
   ]
 }

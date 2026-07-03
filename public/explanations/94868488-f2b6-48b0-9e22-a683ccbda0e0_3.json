@@ -1,6 +1,6 @@
 {
   "questionId": "94868488-f2b6-48b0-9e22-a683ccbda0e0_3",
-  "correctAnswer": "4",
+  "correctAnswer": "5",
   "section": "Math",
   "steps": [
     {
@@ -9,15 +9,15 @@
     },
     {
       "title": "Set up",
-      "content": "Given $y = 2$ cubic feet, substitute into $32x + 81y = 290$: $32x + 81(2) = 290$, so $32x + 162 = 290$."
+      "content": "Given $y = 2$ cubic feet, substitute into $34x + 79y = 328$: $34x + 79(2) = 328$, so $34x + 158 = 328$."
     },
     {
       "title": "Solve",
-      "content": "$32x = 128$, so $x = 4$."
+      "content": "$34x = 170$, so $x = 5$."
     },
     {
       "title": "Answer",
-      "content": "<strong>4</strong> is correct."
+      "content": "<strong>5</strong> is correct."
     }
   ]
 }

@@ -4,21 +4,21 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+      "title": "Fastest path: identify the rectangle first",
+      "content": "Count the relevant dimensions or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
     },
     {
       "title": "Identify the dimensions",
-      "content": "From the problem: width = $w$ feet and length = $1.59w$ feet."
+      "content": "From the problem: width = $w$ feet and length = $1.47w$ feet."
     },
     {
       "title": "Apply the area formula",
-      "content": "For a rectangle, Area = length × width. Substituting: $$A = (1.59w)(w)$$",
+      "content": "For a rectangle, Area = length times width. Substituting: $$A = (1.47w)(w)$$",
       "formula": "$$A = l \\times w$$"
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li><strong>Choice A — $A = (1.59w)(w)$</strong>: Multiplies length $1.59w$ by width $w$ directly from the area formula. &#10003;</li><li><strong>Choice B — $A = \\left(\\frac{1.59w}{w}\\right)(w)$</strong>: The fraction $\\frac{1.59w}{w}$ simplifies to $1.59$, giving $A = 1.59w$ (just the length, not area). &#10007;</li><li><strong>Choice C — $A = (w - 1.59)(w)$</strong>: Subtracts $1.59$ from $w$ instead of multiplying; has no basis in the given length. &#10007;</li><li><strong>Choice D — $A = (w + 1.59)(w)$</strong>: Adds $1.59$ to $w$, confusing the coefficient with an addend. &#10007;</li></ul><strong>A</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; $A = (1.47w)(w)$</strong>: Multiplies length $1.47w$ by width $w$ directly from the area formula. &#10003;</li><li><strong>Choice B &mdash; $A = \\left(\\frac{1.47w}{w}\\right)(w)$</strong>: The fraction $\\frac{1.47w}{w}$ simplifies to $1.47$, giving $A = 1.47w$ (just the length, not area). &#10007;</li><li><strong>Choice C &mdash; $A = (w - 1.47)(w)$</strong>: Subtracts $1.47$ from $w$ instead of multiplying; has no basis in the given length. &#10007;</li><li><strong>Choice D &mdash; $A = (w + 1.47)(w)$</strong>: Adds $1.47$ to $w$, confusing the coefficient with an addend. &#10007;</li></ul><strong>A</strong> is correct."
     }
   ]
 }

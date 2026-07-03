@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Translate the 4% annual increase",
-      "content": "The initial population is $15{,}000$, so the coefficient should be $15{,}000$. A $4\\%$ yearly increase means each year is multiplied by $1+0.04=1.04$."
+      "title": "Translate the 3% annual increase",
+      "content": "The initial population is $18{,}000$, so the coefficient should be $18{,}000$. A $3\\%$ yearly increase means each year is multiplied by $1+0.03=1.03$."
     },
     {
       "title": "Build the exponential model",
-      "content": "After $x$ years, the factor $1.04$ is applied $x$ times:<br/>$$p=15{,}000(1.04)^x$$"
+      "content": "After $x$ years, the factor $1.03$ is applied $x$ times:<br/>$$p=18{,}000(1.03)^x$$"
     },
     {
       "title": "Evaluate each choice",
-      "content": "The equations $p=0.96{ \\left(15,000\\right)}^{x}$ and $p=1.04{ \\left(15,000\\right)}^{x}$ put $15{,}000$ in the exponential base and misuse the initial population. The equation $p=15,000{ \\left(0.96\\right)}^{x}$ uses $0.96$, which would be a decrease. The model $p=15,000{ \\left(1.04\\right)}^{x}$ is correct."
+      "content": "The equations $p=0.97{ \\left(18,000\\right)}^{x}$ and $p=1.03{ \\left(18,000\\right)}^{x}$ put $18{,}000$ in the exponential base and misuse the initial population. The equation $p=18,000{ \\left(0.97\\right)}^{x}$ uses $0.97$, which would be a decrease. The model $p=18,000{ \\left(1.03\\right)}^{x}$ is correct, so <strong>D</strong> is the answer."
     }
   ]
 }

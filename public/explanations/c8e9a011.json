@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Isolate the fraction containing n",
-      "content": "Start by moving $-\\frac{2}{t}$ to the right side:<br/>$$\\frac{12}{n} = -\\frac{2}{w} + \\frac{2}{t}$$<br/>This groups the terms we can combine."
+      "content": "Start by moving $-\\frac{4}{t}$ to the right side:<br/>$$\\frac{20}{n} = -\\frac{4}{w} + \\frac{4}{t}$$<br/>This groups the terms we can combine."
     },
     {
       "title": "Combine the right side over a common denominator",
-      "content": "The right side has denominators $w$ and $t$, so use $tw$ as the common denominator:<br/>$$-\\frac{2}{w} + \\frac{2}{t} = \\frac{-2t}{tw} + \\frac{2w}{tw} = \\frac{2w - 2t}{tw} = \\frac{2(w-t)}{tw}$$<br/>Now we have: $$\\frac{12}{n} = \\frac{2(w-t)}{tw}$$"
+      "content": "The right side has denominators $w$ and $t$, so use $tw$ as the common denominator:<br/>$$-\\frac{4}{w} + \\frac{4}{t} = \\frac{-4t}{tw} + \\frac{4w}{tw} = \\frac{4w - 4t}{tw} = \\frac{4(w-t)}{tw}$$<br/>Now we have: $$\\frac{20}{n} = \\frac{4(w-t)}{tw}$$"
     },
     {
       "title": "Invert both sides and simplify",
-      "content": "When $\\frac{12}{n} = \\frac{2(w-t)}{tw}$, take reciprocals of both sides:<br/>$$\\frac{n}{12} = \\frac{tw}{2(w-t)}$$<br/>Multiply both sides by 12:<br/>$$n = \\frac{12tw}{2(w-t)} = \\frac{6tw}{w-t}$$<br/>That is the correct answer."
+      "content": "When $\\frac{20}{n} = \\frac{4(w-t)}{tw}$, take reciprocals of both sides:<br/>$$\\frac{n}{20} = \\frac{tw}{4(w-t)}$$<br/>Multiply both sides by 20:<br/>$$n = \\frac{20tw}{4(w-t)} = \\frac{5tw}{w-t}$$<br/>That is choice D, the correct answer."
     }
   ]
 }

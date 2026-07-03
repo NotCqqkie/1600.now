@@ -9,7 +9,7 @@
     },
     {
       "title": "Translate the constraint to an inequality",
-      "content": "Breaking down: <em>The product of 12 and the fourth is at most 26 less than the sum of the first and third.</em><ul><li>Product of 12 and the fourth: $\\left(12\\right)(x+6)$</li><li>Sum of first and third: $x+(x+4)$</li><li>26 less than that sum: $x+(x+4)-26$</li><li>Is at most means: $\\le$</li></ul>Write the inequality:<br/>$$12(x+6) \\le x+(x+4)-26$$<br/>That matches the correct answer — <strong>A</strong> is correct."
+      "content": "Breaking down: <em>The product of 9 and the fourth is at most 18 less than the sum of the first and third.</em><ul><li>Product of 9 and the fourth: $\\left(9\\right)(x+6)$</li><li>Sum of first and third: $x+(x+4)$</li><li>18 less than that sum: $x+(x+4)-18$</li><li>Is at most means: $\\le$</li></ul>Write the inequality:<br/>$$9(x+6) \\le x+(x+4)-18$$<br/>That matches the correct answer &mdash; <strong>A</strong> is correct."
     }
   ]
 }

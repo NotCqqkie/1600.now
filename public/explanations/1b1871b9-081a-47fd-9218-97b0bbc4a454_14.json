@@ -9,12 +9,12 @@
     },
     {
       "title": "Apply the triangle area formula",
-      "content": "The area of a triangle depends on its base and height. We have base = 48 cm and height = 96 cm.",
+      "content": "The area of a triangle depends on its base and height. We have base = 54 cm and height = 84 cm.",
       "formula": "$$A = \\frac{1}{2} \\cdot \\text{base} \\cdot \\text{height}$$"
     },
     {
       "title": "Substitute and calculate the area",
-      "content": "Substitute base = 48 and height = 96 into the formula:<br/>$$A = \\frac{1}{2} \\cdot 48 \\cdot 96$$<br/>Simplify by calculating $\\frac{1}{2} \\cdot 48 = 24$:<br/>$$A = 24 \\cdot 96 = 2,304$$<br/>The area is 2,304 square centimeters. That matches <strong>Choice A &mdash; 2,304</strong>."
+      "content": "Substitute base = 54 and height = 84 into the formula:<br/>$$A = \\frac{1}{2} \\cdot 54 \\cdot 84$$<br/>Simplify by calculating $\\frac{1}{2} \\cdot 54 = 27$:<br/>$$A = 27 \\cdot 84 = 2,268$$<br/>The area is 2,268 square centimeters. That matches <strong>Choice A &mdash; 2,268</strong>."
     }
   ]
 }

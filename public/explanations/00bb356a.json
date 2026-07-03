@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Identify the key demand",
-      "content": "The prompt asks the student to “describe HOW the bicycles...are fused together.” The word “how” signals that the correct answer must provide specific details about the fusion mechanism, not just background information or a statement that fusion occurred."
+      "content": "The prompt asks the student to “describe how the bicycles in <em>Double Phantom/EntroP.R.</em> are fused together.” The word “how” signals that the correct answer must provide specific details about the fusion mechanism, not just background information or a statement that fusion occurred."
     },
     {
       "title": "Match the mechanism to the choices",

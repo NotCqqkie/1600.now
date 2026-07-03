@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Test which point satisfies both inequalities",
-      "content": "A solution must satisfy both: $y \\le x + 7$ <strong>AND</strong> $y \\ge -2x - 1$. Substitute each choice into both inequalities."
+      "content": "A solution must satisfy both: $y \\le x + 6$ <strong>AND</strong> $y \\ge -3x - 2$. Substitute each choice into both inequalities."
     },
     {
       "title": "Test the other choices through C",
-      "content": "<ul><li><strong>Choice A — $\\left(-14,0\\right)$</strong>: $0 \\le -14+7$ becomes $0 \\le -7$, which is false.</li><li><strong>Choice B — $\\left(0,-14\\right)$</strong>: $-14 \\le 0+7$ is true, but $-14 \\ge -2(0)-1$ becomes $-14 \\ge -1$, which is false.</li><li><strong>Choice C — $\\left(0,14\\right)$</strong>: $14 \\le 0+7$ becomes $14 \\le 7$, which is false.</li></ul>"
+      "content": "<ul><li><strong>Choice A - $\\left(-12,0\\right)$</strong>: $0 \\le -12+6$ becomes $0 \\le -6$, which is false.</li><li><strong>Choice B - $\\left(0,-12\\right)$</strong>: $-12 \\le 0+6$ is true, but $-12 \\ge -3(0)-2$ becomes $-12 \\ge -2$, which is false.</li><li><strong>Choice C - $\\left(0,12\\right)$</strong>: $12 \\le 0+6$ becomes $12 \\le 6$, which is false.</li></ul>"
     },
     {
-      "title": "Testing the correct answer (14, 0)",
-      "content": "First inequality: $0 \\le 14 + 7 = 21$? Yes. Second inequality: $0 \\ge -2(14) - 1 = -28 - 1 = -29$? Yes. Both inequalities are satisfied. <strong>D</strong> is correct."
+      "title": "Testing the correct answer (12, 0)",
+      "content": "First inequality: $0 \\le 12 + 6 = 18$? Yes. Second inequality: $0 \\ge -3(12) - 2 = -36 - 2 = -38$? Yes. Both inequalities are satisfied. <strong>D</strong> is correct."
     }
   ]
 }

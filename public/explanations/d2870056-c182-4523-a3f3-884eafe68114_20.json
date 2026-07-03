@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Analyze the equation",
-      "content": "Factor as a difference of squares: $$x^2-49=(x-7)(x+7)=0.$$ So $x=7$ or $x=-7$."
+      "content": "Factor as a difference of squares: $$x^2-64=(x-8)(x+8)=0.$$ So $x=8$ or $x=-8$."
     },
     {
       "title": "Count the solutions",
-      "content": "There are two real solutions, $7$ and $-7$. That is the correct answer."
+      "content": "There are two real solutions, $8$ and $-8$. That is the correct answer."
     },
     {
       "title": "Confirm the answer",

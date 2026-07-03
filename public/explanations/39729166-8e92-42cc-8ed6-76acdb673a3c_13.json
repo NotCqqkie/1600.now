@@ -9,11 +9,11 @@
     },
     {
       "title": "Read the yearly multiplier",
-      "content": "Each year, the value is multiplied by $0.28$. That means the equipment keeps $28\\%$ of its value each year."
+      "content": "Each year, the value is multiplied by $0.27$. That means the machine keeps $27\\%$ of its value each year."
     },
     {
       "title": "Find the percent decrease",
-      "content": "If $28\\%$ is kept, then $100\\%-28\\%=72\\%$ is lost. Thus $p=72$, which matches the correct answer."
+      "content": "If $27\\%$ is kept, then $100\\%-27\\%=73\\%$ is lost. Thus $p=73$, which matches the correct answer."
     }
   ]
 }

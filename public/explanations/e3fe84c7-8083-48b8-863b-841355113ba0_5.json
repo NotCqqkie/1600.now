@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Use a two-point exponential setup",
-      "content": "A $4\\%$ annual increase means one year after the starting point the population is $\\left(5000\\right)(1.04)=5200$. Use the values at $x=0$ and $x=1$ directly."
+      "content": "A $3\\%$ annual increase means one year after the starting point the population is $\\left(6000\\right)(1.03)=6180$. Use the values at $x=0$ and $x=1$ directly."
     },
     {
       "title": "Read the model",
-      "content": "In an exponential model $p=a(b)^x$, the value at $x=0$ is $a$, so $a=5000$. A $4\\%$ annual increase means the growth factor is $b=1+0.04=1.04$. The model is $p=5000(1.04)^x$."
+      "content": "In an exponential model $p=a(b)^x$, the value at $x=0$ is $a$, so $a=6000$. A $3\\%$ annual increase means the growth factor is $b=1+0.03=1.03$. The model is $p=6000(1.03)^x$."
     },
     {
       "title": "Check the choices",
-      "content": "<ul><li><strong>\"$p=0.96(5,000)^{x}$\"</strong>: $0.96$ is a decay factor and $(5000)^x$ is not the right growth form. Eliminated.</li><li><strong>\"$p=1.04(5,000)^{x}$\"</strong>: uses $5000$ as the base raised to $x$, so the initial value is wrong. Eliminated.</li><li><strong>\"$p=5,000(0.96)^{x}$\"</strong>: uses $0.96$, a $4\\%$ decrease. Eliminated.</li><li><strong>\"$p=5,000(1.04)^{x}$\"</strong>: initial population $5000$ multiplied by growth factor $1.04$ each year. Correct.</li></ul>$p=5,000(1.04)^{x}$ is correct."
+      "content": "<ul><li><strong>\"$p=0.97(6,000)^{x}$\"</strong>: $0.97$ is a decay factor and $(6000)^x$ is not the right growth form. Eliminated.</li><li><strong>\"$p=1.03(6,000)^{x}$\"</strong>: uses $6000$ as the base raised to $x$, so the initial value is wrong. Eliminated.</li><li><strong>\"$p=6,000(0.97)^{x}$\"</strong>: uses $0.97$, a $3\\%$ decrease. Eliminated.</li><li><strong>\"$p=6,000(1.03)^{x}$\"</strong>: initial population $6000$ multiplied by growth factor $1.03$ each year. Correct.</li></ul>$p=6,000(1.03)^{x}$ is correct."
     }
   ]
 }

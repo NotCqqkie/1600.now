@@ -1,6 +1,6 @@
 {
   "questionId": "a22baf87-f61e-43f7-b868-52cf0e05d234_13",
-  "correctAnswer": "89",
+  "correctAnswer": "76",
   "section": "Math",
   "steps": [
     {
@@ -9,15 +9,15 @@
     },
     {
       "title": "Use the circumference formula",
-      "content": "For a circle, circumference equals $\\pi$ times diameter: $$C=\\pi d.$$ The problem gives $C=89\\pi$, so $$89\\pi=\\pi d.$$"
+      "content": "For a circle, circumference equals $\\pi$ times diameter: $$C=\\pi d.$$ The problem gives $C=76\\pi$, so $$76\\pi=\\pi d.$$"
     },
     {
       "title": "Cancel pi",
-      "content": "Divide both sides by $\\pi$: $$d=89.$$ This is faster than finding the radius first because the formula already uses diameter."
+      "content": "Divide both sides by $\\pi$: $$d=76.$$ This is faster than finding the radius first because the formula already uses diameter."
     },
     {
       "title": "Confirm the diameter",
-      "content": "If the diameter is $89$, then the circumference is $\\pi(89)=89\\pi$, matching the given circumference. The diameter is <strong>89</strong> centimeters."
+      "content": "If the diameter is $76$, then the circumference is $\\pi(76)=76\\pi$, matching the given circumference. The diameter is <strong>76</strong> centimeters."
     }
   ]
 }

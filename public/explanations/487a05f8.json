@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "This is a &quot;according to the text&quot; comprehension question. The passage opens with a direct statement of what the narrator and Mario did during the car ride; the correct choice must match that statement exactly."
+      "content": "This is a &quot;according to the text&quot; comprehension question. The passage opens with a direct statement of what the narrator and Diego did during the car ride; the correct choice must match that statement exactly."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A — They read books.</strong>: The passage never mentions reading during the car ride. &#10007;</li><li><strong>Choice B — They sang songs.</strong>: The passage never mentions singing during the car ride. &#10007;</li><li><strong>Choice C — They went to sleep.</strong>: The passage never mentions sleeping during the car ride. &#10007;</li><li><strong>Choice D — They played games.</strong>: The passage states directly that &quot;Mario and I played games to see how many different license plates we could spot.&quot; &#10003;</li></ul><strong>D</strong> is correct."
+      "content": "<ul><li><strong>Choice A — They read books.</strong>: The passage never mentions reading during the car ride. &#10007;</li><li><strong>Choice B — They sang songs.</strong>: The passage never mentions singing during the car ride. &#10007;</li><li><strong>Choice C — They went to sleep.</strong>: The passage never mentions sleeping during the car ride. &#10007;</li><li><strong>Choice D — They played games.</strong>: The passage states directly that &quot;Diego and I played games to see how many different license plates we could spot.&quot; &#10003;</li></ul><strong>D</strong> is correct."
     }
   ]
 }

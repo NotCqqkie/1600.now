@@ -1,19 +1,19 @@
 {
   "questionId": "0c54aae7-15f2-4e7b-a138-cae820ff684e_12",
-  "correctAnswer": "0.059",
+  "correctAnswer": "0.066",
   "section": "Math",
   "steps": [
     {
-      "title": "Evaluate f(1991)",
-      "content": "Substitute $x = 1991$ into the model:<br/>$$f(1991) = -0.0038400(1991)^2 + 15.236(1991) - 15,103$$<br/>Calculate $(1991)^2 = 3,964,081$, then evaluate each term:<ul><li>$-0.0038400 \\times 3,964,081 = -15,222.071$</li><li>$15.236 \\times 1991 = 30,334.876$</li></ul>Combining all three terms:<br/>$$f(1991) = -15,222.071 + 30,334.876 - 15,103 = 9.805$$"
+      "title": "Evaluate f(1993)",
+      "content": "Substitute $x = 1993$ into the model:<br/>$$f(1993) = -0.0038500(1993)^2 + 15.284(1993) - 15,159$$<br/>Calculate $(1993)^2 = 3,972,049$, then evaluate each term:<ul><li>$-0.0038500 \\times 3,972,049 = -15,292.389$</li><li>$15.284 \\times 1993 = 30,461.012$</li></ul>Combining all three terms:<br/>$$f(1993) = -15,292.389 + 30,461.012 - 15,159 = 9.623$$"
     },
     {
-      "title": "Evaluate f(1992)",
-      "content": "Substitute $x = 1992$ into the model:<br/>$$f(1992) = -0.0038400(1992)^2 + 15.236(1992) - 15,103$$<br/>Calculate $(1992)^2 = 3,968,064$, then evaluate each term:<ul><li>$-0.0038400 \\times 3,968,064 = -15,237.366$</li><li>$15.236 \\times 1992 = 30,350.112$</li></ul>Combining all three terms:<br/>$$f(1992) = -15,237.366 + 30,350.112 - 15,103 = 9.746$$"
+      "title": "Evaluate f(1994)",
+      "content": "Substitute $x = 1994$ into the model:<br/>$$f(1994) = -0.0038500(1994)^2 + 15.284(1994) - 15,159$$<br/>Calculate $(1994)^2 = 3,976,036$, then evaluate each term:<ul><li>$-0.0038500 \\times 3,976,036 = -15,307.739$</li><li>$15.284 \\times 1994 = 30,476.296$</li></ul>Combining all three terms:<br/>$$f(1994) = -15,307.739 + 30,476.296 - 15,159 = 9.557$$"
     },
     {
       "title": "Calculate the positive difference and round",
-      "content": "Find the absolute difference between the predicted sea ice areas:<br/>$$|f(1992) - f(1991)| = |9.746 - 9.805| = |-0.059| = 0.059$$<br/>This difference is already expressed to the nearest thousandth as a positive value: <strong>0.059</strong> million square kilometers."
+      "content": "Find the absolute difference between the predicted sea ice areas:<br/>$$|f(1994) - f(1993)| = |9.557 - 9.623| = |-0.066| = 0.066$$<br/>This difference is already expressed to the nearest thousandth as a positive value: <strong>0.066</strong> million square kilometers."
     }
   ]
 }

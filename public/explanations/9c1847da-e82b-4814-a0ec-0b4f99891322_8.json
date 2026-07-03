@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Compute the confidence interval",
-      "content": "The margin of error creates a confidence interval around the sample mean: $$7 \\pm 1.6 = [5.4, 8.6]$$.<br/>Thus the lower bound is $$7 - 1.6 = 5.4$$ and the upper bound is $$7 + 1.6 = 8.6$$."
+      "content": "The margin of error creates a confidence interval around the sample mean: $$8 \\pm 1.4 = [6.6, 9.4]$$.<br/>Thus the lower bound is $$8 - 1.4 = 6.6$$ and the upper bound is $$8 + 1.4 = 9.4$$."
     },
     {
       "title": "Interpret the interval for the answer choices",
-      "content": "A confidence interval of [5.4, 8.6] means it is plausible that the true population mean lies anywhere between 5.4 and 8.6 books. The correct answer states that the actual mean is between 5.4 and 8.6, which matches the interval.<br/>That confirms <strong>B</strong> is correct."
+      "content": "A confidence interval of [6.6, 9.4] means it is plausible that the true population mean lies anywhere between 6.6 and 9.4 books. The correct answer states that the actual mean is between 6.6 and 9.4, which matches the interval.<br/>That confirms <strong>B</strong> is correct."
     }
   ]
 }

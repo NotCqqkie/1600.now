@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "One solution $\\Rightarrow$ discriminant = 0",
-      "content": "Use the discriminant when the question is really asking how many real solutions a quadratic has. The sign of $b^2-4ac$ tells whether there are two, one, or no real solutions. For $x^2 + \\sqrt{k-3}\\,x + 33 = 0$: $a=1$, $b=\\sqrt{k-3}$, $c=33$. Set $b^2-4ac=0$."
+      "content": "Use the discriminant when the question is really asking how many real solutions a quadratic has. The sign of $b^2-4ac$ tells whether there are two, one, or no real solutions. For $x^2 + \\sqrt{k-5}\\,x + 35 = 0$: $a=1$, $b=\\sqrt{k-5}$, $c=35$. Set $b^2-4ac=0$."
     },
     {
       "title": "Solve for k",
-      "content": "$(sqrt{k-3})^2-4(1)(33)=0$, so $k-3-132=0$ and $k=135$. That confirms <strong>A</strong> is correct."
+      "content": "$(sqrt{k-5})^2-4(1)(35)=0$, so $k-5-140=0$ and $k=145$. That confirms <strong>A</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches the correct answer, 135, and the other choices fail the same setup or substitution. Therefore <strong>A</strong> is correct."
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches the correct answer, 145, and the other choices fail the same setup or substitution. Therefore <strong>A</strong> is correct."
     }
   ]
 }

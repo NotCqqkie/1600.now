@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "In 2010, $a$ is the number of advanced skaters and $b$ is the number of intermediate skaters. A 53% increase means multiply the advanced group by $1.53$, and a 44% increase means multiply the intermediate group by $1.44$."
+      "content": "In 2012, $a$ is the number of advanced riders and $b$ is the number of recreational riders. A 47% increase means multiply the advanced group by $1.47$, and a 38% increase means multiply the recreational group by $1.38$."
     },
     {
       "title": "Write the total after growth",
-      "content": "The 2010 total was $35$, and the total number of skaters increased by 49%, so the 2020 total is $35(1.49)$. The sum of the two 2020 group counts is $1.53a + 1.44b$, so the equation should be $$1.53a + 1.44b = 35(1.49).$$"
+      "content": "The 2012 total was $40$, and the total number of riders increased by 43%, so the 2022 total is $40(1.43)$. The sum of the two 2022 group counts is $1.47a + 1.38b$, so the equation should be $$1.47a + 1.38b = 40(1.43).$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice C (&lsquo;$1.53a + 1.44b = 35(1.49)$&rsquo;) is the only choice that puts $1.53$ with $a$, $1.44$ with $b$, and $1.49$ with the total. Therefore, <strong>C</strong> is correct."
+      "content": "Choice C (&lsquo;$1.47a + 1.38b = 40(1.43)$&rsquo;) is the only choice that puts $1.47$ with $a$, $1.38$ with $b$, and $1.43$ with the total. Therefore, <strong>C</strong> is correct."
     }
   ]
 }

@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Distribute the subtraction",
-      "content": "Start with $$\\left(\\frac{1}{2}x+3\\right)-\\left(\\frac{2}{3}x-5\\right).$$ Change the signs in the second parentheses:<br/>$$\\frac{1}{2}x+3-\\frac{2}{3}x+5.$$"
+      "content": "Start with $$\\left(\\frac{2}{3}x+4\\right)-\\left(\\frac{5}{6}x-2\\right).$$ Change the signs in the second parentheses:<br/>$$\\frac{2}{3}x+4-\\frac{5}{6}x+2.$$"
     },
     {
       "title": "Combine like terms",
-      "content": "The constants give $3+5=8$. The coefficient of $x$ is $$\\frac{1}{2}-\\frac{2}{3}=\\frac{3}{6}-\\frac{4}{6}=-\\frac{1}{6}.$$ So the expression is $$-\\frac{1}{6}x+8.$$"
+      "content": "The constants give $4+2=6$. The coefficient of $x$ is $$\\frac{2}{3}-\\frac{5}{6}=\\frac{4}{6}-\\frac{5}{6}=-\\frac{1}{6}.$$ So the expression is $$-\\frac{1}{6}x+6.$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "That is the correct answer. The common-denominator step shows why the $x$ coefficient is negative."
+      "content": "That is choice <strong>A</strong>. The common-denominator step shows why the $x$ coefficient is negative, so <strong>A</strong> is correct."
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Isolate the absolute value",
-      "content": "Start with $$-4|5x+6|+4=-20.$$ Subtract $4$ from both sides: $$-4|5x+6|=-24.$$ Divide by $-4$: $$|5x+6|=6.$$"
+      "content": "Start with $$-5|6x+7|+5=-30.$$ Subtract $5$ from both sides: $$-5|6x+7|=-35.$$ Divide by $-5$: $$|6x+7|=7.$$"
     },
     {
       "title": "Solve the two cases",
-      "content": "So $5x+6=6$ or $5x+6=-6$. The first gives $5x=0$, so $x=0$. The second gives $5x=-12$, so $x=-\\frac{12}{5}$. Both values make $|5x+6|=6$, so the solution set matches the correct answer, <strong>C</strong>."
+      "content": "So $6x+7=7$ or $6x+7=-7$. The first gives $6x=0$, so $x=0$. The second gives $6x=-14$, so $x=-\\frac{7}{3}$. Both values make $|6x+7|=7$, so the solution set matches the correct answer, <strong>C</strong>."
     }
   ]
 }

@@ -1,15 +1,15 @@
 {
   "questionId": "997bec28",
-  "correctAnswer": "35",
+  "correctAnswer": "40",
   "section": "Math",
   "steps": [
     {
       "title": "Set up the perimeter equation",
-      "content": "Let the unknown third side be $x$. The perimeter is the sum of all three sides: $$24 + 24 + x = 83$$."
+      "content": "Let the unknown third side be $x$. The perimeter is the sum of all three sides: $$27 + 27 + x = 94$$."
     },
     {
       "title": "Solve for the third side",
-      "content": "Combine like terms on the left: $$48 + x = 83.$$<br/>Subtract 48 from both sides: $$x = 83 - 48 = 35.$$<br/>The answer is <strong>35</strong>."
+      "content": "Combine like terms on the left: $$54 + x = 94.$$<br/>Subtract 54 from both sides: $$x = 94 - 54 = 40.$$<br/>The answer is <strong>40</strong>."
     }
   ]
 }

@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Backsolving — testing choice B",
-      "content": "Choice B (&lsquo;The team has been moving about 4.8 tons of cargo per hour.&rsquo;) claims the team moves about 4.8 tons per hour. In the linear model $$y = 120 - 25x$$, the slope $$-25$$ indicates the cargo is decreasing at 25 tons per hour. Since $4.8 \\ne 25$, choice B (&lsquo;The team has been moving about 4.8 tons of cargo per hour.&rsquo;) does not describe the x‑intercept."
+      "title": "Backsolving - testing choice B",
+      "content": "Choice B (&lsquo;The crew has been unloading about 4.5 crates per hour.&rsquo;) claims the crew unloads about 4.5 crates per hour. In the linear model $$y = 126 - 28x$$, the slope $$-28$$ indicates the number of crates is decreasing at 28 crates per hour. Since $4.5 \\ne 28$, choice B (&lsquo;The crew has been unloading about 4.5 crates per hour.&rsquo;) does not describe the x-intercept."
     },
     {
-      "title": "Backsolving — testing choice C",
-      "content": "Choice C (&lsquo;The team has been moving about 25 tons of cargo per hour.&rsquo;) states the team moves about 25 tons per hour. While the slope magnitude is 25 tons/hour, the x‑intercept represents a time, not a rate. Therefore choice C (&lsquo;The team has been moving about 25 tons of cargo per hour.&rsquo;) does not interpret the x‑intercept."
+      "title": "Backsolving - testing choice C",
+      "content": "Choice C (&lsquo;The crew has been unloading about 28 crates per hour.&rsquo;) states the crew unloads about 28 crates per hour. While the slope magnitude is 28 crates/hour, the x-intercept represents a time, not a rate. Therefore choice C (&lsquo;The crew has been unloading about 28 crates per hour.&rsquo;) does not interpret the x-intercept."
     },
     {
-      "title": "Backsolving — testing choice A",
-      "content": "To find the x‑intercept set $$y = 0$$: $$0 = 120 - 25x$$ $$→$$ $$25x = 120$$ $$→$$ $$x = \\frac{120}{25} = 4.8$$. This means after 4.8 hours no cargo remains, i.e., the team has finished moving all the cargo. That confirms <strong>A</strong> is correct."
+      "title": "Backsolving - testing choice A",
+      "content": "To find the x-intercept set $$y = 0$$: $$0 = 126 - 28x$$ $$\\to$$ $$28x = 126$$ $$\\to$$ $$x = \\frac{126}{28} = 4.5$$. This means after 4.5 hours no crates remain, i.e., the crew has finished unloading all the crates. That confirms <strong>A</strong> is correct."
     }
   ]
 }

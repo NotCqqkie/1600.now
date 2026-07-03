@@ -5,12 +5,12 @@
   "steps": [
     {
       "title": "Calculate sample proportion and scale to population",
-      "content": "The sample data shows 20 out of 80 customers purchased fruit. This gives a sample proportion of:<br/>$$\\frac{20}{80} = \\frac{1}{4} = 0.25$$<br/>To estimate how many of the total 1,500 customers purchased fruit, apply this proportion to the full population:<br/>$$1,500 \\times \\frac{1}{4} = 375 \\text{ customers}$$",
+      "content": "The sample data shows 24 out of 96 customers purchased sandwiches. This gives a sample proportion of:<br/>$$\\frac{24}{96} = \\frac{1}{4} = 0.25$$<br/>To estimate how many of the total 1,800 customers purchased sandwiches, apply this proportion to the full population:<br/>$$1,800 \\times \\frac{1}{4} = 450 \\text{ customers}$$",
       "formula": "$$\\text{Population estimate} = \\text{Population size} \\times \\frac{\\text{Sample count}}{\\text{Sample size}}$$"
     },
     {
       "title": "Identify appropriate language and select the choice",
-      "content": "When inferring population characteristics from a sample, the correct statistical language is <em>best estimate</em>, not <em>exactly must have</em>. Sample-based conclusions always carry uncertainty because we observed only a portion of the population.<br/><br/>This eliminates those choices—both incorrectly claim the count <em>must</em> be exact. Between the remaining choices:<ul><li><strong>Choice C &mdash; The best estimate for the number of customers who purchased fruit last Thursday is 75.</strong> Estimates 75 (incorrect count)</li><li><strong>Choice D &mdash; The best estimate for the number of customers who purchased fruit last Thursday is 375.</strong> Estimates 375 (matches our calculation) with appropriate statistical language</li></ul>That confirms <strong>D</strong> is correct."
+      "content": "When inferring population characteristics from a sample, the correct statistical language is <em>best estimate</em>, not <em>exactly must have</em>. Sample-based conclusions always carry uncertainty because we observed only a portion of the population.<br/><br/>This eliminates those choices because both incorrectly claim the count <em>must</em> be exact. Between the remaining choices:<ul><li><strong>Choice C &mdash; The best estimate for the number of customers who purchased sandwiches last Friday is 75.</strong> Estimates 75 (incorrect count)</li><li><strong>Choice D &mdash; The best estimate for the number of customers who purchased sandwiches last Friday is 450.</strong> Estimates 450 (matches our calculation) with appropriate statistical language</li></ul>That confirms <strong>D</strong> is correct."
     }
   ]
 }

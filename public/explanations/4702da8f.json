@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute x equals 7",
-      "content": "The function is $f(x)=80-6x$. Substitute $x=7$: $$f(7)=80-6(7)$$"
+      "title": "Substitute x equals 8",
+      "content": "The function is $f(x)=90-7x$. Substitute $x=8$: $$f(8)=90-7(8)$$"
     },
     {
       "title": "Multiply before subtracting",
-      "content": "$$6(7)=42$$ $$80-42=38$$"
+      "content": "$$7(8)=56$$ $$90-56=34$$"
     },
     {
       "title": "Check the choices",
-      "content": "$38$ is correct. Treating $67$ as the product, using $x=1$, or adding $7$ after subtracting $6$ would not follow the order in $80-6x$, where $6$ multiplies the input first."
+      "content": "Choice B, $34$, is correct. Adding the coefficient and input, using $x=1$, or adding $8$ after subtracting $7$ would not follow the order in $90-7x$, where $7$ multiplies the input first."
     }
   ]
 }

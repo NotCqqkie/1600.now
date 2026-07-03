@@ -1,23 +1,23 @@
 {
   "questionId": "b4a6ed81",
-  "correctAnswer": "6",
+  "correctAnswer": "4",
   "section": "Math",
   "steps": [
     {
       "title": "Compare the factored forms",
-      "content": "The target form is $ry^4(15y-9)$. Factor the original expression to make that same structure appear."
+      "content": "The target form is $ry^4(13y-7)$. Factor the original expression to make that same structure appear."
     },
     {
       "title": "Factor the original expression",
-      "content": "$$90y^5-54y^4=y^4(90y-54)$$<br/>Then factor $6$ from the parentheses:<br/>$$y^4(90y-54)=6y^4(15y-9)$$<br/>So $r=6$."
+      "content": "$$52y^5-28y^4=y^4(52y-28)$$<br/>Then factor $4$ from the parentheses:<br/>$$y^4(52y-28)=4y^4(13y-7)$$<br/>So $r=4$."
     },
     {
       "title": "Check the result",
-      "content": "Expanding the factored form confirms it: $$6y^4(15y-9)=90y^5-54y^4.$$ This matches the original expression, so $r=6$."
+      "content": "Expanding the factored form confirms it: $$4y^4(13y-7)=52y^5-28y^4.$$ This matches the original expression, so $r=4$."
     },
     {
       "title": "Answer",
-      "content": "The value of $r$ is <strong>6</strong>."
+      "content": "The value of $r$ is <strong>4</strong>."
     }
   ]
 }

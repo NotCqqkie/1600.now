@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $\\frac{10x^2}{7}+6x-\\frac{56}{5}$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $\\frac{3x^2}{2}+4x-14$."
     },
     {
       "title": "Algebra check",
@@ -13,15 +13,15 @@
     },
     {
       "title": "Multiply the first terms",
-      "content": "For $$g(x)=\\frac{2}{7}x+\\frac{8}{5}\\quad\\text{and}\\quad h(x)=5x-7,$$ the $x^2$ term is $$\\frac{2}{7}x\\cdot5x=\\frac{10}{7}x^2.$$"
+      "content": "For $$g(x)=\\frac{3}{8}x+\\frac{7}{4}\\quad\\text{and}\\quad h(x)=4x-8,$$ the $x^2$ term is $$\\frac{3}{8}x\\cdot4x=\\frac{3}{2}x^2.$$"
     },
     {
       "title": "Multiply the cross terms and constant",
-      "content": "The cross terms are $$\\frac{2}{7}x\\cdot(-7)=-2x$$ and $$\\frac{8}{5}\\cdot5x=8x.$$ Together they make $6x$. The constant term is $$\\frac{8}{5}\\cdot(-7)=-\\frac{56}{5}.$$"
+      "content": "The cross terms are $$\\frac{3}{8}x\\cdot(-8)=-3x$$ and $$\\frac{7}{4}\\cdot4x=7x.$$ Together they make $4x$. The constant term is $$\\frac{7}{4}\\cdot(-8)=-14.$$"
     },
     {
       "title": "Match the choice",
-      "content": "Therefore $$g(x)h(x)=\\frac{10}{7}x^2+6x-\\frac{56}{5},$$ which matches the correct answer. <strong>D</strong> is correct. The cross terms are the key check because they produce the middle term $6x$."
+      "content": "Therefore $$g(x)h(x)=\\frac{3}{2}x^2+4x-14,$$ which matches the correct answer. <strong>D</strong> is correct. The cross terms are the key check because they produce the middle term $4x$."
     }
   ]
 }

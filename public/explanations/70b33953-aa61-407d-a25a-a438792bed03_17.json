@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Substitute the given value and solve",
-      "content": "We have $x + y = 53$ where $x$ is the number of marble queen pothos stems and $y$ is the number of snow queen pothos stems. Given that 13 snow queen pothos stems are propagated, we know $y = 13$. Substitute into the equation: <br/>$$x + 13 = 53$$<br/>Subtract 13 from both sides: <br/>$$x = 53 - 13 = 40$$<br/>That confirms <strong>B</strong> is correct."
+      "content": "We have $x + y = 58$ where $x$ is the number of golden pothos stems and $y$ is the number of satin pothos stems. Given that 16 satin pothos stems are propagated, we know $y = 16$. Substitute into the equation: <br/>$$x + 16 = 58$$<br/>Subtract 16 from both sides: <br/>$$x = 58 - 16 = 42$$<br/>That confirms <strong>B</strong> is correct."
     }
   ]
 }

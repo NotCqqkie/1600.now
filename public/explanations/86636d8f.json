@@ -1,16 +1,16 @@
 {
   "questionId": "86636d8f",
-  "correctAnswer": "9",
+  "correctAnswer": "8",
   "section": "Math",
   "steps": [
     {
       "title": "Recognize the unit formula",
-      "content": "To find the quantity of oranges from total cost and price per pound, we divide total cost by price per unit.",
+      "content": "To find the quantity of pears from total cost and price per pound, we divide total cost by price per unit.",
       "formula": "$$\\text{Quantity} = \\frac{\\text{Total Cost}}{\\text{Price per Unit}}$$"
     },
     {
       "title": "Calculate pounds purchased",
-      "content": "Substituting 27 for total cost and 3 for price per pound: <br/>$$\\frac{27}{3} = 9$$The customer purchased <strong>9 pounds</strong> of oranges."
+      "content": "Substituting 32 for total cost and 4 for price per pound: <br/>$$\\frac{32}{4} = 8$$The shopper purchased <strong>8 pounds</strong> of pears."
     }
   ]
 }

@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Identify the slope",
-      "content": "The equation $l = 30 + 2w$ is linear in slope-intercept form. The 2 is the coefficient of $w$, so it is the slope of $l$ versus $w$."
+      "content": "The equation $l = 25 + 3w$ is linear in slope-intercept form. The 3 is the coefficient of $w$, so it is the slope of $l$ versus $w$."
     },
     {
       "title": "Interpret the slope in context",
-      "content": "Slope = (change in dependent variable) / (change in independent variable). Here $l$ (length, cm) depends on $w$ (weight, N), so the 2 means $l$ increases by 2 cm for each 1 N increase in $w$."
+      "content": "Slope = (change in dependent variable) / (change in independent variable). Here $l$ (length, cm) depends on $w$ (weight, N), so the 3 means $l$ increases by 3 cm for each 1 N increase in $w$."
     },
     {
       "title": "Eliminate the other choices",
-      "content": "<ul><li><strong>The increase in the length, in centimeters, of the spring for each one-newton increase in the weight of the object</strong> is correct."
+      "content": "<ul><li>Choice A describes the value 25, the length with no weight attached.</li><li>Choice B also refers to the starting length of 25 centimeters, not the rate of change.</li><li>Choice C reverses the relationship by describing weight per centimeter of length.</li><li><strong>The increase in the length, in centimeters, of the spring for each one-newton increase in the weight of the object</strong> is choice D.</li></ul>"
     }
   ]
 }

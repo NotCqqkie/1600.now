@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+      "title": "Fastest path: write each population contribution",
+      "content": "Multiply each area's size by its population density, then add the two population amounts and set their sum equal to the total population."
     },
     {
       "title": "Extract the equation from the problem",
-      "content": "The problem states that an equation represents the combined population of a city and suburb: $1,035x + 535y = 13,165$. The left side shows each location's population contribution ($1,035x$ and $535y$), and the right side equals the combined total."
+      "content": "The problem states that an equation represents the combined population of a town and suburb: $1,040x + 540y = 13,240$. The left side shows each location's population contribution ($1,040x$ and $540y$), and the right side equals the combined total."
     },
     {
       "title": "Match the equation to the choices",
-      "content": "Now check which choice exactly matches $1,035x + 535y = 13,165$. <strong>Choice A &mdash; $1,035x + 535y = 13,165$</strong> displays this equation without change, while Choices B, C, and D rearrange or alter the terms. That matches <strong>Choice A &mdash; $1,035x + 535y = 13,165$</strong>."
+      "content": "Now check which choice exactly matches $1,040x + 540y = 13,240$. <strong>Choice A &mdash; $1,040x + 540y = 13,240$</strong> displays this equation without change, while Choices B, C, and D rearrange or alter the terms. That matches <strong>Choice A &mdash; $1,040x + 540y = 13,240$</strong>."
     }
   ]
 }

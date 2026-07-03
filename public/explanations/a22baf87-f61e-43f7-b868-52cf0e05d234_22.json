@@ -8,15 +8,15 @@
     },
     {
       "title": "Step 2",
-      "content": "Translate each phrase: &quot;the sum of 4 and the second integer&quot; = $4 + (x+1)$; &quot;the product of 17 and the third integer&quot; = ${17}(x+2)$; &quot;is less than&quot; = $\\lt$."
+      "content": "Translate each phrase: &quot;the sum of 6 and the second integer&quot; = $6 + (x+1)$; &quot;the product of 19 and the third integer&quot; = ${19}(x+2)$; &quot;is less than&quot; = $\\lt$."
     },
     {
       "title": "Step 3",
-      "content": "Combine: $4 + (x+1) \\lt 17(x+2)$."
+      "content": "Combine: $6 + (x+1) \\lt 19(x+2)$."
     },
     {
       "title": "Step 4",
-      "content": "Evaluate each answer choice:<ul><li>Choice A: $4+(x+1) \\gt 17(x+2)$ — uses the correct expressions but the wrong direction (&gt; instead of &lt;). Eliminated.</li><li>Choice B: $4+(x+1) \\lt 17(x+2)$ — correct expressions and correct inequality direction. That confirms <strong>B</strong> is correct.</li><li>Choice C: $4+(x+2) \\gt 17(x+3)$ — uses the third and fourth integers instead of the second and third, and the wrong direction. Eliminated.</li><li>Choice D: $4+(x+2) \\lt 17(x+3)$ — uses the wrong integers (shifted by one). Eliminated.</li></ul>"
+      "content": "Evaluate each answer choice:<ul><li>Choice A: $6+(x+1) \\gt 19(x+2)$ — uses the correct expressions but the wrong direction (&gt; instead of &lt;). Eliminated.</li><li>Choice B: $6+(x+1) \\lt 19(x+2)$ — correct expressions and correct inequality direction. That confirms <strong>B</strong> is correct.</li><li>Choice C: $6+(x+2) \\gt 19(x+3)$ — uses the third and fourth integers instead of the second and third, and the wrong direction. Eliminated.</li><li>Choice D: $6+(x+2) \\lt 19(x+3)$ — uses the wrong integers (shifted by one). Eliminated.</li></ul>"
     }
   ],
   "correctAnswer": "B"

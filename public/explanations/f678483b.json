@@ -1,6 +1,6 @@
 {
   "questionId": "f678483b",
-  "correctAnswer": "35",
+  "correctAnswer": "31",
   "section": "Math",
   "steps": [
     {
@@ -9,11 +9,11 @@
     },
     {
       "title": "Read zeros directly from the factored form",
-      "content": "The function is already given in factored form: $$g(x) = -\\frac{1}{55}(x+19)(x-35)$$ The constant factor $-\\frac{1}{55}$ is nonzero, so $g(x) = 0$ requires $(x+19)(x-35) = 0$. The zeros are immediate: $x = -19$ or $x = 35$."
+      "content": "The function is already given in factored form: $$g(x) = -\\frac{1}{52}(x+17)(x-31)$$ The constant factor $-\\frac{1}{52}$ is nonzero, so $g(x) = 0$ requires $(x+17)(x-31) = 0$. The zeros are immediate: $x = -17$ or $x = 31$."
     },
     {
       "title": "Apply the domain constraint",
-      "content": "Since $x \\gt  0$ (minutes after collecting the sample), the solution $x = -19$ is impossible in this context. The only valid time is $x = 35$ minutes, when the device reaches the surface. The answer is <strong>35</strong>."
+      "content": "Since $x \\gt  0$ (minutes after collecting the sample), the solution $x = -17$ is impossible in this context. The only valid time is $x = 31$ minutes, when the device reaches the surface. The answer is <strong>31</strong>."
     }
   ]
 }

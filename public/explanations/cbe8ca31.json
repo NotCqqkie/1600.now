@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+      "title": "Fastest path: mark the angle relationships first",
+      "content": "Mark the given angle relationships first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
     },
     {
       "title": "Use the triangle angle sum property",
-      "content": "The sum of the three angles in any triangle is always $180^{\\circ}$. Since we know $\\angle X = 24^{\\circ}$ and $\\angle Y = 98^{\\circ}$, we can write:<br/>$$\\angle X + \\angle Y + \\angle Z = 180^{\\circ}$$"
+      "content": "The sum of the three angles in any triangle is always $180^{\\circ}$. Since we know $\\angle R = 31^{\\circ}$ and $\\angle S = 87^{\\circ}$, we can write:<br/>$$\\angle R + \\angle S + \\angle T = 180^{\\circ}$$"
     },
     {
-      "title": "Substitute known values and solve for ∠Z",
-      "content": "Substitute the known angle measures:<br/>$$24^{\\circ} + 98^{\\circ} + \\angle Z = 180^{\\circ}$$<br/>Combine the known angles:<br/>$$122^{\\circ} + \\angle Z = 180^{\\circ}$$<br/>Subtract $122^{\\circ}$ from both sides:<br/>$$\\angle Z = 180^{\\circ} - 122^{\\circ} = 58^{\\circ}$$<br/>That is the correct answer."
+      "title": "Substitute known values and solve for ∠T",
+      "content": "Substitute the known angle measures:<br/>$$31^{\\circ} + 87^{\\circ} + \\angle T = 180^{\\circ}$$<br/>Combine the known angles:<br/>$$118^{\\circ} + \\angle T = 180^{\\circ}$$<br/>Subtract $118^{\\circ}$ from both sides:<br/>$$\\angle T = 180^{\\circ} - 118^{\\circ} = 62^{\\circ}$$<br/>That is the correct answer."
     }
   ]
 }

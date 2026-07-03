@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Treat the repeated expression as a single unit",
-      "content": "The factor $(x^2 - x)$ appears in both terms. Treat it like a variable — call it $u$ for clarity:<br/>$$2u + 3u = 5u$$<br/>Substitute back: $$5(x^2 - x)$$"
+      "content": "The factor $(x^2 - x)$ appears in both terms. Treat it like a variable &mdash; call it $u$ for clarity:<br/>$$4u + 2u = 6u$$<br/>Substitute back: $$6(x^2 - x)$$"
     },
     {
-      "title": "Expand by distributing 5",
-      "content": "$$5(x^2 - x) = 5x^2 - 5x$$"
+      "title": "Expand by distributing 6",
+      "content": "$$6(x^2 - x) = 6x^2 - 6x$$"
     },
     {
       "title": "Match to the choices",
-      "content": "<ul><li>A: $5x^2 - 5x$ &mdash; exactly what we derived. That confirms <strong>A</strong> is correct.</li><li>B: $5x^2 + 5x$ &mdash; wrong sign on the second term. Eliminated.</li><li>C: $5x$ &mdash; missing the $x^2$ term. Eliminated.</li><li>D: $5x^2$ &mdash; missing the $-5x$ term. Eliminated.</li></ul>"
+      "content": "<ul><li>A: $6x^2 - 6x$ &mdash; exactly what we derived. That confirms <strong>A</strong> is correct.</li><li>B: $6x^2 + 6x$ &mdash; wrong sign on the second term. Eliminated.</li><li>C: $6x$ &mdash; missing the $x^2$ term. Eliminated.</li><li>D: $6x^2$ &mdash; missing the $-6x$ term. Eliminated.</li></ul>"
     }
   ]
 }

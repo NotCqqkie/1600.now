@@ -4,21 +4,21 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+      "title": "Fastest path: identify complements first",
+      "content": "Label the named acute angles first. Then use the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
     },
     {
-      "title": "Note that angles K and L are complementary",
-      "content": "Triangle JKL has $\\angle J = 90^\\circ$, $\\angle K = 71^\\circ$, $\\angle L = 19^\\circ$. The two acute angles in any right triangle sum to $90^\\circ$, and indeed $71^\\circ + 19^\\circ = 90^\\circ$, so $K$ and $L$ are complementary."
+      "title": "Note that angles N and P are complementary",
+      "content": "Triangle MNP has $\\angle M = 90^\\circ$, $\\angle N = 64^\\circ$, $\\angle P = 26^\\circ$. The two acute angles in any right triangle sum to $90^\\circ$, and indeed $64^\\circ + 26^\\circ = 90^\\circ$, so $N$ and $P$ are complementary."
     },
     {
       "title": "Apply the cofunction identity",
-      "content": "For complementary angles, $\\sin(\\theta) = \\cos(90^\\circ - \\theta)$. Since $L = 90^\\circ - K$, we get $\\cos L = \\cos(90^\\circ - K) = \\sin K$. Numerically, $\\sin 71^\\circ \\approx 0.9455$ and $\\cos 19^\\circ \\approx 0.9455$ &mdash; they are equal.",
-      "formula": "$$\\cos(90^\\circ - K) = \\sin K$$"
+      "content": "For complementary angles, $\\sin(\\theta) = \\cos(90^\\circ - \\theta)$. Since $P = 90^\\circ - N$, we get $\\cos P = \\cos(90^\\circ - N) = \\sin N$. Numerically, $\\sin 64^\\circ \\approx 0.8988$ and $\\cos 26^\\circ \\approx 0.8988$ &mdash; they are equal.",
+      "formula": "$$\\cos(90^\\circ - N) = \\sin N$$"
     },
     {
       "title": "Match the answer",
-      "content": "The values are equal, so the correct statement is $\\cos L=\\sin K$. That matches <strong>Choice B &mdash; $\\cos L = \\sin K$</strong>."
+      "content": "The values are equal, so the correct statement is $\\cos P=\\sin N$. That matches <strong>Choice B &mdash; $\\cos P = \\sin N$</strong>."
     }
   ]
 }

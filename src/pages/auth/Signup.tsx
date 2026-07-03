@@ -3,6 +3,7 @@ import { useNavigate, Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import { Checkbox } from "@/components/ui/checkbox";
 import { getPostAuthReturnTo } from "@/components/auth/authReturnPath";
 import { BrandLogo } from "@/components/brand/BrandLogo";
 import { useAuth } from "@/contexts/AuthContext";
@@ -54,6 +55,7 @@ const getPasswordIssue = (value: string) => {
 const Signup = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [ageConfirmed, setAgeConfirmed] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [hasSubmitted, setHasSubmitted] = useState(false);
   const [touched, setTouched] = useState({ email: false, password: false });
@@ -72,8 +74,10 @@ const Signup = () => {
 
   const emailIssue = getEmailIssue(email);
   const passwordIssue = getPasswordIssue(password);
+  const ageIssue = ageConfirmed ? "" : "You must confirm you are at least 13 years old.";
   const shownEmailIssue = (hasSubmitted || touched.email) ? emailIssue || authFieldErrors.email || "" : "";
   const shownPasswordIssue = (hasSubmitted || touched.password) ? passwordIssue || authFieldErrors.password || "" : "";
+  const shownAgeIssue = hasSubmitted ? ageIssue : "";
 
   useEffect(() => {
     if (authLoading || !user) return;
@@ -98,7 +102,7 @@ const Signup = () => {
     setAuthFieldErrors({});
     const currentEmailIssue = getEmailIssue(email);
     const currentPasswordIssue = getPasswordIssue(password);
-    if (currentEmailIssue || currentPasswordIssue) return;
+    if (currentEmailIssue || currentPasswordIssue || !ageConfirmed) return;
     setIsSubmitting(true);
     try {
       await signUpWithEmailPassword(email.trim(), password);
@@ -313,6 +317,26 @@ const Signup = () => {
                 {shownPasswordIssue && (
                   <p id="signup-password-error" role="alert" className="text-[12px] leading-[1.4] text-destructive">
                     {shownPasswordIssue}
+                  </p>
+                )}
+              </div>
+              <div className="space-y-1.5">
+                <div className="flex items-start gap-2">
+                  <Checkbox
+                    id="age-confirm"
+                    checked={ageConfirmed}
+                    onCheckedChange={(checked) => setAgeConfirmed(checked === true)}
+                    aria-invalid={Boolean(shownAgeIssue)}
+                    aria-describedby={shownAgeIssue ? "signup-age-error" : undefined}
+                    className={shownAgeIssue ? "mt-0.5 border-destructive" : "mt-0.5"}
+                  />
+                  <Label htmlFor="age-confirm" className="text-[13px] font-normal leading-[1.4] text-ink-mid">
+                    I am at least 13 years old.
+                  </Label>
+                </div>
+                {shownAgeIssue && (
+                  <p id="signup-age-error" role="alert" className="text-[12px] leading-[1.4] text-destructive">
+                    {shownAgeIssue}
                   </p>
                 )}
               </div>

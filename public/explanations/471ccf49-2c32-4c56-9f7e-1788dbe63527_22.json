@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Use the parallel-line shortcut",
-      "content": "No solution means parallel distinct lines: same slope, different $y$-intercept. Rewrite the given equation:<br/>$$2x=20y-8$$<br/>$$20y=2x+8$$<br/>$$y=\\frac{x}{10}+\\frac{2}{5}$$<br/>The second line must have slope $\\frac{1}{10}$ but a different intercept."
+      "content": "No solution means parallel distinct lines: same slope, different $y$-intercept. Rewrite the given equation:<br/>$$3x=24y-12$$<br/>$$24y=3x+12$$<br/>$$y=\\frac{x}{8}+\\frac{1}{2}$$<br/>The second line must have slope $\\frac{1}{8}$ but a different intercept."
     },
     {
       "title": "Check the matching-slope choice",
-      "content": "The correct answer gives $$\\frac{1}{2}x=5y \\Rightarrow y=\\frac{x}{10}.$$ This has the same slope, $\\frac{1}{10}$, and a different intercept, $0$, so the two lines are parallel and distinct."
+      "content": "The correct answer gives $$\\frac{1}{2}x=4y \\Rightarrow y=\\frac{x}{8}.$$ This has the same slope, $\\frac{1}{8}$, and a different intercept, $0$, so the two lines are parallel and distinct."
     },
     {
       "title": "Eliminate the rest",
-      "content": "A has slope $\\frac{1}{5}$, so it intersects the given line. C is exactly the same as the given line, so it has infinitely many solutions. D has slope $\\frac{1}{20}$, so it intersects the given line. Therefore, <strong>B</strong> is correct."
+      "content": "A has slope $\\frac{1}{4}$, so it intersects the given line. C is exactly the same as the given line, so it has infinitely many solutions. D has slope $\\frac{1}{16}$, so it intersects the given line. Therefore, <strong>B</strong> is correct."
     }
   ]
 }

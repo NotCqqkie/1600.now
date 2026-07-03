@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the exponential growth model",
-      "content": "This is exponential growth where the population multiplies by the same factor each period.<br/><br/>The general form is $y = a \\cdot b^t$, where $a$ is the initial amount and $b$ is the growth factor per time period.<br/><br/>Here, $a = 48,000$ (initial bacteria) and $b = 2$ (because <em>doubles every day</em> means multiply by 2)."
+      "content": "This is exponential growth where the population multiplies by the same factor each period.<br/><br/>The general form is $y = a \\cdot b^t$, where $a$ is the initial amount and $b$ is the growth factor per time period.<br/><br/>Here, $a = 52,000$ (initial bacteria) and $b = 2$ (because <em>doubles every day</em> means multiply by 2)."
     },
     {
       "title": "Apply the formula and verify",
-      "content": "Substitute into the exponential growth formula:<br/>$$y = 48,000(2)^t$$<br/>Test at $t = 1$: $y = 48,000(2)^1 = 96,000$, which shows the population doubled from the initial 48,000. This matches - <strong>D</strong> is correct."
+      "content": "Substitute into the exponential growth formula:<br/>$$y = 52,000(2)^t$$<br/>Test at $t = 1$: $y = 52,000(2)^1 = 104,000$, which shows the population doubled from the initial 52,000. This matches - <strong>D</strong> is correct."
     }
   ]
 }

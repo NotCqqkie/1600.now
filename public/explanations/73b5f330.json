@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Turn the function value into an equation",
-      "content": "The function is $f(x)=5x+8$, and the question says $f(x)=58$. Set the expression equal to $58$: $$5x+8=58.$$"
+      "content": "The function is $f(x)=4x+10$, and the question says $f(x)=50$. Set the expression equal to $50$: $$4x+10=50.$$"
     },
     {
       "title": "Solve for the input",
-      "content": "Subtract $8$ from both sides to get $5x=50$. Then divide by $5$: $$x=10.$$ The question asks for $x$, not $f(58)$."
+      "content": "Subtract $10$ from both sides to get $4x=40$. Then divide by $4$: $$x=10.$$ The question asks for $x$, not $f(50)$."
     },
     {
       "title": "Confirm the choice",
-      "content": "<strong>A</strong> is correct because $f(10)=5(10)+8=58$. Choice D (&lsquo;$298$&rsquo;) is the trap from plugging $58$ into the function instead of finding the input."
+      "content": "<strong>A</strong> is correct because $f(10)=4(10)+10=50$. Choice D (&lsquo;$210$&rsquo;) is the trap from plugging $50$ into the function instead of finding the input."
     }
   ]
 }

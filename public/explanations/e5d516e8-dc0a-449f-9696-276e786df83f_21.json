@@ -1,15 +1,15 @@
 {
   "questionId": "e5d516e8-dc0a-449f-9696-276e786df83f_21",
-  "correctAnswer": "0.75,3/4",
+  "correctAnswer": "0.625,5/8",
   "section": "Math",
   "steps": [
     {
       "title": "Parallel lines have equal slopes — read slope directly from standard form",
-      "content": "For $ax + by = c$ the slope is $-a/b$, no algebra needed.<br/>Line $j$: $3x + 4y = 28$ $\\Rightarrow$ slope $= -3/4$.<br/>Line $k$: $24x + ry = 24$ $\\Rightarrow$ slope $= -24/r$.<br/>Set equal: $-3/4 = -24/r$ $\\Rightarrow$ $3r = 96$ $\\Rightarrow$ $r = 32$."
+      "content": "For $ax + by = c$ the slope is $-a/b$, no algebra needed.<br/>Line $j$: $5x + 8y = 32$ $\\Rightarrow$ slope $= -5/8$.<br/>Line $k$: $20x + ry = 20$ $\\Rightarrow$ slope $= -20/r$.<br/>Set equal: $-5/8 = -20/r$ $\\Rightarrow$ $5r = 160$ $\\Rightarrow$ $r = 32$."
     },
     {
       "title": "Plug the y-intercept point into line k",
-      "content": "Line $k$ is $24x + 32y = 24$. The point $(0, b)$ lies on it, so substitute $x = 0$:<br/>$$32b = 24 \\implies b = \\frac{3}{4}$$<br/>The answer is $\\boxed{0.75}$ (or $3/4$)."
+      "content": "Line $k$ is $20x + 32y = 20$. The point $(0, b)$ lies on it, so substitute $x = 0$:<br/>$$32b = 20 \\implies b = \\frac{5}{8}$$<br/>The answer is $\\boxed{0.625}$ (or $5/8$)."
     }
   ]
 }

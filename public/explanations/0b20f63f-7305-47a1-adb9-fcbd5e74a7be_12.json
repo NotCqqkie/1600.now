@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Separate the fixed and extra costs",
-      "content": "The first 2 hours cost a fixed 950 dollars. If the rental lasts $t$ hours with $t\\gt 2$, the number of extra hours is $t-2$."
+      "content": "The first 3 hours cost a fixed 880 dollars. If the rental lasts $t$ hours with $t\\gt 3$, the number of extra hours is $t-3$."
     },
     {
       "title": "Write the total cost",
-      "content": "The extra-hour charge is $50(t-2)$, so the total cost is $950+50(t-2)$."
+      "content": "The extra-hour charge is $60(t-3)$, so the total cost is $880+60(t-3)$."
     },
     {
       "title": "Match the equation",
-      "content": "The total is 1,150 dollars, so the equation is $950+50(t-2)=1{,}150$. That matches <strong>Choice C &mdash; $950+50(t-2)= 1,150$</strong>."
+      "content": "The total is 1,120 dollars, so the equation is $880+60(t-3)=1{,}120$. That matches <strong>Choice C &mdash; $880+60(t-3)= 1,120$</strong>."
     }
   ]
 }

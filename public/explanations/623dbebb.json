@@ -1,15 +1,15 @@
 {
   "questionId": "623dbebb",
-  "correctAnswer": "4.05",
+  "correctAnswer": "4.41",
   "section": "Math",
   "steps": [
     {
       "title": "Find the consumer price",
-      "content": "The consumer price is <strong>270% of the purchase price</strong>: <br/> $$5.00 \\times 2.70 = 13.50$$ <br/> The consumer price is \\$13.50."
+      "content": "The consumer price is <strong>280% of the purchase price</strong>: <br/> $$4.50 \\times 2.80 = 12.60$$ <br/> The consumer price is \\$12.60."
     },
     {
-      "title": "Apply the 70% discount",
-      "content": "<strong>70% off</strong> means the customer pays 30% of the consumer price (100% − 70% = 30%): <br/> $$13.50 \\times 0.30 = 4.05$$ <br/> The discounted price of each remaining book is <strong>\\$4.05</strong>."
+      "title": "Apply the 65% discount",
+      "content": "<strong>65% off</strong> means the customer pays 35% of the consumer price (100% - 65% = 35%): <br/> $$12.60 \\times 0.35 = 4.41$$ <br/> The discounted price of each remaining notebook is <strong>\\$4.41</strong>."
     }
   ]
 }

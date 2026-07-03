@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+      "title": "Fastest path: use the triangle ratio first",
+      "content": "For an isosceles right triangle, use the special right-triangle ratio between the legs and hypotenuse."
     },
     {
       "title": "Express the perimeter in terms of the hypotenuse",
@@ -13,7 +13,7 @@
     },
     {
       "title": "Solve for the hypotenuse",
-      "content": "Set the perimeter equal to the given value: $$h(1 + \\sqrt{2}) = 52 + 52\\sqrt{2} = 52(1 + \\sqrt{2})$$<br/>Divide both sides by $(1 + \\sqrt{2})$: $$h = 52$$<br/>The result matches."
+      "content": "Set the perimeter equal to the given value: $$h(1 + \\sqrt{2}) = 48 + 48\\sqrt{2} = 48(1 + \\sqrt{2})$$<br/>Divide both sides by $(1 + \\sqrt{2})$: $$h = 48$$<br/>The result matches."
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Parallel lines have equal slopes",
-      "content": "Line $k$ is $y = 6x + 4$. The slope is the coefficient of $x$: slope $= 6$. Line $j$ is parallel to $k$, so it has the same slope $= 6$."
+      "content": "Line $k$ is $y = 7x + 3$. The slope is the coefficient of $x$: slope $= 7$. Line $j$ is parallel to $k$, so it has the same slope $= 7$."
     },
     {
       "title": "Use the given point to find the intercept",
-      "content": "Line $j$ passes through $(0, 5)$. A point of the form $(0, b)$ is the $y$-intercept directly, so $b = 5$. The equation of $j$ is $y = 6x + 5$. That matches the correct answer — <strong>A</strong> is correct."
+      "content": "Line $j$ passes through $(0, 8)$. A point of the form $(0, b)$ is the $y$-intercept directly, so $b = 8$. The equation of $j$ is $y = 7x + 8$. That matches the correct answer - <strong>A</strong> is correct."
     }
   ]
 }

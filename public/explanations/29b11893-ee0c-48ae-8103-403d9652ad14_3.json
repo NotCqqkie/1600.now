@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $x^{\\frac{153}{2}}$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $x^{\\frac{157}{2}}$."
     },
     {
       "title": "Algebra check",
@@ -13,11 +13,11 @@
     },
     {
       "title": "Convert the square root to a fractional exponent",
-      "content": "A square root is the same as raising to the power $\\frac{1}{2}$: $$\\sqrt{x^{153}} = \\left(x^{153}\\right)^{1/2} = x^{153 \\cdot \\frac{1}{2}} = x^{153/2}.$$"
+      "content": "A square root is the same as raising to the power $\\frac{1}{2}$: $$\\sqrt{x^{157}} = \\left(x^{157}\\right)^{1/2} = x^{157 \\cdot \\frac{1}{2}} = x^{157/2}.$$"
     },
     {
       "title": "Eliminate incorrect choices",
-      "content": "<ul><li>Choice A: $x^{\\frac{2}{153}}$ — this would be the $153$rd root squared, not the square root of $x^{153}$ — eliminate.</li><li>Choice B: $x^{\\frac{153}{2}}$ — matches the derivation above — keep.</li><li>Choice C: $x^{151}$ — the exponent would need to be $153/2 = 76.5$, not $151$ — eliminate.</li><li>Choice D: $x^{306}$ — squaring $x^{153}$ gives $x^{306}$, but we are taking the square root, not squaring — eliminate.</li></ul>That matches <strong>Choice B &mdash; $x^{\\frac{153}{2}}$</strong>."
+      "content": "<ul><li>Choice A: $x^{\\frac{2}{157}}$ &mdash; this would be the $157$th root squared, not the square root of $x^{157}$ &mdash; eliminate.</li><li>Choice B: $x^{\\frac{157}{2}}$ &mdash; matches the derivation above &mdash; keep.</li><li>Choice C: $x^{155}$ &mdash; the exponent would need to be $157/2 = 78.5$, not $155$ &mdash; eliminate.</li><li>Choice D: $x^{314}$ &mdash; squaring $x^{157}$ gives $x^{314}$, but we are taking the square root, not squaring &mdash; eliminate.</li></ul>That matches <strong>Choice B &mdash; $x^{\\frac{157}{2}}$</strong>."
     }
   ]
 }

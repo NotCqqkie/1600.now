@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Evaluate the function at x = 0",
-      "content": "The y-intercept occurs where $x = 0$. For $f(x) = -10(3)^x + \\frac{1}{k}$, substitute $x = 0$:<br/>$$f(0) = -10(3)^0 + \\frac{1}{k}$$<br/>Since $3^0 = 1$:<br/>$$f(0) = -10(1) + \\frac{1}{k} = -10 + \\frac{1}{k}$$"
+      "content": "The y-intercept occurs where $x = 0$. For $f(x) = -8(5)^x + \\frac{1}{k}$, substitute $x = 0$:<br/>$$f(0) = -8(5)^0 + \\frac{1}{k}$$<br/>Since $5^0 = 1$:<br/>$$f(0) = -8(1) + \\frac{1}{k} = -8 + \\frac{1}{k}$$"
     },
     {
       "title": "Combine into a single fraction",
-      "content": "Express both terms with denominator $k$:<br/>$$-10 + \\frac{1}{k} = \\frac{-10k}{k} + \\frac{1}{k} = \\frac{-10k + 1}{k} = \\frac{1 - 10k}{k}$$<br/>That confirms <strong>B</strong> is correct."
+      "content": "Express both terms with denominator $k$:<br/>$$-8 + \\frac{1}{k} = \\frac{-8k}{k} + \\frac{1}{k} = \\frac{-8k + 1}{k} = \\frac{1 - 8k}{k}$$<br/>That confirms <strong>B</strong> is correct."
     }
   ]
 }

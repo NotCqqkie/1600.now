@@ -3,13 +3,13 @@
   "qid": "915463e0",
   "steps": [
     {
-      "text": "Write the normal temperature range as an inequality: $97.8 \\leq T \\leq 99$ (inclusive on both ends)."
+      "text": "Write the normal temperature range as an inequality: $97.7 \\leq T \\leq 99.1$ (inclusive on both ends)."
     },
     {
-      "text": "Check each choice against $97.8 \\leq T \\leq 99$."
+      "text": "Check each choice against $97.7 \\leq T \\leq 99.1$."
     },
     {
-      "text": "<ul><li><strong>Choice A &mdash; $97.7^{\\circ}\\text{F}$</strong>: $97.7 \\lt 97.8$, below the lower bound. Incorrect.</li><li><strong>Choice B &mdash; $97.6^{\\circ}\\text{F}$</strong>: $97.6 \\lt 97.8$, below the lower bound. Incorrect.</li><li><strong>Choice C &mdash; $97.9^{\\circ}\\text{F}$</strong>: $97.8 \\leq 97.9 \\leq 99$, within the normal range. That confirms <strong>C</strong> is correct.</li><li><strong>Choice D &mdash; $99.7^{\\circ}\\text{F}$</strong>: $99.7 \\gt 99$, above the upper bound. Incorrect.</li></ul>"
+      "text": "<ul><li><strong>Choice A &mdash; $97.6^{\\circ}\\text{F}$</strong>: $97.6 \\lt 97.7$, below the lower bound. Incorrect.</li><li><strong>Choice B &mdash; $97.5^{\\circ}\\text{F}$</strong>: $97.5 \\lt 97.7$, below the lower bound. Incorrect.</li><li><strong>Choice C &mdash; $98.8^{\\circ}\\text{F}$</strong>: $97.7 \\leq 98.8 \\leq 99.1$, within the normal range. That confirms <strong>C</strong> is correct.</li><li><strong>Choice D &mdash; $99.4^{\\circ}\\text{F}$</strong>: $99.4 \\gt 99.1$, above the upper bound. Incorrect.</li></ul>"
     }
   ],
   "correctAnswer": "C"

@@ -9,7 +9,7 @@
     },
     {
       "title": "Solve",
-      "content": "$$f(2) = -30(2) + 310 = -60 + 310 = 250$$"
+      "content": "$$f(2) = -40(2) + 340 = -80 + 340 = 260$$"
     },
     {
       "title": "Answer",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches the correct answer, $250$. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches the correct answer, $260$. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
     }
   ]
 }

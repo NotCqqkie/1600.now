@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Spot the vertex form — read $(h, k)$ directly",
-      "content": "$y = -16(x - 6.8)^2 + 740$ is vertex form $a(x-h)^2 + k$. Read off: vertex $= (6.8,\\ 740)$. No algebra needed."
+      "content": "$y = -18(x - 7.2)^2 + 680$ is vertex form $a(x-h)^2 + k$. Read off: vertex $= (7.2,\\ 680)$. No algebra needed."
     },
     {
-      "title": "Since $a = -16 \\lt 0$, the vertex is the maximum",
-      "content": "The parabola opens downward, so the vertex gives the maximum height: <strong>740 ft</strong> at $t = 6.8$ s. That is the correct answer."
+      "title": "Since $a = -18 \\lt 0$, the vertex is the maximum",
+      "content": "The parabola opens downward, so the vertex gives the maximum height: <strong>680 ft</strong> at $t = 7.2$ s. That is the correct answer."
     }
   ]
 }

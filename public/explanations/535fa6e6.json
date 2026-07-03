@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Translate the problem to equations",
-      "content": "Let $p$ = pounds of potatoes and $c$ = pounds of celery.<br/><br/>From the problem statement:<ul><li>Celery quantity: $c = 2p$ (twice as many pounds as potatoes)</li><li>Total cost equation: $0.69p + 0.99c = 5.34$</li></ul>"
+      "content": "Let $p$ = pounds of peaches and $c$ = pounds of cucumbers.<br/><br/>From the problem statement:<ul><li>Cucumber quantity: $c = 2p$ (twice as many pounds as peaches)</li><li>Total cost equation: $0.75p + 1.10c = 8.85$</li></ul>"
     },
     {
-      "title": "Substitute and solve for pounds of potatoes",
-      "content": "Substitute $c = 2p$ into the cost equation:<br/>$$0.69p + 0.99(2p) = 5.34$$<br/>Combine the $p$ terms:<br/>$$0.69p + 1.98p = 5.34$$<br/>$$2.67p = 5.34$$<br/>Divide both sides by 2.67:<br/>$$p = \\frac{5.34}{2.67} = 2$$"
+      "title": "Substitute and solve for pounds of peaches",
+      "content": "Substitute $c = 2p$ into the cost equation:<br/>$$0.75p + 1.10(2p) = 8.85$$<br/>Combine the $p$ terms:<br/>$$0.75p + 2.20p = 8.85$$<br/>$$2.95p = 8.85$$<br/>Divide both sides by 2.95:<br/>$$p = \\frac{8.85}{2.95} = 3$$"
     },
     {
-      "title": "Calculate the pounds of celery",
-      "content": "Using the relationship $c = 2p$ with $p = 2$:<br/>$$c = 2(2) = 4 \\text{ pounds}$$<br/>Verification: $0.69(2) + 0.99(4) = 1.38 + 3.96 = 5.34$ ✓<br/><br/><strong>D</strong> is correct."
+      "title": "Calculate the pounds of cucumbers",
+      "content": "Using the relationship $c = 2p$ with $p = 3$:<br/>$$c = 2(3) = 6 \\text{ pounds}$$<br/>Verification: $0.75(3) + 1.10(6) = 2.25 + 6.60 = 8.85$, so the solution checks.<br/><br/><strong>D</strong> is correct."
     }
   ]
 }

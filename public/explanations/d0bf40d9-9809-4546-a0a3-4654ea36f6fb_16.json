@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up the equation",
-      "content": "We need to find the value of $a$ where $f(a) = 16$. Substituting into the function $f(x) = \\frac{x+11}{3}$:<br/>$$\\frac{a+11}{3} = 16$$"
+      "content": "We need to find the value of $a$ where $f(a) = 14$. Substituting into the function $f(x) = \\frac{x+10}{4}$:<br/>$$\\frac{a+10}{4} = 14$$"
     },
     {
       "title": "Test choice C",
-      "content": "Backsolving — testing choice C (37):<br/>$$f(37) = \\frac{37+11}{3} = \\frac{48}{3} = 16$$<br/>This equals 16, confirming the condition is satisfied. That is the correct answer."
+      "content": "Backsolving — testing choice C (46):<br/>$$f(46) = \\frac{46+10}{4} = \\frac{56}{4} = 14$$<br/>This equals 14, confirming the condition is satisfied. That is the correct answer."
     }
   ]
 }

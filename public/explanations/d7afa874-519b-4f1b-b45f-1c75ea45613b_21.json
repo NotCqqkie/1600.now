@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Use the x-intercepts",
-      "content": "The graph passes through $(10,0)$ and $(-5,0)$, so the roots are $10$ and $-5$. Therefore $$f(x)=a(x-10)(x+5)$$"
+      "content": "The graph passes through $(10,0)$ and $(-4,0)$, so the roots are $10$ and $-4$. Therefore $$f(x)=a(x-10)(x+4)$$"
     },
     {
       "title": "Find b in terms of a",
-      "content": "Expand the factors: $$(x-10)(x+5)=x^2-5x-50$$ so $$f(x)=ax^2-5ax-50a$$ Thus $b=-5a$."
+      "content": "Expand the factors: $$(x-10)(x+4)=x^2-6x-40$$ so $$f(x)=ax^2-6ax-40a$$ Thus $b=-6a$."
     },
     {
       "title": "Find a possible value",
-      "content": "Then $$a+b=a-5a=-4a$$ Since $a$ is an integer greater than $1$, $a=2$ is allowed and gives $$a+b=-8$$"
+      "content": "Then $$a+b=a-6a=-5a$$ Since $a$ is an integer greater than $1$, $a=2$ is allowed and gives $$a+b=-10$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "The correct value is $-8$, so <strong>A</strong> is correct."
+      "content": "The correct value is $-10$, so <strong>A</strong> is correct."
     }
   ]
 }

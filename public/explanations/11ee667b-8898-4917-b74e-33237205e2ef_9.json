@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Find the roots",
-      "content": "By the zero-product property, $2x(x-3)(x+5)=0$ requires one factor to be zero. That gives $x=0$, $x=3$, or $x=-5$."
+      "content": "By the zero-product property, $3x(x-4)(x+6)=0$ requires one factor to be zero. That gives $x=0$, $x=4$, or $x=-6$."
     },
     {
       "title": "Identify a valid solution",

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply the inequalities with y = 53",
-      "content": "The point $(x, 53)$ has $y = 53$. The first inequality $y \\gt  14$ is satisfied since $53 \\gt  14$. Correct<br/><br/>For the second inequality $4x + y \\lt 18$, substitute $y = 53$:<br/>$$4x + 53 \\lt 18$$<br/>$$4x \\lt -35$$<br/>$$x \\lt -8.75$$"
+      "title": "Apply the inequalities with y = 67",
+      "content": "The point $(x, 67)$ has $y = 67$. The first inequality $y \\gt  15$ is satisfied since $67 \\gt  15$. Correct<br/><br/>For the second inequality $5x + y \\lt 23$, substitute $y = 67$:<br/>$$5x + 67 \\lt 23$$<br/>$$5x \\lt -44$$<br/>$$x \\lt -8.8$$"
     },
     {
-      "title": "Determine which choice satisfies the constraint x < -8.75",
-      "content": "Testing each choice:<ul><li><strong>$-9$</strong>: $-9 \\lt -8.75$ Correct</li><li><strong>$-5$</strong>: $-5 \\lt -8.75$ Incorrect</li><li><strong>$5$</strong>: $5 \\lt -8.75$ Incorrect</li><li><strong>$9$</strong>: $9 \\lt -8.75$ Incorrect</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Determine which choice satisfies the constraint x < -8.8",
+      "content": "Testing each choice:<ul><li><strong>$-10$</strong>: $-10 \\lt -8.8$ Correct</li><li><strong>$-6$</strong>: $-6 \\lt -8.8$ Incorrect</li><li><strong>$6$</strong>: $6 \\lt -8.8$ Incorrect</li><li><strong>$10$</strong>: $10 \\lt -8.8$ Incorrect</li></ul>That matches the correct answer — <strong>A</strong> is correct."
     }
   ]
 }

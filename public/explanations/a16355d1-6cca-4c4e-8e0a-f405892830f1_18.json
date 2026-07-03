@@ -1,20 +1,20 @@
 {
   "questionId": "a16355d1-6cca-4c4e-8e0a-f405892830f1_18",
-  "correctAnswer": "6.75,6.750",
+  "correctAnswer": "24.00,24.000",
   "section": "Math",
   "steps": [
     {
       "title": "Identify the formula needed",
-      "content": "To find mass, use mass = density × volume. We know density = 0.250 g/cm³, so we must calculate the volume first."
+      "content": "To find mass, use mass = density × volume. We know density = 0.375 g/cm³, so we must calculate the volume first."
     },
     {
       "title": "Calculate the cube's volume",
-      "content": "For a cube with edge length 3.000 cm: $$V = (3.000)^3 = 27.000 \\text{ cm}^3$$",
+      "content": "For a cube with edge length 4.000 cm: $$V = (4.000)^3 = 64.000 \\text{ cm}^3$$",
       "formula": "$$V = s^3$$"
     },
     {
       "title": "Calculate the mass",
-      "content": "Apply the mass formula: $$\\text{mass} = 0.250 \\text{ g/cm}^3 \\times 27.000 \\text{ cm}^3 = 6.75 \\text{ grams}$$<br/>Equivalent forms accepted: <strong>6.75</strong>, <strong>6.750</strong>."
+      "content": "Apply the mass formula: $$\\text{mass} = 0.375 \\text{ g/cm}^3 \\times 64.000 \\text{ cm}^3 = 24.00 \\text{ grams}$$<br/>Equivalent forms accepted: <strong>24.00</strong>, <strong>24.000</strong>."
     }
   ]
 }

@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Evaluate the shared inputs",
-      "content": "The answer choices all use $x=-1$, $0$, and $1$. Substitute each value into $q(x)=32(2^x)$."
+      "content": "The answer choices all use $x=-1$, $0$, and $1$. Substitute each value into $q(x)=48(3^x)$."
     },
     {
       "title": "Read the output row",
-      "content": "The values are:<br/>$$q(-1)=16,\\quad q(0)=32,\\quad q(1)=64$$<br/>So the correct table must have output row $16,32,64$."
+      "content": "The values are:<br/>$$q(-1)=16,\\quad q(0)=48,\\quad q(1)=144$$<br/>So the correct table must have output row $16,48,144$."
     },
     {
       "title": "Match the table",
-      "content": "The correct table pairs $x=-1$, $0$, and $1$ with $q(x)=16$, $32$, and $64$, respectively. Therefore <strong>D</strong> is correct."
+      "content": "The correct table pairs $x=-1$, $0$, and $1$ with $q(x)=16$, $48$, and $144$, respectively. Therefore <strong>D</strong> is correct."
     }
   ]
 }

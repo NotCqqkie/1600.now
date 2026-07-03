@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Substitute to isolate the common expression",
-      "content": "Let $u = x - 5$. The equation becomes $$\\frac{u}{7} = \\frac{u}{9}$$"
+      "content": "Let $u = x - 8$. The equation becomes $$\\frac{u}{5} = \\frac{u}{11}$$"
     },
     {
       "title": "Cross-multiply and solve for u",
-      "content": "Cross-multiply: $9u = 7u$. Subtract $7u$ from both sides to get $2u = 0$, so $u = 0$. Therefore, $x - 5 = 0$. This value is between $-3$ and $3$. That matches the correct answer — <strong>B</strong> is correct."
+      "content": "Cross-multiply: $11u = 5u$. Subtract $5u$ from both sides to get $6u = 0$, so $u = 0$. Therefore, $x - 8 = 0$. This value is between $-4$ and $4$. That matches the correct answer &mdash; <strong>B</strong> is correct."
     }
   ]
 }

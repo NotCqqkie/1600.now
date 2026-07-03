@@ -1,19 +1,19 @@
 {
   "questionId": "6acacde7-ed77-4956-a395-7f7392d6ba20_4",
-  "correctAnswer": "25",
+  "correctAnswer": "23",
   "section": "Math",
   "steps": [
     {
       "title": "Set up",
-      "content": "From $\\dfrac{5a}{b} = 3.5$, divide both sides by $5$: $\\dfrac{a}{b} = 0.7$.<br/>The second equation $\\dfrac{a}{bn} = 17.5$ can be written as $\\dfrac{a}{b} \\cdot \\dfrac{1}{n} = 17.5$."
+      "content": "From $\\dfrac{4a}{b} = 3.2$, divide both sides by $4$: $\\dfrac{a}{b} = 0.8$.<br/>The second equation $\\dfrac{a}{bn} = 18.4$ can be written as $\\dfrac{a}{b} \\cdot \\dfrac{1}{n} = 18.4$."
     },
     {
       "title": "Solve",
-      "content": "Substitute $\\dfrac{a}{b} = 0.7$:<br/>$0.7 \\cdot \\dfrac{1}{n} = 17.5$<br/>$\\dfrac{1}{n} = \\dfrac{17.5}{0.7} = 25$"
+      "content": "Substitute $\\dfrac{a}{b} = 0.8$:<br/>$0.8 \\cdot \\dfrac{1}{n} = 18.4$<br/>$\\dfrac{1}{n} = \\dfrac{18.4}{0.8} = 23$"
     },
     {
       "title": "Answer",
-      "content": "<strong>25</strong> is correct."
+      "content": "<strong>23</strong> is correct."
     }
   ]
 }

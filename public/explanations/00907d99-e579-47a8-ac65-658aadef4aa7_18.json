@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Step 1",
-      "content": "Multiply both sides of $f = \\frac{(10x)^{2}}{7g}$ by $7g$: $7fg = (10x)^{2} = 100x^{2}$."
+      "content": "Multiply both sides of $f = \\frac{(12x)^{2}}{5g}$ by $5g$: $5fg = (12x)^{2} = 144x^{2}$."
     },
     {
       "title": "Step 2",
-      "content": "Divide both sides by 100: $x^{2} = \\frac{7fg}{100}$."
+      "content": "Divide both sides by 144: $x^{2} = \\frac{5fg}{144}$."
     },
     {
       "title": "Step 3",
-      "content": "Take the positive square root (all variables are positive): $x = \\frac{\\sqrt{7fg}}{10}$. Now evaluate each choice.<br/><ul><li>$x = \\frac{\\sqrt{7fg}}{10}$ matches $x = \\frac{\\sqrt{7fg}}{10}$ exactly. That matches <strong>Choice A &mdash; $x=\\frac{\\sqrt{7fg}}{10}$</strong>.</li></ul><ul><li>$x = 10\\sqrt{7fg}$ would give $x^{2} = 700fg$, but we need $x^{2} = \\frac{7fg}{100}$. The 10 belongs in the denominator, not multiplied on top. Not correct.</li></ul><ul><li>$x = \\sqrt{\\frac{7fg}{10}}$ would give $x^{2} = \\frac{7fg}{10}$, but the denominator should be 100 (since $(10x)^{2}$ contributes a factor of $10^{2}$). Not correct.</li></ul><ul><li>$x = \\sqrt{7fg} - 10$ squaring gives $7fg - 20\\sqrt{7fg} + 100$, which cannot equal $\\frac{7fg}{100}$ in general. Not correct.</li></ul>"
+      "content": "Take the positive square root (all variables are positive): $x = \\frac{\\sqrt{5fg}}{12}$. Now evaluate each choice.<br/><ul><li>$x = \\frac{\\sqrt{5fg}}{12}$ matches $x = \\frac{\\sqrt{5fg}}{12}$ exactly. That matches <strong>Choice A &mdash; $x=\\frac{\\sqrt{5fg}}{12}$</strong>.</li></ul><ul><li>$x = 12\\sqrt{5fg}$ would give $x^{2} = 720fg$, but we need $x^{2} = \\frac{5fg}{144}$. The 12 belongs in the denominator, not multiplied on top. Not correct.</li></ul><ul><li>$x = \\sqrt{\\frac{5fg}{12}}$ would give $x^{2} = \\frac{5fg}{12}$, but the denominator should be 144 (since $(12x)^{2}$ contributes a factor of $12^{2}$). Not correct.</li></ul><ul><li>$x = \\sqrt{5fg} - 12$ squaring gives $5fg - 24\\sqrt{5fg} + 144$, which cannot equal $\\frac{5fg}{144}$ in general. Not correct.</li></ul>"
     }
   ]
 }

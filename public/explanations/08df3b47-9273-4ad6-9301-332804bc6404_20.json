@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Use vertex form",
-      "content": "The maximum height is $27.04$ feet at $t=1.3$, so the vertex is $(1.3,27.04)$. A quadratic with this vertex can be written as $$f(t)=a(t-1.3)^2+27.04$$"
+      "content": "The maximum height is $31.36$ feet at $t=1.4$, so the vertex is $(1.4,31.36)$. A quadratic with this vertex can be written as $$f(t)=a(t-1.4)^2+31.36$$"
     },
     {
       "title": "Use the launch height",
-      "content": "The object is launched from ground level, so $f(0)=0$. Substitute $t=0$: $$0=a(0-1.3)^2+27.04$$ $$0=1.69a+27.04$$ $$a=-16$$"
+      "content": "The ball is launched from ground level, so $f(0)=0$. Substitute $t=0$: $$0=a(0-1.4)^2+31.36$$ $$0=1.96a+31.36$$ $$a=-16$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "The model is $$f(t)=-16(t-1.3)^2+27.04$$ which matches <strong>Choice A &mdash; $f(t) = -16(t - 1.3)^2 + 27.04$</strong>."
+      "content": "The model is $$f(t)=-16(t-1.4)^2+31.36$$ which matches <strong>Choice A &mdash; $f(t) = -16(t - 1.4)^2 + 31.36$</strong>."
     }
   ]
 }

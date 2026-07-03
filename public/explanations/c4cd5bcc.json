@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Identify where the y-intercept occurs on the coordinate plane",
-      "content": "The <em>y</em>-intercept is the point where the graph crosses the <em>y</em>-axis. On the <em>y</em>-axis, the <em>x</em>-coordinate is always 0. Therefore, the <em>y</em>-intercept is at the point $(0, c)$, where $c$ is the <em>y</em>-coordinate we're told about."
+      "content": "The <em>y</em>-intercept is the point where the graph crosses the <em>y</em>-axis. On the <em>y</em>-axis, the <em>x</em>-coordinate is always 0. Therefore, the <em>y</em>-intercept is at the point $(0, k)$, where $k$ is the <em>y</em>-coordinate we're told about."
     },
     {
       "title": "Apply function notation at x = 0",
-      "content": "By definition, $f(0)$ is the output of the function when $x = 0$. Since the <em>y</em>-intercept is the point $(0, c)$, we have $f(0) = c$."
+      "content": "By definition, $h(0)$ is the output of the function when $x = 0$. Since the <em>y</em>-intercept is the point $(0, k)$, we have $h(0) = k$."
     },
     {
       "title": "Check all choices",
-      "content": "<ul><li><strong>Choice A &mdash; $f(0)$</strong>: The <em>y</em>-intercept always occurs at $x = 0$, so $f(0)$ gives the <em>y</em>-coordinate $c$ &#10003;</li><li><strong>Choice B &mdash; $f(1)$</strong>: $x = 1$ is not the <em>y</em>-axis; $f(1)$ gives the output at $x = 1$, not the <em>y</em>-intercept &#10007;</li><li><strong>Choice C &mdash; $f(2)$</strong>: $x = 2$ is not the <em>y</em>-axis; same reasoning as B &#10007;</li><li><strong>Choice D &mdash; $f(3)$</strong>: $x = 3$ is not the <em>y</em>-axis; same reasoning as B &#10007;</li></ul>That is the correct answer."
+      "content": "<ul><li><strong>Choice A &mdash; $h(0)$</strong>: The <em>y</em>-intercept always occurs at $x = 0$, so $h(0)$ gives the <em>y</em>-coordinate $k$ &#10003;</li><li><strong>Choice B &mdash; $h(2)$</strong>: $x = 2$ is not the <em>y</em>-axis; $h(2)$ gives the output at $x = 2$, not the <em>y</em>-intercept &#10007;</li><li><strong>Choice C &mdash; $h(4)$</strong>: $x = 4$ is not the <em>y</em>-axis; same reasoning as B &#10007;</li><li><strong>Choice D &mdash; $h(6)$</strong>: $x = 6$ is not the <em>y</em>-axis; same reasoning as B &#10007;</li></ul>That is the correct answer."
     }
   ]
 }

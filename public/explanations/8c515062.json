@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Calculate wax consumed",
-      "content": "The candle starts with 17 ounces and now has 6 ounces remaining. The amount of wax that has burned is:<br/>$$17 - 6 = 11 \\text{ ounces}$$"
+      "content": "The candle starts with 21 ounces and now has 8 ounces remaining. The amount of wax that has burned is:<br/>$$21 - 8 = 13 \\text{ ounces}$$"
     },
     {
       "title": "Convert burn rate to time",
-      "content": "The wax decreases at a rate of 1 ounce per 4 hours. To find how long 11 ounces takes to burn, multiply the amount by the time per ounce:<br/>$$11 \\text{ ounces} \\times \\frac{4 \\text{ hours}}{1 \\text{ ounce}} = 44 \\text{ hours}$$<br/>That confirms <strong>D</strong> is correct."
+      "content": "The wax decreases at a rate of 1 ounce per 5 hours. To find how long 13 ounces takes to burn, multiply the amount by the time per ounce:<br/>$$13 \\text{ ounces} \\times \\frac{5 \\text{ hours}}{1 \\text{ ounce}} = 65 \\text{ hours}$$<br/>That confirms <strong>D</strong> is correct."
     }
   ]
 }

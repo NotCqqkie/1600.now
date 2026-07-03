@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Simplify the ratio and identify the constraint",
-      "content": "The ratio of length to width is 35 to 10. Simplify by dividing both by 5:<br/>$$\\frac{35}{10} = \\frac{7}{2}$$<br/>So the length-to-width ratio is 7:2. When the width increases, to <strong>maintain this ratio</strong>, the changes in length and width must themselves be in the same 7:2 ratio."
+      "content": "The ratio of length to width is 45 to 12. Simplify by dividing both by 3:<br/>$$\\frac{45}{12} = \\frac{15}{4}$$<br/>So the length-to-width ratio is 15:4. When the width increases, to <strong>maintain this ratio</strong>, the changes in length and width must themselves be in the same 15:4 ratio."
     },
     {
       "title": "Apply the ratio to the change in width",
-      "content": "The width increases by 7 units. Call the length increase $\\Delta L$. For the ratio to remain 7:2, the changes must satisfy:<br/>$$\\frac{\\Delta L}{\\Delta W} = \\frac{7}{2}$$<br/>Substitute $\\Delta W = 7$:<br/>$$\\frac{\\Delta L}{7} = \\frac{7}{2}$$<br/>$$\\Delta L = 7 \\cdot \\frac{7}{2} = \\frac{49}{2} = 24.5$$<br/>Since $\\Delta L = 24.5 \\gt  0$, the length must increase by 24.5 units. <strong>B</strong> is correct."
+      "content": "The width increases by 8 units. Call the length increase $\\Delta L$. For the ratio to remain 15:4, the changes must satisfy:<br/>$$\\frac{\\Delta L}{\\Delta W} = \\frac{15}{4}$$<br/>Substitute $\\Delta W = 8$:<br/>$$\\frac{\\Delta L}{8} = \\frac{15}{4}$$<br/>$$\\Delta L = 8 \\cdot \\frac{15}{4} = 30$$<br/>Since $\\Delta L = 30 \\gt  0$, the length must increase by 30 units. <strong>B</strong> is correct."
     }
   ]
 }

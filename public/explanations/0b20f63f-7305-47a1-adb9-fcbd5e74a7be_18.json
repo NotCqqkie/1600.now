@@ -1,19 +1,19 @@
 {
   "questionId": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_18",
-  "correctAnswer": "-49",
+  "correctAnswer": "-43",
   "section": "Math",
   "steps": [
     {
       "title": "Set up",
-      "content": "Plug $x = \\dfrac{2}{5}$ into $f(x) = -10x + b$ and set equal to $-53$:<br/>$$-10 \\cdot \\frac{2}{5} + b = -53$$<br/>$$-4 + b = -53$$"
+      "content": "Plug $x = \\dfrac{1}{3}$ into $f(x) = -12x + b$ and set equal to $-47$:<br/>$$-12 \\cdot \\frac{1}{3} + b = -47$$<br/>$$-4 + b = -47$$"
     },
     {
       "title": "Solve",
-      "content": "Add $4$ to both sides:<br/>$$b=-53+4=-49$$<br/>The answer is <strong>-49</strong>."
+      "content": "Add $4$ to both sides:<br/>$$b=-47+4=-43$$<br/>The answer is <strong>-43</strong>."
     },
     {
       "title": "Answer",
-      "content": "<strong>&minus;49</strong> is correct."
+      "content": "<strong>&minus;43</strong> is correct."
     }
   ]
 }

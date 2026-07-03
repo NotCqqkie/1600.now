@@ -1,19 +1,19 @@
 {
   "questionId": "4771a64a",
-  "correctAnswer": "11",
+  "correctAnswer": "13",
   "section": "Math",
   "steps": [
     {
       "title": "Treat the repeated group as the target",
-      "content": "The question asks for $2-4x$, so do not expand it. Let the repeated group stay together while you move terms."
+      "content": "The question asks for $3-5x$, so do not expand it. Let the repeated group stay together while you move terms."
     },
     {
       "title": "Isolate the group",
-      "content": "Start with $$5-7(2-4x)=16-8(2-4x).$$ Subtract $5$ from both sides: $$-7(2-4x)=11-8(2-4x).$$ Add $8(2-4x)$ to both sides to get $$2-4x=11.$$"
+      "content": "Start with $$8-6(3-5x)=21-7(3-5x).$$ Subtract $8$ from both sides: $$-6(3-5x)=13-7(3-5x).$$ Add $7(3-5x)$ to both sides to get $$3-5x=13.$$"
     },
     {
       "title": "Confirm the answer",
-      "content": "The target expression has value <strong>11</strong>. This is faster than solving for $x$ because the problem asks for the grouped expression itself."
+      "content": "The target expression has value <strong>13</strong>. This is faster than solving for $x$ because the problem asks for the grouped expression itself."
     }
   ]
 }

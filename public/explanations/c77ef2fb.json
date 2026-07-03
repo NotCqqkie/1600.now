@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve for H",
-      "content": "Starting with $V_B = \\frac{V_P}{1-H}$, multiply both sides by $(1-H)$: $$V_B(1-H) = V_P$$ $$V_B - V_B H = V_P$$ $$V_B H = V_B - V_P$$ $$H = \\frac{V_B - V_P}{V_B} = 1 - \\frac{V_P}{V_B}$$"
+      "title": "Solve for C",
+      "content": "Starting with $V_T = \\frac{V_S}{1-C}$, multiply both sides by $(1-C)$: $$V_T(1-C) = V_S$$ $$V_T - V_T C = V_S$$ $$V_T C = V_T - V_S$$ $$C = \\frac{V_T - V_S}{V_T} = 1 - \\frac{V_S}{V_T}$$"
     },
     {
       "title": "Evaluate Each Choice",
-      "content": "<ul><li><strong>Choice A &mdash; $H = 1 - \\frac{V_P}{V_B}$</strong>: Matches our derived result exactly. &#10003;</li><li><strong>Choice B &mdash; $H = \\frac{V_B}{V_P}$</strong>: This is the reciprocal of $V_P/V_B$, not what we derived. &#10007;</li><li><strong>Choice C &mdash; $H = 1 + \\frac{V_B}{V_P}$</strong>: Sign and ratio direction are both wrong. &#10007;</li><li><strong>Choice D &mdash; $H = V_B - V_P$</strong>: Dimensionally wrong; H must be a unitless fraction between 0 and 1. &#10007;</li></ul>That is the correct answer."
+      "content": "<ul><li><strong>Choice A &mdash; $C = 1 - \\frac{V_S}{V_T}$</strong>: Matches our derived result exactly. &#10003;</li><li><strong>Choice B &mdash; $C = \\frac{V_T}{V_S}$</strong>: This is the reciprocal of $V_S/V_T$, not what we derived. &#10007;</li><li><strong>Choice C &mdash; $C = 1 + \\frac{V_T}{V_S}$</strong>: Sign and ratio direction are both wrong. &#10007;</li><li><strong>Choice D &mdash; $C = V_T - V_S$</strong>: Dimensionally wrong; C must be a unitless fraction between 0 and 1. &#10007;</li></ul>That is the correct answer."
     }
   ]
 }

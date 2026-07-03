@@ -1,19 +1,19 @@
 {
   "questionId": "b05db4ac-dd48-4b3f-b365-b39330c879e5_22",
-  "correctAnswer": "-19",
+  "correctAnswer": "-21",
   "section": "Math",
   "steps": [
     {
       "title": "Clear fractions, get standard form",
-      "content": "Multiply $\\dfrac{1}{cx} = \\dfrac{x}{76} + \\dfrac{1}{c}$ through by $76cx$: $76 = cx^2 + 76x$ → $cx^2 + 76x - 76 = 0$."
+      "content": "Multiply $\\dfrac{1}{cx} = \\dfrac{x}{84} + \\dfrac{1}{c}$ through by $84cx$: $84 = cx^2 + 84x$ -> $cx^2 + 84x - 84 = 0$."
     },
     {
-      "title": "One solution → discriminant = 0",
-      "content": "$b^2 - 4ac = 0$: $76^2 - 4(c)(-76) = 0$ → $5776 + 304c = 0$ → $c = -19$."
+      "title": "One solution -> discriminant = 0",
+      "content": "$b^2 - 4ac = 0$: $84^2 - 4(c)(-84) = 0$ -> $7056 + 336c = 0$ -> $c = -21$."
     },
     {
       "title": "Answer",
-      "content": "The value $c=-19$ satisfies the one-solution condition, so <strong>-19</strong> is correct."
+      "content": "The value $c=-21$ satisfies the one-solution condition, so <strong>-21</strong> is correct."
     }
   ]
 }

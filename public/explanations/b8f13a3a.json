@@ -1,19 +1,19 @@
 {
   "questionId": "b8f13a3a",
-  "correctAnswer": "20",
+  "correctAnswer": "15",
   "section": "Math",
   "steps": [
     {
       "title": "Use the y-intercept condition",
-      "content": "The graph of $y = f(x) - 12$ has a y-intercept at $(0, -\\frac{75}{7})$. At $x = 0$:<br/>$$y = f(0) - 12 = (-a^0 + b) - 12 = b - 13$$<br/>Therefore:<br/>$$b - 13 = -\\frac{75}{7}$$"
+      "content": "The graph of $y = f(x) - 8$ has a y-intercept at $(0, -\\frac{33}{5})$. At $x = 0$:<br/>$$y = f(0) - 8 = (-a^0 + b) - 8 = b - 9$$<br/>Therefore:<br/>$$b - 9 = -\\frac{33}{5}$$"
     },
     {
       "title": "Solve for b",
-      "content": "$$b = 13 - \\frac{75}{7} = \\frac{91}{7} - \\frac{75}{7} = \\frac{16}{7}$$"
+      "content": "$$b = 9 - \\frac{33}{5} = \\frac{45}{5} - \\frac{33}{5} = \\frac{12}{5}$$"
     },
     {
       "title": "Apply the product condition to find a",
-      "content": "Given $ab = \\frac{320}{7}$ and $b = \\frac{16}{7}$:<br/>$$a \\cdot \\frac{16}{7} = \\frac{320}{7}$$<br/>$$a = \\frac{320}{7} \\cdot \\frac{7}{16} = \\frac{320}{16} = 20$$"
+      "content": "Given $ab = 36$ and $b = \\frac{12}{5}$:<br/>$$a \\cdot \\frac{12}{5} = 36$$<br/>$$a = 36 \\cdot \\frac{5}{12} = 15$$"
     }
   ]
 }

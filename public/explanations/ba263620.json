@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the goal",
-      "content": "The student wants to emphasize a <strong>similarity</strong> between the two inventors. The notes show both Beard and Jones improved on existing designs &mdash; that shared characteristic is what the correct choice must highlight."
+      "content": "The student wants to emphasize a <strong>similarity</strong> between the two inventors. The notes show both Reed and Hayes improved on existing designs &mdash; that shared characteristic is what the correct choice must highlight."
     },
     {
       "title": "Eliminate wrong choices and confirm the answer",
-      "content": "<ul><li><strong>Choice A &mdash; Beard's automatic coupler and Jones's mobile refrigeration system both improved on existing designs.</strong>: Directly names both inventors and states the characteristic they share. &#10003;</li><li><strong>Choice B &mdash; In 1897, Beard invented an automatic coupler, which made the job of connecting train cars safer.</strong>: Covers only Beard; Jones is absent, so no similarity is established. &#10007;</li><li><strong>Choice C &mdash; Beard's invention made the job of connecting train cars safer, whereas Jones's invention enabled food transport trucks to carry perishables farther.</strong>: Uses &ldquo;whereas&rdquo; to contrast the two inventors, not to emphasize similarity. &#10007;</li><li><strong>Choice D &mdash; Jones's mobile refrigeration system, which he invented in 1938, made it possible for food transport trucks to carry perishable foods farther.</strong>: Covers only Jones; Beard is absent, so no similarity is established. &#10007;</li></ul>That is the correct answer."
+      "content": "<ul><li><strong>Choice A &mdash; Reed's automatic coupler and Hayes's mobile refrigeration system both improved on existing designs.</strong>: Directly names both inventors and states the characteristic they share. &#10003;</li><li><strong>Choice B &mdash; In 1897, Reed invented an automatic coupler, which made the job of connecting train cars safer.</strong>: Covers only Reed; Hayes is absent, so no similarity is established. &#10007;</li><li><strong>Choice C &mdash; Reed's invention made the job of connecting train cars safer, whereas Hayes's invention enabled food transport trucks to carry perishables farther.</strong>: Uses &ldquo;whereas&rdquo; to contrast the two inventors, not to emphasize similarity. &#10007;</li><li><strong>Choice D &mdash; Hayes's mobile refrigeration system, which he invented in 1938, made it possible for food transport trucks to carry perishable foods farther.</strong>: Covers only Hayes; Reed is absent, so no similarity is established. &#10007;</li></ul>That is the correct answer."
     }
   ]
 }

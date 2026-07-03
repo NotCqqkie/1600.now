@@ -1,15 +1,15 @@
 {
   "questionId": "23a951fb-833f-4b27-9978-4eb054f855e2_16",
-  "correctAnswer": "6/7",
+  "correctAnswer": "5/8",
   "section": "Math",
   "steps": [
     {
       "title": "Parallel lines have equal slopes — read slope directly from standard form",
-      "content": "For $ax + by = c$ the slope is $-a/b$, no algebra needed.<br/>Line $j$: $6x - 7y = 14$ $\\Rightarrow$ slope $= -6/(-7) = 6/7$.<br/>Since line $k$ is parallel to line $j$, it has the same slope."
+      "content": "For $ax + by = c$ the slope is $-a/b$, no algebra needed.<br/>Line $j$: $5x - 8y = 24$ $\\Rightarrow$ slope $= -5/(-8) = 5/8$.<br/>Since line $k$ is parallel to line $j$, it has the same slope."
     },
     {
       "title": "State the slope of line k",
-      "content": "The slope of line $k$ is $\\dfrac{6}{7}$.<br/>The answer is $\\boxed{\\dfrac{6}{7}}$."
+      "content": "The slope of line $k$ is $\\dfrac{5}{8}$.<br/>The answer is $\\boxed{\\dfrac{5}{8}}$."
     }
   ]
 }

@@ -9,11 +9,11 @@
     },
     {
       "title": "Calculate the growth factor for a 6-month interval",
-      "content": "When 6 months pass, $x$ increases by $0.5$ years, so the exponent becomes $2(0.5) = 1$. The growth factor is therefore $(1.005)^1 = 1.005$.<br/><br/>Interpreting this result:<br/>$$1.005 = 1 + 0.005 = 1 + 0.5\\%$$<br/>So the balance is multiplied by 1.005 each 6-month period, representing a 0.5% increase from the balance at the start of that interval."
+      "content": "When 6 months pass, $x$ increases by $0.5$ years, so the exponent becomes $2(0.5) = 1$. The growth factor is therefore $(1.004)^1 = 1.004$.<br/><br/>Interpreting this result:<br/>$$1.004 = 1 + 0.004 = 1 + 0.4\\%$$<br/>So the balance is multiplied by 1.004 each 6-month period, representing a 0.4% increase from the balance at the start of that interval."
     },
     {
       "title": "Match to the correct choice",
-      "content": "We determined that every 6 months, the balance is multiplied by a factor representing a 0.5% increase from the beginning balance of that interval.<br/><br/><strong>Choice C &mdash; At the end of every 6-month interval, the balance increases by about 0.5% of the balance at the beginning of the 6-month interval.</strong> states exactly this: <em>At the end of every 6-month interval, the balance increases by about 0.5% of the balance at the beginning of the 6-month interval.</em> That matches <strong>Choice C &mdash; At the end of every 6-month interval, the balance increases by about 0.5% of the balance at the beginning of the 6-month interval.</strong>."
+      "content": "We determined that every 6 months, the balance is multiplied by a factor representing a 0.4% increase from the beginning balance of that interval.<br/><br/><strong>Choice C &mdash; At the end of every 6-month interval, the balance increases by about 0.4% of the balance at the beginning of the 6-month interval.</strong> states exactly this: <em>At the end of every 6-month interval, the balance increases by about 0.4% of the balance at the beginning of the 6-month interval.</em> That matches <strong>Choice C &mdash; At the end of every 6-month interval, the balance increases by about 0.4% of the balance at the beginning of the 6-month interval.</strong>."
     }
   ]
 }

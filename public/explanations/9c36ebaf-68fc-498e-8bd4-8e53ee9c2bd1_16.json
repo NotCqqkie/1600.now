@@ -1,19 +1,19 @@
 {
   "questionId": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_16",
-  "correctAnswer": "25",
+  "correctAnswer": "27",
   "section": "Math",
   "steps": [
     {
       "title": "Solve the system by elimination",
-      "content": "Multiply the second equation by 4: $16x-4y=88$. Add to $x+4y=-3$: $$17x=85 \\Rightarrow x=5, \\ y=4(5)-22=-2.$$"
+      "content": "Multiply the second equation by 4: $16x-4y=76$. Add to $x+4y=-8$: $$17x=68 \\Rightarrow x=4,\\ y=4(4)-19=-3.$$"
     },
     {
       "title": "Find $3x - 5y$",
-      "content": "Then $$3x-5y = 3(5)-5(-2) = 15+10 = 25.$$ The answer is <strong>25</strong>."
+      "content": "Then $$3x-5y = 3(4)-5(-3) = 12+15 = 27.$$ The answer is <strong>27</strong>."
     },
     {
       "title": "Confirm the answer",
-      "content": "As a final check, make sure the computed value answers exactly what the question asks for. The work above gives $25$; substituting or interpreting it in the original condition satisfies the requirement, so $25$ is the value to enter."
+      "content": "As a final check, make sure the computed value answers exactly what the question asks for. The work above gives $27$; substituting or interpreting it in the original condition satisfies the requirement, so $27$ is the value to enter."
     }
   ]
 }

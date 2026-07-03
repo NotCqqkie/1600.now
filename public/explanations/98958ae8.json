@@ -1,15 +1,15 @@
 {
   "questionId": "98958ae8",
-  "correctAnswer": "41",
+  "correctAnswer": "46",
   "section": "Math",
   "steps": [
     {
       "title": "Use the formula for mean of combined data",
-      "content": "The mean of data set C is:<br/>$$\\text{Mean of C} = \\frac{\\text{Sum of A + Sum of B}}{125}$$<br/>To find the sums, use Sum = Mean × Count:<ul><li>Data set A: $75 \\times 25 = 1875$ meters</li><li>Data set B: $50 \\times 65 = 3250$ meters</li><li>Total sum: $1875 + 3250 = 5125$ meters</li></ul>"
+      "content": "The mean of data set C is:<br/>$$\\text{Mean of C} = \\frac{\\text{Sum of A + Sum of B}}{120}$$<br/>To find the sums, use Sum = Mean × Count:<ul><li>Data set A: $72 \\times 30 = 2160$ meters</li><li>Data set B: $48 \\times 70 = 3360$ meters</li><li>Total sum: $2160 + 3360 = 5520$ meters</li></ul>"
     },
     {
       "title": "Divide to find the mean",
-      "content": "$$\\text{Mean of C} = \\frac{5125}{125} = 41 \\text{ meters}$$"
+      "content": "$$\\text{Mean of C} = \\frac{5520}{120} = 46 \\text{ meters}$$"
     }
   ]
 }

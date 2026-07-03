@@ -9,11 +9,11 @@
     },
     {
       "title": "Apply the Pythagorean theorem",
-      "content": "Since angle B is the right angle, AC is the hypotenuse. We have:<br/>$$AC^2 = (10\\sqrt{39})^2 + (24\\sqrt{39})^2$$<br/>Squaring each term:<br/>$$AC^2 = 100 \\cdot 39 + 576 \\cdot 39 = 39(100 + 576) = 39 \\cdot 676$$"
+      "content": "Since angle B is the right angle, AC is the hypotenuse. We have:<br/>$$AC^2 = (16\\sqrt{29})^2 + (30\\sqrt{29})^2$$<br/>Squaring each term:<br/>$$AC^2 = 256 \\cdot 29 + 900 \\cdot 29 = 29(256 + 900) = 29 \\cdot 1156$$"
     },
     {
       "title": "Simplify the radical",
-      "content": "Taking the square root of both sides:<br/>$$AC = \\sqrt{39 \\cdot 676} = \\sqrt{39} \\cdot \\sqrt{676} = \\sqrt{39} \\cdot 26 = 26\\sqrt{39}$$<br/><strong>B</strong> is correct."
+      "content": "Taking the square root of both sides:<br/>$$AC = \\sqrt{29 \\cdot 1156} = \\sqrt{29} \\cdot \\sqrt{1156} = \\sqrt{29} \\cdot 34 = 34\\sqrt{29}$$<br/><strong>B</strong> is correct."
     }
   ]
 }

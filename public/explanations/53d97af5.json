@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the population represented by the sample",
-      "content": "The sample consists only of largemouth bass, so any inference about weight applies specifically to that group, not to all fish in the pond.<br/>Therefore we can estimate the proportion of largemouth bass weighing more than 2 pounds from the sample proportion of 30%."
+      "content": "The sample consists only of Gala apples, so any inference about weight applies specifically to that group, not to all apples in the orchard.<br/>Therefore we can estimate the proportion of Gala apples weighing more than 5 ounces from the sample proportion of 25%."
     },
     {
       "title": "Evaluate answer choices",
-      "content": "The matching choice states that approximately 30% of all largemouth bass in the pond weigh more than 2 pounds, which matches the inference from the sample.<br/>The other choices refer to all fish or average weight, which the sample does not support.<br/><strong>D</strong> is correct."
+      "content": "The matching choice states that approximately 25% of all Gala apples in the orchard weigh more than 5 ounces, which matches the inference from the sample.<br/>The other choices refer to all apples or average weight, which the sample does not support.<br/><strong>D</strong> is correct."
     }
   ]
 }

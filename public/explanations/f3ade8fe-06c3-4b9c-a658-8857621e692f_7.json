@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute the value x = 10",
-      "content": "Replace $x$ with $10$ in $$h(x) = 2(9x - 10).$$ This gives $$h(10) = 2(9(10) - 10).$$"
+      "title": "Substitute the value x = 8",
+      "content": "Replace $x$ with $8$ in $$h(x) = 3(7x - 8).$$ This gives $$h(8) = 3(7(8) - 8).$$"
     },
     {
       "title": "Compute the result",
-      "content": "Simplify: $$h(10) = 2(90 - 10) = 2(80) = 160.$$ That matches the correct answer — <strong>D</strong> is correct."
+      "content": "Simplify: $$h(8) = 3(56 - 8) = 3(48) = 144.$$ That matches the correct answer; <strong>D</strong> is correct."
     }
   ]
 }

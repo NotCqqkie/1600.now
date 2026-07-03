@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Substitute to rewrite as a simpler quadratic",
-      "content": "The expression $8x^4 + 26x^2 + 21$ is a quadratic in $x^2$. Substitute $u = x^2$ to rewrite it as:<br/>$$8u^2 + 26u + 21$$"
+      "content": "The expression $15x^4 + 41x^2 + 28$ is a quadratic in $x^2$. Substitute $u = x^2$ to rewrite it as:<br/>$$15u^2 + 41u + 28$$"
     },
     {
       "title": "Factor the quadratic in u",
-      "content": "To factor $8u^2 + 26u + 21$, find $(pu + q)(ru + s)$ where $pr = 8$ and $qs = 21$.<br/><br/>Try $p = 2, r = 4$ (so $2 \\times 4 = 8$) and $q = 3, s = 7$ (so $3 \\times 7 = 21$). Check the middle term:<br/>$$ps + qr = 2(7) + 3(4) = 14 + 12 = 26 \\quad \\checkmark$$<br/>Therefore:<br/>$$(2u + 3)(4u + 7) = 8u^2 + 26u + 21$$"
+      "content": "To factor $15u^2 + 41u + 28$, find $(pu + q)(ru + s)$ where $pr = 15$ and $qs = 28$.<br/><br/>Try $p = 3, r = 5$ (so $3 \\times 5 = 15$) and $q = 4, s = 7$ (so $4 \\times 7 = 28$). Check the middle term:<br/>$$ps + qr = 3(7) + 4(5) = 21 + 20 = 41 \\quad \\checkmark$$<br/>Therefore:<br/>$$(3u + 4)(5u + 7) = 15u^2 + 41u + 28$$"
     },
     {
       "title": "Substitute back and find ab",
-      "content": "Substitute $u = x^2$ to get the factored form $(2x^2 + 3)(4x^2 + 7)$.<br/><br/>The question asks for $ab$ where $ax^2 + b$ is one of the factors. The factor $4x^2 + 7$ corresponds to $a = 4, b = 7$, giving $ab = 4 \\times 7 = 28$. (The other factor, $2x^2 + 3$, gives $ab = 6$, which is not among the answer choices.) That confirms <strong>D</strong> is correct."
+      "content": "Substitute $u = x^2$ to get the factored form $(3x^2 + 4)(5x^2 + 7)$.<br/><br/>The question asks for $ab$ where $ax^2 + b$ is one of the factors. The factor $5x^2 + 7$ corresponds to $a = 5, b = 7$, giving $ab = 5 \\times 7 = 35$. (The other factor, $3x^2 + 4$, gives $ab = 12$, which is not among the answer choices.) That confirms <strong>D</strong> is correct."
     }
   ]
 }

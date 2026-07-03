@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The question asks for the most logical transition between two sentences. The first sentence makes a general claim: mushrooms contain phenolic compounds such as protocatechuic acid and biochanin. The second sentence then gives specific instances of Ferreira detecting those exact compounds in mushrooms. This is a general statement followed by an illustrative example, so the transition must signal illustration."
+      "content": "The question asks for the most logical transition between two sentences. The first sentence makes a general claim: mushrooms contain phenolic compounds such as protocatechuic acid and biochanin. The second sentence then gives specific instances of Costa detecting those exact compounds in mushrooms. This is a general statement followed by an illustrative example, so the transition must signal illustration."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"Nevertheless,\"</strong>: Signals a concession or contrast. There is no contrast between the two sentences. &#10007;</li><li><strong>\"However,\"</strong>: Also signals contrast. The second sentence supports and illustrates the first, not contradicts it. &#10007;</li><li><strong>\"For this reason,\"</strong>: Signals that the second sentence is a result or consequence of the first. Ferreira's detections are not caused by the claim; they illustrate it. &#10007;</li><li><strong>\"For example,\"</strong>: Signals that what follows illustrates the preceding claim. Ferreira detecting protocatechuic acid in specific mushroom species is a concrete example of the general statement that mushrooms contain phenolic compounds. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+      "content": "<ul><li><strong>\"Nevertheless,\"</strong>: Signals a concession or contrast. There is no contrast between the two sentences. &#10007;</li><li><strong>\"However,\"</strong>: Also signals contrast. The second sentence supports and illustrates the first, not contradicts it. &#10007;</li><li><strong>\"For this reason,\"</strong>: Signals that the second sentence is a result or consequence of the first. Costa's detections are not caused by the claim; they illustrate it. &#10007;</li><li><strong>\"For example,\"</strong>: Signals that what follows illustrates the preceding claim. Costa detecting protocatechuic acid in specific mushroom species is a concrete example of the general statement that mushrooms contain phenolic compounds. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
     }
   ]
 }

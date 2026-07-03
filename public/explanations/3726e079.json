@@ -1,19 +1,19 @@
 {
   "questionId": "3726e079",
-  "correctAnswer": "24",
+  "correctAnswer": "30",
   "section": "Math",
   "steps": [
     {
       "title": "Replace the repeated ratio",
-      "content": "The second equation contains $\\frac{x}{y}$. Rewrite it as $$\\frac{24x}{ny}=\\frac{24}{n}\\cdot\\frac{x}{y}=4$$"
+      "content": "The second equation contains $\\frac{x}{y}$. Rewrite it as $$\\frac{30x}{ny}=\\frac{30}{n}\\cdot\\frac{x}{y}=5$$"
     },
     {
       "title": "Substitute the known value",
-      "content": "Since $\\frac{x}{y}=4$, substitute $4$: $$\\frac{24}{n}\\cdot 4=4$$ Divide both sides by $4$ to get $$\\frac{24}{n}=1$$"
+      "content": "Since $\\frac{x}{y}=5$, substitute $5$: $$\\frac{30}{n}\\cdot 5=5$$ Divide both sides by $5$ to get $$\\frac{30}{n}=1$$"
     },
     {
       "title": "Solve for n",
-      "content": "$\\frac{24}{n}=1$ means the numerator and denominator must be equal, so $n=24$. This also makes the original second expression $\\frac{24x}{24y}=\\frac{x}{y}=4$, which checks. Enter <strong>24</strong>."
+      "content": "$\\frac{30}{n}=1$ means the numerator and denominator must be equal, so $n=30$. This also makes the original second expression $\\frac{30x}{30y}=\\frac{x}{y}=5$, which checks. Enter <strong>30</strong>."
     }
   ]
 }

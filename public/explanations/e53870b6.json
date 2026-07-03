@@ -1,6 +1,6 @@
 {
   "questionId": "e53870b6",
-  "correctAnswer": "5",
+  "correctAnswer": "7",
   "section": "Math",
   "steps": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply this to the equation",
-      "content": "The given equation is<br/>$$6x + k = 6x + 5.$$<br/>Both sides already have the term $6x$. For the sides to be identical for all values of $x$, the constants must be equal, so $k = 5$."
+      "content": "The given equation is<br/>$$8x + k = 8x + 7.$$<br/>Both sides already have the term $8x$. For the sides to be identical for all values of $x$, the constants must be equal, so $k = 7$."
     }
   ]
 }

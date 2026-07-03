@@ -1,6 +1,6 @@
 {
   "questionId": "5b2b8866",
-  "correctAnswer": "2592/5",
+  "correctAnswer": "2808/5",
   "section": "Math",
   "steps": [
     {
@@ -13,7 +13,7 @@
     },
     {
       "title": "Apply the area scaling rule to find the new area",
-      "content": "When all linear dimensions scale by factor $k$, area scales by factor $k^2$.<br/><br/>The area scaling factor is: $k^2 = (1.2)^2 = \\frac{36}{25}$<br/><br/>The new area is:<br/>$$360 \\times \\frac{36}{25} = \\frac{360 \\times 36}{25} = \\frac{12960}{25} = \\frac{2592}{5} \\text{ square inches}$$",
+      "content": "When all linear dimensions scale by factor $k$, area scales by factor $k^2$.<br/><br/>The area scaling factor is: $k^2 = (1.2)^2 = \\frac{36}{25}$<br/><br/>The new area is:<br/>$$390 \\times \\frac{36}{25} = \\frac{390 \\times 36}{25} = \\frac{14040}{25} = \\frac{2808}{5} \\text{ square inches}$$",
       "formula": "$$A_{\\text{new}} = A_{\\text{old}} \\times k^2$$"
     }
   ]

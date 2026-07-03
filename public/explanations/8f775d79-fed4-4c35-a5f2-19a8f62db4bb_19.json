@@ -13,7 +13,7 @@
     },
     {
       "title": "Compare with the choices",
-      "content": "<ul><li>A) $p+r+s$: would only be right if $1/q$ equalled $1/(p+r+s)$, which it does not. Eliminated.</li><li>B) ${49}(p+r+s)$: the constant $49$ never appears in the equation. Eliminated.</li><li>C) $\\frac{prs}{pr + ps + rs}$: matches the inverted form derived above.</li><li>D) $\\frac{prs}{49p + 49r + 49s}$: introduces an unwarranted factor of $49$. Eliminated.</li></ul>That confirms <strong>C</strong> is correct."
+      "content": "<ul><li>A) $p+r+s$: would only be right if $1/q$ equalled $1/(p+r+s)$, which it does not. Eliminated.</li><li>B) ${36}(p+r+s)$: the constant $36$ never appears in the equation. Eliminated.</li><li>C) $\\frac{prs}{pr + ps + rs}$: matches the inverted form derived above.</li><li>D) $\\frac{prs}{36p + 36r + 36s}$: introduces an unwarranted factor of $36$. Eliminated.</li></ul>That confirms <strong>C</strong> is correct."
     }
   ]
 }

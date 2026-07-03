@@ -1,16 +1,16 @@
 {
   "questionId": "7f87deff",
-  "correctAnswer": "14",
+  "correctAnswer": "12",
   "section": "Math",
   "steps": [
     {
       "title": "Set the function equal to zero",
-      "content": "To find the x‑intercepts, set $$y=0$$. Since the constant factor 3 is not zero, we have $$(x-14)(x+5)(x+4)=0$$.",
+      "content": "To find the x-intercepts, set $$y=0$$. Since the constant factor 4 is not zero, we have $$(x-12)(x+6)(x+5)=0$$.",
       "formula": null
     },
     {
       "title": "Solve each factor for x",
-      "content": "Setting each factor equal to zero gives $$x-14=0$$ → $$x=14$$, $$x+5=0$$ → $$x=-5$$, and $$x+4=0$$ → $$x=-4$$. Therefore the x‑intercepts occur at $$x=14$$, $$x=-5$$, and $$x=-4$$; one of them is $$x=14$$. The answer is <strong>14</strong>.",
+      "content": "Setting each factor equal to zero gives $$x-12=0$$ -> $$x=12$$, $$x+6=0$$ -> $$x=-6$$, and $$x+5=0$$ -> $$x=-5$$. Therefore the x-intercepts occur at $$x=12$$, $$x=-6$$, and $$x=-5$$; one of them is $$x=12$$. The answer is <strong>12</strong>.",
       "formula": null
     }
   ]

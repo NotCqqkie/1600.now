@@ -1,6 +1,6 @@
 {
   "questionId": "c6dff223",
-  "correctAnswer": "21/29,.7241,0.724,.724",
+  "correctAnswer": "28/53,.5283,0.528,.528",
   "section": "Math",
   "steps": [
     {
@@ -13,7 +13,7 @@
     },
     {
       "title": "Calculate sin D from tan A using the Pythagorean relationship",
-      "content": "In right triangle $ABC$ (with right angle at $C$), we have $\\tan A = \\frac{21}{20}$, meaning the opposite side $BC = 21$ and adjacent side $AC = 20$ (in the same units). Using the Pythagorean theorem:<br/>$$AB = \\sqrt{21^2 + 20^2} = \\sqrt{441 + 400} = \\sqrt{841} = 29$$<br/>Therefore:<br/>$$\\sin D = \\sin A = \\frac{BC}{AB} = \\frac{21}{29} \\approx 0.7241$$"
+      "content": "In right triangle $ABC$ (with right angle at $C$), we have $\\tan A = \\frac{28}{45}$, meaning the opposite side $BC = 28$ and adjacent side $AC = 45$ (in the same units). Using the Pythagorean theorem:<br/>$$AB = \\sqrt{28^2 + 45^2} = \\sqrt{784 + 2025} = \\sqrt{2809} = 53$$<br/>Therefore:<br/>$$\\sin D = \\sin A = \\frac{BC}{AB} = \\frac{28}{53} \\approx 0.5283$$"
     }
   ]
 }

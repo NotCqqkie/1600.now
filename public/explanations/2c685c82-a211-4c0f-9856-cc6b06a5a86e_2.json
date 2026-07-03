@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>C</strong>, $\\sqrt{57y}$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>C</strong>, $\\sqrt{63y}$."
     },
     {
       "title": "Algebra check",
@@ -13,15 +13,15 @@
     },
     {
       "title": "Use the exponent rule",
-      "content": "A power of $\\frac{1}{2}$ means square root. The exponent applies to the whole base $57y$: $$\\left(57y\\right)^{1/2}=\\sqrt{57y}$$"
+      "content": "A power of $\\frac{1}{2}$ means square root. The exponent applies to the whole base $63y$: $$\\left(63y\\right)^{1/2}=\\sqrt{63y}$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "The correct answer is $\\sqrt{57y}$, which is exactly equivalent to $(57y)^{1/2}$. <strong>C</strong> is correct."
+      "content": "The correct answer is $\\sqrt{63y}$, which is exactly equivalent to $(63y)^{1/2}$. <strong>C</strong> is correct."
     },
     {
       "title": "Eliminate the mismatches",
-      "content": "The answer with $57$ outside the radical is wrong. The answer with $y$ outside the radical is also wrong. Squaring the whole product before taking the square root would give $57y$, not $(57y)^{1/2}$."
+      "content": "The answer with $63$ outside the radical is wrong. The answer with $y$ outside the radical is also wrong. Squaring the whole product before taking the square root would give $63y$, not $(63y)^{1/2}$."
     }
   ]
 }

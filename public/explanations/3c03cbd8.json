@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Interpret the equation",
-      "content": "The equation is $$5x+24y=4{,}529.$$ The total tree count (4,529) equals (5 hectares)$\\cdot x$ + (24 hectares)$\\cdot y$. For units to work out as trees, $x$ and $y$ must each have units of trees per hectare. The coefficient $5$ comes from the industrial park, so $x$ is the average trees per hectare in the industrial park."
+      "content": "The equation is $$6x+21y=3{,}918.$$ The total tree count (3,918) equals (6 hectares)$\\cdot x$ + (21 hectares)$\\cdot y$. For units to work out as trees, $x$ and $y$ must each have units of trees per hectare. The coefficient $6$ comes from the community garden, so $x$ is the average trees per hectare in the community garden."
     },
     {
       "title": "Eliminate the other choices",
-      "content": "<ul><li>A: Average trees per hectare in the industrial park &mdash; matches the analysis (5 hectares $\\cdot$ trees/hectare = total industrial-park trees).</li><li>B: Average trees per hectare in the neighborhood &mdash; that role is played by $y$ (paired with 24 hectares), not $x$.</li><li>C: Total trees in the industrial park &mdash; that would be $5x$, not $x$ itself.</li><li>D: Total trees in the neighborhood &mdash; that would be $24y$, not $x$.</li></ul><strong>A</strong> is correct."
+      "content": "<ul><li>A: Average trees per hectare in the community garden &mdash; matches the analysis (6 hectares $\\cdot$ trees/hectare = total community-garden trees).</li><li>B: Average trees per hectare in the public park &mdash; that role is played by $y$ (paired with 21 hectares), not $x$.</li><li>C: Total trees in the community garden &mdash; that would be $6x$, not $x$ itself.</li><li>D: Total trees in the public park &mdash; that would be $21y$, not $x$.</li></ul><strong>A</strong> is correct."
     }
   ]
 }

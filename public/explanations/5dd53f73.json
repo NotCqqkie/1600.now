@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $34(x+y)$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $46(x+y)$."
     },
     {
       "title": "Algebra check",
@@ -13,15 +13,15 @@
     },
     {
       "title": "Look for the common factor",
-      "content": "Both terms in $34x+34y$ have a factor of $34$. When a number multiplies every term, pull that number outside parentheses."
+      "content": "Both terms in $46x+46y$ have a factor of $46$. When a number multiplies every term, pull that number outside parentheses."
     },
     {
       "title": "Factor the expression",
-      "content": "$$34x+34y=34\\cdot x+34\\cdot y=34(x+y)$$<br/>The expression inside the parentheses keeps the two unlike terms, $x$ and $y$, separate."
+      "content": "$$46x+46y=46\\cdot x+46\\cdot y=46(x+y)$$<br/>The expression inside the parentheses keeps the two unlike terms, $x$ and $y$, separate."
     },
     {
       "title": "Check the choices",
-      "content": "An incorrect response multiplies $x$ and $y$, which changes the structure. Choice C (&lsquo;$68y$&rsquo;) is $68y$, and choice D (&lsquo;$68x$&rsquo;) is $68x$, so each drops one variable. The correct response preserves both terms as $34(x+y)$, so <strong>B</strong> is correct."
+      "content": "An incorrect response multiplies $x$ and $y$, which changes the structure. Choice C (&lsquo;$92y$&rsquo;) is $92y$, and choice D (&lsquo;$92x$&rsquo;) is $92x$, so each drops one variable. The correct response preserves both terms as $46(x+y)$, so <strong>B</strong> is correct."
     }
   ]
 }

@@ -1,23 +1,23 @@
 {
   "questionId": "575f1e12",
-  "correctAnswer": "986",
+  "correctAnswer": "1044",
   "section": "Math",
   "steps": [
     {
       "title": "Use the rectangle area formula",
-      "content": "For a rectangle, area equals length times width: $A=lw$. Substitute the given length $34$ centimeters and width $29$ centimeters."
+      "content": "For a rectangle, area equals length times width: $A=lw$. Substitute the given length $36$ centimeters and width $29$ centimeters."
     },
     {
       "title": "Use the rectangle area formula",
-      "content": "The area of a rectangle is length times width: $$A=lw.$$ Here the length is $34$ centimeters and the width is $29$ centimeters."
+      "content": "The area of a rectangle is length times width: $$A=lw.$$ Here the length is $36$ centimeters and the width is $29$ centimeters."
     },
     {
       "title": "Multiply",
-      "content": "$$A=34(29).$$ A quick calculation is $34(30)-34=1020-34=986$."
+      "content": "$$A=36(29).$$ A quick calculation is $36(30)-36=1080-36=1044$."
     },
     {
       "title": "State the units",
-      "content": "The area is <strong>986</strong> square centimeters. The units are square centimeters because area measures two-dimensional space, so the answer is <strong>986</strong>."
+      "content": "The area is <strong>1044</strong> square centimeters. The units are square centimeters because area measures two-dimensional space, so the answer is <strong>1044</strong>."
     }
   ]
 }

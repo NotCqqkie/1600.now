@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Solve the system by elimination",
-      "content": "Subtract: $(\\tfrac{5}{4}x+2y)-(\\tfrac{3}{4}x+2y)=17-15$, so $\\tfrac{1}{2}x=2\\Rightarrow x=4$. Then $\\tfrac{3}{4}(4)+2y=15$ gives $y=6$."
+      "content": "Subtract: $(\\tfrac{5}{4}x+2y)-(\\tfrac{3}{4}x+2y)=28-24$, so $\\tfrac{1}{2}x=4\\Rightarrow x=8$. Then $\\tfrac{3}{4}(8)+2y=24$ gives $y=9$."
     },
     {
       "title": "Find $\\tfrac{11}{4}x + 6y$",
-      "content": "Compute: $\\tfrac{11}{4}(4)+6(6)=11+36=47$. That matches the correct answer — <strong>D</strong> is correct."
+      "content": "Compute: $\\tfrac{11}{4}(8)+6(9)=22+54=76$. That matches the correct answer — <strong>D</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above is 47. The other choices do not satisfy the same condition from the question, so <strong>D</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above is 76. The other choices do not satisfy the same condition from the question, so <strong>D</strong> is correct."
     }
   ]
 }

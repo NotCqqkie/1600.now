@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Recognize that all probabilities sum to 1",
-      "content": "The three theaters account for all customers. Therefore:<br/>$$P(A) + P(B) + P(C) = 1$$"
+      "content": "The three sections account for all attendees. Therefore:<br/>$$P(A) + P(B) + P(C) = 1$$"
     },
     {
-      "title": "Calculate the probability for theater C",
-      "content": "Substitute the given probabilities:<br/>$$P(C) = 1 - 0.48 - 0.24 = 0.28$$"
+      "title": "Calculate the probability for section C",
+      "content": "Substitute the given probabilities:<br/>$$P(C) = 1 - 0.35 - 0.30 = 0.35$$"
     },
     {
-      "title": "Convert probability to number of customers",
-      "content": "Multiply the probability by the total number of customers:<br/>$$0.28 \\times 350 = 98$$<br/>That matches <strong>Choice D &mdash; $98$</strong>."
+      "title": "Convert probability to number of attendees",
+      "content": "Multiply the probability by the total number of attendees:<br/>$$0.35 \\times 400 = 140$$<br/>That matches <strong>Choice D &mdash; $140$</strong>."
     }
   ]
 }

@@ -5,12 +5,12 @@
   "steps": [
     {
       "title": "Factor the left side",
-      "content": "Rewrite $-3x + 21px = 84$ by factoring x: $$(-3 + 21p)x = 84$$ A linear equation of the form $ax = b$ has no solution when $a = 0$ and $b \\neq 0$ (the equation becomes $0 = 84$, a contradiction). So we need $-3 + 21p = 0$.",
-      "formula": "$$-3 + 21p = 0$$"
+      "content": "Rewrite $-5x + 20px = 90$ by factoring x: $$(-5 + 20p)x = 90$$ A linear equation of the form $ax = b$ has no solution when $a = 0$ and $b \\neq 0$ (the equation becomes $0 = 90$, a contradiction). So we need $-5 + 20p = 0$.",
+      "formula": "$$-5 + 20p = 0$$"
     },
     {
       "title": "Solve for p and test all choices",
-      "content": "$$21p = 3 \\implies p = \\frac{3}{21} = \\frac{1}{7}$$<ul><li><strong>Choice A &mdash; $0$</strong>: $p=0$ gives $-3x = 84$, which has solution $x = -28$. One solution, not no solution. &#10007;</li><li><strong>Choice B &mdash; $\\frac{1}{7}$</strong>: $-3 + 21 \\cdot \\frac{1}{7} = -3 + 3 = 0$, so $0x = 84$ &mdash; no solution. &#10003;</li><li><strong>Choice C &mdash; $\\frac{4}{3}$</strong>: $-3 + 21 \\cdot \\frac{4}{3} = -3 + 28 = 25 \\neq 0$, so one solution exists. &#10007;</li><li><strong>Choice D &mdash; $4$</strong>: $-3 + 21 \\cdot 4 = -3 + 84 = 81 \\neq 0$, so one solution exists. &#10007;</li></ul>That matches <strong>Choice B &mdash; $\\frac{1}{7}$</strong>."
+      "content": "$$20p = 5 \\implies p = \\frac{5}{20} = \\frac{1}{4}$$<ul><li><strong>Choice A &mdash; $0$</strong>: $p=0$ gives $-5x = 90$, which has solution $x = -18$. One solution, not no solution. &#10007;</li><li><strong>Choice B &mdash; $\\frac{1}{4}$</strong>: $-5 + 20 \\cdot \\frac{1}{4} = -5 + 5 = 0$, so $0x = 90$ &mdash; no solution. &#10003;</li><li><strong>Choice C &mdash; $\\frac{3}{2}$</strong>: $-5 + 20 \\cdot \\frac{3}{2} = -5 + 30 = 25 \\neq 0$, so one solution exists. &#10007;</li><li><strong>Choice D &mdash; $\\frac{9}{2}$</strong>: $-5 + 20 \\cdot \\frac{9}{2} = -5 + 90 = 85 \\neq 0$, so one solution exists. &#10007;</li></ul>That matches <strong>Choice B &mdash; $\\frac{1}{4}$</strong>."
     }
   ]
 }

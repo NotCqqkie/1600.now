@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Use the parallel slope",
-      "content": "Line $k$ is $y=3x-2$, so its slope is $3$. A line parallel to it also has slope $3$."
+      "content": "Line $k$ is $y=4x-5$, so its slope is $4$. A line parallel to it also has slope $4$."
     },
     {
       "title": "Use the given point",
-      "content": "Line $j$ has form $y=3x+b$ and passes through $(0,1)$. Substitute the point: $$1=3(0)+b$$ so $$b=1$$"
+      "content": "Line $j$ has form $y=4x+b$ and passes through $(0,2)$. Substitute the point: $$2=4(0)+b$$ so $$b=2$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "Line $j$ is $y=3x+1$, which is <strong>B</strong>."
+      "content": "Line $j$ is $y=4x+2$, which is <strong>B</strong>."
     }
   ]
 }

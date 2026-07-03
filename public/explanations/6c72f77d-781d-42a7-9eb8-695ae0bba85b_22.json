@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Reduce the system to one line",
-      "content": "Multiply the first equation by $5$: $5(7x+4y)=5(3)$ gives $35x+20y=15$, which is identical to the second equation. Both equations describe the same line, $7x+4y=3$."
+      "content": "Multiply the first equation by $5$: $5(6x+5y)=5(4)$ gives $30x+25y=20$, which is identical to the second equation. Both equations describe the same line, $6x+5y=4$."
     },
     {
       "title": "Solve for x in terms of y",
-      "content": "Let $y=r$. Substitute into $7x+4y=3$:<br/>$$7x+4r=3$$<br/>$$7x=3-4r$$<br/>$$x=-\\frac{4r}{7}+\\frac{3}{7}$$"
+      "content": "Let $y=r$. Substitute into $6x+5y=4$:<br/>$$6x+5r=4$$<br/>$$6x=4-5r$$<br/>$$x=-\\frac{5r}{6}+\\frac{2}{3}$$"
     },
     {
       "title": "Confirm choice B",
-      "content": "The point is therefore $\\left(-\\frac{4r}{7}+\\frac{3}{7}, r\\right)$, which matches <strong>B</strong>."
+      "content": "The point is therefore $\\left(-\\frac{5r}{6}+\\frac{2}{3}, r\\right)$, which matches <strong>B</strong>."
     }
   ]
 }

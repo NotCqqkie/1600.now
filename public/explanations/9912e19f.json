@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Use the stated correspondence",
-      "content": "In the congruence statement, $E$ corresponds to $J$. Corresponding angles in congruent triangles are equal, so $\\angle J = \\angle E$."
+      "content": "In the congruence statement, $A$ corresponds to $P$. Corresponding angles in congruent triangles are equal, so $\\angle P = \\angle A$."
     },
     {
-      "title": "Find angle J",
-      "content": "The measure of $\\angle E$ is $45^\\circ$, so the measure of $\\angle J$ is also $45^\\circ$. That confirms <strong>B</strong> is correct."
+      "title": "Find angle P",
+      "content": "The measure of $\\angle A$ is $50^\\circ$, so the measure of $\\angle P$ is also $50^\\circ$. That confirms <strong>B</strong> is correct."
     }
   ]
 }

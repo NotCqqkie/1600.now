@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $\\sqrt[14]{x}$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $\\sqrt[12]{x}$."
     },
     {
       "title": "Algebra check",
@@ -13,11 +13,11 @@
     },
     {
       "title": "Use the fractional exponent rule",
-      "content": "A fractional exponent with numerator $1$ means a root: $$x^{1/n}=\\sqrt[n]{x}.$$ Here $n=14$, so $$x^{1/14}=\\sqrt[14]{x}.$$"
+      "content": "A fractional exponent with numerator $1$ means a root: $$x^{1/n}=\\sqrt[n]{x}.$$ Here $n=12$, so $$x^{1/12}=\\sqrt[12]{x}.$$"
     },
     {
       "title": "Check against the choices",
-      "content": "<strong>Choice B &mdash; $\\sqrt[14]{x}$</strong>. <strong>Choice A &mdash; $\\frac{1}{14}·x$</strong> treats the exponent like multiplication by $\\dfrac{1}{14}$, <strong>Choice C &mdash; $14·x$</strong> multiplies by $14$, and <strong>Choice D &mdash; ${ \\left(x\\right)}^{14}$</strong> uses the reciprocal exponent idea incorrectly by raising $x$ to the $14$th power."
+      "content": "<strong>Choice B &mdash; $\\sqrt[12]{x}$</strong>. <strong>Choice A &mdash; $\\frac{1}{12}·x$</strong> treats the exponent like multiplication by $\\dfrac{1}{12}$, <strong>Choice C &mdash; $12·x$</strong> multiplies by $12$, and <strong>Choice D &mdash; ${ \\left(x\\right)}^{12}$</strong> uses the reciprocal exponent idea incorrectly by raising $x$ to the $12$th power."
     }
   ]
 }

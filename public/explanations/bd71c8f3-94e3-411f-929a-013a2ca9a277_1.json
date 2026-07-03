@@ -9,12 +9,12 @@
     },
     {
       "title": "Apply the angle sum property of triangles",
-      "content": "In any triangle, the sum of the three interior angles equals 180°. With angle A = 34° and angle B = 90°, we write:<br/>$$34^\\circ + 90^\\circ + C = 180^\\circ$$",
+      "content": "In any triangle, the sum of the three interior angles equals 180°. With angle P = 38° and angle Q = 90°, we write:<br/>$$38^\\circ + 90^\\circ + R = 180^\\circ$$",
       "formula": "$$A + B + C = 180^\\circ$$"
     },
     {
-      "title": "Solve for angle C",
-      "content": "Simplify the left side:<br/>$$124^\\circ + C = 180^\\circ$$<br/>Subtract $124^\\circ$ from both sides:<br/>$$C = 56^\\circ$$<br/>That is the correct answer."
+      "title": "Solve for angle R",
+      "content": "Simplify the left side:<br/>$$128^\\circ + R = 180^\\circ$$<br/>Subtract $128^\\circ$ from both sides:<br/>$$R = 52^\\circ$$<br/>That is the correct answer."
     }
   ]
 }

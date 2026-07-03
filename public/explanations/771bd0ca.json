@@ -1,19 +1,19 @@
 {
   "questionId": "771bd0ca",
-  "correctAnswer": "-22",
+  "correctAnswer": "-19",
   "section": "Math",
   "steps": [
     {
       "title": "Combine the repeated group",
-      "content": "Both terms contain the same group, $(t+3)$. Combine the coefficients first: $$5(t+3)-7(t+3)=(5-7)(t+3)=-2(t+3).$$"
+      "content": "Both terms contain the same group, $(t+4)$. Combine the coefficients first: $$6(t+4)-9(t+4)=(6-9)(t+4)=-3(t+4).$$"
     },
     {
       "title": "Solve the simplified equation",
-      "content": "Now solve $$-2(t+3)=38.$$ Divide by $-2$ to get $t+3=-19$, then subtract $3$: $$t=-22.$$"
+      "content": "Now solve $$-3(t+4)=45.$$ Divide by $-3$ to get $t+4=-15$, then subtract $4$: $$t=-19.$$"
     },
     {
       "title": "Check the value",
-      "content": "Substitute $t=-22$: $t+3=-19$, so $5(-19)-7(-19)=-95+133=38$. The answer is <strong>-22</strong>."
+      "content": "Substitute $t=-19$: $t+4=-15$, so $6(-15)-9(-15)=-90+135=45$. The answer is <strong>-19</strong>."
     }
   ]
 }

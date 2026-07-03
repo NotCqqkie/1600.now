@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Interpret f(3) using the given definition",
-      "content": "The function $f(t)$ represents the account balance $t$ years after the initial deposit. Therefore, $f(3)$ is the balance at $t = 3$, which is 3 years after the deposit."
+      "title": "Interpret f(4) using the given definition",
+      "content": "The function $f(t)$ represents the account balance $t$ years after the initial deposit. Therefore, $f(4)$ is the balance at $t = 4$, which is 4 years after the deposit."
     },
     {
       "title": "Translate the statement",
-      "content": "The statement $f(3) \\approx 7,430.64$ means the account balance 3 years after the deposit is approximately 7,430.64 dollars. This is the total balance in the account, not a change from the initial amount."
+      "content": "The statement $f(4) \\approx 7,038.57$ means the account balance 4 years after the deposit is approximately 7,038.57 dollars. This is the total balance in the account, not a change from the initial amount."
     },
     {
       "title": "Identify the correct interpretation",
-      "content": "The value 7,430.64 is the total balance at $t = 3$ years, not an increase from the initial 7,000 (the actual increase is $7,430.64 - 7,000 = 430.64$). The correct answer correctly states that the balance is 7,430.64 after 3 years. That confirms <strong>A</strong> is correct."
+      "content": "The value 7,038.57 is the total balance at $t = 4$ years, not an increase from the initial 6,500 (the actual increase is $7,038.57 - 6,500 = 538.57$). The correct answer correctly states that the balance is 7,038.57 after 4 years. That confirms <strong>A</strong> is correct."
     }
   ]
 }

@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Translate the first condition",
-      "content": "\"Connor has 4 times as many dollars as Maria\" means Connor's amount equals 4 times Maria's: $c = 4m$."
+      "content": "\"Lena has 3 times as many dollars as Omar\" means Lena's amount equals 3 times Omar's: $l = 3o$."
     },
     {
       "title": "Translate the second condition",
-      "content": "\"Together they have a total of \\$25.00\" means $c + m = 25$."
+      "content": "\"Together they have a total of \\$36.00\" means $l + o = 36$."
     },
     {
       "title": "Eliminate choices",
-      "content": "<ul><li><strong>\"$c=4m$\n$c+m=25$\"</strong>: Matches both translations exactly. &#10003;</li><li><strong>\"$m=4c$\n$c+m=25$\"</strong>: $m=4c$ would mean Maria has 4 times Connor's amount, reversing the relationship. &#10007;</li><li><strong>\"$c=25m$\n$c+m=4$\"</strong>: Swaps the roles of 4 and 25; total would be 4 dollars, not 25 dollars. &#10007;</li><li><strong>\"$m=25c$\n$c+m=4$\"</strong>: Both equations are wrong — wrong multiplier and wrong total. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+      "content": "<ul><li><strong>\"$l=3o$\n$l+o=36$\"</strong>: Matches both translations exactly. &#10003;</li><li><strong>\"$o=3l$\n$l+o=36$\"</strong>: $o=3l$ would mean Omar has 3 times Lena's amount, reversing the relationship. &#10007;</li><li><strong>\"$l=36o$\n$l+o=3$\"</strong>: Swaps the roles of 3 and 36; total would be 3 dollars, not 36 dollars. &#10007;</li><li><strong>\"$o=36l$\n$l+o=3$\"</strong>: Both equations are wrong — wrong multiplier and wrong total. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
     }
   ]
 }

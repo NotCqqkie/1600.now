@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Substitute into the denominator",
-      "content": "The function is $f(x)=\\dfrac{1}{6x}$. When $x=3$, the denominator is 6 times 3, not 6 plus 3."
+      "content": "The function is $f(x)=\\dfrac{1}{8x}$. When $x=4$, the denominator is 8 times 4, not 8 plus 4."
     },
     {
       "title": "Simplify the fraction",
-      "content": "$$f(3)=\\dfrac{1}{6(3)}=\\dfrac{1}{18}$$<br/>The expression equals one over the product 18, so <strong>D</strong> is correct. Choices with larger fractions come from using a smaller denominator or treating $6x$ as something other than multiplication."
+      "content": "$$f(4)=\\dfrac{1}{8(4)}=\\dfrac{1}{32}$$<br/>The expression equals one over the product 32, so <strong>D</strong> is correct. Choice C uses $\\dfrac{1}{12}$, which comes from adding $8+4$ instead of multiplying."
     }
   ]
 }

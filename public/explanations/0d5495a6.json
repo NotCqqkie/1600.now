@@ -1,15 +1,15 @@
 {
   "questionId": "0d5495a6",
-  "correctAnswer": "45",
+  "correctAnswer": "52",
   "section": "Math",
   "steps": [
     {
       "title": "Use x = 0",
-      "content": "The function is $h(x)=x+b$, and the problem gives $h(0)=45$. Substitute $x=0$:<br/>$$h(0)=0+b=b$$"
+      "content": "The function is $h(x)=x+b$, and the problem gives $h(0)=52$. Substitute $x=0$:<br/>$$h(0)=0+b=b$$"
     },
     {
       "title": "Match the given output",
-      "content": "Since $h(0)=45$ and $h(0)=b$, it follows that:<br/>$$b=45$$"
+      "content": "Since $h(0)=52$ and $h(0)=b$, it follows that:<br/>$$b=52$$"
     },
     {
       "title": "Interpret the shortcut",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Answer",
-      "content": "The value of $b$ is <strong>45</strong>."
+      "content": "The value of $b$ is <strong>52</strong>."
     }
   ]
 }

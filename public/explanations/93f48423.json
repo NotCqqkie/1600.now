@@ -10,7 +10,7 @@
     },
     {
       "title": "Apply the formula to the given dimensions",
-      "content": "With length = 7 inches and width = 6 inches:<br/>$$A = 7 \\times 6 = 42 \\text{ square inches}$$<br/>The units become square inches because two lengths are multiplied. That confirms <strong>C</strong> is correct."
+      "content": "With length = 9 inches and width = 4 inches:<br/>$$A = 9 \\times 4 = 36 \\text{ square inches}$$<br/>The units become square inches because two lengths are multiplied. That confirms <strong>C</strong> is correct."
     }
   ]
 }

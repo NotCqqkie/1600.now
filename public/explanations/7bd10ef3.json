@@ -5,17 +5,17 @@
   "steps": [
     {
       "title": "Rearrange and identify coefficients",
-      "content": "Start with $2x^2 - 4x = t$ and move $t$ to the left side to get the standard quadratic form $2x^2 - 4x - t = 0$. Here $a = 2$, $b = -4$, and $c = -t$.",
-      "formula": "$$2x^2 - 4x - t = 0$$"
+      "content": "Start with $3x^2 - 6x = t$ and move $t$ to the left side to get the standard quadratic form $3x^2 - 6x - t = 0$. Here $a = 3$, $b = -6$, and $c = -t$.",
+      "formula": "$$3x^2 - 6x - t = 0$$"
     },
     {
       "title": "Apply the no-real-solutions condition",
-      "content": "A quadratic has no real solutions exactly when its discriminant $b^2 - 4ac$ is negative. Substitute the coefficients:<br/>$$(-4)^2 - 4(2)(-t) \\lt 0$$<br/>$$16 + 8t \\lt 0$$<br/>$$t \\lt -2$$",
+      "content": "A quadratic has no real solutions exactly when its discriminant $b^2 - 4ac$ is negative. Substitute the coefficients:<br/>$$(-6)^2 - 4(3)(-t) \\lt 0$$<br/>$$36 + 12t \\lt 0$$<br/>$$t \\lt -3$$",
       "formula": "$$b^2 - 4ac \\lt 0$$"
     },
     {
-      "title": "Test each choice against $t \\lt -2$",
-      "content": "<ul><li>A) $t = -3$: is $-3 \\lt -2$? Yes &mdash; no real solutions.</li><li>B) $t = -1$: is $-1 \\lt -2$? No &mdash; eliminate.</li><li>C) $t = 1$: is $1 \\lt -2$? No &mdash; eliminate.</li><li>D) $t = 3$: is $3 \\lt -2$? No &mdash; eliminate.</li></ul>That confirms <strong>A</strong> is correct."
+      "title": "Test each choice against $t \\lt -3$",
+      "content": "<ul><li>A) $t = -4$: is $-4 \\lt -3$? Yes &mdash; no real solutions.</li><li>B) $t = -2$: is $-2 \\lt -3$? No &mdash; eliminate.</li><li>C) $t = 2$: is $2 \\lt -3$? No &mdash; eliminate.</li><li>D) $t = 4$: is $4 \\lt -3$? No &mdash; eliminate.</li></ul>That confirms <strong>A</strong> is correct."
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Convert the percent decrease",
-      "content": "A $3.5\\%$ decrease per year means the population is multiplied by $1-0.035=0.965$ each year. The starting population in 2005 is $6.32$, so the exponential model starts with $6.32$ and uses multiplier $0.965$."
+      "content": "A $4.2\\%$ decrease per year means the population is multiplied by $1-0.042=0.958$ each year. The starting population in 2010 is $7.15$, so the exponential model starts with $7.15$ and uses multiplier $0.958$."
     },
     {
       "title": "Apply the exponential decay formula",
-      "content": "From 2005 to 2015 is $10$ years, so apply the multiplier $10$ times: $$6.32(0.965)^{10}.$$ The result matches."
+      "content": "From 2010 to 2020 is $10$ years, so apply the multiplier $10$ times: $$7.15(0.958)^{10}.$$ This matches choice D."
     }
   ]
 }

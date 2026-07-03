@@ -1,19 +1,19 @@
 {
   "questionId": "32388549-e820-4b4a-91a9-d9c32e611098_7",
-  "correctAnswer": "252",
+  "correctAnswer": "268",
   "section": "Math",
   "steps": [
     {
-      "title": "Convert to years after 1993",
-      "content": "Let $t$ be years after $1993$. Then $1993$ is $t=0$, $2013$ is $t=20$, and $2017$ is $t=24$. The known points for the linear model are $(0,52)$ and $(20,219)$, where $y$ is in thousands."
+      "title": "Convert to years after 1998",
+      "content": "Let $t$ be years after $1998$. Then $1998$ is $t=0$, $2018$ is $t=20$, and $2022$ is $t=24$. The known points for the linear model are $(0,47)$ and $(20,231)$, where $y$ is in thousands."
     },
     {
-      "title": "Use the fitted line to predict 2017",
-      "content": "Use the two known points $(0,52)$ and $(20,219)$:<br/>$$m=\\frac{219-52}{20-0}=\\frac{167}{20}=8.35.$$ Since $t=0$ gives $y=52$, the model is $$y=8.35t+52.$$ For $2017$, $t=24$: $$y=8.35(24)+52=252.4.$$ Rounded to the nearest whole number, this is $252$ thousand."
+      "title": "Use the fitted line to predict 2022",
+      "content": "Use the two known points $(0,47)$ and $(20,231)$:<br/>$$m=\\frac{231-47}{20-0}=\\frac{184}{20}=9.2.$$ Since $t=0$ gives $y=47$, the model is $$y=9.2t+47.$$ For $2022$, $t=24$: $$y=9.2(24)+47=267.8.$$ Rounded to the nearest whole number, this is $268$ thousand."
     },
     {
       "title": "Confirm the answer",
-      "content": "The value $252.4$ rounds to $252$, so the answer is <strong>252</strong>."
+      "content": "The value $267.8$ rounds to $268$, so the answer is <strong>268</strong>."
     }
   ]
 }

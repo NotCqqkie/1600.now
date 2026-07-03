@@ -9,12 +9,12 @@
     },
     {
       "title": "Apply the angle sum property of triangles",
-      "content": "The three interior angles of any triangle sum to $180^{\\circ}$. We have $\\angle X = 23^{\\circ}$ and $\\angle Y = 66^{\\circ}$, so we need to find $\\angle Z$.",
-      "formula": "$$\\angle X + \\angle Y + \\angle Z = 180^{\\circ}$$"
+      "content": "The three interior angles of any triangle sum to $180^{\\circ}$. We have $\\angle P = 28^{\\circ}$ and $\\angle Q = 57^{\\circ}$, so we need to find $\\angle R$.",
+      "formula": "$$\\angle P + \\angle Q + \\angle R = 180^{\\circ}$$"
     },
     {
-      "title": "Solve for angle Z",
-      "content": "Set up the equation: $$23^{\\circ} + 66^{\\circ} + \\angle Z = 180^{\\circ}$$<br/>Combine the known angles: $$89^{\\circ} + \\angle Z = 180^{\\circ}$$<br/>Subtract $89^{\\circ}$ from both sides: $$\\angle Z = 91^{\\circ}$$<br/>That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Solve for angle R",
+      "content": "Set up the equation: $$28^{\\circ} + 57^{\\circ} + \\angle R = 180^{\\circ}$$<br/>Combine the known angles: $$85^{\\circ} + \\angle R = 180^{\\circ}$$<br/>Subtract $85^{\\circ}$ from both sides: $$\\angle R = 95^{\\circ}$$<br/>That matches the correct answer - <strong>C</strong> is correct."
     }
   ]
 }

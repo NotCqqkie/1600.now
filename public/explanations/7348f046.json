@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Distribute the negative sign",
-      "content": "The negative sign in front of the second group changes the signs of both terms within it:<br/>$$(2x + 3) - (x - 7) = 2x + 3 - x + 7$$"
+      "content": "The negative sign in front of the second group changes the signs of both terms within it:<br/>$$(3x + 4) - (2x - 8) = 3x + 4 - 2x + 8$$"
     },
     {
       "title": "Combine like terms",
-      "content": "Group the $x$ terms and constants separately, then simplify:<br/>$$(2x - x) + (3 + 7)$$<br/>$$x + 10$$<br/>That confirms <strong>C</strong> is correct."
+      "content": "Group the $x$ terms and constants separately, then simplify:<br/>$$(3x - 2x) + (4 + 8)$$<br/>$$x + 12$$<br/>That confirms <strong>C</strong> is correct."
     }
   ]
 }

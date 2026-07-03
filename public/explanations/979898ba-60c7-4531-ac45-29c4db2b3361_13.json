@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Turn the conditions into two rows",
-      "content": "For a linear function, $g(x+1)-g(x)=6$ means every time $x$ increases by $1$, the function value increases by $6$. Since $g(4)=10$, the next point is $g(5)=16$."
+      "content": "For a linear function, $g(x+1)-g(x)=5$ means every time $x$ increases by $1$, the function value increases by $5$. Since $g(3)=11$, the next point is $g(4)=16$."
     },
     {
       "title": "Find the line from the data",
-      "content": "Using $(4,10)$ and $(5,16)$, the slope is $$m=\\frac{16-10}{5-4}=6.$$ Substitute $(4,10)$ into $y=6x+b$: $$10=24+b,$$ so $b=-14$. The equation is $y=6x-14$."
+      "content": "Using $(3,11)$ and $(4,16)$, the slope is $$m=\\frac{16-11}{4-3}=5.$$ Substitute $(3,11)$ into $y=5x+b$: $$11=15+b,$$ so $b=-4$. The equation is $y=5x-4$."
     },
     {
       "title": "Confirm the choice",
-      "content": "$g(x)=4x+10$ and $g(x)=4x+6$ have slope $4$, so they do not satisfy $g(x+1)-g(x)=6$. $g(x)=6x-24$ has slope $6$, but $g(4)=6(4)-24=0$, not $10$. The function $g(x)=6x-14$ has $g(4)=10$ and increases by $6$ each step."
+      "content": "$g(x)=3x+11$ and $g(x)=3x+5$ have slope $3$, so they do not satisfy $g(x+1)-g(x)=5$. $g(x)=5x-15$ has slope $5$, but $g(3)=5(3)-15=0$, not $11$. The function $g(x)=5x-4$ has $g(3)=11$ and increases by $5$ each step."
     }
   ]
 }

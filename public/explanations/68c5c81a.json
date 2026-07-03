@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Recognize the structure of the budget inequality",
-      "content": "The inequality $11x + 14y \\leq 115$ represents Anthony's total spending constraint.<br/><br/>Each term follows the pattern (unit price) × (quantity), where the product equals the total amount spent on that item type.<br/><br/>So each term in the left side must be a <strong>total spent</strong> on one of the pizza types."
+      "content": "The inequality $9x + 13y \\leq 104$ represents Jordan's total spending constraint.<br/><br/>Each term follows the pattern (unit price) × (quantity), where the product equals the total amount spent on that item type.<br/><br/>So each term in the left side must be a <strong>total spent</strong> on one of the pizza types."
     },
     {
-      "title": "Identify what 14y represents",
-      "content": "In $14y$, we have:<ul><li>$y$ = the number of large pizzas (given in the problem)</li><li>$14$ = the cost per large pizza (from the structure of the inequality, this multiplies $y$)</li><li>Therefore $14y = 14 \\times y$ = the total amount spent on large cheese pizzas</li></ul>That confirms <strong>C</strong> is correct."
+      "title": "Identify what 13y represents",
+      "content": "In $13y$, we have:<ul><li>$y$ = the number of large pizzas (given in the problem)</li><li>$13$ = the cost per large pizza (from the structure of the inequality, this multiplies $y$)</li><li>Therefore $13y = 13 \\times y$ = the total amount spent on large veggie pizzas</li></ul>That confirms <strong>C</strong> is correct."
     }
   ]
 }

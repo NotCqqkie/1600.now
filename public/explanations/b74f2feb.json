@@ -1,23 +1,23 @@
 {
   "questionId": "b74f2feb",
-  "correctAnswer": "361/8",
+  "correctAnswer": "545/8",
   "section": "Math",
   "steps": [
     {
       "title": "Simplify the first radical using the power rule",
-      "content": "Apply the property $\\sqrt[n]{a^m} = a^{m/n}$ to separate and simplify $\\sqrt[5]{3^5 x^{45}}$.<br/>$$\\sqrt[5]{3^5 x^{45}} = \\sqrt[5]{3^5} \\cdot \\sqrt[5]{x^{45}} = 3^{5/5} \\cdot x^{45/5} = 3 \\cdot x^9 = 3x^9$$"
+      "content": "Apply the property $\\sqrt[n]{a^m} = a^{m/n}$ to separate and simplify $\\sqrt[5]{4^5 x^{40}}$.<br/>$$\\sqrt[5]{4^5 x^{40}} = \\sqrt[5]{4^5} \\cdot \\sqrt[5]{x^{40}} = 4^{5/5} \\cdot x^{40/5} = 4 \\cdot x^8 = 4x^8$$"
     },
     {
       "title": "Simplify the second radical",
-      "content": "Apply the same property to $\\sqrt[8]{2^8 x}$.<br/>$$\\sqrt[8]{2^8 x} = \\sqrt[8]{2^8} \\cdot \\sqrt[8]{x} = 2^{8/8} \\cdot x^{1/8} = 2 \\cdot x^{1/8} = 2x^{1/8}$$"
+      "content": "Apply the same property to $\\sqrt[8]{3^8 x}$.<br/>$$\\sqrt[8]{3^8 x} = \\sqrt[8]{3^8} \\cdot \\sqrt[8]{x} = 3^{8/8} \\cdot x^{1/8} = 3 \\cdot x^{1/8} = 3x^{1/8}$$"
     },
     {
       "title": "Multiply all terms and combine like terms",
-      "content": "Substitute the simplified radicals back into the original expression:<br/>$$6 \\cdot (3x^9) \\cdot (2x^{1/8}) = 6 \\cdot 3 \\cdot 2 \\cdot x^9 \\cdot x^{1/8}$$<br/>Combine constants: $6 \\cdot 3 \\cdot 2 = 36$<br/>Combine powers of $x$ using $x^m \\cdot x^n = x^{m+n}$: $x^9 \\cdot x^{1/8} = x^{9+1/8}$<br/><br/>Convert to a common denominator: $9 = \\frac{72}{8}$, so $9 + \\frac{1}{8} = \\frac{72}{8} + \\frac{1}{8} = \\frac{73}{8}$<br/>$$\\text{Result} = 36x^{73/8}$$"
+      "content": "Substitute the simplified radicals back into the original expression:<br/>$$5 \\cdot (4x^8) \\cdot (3x^{1/8}) = 5 \\cdot 4 \\cdot 3 \\cdot x^8 \\cdot x^{1/8}$$<br/>Combine constants: $5 \\cdot 4 \\cdot 3 = 60$<br/>Combine powers of $x$ using $x^m \\cdot x^n = x^{m+n}$: $x^8 \\cdot x^{1/8} = x^{8+1/8}$<br/><br/>Convert to a common denominator: $8 = \\frac{64}{8}$, so $8 + \\frac{1}{8} = \\frac{64}{8} + \\frac{1}{8} = \\frac{65}{8}$<br/>$$\\text{Result} = 60x^{65/8}$$"
     },
     {
       "title": "Identify a and b, then find their sum",
-      "content": "Comparing $36x^{73/8}$ to the form $ax^b$:<ul><li>$a = 36$</li><li>$b = \\frac{73}{8}$</li></ul>Therefore:<br/>$$a + b = 36 + \\frac{73}{8} = \\frac{288}{8} + \\frac{73}{8} = \\frac{361}{8}$$"
+      "content": "Comparing $60x^{65/8}$ to the form $ax^b$:<ul><li>$a = 60$</li><li>$b = \\frac{65}{8}$</li></ul>Therefore:<br/>$$a + b = 60 + \\frac{65}{8} = \\frac{480}{8} + \\frac{65}{8} = \\frac{545}{8}$$"
     }
   ]
 }

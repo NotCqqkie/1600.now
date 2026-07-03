@@ -9,11 +9,11 @@
     },
     {
       "title": "Find the radius using the distance from center C to point A",
-      "content": "The radius is the distance from $C(h, k)$ to $A(h+1, k+\\sqrt{230})$:<br/>$$r = \\sqrt{(h+1-h)^2 + (k+\\sqrt{230}-k)^2} = \\sqrt{1^2 + (\\sqrt{230})^2} = \\sqrt{1 + 230} = \\sqrt{231}$$"
+      "content": "The radius is the distance from $C(h, k)$ to $A(h+2, k+\\sqrt{237})$:<br/>$$r = \\sqrt{(h+2-h)^2 + (k+\\sqrt{237}-k)^2} = \\sqrt{2^2 + (\\sqrt{237})^2} = \\sqrt{4 + 237} = \\sqrt{241}$$"
     },
     {
       "title": "Apply the right angle condition with the Pythagorean theorem",
-      "content": "Triangle $ACB$ has a right angle at $C$ (given: $\\angle ACB = 90^{\\circ}$). Both $CA$ and $CB$ are radii, so $CA = CB = \\sqrt{231}$. Since the angle between them is $90^{\\circ}$, apply the Pythagorean theorem directly:<br/>$$AB^2 = CA^2 + CB^2 = (\\sqrt{231})^2 + (\\sqrt{231})^2 = 231 + 231 = 462$$<br/>$$AB = \\sqrt{462}$$<br/>That is the correct answer."
+      "content": "Triangle $ACB$ has a right angle at $C$ (given: $\\angle ACB = 90^{\\circ}$). Both $CA$ and $CB$ are radii, so $CA = CB = \\sqrt{241}$. Since the angle between them is $90^{\\circ}$, apply the Pythagorean theorem directly:<br/>$$AB^2 = CA^2 + CB^2 = (\\sqrt{241})^2 + (\\sqrt{241})^2 = 241 + 241 = 482$$<br/>$$AB = \\sqrt{482}$$<br/>That is the correct answer."
     }
   ]
 }

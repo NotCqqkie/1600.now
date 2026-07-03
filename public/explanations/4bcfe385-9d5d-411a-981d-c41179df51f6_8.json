@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Expand both sides",
-      "content": "Distribute: $10(x+15)+5x=10x+150+5x=15x+150$ and $15(x+10)=15x+150$. The equation becomes $$15x+150=15x+150.$$"
+      "content": "Distribute: $9(x+20)+6x=9x+180+6x=15x+180$ and $15(x+12)=15x+180$. The equation becomes $$15x+180=15x+180.$$"
     },
     {
       "title": "Interpret the identity",
-      "content": "Both sides are identical, so every real $x$ satisfies the equation — infinitely many solutions. <strong>C</strong> is correct."
+      "content": "Both sides are identical, so every real $x$ satisfies the equation: infinitely many solutions. <strong>C</strong> is correct."
     },
     {
       "title": "Confirm the answer",

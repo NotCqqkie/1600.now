@@ -1,19 +1,19 @@
 {
   "questionId": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_12",
-  "correctAnswer": "16",
+  "correctAnswer": "17",
   "section": "Math",
   "steps": [
     {
       "title": "Identify the maximum and minimum values",
-      "content": "In the list 17, 4, 20, 17, 18, 6, the maximum value is 20 and the minimum value is 4."
+      "content": "In the list 16, 5, 22, 16, 20, 8, the maximum value is 22 and the minimum value is 5."
     },
     {
       "title": "Calculate the range",
-      "content": "Subtract the minimum from the maximum: $$20 - 4 = 16$$"
+      "content": "Subtract the minimum from the maximum: $$22 - 5 = 17$$"
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $16$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $16$."
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $17$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $17$."
     }
   ]
 }

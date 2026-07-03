@@ -9,11 +9,11 @@
     },
     {
       "title": "Scale the temperature change",
-      "content": "For an increase of $2.10$ kelvins, $$\\Delta F=\\frac{9}{5}(2.10)=3.78$$"
+      "content": "For an increase of $2.40$ kelvins, $$\\Delta F=\\frac{9}{5}(2.40)=4.32$$"
     },
     {
       "title": "Check the choices",
-      "content": "Choice A (&lsquo;$3.78$&rsquo;) is $3.78$, so it is correct. The choices near $500$ come from plugging a temperature into the conversion formula instead of finding the change in temperature."
+      "content": "Choice A (&lsquo;$4.32$&rsquo;) is $4.32$, so it is correct. The choices near $500$ come from plugging a temperature into the conversion formula instead of finding the change in temperature."
     }
   ]
 }

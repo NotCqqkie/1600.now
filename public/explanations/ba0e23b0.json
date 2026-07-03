@@ -4,13 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Translate 'p% greater than 10'",
-      "content": "When a number is p% greater than another, we multiply that number by (1 + p/100). So if 140 is p% greater than 10:<br/>$$140 = 10\\left(1 + \\frac{p}{100}\\right)$$",
+      "title": "Translate 'p% greater than 12'",
+      "content": "When a number is p% greater than another, we multiply that number by (1 + p/100). So if 180 is p% greater than 12:<br/>$$180 = 12\\left(1 + \\frac{p}{100}\\right)$$",
       "formula": "$$A = B\\left(1 + \\frac{p}{100}\\right)$$"
     },
     {
       "title": "Solve for p",
-      "content": "Divide both sides by 10:<br/>$$14 = 1 + \\frac{p}{100}$$<br/>Subtract 1:<br/>$$13 = \\frac{p}{100}$$<br/>Multiply by 100:<br/>$$p = 1300$$<br/>That is the correct answer."
+      "content": "Divide both sides by 12:<br/>$$15 = 1 + \\frac{p}{100}$$<br/>Subtract 1:<br/>$$14 = \\frac{p}{100}$$<br/>Multiply by 100:<br/>$$p = 1400$$<br/>This matches Choice B."
     }
   ]
 }

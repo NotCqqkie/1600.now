@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $8nr^{2}+4n^{2}r+5nr$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $7nr^{2}+5n^{2}r+10nr$."
     },
     {
       "title": "Algebra check",
@@ -13,15 +13,15 @@
     },
     {
       "title": "Identify which terms are like terms",
-      "content": "Drop the parentheses first:<br/>$$(8nr^2+2nr)+(4n^2r+3nr)=8nr^2+2nr+4n^2r+3nr$$<br/>Only $2nr$ and $3nr$ have the exact same variable part. The terms $8nr^2$ and $4n^2r$ are not like terms."
+      "content": "Drop the parentheses first:<br/>$$(7nr^2+4nr)+(5n^2r+6nr)=7nr^2+4nr+5n^2r+6nr$$<br/>Only $4nr$ and $6nr$ have the exact same variable part. The terms $7nr^2$ and $5n^2r$ are not like terms."
     },
     {
       "title": "Combine the like terms",
-      "content": "$$2nr+3nr=5nr$$<br/>So the expression becomes:<br/>$$8nr^2+4n^2r+5nr$$"
+      "content": "$$4nr+6nr=10nr$$<br/>So the expression becomes:<br/>$$7nr^2+5n^2r+10nr$$"
     },
     {
       "title": "Confirm the structure",
-      "content": "The terms $8nr^2$ and $4n^2r$ stay separate because their exponents are different. Only the $nr$ terms combine."
+      "content": "The terms $7nr^2$ and $5n^2r$ stay separate because their exponents are different. Only the $nr$ terms combine."
     }
   ]
 }

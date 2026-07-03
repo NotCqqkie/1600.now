@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>C</strong>, $7{x}^{3}$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>C</strong>, $8{x}^{3}$."
     },
     {
       "title": "Algebra check",
@@ -13,11 +13,11 @@
     },
     {
       "title": "Combine like terms",
-      "content": "Both terms have the same variable part, $x^3$, so subtract the coefficients and keep $x^3$: $$12x^3-5x^3=(12-5)x^3=7x^3.$$"
+      "content": "Both terms have the same variable part, $x^3$, so subtract the coefficients and keep $x^3$: $$14x^3-6x^3=(14-6)x^3=8x^3.$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "$7x^3$ matches the correct answer, <strong>C</strong>. The exponent stays $3$ because like terms are combined by changing only the coefficient."
+      "content": "$8x^3$ matches the correct answer, <strong>C</strong>. The exponent stays $3$ because like terms are combined by changing only the coefficient."
     }
   ]
 }

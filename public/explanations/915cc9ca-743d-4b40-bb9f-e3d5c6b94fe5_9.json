@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Isolate the absolute value expression",
-      "content": "Start with $-2|3x + 7| + 8 = -6$. Subtract 8 from both sides:<br/>$$-2|3x + 7| = -14$$<br/>Divide both sides by $-2$:<br/>$$|3x + 7| = 7$$"
+      "content": "Start with $-2|3x + 10| + 12 = -8$. Subtract 12 from both sides:<br/>$$-2|3x + 10| = -20$$<br/>Divide both sides by $-2$:<br/>$$|3x + 10| = 10$$"
     },
     {
       "title": "Apply the absolute value definition to find both solutions",
-      "content": "The equation $|3x + 7| = 7$ means the expression inside is either $7$ or $-7$.<br/><br/><strong>Case 1:</strong> When $3x + 7 = 7$:<br/>$$3x = 0$$<br/>$$x = 0$$<br/><strong>Case 2:</strong> When $3x + 7 = -7$:<br/>$$3x = -14$$<br/>$$x = -\\frac{14}{3}$$<br/>The solutions are $x = 0$ and $x = -\\frac{14}{3}$. That confirms <strong>C</strong> is correct."
+      "content": "The equation $|3x + 10| = 10$ means the expression inside is either $10$ or $-10$.<br/><br/><strong>Case 1:</strong> When $3x + 10 = 10$:<br/>$$3x = 0$$<br/>$$x = 0$$<br/><strong>Case 2:</strong> When $3x + 10 = -10$:<br/>$$3x = -20$$<br/>$$x = -\\frac{20}{3}$$<br/>The solutions are $x = 0$ and $x = -\\frac{20}{3}$. That confirms <strong>C</strong> is correct."
     }
   ]
 }

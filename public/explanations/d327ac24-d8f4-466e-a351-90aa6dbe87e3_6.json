@@ -8,12 +8,12 @@
       "content": "To shift a graph up by $k$ units, add $k$ to the output of the function:<br/>$$g(x)=f(x)+k$$"
     },
     {
-      "title": "Apply the shift to $f(x)=3x^5$",
-      "content": "Shifting up 9 units means $k=9$:<br/>$$g(x)=3x^5+9$$"
+      "title": "Apply the shift to $f(x)=4x^6$",
+      "content": "Shifting up 7 units means $k=7$:<br/>$$g(x)=4x^6+7$$"
     },
     {
       "title": "Test each choice",
-      "content": "<ul><li><strong>Choice A &mdash; $g(x)=3x^{5}+9$</strong>: $g(x)=3x^5+9$: adds 9 to the output &mdash; a vertical shift up by 9. &check;</li><li><strong>Choice B &mdash; $g(x)=3x^{5}-9$</strong>: $g(x)=3x^5-9$: subtracts 9, which shifts down by 9. Eliminate.</li><li><strong>Choice C &mdash; $g(x)=3x^{45}$</strong>: $g(x)=3x^{45}$: changes the exponent &mdash; not a shift at all. Eliminate.</li><li><strong>Choice D &mdash; $g(x)=27x^{5}$</strong>: $g(x)=27x^5$: a vertical stretch, not a shift. Eliminate.</li></ul>That is the correct answer."
+      "content": "<ul><li><strong>Choice A &mdash; $g(x)=4x^{6}+7$</strong>: $g(x)=4x^6+7$: adds 7 to the output &mdash; a vertical shift up by 7. &check;</li><li><strong>Choice B &mdash; $g(x)=4x^{6}-7$</strong>: $g(x)=4x^6-7$: subtracts 7, which shifts down by 7. Eliminate.</li><li><strong>Choice C &mdash; $g(x)=4x^{42}$</strong>: $g(x)=4x^{42}$: changes the exponent &mdash; not a shift at all. Eliminate.</li><li><strong>Choice D &mdash; $g(x)=28x^{6}$</strong>: $g(x)=28x^6$: a vertical stretch, not a shift. Eliminate.</li></ul>That is the correct answer."
     }
   ]
 }

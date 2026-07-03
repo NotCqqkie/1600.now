@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+      "title": "Fastest path: mark the givens first",
+      "content": "Track the given angle relationships first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
     },
     {
       "title": "Apply triangle angle sum property",
-      "content": "The sum of all angles in a triangle equals $180^{\\circ}$. With ∠F = $39^{\\circ}$ and ∠G = $39^{\\circ}$:<br/>$$\\angle F + \\angle G + \\angle H = 180^{\\circ}$$<br/>$$39^{\\circ} + 39^{\\circ} + \\angle H = 180^{\\circ}$$<br/>$$78^{\\circ} + \\angle H = 180^{\\circ}$$<br/>$$\\angle H = 102^{\\circ}$$<br/><strong>B</strong> is correct."
+      "content": "The sum of all angles in a triangle equals $180^{\\circ}$. With ∠J = $42^{\\circ}$ and ∠K = $42^{\\circ}$:<br/>$$\\angle J + \\angle K + \\angle L = 180^{\\circ}$$<br/>$$42^{\\circ} + 42^{\\circ} + \\angle L = 180^{\\circ}$$<br/>$$84^{\\circ} + \\angle L = 180^{\\circ}$$<br/>$$\\angle L = 96^{\\circ}$$<br/><strong>B</strong> is correct."
     }
   ]
 }

@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the signal to the choices",
-      "content": "The correct answer identifies the core difference: Text 1 works with one explanation (asteroid impact), while Text 2 systematically tests two alternative explanations (carbonate dissolution and subsurface salt withdrawal), ruling both out based on Nadir's central uplift.<br/><br/>Text 1 presents supporting evidence; Text 2 eliminates competing hypotheses.<ul><li>A invents tone shifts that aren't there</li><li>B reverses what Text 1 discusses</li><li>D falsely claims Text 2 refutes impact when it only tests alternatives</li></ul><br/><br/>That matches the correct answer — <strong>C</strong> is correct."
+      "content": "The correct answer identifies the core difference: Text 1 works with one explanation (asteroid impact), while Text 2 systematically tests two alternative explanations (carbonate dissolution and subsurface salt withdrawal), finding carbonate dissolution unlikely in the area and salt withdrawal inconsistent with Nadir's central uplift.<br/><br/>Text 1 presents supporting evidence; Text 2 evaluates competing hypotheses.<ul><li>A invents tone shifts that aren't there</li><li>B reverses what Text 1 discusses</li><li>D falsely claims Text 2 refutes impact when it only tests alternatives</li></ul><br/><br/>That matches the correct answer — <strong>C</strong> is correct."
     }
   ]
 }

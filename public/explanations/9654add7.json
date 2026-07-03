@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Find where the function equals zero",
-      "content": "The graph intersects the <em>x</em>-axis where $y = 0$, which means $f(x) = 0$.<br/>Set the function equal to zero:<br/>$$-500x^2 + 25,000x = 0$$<br/>Factor out $-500x$:<br/>$$-500x(x - 50) = 0$$<br/>This gives us $x = 0$ or $x = 50$. Since the problem states the intersections are at 0 and $a$, we have $a = 50$."
+      "content": "The graph intersects the <em>x</em>-axis where $y = 0$, which means $f(x) = 0$.<br/>Set the function equal to zero:<br/>$$-400x^2 + 24,000x = 0$$<br/>Factor out $-400x$:<br/>$$-400x(x - 60) = 0$$<br/>This gives us $x = 0$ or $x = 60$. Since the problem states the intersections are at 0 and $a$, we have $a = 60$."
     },
     {
       "title": "Interpret what $a$ represents",

@@ -1,6 +1,6 @@
 {
   "questionId": "3310c2ab",
-  "correctAnswer": "2432",
+  "correctAnswer": "2176",
   "section": "Math",
   "steps": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "title": "Find the equivalent number of fluid ounces",
-      "content": "Apply the conversion factor to 76 quarts:<br/>$$76 \\text{ quarts} \\times \\frac{32 \\text{ fluid ounces}}{1 \\text{ quart}} = 76 \\times 32 = 2432 \\text{ fluid ounces}$$"
+      "content": "Apply the conversion factor to 68 quarts:<br/>$$68 \\text{ quarts} \\times \\frac{32 \\text{ fluid ounces}}{1 \\text{ quart}} = 68 \\times 32 = 2176 \\text{ fluid ounces}$$"
     }
   ]
 }

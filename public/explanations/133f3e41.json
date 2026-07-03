@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Isolate the term with q and divide by 20",
-      "content": "Start with $\\frac{20}{p}=\\frac{20}{q}-\\frac{20}{r}-\\frac{20}{s}$. Add $\\frac{20}{r}+\\frac{20}{s}$ to both sides:<br/>$$\\frac{20}{q} = \\frac{20}{p} + \\frac{20}{r} + \\frac{20}{s}$$<br/>Divide both sides by 20:<br/>$$\\frac{1}{q} = \\frac{1}{p} + \\frac{1}{r} + \\frac{1}{s}$$"
+      "title": "Isolate the term with q and divide by 24",
+      "content": "Start with $\\frac{24}{p}=\\frac{24}{q}-\\frac{24}{r}-\\frac{24}{s}$. Add $\\frac{24}{r}+\\frac{24}{s}$ to both sides:<br/>$$\\frac{24}{q} = \\frac{24}{p} + \\frac{24}{r} + \\frac{24}{s}$$<br/>Divide both sides by 24:<br/>$$\\frac{1}{q} = \\frac{1}{p} + \\frac{1}{r} + \\frac{1}{s}$$"
     },
     {
       "title": "Combine the right side over the common denominator prs",
@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li>A. $p + r + s$ - this would only work if $\\frac{1}{q} = \\frac{1}{p+r+s}$, but $\\frac{1}{p}+\\frac{1}{r}+\\frac{1}{s} \\neq \\frac{1}{p+r+s}$. Eliminated.</li><li>B. $20(p+r+s)$ - the 20s cancel when we divide both sides by 20, so a factor of 20 should not appear. Eliminated.</li><li>C. $\\frac{prs}{pr+ps+rs}$ - exactly the expression we derived. Correct.</li><li>D. $\\frac{prs}{20p+20r+20s}$ - again introduces a stray factor of 20 in the denominator. Eliminated.</li></ul>That matches <strong>Choice C &mdash; $\\frac{prs}{pr+ps+rs}$</strong>- <strong>C</strong>."
+      "content": "<ul><li>A. $p + r + s$ - this would only work if $\\frac{1}{q} = \\frac{1}{p+r+s}$, but $\\frac{1}{p}+\\frac{1}{r}+\\frac{1}{s} \\neq \\frac{1}{p+r+s}$. Eliminated.</li><li>B. $24(p+r+s)$ - the 24s cancel when we divide both sides by 24, so a factor of 24 should not appear. Eliminated.</li><li>C. $\\frac{prs}{pr+ps+rs}$ - exactly the expression we derived. Correct.</li><li>D. $\\frac{prs}{24p+24r+24s}$ - again introduces a stray factor of 24 in the denominator. Eliminated.</li></ul>That matches <strong>Choice C &mdash; $\\frac{prs}{pr+ps+rs}$</strong>- <strong>C</strong>."
     }
   ]
 }

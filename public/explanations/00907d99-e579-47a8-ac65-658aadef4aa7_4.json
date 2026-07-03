@@ -8,12 +8,12 @@
       "content": "The discount equals 20% of the original price."
     },
     {
-      "title": "Calculate 20% of 130",
-      "content": "$$0.20 \\times 130 = 26$$<br/>The discount is &#36;26. That matches <strong>Choice D &mdash; 26</strong>."
+      "title": "Calculate 20% of 150",
+      "content": "$$0.20 \\times 150 = 30$$<br/>The discount is &#36;30. That matches <strong>Choice D &mdash; 30</strong>."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches <strong>Choice D &mdash; 26</strong>, 26. The other choices do not satisfy the same condition from the question, so <strong>D</strong>."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches <strong>Choice D &mdash; 30</strong>, 30. The other choices do not satisfy the same condition from the question, so <strong>D</strong>."
     }
   ]
 }

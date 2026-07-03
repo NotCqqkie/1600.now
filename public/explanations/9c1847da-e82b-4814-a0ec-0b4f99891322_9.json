@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>C</strong>, $-7x^{2}+6x^{3}-13x+6$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>C</strong>, $-4x^{2}+8x^{3}-14x+9$."
     },
     {
       "title": "Algebra check",
@@ -13,15 +13,15 @@
     },
     {
       "title": "Distribute the subtraction",
-      "content": "Subtracting a polynomial means every term in the second parentheses changes sign:<br/>$$(6x^3-6x+4)-(7x^2+7x-2)$$<br/>$$=6x^3-6x+4-7x^2-7x+2$$"
+      "content": "Subtracting a polynomial means every term in the second parentheses changes sign:<br/>$$(8x^3-5x+3)-(4x^2+9x-6)$$<br/>$$=8x^3-5x+3-4x^2-9x+6$$"
     },
     {
       "title": "Combine like terms",
-      "content": "The cubic term is $6x^3$, the quadratic term is $-7x^2$, the linear terms combine to $-6x-7x=-13x$, and the constants combine to $4+2=6$. So the expression is $$6x^3-7x^2-13x+6.$$"
+      "content": "The cubic term is $8x^3$, the quadratic term is $-4x^2$, the linear terms combine to $-5x-9x=-14x$, and the constants combine to $3+6=9$. So the expression is $$8x^3-4x^2-14x+9.$$"
     },
     {
       "title": "Check the choices",
-      "content": "The correct answer is the same expression, just ordered as $-7x^2+6x^3-13x+6$. Therefore <strong>C</strong> is correct."
+      "content": "The correct answer is the same expression, just ordered as $-4x^2+8x^3-14x+9$. Therefore <strong>C</strong> is correct."
     }
   ]
 }

@@ -5,16 +5,16 @@
   "steps": [
     {
       "title": "Factor the quadratic",
-      "content": "To factor $3x^2 + 20x - 63$, look for two binomials $(3x + a)(x + b)$ where $ab = -63$ and $3b + a = 20$. Testing $a = -7, b = 9$: $(3x - 7)(x + 9) = 3x^2 + 27x - 7x - 63 = 3x^2 + 20x - 63$. &#10003;"
+      "content": "To factor $5x^2 + 31x - 28$, look for two binomials $(5x + a)(x + b)$ where $ab = -28$ and $5b + a = 31$. Testing $a = -4, b = 7$: $(5x - 4)(x + 7) = 5x^2 + 35x - 4x - 28 = 5x^2 + 31x - 28$. &#10003;"
     },
     {
       "title": "Test expression I using the Factor Theorem",
-      "content": "By the Factor Theorem, $(x - 9)$ is a factor if and only if $f(9) = 0$. <br/>$$f(9) = 3(9)^2 + 20(9) - 63 = 243 + 180 - 63 = 360$$<br/>Since $f(9) = 360 \\neq 0$, expression I is NOT a factor."
+      "content": "By the Factor Theorem, $(x - 7)$ is a factor if and only if $f(7) = 0$. <br/>$$f(7) = 5(7)^2 + 31(7) - 28 = 245 + 217 - 28 = 434$$<br/>Since $f(7) = 434 \\neq 0$, expression I is NOT a factor."
     },
     {
       "title": "Test expression II using the Factor Theorem",
-      "content": "By the Factor Theorem, $(3x - 7)$ is a factor if and only if $f(7/3) = 0$ (setting $3x - 7 = 0$ gives $x = 7/3$). <br/>$$f(7/3) = 3\\left(\\frac{7}{3}\\right)^2 + 20\\left(\\frac{7}{3}\\right) - 63 = \\frac{49}{3} + \\frac{140}{3} - 63 = \\frac{189}{3} - 63 = 0$$<br/>Since $f(7/3) = 0$, expression II IS a factor. Only statement II is a factor. That is the correct answer."
+      "content": "By the Factor Theorem, $(5x - 4)$ is a factor if and only if $f(4/5) = 0$ (setting $5x - 4 = 0$ gives $x = 4/5$). <br/>$$f(4/5) = 5\\left(\\frac{4}{5}\\right)^2 + 31\\left(\\frac{4}{5}\\right) - 28 = \\frac{16}{5} + \\frac{124}{5} - 28 = \\frac{140}{5} - 28 = 0$$<br/>Since $f(4/5) = 0$, expression II IS a factor. Only statement II is a factor. That is the correct answer."
     }
   ],
-  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; I only</strong>: Expression I is $(x - 9)$. Testing $f(9) = 3(81) + 180 - 63 = 360 \\neq 0$, so $x - 9$ is not a factor. &#10007;</li><li><strong>Choice B &mdash; II only</strong>: Expression II is $(3x - 7)$. Testing $f(7/3) = 49/3 + 140/3 - 63 = 0$ &#10003;. Expression I fails as shown. Only II is a factor. &#10003;</li><li><strong>Choice C &mdash; I and II</strong>: Expression I is not a factor (f(9) = 360), so both cannot be factors. &#10007;</li><li><strong>Choice D &mdash; Neither I nor II</strong>: Expression II is confirmed a factor via the Factor Theorem. &#10007;</li></ul>That is the correct answer."
+  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; I only</strong>: Expression I is $(x - 7)$. Testing $f(7) = 5(49) + 217 - 28 = 434 \\neq 0$, so $x - 7$ is not a factor. &#10007;</li><li><strong>Choice B &mdash; II only</strong>: Expression II is $(5x - 4)$. Testing $f(4/5) = 16/5 + 124/5 - 28 = 0$ &#10003;. Expression I fails as shown. Only II is a factor. &#10003;</li><li><strong>Choice C &mdash; I and II</strong>: Expression I is not a factor ($f(7) = 434$), so both cannot be factors. &#10007;</li><li><strong>Choice D &mdash; Neither I nor II</strong>: Expression II is confirmed a factor via the Factor Theorem. &#10007;</li></ul>That is the correct answer."
 }

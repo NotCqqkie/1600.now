@@ -9,11 +9,11 @@
     },
     {
       "title": "Identify the linear scale factor",
-      "content": "Each side of parallelogram PQRS is 2 times the corresponding side of ABCD. The linear scale factor is $k = 2$."
+      "content": "Each side of parallelogram JKLM is 3 times the corresponding side of WXYZ. The linear scale factor is $k = 3$."
     },
     {
       "title": "Apply area scaling for similar figures",
-      "content": "When similar figures have a linear scale factor of $k$, their areas scale by $k^2$. Multiply the original area by the area scale factor:<br/>$$5 \\times 2^2 = 5 \\times 4 = 20 \\text{ cm}^2$$<br/>That is the correct answer.",
+      "content": "When similar figures have a linear scale factor of $k$, their areas scale by $k^2$. Multiply the original area by the area scale factor:<br/>$$4 \\times 3^2 = 4 \\times 9 = 36 \\text{ cm}^2$$<br/>That is the correct answer.",
       "formula": "$$A_{\\text{new}} = k^2 \\cdot A_{\\text{old}}$$"
     }
   ]

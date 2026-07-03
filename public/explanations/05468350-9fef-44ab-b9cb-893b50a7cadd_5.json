@@ -1,19 +1,19 @@
 {
   "questionId": "05468350-9fef-44ab-b9cb-893b50a7cadd_5",
-  "correctAnswer": "-26",
+  "correctAnswer": "-21",
   "section": "Math",
   "steps": [
     {
       "title": "Combine like terms",
-      "content": "Factor $(t+7)$ from the left: $6(t+7)-8(t+7)=-2(t+7)$, so $$-2(t+7)=38.$$"
+      "content": "Factor $(t+6)$ from the left: $5(t+6)-8(t+6)=-3(t+6)$, so $$-3(t+6)=45.$$"
     },
     {
       "title": "Solve for t",
-      "content": "Divide by $-2$: $t+7=-19$, then subtract $7$: $t=-26$. The answer is <strong>-26</strong>."
+      "content": "Divide by $-3$: $t+6=-15$, then subtract $6$: $t=-21$. The answer is <strong>-21</strong>."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $-26$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $-26$."
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $-21$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $-21$."
     }
   ]
 }

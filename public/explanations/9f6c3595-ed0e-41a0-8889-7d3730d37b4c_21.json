@@ -1,19 +1,19 @@
 {
   "questionId": "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_21",
-  "correctAnswer": "13",
+  "correctAnswer": "14",
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute y = 17 into both equations",
-      "content": "Since the intersection point is (q, 17), we know $y = 17$ satisfies both equations.<br/><br/>First equation: $-x - w(17) = -357$ becomes $x + 17w = 357$<br/>Second equation: $2x - w(17) = 51$ becomes $2x - 17w = 51$"
+      "title": "Substitute y = 16 into both equations",
+      "content": "Since the intersection point is (q, 16), we know $y = 16$ satisfies both equations.<br/><br/>First equation: $-x - w(16) = -361$ becomes $x + 16w = 361$<br/>Second equation: $2x - w(16) = 50$ becomes $2x - 16w = 50$"
     },
     {
       "title": "Add equations to eliminate w",
-      "content": "Adding both equations cancels the $w$ terms:<br/>$$(x + 17w) + (2x - 17w) = 357 + 51$$<br/>$$3x = 408$$<br/>$$x = 136$$"
+      "content": "Adding both equations cancels the $w$ terms:<br/>$$(x + 16w) + (2x - 16w) = 361 + 50$$<br/>$$3x = 411$$<br/>$$x = 137$$"
     },
     {
-      "title": "Solve for w using x = 136",
-      "content": "Substituting $x = 136$ into $x + 17w = 357$:<br/>$$136 + 17w = 357$$<br/>$$17w = 221$$<br/>$$w = 13$$"
+      "title": "Solve for w using x = 137",
+      "content": "Substituting $x = 137$ into $x + 16w = 361$:<br/>$$137 + 16w = 361$$<br/>$$16w = 224$$<br/>$$w = 14$$"
     }
   ]
 }

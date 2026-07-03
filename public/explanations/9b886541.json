@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Do not solve farther than needed",
-      "content": "The equation is $3x-8=7$. Add $8$ to both sides to get $$3x=15.$$ The target expression is $3x+8$, so we can use $3x=15$ directly."
+      "content": "The equation is $4x-9=7$. Add $9$ to both sides to get $$4x=16.$$ The target expression is $4x+9$, so we can use $4x=16$ directly."
     },
     {
       "title": "Evaluate the target expression",
-      "content": "$$3x+8=15+8=23.$$"
+      "content": "$$4x+9=16+9=25.$$"
     },
     {
       "title": "Check the choices",
-      "content": "The answer is $23$. The value $5$ is $x$, but the question asks for $3x+8$. The value $13$ comes from the wrong expression $3x-2$, and $-1$ has the wrong sign."
+      "content": "The answer is $25$. The value $4$ is $x$, but the question asks for $4x+9$. The value $13$ comes from finding $x$ and then adding $9$, and $-2$ has the wrong sign."
     }
   ]
 }

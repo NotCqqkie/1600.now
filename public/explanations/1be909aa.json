@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $\\frac{{h}^{10}}{{q}^{14}}$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $\\frac{{h}^{12}}{{q}^{16}}$."
     },
     {
       "title": "Algebra check",
@@ -13,15 +13,15 @@
     },
     {
       "title": "Apply the quotient rule for exponents",
-      "content": "When dividing powers with the same base, subtract the exponents. Apply this separately to $h$ and $q$:<br/>$$\\frac{h^{15}}{h^5} = h^{15-5} = h^{10}$$<br/>$$\\frac{q^{7}}{q^{21}} = q^{7-21} = q^{-14}$$"
+      "content": "When dividing powers with the same base, subtract the exponents. Apply this separately to $h$ and $q$:<br/>$$\\frac{h^{16}}{h^4} = h^{16-4} = h^{12}$$<br/>$$\\frac{q^{8}}{q^{24}} = q^{8-24} = q^{-16}$$"
     },
     {
       "title": "Rewrite with positive exponents",
-      "content": "A negative exponent moves the factor to the denominator:<br/>$$q^{-14} = \\frac{1}{q^{14}}$$<br/>So the expression simplifies to $\\dfrac{h^{10}}{q^{14}}$."
+      "content": "A negative exponent moves the factor to the denominator:<br/>$$q^{-16} = \\frac{1}{q^{16}}$$<br/>So the expression simplifies to $\\dfrac{h^{12}}{q^{16}}$."
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; $\\frac{{h}^{10}}{{q}^{14}}$</strong>: $h^{15-5} = h^{10}$ in the numerator; $q^{7-21} = q^{-14} = \\frac{1}{q^{14}}$ in the denominator. Correct. &#10003;</li><li><strong>Choice B &mdash; $\\frac{{h}^{3}}{{q}^{3}}$</strong>: $h^{15} / h^5 = h^{10}$, not $h^3$; and $q^7 / q^{21} = q^{-14}$, not $q^{-3}$. Both exponents are wrong. &#10007;</li><li><strong>Choice C &mdash; ${h}^{10}{q}^{14}$</strong>: Gets the $h$ exponent right but misplaces $q$ in the numerator instead of the denominator. &#10007;</li><li><strong>Choice D &mdash; ${h}^{3}{q}^{3}$</strong>: Both exponents are wrong and $q$ is in the wrong position. &#10007;</li></ul>That matches <strong>Choice A &mdash; $\\frac{{h}^{10}}{{q}^{14}}$</strong>."
+      "content": "<ul><li><strong>Choice A &mdash; $\\frac{{h}^{12}}{{q}^{16}}$</strong>: $h^{16-4} = h^{12}$ in the numerator; $q^{8-24} = q^{-16} = \\frac{1}{q^{16}}$ in the denominator. Correct. &#10003;</li><li><strong>Choice B &mdash; $\\frac{{h}^{4}}{{q}^{3}}$</strong>: $h^{16} / h^4 = h^{12}$, not $h^4$; and $q^8 / q^{24} = q^{-16}$, not $q^{-3}$. Both exponents are wrong. &#10007;</li><li><strong>Choice C &mdash; ${h}^{12}{q}^{16}$</strong>: Gets the $h$ exponent right but misplaces $q$ in the numerator instead of the denominator. &#10007;</li><li><strong>Choice D &mdash; ${h}^{4}{q}^{3}$</strong>: Both exponents are wrong and $q$ is in the wrong position. &#10007;</li></ul>That matches <strong>Choice A &mdash; $\\frac{{h}^{12}}{{q}^{16}}$</strong>."
     }
   ]
 }

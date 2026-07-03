@@ -1,6 +1,6 @@
 {
   "questionId": "1b1871b9-081a-47fd-9218-97b0bbc4a454_11",
-  "correctAnswer": "76",
+  "correctAnswer": "67",
   "section": "Math",
   "steps": [
     {
@@ -13,7 +13,7 @@
     },
     {
       "title": "Calculate the other acute angle",
-      "content": "One acute angle is 14°. Since the two acute angles must sum to 90°, the other acute angle is:<br/>$$90^{\\circ} - 14^{\\circ} = 76^{\\circ}$$"
+      "content": "One acute angle is 23°. Since the two acute angles must sum to 90°, the other acute angle is:<br/>$$90^{\\circ} - 23^{\\circ} = 67^{\\circ}$$"
     }
   ]
 }

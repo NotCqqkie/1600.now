@@ -9,11 +9,11 @@
     },
     {
       "title": "Recall the triangle area formula",
-      "content": "The area of a triangle is given by:<br/>$$A = \\frac{1}{2} \\times \\text{base} \\times \\text{height}$$<br/>We are given base = 4 inches and height = 17 inches."
+      "content": "The area of a triangle is given by:<br/>$$A = \\frac{1}{2} \\times \\text{base} \\times \\text{height}$$<br/>We are given base = 8 inches and height = 11 inches."
     },
     {
       "title": "Substitute and calculate",
-      "content": "Substitute the values into the formula:<br/>$$A = \\frac{1}{2} \\times 4 \\times 17$$<br/>Simplify:<br/>$$A = 2 \\times 17 = 34$$<br/>That is the correct answer."
+      "content": "Substitute the values into the formula:<br/>$$A = \\frac{1}{2} \\times 8 \\times 11$$<br/>Simplify:<br/>$$A = 4 \\times 11 = 44$$<br/>Therefore, the correct answer is Choice B."
     }
   ]
 }

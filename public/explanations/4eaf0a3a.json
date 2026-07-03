@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, ${ \\left(xy\\right)}^{\\frac{9}{7}}$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, ${ \\left(xy\\right)}^{\\frac{8}{5}}$."
     },
     {
       "title": "Algebra check",
@@ -13,15 +13,15 @@
     },
     {
       "title": "Rewrite the radical as a fractional exponent",
-      "content": "$$\\sqrt[7]{x^9y^9}=(x^9y^9)^{1/7}$$"
+      "content": "$$\\sqrt[5]{x^8y^8}=(x^8y^8)^{1/5}$$"
     },
     {
       "title": "Factor the base",
-      "content": "$$x^9y^9=(xy)^9 \\implies (x^9y^9)^{1/7}=\\bigl((xy)^9\\bigr)^{1/7}$$"
+      "content": "$$x^8y^8=(xy)^8 \\implies (x^8y^8)^{1/5}=\\bigl((xy)^8\\bigr)^{1/5}$$"
     },
     {
       "title": "Apply the power rule",
-      "content": "$$\\bigl((xy)^9\\bigr)^{1/7}=(xy)^{9\\cdot\\frac{1}{7}}=(xy)^{9/7}$$"
+      "content": "$$\\bigl((xy)^8\\bigr)^{1/5}=(xy)^{8\\cdot\\frac{1}{5}}=(xy)^{8/5}$$<br/>This matches choice B."
     }
   ],
   "section": "Math"

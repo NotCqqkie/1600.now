@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $6\\left(4x + 5\\right)$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $7\\left(5x + 6\\right)$."
     },
     {
       "title": "Algebra check",
@@ -13,11 +13,11 @@
     },
     {
       "title": "Factor the expression",
-      "content": "The GCF of $24$ and $30$ is $6$. Factor it out:$$24x+30=6(4x+5)$$"
+      "content": "The GCF of $35$ and $42$ is $7$. Factor it out:$$35x+42=7(5x+6)$$"
     },
     {
       "title": "Match to the answer choices",
-      "content": "The factored form is $\\left(6\\right)(4x+5)$. That matches the correct answer — <strong>D</strong> is correct."
+      "content": "The factored form is $\\left(7\\right)(5x+6)$. That matches the correct answer - <strong>D</strong> is correct."
     }
   ]
 }

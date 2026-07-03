@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Step 1",
-      "content": "Find the y-intercept of function I: $f(x) = a(2.1)^x + b$. Set $x=0$: $f(0) = a(2.1)^0 + b = a(1) + b = a + b$. The y-intercept is $a+b$."
+      "content": "Find the y-intercept of function I: $f(x) = a(2.3)^x + b$. Set $x=0$: $f(0) = a(2.3)^0 + b = a(1) + b = a + b$. The y-intercept is $a+b$."
     },
     {
       "title": "Step 2",
-      "content": "Find the y-intercept of function II: $g(x) = a(2.1)^{x+b}$ (the exponent includes $b$). Set $x=0$: $g(0) = a(2.1)^{0+b} = a \\cdot (2.1)^b$. The y-intercept is $a \\cdot (2.1)^b$."
+      "content": "Find the y-intercept of function II: $g(x) = a(2.3)^x + b$. Set $x=0$: $g(0) = a(2.3)^0 + b = a(1) + b = a + b$. The y-intercept is $a+b$."
     },
     {
       "title": "Step 3",
-      "content": "Check whether each equation displays its y-intercept as a standalone constant or coefficient. In I, the y-intercept $a+b$ is a sum of two parameters — neither $a$ alone nor $b$ alone equals the y-intercept. In II, the y-intercept $a \\cdot (2.1)^b$ is not visible as any coefficient or constant term in $a(2.1)^{x+b}$. Neither equation displays its y-intercept directly."
+      "content": "Check whether each equation displays its y-intercept as a standalone constant or coefficient. In I, the y-intercept $a+b$ is a sum of two parameters &mdash; neither $a$ alone nor $b$ alone equals the y-intercept. In II, the y-intercept $a+b$ is also a sum of two parameters, so neither $a$ alone nor $b$ alone equals the y-intercept. Neither equation displays its y-intercept directly."
     },
     {
       "title": "Step 4",
-      "content": "Evaluate each choice:<ul><li>A: I only — I does not display $a+b$ as a single constant. Eliminated.</li><li>B: II only — II does not display $a(2.1)^b$ as a constant. Eliminated.</li><li>C: I and II — neither displays its y-intercept directly. Eliminated.</li><li>D: Neither I nor II — confirmed: neither equation has the y-intercept value visible as a standalone constant or coefficient. <strong>D</strong> is correct.</li></ul>"
+      "content": "Evaluate each choice:<ul><li>A: I only &mdash; I does not display $a+b$ as a single constant. Eliminated.</li><li>B: II only &mdash; II does not display $a+b$ as a single constant. Eliminated.</li><li>C: I and II &mdash; neither displays its y-intercept directly. Eliminated.</li><li>D: Neither I nor II &mdash; confirmed: neither equation has the y-intercept value visible as a standalone constant or coefficient. <strong>D</strong> is correct.</li></ul>"
     }
   ]
 }

@@ -18,7 +18,7 @@
     },
     {
       "title": "Substitute the given angle and evaluate both cases",
-      "content": "One angle is $(7x - 250)^{\\circ}$, so either $\\alpha = 7x - 250$ or $180 - \\alpha = 7x - 250$ (meaning $\\alpha = 430 - 7x$).<br/><br/><strong>Case 1</strong> ($\\alpha = 7x - 250$): Possible sums are $28x - 1000$, $1720 - 28x$, $14x - 320$, $360$, $1040 - 14x$.<br/><br/><strong>Case 2</strong> ($\\alpha = 430 - 7x$): Possible sums are $1720 - 28x$, $28x - 1000$, $1040 - 14x$, $360$, $14x - 320$.<br/><br/>Combined set: $\\{28x - 1000, \\, 1720 - 28x, \\, 14x - 320, \\, 360, \\, 1040 - 14x\\}$"
+      "content": "One angle is $(8x - 260)^{\\circ}$, so either $\\alpha = 8x - 260$ or $180 - \\alpha = 8x - 260$ (meaning $\\alpha = 440 - 8x$).<br/><br/><strong>Case 1</strong> ($\\alpha = 8x - 260$): Possible sums are $32x - 1040$, $1760 - 32x$, $16x - 340$, $360$, $1060 - 16x$.<br/><br/><strong>Case 2</strong> ($\\alpha = 440 - 8x$): Possible sums are $1760 - 32x$, $32x - 1040$, $1060 - 16x$, $360$, $16x - 340$.<br/><br/>Combined set: $\\{32x - 1040, \\, 1760 - 32x, \\, 16x - 340, \\, 360, \\, 1060 - 16x\\}$"
     }
   ]
 }

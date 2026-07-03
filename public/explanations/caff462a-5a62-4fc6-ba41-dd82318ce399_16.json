@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The sentence says 'Before that, the film he least enjoyed ______ the more recent classic <em>Slumdog Millionaire</em>.' The phrase 'Before that' anchors the blank to a time <strong>earlier than</strong> another past event (watching <em>The Maltese Falcon</em> at last year's festival). Two past events in sequence require past perfect for the earlier one."
+      "content": "The sentence says 'Before that, the film he least enjoyed ______ the more recent classic *Slumdog Millionaire* (2008).' The phrase 'Before that' anchors the blank to a time <strong>earlier than</strong> another past event (watching <em>The Maltese Falcon</em> at last year's festival). Two past events in sequence require past perfect for the earlier one."
     },
     {
       "title": "Eliminate the choices",

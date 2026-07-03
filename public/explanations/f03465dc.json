@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Check if the equations are equivalent",
-      "content": "The second equation is $24x + 21y = 27$. Divide by 3: $$\\frac{24x + 21y}{3} = \\frac{27}{3}$$ This simplifies to $8x + 7y = 9$, which is exactly the first equation. Both equations represent the <strong>same line</strong>—there are infinitely many solutions."
+      "content": "The second equation is $15x + 21y = 33$. Divide by 3: $$\\frac{15x + 21y}{3} = \\frac{33}{3}$$ This simplifies to $5x + 7y = 11$, which is exactly the first equation. Both equations represent the <strong>same line</strong>&mdash;there are infinitely many solutions."
     },
     {
       "title": "Solve for the parametric form of points on the line",
-      "content": "Define $L(x,y)=8x+7y$. A correct parametrization must make $L(x,y)=9$ for every value of $r$. Set $r=[0,1]$ and evaluate each choice. $\\left(r,-\\frac{8r}{7}+\\frac{9}{7}\\right)$ returns $[9,9]$, so it works for the whole line."
+      "content": "Define $L(x,y)=5x+7y$. A correct parametrization must make $L(x,y)=11$ for every value of $r$. Set $r=[0,1]$ and evaluate each choice. $\\left(r,-\\frac{5r}{7}+\\frac{11}{7}\\right)$ returns $[11,11]$, so it works for the whole line."
     },
     {
       "title": "Confirm the candidate",
-      "content": "For $x=r$ and $y=-\\frac{8r}{7}+\\frac{9}{7}$. Substitution gives $8r+7\\left(-\\frac{8r}{7}+\\frac{9}{7}\\right)=8r-8r+9=9$, true for every $r$. $\\left(r,-\\frac{8r}{7}+\\frac{9}{7}\\right)$ is correct."
+      "content": "For $x=r$ and $y=-\\frac{5r}{7}+\\frac{11}{7}$. Substitution gives $5r+7\\left(-\\frac{5r}{7}+\\frac{11}{7}\\right)=5r-5r+11=11$, true for every $r$. $\\left(r,-\\frac{5r}{7}+\\frac{11}{7}\\right)$ is correct."
     }
   ]
 }

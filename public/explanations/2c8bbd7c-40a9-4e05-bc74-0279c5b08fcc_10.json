@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Analyze the equation",
-      "content": "A perfect square is never negative, but the equation requires $$(x+81)^2=-256.$$ No real $x$ can satisfy this."
+      "content": "A perfect square is never negative, but the equation requires $$(x+64)^2=-144.$$ No real $x$ can satisfy this."
     },
     {
       "title": "Count the solutions",

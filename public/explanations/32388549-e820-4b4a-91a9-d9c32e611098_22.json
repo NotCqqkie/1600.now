@@ -1,6 +1,6 @@
 {
   "questionId": "32388549-e820-4b4a-91a9-d9c32e611098_22",
-  "correctAnswer": "900",
+  "correctAnswer": "700",
   "section": "Math",
   "steps": [
     {
@@ -9,11 +9,11 @@
     },
     {
       "title": "Compute the final counts",
-      "content": "Prey increased by 2700% of $N$, so the increase is $27N$ and the final prey count is $N+27N = 28N$.<br/>Predators increased by 180% of $N$, so the increase is $1.8N$ and the final predator count is $N+1.8N = 2.8N$."
+      "content": "Prey increased by 2300% of $N$, so the increase is $23N$ and the final prey count is $N+23N = 24N$.<br/>Predators increased by 200% of $N$, so the increase is $2N$ and the final predator count is $N+2N = 3N$."
     },
     {
       "title": "Find the percent by which prey exceeds predators",
-      "content": "The ratio of final prey to final predators is $\\dfrac{28N}{2.8N}=10$.<br/>If prey is $p\\%$ greater than predators, then $\\dfrac{\\text{prey}}{\\text{predators}} = 1 + \\frac{p}{100}$.<br/>Thus $1 + \\frac{p}{100}=10$, giving $\\frac{p}{100}=9$ and $p=900$.<br/>The answer is <strong>900</strong>."
+      "content": "The ratio of final prey to final predators is $\\dfrac{24N}{3N}=8$.<br/>If prey is $p\\%$ greater than predators, then $\\dfrac{\\text{prey}}{\\text{predators}} = 1 + \\frac{p}{100}$.<br/>Thus $1 + \\frac{p}{100}=8$, giving $\\frac{p}{100}=7$ and $p=700$.<br/>The answer is <strong>700</strong>."
     }
   ]
 }

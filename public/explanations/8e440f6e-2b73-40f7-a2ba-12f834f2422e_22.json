@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Substitute to set up the intersection equation",
-      "content": "From the second equation, $y + 4 = 0$ means $y = -4$. Substitute this value into the first equation: $$-4 = 3x^2 - 24x + 51$$Rearranging to standard form: $$3x^2 - 24x + 55 = 0$$This equation determines how many intersection points exist."
+      "content": "From the second equation, $y + 3 = 0$ means $y = -3$. Substitute this value into the first equation: $$-3 = 2x^2 - 20x + 54$$Rearranging to standard form: $$2x^2 - 20x + 57 = 0$$This equation determines how many intersection points exist."
     },
     {
       "title": "Use the discriminant to count solutions",
-      "content": "For the quadratic $3x^2 - 24x + 55 = 0$, calculate the discriminant with $a = 3$, $b = -24$, $c = 55$: $$\\Delta = b^2 - 4ac = (-24)^2 - 4(3)(55) = 576 - 660 = -84$$Since $\\Delta = -84 \\lt 0$, there are no real solutions to the quadratic equation, meaning the parabola and horizontal line never intersect.<br/><br/>That confirms <strong>D</strong> is correct."
+      "content": "For the quadratic $2x^2 - 20x + 57 = 0$, calculate the discriminant with $a = 2$, $b = -20$, $c = 57$: $$\\Delta = b^2 - 4ac = (-20)^2 - 4(2)(57) = 400 - 456 = -56$$Since $\\Delta = -56 \\lt 0$, there are no real solutions to the quadratic equation, meaning the parabola and horizontal line never intersect.<br/><br/>That confirms <strong>D</strong> is correct."
     }
   ]
 }

@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Fastest path: use the function table",
-      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $245$, so the answer is <strong>D</strong>, 245. This is just a one-row lookup, and the arithmetic below confirms the table value."
+      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $256$, so the answer is <strong>D</strong>, 256. This is just a one-row lookup, and the arithmetic below confirms the table value."
     },
     {
-      "title": "Substitute the value x = 7",
-      "content": "Replace $x$ with $7$ in $$f(x) = 5x^2.$$ This gives $$f(7) = 5(7)^2.$$"
+      "title": "Substitute the value x = 8",
+      "content": "Replace $x$ with $8$ in $$f(x) = 4x^2.$$ This gives $$f(8) = 4(8)^2.$$"
     },
     {
       "title": "Compute the result",
-      "content": "Simplify: $$f(7) = 5(49) = 245.$$ That confirms <strong>D</strong> is correct."
+      "content": "Simplify: $$f(8) = 4(64) = 256.$$ That confirms <strong>D</strong> is correct."
     }
   ]
 }

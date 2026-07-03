@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute point (0, -8) to find B",
-      "content": "Since the line passes through $(0, -8)$, this point must satisfy $Ax + By = 9$. Substituting $x = 0$ and $y = -8$ eliminates the $A$ term:<br/>$$A(0) + B(-8) = 9$$<br/>$$-8B = 9$$<br/>$$B = -\\frac{9}{8}$$<br/>That matches <strong>Choice B &mdash; $-\\frac{9}{8}$</strong>."
+      "title": "Substitute point (0, -6) to find B",
+      "content": "Since the line passes through $(0, -6)$, this point must satisfy $Ax + By = 11$. Substituting $x = 0$ and $y = -6$ eliminates the $A$ term:<br/>$$A(0) + B(-6) = 11$$<br/>$$-6B = 11$$<br/>$$B = -\\frac{11}{6}$$<br/>That matches <strong>Choice B &mdash; $-\\frac{11}{6}$</strong>."
     }
   ]
 }

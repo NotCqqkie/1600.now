@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Read the vertex from vertex form",
-      "content": "$y=-16(x-5.6)^2+502$ is in vertex form $a(x-h)^2+k$, so $(h,k)=(5.6,502)$ directly — no algebra needed."
+      "content": "$y=-16(x-4.8)^2+432$ is in vertex form $a(x-h)^2+k$, so $(h,k)=(4.8,432)$ directly -- no algebra needed."
     },
     {
       "title": "Interpret the vertex",
-      "content": "Since $a=-16\\lt0$, the parabola opens downward — the vertex is the maximum. The rocket reaches its maximum height of $502$ ft at $t=5.6$ seconds. That is the correct answer."
+      "content": "Since $a=-16\\lt0$, the parabola opens downward -- the vertex is the maximum. The drone reaches its maximum height of $432$ ft at $t=4.8$ seconds. That is the correct answer."
     }
   ]
 }

@@ -1,20 +1,20 @@
 {
   "questionId": "301d8663-e49a-4c21-9635-ef2d02614b43_15",
-  "correctAnswer": "4.5",
+  "correctAnswer": "5.5",
   "section": "Math",
   "steps": [
     {
       "title": "Apply the slope formula",
-      "content": "For two points $(x_1, y_1) = (5, 3)$ and $(x_2, y_2) = (7, 12)$, use:",
+      "content": "For two points $(x_1, y_1) = (4, 5)$ and $(x_2, y_2) = (6, 16)$, use:",
       "formula": "$$m = \\frac{y_2 - y_1}{x_2 - x_1}$$"
     },
     {
       "title": "Substitute and simplify",
-      "content": "$$m = \\frac{12 - 3}{7 - 5} = \\frac{9}{2} = 4.5$$<br/>The slope is <strong>4.5</strong>."
+      "content": "$$m = \\frac{16 - 5}{6 - 4} = \\frac{11}{2} = 5.5$$<br/>The slope is <strong>5.5</strong>."
     },
     {
       "title": "Confirm the answer",
-      "content": "The question asks for the slope of the line through the two given points, so the value to enter is <strong>4.5</strong>."
+      "content": "The question asks for the slope of the line through the two given points, so the value to enter is <strong>5.5</strong>."
     }
   ]
 }

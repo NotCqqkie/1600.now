@@ -8,8 +8,8 @@
       "content": "The function $m(t)$ is defined with $t$ representing days after birth (input) and $m(t)$ representing body mass in kg (output). This assignment of variables is crucial for interpreting the given statement."
     },
     {
-      "title": "Interpret m(330) ≈ 362 using the variable definitions",
-      "content": "Given that $m(330) \\approx 362$, we identify: $t = 330$ (days after birth) is the input, and $m(330) \\approx 362$ kg (body mass) is the output. Therefore, 330 days after it was born, the animal's predicted body mass was approximately 362 kg. <strong>B</strong> is correct."
+      "title": "Interpret m(315) approximately equal to 352 using the variable definitions",
+      "content": "Given that $m(315) \\approx 352$, we identify: $t = 315$ (days after birth) is the input, and $m(315) \\approx 352$ kg (body mass) is the output. Therefore, 315 days after it was born, the animal's predicted body mass was approximately 352 kg. <strong>B</strong> is correct."
     }
   ]
 }

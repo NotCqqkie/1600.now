@@ -1,19 +1,19 @@
 {
   "questionId": "190be2fc",
-  "correctAnswer": "52",
+  "correctAnswer": "51",
   "section": "Math",
   "steps": [
     {
       "title": "Find the known total",
-      "content": "The 9 listed integers have mean $42$, so their total is:<br/>$$9\\cdot42=378$$"
+      "content": "The 9 listed integers have mean $41$, so their total is:<br/>$$9\\cdot41=369$$"
     },
     {
       "title": "Use the possible mean of all 10 integers",
-      "content": "Let $x$ be the missing integer and let $M$ be the mean of all 10 integers. Since $M$ is an integer greater than $42$:<br/>$$\\frac{378+x}{10}=M$$<br/>Each integer is positive and less than $60$, so $x\\lt 60$. If $M\\ge44$, then $x=10M-378\\ge62$, which is too large. Therefore $M=43$."
+      "content": "Let $x$ be the missing integer and let $M$ be the mean of all 10 integers. Since $M$ is an integer greater than $41$:<br/>$$\\frac{369+x}{10}=M$$<br/>Each integer is positive and less than $60$, so $x\\lt 60$. If $M\\ge43$, then $x=10M-369\\ge61$, which is too large. Therefore $M=42$."
     },
     {
       "title": "Find the missing value",
-      "content": "$$\\frac{378+x}{10}=43$$<br/>$$378+x=430$$<br/>$$x=52$$<br/>The largest of the original 9 values is $46$, so the largest integer in data set A is <strong>52</strong>."
+      "content": "$$\\frac{369+x}{10}=42$$<br/>$$369+x=420$$<br/>$$x=51$$<br/>The largest of the original 9 values is $45$, so the largest integer in data set B is <strong>51</strong>."
     }
   ]
 }

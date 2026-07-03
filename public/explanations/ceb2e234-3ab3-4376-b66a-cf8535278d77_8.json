@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Apply the rearrangement from the given condition",
-      "content": "Subtract $18$: $2(x-9) = 48-18$."
+      "content": "Subtract $21$: $3(x-8) = 56-21$."
     },
     {
       "title": "Compute the target value",
-      "content": "So $2(x-9) = 30$. That is the correct answer."
+      "content": "So $3(x-8) = 35$. That is the correct answer."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches 30. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches 35. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
     }
   ]
 }

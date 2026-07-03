@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Identify the type of growth",
-      "content": "Harper starts with $110$ and earns $2.7\\%$ more each year. One year later the amount is $110(1.027)=112.97$. Use the values at $x=0$ and $x=1$ directly."
+      "content": "Jordan starts with $125$ and earns $3.4\\%$ more each year. One year later the amount is $125(1.034)=129.25$. Use the values at $x=0$ and $x=1$ directly."
     },
     {
       "title": "Write the model",
-      "content": "A $2.7\\%$ increase means the amount is multiplied by $$1+0.027=1.027$$ each year. Starting from $110$, the model is $$A(t)=110(1.027)^t.$$ Because $t$ is in the exponent, the model is exponential, not linear."
+      "content": "A $3.4\\%$ increase means the amount is multiplied by $$1+0.034=1.034$$ each year. Starting from $125$, the model is $$A(t)=125(1.034)^t.$$ Because $t$ is in the exponent, the model is exponential, not linear."
     },
     {
       "title": "Determine increasing or decreasing",
-      "content": "The base $1.027 \\gt 1$, so $A(t)$ grows as $t$ increases. The model is <em>increasing</em> exponential.<ul><li><strong>Choice A &mdash; Decreasing exponential</strong> The base exceeds 1, so the function increases, not decreases.</li><li><strong>Choice B &mdash; Decreasing linear</strong> Growth is proportional (multiplicative), not additive, so it is not linear and it is not decreasing.</li><li><strong>Choice C &mdash; Increasing exponential</strong> Multiplying by $1.027$ each year produces exponential growth. That is the correct answer.</li><li><strong>Choice D &mdash; Increasing linear</strong> A fixed percentage applied to a changing balance produces exponential, not linear, growth.</li></ul>"
+      "content": "The base $1.034 \\gt 1$, so $A(t)$ grows as $t$ increases. The model is <em>increasing</em> exponential.<ul><li><strong>Choice A &mdash; Decreasing exponential</strong> The base exceeds 1, so the function increases, not decreases.</li><li><strong>Choice B &mdash; Decreasing linear</strong> Growth is proportional (multiplicative), not additive, so it is not linear and it is not decreasing.</li><li><strong>Choice C &mdash; Increasing exponential</strong> Multiplying by $1.034$ each year produces exponential growth. That is the correct answer.</li><li><strong>Choice D &mdash; Increasing linear</strong> A fixed percentage applied to a changing balance produces exponential, not linear, growth.</li></ul>"
     }
   ]
 }

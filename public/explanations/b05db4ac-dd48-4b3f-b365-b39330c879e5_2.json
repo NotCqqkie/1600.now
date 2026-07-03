@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "c = cans at \\$1.87 each, t = bags of treats at \\$2.37 each. The shopper can buy the items only if the total cost stays within the \\$20 budget, so total cost &le; 20. The correct inequality assigns the right price to each variable and uses &le;."
+      "content": "c = cans at \\$1.94 each, t = bags of treats at \\$2.49 each. The shopper can buy the items only if the total cost stays within the \\$25 budget, so total cost &le; 25. The correct inequality assigns the right price to each variable and uses &le;."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; $1.87c + 2.37t \\leq 20$</strong>: \\$1.87 per can times c cans plus \\$2.37 per bag times t bags, total at most \\$20. &#10003;</li><li><strong>Choice B &mdash; $1.87c + 2.37t \\geq 20$</strong>: correct coefficients but wrong direction &mdash; &ge; would mean the shopper must spend at least \\$20, not stay under it. &#10007;</li><li><strong>Choice C &mdash; $2.37c + 1.87t \\leq 20$</strong>: swaps the prices &mdash; assigns \\$2.37 to cans and \\$1.87 to bags, opposite of the given information. &#10007;</li><li><strong>Choice D &mdash; $2.37c + 1.87t \\geq 20$</strong>: wrong coefficients and wrong inequality direction. &#10007;</li></ul>That is the correct answer."
+      "content": "<ul><li><strong>Choice A &mdash; $1.94c + 2.49t \\leq 25$</strong>: \\$1.94 per can times c cans plus \\$2.49 per bag times t bags, total at most \\$25. &#10003;</li><li><strong>Choice B &mdash; $1.94c + 2.49t \\geq 25$</strong>: correct coefficients but wrong direction &mdash; &ge; would mean the shopper must spend at least \\$25, not stay under it. &#10007;</li><li><strong>Choice C &mdash; $2.49c + 1.94t \\leq 25$</strong>: swaps the prices &mdash; assigns \\$2.49 to cans and \\$1.94 to bags, opposite of the given information. &#10007;</li><li><strong>Choice D &mdash; $2.49c + 1.94t \\geq 25$</strong>: wrong coefficients and wrong inequality direction. &#10007;</li></ul>That is the correct answer."
     }
   ]
 }

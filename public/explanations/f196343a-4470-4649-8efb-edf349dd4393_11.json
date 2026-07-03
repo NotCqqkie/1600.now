@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Solve the equation",
-      "content": "From $|x-8|=11$: $x-8=11$ or $x-8=-11$, so $x=19$ or $x=-3$."
+      "content": "From $|x-7|=10$: $x-7=10$ or $x-7=-10$, so $x=17$ or $x=-3$."
     },
     {
       "title": "Sum the solutions",
-      "content": "Add: $19+(-3)=16$.<br/><br/>The answer is <strong>B</strong>."
+      "content": "Add: $17+(-3)=14$.<br/><br/>The answer is <strong>B</strong>."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above is 16. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above is 14. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
     }
   ]
 }

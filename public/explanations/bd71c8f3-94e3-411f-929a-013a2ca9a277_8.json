@@ -9,11 +9,11 @@
     },
     {
       "title": "Solve",
-      "content": "$$P(C) = 1 - 0.48 - 0.24 = 0.28$$$$\\text{Visitors in room C} = 0.28 \\times 375 = 105$$"
+      "content": "$$P(C) = 1 - 0.45 - 0.30 = 0.25$$$$\\text{Visitors in room C} = 0.25 \\times 400 = 100$$"
     },
     {
       "title": "Answer",
-      "content": "<strong>Choice D &mdash; $105$</strong> is correct."
+      "content": "<strong>Choice D &mdash; $100$</strong> is correct."
     }
   ]
 }

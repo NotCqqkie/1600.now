@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Substitute each time into the distance formula",
-      "content": "Evaluate $d = 55t$ at both times:<ul><li>After $9k$ hours: $d = 55(9k) = 495k$ miles</li><li>After $3k$ hours: $d = 55(3k) = 165k$ miles</li></ul>"
+      "content": "Evaluate $d = 60t$ at both times:<ul><li>After $12k$ hours: $d = 60(12k) = 720k$ miles</li><li>After $4k$ hours: $d = 60(4k) = 240k$ miles</li></ul>"
     },
     {
       "title": "Calculate the ratio",
-      "content": "Divide the distance at $9k$ hours by the distance at $3k$ hours:<br/>$$\\frac{495k}{165k} = \\frac{495}{165} = 3$$<br/>That matches the correct answer — <strong>A</strong> is correct."
+      "content": "Divide the distance at $12k$ hours by the distance at $4k$ hours:<br/>$$\\frac{720k}{240k} = \\frac{720}{240} = 3$$<br/>That matches the correct answer — <strong>A</strong> is correct."
     }
   ]
 }

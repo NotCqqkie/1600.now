@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Enter two years of values",
-      "content": "At $x=0$, the house is worth $174{,}000$. A $2.4\\%$ annual increase means the one-year value is $174{,}000(1.024)=178{,}176$."
+      "content": "At $x=0$, the condominium is worth $186{,}000$. A $3.2\\%$ annual increase means the one-year value is $186{,}000(1.032)=191{,}952$."
     },
     {
       "title": "Find the exponential model",
-      "content": "An exponential model has the form $f(x)=a(b)^x$. Here $a=174{,}000$ and $b=1.024$, so $$f(x)=174{,}000(1.024)^x$$"
+      "content": "An exponential model has the form $f(x)=a(b)^x$. Here $a=186{,}000$ and $b=1.032$, so $$f(x)=186{,}000(1.032)^x$$"
     },
     {
       "title": "Confirm the answer",
-      "content": "Choice A (&lsquo;$f(x)=174,000(0.024)^{x}$&rsquo;) uses $0.024$ as the whole multiplier, and choice B (&lsquo;$f(x)=174,000(0.24)^{x}$&rsquo;) uses $0.24$; both would shrink the value. Choice D (&lsquo;$f(x)=174,000(1.24)^{x}$&rsquo;) uses $1.24$, a $24\\%$ increase. Choice C (&lsquo;$f(x)=174,000(1.024)^{x}$&rsquo;) uses $1.024$, the correct yearly multiplier. <strong>C</strong> is correct."
+      "content": "Choice A (&lsquo;$f(x)=186,000(0.032)^{x}$&rsquo;) uses $0.032$ as the whole multiplier, and choice B (&lsquo;$f(x)=186,000(0.32)^{x}$&rsquo;) uses $0.32$; both would shrink the value. Choice D (&lsquo;$f(x)=186,000(1.32)^{x}$&rsquo;) uses $1.32$, a $32\\%$ increase. Choice C (&lsquo;$f(x)=186,000(1.032)^{x}$&rsquo;) uses $1.032$, the correct yearly multiplier. <strong>C</strong> is correct."
     }
   ]
 }

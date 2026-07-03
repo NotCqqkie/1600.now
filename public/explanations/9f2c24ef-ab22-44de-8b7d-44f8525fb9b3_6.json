@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Analyze the equation",
-      "content": "Subtract $5x$ from both sides of $5x+3=5x+7$: $$3=7.$$ This is false for every $x$."
+      "content": "Subtract $7x$ from both sides of $7x+4=7x+10$: $$4=10.$$ This is false for every $x$."
     },
     {
       "title": "Count the solutions",

@@ -1,23 +1,23 @@
 {
   "questionId": "c01f4a95",
-  "correctAnswer": "39",
+  "correctAnswer": "44",
   "section": "Math",
   "steps": [
     {
       "title": "Turn the information into two points",
-      "content": "The function has the form $j(x)=mx+144$, so its y-intercept is $144$. That gives the point $(0,144)$. The statement $j(12)=18$ gives the point $(12,18)$."
+      "content": "The function has the form $j(x)=mx+170$, so its y-intercept is $170$. That gives the point $(0,170)$. The statement $j(14)=23$ gives the point $(14,23)$."
     },
     {
       "title": "Find the line from the data",
-      "content": "Use the slope formula with $(0,144)$ and $(12,18)$:<br/>$$m=\\frac{18-144}{12-0}=\\frac{-126}{12}=-10.5.$$ Since the intercept is already $144$, $$j(x)=-10.5x+144.$$"
+      "content": "Use the slope formula with $(0,170)$ and $(14,23)$:<br/>$$m=\\frac{23-170}{14-0}=\\frac{-147}{14}=-10.5.$$ Since the intercept is already $170$, $$j(x)=-10.5x+170.$$"
     },
     {
-      "title": "Evaluate at x = 10",
-      "content": "Now compute:<br/>$$j(10)=-10.5(10)+144=-105+144=39$$"
+      "title": "Evaluate at x = 12",
+      "content": "Now compute:<br/>$$j(12)=-10.5(12)+170=-126+170=44$$"
     },
     {
       "title": "Answer",
-      "content": "The value of $j(10)$ is <strong>39</strong>."
+      "content": "The value of $j(12)$ is <strong>44</strong>."
     }
   ]
 }

@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Establish the confidence interval from margin of error",
-      "content": "The survey estimates 35% support with a margin of error of 3%. This means the true percentage supporting the legislation is plausibly between 35% − 3% = 32% and 35% + 3% = 38%."
+      "content": "The survey estimates 40% support with a margin of error of 4%. This means the true percentage supporting the ordinance is plausibly between 40% - 4% = 36% and 40% + 4% = 44%."
     },
     {
       "title": "Convert percentage bounds to population counts",
-      "content": "The population is 50,000 people. Apply the percentage bounds:<br/>Lower bound: 0.32 × 50,000 = 16,000<br/>Upper bound: 0.38 × 50,000 = 19,000<br/>So a plausible value for the number of supporters falls between 16,000 and 19,000 people."
+      "content": "The population is 60,000 people. Apply the percentage bounds:<br/>Lower bound: 0.36 x 60,000 = 21,600<br/>Upper bound: 0.44 x 60,000 = 26,400<br/>So a plausible value for the number of supporters falls between 21,600 and 26,400 people."
     },
     {
       "title": "Check which choice falls in the plausible range",
-      "content": "Test each option:<ul><li><strong>$350$</strong>: 350 → represents 0.7% of the population, far too small</li><li><strong>$650$</strong>: 650 → represents 1.3% of the population, far too small</li><li><strong>$16,750$</strong>: 16,750 → represents 33.5% of 50,000, which lies within [32%, 38%]</li><li><strong>$31,750$</strong>: 31,750 → represents 63.5% of the population, far too large</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+      "content": "Test each option:<ul><li><strong>$480$</strong>: 480 -> represents 0.8% of the population, far too small</li><li><strong>$720$</strong>: 720 -> represents 1.2% of the population, far too small</li><li><strong>$24,600$</strong>: 24,600 -> represents 41% of 60,000, which lies within [36%, 44%]</li><li><strong>$35,400$</strong>: 35,400 -> represents 59% of the population, far too large</li></ul>That matches the correct answer - <strong>C</strong> is correct."
     }
   ]
 }

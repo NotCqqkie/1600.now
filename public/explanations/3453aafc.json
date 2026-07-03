@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Use the rectangle area formula",
-      "content": "For a rectangle, area equals length times width. Multiply the given length, $36$ centimeters, by the given width, $34$ centimeters."
+      "content": "For a rectangle, area equals length times width. Multiply the given length, $42$ centimeters, by the given width, $38$ centimeters."
     },
     {
       "title": "Apply the rectangle area formula",
-      "content": "For a rectangle, area equals length times width. With length = 36 cm and width = 34 cm:<br/>$$A = 36 \\times 34$$"
+      "content": "For a rectangle, area equals length times width. With length = 42 cm and width = 38 cm:<br/>$$A = 42 \\times 38$$"
     },
     {
       "title": "Calculate the product",
-      "content": "Multiply: $36 \\times 34 = 1,224$ square centimeters. The units are square centimeters because the two side lengths are both measured in centimeters. <strong>D</strong> is correct."
+      "content": "Multiply: $42 \\times 38 = 1,596$ square centimeters. The units are square centimeters because the two side lengths are both measured in centimeters. <strong>D</strong> is correct."
     }
   ]
 }

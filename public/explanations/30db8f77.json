@@ -1,15 +1,15 @@
 {
   "questionId": "30db8f77",
-  "correctAnswer": "88",
+  "correctAnswer": "91",
   "section": "Math",
   "steps": [
     {
       "title": "Find the probability assigned to group C",
-      "content": "Since every attendee belongs to exactly one group, the probabilities must sum to 1:<br/>$$P(A) + P(B) + P(C) = 1$$<br/>Substituting the given probabilities:<br/>$$0.44 + 0.24 + P(C) = 1$$<br/>$$P(C) = 1 - 0.44 - 0.24 = 0.32$$"
+      "content": "Since every participant belongs to exactly one group, the probabilities must sum to 1:<br/>$$P(A) + P(B) + P(C) = 1$$<br/>Substituting the given probabilities:<br/>$$0.48 + 0.24 + P(C) = 1$$<br/>$$P(C) = 1 - 0.48 - 0.24 = 0.28$$"
     },
     {
       "title": "Multiply the probability by the total to find the count",
-      "content": "The number of attendees in group C is the probability times the total number of attendees:<br/>$$\\text{Number in C} = 0.32 \\times 275$$<br/>$$= \\frac{32}{100} \\times 275 = \\frac{8800}{100} = 88$$<br/>That matches the expected answer — <strong>88</strong> attendees are assigned to group C."
+      "content": "The number of participants in group C is the probability times the total number of participants:<br/>$$\\text{Number in C} = 0.28 \\times 325$$<br/>$$= \\frac{28}{100} \\times 325 = \\frac{9100}{100} = 91$$<br/>That matches the expected answer - <strong>91</strong> participants are assigned to group C."
     }
   ]
 }

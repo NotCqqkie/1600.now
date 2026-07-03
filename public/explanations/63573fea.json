@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Calculate the monthly return amount",
-      "content": "The company sold 1,300,000 units in the first month with a 15% return rate. Find how many units are returned each month:<br/>$$\\text{Monthly returns} = 0.15 \\times 1,300,000 = 195,000$$"
+      "content": "The company sold 1,600,000 units in the first month with a 12% return rate. Find how many units are returned each month:<br/>$$\\text{Monthly returns} = 0.12 \\times 1,600,000 = 192,000$$"
     },
     {
-      "title": "Multiply by 6 months",
-      "content": "Since both sales volume and return rate remain the same, the total returns over the 6-month period (the first month plus the next 5 months) is:<br/>$$\\text{Total returns} = 195,000 \\times 6 = 1,170,000$$<br/>That confirms <strong>C</strong> is correct."
+      "title": "Multiply by 5 months",
+      "content": "Since both sales volume and return rate remain the same, the total returns over the 5-month period (the first month plus the next 4 months) is:<br/>$$\\text{Total returns} = 192,000 \\times 5 = 960,000$$<br/>That confirms <strong>C</strong> is correct."
     }
   ]
 }

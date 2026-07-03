@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Fastest path: use the function table",
-      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $2$, so the answer is <strong>B</strong>, $2$. This is just a one-row lookup, and the arithmetic below confirms the table value."
+      "content": "Enter the function in Desmos or a calculator table, then plug in the requested inputs. The difference is $2$, so the answer is <strong>B</strong>, $2$. This is just a quick table lookup, and the arithmetic below confirms the table value."
     },
     {
-      "title": "Evaluate f(9)",
-      "content": "Substitute $x = 9$ into $f(x) = \\frac{x + 7}{4}$:<br/>$$f(9) = \\frac{9 + 7}{4} = \\frac{16}{4} = 4$$"
+      "title": "Evaluate f(14)",
+      "content": "Substitute $x = 14$ into $f(x) = \\frac{x + 6}{5}$:<br/>$$f(14) = \\frac{14 + 6}{5} = \\frac{20}{5} = 4$$"
     },
     {
-      "title": "Evaluate f(1) and compute the difference",
-      "content": "Substitute $x = 1$:<br/>$$f(1) = \\frac{1 + 7}{4} = \\frac{8}{4} = 2$$<br/>Now find the difference:<br/>$$f(9) - f(1) = 4 - 2 = 2$$<br/>That matches <strong>Choice B &mdash; $2$</strong>."
+      "title": "Evaluate f(4) and compute the difference",
+      "content": "Substitute $x = 4$:<br/>$$f(4) = \\frac{4 + 6}{5} = \\frac{10}{5} = 2$$<br/>Now find the difference:<br/>$$f(14) - f(4) = 4 - 2 = 2$$<br/>That matches <strong>Choice B - $2$</strong>."
     }
   ]
 }

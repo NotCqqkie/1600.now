@@ -9,15 +9,15 @@
     },
     {
       "title": "Locate the roots",
-      "content": "The values go positive at $15$, negative at $18$, and positive at $21$. Therefore, one root is between $15$ and $18$, and the other is between $18$ and $21$."
+      "content": "The values go positive at $12$, negative at $15$, and positive at $18$. Therefore, one root is between $12$ and $15$, and the other is between $15$ and $18$."
     },
     {
       "title": "Use integer roots",
-      "content": "Because $a$ and $b$ are integers, the possible roots are $16$ or $17$ for the first interval and $19$ or $20$ for the second interval. The possible sums are $$16+19=35,\\quad 16+20=36,\\quad 17+19=36,\\quad 17+20=37$$"
+      "content": "Because $a$ and $b$ are integers, the possible roots are $13$ or $14$ for the first interval and $16$ or $17$ for the second interval. The possible sums are $$13+16=29,\\quad 13+17=30,\\quad 14+16=30,\\quad 14+17=31$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "Only $35$ appears among the choices, so <strong>D</strong> is correct."
+      "content": "Only $29$ appears among the choices, so <strong>D</strong> is correct."
     }
   ]
 }

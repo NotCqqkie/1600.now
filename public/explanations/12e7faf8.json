@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Factor the numerator",
-      "content": "To simplify the fraction, factor $x^2 + 6x - 7$. We need two numbers that multiply to $-7$ and add to $6$. Those numbers are $7$ and $-1$, giving us: $$x^2 + 6x - 7 = (x + 7)(x - 1)$$"
+      "content": "To simplify the fraction, factor $x^2 + 6x - 16$. We need two numbers that multiply to $-16$ and add to $6$. Those numbers are $8$ and $-2$, giving us: $$x^2 + 6x - 16 = (x + 8)(x - 2)$$"
     },
     {
       "title": "Cancel the common factor and identify coefficients",
-      "content": "Substitute the factored form into the original expression: $$\\frac{(x + 7)(x - 1)}{x + 7} = x - 1$$ for all $x \\neq -7$. Comparing to the form $ax + d$, we identify $a = 1$ and $d = -1$. Therefore, $a + d = 1 + (-1) = 0$. That matches <strong>Choice C &mdash; 0</strong>."
+      "content": "Substitute the factored form into the original expression: $$\\frac{(x + 8)(x - 2)}{x + 8} = x - 2$$ for all $x \\neq -8$. Comparing to the form $ax + d$, we identify $a = 1$ and $d = -2$. Therefore, $a + d = 1 + (-2) = -1$. That matches <strong>Choice C &mdash; $-1$</strong>."
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up",
-      "content": "Translate the percentages: $a = 23.52(b + c)$ and $b = 0.84c$, so $c = \\frac{b}{0.84}$. Substitute into the first equation: $$a = 23.52\\!\\left(b + \\frac{b}{0.84}\\right) = 23.52b\\!\\left(\\frac{1.84}{0.84}\\right)$$"
+      "content": "Translate the percentages: $a = 18.9(b + c)$ and $b = 0.75c$, so $c = \\frac{b}{0.75}$. Substitute into the first equation: $$a = 18.9\\!\\left(b + \\frac{b}{0.75}\\right) = 18.9b\\!\\left(\\frac{1.75}{0.75}\\right)$$"
     },
     {
       "title": "Solve",
-      "content": "Simplify the fraction: $\\frac{1.84}{0.84} = \\frac{184}{84} = \\frac{46}{21}$. Then: $$a = 23.52 \\times \\frac{46}{21} \\times b = 51.52b$$ So $a$ is $51.52 \\times 100\\% = 5{,}152\\%$ of $b$."
+      "content": "Simplify the fraction: $\\frac{1.75}{0.75} = \\frac{175}{75} = \\frac{7}{3}$. Then: $$a = 18.9 \\times \\frac{7}{3} \\times b = 44.1b$$ So $a$ is $44.1 \\times 100\\% = 4{,}410\\%$ of $b$."
     },
     {
       "title": "Answer",

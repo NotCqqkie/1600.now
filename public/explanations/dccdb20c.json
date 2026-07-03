@@ -1,19 +1,19 @@
 {
   "questionId": "dccdb20c",
-  "correctAnswer": "27",
+  "correctAnswer": "34",
   "section": "Math",
   "steps": [
     {
       "title": "Convert the percent",
-      "content": "$6\\%$ means $\\frac{6}{100}=0.06$."
+      "content": "$8\\%$ means $\\frac{8}{100}=0.08$."
     },
     {
       "title": "Multiply by the total",
-      "content": "$$0.06(450)=27.$$"
+      "content": "$$0.08(425)=34.$$"
     },
     {
       "title": "Confirm the answer",
-      "content": "There are <strong>27</strong> black tiles in the box. This is reasonable because $10\\%$ of $450$ would be $45$, and $6\\%$ should be a smaller number than that. The percent is applied to the total number of tiles."
+      "content": "There are <strong>34</strong> black tiles in the box. This is reasonable because $10\\%$ of $425$ would be $42.5$, and $8\\%$ should be a smaller number than that. The percent is applied to the total number of tiles."
     }
   ]
 }

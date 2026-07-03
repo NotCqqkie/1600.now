@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Solve the system by elimination",
-      "content": "Add $5y=6x+17$ and $-5y=7x-23$: $$0 = 13x - 6 \\Rightarrow x = \\tfrac{6}{13}.$$"
+      "content": "Add $4y=5x+11$ and $-4y=8x-19$: $$0 = 13x - 8 \\Rightarrow x = \\tfrac{8}{13}.$$"
     },
     {
       "title": "Find $39x$",
-      "content": "Then $$39x = 39 \\cdot \\tfrac{6}{13} = 18.$$ That confirms <strong>D</strong> is correct."
+      "content": "Then $$39x = 39 \\cdot \\tfrac{8}{13} = 24.$$ That confirms <strong>D</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above confirms <strong>D</strong>, 18, and the other choices fail the same setup or substitution. Therefore <strong>D</strong> is correct."
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above confirms <strong>D</strong>, 24, and the other choices fail the same setup or substitution. Therefore <strong>D</strong> is correct."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Translate 'twice the number of CDs that Cathy has'",
-      "content": "Cathy has <em>n</em> CDs. The phrase <em>twice the number</em> means multiply by 2. So twice the number of CDs that Cathy has is:<br/>$$2n$$"
+      "title": "Translate 'twice the number of notebooks that Maya has'",
+      "content": "Maya has <em>n</em> notebooks. The phrase <em>twice the number</em> means multiply by 2. So twice the number of notebooks that Maya has is:<br/>$$2n$$"
     },
     {
-      "title": "Add '3 more' and identify the answer",
-      "content": "Gerry has <em>3 more than</em> that amount. The phrase <em>3 more than</em> means add 3:<br/>$$2n + 3$$<br/>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Add '4 more' and identify the answer",
+      "content": "Leon has <em>4 more than</em> that amount. The phrase <em>4 more than</em> means add 4:<br/>$$2n + 4$$<br/>That matches the correct answer &mdash; <strong>D</strong> is correct."
     }
   ]
 }

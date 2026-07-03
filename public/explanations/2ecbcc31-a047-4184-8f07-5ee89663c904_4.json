@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Identify the logical relationship",
-      "content": "The passage says critics compliment the novel <em>&ldquo;despite the damage ______ Soviet censors.&rdquo;</em> Soviet censors <strong>caused</strong> the damage to the novel. The blank must express that the censors were the <em>agent</em> (source) of the damage, not the recipient of it."
+      "content": "The passage says critics compliment the novel <em>&ldquo;despite the damage ______ Soviet censors:&rdquo;</em> Soviet censors <strong>caused</strong> the damage to the novel. The blank must express that the censors were the <em>agent</em> (source) of the damage, not the recipient of it."
     },
     {
       "title": "Evaluate each choice",

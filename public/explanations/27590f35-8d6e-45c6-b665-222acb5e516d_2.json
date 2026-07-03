@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Translate the minimum and maximum",
-      "content": "The minimum recorded height is 42 feet, so no tree can be shorter than 42 feet: $t \\geq 42$. The maximum is 57 feet, so no tree can be taller than 57 feet: $t \\leq 57$."
+      "content": "The minimum recorded height is 44 feet, so no tree can be shorter than 44 feet: $t \\geq 44$. The maximum is 61 feet, so no tree can be taller than 61 feet: $t \\leq 61$."
     },
     {
       "title": "Combine the bounds",
-      "content": "Both constraints must hold simultaneously for every recorded value, giving the compound inequality $42 \\leq t \\leq 57$."
+      "content": "Both constraints must hold simultaneously for every recorded value, giving the compound inequality $44 \\leq t \\leq 61$."
     },
     {
       "title": "Check the choices",
-      "content": "Evaluate each choice:<ul><li>$t \\leq 42$: Fails for any tree taller than 42 feet (e.g., $t = 50$). Eliminated.</li><li>$t \\geq 57$: Fails for any tree shorter than 57 feet (e.g., $t = 42$). Eliminated.</li><li>$t \\geq 99$: No recorded height reaches 99 feet. Fails for all values. Eliminated.</li><li>$42 \\leq t \\leq 57$: True for every value in the recorded range. That matches <strong>Choice D &mdash; $42 \\leq t \\leq 57$</strong>.</li></ul>"
+      "content": "Evaluate each choice:<ul><li>$t \\leq 44$: Fails for any tree taller than 44 feet (e.g., $t = 52$). Eliminated.</li><li>$t \\geq 61$: Fails for any tree shorter than 61 feet (e.g., $t = 44$). Eliminated.</li><li>$t \\geq 105$: No recorded height reaches 105 feet. Fails for all values. Eliminated.</li><li>$44 \\leq t \\leq 61$: True for every value in the recorded range. That matches <strong>Choice D &mdash; $44 \\leq t \\leq 61$</strong>.</li></ul>"
     }
   ]
 }

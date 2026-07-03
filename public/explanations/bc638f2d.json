@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Interpret the constant term",
-      "content": "The function is $f(t)=14t+9$. The constant term $9$ is the value of the function when $t=0$."
+      "content": "The function is $f(t)=12t+7$. The constant term $7$ is the value of the function when $t=0$."
     },
     {
       "title": "Use t = 0",
-      "content": "Substitute $t=0$: $$f(0)=14(0)+9=9.$$ Since $t=0$ is the moment Tavon purchased the plant, the plant's estimated length then was $9$ inches."
+      "content": "Substitute $t=0$: $$f(0)=12(0)+7=7.$$ Since $t=0$ is the moment Maya purchased the plant, the plant's estimated length then was $7$ inches."
     },
     {
       "title": "Confirm the choice",
-      "content": "This matches <strong>D</strong>. The $14$ is the monthly growth rate, while $9$ is the initial length."
+      "content": "This matches <strong>D</strong>. The $12$ is the monthly growth rate, while $7$ is the initial length."
     }
   ]
 }

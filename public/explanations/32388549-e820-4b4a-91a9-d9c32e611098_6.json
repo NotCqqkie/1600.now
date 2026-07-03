@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Write the function in slope-intercept form",
-      "content": "The function $f(x) = 98x$ represents the equation $y = 98x$ in the $xy$-plane. The slope-intercept form of a line is $y = mx + b$, where $m$ is the slope and $b$ is the $y$-intercept."
+      "content": "The function $f(x) = 72x$ represents the equation $y = 72x$ in the $xy$-plane. The slope-intercept form of a line is $y = mx + b$, where $m$ is the slope and $b$ is the $y$-intercept."
     },
     {
       "title": "Identify the slope",
-      "content": "In the equation $y = 98x$, we can identify $m = 98$ and $b = 0$ by comparing to $y = mx + b$. The slope is the coefficient $m$ of the $x$ term, which is 98.<br/><br/><strong>D</strong> is correct."
+      "content": "In the equation $y = 72x$, we can identify $m = 72$ and $b = 0$ by comparing to $y = mx + b$. The slope is the coefficient $m$ of the $x$ term, which is 72.<br/><br/><strong>D</strong> is correct."
     }
   ]
 }

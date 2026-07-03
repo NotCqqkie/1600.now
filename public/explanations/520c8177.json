@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Translate calories per pound into an expression with the weight variable",
-      "content": "The phrase <em>25 calories per pound of the rabbit's weight</em> tells us to multiply the weight by 25. If the rabbit weighs $x$ pounds, this contributes $25x$ calories to the daily intake."
+      "content": "The phrase <em>30 calories per pound of the guinea pig's weight</em> tells us to multiply the weight by 30. If the guinea pig weighs $x$ pounds, this contributes $30x$ calories to the daily intake."
     },
     {
       "title": "Add the constant and write the equation",
-      "content": "The phrase <em>plus an additional 11 calories</em> adds a constant term. Combining both parts, the total recommended calories is: $$c=25x+11$$ <strong>D</strong> is correct."
+      "content": "The phrase <em>plus an additional 9 calories</em> adds a constant term. Combining both parts, the total recommended calories is: $$c=30x+9$$ <strong>D</strong> is correct."
     }
   ]
 }

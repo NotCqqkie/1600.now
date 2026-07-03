@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Convert the percentage to a fraction",
-      "content": "To find $20\\%$ of $440$, we express the percentage as a fraction: $20\\% = \\frac{20}{100} = \\frac{1}{5}$."
+      "content": "To find $30\\%$ of $360$, we express the percentage as a fraction: $30\\% = \\frac{30}{100} = \\frac{3}{10}$."
     },
     {
       "title": "Multiply the fraction by the whole",
-      "content": "Now we multiply: $$\\frac{1}{5} \\times 440 = \\frac{440}{5} = 88.$$ This means $88$ is one fifth of $440$. That confirms <strong>B</strong> is correct."
+      "content": "Now we multiply: $$\\frac{3}{10} \\times 360 = \\frac{1080}{10} = 108.$$ This means $108$ is three tenths of $360$. That confirms <strong>B</strong> is correct."
     }
   ]
 }

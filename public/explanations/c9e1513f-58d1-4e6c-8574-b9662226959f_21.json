@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Use standard circle form",
-      "content": "A circle in standard form is $(x-h)^2+(y-k)^2=r^2$, where $(h,k)$ is the center and $r$ is the radius. Since $(x+6a)^2=(x-(-6a))^2$, circle $M$ has center $(-6a,38a)$ and radius $6a$."
+      "content": "A circle in standard form is $(x-h)^2+(y-k)^2=r^2$, where $(h,k)$ is the center and $r$ is the radius. Since $(x+5a)^2=(x-(-5a))^2$, circle $M$ has center $(-5a,34a)$ and radius $5a$."
     },
     {
       "title": "Shift the center right",
-      "content": "Moving a circle $12a$ units to the right adds $12a$ to the x-coordinate of the center and leaves the y-coordinate and radius unchanged:<br/>$$(-6a+12a,38a)=(6a,38a)$$"
+      "content": "Moving a circle $10a$ units to the right adds $10a$ to the x-coordinate of the center and leaves the y-coordinate and radius unchanged:<br/>$$(-5a+10a,34a)=(5a,34a)$$"
     },
     {
       "title": "Write the shifted equation",
-      "content": "A circle with center $(6a,38a)$ and radius $6a$ has equation:<br/>$$(x-6a)^2+(y-38a)^2=36a^2$$<br/>That matches <strong>D</strong>."
+      "content": "A circle with center $(5a,34a)$ and radius $5a$ has equation:<br/>$$(x-5a)^2+(y-34a)^2=25a^2$$<br/>That matches <strong>D</strong>."
     }
   ]
 }

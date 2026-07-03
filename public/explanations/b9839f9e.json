@@ -1,15 +1,15 @@
 {
-  "questionId": "b9839f9e",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize the cost equation structure",
-      "content": "The equation $f = 2.50x + 7.00y$ represents a total cost formula.<br/><br/>The general form is:<br/><strong>Total = (unit price) × (quantity) + (unit price) × (quantity)</strong><br/>In this context, each coefficient (2.50 and 7.00) represents a unit price, and each variable ($x$ and $y$) represents a quantity."
-    },
-    {
-      "title": "Determine what 7.00 represents",
-      "content": "Since 7.00 is the coefficient multiplying $y$, and $y$ represents the number of salads, we know that 7.00 is the unit price of a salad. In other words, 7.00 is the price, in dollars, of one salad. That is the correct answer."
-    }
-  ]
+ "questionId": "b9839f9e",
+ "correctAnswer": "B",
+ "section": "Math",
+ "steps": [
+  {
+   "title": "Recognize the cost equation structure",
+   "content": "The equation $f = 3.25x + 8.50y$ represents a total cost formula.<br/><br/>The general form is:<br/><strong>Total = (unit price) × (quantity) + (unit price) × (quantity)</strong><br/>In this context, each coefficient (3.25 and 8.50) represents a unit price, and each variable ($x$ and $y$) represents a quantity."
+  },
+  {
+   "title": "Determine what 8.50 represents",
+   "content": "Since 8.50 is the coefficient multiplying $y$, and $y$ represents the number of sandwiches, we know that 8.50 is the unit price of a sandwich. In other words, 8.50 is the price, in dollars, of one sandwich. This is choice B."
+  }
+ ]
 }

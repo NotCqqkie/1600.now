@@ -1,6 +1,6 @@
 {
   "questionId": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_18",
-  "correctAnswer": "1760",
+  "correctAnswer": "1920",
   "section": "Math",
   "steps": [
     {
@@ -9,11 +9,11 @@
     },
     {
       "title": "Substitute the given acute angle",
-      "content": "The acute angle measures $(7x - 610)^{\\circ}$. Substitute:<br/>$$\\text{Sum} = 540 - 2(7x - 610)$$<br/>$$= 540 - 14x + 1220$$<br/>$$= 1760 - 14x$$"
+      "content": "The acute angle measures $(8x - 690)^{\\circ}$. Substitute:<br/>$$\\text{Sum} = 540 - 2(8x - 690)$$<br/>$$= 540 - 16x + 1380$$<br/>$$= 1920 - 16x$$"
     },
     {
       "title": "Match the form to find w",
-      "content": "Rewrite the sum as $-14x + 1760$. The problem states the sum equals $-14x + w$, so:<br/>$$-14x + 1760 = -14x + w$$<br/>Therefore, $w = 1760$."
+      "content": "Rewrite the sum as $-16x + 1920$. The problem states the sum equals $-16x + w$, so:<br/>$$-16x + 1920 = -16x + w$$<br/>Therefore, $w = 1920$."
     }
   ]
 }

@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $5x \\left(x-10{y}^{2}\\right)$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $6x \\left(x-12{y}^{2}\\right)$."
     },
     {
       "title": "Algebra check",
@@ -13,12 +13,12 @@
     },
     {
       "title": "Factor the expression",
-      "content": "The GCF of $5x^2$ and $50xy^2$ is $5x$. Factor it out:$$5x^2-50xy^2=5x(x-10y^2)$$"
+      "content": "The GCF of $6x^2$ and $72xy^2$ is $6x$. Factor it out:$$6x^2-72xy^2=6x(x-12y^2)$$"
     },
     {
       "title": "Match to the answer choices",
-      "content": "The factored form is $5x(x-10y^2)$. <strong>A</strong> is correct. Distributing $5x$ back through the parentheses checks both original terms: $5x^2$ and $-50xy^2$."
+      "content": "The factored form is $6x(x-12y^2)$. <strong>A</strong> is correct. Distributing $6x$ back through the parentheses checks both original terms: $6x^2$ and $-72xy^2$."
     }
   ],
-  "choiceAnalysis": "<ul><li><strong>Choice A — $5x \\left(x-10{y}^{2}\\right)$</strong>: Distributing gives $5x \\cdot x - 5x \\cdot 10y^2 = 5x^2 - 50xy^2$, which matches exactly. &#10003;</li><li><strong>Choice B — $5x \\left(x-50{y}^{2}\\right)$</strong>: Distributing gives $5x^2 - 250xy^2$, not $5x^2 - 50xy^2$. &#10007;</li><li><strong>Choice C — $5{x}^{2} \\left(10x{y}^{2}\\right)$</strong>: This is a product, not a difference; it equals $50x^3y^2$, not the original expression. &#10007;</li><li><strong>Choice D — $5{x}^{2} \\left(50x{y}^{2}\\right)$</strong>: This equals $250x^3y^2$, not the original expression. &#10007;</li></ul><strong>A</strong> is correct."
+  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; $6x \\left(x-12{y}^{2}\\right)$</strong>: Distributing gives $6x \\cdot x - 6x \\cdot 12y^2 = 6x^2 - 72xy^2$, which matches exactly. &#10003;</li><li><strong>Choice B &mdash; $6x \\left(x-72{y}^{2}\\right)$</strong>: Distributing gives $6x^2 - 432xy^2$, not $6x^2 - 72xy^2$. &#10007;</li><li><strong>Choice C &mdash; $6{x}^{2} \\left(12x{y}^{2}\\right)$</strong>: This is a product, not a difference; it equals $72x^3y^2$, not the original expression. &#10007;</li><li><strong>Choice D &mdash; $6{x}^{2} \\left(72x{y}^{2}\\right)$</strong>: This equals $432x^3y^2$, not the original expression. &#10007;</li></ul><strong>A</strong> is correct."
 }

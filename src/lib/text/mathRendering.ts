@@ -1,4 +1,7 @@
 import katex from "katex";
+// KaTeX styles travel with this module so every consumer (including lazy
+// importers) gets them without a separate page-level CSS import.
+import "katex/dist/katex.min.css";
 import {
   isEscapedAt,
   isLikelyInlineMath,
@@ -316,9 +319,20 @@ const applyInlineFormatting = (content: string): string => {
   return html;
 };
 
+// Rendering is pure (same text + options → same HTML) but expensive
+// (normalization passes + KaTeX + sanitize), and list views re-render the
+// same strings on every keystroke — so results are cached. Insertion-order
+// eviction keeps memory bounded.
+const RENDER_CACHE_MAX_ENTRIES = 500;
+const renderResultCache = new Map<string, string>();
+
 export function renderMixedContent(text: string, options: RenderMixedContentOptions = {}): string {
   if (!text) return "";
   const { normalizeMath = true, convertTexLineBreaks = true } = options;
+
+  const cacheKey = `${normalizeMath ? 1 : 0}${convertTexLineBreaks ? 1 : 0}:${text}`;
+  const cachedResult = renderResultCache.get(cacheKey);
+  if (cachedResult !== undefined) return cachedResult;
 
   let processedText = text;
   if (convertTexLineBreaks) {
@@ -356,5 +370,10 @@ export function renderMixedContent(text: string, options: RenderMixedContentOpti
     })
     .join("");
 
-  return sanitizeHtml(rendered);
+  const result = sanitizeHtml(rendered);
+  if (renderResultCache.size >= RENDER_CACHE_MAX_ENTRIES) {
+    renderResultCache.delete(renderResultCache.keys().next().value as string);
+  }
+  renderResultCache.set(cacheKey, result);
+  return result;
 }

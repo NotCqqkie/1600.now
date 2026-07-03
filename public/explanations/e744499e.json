@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Translate \"at least 20 items\"",
-      "content": "With $x$ workbooks and $y$ flash card sets, the total number of items is $x + y$. \"At least 20\" means the total is greater than or equal to 20:<br/>$$x + y \\geq 20$$"
+      "title": "Translate \"at least 25 items\"",
+      "content": "With $x$ notebooks and $y$ pencil packs, the total number of items is $x + y$. \"At least 25\" means the total is greater than or equal to 25:<br/>$$x + y \\geq 25$$"
     },
     {
-      "title": "Translate \"total cost not over 80 dollars\"",
-      "content": "Workbooks cost 3 dollars each and flash cards cost 4 dollars per set, so the total cost in dollars is $3x + 4y$. \"Not over 80 dollars\" means less than or equal to 80:<br/>$$3x + 4y \\leq 80$$"
+      "title": "Translate \"total cost not over 95 dollars\"",
+      "content": "Notebooks cost 2 dollars each and pencil packs cost 5 dollars each, so the total cost in dollars is $2x + 5y$. \"Not over 95 dollars\" means less than or equal to 95:<br/>$$2x + 5y \\leq 95$$"
     },
     {
       "title": "Match against the choices",
-      "content": "The system is $x + y \\geq 20$ together with $3x + 4y \\leq 80$.<ul><li><strong>$x + y \\ge 20$ and $3x + 4y \\le 80$</strong>: $x+y \\ge 20$ and $3x+4y \\le 80$ &mdash; matches both inequalities exactly. Correct.</li><li><strong>$x + y \\ge 20$ and $3x + 4y \\ge 80$</strong>: $x+y \\ge 20$ and $3x+4y \\ge 80$ &mdash; reverses the cost inequality, allowing orders that exceed 80 dollars. Eliminated.</li><li><strong>$x + 4y \\le 20$ and $x + y \\ge 80$</strong>: $x+4y \\le 20$ and $x+y \\ge 80$ &mdash; mixes up the coefficients and reverses both directions. Eliminated.</li><li><strong>$x + y \\le 20$ and $3x + 4y \\ge 80$</strong>: $x+y \\le 20$ and $3x+4y \\ge 80$ &mdash; reverses both inequalities, so it caps the count and requires a minimum cost. Eliminated.</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+      "content": "The system is $x + y \\geq 25$ together with $2x + 5y \\leq 95$.<ul><li><strong>$x + y \\ge 25$ and $2x + 5y \\le 95$</strong>: $x+y \\ge 25$ and $2x+5y \\le 95$ &mdash; matches both inequalities exactly. Correct.</li><li><strong>$x + y \\ge 25$ and $2x + 5y \\ge 95$</strong>: $x+y \\ge 25$ and $2x+5y \\ge 95$ &mdash; reverses the cost inequality, allowing orders that exceed 95 dollars. Eliminated.</li><li><strong>$x + 5y \\le 25$ and $x + y \\ge 95$</strong>: $x+5y \\le 25$ and $x+y \\ge 95$ &mdash; mixes up the coefficients and reverses both directions. Eliminated.</li><li><strong>$x + y \\le 25$ and $2x + 5y \\ge 95$</strong>: $x+y \\le 25$ and $2x+5y \\ge 95$ &mdash; reverses both inequalities, so it caps the count and requires a minimum cost. Eliminated.</li></ul>That matches the correct answer — <strong>A</strong> is correct."
     }
   ]
 }

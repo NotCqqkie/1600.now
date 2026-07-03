@@ -8,12 +8,12 @@
       "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
     },
     {
-      "title": "Extract circle M's center and double its radius",
-      "content": "From $(x - 3)^2 + (y - 6)^2 = 4$, circle M has center $(3, 6)$ and radius $\\sqrt{4} = 2$. Circle P has the same center but its radius is twice: $2 \\times 2 = 4$. For the equation, the radius squared is $4^2 = 16$."
+      "title": "Extract circle R's center and double circle s's radius",
+      "content": "From $(x - 4)^2 + (y - 7)^2 = 9$, circle R has center $(4, 7)$ and radius $\\sqrt{9} = 3$. Circle s has the same center but its radius is twice: $2 \\times 3 = 6$. For the equation, the radius squared is $6^2 = 36$."
     },
     {
-      "title": "Write circle P's equation",
-      "content": "With center $(3, 6)$ and radius squared equal to 16, circle P is $(x - 3)^2 + (y - 6)^2 = 16$. That confirms <strong>B</strong> is correct."
+      "title": "Write circle s's equation",
+      "content": "With center $(4, 7)$ and radius squared equal to 36, circle s is $(x - 4)^2 + (y - 7)^2 = 36$. That confirms <strong>B</strong> is correct."
     }
   ]
 }

@@ -9,11 +9,11 @@
     },
     {
       "title": "Identify the dimensions",
-      "content": "The width is $w=5$ cm. The length is $30$ cm longer than the width, so $\\ell = 5 + 30 = 35$ cm."
+      "content": "The width is $w=6$ cm. The length is $32$ cm longer than the width, so $\\ell = 6 + 32 = 38$ cm."
     },
     {
       "title": "Compute the area",
-      "content": "Area of a rectangle is $A = \\ell \\cdot w$, so $A = 35 \\cdot 5 = 175$ square cm. <strong>A</strong> matches."
+      "content": "Area of a rectangle is $A = \\ell \\cdot w$, so $A = 38 \\cdot 6 = 228$ square cm. <strong>A</strong> matches."
     }
   ]
 }

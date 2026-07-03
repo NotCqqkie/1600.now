@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Use the percent per serving",
-      "content": "One serving provides $5\\%$ of the daily potassium allowance."
+      "content": "One serving provides $6\\%$ of the daily potassium allowance."
     },
     {
       "title": "Scale by the number of servings",
-      "content": "If Jennifer eats $x$ servings, the percent of the daily allowance is $5$ times $x$, so $p=5x$."
+      "content": "If Laura eats $x$ servings, the percent of the daily allowance is $6$ times $x$, so $p=6x$."
     },
     {
       "title": "Match the choice",
-      "content": "The equation $p=5x$ matches <strong>B</strong>. The percent is written as $5$, not $0.05$, because $p$ is measured in percent."
+      "content": "The equation $p=6x$ matches <strong>B</strong>. The percent is written as $6$, not $0.06$, because $p$ is measured in percent."
     }
   ]
 }

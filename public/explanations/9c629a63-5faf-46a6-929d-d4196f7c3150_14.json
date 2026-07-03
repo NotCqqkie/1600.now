@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Translate the given information into two constraints",
-      "content": "Tanya's trip involves two key pieces of information:<ul><li><strong>Time:</strong> The drive took 5 hours total, so the first equation is x + y = 5</li><li><strong>Distance:</strong> The trip was 290 miles total. We'll use distance = speed × time to build the second equation</li></ul>"
+      "content": "Maya's trip involves two key pieces of information:<ul><li><strong>Time:</strong> The drive took 6 hours total, so the first equation is x + y = 6</li><li><strong>Distance:</strong> The trip was 330 miles total. We'll use distance = speed × time to build the second equation</li></ul>"
     },
     {
       "title": "Build the distance equation using distance = speed × time",
-      "content": "For each segment of the trip:<ul><li>Highway: 65 mph × x hours = 65x miles</li><li>Local roads: 30 mph × y hours = 30y miles</li></ul>Since the total distance is 290 miles:<br/>$$65x + 30y = 290$$<br/>Pairing this with the time equation $x + y = 5$ gives the listed system $65x + 30y = 290$ and $x + y = 5$, so <strong>B</strong> is correct."
+      "content": "For each segment of the trip:<ul><li>Highway: 60 mph × x hours = 60x miles</li><li>Local roads: 45 mph × y hours = 45y miles</li></ul>Since the total distance is 330 miles:<br/>$$60x + 45y = 330$$<br/>Pairing this with the time equation $x + y = 6$ gives the listed system $60x + 45y = 330$ and $x + y = 6$, so <strong>B</strong> is correct."
     }
   ]
 }

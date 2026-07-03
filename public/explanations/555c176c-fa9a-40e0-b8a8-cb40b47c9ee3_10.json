@@ -1,15 +1,15 @@
 {
   "questionId": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_10",
-  "correctAnswer": "-12",
+  "correctAnswer": "-13",
   "section": "Math",
   "steps": [
     {
       "title": "Use substitution for the repeated expression",
-      "content": "The term $(3-7x)$ appears on both sides of the equation. Let $u = 3-7x$ to simplify. The equation becomes:<br/>$$16 - 5u = 4 - 6u$$"
+      "content": "The term $(4-8x)$ appears on both sides of the equation. Let $u = 4-8x$ to simplify. The equation becomes:<br/>$$18 - 4u = 5 - 5u$$"
     },
     {
       "title": "Solve for u",
-      "content": "Collect $u$ terms on the left and constants on the right:<br/>$$16 - 5u + 6u = 4$$<br/>$$16 + u = 4$$<br/>$$u = -12$$<br/>Since $u = 3-7x$, the value of $3-7x$ is $-12$."
+      "content": "Collect $u$ terms on the left and constants on the right:<br/>$$18 - 4u + 5u = 5$$<br/>$$18 + u = 5$$<br/>$$u = -13$$<br/>Since $u = 4-8x$, the value of $4-8x$ is $-13$."
     }
   ]
 }

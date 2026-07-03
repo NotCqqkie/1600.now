@@ -1,23 +1,23 @@
 {
-  "questionId": "b5883220-eb88-4f6b-8d82-979efee65d2d_22",
-  "correctAnswer": "195",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Rewrite as a quadratic",
-      "content": "Start by expanding the equation: $$x(kx-112)=-16$$ $$kx^2-112x+16=0.$$"
-    },
-    {
-      "title": "Use the discriminant shortcut",
-      "content": "A quadratic has two distinct real solutions when its discriminant is positive. Here $a=k$, $b=-112$, and $c=16$, so $$(-112)^2-4(k)(16)\\gt0.$$"
-    },
-    {
-      "title": "Solve the inequality for k",
-      "content": "Simplify the inequality: $$12544-64k\\gt0$$ $$12544\\gt64k$$ $$196\\gtk.$$ So $k$ must be less than $196$."
-    },
-    {
-      "title": "Choose the greatest integer",
-      "content": "Since $k$ must be an integer and must be less than $196$, the greatest possible value is $195$. Check: $12544-64(195)=64\\gt0$, so there are two distinct real solutions. The answer is <strong>195</strong>."
-    }
-  ]
+ "questionId": "b5883220-eb88-4f6b-8d82-979efee65d2d_22",
+ "correctAnswer": "143",
+ "section": "Math",
+ "steps": [
+  {
+   "title": "Rewrite as a quadratic",
+   "content": "Start by expanding the equation: $$x(kx-120)=-25$$ $$kx^2-120x+25=0.$$"
+  },
+  {
+   "title": "Use the discriminant shortcut",
+   "content": "A quadratic has two distinct real solutions when its discriminant is positive. Here $a=k$, $b=-120$, and $c=25$, so $$(-120)^2-4(k)(25)\\gt0.$$"
+  },
+  {
+   "title": "Solve the inequality for k",
+   "content": "Simplify the inequality: $$14400-100k\\gt0$$ $$14400\\gt100k$$ $$144\\gt k.$$ So $k$ must be less than $144$."
+  },
+  {
+   "title": "Choose the greatest integer",
+   "content": "Since $k$ must be an integer and must be less than $144$, the greatest possible value is $143$. Check: $14400-100(143)=100\\gt0$, so there are two distinct real solutions. The answer is <strong>143</strong>."
+  }
+ ]
 }

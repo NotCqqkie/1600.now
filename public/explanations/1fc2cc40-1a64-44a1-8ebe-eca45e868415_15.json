@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Compare the coefficients",
-      "content": "Form ratios of the matching $x$, $y$, and constant terms in $$3x + y = 21$$ and $$9x - y = 3$$. This gives $\\frac{9}{3}=3$ but $\\frac{-1}{1}=-1$."
+      "content": "Form ratios of the matching $x$, $y$, and constant terms in $$4x + y = 22$$ and $$8x - y = 2$$. This gives $\\frac{8}{4}=2$ but $\\frac{-1}{1}=-1$."
     },
     {
       "title": "Identify the answer",

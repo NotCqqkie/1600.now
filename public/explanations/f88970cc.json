@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Read off x directly",
-      "content": "The first equation is $x = 5$. This is already solved &mdash; no algebra needed. The solution must have $x = 5$."
+      "content": "The first equation is $x = 7$. This is already solved &mdash; no algebra needed. The solution must have $x = 7$."
     },
     {
       "title": "Substitute into the second equation",
-      "content": "The second equation is $y = x - 8$. Plug in $x = 5$:<br/>$$y = 5 - 8 = -3$$<br/>The solution is $(5, -3)$."
+      "content": "The second equation is $y = x - 11$. Plug in $x = 7$:<br/>$$y = 7 - 11 = -4$$<br/>The solution is $(7, -4)$."
     },
     {
       "title": "Eliminate wrong choices",
-      "content": "<ul><li><strong>\"$\\left(0,0\\right)$\"</strong>: $x = 0 \\ne 5$, so this fails the first equation immediately. &#10007;</li><li><strong>\"$\\left(5,-3\\right)$\"</strong>: $x = 5$ &#10003; and $y = 5 - 8 = -3$ &#10003;. Both equations satisfied. &#10003;</li><li><strong>\"$\\left(5,-8\\right)$\"</strong>: $x = 5$ &#10003;, but $y = 5 - 8 = -3 \\ne -8$. Fails the second equation. &#10007;</li><li><strong>\"$\\left(5,8\\right)$\"</strong>: $x = 5$ &#10003;, but $y = 5 - 8 = -3 \\ne 8$. The sign is wrong. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+      "content": "<ul><li><strong>$\\left(0,0\\right)$</strong>: $x = 0 \\ne 7$, so this fails the first equation immediately. &#10007;</li><li><strong>$\\left(7,-4\\right)$</strong>: $x = 7$ &#10003; and $y = 7 - 11 = -4$ &#10003;. Both equations satisfied. &#10003;</li><li><strong>$\\left(7,-11\\right)$</strong>: $x = 7$ &#10003;, but $y = 7 - 11 = -4 \\ne -11$. Fails the second equation. &#10007;</li><li><strong>$\\left(7,11\\right)$</strong>: $x = 7$ &#10003;, but $y = 7 - 11 = -4 \\ne 11$. The sign is wrong. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
     }
   ]
 }

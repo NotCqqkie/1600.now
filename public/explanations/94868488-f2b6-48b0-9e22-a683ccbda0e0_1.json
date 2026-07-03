@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $-6x^{6}+3x^{3}-12x+13$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $-7x^{6}+4x^{3}-14x+14$."
     },
     {
       "title": "Algebra check",
@@ -13,15 +13,15 @@
     },
     {
       "title": "Distribute the negative sign",
-      "content": "$(3x^3 - 4x + 9) - (6x^6 + 8x - 4) = 3x^3 - 4x + 9 - 6x^6 - 8x + 4.$"
+      "content": "$(4x^3 - 5x + 8) - (7x^6 + 9x - 6) = 4x^3 - 5x + 8 - 7x^6 - 9x + 6."
     },
     {
       "title": "Combine like terms",
-      "content": "Group by degree: $x^6$ term: $-6x^6$. $x^3$ term: $3x^3$. $x$ terms: $-4x - 8x = -12x$. Constants: $9 + 4 = 13$. Result: $$-6x^6 + 3x^3 - 12x + 13.$$"
+      "content": "Group by degree: $x^6$ term: $-7x^6$. $x^3$ term: $4x^3$. $x$ terms: $-5x - 9x = -14x$. Constants: $8 + 6 = 14$. Result: $$-7x^6 + 4x^3 - 14x + 14.$$"
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li>A: $-3x^9 - 12x - 13$. Wrong &mdash; you cannot combine $3x^3$ and $-6x^6$ into $-3x^9$ (different degrees), and the constant sign is wrong.</li><li>B: $-6x^6 + 3x^3 - 12x + 13$. Matches the simplified expression. Correct.</li><li>C: $-6x^6 + 3x^3 + 4x + 5$. Wrong &mdash; sign on $-8x$ and on $-(-4)$ were mishandled.</li><li>D: $-3x^9 - 4x + 5$. Wrong &mdash; same illegal exponent addition and arithmetic errors.</li></ul>That confirms <strong>B</strong> is correct."
+      "content": "<ul><li>A: $-3x^9 - 14x - 14$. Wrong &mdash; you cannot combine $4x^3$ and $-7x^6$ into $-3x^9$ (different degrees), and the constant sign is wrong.</li><li>B: $-7x^6 + 4x^3 - 14x + 14$. Matches the simplified expression. Correct.</li><li>C: $-7x^6 + 4x^3 + 4x + 2$. Wrong &mdash; sign on $-9x$ and on $-(-6)$ were mishandled.</li><li>D: $-3x^9 - 5x + 2$. Wrong &mdash; same illegal exponent addition and arithmetic errors.</li></ul>That confirms <strong>B</strong> is correct."
     }
   ]
 }

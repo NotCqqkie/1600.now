@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Interpret the definition of tall",
-      "content": "A botanist classifies a plant as <em>tall</em> if its typical fully-grown height satisfies h &gt; 100 cm. Any inequality that represents a tall species must have all possible heights above 100."
+      "content": "A horticulturist classifies a plant as <em>tall</em> if its typical fully-grown height satisfies h &gt; 120 cm. Any inequality that represents a tall species must have all possible heights above 120."
     },
     {
       "title": "Screen each choice by its lower bound",
-      "content": "For a compound inequality a &lt; h &lt; b, the smallest possible height is just above a. We need a &gt; 100 for every height to exceed 100."
+      "content": "For a compound inequality a &lt; h &lt; b, the smallest possible height is just above a. We need a &ge; 120 for every height to exceed 120."
     },
     {
       "title": "Evaluate all four choices",
-      "content": "<ul><li><strong>Choice A &mdash; $106 \\lt h \\lt 158$</strong>: Lower bound is 106 &gt; 100, so every h in this range exceeds 100. Correct</li><li><strong>Choice B &mdash; $80 \\lt h \\lt 100$</strong>: Lower bound is 80 &lt; 100 and upper bound is exactly 100; no value in this range exceeds 100. Incorrect</li><li><strong>Choice C &mdash; $42 \\lt h \\lt 87$</strong>: All values are well below 100. Incorrect</li><li><strong>Choice D &mdash; $17 \\lt h \\lt 85$</strong>: All values are well below 100. Incorrect</li></ul>That matches <strong>Choice A &mdash; $106 \\lt h \\lt 158$</strong>."
+      "content": "<ul><li><strong>Choice A &mdash; $127 \\lt h \\lt 166$</strong>: Lower bound is 127 &gt; 120, so every h in this range exceeds 120. Correct</li><li><strong>Choice B &mdash; $96 \\lt h \\lt 120$</strong>: Lower bound is 96 &lt; 120 and upper bound is exactly 120; no value in this range exceeds 120. Incorrect</li><li><strong>Choice C &mdash; $54 \\lt h \\lt 98$</strong>: All values are well below 120. Incorrect</li><li><strong>Choice D &mdash; $25 \\lt h \\lt 93$</strong>: All values are well below 120. Incorrect</li></ul>That matches <strong>Choice A &mdash; $127 \\lt h \\lt 166$</strong>."
     }
   ]
 }

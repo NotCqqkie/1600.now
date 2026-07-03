@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up the percentage equation",
-      "content": "<strong>21 is 21% of what number?</strong> translates to an equation where 21 equals 21% of the unknown number $x$:<br/>$$21 = 0.21 \\times x$$"
+      "content": "<strong>36 is 36% of what number?</strong> translates to an equation where 36 equals 36% of the unknown number $x$:<br/>$$36 = 0.36 \\times x$$"
     },
     {
       "title": "Solve for the unknown number",
-      "content": "Divide both sides by 0.21 to isolate $x$:<br/>$$x = \\frac{21}{0.21}$$<br/>Rewrite $0.21 = \\frac{21}{100}$:<br/>$$x = \\frac{21}{\\frac{21}{100}} = 21 \\times \\frac{100}{21} = 100$$<br/>That confirms <strong>D</strong> is correct."
+      "content": "Divide both sides by 0.36 to isolate $x$:<br/>$$x = \\frac{36}{0.36}$$<br/>Rewrite $0.36 = \\frac{36}{100}$:<br/>$$x = \\frac{36}{\\frac{36}{100}} = 36 \\times \\frac{100}{36} = 100$$<br/>That confirms <strong>D</strong> is correct."
     }
   ]
 }

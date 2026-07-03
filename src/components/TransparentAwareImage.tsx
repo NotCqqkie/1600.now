@@ -1,7 +1,16 @@
-import { useEffect, useLayoutEffect, useRef, useState } from "react";
+import { type CSSProperties, useEffect, useLayoutEffect, useRef, useState } from "react";
 import { cn } from "@/lib/utils";
 
 type ImageIntrinsicSize = {
+  width: number;
+  height: number;
+};
+
+type ImageFetchPriority = "high" | "low" | "auto";
+
+type ImageTrimBox = {
+  x: number;
+  y: number;
   width: number;
   height: number;
 };
@@ -12,9 +21,17 @@ interface TransparentAwareImageProps {
   className?: string;
   wrapperClassName?: string;
   loading?: "eager" | "lazy";
+  fetchPriority?: ImageFetchPriority;
+  srcSet?: string;
+  sizes?: string;
+  width?: number;
+  height?: number;
   trimWhitespace?: boolean;
   reserveWhiteBackground?: boolean;
   intrinsicSize?: ImageIntrinsicSize;
+  hasTransparency?: boolean;
+  trimBox?: ImageTrimBox;
+  optimizedSrc?: string;
 }
 
 const transparencyCache = new Map<string, boolean>();
@@ -260,100 +277,127 @@ export const TransparentAwareImage = ({
   className,
   wrapperClassName,
   loading = "lazy",
+  fetchPriority,
+  srcSet,
+  sizes,
+  width,
+  height,
   trimWhitespace = false,
   reserveWhiteBackground = false,
   intrinsicSize,
+  hasTransparency,
+  optimizedSrc,
 }: TransparentAwareImageProps) => {
   const wrapperRef = useRef<HTMLSpanElement>(null);
   const imgRef = useRef<HTMLImageElement>(null);
-  const [hasTransparency, setHasTransparency] = useState(false);
-  const [resolvedSrc, setResolvedSrc] = useState(src);
+  const effectiveIntrinsicSize = intrinsicSize ?? (
+    width && height
+      ? { width, height }
+      : undefined
+  );
+  const initialResolvedSrc = optimizedSrc ?? (trimWhitespace ? trimmedImageCache.get(src) : undefined) ?? src;
+  const [hasResolvedTransparency, setHasResolvedTransparency] = useState(
+    () => hasTransparency ?? (isPngAsset(src) ? transparencyCache.get(src) ?? false : false)
+  );
+  const [resolvedSrc, setResolvedSrc] = useState(initialResolvedSrc);
   const [reservedSize, setReservedSize] = useState<ImageIntrinsicSize | null>(null);
+  const [isLoaded, setIsLoaded] = useState(false);
   const shouldReserveWhiteBackground = Boolean(
     reserveWhiteBackground &&
-    intrinsicSize?.width &&
-    intrinsicSize.height &&
+    effectiveIntrinsicSize?.width &&
+    effectiveIntrinsicSize.height &&
     isBitmapAsset(src)
   );
   const imageClassName = isTableImageAlt(alt) && !hasExplicitQuestionImageSize(className)
     ? scaleTableImageClassName(className)
     : className;
-  const cachedTrimmedInitial = trimWhitespace ? trimmedImageCache.get(src) : undefined;
-  const [isReady, setIsReady] = useState(() =>
-    (!trimWhitespace && !shouldReserveWhiteBackground) || Boolean(cachedTrimmedInitial)
-  );
 
   useEffect(() => {
     let cancelled = false;
+    let idleCallbackId: number | null = null;
+    let timeoutId: number | null = null;
 
-    const cachedTrimmed = trimWhitespace ? trimmedImageCache.get(src) : undefined;
-    setResolvedSrc(cachedTrimmed ?? src);
-    setIsReady((!trimWhitespace && !shouldReserveWhiteBackground) || Boolean(cachedTrimmed));
+    const cachedTrimmed = !optimizedSrc && trimWhitespace ? trimmedImageCache.get(src) : undefined;
+    setResolvedSrc(optimizedSrc ?? cachedTrimmed ?? src);
+    setIsLoaded(false);
     const shouldDetectTransparency = isPngAsset(src);
-    if (!shouldDetectTransparency) {
-      setHasTransparency(false);
-    }
 
     const cached = shouldDetectTransparency ? transparencyCache.get(src) : undefined;
-    if (shouldDetectTransparency && cached !== undefined) {
-      setHasTransparency(cached);
+    if (hasTransparency !== undefined) {
+      if (shouldDetectTransparency) {
+        transparencyCache.set(src, hasTransparency);
+      }
+      setHasResolvedTransparency(hasTransparency);
+    } else if (shouldDetectTransparency && cached !== undefined) {
+      setHasResolvedTransparency(cached);
     } else if (shouldDetectTransparency) {
-      setHasTransparency(false);
+      setHasResolvedTransparency(false);
+    } else {
+      setHasResolvedTransparency(false);
     }
 
-    if (cached !== undefined && (!trimWhitespace || cachedTrimmed) && !shouldReserveWhiteBackground) {
+    const needsTransparencyAnalysis = shouldDetectTransparency && hasTransparency === undefined && cached === undefined;
+    const needsTrimAnalysis = !optimizedSrc && trimWhitespace && !trimmedImageCache.has(src);
+    if (!needsTransparencyAnalysis && !needsTrimAnalysis) {
       return;
     }
 
     const img = new Image();
-    img.onload = () => {
+    const analyzeImage = () => {
       if (cancelled) return;
 
-      if (shouldDetectTransparency) {
+      if (needsTransparencyAnalysis) {
         const cachedTransparency = transparencyCache.get(src);
         if (cachedTransparency !== undefined) {
-          setHasTransparency(cachedTransparency);
+          setHasResolvedTransparency(cachedTransparency);
         } else {
           try {
             const transparent = hasTransparentPixel(img);
             transparencyCache.set(src, transparent);
-            setHasTransparency(transparent);
+            setHasResolvedTransparency(transparent);
           } catch {
             transparencyCache.set(src, false);
-            setHasTransparency(false);
+            setHasResolvedTransparency(false);
           }
         }
       }
 
-      if (!trimWhitespace || trimmedImageCache.has(src)) {
-        setIsReady(true);
-        return;
-      }
-
-      try {
-        const trimmed = cropWhitespace(img);
-        if (trimmed) {
-          trimmedImageCache.set(src, trimmed);
-          setResolvedSrc(trimmed);
+      if (needsTrimAnalysis) {
+        try {
+          const trimmed = cropWhitespace(img);
+          if (trimmed) {
+            trimmedImageCache.set(src, trimmed);
+            setResolvedSrc((current) => current === src ? trimmed : current);
+          }
+        } catch (error) {
+          console.error("Failed to crop transparent image:", error);
         }
-      } catch (error) {
-        console.error("Failed to crop transparent image:", error);
       }
-      setIsReady(true);
     };
-    img.onerror = () => {
+
+    img.onload = () => {
       if (cancelled) return;
-      setIsReady(true);
+      if (typeof window.requestIdleCallback === "function") {
+        idleCallbackId = window.requestIdleCallback(analyzeImage, { timeout: 1500 });
+      } else {
+        timeoutId = window.setTimeout(analyzeImage, 0);
+      }
     };
     img.src = src;
 
     return () => {
       cancelled = true;
+      if (idleCallbackId !== null && "cancelIdleCallback" in window) {
+        window.cancelIdleCallback(idleCallbackId);
+      }
+      if (timeoutId !== null) {
+        window.clearTimeout(timeoutId);
+      }
     };
-  }, [src, trimWhitespace, shouldReserveWhiteBackground]);
+  }, [hasTransparency, optimizedSrc, src, trimWhitespace]);
 
   useLayoutEffect(() => {
-    if (!shouldReserveWhiteBackground || !intrinsicSize || isReady) {
+    if (!shouldReserveWhiteBackground || !effectiveIntrinsicSize) {
       setReservedSize(null);
       return;
     }
@@ -363,11 +407,11 @@ export const TransparentAwareImage = ({
       const img = imgRef.current;
       if (!wrapper || !img) return;
 
-      const parentWidth = wrapper.parentElement?.getBoundingClientRect().width ?? intrinsicSize.width;
+      const parentWidth = wrapper.parentElement?.getBoundingClientRect().width ?? effectiveIntrinsicSize.width;
       const imageStyle = getComputedStyle(img);
       const maxWidth = parseCssLength(imageStyle.getPropertyValue("--question-image-max-width"), parentWidth);
       const maxHeight = parseCssLength(imageStyle.getPropertyValue("--question-image-max-height"), parentWidth);
-      const nextSize = getReservedImageSize(intrinsicSize, parentWidth, maxWidth, maxHeight);
+      const nextSize = getReservedImageSize(effectiveIntrinsicSize, parentWidth, maxWidth, maxHeight);
 
       setReservedSize((current) =>
         current &&
@@ -389,22 +433,24 @@ export const TransparentAwareImage = ({
     const observer = new ResizeObserver(updateReservedSize);
     observer.observe(parent);
     return () => observer.disconnect();
-  }, [imageClassName, intrinsicSize, isReady, shouldReserveWhiteBackground]);
+  }, [effectiveIntrinsicSize?.height, effectiveIntrinsicSize?.width, imageClassName, shouldReserveWhiteBackground]);
 
-  const reserveWrapperStyle = reservedSize
+  const reserveWrapperStyle: CSSProperties | undefined = reservedSize
     ? {
         width: `${reservedSize.width}px`,
         height: `${reservedSize.height}px`,
       }
     : undefined;
+  const renderedWidth = width ?? effectiveIntrinsicSize?.width;
+  const renderedHeight = height ?? effectiveIntrinsicSize?.height;
 
   return (
     <span
       ref={wrapperRef}
       className={cn(
         "inline-flex max-w-full min-w-0 box-border justify-center",
-        reservedSize && "question-image-loading-placeholder",
-        hasTransparency && "dark:rounded-md dark:bg-white dark:p-2",
+        reservedSize && !isLoaded && "question-image-loading-placeholder",
+        hasResolvedTransparency && "dark:rounded-md dark:bg-white dark:p-2",
         wrapperClassName
       )}
       style={reserveWrapperStyle}
@@ -416,7 +462,13 @@ export const TransparentAwareImage = ({
         className={cn(imageClassName, shouldReserveWhiteBackground && "rounded-lg")}
         loading={loading}
         decoding="async"
-        style={isReady ? undefined : { visibility: "hidden" }}
+        fetchPriority={fetchPriority}
+        srcSet={srcSet}
+        sizes={sizes}
+        width={renderedWidth}
+        height={renderedHeight}
+        onLoad={() => setIsLoaded(true)}
+        onError={() => setIsLoaded(true)}
       />
     </span>
   );

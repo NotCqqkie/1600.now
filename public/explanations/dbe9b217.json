@@ -1,19 +1,19 @@
 {
   "questionId": "dbe9b217",
-  "correctAnswer": "68",
+  "correctAnswer": "61",
   "section": "Math",
   "steps": [
     {
       "title": "Substitute $x=2$",
-      "content": "The function is $f(x)=8x^3+4$. Substitute $2$ for $x$: $$f(2)=8(2)^3+4.$$"
+      "content": "The function is $f(x)=7x^3+5$. Substitute $2$ for $x$: $$f(2)=7(2)^3+5.$$"
     },
     {
       "title": "Evaluate the power first",
-      "content": "$2^3=8$, so $$f(2)=8(8)+4=64+4=68.$$"
+      "content": "$2^3=8$, so $$f(2)=7(8)+5=56+5=61.$$"
     },
     {
       "title": "Confirm the answer",
-      "content": "The value of $f(2)$ is <strong>68</strong>. The exponent is evaluated before multiplying by $8$, so the cubic term contributes $64$. Then the final constant adds $4$."
+      "content": "The value of $f(2)$ is <strong>61</strong>. The exponent is evaluated before multiplying by $7$, so the cubic term contributes $56$. Then the final constant adds $5$."
     }
   ]
 }

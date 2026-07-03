@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute x = 4",
-      "content": "The function is $g(x)=|x+18|$. Substitute $4$ for $x$: $$g(4)=|4+18|$$"
+      "title": "Substitute x = 6",
+      "content": "The function is $g(x)=|x+15|$. Substitute $6$ for $x$: $$g(6)=|6+15|$$"
     },
     {
       "title": "Evaluate",
-      "content": "$$|4+18|=|22|=22$$"
+      "content": "$$|6+15|=|21|=21$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "The correct answer is $22$, so <strong>D</strong> is correct."
+      "content": "The correct answer is $21$, so <strong>D</strong> is correct."
     },
     {
       "title": "Remember what absolute value does",
-      "content": "Absolute value returns the nonnegative distance from $0$. Since $4+18=22$ is already positive, $|22|=22$, not $-22$ or $14$."
+      "content": "Absolute value returns the nonnegative distance from $0$. Since $6+15=21$ is already positive, $|21|=21$, not $-21$ or $9$."
     }
   ]
 }

@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Treat $5 - 2x$ as a single variable",
-      "content": "Let $u = 5 - 2x$. Subtract $7(5-2x)+3$ from both sides: $(5-2x) = 18-3 = 15$."
+      "title": "Treat $4 - 3x$ as a single variable",
+      "content": "Let $u = 4 - 3x$. Subtract $6(4-3x)+6$ from both sides: $(4-3x) = 20-6 = 14$."
     },
     {
       "title": "Compute the target value",
-      "content": "So $5-2x = 15$. That confirms <strong>D</strong> is correct."
+      "content": "So $4-3x = 14$. That confirms <strong>D</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above confirms <strong>D</strong>, 15, and the other choices fail the same setup or substitution. Therefore <strong>D</strong> is correct."
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above confirms <strong>D</strong>, 14, and the other choices fail the same setup or substitution. Therefore <strong>D</strong> is correct."
     }
   ]
 }

@@ -16,22 +16,22 @@
       "choices": [
         {
           "id": "A",
-          "explanation": "<ul><li>0.42 is the closest value to 0.418. That matches the correct answer — <strong>A</strong> is correct.</li></ul>"
+          "explanation": "<ul><li>0.51 is the closest value to 0.511. That matches the correct answer - <strong>A</strong> is correct.</li></ul>"
         },
         {
           "id": "B",
-          "explanation": "<ul><li>1.37 would result from dividing 270 by 3.28 and then by 60, applying only a linear (not squared) conversion for area. Not correct.</li></ul>"
+          "explanation": "<ul><li>1.68 would result from dividing 330 by 3.28 and then by 60, applying only a linear (not squared) conversion for area. Not correct.</li></ul>"
         },
         {
           "id": "C",
-          "explanation": "<ul><li>14.76 would result from dividing 270 by 10.7584 but forgetting to convert hours to minutes. Not correct.</li></ul>"
+          "explanation": "<ul><li>18.04 would result from multiplying 330 by 3.28 and then dividing by 60, using the linear conversion in the wrong direction. Not correct.</li></ul>"
         },
         {
           "id": "D",
-          "explanation": "<ul><li>25.10 would result from dividing 270 by 10.7584 with no per-minute conversion (rate stays per hour). Not correct.</li></ul>"
+          "explanation": "<ul><li>30.67 would result from dividing 330 by 10.7584 with no per-minute conversion (rate stays per hour). Not correct.</li></ul>"
         }
       ],
-      "content": "Apply both conversions: $270 \\frac{\\text{ft}^{2}}{\\text{hr}} \\times \\frac{1 \\text{ m}^{2}}{10.7584 \\text{ ft}^{2}} \\times \\frac{1 \\text{ hr}}{60 \\text{ min}} = \\frac{270}{10.7584 \\times 60} \\approx \\frac{270}{645.5} \\approx 0.418 \\frac{\\text{m}^{2}}{\\text{min}}$. Evaluate each choice."
+      "content": "Apply both conversions: $330 \\frac{\\text{ft}^{2}}{\\text{hr}} \\times \\frac{1 \\text{ m}^{2}}{10.7584 \\text{ ft}^{2}} \\times \\frac{1 \\text{ hr}}{60 \\text{ min}} = \\frac{330}{10.7584 \\times 60} \\approx \\frac{330}{645.5} \\approx 0.511 \\frac{\\text{m}^{2}}{\\text{min}}$. Evaluate each choice."
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "questionId": "a4989860",
-  "correctAnswer": "9",
+  "correctAnswer": "7",
   "section": "Math",
   "steps": [
     {
@@ -10,7 +10,7 @@
     },
     {
       "title": "Identify the slope and find p",
-      "content": "The problem states the line has a slope of $9$. Since $p$ is the slope in slope-intercept form, $p = 9$."
+      "content": "The problem states the line has a slope of $7$. Since $p$ is the slope in slope-intercept form, $p = 7$."
     }
   ]
 }

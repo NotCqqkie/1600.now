@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify variable meanings",
-      "content": "In the equation $y = 0.25x^2 - 6.5x + 64.25$:<ul><li>$x$ represents the number of days after the company went public</li><li>$y$ represents the estimated stock price in dollars</li></ul>"
+      "content": "In the equation $y = 0.5x^2 - 7.5x + 65$:<ul><li>$x$ represents the number of days after the company went public</li><li>$y$ represents the estimated stock price in dollars</li></ul>"
     },
     {
-      "title": "Interpret the ordered pair (1, 58)",
-      "content": "The ordered pair $(x, y) = (1, 58)$ means when $x = 1$ and $y = 58$. Since $x = 1$ day and $y = 58$ dollars, this tells us that one day after the company went public, the estimated stock price is 58 dollars. That is the correct answer."
+      "title": "Interpret the ordered pair (2, 52)",
+      "content": "The ordered pair $(x, y) = (2, 52)$ means when $x = 2$ and $y = 52$. Since $x = 2$ days and $y = 52$ dollars, this tells us that two days after the company went public, the estimated stock price is 52 dollars. That is the correct answer."
     }
   ]
 }

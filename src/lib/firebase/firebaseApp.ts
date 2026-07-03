@@ -1,5 +1,4 @@
 import { initializeApp, getApps, getApp } from "firebase/app";
-import { initializeAppCheck, ReCaptchaV3Provider } from "firebase/app-check";
 import { isLocalHost } from "@/lib/firebase/firebaseHosts";
 
 const requiredEnvKeys = [
@@ -49,12 +48,22 @@ export const app = hasFirebaseConfig
   ? (getApps().length ? getApp() : initializeApp(firebaseConfig))
   : null;
 
+// Firebase App Check (guarded by env var). Once VITE_RECAPTCHA_SITE_KEY is set
+// and App Check is enforced in the Firebase console, only tokens minted by the
+// real app can write to Firestore — closing the unbounded report-doc / write
+// abuse gap. No-op until the key is provided, so current behavior is unchanged.
 const appCheckSiteKey = import.meta.env.VITE_RECAPTCHA_SITE_KEY || "";
 if (app && appCheckSiteKey && typeof window !== "undefined") {
-  initializeAppCheck(app, {
-    provider: new ReCaptchaV3Provider(appCheckSiteKey),
-    isTokenAutoRefreshEnabled: true,
-  });
+  void import("firebase/app-check")
+    .then(({ initializeAppCheck, ReCaptchaV3Provider }) => {
+      initializeAppCheck(app, {
+        provider: new ReCaptchaV3Provider(appCheckSiteKey),
+        isTokenAutoRefreshEnabled: true,
+      });
+    })
+    .catch((error) => {
+      console.error("Failed to initialize Firebase App Check:", error);
+    });
 }
 
 export const firebaseConfigError = hasFirebaseConfig ? null : missingConfigMessage;

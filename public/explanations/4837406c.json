@@ -1,6 +1,6 @@
 {
   "questionId": "4837406c",
-  "correctAnswer": "4",
+  "correctAnswer": "5",
   "section": "Math",
   "steps": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "title": "Compute the time",
-      "content": "Solve for time: $$t = \\frac{d}{v}$$. Substitute $$d = 24\\text{ cm}$$ and $$v = 6\\text{ cm/s}$$: $$t = \\frac{24}{6} = 4\\text{ seconds}$$. The answer is <strong>4</strong>."
+      "content": "Solve for time: $$t = \\frac{d}{v}$$. Substitute $$d = 40\\text{ cm}$$ and $$v = 8\\text{ cm/s}$$: $$t = \\frac{40}{8} = 5\\text{ seconds}$$. The answer is <strong>5</strong>."
     }
   ]
 }

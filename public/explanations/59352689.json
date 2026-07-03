@@ -1,19 +1,19 @@
 {
   "questionId": "59352689",
-  "correctAnswer": "3.5",
+  "correctAnswer": "4.5",
   "section": "Math",
   "steps": [
     {
       "title": "Clear the equations",
-      "content": "The first equation simplifies to $5x-14y=-\\frac{32}{7}$. The second equation simplifies to $5x-4py=8$. For no solution, the coefficient pairs must be proportional and the constants must be different."
+      "content": "The first equation simplifies to $7x-18y=-\\frac{40}{7}$. The second equation simplifies to $7x-4py=12$. For no solution, the coefficient pairs must be proportional and the constants must be different."
     },
     {
       "title": "Match the y-coefficients",
-      "content": "The $x$-coefficients are both $5$, so the scale factor is $1$. Match the $y$-coefficients: $$-14=-4p$$ Divide by $-4$: $$p=\\frac{14}{4}=\\frac{7}{2}=3.5$$"
+      "content": "The $x$-coefficients are both $7$, so the scale factor is $1$. Match the $y$-coefficients: $$-18=-4p$$ Divide by $-4$: $$p=\\frac{18}{4}=\\frac{9}{2}=4.5$$"
     },
     {
       "title": "Confirm no solution",
-      "content": "With $p=3.5$, both equations have the same left side, $5x-14y$, but their constants are $-\\frac{32}{7}$ and $8$. The lines are parallel and distinct, so the system has no solution. The answer is <strong>3.5</strong>."
+      "content": "With $p=4.5$, both equations have the same left side, $7x-18y$, but their constants are $-\\frac{40}{7}$ and $12$. The lines are parallel and distinct, so the system has no solution. The answer is <strong>4.5</strong>."
     }
   ]
 }

@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Use the initial balance",
-      "content": "The initial balance is $35{,}600$, so the model must start with coefficient $35{,}600$. That eliminates the other choices."
+      "content": "The initial balance is $42{,}000$, so the model must start with coefficient $42{,}000$. That eliminates the choices with $63{,}763.14$ as the coefficient."
     },
     {
       "title": "Read the calculated result",
-      "content": "After 15 years the account is larger than the initial balance, so the yearly factor must be greater than $1$. A factor of $1.09$ means $9%$ growth each year; a factor of $0.09$ would shrink the account toward $0$."
+      "content": "After 12 years the account is larger than the initial balance, so the yearly factor must be greater than $1$. A factor of $1.08$ means $8%$ growth each year; a factor of $0.08$ would shrink the account toward $0$."
     },
     {
       "title": "Confirm the model",
-      "content": "Choice A, $$A(t)=35{,}600(1.09)^t,$$ has the correct initial balance and a growth factor greater than $1$. <strong>A</strong> is correct."
+      "content": "Choice A, $$A(t)=42{,}000(1.08)^t,$$ has the correct initial balance and a growth factor greater than $1$. <strong>A</strong> is correct."
     }
   ]
 }

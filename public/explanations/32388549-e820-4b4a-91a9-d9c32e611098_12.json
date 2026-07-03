@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Expand the left side",
-      "content": "$4(16x - 20) = 64x - 80$"
+      "content": "$5(12x - 18) = 60x - 90$"
     },
     {
       "title": "Expand the right side",
-      "content": "$-16(5 - 4x) = -80 + 64x = 64x - 80$"
+      "content": "$-15(6 - 4x) = -90 + 60x = 60x - 90$"
     },
     {
       "title": "Compare both sides",
-      "content": "The equation becomes $64x - 80 = 64x - 80$. Both sides are identical for every value of $x$. This means the equation is always true &mdash; it has infinitely many solutions."
+      "content": "The equation becomes $60x - 90 = 60x - 90$. Both sides are identical for every value of $x$. This means the equation is always true &mdash; it has infinitely many solutions."
     },
     {
       "title": "Evaluate all choices",

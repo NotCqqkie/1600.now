@@ -1,23 +1,23 @@
 {
   "questionId": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_20",
-  "correctAnswer": "31",
+  "correctAnswer": "28",
   "section": "Math",
   "steps": [
     {
       "title": "Put the equation in quadratic form",
-      "content": "Move everything to one side:<br/>$$kx^2-16x=24x^2-8$$<br/>$$(k-24)x^2-16x+8=0$$"
+      "content": "Move everything to one side:<br/>$$kx^2-18x=20x^2-9$$<br/>$$(k-20)x^2-18x+9=0$$"
     },
     {
       "title": "Use the two-real-solutions condition",
-      "content": "A quadratic has two distinct real solutions when the discriminant is positive:<br/>$$b^2-4ac\\gt0$$<br/>Here $a=k-24$, $b=-16$, and $c=8$."
+      "content": "A quadratic has two distinct real solutions when the discriminant is positive:<br/>$$b^2-4ac\\gt0$$<br/>Here $a=k-20$, $b=-18$, and $c=9$."
     },
     {
       "title": "Solve for k",
-      "content": "$$(-16)^2-4(k-24)(8)\\gt0$$<br/>$$256-32(k-24)\\gt0$$<br/>$$1024-32k\\gt0$$<br/>$$k\\lt32$$"
+      "content": "$$(-18)^2-4(k-20)(9)\\gt0$$<br/>$$324-36(k-20)\\gt0$$<br/>$$1044-36k\\gt0$$<br/>$$k\\lt29$$"
     },
     {
       "title": "Choose the greatest integer",
-      "content": "Since $k$ is an integer and must be less than $32$, the greatest possible value is <strong>31</strong>. Values $32$ or greater make the discriminant zero or negative, so they do not produce two distinct real solutions."
+      "content": "Since $k$ is an integer and must be less than $29$, the greatest possible value is <strong>28</strong>. Values $29$ or greater make the discriminant zero or negative, so they do not produce two distinct real solutions."
     }
   ]
 }

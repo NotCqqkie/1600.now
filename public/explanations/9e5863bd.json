@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Use the minimum and maximum",
-      "content": "The minimum recorded rate is $0.6$ in/hr, so every recorded value satisfies $s\\ge0.6$. The maximum recorded rate is $1.8$ in/hr, so every recorded value also satisfies $s\\le1.8$."
+      "content": "The minimum recorded rate is $0.4$ in/hr, so every recorded value satisfies $s\\ge0.4$. The maximum recorded rate is $1.5$ in/hr, so every recorded value also satisfies $s\\le1.5$."
     },
     {
       "title": "Write the compound inequality",
-      "content": "Both bounds must hold at the same time: $$0.6\\le s\\le1.8.$$"
+      "content": "Both bounds must hold at the same time: $$0.4\\le s\\le1.5.$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "$0.6\\le s\\le1.8$ matches <strong>D</strong>."
+      "content": "$0.4\\le s\\le1.5$ matches <strong>D</strong>."
     }
   ]
 }

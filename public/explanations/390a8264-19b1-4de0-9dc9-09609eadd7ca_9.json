@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Write each person's total charge",
-      "content": "Antwan charges $10 + 8.5x$ (his \\$10 equipment fee plus \\$8.50 per hour), and Taylor charges $7 + 9.5x$ (her \\$7 equipment fee plus \\$9.50 per hour)."
+      "content": "Marco charges $12 + 9.25x$ (his \\$12 equipment fee plus \\$9.25 per hour), and Priya charges $6 + 10.75x$ (her \\$6 equipment fee plus \\$10.75 per hour)."
     },
     {
-      "title": "Solve for when Taylor's charge is greater",
-      "content": "Set up the inequality for when Taylor's total exceeds Antwan's:<br/>$$7 + 9.5x \\gt  10 + 8.5x$$<br/>Combining like terms:<br/>$$9.5x - 8.5x \\gt  10 - 7$$<br/>$$x \\gt  3$$<br/><strong>D</strong> is correct."
+      "title": "Solve for when Priya's charge is greater",
+      "content": "Set up the inequality for when Priya's total exceeds Marco's:<br/>$$6 + 10.75x \\gt  12 + 9.25x$$<br/>Combining like terms:<br/>$$10.75x - 9.25x \\gt  12 - 6$$<br/>$$1.5x \\gt  6$$<br/>$$x \\gt  4$$<br/><strong>D</strong> is correct."
     }
   ]
 }

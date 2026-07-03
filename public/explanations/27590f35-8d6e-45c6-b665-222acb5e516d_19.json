@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
+      "title": "Fastest path: note the dimensions first",
       "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
     },
     {
       "title": "Set up",
-      "content": "The sphere is inscribed in the cube, so it touches each face at its center. The radius equals half the edge length: $r = 82 \\div 2 = 41$ inches."
+      "content": "The sphere is inscribed in the cube, so it touches each face at its center. The radius equals half the edge length: $r = 78 \\div 2 = 39$ inches."
     },
     {
       "title": "Solve",
-      "content": "Cube volume: $$82^3=551{,}368\\text{ in}^3.$$ Sphere volume: $$\\frac{4}{3}\\pi(41)^3=\\frac{4}{3}\\pi(68{,}921)\\approx288{,}696\\text{ in}^3.$$ Remaining volume: $$551{,}368-288{,}696=262{,}672\\text{ in}^3.$$"
+      "content": "Cube volume: $$78^3=474{,}552\\text{ in}^3.$$ Sphere volume: $$\\frac{4}{3}\\pi(39)^3=\\frac{4}{3}\\pi(59{,}319)\\approx248{,}475\\text{ in}^3.$$ Remaining volume: $$474{,}552-248{,}475=226{,}077\\text{ in}^3.$$"
     },
     {
       "title": "Answer",

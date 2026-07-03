@@ -1,15 +1,15 @@
 {
   "questionId": "fb5e7f59",
-  "correctAnswer": "11",
+  "correctAnswer": "13",
   "section": "Math",
   "steps": [
     {
       "title": "Substitute the y-coordinate of the intersection point",
-      "content": "The intersection point is $(q, 19)$ with $y = 19$. Substitute into both equations:<br/><br/>Equation 1: $-x - 19w = -337$<br/>Equation 2: $2x - 19w = 47$"
+      "content": "The intersection point is $(q, 17)$ with $y = 17$. Substitute into both equations:<br/><br/>Equation 1: $-x - 17w = -340$<br/>Equation 2: $2x - 17w = 17$"
     },
     {
       "title": "Eliminate x and solve for w",
-      "content": "Multiply equation 1 by 2:<br/>$$-2x - 38w = -674$$<br/>Add to equation 2 to eliminate $x$:<br/>$$-2x - 38w + 2x - 19w = -674 + 47$$<br/>$$-57w = -627$$<br/>$$w = 11$$"
+      "content": "Multiply equation 1 by 2:<br/>$$-2x - 34w = -680$$<br/>Add to equation 2 to eliminate $x$:<br/>$$-2x - 34w + 2x - 17w = -680 + 17$$<br/>$$-51w = -663$$<br/>$$w = 13$$"
     }
   ]
 }

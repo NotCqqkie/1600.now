@@ -13,11 +13,11 @@
     },
     {
       "title": "Substitute center and radius",
-      "content": "Here $h = 14$, $k = 19$, and $r = 7k$. Substituting gives $$(x-14)^2 + (y-19)^2 = (7k)^2 = 49k^2.$$"
+      "content": "Here $h = 11$, $k = 17$, and $r = 6k$. Substituting gives $$(x-11)^2 + (y-17)^2 = (6k)^2 = 36k^2.$$"
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li>Choice A: $(x-14)^2+(y-19)^2=49k$ &mdash; uses $49k$ instead of $(7k)^2 = 49k^2$. Incorrect.</li><li>Choice B: $(x-14)^2+(y-19)^2=49k^2$ &mdash; matches $(7k)^2 = 49k^2$ exactly. Correct.</li><li>Choice C: $(x-14)^2+(y-19)^2=7k$ &mdash; uses the radius, not its square. Incorrect.</li><li>Choice D: $(x-14)^2+(y-19)^2=7k^2$ &mdash; only squares $k$, not the full radius $7k$. Incorrect.</li></ul>That matches <strong>Choice B &mdash; $(x-14)^2+(y-19)^2=49k^2$</strong>."
+      "content": "<ul><li>Choice A: $(x-11)^2+(y-17)^2=36k$ &mdash; uses $36k$ instead of $(6k)^2 = 36k^2$. Incorrect.</li><li>Choice B: $(x-11)^2+(y-17)^2=36k^2$ &mdash; matches $(6k)^2 = 36k^2$ exactly. Correct.</li><li>Choice C: $(x-11)^2+(y-17)^2=6k$ &mdash; uses the radius, not its square. Incorrect.</li><li>Choice D: $(x-11)^2+(y-17)^2=6k^2$ &mdash; only squares $k$, not the full radius $6k$. Incorrect.</li></ul>That matches <strong>Choice B &mdash; $(x-11)^2+(y-17)^2=36k^2$</strong>."
     }
   ]
 }

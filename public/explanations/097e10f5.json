@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Subtract the constant",
-      "content": "Start with $5p+180=250$. Subtract $180$ from both sides:<br/>$$5p=70$$"
+      "content": "Start with $6p+144=222$. Subtract $144$ from both sides:<br/>$$6p=78$$"
     },
     {
-      "title": "Divide by 5",
-      "content": "$$p=\\frac{70}{5}=14$$"
+      "title": "Divide by 6",
+      "content": "$$p=\\frac{78}{6}=13$$"
     },
     {
       "title": "Check quickly",
-      "content": "Substitute $p=14$ back into the original equation:<br/>$$5(14)+180=70+180=250$$<br/>So it satisfies the equation exactly. This also rules out larger choices, which would make the left side greater than $250$."
+      "content": "Substitute $p=13$ back into the original equation:<br/>$$6(13)+144=78+144=222$$<br/>So it satisfies the equation exactly. This also rules out larger choices, which would make the left side greater than $222$."
     },
     {
       "title": "Answer",
-      "content": "$p=14$, which matches <strong>Choice A &mdash; $14$</strong>. Therefore <strong>A</strong> is correct."
+      "content": "$p=13$, which matches <strong>Choice A &mdash; $13$</strong>. Therefore <strong>A</strong> is correct."
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Calculate the mean",
-      "content": "From the frequency table, the total frequency is $a + 2a + 3a + 2a + a = 9a$.<br/><br/>The sum of all values weighted by frequency is:<br/>$$1(a) + 2(2a) + 3(3a) + 4(2a) + 5(a) = a + 4a + 9a + 8a + 5a = 27a$$<br/>Therefore, mean $= \\frac{27a}{9a} = 3$."
+      "content": "From the frequency table, the total frequency is $a + 3a + 5a + 3a + a = 13a$.<br/><br/>The sum of all values weighted by frequency is:<br/>$$1(a) + 2(3a) + 3(5a) + 4(3a) + 5(a) = a + 6a + 15a + 12a + 5a = 39a$$<br/>Therefore, mean $= \\frac{39a}{13a} = 3$."
     },
     {
       "title": "Find the median",
-      "content": "With $9a$ data points (an odd count), the median is at position $\\frac{9a+1}{2}$.<br/><br/>Find cumulative frequencies:<ul><li>Through value 1: $a$ data points</li><li>Through value 2: $a + 2a = 3a$ data points</li><li>Through value 3: $3a + 3a = 6a$ data points</li></ul>For positive $a$, we have $3a \\lt \\frac{9a+1}{2} \\lt 6a$ (since $9a + 1 \\gt  6a$ and $9a + 1 \\lt 12a$). The median position falls in the value 3 group, so the median is 3."
+      "content": "There are $13a$ data points. The counts below 3 total $a + 3a = 4a$, and the counts at or below 3 total $4a + 5a = 9a$. The middle value or values must fall in the value 3 group, so the median is 3."
     },
     {
       "title": "Find the difference",

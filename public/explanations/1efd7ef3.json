@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Use the unit-circle period",
-      "content": "Use the unit-circle period: sine repeats every $2\\pi$. Since $42\\pi$ is exactly $21$ full rotations, the terminal point returns to $(1,0)$."
+      "content": "Use the unit-circle period: sine repeats every $2\\pi$. Since $38\\pi$ is exactly $19$ full rotations, the terminal point returns to $(1,0)$."
     },
     {
       "title": "Use the unit circle period",
-      "content": "Sine repeats every $2\\pi$. Since $42\\pi=21(2\\pi)$, the angle makes exactly $21$ full rotations around the unit circle."
+      "content": "Sine repeats every $2\\pi$. Since $38\\pi=19(2\\pi)$, the angle makes exactly $19$ full rotations around the unit circle."
     },
     {
       "title": "Return to the starting point",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Evaluate",
-      "content": "$$\\sin(42\\pi)=0$$"
+      "content": "$$\\sin(38\\pi)=0$$"
     }
   ]
 }

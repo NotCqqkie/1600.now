@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Find the multiplicative factor when w increases by 1",
-      "content": "When $w$ increases by 1, the exponent $3w$ increases by 3:<br/>$$z(w+1) = (0.835)^{3(w+1)} = (0.835)^{3w} \\cdot (0.835)^3 = z(w) \\cdot (0.835)^3$$<br/>So each unit increase in $w$ multiplies $z$ by $(0.835)^3$."
+      "content": "When $w$ increases by 1, the exponent $3w$ increases by 3:<br/>$$z(w+1) = (0.84)^{3(w+1)} = (0.84)^{3w} \\cdot (0.84)^3 = z(w) \\cdot (0.84)^3$$<br/>So each unit increase in $w$ multiplies $z$ by $(0.84)^3$."
     },
     {
-      "title": "Compute $(0.835)^3$",
-      "content": "$(0.835)^2 = 0.697225$<br/>$(0.835)^3 = 0.697225 \\times 0.835 \\approx 0.5822$<br/><br/>The new value is about 58.22% of the previous value."
+      "title": "Compute $(0.84)^3$",
+      "content": "$(0.84)^2 = 0.7056$<br/>$(0.84)^3 = 0.7056 \\times 0.84 \\approx 0.5927$<br/><br/>The new value is about 59.27% of the previous value."
     },
     {
       "title": "Convert to a percentage decrease",
-      "content": "A decrease of $p$% means the new value $= (1 - p/100) \\times$ old value.<br/>$$1 - \\frac{p}{100} = 0.5822$$<br/>$$\\frac{p}{100} = 0.4178$$<br/>$$p \\approx 41.8$$"
+      "content": "A decrease of $p$% means the new value $= (1 - p/100) \\times$ old value.<br/>$$1 - \\frac{p}{100} = 0.5927$$<br/>$$\\frac{p}{100} = 0.4073$$<br/>$$p \\approx 40.7$$"
     },
     {
       "title": "Evaluate all choices",
-      "content": "<ul><li><strong>A: 41.8</strong> &mdash; Matches our calculation: the function decreases by approximately 41.8% per unit increase in $w$. <strong>A</strong> is correct.</li><li><strong>B: 16.5</strong> &mdash; This would correspond to a per-step factor of $1 - 0.165 = 0.835$, which is the base of the exponent, not the per-unit-$w$ factor. This ignores the coefficient 3 in the exponent. Eliminated.</li><li><strong>C: 0.835</strong> &mdash; This is the base itself, not a percentage. Eliminated.</li><li><strong>D: 0.165</strong> &mdash; This is $1 - 0.835$, which would be the percentage decrease per unit increase in the exponent, not per unit increase in $w$. Eliminated.</li></ul>"
+      "content": "<ul><li><strong>A: 40.7</strong> &mdash; Matches our calculation: the function decreases by approximately 40.7% per unit increase in $w$. <strong>A</strong> is correct.</li><li><strong>B: 16.0</strong> &mdash; This would correspond to a per-step factor of $1 - 0.16 = 0.84$, which is the base of the exponent, not the per-unit-$w$ factor. This ignores the coefficient 3 in the exponent. Eliminated.</li><li><strong>C: 0.84</strong> &mdash; This is the base itself, not a percentage. Eliminated.</li><li><strong>D: 0.16</strong> &mdash; This is $1 - 0.84$, which would be the percentage decrease per unit increase in the exponent, not per unit increase in $w$. Eliminated.</li></ul>"
     }
   ]
 }

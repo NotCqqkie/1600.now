@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Locate the direct textual evidence",
-      "content": "The passage states explicitly: &ldquo;She was also the leader of what became known as the Cambridge movement.&rdquo; The question asks what Gloria Richardson led, so the answer must come directly from this sentence."
+      "content": "The passage states explicitly: &ldquo;She was also the leader of what became known as the Cambridge movement.&rdquo; The question asks what Marian Dawson led, so the answer must come directly from this sentence."
     },
     {
       "title": "Eliminate each unsupported choice, then confirm the match",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;The Cambridge movement&rsquo;</strong>: Matches the passage verbatim &mdash; Gloria is named as its leader. &#10003;</li><li><strong>Choice B &mdash; &lsquo;Her daughter Donna's high school&rsquo;</strong>: The passage says Gloria was inspired by Donna, not that she led her daughter&rsquo;s school. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Protests to support environmental protections&rsquo;</strong>: Environmental protests are never mentioned; the passage concerns racial equality. &#10007;</li><li><strong>Choice D &mdash; &lsquo;A new business in Cambridge, Maryland&rsquo;</strong>: No business is mentioned anywhere in the passage. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;The Cambridge movement&rsquo;</strong>: Matches the passage verbatim &mdash; Marian is named as its leader. &#10003;</li><li><strong>Choice B &mdash; &lsquo;Her daughter Lena's high school&rsquo;</strong>: The passage says Marian was inspired by Lena, not that she led her daughter&rsquo;s school. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Protests to support environmental protections&rsquo;</strong>: Environmental protests are never mentioned; the passage concerns racial equality. &#10007;</li><li><strong>Choice D &mdash; &lsquo;A new business in Cambridge, Maryland&rsquo;</strong>: No business is mentioned anywhere in the passage. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
     }
   ]
 }

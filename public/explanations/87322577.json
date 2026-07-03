@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify variables",
-      "content": "The variable <em>x</em> represents minutes Maria spends running each day, and <em>y</em> represents minutes she spends biking each day.<br/>The given equation is $$x + y = 75$$."
+      "content": "The variable <em>x</em> represents minutes Jordan spends stretching each day, and <em>y</em> represents minutes Jordan spends walking each day.<br/>The given equation is $$x + y = 90$$."
     },
     {
       "title": "Interpret the constant",
-      "content": "Since the left side adds the minutes for both activities, the constant 75 must be the total minutes spent running and biking each day.<br/>That confirms <strong>C</strong> is correct."
+      "content": "Since the left side adds the minutes for both activities, the constant 90 must be the total minutes spent stretching and walking each day.<br/>That confirms <strong>C</strong> is correct."
     }
   ]
 }

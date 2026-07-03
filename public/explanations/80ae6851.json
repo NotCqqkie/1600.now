@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Determine each segment type's contribution",
-      "content": "With $x$ segments of 1 minute each, we get $x$ minutes. With $y$ segments of 3 minutes each, we get $3y$ minutes."
+      "content": "With $x$ segments of 2 minutes each, we get $2x$ minutes. With $y$ segments of 5 minutes each, we get $5y$ minutes."
     },
     {
       "title": "Write the total equation",
-      "content": "The sum of all segments equals the 70-minute video:<br/>$$x + 3y = 70$$<br/>That confirms <strong>D</strong> is correct."
+      "content": "The sum of all segments equals the 84-minute video:<br/>$$2x + 5y = 84$$<br/>That confirms <strong>D</strong> is correct."
     }
   ]
 }

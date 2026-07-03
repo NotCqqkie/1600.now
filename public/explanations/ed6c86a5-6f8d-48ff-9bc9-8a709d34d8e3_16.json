@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Account for the first two classes",
-      "content": "The first class is free, and the second class is half of 26.40 dollars, which is 13.20 dollars. For $x\\gt 2$, the remaining $x-2$ classes cost 26.40 dollars each."
+      "content": "The first class is free, and the second class is half of 28.80 dollars, which is 14.40 dollars. For $x\\gt 2$, the remaining $x-2$ classes cost 28.80 dollars each."
     },
     {
       "title": "Write the total cost",
-      "content": "The total cost is the fixed 13.20 dollars for the first two classes plus 26.40 dollars for each remaining class: $$f(x)=26.40(x-2)+13.20$$"
+      "content": "The total cost is the fixed 14.40 dollars for the first two classes plus 28.80 dollars for each remaining class: $$f(x)=28.80(x-2)+14.40$$"
     },
     {
       "title": "Confirm the choice",

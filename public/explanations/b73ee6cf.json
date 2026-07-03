@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Identify exponential growth structure",
-      "content": "Exponential population growth follows $ A = P(1 + r)^t $, where <ul><li>$ A = 60,000 $ (future population)</li><li>$ P = 50,000 $ (current population)</li><li>$ r = 3\\% = 0.03 $</li><li>$ t $ = years</li></ul>This matches structure <strong>60,000 = 50,000(1.03)^t</strong>, which is choice D."
+      "content": "Exponential population growth follows $ A = P(1 + r)^t $, where <ul><li>$ A = 60,000 $ (future population)</li><li>$ P = 48,000 $ (current population)</li><li>$ r = 4\\% = 0.04 $</li><li>$ t $ = years</li></ul>This matches structure <strong>60,000 = 48,000(1.04)^t</strong>, which is choice D."
     }
   ]
 }

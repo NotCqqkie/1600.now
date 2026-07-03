@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The question asks for the main purpose of the passage. Every sentence describes Polly's internal reactions &mdash; her fear, her disinterest, her shock and puzzlement &mdash; so the purpose must be about portraying Polly's perspective toward Fanny's friends."
+      "content": "The question asks for the main purpose of the passage. Every sentence describes Nora's internal reactions &mdash; her fear, her disinterest, her shock and puzzlement &mdash; so the purpose must be about portraying Nora's perspective toward Clara's friends."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"To portray Polly's reaction to Fanny's friends\"</strong>: The passage details exactly this: Polly was afraid of them, found their topics uninteresting, and was shocked and puzzled. Every sentence supports a focus on Polly's feelings. &#10003;</li><li><strong>\"To identify the topics Polly talks about with Fanny's friends\"</strong>: The passage says Fanny's friends \"talked about things of which she knew nothing\" but never names those topics. No specific topics are identified. &#10007;</li><li><strong>\"To explain how Fanny met some of her friends\"</strong>: The passage never mentions how Fanny met her friends. This information is entirely absent. &#10007;</li><li><strong>\"To illustrate how Fanny's friends feel about Polly\"</strong>: The passage focuses on Polly's feelings, not the friends' feelings about Polly. The friends' perspective is never given. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+      "content": "<ul><li><strong>&quot;To portray Nora's reaction to Clara's friends&quot;</strong>: The passage details exactly this: Nora was afraid of them, found their topics uninteresting, and was shocked and puzzled. Every sentence supports a focus on Nora's feelings. &#10003;</li><li><strong>&quot;To identify the topics Nora talks about with Clara's friends&quot;</strong>: The passage says Clara's friends &quot;talked about things of which she knew nothing&quot; but never names those topics. No specific topics are identified. &#10007;</li><li><strong>&quot;To explain how Clara met some of her friends&quot;</strong>: The passage never mentions how Clara met her friends. This information is entirely absent. &#10007;</li><li><strong>&quot;To illustrate how Clara's friends feel about Nora&quot;</strong>: The passage focuses on Nora's feelings, not the friends' feelings about Nora. The friends' perspective is never given. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
     }
   ]
 }

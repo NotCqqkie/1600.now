@@ -8,8 +8,8 @@
       "content": "The coefficient equals $f(1)$ only when the exponential part becomes $1$ at $x=1$. That happens when the exponent is $0$ at $x=1$."
     },
     {
-      "title": "Evaluate f(1) for <strong>Choice C &mdash; $f \\left(x\\right)=128{ \\left(2\\right)}^{x-1}$</strong>",
-      "content": "For <strong>Choice C &mdash; $f \\left(x\\right)=128{ \\left(2\\right)}^{x-1}$</strong>, $f(x)=128(2)^{x-1}$:<br/>$$f(1)=128(2)^{1-1}=128(2)^0=128$$<br/>The coefficient is $k$, so <strong>Choice C &mdash; $f \\left(x\\right)=128{ \\left(2\\right)}^{x-1}$</strong>."
+      "title": "Evaluate f(1) for <strong>Choice C &mdash; $f \\left(x\\right)=144{ \\left(2\\right)}^{x-1}$</strong>",
+      "content": "For <strong>Choice C &mdash; $f \\left(x\\right)=144{ \\left(2\\right)}^{x-1}$</strong>, $f(x)=144(2)^{x-1}$:<br/>$$f(1)=144(2)^{1-1}=144(2)^0=144$$<br/>The coefficient is $k$, so <strong>Choice C &mdash; $f \\left(x\\right)=144{ \\left(2\\right)}^{x-1}$</strong>."
     }
   ]
 }

@@ -1,15 +1,15 @@
 {
   "questionId": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_13",
-  "correctAnswer": "361",
+  "correctAnswer": "355",
   "section": "Math",
   "steps": [
     {
       "title": "Identify the initial condition",
-      "content": "The phrase <em>when the beaker was placed on the table</em> refers to the starting moment, which is t = 0 minutes. We need to find g(0)."
+      "content": "The phrase <em>when the flask was placed on the counter</em> refers to the starting moment, which is t = 0 minutes. We need to find g(0)."
     },
     {
       "title": "Substitute t = 0 and use the exponent rule",
-      "content": "Substitute t = 0 into the function:<br/>$$g(0) = 295 + (361 - 295)(2.72)^{-0.104(0)}$$<br/>Since any nonzero number raised to the power 0 equals 1:<br/>$$(2.72)^{0} = 1$$<br/>The exponential term simplifies away, leaving:<br/>$$g(0) = 295 + (361 - 295)(1) = 295 + 66 = 361$$<br/>The approximate temperature when the beaker was placed on the table was 361 kelvins."
+      "content": "Substitute t = 0 into the function:<br/>$$g(0) = 289 + (355 - 289)(2.72)^{-0.098(0)}$$<br/>Since any nonzero number raised to the power 0 equals 1:<br/>$$(2.72)^{0} = 1$$<br/>The exponential term simplifies away, leaving:<br/>$$g(0) = 289 + (355 - 289)(1) = 289 + 66 = 355$$<br/>The approximate temperature when the flask was placed on the counter was 355 kelvins."
     }
   ]
 }

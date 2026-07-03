@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Use weighted means",
-      "content": "For a frequency table, the mean is the weighted sum divided by the total frequency: $$\\text{mean}=\\frac{\\sum(\\text{value})(\\text{frequency})}{\\sum\\text{frequency}}.$$ Since all four choices use the same values $70$, $80$, $90$, and $100$, compare their weighted means."
+      "content": "For a frequency table, the mean is the weighted sum divided by the total frequency: $$\\text{mean}=\\frac{\\sum(\\text{value})(\\text{frequency})}{\\sum\\text{frequency}}.$$ Since all four choices use the same values $68$, $78$, $88$, and $98$, compare their weighted means."
     },
     {
       "title": "Compare the four weighted means",
-      "content": "The correct answer gives $$\\frac{70(4)+80(5)+90(6)+100(7)}{4+5+6+7}=\\frac{1920}{22}\\approx87.27.$$ The other choices each give $85$ because their frequencies are balanced around the midpoint between $80$ and $90$. The greatest mean is therefore <strong>A</strong>."
+      "content": "The correct answer gives $$\\frac{68(5)+78(6)+88(7)+98(8)}{5+6+7+8}=\\frac{2208}{26}\\approx84.92.$$ The other choices each give $83$ because their frequencies are balanced around the midpoint between $78$ and $88$. The greatest mean is therefore <strong>A</strong>."
     }
   ]
 }

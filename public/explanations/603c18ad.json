@@ -9,11 +9,11 @@
     },
     {
       "title": "Find angle Y in the sub-triangle",
-      "content": "Point $W$ on hypotenuse $YZ$ creates right triangle $XWY$ with a right angle at $W$ (since $WX \\perp YZ$).<br/><br/>In this right triangle, the angle at $Y$ is the same as $\\angle XYZ$ in the original triangle.<br/><br/>Therefore:\n$$\\tan(\\angle Y) = \\frac{\\text{opposite}}{\\text{adjacent}} = \\frac{WX}{WY} = \\frac{429}{572}$$ Both values share a common factor: $429 = 3 \\times 143$ and $572 = 4 \\times 143$.<br/><br/>So:\n$$\\tan(\\angle Y) = \\frac{3 \\times 143}{4 \\times 143} = \\frac{3}{4}$$"
+      "content": "Point $W$ on hypotenuse $YZ$ creates right triangle $XWY$ with a right angle at $W$ (since $WX \\perp YZ$).<br/><br/>In this right triangle, the angle at $Y$ is the same as $\\angle XYZ$ in the original triangle.<br/><br/>Therefore:\n$$\\tan(\\angle Y) = \\frac{\\text{opposite}}{\\text{adjacent}} = \\frac{WX}{WY} = \\frac{385}{924}$$ Both values share a common factor: $385 = 5 \\times 77$ and $924 = 12 \\times 77$.<br/><br/>So:\n$$\\tan(\\angle Y) = \\frac{5 \\times 77}{12 \\times 77} = \\frac{5}{12}$$"
     },
     {
       "title": "Use the complementary angle relationship",
-      "content": "In triangle $XYZ$, angle $X = 90^{\\circ}$, so the other two angles sum to $90^{\\circ}$:\n$$\\angle Y + \\angle Z = 90^{\\circ}$$ This means $\\angle Z = 90^{\\circ} - \\angle Y$, so:\n$$\\tan(\\angle Z) = \\tan(90^{\\circ} - \\angle Y) = \\cot(\\angle Y) = \\frac{1}{\\tan(\\angle Y)}$$ Substituting $\\tan(\\angle Y) = \\frac{3}{4}$:\n$$\\tan(\\angle Z) = \\frac{1}{\\frac{3}{4}} = \\frac{4}{3}$$ That confirms <strong>D</strong> is correct."
+      "content": "In triangle $XYZ$, angle $X = 90^{\\circ}$, so the other two angles sum to $90^{\\circ}$:\n$$\\angle Y + \\angle Z = 90^{\\circ}$$ This means $\\angle Z = 90^{\\circ} - \\angle Y$, so:\n$$\\tan(\\angle Z) = \\tan(90^{\\circ} - \\angle Y) = \\cot(\\angle Y) = \\frac{1}{\\tan(\\angle Y)}$$ Substituting $\\tan(\\angle Y) = \\frac{5}{12}$:\n$$\\tan(\\angle Z) = \\frac{1}{\\frac{5}{12}} = \\frac{12}{5}$$ That confirms <strong>D</strong> is correct."
     }
   ]
 }

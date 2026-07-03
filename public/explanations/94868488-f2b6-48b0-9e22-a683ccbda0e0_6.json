@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Fastest path: use the function table",
-      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $693$, so the answer is <strong>D</strong>, $693$. This is just a one-row lookup, and the arithmetic below confirms the table value."
+      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $457$, so the answer is <strong>D</strong>, $457$. This is just a one-row lookup, and the arithmetic below confirms the table value."
     },
     {
       "title": "Set up",
-      "content": "Start inside out. Plug $x = -10$ into $g(x) = |13x - 9|$:<br/>$$g(-10) = |13(-10) - 9| = |-130 - 9| = |-139| = 139$$"
+      "content": "Start inside out. Plug $x = -9$ into $g(x) = |12x - 7|$:<br/>$$g(-9) = |12(-9) - 7| = |-108 - 7| = |-115| = 115$$"
     },
     {
       "title": "Solve",
-      "content": "Now plug $g(-10) = 139$ into $f(x) = 5(g(x)) - 2$:<br/>$$f(-10) = 5(139) - 2 = 695 - 2 = 693$$"
+      "content": "Now plug $g(-9) = 115$ into $f(x) = 4(g(x)) - 3$:<br/>$$f(-9) = 4(115) - 3 = 460 - 3 = 457$$"
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Translate and equate the two relationships",
-      "content": "$a$ is 290% of $b$ gives $a = 2.9b$. $a$ is 90% of $c$ gives $a = 0.9c$. <br/><br/> Setting these equal: <br/> $$2.9b = 0.9c$$"
+      "content": "$a$ is 280% of $b$ gives $a = 2.8b$. $a$ is 85% of $c$ gives $a = 0.85c$. <br/><br/> Setting these equal: <br/> $$2.8b = 0.85c$$"
     },
     {
       "title": "Solve for c as a percentage of b",
-      "content": "Divide both sides by 0.9: <br/> $$c = \\frac{2.9}{0.9}b = \\frac{29}{9}b$$ <br/> Express as a percentage by multiplying by 100: <br/> $$p = \\frac{29}{9} \\times 100 = \\frac{2900}{9} \\approx 322.22$$ <br/> The closest value is 322. That confirms <strong>D</strong> is correct."
+      "content": "Divide both sides by 0.85: <br/> $$c = \\frac{2.8}{0.85}b = \\frac{56}{17}b$$ <br/> Express as a percentage by multiplying by 100: <br/> $$p = \\frac{56}{17} \\times 100 = \\frac{5600}{17} \\approx 329.41$$ <br/> The closest value is 329. That confirms <strong>D</strong> is correct."
     }
   ]
 }

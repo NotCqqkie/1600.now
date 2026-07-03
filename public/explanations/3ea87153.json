@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute g(x) = 25 into the function definition",
-      "content": "Set up the equation by substituting into the function definition:<br/>$$x^2 + 9 = 25$$"
+      "title": "Substitute g(x) = 49 into the function definition",
+      "content": "Set up the equation by substituting into the function definition:<br/>$$x^2 + 13 = 49$$"
     },
     {
       "title": "Solve for x",
-      "content": "Subtract 9 from both sides:<br/>$$x^2 = 16$$<br/>Taking the square root:<br/>$$x = \\pm 4$$<br/>The solutions are $x = 4$ and $x = -4$. Of these, only $x = 4$ appears in the choices. <strong>A</strong> is correct."
+      "content": "Subtract 13 from both sides:<br/>$$x^2 = 36$$<br/>Taking the square root:<br/>$$x = \\pm 6$$<br/>The solutions are $x = 6$ and $x = -6$. Of these, only $x = 6$ appears in the choices. <strong>A</strong> is correct."
     }
   ]
 }

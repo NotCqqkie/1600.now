@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find total length of the two equal sides",
-      "content": "Each equal side is 10 ft, so together they measure $$2 \\times 10 = 20$$ feet."
+      "content": "Each equal side is 12 ft, so together they measure $$2 \\times 12 = 24$$ feet."
     },
     {
       "title": "Subtract from the perimeter to get the third side",
-      "content": "Perimeter is 36 ft, so the third side is $$36 - 20 = 16$$ feet.<br/>That confirms <strong>C</strong> is correct."
+      "content": "Perimeter is 42 ft, so the third side is $$42 - 24 = 18$$ feet.<br/>That confirms <strong>C</strong> is correct."
     }
   ]
 }

@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Split the absolute value into two equations",
-      "content": "$|16-2x|=58$ means the expression inside equals either $58$ or $-58$:<br/>Case 1: $16-2x=58$<br/>Case 2: $16-2x=-58$"
+      "content": "$|18-2x|=66$ means the expression inside equals either $66$ or $-66$:<br/>Case 1: $18-2x=66$<br/>Case 2: $18-2x=-66$"
     },
     {
-      "title": "Solve each case for $8-x$",
-      "content": "Case 1: $16-2x=58 \\Rightarrow -2x=42 \\Rightarrow x=-21 \\Rightarrow 8-x=8-(-21)=29$.<br/><br/>Case 2: $16-2x=-58 \\Rightarrow -2x=-74 \\Rightarrow x=37 \\Rightarrow 8-x=8-37=-29$.<br/><br/>The two possible values of $8-x$ are $29$ and $-29$."
+      "title": "Solve each case for $9-x$",
+      "content": "Case 1: $18-2x=66 \\Rightarrow -2x=48 \\Rightarrow x=-24 \\Rightarrow 9-x=9-(-24)=33$.<br/><br/>Case 2: $18-2x=-66 \\Rightarrow -2x=-84 \\Rightarrow x=42 \\Rightarrow 9-x=9-42=-33$.<br/><br/>The two possible values of $9-x$ are $33$ and $-33$."
     },
     {
       "title": "Match to choices",
-      "content": "<ul><li>A: $0$ — neither solution gives $8-x=0$. Eliminated.</li><li>B: $8$ — neither solution gives $8-x=8$. Eliminated.</li><li>C: $29$ — Case 1 gives $8-x=29$. <strong>C</strong> is correct.</li><li>D: $42$ — neither solution gives $8-x=42$. Eliminated.</li></ul>"
+      "content": "<ul><li>A: $0$ — neither solution gives $9-x=0$. Eliminated.</li><li>B: $9$ — neither solution gives $9-x=9$. Eliminated.</li><li>C: $33$ — Case 1 gives $9-x=33$. <strong>C</strong> is correct.</li><li>D: $48$ — neither solution gives $9-x=48$. Eliminated.</li></ul>"
     }
   ]
 }

@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Set the appropriate variable to 0",
-      "content": "For the $y$-intercept, set $x=0$ in $y=3x^{2}+7x+29$: $$y=3(0)^{2}+7(0)+29.$$"
+      "content": "For the $y$-intercept, set $x=0$ in $y=4x^{2}+9x+31$: $$y=4(0)^{2}+9(0)+31.$$"
     },
     {
       "title": "Compute the intercept",
-      "content": "This gives $y=29$, so the $y$-intercept is $(0,29)$. That matches <strong>Choice C &mdash; $(0,29)$</strong>."
+      "content": "This gives $y=31$, so the $y$-intercept is $(0,31)$. That matches <strong>Choice C &mdash; $(0,31)$</strong>."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches <strong>Choice C &mdash; $(0,29)$</strong>, $(0,29)$. The other choices do not satisfy the same condition from the question, so <strong>C</strong>."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches <strong>Choice C &mdash; $(0,31)$</strong>, $(0,31)$. The other choices do not satisfy the same condition from the question, so <strong>C</strong>."
     }
   ]
 }

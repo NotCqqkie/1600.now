@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The smaller map is 70% shorter, so it keeps 30% of the original side length. Both maps cover the same territory, so a shorter map means more miles per inch. The new scale = original scale &divide; 0.30."
+      "content": "The reduced map is 70% shorter, so it keeps 30% of the original side length. Both maps cover the same territory, so a shorter map means more miles per inch. The new scale = original scale &divide; 0.30."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; 3.90</strong>: This is 13 &times; 0.30, applying the shrink factor instead of inverting it. &#10007;</li><li><strong>Choice B &mdash; 7.65</strong>: This is the new side length in inches, not the scale. &#10007;</li><li><strong>Choice C &mdash; 38.50</strong>: Off by a factor; doesn&apos;t match 13 &divide; 0.30. &#10007;</li><li><strong>Choice D &mdash; 43.33</strong>: 13 &divide; 0.30 = 13 &times; (10/3) = 130/3 &asymp; 43.3. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; 4.20</strong>: This is 14 &times; 0.30, applying the shrink factor instead of inverting it. &#10007;</li><li><strong>Choice B &mdash; 8.24</strong>: This is 14 &divide; 1.7, treating the reduced map as 70% longer instead of 70% shorter. &#10007;</li><li><strong>Choice C &mdash; 44.80</strong>: This is 64 &times; 0.70, the amount of side length removed in inches, not the scale. &#10007;</li><li><strong>Choice D &mdash; 46.67</strong>: 14 &divide; 0.30 = 14 &times; (10/3) = 140/3 &asymp; 46.7. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
     }
   ]
 }

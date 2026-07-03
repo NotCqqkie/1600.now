@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Step 1",
-      "content": "Regroup the expression: $x^2 - c^2 - 2cd - d^2 = x^2 - (c^2 + 2cd + d^2)$."
+      "content": "Regroup the expression: $x^2 - c^2 - 4cd - 4d^2 = x^2 - (c^2 + 4cd + 4d^2)$."
     },
     {
       "title": "Step 2",
-      "content": "Recognize that $c^2 + 2cd + d^2 = (c+d)^2$. Since $a = c + d$, substitute to get $x^2 - a^2$."
+      "content": "Recognize that $c^2 + 4cd + 4d^2 = (c+2d)^2$. Since $a = c + 2d$, substitute to get $x^2 - a^2$."
     },
     {
       "title": "Step 3",
@@ -30,12 +30,12 @@
     {
       "id": "C",
       "text": "$(x + a) \\times (x - a)$",
-      "explanation": "<ul><li>This is the difference of squares: $(x+a)(x-a) = x^2 - a^2$.</li><li>We showed $x^2 - c^2 - 2cd - d^2 = x^2 - (c+d)^2 = x^2 - a^2$, which matches exactly.</li><li>That matches $(x + a) \\times (x - a)$, so <strong>C</strong> is correct.</li></ul>"
+      "explanation": "<ul><li>This is the difference of squares: $(x+a)(x-a) = x^2 - a^2$.</li><li>We showed $x^2 - c^2 - 4cd - 4d^2 = x^2 - (c+2d)^2 = x^2 - a^2$, which matches exactly.</li><li>That matches $(x + a) \\times (x - a)$, so <strong>C</strong> is correct.</li></ul>"
     },
     {
       "id": "D",
       "text": "$x^2 - a \\times x - a^2$",
-      "explanation": "<ul><li>This expression contains $-ax$, a cross term in $x$ and $a$ that does not appear in the original.</li><li>No manipulation of $x^2 - c^2 - 2cd - d^2$ produces a linear-in-$x$ term.</li><li>Eliminated because the $-ax$ term is extraneous.</li></ul>"
+      "explanation": "<ul><li>This expression contains $-ax$, a cross term in $x$ and $a$ that does not appear in the original.</li><li>No manipulation of $x^2 - c^2 - 4cd - 4d^2$ produces a linear-in-$x$ term.</li><li>Eliminated because the $-ax$ term is extraneous.</li></ul>"
     }
   ]
 }

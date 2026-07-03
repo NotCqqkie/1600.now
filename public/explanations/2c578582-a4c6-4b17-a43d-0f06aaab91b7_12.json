@@ -1,19 +1,19 @@
 {
   "questionId": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_12",
-  "correctAnswer": "35/50,7/10,0.7",
+  "correctAnswer": "42/60,7/10,0.7",
   "section": "Math",
   "steps": [
     {
-      "title": "Restrict to red maples",
-      "content": "The condition says the tree is a red maple, so use only the red maple row of the table."
+      "title": "Restrict to sugar maples",
+      "content": "The condition says the tree is a sugar maple, so use only the sugar maple row of the table."
     },
     {
       "title": "Use the row counts",
-      "content": "There are $35$ red maples from Site A and $50$ red maples total. The conditional probability is $$\\frac{35}{50}=\\frac{7}{10}=0.7$$"
+      "content": "There are $42$ sugar maples from Site A and $60$ sugar maples total. The conditional probability is $$\\frac{42}{60}=\\frac{7}{10}=0.7$$"
     },
     {
       "title": "Answer",
-      "content": "Equivalent correct entries include <strong>35/50</strong>, <strong>7/10</strong>, and <strong>0.7</strong>."
+      "content": "Equivalent correct entries include <strong>42/60</strong>, <strong>7/10</strong>, and <strong>0.7</strong>."
     }
   ]
 }

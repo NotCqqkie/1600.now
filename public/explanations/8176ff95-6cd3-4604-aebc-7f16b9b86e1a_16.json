@@ -1,19 +1,19 @@
 {
   "questionId": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_16",
-  "correctAnswer": "55",
+  "correctAnswer": "48",
   "section": "Math",
   "steps": [
     {
       "title": "Substitute and set up the equation",
-      "content": "Given $k(53p) = p$ where $k(s) = \\sqrt{s + 110}$, substitute $s = 53p$: $$\\sqrt{53p + 110} = p$$"
+      "content": "Given $k(45p) = p$ where $k(s) = \\sqrt{s + 144}$, substitute $s = 45p$: $$\\sqrt{45p + 144} = p$$"
     },
     {
       "title": "Square both sides and form the quadratic",
-      "content": "Square both sides: $$53p + 110 = p^2$$ Rearrange to standard form: $$p^2 - 53p - 110 = 0$$"
+      "content": "Square both sides: $$45p + 144 = p^2$$ Rearrange to standard form: $$p^2 - 45p - 144 = 0$$"
     },
     {
       "title": "Factor and identify the valid solution",
-      "content": "Find two numbers that multiply to $-110$ and sum to $-53$: $-55$ and $2$. The quadratic factors as $(p - 55)(p + 2) = 0$, giving $p = 55$ or $p = -2$. Since the original equation $\\sqrt{53p + 110} = p$ requires $p \\geq 0$ (square roots output non-negative values), only $p = 55$ is valid."
+      "content": "Find two numbers that multiply to $-144$ and sum to $-45$: $-48$ and $3$. The quadratic factors as $(p - 48)(p + 3) = 0$, giving $p = 48$ or $p = -3$. Since the original equation $\\sqrt{45p + 144} = p$ requires $p \\geq 0$ (square roots output non-negative values), only $p = 48$ is valid."
     }
   ]
 }

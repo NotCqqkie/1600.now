@@ -1,19 +1,19 @@
 {
   "questionId": "2d0e13a6",
-  "correctAnswer": ".25",
+  "correctAnswer": ".75",
   "section": "Math",
   "steps": [
     {
       "title": "Read the slope of line k",
-      "content": "Line $k$ is $$y=\\frac{1}{4}x+1$$ In slope-intercept form $y=mx+b$, the slope is $m=\\frac{1}{4}$."
+      "content": "Line $k$ is $$y=\\frac{3}{4}x+2$$ In slope-intercept form $y=mx+b$, the slope is $m=\\frac{3}{4}$."
     },
     {
       "title": "Use parallel slopes",
-      "content": "Parallel lines have the same slope, so line $j$ also has slope $$\\frac{1}{4}=0.25$$ A valid decimal entry is <strong>.25</strong>."
+      "content": "Parallel lines have the same slope, so line $j$ also has slope $$\\frac{3}{4}=0.75$$ A valid decimal entry is <strong>.75</strong>."
     },
     {
       "title": "Final answer format",
-      "content": "The question is free response, so either $\\frac{1}{4}$ or the decimal $.25$ represents the same slope. The stored answer uses <strong>.25</strong>."
+      "content": "The question is free response, so either $\\frac{3}{4}$ or the decimal $.75$ represents the same slope. The stored answer uses <strong>.75</strong>."
     }
   ]
 }

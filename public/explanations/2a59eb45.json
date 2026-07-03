@@ -1,19 +1,19 @@
 {
   "questionId": "2a59eb45",
-  "correctAnswer": "44",
+  "correctAnswer": "49",
   "section": "Math",
   "steps": [
     {
       "title": "Find each total height",
-      "content": "Mean equals total divided by count, so total equals mean times count:<br/>$$75(32)=2400$$<br/>$$50(62)=3100$$"
+      "content": "Mean equals total divided by count, so total equals mean times count:<br/>$$80(40)=3200$$<br/>$$45(65)=2925$$"
     },
     {
       "title": "Divide by the combined count",
-      "content": "Data set C contains all $125$ buildings, so its mean is<br/>$$\\frac{2400+3100}{125}=\\frac{5500}{125}=44.$$"
+      "content": "Data set C contains all $125$ buildings, so its mean is<br/>$$\\frac{3200+2925}{125}=\\frac{6125}{125}=49.$$"
     },
     {
       "title": "Confirm the answer",
-      "content": "The mean of data set C is <strong>44</strong> meters."
+      "content": "The mean of data set C is <strong>49</strong> meters."
     }
   ]
 }

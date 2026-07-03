@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Move everything to one side and factor",
-      "content": "Start with $x-a=(x-a)(x-24)$ and subtract the right side:$$(x-a)-(x-a)(x-24)=0$$Factor out $(x-a)$:$$(x-a)\\bigl[1-(x-24)\\bigr]=0\\Rightarrow (x-a)(25-x)=0$$So the solutions are $x=a$ and $x=25$."
+      "content": "Start with $x-a=(x-a)(x-18)$ and subtract the right side:$$(x-a)-(x-a)(x-18)=0$$Factor out $(x-a)$:$$(x-a)\\bigl[1-(x-18)\\bigr]=0\\Rightarrow (x-a)(19-x)=0$$So the solutions are $x=a$ and $x=19$."
     },
     {
-      "title": "Check each candidate, using $a\\gt25$",
-      "content": "<strong>I. $x=a$:</strong> sets the first factor $(x-a)=0$, so it is always a solution. &check;<br/><strong>II. $x=24$:</strong> plug into the original: $24-a=(24-a)(24-24)=0$, which forces $a=24$. But $a\\gt25$, so this is impossible. &cross;<br/><strong>III. $x=25$:</strong> sets the second factor $(25-x)=0$, so it is always a solution. &check;<br/>Valid solutions: I and III only."
+      "title": "Check each candidate, using $a\\gt19$",
+      "content": "<strong>I. $x=a$:</strong> sets the first factor $(x-a)=0$, so it is always a solution. &check;<br/><strong>II. $x=18$:</strong> plug into the original: $18-a=(18-a)(18-18)=0$, which forces $a=18$. But $a\\gt19$, so this is impossible. &cross;<br/><strong>III. $x=19$:</strong> sets the second factor $(19-x)=0$, so it is always a solution. &check;<br/>Valid solutions: I and III only."
     },
     {
       "title": "Match to the answer choices",
-      "content": "<ul><li><strong>A) I and II only:</strong> includes $24$, which fails when $a\\gt25$. &cross;</li><li><strong>B) I and III only:</strong> exactly the two solutions we found. &check;</li><li><strong>C) II and III only:</strong> drops $x=a$, which is always a root, and keeps $24$, which is not. &cross;</li><li><strong>D) I, II, and III:</strong> includes $24$, which is not a solution for $a\\gt25$. &cross;</li></ul>That matches <strong>Choice B &mdash; I and III only</strong>."
+      "content": "<ul><li><strong>A) I and II only:</strong> includes $18$, which fails when $a\\gt19$. &cross;</li><li><strong>B) I and III only:</strong> exactly the two solutions we found. &check;</li><li><strong>C) II and III only:</strong> drops $x=a$, which is always a root, and keeps $18$, which is not. &cross;</li><li><strong>D) I, II, and III:</strong> includes $18$, which is not a solution for $a\\gt19$. &cross;</li></ul>That matches <strong>Choice B &mdash; I and III only</strong>."
     }
   ]
 }

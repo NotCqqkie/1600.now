@@ -9,15 +9,15 @@
     },
     {
       "title": "Identify corresponding sides from the vertex correspondence",
-      "content": "Since P corresponds to S and Q corresponds to T, side $\\overline{PQ}$ corresponds to side $\\overline{ST}$. Since Q corresponds to T and R corresponds to U, side $\\overline{QR}$ corresponds to side $\\overline{TU}$."
+      "content": "Since A corresponds to D and B corresponds to E, side $\\overline{AB}$ corresponds to side $\\overline{DE}$. Since B corresponds to E and C corresponds to F, side $\\overline{BC}$ corresponds to side $\\overline{EF}$."
     },
     {
       "title": "Calculate the scale factor",
-      "content": "For similar triangles, the ratio of corresponding sides is constant. Find the scale factor from triangle PQR to triangle STU using the known corresponding sides:<br/>$$\\text{Scale factor} = \\frac{ST}{PQ} = \\frac{8}{6} = \\frac{4}{3}$$"
+      "content": "For similar triangles, the ratio of corresponding sides is constant. Find the scale factor from triangle ABC to triangle DEF using the known corresponding sides:<br/>$$\\text{Scale factor} = \\frac{DE}{AB} = \\frac{12}{9} = \\frac{4}{3}$$"
     },
     {
-      "title": "Apply the scale factor to find TU",
-      "content": "Since $\\overline{QR}$ and $\\overline{TU}$ are corresponding sides, they must have the same ratio as all other corresponding sides:<br/>$$\\frac{TU}{QR} = \\frac{4}{3}$$<br/>$$TU = 24 \\times \\frac{4}{3} = \\frac{96}{3} = 32$$<br/>That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Apply the scale factor to find EF",
+      "content": "Since $\\overline{BC}$ and $\\overline{EF}$ are corresponding sides, they must have the same ratio as all other corresponding sides:<br/>$$\\frac{EF}{BC} = \\frac{4}{3}$$<br/>$$EF = 30 \\times \\frac{4}{3} = \\frac{120}{3} = 40$$<br/>That matches the correct answer &mdash; <strong>C</strong> is correct."
     }
   ]
 }

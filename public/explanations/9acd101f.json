@@ -9,11 +9,11 @@
     },
     {
       "title": "Extract circle A's center and apply the translation",
-      "content": "The equation $x^2 + (y-1)^2 = 49$ is in standard form $(x-h)^2 + (y-k)^2 = r^2$, so circle A has center $(0, 1)$ and radius $7$.<br/>Shifting down $2$ units means subtracting $2$ from the y-coordinate: new center is $(0, 1-2) = (0, -1)$."
+      "content": "The equation $x^2 + (y-3)^2 = 64$ is in standard form $(x-h)^2 + (y-k)^2 = r^2$, so circle A has center $(0, 3)$ and radius $8$.<br/>Shifting down $5$ units means subtracting $5$ from the y-coordinate: new center is $(0, 3-5) = (0, -2)$."
     },
     {
       "title": "Write circle B's equation",
-      "content": "Circle B has center $(0, -1)$ and radius $7$, so its equation is:<br/>$$x^2 + (y+1)^2 = 49$$<br/>That confirms <strong>D</strong> is correct."
+      "content": "Circle B has center $(0, -2)$ and radius $8$, so its equation is:<br/>$$x^2 + (y+2)^2 = 64$$<br/>That confirms <strong>D</strong> is correct."
     }
   ]
 }

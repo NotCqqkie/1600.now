@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Find the smaller map's side length",
-      "content": "$70\\%$ shorter means the new side length is $30\\%$ of the original side length: $$45(0.30)=13.5\\text{ inches}.$$"
+      "content": "$70\\%$ shorter means the new side length is $30\\%$ of the original side length: $$42(0.30)=12.6\\text{ inches}.$$"
     },
     {
       "title": "Find the actual distance represented",
-      "content": "The original $45$-inch side represents $$45\\cdot13=585$$ miles. The smaller map shows the same region, so its $13.5$-inch side also represents $585$ miles."
+      "content": "The original $42$-inch side represents $$42\\cdot11=462$$ miles. The smaller map shows the same region, so its $12.6$-inch side also represents $462$ miles."
     },
     {
       "title": "Compute the new scale",
-      "content": "The number of miles represented by $1$ inch on the smaller map is $$\\frac{585}{13.5}=43.33\\ldots.$$"
+      "content": "The number of miles represented by $1$ inch on the smaller map is $$\\frac{462}{12.6}=36.66\\ldots.$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "Rounded to two decimal places, the scale is $43.33$ miles per inch. This matches <strong>D</strong>."
+      "content": "Rounded to two decimal places, the scale is $36.67$ miles per inch. This matches <strong>D</strong>."
     }
   ]
 }

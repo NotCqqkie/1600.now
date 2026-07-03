@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up the area equation",
-      "content": "The area of a rectangle is length times width: $$x(x-15)=76$$."
+      "content": "The area of a rectangle is length times width: $$x(x-12)=85$$."
     },
     {
       "title": "Backsolving by testing the candidate",
-      "content": "Backsolving by testing the candidate (19): compute 19 * (19-15) = 19 * 4 = 76, which equals the given area. That matches the correct answer — <strong>B</strong> is correct."
+      "content": "Backsolving by testing the candidate (17): compute 17 * (17-12) = 17 * 5 = 85, which equals the given area. That matches the correct answer &mdash; <strong>B</strong> is correct."
     }
   ]
 }

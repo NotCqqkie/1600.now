@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Compare the equations",
-      "content": "Multiply the first equation by $3$: ${3}(0.5x+1.2y=9)$ gives $1.5x+3.6y=27$."
+      "content": "Multiply the first equation by $3$: ${3}(0.4x+1.3y=8)$ gives $1.2x+3.9y=24$."
     },
     {
       "title": "Interpret the result",

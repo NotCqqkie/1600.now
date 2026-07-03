@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Use the Pythagorean theorem",
-      "content": "The two given side lengths, $11$ and $9$, are the legs of a right triangle. Use $a^2+b^2=c^2$ to find the hypotenuse."
+      "content": "The two given side lengths, $13$ and $8$, are the legs of a right triangle. Use $a^2+b^2=c^2$ to find the hypotenuse."
     },
     {
       "title": "Set up the Pythagorean theorem",
-      "content": "For a right triangle with legs $a$ and $b$ and hypotenuse $c$, we have $a^2 + b^2 = c^2$. With legs of 11 and 9 centimeters:<br/>$$11^2 + 9^2 = c^2$$"
+      "content": "For a right triangle with legs $a$ and $b$ and hypotenuse $c$, we have $a^2 + b^2 = c^2$. With legs of 13 and 8 centimeters:<br/>$$13^2 + 8^2 = c^2$$"
     },
     {
       "title": "Calculate the hypotenuse",
-      "content": "Square the legs and add:<br/>$$121 + 81 = c^2$$<br/>$$202 = c^2$$<br/>$$c = \\sqrt{202}$$<br/>This matches the correct answer — <strong>B</strong> is correct."
+      "content": "Square the legs and add:<br/>$$169 + 64 = c^2$$<br/>$$233 = c^2$$<br/>$$c = \\sqrt{233}$$<br/>This matches the correct answer, so <strong>B</strong> is correct."
     }
   ]
 }

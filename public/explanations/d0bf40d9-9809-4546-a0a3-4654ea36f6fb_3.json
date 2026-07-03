@@ -1,6 +1,6 @@
 {
   "questionId": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_3",
-  "correctAnswer": "18",
+  "correctAnswer": "24",
   "section": "Math",
   "steps": [
     {
@@ -9,11 +9,11 @@
     },
     {
       "title": "Solve for the value",
-      "content": "Substituting gives $$f(0)=12(0)+18=18.$$ The answer is <strong>18</strong>."
+      "content": "Substituting gives $$f(0)=9(0)+24=24.$$ The answer is <strong>24</strong>."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $18$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $18$."
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $24$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $24$."
     }
   ]
 }

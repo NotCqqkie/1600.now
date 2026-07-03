@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Translate the budget into an inequality",
-      "content": "Let $p$ be the pre-tax price per chair. The owner buys 81 chairs, so the pre-tax total is $81p$. A 7% sales tax multiplies this by $1.07$, giving an after-tax total of $81p \\cdot 1.07$. This cannot exceed the <strong>14,000-dollar</strong> budget: $$81p \\cdot 1.07 \\leq 14{,}000$$"
+      "content": "Let $p$ be the pre-tax price per desk. The owner buys 72 desks, so the pre-tax total is $72p$. A 6% sales tax multiplies this by $1.06$, giving an after-tax total of $72p \\cdot 1.06$. This cannot exceed the <strong>12,000-dollar</strong> budget: $$72p \\cdot 1.06 \\leq 12{,}000$$"
     },
     {
       "title": "Solve for the maximum p",
-      "content": "Divide both sides by $81 \\cdot 1.07 = 86.67$: $$p \\leq \\frac{14{,}000}{86.67} \\approx 161.54$$ The largest listed pre-tax price that stays within the budget is <strong>161.53 dollars</strong>."
+      "content": "Divide both sides by $72 \\cdot 1.06 = 76.32$: $$p \\leq \\frac{12{,}000}{76.32} \\approx 157.23$$ The largest listed pre-tax price that stays within the budget is <strong>157.23 dollars</strong>."
     },
     {
       "title": "Compare with the choices",
-      "content": "<ul><li><strong>148.15 dollars</strong> is below the maximum, but it is not the greatest possible listed price.</li><li><strong>161.53 dollars</strong> stays within the budget because $81(161.53)(1.07)\\approx 13{,}999.95$.</li><li><strong>172.84 dollars</strong> ignores the 7% tax.</li><li><strong>184.94 dollars</strong> applies the tax in the wrong direction.</li></ul>That matches <strong>Choice B &mdash; \\$161.53</strong>."
+      "content": "<ul><li><strong>138.89 dollars</strong> uses an unstated 10,000-dollar budget and ignores the 6% tax.</li><li><strong>157.23 dollars</strong> stays within the budget because $72(157.23)(1.06)\\approx 11{,}999.79$.</li><li><strong>166.67 dollars</strong> ignores the 6% tax.</li><li><strong>176.67 dollars</strong> applies the tax in the wrong direction.</li></ul>That matches <strong>Choice B &mdash; \\$157.23</strong>."
     }
   ]
 }

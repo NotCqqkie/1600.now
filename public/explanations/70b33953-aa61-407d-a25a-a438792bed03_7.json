@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what we know",
-      "content": "The equation $x + y = 48$ relates marble queen stems ($x$) and snow queen stems ($y$). We're told that $y = 18$ snow queen stems are propagated. We need to find $x$."
+      "content": "The equation $x + y = 56$ relates golden pothos cuttings ($x$) and satin pothos cuttings ($y$). We're told that $y = 21$ satin pothos cuttings are prepared. We need to find $x$."
     },
     {
       "title": "Substitute the known value and solve",
-      "content": "Substitute $y = 18$ into the equation:<br/>$$x + 18 = 48$$<br/>Subtract 18 from both sides:<br/>$$x = 48 - 18 = 30$$<br/>That confirms <strong>B</strong> is correct."
+      "content": "Substitute $y = 21$ into the equation:<br/>$$x + 21 = 56$$<br/>Subtract 21 from both sides:<br/>$$x = 56 - 21 = 35$$<br/>That confirms <strong>B</strong> is correct."
     }
   ]
 }

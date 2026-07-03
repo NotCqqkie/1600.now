@@ -8,12 +8,12 @@
       "content": "The phrase &quot;x is at least twice the value of y&quot; breaks into two parts: &quot;at least&quot; means $\\geq$, and &quot;twice the value of y&quot; means $2y$. Together: $x \\geq 2y$."
     },
     {
-      "title": "Substitute y = 51",
-      "content": "Replace y with 51: $x \\geq 2(51) = 102$. The boundary value is 102."
+      "title": "Substitute y = 47",
+      "content": "Replace y with 47: $x \\geq 2(47) = 94$. The boundary value is 94."
     },
     {
       "title": "Evaluate all choices",
-      "content": "<ul><li>A: $x \\geq 49$ &mdash; 49 is $51 - 2$, not twice 51. Eliminated.</li><li>B: $x \\geq 53$ &mdash; 53 is $51 + 2$, not twice 51. Eliminated.</li><li>C: $x \\geq 102$ &mdash; $2 \\times 51 = 102$. This is exactly &quot;at least twice y.&quot; That matches <strong>Choice C &mdash; $x \\geq 102$</strong>.</li><li>D: $x \\geq 104$ &mdash; 104 is $2(51) + 2$, off by 2. Eliminated.</li></ul>"
+      "content": "<ul><li>A: $x \\geq 45$ &mdash; 45 is $47 - 2$, not twice 47. Eliminated.</li><li>B: $x \\geq 49$ &mdash; 49 is $47 + 2$, not twice 47. Eliminated.</li><li>C: $x \\geq 94$ &mdash; $2 \\times 47 = 94$. This is exactly &quot;at least twice y.&quot; That matches <strong>Choice C &mdash; $x \\geq 94$</strong>.</li><li>D: $x \\geq 96$ &mdash; 96 is $2(47) + 2$, off by 2. Eliminated.</li></ul>"
     }
   ]
 }

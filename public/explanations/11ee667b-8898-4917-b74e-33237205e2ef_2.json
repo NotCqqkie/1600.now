@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $7x^{2}+35$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $9x^{2}+36$."
     },
     {
       "title": "Algebra check",
@@ -13,11 +13,11 @@
     },
     {
       "title": "Distribute",
-      "content": "Distribute $7$:$$7(x^2+5)=7x^2+35$$"
+      "content": "Distribute $9$:$$9(x^2+4)=9x^2+36$$"
     },
     {
       "title": "Match to the answer choices",
-      "content": "The simplified expression is $7x^2+35$. That matches <strong>Choice A &mdash; $7x^{2}+35$</strong>."
+      "content": "The simplified expression is $9x^2+36$. That matches <strong>Choice A &mdash; $9x^{2}+36$</strong>."
     }
   ]
 }

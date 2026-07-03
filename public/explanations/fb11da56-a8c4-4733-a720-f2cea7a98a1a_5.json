@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Convert distance to gas consumed",
-      "content": "At 35 miles per gallon, the car uses 1 gallon for every 35 miles driven. This means for <em>d</em> miles, the gas consumed is: $$\\frac{d}{35} \\text{ gallons}$$"
+      "content": "At 32 miles per gallon, the car uses 1 gallon for every 32 miles driven. This means for <em>d</em> miles, the gas consumed is: $$\\frac{d}{32} \\text{ gallons}$$"
     },
     {
       "title": "Write the remaining gas function",
-      "content": "The gas remaining equals the initial amount minus what was consumed: $$f(d) = 10 - \\frac{d}{35}$$ That matches the correct answer — <strong>C</strong> is correct."
+      "content": "The gas remaining equals the initial amount minus what was consumed: $$f(d) = 12 - \\frac{d}{32}$$ That matches the correct answer - <strong>C</strong> is correct."
     }
   ]
 }

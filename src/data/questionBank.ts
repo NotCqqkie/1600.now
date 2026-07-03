@@ -1,6 +1,12 @@
 import type { Question as SourceQuestion } from "./all_questions";
+import mathPastJsonUrl from "./questions/math_past.json?url";
+import readingPastJsonUrl from "./questions/reading_past.json?url";
+import unofficialMathJsonUrl from "./questions/unofficial_math.json?url";
+import unofficialReadingJsonUrl from "./questions/unofficial_reading.json?url";
+import pastQuestionDifficultyMapJsonUrl from "./pastQuestionDifficultyMap.json?url";
 import {
   getSatImageDisplaySize,
+  getSatImageAssetMetadata,
   resolveSatChoiceImage,
   resolveSatQuestionImages,
   type ResolvedSatImage,
@@ -23,6 +29,7 @@ import {
   allEnglishDomains,
 } from "./questionCategories";
 import { BANK_COUNT_INDEX } from "@/lib/generated/bankCountIndex.generated";
+import { BANK_DATA_VERSION } from "@/lib/generated/bankDataVersion.generated";
 import {
   BANK_SOURCE_LABELS,
   DEFAULT_BANK_SOURCE,
@@ -62,14 +69,31 @@ export type BankQuestionSimilarityMeta = Pick<
   "similarityTag" | "similarityGroupId" | "similarityGroupLabel" | "similarityGroupSize"
 >;
 
+// Question data is fetched as static JSON assets (?url imports) instead of
+// being bundled into multi-MB JS chunks: fetch + JSON.parse keeps the data off
+// the main-thread JS parse/eval path and the hashed /assets/ URL gets
+// immutable caching. The error message mimics a dynamic-import failure so
+// isChunkLoadError-based reload recovery still handles stale-deploy 404s.
+const fetchJsonAsset = <T,>(url: string): Promise<T> =>
+  fetch(url).then((response) => {
+    // A stale-deploy asset URL is rewritten to /index.html by Firebase
+    // hosting (200 + text/html), so the content-type check is what actually
+    // catches redeploys — not the status check.
+    const contentType = response.headers.get("content-type") ?? "";
+    if (!response.ok || !contentType.includes("json")) {
+      throw new Error(`Failed to fetch dynamically imported module data: ${url} (status ${response.status})`);
+    }
+    return response.json() as Promise<T>;
+  });
+
 const rawQuestionLoaders: Record<BankSourceId, Record<BankSubject, () => Promise<SourceQuestion[]>>> = {
   past: {
-    math: () => import("./questions/math_past.json").then((mod) => mod.default as SourceQuestion[]),
-    reading: () => import("./questions/reading_past.json").then((mod) => mod.default as SourceQuestion[]),
+    math: () => fetchJsonAsset<SourceQuestion[]>(mathPastJsonUrl),
+    reading: () => fetchJsonAsset<SourceQuestion[]>(readingPastJsonUrl),
   },
   unofficial: {
-    math: () => import("./questions/unofficial_math.json").then((mod) => mod.default as SourceQuestion[]),
-    reading: () => import("./questions/unofficial_reading.json").then((mod) => mod.default as SourceQuestion[]),
+    math: () => fetchJsonAsset<SourceQuestion[]>(unofficialMathJsonUrl),
+    reading: () => fetchJsonAsset<SourceQuestion[]>(unofficialReadingJsonUrl),
   },
 };
 
@@ -106,6 +130,24 @@ const bankRouteIndexRowsPromiseCache = new Map<string, Promise<readonly BankRout
 const bankQuestionDetailShardCache = new Map<string, Promise<readonly BankQuestion[]>>();
 const bankQuestionDetailShardBaseUrl = "/generated/bank-question-shards";
 
+// Memoize in-flight/resolved loads but evict on rejection, so a transient
+// network failure or stale-deploy 404 doesn't cache the rejection forever and
+// leave the question page stuck on a permanent loading spinner.
+const cachePromiseWithEviction = <K, V>(
+  cache: Map<K, Promise<V>>,
+  key: K,
+  create: () => Promise<V>,
+): Promise<V> => {
+  const cached = cache.get(key);
+  if (cached) return cached;
+  const promise = create().catch((error) => {
+    cache.delete(key);
+    throw error;
+  });
+  cache.set(key, promise);
+  return promise;
+};
+
 const makeSourceSubjectCacheKey = (sourceId: BankSourceId, subject: BankSubject) =>
   `${sourceId}:${subject}`;
 
@@ -117,9 +159,12 @@ const loadHiddenBankQuestionIds = () => {
 };
 
 const loadPastQuestionDifficultyMap = () => {
-  pastQuestionDifficultyMapPromise ??= import("./pastQuestionDifficultyMap.json").then(
-    (mod) => mod.default as Record<string, CanonicalDifficulty | undefined>,
-  );
+  pastQuestionDifficultyMapPromise ??= fetchJsonAsset<Record<string, CanonicalDifficulty | undefined>>(
+    pastQuestionDifficultyMapJsonUrl,
+  ).catch((error: unknown) => {
+    pastQuestionDifficultyMapPromise = null;
+    throw error;
+  });
   return pastQuestionDifficultyMapPromise;
 };
 
@@ -136,12 +181,9 @@ const loadBankRouteIndexRows = (
   bankSource: BankSourceFilter = DEFAULT_BANK_SOURCE,
 ): Promise<readonly BankRouteIndexRow[]> => {
   const cacheKey = `${bankSource}:${subject}`;
-  const cached = bankRouteIndexRowsPromiseCache.get(cacheKey);
-  if (cached) return cached;
-
-  const promise = bankRouteIndexLoaders[bankSource][subject]();
-  bankRouteIndexRowsPromiseCache.set(cacheKey, promise);
-  return promise;
+  return cachePromiseWithEviction(bankRouteIndexRowsPromiseCache, cacheKey, () =>
+    bankRouteIndexLoaders[bankSource][subject](),
+  );
 };
 
 export const loadQuestionSimilarityMeta = async (
@@ -184,17 +226,13 @@ const loadRawSource = (
   subject: BankSubject,
 ): Promise<RawBankSource> => {
   const cacheKey = makeSourceSubjectCacheKey(sourceId, subject);
-  const cached = rawSourcePromiseCache.get(cacheKey);
-  if (cached) return cached;
-
-  const promise = rawQuestionLoaders[sourceId][subject]().then((questions) => ({
-    bankType: sourceId,
-    bankLabel: BANK_SOURCE_LABELS[sourceId],
-    questions,
-  }));
-
-  rawSourcePromiseCache.set(cacheKey, promise);
-  return promise;
+  return cachePromiseWithEviction(rawSourcePromiseCache, cacheKey, () =>
+    rawQuestionLoaders[sourceId][subject]().then((questions) => ({
+      bankType: sourceId,
+      bankLabel: BANK_SOURCE_LABELS[sourceId],
+      questions,
+    })),
+  );
 };
 
 export interface BankChoice {
@@ -202,6 +240,14 @@ export interface BankChoice {
   text?: string;
   image?: string;
   imageDisplaySize?: QuestionImageDisplaySize;
+  imageWidth?: number;
+  imageHeight?: number;
+  imageHasTransparency?: boolean;
+  imageOptimizedSrc?: string;
+  imageOptimizedWidth?: number;
+  imageOptimizedHeight?: number;
+  imageSrcSet?: string;
+  imageSizes?: string;
 }
 
 export interface BankQuestion {
@@ -703,13 +749,22 @@ const normalizeQuestion = (
       ? (normalizedChoices
         ? normalizedChoices.map((choice) => {
             const resolvedImage = resolveSatChoiceImage(q.id, choice.id, choice.image);
+            const imageMetadata = getSatImageAssetMetadata(resolvedImage);
             const rawText = choice.text;
             const suppressText = Boolean(resolvedImage) && (looksLikeImageDescription(rawText) || looksLikeInvisiblePlaceholder(rawText));
             return {
               id: choice.id,
               text: suppressText ? undefined : (rawText ? sanitizeText(rawText) : undefined),
               image: resolvedImage,
-              imageDisplaySize: getSatImageDisplaySize(resolvedImage),
+              imageDisplaySize: imageMetadata?.displaySize ?? getSatImageDisplaySize(resolvedImage),
+              imageWidth: imageMetadata?.optimizedWidth ?? imageMetadata?.width,
+              imageHeight: imageMetadata?.optimizedHeight ?? imageMetadata?.height,
+              imageHasTransparency: imageMetadata?.hasTransparentPixel,
+              imageOptimizedSrc: imageMetadata?.optimizedSrc,
+              imageOptimizedWidth: imageMetadata?.optimizedWidth,
+              imageOptimizedHeight: imageMetadata?.optimizedHeight,
+              imageSrcSet: imageMetadata?.srcSet,
+              imageSizes: imageMetadata?.sizes,
             };
           })
         : undefined)
@@ -926,16 +981,11 @@ const loadBankQuestionDetailShard = (
   shardIndex: number,
 ): Promise<readonly BankQuestion[]> => {
   const cacheKey = `${sourceId}:${subject}:${shardIndex}`;
-  const cached = bankQuestionDetailShardCache.get(cacheKey);
-  if (cached) return cached;
-
-  const promise = fetch(
-    `${bankQuestionDetailShardBaseUrl}/${sourceId}-${subject}-${shardIndex}.json`,
-  ).then((response) =>
-    response.json() as Promise<readonly BankQuestion[]>,
+  return cachePromiseWithEviction(bankQuestionDetailShardCache, cacheKey, () =>
+    fetchJsonAsset<readonly BankQuestion[]>(
+      `${bankQuestionDetailShardBaseUrl}/${sourceId}-${subject}-${shardIndex}.json?v=${BANK_DATA_VERSION}`,
+    ),
   );
-  bankQuestionDetailShardCache.set(cacheKey, promise);
-  return promise;
 };
 
 const routeRowToRef = (row: BankRouteIndexRow): BankQuestionRouteRef => ({
@@ -952,15 +1002,9 @@ export const loadBankQuestionRouteRefs = (
   bankSource: BankSourceFilter = DEFAULT_BANK_SOURCE,
 ): Promise<BankQuestionRouteRef[]> => {
   const cacheKey = `${subject}:${bankSource}`;
-  const cached = routeRefsCache.get(cacheKey);
-  if (cached) return cached;
-
-  const promise = loadBankRouteIndexRows(subject, bankSource).then((rows) =>
-    rows.map(routeRowToRef),
+  return cachePromiseWithEviction(routeRefsCache, cacheKey, () =>
+    loadBankRouteIndexRows(subject, bankSource).then((rows) => rows.map(routeRowToRef)),
   );
-
-  routeRefsCache.set(cacheKey, promise);
-  return promise;
 };
 
 export const loadBankQuestionRouteRef = async (
@@ -991,10 +1035,7 @@ export const loadRouteIndexedBankQuestion = (
   options: QuestionBankLoadOptions = {},
 ): Promise<BankQuestion | null> => {
   const cacheKey = `${makePoolCacheKey(subject, bankSource, options)}:${idParam}`;
-  const cached = routeIndexedQuestionCache.get(cacheKey);
-  if (cached) return cached;
-
-  const promise = (async () => {
+  return cachePromiseWithEviction(routeIndexedQuestionCache, cacheKey, async () => {
     const routeRef = await loadBankQuestionRouteRef(subject, idParam, bankSource);
     if (!routeRef) return null;
 
@@ -1015,10 +1056,7 @@ export const loadRouteIndexedBankQuestion = (
       ...(similarityMeta ?? {}),
       id: routeRef.id,
     };
-  })();
-
-  routeIndexedQuestionCache.set(cacheKey, promise);
-  return promise;
+  });
 };
 
 export const loadBankQuestion = async (

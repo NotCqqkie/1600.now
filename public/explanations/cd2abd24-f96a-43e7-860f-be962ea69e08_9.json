@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Calculate the unit rate of chopping",
-      "content": "The processor chops 12 pounds in 2 minutes. Find the unit rate (pounds per minute):<br/>$$\\frac{12}{2} = 6 \\text{ pounds per minute}$$"
+      "content": "The chopper slices 15 pounds in 3 minutes. Find the unit rate (pounds per minute):<br/>$$\\frac{15}{3} = 5 \\text{ pounds per minute}$$"
     },
     {
-      "title": "Use the unit rate to find the time for 72 pounds",
-      "content": "Divide 72 pounds by the unit rate of 6 pounds per minute to find the time needed:<br/>$$\\frac{72}{6} = 12 \\text{ minutes}$$<br/>That is the correct answer."
+      "title": "Use the unit rate to find the time for 90 pounds",
+      "content": "Divide 90 pounds by the unit rate of 5 pounds per minute to find the time needed:<br/>$$\\frac{90}{5} = 18 \\text{ minutes}$$<br/>That is the correct answer."
     }
   ]
 }

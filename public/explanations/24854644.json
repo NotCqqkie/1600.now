@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Parallel lines share the same slope",
-      "content": "Parallel shortcut: equal slopes. The given line $y = 7x + 4$ has slope $7$, so our line also has slope $7$."
+      "content": "Parallel shortcut: equal slopes. The given line $y = 8x + 2$ has slope $8$, so our line also has slope $8$."
     },
     {
       "title": "Use the given point",
-      "content": "The line passes through $(0,5)$, so its $y$-intercept is $5$."
+      "content": "The line passes through $(0,6)$, so its $y$-intercept is $6$."
     },
     {
       "title": "Confirm the choice",
-      "content": "Slope $7$ and $y$-intercept $5$ give $y=7x+5$. That matches <strong>Choice B &mdash; $y=7x+5$</strong>."
+      "content": "Slope $8$ and $y$-intercept $6$ give $y=8x+6$. That matches <strong>Choice B &mdash; $y=8x+6$</strong>."
     }
   ]
 }

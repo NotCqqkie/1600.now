@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Interpret the ordered pair notation",
-      "content": "The notation $(l,w) = (8,3)$ assigns the first coordinate to $l$ and the second to $w$. Therefore $l = 8$ (length) and $w = 3$ (width). This immediately eliminates choices A and C, which incorrectly state length = 3 and width = 8."
+      "content": "The notation $(l,w) = (9,4)$ assigns the first coordinate to $l$ and the second to $w$. Therefore $l = 9$ (length) and $w = 4$ (width). This immediately eliminates choices A and C, which incorrectly state length = 4 and width = 9."
     },
     {
       "title": "Verify the inequality constraint",
-      "content": "The inequality $2l + 2w \\le 27$ represents the perimeter condition.<br/><br/>Substituting $l = 8$ and $w = 3$:\n$$2(8) + 2(3) = 16 + 6 = 22$$\nSince $22 \\le 27$, the point $(8,3)$ satisfies the inequality, meaning the perimeter is less than or equal to 27 (not greater than or equal to).<br/><br/>This eliminates <strong>Choice D &mdash; If the rectangle has length $8$ and width $3$, its perimeter is greater than or equal to $27$.</strong>."
+      "content": "The inequality $2l + 2w \\le 31$ represents the perimeter condition.<br/><br/>Substituting $l = 9$ and $w = 4$:\n$$2(9) + 2(4) = 18 + 8 = 26$$\nSince $26 \\le 31$, the point $(9,4)$ satisfies the inequality, meaning the perimeter is less than or equal to 31 (not greater than or equal to).<br/><br/>This eliminates <strong>Choice D &mdash; If the rectangle has length $9$ and width $4$, its perimeter is greater than or equal to $31$.</strong>."
     },
     {
       "title": "Confirm the correct interpretation",
-      "content": "<strong>Choice B &mdash; If the rectangle has length $8$ and width $3$, its perimeter is less than or equal to $27$.</strong> states: <em>If the rectangle has length 8 and width 3, its perimeter is less than or equal to 27.</em> This correctly matches both the ordered pair assignment $(l, w) = (8, 3)$ and the inequality direction ($\\le 27$). That matches <strong>Choice B &mdash; If the rectangle has length $8$ and width $3$, its perimeter is less than or equal to $27$.</strong>."
+      "content": "<strong>Choice B &mdash; If the rectangle has length $9$ and width $4$, its perimeter is less than or equal to $31$.</strong> states: <em>If the rectangle has length 9 and width 4, its perimeter is less than or equal to 31.</em> This correctly matches both the ordered pair assignment $(l, w) = (9, 4)$ and the inequality direction ($\\le 31$). That matches <strong>Choice B &mdash; If the rectangle has length $9$ and width $4$, its perimeter is less than or equal to $31$.</strong>."
     }
   ]
 }

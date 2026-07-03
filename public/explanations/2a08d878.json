@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Calculate total books",
-      "content": "There are <em>n</em> nonfiction books and 12 fiction books, so the total number of books is the sum: $$n + 12$$."
+      "content": "There are <em>n</em> mystery books and 18 biography books, so the total number of books is the sum: $$n + 18$$."
     },
     {
-      "title": "Compute probability of nonfiction",
-      "content": "Probability equals (number of nonfiction books) divided by (total books). Substitute the values: $$\\frac{n}{n+12}$$.<br/>That matches <strong>Choice B &mdash; $\\frac{n}{n + 12}$</strong>."
+      "title": "Compute probability of mystery",
+      "content": "Probability equals (number of mystery books) divided by (total books). Substitute the values: $$\\frac{n}{n+18}$$.<br/>That matches <strong>Choice B &mdash; $\\frac{n}{n + 18}$</strong>."
     }
   ]
 }

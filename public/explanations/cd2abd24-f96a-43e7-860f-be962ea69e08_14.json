@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $(12x^2 + y^2)(x + 5y)$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $(10x^2 + y^2)(x + 4y)$."
     },
     {
       "title": "Algebra check",
@@ -13,11 +13,11 @@
     },
     {
       "title": "Look for a matching product",
-      "content": "Expand the likely product in <strong>$(12x^2 + y^2)(x + 5y)$</strong> $$(12x^2+y^2)(x+5y)=12x^3+60x^2y+xy^2+5y^3.$$ This matches the original expression term by term."
+      "content": "Expand the likely product in <strong>$(10x^2 + y^2)(x + 4y)$</strong> $$(10x^2+y^2)(x+4y)=10x^3+40x^2y+xy^2+4y^3.$$ This matches the original expression term by term."
     },
     {
       "title": "Compare the structure to the other choices",
-      "content": "The first factor in choice B supplies $12x^2$ and $y^2$, and the second factor supplies $x$ and $5y$, producing all four required terms. The other choices pair powers or coefficients incorrectly, so they do not expand to the original expression."
+      "content": "The first factor in choice B supplies $10x^2$ and $y^2$, and the second factor supplies $x$ and $4y$, producing all four required terms. The other choices pair powers or coefficients incorrectly, so they do not expand to the original expression."
     }
   ]
 }

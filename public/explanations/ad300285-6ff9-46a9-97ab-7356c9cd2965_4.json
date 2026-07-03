@@ -1,19 +1,19 @@
 {
   "questionId": "ad300285-6ff9-46a9-97ab-7356c9cd2965_4",
-  "correctAnswer": "17",
+  "correctAnswer": "19",
   "section": "Math",
   "steps": [
     {
       "title": "Fastest path: use the function table",
-      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $17$, so the answer is <strong>$17$</strong>. This is just a one-row lookup, and the arithmetic below confirms the table value."
+      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $19$, so the answer is <strong>$19$</strong>. This is just a one-row lookup, and the arithmetic below confirms the table value."
     },
     {
-      "title": "Substitute the value x = 144",
-      "content": "Replace $x$ with $144$ in $$f(x) = 5 + \\sqrt{x}.$$ This gives $$f(144) = 5 + \\sqrt{144}.$$"
+      "title": "Substitute the value x = 169",
+      "content": "Replace $x$ with $169$ in $$f(x) = 6 + \\sqrt{x}.$$ This gives $$f(169) = 6 + \\sqrt{169}.$$"
     },
     {
       "title": "Compute the result",
-      "content": "Simplify: $$f(144) = 5 + 12 = 17.$$ The answer is <strong>17</strong>."
+      "content": "Simplify: $$f(169) = 6 + 13 = 19.$$ The answer is <strong>19</strong>."
     }
   ]
 }

@@ -1,15 +1,15 @@
 {
   "questionId": "128c75e2",
-  "correctAnswer": "609",
+  "correctAnswer": "500",
   "section": "Math",
   "steps": [
     {
-      "title": "Evaluate g(15a) and g(7a) using the sign constraint",
-      "content": "Since $a \\lt 0$, both $15a$ and $7a$ are negative. For negative numbers, $|x| = -x$, so:<br/>$$g(15a) = \\frac{|15a|}{a} - 14 = \\frac{-15a}{a} - 14 = -15 - 14 = -29$$<br/>$$g(7a) = \\frac{|7a|}{a} - 14 = \\frac{-7a}{a} - 14 = -7 - 14 = -21$$"
+      "title": "Evaluate g(13a) and g(8a) using the sign constraint",
+      "content": "Since $a \\lt 0$, both $13a$ and $8a$ are negative. For negative numbers, $|x| = -x$, so:<br/>$$g(13a) = \\frac{|13a|}{a} - 12 = \\frac{-13a}{a} - 12 = -13 - 12 = -25$$<br/>$$g(8a) = \\frac{|8a|}{a} - 12 = \\frac{-8a}{a} - 12 = -8 - 12 = -20$$"
     },
     {
       "title": "Compute the product of the two values",
-      "content": "$$g(15a) \\cdot g(7a) = (-29) \\cdot (-21) = 609$$"
+      "content": "$$g(13a) \\cdot g(8a) = (-25) \\cdot (-20) = 500$$"
     }
   ]
 }

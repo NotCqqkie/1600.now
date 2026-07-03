@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Write vertex form and solve for a",
-      "content": "Vertex at $(1,7)$ gives $f(x) = a(x-1)^2 + 7$. Plug in the given point $(2, 53)$: $a(1)^2 + 7 = 53 \\Rightarrow a = 46$."
+      "content": "Vertex at $(2,7)$ gives $f(x) = a(x-2)^2 + 7$. Plug in the given point $(3, 53)$: $a(1)^2 + 7 = 53 \\Rightarrow a = 46$."
     },
     {
-      "title": "Evaluate f(−2) and f(0)",
-      "content": "$f(-2) = 46(-3)^2 + 7 = 414 + 7 = 421$. $f(0) = 46(-1)^2 + 7 = 46 + 7 = 53$. Difference: $421 - 53 = 368$."
+      "title": "Evaluate f(-1) and f(1)",
+      "content": "$f(-1) = 46(-3)^2 + 7 = 414 + 7 = 421$. $f(1) = 46(-1)^2 + 7 = 46 + 7 = 53$. Difference: $421 - 53 = 368$."
     },
     {
       "title": "Match the answer",
-      "content": "The value of $f(-2) - f(0) = 368$. That confirms <strong>C</strong> is correct."
+      "content": "The value of $f(-1) - f(1) = 368$. That confirms <strong>C</strong> is correct."
     }
   ]
 }

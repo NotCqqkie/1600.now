@@ -1,15 +1,15 @@
 {
   "questionId": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_11",
-  "correctAnswer": "38",
+  "correctAnswer": "44",
   "section": "Math",
   "steps": [
     {
       "title": "Write equations from the given information",
-      "content": "The string is cut into two parts with lengths $x$ and $y$ that sum to 53 inches: $$x + y = 53$$ We're told $x$ is 8 more than 2 times $y$: $$x = 2y + 8$$"
+      "content": "The ribbon is cut into two parts with lengths $x$ and $y$ that sum to 61 inches: $$x + y = 61$$ We're told $x$ is 10 more than 2 times $y$: $$x = 2y + 10$$"
     },
     {
       "title": "Substitute to solve the system",
-      "content": "Substitute $x = 2y + 8$ into the first equation: $$(2y + 8) + y = 53$$ Combine like terms: $$3y + 8 = 53$$ Subtract 8: $$3y = 45$$ Divide by 3: $$y = 15$$ Now solve for $x$: $$x = 2(15) + 8 = 38$$"
+      "content": "Substitute $x = 2y + 10$ into the first equation: $$(2y + 10) + y = 61$$ Combine like terms: $$3y + 10 = 61$$ Subtract 10: $$3y = 51$$ Divide by 3: $$y = 17$$ Now solve for $x$: $$x = 2(17) + 10 = 44$$"
     }
   ]
 }

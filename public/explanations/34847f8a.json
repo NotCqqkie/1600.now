@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Combine the left side fractions using common denominator",
-      "content": "Convert each fraction to have denominator $(x-2)(x+5)$:<br/>$$\\frac{2}{x-2} + \\frac{3}{x+5} = \\frac{2(x+5)}{(x-2)(x+5)} + \\frac{3(x-2)}{(x-2)(x+5)}$$<br/>Combine the numerators:<br/>$$= \\frac{2(x+5) + 3(x-2)}{(x-2)(x+5)}$$<br/>Expand:<br/>$$= \\frac{2x + 10 + 3x - 6}{(x-2)(x+5)} = \\frac{5x + 4}{(x-2)(x+5)}$$"
+      "content": "Convert each fraction to have denominator $(x-4)(x+6)$:<br/>$$\\frac{3}{x-4} + \\frac{2}{x+6} = \\frac{3(x+6)}{(x-4)(x+6)} + \\frac{2(x-4)}{(x-4)(x+6)}$$<br/>Combine the numerators:<br/>$$= \\frac{3(x+6) + 2(x-4)}{(x-4)(x+6)}$$<br/>Expand:<br/>$$= \\frac{3x + 18 + 2x - 8}{(x-4)(x+6)} = \\frac{5x + 10}{(x-4)(x+6)}$$"
     },
     {
       "title": "Match numerators to find r and t",
-      "content": "Since the left side equals the right side:<br/>$$\\frac{5x+4}{(x-2)(x+5)}=\\frac{rx+t}{(x-2)(x+5)}$$<br/>The denominators already match, so the numerators must match for every valid $x$: $$5x+4=rx+t$$<br/>Therefore $r=5$ and $t=4$, so $$rt=5\\cdot4=20.$$ This matches, so <strong>C</strong> is correct."
+      "content": "Since the left side equals the right side:<br/>$$\\frac{5x+10}{(x-4)(x+6)}=\\frac{rx+t}{(x-4)(x+6)}$$<br/>The denominators already match, so the numerators must match for every valid $x$: $$5x+10=rx+t$$<br/>Therefore $r=5$ and $t=10$, so $$rt=5\\cdot10=50.$$ This matches, so <strong>C</strong> is correct."
     }
   ]
 }

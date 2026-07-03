@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+      "title": "Fastest path: identify the center first",
+      "content": "For coordinate-circle questions, read the center from the standard form and use the given point to compute the radius. Keep the center signs and the value of $r^2$ separate before choosing an equation."
     },
     {
       "title": "Recall the standard form of a circle",
-      "content": "A circle with center $(h,k)$ and radius $r$ has equation $$(x-h)^2+(y-k)^2=r^2$$ With center $(-5,1)$: $h=-5$, $k=1$, so the equation starts as $$(x+5)^2+(y-1)^2=r^2$$"
+      "content": "A circle with center $(h,k)$ and radius $r$ has equation $$(x-h)^2+(y-k)^2=r^2$$ With center $(-4,2)$: $h=-4$, $k=2$, so the equation starts as $$(x+4)^2+(y-2)^2=r^2$$"
     },
     {
-      "title": "Compute $r^2$ using the point $(-9,4)$",
-      "content": "Plug $(-9,4)$ into the distance formula from $(-5,1)$: $$r^2 = (-9-(-5))^2+(4-1)^2 = (-4)^2+3^2 = 16+9 = 25$$"
+      "title": "Compute $r^2$ using the point $(-10,-6)$",
+      "content": "Plug $(-10,-6)$ into the distance formula from $(-4,2)$: $$r^2 = (-10-(-4))^2+(-6-2)^2 = (-6)^2+(-8)^2 = 36+64 = 100$$"
     },
     {
       "title": "Evaluate all choices",
-      "content": "<ul><li><strong>Choice A &mdash; $(x - 5)^2 + (y + 1)^2 = 5$</strong>: Center would be $(5,-1)$, not $(-5,1)$, and $r^2=5\\neq 25$. &#10007;</li><li><strong>Choice B &mdash; $(x + 5)^2 + (y - 1)^2 = 5$</strong>: Center $(-5,1)$ is correct, but $r^2=5\\neq 25$. &#10007;</li><li><strong>Choice C &mdash; $(x - 5)^2 + (y + 1)^2 = 25$</strong>: $r^2=25$ is correct, but center would be $(5,-1)$, not $(-5,1)$. &#10007;</li><li><strong>Choice D &mdash; $(x + 5)^2 + (y - 1)^2 = 25$</strong>: Center $(-5,1)$ and $r^2=25$ both correct. That matches <strong>Choice D &mdash; $(x + 5)^2 + (y - 1)^2 = 25$</strong>. &#10003;</li></ul>"
+      "content": "<ul><li><strong>Choice A &mdash; $(x - 4)^2 + (y + 2)^2 = 10$</strong>: Center would be $(4,-2)$, not $(-4,2)$, and $r^2=10\\neq 100$. &#10007;</li><li><strong>Choice B &mdash; $(x + 4)^2 + (y - 2)^2 = 10$</strong>: Center $(-4,2)$ is correct, but $r^2=10\\neq 100$. &#10007;</li><li><strong>Choice C &mdash; $(x - 4)^2 + (y + 2)^2 = 100$</strong>: $r^2=100$ is correct, but center would be $(4,-2)$, not $(-4,2)$. &#10007;</li><li><strong>Choice D &mdash; $(x + 4)^2 + (y - 2)^2 = 100$</strong>: Center $(-4,2)$ and $r^2=100$ both correct. That matches <strong>Choice D &mdash; $(x + 4)^2 + (y - 2)^2 = 100$</strong>. &#10003;</li></ul>"
     }
   ]
 }

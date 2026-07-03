@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Solve by taking square roots",
-      "content": "Take the square root of both sides of $x^2 = 64$:<br/>$$x = \\pm\\sqrt{64} = \\pm 8$$<br/>The two solutions are $x = 8$ and $x = -8$."
+      "content": "Take the square root of both sides of $x^2 = 144$:<br/>$$x = \\pm\\sqrt{144} = \\pm 12$$<br/>The two solutions are $x = 12$ and $x = -12$."
     },
     {
       "title": "Check the listed values",
-      "content": "The choices include $-8$, and $-8$ is one of the two solutions. Verify it directly: $$(-8)^2=64.$$"
+      "content": "The choices include $-12$, and $-12$ is one of the two solutions. Verify it directly: $$(-12)^2=144.$$"
     },
     {
       "title": "Confirm the answer",
-      "content": "$-8$ is correct because $x=-8$ satisfies the equation."
+      "content": "$-12$ is correct because $x=-12$ satisfies the equation, so the answer is <strong>Choice A</strong>."
     }
   ]
 }

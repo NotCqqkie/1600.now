@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the growth factor per 3 minutes",
-      "content": "We have N(m) = 65 Q^{m/6}. After 3 minutes, m → m+3.<br/>$$\\frac{N(m+3)}{N(m)} = \\frac{65 Q^{(m+3)/6}}{65 Q^{m/6}} = Q^{(m+3)/6 - m/6} = Q^{3/6} = Q^{1/2}.$$<br/>Thus the population multiplies by $Q^{1/2}$ every 180 seconds."
+      "title": "Find the growth factor per 4 minutes",
+      "content": "We have N(m) = 72 Q^{m/8}. After 4 minutes, m changes to m+4.<br/>$$\\frac{N(m+4)}{N(m)} = \\frac{72 Q^{(m+4)/8}}{72 Q^{m/8}} = Q^{(m+4)/8 - m/8} = Q^{4/8} = Q^{1/2}.$$<br/>Thus the population multiplies by $Q^{1/2}$ every 240 seconds."
     },
     {
       "title": "Convert growth factor to percent increase",

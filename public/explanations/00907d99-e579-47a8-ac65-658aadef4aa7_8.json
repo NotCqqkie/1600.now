@@ -9,11 +9,11 @@
     },
     {
       "title": "Identify the formula",
-      "content": "The area of a circle is given by $A = \\pi r^2$, where $r$ is the radius. We're given $r = 35$ mm."
+      "content": "The area of a circle is given by $A = \\pi r^2$, where $r$ is the radius. We're given $r = 32$ mm."
     },
     {
       "title": "Substitute and calculate",
-      "content": "Substituting $r = 35$ into the formula:<br/>$$A = \\pi(35)^2$$<br/>Since $35^2 = 1225$:<br/>$$A = 1225\\pi \\text{ mm}^2$$<br/>That matches <strong>Choice D &mdash; $1,225\\pi$</strong>."
+      "content": "Substituting $r = 32$ into the formula:<br/>$$A = \\pi(32)^2$$<br/>Since $32^2 = 1024$:<br/>$$A = 1024\\pi \\text{ mm}^2$$<br/>That matches <strong>Choice D &mdash; $1,024\\pi$</strong>."
     }
   ]
 }

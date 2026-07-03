@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Use the no-solution shortcut",
-      "content": "A linear system has no solution when the two lines are parallel and distinct. Rewrite the given equation: $$30x=1800y-3600 \\Rightarrow y=\\frac{x}{60}+2$$ So the second line needs slope $\\frac{1}{60}$ but a different $y$-intercept."
+      "content": "A linear system has no solution when the two lines are parallel and distinct. Rewrite the given equation: $$40x=2000y-6000 \\Rightarrow y=\\frac{x}{50}+3$$ So the second line needs slope $\\frac{1}{50}$ but a different $y$-intercept."
     },
     {
       "title": "Test the matching slope",
-      "content": "The matching choice, $\\frac{1}{30}x=2y$, becomes $y=\\frac{x}{60}$. This has the same slope as the given line but intercept $0$ instead of $2$, so the two lines are parallel and never intersect."
+      "content": "The matching choice, $\\frac{1}{25}x=2y$, becomes $y=\\frac{x}{50}$. This has the same slope as the given line but intercept $0$ instead of $3$, so the two lines are parallel and never intersect."
     },
     {
       "title": "Eliminate the distractors",
-      "content": "A choice with slope $\\frac{1}{1800}$, so it intersects the given line. A choice with slope $\\frac{1}{2}$, so it also intersects. A choice with the same as the given line, which would give infinitely many solutions. Only the matching choice gives parallel distinct lines."
+      "content": "A choice with slope $\\frac{1}{2000}$, so it intersects the given line. A choice with slope $\\frac{1}{2}$, so it also intersects. A choice with the same as the given line, which would give infinitely many solutions. Only the matching choice gives parallel distinct lines."
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find the initial constant C",
-      "content": "At the initial measurement, $t = 0$ and $P = 9000$. Substituting into $P = C(2)^{rt}$:<br/>$$9000 = C(2)^{r \\cdot 0} = C(2)^0$$<br/>Since $(2)^0 = 1$:<br/>$$9000 = C \\cdot 1 = C$$<br/>Therefore $C = 9000$."
+      "content": "At the initial measurement, $t = 0$ and $P = 8000$. Substituting into $P = C(2)^{rt}$:<br/>$$8000 = C(2)^{r \\cdot 0} = C(2)^0$$<br/>Since $(2)^0 = 1$:<br/>$$8000 = C \\cdot 1 = C$$<br/>Therefore $C = 8000$."
     },
     {
-      "title": "Substitute the 10-hour measurement and solve for r",
-      "content": "At $t = 10$ hours, $P = 18000$. Substitute into the formula:<br/>$$18000 = 9000(2)^{10r}$$<br/>Divide both sides by 9000:<br/>$$2 = (2)^{10r}$$<br/>Rewrite $2$ as $2^1$:<br/>$$2^1 = (2)^{10r}$$<br/>Since the bases are equal, equate the exponents:<br/>$$1 = 10r$$<br/>$$r = \\frac{1}{10}$$<br/>This matches - <strong>B</strong> is correct."
+      "title": "Substitute the 8-hour measurement and solve for r",
+      "content": "At $t = 8$ hours, $P = 16000$. Substitute into the formula:<br/>$$16000 = 8000(2)^{8r}$$<br/>Divide both sides by 8000:<br/>$$2 = (2)^{8r}$$<br/>Rewrite $2$ as $2^1$:<br/>$$2^1 = (2)^{8r}$$<br/>Since the bases are equal, equate the exponents:<br/>$$1 = 8r$$<br/>$$r = \\frac{1}{8}$$<br/>This matches - <strong>B</strong> is correct."
     }
   ]
 }

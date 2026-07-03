@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Find the original y-intercept",
-      "content": "Set $x=0$ in the original equation: $$9(0)+10y=19.$$ Then $$10y=19,$$ so $$y=\\frac{19}{10}.$$"
+      "content": "Set $x=0$ in the original equation: $$7(0)+8y=17.$$ Then $$8y=17,$$ so $$y=\\frac{17}{8}.$$"
     },
     {
       "title": "Apply the vertical shift",
-      "content": "Shifting a graph up $6$ units adds $6$ to every $y$-value, including the $y$-intercept. The new intercept is $$\\frac{19}{10}+6=\\frac{19}{10}+\\frac{60}{10}=\\frac{79}{10}.$$"
+      "content": "Shifting a graph up $5$ units adds $5$ to every $y$-value, including the $y$-intercept. The new intercept is $$\\frac{17}{8}+5=\\frac{17}{8}+\\frac{40}{8}=\\frac{57}{8}.$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "The resulting graph has $y$-intercept $(0,\\frac{79}{10})$, which matches <strong>Choice A &mdash; (0, $\\frac{79}{10}$)</strong>."
+      "content": "The resulting graph has $y$-intercept $(0,\\frac{57}{8})$, which matches <strong>Choice A &mdash; (0, $\\frac{57}{8}$)</strong>."
     }
   ]
 }

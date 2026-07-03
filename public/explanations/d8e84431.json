@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Write the width in terms of $x$",
-      "content": "Let $x$ be the length, in inches. The length is $24$ inches longer than the width, so:<br/>$$\\text{width} = x - 24.$$"
+      "content": "Let $x$ be the length, in inches. The length is $26$ inches longer than the width, so:<br/>$$\\text{width} = x - 26.$$"
     },
     {
       "title": "Apply the area formula",
-      "content": "Area $=$ length $\\times$ width $= 2{,}661$:<br/>$$x(x - 24) = 2{,}661.$$<br/>Expand: $x^{2} - 24x = 2{,}661$, then move everything to one side:<br/>$$x^{2} - 24x - 2{,}661 = 0.$$"
+      "content": "Area $=$ length $\\times$ width $= 2{,}535$:<br/>$$x(x - 26) = 2{,}535.$$<br/>Expand: $x^{2} - 26x = 2{,}535$, then move everything to one side:<br/>$$x^{2} - 26x - 2{,}535 = 0.$$"
     },
     {
       "title": "Compare to each choice",
-      "content": "<ul><li><strong>$0={x}^{2}-24x-2,661$</strong>: $0 = x^{2} - 24x - 2{,}661$: matches the derived equation exactly.</li><li><strong>$0={x}^{2}-24x+2,661$</strong>: $0 = x^{2} - 24x + 2{,}661$: wrong sign on the constant; would mean $x(x-24) = -2{,}661$.</li><li><strong>$0={x}^{2}+24x-2,661$</strong>: $0 = x^{2} + 24x - 2{,}661$: would correspond to width $= x + 24$, which contradicts \"length is longer than width\".</li><li><strong>$0={x}^{2}+24x+2,661$</strong>: $0 = x^{2} + 24x + 2{,}661$: discriminant $24^{2} - 4(2{,}661) \\lt 0$, no real solution, so no valid length.</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+      "content": "<ul><li><strong>$0={x}^{2}-26x-2,535$</strong>: $0 = x^{2} - 26x - 2{,}535$: matches the derived equation exactly.</li><li><strong>$0={x}^{2}-26x+2,535$</strong>: $0 = x^{2} - 26x + 2{,}535$: wrong sign on the constant; would mean $x(x-26) = -2{,}535$.</li><li><strong>$0={x}^{2}+26x-2,535$</strong>: $0 = x^{2} + 26x - 2{,}535$: would correspond to width $= x + 26$, which contradicts \"length is longer than width\".</li><li><strong>$0={x}^{2}+26x+2,535$</strong>: $0 = x^{2} + 26x + 2{,}535$: discriminant $26^{2} - 4(2{,}535) \\lt 0$, no real solution, so no valid length.</li></ul>That matches the correct answer &mdash; <strong>A</strong> is correct."
     }
   ]
 }

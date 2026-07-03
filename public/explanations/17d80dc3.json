@@ -1,16 +1,16 @@
 {
   "questionId": "17d80dc3",
-  "correctAnswer": "7",
+  "correctAnswer": "8",
   "section": "Math",
   "steps": [
     {
       "title": "Write the equation of line k",
-      "content": "Use slope-intercept form with slope $m = 5$ and $y$-intercept $b = -35$. This gives: $$y = 5x - 35$$",
+      "content": "Use slope-intercept form with slope $m = 6$ and $y$-intercept $b = -48$. This gives: $$y = 6x - 48$$",
       "formula": "$$y = mx + b$$"
     },
     {
       "title": "Find the x-intercept by setting y = 0",
-      "content": "At the $x$-intercept, $y = 0$. Substitute into the equation: $$0 = 5x - 35$$ <br/>Add 35 to both sides: $$5x = 35$$ <br/>Divide both sides by 5: $$x = 7$$ <br/>The $x$-coordinate of the $x$-intercept is 7."
+      "content": "At the $x$-intercept, $y = 0$. Substitute into the equation: $$0 = 6x - 48$$ <br/>Add 48 to both sides: $$6x = 48$$ <br/>Divide both sides by 6: $$x = 8$$ <br/>The $x$-coordinate of the $x$-intercept is 8."
     }
   ]
 }

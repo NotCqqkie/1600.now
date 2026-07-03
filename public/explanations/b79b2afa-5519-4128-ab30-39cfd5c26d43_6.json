@@ -1,6 +1,6 @@
 {
   "questionId": "b79b2afa-5519-4128-ab30-39cfd5c26d43_6",
-  "correctAnswer": "26",
+  "correctAnswer": "31",
   "section": "Math",
   "steps": [
     {
@@ -9,15 +9,15 @@
     },
     {
       "title": "Solve",
-      "content": "Since $h(0) = 26$, it follows that $b = 26$."
+      "content": "Since $h(0) = 31$, it follows that $b = 31$."
     },
     {
       "title": "Answer",
-      "content": "<strong>26</strong> is correct."
+      "content": "<strong>31</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "As a final check, make sure the computed value answers exactly what the question asks for. The work above gives $26$; substituting or interpreting it in the original condition satisfies the requirement, so $26$ is the value to enter."
+      "content": "As a final check, make sure the computed value answers exactly what the question asks for. The work above gives $31$; substituting or interpreting it in the original condition satisfies the requirement, so $31$ is the value to enter."
     }
   ]
 }

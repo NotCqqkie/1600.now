@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $55{x}^{2}$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $66{x}^{2}$."
     },
     {
       "title": "Algebra check",
@@ -13,11 +13,11 @@
     },
     {
       "title": "Combine like terms",
-      "content": "Both terms have $x^2$, so add their coefficients:<br/>$$50x^2+5x^2=(50+5)x^2=55x^2$$"
+      "content": "Both terms have $x^2$, so add their coefficients:<br/>$$60x^2+6x^2=(60+6)x^2=66x^2$$"
     },
     {
       "title": "Test each choice",
-      "content": "<ul><li><strong>A)</strong> $250x^2$: would come from multiplying $50 \\times 5$, not adding. Eliminate.</li><li><strong>B)</strong> $10x^2$: would come from $50/5$, not addition. Eliminate.</li><li><strong>C)</strong> $45x^2$: would come from $50-5$, not addition. Eliminate.</li><li><strong>D)</strong> $55x^2$: equals $50+5=55$ times $x^2$. &check;</li></ul>That confirms <strong>D</strong> is correct."
+      "content": "<ul><li><strong>A)</strong> $360x^2$: would come from multiplying $60 \\times 6$, not adding. Eliminate.</li><li><strong>B)</strong> $10x^2$: would come from $60/6$, not addition. Eliminate.</li><li><strong>C)</strong> $54x^2$: would come from $60-6$, not addition. Eliminate.</li><li><strong>D)</strong> $66x^2$: equals $60+6=66$ times $x^2$. &check;</li></ul>That confirms <strong>D</strong> is correct."
     }
   ]
 }

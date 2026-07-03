@@ -5,12 +5,12 @@
   "steps": [
     {
       "title": "Use the intercept form",
-      "content": "The line passes through $(3, 0)$ on the $x$-axis and $(0, 5)$ on the $y$-axis, which are the x-intercept and y-intercept respectively. For any line with x-intercept $a$ and y-intercept $b$, the intercept form is:<br/>$$\\frac{x}{a} + \\frac{y}{b} = 1$$<br/>Substituting $a = 3$ and $b = 5$:<br/>$$\\frac{x}{3} + \\frac{y}{5} = 1$$",
+      "content": "The line passes through $(4, 0)$ on the $x$-axis and $(0, 7)$ on the $y$-axis, which are the x-intercept and y-intercept respectively. For any line with x-intercept $a$ and y-intercept $b$, the intercept form is:<br/>$$\\frac{x}{a} + \\frac{y}{b} = 1$$<br/>Substituting $a = 4$ and $b = 7$:<br/>$$\\frac{x}{4} + \\frac{y}{7} = 1$$",
       "formula": "$$\\frac{x}{a} + \\frac{y}{b} = 1$$"
     },
     {
       "title": "Convert to standard form",
-      "content": "Multiply both sides by 15 (the least common multiple of the denominators 3 and 5):<br/>$$5x + 3y = 15$$<br/>That confirms <strong>B</strong> is correct."
+      "content": "Multiply both sides by 28 (the least common multiple of the denominators 4 and 7):<br/>$$7x + 4y = 28$$<br/>That confirms <strong>B</strong> is correct."
     }
   ]
 }

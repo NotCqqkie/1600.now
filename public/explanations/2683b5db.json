@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Divide both sides by 0.01 to eliminate the coefficient",
-      "content": "Starting with $$t = 0.01(p - 40 000)$$, divide both sides by 0.01 (equivalent to multiplying by 100):<br/>$$\\frac{t}{0.01} = p - 40 000$$<br/>$$100t = p - 40 000$$"
+      "title": "Divide both sides by 0.02 to eliminate the coefficient",
+      "content": "Starting with $$t = 0.02(p - 35 000)$$, divide both sides by 0.02 (equivalent to multiplying by 50):<br/>$$\\frac{t}{0.02} = p - 35 000$$<br/>$$50t = p - 35 000$$"
     },
     {
-      "title": "Add 40 000 to both sides to isolate p",
-      "content": "$$100t + 40 000 = p$$<br/>Therefore $p = 100t + 40 000$. That matches <strong>Choice D &mdash; $P = 100T + 40,000$</strong>."
+      "title": "Add 35 000 to both sides to isolate p",
+      "content": "$$50t + 35 000 = p$$<br/>Therefore $p = 50t + 35 000$. That matches <strong>Choice D &mdash; $P = 50T + 35,000$</strong>."
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Make two points for the line",
-      "content": "The line passes through $(0,14)$. Its slope is $\\frac{1}{9}$, so moving $9$ units right raises $y$ by $1$. That gives a second point, $(9,15)$."
+      "content": "The line passes through $(0,12)$. Its slope is $\\frac{1}{8}$, so moving $8$ units right raises $y$ by $1$. That gives a second point, $(8,13)$."
     },
     {
       "title": "Use the points directly",
-      "content": "Use the table points directly. From $(0,14)$ to $(9,15)$, the slope is $m=\\frac{15-14}{9-0}=\\frac{1}{9}.$ Substituting a point into $y=mx+b$ gives $b=14$. That matches <strong>Choice D &mdash; $y=\\frac{1}{9}x+14$</strong>."
+      "content": "Use the table points directly. From $(0,12)$ to $(8,13)$, the slope is $m=\\frac{13-12}{8-0}=\\frac{1}{8}.$ Substituting a point into $y=mx+b$ gives $b=12$. That matches <strong>Choice D &mdash; $y=\\frac{1}{8}x+12$</strong>."
     }
   ]
 }

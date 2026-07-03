@@ -4,7 +4,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $9x^2(x^4 - 7)$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $8x^2(x^4 - 5)$."
     },
     {
       "title": "Algebra check",
@@ -12,15 +12,15 @@
     },
     {
       "title": "Find the greatest common factor",
-      "content": "Identify the greatest common factor (GCF) of $9x^6$ and $63x^2$. The GCF of 9 and 63 is 9, and the GCF of $x^6$ and $x^2$ is $x^2$, so the overall GCF is $9x^2$.<br/><br/><strong>Result:</strong> GCF = $9x^2$"
+      "content": "Identify the greatest common factor (GCF) of $8x^6$ and $40x^2$. The GCF of 8 and 40 is 8, and the GCF of $x^6$ and $x^2$ is $x^2$, so the overall GCF is $8x^2$.<br/><br/><strong>Result:</strong> GCF = $8x^2$"
     },
     {
       "title": "Factor the expression",
-      "content": "Factor $9x^2$ out of the expression: $9x^6 - 63x^2 = 9x^2 \\cdot x^4 - 9x^2 \\cdot 7 = 9x^2(x^4 - 7)$.<br/><br/><strong>Result:</strong> $9x^2(x^4-7)$"
+      "content": "Factor $8x^2$ out of the expression: $8x^6 - 40x^2 = 8x^2 \\cdot x^4 - 8x^2 \\cdot 5 = 8x^2(x^4 - 5)$.<br/><br/><strong>Result:</strong> $8x^2(x^4-5)$"
     },
     {
       "title": "Check by expanding",
-      "content": "Verify by expanding: $9x^2 \\cdot x^4 = 9x^6$ and $9x^2 \\cdot 7 = 63x^2$, so $9x^2(x^4-7) = 9x^6 - 63x^2$. Confirmed.<br/><br/><strong>Result:</strong> Factored form is correct"
+      "content": "Verify by expanding: $8x^2 \\cdot x^4 = 8x^6$ and $8x^2 \\cdot 5 = 40x^2$, so $8x^2(x^4-5) = 8x^6 - 40x^2$. Confirmed.<br/><br/><strong>Result:</strong> Factored form is correct"
     }
   ],
   "correctAnswer": "D",

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Isolate the term with p",
-      "content": "Subtract 55 from both sides of the equation.<br/>$$10p + 55 = 375$$<br/>$$10p + 55 - 55 = 375 - 55$$<br/>$$10p = 320$$"
+      "content": "Subtract 63 from both sides of the equation.<br/>$$9p + 63 = 369$$<br/>$$9p + 63 - 63 = 369 - 63$$<br/>$$9p = 306$$"
     },
     {
       "title": "Solve for p",
-      "content": "Divide both sides by 10 to isolate $p$.<br/>$$\\frac{10p}{10} = \\frac{320}{10}$$<br/>$$p = 32$$<br/><strong>A</strong> is correct."
+      "content": "Divide both sides by 9 to isolate $p$.<br/>$$\\frac{9p}{9} = \\frac{306}{9}$$<br/>$$p = 34$$<br/><strong>A</strong> is correct."
     }
   ]
 }

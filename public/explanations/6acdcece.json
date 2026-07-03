@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Isolate x",
-      "content": "Start with $$b-72=\\frac{x}{y}.$$ Multiply both sides by $y$: $$y(b-72)=x.$$"
+      "content": "Start with $$b-65=\\frac{x}{y}.$$ Multiply both sides by $y$: $$y(b-65)=x.$$"
     },
     {
       "title": "Distribute",
-      "content": "Distribute $y$ across the parentheses: $$x=by-72y.$$"
+      "content": "Distribute $y$ across the parentheses: $$x=by-65y.$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "$x=by-72y$ matches <strong>D</strong>."
+      "content": "$x=by-65y$ matches <strong>D</strong>."
     },
     {
       "title": "Check the structure of the answer",
-      "content": "The whole quantity $b-72$ is multiplied by $y$, so both terms must receive the factor $y$. That is why the answer has $by-72y$, not $by-72$."
+      "content": "The whole quantity $b-65$ is multiplied by $y$, so both terms must receive the factor $y$. That is why the answer has $by-65y$, not $by-65$."
     }
   ]
 }

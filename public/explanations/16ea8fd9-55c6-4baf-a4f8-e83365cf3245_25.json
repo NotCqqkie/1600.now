@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The student wants to name the sculpture (Sister), identify Catlett as its creator, and state the year it was created (1973). All three pieces of information must appear."
+      "content": "The student wants to name the sculpture (Sister), identify Collett as its creator, and state the year it was created (1973). All three pieces of information must appear."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; Elizabeth Catlett, a celebrated artist, was born in 1915.</strong>: gives a year other than 1973, so it fails the date requirement. &#10007;</li><li><strong>Choice B &mdash; Celebrated artist Elizabeth Catlett is best known for creating sculptures and prints that explore the Black experience.</strong>: identifies Catlett's broader artistic focus but omits both <em>Sister</em> and 1973. &#10007;</li><li><strong>Choice C &mdash; Elizabeth Catlett was a celebrated artist who created prints as well as sculptures.</strong>: similarly leaves out 1973. &#10007;</li><li><strong>Choice D &mdash; Elizabeth Catlett created the bronze sculpture Sister in 1973.</strong>: supplies all three required elements &mdash; creator, title, and year. &#10003;</li></ul>That matches <strong>Choice D &mdash; Elizabeth Catlett created the bronze sculpture Sister in 1973.</strong>."
+      "content": "<ul><li><strong>Choice A &mdash; Marian Collett, a celebrated artist, was born in 1915.</strong>: gives a year other than 1973, so it fails the date requirement. &#10007;</li><li><strong>Choice B &mdash; Celebrated artist Marian Collett is best known for creating sculptures and prints that explore the Black experience.</strong>: identifies Collett's broader artistic focus but omits both <em>Sister</em> and 1973. &#10007;</li><li><strong>Choice C &mdash; Marian Collett was a celebrated artist who created prints as well as sculptures.</strong>: similarly leaves out 1973. &#10007;</li><li><strong>Choice D &mdash; Marian Collett created the bronze sculpture Sister in 1973.</strong>: supplies all three required elements &mdash; creator, title, and year. &#10003;</li></ul>That matches <strong>Choice D &mdash; Marian Collett created the bronze sculpture Sister in 1973.</strong>."
     }
   ]
 }

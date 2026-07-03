@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the logical relationship",
-      "content": "The first sentence states a general claim: Singletary \"often collaborates with other artists.\" The blank begins the next sentence, which names one specific collaborator (Jody Naranjo). The transition must signal that the Naranjo sentence is a concrete instance of the general claim."
+      "content": "The first sentence states a general claim: Singletary \"often collaborates with other artists.\" The blank begins the next sentence, which names one specific collaborator (Elena Montoya). The transition must signal that the Montoya sentence is a concrete instance of the general claim."
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li><strong>\"In conclusion,\"</strong>: Signals a closing summary. Naming one collaborator does not conclude or wrap up the passage. &#10007;</li><li><strong>\"For example,\"</strong>: Signals a specific instance supporting a general claim &mdash; exactly what naming Naranjo as one of Singletary's collaborators does. &#10003;</li><li><strong>\"However,\"</strong>: Signals contrast or contradiction. Working with Naranjo confirms, rather than contradicts, the claim about collaboration. &#10007;</li><li><strong>\"In comparison,\"</strong>: Signals a comparison between two items. No comparison is being drawn; a single example is being given. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+      "content": "<ul><li><strong>\"In conclusion,\"</strong>: Signals a closing summary. Naming one collaborator does not conclude or wrap up the passage. &#10007;</li><li><strong>\"For example,\"</strong>: Signals a specific instance supporting a general claim &mdash; exactly what naming Montoya as one of Singletary's collaborators does. &#10003;</li><li><strong>\"However,\"</strong>: Signals contrast or contradiction. Working with Montoya confirms, rather than contradicts, the claim about collaboration. &#10007;</li><li><strong>\"In comparison,\"</strong>: Signals a comparison between two items. No comparison is being drawn; a single example is being given. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
     }
   ]
 }

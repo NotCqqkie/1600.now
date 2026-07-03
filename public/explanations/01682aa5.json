@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Rewrite line p",
-      "content": "Put $2y+18x=9$ in slope-intercept form:<br/>$$2y=-18x+9$$<br/>$$y=-9x+\\frac{9}{2}$$<br/>So line $p$ has slope $-9$."
+      "content": "Put $3y+24x=15$ in slope-intercept form:<br/>$$3y=-24x+15$$<br/>$$y=-8x+5$$<br/>So line $p$ has slope $-8$."
     },
     {
       "title": "Use the perpendicular rule",
-      "content": "Perpendicular slopes are negative reciprocals. The negative reciprocal of $-9$ is:<br/>$$-\\frac{1}{-9}=\\frac{1}{9}$$"
+      "content": "Perpendicular slopes are negative reciprocals. The negative reciprocal of $-8$ is:<br/>$$-\\frac{1}{-8}=\\frac{1}{8}$$"
     },
     {
       "title": "Check the choices",
-      "content": "<strong>Choice A &mdash; $-9$</strong> is the original slope. <strong>Choice B &mdash; $-\\frac{1}{9}$</strong> has the wrong sign. <strong>Choice D &mdash; $9$</strong> is not the reciprocal. <strong>Choice C &mdash; $\\frac{1}{9}$</strong> is $\\frac{1}{9}$."
+      "content": "<strong>Choice A &mdash; $-8$</strong> is the original slope. <strong>Choice B &mdash; $-\\frac{1}{8}$</strong> has the wrong sign. <strong>Choice D &mdash; $8$</strong> is not the reciprocal. <strong>Choice C &mdash; $\\frac{1}{8}$</strong> is $\\frac{1}{8}$."
     },
     {
       "title": "Answer",
-      "content": "The slope of line $r$ is $\\frac{1}{9}$, so <strong>C</strong> is correct."
+      "content": "The slope of line $r$ is $\\frac{1}{8}$, so <strong>C</strong> is correct."
     }
   ]
 }

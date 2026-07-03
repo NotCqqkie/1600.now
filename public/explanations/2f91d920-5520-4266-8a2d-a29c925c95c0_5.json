@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Analyze the equation",
-      "content": "Take the square root of both sides of $$x^2=2{,}601.$$ Since $51^2=2{,}601$, $x=\\pm 51$."
+      "content": "Take the square root of both sides of $$x^2=2{,}704.$$ Since $52^2=2{,}704$, $x=\\pm 52$."
     },
     {
       "title": "Count the solutions",
-      "content": "There are two real solutions, $51$ and $-51$. <strong>C</strong> is correct."
+      "content": "There are two real solutions, $52$ and $-52$. <strong>C</strong> is correct."
     },
     {
       "title": "Confirm the answer",

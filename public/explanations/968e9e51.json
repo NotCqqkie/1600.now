@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Test both inequalities",
-      "content": "A solution must satisfy both $y\\le x$ and $y\\le -x$."
+      "content": "A solution must satisfy both $y\\le 2x$ and $y\\le -2x$."
     },
     {
       "title": "Check the correct pair",
-      "content": "For $(0,-1)$, the first inequality gives $-1\\le0$, which is true. The second gives $-1\\le -0$, or $-1\\le0$, which is also true."
+      "content": "For $(0,-2)$, the first inequality gives $-2\\le2(0)$, or $-2\\le0$, which is true. The second gives $-2\\le -2(0)$, or $-2\\le0$, which is also true."
     },
     {
       "title": "Eliminate the others",
-      "content": "$(1,0)$ fails $y\\le -x$, $(-1,0)$ fails $y\\le x$, and $(0,1)$ fails both. Therefore <strong>D</strong> is correct."
+      "content": "$(2,0)$ fails $y\\le -2x$, $(-2,0)$ fails $y\\le 2x$, and $(0,2)$ fails both. Therefore <strong>D</strong> is correct."
     }
   ]
 }

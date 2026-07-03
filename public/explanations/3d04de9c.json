@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Backsolve with 20",
-      "content": "Backsolving with $20$:<br/>$$\\text{Total flags} = \\text{blue} + \\text{yellow} = 20 + 20 = 40$$<br/>Since the problem states there are 25 flags total, $40 \\ne 25$, so this test fails."
+      "title": "Backsolve with 24",
+      "content": "Backsolving with $24$:<br/>$$\\text{Total markers} = \\text{green} + \\text{orange} = 24 + 24 = 48$$<br/>Since the problem states there are 32 markers total, $48 \\ne 32$, so this test fails."
     },
     {
-      "title": "Backsolve with 5",
-      "content": "Testing $5$:<br/>$$\\text{Total flags} = 20 + 5 = 25$$<br/>This matches the given total of 25 flags.<br/><strong>A</strong> is correct."
+      "title": "Backsolve with 8",
+      "content": "Testing $8$:<br/>$$\\text{Total markers} = 24 + 8 = 32$$<br/>This matches the given total of 32 markers.<br/><strong>A</strong> is correct."
     }
   ]
 }

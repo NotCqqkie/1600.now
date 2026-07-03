@@ -1,15 +1,15 @@
 {
   "questionId": "e62cfe5f",
-  "correctAnswer": "2.6,13/5",
+  "correctAnswer": "2.8,14/5",
   "section": "Math",
   "steps": [
     {
       "title": "Translate the model to an equation",
-      "content": "The statement \"head width equals 0.6 added to four times body weight\" becomes: $$h = 0.6 + 4w$$ where $h$ is head width in mm and $w$ is body weight in grams."
+      "content": "The statement \"head width equals 0.8 added to five times body weight\" becomes: $$h = 0.8 + 5w$$ where $h$ is head width in mm and $w$ is body weight in grams."
     },
     {
       "title": "Substitute the body weight and compute",
-      "content": "With $w=0.5$ grams, substitute directly: $$h=0.6+4(0.5)=0.6+2=2.6$$ The head width is <strong>2.6 millimeters</strong>, so valid entries include <strong>2.6</strong> and <strong>13/5</strong>."
+      "content": "With $w=0.4$ grams, substitute directly: $$h=0.8+5(0.4)=0.8+2=2.8$$ The head width is <strong>2.8 millimeters</strong>, so valid entries include <strong>2.8</strong> and <strong>14/5</strong>."
     }
   ]
 }

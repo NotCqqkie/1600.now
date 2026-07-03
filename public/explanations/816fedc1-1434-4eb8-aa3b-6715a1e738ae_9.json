@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Interpret the function notation F(4) = 28",
-      "content": "In the context of F(m) = 7m, the statement F(4) = 28 means we are evaluating the function at $m = 4$ kilograms. The result is 28 newtons. In context: the input is mass 4 kg, and the output is force 28 N."
+      "title": "Interpret the function notation F(5) = 30",
+      "content": "In the context of F(m) = 6m, the statement F(5) = 30 means we are evaluating the function at $m = 5$ kilograms. The result is 30 newtons. In context: the input is mass 5 kg, and the output is force 30 N."
     },
     {
       "title": "Match the interpretation to the correct choice",
-      "content": "We established that when the mass is 4 kilograms, the force is 28 newtons.<br/><br/>Looking at the choices, choice A (&lsquo;The estimated force acting on an object with a mass of 4 kilograms is 28 newtons.&rsquo;) states: <em>The estimated force acting on an object with a mass of 4 kilograms is 28 newtons.</em> This exactly matches our interpretation.<br/><br/>That confirms <strong>A</strong> is correct."
+      "content": "We established that when the mass is 5 kilograms, the force is 30 newtons.<br/><br/>Looking at the choices, choice A (&lsquo;The estimated force acting on an object with a mass of 5 kilograms is 30 newtons.&rsquo;) states: <em>The estimated force acting on an object with a mass of 5 kilograms is 30 newtons.</em> This exactly matches our interpretation.<br/><br/>That confirms <strong>A</strong> is correct."
     }
   ]
 }

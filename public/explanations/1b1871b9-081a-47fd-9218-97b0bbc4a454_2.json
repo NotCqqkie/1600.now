@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Combine constant terms on the left",
-      "content": "Add the numbers on the left side of the equation: $25 + 35 = 60$.<br/>The equation becomes $$60 + x = 125$$"
+      "content": "Add the numbers on the left side of the equation: $28 + 32 = 60$.<br/>The equation becomes $$60 + x = 130$$"
     },
     {
       "title": "Isolate x and solve",
-      "content": "Subtract 60 from both sides:<br/>$$x = 125 - 60 = 65$$<br/>That matches <strong>Choice B &mdash; 65</strong>."
+      "content": "Subtract 60 from both sides:<br/>$$x = 130 - 60 = 70$$<br/>That matches <strong>Choice B &mdash; 70</strong>."
     }
   ]
 }

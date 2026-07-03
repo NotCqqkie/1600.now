@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Backsolving by testing the candidate",
-      "content": "Backsolving by testing the candidate (C(d)=56d-28):<br/>For $d=1$, expected cost is 56 dollars.<br/>$$C(1)=56\\cdot1-28=28$$<br/>Since $28\\neq56$, the remaining alternative fails."
+      "content": "Backsolving by testing the candidate (C(d)=72d-36):<br/>For $d=1$, expected cost is 72 dollars.<br/>$$C(1)=72\\cdot1-36=36$$<br/>Since $36\\neq72$, the remaining alternative fails."
     },
     {
       "title": "Backsolving by testing the candidate",
-      "content": "Backsolving by testing the candidate (C(d)=28d+28):<br/>For $d=1$, expected cost is 56 dollars.<br/>$$C(1)=28\\cdot1+28=56$$<br/>For $d=2$, expected cost is 56 dollars plus 28 dollars, or 84 dollars.<br/>$$C(2)=28\\cdot2+28=84$$<br/>That matches the correct answer — <strong>A</strong> is correct."
+      "content": "Backsolving by testing the candidate (C(d)=36d+36):<br/>For $d=1$, expected cost is 72 dollars.<br/>$$C(1)=36\\cdot1+36=72$$<br/>For $d=2$, expected cost is 72 dollars plus 36 dollars, or 108 dollars.<br/>$$C(2)=36\\cdot2+36=108$$<br/>That matches the correct answer &mdash; <strong>A</strong> is correct."
     }
   ]
 }

@@ -5,12 +5,12 @@
   "steps": [
     {
       "title": "Identify a common factor",
-      "content": "Every term in $4x + 6 = 12$ is divisible by 2."
+      "content": "Every term in $6x + 12 = 24$ is divisible by 2."
     },
     {
       "title": "Divide both sides by 2",
-      "content": "$$\\frac{4x + 6}{2} = \\frac{12}{2}$$<br/>$$2x + 3 = 6$$"
+      "content": "$$\\frac{6x + 12}{2} = \\frac{24}{2}$$<br/>$$3x + 6 = 12$$"
     }
   ],
-  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; &lsquo;$2x + 4 = 6$&rsquo;</strong>: Divides $4x$ and $12$ by 2 correctly but changes 6 to 4 instead of $6 \\div 2 = 3$. &#10007;</li><li><strong>Choice B &mdash; &lsquo;$x + 3 = 3$&rsquo;</strong>: Divides $4x$ by 4 and $6$ by 2 but $12$ by 4, applying inconsistent factors. &#10007;</li><li><strong>Choice C &mdash; &lsquo;$3x + 2 = 4$&rsquo;</strong>: Not equivalent &mdash; no single operation on $4x+6=12$ produces this. &#10007;</li><li><strong>Choice D &mdash; &lsquo;$2x + 3 = 6$&rsquo;</strong>: Dividing every term by 2 gives $2x + 3 = 6$, which is equivalent to the original. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; &lsquo;$3x + 7 = 12$&rsquo;</strong>: Divides $6x$ and $24$ by 2 correctly but changes 12 to 7 instead of $12 \\div 2 = 6$. &#10007;</li><li><strong>Choice B &mdash; &lsquo;$x + 6 = 4$&rsquo;</strong>: Divides $6x$ and $24$ by 6 but leaves the constant as 6 instead of $12 \\div 6 = 2$. &#10007;</li><li><strong>Choice C &mdash; &lsquo;$5x + 4 = 8$&rsquo;</strong>: Changes $12$ and $24$ as if dividing by 3, but no single operation on $6x+12=24$ produces $5x+4=8$. &#10007;</li><li><strong>Choice D &mdash; &lsquo;$3x + 6 = 12$&rsquo;</strong>: Dividing every term by 2 gives $3x + 6 = 12$, which is equivalent to the original. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
 }

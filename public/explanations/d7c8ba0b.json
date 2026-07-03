@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Use the two given points",
-      "content": "The line passes through $(0,9)$ and $(1,17)$. The point $(0,9)$ gives the $y$-intercept, so $b=9$."
+      "content": "The line passes through $(0,7)$ and $(1,13)$. The point $(0,7)$ gives the $y$-intercept, so $b=7$."
     },
     {
       "title": "Read the equation",
-      "content": "The slope is $$m=\\frac{17-9}{1-0}=8.$$ With slope $8$ and intercept $9$, the line is $$y=8x+9.$$"
+      "content": "The slope is $$m=\\frac{13-7}{1-0}=6.$$ With slope $6$ and intercept $7$, the line is $$y=6x+7.$$"
     },
     {
       "title": "Check the choices",
-      "content": "Only $y=8x+9$ has slope 8 and $y$-intercept 9. $y=8x+9$ is correct."
+      "content": "Only choice D, $y=6x+7$, has slope 6 and $y$-intercept 7. Choice D is correct."
     }
   ]
 }

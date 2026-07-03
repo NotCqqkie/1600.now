@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Identify the right-triangle legs",
-      "content": "In a right triangle, the longest side is the hypotenuse, so $\\sqrt{80}$ is the hypotenuse. The other two sides, $2\\sqrt{2}$ and $6\\sqrt{2}$, are the legs used as the base and height."
+      "content": "In a right triangle, the longest side is the hypotenuse, so $\\sqrt{82}$ is the hypotenuse. The other two sides, $4\\sqrt{2}$ and $5\\sqrt{2}$, are the legs used as the base and height."
     },
     {
       "title": "Verify the Pythagorean theorem to identify the legs",
-      "content": "Since we're given three sides and told it's a right triangle, we need to confirm which sides are the legs. Compute the squares:<br/>$$(2\\sqrt{2})^2 = 4 \\cdot 2 = 8$$<br/>$$(6\\sqrt{2})^2 = 36 \\cdot 2 = 72$$<br/>$$(\\sqrt{80})^2 = 80$$<br/>Check: $8 + 72 = 80$ ✓<br/><br/>So $2\\sqrt{2}$ and $6\\sqrt{2}$ are the legs, and $\\sqrt{80}$ is the hypotenuse."
+      "content": "Since we're given three sides and told it's a right triangle, we need to confirm which sides are the legs. Compute the squares:<br/>$$(4\\sqrt{2})^2 = 16 \\cdot 2 = 32$$<br/>$$(5\\sqrt{2})^2 = 25 \\cdot 2 = 50$$<br/>$$(\\sqrt{82})^2 = 82$$<br/>Check: $32 + 50 = 82$<br/><br/>So $4\\sqrt{2}$ and $5\\sqrt{2}$ are the legs, and $\\sqrt{82}$ is the hypotenuse."
     },
     {
       "title": "Apply the area formula for a right triangle",
-      "content": "The area of a right triangle is $A = \\frac{1}{2} \\times \\text{leg}_1 \\times \\text{leg}_2$.<br/>$$A = \\frac{1}{2} \\times 2\\sqrt{2} \\times 6\\sqrt{2}$$<br/>When multiplying the legs, combine the coefficients and radicals:<br/>$$2\\sqrt{2} \\times 6\\sqrt{2} = (2 \\times 6) \\times (\\sqrt{2} \\times \\sqrt{2}) = 12 \\times 2 = 24$$<br/>Therefore:<br/>$$A = \\frac{1}{2} \\times 24 = 12$$<br/><strong>B</strong> is correct."
+      "content": "The area of a right triangle is $A = \\frac{1}{2} \\times \\text{leg}_1 \\times \\text{leg}_2$.<br/>$$A = \\frac{1}{2} \\times 4\\sqrt{2} \\times 5\\sqrt{2}$$<br/>When multiplying the legs, combine the coefficients and radicals:<br/>$$4\\sqrt{2} \\times 5\\sqrt{2} = (4 \\times 5) \\times (\\sqrt{2} \\times \\sqrt{2}) = 20 \\times 2 = 40$$<br/>Therefore:<br/>$$A = \\frac{1}{2} \\times 40 = 20$$<br/><strong>B</strong> is correct."
     }
   ]
 }

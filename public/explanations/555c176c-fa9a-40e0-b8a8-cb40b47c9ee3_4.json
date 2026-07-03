@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up the dimensions",
-      "content": "Width is $w$ feet. The length is $31$ times the width, so length $=31w$ feet. Area $=$ length $\\times$ width gives $$y=(31w)(w).$$"
+      "content": "Width is $w$ feet. The length is $29$ times the width, so length $=29w$ feet. Area $=$ length $\\times$ width gives $$y=(29w)(w).$$"
     },
     {
       "title": "Interpret the factor",
-      "content": "In $(31w)(w)$, the factor $w$ is the width, so $(31w)$ must be the length. <strong>A</strong> is correct."
+      "content": "In $(29w)(w)$, the factor $w$ is the width, so $(29w)$ must be the length. <strong>A</strong> is correct."
     }
   ]
 }

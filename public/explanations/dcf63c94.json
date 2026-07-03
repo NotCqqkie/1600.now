@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Apply function composition",
-      "content": "Since $h(x) = f(x-4)$, substitute $(x-4)$ for $x$ in the definition of $f(x) = 272 \\cdot 2^x$:<br/>$$h(x) = f(x-4) = 272 \\cdot 2^{x-4}$$"
+      "content": "Since $h(x) = f(x-4)$, substitute $(x-4)$ for $x$ in the definition of $f(x) = 304 \\cdot 2^x$:<br/>$$h(x) = f(x-4) = 304 \\cdot 2^{x-4}$$"
     },
     {
       "title": "Use exponent rules to separate the terms",
-      "content": "Rewrite $2^{x-4}$ using the rule $a^{m-n} = a^m \\cdot a^{-n}$:<br/>$$2^{x-4} = 2^x \\cdot 2^{-4} = 2^x \\cdot \\frac{1}{16}$$<br/>Substitute back into the expression for $h(x)$:<br/>$$h(x) = 272 \\cdot 2^x \\cdot \\frac{1}{16} = \\frac{272}{16} \\cdot 2^x$$"
+      "content": "Rewrite $2^{x-4}$ using the rule $a^{m-n} = a^m \\cdot a^{-n}$:<br/>$$2^{x-4} = 2^x \\cdot 2^{-4} = 2^x \\cdot \\frac{1}{16}$$<br/>Substitute back into the expression for $h(x)$:<br/>$$h(x) = 304 \\cdot 2^x \\cdot \\frac{1}{16} = \\frac{304}{16} \\cdot 2^x$$"
     },
     {
       "title": "Evaluate the coefficient",
-      "content": "Divide to find the constant factor:<br/>$$\\frac{272}{16} = 17$$<br/>Therefore $h(x) = 17 \\cdot 2^x$. That matches the correct answer — <strong>A</strong> is correct."
+      "content": "Divide to find the constant factor:<br/>$$\\frac{304}{16} = 19$$<br/>Therefore $h(x) = 19 \\cdot 2^x$. That matches the correct answer &mdash; <strong>A</strong> is correct."
     }
   ]
 }

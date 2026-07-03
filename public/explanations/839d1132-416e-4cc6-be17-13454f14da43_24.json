@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find the key signal",
-      "content": "The first sentence says Stephaney Smith worked at JPL, one of the world's leading facilities for robotic space exploration. The second sentence gives a concrete detail of what she did there — her specific role on the Mars 2020 Perseverance rover team."
+      "content": "The first sentence says Marisa Chen worked at JPL, one of the world's leading facilities for robotic space exploration. The second sentence gives a concrete detail of what she did there — her specific role on the Mars 2020 Perseverance rover team."
     },
     {
       "title": "Apply the signal to the choices",
-      "content": "The logical relationship is specification. The blank needs a transition signaling that the second sentence narrows in on a concrete example of Smith's work at JPL.\n<ul>\n<li><strong>Choice A &mdash; Conversely,</strong>: signals direct opposition, but Smith's rover role doesn't contradict the claim that she worked at JPL — it confirms it. ✗</li>\n<li><strong>Choice B &mdash; Finally,</strong>: signals the last item in a series or the end of a process, but there's no series here — just a general claim followed by one detail. ✗</li>\n<li><strong>Choice C &mdash; Nevertheless,</strong>: signals contrast despite an obstacle, but no obstacle is mentioned in the first sentence. ✗</li>\n<li><strong>Choice D &mdash; Specifically,</strong>: signals a concrete detail or narrowing of a general claim, so fits — the rover role is the specific work she did at JPL. ✓</li>\n</ul>\nThat confirms <strong>D</strong> is correct."
+      "content": "The logical relationship is specification. The blank needs a transition signaling that the second sentence narrows in on a concrete example of Chen's work at JPL.\n<ul>\n<li><strong>Choice A &mdash; Conversely,</strong>: signals direct opposition, but Chen's rover role doesn't contradict the claim that she worked at JPL — it confirms it. ✗</li>\n<li><strong>Choice B &mdash; Finally,</strong>: signals the last item in a series or the end of a process, but there's no series here — just a general claim followed by one detail. ✗</li>\n<li><strong>Choice C &mdash; Nevertheless,</strong>: signals contrast despite an obstacle, but no obstacle is mentioned in the first sentence. ✗</li>\n<li><strong>Choice D &mdash; Specifically,</strong>: signals a concrete detail or narrowing of a general claim, so fits — the rover role is the specific work she did at JPL. ✓</li>\n</ul>\nThat confirms <strong>D</strong> is correct."
     }
   ]
 }

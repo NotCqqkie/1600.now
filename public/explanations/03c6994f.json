@@ -9,12 +9,12 @@
     },
     {
       "title": "Recognize the scale factor rule for areas",
-      "content": "The side length of square A is 246 times the side length of square B, so the linear scale factor is 246. For any two similar figures, when linear dimensions scale by a factor $r$, the areas scale by $r^2$. Here, $r = 246$.",
+      "content": "The side length of square A is 248 times the side length of square B, so the linear scale factor is 248. For any two similar figures, when linear dimensions scale by a factor $r$, the areas scale by $r^2$. Here, $r = 248$.",
       "formula": "$$\\text{Area scale factor} = r^2$$"
     },
     {
       "title": "Calculate the area scale factor and match the answer",
-      "content": "The area of square A is $246^2$ times the area of square B, so $k = 246^2$.<br/>Computing: $246^2 = 60{,}516$<br/>That matches <strong>Choice A &mdash; $60,516$</strong>."
+      "content": "The area of square A is $248^2$ times the area of square B, so $k = 248^2$.<br/>Computing: $248^2 = 61{,}504$<br/>That matches <strong>Choice A &mdash; $61,504$</strong>."
     }
   ]
 }

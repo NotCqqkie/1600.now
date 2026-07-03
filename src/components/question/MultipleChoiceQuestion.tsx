@@ -5,13 +5,18 @@ import { Button } from "@/components/ui/button";
 import { TransparentAwareImage } from "@/components/TransparentAwareImage";
 import { getChoiceImageClassName } from "@/lib/questionImageDisplay";
 import type { QuestionImageDisplaySize } from "@/data/questionImageSizing.generated";
-import "katex/dist/katex.min.css";
 
 interface Choice {
   id: string;
   text?: string;
   image?: string;
   imageDisplaySize?: QuestionImageDisplaySize;
+  imageWidth?: number;
+  imageHeight?: number;
+  imageHasTransparency?: boolean;
+  imageOptimizedSrc?: string;
+  imageSrcSet?: string;
+  imageSizes?: string;
 }
 
 interface MultipleChoiceQuestionProps {
@@ -84,16 +89,33 @@ export const MultipleChoiceQuestion = ({
         )}
         {hasImage && (
           <div className="w-full -mx-1 flex justify-center">
-            <TransparentAwareImage
-              src={normalizePublicAssetPath(choice.image)}
-              alt={`SAT question ${questionId} choice ${choice.id} image`}
-              className={cn(
-                "w-auto max-w-full h-auto object-contain block",
-                getChoiceImageClassName(choice.imageDisplaySize),
-                dimmed && "opacity-60"
-              )}
-              trimWhitespace
-            />
+            {(() => {
+              const src = normalizePublicAssetPath(choice.image);
+              const intrinsicSize = choice.imageWidth && choice.imageHeight
+                ? { width: choice.imageWidth, height: choice.imageHeight }
+                : undefined;
+              return (
+                <TransparentAwareImage
+                  src={src}
+                  alt={`SAT question ${questionId} choice ${choice.id} image`}
+                  loading="eager"
+                  fetchPriority="auto"
+                  optimizedSrc={choice.imageOptimizedSrc}
+                  srcSet={choice.imageSrcSet}
+                  sizes={choice.imageSizes}
+                  width={choice.imageWidth}
+                  height={choice.imageHeight}
+                  intrinsicSize={intrinsicSize}
+                  hasTransparency={choice.imageHasTransparency}
+                  className={cn(
+                    "w-auto max-w-full h-auto object-contain block",
+                    getChoiceImageClassName(choice.imageDisplaySize),
+                    dimmed && "opacity-60"
+                  )}
+                  trimWhitespace={!choice.imageOptimizedSrc}
+                />
+              );
+            })()}
           </div>
         )}
       </div>

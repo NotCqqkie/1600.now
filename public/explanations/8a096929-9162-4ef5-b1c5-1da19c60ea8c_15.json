@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the inverse relationship",
-      "content": "Margin of error is inversely proportional to $\\sqrt{n}$: a larger sample size produces a smaller margin of error.<br/><br/>Sample 1's margin of error (1 minute) is smaller than Sample 2's (2.2 minutes), so Sample 1 had the larger sample size.<br/><br/>The first sample contained more ovens than the second sample.<br/><br/>That confirms <strong>A</strong> is correct."
+      "content": "Margin of error is inversely proportional to $\\sqrt{n}$: a larger sample size produces a smaller margin of error.<br/><br/>Sample 1's margin of error (0.8 minute) is smaller than Sample 2's (1.7 minutes), so Sample 1 had the larger sample size.<br/><br/>The first sample contained more ovens than the second sample.<br/><br/>That confirms <strong>A</strong> is correct."
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Calculate b",
-      "content": "80% less means subtract 80% of 24 from 24: $$b = 24 - 0.80 \\times 24 = 24(1-0.80) = 24 \\times 0.20 = 4.8$$"
+      "content": "70% less means subtract 70% of 36 from 36: $$b = 36 - 0.70 \\times 36 = 36(1-0.70) = 36 \\times 0.30 = 10.8$$"
     },
     {
       "title": "Calculate a and select answer",
-      "content": "190% greater means add 190% of b to b: $$a = b + 1.90b = 2.9b$$<br/>Substitute b = 4.8: $$a = 2.9 \\times 4.8 = (2 \\times 4.8) + (0.9 \\times 4.8) = 9.6 + 4.32 = 13.92$$<br/>That matches <strong>Choice B &mdash; $13.92$</strong>."
+      "content": "140% greater means add 140% of b to b: $$a = b + 1.40b = 2.4b$$<br/>Substitute b = 10.8: $$a = 2.4 \\times 10.8 = (2 \\times 10.8) + (0.4 \\times 10.8) = 21.6 + 4.32 = 25.92$$<br/>That matches <strong>Choice B &mdash; $25.92$</strong>."
     }
   ]
 }

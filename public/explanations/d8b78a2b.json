@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find the key statement",
-      "content": "The passage explicitly states <em>“No clear evidence has emerged to favor one of these claims over the others.”</em> This is the crucial point determining the answer."
+      "content": "The passage explicitly states <em>“No clear evidence has emerged to favor one of these claims over the others, however.”</em> This is the crucial point determining the answer."
     },
     {
       "title": "Find the logical conclusion",
-      "content": "<strong>we cannot say at present who actually baked the first red velvet cake.</strong> expresses the appropriate conclusion: we cannot identify the inventor.<br/><br/>The other options either introduce unsupported facts (A: pre-1860s origin, D: Dallas creator) or claim greater certainty than the passage allows (C: that none of them likely invented it).<br/><br/>That matches the correct answer — <strong>B</strong> is correct."
+      "content": "<strong>we cannot say at present who actually baked the first red velvet cake.</strong> expresses the appropriate conclusion: we cannot identify the inventor.<br/><br/>The other options either introduce unsupported facts (A: pre-1860s origin, D: Austin creator) or claim greater certainty than the passage allows (C: that none of them likely invented it).<br/><br/>That matches the correct answer — <strong>B</strong> is correct."
     }
   ]
 }

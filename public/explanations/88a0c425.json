@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Connect one solution to the discriminant",
-      "content": "A quadratic has exactly one real solution when its discriminant is $0$. For $-2x^2+20x+c=0$, use $a=-2$ and $b=20$."
+      "content": "A quadratic has exactly one real solution when its discriminant is $0$. For $-3x^2+24x+c=0$, use $a=-3$ and $b=24$."
     },
     {
       "title": "Solve for c",
-      "content": "Set $b^2-4ac=0$: $$20^2-4(-2)c=0$$ $$400+8c=0$$ $$c=-50$$"
+      "content": "Set $b^2-4ac=0$: $$24^2-4(-3)c=0$$ $$576+12c=0$$ $$c=-48$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "<strong>B</strong> is $-50$, so <strong>B</strong> is correct."
+      "content": "<strong>B</strong> is $-48$, so <strong>B</strong> is correct."
     },
     {
       "title": "Check the one-solution condition",
-      "content": "A zero discriminant means the parabola touches the $x$-axis once instead of crossing twice or missing it. With $c=-50$, the discriminant is $400+8(-50)=0$."
+      "content": "A zero discriminant means the parabola touches the $x$-axis once instead of crossing twice or missing it. With $c=-48$, the discriminant is $576+12(-48)=0$."
     }
   ]
 }

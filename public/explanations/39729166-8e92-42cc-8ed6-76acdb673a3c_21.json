@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Find the slope and properties of the given line",
-      "content": "Given $5x + 3y = 6 \\Rightarrow y = -\\frac{5}{3}x + 2$. Slope $= -\\frac{5}{3}$, $y$-intercept $= 2$."
+      "content": "Given $4x + 5y = 10 \\Rightarrow y = -\\frac{4}{5}x + 2$. Slope $= -\\frac{4}{5}$, $y$-intercept $= 2$."
     },
     {
-      "title": "Test Equation I: $7.5x + 4.5y = 9$",
-      "content": "Check ratios: $\\frac{7.5}{5} = 1.5$, $\\frac{4.5}{3} = 1.5$, $\\frac{9}{6} = 1.5$. All ratios equal, so Equation I is $1.5 \\times$ the original $\\Rightarrow$ same line $\\Rightarrow$ infinitely many solutions. At least one solution exists."
+      "title": "Test Equation I: $6x + 7.5y = 15$",
+      "content": "Check ratios: $\\frac{6}{4} = 1.5$, $\\frac{7.5}{5} = 1.5$, $\\frac{15}{10} = 1.5$. All ratios equal, so Equation I is $1.5 \\times$ the original $\\Rightarrow$ same line $\\Rightarrow$ infinitely many solutions. At least one solution exists."
     },
     {
-      "title": "Test Equation II: $7.5x - 4.5y = 9$",
-      "content": "Check slope: $-4.5y = -7.5x + 9 \\Rightarrow y = \\frac{5}{3}x - 2$. Slope $= \\frac{5}{3} \\neq -\\frac{5}{3}$ (different sign). Different slopes $\\Rightarrow$ lines intersect at exactly one point $\\Rightarrow$ one solution. At least one solution exists."
+      "title": "Test Equation II: $6x - 7.5y = 15$",
+      "content": "Check slope: $-7.5y = -6x + 15 \\Rightarrow y = \\frac{4}{5}x - 2$. Slope $= \\frac{4}{5} \\neq -\\frac{4}{5}$ (different sign). Different slopes $\\Rightarrow$ lines intersect at exactly one point $\\Rightarrow$ one solution. At least one solution exists."
     },
     {
       "title": "Evaluate all four answer choices",

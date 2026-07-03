@@ -1,19 +1,19 @@
 {
   "questionId": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_21",
-  "correctAnswer": "792",
+  "correctAnswer": "744",
   "section": "Math",
   "steps": [
     {
       "title": "Simplify the absolute values using the constraint a < 0",
-      "content": "Since $a \\lt 0$, both $17a$ and $8a$ are negative. Taking absolute values:<ul><li>$|17a| = -(17a) = -17a$</li><li>$|8a| = -(8a) = -8a$</li></ul>"
+      "content": "Since $a \\lt 0$, both $16a$ and $9a$ are negative. Taking absolute values:<ul><li>$|16a| = -(16a) = -16a$</li><li>$|9a| = -(9a) = -9a$</li></ul>"
     },
     {
-      "title": "Evaluate $f(17a)$ and $f(8a)$",
-      "content": "$$f(17a) = \\frac{-17a}{a} - 16 = -17 - 16 = -33$$<br/>$$f(8a) = \\frac{-8a}{a} - 16 = -8 - 16 = -24$$"
+      "title": "Evaluate $f(16a)$ and $f(9a)$",
+      "content": "$$f(16a) = \\frac{-16a}{a} - 15 = -16 - 15 = -31$$<br/>$$f(9a) = \\frac{-9a}{a} - 15 = -9 - 15 = -24$$"
     },
     {
       "title": "Multiply to find the answer",
-      "content": "$$f(17a) \\times f(8a) = (-33) \\times (-24) = 792$$<br/>The answer is <strong>792</strong>."
+      "content": "$$f(16a) \\times f(9a) = (-31) \\times (-24) = 744$$<br/>The answer is <strong>744</strong>."
     }
   ]
 }

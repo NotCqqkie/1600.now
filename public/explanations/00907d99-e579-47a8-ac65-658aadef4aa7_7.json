@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Interpret the constraint",
-      "content": "The phrase <em>no more than 12 dollars</em> describes a limit on spending. In inequality notation, <em>no more than</em> means ≤. So the total cost must satisfy (total cost) ≤ 12."
+      "content": "The phrase <em>no more than 15 dollars</em> describes a limit on spending. In inequality notation, <em>no more than</em> means $\\le$. So the total cost must satisfy (total cost) $\\le$ 15."
     },
     {
       "title": "Identify the cost expression",
-      "content": "Each orange costs 0.67 dollars, and we're buying $x$ oranges, so the base cost is $0.67x$. The problem includes a 2-dollar adjustment (shown as a minus sign), making the total cost: $0.67x - 2$"
+      "content": "Each pear costs 0.72 dollars, and we're buying $x$ pears, so the base cost is $0.72x$. The problem includes a 3-dollar adjustment (shown as a minus sign), making the total cost: $0.72x - 3$"
     },
     {
       "title": "Set up and identify the inequality",
-      "content": "Combining the cost expression with the constraint:<br/>$$0.67x - 2 \\le 12$$<br/>That matches <strong>Choice C &mdash; $0.67x - 2 \\le 12$</strong>."
+      "content": "Combining the cost expression with the constraint:<br/>$$0.72x - 3 \\le 15$$<br/>That matches <strong>Choice C &mdash; $0.72x - 3 \\le 15$</strong>."
     }
   ]
 }

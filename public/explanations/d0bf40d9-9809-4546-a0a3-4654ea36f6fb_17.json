@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Convert 10% to a fraction",
-      "content": "We need to find 10% of 330 bean pods. Converting to a fraction: 10% = $\\frac{1}{10}$."
+      "content": "We need to find 10% of 280 seeds. Converting to a fraction: 10% = $\\frac{1}{10}$."
     },
     {
       "title": "Divide by 10",
-      "content": "To find $\\frac{1}{10}$ of 330, we divide:<br/>$$330 \\div 10 = 33$$<br/>Jasmin saved 33 bean pods. That is the correct answer."
+      "content": "To find $\\frac{1}{10}$ of 280, we divide:<br/>$$280 \\div 10 = 28$$<br/>Maya saved 28 seeds. That is the correct answer."
     }
   ]
 }

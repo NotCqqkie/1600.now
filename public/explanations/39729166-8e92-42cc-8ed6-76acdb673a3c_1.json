@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+      "title": "Fastest path: use the triangle sum",
+      "content": "Use the fact that the three interior angles of a triangle add to $180^\\circ$. Once the sum of two angles is known, subtract that sum from $180^\\circ$."
     },
     {
       "title": "Apply the angle sum property of triangles",
-      "content": "In any triangle, the sum of the interior angles is $180^{\\circ}$. For triangle EFG: $$\\angle E + \\angle F + \\angle G = 180^{\\circ}$$ Given that $\\angle E + \\angle F = 31^{\\circ}$, we substitute: $$31^{\\circ} + \\angle G = 180^{\\circ}$$ $$\\angle G = 180^{\\circ} - 31^{\\circ} = 149^{\\circ}$$ <strong>D</strong> is correct.",
+      "content": "In any triangle, the sum of the interior angles is $180^{\\circ}$. For triangle HJK: $$\\angle H + \\angle J + \\angle K = 180^{\\circ}$$ Given that $\\angle H + \\angle J = 42^{\\circ}$, we substitute: $$42^{\\circ} + \\angle K = 180^{\\circ}$$ $$\\angle K = 180^{\\circ} - 42^{\\circ} = 138^{\\circ}$$ <strong>D</strong> is correct.",
       "formula": "$$\\angle A + \\angle B + \\angle C = 180^{\\circ}$$"
     }
   ]

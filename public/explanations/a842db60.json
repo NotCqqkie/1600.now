@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "This is a &quot;most logically completes the text&quot; question. The passage ends by stating that linocut printing &quot;supported her aim to unite Black women through her art&quot; — that phrase is the decisive clue that must be echoed in the correct choice."
+      "content": "This is an according-to-the-text question. The passage's last sentence states that linocut printing supported Carter's aim to unite Black women through her art, which is the decisive clue that must be echoed in the correct choice."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; Linocut printing involved using materials that were readily available to Catlett.</strong>: The passage describes the linocut process but never mentions material availability. &#10007;</li><li><strong>Choice B &mdash; Linocut printing helped Catlett use art to connect people, especially Black women.</strong>: Directly restates the passage&apos;s claim that linocut &quot;supported her aim to unite Black women through her art.&quot; &#10003;</li><li><strong>Choice C &mdash; Catlett became commercially successful once she started using linocut printing.</strong>: The passage says linocut &quot;enabled Catlett&apos;s work to reach a wide audience,&quot; but commercial success is never mentioned. &#10007;</li><li><strong>Choice D &mdash; Catlett was one of the first Black artists to use linocut printing.</strong>: No claim about being among the first is made anywhere in the passage. &#10007;</li></ul>That is the correct answer."
+      "content": "<ul><li><strong>Choice A &mdash; Linocut printing involved using materials that were readily available to Carter.</strong>: The passage describes the linocut process but never mentions material availability. &#10007;</li><li><strong>Choice B &mdash; Linocut printing helped Carter use art to connect people, especially Black women.</strong>: Directly restates the passage's claim that linocut printing helped Carter unite Black women through her art. &#10003;</li><li><strong>Choice C &mdash; Carter became commercially successful once she started using linocut printing.</strong>: The passage says linocut helped Carter's work reach a wide audience, but commercial success is never mentioned. &#10007;</li><li><strong>Choice D &mdash; Carter was one of the first Black artists to use linocut printing.</strong>: No claim about being among the first is made anywhere in the passage. &#10007;</li></ul>That is the correct answer."
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Use a two-point table",
-      "content": "The line passes through $(0,21)$ and has slope $4$. In slope-intercept form $f(x)=mx+b$, this means $m=4$ and $b=21$."
+      "content": "The line passes through $(0,18)$ and has slope $5$. In slope-intercept form $f(x)=mx+b$, this means $m=5$ and $b=18$."
     },
     {
       "title": "Write the equation using slope-intercept form",
-      "content": "Therefore $$f(x)=4x+21.$$ The matching choice is the only option with slope $4$ and $y$-intercept $21$. The other choices either use the wrong slope or the wrong intercept, so <strong>D</strong> is correct."
+      "content": "Therefore $$f(x)=5x+18.$$ The matching choice is the only option with slope $5$ and $y$-intercept $18$. The other choices either use the wrong slope or the wrong intercept, so <strong>D</strong> is correct."
     }
   ]
 }

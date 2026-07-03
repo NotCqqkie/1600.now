@@ -1,6 +1,6 @@
 {
   "questionId": "9377a50a-f782-492e-a3bf-a2b90698cacc_10",
-  "correctAnswer": "13",
+  "correctAnswer": "17",
   "section": "Math",
   "steps": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "title": "Evaluate f(0)",
-      "content": "Substitute $x = 0$ into $f(x) = x^4 + 8x + 13$:<br/>$$f(0) = (0)^4 + 8(0) + 13 = 0 + 0 + 13 = 13$$<br/>Therefore, $b = 13$."
+      "content": "Substitute $x = 0$ into $f(x) = x^4 + 6x + 17$:<br/>$$f(0) = (0)^4 + 6(0) + 17 = 0 + 0 + 17 = 17$$<br/>Therefore, $b = 17$."
     }
   ]
 }

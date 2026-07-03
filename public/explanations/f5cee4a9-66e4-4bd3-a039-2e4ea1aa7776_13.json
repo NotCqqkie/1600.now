@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "What x-intercepts mean",
-      "content": "An $x$-intercept is a point on the graph where it crosses the $x$-axis, which means the $y$-coordinate is 0. If $(-5, 0)$ is an $x$-intercept, then the point $(-5, 0)$ is on the graph of $f$. Using function notation, this translates directly to $f(-5) = 0$."
+      "content": "An $x$-intercept is a point on the graph where it crosses the $x$-axis, which means the $y$-coordinate is 0. If $(-7, 0)$ is an $x$-intercept, then the point $(-7, 0)$ is on the graph of $f$. Using function notation, this translates directly to $f(-7) = 0$."
     },
     {
       "title": "Test each answer choice",
-      "content": "Now check which statement must be true based on what we know:<ul><li><strong>\"$f(0) = -5$\"</strong> $f(0) = -5$ — the value at $x = 0$ is not specified by the given intercepts</li><li><strong>\"$f(6) = -5$\"</strong> $f(6) = -5$ — this contradicts the fact that $(6, 0)$ is an $x$-intercept, so $f(6) = 0$</li><li><strong>\"$f(-5) = 0$\"</strong> $f(-5) = 0$ — this matches exactly what the $x$-intercept at $(-5, 0)$ tells us</li><li><strong>\"$f(-5) = 6$\"</strong> $f(-5) = 6$ — this contradicts our finding that $f(-5) = 0$</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+      "content": "Now check which statement must be true based on what we know:<ul><li><strong>\"$f(0) = -7$\"</strong> $f(0) = -7$ — the value at $x = 0$ is not specified by the given intercepts</li><li><strong>\"$f(4) = -7$\"</strong> $f(4) = -7$ — this contradicts the fact that $(4, 0)$ is an $x$-intercept, so $f(4) = 0$</li><li><strong>\"$f(-7) = 0$\"</strong> $f(-7) = 0$ — this matches exactly what the $x$-intercept at $(-7, 0)$ tells us</li><li><strong>\"$f(-7) = 4$\"</strong> $f(-7) = 4$ — this contradicts our finding that $f(-7) = 0$</li></ul>That matches the correct answer — <strong>C</strong> is correct."
     }
   ]
 }

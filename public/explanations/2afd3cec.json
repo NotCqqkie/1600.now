@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Interpret the percentage relationship",
-      "content": "If 20% of the original marbles were removed, then 80% of the original remained. Since 360 marbles remained, we know:<br/>$$0.8 \\times \\text{original} = 360$$"
+      "content": "If 25% of the original marbles were removed, then 75% of the original remained. Since 300 marbles remained, we know:<br/>$$0.75 \\times \\text{original} = 300$$"
     },
     {
-      "title": "Find 20% removed using proportions",
-      "content": "We don't need to solve for the original. Instead, note that 20 is $\\frac{1}{4}$ of 80 (since $\\frac{20}{80} = \\frac{1}{4}$).<br/><br/>This means the marbles removed equal $\\frac{1}{4}$ of the marbles remaining:<br/>$$\\text{Removed} = \\frac{1}{4} \\times 360 = 90$$<br/>That matches <strong>Choice B &mdash; $90$</strong>."
+      "title": "Find 25% removed using proportions",
+      "content": "We don't need to solve for the original. Instead, note that 25 is $\\frac{1}{3}$ of 75 (since $\\frac{25}{75} = \\frac{1}{3}$).<br/><br/>This means the marbles removed equal $\\frac{1}{3}$ of the marbles remaining:<br/>$$\\text{Removed} = \\frac{1}{3} \\times 300 = 100$$<br/>That matches <strong>Choice B &mdash; $100$</strong>."
     }
   ]
 }

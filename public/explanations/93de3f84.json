@@ -9,12 +9,12 @@
     },
     {
       "title": "Set up the volume formula for the original cylinder",
-      "content": "For cylinder A with volume 22 cubic centimeters and radius $r_A$ and height $h_A$, we have $\\pi r_A^2 h_A = 22$.",
+      "content": "For cylinder A with volume 28 cubic centimeters and radius $r_A$ and height $h_A$, we have $\\pi r_A^2 h_A = 28$.",
       "formula": "$$V = \\pi r^2 h$$"
     },
     {
       "title": "Apply the new dimensions and calculate",
-      "content": "The new cylinder has radius $2r_A$ (twice the radius) and height $\\frac{1}{2}h_A$ (half the height). Substituting into the volume formula:<br/>$$V_{\\text{new}} = \\pi(2r_A)^2 \\left(\\frac{1}{2}h_A\\right)$$<br/>$$= \\pi \\cdot 4r_A^2 \\cdot \\frac{1}{2}h_A$$<br/>$$= 2\\pi r_A^2 h_A$$<br/>$$= 2 \\cdot 22 = 44$$<br/>That confirms <strong>C</strong> is correct."
+      "content": "The new cylinder has radius $2r_A$ (twice the radius) and height $\\frac{1}{2}h_A$ (half the height). Substituting into the volume formula:<br/>$$V_{\\text{new}} = \\pi(2r_A)^2 \\left(\\frac{1}{2}h_A\\right)$$<br/>$$= \\pi \\cdot 4r_A^2 \\cdot \\frac{1}{2}h_A$$<br/>$$= 2\\pi r_A^2 h_A$$<br/>$$= 2 \\cdot 28 = 56$$<br/>That confirms <strong>C</strong> is correct."
     }
   ]
 }

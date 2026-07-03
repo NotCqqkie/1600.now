@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up",
-      "content": "Distribute both sides of the equation. Left side: $36(x-1) = 36x - 36$. Right side: $4(-9+9x) = -36 + 36x$. The equation becomes $$36x - 36 = 36x - 36$$"
+      "content": "Distribute both sides of the equation. Left side: $40(x-2) = 40x - 80$. Right side: $5(-16+8x) = -80 + 40x$. The equation becomes $$40x - 80 = 40x - 80$$"
     },
     {
       "title": "Solve",
-      "content": "Subtract $36x$ from both sides: $-36 = -36$. This is always true regardless of $x$, so every real number is a solution &mdash; the equation has infinitely many solutions."
+      "content": "Subtract $40x$ from both sides: $-80 = -80$. This is always true regardless of $x$, so every real number is a solution &mdash; the equation has infinitely many solutions."
     },
     {
       "title": "Answer",

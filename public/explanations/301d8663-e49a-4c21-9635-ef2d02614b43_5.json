@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Fastest path: use the function table",
-      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $308$, so the answer is <strong>D</strong>, 308. This is just a one-row lookup, and the arithmetic below confirms the table value."
+      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $367$, so the answer is <strong>D</strong>, 367. This is just a one-row lookup, and the arithmetic below confirms the table value."
     },
     {
-      "title": "Substitute x = 3 into the function",
-      "content": "Replace $x$ with $3$ in $f(x) = 100x + 8$:<br/>$$f(3) = 100(3) + 8$$"
+      "title": "Substitute x = 4 into the function",
+      "content": "Replace $x$ with $4$ in $f(x) = 90x + 7$:<br/>$$f(4) = 90(4) + 7$$"
     },
     {
-      "title": "Simplify to find f(3)",
-      "content": "Calculate $100 \\times 3 = 300$, then add $8$:<br/>$$300 + 8 = 308$$ The function value asks for the output when $x=3$, so <strong>D</strong> is correct."
+      "title": "Simplify to find f(4)",
+      "content": "Calculate $90 \\times 4 = 360$, then add $7$:<br/>$$360 + 7 = 367$$ The function value asks for the output when $x=4$, so <strong>D</strong> is correct."
     }
   ]
 }

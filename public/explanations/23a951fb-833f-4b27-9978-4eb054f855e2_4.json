@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Write the total bags equation",
-      "content": "The vendor sold 180 total bags of tea and cashews. Since $x$ is tea bags and $y$ is cashew bags:<br/>$$x + y = 180$$"
+      "content": "The vendor sold 160 total bags of granola and pistachios. Since $x$ is granola bags and $y$ is pistachio bags:<br/>$$x + y = 160$$"
     },
     {
       "title": "Write the revenue equation and identify the system",
-      "content": "Tea costs 7 dollars per bag and cashews cost 12 dollars per bag. Total revenue is 1,820 dollars, so:<br/>$$7x + 12y = 1,820$$<br/>Our system is: $x + y = 180$ and $7x + 12y = 1,820$. Only <strong>Choice C &mdash; $7x + 12y = 1,820$\n$x + y = 180$</strong> lists both equations in this form. That matches <strong>Choice C &mdash; $7x + 12y = 1,820$\n$x + y = 180$</strong>."
+      "content": "Granola costs 8 dollars per bag and pistachios cost 13 dollars per bag. Total revenue is 1,675 dollars, so:<br/>$$8x + 13y = 1,675$$<br/>Our system is: $x + y = 160$ and $8x + 13y = 1,675$. Only <strong>Choice C &mdash; $8x + 13y = 1,675$\n$x + y = 160$</strong> lists both equations in this form. That matches <strong>Choice C &mdash; $8x + 13y = 1,675$\n$x + y = 160$</strong>."
     }
   ]
 }

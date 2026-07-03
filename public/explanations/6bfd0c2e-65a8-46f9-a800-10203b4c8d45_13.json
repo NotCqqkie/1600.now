@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the slope of line t",
-      "content": "The equation $y = -\\frac{1}{4}x + 15$ is in slope-intercept form $y = mx + b$. The slope is $m = -\\frac{1}{4}$."
+      "content": "The equation $y = -\\frac{1}{5}x + 18$ is in slope-intercept form $y = mx + b$. The slope is $m = -\\frac{1}{5}$."
     },
     {
       "title": "Apply the perpendicular line shortcut",
-      "content": "Perpendicular lines have slopes that are negative reciprocals of each other. <br/><br/>To find the negative reciprocal of $-\\frac{1}{4}$:<ul><li>The reciprocal of $-\\frac{1}{4}$ is $-4$</li><li>Negate it: $-(-4) = 4$</li></ul>Therefore, the slope of line s is $4$. That confirms <strong>B</strong> is correct."
+      "content": "Perpendicular lines have slopes that are negative reciprocals of each other. <br/><br/>To find the negative reciprocal of $-\\frac{1}{5}$:<ul><li>The reciprocal of $-\\frac{1}{5}$ is $-5$</li><li>Negate it: $-(-5) = 5$</li></ul>Therefore, the slope of line s is $5$. That confirms <strong>B</strong> is correct."
     }
   ]
 }

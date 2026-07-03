@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up the ratio",
-      "content": "&quot;What percent of $x$&quot; means we compare $0.19x$ to $x$ as a fraction, then multiply by $100\\%$:<br/>$$\\frac{0.19x}{x} \\times 100\\%$$"
+      "content": "&quot;What percent of $x$&quot; means we compare $0.23x$ to $x$ as a fraction, then multiply by $100\\%$:<br/>$$\\frac{0.23x}{x} \\times 100\\%$$"
     },
     {
       "title": "Simplify and compute",
-      "content": "The $x$ cancels in the numerator and denominator:<br/>$$0.19 \\times 100\\% = 19\\%$$<br/>So $0.19x$ is $19\\%$ of $x$, which matches <strong>A</strong>."
+      "content": "The $x$ cancels in the numerator and denominator:<br/>$$0.23 \\times 100\\% = 23\\%$$<br/>So $0.23x$ is $23\\%$ of $x$, which matches <strong>A</strong>."
     }
   ]
 }

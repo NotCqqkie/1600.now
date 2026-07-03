@@ -5,16 +5,16 @@
   "steps": [
     {
       "title": "Use the Pythagorean theorem",
-      "content": "The two given lengths, $28$ and $20$, are the legs of a right triangle. Use $c^2=a^2+b^2$ to find the hypotenuse, then simplify the radical."
+      "content": "The two given lengths, $32$ and $28$, are the legs of a right triangle. Use $c^2=a^2+b^2$ to find the hypotenuse, then simplify the radical."
     },
     {
       "title": "Apply Pythagorean theorem with early factoring",
-      "content": "For a right triangle, use the Pythagorean theorem. Notice both legs are divisible by 4: $28 = 4(7)$ and $20 = 4(5)$. <br/>$$c^2 = [4(7)]^2 + [4(5)]^2 = 16(49) + 16(25) = 16(49 + 25) = 16(74)$$",
+      "content": "For a right triangle, use the Pythagorean theorem. Notice both legs are divisible by 4: $32 = 4(8)$ and $28 = 4(7)$. <br/>$$c^2 = [4(8)]^2 + [4(7)]^2 = 16(64) + 16(49) = 16(64 + 49) = 16(113)$$",
       "formula": "$$c^2 = a^2 + b^2$$"
     },
     {
       "title": "Simplify the radical to find the hypotenuse",
-      "content": "Take the square root of both sides: <br/>$$c = \\sqrt{16(74)} = \\sqrt{16} \\cdot \\sqrt{74} = 4\\sqrt{74}$$<br/>That confirms <strong>B</strong> is correct."
+      "content": "Take the square root of both sides: <br/>$$c = \\sqrt{16(113)} = \\sqrt{16} \\cdot \\sqrt{113} = 4\\sqrt{113}$$<br/>That confirms <strong>B</strong> is correct."
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up the total weight inequality",
-      "content": "The person weighs 190 pounds. The freight elevator will carry <em>x</em> boxes at 23 pounds each and <em>y</em> boxes at 60 pounds each. The total weight is<br/>$$190 + 23x + 60y$$<br/>Since the maximum capacity is 5,450 pounds, the total weight must not exceed this limit:<br/>$$190 + 23x + 60y \\le 5,450$$"
+      "content": "The person weighs 180 pounds. The freight elevator will carry <em>x</em> boxes at 24 pounds each and <em>y</em> boxes at 55 pounds each. The total weight is<br/>$$180 + 24x + 55y$$<br/>Since the maximum capacity is 5,620 pounds, the total weight must not exceed this limit:<br/>$$180 + 24x + 55y \\le 5,620$$"
     },
     {
       "title": "Simplify to find the answer",
-      "content": "Subtract 190 from both sides:<br/>$$23x + 60y \\le 5,450 - 190$$<br/>$$23x + 60y \\le 5,260$$<br/>That matches <strong>Choice D &mdash; $23x + 60y \\le 5,260$</strong>."
+      "content": "Subtract 180 from both sides:<br/>$$24x + 55y \\le 5,620 - 180$$<br/>$$24x + 55y \\le 5,440$$<br/>That matches <strong>Choice D &mdash; $24x + 55y \\le 5,440$</strong>."
     }
   ]
 }

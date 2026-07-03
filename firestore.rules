@@ -3,10 +3,19 @@ rules_version = '2';
 // Deploy with: firebase deploy --only firestore:rules
 //
 // Threat model:
-//   - Each user owns exactly one doc at /user_progress/{uid}.
+//   - Each user owns exactly one doc at /user_progress/{uid}. Writes are
+//     validated with lightweight per-field type checks (defense-in-depth);
+//     the field set is permissive because clients send partial merges.
 //   - /question_reports/{questionId} is a community-aggregate record. Any
 //     signed-in user may file a report (uses FieldValue.increment) but ONLY
 //     the admin may read individual docs, list the collection, or delete.
+//   - Report invariants enforced by rules: totalReports increments by exactly
+//     1 per write; each per-reason counts.* is int, non-negative, and grows by
+//     AT MOST 1 per write (== 1 on create); reason keys are whitelisted to the
+//     known set plus 'other'; otherComments is non-shrinking and capped in
+//     size. Per-comment text length (500 chars) is enforced client-side only —
+//     Firestore rules cannot cheaply iterate arrays; a subcollection would be
+//     required for full server-side enforcement.
 service cloud.firestore {
   match /databases/{database}/documents {
 
@@ -16,11 +25,14 @@ service cloud.firestore {
              && request.auth.token.admin == true;
     }
 
+    // Known per-reason count keys (see REPORT_REASONS in questionReports.ts)
+    // plus the free-text 'other' bucket.
     function reportCountKeys() {
       return ['incorrectAnswer', 'incorrectQuestion', 'missingImage',
               'corrupted', 'typo', 'wrongExplanation', 'other'];
     }
 
+    // On create every present counts.* must be an int == 1.
     function countCreateValid(k, counts) {
       return (!(k in counts) || (counts[k] is int && counts[k] == 1));
     }
@@ -36,12 +48,13 @@ service cloud.firestore {
              && countCreateValid('other', counts);
     }
 
+    // On update each present counts.* must be an int >= 0 that grows by at
+    // most 1 versus the prior value (0 if the key was absent).
     function countStepValid(k, next, prev) {
-      let previous = k in prev ? prev[k] : 0;
       return (!(k in next)
               || (next[k] is int
-                  && next[k] >= previous
-                  && next[k] <= previous + 1));
+                  && next[k] >= 0
+                  && next[k] <= (k in prev ? prev[k] : 0) + 1));
     }
 
     function countsValidOnUpdate(next, prev) {
@@ -66,7 +79,19 @@ service cloud.firestore {
       allow create, update: if request.auth != null
                             && request.auth.uid == uid
                             && request.auth.token.email_verified == true
-                            && request.resource.data.user_id == uid;
+                            && request.resource.data.user_id == uid
+                            // Lightweight type checks on known fields (defense-in-depth).
+                            // Guarded by presence because clients send partial merges.
+                            && (!('data' in request.resource.data)
+                                || request.resource.data.data is map)
+                            && (!('vocab' in request.resource.data)
+                                || request.resource.data.vocab is map)
+                            && (!('personalization' in request.resource.data)
+                                || request.resource.data.personalization is map)
+                            && (!('questionState' in request.resource.data)
+                                || request.resource.data.questionState is map)
+                            && (!('customPracticeSets' in request.resource.data)
+                                || request.resource.data.customPracticeSets is list);
 
       allow delete: if false;
     }
@@ -95,10 +120,17 @@ service cloud.firestore {
                     && (!('counts' in request.resource.data)
                         || countsValidOnUpdate(request.resource.data.counts,
                                                ('counts' in resource.data ? resource.data.counts : {})))
+                    // Existing comments can't be dropped: if the doc already had
+                    // otherComments, the write must still include it (blocks an
+                    // erase via FieldValue.delete() that omits the field).
+                    && (!('otherComments' in resource.data)
+                        || 'otherComments' in request.resource.data)
                     && (!('otherComments' in request.resource.data)
                         || !('otherComments' in resource.data)
                         || (request.resource.data.otherComments.size() >= resource.data.otherComments.size()
                             && request.resource.data.otherComments.size() <= resource.data.otherComments.size() + 1))
+                    // Per-comment text length (500 chars) is enforced client-side;
+                    // rules only bound the array size.
                     && (!('otherComments' in request.resource.data)
                         || request.resource.data.otherComments.size() <= 500);
     }

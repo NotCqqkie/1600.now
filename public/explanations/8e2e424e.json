@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Translate '36% greater than 50'",
-      "content": "When a number is 36% greater than 50, we multiply 50 by $(1 + 0.36)$:<br/>$$k = 50(1 + 0.36) = 50(1.36)$$"
+      "title": "Translate '24% greater than 75'",
+      "content": "When a number is 24% greater than 75, we multiply 75 by $(1 + 0.24)$:<br/>$$k = 75(1 + 0.24) = 75(1.24)$$"
     },
     {
-      "title": "Find r using the condition k = 50r",
-      "content": "We are told that $k = 50r$. Since $k = 50(1.36)$, we can substitute:<br/>$$50(1.36) = 50r$$<br/>Dividing both sides by 50 gives:<br/>$$r = 1.36$$<br/>That confirms <strong>C</strong> is correct."
+      "title": "Find r using the condition k = 75r",
+      "content": "We are told that $k = 75r$. Since $k = 75(1.24)$, we can substitute:<br/>$$75(1.24) = 75r$$<br/>Dividing both sides by 75 gives:<br/>$$r = 1.24$$<br/>That confirms <strong>C</strong> is correct."
     }
   ]
 }

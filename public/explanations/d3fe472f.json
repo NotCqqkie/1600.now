@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Use corresponding sides",
-      "content": "Triangle $XYZ$ has side lengths 2 times the corresponding side lengths of triangle $ABC$. Side $AB$ corresponds to side $XY$."
+      "content": "Triangle $PQR$ has side lengths 2 times the corresponding side lengths of triangle $LMN$. Side $LM$ corresponds to side $PQ$."
     },
     {
       "title": "Identify corresponding sides",
-      "content": "Since $A$ corresponds to $X$, $B$ corresponds to $Y$, and $C$ corresponds to $Z$, side $AB$ corresponds to side $XY$."
+      "content": "Since $L$ corresponds to $P$, $M$ corresponds to $Q$, and $N$ corresponds to $R$, side $LM$ corresponds to side $PQ$."
     },
     {
       "title": "Apply the scale factor",
-      "content": "Each side of triangle $XYZ$ is 2 times the corresponding side in triangle $ABC$. Therefore:<br/>$$XY = 2 \\cdot AB = 2 \\cdot 16 = 32$$<br/>That matches the correct answer — <strong>D</strong> is correct."
+      "content": "Each side of triangle $PQR$ is 2 times the corresponding side in triangle $LMN$. Therefore:<br/>$$PQ = 2 \\cdot LM = 2 \\cdot 18 = 36$$<br/>That matches the correct answer - <strong>D</strong> is correct."
     }
   ]
 }

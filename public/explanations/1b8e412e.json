@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Count the data set and identify positive numbers",
-      "content": "The data set is: $-11$, $-9$, and $26$. <br/>There are <strong>3 total numbers</strong> to choose from. <br/>Checking which are positive: $-11$ is negative, $-9$ is negative, and $26$ is positive. So there is <strong>1 positive number</strong>."
+      "content": "The data set is: $-14$, $-6$, and $31$. <br/>There are <strong>3 total numbers</strong> to choose from. <br/>Checking which are positive: $-14$ is negative, $-6$ is negative, and $31$ is positive. So there is <strong>1 positive number</strong>."
     },
     {
       "title": "Calculate the probability",

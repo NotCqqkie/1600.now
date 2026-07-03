@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Interpret the equation as a rate × hours problem",
-      "content": "The equation $20h + 17c = 1,055$ has the form (rate) × (hours) + (rate) × (hours) = total. The variable $h$ represents hours at the regular job, $c$ represents hours at the second job, and the total equals $1,055$ dollars."
+      "content": "The equation $22h + 18c = 1,164$ has the form (rate) × (hours) + (rate) × (hours) = total. The variable $h$ represents hours at the regular job, $c$ represents hours at the second job, and the total equals $1,164$ dollars."
     },
     {
       "title": "Identify what multiplies the regular job hours",
-      "content": "In an earnings equation, the coefficient multiplying hours must be the hourly rate. Since 20 is the coefficient of $h$ (regular job hours), the value 20 represents the hourly rate at the regular job, expressed in dollars per hour."
+      "content": "In an earnings equation, the coefficient multiplying hours must be the hourly rate. Since 22 is the coefficient of $h$ (regular job hours), the value 22 represents the hourly rate at the regular job, expressed in dollars per hour."
     },
     {
       "title": "Match to the answer choices",
-      "content": "The correct answer states <em>the amount, in dollars, the technician earned for each hour she worked at her regular job</em>. This describes the hourly wage at the regular job, which is the value 20. That is the correct answer."
+      "content": "The correct answer states <em>the amount, in dollars, the mechanic earned for each hour she worked at her regular job</em>. This describes the hourly wage at the regular job, which is the value 22. That is the correct answer."
     }
   ]
 }

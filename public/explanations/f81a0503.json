@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find the slope using the two points",
-      "content": "Using the slope formula with points $(0, -5)$ and $(1, -1)$:<br/>$$m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{-1 - (-5)}{1 - 0} = \\frac{4}{1} = 4$$"
+      "content": "Using the slope formula with points $(0, -6)$ and $(1, -3)$:<br/>$$m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{-3 - (-6)}{1 - 0} = \\frac{3}{1} = 3$$"
     },
     {
       "title": "Write the equation in slope-intercept form",
-      "content": "Since the line passes through $(0, -5)$, the y-intercept is $b = -5$. With slope $m = 4$, the equation is:<br/>$$y = 4x - 5$$<br/>That matches the correct answer — <strong>D</strong> is correct."
+      "content": "Since the line passes through $(0, -6)$, the y-intercept is $b = -6$. With slope $m = 3$, the equation is:<br/>$$y = 3x - 6$$<br/>That matches the correct answer &mdash; <strong>D</strong> is correct."
     }
   ]
 }

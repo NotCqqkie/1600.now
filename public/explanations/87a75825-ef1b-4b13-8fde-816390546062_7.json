@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Treat $x+6$ as a single variable",
-      "content": "Let $u = x+6$. The equation ${7}(x+6) = 6(x+6) + 68$ becomes $7u = 6u + 68$."
+      "title": "Treat $x+4$ as a single variable",
+      "content": "Let $u = x+4$. The equation ${9}(x+4) = 8(x+4) + 72$ becomes $9u = 8u + 72$."
     },
     {
       "title": "Solve for $u$",
-      "content": "Subtract $6u$ from both sides: $7u - 6u = 68$, so $u = 68$. Since $u = x+6$, that gives $x+6 = 68$. That confirms <strong>C</strong> is correct."
+      "content": "Subtract $8u$ from both sides: $9u - 8u = 72$, so $u = 72$. Since $u = x+4$, that gives $x+4 = 72$. That confirms <strong>C</strong> is correct."
     }
   ]
 }

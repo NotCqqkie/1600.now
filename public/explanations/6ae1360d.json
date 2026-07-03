@@ -1,6 +1,6 @@
 {
   "questionId": "6ae1360d",
-  "correctAnswer": "4.41",
+  "correctAnswer": "5.29",
   "section": "Math",
   "steps": [
     {
@@ -14,7 +14,7 @@
     },
     {
       "title": "Substitute the radius and calculate b",
-      "content": "With radius $r = 2.1$ inches, substitute into the formula:<br/>$$A = \\pi (2.1)^2$$<br/>Calculate $(2.1)^2$:<br/>$$(2.1)^2 = 4.41$$<br/>Therefore, the area is $4.41\\pi$ square inches, so $b = 4.41$."
+      "content": "With radius $r = 2.3$ inches, substitute into the formula:<br/>$$A = \\pi (2.3)^2$$<br/>Calculate $(2.3)^2$:<br/>$$(2.3)^2 = 5.29$$<br/>Therefore, the area is $5.29\\pi$ square inches, so $b = 5.29$."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the type of line x = 2",
-      "content": "$x = 2$ is a vertical line — its slope is undefined."
+      "title": "Identify the type of line x = 5",
+      "content": "$x = 5$ is a vertical line; its slope is undefined."
     },
     {
       "title": "Perpendicular to vertical = horizontal",
-      "content": "Perpendicular shortcut: the negative reciprocal of an undefined slope is $0$. A horizontal line has slope $0$. Any line perpendicular to $x=2$ must be parallel to the $x$-axis. That confirms <strong>A</strong> is correct."
+      "content": "A line perpendicular to a vertical line is horizontal. A horizontal line has slope $0$. Any line perpendicular to $x=5$ must be parallel to the $x$-axis. That confirms <strong>A</strong> is correct."
     }
   ]
 }

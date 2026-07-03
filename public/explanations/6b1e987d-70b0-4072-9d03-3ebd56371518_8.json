@@ -1,15 +1,15 @@
 {
   "questionId": "6b1e987d-70b0-4072-9d03-3ebd56371518_8",
-  "correctAnswer": "7",
+  "correctAnswer": "8",
   "section": "Math",
   "steps": [
     {
       "title": "Write the equation of line k",
-      "content": "The slope‑intercept form is $y = mx + b$, where $m$ is the slope and $b$ is the y‑intercept.<br/>Substitute $m = 5$ and $b = -35$:<br/>$$y = 5x - 35$$"
+      "content": "The slope-intercept form is $y = mx + b$, where $m$ is the slope and $b$ is the y-intercept.<br/>Substitute $m = 6$ and $b = -48$:<br/>$$y = 6x - 48$$"
     },
     {
-      "title": "Find the x‑intercept",
-      "content": "The x‑intercept occurs when $y = 0$. Set the equation equal to zero and solve for $x$:<br/>$$0 = 5x - 35$$<br/>Add 35 to both sides:<br/>$$5x = 35$$<br/>Divide both sides by 5:<br/>$$x = 7$$<br/>The answer is <strong>7</strong>."
+      "title": "Find the x-intercept",
+      "content": "The x-intercept occurs when $y = 0$. Set the equation equal to zero and solve for $x$:<br/>$$0 = 6x - 48$$<br/>Add 48 to both sides:<br/>$$6x = 48$$<br/>Divide both sides by 6:<br/>$$x = 8$$<br/>The answer is <strong>8</strong>."
     }
   ]
 }

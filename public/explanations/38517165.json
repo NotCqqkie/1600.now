@@ -1,6 +1,6 @@
 {
   "questionId": "38517165",
-  "correctAnswer": "31",
+  "correctAnswer": "28",
   "section": "Math",
   "steps": [
     {
@@ -9,11 +9,11 @@
     },
     {
       "title": "Use the diameter form",
-      "content": "The fastest formula here is circumference equals pi times diameter: $$C=\\pi d.$$ The problem gives $C=31\\pi$, so $$31\\pi=\\pi d.$$"
+      "content": "The fastest formula here is circumference equals pi times diameter: $$C=\\pi d.$$ The problem gives $C=28\\pi$, so $$28\\pi=\\pi d.$$"
     },
     {
       "title": "Cancel $\\pi$",
-      "content": "Divide both sides by $\\pi$ to get $$d=31.$$ The diameter is <strong>31</strong> centimeters. You do not need to find the radius first unless you choose to use $C=2\\pi r$."
+      "content": "Divide both sides by $\\pi$ to get $$d=28.$$ The diameter is <strong>28</strong> centimeters. You do not need to find the radius first unless you choose to use $C=2\\pi r$."
     }
   ]
 }

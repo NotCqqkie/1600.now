@@ -8,8 +8,8 @@
       "content": "The rate is dollars per hour: $$\\text{rate} = \\frac{p}{w}$$ dollars per hour."
     },
     {
-      "title": "Calculate earnings for 39w hours",
-      "content": "For $39w$ hours, multiply the rate by the time: $$\\frac{p}{w} \\times 39w = 39p$$ dollars. The $w$ cancels, leaving pay in dollars. <strong>A</strong> is correct."
+      "title": "Calculate earnings for 42w hours",
+      "content": "For $42w$ hours, multiply the rate by the time: $$\\frac{p}{w} \\times 42w = 42p$$ dollars. The $w$ cancels, leaving pay in dollars. <strong>A</strong> is correct."
     }
   ]
 }

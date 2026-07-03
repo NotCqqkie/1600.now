@@ -5,16 +5,16 @@
   "steps": [
     {
       "title": "Use the rectangle area formula",
-      "content": "For a rectangle, area = length × width. With area 63 square meters and length 9 meters, set up $63 = 9w$ and solve for the width."
+      "content": "For a rectangle, area = length × width. With area 88 square meters and length 11 meters, set up $88 = 11w$ and solve for the width."
     },
     {
       "title": "Apply the rectangle area formula",
-      "content": "The area of a rectangle is found using <strong>Area = length × width</strong>. We know the area is 63 square meters and the length is 9 meters. Substituting these values into the formula: $$63 = 9 \\times \\text{width}$$",
+      "content": "The area of a rectangle is found using <strong>Area = length × width</strong>. We know the area is 88 square meters and the length is 11 meters. Substituting these values into the formula: $$88 = 11 \\times \\text{width}$$",
       "formula": "$$A = l \\times w$$"
     },
     {
       "title": "Solve for width",
-      "content": "Divide both sides by 9 to isolate the width: $$\\text{width} = \\frac{63}{9} = 7$$ The width is 7 meters. That is the correct answer."
+      "content": "Divide both sides by 11 to isolate the width: $$\\text{width} = \\frac{88}{11} = 8$$ The width is 8 meters. That is the correct answer."
     }
   ]
 }

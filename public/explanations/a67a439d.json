@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Solve the linear equation",
-      "content": "From $x + 7 = 10$, subtract $7$:<br/>$$x = 3$$"
+      "content": "From $x + 8 = 12$, subtract $8$:<br/>$$x = 4$$"
     },
     {
       "title": "Substitute into the second equation",
-      "content": "Plug $x = 3$ into $(x+7)^2 = y$:<br/>$$y = (3+7)^2 = 10^2 = 100$$<br/>So the ordered pair is $(3, 100)$. That is the correct answer."
+      "content": "Plug $x = 4$ into $(x+8)^2 = y$:<br/>$$y = (4+8)^2 = 12^2 = 144$$<br/>So the ordered pair is $(4, 144)$, which is choice A."
     }
   ]
 }

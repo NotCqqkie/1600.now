@@ -1,19 +1,19 @@
 {
   "questionId": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_11",
-  "correctAnswer": "11",
+  "correctAnswer": "9",
   "section": "Math",
   "steps": [
     {
       "title": "Substitute the given y-coordinate into both equations",
-      "content": "The intersection point is $(q, 19)$, so $y = 19$ satisfies both equations. Substituting:<br/>$$-x - w(19) = -337 \\implies x + 19w = 337$$<br/>$$2x - w(19) = 47$$<br/>Now we have a system of two equations in two unknowns ($x$ and $w$)."
+      "content": "The intersection point is $(q, 17)$, so $y = 17$ satisfies both equations. Substituting:<br/>$$-x - w(17) = -255 \\implies x + 17w = 255$$<br/>$$2x - w(17) = 51$$<br/>Now we have a system of two equations in two unknowns ($x$ and $w$)."
     },
     {
       "title": "Add the equations to eliminate w",
-      "content": "Add the two equations to cancel the $19w$ terms:<br/>$$(x + 19w) + (2x - 19w) = 337 + 47$$<br/>$$3x = 384$$<br/>$$x = 128$$"
+      "content": "Add the two equations to cancel the $17w$ terms:<br/>$$(x + 17w) + (2x - 17w) = 255 + 51$$<br/>$$3x = 306$$<br/>$$x = 102$$"
     },
     {
       "title": "Solve for w by back-substitution",
-      "content": "Substitute $x = 128$ into $x + 19w = 337$:<br/>$$128 + 19w = 337$$<br/>$$19w = 209$$<br/>$$w = 11$$"
+      "content": "Substitute $x = 102$ into $x + 17w = 255$:<br/>$$102 + 17w = 255$$<br/>$$17w = 153$$<br/>$$w = 9$$"
     }
   ]
 }

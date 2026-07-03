@@ -1,15 +1,15 @@
 {
   "questionId": "825b7490",
-  "correctAnswer": "980",
+  "correctAnswer": "1080",
   "section": "Math",
   "steps": [
     {
       "title": "Set up the proportion",
-      "content": "Since the ratio 140 to $m$ is equivalent to the ratio 4 to 28, we can write: $$\\frac{140}{m} = \\frac{4}{28}$$"
+      "content": "Since the ratio 120 to $m$ is equivalent to the ratio 3 to 27, we can write: $$\\frac{120}{m} = \\frac{3}{27}$$"
     },
     {
       "title": "Simplify and solve",
-      "content": "Simplify the right side: $\\frac{4}{28} = \\frac{1}{7}$<br/><br/>So $\\frac{140}{m} = \\frac{1}{7}$. Cross-multiplying gives $140 \\cdot 7 = m$, therefore $m = 980$."
+      "content": "Simplify the right side: $\\frac{3}{27} = \\frac{1}{9}$<br/><br/>So $\\frac{120}{m} = \\frac{1}{9}$. Cross-multiplying gives $120 \\cdot 9 = m$, therefore $m = 1080$."
     }
   ]
 }

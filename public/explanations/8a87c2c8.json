@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Add the equations",
-      "content": "The system is arranged so the $y$-terms cancel if you add the two equations: $$(x+3)+(x-3)=(-2y+5)+(2y+7).$$"
+      "content": "The system is arranged so the $y$-terms cancel if you add the two equations: $$(x+4)+(x-4)=(-2y+9)+(2y+5).$$"
     },
     {
       "title": "Simplify directly to the target",
-      "content": "On the left, $(x+3)+(x-3)=2x$. On the right, $-2y+2y=0$ and $5+7=12$. Therefore, $$2x=12.$$"
+      "content": "On the left, $(x+4)+(x-4)=2x$. On the right, $-2y+2y=0$ and $9+5=14$. Therefore, $$2x=14.$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "The question asks for $2x$, so there is no need to solve for $x$ or $y$. The value is $12$, which matches <strong>C</strong>. The value $6$ is the trap from giving $x$ instead of $2x$."
+      "content": "The question asks for $2x$, so there is no need to solve for $x$ or $y$. The value is $14$, which matches <strong>C</strong>. The value $7$ is the trap from giving $x$ instead of $2x$."
     }
   ]
 }

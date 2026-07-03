@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the bounds from the problem",
-      "content": "The airplane's cruising speed varied between 150 mph and 170 mph. &quot;Varied between&quot; means the speed was at least 150 and at most 170, inclusive."
+      "content": "The train's speed varied between 45 mph and 60 mph. &quot;Varied between&quot; means the speed was at least 45 and at most 60, inclusive."
     },
     {
       "title": "Eliminate wrong choices and confirm",
-      "content": "<ul><li><strong>Choice A &mdash; $s\\le20$</strong>: This caps speed at 20 mph — far below any real cruising speed. &#10007;</li><li><strong>Choice B &mdash; $s\\le150$</strong>: Only an upper bound; allows speeds below 150 and excludes speeds up to 170. &#10007;</li><li><strong>Choice C &mdash; $s\\le170$</strong>: Only an upper bound; allows any speed below 170 but ignores the lower bound of 150. &#10007;</li><li><strong>Choice D &mdash; $150\\le s\\le170$</strong>: Exactly captures both bounds — speed is between 150 and 170 inclusive. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; $s\\le15$</strong>: This caps speed at 15 mph &mdash; below the stated range. &#10007;</li><li><strong>Choice B &mdash; $s\\le45$</strong>: Only an upper bound; allows speeds below 45 and excludes speeds up to 60. &#10007;</li><li><strong>Choice C &mdash; $s\\le60$</strong>: Only an upper bound; allows any speed below 60 but ignores the lower bound of 45. &#10007;</li><li><strong>Choice D &mdash; $45\\le s\\le60$</strong>: Exactly captures both bounds &mdash; speed is between 45 and 60 inclusive. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
     }
   ]
 }

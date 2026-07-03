@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify each cost component",
-      "content": "The technician's charge has two parts:<ul><li>Labor: 60 dollars per hour &times; $x$ hours = $60x$ dollars (variable, depends on time)</li><li>Parts: a flat 120 dollar fee (constant, regardless of time)</li></ul>"
+      "content": "The technician's charge has two parts:<ul><li>Labor: 55 dollars per hour &times; $x$ hours = $55x$ dollars (variable, depends on time)</li><li>Parts: a flat 135 dollar fee (constant, regardless of time)</li></ul>"
     },
     {
       "title": "Write the total-cost function and evaluate each choice",
-      "content": "Total = labor + parts, so $$f(x)=60x+120.$$ Compare to each option:<ul><li><strong>\"$f \\left(x\\right)=x+120$\"</strong>: Charges only 1 dollar per hour for labor instead of 60. Incorrect rate. &#10007;</li><li><strong>\"$f \\left(x\\right)=60x$\"</strong>: Captures the hourly labor cost but omits the 120 dollar parts charge entirely. &#10007;</li><li><strong>\"$f \\left(x\\right)=60x+120$\"</strong>: 60 dollars per hour for labor plus the 120 dollar parts fee. Matches both components exactly. &#10003;</li><li><strong>\"$f \\left(x\\right)=60x-120$\"</strong>: Subtracts 120 instead of adding it. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+      "content": "Total = labor + parts, so $$f(x)=55x+135.$$ Compare to each option:<ul><li><strong>\"$f \\left(x\\right)=x+135$\"</strong>: Charges only 1 dollar per hour for labor instead of 55. Incorrect rate. &#10007;</li><li><strong>\"$f \\left(x\\right)=55x$\"</strong>: Captures the hourly labor cost but omits the 135 dollar parts charge entirely. &#10007;</li><li><strong>\"$f \\left(x\\right)=55x+135$\"</strong>: 55 dollars per hour for labor plus the 135 dollar parts fee. Matches both components exactly. &#10003;</li><li><strong>\"$f \\left(x\\right)=55x-135$\"</strong>: Subtracts 135 instead of adding it. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
     }
   ]
 }

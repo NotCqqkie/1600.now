@@ -8,8 +8,8 @@
       "content": "We need to convert area from square yards to square miles. Since 1 mile = 1,760 yards, we square this scale factor for area: 1 square mile = $(1,760)^2$ = 3,097,600 square yards."
     },
     {
-      "title": "Divide to convert the park's area",
-      "content": "The park's area in square miles is:<br/>$$11,863,808 \\div 3,097,600 = 3.83 \\text{ square miles}$$<br/>That matches the correct answer — <strong>B</strong> is correct."
+      "title": "Divide to convert the nature preserve's area",
+      "content": "The nature preserve's area in square miles is:<br/>$$13,226,752 \\div 3,097,600 = 4.27 \\text{ square miles}$$<br/>That matches the correct answer &mdash; <strong>B</strong> is correct."
     }
   ]
 }

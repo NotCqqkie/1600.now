@@ -14,7 +14,7 @@
     },
     {
       "title": "Match the given equation to the standard form",
-      "content": "The given equation is $$(x-13)^2 + (y-k)^2 = 64$$ Comparing directly: <ul><li>$(x-13)$ means $h = 13$</li><li>$(y-k)$ means the $y$-coordinate is $k$</li><li>$64 = 8^2$, so $r = 8$</li></ul> The center is at $(13, k)$ and the radius is $8$. That is the correct answer."
+      "content": "The given equation is $$(x-15)^2 + (y-k)^2 = 81$$ Comparing directly: <ul><li>$(x-15)$ means $h = 15$</li><li>$(y-k)$ means the $y$-coordinate is $k$</li><li>$81 = 9^2$, so $r = 9$</li></ul> The center is at $(15, k)$ and the radius is $9$. That is the correct answer."
     }
   ]
 }

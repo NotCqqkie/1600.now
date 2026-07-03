@@ -1,15 +1,15 @@
 {
   "questionId": "a4d6fbec",
-  "correctAnswer": "50",
+  "correctAnswer": "51",
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute x = 8 into the given equation",
-      "content": "We're given $y = 5x + 10$ and asked to find $y$ when $x = 8$. Replace $x$ with $8$ in the equation:<br/>$$y = 5(8) + 10$$"
+      "title": "Substitute x = 7 into the given equation",
+      "content": "We're given $y = 6x + 9$ and asked to find $y$ when $x = 7$. Replace $x$ with $7$ in the equation:<br/>$$y = 6(7) + 9$$"
     },
     {
       "title": "Simplify and find y",
-      "content": "Evaluate the expression step by step:<br/>$$y = 40 + 10$$<br/>$$y = 50$$"
+      "content": "Evaluate the expression step by step:<br/>$$y = 42 + 9$$<br/>$$y = 51$$"
     }
   ]
 }

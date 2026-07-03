@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Use slope-intercept form",
-      "content": "A line with slope $-8$ has the form $$y=-8x+b.$$"
+      "content": "A line with slope $-7$ has the form $$y=-7x+b.$$"
     },
     {
       "title": "Use the y-intercept",
-      "content": "The line passes through $(0,60)$, so the $y$-intercept is $60$. Therefore $b=60$."
+      "content": "The line passes through $(0,54)$, so the $y$-intercept is $54$. Therefore $b=54$."
     },
     {
       "title": "Confirm the choice",
-      "content": "The equation is $$y=-8x+60.$$ This matches <strong>A</strong>."
+      "content": "The equation is $$y=-7x+54.$$ This matches <strong>A</strong>."
     },
     {
       "title": "Check the intercept directly",
-      "content": "A point with $x=0$ lies on the $y$-axis, so $(0,60)$ means the intercept is $60$. The choices all have slope $-8$, so the intercept is the deciding detail."
+      "content": "A point with $x=0$ lies on the $y$-axis, so $(0,54)$ means the intercept is $54$. The choices all have slope $-7$, so the intercept is the deciding detail."
     }
   ]
 }

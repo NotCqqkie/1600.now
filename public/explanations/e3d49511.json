@@ -5,12 +5,12 @@
   "steps": [
     {
       "title": "Recognize the population density formula",
-      "content": "Population density is the total population divided by the total area. We need to divide the number of raccoons by the area.",
+      "content": "Population density is the total population divided by the total area. We need to divide the number of residents by the area.",
       "formula": "$$\\text{Population density} = \\frac{\\text{population}}{\\text{area}}$$"
     },
     {
       "title": "Calculate the density",
-      "content": "Divide 2,358 raccoons by 131 square miles:<br/>$$\\frac{2,358}{131} = 18$$<br/>The population density is 18 raccoons per square mile. That matches the correct answer — <strong>A</strong> is correct."
+      "content": "Divide 2,556 residents by 142 square miles:<br/>$$\\frac{2,556}{142} = 18$$<br/>The population density is 18 residents per square mile. That matches the correct answer, <strong>A</strong> is correct."
     }
   ]
 }

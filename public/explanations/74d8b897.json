@@ -1,6 +1,6 @@
 {
   "questionId": "74d8b897",
-  "correctAnswer": "81",
+  "correctAnswer": "63",
   "section": "Math",
   "steps": [
     {
@@ -9,11 +9,11 @@
     },
     {
       "title": "Apply the radians-to-degrees conversion formula",
-      "content": "To convert from radians to degrees, multiply by $$\\frac{180^{\\circ}}{\\pi}$$. Set up the calculation with the given angle of $\\frac{9\\pi}{20}$ radians:<br/>$$\\frac{9\\pi}{20} \\times \\frac{180^{\\circ}}{\\pi}$$"
+      "content": "To convert from radians to degrees, multiply by $$\\frac{180^{\\circ}}{\\pi}$$. Set up the calculation with the given angle of $\\frac{7\\pi}{20}$ radians:<br/>$$\\frac{7\\pi}{20} \\times \\frac{180^{\\circ}}{\\pi}$$"
     },
     {
       "title": "Cancel pi and simplify",
-      "content": "The $\\pi$ terms cancel in the numerator and denominator:<br/>$$\\frac{9 \\times 180^{\\circ}}{20}$$<br/>Compute the numerator and divide:<br/>$$\\frac{1620^{\\circ}}{20} = 81^{\\circ}$$<br/>The angle measures <strong>81 degrees</strong>."
+      "content": "The $\\pi$ terms cancel in the numerator and denominator:<br/>$$\\frac{7 \\times 180^{\\circ}}{20}$$<br/>Compute the numerator and divide:<br/>$$\\frac{1260^{\\circ}}{20} = 63^{\\circ}$$<br/>The angle measures <strong>63 degrees</strong>."
     }
   ]
 }

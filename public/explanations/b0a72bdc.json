@@ -9,12 +9,12 @@
     },
     {
       "title": "Identify the radius using standard circle form",
-      "content": "The equation $(x-5)^2 + (y-3)^2 = 16$ is in the standard form for a circle. The right side gives us $r^2 = 16$.",
+      "content": "The equation $(x+4)^2 + (y-6)^2 = 25$ is in the standard form for a circle. The right side gives us $r^2 = 25$.",
       "formula": "$$(x-h)^2 + (y-k)^2 = r^2$$"
     },
     {
       "title": "Calculate the diameter",
-      "content": "From $r^2 = 16$, we get $r = \\sqrt{16} = 4$. Since diameter equals twice the radius: $$d = 2(4) = 8$$<br/><br/>That is the correct answer."
+      "content": "From $r^2 = 25$, we get $r = \\sqrt{25} = 5$. Since diameter equals twice the radius: $$d = 2(5) = 10$$<br/><br/>This matches choice B."
     }
   ]
 }

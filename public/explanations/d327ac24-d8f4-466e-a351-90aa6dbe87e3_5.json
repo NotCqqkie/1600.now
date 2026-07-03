@@ -5,23 +5,23 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $6x^{2}+18x$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $7x^{2}+28x$."
     },
     {
       "title": "Algebra check",
       "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
     },
     {
-      "title": "Distribute 6x across (x+3)",
-      "content": "Apply the distributive property: multiply $6x$ by each term inside the parentheses.<br/>$$6x \\cdot x = 6x^2$$<br/>$$6x \\cdot 3 = 18x$$"
+      "title": "Distribute 7x across (x+4)",
+      "content": "Apply the distributive property: multiply $7x$ by each term inside the parentheses.<br/>$$7x \\cdot x = 7x^2$$<br/>$$7x \\cdot 4 = 28x$$"
     },
     {
       "title": "Combine the terms",
-      "content": "Add the two products: $6x^2 + 18x$."
+      "content": "Add the two products: $7x^2 + 28x$."
     },
     {
       "title": "Match to the answer choices",
-      "content": "The simplified expression is $6x^2 + 18x$.<ul><li><strong>A</strong>: $6x^2+3$ — the second term should be $18x$, not the constant $3$. Eliminated.</li><li><strong>B</strong>: $6x^2+18x$ — matches exactly. That is the correct answer.</li><li><strong>C</strong>: $7x^2+3$ — wrong coefficient on $x^2$ and wrong second term. Eliminated.</li><li><strong>D</strong>: $7x^2+9x$ — wrong coefficient on $x^2$. Eliminated.</li></ul>"
+      "content": "The simplified expression is $7x^2 + 28x$.<ul><li><strong>A</strong>: $7x^2+4$ &mdash; the second term should be $28x$, not the constant $4$. Eliminated.</li><li><strong>B</strong>: $7x^2+28x$ &mdash; matches exactly. That is the correct answer.</li><li><strong>C</strong>: $8x^2+4$ &mdash; wrong coefficient on $x^2$ and wrong second term. Eliminated.</li><li><strong>D</strong>: $8x^2+11x$ &mdash; wrong coefficient on $x^2$. Eliminated.</li></ul>"
     }
   ]
 }

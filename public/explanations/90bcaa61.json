@@ -1,19 +1,19 @@
 {
   "questionId": "90bcaa61",
-  "correctAnswer": "410",
+  "correctAnswer": "380",
   "section": "Math",
   "steps": [
     {
       "title": "Identify the doubling factor",
-      "content": "The model is $$f(t)=60{,}000\\cdot2^{t/410}$$ The starting population is $60{,}000$, and the factor $2^{t/410}$ shows the growth multiplier."
+      "content": "The model is $$f(t)=75{,}000\\cdot2^{t/380}$$ The starting population is $75{,}000$, and the factor $2^{t/380}$ shows the growth multiplier."
     },
     {
       "title": "Set the multiplier to 2",
-      "content": "For the population to double, the multiplier must be $2$: $$2^{t/410}=2^1$$ Therefore $$\\frac{t}{410}=1$$"
+      "content": "For the population to double, the multiplier must be $2$: $$2^{t/380}=2^1$$ Therefore $$\\frac{t}{380}=1$$"
     },
     {
       "title": "Answer",
-      "content": "Since $\\frac{t}{410}=1$, multiply by $410$ to get $t=410$. The population doubles after <strong>410</strong> minutes."
+      "content": "Since $\\frac{t}{380}=1$, multiply by $380$ to get $t=380$. The population doubles after <strong>380</strong> minutes."
     }
   ]
 }

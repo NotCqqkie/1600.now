@@ -1,15 +1,15 @@
 {
   "questionId": "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_10",
-  "correctAnswer": "5940",
+  "correctAnswer": "7020",
   "section": "Math",
   "steps": [
     {
       "title": "Set up the substitution",
-      "content": "We need to find the sum of interior angles for a polygon with 35 sides. Substitute $x = 35$ into the given function."
+      "content": "We need to find the sum of interior angles for a polygon with 41 sides. Substitute $x = 41$ into the given function."
     },
     {
-      "title": "Calculate f(35)",
-      "content": "$$f(35) = 180(35 - 2)$$<br/>$$f(35) = 180(33)$$<br/>$$f(35) = 5940$$<br/>The sum of the interior angles for a 35-sided polygon is <strong>5940 degrees</strong>."
+      "title": "Calculate f(41)",
+      "content": "$$f(41) = 180(41 - 2)$$<br/>$$f(41) = 180(39)$$<br/>$$f(41) = 7020$$<br/>The sum of the interior angles for a 41-sided polygon is <strong>7020 degrees</strong>."
     }
   ]
 }

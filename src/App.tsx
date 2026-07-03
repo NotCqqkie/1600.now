@@ -105,8 +105,12 @@ const CountryTopicPage = preloadableLazy(() => import("./pages/country/CountryTo
 const CollegeIndex = preloadableLazy(() => import("./pages/college/CollegeIndex"));
 const CollegePage = preloadableLazy(() => import("./pages/college/CollegePage"));
 const AdminReports = preloadableLazy(() => import("./pages/admin/AdminReports"));
-const BankSearchLayoutDemo = preloadableLazy(() => import("./pages/dev/BankSearchLayoutDemo"));
-const IdleTimerDemo = preloadableLazy(() => import("./pages/dev/IdleTimerDemo"));
+const BankSearchLayoutDemo = import.meta.env.DEV
+  ? preloadableLazy(() => import("./pages/dev/BankSearchLayoutDemo"))
+  : null;
+const IdleTimerDemo = import.meta.env.DEV
+  ? preloadableLazy(() => import("./pages/dev/IdleTimerDemo"))
+  : null;
 const AppShell = preloadableLazy(() => import("./components/AppShell").then((mod) => ({ default: mod.AppShell })));
 const AccountSync = preloadableLazy(() => import("./components/auth/AccountSync").then((mod) => ({ default: mod.AccountSync })));
 const OnboardingTour = preloadableLazy(() => import("./components/OnboardingTour").then((mod) => ({ default: mod.OnboardingTour })));
@@ -2350,8 +2354,12 @@ const AppRoutes = ({ location }: { location: Location }) => (
     <Route path="/college" element={withShellSuspense(<CollegeIndex />)} />
     <Route path="/college/:slug" element={withShellSuspense(<CollegePage />)} />
     <Route path="/admin/reports" element={withShellSuspense(<AdminReports />)} />
-    <Route path="/dev/bank-search-layout-demo" element={withShellSuspense(<BankSearchLayoutDemo />)} />
-    <Route path="/dev/idle-timer-demo" element={withShellSuspense(<IdleTimerDemo />)} />
+    {import.meta.env.DEV && BankSearchLayoutDemo && (
+      <Route path="/dev/bank-search-layout-demo" element={withShellSuspense(<BankSearchLayoutDemo />)} />
+    )}
+    {import.meta.env.DEV && IdleTimerDemo && (
+      <Route path="/dev/idle-timer-demo" element={withShellSuspense(<IdleTimerDemo />)} />
+    )}
     <Route path="/:slug" element={withShellSuspense(<TopLevelSeoPage />)} />
     <Route path="*" element={withShellSuspense(<NotFound />)} />
   </Routes>

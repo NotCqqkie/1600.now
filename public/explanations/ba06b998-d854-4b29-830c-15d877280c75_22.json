@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Pick easy values for the ratio",
-      "content": "Since $b$ is $89\\%$ of $c$, choose $c=100$ and $b=89$. This keeps the ratio exact and avoids decimal algebra."
+      "content": "Since $b$ is $87\\%$ of $c$, choose $c=100$ and $b=87$. This keeps the ratio exact and avoids decimal algebra."
     },
     {
       "title": "Find a as a multiple of b",
-      "content": "Then $b+c=89+100=189$. Since $a$ is $2{,}047\\%$ of $b+c$, and $2{,}047=23\\cdot89$,<br/>$$a=\\frac{2047}{100}(189)=\\frac{23\\cdot89\\cdot189}{100}$$"
+      "content": "Then $b+c=87+100=187$. Since $a$ is $2{,}088\\%$ of $b+c$, and $2{,}088=24\\cdot87$,<br/>$$a=\\frac{2088}{100}(187)=\\frac{24\\cdot87\\cdot187}{100}$$"
     },
     {
       "title": "Calculate a/b and convert to percentage",
-      "content": "Divide by $b=89$:<br/>$$\\frac{a}{b}=\\frac{23\\cdot89\\cdot189}{100\\cdot89}=\\frac{23\\cdot189}{100}=43.47$$<br/>So $a$ is $43.47\\cdot100\\%=4{,}347\\%$ of $b$. That matches <strong>D</strong>."
+      "content": "Divide by $b=87$:<br/>$$\\frac{a}{b}=\\frac{24\\cdot87\\cdot187}{100\\cdot87}=\\frac{24\\cdot187}{100}=44.88$$<br/>So $a$ is $44.88\\cdot100\\%=4{,}488\\%$ of $b$. That matches <strong>D</strong>."
     }
   ]
 }

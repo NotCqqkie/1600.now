@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Translate the question",
-      "content": "The question asks what percent of $300$ equals $75$. Use $$\\text{percent}=\\frac{\\text{part}}{\\text{whole}}\\cdot 100$$"
+      "content": "The question asks what percent of $360$ equals $90$. Use $$\\text{percent}=\\frac{\\text{part}}{\\text{whole}}\\cdot 100$$"
     },
     {
       "title": "Compute the percent",
-      "content": "$$\\frac{75}{300}\\cdot 100=\\frac{1}{4}\\cdot 100=25\\%$$"
+      "content": "$$\\frac{90}{360}\\cdot 100=\\frac{1}{4}\\cdot 100=25\\%$$"
     },
     {
       "title": "Check the choices",
-      "content": "<ul><li>$25\\%$, gives $0.25(300)=75$. Correct.</li><li>$50\\%$, gives $150$.</li><li>$75\\%$, gives $225$.</li><li>$225\\%$, gives $675$.</li></ul>That matches the correct answer, <strong>A</strong>."
+      "content": "<ul><li>$25\\%$, gives $0.25(360)=90$. Correct.</li><li>$50\\%$, gives $180$.</li><li>$75\\%$, gives $270$.</li><li>$225\\%$, gives $810$.</li></ul>That matches the correct answer, <strong>A</strong>."
     }
   ]
 }

@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute x = 53 and evaluate",
-      "content": "Substitute $x = 53$ into the equation $y = 0.67x + 2.6$:<br/>$$y = 0.67(53) + 2.6$$<br/>Calculate the product: $0.67 \\times 53 = 35.51$<br/><br/>Add the constant: $y = 35.51 + 2.6 = 38.11$<br/><br/>The value closest to $38.11$ is $38$. That is the correct answer."
+      "title": "Substitute x = 64 and evaluate",
+      "content": "Substitute $x = 64$ into the equation $y = 0.58x + 3.4$:<br/>$$y = 0.58(64) + 3.4$$<br/>Calculate the product: $0.58 \\times 64 = 37.12$<br/><br/>Add the constant: $y = 37.12 + 3.4 = 40.52$<br/><br/>The value closest to $40.52$ is $41$. That is the correct answer."
     }
   ]
 }

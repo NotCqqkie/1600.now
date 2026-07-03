@@ -1,15 +1,15 @@
 {
   "questionId": "301d8663-e49a-4c21-9635-ef2d02614b43_4",
-  "correctAnswer": "4",
+  "correctAnswer": "5",
   "section": "Math",
   "steps": [
     {
       "title": "Set up the unit rate equation",
-      "content": "The relationship between total cost, price per unit, and quantity is: <br/>$$\\text{Total cost} = \\text{Price per pound} \\times \\text{Number of pounds}$$<br/>Substituting the given information:<br/>$$12 = 3p$$<br/>where $p$ is the number of pounds, 12 is the total cost, and 3 is the price per pound."
+      "content": "The relationship between total cost, price per unit, and quantity is: <br/>$$\\text{Total cost} = \\text{Price per pound} \\times \\text{Number of pounds}$$<br/>Substituting the given information:<br/>$$20 = 4p$$<br/>where $p$ is the number of pounds, 20 is the total cost, and 4 is the price per pound."
     },
     {
       "title": "Solve for the number of pounds",
-      "content": "Divide both sides by 3:<br/>$$p = \\frac{12}{3} = 4$$<br/>The customer purchased 4 pounds of apples."
+      "content": "Divide both sides by 4:<br/>$$p = \\frac{20}{4} = 5$$<br/>The shopper purchased 5 pounds of pears."
     }
   ]
 }

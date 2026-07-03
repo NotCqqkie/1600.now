@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Fastest path: use the function table",
-      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $-21$, so the answer is <strong>D</strong>, $-21$. This is just a one-row lookup, and the arithmetic below confirms the table value."
+      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $-29$, so the answer is <strong>D</strong>, $-29$. This is just a one-row lookup, and the arithmetic below confirms the table value."
     },
     {
-      "title": "Substitute the value x = -3",
-      "content": "Replace $x$ with $-3$ in $$h(x) = 4x - 9.$$ This gives $$h(-3) = 4(-3) - 9.$$"
+      "title": "Substitute the value x = -4",
+      "content": "Replace $x$ with $-4$ in $$h(x) = 5x - 9.$$ This gives $$h(-4) = 5(-4) - 9.$$"
     },
     {
       "title": "Compute the result",
-      "content": "Simplify: $$h(-3) = -12 - 9 = -21.$$ The question asks for the output value, not the input $-3$, so the matching answer is <strong>D</strong>."
+      "content": "Simplify: $$h(-4) = -20 - 9 = -29.$$ The question asks for the output value, not the input $-4$, so the matching answer is <strong>D</strong>."
     }
   ]
 }

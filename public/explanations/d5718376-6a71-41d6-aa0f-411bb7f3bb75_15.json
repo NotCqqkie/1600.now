@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up",
-      "content": "The calf weighs $5{,}800 + 250n$ pounds after $n$ days. The constraint is $8{,}800 \\lt 5{,}800 + 250n \\lt 9{,}800$."
+      "content": "The calf weighs $6{,}200 + 300n$ pounds after $n$ days. The constraint is $9{,}800 \\lt 6{,}200 + 300n \\lt 11{,}000$."
     },
     {
       "title": "Solve",
-      "content": "Subtract $5{,}800$ throughout: $3{,}000 \\lt 250n \\lt 4{,}000$. Divide by $250$: $12 \\lt n \\lt 16$. Since $n$ is an integer, the valid values are $n = 13, 14, 15$."
+      "content": "Subtract $6{,}200$ throughout: $3{,}600 \\lt 300n \\lt 4{,}800$. Divide by $300$: $12 \\lt n \\lt 16$. Since $n$ is an integer, the valid values are $n = 13, 14, 15$."
     },
     {
       "title": "Answer",

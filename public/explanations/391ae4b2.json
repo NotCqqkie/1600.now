@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Set up: comparing data sets F and G",
-      "content": "Data set F contains 55 integers, all between 170 and 290. Data set G contains all 55 integers from F, plus the integer 10. So G has 56 integers total. Crucially, 10 is far smaller than every value in F."
+      "content": "Data set F contains 57 integers, all between 160 and 280. Data set G contains all 57 integers from F, plus the integer 12. So G has 58 integers total. Crucially, 12 is far smaller than every value in F."
     },
     {
       "title": "Test the mean: set up the inequality",
-      "content": "Let $S$ = sum of the 55 integers in F. Then Mean(F) $= \\frac{S}{55}$ and Mean(G) $= \\frac{S + 10}{56}$. <br/><br/>For the mean of F to be less than the mean of G:<br/>$$\\frac{S}{55} \\lt \\frac{S + 10}{56}$$<br/>Cross multiply: $56S \\lt 55(S + 10)$, which simplifies to $56S \\lt 55S + 550$, so $S \\lt 550$. <br/><br/>However, every integer in F is at least 170, so $S \\geq 55 \\times 170 = 9350$. Since $S \\geq 9350$, the inequality $S \\lt 550$ is false. Therefore, Mean(F) $\\gt $ Mean(G), not less."
+      "content": "Let $S$ = sum of the 57 integers in F. Then Mean(F) $= \\frac{S}{57}$ and Mean(G) $= \\frac{S + 12}{58}$. <br/><br/>For the mean of F to be less than the mean of G:<br/>$$\\frac{S}{57} \\lt \\frac{S + 12}{58}$$<br/>Cross multiply: $58S \\lt 57(S + 12)$, which simplifies to $58S \\lt 57S + 684$, so $S \\lt 684$. <br/><br/>However, every integer in F is at least 160, so $S \\geq 57 \\times 160 = 9120$. Since $S \\geq 9120$, the inequality $S \\lt 684$ is false. Therefore, Mean(F) $\\gt $ Mean(G), not less."
     },
     {
       "title": "Test the median: position shift when adding the minimum",
-      "content": "When F is sorted, the median is the 28th integer (call it $a_{28}$). <br/><br/>When G is sorted, 10 becomes the smallest value, so G looks like: $10, a_1, a_2, \\ldots, a_{55}$. With 56 integers, the median is the average of the 28th and 29th values. Counting positions: 10 is 1st, $a_1$ is 2nd,..., $a_{27}$ is 28th, $a_{28}$ is 29th. <br/><br/>So Median(G) $= \\frac{a_{27} + a_{28}}{2}$. <br/><br/>Since the data is sorted in ascending order, $a_{27} \\leq a_{28}$. Therefore: $$\\frac{a_{27} + a_{28}}{2} \\leq a_{28}$$<br/>which means Median(G) $\\leq$ Median(F). The median is NOT less for F."
+      "content": "When F is sorted, the median is the 29th integer (call it $a_{29}$). <br/><br/>When G is sorted, 12 becomes the smallest value, so G looks like: $12, a_1, a_2, \\ldots, a_{57}$. With 58 integers, the median is the average of the 29th and 30th values. Counting positions: 12 is 1st, $a_1$ is 2nd,..., $a_{28}$ is 29th, $a_{29}$ is 30th. <br/><br/>So Median(G) $= \\frac{a_{28} + a_{29}}{2}$. <br/><br/>Since the data is sorted in ascending order, $a_{28} \\leq a_{29}$. Therefore: $$\\frac{a_{28} + a_{29}}{2} \\leq a_{29}$$<br/>which means Median(G) $\\leq$ Median(F). The median is NOT less for F."
     },
     {
       "title": "Conclusion: neither statistic must be less",

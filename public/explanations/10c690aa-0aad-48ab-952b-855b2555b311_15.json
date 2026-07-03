@@ -4,19 +4,19 @@
   "steps": [
     {
       "title": "Step 1",
-      "content": "The function is $K(v) = \\frac{7}{2}v^2$, where $v$ is speed in meters per second and $K(v)$ is kinetic energy in joules. The notation $K(24) = 2{,}016$ means the input to the function is $v = 24$ and the output is $K = 2{,}016$."
+      "content": "The function is $K(v) = \\frac{5}{2}v^2$, where $v$ is speed in meters per second and $K(v)$ is kinetic energy in joules. The notation $K(18) = 810$ means the input to the function is $v = 18$ and the output is $K = 810$."
     },
     {
       "title": "Step 2",
-      "content": "Verify: $K(24) = \\frac{7}{2}(24)^2 = \\frac{7}{2}(576) = 7 \\times 288 = 2{,}016$. Confirmed."
+      "content": "Verify: $K(18) = \\frac{5}{2}(18)^2 = \\frac{5}{2}(324) = 5 \\times 162 = 810$. Confirmed."
     },
     {
       "title": "Step 3",
-      "content": "The input $v = 24$ represents a speed of 24 meters per second, and the output $K = 2{,}016$ represents a kinetic energy of 2,016 joules."
+      "content": "The input $v = 18$ represents a speed of 18 meters per second, and the output $K = 810$ represents a kinetic energy of 810 joules."
     },
     {
       "title": "Step 4",
-      "content": "<ul><li>Choice A: The object traveling at 24 meters per second has a kinetic energy of 2,016 joules. &mdash; This matches $v = 24$ and $K = 2{,}016$ exactly. That matches <strong>Choice A &mdash; The object traveling at 24 meters per second has a kinetic energy of 2,016 joules.</strong>.</li><li>Choice B: The object traveling at 240 meters per second has a kinetic energy of 2,016 joules. &mdash; Eliminated.</li><li>Choice C: The object traveling at 2,016 meters per second has a kinetic energy of 24 joules. &mdash; Eliminated.</li><li>Choice D: The object traveling at 7,056 meters per second has a kinetic energy of 24 joules. &mdash; Eliminated.</li></ul>"
+      "content": "<ul><li>Choice A: The object traveling at 18 meters per second has a kinetic energy of 810 joules. &mdash; This matches $v = 18$ and $K = 810$ exactly. That matches <strong>Choice A &mdash; The object traveling at 18 meters per second has a kinetic energy of 810 joules.</strong>.</li><li>Choice B: The object traveling at 180 meters per second has a kinetic energy of 810 joules. &mdash; Eliminated.</li><li>Choice C: The object traveling at 810 meters per second has a kinetic energy of 18 joules. &mdash; Eliminated.</li><li>Choice D: The object traveling at 2,025 meters per second has a kinetic energy of 18 joules. &mdash; Eliminated.</li></ul>"
     }
   ],
   "correctAnswer": "A"

@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Identify what the constant represents",
-      "content": "The function $f(t) = 14t + 9$ has the linear form $mt + b$ where $b = 9$. This constant is the value of $f$ when $t = 0$."
+      "content": "The function $f(t) = 12t + 7$ has the linear form $mt + b$ where $b = 7$. This constant is the value of $f$ when $t = 0$."
     },
     {
       "title": "Evaluate $f$ at the time of purchase",
-      "content": "Since $t$ counts months after purchase, $t = 0$ is the moment Shruti bought the plant:<br/>$$f(0) = 14(0) + 9 = 9 \\text{ inches}.$$"
+      "content": "Since $t$ counts months after purchase, $t = 0$ is the moment Maya bought the plant:<br/>$$f(0) = 12(0) + 7 = 7 \\text{ inches}.$$"
     },
     {
       "title": "Check each choice",
-      "content": "<ul><li>A: how long Shruti keeps the plant is not represented in this model.</li><li>B: the monthly growth rate is the coefficient $14$, not $9$.</li><li>C: nothing in $f(t)=14t+9$ caps the length; it grows without bound, so 9 is not a maximum.</li><li>D: $9$ is the length at $t = 0$, i.e., when Shruti purchased the plant.</li></ul>That is the correct answer."
+      "content": "<ul><li>A: how long Maya keeps the plant is not represented in this model.</li><li>B: the monthly growth rate is the coefficient $12$, not $7$.</li><li>C: nothing in $f(t)=12t+7$ caps the length; it grows without bound, so 7 is not a maximum.</li><li>D: $7$ is the length at $t = 0$, i.e., when Maya purchased the plant.</li></ul>That is the correct answer."
     }
   ]
 }

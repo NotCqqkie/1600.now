@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Factor the second equation",
-      "content": "The second equation is $y = 6x - 12$. Notice that the right side can be factored: $$6x - 12 = 6(x - 2)$$ So the system becomes: $$y = (x-2)(x+4)$$ $$y = 6(x-2)$$"
+      "content": "The second equation is $y = 8x - 24$. Notice that the right side can be factored: $$8x - 24 = 8(x - 3)$$ So the system becomes: $$y = (x-3)(x+5)$$ $$y = 8(x-3)$$"
     },
     {
       "title": "Set equations equal and factor",
-      "content": "Since both expressions equal $y$, set them equal: $$(x-2)(x+4) = 6(x-2)$$ Move everything to one side and factor out the common term $(x-2)$: $$(x-2)(x+4) - 6(x-2) = 0$$ $$(x-2)[(x+4) - 6] = 0$$ $$(x-2)(x - 2) = 0$$ Therefore $x = 2$."
+      "content": "Since both expressions equal $y$, set them equal: $$(x-3)(x+5) = 8(x-3)$$ Move everything to one side and factor out the common term $(x-3)$: $$(x-3)(x+5) - 8(x-3) = 0$$ $$(x-3)[(x+5) - 8] = 0$$ $$(x-3)(x - 3) = 0$$ Therefore $x = 3$."
     },
     {
       "title": "Substitute to find y and identify the solution",
-      "content": "Substitute $x = 2$ into the second equation: $$y = 6(2) - 12 = 12 - 12 = 0$$ The solution is the ordered pair $(2, 0)$. That confirms <strong>C</strong> is correct."
+      "content": "Substitute $x = 3$ into the second equation: $$y = 8(3) - 24 = 24 - 24 = 0$$ The solution is the ordered pair $(3, 0)$. That confirms <strong>C</strong> is correct."
     }
   ]
 }

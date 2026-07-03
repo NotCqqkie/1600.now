@@ -1,19 +1,19 @@
 {
   "questionId": "58dcc59f",
-  "correctAnswer": "13",
+  "correctAnswer": "15",
   "section": "Math",
   "steps": [
     {
       "title": "Define variables and write the area equation",
-      "content": "Let <em>w</em> = width (feet). Since the length is 5 feet longer, length = <em>w</em> + 5. Using the area formula:<br/>$$w(w + 5) = 104$$"
+      "content": "Let <em>w</em> = width (feet). Since the length is 7 feet longer, length = <em>w</em> + 7. Using the area formula:<br/>$$w(w + 7) = 120$$"
     },
     {
       "title": "Expand and rearrange to standard form",
-      "content": "Expand the left side:<br/>$$w^2 + 5w = 104$$<br/>Rearrange:<br/>$$w^2 + 5w - 104 = 0$$"
+      "content": "Expand the left side:<br/>$$w^2 + 7w = 120$$<br/>Rearrange:<br/>$$w^2 + 7w - 120 = 0$$"
     },
     {
       "title": "Factor and solve for the dimensions",
-      "content": "Find two numbers that multiply to <em>-104</em> and add to <em>5</em>. These are <em>13</em> and <em>-8</em>:<br/>$$(w + 13)(w - 8) = 0$$<br/>This gives <em>w</em> = -13 or <em>w</em> = 8. Since width must be positive, <em>w</em> = 8 feet.<br/><br/>Therefore, the length is <em>w</em> + 5 = 8 + 5 = <strong>13 feet</strong>."
+      "content": "Find two numbers that multiply to <em>-120</em> and add to <em>7</em>. These are <em>15</em> and <em>-8</em>:<br/>$$(w + 15)(w - 8) = 0$$<br/>This gives <em>w</em> = -15 or <em>w</em> = 8. Since width must be positive, <em>w</em> = 8 feet.<br/><br/>Therefore, the length is <em>w</em> + 7 = 8 + 7 = <strong>15 feet</strong>."
     }
   ]
 }

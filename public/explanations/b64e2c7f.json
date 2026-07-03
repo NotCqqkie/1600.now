@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up the minimum increase equation",
-      "content": "The butterfly can fly with a temperature of <strong>at least</strong> $55.0^\\circ\\text{F}$. Its current temperature is $51.3^\\circ\\text{F}$. For the minimum increase, the temperature must reach exactly the threshold:<br/>$$51.3 + \\text{increase} = 55.0$$"
+      "content": "The butterfly can fly with a temperature of <strong>at least</strong> $56.0^\\circ\\text{F}$. Its current temperature is $52.4^\\circ\\text{F}$. For the minimum increase, the temperature must reach exactly the threshold:<br/>$$52.4 + \\text{increase} = 56.0$$"
     },
     {
       "title": "Solve for increase",
-      "content": "$$\\text{increase} = 55.0 - 51.3 = 3.7^\\circ\\text{F}$$<br/>That is the correct answer."
+      "content": "$$\\text{increase} = 56.0 - 52.4 = 3.6^\\circ\\text{F}$$<br/>That is answer choice B."
     }
   ]
 }

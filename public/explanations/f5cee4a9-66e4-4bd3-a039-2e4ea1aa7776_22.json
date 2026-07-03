@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Recognize that both equations represent the same line",
-      "content": "Check if the second equation is a multiple of the first. Dividing $15x + 24y = 27$ by 3 gives $5x + 8y = 9$, which is identical to the first equation. Since both equations represent the same line, any point on this line satisfies both equations, and there are infinitely many solutions."
+      "content": "Check if the second equation is a multiple of the first. Dividing $12x + 21y = 33$ by 3 gives $4x + 7y = 11$, which is identical to the first equation. Since both equations represent the same line, any point on this line satisfies both equations, and there are infinitely many solutions."
     },
     {
       "title": "Parameterize the line with x = r",
-      "content": "For any real number $r$, if $x = r$, then $y = -\\frac{5r}{8} + \\frac{9}{8}$, giving the point $(r, -\\frac{5r}{8} + \\frac{9}{8})$.<br/><br/>Verify by substituting into the first equation: $5r + 8\\left(-\\frac{5r}{8} + \\frac{9}{8}\\right) = 5r - 5r + 9 = 9$. That matches the computed answer, so <strong>A</strong> is correct."
+      "content": "For any real number $r$, if $x = r$, then $y = -\\frac{4r}{7} + \\frac{11}{7}$, giving the point $(r, -\\frac{4r}{7} + \\frac{11}{7})$.<br/><br/>Verify by substituting into the first equation: $4r + 7\\left(-\\frac{4r}{7} + \\frac{11}{7}\\right) = 4r - 4r + 11 = 11$. That matches the computed answer, so <strong>A</strong> is correct."
     }
   ]
 }

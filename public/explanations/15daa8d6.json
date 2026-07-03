@@ -1,15 +1,15 @@
 {
   "questionId": "15daa8d6",
-  "correctAnswer": "2",
+  "correctAnswer": "3",
   "section": "Math",
   "steps": [
     {
       "title": "Expand the right-hand side",
-      "content": "$$2x+16 = a(x+8) = ax + 8a$$"
+      "content": "$$3x+18 = a(x+6) = ax + 6a$$"
     },
     {
       "title": "Match coefficients for infinitely many solutions",
-      "content": "For the equation to hold for all $x$, the coefficients of $x$ and the constants must both match:<br/>$$2=a$$<br/>$$16=8a$$<br/>Both equations give $a=2$, so the answer is <strong>2</strong>."
+      "content": "For the equation to hold for all $x$, the coefficients of $x$ and the constants must both match:<br/>$$3=a$$<br/>$$18=6a$$<br/>Both equations give $a=3$, so the answer is <strong>3</strong>."
     }
   ]
 }

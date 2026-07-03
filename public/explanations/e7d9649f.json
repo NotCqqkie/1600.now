@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the sample proportion",
-      "content": "In the sample of 50 people, 7 preferred chocolate. The sample proportion is:<br/>$$\\frac{7}{50} = 0.14$$"
+      "content": "In the sample of 60 people, 9 preferred mango. The sample proportion is:<br/>$$\\frac{9}{60} = 0.15$$"
     },
     {
       "title": "Apply the proportion to estimate the population",
-      "content": "To estimate how many people in the entire town would prefer chocolate, multiply the sample proportion by the total population:<br/>$$0.14 \\times 14,878 = 2,082.92$$<br/>This is closest to 2,100 among the answer choices. That matches the correct answer — <strong>B</strong> is correct."
+      "content": "To estimate how many people in the entire town would prefer mango, multiply the sample proportion by the total population:<br/>$$0.15 \\times 16,240 = 2,436$$<br/>This is closest to 2,400 among the answer choices. That matches the correct answer - <strong>B</strong> is correct."
     }
   ]
 }

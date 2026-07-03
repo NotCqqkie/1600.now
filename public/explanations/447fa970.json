@@ -1,19 +1,19 @@
 {
   "questionId": "447fa970",
-  "correctAnswer": "30",
+  "correctAnswer": "35",
   "section": "Math",
   "steps": [
     {
       "title": "Substitute the input",
-      "content": "The function is $f(x)=7x+2$. When $x=4$, replace $x$ with $4$: $$f(4)=7(4)+2.$$"
+      "content": "The function is $f(x)=6x+5$. When $x=5$, replace $x$ with $5$: $$f(5)=6(5)+5.$$"
     },
     {
       "title": "Evaluate",
-      "content": "$7(4)=28$, and $28+2=30$. Therefore, the value of $f(x)$ when $x=4$ is <strong>30</strong>."
+      "content": "$6(5)=30$, and $30+5=35$. Therefore, the value of $f(x)$ when $x=5$ is <strong>35</strong>."
     },
     {
       "title": "Check the meaning",
-      "content": "The question asks for the output of the function at $x=4$, not the value of $x$. The output is $30$."
+      "content": "The question asks for the output of the function at $x=5$, not the value of $x$. The output is $35$."
     }
   ]
 }

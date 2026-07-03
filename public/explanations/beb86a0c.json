@@ -4,7 +4,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $x \\left(9x+5\\right)$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $x \\left(7x+4\\right)$."
     },
     {
       "title": "Algebra check",
@@ -12,18 +12,18 @@
     },
     {
       "title": "Step 1",
-      "content": "Identify the greatest common factor of $9x^2$ and $5x$: both terms share a factor of x."
+      "content": "Identify the greatest common factor of $7x^2$ and $4x$: both terms share a factor of x."
     },
     {
       "title": "Step 2",
-      "content": "Factor out x: $9x^2 + 5x = x(9x + 5)$."
+      "content": "Factor out x: $7x^2 + 4x = x(7x + 4)$."
     },
     {
       "title": "Step 3",
-      "content": "Verify by distributing: $x \\cdot 9x + x \\cdot 5 = 9x^2 + 5x$. &#10003;"
+      "content": "Verify by distributing: $x \\cdot 7x + x \\cdot 4 = 7x^2 + 4x$. &#10003;"
     }
   ],
-  "eliminationHtml": "<ul><li><strong>Choice A &mdash; $x \\left(9x+5\\right)$</strong>: Distributes to $9x^2 + 5x$, which matches exactly. &#10003;</li><li><strong>Choice B &mdash; $5x \\left(9x+1\\right)$</strong>: Distributes to $45x^2 + 5x$, not $9x^2 + 5x$. &#10007;</li><li><strong>Choice C &mdash; $9x \\left(x+5\\right)$</strong>: Distributes to $9x^2 + 45x$, not $9x^2 + 5x$. &#10007;</li><li><strong>Choice D &mdash; ${x}^{2} \\left(9x+5\\right)$</strong>: Distributes to $9x^3 + 5x^2$, not $9x^2 + 5x$. &#10007;</li></ul>That is the correct answer.",
+  "eliminationHtml": "<ul><li><strong>Choice A &mdash; $x \\left(7x+4\\right)$</strong>: Distributes to $7x^2 + 4x$, which matches exactly. &#10003;</li><li><strong>Choice B &mdash; $4x \\left(7x+1\\right)$</strong>: Distributes to $28x^2 + 4x$, not $7x^2 + 4x$. &#10007;</li><li><strong>Choice C &mdash; $7x \\left(x+4\\right)$</strong>: Distributes to $7x^2 + 28x$, not $7x^2 + 4x$. &#10007;</li><li><strong>Choice D &mdash; ${x}^{2} \\left(7x+4\\right)$</strong>: Distributes to $7x^3 + 4x^2$, not $7x^2 + 4x$. &#10007;</li></ul>That is the correct answer.",
   "correctAnswer": "A",
   "section": "Math"
 }

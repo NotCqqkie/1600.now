@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up the percentage formula",
-      "content": "To find the percentage of size-large paper clips, use: <br/> percentage = $$\\frac{\\text{part}}{\\text{whole}} \\times 100 = \\frac{234,000}{300,000} \\times 100$$"
+      "content": "To find the percentage of jumbo-size binder clips, use: <br/> percentage = $$\\frac{\\text{part}}{\\text{whole}} \\times 100 = \\frac{308,000}{400,000} \\times 100$$"
     },
     {
       "title": "Simplify and calculate",
-      "content": "Cancel three zeros from both numerator and denominator: <br/> $$\\frac{234,000}{300,000} = \\frac{234}{300}$$ <br/> Next, divide both by 3: <br/> $$\\frac{234}{300} = \\frac{78}{100} = 78\\%$$ <br/> <strong>D</strong> is correct."
+      "content": "Cancel three zeros from both numerator and denominator: <br/> $$\\frac{308,000}{400,000} = \\frac{308}{400}$$ <br/> Next, divide both by 4: <br/> $$\\frac{308}{400} = \\frac{77}{100} = 77\\%$$ <br/> <strong>D</strong> is correct."
     }
   ]
 }

@@ -4,19 +4,19 @@
   "steps": [
     {
       "title": "Step 1",
-      "content": "Start with $10yz - 9xz = 10xy - z$. Move $z$ to the left by adding $z$ to both sides: $10yz - 9xz + z = 10xy$."
+      "content": "Start with $12yz - 7xz = 12xy - z$. Move $z$ to the left by adding $z$ to both sides: $12yz - 7xz + z = 12xy$."
     },
     {
       "title": "Step 2",
-      "content": "Factor $z$ from the left side: $z(10y - 9x + 1) = 10xy$."
+      "content": "Factor $z$ from the left side: $z(12y - 7x + 1) = 12xy$."
     },
     {
       "title": "Step 3",
-      "content": "Divide both sides by $(10y - 9x + 1)$: $z = \\dfrac{10xy}{10y - 9x + 1}$."
+      "content": "Divide both sides by $(12y - 7x + 1)$: $z = \\dfrac{12xy}{12y - 7x + 1}$."
     },
     {
       "title": "Step 4",
-      "content": "<ul><li>A: $z = \\dfrac{10xy}{10y - 9x + 1}$ - matches our result. That is the correct answer.</li><li>B: Missing the $+1$ in the denominator from the $z$ term that was moved over.</li><li>C: $-29xy$ - does not follow from algebra.</li><li>D: $z = 9x$ - does not follow from the equation.</li></ul>"
+      "content": "<ul><li>A: $z = \\dfrac{12xy}{12y - 7x + 1}$ - matches our result. That is the correct answer.</li><li>B: Missing the $+1$ in the denominator from the $z$ term that was moved over.</li><li>C: $-31xy$ - does not follow from algebra.</li><li>D: $z = 7x$ - does not follow from the equation.</li></ul>"
     }
   ],
   "correctAnswer": "A"

@@ -5,16 +5,16 @@
   "steps": [
     {
       "title": "Use the area scale factor",
-      "content": "For similar figures, lengths scale by the linear scale factor, but areas scale by the square of that factor. A side-length scale factor of $6$ gives an area scale factor of $6^2=36$."
+      "content": "For similar figures, lengths scale by the linear scale factor, but areas scale by the square of that factor. A side-length scale factor of $5$ gives an area scale factor of $5^2=25$."
     },
     {
       "title": "Identify scale factor and apply the area scaling rule",
-      "content": "Each side of EFGH is 6 times the corresponding side of ABCD, giving a linear scale factor of $k = 6$. For similar figures, areas scale by $k^2$, so the area scale factor is $6^2 = 36$.",
+      "content": "Each side of UVWX is 5 times the corresponding side of QRST, giving a linear scale factor of $k = 5$. For similar figures, areas scale by $k^2$, so the area scale factor is $5^2 = 25$.",
       "formula": "$$A_{\\text{scaled}} = A_{\\text{original}} \\times k^2$$"
     },
     {
-      "title": "Calculate the area of EFGH",
-      "content": "$A_{\\text{EFGH}} = 66 \\times 36 = 2,376$ square units. That confirms <strong>D</strong> is correct."
+      "title": "Calculate the area of UVWX",
+      "content": "$A_{\\text{UVWX}} = 75 \\times 25 = 1,875$ square units. That confirms <strong>D</strong> is correct."
     }
   ]
 }

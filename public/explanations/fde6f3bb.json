@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $\\frac{18{x}^{2}}{5}+4x-\\frac{35}{6}$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $\\frac{20{x}^{2}}{7}+5x-\\frac{63}{5}$."
     },
     {
       "title": "Algebra check",
@@ -13,15 +13,15 @@
     },
     {
       "title": "Multiply the first terms",
-      "content": "$$\\left(\\frac{3}{5}x\\right)(6x)=\\frac{18}{5}x^2$$"
+      "content": "$$\\left(\\frac{4}{7}x\\right)(5x)=\\frac{20}{7}x^2$$"
     },
     {
       "title": "Multiply the cross terms and constant",
-      "content": "$$\\left(\\frac{3}{5}x\\right)(-5)=-3x$$<br/>$$\\left(\\frac{7}{6}\\right)(6x)=7x$$<br/>The $x$-terms combine to $-3x+7x=4x$, and the constant is $$\\frac{7}{6}\\cdot(-5)=-\\frac{35}{6}.$$"
+      "content": "$$\\left(\\frac{4}{7}x\\right)(-7)=-4x$$<br/>$$\\left(\\frac{9}{5}\\right)(5x)=9x$$<br/>The $x$-terms combine to $-4x+9x=5x$, and the constant is $$\\frac{9}{5}\\cdot(-7)=-\\frac{63}{5}.$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "So $$g(x)h(x)=\\frac{18}{5}x^2+4x-\\frac{35}{6}.$$ That matches the computed answer, so <strong>D</strong> is correct. The coefficient, middle term, and constant all match D, so no rearrangement of the expression is needed."
+      "content": "So $$g(x)h(x)=\\frac{20}{7}x^2+5x-\\frac{63}{5}.$$ That matches the computed answer, so <strong>D</strong> is correct. The coefficient, middle term, and constant all match D, so no rearrangement of the expression is needed."
     }
   ]
 }

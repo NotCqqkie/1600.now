@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Isolate the variable term",
-      "content": "Starting from $$11x+50=160,$$ subtract 50 on both sides to isolate the variable term."
+      "content": "Starting from $$12x+40=148,$$ subtract 40 on both sides to isolate the variable term."
     },
     {
       "title": "Identify the answer",
-      "content": "This gives $$11x=110.$$ That matches <strong>Choice C &mdash; $11x = 110$</strong>."
+      "content": "This gives $$12x=108.$$ That matches <strong>Choice C &mdash; $12x = 108$</strong>."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches <strong>Choice C &mdash; $11x = 110$</strong>, $11x = 110$. The other choices do not satisfy the same condition from the question, so <strong>C</strong>."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches <strong>Choice C &mdash; $12x = 108$</strong>, $12x = 108$. The other choices do not satisfy the same condition from the question, so <strong>C</strong>."
     }
   ]
 }

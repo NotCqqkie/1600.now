@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Use vertex form and determine the sign of a",
-      "content": "With vertex $(9, -14)$ the parabola is $y = a(x - 9)^2 - 14$. Since it crosses the x-axis at two points and the vertex is below the x-axis, the parabola opens upward, so $a \\gt 0$."
+      "content": "With vertex $(8, -18)$ the parabola is $y = a(x - 8)^2 - 18$. Since it crosses the x-axis at two points and the vertex is below the x-axis, the parabola opens upward, so $a \\gt 0$."
     },
     {
       "title": "Express $a + b + c$ using $f(1)$",
-      "content": "In $y = ax^2 + bx + c$, plugging $x = 1$ gives $f(1) = a + b + c$. Using vertex form:<br/>$$a + b + c = a(1 - 9)^2 - 14 = 64a - 14$$"
+      "content": "In $y = ax^2 + bx + c$, plugging $x = 1$ gives $f(1) = a + b + c$. Using vertex form:<br/>$$a + b + c = a(1 - 8)^2 - 18 = 49a - 18$$"
     },
     {
       "title": "Apply the constraint $a \\gt 0$",
-      "content": "Since $a \\gt 0$, we need $64a - 14 \\gt -14$, so $a + b + c \\gt -14$."
+      "content": "Since $a \\gt 0$, we need $49a - 18 \\gt -18$, so $a + b + c \\gt -18$."
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li>$-23$: less than $-14$ — impossible, eliminate.</li><li>$-19$: less than $-14$ — impossible, eliminate.</li><li>$-14$: would require $a = 0$, not a parabola — eliminate.</li><li>$-12$: gives $64a - 14 = -12$, so $a = \\frac{1}{32} \\gt 0$ — works.</li></ul>That confirms <strong>D</strong> is correct."
+      "content": "<ul><li>$-27$: less than $-18$ &mdash; impossible, eliminate.</li><li>$-22$: less than $-18$ &mdash; impossible, eliminate.</li><li>$-18$: would require $a = 0$, not a parabola &mdash; eliminate.</li><li>$-16$: gives $49a - 18 = -16$, so $a = \\frac{2}{49} \\gt 0$ &mdash; works.</li></ul>That confirms <strong>D</strong> is correct."
     }
   ]
 }

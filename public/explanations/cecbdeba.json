@@ -5,16 +5,16 @@
   "steps": [
     {
       "title": "Use volume equals base area times height",
-      "content": "A cylinder's volume is the area of its base times its height: $V=B\\cdot h$. Here, the volume is $432$ cubic centimeters and the base area is $24$ square centimeters."
+      "content": "A cylinder's volume is the area of its base times its height: $V=B\\cdot h$. Here, the volume is $448$ cubic centimeters and the base area is $28$ square centimeters."
     },
     {
       "title": "Identify the cylinder volume formula",
-      "content": "The volume of a right circular cylinder is the product of its base area and height.<br/>$$V = B \\cdot h$$<br/>where $B$ is the base area and $h$ is the height. We're given $V = 432$ cubic centimeters and $B = 24$ square centimeters.",
+      "content": "The volume of a right circular cylinder is the product of its base area and height.<br/>$$V = B \\cdot h$$<br/>where $B$ is the base area and $h$ is the height. We're given $V = 448$ cubic centimeters and $B = 28$ square centimeters.",
       "formula": "$$V = B \\cdot h$$"
     },
     {
       "title": "Substitute and solve for height",
-      "content": "Substituting the known values:<br/>$$432 = 24h$$<br/>Divide both sides by 24:<br/>$$h = \\frac{432}{24} = 18$$<br/>The height is 18 centimeters. That is the correct answer."
+      "content": "Substituting the known values:<br/>$$448 = 28h$$<br/>Divide both sides by 28:<br/>$$h = \\frac{448}{28} = 16$$<br/>The height is 16 centimeters. That is the correct answer."
     }
   ]
 }

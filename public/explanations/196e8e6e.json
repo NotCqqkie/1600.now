@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Find the radius from the coordinates",
-      "content": "Point $A$ lies on the circle with center $C(h,k)$, so $CA$ is a radius. Use the distance from $C(h,k)$ to $A(h+1,k+\\sqrt{102})$ to find that radius."
+      "content": "Point $A$ lies on the circle with center $C(h,k)$, so $CA$ is a radius. Use the distance from $C(h,k)$ to $A(h+2,k+\\sqrt{113})$ to find that radius."
     },
     {
       "title": "Find the radius of the circle",
-      "content": "Since point $A$ lies on the circle with center $C(h, k)$, the radius equals the distance from $C$ to $A$.<br/>$$r = CA = \\sqrt{(h+1-h)^2 + (k+\\sqrt{102}-k)^2} = \\sqrt{1^2 + (\\sqrt{102})^2} = \\sqrt{1 + 102} = \\sqrt{103}$$"
+      "content": "Since point $A$ lies on the circle with center $C(h, k)$, the radius equals the distance from $C$ to $A$.<br/>$$r = CA = \\sqrt{(h+2-h)^2 + (k+\\sqrt{113}-k)^2} = \\sqrt{2^2 + (\\sqrt{113})^2} = \\sqrt{4 + 113} = \\sqrt{117}$$"
     },
     {
       "title": "Apply the Pythagorean theorem to the right triangle",
-      "content": "Point $B$ also lies on the circle, so $CB = \\sqrt{103}$ (the same radius). Since $\\angle ACB$ is a right angle, triangle $ACB$ is a right triangle with legs $CA$ and $CB$.<br/><br/>By the Pythagorean theorem:<br/>$$AB^2 = (\\sqrt{103})^2 + (\\sqrt{103})^2 = 206$$<br/>$$AB = \\sqrt{206}$$<br/>That matches <strong>Choice A &mdash; $\\sqrt{206}$</strong>."
+      "content": "Point $B$ also lies on the circle, so $CB = \\sqrt{117}$ (the same radius). Since $\\angle ACB$ is a right angle, triangle $ACB$ is a right triangle with legs $CA$ and $CB$.<br/><br/>By the Pythagorean theorem:<br/>$$AB^2 = (\\sqrt{117})^2 + (\\sqrt{117})^2 = 234$$<br/>$$AB = \\sqrt{234}$$<br/>That matches <strong>Choice A &mdash; $\\sqrt{234}$</strong>."
     }
   ]
 }

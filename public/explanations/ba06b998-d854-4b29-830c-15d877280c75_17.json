@@ -1,6 +1,6 @@
 {
   "questionId": "ba06b998-d854-4b29-830c-15d877280c75_17",
-  "correctAnswer": "20",
+  "correctAnswer": "21",
   "section": "Math",
   "steps": [
     {
@@ -13,7 +13,7 @@
     },
     {
       "title": "Solve for base area",
-      "content": "$$B = \\frac{V}{h} = \\frac{60}{3} = 20\\text{ cm}^2$$ The answer is <strong>20</strong>."
+      "content": "$$B = \\frac{V}{h} = \\frac{84}{4} = 21\\text{ cm}^2$$ The answer is <strong>21</strong>."
     }
   ]
 }

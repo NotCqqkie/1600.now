@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up the weight inequality",
-      "content": "Let $n$ = number of boxes. The combined weight cannot exceed 4,600 pounds:<br/>$$500 + 120n \\leq 4,600$$"
+      "content": "Let $n$ = number of crates. The combined weight cannot exceed 5,180 pounds:<br/>$$600 + 130n \\leq 5,180$$"
     },
     {
-      "title": "Solve for the maximum number of boxes",
-      "content": "Subtract 500 from both sides:<br/>$$120n \\leq 4,100$$<br/>Divide by 120:<br/>$$n \\leq \\frac{4,100}{120} \\approx 34.17$$<br/>Since $n$ must be a whole number, the maximum is 34 boxes. With 34 boxes: $500 + 120(34) = 4,580$ pounds, within the limit. With 35 boxes: $500 + 4,200 = 4,700$ pounds, exceeds the limit. That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Solve for the maximum number of crates",
+      "content": "Subtract 600 from both sides:<br/>$$130n \\leq 4,580$$<br/>Divide by 130:<br/>$$n \\leq \\frac{4,580}{130} \\approx 35.23$$<br/>Since $n$ must be a whole number, the maximum is 35 crates. With 35 crates: $600 + 130(35) = 5,150$ pounds, within the limit. With 36 crates: $600 + 4,680 = 5,280$ pounds, exceeds the limit. That matches choice A."
     }
   ]
 }

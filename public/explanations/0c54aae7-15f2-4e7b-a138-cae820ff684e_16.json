@@ -10,11 +10,11 @@
     },
     {
       "title": "Calculate the sum of the given roots",
-      "content": "The roots are $-2$, $-7$, and $6$. Add them:<br/>$$-2 + (-7) + 6 = -9 + 6 = -3$$"
+      "content": "The roots are $-3$, $-8$, and $7$. Add them:<br/>$$-3 + (-8) + 7 = -11 + 7 = -4$$"
     },
     {
       "title": "Solve for a",
-      "content": "From Vieta's formula, we have $-a = -3$. Multiply both sides by $-1$ to isolate $a$:<br/>$$a = 3$$<br/>That matches <strong>Choice C &mdash; $3$</strong>."
+      "content": "From Vieta's formula, we have $-a = -4$. Multiply both sides by $-1$ to isolate $a$:<br/>$$a = 4$$<br/>That matches <strong>Choice C &mdash; $4$</strong>."
     }
   ]
 }

@@ -8,12 +8,12 @@
       "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
     },
     {
-      "title": "Area of Circle N",
-      "content": "<strong>Radius of N:</strong> 9 mm<br/><strong>Area formula:</strong> $$A = \\pi r^2$$<br/><strong>Area of N:</strong> $$\\pi \\times 9^2 = 81\\pi$$ mm^2"
+      "title": "Area of Circle R",
+      "content": "<strong>Radius of R:</strong> 8 mm<br/><strong>Area formula:</strong> $$A = \\pi r^2$$<br/><strong>Area of R:</strong> $$\\pi \\times 8^2 = 64\\pi$$ mm^2"
     },
     {
-      "title": "Area of Circle M and Total",
-      "content": "<strong>Given area of M:</strong> $$25\\pi$$ mm^2<br/><strong>Total area:</strong> $$81\\pi + 25\\pi = 106\\pi$$ mm^2<br/>That matches <strong>Choice A &mdash; $106\\pi$</strong>."
+      "title": "Area of Circle S and Total",
+      "content": "<strong>Given area of S:</strong> $$36\\pi$$ mm^2<br/><strong>Total area:</strong> $$64\\pi + 36\\pi = 100\\pi$$ mm^2<br/>That matches <strong>Choice A &mdash; $100\\pi$</strong>."
     }
   ]
 }

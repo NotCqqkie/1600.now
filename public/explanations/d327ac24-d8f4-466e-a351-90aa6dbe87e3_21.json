@@ -9,11 +9,11 @@
     },
     {
       "title": "Find the slope of the given equation",
-      "content": "The given equation has the form $7x - 27ry = c$ (a constant on the \\right). Solve for $y$ to put it in slope-intercept form:<br/>$$-27ry = -7x + c$$$$y = \\frac{7}{27r}\\,x - \\frac{c}{27r}$$The slope of the given line is $\\frac{7}{27r}$."
+      "content": "The given equation can be written as $8x - 31ry = -c$ (a constant on the right). Solve for $y$ to put it in slope-intercept form:<br/>$$-31ry = -8x - c$$$$y = \\frac{8}{31r}\\,x + \\frac{c}{31r}$$The slope of the given line is $\\frac{8}{31r}$."
     },
     {
       "title": "Determine the slope of the other equation",
-      "content": "For no solution, the other line must be parallel to the given line, so it must share the same slope. The other equation therefore has slope $\\frac{7}{27r}$. That is the correct answer."
+      "content": "For no solution, the other line must be parallel to the given line, so it must share the same slope. The other equation therefore has slope $\\frac{8}{31r}$. That is the correct answer."
     }
   ]
 }

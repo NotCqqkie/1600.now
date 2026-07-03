@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up the percentage formula",
-      "content": "To find 4% of 350, use the formula: (percentage ÷ 100) × total = number of balls"
+      "content": "To find 6% of 450, use the formula: (percentage ÷ 100) × total = number of marbles"
     },
     {
-      "title": "Calculate 4% of 350",
-      "content": "$$\\frac{4}{100} \\times 350 = \\frac{4 \\times 350}{100} = \\frac{1400}{100} = 14$$<br/>There are 14 balls in the box. <strong>B</strong> is correct."
+      "title": "Calculate 6% of 450",
+      "content": "$$\\frac{6}{100} \\times 450 = \\frac{6 \\times 450}{100} = \\frac{2700}{100} = 27$$<br/>There are 27 marbles in the bin. <strong>B</strong> is correct."
     }
   ]
 }

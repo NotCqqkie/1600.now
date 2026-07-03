@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $f(x)=\\frac{1}{1,024}(\\frac{1}{4})^{5x}$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $f(x)=\\frac{1}{625}(\\frac{1}{5})^{4x}$."
     },
     {
       "title": "Algebra check",
@@ -13,15 +13,15 @@
     },
     {
       "title": "Calculate the y-intercept",
-      "content": "The y-intercept occurs at $x=0$. Evaluate the original function:<br/>$$4^{-5(0+1)}=4^{-5}=\\frac{1}{4^5}=\\frac{1}{1024}$$<br/>So the y-coordinate of the y-intercept is $\\frac{1}{1024}$."
+      "content": "The y-intercept occurs at $x=0$. Evaluate the original function:<br/>$$5^{-4(0+1)}=5^{-4}=\\frac{1}{5^4}=\\frac{1}{625}$$<br/>So the y-coordinate of the y-intercept is $\\frac{1}{625}$."
     },
     {
       "title": "Rewrite the function using exponent rules",
-      "content": "Expand the exponent in the original function:<br/>$$4^{-5(x+1)} = 4^{-5x-5}$$<br/>Use the rule $a^{m+n} = a^m \\cdot a^n$ to separate the constant from the variable part:<br/>$$4^{-5x-5} = 4^{-5} \\cdot 4^{-5x}$$<br/>Substitute $4^{-5} = \\frac{1}{1024}$ and rewrite $4^{-5x}$ as a power of $\\frac{1}{4}$:<br/>$$4^{-5x} = (4^{-1})^{5x} = \\left(\\frac{1}{4}\\right)^{5x}$$<br/>Therefore:<br/>$$f(x) = \\frac{1}{1024} \\cdot \\left(\\frac{1}{4}\\right)^{5x}$$"
+      "content": "Expand the exponent in the original function:<br/>$$5^{-4(x+1)} = 5^{-4x-4}$$<br/>Use the rule $a^{m+n} = a^m \\cdot a^n$ to separate the constant from the variable part:<br/>$$5^{-4x-4} = 5^{-4} \\cdot 5^{-4x}$$<br/>Substitute $5^{-4} = \\frac{1}{625}$ and rewrite $5^{-4x}$ as a power of $\\frac{1}{5}$:<br/>$$5^{-4x} = (5^{-1})^{4x} = \\left(\\frac{1}{5}\\right)^{4x}$$<br/>Therefore:<br/>$$f(x) = \\frac{1}{625} \\cdot \\left(\\frac{1}{5}\\right)^{4x}$$"
     },
     {
       "title": "Identify the choice",
-      "content": "The rewritten form $\\frac{1}{1024} \\cdot \\left(\\frac{1}{4}\\right)^{5x}$ displays the y-intercept, $\\frac{1}{1024}$, as the coefficient. That matches <strong>Choice A &mdash; $f(x)=\\frac{1}{1,024}(\\frac{1}{4})^{5x}$</strong>, so <strong>A</strong>."
+      "content": "The rewritten form $\\frac{1}{625} \\cdot \\left(\\frac{1}{5}\\right)^{4x}$ displays the y-intercept, $\\frac{1}{625}$, as the coefficient. That matches <strong>Choice A &mdash; $f(x)=\\frac{1}{625}(\\frac{1}{5})^{4x}$</strong>, so <strong>A</strong>."
     }
   ]
 }

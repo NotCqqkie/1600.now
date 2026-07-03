@@ -4,12 +4,12 @@
   "correctAnswer": "D",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+      "title": "Fastest path: mark the angle information first",
+      "content": "Mark the given angle relationships first: equal angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are organized."
     },
     {
       "title": "Step 1",
-      "content": "List the known angles. Triangle $DEF$: $\\angle D = 40^\\circ$, $\\angle E = 95^\\circ$. Triangle $RST$: $\\angle R = 40^\\circ$, $\\angle S = 95^\\circ$. We already have two pairs of equal corresponding angles: $\\angle D = \\angle R$ and $\\angle E = \\angle S$."
+      "content": "List the known angles. Triangle $ABC$: $\\angle A = 35^\\circ$, $\\angle B = 85^\\circ$. Triangle $XYZ$: $\\angle X = 35^\\circ$, $\\angle Y = 85^\\circ$. We already have two pairs of equal corresponding angles: $\\angle A = \\angle X$ and $\\angle B = \\angle Y$."
     },
     {
       "title": "Step 2",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Step 3",
-      "content": "Confirm the third angles are implicitly equal anyway. Angle sum: $\\angle F = 180^\\circ - 40^\\circ - 95^\\circ = 45^\\circ$ and $\\angle T = 180^\\circ - 40^\\circ - 95^\\circ = 45^\\circ$. They are forced equal by the first two pairs."
+      "content": "Confirm the third angles are implicitly equal anyway. Angle sum: $\\angle C = 180^\\circ - 35^\\circ - 85^\\circ = 60^\\circ$ and $\\angle Z = 180^\\circ - 35^\\circ - 85^\\circ = 60^\\circ$. They are forced equal by the first two pairs."
     }
   ],
   "section": "Math"

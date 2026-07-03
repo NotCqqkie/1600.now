@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up the percentage calculation",
-      "content": "Stefan used 80% of his total fencing. To find how many feet he used, we need to calculate 80% of 500 feet."
+      "content": "Maya used 70% of her total fencing. To find how many feet she used, we need to calculate 70% of 600 feet."
     },
     {
-      "title": "Calculate 80% of 500",
-      "content": "Convert the percentage to a decimal and multiply:<br/>$$0.80 \\times 500 = 400$$<br/>Stefan used 400 feet of fencing to surround the vegetable garden. That matches <strong>Choice C &mdash; $400$</strong>."
+      "title": "Calculate 70% of 600",
+      "content": "Convert the percentage to a decimal and multiply:<br/>$$0.70 \\times 600 = 420$$<br/>Maya used 420 feet of fencing to surround the flower garden. That matches <strong>Choice C &mdash; $420$</strong>."
     }
   ]
 }

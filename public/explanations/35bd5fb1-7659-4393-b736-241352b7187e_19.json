@@ -4,19 +4,19 @@
   "steps": [
     {
       "title": "Step 1",
-      "content": "The original map side is 30 inches, and 1 inch represents 17 miles. The full 30-inch side represents 30 \\times 17 = 510 actual miles."
+      "content": "The original map side is 40 inches, and 1 inch represents 18 miles. The full 40-inch side represents 40 \\times 18 = 720 actual miles."
     },
     {
       "title": "Step 2",
-      "content": "The smaller map is 65% shorter, so it keeps only 35% of the original side length: 30 \\times 0.35 = 10.5 inches. That same 510 actual miles is now compressed into 10.5 inches."
+      "content": "The smaller map is 60% shorter, so it keeps only 40% of the original side length: 40 \\times 0.40 = 16 inches. That same 720 actual miles is now compressed into 16 inches."
     },
     {
       "title": "Step 3",
-      "content": "The new scale is 510 \\div 10.5 \\approx 48.57 miles per inch."
+      "content": "The new scale is 720 \\div 16 = 45 miles per inch."
     },
     {
       "title": "Step 4",
-      "content": "<ul><li>A: 5.95 &mdash; This is less than the original 17 miles per inch, but a shorter map must represent more miles per inch, not fewer. Eliminated.</li><li>B: 10.30 &mdash; Also less than 17; same reasoning rules this out. Eliminated.</li><li>C: 19.50 &mdash; Larger than 17 but far smaller than 510 &divide; 10.5. Eliminated.</li><li>D: 48.57 &mdash; 510 &divide; 10.5 &asymp; 48.57. <strong>D</strong> is correct.</li></ul>"
+      "content": "<ul><li>A: 7.20 &mdash; This is less than the original 18 miles per inch, but a shorter map must represent more miles per inch, not fewer. Eliminated.</li><li>B: 11.25 &mdash; Also less than 18; same reasoning rules this out. Eliminated.</li><li>C: 24.00 &mdash; Larger than 18 but far smaller than 720 &divide; 16. Eliminated.</li><li>D: 45.00 &mdash; 720 &divide; 16 = 45. <strong>D</strong> is correct.</li></ul>"
     }
   ],
   "correctAnswer": "D"

@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Identify the exponential form",
-      "content": "For each increase of $1$ in $x$, $y$ is multiplied by $4$. That means the relationship has the form $$y=a(4)^x.$$"
+      "content": "For each increase of $1$ in $x$, $y$ is multiplied by $3$. That means the relationship has the form $$y=a(3)^x.$$"
     },
     {
       "title": "Use the starting value",
-      "content": "When $x=0$, $y=150$: $$150=a(4)^0=a.$$ So the equation is $$y=150(4)^x.$$"
+      "content": "When $x=0$, $y=180$: $$180=a(3)^0=a.$$ So the equation is $$y=180(3)^x.$$"
     },
     {
       "title": "Choose the matching equation",
-      "content": "The matching choice, $y=150(4)^x$, has initial value $150$ and multiplies by $4$ each time $x$ increases by $1$."
+      "content": "The matching choice, $y=180(3)^x$, has initial value $180$ and multiplies by $3$ each time $x$ increases by $1$."
     }
   ]
 }

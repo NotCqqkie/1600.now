@@ -9,12 +9,12 @@
     },
     {
       "title": "Recall the cylinder volume formula",
-      "content": "The volume of a right circular cylinder is given by the product of its base area and height. From the problem: radius $r = 12\\text{ m}$ and height $h = 8\\text{ m}$.",
+      "content": "The volume of a right circular cylinder is given by the product of its base area and height. From the problem: radius $r = 13\\text{ m}$ and height $h = 9\\text{ m}$.",
       "formula": "$$V = \\pi r^2 h$$"
     },
     {
       "title": "Substitute the values and calculate",
-      "content": "Substitute $r = 12$ and $h = 8$ into the formula:<br/>$$V = \\pi(12)^2(8) = \\pi(144)(8) = 1152\\pi\\text{ m}^3$$<br/>That confirms <strong>D</strong> is correct."
+      "content": "Substitute $r = 13$ and $h = 9$ into the formula:<br/>$$V = \\pi(13)^2(9) = \\pi(169)(9) = 1521\\pi\\text{ m}^3$$<br/>That confirms <strong>D</strong> is correct."
     }
   ]
 }

@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $t^{4}+3t^{3}-13t^{2}+4t$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $t^{4}+4t^{3}-17t^{2}+5t$."
     },
     {
       "title": "Algebra check",
@@ -13,15 +13,15 @@
     },
     {
       "title": "Distribute the subtraction",
-      "content": "Start with $$(6t^4-6t^2+4t-2)-(5t^4-3t^3+7t^2-2).$$ Subtracting the second parentheses changes every sign:<br/>$$6t^4-6t^2+4t-2-5t^4+3t^3-7t^2+2.$$"
+      "content": "Start with $$(7t^4-8t^2+5t-3)-(6t^4-4t^3+9t^2-3).$$ Subtracting the second parentheses changes every sign:<br/>$$7t^4-8t^2+5t-3-6t^4+4t^3-9t^2+3.$$"
     },
     {
       "title": "Combine like terms",
-      "content": "The $t^4$ terms give $t^4$. The cubic term is $3t^3$. The $t^2$ terms give $-6t^2-7t^2=-13t^2$. The linear term is $4t$, and the constants cancel. So the expression is $$t^4+3t^3-13t^2+4t.$$"
+      "content": "The $t^4$ terms give $t^4$. The cubic term is $4t^3$. The $t^2$ terms give $-8t^2-9t^2=-17t^2$. The linear term is $5t$, and the constants cancel. So the expression is $$t^4+4t^3-17t^2+5t.$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "That expression confirms <strong>A</strong> exactly. Choice D (&lsquo;$t^{4}+3t^{3}-13t^{2}+4t-4$&rsquo;) is close but has an extra $-4$ constant. <strong>A</strong> is correct."
+      "content": "That expression confirms <strong>A</strong> exactly. Choice D (&lsquo;$t^{4}+4t^{3}-17t^{2}+5t-6$&rsquo;) is close but has an extra $-6$ constant. <strong>A</strong> is correct."
     }
   ]
 }

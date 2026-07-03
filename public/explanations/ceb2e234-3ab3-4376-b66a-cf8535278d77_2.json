@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $8x^2 + 48$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $7x^2 + 35$."
     },
     {
       "title": "Algebra check",
@@ -13,11 +13,11 @@
     },
     {
       "title": "Distribute and combine like terms",
-      "content": "Distribute $8$:$$8(x^2+6)=8x^2+48$$"
+      "content": "Distribute $7$:$$7(x^2+5)=7x^2+35$$"
     },
     {
       "title": "Match to the answer choices",
-      "content": "The simplified expression is $8x^2+48$. That is the correct answer."
+      "content": "The simplified expression is $7x^2+35$. That is the correct answer."
     }
   ]
 }

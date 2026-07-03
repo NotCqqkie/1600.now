@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find the contrast after 'but'",
-      "content": "The passage sets up a contrast with “but.” Before it, scientists claim mammals were “not very [blank].” After it, Luo's research reveals various plant-eating mammals and gliding species — a range of different types."
+      "content": "The passage sets up a contrast with “but.” Before it, scientists claim mammals were not a very ______ group. After it, Chen's research reveals various plant-eating mammals and gliding species — a range of different types."
     },
     {
       "title": "The blank describes what scientists underestimated",
-      "content": "The word must complete: “not very [diverse].” <strong>diverse</strong> is correct."
+      "content": "The word must complete the idea that Mesozoic mammals were not a very diverse group. <strong>diverse</strong> is correct."
     }
   ]
 }

@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>C</strong>, $x(17x^2 + 2x + 7)$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>C</strong>, $x(19x^2 + 3x + 8)$."
     },
     {
       "title": "Algebra check",
@@ -13,17 +13,17 @@
     },
     {
       "title": "Identify the greatest common factor",
-      "content": "Every term in $17x^3 + 2x^2 + 7x$ contains at least one factor of $x$. The GCF is $x$."
+      "content": "Every term in $19x^3 + 3x^2 + 8x$ contains at least one factor of $x$. The GCF is $x$."
     },
     {
       "title": "Factor out x",
-      "content": "$$17x^3 + 2x^2 + 7x = x(17x^2 + 2x + 7)$$"
+      "content": "$$19x^3 + 3x^2 + 8x = x(19x^2 + 3x + 8)$$"
     },
     {
       "title": "Match to the answer choices",
-      "content": "The result $x(17x^2 + 2x + 7)$ matches the correct answer exactly."
+      "content": "The result $x(19x^2 + 3x + 8)$ matches the correct answer exactly."
     }
   ],
-  "explanation": "<ul><li><strong>Choice A — $x(x^2 + 2x + 7)$</strong>: Expanding gives $x^3 + 2x^2 + 7x$, missing the coefficient 17 on the cubic term. &#10007;</li><li><strong>Choice B — $x(17x^3 + 2x^2 + 1)$</strong>: Expanding gives $17x^4 + 2x^3 + x$, which changes the degree and loses the 7x term. &#10007;</li><li><strong>Choice C — $x(17x^2 + 2x + 7)$</strong>: Expanding gives $17x^3 + 2x^2 + 7x$, which is exactly the original expression. &#10003;</li><li><strong>Choice D — $26\\left(x^3 + x^2 + x\\right)$</strong>: Expanding gives $26x^3 + 26x^2 + 26x$; the coefficients 17, 2, 7 are gone and replaced by 26. &#10007;</li></ul><strong>C</strong> is correct.",
+  "explanation": "<ul><li><strong>Choice A — $x(x^2 + 3x + 8)$</strong>: Expanding gives $x^3 + 3x^2 + 8x$, missing the coefficient 19 on the cubic term. &#10007;</li><li><strong>Choice B — $x(19x^3 + 3x^2 + 1)$</strong>: Expanding gives $19x^4 + 3x^3 + x$, which changes the degree and loses the 8x term. &#10007;</li><li><strong>Choice C — $x(19x^2 + 3x + 8)$</strong>: Expanding gives $19x^3 + 3x^2 + 8x$, which is exactly the original expression. &#10003;</li><li><strong>Choice D — $30\\left(x^3 + x^2 + x\\right)$</strong>: Expanding gives $30x^3 + 30x^2 + 30x$; the coefficients 19, 3, 8 are gone and replaced by 30. &#10007;</li></ul><strong>C</strong> is correct.",
   "section": "Math"
 }

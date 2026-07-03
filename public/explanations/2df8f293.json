@@ -1,15 +1,15 @@
 {
   "questionId": "2df8f293",
-  "correctAnswer": ".0714",
+  "correctAnswer": "1/13",
   "section": "Math",
   "steps": [
     {
       "title": "Count total vertices and favorable outcomes",
-      "content": "A 14-sided polygon has 14 vertices, each labeled with a different letter from A through N. When we select one vertex at random, there are 14 equally likely outcomes. Exactly one of these vertices is labeled with the letter D."
+      "content": "A 13-sided polygon has 13 vertices, each labeled with a different letter from A through M. When we select one vertex at random, there are 13 equally likely outcomes. Exactly one of these vertices is labeled with the letter H."
     },
     {
       "title": "Apply the probability formula",
-      "content": "The number of favorable outcomes is 1 (the vertex labeled D). The total number of equally likely outcomes is 14 (all the vertices).<br/>$$P = \\frac{1}{14} \\approx 0.0714$$",
+      "content": "The number of favorable outcomes is 1 (the vertex labeled H). The total number of equally likely outcomes is 13 (all the vertices).<br/>$$P = \\frac{1}{13}$$",
       "formula": "$$P(\\text{event}) = \\frac{\\text{favorable outcomes}}{\\text{total equally likely outcomes}}$$"
     }
   ]

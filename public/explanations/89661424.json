@@ -1,6 +1,6 @@
 {
   "questionId": "89661424",
-  "correctAnswer": "-52",
+  "correctAnswer": "-55",
   "section": "Math",
   "steps": [
     {
@@ -9,12 +9,12 @@
     },
     {
       "title": "Apply the standard circle formula",
-      "content": "For a circle with center $(-5, 2)$ and radius $9$, we use the standard form with center $(h, k) = (-5, 2)$ and $r = 9$:<br/>$$(x + 5)^2 + (y - 2)^2 = 81$$",
+      "content": "For a circle with center $(-6, 3)$ and radius $10$, we use the standard form with center $(h, k) = (-6, 3)$ and $r = 10$:<br/>$$(x + 6)^2 + (y - 3)^2 = 100$$",
       "formula": "$$(x - h)^2 + (y - k)^2 = r^2$$"
     },
     {
       "title": "Expand and simplify to general form",
-      "content": "Expand the binomials: $(x + 5)^2 = x^2 + 10x + 25$ and $(y - 2)^2 = y^2 - 4y + 4$.<br/><br/>Substitute:<br/>$$x^2 + 10x + 25 + y^2 - 4y + 4 = 81$$<br/>Move all terms to one side:<br/>$$x^2 + y^2 + 10x - 4y + 25 + 4 - 81 = 0$$<br/>$$x^2 + y^2 + 10x - 4y - 52 = 0$$<br/>Comparing with $x^2 + y^2 + ax + by + c = 0$, we have $c = -52$."
+      "content": "Expand the binomials: $(x + 6)^2 = x^2 + 12x + 36$ and $(y - 3)^2 = y^2 - 6y + 9$.<br/><br/>Substitute:<br/>$$x^2 + 12x + 36 + y^2 - 6y + 9 = 100$$<br/>Move all terms to one side:<br/>$$x^2 + y^2 + 12x - 6y + 36 + 9 - 100 = 0$$<br/>$$x^2 + y^2 + 12x - 6y - 55 = 0$$<br/>Comparing with $x^2 + y^2 + ax + by + c = 0$, we have $c = -55$."
     }
   ]
 }

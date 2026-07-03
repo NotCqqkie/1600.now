@@ -1,15 +1,15 @@
 {
   "questionId": "87a3de81",
-  "correctAnswer": "3",
+  "correctAnswer": "4",
   "section": "Math",
   "steps": [
     {
       "title": "Factor the quadratic",
-      "content": "To solve $x^2 + x - 12 = 0$, factor the expression. We need two numbers that multiply to $-12$ and add to $1$. Those are $4$ and $-3$. $$x^2 + x - 12 = (x + 4)(x - 3) = 0$$"
+      "content": "To solve $x^2 + x - 20 = 0$, factor the expression. We need two numbers that multiply to $-20$ and add to $1$. Those are $5$ and $-4$. $$x^2 + x - 20 = (x + 5)(x - 4) = 0$$"
     },
     {
       "title": "Find the positive solution",
-      "content": "From the factored form $(x + 4)(x - 3) = 0$, we get $x = -4$ or $x = 3$. Since $a \\gt 0$, the value of $a$ is $3$."
+      "content": "From the factored form $(x + 5)(x - 4) = 0$, we get $x = -5$ or $x = 4$. Since $a \\gt 0$, the value of $a$ is $4$."
     }
   ]
 }

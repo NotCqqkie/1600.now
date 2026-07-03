@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Start with slope-intercept form",
-      "content": "A linear function with slope $2$ has the form $$g(x)=2x+b.$$"
+      "content": "A linear function with slope $3$ has the form $$g(x)=3x+b.$$"
     },
     {
       "title": "Use the given point",
-      "content": "The graph passes through $(1,14)$, so $g(1)=14$: $$14=2(1)+b$$ $$b=12.$$"
+      "content": "The graph passes through $(2,19)$, so $g(2)=19$: $$19=3(2)+b$$ $$b=13.$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "The function is $g(x)=2x+12$. That confirms <strong>C</strong>."
+      "content": "The function is $g(x)=3x+13$. That confirms <strong>C</strong>."
     },
     {
       "title": "Use the point as a check",
-      "content": "Substituting $x=1$ into the correct answer gives $g(1)=2(1)+12=14$, exactly the given point. The other choices give $2$, $4$, or $16$ when $x=1$."
+      "content": "Substituting $x=2$ into the correct answer gives $g(2)=3(2)+13=19$, exactly the given point. The other choices give $6$, $9$, or $25$ when $x=2$."
     }
   ]
 }

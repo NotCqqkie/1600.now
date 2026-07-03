@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Count total numbers and identify negative values",
-      "content": "The data set contains three numbers: $-13$, $4$, and $23$. Among these, only $-13$ is negative. The other two values are positive. So we have 1 negative number out of 3 total numbers."
+      "content": "The data set contains three numbers: $-9$, $6$, and $18$. Among these, only $-9$ is negative. The other two values are positive. So we have 1 negative number out of 3 total numbers."
     },
     {
       "title": "Apply the probability formula",

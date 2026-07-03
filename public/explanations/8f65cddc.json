@@ -4,13 +4,13 @@
   "steps": [
     {
       "title": "Step 1",
-      "content": "Start with $\\frac{1}{7b}=\\frac{11x}{y}$. Cross-multiply: $y = 7b \\cdot 11x = 77bx$."
+      "content": "Start with $\\frac{1}{5b}=\\frac{9x}{y}$. Cross-multiply: $y = 5b \\cdot 9x = 45bx$."
     },
     {
       "title": "Step 2",
-      "content": "Divide both sides by $77b$: $x = \\frac{y}{77b}$."
+      "content": "Divide both sides by $45b$: $x = \\frac{y}{45b}$."
     }
   ],
-  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; $x=\\frac{7by}{11}$</strong>: This would mean $\\frac{1}{7b}=\\frac{11 \\cdot 7by/11}{y}=7b$, giving $\\frac{1}{7b}=7b$, false in general. &#10007;</li><li><strong>Choice B &mdash; $x=y-77b$</strong>: Substituting back gives $\\frac{1}{7b}=\\frac{11(y-77b)}{y}$, which is not a valid identity. &#10007;</li><li><strong>Choice C &mdash; $x=\\frac{y}{77b}$</strong>: Substituting: $\\frac{11x}{y}=\\frac{11 \\cdot y/(77b)}{y}=\\frac{11}{77b}=\\frac{1}{7b}$ ✓. &#10003;</li><li><strong>Choice D &mdash; $x=77by$</strong>: Substituting: $\\frac{11 \\cdot 77by}{y}=847b \\neq \\frac{1}{7b}$ in general. &#10007;</li></ul>That confirms <strong>C</strong> is correct.",
+  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; $x=\\frac{5by}{9}$</strong>: This would mean $\\frac{1}{5b}=\\frac{9 \\cdot 5by/9}{y}=5b$, giving $\\frac{1}{5b}=5b$, false in general. &#10007;</li><li><strong>Choice B &mdash; $x=y-45b$</strong>: Substituting back gives $\\frac{1}{5b}=\\frac{9(y-45b)}{y}$, which is not a valid identity. &#10007;</li><li><strong>Choice C &mdash; $x=\\frac{y}{45b}$</strong>: Substituting: $\\frac{9x}{y}=\\frac{9 \\cdot y/(45b)}{y}=\\frac{9}{45b}=\\frac{1}{5b}$. &#10003;</li><li><strong>Choice D &mdash; $x=45by$</strong>: Substituting: $\\frac{9 \\cdot 45by}{y}=405b \\neq \\frac{1}{5b}$ in general. &#10007;</li></ul>That confirms <strong>C</strong> is correct.",
   "correctAnswer": "C"
 }

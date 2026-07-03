@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Translate the phrase",
-      "content": "\"Twice the value of $x$\" is $2x$. \"$8$ more than\" that amount means add $8$."
+      "content": "\"3 times the value of $x$\" is $3x$. \"$6$ more than\" that amount means add $6$."
     },
     {
       "title": "Write y in terms of x",
-      "content": "Since $y$ is $8$ more than twice $x$, $$y=2x+8.$$"
+      "content": "Since $y$ is $6$ more than 3 times $x$, $$y=3x+6.$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "<strong>$y=10x+2$</strong> and the remaining alternative use slope $10$, and the remaining alternative swaps the $2$ and $8$. The correct value is $y=2x+8$, so <strong>B</strong> is correct."
+      "content": "<strong>$y=9x+3$</strong> and another alternative use slope $9$, and the remaining alternative swaps the $3$ and $6$. The correct value is $y=3x+6$, so <strong>B</strong> is correct."
     }
   ]
 }

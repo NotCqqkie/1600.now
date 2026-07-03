@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Define the variables",
-      "content": "Let $x$ be the price of each shirt and $y$ be the price of each pair of pants."
+      "content": "Let $x$ be the price of each notebook and $y$ be the price of each folder."
     },
     {
-      "title": "Write Hiro's equation",
-      "content": "Hiro bought $4$ shirts and $2$ pairs of pants for $86$, so his total is $$4x+2y=86.$$"
+      "title": "Write Maya's equation",
+      "content": "Maya bought $5$ notebooks and $3$ folders for $71$, so her total is $$5x+3y=71.$$"
     },
     {
-      "title": "Write Sofia's equation",
-      "content": "Sofia bought $3$ shirts and $5$ pairs of pants for $166$, so her total is $$3x+5y=166.$$"
+      "title": "Write Omar's equation",
+      "content": "Omar bought $2$ notebooks and $6$ folders for $86$, so his total is $$2x+6y=86.$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "The system $4x+2y=86$ and $3x+5y=166$ matches so <strong>A</strong> is correct."
+      "content": "The system $5x+3y=71$ and $2x+6y=86$ matches so <strong>A</strong> is correct."
     }
   ]
 }

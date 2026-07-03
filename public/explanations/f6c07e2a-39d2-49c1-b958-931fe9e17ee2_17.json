@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Substitute the value x=0",
-      "content": "The $y$-intercept occurs at $x=0$: $f(0)=(-2)(3)^{0}+21$."
+      "content": "The $y$-intercept occurs at $x=0$: $f(0)=(-4)(2)^{0}+25$."
     },
     {
       "title": "Compute the y-intercept",
-      "content": "$f(0)=(-2)(1)+21=19$, so the intercept is $(0,19)$. That matches the correct answer — <strong>A</strong> is correct."
+      "content": "$f(0)=(-4)(1)+25=21$, so the intercept is $(0,21)$. That matches the correct answer - <strong>A</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above is $(0, 19)$. The other choices do not satisfy the same condition from the question, so <strong>A</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above is $(0, 21)$. The other choices do not satisfy the same condition from the question, so <strong>A</strong> is correct."
     }
   ]
 }

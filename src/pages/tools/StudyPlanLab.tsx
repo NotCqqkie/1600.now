@@ -293,7 +293,7 @@ const questionCountForMinutes = (minutes: number, subject: BankSubject) => {
   return Math.max(5, Math.min(18, Math.round(minutes / perQuestion)));
 };
 
-const moduleActionForIndex = (index: number, timeLimitMinutes: number): PlannerTaskAction => {
+const moduleActionForIndex = (index: number, timeLimitMinutes: number): Extract<PlannerTaskAction, { kind: "module" }> => {
   const module = moduleForIndex(index);
   return {
     kind: "module",
@@ -302,7 +302,7 @@ const moduleActionForIndex = (index: number, timeLimitMinutes: number): PlannerT
   };
 };
 
-const moduleSliceActionForIndex = (index: number, timeLimitMinutes: number): PlannerTaskAction => {
+const moduleSliceActionForIndex = (index: number, timeLimitMinutes: number): Extract<PlannerTaskAction, { kind: "module-slice" }> => {
   const module = moduleForIndex(Math.floor(index / 2));
   const firstHalf = index % 2 === 0;
   const midpoint = module ? Math.ceil(module.questionCount / 2) : 0;

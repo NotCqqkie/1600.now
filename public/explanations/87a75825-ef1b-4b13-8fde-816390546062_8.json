@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up",
-      "content": "At $t = 0$ there are 238 people. The count decreases by 14 each minute, so the slope is $-14$. A linear model has the form: $$p(t) = -14t + 238$$"
+      "content": "At $t = 0$ there are 272 people. The count decreases by 16 each minute, so the slope is $-16$. A linear model has the form: $$p(t) = -16t + 272$$"
     },
     {
       "title": "Solve",
-      "content": "Verify: at $t = 1$, $p(1) = -14(1) + 238 = 224$, which is $238 - 14$ &mdash; exactly 14 people boarded in the first minute."
+      "content": "Verify: at $t = 1$, $p(1) = -16(1) + 272 = 256$, which is $272 - 16$ &mdash; exactly 16 people boarded in the first minute."
     },
     {
       "title": "Answer",

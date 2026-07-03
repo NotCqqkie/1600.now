@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Start with the given equation",
-      "content": "The equation is $P=\\frac{W}{t}$."
+      "content": "The equation is $R=\\frac{D}{h}$."
     },
     {
-      "title": "Isolate W",
-      "content": "Multiply both sides by $t$: $Pt=W$."
+      "title": "Isolate D",
+      "content": "Multiply both sides by $h$: $Rh=D$."
     },
     {
       "title": "Match the choice",
-      "content": "Rewriting gives $W=Pt$, which matches <strong>A</strong>."
+      "content": "Rewriting gives $D=Rh$, which matches <strong>A</strong>."
     },
     {
       "title": "Check the inverse operation",
-      "content": "Since $W$ is divided by $t$, multiplying by $t$ undoes the division. Dividing by $t$ again or adding $t$ would not preserve the original relationship."
+      "content": "Since $D$ is divided by $h$, multiplying by $h$ undoes the division. Dividing by $h$ again or adding $h$ would not preserve the original relationship."
     }
   ]
 }

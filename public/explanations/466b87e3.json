@@ -1,6 +1,6 @@
 {
   "questionId": "466b87e3",
-  "correctAnswer": "1/2,0.5,.5",
+  "correctAnswer": "3/5,0.6,.6",
   "section": "Math",
   "steps": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "title": "Compare slopes to find c",
-      "content": "Both equations are in slope-intercept form $y=mx+b$. The first line has slope $\\frac{1}{2}$ and the second has slope $c$. For no solution, the slopes must match while the $y$-intercepts differ. The intercepts are already different, $8\\ne10$, so set $c=\\frac{1}{2}$."
+      "content": "Both equations are in slope-intercept form $y=mx+b$. The first line has slope $\\frac{3}{5}$ and the second has slope $c$. For no solution, the slopes must match while the $y$-intercepts differ. The intercepts are already different, $6\\ne11$, so set $c=\\frac{3}{5}$."
     }
   ]
 }

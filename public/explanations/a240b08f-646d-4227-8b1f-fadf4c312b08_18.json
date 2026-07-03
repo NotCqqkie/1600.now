@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $\\sqrt{\\frac{5x - 4z}{20x^{2}z^{2}}}$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $\\sqrt{\\frac{6x - 5z}{30x^{2}z^{2}}}$."
     },
     {
       "title": "Algebra check",
@@ -13,15 +13,15 @@
     },
     {
       "title": "Isolate xyz on one side",
-      "content": "Subtract $\\tfrac{1}{5xy}$ from both sides: $$xyz=\\frac{1}{4yz}-\\frac{1}{5xy}$$ Find the common denominator $20xy^2z$: $$xyz=\\frac{5x-4z}{20xy^2z}$$"
+      "content": "Subtract $\\tfrac{1}{6xy}$ from both sides: $$xyz=\\frac{1}{5yz}-\\frac{1}{6xy}$$ Find the common denominator $30xyz$: $$xyz=\\frac{6x-5z}{30xyz}$$"
     },
     {
       "title": "Solve for y&sup2;",
-      "content": "Multiply both sides by $y^2$ and divide by $xz$: $$y^2=\\frac{5x-4z}{20x^2z^2}$$"
+      "content": "Multiply both sides by $30xyz$ and divide by $30x^2z^2$: $$y^2=\\frac{6x-5z}{30x^2z^2}$$"
     },
     {
       "title": "Take the positive square root",
-      "content": "Since $y$ is positive: $$y=\\sqrt{\\frac{5x-4z}{20x^2z^2}}$$"
+      "content": "Since $y$ is positive: $$y=\\sqrt{\\frac{6x-5z}{30x^2z^2}}$$"
     }
   ],
   "section": "Math"

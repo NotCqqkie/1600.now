@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "Convert a speed of $\\tfrac{3}{50}$ feet per second to yards per second, using the fact that $3$ feet $= 1$ yard."
+      "content": "Convert a speed of $\\tfrac{6}{25}$ feet per second to yards per second, using the fact that $3$ feet $= 1$ yard."
     },
     {
       "title": "Eliminate the choices",
-      "content": "Dividing feet by $3$ converts to yards: $\\dfrac{3}{50} \\div 3 = \\dfrac{3}{150} = \\dfrac{1}{50}$.<ul><li><strong>Choice A &mdash; 50</strong>: multiplied instead of converted units. &#10007;</li><li><strong>Choice B &mdash; 6</strong>: added the conversion factor instead of dividing. &#10007;</li><li><strong>Choice C &mdash; $\\frac{9}{50}$</strong>: multiplied by $3$ instead of dividing by $3$. &#10007;</li><li><strong>Choice D &mdash; $\\frac{1}{50}$</strong>: correctly divides by $3$ to convert feet to yards. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+      "content": "Dividing feet by $3$ converts to yards: $\\dfrac{6}{25} \\div 3 = \\dfrac{6}{75} = \\dfrac{2}{25}$.<ul><li><strong>Choice A &mdash; 25</strong>: multiplied instead of converted units. &#10007;</li><li><strong>Choice B &mdash; 9</strong>: added the conversion factor instead of dividing. &#10007;</li><li><strong>Choice C &mdash; $\\frac{18}{25}$</strong>: multiplied by $3$ instead of dividing by $3$. &#10007;</li><li><strong>Choice D &mdash; $\\frac{2}{25}$</strong>: correctly divides by $3$ to convert feet to yards. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
     }
   ]
 }

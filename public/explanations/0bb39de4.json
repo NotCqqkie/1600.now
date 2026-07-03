@@ -9,11 +9,11 @@
     },
     {
       "title": "Use angle sum to find angle C",
-      "content": "In any triangle, the sum of angles is 180°. In triangle ABC:<br/>$$18^{\\circ} + 90^{\\circ} + \\text{angle } C = 180^{\\circ}$$<br/>$$\\text{angle } C = 72^{\\circ}$$"
+      "content": "In any triangle, the sum of angles is $180^{\\circ}$. In triangle $ABC$:<br/>$$27^{\\circ} + 90^{\\circ} + \\text{angle } C = 180^{\\circ}$$<br/>$$\\text{angle } C = 63^{\\circ}$$"
     },
     {
       "title": "Find angle F using congruence",
-      "content": "Since the triangles are congruent with A↔D and B↔E, the remaining vertices must correspond: C↔F. Congruent triangles have equal corresponding angles, so angle F = angle C = 72°. That matches <strong>Choice B &mdash; $72^\\circ$</strong>."
+      "content": "Since the triangles are congruent with A corresponding to D and B corresponding to E, the remaining vertices must correspond: C and F. Congruent triangles have equal corresponding angles, so angle F = angle C = $63^{\\circ}$. That matches <strong>Choice B &mdash; $63^\\circ$</strong>."
     }
   ]
 }

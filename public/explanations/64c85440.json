@@ -4,21 +4,21 @@
   "steps": [
     {
       "title": "Step 1",
-      "content": "If $n$ spaces fill a 135-foot curb, each space has width $\\frac{135}{n}$ feet. The standard width constraint gives $7.5 \\le \\frac{135}{n} \\le 9.0$."
+      "content": "If $n$ spaces fill a 180-foot curb, each space has width $\\frac{180}{n}$ feet. The standard width constraint gives $7.5 \\le \\frac{180}{n} \\le 9.0$."
     },
     {
       "title": "Step 2",
-      "content": "From $\\frac{135}{n} \\le 9$: multiply both sides by $n$ to get $135 \\le 9n$, so $n \\ge 15$."
+      "content": "From $\\frac{180}{n} \\le 9$: multiply both sides by $n$ to get $180 \\le 9n$, so $n \\ge 20$."
     },
     {
       "title": "Step 3",
-      "content": "From $7.5 \\le \\frac{135}{n}$: multiply both sides by $n$ to get $7.5n \\le 135$, so $n \\le 18$."
+      "content": "From $7.5 \\le \\frac{180}{n}$: multiply both sides by $n$ to get $7.5n \\le 180$, so $n \\le 24$."
     },
     {
       "title": "Step 4",
-      "content": "Combining: $15 \\le n \\le 18$."
+      "content": "Combining: $20 \\le n \\le 24$."
     }
   ],
-  "eliminationHtml": "<ul><li><strong>Choice A &mdash; &lsquo;$18 \\le n \\le 135$&rsquo;</strong>: The upper bound 135 has no basis; a 135-foot curb cannot hold 135 spaces each at least 7.5 feet wide. &#10007;</li><li><strong>Choice B &mdash; &lsquo;$7.5 \\le n \\le 9$&rsquo;</strong>: These are the widths in feet, not the number of spaces. &#10007;</li><li><strong>Choice C &mdash; &lsquo;$15 \\le n \\le 135$&rsquo;</strong>: The lower bound 15 is correct, but the upper bound 135 is far too high. &#10007;</li><li><strong>Choice D &mdash; &lsquo;$15 \\le n \\le 18$&rsquo;</strong>: $135 \\div 9 = 15$ (minimum spaces) and $135 \\div 7.5 = 18$ (maximum spaces). Both bounds are correct. &#10003;</li></ul>That confirms <strong>D</strong> is correct.",
+  "eliminationHtml": "<ul><li><strong>Choice A &mdash; &lsquo;$24 \\le n \\le 180$&rsquo;</strong>: The upper bound 180 has no basis; a 180-foot curb cannot hold 180 spaces each at least 7.5 feet wide. &#10007;</li><li><strong>Choice B &mdash; &lsquo;$7.5 \\le n \\le 9$&rsquo;</strong>: These are the widths in feet, not the number of spaces. &#10007;</li><li><strong>Choice C &mdash; &lsquo;$20 \\le n \\le 180$&rsquo;</strong>: The lower bound 20 is correct, but the upper bound 180 is far too high. &#10007;</li><li><strong>Choice D &mdash; &lsquo;$20 \\le n \\le 24$&rsquo;</strong>: $180 \\div 9 = 20$ (minimum spaces) and $180 \\div 7.5 = 24$ (maximum spaces). Both bounds are correct. &#10003;</li></ul>That confirms <strong>D</strong> is correct.",
   "correctAnswer": "D"
 }

@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $6{x}^{2}$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $5{x}^{2}$."
     },
     {
       "title": "Algebra check",
@@ -13,11 +13,11 @@
     },
     {
       "title": "Combine like terms",
-      "content": "Both terms share the factor $x^2$. Subtract the coefficients: $13x^2 - 7x^2 = (13 - 7)x^2 = 6x^2$."
+      "content": "Both terms share the factor $x^2$. Subtract the coefficients: $14x^2 - 9x^2 = (14 - 9)x^2 = 5x^2$."
     },
     {
       "title": "Eliminate choices",
-      "content": "<ul><li><strong>Choice A &mdash; $-91{x}^{2}$</strong>: $-91$ would come from multiplying $13 \\times (-7)$, not subtracting. &#10007;</li><li><strong>Choice B &mdash; $6{x}^{2}$</strong>: $13 - 7 = 6$, so this is correct. &#10003;</li><li><strong>Choice C &mdash; $20{x}^{2}$</strong>: $20$ would come from adding $13 + 7$, not subtracting. &#10007;</li><li><strong>Choice D &mdash; $40{x}^{2}$</strong>: No arithmetic operation on 13 and 7 yields 40. &#10007;</li></ul>That matches <strong>Choice B &mdash; $6{x}^{2}$</strong>."
+      "content": "<ul><li><strong>Choice A &mdash; $-126{x}^{2}$</strong>: $-126$ would come from multiplying $14 \\times (-9)$, not subtracting. &#10007;</li><li><strong>Choice B &mdash; $5{x}^{2}$</strong>: $14 - 9 = 5$, so this is correct. &#10003;</li><li><strong>Choice C &mdash; $23{x}^{2}$</strong>: $23$ would come from adding $14 + 9$, not subtracting. &#10007;</li><li><strong>Choice D &mdash; $46{x}^{2}$</strong>: $46$ would come from doubling $14 + 9$, not subtracting. &#10007;</li></ul>That matches <strong>Choice B &mdash; $5{x}^{2}$</strong>."
     }
   ]
 }

@@ -9,7 +9,7 @@
     },
     {
       "title": "Check each choice",
-      "content": "<ul><li><strong>Choice A &mdash; $4x+2y=12$ and $4x+8y=48$</strong>: The coefficient ratios do not match, so these are distinct lines. &#10007;</li><li><strong>Choice B &mdash; $x+2y=12$ and $x+8y=48$</strong>: The coefficient ratios do not match, so these are distinct lines. &#10007;</li><li><strong>Choice C &mdash; $x+2y=12$ and $4x+8y=48$</strong>: Multiplying the first equation by 4 gives $4x+8y=48$, exactly the second equation. Same line, infinitely many solutions. &#10003;</li><li><strong>Choice D &mdash; $4x+2y=12$ and $x+8y=48$</strong>: The coefficient ratios do not match, so these are distinct lines. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; $5x+3y=15$ and $5x+15y=75$</strong>: The coefficient ratios do not match, so these are distinct lines. &#10007;</li><li><strong>Choice B &mdash; $x+3y=15$ and $x+15y=75$</strong>: The coefficient ratios do not match, so these are distinct lines. &#10007;</li><li><strong>Choice C &mdash; $x+3y=15$ and $5x+15y=75$</strong>: Multiplying the first equation by 5 gives $5x+15y=75$, exactly the second equation. Same line, infinitely many solutions. &#10003;</li><li><strong>Choice D &mdash; $5x+3y=15$ and $x+15y=75$</strong>: The coefficient ratios do not match, so these are distinct lines. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
     }
   ]
 }

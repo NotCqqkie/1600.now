@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The goal is to <strong>emphasize the combined deadweight tonnage</strong> of the Bahamas' merchant ships in 2021. The word 'combined' is the key signal &mdash; the answer must make the aggregate tonnage figure (74.3 million tons) the main point, not ship counts or definitions."
+      "content": "The goal is to <strong>emphasize the combined deadweight tonnage</strong> of Malta's merchant ships in 2021. The word 'combined' is the key signal &mdash; the answer must make the aggregate tonnage figure (74.3 million tons) the main point, not ship counts or definitions."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;The carrying capacity of a merchant ship is also known as deadweight tonnage.&rsquo;</strong>: Defines a term but presents no tonnage figure and says nothing about the Bahamas' fleet. &#10007;</li><li><strong>Choice B &mdash; &lsquo;In 2021, the Bahamas had 1,323 merchant ships hired to carry cargo or passengers.&rsquo;</strong>: Emphasizes ship count, not tonnage. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Combined, the Bahamas’ merchant ships had a deadweight tonnage of 74.3 million tons in 2021.&rsquo;</strong>: Opens with 'Combined,' makes 74.3 million tons the focal point, and directly satisfies the goal. &#10003;</li><li><strong>Choice D &mdash; &lsquo;There were a total of 1,323 merchant ships—ships hired to carry cargo or passengers—registered in the Bahamas in 2021.&rsquo;</strong>: Again emphasizes ship count; tonnage is omitted entirely. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;The carrying capacity of a merchant ship is also known as deadweight tonnage.&rsquo;</strong>: Defines a term but presents no tonnage figure and says nothing about Malta's fleet. &#10007;</li><li><strong>Choice B &mdash; &lsquo;In 2021, Malta had 1,323 merchant ships hired to carry cargo or passengers.&rsquo;</strong>: Emphasizes ship count, not tonnage. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Combined, Malta’s merchant ships had a deadweight tonnage of 74.3 million tons in 2021.&rsquo;</strong>: Opens with 'Combined,' makes 74.3 million tons the focal point, and directly satisfies the goal. &#10003;</li><li><strong>Choice D &mdash; &lsquo;There were a total of 1,323 merchant ships—ships hired to carry cargo or passengers—registered in Malta in 2021.&rsquo;</strong>: Again emphasizes ship count; tonnage is omitted entirely. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
     }
   ]
 }

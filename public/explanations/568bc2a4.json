@@ -4,17 +4,17 @@
   "steps": [
     {
       "title": "Step 1",
-      "content": "Convert furlongs to yards: $354 \\text{ furlongs} \\times 220 \\text{ yd/furlong} = 77{,}880 \\text{ yd}$."
+      "content": "Convert furlongs to yards: $372 \\text{ furlongs} \\times 220 \\text{ yd/furlong} = 81{,}840 \\text{ yd}$."
     },
     {
       "title": "Step 2",
-      "content": "Convert yards to feet: $77{,}880 \\text{ yd} \\times 3 \\text{ ft/yd} = 233{,}640 \\text{ ft}$."
+      "content": "Convert yards to feet: $81{,}840 \\text{ yd} \\times 3 \\text{ ft/yd} = 245{,}520 \\text{ ft}$."
     },
     {
       "title": "Step 3",
-      "content": "Equivalently: $354 \\times 220 \\times 3 = 354 \\times 660 = 233{,}640$. This single product works because each furlong is first converted to yards and each yard is then converted to feet, so the units cancel in sequence."
+      "content": "Equivalently: $372 \\times 220 \\times 3 = 372 \\times 660 = 245{,}520$. This single product works because each furlong is first converted to yards and each yard is then converted to feet, so the units cancel in sequence. Therefore, <strong>Choice D</strong> is correct."
     }
   ],
-  "choiceAnalysis": "<ul><li><strong>Choice A — $306$</strong>: Far too small; likely from dividing instead of multiplying. &#10007;</li><li><strong>Choice B — $402$</strong>: Far too small; does not match any unit conversion. &#10007;</li><li><strong>Choice C — $25,960$</strong>: Result of multiplying $354 \\times 220 \\div 3$ (dividing by 3 instead of multiplying). &#10007;</li><li><strong>Choice D — $233,640$</strong>: $354 \\times 220 \\times 3 = 233{,}640$ ✓. &#10003;</li></ul><strong>D</strong> is correct.",
+  "choiceAnalysis": "<ul><li><strong>Choice A — $318$</strong>: Far too small; likely from dividing instead of multiplying. &#10007;</li><li><strong>Choice B — $426$</strong>: Far too small; does not match any unit conversion. &#10007;</li><li><strong>Choice C — $27,280$</strong>: Result of multiplying $372 \\times 220 \\div 3$ (dividing by 3 instead of multiplying). &#10007;</li><li><strong>Choice D — $245,520$</strong>: $372 \\times 220 \\times 3 = 245{,}520$ ✓. &#10003;</li></ul><strong>D</strong> is correct.",
   "correctAnswer": "D"
 }

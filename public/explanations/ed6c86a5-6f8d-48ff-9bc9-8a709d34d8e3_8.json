@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Use the data directly",
-      "content": "The maximum height gives the vertex $(3,268)$, so the model has the form $f(t)=a(t-3)^2+268$. Use the initial height point $(0,124)$ to find $a$."
+      "content": "The maximum height gives the vertex $(4,324)$, so the model has the form $f(t)=a(t-4)^2+324$. Use the initial height point $(0,68)$ to find $a$."
     },
     {
       "title": "Read the equation",
-      "content": "Substitute $(0,124)$: $$124=a(0-3)^2+268.$$ Then $$124=9a+268,$$ so $$9a=-144$$ and $$a=-16.$$ The equation is $f(t)=-16(t-3)^2+268$."
+      "content": "Substitute $(0,68)$: $$68=a(0-4)^2+324.$$ Then $$68=16a+324,$$ so $$16a=-256$$ and $$a=-16.$$ The equation is $f(t)=-16(t-4)^2+324$."
     },
     {
       "title": "Check the initial height",
-      "content": "At $t=0$: $f(0)=-16(0-3)^{2}+268=-16(9)+268=-144+268=124.$ This matches the launch height of 124 feet."
+      "content": "At $t=0$: $f(0)=-16(0-4)^{2}+324=-16(16)+324=-256+324=68.$ This matches the launch height of 68 feet."
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li>A) $f(t)=-16(t+268)^{2}-3$ &mdash; vertex would be $(-268,-3)$, not $(3,268)$. Eliminate.</li><li>B) $f(t)=-16(t-268)^{2}+3$ &mdash; vertex would be $(268,3)$, not $(3,268)$. Eliminate.</li><li>C) $f(t)=-16(t+3)^{2}-268$ &mdash; vertex would be $(-3,-268)$, a minimum below ground. Eliminate.</li><li>D) $f(t)=-16(t-3)^{2}+268$ &mdash; vertex $(3,268)$ and $f(0)=124$. Keep.</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+      "content": "<ul><li>A) $f(t)=-16(t+324)^{2}-4$ &mdash; vertex would be $(-324,-4)$, not $(4,324)$. Eliminate.</li><li>B) $f(t)=-16(t-324)^{2}+4$ &mdash; vertex would be $(324,4)$, not $(4,324)$. Eliminate.</li><li>C) $f(t)=-16(t+4)^{2}-324$ &mdash; vertex would be $(-4,-324)$, not $(4,324)$. Eliminate.</li><li>D) $f(t)=-16(t-4)^{2}+324$ &mdash; vertex $(4,324)$ and $f(0)=68$. Keep.</li></ul>That matches the correct answer &mdash; <strong>D</strong> is correct."
     }
   ]
 }

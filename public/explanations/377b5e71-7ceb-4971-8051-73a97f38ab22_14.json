@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Locate the key phrase in the passage",
-      "content": "The passage explains the surprising result with this phrase: <em>&ldquo;outweighed by participants&rsquo; views of the experiential relevance of the two types of messengers.&rdquo;</em> Volunteers&rsquo; direct experience with clinical trials outweighed the doctors&rsquo; credentialed status. The correct answer must capture that trade-off."
+      "content": "The passage explains the surprising result with this phrase: <em>\"outweighed by participants' views of the experiential relevance of the two types of messengers;\"</em> Volunteers' direct experience with clinical trials outweighed the doctors' credentialed status. The correct answer must capture that trade-off."
     },
     {
       "title": "Eliminate wrong choices and confirm the answer",

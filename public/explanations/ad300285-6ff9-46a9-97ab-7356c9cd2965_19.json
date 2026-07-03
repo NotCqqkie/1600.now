@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+      "title": "Fastest path: identify the circle data first",
+      "content": "For coordinate-circle questions, identify the center and radius from the wording or equation first. Then substitute those values into the standard circle equation."
     },
     {
       "title": "Use the circle equation form",
@@ -13,11 +13,11 @@
     },
     {
       "title": "Substitute the center and radius",
-      "content": "The center is $(16,17)$ and the radius is $7k$, so $$(x-16)^2+(y-17)^2=(7k)^2.$$"
+      "content": "The center is $(14,19)$ and the radius is $8k$, so $$(x-14)^2+(y-19)^2=(8k)^2.$$"
     },
     {
       "title": "Square the radius",
-      "content": "$(7k)^2=49k^2$, so the equation is $$(x-16)^2+(y-17)^2=49k^2.$$"
+      "content": "$(8k)^2=64k^2$, so the equation is $$(x-14)^2+(y-19)^2=64k^2.$$"
     }
   ]
 }

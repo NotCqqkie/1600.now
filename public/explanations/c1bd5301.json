@@ -1,6 +1,6 @@
 {
   "questionId": "c1bd5301",
-  "correctAnswer": "241",
+  "correctAnswer": "196",
   "section": "Math",
   "steps": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "title": "Solve for a using the birth weight",
-      "content": "The model predicts the animal weighed $$241$$ pounds at birth, so $$f(0)=241$$. Since $$f(0)=a$$, we have $$a=241$$.<br/>The answer is <strong>241</strong>."
+      "content": "The model predicts the animal weighed $$196$$ pounds at birth, so $$f(0)=196$$. Since $$f(0)=a$$, we have $$a=196$$.<br/>The answer is <strong>196</strong>."
     }
   ]
 }

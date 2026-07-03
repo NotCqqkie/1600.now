@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Convert the percentage to a multiplier",
-      "content": "The phrase <em>200% of</em> means we multiply by the decimal equivalent of 200%. So Levi's collection is 2 times (or twice) the size of Marissa's collection."
+      "content": "The phrase <em>200% of</em> means we multiply by the decimal equivalent of 200%. So Noah's collection is 2 times (or twice) the size of Priya's collection."
     },
     {
-      "title": "Calculate Levi's stamp count",
-      "content": "Multiply Marissa's stamp count by the multiplier we found:<br/>$$\\text{Levi's stamps} = 2 \\times 460 = 920$$<br/>That confirms <strong>C</strong> is correct."
+      "title": "Calculate Noah's sticker count",
+      "content": "Multiply Priya's sticker count by the multiplier we found:<br/>$$\\text{Noah's stickers} = 2 \\times 520 = 1040$$<br/>That confirms <strong>C</strong> is correct."
     }
   ]
 }

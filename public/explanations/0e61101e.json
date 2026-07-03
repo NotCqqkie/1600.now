@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Substitute into f",
-      "content": "Since $g(x)=f(x+2)$ and $f(x)=9(4)^x$, replace $x$ in $f$ with $x+2$: $$g(x)=9(4)^{x+2}$$"
+      "content": "Since $g(x)=f(x+2)$ and $f(x)=8(5)^x$, replace $x$ in $f$ with $x+2$: $$g(x)=8(5)^{x+2}$$"
     },
     {
       "title": "Separate the exponent",
-      "content": "Use $(4)^{x+2}=4^x\\cdot4^2=16(4)^x$. Then $$g(x)=9\\cdot16(4)^x=144(4)^x$$"
+      "content": "Use $(5)^{x+2}=5^x\\cdot5^2=25(5)^x$. Then $$g(x)=8\\cdot25(5)^x=200(5)^x$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "<strong>Choice B &mdash; $g \\left(x\\right)=144{ \\left(4\\right)}^{x}$</strong> is $g(x)=144(4)^x$, so <strong>B</strong> is correct."
+      "content": "<strong>Choice B &mdash; $g \\left(x\\right)=200{ \\left(5\\right)}^{x}$</strong> is $g(x)=200(5)^x$, so <strong>B</strong> is correct."
     },
     {
       "title": "Interpret the horizontal shift algebraically",
-      "content": "The input $x+2$ goes into the exponent, so the base $4$ is multiplied by itself two extra times. That creates a factor of $4^2=16$, not a new base of $8$ or $16$."
+      "content": "The input $x+2$ goes into the exponent, so the base $5$ is multiplied by itself two extra times. That creates a factor of $5^2=25$, not a new base of $10$ or $25$."
     }
   ]
 }

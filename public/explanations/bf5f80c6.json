@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Set up the substitution test",
-      "content": "A point is a solution to $y \\lt -4x + 4$ if substituting its coordinates makes the inequality true. We'll test each answer choice."
+      "content": "A point is a solution to $y \\lt -3x + 5$ if substituting its coordinates makes the inequality true. We'll test each answer choice."
     },
     {
       "title": "Backsolving",
-      "content": "Backsolving — testing choice B $(0, 5)$: Is $5 \\lt -4(0) + 4 = 4$? No, $5 \\gt 4$ fails.<br/><br/>Testing choice A $(-4, 0)$: Is $0 \\lt -4(-4) + 4 = 16 + 4 = 20$? Yes, $0 \\lt 20$ works. That is the correct answer."
+      "content": "Backsolving - testing choice B $(0, 6)$: Is $6 \\lt -3(0) + 5 = 5$? No, $6 \\gt 5$ fails.<br/><br/>Testing choice A $(-3, 0)$: Is $0 \\lt -3(-3) + 5 = 9 + 5 = 14$? Yes, $0 \\lt 14$ works. That is the correct answer."
     },
     {
       "title": "Check the other choices",
-      "content": "The other points fail the inequality: $(0,5)$ gives $5$ not less than $4$, $(2,1)$ gives $1$ not less than $-4$, and $(2,-1)$ gives $-1$ not less than $-4$. Only $(-4,0)$ satisfies $y \\lt -4x+4$, so <strong>A</strong> is correct."
+      "content": "The other points fail the inequality: $(0,6)$ gives $6$ not less than $5$, $(3,1)$ gives $1$ not less than $-4$, and $(3,-1)$ gives $-1$ not less than $-4$. Only $(-3,0)$ satisfies $y \\lt -3x+5$, so <strong>A</strong> is correct."
     }
   ]
 }

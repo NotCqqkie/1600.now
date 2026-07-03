@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Recall the area formula for rectangles",
-      "content": "For a rectangle, Area = width × length. We're given that Area = $w(w+29)$ and the width is $w$ centimeters."
+      "content": "For a rectangle, Area = width x length. We're given that Area = $w(w+31)$ and the width is $w$ centimeters."
     },
     {
       "title": "Identify the length from the factored form",
-      "content": "The expression $w(w+29)$ represents width times length. Since $w$ is the width, $(w+29)$ must be the length. That confirms <strong>C</strong> is correct."
+      "content": "The expression $w(w+31)$ represents width times length. Since $w$ is the width, $(w+31)$ must be the length. That confirms <strong>C</strong> is correct."
     }
   ]
 }

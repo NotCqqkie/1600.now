@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Calculate accounts registered in the first 5 days",
-      "content": "At 1,200 accounts per day, the number registered over 5 days is:<br/>$$1,200 \\times 5 = 6,000$$"
+      "content": "At 900 accounts per day, the number registered over 5 days is:<br/>$$900 \\times 5 = 4,500$$"
     },
     {
-      "title": "Find the fraction of the first 60,000 accounts",
-      "content": "The fraction of the first 60,000 accounts registered in the first 5 days is:<br/>$$\\frac{6,000}{60,000} = \\frac{6}{60} = \\frac{1}{10}$$<br/><strong>B</strong> is correct."
+      "title": "Find the fraction of the first 45,000 accounts",
+      "content": "The fraction of the first 45,000 accounts registered in the first 5 days is:<br/>$$\\frac{4,500}{45,000} = \\frac{45}{450} = \\frac{1}{10}$$<br/><strong>B</strong> is correct."
     }
   ]
 }

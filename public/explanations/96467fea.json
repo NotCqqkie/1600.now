@@ -9,12 +9,12 @@
     },
     {
       "title": "Find the area of Circle N",
-      "content": "Circle N has radius 7 mm. Use the area formula with $r = 7$: $$A_N = \\pi(7)^2 = 49\\pi \\text{ mm}^2$$",
+      "content": "Circle N has radius 8 mm. Use the area formula with $r = 8$: $$A_N = \\pi(8)^2 = 64\\pi \\text{ mm}^2$$",
       "formula": "$$A = \\pi r^2$$"
     },
     {
       "title": "Add both areas to find the total",
-      "content": "Circle M's area is $64\\pi$ mm² (given). Adding Circle N and Circle M: $$49\\pi + 64\\pi = 113\\pi \\text{ mm}^2$$ That confirms <strong>A</strong> is correct."
+      "content": "Circle M's area is $81\\pi$ mm² (given). Adding Circle N and Circle M: $$64\\pi + 81\\pi = 145\\pi \\text{ mm}^2$$ That confirms <strong>A</strong> is correct."
     }
   ]
 }

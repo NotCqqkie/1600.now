@@ -9,15 +9,15 @@
     },
     {
       "title": "Use the isosceles condition",
-      "content": "An isosceles triangle has at least two equal angles. Since angle $R$ is $29^\\circ$, one sufficient condition is another angle also measuring $29^\\circ$."
+      "content": "An isosceles triangle has at least two equal angles. Since angle $U$ is $31^\\circ$, one sufficient condition is another angle also measuring $31^\\circ$."
     },
     {
       "title": "Test the matching angle",
-      "content": "<strong>The measure of angle S is 29 degrees.</strong> says angle $S$ is $29^\\circ$. Then angles $R$ and $S$ are equal, so triangle $RST$ must be isosceles."
+      "content": "<strong>The measure of angle V is 31 degrees.</strong> says angle $V$ is $31^\\circ$. Then angles $U$ and $V$ are equal, so triangle $UVW$ must be isosceles."
     },
     {
       "title": "Confirm the other choices",
-      "content": "The other listed values for angle $S$ do not create a required equal pair with angle $R$. The measure of angle S is 29 degrees. is correct."
+      "content": "The other listed values for angle $V$ do not create a required equal pair with angle $U$. The measure of angle V is 31 degrees. is correct."
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up the area equation for a square",
-      "content": "The area of a square with side length $s$ is given by $A = s^2$. We're told the area is 64 square inches, so we have:<br/>$$s^2 = 64$$"
+      "content": "The area of a square with side length $s$ is given by $A = s^2$. We're told the area is 81 square inches, so we have:<br/>$$s^2 = 81$$"
     },
     {
       "title": "Solve for the side length",
-      "content": "Taking the square root of both sides:<br/>$$s = \\sqrt{64} = 8$$<br/>That confirms <strong>A</strong> is correct."
+      "content": "Taking the square root of both sides:<br/>$$s = \\sqrt{81} = 9$$<br/>That confirms <strong>A</strong> is correct."
     }
   ]
 }

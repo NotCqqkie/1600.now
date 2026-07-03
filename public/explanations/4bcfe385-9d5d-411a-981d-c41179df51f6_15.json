@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Substitute the temperature",
-      "content": "Set $T(x) = 16$ in the given function:<br/>$$16 = \\frac{22{,}000 - 6.5x}{1{,}000}$$"
+      "content": "Set $T(x) = 18$ in the given function:<br/>$$18 = \\frac{25{,}000 - 7.5x}{1{,}000}$$"
     },
     {
       "title": "Clear the denominator",
-      "content": "Multiply both sides by $1{,}000$:<br/>$$16{,}000 = 22{,}000 - 6.5x$$"
+      "content": "Multiply both sides by $1{,}000$:<br/>$$18{,}000 = 25{,}000 - 7.5x$$"
     },
     {
       "title": "Solve for $x$",
-      "content": "Isolate the $x$ term:<br/>$$6.5x = 22{,}000 - 16{,}000 = 6{,}000$$<br/>$$x = \\frac{6{,}000}{6.5} \\approx 923.08$$<br/>The altitude closest to this value is $923$ meters, which matches <strong>B</strong>."
+      "content": "Isolate the $x$ term:<br/>$$7.5x = 25{,}000 - 18{,}000 = 7{,}000$$<br/>$$x = \\frac{7{,}000}{7.5} \\approx 933.33$$<br/>The altitude closest to this value is $933$ meters, which matches <strong>B</strong>."
     }
   ]
 }

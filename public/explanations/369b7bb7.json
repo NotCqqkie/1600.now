@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute x equals 3",
-      "content": "The function is $g(x)=\\sqrt{8x+1}$. Substitute $x=3$: $$g(3)=\\sqrt{8(3)+1}$$"
+      "title": "Substitute x equals 4",
+      "content": "The function is $g(x)=\\sqrt{6x+1}$. Substitute $x=4$: $$g(4)=\\sqrt{6(4)+1}$$"
     },
     {
       "title": "Simplify inside the radical first",
-      "content": "$$8(3)+1=25$$ so $$g(3)=\\sqrt{25}=5$$"
+      "content": "$$6(4)+1=25$$ so $$g(4)=\\sqrt{25}=5$$"
     },
     {
       "title": "Check the choices",
-      "content": "$5$ is correct. The other choices come from dividing by $8$, which is not the operation here. $25$ is the value inside the square root before taking the square root."
+      "content": "Choice <strong>C</strong>, $5$, is correct. The other choices come from dividing by $6$, which is not the operation here. $25$ is the value inside the square root before taking the square root."
     }
   ]
 }

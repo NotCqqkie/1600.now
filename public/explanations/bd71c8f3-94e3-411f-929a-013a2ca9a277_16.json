@@ -1,19 +1,19 @@
 {
   "questionId": "bd71c8f3-94e3-411f-929a-013a2ca9a277_16",
-  "correctAnswer": "-0.089",
+  "correctAnswer": "-311/3600",
   "section": "Math",
   "steps": [
     {
       "title": "Set up",
-      "content": "Distribute 7 on the right side: $$0.7w - 0.57 = 7w - 0.007$$"
+      "content": "Distribute 8 on the right side: $$0.8w - 0.63 = 8w - 0.008$$"
     },
     {
       "title": "Solve",
-      "content": "Collect $w$ terms on the left: $$0.7w - 7w = -0.007 + 0.57$$ $$-6.3w = 0.563$$ $$w = \\frac{0.563}{-6.3} \\approx -0.089$$"
+      "content": "Collect $w$ terms on the left: $$0.8w - 8w = -0.008 + 0.63$$ $$-7.2w = 0.622$$ $$w = \\frac{0.622}{-7.2} = -\\frac{311}{3600}$$"
     },
     {
       "title": "Answer",
-      "content": "<strong>-0.089</strong> is correct."
+      "content": "<strong>-311/3600</strong> is correct."
     }
   ]
 }

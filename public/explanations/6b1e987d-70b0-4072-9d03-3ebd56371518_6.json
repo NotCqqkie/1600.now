@@ -1,19 +1,19 @@
 {
   "questionId": "6b1e987d-70b0-4072-9d03-3ebd56371518_6",
-  "correctAnswer": "67",
+  "correctAnswer": "70",
   "section": "Math",
   "steps": [
     {
       "title": "Fastest path: use the function table",
-      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $67$, so the answer is <strong>$67$</strong>. This is just a one-row lookup, and the arithmetic below confirms the table value."
+      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $70$, so the answer is <strong>$70$</strong>. This is just a one-row lookup, and the arithmetic below confirms the table value."
     },
     {
       "title": "Substitute",
-      "content": "Plug $x=2$ into $f(x)=x^{2}+x+61$.<br/>$$f(2)=2^{2}+2+61$$"
+      "content": "Plug $x=3$ into $f(x)=x^{2}+x+58$.<br/>$$f(3)=3^{2}+3+58$$"
     },
     {
       "title": "Compute the result",
-      "content": "Square then add.<br/>$$f(2)=4+2+61=67$$<br/>The answer is <strong>67</strong>."
+      "content": "Square then add.<br/>$$f(3)=9+3+58=70$$<br/>The answer is <strong>70</strong>."
     }
   ]
 }

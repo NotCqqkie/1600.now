@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Step 1",
-      "content": "Express each concentration as a decimal: 2% = 0.02, 5% = 0.05, 3% = 0.03."
+      "content": "Express each concentration as a decimal: 4% = 0.04, 7% = 0.07, 5% = 0.05."
     },
     {
       "title": "Step 2",
-      "content": "Compute the salt contributed by each solution: $x$ liters at 2% gives $0.02x$ liters of salt; $y$ liters at 5% gives $0.05y$ liters of salt."
+      "content": "Compute the salt contributed by each solution: $x$ liters at 4% gives $0.04x$ liters of salt; $y$ liters at 7% gives $0.07y$ liters of salt."
     },
     {
       "title": "Step 3",
-      "content": "The combined volume is $x + y$ liters at 3%, so the salt in the mixture is $0.03(x+y)$. Setting total salt in equal to total salt out: $0.02x + 0.05y = 0.03(x+y)$."
+      "content": "The combined volume is $x + y$ liters at 5%, so the salt in the mixture is $0.05(x+y)$. Setting total salt in equal to total salt out: $0.04x + 0.07y = 0.05(x+y)$."
     },
     {
       "title": "Step 4",
-      "content": "Evaluate every choice:<ul><li>A: $0.02x + 0.05y = 3(x+y)$ — uses 3 instead of 0.03 on the right side, making the concentration 300%. Eliminated.</li><li>B: $0.02x + 0.05y = 0.03(x+y)$ — correctly balances salt in decimal form. That confirms <strong>B</strong> is correct.</li><li>C: $0.2x + 0.5y = 3(x+y)$ — scales both sides up by a factor of 10 on the left but 100 on the right. Inconsistent. Eliminated.</li><li>D: $0.2x + 0.5y = 0.3(x+y)$ — represents 20%, 50%, and 30% concentrations, not the given values. Eliminated.</li></ul>"
+      "content": "Evaluate every choice:<ul><li>A: $0.04x + 0.07y = 5(x+y)$ &mdash; uses 5 instead of 0.05 on the right side, making the concentration 500%. Eliminated.</li><li>B: $0.04x + 0.07y = 0.05(x+y)$ &mdash; correctly balances salt in decimal form. That confirms <strong>B</strong> is correct.</li><li>C: $0.4x + 0.7y = 5(x+y)$ &mdash; scales both sides up by a factor of 10 on the left but 100 on the right. Inconsistent. Eliminated.</li><li>D: $0.4x + 0.7y = 0.5(x+y)$ &mdash; represents 40%, 70%, and 50% concentrations, not the given values. Eliminated.</li></ul>"
     }
   ]
 }

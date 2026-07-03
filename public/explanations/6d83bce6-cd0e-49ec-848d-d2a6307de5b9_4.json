@@ -9,11 +9,11 @@
     },
     {
       "title": "Extract the radius from the diameter",
-      "content": "The diameter is 6 inches. Since radius is half the diameter:<br/>$$r = \\frac{6}{2} = 3 \\text{ inches}$$"
+      "content": "The diameter is 8 inches. Since radius is half the diameter:<br/>$$r = \\frac{8}{2} = 4 \\text{ inches}$$"
     },
     {
       "title": "Calculate the volume using the cylinder formula",
-      "content": "Use the cylinder volume formula with $r = 3$ and $h = 21$:<br/>$$V = \\pi(3)^2(21) = \\pi(9)(21) = 189\\pi \\text{ cubic inches}$$<br/>That confirms <strong>C</strong> is correct.",
+      "content": "Use the cylinder volume formula with $r = 4$ and $h = 15$:<br/>$$V = \\pi(4)^2(15) = \\pi(16)(15) = 240\\pi \\text{ cubic inches}$$<br/>That confirms <strong>C</strong> is correct.",
       "formula": "$$V = \\pi r^2 h$$"
     }
   ]

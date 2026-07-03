@@ -9,15 +9,15 @@
     },
     {
       "title": "Find the base width from the base area",
-      "content": "Base area $$= l \\times w$$. Given base area $$= 16t$$ cm² and length $$l = \\frac{8}{3}$$ cm:<br/>$$16t = \\frac{8}{3} \\cdot w \\implies w = 16t \\cdot \\frac{3}{8} = 6t \\text{ cm}$$"
+      "content": "Base area $$= l \\times w$$. Given base area $$= 18t$$ cm² and length $$l = \\frac{3}{2}$$ cm:<br/>$$18t = \\frac{3}{2} \\cdot w \\implies w = 18t \\cdot \\frac{2}{3} = 12t \\text{ cm}$$"
     },
     {
       "title": "Set up the surface area formula",
-      "content": "A right rectangular prism has six faces forming three pairs. With $$l = \\frac{8}{3}$$, $$w = 6t$$, $$h = 9$$:<br/>$$SA = 2lw + 2lh + 2wh$$"
+      "content": "A right rectangular prism has six faces forming three pairs. With $$l = \\frac{3}{2}$$, $$w = 12t$$, $$h = 10$$:<br/>$$SA = 2lw + 2lh + 2wh$$"
     },
     {
       "title": "Compute each pair of faces",
-      "content": "<ul><li>Two bases: $$2lw = 2 \\times 16t = 32t$$ cm²</li><li>Two length-height faces: $$2lh = 2 \\times \\frac{8}{3} \\times 9 = 2 \\times 24 = 48$$ cm²</li><li>Two width-height faces: $$2wh = 2 \\times 6t \\times 9 = 108t$$ cm²</li></ul>$$SA = 32t + 48 + 108t = 140t + 48 \\text{ cm}^2$$"
+      "content": "<ul><li>Two bases: $$2lw = 2 \\times 18t = 36t$$ cm²</li><li>Two length-height faces: $$2lh = 2 \\times \\frac{3}{2} \\times 10 = 2 \\times 15 = 30$$ cm²</li><li>Two width-height faces: $$2wh = 2 \\times 12t \\times 10 = 240t$$ cm²</li></ul>$$SA = 36t + 30 + 240t = 276t + 30 \\text{ cm}^2$$"
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Connect the discriminant to the number of solutions",
-      "content": "The question asks for the number of distinct real solutions. For a quadratic, that means checking whether the graph crosses the $x$-axis twice, touches it once, or never reaches it. The discriminant $b^2-4ac$ gives that count. For $5x^2+10x+16=0$:<br/>$$b^2-4ac=10^2-4(5)(16)=100-320=-220$$ A negative discriminant means the parabola never crosses the $x$-axis, so the equation has no real solutions."
+      "content": "The question asks for the number of distinct real solutions. For a quadratic, that means checking whether the graph crosses the $x$-axis twice, touches it once, or never reaches it. The discriminant $b^2-4ac$ gives that count. For $4x^2+12x+17=0$:<br/>$$b^2-4ac=12^2-4(4)(17)=144-272=-128$$ A negative discriminant means the parabola never crosses the $x$-axis, so the equation has no real solutions."
     },
     {
       "title": "Compute the discriminant",
-      "content": "For $5x^2+10x+16=0$, $a=5$, $b=10$, and $c=16$. So $$b^2-4ac=10^2-4(5)(16)=100-320=-220.$$"
+      "content": "For $4x^2+12x+17=0$, $a=4$, $b=12$, and $c=17$. So $$b^2-4ac=12^2-4(4)(17)=144-272=-128.$$"
     },
     {
       "title": "Choose the answer",

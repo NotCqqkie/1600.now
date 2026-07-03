@@ -1,4 +1,4 @@
-import type { PracticeModule } from "@/data/modulePracticeBank";
+import type { LoadedPracticeModule, PracticeModule } from "@/data/modulePracticeBank";
 import type { BankQuestion } from "@/data/questionBank";
 import { getDesmosStoragePrefix } from "@/lib/practice/desmosSessionState";
 import { answersEquivalent } from "@/lib/text/answerEquivalence";
@@ -319,7 +319,7 @@ const resolveQuestionStatus = (
 };
 
 export const buildModulePracticeResult = (
-  module: PracticeModule,
+  module: LoadedPracticeModule,
   session: ModulePracticeSessionMeta,
 ): ModulePracticeResult => {
   const questions: ModulePracticeQuestionResult[] = module.questions.map((entry) => {

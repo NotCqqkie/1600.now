@@ -1,23 +1,23 @@
 {
   "questionId": "6acacde7-ed77-4956-a395-7f7392d6ba20_12",
-  "correctAnswer": "3",
+  "correctAnswer": "5",
   "section": "Math",
   "steps": [
     {
       "title": "Notice the repeated expression",
-      "content": "The question asks for $5x-4$, and the equation is written mostly with $4-5x$. Those are opposites: $$5x-4=-(4-5x).$$ Let $u=4-5x$ so the equation becomes easier."
+      "content": "The question asks for $6x-5$, and the equation is written mostly with $5-6x$. Those are opposites: $$6x-5=-(5-6x).$$ Let $u=5-6x$ so the equation becomes easier."
     },
     {
       "title": "Solve for the repeated expression",
-      "content": "Substitute $u=4-5x$: $$5u+4u+9=8u+6.$$ Combine like terms: $$9u+9=8u+6.$$ Subtract $8u$ and $9$ to get $$u=-3.$$"
+      "content": "Substitute $u=5-6x$: $$6u+3u+11=8u+6.$$ Combine like terms: $$9u+11=8u+6.$$ Subtract $8u$ and $11$ to get $$u=-5.$$"
     },
     {
       "title": "Answer the value actually asked for",
-      "content": "Since $u=4-5x=-3$, the requested expression is $5x-4=-u=3$. The answer is <strong>3</strong>."
+      "content": "Since $u=5-6x=-5$, the requested expression is $6x-5=-u=5$. The answer is <strong>5</strong>."
     },
     {
       "title": "Check the shortcut",
-      "content": "If $4-5x=-3$, then the original equation becomes $5(-3)+4(-3)+9=8(-3)+6$, or $-18=-18$. The value $5x-4=3$ is consistent."
+      "content": "If $5-6x=-5$, then the original equation becomes $6(-5)+3(-5)+11=8(-5)+6$, or $-34=-34$. The value $6x-5=5$ is consistent."
     }
   ]
 }

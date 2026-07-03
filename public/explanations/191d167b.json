@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Convert percentage to decimal and set up multiplication",
-      "content": "The phrase <em>147% of last year's number</em> means we multiply 200 by 147% in decimal form. Since 147% = 1.47, we set up: $$1.47 \\times 200$$"
+      "content": "The phrase <em>136% of last year's number</em> means we multiply 250 by 136% in decimal form. Since 136% = 1.36, we set up: $$1.36 \\times 250$$"
     },
     {
       "title": "Compute the product and identify the answer",
-      "content": "$$1.47 \\times 200 = 294$$ That matches <strong>Choice B &mdash; $294$</strong>."
+      "content": "$$1.36 \\times 250 = 340$$ That matches <strong>Choice B &mdash; $340$</strong>."
     }
   ]
 }

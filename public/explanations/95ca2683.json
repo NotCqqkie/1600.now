@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Set up the triangle angle sum",
-      "content": "The three angle measures in triangle $ABC$ are $54^{\\circ}$, $90^{\\circ}$, and $\\left(\\frac{k}{2}\\right)^{\\circ}$, and a triangle's interior angles sum to $180^{\\circ}$."
+      "content": "The three angle measures in triangle $ABC$ are $62^{\\circ}$, $90^{\\circ}$, and $\\left(\\frac{k}{2}\\right)^{\\circ}$, and a triangle's interior angles sum to $180^{\\circ}$."
     },
     {
       "title": "Use the angle sum property of triangles",
-      "content": "The angles in any triangle sum to 180°. We have angle A = 54°, angle B = 90°, and angle C = (k/2)°.<br/><br/>Setting up the equation:<br/>$$54 + 90 + \\frac{k}{2} = 180$$<br/>Simplifying the left side:<br/>$$144 + \\frac{k}{2} = 180$$<br/>Isolating the term with k:<br/>$$\\frac{k}{2} = 36$$"
+      "content": "The angles in any triangle sum to $180^{\\circ}$. We have angle A = $62^{\\circ}$, angle B = $90^{\\circ}$, and angle C = $(k/2)^{\\circ}$.<br/><br/>Setting up the equation:<br/>$$62 + 90 + \\frac{k}{2} = 180$$<br/>Simplifying the left side:<br/>$$152 + \\frac{k}{2} = 180$$<br/>Isolating the term with k:<br/>$$\\frac{k}{2} = 28$$"
     },
     {
       "title": "Solve for k",
-      "content": "From $\\frac{k}{2} = 36$, multiply both sides by 2:<br/>$$k = 72$$<br/>That confirms <strong>C</strong> is correct."
+      "content": "From $\\frac{k}{2} = 28$, multiply both sides by 2:<br/>$$k = 56$$<br/>That confirms <strong>C</strong> is correct."
     }
   ]
 }

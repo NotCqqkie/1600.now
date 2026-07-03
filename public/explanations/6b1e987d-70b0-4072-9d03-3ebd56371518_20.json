@@ -1,15 +1,15 @@
 {
   "questionId": "6b1e987d-70b0-4072-9d03-3ebd56371518_20",
-  "correctAnswer": "24",
+  "correctAnswer": "31",
   "section": "Math",
   "steps": [
     {
       "title": "Convert percentages to express a and b in terms of c",
-      "content": "Since $a$ is 2,800% of $c$: $$a = \\frac{2800}{100} \\cdot c = 28c$$ Since $c$ is 25% of $b$: $$c = \\frac{25}{100} \\cdot b = 0.25b$$ Solving for $b$: $$b = \\frac{c}{0.25} = 4c$$"
+      "content": "Since $a$ is 3,600% of $c$: $$a = \\frac{3600}{100} \\cdot c = 36c$$ Since $c$ is 20% of $b$: $$c = \\frac{20}{100} \\cdot b = 0.2b$$ Solving for $b$: $$b = \\frac{c}{0.2} = 5c$$"
     },
     {
       "title": "Substitute into a - b = wc and solve for w",
-      "content": "Substitute $a = 28c$ and $b = 4c$ into $a - b = wc$: $$28c - 4c = wc$$ $$24c = wc$$ Dividing both sides by $c$ (which is positive): $$w = 24$$"
+      "content": "Substitute $a = 36c$ and $b = 5c$ into $a - b = wc$: $$36c - 5c = wc$$ $$31c = wc$$ Dividing both sides by $c$ (which is positive): $$w = 31$$"
     }
   ]
 }

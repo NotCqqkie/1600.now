@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Isolate the absolute value expression",
-      "content": "$$-4|5x+4|+2=-14$$\n$$-4|5x+4|=-16$$\n$$|5x+4|=4$$"
+      "content": "$$-4|6x+5|+3=-17$$\n$$-4|6x+5|=-20$$\n$$|6x+5|=5$$"
     },
     {
       "title": "Solve the two linear equations from the absolute value",
-      "content": "$$5x+4=4$$\n$$5x=0$$\n$$x=0$$\n$$5x+4=-4$$\n$$5x=-8$$\n$$x=-\\frac{8}{5}$$\nThat is the correct answer."
+      "content": "$$6x+5=5$$\n$$6x=0$$\n$$x=0$$\n$$6x+5=-5$$\n$$6x=-10$$\n$$x=-\\frac{5}{3}$$\nThat is the correct answer."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches 0 and $-\\frac{8}{5}$. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches 0 and $-\\frac{5}{3}$. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
     }
   ]
 }

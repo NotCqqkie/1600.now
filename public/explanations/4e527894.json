@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify favorable and total outcomes",
-      "content": "We need to find the probability of selecting a white button. Count the favorable outcomes: there are <strong>8 white buttons</strong>. Count the total number of buttons in the bag: <strong>20 total</strong>."
+      "content": "We need to find the probability of choosing a blue marble. Count the favorable outcomes: there are <strong>12 blue marbles</strong>. Count the total number of marbles in the jar: <strong>30 total</strong>."
     },
     {
       "title": "Apply the probability formula",
-      "content": "The probability of selecting a white button is:<br/>$$P(\\text{white}) = \\frac{\\text{favorable outcomes}}{\\text{total outcomes}} = \\frac{8}{20}$$<br/><strong>B</strong> is correct.",
+      "content": "The probability of choosing a blue marble is:<br/>$$P(\\text{blue}) = \\frac{\\text{favorable outcomes}}{\\text{total outcomes}} = \\frac{12}{30}$$<br/><strong>B</strong> is correct.",
       "formula": "$$P(\\text{event}) = \\frac{\\text{favorable outcomes}}{\\text{total outcomes}}$$"
     }
   ]

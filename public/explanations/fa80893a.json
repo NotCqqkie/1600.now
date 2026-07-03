@@ -1,19 +1,19 @@
 {
   "questionId": "fa80893a",
-  "correctAnswer": "17",
+  "correctAnswer": "34",
   "section": "Math",
   "steps": [
     {
       "title": "Use the target-expression shortcut",
-      "content": "The target $6x-1$ is close to $\\left(3\\right)(2x+3)$. Multiply the given equation $2x+3=9$ by $3$: $$6x+9=27.$$"
+      "content": "The target $12x-2$ is close to $\\left(3\\right)(4x+5)$. Multiply the given equation $4x+5=17$ by $3$: $$12x+15=51.$$"
     },
     {
-      "title": "Adjust to $6x-1$",
-      "content": "Subtract $10$ from both sides: $$6x-1=17.$$"
+      "title": "Adjust to $12x-2$",
+      "content": "Subtract $17$ from both sides: $$12x-2=34.$$"
     },
     {
       "title": "Confirm the answer",
-      "content": "The requested value is <strong>17</strong>. This method is faster than solving for $x$ because it transforms the given equation directly into the expression the question asks for."
+      "content": "The requested value is <strong>34</strong>. This method is faster than solving for $x$ because it transforms the given equation directly into the expression the question asks for."
     }
   ]
 }

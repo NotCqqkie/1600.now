@@ -1,6 +1,6 @@
 {
   "questionId": "8a6de407",
-  "correctAnswer": "2",
+  "correctAnswer": "3",
   "section": "Math",
   "steps": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "title": "Calculate m",
-      "content": "With $f(0) = 18$ and $f(1) = 20$:<br/>$$m = \\frac{20 - 18}{1 - 0} = \\frac{2}{1} = 2$$"
+      "content": "With $f(0) = 14$ and $f(1) = 17$:<br/>$$m = \\frac{17 - 14}{1 - 0} = \\frac{3}{1} = 3$$"
     }
   ]
 }

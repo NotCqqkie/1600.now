@@ -9,11 +9,11 @@
     },
     {
       "title": "Identify the sphere volume formula",
-      "content": "The volume of a sphere is $V = \\frac{4}{3}\\pi r^3$, where $r$ is the radius. We&#39;re given $r = \\frac{17}{5}$ feet."
+      "content": "The volume of a sphere is $V = \\frac{4}{3}\\pi r^3$, where $r$ is the radius. We&#39;re given $r = \\frac{19}{5}$ feet."
     },
     {
       "title": "Calculate the volume",
-      "content": "Compute $r^3 = \\left(\\frac{17}{5}\\right)^3 = \\frac{17^3}{5^3} = \\frac{4913}{125}$.<br/><br/>Substitute into the formula:<br/>$$V = \\frac{4}{3}\\pi \\cdot \\frac{4913}{125} = \\frac{4 \\cdot 4913}{3 \\cdot 125}\\pi = \\frac{19652}{375}\\pi$$<br/>That matches the correct answer — <strong>D</strong> is correct."
+      "content": "Compute $r^3 = \\left(\\frac{19}{5}\\right)^3 = \\frac{19^3}{5^3} = \\frac{6859}{125}$.<br/><br/>Substitute into the formula:<br/>$$V = \\frac{4}{3}\\pi \\cdot \\frac{6859}{125} = \\frac{4 \\cdot 6859}{3 \\cdot 125}\\pi = \\frac{27436}{375}\\pi$$<br/>That matches the correct answer -- <strong>D</strong> is correct."
     }
   ]
 }

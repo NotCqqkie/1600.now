@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Make two cost points",
-      "content": "Use the first valid anchor point and one extra hour. The first 3 hours cost 216 dollars, so the line passes through $(3,216)$. One more hour adds 60 dollars, so 4 hours cost 276 dollars, giving the point $(4,276)$."
+      "content": "Use the first valid anchor point and one extra hour. The first 4 hours cost 250 dollars, so the line passes through $(4,250)$. One more hour adds 55 dollars, so 5 hours cost 305 dollars, giving the point $(5,305)$."
     },
     {
       "title": "Read the model",
-      "content": "The slope is $$m=\\frac{276-216}{4-3}=60.$$ Substitute $(3,216)$ into $y=60x+b$: $$216=60(3)+b,$$ so $b=36$. The total charge is $$y=60x+36.$$ The $36$ is not a real starting charge at zero hours; it is the intercept that makes the line pass through the 3-hour flat-rate point."
+      "content": "The slope is $$m=\\frac{305-250}{5-4}=55.$$ Substitute $(4,250)$ into $y=55x+b$: $$250=55(4)+b,$$ so $b=30$. The total charge is $$y=55x+30.$$ The $30$ is not a real starting charge at zero hours; it is the intercept that makes the line pass through the 4-hour flat-rate point."
     },
     {
       "title": "Match the choices",
-      "content": "<strong>Choice C &mdash; $y = 60x + 36$</strong> is $y=60x+36$. It gives $y=216$ when $x=3$ and increases by 60 for each additional hour. <strong>Choice A &mdash; $y = 60x + 216$</strong> double-counts the flat 216 dollars, while the expressions using 216 as the hourly rate use the wrong slope. That matches <strong>Choice C &mdash; $y = 60x + 36$</strong>."
+      "content": "<strong>Choice C &mdash; $y = 55x + 30$</strong> is $y=55x+30$. It gives $y=250$ when $x=4$ and increases by 55 for each additional hour. <strong>Choice A &mdash; $y = 55x + 250$</strong> double-counts the flat 250 dollars, while the expressions using 250 as the hourly rate use the wrong slope. That matches <strong>Choice C &mdash; $y = 55x + 30$</strong>."
     }
   ]
 }

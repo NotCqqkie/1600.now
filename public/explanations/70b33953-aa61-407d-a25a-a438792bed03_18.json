@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Apply the factoring from the given condition",
-      "content": "Note $-21-3x = -3(7+x)$, and $7+x=5$."
+      "content": "Note $-24-4x = -4(6+x)$, and $6+x=4$."
     },
     {
       "title": "Compute the target value",
-      "content": "So $-21-3x = -3 \\cdot 5 = -15$. That confirms <strong>A</strong> is correct."
+      "content": "So $-24-4x = -4 \\cdot 4 = -16$. That confirms <strong>A</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above confirms <strong>A</strong>, -15. The other choices do not satisfy the same condition from the question, so <strong>A</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above confirms <strong>A</strong>, -16. The other choices do not satisfy the same condition from the question, so <strong>A</strong> is correct."
     }
   ]
 }

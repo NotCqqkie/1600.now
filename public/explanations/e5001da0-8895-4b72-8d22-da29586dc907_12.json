@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up",
-      "content": "Total mixture = sum of all components: 30 + 45 + x = 135."
+      "content": "Total mixture = sum of all components: 35 + 50 + x = 155."
     },
     {
       "title": "Solve",
-      "content": "75 + x = 135 $\\Rightarrow$ x = 60."
+      "content": "85 + x = 155 $\\Rightarrow$ x = 70."
     },
     {
       "title": "Answer",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above is 60. The other choices do not satisfy the same condition from the question, so <strong>D</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above is 70. The other choices do not satisfy the same condition from the question, so <strong>D</strong> is correct."
     }
   ]
 }

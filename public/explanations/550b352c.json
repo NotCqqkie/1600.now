@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Solve the linear equation",
-      "content": "Starting with $10 = 2x + 4$, subtract 4 from both sides:<br/>$$10 - 4 = 2x + 4 - 4$$<br/>$$6 = 2x$$<br/>Divide both sides by 2:<br/>$$\\frac{6}{2} = \\frac{2x}{2}$$<br/>$$x = 3$$"
+      "content": "Starting with $17 = 3x + 5$, subtract 5 from both sides:<br/>$$17 - 5 = 3x + 5 - 5$$<br/>$$12 = 3x$$<br/>Divide both sides by 3:<br/>$$\\frac{12}{3} = \\frac{3x}{3}$$<br/>$$x = 4$$"
     },
     {
       "title": "Count the solutions",

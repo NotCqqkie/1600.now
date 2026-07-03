@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Solve the system by elimination",
-      "content": "Add the two equations: $(\\frac{7}{2}x + 6y) + (\\frac{5}{2}x + 6y) = 25 + 23$, giving $6x + 12y = 48$."
+      "content": "Add the two equations: $(\\frac{9}{2}x + 5y) + (\\frac{7}{2}x + 5y) = 28 + 24$, giving $8x + 10y = 52$."
     },
     {
-      "title": "Find $\\tfrac{17}{2}x + 18y$",
-      "content": "Subtract first from second: $-x = -2$ so $x = 2$. From first: $7 + 6y = 25$ so $y = 3$. Then $\\frac{17}{2}(2) + 18(3) = 17 + 54 = 71$. <strong>D</strong> is correct."
+      "title": "Find $\\tfrac{23}{2}x + 15y$",
+      "content": "Subtract first from second: $-x = -4$ so $x = 4$. From first: $18 + 5y = 28$ so $y = 2$. Then $\\frac{23}{2}(4) + 15(2) = 46 + 30 = 76$. <strong>D</strong> is correct."
     }
   ]
 }

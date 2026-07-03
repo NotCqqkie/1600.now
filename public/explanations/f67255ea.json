@@ -1,23 +1,23 @@
 {
   "questionId": "f67255ea",
-  "correctAnswer": "1660",
+  "correctAnswer": "1780",
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+      "title": "Fastest path: mark the relationships first",
+      "content": "Mark the given angle relationships first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
     },
     {
       "title": "Write the obtuse angle",
-      "content": "An acute angle and an adjacent obtuse angle formed by a transversal are supplementary. If the acute angle is $(9x-560)^\\circ$, then each obtuse angle is $$180-(9x-560)=740-9x.$$"
+      "content": "An acute angle and an adjacent obtuse angle formed by a transversal are supplementary. If the acute angle is $(9x-620)^\\circ$, then each obtuse angle is $$180-(9x-620)=800-9x.$$"
     },
     {
       "title": "Add one acute and three obtuse angles",
-      "content": "$$(9x-560)+3(740-9x)=9x-560+2220-27x=-18x+1660.$$"
+      "content": "$$(9x-620)+3(800-9x)=9x-620+2400-27x=-18x+1780.$$"
     },
     {
       "title": "Match the given form",
-      "content": "The sum is given as $(-18x+w)^\\circ$, so $w=1660$. The answer is <strong>1660</strong>."
+      "content": "The sum is given as $(-18x+w)^\\circ$, so $w=1780$. The answer is <strong>1780</strong>."
     }
   ]
 }

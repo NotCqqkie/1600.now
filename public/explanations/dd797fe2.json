@@ -4,17 +4,17 @@
   "steps": [
     {
       "title": "Step 1",
-      "content": "The equation 4x + 3y = 24 models Mario's purchase: 4 binders at x dollars each plus 3 notebooks at y dollars each."
+      "content": "The equation 5x + 2y = 31 models Lena's purchase: 5 folders at x dollars each plus 2 markers at y dollars each."
     },
     {
       "title": "Step 2",
-      "content": "4x is the total binder cost; 3y is the total notebook cost. Their sum equals 24."
+      "content": "5x is the total folder cost; 2y is the total marker cost. Their sum equals 31."
     },
     {
       "title": "Step 3",
-      "content": "Therefore 24 is the total cost for all binders and notebooks combined."
+      "content": "Therefore 31 is the total cost for all folders and markers combined."
     }
   ],
-  "choiceElimination": "<ul><li><strong>'The total cost, in dollars, for all binders purchased'</strong>: Total binder cost is 4x, not 24. &#10007;</li><li><strong>'The total cost, in dollars, for all notebooks purchased'</strong>: Total notebook cost is 3y, not 24. &#10007;</li><li><strong>'The total cost, in dollars, for all binders and notebooks purchased'</strong>: 4x + 3y = 24 adds both costs, so 24 is the combined total. &#10003;</li><li><strong>'The difference in the total cost, in dollars, between the number of binders and notebooks purchased'</strong>: A difference uses subtraction; this equation uses addition. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct.",
+  "choiceElimination": "<ul><li><strong>'The total cost, in dollars, for all folders purchased'</strong>: Total folder cost is 5x, not 31. &#10007;</li><li><strong>'The total cost, in dollars, for all markers purchased'</strong>: Total marker cost is 2y, not 31. &#10007;</li><li><strong>'The total cost, in dollars, for all folders and markers purchased'</strong>: 5x + 2y = 31 adds both costs, so 31 is the combined total. &#10003;</li><li><strong>'The difference in the total cost, in dollars, between the number of folders and markers purchased'</strong>: A difference uses subtraction; this equation uses addition. &#10007;</li></ul>That matches the correct answer - <strong>C</strong> is correct.",
   "correctAnswer": "C"
 }

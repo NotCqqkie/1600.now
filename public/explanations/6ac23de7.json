@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Multiply both sides by 5 to clear the fraction",
-      "content": "Start with $$\\frac{4x}{5} = 20$$. Multiply both sides by 5 to eliminate the denominator: $$5 \\cdot \\frac{4x}{5} = 20 \\cdot 5$$. This simplifies to $$4x = 100$$."
+      "title": "Multiply both sides by 6 to clear the fraction",
+      "content": "Start with $$\\frac{5x}{6} = 30$$. Multiply both sides by 6 to eliminate the denominator: $$6 \\cdot \\frac{5x}{6} = 30 \\cdot 6$$. This simplifies to $$5x = 180$$."
     },
     {
-      "title": "Divide both sides by 4 to isolate x",
-      "content": "From $$4x = 100$$, divide both sides by 4: $$x = \\frac{100}{4} = 25$$. That confirms <strong>A</strong> is correct."
+      "title": "Divide both sides by 5 to isolate x",
+      "content": "From $$5x = 180$$, divide both sides by 5: $$x = \\frac{180}{5} = 36$$. That confirms <strong>A</strong> is correct."
     }
   ]
 }

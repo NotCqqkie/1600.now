@@ -1,15 +1,15 @@
 {
   "questionId": "3bf10f0c-6025-4955-91dc-118e340490f0_5",
-  "correctAnswer": "162",
+  "correctAnswer": "160",
   "section": "Math",
   "steps": [
     {
       "title": "Calculate distance traveled at constant speed",
-      "content": "Bill first drove 22.0 miles, then drove at a constant speed of 70.0 miles per hour for 2 hours. Use the relationship distance = rate × time to find the distance traveled during the second segment:<br/>$$\\text{Distance} = 70.0 \\text{ mph} \\times 2 \\text{ hours} = 140 \\text{ miles}$$"
+      "content": "Dana first drove 24.0 miles, then drove at a constant speed of 68.0 miles per hour for 2 hours. Use the relationship distance = rate times time to find the distance traveled during the second segment:<br/>$$\\text{Distance} = 68.0 \\text{ mph} \\times 2 \\text{ hours} = 136 \\text{ miles}$$"
     },
     {
       "title": "Add both segments to find total distance",
-      "content": "The total distance Bill traveled is the sum of the initial 22.0 miles and the 140 miles traveled at constant speed:<br/>$$\\text{Total Distance} = 22.0 + 140 = 162 \\text{ miles}$$"
+      "content": "The total distance Dana traveled is the sum of the initial 24.0 miles and the 136 miles traveled at constant speed:<br/>$$\\text{Total Distance} = 24.0 + 136 = 160 \\text{ miles}$$"
     }
   ]
 }

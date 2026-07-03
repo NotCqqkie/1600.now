@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Treat $2x+9$ as a single variable",
-      "content": "Let $u = 2x+9$. Subtract $3(2x+9)$: $2(2x+9)=74$."
+      "title": "Treat $2x+11$ as a single variable",
+      "content": "Let $u = 2x+11$. Subtract $4(2x+11)$: $2(2x+11)=86$."
     },
     {
       "title": "Compute the target value",
-      "content": "Divide by $2$: $2x+9 = 37$. That matches <strong>Choice B &mdash; $37$</strong>."
+      "content": "Divide by $2$: $2x+11 = 43$. That matches <strong>Choice B &mdash; $43$</strong>."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches <strong>Choice B &mdash; $37$</strong>, $37$. The other choices do not satisfy the same condition from the question, so <strong>B</strong>."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches <strong>Choice B &mdash; $43$</strong>, $43$. The other choices do not satisfy the same condition from the question, so <strong>B</strong>."
     }
   ]
 }

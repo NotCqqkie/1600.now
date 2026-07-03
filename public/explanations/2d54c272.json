@@ -1,19 +1,19 @@
 {
   "questionId": "2d54c272",
-  "correctAnswer": "40",
+  "correctAnswer": "36",
   "section": "Math",
   "steps": [
     {
       "title": "Identify the relationship between point values",
-      "content": "From the equation <em>5G + 45R = 380</em>, we can determine that each red token (R) is worth a multiple of its coefficient compared to each green token.<br/><br/>Let's denote the value of one green token as $g$ points and one red token as $r$ points, then <em>5g + 45r = 380</em> where $5g$ represents the total points for green tokens and similarly for red tokens."
+      "content": "From the equation <em>6G + 42R = 336</em>, we can determine the point value of each token color from the coefficient attached to that color.<br/><br/>The term <em>6G</em> represents 6 points for each green token, and <em>42R</em> represents 42 points for each red token."
     },
     {
       "title": "Simplify the equation to understand point differences",
-      "content": "<br/>By simplifying the given equation, divide everything by 5: $$g + 9r = 76$$ Since each value represents points per token, if we assume $g$ as the base (green) value and $r$ is a multiple of that plus some fixed quantity to maintain the equality, this simplification helps us to focus on the relationship between green and red tokens' values."
+      "content": "<br/>The total of 336 points is not needed to find the difference between the two point values. The coefficients show the per-token values directly: a green token is worth 6 points, and a red token is worth 42 points."
     },
     {
       "title": "Determine the difference in point values",
-      "content": "<ul><li>To find how many more points a red token is worth compared to a green one, note that when $g = 0$, we get $$9r = 76$$</li><br/>\n<li>This means each red token must be valued in units such that the sum matches 76 for nine instances of that value. Thus, for $g$ tokens to fit this scheme, by trial, we assume simplest integer values which satisfy <em>9r - g = multiple value consistent with simple integers</em>. </li><br/>\n<li>The difference in actual points is then calculated directly as the coefficient of red tokens minus the implied base point value through simplification.</li></ul>\nThe answer is <strong>40</strong>."
+      "content": "<ul><li>To find how many more points a red token is worth compared to a green one, subtract the green-token value from the red-token value.</li><br/>\n<li>This gives $$42-6=36.$$</li><br/>\n<li>The difference in actual points is calculated directly from the coefficients of the two token variables.</li></ul>\nThe answer is <strong>36</strong>."
     }
   ]
 }

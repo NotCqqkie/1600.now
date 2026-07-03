@@ -1,6 +1,6 @@
 {
   "questionId": "8b2a2a63",
-  "correctAnswer": "-32",
+  "correctAnswer": "-27",
   "section": "Math",
   "steps": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "title": "Substitute x = 0 into the equation",
-      "content": "Substitute $x = 0$ into $y = -6x - 32$:<br/>$$y = -6(0) - 32 = -32$$<br/>Therefore, $y = -32$."
+      "content": "Substitute $x = 0$ into $y = -4x - 27$:<br/>$$y = -4(0) - 27 = -27$$<br/>Therefore, $y = -27$."
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find the key signal",
-      "content": "The second sentence states Rogerson's 2015 calculation was more accurate than the 1920 one. The third sentence explains why the 1920 calculation was less accurate — it used rudimentary equipment. The blank introduces that explanation."
+      "content": "The second sentence states Alvarez's 2015 calculation was more accurate than the 1920 one. The third sentence explains why the 1920 calculation was less accurate — it used rudimentary equipment. The blank introduces that explanation."
     },
     {
       "title": "Match the meaning",
-      "content": "The logical relationship is concession/explanation. The blank needs a transition signaling that what follows explains why the earlier, less accurate result was predictable.\n<ul>\n<li><strong>Choice A &mdash; Likewise,</strong>: signals similarity between two things, but the 1920 calculation's flaws don't parallel Rogerson's accuracy — they explain the gap between them. ✗</li>\n<li><strong>Choice B &mdash; To that end,</strong>: signals that what follows is done in pursuit of a stated goal, but explaining why old equipment was primitive isn't a goal-directed action. ✗</li>\n<li><strong>Choice C &mdash; Of course,</strong>: signals that the following point is an unsurprising or natural explanation — it's obvious that primitive equipment would produce less accurate results. ✓</li>\n<li><strong>Choice D &mdash; Ultimately,</strong>: signals a final outcome or conclusion, but the equipment note isn't a final outcome — it's a mid-explanation supporting fact. ✗</li>\n</ul>\nThat confirms <strong>C</strong> is correct."
+      "content": "The logical relationship is concession/explanation. The blank needs a transition signaling that what follows explains why the earlier, less accurate result was predictable.\n<ul>\n<li><strong>Choice A &mdash; Likewise,</strong>: signals similarity between two things, but the 1920 calculation's flaws don't parallel Alvarez's accuracy — they explain the gap between them. ✗</li>\n<li><strong>Choice B &mdash; To that end,</strong>: signals that what follows is done in pursuit of a stated goal, but explaining why old equipment was primitive isn't a goal-directed action. ✗</li>\n<li><strong>Choice C &mdash; Of course,</strong>: signals that the following point is an unsurprising or natural explanation — it's obvious that primitive equipment would produce less accurate results. ✓</li>\n<li><strong>Choice D &mdash; Ultimately,</strong>: signals a final outcome or conclusion, but the equipment note isn't a final outcome — it's a mid-explanation supporting fact. ✗</li>\n</ul>\nThat confirms <strong>C</strong> is correct."
     }
   ]
 }

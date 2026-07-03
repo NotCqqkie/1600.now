@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Factor the left side",
-      "content": "Notice that $$3x-27=3(x-9)$$ So the equation becomes $$3(x-9)=24$$"
+      "content": "Notice that $$4x-32=4(x-8)$$ So the equation becomes $$4(x-8)=28$$"
     },
     {
       "title": "Solve only for the requested expression",
-      "content": "Divide by $3$: $$x-9=8$$ The question asks for $x-9$, so you can stop here."
+      "content": "Divide by $4$: $$x-8=7$$ The question asks for $x-8$, so you can stop here."
     },
     {
       "title": "Check the choices",
-      "content": "$8$ is correct. $24$ is the value of $3x-27$, not the value of $x-9$."
+      "content": "<strong>Choice B &mdash; $7$</strong> is correct. $28$ is the value of $4x-32$, not the value of $x-8$."
     }
   ]
 }

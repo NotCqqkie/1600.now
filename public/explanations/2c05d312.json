@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Use Vieta's product formula",
-      "content": "For a quadratic $Ax^2+Bx+C=0$, the product of the two solutions is $\\frac{C}{A}$. Here the leading coefficient is $57$ and the constant term is $ab$."
+      "content": "For a quadratic $Ax^2+Bx+C=0$, the product of the two solutions is $\\frac{C}{A}$. Here the leading coefficient is $85$ and the constant term is $ab$."
     },
     {
       "title": "Compute the product",
-      "content": "So the product of the two solutions is:<br/>$$\\frac{ab}{57}$$<br/>The problem says this product is $kab$, so:<br/>$$kab=\\frac{ab}{57}$$"
+      "content": "So the product of the two solutions is:<br/>$$\\frac{ab}{85}$$<br/>The problem says this product is $kab$, so:<br/>$$kab=\\frac{ab}{85}$$"
     },
     {
       "title": "Solve for k",
-      "content": "Since $a$ and $b$ are positive, $ab\\ne0$, so divide both sides by $ab$:<br/>$$k=\\frac{1}{57}$$<br/>This matches, so <strong>A</strong> is correct."
+      "content": "Since $a$ and $b$ are positive, $ab\\ne0$, so divide both sides by $ab$:<br/>$$k=\\frac{1}{85}$$<br/>This matches, so <strong>A</strong> is correct."
     },
     {
       "title": "Check by factoring",
-      "content": "The quadratic factors as:<br/>$$57x^2+(57b+a)x+ab=(x+b)(57x+a)$$<br/>The roots are $-b$ and $-\\frac{a}{57}$, and their product is $\\frac{ab}{57}$, confirming $k=\\frac{1}{57}$."
+      "content": "The quadratic factors as:<br/>$$85x^2+(85b+a)x+ab=(x+b)(85x+a)$$<br/>The roots are $-b$ and $-\\frac{a}{85}$, and their product is $\\frac{ab}{85}$, confirming $k=\\frac{1}{85}$."
     }
   ]
 }

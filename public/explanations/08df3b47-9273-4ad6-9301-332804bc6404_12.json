@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute x = 41 into the model",
-      "content": "The colony has 41 worker ants, and $20 \\leq 41 \\leq 110$, so the equation applies: $$y = 0.67(41) + 2.6$$"
+      "title": "Substitute x = 43 into the model",
+      "content": "The colony has 43 worker ants, and $25 \\leq 43 \\leq 115$, so the equation applies: $$y = 0.68(43) + 3.1$$"
     },
     {
       "title": "Compute",
-      "content": "$0.67 \\cdot 41 = 27.47$, then $27.47 + 2.6 = 30.07$ larvae."
+      "content": "$0.68 \\cdot 43 = 29.24$, then $29.24 + 3.1 = 32.34$ larvae."
     },
     {
       "title": "Eliminate the other choices",
-      "content": "<ul><li><strong>A) 30</strong> &mdash; matches 30.07, the predicted value.</li><li><strong>B) 44</strong> &mdash; would require $y \\approx 44$, far above 30.07.</li><li><strong>C) 57</strong> &mdash; way too high; you'd get this from $x \\approx 81$.</li><li><strong>D) 134</strong> &mdash; this is roughly $0.67 \\cdot 41 + 2.6$ multiplied wrong; nowhere near 30.07.</li></ul>That matches <strong>Choice A &mdash; 30</strong>."
+      "content": "<ul><li><strong>A) 32</strong> &mdash; matches 32.34, the predicted value.</li><li><strong>B) 46</strong> &mdash; would require $y \\approx 46$, far above 32.34.</li><li><strong>C) 60</strong> &mdash; way too high; you'd get this from $x \\approx 83$.</li><li><strong>D) 163</strong> &mdash; this is roughly $(0.68+3.1) \\cdot 43$, so it comes from multiplying incorrectly; nowhere near 32.34.</li></ul>That matches <strong>Choice A &mdash; 32</strong>."
     }
   ]
 }

@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Set the appropriate variable to 0",
-      "content": "For the $y$-intercept, set $x=0$ in $y=3x^{2}+8x+9$: $$y=3(0)^{2}+8(0)+9.$$"
+      "content": "For the $y$-intercept, set $x=0$ in $y=4x^{2}+7x+11$: $$y=4(0)^{2}+7(0)+11.$$"
     },
     {
       "title": "Compute the intercept",
-      "content": "This gives $y=9$, so the $y$-intercept is $(0,9)$. That matches <strong>Choice C &mdash; $(0, 9)$</strong>."
+      "content": "This gives $y=11$, so the $y$-intercept is $(0,11)$. That matches <strong>Choice C &mdash; $(0, 11)$</strong>."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches <strong>Choice C &mdash; $(0, 9)$</strong>, $(0, 9)$. The other choices do not satisfy the same condition from the question, so <strong>C</strong>."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches <strong>Choice C &mdash; $(0, 11)$</strong>, $(0, 11)$. The other choices do not satisfy the same condition from the question, so <strong>C</strong>."
     }
   ]
 }

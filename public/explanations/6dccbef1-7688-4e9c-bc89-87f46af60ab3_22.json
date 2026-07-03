@@ -1,19 +1,19 @@
 {
   "questionId": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_22",
-  "correctAnswer": "8.5,17/2",
+  "correctAnswer": "9.5,19/2",
   "section": "Math",
   "steps": [
     {
       "title": "Expand and establish constraints",
-      "content": "Expand $(3x^2 + a)(2x^2 + b)$: $$6x^4 + 3bx^2 + 2ax^2 + ab = 6x^4 + (3b+2a)x^2 + ab$$<br/>Match this with $6x^4 + 17x^2 + 7$ to get two conditions:<ul><li>Coefficient of $x^2$: $3b + 2a = 17$</li><li>Constant term: $ab = 7$</li></ul>"
+      "content": "Expand $(3x^2 + a)(2x^2 + b)$: $$6x^4 + 3bx^2 + 2ax^2 + ab = 6x^4 + (3b+2a)x^2 + ab$$<br/>Match this with $6x^4 + 19x^2 + 8$ to get two conditions:<ul><li>Coefficient of $x^2$: $3b + 2a = 19$</li><li>Constant term: $ab = 8$</li></ul>"
     },
     {
       "title": "Find all solutions via quadratic formula",
-      "content": "From $ab = 7$, we have $b = \\frac{7}{a}$. Substitute into $3b + 2a = 17$: $$\\frac{21}{a} + 2a = 17$$<br/>Multiply by $a$ and rearrange: $$2a^2 - 17a + 21 = 0$$<br/>By the quadratic formula: $$a = \\frac{17 \\pm \\sqrt{289 - 168}}{4} = \\frac{17 \\pm \\sqrt{121}}{4} = \\frac{17 \\pm 11}{4}$$<br/>So $a = \\frac{28}{4} = 7$ (the integer solution) or $a = \\frac{6}{4} = \\frac{3}{2}$ (the non-integer solution).<br/>Therefore, $a = 7$ and $c = \\frac{3}{2}$."
+      "content": "From $ab = 8$, we have $b = \\frac{8}{a}$. Substitute into $3b + 2a = 19$: $$\\frac{24}{a} + 2a = 19$$<br/>Multiply by $a$ and rearrange: $$2a^2 - 19a + 24 = 0$$<br/>By the quadratic formula: $$a = \\frac{19 \\pm \\sqrt{361 - 192}}{4} = \\frac{19 \\pm \\sqrt{169}}{4} = \\frac{19 \\pm 13}{4}$$<br/>So $a = \\frac{32}{4} = 8$ (the integer solution) or $a = \\frac{6}{4} = \\frac{3}{2}$ (the non-integer solution).<br/>Therefore, $a = 8$ and $c = \\frac{3}{2}$."
     },
     {
       "title": "Calculate the value a + c",
-      "content": "$$a + c = 7 + \\frac{3}{2} = \\frac{14}{2} + \\frac{3}{2} = \\frac{17}{2} = 8.5$$<br/>The answer is <strong>8.5,17/2</strong>."
+      "content": "$$a + c = 8 + \\frac{3}{2} = \\frac{16}{2} + \\frac{3}{2} = \\frac{19}{2} = 9.5$$<br/>The answer is <strong>9.5,19/2</strong>."
     }
   ]
 }

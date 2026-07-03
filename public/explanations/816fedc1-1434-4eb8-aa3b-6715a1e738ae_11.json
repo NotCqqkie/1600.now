@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Interpret the given point",
-      "content": "The point (5,7) lies on the graph of y = f(x). By definition, when x = 5 the corresponding y-value is f(5). Hence, $$ f(5) = 7 $$."
+      "content": "The point (6,9) lies on y = f(x). By definition, when x = 6 the corresponding y-value is f(6). Hence, $$ f(6) = 9 $$."
     },
     {
       "title": "Match the result to the choices",
-      "content": "The computed value is $7$, matching the source choice text <strong>7</strong>. That confirms <strong>B</strong> is correct."
+      "content": "The computed value is $9$, matching the source choice text <strong>9</strong>. That confirms <strong>B</strong> is correct."
     }
   ]
 }

@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Turn the equation into a direct calculation check",
-      "content": "Instead of substituting every choice by hand, solve once for $y$: $7x-4y=-84$ becomes $y=\\frac{84+7x}{4}$. Then evaluate that rule at the $x$-values shown in the answer tables."
+      "content": "Instead of substituting every choice by hand, solve once for $y$: $5x-4y=-68$ becomes $y=\\frac{68+5x}{4}$. Then evaluate that rule at the $x$-values shown in the answer tables."
     },
     {
       "title": "Evaluate the rule at the table values",
-      "content": "For the likely $x$-row $0,4,8$, substitute each value into $y=\\frac{84+7x}{4}$: $$x=0:\\ y=21$$ $$x=4:\\ y=28$$ $$x=8:\\ y=35$$"
+      "content": "For the likely $x$-row $0,4,8$, substitute each value into $y=\\frac{68+5x}{4}$: $$x=0:\\ y=17$$ $$x=4:\\ y=22$$ $$x=8:\\ y=27$$"
     },
     {
       "title": "Match the table",
-      "content": "The corresponding pairs are $(0,21)$, $(4,28)$, and $(8,35)$. Those are exactly the entries in <strong>A</strong>."
+      "content": "The corresponding pairs are $(0,17)$, $(4,22)$, and $(8,27)$. Those are exactly the entries in <strong>A</strong>."
     }
   ]
 }

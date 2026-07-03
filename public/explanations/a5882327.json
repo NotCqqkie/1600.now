@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Substitute and apply the given condition",
-      "content": "We have $g(x) = b - 15x$. Substituting $x = c+7$:<br/>$$g(c+7) = b - 15(c+7) = b - 15c - 105$$<br/>We're told that $g(c+7) = \\frac{c}{4}$, so:<br/>$$b - 15c - 105 = \\frac{c}{4}$$"
+      "content": "We have $g(x) = b - 12x$. Substituting $x = c+5$:<br/>$$g(c+5) = b - 12(c+5) = b - 12c - 60$$<br/>We're told that $g(c+5) = \\frac{c}{3}$, so:<br/>$$b - 12c - 60 = \\frac{c}{3}$$"
     },
     {
       "title": "Solve for b and simplify",
-      "content": "Add $15c + 105$ to both sides:<br/>$$b = \\frac{c}{4} + 15c + 105$$<br/>Convert to a common denominator: $15c = \\frac{60c}{4}$:<br/>$$b = \\frac{c}{4} + \\frac{60c}{4} + 105 = \\frac{61c}{4} + 105$$<br/>That is the correct answer."
+      "content": "Add $12c + 60$ to both sides:<br/>$$b = \\frac{c}{3} + 12c + 60$$<br/>Convert to a common denominator: $12c = \\frac{36c}{3}$:<br/>$$b = \\frac{c}{3} + \\frac{36c}{3} + 60 = \\frac{37c}{3} + 60$$<br/>The correct answer is choice C."
     }
   ]
 }

@@ -13,11 +13,11 @@
     },
     {
       "title": "Set up the total equation",
-      "content": "The total across both accounts is \\$4,300:<br/>$$4300 = 12x + 24y$$"
+      "content": "The total across both accounts is \\$5,400:<br/>$$5400 = 12x + 24y$$"
     },
     {
       "title": "Match to the choices",
-      "content": "<ul><li><strong>Choice A &mdash; $4,300=12x+12y$</strong>: This would mean $y$ is deposited only once per month, not twice. &#10007;</li><li><strong>Choice B &mdash; $4,300=12x+24y$</strong>: $12x$ for once-monthly $x$ deposits, $24y$ for twice-monthly $y$ deposits. &#10003;</li><li><strong>Choice C &mdash; $4,300=24x+12y$</strong>: This reverses the deposit frequencies — $x$ would be twice-monthly and $y$ once-monthly. &#10007;</li><li><strong>Choice D &mdash; $4,300=24x+24y$</strong>: This would mean both accounts receive deposits twice per month. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; $5,400=12x+12y$</strong>: This would mean $y$ is deposited only once per month, not twice. &#10007;</li><li><strong>Choice B &mdash; $5,400=12x+24y$</strong>: $12x$ for once-monthly $x$ deposits, $24y$ for twice-monthly $y$ deposits. &#10003;</li><li><strong>Choice C &mdash; $5,400=24x+12y$</strong>: This reverses the deposit frequencies — $x$ would be twice-monthly and $y$ once-monthly. &#10007;</li><li><strong>Choice D &mdash; $5,400=24x+24y$</strong>: This would mean both accounts receive deposits twice per month. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
     }
   ]
 }

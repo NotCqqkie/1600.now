@@ -1,6 +1,6 @@
 {
   "questionId": "fd8745fc",
-  "correctAnswer": "84",
+  "correctAnswer": "76",
   "section": "Math",
   "steps": [
     {
@@ -9,11 +9,11 @@
     },
     {
       "title": "Apply the triangle angle sum property",
-      "content": "The sum of all interior angles in a triangle equals 180 degrees. With \\angle K = 48 degrees and \\angle L = 48 degrees, set up the equation:<br/>$$\\angle J + 48^{\\circ} + 48^{\\circ} = 180^{\\circ}$$"
+      "content": "The sum of all interior angles in a triangle equals 180 degrees. With \\angle N = 52 degrees and \\angle P = 52 degrees, set up the equation:<br/>$$\\angle M + 52^{\\circ} + 52^{\\circ} = 180^{\\circ}$$"
     },
     {
-      "title": "Solve for angle J",
-      "content": "Simplify the left side:<br/>$$\\angle J + 96^{\\circ} = 180^{\\circ}$$<br/>Subtract 96 degrees from both sides:<br/>$$\\angle J = 84^{\\circ}$$<br/>The answer is <strong>84</strong>."
+      "title": "Solve for angle M",
+      "content": "Simplify the left side:<br/>$$\\angle M + 104^{\\circ} = 180^{\\circ}$$<br/>Subtract 104 degrees from both sides:<br/>$$\\angle M = 76^{\\circ}$$<br/>The answer is <strong>76</strong>."
     }
   ]
 }

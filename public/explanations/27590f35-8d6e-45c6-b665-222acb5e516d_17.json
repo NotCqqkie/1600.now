@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Solve the equation",
-      "content": "Divide by 7: $|x-7|=6$. So $x-7=6$ or $x-7=-6$, giving $x=13$ or $x=1$."
+      "content": "Divide by 8: $|x-8|=6$. So $x-8=6$ or $x-8=-6$, giving $x=14$ or $x=2$."
     },
     {
       "title": "Sum the solutions",
-      "content": "Add: $13+1=14$. (Shortcut: $|x-a|=b$ gives sum $2a=14$.)<br/><br/>The answer is <strong>C</strong>.<br/><br/>Both solutions are valid because an absolute value equation measures distance from 7, so values 6 units to the left and right both work."
+      "content": "Add: $14+2=16$. (Shortcut: $|x-a|=b$ gives sum $2a=16$.)<br/><br/>The answer is <strong>C</strong>.<br/><br/>Both solutions are valid because an absolute value equation measures distance from 8, so values 6 units to the left and right both work."
     }
   ]
 }

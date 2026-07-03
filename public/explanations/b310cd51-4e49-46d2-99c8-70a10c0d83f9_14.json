@@ -1,23 +1,23 @@
 {
   "questionId": "b310cd51-4e49-46d2-99c8-70a10c0d83f9_14",
-  "correctAnswer": "59/70",
+  "correctAnswer": "29/40",
   "section": "Math",
   "steps": [
     {
       "title": "Set up",
-      "content": "Substitute $t=p^{2n-1}$ into $p^{\\frac{4}{7}}=t^{\\frac{5}{6}}$: $$p^{\\frac{4}{7}}=\\left(p^{2n-1}\\right)^{\\frac{5}{6}}=p^{\\frac{5(2n-1)}{6}}$$ Since $p\\gt1$, equal bases mean the exponents must be equal: $$\\frac{4}{7}=\\frac{5(2n-1)}{6}$$"
+      "content": "Substitute $t=p^{2n-1}$ into $p^{\\frac{3}{8}}=t^{\\frac{5}{6}}$: $$p^{\\frac{3}{8}}=\\left(p^{2n-1}\\right)^{\\frac{5}{6}}=p^{\\frac{5(2n-1)}{6}}$$ Since $p\\gt1$, equal bases mean the exponents must be equal: $$\\frac{3}{8}=\\frac{5(2n-1)}{6}$$"
     },
     {
       "title": "Solve",
-      "content": "Cross-multiply: $$24=7 \\cdot 5(2n-1)=70n-35$$ $$59=70n$$ $$n=\\frac{59}{70}$$"
+      "content": "Cross-multiply: $$18=8 \\cdot 5(2n-1)=80n-40$$ $$58=80n$$ $$n=\\frac{29}{40}$$"
     },
     {
       "title": "Answer",
-      "content": "<strong>59/70</strong> is correct."
+      "content": "<strong>29/40</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $59/70$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $59/70$."
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $29/40$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $29/40$."
     }
   ]
 }

@@ -1,15 +1,15 @@
 {
   "questionId": "27590f35-8d6e-45c6-b665-222acb5e516d_9",
-  "correctAnswer": "3610",
+  "correctAnswer": "3620",
   "section": "Math",
   "steps": [
     {
       "title": "Add the five values",
-      "content": "Sum the masses: $3910,3910,3130,3950,3150$, giving a total of $18050$."
+      "content": "Sum the masses: $3920,3920,3140,3960,3160$, giving a total of $18100$."
     },
     {
       "title": "Divide by the count",
-      "content": "The mean is $$\\tfrac{18050}{5}=3610.$$ The answer is <strong>3610</strong>.<br/><br/>There are five data values, so the mean must be the total divided by 5. No value is excluded from the average."
+      "content": "The mean is $$\\tfrac{18100}{5}=3620.$$ The answer is <strong>3620</strong>.<br/><br/>There are five data values, so the mean must be the total divided by 5. No value is excluded from the average."
     }
   ]
 }

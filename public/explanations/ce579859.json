@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Interpret 150% more as a growth factor",
-      "content": "If the population increases by 150%, the new population equals the old population plus 150% of the old population.<br/><br/>If there are $N$ squirrels, the new count is $N + 1.5N = 2.5N$.<br/><br/>Therefore, each year the population is multiplied by a factor of 2.5, which gives an exponential model: $n = a(2.5)^t$, where $a$ is the population when $t = 0$ (end of 2015)."
+      "title": "Interpret 125% more as a growth factor",
+      "content": "If the population increases by 125%, the new population equals the old population plus 125% of the old population.<br/><br/>If there are $N$ rabbits, the new count is $N + 1.25N = 2.25N$.<br/><br/>Therefore, each year the population is multiplied by a factor of 2.25, which gives an exponential model: $n = a(2.25)^t$, where $a$ is the population when $t = 0$ (end of 2016)."
     },
     {
       "title": "Use the given data point to find the initial value",
-      "content": "The end of 2016 is $t = 1$ year after the end of 2015. We are told that $n = 180$ at this time. Substituting into our model:<br/>$$180 = a(2.5)^1$$<br/>$$180 = 2.5a$$<br/>$$a = \\frac{180}{2.5} = 72$$"
+      "content": "The end of 2017 is $t = 1$ year after the end of 2016. We are told that $n = 180$ at this time. Substituting into our model:<br/>$$180 = a(2.25)^1$$<br/>$$180 = 2.25a$$<br/>$$a = \\frac{180}{2.25} = 80$$"
     },
     {
       "title": "Write and identify the equation",
-      "content": "With $a = 72$, the equation becomes $n = 72(2.5)^t$. That is the correct answer."
+      "content": "With $a = 80$, the equation becomes $n = 80(2.25)^t$. That matches <strong>choice B</strong>, so <strong>B</strong> is correct."
     }
   ]
 }

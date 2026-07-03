@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Translate x = 5 to the corresponding year",
-      "content": "Since $x$ represents the number of years after 1957, when $x = 5$, we're looking at the year $1957 + 5 = 1962$."
+      "content": "Since $x$ represents the number of years after 1959, when $x = 5$, we're looking at the year $1959 + 5 = 1964$."
     },
     {
-      "title": "Interpret f(5) ≈ 243 in context",
-      "content": "The function $f(x) = 206(1.034)^x$ models the dollar value of the bank account.<br/><br/>When we compute $f(5)$, we get the account's value in dollars at year 1962.<br/><br/>Therefore, $f(5) \\approx 243$ means the account is approximately $243$ dollars in 1962.<br/><br/>This directly matches the correct answer — <strong>B</strong> is correct."
+      "title": "Interpret f(5) approximately 249 in context",
+      "content": "The function $f(x) = 212(1.033)^x$ models the dollar value of the bank account.<br/><br/>When we compute $f(5)$, we get the account's value in dollars at year 1964.<br/><br/>Therefore, $f(5) \\approx 249$ means the account is approximately $249$ dollars in 1964.<br/><br/>This directly matches the correct answer - <strong>B</strong> is correct."
     }
   ]
 }

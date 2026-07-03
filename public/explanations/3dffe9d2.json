@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up the equation",
-      "content": "The total cost is \\$62.00: the pass (\\$19.50) plus 10 identical stickers. If $s$ is the cost of one sticker:\n$$19.50 + 10s = 62.00$$"
+      "content": "The total cost is \\$60.00: the pass (\\$24.00) plus 8 identical postcards. If $p$ is the cost of one postcard:\n$$24.00 + 8p = 60.00$$"
     },
     {
-      "title": "Solve for the cost per sticker",
-      "content": "Subtract 19.50 from both sides:\n$$10s = 62.00 - 19.50 = 42.50$$ Divide both sides by 10:\n$$s = \\frac{42.50}{10} = 4.25$$ <strong>B</strong> is correct."
+      "title": "Solve for the cost per postcard",
+      "content": "Subtract 24.00 from both sides:\n$$8p = 60.00 - 24.00 = 36.00$$ Divide both sides by 8:\n$$p = \\frac{36.00}{8} = 4.50$$ <strong>B</strong> is correct."
     }
   ]
 }

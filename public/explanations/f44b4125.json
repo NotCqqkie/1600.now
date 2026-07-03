@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Analyze f(x) for a maximum",
-      "content": "$f(x) = 18(1.25)^x + 41$ has base $1.25 \\gt  1$, so it grows without bound as $x$ increases. For $x \\ge 0$ there is no maximum value. The constant $41$ is the minimum (at $x = 0$, $f(0) = 18 + 41 = 59$, with $41$ as a horizontal asymptote from below isn't relevant here &mdash; the value $41$ is simply a vertical shift, not a maximum). So $f$ does not display its maximum as a constant or coefficient."
+      "content": "$f(x) = 20(1.18)^x + 38$ has base $1.18 \\gt  1$, so it grows without bound as $x$ increases. For $x \\ge 0$ there is no maximum value. The constant $38$ is not the maximum (at $x = 0$, $f(0) = 20 + 38 = 58$); it is simply a vertical shift. So $f$ does not display its maximum as a constant or coefficient."
     },
     {
       "title": "Analyze g(x) for a maximum",
-      "content": "$g(x) = 9(0.73)^x$ has base $0.73$ where $0 \\lt 0.73 \\lt 1$, so it decays toward $0$ as $x$ increases. For $x \\ge 0$ the maximum occurs at $x = 0$:<br/>$$g(0) = 9(0.73)^0 = 9 \\cdot 1 = 9$$<br/>The coefficient $9$ in the equation is exactly the maximum value. So $g$ does display its maximum as a coefficient."
+      "content": "$g(x) = 7(0.68)^x$ has base $0.68$ where $0 \\lt 0.68 \\lt 1$, so it decays toward $0$ as $x$ increases. For $x \\ge 0$ the maximum occurs at $x = 0$:<br/>$$g(0) = 7(0.68)^0 = 7 \\cdot 1 = 7$$<br/>The coefficient $7$ in the equation is exactly the maximum value. So $g$ does display its maximum as a coefficient."
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li><strong>A) I only:</strong> $f$ has no maximum on $x \\ge 0$, so it cannot display one. Eliminated.</li><li><strong>B) II only:</strong> Only $g$ displays its maximum (the coefficient $9$). Matches.</li><li><strong>C) I and II:</strong> $f$ does not display a maximum. Eliminated.</li><li><strong>D) Neither I nor II:</strong> $g$ does display its maximum. Eliminated.</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+      "content": "<ul><li><strong>A) I only:</strong> $f$ has no maximum on $x \\ge 0$, so it cannot display one. Eliminated.</li><li><strong>B) II only:</strong> Only $g$ displays its maximum (the coefficient $7$). Matches.</li><li><strong>C) I and II:</strong> $f$ does not display a maximum. Eliminated.</li><li><strong>D) Neither I nor II:</strong> $g$ does display its maximum. Eliminated.</li></ul>That matches the correct answer &mdash; <strong>B</strong> is correct."
     }
   ]
 }

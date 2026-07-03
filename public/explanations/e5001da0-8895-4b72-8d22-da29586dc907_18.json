@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Use a fast setup",
-      "content": "Substitute the two given points into the function. At $x=c$, $$ac-b=7.$$ At $x=2c$, $$2ac-b=117.$$"
+      "content": "Substitute the two given points into the function. At $x=c$, $$ac-b=8.$$ At $x=2c$, $$2ac-b=126.$$"
     },
     {
       "title": "Eliminate $b$",
-      "content": "Subtract the first equation from the second: $$(2ac-b)-(ac-b)=117-7,$$ so $$ac=110.$$"
+      "content": "Subtract the first equation from the second: $$(2ac-b)-(ac-b)=126-8,$$ so $$ac=118.$$"
     },
     {
       "title": "Confirm by algebra",
-      "content": "Substitute $ac=110$ into $ac-b=7$: $$110-b=7.$$ Therefore $$b=103.$$ That matches the correct answer, <strong>C</strong>."
+      "content": "Substitute $ac=118$ into $ac-b=8$: $$118-b=8.$$ Therefore $$b=110.$$ That matches the correct answer, <strong>C</strong>."
     }
   ]
 }

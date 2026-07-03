@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Population after the first two weeks",
-      "content": "Initial population is 1,100 bees. For the first two weeks the increase is 120 bees per week.<br/>Population after week 2: $$1100 + 2 \\times 120 = 1340$$ bees."
+      "content": "Initial population is 950 bees. For the first two weeks the increase is 130 bees per week.<br/>Population after week 2: $$950 + 2 \\times 130 = 1210$$ bees."
     },
     {
       "title": "Population after week w (>2) and remaining needed",
-      "content": "For week w > 2, there are (w-2) additional weeks each adding 180 bees.<br/>Population at end of week w: $$1340 + 180(w-2) = 1340 + 180w - 360 = 980 + 180w$$ bees.<br/>Bees still needed to reach the goal of 2,600: $$2600 - (980 + 180w) = 1620 - 180w$$.<br/><strong>C</strong> is correct."
+      "content": "For week w > 2, there are (w-2) additional weeks each adding 170 bees.<br/>Population at end of week w: $$1210 + 170(w-2) = 1210 + 170w - 340 = 870 + 170w$$ bees.<br/>Bees still needed to reach the goal of 2,450: $$2450 - (870 + 170w) = 1580 - 170w$$.<br/><strong>C</strong> is correct."
     }
   ]
 }

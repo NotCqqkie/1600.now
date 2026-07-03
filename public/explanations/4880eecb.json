@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up the equation from the word problem",
-      "content": "The positive number is $x$. The number that is 8 more than $x$ is $x + 8$. Their product is 180."
+      "content": "The positive number is $x$. The number that is 7 more than $x$ is $x + 7$. Their product is 228."
     },
     {
       "title": "Test the answer choices",
-      "content": "Backsolving $x=18$: If $x = 18$, then $x + 8 = 26$, and $18 \\times 26 = 468 \\neq 180$. Fails. Testing $x=10$: If $x = 10$, then $x + 8 = 18$, and $10 \\times 18 = 180$. <strong>B</strong> is correct."
+      "content": "Backsolving $x=19$: If $x = 19$, then $x + 7 = 26$, and $19 \\times 26 = 494 \\neq 228$. Fails. Testing $x=12$: If $x = 12$, then $x + 7 = 19$, and $12 \\times 19 = 228$. <strong>B</strong> is correct."
     }
   ]
 }

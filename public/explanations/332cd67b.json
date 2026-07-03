@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify coefficients and use the discriminant",
-      "content": "For a quadratic equation $ax^2 + bx + c = 0$, the number of distinct real solutions depends on the discriminant $\\Delta = b^2 - 4ac$.<br/><br/>The equation $3x^2 - 15x + 18 = 0$ has coefficients $a = 3$, $b = -15$, and $c = 18$.<br/><br/>Since we're asked how many distinct real solutions exist, we'll check the discriminant rather than solving the full equation."
+      "content": "For a quadratic equation $ax^2 + bx + c = 0$, the number of distinct real solutions depends on the discriminant $\\Delta = b^2 - 4ac$.<br/><br/>The equation $2x^2 - 10x + 8 = 0$ has coefficients $a = 2$, $b = -10$, and $c = 8$.<br/><br/>Since we're asked how many distinct real solutions exist, we'll check the discriminant rather than solving the full equation."
     },
     {
       "title": "Calculate the discriminant",
-      "content": "$$\\Delta = b^2 - 4ac = (-15)^2 - 4(3)(18) = 225 - 216 = 9$$<br/>Since $\\Delta = 9 \\gt  0$, the quadratic has exactly two distinct real solutions. <strong>B</strong> is correct."
+      "content": "$$\\Delta = b^2 - 4ac = (-10)^2 - 4(2)(8) = 100 - 64 = 36$$<br/>Since $\\Delta = 36 \\gt  0$, the quadratic has exactly two distinct real solutions. <strong>B</strong> is correct."
     }
   ]
 }

@@ -8,12 +8,12 @@
       "content": "We are told that $1\\text{ meter}=100\\text{ centimeters}$, so multiply the number of meters by $100$ to get centimeters."
     },
     {
-      "title": "Convert 51 meters to centimeters",
-      "content": "$$51\\text{ m}\\times\\frac{100\\text{ cm}}{1\\text{ m}}=5{,}100\\text{ cm}$$"
+      "title": "Convert 64 meters to centimeters",
+      "content": "$$64\\text{ m}\\times\\frac{100\\text{ cm}}{1\\text{ m}}=6{,}400\\text{ cm}$$"
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li>A) $0.051$ &mdash; this is $51$ divided by $1000$, not multiplied by $100$. Eliminated.</li><li>B) $0.51$ &mdash; this divides by $100$ instead of multiplying. Eliminated.</li><li>C) $5{,}100$ &mdash; this equals $51\\times 100$. Matches.</li><li>D) $51{,}000$ &mdash; this multiplies by $1000$, which would be the conversion to millimeters. Eliminated.</li></ul><strong>C</strong> is correct."
+      "content": "<ul><li>A) $0.064$ &mdash; this is $64$ divided by $1000$, not multiplied by $100$. Eliminated.</li><li>B) $0.64$ &mdash; this divides by $100$ instead of multiplying. Eliminated.</li><li>C) $6{,}400$ &mdash; this equals $64\\times 100$. Matches.</li><li>D) $64{,}000$ &mdash; this multiplies by $1000$, which would be the conversion to millimeters. Eliminated.</li></ul><strong>C</strong> is correct."
     }
   ]
 }

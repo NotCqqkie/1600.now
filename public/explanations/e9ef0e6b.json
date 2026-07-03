@@ -3,13 +3,13 @@
   "qid": "e9ef0e6b",
   "steps": [
     {
-      "content": "Whales travel between 72 and 77 miles per day, so the daily range is $72 \\le d \\le 77$."
+      "content": "Whales travel between 68 and 73 miles per day, so the daily range is $68 \\le d \\le 73$."
     },
     {
-      "content": "Over 16 days, total miles $x = 16d$. Multiply all parts of the inequality by 16 (positive, so signs unchanged): $72 \\times 16 \\le x \\le 77 \\times 16$."
+      "content": "Over 14 days, total miles $x = 14d$. Multiply all parts of the inequality by 14 (positive, so signs unchanged): $68 \\times 14 \\le x \\le 73 \\times 14$."
     },
     {
-      "content": "<ul><li><strong>$72+16 \\le x \\le 77+16$</strong>: Adds 16 instead of multiplying — wrong operation.</li><li><strong>$\\left(72\\right) \\left(16\\right) \\le x \\le \\left(77\\right) \\left(16\\right)$</strong>: $(72)(16) \\le x \\le (77)(16)$ — matches our result. That matches the correct answer — <strong>B</strong> is correct.</li><li><strong>$72 \\le 16+x \\le 77$</strong>: $72 \\le 16 + x \\le 77$ — subtracts 16 from $x$, which doesn't represent total distance.</li><li>D: $72 \\le 16x \\le 77$ — divides by 16 instead of multiplying, giving a tiny range.</li></ul>"
+      "content": "<ul><li><strong>$68+14 \\le x \\le 73+14$</strong>: Adds 14 instead of multiplying — wrong operation.</li><li><strong>$\\left(68\\right) \\left(14\\right) \\le x \\le \\left(73\\right) \\left(14\\right)$</strong>: $(68)(14) \\le x \\le (73)(14)$ — matches our result. That matches the correct answer — <strong>B</strong> is correct.</li><li><strong>$68 \\le 14+x \\le 73$</strong>: $68 \\le 14 + x \\le 73$ — subtracts 14 from $x$, which doesn't represent total distance.</li><li>D: $68 \\le 14x \\le 73$ — divides by 14 instead of multiplying, giving a tiny range.</li></ul>"
     }
   ],
   "correctAnswer": "B"

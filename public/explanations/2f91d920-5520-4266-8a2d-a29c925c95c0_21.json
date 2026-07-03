@@ -5,12 +5,12 @@
   "steps": [
     {
       "title": "Modeling the cost structure",
-      "content": "The equipment rental cost has a first-day charge of 64n dollars and additional daily charges of 32n dollars per day beyond the first.<br/><br/>For $ x $ days, the first day is charged, and the remaining $ x-1 $ days incur 32n dollars each. Total cost formula: $$ 64n + 32n(x - 1) $$ Simplify: $$ 64n + 32nx - 32n = 32n + 32nx = 32nx + 32n $$",
-      "formula": "$$ C(x) = 32nx + 32n $$"
+      "content": "The equipment rental cost has a first-day charge of 72n dollars and additional daily charges of 36n dollars per day beyond the first.<br/><br/>For $ x $ days, the first day is charged, and the remaining $ x-1 $ days incur 36n dollars each. Total cost formula: $$ 72n + 36n(x - 1) $$ Simplify: $$ 72n + 36nx - 36n = 36n + 36nx = 36nx + 36n $$",
+      "formula": "$$ C(x) = 36nx + 36n $$"
     },
     {
-      "title": "Backsolving — testing the correct answer (32nx + 32n)",
-      "content": "Plug in $ x = 1 $ (first day only): $$ C(1) = 32n(1) + 32n = 64n $$ Matches the given 64n dollars for the first day. For $ x = 2 $: $$ C(2) = 32n(2) + 32n = 96n $$ Which is 64n dollars (first day) + 32n dollars (second day). Correct. <strong>A</strong> is correct."
+      "title": "Backsolving — testing the correct answer (36nx + 36n)",
+      "content": "Plug in $ x = 1 $ (first day only): $$ C(1) = 36n(1) + 36n = 72n $$ Matches the given 72n dollars for the first day. For $ x = 2 $: $$ C(2) = 36n(2) + 36n = 108n $$ Which is 72n dollars (first day) + 36n dollars (second day). Correct. <strong>A</strong> is correct."
     }
   ]
 }

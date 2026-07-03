@@ -3,13 +3,13 @@
   "qid": "9110c120",
   "steps": [
     {
-      "text": "Compute the means. Data set A: nine 5s. Mean$_A = \\frac{9\\times5}{9} = 5$. Data set B: nine 5s plus one 100. Mean$_B = \\frac{9\\times5+100}{10} = \\frac{145}{10} = 14.5$. The means are different."
+      "text": "Compute the means. Data set A: nine 6s. Mean$_A = \\frac{9\\times6}{9} = 6$. Data set B: nine 6s plus one 90. Mean$_B = \\frac{9\\times6+90}{10} = \\frac{144}{10} = 14.4$. The means are different."
     },
     {
-      "text": "Compute the medians. Data set A has 9 values; the median is the 5th value when sorted: all are 5, so Median$_A = 5$. Data set B has 10 values sorted as 5,5,5,5,5,5,5,5,5,100; the median is the average of the 5th and 6th values: $\\frac{5+5}{2}=5$. So Median$_B = 5$. The medians are the same."
+      "text": "Compute the medians. Data set A has 9 values; the median is the 5th value when sorted: all are 6, so Median$_A = 6$. Data set B has 10 values sorted as 6,6,6,6,6,6,6,6,6,90; the median is the average of the 5th and 6th values: $\\frac{6+6}{2}=6$. So Median$_B = 6$. The medians are the same."
     },
     {
-      "text": "Evaluate each choice:<ul><li><strong>Choice A &mdash; Only the means are different.</strong>: the means do differ (5 vs 14.5) and the medians are both 5. That confirms <strong>A</strong> is correct.</li><li><strong>Choice B &mdash; Only the medians are different.</strong>: the medians are both 5 (not different), and the means are different. Incorrect.</li><li><strong>Choice C &mdash; Both the means and the medians are different.</strong>: the medians are equal, so this is false. Incorrect.</li><li><strong>Choice D &mdash; Neither the means nor the medians are different.</strong>: the means do differ, so this is false. Incorrect.</li></ul>"
+      "text": "Evaluate each choice:<ul><li><strong>Choice A &mdash; Only the means are different.</strong>: the means do differ (6 vs 14.4) and the medians are both 6. That confirms <strong>A</strong> is correct.</li><li><strong>Choice B &mdash; Only the medians are different.</strong>: the medians are both 6 (not different), and the means are different. Incorrect.</li><li><strong>Choice C &mdash; Both the means and the medians are different.</strong>: the medians are equal, so this is false. Incorrect.</li><li><strong>Choice D &mdash; Neither the means nor the medians are different.</strong>: the means do differ, so this is false. Incorrect.</li></ul>"
     }
   ],
   "correctAnswer": "A"

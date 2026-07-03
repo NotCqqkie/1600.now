@@ -1,23 +1,23 @@
 {
   "questionId": "ea6d05bb",
-  "correctAnswer": "-419",
+  "correctAnswer": "-337",
   "section": "Math",
   "steps": [
     {
       "title": "Expand the product",
-      "content": "Use FOIL on $(3x-23)(19x+6)$: $$3x\\cdot19x+3x\\cdot6-23\\cdot19x-23\\cdot6$$"
+      "content": "Use FOIL on $(4x-21)(17x+5)$: $$4x\\cdot17x+4x\\cdot5-21\\cdot17x-21\\cdot5$$"
     },
     {
       "title": "Find the x-coefficient",
-      "content": "The $x$-terms are $$18x-437x=-419x$$ so in $ax^2+bx+c$, the value of $b$ is $-419$."
+      "content": "The $x$-terms are $$20x-357x=-337x$$ so in $ax^2+bx+c$, the value of $b$ is $-337$."
     },
     {
       "title": "Answer",
-      "content": "The value of $b$ is <strong>-419</strong>."
+      "content": "The value of $b$ is <strong>-337</strong>."
     },
     {
       "title": "Ignore terms that do not affect b",
-      "content": "The value of $b$ is only the coefficient of the $x$ term. The $3x\\cdot 19x$ product affects $a$, and the $-23\\cdot 6$ product affects $c$, so the middle products decide $b$."
+      "content": "The value of $b$ is only the coefficient of the $x$ term. The $4x\\cdot 17x$ product affects $a$, and the $-21\\cdot 5$ product affects $c$, so the middle products decide $b$."
     }
   ]
 }

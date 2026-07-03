@@ -1,6 +1,6 @@
 {
   "questionId": "bd71c8f3-94e3-411f-929a-013a2ca9a277_21",
-  "correctAnswer": "742.5",
+  "correctAnswer": "787.5",
   "section": "Math",
   "steps": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "title": "Calculate the new area",
-      "content": "$$330 \\times 2.25 = 742.5 \\text{ square inches}$$"
+      "content": "$$350 \\times 2.25 = 787.5 \\text{ square inches}$$"
     }
   ]
 }

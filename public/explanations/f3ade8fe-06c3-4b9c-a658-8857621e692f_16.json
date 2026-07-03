@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+      "title": "Fastest path: mark the givens first",
+      "content": "Mark the given angle relationships first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
     },
     {
       "title": "Identify given information and angle positioning",
-      "content": "We are given AB = DE = 5 cm and \\angle A = \\angle D = 35 degrees. In triangle ABC, angle A is located at vertex A, positioned between sides AB and AC.<br/><br/>In triangle DEF, angle D is located at vertex D, positioned between sides DE and DF.<br/><br/>To prove congruence, we need one of the standard criteria: SSS, SAS, ASA, AAS, or HL.<br/><br/>Since we have one side and one angle, we should consider SAS (Side-Angle-Side), which requires two sides with the angle between them."
+      "content": "We are given JK = MN = 7 cm and \\angle J = \\angle M = 40 degrees. In triangle JKL, angle J is located at vertex J, positioned between sides JK and JL.<br/><br/>In triangle MNP, angle M is located at vertex M, positioned between sides MN and MP.<br/><br/>To prove congruence, we need one of the standard criteria: SSS, SAS, ASA, AAS, or HL.<br/><br/>Since we have one side and one angle, we should consider SAS (Side-Angle-Side), which requires two sides with the angle between them."
     },
     {
       "title": "Evaluate each choice against congruence criteria",
-      "content": "<ul><li><strong>\"The lengths of sides $BC$ and $EF$ are equal.\"</strong> This gives us AB = DE and \\angle A with side BC, which is SSA. The angle A is not between sides AB and BC, so this configuration does not guarantee congruence.</li><li><strong>\"The lengths of sides $AC$ and $DF$ are equal.\"</strong> This gives us AB = DE (side), \\angle A = \\angle D (angle), and AC = DF (side). Since \\angle A is between sides AB and AC, and \\angle D is between sides DE and DF, this is the Side-Angle-Side configuration.</li><li><strong>\"The measures of angles $B$ and $C$ are equal.\"</strong> This only provides information about angles within triangle ABC and does not allow direct comparison with triangle DEF.</li><li><strong>\"No additional information is necessary to prove that the two triangles are congruent.\"</strong> One side and one angle are not sufficient for any congruence criterion.</li></ul>With AC = DF, we have SAS congruence: Side AB = DE, Angle A = D (included between the sides), Side AC = DF. That matches the correct answer — <strong>B</strong> is correct."
+      "content": "<ul><li><strong>\"The lengths of sides $KL$ and $NP$ are equal.\"</strong> This gives us JK = MN and \\angle J with side KL, which is SSA. The angle J is not between sides JK and KL, so this configuration does not guarantee congruence.</li><li><strong>\"The lengths of sides $JL$ and $MP$ are equal.\"</strong> This gives us JK = MN (side), \\angle J = \\angle M (angle), and JL = MP (side). Since \\angle J is between sides JK and JL, and \\angle M is between sides MN and MP, this is the Side-Angle-Side configuration.</li><li><strong>\"The measures of angles $K$ and $L$ are equal.\"</strong> This only provides information about angles within triangle JKL and does not allow direct comparison with triangle MNP.</li><li><strong>\"No additional information is necessary to prove that the two triangles are congruent.\"</strong> One side and one angle are not sufficient for any congruence criterion.</li></ul>With JL = MP, we have SAS congruence: Side JK = MN, Angle J = M (included between the sides), Side JL = MP. That matches the correct answer - <strong>B</strong> is correct."
     }
   ]
 }

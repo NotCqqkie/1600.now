@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $17 \\left(x-10y\\right) \\left(x+10y\\right)$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $19 \\left(x-12y\\right) \\left(x+12y\\right)$."
     },
     {
       "title": "Algebra check",
@@ -13,11 +13,11 @@
     },
     {
       "title": "Recognize the difference of squares",
-      "content": "Inside the parentheses, $x^2-100y^2$ is a difference of squares because $100y^2=(10y)^2$. Use the pattern $a^2-b^2=(a-b)(a+b)$."
+      "content": "Inside the parentheses, $x^2-144y^2$ is a difference of squares because $144y^2=(12y)^2$. Use the pattern $a^2-b^2=(a-b)(a+b)$."
     },
     {
       "title": "Factor the expression",
-      "content": "$$x^2-100y^2=x^2-(10y)^2=(x-10y)(x+10y)$$<br/>Keeping the outside factor of $17$ gives:<br/>$$17(x^2-100y^2)=17(x-10y)(x+10y)$$"
+      "content": "$$x^2-144y^2=x^2-(12y)^2=(x-12y)(x+12y)$$<br/>Keeping the outside factor of $19$ gives:<br/>$$19(x^2-144y^2)=19(x-12y)(x+12y)$$<br/>This is <strong>Choice D</strong>."
     }
   ]
 }

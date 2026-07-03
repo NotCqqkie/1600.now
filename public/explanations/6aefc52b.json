@@ -1,19 +1,19 @@
 {
   "questionId": "6aefc52b",
-  "correctAnswer": "14",
+  "correctAnswer": "22",
   "section": "Math",
   "steps": [
     {
       "title": "Find the parabola's minimum using vertex form",
-      "content": "Since the parabola $y = x^2 + 8x + k$ opens upward (positive leading coefficient), it has a minimum value.<br/><br/>For no real solutions, this minimum must be above the horizontal line $y = -2.5$.<br/><br/>Complete the square:<br/>$$y = (x^2 + 8x + 16) - 16 + k = (x+4)^2 + k - 16$$<br/>The minimum $y$-value is $k - 16$."
+      "content": "Since the parabola $y = x^2 + 10x + k$ opens upward (positive leading coefficient), it has a minimum value.<br/><br/>For no real solutions, this minimum must be above the horizontal line $y = -3.5$.<br/><br/>Complete the square:<br/>$$y = (x^2 + 10x + 25) - 25 + k = (x+5)^2 + k - 25$$<br/>The minimum $y$-value is $k - 25$."
     },
     {
       "title": "Set up the no-intersection condition",
-      "content": "For the parabola and the horizontal line $y = -2.5$ to have no intersection points, the parabola's minimum must be strictly above the line:<br/>$$k - 16 \\gt -2.5$$<br/>$$k \\gt 13.5$$"
+      "content": "For the parabola and the horizontal line $y = -3.5$ to have no intersection points, the parabola's minimum must be strictly above the line:<br/>$$k - 25 \\gt -3.5$$<br/>$$k \\gt 21.5$$"
     },
     {
       "title": "Find the least positive integer",
-      "content": "Since $k$ is a positive integer and must satisfy $k\\gt 13.5$, the least possible value is $k=14$. The answer is <strong>14</strong>."
+      "content": "Since $k$ is a positive integer and must satisfy $k\\gt 21.5$, the least possible value is $k=22$. The answer is <strong>22</strong>."
     }
   ]
 }

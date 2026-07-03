@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Use the data directly",
-      "content": "Use the exponential form $A(t)=a(b)^t$. The initial balance gives $a=36{,}100$. The 13-year balance gives $$68{,}071.93=36{,}100(b)^{13}.$$"
+      "content": "Use the exponential form $A(t)=a(b)^t$. The initial balance gives $a=35{,}800$. The 13-year balance gives $$67{,}506.24=35{,}800(b)^{13}.$$"
     },
     {
       "title": "Find the growth multiplier",
-      "content": "Divide by $36{,}100$ and take the 13th root:<br/>$$b=\\left(\\frac{68{,}071.93}{36{,}100}\\right)^{1/13}\\approx1.05.$$<br/>So the model is $$A(t)=36100(1.05)^t.$$"
+      "content": "Divide by $35{,}800$ and take the 13th root:<br/>$$b=\\left(\\frac{67{,}506.24}{35{,}800}\\right)^{1/13}\\approx1.05.$$<br/>So the model is $$A(t)=35800(1.05)^t.$$"
     },
     {
       "title": "Compare with the choices",
-      "content": "<strong>$A \\left(t\\right)=36,100.00{ \\left(1.05\\right)}^{t}$</strong> has both the correct starting value and the growth multiplier. The remaining alternative uses $0.05$, which would make the balance almost zero after 13 years. $A \\left(t\\right)=36,100.00{ \\left(1.05\\right)}^{t}$ is correct."
+      "content": "<strong>Choice A</strong>, $A \\left(t\\right)=35,800.00{ \\left(1.05\\right)}^{t}$, has both the correct starting value and the growth multiplier. The remaining alternative uses $0.05$, which would make the balance almost zero after 13 years. Choice A is correct."
     }
   ]
 }

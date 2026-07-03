@@ -9,11 +9,11 @@
     },
     {
       "title": "Set up",
-      "content": "To find the center of the circle $x^2 + 52x + y^2 = 0$, rewrite it in standard form $(x - h)^2 + (y - k)^2 = r^2$ by completing the square on the $x$ terms. Half of 52 is 26, and $26^2 = 676$."
+      "content": "To find the center of the circle $x^2 + 48x + y^2 = 0$, rewrite it in standard form $(x - h)^2 + (y - k)^2 = r^2$ by completing the square on the $x$ terms. Half of 48 is 24, and $24^2 = 576$."
     },
     {
       "title": "Solve",
-      "content": "Add 676 to both sides:<br/>$$(x^2 + 52x + 676) + y^2 = 676$$<br/>$$(x + 26)^2 + y^2 = 676$$<br/>This is $(x - (-26))^2 + (y - 0)^2 = 26^2$, so the center is $(-26, 0)$."
+      "content": "Add 576 to both sides:<br/>$$(x^2 + 48x + 576) + y^2 = 576$$<br/>$$(x + 24)^2 + y^2 = 576$$<br/>This is $(x - (-24))^2 + (y - 0)^2 = 24^2$, so the center is $(-24, 0)$."
     },
     {
       "title": "Answer",

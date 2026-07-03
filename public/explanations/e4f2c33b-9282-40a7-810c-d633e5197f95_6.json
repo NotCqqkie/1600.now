@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute x = 39 into the equation",
-      "content": "The equation $y = 0.67x + 2.6$ predicts larvae count for a given number of worker ants. With $x = 39$ worker ants, substitute directly:<br/>$$y = 0.67(39) + 2.6$$"
+      "title": "Substitute x = 46 into the equation",
+      "content": "The equation $y = 0.58x + 3.4$ predicts larvae count for a given number of worker ants. With $x = 46$ worker ants, substitute directly:<br/>$$y = 0.58(46) + 3.4$$"
     },
     {
       "title": "Evaluate and identify the closest choice",
-      "content": "Multiply first: $0.67 \\times 39 = 26.13$. Then add the constant:<br/>$$y = 26.13 + 2.6 = 28.73$$<br/>Among the choices $29$, $42$, $54$, and $128$, the value $28.73$ is closest to $29$. That matches the correct answer — <strong>A</strong> is correct."
+      "content": "Multiply first: $0.58 \\times 46 = 26.68$. Then add the constant:<br/>$$y = 26.68 + 3.4 = 30.08$$<br/>Among the choices $30$, $49$, $73$, and $142$, the value $30.08$ is closest to $30$. That matches the correct answer, so <strong>A</strong> is correct."
     }
   ]
 }

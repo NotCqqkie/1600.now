@@ -5,12 +5,12 @@
   "steps": [
     {
       "title": "Find the minimum of f(x) using the vertex formula",
-      "content": "For $f(x) = 4x^2 + 64x + 262$, identify $a = 4$ and $b = 64$. <br/><br/>Substitute into the vertex formula: <br/>$$x = -\\frac{64}{2(4)} = -\\frac{64}{8} = -8$$<br/>The minimum of $f(x)$ occurs at $x = -8$.",
+      "content": "For $f(x) = 3x^2 + 54x + 247$, identify $a = 3$ and $b = 54$. <br/><br/>Substitute into the vertex formula: <br/>$$x = -\\frac{54}{2(3)} = -\\frac{54}{6} = -9$$<br/>The minimum of $f(x)$ occurs at $x = -9$.",
       "formula": "$$x = -\\frac{b}{2a}$$"
     },
     {
-      "title": "Apply the transformation g(x) = f(x+5)",
-      "content": "Since $g(x) = f(x+5)$, the function $g$ reaches its minimum when its input equals the x-value where $f$ is minimized. <br/><br/>Set the argument equal to $-8$: <br/>$$x + 5 = -8$$<br/>Solve for $x$: <br/>$$x = -13$$<br/>That confirms <strong>A</strong> is correct."
+      "title": "Apply the transformation g(x) = f(x+4)",
+      "content": "Since $g(x) = f(x+4)$, the function $g$ reaches its minimum when its input equals the x-value where $f$ is minimized. <br/><br/>Set the argument equal to $-9$: <br/>$$x + 4 = -9$$<br/>Solve for $x$: <br/>$$x = -13$$<br/>That confirms <strong>A</strong> is correct."
     }
   ]
 }

@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Undo the square root",
-      "content": "Start with $$r=\\sqrt{5w-3}$$ Square both sides to remove the radical: $$r^2=5w-3$$"
+      "content": "Start with $$r=\\sqrt{6w-4}$$ Square both sides to remove the radical: $$r^2=6w-4$$"
     },
     {
       "title": "Solve for w",
-      "content": "Add $3$ to both sides, then divide by $5$: $$r^2+3=5w$$ $$w=\\frac{r^2+3}{5}=\\frac{r^2}{5}+\\frac{3}{5}$$"
+      "content": "Add $4$ to both sides, then divide by $6$: $$r^2+4=6w$$ $$w=\\frac{r^2+4}{6}=\\frac{r^2}{6}+\\frac{2}{3}$$"
     },
     {
       "title": "Use the condition on w",
-      "content": "The condition $w\\gt \\frac{3}{5}$ makes $5w-3$ positive, so squaring both sides is valid for the original square-root equation."
+      "content": "The condition $w\\gt \\frac{2}{3}$ makes $6w-4$ positive, so squaring both sides is valid for the original square-root equation."
     },
     {
       "title": "Match the choice",
-      "content": "The expression $w=\\frac{r^2}{5}+\\frac{3}{5}$ matches the correct answer, <strong>C</strong>."
+      "content": "The expression $w=\\frac{r^2}{6}+\\frac{2}{3}$ matches the correct answer, <strong>C</strong>."
     }
   ]
 }

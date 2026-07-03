@@ -9,7 +9,7 @@
     },
     {
       "title": "Calculate the unknown angles in both triangles",
-      "content": "In triangle ABC: $A = 180^{\\circ} - 27^{\\circ} - 41^{\\circ} = 112^{\\circ}$<br/><br/>In triangle DEF: $D = 180^{\\circ} - 27^{\\circ} - 41^{\\circ} = 112^{\\circ}$<br/><br/>Both triangles have identical angles: $112^{\\circ}$, $27^{\\circ}$, and $41^{\\circ}$."
+      "content": "In triangle ABC: $A = 180^{\\circ} - 32^{\\circ} - 46^{\\circ} = 102^{\\circ}$<br/><br/>In triangle DEF: $D = 180^{\\circ} - 32^{\\circ} - 46^{\\circ} = 102^{\\circ}$<br/><br/>Both triangles have identical angles: $102^{\\circ}$, $32^{\\circ}$, and $46^{\\circ}$."
     },
     {
       "title": "Understand that equal angles alone establish similarity, not congruence",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Evaluate which choice provides a corresponding side pair",
-      "content": "The angle correspondence given in the problem tells us that angle $A$ corresponds to angle $D$ (both $112^{\\circ}$). By the properties of triangles:<ul><li>Side $BC$ is opposite angle $A$ in triangle ABC</li><li>Side $EF$ is opposite angle $D$ in triangle DEF</li></ul>Therefore, $BC$ and $EF$ are corresponding sides. Knowing the lengths of both $BC$ and $EF$ lets you determine whether they are equal. If they are equal, the triangles must be congruent (since they are already similar with scale factor 1). That confirms <strong>C</strong> is correct."
+      "content": "The angle correspondence given in the problem tells us that angle $A$ corresponds to angle $D$ (both $102^{\\circ}$). By the properties of triangles:<ul><li>Side $BC$ is opposite angle $A$ in triangle ABC</li><li>Side $EF$ is opposite angle $D$ in triangle DEF</li></ul>Therefore, $BC$ and $EF$ are corresponding sides. Knowing the lengths of both $BC$ and $EF$ lets you determine whether they are equal. If they are equal, the triangles must be congruent (since they are already similar with scale factor 1). That confirms <strong>C</strong> is correct."
     }
   ]
 }

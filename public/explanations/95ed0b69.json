@@ -4,19 +4,19 @@
   "steps": [
     {
       "title": "Step 1",
-      "content": "Start with the given equation: $p = \\frac{k}{4j+9}$. The goal is to isolate $4j+9$ on one side."
+      "content": "Start with the given equation: $p = \\frac{k}{5j+8}$. The goal is to isolate $5j+8$ on one side."
     },
     {
       "title": "Step 2",
-      "content": "Multiply both sides by $(4j+9)$ to remove it from the denominator: $p(4j+9) = k$."
+      "content": "Multiply both sides by $(5j+8)$ to remove it from the denominator: $p(5j+8) = k$."
     },
     {
       "title": "Step 3",
-      "content": "Divide both sides by $p$ to isolate $4j+9$: $4j+9 = \\frac{k}{p}$."
+      "content": "Divide both sides by $p$ to isolate $5j+8$: $5j+8 = \\frac{k}{p}$."
     },
     {
       "title": "Step 4",
-      "content": "Evaluate each answer choice:<ul><li><strong>Choice A &mdash; $4j+9=\\frac{k}{p}$</strong>: matches the derived result exactly. That confirms <strong>A</strong> is correct.</li><li><strong>Choice B &mdash; $4j+9=kp$</strong>: this would mean multiplying both sides by $p$ without dividing, giving $p^2(4j+9) = kp$, which is wrong. Eliminated.</li><li><strong>Choice C &mdash; $4j+9=k-p$</strong>: subtraction never appears in the algebraic manipulation. Eliminated.</li><li><strong>Choice D &mdash; $4j+9=\\frac{p}{k}$</strong>: inverts the fraction incorrectly; numerator and denominator are swapped. Eliminated.</li></ul>"
+      "content": "Evaluate each answer choice:<ul><li><strong>Choice A &mdash; $5j+8=\\frac{k}{p}$</strong>: matches the derived result exactly. That confirms <strong>A</strong> is correct.</li><li><strong>Choice B &mdash; $5j+8=kp$</strong>: this would mean multiplying both sides by $p$ without dividing, giving $p^2(5j+8) = kp$, which is wrong. Eliminated.</li><li><strong>Choice C &mdash; $5j+8=k-p$</strong>: subtraction never appears in the algebraic manipulation. Eliminated.</li><li><strong>Choice D &mdash; $5j+8=\\frac{p}{k}$</strong>: inverts the fraction incorrectly; numerator and denominator are swapped. Eliminated.</li></ul>"
     }
   ],
   "correctAnswer": "A"

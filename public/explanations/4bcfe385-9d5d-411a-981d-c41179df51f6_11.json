@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up",
-      "content": "Expand and collect: $x(x+9) - 15 = 0$ becomes $x^2 + 9x - 15 = 0$. So $a = 1$, $b = 9$, $c = -15$."
+      "content": "Expand and collect: $x(x+8) - 13 = 0$ becomes $x^2 + 8x - 13 = 0$. So $a = 1$, $b = 8$, $c = -13$."
     },
     {
       "title": "Solve",
-      "content": "Compute the discriminant: $b^2 - 4ac = 81 - 4(1)(-15) = 81 + 60 = 141$. Substitute: $$x = \\frac{-9 \\pm \\sqrt{141}}{2}$$"
+      "content": "Compute the discriminant: $b^2 - 4ac = 64 - 4(1)(-13) = 64 + 52 = 116$. Substitute: $$x = \\frac{-8 \\pm \\sqrt{116}}{2}$$"
     },
     {
       "title": "Answer",

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Recognize slope-intercept form",
-      "content": "The equation $y=\\frac{9}{17}x$ is in slope-intercept form $y = mx + b$, where the slope is the coefficient of $x$."
+      "content": "The equation $y=\\frac{8}{15}x$ is in slope-intercept form $y = mx + b$, where the slope is the coefficient of $x$."
     },
     {
       "title": "Identify the slope",
-      "content": "Reading the coefficient of $x$ from the equation: the slope is $\\frac{9}{17}$. That confirms <strong>C</strong> is correct."
+      "content": "Reading the coefficient of $x$ from the equation: the slope is $\\frac{8}{15}$. That confirms <strong>C</strong> is correct."
     }
   ]
 }

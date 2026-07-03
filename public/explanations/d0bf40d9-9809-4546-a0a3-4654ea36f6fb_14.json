@@ -1,15 +1,15 @@
 {
   "questionId": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_14",
-  "correctAnswer": "10.5,21/2",
+  "correctAnswer": "12.5,25/2",
   "section": "Math",
   "steps": [
     {
       "title": "Distribute to simplify the right side",
-      "content": "Start with $y = \\frac{1}{2}(15x + 12) + 3x$. Distribute $\\frac{1}{2}$ across the parentheses:<br/>$$y = \\frac{1}{2}(15x) + \\frac{1}{2}(12) + 3x = \\frac{15}{2}x + 6 + 3x$$"
+      "content": "Start with $y = \\frac{1}{2}(17x + 14) + 4x$. Distribute $\\frac{1}{2}$ across the parentheses:<br/>$$y = \\frac{1}{2}(17x) + \\frac{1}{2}(14) + 4x = \\frac{17}{2}x + 7 + 4x$$"
     },
     {
       "title": "Combine x terms and identify the slope",
-      "content": "Combine the $x$ terms: $\\frac{15}{2}x + 3x = \\frac{15}{2}x + \\frac{6}{2}x = \\frac{21}{2}x$<br/>The simplified equation is $y = \\frac{21}{2}x + 6$, which is in the form $y = mx + b$. The slope is $\\frac{21}{2}$ or $10.5$.<br/>The answer is <strong>10.5,21/2</strong>."
+      "content": "Combine the $x$ terms: $\\frac{17}{2}x + 4x = \\frac{17}{2}x + \\frac{8}{2}x = \\frac{25}{2}x$<br/>The simplified equation is $y = \\frac{25}{2}x + 7$, which is in the form $y = mx + b$. The slope is $\\frac{25}{2}$ or $12.5$.<br/>The answer is <strong>12.5,25/2</strong>."
     }
   ]
 }

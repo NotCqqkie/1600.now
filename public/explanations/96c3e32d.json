@@ -1,15 +1,15 @@
 {
   "questionId": "96c3e32d",
-  "correctAnswer": "16606",
+  "correctAnswer": "15912",
   "section": "Math",
   "steps": [
     {
       "title": "Apply the force-pressure-area formula",
-      "content": "Pressure is force per unit area:<br/>$$\\text{Force} = \\text{Pressure} \\times \\text{Area}$$<br/>With pressure = 19 lb/in² and area = 874 in²:<br/>$$\\text{Force} = 19 \\times 874$$"
+      "content": "Pressure is force per unit area:<br/>$$\\text{Force} = \\text{Pressure} \\times \\text{Area}$$<br/>With pressure = 17 lb/in² and area = 936 in²:<br/>$$\\text{Force} = 17 \\times 936$$"
     },
     {
       "title": "Calculate the product",
-      "content": "Distribute using 874 = 800 + 74:<br/>$$19 \\times 874 = (19 \\times 800) + (19 \\times 74)$$<br/>$$= 15,200 + 1,406$$<br/>$$= 16,606 \\text{ pounds}$$"
+      "content": "Distribute using 936 = 900 + 36:<br/>$$17 \\times 936 = (17 \\times 900) + (17 \\times 36)$$<br/>$$= 15,300 + 612$$<br/>$$= 15,912 \\text{ pounds}$$"
     }
   ]
 }

@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Find each object's speed",
-      "content": "Object R covers $4x$ inches in $y$ seconds, so its speed is $\\frac{4x}{y}$ inches per second. Object S is twice as fast: $2 \\cdot \\frac{4x}{y} = \\frac{8x}{y}$ inches per second."
+      "content": "Object M covers $5x$ inches in $y$ seconds, so its speed is $\\frac{5x}{y}$ inches per second. Object N is twice as fast: $2 \\cdot \\frac{5x}{y} = \\frac{10x}{y}$ inches per second."
     },
     {
-      "title": "Compute time for object S to travel 24x",
-      "content": "$$\\text{time} = \\frac{\\text{distance}}{\\text{speed}} = \\frac{24x}{\\frac{8x}{y}} = 24x \\cdot \\frac{y}{8x} = 3y \\text{ seconds}$$"
+      "title": "Compute time for object N to travel 40x",
+      "content": "$$\\text{time} = \\frac{\\text{distance}}{\\text{speed}} = \\frac{40x}{\\frac{10x}{y}} = 40x \\cdot \\frac{y}{10x} = 4y \\text{ seconds}$$"
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li><strong>A)</strong> $12y$ &mdash; this would be the time at speed $\\frac{2x}{y}$, half of R's speed instead of double. Wrong.</li><li><strong>B)</strong> $3y$ &mdash; matches $\\frac{24x}{8x/y} = 3y$. Correct.</li><li><strong>C)</strong> $16y$ &mdash; far too large; corresponds to no consistent speed ratio. Wrong.</li><li><strong>D)</strong> $6y$ &mdash; this is the time R would take to travel $24x$ (since R needs $y$ per $4x$, so $6y$ per $24x$), not S. Wrong.</li></ul><strong>B</strong> is correct."
+      "content": "<ul><li><strong>A)</strong> $16y$ &mdash; this would be the time at speed $\\frac{5x}{2y}$, half of M's speed instead of double. Wrong.</li><li><strong>B)</strong> $4y$ &mdash; matches $\\frac{40x}{10x/y} = 4y$. Correct.</li><li><strong>C)</strong> $30y$ &mdash; far too large; it is the target coefficient minus twice the starting-distance coefficient, not the time at object N's speed. Wrong.</li><li><strong>D)</strong> $8y$ &mdash; this is the time M would take to travel $40x$ (since M needs $y$ per $5x$, so $8y$ per $40x$), not N. Wrong.</li></ul><strong>B</strong> is correct."
     }
   ]
 }

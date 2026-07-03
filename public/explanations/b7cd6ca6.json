@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Identify the form",
-      "content": "$E(t)=5(1.8)^{t}$ is an exponential function of the form $a\\cdot b^{t}$, where $a$ is the initial value and $b$ is the growth factor. Here $a=5$ and $b=1.8$."
+      "content": "$S(t)=8(1.6)^{t}$ is an exponential function of the form $a\\cdot b^{t}$, where $a$ is the initial value and $b$ is the growth factor. Here $a=8$ and $b=1.6$."
     },
     {
       "title": "Evaluate at $t=0$",
-      "content": "Since $t$ counts years since the restaurant opened, plug in $t=0$: $E(0)=5(1.8)^{0}=5\\cdot 1=5$. So $5$ is the number of employees when the restaurant opened."
+      "content": "Since $t$ counts years since the newsletter launched, plug in $t=0$: $S(0)=8(1.6)^{0}=8\\cdot 1=8$. So $8$ is the number of subscribers when the newsletter launched."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>A)</strong> The estimated number of employees when the restaurant opened. This equals $E(0)=5$, which is exactly the role the constant $5$ plays.</li><li><strong>B)</strong> The increase in the estimated number of employees each year. The yearly multiplier is $1.8$, not a constant additive increase, so $5$ does not describe an annual increase.</li><li><strong>Choice C &mdash; The number of years the restaurant has been open</strong> The number of years the restaurant has been open. That is the variable $t$, not the constant $5$.</li><li><strong>D)</strong> The percent increase in the estimated number of employees each year. That comes from $b-1=0.8$, i.e., $80\\%$, not from the $5$. That is the correct answer.</li></ul>"
+      "content": "<ul><li><strong>A)</strong> The estimated number of subscribers when the newsletter launched. This equals $S(0)=8$, which is exactly the role the constant $8$ plays.</li><li><strong>B)</strong> The increase in the estimated number of subscribers each year. The yearly multiplier is $1.6$, not a constant additive increase, so $8$ does not describe an annual increase.</li><li><strong>Choice C &mdash; The number of years the newsletter has been active</strong> The number of years the newsletter has been active. That is the variable $t$, not the constant $8$.</li><li><strong>D)</strong> The percent increase in the estimated number of subscribers each year. That comes from $b-1=0.6$, i.e., $60\\%$, not from the $8$.</li></ul>That confirms <strong>A</strong> is correct."
     }
   ]
 }

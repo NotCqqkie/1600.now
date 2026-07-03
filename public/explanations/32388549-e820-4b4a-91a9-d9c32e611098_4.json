@@ -13,8 +13,8 @@
       "formula": "$$A = \\pi r^2$$"
     },
     {
-      "title": "Substitute r = 19 and compute the area",
-      "content": "Substituting $r = 19$ into the formula: $A = \\pi(19)^2 = \\pi \\cdot 361 = 361\\pi$ square meters. <strong>D</strong> is correct. The radius is squared before multiplying by $\\pi$, which is why the coefficient is $361$, not $19$."
+      "title": "Substitute r = 17 and compute the area",
+      "content": "Substituting $r = 17$ into the formula: $A = \\pi(17)^2 = \\pi \\cdot 289 = 289\\pi$ square meters. <strong>D</strong> is correct. The radius is squared before multiplying by $\\pi$, which is why the coefficient is $289$, not $17$."
     }
   ]
 }

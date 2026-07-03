@@ -4,8 +4,8 @@
   "correctAnswer": "A",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+      "title": "Fastest path: set up both conversions",
+      "content": "Convert square feet to square meters, then convert hours to minutes. Since this is an area rate, the length conversion factor must be squared before applying it."
     },
     {
       "title": "Explanation",
@@ -13,11 +13,11 @@
     },
     {
       "title": "Explanation",
-      "content": "Convert $280 \\text{ ft}^2/\\text{hr}$ to $\\text{m}^2/\\text{hr}$: $$\\frac{280}{10.7584} \\approx 26.01 \\text{ m}^2/\\text{hr}$$"
+      "content": "Convert $360 \\text{ ft}^2/\\text{hr}$ to $\\text{m}^2/\\text{hr}$: $$\\frac{360}{10.7584} \\approx 33.46 \\text{ m}^2/\\text{hr}$$"
     },
     {
       "title": "Explanation",
-      "content": "Convert from per hour to per minute by dividing by 60: $$\\frac{26.01}{60} \\approx 0.433 \\text{ m}^2/\\text{min}$$"
+      "content": "Convert from per hour to per minute by dividing by 60: $$\\frac{33.46}{60} \\approx 0.558 \\text{ m}^2/\\text{min}$$"
     }
   ],
   "section": "Math"

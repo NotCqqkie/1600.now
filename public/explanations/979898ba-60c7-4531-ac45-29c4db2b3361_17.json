@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Complete the square",
-      "content": "Start with $$y=7x^2-bx-6.$$ Factor $7$ from the $x$ terms: $$y=7\\left(x^2-\\frac{b}{7}x\\right)-6.$$ Half of $\\frac{b}{7}$ is $\\frac{b}{14}$, so add and subtract $\\left(\\frac{b}{14}\\right)^2$ inside the parentheses."
+      "content": "Start with $$y=5x^2-bx-8.$$ Factor $5$ from the $x$ terms: $$y=5\\left(x^2-\\frac{b}{5}x\\right)-8.$$ Half of $\\frac{b}{5}$ is $\\frac{b}{10}$, so add and subtract $\\left(\\frac{b}{10}\\right)^2$ inside the parentheses."
     },
     {
       "title": "Adjust the constant",
-      "content": "$$7\\left(x^2-\\frac{b}{7}x+\\frac{b^2}{196}-\\frac{b^2}{196}\\right)-6$$ $$=7\\left(x-\\frac{b}{14}\\right)^2-\\frac{7b^2}{196}-6$$ Since $\\frac{7b^2}{196}=\\frac{b^2}{28}$, this becomes $$y=7\\left(x-\\frac{b}{14}\\right)^2-6-\\frac{b^2}{28}.$$"
+      "content": "$$5\\left(x^2-\\frac{b}{5}x+\\frac{b^2}{100}-\\frac{b^2}{100}\\right)-8$$ $$=5\\left(x-\\frac{b}{10}\\right)^2-\\frac{5b^2}{100}-8$$ Since $\\frac{5b^2}{100}=\\frac{b^2}{20}$, this becomes $$y=5\\left(x-\\frac{b}{10}\\right)^2-8-\\frac{b^2}{20}.$$"
     },
     {
       "title": "Match the equivalent expression",
-      "content": "The derived form exactly matches <strong>Choice A</strong>: $$y=7\\left(x-\\frac{b}{14}\\right)^2-6-\\frac{b^2}{28}.$$ Therefore, <strong>A</strong> is correct."
+      "content": "The derived form exactly matches <strong>Choice A</strong>: $$y=5\\left(x-\\frac{b}{10}\\right)^2-8-\\frac{b^2}{20}.$$ Therefore, <strong>A</strong> is correct."
     }
   ]
 }

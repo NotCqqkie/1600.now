@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up",
-      "content": "The maximum is 92 trees per acre. For 2 acres, multiply: $92 \\ \\times \\ 2$"
+      "content": "The maximum is 84 shrubs per acre. For 3 acres, multiply: $84 \\ \\times \\ 3$"
     },
     {
       "title": "Solve",
-      "content": "$92 \\times 2 = 184$"
+      "content": "$84 \\times 3 = 252$"
     },
     {
       "title": "Answer",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches $184$. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches $252$. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
     }
   ]
 }

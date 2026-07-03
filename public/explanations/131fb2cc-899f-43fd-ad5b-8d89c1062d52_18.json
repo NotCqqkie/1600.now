@@ -8,15 +8,15 @@
     },
     {
       "title": "Step 2",
-      "content": "The total points from both question types must equal $78$: $x + 2y = 78$."
+      "content": "The total points from both question types must equal $84$: $x + 2y = 84$."
     },
     {
       "title": "Step 3",
-      "content": "Check the other choices: $xy = 78$ is a product, not a sum of contributions. $3(x+y) = 78$ implies each question is worth 3 points on average. $x + y = 78$ counts the number of questions, not the point values."
+      "content": "Check the other choices: $xy = 84$ is a product, not a sum of contributions. $3(x+y) = 84$ implies each question is worth 3 points on average. $x + y = 84$ counts the number of questions, not the point values."
     },
     {
       "title": "Step 4",
-      "content": "Only $x + 2y = 78$ correctly weights each question type by its point value and sums to the total. That matches <strong>Choice D &mdash; $x + 2y = 78$</strong>."
+      "content": "Only $x + 2y = 84$ correctly weights each question type by its point value and sums to the total. That matches <strong>Choice D &mdash; $x + 2y = 84$</strong>."
     }
   ],
   "correctAnswer": "D"

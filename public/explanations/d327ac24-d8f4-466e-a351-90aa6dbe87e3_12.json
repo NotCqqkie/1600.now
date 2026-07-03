@@ -9,15 +9,15 @@
     },
     {
       "title": "Complete the square for x and y",
-      "content": "$x^2 - 16x + y^2 - 10y - 55 = 0$ becomes $(x-8)^2 - 64 + (y-5)^2 - 25 - 55 = 0$, so $(x-8)^2 + (y-5)^2 = 144$."
+      "content": "$x^2 - 14x + y^2 - 12y - 84 = 0$ becomes $(x-7)^2 - 49 + (y-6)^2 - 36 - 84 = 0$, so $(x-7)^2 + (y-6)^2 = 169$."
     },
     {
       "title": "Identify the center and radius",
-      "content": "Center $(8, 5)$, radius $r = \\sqrt{144} = 12$."
+      "content": "Center $(7, 6)$, radius $r = \\sqrt{169} = 13$."
     },
     {
       "title": "Compute the requested value",
-      "content": "Square side $= 2r = 24$, so perimeter $= 4 \\times 24 = 96$. That is the correct answer."
+      "content": "Square side $= 2r = 26$, so perimeter $= 4 \\times 26 = 104$. That is the correct answer."
     }
   ]
 }

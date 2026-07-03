@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Identify slope and y-intercept",
-      "content": "Slope-intercept form is $y = mx + b$ where $m$ is the slope and $b$ is the $y$-intercept. The slope is given as $m = 7$. The point $(0, 5)$ has $x = 0$, which means it is the $y$-intercept, so $b = 5$."
+      "content": "Slope-intercept form is $y = mx + b$ where $m$ is the slope and $b$ is the $y$-intercept. The slope is given as $m = 6$. The point $(0, 4)$ has $x = 0$, which means it is the $y$-intercept, so $b = 4$."
     },
     {
       "title": "Write the equation",
-      "content": "Substituting $m = 7$ and $b = 5$:<br/>$$y = 7x + 5$$"
+      "content": "Substituting $m = 6$ and $b = 4$:<br/>$$y = 6x + 4$$"
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li><strong>A) $y = -5x + 7$:</strong> Slope is $-5$, not $7$. Eliminated.</li><li><strong>B) $y = -5x - 7$:</strong> Slope is $-5$ and $y$-intercept is $-7$. Neither matches. Eliminated.</li><li><strong>C) $y = 7x + 5$:</strong> Slope $7$ and $y$-intercept $5$. Matches.</li><li><strong>D) $y = 7x - 5$:</strong> Slope $7$ is right, but $y$-intercept is $-5$, not $5$. Eliminated.</li></ul>That confirms <strong>C</strong> is correct."
+      "content": "<ul><li><strong>A) $y = -4x + 6$:</strong> Slope is $-4$, not $6$. Eliminated.</li><li><strong>B) $y = -4x - 6$:</strong> Slope is $-4$ and $y$-intercept is $-6$. Neither matches. Eliminated.</li><li><strong>C) $y = 6x + 4$:</strong> Slope $6$ and $y$-intercept $4$. Matches.</li><li><strong>D) $y = 6x - 4$:</strong> Slope $6$ is right, but $y$-intercept is $-4$, not $4$. Eliminated.</li></ul>That confirms <strong>C</strong> is correct."
     }
   ]
 }

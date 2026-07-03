@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Plug in the lower bound of the training intensity",
-      "content": "The recommended range is $0.5 \\le p \\le 0.85$. Substitute $p = 0.5$:<br/>$$H = 120(0.5) + 60 = 60 + 60 = 120 \\text{ bpm}$$"
+      "content": "The recommended range is $0.5 \\le p \\le 0.85$. Substitute $p = 0.5$:<br/>$$H = 140(0.5) + 55 = 70 + 55 = 125 \\text{ bpm}$$"
     },
     {
       "title": "Plug in the upper bound of the training intensity",
-      "content": "Substitute $p = 0.85$:<br/>$$H = 120(0.85) + 60 = 102 + 60 = 162 \\text{ bpm}$$<br/>Since the formula is linear with a positive slope, $H$ increases as $p$ increases, so the training heart rate range is $120 \\le H \\le 162$."
+      "content": "Substitute $p = 0.85$:<br/>$$H = 140(0.85) + 55 = 119 + 55 = 174 \\text{ bpm}$$<br/>Since the formula is linear with a positive slope, $H$ increases as $p$ increases, so the training heart rate range is $125 \\le H \\le 174$."
     },
     {
       "title": "Evaluate each answer choice",
-      "content": "<ul><li><strong>A</strong>: $120 \\le H \\le 162$ — The lower bound is 120 and the upper bound is 162, which matches our calculations. That is the correct answer.</li><li><strong>B</strong>: Upper bound 120 — This would mean the maximum is 120, but 120 is the minimum training heart rate. Incorrect.</li><li><strong>C</strong>: Upper bound 162 with a different lower bound — The lower bound shown is not 120, so this does not accurately represent the range. Incorrect.</li><li><strong>D</strong>: Upper bound 102 — $H = 102$ corresponds to $p = 0.35$, which is below the recommended range. Incorrect.</li></ul>"
+      "content": "<ul><li><strong>A</strong>: $125 \\le H \\le 174$ &mdash; The lower bound is 125 and the upper bound is 174, which matches our calculations. That is the correct answer.</li><li><strong>B</strong>: Upper bound 125 &mdash; This would mean the maximum is 125, but 125 is the minimum training heart rate. Incorrect.</li><li><strong>C</strong>: Upper bound 174 with a different lower bound &mdash; The lower bound shown is not 125, so this does not accurately represent the range. Incorrect.</li><li><strong>D</strong>: Upper bound 104 &mdash; $H = 104$ corresponds to $p = 0.35$, which is below the recommended range. Incorrect.</li></ul>"
     }
   ]
 }

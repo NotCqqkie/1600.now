@@ -1,6 +1,6 @@
 {
   "questionId": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_20",
-  "correctAnswer": "5",
+  "correctAnswer": "6",
   "section": "Math",
   "steps": [
     {
@@ -13,7 +13,7 @@
     },
     {
       "title": "Read off h from the center",
-      "content": "We're given that the center is at $(5, 1)$. In the standard form, the center is $(h, k)$, so the $x$-coordinate of the center is $h = 5$. That's our answer."
+      "content": "We're given that the center is at $(6, -2)$. In the standard form, the center is $(h, k)$, so the $x$-coordinate of the center is $h = 6$. That's our answer."
     }
   ]
 }

@@ -1,19 +1,19 @@
 {
   "questionId": "6b4707aa",
-  "correctAnswer": "100",
+  "correctAnswer": "144",
   "section": "Math",
   "steps": [
     {
       "title": "Read the radius from standard form",
-      "content": "In the circle equation, the right side equals $r^2$. Read circle A's radius from its equation first, then double that radius for circle B."
+      "content": "In the circle equation, the right side equals $r^2$. Read circle M's radius from its equation first, then double that radius for circle N."
     },
     {
-      "title": "Identify the radius of circle A",
-      "content": "The equation of circle A is $(x+5)^2 + (y-5)^2 = 25$. This is in standard form $(x-h)^2 + (y-k)^2 = r^2$, where the right side equals $r_A^2$. Therefore $r_A^2 = 25$, giving us $r_A = 5$."
+      "title": "Identify the radius of circle M",
+      "content": "The equation of circle M is $(x-4)^2 + (y+6)^2 = 36$. This is in standard form $(x-h)^2 + (y-k)^2 = r^2$, where the right side equals $r_M^2$. Therefore $r_M^2 = 36$, giving us $r_M = 6$."
     },
     {
-      "title": "Calculate k for circle B using the radius relationship",
-      "content": "Circle B has radius twice that of circle A, so $r_B = 2 \\cdot r_A = 2 \\cdot 5 = 10$. The equation for circle B is $(x+5)^2 + (y-5)^2 = k$, where $k$ represents $r_B^2$. Therefore: $$k = 10^2 = 100$$"
+      "title": "Calculate k for circle N using the radius relationship",
+      "content": "Circle N has radius twice that of circle M, so $r_N = 2 \\cdot r_M = 2 \\cdot 6 = 12$. The equation for circle N is $(x-4)^2 + (y+6)^2 = k$, where $k$ represents $r_N^2$. Therefore: $$k = 12^2 = 144$$"
     }
   ]
 }

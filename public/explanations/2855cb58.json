@@ -13,11 +13,11 @@
     },
     {
       "title": "Substitute the given center and radius",
-      "content": "Center $(16, 17)$ gives $h = 16$, $k = 17$. Radius $= 7k$, so:<br/>$$r^2 = (7k)^2 = 49k^2$$<br/>The equation is $(x - 16)^2 + (y - 17)^2 = 49k^2$."
+      "content": "Center $(14, 19)$ gives $h = 14$, $k = 19$. Radius $= 6k$, so:<br/>$$r^2 = (6k)^2 = 36k^2$$<br/>The equation is $(x - 14)^2 + (y - 19)^2 = 36k^2$."
     },
     {
       "title": "Eliminate wrong choices",
-      "content": "<ul><li><strong>Choice A &mdash; ${(x-16)}^{2}+{(y-17)}^{2}=49k$</strong>: The right side is $49k$, not $(7k)^2 = 49k^2$. The radius was not properly squared. &#10007;</li><li><strong>Choice B &mdash; ${(x-16)}^{2}+{(y-17)}^{2}=49{k}^{2}$</strong>: $(7k)^2 = 49k^2$. Center and radius are applied correctly. &#10003;</li><li><strong>Choice C &mdash; ${(x-16)}^{2}+{(y-17)}^{2}=7k$</strong>: The right side is just $7k$, which would mean $r = \\sqrt{7k}$, not $7k$. &#10007;</li><li><strong>Choice D &mdash; ${(x-16)}^{2}+{(y-17)}^{2}=7{k}^{2}$</strong>: $(7k)^2 = 49k^2$, not $7k^2$. Only $k$ was squared, not the full radius. &#10007;</li></ul>That matches <strong>Choice B &mdash; ${(x-16)}^{2}+{(y-17)}^{2}=49{k}^{2}$</strong>."
+      "content": "<ul><li><strong>Choice A &mdash; ${(x-14)}^{2}+{(y-19)}^{2}=36k</strong>: The right side is $36k$, not $(6k)^2 = 36k^2$. The radius was not properly squared. &#10007;</li><li><strong>Choice B &mdash; ${(x-14)}^{2}+{(y-19)}^{2}=36{k}^{2}$</strong>: $(6k)^2 = 36k^2$. Center and radius are applied correctly. &#10003;</li><li><strong>Choice C &mdash; ${(x-14)}^{2}+{(y-19)}^{2}=6k</strong>: The right side is just $6k$, which would mean $r = \\sqrt{6k}$, not $6k$. &#10007;</li><li><strong>Choice D &mdash; ${(x-14)}^{2}+{(y-19)}^{2}=6{k}^{2}$</strong>: $(6k)^2 = 36k^2$, not $6k^2$. Only $k$ was squared, not the full radius. &#10007;</li></ul>That matches <strong>Choice B &mdash; ${(x-14)}^{2}+{(y-19)}^{2}=36{k}^{2}$</strong>."
     }
   ]
 }

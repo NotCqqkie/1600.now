@@ -1,6 +1,6 @@
 {
   "questionId": "459dd6c5",
-  "correctAnswer": "135/8,16.87,16.88",
+  "correctAnswer": "175/8,21.87,21.88",
   "section": "Math",
   "steps": [
     {
@@ -13,12 +13,12 @@
     },
     {
       "title": "Apply the area scaling rule for similar figures",
-      "content": "When two similar figures have a linear scale factor of $k$, their areas are related by a scale factor of $k^2$. <br/><br/>Since the linear scale factor is 4:<br/>$$\\text{Area}(\\text{ABC}) = 4^2 \\times \\text{Area}(\\text{DEF})$$<br/>$$270 = 16 \\times \\text{Area}(\\text{DEF})$$",
+      "content": "When two similar figures have a linear scale factor of $k$, their areas are related by a scale factor of $k^2$. <br/><br/>Since the linear scale factor is 4:<br/>$$\\text{Area}(\\text{ABC}) = 4^2 \\times \\text{Area}(\\text{DEF})$$<br/>$$350 = 16 \\times \\text{Area}(\\text{DEF})$$",
       "formula": "$$\\text{Area}_{\\text{large}} = k^2 \\times \\text{Area}_{\\text{small}}$$"
     },
     {
       "title": "Solve for the area of triangle DEF",
-      "content": "Divide both sides by 16:<br/>$$\\text{Area}(\\text{DEF}) = \\frac{270}{16}$$<br/>Simplify this fraction by dividing both numerator and denominator by 2:<br/>$$\\text{Area}(\\text{DEF}) = \\frac{135}{8} \\text{ square inches}$$"
+      "content": "Divide both sides by 16:<br/>$$\\text{Area}(\\text{DEF}) = \\frac{350}{16}$$<br/>Simplify this fraction by dividing both numerator and denominator by 2:<br/>$$\\text{Area}(\\text{DEF}) = \\frac{175}{8} \\text{ square inches}$$"
     }
   ]
 }

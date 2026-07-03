@@ -9,11 +9,11 @@
     },
     {
       "title": "Apply the shift",
-      "content": "Shifting $f(x) = 7x^3$ down 2 units:<br/>$$g(x) = 7x^3 - 2$$"
+      "content": "Shifting $f(x) = 5x^3$ down 4 units:<br/>$$g(x) = 5x^3 - 4$$"
     },
     {
       "title": "Match to the choices",
-      "content": "<ul><li><strong>Choice A &mdash; $g \\left(x\\right)=\\frac{7}{2}{x}^{3}$</strong>: This scales the function vertically by $\\frac{1}{2}$, not a vertical shift. Incorrect</li><li><strong>Choice B &mdash; $g \\left(x\\right)=7{x}^{\\frac{3}{2}}$</strong>: This changes the exponent, producing a completely different function. Incorrect</li><li><strong>Choice C &mdash; $g \\left(x\\right)=7{x}^{3}+2$</strong>: Adding 2 shifts the graph UP 2 units, not down. Incorrect</li><li><strong>Choice D &mdash; $g \\left(x\\right)=7{x}^{3}-2$</strong>: Subtracting 2 shifts the graph DOWN 2 units. Correct</li></ul>That confirms <strong>D</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; $g \\left(x\\right)=\\frac{5}{4}{x}^{3}$</strong>: This scales the function vertically by $\\frac{1}{4}$, not a vertical shift. Incorrect</li><li><strong>Choice B &mdash; $g \\left(x\\right)=5{x}^{\\frac{3}{4}}$</strong>: This changes the exponent, producing a completely different function. Incorrect</li><li><strong>Choice C &mdash; $g \\left(x\\right)=5{x}^{3}+4$</strong>: Adding 4 shifts the graph UP 4 units, not down. Incorrect</li><li><strong>Choice D &mdash; $g \\left(x\\right)=5{x}^{3}-4$</strong>: Subtracting 4 shifts the graph DOWN 4 units. Correct</li></ul>That confirms <strong>D</strong> is correct."
     }
   ]
 }

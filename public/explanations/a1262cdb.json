@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what we need to find",
-      "content": "We need to express $c - b$ in terms of $t$. We're given that $12t + b = c$."
+      "content": "We need to express $c - b$ in terms of $t$. We're given that $9t + b = c$."
     },
     {
       "title": "Solve for c - b",
-      "content": "Starting with $12t + b = c$, subtract $b$ from both sides:<br/>$$12t + b - b = c - b$$<br/>$$12t = c - b$$<br/>Therefore $c - b = 12t$. That confirms <strong>D</strong> is correct."
+      "content": "Starting with $9t + b = c$, subtract $b$ from both sides:<br/>$$9t + b - b = c - b$$<br/>$$9t = c - b$$<br/>Therefore $c - b = 9t$. That confirms <strong>D</strong> is correct."
     }
   ]
 }

@@ -1,19 +1,19 @@
 {
   "questionId": "65c49824",
-  "correctAnswer": "8",
+  "correctAnswer": "15",
   "section": "Math",
   "steps": [
     {
       "title": "Determine the percentage of students",
-      "content": "The given percentages (parents 15%, teachers 45%, administrators 25%) account for: $15\\% + 45\\% + 25\\% = 85\\%$<br/>Students make up the remainder: $100\\% - 85\\% = 15\\%$"
+      "content": "The given percentages (parents 10%, teachers 50%, administrators 25%) account for: $10\\% + 50\\% + 25\\% = 85\\%$<br/>Students make up the remainder: $100\\% - 85\\% = 15\\%$"
     },
     {
       "title": "Find the total committee size",
-      "content": "We know 6 students represent 15% of the committee. Setting up the equation:<br/>$$0.15 \\times \\text{Total} = 6$$<br/>$$\\text{Total} = \\frac{6}{0.15} = 40 \\text{ people}$$"
+      "content": "We know 9 students represent 15% of the committee. Setting up the equation:<br/>$$0.15 \\times \\text{Total} = 9$$<br/>$$\\text{Total} = \\frac{9}{0.15} = 60 \\text{ people}$$"
     },
     {
       "title": "Calculate teachers and administrators, then find the difference",
-      "content": "Teachers: $45\\% \\times 40 = 18$<br/>Administrators: $25\\% \\times 40 = 10$<br/><br/>The difference is: $18 - 10 = 8$<br/>There are <strong>8 more teachers</strong> invited than administrators."
+      "content": "Teachers: $50\\% \\times 60 = 30$<br/>Administrators: $25\\% \\times 60 = 15$<br/><br/>The difference is: $30 - 15 = 15$<br/>There are <strong>15 more teachers</strong> invited than administrators."
     }
   ]
 }

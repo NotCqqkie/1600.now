@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Compare the coefficients",
-      "content": "Form ratios of the matching $x$, $y$, and constant terms in $$-12x + 14y = 36$$ and $$-6x + 7y = -18$$. This gives $\\frac{-12}{-6}=\\frac{14}{7}=2$ but $\\frac{36}{-18}=-2$."
+      "content": "Form ratios of the matching $x$, $y$, and constant terms in $$-16x + 20y = 48$$ and $$-8x + 10y = -24$$. This gives $\\frac{-16}{-8}=\\frac{20}{10}=2$ but $\\frac{48}{-24}=-2$."
     },
     {
       "title": "Identify the answer",
-      "content": "The $x$,$y$ ratios match but the constant ratio differs — the lines are parallel and never meet, so zero solutions. That confirms <strong>D</strong> is correct."
+      "content": "The $x$,$y$ ratios match but the constant ratio differs &mdash; the lines are parallel and never meet, so zero solutions. That confirms <strong>D</strong> is correct."
     }
   ]
 }

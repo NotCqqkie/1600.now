@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up",
-      "content": "Note that $20x = 4 \\cdot 5x$, so find $5x$ first."
+      "content": "Note that $24x = 4 \\cdot 6x$, so find $6x$ first."
     },
     {
       "title": "Solve",
-      "content": "Given $5x = 9$, multiply both sides by 4: $$20x = 4 \\cdot 9 = 36$$"
+      "content": "Given $6x = 11$, multiply both sides by 4: $$24x = 4 \\cdot 11 = 44$$"
     },
     {
       "title": "Answer",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches the correct answer, 36, and the other choices fail the same setup or substitution. Therefore <strong>C</strong> is correct."
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches the correct answer, 44, and the other choices fail the same setup or substitution. Therefore <strong>C</strong> is correct."
     }
   ]
 }

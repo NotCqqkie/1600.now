@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Substitute the time",
-      "content": "The equation $d=30t$ gives the distance $d$ after $t$ seconds. For $2$ seconds, substitute $t=2$: $$d=30(2).$$"
+      "content": "The equation $d=35t$ gives the distance $d$ after $t$ seconds. For $2$ seconds, substitute $t=2$: $$d=35(2).$$"
     },
     {
       "title": "Compute the distance",
-      "content": "$30(2)=60$, so the bus is $60$ feet from the marker after $2$ seconds. Choice A (&lsquo;$30$&rsquo;) is the $1$-second distance, and choice D (&lsquo;$90$&rsquo;) is the $3$-second distance. <strong>C</strong> is correct."
+      "content": "$35(2)=70$, so the van is $70$ feet from the marker after $2$ seconds. Choice A (&lsquo;$35$&rsquo;) is the $1$-second distance, and choice D (&lsquo;$105$&rsquo;) is the $3$-second distance. <strong>C</strong> is correct."
     }
   ]
 }

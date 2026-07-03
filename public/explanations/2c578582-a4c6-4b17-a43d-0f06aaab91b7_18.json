@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $\\sqrt{\\frac{5x - 4z}{20x^{2}z^{2}}}$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $\\sqrt{\\frac{6x - 5z}{30x^{2}z^{2}}}$."
     },
     {
       "title": "Algebra check",
@@ -13,15 +13,15 @@
     },
     {
       "title": "Clear fractions by multiplying by the LCD",
-      "content": "The equation is $\\frac{1}{5xy}+xyz=\\frac{1}{4yz}$. The least common denominator is $20xyz$, so multiply every term by $20xyz$: $$20xyz\\left(\\frac{1}{5xy}\\right)+20xyz(xyz)=20xyz\\left(\\frac{1}{4yz}\\right).$$ The three terms simplify as follows:<ul><li>$20xyz\\left(\\frac{1}{5xy}\\right)=4z$</li><li>$20xyz(xyz)=20x^2y^2z^2$</li><li>$20xyz\\left(\\frac{1}{4yz}\\right)=5x$</li></ul>So the equation becomes $$4z+20x^2y^2z^2=5x.$$"
+      "content": "The equation is $\\frac{1}{6xy}+xyz=\\frac{1}{5yz}$. The least common denominator is $30xyz$, so multiply every term by $30xyz$: $$30xyz\\left(\\frac{1}{6xy}\\right)+30xyz(xyz)=30xyz\\left(\\frac{1}{5yz}\\right).$$ The three terms simplify as follows:<ul><li>$30xyz\\left(\\frac{1}{6xy}\\right)=5z$</li><li>$30xyz(xyz)=30x^2y^2z^2$</li><li>$30xyz\\left(\\frac{1}{5yz}\\right)=6x$</li></ul>So the equation becomes $$5z+30x^2y^2z^2=6x.$$"
     },
     {
       "title": "Rearrange to isolate y squared",
-      "content": "Isolate the $y^2$ term on the left:<br/>$$20x^2y^2z^2 = 5x - 4z$$<br/>Divide both sides by $20x^2z^2$:<br/>$$y^2 = \\frac{5x - 4z}{20x^2z^2}$$"
+      "content": "Isolate the $y^2$ term on the left:<br/>$$30x^2y^2z^2 = 6x - 5z$$<br/>Divide both sides by $30x^2z^2$:<br/>$$y^2 = \\frac{6x - 5z}{30x^2z^2}$$"
     },
     {
       "title": "Take the square root to find y",
-      "content": "Since $y$ is positive, take the positive square root of both sides:<br/>$$y = \\sqrt{\\frac{5x - 4z}{20x^2z^2}}$$<br/>This matches - <strong>B</strong> is correct."
+      "content": "Since $y$ is positive, take the positive square root of both sides:<br/>$$y = \\sqrt{\\frac{6x - 5z}{30x^2z^2}}$$<br/>This matches - <strong>B</strong> is correct."
     }
   ]
 }

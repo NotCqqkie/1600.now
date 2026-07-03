@@ -28,12 +28,22 @@ jobs:
 
       - run: npm ci
 
+      - run: npm run typecheck
+
+      - run: npm run test
+
+      # Dev-only vite/esbuild advisories are expected; do not fail on them.
+      - run: npm audit --omit=dev --audit-level=high || true
+
+      # NOTE: These VITE_FIREBASE_* / VITE_GOOGLE_CLIENT_ID values are the public
+      # Firebase client config. They must be set as GitHub Actions repository
+      # VARIABLES (Settings > Secrets and variables > Actions > Variables), not
+      # secrets. Without them the production build fails fast (see vite.config.ts).
       - run: npm run build
         env:
           VITE_FIREBASE_API_KEY: ${{ vars.VITE_FIREBASE_API_KEY }}
           VITE_GOOGLE_CLIENT_ID: ${{ vars.VITE_GOOGLE_CLIENT_ID }}
           VITE_FIREBASE_AUTH_DOMAIN: ${{ vars.VITE_FIREBASE_AUTH_DOMAIN }}
-          VITE_FIREBASE_AUTH_LINK_DOMAIN: ${{ vars.VITE_FIREBASE_AUTH_LINK_DOMAIN }}
           VITE_FIREBASE_AUTH_DOMAIN_LOCAL: ${{ vars.VITE_FIREBASE_AUTH_DOMAIN_LOCAL }}
           VITE_FIREBASE_PROJECT_ID: ${{ vars.VITE_FIREBASE_PROJECT_ID }}
           VITE_FIREBASE_STORAGE_BUCKET: ${{ vars.VITE_FIREBASE_STORAGE_BUCKET }}

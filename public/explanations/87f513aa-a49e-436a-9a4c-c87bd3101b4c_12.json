@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up",
-      "content": "Let $u=6-9x$. The equation becomes $7u+4=6u+19$."
+      "content": "Let $u=5-7x$. The equation becomes $8u+3=7u+17$."
     },
     {
       "title": "Solve",
-      "content": "Subtract $6u$ from both sides: $u+4=19$. Subtract 4: $u=15$, so $6-9x=15$."
+      "content": "Subtract $7u$ from both sides: $u+3=17$. Subtract 3: $u=14$, so $5-7x=14$."
     },
     {
       "title": "Answer",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches the correct answer, $15$. The other choices do not satisfy the same condition from the question, so <strong>D</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches the correct answer, $14$. The other choices do not satisfy the same condition from the question, so <strong>D</strong> is correct."
     }
   ]
 }

@@ -1,23 +1,23 @@
 {
   "questionId": "d7afa874-519b-4f1b-b45f-1c75ea45613b_13",
-  "correctAnswer": "40",
+  "correctAnswer": "44",
   "section": "Math",
   "steps": [
     {
       "title": "Translate to equations",
-      "content": "From $27\\%$ of $h=24\\%$ of $j$, $h=\\tfrac{24}{27}j$. Also $j=\\tfrac{45}{100}k$."
+      "content": "From $35\\%$ of $h=28\\%$ of $j$, $h=\\tfrac{28}{35}j$. Also $j=\\tfrac{55}{100}k$."
     },
     {
       "title": "Combine the ratios",
-      "content": "Substituting gives $$h=\\tfrac{24}{27}\\cdot\\tfrac{45}{100}k=\\tfrac{1080}{2700}k.$$"
+      "content": "Substituting gives $$h=\\tfrac{28}{35}\\cdot\\tfrac{55}{100}k=\\tfrac{1540}{3500}k.$$"
     },
     {
       "title": "Convert to a percent",
-      "content": "That is $\\tfrac{1080}{27}\\%=40\\%$ of $k$. The answer is <strong>40</strong>."
+      "content": "That is $\\tfrac{1540}{3500}=0.44=44\\%$ of $k$. The answer is <strong>44</strong>."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $40$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $40$."
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $44$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $44$."
     }
   ]
 }

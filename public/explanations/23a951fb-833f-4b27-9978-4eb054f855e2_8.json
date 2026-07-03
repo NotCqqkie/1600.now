@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up",
-      "content": "Price rises from 11 dollars to 13 dollars — a 2-dollar increase. Each 1-dollar increase cuts sales by 9 bags, so a 2-dollar increase cuts sales by $2 \\times 9 = 18$ bags."
+      "content": "Price rises from 12 dollars to 15 dollars, a 3-dollar increase. Each 1-dollar increase cuts sales by 8 bottles, so a 3-dollar increase cuts sales by $3 \\times 8 = 24$ bottles."
     },
     {
       "title": "Solve",
-      "content": "New quantity: $90 - 18 = 72$ bags. Revenue: $13 \\times 72 = 936$."
+      "content": "New quantity: $96 - 24 = 72$ bottles. Revenue: $15 \\times 72 = 1,080$."
     },
     {
       "title": "Answer",

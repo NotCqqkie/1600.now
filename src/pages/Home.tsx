@@ -1,6 +1,7 @@
 import { Suspense, lazy, memo, useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState, type CSSProperties } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "@/contexts/AuthContext";
+import { isChunkLoadError, recoverFromChunkLoadError } from "@/lib/chunkLoadRecovery";
 import { BrandLogo } from "@/components/brand/BrandLogo";
 import { PreloadLink } from "@/components/PreloadLink";
 import {
@@ -32,8 +33,6 @@ import { MOBILE_MEDIA_QUERY } from "@/hooks/use-mobile";
 import { useThemeMode } from "@/lib/theme";
 import { preloadRouteIntent } from "@/lib/routePreload";
 import { BANK_TOTAL_ALL } from "@/lib/generated/bankTotals.generated";
-import { renderMixedContent } from "@/lib/text/mathRendering";
-import "katex/dist/katex.min.css";
 
 const DEFAULT_QUESTION_BANK_TOTAL = BANK_TOTAL_ALL;
 const PRACTICE_TESTS_COUNT = 34;
@@ -558,6 +557,39 @@ const EXPLANATION_STEPS: {
   },
 ];
 
+// mathRendering (KaTeX, ~290KB) is loaded lazily so it stays off the home
+// page's critical path; the demo section loads it on mount, well before its
+// explanation steps scroll into view.
+type MathRenderingModule = typeof import("@/lib/text/mathRendering");
+let loadedMathRenderingModule: MathRenderingModule | null = null;
+const loadMathRenderingModule = () =>
+  import("@/lib/text/mathRendering").then((mod) => {
+    loadedMathRenderingModule = mod;
+    return mod;
+  });
+
+const useMathRenderingModule = () => {
+  const [mathRendering, setMathRendering] = useState<MathRenderingModule | null>(loadedMathRenderingModule);
+
+  useEffect(() => {
+    if (mathRendering) return;
+    let cancelled = false;
+    void loadMathRenderingModule().then(
+      (mod) => {
+        if (!cancelled) setMathRendering(mod);
+      },
+      (error: unknown) => {
+        if (isChunkLoadError(error)) recoverFromChunkLoadError();
+      },
+    );
+    return () => {
+      cancelled = true;
+    };
+  }, [mathRendering]);
+
+  return mathRendering;
+};
+
 const AnimatedExplanation = memo(({ isDarkMode, active }: { isDarkMode: boolean; active: boolean }) => {
   const scrollRef = useRef<HTMLDivElement>(null);
   const isVisible = useIsCurrentlyInViewport(scrollRef);
@@ -590,7 +622,10 @@ const AnimatedExplanation = memo(({ isDarkMode, active }: { isDarkMode: boolean;
 
   const step = EXPLANATION_STEPS[currentStep];
   const isLast = currentStep === totalSteps - 1;
-  const stepBodyHtml = renderMixedContent(step.body, { convertTexLineBreaks: false });
+  const mathRendering = useMathRenderingModule();
+  const stepBodyHtml = mathRendering
+    ? mathRendering.renderMixedContent(step.body, { convertTexLineBreaks: false })
+    : "";
 
   return (
     <div

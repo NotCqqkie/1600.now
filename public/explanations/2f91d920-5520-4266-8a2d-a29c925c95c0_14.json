@@ -9,11 +9,11 @@
     },
     {
       "title": "Match with the given formula",
-      "content": "We're told that $P_2 = 10d + 311$. Setting the two expressions equal:<br/>$$10h + 10d + 101 = 10d + 311$$<br/>Subtract $10d$ from both sides:<br/>$$10h + 101 = 311$$"
+      "content": "We're told that $P_2 = 10d + 331$. Setting the two expressions equal:<br/>$$10h + 10d + 101 = 10d + 331$$<br/>Subtract $10d$ from both sides:<br/>$$10h + 101 = 331$$"
     },
     {
-      "title": "Interpret the constant 311",
-      "content": "The expression $10h + 101$ is the original pressure formula $P = 10h + 101$ evaluated at the starting depth $h$.<br/><br/>Since $10h + 101 = 311$, the constant 311 is the pressure the diver experienced at the original depth—right when the diver began to descend the additional $d$ meters.<br/><br/><strong>D</strong> is correct."
+      "title": "Interpret the constant 331",
+      "content": "The expression $10h + 101$ is the original pressure formula $P = 10h + 101$ evaluated at the starting depth $h$.<br/><br/>Since $10h + 101 = 331$, the constant 331 is the pressure the diver experienced at the original depth—right when the diver began to descend the additional $d$ meters.<br/><br/><strong>D</strong> is correct."
     }
   ]
 }

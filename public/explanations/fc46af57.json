@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Apply the margin of error to find the plausible range",
-      "content": "The sample estimate is 15% with a margin of error of 2%. The plausible range for the true percentage is:<br/>$$15\\% - 2\\% = 13\\% \\quad \\text{to} \\quad 15\\% + 2\\% = 17\\%$$"
+      "content": "The sample estimate is 20% with a margin of error of 3%. The plausible range for the true percentage is:<br/>$$20\\% - 3\\% = 17\\% \\quad \\text{to} \\quad 20\\% + 3\\% = 23\\%$$"
     },
     {
       "title": "Convert percentage bounds to actual bead counts",
-      "content": "With 10,000 total beads:<br/>Lower bound: $13\\% \\times 10{,}000 = 1{,}300$<br/>Upper bound: $17\\% \\times 10{,}000 = 1{,}700$<br/>So the plausible range is $1{,}300 \\lt r \\lt 1{,}700$."
+      "content": "With 12,000 total beads:<br/>Lower bound: $17\\% \\times 12{,}000 = 2{,}040$<br/>Upper bound: $23\\% \\times 12{,}000 = 2{,}760$<br/>So the plausible range is $2{,}040 \\lt r \\lt 2{,}760$."
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li><strong>\"r is greater than 1,700\"</strong>: 1,700 is the upper bound of the plausible range; values above it are outside the margin of error. &#10007;</li><li><strong>\"1,300 is less than r, which is less than 1,700\"</strong>: This is exactly the interval 13%&ndash;17% of 10,000, matching the estimate ± margin. &#10003;</li><li><strong>\"200 is less than r, which is less than 1,500\"</strong>: 1,500 corresponds to 15%, the point estimate; values between some lower limit and 1,500 cover only part of the plausible range and exclude the upper half. &#10007;</li><li><strong>\"r is less than 1,300\"</strong>: 1,300 is the lower bound; values below it are outside the margin of error. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+      "content": "<ul><li><strong>\"r is greater than 2,760\"</strong>: 2,760 is the upper bound of the plausible range; values above it are outside the margin of error. &#10007;</li><li><strong>\"2,040 is less than r, which is less than 2,760\"</strong>: This is exactly the interval 17%&ndash;23% of 12,000, matching the estimate plus or minus margin. &#10003;</li><li><strong>\"360 is less than r, which is less than 2,400\"</strong>: 2,400 corresponds to 20%, the point estimate; values between some lower limit and 2,400 cover only part of the plausible range and exclude the upper half. &#10007;</li><li><strong>\"r is less than 2,040\"</strong>: 2,040 is the lower bound; values below it are outside the margin of error. &#10007;</li></ul>That matches the correct answer &mdash; <strong>B</strong> is correct."
     }
   ]
 }

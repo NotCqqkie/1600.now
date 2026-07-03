@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Subtract 331.3 from both sides",
-      "content": "Start with $v = 331.3 + 0.606T$. Subtract 331.3 from both sides:<br/>$$v - 331.3 = 0.606T$$"
+      "title": "Subtract 332.5 from both sides",
+      "content": "Start with $v = 332.5 + 0.607T$. Subtract 332.5 from both sides:<br/>$$v - 332.5 = 0.607T$$"
     },
     {
-      "title": "Divide both sides by 0.606",
-      "content": "$$T = \\frac{v - 331.3}{0.606}$$"
+      "title": "Divide both sides by 0.607",
+      "content": "$$T = \\frac{v - 332.5}{0.607}$$"
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;$T = \\frac{v + 0.606}{331.3}$&rsquo;</strong>: Adds 0.606 and divides by 331.3 &mdash; incorrect algebraic manipulation. &#10007;</li><li><strong>Choice B &mdash; &lsquo;$T = \\frac{v - 0.606}{331.3}$&rsquo;</strong>: Subtracts 0.606 and divides by 331.3 instead of subtracting 331.3 and dividing by 0.606. &#10007;</li><li><strong>Choice C &mdash; &lsquo;$T = \\frac{v + 331.3}{0.606}$&rsquo;</strong>: Adds 331.3 instead of subtracting it. &#10007;</li><li><strong>Choice D &mdash; &lsquo;$T = \\frac{v - 331.3}{0.606}$&rsquo;</strong>: Subtracts 331.3 then divides by 0.606, correctly inverting both operations. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;$T = \\frac{v + 0.607}{332.5}$&rsquo;</strong>: Adds 0.607 and divides by 332.5 &mdash; incorrect algebraic manipulation. &#10007;</li><li><strong>Choice B &mdash; &lsquo;$T = \\frac{v - 0.607}{332.5}$&rsquo;</strong>: Subtracts 0.607 and divides by 332.5 instead of subtracting 332.5 and dividing by 0.607. &#10007;</li><li><strong>Choice C &mdash; &lsquo;$T = \\frac{v + 332.5}{0.607}$&rsquo;</strong>: Adds 332.5 instead of subtracting it. &#10007;</li><li><strong>Choice D &mdash; &lsquo;$T = \\frac{v - 332.5}{0.607}$&rsquo;</strong>: Subtracts 332.5 then divides by 0.607, correctly inverting both operations. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Read the roots from the factored numerator",
-      "content": "<strong>Shortcut (Vieta's):</strong> The fraction equals zero only when its numerator equals zero. The numerator $(x-3)(x-8)$ is already factored, giving roots $x = 3$ and $x = 9$. Wait — $(x-8) = 0$ gives $x = 8$. Roots are $x = 3$ and $x = 8$. The excluded value $x = 2$ is neither, so both roots are valid."
+      "content": "<strong>Shortcut (Vieta's):</strong> The fraction equals zero only when its numerator equals zero. The numerator $(x-4)(x-9)$ is already factored, giving roots $x = 4$ and $x = 9$. The excluded value $x = 3$ is neither, so both roots are valid."
     },
     {
       "title": "Sum of roots directly",
-      "content": "Sum $= 3 + 8 = 11$. By Vieta's, the numerator expands to $x^2 - 11x + 24$, confirming sum $= -(-11)/1 = 11$. That confirms <strong>C</strong> is correct."
+      "content": "Sum $= 4 + 9 = 13$. By Vieta's, the numerator expands to $x^2 - 13x + 36$, confirming sum $= -(-13)/1 = 13$. That confirms <strong>C</strong> is correct."
     }
   ]
 }

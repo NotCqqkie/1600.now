@@ -1,19 +1,19 @@
 {
-  "questionId": "d10e46a2",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Map the logical relationship",
-      "content": "Sentence 1 makes a general claim: Spartans kept their laconic wit even when in peril. What follows the blank is a specific historical incident (Philip II threatening Laconia, Spartans replying with one word). So the transition must introduce a concrete example of the general claim."
-    },
-    {
-      "title": "Match a transition that introduces an example",
-      "content": "&quot;For instance&quot; is the standard way to introduce a specific illustration of a general statement, which is exactly the move this passage makes."
-    },
-    {
-      "title": "Eliminate the other choices",
-      "content": "<ul><li><strong>Choice A &mdash; Rather,</strong>: signals correction or a contrast with what came before, but the second sentence agrees with and illustrates the first, not corrects it. &#10007;</li><li><strong>Choice B &mdash; In other words,</strong>: signals a restatement of the same idea in different words, but the Philip II story is a new event, not a rephrasing. &#10007;</li><li><strong>Choice C &mdash; That said,</strong>: signals concession or contrast, but nothing is being qualified or pushed back against. &#10007;</li><li><strong>Choice D &mdash; For instance,</strong>: correctly introduces the Philip II ane\\cdote as a specific example of laconic wit under peril. &#10003;</li></ul>That is the correct answer."
-    }
-  ]
+ "questionId": "d10e46a2",
+ "correctAnswer": "D",
+ "section": "Reading and Writing",
+ "steps": [
+  {
+   "title": "Map the logical relationship",
+   "content": "Sentence 1 makes a general claim: Spartans kept their laconic wit even when in peril. What follows the blank is a specific historical incident (Philip II threatening Laconia, Spartans replying with one word). So the transition must introduce a concrete example of the general claim."
+  },
+  {
+   "title": "Match a transition that introduces an example",
+   "content": "&quot;For instance&quot; is the standard way to introduce a specific illustration of a general statement, which is exactly the move this passage makes."
+  },
+  {
+   "title": "Eliminate the other choices",
+   "content": "<ul><li><strong>Choice A &mdash; Rather,</strong>: signals correction or a contrast with what came before, but the second sentence agrees with and illustrates the first, not corrects it. &#10007;</li><li><strong>Choice B &mdash; In other words,</strong>: signals a restatement of the same idea in different words, but the Philip II story is a new event, not a rephrasing. &#10007;</li><li><strong>Choice C &mdash; That said,</strong>: signals concession or contrast, but nothing is being qualified or pushed back against. &#10007;</li><li><strong>Choice D &mdash; For instance,</strong>: correctly introduces the Philip II anecdote as a specific example of laconic wit under peril. &#10003;</li></ul>That is the correct answer."
+  }
+ ]
 }

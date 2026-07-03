@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Model the annual growth",
-      "content": "Each year Liam's account has 2.8% more than the previous year: <br/><strong>New Amount = Previous Amount × 1.028</strong><br/><br/>The account value is <strong>multiplied</strong> by 1.028 each year. This multiplicative pattern—not adding a constant—is the defining characteristic of exponential growth."
+      "content": "Each year Nora's account has 3.2% more than the previous year: <br/><strong>New Amount = Previous Amount × 1.032</strong><br/><br/>The account value is <strong>multiplied</strong> by 1.032 each year. This multiplicative pattern—not adding a constant—is the defining characteristic of exponential growth."
     },
     {
       "title": "Recognize exponential, not linear",
-      "content": "Exponential models multiply by a constant factor each period; linear models add a constant amount each period. Since Liam's account multiplies by 1.028 each year, this is <strong>exponential growth</strong>."
+      "content": "Exponential models multiply by a constant factor each period; linear models add a constant amount each period. Since Nora's account multiplies by 1.032 each year, this is <strong>exponential growth</strong>."
     },
     {
       "title": "Determine if increasing or decreasing",
-      "content": "The multiplier 1.028 is greater than 1. When you multiply repeatedly by a number greater than 1, the value grows. This produces <strong>increasing exponential</strong> growth. That matches <strong>Choice C &mdash; Increasing exponential</strong>."
+      "content": "The multiplier 1.032 is greater than 1. When you multiply repeatedly by a number greater than 1, the value grows. This produces <strong>increasing exponential</strong> growth. That matches <strong>Choice C &mdash; Increasing exponential</strong>."
     }
   ]
 }

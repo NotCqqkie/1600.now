@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up",
-      "content": "Substitute $d = 36$ into $1.5c + 3d = 108$."
+      "content": "Substitute $d = 32$ into $2.5c + 4d = 128$."
     },
     {
       "title": "Solve",
-      "content": "$1.5c + 3(36) = 108$ $\\Rightarrow$ $1.5c + 108 = 108$ $\\Rightarrow$ $1.5c = 0$ $\\Rightarrow$ $c = 0$."
+      "content": "$2.5c + 4(32) = 128$ $\\Rightarrow$ $2.5c + 128 = 128$ $\\Rightarrow$ $2.5c = 0$ $\\Rightarrow$ $c = 0$."
     },
     {
       "title": "Answer",

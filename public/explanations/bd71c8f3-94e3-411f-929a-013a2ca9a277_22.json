@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+      "title": "Fastest path: identify the circle facts first",
+      "content": "For coordinate-circle questions, start by identifying the center and a point on the circle. Use any stated equal radii, diameters, tangents, or arcs before doing algebra."
     },
     {
       "title": "The radius equals the distance from center to the circle",
-      "content": "Since $(0, -16)$ and $(0, 26)$ are both on the circle, the radius $r$ is the distance from the center $(28, 5)$ to either point. We'll use $(0, -16)$."
+      "content": "Since $(0, -11)$ and $(0, 25)$ are both on the circle, the radius $r$ is the distance from the center $(24, 7)$ to either point. We'll use $(0, -11)$."
     },
     {
       "title": "Apply the distance formula",
-      "content": "From the center $(28, 5)$ to the point $(0, -16)$:<br/>$$r = \\sqrt{(28 - 0)^2 + (5 - (-16))^2}$$<br/>Simplify the $y$-difference: $5 - (-16) = 21$.<br/>$$r = \\sqrt{28^2 + 21^2}$$"
+      "content": "From the center $(24, 7)$ to the point $(0, -11)$:<br/>$$r = \\sqrt{(24 - 0)^2 + (7 - (-11))^2}$$<br/>Simplify the $y$-difference: $7 - (-11) = 18$.<br/>$$r = \\sqrt{24^2 + 18^2}$$"
     },
     {
       "title": "Calculate the radius",
-      "content": "Compute the squares: $28^2 = 784$ and $21^2 = 441$.<br/>$$r = \\sqrt{784 + 441} = \\sqrt{1225} = 35$$<br/>That is the correct answer."
+      "content": "Compute the squares: $24^2 = 576$ and $18^2 = 324$.<br/>$$r = \\sqrt{576 + 324} = \\sqrt{900} = 30$$<br/>That is the correct answer."
     }
   ]
 }

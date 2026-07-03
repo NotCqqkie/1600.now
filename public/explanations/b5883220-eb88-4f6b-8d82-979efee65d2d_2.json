@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Substitute the value",
-      "content": "Plug $d=38$ into $3.5c+7d=266$ to get $$3.5c+7(38)=266.$$"
+      "content": "Plug $d=32$ into $4.5c+9d=288$ to get $$4.5c+9(32)=288.$$"
     },
     {
       "title": "Solve for the variable",
-      "content": "Simplify to $3.5c+266=266$, so $3.5c=0$ and $c=0$."
+      "content": "Simplify to $4.5c+288=288$, so $4.5c=0$ and $c=0$."
     },
     {
       "title": "Match the choice",

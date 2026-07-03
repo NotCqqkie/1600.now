@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Start with the given equation",
-      "content": "The equation is $b=42cf$."
+      "content": "The equation is $b=36cf$."
     },
     {
       "title": "Isolate c",
-      "content": "Since $42f$ is multiplied by $c$, divide both sides by $42f$: $c=\\frac{b}{42f}$."
+      "content": "Since $36f$ is multiplied by $c$, divide both sides by $36f$: $c=\\frac{b}{36f}$."
     },
     {
       "title": "Match the choice",
-      "content": "The equation $c=\\frac{b}{42f}$ matches the correct answer, <strong>A</strong>."
+      "content": "The equation $c=\\frac{b}{36f}$ matches the correct answer, <strong>A</strong>."
     },
     {
       "title": "Use division because c is multiplied",
-      "content": "In $b=42cf$, the factors next to $c$ are $42$ and $f$. Dividing by the full product $42f$ leaves $c$ alone on one side."
+      "content": "In $b=36cf$, the factors next to $c$ are $36$ and $f$. Dividing by the full product $36f$ leaves $c$ alone on one side."
     }
   ]
 }

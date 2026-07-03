@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Eliminate x by scaling the second equation",
-      "content": "Multiply the second equation by 3 to match the coefficient of $x$ in the first equation:<br/>$$3(2x + 2y) = 3(10)$$<br/>$$6x + 6y = 30$$"
+      "content": "Multiply the second equation by 3 to match the coefficient of $x$ in the first equation:<br/>$$3(3x + 3y) = 3(18)$$<br/>$$9x + 9y = 54$$"
     },
     {
       "title": "Subtract to isolate y",
-      "content": "Subtract the scaled equation from the first equation to eliminate $x$:<br/>$$(6x + 7y) - (6x + 6y) = 28 - 30$$<br/>$$y = -2$$<br/>That matches <strong>Choice A &mdash; $-2$</strong>."
+      "content": "Subtract the scaled equation from the first equation to eliminate $x$:<br/>$$(9x + 10y) - (9x + 9y) = 50 - 54$$<br/>$$y = -4$$<br/>That matches <strong>Choice A &mdash; $-4$</strong>."
     }
   ]
 }

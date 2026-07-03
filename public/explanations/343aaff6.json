@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Use two points",
-      "content": "The point $(0,5)$ is on the line. A slope of $7$ means one step to the right raises $y$ by $7$, so another point is $(1,12)$. Use these two points directly."
+      "content": "The point $(0,4)$ is on the line. A slope of $6$ means one step to the right raises $y$ by $6$, so another point is $(1,10)$. Use these two points directly."
     },
     {
       "title": "Find the line from the data",
-      "content": "A line with slope $7$ has the form $f(x)=7x+b$. Since $(0,5)$ is on the line, $5=7(0)+b$, so $b=5$. The function is $f(x)=7x+5$."
+      "content": "A line with slope $6$ has the form $f(x)=6x+b$. Since $(0,4)$ is on the line, $4=6(0)+b$, so $b=4$. The function is $f(x)=6x+4$."
     },
     {
       "title": "Match the answer",
-      "content": "A choice with slope $5$ and no intercept. A choice with slope $35$. A choice with slope $12$. Only the matching choice has slope $7$ and intercept $5$, so <strong>C</strong> is correct."
+      "content": "A choice with slope $4$ and no intercept. A choice with slope $24$. A choice with slope $10$. Only the matching choice has slope $6$ and intercept $4$, so <strong>C</strong> is correct."
     }
   ]
 }

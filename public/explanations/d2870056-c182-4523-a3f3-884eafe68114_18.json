@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "In B(t) = 80(2)^t, the input t is time in days and the output B(t) is the predicted bacteria count. B(4) = 1,280 means: plug in t = 4, get 1,280. The question asks which choice correctly labels which value is the time and which is the count."
+      "content": "In B(t) = 70(2)^t, the input t is time in days and the output B(t) is the predicted yeast count. B(5) = 2,240 means: plug in t = 5, get 2,240. The question asks which choice correctly labels which value is the time and which is the count."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; 4 days after the number of bacteria cells was first measured, the predicted number of bacteria cells was 1,280.</strong>: t = 4 days is the input, B(4) = 1,280 cells is the output. This matches the function correctly. &#10003;</li><li><strong>Choice B &mdash; 4 days after the number of bacteria cells was first measured, the predicted number of bacteria cells was 16.</strong>: Uses the correct input t = 4 days, but claims the output is 16 cells. B(4) = 80 &middot; 2<sup>4</sup> = 1,280, not 16. &#10007;</li><li><strong>Choice C &mdash; 1,280 days after the number of bacteria cells was first measured, the predicted number of bacteria cells was 4.</strong>: Swaps t and B(t) &mdash; 1,280 is the output, not the time. &#10007;</li><li><strong>Choice D &mdash; 1,280 days after the number of bacteria cells was first measured, the predicted number of bacteria cells was 16.</strong>: Also swaps the roles; 16 has no basis in B(4) = 1,280. &#10007;</li></ul>That is the correct answer."
+      "content": "<ul><li><strong>Choice A &mdash; 5 days after the number of yeast cells was first recorded, the predicted number of yeast cells was 2,240.</strong>: t = 5 days is the input, B(5) = 2,240 cells is the output. This matches the function correctly. &#10003;</li><li><strong>Choice B &mdash; 5 days after the number of yeast cells was first recorded, the predicted number of yeast cells was 32.</strong>: Uses the correct input t = 5 days, but claims the output is 32 cells. B(5) = 70 &middot; 2<sup>5</sup> = 2,240, not 32. &#10007;</li><li><strong>Choice C &mdash; 2,240 days after the number of yeast cells was first recorded, the predicted number of yeast cells was 5.</strong>: Swaps t and B(t) &mdash; 2,240 is the output, not the time. &#10007;</li><li><strong>Choice D &mdash; 2,240 days after the number of yeast cells was first recorded, the predicted number of yeast cells was 32.</strong>: Also swaps the roles; 32 has no basis in B(5) = 2,240. &#10007;</li></ul>That is the correct answer."
     }
   ]
 }

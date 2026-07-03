@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $6{x}^{3}$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $6{x}^{4}$."
     },
     {
       "title": "Algebra check",
@@ -13,15 +13,15 @@
     },
     {
       "title": "Combine like terms",
-      "content": "Both terms have the same variable part, $x^3$, so combine only the coefficients."
+      "content": "Both terms have the same variable part, $x^4$, so combine only the coefficients."
     },
     {
       "title": "Subtract the coefficients",
-      "content": "$11x^3-5x^3=(11-5)x^3=6x^3$. The exponent stays $3$ because the terms are being added or subtracted, not multiplied."
+      "content": "$13x^4-7x^4=(13-7)x^4=6x^4$. The exponent stays $4$ because the terms are being added or subtracted, not multiplied."
     },
     {
       "title": "Match the choice",
-      "content": "The equivalent expression is $6x^3$, which matches <strong>B</strong>."
+      "content": "The equivalent expression is $6x^4$, which matches <strong>B</strong>."
     }
   ]
 }

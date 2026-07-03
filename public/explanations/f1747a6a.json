@@ -9,11 +9,11 @@
     },
     {
       "title": "Apply the triangle angle sum property",
-      "content": "The sum of all angles in any triangle equals $180^{\\circ}$. Set up the equation:<br/>$$A + B + C = 180^{\\circ}$$<br/>Substitute the given values $B = 52^{\\circ}$ and $C = 17^{\\circ}$:<br/>$$A + 52^{\\circ} + 17^{\\circ} = 180^{\\circ}$$"
+      "content": "The sum of all angles in any triangle equals $180^{\\circ}$. Set up the equation:<br/>$$A + B + C = 180^{\\circ}$$<br/>Substitute the given values $B = 55^{\\circ}$ and $C = 18^{\\circ}$:<br/>$$A + 55^{\\circ} + 18^{\\circ} = 180^{\\circ}$$"
     },
     {
       "title": "Solve for angle A",
-      "content": "Combine the known angles on the left side:<br/>$$A + 69^{\\circ} = 180^{\\circ}$$<br/>Subtract $69^{\\circ}$ from both sides:<br/>$$A = 180^{\\circ} - 69^{\\circ} = 111^{\\circ}$$<br/>That matches the correct answer — <strong>D</strong> is correct."
+      "content": "Combine the known angles on the left side:<br/>$$A + 73^{\\circ} = 180^{\\circ}$$<br/>Subtract $73^{\\circ}$ from both sides:<br/>$$A = 180^{\\circ} - 73^{\\circ} = 107^{\\circ}$$<br/>That matches the correct answer — <strong>D</strong> is correct."
     }
   ]
 }

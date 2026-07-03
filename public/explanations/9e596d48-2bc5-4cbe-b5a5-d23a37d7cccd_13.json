@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Treat $8 - 2x$ as a single variable",
-      "content": "Let $u = 8 - 2x$. Subtract ${5}(8-2x)+3$ from both sides: $(8-2x) = 19-3 = 16$."
+      "title": "Treat $10 - 2x$ as a single variable",
+      "content": "Let $u = 10 - 2x$. Subtract ${6}(10-2x)+4$ from both sides: $(10-2x) = 22-4 = 18$."
     },
     {
       "title": "Compute the target value",
-      "content": "So $8-2x = 16$. That confirms <strong>D</strong> is correct."
+      "content": "So $10-2x = 18$. That confirms <strong>D</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches the correct answer, 16, and the other choices fail the same setup or substitution. Therefore <strong>D</strong> is correct."
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches the correct answer, 18, and the other choices fail the same setup or substitution. Therefore <strong>D</strong> is correct."
     }
   ]
 }

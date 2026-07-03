@@ -62,9 +62,9 @@ import {
   type BankQuestionSimilarityMeta,
   type BankSourceFilter,
 } from "@/data/questionBank";
-import type { PracticeModule, PracticeSet } from "@/data/modulePracticeBank";
+import type { LoadedPracticeModule, LoadedPracticeSet } from "@/data/modulePracticeBank";
 import { PRACTICE_RUN_STORAGE_KEY } from "@/lib/practice/practiceRunStorage";
-import { formatPracticeClock } from "@/lib/practice/practiceTime";
+import { formatPracticeClock, formatPracticeClockPlaceholder } from "@/lib/practice/practiceTime";
 import {
   getStoredQuestionViewMode,
   setStoredQuestionViewMode,
@@ -73,9 +73,11 @@ import {
 import { cn, normalizePublicAssetPath } from "@/lib/utils";
 import { getQuestionImageClassName } from "@/lib/questionImageDisplay";
 import {
+  questionImageAssetMetadataBySrc,
   questionImageDimensionsBySrc,
   type QuestionImageDisplaySize,
 } from "@/data/questionImageSizing.generated";
+import { collectQuestionImageUrls, preloadQuestionImages } from "@/lib/questionImagePreload";
 import { answersEquivalent } from "@/lib/text/answerEquivalence";
 import { renderMixedContent } from "@/lib/text/mathRendering";
 import { normalizeReadingDisplayText } from "@/lib/text/readingTextNormalization";
@@ -118,10 +120,9 @@ import {
   getQuestionUiStates,
   saveQuestionUiState,
 } from "@/lib/practice/questionUiState";
-import "katex/dist/katex.min.css";
 
 const HIDDEN_MEASUREMENT_STYLE = { visibility: 'hidden', pointerEvents: 'none' } as const;
-const COUNT_UP_IDLE_PAUSE_MS = 5 * 1000;
+const COUNT_UP_IDLE_PAUSE_MS = 5 * 60 * 1000;
 const COUNT_UP_IDLE_DEMO_PAUSE_MS = 5 * 1000;
 
 const getVisibleElementWidth = (element: HTMLElement) => {
@@ -135,6 +136,27 @@ const setElementStyleProperty = (element: HTMLElement, property: string, value: 
   }
 };
 
+const canScrollLockedPageTarget = (target: EventTarget | null, deltaY: number) => {
+  if (!(target instanceof Element) || Math.abs(deltaY) < 1) return false;
+
+  let element: Element | null = target;
+  while (element && element !== document.body && element !== document.documentElement) {
+    if (element instanceof HTMLElement) {
+      const { overflowY } = window.getComputedStyle(element);
+      const scrollable = overflowY === "auto" || overflowY === "scroll" || overflowY === "overlay";
+      const maxScrollTop = element.scrollHeight - element.clientHeight;
+
+      if (scrollable && maxScrollTop > 1) {
+        if (deltaY > 0 && element.scrollTop < maxScrollTop - 1) return true;
+        if (deltaY < 0 && element.scrollTop > 1) return true;
+      }
+    }
+    element = element.parentElement;
+  }
+
+  return false;
+};
+
 const hardQuestions = originalQuestions.map(originalQuestion => ({
   ...originalQuestion,
   uuid: `hard-${originalQuestion.id}`
@@ -144,13 +166,16 @@ type ModulePracticeBankApi = typeof import("@/data/modulePracticeBank");
 let loadedModulePracticeBank: ModulePracticeBankApi | null = null;
 let modulePracticeBankPromise: Promise<ModulePracticeBankApi> | null = null;
 
-const loadModulePracticeBank = () => {
-  if (loadedModulePracticeBank) return Promise.resolve(loadedModulePracticeBank);
-  modulePracticeBankPromise ??= import("@/data/modulePracticeBank").then((mod) => {
-    loadedModulePracticeBank = mod;
-    return mod;
-  });
-  return modulePracticeBankPromise;
+const loadModulePracticeBank = (practiceDataTarget: string) => {
+  const apiPromise = loadedModulePracticeBank
+    ? Promise.resolve(loadedModulePracticeBank)
+    : (modulePracticeBankPromise ??= import("@/data/modulePracticeBank").then((mod) => {
+        loadedModulePracticeBank = mod;
+        return mod;
+      }));
+  return apiPromise.then((mod) =>
+    mod.ensurePracticeDataLoaded(practiceDataTarget).then(() => mod),
+  );
 };
 
 type QuestionPreviewEmbedConfig = {
@@ -265,10 +290,17 @@ type LoadedRouteIndexedQuestionState = {
   isLoading: boolean;
 };
 
-const checkedQuestionStatuses = new Set(["incorrect", "correct-first", "correct-later"]);
+type CheckedQuestionStatus = "incorrect" | "correct-first" | "correct-later";
+type CorrectQuestionStatus = "correct-first" | "correct-later";
 
-const isCheckedQuestionStatus = (status: string | undefined) =>
-  checkedQuestionStatuses.has(status || "");
+const checkedQuestionStatuses = new Set<CheckedQuestionStatus>(["incorrect", "correct-first", "correct-later"]);
+const correctQuestionStatuses = new Set<CorrectQuestionStatus>(["correct-first", "correct-later"]);
+
+const isCheckedQuestionStatus = (status: string | undefined): status is CheckedQuestionStatus =>
+  checkedQuestionStatuses.has(status as CheckedQuestionStatus);
+
+const isCorrectQuestionStatus = (status: string | undefined): status is CorrectQuestionStatus =>
+  correctQuestionStatuses.has(status as CorrectQuestionStatus);
 
 const getNavigationOnlyQuestionUiPatch = (status: string) => ({
   answer: undefined,
@@ -702,32 +734,36 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     setPracticeExitTo(sessionStorage.getItem("practiceExitTo"));
   }, [location.key]);
   const needsModulePracticeBank = Boolean(modulePracticeSlug || practiceTestSetId);
+  const modulePracticeBankTarget = modulePracticeSlug ?? practiceTestSetId;
   const [modulePracticeBank, setModulePracticeBank] = useState<ModulePracticeBankApi | null>(() =>
-    needsModulePracticeBank ? loadedModulePracticeBank : null,
+    modulePracticeBankTarget && loadedModulePracticeBank?.isPracticeDataLoaded(modulePracticeBankTarget)
+      ? loadedModulePracticeBank
+      : null,
   );
   useEffect(() => {
     let cancelled = false;
-    if (!needsModulePracticeBank) {
+    if (!modulePracticeBankTarget) {
       setModulePracticeBank(null);
       return;
     }
-    if (loadedModulePracticeBank) {
+    if (loadedModulePracticeBank?.isPracticeDataLoaded(modulePracticeBankTarget)) {
       setModulePracticeBank(loadedModulePracticeBank);
       return;
     }
-    loadModulePracticeBank().then((mod) => {
+    setModulePracticeBank(null);
+    loadModulePracticeBank(modulePracticeBankTarget).then((mod) => {
       if (!cancelled) setModulePracticeBank(mod);
     });
     return () => {
       cancelled = true;
     };
-  }, [needsModulePracticeBank]);
-  const modulePracticeModule = useMemo<PracticeModule | null>(
-    () => (modulePracticeSlug && modulePracticeBank ? modulePracticeBank.getPracticeModule(modulePracticeSlug) : null),
+  }, [modulePracticeBankTarget]);
+  const modulePracticeModule = useMemo<LoadedPracticeModule | null>(
+    () => (modulePracticeSlug && modulePracticeBank ? modulePracticeBank.getLoadedPracticeModule(modulePracticeSlug) : null),
     [modulePracticeBank, modulePracticeSlug],
   );
-  const practiceTestSet = useMemo<PracticeSet | null>(
-    () => (practiceTestSetId && modulePracticeBank ? modulePracticeBank.getPracticeSet(practiceTestSetId) : null),
+  const practiceTestSet = useMemo<LoadedPracticeSet | null>(
+    () => (practiceTestSetId && modulePracticeBank ? modulePracticeBank.getLoadedPracticeSet(practiceTestSetId) : null),
     [modulePracticeBank, practiceTestSetId],
   );
   const [modulePracticeSessionMeta, setModulePracticeSessionMeta] = useState<ModulePracticeSessionMeta | null>(() =>
@@ -862,23 +898,43 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     );
 
     const refsPromise = loadBankQuestionRouteRefs(subject, bankSource);
-    refsPromise.then((refs) => {
-      if (cancelled) return;
-      setLoadedBankRouteRefsData({
-        requestKey: bankRouteRefsRequestKey,
-        refs,
-        isLoading: false,
+    refsPromise
+      .then((refs) => {
+        if (cancelled) return;
+        setLoadedBankRouteRefsData({
+          requestKey: bankRouteRefsRequestKey,
+          refs,
+          isLoading: false,
+        });
+      })
+      .catch((error) => {
+        if (cancelled) return;
+        console.error('Failed to load bank question route refs:', error);
+        setLoadedBankRouteRefsData({
+          requestKey: bankRouteRefsRequestKey,
+          refs: [],
+          isLoading: false,
+        });
       });
-    });
 
-    loadRouteIndexedBankQuestion(subject, idParam, bankSource).then((question) => {
-      if (cancelled) return;
-      setLoadedRouteIndexedQuestionData({
-        requestKey: routeIndexedQuestionRequestKey,
-        question,
-        isLoading: false,
+    loadRouteIndexedBankQuestion(subject, idParam, bankSource)
+      .then((question) => {
+        if (cancelled) return;
+        setLoadedRouteIndexedQuestionData({
+          requestKey: routeIndexedQuestionRequestKey,
+          question,
+          isLoading: false,
+        });
+      })
+      .catch((error) => {
+        if (cancelled) return;
+        console.error('Failed to load bank question:', error);
+        setLoadedRouteIndexedQuestionData({
+          requestKey: routeIndexedQuestionRequestKey,
+          question: null,
+          isLoading: false,
+        });
       });
-    });
 
     return () => {
       cancelled = true;
@@ -939,14 +995,24 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       ? loadAllSourceBankQuestions(subject, bankSource)
       : loadBankPool(subject, bankSource);
 
-    poolPromise.then((questions) => {
-      if (cancelled) return;
-      setLoadedBankQuestionPoolData({
-        requestKey: bankQuestionPoolRequestKey,
-        questions,
-        isLoading: false,
+    poolPromise
+      .then((questions) => {
+        if (cancelled) return;
+        setLoadedBankQuestionPoolData({
+          requestKey: bankQuestionPoolRequestKey,
+          questions,
+          isLoading: false,
+        });
+      })
+      .catch((error) => {
+        if (cancelled) return;
+        console.error('Failed to load bank question pool:', error);
+        setLoadedBankQuestionPoolData({
+          requestKey: bankQuestionPoolRequestKey,
+          questions: [],
+          isLoading: false,
+        });
       });
-    });
 
     return () => {
       cancelled = true;
@@ -998,7 +1064,13 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     moduleQuestion,
     questionNumber,
   ]);
-  const currentQuestionStableId = isBankQuestionWithUuid(questionData) ? questionData.stableId : null;
+  const lastResolvedQuestionDataRef = useRef<typeof questionData>(null);
+  const displayedQuestionData =
+    questionData ?? (isRouteIndexedQuestionLoading ? lastResolvedQuestionDataRef.current : null);
+  if (questionData) {
+    lastResolvedQuestionDataRef.current = questionData;
+  }
+  const currentQuestionStableId = isBankQuestionWithUuid(displayedQuestionData) ? displayedQuestionData.stableId : null;
   const [similarityMetaByStableId, setSimilarityMetaByStableId] = useState<Record<string, BankQuestionSimilarityMeta | null>>({});
   const ensureCurrentSimilarityMeta = useCallback(async () => {
     if (!currentQuestionStableId || is100Hard) return null;
@@ -1014,10 +1086,10 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     return meta;
   }, [currentQuestionStableId, is100Hard, similarityMetaByStableId]);
   const currentQuestion = useMemo(() => {
-    if (!isBankQuestionWithUuid(questionData)) return questionData;
-    const similarityMeta = similarityMetaByStableId[questionData.stableId];
-    return similarityMeta ? { ...questionData, ...similarityMeta } : questionData;
-  }, [questionData, similarityMetaByStableId]);
+    if (!isBankQuestionWithUuid(displayedQuestionData)) return displayedQuestionData;
+    const similarityMeta = similarityMetaByStableId[displayedQuestionData.stableId];
+    return similarityMeta ? { ...displayedQuestionData, ...similarityMeta } : displayedQuestionData;
+  }, [displayedQuestionData, similarityMetaByStableId]);
   const currentQuestionId = currentQuestion?.uuid;
   const resolvedQuestionNumber = (() => {
     if (!currentQuestion || is100Hard || !isBankQuestionWithUuid(currentQuestion)) {
@@ -1223,6 +1295,8 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     effectiveQuestionViewMode === "horizontal" || typeof window === "undefined"
       ? 100
       : Math.min(100, (1280 / Math.max(window.innerWidth, 1)) * 100);
+  const sidebarExitContentSplitPosition =
+    splitScreenWindows.size <= 1 ? questionSplitExitPosition : splitPosition;
   const effectiveTopShouldCompress = topShouldCompress;
   const [questionSplitPosition, setQuestionSplitPosition] = useState(() =>
     getDefaultQuestionSplitPosition(subject),
@@ -1237,6 +1311,10 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   const [groupedOrderVersion, setGroupedOrderVersion] = useState(0);
   const [isQuestionInfoOpen, setIsQuestionInfoOpen] = useState(false);
   const [isReportOpen, setIsReportOpen] = useState(false);
+  const [isMoreMenuOpen, setIsMoreMenuOpen] = useState(false);
+  useEffect(() => {
+    setIsMoreMenuOpen(false);
+  }, [currentQuestionId]);
   const [isNoteWindowOpen, setIsNoteWindowOpen] = useState(false);
   const [isAnnotationModeEnabled, setIsAnnotationModeEnabled] = useState<boolean>(() => {
     if (typeof window === "undefined") return true;
@@ -1720,6 +1798,8 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
 
     const preventLockedScroll = (event: WheelEvent | TouchEvent) => {
       if (!isScrollLocked) return;
+      if ("touches" in event && event.touches.length >= 2) return;
+      if ("deltaY" in event && canScrollLockedPageTarget(event.target, event.deltaY)) return;
       event.preventDefault();
       resetScrollPosition();
     };
@@ -2294,6 +2374,55 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     () => orderedQuestionIndexById.get(resolvedQuestionNumber) ?? -1,
     [orderedQuestionIndexById, resolvedQuestionNumber],
   );
+  useEffect(() => {
+    preloadQuestionImages(collectQuestionImageUrls(currentQuestion), "high");
+  }, [currentQuestion]);
+  useEffect(() => {
+    let cancelled = false;
+    const preloadAdjacentQuestion = (
+      adjacentSubject: "math" | "reading",
+      adjacentId: string | number | undefined,
+      adjacentBankSource: BankSourceFilter,
+    ) => {
+      if (adjacentId === undefined || adjacentId === null) return;
+      loadRouteIndexedBankQuestion(adjacentSubject, String(adjacentId), adjacentBankSource)
+        .then((question) => {
+          if (!cancelled) {
+            preloadQuestionImages(collectQuestionImageUrls(question), "low");
+          }
+        })
+        .catch(() => {
+          // Adjacent-question image preload is best-effort; ignore failures.
+        });
+    };
+
+    if (effectivePracticeMode) {
+      [practiceSet[currentPracticeIndex - 1], practiceSet[currentPracticeIndex + 1]].forEach((item) => {
+        if (!item) return;
+        preloadAdjacentQuestion(
+          item.subject,
+          item.sourceId ?? item.id,
+          item.bankType ?? bankSource,
+        );
+      });
+    } else if (canUseRouteIndexedBankQuestion && currentOrderedQuestionIndex >= 0) {
+      [orderedQuestionIds[currentOrderedQuestionIndex - 1], orderedQuestionIds[currentOrderedQuestionIndex + 1]]
+        .forEach((adjacentId) => preloadAdjacentQuestion(subject, adjacentId, bankSource));
+    }
+
+    return () => {
+      cancelled = true;
+    };
+  }, [
+    bankSource,
+    canUseRouteIndexedBankQuestion,
+    currentOrderedQuestionIndex,
+    currentPracticeIndex,
+    effectivePracticeMode,
+    orderedQuestionIds,
+    practiceSet,
+    subject,
+  ]);
   const displayQuestionNumber = isPracticeTestMode
     ? practiceTestQuestionNumberInModule || currentPracticeIndex + 1
     : effectivePracticeMode
@@ -2837,9 +2966,13 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     }
 
     const alreadyCorrect = Object.values(checkedAnswers).some(Boolean);
-    const alreadyCorrectStatus =
-      checkButtonState === "correct-first" || checkButtonState === "correct-later"
-        ? checkButtonState
+    const storedQuestionStatus = !isAssessmentMode && !isEmbed
+      ? getStoredQuestionUiStatus(localStateKey, uid)
+      : undefined;
+    const alreadyCorrectStatus = isCorrectQuestionStatus(checkButtonState)
+      ? checkButtonState
+      : isCorrectQuestionStatus(storedQuestionStatus)
+        ? storedQuestionStatus
         : null;
     if (checkedAnswers[userAnswer] !== undefined) {
       return;
@@ -2896,8 +3029,9 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
         );
       }
     } else {
-      const status = alreadyCorrectStatus ?? "incorrect";
-      setCheckButtonState(status);
+      const buttonStatus = "incorrect";
+      const savedStatus = alreadyCorrectStatus ?? (alreadyCorrect ? "correct-later" : buttonStatus);
+      setCheckButtonState(buttonStatus);
       if (isAssessmentMode) {
         persistModulePracticeQuestionState((previous) => ({
           ...previous,
@@ -2906,7 +3040,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
             currentQuestion.type === "free-response" ? userAnswer : previous.freeResponseAnswer,
           checkedAnswers: newCheckedAnswers,
           attemptCount: newAttemptCount,
-          status,
+          status: isCorrectQuestionStatus(previous.status) ? previous.status : savedStatus,
         }));
       } else if (!isEmbed) {
         const duration = Math.round((Date.now() - startTimeRef.current) / 1000);
@@ -2916,12 +3050,12 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
         saveQuestionUiState(
           localStateKey,
           usesTransientQuestionAnswerUi
-            ? getNavigationOnlyQuestionUiPatch(status)
+            ? getNavigationOnlyQuestionUiPatch(savedStatus)
             : {
                 answer: userAnswer,
                 checkedAnswers: newCheckedAnswers,
                 attemptCount: newAttemptCount,
-                status,
+                status: savedStatus,
               },
           uid,
         );
@@ -3077,11 +3211,24 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     currentQuestion?.type === "free-response" && freeResponseAnswerForCheck
       ? checkedAnswers[freeResponseAnswerForCheck]
       : undefined;
+  const selectedAnswerForCheck =
+    currentQuestion?.type === "multiple-choice" ? selectedAnswer : freeResponseAnswerForCheck;
+  const selectedAnswerWasChecked = selectedAnswerForCheck
+    ? checkedAnswers[selectedAnswerForCheck] !== undefined
+    : false;
+  const useNeutralCheckedButtonHover =
+    hasSelection && checkColorVisible && checkButtonState !== "idle" && !selectedAnswerWasChecked;
   const freeResponseAnswerStateClassName = cn(
     freeResponseCheckedResult === true &&
       "border-2 border-[#1B5E20] bg-[#C8E6C9]/20 dark:border-[#2E7D32] dark:bg-[#1B5E20]/20",
     freeResponseCheckedResult === false &&
       "border-2 border-[#B71C1C] bg-[#FFCDD2]/20 dark:border-[#8B0000] dark:bg-[#5C1010]/20",
+  );
+  const freeResponseInlineCheckStateClassName = cn(
+    freeResponseCheckedResult === true &&
+      "border-[#1B5E20] bg-[#C8E6C9]/20 ring-1 ring-inset ring-[#1B5E20] dark:border-[#2E7D32] dark:bg-[#1B5E20]/20 dark:ring-[#2E7D32]",
+    freeResponseCheckedResult === false &&
+      "border-[#B71C1C] bg-[#FFCDD2]/20 ring-1 ring-inset ring-[#B71C1C] dark:border-[#8B0000] dark:bg-[#5C1010]/20 dark:ring-[#8B0000]",
   );
   const freeResponseInputClassName = cn(
     "max-w-md flex-[1_1_16rem] transition-colors duration-150 ease-out",
@@ -3089,7 +3236,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   );
   const freeResponseInlineCheckButtonClassName = cn(
     "h-11 shrink-0 rounded-[9px] border border-ds-line bg-white px-[14px] py-[11px] font-sans text-[15px] font-medium text-ink shadow-none transition-colors duration-150 ease-out hover:border-ds-line hover:bg-white hover:text-ink dark:border-ds-line dark:bg-card dark:text-ink dark:hover:border-ds-line dark:hover:bg-card dark:hover:text-ink",
-    freeResponseAnswerStateClassName,
+    freeResponseInlineCheckStateClassName,
     freeResponseCheckedResult === true &&
       "hover:border-[#1B5E20] hover:bg-[#C8E6C9]/20 hover:text-ink dark:hover:border-[#2E7D32] dark:hover:bg-[#1B5E20]/20 dark:hover:text-ink",
     freeResponseCheckedResult === false &&
@@ -3109,11 +3256,26 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
 
     switch (checkButtonState) {
       case "correct-first":
-        return "bg-[#C8E6C9] hover:bg-[#A5D6A7] border-[#1B5E20] text-[#1B5E20] dark:bg-[#1B5E20] dark:hover:bg-[#144216] dark:border-[#2E7D32] dark:text-white disabled:opacity-100";
+        return cn(
+          "bg-[#C8E6C9] border-[#1B5E20] text-[#1B5E20] dark:bg-[#1B5E20] dark:border-[#2E7D32] dark:text-white disabled:opacity-100",
+          useNeutralCheckedButtonHover
+            ? "hover:border-ds-line hover:bg-muted/60 hover:text-foreground dark:hover:border-ds-line dark:hover:bg-white/10 dark:hover:text-white"
+            : "hover:bg-[#A5D6A7] dark:hover:bg-[#144216]",
+        );
       case "correct-later":
-        return "bg-[#C8E6C9] hover:bg-[#A5D6A7] border-[#1B5E20] text-[#1B5E20] dark:bg-[#1B5E20] dark:hover:bg-[#144216] dark:border-[#2E7D32] dark:text-white disabled:opacity-100";
+        return cn(
+          "bg-[#C8E6C9] border-[#1B5E20] text-[#1B5E20] dark:bg-[#1B5E20] dark:border-[#2E7D32] dark:text-white disabled:opacity-100",
+          useNeutralCheckedButtonHover
+            ? "hover:border-ds-line hover:bg-muted/60 hover:text-foreground dark:hover:border-ds-line dark:hover:bg-white/10 dark:hover:text-white"
+            : "hover:bg-[#A5D6A7] dark:hover:bg-[#144216]",
+        );
       case "incorrect":
-        return "bg-[#FFCDD2] hover:bg-[#EF9A9A] border-[#B71C1C] text-[#2C1A1A] dark:bg-[#5C1010] dark:hover:bg-[#4A0D0D] dark:border-[#8B0000] dark:text-white";
+        return cn(
+          "bg-[#FFCDD2] border-[#B71C1C] text-[#2C1A1A] dark:bg-[#5C1010] dark:border-[#8B0000] dark:text-white",
+          useNeutralCheckedButtonHover
+            ? "hover:border-ds-line hover:bg-muted/60 hover:text-foreground dark:hover:border-ds-line dark:hover:bg-white/10 dark:hover:text-white"
+            : "hover:bg-[#EF9A9A] dark:hover:bg-[#4A0D0D]",
+        );
       default:
         return hasSelection ? "bg-primary/10 hover:bg-primary/20 border-primary/40 text-foreground" : "bg-background text-foreground border-border";
     }
@@ -3151,7 +3313,17 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     questionText: string;
     passage: string;
     text: string;
-    questionImages: { src: string; alt: string; displaySize?: QuestionImageDisplaySize }[];
+    questionImages: {
+      src: string;
+      alt: string;
+      displaySize?: QuestionImageDisplaySize;
+      width?: number;
+      height?: number;
+      hasTransparency?: boolean;
+      optimizedSrc?: string;
+      srcSet?: string;
+      sizes?: string;
+    }[];
   }>;
 
   const promptContent = typeof questionWithBankFields.prompt === "string" && questionWithBankFields.prompt.trim()
@@ -3234,6 +3406,11 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       <div className="space-y-2">
         {questionImages.map((img, idx) => {
           const src = normalizePublicAssetPath(img.src);
+          const metadata = questionImageAssetMetadataBySrc[src];
+          const optimizedSrc = img.optimizedSrc ?? metadata?.optimizedSrc;
+          const imageWidth = img.width ?? metadata?.optimizedWidth ?? metadata?.width ?? questionImageDimensionsBySrc[src]?.width;
+          const imageHeight = img.height ?? metadata?.optimizedHeight ?? metadata?.height ?? questionImageDimensionsBySrc[src]?.height;
+          const intrinsicSize = imageWidth && imageHeight ? { width: imageWidth, height: imageHeight } : undefined;
           const reserveWhiteBackground = isBank && shouldReserveWhiteQuestionImageSpace(src);
 
           return (
@@ -3241,14 +3418,22 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
               <TransparentAwareImage
                 src={src}
                 alt={img.alt || `Question image ${idx + 1}`}
+                loading="eager"
+                fetchPriority={idx === 0 ? "high" : "auto"}
+                optimizedSrc={optimizedSrc}
+                srcSet={img.srcSet ?? metadata?.srcSet}
+                sizes={img.sizes ?? metadata?.sizes}
+                width={imageWidth}
+                height={imageHeight}
+                hasTransparency={img.hasTransparency ?? metadata?.hasTransparentPixel}
                 className={cn(
                   "h-auto object-contain",
-                  getQuestionImageClassName(img.displaySize, subject, shouldReduceQuestionImageSize),
+                  getQuestionImageClassName(img.displaySize ?? metadata?.displaySize, subject, shouldReduceQuestionImageSize),
                 )}
                 wrapperClassName={cn("max-w-full", shouldReduceQuestionImageSize && "flex justify-center")}
-                trimWhitespace={isBank && bankSource === 'unofficial'}
+                trimWhitespace={isBank && bankSource === 'unofficial' && !optimizedSrc}
                 reserveWhiteBackground={reserveWhiteBackground}
-                intrinsicSize={reserveWhiteBackground ? questionImageDimensionsBySrc[src] : undefined}
+                intrinsicSize={intrinsicSize}
               />
             </div>
           );
@@ -3417,7 +3602,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
         "text-center font-semibold tabular-nums",
         "min-w-[5ch] text-xl",
       )}>
-        {isTimerVisible ? formatPracticeClock(displayedTimerSeconds) : "-:--"}
+        {isTimerVisible ? formatPracticeClock(displayedTimerSeconds) : formatPracticeClockPlaceholder(displayedTimerSeconds)}
       </span>
       {shouldShowTimerPauseControl && (
         <Button
@@ -3454,7 +3639,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
         if (open) void ensureCurrentSimilarityMeta();
       }}
     >
-      <DialogContent container={windowPortalContainer} className="max-h-[85vh] max-w-3xl overflow-hidden border-border bg-card p-7 text-card-foreground shadow-2xl sm:rounded-[28px] dark:border-white/10 dark:bg-[#101010] dark:text-white [&>button]:right-5 [&>button]:top-5 [&>button]:flex [&>button]:h-11 [&>button]:w-11 [&>button]:items-center [&>button]:justify-center [&>button]:rounded-2xl [&>button]:border [&>button]:border-border [&>button]:bg-background/80 [&>button]:p-0 [&>button]:text-muted-foreground [&>button]:opacity-100 [&>button]:ring-0 [&>button]:ring-offset-0 [&>button]:transition-colors [&>button]:hover:bg-muted [&>button]:hover:text-foreground dark:[&>button]:border-white/30 dark:[&>button]:bg-transparent dark:[&>button]:text-white/80 dark:[&>button]:hover:bg-white/10 dark:[&>button]:hover:text-white [&>button_svg]:h-5 [&>button_svg]:w-5">
+      <DialogContent container={windowPortalContainer} overlayClassName="z-[210]" className="z-[220] max-h-[85vh] max-w-3xl overflow-hidden border-border bg-card p-7 text-card-foreground shadow-2xl sm:rounded-[28px] dark:border-white/10 dark:bg-[#101010] dark:text-white [&>button]:right-5 [&>button]:top-5 [&>button]:flex [&>button]:h-11 [&>button]:w-11 [&>button]:items-center [&>button]:justify-center [&>button]:rounded-2xl [&>button]:border [&>button]:border-border [&>button]:bg-background/80 [&>button]:p-0 [&>button]:text-muted-foreground [&>button]:opacity-100 [&>button]:ring-0 [&>button]:ring-offset-0 [&>button]:transition-colors [&>button]:hover:bg-muted [&>button]:hover:text-foreground dark:[&>button]:border-white/30 dark:[&>button]:bg-transparent dark:[&>button]:text-white/80 dark:[&>button]:hover:bg-white/10 dark:[&>button_svg]:h-5 [&>button_svg]:w-5">
         <DialogHeader className="space-y-0">
           <DialogTitle className="text-[1.7rem] font-semibold tracking-[-0.025em] text-foreground dark:text-white">
             Question Info
@@ -3708,20 +3893,23 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       {questionInfoDialog}
       {isModulePracticeMode && modulePracticeSessionMeta?.settings.timed ? timerExpiredDialog : null}
       {isIdleTimerPromptOpen && createPortal(
-        <div className={cn(isNativeEmbed ? "absolute" : "fixed", "pointer-events-auto inset-0 z-[300] flex items-center justify-center bg-background/45 p-3 backdrop-blur-[2px] sm:p-6")}>
+        <div
+          className={cn(isNativeEmbed ? "absolute" : "fixed", "pointer-events-auto inset-y-0 left-0 z-[300] flex items-center justify-center bg-background/45 p-3 backdrop-blur-[2px] sm:p-6")}
+          style={isSplitScreenActive ? {
+            width: "var(--sat-main-content-width, var(--sat-content-split-pct, 70%))",
+            marginLeft: "var(--sat-main-content-offset-x, 0px)",
+          } : { width: "100%" }}
+        >
           <div
             role="dialog"
             aria-modal="true"
             aria-labelledby="idle-timer-title"
-            className="w-full max-w-lg rounded-2xl border border-border bg-card p-7 text-card-foreground shadow-2xl"
+            className="w-full max-w-2xl rounded-2xl border border-border bg-card p-7 text-card-foreground shadow-2xl sm:p-8"
           >
-            <div className="mb-3 text-xs font-semibold uppercase text-muted-foreground">
-              Timer paused
-            </div>
             <h2 id="idle-timer-title" className="text-xl font-semibold text-foreground">
               Still here?
             </h2>
-            <p className="mt-3 text-base leading-7 text-muted-foreground">
+            <p className="mt-3 text-sm leading-6 text-muted-foreground sm:text-base">
               We paused the timer so your stats stay clean while you're away.
             </p>
             <div className="mt-6 flex flex-col-reverse gap-3 sm:flex-row sm:justify-end">
@@ -3766,7 +3954,6 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
         windowStateKey={noteWindowStateKey}
         onFocus={() => bringToFront("note")}
         zIndex={getZIndex("note")}
-        constrainToLeft={isSplitScreenActive ? splitPosition : undefined}
         windowPortalContainer={windowPortalContainer}
         windowBoundsElement={windowBoundsElement}
       />
@@ -3776,7 +3963,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
           style={isSplitScreenActive ? {
             maxWidth: "var(--sat-header-content-width, var(--sat-content-split-pct, 70%))",
             marginLeft: "var(--sat-header-content-offset-x, 0px)",
-          } : undefined}
+          } : { maxWidth: "100%", marginLeft: "0px" }}
         >
           <div className="relative flex items-center justify-between gap-1 sm:gap-3" ref={topNavRef}>
             <div ref={topLeftRef} data-header-left className="shrink-0">
@@ -3837,7 +4024,6 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                     <FormulaSheetDialog
                       onFocus={() => bringToFront('referenceSheet')}
                       zIndex={getZIndex('referenceSheet')}
-                      constrainToLeft={isSplitScreenActive ? splitPosition : undefined}
                       compressed={effectiveTopShouldCompress}
                       windowPortalContainer={windowPortalContainer}
                       windowBoundsElement={windowBoundsElement}
@@ -3848,7 +4034,6 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                       splitPosition={splitPosition}
                       onFocus={() => bringToFront('desmos')}
                       zIndex={getZIndex('desmos')}
-                      constrainToLeft={isSplitScreenActive ? splitPosition : undefined}
                       isSidebarred={sidebarredWindows.has('desmos')}
                       onSidebarToggle={handleSidebarToggle}
                       compressed={effectiveTopShouldCompress}
@@ -3861,7 +4046,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                       layoutStateKey={desmosLayoutStateKey}
                       openStateKey={desmosOpenStateKey}
                       onRestoreSidebarPosition={restoreDesmosSplitPosition}
-                      contentSplitExitPosition={questionSplitExitPosition}
+                      contentSplitExitPosition={sidebarExitContentSplitPosition}
                       sidebarExitHeaderMaxWidth={QUESTION_HEADER_CONTAINER_MAX_WIDTH}
                       sidebarExitMainMaxWidth={effectiveQuestionViewMode === "horizontal" ? undefined : QUESTION_CONTENT_MAX_WIDTH}
                     />
@@ -3885,7 +4070,8 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                     {!effectiveTopShouldCompress && "Annotate"}
                   </Button>
                 )}
-                <DropdownMenu modal={false} onOpenChange={(open) => {
+                <DropdownMenu modal={false} open={isMoreMenuOpen} onOpenChange={(open) => {
+                  setIsMoreMenuOpen(open);
                   if (open) void ensureCurrentSimilarityMeta();
                 }}>
                   <DropdownMenuTrigger asChild>
@@ -4231,7 +4417,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       <div
         ref={bottomNavRef}
         className={cn(isNativeEmbed ? "absolute" : "fixed", "sat-resize-transition bottom-0 left-0 right-0 bg-card border-t-2 border-border shadow-lg z-40 transition-[width] duration-200 ease-out motion-reduce:transition-none")}
-        style={isSplitScreenActive ? { width: "var(--sat-nav-split-pct, 70%)" } : undefined}
+        style={isSplitScreenActive ? { width: "var(--sat-nav-split-pct, 70%)" } : { width: "100%" }}
       >
         <div className="w-full max-w-none px-2 py-3 sm:px-4">
           <div ref={bottomNavGridRef} className="relative flex items-center justify-between gap-1 sm:gap-2">
@@ -4340,7 +4526,6 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                   compressed={shouldCompress}
                   onFocus={() => bringToFront('explanation')}
                   zIndex={getZIndex('explanation')}
-                  constrainToLeft={isSplitScreenActive ? splitPosition : undefined}
                   isSidebarred={sidebarredWindows.has('explanation')}
                   onSidebarToggle={handleSidebarToggle}
                   correctAnswer={currentQuestion?.correctAnswer}
@@ -4350,7 +4535,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                   questionText={currentExplanationQuestion?.prompt}
                   windowPortalContainer={windowPortalContainer}
                   windowBoundsElement={windowBoundsElement}
-                  contentSplitExitPosition={questionSplitExitPosition}
+                  contentSplitExitPosition={sidebarExitContentSplitPosition}
                   sidebarExitHeaderMaxWidth={QUESTION_HEADER_CONTAINER_MAX_WIDTH}
                   sidebarExitMainMaxWidth={effectiveQuestionViewMode === "horizontal" ? undefined : QUESTION_CONTENT_MAX_WIDTH}
                 />

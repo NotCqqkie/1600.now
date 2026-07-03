@@ -13,7 +13,7 @@
     },
     {
       "title": "Complete the square for x",
-      "content": "For $x^2 + 58x + y^2 = 0$, take half the coefficient of $x$ and square it: half of 58 is 29, and $29^2 = 841$. Add 841 to both sides:<br/>$$x^2 + 58x + 841 + y^2 = 841$$<br/>Factor the left side:<br/>$$(x+29)^2 + y^2 = 841$$<br/>In standard form $(x-h)^2 + (y-k)^2 = r^2$, this is $(x-(-29))^2 + (y-0)^2 = 29^2$, so the center is $(-29, 0)$. That matches the correct answer — <strong>D</strong> is correct."
+      "content": "For $x^2 + 62x + y^2 = 0$, take half the coefficient of $x$ and square it: half of 62 is 31, and $31^2 = 961$. Add 961 to both sides:<br/>$$x^2 + 62x + 961 + y^2 = 961$$<br/>Factor the left side:<br/>$$(x+31)^2 + y^2 = 961$$<br/>In standard form $(x-h)^2 + (y-k)^2 = r^2$, this is $(x-(-31))^2 + (y-0)^2 = 31^2$, so the center is $(-31, 0)$. That matches the correct answer — <strong>D</strong> is correct."
     }
   ]
 }

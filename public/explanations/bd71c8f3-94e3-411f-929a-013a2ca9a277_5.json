@@ -1,15 +1,15 @@
 {
   "questionId": "bd71c8f3-94e3-411f-929a-013a2ca9a277_5",
-  "correctAnswer": "9",
+  "correctAnswer": "8",
   "section": "Math",
   "steps": [
     {
       "title": "Set up the linear equation",
-      "content": "A member pays a one-time \\$34 enrollment fee and \\$16 per month. Let $m$ be the number of months. The total cost after $m$ months is:<br/>$$34 + 16m = 178$$"
+      "content": "A member pays a one-time \\$38 enrollment fee and \\$18 per month. Let $m$ be the number of months. The total cost after $m$ months is:<br/>$$38 + 18m = 182$$"
     },
     {
       "title": "Solve for the number of months",
-      "content": "Subtract 34 from both sides:<br/>$$16m = 178 - 34 = 144$$<br/>Divide both sides by 16:<br/>$$m = \\frac{144}{16} = 9$$<br/>Therefore, a member will have been charged for <strong>9 months</strong>."
+      "content": "Subtract 38 from both sides:<br/>$$18m = 182 - 38 = 144$$<br/>Divide both sides by 18:<br/>$$m = \\frac{144}{18} = 8$$<br/>Therefore, a member will have been charged for <strong>8 months</strong>."
     }
   ]
 }

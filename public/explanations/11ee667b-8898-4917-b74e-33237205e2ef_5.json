@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Multiply both sides by 23u",
-      "content": "Start with $n = \\frac{p}{23u}$. To isolate $p$, multiply both sides by $23u$:<br/>$$n \\cdot 23u = \\frac{p}{23u} \\cdot 23u$$"
+      "title": "Multiply both sides by 19u",
+      "content": "Start with $n = \\frac{p}{19u}$. To isolate $p$, multiply both sides by $19u$:<br/>$$n \\cdot 19u = \\frac{p}{19u} \\cdot 19u$$"
     },
     {
       "title": "Simplify to solve for p",
-      "content": "The $23u$ on the right cancels the denominator, leaving $p = 23un$."
+      "content": "The $19u$ on the right cancels the denominator, leaving $p = 19un$."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li>A. $p = n - 23u$ &mdash; subtraction does not undo division; incorrect.</li><li>B. $p = n + 23u$ &mdash; addition does not undo division; incorrect.</li><li>C. $p = \\frac{n}{23u}$ &mdash; this would result from dividing, not multiplying; incorrect.</li><li>D. $p = 23un$ &mdash; matches our derivation.</li></ul>That matches <strong>Choice D &mdash; $p=23un$</strong>."
+      "content": "<ul><li>A. $p = n - 19u$ &mdash; subtraction does not undo division; incorrect.</li><li>B. $p = n + 19u$ &mdash; addition does not undo division; incorrect.</li><li>C. $p = \\frac{n}{19u}$ &mdash; this would result from dividing, not multiplying; incorrect.</li><li>D. $p = 19un$ &mdash; matches our derivation.</li></ul>That matches <strong>Choice D &mdash; $p=19un$</strong>."
     }
   ]
 }

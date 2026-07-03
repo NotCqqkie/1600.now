@@ -1,6 +1,6 @@
 {
   "questionId": "48fb6483",
-  "correctAnswer": "153",
+  "correctAnswer": "148",
   "section": "Math",
   "steps": [
     {
@@ -8,16 +8,16 @@
       "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
     },
     {
-      "title": "Find angle YXZ from angle sum",
-      "content": "In triangle $XYZ$, angle $Y=90^\\circ$ and angle $XZY=63^\\circ$. Using the angle sum property, the three angles of a triangle sum to $180^\\circ$:<br/>$$\\angle YXZ = 180^\\circ - 90^\\circ - 63^\\circ = 27^\\circ$$"
+      "title": "Find angle BAC from angle sum",
+      "content": "In triangle $ABC$, angle $B=90^\\circ$ and angle $ACB=58^\\circ$. Using the angle sum property, the three angles of a triangle sum to $180^\\circ$:<br/>$$\\angle BAC = 180^\\circ - 90^\\circ - 58^\\circ = 32^\\circ$$"
     },
     {
-      "title": "Use similar triangles to find angle ZPQ",
-      "content": "Since $PQ$ is parallel to $XY$, triangle $ZPQ$ is similar to triangle $ZXY$ (they share angle $Z$, and the parallel condition makes the other angles match). In similar triangles, corresponding angles are equal:<br/>$$\\angle ZPQ = \\angle ZXY = 27^\\circ$$"
+      "title": "Use similar triangles to find angle CRS",
+      "content": "Since $RS$ is parallel to $AB$, triangle $CRS$ is similar to triangle $CAB$ (they share angle $C$, and the parallel condition makes the other angles match). In similar triangles, corresponding angles are equal:<br/>$$\\angle CRS = \\angle CAB = 32^\\circ$$"
     },
     {
-      "title": "Find angle XPQ using supplementary angles",
-      "content": "Point $P$ lies on segment $XZ$, so angles $ZPQ$ and $XPQ$ form a linear pair at $P$. Linear-pair angles are supplementary:<br/>$$\\angle XPQ = 180^\\circ - \\angle ZPQ = 180^\\circ - 27^\\circ = 153^\\circ$$<br/>The answer is <strong>153</strong>."
+      "title": "Find angle ARS using supplementary angles",
+      "content": "Point $R$ lies on segment $AC$, so angles $CRS$ and $ARS$ form a linear pair at $R$. Linear-pair angles are supplementary:<br/>$$\\angle ARS = 180^\\circ - \\angle CRS = 180^\\circ - 32^\\circ = 148^\\circ$$<br/>The answer is <strong>148</strong>."
     }
   ]
 }

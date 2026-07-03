@@ -13,11 +13,11 @@
     },
     {
       "title": "Apply both conversions",
-      "content": "$$250 \\frac{\\text{ft}^2}{\\text{hr}} \\times \\frac{1 \\text{ m}^2}{10.7584 \\text{ ft}^2} \\times \\frac{1 \\text{ hr}}{60 \\text{ min}} = \\frac{250}{10.7584 \\times 60} \\approx \\frac{250}{645.5} \\approx 0.387 \\frac{\\text{m}^2}{\\text{min}}$$"
+      "content": "$$270 \\frac{\\text{ft}^2}{\\text{hr}} \\times \\frac{1 \\text{ m}^2}{10.7584 \\text{ ft}^2} \\times \\frac{1 \\text{ hr}}{60 \\text{ min}} = \\frac{270}{10.7584 \\times 60} \\approx \\frac{270}{645.5} \\approx 0.418 \\frac{\\text{m}^2}{\\text{min}}$$"
     },
     {
       "title": "Match to the choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;$0.39$&rsquo;</strong>: $0.387 \\approx 0.39$. Closest to our calculated value. &#10003;</li><li><strong>Choice B &mdash; &lsquo;$1.27$&rsquo;</strong>: This results from using $3.28$ ft/m instead of squaring it to convert square feet to square meters: $250 \\div (3.28 \\times 60) \\approx 1.27$. &#10007;</li><li><strong>Choice C &mdash; &lsquo;$13.67$&rsquo;</strong>: This would result from dividing by 60 and multiplying by 3.28 (not squaring). &#10007;</li><li><strong>Choice D &mdash; &lsquo;$23.24$&rsquo;</strong>: This results from converting square feet to square meters but forgetting to convert hours to minutes: $250 \\div 10.7584 \\approx 23.24$. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;$0.42$&rsquo;</strong>: $0.418 \\approx 0.42$. Closest to our calculated value. &#10003;</li><li><strong>Choice B &mdash; &lsquo;$1.37$&rsquo;</strong>: This results from using $3.28$ ft/m instead of squaring it to convert square feet to square meters: $270 \\div (3.28 \\times 60) \\approx 1.37$. &#10007;</li><li><strong>Choice C &mdash; &lsquo;$14.76$&rsquo;</strong>: This would result from dividing by 60 and multiplying by 3.28 (not squaring). &#10007;</li><li><strong>Choice D &mdash; &lsquo;$25.10$&rsquo;</strong>: This results from converting square feet to square meters but forgetting to convert hours to minutes: $270 \\div 10.7584 \\approx 25.10$. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Substitute the daylight value into the equation",
-      "content": "We have the equation $x + y = 1,440$, where $x$ represents daylight minutes and $y$ represents non-daylight minutes. We're given that this day has $x = 670$ minutes of daylight. Substituting:\n$$670 + y = 1,440$$"
+      "content": "We have the equation $x + y = 1,440$, where $x$ represents daylight minutes and $y$ represents non-daylight minutes. We're given that this day has $x = 715$ minutes of daylight. Substituting:\n$$715 + y = 1,440$$"
     },
     {
       "title": "Solve for non-daylight minutes",
-      "content": "Subtract 670 from both sides to isolate $y$:\n$$y = 1,440 - 670$$\n$$y = 770$$\n<strong>B</strong> is correct."
+      "content": "Subtract 715 from both sides to isolate $y$:\n$$y = 1,440 - 715$$\n$$y = 725$$\n<strong>B</strong> is correct."
     }
   ]
 }

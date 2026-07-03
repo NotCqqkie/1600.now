@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Evaluate g(8) to find t",
-      "content": "Substitute $x = 8$ into $g(x) = \\sqrt{(x-11)^{2}+45}$:<br/>$$g(8) = \\sqrt{(8-11)^{2}+45} = \\sqrt{9+45} = \\sqrt{54}$$<br/>Therefore, $t = \\sqrt{54}$."
+      "content": "Substitute $x = 8$ into $g(x) = \\sqrt{(x-12)^{2}+36}$:<br/>$$g(8) = \\sqrt{(8-12)^{2}+36} = \\sqrt{16+36} = \\sqrt{52}$$<br/>Therefore, $t = \\sqrt{52}$."
     },
     {
       "title": "Square t for use in h(x)",
-      "content": "The function $h(x)$ contains an $x^{2}$ term, so we compute:<br/>$$t^{2} = (\\sqrt{54})^{2} = 54$$"
+      "content": "The function $h(x)$ contains an $x^{2}$ term, so we compute:<br/>$$t^{2} = (\\sqrt{52})^{2} = 52$$"
     },
     {
       "title": "Substitute into h and solve for the answer",
-      "content": "With $x = \\sqrt{54}$ (so $x^{2} = 54$), substitute into $h(x) = \\frac{x^{2}}{2} + 4$:<br/>$$h(\\sqrt{54}) = \\frac{54}{2} + 4 = 27 + 4 = 31$$<br/>This confirms <strong>C</strong> is correct."
+      "content": "With $x = \\sqrt{52}$ (so $x^{2} = 52$), substitute into $h(x) = \\frac{x^{2}}{2} + 4$:<br/>$$h(\\sqrt{52}) = \\frac{52}{2} + 4 = 26 + 4 = 30$$<br/>This confirms <strong>C</strong> is correct."
     }
   ]
 }

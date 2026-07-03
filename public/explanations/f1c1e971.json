@@ -9,11 +9,11 @@
     },
     {
       "title": "Find angle T in radians",
-      "content": "Angle $T$ is $\\frac{5\\pi}{12}$ radians greater than angle $R = \\frac{2\\pi}{3}$, so:<br/>$$T = \\frac{2\\pi}{3} + \\frac{5\\pi}{12}$$To add these fractions, convert $\\frac{2\\pi}{3}$ to a denominator of 12:<br/>$$\\frac{2\\pi}{3} = \\frac{8\\pi}{12}$$Therefore:<br/>$$T = \\frac{8\\pi}{12} + \\frac{5\\pi}{12} = \\frac{13\\pi}{12}$$"
+      "content": "Angle $T$ is $\\frac{7\\pi}{12}$ radians greater than angle $R = \\frac{5\\pi}{6}$, so:<br/>$$T = \\frac{5\\pi}{6} + \\frac{7\\pi}{12}$$To add these fractions, convert $\\frac{5\\pi}{6}$ to a denominator of 12:<br/>$$\\frac{5\\pi}{6} = \\frac{10\\pi}{12}$$Therefore:<br/>$$T = \\frac{10\\pi}{12} + \\frac{7\\pi}{12} = \\frac{17\\pi}{12}$$"
     },
     {
       "title": "Convert from radians to degrees",
-      "content": "Multiply by the conversion factor $\\frac{180^{\\circ}}{\\pi}$:<br/>$$T = \\frac{13\\pi}{12} \\cdot \\frac{180^{\\circ}}{\\pi} = \\frac{13 \\cdot 180^{\\circ}}{12} = 13 \\cdot 15^{\\circ} = 195^{\\circ}$$That matches the correct answer — <strong>C</strong> is correct."
+      "content": "Multiply by the conversion factor $\\frac{180^{\\circ}}{\\pi}$:<br/>$$T = \\frac{17\\pi}{12} \\cdot \\frac{180^{\\circ}}{\\pi} = \\frac{17 \\cdot 180^{\\circ}}{12} = 17 \\cdot 15^{\\circ} = 255^{\\circ}$$That matches the correct answer — <strong>C</strong> is correct."
     }
   ]
 }

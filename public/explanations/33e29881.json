@@ -9,11 +9,11 @@
     },
     {
       "title": "Recognize complementary angles",
-      "content": "In a right triangle, the two acute angles add to $90$ degrees. Since angle $R$ and angle $S$ are complementary, $$\\sin(R)=\\cos(S).$$"
+      "content": "In a right triangle, the two acute angles add to $90$ degrees. Since angle $M$ and angle $N$ are complementary, $$\\sin(M)=\\cos(N).$$"
     },
     {
       "title": "Transfer the given value",
-      "content": "The problem gives $$\\sin(R)=\\dfrac{\\sqrt{15}}{4}.$$ Because $\\cos(S)$ equals the sine of its complement, $$\\cos(S)=\\dfrac{\\sqrt{15}}{4}.$$"
+      "content": "The problem gives $$\\sin(M)=\\dfrac{\\sqrt{35}}{6}.$$ Because $\\cos(N)$ equals the sine of its complement, $$\\cos(N)=\\dfrac{\\sqrt{35}}{6}.$$"
     },
     {
       "title": "Confirm the choice",

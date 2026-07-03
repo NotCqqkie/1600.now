@@ -12,9 +12,14 @@ export const isChunkLoadError = (error: unknown): boolean => {
   return normalized.includes("dynamically imported module");
 };
 
+export const hasAttemptedChunkReload = (): boolean =>
+  sessionStorage.getItem(CHUNK_RELOAD_KEY) === "1";
+
 export const recoverFromChunkLoadError = (): void => {
-  const alreadyReloaded = sessionStorage.getItem(CHUNK_RELOAD_KEY) === "1";
-  if (alreadyReloaded) {
+  if (hasAttemptedChunkReload()) {
+    return;
+  }
+  if (typeof navigator !== "undefined" && navigator.onLine === false) {
     return;
   }
 

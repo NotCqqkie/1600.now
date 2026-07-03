@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+      "title": "Fastest path: connect arc measure to circumference",
+      "content": "For arc-length questions, relate the arc's angle measure to $360^\\circ$ before doing algebra. The arc length is the same fraction of the circumference as the arc's angle measure is of $360^\\circ$."
     },
     {
       "title": "Set up",
-      "content": "A 60&deg; arc is $\\frac{60}{360} = \\frac{1}{6}$ of the full circle, so arc length = $\\frac{1}{6} \\cdot C$. Set that equal to 4: $$4 = \\frac{1}{6} \\cdot C$$"
+      "content": "A 45&deg; arc is $\\frac{45}{360} = \\frac{1}{8}$ of the full circle, so arc length = $\\frac{1}{8} \\cdot C$. Set that equal to 5: $$5 = \\frac{1}{8} \\cdot C$$"
     },
     {
       "title": "Solve",
-      "content": "Multiply both sides by 6: $$C = 24 \\text{ inches}$$"
+      "content": "Multiply both sides by 8: $$C = 40 \\text{ inches}$$"
     },
     {
       "title": "Answer",

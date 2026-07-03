@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Total eighth‑grade students in the state",
-      "content": "Compute total eighth‑grade students: $$26 \\times 1800 = 46800$$"
+      "title": "Total eighth-grade students in the state",
+      "content": "Compute total eighth-grade students: $$28 \\times 1700 = 47600$$"
     },
     {
       "title": "Students with fewer than two siblings",
-      "content": "Students with fewer than two siblings: proportion = 1 - 0.346 = 0.654. Multiply: $$0.654 \\times 46800 = 30607.2 \\approx 30600$$ That confirms <strong>C</strong> is correct."
+      "content": "Students with fewer than two siblings: proportion = 1 - 0.321 = 0.679. Multiply: $$0.679 \\times 47600 = 32320.4 \\approx 32300$$ That confirms <strong>C</strong> is correct."
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "Points drop $20\\%$ every $5$ seconds, starting at $490$. A $20\\%$ decrease means each interval keeps $80\\%$, so each $5$-second interval multiplies the score by $0.80$. Since $x$ seconds contains $\\frac{x}{5}$ of those intervals, the model is $$490(0.80)^{x/5}.$$"
+      "content": "Points drop $25\\%$ every $4$ seconds, starting at $640$. A $25\\%$ decrease means each interval keeps $75\\%$, so each $4$-second interval multiplies the score by $0.75$. Since $x$ seconds contains $\\frac{x}{4}$ of those intervals, the model is $$640(0.75)^{x/4}.$$"
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"$f(x)=490(0.80)^{\\frac{x}{5}}$\"</strong>: decay factor 0.80 per 5-second interval, exponent $x/5$ counts intervals. &#10003;</li><li><strong>\"$f(x)=490(0.80)^{5x}$\"</strong>: exponent $5x$ multiplies intervals by 5 instead of dividing &mdash; way too fast a decay. &#10007;</li><li><strong>\"$f(x)=490(0.20)^{\\frac{x}{5}}$\"</strong>: 0.20 is the amount lost, not the amount kept &mdash; this drops to nearly zero far too fast. &#10007;</li><li><strong>\"$f(x)=490(0.20)^{5x}$\"</strong>: wrong factor and wrong exponent. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+      "content": "<ul><li><strong>\"$f(x)=640(0.75)^{\\frac{x}{4}}$\"</strong>: decay factor 0.75 per 4-second interval, exponent $x/4$ counts intervals. &#10003;</li><li><strong>\"$f(x)=640(0.75)^{4x}$\"</strong>: exponent $4x$ multiplies intervals by 4 instead of dividing; way too fast a decay. &#10007;</li><li><strong>\"$f(x)=640(0.25)^{\\frac{x}{4}}$\"</strong>: 0.25 is the amount lost, not the amount kept; this drops to nearly zero far too fast. &#10007;</li><li><strong>\"$f(x)=640(0.25)^{4x}$\"</strong>: wrong factor and wrong exponent. &#10007;</li></ul>That matches the correct answer; <strong>A</strong> is correct."
     }
   ]
 }

@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Reorganize and factor the equation",
-      "content": "Starting with $$x - 29 = (x - a)(x - 29),$$ move all terms to one side and factor out the common factor $(x - 29)$: <br/> $$x - 29 - (x - a)(x - 29) = 0$$ <br/> Factor: $$(x - 29)[1 - (x - a)] = 0$$ <br/> Simplify: $$(x - 29)(a + 1 - x) = 0$$"
+      "content": "Starting with $$x - 31 = (x - a)(x - 31),$$ move all terms to one side and factor out the common factor $(x - 31)$: <br/> $$x - 31 - (x - a)(x - 31) = 0$$ <br/> Factor: $$(x - 31)[1 - (x - a)] = 0$$ <br/> Simplify: $$(x - 31)(a + 1 - x) = 0$$"
     },
     {
       "title": "Apply zero product property",
-      "content": "From $(x - 29)(a + 1 - x) = 0$, either factor equals zero: <br/> $$x - 29 = 0 \\quad \\text{or} \\quad a + 1 - x = 0$$ <br/> This gives $x = 29$ or $x = a + 1$."
+      "content": "From $(x - 31)(a + 1 - x) = 0$, either factor equals zero: <br/> $$x - 31 = 0 \\quad \\text{or} \\quad a + 1 - x = 0$$ <br/> This gives $x = 31$ or $x = a + 1$."
     },
     {
       "title": "Identify which candidates are solutions",
-      "content": "The two solutions are: <ul><li>$x = 29$ (Candidate III)</li><li>$x = a + 1$ (Candidate II)</li></ul> Candidate I ($x = a$) is not a solution. That leaves II and III only as solutions. That matches the correct answer — <strong>C</strong> is correct."
+      "content": "The two solutions are: <ul><li>$x = 31$ (Candidate III)</li><li>$x = a + 1$ (Candidate II)</li></ul> Candidate I ($x = a$) is not a solution. That leaves II and III only as solutions. That matches the correct answer, <strong>C</strong> is correct."
     }
   ]
 }

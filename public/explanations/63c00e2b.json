@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Undo division by 38",
-      "content": "The equation is $$\\frac{r}{38}=s+t$$ To isolate $r$, multiply both sides by $38$."
+      "title": "Undo division by 42",
+      "content": "The equation is $$\\frac{r}{42}=s+t$$ To isolate $r$, multiply both sides by $42$."
     },
     {
       "title": "Solve for r",
-      "content": "$$r=38(s+t)$$ Keep $s+t$ in parentheses because the $38$ multiplies the entire right side."
+      "content": "$$r=42(s+t)$$ Keep $s+t$ in parentheses because the $42$ multiplies the entire right side."
     },
     {
       "title": "Check the choices",
-      "content": "Choice C (&lsquo;$r=38 \\left(s+t\\right)$&rsquo;) is $r=38(s+t)$, so it is correct. The other choices add or subtract $38$, and an incorrect response divides by $38$ again instead of undoing the division."
+      "content": "Choice C (&lsquo;$r=42 \\left(s+t\\right)$&rsquo;) is $r=42(s+t)$, so it is correct. The other choices add or subtract $42$, and an incorrect response divides by $42$ again instead of undoing the division."
     }
   ]
 }

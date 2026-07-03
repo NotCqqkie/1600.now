@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Use the doubling relationship",
-      "content": "Each side of triangle B is double the length of each side of triangle A. Start from the side length $270$ millimeters and multiply by $2$."
+      "content": "Each side of triangle B is double the length of each side of triangle A. Start from the side length $320$ millimeters and multiply by $2$."
     },
     {
       "title": "Identify the given side length",
-      "content": "Triangle A has each side equal to <strong>270 millimeters</strong>."
+      "content": "Triangle A has each side equal to <strong>320 millimeters</strong>."
     },
     {
       "title": "Apply the doubling relationship",
-      "content": "Triangle B's sides are double the length of triangle A's sides. Multiply:<br/>$$2 \\times 270 = 540 \\text{ millimeters}$$<br/>The question asks for one side length of triangle B, not perimeter or area. That confirms <strong>C</strong> is correct."
+      "content": "Triangle B's sides are double the length of triangle A's sides. Multiply:<br/>$$2 \\times 320 = 640 \\text{ millimeters}$$<br/>The question asks for one side length of triangle B, not perimeter or area. That confirms <strong>C</strong> is correct."
     }
   ]
 }

@@ -9,11 +9,11 @@
     },
     {
       "title": "Set up the perimeter equation for a 45-45-90 triangle",
-      "content": "An isosceles right triangle has legs of equal length. Let's call the leg length $a$.<br/><br/>In a 45-45-90 triangle, the hypotenuse equals $a\\sqrt{2}$. The perimeter is: $$2a + a\\sqrt{2} = a(2 + \\sqrt{2}) = 94 + 94\\sqrt{2}$$"
+      "content": "An isosceles right triangle has legs of equal length. Let's call the leg length $a$.<br/><br/>In a 45-45-90 triangle, the hypotenuse equals $a\\sqrt{2}$. The perimeter is: $$2a + a\\sqrt{2} = a(2 + \\sqrt{2}) = 86 + 86\\sqrt{2}$$"
     },
     {
       "title": "Match the leg length to the perimeter",
-      "content": "If $a=47\\sqrt{2}$, then the perimeter is $$47\\sqrt{2}(2+\\sqrt{2})=94\\sqrt{2}+94$$ This is the same as the given perimeter $94+94\\sqrt{2}$. Therefore the leg length is $47\\sqrt{2}$, so <strong>B</strong> is correct."
+      "content": "If $a=43\\sqrt{2}$, then the perimeter is $$43\\sqrt{2}(2+\\sqrt{2})=86\\sqrt{2}+86$$ This is the same as the given perimeter $86+86\\sqrt{2}$. Therefore the leg length is $43\\sqrt{2}$, so <strong>B</strong> is correct."
     }
   ]
 }

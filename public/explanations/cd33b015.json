@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Substitute and Simplify",
-      "content": "Given the equations $x + y = 20$ and $2(x + y) + 3y = 85$, start by substituting the value of $x + y$ from the first equation into the second.<br/>This gives us: <br/>&#160;&#160;&#160;$2(20) + 3y = 85$.<br/><br/>Simplify this equation to isolate $y$."
+      "content": "Given the equations $x + y = 18$ and $2(x + y) + 4y = 84$, start by substituting the value of $x + y$ from the first equation into the second.<br/>This gives us: <br/>&#160;&#160;&#160;$2(18) + 4y = 84$.<br/><br/>Simplify this equation to isolate $y$."
     },
     {
       "title": "Solve for y",
-      "content": "From the simplified equation $40 + 3y = 85$, subtract 40 from both sides:<br/>&#160;&#160;&#160;$3y = 85 - 40$.<br/><br/>This simplifies to:\\<br/>&#160;&#160;&#160;$3y = 45$, and divide both sides by 3:<br/>&#160;&#160;&#160;$y = \\frac{45}{3} = 15$.<br/><br/>That is the correct answer."
+      "content": "From the simplified equation $36 + 4y = 84$, subtract 36 from both sides:<br/>&#160;&#160;&#160;$4y = 84 - 36$.<br/><br/>This simplifies to:\\<br/>&#160;&#160;&#160;$4y = 48$, and divide both sides by 4:<br/>&#160;&#160;&#160;$y = \\frac{48}{4} = 12$.<br/><br/>That is the correct answer, so <strong>B</strong> is correct."
     }
   ]
 }

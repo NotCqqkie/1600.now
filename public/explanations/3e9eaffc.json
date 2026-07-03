@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Extract and interpret the y-intercept",
-      "content": "The function is $f(x) = -5x + 30$. The y-intercept is the value when $x = 0$:<br/>$$f(0) = -5(0) + 30 = 30$$<br/>In this context, $x = 0$ means no popsicles have been made yet, so 30 fluid ounces is the amount of juice Caleb had before he started making popsicles."
+      "content": "The function is $f(x) = -4x + 36$. The y-intercept is the value when $x = 0$:<br/>$$f(0) = -4(0) + 36 = 36$$<br/>In this context, $x = 0$ means no mugs have been decorated yet, so 36 fluid ounces is the amount of paint Jordan had before he started decorating mugs."
     },
     {
       "title": "Match to the correct interpretation",
-      "content": "The y-intercept of 30 represents the initial juice amount, not a per-item rate. The matching choice states that Caleb had approximately 30 fluid ounces of juice when he began to make the popsicles, which matches our interpretation of the y-intercept. This matches - <strong>C</strong> is correct."
+      "content": "The y-intercept of 36 represents the initial paint amount, not a per-item rate. The matching choice states that Jordan had approximately 36 fluid ounces of paint when he began to decorate the mugs, which matches our interpretation of the y-intercept. This matches - <strong>C</strong> is correct."
     }
   ]
 }

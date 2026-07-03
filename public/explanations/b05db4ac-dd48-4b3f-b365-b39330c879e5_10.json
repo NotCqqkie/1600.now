@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Find the original median",
-      "content": "With 51 stamps, the median is the 26th value when the ages are ordered. Track the running totals:<ul><li><strong>Age 65:</strong> cumulative total 11</li><li><strong>Age 70:</strong> cumulative total 18</li><li><strong>Age 75:</strong> cumulative total 23</li><li><strong>Age 80:</strong> cumulative total 27</li></ul>The 26th stamp first appears in the age-80 group, so <strong>original median = 80</strong>."
+      "content": "With 51 stamps, the median is the 26th value when the ages are ordered. Track the running totals:<ul><li><strong>Age 66:</strong> cumulative total 10</li><li><strong>Age 71:</strong> cumulative total 18</li><li><strong>Age 76:</strong> cumulative total 24</li><li><strong>Age 81:</strong> cumulative total 28</li></ul>The 26th stamp first appears in the age-81 group, so <strong>original median = 81</strong>."
     },
     {
       "title": "Analyze the median and mean of the new collection",
-      "content": "With 52 stamps, the median is the average of the 26th and 27th values.<br/><br/>Both the 26th and 27th stamps remain in the age 80 group (since cumulative frequency reaches 27 at age 80), so <strong>new median = 80</strong> — unchanged. <br/><br/>The new 135-year-old stamp is much older than any existing stamp (the oldest in the original collection is at most 95 years).<br/><br/>Adding such a large outlier well above the current distribution pulls the mean upward. <strong>New mean > original mean</strong>."
+      "content": "With 52 stamps, the median is the average of the 26th and 27th values.<br/><br/>Both the 26th and 27th stamps remain in the age 81 group (since cumulative frequency reaches 28 at age 81), so <strong>new median = 81</strong> &mdash; unchanged. <br/><br/>The new 136-year-old stamp is much older than any existing stamp (the oldest in the original collection is at most 96 years).<br/><br/>Adding such a large outlier well above the current distribution pulls the mean upward. <strong>New mean > original mean</strong>."
     },
     {
       "title": "Identify the answer",
-      "content": "The mean increased while the median remained at 80. That is the correct answer."
+      "content": "The mean increased while the median remained at 81. That is the correct answer."
     }
   ]
 }

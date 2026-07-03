@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Substitute the given number of small boxes",
-      "content": "Replace <em>a</em> with 3 in the equation $$3a + 4b = 25$$: $$3(3) + 4b = 25$$ which simplifies to $$9 + 4b = 25$$."
+      "content": "Replace <em>a</em> with 4 in the equation $$4a + 5b = 41$$: $$4(4) + 5b = 41$$ which simplifies to $$16 + 5b = 41$$."
     },
     {
       "title": "Solve for the number of large boxes",
-      "content": "Subtract 9 from both sides: $$4b = 16$$.<br/>Divide both sides by 4: $$b = 4$$.<br/>That is the correct answer."
+      "content": "Subtract 16 from both sides: $$5b = 25$$.<br/>Divide both sides by 5: $$b = 5$$.<br/><strong>B</strong> is the correct answer."
     }
   ]
 }

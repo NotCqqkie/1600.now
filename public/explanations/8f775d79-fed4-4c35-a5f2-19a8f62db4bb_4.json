@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up",
-      "content": "Add the two equations to eliminate $y$: $$(3y) + (-3y) = (8x + 18) + (7x - 26)$$ $$0 = 15x - 8$$"
+      "content": "Add the two equations to eliminate $y$: $$(4y) + (-4y) = (9x + 17) + (6x - 24)$$ $$0 = 15x - 7$$"
     },
     {
       "title": "Solve",
-      "content": "$15x = 8$, so $x = \\frac{8}{15}$. Then $30x = 30 \\cdot \\frac{8}{15} = 16$."
+      "content": "$15x = 7$, so $x = \\frac{7}{15}$. Then $30x = 30 \\cdot \\frac{7}{15} = 14$."
     },
     {
       "title": "Answer",

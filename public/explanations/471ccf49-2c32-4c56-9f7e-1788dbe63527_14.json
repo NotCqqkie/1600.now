@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Rewrite the second equation to isolate the known ratio",
-      "content": "The second equation $\\frac{96j}{12xk} = 62$ can be rewritten by factoring out $\\frac{j}{k}$:<br/>$$\\frac{96j}{12xk} = \\frac{96}{12x} \\cdot \\frac{j}{k}$$<br/>This separates the unknown variable $x$ from the ratio we know."
+      "content": "The second equation $\\frac{84j}{14xk} = 58$ can be rewritten by factoring out $\\frac{j}{k}$:<br/>$$\\frac{84j}{14xk} = \\frac{84}{14x} \\cdot \\frac{j}{k}$$<br/>This separates the unknown variable $x$ from the ratio we know."
     },
     {
       "title": "Substitute the known value and simplify",
-      "content": "Since we're told $\\frac{j}{k} = 62$, substitute this into the rewritten equation:<br/>$$\\frac{96}{12x} \\cdot 62 = 62$$<br/>Divide both sides by 62:<br/>$$\\frac{96}{12x} = 1$$"
+      "content": "Since we're told $\\frac{j}{k} = 58$, substitute this into the rewritten equation:<br/>$$\\frac{84}{14x} \\cdot 58 = 58$$<br/>Divide both sides by 58:<br/>$$\\frac{84}{14x} = 1$$"
     },
     {
       "title": "Solve for x",
-      "content": "From $\\frac{96}{12x} = 1$, multiply both sides by $12x$:<br/>$$96 = 12x$$<br/>Divide by 12:<br/>$$x = \\frac{96}{12} = 8$$<br/><strong>C</strong> is correct."
+      "content": "From $\\frac{84}{14x} = 1$, multiply both sides by $14x$:<br/>$$84 = 14x$$<br/>Divide by 14:<br/>$$x = \\frac{84}{14} = 6$$<br/><strong>C</strong> is correct."
     }
   ]
 }

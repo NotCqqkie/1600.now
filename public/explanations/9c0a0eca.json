@@ -14,7 +14,7 @@
     },
     {
       "title": "Substitute the given values and calculate",
-      "content": "With base $b = 10$ cm and height $h = 70$ cm:<br/>$$A = \\frac{1}{2} \\cdot 10 \\cdot 70$$<br/>$$A = \\frac{700}{2} = 350$$<br/>That confirms <strong>B</strong> is correct."
+      "content": "With base $b = 12$ cm and height $h = 64$ cm:<br/>$$A = \\frac{1}{2} \\cdot 12 \\cdot 64$$<br/>$$A = \\frac{768}{2} = 384$$<br/>That confirms <strong>B</strong> is correct."
     }
   ]
 }

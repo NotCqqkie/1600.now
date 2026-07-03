@@ -9,11 +9,11 @@
     },
     {
       "title": "Identify the dimensions",
-      "content": "The width is $w=8$ cm. The length is $50$ cm longer than the width, so $\\ell = 8 + 50 = 58$ cm."
+      "content": "The width is $w=9$ cm. The length is $45$ cm longer than the width, so $\\ell = 9 + 45 = 54$ cm."
     },
     {
       "title": "Apply the perimeter/area formula",
-      "content": "Area of a rectangle is $A = \\ell \\cdot w$, so $A = 58 \\cdot 8 = 464$ square cm. That confirms <strong>D</strong> is correct."
+      "content": "Area of a rectangle is $A = \\ell \\cdot w$, so $A = 54 \\cdot 9 = 486$ square cm. That confirms <strong>D</strong> is correct."
     }
   ]
 }

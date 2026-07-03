@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>C</strong>, $x \\left(23{x}^{2}+2x+9\\right)$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>C</strong>, $x \\left(19{x}^{2}+5x+8\\right)$."
     },
     {
       "title": "Algebra check",
@@ -13,15 +13,15 @@
     },
     {
       "title": "Find the greatest common factor",
-      "content": "Look at $23x^3+2x^2+9x$. The coefficients $23$, $2$, and $9$ share no common factor other than $1$. Every term has at least one factor of $x$, so the GCF is just $x$."
+      "content": "Look at $19x^3+5x^2+8x$. The coefficients $19$, $5$, and $8$ share no common factor other than $1$. Every term has at least one factor of $x$, so the GCF is just $x$."
     },
     {
       "title": "Factor out $x$",
-      "content": "$$23x^3+2x^2+9x=x\\bigl(23x^2+2x+9\\bigr)$$You can verify by distributing: $x\\cdot 23x^2=23x^3$, $x\\cdot 2x=2x^2$, $x\\cdot 9=9x$. &check;"
+      "content": "$$19x^3+5x^2+8x=x\\bigl(19x^2+5x+8\\bigr)$$You can verify by distributing: $x\\cdot 19x^2=19x^3$, $x\\cdot 5x=5x^2$, $x\\cdot 8=8x$. &check;"
     },
     {
       "title": "Compare with each choice",
-      "content": "<ul><li><strong>A) $23x(x^2+2x+9)$:</strong> distributes to $23x^3+46x^2+207x$, not the original. &cross;</li><li><strong>B) $9x(23x^3+2x^2+1)$:</strong> distributes to $207x^4+18x^3+9x$, which has an $x^4$ term. &cross;</li><li><strong>C) $x(23x^2+2x+9)$:</strong> distributes to $23x^3+2x^2+9x$. &check;</li><li><strong>D) $34(x^3+x^2+x)$:</strong> distributes to $34x^3+34x^2+34x$, wrong coefficients. &cross;</li></ul>That confirms <strong>C</strong> is correct."
+      "content": "<ul><li><strong>A) $19x(x^2+5x+8)$:</strong> distributes to $19x^3+95x^2+152x$, not the original. &cross;</li><li><strong>B) $8x(19x^3+5x^2+1)$:</strong> distributes to $152x^4+40x^3+8x$, which has an $x^4$ term. &cross;</li><li><strong>C) $x(19x^2+5x+8)$:</strong> distributes to $19x^3+5x^2+8x$. &check;</li><li><strong>D) $32(x^3+x^2+x)$:</strong> distributes to $32x^3+32x^2+32x$, wrong coefficients. &cross;</li></ul>That confirms <strong>C</strong> is correct."
     }
   ]
 }

@@ -1,15 +1,15 @@
 {
   "questionId": "9628151f-9763-4abc-8c66-9dc08f82f715_10",
-  "correctAnswer": "2.24",
+  "correctAnswer": "3.90",
   "section": "Math",
   "steps": [
     {
       "title": "Calculate the retail price",
-      "content": "The retail price is $280\\%$ of the wholesale price of &#36;4.00: $$2.80\\times4.00=11.20$$ So the retail price is &#36;11.20."
+      "content": "The retail price is $260\\%$ of the wholesale price of &#36;5.00: $$2.60\\times5.00=13.00$$ So the retail price is &#36;13.00."
     },
     {
-      "title": "Apply the 80% discount",
-      "content": "An $80\\%$ discount means paying the remaining $20\\%$ of the retail price: $$0.20\\times11.20=2.24$$ The discounted price is <strong>2.24</strong> dollars."
+      "title": "Apply the 70% discount",
+      "content": "A $70\\%$ discount means paying the remaining $30\\%$ of the retail price: $$0.30\\times13.00=3.90$$ The discounted price is <strong>3.90</strong> dollars."
     }
   ]
 }

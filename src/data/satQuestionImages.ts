@@ -2,7 +2,9 @@ import { questionImageMap, type QuestionImageMapEntry } from "./questionImageMap
 import { satImageManifest } from "./satImageManifest";
 import { questionImageMap as unofficialQuestionImageMap } from "./unofficialQuestionImageMap";
 import {
+  questionImageAssetMetadataBySrc,
   questionImageDisplaySizeBySrc,
+  type QuestionImageAssetMetadata,
   type QuestionImageDisplaySize,
 } from "./questionImageSizing.generated";
 
@@ -10,6 +12,15 @@ export interface ResolvedSatImage {
   src: string;
   alt: string;
   displaySize?: QuestionImageDisplaySize;
+  width?: number;
+  height?: number;
+  hasTransparency?: boolean;
+  optimizedSrc?: string;
+  optimizedWidth?: number;
+  optimizedHeight?: number;
+  optimizedType?: string;
+  srcSet?: string;
+  sizes?: string;
 }
 
 const SAT_IMAGE_BASE = "/images/SAT-Style%20Questions/";
@@ -138,7 +149,32 @@ export const getSatImageDisplaySize = (
 ): QuestionImageDisplaySize | undefined => {
   const normalized = normalizeSatImagePath(path);
   if (!normalized) return undefined;
-  return questionImageDisplaySizeBySrc[normalized] ?? "standard";
+  return questionImageAssetMetadataBySrc[normalized]?.displaySize ??
+    questionImageDisplaySizeBySrc[normalized] ??
+    "standard";
+};
+
+export const getSatImageAssetMetadata = (
+  path: string | undefined,
+): QuestionImageAssetMetadata | undefined => {
+  const normalized = normalizeSatImagePath(path);
+  return normalized ? questionImageAssetMetadataBySrc[normalized] : undefined;
+};
+
+const buildResolvedImageMetadata = (src: string) => {
+  const metadata = questionImageAssetMetadataBySrc[src];
+  return {
+    displaySize: metadata?.displaySize ?? questionImageDisplaySizeBySrc[src] ?? "standard",
+    width: metadata?.optimizedWidth ?? metadata?.width,
+    height: metadata?.optimizedHeight ?? metadata?.height,
+    hasTransparency: metadata?.hasTransparentPixel,
+    optimizedSrc: metadata?.optimizedSrc,
+    optimizedWidth: metadata?.optimizedWidth,
+    optimizedHeight: metadata?.optimizedHeight,
+    optimizedType: metadata?.optimizedType,
+    srcSet: metadata?.srcSet,
+    sizes: metadata?.sizes,
+  };
 };
 
 const buildQuestionImageAlt = (questionId: string, index: number, total: number): string =>
@@ -162,7 +198,7 @@ export const resolveSatQuestionImages = (
       return {
         src,
         alt: img.alt?.trim() || buildQuestionImageAlt(id, index, images.length),
-        displaySize: getSatImageDisplaySize(src),
+        ...buildResolvedImageMetadata(src),
       };
     })
     .filter((img): img is ResolvedSatImage => Boolean(img));
@@ -178,7 +214,7 @@ export const resolveSatQuestionImages = (
     {
       src: stemImage,
       alt: buildQuestionImageAlt(id, 0, 1),
-      displaySize: getSatImageDisplaySize(stemImage),
+      ...buildResolvedImageMetadata(stemImage),
     },
   ];
 };

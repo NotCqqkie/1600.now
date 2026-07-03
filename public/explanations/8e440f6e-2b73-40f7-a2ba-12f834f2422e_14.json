@@ -1,19 +1,19 @@
 {
   "questionId": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_14",
-  "correctAnswer": "-16500",
+  "correctAnswer": "-18000",
   "section": "Math",
   "steps": [
     {
       "title": "Find the x-intercept",
-      "content": "Set $y = 0$ in $-6x + 4.4y = -660$:<br/>$$-6x = -660$$<br/>$$x = 110$$<br/>So $a = 110$."
+      "content": "Set $y = 0$ in $-8x + 3.6y = -720$:<br/>$$-8x = -720$$<br/>$$x = 90$$<br/>So $a = 90$."
     },
     {
       "title": "Find the y-intercept",
-      "content": "Set $x = 0$ in $-6x + 4.4y = -660$:<br/>$$4.4y = -660$$<br/>$$y = \\frac{-660}{4.4} = -150$$<br/>So $b = -150$."
+      "content": "Set $x = 0$ in $-8x + 3.6y = -720$:<br/>$$3.6y = -720$$<br/>$$y = \\frac{-720}{3.6} = -200$$<br/>So $b = -200$."
     },
     {
       "title": "Calculate the product",
-      "content": "$$ab = 110 \\times (-150) = -16500$$"
+      "content": "$$ab = 90 \\times (-200) = -18000$$"
     }
   ]
 }

@@ -5,12 +5,12 @@
   "steps": [
     {
       "title": "Identify the distance formula",
-      "content": "To find how far the bird travels, we use the relationship:<br/>$$\\text{distance} = \\text{speed} \\times \\text{time}$$<br/>We're given a speed of $16$ m/s and a time of $4$ s.",
+      "content": "To find how far the drone travels, we use the relationship:<br/>$$\\text{distance} = \\text{speed} \\times \\text{time}$$<br/>We're given a speed of $18$ m/s and a time of $5$ s.",
       "formula": "$$d = vt$$"
     },
     {
       "title": "Calculate the distance",
-      "content": "Substitute the given values into the formula:<br/>$$\\text{distance} = 16 \\text{ m/s} \\times 4 \\text{ s} = 64 \\text{ m}$$<br/>That confirms <strong>A</strong> is correct."
+      "content": "Substitute the given values into the formula:<br/>$$\\text{distance} = 18 \\text{ m/s} \\times 5 \\text{ s} = 90 \\text{ m}$$<br/>That confirms <strong>A</strong> is correct."
     }
   ]
 }

@@ -5,16 +5,16 @@
   "steps": [
     {
       "title": "Set up the density formula",
-      "content": "We know that <strong>Density = Mass ÷ Volume</strong>, so we can rearrange to find <strong>Mass = Density × Volume</strong>. The density is 813 kg/m³, and we need to find the volume of a cube with edge length 0.60 meters.",
+      "content": "We know that <strong>Density = Mass / Volume</strong>, so we can rearrange to find <strong>Mass = Density &times; Volume</strong>. The density is 926 kg/m^3, and we need to find the volume of a cube with edge length 0.70 meters.",
       "formula": "$$m = \\rho \\cdot V$$"
     },
     {
       "title": "Calculate the cube's volume",
-      "content": "For a cube with edge length $s$, the volume is $s^3$. With $s = 0.60$ meters:<br/>$$V = (0.60)^3 = 0.60 \\cdot 0.60 \\cdot 0.60 = 0.216 \\text{ m}^3$$"
+      "content": "For a cube with edge length $s$, the volume is $s^3$. With $s = 0.70$ meters:<br/>$$V = (0.70)^3 = 0.70 \\cdot 0.70 \\cdot 0.70 = 0.343 \\text{ m}^3$$"
     },
     {
       "title": "Multiply density by volume to find mass",
-      "content": "Now we apply the formula:<br/>$$\\text{Mass} = 813 \\cdot 0.216 = 175.608 \\text{ kg}$$<br/>Rounding to the nearest whole number gives 176 kg. That matches <strong>Choice A &mdash; $176$</strong>."
+      "content": "Now we apply the formula:<br/>$$\\text{Mass} = 926 \\cdot 0.343 = 317.618 \\text{ kg}$$<br/>Rounding to the nearest whole number gives 318 kg. That matches <strong>Choice A &mdash; $318$</strong>."
     }
   ]
 }

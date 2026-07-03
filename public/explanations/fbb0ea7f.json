@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Calculate total propellant burned",
-      "content": "The rocket started with 467,000 kg and had 362,105 kg remaining after 21 seconds. The total amount burned is:<br/>$$467,000 - 362,105 = 104,895 \\text{ kg}$$"
+      "content": "The rocket started with 486,000 kg and had 391,680 kg remaining after 18 seconds. The total amount burned is:<br/>$$486,000 - 391,680 = 94,320 \\text{ kg}$$"
     },
     {
       "title": "Divide by time to find average burn rate",
-      "content": "Average burn rate per second is:<br/>$$\\frac{104,895}{21} = 4,995 \\text{ kg/second}$$<br/>That matches the correct answer — <strong>A</strong> is correct."
+      "content": "Average burn rate per second is:<br/>$$\\frac{94,320}{18} = 5,240 \\text{ kg/second}$$<br/>That matches the correct answer: <strong>A</strong> is correct."
     }
   ]
 }

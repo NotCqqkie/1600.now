@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Translate the pricing into an expression",
-      "content": "The first person costs 9 dollars. The remaining $n - 1$ people each cost 6 dollars, contributing $6(n-1)$ dollars.<br/><br/>Total charge: $g(n) = 9 + 6(n - 1)$."
+      "content": "The first person costs 11 dollars. The remaining $n - 1$ people each cost 7 dollars, contributing $7(n-1)$ dollars.<br/><br/>Total charge: $g(n) = 11 + 7(n - 1)$."
     },
     {
       "title": "Simplify",
-      "content": "Distribute and combine: $g(n) = 9 + 6n - 6 = 6n + 3$."
+      "content": "Distribute and combine: $g(n) = 11 + 7n - 7 = 7n + 4$."
     },
     {
-      "title": "Sanity-check with $n = 5$",
-      "content": "Direct cost: 9 dollars plus $4 \\cdot 6 = 24$ dollars, for a total of 33 dollars.<br/>Formula: $g(5) = 6(5) + 3 = 33$. Match."
+      "title": "Sanity-check with $n = 4$",
+      "content": "Direct cost: 11 dollars plus $3 \\cdot 7 = 21$ dollars, for a total of 32 dollars.<br/>Formula: $g(4) = 7(4) + 4 = 32$. Match."
     },
     {
-      "title": "Evaluate each choice at $n = 5$",
-      "content": "<ul><li>A. $g(n) = 15n \\Rightarrow g(5) = 75$. Wrong.</li><li>B. $g(n) = 15n - 9 \\Rightarrow g(5) = 66$. Wrong.</li><li>C. $g(n) = 6n + 3 \\Rightarrow g(5) = 33$. Correct, and it matches the structure $9 + 6(n-1)$.</li><li>D. $g(n) = 6n + 9 \\Rightarrow g(5) = 39$. Wrong (treats all $n$ people as additional, then adds 9 dollars).</li></ul>That confirms <strong>C</strong> is correct."
+      "title": "Evaluate each choice at $n = 4$",
+      "content": "<ul><li>A. $g(n) = 18n \\Rightarrow g(4) = 72$. Wrong.</li><li>B. $g(n) = 18n - 11 \\Rightarrow g(4) = 61$. Wrong.</li><li>C. $g(n) = 7n + 4 \\Rightarrow g(4) = 32$. Correct, and it matches the structure $11 + 7(n-1)$.</li><li>D. $g(n) = 7n + 11 \\Rightarrow g(4) = 39$. Wrong (treats all $n$ people as additional, then adds 11 dollars).</li></ul>That confirms <strong>C</strong> is correct."
     }
   ]
 }

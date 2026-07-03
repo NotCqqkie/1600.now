@@ -5,16 +5,16 @@
   "steps": [
     {
       "title": "Condition for Infinitely Many Solutions",
-      "content": "For the system to have infinitely many solutions, the two equations must represent the same line.<br/><br/>This requires each of their coefficients (including the constant term) to be proportional by the same factor.<br/><br/>Inspect the coefficients: the second equation <em>8x + 28y</em> is exactly 4 times the first equation’s <em>2x + 7y</em> because $ 8 ÷ 2 = 4 $ and $ 28 ÷ 7 = 4 $.",
-      "formula": "$$2x + 7y = 9 \\quad \\text{becomes} \\quad 8x + 28y = 36 \\quad \\text{when multiplied by 4}$$"
+      "content": "For the system to have infinitely many solutions, the two equations must represent the same line.<br/><br/>This requires each of their coefficients (including the constant term) to be proportional by the same factor.<br/><br/>Inspect the coefficients: the second equation <em>12x + 20y</em> is exactly 4 times the first equation's <em>3x + 5y</em> because $ 12 \\div 3 = 4 $ and $ 20 \\div 5 = 4 $.",
+      "formula": "$$3x + 5y = 8 \\quad \\text{becomes} \\quad 12x + 20y = 32 \\quad \\text{when multiplied by 4}$$"
     },
     {
       "title": "Determine the Constant Term",
-      "content": "Since the entire equation scales by 4, the constant term <em>9</em> in the first equation must also scale by 4. Calculating $ 9 × 4 = 36 $, so the value of <em>a</em> must be 36 to make the second equation identical to the first."
+      "content": "Since the entire equation scales by 4, the constant term <em>8</em> in the first equation must also scale by 4. Calculating $ 8 \\times 4 = 32 $, so the value of <em>a</em> must be 32 to make the second equation identical to the first."
     },
     {
       "title": "Final Answer",
-      "content": "The system becomes identical lines only when <em>a = 36</em>. <strong>C</strong> is correct."
+      "content": "The system becomes identical lines only when <em>a = 32</em>. <strong>C</strong> is correct."
     }
   ]
 }

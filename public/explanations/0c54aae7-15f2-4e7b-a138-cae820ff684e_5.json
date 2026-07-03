@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Translate the percentage statement to an equation",
-      "content": "The phrase <em>350 percent of n is 35</em> translates to:<br/>$$3.5n = 35$$<br/>(since 350% = 3.5)"
+      "content": "The phrase <em>250 percent of n is 45</em> translates to:<br/>$$2.5n = 45$$<br/>(since 250% = 2.5)"
     },
     {
-      "title": "Solve for n by dividing both sides by 3.5",
-      "content": "$$n = \\frac{35}{3.5} = 10$$<br/>That matches <strong>Choice D &mdash; $10$</strong>."
+      "title": "Solve for n by dividing both sides by 2.5",
+      "content": "$$n = \\frac{45}{2.5} = 18$$<br/>That matches <strong>Choice D &mdash; $18$</strong>."
     },
     {
       "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches <strong>Choice D &mdash; $10$</strong>, $10$, and the other choices fail the same setup or substitution. Therefore <strong>D</strong>."
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches <strong>Choice D &mdash; $18$</strong>, $18$, and the other choices fail the same setup or substitution. Therefore <strong>D</strong>."
     }
   ]
 }

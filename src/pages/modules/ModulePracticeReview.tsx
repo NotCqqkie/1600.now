@@ -1,4 +1,4 @@
-import { useMemo } from "react";
+import { useEffect, useMemo } from "react";
 import { Link, useNavigate, useParams, useSearchParams } from "react-router-dom";
 import { Bookmark } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -20,7 +20,7 @@ import {
   getModulePracticeSession,
   saveModulePracticeResult,
 } from "@/lib/practice/modulePracticeSession";
-import { getPracticeModule } from "@/data/modulePracticeBank";
+import { getPracticeModule, loadPracticeModule } from "@/data/modulePracticeBank";
 import { buildModulePracticeQuestionRoute } from "@/lib/practice/practiceBankRoutes";
 import {
   PRACTICE_EXIT_TO_STORAGE_KEY,
@@ -69,6 +69,10 @@ const ModulePracticeReview = () => {
   const sessionId = searchParams.get("session");
   const session = module ? getModulePracticeSession(module.slug) : null;
 
+  useEffect(() => {
+    if (module) void loadPracticeModule(module.slug);
+  }, [module]);
+
   if (!module || !session || !sessionId || session.sessionId !== sessionId) {
     return (
       <div className={NOT_FOUND_SHELL_CLASS}>
@@ -106,12 +110,14 @@ const ModulePracticeReview = () => {
   const backQuestionIndex = getBackQuestionIndex(session.currentIndex, module.questions.length);
   const backQuestion = module.questions[backQuestionIndex]?.bankQuestion;
 
-  const handleSubmit = () => {
+  const handleSubmit = async () => {
+    const loadedModule = await loadPracticeModule(module.slug);
+    if (!loadedModule) return;
     const submittedSession = {
       ...session,
       status: "submitted" as const,
     };
-    const result = buildModulePracticeResult(module, submittedSession);
+    const result = buildModulePracticeResult(loadedModule, submittedSession);
     saveModulePracticeResult(result, user?.id ?? null);
     clearModulePracticeSession(module.slug);
     clearModuleReviewSessionStorage();

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute t = 3 into the equation",
-      "content": "The equation $s = 40 + 2t$ gives the speed $s$, in miles per hour, of the car $t$ seconds after it began to accelerate. To find the speed at $t = 3$, substitute:<br/>$$s = 40 + 2(3) = 40 + 6 = 46$$"
+      "title": "Substitute t = 4 into the equation",
+      "content": "The equation $s = 38 + 3t$ gives the speed $s$, in miles per hour, of the van $t$ seconds after it began to accelerate. To find the speed at $t = 4$, substitute:<br/>$$s = 38 + 3(4) = 38 + 12 = 50$$"
     },
     {
       "title": "Identify the answer",
-      "content": "The speed of the car 3 seconds after it began to accelerate is 46 miles per hour. That is the correct answer."
+      "content": "The speed of the van 4 seconds after it began to accelerate is 50 miles per hour. That is the correct answer."
     }
   ]
 }

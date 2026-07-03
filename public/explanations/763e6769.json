@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Set up the proportion",
-      "content": "The ratio x to y is equivalent to the ratio 12 to t, so:<br/>$$\\frac{x}{y} = \\frac{12}{t}$$<br/>Substitute x = 156:<br/>$$\\frac{156}{y} = \\frac{12}{t}$$"
+      "content": "The ratio x to y is equivalent to the ratio 14 to t, so:<br/>$$\\frac{x}{y} = \\frac{14}{t}$$<br/>Substitute x = 210:<br/>$$\\frac{210}{y} = \\frac{14}{t}$$"
     },
     {
       "title": "Cross-multiply and isolate y",
-      "content": "Cross-multiplying gives 156t = 12y.<br/>Divide both sides by 12: y = 156t / 12 = 13t."
+      "content": "Cross-multiplying gives 210t = 14y.<br/>Divide both sides by 14: y = 210t / 14 = 15t."
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;$13t$&rsquo;</strong>: 13t — 156 / (13t) = 12/t ✓. That confirms <strong>A</strong> is correct.</li><li><strong>Choice B &mdash; &lsquo;$12t$&rsquo;</strong>: 12t — 156 / (12t) = 13/t &ne; 12/t. Eliminated.</li><li><strong>Choice C &mdash; &lsquo;$144t$&rsquo;</strong>: 144t — 156 / (144t) &ne; 12/t. Eliminated.</li><li><strong>Choice D &mdash; &lsquo;$168t$&rsquo;</strong>: 168t — 156 / (168t) &ne; 12/t. Eliminated.</li></ul>That confirms <strong>A</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;$15t$&rsquo;</strong>: 15t &mdash; 210 / (15t) = 14/t &#10003;. That confirms <strong>A</strong> is correct.</li><li><strong>Choice B &mdash; &lsquo;$14t$&rsquo;</strong>: 14t &mdash; 210 / (14t) = 15/t &ne; 14/t. Eliminated.</li><li><strong>Choice C &mdash; &lsquo;$196t$&rsquo;</strong>: 196t &mdash; 210 / (196t) &ne; 14/t. Eliminated.</li><li><strong>Choice D &mdash; &lsquo;$224t$&rsquo;</strong>: 224t &mdash; 210 / (224t) &ne; 14/t. Eliminated.</li></ul>That confirms <strong>A</strong> is correct."
     }
   ]
 }

@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Apply the multiplier from the given condition",
-      "content": "Note $70x+50 = 10(7x+5)$, and $7x+5=47$."
+      "content": "Note $80x+60 = 10(8x+6)$, and $8x+6=46$."
     },
     {
       "title": "Compute the target value",
-      "content": "So $70x+50 = 10 \\cdot 47 = 470$. That confirms <strong>D</strong> is correct."
+      "content": "So $80x+60 = 10 \\cdot 46 = 460$. That confirms <strong>D</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches the correct answer, 470. The other choices do not satisfy the same condition from the question, so <strong>D</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches the correct answer, 460. The other choices do not satisfy the same condition from the question, so <strong>D</strong> is correct."
     }
   ]
 }

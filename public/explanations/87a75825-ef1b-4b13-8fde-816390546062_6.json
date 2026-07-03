@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Translate daily distance to an inequality",
-      "content": "The whale travels 72 to 77 miles per day. Write this as: $$72 \\leq \\text{(daily distance)} \\leq 77$$"
+      "content": "The sea turtle travels 68 to 74 miles per day. Write this as: $$68 \\leq \\text{(daily distance)} \\leq 74$$"
     },
     {
-      "title": "Scale to 27 days by multiplying by 27",
-      "content": "For the total distance $x$ over 27 days, multiply each part of the inequality by 27: $$(72)(27) \\leq \\text{(daily distance)}(27) \\leq (77)(27)$$ Since $x$ is the total distance: $$(72)(27) \\leq x \\leq (77)(27)$$ That confirms <strong>B</strong> is correct."
+      "title": "Scale to 31 days by multiplying by 31",
+      "content": "For the total distance $x$ over 31 days, multiply each part of the inequality by 31: $$(68)(31) \\leq \\text{(daily distance)}(31) \\leq (74)(31)$$ Since $x$ is the total distance: $$(68)(31) \\leq x \\leq (74)(31)$$ That confirms <strong>B</strong> is correct."
     }
   ]
 }

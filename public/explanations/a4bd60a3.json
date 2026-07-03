@@ -1,6 +1,6 @@
 {
   "questionId": "a4bd60a3",
-  "correctAnswer": "104",
+  "correctAnswer": "112",
   "section": "Math",
   "steps": [
     {
@@ -9,11 +9,11 @@
     },
     {
       "title": "Find the side length from the perimeter",
-      "content": "The perimeter of an equilateral triangle equals three times the side length. With a perimeter of 624 cm:<br/>$$\\text{Side length} = \\frac{624}{3} = 208 \\text{ cm}$$"
+      "content": "The perimeter of an equilateral triangle equals three times the side length. With a perimeter of 672 cm:<br/>$$\\text{Side length} = \\frac{672}{3} = 224 \\text{ cm}$$"
     },
     {
       "title": "Apply the equilateral triangle height formula",
-      "content": "For an equilateral triangle with side length $s$, use the height formula. Substituting $s = 208$:<br/>$$h = \\frac{208\\sqrt{3}}{2} = 104\\sqrt{3} \\text{ cm}$$<br/>Since the height is expressed as $k\\sqrt{3}$ centimeters, we have $k = 104$.",
+      "content": "For an equilateral triangle with side length $s$, use the height formula. Substituting $s = 224$:<br/>$$h = \\frac{224\\sqrt{3}}{2} = 112\\sqrt{3} \\text{ cm}$$<br/>Since the height is expressed as $k\\sqrt{3}$ centimeters, we have $k = 112$.",
       "formula": "$$h = \\frac{s\\sqrt{3}}{2}$$"
     }
   ]

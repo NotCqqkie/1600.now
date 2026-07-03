@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Make a table from the point and slope",
-      "content": "The point $(0,-8)$ is on the graph, so the $y$-intercept is $-8$. With slope $3$, moving one unit right raises $y$ by $3$, so another point is $(1,-5)$."
+      "content": "The point $(0,-7)$ is on the graph, so the $y$-intercept is $-7$. With slope $5$, moving one unit right raises $y$ by $5$, so another point is $(1,-2)$."
     },
     {
       "title": "Find the line from the data",
-      "content": "In slope-intercept form, $f(x)=mx+b$. Here $m=3$ and $b=-8$, so $$f(x)=3x-8.$$"
+      "content": "In slope-intercept form, $f(x)=mx+b$. Here $m=5$ and $b=-7$, so $$f(x)=5x-7.$$"
     },
     {
       "title": "Evaluate each choice",
-      "content": "All four choices with $3x$ have the right slope only if their constant term is correct. The distractors use intercepts $0$, $5$, and $11$. The graph has intercept $-8$, so <strong>B</strong> is correct."
+      "content": "All four choices with $5x$ have the right slope only if their constant term is correct. The distractors use intercepts $0$, $2$, and $12$. The graph has intercept $-7$, so <strong>B</strong> is correct."
     }
   ]
 }

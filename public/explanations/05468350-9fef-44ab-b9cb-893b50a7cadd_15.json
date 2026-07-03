@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the lower bound of g(x)",
-      "content": "We note that $2^{x}\\gt 0$ for all real $x$.<br/>Multiplying by 6 and adding 7 gives $6\\cdot2^{x}+7\\gt 7$.<br/>Dividing by 11 yields $$ g(x) = \\frac{1}{11}(6\\cdot2^{x}+7) \\gt  \\frac{7}{11}.$$<br/>Thus $g(x)$ is always greater than $\\frac{7}{11}$."
+      "content": "We note that $2^{x}\\gt 0$ for all real $x$.<br/>Multiplying by 6 and adding 5 gives $6\\cdot2^{x}+5\\gt 5$.<br/>Dividing by 17 yields $$ g(x) = \\frac{1}{17}(6\\cdot2^{x}+5) \\gt  \\frac{5}{17}.$$<br/>Thus $g(x)$ is always greater than $\\frac{5}{17}$."
     },
     {
       "title": "Determine the greatest possible k",
-      "content": "As $x\\to -\\infty$, $2^{x}\\to 0^{+}$, so $$ g(x) \\to \\frac{1}{11}(6\\cdot0+7) = \\frac{7}{11}$$ from above.<br/>Hence $g(x)$ can be made arbitrarily close to $\\frac{7}{11}$ but never below it.<br/>If $k \\gt  \\frac{7}{11}$, choose $x$ sufficiently negative to make $g(x) \\lt k$, violating the condition.<br/>If $k = \\frac{7}{11}$, then $g(x) \\gt  k$ for every $x$.<br/>Therefore the greatest possible constant $k$ is $\\frac{7}{11}$.<br/>That matches <strong>Choice C &mdash; $\\frac{7}{11}$</strong>."
+      "content": "As $x\\to -\\infty$, $2^{x}\\to 0^{+}$, so $$ g(x) \\to \\frac{1}{17}(6\\cdot0+5) = \\frac{5}{17}$$ from above.<br/>Hence $g(x)$ can be made arbitrarily close to $\\frac{5}{17}$ but never below it.<br/>If $k \\gt  \\frac{5}{17}$, choose $x$ sufficiently negative to make $g(x) \\lt k$, violating the condition.<br/>If $k = \\frac{5}{17}$, then $g(x) \\gt  k$ for every $x$.<br/>Therefore the greatest possible constant $k$ is $\\frac{5}{17}$.<br/>That matches <strong>Choice C &mdash; $\\frac{5}{17}$</strong>."
     }
   ]
 }

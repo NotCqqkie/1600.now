@@ -1,6 +1,6 @@
 {
   "questionId": "e6cb2402",
-  "correctAnswer": ".9411",
+  "correctAnswer": "15/19",
   "section": "Math",
   "steps": [
     {
@@ -9,11 +9,11 @@
     },
     {
       "title": "Confirm by expanding",
-      "content": "Expand the left side: $$3(kx+13)=3kx+39.$$ The equation is $$3kx+39=\\frac{48}{17}x+36.$$ For no solution, match the $x$-coefficients: $$3k=\\frac{48}{17}$$ $$k=\\frac{48}{51}=\\frac{16}{17}\\approx0.9411.$$"
+      "content": "Expand the left side: $$4(kx+11)=4kx+44.$$ The equation is $$4kx+44=\\frac{60}{19}x+40.$$ For no solution, match the $x$-coefficients: $$4k=\\frac{60}{19}$$ $$k=\\frac{60}{76}=\\frac{15}{19}\\approx0.7895.$$"
     },
     {
       "title": "Check the contradiction",
-      "content": "With $k=\\frac{16}{17}$, the $x$-terms match, but the constants are $39$ and $36$. After subtracting the matching $x$-terms, the equation becomes $39=36$, which is impossible. Therefore the equation has no solution, and the answer is <strong>.9411</strong>."
+      "content": "With $k=\\frac{15}{19}$, the $x$-terms match, but the constants are $44$ and $40$. After subtracting the matching $x$-terms, the equation becomes $44=40$, which is impossible. Therefore the equation has no solution, and the answer is <strong>15/19</strong>."
     }
   ]
 }

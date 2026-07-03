@@ -1,4 +1,4 @@
-import { defineConfig } from "vite";
+import { defineConfig, loadEnv } from "vite";
 import type { Plugin } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import * as fs from "node:fs";
@@ -63,8 +63,29 @@ const satImageAliasPlugin = (): Plugin => ({
   },
 });
 
+const REQUIRED_FIREBASE_ENV_KEYS = [
+  "VITE_FIREBASE_API_KEY",
+  "VITE_FIREBASE_AUTH_DOMAIN",
+  "VITE_FIREBASE_PROJECT_ID",
+  "VITE_FIREBASE_APP_ID",
+];
+
 // https://vitejs.dev/config/
-export default defineConfig(({ mode }) => ({
+export default defineConfig(({ command, mode }) => {
+  // Fail a production build fast if the public Firebase client config is
+  // missing, rather than shipping an auth-disabled bundle.
+  if (command === "build" && mode !== "development") {
+    const env = loadEnv(mode, process.cwd(), "");
+    const missing = REQUIRED_FIREBASE_ENV_KEYS.filter((key) => !env[key]);
+    if (missing.length > 0) {
+      throw new Error(
+        `Missing required Firebase env vars for production build: ${missing.join(", ")}. ` +
+          "Set VITE_FIREBASE_* in the build environment.",
+      );
+    }
+  }
+
+  return {
   server: {
     host: "0.0.0.0",
     port: 8080,
@@ -104,28 +125,21 @@ export default defineConfig(({ mode }) => ({
             return "bank-data-hidden";
           }
 
+          if (id.includes("/src/lib/generated/bankPracticeIndex.generated.ts")) {
+            return "bank-practice-index";
+          }
+
+          if (id.includes("/src/lib/generated/bank-practice-sets/")) {
+            const setNumber = path.basename(id).replace("set-", "").replace(/\.generated\.ts.*$/, "");
+            return `bank-practice-set-${setNumber}`;
+          }
+
           if (id.includes("/src/data/pastQuestionDifficulty.ts")) {
             return "bank-data-past-difficulty";
           }
 
           if (id.includes("/src/data/unofficialQuestions.ts")) {
             return "bank-data-unofficial";
-          }
-
-          if (id.includes("/src/data/questions/unofficial_math.json")) {
-            return "bank-data-unofficial-math";
-          }
-
-          if (id.includes("/src/data/questions/unofficial_reading.json")) {
-            return "bank-data-unofficial-reading";
-          }
-
-          if (id.includes("/src/data/questions/math_past.json")) {
-            return "bank-data-past-math";
-          }
-
-          if (id.includes("/src/data/questions/reading_past.json")) {
-            return "bank-data-past-reading";
           }
 
           if (id.includes("/src/data/questionCategories.ts")) {
@@ -166,4 +180,5 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-}));
+  };
+});

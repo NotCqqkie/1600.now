@@ -9,11 +9,11 @@
     },
     {
       "title": "Apply the diagonal formula",
-      "content": "For a square with side $s$, the diagonal is: $$d = s\\sqrt{2}$$Simplify the given diagonal: $$\\frac{176\\sqrt{2}}{2} = 88\\sqrt{2}$$Set them equal: $$88\\sqrt{2} = s\\sqrt{2}$$Divide both sides by $\\sqrt{2}$: $$s = 88$$"
+      "content": "For a square with side $s$, the diagonal is: $$d = s\\sqrt{2}$$Simplify the given diagonal: $$\\frac{184\\sqrt{2}}{2} = 92\\sqrt{2}$$Set them equal: $$92\\sqrt{2} = s\\sqrt{2}$$Divide both sides by $\\sqrt{2}$: $$s = 92$$"
     },
     {
       "title": "Calculate the area",
-      "content": "The area of a square is $A = s^2$. Substitute $s = 88$: $$A = 88^2 = 7,744$$That confirms <strong>C</strong> is correct."
+      "content": "The area of a square is $A = s^2$. Substitute $s = 92$: $$A = 92^2 = 8,464$$That confirms <strong>C</strong> is correct."
     }
   ]
 }

@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $-6k + 17r - 6$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $-7p + 16q - 8$."
     },
     {
       "title": "Algebra check",
@@ -13,15 +13,15 @@
     },
     {
       "title": "Set up the subtraction",
-      "content": "Substitute the expressions for $a$ and $b$ into $a - b$ and distribute the negative sign carefully:<br/>$$a - b = (3k + 5r) - (9k - 12r + 6)$$<br/>$$= 3k + 5r - 9k + 12r - 6$$"
+      "content": "Substitute the expressions for $a$ and $b$ into $a - b$ and distribute the negative sign carefully:<br/>$$a - b = (4p + 7q) - (11p - 9q + 8)$$<br/>$$= 4p + 7q - 11p + 9q - 8$$"
     },
     {
       "title": "Combine like terms",
-      "content": "Group and combine:<br/>$k$ terms: $3k - 9k = -6k$<br/>$r$ terms: $5r + 12r = 17r$<br/>constant: $-6$<br/>So $a - b = -6k + 17r - 6$."
+      "content": "Group and combine:<br/>$p$ terms: $4p - 11p = -7p$<br/>$q$ terms: $7q + 9q = 16q$<br/>constant: $-8$<br/>So $a - b = -7p + 16q - 8$."
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li><strong>A) $-6k + 17r - 6$:</strong> Matches our simplified expression exactly.</li><li><strong>B) $-6k + 17r + 6$:</strong> Wrong sign on the constant; subtracting $+6$ gives $-6$, not $+6$.</li><li><strong>C) $-6k - 7r + 6$:</strong> Wrong $r$ coefficient ($5r - (-12r) = 17r$, not $-7r$) and wrong constant.</li><li><strong>D) $-6k - 7r - 6$:</strong> Wrong $r$ coefficient; sign of $-12r$ must flip to $+12r$.</li></ul><strong>A</strong> is correct."
+      "content": "<ul><li><strong>A) $-7p + 16q - 8$:</strong> Matches our simplified expression exactly.</li><li><strong>B) $-7p + 16q + 8$:</strong> Wrong sign on the constant; subtracting $+8$ gives $-8$, not $+8$.</li><li><strong>C) $-7p - 2q + 8$:</strong> Wrong $q$ coefficient ($7q - (-9q) = 16q$, not $-2q$) and wrong constant.</li><li><strong>D) $-7p - 2q - 8$:</strong> Wrong $q$ coefficient; sign of $-9q$ must flip to $+9q$.</li></ul><strong>A</strong> is correct."
     }
   ]
 }

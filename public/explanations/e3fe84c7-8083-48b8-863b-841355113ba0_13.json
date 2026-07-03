@@ -1,23 +1,23 @@
 {
   "questionId": "e3fe84c7-8083-48b8-863b-841355113ba0_13",
-  "correctAnswer": "63",
+  "correctAnswer": "70",
   "section": "Math",
   "steps": [
     {
       "title": "Translate to equations",
-      "content": "From $35\\%$ of $h=49\\%$ of $j$, $h=\\tfrac{49}{35}j$. Also $j=\\tfrac{45}{100}k$."
+      "content": "From $40\\%$ of $h=56\\%$ of $j$, $h=\\tfrac{56}{40}j$. Also $j=\\tfrac{50}{100}k$."
     },
     {
       "title": "Combine the ratios",
-      "content": "Substituting gives $$h=\\tfrac{49}{35}\\cdot\\tfrac{45}{100}k=\\tfrac{2205}{3500}k.$$"
+      "content": "Substituting gives $$h=\\tfrac{56}{40}\\cdot\\tfrac{50}{100}k=\\tfrac{2800}{4000}k.$$"
     },
     {
       "title": "Convert to a percent",
-      "content": "That is $\\tfrac{2205}{35}\\%=63\\%$ of $k$. The answer is <strong>63</strong>."
+      "content": "That is $\\tfrac{2800}{40}\\%=70\\%$ of $k$. The answer is <strong>70</strong>."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $63$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $63$."
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $70$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $70$."
     }
   ]
 }

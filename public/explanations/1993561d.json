@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Use slope-intercept form",
-      "content": "A line with slope $m$ and y-intercept $b$ has equation $y=mx+b$. The graph shows a y-intercept of $5$, so $b=5$."
+      "content": "A line with slope $m$ and y-intercept $b$ has equation $y=mx+b$. The graph shows a y-intercept of $7$, so $b=7$."
     },
     {
       "title": "Substitute the slope",
-      "content": "The slope is $\\frac{1}{4}$, so the equation is:<br/>$$f(x)=\\frac{1}{4}x+5$$"
+      "content": "The slope is $\\frac{1}{5}$, so the equation is:<br/>$$f(x)=\\frac{1}{5}x+7$$"
     },
     {
       "title": "Confirm the answer",
-      "content": "<strong>Choice A &mdash; $f \\left(x\\right)=\\frac{1}{4}x+5$</strong> matches both the slope and intercept. <strong>Choice B &mdash; $f \\left(x\\right)=\\frac{1}{4}x+\\frac{1}{5}$</strong> has the wrong intercept, <strong>Choice C &mdash; $f(x)=\\frac{1}{4}x-\\frac{5}{4}$</strong> has intercept $-\\frac{5}{4}$, and <strong>Choice D &mdash; $f \\left(x\\right)=\\frac{1}{4}x-5$</strong> has intercept $-5$. <strong>Choice A &mdash; $f \\left(x\\right)=\\frac{1}{4}x+5$</strong>."
+      "content": "<strong>Choice A &mdash; $f \\left(x\\right)=\\frac{1}{5}x+7$</strong> matches both the slope and intercept. <strong>Choice B &mdash; $f \\left(x\\right)=\\frac{1}{5}x+\\frac{1}{7}$</strong> has the wrong intercept, <strong>Choice C &mdash; $f(x)=\\frac{1}{5}x-\\frac{7}{5}$</strong> has intercept $-\\frac{7}{5}$, and <strong>Choice D &mdash; $f \\left(x\\right)=\\frac{1}{5}x-7$</strong> has intercept $-7$. <strong>Choice A &mdash; $f \\left(x\\right)=\\frac{1}{5}x+7$</strong>."
     }
   ]
 }

@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Use the intercept and slope as two points",
-      "content": "The $y$-intercept is $(0,-5)$. The slope is $2$, so moving right $1$ raises the output by $2$, giving a second point $(1,-3)$."
+      "content": "The $y$-intercept is $(0,-4)$. The slope is $3$, so moving right $1$ raises the output by $3$, giving a second point $(1,-1)$."
     },
     {
       "title": "Find the line from the data",
-      "content": "Slope-intercept form is $f(x)=mx+b$. The slope is $m=2$, and the $y$-intercept is $b=-5$, so $$f(x)=2x-5.$$"
+      "content": "Slope-intercept form is $f(x)=mx+b$. The slope is $m=3$, and the $y$-intercept is $b=-4$, so $$f(x)=3x-4.$$"
     },
     {
       "title": "Confirm the answer",
-      "content": "The correct answer is the only equation with slope $2$ and $y$-intercept $-5$. Therefore <strong>D</strong> is correct."
+      "content": "The correct answer is the only equation with slope $3$ and $y$-intercept $-4$. Therefore <strong>D</strong> is correct."
     }
   ]
 }

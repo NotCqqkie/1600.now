@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute x equals negative 7",
-      "content": "Replace $x$ with $-7$ in $g(x)=4x-6$: $$g(-7)=4(-7)-6$$"
+      "title": "Substitute x equals negative 6",
+      "content": "Replace $x$ with $-6$ in $g(x)=5x-7$: $$g(-6)=5(-6)-7$$"
     },
     {
       "title": "Simplify carefully",
-      "content": "$$4(-7)=-28$$ $$-28-6=-34$$ Therefore, $g(-7)=-34$."
+      "content": "$$5(-6)=-30$$ $$-30-7=-37$$ Therefore, $g(-6)=-37$."
     },
     {
       "title": "Check the choices",
-      "content": "$-34$ is correct. Solving for the $x$-value that would make $g(x)=-7$ answers a different question; here the task is to evaluate $g(-7)$ directly from the function rule."
+      "content": "$-37$ is correct. Solving for the $x$-value that would make $g(x)=-6$ answers a different question; here the task is to evaluate $g(-6)$ directly from the function rule."
     }
   ]
 }

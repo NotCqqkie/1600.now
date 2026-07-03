@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $3{x}^{2}+7x-8$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $4{x}^{2}+7x-6$."
     },
     {
       "title": "Algebra check",
@@ -13,11 +13,11 @@
     },
     {
       "title": "Combine the polynomial terms",
-      "content": "Add $$(2x^2+x-9)+(x^2+6x+1).$$ The $x^2$ terms give $2x^2+x^2=3x^2$, the $x$ terms give $x+6x=7x$, and the constants give $-9+1=-8$."
+      "content": "Add $$(3x^2+2x-8)+(x^2+5x+2).$$ The $x^2$ terms give $3x^2+x^2=4x^2$, the $x$ terms give $2x+5x=7x$, and the constants give $-8+2=-6$."
     },
     {
       "title": "Write the simplified expression",
-      "content": "So the sum is $$3x^2+7x-8.$$ That expression matches the computed answer, so <strong>D</strong> is correct. The order of terms in the choice may differ, but the coefficients $3$, $7$, and $-8$ are what matter."
+      "content": "So the sum is $$4x^2+7x-6.$$ That expression matches the computed answer, so <strong>D</strong> is correct. The order of terms in the choice may differ, but the coefficients $4$, $7$, and $-6$ are what matter."
     }
   ]
 }

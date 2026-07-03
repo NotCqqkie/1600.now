@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Set up",
-      "content": "The equation $d = 8t + 210$ is linear. The slope 8 means distance increases by 8 feet for every 1 minute elapsed."
+      "content": "The equation $d = 9t + 185$ is linear. The slope 9 means distance increases by 9 feet for every 1 minute elapsed."
     },
     {
       "title": "Solve",
-      "content": "Over 20 minutes: $8 \\times 20 = 160$ feet."
+      "content": "Over 25 minutes: $9 \\times 25 = 225$ feet."
     },
     {
       "title": "Answer",
-      "content": "The starting value $210$ is not part of the increase over the 20-minute interval; it is only the initial distance at $t=0$. The increase is the rate times time, $8(20)=160$, so <strong>C</strong> is correct."
+      "content": "The starting value $185$ is not part of the increase over the 25-minute interval; it is only the initial distance at $t=0$. The increase is the rate times time, $9(25)=225$, so <strong>C</strong> is correct."
     }
   ]
 }

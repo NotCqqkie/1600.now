@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Pull out the greatest common factor",
-      "content": "Both terms in $49p^{19} - 121p^{17}$ share $p^{17}$. Factor it out: $49p^{19} - 121p^{17} = p^{17}(49p^2 - 121)$."
+      "content": "Both terms in $64q^{21} - 169q^{19}$ share $q^{19}$. Factor it out: $64q^{21} - 169q^{19} = q^{19}(64q^2 - 169)$."
     },
     {
       "title": "Factor the difference of squares",
-      "content": "The bracket $49p^2 - 121$ is $(7p)^2 - 11^2$, a difference of squares. Apply $a^2 - b^2 = (a-b)(a+b)$: $49p^2 - 121 = (7p - 11)(7p + 11)$. So $49p^{19} - 121p^{17} = p^{17}(7p - 11)(7p + 11)$."
+      "content": "The bracket $64q^2 - 169$ is $(8q)^2 - 13^2$, a difference of squares. Apply $a^2 - b^2 = (a-b)(a+b)$: $64q^2 - 169 = (8q - 13)(8q + 13)$. So $64q^{21} - 169q^{19} = q^{19}(8q - 13)(8q + 13)$."
     },
     {
       "title": "Match against the choices",
-      "content": "Any factor of the original expression must appear in $p^{17}(7p-11)(7p+11)$.<ul><li>$7p + 11$ &mdash; appears directly. Factor.</li><li>$49p^2 + 121$ &mdash; this is a sum of squares, not a difference; it cannot be split out of $49p^2 - 121$. Not a factor.</li><li>$11p - 7$ &mdash; the linear factors are $7p \\pm 11$, not $11p \\pm 7$. Not a factor.</li><li>$-72p^{40}$ &mdash; the largest power of $p$ in the expression is $p^{19}$, so $p^{40}$ cannot divide it. Not a factor.</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+      "content": "Any factor of the original expression must appear in $q^{19}(8q-13)(8q+13)$.<ul><li>$8q + 13$ &mdash; appears directly. Factor.</li><li>$64q^2 + 169$ &mdash; this is a sum of squares, not a difference; it cannot be split out of $64q^2 - 169$. Not a factor.</li><li>$13q - 8$ &mdash; the linear factors are $8q \\pm 13$, not $13q \\pm 8$. Not a factor.</li><li>$-105q^{44}$ &mdash; the largest power of $q$ in the expression is $q^{21}$, so $q^{44}$ cannot divide it. Not a factor.</li></ul>That matches the correct answer — <strong>A</strong> is correct."
     }
   ]
 }

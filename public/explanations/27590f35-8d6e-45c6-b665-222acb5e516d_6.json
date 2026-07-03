@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Substitute the given value",
-      "content": "With $f(x)=5x+b$ and $f(7)=35$, plug $x=7$ into the function:<br/>$$5(7)+b=35\\;\\Rightarrow\\;35+b=35$$"
+      "content": "With $f(x)=6x+b$ and $f(8)=48$, plug $x=8$ into the function:<br/>$$6(8)+b=48\\;\\Rightarrow\\;48+b=48$$"
     },
     {
       "title": "Solve for the unknown",
-      "content": "Subtract $35$ from both sides: $b=0$.<br/>That matches <strong>Choice A &mdash; 0</strong>.<br/><br/>The given function value pins down the intercept term: after the $5x$ part already equals $35$, there is no room for any extra constant."
+      "content": "Subtract $48$ from both sides: $b=0$.<br/>That matches <strong>Choice A &mdash; 0</strong>.<br/><br/>The given function value pins down the intercept term: after the $6x$ part already equals $48$, there is no room for any extra constant."
     }
   ]
 }

@@ -1,15 +1,15 @@
 {
   "questionId": "3318d37b",
-  "correctAnswer": "66",
+  "correctAnswer": "50",
   "section": "Math",
   "steps": [
     {
       "title": "Identify the unit rate",
-      "content": "We are given that the product costs \\$11.00 per pound. This is the unit rate — the cost per unit quantity."
+      "content": "We are given that the supply costs \\$12.50 per pound. This is the unit rate, the cost per unit quantity."
     },
     {
       "title": "Calculate total cost by scaling the unit rate",
-      "content": "To find the cost for 6 pounds, multiply the unit rate by the quantity:<br/>$$11 \\times 6 = 66$$<br/>The cost for 6 pounds is \\$66.00. Because the price is given per pound, the relationship is proportional: twice as many pounds would cost twice as much. No additional fixed fee is described, so multiplication alone gives the total."
+      "content": "To find the cost for 4 pounds, multiply the unit rate by the quantity:<br/>$$12.50 \\times 4 = 50$$<br/>The cost for 4 pounds is \\$50.00. Because the price is given per pound, the relationship is proportional: twice as many pounds would cost twice as much. No additional fixed fee is described, so multiplication alone gives the total."
     }
   ]
 }

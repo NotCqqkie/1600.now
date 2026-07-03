@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Set the circle area equal to the square area",
-      "content": "Set the circle area equal to the square area. Find the circle's area from $A=\\pi r^2$ with $r=2$, then set that equal to the square's area $s^2$."
+      "content": "Set the circle area equal to the square area. Find the circle's area from $A=\\pi r^2$ with $r=3$, then set that equal to the square's area $s^2$."
     },
     {
       "title": "Find the circle's area",
-      "content": "Use the circle area formula $A = \\pi r^2$ with radius $r = 2$:<br/>$$A_{\\text{circle}} = \\pi(2)^2 = 4\\pi$$"
+      "content": "Use the circle area formula $A = \\pi r^2$ with radius $r = 3$:<br/>$$A_{\\text{circle}} = \\pi(3)^2 = 9\\pi$$"
     },
     {
       "title": "Set up and solve for the square's side",
-      "content": "The square has the same area as the circle, so if $s$ is the side length:<br/>$$s^2 = 4\\pi$$<br/>Taking the square root of both sides:<br/>$$s = \\sqrt{4\\pi} = \\sqrt{4} \\cdot \\sqrt{\\pi} = 2\\sqrt{\\pi}$$<br/>That confirms <strong>C</strong> is correct."
+      "content": "The square has the same area as the circle, so if $s$ is the side length:<br/>$$s^2 = 9\\pi$$<br/>Taking the square root of both sides:<br/>$$s = \\sqrt{9\\pi} = \\sqrt{9} \\cdot \\sqrt{\\pi} = 3\\sqrt{\\pi}$$<br/>That confirms <strong>C</strong> is correct."
     }
   ]
 }

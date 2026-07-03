@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Translate the percent increase",
-      "content": "Each year, the new amount is $13\\%$ greater than the previous year's amount. That means each year is multiplied by $1+0.13=1.13$."
+      "content": "Each year, the new amount is $11\\%$ greater than the previous year's amount. That means each year is multiplied by $1+0.11=1.11$."
     },
     {
       "title": "Classify the model",
-      "content": "A repeated percent change has exponential form:<br/>$$\\text{amount}=20{,}000(1.13)^t$$<br/>Because the base $1.13$ is greater than $1$, the amount increases over time."
+      "content": "A repeated percent change has exponential form:<br/>$$\\text{amount}=24{,}000(1.11)^t$$<br/>Because the base $1.11$ is greater than $1$, the amount increases over time."
     },
     {
       "title": "Choose the description",

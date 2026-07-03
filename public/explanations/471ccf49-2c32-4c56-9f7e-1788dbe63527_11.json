@@ -1,15 +1,15 @@
 {
   "questionId": "471ccf49-2c32-4c56-9f7e-1788dbe63527_11",
-  "correctAnswer": "-9",
+  "correctAnswer": "-8",
   "section": "Math",
   "steps": [
     {
       "title": "Set x equal to 0 at the y-intercept",
-      "content": "The y-intercept is where the line crosses the y-axis. On the y-axis, every point has x-coordinate 0. To find the y-intercept of $5x + 2y = -18$, substitute $x = 0$."
+      "content": "The y-intercept is where the line crosses the y-axis. On the y-axis, every point has x-coordinate 0. To find the y-intercept of $7x + 3y = -24$, substitute $x = 0$."
     },
     {
       "title": "Substitute and solve for y",
-      "content": "With $x = 0$:<br/>$$5(0) + 2y = -18$$<br/>$$2y = -18$$<br/>$$y = -9$$"
+      "content": "With $x = 0$:<br/>$$7(0) + 3y = -24$$<br/>$$3y = -24$$<br/>$$y = -8$$"
     }
   ]
 }

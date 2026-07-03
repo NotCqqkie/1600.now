@@ -9,12 +9,12 @@
     },
     {
       "title": "Identify the midsegment",
-      "content": "D is the midpoint of AB and E is the midpoint of BC, so DE is the midsegment of triangle ABC connecting midpoints of two sides. By the Triangle Midsegment Theorem, DE is parallel to AC and $DE = \\frac{1}{2} AC$.",
-      "formula": "$$DE = \\frac{1}{2} AC$$"
+      "content": "M is the midpoint of PQ and N is the midpoint of QR, so MN is the midsegment of triangle PQR connecting midpoints of two sides. By the Triangle Midsegment Theorem, MN is parallel to PR and $MN = \\frac{1}{2} PR$.",
+      "formula": "$$MN = \\frac{1}{2} PR$$"
     },
     {
-      "title": "Solve for AC and test all choices",
-      "content": "$$AC = 2 \\times DE = 2 \\times 14 = 28$$<ul><li><strong>Choice A — 28</strong>: $2 \\times 14 = 28$. &#10003;</li><li><strong>Choice B — 26</strong>: Does not equal $2 \\times 14$. &#10007;</li><li><strong>Choice C — 22</strong>: Does not equal $2 \\times 14$. &#10007;</li><li><strong>Choice D — 16</strong>: Equals $BD + DE = 8 + 14 - 6$? No valid derivation gives 16. &#10007;</li></ul><strong>A</strong> is correct."
+      "title": "Solve for PR and test all choices",
+      "content": "$$PR = 2 \\times MN = 2 \\times 15 = 30$$<ul><li><strong>Choice A &mdash; 30</strong>: $2 \\times 15 = 30$. &#10003;</li><li><strong>Choice B &mdash; 28</strong>: Does not equal $2 \\times 15$. &#10007;</li><li><strong>Choice C &mdash; 24</strong>: Equals $QM + MN = 9 + 15$, but adding those segments does not give PR. &#10007;</li><li><strong>Choice D &mdash; 18</strong>: Equals $2 \\times QM = 2 \\times 9$, but QM is not the midsegment. &#10007;</li></ul><strong>A</strong> is correct."
     }
   ]
 }

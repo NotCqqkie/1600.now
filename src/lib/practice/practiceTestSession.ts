@@ -1,4 +1,4 @@
-import type { PracticeSet } from "@/data/modulePracticeBank";
+import type { LoadedPracticeSet, PracticeSet } from "@/data/modulePracticeBank";
 import { getDesmosStoragePrefix } from "@/lib/practice/desmosSessionState";
 import { answersEquivalent } from "@/lib/text/answerEquivalence";
 import type { ModulePracticeQuestionState } from "@/lib/practice/modulePracticeSession";
@@ -384,7 +384,7 @@ export const savePracticeTestQuestionState = (
 };
 
 export const buildPracticeTestResult = (
-  practiceSet: PracticeSet,
+  practiceSet: LoadedPracticeSet,
   session: PracticeTestSessionMeta,
 ): PracticeTestResult => {
   let totalAnsweredCount = 0;

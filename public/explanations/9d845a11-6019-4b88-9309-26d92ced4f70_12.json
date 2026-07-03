@@ -9,15 +9,15 @@
     },
     {
       "title": "Set up the perimeter",
-      "content": "Let $x$ be the length of the third side. The two congruent sides are each $19$ feet, and the total perimeter is $66$ feet: $$19+19+x=66$$"
+      "content": "Let $x$ be the length of the third side. The two congruent sides are each $21$ feet, and the total perimeter is $72$ feet: $$21+21+x=72$$"
     },
     {
       "title": "Solve for the third side",
-      "content": "The two congruent sides have total length $38$ feet, so $$x=66-38=28$$"
+      "content": "The two congruent sides have total length $42$ feet, so $$x=72-42=30$$"
     },
     {
       "title": "Match the choice",
-      "content": "The third side is $28$ feet, so <strong>C</strong> is correct."
+      "content": "The third side is $30$ feet, so <strong>C</strong> is correct."
     }
   ]
 }

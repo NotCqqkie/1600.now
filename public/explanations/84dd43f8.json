@@ -1,15 +1,15 @@
 {
   "questionId": "84dd43f8",
-  "correctAnswer": "3.44",
+  "correctAnswer": "3.56",
   "section": "Math",
   "steps": [
     {
       "title": "Interpret the decay pattern",
-      "content": "When $f(x)$ decreases by 80%, it retains 20% of its value. So with each unit increase in $x$, we multiply by 0.2. Starting from $f(0) = 86$, this gives us the exponential function:<br/>$$f(x) = 86 \\times (0.2)^x$$"
+      "content": "When $f(x)$ decreases by 80%, it retains 20% of its value. So with each unit increase in $x$, we multiply by 0.2. Starting from $f(0) = 89$, this gives us the exponential function:<br/>$$f(x) = 89 \\times (0.2)^x$$"
     },
     {
       "title": "Evaluate f(2)",
-      "content": "Substitute $x = 2$ into the function:<br/>$$f(2) = 86 \\times (0.2)^2 = 86 \\times 0.04 = 3.44$$"
+      "content": "Substitute $x = 2$ into the function:<br/>$$f(2) = 89 \\times (0.2)^2 = 89 \\times 0.04 = 3.56$$"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "questionId": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_15",
-  "correctAnswer": "-17",
+  "correctAnswer": "-30",
   "section": "Math",
   "steps": [
     {
@@ -9,15 +9,15 @@
     },
     {
       "title": "Set up the standard form equation",
-      "content": "The standard form of a circle with center $(h, k)$ and radius $r$ is $$(x - h)^2 + (y - k)^2 = r^2$$ With center $(-4, 4)$ and radius $7$, substitute: $$(x - (-4))^2 + (y - 4)^2 = 7^2$$ $$(x + 4)^2 + (y - 4)^2 = 49$$"
+      "content": "The standard form of a circle with center $(h, k)$ and radius $r$ is $$(x - h)^2 + (y - k)^2 = r^2$$ With center $(-3, 5)$ and radius $8$, substitute: $$(x - (-3))^2 + (y - 5)^2 = 8^2$$ $$(x + 3)^2 + (y - 5)^2 = 64$$"
     },
     {
       "title": "Expand the binomials",
-      "content": "Expand $(x + 4)^2 + (y - 4)^2 = 49$:<br/>$$(x + 4)^2 = x^2 + 8x + 16$$<br/>$$(y - 4)^2 = y^2 - 8y + 16$$<br/>Substitute back: $$x^2 + 8x + 16 + y^2 - 8y + 16 = 49$$ Combine like terms: $$x^2 + y^2 + 8x - 8y + 32 = 49$$"
+      "content": "Expand $(x + 3)^2 + (y - 5)^2 = 64$:<br/>$$(x + 3)^2 = x^2 + 6x + 9$$<br/>$$(y - 5)^2 = y^2 - 10y + 25$$<br/>Substitute back: $$x^2 + 6x + 9 + y^2 - 10y + 25 = 64$$ Combine like terms: $$x^2 + y^2 + 6x - 10y + 34 = 64$$"
     },
     {
       "title": "Rearrange to general form",
-      "content": "Move the constant $49$ to the left side to match the form $x^2 + y^2 + ax + by + c = 0$: $$x^2 + y^2 + 8x - 8y + 32 - 49 = 0$$ $$x^2 + y^2 + 8x - 8y - 17 = 0$$ Comparing coefficients, $c = -17$."
+      "content": "Move the constant $64$ to the left side to match the form $x^2 + y^2 + ax + by + c = 0$: $$x^2 + y^2 + 6x - 10y + 34 - 64 = 0$$ $$x^2 + y^2 + 6x - 10y - 30 = 0$$ Comparing coefficients, $c = -30$."
     }
   ]
 }

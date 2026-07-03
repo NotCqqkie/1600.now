@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Clear the denominator",
-      "content": "Start with $$b-20=\\frac{x}{y}$$ Multiply both sides by $y$: $$y(b-20)=x$$"
+      "content": "Start with $$b-18=\\frac{x}{y}$$ Multiply both sides by $y$: $$y(b-18)=x$$"
     },
     {
       "title": "Distribute",
-      "content": "Distribute $y$ across the parentheses: $$x=by-20y$$"
+      "content": "Distribute $y$ across the parentheses: $$x=by-18y$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice B (&lsquo;$x=by-20y$&rsquo;) is $x=by-20y$, so <strong>B</strong> is correct."
+      "content": "Choice B (&lsquo;$x=by-18y$&rsquo;) is $x=by-18y$, so <strong>B</strong> is correct."
     },
     {
       "title": "Avoid dividing by y",

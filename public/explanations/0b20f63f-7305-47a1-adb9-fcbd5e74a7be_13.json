@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Build the interval",
-      "content": "A margin of error of $0.2$ around the sample mean $10.83$ gives $$10.83-0.2=10.63$$ and $$10.83+0.2=11.03$$"
+      "content": "A margin of error of $0.3$ around the sample mean $11.74$ gives $$11.74-0.3=11.44$$ and $$11.74+0.3=12.04$$"
     },
     {
       "title": "Interpret the interval",
-      "content": "The plausible values for the average weight are between $10.63$ and $11.03$ ounces."
+      "content": "The plausible values for the average weight are between $11.44$ and $12.04$ ounces."
     },
     {
       "title": "Confirm the choice",
-      "content": "<strong>Choice A &mdash; Plausible values for the average weight of all bags of sugar filled by the machine are between 10.63 ounces and 11.03 ounces.</strong> states this interval exactly, so <strong>A</strong> is correct."
+      "content": "<strong>Choice A &mdash; Plausible values for the average weight of all bags of flour filled by the machine are between 11.44 ounces and 12.04 ounces.</strong> states this interval exactly, so <strong>A</strong> is correct."
     }
   ]
 }

@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Set up the total earnings inequality",
-      "content": "Total earnings = base salary $$x$$ + commission $$0.11s$$.<br/>The goal requires total earnings be at least $$3x$$ and at most $$4x$$:<br/>$$3x \\le x + 0.11s \\le 4x$$"
+      "content": "Total earnings = base salary $$x$$ + commission $$0.14s$$.<br/>The goal requires total earnings be at least $$4x$$ and at most $$5x$$:<br/>$$4x \\le x + 0.14s \\le 5x$$"
     },
     {
       "title": "Isolate s",
-      "content": "Subtract $$x$$ from all parts:<br/>$$2x \\le 0.11s \\le 3x$$<br/>Divide by $$0.11$$:<br/>$$\\frac{2}{0.11}x \\le s \\le \\frac{3}{0.11}x$$"
+      "content": "Subtract $$x$$ from all parts:<br/>$$3x \\le 0.14s \\le 4x$$<br/>Divide by $$0.14$$:<br/>$$\\frac{3}{0.14}x \\le s \\le \\frac{4}{0.14}x$$"
     },
     {
       "title": "Match to the answer choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;$2x \\le s \\le 3x$&rsquo;</strong>: This would mean dividing by 1, not 0.11 — ignores the commission rate. &#10007;</li><li><strong>Choice B &mdash; &lsquo;$\\frac{2}{0.11}x \\le s \\le \\frac{3}{0.11}x$&rsquo;</strong>: Matches exactly. &#10003;</li><li><strong>Choice C &mdash; &lsquo;$3x \\le s \\le 4x$&rsquo;</strong>: Uses the original multipliers 3 and 4, not the reduced values 2 and 3 after subtracting x. &#10007;</li><li><strong>Choice D &mdash; &lsquo;$\\frac{3}{0.11}x \\le s \\le \\frac{4}{0.11}x$&rsquo;</strong>: Uses 3 and 4 as numerators instead of 2 and 3 — does not subtract x first. &#10007;</li></ul>That confirms <strong>B</strong>. &#8212; <strong>B</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;$3x \\le s \\le 4x$&rsquo;</strong>: This would mean dividing by 1, not 0.14 - ignores the commission rate. &#10007;</li><li><strong>Choice B &mdash; &lsquo;$\\frac{3}{0.14}x \\le s \\le \\frac{4}{0.14}x$&rsquo;</strong>: Matches exactly. &#10003;</li><li><strong>Choice C &mdash; &lsquo;$4x \\le s \\le 5x$&rsquo;</strong>: Uses the original multipliers 4 and 5, not the reduced values 3 and 4 after subtracting x. &#10007;</li><li><strong>Choice D &mdash; &lsquo;$\\frac{4}{0.14}x \\le s \\le \\frac{5}{0.14}x$&rsquo;</strong>: Uses 4 and 5 as numerators instead of 3 and 4 - does not subtract x first. &#10007;</li></ul>That confirms <strong>B</strong>. &mdash; <strong>B</strong> is correct."
     }
   ]
 }

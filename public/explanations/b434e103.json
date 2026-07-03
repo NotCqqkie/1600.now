@@ -5,20 +5,20 @@
   "steps": [
     {
       "title": "Use the triangle angle sum",
-      "content": "The angles in a triangle sum to $180^{\\circ}$. Since $\\angle R=63^{\\circ}$, the other two angles must sum to $117^{\\circ}$, so $\\angle S$ must be less than $117^{\\circ}$."
+      "content": "The angles in a triangle sum to $180^{\\circ}$. Since $\\angle U=58^{\\circ}$, the other two angles must sum to $122^{\\circ}$, so $\\angle V$ must be less than $122^{\\circ}$."
     },
     {
       "title": "Step 1",
-      "content": "In any triangle, all three angles sum to 180&deg;. With &ang;R = 63&deg;: &ang;S + &ang;T = 180&deg; &minus; 63&deg; = 117&deg;."
+      "content": "In any triangle, all three angles sum to 180&deg;. With &ang;U = 58&deg;: &ang;V + &ang;W = 180&deg; &minus; 58&deg; = 122&deg;."
     },
     {
       "title": "Step 2",
-      "content": "For a valid triangle, every angle must be greater than 0&deg;. So &ang;T = 117&deg; &minus; &ang;S must be positive, which means &ang;S &lt; 117&deg;."
+      "content": "For a valid triangle, every angle must be greater than 0&deg;. So &ang;W = 122&deg; &minus; &ang;V must be positive, which means &ang;V &lt; 122&deg;."
     },
     {
       "title": "Step 3",
-      "content": "Check each option: A) 116&deg; $\\Rightarrow$ &ang;T = 1&deg; &gt; 0 (valid). B) 118&deg; $\\Rightarrow$ &ang;T = &minus;1&deg; (impossible). C) 126&deg; $\\Rightarrow$ &ang;T = &minus;9&deg; (impossible). D) 180&deg; $\\Rightarrow$ &ang;T = &minus;63&deg; (impossible). Only A works. That is the correct answer."
+      "content": "Check each option: A) 121&deg; $\\Rightarrow$ &ang;W = 1&deg; &gt; 0 (valid). B) 123&deg; $\\Rightarrow$ &ang;W = &minus;1&deg; (impossible). C) 131&deg; $\\Rightarrow$ &ang;W = &minus;9&deg; (impossible). D) 180&deg; $\\Rightarrow$ &ang;W = &minus;58&deg; (impossible). Only A works. That is the correct answer."
     }
   ],
-  "choiceElimination": "<ul><li><strong>Choice A &mdash; $116$</strong>: &ang;T = 117&deg; &minus; 116&deg; = 1&deg; &gt; 0&deg;. All three angles (63&deg;, 116&deg;, 1&deg;) are positive and sum to 180&deg;. Valid triangle. &#10003;</li><li><strong>Choice B &mdash; $118$</strong>: &ang;T = 117&deg; &minus; 118&deg; = &minus;1&deg;. A negative angle is impossible in a triangle. &#10007;</li><li><strong>Choice C &mdash; $126$</strong>: &ang;T = 117&deg; &minus; 126&deg; = &minus;9&deg;. A negative angle is impossible in a triangle. &#10007;</li><li><strong>Choice D &mdash; $180$</strong>: &ang;S alone equals 180&deg;, which would account for the entire angle sum by itself, leaving no room for &ang;R or &ang;T. Impossible. &#10007;</li></ul>That is the correct answer."
+  "choiceElimination": "<ul><li><strong>Choice A &mdash; $121$</strong>: &ang;W = 122&deg; &minus; 121&deg; = 1&deg; &gt; 0&deg;. All three angles (58&deg;, 121&deg;, 1&deg;) are positive and sum to 180&deg;. Valid triangle. &#10003;</li><li><strong>Choice B &mdash; $123$</strong>: &ang;W = 122&deg; &minus; 123&deg; = &minus;1&deg;. A negative angle is impossible in a triangle. &#10007;</li><li><strong>Choice C &mdash; $131$</strong>: &ang;W = 122&deg; &minus; 131&deg; = &minus;9&deg;. A negative angle is impossible in a triangle. &#10007;</li><li><strong>Choice D &mdash; $180$</strong>: &ang;V alone equals 180&deg;, which would account for the entire angle sum by itself, leaving no room for &ang;U or &ang;W. Impossible. &#10007;</li></ul>That is the correct answer."
 }

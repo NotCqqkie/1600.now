@@ -1,15 +1,15 @@
 {
   "questionId": "d693f563",
-  "correctAnswer": "56",
+  "correctAnswer": "63",
   "section": "Math",
   "steps": [
     {
       "title": "Identify the multiplier for a percentage increase",
-      "content": "A quantity that is <em>60% greater</em> than the original equals 100% of the original plus 60%. This is 160% of the original amount, which we express as a multiplier: 1.60. This single multiplication is faster than computing the increase and adding it separately."
+      "content": "A quantity that is <em>40% greater</em> than the original equals 100% of the original plus 40%. This is 140% of the original amount, which we express as a multiplier: 1.40. This single multiplication is faster than computing the increase and adding it separately."
     },
     {
       "title": "Multiply the original number of plants by the multiplier",
-      "content": "Cedric had 35 plants last year. This year the number is:<br/>$$35 \\times 1.60 = 56$$<br/>Cedric has <strong>56 plants</strong> in his garden this year."
+      "content": "Maya had 45 plants last year. This year the number is:<br/>$$45 \\times 1.40 = 63$$<br/>Maya has <strong>63 plants</strong> in her garden this year."
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Original price equation",
-      "content": "The variables represent original prices: $m$ is the mirror's original price and $v$ is the vase's original price. Since the two original prices total \\$60, the first equation is $$m + v = 60$$"
+      "content": "The variables represent original prices: $l$ is the lamp's original price and $c$ is the clock's original price. Since the two original prices total \\$80, the first equation is $$l + c = 80$$"
     },
     {
       "title": "Sale price equation",
-      "content": "After discounts, the customer pays:<ul><li>Mirror (25% discount): customer pays 100% - 25% = 75% of original = $0.75m$</li><li>Vase (45% discount): customer pays 100% - 45% = 55% of original = $0.55v$</li></ul>Combined sale price is \\$39: $$0.75m + 0.55v = 39$$<br/>That confirms <strong>C</strong> is correct."
+      "content": "After discounts, the customer pays:<ul><li>Lamp (20% discount): customer pays 100% - 20% = 80% of original = $0.80l$</li><li>Clock (40% discount): customer pays 100% - 40% = 60% of original = $0.60c$</li></ul>Combined sale price is \\$56: $$0.80l + 0.60c = 56$$<br/>That confirms <strong>C</strong> is correct."
     }
   ]
 }

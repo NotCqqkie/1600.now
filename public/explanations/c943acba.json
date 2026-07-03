@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify favorable and total outcomes",
-      "content": "In a probability problem, we count <strong>favorable outcomes</strong> (what we want) and <strong>total outcomes</strong> (all possibilities). Here:<ul><li>Total houses on the street: <strong>7</strong></li><li>Blue houses (favorable): <strong>2</strong></li></ul>"
+      "content": "In a probability problem, we count <strong>favorable outcomes</strong> (what we want) and <strong>total outcomes</strong> (all possibilities). Here:<ul><li>Total houses on the block: <strong>8</strong></li><li>Houses with red doors (favorable): <strong>3</strong></li></ul>"
     },
     {
       "title": "Apply the probability formula",
-      "content": "The probability of selecting a blue house is the ratio of blue houses to total houses:<br/>$$P(\\text{blue house}) = \\frac{\\text{blue houses}}{\\text{total houses}} = \\frac{2}{7}$$<br/>That is the correct answer.",
+      "content": "The probability of selecting a house with a red door is the ratio of houses with red doors to total houses:<br/>$$P(\\text{red door}) = \\frac{\\text{houses with red doors}}{\\text{total houses}} = \\frac{3}{8}$$<br/>That confirms <strong>B</strong> is correct.",
       "formula": "$$P = \\frac{\\text{favorable}}{\\text{total}}$$"
     }
   ]

@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Fastest path: use the function table",
-      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $58$, so the answer is <strong>A</strong>, 58. This is just a one-row lookup, and the arithmetic below confirms the table value."
+      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $80$, so the answer is <strong>A</strong>, 80. This is just a one-row lookup, and the arithmetic below confirms the table value."
     },
     {
       "title": "Substitute",
-      "content": "Plug $x=-6$ into $f(x)=-3x+40$.<br/>$$f(-6)=-3(-6)+40$$"
+      "content": "Plug $x=-7$ into $f(x)=-4x+52$.<br/>$$f(-7)=-4(-7)+52$$"
     },
     {
       "title": "Compute the result",
-      "content": "Multiply then add.<br/>$$f(-6)=18+40=58$$<br/>That confirms <strong>A</strong> is correct."
+      "content": "Multiply then add.<br/>$$f(-7)=28+52=80$$<br/>That confirms <strong>A</strong> is correct."
     }
   ]
 }

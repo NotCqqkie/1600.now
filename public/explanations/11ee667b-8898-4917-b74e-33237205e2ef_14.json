@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Read the context",
-      "content": "Antonia starts with $130$ and earns $2.5\\%$ more each year. One year later the amount is $130(1.025)=133.25$. Use the values at $x=0$ and $x=1$ directly."
+      "content": "Marisol starts with $160$ and earns $3\\%$ more each year. One year later the amount is $160(1.03)=164.80$. Use the values at $x=0$ and $x=1$ directly."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A — Decreasing exponential</strong>: The amount grows each year (2.5% more), so it is not decreasing. &#10007;</li><li><strong>Choice B — Decreasing linear</strong>: Again, the amount is increasing, not decreasing. &#10007;</li><li><strong>Choice C — Increasing exponential</strong>: Each year the increase is 2.5% of the current amount — a constant multiplier of $1.025$. Since the amount being multiplied grows year over year, each year's increase is larger than the last. This is exponential growth, and the amount increases. &#10003;</li><li><strong>Choice D — Increasing linear</strong>: A linear model would add the same fixed dollar amount each year. But 2.5% of a growing balance adds more each year, so the growth is not constant. &#10007;</li></ul>That matches <strong>Choice C &mdash; Increasing exponential</strong>."
+      "content": "<ul><li><strong>Choice A — Decreasing exponential</strong>: The amount grows each year (3% more), so it is not decreasing. &#10007;</li><li><strong>Choice B — Decreasing linear</strong>: Again, the amount is increasing, not decreasing. &#10007;</li><li><strong>Choice C — Increasing exponential</strong>: Each year the increase is 3% of the current amount — a constant multiplier of $1.03$. Since the amount being multiplied grows year over year, each year's increase is larger than the last. This is exponential growth, and the amount increases. &#10003;</li><li><strong>Choice D — Increasing linear</strong>: A linear model would add the same fixed dollar amount each year. But 3% of a growing balance adds more each year, so the growth is not constant. &#10007;</li></ul>That matches <strong>Choice C &mdash; Increasing exponential</strong>."
     }
   ]
 }

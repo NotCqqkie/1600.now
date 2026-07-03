@@ -1,11 +1,11 @@
 {
   "questionId": "560fab82",
-  "correctAnswer": "19",
+  "correctAnswer": "18",
   "section": "Math",
   "steps": [
     {
       "title": "Identify the minimum value from the table",
-      "content": "The table lists values 19, 21, 23, 25 with frequencies 7, 1, 7, 4. The smallest value shown is 19, which occurs 7 times, so the minimum of the data set is 19. The answer is <strong>19</strong>."
+      "content": "The table lists values 18, 20, 22, 24 with frequencies 6, 2, 8, 3. The smallest value shown is 18, which occurs 6 times, so the minimum of the data set is 18. The answer is <strong>18</strong>."
     }
   ]
 }

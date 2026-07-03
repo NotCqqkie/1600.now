@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Substitute the value x=0",
-      "content": "The $y$-intercept occurs at $x=0$: $f(0)=6(0)-\\tfrac{1}{8}$."
+      "content": "The $y$-intercept occurs at $x=0$: $f(0)=7(0)-\\tfrac{1}{9}$."
     },
     {
       "title": "Compute the y-intercept",
-      "content": "$f(0)=-\\tfrac{1}{8}$, so the intercept is $(0,-\\tfrac{1}{8})$. <strong>A</strong> is correct."
+      "content": "$f(0)=-\\tfrac{1}{9}$, so the intercept is $(0,-\\tfrac{1}{9})$. <strong>A</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches the correct answer, $(0, -\\frac{1}{8})$. The other choices do not satisfy the same condition from the question, so <strong>A</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches the correct answer, $(0, -\\frac{1}{9})$. The other choices do not satisfy the same condition from the question, so <strong>A</strong> is correct."
     }
   ]
 }

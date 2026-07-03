@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find the original y-intercept",
-      "content": "Set $x = 0$ in the original equation $12x + 22y = 132$:<br/>$$22y = 132$$<br/>$$y = 6$$<br/>The original $y$-intercept is $(0, 6)$."
+      "content": "Set $x = 0$ in the original equation $10x + 20y = 160$:<br/>$$20y = 160$$<br/>$$y = 8$$<br/>The original $y$-intercept is $(0, 8)$."
     },
     {
       "title": "Apply the vertical shift",
-      "content": "When a graph shifts down by 4 units, all $y$-coordinates decrease by 4. The new $y$-intercept is:<br/>$$6 - 4 = 2$$<br/>The resulting $y$-intercept is $(0, 2)$. That matches the correct answer — <strong>A</strong> is correct."
+      "content": "When a line shifts down by 5 units, all $y$-coordinates decrease by 5. The new $y$-intercept is:<br/>$$8 - 5 = 3$$<br/>The resulting $y$-intercept is $(0, 3)$. That matches the correct answer &mdash; <strong>A</strong> is correct."
     }
   ]
 }

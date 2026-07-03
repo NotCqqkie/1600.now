@@ -9,7 +9,7 @@
     },
     {
       "title": "Calculate density in g/mm²",
-      "content": "The given density is 0.812 g/cm², meaning 0.812 grams per 1 cm². Since 1 cm² = 100 mm², this is equivalent to 0.812 g per 100 mm², or: $$\\frac{0.812}{100} = 0.00812 \\text{ g/mm}^2$$ This matches the correct answer — <strong>D</strong> is correct."
+      "content": "The given density is 0.734 g/cm², meaning 0.734 grams per 1 cm². Since 1 cm² = 100 mm², this is equivalent to 0.734 g per 100 mm², or: $$\\frac{0.734}{100} = 0.00734 \\text{ g/mm}^2$$ This matches the correct answer — <strong>D</strong> is correct."
     }
   ]
 }

@@ -3,16 +3,16 @@
   "qid": "ff2c1431",
   "steps": [
     {
-      "content": "Start with $7m = 5(n + p)$. Divide both sides by $5$ to isolate the parenthesized expression: $$\\frac{7m}{5} = n + p$$"
+      "content": "Start with $9m = 4(n + p)$. Divide both sides by $4$ to isolate the parenthesized expression: $$\\frac{9m}{4} = n + p$$"
     },
     {
       "choices": [
-        "<li><strong>\"$n=\\frac{5p}{7m}$\"</strong>: This inverts and conflates the terms; dividing $5p$ by $7m$ has no basis in the original equation. Eliminated.</li>",
-        "<li><strong>\"$n=\\frac{7m}{5}-p$\"</strong>: Dividing both sides by $5$ then subtracting $p$ gives exactly this expression. That matches the correct answer — <strong>B</strong> is correct.</li>",
-        "<li><strong>\"$n=5 \\left(7m\\right)+p$\"</strong>: This multiplies instead of divides and adds instead of subtracts. Eliminated.</li>",
-        "<li><strong>\"$n=7m-5-p$\"</strong>: This subtracts $5$ as a separate term rather than dividing by it. Eliminated.</li>"
+        "<li><strong>\"$n=\\frac{4p}{9m}$\"</strong>: This inverts and conflates the terms; dividing $4p$ by $9m$ has no basis in the original equation. Eliminated.</li>",
+        "<li><strong>\"$n=\\frac{9m}{4}-p$\"</strong>: Dividing both sides by $4$ then subtracting $p$ gives exactly this expression. That matches the correct answer — <strong>B</strong> is correct.</li>",
+        "<li><strong>\"$n=4 \\left(9m\\right)+p$\"</strong>: This multiplies instead of divides and adds instead of subtracts. Eliminated.</li>",
+        "<li><strong>\"$n=9m-4-p$\"</strong>: This subtracts $4$ as a separate term rather than dividing by it. Eliminated.</li>"
       ],
-      "content": "Subtract $p$ from both sides to isolate $n$: $$n = \\frac{7m}{5} - p$$"
+      "content": "Subtract $p$ from both sides to isolate $n$: $$n = \\frac{9m}{4} - p$$"
     }
   ],
   "correctAnswer": "B"

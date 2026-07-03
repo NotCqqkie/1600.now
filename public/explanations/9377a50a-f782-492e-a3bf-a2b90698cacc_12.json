@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Use the rectangle area relationship",
-      "content": "For a rectangle, area equals width times length. Since the width is $w$ and the area is $w(w+79)$, the other factor represents the length."
+      "content": "For a rectangle, area equals width times length. Since the width is $w$ and the area is $w(w+64)$, the other factor represents the length."
     },
     {
       "title": "Use the rectangle area formula",
-      "content": "For any rectangle, area = width &times; length. The problem gives area $A = w(w+79)$ and tells us width $= w$."
+      "content": "For any rectangle, area = width &times; length. The problem gives area $A = w(w+64)$ and tells us width $= w$."
     },
     {
       "title": "Solve for length",
-      "content": "Divide both sides of $w \\cdot \\text{length} = w(w+79)$ by $w$: $$\\text{length} = \\frac{w(w+79)}{w} = (w+79)$$"
+      "content": "Divide both sides of $w \\cdot \\text{length} = w(w+64)$ by $w$: $$\\text{length} = \\frac{w(w+64)}{w} = (w+64)$$"
     },
     {
       "title": "Eliminate the other choices",
-      "content": "<ul><li><strong>A) $79$</strong> &mdash; just a constant, not the full length factor.</li><li><strong>B) $w(w+79)$</strong> &mdash; this is the entire area, not the length.</li><li><strong>C) $(w+79)$</strong> &mdash; matches the derived length.</li><li><strong>D) $w$</strong> &mdash; this is the width, not the length.</li></ul>That confirms <strong>C</strong> is correct."
+      "content": "<ul><li><strong>A) $64$</strong> &mdash; just a constant, not the full length factor.</li><li><strong>B) $w(w+64)$</strong> &mdash; this is the entire area, not the length.</li><li><strong>C) $(w+64)$</strong> &mdash; matches the derived length.</li><li><strong>D) $w$</strong> &mdash; this is the width, not the length.</li></ul>That confirms <strong>C</strong> is correct."
     }
   ]
 }

@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Fastest path: try the choices",
-      "content": "Because the choices give possible solutions, plug them into the equation instead of solving from scratch. The only choice that satisfies the equation is <strong>C</strong>, $9$."
+      "content": "Because the choices give possible solutions, plug them into the equation instead of solving from scratch. The only choice that satisfies the equation is <strong>C</strong>, $8$."
     },
     {
       "title": "Apply zero product property",
-      "content": "When a product of factors equals zero, at least one factor must equal zero. For the equation $$-4(v-9)(v-2)(v+7) = 0$$ the constant $-4$ is never zero, so we set each variable factor equal to zero:<ul><li>$v - 9 = 0$ gives $v = 9$</li><li>$v - 2 = 0$ gives $v = 2$</li><li>$v + 7 = 0$ gives $v = -7$</li></ul>"
+      "content": "When a product of factors equals zero, at least one factor must equal zero. For the equation $$-5(v-8)(v-3)(v+6) = 0$$ the constant $-5$ is never zero, so we set each variable factor equal to zero:<ul><li>$v - 8 = 0$ gives $v = 8$</li><li>$v - 3 = 0$ gives $v = 3$</li><li>$v + 6 = 0$ gives $v = -6$</li></ul>"
     },
     {
       "title": "Identify the solution in the choices",
-      "content": "The solutions are $v = 9$, $v = 2$, and $v = -7$. Of these, only $v = 9$ appears in the answer choices. That confirms <strong>C</strong> is correct."
+      "content": "The solutions are $v = 8$, $v = 3$, and $v = -6$. Of these, only $v = 8$ appears in the answer choices. That confirms <strong>C</strong> is correct."
     }
   ]
 }

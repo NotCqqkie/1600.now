@@ -1,23 +1,23 @@
 {
   "questionId": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_22",
-  "correctAnswer": "13/2,6.5",
+  "correctAnswer": "15/2,7.5",
   "section": "Math",
   "steps": [
     {
       "title": "Set w(r) equal to zero",
-      "content": "When $w(r) = 0$, we have:<br/>$$\\frac{1}{r-8} - \\frac{r-5}{-r+4.25} = 0$$<br/>Move the second fraction to the right side:<br/>$$\\frac{1}{r-8} = \\frac{r-5}{-r+4.25}$$"
+      "content": "When $w(r) = 0$, we have:<br/>$$\\frac{1}{r-9} - \\frac{r-6}{-r+5.25} = 0$$<br/>Move the second fraction to the right side:<br/>$$\\frac{1}{r-9} = \\frac{r-6}{-r+5.25}$$"
     },
     {
       "title": "Simplify the right side and cross-multiply",
-      "content": "Since $-r + 4.25 = -(r - 4.25)$, we can rewrite:<br/>$$\\frac{1}{r-8} = -\\frac{r-5}{r-4.25}$$<br/>Cross-multiplying:<br/>$$(r - 4.25) = -(r-5)(r-8)$$"
+      "content": "Since $-r + 5.25 = -(r - 5.25)$, we can rewrite:<br/>$$\\frac{1}{r-9} = -\\frac{r-6}{r-5.25}$$<br/>Cross-multiplying:<br/>$$(r - 5.25) = -(r-6)(r-9)$$"
     },
     {
       "title": "Expand and form a quadratic equation",
-      "content": "Expand $(r-5)(r-8) = r^2 - 13r + 40$:<br/>$$r - 4.25 = -r^2 + 13r - 40$$<br/>Rearrange to standard form:<br/>$$r^2 - 12r + 35.75 = 0$$<br/>Multiply by 4 to clear the decimal:<br/>$$4r^2 - 48r + 143 = 0$$"
+      "content": "Expand $(r-6)(r-9) = r^2 - 15r + 54$:<br/>$$r - 5.25 = -r^2 + 15r - 54$$<br/>Rearrange to standard form:<br/>$$r^2 - 14r + 48.75 = 0$$<br/>Multiply by 4 to clear the decimal:<br/>$$4r^2 - 56r + 195 = 0$$"
     },
     {
       "title": "Complete the square",
-      "content": "Use $r^2-12r+35.75=0$ before the decimal-clearing step:<br/>$$r^2-12r=-35.75$$<br/>$$r^2-12r+36=0.25$$<br/>$$(r-6)^2=0.25$$<br/>So $r=6\\pm0.5$, giving $r=5.5$ or $r=6.5$. The greatest possible value is <strong>6.5</strong>, or <strong>13/2</strong>."
+      "content": "Use $r^2-14r+48.75=0$ before the decimal-clearing step:<br/>$$r^2-14r=-48.75$$<br/>$$r^2-14r+49=0.25$$<br/>$$(r-7)^2=0.25$$<br/>So $r=7\\pm0.5$, giving $r=6.5$ or $r=7.5$. The greatest possible value is <strong>7.5</strong>, or <strong>15/2</strong>."
     }
   ]
 }

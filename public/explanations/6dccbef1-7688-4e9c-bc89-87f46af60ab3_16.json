@@ -9,11 +9,11 @@
     },
     {
       "title": "Use the diagonal formula to find the side length",
-      "content": "A square with side length $s$ has diagonal $d = s\\sqrt{2}$. Substituting $d = 228$:<br/>$$228 = s\\sqrt{2}$$<br/>$$s = \\frac{228}{\\sqrt{2}} = \\frac{228\\sqrt{2}}{2} = 114\\sqrt{2}$$"
+      "content": "A square with side length $s$ has diagonal $d = s\\sqrt{2}$. Substituting $d = 204$:<br/>$$204 = s\\sqrt{2}$$<br/>$$s = \\frac{204}{\\sqrt{2}} = \\frac{204\\sqrt{2}}{2} = 102\\sqrt{2}$$"
     },
     {
       "title": "Find the inscribed circle's radius and area",
-      "content": "For a circle inscribed in a square, the radius equals half the side length. With $s = 114\\sqrt{2}$:<br/>$$r = \\frac{s}{2} = 57\\sqrt{2}$$<br/>The circle's area is:<br/>$$A = \\pi r^2 = \\pi(57\\sqrt{2})^2 = \\pi \\cdot 57^2 \\cdot 2 = \\pi \\cdot 3249 \\cdot 2 = 6498\\pi$$<br/>That confirms <strong>A</strong> is correct."
+      "content": "For a circle inscribed in a square, the radius equals half the side length. With $s = 102\\sqrt{2}$:<br/>$$r = \\frac{s}{2} = 51\\sqrt{2}$$<br/>The circle's area is:<br/>$$A = \\pi r^2 = \\pi(51\\sqrt{2})^2 = \\pi \\cdot 51^2 \\cdot 2 = \\pi \\cdot 2601 \\cdot 2 = 5202\\pi$$<br/>That confirms <strong>A</strong> is correct."
     }
   ]
 }

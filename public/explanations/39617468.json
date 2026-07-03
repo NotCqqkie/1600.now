@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the given information",
-      "content": "The equation $x + y = 350$ relates maple trees ($x$) and birch trees ($y$). We know that $x = 245$ maple trees were planted, and we need to find $y$ birch trees."
+      "content": "The equation $x + y = 420$ relates oak trees ($x$) and pine trees ($y$). We know that $x = 294$ oak trees were planted, and we need to find $y$ pine trees."
     },
     {
-      "title": "Substitute and solve for birch trees",
-      "content": "Substitute $x = 245$ into the equation:<br/>$$245 + y = 350$$<br/>Subtract 245 from both sides:<br/>$$y = 350 - 245 = 105$$<br/><strong>C</strong> is correct."
+      "title": "Substitute and solve for pine trees",
+      "content": "Substitute $x = 294$ into the equation:<br/>$$294 + y = 420$$<br/>Subtract 294 from both sides:<br/>$$y = 420 - 294 = 126$$<br/><strong>C</strong> is correct."
     }
   ]
 }

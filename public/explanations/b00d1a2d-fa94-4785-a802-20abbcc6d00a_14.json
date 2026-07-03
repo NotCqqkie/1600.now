@@ -4,7 +4,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>C</strong>, $\\frac{xy^{2}+14xy-10y}{x^{2}y-10xy}$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>C</strong>, $\\frac{xy^{2}+18xy-12y}{x^{2}y-12xy}$."
     },
     {
       "title": "Algebra check",
@@ -12,15 +12,15 @@
     },
     {
       "title": "Step 1",
-      "content": "Factor the denominator of the second fraction: $x^{2}y - 10xy = xy(x-10)$. So the second fraction becomes $\\frac{y(x-10)}{xy(x-10)} = \\frac{1}{x}$ after canceling $(x-10)$."
+      "content": "Factor the denominator of the second fraction: $x^{2}y - 12xy = xy(x-12)$. So the second fraction becomes $\\frac{y(x-12)}{xy(x-12)} = \\frac{1}{x}$ after canceling $(x-12)$."
     },
     {
       "title": "Step 2",
-      "content": "The expression simplifies to $\\frac{y+13}{x-10} + \\frac{1}{x}$. Find a common denominator of $x(x-10)$:$$\\frac{x(y+13)}{x(x-10)} + \\frac{x-10}{x(x-10)} = \\frac{xy+13x+x-10}{x(x-10)} = \\frac{xy+14x-10}{x(x-10)}$$"
+      "content": "The expression simplifies to $\\frac{y+17}{x-12} + \\frac{1}{x}$. Find a common denominator of $x(x-12)$:$$\\frac{x(y+17)}{x(x-12)} + \\frac{x-12}{x(x-12)} = \\frac{xy+17x+x-12}{x(x-12)} = \\frac{xy+18x-12}{x(x-12)}$$"
     },
     {
       "title": "Step 3",
-      "content": "Factor $y$ from numerator and denominator to match answer format: multiply numerator and denominator by $y$:$$\\frac{y(xy+14x-10)}{xy(x-10)} = \\frac{xy^{2}+14xy-10y}{x^{2}y-10xy}$$"
+      "content": "Factor $y$ from numerator and denominator to match answer format: multiply numerator and denominator by $y$:$$\\frac{y(xy+18x-12)}{xy(x-12)} = \\frac{xy^{2}+18xy-12y}{x^{2}y-12xy}$$"
     }
   ],
   "correctAnswer": "C",

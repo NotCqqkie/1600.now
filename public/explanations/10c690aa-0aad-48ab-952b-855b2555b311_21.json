@@ -1,23 +1,23 @@
 {
   "questionId": "10c690aa-0aad-48ab-952b-855b2555b311_21",
-  "correctAnswer": "473",
+  "correctAnswer": "471",
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+      "title": "Fastest path: mark the relationships first",
+      "content": "Mark the given angle relationships in the setup first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
     },
     {
       "title": "Identify supplementary angles from parallel lines",
-      "content": "When parallel lines are cut by a transversal, an acute angle and the adjacent obtuse angle are supplementary. They must sum to 180°:<br/>$$5x + 52 + 7x + 92 = 180$$"
+      "content": "When parallel lines are cut by a transversal, an acute angle and the adjacent obtuse angle are supplementary. They must sum to 180°:<br/>$$4x + 49 + 6x + 81 = 180$$"
     },
     {
       "title": "Solve for x and find the angle measures",
-      "content": "Combine like terms:<br/>$$12x + 144 = 180$$<br/>$$12x = 36$$<br/>$$x = 3$$<br/>Now find the angle measures:<br/>Acute angle = $5(3) + 52 = 67^{\\circ}$<br/>Obtuse angle = $7(3) + 92 = 113^{\\circ}$"
+      "content": "Combine like terms:<br/>$$10x + 130 = 180$$<br/>$$10x = 50$$<br/>$$x = 5$$<br/>Now find the angle measures:<br/>Acute angle = $4(5) + 49 = 69^{\\circ}$<br/>Obtuse angle = $6(5) + 81 = 111^{\\circ}$"
     },
     {
       "title": "Calculate the sum of 2 acute and 3 obtuse angles",
-      "content": "All acute angles in this configuration equal 67°, and all obtuse angles equal 113°. The sum requested is:<br/>$$2(67^{\\circ}) + 3(113^{\\circ}) = 134^{\\circ} + 339^{\\circ} = 473^{\\circ}$$"
+      "content": "All acute angles in this configuration equal 69°, and all obtuse angles equal 111°. The sum requested is:<br/>$$2(69^{\\circ}) + 3(111^{\\circ}) = 138^{\\circ} + 333^{\\circ} = 471^{\\circ}$$"
     }
   ]
 }

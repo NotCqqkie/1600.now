@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Identify the form of the function",
-      "content": "The function $f(x)=4{,}000(0.75)^x$ has the exponential form $a\\cdot b^x$, where $a$ is the initial value and $b$ is the decay factor. Here $x$ counts years after 2012."
+      "content": "The function $f(x)=4{,}800(0.80)^x$ has the exponential form $a\\cdot b^x$, where $a$ is the initial value and $b$ is the decay factor. Here $x$ counts years after 2015."
     },
     {
       "title": "Evaluate at x = 0",
-      "content": "At $x=0$ (the year 2012): $f(0)=4{,}000(0.75)^0=4{,}000\\cdot 1=4{,}000$. So 4,000 represents the starting population in 2012."
+      "content": "At $x=0$ (the year 2015): $f(0)=4{,}800(0.80)^0=4{,}800\\cdot 1=4{,}800$. So 4,800 represents the starting population in 2015."
     },
     {
       "title": "Eliminate each choice",
-      "content": "<ul><li>A) Initial population in 2012 - matches $f(0)=4{,}000$. Correct.</li><li>B) Population 7 years after 2012 - that would be $f(7)=4{,}000(0.75)^7\\approx 534$, not 4,000.</li><li>C) Percent decrease each year - that comes from $1-0.75=0.25$, i.e. 25%, not 4,000.</li><li>D) Percent decrease every 7 years - again a percentage from the base 0.75, not 4,000.</li></ul>That matches <strong>Choice A &mdash; The estimated initial beetle population for this species and area in $2012$</strong>- <strong>A</strong>."
+      "content": "<ul><li>A) Initial population in 2015 - matches $f(0)=4{,}800$. Correct.</li><li>B) Population 6 years after 2015 - that would be $f(6)=4{,}800(0.80)^6\\approx 1{,}258$, not 4,800.</li><li>C) Percent decrease each year - that comes from $1-0.80=0.20$, i.e. 20%, not 4,800.</li><li>D) Percent decrease every 6 years - again a percentage from the base 0.80, not 4,800.</li></ul>That matches <strong>Choice A &mdash; The estimated initial moth population for this species and region in $2015$</strong>- <strong>A</strong>."
     }
   ]
 }

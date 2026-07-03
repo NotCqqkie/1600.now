@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Solve the equation",
-      "content": "Isolate the absolute value: $|7-x|=80$. So $7-x=80$ or $7-x=-80$, giving $x=-73$ or $x=87$."
+      "content": "Isolate the absolute value: $|8-x|=72$. So $8-x=72$ or $8-x=-72$, giving $x=-64$ or $x=80$."
     },
     {
       "title": "Sum the solutions",
-      "content": "Add: $-73+87=14$.<br/><br/>The answer is <strong>D</strong>."
+      "content": "Add: $-64+80=16$.<br/><br/>The answer is <strong>D</strong>."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches 14. The other choices do not satisfy the same condition from the question, so <strong>D</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches 16. The other choices do not satisfy the same condition from the question, so <strong>D</strong> is correct."
     }
   ]
 }

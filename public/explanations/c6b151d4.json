@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Interpret the equation",
-      "content": "The equation $$3x+4y=364$$ comes from counting straws: each triangle uses 3 straws and each rectangle uses 4 straws. If $x$ triangles and $y$ rectangles are built, the total straws used is $3x+4y$, which equals the given total of 364 straws."
+      "content": "The equation $$3x+4y=352$$ comes from counting craft sticks: each triangle uses 3 sticks and each rectangle uses 4 sticks. If $x$ triangles and $y$ rectangles are built, the total sticks used is $3x+4y$, which equals the given total of 352 sticks."
     },
     {
       "title": "Evaluate the given ordered pair",
-      "content": "Substitute $x=24$ and $y=73$: $$3(24)+4(73)=72+292=364$$. The left side equals the right side, so the pair satisfies the equation.<br/><br/>This means 24 triangles and 73 rectangles together use exactly 364 straws; thus, if 24 triangles were constructed, then 73 rectangles were constructed.<br/>That is the correct answer."
+      "content": "Substitute $x=28$ and $y=67$: $$3(28)+4(67)=84+268=352$$. The left side equals the right side, so the pair satisfies the equation.<br/><br/>This means 28 triangles and 67 rectangles together use exactly 352 sticks; thus, if 28 triangles were constructed, then 67 rectangles were constructed.<br/>That is Choice A."
     }
   ]
 }

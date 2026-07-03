@@ -1,19 +1,19 @@
 {
   "questionId": "83fb222d",
-  "correctAnswer": "6",
+  "correctAnswer": "8",
   "section": "Math",
   "steps": [
     {
       "title": "Solve for $n$",
-      "content": "From $6n=12$, divide both sides by $6$: $$n=2.$$"
+      "content": "From $7n=21$, divide both sides by $7$: $$n=3.$$"
     },
     {
       "title": "Evaluate the requested expression",
-      "content": "The question asks for $n+4$, so substitute $n=2$: $$n+4=2+4=6.$$"
+      "content": "The question asks for $n+5$, so substitute $n=3$: $$n+5=3+5=8.$$"
     },
     {
       "title": "Confirm the answer",
-      "content": "The value of $n+4$ is <strong>6</strong>. Check the original equation: ${6}(2)=12$, so $n=2$ is valid before adding $4$."
+      "content": "The value of $n+5$ is <strong>8</strong>. Check the original equation: ${7}(3)=21$, so $n=3$ is valid before adding $5$."
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the conversion factor",
-      "content": "We need to convert 28 kilograms to grams. The given conversion factor is: 1 kilogram = 1,000 grams."
+      "content": "We need to convert 32 kilograms to grams. The given conversion factor is: 1 kilogram = 1,000 grams."
     },
     {
       "title": "Multiply by the conversion factor",
-      "content": "Multiply the kangaroo's mass by 1,000 to convert from kg to g:<br/>$$28 \\times 1,000 = 28,000$$<br/>That is the correct answer."
+      "content": "Multiply the kangaroo's mass by 1,000 to convert from kg to g:<br/>$$32 \\times 1,000 = 32,000$$<br/>That is choice A, the correct answer."
     }
   ]
 }

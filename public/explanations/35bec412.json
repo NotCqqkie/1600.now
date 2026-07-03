@@ -1,6 +1,6 @@
 {
   "questionId": "35bec412",
-  "correctAnswer": "79",
+  "correctAnswer": "70",
   "section": "Math",
   "steps": [
     {
@@ -9,11 +9,11 @@
     },
     {
       "title": "Read the fifth value",
-      "content": "Counting through the sorted list, the fifth value is $79$: $$73,74,75,77,\\mathbf{79},82,84,85,91.$$"
+      "content": "Counting through the sorted list, the fifth value is $70$: $$62,64,65,67,\\mathbf{70},72,76,78,83.$$"
     },
     {
       "title": "Confirm the answer",
-      "content": "The median is <strong>79</strong>."
+      "content": "The median is <strong>70</strong>."
     }
   ]
 }

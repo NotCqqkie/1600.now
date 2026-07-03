@@ -1,15 +1,15 @@
 {
   "questionId": "022e9894",
-  "correctAnswer": "324",
+  "correctAnswer": "336",
   "section": "Math",
   "steps": [
     {
       "title": "Find attendance at first and second sessions",
-      "content": "72% of the 1,250 first-session attendees also attended the second session:<br/>$$0.72 \\times 1250 = 900$$<br/>So 900 people attended both sessions."
+      "content": "64% of the 1,500 first-session attendees also attended the second session:<br/>$$0.64 \\times 1500 = 960$$<br/>So 960 people attended both sessions."
     },
     {
       "title": "Calculate attendance at all three sessions",
-      "content": "36% of the 900 people who attended both the first and second sessions also attended the third session:<br/>$$0.36 \\times 900 = 324$$<br/>Therefore, 324 people attended all three information sessions."
+      "content": "35% of the 960 people who attended both the first and second sessions also attended the third session:<br/>$$0.35 \\times 960 = 336$$<br/>Therefore, 336 people attended all three training sessions."
     }
   ]
 }

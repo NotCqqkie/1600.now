@@ -1,6 +1,6 @@
 {
   "questionId": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_20",
-  "correctAnswer": "1625",
+  "correctAnswer": "1890",
   "section": "Math",
   "steps": [
     {
@@ -9,15 +9,15 @@
     },
     {
       "title": "Find the linear scale factor from surface areas",
-      "content": "The surface area ratio is $\\frac{880}{55} = 16$.<br/>For similar figures, surface area scales by $k^2$ where $k$ is the linear scale factor.<br/>Therefore: $k^2 = 16$, which means $k = 4$."
+      "content": "The surface area ratio is $\\frac{1200}{48} = 25$.<br/>For similar figures, surface area scales by $k^2$ where $k$ is the linear scale factor.<br/>Therefore: $k^2 = 25$, which means $k = 5$."
     },
     {
-      "title": "Use the volume scale factor k³ to find volume of X",
-      "content": "For similar solids, volume scales by $k^3$.<br/>The volume scale factor is: $k^3 = 4^3 = 64$<br/>Since volume of $Y$ is 1600 cm³:<br/>$$\\text{Volume}_X = \\frac{1600}{64} = 25 \\text{ cm}^3$$"
+      "title": "Use the volume scale factor k^3 to find volume of X",
+      "content": "For similar solids, volume scales by $k^3$.<br/>The volume scale factor is: $k^3 = 5^3 = 125$<br/>Since volume of $Y$ is 1875 cm^3:<br/>$$\\text{Volume}_X = \\frac{1875}{125} = 15 \\text{ cm}^3$$"
     },
     {
       "title": "Sum of the two volumes",
-      "content": "$$25 + 1600 = 1625 \\text{ cm}^3$$"
+      "content": "$$15 + 1875 = 1890 \\text{ cm}^3$$"
     }
   ]
 }

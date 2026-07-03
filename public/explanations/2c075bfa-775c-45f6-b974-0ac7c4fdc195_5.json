@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The underlined sentence reads: &quot;This evidence is exciting because it could help us better understand how M. symmetrica is related to other arthropods, such as cave crickets and krill.&quot; The phrase &quot;exciting because&quot; signals the sentence is giving a reason why the finding matters."
+      "content": "The underlined sentence reads: &quot;This evidence is exciting because it could help us better understand how *M. symmetrica* is related to other arthropods, such as cave crickets and krill.&quot; The phrase &quot;exciting because&quot; signals the sentence is giving a reason why the finding matters."
     },
     {
       "title": "Eliminate the choices",

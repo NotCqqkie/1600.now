@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The equation $\\frac{x+5}{3} = \\frac{x+5}{12}$ has the same numerator on both sides but different denominators. The only way two fractions with equal numerators and unequal denominators can be equal is if the numerator is $0$. So $x + 5 = 0$."
+      "content": "The equation $\\frac{x+7}{4} = \\frac{x+7}{16}$ has the same numerator on both sides but different denominators. The only way two fractions with equal numerators and unequal denominators can be equal is if the numerator is $0$. So $x + 7 = 0$."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; $2$ and $6$</strong>: does not contain 0. &#10007;</li><li><strong>Choice B &mdash; $-2$ and $2$</strong>: contains 0. &#10003;</li><li><strong>Choice C &mdash; $-6$ and $-3$</strong>: does not contain 0. &#10007;</li><li><strong>Choice D &mdash; $7$ and $12$</strong>: does not contain 0. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; $3$ and $7$</strong>: does not contain 0. &#10007;</li><li><strong>Choice B &mdash; $-3$ and $3$</strong>: contains 0. &#10003;</li><li><strong>Choice C &mdash; $-8$ and $-5$</strong>: does not contain 0. &#10007;</li><li><strong>Choice D &mdash; $8$ and $13$</strong>: does not contain 0. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
     }
   ]
 }

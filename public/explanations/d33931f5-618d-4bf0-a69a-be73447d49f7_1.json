@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Apply the equation from the given condition",
-      "content": "Divide by $6$: $x=10$."
+      "content": "Divide by $5$: $x=11$."
     },
     {
       "title": "Compute the target value",
-      "content": "Then $7x+3 = 70+3 = 73$. That matches the correct answer — <strong>A</strong> is correct."
+      "content": "Then $6x+4 = 66+4 = 70$. That matches the correct answer - <strong>A</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above is 73. The other choices do not satisfy the same condition from the question, so <strong>A</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above is 70. The other choices do not satisfy the same condition from the question, so <strong>A</strong> is correct."
     }
   ]
 }

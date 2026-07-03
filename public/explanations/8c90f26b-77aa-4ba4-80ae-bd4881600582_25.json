@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "This is a Transitions question. The first sentence makes a broad claim: Tucker worked at JPL. The second sentence narrows to a specific example of that work: her role on the Perseverance rover team. The transition must signal a move from general to specific."
+      "content": "This is a Transitions question. The first sentence makes a broad claim: Singh worked at JPL. The second sentence narrows to a specific example of that work: her role on the Perseverance rover team. The transition must signal a move from general to specific."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; Conversely,</strong>: signals contrast or opposition between two ideas. Tucker's rover work is not opposite to or in conflict with her working at JPL; it is a subset of it. &#10007;</li><li><strong>Choice B &mdash; Specifically,</strong>: signals that what follows is a more precise version or focused example of what came before. Tucker's Perseverance role is exactly that — a specific instance of her JPL work. &#10003;</li><li><strong>Choice C &mdash; Finally,</strong>: signals the last item in a list or the end of a sequence. The passage is not enumerating a series of Tucker's roles; it moves from one general statement to one specific one. &#10007;</li><li><strong>Choice D &mdash; Nevertheless,</strong>: signals concession — something is true despite an obstacle. There is no obstacle or concession anywhere in the passage. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; Conversely,</strong>: signals contrast or opposition between two ideas. Singh's rover work is not opposite to or in conflict with her working at JPL; it is a subset of it. &#10007;</li><li><strong>Choice B &mdash; Specifically,</strong>: signals that what follows is a more precise version or focused example of what came before. Singh's Perseverance role is exactly that — a specific instance of her JPL work. &#10003;</li><li><strong>Choice C &mdash; Finally,</strong>: signals the last item in a list or the end of a sequence. The passage is not enumerating a series of Singh's roles; it moves from one general statement to one specific one. &#10007;</li><li><strong>Choice D &mdash; Nevertheless,</strong>: signals concession — something is true despite an obstacle. There is no obstacle or concession anywhere in the passage. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
     }
   ]
 }

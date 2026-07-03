@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the form of the equation",
-      "content": "The equation $d = 45t$ presents distance as a linear function of time. The coefficient 45 is the number multiplying the time variable $t$, which tells us the rate at which distance increases per hour — this is the slope of the linear relationship."
+      "content": "The equation $d = 48t$ presents distance as a linear function of time. The coefficient 48 is the number multiplying the time variable $t$, which tells us the rate at which distance increases per hour &mdash; this is the slope of the linear relationship."
     },
     {
       "title": "Interpret the coefficient using the motion formula",
-      "content": "In motion problems, the fundamental relationship is: distance = speed × time.<br/><br/>Our equation $d = 45t$ shows that 45 is the constant multiplying time, so 45 represents the speed.<br/><br/>Since distance is measured in miles and time in hours, this speed must be 45 miles per hour.<br/><br/>This matches: <em>Marisol drove at an average speed of about 45 miles per hour</em> — <strong>C</strong> is correct."
+      "content": "In motion problems, the fundamental relationship is: distance = speed &times; time.<br/><br/>Our equation $d = 48t$ shows that 48 is the constant multiplying time, so 48 represents the speed.<br/><br/>Since distance is measured in miles and time in hours, this speed must be 48 miles per hour.<br/><br/>This matches: <em>Lucia drove at an average speed of about 48 miles per hour</em> &mdash; <strong>C</strong> is correct."
     }
   ]
 }

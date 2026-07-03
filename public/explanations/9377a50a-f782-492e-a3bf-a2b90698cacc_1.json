@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Set up",
-      "content": "A day has 1,440 total minutes. Let $y$ = non-daylight minutes. With 840 daylight minutes: $$840 + y = 1440$$"
+      "content": "A day has 1,440 total minutes. Let $y$ = non-daylight minutes. With 780 daylight minutes: $$780 + y = 1440$$"
     },
     {
       "title": "Solve",
-      "content": "$$y = 1440 - 840 = 600$$"
+      "content": "$$y = 1440 - 780 = 660$$"
     },
     {
       "title": "Answer",
-      "content": "Since $840+600=1440$, the daylight and non-daylight minutes add to one full day. The non-daylight value is $600$ minutes, so <strong>A</strong> is correct."
+      "content": "Since $780+660=1440$, the daylight and non-daylight minutes add to one full day. The non-daylight value is $660$ minutes, so <strong>A</strong> is correct."
     }
   ]
 }

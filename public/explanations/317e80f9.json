@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Use substitution",
-      "content": "The system is $x+y=18$ and $5y=x$. Since the second equation already gives $x$ in terms of $y$, substitute $5y$ for $x$ in the first equation."
+      "content": "The system is $x+y=24$ and $5y=x$. Since the second equation already gives $x$ in terms of $y$, substitute $5y$ for $x$ in the first equation."
     },
     {
       "title": "Solve by substitution",
-      "content": "From $5y=x$, substitute into $x+y=18$: $$5y+y=18$$ $$6y=18$$ $$y=3$$ Then $x=5(3)=15$."
+      "content": "From $5y=x$, substitute into $x+y=24$: $$5y+y=24$$ $$6y=24$$ $$y=4$$ Then $x=5(4)=20$."
     },
     {
       "title": "Confirm the ordered pair",
-      "content": "The solution is $(15,3)$. It checks because $15+3=18$ and $5(3)=15$. The result matches."
+      "content": "The solution is $(20,4)$. It checks because $20+4=24$ and $5(4)=20$. This matches Choice A."
     }
   ]
 }

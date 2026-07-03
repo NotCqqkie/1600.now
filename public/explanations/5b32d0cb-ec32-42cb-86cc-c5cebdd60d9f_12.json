@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set the appropriate variable to 0",
-      "content": "For the $y$-intercept, set $x=0$ in $y=14^{x}$: $$y=14^{0}.$$"
+      "content": "For the $y$-intercept, set $x=0$ in $y=9^{x}$: $$y=9^{0}.$$"
     },
     {
       "title": "Compute the intercept",
-      "content": "Any nonzero base to the $0$ power is $1$, so $y=1$ and the $y$-intercept is $(0,1)$. That confirms <strong>C</strong>. The point also checks in the equation because $14^0=1$."
+      "content": "Any nonzero base to the $0$ power is $1$, so $y=1$ and the $y$-intercept is $(0,1)$. That confirms <strong>C</strong>. The point also checks in the equation because $9^0=1$."
     }
   ]
 }

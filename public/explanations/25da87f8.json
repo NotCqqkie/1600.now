@@ -1,6 +1,6 @@
 {
   "questionId": "25da87f8",
-  "correctAnswer": "12",
+  "correctAnswer": "14",
   "section": "Math",
   "steps": [
     {
@@ -14,11 +14,11 @@
     },
     {
       "title": "Apply the perimeter condition",
-      "content": "The perimeter is the sum of all three sides:<br/>$$s + s\\sqrt{3} + 2s = 18 + 6\\sqrt{3}$$<br/>Combine like terms on the left:<br/>$$s(1 + \\sqrt{3} + 2) = 18 + 6\\sqrt{3}$$<br/>$$s(3 + \\sqrt{3}) = 18 + 6\\sqrt{3}$$<br/>Notice that the right side factors as $6(3 + \\sqrt{3})$."
+      "content": "The perimeter is the sum of all three sides:<br/>$$s + s\\sqrt{3} + 2s = 21 + 7\\sqrt{3}$$<br/>Combine like terms on the left:<br/>$$s(1 + \\sqrt{3} + 2) = 21 + 7\\sqrt{3}$$<br/>$$s(3 + \\sqrt{3}) = 21 + 7\\sqrt{3}$$<br/>Notice that the right side factors as $7(3 + \\sqrt{3})$."
     },
     {
       "title": "Solve for the scale factor and find the longest side",
-      "content": "Since $s(3 + \\sqrt{3}) = 6(3 + \\sqrt{3})$, divide both sides by $(3 + \\sqrt{3})$:<br/>$$s = 6$$<br/>The longest side is the hypotenuse, which equals $2s = 2(6) = 12$."
+      "content": "Since $s(3 + \\sqrt{3}) = 7(3 + \\sqrt{3})$, divide both sides by $(3 + \\sqrt{3})$:<br/>$$s = 7$$<br/>The longest side is the hypotenuse, which equals $2s = 2(7) = 14$."
     }
   ]
 }

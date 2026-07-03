@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify coefficients",
-      "content": "For $x^2 - 24x - 8 = 0$, read off $a = 1$, $b = -24$. No need to solve or factor."
+      "content": "For $x^2 - 20x - 12 = 0$, read off $a = 1$, $b = -20$. No need to solve or factor."
     },
     {
       "title": "Apply Vieta's sum shortcut",
-      "content": "Sum of solutions $= -b/a = -(-24)/1 = 24$. This shortcut uses the coefficient of $x$ directly, so there is no need to factor the quadratic or compute each root separately. That matches <strong>Choice D &mdash; 24</strong>."
+      "content": "Sum of solutions $= -b/a = -(-20)/1 = 20$. This shortcut uses the coefficient of $x$ directly, so there is no need to factor the quadratic or compute each root separately. That matches <strong>Choice D &mdash; 20</strong>."
     }
   ]
 }

@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Identify the decay factor",
-      "content": "The mass decreases by 23% every 11.69 minutes, so 77% remains each period. The decay factor is 0.77."
+      "content": "The mass decreases by 18% every 9.42 minutes, so 82% remains each period. The decay factor is 0.82."
     },
     {
       "title": "Build the exponent",
-      "content": "For exponential decay with period $T$, the model is $M = M_0 \\cdot b^{\\frac{t}{T}}$. Here $b = 0.77$ and $T = 11.69$, giving $M = 100(0.77)^{\\frac{t}{11.69}}$."
+      "content": "For exponential decay with period $T$, the model is $M = M_0 \\cdot b^{\\frac{t}{T}}$. Here $b = 0.82$ and $T = 9.42$, giving $M = 120(0.82)^{\\frac{t}{9.42}}$."
     },
     {
       "title": "Evaluate all choices",
-      "content": "<ul><li><strong>Choice A &mdash; $M=100(0.77)^{\\frac{t}{11.69}}$</strong>: base 0.77 (77% remains) and exponent $\\frac{t}{11.69}$ (number of periods). That is the correct answer.</li><li><strong>Choice B &mdash; $M=100(0.77)^{t+11.69}$</strong>: exponent $t+11.69$ is not the number of periods elapsed. Eliminated.</li><li><strong>Choice C &mdash; $M=100(0.23)^{\\frac{t}{11.69}}$</strong>: base 0.23 would mean only 23% remains (the amount lost, not retained). Eliminated.</li><li><strong>Choice D &mdash; $M=100(0.23)^{t+11.69}$</strong>: wrong base and wrong exponent form. Eliminated.</li></ul>"
+      "content": "<ul><li><strong>Choice A &mdash; $M=120(0.82)^{\\frac{t}{9.42}}$</strong>: base 0.82 (82% remains) and exponent $\\frac{t}{9.42}$ (number of periods). That is the correct answer.</li><li><strong>Choice B &mdash; $M=120(0.82)^{t+9.42}$</strong>: exponent $t+9.42$ is not the number of periods elapsed. Eliminated.</li><li><strong>Choice C &mdash; $M=120(0.18)^{\\frac{t}{9.42}}$</strong>: base 0.18 would mean only 18% remains (the amount lost, not retained). Eliminated.</li><li><strong>Choice D &mdash; $M=120(0.18)^{t+9.42}$</strong>: wrong base and wrong exponent form. Eliminated.</li></ul>"
     }
   ]
 }

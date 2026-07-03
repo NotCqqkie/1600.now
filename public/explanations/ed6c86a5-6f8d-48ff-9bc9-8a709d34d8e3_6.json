@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the favorable/total counts",
-      "content": "Total visitors $= 325$. Since every visitor is in room A, B, or C, the probabilities sum to 1. So $P(C) = 1 - 0.64 - 0.32 = 0.04$."
+      "content": "Total attendees $= 400$. Since every attendee is in room A, B, or C, the probabilities sum to 1. So $P(C) = 1 - 0.60 - 0.35 = 0.05$."
     },
     {
       "title": "Compute the probability",
-      "content": "Multiply by the total to get the count in room C:<br/>$$0.04 \\times 325 = 13$$<br/>That matches the correct answer — <strong>B</strong> is correct."
+      "content": "Multiply by the total to get the count in room C:<br/>$$0.05 \\times 400 = 20$$<br/>That matches the correct answer &mdash; <strong>B</strong> is correct."
     }
   ]
 }

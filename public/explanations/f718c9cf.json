@@ -1,15 +1,15 @@
 {
   "questionId": "f718c9cf",
-  "correctAnswer": "1.8",
+  "correctAnswer": "3.2",
   "section": "Math",
   "steps": [
     {
       "title": "Solve the system by elimination",
-      "content": "Multiply the first equation by 2: $10x+28y=90$. Subtract $10x+7y=27$: $$21y = 63 \\Rightarrow y = 3, \\ x = \\tfrac{45-42}{5} = 0.6.$$"
+      "content": "Multiply the first equation by 2: $10x+24y=104$. Subtract $10x+6y=32$: $$18y = 72 \\Rightarrow y = 4, \\ x = \\tfrac{52-48}{5} = 0.8.$$"
     },
     {
       "title": "Find $xy$",
-      "content": "Then $$xy = 0.6 \\cdot 3 = 1.8.$$ The answer is <strong>1.8</strong>."
+      "content": "Then $$xy = 0.8 \\cdot 4 = 3.2.$$ The answer is <strong>3.2</strong>."
     }
   ]
 }

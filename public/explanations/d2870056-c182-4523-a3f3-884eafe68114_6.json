@@ -1,15 +1,15 @@
 {
   "questionId": "d2870056-c182-4523-a3f3-884eafe68114_6",
-  "correctAnswer": "32000",
+  "correctAnswer": "47000",
   "section": "Math",
   "steps": [
     {
       "title": "Recognize the unit conversion",
-      "content": "We need to convert 32 kilograms to grams. The given conversion is: 1 kilogram = 1,000 grams."
+      "content": "We need to convert 47 kilograms to grams. The given conversion is: 1 kilogram = 1,000 grams."
     },
     {
       "title": "Multiply by the conversion factor",
-      "content": "To convert from kilograms to grams, multiply by 1,000:<br/>$$32 \\times 1,000 = 32,000$$<br/>The dog's mass is <strong>32,000 grams</strong>."
+      "content": "To convert from kilograms to grams, multiply by 1,000:<br/>$$47 \\times 1,000 = 47,000$$<br/>The suitcase's mass is <strong>47,000 grams</strong>."
     }
   ]
 }

@@ -8,12 +8,12 @@
       "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $1$, so the answer is <strong>C</strong>, 1. This is just a one-row lookup, and the arithmetic below confirms the table value."
     },
     {
-      "title": "Substitute x = -6 into the function",
-      "content": "To find $f(-6)$, we substitute $x = -6$ into the original equation:<br/>$$f(-6) = \\frac{-6+9}{3}$$"
+      "title": "Substitute x = -7 into the function",
+      "content": "To find $f(-7)$, we substitute $x = -7$ into the original equation:<br/>$$f(-7) = \\frac{-7+10}{3}$$"
     },
     {
       "title": "Simplify the numerator and divide",
-      "content": "Simplify the numerator: $-6 + 9 = 3$. Then evaluate the fraction:<br/>$$f(-6) = \\frac{3}{3} = 1$$<br/><strong>C</strong> is correct."
+      "content": "Simplify the numerator: $-7 + 10 = 3$. Then evaluate the fraction:<br/>$$f(-7) = \\frac{3}{3} = 1$$<br/><strong>C</strong> is correct."
     }
   ]
 }

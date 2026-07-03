@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Solve for $x$, then compute $12x$",
-      "content": "Expand the left: $8x+44-4x+10=4x+54$. Setting equal to $13x-9$ gives $9x=63$, so $x=7$."
+      "content": "Expand the left: $10x+45-6x+12=4x+57$. Setting equal to $14x-3$ gives $10x=60$, so $x=6$."
     },
     {
       "title": "Compute the target value",
-      "content": "Then $12x = 12(7) = 84$. That confirms <strong>D</strong> is correct."
+      "content": "Then $12x = 12(6) = 72$. That confirms <strong>D</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches the correct answer, 84. The other choices do not satisfy the same condition from the question, so <strong>D</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches the correct answer, 72. The other choices do not satisfy the same condition from the question, so <strong>D</strong> is correct."
     }
   ]
 }

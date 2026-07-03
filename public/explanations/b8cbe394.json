@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Identify the two charges",
-      "content": "The rental costs 11 dollars per day, so $d$ days cost $11d$. The insurance fee is a one-time 10-dollar charge."
+      "content": "The rental costs 14 dollars per day, so $d$ days cost $14d$. The booking fee is a one-time 9-dollar charge."
     },
     {
       "title": "Write the total cost",
-      "content": "Add the daily charge and the one-time fee: $$c=11d+10.$$"
+      "content": "Add the daily charge and the one-time fee: $$c=14d+9.$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "$c=11d+10$ matches <strong>C</strong>. The other choices either swap the daily rate and fee or multiply the one-time fee by the number of days."
+      "content": "$c=14d+9$ matches <strong>C</strong>. The other choices either swap the daily rate and fee or multiply the one-time fee by the number of days."
     }
   ]
 }

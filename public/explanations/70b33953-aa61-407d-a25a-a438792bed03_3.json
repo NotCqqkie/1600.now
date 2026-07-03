@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Factor the second equation",
-      "content": "Rewrite: $\\dfrac{cx}{4y}=\\dfrac{c}{4}\\cdot\\dfrac{x}{y}=52$."
+      "content": "Rewrite: $\\dfrac{cx}{5y}=\\dfrac{c}{5}\\cdot\\dfrac{x}{y}=60$."
     },
     {
       "title": "Combine and compute",
-      "content": "Substitute $\\dfrac{x}{y}=52$: $\\dfrac{c}{4}\\cdot 52=52$, so $\\dfrac{c}{4}=1$ and $c=4$.<br/><br/>The answer is <strong>A</strong>."
+      "content": "Substitute $\\dfrac{x}{y}=60$: $\\dfrac{c}{5}\\cdot 60=60$, so $\\dfrac{c}{5}=1$ and $c=5$.<br/><br/>The answer is <strong>A</strong>."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above confirms <strong>A</strong>, 4. The other choices do not satisfy the same condition from the question, so <strong>A</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above confirms <strong>A</strong>, 5. The other choices do not satisfy the same condition from the question, so <strong>A</strong> is correct."
     }
   ]
 }

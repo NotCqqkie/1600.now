@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Fastest path: try the choices",
-      "content": "Because the choices give possible solutions, plug them into the equation instead of solving from scratch. The only choice that satisfies the equation is <strong>C</strong>, $8$."
+      "content": "Because the choices give possible solutions, plug them into the equation instead of solving from scratch. The only choice that satisfies the equation is <strong>C</strong>, $7$."
     },
     {
       "title": "Apply the zero product property",
-      "content": "Since $-5\\ne 0$, the solutions come from setting each binomial factor of $-5(v-8)(v-2)(v+9)=0$ to zero, giving $v=8,\\ 2,\\ -9$."
+      "content": "Since $-4\\ne 0$, the solutions come from setting each binomial factor of $-4(w-7)(w-3)(w+8)=0$ to zero, giving $w=7,\\ 3,\\ -8$."
     },
     {
       "title": "Match a choice",
-      "content": "Among the options $-5,\\ -2,\\ 8,\\ 9$, only $v=8$ appears in the solution set. That is the correct answer."
+      "content": "Among the options $-4,\\ -3,\\ 7,\\ 8$, only $w=7$ appears in the solution set. That is the correct answer."
     }
   ]
 }

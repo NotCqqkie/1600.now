@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Set up the quadratic equation",
-      "content": "The product of $s$ and $(s-1)$ equals $272$: $$s(s-1)=272 \\implies s^2-s-272=0.$$"
+      "content": "The product of $s$ and $(s-1)$ equals $342$: $$s(s-1)=342 \\implies s^2-s-342=0.$$"
     },
     {
-      "title": "Solve and identify x",
-      "content": "Factor: $(s-17)(s+16)=0$, giving $s=17$ or $s=-16$. Since $s$ is positive, $s=17$. That confirms <strong>B</strong> is correct."
+      "title": "Solve and identify s",
+      "content": "Factor: $(s-19)(s+18)=0$, giving $s=19$ or $s=-18$. Since $s$ is positive, $s=19$. That confirms <strong>B</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches the correct answer, 17, and the other choices fail the same setup or substitution. Therefore <strong>B</strong> is correct."
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches the correct answer, 19, and the other choices fail the same setup or substitution. Therefore <strong>B</strong> is correct."
     }
   ]
 }

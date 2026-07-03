@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Spot the interrupter",
-      "content": "The relative clause is &quot;that... funded major infrastructure projects.&quot; Between the subject &quot;that&quot; and the verb &quot;funded,&quot; the writer inserts the prepositional phrase &quot;through trade and centralized taxation.&quot; A comma already opens this interrupter before &quot;through,&quot; so a matching comma must close it."
+      "content": "The relative clause is &quot;that, through trade and centralized taxation, funded major infrastructure projects throughout the Indian subcontinent.&quot; Between the subject &quot;that&quot; and the verb &quot;funded,&quot; the writer inserts the prepositional phrase &quot;through trade and centralized taxation.&quot; A comma already opens this interrupter before &quot;through,&quot; so a matching comma must close it."
     },
     {
       "title": "Apply the paired-punctuation rule",
@@ -13,7 +13,7 @@
     },
     {
       "title": "Eliminate per choice",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;taxation:&rsquo;</strong>: a colon cannot close a comma-opened interrupter, and there is also a stray space before it. Wrong mark. &#10007;</li><li><strong>Choice B &mdash; &lsquo;taxation,&rsquo;</strong>: a closing comma matches the opening comma after &quot;system,&quot; properly bracketing the interrupter. &#10003;</li><li><strong>Choice C &mdash; &lsquo;taxation —&rsquo;</strong>: an em dash cannot pair with an opening comma; punctuation must match. &#10007;</li><li><strong>Choice D &mdash; &lsquo;taxation&rsquo;</strong>: no punctuation leaves the interrupter unclosed, fusing it with the verb &quot;funded.&quot; &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;taxation:&rsquo;</strong>: a colon cannot close a comma-opened interrupter, and there is also a stray space before it. Wrong mark. &#10007;</li><li><strong>Choice B &mdash; &lsquo;taxation,&rsquo;</strong>: a closing comma matches the opening comma after &quot;that,&quot; properly bracketing the interrupter. &#10003;</li><li><strong>Choice C &mdash; &lsquo;taxation —&rsquo;</strong>: an em dash cannot pair with an opening comma; punctuation must match. &#10007;</li><li><strong>Choice D &mdash; &lsquo;taxation&rsquo;</strong>: no punctuation leaves the interrupter unclosed, fusing it with the verb &quot;funded.&quot; &#10007;</li></ul>That confirms <strong>B</strong> is correct."
     }
   ]
 }

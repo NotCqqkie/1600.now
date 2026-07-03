@@ -1,15 +1,15 @@
 {
   "questionId": "bd71c8f3-94e3-411f-929a-013a2ca9a277_14",
-  "correctAnswer": "672",
+  "correctAnswer": "759",
   "section": "Math",
   "steps": [
     {
       "title": "Calculate the quantity sold at the new price",
-      "content": "The price increases by \\$12 − \\$9 = \\$3.<br/><br/>For every \\$1 price increase, 8 fewer bags are sold:<br/>$$3 \\times 8 = 24 \\text{ fewer bags}$$<br/>New quantity at \\$12:<br/>$$80 - 24 = 56 \\text{ bags}$$"
+      "content": "The price increases by \\$11 - \\$8 = \\$3.<br/><br/>For every \\$1 price increase, 7 fewer bags are sold:<br/>$$3 \\times 7 = 21 \\text{ fewer bags}$$<br/>New quantity at \\$11:<br/>$$90 - 21 = 69 \\text{ bags}$$"
     },
     {
       "title": "Calculate revenue at the new price",
-      "content": "Revenue = price × number sold:<br/>$$12 \\times 56 = 672$$<br/>The estimated revenue is <strong>672</strong> dollars."
+      "content": "Revenue = price $\\times$ number sold:<br/>$$11 \\times 69 = 759$$<br/>The estimated revenue is <strong>759</strong> dollars."
     }
   ]
 }

@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Identify what $f(w)$ represents",
-      "content": "The problem states $f(w)=6w^2$ gives the area (in ft²) of a rectangle whose width is $w$ ft and whose length is $6w$ ft. So the input is the width and the output is the area."
+      "content": "The problem states $f(w)=5w^2$ gives the area (in ft²) of a rectangle whose width is $w$ ft and whose length is $5w$ ft. So the input is the width and the output is the area."
     },
     {
-      "title": "Interpret $f(14)=1{,}176$",
-      "content": "Input $w=14$ means the width is 14 ft. Output $1{,}176$ means the area is $1{,}176$ ft². So when the width is 14 ft, the area is 1,176 ft²."
+      "title": "Interpret $f(16)=1{,}280$",
+      "content": "Input $w=16$ means the width is 16 ft. Output $1{,}280$ means the area is $1{,}280$ ft². So when the width is 16 ft, the area is 1,280 ft²."
     },
     {
       "title": "Test each choice",
-      "content": "<ul><li><strong>A)</strong> Width 14 ft $\\Rightarrow$ area 1,176 ft². Matches input/output exactly. &check;</li><li><strong>B)</strong> Says output is the length. But $f$ outputs area, not length. Eliminate.</li><li><strong>C)</strong> Swaps input and output: claims width is 1,176. Eliminate.</li><li><strong>D)</strong> Also swaps input and output, and mislabels area as 14. Eliminate.</li></ul>That confirms <strong>A</strong> is correct."
+      "content": "<ul><li><strong>A)</strong> Width 16 ft $\\Rightarrow$ area 1,280 ft². Matches input/output exactly. &check;</li><li><strong>B)</strong> Says output is the length. But $f$ outputs area, not length. Eliminate.</li><li><strong>C)</strong> Swaps input and output: claims width is 1,280. Eliminate.</li><li><strong>D)</strong> Also swaps input and output, and mislabels area as 16. Eliminate.</li></ul>That confirms <strong>A</strong> is correct."
     }
   ]
 }

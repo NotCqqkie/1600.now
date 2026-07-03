@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>C</strong>, $11x+4y$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>C</strong>, $11x+3y$."
     },
     {
       "title": "Algebra check",
@@ -13,12 +13,12 @@
     },
     {
       "title": "Combine like terms",
-      "content": "Group the $x$ terms together: $6x + 5x = 11x$. The $y$ term has no like terms, so it stays as $4y$. Result: $11x + 4y$."
+      "content": "Group the $x$ terms together: $7x + 4x = 11x$. The $y$ term has no like terms, so it stays as $3y$. Result: $11x + 3y$."
     },
     {
       "title": "Match to the answer choices",
-      "content": "The simplified expression is $11x + 4y$. That matches <strong>Choice C &mdash; $11x+4y$</strong>."
+      "content": "The simplified expression is $11x + 3y$. That matches <strong>Choice C &mdash; $11x+3y$</strong>."
     }
   ],
-  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; $15x$</strong>: Adds all three terms as if they were like terms and drops $4y$ entirely &mdash; $x$ and $y$ terms cannot be combined. &#10007;</li><li><strong>Choice B &mdash; $15y$</strong>: Treats all terms as $y$ terms and uses the wrong sum &mdash; no basis for this. &#10007;</li><li><strong>Choice C &mdash; $11x+4y$</strong>: $6x + 5x = 11x$ and $4y$ remains unchanged. &#10003;</li><li><strong>Choice D &mdash; $30x+4y$</strong>: Multiplies the $x$ coefficients (6 &times; 5 = 30) instead of adding them. &#10007;</li></ul>That matches <strong>Choice C &mdash; $11x+4y$</strong>."
+  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; $14x$</strong>: Adds all three terms as if they were like terms and drops $3y$ entirely &mdash; $x$ and $y$ terms cannot be combined. &#10007;</li><li><strong>Choice B &mdash; $14y$</strong>: Treats all terms as $y$ terms and uses the wrong sum &mdash; no basis for this. &#10007;</li><li><strong>Choice C &mdash; $11x+3y$</strong>: $7x + 4x = 11x$ and $3y$ remains unchanged. &#10003;</li><li><strong>Choice D &mdash; $28x+3y$</strong>: Multiplies the $x$ coefficients (7 &times; 4 = 28) instead of adding them. &#10007;</li></ul>That matches <strong>Choice C &mdash; $11x+3y$</strong>."
 }

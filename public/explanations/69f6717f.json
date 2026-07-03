@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Calculate the volume of the cube",
-      "content": "The sample is a cube with edge length 0.90 m. Using the volume formula $V = s^3$:<br/>$$V = (0.90)^3 = 0.729 \\text{ m}^3$$"
+      "content": "The sample is a cube with edge length 0.80 m. Using the volume formula $V = s^3$:<br/>$$V = (0.80)^3 = 0.512 \\text{ m}^3$$"
     },
     {
       "title": "Calculate the mass",
-      "content": "From the density formula Density = Mass / Volume, we rearrange to get:<br/>$$\\text{Mass} = \\text{Density} \\times \\text{Volume} = 807 \\times 0.729 = 588.303 \\text{ kg}$$<br/>To the nearest whole number, this is 588 kg. That confirms <strong>A</strong> is correct."
+      "content": "From the density formula Density = Mass / Volume, we rearrange to get:<br/>$$\\text{Mass} = \\text{Density} \\times \\text{Volume} = 512 \\times 0.512 = 262.144 \\text{ kg}$$<br/>To the nearest whole number, this is 262 kg. That confirms <strong>A</strong> is correct."
     }
   ]
 }

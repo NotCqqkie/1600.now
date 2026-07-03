@@ -10,11 +10,11 @@
     {
       "title": "Apply the triangle angle sum property",
       "content": "The sum of all interior angles in a triangle equals $180^{\\circ}$. This is a fundamental property of all triangles.",
-      "formula": "$$A + B + C = 180^{\\circ}$$"
+      "formula": "$$D + E + F = 180^{\\circ}$$"
     },
     {
-      "title": "Substitute and solve for angle C",
-      "content": "Substitute A = $54^{\\circ}$ and B = $90^{\\circ}$ into the angle sum equation:<br/>$$54^{\\circ} + 90^{\\circ} + C = 180^{\\circ}$$<br/>$$144^{\\circ} + C = 180^{\\circ}$$<br/>$$C = 180^{\\circ} - 144^{\\circ} = 36^{\\circ}$$<br/>This matches - <strong>A</strong> is correct."
+      "title": "Substitute and solve for angle F",
+      "content": "Substitute D = $62^{\\circ}$ and E = $90^{\\circ}$ into the angle sum equation:<br/>$$62^{\\circ} + 90^{\\circ} + F = 180^{\\circ}$$<br/>$$152^{\\circ} + F = 180^{\\circ}$$<br/>$$F = 180^{\\circ} - 152^{\\circ} = 28^{\\circ}$$<br/>This matches - <strong>A</strong> is correct."
     }
   ]
 }

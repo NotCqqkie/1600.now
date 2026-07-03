@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Find total area to cover",
-      "content": "The deck has d square feet. Covering it <strong>twice</strong> means a total coverage area of 2d square feet."
+      "content": "The patio has d square feet. Covering it <strong>twice</strong> means a total coverage area of 2d square feet."
     },
     {
       "title": "Calculate gallons needed",
-      "content": "One gallon covers 250 sq ft, so gallons needed = $$\\frac{2d}{250} = \\frac{d}{125}$$"
+      "content": "One gallon covers 240 sq ft, so gallons needed = $$\\frac{2d}{240} = \\frac{d}{120}$$"
     },
     {
       "title": "Calculate cost",
-      "content": "Cost = gallons &times; price per gallon = $$\\frac{d}{125} \\times 23 = 23\\!\\left(\\frac{d}{125}\\right)$$"
+      "content": "Cost = gallons &times; price per gallon = $$\\frac{d}{120} \\times 27 = 27\\!\\left(\\frac{d}{120}\\right)$$"
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li><strong>Choice A — $c=\\frac{250d}{23}$</strong>: This inverts the ratio - it multiplies by 250 instead of dividing, giving a cost far too large. Incorrect</li><li><strong>Choice B — $c=\\frac{500d}{23}$</strong>: Accounts for double coverage (500 = 2 &times; 250) in the numerator but the algebra is inverted - gallons should be d/250, not 250d. Incorrect</li><li><strong>Choice C — $c=23(\\frac{d}{125})$</strong>: Divides by 125 (= 250/2) to account for double coverage, then multiplies by 23 dollars. This correctly gives c = 23d/125 = 46d/250, i.e. the cost for 2d sq ft at 23 dollars per 250 sq ft. Correct</li><li><strong>Choice D — $c=23(\\frac{d}{250})$</strong>: Gives the cost for covering the deck only once, not twice. Incorrect</li></ul>This matches - <strong>C</strong> is correct."
+      "content": "<ul><li><strong>Choice A — $c=\\frac{240d}{27}$</strong>: This inverts the ratio - it multiplies by 240 instead of dividing, giving a cost far too large. Incorrect</li><li><strong>Choice B — $c=\\frac{480d}{27}$</strong>: Accounts for double coverage (480 = 2 &times; 240) in the numerator but the algebra is inverted - gallons should be 2d/240 = d/120, not 480d/27. Incorrect</li><li><strong>Choice C — $c=27(\\frac{d}{120})$</strong>: Divides by 120 (= 240/2) to account for double coverage, then multiplies by 27 dollars. This correctly gives c = 27d/120 = 54d/240, i.e. the cost for 2d sq ft at 27 dollars per 240 sq ft. Correct</li><li><strong>Choice D — $c=27(\\frac{d}{240})$</strong>: Gives the cost for covering the patio only once, not twice. Incorrect</li></ul>This matches - <strong>C</strong> is correct."
     }
   ]
 }

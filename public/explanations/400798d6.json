@@ -5,16 +5,16 @@
   "steps": [
     {
       "title": "Step 1",
-      "content": "Triangle QRS has QR = x, RS = x, and SQ = y. The three sides sum to x + x + y = 2x + y."
+      "content": "Triangle LMN has LM = x, MN = x, and NL = y. The three sides sum to x + x + y = 2x + y."
     },
     {
       "title": "Step 2",
-      "content": "The equation 2x + y = 37 equates the perimeter to 37. So 37 is the sum of the lengths of all three sides."
+      "content": "The equation 2x + y = 49 equates the perimeter to 49. So 49 is the sum of the lengths of all three sides."
     },
     {
       "title": "Step 3",
       "content": "This matches the definition of perimeter: the total distance around the triangle."
     }
   ],
-  "choiceElimination": "<ul><li><strong>Choice A — The difference, in centimeters, between the lengths of sides $QR$ and $SQ$</strong>: The equation adds all sides, not subtracts any two. &#10007;</li><li><strong>Choice B — The difference, in centimeters, between the lengths of sides $QR$ and $RS$</strong>: QR and RS are both x, so their difference is 0, not 37. &#10007;</li><li><strong>Choice C — The sum of the lengths, in centimeters, of the three sides of the triangle</strong>: 2x + y = x + x + y = QR + RS + SQ = perimeter = 37. &#10003;</li><li><strong>Choice D — The length, in centimeters, of one of the two sides of equal length</strong>: That would be x, not 37, which is the full sum. &#10007;</li></ul><strong>C</strong> is correct."
+  "choiceElimination": "<ul><li><strong>Choice A &mdash; The difference, in centimeters, between the lengths of sides $LM$ and $NL$</strong>: The equation adds all sides, not subtracts any two. &#10007;</li><li><strong>Choice B &mdash; The difference, in centimeters, between the lengths of sides $LM$ and $MN$</strong>: LM and MN are both x, so their difference is 0, not 49. &#10007;</li><li><strong>Choice C &mdash; The sum of the lengths, in centimeters, of the three sides of the triangle</strong>: 2x + y = x + x + y = LM + MN + NL = perimeter = 49. &#10003;</li><li><strong>Choice D &mdash; The length, in centimeters, of one of the two sides of equal length</strong>: That would be x, not 49, which is the full sum. &#10007;</li></ul><strong>C</strong> is correct."
 }

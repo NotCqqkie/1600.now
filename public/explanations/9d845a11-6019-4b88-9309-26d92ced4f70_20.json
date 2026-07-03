@@ -1,6 +1,6 @@
 {
   "questionId": "9d845a11-6019-4b88-9309-26d92ced4f70_20",
-  "correctAnswer": "7",
+  "correctAnswer": "8",
   "section": "Math",
   "steps": [
     {
@@ -9,15 +9,15 @@
     },
     {
       "title": "Set up",
-      "content": "The standard form of a circle is $(x - h)^2 + (y - k)^2 = r^2$, where $(h, k)$ is the center. The center is given as $(7, 2)$, so $h = 7$ and $k = 2$."
+      "content": "The standard form of a circle is $(x - h)^2 + (y - k)^2 = r^2$, where $(h, k)$ is the center. The center is given as $(8, 5)$, so $h = 8$ and $k = 5$."
     },
     {
       "title": "Solve",
-      "content": "The question asks for $h$. Reading directly from the center: $h = 7$."
+      "content": "The question asks for $h$. Reading directly from the center: $h = 8$."
     },
     {
       "title": "Answer",
-      "content": "<strong>7</strong> is correct."
+      "content": "<strong>8</strong> is correct."
     }
   ]
 }

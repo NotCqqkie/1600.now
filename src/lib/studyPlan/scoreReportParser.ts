@@ -464,31 +464,35 @@ const extractPdfReport = async (file: File, forceOcr = false) => {
   const pages: string[] = [];
   const visualBars: Partial<Record<ScoreReportFocusId, number>> = {};
 
-  for (let pageNumber = 1; pageNumber <= pdf.numPages; pageNumber += 1) {
-    const page = await pdf.getPage(pageNumber);
-    const content = await page.getTextContent();
-    const viewport = page.getViewport({ scale: 2 });
-    const textLines = groupPdfTextLines(content.items, pdfjs.Util.transform, viewport.transform, viewport.scale);
-    const pageText = textLines.map((line) => line.text).join("\n");
-    pages.push(pageText);
+  try {
+    for (let pageNumber = 1; pageNumber <= pdf.numPages; pageNumber += 1) {
+      const page = await pdf.getPage(pageNumber);
+      const content = await page.getTextContent();
+      const viewport = page.getViewport({ scale: 2 });
+      const textLines = groupPdfTextLines(content.items, pdfjs.Util.transform, viewport.transform, viewport.scale);
+      const pageText = textLines.map((line) => line.text).join("\n");
+      pages.push(pageText);
 
-    const canvas = document.createElement("canvas");
-    canvas.width = Math.ceil(viewport.width);
-    canvas.height = Math.ceil(viewport.height);
-    const context = canvas.getContext("2d");
-    if (!context) continue;
-    await page.render({ canvas, viewport }).promise;
+      const canvas = document.createElement("canvas");
+      canvas.width = Math.ceil(viewport.width);
+      canvas.height = Math.ceil(viewport.height);
+      const context = canvas.getContext("2d");
+      if (!context) continue;
+      await page.render({ canvas, viewport }).promise;
 
-    mergeVisualBars(visualBars, estimateVisualBarsFromCanvas(canvas, textLines));
+      mergeVisualBars(visualBars, estimateVisualBarsFromCanvas(canvas, textLines));
 
-    if (forceOcr || pageText.trim().length < 80) {
-      const imageFile = await canvasToPngFile(canvas, `${file.name}-page-${pageNumber}.png`);
-      if (imageFile) {
-        const imageReport = await extractImageReport(imageFile);
-        pages.push(imageReport.text);
-        mergeVisualBars(visualBars, imageReport.visualBars);
+      if (forceOcr || pageText.trim().length < 80) {
+        const imageFile = await canvasToPngFile(canvas, `${file.name}-page-${pageNumber}.png`);
+        if (imageFile) {
+          const imageReport = await extractImageReport(imageFile);
+          pages.push(imageReport.text);
+          mergeVisualBars(visualBars, imageReport.visualBars);
+        }
       }
     }
+  } finally {
+    await pdf.destroy();
   }
 
   return {
@@ -509,7 +513,15 @@ const needsOcrFallback = (report: ParsedScoreReport) =>
 
 const extractImageReport = async (file: File) => {
   const { createWorker } = await import("tesseract.js");
-  const worker = await createWorker("eng");
+  // Self-host the executable worker, wasm core, and language data (all copied
+  // into public/tesseract) so nothing — code or data — is fetched from a
+  // third-party CDN at runtime.
+  const worker = await createWorker("eng", undefined, {
+    workerPath: "/tesseract/worker.min.js",
+    corePath: "/tesseract/core",
+    langPath: "/tesseract/lang",
+    gzip: true,
+  });
   try {
     const result = await worker.recognize(file);
     const data = result.data as { text?: string; words?: OcrWord[] };

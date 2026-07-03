@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+      "title": "Use the perimeter",
+      "content": "Since the perimeter is the sum of the three side lengths, subtract the two known congruent sides from the total perimeter to find the third side."
     },
     {
       "title": "Set up the perimeter equation",
-      "content": "In an isosceles triangle, perimeter equals the sum of all three sides. With two congruent sides of 22 feet each and total perimeter of 78 feet: $$22 + 22 + x = 78$$ where $x$ is the unknown third side."
+      "content": "In an isosceles triangle, perimeter equals the sum of all three sides. With two congruent sides of 24 feet each and total perimeter of 84 feet: $$24 + 24 + x = 84$$ where $x$ is the unknown third side."
     },
     {
       "title": "Solve for the third side",
-      "content": "$$44 + x = 78$$ $$x = 34$$ That matches the correct answer — <strong>C</strong> is correct."
+      "content": "$$48 + x = 84$$ $$x = 36$$ That matches the correct answer - <strong>C</strong> is correct."
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Expand and collect C terms",
-      "content": "Distribute $N$ on the right side of $PC = N(44 - C)$ to get $PC = 44N - NC$.<br/>Add $NC$ to both sides:<br/>$$PC + NC = 44N$$"
+      "content": "Distribute $N$ on the right side of $PC = N(52 - C)$ to get $PC = 52N - NC$.<br/>Add $NC$ to both sides:<br/>$$PC + NC = 52N$$"
     },
     {
       "title": "Factor out C and solve",
-      "content": "Factor $C$ from the left side:<br/>$$C(P + N) = 44N$$<br/>Divide both sides by $(P + N)$:<br/>$$C = \\frac{44N}{P + N}$$<br/>That confirms <strong>C</strong> is correct."
+      "content": "Factor $C$ from the left side:<br/>$$C(P + N) = 52N$$<br/>Divide both sides by $(P + N)$:<br/>$$C = \\frac{52N}{P + N}$$<br/>That confirms <strong>C</strong> is correct."
     }
   ]
 }

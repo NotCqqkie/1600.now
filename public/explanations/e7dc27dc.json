@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "This is a \"most logically completes the text\" question. The decisive clue is that <em>Gidra</em> had an \"expansive reach\" despite only printing 4,000 copies per month — so the correct choice must explain how influence outpaced circulation."
+      "content": "This is a command of evidence question. The decisive clue is that <em>Gidra</em> had an \"expansive reach\" despite only printing 4,000 copies per month, so the correct choice must explain how influence outpaced circulation."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"The students who initially formed <em>Gidra</em> each contributed financially to its creation.\"</strong>: Funding sources say nothing about how the newsletter's reach exceeded its print run. &#10007;</li><li><strong>\"In addition to covering current events, <em>Gidra</em> also featured works of art and literature.\"</strong>: Content variety does not explain how 4,000 copies could influence more than 4,000 people. &#10007;</li><li><strong>\"<em>Gidra</em> was initially based out of the Asian American Studies Center at UCLA.\"</strong>: Physical location tells us nothing about circulation or extended readership. &#10007;</li><li><strong>\"People would often give their copies of <em>Gidra</em> to others once they had finished reading an issue.\"</strong>: If each copy passed through multiple hands, actual readers would far exceed 4,000 — directly explaining the \"expansive reach.\" &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+      "content": "<ul><li><strong>\"The students who initially formed <em>Gidra</em> each contributed financially to its creation.\"</strong>: Funding sources say nothing about how the newsletter's reach exceeded its print run. &#10007;</li><li><strong>\"In addition to covering current events, <em>Gidra</em> also featured works of art and literature.\"</strong>: Content variety does not explain how 4,000 copies could influence more than 4,000 people. &#10007;</li><li><strong>\"<em>Gidra</em> was initially based out of the Asian American Studies Center at UC Berkeley.\"</strong>: Physical location tells us nothing about circulation or extended readership. &#10007;</li><li><strong>\"People would often give their copies of <em>Gidra</em> to others once they had finished reading an issue.\"</strong>: If each copy passed through multiple hands, actual readers would far exceed 4,000 — directly explaining the \"expansive reach.\" &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
     }
   ]
 }

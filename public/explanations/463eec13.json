@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $4x^{-1}y^4$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $5x^{-1}y^2$."
     },
     {
       "title": "Algebra check",
@@ -13,11 +13,11 @@
     },
     {
       "title": "Simplify the expression",
-      "content": "Simplify $\\frac{\\sqrt{16x^4y^8}}{x^3}$ by taking the square root of the numerator: $\\sqrt{16x^4y^8} = 4x^2y^4$. Then divide by $x^3$: $\\frac{4x^2y^4}{x^3} = 4x^{-1}y^4$."
+      "content": "Simplify $\\frac{\\sqrt{25x^8y^4}}{x^5}$ by taking the square root of the numerator: $\\sqrt{25x^8y^4} = 5x^4y^2$. Then divide by $x^5$: $\\frac{5x^4y^2}{x^5} = 5x^{-1}y^2$."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A — $x^2y^4$</strong>: The exponent on $x$ is $+2$, but after dividing $x^2$ by $x^3$ we get $x^{-1}$, not $x^2$. &#10007;</li><li><strong>Choice B — $xy^4$</strong>: The exponent on $x$ is $+1$, same error as A &mdash; ignores the division by $x^3$. &#10007;</li><li><strong>Choice C — $x^{-2}y^2$</strong>: Both exponents are wrong: $y$ should be $y^4$ (not $y^2$), and $x^{-2}$ would come from taking the square root of $x^4$ twice instead of once. &#10007;</li><li><strong>Choice D — $4x^{-1}y^4$</strong>: Matches $4x^{-1}y^4$ exactly (the constant 4 is not among the variable choices, so we match the variable part). &#10003;</li></ul><strong>D</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; $x^4y^2$</strong>: The exponent on $x$ is $+4$, but after dividing $x^4$ by $x^5$ we get $x^{-1}$, not $x^4$. Incorrect.</li><li><strong>Choice B &mdash; $xy^2$</strong>: The exponent on $x$ is $+1$, same error as A &mdash; ignores the division by $x^5$. Incorrect.</li><li><strong>Choice C &mdash; $x^{-3}y$</strong>: Both exponents are wrong: $y$ should be $y^2$ (not $y$), and $x^{-3}$ would come from taking the square root of $x^8$ twice instead of once. Incorrect.</li><li><strong>Choice D &mdash; $5x^{-1}y^2$</strong>: Matches $5x^{-1}y^2$ exactly, including the coefficient 5. Correct.</li></ul><strong>D</strong> is correct."
     }
   ]
 }

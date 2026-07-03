@@ -1,6 +1,6 @@
 {
   "questionId": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_20",
-  "correctAnswer": "2209",
+  "correctAnswer": "841",
   "section": "Math",
   "steps": [
     {
@@ -9,11 +9,11 @@
     },
     {
       "title": "Find the scale factor between the two radii",
-      "content": "The radius of circle A is $2x$ and the radius of circle B is $94x$. To compare the areas, start with the ratio of the radii:<br/>$$k = \\frac{\\text{radius B}}{\\text{radius A}} = \\frac{94x}{2x} = 47$$"
+      "content": "The radius of circle C is $3x$ and the radius of circle D is $87x$. To compare the areas, start with the ratio of the radii:<br/>$$k = \\frac{\\text{radius D}}{\\text{radius C}} = \\frac{87x}{3x} = 29$$"
     },
     {
       "title": "Apply the area scaling rule",
-      "content": "When a figure is scaled by a linear factor of $k$, its area is scaled by $k^2$. Here, the radius of circle B is 47 times the radius of circle A, so its area is:<br/>$$47^2 = 2209$$<br/>times the area of circle A."
+      "content": "When a figure is scaled by a linear factor of $k$, its area is scaled by $k^2$. Here, the radius of circle D is 29 times the radius of circle C, so its area is:<br/>$$29^2 = 841$$<br/>times the area of circle C."
     }
   ]
 }

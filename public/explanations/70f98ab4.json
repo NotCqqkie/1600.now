@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Undo the subtraction",
-      "content": "The equation is $q-29r=s$, and the goal is to isolate $q$. Since $29r$ is being subtracted from $q$, add $29r$ to both sides."
+      "content": "The equation is $q-34r=s$, and the goal is to isolate $q$. Since $34r$ is being subtracted from $q$, add $34r$ to both sides."
     },
     {
       "title": "Match the isolated form",
-      "content": "$$q-29r+29r=s+29r$$ $$q=s+29r$$ This matches <strong>B</strong>. An incorrect response keeps the subtraction instead of undoing it, and the other choices change the equation's structure."
+      "content": "$$q-34r+34r=s+34r$$ $$q=s+34r$$ This matches <strong>B</strong>. An incorrect response keeps the subtraction instead of undoing it, and the other choices change the equation's structure."
     }
   ]
 }

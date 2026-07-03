@@ -4,13 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Backsolving — testing choice B (20)",
-      "content": "If there are 20 two‑person tents, then the number of four‑person tents is $$60 - 20 = 40$$.<br/>Total people would be $$2(20) + 4(40) = 40 + 160 = 200$$.<br/>Since 200 is not equal to 202, choice B (&lsquo;20&rsquo;) fails.",
+      "title": "Backsolving — testing choice B (19)",
+      "content": "If there are 19 two-person tents, then the number of four-person tents is $$56 - 19 = 37$$.<br/>Total people would be $$2(19) + 4(37) = 38 + 148 = 186$$.<br/>Since 186 is not equal to 188, choice B (&lsquo;19&rsquo;) fails.",
       "formula": null
     },
     {
-      "title": "Backsolving — testing choice C (19)",
-      "content": "If there are 19 two‑person tents, then the number of four‑person tents is $$60 - 19 = 41$$.<br/>Total people would be $$2(19) + 4(41) = 38 + 164 = 202$$.<br/>That confirms <strong>C</strong> is correct.",
+      "title": "Backsolving — testing choice C (18)",
+      "content": "If there are 18 two-person tents, then the number of four-person tents is $$56 - 18 = 38$$.<br/>Total people would be $$2(18) + 4(38) = 36 + 152 = 188$$.<br/>That confirms <strong>C</strong> is correct.",
       "formula": null
     }
   ]

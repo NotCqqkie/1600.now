@@ -1,6 +1,6 @@
 {
   "questionId": "fb43b85f",
-  "correctAnswer": "1.636",
+  "correctAnswer": "19/11",
   "section": "Math",
   "steps": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "title": "Substitute the points",
-      "content": "With points $(4, 6)$ and $(15, 24)$:<br/>$$m = \\frac{24 - 6}{15 - 4} = \\frac{18}{11}$$<br/>The slope of the line is $\\frac{18}{11}$.<br/>The answer is <strong>1.636</strong>."
+      "content": "With points $(5, 7)$ and $(16, 26)$:<br/>$$m = \\frac{26 - 7}{16 - 5} = \\frac{19}{11}$$<br/>The slope of the line is $\\frac{19}{11}$.<br/>The answer is <strong>19/11</strong>."
     }
   ]
 }

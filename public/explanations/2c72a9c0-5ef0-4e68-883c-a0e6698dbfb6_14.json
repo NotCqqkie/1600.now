@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Identify the pricing structure",
-      "content": "The problem describes two price components: <ul><li>First book: \\$13</li><li>Each additional book: \\$11</li></ul>"
+      "content": "The problem describes two price components: <ul><li>First book: \\$15</li><li>Each additional book: \\$12</li></ul>"
     },
     {
       "title": "Express the number of additional books",
-      "content": "If $x$ books are purchased in total, then $(x-1)$ books are purchased after the first. The cost for these $(x-1)$ additional books is: $$11(x-1)$$"
+      "content": "If $x$ books are purchased in total, then $(x-1)$ books are purchased after the first. The cost for these $(x-1)$ additional books is: $$12(x-1)$$"
     },
     {
       "title": "Write the total cost equation",
-      "content": "The total cost is the cost of the additional books plus the cost of the first book: $$y = 11(x-1) + 13$$ <strong>C</strong> is correct."
+      "content": "The total cost is the cost of the additional books plus the cost of the first book: $$y = 12(x-1) + 15$$ <strong>C</strong> is correct."
     }
   ]
 }

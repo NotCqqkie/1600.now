@@ -9,11 +9,11 @@
     },
     {
       "title": "Identify the circle equation form and given values",
-      "content": "The standard equation for a circle with center $(h, k)$ and radius $r$ is $(x - h)^2 + (y - k)^2 = r^2$. From the problem: center = $(19, 18)$, radius = $9k$."
+      "content": "The standard equation for a circle with center $(h, k)$ and radius $r$ is $(x - h)^2 + (y - k)^2 = r^2$. From the problem: center = $(17, 14)$, radius = $8k$."
     },
     {
       "title": "Substitute and simplify",
-      "content": "Substitute the center and radius:<br/>$$(x - 19)^2 + (y - 18)^2 = (9k)^2$$<br/>Evaluate $(9k)^2 = 81k^2$:<br/>$$(x - 19)^2 + (y - 18)^2 = 81k^2$$<br/>That is the correct answer."
+      "content": "Substitute the center and radius:<br/>$$(x - 17)^2 + (y - 14)^2 = (8k)^2$$<br/>Evaluate $(8k)^2 = 64k^2$:<br/>$$(x - 17)^2 + (y - 14)^2 = 64k^2$$<br/>This matches choice B."
     }
   ]
 }

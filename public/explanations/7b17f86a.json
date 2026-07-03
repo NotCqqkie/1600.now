@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute x equals 3/11 into the function",
-      "content": "To find $f\\left(\\frac{3}{11}\\right)$, replace $x$ with $\\frac{3}{11}$ in the equation $f(x) = x + \\frac{8}{11}$:<br/>$$f\\left(\\frac{3}{11}\\right) = \\frac{3}{11} + \\frac{8}{11}$$"
+      "title": "Substitute x equals 4/13 into the function",
+      "content": "To find $f\\left(\\frac{4}{13}\\right)$, replace $x$ with $\\frac{4}{13}$ in the equation $f(x) = x + \\frac{9}{13}$:<br/>$$f\\left(\\frac{4}{13}\\right) = \\frac{4}{13} + \\frac{9}{13}$$"
     },
     {
       "title": "Add the fractions with the same denominator",
-      "content": "Since both fractions have denominator 11, add the numerators:<br/>$$\\frac{3}{11} + \\frac{8}{11} = \\frac{3+8}{11} = \\frac{11}{11} = 1$$<br/>The answer is <strong>1</strong>."
+      "content": "Since both fractions have denominator 13, add the numerators:<br/>$$\\frac{4}{13} + \\frac{9}{13} = \\frac{4+9}{13} = \\frac{13}{13} = 1$$<br/>The answer is <strong>1</strong>."
     }
   ]
 }

@@ -9,11 +9,11 @@
     },
     {
       "title": "Apply the pyramid volume formula",
-      "content": "The volume of a pyramid is $V = \\frac{1}{3} \\times \\text{base area} \\times \\text{height}$. For a square base with side length $s$, the base area is $s^2$, so:<br/>$$V = \\frac{1}{3}s^2h$$<br/>Substitute the given values $V = 128$ and $h = 6$:<br/>$$128 = \\frac{1}{3}s^2(6)$$"
+      "content": "The volume of a pyramid is $V = \\frac{1}{3} \\times \\text{base area} \\times \\text{height}$. For a square base with side length $s$, the base area is $s^2$, so:<br/>$$V = \\frac{1}{3}s^2h$$<br/>Substitute the given values $V = 300$ and $h = 9$:<br/>$$300 = \\frac{1}{3}s^2(9)$$"
     },
     {
       "title": "Simplify and solve for the side length",
-      "content": "Simplify the right side:<br/>$$128 = \\frac{6s^2}{3}$$<br/>$$128 = 2s^2$$<br/>Divide both sides by 2:<br/>$$s^2 = 64$$<br/>Take the positive square root:<br/>$$s = 8$$<br/>That matches <strong>Choice A &mdash; $8$</strong>."
+      "content": "Simplify the right side:<br/>$$300 = \\frac{9s^2}{3}$$<br/>$$300 = 3s^2$$<br/>Divide both sides by 3:<br/>$$s^2 = 100$$<br/>Take the positive square root:<br/>$$s = 10$$<br/>That matches <strong>Choice A &mdash; $10$</strong>."
     }
   ]
 }

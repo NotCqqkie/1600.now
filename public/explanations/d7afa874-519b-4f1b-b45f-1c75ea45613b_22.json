@@ -13,11 +13,11 @@
     },
     {
       "title": "Calculate and round",
-      "content": "$$1.1\\cdot\\frac{3{,}600}{1{,}609}\\approx2.46.$$ Rounded to the nearest tenth, this is $2.5$ miles per minute squared."
+      "content": "$$1.3\\cdot\\frac{3{,}600}{1{,}609}\\approx2.91.$$ Rounded to the nearest tenth, this is $2.9$ miles per minute squared."
     },
     {
       "title": "Confirm the choice",
-      "content": "$2.5$ matches the correct answer, <strong>B</strong>."
+      "content": "$2.9$ matches the correct answer, <strong>B</strong>."
     }
   ]
 }

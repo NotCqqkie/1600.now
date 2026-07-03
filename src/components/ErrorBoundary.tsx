@@ -1,5 +1,10 @@
 import { Component, type ErrorInfo, type ReactNode } from "react";
-import { isChunkLoadError, recoverFromChunkLoadError } from "@/lib/chunkLoadRecovery";
+import {
+  hasAttemptedChunkReload,
+  isChunkLoadError,
+  recoverFromChunkLoadError,
+} from "@/lib/chunkLoadRecovery";
+import { reportError } from "@/lib/reportError";
 
 interface Props {
   children: ReactNode;
@@ -17,18 +22,18 @@ export class ErrorBoundary extends Component<Props, State> {
   };
 
   public static getDerivedStateFromError(error: Error): State {
-    if (isChunkLoadError(error)) {
+    if (isChunkLoadError(error) && !hasAttemptedChunkReload()) {
       return { hasError: false, error: null };
     }
     return { hasError: true, error };
   }
 
   public componentDidCatch(error: Error, errorInfo: ErrorInfo) {
-    if (isChunkLoadError(error)) {
+    if (isChunkLoadError(error) && !hasAttemptedChunkReload()) {
       recoverFromChunkLoadError();
       return;
     }
-    console.error("Uncaught error:", error, errorInfo);
+    reportError(error, { source: "error_boundary", componentStack: errorInfo.componentStack });
   }
 
   private handleRetry = () => {

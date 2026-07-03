@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Use the circumference to get the diameter",
-      "content": "The rectangle is inscribed in the circle, so its diagonal is the circle's diameter. From $C=114\\pi$ and $C=2\\pi r$, the radius is $57$ and the diameter is $114$."
+      "content": "The rectangle is inscribed in the circle, so its diagonal is the circle's diameter. From $C=118\\pi$ and $C=2\\pi r$, the radius is $59$ and the diameter is $118$."
     },
     {
       "title": "Find the circle's diameter from its circumference",
-      "content": "Given circumference $C = 114\\pi$, we use $C = 2\\pi r$ to find the radius: $$114\\pi = 2\\pi r \\implies r = 57$$ The diameter is $d = 2r = 114$. Since the rectangle is inscribed in the circle, its diagonal equals the diameter: $d_{\\text{rect}} = 114$."
+      "content": "Given circumference $C = 118\\pi$, we use $C = 2\\pi r$ to find the radius: $$118\\pi = 2\\pi r \\implies r = 59$$ The diameter is $d = 2r = 118$. Since the rectangle is inscribed in the circle, its diagonal equals the diameter: $d_{\\text{rect}} = 118$."
     },
     {
       "title": "Use the constraint to find both dimensions",
-      "content": "The constraint states: diagonal = 2 × (shortest side). With diagonal = 114: $$114 = 2s \\implies s = 57$$ To find the longer side, apply the Pythagorean theorem.<br/><br/>If the sides are $57$ and $b$: $$57^2 + b^2 = 114^2$$ $$3249 + b^2 = 12996$$ $$b^2 = 9747 = 3 \\times 3249 = 3 \\times 57^2$$ $$b = 57\\sqrt{3}$$"
+      "content": "The constraint states: diagonal = 2 × (shortest side). With diagonal = 118: $$118 = 2s \\implies s = 59$$ To find the longer side, apply the Pythagorean theorem.<br/><br/>If the sides are $59$ and $b$: $$59^2 + b^2 = 118^2$$ $$3481 + b^2 = 13924$$ $$b^2 = 10443 = 3 \\times 3481 = 3 \\times 59^2$$ $$b = 59\\sqrt{3}$$"
     },
     {
       "title": "Calculate the rectangle's area",
-      "content": "The area is the product of the two dimensions: $$A = 57 \\times 57\\sqrt{3} = 3249\\sqrt{3}$$ This is the area of the rectangle.<br/><br/>That confirms <strong>D</strong> is correct."
+      "content": "The area is the product of the two dimensions: $$A = 59 \\times 59\\sqrt{3} = 3481\\sqrt{3}$$ This is the area of the rectangle.<br/><br/>That confirms <strong>D</strong> is correct."
     }
   ]
 }

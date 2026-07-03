@@ -1,19 +1,19 @@
 {
   "questionId": "23a951fb-833f-4b27-9978-4eb054f855e2_10",
-  "correctAnswer": "7",
+  "correctAnswer": "8",
   "section": "Math",
   "steps": [
     {
       "title": "Set up",
-      "content": "Equal ratios form a proportion: $$\\frac{154}{110} = \\frac{x}{5}$$"
+      "content": "Equal ratios form a proportion: $$\\frac{168}{126} = \\frac{x}{6}$$"
     },
     {
       "title": "Solve",
-      "content": "Cross-multiply: $154 \\times 5 = 110x$, so $770 = 110x$, giving $x = \\frac{770}{110} = 7$.<br/><br/>The proportion keeps the corresponding sides in the same order, so the unknown length is scaled by the same factor as $154$ to $110$."
+      "content": "Cross-multiply: $168 \\times 6 = 126x$, so $1,008 = 126x$, giving $x = \\frac{1,008}{126} = 8$.<br/><br/>The proportion keeps the corresponding sides in the same order, so the unknown length is scaled by the same factor as $168$ to $126$."
     },
     {
       "title": "Answer",
-      "content": "<strong>7</strong> is correct."
+      "content": "<strong>8</strong> is correct."
     }
   ]
 }

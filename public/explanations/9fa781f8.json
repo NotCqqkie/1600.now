@@ -1,19 +1,19 @@
 {
   "questionId": "9fa781f8",
-  "correctAnswer": "90",
+  "correctAnswer": "69",
   "section": "Math",
   "steps": [
     {
       "title": "Use the ratio scale factor",
-      "content": "The ratio $x:y$ is $9:5$. Since $x=162$, compare $162$ to the ratio part $9$: $$162\\div 9=18$$ So the actual values are $18$ times the ratio parts."
+      "content": "The ratio $x:y$ is $8:3$. Since $x=184$, compare $184$ to the ratio part $8$: $$184\\div 8=23$$ So the actual values are $23$ times the ratio parts."
     },
     {
       "title": "Scale the y-part",
-      "content": "The $y$-part of the ratio is $5$, so $$y=5\\cdot 18=90$$"
+      "content": "The $y$-part of the ratio is $3$, so $$y=3\\cdot 23=69$$"
     },
     {
       "title": "Confirm the answer",
-      "content": "The pair $(x,y)=(162,90)$ keeps the ratio because $$\\frac{162}{90}=\\frac{9}{5}$$ Enter <strong>90</strong>."
+      "content": "The pair $(x,y)=(184,69)$ keeps the ratio because $$\\frac{184}{69}=\\frac{8}{3}$$ Enter <strong>69</strong>."
     }
   ]
 }

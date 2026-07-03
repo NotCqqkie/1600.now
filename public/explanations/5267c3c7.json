@@ -4,13 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Interpret increasing by 400%",
-      "content": "When a quantity is increased by a percentage, we add that percentage of the original to itself. A 400% increase adds 400% of $x$ to $x$:<br/>$$x + 4x = 5x$$",
+      "title": "Interpret increasing by 300%",
+      "content": "When a quantity is increased by a percentage, we add that percentage of the original to itself. A 300% increase adds 300% of $x$ to $x$:<br/>$$x + 3x = 4x$$",
       "formula": "$$\\text{Increasing by } p\\% \\text{ gives: } x\\left(1 + \\frac{p}{100}\\right)$$"
     },
     {
       "title": "Set up and solve the equation",
-      "content": "The problem states the result of this increase is 60:<br/>$$5x = 60$$<br/>Dividing both sides by 5:<br/>$$x = 12$$<br/><strong>A</strong> is correct."
+      "content": "The problem states the result of this increase is 84:<br/>$$4x = 84$$<br/>Dividing both sides by 4:<br/>$$x = 21$$<br/><strong>A</strong> is correct."
     }
   ]
 }

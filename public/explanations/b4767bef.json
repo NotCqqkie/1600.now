@@ -9,11 +9,11 @@
     },
     {
       "title": "Set up the perimeter equation",
-      "content": "The perimeter of a triangle equals the sum of all three sides. We're given two sides (4 cm and 6 cm) and the perimeter (18 cm). Let the unknown side be $x$:<br/>$$4 + 6 + x = 18$$"
+      "content": "The perimeter of a triangle equals the sum of all three sides. We're given two sides (5 cm and 7 cm) and the perimeter (21 cm). Let the unknown side be $x$:<br/>$$5 + 7 + x = 21$$"
     },
     {
       "title": "Solve for the third side",
-      "content": "Combine the known sides on the left:<br/>$$10 + x = 18$$<br/>Subtract 10 from both sides:<br/>$$x = 8$$<br/>That is the correct answer."
+      "content": "Combine the known sides on the left:<br/>$$12 + x = 21$$<br/>Subtract 12 from both sides:<br/>$$x = 9$$<br/>That matches <strong>Choice B &mdash; $9$</strong>."
     }
   ]
 }

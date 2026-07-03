@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $25x^{2}+3$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $22x^{2}+5$."
     },
     {
       "title": "Algebra check",
@@ -13,15 +13,15 @@
     },
     {
       "title": "Identify like terms",
-      "content": "The expression $20x^2 + 3 + 5x^2$ has two terms with $x^2$: $20x^2$ and $5x^2$. The constant 3 has no like term."
+      "content": "The expression $16x^2 + 5 + 6x^2$ has two terms with $x^2$: $16x^2$ and $6x^2$. The constant 5 has no like term."
     },
     {
       "title": "Combine like terms",
-      "content": "Add the $x^2$ coefficients:<br/>$$20x^2 + 5x^2 = 25x^2$$<br/>The simplified expression is $25x^2 + 3$."
+      "content": "Add the $x^2$ coefficients:<br/>$$16x^2 + 6x^2 = 22x^2$$<br/>The simplified expression is $22x^2 + 5$."
     },
     {
       "title": "Evaluate each answer choice",
-      "content": "<ul><li><strong>A</strong>: $25x^4 + 3$ &mdash; the exponent 4 is wrong; combining $x^2$ terms does not change the exponent. Incorrect.</li><li><strong>B</strong>: $25x^2 + 3$ &mdash; matches our result exactly. That confirms <strong>B</strong> is correct.</li><li><strong>C</strong>: $28x^4$ &mdash; the coefficient 28 and exponent 4 are both wrong, and the constant 3 is missing. Incorrect.</li><li><strong>D</strong>: $28x^2$ &mdash; the coefficient should be 25, not 28 ($20 + 5 = 25$, not 28), and the constant 3 is missing. Incorrect.</li></ul>"
+      "content": "<ul><li><strong>A</strong>: $22x^4 + 5$ &mdash; the exponent 4 is wrong; combining $x^2$ terms does not change the exponent. Incorrect.</li><li><strong>B</strong>: $22x^2 + 5$ &mdash; matches our result exactly. That confirms <strong>B</strong> is correct.</li><li><strong>C</strong>: $27x^4$ &mdash; the coefficient 27 and exponent 4 are both wrong, and the constant 5 is missing. Incorrect.</li><li><strong>D</strong>: $27x^2$ &mdash; the coefficient should be 22, not 27 ($16 + 6 = 22$, not 27), and the constant 5 is missing. Incorrect.</li></ul>"
     }
   ]
 }

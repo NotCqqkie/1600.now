@@ -10,11 +10,11 @@
     },
     {
       "title": "Solve for time",
-      "content": "Rearrange the formula to isolate time:<br/>$$\\text{time} = \\frac{\\text{distance}}{\\text{speed}}$$<br/>Then substitute the given values:<br/>$$\\text{time} = \\frac{108 \\text{ cm}}{12 \\text{ cm/s}} = 9 \\text{ s}$$"
+      "content": "Rearrange the formula to isolate time:<br/>$$\\text{time} = \\frac{\\text{distance}}{\\text{speed}}$$<br/>Then substitute the given values:<br/>$$\\text{time} = \\frac{104 \\text{ cm}}{13 \\text{ cm/s}} = 8 \\text{ s}$$"
     },
     {
       "title": "Match the choice",
-      "content": "The travel time is $9$ seconds, which confirms <strong>A</strong>. So <strong>A</strong> is correct."
+      "content": "The travel time is $8$ seconds, which confirms <strong>A</strong>. So <strong>A</strong> is correct."
     }
   ]
 }

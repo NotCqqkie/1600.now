@@ -1,19 +1,19 @@
 {
   "questionId": "585a9138",
-  "correctAnswer": "63",
+  "correctAnswer": "56",
   "section": "Math",
   "steps": [
     {
       "title": "Use congruent-triangle angle correspondence",
-      "content": "Triangles $ABC$ and $DEF$ are congruent. Since $A$ corresponds to $D$, those angles have the same measure: $27^{\\circ}$. The right angles $B$ and $E$ also correspond, so the remaining angles $C$ and $F$ correspond."
+      "content": "Triangles $ABC$ and $DEF$ are congruent. Since $A$ corresponds to $D$, those angles have the same measure: $34^{\\circ}$. The right angles $B$ and $E$ also correspond, so the remaining angles $C$ and $F$ correspond."
     },
     {
       "title": "Find angle C in triangle ABC using angle sum",
-      "content": "Angle $A = 27^{\\circ}$ and angle $B = 90^{\\circ}$ are given. Angles in a triangle sum to $180^{\\circ}$, so: $$C = 180^{\\circ} - 27^{\\circ} - 90^{\\circ} = 63^{\\circ}$$"
+      "content": "Angle $A = 34^{\\circ}$ and angle $B = 90^{\\circ}$ are given. Angles in a triangle sum to $180^{\\circ}$, so: $$C = 180^{\\circ} - 34^{\\circ} - 90^{\\circ} = 56^{\\circ}$$"
     },
     {
       "title": "Use congruence to find angle F",
-      "content": "The congruence specifies that $A$ corresponds to $D$. Since angle $B = 90^{\\circ}$ and angle $E = 90^{\\circ}$, vertex $B$ corresponds to vertex $E$. Therefore, vertex $C$ corresponds to vertex $F$. <br/> In congruent triangles, corresponding angles are equal, so angle $F = 63^{\\circ}$."
+      "content": "The congruence specifies that $A$ corresponds to $D$. Since angle $B = 90^{\\circ}$ and angle $E = 90^{\\circ}$, vertex $B$ corresponds to vertex $E$. Therefore, vertex $C$ corresponds to vertex $F$. <br/> In congruent triangles, corresponding angles are equal, so angle $F = 56^{\\circ}$."
     }
   ]
 }

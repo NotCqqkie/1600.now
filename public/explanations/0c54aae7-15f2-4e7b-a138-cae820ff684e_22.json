@@ -1,19 +1,19 @@
 {
   "questionId": "0c54aae7-15f2-4e7b-a138-cae820ff684e_22",
-  "correctAnswer": "-24",
+  "correctAnswer": "-20",
   "section": "Math",
   "steps": [
     {
       "title": "Clear the fractions",
-      "content": "Multiply $\\frac{1}{cx}=\\frac{x}{96}+\\frac{1}{c}$ by $96cx$:<br/>$$96=cx^2+96x$$<br/>$$cx^2+96x-96=0$$"
+      "content": "Multiply $\\frac{1}{cx}=\\frac{x}{80}+\\frac{1}{c}$ by $80cx$:<br/>$$80=cx^2+80x$$<br/>$$cx^2+80x-80=0$$"
     },
     {
       "title": "Use the one-solution condition",
-      "content": "After clearing fractions, the equation is quadratic in $x$. The question says it has exactly one solution, so the quadratic must touch the $x$-axis once instead of crossing twice. That happens when the discriminant is $0$. For $cx^2+96x-96=0$:<br/>$$96^2-4(c)(-96)=0$$"
+      "content": "After clearing fractions, the equation is quadratic in $x$. The question says it has exactly one solution, so the quadratic must touch the $x$-axis once instead of crossing twice. That happens when the discriminant is $0$. For $cx^2+80x-80=0$:<br/>$$80^2-4(c)(-80)=0$$"
     },
     {
       "title": "Solve for c",
-      "content": "$$9,216+384c=0$$<br/>$$384c=-9,216$$<br/>$$c=-24$$<br/>The answer is <strong>-24</strong>."
+      "content": "$$6,400+320c=0$$<br/>$$320c=-6,400$$<br/>$$c=-20$$<br/>The answer is <strong>-20</strong>."
     }
   ]
 }

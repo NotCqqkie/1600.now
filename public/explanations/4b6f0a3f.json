@@ -1,19 +1,19 @@
 {
   "questionId": "4b6f0a3f",
-  "correctAnswer": "5",
+  "correctAnswer": "7",
   "section": "Math",
   "steps": [
     {
       "title": "Use the sum shortcut",
-      "content": "For a quadratic $ax^2+bx+c=0$, the sum of the two solutions is $-\\dfrac{b}{a}$. Here $a=1$ and $b=-5$."
+      "content": "For a quadratic $ax^2+bx+c=0$, the sum of the two solutions is $-\\dfrac{b}{a}$. Here $a=1$ and $b=-7$."
     },
     {
       "title": "Compute the sum",
-      "content": "$$-\\dfrac{b}{a}=-\\dfrac{-5}{1}=5.$$ So the sum of the solutions is <strong>5</strong>."
+      "content": "$$-\\dfrac{b}{a}=-\\dfrac{-7}{1}=7.$$ So the sum of the solutions is <strong>7</strong>."
     },
     {
       "title": "Check by factoring",
-      "content": "As a check, $x^2-5x-24=(x-8)(x+3)$, so the solutions are $8$ and $-3$. Their sum is $8+(-3)=5$."
+      "content": "As a check, $x^2-7x-30=(x-10)(x+3)$, so the solutions are $10$ and $-3$. Their sum is $10+(-3)=7$."
     }
   ]
 }

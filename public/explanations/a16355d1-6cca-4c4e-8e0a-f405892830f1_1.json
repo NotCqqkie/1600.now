@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute t=4",
-      "content": "The equation $s=40+2t$ gives speed at time $t$. Substitute $t=4$: $$s=40+2(4).$$"
+      "title": "Substitute t=5",
+      "content": "The equation $s=45+3t$ gives speed at time $t$. Substitute $t=5$: $$s=45+3(5).$$"
     },
     {
       "title": "Compute the result",
-      "content": "So $s=48$ mph. That confirms <strong>D</strong> is correct."
+      "content": "So $s=60$ mph. That confirms <strong>D</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches the correct answer, $48$. The other choices do not satisfy the same condition from the question, so <strong>D</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches the correct answer, $60$. The other choices do not satisfy the same condition from the question, so <strong>D</strong> is correct."
     }
   ]
 }

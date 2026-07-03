@@ -9,11 +9,11 @@
     },
     {
       "title": "Derive a third equal pair from the ratio",
-      "content": "From $\\frac{GH}{GF}=\\frac{LM}{LK}$ and $GH = LM = 34$, we get $\\frac{34}{GF}=\\frac{34}{LK}$, so $GF = LK$."
+      "content": "From $\\frac{KL}{KJ}=\\frac{ST}{SR}$ and $KL = ST = 28$, we get $\\frac{28}{KJ}=\\frac{28}{SR}$, so $KJ = SR$."
     },
     {
       "title": "Apply SAS to complete the proof",
-      "content": "We now have three equalities:<ul><li>$GF = LK$</li><li>$\\angle G = \\angle L = 30^{\\circ}$</li><li>$GH = LM = 34$</li></ul>In each triangle, the angle is between its two sides. By Side-Angle-Side (SAS) congruence, $\\triangle FGH \\cong \\triangle KLM$ with the given information alone. <strong>D</strong> is correct."
+      "content": "We now have three equalities:<ul><li>$KJ = SR$</li><li>$\\angle K = \\angle S = 40^{\\circ}$</li><li>$KL = ST = 28$</li></ul>In each triangle, the angle is between its two sides. By Side-Angle-Side (SAS) congruence, $\\triangle JKL \\cong \\triangle RST$ with the given information alone. <strong>D</strong> is correct."
     }
   ]
 }

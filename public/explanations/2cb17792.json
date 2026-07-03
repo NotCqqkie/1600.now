@@ -1,19 +1,19 @@
 {
   "questionId": "2cb17792",
-  "correctAnswer": "17.5",
+  "correctAnswer": "23.5",
   "section": "Math",
   "steps": [
     {
       "title": "Express y from both equations",
-      "content": "From the first equation $y + k = x + 26$:<br/>$$y = x + 26 - k$$<br/>From the second equation $y - k = x^2 - 5x$:<br/>$$y = x^2 - 5x + k$$<br/>Any solution to the system must satisfy both equations, so these expressions for $y$ must be equal."
+      "content": "From the first equation $y + k = x + 31$:<br/>$$y = x + 31 - k$$<br/>From the second equation $y - k = x^2 - 7x$:<br/>$$y = x^2 - 7x + k$$<br/>Any solution to the system must satisfy both equations, so these expressions for $y$ must be equal."
     },
     {
       "title": "Combine into a single equation in x",
-      "content": "Set the two expressions for $y$ equal:<br/>$$x + 26 - k = x^2 - 5x + k$$<br/>Rearrange to standard form:<br/>$$0 = x^2 - 5x - x + k + k - 26$$<br/>$$x^2 - 6x + (2k - 26) = 0$$"
+      "content": "Set the two expressions for $y$ equal:<br/>$$x + 31 - k = x^2 - 7x + k$$<br/>Rearrange to standard form:<br/>$$0 = x^2 - 7x - x + k + k - 31$$<br/>$$x^2 - 8x + (2k - 31) = 0$$"
     },
     {
       "title": "Apply the discriminant condition",
-      "content": "For the system to have exactly one solution, this quadratic in $x$ must have exactly one real root. This occurs when the discriminant equals zero:<br/>$$b^2 - 4ac = 0$$<br/>$$(-6)^2 - 4(1)(2k - 26) = 0$$<br/>$$36 - 8k + 104 = 0$$<br/>$$140 = 8k$$<br/>$$k = 17.5$$"
+      "content": "For the system to have exactly one solution, this quadratic in $x$ must have exactly one real root. This occurs when the discriminant equals zero:<br/>$$b^2 - 4ac = 0$$<br/>$$(-8)^2 - 4(1)(2k - 31) = 0$$<br/>$$64 - 8k + 124 = 0$$<br/>$$188 = 8k$$<br/>$$k = 23.5$$"
     }
   ]
 }

@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute x equals 17",
-      "content": "The function is $f(x)=\\frac{16}{x}$. Substitute $x=17$: $$f(17)=\\frac{16}{17}$$"
+      "title": "Substitute x equals 19",
+      "content": "The function is $f(x)=\\frac{18}{x}$. Substitute $x=19$: $$f(19)=\\frac{18}{19}$$"
     },
     {
       "title": "Keep the order of the fraction",
-      "content": "The numerator stays $16$ and the input $17$ goes in the denominator. The value is $\\frac{16}{17}$, not its reciprocal."
+      "content": "The numerator stays $18$ and the input $19$ goes in the denominator. The value is $\\frac{18}{19}$, not its reciprocal."
     },
     {
       "title": "Check the choices",
-      "content": "$\\frac{16}{17}$ is correct. Reversing the fraction, using the numerator only, or using the input value only would not give the requested ratio."
+      "content": "$\\frac{18}{19}$ is choice A, the correct answer. Reversing the fraction, using the numerator only, or using the input value only would not give the requested ratio."
     }
   ]
 }

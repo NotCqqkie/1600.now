@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Translate right",
-      "content": "A shift $4$ units to the right replaces $x$ with $x-4$. Thus $f(x-4)=\\frac{a-19}{x-4}+5$."
+      "content": "A shift $5$ units to the right replaces $x$ with $x-5$. Thus $f(x-5)=\\frac{a-17}{x-5}+6$."
     },
     {
       "title": "Translate down",
-      "content": "A shift $3$ units down subtracts $3$ from the whole function: $g(x)=f(x-4)-3$."
+      "content": "A shift $2$ units down subtracts $2$ from the whole function: $g(x)=f(x-5)-2$."
     },
     {
       "title": "Simplify and match",
-      "content": "$g(x)=\\frac{a-19}{x-4}+5-3=\\frac{a-19}{x-4}+2$, which matches <strong>B</strong>."
+      "content": "$g(x)=\\frac{a-17}{x-5}+6-2=\\frac{a-17}{x-5}+4$, which matches <strong>B</strong>."
     },
     {
       "title": "Separate horizontal and vertical shifts",
-      "content": "The right shift changes only the input denominator from $x$ to $x-4$. The downward shift changes only the outside constant from $5$ to $2$."
+      "content": "The right shift changes only the input denominator from $x$ to $x-5$. The downward shift changes only the outside constant from $6$ to $4$."
     }
   ]
 }

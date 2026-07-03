@@ -1,15 +1,15 @@
 {
   "questionId": "e5001da0-8895-4b72-8d22-da29586dc907_11",
-  "correctAnswer": "192",
+  "correctAnswer": "150",
   "section": "Math",
   "steps": [
     {
-      "title": "Treat $x-5$ as a single variable",
-      "content": "Let $u = x-5$. The equation becomes $\\frac{9}{6}u - 36 = \\frac{7}{6}u + 28$. Collect like terms: $\\frac{2}{6}u = 64$, so $\\frac{1}{3}u = 64$."
+      "title": "Treat $x-4$ as a single variable",
+      "content": "Let $u = x-4$. The equation becomes $\\frac{10}{6}u - 24 = \\frac{8}{6}u + 26$. Collect like terms: $\\frac{2}{6}u = 50$, so $\\frac{1}{3}u = 50$."
     },
     {
       "title": "Compute the target value",
-      "content": "Multiply by $3$: $x-5 = 192$. The answer is <strong>192</strong>."
+      "content": "Multiply by $3$: $x-4 = 150$. The answer is <strong>150</strong>."
     }
   ]
 }

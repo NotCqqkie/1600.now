@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up",
-      "content": "&ldquo;5% of $w$ is 741.41&rdquo; translates to: $$0.05w = 741.41$$"
+      "content": "&ldquo;5% of $w$ is 683.27&rdquo; translates to: $$0.05w = 683.27$$"
     },
     {
       "title": "Solve",
-      "content": "Divide both sides by 0.05: $$w = \\frac{741.41}{0.05} = 14{,}828.2$$"
+      "content": "Divide both sides by 0.05: $$w = \\frac{683.27}{0.05} = 13{,}665.4$$"
     },
     {
       "title": "Answer",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above confirms <strong>C</strong>, 14,828.2. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above confirms <strong>C</strong>, 13,665.4. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
     }
   ]
 }

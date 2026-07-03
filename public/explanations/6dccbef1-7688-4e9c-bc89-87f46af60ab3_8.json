@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Expand both sides",
-      "content": "Distribute on the left: $$7(x+12)+5x = 7x + 84 + 5x = 12x + 84$$ Distribute on the right: $$12(x+7) = 12x + 84$$ The equation becomes: $$12x + 84 = 12x + 84$$"
+      "content": "Distribute on the left: $$6(x+15)+4x = 6x + 90 + 4x = 10x + 90$$ Distribute on the right: $$10(x+9) = 10x + 90$$ The equation becomes: $$10x + 90 = 10x + 90$$"
     },
     {
       "title": "Interpret the result",
-      "content": "Subtracting 12x + 84 from both sides gives 0 = 0, a statement that is always true regardless of x. Every real number satisfies the original equation."
+      "content": "Subtracting 10x + 90 from both sides gives 0 = 0, a statement that is always true regardless of x. Every real number satisfies the original equation."
     },
     {
       "title": "Test all four choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Exactly one&rsquo;</strong>: Exactly one solution requires the equation to collapse to x = (some specific number). Here both sides are identical for all x — no single unique value. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Exactly two&rsquo;</strong>: A linear equation cannot have exactly two solutions — it has zero, one, or infinitely many. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Infinitely many&rsquo;</strong>: Since 12x + 84 = 12x + 84 is always true, every real number x is a solution. Infinitely many solutions. &#10003;</li><li><strong>Choice D &mdash; &lsquo;Zero&rsquo;</strong>: Zero solutions requires a contradiction like 0 = 5. Here we get 0 = 0, a tautology — not a contradiction. &#10007;</li></ul>"
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Exactly one&rsquo;</strong>: Exactly one solution requires the equation to collapse to x = (some specific number). Here both sides are identical for all x - no single unique value. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Exactly two&rsquo;</strong>: A linear equation cannot have exactly two solutions - it has zero, one, or infinitely many. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Infinitely many&rsquo;</strong>: Since 10x + 90 = 10x + 90 is always true, every real number x is a solution. Infinitely many solutions. &#10003;</li><li><strong>Choice D &mdash; &lsquo;Zero&rsquo;</strong>: Zero solutions requires a contradiction like 0 = 5. Here we get 0 = 0, a tautology - not a contradiction. &#10007;</li></ul>"
     },
     {
       "title": "Conclusion",
-      "content": "After expanding, both sides equal 12x + 84 identically, so every value of x works. That confirms <strong>C</strong> is correct."
+      "content": "After expanding, both sides equal 10x + 90 identically, so every value of x works. That confirms <strong>C</strong> is correct."
     }
   ]
 }

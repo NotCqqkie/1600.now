@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Expand and collect terms",
-      "content": "$x(r-7)+3=17x+25$ expands to $xr-7x+3=17x+25$. Subtracting $17x$ and $3$ gives $xr-24x=22$, or $x(r-24)=22$."
+      "content": "$x(r-8)+5=20x+29$ expands to $xr-8x+5=20x+29$. Subtracting $20x$ and $5$ gives $xr-28x=24$, or $x(r-28)=24$."
     },
     {
       "title": "Find when there is exactly one solution",
-      "content": "This equation is linear in $x$ with coefficient $r-24$. It has exactly one solution when $r-24\\ne 0$, so $r\\ne 24$. If $r=24$, the equation becomes $0=22$, which has no solution."
+      "content": "This equation is linear in $x$ with coefficient $r-28$. It has exactly one solution when $r-28\\ne 0$, so $r\\ne 28$. If $r=28$, the equation becomes $0=24$, which has no solution."
     },
     {
       "title": "Check the choices",
-      "content": "<ul><li><strong>3</strong> gives $r-24=-21$, so the equation has exactly one solution.</li><li><strong>7</strong> gives $r-24=-17$, so the equation has exactly one solution.</li><li><strong>22</strong> gives $r-24=-2$, so the equation has exactly one solution.</li><li><strong>24</strong> gives $r-24=0$, so the equation becomes $0=22$ and has no solution.</li></ul>The value that cannot give exactly one solution is <strong>D</strong>."
+      "content": "<ul><li><strong>5</strong> gives $r-28=-23$, so the equation has exactly one solution.</li><li><strong>8</strong> gives $r-28=-20$, so the equation has exactly one solution.</li><li><strong>24</strong> gives $r-28=-4$, so the equation has exactly one solution.</li><li><strong>28</strong> gives $r-28=0$, so the equation becomes $0=24$ and has no solution.</li></ul>The value that cannot give exactly one solution is <strong>D</strong>."
     }
   ]
 }

@@ -1,15 +1,15 @@
 {
   "questionId": "f2f3fa00",
-  "correctAnswer": "5",
+  "correctAnswer": "8",
   "section": "Math",
   "steps": [
     {
       "title": "Given average acceleration formula",
-      "content": "The average acceleration is given by $$ a = \\frac{v_f - 12}{5} $$ where the initial velocity is 12 m/s and the time interval is 5 s."
+      "content": "The average acceleration is given by $$ a = \\frac{v_f - 14}{8} $$ where the initial velocity is 14 m/s and the time interval is 8 s."
     },
     {
       "title": "Solve for final velocity",
-      "content": "Multiply both sides by 5: $$ 5a = v_f - 12 $$. Add 12 to both sides: $$ v_f = 5a + 12 $$. Comparing with $$ v_f = xa + y $$, we see $$ x = 5 $$. The answer is <strong>5</strong>."
+      "content": "Multiply both sides by 8: $$ 8a = v_f - 14 $$. Add 14 to both sides: $$ v_f = 8a + 14 $$. Comparing with $$ v_f = xa + y $$, we see $$ x = 8 $$. The answer is <strong>8</strong>."
     }
   ]
 }

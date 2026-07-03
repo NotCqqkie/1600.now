@@ -1,6 +1,6 @@
 {
   "questionId": "ec787383",
-  "correctAnswer": "40260",
+  "correctAnswer": "38280",
   "section": "Math",
   "steps": [
     {
@@ -8,12 +8,12 @@
       "content": "$1$ furlong is $220$ yards, and each yard is $3$ feet. So $$1\\text{ furlong}=220\\cdot3=660\\text{ feet}.$$"
     },
     {
-      "title": "Multiply by $61$ furlongs",
-      "content": "$$61\\cdot660=40{,}260.$$"
+      "title": "Multiply by $58$ furlongs",
+      "content": "$$58\\cdot660=38{,}280.$$"
     },
     {
       "title": "Confirm the answer",
-      "content": "A distance of $61$ furlongs is <strong>40260</strong> feet. The yards cancel after the first conversion and furlongs cancel after the second, leaving feet as the final unit."
+      "content": "A distance of $58$ furlongs is <strong>38280</strong> feet. The furlongs cancel after the first conversion and yards cancel after the second, leaving feet as the final unit."
     }
   ]
 }

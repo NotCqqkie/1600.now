@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Substitute into the function",
-      "content": "The function is $f(x)=4+\\sqrt{x}$, so $f(144)$ means replace $x$ with $144$: $$f(144)=4+\\sqrt{144}.$$"
+      "content": "The function is $f(x)=7+\\sqrt{x}$, so $f(169)$ means replace $x$ with $169$: $$f(169)=7+\\sqrt{169}.$$"
     },
     {
       "title": "Evaluate the square root",
-      "content": "The principal square root of $144$ is $12$. Therefore, $$f(144)=4+12=16.$$"
+      "content": "The principal square root of $169$ is $13$. Therefore, $$f(169)=7+13=20.$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "<strong>B</strong> is correct. The common trap is to mishandle the square root or evaluate the function at a different input; this question only asks for the value when $x=144$."
+      "content": "<strong>B</strong> is correct. The common trap is to mishandle the square root or evaluate the function at a different input; this question only asks for the value when $x=169$."
     }
   ]
 }

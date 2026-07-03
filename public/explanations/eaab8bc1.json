@@ -1,15 +1,15 @@
 {
   "questionId": "eaab8bc1",
-  "correctAnswer": "240",
+  "correctAnswer": "150",
   "section": "Math",
   "steps": [
     {
       "title": "Convert the percentage to a decimal",
-      "content": "To find what percentage of a quantity equals, convert the percentage to decimal form. We have 80%:"
+      "content": "To find what percentage of a quantity equals, convert the percentage to decimal form. We have 60%:"
     },
     {
       "title": "Multiply by the total to find the answer",
-      "content": "Multiply the decimal by the total number of seeds: $$0.8 \\times 300 = 240$$. Therefore, <strong>240</strong> seeds sprouted."
+      "content": "Multiply the decimal by the total number of bulbs: $$0.6 \\times 250 = 150$$. Therefore, <strong>150</strong> bulbs sprouted."
     }
   ]
 }

@@ -1,15 +1,15 @@
 {
   "questionId": "35bd5fb1-7659-4393-b736-241352b7187e_21",
-  "correctAnswer": "179",
+  "correctAnswer": "121",
   "section": "Math",
   "steps": [
     {
       "title": "Extract constants b and c from the given points",
-      "content": "From $(0,-\\sqrt{358})$, $h(0)=-\\sqrt{c}=-\\sqrt{358}$, so $c=358$. From $(2,0)$, $h(2)=-\\sqrt{4+2b+c}=0$, so $4+2b+358=0$ and $b=-181$."
+      "content": "From $(0,-\\sqrt{363})$, $h(0)=-\\sqrt{c}=-\\sqrt{363}$, so $c=363$. From $(3,0)$, $h(3)=-\\sqrt{9+3b+c}=0$, so $9+3b+363=0$ and $b=-124$."
     },
     {
       "title": "Solve h(m) = 0 using Vieta's formulas",
-      "content": "Setting $h(m) = 0$ gives $m^2 - 181m + 358 = 0$. We know $m = 2$ is one solution (from the given point $(2, 0)$).<br/><br/>By Vieta's formulas, the product of roots equals the constant term 358, so:<br/>$$2 \\cdot m = 358 \\Rightarrow m = 179$$<br/>The two solutions are $m = 2$ and $m = 179$.<br/><br/>The greatest possible value of $m$ is <strong>179</strong>."
+      "content": "Setting $h(m) = 0$ gives $m^2 - 124m + 363 = 0$. We know $m = 3$ is one solution (from the given point $(3, 0)$).<br/><br/>By Vieta's formulas, the product of roots equals the constant term 363, so:<br/>$$3 \\cdot m = 363 \\Rightarrow m = 121$$<br/>The two solutions are $m = 3$ and $m = 121$.<br/><br/>The greatest possible value of $m$ is <strong>121</strong>."
     }
   ]
 }

@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Use the two values as a table",
-      "content": "Since $f$ is linear, the two values determine the whole function. The points are $(0,8)$ and $(1,12)$."
+      "content": "Since $f$ is linear, the two values determine the whole function. The points are $(0,9)$ and $(1,14)$."
     },
     {
       "title": "Find the slope and intercept",
-      "content": "The slope is $$\\frac{12-8}{1-0}=4.$$ Since $f(0)=8$, the y-intercept is $8$, so $$f(x)=4x+8.$$"
+      "content": "The slope is $$\\frac{14-9}{1-0}=5.$$ Since $f(0)=9$, the y-intercept is $9$, so $$f(x)=5x+9.$$"
     },
     {
       "title": "Match the answer",
-      "content": "<strong>Choice D &mdash; $f \\left(x\\right)=4x+8$</strong>, $f(x)=4x+8$, has slope $4$ and gives $f(0)=8$ and $f(1)=12$. That matches <strong>Choice D &mdash; $f \\left(x\\right)=4x+8$</strong>."
+      "content": "<strong>Choice D &mdash; $f \\left(x\\right)=5x+9$</strong>, $f(x)=5x+9$, has slope $5$ and gives $f(0)=9$ and $f(1)=14$. That matches <strong>Choice D &mdash; $f \\left(x\\right)=5x+9$</strong>."
     }
   ]
 }

@@ -5,12 +5,12 @@
   "steps": [
     {
       "title": "Apply the percent increase formula",
-      "content": "The percent increase formula is:<br/>$$\\text{Percent Increase} = \\frac{\\text{New Value} - \\text{Old Value}}{\\text{Old Value}} \\times 100\\%$$<br/>The collection started with 9 coins (old value) and increased to 90 coins (new value).",
+      "content": "The percent increase formula is:<br/>$$\\text{Percent Increase} = \\frac{\\text{New Value} - \\text{Old Value}}{\\text{Old Value}} \\times 100\\%$$<br/>The album started with 8 postcards (old value) and increased to 72 postcards (new value).",
       "formula": "$$\\text{Percent Increase} = \\frac{\\text{New} - \\text{Old}}{\\text{Old}} \\times 100\\%$$"
     },
     {
       "title": "Substitute and calculate",
-      "content": "Substitute the values into the formula:<br/>$$\\text{Percent Increase} = \\frac{90 - 9}{9} \\times 100\\%$$<br/>$$= \\frac{81}{9} \\times 100\\%$$<br/>$$= 9 \\times 100\\%$$<br/>$$= 900\\%$$<br/>That is the correct answer."
+      "content": "Substitute the values into the formula:<br/>$$\\text{Percent Increase} = \\frac{72 - 8}{8} \\times 100\\%$$<br/>$$= \\frac{64}{8} \\times 100\\%$$<br/>$$= 8 \\times 100\\%$$<br/>$$= 800\\%$$<br/>Therefore, <strong>D</strong> is correct."
     }
   ]
 }

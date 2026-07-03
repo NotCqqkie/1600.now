@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recognize what -3 represents in the function",
-      "content": "The function $t(x) = -3x + 74$ is in slope-intercept form $y = mx + b$. The value $-3$ is the <strong>slope</strong>, the coefficient of $x$."
+      "title": "Recognize what -4 represents in the function",
+      "content": "The function $t(x) = -4x + 68$ is in slope-intercept form $y = mx + b$. The value $-4$ is the <strong>slope</strong>, the coefficient of $x$."
     },
     {
       "title": "Interpret the slope as the rate of change",
-      "content": "In a linear function, the slope represents the rate of change. A slope of $-3$ means the estimated temperature decreases by 3 degrees Fahrenheit each hour. That matches <strong>The estimated temperature decreases 3 degrees Fahrenheit each hour.</strong>, so <strong>A</strong> is correct."
+      "content": "In a linear function, the slope represents the rate of change. A slope of $-4$ means the estimated temperature decreases by 4 degrees Fahrenheit each hour. That matches <strong>The estimated temperature decreases 4 degrees Fahrenheit each hour.</strong>, so <strong>A</strong> is correct."
     }
   ]
 }

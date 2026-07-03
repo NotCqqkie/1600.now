@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up the system from the given conditions",
-      "content": "Let $a$ be the number of people who voted against the proposal, and $f$ be the number who voted in favor.<br/><br/>From <em>3 times as many people voted in favor as against</em>:<br/>$$f = 3a$$<br/>From <em>15,000 more people voted in favor than against</em>:<br/>$$f = a + 15,000$$"
+      "content": "Let $a$ be the number of people who voted against the proposal, and $f$ be the number who voted in favor.<br/><br/>From <em>4 times as many people voted in favor as against</em>:<br/>$$f = 4a$$<br/>From <em>24,000 more people voted in favor than against</em>:<br/>$$f = a + 24,000$$"
     },
     {
       "title": "Solve by eliminating the common variable",
-      "content": "Both equations equal $f$, so set them equal to each other:<br/>$$3a = a + 15,000$$<br/>Subtract $a$ from both sides:<br/>$$2a = 15,000$$<br/>Divide by 2:<br/>$$a = 7,500$$<br/>That confirms <strong>A</strong> is correct."
+      "content": "Both equations equal $f$, so set them equal to each other:<br/>$$4a = a + 24,000$$<br/>Subtract $a$ from both sides:<br/>$$3a = 24,000$$<br/>Divide by 3:<br/>$$a = 8,000$$<br/>That confirms <strong>A</strong> is correct."
     }
   ]
 }

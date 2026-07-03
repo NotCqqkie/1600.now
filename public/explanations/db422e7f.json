@@ -1,15 +1,15 @@
 {
   "questionId": "db422e7f",
-  "correctAnswer": ".5",
+  "correctAnswer": ".25",
   "section": "Math",
   "steps": [
     {
       "title": "Put line p in slope-intercept form",
-      "content": "Start with $4y+8x=6$. Subtract $8x$ and divide by $4$:<br/>$$4y=-8x+6$$<br/>$$y=-2x+\\frac{3}{2}$$<br/>So line $p$ has slope $-2$."
+      "content": "Start with $3y+12x=9$. Subtract $12x$ and divide by $3$:<br/>$$3y=-12x+9$$<br/>$$y=-4x+3$$<br/>So line $p$ has slope $-4$."
     },
     {
       "title": "Use the perpendicular-slope shortcut",
-      "content": "Perpendicular lines have slopes that are negative reciprocals. The negative reciprocal of $-2$ is<br/>$$-\\frac{1}{-2}=\\frac{1}{2}=0.5$$<br/>The slope of line $r$ is $\\frac{1}{2}$, so enter <strong>1/2</strong> or <strong>0.5</strong>."
+      "content": "Perpendicular lines have slopes that are negative reciprocals. The negative reciprocal of $-4$ is<br/>$$-\\frac{1}{-4}=\\frac{1}{4}=0.25$$<br/>The slope of line $r$ is $\\frac{1}{4}$, so enter <strong>1/4</strong> or <strong>0.25</strong>."
     }
   ]
 }

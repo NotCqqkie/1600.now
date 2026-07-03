@@ -1,16 +1,16 @@
 {
   "questionId": "a240b08f-646d-4227-8b1f-fadf4c312b08_9",
-  "correctAnswer": "3",
+  "correctAnswer": "4",
   "section": "Math",
   "steps": [
     {
       "title": "Use exponential properties",
-      "content": "Given $ f(x) = c^x $ and $ f(6) = 9 \\cdot f(4) $, substitute into the equation: $$ c^6 = 9 \\cdot c^4 $$ Divide both sides by $ c^4 $: $$ c^2 = 9 $$",
-      "formula": "$$c^2 = 9$$"
+      "content": "Given $ f(x) = c^x $ and $ f(7) = 16 \\cdot f(5) $, substitute into the equation: $$ c^7 = 16 \\cdot c^5 $$ Divide both sides by $ c^5 $: $$ c^2 = 16 $$",
+      "formula": "$$c^2 = 16$$"
     },
     {
       "title": "Solve for c",
-      "content": "Since $ c \\gt 1 $, take the positive square root: $$ c = \\sqrt{9} = 3 $$"
+      "content": "Since $ c \\gt 1 $, take the positive square root: $$ c = \\sqrt{16} = 4 $$"
     }
   ]
 }

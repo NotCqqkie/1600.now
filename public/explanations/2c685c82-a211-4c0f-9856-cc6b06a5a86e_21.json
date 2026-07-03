@@ -1,6 +1,6 @@
 {
   "questionId": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_21",
-  "correctAnswer": "1560",
+  "correctAnswer": "1400",
   "section": "Math",
   "steps": [
     {
@@ -9,17 +9,17 @@
     },
     {
       "title": "Compute scale factor from surface area ratio",
-      "content": "The surface areas of similar figures scale by $k^2$, where $k$ is the linear scale factor. Divide the surface areas: $\\frac{896}{56} = 16$. Therefore, $k^2 = 16$ and $k = 4$.",
-      "formula": "$$k^2 = \\frac{\\text{SA}_Y}{\\text{SA}_X}$$"
+      "content": "The surface areas of similar figures scale by $k^2$, where $k$ is the linear scale factor. Divide the surface areas: $\\frac{648}{72} = 9$. Therefore, $k^2 = 9$ and $k = 3$.",
+      "formula": "$$k^2 = \\frac{\\text{SA}_N}{\\text{SA}_M}$$"
     },
     {
-      "title": "Use volume scaling to find Volume of X",
-      "content": "Volumes of similar solids scale by $k^3 = 4^3 = 64$. Since the volume of prism $Y$ is 1,536 cm³ and volumes scale by a factor of 64, the volume of prism $X$ is: $$\\frac{1536}{64} = 24 \\text{ cm}^3$$",
-      "formula": "$$\\text{Volume}_X = \\frac{\\text{Volume}_Y}{k^3}$$"
+      "title": "Use volume scaling to find Volume of M",
+      "content": "Volumes of similar solids scale by $k^3 = 3^3 = 27$. Since the volume of prism $N$ is 1,350 cm^3 and volumes scale by a factor of 27, the volume of prism $M$ is: $$\\frac{1350}{27} = 50 \\text{ cm}^3$$",
+      "formula": "$$\\text{Volume}_M = \\frac{\\text{Volume}_N}{k^3}$$"
     },
     {
       "title": "Sum the volumes",
-      "content": "Add both volumes: $$24 + 1536 = 1560 \\text{ cm}^3$$"
+      "content": "Add both volumes: $$50 + 1350 = 1400 \\text{ cm}^3$$"
     }
   ]
 }

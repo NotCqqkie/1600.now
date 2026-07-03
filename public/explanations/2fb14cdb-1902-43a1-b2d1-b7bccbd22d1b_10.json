@@ -9,11 +9,11 @@
     },
     {
       "title": "Identify the linear scale factor and apply the area scaling rule",
-      "content": "Each side of EFGH is 6 times the length of the corresponding side of ABCD, so the linear scale factor is $k = 6$. For similar figures, when linear dimensions scale by a factor of $k$, the area scales by $k^2$. Therefore, the area of EFGH is $6^2 = 36$ times the area of ABCD."
+      "content": "Each side of PQRS is 5 times the length of the corresponding side of JKLM, so the linear scale factor is $k = 5$. For similar figures, when linear dimensions scale by a factor of $k$, the area scales by $k^2$. Therefore, the area of PQRS is $5^2 = 25$ times the area of JKLM."
     },
     {
-      "title": "Calculate the area of EFGH",
-      "content": "The area of ABCD is 90 square units. Since the area scales by a factor of 36, the area of EFGH is $90 \\times 36 = 3,240$ square units. <strong>D</strong> is correct."
+      "title": "Calculate the area of PQRS",
+      "content": "The area of JKLM is 80 square units. Since the area scales by a factor of 25, the area of PQRS is $80 \\times 25 = 2,000$ square units. <strong>D</strong> is correct."
     }
   ]
 }

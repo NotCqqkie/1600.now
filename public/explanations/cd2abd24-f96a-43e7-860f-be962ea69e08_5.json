@@ -9,11 +9,11 @@
     },
     {
       "title": "Apply that to g",
-      "content": "For $$g(x)=\\frac{1}{11}(5\\cdot2^x+4)$$ the smallest value approached is $$\\frac{1}{11}(5\\cdot0+4)=\\frac{4}{11}$$ Because $2^x$ is never actually $0$, $g(x)$ is always greater than $\\frac{4}{11}$."
+      "content": "For $$g(x)=\\frac{1}{13}(6\\cdot2^x+5)$$ the smallest value approached is $$\\frac{1}{13}(6\\cdot0+5)=\\frac{5}{13}$$ Because $2^x$ is never actually $0$, $g(x)$ is always greater than $\\frac{5}{13}$."
     },
     {
       "title": "Confirm the choice",
-      "content": "The greatest possible value of $k$ is $\\frac{4}{11}$, so <strong>B</strong> is correct."
+      "content": "The greatest possible value of $k$ is $\\frac{5}{13}$, so <strong>B</strong> is correct."
     }
   ]
 }

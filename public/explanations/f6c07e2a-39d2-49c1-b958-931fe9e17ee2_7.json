@@ -1,6 +1,6 @@
 {
   "questionId": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_7",
-  "correctAnswer": "112",
+  "correctAnswer": "98",
   "section": "Math",
   "steps": [
     {
@@ -9,11 +9,11 @@
     },
     {
       "title": "Identify the angle sum property",
-      "content": "The sum of all interior angles in any triangle equals $180^\\circ$. We know $\\angle K = 34^\\circ$ and $\\angle L = 34^\\circ$, so set up an equation to find $\\angle J$."
+      "content": "The sum of all interior angles in any triangle equals $180^\\circ$. We know $\\angle N = 41^\\circ$ and $\\angle P = 41^\\circ$, so set up an equation to find $\\angle M$."
     },
     {
       "title": "Apply the angle sum formula and solve",
-      "content": "The sum of angles in triangle $JKL$:<br/>$$\\angle J + \\angle K + \\angle L = 180^\\circ$$<br/>Substitute the known angles:<br/>$$\\angle J + 34^\\circ + 34^\\circ = 180^\\circ$$<br/>Combine like terms:<br/>$$\\angle J + 68^\\circ = 180^\\circ$$<br/>Subtract $68^\\circ$ from both sides:<br/>$$\\angle J = 180^\\circ - 68^\\circ = 112^\\circ$$<br/>The measure of $\\angle J$ is <strong>112</strong>, so the answer is <strong>112</strong>."
+      "content": "The sum of angles in triangle $MNP$:<br/>$$\\angle M + \\angle N + \\angle P = 180^\\circ$$<br/>Substitute the known angles:<br/>$$\\angle M + 41^\\circ + 41^\\circ = 180^\\circ$$<br/>Combine like terms:<br/>$$\\angle M + 82^\\circ = 180^\\circ$$<br/>Subtract $82^\\circ$ from both sides:<br/>$$\\angle M = 180^\\circ - 82^\\circ = 98^\\circ$$<br/>The measure of $\\angle M$ is <strong>98</strong>, so the answer is <strong>98</strong>."
     }
   ]
 }

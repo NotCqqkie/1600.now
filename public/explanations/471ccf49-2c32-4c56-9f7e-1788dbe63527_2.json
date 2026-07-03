@@ -9,11 +9,11 @@
     },
     {
       "title": "Substitute the values",
-      "content": "The slope is $-2$, so $m=-2$. The line passes through $(0,-19)$, so $f(0)=-19$ and $b=-19$. Therefore $$f(x)=-2x-19.$$"
+      "content": "The slope is $-3$, so $m=-3$. The line passes through $(0,-17)$, so $f(0)=-17$ and $b=-17$. Therefore $$f(x)=-3x-17.$$"
     },
     {
       "title": "Match the equation",
-      "content": "A choice with slope $-19$, not $-2$. A choice with the right slope but goes through $(0,0)$ instead of $(0,-19)$. A choice with positive slope. Only the matching choice, $f(x)=-2x-19$, matches. <strong>C</strong> is correct."
+      "content": "A choice with slope $-17$, not $-3$. A choice with the right slope but goes through $(0,0)$ instead of $(0,-17)$. A choice with positive slope. Only the matching choice, $f(x)=-3x-17$, matches. <strong>C</strong> is correct."
     }
   ]
 }

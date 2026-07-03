@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Solve the system by setting equations equal",
-      "content": "At intersection points, both equations are satisfied simultaneously. Set $x^2 - 1 = 3$: $$x^2 - 1 = 3$$ $$x^2 = 4$$ $$x = \\pm 2$$"
+      "content": "At intersection points, both equations are satisfied simultaneously. Set $x^2 - 2 = 7$: $$x^2 - 2 = 7$$ $$x^2 = 9$$ $$x = \\pm 3$$"
     },
     {
       "title": "Write the intersection points",
-      "content": "Both intersection points lie on the line $y = 3$. With $x = 2$ and $x = -2$, the coordinates are $(2, 3)$ and $(-2, 3)$. <strong>A</strong> is correct."
+      "content": "Both intersection points lie on the line $y = 7$. With $x = 3$ and $x = -3$, the coordinates are $(3, 7)$ and $(-3, 7)$. <strong>A</strong> is correct."
     }
   ]
 }

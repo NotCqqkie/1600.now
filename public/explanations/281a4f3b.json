@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Convert the percent decrease",
-      "content": "A $2\\%$ decrease means each year keeps $98\\%$ of the previous year's enrollment:<br/>$$1-0.02=0.98$$"
+      "content": "A $3\\%$ decrease means each year keeps $97\\%$ of the previous year's enrollment:<br/>$$1-0.03=0.97$$"
     },
     {
       "title": "Build the exponential model",
-      "content": "The initial enrollment in 2015 is $3{,}000$, and $x$ counts years after 2015. Use initial value times yearly multiplier:<br/>$$f(x)=3{,}000(0.98)^x$$"
+      "content": "The initial enrollment in 2018 is $4{,}200$, and $x$ counts years after 2018. Use initial value times yearly multiplier:<br/>$$f(x)=4{,}200(0.97)^x$$"
     },
     {
       "title": "Match the choice",
-      "content": "<strong>Choice D &mdash; $f(x) = 3,000 \\times (0.98)^x$</strong> is the only function with initial value $3{,}000$ and decay factor $0.98$. Therefore, <strong>D</strong> is correct."
+      "content": "<strong>Choice D &mdash; $f(x) = 4,200 \\times (0.97)^x$</strong> is the only function with initial value $4{,}200$ and decay factor $0.97$. Therefore, <strong>D</strong> is correct."
     }
   ]
 }

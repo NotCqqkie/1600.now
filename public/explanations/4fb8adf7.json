@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Use the given x-value",
-      "content": "The second equation is already $x=8$, so every possible solution must have $x=8$. Substitute $8$ into the other equation."
+      "content": "The second equation is already $x=11$, so every possible solution must have $x=11$. Substitute $11$ into the other equation."
     },
     {
       "title": "Solve for y",
-      "content": "$$4(8)-3y=5$$ $$32-3y=5$$ $$-3y=-27$$ $$y=9$$"
+      "content": "$$5(11)-4y=7$$ $$55-4y=7$$ $$-4y=-48$$ $$y=12$$"
     },
     {
       "title": "Check the choices",
-      "content": "The ordered pair is $(8,9)$. Substituting it gives $4(8)-3(9)=32-27=5$, so it satisfies both equations. The result matches."
+      "content": "The ordered pair is $(11,12)$. Substituting it gives $5(11)-4(12)=55-48=7$, so it satisfies both equations. The result matches."
     }
   ]
 }

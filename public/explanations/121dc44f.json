@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Express a 7% increase algebraically",
-      "content": "An increase of 7% adds 0.07 times the original amount to the original:<br/>$$\\text{2016 population} = \\text{2015 population} + 0.07 \\cdot \\text{2015 population}$$<br/>Factor the right side:<br/>$$\\text{2016 population} = (1 + 0.07) \\cdot \\text{2015 population} = 1.07 \\cdot \\text{2015 population}$$"
+      "title": "Express an 8% increase algebraically",
+      "content": "An increase of 8% adds 0.08 times the original amount to the original:<br/>$$\\text{2019 population} = \\text{2018 population} + 0.08 \\cdot \\text{2018 population}$$<br/>Factor the right side:<br/>$$\\text{2019 population} = (1 + 0.08) \\cdot \\text{2018 population} = 1.08 \\cdot \\text{2018 population}$$"
     },
     {
       "title": "Identify the constant k",
-      "content": "The problem states that the 2016 population is $k$ times the 2015 population. From our factorization, this multiplier is $1.07$, so $k = 1.07$. That matches <strong>Choice C &mdash; $1.07$</strong>."
+      "content": "The problem states that the 2019 population is $k$ times the 2018 population. From our factorization, this multiplier is $1.08$, so $k = 1.08$. That matches <strong>Choice C &mdash; $1.08$</strong>."
     }
   ]
 }

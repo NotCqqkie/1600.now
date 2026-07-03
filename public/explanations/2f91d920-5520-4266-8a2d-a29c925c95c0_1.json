@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Apply the multiplier from the given condition",
-      "content": "Note $4x = 2 \\cdot 2x$, and $2x=10$."
+      "content": "Note $4x = 2 \\cdot 2x$, and $2x=12$."
     },
     {
       "title": "Compute the target value",
-      "content": "So $4x = 2 \\cdot 10 = 20$. <strong>D</strong> is correct."
+      "content": "So $4x = 2 \\cdot 12 = 24$. <strong>D</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches the correct answer, 20. The other choices do not satisfy the same condition from the question, so <strong>D</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches the correct answer, 24. The other choices do not satisfy the same condition from the question, so <strong>D</strong> is correct."
     }
   ]
 }

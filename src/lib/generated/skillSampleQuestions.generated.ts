@@ -20,23 +20,23 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "id": "23a951fb-833f-4b27-9978-4eb054f855e2_3",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "If $8x = 9$, what is the value of $56x$?",
+      "text": "If $9x = 11$, what is the value of $63x$?",
       "choices": [
         {
           "id": "A",
-          "text": "2"
+          "text": "4"
         },
         {
           "id": "B",
-          "text": "16"
+          "text": "18"
         },
         {
           "id": "C",
-          "text": "63"
+          "text": "77"
         },
         {
           "id": "D",
-          "text": "79"
+          "text": "95"
         }
       ],
       "correctAnswer": "C"
@@ -45,23 +45,23 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "id": "39729166-8e92-42cc-8ed6-76acdb673a3c_18",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "If $x-2=3$, what is the value of $3(x-2)$?",
+      "text": "If $x-3=4$, what is the value of $3(x-3)$?",
       "choices": [
         {
           "id": "A",
-          "text": "3"
+          "text": "4"
         },
         {
           "id": "B",
-          "text": "7"
+          "text": "10"
         },
         {
           "id": "C",
-          "text": "9"
+          "text": "12"
         },
         {
           "id": "D",
-          "text": "18"
+          "text": "24"
         }
       ],
       "correctAnswer": "C"
@@ -70,23 +70,23 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "id": "e4f2c33b-9282-40a7-810c-d633e5197f95_1",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "If $9+x=6$, what is the value of $-18-2x$?",
+      "text": "If $8+x=5$, what is the value of $-24-3x$?",
       "choices": [
         {
           "id": "A",
-          "text": "$-12$"
+          "text": "$-15$"
         },
         {
           "id": "B",
-          "text": "$-2$"
+          "text": "$-3$"
         },
         {
           "id": "C",
-          "text": "$6$"
+          "text": "$5$"
         },
         {
           "id": "D",
-          "text": "$24$"
+          "text": "$33$"
         }
       ],
       "correctAnswer": "A"
@@ -122,7 +122,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "id": "11ee667b-8898-4917-b74e-33237205e2ef_4",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "$f(x) = 8(2x + 2)$. For what value of $x$ does $f(x) = 80$?",
+      "text": "$f(x) = 7(2x + 3)$. For what value of $x$ does $f(x) = 77$?",
       "choices": [
         {
           "id": "A",
@@ -130,15 +130,15 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
         },
         {
           "id": "B",
-          "text": "6"
+          "text": "7"
         },
         {
           "id": "C",
-          "text": "10"
+          "text": "11"
         },
         {
           "id": "D",
-          "text": "39"
+          "text": "37"
         }
       ],
       "correctAnswer": "A"
@@ -147,23 +147,23 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "id": "d2870056-c182-4523-a3f3-884eafe68114_3",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "$f(x) = 100x + 5$. What is the value of $f(x)$ when $x = 7$?",
+      "text": "$f(x) = 90x + 6$. What is the value of $f(x)$ when $x = 8$?",
       "choices": [
         {
           "id": "A",
-          "text": "112"
+          "text": "104"
         },
         {
           "id": "B",
-          "text": "135"
+          "text": "138"
         },
         {
           "id": "C",
-          "text": "700"
+          "text": "720"
         },
         {
           "id": "D",
-          "text": "705"
+          "text": "726"
         }
       ],
       "correctAnswer": "D"
@@ -174,23 +174,23 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "id": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_10",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "If $\\frac{x}{y}=64$ and $\\frac{cx}{4y}=64$, what is the value of c?",
+      "text": "If $\\frac{x}{y}=72$ and $\\frac{cx}{6y}=72$, what is the value of c?",
       "choices": [
         {
           "id": "A",
-          "text": "$4$"
+          "text": "$6$"
         },
         {
           "id": "B",
-          "text": "$16$"
+          "text": "$12$"
         },
         {
           "id": "C",
-          "text": "$64$"
+          "text": "$72$"
         },
         {
           "id": "D",
-          "text": "$256$"
+          "text": "$432$"
         }
       ],
       "correctAnswer": "A"
@@ -199,23 +199,23 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "id": "1b1871b9-081a-47fd-9218-97b0bbc4a454_19",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "In the $xy$-plane, what is the slope of the line that passes through the points $(0, 0)$ and $(13, 14)$?",
+      "text": "In the $xy$-plane, what is the slope of the line that passes through the points $(0, 0)$ and $(14, 15)$?",
       "choices": [
         {
           "id": "A",
-          "text": "13"
+          "text": "14"
         },
         {
           "id": "B",
-          "text": "$\\frac{14}{13}$"
+          "text": "$\\frac{15}{14}$"
         },
         {
           "id": "C",
-          "text": "$\\frac{13}{14}$"
+          "text": "$\\frac{14}{15}$"
         },
         {
           "id": "D",
-          "text": "14"
+          "text": "15"
         }
       ],
       "correctAnswer": "B"
@@ -251,7 +251,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "id": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_15",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "$3x+y=21$\n$9x-y=3$\nHow many solutions does the given system of equations have?",
+      "text": "$4x+y=22$\n$8x-y=2$\nHow many solutions does the given system of equations have?",
       "choices": [
         {
           "id": "A",
@@ -328,23 +328,23 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_16",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "$y = 95(x - 2) + 228$\nWhich equation is equivalent to the given equation?",
+      "text": "$y = 84(x - 3) + 287$\nWhich equation is equivalent to the given equation?",
       "choices": [
         {
           "id": "A",
-          "text": "$y = 95x + 228$"
+          "text": "$y = 84x + 287$"
         },
         {
           "id": "B",
-          "text": "$y = 228x + 418$"
+          "text": "$y = 287x + 539$"
         },
         {
           "id": "C",
-          "text": "$y = 95x + 38$"
+          "text": "$y = 84x + 35$"
         },
         {
           "id": "D",
-          "text": "$y = 228x + 95$"
+          "text": "$y = 287x + 84$"
         }
       ],
       "correctAnswer": "C"
@@ -353,23 +353,23 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "id": "10c690aa-0aad-48ab-952b-855b2555b311_5",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "A dog has a mass of 36 kilograms. What is the dog's mass, in <u>grams</u>? (1 kilogram = 1,000 grams)",
+      "text": "A dog has a mass of 42 kilograms. What is the dog's mass, in <u>grams</u>? (1 kilogram = 1,000 grams)",
       "choices": [
         {
           "id": "A",
-          "text": "36,000"
+          "text": "42,000"
         },
         {
           "id": "B",
-          "text": "1,296"
+          "text": "1,764"
         },
         {
           "id": "C",
-          "text": "1,036"
+          "text": "1,042"
         },
         {
           "id": "D",
-          "text": "964"
+          "text": "958"
         }
       ],
       "correctAnswer": "A"
@@ -378,29 +378,54 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "id": "00907d99-e579-47a8-ac65-658aadef4aa7_7",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "$0.67x - 2 \\le 12$ represents the number of oranges, $x$, that the shopper can purchase for no more than \\$12.",
+      "text": "$0.72x - 3 \\le 15$ represents the number of pears, $x$, that the shopper can purchase for no more than \\$15.",
       "choices": [
         {
           "id": "A",
-          "text": "$0.67x + 2 \\le 12$"
+          "text": "$0.72x + 3 \\le 15$"
         },
         {
           "id": "B",
-          "text": "$0.67 + 2 \\ge 12$"
+          "text": "$0.72 + 3 \\ge 15$"
         },
         {
           "id": "C",
-          "text": "$0.67x - 2 \\le 12$"
+          "text": "$0.72x - 3 \\le 15$"
         },
         {
           "id": "D",
-          "text": "$0.67x - 2 \\ge 12$"
+          "text": "$0.72x - 3 \\ge 15$"
         }
       ],
       "correctAnswer": "C"
     }
   ],
   "nonlinear-equations-and-systems": [
+    {
+      "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_2",
+      "difficulty": "Easy",
+      "testName": "Past SAT-based",
+      "text": "What is the $y$-intercept of $y=8x^2+5x+4$ in the $xy$-plane?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "$(0, 4)$"
+        },
+        {
+          "id": "B",
+          "text": "$(0, 5)$"
+        },
+        {
+          "id": "C",
+          "text": "$(0, 8)$"
+        },
+        {
+          "id": "D",
+          "text": "$(0, 9)$"
+        }
+      ],
+      "correctAnswer": "A"
+    },
     {
       "id": "cd2abd24-f96a-43e7-860f-be962ea69e08_20",
       "difficulty": "Easy",
@@ -427,10 +452,10 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "correctAnswer": "D"
     },
     {
-      "id": "2f91d920-5520-4266-8a2d-a29c925c95c0_5",
+      "id": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_2",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "$x^2 = 2,601$\nHow many distinct real solutions does the given equation have?",
+      "text": "$x^2 + 64 = 0$\nHow many distinct real solutions does the given equation have?",
       "choices": [
         {
           "id": "A",
@@ -449,32 +474,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
           "text": "Infinitely many"
         }
       ],
-      "correctAnswer": "C"
-    },
-    {
-      "id": "d2870056-c182-4523-a3f3-884eafe68114_20",
-      "difficulty": "Easy",
-      "testName": "Past SAT-based",
-      "text": "$x^2 - 49 = 0$\nHow many distinct real solutions does the given equation have?",
-      "choices": [
-        {
-          "id": "A",
-          "text": "Zero"
-        },
-        {
-          "id": "B",
-          "text": "Exactly one"
-        },
-        {
-          "id": "C",
-          "text": "Exactly two"
-        },
-        {
-          "id": "D",
-          "text": "Infinitely many"
-        }
-      ],
-      "correctAnswer": "C"
+      "correctAnswer": "A"
     }
   ],
   "nonlinear-functions": [
@@ -507,11 +507,11 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "id": "4e1b3643-30b1-41c4-9027-1f149baf52c7_8",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "$h(x) = 9|x|$. What is the value of $h(-8)$?",
+      "text": "$h(x) = 7|x|$. What is the value of $h(-6)$?",
       "choices": [
         {
           "id": "A",
-          "text": "-72"
+          "text": "-42"
         },
         {
           "id": "B",
@@ -519,11 +519,11 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
         },
         {
           "id": "C",
-          "text": "17"
+          "text": "13"
         },
         {
           "id": "D",
-          "text": "72"
+          "text": "42"
         }
       ],
       "correctAnswer": "D"
@@ -559,23 +559,23 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_3",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "Which expression is equivalent to $63x^2$?",
+      "text": "Which expression is equivalent to $72x^2$?",
       "choices": [
         {
           "id": "A",
-          "text": "$63(1+x^2)$"
+          "text": "$72(1+x^2)$"
         },
         {
           "id": "B",
-          "text": "$(7x)(9x)$"
+          "text": "$(8x)(9x)$"
         },
         {
           "id": "C",
-          "text": "$(7x^2)(9x^2)$"
+          "text": "$(8x^2)(9x^2)$"
         },
         {
           "id": "D",
-          "text": "$(63x^2)(x)$"
+          "text": "$(72x^2)(x)$"
         }
       ],
       "correctAnswer": "B"
@@ -584,23 +584,23 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "id": "1b1871b9-081a-47fd-9218-97b0bbc4a454_7",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "If $5c = 15$, what is the value of $5c - 8$?",
+      "text": "If $6m = 24$, what is the value of $6m - 9$?",
       "choices": [
         {
           "id": "A",
-          "text": "3"
+          "text": "4"
         },
         {
           "id": "B",
-          "text": "67"
+          "text": "135"
         },
         {
           "id": "C",
-          "text": "7"
+          "text": "15"
         },
         {
           "id": "D",
-          "text": "23"
+          "text": "33"
         }
       ],
       "correctAnswer": "C"
@@ -609,23 +609,23 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "id": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_5",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "Which expression is equivalent to $6x(x+3)$?",
+      "text": "Which expression is equivalent to $7x(x+4)$?",
       "choices": [
         {
           "id": "A",
-          "text": "$6x^{2}+3$"
+          "text": "$7x^{2}+4$"
         },
         {
           "id": "B",
-          "text": "$6x^{2}+18x$"
+          "text": "$7x^{2}+28x$"
         },
         {
           "id": "C",
-          "text": "$7x^{2}+3$"
+          "text": "$8x^{2}+4$"
         },
         {
           "id": "D",
-          "text": "$7x^{2}+9x$"
+          "text": "$8x^{2}+11x$"
         }
       ],
       "correctAnswer": "B"
@@ -636,23 +636,23 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "id": "979898ba-60c7-4531-ac45-29c4db2b3361_3",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "The ratio $10$ to $2$ is equivalent to the ratio $40$ to $2k$, where $k$ is a constant. What is the value of $k$?",
+      "text": "The ratio $12$ to $2$ is equivalent to the ratio $60$ to $2k$, where $k$ is a constant. What is the value of $k$?",
       "choices": [
         {
           "id": "A",
-          "text": "$0.5$"
+          "text": "$0.4$"
         },
         {
           "id": "B",
-          "text": "$4$"
+          "text": "$5$"
         },
         {
           "id": "C",
-          "text": "$8$"
+          "text": "$10$"
         },
         {
           "id": "D",
-          "text": "$80$"
+          "text": "$120$"
         }
       ],
       "correctAnswer": "B"
@@ -661,51 +661,51 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_3",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "An object moves at a speed of $\\frac{3}{50}$ feet per second. What is this speed, in <u> yards </u> per second? (3 feet = 1 yard)",
+      "text": "An object moves at a speed of $\\frac{6}{25}$ feet per second. What is this speed, in <u> yards </u> per second? (3 feet = 1 yard)",
       "choices": [
         {
           "id": "A",
-          "text": "50"
+          "text": "25"
         },
         {
           "id": "B",
-          "text": "6"
+          "text": "9"
         },
         {
           "id": "C",
-          "text": "$\\frac{9}{50}$"
+          "text": "$\\frac{18}{25}$"
         },
         {
           "id": "D",
-          "text": "$\\frac{1}{50}$"
+          "text": "$\\frac{2}{25}$"
         }
       ],
       "correctAnswer": "D"
     },
     {
-      "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_1",
+      "id": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_4",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "The ratio of the base to the height of a triangle is $1$ to $8$. The base of the triangle is $104$ centimeters. What is the height, in centimeters, of the triangle?",
+      "text": "A small drone can travel at an average speed of 18 meters per second during continuous flight. At this rate, how many meters would this drone travel in 5 seconds?",
       "choices": [
         {
           "id": "A",
-          "text": "13"
+          "text": "90"
         },
         {
           "id": "B",
-          "text": "52"
+          "text": "23"
         },
         {
           "id": "C",
-          "text": "104"
+          "text": "18"
         },
         {
           "id": "D",
-          "text": "832"
+          "text": "13"
         }
       ],
-      "correctAnswer": "D"
+      "correctAnswer": "A"
     }
   ],
   "percentages": [
@@ -713,23 +713,23 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_5",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "If 350% of n is 35, what is the value of n?",
+      "text": "If 250% of n is 45, what is the value of n?",
       "choices": [
         {
           "id": "A",
-          "text": "$12,250$"
+          "text": "$11,250$"
         },
         {
           "id": "B",
-          "text": "$1,225$"
+          "text": "$2,025$"
         },
         {
           "id": "C",
-          "text": "$1,000$"
+          "text": "$1,800$"
         },
         {
           "id": "D",
-          "text": "$10$"
+          "text": "$18$"
         }
       ],
       "correctAnswer": "D"
@@ -738,23 +738,23 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "id": "23a951fb-833f-4b27-9978-4eb054f855e2_6",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "5% of $w$ is 901.32. What is the value of $w$?",
+      "text": "5% of $w$ is 912.46. What is the value of $w$?",
       "choices": [
         {
           "id": "A",
-          "text": "946.386"
+          "text": "958.083"
         },
         {
           "id": "B",
-          "text": "4,506.6"
+          "text": "4,562.3"
         },
         {
           "id": "C",
-          "text": "18,026.4"
+          "text": "18,249.2"
         },
         {
           "id": "D",
-          "text": "85,625.4"
+          "text": "86,683.7"
         }
       ],
       "correctAnswer": "C"
@@ -763,23 +763,23 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "id": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_2",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "If $x$ is a positive integer, the expression $0.19x$ represents what percent of $x$?",
+      "text": "If $x$ is a positive integer, the expression $0.23x$ represents what percent of $x$?",
       "choices": [
         {
           "id": "A",
-          "text": "19"
+          "text": "23"
         },
         {
           "id": "B",
-          "text": "81"
+          "text": "77"
         },
         {
           "id": "C",
-          "text": "119"
+          "text": "123"
         },
         {
           "id": "D",
-          "text": "181"
+          "text": "177"
         }
       ],
       "correctAnswer": "A"
@@ -891,51 +891,76 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
   ],
   "probability": [
     {
-      "id": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_4",
+      "id": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_5",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "A sleep study consisted of 59 participants, of which 53 participants each had an average of more than 120 minutes of rapid eye movement (REM) sleep per night. If a participant from this sleep study is selected at random, what is the probability of selecting a participant that had an average of more than 120 minutes of REM sleep per night?",
+      "text": "At a conference hall, there are 625 attendees in total. Each attendee is in exactly one of room A, room B, or room C. If one attendee is chosen at random, the probability of choosing an attendee in room A is 0.64, and the probability of choosing an attendee in room B is 0.28. How many attendees are in room C?",
       "choices": [
         {
           "id": "A",
-          "text": "$\\frac{53}{100}$"
+          "text": "8"
         },
         {
           "id": "B",
-          "text": "$\\frac{59}{100}$"
+          "text": "50"
         },
         {
           "id": "C",
-          "text": "$\\frac{53}{59}$"
+          "text": "112"
         },
         {
           "id": "D",
-          "text": "$\\frac{59}{53}$"
+          "text": "225"
+        }
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_4",
+      "difficulty": "Easy",
+      "testName": "Past SAT-based",
+      "text": "A sleep study consisted of 52 participants, of which 47 participants each had an average of more than 110 minutes of rapid eye movement (REM) sleep per night. If a participant from this sleep study is selected at random, what is the probability of selecting a participant that had an average of more than 110 minutes of REM sleep per night?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "$\\frac{47}{100}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\frac{52}{100}$"
+        },
+        {
+          "id": "C",
+          "text": "$\\frac{47}{52}$"
+        },
+        {
+          "id": "D",
+          "text": "$\\frac{52}{47}$"
         }
       ],
       "correctAnswer": "C"
     },
     {
-      "id": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_7",
+      "id": "b310cd51-4e49-46d2-99c8-70a10c0d83f9_5",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "At a convention center, there are a total of 225 visitors. Each visitor is located in either room A, room B, or room C. If one of these visitors is selected at random, the probability of selecting a visitor who is located in room A is $0.72$, and the probability of selecting a visitor who is located in room B is $0.24$. How many visitors are located in room C?",
+      "text": "At a museum, there are a total of 500 visitors. Each visitor is located in either room A, room B, or room C. If one of these visitors is selected at random, the probability of selecting a visitor who is located in room A is $0.62$, and the probability of selecting a visitor who is located in room B is $0.30$. How many visitors are located in room C?",
       "choices": [
         {
           "id": "A",
-          "text": "$4$"
+          "text": "$8$"
         },
         {
           "id": "B",
-          "text": "$9$"
+          "text": "$40$"
         },
         {
           "id": "C",
-          "text": "$39$"
+          "text": "$93$"
         },
         {
           "id": "D",
-          "text": "$108$"
+          "text": "$150$"
         }
       ],
       "correctAnswer": "B"
@@ -946,7 +971,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "id": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_9",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "A district school board in a certain state is proposing a change to the time school starts for all high schools in the district. A sample of 353 high school students was selected at random from all high school students in the district. The selected students were asked whether they approved of the proposed change, and 300 students responded that they did not approve. Which of the following is the largest population to which the results of the survey can be generalized?",
+      "text": "A district school board in a certain state is considering changing the starting time for all high schools in the district. A sample of 368 high school students was selected at random from all high school students in the district. The selected students were asked whether they approved of the proposed change, and 295 students responded that they did not approve. Which of the following is the largest population to which the survey results can be generalized?",
       "choices": [
         {
           "id": "A",
@@ -954,11 +979,11 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
         },
         {
           "id": "B",
-          "text": "The 353 students who were surveyed"
+          "text": "The 368 students who were surveyed"
         },
         {
           "id": "C",
-          "text": "The 300 students who responded that they did not approve of the proposed change"
+          "text": "The 295 students who responded that they did not approve of the proposed change"
         },
         {
           "id": "D",
@@ -968,51 +993,51 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "correctAnswer": "A"
     },
     {
-      "id": "10c690aa-0aad-48ab-952b-855b2555b311_12",
-      "difficulty": "Medium",
-      "testName": "Past SAT-based",
-      "text": "A market researcher collected data on the price of a hot dog at 59 locations selected at random in a state. The mean price of a hot dog in the state was estimated to be \\$3.28, with an associated margin of error of \\$0.06. Which of the following is a plausible statement about the mean price of a hot dog for all locations that sell this product in the state?",
-      "choices": [
-        {
-          "id": "A",
-          "text": "It is between \\$3.22 and \\$3.34."
-        },
-        {
-          "id": "B",
-          "text": "It is either less than \\$3.22 or greater than \\$3.34."
-        },
-        {
-          "id": "C",
-          "text": "It is less than \\$3.22."
-        },
-        {
-          "id": "D",
-          "text": "It is greater than \\$3.34."
-        }
-      ],
-      "correctAnswer": "A"
-    },
-    {
       "id": "9c1847da-e82b-4814-a0ec-0b4f99891322_8",
       "difficulty": "Medium",
       "testName": "Past SAT-based",
-      "text": "A group of 80 employees selected at random from all the employees at a company were surveyed about the number of books they read last year. From the data collected, it was estimated that the mean number of books employees at the company read last year is 7, with an associated margin of error of 1.6. Which of the following is the most appropriate conclusion?",
+      "text": "A group of 90 employees selected at random from all the employees at a company were surveyed about the number of books they read last year. From the data collected, it was estimated that the mean number of books employees at the company read last year is 8, with an associated margin of error of 1.4. Which of the following is the most appropriate conclusion?",
       "choices": [
         {
           "id": "A",
-          "text": "It is plausible that the actual mean number of books employees at the company read last year is less than 5.4."
+          "text": "It is plausible that the actual mean number of books employees at the company read last year is less than 6.6."
         },
         {
           "id": "B",
-          "text": "It is plausible that the actual mean number of books employees at the company read last year is between 5.4 and 8.6."
+          "text": "It is plausible that the actual mean number of books employees at the company read last year is between 6.6 and 9.4."
         },
         {
           "id": "C",
-          "text": "It is plausible that every employee at the company read between 7 and 11.8 books last year."
+          "text": "It is plausible that every employee at the company read between 8 and 12.2 books last year."
         },
         {
           "id": "D",
-          "text": "It is plausible that the actual mean number of books employees at the company read last year is greater than 8.6."
+          "text": "It is plausible that the actual mean number of books employees at the company read last year is greater than 9.4."
+        }
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_7",
+      "difficulty": "Medium",
+      "testName": "Past SAT-based",
+      "text": "A group of 55 employees selected at random from all the employees at a company were surveyed about the number of movies they watched last year. From the data collected, it was estimated that the mean number of movies employees at the company watched last year is 8.4, with an associated margin of error of 1.3. Which of the following is the most appropriate conclusion?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It is plausible that the actual mean number of movies employees at the company watched last year is less than 7.1."
+        },
+        {
+          "id": "B",
+          "text": "It is plausible that the actual mean number of movies employees at the company watched last year is between 7.1 and 9.7."
+        },
+        {
+          "id": "C",
+          "text": "It is plausible that every employee at the company watched between 8.4 and 12.3 movies last year."
+        },
+        {
+          "id": "D",
+          "text": "It is plausible that the actual mean number of movies employees at the company watched last year is greater than 9.7."
         }
       ],
       "correctAnswer": "B"
@@ -1023,23 +1048,23 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "id": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_12",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "An arborist studying forestland in Illinois estimates that there are at least 50 and no more than 60 hickory trees per acre in a certain forest. Which of the following best represents the arborist's estimate of the number of hickory trees, $x$, that are in a 3-acre section of this forest?",
+      "text": "A biologist studying woodland in Oregon estimates that there are at least 40 and no more than 55 spruce trees per acre in a certain preserve. Which of the following best represents the biologist's estimate of the number of spruce trees, $x$, that are in a 4-acre section of this preserve?",
       "choices": [
         {
           "id": "A",
-          "text": "$50 \\leq x \\leq 60$"
+          "text": "$40 \\leq x \\leq 55$"
         },
         {
           "id": "B",
-          "text": "$150 \\leq x \\leq 180$"
+          "text": "$160 \\leq x \\leq 220$"
         },
         {
           "id": "C",
-          "text": "$50 \\leq x \\leq 180$"
+          "text": "$40 \\leq x \\leq 220$"
         },
         {
           "id": "D",
-          "text": "$150 \\leq x \\leq 60$"
+          "text": "$160 \\leq x \\leq 55$"
         }
       ],
       "correctAnswer": "B"
@@ -1048,7 +1073,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_10",
       "difficulty": "Medium",
       "testName": "Past SAT-based",
-      "text": "$H = 2.403L + 23.31$\nA group of biology students conducted an experiment to study the relationship between a person’s femur length and the person's height. The given equation describes the relationship between the length $L$, in inches, of a student's femur and the student's estimated height $H$, in inches, for the students in the group. Which of the following is the best interpretation of 2.403 in this context?",
+      "text": "$H = 2.517L + 22.84$\nA group of biology students conducted an experiment to study the relationship between a person's femur length and the person's height. The given equation describes the relationship between the length $L$, in inches, of a student's femur and the student's estimated height $H$, in inches, for the students in the group. Which of the following is the best interpretation of 2.517 in this context?",
       "choices": [
         {
           "id": "A",
@@ -1060,7 +1085,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
         },
         {
           "id": "C",
-          "text": "The increase in a student's femur length, in inches, for each increase of 23.31 inches in the student's estimated height"
+          "text": "The increase in a student's femur length, in inches, for each increase of 22.84 inches in the student's estimated height"
         },
         {
           "id": "D",
@@ -1073,23 +1098,23 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "id": "e5001da0-8895-4b72-8d22-da29586dc907_14",
       "difficulty": "Hard",
       "testName": "Past SAT-based",
-      "text": "For a study, a group of chipmunks will be selected from a habitat consisting of 220 chipmunks, and a group of prairie dogs will be selected from a habitat consisting of 190 prairie dogs. Some of the chipmunks and prairie dogs will be in a treatment group, and some of the chipmunks and prairie dogs will be in a control group. Which of the following is necessary for this study to attempt to establish a cause-and-effect relationship between two variables?",
+      "text": "For a study, a group of squirrels will be selected from a habitat consisting of 240 squirrels, and a group of groundhogs will be selected from a habitat consisting of 210 groundhogs. Some of the squirrels and groundhogs will be in a treatment group, and some of the squirrels and groundhogs will be in a control group. Which of the following is necessary for this study to attempt to establish a cause-and-effect relationship between two variables?",
       "choices": [
         {
           "id": "A",
-          "text": "The number of chipmunks in the treatment group is equal to the number of prairie dogs in the treatment group, and the number of chipmunks in the control group is equal to the number of prairie dogs in the control group."
+          "text": "The number of squirrels in the treatment group is equal to the number of groundhogs in the treatment group, and the number of squirrels in the control group is equal to the number of groundhogs in the control group."
         },
         {
           "id": "B",
-          "text": "The chipmunks and the prairie dogs are randomly assigned to the treatment and control groups."
+          "text": "The squirrels and the groundhogs are randomly assigned to the treatment and control groups."
         },
         {
           "id": "C",
-          "text": "The chipmunks and the prairie dogs are randomly selected from their respective habitats."
+          "text": "The squirrels and the groundhogs are randomly selected from their respective habitats."
         },
         {
           "id": "D",
-          "text": "The average age of the chipmunks in the treatment group is equal to the average age of the prairie dogs in the treatment group, and the average age of the chipmunks in the control group is equal to the average age of the prairie dogs in the control group."
+          "text": "The average age of the squirrels in the treatment group is equal to the average age of the groundhogs in the treatment group, and the average age of the squirrels in the control group is equal to the average age of the groundhogs in the control group."
         }
       ],
       "correctAnswer": "B"
@@ -1097,76 +1122,76 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
   ],
   "area-and-volume": [
     {
-      "id": "1b1871b9-081a-47fd-9218-97b0bbc4a454_14",
+      "id": "d2870056-c182-4523-a3f3-884eafe68114_17",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "A triangle has a base length of 48 centimeters and a height of 96 centimeters. What is the area, in square centimeters, of the triangle?",
+      "text": "The base of a triangle is 8 inches long, and the triangle's height is 11 inches. What is the area, in square inches, of the triangle?",
       "choices": [
         {
           "id": "A",
-          "text": "2,304"
+          "text": "19"
         },
         {
           "id": "B",
-          "text": "1,152"
+          "text": "44"
         },
         {
           "id": "C",
-          "text": "4,608"
+          "text": "57"
         },
         {
           "id": "D",
-          "text": "144"
+          "text": "88"
         }
       ],
-      "correctAnswer": "A"
+      "correctAnswer": "B"
     },
     {
       "id": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_4",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "An object has a mass of 308 grams and a volume of 28 cubic centimeters. What is the density, in grams per cubic centimeter, of the object?",
+      "text": "An item has a mass of 378 grams and a volume of 27 cubic centimeters. What is the density, in grams per cubic centimeter, of the item?",
       "choices": [
         {
           "id": "A",
-          "text": "11"
+          "text": "14"
         },
         {
           "id": "B",
-          "text": "280"
+          "text": "351"
         },
         {
           "id": "C",
-          "text": "336"
+          "text": "405"
         },
         {
           "id": "D",
-          "text": "8,624"
+          "text": "10,206"
         }
       ],
       "correctAnswer": "A"
     },
     {
-      "id": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_1",
+      "id": "1b1871b9-081a-47fd-9218-97b0bbc4a454_14",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "The number of muskrat in a 134-acre area is estimated to be 2,278. What is the estimated population density, in muskrat per acre, of this area?",
+      "text": "A triangle has a base length of 54 centimeters and a height of 84 centimeters. What is the area, in square centimeters, of the triangle?",
       "choices": [
         {
           "id": "A",
-          "text": "17"
+          "text": "2,268"
         },
         {
           "id": "B",
-          "text": "134"
+          "text": "1,134"
         },
         {
           "id": "C",
-          "text": "151"
+          "text": "4,536"
         },
         {
           "id": "D",
-          "text": "2,295"
+          "text": "138"
         }
       ],
       "correctAnswer": "A"
@@ -1177,23 +1202,23 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "id": "23a951fb-833f-4b27-9978-4eb054f855e2_12",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "The measure of angle Z is 45°. What is the measure, in <u>radians</u>, of angle Z?",
+      "text": "The measure of angle Z is 30°. What is the measure, in <u>radians</u>, of angle Z?",
       "choices": [
         {
           "id": "A",
-          "text": "$\\frac{1}{8} \\pi$"
+          "text": "$\\frac{1}{12} \\pi$"
         },
         {
           "id": "B",
-          "text": "$\\frac{1}{4} \\pi$"
+          "text": "$\\frac{1}{6} \\pi$"
         },
         {
           "id": "C",
-          "text": "$\\frac{1}{2} \\pi$"
+          "text": "$\\frac{1}{3} \\pi$"
         },
         {
           "id": "D",
-          "text": "$\\frac{3}{4} \\pi$"
+          "text": "$\\frac{5}{6} \\pi$"
         }
       ],
       "correctAnswer": "B"
@@ -1202,23 +1227,23 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "id": "659cbbc1-2d38-4d45-8ecb-79f43367862e_21",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "The measure of angle $Z$ is $45^\\circ$. What is the measure, in <u>radians</u>, of angle $Z$?",
+      "text": "The measure of angle $Y$ is $60^\\circ$. What is the measure, in <u>radians</u>, of angle $Y$?",
       "choices": [
         {
           "id": "A",
-          "text": "$\\frac{1}{2}\\pi$"
+          "text": "$\\frac{2}{3}\\pi$"
         },
         {
           "id": "B",
-          "text": "$\\frac{3}{4}\\pi$"
+          "text": "$\\pi$"
         },
         {
           "id": "C",
-          "text": "$\\frac{1}{8}\\pi$"
+          "text": "$\\frac{1}{6}\\pi$"
         },
         {
           "id": "D",
-          "text": "$\\frac{1}{4}\\pi$"
+          "text": "$\\frac{1}{3}\\pi$"
         }
       ],
       "correctAnswer": "D"
@@ -1227,23 +1252,23 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "id": "39729166-8e92-42cc-8ed6-76acdb673a3c_1",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "In triangle EFG, the sum of the measures of angles E and F is 31°. What is the measure of angle G?",
+      "text": "In triangle HJK, the sum of the measures of angles H and J is 42°. What is the measure of angle K?",
       "choices": [
         {
           "id": "A",
-          "text": "31°"
+          "text": "42°"
         },
         {
           "id": "B",
-          "text": "59°"
+          "text": "48°"
         },
         {
           "id": "C",
-          "text": "118°"
+          "text": "96°"
         },
         {
           "id": "D",
-          "text": "149°"
+          "text": "138°"
         }
       ],
       "correctAnswer": "D"
@@ -1254,15 +1279,15 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "id": "ba06b998-d854-4b29-830c-15d877280c75_15",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "The measure of angle B is $\\frac{3\\pi}{4}$ radians. What is the value of sin(B)?",
+      "text": "The measure of angle B is $\\frac{2\\pi}{3}$ radians. What is the value of sin(B)?",
       "choices": [
         {
           "id": "A",
-          "text": "$-\\frac{\\sqrt{3}}{2}$"
+          "text": "$-\\frac{\\sqrt{2}}{2}$"
         },
         {
           "id": "B",
-          "text": "$-\\frac{\\sqrt{2}}{2}$"
+          "text": "$-\\frac{\\sqrt{3}}{2}$"
         },
         {
           "id": "C",
@@ -1270,7 +1295,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
         },
         {
           "id": "D",
-          "text": "$\\frac{\\sqrt{2}}{2}$"
+          "text": "$\\frac{\\sqrt{3}}{2}$"
         }
       ],
       "correctAnswer": "D"
@@ -1279,11 +1304,11 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "id": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_17",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "The measure of angle $C$ is $\\frac{3\\pi}{4}$ radians. What is the value of $\\cos(C)$?",
+      "text": "The measure of angle $C$ is $\\frac{5\\pi}{6}$ radians. What is the value of $\\cos(C)$?",
       "choices": [
         {
           "id": "A",
-          "text": "$-\\frac{\\sqrt{2}}{2}$"
+          "text": "$-\\frac{\\sqrt{3}}{2}$"
         },
         {
           "id": "B",
@@ -1291,11 +1316,11 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
         },
         {
           "id": "C",
-          "text": "$\\frac{\\sqrt{2}}{2}$"
+          "text": "$\\frac{\\sqrt{3}}{2}$"
         },
         {
           "id": "D",
-          "text": "$\\frac{\\sqrt{3}}{2}$"
+          "text": "$\\frac{1}{2}$"
         }
       ],
       "correctAnswer": "A"
@@ -1331,23 +1356,23 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "id": "32388549-e820-4b4a-91a9-d9c32e611098_4",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "A circle has a radius of $19$ meters. What is the area, in square meters, of the circle?",
+      "text": "A circle has a radius of $17$ meters. What is the area, in square meters, of the circle?",
       "choices": [
         {
           "id": "A",
-          "text": "$\\frac{19\\pi}{2}$"
+          "text": "$\\frac{17\\pi}{2}$"
         },
         {
           "id": "B",
-          "text": "$\\frac{19\\pi}{1}$"
+          "text": "$\\frac{17\\pi}{1}$"
         },
         {
           "id": "C",
-          "text": "$\\frac{38\\pi}{1}$"
+          "text": "$\\frac{34\\pi}{1}$"
         },
         {
           "id": "D",
-          "text": "$\\frac{361\\pi}{1}$"
+          "text": "$\\frac{289\\pi}{1}$"
         }
       ],
       "correctAnswer": "D"
@@ -1356,23 +1381,23 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "id": "00907d99-e579-47a8-ac65-658aadef4aa7_8",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "Circle T has a radius of 35 millimeters (mm). What is the area of circle T, in $\\text{mm}^2$?",
+      "text": "Circle M has a radius of 32 millimeters (mm). What is the area of circle M, in $\\text{mm}^2$?",
       "choices": [
         {
           "id": "A",
-          "text": "$35\\pi$"
+          "text": "$32\\pi$"
         },
         {
           "id": "B",
-          "text": "$70\\pi$"
+          "text": "$64\\pi$"
         },
         {
           "id": "C",
-          "text": "$140\\pi$"
+          "text": "$128\\pi$"
         },
         {
           "id": "D",
-          "text": "$1,225\\pi$"
+          "text": "$1,024\\pi$"
         }
       ],
       "correctAnswer": "D"
@@ -1381,23 +1406,23 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "id": "a7146625-47ea-49cb-9061-578e226240d5_13",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "A circle in the $xy$-plane has the equation $(x-14)^{2}+(y-k)^{2}=36$. Which of the following gives the center of the circle and its radius?",
+      "text": "A circle in the $xy$-plane has the equation $(x-11)^{2}+(y-k)^{2}=49$. Which of the following gives the center of the circle and its radius?",
       "choices": [
         {
           "id": "A",
-          "text": "The center is at $(14, k)$ and the radius is 6."
+          "text": "The center is at $(11, k)$ and the radius is 7."
         },
         {
           "id": "B",
-          "text": "The center is at $(k, 14)$ and the radius is 6."
+          "text": "The center is at $(k, 11)$ and the radius is 7."
         },
         {
           "id": "C",
-          "text": "The center is at $(k, 14)$ and the radius is 36."
+          "text": "The center is at $(k, 11)$ and the radius is 49."
         },
         {
           "id": "D",
-          "text": "The center is at $(14, k)$ and the radius is 36."
+          "text": "The center is at $(11, k)$ and the radius is 49."
         }
       ],
       "correctAnswer": "A"
@@ -1510,7 +1535,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "id": "b5bd285b-0705-476c-ac24-58aa076fb71a_5",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "Which choice best states the main purpose of the text?\nHaving trouble getting rid of weeds? One surprising solution may be to start eating them. Curly dock and broadleaf plantain are two edible plants that are usually considered weeds in North America. These and other plants like them are sometimes more flavorful than are some plants that people grow as food.",
+      "text": "Which choice best states the main purpose of the text?\nHaving trouble getting rid of weeds? One surprising solution may be to start eating them. Dandelion greens and purslane are two edible plants that are usually considered weeds in North America. These and other plants like them are sometimes more flavorful than are some plants that people grow as food.",
       "choices": [
         {
           "id": "A",
@@ -1562,7 +1587,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "id": "749328c4-3c9b-4615-9409-c9853a26da34_7",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "The author of Text 1 and the author of Text 2 both discuss which topic?\nText 1\nScientists can learn a lot about the Hispaniolan ground sloth and other prehistoric sloths from their fossils. But it can be hard to study sloths alive today. In the wild, the Linnaeus's two-toed sloth and other sloths spend most of their time in trees. They're difficult to observe because of their excellent camouflage and slow movements.\nText 2\nRebecca Cliffe and other scientists can now record the previously hidden activities of tree-dwelling sloths by using a backpack monitor. Such monitors can provide information to correct misconceptions. It was long believed that sloths are slow because of laziness. But, in fact, sloths' slow movements are useful. Being slow protects them from predators with keen eyesight.",
+      "text": "The author of Text 1 and the author of Text 2 both discuss which topic?\nText 1\nScientists can learn a lot about the Hispaniolan ground sloth and other prehistoric sloths from their fossils. But it can be hard to study sloths alive today. In the wild, the Linnaeus's two-toed sloth and other sloths spend most of their time in trees. They're difficult to observe because of their excellent camouflage and slow movements.\nText 2\nNaomi Hart and other scientists can now record the previously hidden activities of tree-dwelling sloths by using a backpack monitor. Such monitors can provide information to correct misconceptions. It was long believed that sloths are slow because of laziness. But, in fact, sloths' slow movements are useful. Being slow protects them from predators with keen eyesight.",
       "choices": [
         {
           "id": "A",
@@ -1587,7 +1612,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "id": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_7",
       "difficulty": "Medium",
       "testName": "Past SAT-based",
-      "text": "Which choice best describes a notable difference in how the speaker of Text 1 and the speaker of Text 2 portray the moon?\nText 1 is T. E. Hulme's 1912 poem \"Above the Dock.\" Text 2 is from Amy Lowell's 1912 poem \"The Crescent Moon.\"\nText 1\nAbove the quiet dock in mid night,\nTangled in the tall mast's corded height,\nHangs the moon. What seemed so far away\nIs but a child's balloon, forgotten after play.\nText 2\nSlipping softly through the sky\nLittle horned, happy moon,\nCan you hear me up so high?\nWill you come down soon?",
+      "text": "Which choice best describes a notable difference in how the speaker of Text 1 and the speaker of Text 2 portray the moon?\nText 1 is R. E. Warren's 1912 poem \"Above the Dock.\" Text 2 is from Clara Moreland's 1912 poem \"The Crescent Moon.\"\nText 1\nAbove the quiet dock in mid night,\nTangled in the tall mast's corded height,\nHangs the moon. What seemed so far away\nIs but a child's balloon, forgotten after play.\nText 2\nSlipping softly through the sky\nLittle horned, happy moon,\nCan you hear me up so high?\nWill you come down soon?",
       "choices": [
         {
           "id": "A",
@@ -1612,7 +1637,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "id": "97534841-3541-4563-86b8-0a919d0bde5b_6",
       "difficulty": "Medium",
       "testName": "Past SAT-based",
-      "text": "The author of Text 1 and the author of Text 2 both discuss which topic?\nText 1\nFrom the extinct giant ground sloth to the living pygmy three-toed sloth, sloths are among the most appealing animals native to the Americas. But scientists still have a lot to learn about them. Unlike their ancient ground-dwelling relations, today's sloths spend most of their time high up in trees. The sloths' inaccessibility has made it hard for scientists to study them.\nText 2\nBy using a backpack monitor, biologist Rebecca Cliffe and colleagues can at last discover the previously hidden activities of sloths. Such monitors can provide information to correct misconceptions. It was long believed that sloths are slow because of laziness. But, in fact, sloths have low metabolism, which makes them slow.",
+      "text": "The author of Text 1 and the author of Text 2 both discuss which topic?\nText 1\nFrom the extinct giant ground sloth to the living pygmy three-toed sloth, sloths are among the most appealing animals native to the Americas. But scientists still have a lot to learn about them. Unlike their ancient ground-dwelling relations, today's sloths spend most of their time high up in trees. The sloths' inaccessibility has made it hard for scientists to study them.\nText 2\nBy using a backpack monitor, biologist Anna Cliffe and colleagues can at last discover the previously hidden activities of sloths. Such monitors can provide information to correct misconceptions. It was long believed that sloths are slow because of laziness. But, in fact, sloths have low metabolism, which makes them slow.",
       "choices": [
         {
           "id": "A",
@@ -1639,7 +1664,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "id": "b6c7623b-7d8b-46cb-8108-4c4c677bdc88_9",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "Which choice best states the main idea of the text?\nDandelions are a kind of weed found in North America. Although dandelions are unwelcome in gardens and on farms, weeds like this do provide some benefits. For example, they can be helpful to pollinators.",
+      "text": "Which choice best states the main idea of the text?\nThistles are a kind of weed found in North America. Although thistles are unwelcome in gardens and on farms, weeds like this do provide some benefits. For example, they can be helpful to pollinators.",
       "choices": [
         {
           "id": "A",
@@ -1818,7 +1843,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "id": "b6c7623b-7d8b-46cb-8108-4c4c677bdc88_15",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "Which choice most logically completes the text?\nScientists recently created a model to predict how increasing human activity will affect future mammal population sizes in US national forests. Unfortunately, when the model is applied to large forests, its predictions for large-mammal populations are too high, and when applied to small forests, its predictions for small-mammal populations are too high. Beaverhead-Deerlodge National Forest in Montana is a large forest, covering more than 3 million acres. If used to evaluate the effect of increasing human activity on this forest in ten years, the model would likely therefore ______",
+      "text": "Which choice most logically completes the text?\nScientists recently created a model to predict how increasing human activity will affect future mammal population sizes in US national forests. Unfortunately, when the model is applied to large forests, its predictions for large-mammal populations are too high, and when applied to small forests, its predictions for small-mammal populations are too high. Tongass National Forest in Alaska is a large forest, covering more than 3 million acres. If used to evaluate the effect of increasing human activity on this forest in ten years, the model would likely therefore ______",
       "choices": [
         {
           "id": "A",
@@ -1840,29 +1865,29 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "correctAnswer": "B"
     },
     {
-      "id": "839d1132-416e-4cc6-be17-13454f14da43_13",
-      "difficulty": "Medium",
+      "id": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_14",
+      "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "Which choice most logically completes the text?\nMarine archaeologists have found much of the wooden hull of a sixteenth-century ship in a flooded quarry in southeast England. When it is exposed to air and water, wood rots quickly unless it is protected by sediment that shields it from oxygen. Therefore, the discovered ship was likely ______",
+      "text": "Which choice most logically completes the text?\nScientists recently created a model to predict how increasing human activity will affect future mammal population sizes in US national forests. Unfortunately, when the model is applied to large forests, its predictions for large-mammal populations are too high, and when applied to small forests, its predictions for small-mammal populations are too high. Pinehollow National Forest in Montana is a large forest, covering more than 3 million acres. If used to evaluate the effect of increasing human activity on this forest in ten years, the model would likely therefore ______",
       "choices": [
         {
           "id": "A",
-          "text": "a confirmation of previous theories about the type of wood that was used in sixteenth-century ships."
+          "text": "exaggerate the effect of increasing human activity on small mammals."
         },
         {
           "id": "B",
-          "text": "first constructed much earlier than previously thought."
+          "text": "overestimate the actual population sizes of large mammals."
         },
         {
           "id": "C",
-          "text": "one of several other ships buried in the same quarry."
+          "text": "ignore the predator-prey relationships between large and small mammals."
         },
         {
           "id": "D",
-          "text": "covered by a protective sediment layer in the quarry."
+          "text": "reflect factors affecting large mammals other than increasing human activity."
         }
       ],
-      "correctAnswer": "D"
+      "correctAnswer": "B"
     }
   ],
   "transitions": [
@@ -1892,35 +1917,10 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "correctAnswer": "B"
     },
     {
-      "id": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_21",
-      "difficulty": "Easy",
-      "testName": "Past SAT-based",
-      "text": "Which choice completes the text with the most logical transition?\nIn Spain, citizens must be at least 18 years old to vote in their country's elections. ______ citizens in Brazil need only be 16 years old to cast their vote.",
-      "choices": [
-        {
-          "id": "A",
-          "text": "By contrast,"
-        },
-        {
-          "id": "B",
-          "text": "For example,"
-        },
-        {
-          "id": "C",
-          "text": "Firstly,"
-        },
-        {
-          "id": "D",
-          "text": "Therefore,"
-        }
-      ],
-      "correctAnswer": "A"
-    },
-    {
       "id": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_21",
       "difficulty": "Easy",
       "testName": "Past SAT-based",
-      "text": "Which choice completes the text with the most logical transition?\nIn Ethiopia, citizens must be at least 18 years old to vote in their country's elections. ______ citizens in Cuba need only be 16 years old to cast their vote.",
+      "text": "Which choice completes the text with the most logical transition?\nIn Kenya, citizens must be at least 18 years old to vote in their country's elections. ______ citizens in Brazil need only be 16 years old to cast their vote.",
       "choices": [
         {
           "id": "A",
@@ -1940,6 +1940,31 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
         }
       ],
       "correctAnswer": "C"
+    },
+    {
+      "id": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_21",
+      "difficulty": "Easy",
+      "testName": "Past SAT-based",
+      "text": "Which choice completes the text with the most logical transition?\nIn Portugal, citizens must be at least 18 years old to vote in their country's elections. ______ citizens in Argentina need only be 16 years old to cast their vote.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "By contrast,"
+        },
+        {
+          "id": "B",
+          "text": "For example,"
+        },
+        {
+          "id": "C",
+          "text": "Firstly,"
+        },
+        {
+          "id": "D",
+          "text": "Therefore,"
+        }
+      ],
+      "correctAnswer": "A"
     }
   ],
   "rhetorical-synthesis": [

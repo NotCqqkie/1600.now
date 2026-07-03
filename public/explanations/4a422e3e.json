@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Step 1",
-      "content": "Identify the sampling method: Tabitha surveyed 20 families at a playground. The target population is all households in the community, but the sample was drawn only from families at a playground."
+      "content": "Identify the sampling method: Denise surveyed 24 families at a children's museum. The target population is all households in the community, but the sample was drawn only from families at a children's museum."
     },
     {
       "title": "Step 2",
-      "content": "Assess representativeness: families found at a playground are systematically more likely to have children than the average household in the community. Families without children, or families whose children are grown, are excluded. This is a non-random, location-based sample — a textbook case of selection bias."
+      "content": "Assess representativeness: families found at a children's museum are systematically more likely to have children than the average household in the community. Families without children, or families whose children are grown, are excluded. This is a non-random, location-based sample — a textbook case of selection bias."
     },
     {
       "title": "Step 3",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Step 4",
-      "content": "Evaluate each choice:<ul><li>A: &quot;The mean number of children per household in the community is 2.4&quot; — we cannot conclude the population mean equals the sample mean from a biased sample. Eliminated.</li><li>B: &quot;Should not be made because the sample size is too small&quot; — sample size (20) is not the primary flaw here; the location bias is. This misstates the problem. Eliminated.</li><li>C: &quot;The sampling method is flawed and may produce a biased estimate&quot; — the playground-only sample is non-random and creates selection bias. This must be true. <strong>C</strong> is correct.</li><li>D: &quot;The sampling method is not flawed and is likely to produce an unbiased estimate&quot; — directly contradicted by the location-based sampling. Eliminated.</li></ul>"
+      "content": "Evaluate each choice:<ul><li>A: &quot;The mean number of children per household in the community is 2.6&quot; — we cannot conclude the population mean equals the sample mean from a biased sample. Eliminated.</li><li>B: &quot;Should not be made because the sample size is too small&quot; — sample size (24) is not the primary flaw here; the location bias is. This misstates the problem. Eliminated.</li><li>C: &quot;The sampling method is flawed and may produce a biased estimate&quot; — the children's-museum-only sample is non-random and creates selection bias. This must be true. <strong>C</strong> is correct.</li><li>D: &quot;The sampling method is not flawed and is likely to produce an unbiased estimate&quot; — directly contradicted by the location-based sampling. Eliminated.</li></ul>"
     }
   ]
 }

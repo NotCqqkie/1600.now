@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the pitting rate",
-      "content": "The machine pits 12 pounds in 3 minutes. Divide to find the rate: $$\\frac{12 \\text{ pounds}}{3 \\text{ minutes}} = 4 \\text{ pounds per minute}$$"
+      "title": "Find the sorting rate",
+      "content": "The machine sorts 18 pounds in 6 minutes. Divide to find the rate: $$\\frac{18 \\text{ pounds}}{6 \\text{ minutes}} = 3 \\text{ pounds per minute}$$"
     },
     {
-      "title": "Calculate time for 96 pounds",
-      "content": "At 4 pounds per minute, divide 96 by the rate to find the time: $$\\frac{96 \\text{ pounds}}{4 \\text{ pounds per minute}} = 24 \\text{ minutes}$$ This matches the correct answer — <strong>C</strong> is correct."
+      "title": "Calculate time for 108 pounds",
+      "content": "At 3 pounds per minute, divide 108 by the rate to find the time: $$\\frac{108 \\text{ pounds}}{3 \\text{ pounds per minute}} = 36 \\text{ minutes}$$ This matches the correct answer &mdash; <strong>C</strong> is correct."
     }
   ]
 }

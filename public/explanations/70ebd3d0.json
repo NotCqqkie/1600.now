@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Identify the structure of the model",
-      "content": "$N(d) = 115 \\times (0.90)^d$ is exponential with base $0.90$. A base less than $1$ means each unit increase in $d$ multiplies $N$ by $0.90$, a $10\\%$ decrease."
+      "content": "$N(d) = 130 \\times (0.85)^d$ is exponential with base $0.85$. A base less than $1$ means each unit increase in $d$ multiplies $N$ by $0.85$, a $15\\%$ decrease."
     },
     {
       "title": "Translate the input units",
@@ -13,11 +13,11 @@
     },
     {
       "title": "Combine the two facts",
-      "content": "Each $100$&nbsp;m increase in depth multiplies the species count by $0.90$, i.e. a $10\\%$ decrease."
+      "content": "Each $100$&nbsp;m increase in depth multiplies the species count by $0.85$, i.e. a $15\\%$ decrease."
     },
     {
       "title": "Eliminate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;For every increase in depth by 1 meter, the number of brachiopod species decreases by 115.&rsquo;</strong>: a $1$&nbsp;m increase is not one unit of $d$, and $115$ is the initial value, not a per-step decrease.</li><li><strong>Choice B &mdash; &lsquo;For every increase in depth by 1 meter, the number of brachiopod species decreases by 10%.&rsquo;</strong>: a $1$&nbsp;m increase is only $0.01$ units of $d$, so the $10\\%$ figure does not apply per meter.</li><li><strong>Choice C &mdash; &lsquo;For every increase in depth by 100 meters, the number of brachiopod species decreases by 115.&rsquo;</strong>: $100$&nbsp;m is the right step, but $115$ is the starting value, not the amount lost.</li><li><strong>Choice D &mdash; &lsquo;For every increase in depth by 100 meters, the number of brachiopod species decreases by 10%.&rsquo;</strong>: $100$&nbsp;m equals one unit of $d$, and one unit multiplies $N$ by $0.90$, a $10\\%$ decrease.</li></ul>That confirms <strong>D</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;For every increase in depth by 1 meter, the number of crinoid species decreases by 130.&rsquo;</strong>: a $1$&nbsp;m increase is not one unit of $d$, and $130$ is the initial value, not a per-step decrease.</li><li><strong>Choice B &mdash; &lsquo;For every increase in depth by 1 meter, the number of crinoid species decreases by 15%.&rsquo;</strong>: a $1$&nbsp;m increase is only $0.01$ units of $d$, so the $15\\%$ figure does not apply per meter.</li><li><strong>Choice C &mdash; &lsquo;For every increase in depth by 100 meters, the number of crinoid species decreases by 130.&rsquo;</strong>: $100$&nbsp;m is the right step, but $130$ is the starting value, not the amount lost.</li><li><strong>Choice D &mdash; &lsquo;For every increase in depth by 100 meters, the number of crinoid species decreases by 15%.&rsquo;</strong>: $100$&nbsp;m equals one unit of $d$, and one unit multiplies $N$ by $0.85$, a $15\\%$ decrease.</li></ul>That confirms <strong>D</strong> is correct."
     }
   ]
 }

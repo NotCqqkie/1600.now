@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Solve for y",
-      "content": "Isolate $y$ in the equation:<br/>$$\\frac{3}{5}x+\\frac{3}{4}y=7$$<br/>$$\\frac{3}{4}y=7-\\frac{3}{5}x$$<br/>$$y=\\frac{4}{3}\\left(7-\\frac{3}{5}x\\right)=\\frac{28}{3}-\\frac{4}{5}x$$"
+      "content": "Isolate $y$ in the equation:<br/>$$\\frac{3}{5}x+\\frac{3}{4}y=8$$<br/>$$\\frac{3}{4}y=8-\\frac{3}{5}x$$<br/>$$y=\\frac{4}{3}\\left(8-\\frac{3}{5}x\\right)=\\frac{32}{3}-\\frac{4}{5}x$$"
     },
     {
       "title": "Evaluate the listed x-values",
-      "content": "For $x=1$, $y=\\frac{28}{3}-\\frac{4}{5}=\\frac{140}{15}-\\frac{12}{15}=\\frac{128}{15}$. For $x=2$, $y=\\frac{28}{3}-\\frac{8}{5}=\\frac{140}{15}-\\frac{24}{15}=\\frac{116}{15}$. For $x=4$, $y=\\frac{28}{3}-\\frac{16}{5}=\\frac{140}{15}-\\frac{48}{15}=\\frac{92}{15}$."
+      "content": "For $x=1$, $y=\\frac{32}{3}-\\frac{4}{5}=\\frac{160}{15}-\\frac{12}{15}=\\frac{148}{15}$. For $x=2$, $y=\\frac{32}{3}-\\frac{8}{5}=\\frac{160}{15}-\\frac{24}{15}=\\frac{136}{15}$. For $x=4$, $y=\\frac{32}{3}-\\frac{16}{5}=\\frac{160}{15}-\\frac{48}{15}=\\frac{112}{15}$."
     },
     {
       "title": "Confirm the answer",
-      "content": "The correct answer is the table with $y$-values $\\frac{128}{15}$, $\\frac{116}{15}$, and $\\frac{92}{15}$ for $x=1$, $2$, and $4$. Therefore <strong>D</strong> is correct."
+      "content": "The correct answer is the table with $y$-values $\\frac{148}{15}$, $\\frac{136}{15}$, and $\\frac{112}{15}$ for $x=1$, $2$, and $4$. Therefore <strong>D</strong> is correct."
     }
   ]
 }

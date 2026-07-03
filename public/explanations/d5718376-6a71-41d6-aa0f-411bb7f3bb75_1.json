@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Translate 50% to a decimal or fraction",
-      "content": "The phrase <em>50% of 520</em> means we multiply: $0.5 \\times 520$. Alternatively, 50% is the same as $\\frac{1}{2}$, so we're finding half of 520."
+      "content": "The phrase <em>50% of 640</em> means we multiply: $0.5 \\times 640$. Alternatively, 50% is the same as $\\frac{1}{2}$, so we're finding half of 640."
     },
     {
-      "title": "Divide 520 by 2",
-      "content": "$$520 \\div 2 = 260$$<br/>That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Divide 640 by 2",
+      "content": "$$640 \\div 2 = 320$$<br/>That matches the correct answer - <strong>C</strong> is correct."
     }
   ]
 }

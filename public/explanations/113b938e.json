@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Identify what $y = 0$ means in context",
-      "content": "The equation $y = 18 - 5x$ gives the bike's speed $y$ (in feet per second) at time $x$ (seconds after braking). The $x$-intercept is the point where $y = 0$ - that is, where the speed equals 0 feet per second. Speed 0 means the bicycle has come to a complete stop."
+      "content": "The equation $y = 24 - 6x$ gives the bike's speed $y$ (in feet per second) at time $x$ (seconds after braking). The $x$-intercept is the point where $y = 0$ - that is, where the speed equals 0 feet per second. Speed 0 means the bicycle has come to a complete stop."
     },
     {
       "title": "Solve for the $x$-coordinate of the intercept",
-      "content": "Set $y = 0$: $0 = 18 - 5x$, so $x = 18/5 = 3.6$ seconds. Because $x$ measures time after braking, this $x$-coordinate represents the number of seconds from when Sheila began braking until the bike stopped."
+      "content": "Set $y = 0$: $0 = 24 - 6x$, so $x = 24/6 = 4$ seconds. Because $x$ measures time after braking, this $x$-coordinate represents the number of seconds from when Maria began braking until the bike stopped."
     },
     {
       "title": "Eliminate the other choices",
-      "content": "<ul><li>A) Speed before braking would be $y$ at $x = 0$, namely $y = 18$ - that's the $y$-intercept, not the $x$-intercept. Eliminate.</li><li>B) The rate of decrease in speed is the slope, $5$ ft/s per second - not the $x$-intercept. Eliminate.</li><li>C) The $x$-coordinate at $y = 0$ is the time to stop. Keep.</li><li>D) Distance traveled would require integrating speed over time, not reading off an intercept. Eliminate.</li></ul>That matches <strong>Choice C &mdash; The number of seconds it took from the time Sheila began applying the brakes until the bicycle came to a complete stop</strong>- <strong>C</strong>."
+      "content": "<ul><li>A) Speed before braking would be $y$ at $x = 0$, namely $y = 24$ - that's the $y$-intercept, not the $x$-intercept. Eliminate.</li><li>B) The rate of decrease in speed is the slope, $6$ ft/s per second - not the $x$-intercept. Eliminate.</li><li>C) The $x$-coordinate at $y = 0$ is the time to stop. Keep.</li><li>D) Distance traveled would require integrating speed over time, not reading off an intercept. Eliminate.</li></ul>That matches <strong>Choice C &mdash; The number of seconds it took from the time Maria began applying the brakes until the bicycle came to a complete stop</strong>- <strong>C</strong>."
     }
   ]
 }

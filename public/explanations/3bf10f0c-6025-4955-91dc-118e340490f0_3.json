@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the slope of line v",
-      "content": "The equation of line $v$ is given as $y = 7x + 10$. This is in slope-intercept form $y = mx + b$, where $m$ is the slope. Therefore, the slope of line $v$ is 7."
+      "content": "The equation of line $v$ is given as $y = 8x + 11$. This is in slope-intercept form $y = mx + b$, where $m$ is the slope. Therefore, the slope of line $v$ is 8."
     },
     {
       "title": "Apply the perpendicular lines rule to find the slope of line w",
-      "content": "When two lines are perpendicular, their slopes are negative reciprocals of each other. Since the slope of line $v$ is 7, the slope of line $w$ must be $-\\frac{1}{7}$. <strong>D</strong> is correct.",
+      "content": "When two lines are perpendicular, their slopes are negative reciprocals of each other. Since the slope of line $v$ is 8, the slope of line $w$ must be $-\\frac{1}{8}$. <strong>D</strong> is correct.",
       "formula": "$$m_{\\perp} = -\\frac{1}{m}$$"
     }
   ]

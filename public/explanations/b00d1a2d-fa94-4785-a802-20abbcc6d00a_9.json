@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+      "title": "Fastest path: use the perimeter formulas",
+      "content": "Find the total perimeter from each type of shape separately. A square contributes 4 side lengths, and an equilateral triangle contributes 3 side lengths, so multiply each shape count by its number of sides."
     },
     {
       "title": "Find the total perimeter of the squares",
-      "content": "Each square has 4 sides of length $r$, so each square has perimeter $4r$. With 3 squares: $$3 \\times 4r = 12r$$"
+      "content": "Each square has 4 sides of length $r$, so each square has perimeter $4r$. With 4 squares: $$4 \\times 4r = 16r$$"
     },
     {
       "title": "Find the total perimeter of the triangles",
-      "content": "Each equilateral triangle has 3 sides of length $t$, so each triangle has perimeter $3t$. With 6 triangles: $$6 \\times 3t = 18t$$"
+      "content": "Each equilateral triangle has 3 sides of length $t$, so each triangle has perimeter $3t$. With 5 triangles: $$5 \\times 3t = 15t$$"
     },
     {
       "title": "Write the total and eliminate wrong choices",
-      "content": "The combined perimeter is $12r + 18t = 270$.<ul><li>A: $9r + 24t = 270$ &mdash; Wrong coefficients; 3 squares give $12r$, not $9r$. Eliminated.</li><li>B: $3r + 6t = 270$ &mdash; Uses counts instead of perimeters (ignores side counts). Eliminated.</li><li>C: $12r + 18t = 270$ &mdash; $3 \\times 4r = 12r$ and $6 \\times 3t = 18t$. That is the correct answer.</li><li>D: $6r + 3t = 270$ &mdash; Swaps the shape counts and ignores side counts. Eliminated.</li></ul>"
+      "content": "The combined perimeter is $16r + 15t = 260$.<ul><li>A: $12r + 20t = 260$ &mdash; Wrong coefficients; 4 squares give $16r$, not $12r$. Eliminated.</li><li>B: $4r + 5t = 260$ &mdash; Uses counts instead of perimeters (ignores side counts). Eliminated.</li><li>C: $16r + 15t = 260$ &mdash; $4 \\times 4r = 16r$ and $5 \\times 3t = 15t$. That is the correct answer.</li><li>D: $5r + 4t = 260$ &mdash; Swaps the shape counts and ignores side counts. Eliminated.</li></ul>"
     }
   ]
 }

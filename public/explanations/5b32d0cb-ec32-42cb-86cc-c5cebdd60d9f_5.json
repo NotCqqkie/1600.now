@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Solve the system algebraically",
-      "content": "We need $y=0$ and $y=8(x^2-36)$. Setting $0=8(x^2-36)$ gives $x^2=36$, so $x=\\pm 6$. The pair $(6,0)$ satisfies both."
+      "content": "We need $y=0$ and $y=7(x^2-49)$. Setting $0=7(x^2-49)$ gives $x^2=49$, so $x=\\pm 7$. The pair $(7,0)$ satisfies both."
     },
     {
       "title": "Identify the matching pair",
-      "content": "Both $(6,0)$ and $(-6,0)$ satisfy the equations, but only $(6,0)$ appears in the answer choices. That confirms <strong>C</strong> is correct."
+      "content": "Both $(7,0)$ and $(-7,0)$ satisfy the equations, but only $(7,0)$ appears in the answer choices. That confirms <strong>C</strong> is correct."
     }
   ]
 }

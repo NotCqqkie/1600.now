@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Count the doubling periods",
-      "content": "The population doubles every 3 hours. In 15 hours, the number of doubling periods is $15 \\div 3 = 5$."
+      "content": "The population doubles every 4 hours. In 20 hours, the number of doubling periods is $20 \\div 4 = 5$."
     },
     {
       "title": "Apply exponential growth",
-      "content": "When a population doubles $n$ times, it is multiplied by $2^n$. After 5 doublings, the initial population of 300,000 is multiplied by $2^5 = 32$:<br/>$$300,000 \\times 2^5 = 300,000 \\times 32 = 9,600,000$$<br/>That confirms <strong>D</strong> is correct."
+      "content": "When a population doubles $n$ times, it is multiplied by $2^n$. After 5 doublings, the initial population of 250,000 is multiplied by $2^5 = 32$:<br/>$$250,000 \\times 2^5 = 250,000 \\times 32 = 8,000,000$$<br/>That confirms <strong>D</strong> is correct."
     }
   ]
 }

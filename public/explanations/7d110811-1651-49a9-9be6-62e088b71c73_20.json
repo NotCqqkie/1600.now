@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Make the x-coefficient vanish",
-      "content": "Factor $x$ from the left side: $$-3x+18px=(-3+18p)x$$ The equation becomes $(-3+18p)x=90$. Since $90\\ne0$, there is no solution only when the coefficient of $x$ is $0$, producing the contradiction $0=90$."
+      "content": "Factor $x$ from the left side: $$-4x+20px=(-4+20p)x$$ The equation becomes $(-4+20p)x=100$. Since $100\\ne0$, there is no solution only when the coefficient of $x$ is $0$, producing the contradiction $0=100$."
     },
     {
       "title": "Solve p with a coefficient calculation",
-      "content": "Set the coefficient of $x$ equal to $0$:<br/>$$-3+18p=0$$<br/>$$18p=3$$<br/>$$p=\\frac{1}{6}$$"
+      "content": "Set the coefficient of $x$ equal to $0$:<br/>$$-4+20p=0$$<br/>$$20p=4$$<br/>$$p=\\frac{1}{5}$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "With $p=\\frac{1}{6}$, the equation becomes $0x=90$, which is impossible. All other choices leave a nonzero coefficient on $x$ and therefore give exactly one solution. That confirms <strong>D</strong> is correct."
+      "content": "With $p=\\frac{1}{5}$, the equation becomes $0x=100$, which is impossible. All other choices leave a nonzero coefficient on $x$ and therefore give exactly one solution. That confirms <strong>D</strong> is correct."
     }
   ]
 }

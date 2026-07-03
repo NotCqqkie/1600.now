@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the two numbers",
-      "content": "One number is given as $x$. The other number is described as 99 less than $x$, which means we subtract 99 from $x$: $x - 99$.<br/>The product $y$ of the two numbers is therefore $x$ times $(x - 99)$. $$y = x(x - 99)$$"
+      "content": "One number is given as $x$. The other number is described as 84 less than $x$, which means we subtract 84 from $x$: $x - 84$.<br/>The product $y$ of the two numbers is therefore $x$ times $(x - 84)$. $$y = x(x - 84)$$"
     },
     {
       "title": "Match the derived equation to the choices",
-      "content": "The derived equation $$y = x(x - 99)$$ matches option D. That confirms <strong>D</strong> is correct."
+      "content": "The derived equation $$y = x(x - 84)$$ matches option D. That confirms <strong>D</strong> is correct."
     }
   ]
 }

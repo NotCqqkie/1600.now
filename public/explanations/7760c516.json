@@ -1,16 +1,16 @@
 {
   "questionId": "7760c516",
-  "correctAnswer": "9",
+  "correctAnswer": "10",
   "section": "Math",
   "steps": [
     {
       "title": "Recall the mean formula",
-      "content": "The mean is found by adding all the values and dividing by how many values there are. Count the data set: 6, 10, 13, 2, 15, 22, 10, 4, 4, 4 — there are 10 values.",
+      "content": "The mean is found by adding all the values and dividing by how many values there are. Count the data set: 7, 11, 14, 3, 16, 24, 11, 5, 5, 4 &mdash; there are 10 values.",
       "formula": "$$\\text{Mean} = \\frac{\\text{Sum of all values}}{\\text{Number of values}}$$"
     },
     {
       "title": "Add all heights and divide",
-      "content": "Sum all the values:<br/>$$6 + 10 + 13 + 2 + 15 + 22 + 10 + 4 + 4 + 4 = 90$$<br/>Divide the sum by the count:<br/>$$\\frac{90}{10} = 9$$<br/>The mean height of the plants is 9 centimeters."
+      "content": "Sum all the values:<br/>$$7 + 11 + 14 + 3 + 16 + 24 + 11 + 5 + 5 + 4 = 100$$<br/>Divide the sum by the count:<br/>$$\\frac{100}{10} = 10$$<br/>The mean height of the plants is 10 centimeters."
     }
   ]
 }

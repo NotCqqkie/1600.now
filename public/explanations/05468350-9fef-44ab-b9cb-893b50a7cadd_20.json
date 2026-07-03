@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+      "title": "Fastest path: mark the relationships first",
+      "content": "Mark the given angle relationships first: equal angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are organized."
     },
     {
       "title": "Recognize AA similarity criterion",
-      "content": "We have ∠A = ∠P = 52°. For AA similarity, two pairs of equal angles are sufficient. We need to find one more matching angle pair."
+      "content": "We have ∠A = ∠P = 54°. For AA similarity, two pairs of equal angles are sufficient. We need to find one more matching angle pair."
     },
     {
-      "title": "Test <strong>Choice C &mdash; The measures of angle B and angle R are 40° and 88°, respectively.</strong>",
-      "content": "Backsolving — testing <strong>Choice C &mdash; The measures of angle B and angle R are 40° and 88°, respectively.</strong> (∠B = 40°, ∠R = 88°):<br/><br/>In triangle ABC with ∠A = 52°, ∠B = 40°:<br/>∠C = 180° - 52° - 40° = 88°<br/>Angles: 52°, 40°, 88°<br/><br/>In triangle PQR with ∠P = 52°, ∠R = 88°:<br/>∠Q = 180° - 52° - 88° = 40°<br/>Angles: 52°, 40°, 88°<br/><br/>All angles match ✓"
+      "title": "Test <strong>Choice C &mdash; The measures of angle B and angle R are 38° and 88°, respectively.</strong>",
+      "content": "Backsolving &mdash; testing <strong>Choice C &mdash; The measures of angle B and angle R are 38° and 88°, respectively.</strong> (∠B = 38°, ∠R = 88°):<br/><br/>In triangle ABC with ∠A = 54°, ∠B = 38°:<br/>∠C = 180° - 54° - 38° = 88°<br/>Angles: 54°, 38°, 88°<br/><br/>In triangle PQR with ∠P = 54°, ∠R = 88°:<br/>∠Q = 180° - 54° - 88° = 38°<br/>Angles: 54°, 38°, 88°<br/><br/>All angles match ✓"
     },
     {
       "title": "Confirm similarity",
-      "content": "Both triangles have angles 52°, 40°, 88°. With ∠A = ∠P and ∠B = ∠Q, the AA criterion is satisfied, so △ABC ∼ △PQR. That matches <strong>Choice C &mdash; The measures of angle B and angle R are 40° and 88°, respectively.</strong>."
+      "content": "Both triangles have angles 54°, 38°, 88°. With ∠A = ∠P and ∠B = ∠Q, the AA criterion is satisfied, so △ABC ∼ △PQR. That matches <strong>Choice C &mdash; The measures of angle B and angle R are 38° and 88°, respectively.</strong>."
     }
   ]
 }

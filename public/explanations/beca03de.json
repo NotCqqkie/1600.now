@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up the dimensions",
-      "content": "Width is $w$ feet. The length is $15$ times the width, so length $=15w$ feet. Area $=$ length $\\times$ width gives $$y=(15w)(w).$$"
+      "content": "Width is $w$ feet. The length is $12$ times the width, so length $=12w$ feet. Area $=$ length $\\times$ width gives $$y=(12w)(w).$$"
     },
     {
       "title": "Interpret the factor",
-      "content": "In $(15w)(w)$, the factor $w$ is the width, so $(15w)$ must be the length. That is the correct answer."
+      "content": "In $(12w)(w)$, the factor $w$ is the width, so $(12w)$ must be the length. This matches choice <strong>A</strong>, so <strong>A</strong> is correct."
     }
   ]
 }

@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Use the given intercept and slope as points",
-      "content": "The statement $f(0)=3$ gives the point $(0,3)$. Since the slope is $69$, increasing $x$ by $1$ increases $f(x)$ by $69$, so a second point is $(1,72)$."
+      "content": "The statement $f(0)=5$ gives the point $(0,5)$. Since the slope is $74$, increasing $x$ by $1$ increases $f(x)$ by $74$, so a second point is $(1,79)$."
     },
     {
       "title": "Write the line",
-      "content": "In slope-intercept form $f(x)=mx+b$, the slope is $m=69$ and $f(0)=3$ gives $b=3$. Therefore $f(x)=69x+3$."
+      "content": "In slope-intercept form $f(x)=mx+b$, the slope is $m=74$ and $f(0)=5$ gives $b=5$. Therefore $f(x)=74x+5$."
     },
     {
       "title": "Confirm the choice",
-      "content": "The correct answer is the only equation with slope $69$ and $f(0)=3$. Therefore <strong>D</strong> is correct."
+      "content": "The correct answer is the only equation with slope $74$ and $f(0)=5$. Therefore <strong>D</strong> is correct."
     }
   ]
 }

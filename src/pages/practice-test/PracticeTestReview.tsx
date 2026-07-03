@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Link, useNavigate, useParams, useSearchParams } from "react-router-dom";
 import { Bookmark, Eye, EyeOff, Pause, Play } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -16,6 +16,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import {
   buildPracticeTestQuestionSet,
   getPracticeSet,
+  loadPracticeSet,
   type PracticeTestQuestionItem,
 } from "@/data/modulePracticeBank";
 import { buildPracticeTestQuestionRoute } from "@/lib/practice/practiceBankRoutes";
@@ -37,7 +38,7 @@ import {
   PRACTICE_SET_STORAGE_KEY,
   writePracticeLaunchStorage,
 } from "@/lib/practice/practiceRunStorage";
-import { formatPracticeClock } from "@/lib/practice/practiceTime";
+import { formatPracticeClock, formatPracticeClockPlaceholder } from "@/lib/practice/practiceTime";
 import { cn } from "@/lib/utils";
 import { useAuth } from "@/contexts/AuthContext";
 
@@ -142,19 +143,38 @@ const PracticeTestReview = () => {
     setSession(practiceSet ? getPracticeTestSession(practiceSet.id) : null);
   }, [practiceSet, sessionId]);
 
+  useEffect(() => {
+    if (practiceSet) void loadPracticeSet(practiceSet.id);
+  }, [practiceSet]);
+
+  const finalSubmitInFlightRef = useRef(false);
+
   const submitCurrentModule = useCallback((sessionToSubmit: PracticeTestSessionMeta | null) => {
     if (!practiceSet || !sessionToSubmit) return;
 
     if (sessionToSubmit.activeModuleIndex === sessionToSubmit.modules.length - 1) {
-      const result = buildPracticeTestResult(practiceSet, {
-        ...sessionToSubmit,
-        status: "submitted",
-      });
-      clearDesmosUiState(sessionStorage, getPracticeTestDesmosScope(sessionToSubmit.sessionId));
-      savePracticeTestResult(result, uid);
-      clearPracticeTestSession(practiceSet.id);
-      clearPracticeReviewSessionStorage();
-      navigate(buildPracticeTestResultPath(practiceSet.id, result.sessionId));
+      // The set is usually already cached (prefetched on mount), but the load
+      // is still async — guard so a repeated submit can't build the result
+      // twice while the first is in flight.
+      if (finalSubmitInFlightRef.current) return;
+      finalSubmitInFlightRef.current = true;
+      void loadPracticeSet(practiceSet.id)
+        .then((loadedPracticeSet) => {
+          if (!loadedPracticeSet) return;
+          const result = buildPracticeTestResult(loadedPracticeSet, {
+            ...sessionToSubmit,
+            status: "submitted",
+          });
+          clearDesmosUiState(sessionStorage, getPracticeTestDesmosScope(sessionToSubmit.sessionId));
+          savePracticeTestResult(result, uid);
+          clearPracticeTestSession(practiceSet.id);
+          clearPracticeReviewSessionStorage();
+          navigate(buildPracticeTestResultPath(practiceSet.id, result.sessionId));
+        })
+        .catch((error: unknown) => {
+          finalSubmitInFlightRef.current = false;
+          throw error;
+        });
       return;
     }
 
@@ -232,7 +252,7 @@ const PracticeTestReview = () => {
               {isTimerVisible ? <Eye className={TIMER_ICON_CLASS} /> : <EyeOff className={TIMER_ICON_CLASS} />}
             </Button>
             <span className={TIMER_VALUE_CLASS}>
-              {isTimerVisible ? formatPracticeClock(displayedTimerSeconds) : "-:--"}
+              {isTimerVisible ? formatPracticeClock(displayedTimerSeconds) : formatPracticeClockPlaceholder(displayedTimerSeconds)}
             </span>
             <Button
               variant="ghost"

@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Find the slope",
-      "content": "The line contains $(-2,3)$ and $(4,-5)$. Its slope is $$m=\\frac{-5-3}{4-(-2)}=\\frac{-8}{6}=-\\frac{4}{3}.$$"
+      "content": "The line contains $(-2,7)$ and $(4,-1)$. Its slope is $$m=\\frac{-1-7}{4-(-2)}=\\frac{-8}{6}=-\\frac{4}{3}.$$"
     },
     {
       "title": "Find the intercept",
-      "content": "Use $y=mx+b$ with the point $(-2,3)$: $$3=-\\frac{4}{3}(-2)+b$$ $$3=\\frac{8}{3}+b$$ $$b=\\frac{1}{3}.$$"
+      "content": "Use $y=mx+b$ with the point $(-2,7)$: $$7=-\\frac{4}{3}(-2)+b$$ $$7=\\frac{8}{3}+b$$ $$b=\\frac{13}{3}.$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "The function is $$f(x)=-\\frac{4}{3}x+\\frac{1}{3}.$$ This matches <strong>C</strong>."
+      "content": "The function is $$f(x)=-\\frac{4}{3}x+\\frac{13}{3}.$$ This matches <strong>C</strong>."
     },
     {
       "title": "Use the fastest choice check",

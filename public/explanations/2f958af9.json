@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Multiply both sides by m to clear the denominator",
-      "content": "Starting with the given formula:<br/>$$v^2 = \\frac{LT}{m}$$<br/>Multiply both sides by $m$ to eliminate the denominator:<br/>$$m v^2 = LT$$"
+      "title": "Multiply both sides by r to clear the denominator",
+      "content": "Starting with the given formula:<br/>$$s^2 = \\frac{HN}{r}$$<br/>Multiply both sides by $r$ to eliminate the denominator:<br/>$$r s^2 = HN$$"
     },
     {
-      "title": "Divide both sides by L to isolate T",
-      "content": "Divide both sides of $m v^2 = LT$ by $L$:<br/>$$T = \\frac{m v^2}{L}$$<br/><strong>A</strong> is correct."
+      "title": "Divide both sides by H to isolate N",
+      "content": "Divide both sides of $r s^2 = HN$ by $H$:<br/>$$N = \\frac{r s^2}{H}$$<br/><strong>A</strong> is correct."
     }
   ]
 }

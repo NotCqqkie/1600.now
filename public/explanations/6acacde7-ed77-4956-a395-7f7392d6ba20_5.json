@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $\\frac{v^{9}}{3}$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $\\frac{v^{10}}{3}$."
     },
     {
       "title": "Algebra check",
@@ -13,7 +13,7 @@
     },
     {
       "title": "Simplify the expression",
-      "content": "Divide coefficients and subtract exponents: $$\\frac{6v^{12}}{18v^{3}}=\\frac{6}{18}\\cdot v^{12-3}=\\frac{v^{9}}{3}.$$"
+      "content": "Divide coefficients and subtract exponents: $$\\frac{8v^{15}}{24v^{5}}=\\frac{8}{24}\\cdot v^{15-5}=\\frac{v^{10}}{3}.$$"
     },
     {
       "title": "Match to the answer choices",

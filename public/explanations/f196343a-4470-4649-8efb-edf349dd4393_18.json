@@ -4,16 +4,16 @@
   "correctAnswer": "C",
   "steps": [
     {
-      "content": "Apply the triangle inequality theorem for all three pairs of sides. Let the known sides be 5 and 9, and the unknown side be $x$. The three conditions are: (1) $5 + 9 \\gt x$, (2) $5 + x \\gt 9$, and (3) $9 + x \\gt 5$."
+      "content": "Apply the triangle inequality theorem for all three pairs of sides. Let the known sides be 7 and 12, and the unknown side be $x$. The three conditions are: (1) $7 + 12 \\gt x$, (2) $7 + x \\gt 12$, and (3) $12 + x \\gt 7$."
     },
     {
-      "content": "Simplify each inequality. From (1): $x \\lt 14$. From (2): $x \\gt 4$. From (3): $x \\gt -4$, which is always true for any positive length."
+      "content": "Simplify each inequality. From (1): $x \\lt 19$. From (2): $x \\gt 5$. From (3): $x \\gt -5$, which is always true for any positive length."
     },
     {
-      "content": "Combine the binding constraints: $x \\gt 4$ and $x \\lt 14$, giving $4 \\lt x \\lt 14$."
+      "content": "Combine the binding constraints: $x \\gt 5$ and $x \\lt 19$, giving $5 \\lt x \\lt 19$."
     },
     {
-      "content": "<ul><li><strong>\"$x \\lt 4$\"</strong>: Allows only sides shorter than 4, but then $5 + x \\lt 9$ violates the inequality. Eliminated.</li><li><strong>\"$x \\gt 14$\"</strong>: Allows only sides longer than 14, but then $5 + 9 = 14$ is not greater than $x$. Eliminated.</li><li><strong>\"$4 \\lt x \\lt 14$\"</strong>: Satisfies all three triangle inequality conditions simultaneously. That matches the correct answer — <strong>C</strong> is correct.</li><li><strong>\"$x \\lt 4$ or $x \\gt 14$\"</strong>: This is the union of the two eliminated ranges; neither region forms a valid triangle. Eliminated.</li></ul>"
+      "content": "<ul><li><strong>\"$x \\lt 5$\"</strong>: Allows only sides shorter than 5, but then $7 + x \\lt 12$ violates the inequality. Eliminated.</li><li><strong>\"$x \\gt 19$\"</strong>: Allows only sides longer than 19, but then $7 + 12 = 19$ is not greater than $x$. Eliminated.</li><li><strong>\"$5 \\lt x \\lt 19$\"</strong>: Satisfies all three triangle inequality conditions simultaneously. That matches the correct answer &mdash; <strong>C</strong> is correct.</li><li><strong>\"$x \\lt 5$ or $x \\gt 19$\"</strong>: This is the union of the two eliminated ranges; neither region forms a valid triangle. Eliminated.</li></ul>"
     }
   ]
 }

@@ -5,12 +5,12 @@
   "steps": [
     {
       "title": "Apply the percent increase formula",
-      "content": "Identify the original price (\\$16), new price (\\$80), and change (\\$80 - \\$16 = \\$64).",
+      "content": "Identify the original price (\\$18), new price (\\$90), and change (\\$90 - \\$18 = \\$72).",
       "formula": "$$\\text{percent increase} = \\frac{\\text{new} - \\text{old}}{\\text{old}} \\times 100\\%$$"
     },
     {
       "title": "Calculate the percent increase",
-      "content": "$$\\frac{64}{16} \\times 100\\% = 4 \\times 100\\% = 400\\%$$ That is the correct answer."
+      "content": "$$\\frac{72}{18} \\times 100\\% = 4 \\times 100\\% = 400\\%$$ That is the correct answer."
     },
     {
       "title": "Confirm the answer",

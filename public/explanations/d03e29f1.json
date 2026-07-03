@@ -13,7 +13,7 @@
     },
     {
       "title": "Calculate the radius",
-      "content": "We have $r^2 = 81$. Taking the square root of both sides:<br/>$$r = \\sqrt{81} = 9$$<br/>That is the correct answer."
+      "content": "We have $r^2 = 144$. Taking the square root of both sides:<br/>$$r = \\sqrt{144} = 12$$<br/>That is the correct answer."
     }
   ]
 }

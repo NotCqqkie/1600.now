@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Simplify the given equation",
-      "content": "Start with ${13}(x-n)=13y+13n$. Expanding gives $13x-13n=13y+13n$, so $13x-13y=26n$. Divide by $13$ to get $$x-y=2n.$$"
+      "content": "Start with ${11}(x-n)=11y+11n$. Expanding gives $11x-11n=11y+11n$, so $11x-11y=22n$. Divide by $11$ to get $$x-y=2n.$$"
     },
     {
       "title": "Know the condition for no solution",
@@ -13,11 +13,11 @@
     },
     {
       "title": "Compare the choices",
-      "content": "The correct answer is<br/>$$2x-2y=2n$$<br/>Divide by $2$:<br/>$$x-y=n$$<br/>This is parallel to $x-y=2n$ but not the same line because $n$ is positive."
+      "content": "The correct answer is<br/>$$3x-3y=3n$$<br/>Divide by $3$:<br/>$$x-y=n$$<br/>This is parallel to $x-y=2n$ but not the same line because $n$ is positive."
     },
     {
       "title": "Check the choices",
-      "content": "$2x - 2y = 4n$ simplifies to the same line as the original, so it gives infinitely many solutions. The equations with $x+y$ have slope $-1$ after simplification, so they cross the original. $2x - 2y = 2n$ is parallel but separate, so there is no solution."
+      "content": "$3x - 3y = 6n$ simplifies to the same line as the original, so it gives infinitely many solutions. The equations with $x+y$ have slope $-1$ after simplification, so they cross the original. $3x - 3y = 3n$ is parallel but separate, so there is no solution."
     }
   ]
 }

@@ -1,15 +1,15 @@
 {
   "questionId": "67c0200a",
-  "correctAnswer": ".54",
+  "correctAnswer": ".56",
   "section": "Math",
   "steps": [
     {
       "title": "Express a as a percentage of b",
-      "content": "The number $a$ is 70% less than $b$, so subtract 70% of $b$ from $b$ itself:<br/>$$a = b - 0.70b = 0.30b$$"
+      "content": "The number $a$ is 65% less than $b$, so subtract 65% of $b$ from $b$ itself:<br/>$$a = b - 0.65b = 0.35b$$"
     },
     {
       "title": "Find c in terms of b",
-      "content": "The number $c$ is 80% greater than $a$, so $c = a + 0.80a = 1.80a$. Substitute $a = 0.30b$:<br/>$$c = 1.80a = 1.80(0.30b) = 0.54b$$<br/>Thus $c$ is 0.54 times $b$. The answer is <strong>.54</strong>."
+      "content": "The number $c$ is 60% greater than $a$, so $c = a + 0.60a = 1.60a$. Substitute $a = 0.35b$:<br/>$$c = 1.60a = 1.60(0.35b) = 0.56b$$<br/>Thus $c$ is 0.56 times $b$. The answer is <strong>.56</strong>."
     }
   ]
 }

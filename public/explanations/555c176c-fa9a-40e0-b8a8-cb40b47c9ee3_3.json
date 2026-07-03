@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Recognize the linear growth model",
-      "content": "The equation $0.6t + 7 = 11$ follows the structure: (starting value) + (rate) × (time) = (ending value). In any linear equation, the coefficient that multiplies the time variable is the rate of change. Here, 0.6 multiplies $t$, so 0.6 is the rate."
+      "content": "The equation $0.5t + 6 = 10$ follows the structure: (starting value) + (rate) × (time) = (ending value). In any linear equation, the coefficient that multiplies the time variable is the rate of change. Here, 0.5 multiplies $t$, so 0.5 is the rate."
     },
     {
-      "title": "Determine what 0.6 represents",
-      "content": "Hair grows from 7 inches to 11 inches, and $t$ is measured in months. The term $0.6t$ must yield inches of growth. For dimensional consistency: (0.6 inches/month) × ($t$ months) = inches. Therefore, 0.6 is the growth rate in inches per month. <strong>B</strong> is correct."
+      "title": "Determine what 0.5 represents",
+      "content": "Hair grows from 6 inches to 10 inches, and $t$ is measured in months. The term $0.5t$ must yield inches of growth. For dimensional consistency: (0.5 inches/month) × ($t$ months) = inches. Therefore, 0.5 is the growth rate in inches per month. <strong>B</strong> is correct."
     },
     {
       "title": "Why the other choices are wrong",
-      "content": "<strong>A</strong> is wrong because it confuses the rate with its reciprocal — if the rate were in months per inch, it would be $\\frac{1}{0.6} \\approx 1.67$ months per inch, not 0.6. <strong>C</strong> is wrong because 11 is the value of $0.6t + 7$ when solved (the final hair length), not the coefficient of $t$; 11 describes an outcome, not a rate. <strong>D</strong> is wrong because multiplying 0.6 by 11 gives 6.6 inches — this misreads 11 as a number of months rather than as the target length, and the result has no meaning in the problem."
+      "content": "<strong>A</strong> is wrong because it confuses the rate with its reciprocal — if the rate were in months per inch, it would be $\\frac{1}{0.5} = 2$ months per inch, not 0.5. <strong>C</strong> is wrong because 10 is the value of $0.5t + 6$ when solved (the final hair length), not the coefficient of $t$; 10 describes an outcome, not a rate. <strong>D</strong> is wrong because multiplying 0.5 by 10 gives 5 inches — this misreads 10 as a number of months rather than as the target length, and the result has no meaning in the problem."
     }
   ]
 }

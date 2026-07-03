@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Expand and collect C terms",
-      "content": "Expand $PC = N(18 - C)$ to get $$PC = 18N - NC$$ <br/>Add $NC$ to both sides to collect all $C$ terms: $$PC + NC = 18N$$"
+      "content": "Expand $PC = N(22 - C)$ to get $$PC = 22N - NC$$ <br/>Add $NC$ to both sides to collect all $C$ terms: $$PC + NC = 22N$$"
     },
     {
       "title": "Factor and solve for C",
-      "content": "Factor $C$ from the left side: $$C(P + N) = 18N$$ <br/>Divide both sides by $(P + N)$: $$C = \\frac{18N}{P + N}$$ <br/>Since $P + N = N + P$, this is equivalent to $\\frac{18N}{N + P}$, so <strong>C</strong> is correct."
+      "content": "Factor $C$ from the left side: $$C(P + N) = 22N$$ <br/>Divide both sides by $(P + N)$: $$C = \\frac{22N}{P + N}$$ <br/>Since $P + N = N + P$, this is equivalent to $\\frac{22N}{N + P}$, so <strong>C</strong> is correct."
     }
   ]
 }

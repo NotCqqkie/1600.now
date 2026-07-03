@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Translate to equations and equate",
-      "content": "$a$ is $230\\%$ of $b$ gives $a = 2.30b$, and $a$ is $60\\%$ of $c$ gives $a = 0.60c$. Equating and solving for $c$ in terms of $b$:<br/>$$2.30b = 0.60c$$<br/>$$c = \\frac{2.30b}{0.60} = \\frac{230}{60}b = \\frac{23}{6}b$$"
+      "content": "$a$ is $240\\%$ of $b$ gives $a = 2.40b$, and $a$ is $70\\%$ of $c$ gives $a = 0.70c$. Equating and solving for $c$ in terms of $b$:<br/>$$2.40b = 0.70c$$<br/>$$c = \\frac{2.40b}{0.70} = \\frac{240}{70}b = \\frac{24}{7}b$$"
     },
     {
       "title": "Find p such that c equals p percent of b",
-      "content": "Since $c = \\frac{23}{6}b$ and we need $c = \\frac{p}{100}b$:<br/>$$\\frac{p}{100} = \\frac{23}{6}$$<br/>$$p = \\frac{23}{6} \\times 100 = \\frac{2300}{6} = 383.\\overline{3}$$<br/>The choice closest to $383.\\overline{3}$ is $383$. That confirms <strong>D</strong> is correct."
+      "content": "Since $c = \\frac{24}{7}b$ and we need $c = \\frac{p}{100}b$:<br/>$$\\frac{p}{100} = \\frac{24}{7}$$<br/>$$p = \\frac{24}{7} \\times 100 = \\frac{2400}{7} = 342.\\overline{857142}$$<br/>The choice closest to $342.\\overline{857142}$ is $343$. That confirms <strong>D</strong> is correct."
     }
   ]
 }

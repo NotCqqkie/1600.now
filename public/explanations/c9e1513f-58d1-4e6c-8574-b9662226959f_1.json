@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute $t=5$ into the equation",
-      "content": "The question asks for the speed $5$ seconds after the car began to accelerate, so substitute $t=5$ into $s = 50 + 4t$: $s = 50 + 4(5)$."
+      "title": "Substitute $t=6$ into the equation",
+      "content": "The question asks for the speed $6$ seconds after the car began to accelerate, so substitute $t=6$ into $s = 48 + 3t$: $s = 48 + 3(6)$."
     },
     {
       "title": "Compute the speed",
-      "content": "$s = 50 + 20 = 70$ mi/h. That is the correct answer."
+      "content": "$s = 48 + 18 = 66$ mi/h. That is the correct answer."
     }
   ]
 }

@@ -9,12 +9,12 @@
     },
     {
       "title": "Set up the Pythagorean theorem",
-      "content": "For a right triangle with one leg equal to 43.2 mm and hypotenuse equal to 196.8 mm, apply the Pythagorean theorem with the unknown leg $b$:<br/>$$43.2^2 + b^2 = 196.8^2$$",
+      "content": "For a right triangle with one leg equal to 57.6 mm and hypotenuse equal to 262.4 mm, apply the Pythagorean theorem with the unknown leg $b$:<br/>$$57.6^2 + b^2 = 262.4^2$$",
       "formula": "$$a^2 + b^2 = c^2$$"
     },
     {
       "title": "Solve for the unknown leg",
-      "content": "Compute the squares:<br/>$$1866.24 + b^2 = 38730.24$$<br/>Subtract 1866.24 from both sides:<br/>$$b^2 = 36864$$<br/>Take the positive square root:<br/>$$b = 192$$<br/>This matches the correct answer — <strong>C</strong> is correct."
+      "content": "Compute the squares:<br/>$$3317.76 + b^2 = 68853.76$$<br/>Subtract 3317.76 from both sides:<br/>$$b^2 = 65536$$<br/>Take the positive square root:<br/>$$b = 256$$<br/>This matches the correct answer - <strong>C</strong> is correct."
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Test the proposed values directly",
-      "content": "The Roman numerals give the only values we need to check in the equation $x-a=(x-a)(x-24)$. Direct substitution is faster than factoring the whole equation."
+      "content": "The Roman numerals give the only values we need to check in the equation $x-a=(x-a)(x-31)$. Direct substitution is faster than factoring the whole equation."
     },
     {
       "title": "Check each statement",
-      "content": "<ul><li><strong>I: $x=a$</strong>. Left side: $a-a=0$. Right side: $(a-a)(a-24)=0$. True.</li><li><strong>II: $x=24$</strong>. Left side: $24-a$. Right side: $(24-a)(24-24)=0$. Since $a\\gt 25$, $24-a\\ne0$, so false.</li><li><strong>III: $x=25$</strong>. Left side: $25-a$. Right side: $(25-a)(25-24)=25-a$. True.</li></ul>"
+      "content": "<ul><li><strong>I: $x=a$</strong>. Left side: $a-a=0$. Right side: $(a-a)(a-31)=0$. True.</li><li><strong>II: $x=31$</strong>. Left side: $31-a$. Right side: $(31-a)(31-31)=0$. Since $a\\gt 32$, $31-a\\ne0$, so false.</li><li><strong>III: $x=32$</strong>. Left side: $32-a$. Right side: $(32-a)(32-31)=32-a$. True.</li></ul>"
     },
     {
       "title": "Choose the answer",

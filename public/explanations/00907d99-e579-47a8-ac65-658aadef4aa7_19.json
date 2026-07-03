@@ -1,19 +1,19 @@
 {
   "questionId": "00907d99-e579-47a8-ac65-658aadef4aa7_19",
-  "correctAnswer": "48",
+  "correctAnswer": "35",
   "section": "Math",
   "steps": [
     {
       "title": "Set up",
-      "content": "Line $l$ is parallel to $y = 8x + 4$, so it has slope $8$. It passes through the origin, giving equation $y = 8x$."
+      "content": "Line $l$ is parallel to $y = 7x + 3$, so it has slope $7$. It passes through the origin, giving equation $y = 7x$."
     },
     {
       "title": "Solve",
-      "content": "Substitute the point $(6, d)$ into $y = 8x$: $d = 8(6) = 48$."
+      "content": "Substitute the point $(5, d)$ into $y = 7x$: $d = 7(5) = 35$."
     },
     {
       "title": "Answer",
-      "content": "<strong>48</strong> is correct. The problem asks for the coordinate value $d$, so the final response should be the number itself rather than the full equation of the line."
+      "content": "<strong>35</strong> is correct. The problem asks for the coordinate value $d$, so the final response should be the number itself rather than the full equation of the line."
     }
   ]
 }

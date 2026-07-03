@@ -3,19 +3,19 @@
   "steps": [
     {
       "title": "Step 1",
-      "content": "Items that are green AND rectangular AND metal must satisfy all three percentages in sequence: 37% of the box is green, then 37% of those are rectangular, then 42% of those are metal."
+      "content": "Items that are blue AND triangular AND plastic must satisfy all three percentages in sequence: 36% of the crate is blue, then 40% of those are triangular, then 45% of those are plastic."
     },
     {
       "title": "Step 2",
-      "content": "Multiply the three fractions: 0.37 &times; 0.37 &times; 0.42 = 0.1369 &times; 0.42 = 0.057498 &asymp; 5.75%. About 5.75% of all items are green rectangular metal."
+      "content": "Multiply the three fractions: 0.36 &times; 0.40 &times; 0.45 = 0.144 &times; 0.45 = 0.0648 &asymp; 6.48%. About 6.48% of all items are blue triangular plastic."
     },
     {
       "title": "Step 3",
-      "content": "The question asks for items that are NOT green rectangular metal: 100% &minus; 5.75% = 94.25%."
+      "content": "The question asks for items that are NOT blue triangular plastic: 100% &minus; 6.48% = 93.52%."
     },
     {
       "title": "Step 4",
-      "content": "<ul><li>A: 1.16% &mdash; far too small; this would be the result of additional incorrect multiplication.</li><li>B: 57.50% &mdash; does not match any reasonable intermediate.</li><li>C: 94.25% &mdash; matches 100% minus the 5.75% computed above.</li><li>D: 98.84% &mdash; off by an order of magnitude in the product.</li></ul><strong>C</strong> is correct."
+      "content": "<ul><li>A: 1.30% &mdash; far too small; this would be the result of additional incorrect multiplication.</li><li>B: 64.80% &mdash; does not match any reasonable intermediate.</li><li>C: 93.52% &mdash; matches 100% minus the 6.48% computed above.</li><li>D: 98.70% &mdash; off by an order of magnitude in the product.</li></ul><strong>C</strong> is correct."
     }
   ],
   "correctAnswer": "C"

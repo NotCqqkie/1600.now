@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Write the phosphorus amount",
-      "content": "Each kilogram contains $600$ milligrams of phosphorus. For $x$ kilograms, the total phosphorus is $600x$ milligrams."
+      "title": "Write the nitrogen amount",
+      "content": "Each kilogram contains $500$ milligrams of nitrogen. For $x$ kilograms, the total nitrogen is $500x$ milligrams."
     },
     {
       "title": "Set the total",
-      "content": "The sample contains $1{,}200$ milligrams total, so $600x=1{,}200$."
+      "content": "The sample contains $1{,}500$ milligrams total, so $500x=1{,}500$."
     },
     {
       "title": "Match the choice",
-      "content": "The equation $600x=1{,}200$ matches <strong>D</strong>."
+      "content": "The equation $500x=1{,}500$ matches <strong>D</strong>."
     },
     {
       "title": "Check the units",
-      "content": "The units confirm the setup: $600$ milligrams per kilogram times $x$ kilograms gives milligrams. That product must equal the total amount, $1{,}200$ milligrams."
+      "content": "The units confirm the setup: $500$ milligrams per kilogram times $x$ kilograms gives milligrams. That product must equal the total amount, $1{,}500$ milligrams."
     }
   ]
 }

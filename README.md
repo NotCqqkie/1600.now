@@ -1,707 +1,174 @@
 # 1600.now
 
-1600.now is a Digital SAT prep website with a full question bank, timed practice tests, custom practice sets, score tools, vocabulary study, progress analytics, and a large SAT content library.
+1600.now is my Digital SAT prep app.
 
 Live site: [1600.now](https://1600.now)
 
-The product is built as a Vite + React + TypeScript app. It uses Firebase for authentication, account sync, analytics, Firestore-backed progress, and admin-only question report review.
+It started as a question bank and grew into the SAT workspace I kept wishing existed: real questions, fast filtering, practice tests, Desmos, explanations, saved progress, score tools, vocab, and enough route-specific SAT pages to stop every Google result from feeling like recycled advice.
 
-## Product Overview
+The standard I keep using is simple. A student should be able to open a real question, filter down to the exact thing they missed, check an answer, see what happened last time, and keep going. No giant worksheet PDF. No "go read this article first." No interface that gets louder than the question.
 
-1600.now is both a study app and an SAT resource library.
+## what's here
 
-The app side helps students practice:
+- A Digital SAT question bank with 8,334 visible questions right now.
+- 5,106 past/official-style questions and 3,228 unofficial questions.
+- Math and Reading & Writing coverage across the 29 official SAT skills.
+- A curated `/hard` set for 100 Hard Math.
+- Bank-backed full practice tests and modules: 36 practice tests, 144 modules, 3,528 practice questions.
+- Custom practice sets built from related questions.
+- Saved progress, notes, timing, marked questions, previous attempts, and answer state.
+- A score calculator, vocabulary trainer, result history, and statistics page.
+- Public SAT guides, tools, college score pages, country pages, blog posts, FAQs, and generated sitemaps.
+- Firebase Auth, Firestore sync, Analytics, and an admin-only question report page.
 
-- Search and filter thousands of SAT questions.
-- Work through individual questions with SAT-style tools.
-- Build targeted practice sets from related questions.
-- Take timed full-length practice tests and individual modules.
-- Review results, explanations, answer history, and timing.
-- Track progress by subject, domain, skill, time, and accuracy.
-- Study SAT vocabulary through flashcards, learn mode, matching, tests, and browsing.
+## what I keep tightening
 
-The content side helps search visitors and students research SAT topics:
+The bank is the center of the app. Most SAT sites make students choose between a giant list of questions and a polished but locked-down practice flow. This tries to keep both: fast browsing when you want to hunt for a skill, and focused sessions when you want to stop deciding and just practice.
 
-- Digital SAT guides.
-- SAT score profiles.
-- SAT skill pages.
-- SAT FAQs.
-- SAT tools and calculators.
-- Blog posts.
-- College SAT score pages.
-- Country-specific SAT pages for India and the UAE.
-- Linkable resource pages such as charts, worksheets, checklists, and study plans.
+The question viewer is reused almost everywhere: bank questions, 100 Hard Math, custom sets, modules, and full tests. That is why so many tiny details live there. It handles multiple choice, free response, images, rendered math, reading passages, annotations, strikethrough, notes, Desmos, a formula sheet, explanations, timers, split layouts, fullscreen mode, and previous attempts.
 
-## Main Features
+A lot of the work has been weirdly specific on purpose. Search had to stop freezing on the first keystroke. Question-to-question navigation had to stop flashing a skeleton screen. Image questions had to stop doing runtime canvas work before the first click. The sidebar and floating windows had to return to the places students expect. The small stuff matters because students are usually already annoyed when they are practicing SAT math.
 
-### Home Page
+The explanations are meant to start with the fastest reasonable method, especially for math. If Desmos, a graph, a table, or a quick substitution is the cleanest route, that should come first. The longer algebra can still be there, but it should not be the first thing a student has to read.
 
-The home page introduces the platform and routes users into the core study flows.
+## main routes
 
-It includes:
-
-- Primary calls to open the Question Bank or Practice Tests.
-- Navigation to 100 Hard Math, Practice Tests, Score Calculator, login, and signup.
-- Live-feeling product previews for the bank, filters, question interface, and study workflow.
-- Theme-aware visuals for light and dark mode.
-- Auth-aware account menu when signed in.
-
-### App Shell
-
-Most app pages run inside a shared shell with desktop and mobile navigation.
-
-The sidebar includes:
-
-- Question Bank.
-- 100 Hard Math.
-- Practice Tests.
-- Score Calculator.
-- Vocabulary.
-- My Practice Sets.
-- Test Results.
-- Settings.
-- Statistics.
-
-Shell features include:
-
-- Collapsible desktop sidebar.
-- Mobile menu and mobile bottom navigation.
-- Light/dark theme toggle.
-- Login and signup shortcuts for signed-out users.
-- Sign-out flow for signed-in users.
-- Onboarding tour replay.
-- Embedded mode for homepage previews, which hides navigation chrome inside iframes.
-
-## Question Bank
-
-The Question Bank is the main practice surface.
-
-Current bank totals from generated source data:
-
-- 8,349 total questions.
-- 5,127 official Bluebook-style/past questions.
-- 3,222 unofficial questions.
-- Math and Reading & Writing subjects.
-- 29 official SAT skills represented across Math and Reading & Writing.
-
-Bank entry points:
-
-- `/bank`
-- `/bank/math/browse`
-- `/bank/reading/browse`
-- `/bank/:subject/domain/:domain`
-- `/bank/:subject/skill/:skill`
-- `/bank/:subject/:id`
-
-Bank features include:
-
-- Subject switching between Math and Reading & Writing.
-- Source switching between official/past, unofficial, and all questions.
-- Domain and skill browsing.
-- Counts by domain and skill.
-- Search across question text, passages, prompts, choices, and correct answers.
-- Keyword search with subject balancing.
-- Multi-topic selection across domains and skills.
-- Shuffle practice by all questions, domain, skill, or selected group.
-- Near-duplicate spacing so similar questions are spread out in practice sessions.
-- Practice sessions launched directly from filtered or selected questions.
-
-Bank filters include:
-
-- Difficulty: Easy, Medium, Hard.
-- Time spent solving.
-- Question activity.
-- Marked for review.
-- Solved.
-- Answered incorrectly.
-
-Bank progress indicators include:
-
-- Completed counts inside filtered lists.
-- Answered and unanswered status.
-- Flagged question indicators.
-- Continue button to resume the first unanswered question in a filtered set.
-- Per-user storage so anonymous progress and signed-in progress do not bleed across accounts.
-
-### 100 Hard Math
-
-The `/hard` route is a focused entry point for the curated 100 Hard Math set.
-
-It uses the same question interface as the bank and supports:
-
-- Ordered navigation.
-- Bookmarking/marking.
-- Answer checking.
-- Explanations.
-- Desmos.
-- Formula sheet.
-- Question state persistence.
-
-### Browse Hub
-
-The `/browse` route is a topic hub for students who want a broad map of the app.
-
-It links to:
-
-- 100 Hard Math.
-- Vocabulary.
-- Full Question Bank.
-- Practice Tests.
-- Math topic groups.
-- Reading & Writing topic groups.
-- Individual official SAT skills with live question counts.
-
-## Question Experience
-
-The question page is reused across the bank, 100 Hard Math, custom practice sets, individual modules, and full practice tests.
-
-Question types:
-
-- Multiple-choice questions.
-- Free-response questions.
-- Math questions with rendered math.
-- Reading & Writing questions with normalized reading text.
-- Image-based questions and answer choices.
-
-Core question controls:
-
-- Previous and next navigation.
-- Question navigator sheet.
-- Practice navigation sheet.
-- Module practice navigation sheet.
-- Answer selection and free-response entry.
-- Check answer flow.
-- Correct-first, correct-later, incorrect, answered, and unanswered states.
-- Attempt count tracking.
-- Time spent tracking.
-- Timer pause/resume.
-- Hide/show timer.
-- Fullscreen mode.
-- Compact and split layout modes.
-- Row and column view modes.
-- Light/dark toggle.
-
-Study tools inside a question:
-
-- Desmos calculator window.
-- Formula/reference sheet dialog.
-- Explanation window.
-- Step-by-step explanation rendering when an explanation JSON exists.
-- Fallback rationale rendering when full step-by-step data is not available.
-- Draggable and sidebar-style tool windows.
-- Split-screen positioning.
-- Reading passage annotations and highlighting.
-- Strikethrough for answer elimination.
-- Notes window.
-- Previous attempts dialog.
-- Question info.
-- Report question dialog.
-- Create Practice Set from related questions.
-
-Saved question state includes:
-
-- Current answer.
-- Checked answers.
-- Attempt count.
-- Correct/incorrect status.
-- Flagged state.
-- Notes.
-- Reading annotations.
-- Total time spent.
-
-## Custom Practice Sets
-
-My Practice Sets lets users save and revisit focused question groups.
-
-Custom set features:
-
-- Create a set from any bank question using the More menu.
-- Automatically find related questions using generated similarity groups.
-- Save 5-20 related questions for focused review.
-- Support larger bank-selection sets when launched from selected questions.
-- Generate readable titles from subject, domain, skill, and similarity group.
-- Track completed count and percent complete.
-- Resume from the first incomplete question.
-- Delete saved sets.
-- Store sets per anonymous user or signed-in account.
-- Merge anonymous sets into the account on login.
-
-Route:
-
-- `/my-practice-sets`
-
-## Practice Tests And Modules
-
-The Practice Tests area is built from individual Digital SAT module JSON files.
-
-Source data includes:
-
-- 245 module JSON files.
-- Reading & Writing modules with 27 questions.
-- Math modules with 22 questions.
-- Module metadata for month, year, region, form, subject, and module number.
-- Repaired/replacement slots where module data needs to be completed from the bank.
-- Generated practice sets that combine modules into full tests.
-
-Practice Tests route:
-
-- `/modules`
-
-Practice-test features:
-
-- Full practice test launch from each practice set.
-- Individual module practice launch.
-- Filters by subject, module number, and completion status.
-- Resume most recent saved session.
-- Discard saved session.
-- Preserve scroll position when returning to the module browser.
-
-Full test options:
-
-- Timed or untimed mode.
-- Normal time.
-- 1.5x time.
-- 2x time.
-- Advanced per-module time limits.
-- Optional instant answer checking.
-- Resume saved full-test sessions.
-- Discard saved full-test sessions.
-
-Individual module options:
-
-- Timed or untimed mode.
-- Adjustable time limit.
-- Optional instant answer checking.
-- Resume saved module sessions.
-- Discard saved module sessions.
-
-Practice-test flow:
-
-- Start screen.
-- Module question flow.
-- Review screen before submitting a module.
-- Transition screen between sections/modules.
-- Break transition in the full-test flow.
-- Results screen.
-
-Review screen features:
-
-- Answered count.
-- Unanswered count.
-- Marked-for-review indicators.
-- Timer with hide/show and pause/resume.
-- Grid navigation back to any question.
-- Submit confirmation.
-- Auto-submit when a timed module reaches zero.
-
-## Results And Scoring
-
-Full practice-test results include:
-
-- Total SAT estimate from 400-1600.
-- Reading & Writing score from 200-800.
-- Math score from 200-800.
-- Module-level score estimates.
-- Answered, unanswered, correct, and incorrect counts.
-- Accuracy.
-- Raw score.
-- Time used.
-- Per-question answer review.
-- Correct answer hiding/revealing.
-- Expand/collapse all visible questions.
-- Sort by original order or correctness.
-- Sort ascending or descending.
-- Filter by module.
-- Open explanations in a draggable/sidebar window.
-- Share message and native share image support.
-
-Module results include:
-
-- Accuracy.
-- Correct count.
-- Answered and unanswered count.
-- Time used.
-- Average time by question type.
-- Domain performance.
-- Slowest and fastest questions.
-- Sortable question review.
-- Hidden/revealed correct answers.
-- Explanations.
-
-Result history route:
-
-- `/test-results`
-
-The result history can switch between:
-
-- Full-length tests.
-- Individual modules.
-
-## Score Calculator
-
-The Digital SAT Score Calculator converts raw module counts into scaled scores.
-
-Route:
-
-- `/score-calculator`
-
-Features:
-
-- English Module 1 slider.
-- English Module 2 slider.
-- Math Module 1 slider.
-- Math Module 2 slider.
-- Live Reading & Writing section score.
-- Live Math section score.
-- Live total score.
-- Module progress bars.
-- Reset control.
-- Light/dark-aware presentation.
-- SEO content below the calculator.
-
-The calculator data also includes legacy pen-and-paper tables, score color bands, raw-score distributions, percentile helpers, and ordinal formatting utilities.
-
-## Vocabulary
-
-The vocabulary trainer contains:
-
-- 1,800 words.
-- 36 vocabulary sets.
-- Foundational, Intermediate, Advanced, and Expert levels.
-- Per-word definitions, part of speech, example usage, synonyms, antonyms, difficulty, and set metadata.
-
-Route:
-
-- `/vocab`
-
-Modes:
-
-- Flashcards.
-- Learn.
-- Match.
-- Test.
-- Browse.
-
-Vocabulary features:
-
-- Per-set progress.
-- New, learning, and mastered statuses.
-- Mastery dots.
-- Mastery requires repeated confirmation across multiple practice modes.
-- Flashcard groups.
-- Learn rounds with multiple-choice definition practice.
-- Match rounds with word-definition pairing.
-- Timed test mode with mixed question types.
-- Browse mode with search and status filters.
-- Reset progress for the active set.
-- Progress saved locally and synced to Firestore for signed-in users.
-
-## Statistics
-
-The Statistics page aggregates question progress and practice test history.
-
-Route:
-
-- `/analysis`
-
-Tracked metrics include:
-
-- Total attempted questions.
-- Overall accuracy.
-- First-try accuracy.
-- Total time spent.
-- Average time per question.
-- Math accuracy.
-- Reading & Writing accuracy.
-- Domain-level accuracy.
-- Skill-level accuracy.
-- Fastest and slowest domains.
-- Fastest and slowest skills.
-- Daily activity counts.
-- Accuracy over time.
-- Past practice test score history.
-
-Visualizations include:
-
-- Year-style activity heatmap.
-- Accuracy-over-time area chart.
-- Past practice test strip.
-- Subject insight cards for Math and Reading & Writing.
-
-Signed-out users can use the app, but the Statistics page prompts them to sign in for cross-device progress tracking.
-
-## Authentication And Account Sync
-
-Authentication is Firebase-backed.
-
-Supported auth flows:
-
-- Email and password signup.
-- Email verification.
-- Email and password login.
-- Google redirect sign-in.
-- Password reset.
-- Sign out.
-
-Account behavior:
-
-- Signed-out progress is stored in an anonymous local slot.
-- Signed-in progress is stored in a user-scoped local slot.
-- On first login, anonymous local data is merged into the account.
-- Firestore sync stores question progress, question UI state, vocabulary progress, personalization, and custom practice sets.
-- Cross-tab storage events keep active user progress in sync.
-- Admin status comes from Firebase token claims.
-
-Auth routes:
-
-- `/login`
-- `/signup`
-- `/verify-email`
-
-## Settings And Personalization
-
-Settings route:
-
-- `/profile`
-
-Settings features:
-
-- Account details.
-- Email display.
-- User ID display.
-- Sign out.
-- Reset all question progress.
-- Link to personalization.
-
-Personalization route:
-
-- `/profile/personalization`
-
-Personalization features:
-
-- Question font selection.
-- Question text size selection.
-- Live preview question.
-- Reset to defaults.
-- Instant preference application across question text, passages, and answer choices.
-
-## SAT Tools
-
-The tool pages are public SEO-friendly calculators and planners.
-
-Routes:
-
-- `/sat-to-act-converter`
-- `/sat-percentile-calculator`
-- `/psat-to-sat-predictor`
-- `/sat-study-plan-generator`
-- `/what-sat-score-do-i-need`
-- `/sat-test-countdown`
-
-Tools include:
-
-- SAT to ACT Converter using the official College Board x ACT concordance table.
-- SAT Percentile Calculator with score tier labels and links to score profiles.
-- PSAT to SAT Score Predictor based on PSAT score and months until SAT.
-- SAT Study Plan Generator using baseline score, target score, and weeks available.
-- What SAT Score Do I Need with curated college SAT middle-50 ranges.
-- SAT Test Countdown with selectable upcoming SAT dates and backward planning guidance.
-
-Each tool includes:
-
-- Page-specific SEO metadata.
-- Breadcrumb JSON-LD.
-- FAQ JSON-LD.
-- WebApplication JSON-LD.
-- Supporting explanatory copy.
-
-## SAT Content Library
-
-1600.now includes a large content system for organic SAT search traffic.
-
-Content families:
-
-- Pillar guides.
-- SAT skill pages.
-- SAT score profiles.
-- Score-goal pages.
-- SAT FAQs.
-- Blog posts.
-- Vocabulary SEO pages.
-- Linkable resource assets.
-- Country hubs and country topic pages.
-- College SAT pages.
-- Landing-page variants.
-
-Main content routes:
-
-- `/digital-sat-guide`
-- `/digital-sat-math`
-- `/digital-sat-reading-writing`
-- `/bluebook-app-guide`
-- `/desmos-sat-guide`
-- `/sat-vs-act`
-- `/how-to-study-for-sat`
-- `/sat-practice-tests`
-- `/sat-for-international-students`
-- `/sat-skill`
-- `/sat-skill/:slug`
-- `/sat-score`
-- `/sat-score/:score`
-- `/sat-faq`
-- `/sat-faq/:slug`
-- `/sat-vocabulary`
-- `/is-a-[score]-a-good-sat-score`
-- `/blog`
-- `/blog/:slug`
-- `/college`
-- `/college/:slug`
-- `/in`
-- `/in/:topic`
-- `/ae`
-- `/ae/:topic`
-- `/:slug` for landing variants, pillar guides, score-goal pages, and linkable assets.
-
-Content data includes:
-
-- 9 long-form pillar guides.
-- 29 SAT skill pages.
-- Score pages for every score from 400 to 1600 in 10-point increments.
-- "Is this SAT score good?" pages for score-specific search queries.
-- SAT FAQs on timing, calculators, scoring, guessing, PSAT, test dates, registration, scratch paper, and more.
-- 50+ blog posts covering strategy, test day, Reading & Writing, Math, score improvement, and admissions.
-- Linkable assets such as score charts, percentile charts, timing charts, format charts, formula charts, grammar charts, checklists, worksheets, study plans, and conversion charts.
-- India and UAE hubs plus topic pages for test centers, fees, SAT vs local exams, scholarships, and preparation.
-- College pages generated from `src/data/colleges.json`.
-
-SEO implementation includes:
-
-- Page-level title and description metadata.
-- Canonical URLs.
-- Breadcrumb JSON-LD.
-- FAQ JSON-LD where relevant.
-- WebApplication JSON-LD for tools.
-- Sitemap files in `public/`.
-- `robots.txt`.
-- Open Graph image assets.
-
-## Question Reports And Admin
-
-Users can report questions from the question page.
-
-Report data includes:
-
-- Question ID.
-- Reason counts.
-- Total report count.
-- Last reported timestamp.
-- Optional comments.
-- User ID on comments when available.
-
-Admin route:
-
-- `/admin/reports`
-
-Admin features:
-
-- Admin-only access based on Firebase token claims.
-- List reported questions.
-- Show report totals.
-- Show comment totals.
-- Preview reported question text.
-- Show reason-count pills.
-- Show comment bodies and timestamps.
-- Refresh reports.
-
-## Legal And Error Pages
-
-Public legal pages:
-
-- `/privacy`
-- `/terms`
-
-Other support routes:
-
-- `*` renders the Not Found page.
-
-## Data And Assets
-
-Important source areas:
-
-- `src/App.tsx`: route definitions, app providers, lazy-loaded page setup, loading skeletons.
-- `src/pages/`: route-level screens.
-- `src/components/`: shared UI, app shell, question controls, practice components, SEO components, auth helpers, and brand components.
-- `src/contexts/AuthContext.tsx`: Firebase auth and session state.
-- `src/hooks/`: progress, personalization, theme, toast, and mobile helpers.
-- `src/lib/`: Firebase helpers, practice-session logic, scoring, text rendering, analytics, personalization, reports, and generated metadata.
-- `src/data/`: question banks, module data, vocabulary, calculator data, colleges, question images, and generated/curated data.
-- `src/lib/seo-data/`: public content-library data.
-- `public/explanations/`: saved explanation JSON.
-- `public/images/`: question images and runtime image assets.
-- `public/reference-sheet/`: SAT reference sheet images.
-- `public/optimized/`: optimized brand assets.
-- `public/sitemap*.xml`: generated sitemap files.
-
-## Persistence Model
-
-Local storage and session storage are used for fast app state:
-
-- Question progress.
-- Question UI state.
-- Vocabulary progress.
-- Custom practice sets.
-- Current bank practice sessions.
-- Module practice sessions.
-- Full practice-test sessions.
-- Desmos UI state.
-- Notes.
-- Reading annotations.
-- View modes.
-- Onboarding state.
-
-Firestore is used for account sync when a user is signed in:
-
-- User progress.
-- Vocabulary progress.
-- Personalization preferences.
-- Question UI state.
-- Custom practice sets.
-- Question reports.
-
-## Tech Stack
-
-- React 18.
-- TypeScript.
-- Vite.
-- React Router.
-- TanStack React Query.
-- Firebase Auth, Firestore, and Analytics.
-- Tailwind CSS.
-- shadcn-style Radix UI components.
-- lucide-react icons.
-- KaTeX math rendering.
-- DOMPurify sanitization.
-- Recharts for analytics charts.
-- date-fns for time formatting.
-
-## Route Map
-
-| Area | Routes |
+| area | routes |
 | --- | --- |
 | Home | `/` |
-| Auth | `/login`, `/signup`, `/verify-email` |
-| Question Bank | `/bank`, `/bank/:subject/browse`, `/bank/:subject/:filterType/:filterValue`, `/bank/:subject/:id` |
+| Question Bank | `/bank`, `/bank/math/browse`, `/bank/reading/browse`, `/bank/:subject/:id` |
 | 100 Hard Math | `/hard`, `/hard/:id` |
-| Browse Hub | `/browse` |
-| Practice Tests | `/modules`, `/practice-tests/:setId`, `/practice-tests/:setId/start`, `/practice-tests/:setId/transition`, `/practice-tests/:setId/review`, `/practice-tests/:setId/results` |
-| Module Practice | `/modules/:moduleId`, `/modules/:moduleId/start`, `/modules/:moduleId/review`, `/modules/:moduleId/results` |
-| Study Tools | `/score-calculator`, `/vocab`, `/analysis`, `/test-results`, `/my-practice-sets` |
+| Practice Tests | `/modules`, `/practice-tests/:setId/start`, `/practice-tests/:setId/results` |
+| Module Practice | `/modules/:moduleId/start`, `/modules/:moduleId/results` |
+| Saved Work | `/my-practice-sets`, `/test-results`, `/analysis` |
+| Tools | `/score-calculator`, `/vocab`, `/sat-study-plan-generator`, `/sat-test-countdown` |
 | Settings | `/profile`, `/profile/personalization` |
-| SAT Tools | `/sat-to-act-converter`, `/sat-percentile-calculator`, `/psat-to-sat-predictor`, `/sat-study-plan-generator`, `/what-sat-score-do-i-need`, `/sat-test-countdown` |
-| SAT Content | `/sat-vocabulary`, `/sat-score`, `/sat-score/:score`, `/sat-skill`, `/sat-skill/:slug`, `/sat-faq`, `/sat-faq/:slug`, `/:slug` |
-| Blog | `/blog`, `/blog/:slug` |
-| Country Pages | `/in`, `/in/:topic`, `/ae`, `/ae/:topic` |
-| Colleges | `/college`, `/college/:slug` |
+| Content | `/digital-sat-guide`, `/desmos-sat-guide`, `/sat-skill/:slug`, `/sat-score/:score`, `/blog/:slug`, `/college/:slug` |
 | Admin | `/admin/reports` |
-| Legal | `/privacy`, `/terms` |
-| Fallback | `*` |
+
+There is also a hidden-by-navigation study planner at `/study-plan-lab`. It is reachable by URL, noindexed, and not part of the public nav.
+
+## stack
+
+This is a Vite + React 18 + TypeScript app.
+
+The UI uses Tailwind CSS, shadcn-style Radix primitives, lucide icons, KaTeX, DOMPurify, Recharts, Sonner, and a few focused helpers around local storage, generated bank metadata, and Firebase sync. Routing is `react-router-dom`. Server state and async helpers use TanStack React Query where it fits.
+
+Firebase handles Auth, Firestore, Hosting, Analytics, and admin claims. Local emulator ports are wired in `firebase.json`: Auth on `9099`, Firestore on `8089`, Emulator UI on `4000`.
+
+The SAT question and route data are mostly static/generated. The build creates hidden-question data, skill samples, question-image metadata, bank route indexes, sitemap files, the Vite bundle, and prerendered HTML.
+
+## repo map
+
+- `src/App.tsx` - routes, providers, lazy page setup, route preload rules.
+- `src/pages/` - page-level screens.
+- `src/pages/bank/Question.tsx` - the shared question viewer. If a question surface is acting strange, start here.
+- `src/pages/bank/BankIndex.tsx` - the main `/bank` browse/search page.
+- `src/components/` - app shell, shared UI, question tools, SEO helpers, auth pieces.
+- `src/contexts/AuthContext.tsx` - Firebase auth, account state, email verification and reset flows.
+- `src/lib/` - Firebase helpers, practice/session logic, bank search, scoring, analytics, personalization, reports, generated metadata.
+- `src/data/` - question banks, hard questions, modules, vocabulary, calculator data, colleges, images.
+- `src/lib/seo-data/` - public SAT content data.
+- `public/explanations/` - explanation JSON files.
+- `public/images/` - question images and other runtime image assets.
+- `public/generated/` - generated bank/search/image artifacts used by the app.
+- `scripts/` - generation, audits, extraction, prerendering, sitemap, and verification scripts.
+
+I avoid treating `dist/`, `node_modules/`, and `.claude/` as source.
+
+## local setup
+
+Use npm.
+
+```bash
+npm install
+npm run dev
+```
+
+The dev server runs on port `8080`.
+
+```bash
+http://localhost:8080
+```
+
+Preview builds use port `4173`.
+
+```bash
+npm run preview
+```
+
+## scripts I actually use
+
+```bash
+npm run lint:undef
+```
+
+Fast undefined-symbol check for TS/TSX files. This is usually the first check after a focused code edit.
+
+```bash
+npm run lint
+```
+
+Full ESLint pass.
+
+```bash
+npm run build:dev
+```
+
+Vite development-mode build after the undefined-symbol check. Good when I need a real bundle without the full generated-content/prerender pipeline.
+
+```bash
+npm run build
+```
+
+Full production build. This runs generated-content steps, question-image sizing, route-index generation, sitemap generation, Vite build, and prerendering.
+
+```bash
+npm run deploy
+```
+
+Full build plus Firebase Hosting deploy to `now-483609`.
+
+Other useful checks:
+
+```bash
+npm run audit:math-explanations
+npm run audit:explanation-quality
+npm run audit:desmos-expressions
+npm run verify:study-plan-lab
+```
+
+## deployment notes
+
+Hosting serves from `dist/`. Firebase is set to `cleanUrls: true` and `trailingSlash: false`, because the canonical no-slash routes need to return route-specific HTML directly.
+
+The app depends on prerendered SAT content routes. When SEO pages look wrong, the first thing to check is the actual served HTML for the route, then `scripts/prerender.mjs`, then metadata copy.
+
+Generated sitemap files live in `public/`. If the route/content set changes, regenerate them instead of hand-editing XML.
+
+## data and persistence
+
+Anonymous users can practice without making an account. Their progress stays in local storage under an anonymous slot. Signed-in users get a user-scoped local slot plus Firestore sync.
+
+Saved state covers question progress, answer checks, attempts, notes, reading annotations, marked questions, time spent, vocab progress, custom practice sets, module sessions, full test sessions, personalization, and some Desmos/window state.
+
+On first login, anonymous local work is merged into the account. Cross-tab storage events keep progress from drifting when the app is open in more than one tab.
+
+## content notes
+
+The public SAT content library is large because organic search is part of the product, but the pages should still be useful. The best pages connect back to real practice: filtered bank routes, tools, score pages, worksheets, charts, calculators, or study flows.
+
+The strongest SEO work here has not been "write more pages." It has been making sure the pages that already exist have correct prerendered HTML, canonical URLs, usable titles, and a path back into practice.
+
+## small scars
+
+Some project details only make sense if you have spent time clicking through the app:
+
+- `/hard` wording edits usually belong in `src/data/hardQuestions.ts`, not the shared renderer.
+- The bank search path uses generated data and workerized search because the main thread should not choke when a student types the first letter.
+- Question images have generated sizing/optimization metadata because runtime analysis made the first navigation feel laggy.
+- The home page avoids eagerly pulling the real bank and question viewer into the first load.
+- Practice Save & Exit flows should return to `/modules`, because that is where students expect to land after modules and full tests.
+- The hidden study-plan lab launches exact practice work, not broad browse pages.
+
+Those are not big architectural slogans. They are just things that felt bad in the browser until they were fixed.

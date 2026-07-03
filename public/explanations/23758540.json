@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Undo the addition",
-      "content": "Start with $$2p+275=325$$ Subtract $275$ from both sides: $$2p=50$$"
+      "content": "Start with $$3p+180=255$$ Subtract $180$ from both sides: $$3p=75$$"
     },
     {
       "title": "Solve for p",
-      "content": "Divide both sides by $2$: $$p=25$$"
+      "content": "Divide both sides by $3$: $$p=25$$"
     },
     {
       "title": "Check the choices",
-      "content": "<strong>Choice B &mdash; $25$</strong> is $25$. It checks because $2(25)+275=50+275=325$. The other choices would make $2p$ either too small or too large to reach $325$ after adding $275$."
+      "content": "<strong>Choice B &mdash; $25$</strong> is $25$. It checks because $3(25)+180=75+180=255$. The other choices would make $3p$ either too small or too large to reach $255$ after adding $180$."
     }
   ]
 }

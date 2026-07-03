@@ -1,15 +1,15 @@
 {
   "questionId": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_17",
-  "correctAnswer": "1/46",
+  "correctAnswer": "1/38",
   "section": "Math",
   "steps": [
     {
       "title": "Apply Vieta's product formula",
-      "content": "For $ax^2 + bx + c = 0$, the product of the solutions equals $\\frac{c}{a}$. In $46x^2 + (46s + r)x + rs = 0$, the constant term is $rs$ and $a = 46$, so: $$\\text{product of solutions} = \\frac{rs}{46}.$$"
+      "content": "For $ax^2 + bx + c = 0$, the product of the solutions equals $\\frac{c}{a}$. In $38x^2 + (38s + r)x + rs = 0$, the constant term is $rs$ and $a = 38$, so: $$\\text{product of solutions} = \\frac{rs}{38}.$$"
     },
     {
       "title": "Solve for k",
-      "content": "The problem states the product equals $krs$. Set equal and divide both sides by $rs$: $$\\frac{rs}{46} = krs \\implies k = \\frac{1}{46}.$$ The value of $k$ is $\\frac{1}{46}$, so <strong>1/46</strong> is correct."
+      "content": "The problem states the product equals $krs$. Set equal and divide both sides by $rs$: $$\\frac{rs}{38} = krs \\implies k = \\frac{1}{38}.$$ The value of $k$ is $\\frac{1}{38}$, so <strong>1/38</strong> is correct."
     }
   ]
 }

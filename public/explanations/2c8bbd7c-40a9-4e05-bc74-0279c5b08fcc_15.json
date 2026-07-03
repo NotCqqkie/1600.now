@@ -1,19 +1,19 @@
 {
   "questionId": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_15",
-  "correctAnswer": "15",
+  "correctAnswer": "17",
   "section": "Math",
   "steps": [
     {
       "title": "Set up the equations",
-      "content": "Translate each statement into an equation.<br/>94% of h equals 47% of j: $$0.94h = 0.47j$$<br/>j is 30% of k: $$j = 0.30k$$"
+      "content": "Translate each statement into an equation.<br/>86% of h equals 43% of j: $$0.86h = 0.43j$$<br/>j is 34% of k: $$j = 0.34k$$"
     },
     {
       "title": "Solve for h in terms of k",
-      "content": "Since 0.94 = 2 &times; 0.47, divide both sides of the first equation by 0.47:<br/>$$2h = j$$<br/>Substitute j = 0.30k:<br/>$$2h = 0.30k$$<br/>$$h = 0.15k$$"
+      "content": "Since 0.86 = 2 &times; 0.43, divide both sides of the first equation by 0.43:<br/>$$2h = j$$<br/>Substitute j = 0.34k:<br/>$$2h = 0.34k$$<br/>$$h = 0.17k$$"
     },
     {
       "title": "Answer",
-      "content": "h = 0.15k means h is 15% of k. <strong>15</strong> is correct."
+      "content": "h = 0.17k means h is 17% of k. <strong>17</strong> is correct."
     }
   ]
 }

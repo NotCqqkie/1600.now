@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Factor out the GCF",
-      "content": "Each term in $2x^2+38x+10$ is divisible by $2$:<br/>$$2x^2+38x+10=2(x^2+19x+5)$$"
+      "content": "Each term in $3x^2+45x+18$ is divisible by $3$:<br/>$$3x^2+45x+18=3(x^2+15x+6)$$"
     },
     {
       "title": "Check that the remaining quadratic is irreducible over integers",
-      "content": "For $x^2+19x+5$, we need two integers whose product is $5$ and sum is $19$. The only integer pairs giving product $5$ are $(1,5)$ and $(-1,-5)$, neither summing to $19$. So $2$ is the only clean factor among the listed choices."
+      "content": "For $x^2+15x+6$, we need two integers whose product is $6$ and sum is $15$. The only integer pairs giving product $6$ are $(1,6)$, $(2,3)$, $(-1,-6)$, and $(-2,-3)$, none of which sum to $15$. So $3$ is the only clean factor among the listed choices."
     },
     {
       "title": "Eliminate each choice",
-      "content": "<ul><li>A) $2$: divides every term, so it is a factor. Keep.</li><li>B) $5x$: $2x^2/5x$ is not a polynomial, so $5x$ is not a factor. Eliminate.</li><li>C) $38x$: $10/38x$ is not a polynomial, so $38x$ is not a factor. Eliminate.</li><li>D) $2x^2$: $38x/2x^2$ is not a polynomial, so $2x^2$ is not a factor. Eliminate.</li></ul><strong>A</strong> is correct."
+      "content": "<ul><li>A) $3$: divides every term, so it is a factor. Keep.</li><li>B) $6x$: $3x^2/6x$ is not a polynomial, so $6x$ is not a factor. Eliminate.</li><li>C) $45x$: $18/45x$ is not a polynomial, so $45x$ is not a factor. Eliminate.</li><li>D) $3x^2$: $45x/3x^2$ is not a polynomial, so $3x^2$ is not a factor. Eliminate.</li></ul><strong>A</strong> is correct."
     }
   ]
 }

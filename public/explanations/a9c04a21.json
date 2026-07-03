@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Backsolve with simple choices",
-      "content": "Backsolving — testing choice B (1.5): Substitute into $2x + 3 = 7$: $$2(1.5) + 3 = 3 + 3 = 6$$, which is not 7. Fails. Testing choice C (2): $$2(2) + 3 = 4 + 3 = 7$$, which equals 7. That is the correct answer."
+      "content": "Backsolving -- testing choice B (2.5): Substitute into $3x + 4 = 13$: $$3(2.5) + 4 = 7.5 + 4 = 11.5$$, which is not 13. Fails. Testing choice C (3): $$3(3) + 4 = 9 + 4 = 13$$, which equals 13. That is the correct answer."
     }
   ]
 }

@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $9x^{2}+54$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $8x^{2}+56$."
     },
     {
       "title": "Algebra check",
@@ -13,11 +13,11 @@
     },
     {
       "title": "Step 1",
-      "content": "Distribute $9$ across both terms inside the parentheses: $$9(x^2 + 6) = 9 \\cdot x^2 + 9 \\cdot 6 = 9x^2 + 54$$"
+      "content": "Distribute $8$ across both terms inside the parentheses: $$8(x^2 + 7) = 8 \\cdot x^2 + 8 \\cdot 7 = 8x^2 + 56$$"
     },
     {
       "title": "Step 2",
-      "content": "Evaluate all choices against the result $9x^2 + 54$:<ul><li><strong>Choice A &mdash; $9x^{2}+3$</strong>: This would require $9 \\times 6 = 3$, which is false. Incorrect.</li><li><strong>Choice B &mdash; $9x^{2}+6$</strong>: This leaves the constant term undistributed ($6$ instead of $54$). Incorrect.</li><li><strong>Choice C &mdash; $9x^{2}+15$</strong>: This would require $9 \\times 6 = 15$, which is false. Incorrect.</li><li><strong>Choice D &mdash; $9x^{2}+54$</strong>: $9 \\times 6 = 54$, so this matches the distributed form exactly. That is the correct answer.</li></ul>"
+      "content": "Evaluate all choices against the result $8x^2 + 56$:<ul><li><strong>Choice A &mdash; $8x^{2}+1$</strong>: This would require $8 \\times 7 = 1$, which is false. Incorrect.</li><li><strong>Choice B &mdash; $8x^{2}+7$</strong>: This leaves the constant term undistributed ($7$ instead of $56$). Incorrect.</li><li><strong>Choice C &mdash; $8x^{2}+15$</strong>: This would require $8 \\times 7 = 15$, which is false. Incorrect.</li><li><strong>Choice D &mdash; $8x^{2}+56$</strong>: $8 \\times 7 = 56$, so this matches the distributed form exactly. That is the correct answer.</li></ul>"
     }
   ],
   "section": "Math"

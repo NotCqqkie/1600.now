@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up the factorization and find the other factor",
-      "content": "If $(x + 2b)$ is a factor, the quadratic must factor as $(x + 2b)(x + r)$ for some value $r$. Expanding:<br/>$$(x + 2b)(x + r) = x^2 + (r + 2b)x + 2br$$<br/>All choices have constant term $18b$. Setting $2br = 18b$ and dividing by the positive constant $b$:<br/>$$2r = 18$$<br/>$$r = 9$$"
+      "content": "If $(x + 3b)$ is a factor, the quadratic must factor as $(x + 3b)(x + r)$ for some value $r$. Expanding:<br/>$$(x + 3b)(x + r) = x^2 + (r + 3b)x + 3br$$<br/>All choices have constant term $21b$. Setting $3br = 21b$ and dividing by the positive constant $b$:<br/>$$3r = 21$$<br/>$$r = 7$$"
     },
     {
       "title": "Find which choice gives a positive integer b",
-      "content": "With $r = 9$, the expression expands to $x^2 + (9 + 2b)x + 18b$. So the middle coefficient must equal $9 + 2b$. For each choice, solve for $b$:<ul><li>A: $9 + 2b = 9$ → $b = 0$ ✗ (not positive)</li><li>B: $9 + 2b = 24$ → $b = 7.5$ ✗ (not an integer)</li><li>C: $9 + 2b = 30$ → $b = 10.5$ ✗ (not an integer)</li><li>D: $9 + 2b = 39$ → $b = 15$ ✓</li></ul><strong>D</strong> is correct."
+      "content": "With $r = 7$, the expression expands to $x^2 + (7 + 3b)x + 21b$. So the middle coefficient must equal $7 + 3b$. For each choice, solve for $b$:<ul><li>A: $7 + 3b = 7$ → $b = 0$ ✗ (not positive)</li><li>B: $7 + 3b = 20$ → $b = \\frac{13}{3}$ ✗ (not an integer)</li><li>C: $7 + 3b = 26$ → $b = \\frac{19}{3}$ ✗ (not an integer)</li><li>D: $7 + 3b = 37$ → $b = 10$ ✓</li></ul><strong>D</strong> is correct."
     }
   ]
 }

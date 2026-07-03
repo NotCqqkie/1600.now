@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what to rearrange",
-      "content": "We're given the revenue formula $t = pq$ and asked to solve for $q$ in terms of $p$ and $t$. To isolate $q$, we need to undo the multiplication by $p$."
+      "content": "We're given the income formula $T = PQ$ and asked to solve for $Q$ in terms of $P$ and $T$. To isolate $Q$, we need to undo the multiplication by $P$."
     },
     {
-      "title": "Divide both sides by p",
-      "content": "Starting with $t = pq$, we divide both sides by $p$:<br/>$$\\frac{t}{p} = \\frac{pq}{p}$$<br/>$$\\frac{t}{p} = q$$<br/>Therefore, $q = \\frac{t}{p}$. That confirms <strong>B</strong> is correct."
+      "title": "Divide both sides by P",
+      "content": "Starting with $T = PQ$, we divide both sides by $P$:<br/>$$\\frac{T}{P} = \\frac{PQ}{P}$$<br/>$$\\frac{T}{P} = Q$$<br/>Therefore, $Q = \\frac{T}{P}$. That confirms <strong>B</strong> is correct."
     }
   ]
 }

@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Establish the growth rate in months",
-      "content": "The tree grows 87 cm every $m$ months. The rate per month is:<br/>$$\\text{rate} = \\frac{87}{m} \\text{ cm/month}$$"
+      "content": "The tree grows 93 cm every $m$ months. The rate per month is:<br/>$$\\text{rate} = \\frac{93}{m} \\text{ cm/month}$$"
     },
     {
       "title": "Convert k years to months",
@@ -13,11 +13,11 @@
     },
     {
       "title": "Multiply rate by time to get total growth",
-      "content": "Total growth over $k$ years:<br/>$$\\frac{87}{m} \\times 12k = \\frac{87 \\times 12k}{m} = \\frac{1{,}044k}{m}$$"
+      "content": "Total growth over $k$ years:<br/>$$\\frac{93}{m} \\times 12k = \\frac{93 \\times 12k}{m} = \\frac{1{,}116k}{m}$$"
     },
     {
       "title": "Evaluate all choices",
-      "content": "<ul><li>A: $\\dfrac{29m}{4k}$ — rate and time are inverted; growth should increase with $k$, not decrease. Eliminated.</li><li>B: $\\dfrac{29k}{4m}$ — $29/4 = 7.25$, not $87 \\times 12 / \\text{something}$; coefficient is wrong. Eliminated.</li><li>C: $\\dfrac{1{,}044m}{k}$ — $m$ and $k$ positions are swapped; growth should be proportional to $k$ and inversely proportional to $m$. Eliminated.</li><li>D: $\\dfrac{1{,}044k}{m}$ — coefficient $87 \\times 12 = 1{,}044$, numerator $k$ (more years = more growth), denominator $m$ (larger $m$ means slower monthly rate). Matches exactly.</li></ul><strong>D</strong> is correct."
+      "content": "<ul><li>A: $\\dfrac{31m}{4k}$ — rate and time are inverted; growth should increase with $k$, not decrease. Eliminated.</li><li>B: $\\dfrac{31k}{4m}$ — $31/4 = 7.75$, not $93 \\times 12 / \\text{something}$; coefficient is wrong. Eliminated.</li><li>C: $\\dfrac{1{,}116m}{k}$ — $m$ and $k$ positions are swapped; growth should be proportional to $k$ and inversely proportional to $m$. Eliminated.</li><li>D: $\\dfrac{1{,}116k}{m}$ — coefficient $93 \\times 12 = 1{,}116$, numerator $k$ (more years = more growth), denominator $m$ (larger $m$ means slower monthly rate). Matches exactly.</li></ul><strong>D</strong> is correct."
     }
   ]
 }

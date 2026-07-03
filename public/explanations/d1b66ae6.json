@@ -1,15 +1,15 @@
 {
   "questionId": "d1b66ae6",
-  "correctAnswer": "3/2,1.5",
+  "correctAnswer": "5/2,2.5",
   "section": "Math",
   "steps": [
     {
       "title": "Add the equations to eliminate x",
-      "content": "The coefficients of $x$ are $-1$ and $+1$, so adding the equations eliminates $x$:<br/>$$(-x + y) + (x + 3y) = -3.5 + 9.5$$<br/>$$4y = 6$$"
+      "content": "The coefficients of $x$ are $-1$ and $+1$, so adding the equations eliminates $x$:<br/>$$(-x + y) + (x + 3y) = -2.5 + 12.5$$<br/>$$4y = 10$$"
     },
     {
       "title": "Solve for y",
-      "content": "Divide both sides by 4:<br/>$$y = \\frac{6}{4} = \\frac{3}{2}$$"
+      "content": "Divide both sides by 4:<br/>$$y = \\frac{10}{4} = \\frac{5}{2}$$"
     }
   ]
 }

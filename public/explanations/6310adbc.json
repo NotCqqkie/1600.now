@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up the ratio as an equation",
-      "content": "The ratio of <em>t</em> to <em>u</em> is 1 to 2, which means:\n$$\\frac{t}{u} = \\frac{1}{2}$$"
+      "content": "The ratio of <em>t</em> to <em>u</em> is 2 to 3, which means:\n$$\\frac{t}{u} = \\frac{2}{3}$$"
     },
     {
-      "title": "Substitute t = 10 and solve for u",
-      "content": "Substitute $t = 10$ into the equation:\n$$\\frac{10}{u} = \\frac{1}{2}$$ Cross-multiply to isolate <em>u</em>:\n$$10 \\cdot 2 = 1 \\cdot u$$\n$$20 = u$$ That confirms <strong>D</strong> is correct."
+      "title": "Substitute t = 18 and solve for u",
+      "content": "Substitute $t = 18$ into the equation:\n$$\\frac{18}{u} = \\frac{2}{3}$$ Cross-multiply to isolate <em>u</em>:\n$$18 \\cdot 3 = 2 \\cdot u$$\n$$54 = 2u$$\n$$27 = u$$ That confirms <strong>D</strong> is correct."
     }
   ]
 }

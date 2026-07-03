@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Substitute the known quantity into the equation",
-      "content": "Since there are 8 Rosa sericea flowers, substitute $x = 8$ into the equation:<br/>$$4(8) + 5y = 77$$"
+      "content": "Since there are 9 blue iris flowers, substitute $x = 9$ into the equation:<br/>$$3(9) + 4y = 67$$"
     },
     {
-      "title": "Solve for the number of Rosa caesia flowers",
-      "content": "Simplify and isolate $y$:<br/>$$32 + 5y = 77$$<br/>$$5y = 45$$<br/>$$y = 9$$<br/>Verify: $4(8) + 5(9) = 32 + 45 = 77$ ✓<br/><br/>There are 9 Rosa caesia flowers. That matches <strong>Choice D &mdash; 9</strong>."
+      "title": "Solve for the number of white iris flowers",
+      "content": "Simplify and isolate $y$:<br/>$$27 + 4y = 67$$<br/>$$4y = 40$$<br/>$$y = 10$$<br/>Verify: $3(9) + 4(10) = 27 + 40 = 67$ ✓<br/><br/>There are 10 white iris flowers. That matches <strong>Choice D &mdash; 10</strong>."
     }
   ]
 }

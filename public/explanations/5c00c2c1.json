@@ -9,11 +9,11 @@
     },
     {
       "title": "Substitute the values",
-      "content": "The starting population is $24$, so $a=24$. A $16.2\\%$ increase means $r=0.162$, so the growth factor is $1.162$.<br/>$$p(t)=24(1.162)^t$$"
+      "content": "The starting population is $30$, so $a=30$. A $14.8\\%$ increase means $r=0.148$, so the growth factor is $1.148$.<br/>$$p(t)=30(1.148)^t$$"
     },
     {
       "title": "Compare to the answer choices",
-      "content": "Choice C (&lsquo;$p(t) = 24 \\times 1.162^t$&rsquo;) has the correct starting population as the coefficient and the correct annual growth factor as the base. <strong>C</strong> is correct."
+      "content": "Choice C (&lsquo;$p(t) = 30 \\times 1.148^t$&rsquo;) has the correct starting population as the coefficient and the correct annual growth factor as the base. <strong>C</strong> is correct."
     }
   ]
 }

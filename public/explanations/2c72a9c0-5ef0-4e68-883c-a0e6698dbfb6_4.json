@@ -4,19 +4,19 @@
   "steps": [
     {
       "title": "Step 1",
-      "content": "Start from $49 = \\frac{2K}{v^2}$. Multiply both sides by $v^2$ to clear the denominator: $49v^2 = 2K$."
+      "content": "Start from $36 = \\frac{2K}{v^2}$. Multiply both sides by $v^2$ to clear the denominator: $36v^2 = 2K$."
     },
     {
       "title": "Step 2",
-      "content": "Divide both sides by 49 to isolate $v^2$: $v^2 = \\frac{2K}{49}$."
+      "content": "Divide both sides by 36 to isolate $v^2$: $v^2 = \\frac{2K}{36}$."
     },
     {
       "title": "Step 3",
-      "content": "Since $v$ is positive, take the positive square root of both sides: $v = \\sqrt{\\frac{2K}{49}}$."
+      "content": "Since $v$ is positive, take the positive square root of both sides: $v = \\sqrt{\\frac{2K}{36}}$."
     },
     {
       "title": "Step 4",
-      "content": "<ul><li>The matching choice: $v=\\sqrt{\\frac{2K}{49}}$. Matches the derived expression exactly. <strong>A</strong> is correct.</li><li>$v=\\sqrt{\\frac{49}{2K}}$. This has the fraction inverted; it would follow from $v^2 = \\frac{49}{2K}$, which is wrong. Eliminated.</li><li>$v=\\frac{49^{2}}{2K}$. This is not a square root and does not follow from solving for $v$. Eliminated.</li><li>$v=\\frac{2K}{49^{2}}$. This is also not a square root and incorrectly squares the denominator. Eliminated.</li></ul>"
+      "content": "<ul><li>The matching choice: $v=\\sqrt{\\frac{2K}{36}}$. Matches the derived expression exactly. <strong>A</strong> is correct.</li><li>$v=\\sqrt{\\frac{36}{2K}}$. This has the fraction inverted; it would follow from $v^2 = \\frac{36}{2K}$, which is wrong. Eliminated.</li><li>$v=\\frac{36^{2}}{2K}$. This is not a square root and does not follow from solving for $v$. Eliminated.</li><li>$v=\\frac{2K}{36^{2}}$. This is also not a square root and incorrectly squares the denominator. Eliminated.</li></ul>"
     }
   ],
   "correctAnswer": "A",

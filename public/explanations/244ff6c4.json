@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Use tangent's period",
-      "content": "Tangent repeats every $\\pi$ radians. Subtract a multiple of $\\pi$ from $\\frac{92\\pi}{3}$ until the angle is coterminal with a familiar unit-circle angle."
+      "content": "Tangent repeats every $\\pi$ radians. Subtract a multiple of $\\pi$ from $\\frac{110\\pi}{3}$ until the angle is coterminal with a familiar unit-circle angle."
     },
     {
       "title": "Use tangent's period",
-      "content": "Tangent has period $\\pi$, so subtract multiples of $\\pi$ until the angle is familiar. $$\\frac{92\\pi}{3}=30\\pi+\\frac{2\\pi}{3}$$ Therefore, $$\\tan\\frac{92\\pi}{3}=\\tan\\frac{2\\pi}{3}$$"
+      "content": "Tangent has period $\\pi$, so subtract multiples of $\\pi$ until the angle is familiar. $$\\frac{110\\pi}{3}=36\\pi+\\frac{2\\pi}{3}$$ Therefore, $$\\tan\\frac{110\\pi}{3}=\\tan\\frac{2\\pi}{3}$$"
     },
     {
       "title": "Evaluate the reference angle",

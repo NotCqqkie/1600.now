@@ -6,7 +6,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run lint:undef && node scripts/generate-hidden-bank-questions.mjs && node scripts/generate-skill-samples.mjs && node scripts/generate-bank-route-index.mjs && node scripts/generate-sitemap.mjs && vite build && node scripts/prerender.mjs",
+    "build": "npm run lint:undef && node scripts/generate-hidden-bank-questions.mjs && node scripts/generate-skill-samples.mjs && npm run question-images && node scripts/generate-bank-route-index.mjs && node scripts/generate-sitemap.mjs && npm run validate:answers && vite build && node scripts/prerender.mjs",
+    "typecheck": "tsc --noEmit -p tsconfig.app.json",
+    "test": "vitest run",
+    "validate:answers": "node scripts/validate-question-answers.mjs",
     "deploy": "npm run build && firebase deploy --only hosting --project now-483609",
     "deploy:hosting": "firebase deploy --only hosting --project now-483609",
     "difficulty:sync": "node scripts/sync-past-question-difficulties.mjs",
@@ -18,6 +21,7 @@
     "audit:live-bank-formatting": "node scripts/audit-live-bank-formatting.mjs",
     "verify:study-plan-lab": "node scripts/verify-study-plan-lab.mjs",
     "sitemap": "node scripts/generate-sitemap.mjs",
+    "question-images": "node scripts/images/generate_question_image_sizing.mjs",
     "skill-samples": "node scripts/generate-hidden-bank-questions.mjs && node scripts/generate-skill-samples.mjs && node scripts/generate-bank-route-index.mjs",
     "prerender": "node scripts/prerender.mjs",
     "build:dev": "npm run lint:undef && vite build --mode development",
@@ -73,9 +77,11 @@
     "globals": "^15.15.0",
     "postcss": "^8.5.6",
     "puppeteer": "^24.42.0",
+    "sharp": "^0.35.2",
     "tailwindcss": "^3.4.17",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.38.0",
-    "vite": "^5.4.19"
+    "vite": "^5.4.19",
+    "vitest": "^2.1.9"
   }
 }

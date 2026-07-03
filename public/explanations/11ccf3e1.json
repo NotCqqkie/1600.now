@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Isolate the term containing k",
-      "content": "Start with $14j + 5k = m$. Subtract $14j$ from both sides: $5k = m - 14j$."
+      "content": "Start with $17j + 4k = m$. Subtract $17j$ from both sides: $4k = m - 17j$."
     },
     {
       "title": "Solve for k",
-      "content": "Divide both sides by 5: $k = \\dfrac{m - 14j}{5}$.<ul><li><strong>A ($k = \\frac{m - 14j}{5}$):</strong> Matches exactly. That matches <strong>Choice A &mdash; $k=\\frac{m-14j}{5}$</strong>.</li><li><strong>B ($k = \\frac{1}{5}m - 14j$):</strong> Only $m$ is divided by 5; $14j$ should also be divided by 5 &mdash; wrong.</li><li><strong>C ($k = \\frac{14j - m}{5}$):</strong> Numerator is negated; subtracting $14j$ gives $m - 14j$, not $14j - m$ &mdash; wrong sign.</li><li><strong>D ($k = 5m - 14j$):</strong> Multiplies $m$ by 5 instead of dividing &mdash; wrong operation.</li></ul>"
+      "content": "Divide both sides by 4: $k = \\dfrac{m - 17j}{4}$.<ul><li><strong>A ($k = \\frac{m - 17j}{4}$):</strong> Matches exactly. That matches <strong>Choice A &mdash; $k=\\frac{m-17j}{4}$</strong>.</li><li><strong>B ($k = \\frac{1}{4}m - 17j$):</strong> Only $m$ is divided by 4; $17j$ should also be divided by 4 &mdash; wrong.</li><li><strong>C ($k = \\frac{17j - m}{4}$):</strong> Numerator is negated; subtracting $17j$ gives $m - 17j$, not $17j - m$ &mdash; wrong sign.</li><li><strong>D ($k = 4m - 17j$):</strong> Multiplies $m$ by 4 instead of dividing &mdash; wrong operation.</li></ul>"
     }
   ]
 }

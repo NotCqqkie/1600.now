@@ -1,15 +1,15 @@
 {
   "questionId": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_10",
-  "correctAnswer": "9",
+  "correctAnswer": "12",
   "section": "Math",
   "steps": [
     {
       "title": "Recognize slope-intercept form",
-      "content": "The function $f(x) = -9x + 9$ is written as $y = mx + b$, where $m = -9$ is the slope and $b$ is the y-intercept value. In slope-intercept form, the constant term $b$ is always the y-coordinate where the line crosses the $y$-axis."
+      "content": "The function $f(x) = -7x + 12$ is written as $y = mx + b$, where $m = -7$ is the slope and $b$ is the y-intercept value. In slope-intercept form, the constant term $b$ is always the y-coordinate where the line crosses the $y$-axis."
     },
     {
       "title": "Extract the y-intercept",
-      "content": "From $f(x) = -9x + 9$, the constant term is 9. Therefore, the y-coordinate of the y-intercept is <strong>9</strong>."
+      "content": "From $f(x) = -7x + 12$, the constant term is 12. Therefore, the y-coordinate of the y-intercept is <strong>12</strong>."
     }
   ]
 }

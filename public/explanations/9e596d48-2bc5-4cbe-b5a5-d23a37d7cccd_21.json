@@ -1,23 +1,23 @@
 {
   "questionId": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_21",
-  "correctAnswer": "391",
+  "correctAnswer": "364",
   "section": "Math",
   "steps": [
     {
       "title": "Identify roots from the factored form",
-      "content": "$g(x)=(x+17)(t-x)$ has zeros at $x=-17$ and $x=t$."
+      "content": "$g(x)=(x+14)(t-x)$ has zeros at $x=-14$ and $x=t$."
     },
     {
       "title": "Use the given point to set up an equation in t",
-      "content": "Since the graph passes through $(23,0)$ and $-17\\ne 23$, the other zero must be $23$, so $t=23$."
+      "content": "Since the graph passes through $(26,0)$ and $-14\\ne 26$, the other zero must be $26$, so $t=26$."
     },
     {
       "title": "Compute g(0) and conclude",
-      "content": "$g(0)=(0+17)(23-0)=17\\cdot 23=391$. The answer is <strong>391</strong>."
+      "content": "$g(0)=(0+14)(26-0)=14\\cdot 26=364$. The answer is <strong>364</strong>."
     },
     {
       "title": "Confirm the answer",
-      "content": "As a final check, make sure the computed value answers exactly what the question asks for. The work above gives $391$; substituting or interpreting it in the original condition satisfies the requirement, so $391$ is the value to enter."
+      "content": "As a final check, make sure the computed value answers exactly what the question asks for. The work above gives $364$; substituting or interpreting it in the original condition satisfies the requirement, so $364$ is the value to enter."
     }
   ]
 }

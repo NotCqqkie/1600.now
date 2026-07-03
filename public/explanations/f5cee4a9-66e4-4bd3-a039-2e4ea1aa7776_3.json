@@ -6,11 +6,11 @@
     {
       "title": "Apply the mean formula",
       "formula": "$$\\text{mean} = \\frac{\\text{sum of values}}{\\text{count}}$$",
-      "content": "We have 5 values: 1, 4, 7, 10, and 33. $$\\text{mean} = \\frac{1 + 4 + 7 + 10 + 33}{5}$$"
+      "content": "We have 5 values: 2, 5, 8, 11, and 34. $$\\text{mean} = \\frac{2 + 5 + 8 + 11 + 34}{5}$$"
     },
     {
       "title": "Calculate the sum and divide",
-      "content": "Sum: $1 + 4 + 7 + 10 + 33 = 55$. <br/> Divide by the count: $$\\frac{55}{5} = 11$$ That matches the correct answer — <strong>B</strong> is correct."
+      "content": "Sum: $2 + 5 + 8 + 11 + 34 = 60$. <br/> Divide by the count: $$\\frac{60}{5} = 12$$ That matches the correct answer, so <strong>B</strong> is correct."
     }
   ]
 }

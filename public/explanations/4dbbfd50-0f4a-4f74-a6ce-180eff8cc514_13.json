@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Identify what the conclusion relies on",
-      "content": "The conclusion states that Hikwama provided more specificity in its data.<br/><br/>The passage defines the detail rating as measuring “reported data with more detail,” so specificity in data is determined by the detail rating.<br/><br/>This means the conclusion rests on Hikwama having a higher detail rating than Townsend."
+      "content": "The conclusion states that Hikwama provided more specificity in its data.<br/><br/>The passage defines the detail rating with the phrase “reported data with more detail”; specificity in data is therefore determined by the detail rating.<br/><br/>This means the conclusion rests on Hikwama having a higher detail rating than Townsend."
     },
     {
       "title": "Find the direct contradiction",

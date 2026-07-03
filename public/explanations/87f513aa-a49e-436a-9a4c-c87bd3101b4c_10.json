@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Express both equations using the same ratio",
-      "content": "Factor the second equation to isolate $\\frac{x}{y}$: $$\\frac{cx}{4y} = \\frac{c}{4} \\cdot \\frac{x}{y}$$ Since the first equation tells us $\\frac{x}{y} = 64$, we can substitute into the second equation: $$\\frac{c}{4} \\cdot 64 = 64$$"
+      "content": "Factor the second equation to isolate $\\frac{x}{y}$: $$\\frac{cx}{6y} = \\frac{c}{6} \\cdot \\frac{x}{y}$$ Since the first equation tells us $\\frac{x}{y} = 72$, we can substitute into the second equation: $$\\frac{c}{6} \\cdot 72 = 72$$"
     },
     {
       "title": "Solve for c",
-      "content": "Divide both sides by 64: $$\\frac{c}{4} = 1$$ Multiply both sides by 4: $$c = 4$$ That confirms <strong>A</strong> is correct."
+      "content": "Divide both sides by 72: $$\\frac{c}{6} = 1$$ Multiply both sides by 6: $$c = 6$$ That confirms <strong>A</strong> is correct."
     }
   ]
 }

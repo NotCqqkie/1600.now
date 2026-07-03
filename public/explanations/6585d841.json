@@ -9,11 +9,11 @@
     },
     {
       "title": "Rearrange and complete the square",
-      "content": "Rearrange to collect <em>x</em> and <em>y</em> terms on the left:<br/>$$x^2 + 14x + y^2 - 6y = 109$$<br/>Complete the square for <em>x</em>: Since the coefficient of <em>x</em> is 14, take half and square: $(14/2)^2 = 49$.<br/>$$x^2 + 14x = (x+7)^2 - 49$$<br/>Complete the square for <em>y</em>: Since the coefficient of <em>y</em> is $-6$, take half and square: $(-6/2)^2 = 9$.<br/>$$y^2 - 6y = (y-3)^2 - 9$$"
+      "content": "Rearrange to collect <em>x</em> and <em>y</em> terms on the left:<br/>$$x^2 + 10x + y^2 - 8y = 76$$<br/>Complete the square for <em>x</em>: Since the coefficient of <em>x</em> is 10, take half and square: $(10/2)^2 = 25$.<br/>$$x^2 + 10x = (x+5)^2 - 25$$<br/>Complete the square for <em>y</em>: Since the coefficient of <em>y</em> is $-8$, take half and square: $(-8/2)^2 = 16$.<br/>$$y^2 - 8y = (y-4)^2 - 16$$"
     },
     {
       "title": "Convert to standard form and find the radius",
-      "content": "Substitute the completed squares:<br/>$$(x+7)^2 - 49 + (y-3)^2 - 9 = 109$$<br/>Move constants to the right side:<br/>$$(x+7)^2 + (y-3)^2 = 109 + 49 + 9 = 167$$<br/>This matches the standard form for a circle with $r^2 = 167$. Therefore, $r = \\sqrt{167}$. That confirms <strong>C</strong> is correct."
+      "content": "Substitute the completed squares:<br/>$$(x+5)^2 - 25 + (y-4)^2 - 16 = 76$$<br/>Move constants to the right side:<br/>$$(x+5)^2 + (y-4)^2 = 76 + 25 + 16 = 117$$<br/>This matches the standard form for a circle with $r^2 = 117$. Therefore, $r = \\sqrt{117}$. That confirms <strong>C</strong> is correct."
     }
   ]
 }

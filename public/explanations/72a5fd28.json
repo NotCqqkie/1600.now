@@ -1,15 +1,15 @@
 {
   "questionId": "72a5fd28",
-  "correctAnswer": "5",
+  "correctAnswer": "6",
   "section": "Math",
   "steps": [
     {
       "title": "Set up and solve the inequality",
-      "content": "We need at least 50 dinner rolls. If we buy $n$ packages with 12 rolls each:<br/>$$12n \\geq 50$$<br/>Dividing both sides by 12:<br/>$$n \\geq \\frac{50}{12} = \\frac{25}{6} \\approx 4.167$$"
+      "content": "We need at least 73 dinner rolls. If we buy $n$ packages with 14 rolls each:<br/>$$14n \\geq 73$$<br/>Dividing both sides by 14:<br/>$$n \\geq \\frac{73}{14} \\approx 5.214$$"
     },
     {
       "title": "Round up to the minimum whole number",
-      "content": "Since we cannot buy a fractional package, we must round UP. Testing:<ul><li>4 packages: $12 \\times 4 = 48$ rolls (insufficient, since $48 \\lt 50$)</li><li>5 packages: $12 \\times 5 = 60$ rolls (sufficient, since $60 \\geq 50$)</li></ul>The minimum number of packages is <strong>5</strong>."
+      "content": "Since we cannot buy a fractional package, we must round UP. Testing:<ul><li>5 packages: $14 \\times 5 = 70$ rolls (insufficient, since $70 \\lt 73$)</li><li>6 packages: $14 \\times 6 = 84$ rolls (sufficient, since $84 \\geq 73$)</li></ul>The minimum number of packages is <strong>6</strong>."
     }
   ]
 }

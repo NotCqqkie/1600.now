@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Count tall birch and maple trees",
-      "content": "Birch: $$6 \\times 8 = 48$$ tall birch trees.<br/>Maple: $$5 \\times 9 = 45$$ tall maple trees."
+      "content": "Birch: $$4 \\times 9 = 36$$ tall birch trees.<br/>Maple: $$7 \\times 6 = 42$$ tall maple trees."
     },
     {
       "title": "Compute conditional probability",
-      "content": "Total tall trees: $$48 + 45 = 93$$.<br/>Probability maple given tall: $$\\frac{45}{93} = \\frac{15}{31}$$ after dividing numerator and denominator by $3$.<br/>That matches the correct answer — <strong>C</strong> is correct."
+      "content": "Total tall trees: $$36 + 42 = 78$$.<br/>Probability maple given tall: $$\\frac{42}{78} = \\frac{7}{13}$$ after dividing numerator and denominator by $6$.<br/>That matches the correct answer - <strong>C</strong> is correct."
     }
   ]
 }

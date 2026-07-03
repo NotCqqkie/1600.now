@@ -1,15 +1,15 @@
 {
   "questionId": "471ccf49-2c32-4c56-9f7e-1788dbe63527_7",
-  "correctAnswer": "6",
+  "correctAnswer": "7",
   "section": "Math",
   "steps": [
     {
-      "title": "Parallel lines → same slope",
-      "content": "Line $p$ is $y = 6x - 8$, so its slope is $6$ (read directly from slope-intercept form)."
+      "title": "Parallel lines -> same slope",
+      "content": "Line $r$ is $y = 7x - 5$, so its slope is $7$ (read directly from slope-intercept form)."
     },
     {
       "title": "Apply parallel rule",
-      "content": "Line $s$ is parallel to line $p$, so it has the same slope: $6$. Therefore the slope of line $s$ is <strong>6</strong>."
+      "content": "Line $t$ is parallel to line $r$, so it has the same slope: $7$. Therefore the slope of line $t$ is <strong>7</strong>."
     }
   ]
 }

@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Test the correct point",
-      "content": "For choice D, $(7,0)$, the first inequality gives $0\\le7+15$, or $0\\le22$, which is true."
+      "content": "For choice D, $(6,0)$, the first inequality gives $0\\le6+12$, or $0\\le18$, which is true."
     },
     {
       "title": "Check the second inequality",
-      "content": "The second inequality gives $0\\ge-4(7)-15$, or $0\\ge-43$, which is also true."
+      "content": "The second inequality gives $0\\ge-3(6)-12$, or $0\\ge-30$, which is also true."
     },
     {
       "title": "Confirm the choice",
-      "content": "Since $(7,0)$ satisfies both inequalities, <strong>D</strong> is correct. The other points each fail at least one of the two inequalities."
+      "content": "Since $(6,0)$ satisfies both inequalities, <strong>D</strong> is correct. The other points each fail at least one of the two inequalities."
     }
   ]
 }

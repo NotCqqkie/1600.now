@@ -1,19 +1,19 @@
 {
   "questionId": "4f1342d6",
-  "correctAnswer": "87",
+  "correctAnswer": "86",
   "section": "Math",
   "steps": [
     {
-      "title": "Define September sales",
-      "content": "Let $S$ be the number of sales in September. August sales were $15$ more than $3$ times September sales, so August sales were $3S+15$."
+      "title": "Define May sales",
+      "content": "Let $S$ be the number of sales in May. April sales were $12$ more than $3$ times May sales, so April sales were $3S+12$."
     },
     {
       "title": "Use the total",
-      "content": "Together, August and September had $363$ sales: $S+(3S+15)=363$."
+      "content": "Together, April and May had $356$ sales: $S+(3S+12)=356$."
     },
     {
       "title": "Solve",
-      "content": "$4S+15=363$, so $4S=348$ and $S=87$. The dealer completed <strong>87</strong> sales in September."
+      "content": "$4S+12=356$, so $4S=344$ and $S=86$. The dealer completed <strong>86</strong> sales in May."
     }
   ]
 }

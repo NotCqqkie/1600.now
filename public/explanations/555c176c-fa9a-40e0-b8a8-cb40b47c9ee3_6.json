@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Convert the percentage to a decimal",
-      "content": "$293\\%$ means $\\frac{293}{100} = 2.93$.<br/><br/>So $293\\%$ of $x$ is $2.93x$, giving:<br/>$$f(x) = 2.93x$$"
+      "content": "$286\\%$ means $\\frac{286}{100} = 2.86$.<br/><br/>So $286\\%$ of $x$ is $2.86x$, giving:<br/>$$f(x) = 2.86x$$"
     },
     {
       "title": "Classify the function",
-      "content": "$f(x) = 2.93x$ has the form $f(x) = mx + b$ with $m = 2.93$ and $b = 0$ &mdash; this is a <strong>linear</strong> function (not exponential, which would have $x$ in an exponent).<br/><br/>The slope $m = 2.93 \\gt  0$, so as $x$ increases, $f(x)$ increases. The function is <strong>increasing</strong>."
+      "content": "$f(x) = 2.86x$ has the form $f(x) = mx + b$ with $m = 2.86$ and $b = 0$ &mdash; this is a <strong>linear</strong> function (not exponential, which would have $x$ in an exponent).<br/><br/>The slope $m = 2.86 \\gt  0$, so as $x$ increases, $f(x)$ increases. The function is <strong>increasing</strong>."
     },
     {
       "title": "Evaluate each choice",

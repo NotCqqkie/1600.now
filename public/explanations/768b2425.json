@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Identify what x and y represent",
-      "content": "From the problem, $x$ is the number of hours consulting and $y$ is the number of hours drawing up plans. The total earnings are &#36;1,258."
+      "content": "From the problem, $x$ is the number of hours spent on consultations and $y$ is the number of hours drafting garden plans. The total earnings are &#36;1,472."
     },
     {
       "title": "Interpret the coefficients by units",
-      "content": "In $68x+85y=1{,}258$, each term must have units of dollars. Since $x$ is consulting hours, the coefficient $68$ is the consulting hourly rate: &#36;68 per hour."
+      "content": "In $72x+94y=1{,}472$, each term must have units of dollars. Since $x$ is consultation hours, the coefficient $72$ is the consultation hourly rate: &#36;72 per hour."
     },
     {
       "title": "Evaluate each choice",
-      "content": "The credited option says the designer earned &#36;68 per hour consulting, which matches the coefficient of $x$. <strong>A</strong> is correct."
+      "content": "The credited option says the architect earned &#36;72 per hour from consultations, which matches the coefficient of $x$. <strong>A</strong> is correct."
     }
   ]
 }

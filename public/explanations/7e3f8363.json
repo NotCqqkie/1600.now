@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Use the y-intercept",
-      "content": "The line contains $(0,3)$, so the y-intercept is $3$. In $f(x)=mx+b$, this means $b=3$."
+      "content": "The line contains $(0,4)$, so the y-intercept is $4$. In $f(x)=mx+b$, this means $b=4$."
     },
     {
       "title": "Find the slope",
-      "content": "Using $(0,3)$ and $(7,31)$:<br/>$$m=\\frac{31-3}{7-0}=\\frac{28}{7}=4$$<br/>So $$f(x)=4x+3.$$"
+      "content": "Using $(0,4)$ and $(6,34)$:<br/>$$m=\\frac{34-4}{6-0}=\\frac{30}{6}=5$$<br/>So $$f(x)=5x+4.$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "<strong>C</strong> is correct. It passes both point checks: $f(0)=3$ gives the intercept, and $f(7)=31$ confirms the slope calculation."
+      "content": "<strong>C</strong> is correct. It passes both point checks: $f(0)=4$ gives the intercept, and $f(6)=34$ confirms the slope calculation."
     }
   ]
 }

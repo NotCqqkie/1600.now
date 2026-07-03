@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Recognize the operation",
-      "content": "<em>20% greater than 60</em> means the new number is 120% of the original, or 1.20 times the original. We need to calculate:<br/>$$60 \\times 1.20$$"
+      "content": "<em>25% greater than 80</em> means the new number is 125% of the original, or 1.25 times the original. We need to calculate:<br/>$$80 \\times 1.25$$"
     },
     {
       "title": "Compute the result",
-      "content": "$$60 \\times 1.20 = 72$$<br/>The multiplier $1.20$ includes the original 60 plus the additional 20%, so <strong>B</strong> is correct."
+      "content": "$$80 \\times 1.25 = 100$$<br/>The multiplier $1.25$ includes the original 80 plus the additional 25%, so <strong>B</strong> is correct."
     }
   ]
 }

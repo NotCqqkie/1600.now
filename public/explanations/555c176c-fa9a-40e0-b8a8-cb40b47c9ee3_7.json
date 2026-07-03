@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up",
-      "content": "Room A, B, and C account for all visitors, so the probabilities sum to 1. Find $P(C)$: $$P(C) = 1 - 0.72 - 0.24 = 0.04$$"
+      "content": "Room A, B, and C account for all visitors, so the probabilities sum to 1. Find $P(C)$: $$P(C) = 1 - 0.65 - 0.30 = 0.05$$"
     },
     {
       "title": "Solve",
-      "content": "Multiply by the total number of visitors to get the count in room C: $$0.04 × 225 = 9$$"
+      "content": "Multiply by the total number of visitors to get the count in room C: $$0.05 × 260 = 13$$"
     },
     {
       "title": "Answer",

@@ -1,8 +1,6 @@
 import { useEffect, useRef } from "react";
-import { doc, setDoc } from "firebase/firestore";
 import { useAuth } from "@/contexts/AuthContext";
 import { useUserProgress } from "@/hooks/useUserProgress";
-import { db } from "@/lib/firebase/firebaseDb";
 import {
   getPersonalizationPreferences,
   resetPersonalizationPreferences,
@@ -23,15 +21,38 @@ type AccountSyncFirestorePatch = {
   customPracticeSets?: CustomPracticeSet[];
 };
 
+// Firestore is imported on first write so anonymous visitors never download
+// the SDK; the shared promise keeps writes in dispatch order.
+const importFirestoreDependencies = async () => {
+  const [firebaseDb, firestore] = await Promise.all([
+    import("@/lib/firebase/firebaseDb"),
+    import("firebase/firestore"),
+  ]);
+  return {
+    db: firebaseDb.db,
+    doc: firestore.doc,
+    setDoc: firestore.setDoc,
+  };
+};
+
+let firestoreDependenciesPromise: Promise<Awaited<ReturnType<typeof importFirestoreDependencies>>> | null = null;
+
+const loadFirestoreDependencies = () => {
+  firestoreDependenciesPromise ??= importFirestoreDependencies();
+  return firestoreDependenciesPromise;
+};
+
 const writeUserProgressPatch = (
-  database: NonNullable<typeof db>,
   patch: AccountSyncFirestorePatch,
   errorMessage: string,
 ) => {
-  const ref = doc(database, "user_progress", patch.user_id);
-  setDoc(ref, patch, { merge: true }).catch((err) =>
-    console.error(errorMessage, err),
-  );
+  loadFirestoreDependencies()
+    .then(({ db, doc, setDoc }) => {
+      if (!db) return;
+      const ref = doc(db, "user_progress", patch.user_id);
+      return setDoc(ref, patch, { merge: true });
+    })
+    .catch((err) => console.error(errorMessage, err));
 };
 
 export const AccountSync = () => {
@@ -49,12 +70,11 @@ export const AccountSync = () => {
   }, [user?.id]);
 
   useEffect(() => {
-    if (!user || !db) return;
+    if (!user) return;
 
     const push = () => {
       const prefs = getPersonalizationPreferences();
       writeUserProgressPatch(
-        db,
         { user_id: user.id, personalization: prefs },
         "Failed to sync personalization to Firestore:",
       );
@@ -64,11 +84,10 @@ export const AccountSync = () => {
   }, [user]);
 
   useEffect(() => {
-    if (!user || !db) return;
+    if (!user) return;
 
     const push = () => {
       writeUserProgressPatch(
-        db,
         { user_id: user.id, questionState: getQuestionUiStateMap(user.id) },
         "Failed to sync question state to Firestore:",
       );
@@ -78,7 +97,7 @@ export const AccountSync = () => {
   }, [user]);
 
   useEffect(() => {
-    if (!user || !db) return;
+    if (!user) return;
 
     let cancelled = false;
     let unsubscribe: (() => void) | undefined;
@@ -89,7 +108,6 @@ export const AccountSync = () => {
 
       const push = () => {
         writeUserProgressPatch(
-          db,
           {
             user_id: user.id,
             customPracticeSets: customSets.getCustomPracticeSets(user.id),

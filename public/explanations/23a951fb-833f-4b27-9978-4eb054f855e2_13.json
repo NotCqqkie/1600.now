@@ -9,11 +9,11 @@
     },
     {
       "title": "Identify the cylinder volume formula",
-      "content": "The volume of a right circular cylinder is $$V = \\pi r^2 h$$ where $r$ is the radius and $h$ is the height. We are given $r = 14$ m and $h = 12$ m."
+      "content": "The volume of a right circular cylinder is $$V = \\pi r^2 h$$ where $r$ is the radius and $h$ is the height. We are given $r = 13$ m and $h = 10$ m."
     },
     {
       "title": "Substitute values and compute",
-      "content": "Substitute into the formula: $$V = \\pi (14)^2 (12) = \\pi \\cdot 196 \\cdot 12$$<br/>Compute $196 \\times 12 = 2,352$<br/><br/>Therefore, $V = 2,352\\pi$ m³. That matches <strong>Choice D &mdash; $2,352\\pi$</strong>."
+      "content": "Substitute into the formula: $$V = \\pi (13)^2 (10) = \\pi \\cdot 169 \\cdot 10$$<br/>Compute $169 \\times 10 = 1,690$<br/><br/>Therefore, $V = 1,690\\pi$ m³. That matches <strong>Choice D &mdash; $1,690\\pi$</strong>."
     }
   ]
 }

@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Apply the factoring identity from the given condition",
-      "content": "Recognize $\\frac{1}{2}x - \\frac{33}{2} = \\frac{x-33}{2}$, so $\\left(\\frac{x-33}{2}\\right)^2 = \\frac{(x-33)^2}{4}$. The equation becomes $\\frac{(x-33)^2}{4} = 64$."
+      "content": "Recognize $\\frac{1}{2}x - \\frac{29}{2} = \\frac{x-29}{2}$, so $\\left(\\frac{x-29}{2}\\right)^2 = \\frac{(x-29)^2}{4}$. The equation becomes $\\frac{(x-29)^2}{4} = 49$."
     },
     {
       "title": "Compute the target value",
-      "content": "Multiply by $4$: $(x-33)^{2} = 256$. That confirms <strong>D</strong> is correct."
+      "content": "Multiply by $4$: $(x-29)^{2} = 196$. That confirms <strong>D</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above confirms <strong>D</strong>, 256, and the other choices fail the same setup or substitution. Therefore <strong>D</strong> is correct."
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above confirms <strong>D</strong>, 196, and the other choices fail the same setup or substitution. Therefore <strong>D</strong> is correct."
     }
   ]
 }

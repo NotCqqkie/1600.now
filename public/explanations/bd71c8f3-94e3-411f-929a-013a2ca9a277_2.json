@@ -5,23 +5,23 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $6x^{3}y+21xy^{2}$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $12x^{3}y+20xy^{2}$."
     },
     {
       "title": "Algebra check",
       "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
     },
     {
-      "title": "Distribute $3xy$ across each term",
-      "content": "Multiply $3xy$ by $2x^2$: $$3xy \\cdot 2x^2 = 6x^3y$$ Multiply $3xy$ by $7y$: $$3xy \\cdot 7y = 21xy^2$$"
+      "title": "Distribute $4xy$ across each term",
+      "content": "Multiply $4xy$ by $3x^2$: $$4xy \\cdot 3x^2 = 12x^3y$$ Multiply $4xy$ by $5y$: $$4xy \\cdot 5y = 20xy^2$$"
     },
     {
       "title": "Write the expanded expression",
-      "content": "$$3xy(2x^2+7y) = 6x^3y + 21xy^2$$"
+      "content": "$$4xy(3x^2+5y) = 12x^3y + 20xy^2$$"
     },
     {
       "title": "Evaluate all choices",
-      "content": "<ul><li><strong>Choice A &mdash; $5x^{3}y+10xy^{2}$</strong>: Coefficients 5 and 10 cannot come from distributing $3xy$; the outer factor would need to be something other than $3xy$. &#10007;</li><li><strong>Choice B &mdash; $6x^{2}y+7y$</strong>: $3xy \\cdot 2x^2 = 6x^3y$, not $6x^2y$ (one power of $x$ is lost); $3xy \\cdot 7y = 21xy^2$, not $7y$. &#10007;</li><li><strong>Choice C &mdash; $6x^{2}y+21xy$</strong>: First term has $x^2$ instead of $x^3$; second term $21xy$ is missing one factor of $y$. &#10007;</li><li><strong>Choice D &mdash; $6x^{3}y+21xy^{2}$</strong>: Matches exactly: $6x^3y + 21xy^2$. That is the correct answer. &#10003;</li></ul>"
+      "content": "<ul><li><strong>Choice A &mdash; $7x^{3}y+9xy^{2}$</strong>: Coefficients 7 and 9 cannot come from distributing $4xy$; the outer factor would need to be something other than $4xy$. &#10007;</li><li><strong>Choice B &mdash; $12x^{2}y+5y$</strong>: $4xy \\cdot 3x^2 = 12x^3y$, not $12x^2y$ (one power of $x$ is lost); $4xy \\cdot 5y = 20xy^2$, not $5y$. &#10007;</li><li><strong>Choice C &mdash; $12x^{2}y+20xy$</strong>: First term has $x^2$ instead of $x^3$; second term $20xy$ is missing one factor of $y$. &#10007;</li><li><strong>Choice D &mdash; $12x^{3}y+20xy^{2}$</strong>: Matches exactly: $12x^3y + 20xy^2$. That is the correct answer. &#10003;</li></ul>"
     }
   ]
 }

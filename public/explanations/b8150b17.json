@@ -5,12 +5,12 @@
   "steps": [
     {
       "title": "Identify the probability formula",
-      "content": "For a random selection, we need the probability of selecting a bead with a defect. The probability of any event is the ratio of favorable outcomes to total possible outcomes.",
+      "content": "For a random selection, we need the probability of selecting a button with a flaw. The probability of any event is the ratio of favorable outcomes to total possible outcomes.",
       "formula": "$$P(\\text{event}) = \\frac{\\text{favorable outcomes}}{\\text{total possible outcomes}}$$"
     },
     {
       "title": "Apply the formula with the given values",
-      "content": "From the problem: 29 out of every 100 beads have a defect.<br/>$$P(\\text{defect}) = \\frac{29}{100}$$<br/>That is the correct answer."
+      "content": "From the problem: 31 out of every 100 buttons have a flaw.<br/>$$P(\\text{flaw}) = \\frac{31}{100}$$<br/>That is the correct answer."
     }
   ]
 }

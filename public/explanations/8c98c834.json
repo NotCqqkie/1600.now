@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Understand the model",
-      "content": "The model y = 0.1x tells us that for each minute of practice, the pianist plays 0.1 piece. To find the number of pieces for a 30‑minute session, substitute x = 30 into the equation."
+      "content": "The model y = 0.2x tells us that for each minute of practice, the pianist plays 0.2 piece. To find the number of pieces for a 20-minute session, substitute x = 20 into the equation."
     },
     {
       "title": "Substitute and compute",
-      "content": "$$y = 0.1 \\times 30 = 3$$ That confirms <strong>B</strong> is correct."
+      "content": "$$y = 0.2 \\times 20 = 4$$ That confirms <strong>B</strong> is correct."
     }
   ]
 }

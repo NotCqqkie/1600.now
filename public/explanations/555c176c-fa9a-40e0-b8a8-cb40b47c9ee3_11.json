@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Find the shared input $c$",
-      "content": "Since $p$ has slope $7$, write $p(x)=7x+b$. Use $p(3)=23$: $$7(3)+b=23,$$ so $b=2$. Then solve $p(c)=-5$: $$7c+2=-5,$$ so $c=-1$."
+      "content": "Since $p$ has slope $6$, write $p(x)=6x+b$. Use $p(4)=28$: $$6(4)+b=28,$$ so $b=4$. Then solve $p(c)=-8$: $$6c+4=-8,$$ so $c=-2$."
     },
     {
       "title": "Find the slope of $t$",
-      "content": "Now $t(c)=-6$ becomes $t(-1)=-6$, and the other point is $t(4)=34$. The slope of $t$ is $$\\frac{34-(-6)}{4-(-1)}=\\frac{40}{5}=8.$$"
+      "content": "Now $t(c)=-7$ becomes $t(-2)=-7$, and the other point is $t(4)=35$. The slope of $t$ is $$\\frac{35-(-7)}{4-(-2)}=\\frac{42}{6}=7.$$"
     },
     {
       "title": "Confirm the answer",
-      "content": "The slope of $y=t(x)$ is $8$, which matches the correct answer. The hand calculation agrees: $\\dfrac{34-(-6)}{4-(-1)}=\\dfrac{40}{5}=8$."
+      "content": "The slope of $y=t(x)$ is $7$, which matches the correct answer. The hand calculation agrees: $\\dfrac{35-(-7)}{4-(-2)}=\\dfrac{42}{6}=7$."
     }
   ]
 }

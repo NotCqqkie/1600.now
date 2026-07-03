@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Split the group into two parts",
-      "content": "The first $25$ people cost $21$ dollars each. The remaining $n-25$ people cost $14$ dollars each."
+      "content": "The first $30$ people cost $24$ dollars each. The remaining $n-30$ people cost $16$ dollars each."
     },
     {
       "title": "Write and simplify the charge",
-      "content": "$f(n)=21(25)+14(n-25)=525+14n-350=14n+175$."
+      "content": "$f(n)=24(30)+16(n-30)=720+16n-480=16n+240$."
     },
     {
       "title": "Match the choice",
-      "content": "The function $f(n)=14n+175$ matches <strong>A</strong>."
+      "content": "The function $f(n)=16n+240$ matches <strong>A</strong>."
     },
     {
       "title": "Check with the minimum group size",
-      "content": "When $n=25$, the charge should be $25\\cdot 21=525$. The correct answer gives $14(25)+175=525$, so it preserves the cost for the first $25$ people."
+      "content": "When $n=30$, the charge should be $30\\cdot 24=720$. The correct answer gives $16(30)+240=720$, so it preserves the cost for the first $30$ people."
     }
   ]
 }

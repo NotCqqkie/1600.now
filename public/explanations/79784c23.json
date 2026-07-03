@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Know what infinitely many solutions means",
-      "content": "A system has infinitely many solutions only when both equations are the same line. The second equation must produce exactly the same $y$-values as $y=6x+3$ for every $x$."
+      "content": "A system has infinitely many solutions only when both equations are the same line. The second equation must produce exactly the same $y$-values as $y=5x+4$ for every $x$."
     },
     {
       "title": "Look for an equivalent equation",
-      "content": "Equivalent equations are made by doing the same operation to both sides. Starting with<br/>$$y=6x+3$$<br/>multiply both sides by $2$:<br/>$$2y=2(6x+3).$$"
+      "content": "Equivalent equations are made by doing the same operation to both sides. Starting with<br/>$$y=5x+4$$<br/>multiply both sides by $2$:<br/>$$2y=2(5x+4).$$"
     },
     {
       "title": "Match the choice",
-      "content": "Choice D (&lsquo;$2(y)=2(6x+3)$&rsquo;) is $2(y)=2(6x+3)$, which is exactly the original equation multiplied by $2$ on both sides."
+      "content": "Choice D (&lsquo;$2(y)=2(5x+4)$&rsquo;) is $2(y)=2(5x+4)$, which is exactly the original equation multiplied by $2$ on both sides."
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice D, $2y=2(6x+3)$, is just the original equation multiplied by $2$, so it describes the same line. The system therefore has infinitely many solutions. <strong>D</strong> is correct."
+      "content": "Choice D, $2y=2(5x+4)$, is just the original equation multiplied by $2$, so it describes the same line. The system therefore has infinitely many solutions. <strong>D</strong> is correct."
     }
   ]
 }

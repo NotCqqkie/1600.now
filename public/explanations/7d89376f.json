@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Write the ticket-count equation",
-      "content": "$x$ is the number of 90-dollar tickets and $y$ is the number of 250-dollar tickets. Together they total 120 tickets: $$x + y = 120.$$"
+      "content": "$x$ is the number of 80-dollar tickets and $y$ is the number of 240-dollar tickets. Together they total 130 tickets: $$x + y = 130.$$"
     },
     {
       "title": "Write the revenue equation",
-      "content": "The 90-dollar tickets bring in $90x$ dollars and the 250-dollar tickets bring in $250y$ dollars, for a total of 27,600 dollars: $$90x + 250y = 27,600.$$"
+      "content": "The 80-dollar tickets bring in $80x$ dollars and the 240-dollar tickets bring in $240y$ dollars, for a total of 28,800 dollars: $$80x + 240y = 28,800.$$"
     },
     {
       "title": "Eliminate the answer choices",
-      "content": "<ul><li><strong>A</strong> pairs $x + y = 120$ with $90x + 250y = 27,600$ &mdash; matches our system.</li><li><strong>B</strong> uses $120 \\times 27,600$ on the right, inflating the revenue total by a factor of 120.</li><li><strong>C</strong> sets $x + y = 27,600$, which would mean 27,600 tickets sold, not 27,600 dollars.</li><li><strong>D</strong> sets $90x = 250y$ (equal revenues) and $120x + 120y = 27,600$, neither of which captures 120 tickets sold for 27,600 dollars total.</li></ul>That confirms <strong>A</strong> is correct."
+      "content": "<ul><li><strong>A</strong> pairs $x + y = 130$ with $80x + 240y = 28,800$ &mdash; matches our system.</li><li><strong>B</strong> uses $130 \\times 28,800$ on the right, inflating the revenue total by a factor of 130.</li><li><strong>C</strong> sets $x + y = 28,800$, which would mean 28,800 tickets sold, not 28,800 dollars.</li><li><strong>D</strong> sets $80x = 240y$ (equal revenues) and $130x + 130y = 28,800$, neither of which captures 130 tickets sold for 28,800 dollars total.</li></ul>That confirms <strong>A</strong> is correct."
     }
   ]
 }

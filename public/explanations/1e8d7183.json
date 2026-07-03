@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $\\left(16w-26\\right) \\left(16w+26\\right)$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $\\left(18w-30\\right) \\left(18w+30\\right)$."
     },
     {
       "title": "Algebra check",
@@ -13,15 +13,15 @@
     },
     {
       "title": "Recognize a difference of squares",
-      "content": "Write each term as a perfect square: $256w^2 = (16w)^2$ and $676 = 26^2$. So $256w^2 - 676 = (16w)^2 - 26^2$."
+      "content": "Write each term as a perfect square: $324w^2 = (18w)^2$ and $900 = 30^2$. So $324w^2 - 900 = (18w)^2 - 30^2$."
     },
     {
       "title": "Apply $a^2-b^2=(a-b)(a+b)$",
-      "content": "With $a=16w$ and $b=26$: $(16w)^2 - 26^2 = (16w - 26)(16w + 26)$."
+      "content": "With $a=18w$ and $b=30$: $(18w)^2 - 30^2 = (18w - 30)(18w + 30)$."
     },
     {
       "title": "Test the choices",
-      "content": "Expand each candidate and compare to $256w^2 - 676$.<ul><li><strong>Choice A &mdash; $(16w-26)(16w-26)$</strong>: $(16w-26)^2 = 256w^2 - 832w + 676$. Has a $w$ term and wrong constant sign. Eliminate.</li><li><strong>Choice B &mdash; $\\left(8w-13\\right) \\left(8w+13\\right)$</strong>: $64w^2 - 169$. Wrong leading coefficient and constant. Eliminate.</li><li><strong>Choice C &mdash; $(8w-13)(8w-13)$</strong>: $64w^2 - 208w + 169$. Wrong on all three terms. Eliminate.</li><li><strong>Choice D &mdash; $\\left(16w-26\\right) \\left(16w+26\\right)$</strong>: $256w^2 - 676$. Exact match.</li></ul>That matches <strong>Choice D &mdash; $\\left(16w-26\\right) \\left(16w+26\\right)$</strong>."
+      "content": "Expand each candidate and compare to $324w^2 - 900$.<ul><li><strong>Choice A &mdash; $(18w-30)(18w-30)$</strong>: $(18w-30)^2 = 324w^2 - 1,080w + 900$. Has a $w$ term and wrong constant sign. Eliminate.</li><li><strong>Choice B &mdash; $\\left(9w-15\\right) \\left(9w+15\\right)$</strong>: $81w^2 - 225$. Wrong leading coefficient and constant. Eliminate.</li><li><strong>Choice C &mdash; $(9w-15)(9w-15)$</strong>: $81w^2 - 270w + 225$. Wrong on all three terms. Eliminate.</li><li><strong>Choice D &mdash; $\\left(18w-30\\right) \\left(18w+30\\right)$</strong>: $324w^2 - 900$. Exact match.</li></ul>That matches <strong>Choice D &mdash; $\\left(18w-30\\right) \\left(18w+30\\right)$</strong>."
     }
   ]
 }

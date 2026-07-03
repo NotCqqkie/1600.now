@@ -1,19 +1,19 @@
 {
   "questionId": "70b33953-aa61-407d-a25a-a438792bed03_5",
-  "correctAnswer": ".25,0.25,1/4",
+  "correctAnswer": ".2,0.2,1/5",
   "section": "Math",
   "steps": [
     {
       "title": "Set up the equation",
-      "content": "Set $g(a)=29$ and write the equation.<br/>$$16a+25=29$$"
+      "content": "Set $f(a)=21$ and write the equation.<br/>$$15a+18=21$$"
     },
     {
       "title": "Solve for a",
-      "content": "Subtract $25$, then divide by $16$.<br/>$$16a=4\\;\\Rightarrow\\;a=\\tfrac{1}{4}$$<br/>The answer is <strong>1/4</strong>."
+      "content": "Subtract $18$, then divide by $15$.<br/>$$15a=3\\;\\Rightarrow\\;a=\\tfrac{1}{5}$$<br/>The answer is <strong>1/5</strong>."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $.25,0.25,1/4$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $.25,0.25,1/4$."
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $.2,0.2,1/5$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $.2,0.2,1/5$."
     }
   ]
 }

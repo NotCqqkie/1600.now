@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply the 29% increase to the 2012 figure",
-      "content": "A 29% increase means the 2022 projection is 129% of the 2012 jobs:<br/>$$113{,}000 \\times 1.29 = 145{,}770$$"
+      "title": "Apply the 27% increase to the 2014 figure",
+      "content": "A 27% increase means the 2024 projection is 127% of the 2014 jobs:<br/>$$122{,}000 \\times 1.27 = 154{,}940$$"
     },
     {
       "title": "Match to the closest choice",
-      "content": "Among the four choices, 145,800 differs from 145,770 by only 30, far less than any other option.<br/>That matches <strong>Choice D &mdash; 145,800</strong>."
+      "content": "Among the four choices, 154,900 differs from 154,940 by only 40, far less than any other option.<br/>That matches <strong>Choice D &mdash; 154,900</strong>."
     }
   ]
 }

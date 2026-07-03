@@ -1,6 +1,6 @@
 {
   "questionId": "249d3f80",
-  "correctAnswer": "100",
+  "correctAnswer": "110",
   "section": "Math",
   "steps": [
     {
@@ -9,11 +9,11 @@
     },
     {
       "title": "Recognize the central angle",
-      "content": "Angle $\\angle ROS$ has its vertex at $O$ (the center) with rays extending to points $R$ and $S$ on the circle. This is a <strong>central angle</strong>, and it directly intercepts arc $RS$."
+      "content": "Angle $\\angle UMV$ has its vertex at $M$ (the center) with rays extending to points $U$ and $V$ on the circle. This is a <strong>central angle</strong>, and it directly intercepts arc $UV$."
     },
     {
       "title": "Use the central angle property",
-      "content": "The measure of a central angle equals the measure of its intercepted arc. Therefore, $\\angle ROS = 100^{\\circ}$.",
+      "content": "The measure of a central angle equals the measure of its intercepted arc. Therefore, $\\angle UMV = 110^{\\circ}$.",
       "formula": "$$\\text{Central angle measure} = \\text{Arc measure}$$"
     }
   ]

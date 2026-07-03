@@ -1,15 +1,15 @@
 {
   "questionId": "571174f3",
-  "correctAnswer": ".2857",
+  "correctAnswer": "3/11",
   "section": "Math",
   "steps": [
     {
       "title": "Infinitely Many Solutions Means the Equations Are Proportional",
-      "content": "When a system has infinitely many solutions, the two equations represent the same line. The constants show the scale factor from the first equation to the second: $$\\frac{5/2}{2/7}=\\frac{35}{4}$$ So every coefficient in the second equation must be $\\frac{35}{4}$ times the matching coefficient in the first equation."
+      "content": "When a system has infinitely many solutions, the two equations represent the same line. The constants show the scale factor from the first equation to the second: $$\\frac{21/4}{3/5}=\\frac{35}{4}$$ So every coefficient in the second equation must be $\\frac{35}{4}$ times the matching coefficient in the first equation."
     },
     {
       "title": "Match the coefficients",
-      "content": "Multiplying the first equation's coefficients by $\\frac{35}{4}$ gives $$g=\\frac{35}{4}\\cdot\\frac{2}{5}=\\frac{7}{2}$$ and $$k=\\frac{35}{4}\\cdot\\frac{7}{5}=\\frac{49}{4}$$ Therefore $$\\frac{g}{k}=\\frac{7/2}{49/4}=\\frac{2}{7}$$ The exact answer is <strong>2/7</strong>."
+      "content": "Multiplying the first equation's coefficients by $\\frac{35}{4}$ gives $$g=\\frac{35}{4}\\cdot\\frac{3}{7}=\\frac{15}{4}$$ and $$k=\\frac{35}{4}\\cdot\\frac{11}{7}=\\frac{55}{4}$$ Therefore $$\\frac{g}{k}=\\frac{15/4}{55/4}=\\frac{3}{11}$$ The exact answer is <strong>3/11</strong>."
     }
   ]
 }

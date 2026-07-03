@@ -14,7 +14,7 @@
     },
     {
       "title": "Substitute the given dimensions and calculate",
-      "content": "Substitute $l = 17$ cm and $w = 7$ cm:<br/>$$A = 17 \\times 7 = 119\\text{ cm}^2$$<br/>That is the correct answer."
+      "content": "Substitute $l = 19$ cm and $w = 6$ cm:<br/>$$A = 19 \\times 6 = 114\\text{ cm}^2$$<br/>That is the correct answer."
     }
   ]
 }

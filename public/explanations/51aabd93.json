@@ -9,15 +9,15 @@
     },
     {
       "title": "Combine constants first",
-      "content": "$(p+3)+8$ is the same as $p+11$, so the equation becomes $$p+11=10$$"
+      "content": "$(p+4)+9$ is the same as $p+13$, so the equation becomes $$p+13=12$$"
     },
     {
       "title": "Solve for p",
-      "content": "Subtract $11$ from both sides: $$p=10-11=-1$$"
+      "content": "Subtract $13$ from both sides: $$p=12-13=-1$$"
     },
     {
       "title": "Check the choices",
-      "content": "The correct answer is $-1$, which is the solution. The positive choices do not work because adding $11$ to any of them gives a value greater than $10$."
+      "content": "<strong>Choice A</strong>, $-1$, is the correct answer. The positive choices do not work because adding $13$ to any of them gives a value greater than $12$."
     }
   ]
 }

@@ -9,15 +9,15 @@
     },
     {
       "title": "Evaluate the function",
-      "content": "Substitute $x=0$ into $y=\\left(\\frac{8}{13}\\right)^{x+1}$: $y=\\left(\\frac{8}{13}\\right)^1=\\frac{8}{13}$."
+      "content": "Substitute $x=0$ into $y=\\left(\\frac{7}{12}\\right)^{x+1}$: $y=\\left(\\frac{7}{12}\\right)^1=\\frac{7}{12}$."
     },
     {
       "title": "Match the point",
-      "content": "The intercept is $\\left(0,\\frac{8}{13}\\right)$, which matches <strong>Choice D &mdash; $(0,\\frac{8}{13})$</strong>."
+      "content": "The intercept is $\\left(0,\\frac{7}{12}\\right)$, which matches <strong>Choice D &mdash; $(0,\\frac{7}{12})$</strong>."
     },
     {
       "title": "Check the point format",
-      "content": "An intercept is a point, not just a number. Since the graph crosses the $y$-axis when $x=0$, the point must have first coordinate $0$ and second coordinate $\\frac{8}{13}$."
+      "content": "An intercept is a point, not just a number. Since the graph crosses the $y$-axis when $x=0$, the point must have first coordinate $0$ and second coordinate $\\frac{7}{12}$."
     }
   ]
 }

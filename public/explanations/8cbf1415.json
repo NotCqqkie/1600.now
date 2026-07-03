@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Recognize percentage of percentage multiplication",
-      "content": "The problem has two conditions: <strong>40% of all items are red</strong>, and <strong>30% of the red items have stripes</strong>. To find items that are both red and striped, we need 30% of 40%. The fastest approach: multiply the two percentages as decimals."
+      "content": "The problem has two conditions: <strong>50% of all items are blue</strong>, and <strong>24% of the blue items have labels</strong>. To find items that are both blue and labeled, we need 24% of 50%. The fastest approach: multiply the two percentages as decimals."
     },
     {
       "title": "Multiply and identify the percentage",
-      "content": "Convert to decimals: 30% = 0.30 and 40% = 0.40.<br/>$$0.30 \\times 0.40 = 0.12$$Converting back to percentage: $$0.12 = 12\\%$$That confirms <strong>B</strong> is correct."
+      "content": "Convert to decimals: 24% = 0.24 and 50% = 0.50.<br/>$$0.24 \\times 0.50 = 0.12$$Converting back to percentage: $$0.12 = 12\\%$$That confirms <strong>B</strong> is correct."
     }
   ]
 }

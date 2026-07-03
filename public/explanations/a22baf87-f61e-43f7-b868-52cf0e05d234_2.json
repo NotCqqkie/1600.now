@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Translate the first sentence",
-      "content": "&quot;Carrie has 4 times as many dollars as Marjani&quot; means Carrie's amount equals 4 times Marjani's amount:<br/>$$c=4m$$"
+      "content": "&quot;Elena has 3 times as many dollars as Noor&quot; means Elena's amount equals 3 times Noor's amount:<br/>$$e=3n$$"
     },
     {
       "title": "Translate the second sentence",
-      "content": "&quot;Together they have a total of \\$40.00&quot; means their combined amount equals 40:<br/>$$c+m=40$$"
+      "content": "&quot;Together they have a total of \\$48.00&quot; means their combined amount equals 48:<br/>$$e+n=48$$"
     },
     {
       "title": "Eliminate each choice",
-      "content": "<ul><li>A) $c=4m$ and $c+m=40$: matches both translations. Keep.</li><li>B) $m=4c$ and $c+m=40$: this would mean Marjani has 4 times Carrie's money &mdash; reversed. Eliminate.</li><li>C) $c=40m$ and $c+m=4$: wrong multiplier and wrong total. Eliminate.</li><li>D) $m=40c$ and $c+m=4$: reversed and wrong total. Eliminate.</li></ul>That confirms <strong>A</strong> is correct."
+      "content": "<ul><li>A) $e=3n$ and $e+n=48$: matches both translations. Keep.</li><li>B) $n=3e$ and $e+n=48$: this would mean Noor has 3 times Elena's money &mdash; reversed. Eliminate.</li><li>C) $e=48n$ and $e+n=3$: wrong multiplier and wrong total. Eliminate.</li><li>D) $n=48e$ and $e+n=3$: reversed and wrong total. Eliminate.</li></ul>That confirms <strong>A</strong> is correct."
     }
   ]
 }

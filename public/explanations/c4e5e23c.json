@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Use the square area scale factor",
-      "content": "The side length of square M is $6$ times the side length of square N. Since area scales by the square of the side-length scale factor, square M's area is $6^2=36$ times square N's area."
+      "content": "The side length of square M is $5$ times the side length of square N. Since area scales by the square of the side-length scale factor, square M's area is $5^2=25$ times square N's area."
     },
     {
       "title": "Find the side length of square N",
-      "content": "The area of square N is 49 square feet. Since area equals side squared, the side of N is $$\\sqrt{49} = 7$$ feet."
+      "content": "The area of square N is 64 square feet. Since area equals side squared, the side of N is $$\\sqrt{64} = 8$$ feet."
     },
     {
       "title": "Apply the area scale factor rule",
-      "content": "When linear dimensions scale by factor $k$, area scales by $k^2$. Since the side of M is 6 times the side of N, the area of M is $6^2 = 36$ times the area of N. Therefore, area of M = $$36 \\times 49 = 1,764$$ square feet. That is the correct answer."
+      "content": "When linear dimensions scale by factor $k$, area scales by $k^2$. Since the side of M is 5 times the side of N, the area of M is $5^2 = 25$ times the area of N. Therefore, area of M = $$25 \\times 64 = 1,600$$ square feet. That is choice A, the correct answer."
     }
   ]
 }

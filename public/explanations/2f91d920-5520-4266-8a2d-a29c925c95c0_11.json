@@ -9,7 +9,7 @@
     },
     {
       "title": "Check the three options for h",
-      "content": "If $h=28$, then all six values in B are A shifted up by $1$, so the standard deviations are equal and II does not work. If $h=23$, the last value is closer to the center than $27+1$, so B is less spread out than A and I works. If $h=29$, the last value is farther from the center than $27+1$, so B is more spread out than A and III does not work."
+      "content": "If $h=27$, then all six values in B are A shifted up by $1$, so the standard deviations are equal and II does not work. If $h=22$, the last value is closer to the center than $26+1$, so B is less spread out than A and I works. If $h=28$, the last value is farther from the center than $26+1$, so B is more spread out than A and III does not work."
     },
     {
       "title": "Match the choice",

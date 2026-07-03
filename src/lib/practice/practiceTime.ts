@@ -10,8 +10,11 @@ const formatTwoDigitTimePart = (value: number): string =>
 
 export const formatPracticeClock = (seconds: number): string => {
   const { minutes, remainder } = getPracticeTimeParts(seconds);
-  return `${formatTwoDigitTimePart(minutes)}:${formatTwoDigitTimePart(remainder)}`;
+  return `${minutes}:${formatTwoDigitTimePart(remainder)}`;
 };
+
+export const formatPracticeClockPlaceholder = (seconds: number): string =>
+  formatPracticeClock(seconds).replace(/\d/g, "-");
 
 export const formatPracticeResultTime = (seconds: number): string => {
   if (!seconds) return "0s";

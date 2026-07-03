@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Use a weighted mean",
-      "content": "The two penguin groups have different sizes, so do not average $87$ and $93$ directly. Weight each mean by the number of penguins in that group."
+      "content": "The two penguin groups have different sizes, so do not average $84$ and $90$ directly. Weight each mean by the number of penguins in that group."
     },
     {
       "title": "Calculate the total height sum",
-      "content": "The Kerguelen group contributes $$380\\cdot87=33{,}060.$$ The Falkland group contributes $$190\\cdot93=17{,}670.$$ The combined total is $$33{,}060+17{,}670=50{,}730.$$"
+      "content": "The South Georgia group contributes $$420\\cdot84=35{,}280.$$ The Macquarie Island group contributes $$210\\cdot90=18{,}900.$$ The combined total is $$35{,}280+18{,}900=54{,}180.$$"
     },
     {
       "title": "Divide by the total number of penguins",
-      "content": "There are $$380+190=570$$ penguins total, so the overall mean is $$\\frac{50{,}730}{570}=89.$$"
+      "content": "There are $$420+210=630$$ penguins total, so the overall mean is $$\\frac{54{,}180}{630}=86.$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "$89$ matches <strong>B</strong>."
+      "content": "$86$ matches <strong>B</strong>."
     }
   ]
 }

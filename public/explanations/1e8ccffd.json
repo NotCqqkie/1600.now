@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Total points of all 8 players",
-      "content": "The total points scored by all 8 players is the mean multiplied by the number of players:<br/>$$8 \\times 14.5 = 116$$"
+      "content": "The total points scored by all 8 players is the mean multiplied by the number of players:<br/>$$8 \\times 16.5 = 132$$"
     },
     {
       "title": "Highest score after removal",
-      "content": "The sum of the remaining 7 players after removing the highest score is $$7 \\times 12 = 84$$.<br/>Subtracting this from the total gives the highest score: $$116 - 84 = 32$$.<br/>That matches <strong>Choice C &mdash; 32</strong>- <strong>C</strong>."
+      "content": "The sum of the remaining 7 players after removing the highest score is $$7 \\times 14 = 98$$.<br/>Subtracting this from the total gives the highest score: $$132 - 98 = 34$$.<br/>That matches <strong>Choice C &mdash; 34</strong>- <strong>C</strong>."
     }
   ]
 }

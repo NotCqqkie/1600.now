@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Salt from each mixture",
-      "content": "Low‑salt mixture: 2% of x kg → $$0.02x$$ kg salt.<br/>High‑salt mixture: 96% of y kg → $$0.96y$$ kg salt."
+      "content": "Low-salt mixture: 3% of x kg &rarr; $$0.03x$$ kg salt.<br/>High-salt mixture: 92% of y kg &rarr; $$0.92y$$ kg salt."
     },
     {
       "title": "Total salt required",
-      "content": "Desired mixture: 24 kg at 4% salt → total salt needed = $$0.04\\times24$$ kg.<br/>Set sum of contributions equal to required salt: $$0.02x+0.96y = 0.04\\times24$$.<br/><strong>B</strong> is correct."
+      "content": "Desired mixture: 30 kg at 5% salt &rarr; total salt needed = $$0.05\\times30$$ kg.<br/>Set sum of contributions equal to required salt: $$0.03x+0.92y = 0.05\\times30$$.<br/><strong>B</strong> is correct."
     }
   ]
 }

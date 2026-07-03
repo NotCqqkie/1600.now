@@ -9,19 +9,19 @@
     },
     {
       "title": "Identify center and radius of circle P",
-      "content": "Standard form $(x-h)^2 + (y-k)^2 = r^2$ has center $(h,k)$ and radius $r$. For $(x-3)^2 + (y+7)^2 = 25$: center $(3, -7)$, radius $\\sqrt{25} = 5$."
+      "content": "Standard form $(x-h)^2 + (y-k)^2 = r^2$ has center $(h,k)$ and radius $r$. For $(x+4)^2 + (y-6)^2 = 16$: center $(-4, 6)$, radius $\\sqrt{16} = 4$."
     },
     {
       "title": "Find center of circle Q",
-      "content": "Shift 1 right and 2 down: $(3+1, -7-2) = (4, -9)$."
+      "content": "Shift 2 right and 3 down: $(-4+2, 6-3) = (-2, 3)$."
     },
     {
       "title": "Find radius of circle Q",
-      "content": "Diameter of Q is double that of P. P has diameter $10$, so Q has diameter $20$ and radius $10$. Thus $r^2 = 100$."
+      "content": "Diameter of Q is double that of P. P has diameter $8$, so Q has diameter $16$ and radius $8$. Thus $r^2 = 64$."
     },
     {
       "title": "Write the final equation",
-      "content": "Circle Q has center $(4,-9)$ and radius $10$, so its equation is $$(x-4)^2+(y+9)^2=100.$$ That matches <strong>D</strong>."
+      "content": "Circle Q has center $(-2,3)$ and radius $8$, so its equation is $$(x+2)^2+(y-3)^2=64.$$ That matches <strong>D</strong>."
     }
   ]
 }

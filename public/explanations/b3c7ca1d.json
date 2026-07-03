@@ -9,7 +9,7 @@
     },
     {
       "title": "Check each choice",
-      "content": "<ul><li>A) $x=3$ is a vertical line and $y=5$ is a horizontal line; they cross at $(3,5)$. One solution.</li><li>B) $y=6x+6$ has slope $6$ and $y=5x+6$ has slope $5$; different slopes intersect once (here at $(0,6)$). One solution.</li><li>C) $y=16x+3$ and $y=16x+19$ have the same slope $16$ but different intercepts $3$ and $19$. Parallel, no solution.</li><li>D) $y=5$ has slope $0$ and $y=5x+5$ has slope $5$; different slopes intersect once (at $(0,5)$). One solution.</li></ul>That is the correct answer."
+      "content": "<ul><li>A) $x=4$ is a vertical line and $y=7$ is a horizontal line; they cross at $(4,7)$. One solution.</li><li>B) $y=8x+4$ has slope $8$ and $y=3x+4$ has slope $3$; different slopes intersect once (here at $(0,4)$). One solution.</li><li>C) $y=12x+2$ and $y=12x+17$ have the same slope $12$ but different intercepts $2$ and $17$. Parallel, no solution.</li><li>D) $y=6$ has slope $0$ and $y=4x+6$ has slope $4$; different slopes intersect once (at $(0,6)$). One solution.</li></ul>That is the correct answer."
     }
   ]
 }

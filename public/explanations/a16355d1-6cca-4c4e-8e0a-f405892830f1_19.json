@@ -13,7 +13,7 @@
     },
     {
       "title": "Apply the conversion to the given angle",
-      "content": "The angle is $-\\frac{5}{12}\\pi$ radians. Multiply by the conversion factor to convert to degrees: $$-\\frac{5}{12}\\pi \\cdot \\frac{180^{\\circ}}{\\pi}$$<br/>That confirms <strong>C</strong> is correct."
+      "content": "The angle is $-\\frac{7}{18}\\pi$ radians. Multiply by the conversion factor to convert to degrees: $$-\\frac{7}{18}\\pi \\cdot \\frac{180^{\\circ}}{\\pi}$$<br/>That confirms <strong>C</strong> is correct."
     }
   ]
 }

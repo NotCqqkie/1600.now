@@ -1,19 +1,19 @@
 {
   "questionId": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_16",
-  "correctAnswer": "26",
+  "correctAnswer": "20",
   "section": "Math",
   "steps": [
     {
       "title": "Match the given root to the quadratic formula",
-      "content": "The answer choices are about the value of $c$, and the given solution already has the shape of a quadratic-formula result. For $3w^2 + 11w - c = 0$, the coefficients are $a=3$, $b=11$, and the constant term is $-c$. The quadratic formula gives:<br/>$$w = \\frac{-11 \\pm \\sqrt{11^2 - 4(3)(-c)}}{2(3)}$$<br/>Simplify the expression under the square root:<br/>$$w = \\frac{-11 \\pm \\sqrt{121 + 12c}}{6}$$"
+      "content": "The answer choices are about the value of $c$, and the given solution already has the shape of a quadratic-formula result. For $3w^2 + 13w - c = 0$, the coefficients are $a=3$, $b=13$, and the constant term is $-c$. The quadratic formula gives:<br/>$$w = \\frac{-13 \\pm \\sqrt{13^2 - 4(3)(-c)}}{2(3)}$$<br/>Simplify the expression under the square root:<br/>$$w = \\frac{-13 \\pm \\sqrt{169 + 12c}}{6}$$"
     },
     {
       "title": "Extract the discriminant from the given solution",
-      "content": "The given solution $\\frac{-11+\\sqrt{433}}{6}$ matches our formula structure exactly. By comparing with $\\frac{-11 \\pm \\sqrt{121 + 12c}}{6}$, the term under the square root must be 433:<br/>$$121 + 12c = 433$$"
+      "content": "The given solution $\\frac{-13+\\sqrt{409}}{6}$ matches our formula structure exactly. By comparing with $\\frac{-13 \\pm \\sqrt{169 + 12c}}{6}$, the term under the square root must be 409:<br/>$$169 + 12c = 409$$"
     },
     {
       "title": "Solve for c",
-      "content": "Subtract 121 from both sides:<br/>$$12c = 312$$<br/>Divide by 12:<br/>$$c = 26$$"
+      "content": "Subtract 169 from both sides:<br/>$$12c = 240$$<br/>Divide by 12:<br/>$$c = 20$$"
     }
   ]
 }

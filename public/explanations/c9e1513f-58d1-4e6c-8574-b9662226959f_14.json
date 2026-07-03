@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $f(x)=(x-2)(x-40)$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $f(x)=(x-4)(x-42)$."
     },
     {
       "title": "Algebra check",
@@ -13,11 +13,11 @@
     },
     {
       "title": "Use factored form to display the zeros",
-      "content": "A form that displays the zeros should look like $(x-r)(x-s)$, where the zeros are $r$ and $s$. For $x^2-42x+80$, the two factor constants must multiply to $80$ and add to $-42$."
+      "content": "A form that displays the zeros should look like $(x-r)(x-s)$, where the zeros are $r$ and $s$. For $x^2-46x+168$, the two factor constants must multiply to $168$ and add to $-46$."
     },
     {
-      "title": "Scan the choices for 2 and 40 as visible literals",
-      "content": "Factoring by inspection gives the same result: two numbers that multiply to $80$ and add to $-42$ are $-2$ and $-40$, so<br/>$$f(x)=(x-2)(x-40)$$<br/>That form displays the zeros $x=2$ and $x=40$ as constants, which matches <strong>B</strong>."
+      "title": "Scan the choices for 4 and 42 as visible literals",
+      "content": "Factoring by inspection gives the same result: two numbers that multiply to $168$ and add to $-46$ are $-4$ and $-42$, so<br/>$$f(x)=(x-4)(x-42)$$<br/>That form displays the zeros $x=4$ and $x=42$ as constants, which matches <strong>B</strong>."
     }
   ]
 }

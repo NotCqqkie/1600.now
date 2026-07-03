@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Represent total savings",
-      "content": "Sabrina already has 180 dollars. If $x$ is the additional amount she saves, her total savings are $180+x$."
+      "content": "Nina already has 190 dollars. If $x$ is the additional amount she saves, her total savings are $190+x$."
     },
     {
       "title": "Translate at least",
-      "content": "At least 240 dollars means the total must be greater than or equal to $240$."
+      "content": "At least 260 dollars means the total must be greater than or equal to $260$."
     },
     {
       "title": "Match the inequality",
-      "content": "The inequality is $180+x\\ge240$, which matches <strong>C</strong>."
+      "content": "The inequality is $190+x\\ge260$, which matches <strong>C</strong>."
     }
   ]
 }

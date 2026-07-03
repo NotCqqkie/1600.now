@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Set up the total weight expression",
-      "content": "The truck carries three types of load: a 190-pound piece of equipment, $x$ crates at 25 pounds each, and $y$ crates at 62 pounds each.<br/>$$\\text{Total weight} = 190 + 25x + 62y$$"
+      "content": "The truck carries three types of load: a 210-pound machine, $x$ boxes at 28 pounds each, and $y$ boxes at 64 pounds each.<br/>$$\\text{Total weight} = 210 + 28x + 64y$$"
     },
     {
       "title": "Apply the maximum capacity constraint",
-      "content": "The total weight cannot exceed 5,630 pounds:<br/>$$190 + 25x + 62y \\le 5{,}630$$<br/>Subtract 190 from both sides:<br/>$$25x + 62y \\le 5{,}440$$"
+      "content": "The total weight cannot exceed 5,940 pounds:<br/>$$210 + 28x + 64y \\le 5{,}940$$<br/>Subtract 210 from both sides:<br/>$$28x + 64y \\le 5{,}730$$"
     },
     {
       "title": "Evaluate each answer choice",
-      "content": "<ul><li><strong>$25x+62y \\le 5,440$</strong> is correct.</li><li><strong>B</strong>: $25x + 62y \\ge 5{,}440$ &mdash; the $\\ge$ direction would mean the load must be at least 5,440 pounds, not at most. Incorrect.</li><li><strong>C</strong>: $62x + 25y \\le 5{,}630$ &mdash; the coefficients are swapped (62 with $x$, 25 with $y$), and 190 was not subtracted. Incorrect.</li><li><strong>D</strong>: $62x + 25y \\ge 5{,}630$ &mdash; both the coefficients are swapped and the inequality direction is wrong. Incorrect.</li></ul>"
+      "content": "<ul><li><strong>$28x+64y \\le 5,730$</strong> is correct.</li><li><strong>B</strong>: $28x + 64y \\ge 5{,}730$ &mdash; the $\\ge$ direction would mean the load must be at least 5,730 pounds, not at most. Incorrect.</li><li><strong>C</strong>: $64x + 28y \\le 5{,}940$ &mdash; the coefficients are swapped (64 with $x$, 28 with $y$), and 210 was not subtracted. Incorrect.</li><li><strong>D</strong>: $64x + 28y \\ge 5{,}940$ &mdash; both the coefficients are swapped and the inequality direction is wrong. Incorrect.</li></ul>"
     }
   ]
 }

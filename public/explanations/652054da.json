@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the operation to isolate p",
-      "content": "We have $s = \\frac{3}{2} p$ and need to solve for $p$. Since $p$ is multiplied by $\\frac{3}{2}$, we divide both sides by $\\frac{3}{2}$ to isolate it."
+      "content": "We have $s = \\frac{5}{3} p$ and need to solve for $p$. Since $p$ is multiplied by $\\frac{5}{3}$, we divide both sides by $\\frac{5}{3}$ to isolate it."
     },
     {
       "title": "Execute the division",
-      "content": "$$p = \\frac{s}{\\frac{3}{2}}$$<br/>Dividing by a fraction equals multiplying by its reciprocal:<br/>$$p = s \\cdot \\frac{2}{3} = \\frac{2}{3} s$$<br/>This confirms <strong>A</strong> is correct."
+      "content": "$$p = \\frac{s}{\\frac{5}{3}}$$<br/>Dividing by a fraction equals multiplying by its reciprocal:<br/>$$p = s \\cdot \\frac{3}{5} = \\frac{3}{5} s$$<br/>This confirms <strong>A</strong> is correct."
     }
   ]
 }

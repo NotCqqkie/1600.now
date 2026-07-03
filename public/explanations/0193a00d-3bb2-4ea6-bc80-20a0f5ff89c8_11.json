@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Simplify both sides",
-      "content": "For infinitely many solutions, the equation must be true for every value of $x$. Expand each side: $$a(4x-8)+5a=4ax-8a+5a=4ax-3a$$ $$4(ax-2a)-20=4ax-8a-20$$"
+      "content": "For infinitely many solutions, the equation must be true for every value of $x$. Expand each side: $$a(5x-15)+4a=5ax-15a+4a=5ax-11a$$ $$5(ax-3a)-20=5ax-15a-20$$"
     },
     {
       "title": "Match the constant terms",
-      "content": "The $4ax$ terms already match, so the constant terms must also match: $$-3a=-8a-20$$ $$5a=-20$$ $$a=-4$$"
+      "content": "The $5ax$ terms already match, so the constant terms must also match: $$-11a=-15a-20$$ $$4a=-20$$ $$a=-5$$"
     },
     {
       "title": "Choose the answer",
-      "content": "Only $a=-4$ makes the two sides identical: both become $-16x+12$. <strong>Choice A &mdash; -4 only</strong>."
+      "content": "Only $a=-5$ makes the two sides identical: both become $-25x+55$. <strong>Choice A &mdash; -5 only</strong>."
     }
   ]
 }

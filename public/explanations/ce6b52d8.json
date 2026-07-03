@@ -1,6 +1,6 @@
 {
   "questionId": "ce6b52d8",
-  "correctAnswer": "60",
+  "correctAnswer": "69",
   "section": "Math",
   "steps": [
     {
@@ -9,11 +9,11 @@
     },
     {
       "title": "Simplify both sides",
-      "content": "Expand the left side: $$2(3t-10)+t=6t-20+t=7t-20.$$ So $$7t-20=40+4t.$$"
+      "content": "Expand the left side: $$2(3t-12)+t=6t-24+t=7t-24.$$ So $$7t-24=45+4t.$$"
     },
     {
       "title": "Isolate $3t$",
-      "content": "Subtract $4t$ and add $20$: $$3t=60.$$ The answer is <strong>60</strong>. This avoids solving for $t$ because the problem asks directly for $3t$."
+      "content": "Subtract $4t$ and add $24$: $$3t=69.$$ The answer is <strong>69</strong>. This avoids solving for $t$ because the problem asks directly for $3t$."
     }
   ]
 }

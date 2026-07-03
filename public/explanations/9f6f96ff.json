@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Set up the system of equations from the problem",
-      "content": "The wire is cut into two parts totaling 106 inches:<br/>$$x + y = 106$$<br/>The problem states x is 6 more than 4 times y:<br/>$$x = 4y + 6$$"
+      "content": "The rope is cut into two parts totaling 123 inches:<br/>$$x + y = 123$$<br/>The problem states x is 3 more than 5 times y:<br/>$$x = 5y + 3$$"
     },
     {
       "title": "Substitute and solve for y",
-      "content": "Substitute the second equation into the first:<br/>$$(4y + 6) + y = 106$$<br/>$$5y + 6 = 106$$<br/>$$5y = 100$$<br/>$$y = 20$$"
+      "content": "Substitute the second equation into the first:<br/>$$(5y + 3) + y = 123$$<br/>$$6y + 3 = 123$$<br/>$$6y = 120$$<br/>$$y = 20$$"
     },
     {
       "title": "Calculate x and identify the choice",
-      "content": "Substitute $y = 20$ into $x = 4y + 6$:<br/>$$x = 4(20) + 6$$<br/>$$x = 80 + 6$$<br/>$$x = 86$$<br/>That confirms <strong>D</strong> is correct."
+      "content": "Substitute $y = 20$ into $x = 5y + 3$:<br/>$$x = 5(20) + 3$$<br/>$$x = 100 + 3$$<br/>$$x = 103$$<br/>That confirms <strong>D</strong> is correct."
     }
   ]
 }

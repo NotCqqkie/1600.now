@@ -1,19 +1,19 @@
 {
   "questionId": "b75f7812",
-  "correctAnswer": "4",
+  "correctAnswer": "5",
   "section": "Math",
   "steps": [
     {
       "title": "Set up the inequality from the constraint",
-      "content": "The total cost is $60h$ dollars for the rental plus $10$ dollars for the course, where $h$ is the number of hours. Since Maria wants to spend no more than $280$ dollars: $$60h + 10 \\leq 280$$"
+      "content": "The total cost is $50h$ dollars for the rental plus $15$ dollars for the lesson, where $h$ is the number of hours. Since Jasmine wants to spend no more than $285$ dollars: $$50h + 15 \\leq 285$$"
     },
     {
       "title": "Solve the inequality",
-      "content": "Subtract 10 from both sides: $$60h \\leq 270$$ Divide both sides by 60: $$h \\leq \\frac{270}{60} = \\frac{9}{2} = 4.5$$"
+      "content": "Subtract 15 from both sides: $$50h \\leq 270$$ Divide both sides by 50: $$h \\leq \\frac{270}{50} = \\frac{27}{5} = 5.4$$"
     },
     {
       "title": "Apply the whole number constraint",
-      "content": "Since $h$ must be a whole number of hours and $h \\leq 4.5$, the maximum value of $h$ is 4. Verify: $60(4) + 10 = 240 + 10 = 250 \\leq 280$ ✓<br/>The maximum number of hours is <strong>4</strong>."
+      "content": "Since $h$ must be a whole number of hours and $h \\leq 5.4$, the maximum value of $h$ is 5. Verify: $50(5) + 15 = 250 + 15 = 265 \\leq 285$<br/>The maximum number of hours is <strong>5</strong>."
     }
   ]
 }

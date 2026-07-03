@@ -1,19 +1,19 @@
 {
   "questionId": "29b11893-ee0c-48ae-8103-403d9652ad14_13",
-  "correctAnswer": "208",
+  "correctAnswer": "214",
   "section": "Math",
   "steps": [
     {
       "title": "Set up",
-      "content": "This is a quadratic equation, so the goal is to find its roots. The quadratic formula is a direct way to solve it when simple factoring is not the focus. Rewrite the equation in standard form by subtracting 47 from both sides: $x^2 + 5x - 47 = 0$. The quadratic formula gives $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$ with $a = 1$, $b = 5$, $c = -47$."
+      "content": "This is a quadratic equation, so the goal is to find its roots. The quadratic formula is a direct way to solve it when simple factoring is not the focus. Rewrite the equation in standard form by subtracting 43 from both sides: $x^2 + 7x - 43 = 0$. The quadratic formula gives $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$ with $a = 1$, $b = 7$, $c = -43$."
     },
     {
       "title": "Solve",
-      "content": "Substitute: $x = \\frac{-5 \\pm \\sqrt{25 - 4(1)(-47)}}{2} = \\frac{-5 \\pm \\sqrt{25 + 188}}{2} = \\frac{-5 \\pm \\sqrt{213}}{2}$. So the two solutions are $\\frac{-5 + \\sqrt{213}}{2}$ and $\\frac{-5 - \\sqrt{213}}{2}$."
+      "content": "Substitute: $x = \\frac{-7 \\pm \\sqrt{49 - 4(1)(-43)}}{2} = \\frac{-7 \\pm \\sqrt{49 + 172}}{2} = \\frac{-7 \\pm \\sqrt{221}}{2}$. So the two solutions are $\\frac{-7 + \\sqrt{221}}{2}$ and $\\frac{-7 - \\sqrt{221}}{2}$."
     },
     {
       "title": "Answer",
-      "content": "Matching to the given form $\\frac{m \\pm \\sqrt{q}}{2}$: $m = -5$ and $q = 213$. Therefore $m+q=-5+213=208$."
+      "content": "Matching to the given form $\\frac{m \\pm \\sqrt{q}}{2}$: $m = -7$ and $q = 221$. Therefore $m+q=-7+221=214$."
     }
   ]
 }

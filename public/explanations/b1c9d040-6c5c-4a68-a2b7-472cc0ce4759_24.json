@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The first sentence states a general aerodynamic principle: sleek vehicles outperform bulky ones. The second sentence introduces the F-4 Phantom as a specific aircraft with a particular design feature. The blank must bridge a general claim to a concrete illustration of it."
+      "content": "The first sentence states a general aerodynamic principle: sleek vehicles outperform bulky ones. The second sentence introduces the F-4 Phantom II jet as a specific aircraft with a particular design feature. The blank must bridge a general claim to a concrete illustration of it."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; however,</strong>: signals a contradiction or contrast. The F-4 Phantom&apos;s design supports the principle rather than contradicting it. &#10007;</li><li><strong>Choice B &mdash; meanwhile,</strong>: implies two things happening at the same time. There is no simultaneous action here. &#10007;</li><li><strong>Choice C &mdash; for example,</strong>: introduces a specific case that illustrates the preceding general statement. The F-4 Phantom serves exactly that role. &#10003;</li><li><strong>Choice D &mdash; additionally,</strong>: adds a second separate point. The F-4 is not an additional point; it is an example of the first point. &#10007;</li></ul>That is the correct answer."
+      "content": "<ul><li><strong>Choice A &mdash; however,</strong>: signals a contradiction or contrast. The F-4 Phantom II jet&apos;s design supports the principle rather than contradicting it. &#10007;</li><li><strong>Choice B &mdash; meanwhile,</strong>: implies two things happening at the same time. There is no simultaneous action here. &#10007;</li><li><strong>Choice C &mdash; for example,</strong>: introduces a specific case that illustrates the preceding general statement. The F-4 Phantom II jet serves exactly that role. &#10003;</li><li><strong>Choice D &mdash; additionally,</strong>: adds a second separate point. The F-4 Phantom II jet is not an additional point; it is an example of the first point. &#10007;</li></ul>That is the correct answer."
     }
   ]
 }

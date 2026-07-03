@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Assign quantities to each pan size",
-      "content": "From the problem:<ul><li>9-inch pans: $n$ (the defined variable)</li><li>10-inch pans: $4n$ (four times the number of 9-inch pans)</li><li>7-inch pans: $10$ (given directly)</li></ul>"
+      "content": "From the problem:<ul><li>8-inch pans: $n$ (the defined variable)</li><li>12-inch pans: $5n$ (five times the number of 8-inch pans)</li><li>6-inch pans: $13$ (given directly)</li></ul>"
     },
     {
       "title": "Write the total equation",
-      "content": "All three quantities must sum to 100:<br/>$$4n + n + 10 = 100$$<br/>Combine like terms:<br/>$$5n + 10 = 100$$"
+      "content": "All three quantities must sum to 121:<br/>$$5n + n + 13 = 121$$<br/>Combine like terms:<br/>$$6n + 13 = 121$$"
     },
     {
       "title": "Evaluate all choices",
-      "content": "<ul><li><strong>A: $10\\left(4n\\right)+9n+7\\left(10\\right)=100$</strong> &mdash; This equation multiplies the pan quantities by the pan sizes (10, 9, 7 inches), which gives total inches rather than total count. The problem asks for a count equation. Eliminated.</li><li><strong>B: $10n+9n+7n=100$</strong> &mdash; This treats every pan size as $n$ pans, ignoring that 7-inch pans $= 10$ and 10-inch pans $= 4n$. Eliminated.</li><li><strong>C: $4n+10=100$</strong> &mdash; This omits the 9-inch pans ($n$). Eliminated.</li><li><strong>D: $5n+10=100$</strong> &mdash; This correctly combines $4n + n = 5n$ (10-inch plus 9-inch pans) and adds the 10 fixed 7-inch pans. That matches the correct answer — <strong>D</strong> is correct.</li></ul>"
+      "content": "<ul><li><strong>A: $12\\left(5n\\right)+8n+6\\left(13\\right)=121$</strong> &mdash; This equation multiplies the pan quantities by the pan sizes (12, 8, 6 inches), which gives total inches rather than total count. The problem asks for a count equation. Eliminated.</li><li><strong>B: $12n+8n+6n=121$</strong> &mdash; This treats every pan size as $n$ pans, ignoring that 6-inch pans $= 13$ and 12-inch pans $= 5n$. Eliminated.</li><li><strong>C: $5n+13=121$</strong> &mdash; This omits the 8-inch pans ($n$). Eliminated.</li><li><strong>D: $6n+13=121$</strong> &mdash; This correctly combines $5n + n = 6n$ (12-inch plus 8-inch pans) and adds the 13 fixed 6-inch pans. That matches the correct answer &mdash; <strong>D</strong> is correct.</li></ul>"
     }
   ]
 }

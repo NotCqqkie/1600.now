@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what would undermine the hypothesis",
-      "content": "Foster's hypothesis is a causal chain: otter root damage $\\Rightarrow$ more sexual reproduction in eelgrass $\\Rightarrow$ greater genetic diversity $\\Rightarrow$ healthier meadows. The chain predicts that larger, longer-established otter populations should correspond to <em>healthier</em> meadows. An undermining finding would reverse that predicted relationship."
+      "content": "Patel's hypothesis is a causal chain: otter root damage $\\Rightarrow$ more sexual reproduction in eelgrass $\\Rightarrow$ greater genetic diversity $\\Rightarrow$ healthier meadows. The chain predicts that larger, longer-established otter populations should correspond to <em>healthier</em> meadows. An undermining finding would reverse that predicted relationship."
     },
     {
       "title": "Apply the test to the choices",
-      "content": "<ul><li><strong>A:</strong> describes small/recently-reintroduced otter populations in the study — consistent with Foster's setup, not contradictory.</li><li><strong>B:</strong> sites with large otter populations but no eelgrass at all — says nothing about how otter presence affects existing meadow health.</li><li><strong>C:</strong> at additional sites, eelgrass meadow health correlates <em>negatively</em> with length of residence and size of otter populations — directly reversing Foster's predicted otter-to-health link.</li><li><strong>D:</strong> involves plants <em>unrelated</em> to eelgrass, so it says nothing about Foster's eelgrass-specific hypothesis.</li></ul>That confirms <strong>C</strong> is correct."
+      "content": "<ul><li><strong>A:</strong> describes small/recently-reintroduced otter populations in the study — consistent with Patel's setup, not contradictory.</li><li><strong>B:</strong> sites with large otter populations but no eelgrass at all — says nothing about how otter presence affects existing meadow health.</li><li><strong>C:</strong> at additional sites, eelgrass meadow health correlates <em>negatively</em> with length of residence and size of otter populations — directly reversing Patel's predicted otter-to-health link.</li><li><strong>D:</strong> involves plants <em>unrelated</em> to eelgrass, so it says nothing about Patel's eelgrass-specific hypothesis.</li></ul>That confirms <strong>C</strong> is correct."
     }
   ]
 }

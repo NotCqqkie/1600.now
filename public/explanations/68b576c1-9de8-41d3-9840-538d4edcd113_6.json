@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Understand vertical shifts",
-      "content": "When a function's graph shifts <strong>up</strong> by $k$ units, every output value increases by $k$. So if $y = f(x)$ shifts up 9 units, the new function becomes $y = f(x) + 9$."
+      "content": "When a function's graph shifts <strong>up</strong> by $k$ units, every output value increases by $k$. So if $y = f(x)$ shifts up 8 units, the new function becomes $y = f(x) + 8$."
     },
     {
       "title": "Apply the shift rule",
-      "content": "Substitute $f(x) = 3x^2$ into the transformation rule:<br/>$$g(x) = f(x) + 9 = 3x^2 + 9$$<br/>That confirms <strong>A</strong> is correct."
+      "content": "Substitute $f(x) = 4x^2$ into the transformation rule:<br/>$$g(x) = f(x) + 8 = 4x^2 + 8$$<br/>That confirms <strong>A</strong> is correct."
     }
   ]
 }

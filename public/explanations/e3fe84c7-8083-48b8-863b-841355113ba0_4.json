@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Analyze the equation",
-      "content": "Subtract $3$, then divide by $5$ in $5x+3=52$: $x=\\tfrac{49}{5}$. The coefficient on $x$ is nonzero."
+      "content": "Subtract $4$, then divide by $6$ in $6x+4=58$: $x=9$. The coefficient on $x$ is nonzero."
     },
     {
       "title": "Count the solutions",
-      "content": "There is exactly one solution. That matches the correct answer — <strong>B</strong> is correct."
+      "content": "There is exactly one solution. That matches the correct answer &mdash; <strong>B</strong> is correct."
     },
     {
       "title": "Confirm the answer",

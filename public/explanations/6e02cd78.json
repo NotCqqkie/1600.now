@@ -1,15 +1,15 @@
 {
   "questionId": "6e02cd78",
-  "correctAnswer": "1",
+  "correctAnswer": "4",
   "section": "Math",
   "steps": [
     {
       "title": "Set equations equal and solve for x",
-      "content": "At the intersection point, both equations yield the same $y$-value. Set them equal: $$(x-1)^2 = 2x - 3$$ Expand the left side: $$x^2 - 2x + 1 = 2x - 3$$ Rearrange: $$x^2 - 4x + 4 = 0$$ This is a perfect square trinomial: $$(x-2)^2 = 0$$ Therefore, $x = 2$."
+      "content": "At the intersection point, both equations yield the same $y$-value. Set them equal: $$(x-2)^2 = 4x - 12$$ Expand the left side: $$x^2 - 4x + 4 = 4x - 12$$ Rearrange: $$x^2 - 8x + 16 = 0$$ This is a perfect square trinomial: $$(x-4)^2 = 0$$ Therefore, $x = 4$."
     },
     {
       "title": "Substitute to find the y-coordinate",
-      "content": "Using $y = 2x - 3$: $$y = 2(2) - 3 = 4 - 3 = 1$$ The $y$-coordinate of the intersection point is <strong>1</strong>."
+      "content": "Using $y = 4x - 12$: $$y = 4(4) - 12 = 16 - 12 = 4$$ The $y$-coordinate of the intersection point is <strong>4</strong>."
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up",
-      "content": "Isolate the squared term:<br/>$$\\left(\\frac{1}{2}x - \\frac{21}{2}\\right)^2 = 81$$<br/>Factor $\\tfrac{1}{2}$ from the left side:<br/>$$\\left(\\frac{1}{2}\\right)^2(x - 21)^2 = 81$$<br/>$$\\frac{(x-21)^2}{4} = 81$$"
+      "content": "Isolate the squared term:<br/>$$\\left(\\frac{1}{2}x - \\frac{25}{2}\\right)^2 = 100$$<br/>Factor $\\tfrac{1}{2}$ from the left side:<br/>$$\\left(\\frac{1}{2}\\right)^2(x - 25)^2 = 100$$<br/>$$\\frac{(x-25)^2}{4} = 100$$"
     },
     {
       "title": "Solve",
-      "content": "Multiply both sides by 4:<br/>$$(x - 21)^2 = 324$$"
+      "content": "Multiply both sides by 4:<br/>$$(x - 25)^2 = 400$$"
     },
     {
       "title": "Answer",

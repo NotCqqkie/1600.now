@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Rewrite the inequality for y",
-      "content": "Start with $2x-y\\gt 883$. Subtract $2x$ from both sides: $$-y\\gt 883-2x.$$ Divide by $-1$ and reverse the inequality: $$y\\lt2x-883.$$"
+      "content": "Start with $2x-y\\gt 901$. Subtract $2x$ from both sides: $$-y\\gt 901-2x.$$ Divide by $-1$ and reverse the inequality: $$y\\lt2x-901.$$"
     },
     {
       "title": "Find the needed y-values",
-      "content": "For the three $x$-values in the tables: when $x=440$, $y\\lt-3$; when $x=441$, $y\\lt-1$; and when $x=442$, $y\\lt1$."
+      "content": "For the three $x$-values in the tables: when $x=449$, $y\\lt-3$; when $x=450$, $y\\lt-1$; and when $x=451$, $y\\lt1$."
     },
     {
       "title": "Identify the table",
-      "content": "The correct table pairs $x=442$ and $x=663$ with output values that satisfy the equation. The other tables mismatch at least one listed row, so <strong>D</strong> is correct."
+      "content": "The correct table pairs $x=449$ with $y=-4$, $x=450$ with $y=-2$, and $x=451$ with $y=0$, all of which satisfy the inequality. The other tables mismatch at least one listed row, so <strong>D</strong> is correct."
     }
   ]
 }

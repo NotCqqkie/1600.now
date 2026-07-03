@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what we're calculating",
-      "content": "Julia used 60% of 800 feet of fencing. We need to find 60% of 800."
+      "content": "Maya used 70% of 900 feet of fencing. We need to find 70% of 900."
     },
     {
-      "title": "Calculate 60% of 800",
-      "content": "To find 60% of 800, multiply: $$0.60 \\times 800 = 480$$ Therefore, Julia used 480 feet of fencing to surround the vegetable garden. That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Calculate 70% of 900",
+      "content": "To find 70% of 900, multiply: $$0.70 \\times 900 = 630$$ Therefore, Maya used 630 feet of fencing to surround the flower garden. That matches the correct answer, so <strong>C</strong> is correct."
     }
   ]
 }

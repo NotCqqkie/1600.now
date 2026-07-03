@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Isolate C",
-      "content": "Start with the given equation:<br/>$$P=N(34-C)$$<br/>Since $N$ is positive, divide both sides by $N$:<br/>$$\\frac{P}{N}=34-C$$<br/>Move terms to solve for $C$:<br/>$$C=34-\\frac{P}{N}$$"
+      "content": "Start with the given equation:<br/>$$P=N(27-C)$$<br/>Since $N$ is positive, divide both sides by $N$:<br/>$$\\frac{P}{N}=27-C$$<br/>Move terms to solve for $C$:<br/>$$C=27-\\frac{P}{N}$$"
     },
     {
       "title": "Match the choice",
-      "content": "The expression $34-\\frac{P}{N}$ isolates $C$ completely in terms of the other variables. That matches the correct answer, <strong>D</strong>, so <strong>D</strong> is correct."
+      "content": "The expression $27-\\frac{P}{N}$ isolates $C$ completely in terms of the other variables. That matches the correct answer, <strong>D</strong>, so <strong>D</strong> is correct."
     }
   ]
 }

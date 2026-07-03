@@ -1,23 +1,23 @@
 {
   "questionId": "3a84f885",
-  "correctAnswer": "1677",
+  "correctAnswer": "1785",
   "section": "Math",
   "steps": [
     {
       "title": "Add the equations",
-      "content": "The system is $$(x-2)-4(y+7)=117$$ $$(x-2)+4(y+7)=442.$$ Add the equations so the $-4(y+7)$ and $+4(y+7)$ terms cancel."
+      "content": "The system is $$(x-3)-5(y+6)=128$$ $$(x-3)+5(y+6)=467.$$ Add the equations so the $-5(y+6)$ and $+5(y+6)$ terms cancel."
     },
     {
       "title": "Target the requested expression",
-      "content": "Adding gives $$2(x-2)=117+442=559.$$ The question asks for $6(x-2)$, which is $3$ times $2(x-2)$."
+      "content": "Adding gives $$2(x-3)=128+467=595.$$ The question asks for $6(x-3)$, which is $3$ times $2(x-3)$."
     },
     {
       "title": "Multiply directly",
-      "content": "Multiply both sides of $2(x-2)=559$ by $3$: $$6(x-2)=1677.$$"
+      "content": "Multiply both sides of $2(x-3)=595$ by $3$: $$6(x-3)=1785.$$"
     },
     {
       "title": "Confirm the shortcut",
-      "content": "There is no need to find $x$ or $y$ separately. The elimination step gives the requested expression directly, so the answer is <strong>1677</strong>."
+      "content": "There is no need to find $x$ or $y$ separately. The elimination step gives the requested expression directly, so the answer is <strong>1785</strong>."
     }
   ]
 }

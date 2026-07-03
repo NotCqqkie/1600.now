@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Identify the starting value",
-      "content": "At $x=0$, the house is worth $174{,}000$, so the function must start with $174{,}000$."
+      "content": "At $x=0$, the condo is worth $186{,}000$, so the function must start with $186{,}000$."
     },
     {
       "title": "Convert the percent increase to a multiplier",
-      "content": "A $2.4\\%$ increase means each year the value is multiplied by $$1+0.024=1.024.$$"
+      "content": "A $3.1\\%$ increase means each year the value is multiplied by $$1+0.031=1.031.$$"
     },
     {
       "title": "Choose the matching function",
-      "content": "After $x$ years, the value is $$f(x)=174{,}000(1.024)^x.$$ The model uses the correct growth multiplier. <strong>C</strong> is correct."
+      "content": "After $x$ years, the value is $$f(x)=186{,}000(1.031)^x.$$ The model uses the correct growth multiplier. <strong>C</strong> is correct."
     }
   ]
 }

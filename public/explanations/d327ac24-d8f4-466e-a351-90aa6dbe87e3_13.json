@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Treat $3x + 6$ as a single variable",
-      "content": "Let $u = 3x + 6$. Subtract $3(3x+6)$: $2(3x+6)=78$."
+      "title": "Treat $4x + 5$ as a single variable",
+      "content": "Let $u = 4x + 5$. Subtract $4(4x+5)$: $2(4x+5)=82$."
     },
     {
       "title": "Compute the target value",
-      "content": "Divide by $2$: $3x+6 = 39$. That is the correct answer."
+      "content": "Divide by $2$: $4x+5 = 41$. That is the correct answer."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches 39. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches 41. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
     }
   ]
 }

@@ -34,6 +34,8 @@ interface StoredWordProgress {
   status: StudyStatus;
   confirmations: number;
   modes: Partial<Record<PracticeMode, number>>;
+  // Last local change, used to merge per-word by recency across devices.
+  updatedAt?: number;
 }
 
 const textColor = "hsl(var(--foreground))";
@@ -172,7 +174,9 @@ function normalizeProgressValue(value: unknown): StoredWordProgress | null {
     status?: unknown;
     confirmations?: unknown;
     modes?: unknown;
+    updatedAt?: unknown;
   };
+  const updatedAt = Number(raw.updatedAt);
   const modes: Partial<Record<PracticeMode, number>> = {};
   if (raw.modes && typeof raw.modes === "object") {
     for (const mode of PRACTICE_MODES) {
@@ -199,6 +203,7 @@ function normalizeProgressValue(value: unknown): StoredWordProgress | null {
       : deriveStatus(confirmations, modes, status !== "new"),
     confirmations,
     modes,
+    ...(Number.isFinite(updatedAt) && updatedAt > 0 ? { updatedAt } : {}),
   };
 }
 
@@ -2953,6 +2958,7 @@ const Vocab = () => {
         status: deriveStatus(confirmations, modes, true),
         confirmations,
         modes,
+        updatedAt: Date.now(),
       };
       if (
         current.status === next.status &&

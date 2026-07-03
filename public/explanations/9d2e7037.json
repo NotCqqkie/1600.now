@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Use the rectangle area formula",
-      "content": "Use the rectangle area formula: the area of a rectangle is length times width. Here, the length is $56$ inches and the width is $28$ inches."
+      "content": "Use the rectangle area formula: the area of a rectangle is length times width. Here, the length is $48$ inches and the width is $32$ inches."
     },
     {
       "title": "Identify the area formula for a rectangle",
-      "content": "The area of a rectangle is given by $A = \\text{length} \\times \\text{width}$. We are given length = 56 inches and width = 28 inches."
+      "content": "The area of a rectangle is given by $A = \\text{length} \\times \\text{width}$. We are given length = 48 inches and width = 32 inches."
     },
     {
       "title": "Multiply to find the area",
-      "content": "$$A = 56 \\times 28 = 1,568$$<br/>The area is 1,568 square inches. That confirms <strong>D</strong> is correct."
+      "content": "$$A = 48 \\times 32 = 1,536$$<br/>The area is 1,536 square inches. That confirms <strong>D</strong> is correct."
     }
   ]
 }

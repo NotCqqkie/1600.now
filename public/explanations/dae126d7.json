@@ -3,16 +3,16 @@
   "qid": "dae126d7",
   "steps": [
     {
-      "content": "Identify the starting value: at sea level ($x = 0$ feet), the boiling point is $212^{\\circ}$F. This is the constant term in the equation."
+      "content": "Identify the starting value: at sea level ($x = 0$ feet), the boiling point is $198^{\\circ}$F. This is the constant term in the equation."
     },
     {
-      "content": "Determine the rate of change: for every 550 feet of altitude, the boiling point decreases by $1^{\\circ}$F. The rate is $-\\dfrac{1}{550}$ degrees per foot, so after $x$ feet the total decrease is $\\dfrac{x}{550}$ degrees."
+      "content": "Determine the rate of change: for every 520 feet of altitude, the boiling point decreases by $1^{\\circ}$F. The rate is $-\\dfrac{1}{520}$ degrees per foot, so after $x$ feet the total decrease is $\\dfrac{x}{520}$ degrees."
     },
     {
-      "content": "Form the equation: $B = 212 - \\dfrac{x}{550}$."
+      "content": "Form the equation: $B = 198 - \\dfrac{x}{520}$."
     },
     {
-      "content": "Evaluate all choices:<ul><li><strong>$B = 550 + \\frac{x}{212}$</strong>: $B = 550 + \\dfrac{x}{212}$ — the constants are swapped and the sign is wrong; boiling point would increase with altitude. Eliminated.</li><li><strong>$B = 550 - \\frac{x}{212}$</strong>: $B = 550 - \\dfrac{x}{212}$ — constants are swapped entirely; starts at 550 instead of 212. Eliminated.</li><li><strong>$B = 212 + \\frac{x}{550}$</strong>: $B = 212 + \\dfrac{x}{550}$ — starts correctly at 212 but adds instead of subtracts, so boiling point would rise with altitude. Eliminated.</li><li><strong>$B = 212 - \\frac{x}{550}$</strong>: $B = 212 - \\dfrac{x}{550}$ — starts at 212 and decreases by $\\dfrac{x}{550}$ for every $x$ feet above sea level. That matches the correct answer — <strong>D</strong> is correct.</li></ul>"
+      "content": "Evaluate all choices:<ul><li><strong>$B = 520 + \\frac{x}{198}$</strong>: $B = 520 + \\dfrac{x}{198}$ - the constants are swapped and the sign is wrong; boiling point would increase with altitude. Eliminated.</li><li><strong>$B = 520 - \\frac{x}{198}$</strong>: $B = 520 - \\dfrac{x}{198}$ - constants are swapped entirely; starts at 520 instead of 198. Eliminated.</li><li><strong>$B = 198 + \\frac{x}{520}$</strong>: $B = 198 + \\dfrac{x}{520}$ - starts correctly at 198 but adds instead of subtracts, so boiling point would rise with altitude. Eliminated.</li><li><strong>$B = 198 - \\frac{x}{520}$</strong>: $B = 198 - \\dfrac{x}{520}$ - starts at 198 and decreases by $\\dfrac{x}{520}$ for every $x$ feet above sea level. That matches the correct answer - <strong>D</strong> is correct.</li></ul>"
     }
   ],
   "correctAnswer": "D"

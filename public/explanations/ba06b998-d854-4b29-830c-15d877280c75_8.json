@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Solve the linear equation for x",
-      "content": "The first equation is linear.<br/>$$x + 7 = 13$$<br/>Subtracting 7 from both sides:<br/>$$x = 6$$"
+      "content": "The first equation is linear.<br/>$$x + 8 = 15$$<br/>Subtracting 8 from both sides:<br/>$$x = 7$$"
     },
     {
-      "title": "Substitute x = 6 into the quadratic equation",
-      "content": "Now substitute $x = 6$ into the second equation to find $y$:<br/>$$y = 5x^2 + 5$$<br/>$$y = 5(6)^2 + 5$$<br/>$$y = 5(36) + 5$$<br/>$$y = 180 + 5 = 185$$<br/>The intersection point is $(6, 185)$. That is the correct answer."
+      "title": "Substitute x = 7 into the quadratic equation",
+      "content": "Now substitute $x = 7$ into the second equation to find $y$:<br/>$$y = 4x^2 + 6$$<br/>$$y = 4(7)^2 + 6$$<br/>$$y = 4(49) + 6$$<br/>$$y = 196 + 6 = 202$$<br/>The intersection point is $(7, 202)$. That is the correct answer."
     }
   ]
 }

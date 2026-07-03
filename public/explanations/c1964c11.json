@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Isolate $p$ on the left side",
-      "content": "Starting from $p + 34 = q + r$, subtract $34$ from both sides to undo the $+34$:<br/>$$p + 34 - 34 = q + r - 34$$<br/>$$p = q + r - 34$$"
+      "content": "Starting from $p + 29 = q + r$, subtract $29$ from both sides to undo the $+29$:<br/>$$p + 29 - 29 = q + r - 29$$<br/>$$p = q + r - 29$$"
     },
     {
       "title": "Check each choice",
-      "content": "<ul><li>A) $p = q + r + 34$: this would mean $p - 34 = q + r$, not $p + 34 = q + r$. Eliminate.</li><li>B) $p = q + r - 34$: adding $34$ to both sides gives $p + 34 = q + r$. Match.</li><li>C) $p = -q - r + 34$: implies $q + r = 34 - p$, not what's given. Eliminate.</li><li>D) $p = -q - r - 34$: implies $q + r = -p - 34$, not what's given. Eliminate.</li></ul>That is the correct answer."
+      "content": "<ul><li>A) $p = q + r + 29$: this would mean $p - 29 = q + r$, not $p + 29 = q + r$. Eliminate.</li><li>B) $p = q + r - 29$: adding $29$ to both sides gives $p + 29 = q + r$. Match.</li><li>C) $p = -q - r + 29$: implies $q + r = 29 - p$, not what's given. Eliminate.</li><li>D) $p = -q - r - 29$: implies $q + r = -p - 29$, not what's given. Eliminate.</li></ul>That is the correct answer."
     }
   ]
 }

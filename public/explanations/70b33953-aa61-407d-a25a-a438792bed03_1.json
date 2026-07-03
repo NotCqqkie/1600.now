@@ -4,17 +4,17 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+      "title": "Fastest path: mark the givens first",
+      "content": "Count the relevant dimensions or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
     },
     {
       "title": "Apply Pythagorean Theorem to find the other side",
-      "content": "The diagonal of a rectangle forms a right triangle with its two adjacent sides. Starting with side $a = 4$ and diagonal $d = \\sqrt{65}$:<br/>$$(\\sqrt{65})^2 = 4^2 + b^2$$<br/>$$65 = 16 + b^2$$<br/>$$b^2 = 49$$<br/>$$b = 7$$",
+      "content": "The diagonal of a rectangle forms a right triangle with its two adjacent sides. Starting with side $a = 6$ and diagonal $d = \\sqrt{85}$:<br/>$$(\\sqrt{85})^2 = 6^2 + b^2$$<br/>$$85 = 36 + b^2$$<br/>$$b^2 = 49$$<br/>$$b = 7$$",
       "formula": "$$a^2 + b^2 = d^2$$"
     },
     {
       "title": "Calculate the perimeter",
-      "content": "With both sides now known (4 and 7):<br/>$$P = 2(4 + 7) = 2 \\cdot 11 = 22$$<br/>That confirms <strong>B</strong> is correct."
+      "content": "With both sides now known (6 and 7):<br/>$$P = 2(6 + 7) = 2 \\cdot 13 = 26$$<br/>That confirms <strong>B</strong> is correct."
     }
   ]
 }

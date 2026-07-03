@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Recognize 10% as a decimal",
-      "content": "10% can be written as $\\frac{10}{100} = 0.10$. To find 10% of a number, multiply by 0.10—or use the mental math shortcut: shift the decimal point one place to the left."
+      "content": "10% can be written as $\\frac{10}{100} = 0.10$. To find 10% of a number, multiply by 0.10, or use the mental math shortcut: shift the decimal point one place to the left."
     },
     {
-      "title": "Apply to 470",
-      "content": "Shifting the decimal point in 470 one place to the left gives 47. That matches <strong>Choice B &mdash; $47$</strong>."
+      "title": "Apply to 520",
+      "content": "Shifting the decimal point in 520 one place to the left gives 52. That matches <strong>Choice B &mdash; $52$</strong>."
     }
   ]
 }

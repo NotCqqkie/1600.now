@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Isolate $j$",
-      "content": "Start with $$8j = k + 15m.$$ Since $j$ is multiplied by $8$, divide <em>both</em> sides by $8$ to solve for $j$."
+      "content": "Start with $$7j = k + 12m.$$ Since $j$ is multiplied by $7$, divide <em>both</em> sides by $7$ to solve for $j$."
     },
     {
-      "title": "Divide both sides by 8",
-      "content": "$$j = \\frac{k + 15m}{8}.$$ The entire right side, including both $k$ and $15m$, is divided by $8$."
+      "title": "Divide both sides by 7",
+      "content": "$$j = \\frac{k + 12m}{7}.$$ The entire right side, including both $k$ and $12m$, is divided by $7$."
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li><strong>$j=\\frac{k}{8}+15m$</strong> $j=\\frac{k}{8}+15m$ &mdash; divides only $k$ by $8$, leaving $15m$ undivided. Incorrect.</li><li><strong>$j=k+\\frac{15m}{8}$</strong> $j=k+\\frac{15m}{8}$ &mdash; divides only $15m$ by $8$, leaving $k$ undivided. Incorrect.</li><li><strong>$j=8(k+15m)$</strong> $j=8(k+15m)$ &mdash; multiplies by $8$ instead of dividing. Incorrect.</li><li><strong>$j=\\frac{k+15m}{8}$</strong> $j=\\frac{k+15m}{8}$ &mdash; correctly divides the whole right side by $8$. Correct.</li></ul>That is the correct answer."
+      "content": "<ul><li><strong>$j=\\frac{k}{7}+12m$</strong> $j=\\frac{k}{7}+12m$ &mdash; divides only $k$ by $7$, leaving $12m$ undivided. Incorrect.</li><li><strong>$j=k+\\frac{12m}{7}$</strong> $j=k+\\frac{12m}{7}$ &mdash; divides only $12m$ by $7$, leaving $k$ undivided. Incorrect.</li><li><strong>$j=7(k+12m)$</strong> $j=7(k+12m)$ &mdash; multiplies by $7$ instead of dividing. Incorrect.</li><li><strong>$j=\\frac{k+12m}{7}$</strong> $j=\\frac{k+12m}{7}$ &mdash; correctly divides the whole right side by $7$. Correct.</li></ul>Choice D is the correct answer."
     }
   ]
 }

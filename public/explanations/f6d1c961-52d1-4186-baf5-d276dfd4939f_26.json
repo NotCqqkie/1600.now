@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The student wants to emphasize the <em>2020 population</em> of Acaxochitl&aacute;n. The answer must directly state that figure."
+      "content": "The student wants to emphasize the <em>2020 population</em> of Tepeapulco. The answer must directly state that figure."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"As a municipality in Hidalgo, Acaxochitlán is responsible for providing public services to its population.\"</strong>: omits the 2020 population figure entirely. &#10007;</li><li><strong>\"Home to 40,583 people, the governmental region was responsible for providing water treatment to its population in 2010.\"</strong>: cites population data but from the wrong year. &#10007;</li><li><strong>\"As of 2020, Acaxochitlán was one of 84 municipalities in Hidalgo, Mexico.\"</strong>: focuses on unrelated geographic or administrative information. &#10007;</li><li><strong>\"In 2020, the municipality of Acaxochitlán had a population of 46,065.\"</strong>: directly states the 2020 population. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+      "content": "<ul><li><strong>\"As a municipality in Hidalgo, Tepeapulco is responsible for providing public services to its population.\"</strong>: omits the 2020 population figure entirely. &#10007;</li><li><strong>\"Home to 40,583 people, the governmental region was responsible for providing water treatment to its population in 2010.\"</strong>: cites population data but from the wrong year. &#10007;</li><li><strong>\"As of 2020, Tepeapulco was one of 84 municipalities in Hidalgo, Mexico.\"</strong>: focuses on unrelated geographic or administrative information. &#10007;</li><li><strong>\"In 2020, the municipality of Tepeapulco had a population of 46,065.\"</strong>: directly states the 2020 population. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
     }
   ]
 }

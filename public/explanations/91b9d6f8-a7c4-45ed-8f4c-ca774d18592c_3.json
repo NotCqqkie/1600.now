@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the density",
-      "content": "The maximum recommendation is 102 trees per acre, meaning each acre can hold at most 102 trees."
+      "content": "The maximum recommendation is 96 shrubs per acre, meaning each acre can hold at most 96 shrubs."
     },
     {
       "title": "Scale to the total area",
-      "content": "For 3 acres, multiply the maximum per acre by the number of acres: $$102 \\times 3 = 306$$ That confirms <strong>B</strong> is correct."
+      "content": "For 4 acres, multiply the maximum per acre by the number of acres: $$96 \\times 4 = 384$$ That confirms <strong>B</strong> is correct."
     }
   ]
 }

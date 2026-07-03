@@ -4,7 +4,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>C</strong>, $8{d}^{3}-48{d}^{2}-3d+18$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>C</strong>, $7{d}^{3}-35{d}^{2}-4d+20$."
     },
     {
       "title": "Algebra check",
@@ -12,37 +12,37 @@
     },
     {
       "title": "Step 1",
-      "content": "Distribute $d$ across $(8d^2 - 3)$: $d \\cdot 8d^2 - d \\cdot 3 = 8d^3 - 3d$."
+      "content": "Distribute $d$ across $(7d^2 - 4)$: $d \\cdot 7d^2 - d \\cdot 4 = 7d^3 - 4d$."
     },
     {
       "title": "Step 2",
-      "content": "Distribute $-6$ across $(8d^2 - 3)$: $-6 \\cdot 8d^2 - (-6) \\cdot 3 = -48d^2 + 18$."
+      "content": "Distribute $-5$ across $(7d^2 - 4)$: $-5 \\cdot 7d^2 - (-5) \\cdot 4 = -35d^2 + 20$."
     },
     {
       "title": "Step 3",
-      "content": "Combine all terms: $8d^3 - 3d - 48d^2 + 18$. Reorder in descending degree: $8d^3 - 48d^2 - 3d + 18$."
+      "content": "Combine all terms: $7d^3 - 4d - 35d^2 + 20$. Reorder in descending degree: $7d^3 - 35d^2 - 4d + 20$."
     }
   ],
   "choices": [
     {
       "id": "A",
-      "text": "$8d^3 - 14d^2 - 3d + 18$",
-      "explanation": "<ul><li>The $d^2$ coefficient should be $-48$ (from $-6 \\times 8d^2$), not $-14$. This is incorrect.</li></ul>"
+      "text": "$7d^3 - 12d^2 - 4d + 20$",
+      "explanation": "<ul><li>The $d^2$ coefficient should be $-35$ (from $-5 \\times 7d^2$), not $-12$. This is incorrect.</li></ul>"
     },
     {
       "id": "B",
-      "text": "$8d^3 - 17d^2 + 48$",
-      "explanation": "<ul><li>The $-3d$ term is missing and the constant is wrong sign. This does not match the expansion. This is incorrect.</li></ul>"
+      "text": "$7d^3 - 16d^2 + 35$",
+      "explanation": "<ul><li>The $-4d$ term is missing and the constant is wrong. This does not match the expansion. This is incorrect.</li></ul>"
     },
     {
       "id": "C",
-      "text": "$8d^3 - 48d^2 - 3d + 18$",
-      "explanation": "<ul><li>Expanding: $d(8d^2 - 3) - 6(8d^2 - 3) = 8d^3 - 3d - 48d^2 + 18 = 8d^3 - 48d^2 - 3d + 18$. That confirms <strong>C</strong> is correct.</li></ul>"
+      "text": "$7d^3 - 35d^2 - 4d + 20$",
+      "explanation": "<ul><li>Expanding: $d(7d^2 - 4) - 5(7d^2 - 4) = 7d^3 - 4d - 35d^2 + 20 = 7d^3 - 35d^2 - 4d + 20$. That confirms <strong>C</strong> is correct.</li></ul>"
     },
     {
       "id": "D",
-      "text": "$8d^3 - 51d^2 + 48$",
-      "explanation": "<ul><li>The $-3d$ linear term is missing entirely, and the coefficients are wrong. This does not match the expansion. This is incorrect.</li></ul>"
+      "text": "$7d^3 - 39d^2 + 35$",
+      "explanation": "<ul><li>The $-4d$ linear term is missing entirely, and the coefficients are wrong. This does not match the expansion. This is incorrect.</li></ul>"
     }
   ],
   "correctAnswer": "C",

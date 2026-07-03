@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Substitute p and v",
-      "content": "Use $p=3x+4$ and $v=x+5$ in $pv-2p+v$: $$(3x+4)(x+5)-2(3x+4)+(x+5)$$"
+      "content": "Use $p=4x+3$ and $v=x+6$ in $pv-2p+v$: $$(4x+3)(x+6)-2(4x+3)+(x+6)$$"
     },
     {
       "title": "Expand and combine",
-      "content": "$$(3x+4)(x+5)=3x^2+19x+20$$ and $$-2(3x+4)=-6x-8$$ Combining all terms gives $$3x^2+19x+20-6x-8+x+5=3x^2+14x+17$$"
+      "content": "$$(4x+3)(x+6)=4x^2+27x+18$$ and $$-2(4x+3)=-8x-6$$ Combining all terms gives $$4x^2+27x+18-8x-6+x+6=4x^2+20x+18$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "The correct answer is $3x^2+14x+17$, so <strong>B</strong> is correct."
+      "content": "The correct answer is $4x^2+20x+18$, so <strong>B</strong> is correct."
     },
     {
       "title": "Track all three pieces",
-      "content": "The expression has three parts: $pv$, $-2p$, and $+v$. The final $+v$ adds $x+5$, which is why the middle coefficient becomes $14$ instead of $13$."
+      "content": "The expression has three parts: $pv$, $-2p$, and $+v$. The final $+v$ adds $x+6$, which is why the middle coefficient becomes $20$ instead of $19$."
     }
   ]
 }

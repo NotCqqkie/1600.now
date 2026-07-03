@@ -1,19 +1,19 @@
 {
   "questionId": "2f91d920-5520-4266-8a2d-a29c925c95c0_13",
-  "correctAnswer": "-266",
+  "correctAnswer": "-219",
   "section": "Math",
   "steps": [
     {
       "title": "Recognize the transformation",
-      "content": "When a graph is translated up 4 units, every output value increases by 4. This means $g(x) = f(x) + 4$. To find $g(0)$, we need to calculate $f(0) + 4$."
+      "content": "When a graph is translated up 5 units, every output value increases by 5. This means $g(x) = f(x) + 5$. To find $g(0)$, we need to calculate $f(0) + 5$."
     },
     {
       "title": "Evaluate f(0) using the factored form",
-      "content": "The factored form is efficient here—substitute $x = 0$ directly without expanding:<br/>$$f(0) = (0 - 9)(0 - 6)(0 - 5) = (-9)(-6)(-5)$$<br/>Multiply left to right: $(-9) \\times (-6) = 54$, then $54 \\times (-5) = -270$.<br/><br/>So $f(0) = -270$."
+      "content": "The factored form is efficient here—substitute $x = 0$ directly without expanding:<br/>$$f(0) = (0 - 8)(0 - 7)(0 - 4) = (-8)(-7)(-4)$$<br/>Multiply left to right: $(-8) \\times (-7) = 56$, then $56 \\times (-4) = -224$.<br/><br/>So $f(0) = -224$."
     },
     {
       "title": "Calculate g(0)",
-      "content": "Apply the transformation:<br/>$$g(0) = f(0) + 4 = -270 + 4 = -266$$"
+      "content": "Apply the transformation:<br/>$$g(0) = f(0) + 5 = -224 + 5 = -219$$"
     }
   ]
 }

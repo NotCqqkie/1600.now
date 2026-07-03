@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify profit equation structure",
-      "content": "Profit = Revenue - Fixed Cost.<br/>$$15000 = 2.00x - 4500$$ shows profit (15000) equals 2.00x minus 4500, so 2.00x is the revenue."
+      "content": "Profit = Revenue - Fixed Cost.<br/>$$18000 = 3.50x - 5250$$ shows profit (18000) equals 3.50x minus 5250, so 3.50x is the revenue."
     },
     {
-      "title": "Interpret the term 2.00x",
-      "content": "Since revenue equals price per dispenser times number sold, the coefficient 2.00 has units dollars per dispenser. Therefore $$2.00x$$ is the monthly sales revenue from selling $$x$$ tape dispensers.<br/>That confirms <strong>A</strong> is correct."
+      "title": "Interpret the term 3.50x",
+      "content": "Since revenue equals price per phone stand times number sold, the coefficient 3.50 has units dollars per phone stand. Therefore $$3.50x$$ is the monthly sales revenue from selling $$x$$ phone stands.<br/>That confirms <strong>A</strong> is correct."
     }
   ]
 }

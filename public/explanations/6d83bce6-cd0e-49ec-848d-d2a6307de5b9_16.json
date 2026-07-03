@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Distribute",
-      "content": "Multiply $95$ through $(x-2)$: $$y=95x-190+228.$$"
+      "content": "Multiply $84$ through $(x-3)$: $$y=84x-252+287.$$"
     },
     {
       "title": "Combine and match",
-      "content": "Add the constants: $-190+228=38$, giving $y=95x+38$. That confirms <strong>C</strong> is correct."
+      "content": "Add the constants: $-252+287=35$, giving $y=84x+35$. That confirms <strong>C</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above confirms <strong>C</strong>, $y = 95x + 38$. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above confirms <strong>C</strong>, $y = 84x + 35$. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
     }
   ]
 }

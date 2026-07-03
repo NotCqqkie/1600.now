@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find the absolute increase in the bill",
-      "content": "Subtract the original bill from the new bill to find the increase in dollars:<br/>$$79.86 - 75.74 = 4.12$$<br/>The bill increased by 4.12 dollars before converting that change to a percent."
+      "content": "Subtract the original bill from the new bill to find the increase in dollars:<br/>$$86.12 - 81.25 = 4.87$$<br/>The bill increased by 4.87 dollars before converting that change to a percent."
     },
     {
       "title": "Calculate the percent increase and round",
-      "content": "Use the original bill as the base for percent increase:<br/>$$\\frac{4.12}{75.74} \\times 100\\% \\approx 5.44\\%$$<br/>Rounding to the nearest tenth of a percent gives 5.4%. The original bill is the denominator because percent increase is measured relative to the starting value. That is the correct answer."
+      "content": "Use the original bill as the base for percent increase:<br/>$$\\frac{4.87}{81.25} \\times 100\\% \\approx 5.99\\%$$<br/>Rounding to the nearest tenth of a percent gives 6.0%. The original bill is the denominator because percent increase is measured relative to the starting value. That is Choice D."
     }
   ]
 }

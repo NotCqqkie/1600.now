@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Rewrite with common denominator",
-      "content": "Notice both sides involve the denominator $(x+5)$. Rewrite the right side with the same denominator:<br/>$$1 - \\frac{1}{x+5} = \\frac{x+5-1}{x+5} = \\frac{x+4}{x+5}$$<br/>The equation becomes:<br/>$$\\frac{2(x+1)}{x+5} = \\frac{x+4}{x+5}$$"
+      "content": "Notice both sides involve the denominator $(x+8)$. Rewrite the right side with the same denominator:<br/>$$1 - \\frac{1}{x+8} = \\frac{x+8-1}{x+8} = \\frac{x+7}{x+8}$$<br/>The equation becomes:<br/>$$\\frac{2(x+2)}{x+8} = \\frac{x+7}{x+8}$$"
     },
     {
       "title": "Equate numerators and solve",
-      "content": "Since the denominators are equal, the numerators must be equal:<br/>$$2(x+1) = x+4$$<br/>$$2x + 2 = x + 4$$<br/>$$x + 2 = 4$$<br/>$$x = 2$$<br/>That is the correct answer."
+      "content": "Since the denominators are equal, the numerators must be equal:<br/>$$2(x+2) = x+7$$<br/>$$2x + 4 = x + 7$$<br/>$$x + 4 = 7$$<br/>$$x = 3$$<br/>So <strong>B</strong> is correct."
     }
   ]
 }

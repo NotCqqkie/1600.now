@@ -9,11 +9,11 @@
     },
     {
       "title": "Set up the standard form using the given center",
-      "content": "For a circle, we substitute the center $(-4, 1)$ into the standard form where $(h, k) = (-4, 1)$, giving $h = -4$ and $k = 1$:<br/>$$(x + 4)^2 + (y - 1)^2 = r^2$$"
+      "content": "For a circle, we substitute the center $(-3, 2)$ into the standard form where $(h, k) = (-3, 2)$, giving $h = -3$ and $k = 2$:<br/>$$(x + 3)^2 + (y - 2)^2 = r^2$$"
     },
     {
       "title": "Find the radius using the point on the circle",
-      "content": "The point $(-8, 4)$ lies on the circle. The radius is the distance from the center $(-4, 1)$ to this point:<br/>$$r = \\sqrt{(-8 - (-4))^2 + (4 - 1)^2}$$<br/>$$r = \\sqrt{(-4)^2 + 3^2}$$<br/>$$r = \\sqrt{16 + 9} = \\sqrt{25} = 5$$<br/>Therefore $r^2 = 25$, giving us:<br/>$$(x + 4)^2 + (y - 1)^2 = 25$$<br/>That confirms <strong>B</strong> is correct."
+      "content": "The point $(-9, 10)$ lies on the circle. The radius is the distance from the center $(-3, 2)$ to this point:<br/>$$r = \\sqrt{(-9 - (-3))^2 + (10 - 2)^2}$$<br/>$$r = \\sqrt{(-6)^2 + 8^2}$$<br/>$$r = \\sqrt{36 + 64} = \\sqrt{100} = 10$$<br/>Therefore $r^2 = 100$, giving us:<br/>$$(x + 3)^2 + (y - 2)^2 = 100$$<br/>That confirms <strong>B</strong> is correct."
     }
   ]
 }

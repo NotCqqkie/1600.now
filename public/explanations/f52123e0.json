@@ -1,6 +1,6 @@
 {
   "questionId": "f52123e0",
-  "correctAnswer": "29",
+  "correctAnswer": "34",
   "section": "Math",
   "steps": [
     {
@@ -10,11 +10,11 @@
     },
     {
       "title": "Find the maximum and minimum values",
-      "content": "Scanning the seven scores: 23, 27, 27, 32, 35, 36, 52<ul><li>Largest value: 52</li><li>Smallest value: 23</li></ul>"
+      "content": "Scanning the seven scores: 21, 25, 25, 31, 34, 38, 55<ul><li>Largest value: 55</li><li>Smallest value: 21</li></ul>"
     },
     {
       "title": "Subtract to find the range",
-      "content": "$$52 - 23 = 29$$<br/>The range of the seven scores is 29."
+      "content": "$$55 - 21 = 34$$<br/>The range of the seven scores is 34."
     }
   ]
 }

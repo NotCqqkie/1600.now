@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Observe the equation form",
-      "content": "The equation $y = 16 + 14(x - 1)$ contains two additive terms: 16 and $14(x - 1)$."
+      "content": "The equation $y = 18 + 15(x - 1)$ contains two additive terms: 18 and $15(x - 1)$."
     },
     {
       "title": "Apply commutativity to match a choice",
-      "content": "Rearrange the terms using commutativity of addition: $$16+14(x-1)=14(x-1)+16.$$ That matches <strong>Choice C &mdash; $y = 14(x - 1) + 16$</strong> exactly &mdash; <strong>C</strong>.<br/><br/>This is the same equation because addition can be done in either order; the coefficient, variable expression, and constant term all stay unchanged."
+      "content": "Rearrange the terms using commutativity of addition: $$18+15(x-1)=15(x-1)+18.$$ That matches <strong>Choice C &mdash; $y = 15(x - 1) + 18$</strong> exactly &mdash; <strong>C</strong>.<br/><br/>This is the same equation because addition can be done in either order; the coefficient, variable expression, and constant term all stay unchanged."
     }
   ]
 }

@@ -8,12 +8,12 @@
       "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
     },
     {
-      "title": "Extract center and radius from Circle A",
-      "content": "The equation $(x - 7)^2 + (y + 3)^2 = 1$ is in standard form $(x - h)^2 + (y - k)^2 = r^2$. The center is $(7, -3)$ and the radius is $1$."
+      "title": "Extract center and radius from Circle P",
+      "content": "The equation $(x - 6)^2 + (y + 5)^2 = 4$ is in standard form $(x - h)^2 + (y - k)^2 = r^2$. The center is $(6, -5)$ and the radius is $2$."
     },
     {
-      "title": "Translate right and write Circle B's equation",
-      "content": "Translating right 4 units adds 4 to the $x$-coordinate of the center: $(7 + 4, -3) = (11, -3)$. The radius stays $1$. With center $(11, -3)$ and radius $1$, the equation is $(x - 11)^2 + (y + 3)^2 = 1$. That is the correct answer."
+      "title": "Translate right and write Circle Q's equation",
+      "content": "Translating right 3 units adds 3 to the $x$-coordinate of the center: $(6 + 3, -5) = (9, -5)$. The radius stays $2$. With center $(9, -5)$ and radius $2$, the equation is $(x - 9)^2 + (y + 5)^2 = 4$. That is the correct answer."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the price per sundae",
-      "content": "The 19 sundaes cost \\$64.60 total, so each sundae costs $$\\frac{64.60}{19}=3.40$$"
+      "title": "Find the price per parfait",
+      "content": "The 18 yogurt parfaits cost \\$70.20 total, so each parfait costs $$\\frac{70.20}{18}=3.90$$"
     },
     {
       "title": "Write the total cost equation",
-      "content": "$x$ cones at \\$1.40 each cost $1.40x$. $y$ sundaes at \\$3.40 each cost $3.40y$. Their combined cost is \\$85.60, so $$1.40x+3.40y=85.60$$"
+      "content": "$x$ fruit cups at \\$1.60 each cost $1.60x$. $y$ yogurt parfaits at \\$3.90 each cost $3.90y$. Their combined cost is \\$94.20, so $$1.60x+3.90y=94.20$$"
     },
     {
       "title": "Use the given information only",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Confirm the answer",
-      "content": "Choice D (&lsquo;$1.40x + 3.40y = 85.60$&rsquo;) uses \\$1.40 per cone and \\$3.40 per sundae: $$1.40x+3.40y=85.60$$ That confirms <strong>D</strong> is correct."
+      "content": "Choice D (&lsquo;$1.60x + 3.90y = 94.20$&rsquo;) uses \\$1.60 per fruit cup and \\$3.90 per yogurt parfait: $$1.60x+3.90y=94.20$$ That confirms <strong>D</strong> is correct."
     }
   ]
 }

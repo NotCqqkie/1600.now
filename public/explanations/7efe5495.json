@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Solve the system by substitution",
-      "content": "From $y = 3x$, substitute into $2x + y = 12$: $2x + 3x = 12$, so $5x = 12$ and $x = \\frac{12}{5}$."
+      "content": "From $y = 4x$, substitute into $3x + y = 21$: $3x + 4x = 21$, so $7x = 21$ and $x = 3$."
     },
     {
-      "title": "Find $5x$",
-      "content": "$5x = 5 \\cdot \\frac{12}{5} = 12$. That confirms <strong>C</strong> is correct."
+      "title": "Find $7x$",
+      "content": "$7x = 7 \\cdot 3 = 21$. That confirms <strong>C</strong> is correct."
     }
   ]
 }

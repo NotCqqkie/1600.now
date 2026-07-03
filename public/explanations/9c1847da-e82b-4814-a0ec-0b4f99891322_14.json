@@ -8,37 +8,37 @@
     },
     {
       "title": "Step 1",
-      "content": "In any triangle the three interior angles sum to 180&deg;. For triangle DEF: $m\\angle F = 180^\\circ - 43^\\circ - 112^\\circ = 25^\\circ$."
+      "content": "In any triangle the three interior angles sum to 180&deg;. For triangle ABC: $m\\angle C = 180^\\circ - 46^\\circ - 109^\\circ = 25^\\circ$."
     },
     {
       "title": "Step 2",
-      "content": "For triangle RST: $m\\angle T = 180^\\circ - 43^\\circ - 112^\\circ = 25^\\circ$. Both triangles have the exact same three angles: 43&deg;, 112&deg;, and 25&deg;."
+      "content": "For triangle JKL: $m\\angle L = 180^\\circ - 46^\\circ - 109^\\circ = 25^\\circ$. Both triangles have the exact same three angles: 46&deg;, 109&deg;, and 25&deg;."
     },
     {
       "title": "Step 3",
-      "content": "The Angle-Angle (AA) similarity criterion states that if two pairs of corresponding angles are equal, the triangles are similar. Here $\\angle D = \\angle R = 43^\\circ$ and $\\angle E = \\angle S = 112^\\circ$, so similarity is already established from the given information alone."
+      "content": "The Angle-Angle (AA) similarity criterion states that if two pairs of corresponding angles are equal, the triangles are similar. Here $\\angle A = \\angle J = 46^\\circ$ and $\\angle B = \\angle K = 109^\\circ$, so similarity is already established from the given information alone."
     }
   ],
   "choices": [
     {
       "id": "A",
-      "text": "The measure of angle F",
-      "explanation": "<ul><li>Angle F is fully determined by the angle-sum property: $180^\\circ - 43^\\circ - 112^\\circ = 25^\\circ$. It provides no new information beyond what is already given. This is not needed.</li></ul>"
+      "text": "The measure of angle C",
+      "explanation": "<ul><li>Angle C is fully determined by the angle-sum property: $180^\\circ - 46^\\circ - 109^\\circ = 25^\\circ$. It provides no new information beyond what is already given. This is not needed.</li></ul>"
     },
     {
       "id": "B",
-      "text": "The measure of angle T",
-      "explanation": "<ul><li>Angle T is likewise fixed at $180^\\circ - 43^\\circ - 112^\\circ = 25^\\circ$. Learning it explicitly changes nothing about the similarity conclusion. This is not needed.</li></ul>"
+      "text": "The measure of angle L",
+      "explanation": "<ul><li>Angle L is likewise fixed at $180^\\circ - 46^\\circ - 109^\\circ = 25^\\circ$. Learning it explicitly changes nothing about the similarity conclusion. This is not needed.</li></ul>"
     },
     {
       "id": "C",
-      "text": "The measure of angle F and the measure of angle T",
+      "text": "The measure of angle C and the measure of angle L",
       "explanation": "<ul><li>Both angles are already determined by arithmetic from the given information. Knowing both still adds nothing beyond what can be computed directly. This is not needed.</li></ul>"
     },
     {
       "id": "D",
       "text": "No additional information is needed.",
-      "explanation": "<ul><li>With $\\angle D = \\angle R = 43^\\circ$ and $\\angle E = \\angle S = 112^\\circ$, AA similarity is satisfied immediately. The third angles are forced to equal 25&deg; each. That confirms <strong>D</strong> is correct.</li></ul>"
+      "explanation": "<ul><li>With $\\angle A = \\angle J = 46^\\circ$ and $\\angle B = \\angle K = 109^\\circ$, AA similarity is satisfied immediately. The third angles are forced to equal 25&deg; each. That confirms <strong>D</strong> is correct.</li></ul>"
     }
   ],
   "correctAnswer": "D",

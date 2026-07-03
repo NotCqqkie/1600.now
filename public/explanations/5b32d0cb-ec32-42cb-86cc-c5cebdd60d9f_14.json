@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Translate 120% greater into an equation for f",
-      "content": "If $f$ is 120% greater than $g$, then $f$ equals $g$ plus 120% of $g$:<br/>$$f = g + 1.20g = 2.20g$$"
+      "title": "Translate 130% greater into an equation for f",
+      "content": "If $f$ is 130% greater than $g$, then $f$ equals $g$ plus 130% of $g$:<br/>$$f = g + 1.30g = 2.30g$$"
     },
     {
-      "title": "Translate 90% less into an equation for h",
-      "content": "If $h$ is 90% less than $f$, then $h$ is 10% of $f$ (since 100% − 90% = 10%):<br/>$$h = 0.10f$$"
+      "title": "Translate 80% less into an equation for h",
+      "content": "If $h$ is 80% less than $f$, then $h$ is 20% of $f$ (since 100% - 80% = 20%):<br/>$$h = 0.20f$$"
     },
     {
       "title": "Substitute to express h in terms of g",
-      "content": "Substitute $f = 2.20g$ into the equation for $h$:<br/>$$h = 0.10(2.20g) = 0.22g$$<br/>This means $h$ is 0.22 times $g$. That confirms <strong>B</strong> is correct."
+      "content": "Substitute $f = 2.30g$ into the equation for $h$:<br/>$$h = 0.20(2.30g) = 0.46g$$<br/>This means $h$ is 0.46 times $g$. That confirms <strong>B</strong> is correct."
     }
   ]
 }

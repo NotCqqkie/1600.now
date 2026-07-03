@@ -1,19 +1,19 @@
 {
   "questionId": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_22",
-  "correctAnswer": "-13/14,-0.928,-0.929",
+  "correctAnswer": "-29/30,-0.966,-0.967",
   "section": "Math",
   "steps": [
     {
       "title": "Use the no-solution condition",
-      "content": "For a linear equation in one variable to have no solution, the $x$-coefficients must match while the constants differ. So first expand the left side:<br/>$$5(kx-n)=5kx-5n$$"
+      "content": "For a linear equation in one variable to have no solution, the $x$-coefficients must match while the constants differ. So first expand the left side:<br/>$$6(kx-n)=6kx-6n$$"
     },
     {
       "title": "Match the x-coefficients",
-      "content": "The equation becomes<br/>$$5kx-5n=-\\frac{65}{14}x-\\frac{85}{18}$$<br/>Match the $x$-coefficients:<br/>$$5k=-\\frac{65}{14}$$<br/>$$k=-\\frac{65}{70}=-\\frac{13}{14}$$"
+      "content": "The equation becomes<br/>$$6kx-6n=-\\frac{29}{5}x-\\frac{31}{7}$$<br/>Match the $x$-coefficients:<br/>$$6k=-\\frac{29}{5}$$<br/>$$k=-\\frac{29}{30}$$"
     },
     {
       "title": "Check the no-solution condition",
-      "content": "With $k=-\\frac{13}{14}$, the $x$-terms cancel. The constants are $-5n$ and $-\\frac{85}{18}$. Since $n\\gt 1$, $5n\\gt 5\\gt \\frac{85}{18}$, so $-5n\\neq-\\frac{85}{18}$. The remaining statement is a contradiction, so no solution exists. Equivalent accepted answers are <strong>-13/14</strong>, <strong>-0.928</strong>, and <strong>-0.929</strong>."
+      "content": "With $k=-\\frac{29}{30}$, the $x$-terms cancel. The constants are $-6n$ and $-\\frac{31}{7}$. Since $n\\gt 1$, $6n\\gt 6\\gt \\frac{31}{7}$, so $-6n\\neq-\\frac{31}{7}$. The remaining statement is a contradiction, so no solution exists. Equivalent accepted answers are <strong>-29/30</strong>, <strong>-0.966</strong>, and <strong>-0.967</strong>."
     }
   ]
 }

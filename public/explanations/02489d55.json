@@ -5,23 +5,23 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $19{x}^{2}-133$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $18{x}^{2}-108$."
     },
     {
       "title": "Algebra check",
       "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
     },
     {
-      "title": "Distribute 19",
-      "content": "Multiply $19$ by both terms inside the parentheses:<br/>$$19(x^2-7)=19x^2-19\\cdot7$$"
+      "title": "Distribute 18",
+      "content": "Multiply $18$ by both terms inside the parentheses:<br/>$$18(x^2-6)=18x^2-18\\cdot6$$"
     },
     {
       "title": "Simplify the constant",
-      "content": "$$19\\cdot7=133$$<br/>So:<br/>$$19(x^2-7)=19x^2-133$$"
+      "content": "$$18\\cdot6=108$$<br/>So:<br/>$$18(x^2-6)=18x^2-108$$"
     },
     {
       "title": "Fast choice check",
-      "content": "A quick check is to plug in $x=0$. The original expression gives $19(0^2-7)=-133$, matching the constant term in <strong>Choice A &mdash; $19{x}^{2}-133$</strong> and eliminating the other constants."
+      "content": "A quick check is to plug in $x=0$. The original expression gives $18(0^2-6)=-108$, matching the constant term in <strong>Choice A &mdash; $18{x}^{2}-108$</strong> and eliminating the other constants."
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find the x-coordinate",
-      "content": "Use the linear equation first: $$x+5=14$$ $$x=9$$ So the intersection must have $x=9$."
+      "content": "Use the linear equation first: $$x+6=16$$ $$x=10$$ So the intersection must have $x=10$."
     },
     {
       "title": "Find the y-coordinate",
-      "content": "Substitute $x=9$ into the other equation: $$y=3(9)^2+3=3(81)+3=246$$ The solution to the system is the point that satisfies both equations, so the graphs intersect at $(9,246)$. That is <strong>Choice C &mdash; $(9, 246)$</strong>."
+      "content": "Substitute $x=10$ into the other equation: $$y=3(10)^2+4=3(100)+4=304$$ The solution to the system is the point that satisfies both equations, so the graphs intersect at $(10,304)$. That is <strong>Choice C &mdash; $(10, 304)$</strong>."
     }
   ]
 }

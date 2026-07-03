@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Analyze the equation",
-      "content": "Add $7x$ to both sides of $7x-19=19-7x$: $$14x=38.$$ The coefficient on $x$ is nonzero, so there is a unique solution."
+      "content": "Add $9x$ to both sides of $9x-23=23-9x$: $$18x=46.$$ The coefficient on $x$ is nonzero, so there is a unique solution."
     },
     {
       "title": "Count the solutions",

@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $v^{3}(v-590)$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $w^{3}(w-620)$."
     },
     {
       "title": "Algebra check",
@@ -13,15 +13,15 @@
     },
     {
       "title": "Find the greatest common factor",
-      "content": "Both terms $v^4$ and $590v^3$ share a factor of $v^3$. Factor it out:<br/>$$v^4 - 590v^3 = v^3(v - 590)$$"
+      "content": "Both terms $w^4$ and $620w^3$ share a factor of $w^3$. Factor it out:<br/>$$w^4 - 620w^3 = w^3(w - 620)$$"
     },
     {
       "title": "Verify by expanding",
-      "content": "$v^3(v - 590) = v^3 \\cdot v - v^3 \\cdot 590 = v^4 - 590v^3$. Confirmed."
+      "content": "$w^3(w - 620) = w^3 \\cdot w - w^3 \\cdot 620 = w^4 - 620w^3$. Confirmed."
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li>$v^3(v+590) = v^4 + 590v^3$ — wrong sign, eliminate.</li><li>$(v^2+59)(v^2-10) = v^4 - 10v^2 + 59v^2 - 590 = v^4 + 49v^2 - 590$ — eliminate.</li><li>$(v^2-59)(v^2-10) = v^4 - 10v^2 - 59v^2 + 590 = v^4 - 69v^2 + 590$ — eliminate.</li><li>$v^3(v-590) = v^4 - 590v^3$ — matches.</li></ul>That matches <strong>Choice D &mdash; $v^{3}(v-590)$</strong>."
+      "content": "<ul><li>$w^3(w+620) = w^4 + 620w^3$ — wrong sign, eliminate.</li><li>$(w^2+62)(w^2-10) = w^4 - 10w^2 + 62w^2 - 620 = w^4 + 52w^2 - 620$ — eliminate.</li><li>$(w^2-62)(w^2-10) = w^4 - 10w^2 - 62w^2 + 620 = w^4 - 72w^2 + 620$ — eliminate.</li><li>$w^3(w-620) = w^4 - 620w^3$ — matches.</li></ul>That matches <strong>Choice D &mdash; $w^{3}(w-620)$</strong>."
     }
   ]
 }

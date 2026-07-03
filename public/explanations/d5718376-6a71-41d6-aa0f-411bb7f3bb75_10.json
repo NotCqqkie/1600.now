@@ -1,19 +1,19 @@
 {
   "questionId": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_10",
-  "correctAnswer": "7",
+  "correctAnswer": "9",
   "section": "Math",
   "steps": [
     {
       "title": "Fastest path: use the function table",
-      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $7$, so the answer is <strong>$7$</strong>. This is just a one-row lookup, and the arithmetic below confirms the table value."
+      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $9$, so the answer is <strong>$9$</strong>. This is just a one-row lookup, and the arithmetic below confirms the table value."
     },
     {
       "title": "Set up",
-      "content": "Substitute $x = 6$ into $g(x) = \\dfrac{6x - 1}{5}$:<br/>$$g(6) = \\frac{6(6) - 1}{5} = \\frac{36 - 1}{5} = \\frac{35}{5}$$"
+      "content": "Substitute $x = 8$ into $h(x) = \\dfrac{7x - 2}{6}$:<br/>$$h(8) = \\frac{7(8) - 2}{6} = \\frac{56 - 2}{6} = \\frac{54}{6}$$"
     },
     {
       "title": "Solve",
-      "content": "$$\\frac{35}{5} = 7$$"
+      "content": "$$\\frac{54}{6} = 9$$"
     }
   ]
 }

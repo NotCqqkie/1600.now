@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Find the perimeter of square X",
-      "content": "Square X has side length 12 cm. The perimeter of any square is $4 \\times \\text{side}$.<br/>Perimeter of X = $4 \\times 12 = 48$ cm"
+      "content": "Square X has side length 15 cm. The perimeter of any square is $4 \\times \\text{side}$.<br/>Perimeter of X = $4 \\times 15 = 60$ cm"
     },
     {
       "title": "Find the perimeter of square Y",
-      "content": "We're told the perimeter of square Y is 2 times the perimeter of square X.<br/>Perimeter of Y = $2 \\times 48 = 96$ cm"
+      "content": "We're told the perimeter of square Y is 3 times the perimeter of square X.<br/>Perimeter of Y = $3 \\times 60 = 180$ cm"
     },
     {
       "title": "Find the side length of square Y",
-      "content": "Since square Y has perimeter 96 cm, and the perimeter of a square equals $4 \\times \\text{side}$:<br/>$$96 = 4 \\times \\text{side}$$<br/>$$\\text{side} = \\frac{96}{4} = 24 \\text{ cm}$$<br/>That matches <strong>Choice D &mdash; $24$</strong>."
+      "content": "Since square Y has perimeter 180 cm, and the perimeter of a square equals $4 \\times \\text{side}$:<br/>$$180 = 4 \\times \\text{side}$$<br/>$$\\text{side} = \\frac{180}{4} = 45 \\text{ cm}$$<br/>That matches <strong>Choice D &mdash; $45$</strong>."
     }
   ]
 }

@@ -1,20 +1,20 @@
 {
   "questionId": "e5c57163",
-  "correctAnswer": "27556",
+  "correctAnswer": "23716",
   "section": "Math",
   "steps": [
     {
       "title": "Identify the linear scale factor",
-      "content": "Square A's sides are 166 times square B's sides. The linear scale factor is $r = 166$."
+      "content": "Square A's sides are 154 times square B's sides. The linear scale factor is $r = 154$."
     },
     {
       "title": "Apply the area scaling rule",
-      "content": "When linear dimensions scale by factor $r$, areas of similar figures scale by $r^2$. With $r = 166$, the area ratio $k$ equals $166^2$.",
+      "content": "When linear dimensions scale by factor $r$, areas of similar figures scale by $r^2$. With $r = 154$, the area ratio $k$ equals $154^2$.",
       "formula": "$$k = r^2$$"
     },
     {
       "title": "Calculate k",
-      "content": "$$k = 166^2 = 27556$$<br/>Therefore $k = 27556$."
+      "content": "$$k = 154^2 = 23716$$<br/>Therefore $k = 23716$."
     }
   ]
 }

@@ -46,6 +46,9 @@ export interface CustomPracticeSet {
   questionCount: number;
   items: CustomPracticeSetItem[];
   sourceType?: "related-question" | "bank-selection";
+  // Soft-delete tombstone. Kept in storage (not displayed) so a deletion wins
+  // over a stale copy during cross-device merge instead of resurrecting.
+  deletedAt?: number;
 }
 
 const LEGACY_CUSTOM_PRACTICE_SETS_KEY = "custom-practice-sets:v1";
@@ -248,16 +251,31 @@ const buildCustomPracticeSet = ({
   };
 };
 
-export const getCustomPracticeSets = (uid?: string | null): CustomPracticeSet[] => {
+const readPersistentCustomPracticeSets = (uid?: string | null): CustomPracticeSet[] => {
   const storedSets = readJson<CustomPracticeSet[]>(customPracticeSetsStorageKey(uid), []);
-  const savedSets = storedSets.filter(isPersistentPracticeSet);
-  const needsPrune = savedSets.length !== storedSets.length;
-  if (needsPrune) saveCustomPracticeSets(savedSets, uid, { notify: false });
-  return savedSets.sort((left, right) => right.updatedAt - left.updatedAt);
+  const persistentSets = storedSets.filter(isPersistentPracticeSet);
+  if (persistentSets.length !== storedSets.length) {
+    saveCustomPracticeSets(persistentSets, uid, { notify: false });
+  }
+  return persistentSets;
 };
 
+// Includes soft-deleted tombstones. Used only by the cross-device sync/merge
+// path so a deletion propagates instead of resurrecting from another device.
+export const getAllCustomPracticeSetsForSync = (uid?: string | null): CustomPracticeSet[] =>
+  readPersistentCustomPracticeSets(uid);
+
+export const getCustomPracticeSets = (uid?: string | null): CustomPracticeSet[] =>
+  readPersistentCustomPracticeSets(uid)
+    .filter((set) => !set.deletedAt)
+    .sort((left, right) => right.updatedAt - left.updatedAt);
+
 export const deleteCustomPracticeSet = (setId: string, uid?: string | null): void => {
-  saveCustomPracticeSets(getCustomPracticeSets(uid).filter((set) => set.id !== setId), uid);
+  const now = Date.now();
+  const nextSets = readPersistentCustomPracticeSets(uid).map((set) =>
+    set.id === setId ? { ...set, deletedAt: now, updatedAt: now } : set,
+  );
+  saveCustomPracticeSets(nextSets, uid);
 };
 
 export const createCustomPracticeSetFromQuestions = ({
@@ -290,7 +308,7 @@ export const createCustomPracticeSetFromQuestions = ({
     );
   }
   const setId = id ?? `custom-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
-  const existingSets = getCustomPracticeSets(uid);
+  const existingSets = getAllCustomPracticeSetsForSync(uid);
   const existingSet = existingSets.find((set) => set.id === setId);
   const now = Date.now();
   const nextSet = buildCustomPracticeSet({

@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Substitute the linear equation into the quadratic",
-      "content": "From the second equation, $y = -6x + 36$. Substitute into $x^2 = 6x + y$:<br/>$$x^2 = 6x + (-6x + 36)$$<br/>The $6x$ and $-6x$ cancel:<br/>$$x^2 = 36$$"
+      "content": "From the second equation, $y = -7x + 49$. Substitute into $x^2 = 7x + y$:<br/>$$x^2 = 7x + (-7x + 49)$$<br/>The $7x$ and $-7x$ cancel:<br/>$$x^2 = 49$$"
     },
     {
       "title": "Solve for x",
-      "content": "$$x = 6 \\text{ or } x = -6$$"
+      "content": "$$x = 7 \\text{ or } x = -7$$"
     },
     {
       "title": "Compute xy for each solution",
-      "content": "Use $y = -6x + 36$:<br/>If $x = 6$: $y = -36 + 36 = 0$, so $xy = 6 \\cdot 0 = 0$.<br/>If $x = -6$: $y = 36 + 36 = 72$, so $xy = -6 \\cdot 72 = -432$.<br/>The possible values of $xy$ are $0$ and $-432$."
+      "content": "Use $y = -7x + 49$:<br/>If $x = 7$: $y = -49 + 49 = 0$, so $xy = 7 \\cdot 0 = 0$.<br/>If $x = -7$: $y = 49 + 49 = 98$, so $xy = -7 \\cdot 98 = -686$.<br/>The possible values of $xy$ are $0$ and $-686$."
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li><strong>A) 0:</strong> Matches the solution $(6, 0)$ since $6 \\cdot 0 = 0$.</li><li><strong>B) 6:</strong> Neither solution yields $xy = 6$.</li><li><strong>C) 12:</strong> Neither solution yields $xy = 12$.</li><li><strong>D) 36:</strong> Neither solution yields $xy = 36$.</li></ul>That matches <strong>Choice A &mdash; 0</strong>."
+      "content": "<ul><li><strong>A) 0:</strong> Matches the solution $(7, 0)$ since $7 \\cdot 0 = 0$.</li><li><strong>B) 7:</strong> Neither solution yields $xy = 7$.</li><li><strong>C) 14:</strong> Neither solution yields $xy = 14$.</li><li><strong>D) 49:</strong> Neither solution yields $xy = 49$.</li></ul>That matches <strong>Choice A &mdash; 0</strong>."
     }
   ]
 }

@@ -1,20 +1,20 @@
 {
   "questionId": "5154615f",
-  "correctAnswer": "6.21",
+  "correctAnswer": "13.76",
   "section": "Math",
   "steps": [
     {
       "title": "Identify the formula relating mass, density, and volume",
-      "content": "We know the density (0.230 g/cm³) and need to find the mass. We'll calculate the volume of the cube, then multiply by density.",
+      "content": "We know the density (0.215 g/cm^3) and need to find the mass. We'll calculate the volume of the cube, then multiply by density.",
       "formula": "$$\\text{Mass} = \\text{Density} \\times \\text{Volume}$$"
     },
     {
-      "title": "Calculate the volume of the cubic pumice sample",
-      "content": "The cube has an edge length of 3.000 cm. For a cube with side length $s$: $$V = s^3 = (3.000)^3 = 27.000 \\text{ cm}^3$$"
+      "title": "Calculate the volume of the cubic basalt sample",
+      "content": "The cube has an edge length of 4.000 cm. For a cube with side length $s$: $$V = s^3 = (4.000)^3 = 64.000 \\text{ cm}^3$$"
     },
     {
       "title": "Multiply density by volume to find mass",
-      "content": "Applying the formula with our calculated volume and given density: $$\\text{Mass} = 0.230 \\text{ g/cm}^3 \\times 27.000 \\text{ cm}^3 = 6.21 \\text{ grams}$$"
+      "content": "Applying the formula with our calculated volume and given density: $$\\text{Mass} = 0.215 \\text{ g/cm}^3 \\times 64.000 \\text{ cm}^3 = 13.76 \\text{ grams}$$"
     }
   ]
 }

@@ -1,19 +1,19 @@
 {
   "questionId": "e11294f9",
-  "correctAnswer": "31",
+  "correctAnswer": "54",
   "section": "Math",
   "steps": [
     {
       "title": "Solve both quadratics using the quadratic formula",
-      "content": "Use the discriminant when the question is really asking how many real solutions a quadratic has. The sign of $b^2-4ac$ tells whether there are two, one, or no real solutions. For $x^2 + 6x + 7 = 0$, the discriminant is $\\Delta = 36 - 28 = 8$:<br/>$$r, s = \\frac{-6 \\pm \\sqrt{8}}{2} = \\frac{-6 \\pm 2\\sqrt{2}}{2} = -3 \\pm \\sqrt{2}$$<br/>For $x^2 + 8x + 8 = 0$, the discriminant is $\\Delta = 64 - 32 = 32$:<br/>$$t, u = \\frac{-8 \\pm \\sqrt{32}}{2} = \\frac{-8 \\pm 4\\sqrt{2}}{2} = -4 \\pm 2\\sqrt{2}$$"
+      "content": "Use the discriminant when the question is really asking how many real solutions a quadratic has. The sign of $b^2-4ac$ tells whether there are two, one, or no real solutions. For $x^2 + 8x + 13 = 0$, the discriminant is $\\Delta = 64 - 52 = 12$:<br/>$$r, s = \\frac{-8 \\pm \\sqrt{12}}{2} = \\frac{-8 \\pm 2\\sqrt{3}}{2} = -4 \\pm \\sqrt{3}$$<br/>For $x^2 + 10x + 13 = 0$, the discriminant is $\\Delta = 100 - 52 = 48$:<br/>$$t, u = \\frac{-10 \\pm \\sqrt{48}}{2} = \\frac{-10 \\pm 4\\sqrt{3}}{2} = -5 \\pm 2\\sqrt{3}$$"
     },
     {
       "title": "Form the new roots and verify their sum",
-      "content": "With $r = -3 - \\sqrt{2}$, $s = -3 + \\sqrt{2}$, $t = -4 - 2\\sqrt{2}$, $u = -4 + 2\\sqrt{2}$:<br/>$$r + t = -7 - 3\\sqrt{2}, \\quad s + u = -7 + 3\\sqrt{2}$$<br/>Their sum is $(r+t) + (s+u) = -14$, confirming the $x$ coefficient in $x^2 + 14x + c = 0$."
+      "content": "With $r = -4 - \\sqrt{3}$, $s = -4 + \\sqrt{3}$, $t = -5 - 2\\sqrt{3}$, $u = -5 + 2\\sqrt{3}$:<br/>$$r + t = -9 - 3\\sqrt{3}, \\quad s + u = -9 + 3\\sqrt{3}$$<br/>Their sum is $(r+t) + (s+u) = -18$, confirming the $x$ coefficient in $x^2 + 18x + c = 0$."
     },
     {
       "title": "Calculate c as the product of the new roots",
-      "content": "$$(r+t)(s+u) = (-7 - 3\\sqrt{2})(-7 + 3\\sqrt{2})$$<br/>This is a difference of squares $(a-b)(a+b) = a^2 - b^2$ with $a = -7$ and $b = 3\\sqrt{2}$:<br/>$$= 49 - 9 \\cdot 2 = 49 - 18 = 31$$<br/>Therefore, $c = 31$."
+      "content": "$$(r+t)(s+u) = (-9 - 3\\sqrt{3})(-9 + 3\\sqrt{3})$$<br/>This is a difference of squares $(a-b)(a+b) = a^2 - b^2$ with $a = -9$ and $b = 3\\sqrt{3}$:<br/>$$= 81 - 9 \\cdot 3 = 81 - 27 = 54$$<br/>Therefore, $c = 54$."
     }
   ]
 }

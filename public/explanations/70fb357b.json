@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Find the y-intercept value",
-      "content": "At the $y$-intercept, $x=0$. Substitute into $y=576^{2x+2}$ to get $s=576^{2(0)+2}=576^2=331{,}776$."
+      "content": "At the $y$-intercept, $x=0$. Substitute into $y=625^{2x+2}$ to get $s=625^{2(0)+2}=625^2=390{,}625$."
     },
     {
       "title": "Look for s in the choices",
-      "content": "The question asks for an equivalent equation that displays $s$ as a constant, coefficient, or base. Choice A (&lsquo;$y={331,776}^{ \\left(x+1\\right)}$&rsquo;) uses $331{,}776$ as the base."
+      "content": "The question asks for an equivalent equation that displays $s$ as a constant, coefficient, or base. Choice A (&lsquo;$y={390,625}^{ \\left(x+1\\right)}$&rsquo;) uses $390{,}625$ as the base."
     },
     {
       "title": "Confirm equivalence",
-      "content": "Since $331{,}776=576^2$, $331{,}776^{x+1}=(576^2)^{x+1}=576^{2x+2}$. Therefore <strong>A</strong> is correct."
+      "content": "Since $390{,}625=625^2$, $390{,}625^{x+1}=(625^2)^{x+1}=625^{2x+2}$. Therefore <strong>A</strong> is correct."
     }
   ]
 }

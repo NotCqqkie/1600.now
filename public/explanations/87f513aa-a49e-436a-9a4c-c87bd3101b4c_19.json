@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Expand to standard form",
-      "content": "Expanding $x(x+9) - 13 = 0$ gives:<br/>$$x^2 + 9x - 13 = 0$$<br/>With coefficients $a = 1$, $b = 9$, $c = -13$"
+      "content": "Expanding $x(x+11) - 14 = 0$ gives:<br/>$$x^2 + 11x - 14 = 0$$<br/>With coefficients $a = 1$, $b = 11$, $c = -14$"
     },
     {
       "title": "Apply the quadratic formula",
-      "content": "The numerator starts with $-b = -9$, which eliminates those choices (they have $+9$).<br/><br/>Calculate the discriminant:<br/>$$b^2 - 4ac = 9^2 - 4(1)(-13) = 81 + 52 = 133$$<br/>Substituting into the quadratic formula:<br/>$$x = \\frac{-9 \\pm \\sqrt{133}}{2}$$<br/>That confirms <strong>D</strong> is correct.",
+      "content": "The numerator starts with $-b = -11$, which eliminates those choices (they have $+11$).<br/><br/>Calculate the discriminant:<br/>$$b^2 - 4ac = 11^2 - 4(1)(-14) = 121 + 56 = 177$$<br/>Substituting into the quadratic formula:<br/>$$x = \\frac{-11 \\pm \\sqrt{177}}{2}$$<br/>That confirms <strong>D</strong> is correct.",
       "formula": "$$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$$"
     }
   ]

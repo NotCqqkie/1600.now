@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Translate rates and times into distances",
-      "content": "Distance = rate &times; time.<br/>Rhett drives at 35 mph for r hours $\\Rightarrow$ distance = 35r miles.<br/>Jessica drives at 40 mph for j hours $\\Rightarrow$ distance = 40j miles.<br/>Total distance = 35r + 40j miles."
+      "content": "Distance = rate &times; time.<br/>Evan drives at 45 mph for e hours $\\Rightarrow$ distance = 45e miles.<br/>Maya drives at 50 mph for m hours $\\Rightarrow$ distance = 50m miles.<br/>Total distance = 45e + 50m miles."
     },
     {
       "title": "Apply the total distance condition",
-      "content": "The problem states the total distance was <em>under</em> 220 miles, so the total must be strictly less than 220:<br/>$$35r + 40j \\lt 220$$"
+      "content": "The problem states the total distance was <em>under</em> 310 miles, so the total must be strictly less than 310:<br/>$$45e + 50m \\lt 310$$"
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li><strong>\"$35r+40j\\gt 220$\"</strong>: Uses the correct coefficients but the wrong inequality direction &mdash; this would mean the total exceeds 220 miles. &#10007;</li><li><strong>\"$35r+40j\\lt 220$\"</strong>: Rhett&rsquo;s distance (35r) plus Jessica&rsquo;s distance (40j) is less than 220 miles &mdash; exactly the given constraint. &#10003;</li><li><strong>\"$40r+35j\\gt 220$\"</strong>: Swaps the speeds (assigns 40 to Rhett and 35 to Jessica) and uses the wrong inequality direction. &#10007;</li><li><strong>\"$40r+35j\\lt 220$\"</strong>: Has the correct inequality direction but swaps Rhett&rsquo;s and Jessica&rsquo;s speeds. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+      "content": "<ul><li><strong>\"$45e+50m\\gt 310$\"</strong>: Uses the correct coefficients but the wrong inequality direction &mdash; this would mean the total exceeds 310 miles. &#10007;</li><li><strong>\"$45e+50m\\lt 310$\"</strong>: Evan&rsquo;s distance (45e) plus Maya&rsquo;s distance (50m) is less than 310 miles &mdash; exactly the given constraint. &#10003;</li><li><strong>\"$50e+45m\\gt 310$\"</strong>: Swaps the speeds (assigns 50 to Evan and 45 to Maya) and uses the wrong inequality direction. &#10007;</li><li><strong>\"$50e+45m\\lt 310$\"</strong>: Has the correct inequality direction but swaps Evan&rsquo;s and Maya&rsquo;s speeds. &#10007;</li></ul>That matches the correct answer &mdash; <strong>B</strong> is correct."
     }
   ]
 }

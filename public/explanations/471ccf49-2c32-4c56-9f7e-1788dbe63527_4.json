@@ -1,15 +1,15 @@
 {
   "questionId": "471ccf49-2c32-4c56-9f7e-1788dbe63527_4",
-  "correctAnswer": "26",
+  "correctAnswer": "24",
   "section": "Math",
   "steps": [
     {
-      "title": "Calculate the cost of confetti",
-      "content": "Sophia bought 10 packages of confetti at 3 dollars per package. Multiply to find the total cost:<br/>$$10 \\times 3 = 30$$<br/>She spent 30 dollars on confetti."
+      "title": "Calculate the cost of markers",
+      "content": "Olivia bought 11 packages of markers at 4 dollars per package. Multiply to find the total cost:<br/>$$11 \\times 4 = 44$$<br/>She spent 44 dollars on markers."
     },
     {
-      "title": "Find the number of balloons",
-      "content": "She spent 56 dollars total and 30 dollars on confetti, so:<br/>$$56 - 30 = 26$$<br/>This is the amount left for balloons. Since each balloon costs 1 dollar, Sophia bought <strong>26 balloons</strong>."
+      "title": "Find the number of folders",
+      "content": "She spent 68 dollars total and 44 dollars on markers, so:<br/>$$68 - 44 = 24$$<br/>This is the amount left for folders. Since each folder costs 1 dollar, Olivia bought <strong>24 folders</strong>."
     }
   ]
 }

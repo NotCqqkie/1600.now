@@ -1,19 +1,19 @@
 {
   "questionId": "659cbbc1-2d38-4d45-8ecb-79f43367862e_17",
-  "correctAnswer": "1/8,0.125,.125",
+  "correctAnswer": "3/20,0.15,.15",
   "section": "Math",
   "steps": [
     {
       "title": "Convert radicals to exponent form",
-      "content": "Rewrite the radical expressions using exponent notation. First, $\\sqrt{117n} = (117n)^{1/2}$. For the squared radical, apply the power rule $(a^m)^n = a^{mn}$:<br/>$$(\\sqrt{117n})^{2} = [(117n)^{1/2}]^{2} = (117n)^{1/2 \\cdot 2} = (117n)^{1}$$"
+      "content": "Rewrite the radical expressions using exponent notation. First, $\\sqrt{125n} = (125n)^{1/2}$. For the squared radical, apply the power rule $(a^m)^n = a^{mn}$:<br/>$$(\\sqrt{125n})^{2} = [(125n)^{1/2}]^{2} = (125n)^{1/2 \\cdot 2} = (125n)^{1}$$"
     },
     {
       "title": "Combine the left side using product rule",
-      "content": "The left side is now $(117n)^{1/2} \\cdot (117n)^{1}$. Apply the product rule $a^m \\cdot a^n = a^{m+n}$:<br/>$$(117n)^{1/2} \\cdot (117n)^{1} = (117n)^{1/2 + 1} = (117n)^{3/2}$$"
+      "content": "The left side is now $(125n)^{1/2} \\cdot (125n)^{1}$. Apply the product rule $a^m \\cdot a^n = a^{m+n}$:<br/>$$(125n)^{1/2} \\cdot (125n)^{1} = (125n)^{1/2 + 1} = (125n)^{3/2}$$"
     },
     {
       "title": "Equate exponents and solve for x",
-      "content": "Set the simplified left side equal to the right side:<br/>$$(117n)^{3/2} = (117n)^{12x}$$<br/>Since the bases are identical and $n \\gt 1$ ensures $117n$ is positive and not equal to 1, the exponents must be equal:<br/>$$\\frac{3}{2} = 12x$$<br/>Solve for $x$ by dividing both sides by 12:<br/>$$x = \\frac{3/2}{12} = \\frac{3}{2} \\cdot \\frac{1}{12} = \\frac{3}{24} = \\frac{1}{8}$$<br/>Equivalent forms accepted: <strong>1/8</strong>, <strong>0.125</strong>, <strong>.125</strong>."
+      "content": "Set the simplified left side equal to the right side:<br/>$$(125n)^{3/2} = (125n)^{10x}$$<br/>Since the bases are identical and $n \\gt 1$ ensures $125n$ is positive and not equal to 1, the exponents must be equal:<br/>$$\\frac{3}{2} = 10x$$<br/>Solve for $x$ by dividing both sides by 10:<br/>$$x = \\frac{3/2}{10} = \\frac{3}{2} \\cdot \\frac{1}{10} = \\frac{3}{20}$$<br/>Equivalent forms accepted: <strong>3/20</strong>, <strong>0.15</strong>, <strong>.15</strong>."
     }
   ]
 }

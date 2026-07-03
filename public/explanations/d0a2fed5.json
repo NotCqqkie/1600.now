@@ -1,19 +1,19 @@
 {
   "questionId": "d0a2fed5",
-  "correctAnswer": "294",
+  "correctAnswer": "512",
   "section": "Math",
   "steps": [
     {
       "title": "Isolate the $p$ term",
-      "content": "Start with $$\\frac{6}{7}p+18=54.$$ Subtract $18$ from both sides: $$\\frac{6}{7}p=36.$$"
+      "content": "Start with $$\\frac{5}{8}p+21=61.$$ Subtract $21$ from both sides: $$\\frac{5}{8}p=40.$$"
     },
     {
       "title": "Solve for $p$",
-      "content": "Multiply by $\\frac{7}{6}$: $$p=36\\cdot\\frac{7}{6}=42.$$"
+      "content": "Multiply by $\\frac{8}{5}$: $$p=40\\cdot\\frac{8}{5}=64.$$"
     },
     {
       "title": "Evaluate the requested expression",
-      "content": "The question asks for $7p$, so $$7p=7(42)=294.$$ The answer is <strong>294</strong>. Be careful not to stop at $p=42$; the requested expression is seven times that value."
+      "content": "The question asks for $8p$, so $$8p=8(64)=512.$$ The answer is <strong>512</strong>. Be careful not to stop at $p=64$; the requested expression is eight times that value."
     }
   ]
 }

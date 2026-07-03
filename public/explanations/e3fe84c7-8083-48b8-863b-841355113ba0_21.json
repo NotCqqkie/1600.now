@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The roots are $x = 8$ and $x = -2$, so $f(x) = a(x-8)(x+2)$ for some integer $a \\gt  1$. Expanding: $f(x) = ax^2 + a(2-8)x - 16a = ax^2 - 6ax - 16a$. This means $b = -6a$, so:<br/>$$a + b = a + (-6a) = -5a$$<br/>We need a value of $-5a$ where $a$ is an integer greater than 1."
+      "content": "The roots are $x = 7$ and $x = -2$, so $f(x) = a(x-7)(x+2)$ for some integer $a \\gt  1$. Expanding: $f(x) = ax^2 + a(2-7)x - 14a = ax^2 - 5ax - 14a$. This means $b = -5a$, so:<br/>$$a + b = a + (-5a) = -4a$$<br/>We need a value of $-4a$ where $a$ is an integer greater than 1."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"-10\"</strong>: $-5a = -10 \\implies a = 2$. Integer greater than 1. &#10003;</li><li><strong>\"-5\"</strong>: $-5a = -5 \\implies a = 1$. Not greater than 1. &#10007;</li><li><strong>\"6\"</strong>: $-5a = 6 \\implies a = -\\frac{6}{5}$. Not a positive integer. &#10007;</li><li><strong>\"7\"</strong>: $-5a = 7 \\implies a = -\\frac{7}{5}$. Not a positive integer. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+      "content": "<ul><li><strong>\"-8\"</strong>: $-4a = -8 \\implies a = 2$. Integer greater than 1. &#10003;</li><li><strong>\"-4\"</strong>: $-4a = -4 \\implies a = 1$. Not greater than 1. &#10007;</li><li><strong>\"6\"</strong>: $-4a = 6 \\implies a = -\\frac{3}{2}$. Not a positive integer. &#10007;</li><li><strong>\"7\"</strong>: $-4a = 7 \\implies a = -\\frac{7}{4}$. Not a positive integer. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
     }
   ]
 }

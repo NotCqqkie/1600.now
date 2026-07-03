@@ -1,19 +1,19 @@
 {
   "questionId": "6197d48e-7c76-4333-af39-0b9aa39e924c_5",
-  "correctAnswer": "27",
+  "correctAnswer": "50",
   "section": "Math",
   "steps": [
     {
       "title": "Fastest path: use the function table",
-      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $27$, so the answer is <strong>$27$</strong>. This is just a one-row lookup, and the arithmetic below confirms the table value."
+      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $50$, so the answer is <strong>$50$</strong>. This is just a one-row lookup, and the arithmetic below confirms the table value."
     },
     {
       "title": "Set up",
-      "content": "Plug $x = 2$ into $f(x) = x^3 + 19$."
+      "content": "Plug $x = 3$ into $f(x) = x^3 + 23$."
     },
     {
       "title": "Solve",
-      "content": "$f(2) = 2^3 + 19 = 8 + 19 = 27$"
+      "content": "$f(3) = 3^3 + 23 = 27 + 23 = 50$"
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Translate each sentence",
-      "content": "Sentence 1: &quot;The sum of a number $x$ and 7 is twice as large as a number $y$&quot; $\\Rightarrow$ $x + 7 = 2y$.<br/>Sentence 2: &quot;The number $y$ is 3 less than the number $x$&quot; $\\Rightarrow$ $y = x - 3$."
+      "content": "Sentence 1: &quot;The sum of a number $x$ and 9 is twice as large as a number $y$&quot; $\\Rightarrow$ $x + 9 = 2y$.<br/>Sentence 2: &quot;The number $y$ is 4 less than the number $x$&quot; $\\Rightarrow$ $y = x - 4$."
     },
     {
       "title": "Match the system",
-      "content": "The system must contain both equations: $$x+7=2y$$ and $$y=x-3.$$ The choice with $x+7=2y$ and $y=x-3$ gives exactly that system. The system with $2 \\left(x+7\\right)=y$ reverses the first relationship, and the systems with $y=3-x$ reverse the second relationship. That confirms <strong>A</strong> is correct."
+      "content": "The system must contain both equations: $$x+9=2y$$ and $$y=x-4.$$ The choice with $x+9=2y$ and $y=x-4$ gives exactly that system. The system with $2 \\left(x+9\\right)=y$ reverses the first relationship, and the systems with $y=4-x$ reverse the second relationship. That confirms <strong>A</strong> is correct."
     }
   ]
 }

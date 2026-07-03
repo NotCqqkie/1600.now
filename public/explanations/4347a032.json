@@ -8,37 +8,37 @@
     },
     {
       "title": "Step 2",
-      "content": "Calculate: $44 \\times 3 = 132$ teaspoons."
+      "content": "Calculate: $58 \\times 3 = 174$ teaspoons."
     },
     {
       "title": "Step 3",
-      "content": "The computed value is $132$, so the matching answer is $132$."
+      "content": "The computed value is $174$, so the matching answer is $174$."
     },
     {
       "title": "Step 4",
-      "content": "No other choice matches: 47 = 44 + 3 (wrong operation), 88 = 44 &times; 2 (wrong multiplier), 176 = 44 &times; 4 (wrong multiplier). Only 132 is correct."
+      "content": "No other choice matches: 61 = 58 + 3 (wrong operation), 116 = 58 &times; 2 (wrong multiplier), 232 = 58 &times; 4 (wrong multiplier). Only 174 is correct."
     }
   ],
   "choices": [
     {
       "id": "A",
-      "text": "47",
-      "explanation": "<ul><li>47 = 44 + 3, which adds the conversion factor instead of multiplying. This is not the correct operation for unit conversion. This is incorrect.</li></ul>"
+      "text": "61",
+      "explanation": "<ul><li>61 = 58 + 3, which adds the conversion factor instead of multiplying. This is not the correct operation for unit conversion. This is incorrect.</li></ul>"
     },
     {
       "id": "B",
-      "text": "88",
-      "explanation": "<ul><li>88 = 44 &times; 2. There is no basis for multiplying by 2; the conversion factor is 3 teaspoons per tablespoon. This is incorrect.</li></ul>"
+      "text": "116",
+      "explanation": "<ul><li>116 = 58 &times; 2. There is no basis for multiplying by 2; the conversion factor is 3 teaspoons per tablespoon. This is incorrect.</li></ul>"
     },
     {
       "id": "C",
-      "text": "132",
-      "explanation": "<ul><li>$44 \\text{ tablespoons} \\times 3 \\frac{\\text{teaspoons}}{\\text{tablespoon}} = 132 \\text{ teaspoons}$. <strong>C</strong> is correct.</li></ul>"
+      "text": "174",
+      "explanation": "<ul><li>$58 \\text{ tablespoons} \\times 3 \\frac{\\text{teaspoons}}{\\text{tablespoon}} = 174 \\text{ teaspoons}$. <strong>C</strong> is correct.</li></ul>"
     },
     {
       "id": "D",
-      "text": "176",
-      "explanation": "<ul><li>176 = 44 &times; 4. There is no basis for multiplying by 4. This is incorrect.</li></ul>"
+      "text": "232",
+      "explanation": "<ul><li>232 = 58 &times; 4. There is no basis for multiplying by 4. This is incorrect.</li></ul>"
     }
   ],
   "correctAnswer": "C"

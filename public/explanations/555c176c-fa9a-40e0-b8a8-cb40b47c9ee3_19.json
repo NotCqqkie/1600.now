@@ -1,19 +1,19 @@
 {
   "questionId": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_19",
-  "correctAnswer": "4",
+  "correctAnswer": "7",
   "section": "Math",
   "steps": [
     {
       "title": "Fastest path: use the function table",
-      "content": "Enter the function in Desmos or a calculator table and scan for the row with the output named in the question. The input that works gives <strong>$4$</strong>. This is just a table lookup, and the arithmetic below confirms the same value."
+      "content": "Enter the function in Desmos or a calculator table and scan for the row with the output named in the question. The input that works gives <strong>$7$</strong>. This is just a table lookup, and the arithmetic below confirms the same value."
     },
     {
       "title": "Set up",
-      "content": "g(x) = 3x and g(x) = 12, so: $$3x = 12$$"
+      "content": "g(x) = 5x and g(x) = 35, so: $$5x = 35$$"
     },
     {
       "title": "Solve",
-      "content": "Divide both sides by 3: $$x = 4$$"
+      "content": "Divide both sides by 5: $$x = 7$$"
     }
   ]
 }

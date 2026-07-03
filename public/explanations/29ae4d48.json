@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the question type",
-      "content": "Transition question. Albert chose an unconventional surface (concrete) for graffiti; David has likewise chosen an unusual canvas (ice floes) for charcoal art. Both father and son made parallel unconventional artistic choices, so the transition must signal similarity."
+      "content": "Transition question. Mihai chose an unconventional surface (concrete) for graffiti; Andrei has likewise chosen an unusual canvas (ice floes) for charcoal art. Both father and son made parallel unconventional artistic choices, so the transition must signal similarity."
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; However,</strong>: signals contrast. The two sentences describe similar artistic choices, not opposing ones. &#10007;</li><li><strong>Choice B &mdash; Indeed,</strong>: signals emphatic confirmation of the previous statement. David's choice does not confirm or intensify Albert's; it presents a separate parallel case. &#10007;</li><li><strong>Choice C &mdash; Second,</strong>: signals enumeration of items in a list. The first sentence is not framed as item one of a list. &#10007;</li><li><strong>Choice D &mdash; Likewise,</strong>: signals similarity between two cases &mdash; exactly the parallel between Albert's concrete and David's ice floes. &#10003;</li></ul>That matches <strong>Choice D &mdash; Likewise,</strong>."
+      "content": "<ul><li><strong>Choice A &mdash; However,</strong>: signals contrast. The two sentences describe similar artistic choices, not opposing ones. &#10007;</li><li><strong>Choice B &mdash; Indeed,</strong>: signals emphatic confirmation of the previous statement. Andrei's choice does not confirm or intensify Mihai's; it presents a separate parallel case. &#10007;</li><li><strong>Choice C &mdash; Second,</strong>: signals enumeration of items in a list. The first sentence is not framed as item one of a list. &#10007;</li><li><strong>Choice D &mdash; Likewise,</strong>: signals similarity between two cases &mdash; exactly the parallel between Mihai's concrete and Andrei's ice floes. &#10003;</li></ul>That matches <strong>Choice D &mdash; Likewise,</strong>."
     }
   ]
 }

@@ -9,11 +9,11 @@
     },
     {
       "title": "Rule out the sample proportion as the cause",
-      "content": "Calculate $p(1-p)$ for each sample:<ul><li>Sample A: $0.52 \\times 0.48 = 0.2496$</li><li>Sample B: $0.48 \\times 0.52 = 0.2496$</li></ul>The proportions produce identical values, so the percent in favor (52% vs 48%) does not explain the difference in margins of error."
+      "content": "Calculate $p(1-p)$ for each sample:<ul><li>Sample A: $0.54 \\times 0.46 = 0.2484$</li><li>Sample B: $0.46 \\times 0.54 = 0.2484$</li></ul>The proportions produce identical values, so the percent in favor (54% vs 46%) does not explain the difference in margins of error."
     },
     {
       "title": "Conclude from the inverse relationship with sample size",
-      "content": "The margin of error is inversely proportional to the square root of sample size.<br/><br/>A smaller sample size produces a larger margin of error; a larger sample size produces a smaller margin of error.<br/><br/>Since Sample A has a larger MOE (4.2% vs 1.6%), Sample A must have the smaller sample size.<br/><br/><strong>D</strong> is correct."
+      "content": "The margin of error is inversely proportional to the square root of sample size.<br/><br/>A smaller sample size produces a larger margin of error; a larger sample size produces a smaller margin of error.<br/><br/>Since Sample A has a larger MOE (3.8% vs 1.4%), Sample A must have the smaller sample size.<br/><br/><strong>D</strong> is correct."
     }
   ]
 }

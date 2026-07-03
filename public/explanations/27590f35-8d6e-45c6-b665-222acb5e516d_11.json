@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute x = 46 into the model",
-      "content": "The predicted number of larvae is $y = 0.67x + 2.6$ for $20 \\leq x \\leq 110$. With $x = 46$ (within range), substitute: $$y = 0.67(46) + 2.6.$$"
+      "title": "Substitute x = 47 into the model",
+      "content": "The predicted number of larvae is $y = 0.68x + 2.4$ for $25 \\leq x \\leq 115$. With $x = 47$ (within range), substitute: $$y = 0.68(47) + 2.4.$$"
     },
     {
       "title": "Compute the value",
-      "content": "$0.67 \\times 46 = 30.82$, so $y = 30.82 + 2.6 = 33.42$."
+      "content": "$0.68 \\times 47 = 31.96$, so $y = 31.96 + 2.4 = 34.36$."
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li>A: $33$. Closest to $33.42$ (difference $0.42$). Correct.</li><li>B: $49$. Too large (difference $15.58$); would require $x \\approx 69$.</li><li>C: $65$. Far too large; would require $x \\approx 93$.</li><li>D: $150$. Way off; the maximum predicted larvae at $x=110$ is only $\\approx 76$.</li></ul>That matches <strong>Choice A &mdash; 33</strong>."
+      "content": "<ul><li>A: $34$. Closest to $34.36$ (difference $0.36$). Correct.</li><li>B: $50$. Too large (difference $15.64$); would require $x = 70$.</li><li>C: $66$. Far too large; would require $x \\approx 94$.</li><li>D: $155$. Way off; the maximum predicted larvae at $x=115$ is only $\\approx 81$.</li></ul>That matches <strong>Choice A &mdash; 34</strong>."
     }
   ]
 }

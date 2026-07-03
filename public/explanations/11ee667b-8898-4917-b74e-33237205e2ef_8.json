@@ -1,19 +1,19 @@
 {
   "questionId": "11ee667b-8898-4917-b74e-33237205e2ef_8",
-  "correctAnswer": "3490",
+  "correctAnswer": "3500",
   "section": "Math",
   "steps": [
     {
       "title": "Add the five values",
-      "content": "Sum the masses: $3710,3710,3130,3750,3150$, giving a total of $17450$."
+      "content": "Sum the masses: $3620,3620,3240,3680,3340$, giving a total of $17500$."
     },
     {
       "title": "Divide by the count",
-      "content": "The mean is $$\\tfrac{17450}{5}=3490.$$ The answer is <strong>3490</strong>."
+      "content": "The mean is $$\\tfrac{17500}{5}=3500.$$ The answer is <strong>3500</strong>."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $3490$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $3490$."
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $3500$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $3500$."
     }
   ]
 }

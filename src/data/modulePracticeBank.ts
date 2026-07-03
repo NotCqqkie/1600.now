@@ -1,10 +1,11 @@
 import type { BankQuestion } from "@/data/questionBank";
 import type { BankSubject } from "@/data/bankTypes";
 import {
-  BANK_BACKED_PRACTICE_SETS,
+  BANK_PRACTICE_SET_REFS,
   BANK_PRACTICE_SUMMARY,
+  GENERATED_PRACTICE_SET_LOADERS,
   type BankPracticeMappingMethod,
-} from "@/lib/generated/bankPractice.generated";
+} from "@/lib/generated/bankPracticeIndex.generated";
 
 type ModuleSubjectLabel = "Math" | "English";
 type ReplacementOrigin = "borrowed";
@@ -22,9 +23,14 @@ export interface ModuleReplacement {
   note: string;
 }
 
+export type PracticeQuestionRef = Pick<
+  BankQuestion,
+  "id" | "stableId" | "bankType" | "subject" | "sourceId" | "type"
+>;
+
 export interface PracticeModuleQuestion {
   slot: number;
-  bankQuestion: BankQuestion;
+  bankQuestion: PracticeQuestionRef;
   isReplacement: boolean;
   replacement?: ModuleReplacement;
   mappingMethod?: BankPracticeMappingMethod;
@@ -64,6 +70,18 @@ export interface PracticeSet {
   modules: PracticeModule[];
 }
 
+export interface LoadedPracticeModuleQuestion extends PracticeModuleQuestion {
+  bankQuestion: BankQuestion;
+}
+
+export interface LoadedPracticeModule extends PracticeModule {
+  questions: LoadedPracticeModuleQuestion[];
+}
+
+export interface LoadedPracticeSet extends PracticeSet {
+  modules: LoadedPracticeModule[];
+}
+
 export interface PracticeTestQuestionItem {
   id: number;
   subject: BankSubject;
@@ -79,29 +97,9 @@ export interface PracticeTestQuestionItem {
   globalQuestionNumber: number;
 }
 
-export const practiceSets: PracticeSet[] = BANK_BACKED_PRACTICE_SETS;
+export const practiceSets: PracticeSet[] = BANK_PRACTICE_SET_REFS;
 
 const practiceModules = practiceSets.flatMap((practiceSet) => practiceSet.modules);
-
-const practiceQuestionBySubjectAndSourceId: Record<BankSubject, Map<string, BankQuestion>> = {
-  math: new Map(),
-  reading: new Map(),
-};
-
-for (const module of practiceModules) {
-  for (const entry of module.questions) {
-    practiceQuestionBySubjectAndSourceId[module.subject].set(
-      `${entry.bankQuestion.bankType}:${entry.bankQuestion.sourceId}`,
-      entry.bankQuestion,
-    );
-  }
-}
-
-export const getSynthesizedPracticeQuestion = (
-  subject: BankSubject,
-  sourceId: string,
-  bankType: "past" | "unofficial" = "past",
-): BankQuestion | null => practiceQuestionBySubjectAndSourceId[subject].get(`${bankType}:${sourceId}`) ?? null;
 
 export const modulePracticeBankSummary: ModulePracticeBankSummary = {
   totalPracticeSets: BANK_PRACTICE_SUMMARY.totalPracticeSets,
@@ -171,6 +169,94 @@ export const buildPracticeTestQuestionSet = (
     }),
   );
 };
+
+const loadedPracticeSetsBySetNumber = new Map<number, LoadedPracticeSet>();
+const practiceSetLoadPromises = new Map<number, Promise<LoadedPracticeSet | null>>();
+
+const loadedPracticeQuestionBySubjectAndSourceId: Record<BankSubject, Map<string, BankQuestion>> = {
+  math: new Map(),
+  reading: new Map(),
+};
+
+const registerLoadedPracticeSet = (loadedSet: LoadedPracticeSet) => {
+  loadedPracticeSetsBySetNumber.set(loadedSet.setNumber, loadedSet);
+  for (const module of loadedSet.modules) {
+    for (const entry of module.questions) {
+      loadedPracticeQuestionBySubjectAndSourceId[module.subject].set(
+        `${entry.bankQuestion.bankType}:${entry.bankQuestion.sourceId}`,
+        entry.bankQuestion,
+      );
+    }
+  }
+};
+
+const loadPracticeSetBySetNumber = (setNumber: number): Promise<LoadedPracticeSet | null> => {
+  const loader = GENERATED_PRACTICE_SET_LOADERS[setNumber];
+  if (!loader) return Promise.resolve(null);
+
+  let promise = practiceSetLoadPromises.get(setNumber);
+  if (!promise) {
+    promise = loader().then(
+      (mod) => {
+        const loadedSet: LoadedPracticeSet = mod.GENERATED_PRACTICE_SET;
+        registerLoadedPracticeSet(loadedSet);
+        return loadedSet;
+      },
+      (error: unknown) => {
+        practiceSetLoadPromises.delete(setNumber);
+        throw error;
+      },
+    );
+    practiceSetLoadPromises.set(setNumber, promise);
+  }
+  return promise;
+};
+
+export const loadPracticeSet = (setIdOrNumber: string | number): Promise<LoadedPracticeSet | null> => {
+  const practiceSet = getPracticeSet(setIdOrNumber);
+  return practiceSet ? loadPracticeSetBySetNumber(practiceSet.setNumber) : Promise.resolve(null);
+};
+
+export const getLoadedPracticeSet = (setIdOrNumber: string | number): LoadedPracticeSet | null => {
+  const practiceSet = getPracticeSet(setIdOrNumber);
+  return practiceSet ? loadedPracticeSetsBySetNumber.get(practiceSet.setNumber) ?? null : null;
+};
+
+export const loadPracticeModule = (moduleIdOrSlug: string): Promise<LoadedPracticeModule | null> => {
+  const module = getPracticeModule(moduleIdOrSlug);
+  if (!module) return Promise.resolve(null);
+  return loadPracticeSetBySetNumber(module.setNumber).then(
+    (loadedSet) => loadedSet?.modules.find((loadedModule) => loadedModule.slug === module.slug) ?? null,
+  );
+};
+
+export const getLoadedPracticeModule = (moduleIdOrSlug: string): LoadedPracticeModule | null => {
+  const module = getPracticeModule(moduleIdOrSlug);
+  if (!module) return null;
+  const loadedSet = loadedPracticeSetsBySetNumber.get(module.setNumber);
+  return loadedSet?.modules.find((loadedModule) => loadedModule.slug === module.slug) ?? null;
+};
+
+const resolvePracticeTargetSetNumber = (target: string): number | null =>
+  getPracticeSet(target)?.setNumber ?? getPracticeModule(target)?.setNumber ?? null;
+
+export const ensurePracticeDataLoaded = (target: string): Promise<void> => {
+  const setNumber = resolvePracticeTargetSetNumber(target);
+  return setNumber === null
+    ? Promise.resolve()
+    : loadPracticeSetBySetNumber(setNumber).then(() => undefined);
+};
+
+export const isPracticeDataLoaded = (target: string): boolean => {
+  const setNumber = resolvePracticeTargetSetNumber(target);
+  return setNumber === null || loadedPracticeSetsBySetNumber.has(setNumber);
+};
+
+export const getSynthesizedPracticeQuestion = (
+  subject: BankSubject,
+  sourceId: string,
+  bankType: "past" | "unofficial" = "past",
+): BankQuestion | null => loadedPracticeQuestionBySubjectAndSourceId[subject].get(`${bankType}:${sourceId}`) ?? null;
 
 export const activePastQuestionSourceIds = new Set(
   practiceModules.flatMap((module) =>

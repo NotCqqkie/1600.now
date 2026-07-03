@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Build the total cost",
-      "content": "Each container costs 1.87 dollars, so $c$ containers cost $1.87c$ dollars. Each roll of tape costs 2.40 dollars, so $t$ rolls cost $2.40t$ dollars. Total spent: $1.87c + 2.40t$."
+      "content": "Each canvas costs 2.15 dollars, so $c$ canvases cost $2.15c$ dollars. Each tube of paint costs 1.70 dollars, so $t$ tubes cost $1.70t$ dollars. Total spent: $2.15c + 1.70t$."
     },
     {
       "title": "Apply the budget",
-      "content": "Leo has 15 dollars, which is the maximum he can spend. The total cost must be at most 15 dollars, giving $1.87c + 2.40t \\le 15$."
+      "content": "Nora has 18 dollars, which is the maximum she can spend. The total cost must be at most 18 dollars, giving $2.15c + 1.70t \\le 18$."
     },
     {
       "title": "Test the choices",
-      "content": "<ul><li><strong>Choice A &mdash; $1.87c+2.40t\\le15$</strong>: Correct coefficients (containers at 1.87 dollars, tape at 2.40 dollars) and the correct $\\le$ direction for a spending limit. Works.</li><li><strong>Choice B &mdash; $1.87c+2.40t\\ge15$</strong>: Coefficients are right, but $\\ge 15$ would force Leo to spend at least 15 dollars. He only has 15 dollars. Eliminate.</li><li><strong>Choice C &mdash; $2.40c+1.87t\\le15$</strong>: The coefficients on $c$ and $t$ are swapped, charging the tape price for containers. Eliminate.</li><li><strong>Choice D &mdash; $2.40c+1.87t\\ge15$</strong>: Both the coefficients and the inequality direction are wrong. Eliminate.</li></ul>That matches <strong>Choice A &mdash; $1.87c+2.40t\\le15$</strong>."
+      "content": "<ul><li><strong>Choice A &mdash; $2.15c+1.70t\\le18$</strong>: Correct coefficients (canvases at 2.15 dollars, paint at 1.70 dollars) and the correct $\\le$ direction for a spending limit. Works.</li><li><strong>Choice B &mdash; $2.15c+1.70t\\ge18$</strong>: Coefficients are right, but $\\ge 18$ would force Nora to spend at least 18 dollars. She only has 18 dollars. Eliminate.</li><li><strong>Choice C &mdash; $1.70c+2.15t\\le18$</strong>: The coefficients on $c$ and $t$ are swapped, charging the paint price for canvases. Eliminate.</li><li><strong>Choice D &mdash; $1.70c+2.15t\\ge18$</strong>: Both the coefficients and the inequality direction are wrong. Eliminate.</li></ul>That matches <strong>Choice A &mdash; $2.15c+1.70t\\le18$</strong>."
     }
   ]
 }

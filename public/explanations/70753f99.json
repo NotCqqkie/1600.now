@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Find the roots",
-      "content": "From $f(x)=(x+3)(x+1)$, the roots are $x=-3$ and $x=-1$."
+      "content": "From $f(x)=(x+5)(x+1)$, the roots are $x=-5$ and $x=-1$."
     },
     {
       "title": "Find the vertex x-coordinate",
-      "content": "The vertex of a parabola lies halfway between its roots: $$x=\\frac{-3+(-1)}{2}=-2$$"
+      "content": "The vertex of a parabola lies halfway between its roots: $$x=\\frac{-5+(-1)}{2}=-3$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "The value $-2$ lies in the interval $-3\\lt x\\lt1$. <strong>B</strong> is correct."
+      "content": "The value $-3$ lies in the interval $-5\\lt x\\lt1$. <strong>B</strong> is correct."
     },
     {
       "title": "Eliminate endpoint traps",
-      "content": "The other choices start with $-2lt x$, which does not include $x=-2$ because the inequality is strict. Choice A (&lsquo;$-4 \\lt x \\lt -3$&rsquo;) is left of both roots. Only the credited option actually contains $-2$."
+      "content": "Choices C and D start with $-3 \\lt x$, which does not include $x=-3$ because the inequality is strict. Choice A (&lsquo;$-6 \\lt x \\lt -5$&rsquo;) is left of both roots. Only the credited option actually contains $-3$."
     }
   ]
 }

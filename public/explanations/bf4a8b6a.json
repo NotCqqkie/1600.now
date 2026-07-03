@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Define variables and set up the system",
-      "content": "Let $a$ = number of adults and $c$ = number of children.<br/><br/>From the problem constraints:<ul><li>Total people in the group: $a + c = 21$</li><li>Total revenue: $80a + 60c = 1440$</li></ul>From the first equation: $a = 21 - c$"
+      "content": "Let $a$ = number of adults and $c$ = number of children.<br/><br/>From the problem constraints:<ul><li>Total people in the group: $a + c = 24$</li><li>Total revenue: $70a + 50c = 1400$</li></ul>From the first equation: $a = 24 - c$"
     },
     {
       "title": "Use substitution to solve for c",
-      "content": "Substitute $a = 21 - c$ into the revenue equation:<br/>$$80(21 - c) + 60c = 1440$$<br/>Expand and simplify:<br/>$$1680 - 80c + 60c = 1440$$<br/>$$1680 - 20c = 1440$$<br/>$$-20c = -240$$<br/>$$c = 12$$<br/>The group has 12 children. That is the correct answer."
+      "content": "Substitute $a = 24 - c$ into the revenue equation:<br/>$$70(24 - c) + 50c = 1400$$<br/>Expand and simplify:<br/>$$1680 - 70c + 50c = 1400$$<br/>$$1680 - 20c = 1400$$<br/>$$-20c = -280$$<br/>$$c = 14$$<br/>The group has 14 children. That is the correct answer."
     }
   ]
 }

@@ -1,15 +1,15 @@
 {
   "questionId": "c81f1c2f",
-  "correctAnswer": "2850",
+  "correctAnswer": "2240",
   "section": "Math",
   "steps": [
     {
       "title": "Identify what to evaluate",
-      "content": "We need to find the monthly fee for storing 50 crates, which means evaluating $f(50)$ using the given function $f(x) = 45x + 600$."
+      "content": "We need to find the monthly fee for storing 40 containers, which means evaluating $f(40)$ using the given function $f(x) = 38x + 720$."
     },
     {
-      "title": "Substitute x = 50 and calculate",
-      "content": "Replace $x$ with 50 in the function:<br/>$$f(50) = 45(50) + 600$$<br/>Multiply first: $45 \\times 50 = 2250$<br/><br/>Then add the constant term:<br/>$$f(50) = 2250 + 600 = 2850$$<br/>The answer is <strong>2850</strong>."
+      "title": "Substitute x = 40 and calculate",
+      "content": "Replace $x$ with 40 in the function:<br/>$$f(40) = 38(40) + 720$$<br/>Multiply first: $38 \\times 40 = 1520$<br/><br/>Then add the constant term:<br/>$$f(40) = 1520 + 720 = 2240$$<br/>The answer is <strong>2240</strong>."
     }
   ]
 }

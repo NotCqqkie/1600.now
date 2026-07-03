@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Use the scale factor",
-      "content": "Each side of triangle T equals $k$ times the corresponding side of triangle S. Since T's side length is greater than S's side length, the scale factor must satisfy $k>1$."
+      "content": "Each side of triangle U equals $k$ times the corresponding side of triangle R. Since U's side length is greater than R's side length, the scale factor must satisfy $k>1$."
     },
     {
       "title": "Determine what scale factor k must satisfy",
-      "content": "Side of T = k &times; side of S. For T's side to be <strong>greater</strong> than S's side, we need k &gt; 1."
+      "content": "Side of U = k &times; side of R. For U's side to be <strong>greater</strong> than R's side, we need k &gt; 1."
     },
     {
       "title": "Evaluate each choice numerically",
-      "content": "<strong>$\\frac{29}{28}$</strong> $\\frac{29}{28} \\approx 1.036 \\gt  1$ &mdash; T's sides are longer than S's &check;<br/>B) $1$ &mdash; sides are equal, not greater<br/>C) $\\frac{28}{29} \\approx 0.966 \\lt 1$ &mdash; T's sides would be shorter<br/>D) $0$ &mdash; sides collapse to length zero"
+      "content": "<strong>$\\frac{31}{30}$</strong> $\\frac{31}{30} \\approx 1.033 \\gt  1$ &mdash; U's sides are longer than R's &check;<br/>B) $1$ &mdash; sides are equal, not greater<br/>C) $\\frac{30}{31} \\approx 0.968 \\lt 1$ &mdash; U's sides would be shorter<br/>D) $0$ &mdash; sides collapse to length zero"
     },
     {
       "title": "Select the valid value",
-      "content": "Only $\\frac{29}{28}$ exceeds 1. That matches the correct answer — <strong>A</strong> is correct."
+      "content": "Only $\\frac{31}{30}$ exceeds 1. That matches the correct answer - <strong>A</strong> is correct."
     }
   ]
 }

@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the total years worked by all 20 employees",
-      "content": "Use the mean formula: sum of all values equals mean times the count.<br/>$$\\text{Sum}_{20} = 6.7 \\times 20 = 134 \\text{ years}$$"
+      "title": "Find the total years worked by all 22 employees",
+      "content": "Use the mean formula: sum of all values equals mean times the count.<br/>$$\\text{Sum}_{22} = 6.8 \\times 22 = 149.6 \\text{ years}$$"
     },
     {
-      "title": "Find the total years worked by the remaining 19 employees",
-      "content": "After one employee leaves, the remaining 19 have a mean of 6.25 years:<br/>$$\\text{Sum}_{19} = 6.25 \\times 19 = 118.75 \\text{ years}$$"
+      "title": "Find the total years worked by the remaining 21 employees",
+      "content": "After one employee leaves, the remaining 21 have a mean of 6.35 years:<br/>$$\\text{Sum}_{21} = 6.35 \\times 21 = 133.35 \\text{ years}$$"
     },
     {
       "title": "Find the departing employee's years of service",
-      "content": "Subtract the remaining sum from the original sum:<br/>$$\\text{Departing employee's years} = 134 - 118.75 = 15.25$$<br/><strong>D</strong> is correct."
+      "content": "Subtract the remaining sum from the original sum:<br/>$$\\text{Departing employee's years} = 149.6 - 133.35 = 16.25$$<br/><strong>D</strong> is correct."
     }
   ]
 }

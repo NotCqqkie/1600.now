@@ -9,11 +9,11 @@
     },
     {
       "title": "Set up the angle sum equation using the isosceles condition",
-      "content": "In any triangle, the three angles sum to 180°. Since ∠J = ∠K, let both equal $x$. Then:<br/>$$x + x + 136^{\\circ} = 180^{\\circ}$$<br/>$$2x + 136^{\\circ} = 180^{\\circ}$$"
+      "content": "In any triangle, the three angles sum to 180°. Since ∠M = ∠N, let both equal $x$. Then:<br/>$$x + x + 128^{\\circ} = 180^{\\circ}$$<br/>$$2x + 128^{\\circ} = 180^{\\circ}$$"
     },
     {
-      "title": "Solve for the measure of ∠J",
-      "content": "Subtract 136° from both sides:<br/>$$2x = 44^{\\circ}$$<br/>$$x = 22^{\\circ}$$<br/>Since ∠J = $x$, the measure of ∠J is 22°. That matches <strong>Choice A &mdash; 22°</strong>."
+      "title": "Solve for the measure of ∠M",
+      "content": "Subtract 128° from both sides:<br/>$$2x = 52^{\\circ}$$<br/>$$x = 26^{\\circ}$$<br/>Since ∠M = $x$, the measure of ∠M is 26°. That matches <strong>Choice A &mdash; 26°</strong>."
     }
   ]
 }

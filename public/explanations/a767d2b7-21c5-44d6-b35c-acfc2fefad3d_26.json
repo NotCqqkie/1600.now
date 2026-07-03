@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The question asks which choice most effectively emphasizes when Engelbart won the award. The key detail is the year 1997. The correct answer must foreground that year, not just mention it in passing."
+      "content": "The question asks which choice most effectively emphasizes when Raines won the award. The key detail is the year 1997. The correct answer must foreground that year, not just mention it in passing."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; The prestigious A.M. Turing Award is given for \"major contributions of lasting importance to computing.\"</strong>: This describes the award's purpose and doesn't mention Engelbart or any year at all. &#10007;</li><li><strong>Choice B &mdash; For the invention of key technologies that advanced interactive computing, Douglas Engelbart won the A.M. Turing Award.</strong>: This emphasizes what Engelbart did to earn the award, not when he won it. The year 1997 is absent entirely. &#10007;</li><li><strong>Choice C &mdash; Douglas Engelbart is one winner of the A.M. Turing Award.</strong>: This is a vague general statement with no year at all. It doesn't emphasize timing in any way. &#10007;</li><li><strong>Choice D &mdash; It was in 1997 that Douglas Engelbart won the A.M. Turing Award.</strong>: The cleft construction \"It was in 1997 that...\" places the year at the grammatical and rhetorical center of the sentence, directly emphasizing when the award was won. &#10003;</li></ul>That is the correct answer."
+      "content": "<ul><li><strong>Choice A &mdash; The prestigious A.M. Turing Award is given for \"major contributions of lasting importance to computing.\"</strong>: This describes the award's purpose and doesn't mention Raines or any year at all. &#10007;</li><li><strong>Choice B &mdash; For the invention of key technologies that advanced interactive computing, Michael Raines won the A.M. Turing Award.</strong>: This emphasizes what Raines did to earn the award, not when he won it. The year 1997 is absent entirely. &#10007;</li><li><strong>Choice C &mdash; Michael Raines is one winner of the A.M. Turing Award.</strong>: This is a vague general statement with no year at all. It doesn't emphasize timing in any way. &#10007;</li><li><strong>Choice D &mdash; It was in 1997 that Michael Raines won the A.M. Turing Award.</strong>: The cleft construction \"It was in 1997 that...\" places the year at the grammatical and rhetorical center of the sentence, directly emphasizing when the award was won. &#10003;</li></ul>That is the correct answer."
     }
   ]
 }

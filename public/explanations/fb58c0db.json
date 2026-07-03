@@ -1,6 +1,6 @@
 {
   "questionId": "fb58c0db",
-  "correctAnswer": "1/6,0.166,0.167,.1666,.1667",
+  "correctAnswer": "1/8,0.125,.125",
   "section": "Math",
   "steps": [
     {
@@ -9,15 +9,15 @@
     },
     {
       "title": "Find the circumference",
-      "content": "The radius is $1$, so the circumference is $$2\\pi r=2\\pi(1)=2\\pi.$$"
+      "content": "The radius is $2$, so the circumference is $$2\\pi r=2\\pi(2)=4\\pi.$$"
     },
     {
       "title": "Divide arc length by circumference",
-      "content": "The fraction of the circumference is $$\\frac{\\pi/3}{2\\pi}=\\frac{\\pi}{3}\\cdot\\frac{1}{2\\pi}=\\frac{1}{6}.$$"
+      "content": "The fraction of the circumference is $$\\frac{\\pi/2}{4\\pi}=\\frac{\\pi}{2}\\cdot\\frac{1}{4\\pi}=\\frac{1}{8}.$$"
     },
     {
       "title": "Confirm accepted forms",
-      "content": "The answer is <strong>1/6</strong>. Decimal entries like $.1666$, $.1667$, $0.166$, or $0.167$ are also accepted. The fraction is less than one full circle because the arc is only a small part of the circumference."
+      "content": "The answer is <strong>1/8</strong>. Decimal entries like $.125$ or $0.125$ are also accepted. The fraction is less than one full circle because the arc is only part of the circumference."
     }
   ]
 }

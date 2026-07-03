@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Read the slope of line u",
-      "content": "Line $u$ is written as $y=2x+10$, so its slope is $2$."
+      "content": "Line $u$ is written as $y=3x+11$, so its slope is $3$."
     },
     {
       "title": "Use perpendicular slopes",
-      "content": "Perpendicular slopes are negative reciprocals. The negative reciprocal of $2$ is $-\\frac{1}{2}$."
+      "content": "Perpendicular slopes are negative reciprocals. The negative reciprocal of $3$ is $-\\frac{1}{3}$."
     },
     {
       "title": "Match the choice",
-      "content": "The slope of line $w$ is $-\\frac{1}{2}$, which matches the correct answer, <strong>C</strong>."
+      "content": "The slope of line $w$ is $-\\frac{1}{3}$, which matches the correct answer, <strong>C</strong>."
     }
   ]
 }

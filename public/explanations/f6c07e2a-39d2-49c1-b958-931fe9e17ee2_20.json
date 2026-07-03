@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Identify the exponential pattern",
-      "content": "Each increase of $1$ in $x$ multiplies $y$ by $3$, so the relationship is exponential with base $3$."
+      "content": "Each increase of $1$ in $x$ multiplies $y$ by $4$, so the relationship is exponential with base $4$."
     },
     {
       "title": "Use the initial value",
-      "content": "When $x=0$, $y=200$. In an exponential equation $y=a(3)^x$, the value at $x=0$ is $a(3)^0=a$, so $a=200$."
+      "content": "When $x=0$, $y=150$. In an exponential equation $y=a(4)^x$, the value at $x=0$ is $a(4)^0=a$, so $a=150$."
     },
     {
       "title": "Write and confirm the equation",
-      "content": "The equation is $$y=200(3)^x.$$ Two other options are power functions with $x$ as the base. $y = 3(200)^x$ has initial value $3$. $y = 200(3)^x$ matches both the initial value and the multiplier, so <strong>B</strong> is correct."
+      "content": "The equation is $$y=150(4)^x.$$ Two other options are power functions with $x$ as the base. $y = 4(150)^x$ has initial value $4$. $y = 150(4)^x$ matches both the initial value and the multiplier, so <strong>B</strong> is correct."
     }
   ]
 }

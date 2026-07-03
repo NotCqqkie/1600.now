@@ -74,7 +74,7 @@ export function PreviousAttemptsDialog({ attempts }: PreviousAttemptsDialogProps
 
     if (last.result === 'correct') {
       if (incorrectCount === 0) {
-        summary = "Correct on first try";
+        summary = "Correct on first attempt";
       } else {
         summary = `Correct after ${incorrectCount} incorrect attempt${incorrectCount === 1 ? '' : 's'}`;
       }
@@ -164,15 +164,9 @@ export function PreviousAttemptsDialog({ attempts }: PreviousAttemptsDialogProps
                     </p>
                   </div>
 
-                  <div className="grid grid-cols-2 gap-4">
-                    <div>
-                      <p className={ATTEMPT_LABEL_CLASS}>Time Taken</p>
-                      <p className="font-medium">{formatDuration(session.totalDuration)}</p>
-                    </div>
-                    <div>
-                      <p className={ATTEMPT_LABEL_CLASS}>Date/Time</p>
-                      <p className="font-medium">{dateTimeLabel}</p>
-                    </div>
+                  <div>
+                    <p className={ATTEMPT_LABEL_CLASS}>Time Taken</p>
+                    <p className="font-medium">{formatDuration(session.totalDuration)}</p>
                   </div>
 
                   {session.lastAttempt.explanation && (

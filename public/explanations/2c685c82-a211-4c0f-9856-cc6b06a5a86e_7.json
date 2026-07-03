@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Expand each function",
-      "content": "$$f(x)=(2x-3)(x+8)=2x^2+16x-3x-24=2x^2+13x-24$$<br/>$$g(x)=3(6x-9)=18x-27$$"
+      "content": "$$f(x)=(3x-4)(x+7)=3x^2+21x-4x-28=3x^2+17x-28$$<br/>$$g(x)=2(9x-8)=18x-16$$"
     },
     {
       "title": "Subtract $g(x)$ from $f(x)$",
-      "content": "$$f(x)-g(x)=(2x^2+13x-24)-(18x-27)$$<br/>$$=2x^2+13x-24-18x+27$$"
+      "content": "$$f(x)-g(x)=(3x^2+17x-28)-(18x-16)$$<br/>$$=3x^2+17x-28-18x+16$$"
     },
     {
       "title": "Combine like terms",
-      "content": "$$2x^2+13x-18x-24+27=2x^2-5x+3$$<br/>The key move is distributing the subtraction across every term of $g(x)$, which changes $+18x-27$ into $-18x+27$. After that, the $x$-terms combine to $-5x$ and the constants combine to $3$. The simplified expression matches the correct answer."
+      "content": "$$3x^2+17x-18x-28+16=3x^2-x-12$$<br/>The key move is distributing the subtraction across every term of $g(x)$, which changes $+18x-16$ into $-18x+16$. After that, the $x$-terms combine to $-x$ and the constants combine to $-12$. The simplified expression matches the correct answer."
     }
   ]
 }

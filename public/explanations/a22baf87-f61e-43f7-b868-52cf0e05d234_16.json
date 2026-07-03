@@ -1,15 +1,15 @@
 {
   "questionId": "a22baf87-f61e-43f7-b868-52cf0e05d234_16",
-  "correctAnswer": "324",
+  "correctAnswer": "272",
   "section": "Math",
   "steps": [
     {
       "title": "Parallel lines share the same slope",
-      "content": "The given line $y = 36x + 6$ has slope $36$. Parallel lines have equal slopes, so line $s$ also has slope $36$. Line $s$ passes through $(0, 0)$, giving: $$y = 36x.$$"
+      "content": "The given line $y = 34x + 5$ has slope $34$. Parallel lines have equal slopes, so line $s$ also has slope $34$. Line $s$ passes through $(0, 0)$, giving: $$y = 34x.$$"
     },
     {
-      "title": "Evaluate at x = 9",
-      "content": "Substitute $x = 9$: $$d = 36(9) = 324.$$ Therefore the correct value is <strong>324</strong>."
+      "title": "Evaluate at x = 8",
+      "content": "Substitute $x = 8$: $$d = 34(8) = 272.$$ Therefore the correct value is <strong>272</strong>."
     }
   ]
 }

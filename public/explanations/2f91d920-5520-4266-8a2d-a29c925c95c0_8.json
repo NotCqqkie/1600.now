@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Express length in terms of width using the ratio",
-      "content": "The ratio 10:4 tells us that $\\frac{L}{W} = \\frac{10}{4} = 2.5$. So length is always 2.5 times the width."
+      "content": "The ratio 9:4 tells us that $\\frac{L}{W} = \\frac{9}{4} = 2.25$. So length is always 2.25 times the width."
     },
     {
       "title": "Apply the width change to find the new length",
-      "content": "When width increases from $W$ to $W + 7$, the new length must maintain the same relationship:<br/>$$L_{\\text{new}} = 2.5(W + 7) = 2.5W + 17.5$$<br/>Since the original length is $L = 2.5W$, we have $L_{\\text{new}} = L + 17.5$.<br/><br/>The length must increase by 17.5 units. <strong>C</strong> is correct."
+      "content": "When width increases from $W$ to $W + 6$, the new length must maintain the same relationship:<br/>$$L_{\\text{new}} = 2.25(W + 6) = 2.25W + 13.5$$<br/>Since the original length is $L = 2.25W$, we have $L_{\\text{new}} = L + 13.5$.<br/><br/>The length must increase by 13.5 units. <strong>C</strong> is correct."
     }
   ]
 }

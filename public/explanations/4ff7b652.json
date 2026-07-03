@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Use the given angle correspondence",
-      "content": "The similar-triangle statement gives the vertex correspondence directly: $L$ corresponds to $P$, and $M$ corresponds to $Q$."
+      "content": "The similar-triangle statement gives the vertex correspondence directly: $R$ corresponds to $U$, and $S$ corresponds to $V$."
     },
     {
       "title": "In similar triangles, corresponding angles are equal",
-      "content": "When two triangles are similar, their corresponding angles have equal measures. We're told that triangles LMN and PQR are similar with L corresponding to P and M corresponding to Q. This correspondence tells us which angles must be equal."
+      "content": "When two triangles are similar, their corresponding angles have equal measures. We're told that triangles RST and UVW are similar with R corresponding to U and S corresponding to V. This correspondence tells us which angles must be equal."
     },
     {
-      "title": "Use the correspondence to find angle Q",
-      "content": "Since M corresponds to Q, angle Q must equal angle M. We're given that angle M = $53^{\\circ}$, so angle Q = $53^{\\circ}$. <strong>B</strong> is correct."
+      "title": "Use the correspondence to find angle V",
+      "content": "Since S corresponds to V, angle V must equal angle S. We're given that angle S = $58^{\\circ}$, so angle V = $58^{\\circ}$. <strong>B</strong> is correct."
     }
   ]
 }

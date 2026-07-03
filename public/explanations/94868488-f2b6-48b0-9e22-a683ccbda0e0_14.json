@@ -1,23 +1,23 @@
 {
   "questionId": "94868488-f2b6-48b0-9e22-a683ccbda0e0_14",
-  "correctAnswer": "128",
+  "correctAnswer": "130",
   "section": "Math",
   "steps": [
     {
       "title": "Translate to equations",
-      "content": "From $42\\%$ of $h=84\\%$ of $j$, $h=\\tfrac{84}{42}j$. Also $j=\\tfrac{64}{100}k$."
+      "content": "From $36\\%$ of $h=72\\%$ of $j$, $h=\\tfrac{72}{36}j$. Also $j=\\tfrac{65}{100}k$."
     },
     {
       "title": "Combine the ratios",
-      "content": "Substituting gives $$h=\\tfrac{84}{42}\\cdot\\tfrac{64}{100}k=\\tfrac{5376}{4200}k.$$"
+      "content": "Substituting gives $$h=\\tfrac{72}{36}\\cdot\\tfrac{65}{100}k=\\tfrac{4680}{3600}k.$$"
     },
     {
       "title": "Convert to a percent",
-      "content": "That is $\\tfrac{5376}{42}\\%=128\\%$ of $k$. The answer is <strong>128</strong>."
+      "content": "That is $\\tfrac{4680}{36}\\%=130\\%$ of $k$. The answer is <strong>130</strong>."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $128$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $128$."
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $130$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $130$."
     }
   ]
 }

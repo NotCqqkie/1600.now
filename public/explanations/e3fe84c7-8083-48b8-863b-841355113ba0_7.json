@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up",
-      "content": "Start with $r = \\sqrt{9w - 5}$. Square both sides to remove the radical: $r^2 = 9w - 5$."
+      "content": "Start with $r = \\sqrt{8w - 3}$. Square both sides to remove the radical: $r^2 = 8w - 3$."
     },
     {
       "title": "Solve",
-      "content": "Add 5: $r^2 + 5 = 9w$. Divide by 9: $$w = \\frac{r^2 + 5}{9}$$"
+      "content": "Add 3: $r^2 + 3 = 8w$. Divide by 8: $$w = \\frac{r^2 + 3}{8}$$"
     },
     {
       "title": "Answer",

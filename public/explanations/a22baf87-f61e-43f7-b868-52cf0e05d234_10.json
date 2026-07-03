@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up the dimensions",
-      "content": "Width is $w$ feet. The length is $73$ times the width, so length $=73w$ feet. Area $=$ length $\\times$ width gives $$y=(73w)(w).$$"
+      "content": "Width is $w$ feet. The length is $68$ times the width, so length $=68w$ feet. Area $=$ length $\\times$ width gives $$y=(68w)(w).$$"
     },
     {
       "title": "Interpret the factor",
-      "content": "In $(73w)(w)$, the factor $w$ is the width, so $(73w)$ must be the length. That confirms <strong>A</strong> is correct."
+      "content": "In $(68w)(w)$, the factor $w$ is the width, so $(68w)$ must be the length. That confirms <strong>A</strong> is correct."
     }
   ]
 }

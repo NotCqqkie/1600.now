@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up",
-      "content": "This is a quadratic equation, so the goal is to find its roots. The quadratic formula is a direct way to solve it when simple factoring is not the focus. Apply the quadratic formula to x&sup2; + 49x + 1 = 0 with a = 1, b = 49, c = 1."
+      "content": "This is a quadratic equation, so the goal is to find its roots. The quadratic formula is a direct way to solve it when simple factoring is not the focus. Apply the quadratic formula to x&sup2; + 43x + 1 = 0 with a = 1, b = 43, c = 1."
     },
     {
       "title": "Solve",
-      "content": "x = (&minus;49 &plusmn; &radic;(49&sup2; &minus; 4)) / 2. The two roots are (&minus;49 + &radic;2397) / 2 and (&minus;49 &minus; &radic;2397) / 2."
+      "content": "x = (&minus;43 &plusmn; &radic;(43&sup2; &minus; 4)) / 2. The two roots are (&minus;43 + &radic;1845) / 2 and (&minus;43 &minus; &radic;1845) / 2."
     },
     {
       "title": "Answer",

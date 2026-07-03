@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Connect the condition to the discriminant",
-      "content": "The question asks when the quadratic has more than one real solution. For a quadratic, that happens exactly when the discriminant is positive:<br/>$$b^2 - 4ac \\gt 0$$<br/>In $88x^2 + bx + c = 0$, the coefficient of $x^2$ is $88$, so:<br/>$$b^2 - 4(88)c \\gt 0$$<br/>$$b^2 - 352c \\gt 0$$<br/>$$b^2 \\gt 352c$$"
+      "content": "The question asks when the quadratic has more than one real solution. For a quadratic, that happens exactly when the discriminant is positive:<br/>$$b^2 - 4ac \\gt 0$$<br/>In $77x^2 + bx + c = 0$, the coefficient of $x^2$ is $77$, so:<br/>$$b^2 - 4(77)c \\gt 0$$<br/>$$b^2 - 308c \\gt 0$$<br/>$$b^2 \\gt 308c$$"
     },
     {
       "title": "Solve for b",
-      "content": "Since $b$ is positive, take the square root: $b \\gt \\sqrt{352c}$. That is the correct answer."
+      "content": "Since $b$ is positive, take the square root: $b \\gt \\sqrt{308c}$. That is the correct answer."
     }
   ]
 }

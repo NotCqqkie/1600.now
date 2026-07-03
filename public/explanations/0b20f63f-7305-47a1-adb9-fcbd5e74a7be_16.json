@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Decode the mathematical notation in context",
-      "content": "The variable $x$ represents years after the end of 1958, so $x = 5$ corresponds to the end of 1963. The function $f(x)$ models account value in dollars. Therefore, $f(5) \\approx 263$ means the account value is approximately 263 dollars at the end of 1963."
+      "content": "The variable $x$ represents years after the end of 1959, so $x = 5$ corresponds to the end of 1964. The function $f(x)$ models account value in dollars. Therefore, $f(5) \\approx 265$ means the account value is approximately 265 dollars at the end of 1964."
     },
     {
       "title": "Identify the matching choice",
-      "content": "<strong>Choice D &mdash; The value of the bank account is estimated to be approximately 263 dollars at the end of 1963.</strong> states: <em>The value of the bank account is estimated to be approximately 263 dollars at the end of 1963</em>. This is exactly our interpretation. That matches <strong>Choice D &mdash; The value of the bank account is estimated to be approximately 263 dollars at the end of 1963.</strong>."
+      "content": "<strong>Choice D &mdash; The value of the bank account is estimated to be approximately 265 dollars at the end of 1964.</strong> states: <em>The value of the bank account is estimated to be approximately 265 dollars at the end of 1964</em>. This is exactly our interpretation. That matches <strong>Choice D &mdash; The value of the bank account is estimated to be approximately 265 dollars at the end of 1964.</strong>."
     }
   ]
 }

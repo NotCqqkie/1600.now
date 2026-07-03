@@ -1,19 +1,19 @@
 {
   "questionId": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_18",
-  "correctAnswer": "11",
+  "correctAnswer": "19",
   "section": "Math",
   "steps": [
     {
       "title": "Find c from the vertical asymptote",
-      "content": "The graph does not intersect the line $x = 4$, which means the function is undefined there. The function becomes undefined when its denominator equals zero:<br/>$$2(4) + c = 0$$<br/>$$c = -8$$"
+      "content": "The graph does not intersect the line $x = 5$, which means the function is undefined there. The function becomes undefined when its denominator equals zero:<br/>$$2(5) + c = 0$$<br/>$$c = -10$$"
     },
     {
       "title": "Find a and b from the zeros",
-      "content": "Since $f(5) = 0$ and $f(6) = 0$, and the denominator is nonzero at both points, the numerator must equal zero at $x = 5$ and $x = 6$. The quadratic numerator therefore has roots 5 and 6:<br/>$$x^2 + ax + b = (x - 5)(x - 6)$$<br/>Expanding:<br/>$$(x - 5)(x - 6) = x^2 - 11x + 30$$<br/>Therefore, $a = -11$ and $b = 30$."
+      "content": "Since $f(6) = 0$ and $f(7) = 0$, and the denominator is nonzero at both points, the numerator must equal zero at $x = 6$ and $x = 7$. The quadratic numerator therefore has roots 6 and 7:<br/>$$x^2 + ax + b = (x - 6)(x - 7)$$<br/>Expanding:<br/>$$(x - 6)(x - 7) = x^2 - 13x + 42$$<br/>Therefore, $a = -13$ and $b = 42$."
     },
     {
       "title": "Calculate the sum a + b + c",
-      "content": "$$a + b + c = -11 + 30 + (-8) = 11$$"
+      "content": "$$a + b + c = -13 + 42 + (-10) = 19$$"
     }
   ]
 }

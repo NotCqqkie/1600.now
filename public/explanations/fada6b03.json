@@ -1,15 +1,15 @@
 {
   "questionId": "fada6b03",
-  "correctAnswer": "120",
+  "correctAnswer": "204",
   "section": "Math",
   "steps": [
     {
       "title": "Match the requested root form",
-      "content": "The problem gives a solution form involving $\\sqrt{k}$, so solve the quadratic far enough to identify the number under the radical. For $2x^2 - 8x - 7 = 0$, identify $a = 2$, $b = -8$, and $c = -7$.<br/><br/>Calculate the discriminant:<br/>$$\\Delta = b^2 - 4ac = (-8)^2 - 4(2)(-7) = 64 + 56 = 120$$<br/>Apply the quadratic formula:<br/>$$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a} = \\frac{8 \\pm \\sqrt{120}}{4}$$"
+      "content": "The problem gives a solution form involving $\\sqrt{k}$, so solve the quadratic far enough to identify the number under the radical. For $3x^2 - 12x - 5 = 0$, identify $a = 3$, $b = -12$, and $c = -5$.<br/><br/>Calculate the discriminant:<br/>$$\\Delta = b^2 - 4ac = (-12)^2 - 4(3)(-5) = 144 + 60 = 204$$<br/>Apply the quadratic formula:<br/>$$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a} = \\frac{12 \\pm \\sqrt{204}}{6}$$"
     },
     {
       "title": "Match to the given form",
-      "content": "The quadratic formula gives two solutions: $\\frac{8 + \\sqrt{120}}{4}$ and $\\frac{8 - \\sqrt{120}}{4}$. One of these, $\\frac{8 - \\sqrt{120}}{4}$, has the form $\\frac{8 - \\sqrt{k}}{4}$, so $k = 120$."
+      "content": "The quadratic formula gives two solutions: $\\frac{12 + \\sqrt{204}}{6}$ and $\\frac{12 - \\sqrt{204}}{6}$. One of these, $\\frac{12 - \\sqrt{204}}{6}$, has the form $\\frac{12 - \\sqrt{k}}{6}$, so $k = 204$."
     }
   ]
 }

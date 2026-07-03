@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Add the equations to eliminate x",
-      "content": "$$ y = \\frac{x}{3}+4 $$<br/>$$ y = -\\frac{x}{3}+40 $$<br/>Adding the left‑hand sides gives $$ y+y = 2y $$.<br/>Adding the right‑hand sides gives $$ \\left(\\frac{x}{3}+4\\right)+\\left(-\\frac{x}{3}+40\\right) $$."
+      "content": "$$ y = \\frac{x}{4}+5 $$<br/>$$ y = -\\frac{x}{4}+37 $$<br/>Adding the left-hand sides gives $$ y+y = 2y $$.<br/>Adding the right-hand sides gives $$ \\left(\\frac{x}{4}+5\\right)+\\left(-\\frac{x}{4}+37\\right) $$."
     },
     {
       "title": "Simplify to find 2y",
-      "content": "$$ \\left(\\frac{x}{3}+4\\right)+\\left(-\\frac{x}{3}+40\\right) = \\frac{x}{3}-\\frac{x}{3}+4+40 = 44 $$.<br/>Thus $$ 2y = 44 $$.<br/><strong>D</strong> is correct."
+      "content": "$$ \\left(\\frac{x}{4}+5\\right)+\\left(-\\frac{x}{4}+37\\right) = \\frac{x}{4}-\\frac{x}{4}+5+37 = 42 $$.<br/>Thus $$ 2y = 42 $$.<br/><strong>D</strong> is correct."
     }
   ]
 }

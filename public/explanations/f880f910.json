@@ -5,12 +5,12 @@
   "steps": [
     {
       "title": "Set up the area equation",
-      "content": "The base is 12 cm greater than the height, so if the height is $h$, the base is $b = h + 12$. Using the triangle area formula with Area = 270: $$270 = \\frac{1}{2}(h+12) \\cdot h$$",
+      "content": "The base is 10 cm greater than the height, so if the height is $h$, the base is $b = h + 10$. Using the triangle area formula with Area = 300: $$300 = \\frac{1}{2}(h+10) \\cdot h$$",
       "formula": "$$A = \\frac{1}{2}bh$$"
     },
     {
       "title": "Backsolve the choices",
-      "content": "The answer choices are simple integers, so we can test them directly.<br/><br/>Backsolving by testing the candidate (30): If $h = 30$, then $b = 30 + 12 = 42$, and Area $= \\frac{1}{2}(42)(30) = 630 \\neq 270$. Fails.<br/><br/>Testing this candidate (18): If $h = 18$, then $b = 18 + 12 = 30$, and Area $= \\frac{1}{2}(30)(18) = \\frac{540}{2} = 270$. This matches. That matches the correct answer — <strong>B</strong> is correct."
+      "content": "The answer choices are simple integers, so we can test them directly.<br/><br/>Backsolving by testing the candidate (30): If $h = 30$, then $b = 30 + 10 = 40$, and Area $= \\frac{1}{2}(40)(30) = 600 \\neq 300$. Fails.<br/><br/>Testing this candidate (20): If $h = 20$, then $b = 20 + 10 = 30$, and Area $= \\frac{1}{2}(30)(20) = \\frac{600}{2} = 300$. This matches. That matches the correct answer: <strong>B</strong> is correct."
     }
   ]
 }

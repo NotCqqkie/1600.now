@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The sentence reads: <em>\"In a garden, ______ the spread of unwelcome weeds such as nutgrass can be difficult because weeds usually spread easily and quickly become unmanageable.\"</em> The blank must describe an action that a gardener wants to do to a weed's spread, where that action is made difficult by how quickly weeds grow."
+      "content": "The sentence reads: <em>\"In a garden, ______ the spread of unwelcome weeds such as bindweed can be difficult because weeds usually spread easily and quickly become unmanageable, making it hard to remove them completely.\"</em> The blank must describe an action that a gardener wants to do to a weed's spread, where that action is made difficult by how quickly weeds grow."
     },
     {
       "title": "Eliminate the choices",

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the sample and its source",
-      "content": "<ul><li>The survey sampled history professors.</li><li>These professors were selected at random from the California State Universities system.</li></ul>"
+      "content": "<ul><li>The survey sampled biology professors.</li><li>These professors were selected at random from the Texas public universities system.</li></ul>"
     },
     {
       "title": "Determine the appropriate population for generalization",
-      "content": "<ul><li>Results from a random sample can be generalized to the population from which the sample was drawn.</li><li>Since the sample was history professors from all CSU campuses, the largest population to which the results apply is all history professors at all California State Universities.</li></ul>That is the correct answer."
+      "content": "<ul><li>Results from a random sample can be generalized to the population from which the sample was drawn.</li><li>Since the sample was biology professors from all Texas public university campuses, the largest population to which the results apply is all biology professors at all Texas public universities.</li></ul>That is the correct answer."
     }
   ]
 }

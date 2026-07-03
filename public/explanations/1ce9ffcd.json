@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Use the one-solution condition",
-      "content": "A quadratic has exactly one real solution when its graph just touches the x-axis at the vertex. For $y=-9x^2+30x+c$, the vertex occurs at:<br/>$$x=\\frac{-30}{2(-9)}=\\frac{5}{3}$$"
+      "content": "A quadratic has exactly one real solution when its graph just touches the x-axis at the vertex. For $y=-4x^2+24x+c$, the vertex occurs at:<br/>$$x=\\frac{-24}{2(-4)}=3$$"
     },
     {
       "title": "Set the vertex height to zero",
-      "content": "Substitute $x=\\frac{5}{3}$ and set $y=0$:<br/>$$-9\\left(\\frac{5}{3}\\right)^2+30\\left(\\frac{5}{3}\\right)+c=0$$<br/>$$-25+50+c=0$$<br/>$$c=-25$$<br/>That matches <strong>Choice C &mdash; $-25$</strong>."
+      "content": "Substitute $x=3$ and set $y=0$:<br/>$$-4\\left(3\\right)^2+24\\left(3\\right)+c=0$$<br/>$$-36+72+c=0$$<br/>$$c=-36$$<br/>That matches <strong>Choice C &mdash; $-36$</strong>."
     }
   ]
 }

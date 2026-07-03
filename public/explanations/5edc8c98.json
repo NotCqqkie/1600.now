@@ -1,19 +1,19 @@
 {
   "questionId": "5edc8c98",
-  "correctAnswer": ".0625",
+  "correctAnswer": ".05",
   "section": "Math",
   "steps": [
     {
       "title": "Identify coefficients",
-      "content": "The equation $64x^2 - (16a + 4b)x + ab = 0$ has $A = 64$ and $B = -(16a + 4b)$."
+      "content": "The equation $100x^2 - (20a + 5b)x + ab = 0$ has $A = 100$ and $B = -(20a + 5b)$."
     },
     {
       "title": "Vieta shortcut: sum $= -B/A$",
-      "content": "$$\\text{sum} = \\frac{-(-(16a+4b))}{64} = \\frac{16a+4b}{64} = \\frac{4(4a+b)}{64} = \\frac{1}{16}(4a+b)$$"
+      "content": "$$\\text{sum} = \\frac{-(-(20a+5b))}{100} = \\frac{20a+5b}{100} = \\frac{5(4a+b)}{100} = \\frac{1}{20}(4a+b)$$"
     },
     {
       "title": "Read off $k$",
-      "content": "The sum equals $k(4a+b)$, so $k = \\dfrac{1}{16} = 0.0625$. The answer is <strong>.0625</strong>."
+      "content": "The sum equals $k(4a+b)$, so $k = \\dfrac{1}{20} = 0.05$. The answer is <strong>.05</strong>."
     }
   ]
 }

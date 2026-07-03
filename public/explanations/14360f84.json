@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Apply the no-solution condition",
-      "content": "Rewrite as $4x-18y=5$ and $-4x+hy=2$. For no solution, coefficients of $x$ and $y$ must be proportional: $$\\frac{-4}{4}=\\frac{h}{-18}.$$"
+      "content": "Rewrite as $5x-14y=3$ and $-5x+hy=4$. For no solution, coefficients of $x$ and $y$ must be proportional: $$\\frac{-5}{5}=\\frac{h}{-14}.$$"
     },
     {
       "title": "Solve for the parameter",
-      "content": "This gives $-1=\\tfrac{h}{-18}$, so $h=18$. The constants differ, confirming no solution. That matches <strong>Choice D &mdash; $18$</strong>. That coefficient relationship makes the slopes match while the constants do not."
+      "content": "This gives $-1=\\tfrac{h}{-14}$, so $h=14$. The constants differ, confirming no solution. That matches <strong>Choice D &mdash; $14$</strong>. That coefficient relationship makes the slopes match while the constants do not."
     }
   ]
 }

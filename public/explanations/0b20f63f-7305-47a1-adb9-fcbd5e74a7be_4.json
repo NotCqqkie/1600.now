@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, 14(x - 10y)(x + 10y)."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, 18(x - 12y)(x + 12y)."
     },
     {
       "title": "Algebra check",
@@ -13,15 +13,15 @@
     },
     {
       "title": "Recognize the difference of squares inside the parentheses",
-      "content": "The expression inside the parentheses is $x^2 - 100y^2$. Notice that $x^2 = (x)^2$ and $100y^2 = (10y)^2$, so this fits the pattern $a^2 - b^2 = (a-b)(a+b)$ with $a = x$ and $b = 10y$."
+      "content": "The expression inside the parentheses is $x^2 - 144y^2$. Notice that $x^2 = (x)^2$ and $144y^2 = (12y)^2$, so this fits the pattern $a^2 - b^2 = (a-b)(a+b)$ with $a = x$ and $b = 12y$."
     },
     {
       "title": "Factor the difference of squares",
-      "content": "$$x^2 - 100y^2 = (x - 10y)(x + 10y).$$ Multiplying back in the outer factor of 14: $$14(x^2 - 100y^2) = 14(x - 10y)(x + 10y).$$"
+      "content": "$$x^2 - 144y^2 = (x - 12y)(x + 12y).$$ Multiplying back in the outer factor of 18: $$18(x^2 - 144y^2) = 18(x - 12y)(x + 12y).$$"
     },
     {
       "title": "Evaluate each answer choice",
-      "content": "<ul><li>Choice A: 14(x - 10y)(x - 10y) &mdash; has a middle term when expanded, so it is not the original.</li><li>Choice B: 14(x - 10y)(x + 10y) &mdash; is exactly the difference-of-squares form.</li><li>Choice C: 14(x - 2y)(x - 50y) &mdash; creates a middle term and the wrong sign on the $y^2$ term.</li><li>Choice D: 14(x - 2y)(x + 50y) &mdash; also creates a middle term.</li></ul>That leaves <strong>Choice B &mdash; 14(x - 10y)(x + 10y)</strong>."
+      "content": "<ul><li>Choice A: 18(x - 12y)(x - 12y) &mdash; has a middle term when expanded, so it is not the original.</li><li>Choice B: 18(x - 12y)(x + 12y) &mdash; is exactly the difference-of-squares form.</li><li>Choice C: 18(x - 3y)(x - 48y) &mdash; creates a middle term and the wrong sign on the $y^2$ term.</li><li>Choice D: 18(x - 3y)(x + 48y) &mdash; also creates a middle term.</li></ul>That leaves <strong>Choice B &mdash; 18(x - 12y)(x + 12y)</strong>."
     }
   ]
 }

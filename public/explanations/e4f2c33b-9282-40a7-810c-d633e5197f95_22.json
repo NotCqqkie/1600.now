@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Find the cost after the first two hours",
-      "content": "The first $2$ hours cost $160$. A $6$-hour repair costs $360$, so the additional $4$ hours cost $$360-160=200.$$"
+      "content": "The first $2$ hours cost $180$. A $7$-hour repair costs $455$, so the additional $5$ hours cost $$455-180=275.$$"
     },
     {
       "title": "Convert that to an hourly fee",
-      "content": "The additional $4$ hours cost $200$, so the hourly fee is $$\\frac{200}{4}=50.$$"
+      "content": "The additional $5$ hours cost $275$, so the hourly fee is $$\\frac{275}{5}=55.$$"
     },
     {
       "title": "Build the function",
-      "content": "For $x\\geq 2$, start with the $160$ charge for the first $2$ hours, then add $50$ for each hour beyond $2$: $$f(x)=160+50(x-2)=50x+60.$$"
+      "content": "For $x\\geq 2$, start with the $180$ charge for the first $2$ hours, then add $55$ for each hour beyond $2$: $$f(x)=180+55(x-2)=55x+70.$$"
     },
     {
       "title": "Confirm the answer",
-      "content": "The correct model is $f(x)=50x+60$. It gives $f(2)=160$ and $f(6)=360$, matching both facts, so <strong>A</strong> is correct."
+      "content": "The correct model is $f(x)=55x+70$. It gives $f(2)=180$ and $f(7)=455$, matching both facts, so <strong>A</strong> is correct."
     }
   ]
 }

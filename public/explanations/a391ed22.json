@@ -1,15 +1,15 @@
 {
   "questionId": "a391ed22",
-  "correctAnswer": "5/2,2.5",
+  "correctAnswer": "9/2,4.5",
   "section": "Math",
   "steps": [
     {
       "title": "Focus on the x-term",
-      "content": "The question asks for $b$, the coefficient of $x$ in $ax^2+bx+c$. In $$\\left(\\frac{1}{2}x+\\frac{3}{2}\\right)\\left(\\frac{3}{2}x+\\frac{1}{2}\\right),$$ the $x$ term comes from the outer and inner products."
+      "content": "The question asks for $b$, the coefficient of $x$ in $ax^2+bx+c$. In $$\\left(\\frac{1}{2}x+\\frac{5}{2}\\right)\\left(\\frac{3}{2}x+\\frac{3}{2}\\right),$$ the $x$ term comes from the outer and inner products."
     },
     {
       "title": "Add the x-term products",
-      "content": "$$\\frac{1}{2}x\\cdot\\frac{1}{2}=\\frac{1}{4}x$$<br/>$$\\frac{3}{2}\\cdot\\frac{3}{2}x=\\frac{9}{4}x$$<br/>Together, $$\\frac{1}{4}x+\\frac{9}{4}x=\\frac{10}{4}x=\\frac{5}{2}x.$$ Therefore $b=\\frac{5}{2}=2.5$. The $x^2$ and constant terms are not needed because the question asks only for $b$."
+      "content": "$$\\frac{1}{2}x\\cdot\\frac{3}{2}=\\frac{3}{4}x$$<br/>$$\\frac{5}{2}\\cdot\\frac{3}{2}x=\\frac{15}{4}x$$<br/>Together, $$\\frac{3}{4}x+\\frac{15}{4}x=\\frac{18}{4}x=\\frac{9}{2}x.$$ Therefore $b=\\frac{9}{2}=4.5$. The $x^2$ and constant terms are not needed because the question asks only for $b$."
     }
   ]
 }

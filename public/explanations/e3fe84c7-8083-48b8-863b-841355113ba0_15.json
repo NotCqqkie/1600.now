@@ -4,7 +4,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $f(x)=48(4,096)^{\\frac{x}{2}}$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $f(x)=36(6,561)^{\\frac{x}{2}}$."
     },
     {
       "title": "Algebra check",
@@ -12,15 +12,15 @@
     },
     {
       "title": "Step 1",
-      "content": "Every increase of 2 in $a$ multiplies $f(a)$ by the constant $c$. All four choices are equivalent forms of the same function; verify with the remaining alternative: $f(x)=48(64)^{x}$. When $x$ increases by 2, $f(x+2)=48(64)^{x+2}=48(64)^x \\cdot 64^2 = f(x)\\cdot 4096$. So $c=4096$."
+      "content": "Every increase of 2 in $a$ multiplies $f(a)$ by the constant $c$. All four choices are equivalent forms of the same function; verify with the remaining alternative: $f(x)=36(81)^{x}$. When $x$ increases by 2, $f(x+2)=36(81)^{x+2}=36(81)^x \\cdot 81^2 = f(x)\\cdot 6561$. So $c=6561$."
     },
     {
       "title": "Step 2",
-      "content": "The question asks which form displays $c$ as the base or coefficient. Since $c=4096$, we need a form where 4096 appears literally as the base of the exponential or as a coefficient."
+      "content": "The question asks which form displays $c$ as the base or coefficient. Since $c=6561$, we need a form where 6561 appears literally as the base of the exponential or as a coefficient."
     },
     {
       "title": "Step 3",
-      "content": "Check each choice for whether its base or coefficient equals 4096: <ul><li>A: $f(x)=48(2)^{6x}$ — base is 2, not 4096. When $x$ increases by 2, factor is $2^{12}=4096$, but 4096 is not visible as the base or coefficient. Eliminated.</li><li>B: $f(x)=48(8)^{2x}$ — base is 8, not 4096. Factor per $+2$ is $8^4=4096$, but 4096 is not displayed. Eliminated.</li><li><strong>$f(x)=48(64)^{x}$</strong>: $f(x)=48(64)^x$ — base is 64, not 4096. Factor per $+2$ is $64^2=4096$, but 4096 is not displayed. Eliminated.</li><li><strong>$f(x)=48(4,096)^{\\frac{x}{2}}$</strong>: $f(x)=48(4096)^{\\frac{x}{2}}$ — base is 4096. When $x$ increases by 2, $\\frac{x}{2}$ increases by 1, so $f$ multiplies by $4096^1=4096=c$. The value of $c$ is the base itself. That matches the correct answer — <strong>D</strong> is correct.</li></ul>"
+      "content": "Check each choice for whether its base or coefficient equals 6561: <ul><li>A: $f(x)=36(3)^{4x}$ — base is 3, not 6561. When $x$ increases by 2, factor is $3^{8}=6561$, but 6561 is not visible as the base or coefficient. Eliminated.</li><li>B: $f(x)=36(9)^{2x}$ — base is 9, not 6561. Factor per $+2$ is $9^4=6561$, but 6561 is not displayed. Eliminated.</li><li><strong>$f(x)=36(81)^{x}$</strong>: $f(x)=36(81)^x$ — base is 81, not 6561. Factor per $+2$ is $81^2=6561$, but 6561 is not displayed. Eliminated.</li><li><strong>$f(x)=36(6,561)^{\\frac{x}{2}}$</strong>: $f(x)=36(6561)^{\\frac{x}{2}}$ — base is 6561. When $x$ increases by 2, $\\frac{x}{2}$ increases by 1, so $f$ multiplies by $6561^1=6561=c$. The value of $c$ is the base itself. That matches the correct answer — <strong>D</strong> is correct.</li></ul>"
     }
   ],
   "correctAnswer": "D",

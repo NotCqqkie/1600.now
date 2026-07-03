@@ -9,12 +9,12 @@
     },
     {
       "title": "Identify the area scale factor",
-      "content": "When two figures are similar with linear scale factor $k$, the area scales by $k^2$. Since each side of EFGH is 6 times a corresponding side of ABCD, we have $k = 6$. Therefore, the area multiplier is $6^2 = 36$.",
+      "content": "When two figures are similar with linear scale factor $k$, the area scales by $k^2$. Since each side of EFGH is 7 times a corresponding side of ABCD, we have $k = 7$. Therefore, the area multiplier is $7^2 = 49$.",
       "formula": "$$\\text{Area scale factor} = k^2$$"
     },
     {
       "title": "Calculate the new area",
-      "content": "The area of ABCD is 96 square units. Multiply by the area scale factor of 36: $$96 \\times 36 = 3,456$$. <strong>D</strong> is correct."
+      "content": "The area of ABCD is 98 square units. Multiply by the area scale factor of 49: $$98 \\times 49 = 4,802$$. <strong>D</strong> is correct."
     }
   ]
 }

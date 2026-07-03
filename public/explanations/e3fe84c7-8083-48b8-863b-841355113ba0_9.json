@@ -1,19 +1,19 @@
 {
   "questionId": "e3fe84c7-8083-48b8-863b-841355113ba0_9",
-  "correctAnswer": "25515",
+  "correctAnswer": "25110",
   "section": "Math",
   "steps": [
     {
       "title": "Substitute the given values",
-      "content": "Use the known rope to find the constant $a$: $$708.75=900a(0.75)^2.$$ Since $(0.75)^2=0.5625$, this becomes $$708.75=506.25a.$$"
+      "content": "Use the known cord to find the constant $a$: $$697.5=800a(0.75)^2.$$ Since $(0.75)^2=0.5625$, this becomes $$697.5=450a.$$"
     },
     {
       "title": "Solve for the unknown",
-      "content": "Divide to get $$a=\\frac{708.75}{506.25}=1.4.$$ For a circumference of $4.50$ inches, $$y=900(1.4)(4.5)^2=1260(20.25)=25{,}515.$$ The answer is <strong>25515</strong>."
+      "content": "Divide to get $$a=\\frac{697.5}{450}=1.55.$$ For a circumference of $4.50$ inches, $$y=800(1.55)(4.5)^2=1240(20.25)=25{,}110.$$ The answer is <strong>25110</strong>."
     },
     {
       "title": "Confirm the answer",
-      "content": "The question asks for the estimated breaking strength in pounds, so the value to enter is $25515$."
+      "content": "The question asks for the estimated breaking strength in pounds, so the value to enter is $25110$."
     }
   ]
 }

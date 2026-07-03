@@ -1,6 +1,6 @@
 {
   "questionId": "73362607",
-  "correctAnswer": "75",
+  "correctAnswer": "68",
   "section": "Math",
   "steps": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "title": "Multiply the harvest by the decimal",
-      "content": "To find how many tomatoes Amara gave away, multiply the total harvest by the decimal form:<br/>$$750 \\times 0.10 = 75$$<br/>Amara gave <strong>75</strong> cherry tomatoes to her neighbor."
+      "content": "To find how many tomatoes Lina gave away, multiply the total harvest by the decimal form:<br/>$$680 \\times 0.10 = 68$$<br/>Lina gave <strong>68</strong> cherry tomatoes to her neighbor."
     }
   ]
 }

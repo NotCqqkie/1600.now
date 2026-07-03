@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+      "title": "Fastest path: mark the angles first",
+      "content": "Mark the given angle relationships first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
     },
     {
       "title": "Apply the triangle angle sum property",
-      "content": "The sum of all angles in any triangle is 180°. Given angle X = 108° and angle Y = 36°, we write: $$X + Y + Z = 180^{\\circ}$$ Substituting the known values: $$108^{\\circ} + 36^{\\circ} + Z = 180^{\\circ}$$"
+      "content": "The sum of all angles in any triangle is 180°. Given angle P = 104° and angle Q = 38°, we write: $$P + Q + R = 180^{\\circ}$$ Substituting the known values: $$104^{\\circ} + 38^{\\circ} + R = 180^{\\circ}$$"
     },
     {
-      "title": "Solve for angle Z",
-      "content": "Subtract the known angles from both sides: $$Z = 180^{\\circ} - 108^{\\circ} - 36^{\\circ} = 36^{\\circ}$$ Angles Y and Z are both 36°, confirming the problem's condition that two angles are equal. That matches <strong>Choice A &mdash; 36°</strong>."
+      "title": "Solve for angle R",
+      "content": "Subtract the known angles from both sides: $$R = 180^{\\circ} - 104^{\\circ} - 38^{\\circ} = 38^{\\circ}$$ Angles Q and R are both 38°, confirming the problem's condition that two angles are equal. That matches <strong>Choice A &mdash; 38°</strong>."
     }
   ]
 }

@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Fastest path: use the function table",
-      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $20$, so the answer is <strong>B</strong>, 20. This is just a one-row lookup, and the arithmetic below confirms the table value."
+      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $27$, so the answer is <strong>B</strong>, 27. This is just a one-row lookup, and the arithmetic below confirms the table value."
     },
     {
-      "title": "Substitute the value x = 8",
-      "content": "Replace $x$ with $8$ in $$f(x) = 60 - 5x.$$ This gives $$f(8) = 60 - 5(8).$$"
+      "title": "Substitute the value x = 9",
+      "content": "Replace $x$ with $9$ in $$f(x) = 63 - 4x.$$ This gives $$f(9) = 63 - 4(9).$$"
     },
     {
       "title": "Compute the result",
-      "content": "Simplify: $$f(8) = 60 - 40 = 20.$$ That is the correct answer."
+      "content": "Simplify: $$f(9) = 63 - 36 = 27.$$ That is the correct answer."
     }
   ]
 }

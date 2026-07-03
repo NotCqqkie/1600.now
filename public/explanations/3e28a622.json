@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute x equals 81",
-      "content": "The function is $g(x)=\\sqrt{x}+300$. Substitute $x=81$: $$g(81)=\\sqrt{81}+300$$"
+      "title": "Substitute x equals 64",
+      "content": "The function is $g(x)=\\sqrt{x}+250$. Substitute $x=64$: $$g(64)=\\sqrt{64}+250$$"
     },
     {
       "title": "Take the square root first",
-      "content": "$$\\sqrt{81}=9$$ so $$g(81)=9+300=309$$"
+      "content": "$$\\sqrt{64}=8$$ so $$g(64)=8+250=258$$"
     },
     {
       "title": "Check the choices",
-      "content": "$309$ is correct. Stopping after finding $\\sqrt{81}$, forgetting the square-root part, or adding $81$ instead of $\\sqrt{81}$ gives a different value because the function adds only the square root to 300."
+      "content": "$258$, choice C, is correct. Stopping after finding $\\sqrt{64}$, forgetting the square-root part, or adding $64$ instead of $\\sqrt{64}$ gives a different value because the function adds only the square root to 250."
     }
   ]
 }

@@ -1,15 +1,15 @@
 {
   "questionId": "c9e1513f-58d1-4e6c-8574-b9662226959f_8",
-  "correctAnswer": "45",
+  "correctAnswer": "50",
   "section": "Math",
   "steps": [
     {
       "title": "Identify the relationship between angles",
-      "content": "The problem states that triangles $JKL$ and $PQR$ are congruent, with $J$ corresponding to $P$. In congruent triangles, corresponding angles are equal. Therefore, $\\angle P = \\angle J$."
+      "content": "The problem states that triangles $ABC$ and $DEF$ are congruent, with $A$ corresponding to $D$. In congruent triangles, corresponding angles are equal. Therefore, $\\angle D = \\angle A$."
     },
     {
-      "title": "Find angle P",
-      "content": "We're given that $\\angle J = 45^{\\circ}$. Since $\\angle P = \\angle J$, we have $\\angle P = 45^{\\circ}$."
+      "title": "Find angle D",
+      "content": "We're given that $\\angle A = 50^{\\circ}$. Since $\\angle D = \\angle A$, we have $\\angle D = 50^{\\circ}$."
     }
   ]
 }

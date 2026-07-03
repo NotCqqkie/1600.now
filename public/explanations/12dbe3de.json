@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up the probability formula",
-      "content": "The probability of selecting a defective MP3 player is:<br/>$$P(\\text{defective}) = \\frac{\\text{Number of defective players}}{\\text{Total number of players}} = \\frac{4}{1,000}$$"
+      "content": "The probability of selecting a defective wireless earbud is:<br/>$$P(\\text{defective}) = \\frac{\\text{Number of defective earbuds}}{\\text{Total number of earbuds}} = \\frac{7}{1,000}$$"
     },
     {
       "title": "Convert to decimal and identify the answer",
-      "content": "Divide the numerator by the denominator:<br/>$$4 \\div 1,000 = 0.004$$<br/>That matches <strong>Choice A &mdash; 0.004</strong>."
+      "content": "Divide the numerator by the denominator:<br/>$$7 \\div 1,000 = 0.007$$<br/>That matches <strong>Choice A &mdash; 0.007</strong>."
     }
   ]
 }

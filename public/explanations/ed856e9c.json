@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Recognize slope-intercept form",
-      "content": "The equation $y = 34x + 81$ is in slope-intercept form $y = mx + b$, where $m$ is the slope and $b$ is the $y$-intercept value. Here, $m = 34$ and $b = 81$."
+      "content": "The equation $y = 29x + 74$ is in slope-intercept form $y = mx + b$, where $m$ is the slope and $b$ is the $y$-intercept value. Here, $m = 29$ and $b = 74$."
     },
     {
       "title": "Identify the y-intercept point",
-      "content": "The $y$-intercept is where the line crosses the $y$-axis, occurring when $x = 0$. Since the $y$-intercept value is $b = 81$, the $y$-intercept point is $(0, 81)$.<br/><br/>That matches the correct answer — <strong>A</strong> is correct."
+      "content": "The $y$-intercept is where the line crosses the $y$-axis, occurring when $x = 0$. Since the $y$-intercept value is $b = 74$, the $y$-intercept point is $(0, 74)$.<br/><br/>That matches the correct answer — <strong>A</strong> is correct."
     }
   ]
 }

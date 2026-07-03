@@ -218,6 +218,10 @@ export default {
           from: { opacity: "0", transform: "translateY(10px)" },
           to: { opacity: "1", transform: "translateY(0)" },
         },
+        "annotation-trash-in": {
+          from: { opacity: "0", transform: "translateY(-50%) translateX(-6px)" },
+          to: { opacity: "1", transform: "translateY(-50%) translateX(0)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -240,6 +244,7 @@ export default {
         "shimmer": "shimmer 2s linear infinite",
         "match-success": "match-success 0.4s ease-out",
         "stagger-fade": "stagger-fade 0.3s ease-out forwards",
+        "annotation-trash-in": "annotation-trash-in 0.15s ease-out",
       },
     },
   },

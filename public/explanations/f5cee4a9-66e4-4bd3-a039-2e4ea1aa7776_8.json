@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Rewrite as a quadratic and set up the discriminant",
-      "content": "<strong>Shortcut (discriminant):</strong> Expand $-(3x-7)^2 = p + 17$ into standard form:<br/>$-(9x^2 - 42x + 49) = p + 17$<br/>$9x^2 - 42x + (66 + p) = 0$<br/>For <em>no real solution</em>, the discriminant must be negative: $b^2 - 4ac \\lt 0$."
+      "content": "<strong>Shortcut (discriminant):</strong> Expand $-(2x-5)^2 = p + 11$ into standard form:<br/>$-(4x^2 - 20x + 25) = p + 11$<br/>$4x^2 - 20x + (36 + p) = 0$<br/>For <em>no real solution</em>, the discriminant must be negative: $b^2 - 4ac \\lt 0$."
     },
     {
       "title": "Solve the discriminant inequality for p",
-      "content": "$(-42)^2 - 4(9)(66+p) \\lt 0$<br/>$1764 - 2376 - 36p \\lt 0$<br/>$-612 - 36p \\lt 0$<br/>$p \\gt  -17$<br/>The least integer greater than $-17$ is $p = -16$. That matches the correct answer — <strong>C</strong> is correct."
+      "content": "$(-20)^2 - 4(4)(36+p) \\lt 0$<br/>$400 - 576 - 16p \\lt 0$<br/>$-176 - 16p \\lt 0$<br/>$p \\gt -11$<br/>The least integer greater than $-11$ is $p = -10$. That matches the correct answer — <strong>C</strong> is correct."
     }
   ]
 }

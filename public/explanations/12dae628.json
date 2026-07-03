@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Sum all the data values",
-      "content": "Add the five numbers: $2 + 9 + 14 + 23 + 32 = 80$"
+      "content": "Add the five numbers: $4 + 11 + 18 + 25 + 37 = 95$"
     },
     {
       "title": "Apply the mean formula",
-      "content": "The mean is the sum divided by how many values there are. With 5 data points: $$\\text{mean} = \\frac{80}{5} = 16$$ That matches <strong>Choice B &mdash; $16$</strong>.",
+      "content": "The mean is the sum divided by how many values there are. With 5 data points: $$\\text{mean} = \\frac{95}{5} = 19$$ That matches <strong>Choice B &mdash; $19$</strong>.",
       "formula": "$$\\text{mean} = \\frac{\\text{sum of all values}}{\\text{number of values}}$$"
     }
   ]

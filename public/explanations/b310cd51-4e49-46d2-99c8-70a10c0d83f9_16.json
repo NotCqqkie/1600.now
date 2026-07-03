@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $15x+150$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $14x+168$."
     },
     {
       "title": "Algebra check",
@@ -13,15 +13,15 @@
     },
     {
       "title": "Distribute",
-      "content": "Multiply $15$ by each term inside the parentheses: $$15(x+10)=15x+150$$"
+      "content": "Multiply $14$ by each term inside the parentheses: $$14(x+12)=14x+168$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "The correct answer is $15x+150$, so <strong>B</strong> is correct."
+      "content": "The correct answer is $14x+168$, so <strong>B</strong> is correct."
     },
     {
       "title": "Avoid the distribution trap",
-      "content": "The $15$ must multiply both terms inside the parentheses. The correct answer leaves the $10$ unchanged, and the other choices use constants that do not equal $15\\cdot 10$."
+      "content": "The $14$ must multiply both terms inside the parentheses. One incorrect answer leaves the $12$ unchanged, and the other choices use constants that do not equal $14\\cdot 12$."
     }
   ]
 }

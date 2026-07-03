@@ -1,15 +1,15 @@
 {
   "questionId": "041eda89",
-  "correctAnswer": "29",
+  "correctAnswer": "37",
   "section": "Math",
   "steps": [
     {
       "title": "Rewrite to match the given root form",
-      "content": "Start with $$x^2+7x+5=0.$$ Multiply by 4 so the square will have integer coefficients: $$4x^2+28x+20=0.$$"
+      "content": "Start with $$x^2+9x+11=0.$$ Multiply by 4 so the square will have integer coefficients: $$4x^2+36x+44=0.$$"
     },
     {
       "title": "Complete the square",
-      "content": "Move the constant and complete the square: $$4x^2+28x=-20$$ $$(2x+7)^2=29.$$ Therefore $$2x+7=\\pm\\sqrt{29},$$ so $$x=\\frac{-7\\pm\\sqrt{29}}{2}.$$ In the given form, $k=29$.<br/><br/>The expression under the radical is the requested $k$, so once the completed-square form has $\\sqrt{29}$, the value of $k$ is fixed."
+      "content": "Move the constant and complete the square: $$4x^2+36x=-44$$ $$(2x+9)^2=37.$$ Therefore $$2x+9=\\pm\\sqrt{37},$$ so $$x=\\frac{-9\\pm\\sqrt{37}}{2}.$$ In the given form, $k=37$.<br/><br/>The expression under the radical is the requested $k$, so once the completed-square form has $\\sqrt{37}$, the value of $k$ is fixed."
     }
   ]
 }

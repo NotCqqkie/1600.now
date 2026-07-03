@@ -1,19 +1,19 @@
 {
   "questionId": "b79b2afa-5519-4128-ab30-39cfd5c26d43_14",
-  "correctAnswer": "18",
+  "correctAnswer": "17",
   "section": "Math",
   "steps": [
     {
       "title": "Set up",
-      "content": "Let u = 13 &minus; 5x. The equation becomes &minus;7u + 3 = &minus;8u + 21."
+      "content": "Let u = 14 &minus; 4x. The equation becomes &minus;6u + 5 = &minus;7u + 22."
     },
     {
       "title": "Solve",
-      "content": "Add 8u to both sides: u + 3 = 21 $\\Rightarrow$ u = 18. So 13 &minus; 5x = 18."
+      "content": "Add 7u to both sides: u + 5 = 22 $\\Rightarrow$ u = 17. So 14 &minus; 4x = 17."
     },
     {
       "title": "Answer",
-      "content": "<strong>18</strong> is correct."
+      "content": "<strong>17</strong> is correct."
     }
   ]
 }

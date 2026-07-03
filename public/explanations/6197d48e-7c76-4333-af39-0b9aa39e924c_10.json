@@ -1,19 +1,19 @@
 {
   "questionId": "6197d48e-7c76-4333-af39-0b9aa39e924c_10",
-  "correctAnswer": "28",
+  "correctAnswer": "33",
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+      "title": "Fastest path: identify the total first",
+      "content": "Use the total volume and the known component volume before setting up equations. Since the mixture volume is the sum of the two component volumes, write the needed subtraction directly."
     },
     {
       "title": "Calculate Total Volume",
-      "content": "The total volume of the mixture is given as 38 mL. The mixture consists of both isopropanol and water.<br/>The volume of isopropanol in the mixture is 10 mL."
+      "content": "The total volume of the mixture is given as 46 mL. The mixture consists of both isopropanol and water.<br/>The volume of isopropanol in the mixture is 13 mL."
     },
     {
       "title": "Determine Water Volume",
-      "content": "To find the volume of water, subtract the volume of isopropanol from the total mixture volume:<br/>$$38\\text{ mL} - 10\\text{ mL} = 28\\text{ mL}.$$<br/>The answer is <strong>28</strong>."
+      "content": "To find the volume of water, subtract the volume of isopropanol from the total mixture volume:<br/>$$46\\text{ mL} - 13\\text{ mL} = 33\\text{ mL}.$$<br/>The answer is <strong>33</strong>."
     }
   ]
 }

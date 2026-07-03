@@ -1,15 +1,15 @@
 {
   "questionId": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_7",
-  "correctAnswer": "76",
+  "correctAnswer": "84",
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the time before the acorn fell",
-      "content": "<em>Before the acorn fell from the tree</em> refers to the initial moment, when no time has elapsed. This corresponds to $x = 0$ seconds. We need to find $f(0)$."
+      "title": "Identify the time before the pinecone fell",
+      "content": "<em>Before the pinecone fell from the tree</em> refers to the initial moment, when no time has elapsed. This corresponds to $x = 0$ seconds. We need to find $f(0)$."
     },
     {
       "title": "Evaluate the function at x = 0",
-      "content": "Substitute $x = 0$ into $f(x) = -16x^2 + 76$:<br/>$$f(0) = -16(0)^2 + 76 = 0 + 76 = 76$$<br/>The estimated height of the acorn before it fell from the tree is <strong>76 feet</strong>."
+      "content": "Substitute $x = 0$ into $f(x) = -16x^2 + 84$:<br/>$$f(0) = -16(0)^2 + 84 = 0 + 84 = 84$$<br/>The estimated height of the pinecone before it fell from the tree is <strong>84 feet</strong>."
     }
   ]
 }

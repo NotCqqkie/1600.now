@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Find the two angle measures",
-      "content": "A transversal through parallel lines creates four angles of one measure and four supplementary angles. If one angle is $(7x-250)^\\circ$, the other measure is $$180-(7x-250)=430-7x.$$"
+      "content": "A transversal through parallel lines creates four angles of one measure and four supplementary angles. If one angle is $(6x-210)^\\circ$, the other measure is $$180-(6x-210)=390-6x.$$"
     },
     {
       "title": "List the possible sums",
-      "content": "The sum of four of the angles can use $0,1,2,3,$ or $4$ copies of $(7x-250)^\\circ$. The possible values are $$4(430-7x)=1720-28x,$$ $$(7x-250)+3(430-7x)=-14x+1040,$$ $$2(7x-250)+2(430-7x)=360,$$ $$3(7x-250)+(430-7x)=14x-320,$$ and $$4(7x-250)=28x-1000.$$"
+      "content": "The sum of four of the angles can use $0,1,2,3,$ or $4$ copies of $(6x-210)^\\circ$. The possible values are $$4(390-6x)=1560-24x,$$ $$(6x-210)+3(390-6x)=-12x+960,$$ $$2(6x-210)+2(390-6x)=360,$$ $$3(6x-210)+(390-6x)=12x-240,$$ and $$4(6x-210)=24x-840.$$"
     },
     {
       "title": "Compare answer choices to possible sums",
-      "content": "The other choices appear in the possible-sum list. Choice A, $-14x+1540$, does not; the matching coefficient case gives $-14x+1040$, not $-14x+1540$. <strong>A</strong> is correct."
+      "content": "The other choices appear in the possible-sum list. Choice A, $-12x+1260$, does not; the matching coefficient case gives $-12x+960$, not $-12x+1260$. <strong>A</strong> is correct."
     }
   ]
 }

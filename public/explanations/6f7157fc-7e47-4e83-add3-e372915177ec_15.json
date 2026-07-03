@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Set up",
-      "content": "Two pieces sum to 96: x + y = 96. The longer piece is 6 more than 4 times the shorter: x = 4y + 6."
+      "content": "Two pieces sum to 108: x + y = 108. The longer piece is 8 more than 4 times the shorter: x = 4y + 8."
     },
     {
       "title": "Solve",
-      "content": "Substitute: (4y + 6) + y = 96 $\\Rightarrow$ 5y = 90 $\\Rightarrow$ y = 18. Then x = 4(18) + 6 = 78."
+      "content": "Substitute: (4y + 8) + y = 108 $\\Rightarrow$ 5y = 100 $\\Rightarrow$ y = 20. Then x = 4(20) + 8 = 88."
     },
     {
       "title": "Answer",
-      "content": "x = 78, which confirms <strong>D</strong> &mdash; <strong>D</strong> is correct."
+      "content": "x = 88, which confirms <strong>D</strong> &mdash; <strong>D</strong> is correct."
     }
   ]
 }

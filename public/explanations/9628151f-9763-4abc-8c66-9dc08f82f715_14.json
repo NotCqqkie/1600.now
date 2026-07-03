@@ -1,19 +1,19 @@
 {
   "questionId": "9628151f-9763-4abc-8c66-9dc08f82f715_14",
-  "correctAnswer": "300",
+  "correctAnswer": "240",
   "section": "Math",
   "steps": [
     {
       "title": "Set up",
-      "content": "The model is $f(t) = 8000(2)^{t/300}$. The population doubles when the exponential factor equals 2, which happens when the exponent equals 1: set $t/300 = 1$."
+      "content": "The model is $p(t) = 6000(2)^{t/240}$. The population doubles when the exponential factor equals 2, which happens when the exponent equals 1: set $t/240 = 1$."
     },
     {
       "title": "Solve",
-      "content": "$t/300 = 1 \\Rightarrow t = 300$ minutes."
+      "content": "$t/240 = 1 \\Rightarrow t = 240$ minutes."
     },
     {
       "title": "Answer",
-      "content": "The doubling time is the amount of time that makes the population change from $8000$ to $16000$. Since $t=300$ makes the exponent $1$, the factor is $2^1=2$, so the population doubles after <strong>300</strong> minutes."
+      "content": "The doubling time is the amount of time that makes the population change from $6000$ to $12000$. Since $t=240$ makes the exponent $1$, the factor is $2^1=2$, so the population doubles after <strong>240</strong> minutes."
     }
   ]
 }

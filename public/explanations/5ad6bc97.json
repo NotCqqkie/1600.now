@@ -1,19 +1,19 @@
 {
   "questionId": "5ad6bc97",
-  "correctAnswer": "50",
+  "correctAnswer": "52",
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute the number of managers",
-      "content": "The function $f(x)=7x+1$ gives the total number of people when there are $x$ managers. For $7$ managers, use $x=7$."
+      "title": "Substitute the number of coordinators",
+      "content": "The function $f(x)=6x+4$ gives the total number of people when there are $x$ coordinators. For $8$ coordinators, use $x=8$."
     },
     {
       "title": "Evaluate",
-      "content": "$$f(7)=7(7)+1=49+1=50.$$ The total number of people on the retreat is <strong>50</strong>."
+      "content": "$$f(8)=6(8)+4=48+4=52.$$ The total number of people at the offsite is <strong>52</strong>."
     },
     {
       "title": "Check the context",
-      "content": "The answer is a count of people, not a number of managers. The input is $7$ managers, and the output is $50$ total people."
+      "content": "The answer is a count of people, not a number of coordinators. The input is $8$ coordinators, and the output is $52$ total people."
     }
   ]
 }

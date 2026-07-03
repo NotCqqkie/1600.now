@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Cancel $y$ by adding",
-      "content": "The equations contain $3y$ and $-3y$, so add them: $$(3y)+(-3y)=(4x+17)+(9x-23).$$"
+      "content": "The equations contain $4y$ and $-4y$, so add them: $$(4y)+(-4y)=(6x+19)+(9x-27).$$"
     },
     {
-      "title": "Solve only for $39x$",
-      "content": "This gives $0=13x-6$, so $13x=6$. The question asks for $39x$, which is $3$ times $13x$: $$39x=3(6)=18.$$"
+      "title": "Solve only for $45x$",
+      "content": "This gives $0=15x-8$, so $15x=8$. The question asks for $45x$, which is $3$ times $15x$: $$45x=3(8)=24.$$"
     },
     {
       "title": "Check the choices",
-      "content": "Choice D, $18$, is correct. Choice C, $6$, is the value of $13x$; choice B, $-6$, comes from using the wrong sign; and choice A, $-18$, is the opposite of the requested value."
+      "content": "Choice D, $24$, is correct. Choice C, $8$, is the value of $15x$; choice B, $-8$, comes from using the wrong sign; and choice A, $-24$, is the opposite of the requested value."
     }
   ]
 }

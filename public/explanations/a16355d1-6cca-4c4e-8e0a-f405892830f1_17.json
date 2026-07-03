@@ -13,7 +13,7 @@
     },
     {
       "title": "Apply the formula with the given information",
-      "content": "The center is $(18, 16)$, so $h = 18$ and $k = 16$. The radius is $r = 6k$. Substituting into the standard form:<br/>$$(x - 18)^2 + (y - 16)^2 = (6k)^2 = 36k^2$$<br/>That confirms <strong>B</strong> is correct."
+      "content": "The center is $(14, 9)$, so $h = 14$ and $k = 9$. The radius is $r = 5k$. Substituting into the standard form:<br/>$$(x - 14)^2 + (y - 9)^2 = (5k)^2 = 25k^2$$<br/>That confirms <strong>B</strong> is correct."
     }
   ]
 }

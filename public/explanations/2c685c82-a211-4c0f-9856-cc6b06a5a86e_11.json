@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Write equations from the percentages",
-      "content": "From <em>b is 81% of c</em>, we have $b = 0.81c$. From <em>a is 2,106% of (b+c)</em>, we have:\n$$a = 21.06(b + c)$$\nNote that 2,106% as a decimal is 21.06, not 2.106."
+      "content": "From <em>b is 82% of c</em>, we have $b = 0.82c$. From <em>a is 2,132% of (b+c)</em>, we have:\n$$a = 21.32(b + c)$$\nNote that 2,132% as a decimal is 21.32, not 2.132."
     },
     {
       "title": "Express a in terms of b",
-      "content": "From $b = 0.81c$, we can write:\n$$b + c = 0.81c + c = 1.81c$$\nSubstituting into the equation for $a$:\n$$a = 21.06(1.81c) = 38.1186c$$"
+      "content": "From $b = 0.82c$, we can write:\n$$b + c = 0.82c + c = 1.82c$$\nSubstituting into the equation for $a$:\n$$a = 21.32(1.82c) = 38.8024c$$"
     },
     {
       "title": "Calculate what percent of b is a",
-      "content": "With $a = 38.1186c$ and $b = 0.81c$:\n$$\\frac{a}{b} = \\frac{38.1186c}{0.81c} = \\frac{38.1186}{0.81} = 47.06$$ As a percentage: $47.06 \\times 100\\% = 4,706\\%$. <strong>A</strong> is correct."
+      "content": "With $a = 38.8024c$ and $b = 0.82c$:\n$$\\frac{a}{b} = \\frac{38.8024c}{0.82c} = \\frac{38.8024}{0.82} = 47.32$$ As a percentage: $47.32 \\times 100\\% = 4,732\\%$. <strong>A</strong> is correct."
     }
   ]
 }

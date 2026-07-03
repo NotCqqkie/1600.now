@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set the equations equal at their intersection",
-      "content": "At the point where the two graphs intersect, both expressions equal $y$. Set them equal to each other:<br/>$$x + 3 = 2x - 6$$"
+      "content": "At the point where the two graphs intersect, both expressions equal $y$. Set them equal to each other:<br/>$$x + 4 = 2x - 5$$"
     },
     {
       "title": "Solve for x to find a",
-      "content": "Subtract $x$ from both sides:<br/>$$3 = x - 6$$<br/>Add 6 to both sides:<br/>$$9 = x$$<br/>Since the intersection point is $(a, b)$ and $x = a$, we have $a = 9$. That matches <strong>Choice C &mdash; 9</strong>."
+      "content": "Subtract $x$ from both sides:<br/>$$4 = x - 5$$<br/>Add 5 to both sides:<br/>$$9 = x$$<br/>Since the intersection point is $(a, b)$ and $x = a$, we have $a = 9$. That matches <strong>Choice C &mdash; 9</strong>."
     }
   ]
 }

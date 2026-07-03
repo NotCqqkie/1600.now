@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Find the exponential pattern",
-      "content": "Use the form $h(x)=a\\cdot b^x$. The row $x=0$ gives $h(0)=a=1.23$. Use the row $x=2$: $$1.54=1.23b^2$$ $$b^2=\\frac{1.54}{1.23}\\approx1.252$$ $$b\\approx1.12.$$ So the model is $h(x)=1.23(1.12)^x$."
+      "content": "Use the form $h(x)=a\\cdot b^x$. The row $x=0$ gives $h(0)=a=1.36$. Use the row $x=2$: $$1.80=1.36b^2$$ $$b^2=\\frac{1.80}{1.36}\\approx1.324$$ $$b\\approx1.15.$$ So the model is $h(x)=1.36(1.15)^x$."
     },
     {
       "title": "Confirm the model against the table",
-      "content": "The first value confirms the coefficient: when $x=0$, $h(0)=1.23(1.12)^0=1.23$. The second value checks the base: $1.23(1.12)^2 \\approx 1.54$. The third value also matches: $1.23(1.12)^4 \\approx 1.94$."
+      "content": "The first value confirms the coefficient: when $x=0$, $h(0)=1.36(1.15)^0=1.36$. The second value checks the base: $1.36(1.15)^2 \\approx 1.80$. The third value also matches: $1.36(1.15)^4 \\approx 2.38$."
     },
     {
       "title": "Check each choice",
-      "content": "<ul><li><strong>$h \\left(x\\right)=1.12{ \\left(0.23\\right)}^{x}$</strong>: $1.12(0.23)^x$: $h(0)=1.12$, not $1.23$; and $0.23$ would shrink the values. Eliminated.</li><li><strong>$h \\left(x\\right)=1.12{ \\left(1.23\\right)}^{x}$</strong>: $1.12(1.23)^x$: $h(0)=1.12$, not $1.23$. Eliminated.</li><li><strong>$h \\left(x\\right)=1.23{ \\left(0.12\\right)}^{x}$</strong>: $1.23(0.12)^x$: correct starting value, but $h(2)=1.23(0.12)^2\\approx 0.018$, nowhere near $1.54$. Eliminated.</li><li><strong>$h \\left(x\\right)=1.23{ \\left(1.12\\right)}^{x}$</strong>: $1.23(1.12)^x$: $h(0)=1.23$, $h(2)\\approx 1.54$, $h(4)\\approx 1.94$. Matches all rows.</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+      "content": "<ul><li><strong>$h \\left(x\\right)=1.15{ \\left(0.36\\right)}^{x}$</strong>: $1.15(0.36)^x$: $h(0)=1.15$, not $1.36$; and $0.36$ would shrink the values. Eliminated.</li><li><strong>$h \\left(x\\right)=1.15{ \\left(1.36\\right)}^{x}$</strong>: $1.15(1.36)^x$: $h(0)=1.15$, not $1.36$. Eliminated.</li><li><strong>$h \\left(x\\right)=1.36{ \\left(0.15\\right)}^{x}$</strong>: $1.36(0.15)^x$: correct starting value, but $h(2)=1.36(0.15)^2\\approx 0.031$, nowhere near $1.80$. Eliminated.</li><li><strong>$h \\left(x\\right)=1.36{ \\left(1.15\\right)}^{x}$</strong>: $1.36(1.15)^x$: $h(0)=1.36$, $h(2)\\approx 1.80$, $h(4)\\approx 2.38$. Matches all rows.</li></ul>That matches the correct answer: <strong>D</strong> is correct."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute x = 48 into the function",
-      "content": "We're given $j(x) = \\frac{x}{8}$ and need to find $j(48)$. To evaluate the function at $x = 48$, we substitute this value into the definition."
+      "title": "Substitute x = 56 into the function",
+      "content": "We're given $m(x) = \\frac{x}{7}$ and need to find $m(56)$. To evaluate the function at $x = 56$, we substitute this value into the definition."
     },
     {
       "title": "Simplify to find the answer",
-      "content": "$$j(48) = \\frac{48}{8} = 6$$ That matches the correct answer — <strong>D</strong> is correct."
+      "content": "$$m(56) = \\frac{56}{7} = 8$$ That matches the correct answer - <strong>D</strong> is correct."
     }
   ]
 }

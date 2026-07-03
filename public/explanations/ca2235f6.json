@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Use the arc fraction",
-      "content": "An arc's length is the same fraction of the circumference as the arc's degree measure is of $360^{\\circ}$. Set up a proportion using the $45^{\\circ}$ arc and its $3$-inch length."
+      "content": "An arc's length is the same fraction of the circumference as the arc's degree measure is of $360^{\\circ}$. Set up a proportion using the $60^{\\circ}$ arc and its $4$-inch length."
     },
     {
       "title": "Set up the arc length formula",
@@ -13,7 +13,7 @@
     },
     {
       "title": "Substitute values and solve for circumference",
-      "content": "We have an arc measuring $45^{\\circ}$ with length $3$ inches. Substitute these values:<br/>$$3 = \\frac{45^{\\circ}}{360^{\\circ}} \\times C$$<br/>Simplify the fraction $\\frac{45^{\\circ}}{360^{\\circ}} = \\frac{1}{8}$:<br/>$$3 = \\frac{1}{8} \\times C$$<br/>Multiply both sides by $8$:<br/>$$C = 24 \\text{ inches}$$<br/>That is the correct answer."
+      "content": "We have an arc measuring $60^{\\circ}$ with length $4$ inches. Substitute these values:<br/>$$4 = \\frac{60^{\\circ}}{360^{\\circ}} \\times C$$<br/>Simplify the fraction $\\frac{60^{\\circ}}{360^{\\circ}} = \\frac{1}{6}$:<br/>$$4 = \\frac{1}{6} \\times C$$<br/>Multiply both sides by $6$:<br/>$$C = 24 \\text{ inches}$$<br/>That is the correct answer."
     }
   ]
 }

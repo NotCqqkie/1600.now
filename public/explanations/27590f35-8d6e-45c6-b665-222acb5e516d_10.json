@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Test the choices in each equation",
-      "content": "Substitute each candidate into $y=5(x-3)$ and $y=(x-3)^2$. For $(8,25)$: $5(8-3)=25$ and $(8-3)^2=25$, so both equations hold."
+      "content": "Substitute each candidate into $y=4(x-2)$ and $y=(x-2)^2$. For $(6,16)$: $4(6-2)=16$ and $(6-2)^2=16$, so both equations hold."
     },
     {
       "title": "Identify the matching pair",
-      "content": "Only $(8,25)$ satisfies both equations simultaneously. That matches <strong>Choice B &mdash; $(8, 25)$</strong>.<br/><br/>A solution to a system must satisfy both equations at the same time, so one successful ordered pair is enough once the other choices fail one of the equations."
+      "content": "Only $(6,16)$ satisfies both equations simultaneously. That matches <strong>Choice B &mdash; $(6, 16)$</strong>.<br/><br/>A solution to a system must satisfy both equations at the same time, so one successful ordered pair is enough once the other choices fail one of the equations."
     }
   ]
 }

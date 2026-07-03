@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Map the equation to the situation",
-      "content": "$10{,}000 = 2{,}200 + 200t$ represents: total price = down payment + (amount per payment) &times; (number of payments). The $2{,}200$ is the one-time down payment; $200t$ covers the remaining amount through $t$ monthly payments."
+      "content": "$12{,}600 = 3{,}000 + 240t$ represents: total price = down payment + (amount per payment) &times; (number of payments). The $3{,}000$ is the one-time down payment; $240t$ covers the remaining amount through $t$ monthly payments."
     },
     {
-      "title": "Interpret the coefficient 200",
-      "content": "In $200t$, the factor 200 is multiplied by $t$ (the number of payments), giving the total from monthly payments. Therefore 200 is the dollar amount of each individual monthly payment.<ul><li><strong>The amount, in dollars, of each fixed monthly payment</strong> is correct.</li><li><strong>C (total amount paid after t payments):</strong> The total from payments is $200t$ (the whole product), not just the coefficient 200 &mdash; wrong.</li><li><strong>D (total number of fixed monthly payments):</strong> $t$ represents the number of payments, not 200 &mdash; wrong.</li></ul>"
+      "title": "Interpret the coefficient 240",
+      "content": "In $240t$, the factor 240 is multiplied by $t$ (the number of payments), giving the total from monthly payments. Therefore 240 is the dollar amount of each individual monthly payment.<ul><li><strong>The amount, in dollars, of each fixed monthly payment</strong> is correct.</li><li><strong>C (total amount paid after t payments):</strong> The total from payments is $240t$ (the whole product), not just the coefficient 240 &mdash; wrong.</li><li><strong>D (total number of fixed monthly payments):</strong> $t$ represents the number of payments, not 240 &mdash; wrong.</li></ul>"
     }
   ]
 }

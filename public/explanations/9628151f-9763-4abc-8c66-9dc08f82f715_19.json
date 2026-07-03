@@ -9,15 +9,15 @@
     },
     {
       "title": "Identify the right angle and triangle structure",
-      "content": "Since angles $A$ and $B$ are acute in right triangle $ABC$, the right angle must be at $C$. This makes $AC$ and $BC$ the two legs of the triangle."
+      "content": "Since angles $D$ and $E$ are acute in right triangle $DEF$, the right angle must be at $F$. This makes $DF$ and $EF$ the two legs of the triangle."
     },
     {
-      "title": "Set up the tangent ratio for angle B",
-      "content": "For angle $B$ in a right triangle:<br/>$$\\tan B = \\frac{\\text{opposite}}{\\text{adjacent}} = \\frac{AC}{BC}$$<br/>Substituting the known values $\\tan B = \\frac{1}{7}$ and $AC = 23.2$:<br/>$$\\frac{1}{7} = \\frac{23.2}{BC}$$"
+      "title": "Set up the tangent ratio for angle E",
+      "content": "For angle $E$ in a right triangle:<br/>$$\\tan E = \\frac{\\text{opposite}}{\\text{adjacent}} = \\frac{DF}{EF}$$<br/>Substituting the known values $\\tan E = \\frac{1}{6}$ and $DF = 18.6$:<br/>$$\\frac{1}{6} = \\frac{18.6}{EF}$$"
     },
     {
-      "title": "Solve for BC by cross-multiplying",
-      "content": "$$BC = 23.2 \\times 7 = 162.4$$<br/>That confirms <strong>B</strong> is correct."
+      "title": "Solve for EF by cross-multiplying",
+      "content": "$$EF = 18.6 \\times 6 = 111.6$$<br/>That confirms <strong>B</strong> is correct."
     }
   ]
 }

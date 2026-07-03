@@ -1,19 +1,19 @@
 {
   "questionId": "5ae186b4",
-  "correctAnswer": "-9",
+  "correctAnswer": "-12",
   "section": "Math",
   "steps": [
     {
       "title": "Clear the denominator",
-      "content": "The equation is $\\dfrac{-54}{w}=6$, and $w$ cannot be $0$. Multiply both sides by $w$ to remove the denominator: $$-54=6w.$$"
+      "content": "The equation is $\\dfrac{-72}{w}=6$, and $w$ cannot be $0$. Multiply both sides by $w$ to remove the denominator: $$-72=6w.$$"
     },
     {
       "title": "Solve for $w$",
-      "content": "Divide both sides by $6$: $$w=-9.$$"
+      "content": "Divide both sides by $6$: $$w=-12.$$"
     },
     {
       "title": "Check the solution",
-      "content": "Substitute $w=-9$ into the original equation: $$\\dfrac{-54}{-9}=6.$$ The equation is true, so the solution is <strong>-9</strong>."
+      "content": "Substitute $w=-12$ into the original equation: $$\\dfrac{-72}{-12}=6.$$ The equation is true, so the solution is <strong>-12</strong>."
     }
   ]
 }

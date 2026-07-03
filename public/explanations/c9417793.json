@@ -1,19 +1,19 @@
 {
   "questionId": "c9417793",
-  "correctAnswer": "18",
+  "correctAnswer": "16",
   "section": "Math",
   "steps": [
     {
       "title": "Isolate the absolute value",
-      "content": "Subtract $45$ from both sides: $$|x-9|=18.$$"
+      "content": "Subtract $37$ from both sides: $$|x-8|=16.$$"
     },
     {
       "title": "Use the symmetry shortcut",
-      "content": "The equation $|x-9|=18$ has solutions $18$ units away from $9$: $$x=9+18=27 \\quad \\text{and} \\quad x=9-18=-9.$$"
+      "content": "The equation $|x-8|=16$ has solutions $16$ units away from $8$: $$x=8+16=24 \\quad \\text{and} \\quad x=8-16=-8.$$"
     },
     {
       "title": "Sum the solutions",
-      "content": "$$27+(-9)=18.$$ Shortcut: the solutions are centered at $9$, so their sum is $2(9)=18$. The answer is <strong>18</strong>."
+      "content": "$$24+(-8)=16.$$ Shortcut: the solutions are centered at $8$, so their sum is $2(8)=16$. The answer is <strong>16</strong>."
     }
   ]
 }

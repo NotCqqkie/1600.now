@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Expand the given expression",
-      "content": "Use $(x+2)^2=x^2+4x+4$. Since $(x+2)^2=18$, we have $x^2+4x+4=18$."
+      "content": "Use $(x+3)^2=x^2+6x+9$. Since $(x+3)^2=28$, we have $x^2+6x+9=28$."
     },
     {
       "title": "Isolate the requested value",
-      "content": "Subtract $4$ from both sides: $x^2+4x=14$."
+      "content": "Subtract $9$ from both sides: $x^2+6x=19$."
     },
     {
       "title": "Match the choice",
-      "content": "The value of $x^2+4x$ is $14$, which matches <strong>Choice A &mdash; $14$</strong>."
+      "content": "The value of $x^2+6x$ is $19$, which matches <strong>Choice A &mdash; $19$</strong>."
     },
     {
       "title": "Use the requested expression directly",
-      "content": "There is no need to solve for $x$. The expansion already contains the exact expression the question asks for, $x^2+4x$, so subtracting $4$ gives the answer immediately."
+      "content": "There is no need to solve for $x$. The expansion already contains the exact expression the question asks for, $x^2+6x$, so subtracting $9$ gives the answer immediately."
     }
   ]
 }

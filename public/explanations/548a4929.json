@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find the x-intercept by setting h(x) = 0",
-      "content": "The x-intercept occurs where $y = h(x) = 0$. Set up the equation:<br/>$$4x + 28 = 0$$<br/>$$4x = -28$$<br/>$$x = -7$$<br/>So $a = -7$."
+      "content": "The x-intercept occurs where $y = h(x) = 0$. Set up the equation:<br/>$$5x + 35 = 0$$<br/>$$5x = -35$$<br/>$$x = -7$$<br/>So $a = -7$."
     },
     {
       "title": "Find the y-intercept and compute the sum",
-      "content": "The y-intercept occurs at $x = 0$:<br/>$$h(0) = 4(0) + 28 = 28$$<br/>So $b = 28$.<br/><br/>Add the intercepts:<br/>$$a + b = -7 + 28 = 21$$<br/><strong>A</strong> is correct."
+      "content": "The y-intercept occurs at $x = 0$:<br/>$$h(0) = 5(0) + 35 = 35$$<br/>So $b = 35$.<br/><br/>Add the intercepts:<br/>$$a + b = -7 + 35 = 28$$<br/><strong>A</strong> is correct."
     }
   ]
 }

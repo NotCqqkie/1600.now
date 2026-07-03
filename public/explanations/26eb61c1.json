@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>C</strong>, $6{x}^{2}{y}^{2} \\left({x}^{6}+2\\right)$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>C</strong>, $5{x}^{4}{y}^{3} \\left({x}^{5}+3\\right)$."
     },
     {
       "title": "Algebra check",
@@ -13,11 +13,11 @@
     },
     {
       "title": "Factor the expression",
-      "content": "Factor $6x^8y^2 + 12x^2y^2$ by pulling out the greatest common factor. Both terms share $6x^2y^2$: $6x^8y^2 + 12x^2y^2 = 6x^2y^2(x^6 + 2)$."
+      "content": "Factor $5x^9y^3 + 15x^4y^3$ by pulling out the greatest common factor. Both terms share $5x^4y^3$: $5x^9y^3 + 15x^4y^3 = 5x^4y^3(x^5 + 3)$."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; $6{x}^{2}{y}^{2} \\left(2{x}^{6}\\right)$</strong>: Expanding gives $12x^8y^2$, which is missing the $12x^2y^2$ term entirely. &#10007;</li><li><strong>Choice B &mdash; $6{x}^{2}{y}^{2} \\left({x}^{4}\\right)$</strong>: Expanding gives $6x^6y^2$, which matches neither term of the original expression. &#10007;</li><li><strong>Choice C &mdash; $6{x}^{2}{y}^{2} \\left({x}^{6}+2\\right)$</strong>: Expanding gives $6x^8y^2 + 12x^2y^2$ &mdash; exactly the original expression. &#10003;</li><li><strong>Choice D &mdash; $6{x}^{2}{y}^{2} \\left({x}^{4}+2\\right)$</strong>: Expanding gives $6x^6y^2 + 12x^2y^2$, but the original has $x^8$, not $x^6$. &#10007;</li></ul>That matches <strong>Choice C &mdash; $6{x}^{2}{y}^{2} \\left({x}^{6}+2\\right)$</strong>."
+      "content": "<ul><li><strong>Choice A &mdash; $5{x}^{4}{y}^{3} \\left(3{x}^{5}\\right)$</strong>: Expanding gives $15x^9y^3$, which is missing the $15x^4y^3$ term entirely. &#10007;</li><li><strong>Choice B &mdash; $5{x}^{4}{y}^{3} \\left({x}^{3}\\right)$</strong>: Expanding gives $5x^7y^3$, which matches neither term of the original expression. &#10007;</li><li><strong>Choice C &mdash; $5{x}^{4}{y}^{3} \\left({x}^{5}+3\\right)$</strong>: Expanding gives $5x^9y^3 + 15x^4y^3$ &mdash; exactly the original expression. &#10003;</li><li><strong>Choice D &mdash; $5{x}^{4}{y}^{3} \\left({x}^{3}+3\\right)$</strong>: Expanding gives $5x^7y^3 + 15x^4y^3$, but the original has $x^9$, not $x^7$. &#10007;</li></ul>That matches <strong>Choice C &mdash; $5{x}^{4}{y}^{3} \\left({x}^{5}+3\\right)$</strong>."
     }
   ]
 }

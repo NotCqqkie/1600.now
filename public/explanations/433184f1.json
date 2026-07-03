@@ -4,7 +4,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $\\frac{9}{ \\left(x+1\\right) \\left(4x-5\\right)}$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $\\frac{13}{ \\left(x+1\\right) \\left(6x-7\\right)}$."
     },
     {
       "title": "Algebra check",
@@ -12,15 +12,15 @@
     },
     {
       "title": "Step 1",
-      "content": "Find a common denominator for $\\frac{4}{4x-5} - \\frac{1}{x+1}$. The LCD is $(4x-5)(x+1)$."
+      "content": "Find a common denominator for $\\frac{6}{6x-7} - \\frac{1}{x+1}$. The LCD is $(6x-7)(x+1)$."
     },
     {
       "title": "Step 2",
-      "content": "Rewrite each fraction: $\\frac{4(x+1)}{(4x-5)(x+1)} - \\frac{(4x-5)}{(x+1)(4x-5)}$."
+      "content": "Rewrite each fraction: $\\frac{6(x+1)}{(6x-7)(x+1)} - \\frac{(6x-7)}{(x+1)(6x-7)}$."
     },
     {
       "title": "Step 3",
-      "content": "Combine numerators: $4(x+1) - (4x-5) = 4x+4-4x+5 = 9$. Result: $\\frac{9}{(x+1)(4x-5)}$."
+      "content": "Combine numerators: $6(x+1) - (6x-7) = 6x+6-6x+7 = 13$. Result: $\\frac{13}{(x+1)(6x-7)}$, which matches <strong>Choice D</strong>."
     }
   ],
   "correctAnswer": "D",

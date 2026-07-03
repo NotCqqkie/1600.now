@@ -1,15 +1,15 @@
 {
   "questionId": "4b09f783",
-  "correctAnswer": "10",
+  "correctAnswer": "11",
   "section": "Math",
   "steps": [
     {
       "title": "Calculate the mean",
-      "content": "Add the ten values, then divide by the number of values. The values sum to $100$, and there are $10$ values, so the mean is $$\\frac{100}{10}=10.$$"
+      "content": "Add the ten values, then divide by the number of values. The values sum to $110$, and there are $10$ values, so the mean is $$\\frac{110}{10}=11.$$"
     },
     {
       "title": "Confirm the answer",
-      "content": "The mean of the list is $10$, so the answer is <strong>10</strong>."
+      "content": "The mean of the list is $11$, so the answer is <strong>11</strong>."
     }
   ]
 }

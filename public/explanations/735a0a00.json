@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Interpret the ordered pair (1, 83) in context",
-      "content": "In the equation, $x$ represents days after product launch and $y$ represents estimated stock price in dollars.<br/><br/>The point $(x, y) = (1, 83)$ directly translates to: when $x = 1$ (1 day after launch), the stock price is $y = 83$ dollars.<br/><br/>Therefore, 1 day after the new product launched, the company's estimated stock price is \\$83. That confirms <strong>C</strong> is correct."
+      "title": "Interpret the ordered pair (2, 77) in context",
+      "content": "In the equation, $x$ represents days after product launch and $y$ represents estimated stock price in dollars.<br/><br/>The point $(x, y) = (2, 77)$ directly translates to: when $x = 2$ (2 days after launch), the stock price is $y = 77$ dollars.<br/><br/>Therefore, 2 days after the new product launched, the company's estimated stock price is \\$77. That confirms <strong>C</strong> is correct."
     }
   ]
 }

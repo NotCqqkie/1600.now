@@ -111,6 +111,35 @@ function outputPathFor(route) {
   return path.join(dist, `${route.replace(/^\/|\/$/g, "")}.html`);
 }
 
+// page.content() captures the modulepreload links Vite injects at runtime for
+// dynamically imported chunks, which bakes lazy-loaded chunks into the HTML as
+// eager preloads. Strip preloads for heavy chunks that load on demand anyway
+// (practice-set data everywhere; the home page's below-the-fold demo graph) so
+// they stop competing with the critical path. Stylesheet links are kept — the
+// captured body needs them to paint correctly before hydration.
+const HEAVY_LAZY_CHUNK_PATTERN =
+  /\/assets\/(?:bank-practice-set-|bank-data-past-|bank-data-unofficial-|pastQuestionDifficultyMap)/;
+const HOME_DEMO_CHUNK_PATTERN =
+  /\/assets\/(?:Question-|questionBank-|mathRendering-|bank-data-images|bank-data-hidden|bank-categories)/;
+
+function pruneHeavyPreloads(html, route) {
+  const pruned = html.replace(/<link\b[^>]*rel="modulepreload"[^>]*>/g, (linkTag) => {
+    const href = linkTag.match(/href="([^"]*)"/)?.[1] ?? "";
+    if (HEAVY_LAZY_CHUNK_PATTERN.test(href)) return "";
+    if (route === "/" && HOME_DEMO_CHUNK_PATTERN.test(href)) return "";
+    return linkTag;
+  });
+
+  // The home snapshot contains no KaTeX markup (the demo's math renders after
+  // the lazy mathRendering module resolves), so its runtime-captured KaTeX
+  // stylesheet link would only block first paint. The chunk re-injects the
+  // stylesheet when it loads.
+  if (route !== "/") return pruned;
+  return pruned.replace(/<link\b[^>]*rel="stylesheet"[^>]*>/g, (linkTag) =>
+    /\/assets\/mathRendering-[^"]*\.css/.test(linkTag) ? "" : linkTag,
+  );
+}
+
 async function main() {
   if (!existsSync(dist)) {
     console.error("dist/ not found. Run `npm run build` first.");
@@ -181,7 +210,7 @@ async function main() {
     const html = await page.content();
     const out = outputPathFor(route);
     mkdirSync(path.dirname(out), { recursive: true });
-    writeFileSync(out, html);
+    writeFileSync(out, pruneHeavyPreloads(html, route));
   }
 
   async function runBatch(batchRoutes, concurrency, attempt) {

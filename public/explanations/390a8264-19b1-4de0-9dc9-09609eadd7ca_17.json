@@ -1,15 +1,15 @@
 {
   "questionId": "390a8264-19b1-4de0-9dc9-09609eadd7ca_17",
-  "correctAnswer": "29",
+  "correctAnswer": "25",
   "section": "Math",
   "steps": [
     {
       "title": "Use the y-intercept to find b",
-      "content": "At the $y$-intercept, $x = 0$ and $y = -20$:<br/>$$a^0 + b = -20$$<br/>$$1 + b = -20$$<br/>$$b = -21$$"
+      "content": "At the $y$-intercept, $x = 0$ and $y = -17$:<br/>$$a^0 + b = -17$$<br/>$$1 + b = -17$$<br/>$$b = -18$$"
     },
     {
       "title": "Find a and calculate a - b",
-      "content": "Using the point $(2, 43)$:<br/>$$a^2 + b = 43$$<br/>Substitute $b = -21$:<br/>$$a^2 - 21 = 43$$<br/>$$a^2 = 64$$<br/>Since $a \\gt  0$: $a = 8$<br/><br/>Therefore:<br/>$$a - b = 8 - (-21) = 29$$"
+      "content": "Using the point $(2, 31)$:<br/>$$a^2 + b = 31$$<br/>Substitute $b = -18$:<br/>$$a^2 - 18 = 31$$<br/>$$a^2 = 49$$<br/>Since $a \\gt  0$: $a = 7$<br/><br/>Therefore:<br/>$$a - b = 7 - (-18) = 25$$"
     }
   ]
 }

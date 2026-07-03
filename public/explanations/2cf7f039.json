@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set the function equal to 48",
-      "content": "The function is $f(x)=8\\sqrt{x}$, and the question asks when $f(x)=48$. So solve $$8\\sqrt{x}=48$$"
+      "title": "Set the function equal to 35",
+      "content": "The function is $f(x)=7\\sqrt{x}$, and the question asks when $f(x)=35$. So solve $$7\\sqrt{x}=35$$"
     },
     {
       "title": "Solve for x",
-      "content": "Divide by $8$: $$\\sqrt{x}=6$$ Square both sides: $$x=36$$"
+      "content": "Divide by $7$: $$\\sqrt{x}=5$$ Square both sides: $$x=25$$"
     },
     {
       "title": "Check the choices",
-      "content": "The correct answer is $36$. It checks because $8\\sqrt{36}=8(6)=48$. The other choices do not make the function equal $48$."
+      "content": "The correct answer is $25$, which is <strong>Choice C</strong>. It checks because $7\\sqrt{25}=7(5)=35$. The other choices do not make the function equal $35$."
     }
   ]
 }

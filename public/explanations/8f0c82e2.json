@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Translate the phrase into an expression",
-      "content": "&quot;12 less than 6 times $n$&quot; means $6n - 12$. This is the minimum value of $x$."
+      "content": "&quot;15 less than 8 times $n$&quot; means $8n - 15$. This is the minimum value of $x$."
     },
     {
       "title": "Write the inequality",
-      "content": "If $6n - 12$ is the minimum value of $x$, then $x$ must be greater than or equal to it: $x \\ge 6n - 12$."
+      "content": "If $8n - 15$ is the minimum value of $x$, then $x$ must be greater than or equal to it: $x \\ge 8n - 15$."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li>A. $x \\le 6n - 12$ &mdash; this would make $6n - 12$ the maximum, not the minimum; incorrect.</li><li>B. $x \\ge 6n - 12$ &mdash; matches our derivation.</li><li>C. $x \\le 12 - 6n$ &mdash; wrong expression and wrong direction; incorrect.</li><li>D. $x \\ge 12 - 6n$ &mdash; the expression $12 - 6n$ reverses the phrase; incorrect.</li></ul>That confirms <strong>B</strong> is correct."
+      "content": "<ul><li>A. $x \\le 8n - 15$ &mdash; this would make $8n - 15$ the maximum, not the minimum; incorrect.</li><li>B. $x \\ge 8n - 15$ &mdash; matches our derivation.</li><li>C. $x \\le 15 - 8n$ &mdash; wrong expression and wrong direction; incorrect.</li><li>D. $x \\ge 15 - 8n$ &mdash; the expression $15 - 8n$ reverses the phrase; incorrect.</li></ul>That confirms <strong>B</strong> is correct."
     }
   ]
 }

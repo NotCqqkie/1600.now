@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Factor out GCD first",
-      "content": "The expression $7290x^4 - 1440$ shares a common factor of 90. Factoring this out: $$7290x^4 - 1440 = 90(81x^4 - 16)$$<br/>This reduces the problem to analyzing $81x^4 - 16$."
+      "content": "The expression $7680x^4 - 2430$ shares a common factor of 30. Factoring this out: $$7680x^4 - 2430 = 30(256x^4 - 81)$$<br/>This reduces the problem to analyzing $256x^4 - 81$."
     },
     {
       "title": "Difference of squares decomposition",
-      "content": "Recognize $81x^4$ as $(9x^2)^2$ and $16$ as $4^2$. Apply the difference of squares formula: $$81x^4 - 16 = (9x^2)^2 - 4^2 = (9x^2 - 4)(9x^2 + 4)$$<br/>Now $9x^2 - 4$ can be further factored as $$(9x^2 - 4) = (3x - 2)(3x + 2)$$<br/>Full factorization: $$90(3x - 2)(3x + 2)(9x^2 + 4)$$"
+      "content": "Recognize $256x^4$ as $(16x^2)^2$ and $81$ as $9^2$. Apply the difference of squares formula: $$256x^4 - 81 = (16x^2)^2 - 9^2 = (16x^2 - 9)(16x^2 + 9)$$<br/>Now $16x^2 - 9$ can be further factored as $$(16x^2 - 9) = (4x - 3)(4x + 3)$$<br/>Full factorization: $$30(4x - 3)(4x + 3)(16x^2 + 9)$$"
     },
     {
       "title": "Compare to answer choices",
-      "content": "The factor $9x^{2}+4$ matches one factor, and $3x+2$ and $90$ are also directly present. The expression $3x^{2}-2$ never appears in the valid factorization. <strong>B</strong> is correct."
+      "content": "The factor $16x^{2}+9$ matches one factor, and $4x+3$ and $30$ are also directly present. The expression $4x^{2}-3$ never appears in the valid factorization. <strong>B</strong> is correct."
     }
   ]
 }

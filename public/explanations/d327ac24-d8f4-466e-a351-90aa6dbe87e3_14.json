@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Evaluate each function at x = 4",
-      "content": "Substitute $x=4$: $f(4)=4+5=9$ and $g(4)=5(4)=20$."
+      "title": "Evaluate each function at x = 3",
+      "content": "Substitute $x=3$: $f(3)=3+6=9$ and $g(3)=4(3)=12$."
     },
     {
       "title": "Combine and compute",
-      "content": "$$7f(4)-g(4)=7(9)-20=63-20=43$$"
+      "content": "$$8f(3)-g(3)=8(9)-12=72-12=60$$"
     },
     {
       "title": "Keep the order clear",
-      "content": "The expression asks for $7f(4)-g(4)$, so multiply $f(4)$ by $7$ before subtracting $g(4)$. Do not multiply the whole difference by $7$."
+      "content": "The expression asks for $8f(3)-g(3)$, so multiply $f(3)$ by $8$ before subtracting $g(3)$. Do not multiply the whole difference by $8$."
     },
     {
       "title": "Confirm the answer",
-      "content": "The computed value is $43$, which matches <strong>D</strong>."
+      "content": "The computed value is $60$, which matches <strong>D</strong>."
     }
   ]
 }

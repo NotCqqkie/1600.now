@@ -9,15 +9,15 @@
     },
     {
       "title": "Find the width using the given base area",
-      "content": "The base area is the product of length and width. Given base area = $28p$ and length = 12:<br/>$$12w = 28p$$<br/>$$w = \\frac{28p}{12} = \\frac{7p}{3}$$<br/>The prism has dimensions: length = 12 cm, width = $\\frac{7p}{3}$ cm, height = 4 cm."
+      "content": "The base area is the product of length and width. Given base area = $35p$ and length = 15:<br/>$$15w = 35p$$<br/>$$w = \\frac{35p}{15} = \\frac{7p}{3}$$<br/>The prism has dimensions: length = 15 cm, width = $\\frac{7p}{3}$ cm, height = 5 cm."
     },
     {
       "title": "Apply the surface area formula for a rectangular prism",
-      "content": "For a rectangular prism, $SA = 2(lw + lh + wh)$. Calculate each product:<br/>$$lw = 12 \\cdot \\frac{7p}{3} = 28p$$<br/>$$lh = 12 \\cdot 4 = 48$$<br/>$$wh = \\frac{7p}{3} \\cdot 4 = \\frac{28p}{3}$$"
+      "content": "For a rectangular prism, $SA = 2(lw + lh + wh)$. Calculate each product:<br/>$$lw = 15 \\cdot \\frac{7p}{3} = 35p$$<br/>$$lh = 15 \\cdot 5 = 75$$<br/>$$wh = \\frac{7p}{3} \\cdot 5 = \\frac{35p}{3}$$"
     },
     {
       "title": "Simplify to find the surface area",
-      "content": "Substitute into the formula:<br/>$$SA = 2\\left(28p + 48 + \\frac{28p}{3}\\right)$$<br/>$$SA = 56p + 96 + \\frac{56p}{3}$$<br/>Combine the $p$ terms: $56p = \\frac{168p}{3}$, so:<br/>$$SA = \\frac{168p}{3} + \\frac{56p}{3} + 96 = \\frac{224p}{3} + 96$$<br/>That confirms <strong>B</strong> is correct."
+      "content": "Substitute into the formula:<br/>$$SA = 2\\left(35p + 75 + \\frac{35p}{3}\\right)$$<br/>$$SA = 70p + 150 + \\frac{70p}{3}$$<br/>Combine the $p$ terms: $70p = \\frac{210p}{3}$, so:<br/>$$SA = \\frac{210p}{3} + \\frac{70p}{3} + 150 = \\frac{280p}{3} + 150$$<br/>That confirms <strong>B</strong> is correct."
     }
   ]
 }

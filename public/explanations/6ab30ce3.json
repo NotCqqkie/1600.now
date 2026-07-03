@@ -17,7 +17,7 @@
     },
     {
       "title": "Apply the 30–60–90 side ratio",
-      "content": "In a $30^{\\circ}$–$60^{\\circ}$–$90^{\\circ}$ triangle, the sides opposite those angles are in ratio $1: \\sqrt{3}: 2$.<br/><br/>In triangle $DEF$, side $DF$ is opposite the $30^{\\circ}$ angle at $E$, and side $DE$ is opposite the $90^{\\circ}$ angle at $F$.<br/><br/>Therefore $DF: DE = 1: 2$. With $DF = 125$, we have $DE = 2 \\times 125 = 250$.<br/>That confirms <strong>D</strong> is correct.",
+      "content": "In a $30^{\\circ}$–$60^{\\circ}$–$90^{\\circ}$ triangle, the sides opposite those angles are in ratio $1: \\sqrt{3}: 2$.<br/><br/>In triangle $DEF$, side $DF$ is opposite the $30^{\\circ}$ angle at $E$, and side $DE$ is opposite the $90^{\\circ}$ angle at $F$.<br/><br/>Therefore $DF: DE = 1: 2$. With $DF = 130$, we have $DE = 2 \\times 130 = 260$.<br/>That confirms <strong>D</strong> is correct.",
       "formula": "$$1: \\sqrt{3}: 2 \\text{ (sides opposite } 30^{\\circ}, 60^{\\circ}, 90^{\\circ} \\text{)}$$"
     }
   ]

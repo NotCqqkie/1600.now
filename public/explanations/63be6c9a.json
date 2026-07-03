@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Read slope from the parallel line",
-      "content": "Line $s$ is parallel to $y = 18x + 2$. Parallel lines have equal slopes, so slope of $s$ $= 18$."
+      "content": "Line $s$ is parallel to $y = 15x + 4$. Parallel lines have equal slopes, so slope of $s$ $= 15$."
     },
     {
-      "title": "Write line s through the origin and evaluate at x = 4",
-      "content": "Line $s$ passes through $(0, 0)$ with slope $18$: $y = 18x$. Substitute $x = 4$: $d = 18 \\times 4 = 72$. That confirms <strong>C</strong> is correct."
+      "title": "Write line s through the origin and evaluate at x = 5",
+      "content": "Line $s$ passes through $(0, 0)$ with slope $15$: $y = 15x$. Substitute $x = 5$: $d = 15 \\times 5 = 75$. That confirms <strong>C</strong> is correct."
     }
   ]
 }

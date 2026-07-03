@@ -1,23 +1,23 @@
 {
   "questionId": "b5883220-eb88-4f6b-8d82-979efee65d2d_13",
-  "correctAnswer": "11",
+  "correctAnswer": "9",
   "section": "Math",
   "steps": [
     {
       "title": "Find the slope of line s",
-      "content": "Rewrite $8x+2y=0$ in slope-intercept form: $$2y=-8x$$ $$y=-4x.$$ So line $s$ has slope $-4$."
+      "content": "Rewrite $6x+2y=0$ in slope-intercept form: $$2y=-6x$$ $$y=-3x.$$ So line $s$ has slope $-3$."
     },
     {
       "title": "Use the perpendicular slope",
-      "content": "A line perpendicular to slope $-4$ has slope equal to the negative reciprocal, which is $\\frac{1}{4}$. Line $t$ passes through $(6,0)$, so its equation is $$y=\\frac{1}{4}(x-6).$$"
+      "content": "A line perpendicular to slope $-3$ has slope equal to the negative reciprocal, which is $\\frac{1}{3}$. Line $t$ passes through $(5,0)$, so its equation is $$y=\\frac{1}{3}(x-5).$$"
     },
     {
       "title": "Use the given y-value",
-      "content": "The other point on line $t$ is $(k,\\frac{5}{4})$, so plug in $y=\\frac{5}{4}$: $$\\frac{5}{4}=\\frac{1}{4}(k-6).$$ Multiply by $4$ to get $5=k-6$, so $k=11$."
+      "content": "The other point on line $t$ is $(k,\\frac{4}{3})$, so plug in $y=\\frac{4}{3}$: $$\\frac{4}{3}=\\frac{1}{3}(k-5).$$ Multiply by $3$ to get $4=k-5$, so $k=9$."
     },
     {
       "title": "Check the point",
-      "content": "At $x=11$, the line $y=\\frac{1}{4}(x-6)$ gives $y=\\frac{1}{4}(5)=\\frac{5}{4}$. Therefore the point is $(11,\\frac{5}{4})$, and the value of $k$ is <strong>11</strong>."
+      "content": "At $x=9$, the line $y=\\frac{1}{3}(x-5)$ gives $y=\\frac{1}{3}(4)=\\frac{4}{3}$. Therefore the point is $(9,\\frac{4}{3})$, and the value of $k$ is <strong>9</strong>."
     }
   ]
 }

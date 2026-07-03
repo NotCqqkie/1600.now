@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Find the enlargement factor",
-      "content": "The new side length is 90% longer than the original: $$55 \\text{ inches} \\times (1 + 0.90) = 55 \\times 1.9 = 104.5 \\text{ inches}$$<br/>The map has been enlarged by a linear factor of <strong>1.9</strong>."
+      "content": "The new side length is 80% longer than the original: $$60 \\text{ inches} \\times (1 + 0.80) = 60 \\times 1.8 = 108 \\text{ inches}$$<br/>The map has been enlarged by a linear factor of <strong>1.8</strong>."
     },
     {
       "title": "Recognize the inverse scale relationship",
-      "content": "The enlarged map represents the <strong>same geographic region</strong> as the original, just printed larger.<br/><br/>The original map's side length (55 inches) corresponds to $$55 \\times 13 = 715 \\text{ miles}$$<br/>The enlarged map shows this same 715-mile region in 104.5 inches, so the new scale is $$\\frac{715 \\text{ miles}}{104.5 \\text{ inches}} = \\frac{13}{1.9} \\text{ miles per inch}$$"
+      "content": "The enlarged map represents the <strong>same geographic region</strong> as the original, just printed larger.<br/><br/>The original map's side length (60 inches) corresponds to $$60 \\times 12 = 720 \\text{ miles}$$<br/>The enlarged map shows this same 720-mile region in 108 inches, so the new scale is $$\\frac{720 \\text{ miles}}{108 \\text{ inches}} = \\frac{12}{1.8} \\text{ miles per inch}$$"
     },
     {
       "title": "Calculate the new scale",
-      "content": "$$\\frac{13}{1.9} = 6.842...$$, which rounds to 6.84 miles per inch. That is the correct answer."
+      "content": "$$\\frac{12}{1.8} = 6.666...$$, which rounds to 6.67 miles per inch. That is the correct answer."
     }
   ]
 }

@@ -1,17 +1,17 @@
 {
   "questionId": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_8",
-  "correctAnswer": "5.94",
+  "correctAnswer": "11.52",
   "section": "Math",
   "steps": [
     {
       "title": "Calculate the volume of the cube",
       "formula": "$$V = s^3$$",
-      "content": "With edge length 3.000 cm:<br/>$$V = (3.000)^3 = 27.000 \\text{ cm}^3$$"
+      "content": "With edge length 4.000 cm:<br/>$$V = (4.000)^3 = 64.000 \\text{ cm}^3$$"
     },
     {
       "title": "Apply the density formula to find mass",
       "formula": "$$\\text{mass} = \\text{density} \\times \\text{volume}$$",
-      "content": "Substitute the given density and calculated volume:<br/>$$\\text{mass} = 0.220 \\text{ g/cm}^3 \\times 27.000 \\text{ cm}^3 = 5.94 \\text{ g}$$<br/>The mass of the cube is <strong>5.94 grams</strong>."
+      "content": "Substitute the given density and calculated volume:<br/>$$\\text{mass} = 0.180 \\text{ g/cm}^3 \\times 64.000 \\text{ cm}^3 = 11.52 \\text{ g}$$<br/>The mass of the cube is <strong>11.52 grams</strong>."
     }
   ]
 }

@@ -9,11 +9,11 @@
     },
     {
       "title": "Analyze function I on the domain $x \\gt 0$",
-      "content": "For $f(x) = 18(1.4)^{x+5}$:<ul><li>The base is $1.4 \\gt 1$, so this is an exponential growth function</li><li>As $x$ increases from just above 0, the exponent $x + 5$ increases, making $(1.4)^{x+5}$ larger</li><li>Therefore $f(x)$ is strictly increasing on $(0, \\infty)$ with no actual minimum</li><li>The infimum (greatest lower bound) is $\\lim_{x \\to 0^+} 18(1.4)^{x+5} = 18(1.4)^5 \\approx 96.8$</li></ul>The displayed coefficients are 18, 1.4, and 5. The infimum 96.8 is not one of these."
+      "content": "For $f(x) = 20(1.3)^{x+4}$:<ul><li>The base is $1.3 \\gt 1$, so this is an exponential growth function</li><li>As $x$ increases from just above 0, the exponent $x + 4$ increases, making $(1.3)^{x+4}$ larger</li><li>Therefore $f(x)$ is strictly increasing on $(0, \\infty)$ with no actual minimum</li><li>The infimum (greatest lower bound) is $\\lim_{x \\to 0^+} 20(1.3)^{x+4} = 20(1.3)^4 \\approx 57.1$</li></ul>The displayed coefficients are 20, 1.3, and 4. The infimum 57.1 is not one of these."
     },
     {
       "title": "Analyze function II on the domain $x \\gt 0$",
-      "content": "For $g(x) = 18(1.16)(1.4)^{x+3}$:<ul><li>The base is again $1.4 \\gt 1$, so this is also exponential growth</li><li>For $x \\gt 0$, the exponent $x + 3$ increases, so the function increases</li><li>This function is also strictly increasing on $(0, \\infty)$ with no actual minimum</li><li>The infimum is $\\lim_{x \\to 0^+} 18(1.16)(1.4)^{x+3} = 18(1.16)(1.4)^3 \\approx 57.3$</li></ul>The displayed coefficients are 18, 1.16, 1.4, and 3. The infimum 57.3 is not one of these."
+      "content": "For $g(x) = 20(1.12)(1.3)^{x+2}$:<ul><li>The base is again $1.3 \\gt 1$, so this is also exponential growth</li><li>For $x \\gt 0$, the exponent $x + 2$ increases, so the function increases</li><li>This function is also strictly increasing on $(0, \\infty)$ with no actual minimum</li><li>The infimum is $\\lim_{x \\to 0^+} 20(1.12)(1.3)^{x+2} = 20(1.12)(1.3)^2 \\approx 37.9$</li></ul>The displayed coefficients are 20, 1.12, 1.3, and 2. The infimum 37.9 is not one of these."
     },
     {
       "title": "Conclusion: neither equation displays its minimum as a coefficient",

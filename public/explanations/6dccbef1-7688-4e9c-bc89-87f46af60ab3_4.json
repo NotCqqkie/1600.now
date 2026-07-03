@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Turn the facts into points",
-      "content": "A linear profit function is determined by two points. The profit is $170$ when $x=4$ and $590$ when $x=10$, so use $(4,170)$ and $(10,590)$."
+      "content": "A linear profit function is determined by two points. The profit is $330$ when $x=6$ and $780$ when $x=12$, so use $(6,330)$ and $(12,780)$."
     },
     {
       "title": "Find the line from the data",
-      "content": "Use the two points directly. From $(4,170)$ to $(10,590)$, the slope is $$m=\\frac{590-170}{10-4}=70.$$ Substitute $(4,170)$ into $y=70x+b$: $$170=70(4)+b$$ $$b=-110$$ So $f(x)=70x-110$."
+      "content": "Use the two points directly. From $(6,330)$ to $(12,780)$, the slope is $$m=\\frac{780-330}{12-6}=75.$$ Substitute $(6,330)$ into $y=75x+b$: $$330=75(6)+b$$ $$b=-120$$ So $f(x)=75x-120$."
     },
     {
       "title": "Confirm the choice",
-      "content": "<strong>D</strong> is correct. It checks both points: $70(4)-110=170$ and $70(10)-110=590$. The other choices fail at least one of those two point checks."
+      "content": "<strong>D</strong> is correct. It checks both points: $75(6)-120=330$ and $75(12)-120=780$. The other choices fail at least one of those two point checks."
     }
   ]
 }

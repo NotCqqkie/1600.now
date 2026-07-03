@@ -33,10 +33,6 @@ type FirestoreTimestampLike = {
   seconds: number;
 };
 
-type ReportData = Record<string, unknown> & {
-  counts?: Partial<Record<ReportReasonKey | "other", unknown>>;
-};
-
 export interface QuestionReport {
   questionId: string;
   counts: ReportCounts;
@@ -46,22 +42,6 @@ export interface QuestionReport {
 }
 
 const COLLECTION = "question_reports";
-const REPORT_REASON_KEYS = [...REPORT_REASONS.map((reason) => reason.key), "other"] as const;
-
-const normalizeReport = (data: ReportData): QuestionReport => {
-  const counts: ReportCounts = {};
-  for (const key of REPORT_REASON_KEYS) {
-    const nested = data.counts?.[key];
-    const legacy = data[`counts.${key}`];
-    const value = typeof nested === "number" ? nested : legacy;
-    if (typeof value === "number") counts[key] = value;
-  }
-
-  return {
-    ...(data as unknown as QuestionReport),
-    counts,
-  };
-};
 
 export const submitQuestionReport = async (args: {
   questionId: string;
@@ -77,14 +57,13 @@ export const submitQuestionReport = async (args: {
   }
 
   const ref = doc(db, COLLECTION, questionId);
-  const countsUpdate: Partial<Record<ReportReasonKey | "other", ReturnType<typeof increment>>> =
-    {};
-  for (const r of reasons) countsUpdate[r] = increment(1);
-  if (trimmedOther) countsUpdate.other = increment(1);
+  const countsUpdate: Record<string, unknown> = {};
+  for (const r of reasons) countsUpdate[`counts.${r}`] = increment(1);
+  if (trimmedOther) countsUpdate["counts.other"] = increment(1);
 
   const payload: Record<string, unknown> = {
     questionId,
-    counts: countsUpdate,
+    ...countsUpdate,
     totalReports: increment(1),
     lastReportedAt: serverTimestamp(),
   };
@@ -115,7 +94,7 @@ export const getQuestionReport = async (
   try {
     const snap = await getDoc(doc(db, COLLECTION, questionId));
     if (!snap.exists()) return null;
-    return normalizeReport(snap.data() as ReportData);
+    return snap.data() as QuestionReport;
   } catch (err) {
     if (err instanceof FirestoreError && err.code === "permission-denied") return null;
     throw err;
@@ -126,5 +105,5 @@ export const listQuestionReports = async (): Promise<QuestionReport[]> => {
   if (!db) return [];
   const reportsQuery = query(collection(db, COLLECTION), orderBy("lastReportedAt", "desc"));
   const snap = await getDocs(reportsQuery);
-  return snap.docs.map((docSnap) => normalizeReport(docSnap.data() as ReportData));
+  return snap.docs.map((docSnap) => docSnap.data() as QuestionReport);
 };

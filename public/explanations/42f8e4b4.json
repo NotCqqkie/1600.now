@@ -1,15 +1,15 @@
 {
   "questionId": "42f8e4b4",
-  "correctAnswer": "8",
+  "correctAnswer": "7",
   "section": "Math",
   "steps": [
     {
       "title": "Factor the polynomial",
-      "content": "Start by factoring out the greatest common factor: $$2x^3+42x^2+208x=2x(x^2+21x+104).$$ The quadratic factors because $8\\cdot13=104$ and $8+13=21$: $$2x(x^2+21x+104)=2x(x+8)(x+13).$$"
+      "content": "Start by factoring out the greatest common factor: $$2x^3+38x^2+168x=2x(x^2+19x+84).$$ The quadratic factors because $7\\cdot12=84$ and $7+12=19$: $$2x(x^2+19x+84)=2x(x+7)(x+12).$$"
     },
     {
       "title": "Convert roots to factors",
-      "content": "The negative roots $-8$ and $-13$ correspond to factors $x+8$ and $x+13$. Therefore the possible positive values of $b$ are $8$ and $13$. The smallest possible value is <strong>$8$</strong>."
+      "content": "The negative roots $-7$ and $-12$ correspond to factors $x+7$ and $x+12$. Therefore the possible positive values of $b$ are $7$ and $12$. The smallest possible value is <strong>$7$</strong>."
     }
   ]
 }

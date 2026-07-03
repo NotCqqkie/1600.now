@@ -5,12 +5,12 @@
   "steps": [
     {
       "title": "Use vertex symmetry to find the equation",
-      "content": "The factor $(x + 5.75)$ means one zero is at $x = -5.75$. There is another zero at $x = c$ (positive). For any parabola with zeros $r_1$ and $r_2$, the x-coordinate of the vertex is their midpoint. The vertex is at $(-1.75, -d)$, so:<br/>$$\\frac{-5.75 + c}{2} = -1.75$$",
+      "content": "The factor $(x + 6.50)$ means one zero is at $x = -6.50$. There is another zero at $x = c$ (positive). For any parabola with zeros $r_1$ and $r_2$, the x-coordinate of the vertex is their midpoint. The vertex is at $(-2.00, -d)$, so:<br/>$$\\frac{-6.50 + c}{2} = -2.00$$",
       "formula": "$$x_{vertex} = \\frac{r_1 + r_2}{2}$$"
     },
     {
       "title": "Solve for c",
-      "content": "Multiply both sides by 2:<br/>$$-5.75 + c = -3.5$$<br/>Add 5.75 to both sides:<br/>$$c = 2.25$$<br/>Since $2.25 \\gt  0$, this satisfies the constraint. That matches <strong>Choice B &mdash; 2.25</strong>- <strong>B</strong>."
+      "content": "Multiply both sides by 2:<br/>$$-6.50 + c = -4.00$$<br/>Add 6.50 to both sides:<br/>$$c = 2.50$$<br/>Since $2.50 \\gt  0$, this satisfies the constraint. That matches <strong>Choice B &mdash; 2.50</strong>- <strong>B</strong>."
     }
   ]
 }

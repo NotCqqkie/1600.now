@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Use corresponding angles",
-      "content": "In similar triangles, corresponding angles are congruent. Since $Z$ corresponds to $T$, angle $T$ has the same measure as angle $Z$."
+      "content": "In similar triangles, corresponding angles are congruent. Since $N$ corresponds to $R$, angle $R$ has the same measure as angle $N$."
     },
     {
       "title": "Corresponding angles in similar triangles are congruent",
-      "content": "Since triangle $XYZ$ is similar to triangle $RST$ with the correspondence $Z \\leftrightarrow T$, we apply the fundamental property of similar figures: <strong>corresponding angles are congruent</strong>. Therefore, $\\angle T = \\angle Z$."
+      "content": "Since triangle $LMN$ is similar to triangle $PQR$ with the correspondence $N \\leftrightarrow R$, we apply the fundamental property of similar figures: <strong>corresponding angles are congruent</strong>. Therefore, $\\angle R = \\angle N$."
     },
     {
       "title": "Substitute the given angle measure",
-      "content": "We're given that $\\angle Z = 20^{\\circ}$, so $\\angle T = 20^{\\circ}$. <br/><br/>Note: The condition $2XY = RS$ specifies that side lengths are in a ratio of $1:2$ (the scale factor), but angles in similar triangles are always equal regardless of size. The scale factor affects side lengths and areas, not angles.<br/><br/><strong>C</strong> is correct."
+      "content": "We're given that $\\angle N = 24^{\\circ}$, so $\\angle R = 24^{\\circ}$. <br/><br/>Note: The condition $3LM = PQ$ specifies that side lengths are in a ratio of $1:3$ (the scale factor), but angles in similar triangles are always equal regardless of size. The scale factor affects side lengths and areas, not angles.<br/><br/><strong>C</strong> is correct."
     }
   ]
 }

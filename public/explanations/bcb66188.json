@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Use corresponding angles",
-      "content": "When two triangles are similar, corresponding angles are equal. The problem states that $\\angle F$ corresponds to $\\angle J$, so $\\angle F = \\angle J$."
+      "content": "When two triangles are similar, corresponding angles are equal. The problem states that $\\angle A$ corresponds to $\\angle D$, so $\\angle A = \\angle D$."
     },
     {
       "title": "Apply the sine equality",
-      "content": "Equal angles have equal sine values, so:<br/>$$\\sin(F)=\\sin(J)$$<br/>Since $\\sin(F)=\\frac{308}{317}$, it follows that $\\sin(J)=\\frac{308}{317}$. That confirms <strong>B</strong> is correct."
+      "content": "Equal angles have equal sine values, so:<br/>$$\\sin(A)=\\sin(D)$$<br/>Since $\\sin(A)=\\frac{252}{277}$, it follows that $\\sin(D)=\\frac{252}{277}$. That confirms <strong>B</strong> is correct."
     }
   ]
 }

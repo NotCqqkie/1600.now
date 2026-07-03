@@ -5,24 +5,24 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $x^{3}+14x^{2}-8x+40$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $x^{3}+14x^{2}-7x+54$."
     },
     {
       "title": "Algebra check",
       "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
     },
     {
-      "title": "Distribute the 5",
-      "content": "Multiply 5 by each term inside the second parentheses:<br/>$$5(x^2+8) = 5x^2 + 40$$"
+      "title": "Distribute the 6",
+      "content": "Multiply 6 by each term inside the second parentheses:<br/>$$6(x^2+9) = 6x^2 + 54$$"
     },
     {
       "title": "Remove parentheses and group like terms",
-      "content": "Rewrite the full expression:<br/>$$x^3 + 9x^2 - 8x + 5x^2 + 40$$<br/>Collect the $x^2$ terms: $9x^2 + 5x^2 = 14x^2$."
+      "content": "Rewrite the full expression:<br/>$$x^3 + 8x^2 - 7x + 6x^2 + 54$$<br/>Collect the $x^2$ terms: $8x^2 + 6x^2 = 14x^2$."
     },
     {
       "title": "Write the simplified result",
-      "content": "$$x^3 + 14x^2 - 8x + 40$$"
+      "content": "$$x^3 + 14x^2 - 7x + 54$$"
     }
   ],
-  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; $x^{3}+14x^{2}-8x+40$</strong>: Distributing 5 gives $5x^2+40$; combining $9x^2+5x^2=14x^2$ produces this expression. &#10003;</li><li><strong>Choice B &mdash; $x^{3}+9x^{2}-8x+40$</strong>: Keeps $9x^2$ unchanged, forgetting to add the $5x^2$ from distributing. &#10007;</li><li><strong>Choice C &mdash; $x^{3}+5x^{2}-8x+40$</strong>: Replaces $9x^2$ with $5x^2$ instead of adding them. &#10007;</li><li><strong>Choice D &mdash; $x^{3}+8x^{2}-8x+40$</strong>: $8x^2$ cannot result from any combination of the terms present. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; $x^{3}+14x^{2}-7x+54$</strong>: Distributing 6 gives $6x^2+54$; combining $8x^2+6x^2=14x^2$ produces this expression. &#10003;</li><li><strong>Choice B &mdash; $x^{3}+8x^{2}-7x+54$</strong>: Keeps $8x^2$ unchanged, forgetting to add the $6x^2$ from distributing. &#10007;</li><li><strong>Choice C &mdash; $x^{3}+6x^{2}-7x+54$</strong>: Replaces $8x^2$ with $6x^2$ instead of adding them. &#10007;</li><li><strong>Choice D &mdash; $x^{3}+9x^{2}-7x+54$</strong>: $9x^2$ cannot result from any combination of the terms present. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find the yearly multiplier",
-      "content": "To find the factor by which the value changes each year, evaluate the function at $x=12$ months (one year).<br/>$$ f(12)=3950(0.38)^{12/12}=3950(0.38)^1=3950\\cdot0.38 $$<br/>This shows that after one year the value is $0.38$ times its value at the start of the year."
+      "content": "To find the factor by which the value changes each year, evaluate the function at $x=12$ months (one year).<br/>$$ f(12)=4200(0.42)^{12/12}=4200(0.42)^1=4200\\cdot0.42 $$<br/>This shows that after one year the value is $0.42$ times its value at the start of the year."
     },
     {
       "title": "Compute the annual percent decrease",
-      "content": "If the value each year is $0.38$ of the previous year's value, then it has decreased by $1-0.38=0.62$ of the previous year's value.<br/>$$ \\text{Decrease fraction}=0.62 $$<br/>Converting to a percentage gives $p=0.62\\times100=62$.<br/><strong>D</strong> is correct."
+      "content": "If the value each year is $0.42$ of the previous year's value, then it has decreased by $1-0.42=0.58$ of the previous year's value.<br/>$$ \\text{Decrease fraction}=0.58 $$<br/>Converting to a percentage gives $p=0.58\\times100=58$.<br/><strong>D</strong> is correct."
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set the equations equal and solve for x",
-      "content": "Since both expressions equal $y$, set them equal to each other:$$3x + 1 = 4x - 6$$Solve for $x$ by collecting like terms:$$3x - 4x = -6 - 1$$$$-x = -7$$$$x = 7$$"
+      "content": "Since both expressions equal $y$, set them equal to each other:$$2x + 5 = 5x - 4$$Solve for $x$ by collecting like terms:$$2x - 5x = -4 - 5$$$$-3x = -9$$$$x = 3$$"
     },
     {
       "title": "Substitute x into an original equation to find y",
-      "content": "Use $y = 3x + 1$ with $x = 7$:$$y = 3(7) + 1 = 21 + 1 = 22$$The intersection point is $(7, 22)$. That matches the correct answer — <strong>C</strong> is correct."
+      "content": "Use $y = 2x + 5$ with $x = 3$:$$y = 2(3) + 5 = 6 + 5 = 11$$The intersection point is $(3, 11)$. That matches the correct answer — <strong>C</strong> is correct."
     }
   ]
 }

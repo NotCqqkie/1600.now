@@ -1,15 +1,15 @@
 {
   "questionId": "11ee667b-8898-4917-b74e-33237205e2ef_20",
-  "correctAnswer": "4",
+  "correctAnswer": "5",
   "section": "Math",
   "steps": [
     {
-      "title": "Treat $2-7x$ as a single variable",
-      "content": "Let $u = 2-7x$. The equation becomes $8u+6 = 7u+2$. Subtracting $7u$ from both sides: $u+6 = 2$, so $u = -4$. That means $2-7x = -4$."
+      "title": "Treat $3-5x$ as a single variable",
+      "content": "Let $u = 3-5x$. The equation becomes $9u+8 = 8u+3$. Subtracting $8u$ from both sides: $u+8 = 3$, so $u = -5$. That means $3-5x = -5$."
     },
     {
       "title": "Compute the target value",
-      "content": "Since $2-7x = -4$, multiply by $-1$ to get $7x-2 = 4$. The question asks for this transformed expression directly, so solving for $x$ is unnecessary. The answer is <strong>4</strong>."
+      "content": "Since $3-5x = -5$, multiply by $-1$ to get $5x-3 = 5$. The question asks for this transformed expression directly, so solving for $x$ is unnecessary. The answer is <strong>5</strong>."
     }
   ]
 }

@@ -1,23 +1,23 @@
 {
   "questionId": "2f91d920-5520-4266-8a2d-a29c925c95c0_16",
-  "correctAnswer": "242",
+  "correctAnswer": "288",
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
+      "title": "Fastest path: label the triangle first",
       "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
     },
     {
       "title": "Set up the right triangle and identify the legs",
-      "content": "In triangle $XYZ$, the right angle is at $Y$, which means the two legs are $XY$ and $YZ$. We're given that $YZ = 22$ units and angle $Z = 39^{\\circ}$. To find the area, we need both legs, so we must find the length of $XY$."
+      "content": "In triangle $XYZ$, the right angle is at $Y$, which means the two legs are $XY$ and $YZ$. We're given that $YZ = 24$ units and angle $Z = 41^{\\circ}$. To find the area, we need both legs, so we must find the length of $XY$."
     },
     {
       "title": "Apply the tangent ratio from angle Z",
-      "content": "From angle $Z$ ($39^{\\circ}$), the opposite side is $XY$ and the adjacent side is $YZ = 22$. Using the tangent ratio: $$\\tan 39^{\\circ} = \\frac{XY}{YZ} = \\frac{XY}{22}$$ Solving for $XY$: $$XY = 22 \\tan 39^{\\circ}$$"
+      "content": "From angle $Z$ ($41^{\\circ}$), the opposite side is $XY$ and the adjacent side is $YZ = 24$. Using the tangent ratio: $$\\tan 41^{\\circ} = \\frac{XY}{YZ} = \\frac{XY}{24}$$ Solving for $XY$: $$XY = 24 \\tan 41^{\\circ}$$"
     },
     {
       "title": "Calculate the area and extract k",
-      "content": "The area of a right triangle is: $$\\text{Area} = \\frac{1}{2} \\times XY \\times YZ = \\frac{1}{2} \\times 22\\tan 39^{\\circ} \\times 22 = \\frac{1}{2} \\times 484 \\times \\tan 39^{\\circ} = 242\\tan 39^{\\circ}$$ Comparing this with the given form $k \\tan 39^{\\circ}$, we have $k = 242$."
+      "content": "The area of a right triangle is: $$\\text{Area} = \\frac{1}{2} \\times XY \\times YZ = \\frac{1}{2} \\times 24\\tan 41^{\\circ} \\times 24 = \\frac{1}{2} \\times 576 \\times \\tan 41^{\\circ} = 288\\tan 41^{\\circ}$$ Comparing this with the given form $k \\tan 41^{\\circ}$, we have $k = 288$."
     }
   ]
 }

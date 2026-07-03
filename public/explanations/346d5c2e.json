@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set f of x equal to 63",
-      "content": "The function is $f(x)=9(2x+3)$. The question asks for the $x$-value when $f(x)=63$, so solve $$9(2x+3)=63$$"
+      "title": "Set f of x equal to 88",
+      "content": "The function is $f(x)=8(2x+5)$. The question asks for the $x$-value when $f(x)=88$, so solve $$8(2x+5)=88$$"
     },
     {
       "title": "Undo the multiplication",
-      "content": "Divide by $9$: $$2x+3=7$$ Subtract $3$: $$2x=4$$ Divide by $2$: $$x=2$$"
+      "content": "Divide by $8$: $$2x+5=11$$ Subtract $5$: $$2x=6$$ Divide by $2$: $$x=3$$"
     },
     {
       "title": "Check the choices",
-      "content": "The correct answer is $2$. It checks because $9(2(2)+3)=9(7)=63$. The other choices make $2x+3$ larger than $7$, so they make $f(x)$ larger than $63$. Therefore, <strong>A</strong> is correct."
+      "content": "The correct answer is $3$. It checks because $8(2(3)+5)=8(11)=88$. The other choices make $2x+5$ larger than $11$, so they make $f(x)$ larger than $88$. Therefore, <strong>A</strong> is correct."
     }
   ]
 }

@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The passage says Moss &apos;had never tired of this specific view.&apos; The blank describes the Port of Oakland view he is singling out. The word must mean something like &apos;distinct&apos; or &apos;specific&apos; &mdash; identifying one view among many rather than views in general."
+      "content": "The passage says Moss &quot;he'd never tired of this <u>specific</u> view&quot;. The blank describes the Port of Oakland view he is singling out. The word must mean something like &apos;distinct&apos; or &apos;specific&apos; &mdash; identifying one view among many rather than views in general."
     },
     {
       "title": "Eliminate the choices",

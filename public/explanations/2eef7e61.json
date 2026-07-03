@@ -9,11 +9,11 @@
     },
     {
       "title": "Step 2",
-      "content": "Given: slope $m=\\frac{3}{4}$ and $f(0)=3$, so $b=3$. The function is $f(x)=\\frac{3}{4}x+3$."
+      "content": "Given: slope $m=\\frac{5}{6}$ and $f(0)=4$, so $b=4$. The function is $f(x)=\\frac{5}{6}x+4$."
     },
     {
       "title": "Step 3",
-      "content": "Evaluate choices:<ul><li>A ($f(x)=\\frac{3}{4}x-3$): correct slope, wrong intercept ($-3$ instead of $3$) — eliminated.</li><li>B ($f(x)=\\frac{3}{4}x+3$): slope $\\frac{3}{4}$ and $f(0)=3$. <strong>B</strong> is correct.</li><li>C ($f(x)=4x-3$): slope is inverted and intercept is negative — eliminated.</li><li>D ($f(x)=4x+3$): slope is the reciprocal of $\\frac{3}{4}$, not $\\frac{3}{4}$ — eliminated.</li></ul>"
+      "content": "Evaluate choices:<ul><li>A ($f(x)=\\frac{5}{6}x-4$): correct slope, wrong intercept ($-4$ instead of $4$) &mdash; eliminated.</li><li>B ($f(x)=\\frac{5}{6}x+4$): slope $\\frac{5}{6}$ and $f(0)=4$. <strong>B</strong> is correct.</li><li>C ($f(x)=6x-4$): uses the denominator of the slope as the slope and has a negative intercept &mdash; eliminated.</li><li>D ($f(x)=6x+4$): uses the denominator of the slope as the slope, not $\\frac{5}{6}$ &mdash; eliminated.</li></ul>"
     }
   ]
 }

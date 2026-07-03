@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Evaluate P(0) at the start of the study",
-      "content": "Since $t = 0$ means the study began (by definition), substitute $t = 0$ into the function: $$P(0) = 1,800(1.02)^0 = 1,800 \\cdot 1 = 1,800$$"
+      "title": "Evaluate P(0) at the start of the survey",
+      "content": "Since $t = 0$ means the survey began (by definition), substitute $t = 0$ into the function: $$P(0) = 2,400(1.03)^0 = 2,400 \\cdot 1 = 2,400$$"
     },
     {
       "title": "Interpret the meaning",
-      "content": "At the start of the study ($t = 0$), the function gives 1,800, which represents the estimated number of marine mammals in the area when the study began. <strong>B</strong> is correct."
+      "content": "At the start of the survey ($t = 0$), the function gives 2,400, which represents the estimated number of shorebirds in the area when the survey began. <strong>B</strong> is correct."
     }
   ]
 }

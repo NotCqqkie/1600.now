@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Step 1",
-      "content": "Small tanks hold 1 fish each, so $s$ small tanks hold $s \\cdot 1 = s$ fish. Large tanks hold 2 fish each, so $b$ large tanks hold $b \\cdot 2 = 2b$ fish."
+      "content": "Small bins hold 1 fish each, so $s$ small bins hold $s \\cdot 1 = s$ fish. Large bins hold 2 fish each, so $b$ large bins hold $b \\cdot 2 = 2b$ fish."
     },
     {
       "title": "Step 2",
-      "content": "The total number of fish is the sum from both tank types: $s + 2b = 37$."
+      "content": "The total number of fish is the sum from both bin types: $s + 2b = 43$."
     },
     {
       "title": "Step 3",
-      "content": "Evaluate each choice:<ul><li><strong>$s + 2b = 37$</strong> $s + 2b = 37$. Each small tank contributes 1 fish and each large tank contributes 2 fish, matching the setup exactly. That is the correct answer.</li><li><strong>$s + b = 37$</strong> $s + b = 37$. This would mean every tank, regardless of size, holds exactly 1 fish. Incorrect.</li><li><strong>$2s + b = 37$</strong> $2s + b = 37$. This reverses the capacities, assigning 2 fish to small tanks and 1 fish to large tanks. Incorrect.</li><li><strong>$2s + 2b = 37$</strong> $2s + 2b = 37$. This assumes every tank holds 2 fish, ignoring the small-tank capacity of 1. Incorrect.</li></ul>"
+      "content": "Evaluate each choice:<ul><li><strong>$s + 2b = 43$</strong> $s + 2b = 43$. Each small bin contributes 1 fish and each large bin contributes 2 fish, matching the setup exactly. That is the correct answer.</li><li><strong>$s + b = 43$</strong> $s + b = 43$. This would mean every bin, regardless of size, holds exactly 1 fish. Incorrect.</li><li><strong>$2s + b = 43$</strong> $2s + b = 43$. This reverses the capacities, assigning 2 fish to small bins and 1 fish to large bins. Incorrect.</li><li><strong>$2s + 2b = 43$</strong> $2s + 2b = 43$. This assumes every bin holds 2 fish, ignoring the small-bin capacity of 1. Incorrect.</li></ul>"
     }
   ]
 }

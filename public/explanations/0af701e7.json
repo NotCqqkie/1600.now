@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Simplify the absolute value function",
-      "content": "First, simplify the expression inside the absolute value: $x - 4x = -3x$. Therefore, $f(x) = |-3x| = 3|x|$."
+      "content": "First, simplify the expression inside the absolute value: $x - 5x = -4x$. Therefore, $f(x) = |-4x| = 4|x|."
     },
     {
-      "title": "Evaluate f(5) and set up the equation",
-      "content": "Calculate $f(5) = 3|5| = 15$.<br/><br/>Using the given condition $f(5) - f(a) = -15$:<br/>$$15 - f(a) = -15$$<br/>$$f(a) = 30$$"
+      "title": "Evaluate f(6) and set up the equation",
+      "content": "Calculate $f(6) = 4|6| = 24$.<br/><br/>Using the given condition $f(6) - f(a) = -24$:<br/>$$24 - f(a) = -24$$<br/>$$f(a) = 48$$"
     },
     {
       "title": "Solve for a",
-      "content": "Since $f(a) = 3|a|$, we have:<br/>$$3|a| = 30$$<br/>$$|a| = 10$$<br/>This gives $a = 10$ or $a = -10$. Among the answer choices, only $a = 10$ appears. That matches <strong>Choice C &mdash; $10$</strong>."
+      "content": "Since $f(a) = 4|a|$, we have:<br/>$$4|a| = 48$$<br/>$$|a| = 12$$<br/>This gives $a = 12$ or $a = -12$. Among the answer choices, only $a = 12$ appears. That matches <strong>Choice C &mdash; $12$</strong>."
     }
   ]
 }

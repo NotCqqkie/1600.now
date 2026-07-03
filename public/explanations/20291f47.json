@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>C</strong>, $\\frac{x{y}^{2}+13xy-8y}{{x}^{2}y-8xy}$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>C</strong>, $\\frac{x{y}^{2}+11xy-7y}{{x}^{2}y-7xy}$."
     },
     {
       "title": "Algebra check",
@@ -13,15 +13,15 @@
     },
     {
       "title": "Factor the second denominator",
-      "content": "Start with $$\\frac{y+12}{x-8}+\\frac{y(x-8)}{x^2y-8xy}$$ The second denominator factors as $$x^2y-8xy=xy(x-8)$$ so the first fraction needs to be multiplied by $\\frac{xy}{xy}$ to get the same denominator."
+      "content": "Start with $$\\frac{y+10}{x-7}+\\frac{y(x-7)}{x^2y-7xy}$$ The second denominator factors as $$x^2y-7xy=xy(x-7)$$ so the first fraction needs to be multiplied by $\\frac{xy}{xy}$ to get the same denominator."
     },
     {
       "title": "Combine the numerators",
-      "content": "With the common denominator, the expression becomes $$\\frac{xy(y+12)}{xy(x-8)}+\\frac{y(x-8)}{xy(x-8)}$$ Combine the numerators: $$\\frac{xy(y+12)+y(x-8)}{xy(x-8)}$$ Distribute in the numerator: $$xy^2+12xy+xy-8y=xy^2+13xy-8y$$"
+      "content": "With the common denominator, the expression becomes $$\\frac{xy(y+10)}{xy(x-7)}+\\frac{y(x-7)}{xy(x-7)}$$ Combine the numerators: $$\\frac{xy(y+10)+y(x-7)}{xy(x-7)}$$ Distribute in the numerator: $$xy^2+10xy+xy-7y=xy^2+11xy-7y$$"
     },
     {
       "title": "Match the final form",
-      "content": "The denominator $xy(x-8)$ is the same as $x^2y-8xy$, so the simplified expression is $$\\frac{xy^2+13xy-8y}{x^2y-8xy}$$ That matches <strong>Choice C &mdash; $\\frac{x{y}^{2}+13xy-8y}{{x}^{2}y-8xy}$</strong>."
+      "content": "The denominator $xy(x-7)$ is the same as $x^2y-7xy$, so the simplified expression is $$\\frac{xy^2+11xy-7y}{x^2y-7xy}$$ That matches <strong>Choice C &mdash; $\\frac{x{y}^{2}+11xy-7y}{{x}^{2}y-7xy}$</strong>."
     }
   ]
 }

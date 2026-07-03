@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Apply the squaring from the given condition",
-      "content": "Square both sides of $\\sqrt{x-1}=2$."
+      "content": "Square both sides of $\\sqrt{x-2}=3$."
     },
     {
       "title": "Compute the target value",
-      "content": "So $x-1 = 4$. That matches <strong>Choice C &mdash; $4$</strong>."
+      "content": "So $x-2 = 9$. That matches <strong>Choice C &mdash; $9$</strong>."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches <strong>Choice C &mdash; $4$</strong>, $4$. The other choices do not satisfy the same condition from the question, so <strong>C</strong>."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches <strong>Choice C &mdash; $9$</strong>, $9$. The other choices do not satisfy the same condition from the question, so <strong>C</strong>."
     }
   ]
 }

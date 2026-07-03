@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the slope of the linear function",
-      "content": "The function $$w(t)=300-4t$$ is in the form $$w(t)=mt+b$$ where $$m$$ is the slope. Here the coefficient of $$t$$ is $$-4$$, so $$m=-4$$."
+      "content": "The function $$w(t)=280-5t$$ is in the form $$w(t)=mt+b$$ where $$m$$ is the slope. Here the coefficient of $$t$$ is $$-5$$, so $$m=-5$$."
     },
     {
       "title": "Interpret the slope as the draining rate",
-      "content": "A negative slope means the volume decreases. The magnitude $$|m|=4$$ gives the volume lost per second. Thus the container drains $$4$$ milliliters each second.<br/><strong>D</strong> is correct."
+      "content": "A negative slope means the volume decreases. The magnitude $$|m|=5$$ gives the volume lost per second. Thus the tank drains $$5$$ milliliters each second.<br/><strong>D</strong> is correct."
     }
   ]
 }

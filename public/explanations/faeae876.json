@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Analyze the equation",
-      "content": "Set each factor of $\\left(52\\right)(x^3+64)(x^4-81)=0$ to zero. From $x^3=-64$ we get $x=-4$; from $x^4=81$ we get $x=\\pm 3$ (the other two roots are non-real)."
+      "content": "Set each factor of $\\left(48\\right)(x^3+125)(x^4-16)=0$ to zero. From $x^3=-125$ we get $x=-5$; from $x^4=16$ we get $x=\\pm 2$ (the other two roots are non-real)."
     },
     {
       "title": "Count the solutions",
-      "content": "The distinct real solutions are $-4,\\ 3,\\ -3$ — exactly three. That matches the correct answer — <strong>B</strong> is correct."
+      "content": "The distinct real solutions are $-5,\\ 2,\\ -2$ - exactly three. That matches the correct answer, so <strong>B</strong> is correct."
     }
   ]
 }

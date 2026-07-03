@@ -9,11 +9,11 @@
     },
     {
       "title": "Compute the third side using perimeter",
-      "content": "The perimeter is 32 m and two sides are 8 m and 9 m. Let the third side be $x$. Then<br/>$$x = 32 - 8 - 9 = 15$$<br/>So the third side must be 15 meters."
+      "content": "The perimeter is 31 m and two sides are 7 m and 10 m. Let the third side be $x$. Then<br/>$$x = 31 - 7 - 10 = 14$$<br/>So the third side must be 14 meters."
     },
     {
       "title": "Verify triangle inequality and obtuse condition",
-      "content": "Check triangle inequality:<br/>$$8 + 9 \\gt 15$$ (true)<br/>$$8 + 15 \\gt 9$$ (true)<br/>$$9 + 15 \\gt 8$$ (true)<br/>All three hold, so a triangle exists.<br/>To be obtuse, the square of the longest side must exceed the sum of the squares of the other two sides. The longest side is 15 m:<br/>$$15^2 = 225$$<br/>$$8^2 + 9^2 = 64 + 81 = 145$$<br/>Since $$225 \\gt 145$$, the triangle is obtuse.<br/>Therefore the length 15 meters satisfies all conditions. That confirms <strong>D</strong> is correct."
+      "content": "Check triangle inequality:<br/>$$7 + 10 \\gt 14$$ (true)<br/>$$7 + 14 \\gt 10$$ (true)<br/>$$10 + 14 \\gt 7$$ (true)<br/>All three hold, so a triangle exists.<br/>To be obtuse, the square of the longest side must exceed the sum of the squares of the other two sides. The longest side is 14 m:<br/>$$14^2 = 196$$<br/>$$7^2 + 10^2 = 49 + 100 = 149$$<br/>Since $$196 \\gt 149$$, the triangle is obtuse.<br/>Therefore the length 14 meters satisfies all conditions. That confirms <strong>D</strong> is correct."
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "questionId": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_4",
-  "correctAnswer": "17",
+  "correctAnswer": "23",
   "section": "Math",
   "steps": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "title": "Equate the constant terms",
-      "content": "In the equation $9x + 17 = 9x + k$, the $9x$ terms are already identical on both sides. For the equation to hold for all values of $x$, the constant terms must also be equal:<br/>$$17 = k$$<br/>Therefore, $k = 17$."
+      "content": "In the equation $7x + 23 = 7x + k$, the $7x$ terms are already identical on both sides. For the equation to hold for all values of $x$, the constant terms must also be equal:<br/>$$23 = k$$<br/>Therefore, $k = 23$."
     }
   ]
 }

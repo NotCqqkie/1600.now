@@ -1,19 +1,19 @@
 {
   "questionId": "40c09d66",
-  "correctAnswer": "7/6,1.166,1.167,1.17",
+  "correctAnswer": "13/6,2.166,2.167,2.17",
   "section": "Math",
   "steps": [
     {
       "title": "Convert radicals to exponential form",
-      "content": "Rewrite the numerator and denominator using fractional exponents:<br/>$$\\sqrt{x^5} = x^{5/2}$$<br/>$$\\sqrt[3]{x^4} = x^{4/3}$$<br/>The fraction becomes:<br/>$$\\frac{x^{5/2}}{x^{4/3}}$$"
+      "content": "Rewrite the numerator and denominator using fractional exponents:<br/>$$\\sqrt{x^7} = x^{7/2}$$<br/>$$\\sqrt[3]{x^4} = x^{4/3}$$<br/>The fraction becomes:<br/>$$\\frac{x^{7/2}}{x^{4/3}}$$"
     },
     {
       "title": "Apply the quotient rule for exponents",
-      "content": "When dividing powers with the same base, subtract the exponents:<br/>$$x^{5/2} \\div x^{4/3} = x^{5/2 - 4/3}$$<br/>To subtract the exponents, use a common denominator of 6:<br/>$$\\frac{5}{2} - \\frac{4}{3} = \\frac{15}{6} - \\frac{8}{6} = \\frac{7}{6}$$"
+      "content": "When dividing powers with the same base, subtract the exponents:<br/>$$x^{7/2} \\div x^{4/3} = x^{7/2 - 4/3}$$<br/>To subtract the exponents, use a common denominator of 6:<br/>$$\\frac{7}{2} - \\frac{4}{3} = \\frac{21}{6} - \\frac{8}{6} = \\frac{13}{6}$$"
     },
     {
       "title": "Identify a and b",
-      "content": "We now have $x^{7/6}$, which means:<br/>$$\\frac{a}{b} = \\frac{7}{6}$$"
+      "content": "We now have $x^{13/6}$, which means:<br/>$$\\frac{a}{b} = \\frac{13}{6}$$"
     }
   ]
 }

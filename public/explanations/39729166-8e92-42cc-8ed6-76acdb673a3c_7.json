@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+      "title": "Fastest path: organize the two area formulas first",
+      "content": "Start by finding the rectangle's area, then use the given relationship to find the triangle's area. After that, plug the triangle's area and base into the right-triangle area formula."
     },
     {
       "title": "Set up",
-      "content": "Area of rectangle X = 24 &times; 17.5 = 420 mm&sup2;. The rectangle&apos;s area is 3 times the triangle&apos;s area, so triangle Y&apos;s area = 420 &divide; 3 = 140 mm&sup2;."
+      "content": "Area of rectangle X = 32 &times; 16.5 = 528 mm&sup2;. The rectangle&apos;s area is 3 times the triangle&apos;s area, so triangle Y&apos;s area = 528 &divide; 3 = 176 mm&sup2;."
     },
     {
       "title": "Solve",
-      "content": "Area of a right triangle = &frac12; &times; base &times; height. Plug in: 140 = &frac12; &times; 20 &times; h = 10h, so h = 14."
+      "content": "Area of a right triangle = &frac12; &times; base &times; height. Plug in: 176 = &frac12; &times; 22 &times; h = 11h, so h = 16."
     },
     {
       "title": "Answer",

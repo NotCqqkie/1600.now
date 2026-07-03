@@ -9,11 +9,11 @@
     },
     {
       "title": "Solve for y",
-      "content": "$$10x-5y=-12$$ $$-5y=-10x-12$$ $$y=2x+\\frac{12}{5}$$"
+      "content": "$$12x-4y=-18$$ $$-4y=-12x-18$$ $$y=3x+\\frac{9}{2}$$"
     },
     {
       "title": "Read the slope",
-      "content": "The coefficient of $x$ in slope-intercept form is $2$, so the slope is $2$. The constant $\\frac{12}{5}$ is only the $y$-intercept and does not affect the slope. The result matches."
+      "content": "The coefficient of $x$ in slope-intercept form is $3$, so the slope is $3$. The constant $\\frac{9}{2}$ is only the $y$-intercept and does not affect the slope. <strong>D</strong> is correct."
     }
   ]
 }

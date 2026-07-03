@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Apply the triangle inequality",
-      "content": "With sides 10 and 12, the third side $x$ must satisfy $x \\lt 10+12=22$ and $x \\gt  |10-12|=2$."
+      "content": "With sides 9 and 14, the third side $x$ must satisfy $x \\lt 9+14=23$ and $x \\gt  |9-14|=5$."
     },
     {
       "title": "Combine the two bounds",
-      "content": "Combining gives $$2 \\lt x \\lt 22.$$"
+      "content": "Combining gives $$5 \\lt x \\lt 23.$$"
     },
     {
       "title": "Match the answer",
-      "content": "That matches the correct answer — <strong>C</strong> is correct."
+      "content": "That matches the correct answer &mdash; <strong>C</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above is $2 \\lt x \\lt 22$. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above is $5 \\lt x \\lt 23$. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
     }
   ]
 }

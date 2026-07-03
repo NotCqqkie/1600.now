@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up the mixture equation",
-      "content": "The mixture contains only vitamin D and calcium. Since these are the only two components, their masses must sum to the total mass:<br/>$$\\text{vitamin D mass} + \\text{calcium mass} = \\text{total mass}$$"
+      "content": "The mixture contains only vitamin C and magnesium. Since these are the only two components, their masses must sum to the total mass:<br/>$$\\text{vitamin C mass} + \\text{magnesium mass} = \\text{total mass}$$"
     },
     {
-      "title": "Solve for calcium mass",
-      "content": "Substitute the known values into the equation:<br/>$$50 + \\text{calcium mass} = 150$$<br/>Subtract 50 from both sides:<br/>$$\\text{calcium mass} = 150 - 50 = 100$$<br/>That is the correct answer."
+      "title": "Solve for magnesium mass",
+      "content": "Substitute the known values into the equation:<br/>$$60 + \\text{magnesium mass} = 180$$<br/>Subtract 60 from both sides:<br/>$$\\text{magnesium mass} = 180 - 60 = 120$$<br/>That is the correct answer."
     }
   ]
 }

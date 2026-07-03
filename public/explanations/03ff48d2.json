@@ -1,19 +1,19 @@
 {
   "questionId": "03ff48d2",
-  "correctAnswer": "50",
+  "correctAnswer": "49",
   "section": "Math",
   "steps": [
     {
       "title": "Set up the quadratic",
-      "content": "Expand $x(kx - 56) = -16$: $kx^2 - 56x + 16 = 0$, so $a = k$, $b = -56$, $c = 16$."
+      "content": "Expand $x(kx - 48) = -12$: $kx^2 - 48x + 12 = 0$, so $a = k$, $b = -48$, $c = 12$."
     },
     {
       "title": "Use the no-real-solutions condition",
-      "content": "A quadratic has no real solutions when the expression under the square root in the quadratic formula is negative. For $kx^2-56x+16=0$, that condition is $$(-56)^2-4(k)(16)\\lt0.$$ Simplify: $$3136-64k\\lt0$$ so $$k\\gt 49.$$"
+      "content": "A quadratic has no real solutions when the expression under the square root in the quadratic formula is negative. For $kx^2-48x+12=0$, that condition is $$(-48)^2-4(k)(12)\\lt0.$$ Simplify: $$2304-48k\\lt0$$ so $$k\\gt 48.$$"
     },
     {
       "title": "Pick the least integer",
-      "content": "$k$ must be an integer greater than $49$, so the least possible integer is $k=50$. Therefore <strong>50</strong> is correct."
+      "content": "$k$ must be an integer greater than $48$, so the least possible integer is $k=49$. Therefore <strong>49</strong> is correct."
     }
   ]
 }

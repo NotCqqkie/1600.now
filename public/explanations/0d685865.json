@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute x = 7",
-      "content": "The expression is $x+20$. Since the problem gives $x=7$, replace $x$ with $7$:<br/>$$x+20=7+20$$"
+      "title": "Substitute x = 8",
+      "content": "The expression is $x+22$. Since the problem gives $x=8$, replace $x$ with $8$:<br/>$$x+22=8+22$$"
     },
     {
       "title": "Compute",
-      "content": "$$7+20=27$$"
+      "content": "$$8+22=30$$"
     },
     {
       "title": "Check the choices",
-      "content": "<strong>Choice B &mdash; $20$</strong> is just $20$ without adding $x$. <strong>Choice D &mdash; $34$</strong> adds $27$ to $x$. The correct substitution gives $27$."
+      "content": "<strong>Choice B &mdash; $22$</strong> is just $22$ without adding $x$. <strong>Choice D &mdash; $38$</strong> adds $30$ to $x$. The correct substitution gives $30$."
     },
     {
       "title": "Answer",
-      "content": "$27$ matches <strong>Choice C &mdash; $27$</strong>, so <strong>C</strong>."
+      "content": "$30$ matches <strong>Choice C &mdash; $30$</strong>, so <strong>C</strong>."
     }
   ]
 }

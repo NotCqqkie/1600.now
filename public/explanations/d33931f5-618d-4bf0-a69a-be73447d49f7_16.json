@@ -1,6 +1,6 @@
 {
   "questionId": "d33931f5-618d-4bf0-a69a-be73447d49f7_16",
-  "correctAnswer": "3332",
+  "correctAnswer": "3626",
   "section": "Math",
   "steps": [
     {
@@ -9,16 +9,16 @@
     },
     {
       "title": "Identify the scale factor between similar rectangles",
-      "content": "Rectangle EFGH is similar to rectangle ABCD, with each side of EFGH being 7 times the corresponding side of ABCD. The linear scale factor is $k = 7$."
+      "content": "Rectangle NPQR is similar to rectangle JKLM, with each side of NPQR being 7 times the corresponding side of JKLM. The linear scale factor is $k = 7$."
     },
     {
       "title": "Apply the area scaling rule for similar figures",
-      "content": "For similar figures with a linear scale factor of $k$, the area scale factor is $k^2$. Since $k = 7$, the area of EFGH is $7^2 = 49$ times the area of ABCD.",
+      "content": "For similar figures with a linear scale factor of $k$, the area scale factor is $k^2$. Since $k = 7$, the area of NPQR is $7^2 = 49$ times the area of JKLM.",
       "formula": "$$\\text{Area scale factor} = k^2$$"
     },
     {
-      "title": "Calculate the area of EFGH",
-      "content": "Area of EFGH $= 49 \\times 68 = 3332$ square units."
+      "title": "Calculate the area of NPQR",
+      "content": "Area of NPQR $= 49 \\times 74 = 3626$ square units."
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the given information and set up the proportion",
-      "content": "The provider surveyed a sample of 300 customers from a total population of 30,000 customers. In the sample, 8 customers said they would be interested in the new plan. To estimate the total number interested in the full population, we use the sample proportion to scale up."
+      "content": "The provider surveyed a sample of 400 customers from a total population of 48,000 customers. In the sample, 7 customers said they would be interested in the new plan. To estimate the total number interested in the full population, we use the sample proportion to scale up."
     },
     {
       "title": "Scale the sample to estimate the population",
-      "content": "Find the scaling factor from sample to population:<br/>$$\\frac{30,000}{300} = 100$$<br/>The population is 100 times the sample size, so multiply the number of interested customers in the sample by 100:<br/>$$8 \\times 100 = 800$$<br/><strong>C</strong> is correct."
+      "content": "Find the scaling factor from sample to population:<br/>$$\\frac{48,000}{400} = 120$$<br/>The population is 120 times the sample size, so multiply the number of interested customers in the sample by 120:<br/>$$7 \\times 120 = 840$$<br/><strong>C</strong> is correct."
     }
   ]
 }

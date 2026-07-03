@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Set up the x-intercept equation",
-      "content": "To find where the graph crosses the x-axis, set $y = 0$:<br/>$$0 = 9\\left(\\frac{a}{6}\\right)^{x+c} - b$$<br/>Rearranging:<br/>$$9\\left(\\frac{a}{6}\\right)^{x+c} = b$$"
+      "content": "To find where the graph crosses the x-axis, set $y = 0$:<br/>$$0 = 8\\left(\\frac{a}{5}\\right)^{x+c} - b$$<br/>Rearranging:<br/>$$8\\left(\\frac{a}{5}\\right)^{x+c} = b$$"
     },
     {
       "title": "Analyze the base and monotonicity",
-      "content": "Since $a \\gt 6$, the base satisfies $\\frac{a}{6} \\gt 1$. When an exponential function has a base greater than 1, it is strictly increasing. Therefore, $f(x) = 9\\left(\\frac{a}{6}\\right)^{x+c}$ is strictly increasing in $x$."
+      "content": "Since $a \\gt 5$, the base satisfies $\\frac{a}{5} \\gt 1$. When an exponential function has a base greater than 1, it is strictly increasing. Therefore, $f(x) = 8\\left(\\frac{a}{5}\\right)^{x+c}$ is strictly increasing in $x$."
     },
     {
       "title": "Determine the range and count intersections",
-      "content": "As $x$ varies over all real numbers:<ul><li>As $x \\to -\\infty$: $\\left(\\frac{a}{6}\\right)^{x+c} \\to 0$, so $f(x) \\to 0^+$</li><li>As $x \\to \\infty$: $\\left(\\frac{a}{6}\\right)^{x+c} \\to \\infty$, so $f(x) \\to \\infty$</li></ul>The function is continuous and strictly increasing with range $(0, \\infty)$. Since $b \\gt 0$ is a single positive value, the strictly increasing function $f(x)$ equals $b$ at exactly one point. That confirms <strong>B</strong> is correct."
+      "content": "As $x$ varies over all real numbers:<ul><li>As $x \\to -\\infty$: $\\left(\\frac{a}{5}\\right)^{x+c} \\to 0$, so $f(x) \\to 0^+$</li><li>As $x \\to \\infty$: $\\left(\\frac{a}{5}\\right)^{x+c} \\to \\infty$, so $f(x) \\to \\infty$</li></ul>The function is continuous and strictly increasing with range $(0, \\infty)$. Since $b \\gt 0$ is a single positive value, the strictly increasing function $f(x)$ equals $b$ at exactly one point. That confirms <strong>B</strong> is correct."
     }
   ]
 }

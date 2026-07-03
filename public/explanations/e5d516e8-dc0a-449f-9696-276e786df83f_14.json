@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find the vertex and determine if it is a maximum or minimum",
-      "content": "The equation is in vertex form $$y = a(x-h)^2 + k$$ with $$a = -16$$, $$h = 6.9$$, and $$k = 762$$.<br/><br/>Thus the vertex is $$(h,k) = (6.9,762)$$. Because $$a \\lt 0$$, the parabola opens downward, so the vertex represents the <strong>maximum</strong> height.<br/><br/>Hence the maximum height is $$k = 762$$ feet and it occurs at time $$x = h = 6.9$$ seconds."
+      "content": "The equation is in vertex form $$y = a(x-h)^2 + k$$ with $$a = -16$$, $$h = 7.2$$, and $$k = 829$$.<br/><br/>Thus the vertex is $$(h,k) = (7.2,829)$$. Because $$a \\lt 0$$, the parabola opens downward, so the vertex represents the <strong>maximum</strong> height.<br/><br/>Hence the maximum height is $$k = 829$$ feet and it occurs at time $$x = h = 7.2$$ seconds."
     },
     {
       "title": "Interpret the vertex coordinates as time and maximum height",
-      "content": "In this context, $$x$$ measures time in seconds after launch and $$y$$ measures height in feet. Therefore the firework reaches its maximum height of 762 feet at 6.9 seconds after launch. That matches the correct answer — <strong>C</strong> is correct."
+      "content": "In this context, $$x$$ measures time in seconds after launch and $$y$$ measures height in feet. Therefore the firework reaches its maximum height of 829 feet at 7.2 seconds after launch. That matches the correct answer; <strong>C</strong> is correct."
     }
   ]
 }

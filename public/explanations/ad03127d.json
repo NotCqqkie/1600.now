@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Isolate the term with s",
-      "content": "Starting with $6r = 7s + t$, subtract $t$ from both sides: $$6r - t = 7s$$"
+      "content": "Starting with $5r = 8s + t$, subtract $t$ from both sides: $$5r - t = 8s$$"
     },
     {
       "title": "Solve for s",
-      "content": "Divide both sides by 7: $$s = \\frac{6r - t}{7}$$"
+      "content": "Divide both sides by 8: $$s = \\frac{5r - t}{8}$$"
     },
     {
       "title": "Eliminate wrong choices",
-      "content": "<ul><li>A: $s = 42r - t$ — multiplies rather than divides by 7. Incorrect.</li><li>B: $s = 7(6r - t)$ — multiplies by 7 instead of dividing. Incorrect.</li><li>C: $s = \\frac{6}{7}r - t$ — fails to divide $t$ by 7. Incorrect.</li><li>D: $s = \\frac{6r - t}{7}$ — both terms divided by 7 correctly. That is the correct answer.</li></ul>"
+      "content": "<ul><li>A: $s = 40r - t$ - multiplies rather than divides by 8. Incorrect.</li><li>B: $s = 8(5r - t)$ - multiplies by 8 instead of dividing. Incorrect.</li><li>C: $s = \\frac{5}{8}r - t$ - fails to divide $t$ by 8. Incorrect.</li><li>D: $s = \\frac{5r - t}{8}$ - both terms divided by 8 correctly. That is the correct answer.</li></ul>"
     }
   ]
 }

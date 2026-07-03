@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up the cost expression for each item",
-      "content": "Since forks cost \\$0.04 each and we're buying <em>x</em> forks, the fork cost is \\$0.04x. Since plates cost \\$0.48 each and we're buying <em>y</em> plates, the plate cost is \\$0.48y."
+      "content": "Since napkins cost \\$0.06 each and we're buying <em>x</em> napkins, the napkin cost is \\$0.06x. Since serving trays cost \\$0.72 each and we're buying <em>y</em> serving trays, the tray cost is \\$0.72y."
     },
     {
       "title": "Combine the costs and set equal to the total",
-      "content": "The total cost is the sum of both expenses:<br/>$$0.04x + 0.48y = 661.76$$<br/>That is the correct answer."
+      "content": "The total cost is the sum of both expenses:<br/>$$0.06x + 0.72y = 583.20$$<br/>That is the correct answer."
     }
   ]
 }

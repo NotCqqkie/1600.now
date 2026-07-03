@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The question asks how the author of Text 1 would respond to Text 2's claim that Costa and colleagues' approach &lsquo;could improve genre classification, which could have many benefits for users.&rsquo; Text 1's central argument is that genre categories are &lsquo;ambiguous, subjective, and simplistic&rsquo; and that music may be best understood through frameworks other than genre. The author is skeptical that genre classification is useful at all &mdash; so even a technically improved classifier would not address the underlying problem Text 1 identifies."
+      "content": "The question asks how the author of Text 1 would respond to Text 2's claim that Silva and colleagues' approach &lsquo;could improve genre classification, which could have many benefits for users.&rsquo; Text 1's central argument is that genre categories are &lsquo;ambiguous, subjective, and simplistic&rsquo; and that music may be best understood through frameworks other than genre. The author is skeptical that genre classification is useful at all &mdash; so even a technically improved classifier would not address the underlying problem Text 1 identifies."
     },
     {
       "title": "Eliminate the choices",

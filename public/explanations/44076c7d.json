@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Use the table to find the quadratic",
-      "content": "Write the quadratic as $f(x)=ax^2+bx+c$. From $f(0)=14$, we get $c=14$. The other two rows give $$a+b+14=20$$ and $$a-b+14=10.$$ So $a+b=6$ and $a-b=-4$, which gives $a=1$ and $b=5$."
+      "content": "Write the quadratic as $f(x)=ax^2+bx+c$. From $f(0)=16$, we get $c=16$. The other two rows give $$a+b+16=24$$ and $$a-b+16=10.$$ So $a+b=8$ and $a-b=-6$, which gives $a=1$ and $b=7$."
     },
     {
       "title": "Match the model to the choices",
-      "content": "The equation $f(x)=x^2+5x+14$ fits the table. A quick substitution confirms it: $f(-1)=1-5+14=10$, $f(0)=14$, and $f(1)=1+5+14=20$. All three table rows match, so <strong>D</strong> is correct."
+      "content": "The equation $f(x)=x^2+7x+16$ fits the table. A quick substitution confirms it: $f(-1)=1-7+16=10$, $f(0)=16$, and $f(1)=1+7+16=24$. All three table rows match, so <strong>D</strong> is correct."
     }
   ]
 }

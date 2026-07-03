@@ -1,23 +1,23 @@
 {
   "questionId": "c9e1513f-58d1-4e6c-8574-b9662226959f_13",
-  "correctAnswer": "12",
+  "correctAnswer": "18",
   "section": "Math",
   "steps": [
     {
       "title": "Fastest path: use the function table",
-      "content": "Enter the function in Desmos or a calculator table and scan for the row with the output named in the question. The input that works gives <strong>$12$</strong>. This is just a table lookup, and the arithmetic below confirms the same value."
+      "content": "Enter the function in Desmos or a calculator table and scan for the row with the output named in the question. The input that works gives <strong>$18$</strong>. This is just a table lookup, and the arithmetic below confirms the same value."
     },
     {
       "title": "Set up and isolate the exponential",
-      "content": "Starting with $f(x) = 38$, substitute the function definition: $$9^{\\frac{x}{8}} + 11 = 38$$ Subtract 11 from both sides to isolate the exponential term: $$9^{\\frac{x}{8}} = 27$$"
+      "content": "Starting with $f(x) = 73$, substitute the function definition: $$16^{\\frac{x}{12}} + 9 = 73$$ Subtract 9 from both sides to isolate the exponential term: $$16^{\\frac{x}{12}} = 64$$"
     },
     {
       "title": "Rewrite both sides with a common base",
-      "content": "Recognize that both 9 and 27 are powers of 3: $9 = 3^2$ and $27 = 3^3$.<br/><br/>Substitute to rewrite the equation: $$(3^2)^{\\frac{x}{8}} = 3^3$$ Apply the power rule $(a^m)^n = a^{mn}$: $$3^{\\frac{2x}{8}} = 3^3$$ Simplify the left exponent: $$3^{\\frac{x}{4}} = 3^3$$"
+      "content": "Recognize that both 16 and 64 are powers of 2: $16 = 2^4$ and $64 = 2^6$.<br/><br/>Substitute to rewrite the equation: $$(2^4)^{\\frac{x}{12}} = 2^6$$ Apply the power rule $(a^m)^n = a^{mn}$: $$2^{\\frac{4x}{12}} = 2^6$$ Simplify the left exponent: $$2^{\\frac{x}{3}} = 2^6$$"
     },
     {
       "title": "Equate exponents and solve",
-      "content": "Since the bases are equal, the exponents must be equal:<br/>$$\\frac{x}{4}=3$$<br/>Multiply both sides by 4:<br/>$$x=12$$<br/>The answer is <strong>12</strong>."
+      "content": "Since the bases are equal, the exponents must be equal:<br/>$$\\frac{x}{3}=6$$<br/>Multiply both sides by 3:<br/>$$x=18$$<br/>The answer is <strong>18</strong>."
     }
   ]
 }

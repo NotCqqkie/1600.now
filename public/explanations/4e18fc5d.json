@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Clear the denominator",
-      "content": "Start with $$v=-\\frac{w}{150x}$$ Multiply both sides by $150x$: $$150vx=-w$$"
+      "content": "Start with $$v=-\\frac{w}{180x}$$ Multiply both sides by $180x$: $$180vx=-w$$"
     },
     {
       "title": "Solve for w",
-      "content": "Multiply both sides by $-1$: $$w=-150vx$$"
+      "content": "Multiply both sides by $-1$: $$w=-180vx$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "The correct answer is $w=-150vx$, so <strong>A</strong> is correct."
+      "content": "The correct answer is $w=-180vx$, so <strong>A</strong> is correct."
     },
     {
       "title": "Keep the negative sign",
-      "content": "Multiplying by $150x$ clears the denominator but leaves $150vx=-w$. The last step must multiply by $-1$, so the final expression for $w$ is negative."
+      "content": "Multiplying by $180x$ clears the denominator but leaves $180vx=-w$. The last step must multiply by $-1$, so the final expression for $w$ is negative."
     }
   ]
 }

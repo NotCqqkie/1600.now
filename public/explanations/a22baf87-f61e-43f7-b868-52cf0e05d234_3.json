@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Understand the weekly decrease",
-      "content": "Each week, the number of toys <em>decreases by 1/2 of the previous amount</em>. This means: $\\text{new amount} = \\text{previous} - \\frac{1}{2} \\cdot \\text{previous} = \\frac{1}{2} \\cdot \\text{previous}$<br/>So the collection is multiplied by $\\frac{1}{2}$ each week."
+      "content": "Each week, the number of books <em>decreases by 1/2 of the previous amount</em>. This means: $\\text{new amount} = \\text{previous} - \\frac{1}{2} \\cdot \\text{previous} = \\frac{1}{2} \\cdot \\text{previous}$<br/>So the collection is multiplied by $\\frac{1}{2}$ each week."
     },
     {
       "title": "Build the exponential formula",
-      "content": "Starting with 2,800 toys, applying a factor of $\\frac{1}{2}$ for each of $w$ weeks:<br/>$$c = 2,800 \\left(\\frac{1}{2}\\right)^w$$<br/>Verify at $w = 1$: $c = 2,800 \\cdot \\frac{1}{2} = 1,400$ (half of 2,800—correct for one week).<br/>That confirms <strong>D</strong> is correct."
+      "content": "Starting with 3,600 books, applying a factor of $\\frac{1}{2}$ for each of $w$ weeks:<br/>$$c = 3,600 \\left(\\frac{1}{2}\\right)^w$$<br/>Verify at $w = 1$: $c = 3,600 \\cdot \\frac{1}{2} = 1,800$ (half of 3,600, correct for one week).<br/>That confirms <strong>D</strong> is correct."
     }
   ]
 }

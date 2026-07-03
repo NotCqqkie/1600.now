@@ -4,7 +4,7 @@
   "steps": [
     {
       "title": "Compare $f(x+1)$ to $f(x)$",
-      "content": "Compute $f(x+1)$ and compare it to $f(x)$: $$f(x+1) = 66b^{x+1} = 66 \\cdot b^x \\cdot b = b \\cdot f(x)$$ So increasing $x$ by $1$ multiplies the output by $b$."
+      "content": "Compute $f(x+1)$ and compare it to $f(x)$: $$f(x+1) = 72b^{x+1} = 72 \\cdot b^x \\cdot b = b \\cdot f(x)$$ So increasing $x$ by $1$ multiplies the output by $b$."
     },
     {
       "title": "Convert the growth factor to a percent increase",

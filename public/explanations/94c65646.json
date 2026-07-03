@@ -1,19 +1,19 @@
 {
   "questionId": "94c65646",
-  "correctAnswer": "450",
+  "correctAnswer": "600",
   "section": "Math",
   "steps": [
     {
       "title": "Translate the percentage statement into an equation",
-      "content": "The phrase <em>432 is 96% of what number</em> means that 432 equals 96% of an unknown value x. Write this as:<br/>$$432 = 0.96x$$"
+      "content": "The phrase <em>552 is 92% of what number</em> means that 552 equals 92% of an unknown value x. Write this as:<br/>$$552 = 0.92x$$"
     },
     {
       "title": "Set up the division to isolate x",
-      "content": "Divide both sides by 0.96:<br/>$$x = \\frac{432}{0.96}$$"
+      "content": "Divide both sides by 0.92:<br/>$$x = \\frac{552}{0.92}$$"
     },
     {
       "title": "Simplify the division",
-      "content": "Convert 0.96 to a fraction: $0.96 = \\frac{96}{100}$<br/>$$x = \\frac{432}{\\frac{96}{100}} = 432 \\times \\frac{100}{96} = \\frac{43200}{96} = 450$$<br/>The answer is <strong>450</strong>."
+      "content": "Convert 0.92 to a fraction: $0.92 = \\frac{92}{100}$<br/>$$x = \\frac{552}{\\frac{92}{100}} = 552 \\times \\frac{100}{92} = \\frac{55200}{92} = 600$$<br/>The answer is <strong>600</strong>."
     }
   ]
 }

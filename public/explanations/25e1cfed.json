@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Expand both sides",
-      "content": "Distribute on each side: $10(15x-9)=150x-90$ and $-15(6-10x)=-90+150x$."
+      "content": "Distribute on each side: $8(12x-9)=96x-72$ and $-12(6-8x)=-72+96x$."
     },
     {
       "title": "Compare the expressions",
-      "content": "The equation becomes $150x-90=150x-90$. This identity is true for every value of $x$."
+      "content": "The equation becomes $96x-72=96x-72$. This identity is true for every value of $x$."
     },
     {
       "title": "Choose the solution count",

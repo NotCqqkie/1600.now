@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up linear model",
-      "content": "$$4500 - 70d = 1700$$<br/>Let d be the number of days. Inventory after d days is 4500 minus 70d. Set equal to 1700."
+      "content": "$$5200 - 80d = 2000$$<br/>Let d be the number of days. Inventory after d days is 5200 minus 80d. Set equal to 2000."
     },
     {
       "title": "Solve for days",
-      "content": "$$4500 - 1700 = 70d$$<br/>$$2800 = 70d$$<br/>$$d = \\frac{2800}{70} = 40$$<br/><strong>B</strong> is correct."
+      "content": "$$5200 - 2000 = 80d$$<br/>$$3200 = 80d$$<br/>$$d = \\frac{3200}{80} = 40$$<br/><strong>B</strong> is correct."
     }
   ]
 }

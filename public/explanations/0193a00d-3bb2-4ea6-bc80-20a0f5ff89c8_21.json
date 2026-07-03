@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Find the monthly growth rate",
-      "content": "The tree grows 69 cm every $m$ months, so the rate is $\\dfrac{69}{m}$ cm per month."
+      "content": "The shrub grows 71 cm every $m$ months, so the rate is $\\dfrac{71}{m}$ cm per month."
     },
     {
       "title": "Convert the time to months",
@@ -13,11 +13,11 @@
     },
     {
       "title": "Multiply rate by time",
-      "content": "Total growth is $\\dfrac{69}{m} \\times 12k = \\dfrac{828k}{m}$ cm."
+      "content": "Total growth is $\\dfrac{71}{m} \\times 12k = \\dfrac{852k}{m}$ cm."
     },
     {
       "title": "Match the expression",
-      "content": "The expression $\\dfrac{828k}{m}$ comes from dividing by $m$ to get the monthly rate and multiplying by $12k$ months.<br/><br/>That matches <strong>Choice D &mdash; $\\frac{828k}{m}$</strong>."
+      "content": "The expression $\\dfrac{852k}{m}$ comes from dividing by $m$ to get the monthly rate and multiplying by $12k$ months.<br/><br/>That matches <strong>Choice D &mdash; $\\frac{852k}{m}$</strong>."
     }
   ],
   "section": "Math"

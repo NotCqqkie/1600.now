@@ -1,19 +1,19 @@
 {
   "questionId": "23a951fb-833f-4b27-9978-4eb054f855e2_7",
-  "correctAnswer": "0.3,3/10",
+  "correctAnswer": "0.25,1/4",
   "section": "Math",
   "steps": [
     {
       "title": "Fastest path: use the function table",
-      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is 0.3,3/10, so the answer is <strong>0.3,3/10</strong>. This is just a one-row lookup, and the arithmetic below confirms the table value."
+      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is 0.25,1/4, so the answer is <strong>0.25,1/4</strong>. This is just a one-row lookup, and the arithmetic below confirms the table value."
     },
     {
-      "title": "Substitute the value x = 6",
-      "content": "Replace $x$ with $6$ in $$f(x) = \\frac{x-3}{x^2-7x+16}.$$ This gives $$f(6) = \\frac{6-3}{(6)^2-7(6)+16}.$$"
+      "title": "Substitute the value x = 7",
+      "content": "Replace $x$ with $7$ in $$f(x) = \\frac{x-4}{x^2-9x+26}.$$ This gives $$f(7) = \\frac{7-4}{(7)^2-9(7)+26}.$$"
     },
     {
       "title": "Compute the result",
-      "content": "Simplify: $$f(6) = \\frac{3}{36-42+16} = \\frac{3}{10}.$$ The answer is <strong>0.3,3/10</strong>.<br/><br/>The denominator is positive after substitution, so the value is exactly $\\frac{3}{10}$, which can also be entered as the decimal $0.3$."
+      "content": "Simplify: $$f(7) = \\frac{3}{49-63+26} = \\frac{3}{12} = \\frac{1}{4}.$$ The answer is <strong>0.25,1/4</strong>.<br/><br/>The denominator is positive after substitution, so the value is exactly $\\frac{1}{4}$, which can also be entered as the decimal $0.25$."
     }
   ]
 }

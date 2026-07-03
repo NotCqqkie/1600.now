@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up the evaluation",
-      "content": "The airplane's height after 3 minutes is found by evaluating $f(3)$, since $x$ represents time in minutes."
+      "content": "The glider's height after 3 minutes is found by evaluating $f(3)$, since $x$ represents time in minutes."
     },
     {
       "title": "Calculate f(3)",
-      "content": "$$f(3) = -40(3) + 340$$<br/>$$f(3) = -120 + 340$$<br/>$$f(3) = 220$$<br/>That matches <strong>Choice B &mdash; 220</strong>- <strong>B</strong>."
+      "content": "$$f(3) = -50(3) + 390$$<br/>$$f(3) = -150 + 390$$<br/>$$f(3) = 240$$<br/>That matches <strong>Choice B &mdash; 240</strong>- <strong>B</strong>."
     }
   ]
 }

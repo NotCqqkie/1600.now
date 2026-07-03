@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Express the 9% increase algebraically",
-      "content": "Increasing <em>x</em> by 9% means we add 9% of <em>x</em> to the original value.<br/><br/>Convert 9% to decimal: $$9\\% = 0.09$$<br/>So the increased value is: $$x + 0.09x$$"
+      "title": "Express the 6% increase algebraically",
+      "content": "Increasing <em>x</em> by 6% means we add 6% of <em>x</em> to the original value.<br/><br/>Convert 6% to decimal: $$6\\% = 0.06$$<br/>So the increased value is: $$x + 0.06x$$"
     },
     {
       "title": "Factor and simplify",
-      "content": "Factor out <em>x</em> from both terms:<br/>$$x + 0.09x = x(1 + 0.09) = 1.09x$$<br/>That confirms <strong>A</strong> is correct."
+      "content": "Factor out <em>x</em> from both terms:<br/>$$x + 0.06x = x(1 + 0.06) = 1.06x$$<br/>That confirms <strong>A</strong> is correct."
     }
   ]
 }

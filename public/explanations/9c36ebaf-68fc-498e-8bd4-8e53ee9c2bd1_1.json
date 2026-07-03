@@ -1,19 +1,19 @@
 {
   "questionId": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_1",
-  "correctAnswer": "2.4",
+  "correctAnswer": "2.8",
   "section": "Math",
   "steps": [
     {
       "title": "Set up vertex form using the maximum point",
-      "content": "The maximum height of 207.36 feet occurs at $t = 3.6$ seconds. This is the vertex of the parabola. We write the height function in vertex form: $$h(t) = a(t - 3.6)^2 + 207.36$$"
+      "content": "The maximum height of 282.24 feet occurs at $t = 4.2$ seconds. This is the vertex of the parabola. We write the height function in vertex form: $$h(t) = a(t - 4.2)^2 + 282.24$$"
     },
     {
       "title": "Find the coefficient using the initial height",
-      "content": "The object was launched from an initial height of 0 feet, so $h(0) = 0$. Substitute: $$0 = a(0 - 3.6)^2 + 207.36$$ $$0 = 12.96a + 207.36$$ $$a = -16$$ So the function is $h(t) = -16(t - 3.6)^2 + 207.36$."
+      "content": "The object was launched from an initial height of 0 feet, so $h(0) = 0$. Substitute: $$0 = a(0 - 4.2)^2 + 282.24$$ $$0 = 17.64a + 282.24$$ $$a = -16$$ So the function is $h(t) = -16(t - 4.2)^2 + 282.24$."
     },
     {
-      "title": "Solve for the time when height equals 184.32 feet",
-      "content": "Set $h(x) = 184.32$: $$184.32 = -16(x - 3.6)^2 + 207.36$$ $$-23.04 = -16(x - 3.6)^2$$ $$(x - 3.6)^2 = 1.44$$ $$x - 3.6 = \\pm 1.2$$ $$x = 4.8 \\text{ or } x = 2.4$$ A possible value of $x$ is <strong>2.4</strong> seconds."
+      "title": "Solve for the time when height equals 250.88 feet",
+      "content": "Set $h(x) = 250.88$: $$250.88 = -16(x - 4.2)^2 + 282.24$$ $$-31.36 = -16(x - 4.2)^2$$ $$(x - 4.2)^2 = 1.96$$ $$x - 4.2 = \\pm 1.4$$ $$x = 5.6 \\text{ or } x = 2.8$$ A possible value of $x$ is <strong>2.8</strong> seconds."
     }
   ]
 }

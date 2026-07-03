@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Translate the problem into an algebraic expression",
-      "content": "The team earns 12 dollars per coupon book sold. For $n$ books, the total earnings is $12 \\times n = 12n$.<br/><br/>The goal is to earn <em>at least</em> 1,320 dollars. The word <em>at least</em> means the total must be greater than or equal to 1,320 dollars, which uses the inequality symbol $\\geq$."
+      "content": "The team earns 15 dollars per coupon book sold. For $n$ books, the total earnings is $15 \\times n = 15n$.<br/><br/>The goal is to earn <em>at least</em> 1,560 dollars. The word <em>at least</em> means the total must be greater than or equal to 1,560 dollars, which uses the inequality symbol $\\geq$."
     },
     {
       "title": "Form the inequality and match the answer",
-      "content": "Combining the earnings expression with the inequality:<br/>$$12n \\geq 1,320$$<br/>That matches the correct answer — <strong>D</strong> is correct."
+      "content": "Combining the earnings expression with the inequality:<br/>$$15n \\geq 1,560$$<br/>That matches the correct answer, so <strong>D</strong> is correct."
     }
   ]
 }

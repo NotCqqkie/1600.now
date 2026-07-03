@@ -1,23 +1,23 @@
 {
   "questionId": "ceb2e234-3ab3-4376-b66a-cf8535278d77_12",
-  "correctAnswer": "6",
+  "correctAnswer": "7",
   "section": "Math",
   "steps": [
     {
       "title": "Set up",
-      "content": "Expand $ry^4(9y - 6)$: $9ry^5 - 6ry^4$. This must equal $54y^5 - 36y^4$."
+      "content": "Expand $ry^4(9y - 6)$: $9ry^5 - 6ry^4$. This must equal $63y^5 - 42y^4$."
     },
     {
       "title": "Solve",
-      "content": "Match the $y^5$ coefficient: $9r = 54$, so $r = 6$. Check with $y^4$: $-6(6) = -36$ &#10003;"
+      "content": "Match the $y^5$ coefficient: $9r = 63$, so $r = 7$. Check with $y^4$: $-6(7) = -42$ &#10003;"
     },
     {
       "title": "Answer",
-      "content": "<strong>6</strong> is correct."
+      "content": "<strong>7</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "As a final check, make sure the computed value answers exactly what the question asks for. The work above gives $6$; substituting or interpreting it in the original condition satisfies the requirement, so $6$ is the value to enter."
+      "content": "As a final check, make sure the computed value answers exactly what the question asks for. The work above gives $7$; substituting or interpreting it in the original condition satisfies the requirement, so $7$ is the value to enter."
     }
   ]
 }

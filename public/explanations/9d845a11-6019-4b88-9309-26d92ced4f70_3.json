@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Solve the equation",
-      "content": "$$x+50=160$$ Subtract 50 from both sides: $$x=160-50=110$$"
+      "content": "$$x+42=150$$ Subtract 42 from both sides: $$x=150-42=108$$"
     },
     {
       "title": "Evaluate all choices",
-      "content": "<ul><li><strong>Choice A &mdash; $x = 50$</strong>: Check: $50+50=100\\neq 160$. &#10007;</li><li><strong>Choice B &mdash; $x = 60$</strong>: Check: $60+50=110\\neq 160$. &#10007;</li><li><strong>Choice C &mdash; $x = 110$</strong>: Check: $110+50=160$. &#10003; That confirms <strong>C</strong> is correct.</li><li><strong>Choice D &mdash; $x = 160$</strong>: Check: $160+50=210\\neq 160$. &#10007;</li></ul>"
+      "content": "<ul><li><strong>Choice A &mdash; $x = 42$</strong>: Check: $42+42=84\\neq 150$. &#10007;</li><li><strong>Choice B &mdash; $x = 66$</strong>: Check: $66+42=108\\neq 150$. &#10007;</li><li><strong>Choice C &mdash; $x = 108$</strong>: Check: $108+42=150$. &#10003; That confirms <strong>C</strong> is correct.</li><li><strong>Choice D &mdash; $x = 150$</strong>: Check: $150+42=192\\neq 150$. &#10007;</li></ul>"
     }
   ]
 }

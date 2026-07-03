@@ -1,6 +1,6 @@
 {
   "questionId": "d7a3179d",
-  "correctAnswer": "31",
+  "correctAnswer": "37",
   "section": "Math",
   "steps": [
     {
@@ -9,11 +9,11 @@
     },
     {
       "title": "Divide",
-      "content": "$$1116\\div 36=31.$$"
+      "content": "$$1332\\div 36=37.$$"
     },
     {
       "title": "Confirm the units",
-      "content": "$31$ yards is correct because $31\\cdot36=1116$ inches. The answer is <strong>31</strong>. Dividing is the correct direction because yards are larger units than inches."
+      "content": "$37$ yards is correct because $37\\cdot36=1332$ inches. The answer is <strong>37</strong>. Dividing is the correct direction because yards are larger units than inches."
     }
   ]
 }

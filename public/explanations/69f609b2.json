@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Simplify the equation",
-      "content": "Distribute on both sides: $$12(x-3)=-3(x+12)$$ $$12x-36=-3x-36$$ Add $3x$ and $36$ to both sides: $$15x=0$$"
+      "content": "Distribute on both sides: $$10(x-4)=-2(x+20)$$ $$10x-40=-2x-40$$ Add $2x$ and $40$ to both sides: $$12x=0$$"
     },
     {
       "title": "Count the solutions",

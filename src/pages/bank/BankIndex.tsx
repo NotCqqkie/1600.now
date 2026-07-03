@@ -54,8 +54,8 @@ import {
 } from "@/hooks/useUserProgress";
 import { PageSeo, buildBreadcrumbJsonLd } from "@/components/seo/PageSeo";
 import { clearBankQuestionViewModeStorage } from "@/lib/questionViewModeStorage";
+import { useToast } from "@/hooks/use-toast";
 import { cn } from "@/lib/utils";
-import "katex/dist/katex.min.css";
 
 const loadBankPool = async (
   subject: BankSubject,
@@ -324,6 +324,7 @@ export const BankIndex = ({
   onHomeFilterDemoControlOpenChange,
 }: BankIndexProps = {}) => {
   const navigate = useNavigate();
+  const { toast } = useToast();
   const [searchParams, setSearchParams] = useSearchParams();
   const bankSource = normalizeBankSource(searchParams.get("bankType"));
   const keywordSearchParam = searchParams.get("q") ?? "";
@@ -697,7 +698,21 @@ export const BankIndex = ({
       setIsKeywordSearchLoading(false);
     };
 
+    const onError = () => {
+      if (cancelled) return;
+      setIsKeywordSearchLoading(false);
+      bankSearchWorkerRef.current?.terminate();
+      bankSearchWorkerRef.current = null;
+      toast({
+        variant: "destructive",
+        title: "Search unavailable",
+        description: "Keyword search failed to run. Please try again.",
+      });
+    };
+
     worker.addEventListener("message", onMessage);
+    worker.addEventListener("error", onError);
+    worker.addEventListener("messageerror", onError);
     worker.postMessage({
       type: "query",
       requestId,
@@ -710,6 +725,8 @@ export const BankIndex = ({
     return () => {
       cancelled = true;
       worker.removeEventListener("message", onMessage);
+      worker.removeEventListener("error", onError);
+      worker.removeEventListener("messageerror", onError);
     };
   }, [
     bankSource,
@@ -718,6 +735,7 @@ export const BankIndex = ({
     getBankSearchWorker,
     isHomeFilterDemo,
     keywordSearchProgress,
+    toast,
   ]);
   const getFilteredQuestions = useCallback((questions: BankQuestion[]): BankQuestion[] => {
     return questions.filter(q => questionPassesFilters(q));

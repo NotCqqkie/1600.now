@@ -1,6 +1,6 @@
 {
   "questionId": "c81499e1",
-  "correctAnswer": "39000",
+  "correctAnswer": "42000",
   "section": "Math",
   "steps": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "title": "Multiply the mass by the conversion factor",
-      "content": "The armadillo's mass is 39 kilograms. Applying the conversion:<br/>$$39 \\text{ kg} \\times 1,000 \\frac{\\text{grams}}{\\text{kg}} = 39,000 \\text{ grams}$$<br/>The giant armadillo's mass is <strong>39,000 grams</strong>."
+      "content": "The anteater's mass is 42 kilograms. Applying the conversion:<br/>$$42 \\text{ kg} \\times 1,000 \\frac{\\text{grams}}{\\text{kg}} = 42,000 \\text{ grams}$$<br/>The giant anteater's mass is <strong>42,000 grams</strong>."
     }
   ]
 }

@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Find the constant C from the initial measurement",
-      "content": "At $t = 0$ hours, the number of bacteria is $P = 12,000$. Substituting into $P = C(2)^{rt}$:<br/>$$12,000 = C(2)^{r \\cdot 0} = C(2)^0 = C$$<br/>Therefore, $C = 12,000$."
+      "content": "At $t = 0$ hours, the number of bacteria is $P = 15,000$. Substituting into $P = C(2)^{rt}$:<br/>$$15,000 = C(2)^{r \\cdot 0} = C(2)^0 = C$$<br/>Therefore, $C = 15,000$."
     },
     {
       "title": "Set up the equation using the second measurement",
-      "content": "At $t = 5$ hours, $P = 24,000$. Substitute into $P = C(2)^{rt}$ with $C = 12,000$:<br/>$$24,000 = 12,000(2)^{5r}$$<br/>Divide both sides by 12,000:<br/>$$2 = (2)^{5r}$$"
+      "content": "At $t = 6$ hours, $P = 30,000$. Substitute into $P = C(2)^{rt}$ with $C = 15,000$:<br/>$$30,000 = 15,000(2)^{6r}$$<br/>Divide both sides by 15,000:<br/>$$2 = (2)^{6r}$$"
     },
     {
       "title": "Solve by equating exponents",
-      "content": "Rewrite the left side as a power of 2: $2 = 2^1$. This gives us:<br/>$$2^1 = 2^{5r}$$<br/>Since the bases are equal, the exponents must be equal:<br/>$$1 = 5r$$<br/>$$r = \\frac{1}{5}$$<br/>That matches the correct answer — <strong>B</strong> is correct."
+      "content": "Rewrite the left side as a power of 2: $2 = 2^1$. This gives us:<br/>$$2^1 = 2^{6r}$$<br/>Since the bases are equal, the exponents must be equal:<br/>$$1 = 6r$$<br/>$$r = \\frac{1}{6}$$<br/>That matches the correct answer - <strong>B</strong> is correct."
     }
   ]
 }

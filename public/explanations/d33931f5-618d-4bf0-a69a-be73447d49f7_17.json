@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Translate the percentage relationship",
-      "content": "The statement <em>18 is 10% of what number</em> means 18 equals 10% of an unknown value. We can write this as:<br/>$$18 = 0.10 \\times x$$<br/>Since $0.10 = \\frac{1}{10}$, we can rewrite this as:<br/>$$18 = \\frac{1}{10} \\times x$$"
+      "content": "The statement <em>24 is 10% of what number</em> means 24 equals 10% of an unknown value. We can write this as:<br/>$$24 = 0.10 \\times x$$<br/>Since $0.10 = \\frac{1}{10}$, we can rewrite this as:<br/>$$24 = \\frac{1}{10} \\times x$$"
     },
     {
       "title": "Solve for the unknown number",
-      "content": "To isolate $x$, multiply both sides by 10:<br/>$$x = 18 \\times 10 = 180$$<br/>That matches the correct answer — <strong>D</strong> is correct."
+      "content": "To isolate $x$, multiply both sides by 10:<br/>$$x = 24 \\times 10 = 240$$<br/>That matches the correct answer &mdash; <strong>D</strong> is correct."
     }
   ]
 }

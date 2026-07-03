@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up",
-      "content": "Carmen has 64 signatures and needs at least 100. Let $x$ = additional signatures needed:$$64 + x \\geq 100$$"
+      "content": "Maya has 73 signatures and needs at least 120. Let $x$ = additional signatures needed:$$73 + x \\geq 120$$"
     },
     {
       "title": "Solve",
-      "content": "Subtract 64: $x \\geq 36$."
+      "content": "Subtract 73: $x \\geq 47$."
     },
     {
       "title": "Answer",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches <strong>Choice A &mdash; 36</strong>, 36, and the other choices fail the same setup or substitution. Therefore <strong>A</strong>."
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches <strong>Choice A &mdash; 47</strong>, 47, and the other choices fail the same setup or substitution. Therefore <strong>A</strong>."
     }
   ]
 }

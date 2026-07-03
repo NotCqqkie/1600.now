@@ -5,12 +5,12 @@
   "steps": [
     {
       "title": "Vieta shortcut: product of roots = c/a",
-      "content": "For $x^2 + 8x - 60 = 0$, identify $a = 1$, $c = -60$. No need to factor or use the quadratic formula.",
+      "content": "For $x^2 + 10x - 80 = 0$, identify $a = 1$, $c = -80$. No need to factor or use the quadratic formula.",
       "formula": "$$\\text{product of roots} = \\frac{c}{a}$$"
     },
     {
       "title": "Compute",
-      "content": "$\\frac{c}{a} = \\frac{-60}{1} = -60$. <strong>A</strong> is correct. The shortcut works because the quadratic is monic, so the constant term is exactly the product of the two roots."
+      "content": "$\\frac{c}{a} = \\frac{-80}{1} = -80$. <strong>A</strong> is correct. The shortcut works because the quadratic is monic, so the constant term is exactly the product of the two roots."
     }
   ]
 }

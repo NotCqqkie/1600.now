@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Identify the core reason",
-      "content": "The passage directly states: “How we define a neighborhood and its boundaries is subjective, so the team used a clustering algorithm to locate dense groupings of amenities...” This reveals the decisive signal: the subjectivity problem prompted the team to use the algorithm."
+      "content": "The passage directly states: “How we define a neighborhood and its boundaries is subjective, so the team used a clustering algorithm to locate dense groupings of amenities that represent human-identified neighborhoods like Boston's Central Square.” This reveals the decisive signal: the subjectivity problem prompted the team to use the algorithm."
     },
     {
       "title": "Apply the reason to the choices",

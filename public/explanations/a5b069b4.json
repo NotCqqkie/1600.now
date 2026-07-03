@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Sort the data and identify the two middle values",
-      "content": "The data set is: 4, 10, 18, 4, 4, 5, 6, 5<br/>Sorted: <strong>4, 4, 4, 5, 5, 6, 10, 18</strong><br/>With 8 values, the middle positions (4th and 5th) are both <strong>5</strong>."
+      "content": "The data set is: 6, 12, 20, 6, 6, 7, 8, 7<br/>Sorted: <strong>6, 6, 6, 7, 7, 8, 12, 20</strong><br/>With 8 values, the middle positions (4th and 5th) are both <strong>7</strong>."
     },
     {
       "title": "Calculate the median",
-      "content": "The median of an even-sized data set is the average of the two middle values.<br/>$$\\text{Median} = \\frac{5 + 5}{2} = 5$$<br/>That is the correct answer."
+      "content": "The median of an even-sized data set is the average of the two middle values.<br/>$$\\text{Median} = \\frac{7 + 7}{2} = 7$$<br/>That matches <strong>Choice B &mdash; $7$</strong>."
     }
   ]
 }

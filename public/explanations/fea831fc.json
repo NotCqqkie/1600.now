@@ -1,6 +1,6 @@
 {
   "questionId": "fea831fc",
-  "correctAnswer": "25.4",
+  "correctAnswer": "28.9",
   "section": "Math",
   "steps": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "title": "Calculate the average speed and round",
-      "content": "Substituting the given values: distance = 11 miles, time = 26 minutes:<br/>$$\\text{speed} = \\frac{11 \\times 60}{26} = \\frac{660}{26} = 25.384...$$<br/>Rounding to the nearest tenth of a mile per hour gives <strong>25.4 mph</strong>."
+      "content": "Substituting the given values: distance = 13 miles, time = 27 minutes:<br/>$$\\text{speed} = \\frac{13 \\times 60}{27} = \\frac{780}{27} = 28.888...$$<br/>Rounding to the nearest tenth of a mile per hour gives <strong>28.9 mph</strong>."
     }
   ]
 }

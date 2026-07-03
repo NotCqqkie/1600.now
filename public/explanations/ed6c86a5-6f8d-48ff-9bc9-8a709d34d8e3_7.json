@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up",
-      "content": "Both equations equal $y$. Add them to eliminate $x$ and solve for $2y$: $$y + y = \\left(\\frac{x}{3}+8\\right)+\\left(-\\frac{x}{3}+20\\right).$$"
+      "content": "Both equations equal $y$. Add them to eliminate $x$ and solve for $2y$: $$y + y = \\left(\\frac{x}{3}+7\\right)+\\left(-\\frac{x}{3}+23\\right).$$"
     },
     {
       "title": "Solve",
-      "content": "The $x$ terms cancel. Add the constants: $$2y = 8 + 20 = 28.$$"
+      "content": "The $x$ terms cancel. Add the constants: $$2y = 7 + 23 = 30.$$"
     },
     {
       "title": "Answer",

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the input value",
-      "content": "The variable $x$ represents minutes after the airplane begins to descend. Since we want the height 4 minutes after descent begins, we need to find $f(4)$."
+      "content": "The variable $x$ represents minutes after the helicopter begins to descend. Since we want the height 4 minutes after descent begins, we need to find $f(4)$."
     },
     {
       "title": "Evaluate the function at x = 4",
-      "content": "Substitute $x = 4$ into $f(x) = -40x + 280$:<br/>$$f(4) = -40(4) + 280$$<br/>$$f(4) = -160 + 280$$<br/>$$f(4) = 120$$<br/>The predicted height is 120 feet. <strong>A</strong> is correct."
+      "content": "Substitute $x = 4$ into $f(x) = -35x + 270$:<br/>$$f(4) = -35(4) + 270$$<br/>$$f(4) = -140 + 270$$<br/>$$f(4) = 130$$<br/>The predicted height is 130 feet. <strong>A</strong> is correct."
     }
   ]
 }

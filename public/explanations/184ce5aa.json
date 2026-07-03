@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Isolate y to read off the slope of line h",
-      "content": "$\\tfrac{1}{5}x + \\tfrac{1}{7}y - 70 = 0 \\Rightarrow \\tfrac{1}{7}y = -\\tfrac{1}{5}x + 70 \\Rightarrow y = -\\tfrac{7}{5}x + 490$. Slope of $h = -\\tfrac{7}{5}$."
+      "content": "$\\tfrac{1}{4}x + \\tfrac{1}{9}y - 72 = 0 \\Rightarrow \\tfrac{1}{9}y = -\\tfrac{1}{4}x + 72 \\Rightarrow y = -\\tfrac{9}{4}x + 648$. Slope of $h = -\\tfrac{9}{4}$."
     },
     {
       "title": "Flip and negate for the perpendicular slope",
-      "content": "Perpendicular shortcut: negative reciprocal of $-\\tfrac{7}{5}$ is $\\tfrac{5}{7}$. Perpendicular slopes multiply to $-1$, and $(-\\tfrac{7}{5})(\\tfrac{5}{7})=-1$, confirming the slope. That matches <strong>Choice D &mdash; $\\frac{5}{7}$</strong>."
+      "content": "Perpendicular shortcut: negative reciprocal of $-\\tfrac{9}{4}$ is $\\tfrac{4}{9}$. Perpendicular slopes multiply to $-1$, and $(-\\tfrac{9}{4})(\\tfrac{4}{9})=-1$, confirming the slope. That matches <strong>Choice D &mdash; $\\frac{4}{9}$</strong>."
     }
   ]
 }

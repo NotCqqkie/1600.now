@@ -9,15 +9,15 @@
     },
     {
       "title": "Find the slope of the tangent line",
-      "content": "A tangent line is perpendicular to the radius at the point of tangency. The radius from center $(-1,1)$ to $(7,-6)$ has slope $\\dfrac{-6-1}{7-(-1)}=\\dfrac{-7}{8}$, so the tangent slope is the negative reciprocal: $\\dfrac{8}{7}$."
+      "content": "A tangent line is perpendicular to the radius at the point of tangency. The radius from center $(-2,2)$ to $(6,-4)$ has slope $\\dfrac{-4-2}{6-(-2)}=\\dfrac{-6}{8}=-\\dfrac{3}{4}$, so the tangent slope is the negative reciprocal: $\\dfrac{4}{3}$."
     },
     {
       "title": "Write the equation of line t",
-      "content": "Using point-slope form through $(7,-6)$: $y-(-6)=\\dfrac{8}{7}(x-7)$, which simplifies to $y=\\dfrac{8}{7}x-8-6=\\dfrac{8}{7}x-14$."
+      "content": "Using point-slope form through $(6,-4)$: $y-(-4)=\\dfrac{4}{3}(x-6)$, which simplifies to $y=\\dfrac{4}{3}x-8-4=\\dfrac{4}{3}x-12$."
     },
     {
       "title": "Test each point in the line equation",
-      "content": "Substitute each $x$ into $y=\\dfrac{8}{7}x-14$:<ul><li>A) $(0,\\tfrac{8}{7})$: $\\dfrac{8}{7}(0)-14=-14 \\ne \\dfrac{8}{7}$ &mdash; eliminate.</li><li>B) $(6,9)$: $\\dfrac{8}{7}(6)-14=\\dfrac{48}{7}-\\dfrac{98}{7}=-\\dfrac{50}{7} \\ne 9$ &mdash; eliminate.</li><li>C) $(14,2)$: $\\dfrac{8}{7}(14)-14=16-14=2$ &mdash; matches.</li><li>D) $(15,1)$: $\\dfrac{8}{7}(15)-14=\\dfrac{120}{7}-\\dfrac{98}{7}=\\dfrac{22}{7} \\ne 1$ &mdash; eliminate.</li></ul><strong>C</strong> is correct."
+      "content": "Substitute each $x$ into $y=\\dfrac{4}{3}x-12$:<ul><li>A) $(0,\\tfrac{4}{3})$: $\\dfrac{4}{3}(0)-12=-12 \\ne \\dfrac{4}{3}$ &mdash; eliminate.</li><li>B) $(1,6)$: $\\dfrac{4}{3}(1)-12=\\dfrac{4}{3}-\\dfrac{36}{3}=-\\dfrac{32}{3} \\ne 6$ &mdash; eliminate.</li><li>C) $(12,4)$: $\\dfrac{4}{3}(12)-12=16-12=4$ &mdash; matches.</li><li>D) $(14,2)$: $\\dfrac{4}{3}(14)-12=\\dfrac{56}{3}-\\dfrac{36}{3}=\\dfrac{20}{3} \\ne 2$ &mdash; eliminate.</li></ul><strong>C</strong> is correct."
     }
   ]
 }

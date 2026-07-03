@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $2t^{2}(79t-12u)$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $6t^{2}(31t-5u)$."
     },
     {
       "title": "Algebra check",
@@ -13,11 +13,11 @@
     },
     {
       "title": "Identify what the question needs",
-      "content": "We need to factor $158t^3 - 24t^2u$ by pulling out the greatest common factor (GCF) from both terms."
+      "content": "We need to factor $186t^3 - 30t^2u$ by pulling out the greatest common factor (GCF) from both terms."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; $2t^{2}(79t^{2}-12u)$</strong>: the first term would become $158t^4$, not $158t^3$. &#10007;</li><li><strong>Choice B &mdash; $2t^{2}(79t-12u)$</strong>: GCF of $158t^3$ and $24t^2u$ is $2t^2$. Factoring gives $2t^2(79t - 12u)$. Check: $2t^2 \\cdot 79t = 158t^3$ and $2t^2 \\cdot 12u = 24t^2u$. &#10003;</li><li><strong>Choice C &mdash; $2tu(79t^{2}-12)$</strong>: multiplying gives $158t^3u - 24tu$, which does not match the original expression. &#10007;</li><li><strong>Choice D &mdash; $2t^{2}u(79t-12)$</strong>: multiplying gives $158t^3u - 24t^2u$, with an extra $u$ in the first term. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; $6t^{2}(31t^{2}-5u)$</strong>: the first term would become $186t^4$, not $186t^3$. &#10007;</li><li><strong>Choice B &mdash; $6t^{2}(31t-5u)$</strong>: GCF of $186t^3$ and $30t^2u$ is $6t^2$. Factoring gives $6t^2(31t - 5u)$. Check: $6t^2 \\cdot 31t = 186t^3$ and $6t^2 \\cdot 5u = 30t^2u$. &#10003;</li><li><strong>Choice C &mdash; $6tu(31t^{2}-5)$</strong>: multiplying gives $186t^3u - 30tu$, which does not match the original expression. &#10007;</li><li><strong>Choice D &mdash; $6t^{2}u(31t-5)$</strong>: multiplying gives $186t^3u - 30t^2u$, with an extra $u$ in the first term. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
     }
   ]
 }

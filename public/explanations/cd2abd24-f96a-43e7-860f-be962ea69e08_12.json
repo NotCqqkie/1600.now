@@ -1,6 +1,6 @@
 {
   "questionId": "cd2abd24-f96a-43e7-860f-be962ea69e08_12",
-  "correctAnswer": "27",
+  "correctAnswer": "64",
   "section": "Math",
   "steps": [
     {
@@ -9,12 +9,12 @@
     },
     {
       "title": "Recall the volume formula for a cube",
-      "content": "For a cube with edge length $s$, the volume equals the product of its three equal dimensions: length × width × height, all equal to $s$.",
+      "content": "For a cube with edge length $s$, the volume equals the product of its three equal dimensions: length times width times height, all equal to $s$.",
       "formula": "$$V = s^3$$"
     },
     {
       "title": "Substitute and calculate",
-      "content": "With edge length $s = 3$ inches:<br/>$$V = 3^3 = 3 \\times 3 \\times 3 = 27 \\ \\text{cubic inches}$$<br/>The volume is <strong>27 cubic inches</strong>."
+      "content": "With edge length $s = 4$ inches:<br/>$$V = 4^3 = 4 \\times 4 \\times 4 = 64 \\ \\text{cubic inches}$$<br/>The volume is <strong>64 cubic inches</strong>."
     }
   ]
 }

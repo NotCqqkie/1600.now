@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the equation and target value",
-      "content": "We're given $s = 10 + 4t$, where $s$ is speed in mph and $t$ is time in seconds. We need to find the speed when $t = 5$ seconds."
+      "content": "We're given $s = 12 + 5t$, where $s$ is speed in mph and $t$ is time in seconds. We need to find the speed when $t = 6$ seconds."
     },
     {
       "title": "Substitute and calculate",
-      "content": "Substitute $t = 5$ into the equation:<br/>$$s = 10 + 4(5) = 10 + 20 = 30$$<br/>The speed is 30 mph. That confirms <strong>D</strong> is correct."
+      "content": "Substitute $t = 6$ into the equation:<br/>$$s = 12 + 5(6) = 12 + 30 = 42$$<br/>The speed is 42 mph. That confirms <strong>D</strong> is correct."
     }
   ]
 }

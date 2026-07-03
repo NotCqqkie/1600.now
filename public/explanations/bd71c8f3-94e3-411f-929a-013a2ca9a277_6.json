@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute x = 8 using the given condition",
-      "content": "We have $f(x) = 7x + b$ and we're told that $f(8) = 56$. Substitute $x = 8$ into the function: $$f(8) = 7(8) + b = 56 + b$$ Since $f(8) = 56$, we have the equation: $$56 + b = 56$$"
+      "title": "Substitute x = 9 using the given condition",
+      "content": "We have $f(x) = 6x + b$ and we're told that $f(9) = 54$. Substitute $x = 9$ into the function: $$f(9) = 6(9) + b = 54 + b$$ Since $f(9) = 54$, we have the equation: $$54 + b = 54$$"
     },
     {
       "title": "Solve for b",
-      "content": "From the equation $56 + b = 56$, subtract 56 from both sides: $$b = 0$$ That is the correct answer."
+      "content": "From the equation $54 + b = 54$, subtract 54 from both sides: $$b = 0$$ That is the correct answer."
     }
   ]
 }

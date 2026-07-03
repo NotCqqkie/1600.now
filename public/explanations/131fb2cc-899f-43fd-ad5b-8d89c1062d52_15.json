@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Translate the situation",
-      "content": "Payment $p$ equals the original retail price minus 135 dollars for each year since release. The original retail price is 670 dollars and $t$ is the number of years."
+      "content": "Payment $p$ equals the original retail price minus 145 dollars for each year since release. The original retail price is 720 dollars and $t$ is the number of years."
     },
     {
       "title": "Write the equation",
-      "content": "The direct translation is $p = 670 - 135t$."
+      "content": "The direct translation is $p = 720 - 145t$."
     },
     {
       "title": "Check the model",
-      "content": "For $t = 1$, $p = 670 - 135 = 535$. For $t = 4$, $p = 670 - 540 = 130$. Both values are sensible within $1 \\leq t \\leq 4$."
+      "content": "For $t = 1$, $p = 720 - 145 = 575$. For $t = 4$, $p = 720 - 580 = 140$. Both values are sensible within $1 \\leq t \\leq 4$."
     },
     {
       "title": "Match the choice",
-      "content": "The equation must keep $p$ on the left and subtract $135t$ from the starting price, 670.<br/><br/>That matches <strong>Choice B &mdash; $p = 670 - 135t$</strong>."
+      "content": "The equation must keep $p$ on the left and subtract $145t$ from the starting price, 720.<br/><br/>That matches <strong>Choice B &mdash; $p = 720 - 145t$</strong>."
     }
   ]
 }

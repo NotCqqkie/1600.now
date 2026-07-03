@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The goal is to indicate the <strong>size</strong> of the Pearl Harbor NWR. Only one note contains a size measurement: &apos;It encompasses 61 acres.&apos; The correct choice must include that figure."
+      "content": "The goal is to indicate the <strong>size</strong> of the Kohana Marsh NWR. Only one note contains a size measurement: &apos;It encompasses 61 acres.&apos; The correct choice must include that figure."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; A protected natural area, the Pearl Harbor NWR encompasses 61 acres of land in Hawaii.</strong>: includes &apos;61 acres,&apos; directly indicating the refuge&apos;s size. &#10003;</li><li><strong>Choice B &mdash; The Pearl Harbor NWR is a protected natural area managed by the US Fish & Wildlife Service, which limits human activities there.</strong>: focuses on management and activity restrictions &mdash; no size mentioned. &#10007;</li><li><strong>Choice C &mdash; The Pearl Harbor NWR is a natural area in Hawaii, home to the Hawaiian stilt.</strong>: mentions the species it protects, not the size. &#10007;</li><li><strong>Choice D &mdash; Home to the Hawaiian stilt, Hawaii's Pearl Harbor NWR is managed by the US Fish & Wildlife Service.</strong>: mentions the species and management agency &mdash; no size. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; A protected natural area, the Kohana Marsh NWR encompasses 61 acres of land in Hawaii.</strong>: includes the relevant size detail, directly indicating the refuge&apos;s size. &#10003;</li><li><strong>Choice B &mdash; The Kohana Marsh NWR is a protected natural area managed by the US Fish & Wildlife Service, which limits human activities there.</strong>: focuses on management and activity restrictions &mdash; no size mentioned. &#10007;</li><li><strong>Choice C &mdash; The Kohana Marsh NWR is a natural area in Hawaii, home to the Hawaiian stilt.</strong>: mentions the species it protects, not the size. &#10007;</li><li><strong>Choice D &mdash; Home to the Hawaiian stilt, Hawaii's Kohana Marsh NWR is managed by the US Fish & Wildlife Service.</strong>: mentions the species and management agency &mdash; no size. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
     }
   ]
 }

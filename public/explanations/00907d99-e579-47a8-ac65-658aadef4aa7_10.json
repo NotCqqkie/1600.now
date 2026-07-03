@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $7yz^{3}+5yz$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $8yz^{4}+7yz$."
     },
     {
       "title": "Algebra check",
@@ -13,15 +13,15 @@
     },
     {
       "title": "Identify the like terms",
-      "content": "The terms $4yz^3$ and $3yz^3$ are like terms because they have the exact same variable part, $yz^3$. The term $5yz$ is not like them because it has $z$, not $z^3$."
+      "content": "The terms $6yz^4$ and $2yz^4$ are like terms because they have the exact same variable part, $yz^4$. The term $7yz$ is not like them because it has $z$, not $z^4$."
     },
     {
       "title": "Combine coefficients only",
-      "content": "Add the coefficients of the like terms and keep the variable part unchanged:<br/>$$4yz^3+3yz^3=7yz^3$$<br/>So the full expression becomes:<br/>$$4yz^3+5yz+3yz^3=7yz^3+5yz$$"
+      "content": "Add the coefficients of the like terms and keep the variable part unchanged:<br/>$$6yz^4+2yz^4=8yz^4$$<br/>So the full expression becomes:<br/>$$6yz^4+7yz+2yz^4=8yz^4+7yz$$"
     },
     {
       "title": "Avoid the exponent trap",
-      "content": "Only coefficients of like terms are added. The exponent stays $3$ because $4yz^3$ and $3yz^3$ are being added, not multiplied."
+      "content": "Only coefficients of like terms are added. The exponent stays $4$ because $6yz^4$ and $2yz^4$ are being added, not multiplied."
     }
   ]
 }

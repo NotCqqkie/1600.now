@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Apply the zero product property",
-      "content": "The equation $(v - 12)(v - 3) = 0$ is already factored. By the zero product property, when a product equals zero, at least one factor must equal zero:<br/>$$v - 12 = 0 \\quad \\text{or} \\quad v - 3 = 0$$"
+      "content": "The equation $(v - 14)(v - 5) = 0$ is already factored. By the zero product property, when a product equals zero, at least one factor must equal zero:<br/>$$v - 14 = 0 \\quad \\text{or} \\quad v - 5 = 0$$"
     },
     {
       "title": "Solve each factor equation",
-      "content": "<ul><li>From $v - 12 = 0$: $v = 12$</li><li>From $v - 3 = 0$: $v = 3$</li></ul>The solutions are $3$ and $12$. That confirms <strong>D</strong> is correct."
+      "content": "<ul><li>From $v - 14 = 0$: $v = 14$</li><li>From $v - 5 = 0$: $v = 5$</li></ul>The solutions are $5$ and $14$. That confirms <strong>D</strong> is correct."
     }
   ]
 }

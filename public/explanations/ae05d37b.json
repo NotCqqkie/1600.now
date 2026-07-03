@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Read the doubling structure",
-      "content": "The model is $$f(t)=40{,}000\\cdot 2^{t/790}.$$ The starting amount is $40{,}000$, and the power of $2$ controls how many doublings happen."
+      "content": "The model is $$f(t)=48{,}000\\cdot 2^{t/820}.$$ The starting amount is $48{,}000$, and the power of $2$ controls how many doublings happen."
     },
     {
       "title": "Set one doubling",
-      "content": "For the population to double once, the multiplier must be $2^1$. So set the exponent equal to $1$: $$\\frac{t}{790}=1.$$"
+      "content": "For the population to double once, the multiplier must be $2^1$. So set the exponent equal to $1$: $$\\frac{t}{820}=1.$$"
     },
     {
       "title": "Check the choices",
-      "content": "Multiply both sides by $790$: $t=790.$ The answer must be the time for one doubling. The distractors confuse that time with the base, two doubling periods, or the initial population."
+      "content": "Multiply both sides by $820$: $t=820.$ This matches choice <strong>B</strong>. The distractors confuse that time with the base, two doubling periods, or the initial population."
     }
   ]
 }

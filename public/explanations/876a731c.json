@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Simplify the linear equation",
-      "content": "Expand and simplify the second equation:<br/>$$2y + 6 = 2(x + 3)$$<br/>$$2y + 6 = 2x + 6$$<br/>$$2y = 2x$$<br/>$$y = x$$"
+      "content": "Expand and simplify the second equation:<br/>$$3y + 12 = 3(x + 4)$$<br/>$$3y + 12 = 3x + 12$$<br/>$$3y = 3x$$<br/>$$y = x$$"
     },
     {
       "title": "Substitute and solve for the positive root",

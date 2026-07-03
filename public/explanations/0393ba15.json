@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Move the x terms together",
-      "content": "Start with $-49x=-98x$. Add $98x$ to both sides:<br/>$$49x=0$$"
+      "content": "Start with $-37x=-74x$. Add $74x$ to both sides:<br/>$$37x=0$$"
     },
     {
       "title": "Solve",
-      "content": "Divide by $49$:<br/>$$x=0$$<br/>This is one specific solution."
+      "content": "Divide by $37$:<br/>$$x=0$$<br/>This is one specific solution."
     },
     {
       "title": "Classify the equation",

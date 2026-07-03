@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Distribute the 3",
-      "content": "Start with $$3(x+5)-6$$ Distribute $3$ to both terms inside the parentheses: $$3x+15-6$$"
+      "title": "Distribute the 4",
+      "content": "Start with $$4(x+6)-7$$ Distribute $4$ to both terms inside the parentheses: $$4x+24-7$$"
     },
     {
       "title": "Combine constants",
-      "content": "The constant terms are $15$ and $-6$: $$15-6=9$$ So the expression simplifies to $$3x+9$$"
+      "content": "The constant terms are $24$ and $-7$: $$24-7=17$$ So the expression simplifies to $$4x+17$$"
     },
     {
       "title": "Avoid the common distribution error",
-      "content": "The $3$ multiplies both $x$ and $5$, giving $3x+15$ before subtracting $6$. Do not combine the $5$ and $-6$ before distributing."
+      "content": "The $4$ multiplies both $x$ and $6$, giving $4x+24$ before subtracting $7$. Do not combine the $6$ and $-7$ before distributing."
     },
     {
       "title": "Match the choice",
-      "content": "$3x+9$ matches <strong>Choice C &mdash; $3x + 9$</strong>."
+      "content": "$4x+17$ matches <strong>Choice C &mdash; $4x + 17$</strong>."
     }
   ]
 }

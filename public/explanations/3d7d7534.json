@@ -1,19 +1,19 @@
 {
   "questionId": "3d7d7534",
-  "correctAnswer": "30",
+  "correctAnswer": "28",
   "section": "Math",
   "steps": [
     {
-      "title": "Add 7 to both sides to isolate the product",
-      "content": "The equation $(d-30)(d+30)-7=-7$ has $-7$ on both sides. Adding $7$ to both sides eliminates these constants:<br/>$$(d-30)(d+30) = 0$$"
+      "title": "Add 9 to both sides to isolate the product",
+      "content": "The equation $(d-28)(d+28)-9=-9$ has $-9$ on both sides. Adding $9$ to both sides eliminates these constants:<br/>$$(d-28)(d+28) = 0$$"
     },
     {
       "title": "Apply the zero product property",
-      "content": "A product equals zero if and only if at least one factor equals zero. Therefore:<br/>$$d - 30 = 0 \\quad \\text{or} \\quad d + 30 = 0$$"
+      "content": "A product equals zero if and only if at least one factor equals zero. Therefore:<br/>$$d - 28 = 0 \\quad \\text{or} \\quad d + 28 = 0$$"
     },
     {
       "title": "Solve each factor for d",
-      "content": "From the first equation: $d = 30$<br/>From the second equation: $d = -30$<br/><br/>Both values satisfy the original equation. One solution is $d = 30$ — <strong>30</strong> is correct."
+      "content": "From the first equation: $d = 28$<br/>From the second equation: $d = -28$<br/><br/>Both values satisfy the original equation. One solution is $d = 28$ — <strong>28</strong> is correct."
     }
   ]
 }

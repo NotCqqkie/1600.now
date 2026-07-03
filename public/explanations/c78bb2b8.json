@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Calculate the sum from each group",
-      "content": "For Muskeget Island (240 seals, mean 88 inches): $240 \\times 88 = 21,120$ inches. For Sable Island (120 seals, mean 94 inches): $120 \\times 94 = 11,280$ inches."
+      "content": "For Lake Arden (180 trout, mean 84 inches): $180 \\times 84 = 15,120$ inches. For Lake Benton (90 trout, mean 90 inches): $90 \\times 90 = 8,100$ inches."
     },
     {
       "title": "Find the combined mean using the weighted average formula",
-      "content": "Add the group sums: $21,120+11,280=32,400$ inches. Divide by the total count: $$\\frac{32,400}{360}=90$$ inches. The combined mean is $90$ inches, so <strong>B</strong> is correct.",
+      "content": "Add the group sums: $15,120+8,100=23,220$ inches. Divide by the total count: $$\\frac{23,220}{270}=86$$ inches. The combined mean is $86$ inches, so <strong>B</strong> is correct.",
       "formula": "$$\\bar{x}_{combined} = \\frac{n_1 \\bar{x}_1 + n_2 \\bar{x}_2}{n_1 + n_2}$$"
     }
   ]

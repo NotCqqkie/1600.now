@@ -1,15 +1,15 @@
 {
   "questionId": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_22",
-  "correctAnswer": "-35/4,-8.75",
+  "correctAnswer": "-9/2,-4.5",
   "section": "Math",
   "steps": [
     {
       "title": "Factor to read off the roots",
-      "content": "<strong>Shortcut (Vieta's):</strong> Factor out $(x - k)$:<br/>$(x-k)^2 - (k-4a)(x-k) = (x-k)\\bigl[(x-k)-(k-4a)\\bigr] = (x-k)(x-2k+4a) = 0$<br/>The two roots are $x = k$ and $x = 2k - 4a$."
+      "content": "<strong>Shortcut (Vieta's):</strong> Factor out $(x - k)$:<br/>$(x-k)^2 - (k-6a)(x-k) = (x-k)\\bigl[(x-k)-(k-6a)\\bigr] = (x-k)(x-2k+6a) = 0$<br/>The two roots are $x = k$ and $x = 2k - 6a$."
     },
     {
-      "title": "Use sum of roots = 3k + 35",
-      "content": "Sum of roots: $k + (2k - 4a) = 3k - 4a$. Set equal to the given sum $3k + 35$:<br/>$3k - 4a = 3k + 35 \\Rightarrow -4a = 35 \\Rightarrow a = -\\dfrac{35}{4}$<br/>Equivalent decimal: $-8.75$. The answer is <strong>-35/4</strong>."
+      "title": "Use sum of roots = 3k + 27",
+      "content": "Sum of roots: $k + (2k - 6a) = 3k - 6a$. Set equal to the given sum $3k + 27$:<br/>$3k - 6a = 3k + 27 \\Rightarrow -6a = 27 \\Rightarrow a = -\\dfrac{9}{2}$<br/>Equivalent decimal: $-4.5$. The answer is <strong>-9/2</strong>."
     }
   ]
 }

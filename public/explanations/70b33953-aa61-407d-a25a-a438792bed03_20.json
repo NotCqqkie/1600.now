@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Recognize the zero product property",
-      "content": "When a product of factors equals zero, at least one of the factors must equal zero. Here we have $x(x - 1)(x + 7) = 0$ with three factors."
+      "content": "When a product of factors equals zero, at least one of the factors must equal zero. Here we have $x(x - 2)(x + 5) = 0$ with three factors."
     },
     {
       "title": "Set each factor to zero and identify the matching choice",
-      "content": "Setting each factor equal to zero:<ul><li>$x = 0$</li><li>$x - 1 = 0 \\Rightarrow x = 1$</li><li>$x + 7 = 0 \\Rightarrow x = -7$</li></ul>The solutions are $0, 1, -7$. Among the choices, $x = 0$ appears as choice B — <strong>B</strong> is correct."
+      "content": "Setting each factor equal to zero:<ul><li>$x = 0$</li><li>$x - 2 = 0 \\Rightarrow x = 2$</li><li>$x + 5 = 0 \\Rightarrow x = -5$</li></ul>The solutions are $0, 2, -5$. Among the choices, $x = 0$ appears as choice B — <strong>B</strong> is correct."
     }
   ]
 }

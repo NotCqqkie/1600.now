@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the required and current temperatures",
-      "content": "The problem states the butterfly needs a body temperature of at least 55.0°F to fly, and currently its temperature is 34.3°F. To find the minimum increase needed, we calculate how much temperature must be added."
+      "content": "The problem states the butterfly needs a body temperature of at least 58.0 degrees Fahrenheit to fly, and currently its temperature is 46.4 degrees Fahrenheit. To find the minimum increase needed, we calculate how much temperature must be added."
     },
     {
       "title": "Calculate the temperature increase",
-      "content": "Subtract the current temperature from the required minimum temperature:<br/>$$55.0 - 34.3 = 20.7^{\\circ}\\text{F}$$<br/>That matches <strong>Choice D &mdash; 20.7</strong>."
+      "content": "Subtract the current temperature from the required minimum temperature:<br/>$$58.0 - 46.4 = 11.6^{\\circ}\\text{F}$$<br/>That matches <strong>Choice D &mdash; 11.6</strong>."
     }
   ]
 }

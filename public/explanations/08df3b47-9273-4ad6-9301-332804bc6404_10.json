@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Subtract equations to eliminate x",
-      "content": "Set up the system of equations:<br/>$$x + 2y = 60 \\quad \\text{...(1)}$$<br/>$$x + y = 45 \\quad \\text{...(2)}$$<br/>Subtract equation (2) from equation (1) to eliminate $x$:<br/>$$(x + 2y) - (x + y) = 60 - 45$$<br/>$$y = 15$$"
+      "content": "Set up the system of equations:<br/>$$x + 2y = 68 \\quad \\text{...(1)}$$<br/>$$x + y = 50 \\quad \\text{...(2)}$$<br/>Subtract equation (2) from equation (1) to eliminate $x$:<br/>$$(x + 2y) - (x + y) = 68 - 50$$<br/>$$y = 18$$"
     },
     {
       "title": "Substitute to solve for x",
-      "content": "Substitute $y = 15$ back into equation (2):<br/>$$x + 15 = 45$$<br/>$$x = 30$$<br/>That matches <strong>Choice B &mdash; $x = 30$</strong>."
+      "content": "Substitute $y = 18$ back into equation (2):<br/>$$x + 18 = 50$$<br/>$$x = 32$$<br/>That matches <strong>Choice B &mdash; $x = 32$</strong>."
     }
   ]
 }

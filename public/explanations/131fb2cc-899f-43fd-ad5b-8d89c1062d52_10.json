@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Group and factor each pair",
-      "content": "Group: $$(x^9+x^8y)+(xy^4+y^5).$$"
+      "content": "Group: $$(x^8+x^7y)+(xy^5+y^6).$$"
     },
     {
       "title": "Apply the common-factor step",
-      "content": "Factor each: $x^8(x+y)+y^4(x+y)=(x+y)(x^8+y^4)$."
+      "content": "Factor each: $x^7(x+y)+y^5(x+y)=(x+y)(x^7+y^5)$."
     },
     {
       "title": "Identify the matching factor",
-      "content": "So $x^8+y^4$ is a factor. That matches <strong>Choice A &mdash; $x^8 + y^4$</strong>."
+      "content": "So $x^7+y^5$ is a factor. That matches <strong>Choice A &mdash; $x^7 + y^5$</strong>."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches <strong>Choice A &mdash; $x^8 + y^4$</strong>, $x^8 + y^4$. The other choices do not satisfy the same condition from the question, so <strong>A</strong>."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches <strong>Choice A &mdash; $x^7 + y^5$</strong>, $x^7 + y^5$. The other choices do not satisfy the same condition from the question, so <strong>A</strong>."
     }
   ]
 }

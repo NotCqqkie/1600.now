@@ -1,19 +1,19 @@
 {
   "questionId": "b310cd51-4e49-46d2-99c8-70a10c0d83f9_11",
-  "correctAnswer": "3",
+  "correctAnswer": "6",
   "section": "Math",
   "steps": [
     {
-      "title": "Combine like terms in $(4-5x)$",
-      "content": "Both sides contain copies of $(4-5x)$. On the left, $2(4-5x)+7(4-5x) = 9(4-5x)$, so the equation becomes $9(4-5x)+9 = 8(4-5x)+6$."
+      "title": "Combine like terms in $(6-7x)$",
+      "content": "Both sides contain copies of $(6-7x)$. On the left, $3(6-7x)+5(6-7x) = 8(6-7x)$, so the equation becomes $8(6-7x)+10 = 7(6-7x)+4$."
     },
     {
-      "title": "Isolate $(4-5x)$",
-      "content": "Subtract $8(4-5x)$ from both sides: $(4-5x)+9 = 6$. Subtract $9$ from both sides: $(4-5x) = -3$."
+      "title": "Isolate $(6-7x)$",
+      "content": "Subtract $7(6-7x)$ from both sides: $(6-7x)+10 = 4$. Subtract $10$ from both sides: $(6-7x) = -6$."
     },
     {
       "title": "Convert to the target expression",
-      "content": "Since $5x-4 = -(4-5x)$, we have $5x-4 = -(-3) = 3$. The answer is <strong>3</strong>."
+      "content": "Since $7x-6 = -(6-7x)$, we have $7x-6 = -(-6) = 6$. The answer is <strong>6</strong>."
     }
   ]
 }

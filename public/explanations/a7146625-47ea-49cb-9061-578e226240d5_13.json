@@ -14,7 +14,7 @@
     },
     {
       "title": "Read the center and radius from the given equation",
-      "content": "Given $(x-14)^{2}+(y-k)^{2}=36$:<ul><li>Center: $(h, k) = (14, k)$ from the shifted terms</li><li>Radius: $r = \\sqrt{36} = 6$ from the constant</li></ul>That is the correct answer."
+      "content": "Given $(x-11)^{2}+(y-k)^{2}=49$:<ul><li>Center: $(h, k) = (11, k)$ from the shifted terms</li><li>Radius: $r = \\sqrt{49} = 7$ from the constant</li></ul>That is the correct answer."
     }
   ]
 }

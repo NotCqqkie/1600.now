@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find the width from the length",
-      "content": "The house's base length is x inches. It is 1 inch more than the width, so width = x - 1 inches."
+      "content": "The box's base length is x inches. It is 2 inches more than the width, so width = x - 2 inches."
     },
     {
       "title": "Compute the volume using the prism formula",
-      "content": "$$V = 11 \\cdot x \\cdot (x - 1) = 11x(x - 1)$$<br/><strong>A</strong> is correct."
+      "content": "$$V = 14 \\cdot x \\cdot (x - 2) = 14x(x - 2)$$<br/><strong>A</strong> is correct."
     }
   ]
 }

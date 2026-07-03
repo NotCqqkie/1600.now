@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The question asks for the slope of the line $48x - 6y = -32$. Convert to slope-intercept form $y = mx + b$ and read the coefficient of $x$."
+      "content": "The question asks for the slope of the line $42x - 6y = -28$. Convert to slope-intercept form $y = mx + b$ and read the coefficient of $x$."
     },
     {
       "title": "Eliminate the choices",
-      "content": "Isolate $y$: divide $-6y = -48x - 32$ by $-6$ to get $y = 8x + \\tfrac{16}{3}$. The slope is $8$.<ul><li><strong>Choice A &mdash; -8</strong>: wrong sign on the $x$-coefficient. &#10007;</li><li><strong>Choice B &mdash; $-\\frac{3}{2}$</strong>: inverted the coefficients and flipped the sign. &#10007;</li><li><strong>Choice C &mdash; $\\frac{3}{2}$</strong>: inverted the coefficients. &#10007;</li><li><strong>Choice D &mdash; 8</strong>: the coefficient of $x$ after isolating $y$. &#10003;</li></ul>That is the correct answer."
+      "content": "Isolate $y$: divide $-6y = -42x - 28$ by $-6$ to get $y = 7x + \\tfrac{14}{3}$. The slope is $7$.<ul><li><strong>Choice A &mdash; -7</strong>: wrong sign on the $x$-coefficient. &#10007;</li><li><strong>Choice B &mdash; $-\\frac{3}{2}$</strong>: used the ratio of the $x$-coefficient to the constant instead of isolating $y$. &#10007;</li><li><strong>Choice C &mdash; $\\frac{3}{2}$</strong>: used that same ratio but flipped the sign. &#10007;</li><li><strong>Choice D &mdash; 7</strong>: the coefficient of $x$ after isolating $y$. &#10003;</li></ul>That is the correct answer."
     }
   ]
 }

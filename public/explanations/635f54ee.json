@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Find the side length",
-      "content": "A cube with side length $s$ has surface area $6s^2$. The given surface area is $6\\left(\\frac{a}{4}\\right)^2$, so $$6s^2=6\\left(\\frac{a}{4}\\right)^2$$ $$s=\\frac{a}{4}$$"
+      "content": "A cube with side length $s$ has surface area $6s^2$. The given surface area is $6\\left(\\frac{k}{4}\\right)^2$, so $$6s^2=6\\left(\\frac{k}{4}\\right)^2$$ $$s=\\frac{k}{4}$$"
     },
     {
       "title": "Find one face perimeter",
-      "content": "One face is a square with side length $\\frac{a}{4}$, so its perimeter is $$4\\left(\\frac{a}{4}\\right)=a$$"
+      "content": "One face is a square with side length $\\frac{k}{4}$, so its perimeter is $$4\\left(\\frac{k}{4}\\right)=k$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice B (&lsquo;$a$&rsquo;) is $a$, so <strong>B</strong> is correct."
+      "content": "Choice B (&lsquo;$k$&rsquo;) is $k$, so <strong>B</strong> is correct."
     }
   ]
 }

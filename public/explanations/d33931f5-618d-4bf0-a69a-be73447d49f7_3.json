@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Interpret x in the function k(x)",
-      "content": "The function $ k(x) $ models the number of students $ x $ years after the organization's establishment. Here, $ x = 4 $ represents <strong>4 years after the start</strong>. The output $ k(4) = 44 $ directly means the estimated number of students at that point."
+      "title": "Interpret x in the function h(x)",
+      "content": "The function $ h(x) $ models the number of students $ x $ years after the organization's establishment. Here, $ x = 4 $ represents <strong>4 years after the start</strong>. The output $ h(4) = 46 $ directly means the estimated number of students at that point."
     },
     {
       "title": "Match the interpretation to the correct choice",
-      "content": "<strong>It is estimated there were 44 students in the school organization 4 years after it was established.</strong> states: '...44 students in the organization <strong>4 years after</strong> it was established.' This aligns with $ k(4) = 44 $, where the input $ x = 4 $ years directly maps to the described time period. Other choices incorrectly associate 44 students with 0 or 10 years.<br/><br/>That matches the correct answer — <strong>C</strong> is correct."
+      "content": "<strong>It is estimated there were 46 students in the school organization 4 years after it was established.</strong> states: '...46 students in the organization <strong>4 years after</strong> it was established.' This aligns with $ h(4) = 46 $, where the input $ x = 4 $ years directly maps to the described time period. Other choices incorrectly associate 46 students with 0 or 12 years.<br/><br/>That matches the correct answer - <strong>C</strong> is correct."
     }
   ]
 }

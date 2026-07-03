@@ -1,21 +1,21 @@
 {
   "questionId": "fdee0fbf",
-  "correctAnswer": "74",
+  "correctAnswer": "64",
   "section": "Math",
   "steps": [
     {
       "title": "Find the slope of line k",
-      "content": "The line passes through (0,‑6) and (2,2). Use slope formula $$m = \\frac{y_2 - y_1}{x_2 - x_1}$$.<br/>Plug in: $$m = \\frac{2 - (-6)}{2 - 0} = \\frac{8}{2} = 4$$.",
+      "content": "The line passes through (0,-8) and (3,4). Use slope formula $$m = \\frac{y_2 - y_1}{x_2 - x_1}$$.<br/>Plug in: $$m = \\frac{4 - (-8)}{3 - 0} = \\frac{12}{3} = 4$$.",
       "formula": "$$m = \\frac{y_2 - y_1}{x_2 - x_1}$$"
     },
     {
-      "title": "Write the equation using slope‑intercept form",
-      "content": "The y‑intercept is given as (0,‑6), so b = -6. With slope m = 4, the line is $$y = 4x - 6$$.",
+      "title": "Write the equation using slope-intercept form",
+      "content": "The y-intercept is given as (0,-8), so b = -8. With slope m = 4, the line is $$y = 4x - 8$$.",
       "formula": "$$y = mx + b$$"
     },
     {
-      "title": "Evaluate at x = 20 to find w",
-      "content": "Substitute x = 20: $$w = 4(20) - 6 = 80 - 6 = 74$$.<br/>The answer is <strong>74</strong>."
+      "title": "Evaluate at x = 18 to find w",
+      "content": "Substitute x = 18: $$w = 4(18) - 8 = 72 - 8 = 64$$.<br/>The answer is <strong>64</strong>."
     }
   ]
 }

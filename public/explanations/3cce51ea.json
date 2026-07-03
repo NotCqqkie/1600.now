@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Fastest path: try the choices",
-      "content": "Because the choices give possible solutions, plug them into the equation instead of solving from scratch. The only choice that satisfies the equation is <strong>B</strong>, $4$."
+      "content": "Because the choices give possible solutions, plug them into the equation instead of solving from scratch. The only choice that satisfies the equation is <strong>B</strong>, $5$."
     },
     {
       "title": "Isolate the absolute value",
-      "content": "Subtract 61 from both sides of the equation:<br/>$$|p| + 61 = 65$$<br/>$$|p| = 65 - 61 = 4$$"
+      "content": "Subtract 58 from both sides of the equation:<br/>$$|q| + 58 = 63$$<br/>$$|q| = 63 - 58 = 5$$"
     },
     {
-      "title": "Solve for p",
-      "content": "The absolute value equation $|p| = 4$ has two solutions: $p = 4$ and $p = -4$. Looking at the answer choices, only 4 appears as an option. <strong>B</strong> is correct."
+      "title": "Solve for q",
+      "content": "The absolute value equation $|q| = 5$ has two solutions: $q = 5$ and $q = -5$. Looking at the answer choices, only 5 appears as an option. <strong>B</strong> is correct."
     }
   ]
 }

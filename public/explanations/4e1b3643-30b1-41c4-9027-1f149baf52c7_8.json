@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Fastest path: use the function table",
-      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $72$, so the answer is <strong>D</strong>, 72. This is just a one-row lookup, and the arithmetic below confirms the table value."
+      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $42$, so the answer is <strong>D</strong>, 42. This is just a one-row lookup, and the arithmetic below confirms the table value."
     },
     {
       "title": "Set up",
-      "content": "Plug $x = -8$ into $h(x) = 9|x|$: $$h(-8) = 9|-8|$$"
+      "content": "Plug $x = -6$ into $h(x) = 7|x|$: $$h(-6) = 7|-6|$$"
     },
     {
       "title": "Solve",
-      "content": "$|-8| = 8$, so $9 \\times 8 = 72$."
+      "content": "$|-6| = 6$, so $7 \\times 6 = 42$."
     }
   ]
 }

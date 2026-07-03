@@ -1,15 +1,15 @@
 {
   "questionId": "a71b1bc1",
-  "correctAnswer": "25",
+  "correctAnswer": "35",
   "section": "Math",
   "steps": [
     {
       "title": "Translate the conditions into a system of equations",
-      "content": "The two parts sum to the total length: $$x + y = 32$$ And $x$ is 4 more than 3 times $y$: $$x = 3y + 4$$"
+      "content": "The two pieces sum to the total length: $$x + y = 44$$ And $x$ is 8 more than 3 times $y$: $$x = 3y + 8$$"
     },
     {
       "title": "Substitute and solve for x",
-      "content": "Since the second equation gives $x$ in terms of $y$, substitute into the first: <br/>$$(3y + 4) + y = 32$$ <br/>$$4y + 4 = 32$$ <br/>$$4y = 28$$ <br/>$$y = 7$$ <br/>Therefore: $x = 3(7) + 4 = 21 + 4 = 25$."
+      "content": "Since the second equation gives $x$ in terms of $y$, substitute into the first: <br/>$$(3y + 8) + y = 44$$ <br/>$$4y + 8 = 44$$ <br/>$$4y = 36$$ <br/>$$y = 9$$ <br/>Therefore: $x = 3(9) + 8 = 27 + 8 = 35$."
     }
   ]
 }

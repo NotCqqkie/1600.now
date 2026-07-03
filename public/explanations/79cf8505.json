@@ -1,15 +1,15 @@
 {
   "questionId": "79cf8505",
-  "correctAnswer": "34",
+  "correctAnswer": "38",
   "section": "Math",
   "steps": [
     {
       "title": "Set up the equation from the problem constraints",
-      "content": "The three parts sum to 115 cm. One part is 47 cm, and the other two parts are equal—let's call each of them $x$ cm.<br/>$$47 + x + x = 115$$<br/>$$47 + 2x = 115$$"
+      "content": "The three parts sum to 128 cm. One part is 52 cm, and the other two parts are equal, so call each of them $x$ cm.<br/>$$52 + x + x = 128$$<br/>$$52 + 2x = 128$$"
     },
     {
       "title": "Solve for the unknown part length",
-      "content": "Subtract 47 from both sides:<br/>$$2x = 115 - 47$$<br/>$$2x = 68$$<br/>Divide both sides by 2:<br/>$$x = 34$$<br/>One of the two equal parts has length 34 cm."
+      "content": "Subtract 52 from both sides:<br/>$$2x = 128 - 52$$<br/>$$2x = 76$$<br/>Divide both sides by 2:<br/>$$x = 38$$<br/>One of the two equal parts has length 38 cm."
     }
   ]
 }

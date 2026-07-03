@@ -4,7 +4,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $-4c^3 + 9c + 14$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $-5c^3 + 8c + 11$."
     },
     {
       "title": "Algebra check",
@@ -12,15 +12,15 @@
     },
     {
       "title": "Explanation",
-      "content": "Distribute the subtraction sign across the second parenthesis: $(9c + 8) - (4c^3 - 6) = 9c + 8 - 4c^3 + 6$."
+      "content": "Distribute the subtraction sign across the second parenthesis: $(8c + 7) - (5c^3 - 4) = 8c + 7 - 5c^3 + 4$."
     },
     {
       "title": "Explanation",
-      "content": "Combine the constant terms: $8 + 6 = 14$. The linear term $9c$ and cubic term $-4c^3$ have no like terms to combine."
+      "content": "Combine the constant terms: $7 + 4 = 11$. The linear term $8c$ and cubic term $-5c^3$ have no like terms to combine."
     },
     {
       "title": "Explanation",
-      "content": "Write the result in descending degree order: $-4c^3 + 9c + 14$."
+      "content": "Write the result in descending degree order: $-5c^3 + 8c + 11$."
     }
   ],
   "correctAnswer": "D",

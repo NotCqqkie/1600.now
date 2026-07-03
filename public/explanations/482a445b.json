@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, ${x}^{4}+23{x}^{2}+96$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, ${x}^{4}+17{x}^{2}+48$."
     },
     {
       "title": "Algebra check",
@@ -13,11 +13,11 @@
     },
     {
       "title": "Expand each part",
-      "content": "First, $$(x^2+11)^2=x^4+22x^2+121.$$ Also, $$(x-5)(x+5)=x^2-25$$ by difference of squares."
+      "content": "First, $$(x^2+8)^2=x^4+16x^2+64.$$ Also, $$(x-4)(x+4)=x^2-16$$ by difference of squares."
     },
     {
       "title": "Combine like terms",
-      "content": "Adding the two parts gives $$x^4+22x^2+121+x^2-25=x^4+23x^2+96.$$ This matches, so <strong>B</strong> is correct. The missing odd-power terms are expected because both parts create only even powers and constants."
+      "content": "Adding the two parts gives $$x^4+16x^2+64+x^2-16=x^4+17x^2+48.$$ This matches, so <strong>B</strong> is correct. The missing odd-power terms are expected because both parts create only even powers and constants."
     }
   ]
 }

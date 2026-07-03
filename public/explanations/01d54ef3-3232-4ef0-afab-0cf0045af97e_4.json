@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The blank follows &ldquo;despite the damage _______ Soviet censors.&rdquo; The word &lsquo;despite&rsquo; signals an obstacle. The blank must make the censors the <em>source</em> of the damage to the novel."
+      "content": "The blank follows &ldquo;despite the damage _________ Soviet censors:&rdquo; The word &lsquo;despite&rsquo; signals an obstacle. The blank must make the censors the <em>source</em> of the damage to the novel."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; concealed from</strong>: would make the novel the agent harming the censors &mdash; the opposite of what the context requires. &#10007;</li><li><strong>Choice B &mdash; bestowed on</strong>: implies the censors suffered the damage, not caused it. &#10007;</li><li><strong>Choice C &mdash; allocated to</strong>: same problem as B &mdash; censors as victims, not agents. &#10007;</li><li><strong>Choice D &mdash; wrought by</strong>: means &lsquo;caused by,&rsquo; correctly positioning the censors as the ones who damaged the work. &#10003;</li></ul>That matches <strong>Choice D &mdash; wrought by</strong>."
+      "content": "<ul><li><strong>Choice A &mdash; concealed from</strong>: would mean the damage was hidden from Soviet censors, not that the censors caused the damage. &#10007;</li><li><strong>Choice B &mdash; bestowed on</strong>: implies the censors suffered the damage, not caused it. &#10007;</li><li><strong>Choice C &mdash; allocated to</strong>: same problem as B &mdash; censors as victims, not agents. &#10007;</li><li><strong>Choice D &mdash; wrought by</strong>: means &lsquo;caused by,&rsquo; correctly positioning the censors as the ones who damaged the work. &#10003;</li></ul>That matches <strong>Choice D &mdash; wrought by</strong>."
     }
   ]
 }

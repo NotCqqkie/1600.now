@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set equations equal and rearrange",
-      "content": "Since both expressions equal $y$:<br/>$$x + 9 = x^2 + 16x + 63$$<br/>Rearranging to standard form by moving all terms to one side:<br/>$$x^2 + 15x + 54 = 0$$"
+      "content": "Since both expressions equal $y$:<br/>$$x + 8 = x^2 + 14x + 48$$<br/>Rearranging to standard form by moving all terms to one side:<br/>$$x^2 + 13x + 40 = 0$$"
     },
     {
       "title": "Factor and find the greatest solution",
-      "content": "Find two numbers that multiply to 54 and add to 15: these are 6 and 9.<br/>$$(x + 6)(x + 9) = 0$$<br/>This gives $x = -6$ or $x = -9$. The greatest of these two solutions is $-6$. <strong>A</strong> is correct."
+      "content": "Find two numbers that multiply to 40 and add to 13: these are 5 and 8.<br/>$$(x + 5)(x + 8) = 0$$<br/>This gives $x = -5$ or $x = -8$. The greatest of these two solutions is $-5$. <strong>A</strong> is correct."
     }
   ]
 }

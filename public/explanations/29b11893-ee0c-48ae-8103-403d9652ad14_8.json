@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Identify what changes between the two sets",
-      "content": "Ari examined 86 plants with masses in the range [2.8 kg, 6.2 kg]. Chihiro examined the same 86 plants plus one additional plant weighing 11.7 kg."
+      "content": "Maya examined 78 plants with masses in the range [3.1 kg, 7.4 kg]. Omar examined the same 78 plants plus one additional plant weighing 12.6 kg."
     },
     {
       "title": "Determine how the mean changes",
-      "content": "Since all of Ari's plants are in the range [2.8, 6.2] kg, the mean of Ari's set is at most 6.2 kg.<br/><br/>The new plant weighs 11.7 kg, which is greater than 6.2 kg and therefore greater than any possible mean of Ari's original set.<br/><br/>When you add a value above the current mean to a data set, the mean increases.<br/><br/>Therefore, Chihiro's mean must be greater than Ari's mean. That matches <strong>Choice D &mdash; The mean of the masses, in kg, of the plants that Ari examined is less than the mean of the masses, in kg, of the plants that Chihiro examined.</strong>."
+      "content": "Since all of Maya's plants are in the range [3.1, 7.4] kg, the mean of Maya's set is at most 7.4 kg.<br/><br/>The new plant weighs 12.6 kg, which is greater than 7.4 kg and therefore greater than any possible mean of Maya's original set.<br/><br/>When you add a value above the current mean to a data set, the mean increases.<br/><br/>Therefore, Omar's mean must be greater than Maya's mean. That matches <strong>Choice D &mdash; The mean of the masses, in kg, of the plants that Maya examined is less than the mean of the masses, in kg, of the plants that Omar examined.</strong>."
     },
     {
       "title": "Check the range distractor",
-      "content": "Ari's range is $6.2-2.8=3.4$ kg. Chihiro adds a plant weighing $11.7$ kg, so Chihiro's range is $11.7-2.8=8.9$ kg. Ari's range is not greater than Chihiro's range, so Choice B is false."
+      "content": "Maya's range is $7.4-3.1=4.3$ kg. Omar adds a plant weighing $12.6$ kg, so Omar's range is $12.6-3.1=9.5$ kg. Maya's range is not greater than Omar's range, so Choice B is false."
     }
   ]
 }

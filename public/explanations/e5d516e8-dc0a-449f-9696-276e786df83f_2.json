@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $x^3(7x^2 - 5x + 9)$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $x^3(6x^2 - 4x + 11)$."
     },
     {
       "title": "Algebra check",
@@ -13,11 +13,11 @@
     },
     {
       "title": "Factor the expression",
-      "content": "The GCF is $x^3$. Factor it out:$$7x^5-5x^4+9x^3=x^3(7x^2-5x+9)$$"
+      "content": "The GCF is $x^3$. Factor it out:$$6x^5-4x^4+11x^3=x^3(6x^2-4x+11)$$"
     },
     {
       "title": "Match to the answer choices",
-      "content": "The factored form is $x^3(7x^2-5x+9)$. That matches the correct answer — <strong>B</strong> is correct."
+      "content": "The factored form is $x^3(6x^2-4x+11)$. That matches the correct answer; <strong>B</strong> is correct."
     }
   ]
 }

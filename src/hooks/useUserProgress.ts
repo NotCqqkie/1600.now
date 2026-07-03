@@ -1,4 +1,5 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
+import { toast } from 'sonner';
 import { useAuth } from '@/contexts/AuthContext';
 import {
   applyPersonalizationPreferences,
@@ -20,6 +21,10 @@ const VOCAB_KEY_PREFIX = 'vocabProgress:';
 const LEGACY_PROGRESS_KEY = 'userProgress';
 const LEGACY_VOCAB_KEY = 'vocab-progress';
 const ANON_SUFFIX = 'anon';
+const SCHEMA_VERSION = 1;
+// Cap stored attempts per question so a heavy long-term user's single
+// user_progress doc cannot grow past Firestore's 1 MiB document limit.
+const MAX_ATTEMPTS_PER_QUESTION = 50;
 
 const importFirestoreDependencies = async () => {
   const [firebaseDb, firestore] = await Promise.all([
@@ -31,6 +36,7 @@ const importFirestoreDependencies = async () => {
     doc: firestore.doc,
     getDoc: firestore.getDoc,
     setDoc: firestore.setDoc,
+    runTransaction: firestore.runTransaction,
   };
 };
 
@@ -38,9 +44,24 @@ let firestoreDependenciesPromise: Promise<Awaited<ReturnType<typeof importFirest
 
 const loadFirestoreDependencies = () => {
   if (!firestoreDependenciesPromise) {
-    firestoreDependenciesPromise = importFirestoreDependencies();
+    firestoreDependenciesPromise = importFirestoreDependencies().catch((error) => {
+      // Don't cache the rejection — let a later call retry the chunk import so
+      // one flaky load doesn't disable cloud sync for the whole session.
+      firestoreDependenciesPromise = null;
+      throw error;
+    });
   }
   return firestoreDependenciesPromise;
+};
+
+let lastSyncErrorToastAt = 0;
+const notifyCloudSyncError = () => {
+  const now = Date.now();
+  if (now - lastSyncErrorToastAt < 10000) return;
+  lastSyncErrorToastAt = now;
+  toast.error("Couldn't save to the cloud", {
+    description: 'Your progress is saved on this device and will sync when your connection recovers.',
+  });
 };
 
 const progressStorageKey = (uid: string | null | undefined) =>
@@ -113,32 +134,96 @@ const readVocabFor = (uid: string | null | undefined): Record<string, unknown> =
 const mergeProgress = (
   local: Record<string, QuestionProgress>,
   remote: Record<string, QuestionProgress>,
+  resetAt = 0,
+  preferLocalReview = false,
 ): Record<string, QuestionProgress> => {
-  const merged: Record<string, QuestionProgress> = { ...remote };
-  for (const id of Object.keys(local)) {
+  const merged: Record<string, QuestionProgress> = {};
+  const ids = new Set<string>([...Object.keys(remote), ...Object.keys(local)]);
+  for (const id of ids) {
     const l = local[id];
-    const r = merged[id];
-    if (!r) {
-      merged[id] = l;
-      continue;
-    }
+    const r = remote[id];
+    const combined = [
+      ...(Array.isArray(r?.attempts) ? r.attempts : []),
+      ...(Array.isArray(l?.attempts) ? l.attempts : []),
+    ];
+    const hadAttempts = combined.some((a) => a && typeof a.timestamp === 'number');
     const seen = new Set<number>();
-    const attempts: Attempt[] = [];
-    for (const a of [...r.attempts, ...l.attempts]) {
+    let attempts: Attempt[] = [];
+    for (const a of combined) {
+      if (!a || typeof a.timestamp !== 'number') continue;
+      // Tombstone: drop attempts made before a reset so a stale device can't
+      // resurrect cleared progress on merge.
+      if (a.timestamp < resetAt) continue;
       if (seen.has(a.timestamp)) continue;
       seen.add(a.timestamp);
       attempts.push(a);
     }
     attempts.sort((a, b) => a.timestamp - b.timestamp);
+    if (attempts.length > MAX_ATTEMPTS_PER_QUESTION) {
+      attempts = attempts.slice(attempts.length - MAX_ATTEMPTS_PER_QUESTION);
+    }
+    // On the persist path the local snapshot is this device's authoritative
+    // intent (so an un-mark propagates); on the mount merge we union across
+    // devices/anon so a mark made elsewhere isn't dropped.
+    const isMarkedForReview = preferLocalReview
+      ? Boolean(l?.isMarkedForReview)
+      : Boolean(l?.isMarkedForReview) || Boolean(r?.isMarkedForReview);
+    const totalTimeSpentSeconds = Math.max(
+      typeof l?.totalTimeSpentSeconds === 'number' ? l.totalTimeSpentSeconds : 0,
+      typeof r?.totalTimeSpentSeconds === 'number' ? r.totalTimeSpentSeconds : 0,
+    );
+    if (attempts.length === 0) {
+      // If the question once had attempts but none survived, they all predated
+      // a reset — drop it (including its time) so cleared progress can't come
+      // back. Keep genuinely attempt-less entries only when they still carry a
+      // review flag or accumulated viewing time.
+      if (hadAttempts) continue;
+      if (!isMarkedForReview && totalTimeSpentSeconds === 0) continue;
+    }
     merged[id] = {
       questionId: id,
-      isMarkedForReview: l.isMarkedForReview || r.isMarkedForReview,
+      isMarkedForReview,
       attempts,
-      totalTimeSpentSeconds: Math.max(
-        l.totalTimeSpentSeconds,
-        r.totalTimeSpentSeconds,
-      ),
+      totalTimeSpentSeconds,
     };
+  }
+  return merged;
+};
+
+const vocabEntryUpdatedAt = (value: unknown): number =>
+  value && typeof value === 'object' && typeof (value as { updatedAt?: unknown }).updatedAt === 'number'
+    ? (value as { updatedAt: number }).updatedAt
+    : 0;
+
+const vocabEntryConfirmations = (value: unknown): number =>
+  value && typeof value === 'object' && typeof (value as { confirmations?: unknown }).confirmations === 'number'
+    ? (value as { confirmations: number }).confirmations
+    : 0;
+
+const mergeVocab = (
+  local: Record<string, unknown>,
+  remote: Record<string, unknown>,
+): Record<string, unknown> => {
+  const merged: Record<string, unknown> = { ...remote };
+  for (const word of Object.keys(local)) {
+    const l = local[word];
+    const r = merged[word];
+    if (r === undefined) {
+      merged[word] = l;
+      continue;
+    }
+    const lt = vocabEntryUpdatedAt(l);
+    const rt = vocabEntryUpdatedAt(r);
+    if (lt !== rt) {
+      // The most recently edited entry wins. A genuinely stale device has an
+      // older updatedAt and loses; a device the user actually interacted with
+      // last legitimately reflects their latest state (including a downgrade).
+      merged[word] = lt > rt ? l : r;
+    } else {
+      // Legacy entries without a timestamp — keep the more-progressed one so a
+      // stale copy can't silently reduce a word's confirmation count.
+      merged[word] = vocabEntryConfirmations(l) >= vocabEntryConfirmations(r) ? l : r;
+    }
   }
   return merged;
 };
@@ -208,13 +293,15 @@ export const useUserProgress = () => {
               personalization?: PersonalizationPreferences;
               questionState?: QuestionUiStateMap;
               customPracticeSets?: CustomPracticeSet[];
+              resetAt?: number;
+              schemaVersion?: number;
             }
           | undefined;
 
         const userLocalProgress = readProgressFor(user.id);
         const userLocalVocab = readVocabFor(user.id);
         const userLocalQuestionState = getQuestionUiStateMap(user.id);
-        const userLocalCustomSets = customSets.getCustomPracticeSets(user.id);
+        const userLocalCustomSets = customSets.getAllCustomPracticeSetsForSync(user.id);
         const sessionFlagKey = `userProgress:migrated:${user.id}`;
         const alreadyMigrated =
           migratedAnonRef.current.has(user.id) ||
@@ -229,12 +316,12 @@ export const useUserProgress = () => {
           const anonProgress = readProgressFor(null);
           const anonVocab = readVocabFor(null);
           const anonQuestionState = getQuestionUiStateMap(null);
-          const anonCustomSets = customSets.getCustomPracticeSets(null);
+          const anonCustomSets = customSets.getAllCustomPracticeSetsForSync(null);
           if (Object.keys(anonProgress).length > 0) {
             migratedProgress = mergeProgress(userLocalProgress, anonProgress);
           }
           if (Object.keys(anonVocab).length > 0) {
-            migratedVocab = { ...userLocalVocab, ...anonVocab };
+            migratedVocab = mergeVocab(userLocalVocab, anonVocab);
           }
           if (Object.keys(anonQuestionState).length > 0) {
             migratedQuestionState = mergeQuestionUiStateMaps(userLocalQuestionState, anonQuestionState);
@@ -255,10 +342,11 @@ export const useUserProgress = () => {
         }
 
         const remoteProgress = remote?.data ?? {};
-        const mergedProgress = mergeProgress(migratedProgress, remoteProgress);
+        const resetAt = remote?.resetAt ?? 0;
+        const mergedProgress = mergeProgress(migratedProgress, remoteProgress, resetAt);
 
         const remoteVocab = remote?.vocab ?? {};
-        const mergedVocab = { ...remoteVocab, ...migratedVocab };
+        const mergedVocab = mergeVocab(migratedVocab, remoteVocab);
         const remoteQuestionState = remote?.questionState ?? {};
         const mergedQuestionState = mergeQuestionUiStateMaps(migratedQuestionState, remoteQuestionState);
         const remoteCustomSets = remote?.customPracticeSets ?? [];
@@ -279,11 +367,13 @@ export const useUserProgress = () => {
           progressRef,
           {
             user_id: user.id,
+            schemaVersion: SCHEMA_VERSION,
             data: mergedProgress,
             vocab: mergedVocab,
             personalization: mergedPers,
             questionState: mergedQuestionState,
             customPracticeSets: mergedCustomSets,
+            ...(resetAt ? { resetAt } : {}),
           },
           { merge: true },
         );
@@ -301,11 +391,33 @@ export const useUserProgress = () => {
 
   const persist = useCallback(async (newProgress: Record<string, QuestionProgress>) => {
     localStorage.setItem(progressStorageKey(uid), JSON.stringify(newProgress));
-    if (user) {
-      const { db, doc, setDoc } = await loadFirestoreDependencies();
+    if (!user) return;
+    try {
+      const { db, doc, runTransaction } = await loadFirestoreDependencies();
       if (!db) return;
       const progressRef = doc(db, 'user_progress', user.id);
-      await setDoc(progressRef, { user_id: user.id, data: newProgress }, { merge: true });
+      await runTransaction(db, async (tx) => {
+        const snap = await tx.get(progressRef);
+        const remote = snap.data() as
+          | { data?: Record<string, QuestionProgress>; resetAt?: number }
+          | undefined;
+        const resetAt = remote?.resetAt ?? 0;
+        // Read-merge-write so a concurrent write from another device/tab isn't
+        // clobbered (Firestore merge replaces arrays wholesale). We intentionally
+        // do NOT write the merged result back into local React state here: an
+        // older in-flight transaction resolving after a newer optimistic update
+        // would otherwise overwrite the newer state. Other devices' attempts are
+        // picked up on the next mount/storage sync instead.
+        const mergedProgress = mergeProgress(newProgress, remote?.data ?? {}, resetAt, true);
+        tx.set(
+          progressRef,
+          { user_id: user.id, schemaVersion: SCHEMA_VERSION, data: mergedProgress },
+          { merge: true },
+        );
+      });
+    } catch (error) {
+      console.error('Failed to persist progress to Firestore:', error);
+      notifyCloudSyncError();
     }
   }, [user, uid]);
 
@@ -315,16 +427,34 @@ export const useUserProgress = () => {
   }, [persist]);
 
   const resetProgress = useCallback(async () => {
+    // Clear the cloud copy first (with a reset tombstone) so a failed remote
+    // write doesn't let another device resurrect the data on next merge.
+    if (user) {
+      try {
+        const { db, doc, runTransaction } = await loadFirestoreDependencies();
+        if (db) {
+          const progressRef = doc(db, 'user_progress', user.id);
+          const resetAt = Date.now();
+          await runTransaction(db, async (tx) => {
+            tx.set(
+              progressRef,
+              { user_id: user.id, schemaVersion: SCHEMA_VERSION, data: {}, questionState: {}, resetAt },
+              { merge: true },
+            );
+          });
+        }
+      } catch (error) {
+        console.error('Failed to reset progress in Firestore:', error);
+        notifyCloudSyncError();
+        // Keep local data intact so the user can retry the reset.
+        return;
+      }
+    }
     const empty = {};
     setProgress(empty);
+    progressSnapshotRef.current = empty;
     localStorage.setItem(progressStorageKey(uid), JSON.stringify(empty));
     saveQuestionUiStateMap(uid, {}, { notify: true });
-    if (user) {
-        const { db, doc, setDoc } = await loadFirestoreDependencies();
-        if (!db) return;
-        const progressRef = doc(db, 'user_progress', user.id);
-        await setDoc(progressRef, { user_id: user.id, data: empty, questionState: {} }, { merge: true });
-    }
   }, [user, uid]);
 
   const addAttempt = useCallback(async (

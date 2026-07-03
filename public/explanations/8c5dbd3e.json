@@ -1,15 +1,15 @@
 {
   "questionId": "8c5dbd3e",
-  "correctAnswer": "189/4",
+  "correctAnswer": "297/5",
   "section": "Math",
   "steps": [
     {
       "title": "Find z",
-      "content": "First, 55% less than 50 means subtract 55% of 50 from 50. In decimal form, 55% = 0.55, so $$z = 50 \\times (1 - 0.55) = 50 \\times 0.45 = 22.5$$."
+      "content": "First, 40% less than 45 means subtract 40% of 45 from 45. In decimal form, 40% = 0.40, so $$z = 45 \\times (1 - 0.40) = 45 \\times 0.60 = 27$$."
     },
     {
       "title": "Find w",
-      "content": "The number w is 110% greater than z, meaning $w = z + 110\\% \\text{ of } z = z \\times (1 + 1.10)$. Substitute z = 22.5: $$w = 22.5 \\times (1 + 1.10) = 22.5 \\times 2.10 = 47.25 = \\frac{189}{4}$$ The answer is <strong>189/4</strong>."
+      "content": "The number w is 120% greater than z, meaning $w = z + 120\\% \\text{ of } z = z \\times (1 + 1.20)$. Substitute z = 27: $$w = 27 \\times (1 + 1.20) = 27 \\times 2.20 = 59.4 = \\frac{297}{5}$$ The answer is <strong>297/5</strong>."
     }
   ]
 }

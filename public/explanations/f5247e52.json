@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set equations equal and isolate x²",
-      "content": "To find where the graphs intersect, set the equations equal:<br/>$$ax^2 - c = a + c$$<br/>$$ax^2 = a + 2c$$<br/>$$x^2 = \\frac{a + 2c}{a}$$"
+      "content": "To find where the graphs intersect, set the equations equal:<br/>$$bx^2 - d = b + d$$<br/>$$bx^2 = b + 2d$$<br/>$$x^2 = \\frac{b + 2d}{b}$$"
     },
     {
       "title": "Determine the number of solutions",
-      "content": "Since $a \\gt  0$ and $c \\gt  0$, the right side $\\frac{a + 2c}{a}$ is a positive number.<br/><br/>An equation of the form $x^2 = k$ where $k \\gt  0$ has exactly two distinct real solutions: the positive and negative square roots.<br/><br/>Therefore, the graphs intersect at exactly two points. This matches the correct answer — <strong>C</strong> is correct."
+      "content": "Since $b \\gt  0$ and $d \\gt  0$, the right side $\\frac{b + 2d}{b}$ is a positive number.<br/><br/>An equation of the form $x^2 = k$ where $k \\gt  0$ has exactly two distinct real solutions: the positive and negative square roots.<br/><br/>Therefore, the graphs intersect at exactly two points. This matches the correct answer - <strong>C</strong> is correct."
     }
   ]
 }

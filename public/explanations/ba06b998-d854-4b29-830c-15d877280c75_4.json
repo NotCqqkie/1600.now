@@ -1,19 +1,19 @@
 {
   "questionId": "ba06b998-d854-4b29-830c-15d877280c75_4",
-  "correctAnswer": "24",
+  "correctAnswer": "28",
   "section": "Math",
   "steps": [
     {
       "title": "Apply the factoring from the given condition",
-      "content": "Note $56+8x = 8(7+x)$, and $7+x=3$."
+      "content": "Note $42+7x = 7(6+x)$, and $6+x=4$."
     },
     {
       "title": "Compute the target value",
-      "content": "So $56+8x = 8 \\cdot 3 = 24$. The answer is <strong>24</strong>."
+      "content": "So $42+7x = 7 \\cdot 4 = 28$. The answer is <strong>28</strong>."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $24$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $24$."
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $28$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $28$."
     }
   ]
 }

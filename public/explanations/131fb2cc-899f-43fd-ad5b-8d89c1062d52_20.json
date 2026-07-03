@@ -1,23 +1,23 @@
 {
   "questionId": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_20",
-  "correctAnswer": "112",
+  "correctAnswer": "104",
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+      "title": "Fastest path: mark the angles first",
+      "content": "Track the given angle relationships first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
     },
     {
       "title": "Set up",
-      "content": "Triangle ABC ~ triangle XYZ with A&#8596;X, B&#8596;Y, C&#8596;Z, so &ang;Z = &ang;C. The interior angles of triangle ABC sum to 180&deg;: $$∠A + ∠B + ∠C = 180^{\\circ}$$"
+      "content": "Triangle DEF ~ triangle PQR with D&#8596;P, E&#8596;Q, F&#8596;R, so &ang;R = &ang;F. The interior angles of triangle DEF sum to 180&deg;: $$∠D + ∠E + ∠F = 180^{\\circ}$$"
     },
     {
       "title": "Solve",
-      "content": "Substitute the given angle measures: $$44^{\\circ} + 24^{\\circ} + ∠C = 180^{\\circ}$$ $$∠C = 180^{\\circ} - 68^{\\circ} = 112^{\\circ}$$ Since &ang;Z = &ang;C, the measure of angle Z is 112&deg;."
+      "content": "Substitute the given angle measures: $$47^{\\circ} + 29^{\\circ} + ∠F = 180^{\\circ}$$ $$∠F = 180^{\\circ} - 76^{\\circ} = 104^{\\circ}$$ Since &ang;R = &ang;F, the measure of angle R is 104&deg;."
     },
     {
       "title": "Answer",
-      "content": "<strong>112</strong> is correct."
+      "content": "<strong>104</strong> is correct."
     }
   ]
 }

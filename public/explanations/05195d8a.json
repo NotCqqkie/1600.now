@@ -1,15 +1,15 @@
 {
   "questionId": "05195d8a",
-  "correctAnswer": "110",
+  "correctAnswer": "128",
   "section": "Math",
   "steps": [
     {
       "title": "Set up the percentage equation",
-      "content": "We know that 80% of items are faulty and there are 88 faulty items. This relationship is:<br/>$$0.80 \\times \\text{Total} = 88$$"
+      "content": "We know that 75% of items are faulty and there are 96 faulty items. This relationship is:<br/>$$0.75 \\times \\text{Total} = 96$$"
     },
     {
       "title": "Solve for total items",
-      "content": "Divide both sides by 0.80:<br/>$$\\text{Total} = \\frac{88}{0.80} = \\frac{88}{\\frac{4}{5}} = 88 \\times \\frac{5}{4} = \\frac{440}{4} = 110$$<br/>The sample contains <strong>110 total items</strong>."
+      "content": "Divide both sides by 0.75:<br/>$$\\text{Total} = \\frac{96}{0.75} = \\frac{96}{\\frac{3}{4}} = 96 \\times \\frac{4}{3} = \\frac{384}{3} = 128$$<br/>The sample contains <strong>128 total items</strong>."
     }
   ]
 }

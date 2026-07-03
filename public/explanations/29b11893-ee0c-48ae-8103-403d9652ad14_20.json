@@ -1,15 +1,15 @@
 {
   "questionId": "29b11893-ee0c-48ae-8103-403d9652ad14_20",
-  "correctAnswer": "227",
+  "correctAnswer": "211",
   "section": "Math",
   "steps": [
     {
       "title": "Square both sides and rearrange",
-      "content": "Square $\\sqrt{k - x} = 57 - x$ to clear the radical: $$k - x = (57 - x)^2 = 3249 - 114x + x^2.$$ Rearranging: $$x^2 - 113x + (3249 - k) = 0.$$"
+      "content": "Square $\\sqrt{k - x} = 53 - x$ to clear the radical: $$k - x = (53 - x)^2 = 2809 - 106x + x^2.$$ Rearranging: $$x^2 - 105x + (2809 - k) = 0.$$"
     },
     {
-      "title": "Set discriminant = 0 for exactly one real solution",
-      "content": "The discriminant is $\\Delta = 113^2 - 4(3249 - k) = 4k - 227$. For exactly one solution, set $\\Delta = 0$: $$4k - 227 = 0 \\implies 4k = 227.$$ The repeated root $x = 56.5$ satisfies $x \\leq 57$, so it is valid. Therefore <strong>227</strong> is correct."
+      "title": "Find the minimum value that gives exactly one solution",
+      "content": "Since $\\sqrt{k - x}$ is nonnegative, any solution must satisfy $53 - x \\geq 0$, or $x \\leq 53$. The discriminant of the squared equation is $\\Delta = 105^2 - 4(2809 - k) = 4k - 211$. For real solutions, $4k - 211 \\geq 0$, so $4k \\geq 211$. At the minimum possible value, $4k = 211$, the squared equation has the repeated root $x = 52.5$, which satisfies $x \\leq 53$, so it is a valid solution of the original equation. Therefore <strong>211</strong> is correct."
     }
   ]
 }

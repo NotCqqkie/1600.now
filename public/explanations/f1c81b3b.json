@@ -1,15 +1,15 @@
 {
   "questionId": "f1c81b3b",
-  "correctAnswer": "11875",
+  "correctAnswer": "4352",
   "section": "Math",
   "steps": [
     {
       "title": "Find the base a from the given condition",
-      "content": "Use $g(3) = 2375$ with the given function $g(x) = 19 \\cdot a^x$. Substituting: $$19 \\cdot a^3 = 2375$$ Divide by 19: $$a^3 = 125$$ Take the cube root: $$a = 5$$"
+      "content": "Use $g(3) = 1088$ with the given function $g(x) = 17 \\cdot a^x$. Substituting: $$17 \\cdot a^3 = 1088$$ Divide by 17: $$a^3 = 64$$ Take the cube root: $$a = 4$$"
     },
     {
       "title": "Calculate g(4) using the exponential relationship",
-      "content": "In an exponential function, each unit increase in the exponent multiplies the output by the base $a$. Therefore: $$g(4) = g(3) \\cdot a = 2375 \\cdot 5 = 11875$$"
+      "content": "In an exponential function, each unit increase in the exponent multiplies the output by the base $a$. Therefore: $$g(4) = g(3) \\cdot a = 1088 \\cdot 4 = 4352$$"
     }
   ]
 }

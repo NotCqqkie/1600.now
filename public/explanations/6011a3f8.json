@@ -5,12 +5,12 @@
   "steps": [
     {
       "title": "Connect the question to the discriminant",
-      "content": "The equation is quadratic, and the question asks when it has <strong>more than one real solution</strong>. A quadratic has two real solutions exactly when its graph crosses the x-axis twice; algebraically, that means the discriminant is positive.<br/><br/>In $64x^2 + bx + 25 = 0$, $a = 64$ and $c = 25$, so:<br/>$$b^2 - 4(64)(25) \\gt 0$$<br/>$$b^2 - 6400 \\gt 0$$<br/>$$b^2 \\gt 6400$$",
+      "content": "The equation is quadratic, and the question asks when it has <strong>more than one real solution</strong>. A quadratic has two real solutions exactly when its graph crosses the x-axis twice; algebraically, that means the discriminant is positive.<br/><br/>In $49x^2 + bx + 36 = 0$, $a = 49$ and $c = 36$, so:<br/>$$b^2 - 4(49)(36) \\gt 0$$<br/>$$b^2 - 7056 \\gt 0$$<br/>$$b^2 \\gt 7056$$",
       "formula": "$$\\Delta = b^2 - 4ac \\gt 0$$"
     },
     {
       "title": "Test which choice satisfies the condition",
-      "content": "We need $b^2 \\gt 6400$, which means $|b| \\gt 80$.<ul><li><strong>Choice A &mdash; &lsquo;$-91$&rsquo;</strong>: $b = -91$ gives $(-91)^2 = 8281 \\gt 6400$ ✓</li><li><strong>Choice B &mdash; &lsquo;$-80$&rsquo;</strong>: $b = -80$ gives $(-80)^2 = 6400 \\not\\gt 6400$ ✗</li><li><strong>Choice C &mdash; &lsquo;$5$&rsquo;</strong>: $b = 5$ gives $(5)^2 = 25 \\not\\gt 6400$ ✗</li><li><strong>Choice D &mdash; &lsquo;$40$&rsquo;</strong>: $b = 40$ gives $(40)^2 = 1600 \\not\\gt 6400$ ✗</li></ul>Only the credited option satisfies the condition. That confirms <strong>A</strong> is correct."
+      "content": "We need $b^2 \\gt 7056$, which means $|b| \\gt 84$.<ul><li><strong>Choice A &mdash; &lsquo;$-93$&rsquo;</strong>: $b = -93$ gives $(-93)^2 = 8649 \\gt 7056$ ✓</li><li><strong>Choice B &mdash; &lsquo;$-84$&rsquo;</strong>: $b = -84$ gives $(-84)^2 = 7056 \\not\\gt 7056$ ✗</li><li><strong>Choice C &mdash; &lsquo;$6$&rsquo;</strong>: $b = 6$ gives $(6)^2 = 36 \\not\\gt 7056$ ✗</li><li><strong>Choice D &mdash; &lsquo;$42$&rsquo;</strong>: $b = 42$ gives $(42)^2 = 1764 \\not\\gt 7056$ ✗</li></ul>Only the credited option satisfies the condition. That confirms <strong>A</strong> is correct."
     }
   ]
 }

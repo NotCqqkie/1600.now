@@ -5,23 +5,23 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $6\\left(5x + 7\\right)$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $8\\left(4x + 7\\right)$."
     },
     {
       "title": "Algebra check",
       "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
     },
     {
-      "title": "Find the greatest common factor (GCF) of 30 and 42",
-      "content": "Factors of 30: 1, 2, 3, 5, 6, 10, 15, 30<br/>Factors of 42: 1, 2, 3, 6, 7, 14, 21, 42<br/>Greatest common factor = <strong>6</strong>."
+      "title": "Find the greatest common factor (GCF) of 32 and 56",
+      "content": "Factors of 32: 1, 2, 4, 8, 16, 32<br/>Factors of 56: 1, 2, 4, 7, 8, 14, 28, 56<br/>Greatest common factor = <strong>8</strong>."
     },
     {
-      "title": "Factor out 6",
-      "content": "$$30x + 42 = 6 \\cdot 5x + 6 \\cdot 7 = 6(5x + 7)$$"
+      "title": "Factor out 8",
+      "content": "$$32x + 56 = 8 \\cdot 4x + 8 \\cdot 7 = 8(4x + 7)$$"
     },
     {
       "title": "Verify by expanding",
-      "content": "$$6(5x+7) = 30x + 42 \\checkmark$$"
+      "content": "$$8(4x+7) = 32x + 56 \\checkmark$$"
     }
   ]
 }

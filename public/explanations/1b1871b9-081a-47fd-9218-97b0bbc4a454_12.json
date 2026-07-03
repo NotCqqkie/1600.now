@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Find the GCF of all three terms",
-      "content": "The polynomial is $3x^2 + 57x + 15$. Check divisibility of each coefficient by small integers:<br/>$3 = 3 \\cdot 1$, $57 = 3 \\cdot 19$, $15 = 3 \\cdot 5$.<br/>The greatest common factor of 3, 57, and 15 is $3$."
+      "content": "The polynomial is $4x^2 + 52x + 28$. Check divisibility of each coefficient by small integers:<br/>$4 = 4 \\cdot 1$, $52 = 4 \\cdot 13$, $28 = 4 \\cdot 7$.<br/>The greatest common factor of 4, 52, and 28 is $4$."
     },
     {
       "title": "Factor out the GCF",
-      "content": "Write the polynomial with 3 factored out:<br/>$$3x^2 + 57x + 15 = 3(x^2 + 19x + 5)$$<br/>So $3$ is a factor of the polynomial."
+      "content": "Write the polynomial with 4 factored out:<br/>$$4x^2 + 52x + 28 = 4(x^2 + 13x + 7)$$<br/>So $4$ is a factor of the polynomial."
     },
     {
       "title": "Evaluate all choices",
-      "content": "<ul><li>A: $3x^2$ — this is not a factor of the polynomial; dividing $3x^2 + 57x + 15$ by $3x^2$ does not yield a polynomial. Eliminated.</li><li>B: $5x$ — $5x$ does not divide $3x^2$ evenly (3 is not divisible by 5). Eliminated.</li><li>C: $3$ — divides every term: $3x^2 \\div 3 = x^2$, $57x \\div 3 = 19x$, $15 \\div 3 = 5$. Valid factor.</li><li>D: $57x$ — $57x$ does not divide $3x^2$ evenly. Eliminated.</li></ul>That matches <strong>Choice C &mdash; 3</strong>."
+      "content": "<ul><li>A: $4x^2$ — this is not a factor of the polynomial; dividing $4x^2 + 52x + 28$ by $4x^2$ does not yield a polynomial. Eliminated.</li><li>B: $7x$ — $7x$ does not divide $4x^2$ evenly (4 is not divisible by 7). Eliminated.</li><li>C: $4$ — divides every term: $4x^2 \\div 4 = x^2$, $52x \\div 4 = 13x$, $28 \\div 4 = 7$. Valid factor.</li><li>D: $52x$ — $52x$ does not divide $4x^2$ evenly. Eliminated.</li></ul>That matches <strong>Choice C &mdash; 4</strong>."
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "questionId": "873d2838",
-  "correctAnswer": "370",
+  "correctAnswer": "360",
   "section": "Math",
   "steps": [
     {
@@ -10,7 +10,7 @@
     },
     {
       "title": "Substitute the given values and divide",
-      "content": "With population = 85,100 and population density = 230 people per square mile:<br/>$$\\text{Area} = \\frac{85,100}{230}$$<br/>Performing the division: $85,100 \\div 230 = 370$<br/><br/>The area of Cedar County is <strong>370 square miles</strong>."
+      "content": "With population = 86,400 and population density = 240 people per square mile:<br/>$$\\text{Area} = \\frac{86,400}{240}$$<br/>Performing the division: $86,400 \\div 240 = 360$<br/><br/>The area of Birch County is <strong>360 square miles</strong>."
     }
   ]
 }

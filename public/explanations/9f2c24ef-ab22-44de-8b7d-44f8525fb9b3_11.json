@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Understand what it means for a graph to pass through a point",
-      "content": "If the graph of $y = f(x)$ passes through the point $(8, 9)$, then the point $(8, 9)$ lies on the curve. For any point $(a, b)$ on the graph of $y = f(x)$, we have $f(a) = b$."
+      "title": "Understand what it means for a point to satisfy an equation",
+      "content": "If the point $(7, 11)$ satisfies the equation $y = f(x)$, then substituting $x = 7$ gives $y = 11$. For any point $(a, b)$ that satisfies $y = f(x)$, we have $f(a) = b$."
     },
     {
-      "title": "Apply this relationship to find f(8)",
-      "content": "Since $(8, 9)$ is on the graph, we substitute $a = 8$ and $b = 9$ into the relationship $f(a) = b$ to get $f(8) = 9$. That confirms <strong>B</strong> is correct."
+      "title": "Apply this relationship to find f(7)",
+      "content": "Since $(7, 11)$ satisfies $y = f(x)$, we substitute $a = 7$ and $b = 11$ into the relationship $f(a) = b$ to get $f(7) = 11$. That confirms <strong>B</strong> is correct."
     }
   ]
 }

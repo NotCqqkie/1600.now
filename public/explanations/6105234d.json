@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Step 1",
-      "content": "Identify the three payment components: a one-time down payment of \\$37, $p$ monthly payments of \\$16 each (total $16p$), and a grand total of \\$165."
+      "content": "Identify the three payment components: a one-time down payment of \\$46, $p$ monthly payments of \\$21 each (total $21p$), and a grand total of \\$214."
     },
     {
       "title": "Step 2",
-      "content": "Form the equation: down payment + monthly payments = total. Substituting: $37 + 16p = 165$, which is the same as $16p + 37 = 165$."
+      "content": "Form the equation: down payment + monthly payments = total. Substituting: $46 + 21p = 214$, which is the same as $21p + 46 = 214$."
     },
     {
       "title": "Step 3",
-      "content": "Verify by solving: $16p = 128$, so $p = 8$ monthly payments, and $8 \\times 16 + 37 = 128 + 37 = 165$. Correct."
+      "content": "Verify by solving: $21p = 168$, so $p = 8$ monthly payments, and $8 \\times 21 + 46 = 168 + 46 = 214$. Correct."
     },
     {
       "title": "Step 4",
-      "content": "Evaluate every choice:<ul><li>A: $16p - 37 = 165$ &mdash; subtracts the down payment instead of adding it; it would imply $p = 12.625$, not the intended payment setup. Eliminated.</li><li>B: $37p - 16 = 165$ &mdash; swaps the roles of 37 and 16; it would make $p \\approx 4.9$. Eliminated.</li><li>C: $16p + 37 = 165$ &mdash; matches the derived equation exactly. That confirms <strong>C</strong> is correct.</li><li>D: $37p + 16 = 165$ &mdash; treats 37 as the per-payment amount and 16 as the down payment, reversing both values. Eliminated.</li></ul>"
+      "content": "Evaluate every choice:<ul><li>A: $21p - 46 = 214$ &mdash; subtracts the down payment instead of adding it; it would imply $p \\approx 12.4$, not the intended payment setup. Eliminated.</li><li>B: $46p - 21 = 214$ &mdash; swaps the roles of 46 and 21; it would make $p \\approx 5.1$. Eliminated.</li><li>C: $21p + 46 = 214$ &mdash; matches the derived equation exactly. That confirms <strong>C</strong> is correct.</li><li>D: $46p + 21 = 214$ &mdash; treats 46 as the per-payment amount and 21 as the down payment, reversing both values. Eliminated.</li></ul>"
     }
   ]
 }

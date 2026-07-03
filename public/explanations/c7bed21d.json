@@ -9,11 +9,11 @@
     },
     {
       "title": "Recall the property of similar figures",
-      "content": "When two figures are similar, their corresponding angles are equal. This is true regardless of the scale factor between them. The problem states that quadrilateral $P'Q'R'S'$ is similar to quadrilateral $PQRS$, with $P$ corresponding to $P'$, $Q$ to $Q'$, $R$ to $R'$, and $S$ to $S'$."
+      "content": "When two figures are similar, their corresponding angles are equal. This is true regardless of the scale factor between them. The problem states that quadrilateral $A'B'C'D'$ is similar to quadrilateral $ABCD$, with $A$ corresponding to $A'$, $B$ to $B'$, $C$ to $C'$, and $D$ to $D'$."
     },
     {
-      "title": "Apply correspondence to find angle P'",
-      "content": "Since $P$ and $P'$ are corresponding angles in similar figures, they must be equal.<br/><br/>We are given that the measure of angle $P$ is $30^{\\circ}$. Therefore, the measure of angle $P'$ is also $30^{\\circ}$. The scale factor of $3$ (side lengths of $P'Q'R'S'$ are $3$ times those of $PQRS$) affects only the side lengths, not the angles.<br/><br/>That is the correct answer."
+      "title": "Apply correspondence to find angle A'",
+      "content": "Since $A$ and $A'$ are corresponding angles in similar figures, they must be equal.<br/><br/>We are given that the measure of angle $A$ is $36^{\\circ}$. Therefore, the measure of angle $A'$ is also $36^{\\circ}$. The scale factor of $4$ (side lengths of $A'B'C'D'$ are $4$ times those of $ABCD$) affects only the side lengths, not the angles.<br/><br/>That is the correct answer."
     }
   ]
 }

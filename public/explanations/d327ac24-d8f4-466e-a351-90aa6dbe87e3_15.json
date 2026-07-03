@@ -1,19 +1,19 @@
 {
   "questionId": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_15",
-  "correctAnswer": "15",
+  "correctAnswer": "18",
   "section": "Math",
   "steps": [
     {
       "title": "Set up the equation with the target value",
-      "content": "We need to find when $C(t) = 247$:<br/>$$247 = 240\\left(\\frac{53}{52}\\right)^{t-15} + 7$$"
+      "content": "We need to find when $C(t) = 269$:<br/>$$269 = 260\\left(\\frac{41}{40}\\right)^{t-18} + 9$$"
     },
     {
       "title": "Isolate the exponential term",
-      "content": "Subtract 7 from both sides:<br/>$$240 = 240\\left(\\frac{53}{52}\\right)^{t-15}$$<br/>Divide both sides by 240:<br/>$$1 = \\left(\\frac{53}{52}\\right)^{t-15}$$"
+      "content": "Subtract 9 from both sides:<br/>$$260 = 260\\left(\\frac{41}{40}\\right)^{t-18}$$<br/>Divide both sides by 260:<br/>$$1 = \\left(\\frac{41}{40}\\right)^{t-18}$$"
     },
     {
       "title": "Recognize the exponential property and solve",
-      "content": "Any positive base raised to the power of 0 equals 1. Since $\\left(\\frac{53}{52}\\right)^{t-15} = 1$, the exponent must be 0:<br/>$$t - 15 = 0$$<br/>$$t = 15$$<br/>The cephalopod population was estimated at 247 in month <strong>15</strong>."
+      "content": "Any positive base raised to the power of 0 equals 1. Since $\\left(\\frac{41}{40}\\right)^{t-18} = 1$, the exponent must be 0:<br/>$$t - 18 = 0$$<br/>$$t = 18$$<br/>The mollusk population was estimated at 269 in month <strong>18</strong>."
     }
   ]
 }

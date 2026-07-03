@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up",
-      "content": "The equation involves the expression $5 - 7x$. Isolate it directly without expanding."
+      "content": "The equation involves the expression $4 - 6x$. Isolate it directly without expanding."
     },
     {
       "title": "Solve",
-      "content": "Given $\\left(3\\right)(5 - 7x) + 3 = 39$:<br/>$$3(5 - 7x) = 36$$<br/>$$5 - 7x = 12$$"
+      "content": "Given $5(4 - 6x) + 2 = 4(4 - 6x) + 12$:<br/>$$(4 - 6x) + 2 = 12$$<br/>$$4 - 6x = 10$$"
     },
     {
       "title": "Answer",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above is 12, and the other choices fail the same setup or substitution. Therefore <strong>D</strong> is correct."
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above is 10, and the other choices fail the same setup or substitution. Therefore <strong>D</strong> is correct."
     }
   ]
 }

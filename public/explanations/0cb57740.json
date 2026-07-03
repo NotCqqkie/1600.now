@@ -5,16 +5,16 @@
   "steps": [
     {
       "title": "Count each type of side",
-      "content": "There are $n$ sides with length 3 cm. The number of 8 cm sides is $5n$, and the number of 4 cm sides is $6$."
+      "content": "There are $n$ sides with length 4 cm. The number of 9 cm sides is $6n$, and the number of 5 cm sides is $7$."
     },
     {
       "title": "Add the side counts",
-      "content": "The polygon has 30 sides total, so the counts must add to 30:<br/>$$n+5n+6=30$$"
+      "content": "The polygon has 42 sides total, so the counts must add to 42:<br/>$$n+6n+7=42$$"
     },
     {
       "title": "Combine like terms",
-      "content": "$$6n+6=30$$<br/>That matches <strong>Choice B &mdash; $6n+6=30$</strong>."
+      "content": "$$7n+7=42$$<br/>That matches <strong>Choice B &mdash; $7n+7=42$</strong>."
     }
   ],
-  "choiceElimination": "<ul><li><strong>Choice A &mdash; $5n+6=30$</strong>: This omits the n sides with length 3 cm from the count. It only counts the 5n sides of 8 cm and the 6 sides of 4 cm, missing the n sides themselves. &#10007;</li><li><strong>Choice B &mdash; $6n+6=30$</strong>: Counts 5n (8 cm sides) + n (3 cm sides) + 6 (4 cm sides) = 6n + 6 = 30. All three groups are included and combined correctly. &#10003;</li><li><strong>Choice C &mdash; $8n+3n+4n=30$</strong>: Multiplies the lengths (8, 3, 4) by n and adds them. This mixes lengths with counts and does not equal the total number of sides. &#10007;</li><li><strong>Choice D &mdash; $8 \\left(5n\\right)+3n+4 \\left(6\\right)=30$</strong>: Multiplies lengths by counts (e.g., 8 cm &times; 5n sides), which gives total centimeters, not total sides. This equals 30 cm, not 30 sides. &#10007;</li></ul>That matches <strong>Choice B &mdash; $6n+6=30$</strong>."
+  "choiceElimination": "<ul><li><strong>Choice A &mdash; $6n+7=42$</strong>: This omits the n sides with length 4 cm from the count. It only counts the 6n sides of 9 cm and the 7 sides of 5 cm, missing the n sides themselves. &#10007;</li><li><strong>Choice B &mdash; $7n+7=42$</strong>: Counts 6n (9 cm sides) + n (4 cm sides) + 7 (5 cm sides) = 7n + 7 = 42. All three groups are included and combined correctly. &#10003;</li><li><strong>Choice C &mdash; $9n+4n+5n=42$</strong>: Multiplies the lengths (9, 4, 5) by n and adds them. This mixes lengths with counts and does not equal the total number of sides. &#10007;</li><li><strong>Choice D &mdash; $9 \\left(6n\\right)+4n+5 \\left(7\\right)=42$</strong>: Multiplies lengths by counts (e.g., 9 cm &times; 6n sides), which gives total centimeters, not total sides. This equals 42 cm, not 42 sides. &#10007;</li></ul>That matches <strong>Choice B &mdash; $7n+7=42$</strong>."
 }

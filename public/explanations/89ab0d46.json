@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the grammatical structure",
-      "content": "The noun “pages” is directly followed by a prepositional phrase “a collection of Norse tales dating to 1270” that modifies it, creating a noun phrase that serves as the subject of the sentence."
+      "content": "The blank comes between “pages” and “a collection of Norse tales dating to 1270.” The word “from” begins the prepositional phrase “from a collection of Norse tales dating to 1270,” which modifies the noun “pages.”"
     },
     {
       "title": "Apply the punctuation rule",
-      "content": "A prepositional phrase that modifies a noun should not be separated from it by punctuation. The no-punctuation version keeps “from” directly attached to the phrase it introduces. A colon, comma, or em dash would all incorrectly separate the prepositional phrase from the noun it modifies.<br/><br/>That confirms <strong>C</strong> is correct."
+      "content": "A preposition should not be separated from its object by punctuation. The no-punctuation version keeps “from” directly attached to its object, “a collection of Norse tales dating to 1270.” A colon, comma, or em dash after “from” would incorrectly separate the preposition from its object.<br/><br/>That confirms <strong>C</strong> is correct."
     }
   ]
 }

@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use 6-hour periods",
-      "content": "A value that is $129\\%$ greater is multiplied by $1+1.29=2.29$. Since the growth happens every $6$ hours, the exponent should count 6-hour periods: after $x$ hours, that is $x/6$ periods."
+      "title": "Use 5-hour periods",
+      "content": "A value that is $125\\%$ greater is multiplied by $1+1.25=2.25$. Since the growth happens every $5$ hours, the exponent should count 5-hour periods: after $x$ hours, that is $x/5$ periods."
     },
     {
       "title": "Find the exponential pattern",
-      "content": "At $x=18$ hours, there have been $18/6=3$ growth periods and the mass is $613.90$ grams. Work backward to the starting value: $$a(2.29)^3=613.90$$ $$a=\\frac{613.90}{(2.29)^3}\\approx51.12$$ So the model is $$A=51.12(2.29)^{x/6}$$"
+      "content": "At $x=15$ hours, there have been $15/5=3$ growth periods and the mass is $637.88$ grams. Work backward to the starting value: $$a(2.25)^3=637.88$$ $$a=\\frac{637.88}{(2.25)^3}\\approx56.00$$ So the model is $$A=56.00(2.25)^{x/5}$$"
     },
     {
       "title": "Confirm the choices",
-      "content": "The equations with base $1.29$ model $129\\%$ of the old mass, not $129\\%$ greater than the old mass. The equation with base $2.29$ and starting value $34.11$ has the right growth factor but the wrong initial mass. The correct equation has both model values, $51.12$ and $2.29$, so <strong>C</strong> is correct."
+      "content": "The equations with base $1.25$ model $125\\%$ of the old mass, not $125\\%$ greater than the old mass. The equation with base $2.25$ and starting value $42.53$ has the right growth factor but the wrong initial mass. The correct equation has both model values, $56.00$ and $2.25$, so <strong>C</strong> is correct."
     }
   ]
 }

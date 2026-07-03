@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Analyze the equation structure",
-      "content": "The equation is $16h + 13c = 700$, where $h$ = hours at regular job, $c$ = hours at second job, and 700 = total dollars earned. The equation represents total earnings as a sum of earnings from two separate jobs."
+      "content": "The equation is $18h + 15c = 780$, where $h$ = hours at regular job, $c$ = hours at second job, and 780 = total dollars earned. The equation represents total earnings as a sum of earnings from two separate jobs."
     },
     {
-      "title": "Identify what 16 represents",
-      "content": "The term $16h$ equals dollars (part of the \\$700 total). If $h$ is measured in hours, then for the product to give dollars, 16 must be the rate in dollars per hour. Since $h$ specifically represents hours at the regular job, 16 is the hourly wage at the regular job. That is the correct answer."
+      "title": "Identify what 18 represents",
+      "content": "The term $18h$ equals dollars (part of the \\$780 total). If $h$ is measured in hours, then for the product to give dollars, 18 must be the rate in dollars per hour. Since $h$ specifically represents hours at the regular job, 18 is the hourly wage at the regular job. Therefore, choice A is correct."
     }
   ]
 }

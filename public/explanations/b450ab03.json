@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the rates and variables",
-      "content": "Let $x$ = number of sandwiches and $y$ = number of salads. Each sandwich takes 1.5 minutes and each salad takes 1.9 minutes. The employee spends a total of 46.1 minutes preparing all items."
+      "content": "Let $x$ = number of wraps and $y$ = number of bowls. Each wrap takes 1.6 minutes and each bowl takes 2.1 minutes. The employee spends a total of 50.4 minutes preparing all items."
     },
     {
       "title": "Build the total time equation",
-      "content": "For each item type, multiply the time per item by the quantity:<ul><li>Sandwiches: $1.5x$ minutes</li><li>Salads: $1.9y$ minutes</li></ul>Setting the sum of these times equal to the total:<br/>$$1.5x + 1.9y = 46.1$$<br/>That is the correct answer."
+      "content": "For each item type, multiply the time per item by the quantity:<ul><li>Wraps: $1.6x$ minutes</li><li>Bowls: $2.1y$ minutes</li></ul>Setting the sum of these times equal to the total:<br/>$$1.6x + 2.1y = 50.4$$<br/>That is the correct answer."
     }
   ]
 }

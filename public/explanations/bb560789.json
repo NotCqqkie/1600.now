@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Calculate area of square S",
-      "content": "Square S has a side length of 4 cm. Using the formula for the area of a square, Area = (side)², we get: $$A_{\\text{square}} = 4^2 = 16\\text{ cm}^2$$"
+      "title": "Calculate area of square N",
+      "content": "Square N has a side length of 6 cm. Using the formula for the area of a square, Area = (side)^2, we get: $$A_{\\text{square}} = 6^2 = 36\\text{ cm}^2$$"
     },
     {
       "title": "Add both areas for total",
-      "content": "Triangle R has area 80 cm² and square S has area 16 cm². The total area is: $$A_{\\text{total}} = 80 + 16 = 96\\text{ cm}^2$$ That is the correct answer."
+      "content": "Triangle M has area 72 cm^2 and square N has area 36 cm^2. The total area is: $$A_{\\text{total}} = 72 + 36 = 108\\text{ cm}^2$$ That confirms <strong>D</strong> is correct."
     }
   ]
 }

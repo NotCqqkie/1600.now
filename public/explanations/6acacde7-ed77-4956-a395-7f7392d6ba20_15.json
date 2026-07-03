@@ -9,15 +9,15 @@
     },
     {
       "title": "Complete the square for x and y",
-      "content": "$x^2 - 6x + y^2 - 4y - 51 = 0$ becomes $(x-3)^2 - 9 + (y-2)^2 - 4 - 51 = 0$, so $(x-3)^2 + (y-2)^2 = 64$."
+      "content": "$x^2 - 8x + y^2 - 6y - 56 = 0$ becomes $(x-4)^2 - 16 + (y-3)^2 - 9 - 56 = 0$, so $(x-4)^2 + (y-3)^2 = 81$."
     },
     {
       "title": "Identify the center and radius",
-      "content": "Center $(3, 2)$, radius $r = \\sqrt{64} = 8$."
+      "content": "Center $(4, 3)$, radius $r = \\sqrt{81} = 9$."
     },
     {
       "title": "Compute the requested value",
-      "content": "Square side $= 2r = 16$, so perimeter $= 4 \\times 16 = 64$. That confirms <strong>C</strong> is correct."
+      "content": "Square side $= 2r = 18$, so perimeter $= 4 \\times 18 = 72$. That confirms <strong>C</strong> is correct."
     }
   ]
 }

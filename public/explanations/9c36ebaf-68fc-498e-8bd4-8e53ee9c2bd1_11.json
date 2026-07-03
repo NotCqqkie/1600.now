@@ -8,13 +8,13 @@
       "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
     },
     {
-      "title": "Calculate area of Circle K",
-      "content": "With radius 8 mm, the area of Circle K is $$A_K = \\pi(8)^2 = 64\\pi \\text{ mm}^2$$",
+      "title": "Calculate area of Circle M",
+      "content": "With radius 9 mm, the area of Circle M is $$A_M = \\pi(9)^2 = 81\\pi \\text{ mm}^2$$",
       "formula": "$$A = \\pi r^2$$"
     },
     {
       "title": "Add both circle areas",
-      "content": "Circle K has area $64\\pi$ mm², and Circle L has area $144\\pi$ mm² (given). The total area is $$64\\pi + 144\\pi = 208\\pi \\text{ mm}^2$$ That confirms <strong>D</strong> is correct."
+      "content": "Circle M has area $81\\pi$ mm², and Circle N has area $100\\pi$ mm² (given). The total area is $$81\\pi + 100\\pi = 181\\pi \\text{ mm}^2$$ That confirms <strong>D</strong> is correct."
     }
   ]
 }

@@ -1,19 +1,19 @@
 {
   "questionId": "c6e85cd7",
-  "correctAnswer": ".2916",
+  "correctAnswer": "5/18",
   "section": "Math",
   "steps": [
     {
       "title": "Rewrite the radical as an exponent",
-      "content": "Use $\\sqrt[3]{a^m}=a^{m/3}$. Then $$\\sqrt[3]{4^7}=4^{7/3}.$$"
+      "content": "Use $\\sqrt[3]{a^m}=a^{m/3}$. Then $$\\sqrt[3]{5^5}=5^{5/3}.$$"
     },
     {
       "title": "Equate exponents",
-      "content": "Since both sides have base $4$, set the exponents equal: $$8c=\\frac{7}{3}.$$"
+      "content": "Since both sides have base $5$, set the exponents equal: $$6c=\\frac{5}{3}.$$"
     },
     {
       "title": "Solve for $c$",
-      "content": "Divide by $8$: $$c=\\frac{7}{3}\\cdot\\frac{1}{8}=\\frac{7}{24}\\approx 0.2916.$$ The stored answer is <strong>.2916</strong>. The exact fraction and this decimal represent the same value."
+      "content": "Divide by $6$: $$c=\\frac{5}{3}\\cdot\\frac{1}{6}=\\frac{5}{18}\\approx 0.2778.$$ The stored answer is <strong>5/18</strong>. The exact fraction and this decimal represent the same value."
     }
   ]
 }

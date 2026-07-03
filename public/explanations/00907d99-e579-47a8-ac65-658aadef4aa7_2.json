@@ -1,23 +1,23 @@
 {
   "questionId": "00907d99-e579-47a8-ac65-658aadef4aa7_2",
-  "correctAnswer": "24",
+  "correctAnswer": "35",
   "section": "Math",
   "steps": [
     {
       "title": "Set up",
-      "content": "Given $7 + x = 4$, rewrite the target expression: $42 + 6x = 6(7 + x)$."
+      "content": "Given $8 + x = 5$, rewrite the target expression: $56 + 7x = 7(8 + x)$."
     },
     {
       "title": "Solve",
-      "content": "$6(7 + x) = 6(4) = 24$."
+      "content": "$7(8 + x) = 7(5) = 35$."
     },
     {
       "title": "Answer",
-      "content": "<strong>24</strong> is correct."
+      "content": "<strong>35</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "As a final check, make sure the computed value answers exactly what the question asks for. The work above gives $24$; substituting or interpreting it in the original condition satisfies the requirement, so $24$ is the value to enter."
+      "content": "As a final check, make sure the computed value answers exactly what the question asks for. The work above gives $35$; substituting or interpreting it in the original condition satisfies the requirement, so $35$ is the value to enter."
     }
   ]
 }

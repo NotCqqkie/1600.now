@@ -1,15 +1,15 @@
 {
   "questionId": "1a621af4",
-  "correctAnswer": "-14",
+  "correctAnswer": "-17",
   "section": "Math",
   "steps": [
     {
       "title": "Translate the English inequality into algebraic form",
-      "content": "The phrase <em>x is at most 2 less than 3 times the value of y</em> breaks down as:<ul><li><em>at most</em> means $\\leq$</li><li><em>2 less than 3 times the value of y</em> means $3y - 2$</li></ul>Combining these: $$x \\leq 3y - 2$$"
+      "content": "The phrase <em>x is at most 5 less than 4 times the value of y</em> breaks down as:<ul><li><em>at most</em> means $\\leq$</li><li><em>5 less than 4 times the value of y</em> means $4y - 5$</li></ul>Combining these: $$x \\leq 4y - 5$$"
     },
     {
-      "title": "Substitute y = −4 and find the maximum value of x",
-      "content": "Plugging in $y = -4$ into the inequality:<br/>$$x \\leq 3(-4) - 2$$<br/>$$x \\leq -12 - 2$$<br/>$$x \\leq -14$$<br/>Since $x$ can be at most $-14$, the greatest possible value of $x$ is $-14$."
+      "title": "Substitute y = -3 and find the maximum value of x",
+      "content": "Plugging in $y = -3$ into the inequality:<br/>$$x \\leq 4(-3) - 5$$<br/>$$x \\leq -12 - 5$$<br/>$$x \\leq -17$$<br/>Since $x$ can be at most $-17$, the greatest possible value of $x$ is $-17$."
     }
   ]
 }

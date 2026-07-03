@@ -9,11 +9,11 @@
     },
     {
       "title": "Calculate the confidence interval",
-      "content": "With point estimate 32% and margin of error 3.41%, the confidence interval is:<br/><br/>Lower bound: $32\\% - 3.41\\% = 28.59\\%$<br/><br/>Upper bound: $32\\% + 3.41\\% = 35.41\\%$"
+      "content": "With point estimate 38% and margin of error 2.76%, the confidence interval is:<br/><br/>Lower bound: $38\\% - 2.76\\% = 35.24\\%$<br/><br/>Upper bound: $38\\% + 2.76\\% = 40.76\\%$"
     },
     {
       "title": "Match to the correct choice",
-      "content": "<strong>More than $35.41\\%$ of all adults who own televisions use their televisions to watch nature shows.</strong> claims more than 35.41%, exceeding our upper bound.<br/><br/>Two other options incorrectly reject all conclusions, misunderstanding that a random sample provides valid population estimates.<br/><br/>Between $28.59\\%$ and $35.41\\%$ of all adults who own televisions use their televisions to watch nature shows. states the interval between 28.59% and 35.41%, which matches our confidence interval exactly.<br/><br/>That matches the correct answer — <strong>B</strong> is correct."
+      "content": "<strong>More than $40.76\\%$ of all adults who own tablets use their tablets to read e-books.</strong> claims more than 40.76%, exceeding our upper bound.<br/><br/>Two other options incorrectly reject all conclusions, misunderstanding that a random sample provides valid population estimates.<br/><br/>Between $35.24\\%$ and $40.76\\%$ of all adults who own tablets use their tablets to read e-books. states the interval between 35.24% and 40.76%, which matches our confidence interval exactly.<br/><br/>That matches the correct answer - <strong>B</strong> is correct."
     }
   ]
 }

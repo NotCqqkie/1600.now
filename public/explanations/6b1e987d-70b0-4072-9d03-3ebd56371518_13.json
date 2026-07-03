@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+      "title": "Fastest path: use the circle equation",
+      "content": "For coordinate-circle questions, read the center and radius from the equation. Match the signs inside the squared terms to the center coordinates, and take the square root of the right side for the radius."
     },
     {
       "title": "Recall the standard form of a circle",
@@ -13,7 +13,7 @@
     },
     {
       "title": "Identify the center and radius",
-      "content": "The given equation $(x - 14)^2 + (y - k)^2 = 36$ matches the standard form $(x - h)^2 + (y - m)^2 = r^2$ with $h = 14$, $m = k$, and $r^2 = 36$. Therefore, the center is $(14, k)$ and the radius is $\\sqrt{36} = 6$. That confirms <strong>A</strong> is correct."
+      "content": "The given equation $(x - 11)^2 + (y - n)^2 = 49$ matches the standard form $(x - h)^2 + (y - m)^2 = r^2$ with $h = 11$, $m = n$, and $r^2 = 49$. Therefore, the center is $(11, n)$ and the radius is $\\sqrt{49} = 7$. That confirms <strong>A</strong> is correct."
     }
   ]
 }

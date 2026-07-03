@@ -4,18 +4,18 @@
   "steps": [
     {
       "title": "Use the factor theorem",
-      "content": "If $x + 28y$ is a factor of an expression, then setting $x = -28y$ must make the expression equal zero (factor theorem)."
+      "content": "If $x + 24y$ is a factor of an expression, then setting $x = -24y$ must make the expression equal zero (factor theorem)."
     },
     {
       "title": "Substitute into each choice",
-      "content": "Substitute $x = -28y$ into each answer choice and check for zero."
+      "content": "Substitute $x = -24y$ into each answer choice and check for zero."
     },
     {
       "title": "Check the choices",
-      "content": "<ul><li><strong>Choice A &mdash; $x^{2}+29xy+28y^{2}$</strong>: Substitute $x=-28y$: $784y^2 - 812y^2 + 28y^2 = 0$, so $x+28y$ is a factor. &#10003;</li><li><strong>Choice B &mdash; $x^{2}+29xy+29y^{2}$</strong>: Substitute $x=-28y$: $784y^2 - 812y^2 + 29y^2 = y^2$, not zero. &#10007;</li><li><strong>Choice C &mdash; $x^{2}+84xy+84y^{2}$</strong>: Substitute $x=-28y$: $784y^2 - 2352y^2 + 84y^2 = -1484y^2$, not zero. &#10007;</li><li><strong>Choice D &mdash; $x^{2}+58xy+87y^{2}$</strong>: Substitute $x=-28y$: $784y^2 - 1624y^2 + 87y^2 = -753y^2$, not zero. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; $x^{2}+25xy+24y^{2}$</strong>: Substitute $x=-24y$: $576y^2 - 600y^2 + 24y^2 = 0$, so $x+24y$ is a factor. &#10003;</li><li><strong>Choice B &mdash; $x^{2}+25xy+25y^{2}$</strong>: Substitute $x=-24y$: $576y^2 - 600y^2 + 25y^2 = y^2$, not zero. &#10007;</li><li><strong>Choice C &mdash; $x^{2}+72xy+72y^{2}$</strong>: Substitute $x=-24y$: $576y^2 - 1728y^2 + 72y^2 = -1080y^2$, not zero. &#10007;</li><li><strong>Choice D &mdash; $x^{2}+50xy+75y^{2}$</strong>: Substitute $x=-24y$: $576y^2 - 1200y^2 + 75y^2 = -549y^2$, not zero. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
     }
   ],
-  "eliminationHtml": "<ul><li><strong>Choice A &mdash; $x^{2}+29xy+28y^{2}$</strong>: Substitute $x=-28y$: $784y^2 - 812y^2 + 28y^2 = 0$. Zero confirms $x+28y$ is a factor. &#10003;</li><li><strong>Choice B &mdash; $x^{2}+29xy+29y^{2}$</strong>: Substitute $x=-28y$: $784y^2 - 812y^2 + 29y^2 = y^2 \\neq 0$. &#10007;</li><li><strong>Choice C &mdash; $x^{2}+84xy+84y^{2}$</strong>: Substitute $x=-28y$: $784y^2 - 2352y^2 + 84y^2 = -1484y^2 \\neq 0$. &#10007;</li><li><strong>Choice D &mdash; $x^{2}+58xy+87y^{2}$</strong>: Substitute $x=-28y$: $784y^2 - 1624y^2 + 87y^2 = -753y^2 \\neq 0$. &#10007;</li></ul>That confirms <strong>A</strong> is correct.",
+  "eliminationHtml": "<ul><li><strong>Choice A &mdash; $x^{2}+25xy+24y^{2}$</strong>: Substitute $x=-24y$: $576y^2 - 600y^2 + 24y^2 = 0$. Zero confirms $x+24y$ is a factor. &#10003;</li><li><strong>Choice B &mdash; $x^{2}+25xy+25y^{2}$</strong>: Substitute $x=-24y$: $576y^2 - 600y^2 + 25y^2 = y^2 \\neq 0$. &#10007;</li><li><strong>Choice C &mdash; $x^{2}+72xy+72y^{2}$</strong>: Substitute $x=-24y$: $576y^2 - 1728y^2 + 72y^2 = -1080y^2 \\neq 0$. &#10007;</li><li><strong>Choice D &mdash; $x^{2}+50xy+75y^{2}$</strong>: Substitute $x=-24y$: $576y^2 - 1200y^2 + 75y^2 = -549y^2 \\neq 0$. &#10007;</li></ul>That confirms <strong>A</strong> is correct.",
   "correctAnswer": "A",
   "section": "Math"
 }

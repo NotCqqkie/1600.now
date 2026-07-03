@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up using the rectangle perimeter formula",
-      "content": "The perimeter of a rectangle is:<br/>$$P = 2(\\text{length}) + 2(\\text{width})$$<br/>With length $= x$ cm and width $= w$ cm (unknown), the perimeter is:<br/>$$P = 2x + 2w$$<br/>Since the function $f(x) = 2x + 244$ represents this perimeter, we have:<br/>$$2x + 2w = 2x + 244$$"
+      "content": "The perimeter of a rectangle is:<br/>$$P = 2(\\text{length}) + 2(\\text{width})$$<br/>With length $= x$ cm and width $= w$ cm (unknown), the perimeter is:<br/>$$P = 2x + 2w$$<br/>Since the function $f(x) = 2x + 186$ represents this perimeter, we have:<br/>$$2x + 2w = 2x + 186$$"
     },
     {
       "title": "Solve for the width",
-      "content": "Both sides of the equation contain $2x$, so the constant terms must be equal:<br/>$$2w = 244$$<br/>Dividing both sides by 2:<br/>$$w = 122$$<br/>That is the correct answer."
+      "content": "Both sides of the equation contain $2x$, so the constant terms must be equal:<br/>$$2w = 186$$<br/>Dividing both sides by 2:<br/>$$w = 93$$<br/>That is the correct answer."
     }
   ]
 }

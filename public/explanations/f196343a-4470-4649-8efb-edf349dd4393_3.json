@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Apply distance = speed times time",
-      "content": "Walking distance: $2 \\text{ mph} \\times w \\text{ hours} = 2w$ miles. Running distance: $6 \\text{ mph} \\times r \\text{ hours} = 6r$ miles."
+      "content": "Walking distance: $3 \\text{ mph} \\times w \\text{ hours} = 3w$ miles. Running distance: $5 \\text{ mph} \\times r \\text{ hours} = 5r$ miles."
     },
     {
       "title": "Sum to the total distance",
-      "content": "Total distance is $10$ miles, so:<br/>$$2w + 6r = 10$$"
+      "content": "Total distance is $12$ miles, so:<br/>$$3w + 5r = 12$$"
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li><strong>$2w+6r=10$</strong> is correct."
+      "content": "<ul><li><strong>A. $3w+5r=12$</strong> is correct.</li></ul>"
     }
   ]
 }

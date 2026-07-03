@@ -9,7 +9,7 @@
     },
     {
       "title": "Write line j and convert to standard form",
-      "content": "Line $j$ has slope $1$ and passes through $(0, 3)$, so $y = x + 3$. Rearranging: $x - y = -3$. That is the correct answer."
+      "content": "Line $j$ has slope $1$ and passes through $(0, 5)$, so $y = x + 5$. Rearranging: $x - y = -5$. The correct answer is choice D."
     }
   ]
 }

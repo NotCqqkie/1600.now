@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Treat x plus 4 as a block",
-      "content": "Both sides contain $x+4$: $$5(x+4)=4(x+4)+29$$ Subtract $4(x+4)$ from both sides."
+      "title": "Treat x plus 5 as a block",
+      "content": "Both sides contain $x+5$: $$6(x+5)=5(x+5)+31$$ Subtract $5(x+5)$ from both sides."
     },
     {
       "title": "Solve for the requested expression",
-      "content": "$$x+4=29$$ The problem asks for $x+4$, so no extra subtraction is needed."
+      "content": "$$x+5=31$$ The problem asks for $x+5$, so no extra subtraction is needed."
     },
     {
       "title": "Check the choices",
-      "content": "Choice C (&lsquo;$29$&rsquo;) is $29$, so it is correct. Choice B, $25$, is the value of $x$, not the requested value $x+4$."
+      "content": "Choice C (&lsquo;$31$&rsquo;) is $31$, so it is correct. Choice B, $26$, is the value of $x$, not the requested value $x+5$."
     }
   ]
 }

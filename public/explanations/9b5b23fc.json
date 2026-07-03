@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Convert the percentage to a function",
-      "content": "The function equals 201 percent of $x$. Converting: $\\frac{201}{100} = 2.01$. Therefore: $$f(x) = 2.01x$$"
+      "content": "The function equals 153 percent of $x$. Converting: $\\frac{153}{100} = 1.53$. Therefore: $$f(x) = 1.53x$$"
     },
     {
       "title": "Identify the function type and behavior",
-      "content": "The equation $f(x) = 2.01x$ has the form $f(x) = mx + b$ where $m = 2.01$ (the slope) and $b = 0$.<br/><br/>This is a <strong>linear function</strong> with positive slope.<br/><br/>Since $m = 2.01 \\gt 0$, the function is <strong>increasing</strong> as $x$ increases.<br/><br/>That confirms <strong>D</strong> is correct."
+      "content": "The equation $f(x) = 1.53x$ has the form $f(x) = mx + b$ where $m = 1.53$ (the slope) and $b = 0$.<br/><br/>This is a <strong>linear function</strong> with positive slope.<br/><br/>Since $m = 1.53 \\gt 0$, the function is <strong>increasing</strong> as $x$ increases.<br/><br/>That confirms <strong>D</strong> is correct."
     }
   ]
 }

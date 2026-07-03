@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Identify favorable outcomes",
-      "content": "There are $53$ participants with more than $120$ minutes of REM sleep out of $59$ participants total."
+      "content": "There are $47$ participants with more than $110$ minutes of REM sleep out of $52$ participants total."
     },
     {
       "title": "Compute the probability",
-      "content": "The probability is favorable outcomes divided by total outcomes: $$\\frac{53}{59}$$"
+      "content": "The probability is favorable outcomes divided by total outcomes: $$\\frac{47}{52}$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "The correct value is $\\frac{53}{59}$, so <strong>C</strong> is correct."
+      "content": "The correct value is $\\frac{47}{52}$, so <strong>C</strong> is correct."
     }
   ]
 }

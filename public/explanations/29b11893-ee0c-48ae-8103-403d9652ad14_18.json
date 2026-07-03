@@ -1,6 +1,6 @@
 {
   "questionId": "29b11893-ee0c-48ae-8103-403d9652ad14_18",
-  "correctAnswer": "1.485",
+  "correctAnswer": "1.764",
   "section": "Math",
   "steps": [
     {
@@ -13,7 +13,7 @@
     },
     {
       "title": "Factor and substitute",
-      "content": "Factor: $3\\sin a^{\\circ} \\cdot \\cos b^{\\circ}$. Substitute $\\sin a^{\\circ} = 0.50$ and $\\cos b^{\\circ} = 0.99$: $$3 \\times 0.50 \\times 0.99 = 1.485.$$ Therefore <strong>1.485</strong> is correct."
+      "content": "Factor: $3\\sin a^{\\circ} \\cdot \\cos b^{\\circ}$. Substitute $\\sin a^{\\circ} = 0.60$ and $\\cos b^{\\circ} = 0.98$: $$3 \\times 0.60 \\times 0.98 = 1.764.$$ Therefore <strong>1.764</strong> is correct."
     }
   ]
 }

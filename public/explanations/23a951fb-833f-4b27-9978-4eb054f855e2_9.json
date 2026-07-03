@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the relationship to determine which sample was larger",
-      "content": "Sample 1 has a margin of error of 1 minute; Sample 2 has a margin of error of 2.3 minutes.<br/><br/>The problem states both margins were calculated the same way, meaning both use the same confidence level and method.<br/><br/>Since both samples come from the same population (same type of oven), they estimate the same population variability.<br/><br/>Therefore, with the same confidence level and variability, the smaller margin of error in Sample 1 must result from a larger sample size.<br/><br/>The first sample contained more ovens than the second sample.<br/><br/>That matches <strong>Choice A &mdash; The first sample contained more ovens than the second sample.</strong>."
+      "content": "Sample 1 has a margin of error of 0.8 minute; Sample 2 has a margin of error of 1.9 minutes.<br/><br/>The problem states both margins were calculated the same way, meaning both use the same confidence level and method.<br/><br/>Since both samples come from the same population (same type of air fryer), they estimate the same population variability.<br/><br/>Therefore, with the same confidence level and variability, the smaller margin of error in Sample 1 must result from a larger sample size.<br/><br/>The first sample contained more air fryers than the second sample.<br/><br/>That matches <strong>Choice A &mdash; The first sample contained more air fryers than the second sample.</strong>."
     }
   ]
 }

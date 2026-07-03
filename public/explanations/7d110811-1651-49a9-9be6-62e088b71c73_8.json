@@ -1,15 +1,15 @@
 {
   "questionId": "7d110811-1651-49a9-9be6-62e088b71c73_8",
-  "correctAnswer": "40",
+  "correctAnswer": "50",
   "section": "Math",
   "steps": [
     {
       "title": "Set up the weight-loss equation",
-      "content": "The bear starts at 338 pounds and loses 0.7 pounds per day. After $d$ days, the weight is the initial weight minus the total loss:<br/>$$310 = 338 - 0.7d$$"
+      "content": "The bear starts at 356 pounds and loses 0.7 pounds per day. After $d$ days, the weight is the initial weight minus the total loss:<br/>$$321 = 356 - 0.7d$$"
     },
     {
       "title": "Solve for the number of days",
-      "content": "Rearrange to isolate $0.7d$:<br/>$$0.7d = 338 - 310 = 28$$<br/>Divide both sides by 0.7:<br/>$$d = \\frac{28}{0.7} = 40$$<br/>The bear weighed 310 pounds after <strong>40 days</strong>."
+      "content": "Rearrange to isolate $0.7d$:<br/>$$0.7d = 356 - 321 = 35$$<br/>Divide both sides by 0.7:<br/>$$d = \\frac{35}{0.7} = 50$$<br/>The bear weighed 321 pounds after <strong>50 days</strong>."
     }
   ]
 }

@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $11x(x^{9}-x^{8}+7)$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $13x(x^{9}-x^{8}+5)$."
     },
     {
       "title": "Algebra check",
@@ -13,15 +13,15 @@
     },
     {
       "title": "Find the greatest common factor",
-      "content": "The coefficients $11$, $-11$, and $77$ all share a factor of $11$. Every term contains at least one $x$. So the GCF is $11x$."
+      "content": "The coefficients $13$, $-13$, and $65$ all share a factor of $13$. Every term contains at least one $x$. So the GCF is $13x$."
     },
     {
       "title": "Factor it out",
-      "content": "$11x^{10}=11x\\cdot x^{9}$, $\\ 11x^{9}=11x\\cdot x^{8}$, $\\ 77x=11x\\cdot 7$. Therefore $11x^{10}-11x^{9}+77x=11x(x^{9}-x^{8}+7)$."
+      "content": "$13x^{10}=13x\\cdot x^{9}$, $\\ 13x^{9}=13x\\cdot x^{8}$, $\\ 65x=13x\\cdot 5$. Therefore $13x^{10}-13x^{9}+65x=13x(x^{9}-x^{8}+5)$."
     },
     {
       "title": "Eliminate each choice",
-      "content": "<ul><li>A) $x(10x^{10}-10x^{9}+76x)$ &mdash; expands to $10x^{11}-10x^{10}+76x^{2}$, wrong degrees. Eliminate.</li><li>B) $x(11^{10}-11^{9}+77)$ &mdash; constants only inside, gives a single $x$ term, not a polynomial of degree 10. Eliminate.</li><li>C) $11x(x^{10}-x^{9}+7x)$ &mdash; expands to $11x^{11}-11x^{10}+77x^{2}$, wrong degrees. Eliminate.</li><li>D) $11x(x^{9}-x^{8}+7)$ &mdash; expands to $11x^{10}-11x^{9}+77x$. Matches.</li></ul><strong>D</strong> is correct."
+      "content": "<ul><li>A) $x(12x^{10}-12x^{9}+64x)$ &mdash; expands to $12x^{11}-12x^{10}+64x^{2}$, wrong degrees. Eliminate.</li><li>B) $x(13^{10}-13^{9}+65)$ &mdash; constants only inside, gives a single $x$ term, not a polynomial of degree 10. Eliminate.</li><li>C) $13x(x^{10}-x^{9}+5x)$ &mdash; expands to $13x^{11}-13x^{10}+65x^{2}$, wrong degrees. Eliminate.</li><li>D) $13x(x^{9}-x^{8}+5)$ &mdash; expands to $13x^{10}-13x^{9}+65x$. Matches.</li></ul><strong>D</strong> is correct."
     }
   ]
 }

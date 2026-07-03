@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $\\sqrt[17]{x}$."
+      "title": "Fastest check: compare a table",
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $\\sqrt[13]{x}$."
     },
     {
       "title": "Algebra check",
@@ -13,7 +13,7 @@
     },
     {
       "title": "Simplify the expression",
-      "content": "A $\\tfrac{1}{n}$ exponent is the $n$th root: $$x^{1/17}=\\sqrt[17]{x}.$$"
+      "content": "A $\\tfrac{1}{n}$ exponent is the $n$th root: $$x^{1/13}=\\sqrt[13]{x}.$$"
     },
     {
       "title": "Match to the answer choices",

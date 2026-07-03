@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find the greatest common factor",
-      "content": "In $2x^{3}+4$, the coefficients are $2$ and $4$, whose greatest common factor is $2$. The variable $x$ appears only in the first term, so it is not part of the common factor."
+      "content": "In $3x^{3}+9$, the coefficients are $3$ and $9$, whose greatest common factor is $3$. The variable $x$ appears only in the first term, so it is not part of the common factor."
     },
     {
       "title": "Factor and test each choice",
-      "content": "Factor: $2x^{3}+4=2(x^{3}+2)$. Now expand each choice and compare to $2x^{3}+4$:<ul><li><strong>A)$4 \\times (x^3 + 4)$</strong> $4(x^{3}+4)=4x^{3}+16$. The leading coefficient is $4$, not $2$, so this is not equivalent.</li><li><strong>B)$4 \\times (x^3 + 2)$</strong> $4(x^{3}+2)=4x^{3}+8$. The leading coefficient is $4$, not $2$, so this is not equivalent.</li><li><strong>C)$2 \\times (x^3 + 4)$</strong> $2(x^{3}+4)=2x^{3}+8$. The constant term is $8$, not $4$, so this is not equivalent.</li><li><strong>D)$2 \\times (x^3 + 2)$</strong> $2(x^{3}+2)=2x^{3}+4$. This matches the original expression exactly. That matches <strong>Choice D &mdash; $2 \\times (x^3 + 2)$</strong>.</li></ul>"
+      "content": "Factor: $3x^{3}+9=3(x^{3}+3)$. Now expand each choice and compare to $3x^{3}+9$:<ul><li><strong>A)$9 \\times (x^3 + 9)$</strong> $9(x^{3}+9)=9x^{3}+81$. The leading coefficient is $9$, not $3$, so this is not equivalent.</li><li><strong>B)$9 \\times (x^3 + 3)$</strong> $9(x^{3}+3)=9x^{3}+27$. The leading coefficient is $9$, not $3$, so this is not equivalent.</li><li><strong>C)$3 \\times (x^3 + 9)$</strong> $3(x^{3}+9)=3x^{3}+27$. The constant term is $27$, not $9$, so this is not equivalent.</li><li><strong>D)$3 \\times (x^3 + 3)$</strong> $3(x^{3}+3)=3x^{3}+9$. This matches the original expression exactly. That matches <strong>Choice D &mdash; $3 \\times (x^3 + 3)$</strong>.</li></ul>"
     }
   ]
 }

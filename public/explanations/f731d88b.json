@@ -1,6 +1,6 @@
 {
   "questionId": "f731d88b",
-  "correctAnswer": "47",
+  "correctAnswer": "53",
   "section": "Math",
   "steps": [
     {
@@ -9,11 +9,11 @@
     },
     {
       "title": "Find the two angles in triangle CDX",
-      "content": "The exterior angle at $B$ is $180^{\\circ}-139^{\\circ}=41^{\\circ}$, so $\\angle CXD=41^{\\circ}$. Also, $\\angle CDX=180^{\\circ}-174^{\\circ}=6^{\\circ}$."
+      "content": "The exterior angle at $B$ is $180^{\\circ}-136^{\\circ}=44^{\\circ}$, so $\\angle CXD=44^{\\circ}$. Also, $\\angle CDX=180^{\\circ}-171^{\\circ}=9^{\\circ}$."
     },
     {
       "title": "Use the exterior angle theorem",
-      "content": "Angle $C$ of the pentagon is the exterior angle of triangle $CDX$, so its measure is the sum of the two remote interior angles: $$41+6=47.$$"
+      "content": "Angle $C$ of the pentagon is the exterior angle of triangle $CDX$, so its measure is the sum of the two remote interior angles: $$44+9=53.$$"
     }
   ]
 }

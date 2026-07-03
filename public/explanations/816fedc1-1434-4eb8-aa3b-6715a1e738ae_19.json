@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Combine the functions f(x) and g(x)",
-      "content": "Substitute the functions into $h(x) = f(x) + g(x)$:<br/>$$h(x) = \\frac{1}{5}x - 9 + \\frac{4}{5}x + 27$$<br/>Combine the $x$-terms: $\\frac{1}{5}x + \\frac{4}{5}x = x$<br/>Combine the constants: $-9 + 27 = 18$<br/>So $h(x) = x + 18$"
+      "content": "Substitute the functions into $h(x) = f(x) + g(x)$:<br/>$$h(x) = \\frac{2}{5}x - 8 + \\frac{3}{5}x + 28$$<br/>Combine the $x$-terms: $\\frac{2}{5}x + \\frac{3}{5}x = x$<br/>Combine the constants: $-8 + 28 = 20$<br/>So $h(x) = x + 20$"
     },
     {
       "title": "Set h(x) = 0 and solve for x",
-      "content": "The $x$-intercept occurs where $y = 0$:<br/>$$0 = x + 18$$<br/>$$x = -18$$<br/>The $x$-intercept is at $(-18, 0)$. That confirms <strong>B</strong> is correct."
+      "content": "The $x$-intercept occurs where $y = 0$:<br/>$$0 = x + 20$$<br/>$$x = -20$$<br/>The $x$-intercept is at $(-20, 0)$. That confirms <strong>B</strong> is correct."
     }
   ]
 }

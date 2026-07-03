@@ -5,23 +5,23 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>C</strong>, $x^{3}+14x^{2}-7x+30$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>C</strong>, $x^{3}+13x^{2}-5x+28$."
     },
     {
       "title": "Algebra check",
       "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
     },
     {
-      "title": "Distribute the 6 across the second group",
-      "content": "Expand $6(x^{2}+5)$:$$6x^{2} + 30$$"
+      "title": "Distribute the 4 across the second group",
+      "content": "Expand $4(x^{2}+7)$:$$4x^{2} + 28$$"
     },
     {
       "title": "Rewrite with expanded terms and combine like terms",
-      "content": "Substitute back and group:$$(x^{3}+8x^{2}-7x) + (6x^{2}+30) = x^{3} + (8x^{2}+6x^{2}) + (-7x) + 30 = x^{3}+14x^{2}-7x+30$$"
+      "content": "Substitute back and group:$$(x^{3}+9x^{2}-5x) + (4x^{2}+28) = x^{3} + (9x^{2}+4x^{2}) + (-5x) + 28 = x^{3}+13x^{2}-5x+28$$"
     },
     {
       "title": "Evaluate each choice",
-      "content": "The simplified expression is $x^{3}+14x^{2}-7x+30$.<ul><li>A) $x^{3}+6x^{2}-7x+30$: $x^2$ coefficient is 6, not 14 — incorrect.</li><li>B) $x^{3}+8x^{2}-7x+30$: $x^2$ coefficient is 8, ignoring the distributed $6x^2$ — incorrect.</li><li>C) $x^{3}+14x^{2}-7x+30$: matches exactly. That confirms <strong>C</strong> is correct.</li><li>D) $x^{3}+5x^{2}-7x+30$: $x^2$ coefficient is 5 — incorrect.</li></ul>"
+      "content": "The simplified expression is $x^{3}+13x^{2}-5x+28$.<ul><li>A) $x^{3}+4x^{2}-5x+28$: $x^2$ coefficient is 4, not 13 — incorrect.</li><li>B) $x^{3}+9x^{2}-5x+28$: $x^2$ coefficient is 9, ignoring the distributed $4x^2$ — incorrect.</li><li>C) $x^{3}+13x^{2}-5x+28$: matches exactly. That confirms <strong>C</strong> is correct.</li><li>D) $x^{3}+7x^{2}-5x+28$: $x^2$ coefficient is 7 — incorrect.</li></ul>"
     }
   ]
 }

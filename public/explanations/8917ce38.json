@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Convert kilometers to meters",
-      "content": "Since $1$ kilometer equals $1{,}000$ meters, $90$ kilometers equals $90{,}000$ meters."
+      "content": "Since $1$ kilometer equals $1{,}000$ meters, $72$ kilometers equals $72{,}000$ meters."
     },
     {
       "title": "Convert hours to seconds",
-      "content": "One hour is $60\\times60=3{,}600$ seconds, so $90$ kilometers per hour is the same as $90{,}000$ meters per $3{,}600$ seconds."
+      "content": "One hour is $60\\times60=3{,}600$ seconds, so $72$ kilometers per hour is the same as $72{,}000$ meters per $3{,}600$ seconds."
     },
     {
       "title": "Find meters per second",
-      "content": "$$\\frac{90{,}000}{3{,}600}=25$$ The equivalent speed is 25 meters per second. Therefore, <strong>A</strong> is correct."
+      "content": "$$\\frac{72{,}000}{3{,}600}=20$$ The equivalent speed is 20 meters per second. Therefore, <strong>A</strong> is correct."
     }
   ],
   "correctAnswer": "A"

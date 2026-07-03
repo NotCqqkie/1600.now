@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The passage says Kershaw et al.&apos;s research &quot;reconciles two competing theories,&quot; providing &quot;firm details&quot; in a previously ______ area of study. The blank must describe what the field was like before those firm details arrived &mdash; a field defined by competing, unresolved theories rather than established facts."
+      "content": "The passage says Patel et al.&apos;s research &quot;reconciles two competing theories:&quot; providing &quot;firm details&quot; in a previously ______ area of study. The blank must describe what the field was like before those firm details arrived &mdash; a field defined by competing, unresolved theories rather than established facts."
     },
     {
       "title": "Eliminate the choices",

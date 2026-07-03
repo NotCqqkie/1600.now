@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Expand both sides",
-      "content": "Distribute: $17(x-16)=17x-272$ and $-16(x+17)=-16x-272$. The equation becomes $$17x-272=-16x-272.$$"
+      "content": "Distribute: $18(x-15)=18x-270$ and $-15(x+18)=-15x-270$. The equation becomes $$18x-270=-15x-270.$$"
     },
     {
       "title": "Solve and count solutions",
-      "content": "Add $16x$ and $272$ to both sides: $33x=0$, so $x=0$ — a single value. That confirms <strong>A</strong> is correct."
+      "content": "Add $15x$ and $270$ to both sides: $33x=0$, so $x=0$ &mdash; a single value. That confirms <strong>A</strong> is correct."
     },
     {
       "title": "Confirm the answer",

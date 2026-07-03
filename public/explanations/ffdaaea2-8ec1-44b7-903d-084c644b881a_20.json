@@ -1,6 +1,6 @@
 {
   "questionId": "ffdaaea2-8ec1-44b7-903d-084c644b881a_20",
-  "correctAnswer": "292/3,97.33",
+  "correctAnswer": "304/3,101.33",
   "section": "Math",
   "steps": [
     {
@@ -9,15 +9,15 @@
     },
     {
       "title": "Find the side length of the equilateral triangle",
-      "content": "Perimeter = 876 cm. For an equilateral triangle, all three sides are equal:<br/>$$s = \\frac{876}{3} = 292 \\text{ cm}$$"
+      "content": "Perimeter = 912 cm. For an equilateral triangle, all three sides are equal:<br/>$$s = \\frac{912}{3} = 304 \\text{ cm}$$"
     },
     {
       "title": "Use the equilateral circumradius shortcut",
-      "content": "For an equilateral triangle with side length $s$, the radius of the circle through its vertices is<br/>$$R=\\frac{s}{\\sqrt{3}}=\\frac{s\\sqrt{3}}{3}$$<br/>With $s=292$,<br/>$$R=\\frac{292\\sqrt{3}}{3}$$"
+      "content": "For an equilateral triangle with side length $s$, the radius of the circle through its vertices is<br/>$$R=\\frac{s}{\\sqrt{3}}=\\frac{s\\sqrt{3}}{3}$$<br/>With $s=304$,<br/>$$R=\\frac{304\\sqrt{3}}{3}$$"
     },
     {
       "title": "Solve for w using the given form",
-      "content": "The problem says the radius is $w\\sqrt{3}$ centimeters, so set<br/>$$w\\sqrt{3}=\\frac{292\\sqrt{3}}{3}$$<br/>Divide by $\\sqrt{3}$:<br/>$$w=\\frac{292}{3}$$<br/>Accepted entries include <strong>292/3</strong> or <strong>97.33</strong>."
+      "content": "The problem says the radius is $w\\sqrt{3}$ centimeters, so set<br/>$$w\\sqrt{3}=\\frac{304\\sqrt{3}}{3}$$<br/>Divide by $\\sqrt{3}$:<br/>$$w=\\frac{304}{3}$$<br/>Accepted entries include <strong>304/3</strong> or <strong>101.33</strong>."
     }
   ]
 }

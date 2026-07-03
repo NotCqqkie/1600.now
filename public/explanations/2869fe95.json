@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Establish the lower bound",
-      "content": "The lowest recorded temperature was $31^\\circ\\text{F}$, so no recorded temperature can be below this value. Any recorded temperature $t$ satisfies: $$t \\ge 31.$$"
+      "content": "The lowest recorded temperature was $28^\\circ\\text{F}$, so no recorded temperature can be below this value. Any recorded temperature $t$ satisfies: $$t \\ge 28.$$"
     },
     {
       "title": "Establish the upper bound",
-      "content": "The highest recorded temperature was $67^\\circ\\text{F}$, so no recorded temperature can exceed this value. Any recorded temperature $t$ satisfies: $$t \\le 67.$$"
+      "content": "The highest recorded temperature was $64^\\circ\\text{F}$, so no recorded temperature can exceed this value. Any recorded temperature $t$ satisfies: $$t \\le 64.$$"
     },
     {
       "title": "Evaluate each answer choice",
-      "content": "<ul><li>Choice A: $t \\ge 98$ — this claims all temperatures are at least 98°F, which contradicts the given maximum of 67°F. Eliminated.</li><li>Choice B: $t \\ge 67$ — this claims all temperatures are at least 67°F, but the minimum was 31°F. Eliminated.</li><li>Choice C: $31 \\le t \\le 67$ — this captures both bounds: temperatures are between 31°F and 67°F inclusive. Kept.</li><li>Choice D: $t \\le 31$ — this claims all temperatures are at most 31°F, but the maximum was 67°F. Eliminated.</li></ul>That matches <strong>Choice C &mdash; $31 \\le t \\le 67$</strong>."
+      "content": "<ul><li>Choice A: $t \\ge 92$ - this claims all temperatures are at least 92°F, which contradicts the given maximum of 64°F. Eliminated.</li><li>Choice B: $t \\ge 64$ - this claims all temperatures are at least 64°F, but the minimum was 28°F. Eliminated.</li><li>Choice C: $28 \\le t \\le 64$ - this captures both bounds: temperatures are between 28°F and 64°F inclusive. Kept.</li><li>Choice D: $t \\le 28$ - this claims all temperatures are at most 28°F, but the maximum was 64°F. Eliminated.</li></ul>That matches <strong>Choice C &mdash; $28 \\le t \\le 64$</strong>."
     }
   ]
 }

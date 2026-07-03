@@ -1,15 +1,15 @@
 {
   "questionId": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_6",
-  "correctAnswer": "33",
+  "correctAnswer": "38",
   "section": "Math",
   "steps": [
     {
       "title": "Set up the equation from the parts",
-      "content": "Let $x$ be the length of one equal part. The three parts sum to the total length: $$47 + 2x = 113.$$"
+      "content": "Let $x$ be the length of one equal part. The three parts sum to the total length: $$51 + 2x = 127.$$"
     },
     {
       "title": "Solve for the requested length",
-      "content": "Subtract and divide: $2x = 113 - 47 = 66$, so $x = 33$. The answer is <strong>33</strong>."
+      "content": "Subtract and divide: $2x = 127 - 51 = 76$, so $x = 38$. The answer is <strong>38</strong>."
     }
   ]
 }

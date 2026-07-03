@@ -1,19 +1,19 @@
 {
   "questionId": "979898ba-60c7-4531-ac45-29c4db2b3361_19",
-  "correctAnswer": "1840",
+  "correctAnswer": "1780",
   "section": "Math",
   "steps": [
     {
       "title": "Set up",
-      "content": "One acute angle measures $9x - 650$. Each obtuse angle is its supplement: $180 - (9x - 650)$. The sum of one acute and three obtuse angles equals $w$:$$w = (9x-650) + 3[180-(9x-650)]$$"
+      "content": "One acute angle measures $8x - 620$. Each obtuse angle is its supplement: $180 - (8x - 620)$. The sum of one acute and three obtuse angles is $$ (8x-620) + 3[180-(8x-620)]$$"
     },
     {
       "title": "Solve",
-      "content": "Expand: $w = (9x-650) + 540 - 3(9x-650) = -2(9x-650) + 540 = -18x + 1300 + 540 = -18x + 1840$. The $x$ terms cancel when you substitute back into $w$, giving $w = 1840$."
+      "content": "Expand: $(8x-620) + 540 - 3(8x-620) = -2(8x-620) + 540 = -16x + 1240 + 540 = -16x + 1780$. Since this matches $-16x + w$, $w = 1780$."
     },
     {
       "title": "Answer",
-      "content": "<strong>1840</strong> is correct."
+      "content": "<strong>1780</strong> is correct."
     }
   ]
 }

@@ -2,13 +2,13 @@
   "questionId": "ee846db7",
   "steps": [
     {
-      "content": "The equation $5.48x + 7.30y = 1{,}277.94$ models total revenue: each term is (price per unit) times (number of units sold). The variable $x$ is the number of smaller containers sold."
+      "content": "The equation $5.65x + 7.45y = 1{,}348.25$ models total revenue: each term is (price per unit) times (number of units sold). The variable $x$ is the number of smaller containers sold."
     },
     {
-      "content": "In the term $5.48x$, the coefficient 5.48 is multiplied by $x$ (number of smaller containers). That coefficient is the price per smaller container — a fixed dollar amount, not an expression involving a variable."
+      "content": "In the term $5.65x$, the coefficient 5.65 is multiplied by $x$ (number of smaller containers). That coefficient is the price per smaller container, a fixed dollar amount, not an expression involving a variable."
     },
     {
-      "content": "Evaluate every choice:<ul><li>A: $5.48$ — This is the coefficient of $x$, so it represents the price per smaller container. That matches the correct answer — <strong>A</strong> is correct.</li><li>B: $7.30y$ — This is the entire revenue from larger containers, not the price per smaller container. Eliminated.</li><li>C: $7.30$ — This is the price per larger container, not the smaller one. Eliminated.</li><li>D: $5.48x$ — This is the total revenue from smaller containers, not the price of each one. Eliminated.</li></ul>"
+      "content": "Evaluate every choice:<ul><li>A: $5.65$ - This is the coefficient of $x$, so it represents the price per smaller container. That matches the correct answer; <strong>A</strong> is correct.</li><li>B: $7.45y$ - This is the entire revenue from larger containers, not the price per smaller container. Eliminated.</li><li>C: $7.45$ - This is the price per larger container, not the smaller one. Eliminated.</li><li>D: $5.65x$ - This is the total revenue from smaller containers, not the price of each one. Eliminated.</li></ul>"
     }
   ],
   "correctAnswer": "A"

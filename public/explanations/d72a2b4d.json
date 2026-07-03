@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up the percentage relationship",
-      "content": "The April price is <em>p</em>% of the March price, so: $$(p/100) \\times 15.50 = 17.36$$"
+      "content": "The June price is <em>p</em>% of the May price, so: $$(p/100) \\times 18.75 = 20.25$$"
     },
     {
       "title": "Verify the answer with backsolving",
-      "content": "Backsolving by testing the candidate (112): $1.12 \\times 15.50 = 17.36$. That matches the correct answer — <strong>C</strong> is correct."
+      "content": "Backsolving by testing the candidate (108): $1.08 \\times 18.75 = 20.25$. That matches the correct answer &mdash; <strong>C</strong> is correct."
     }
   ]
 }

@@ -1,23 +1,23 @@
 {
   "questionId": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_13",
-  "correctAnswer": "11",
+  "correctAnswer": "13",
   "section": "Math",
   "steps": [
     {
       "title": "Find the slope of line s",
-      "content": "Rewrite $8x+2y=0$ as $$2y=-8x$$ $$y=-4x.$$ Therefore line $s$ has slope $-4$."
+      "content": "Rewrite $10x+2y=0$ as $$2y=-10x$$ $$y=-5x.$$ Therefore line $s$ has slope $-5$."
     },
     {
       "title": "Build the perpendicular line",
-      "content": "A perpendicular line has slope $\\frac{1}{4}$, the negative reciprocal of $-4$. Since line $t$ passes through $(6,0)$, write $$y=\\frac{1}{4}(x-6).$$"
+      "content": "A perpendicular line has slope $\\frac{1}{5}$, the negative reciprocal of $-5$. Since line $t$ passes through $(7,0)$, write $$y=\\frac{1}{5}(x-7).$$"
     },
     {
-      "title": "Match the point with y = 5/4",
-      "content": "The point $(k,\\frac{5}{4})$ lies on line $t$, so set $y=\\frac{5}{4}$: $$\\frac{5}{4}=\\frac{1}{4}(k-6).$$ Multiplying by $4$ gives $5=k-6$, so $k=11$."
+      "title": "Match the point with y = 6/5",
+      "content": "The point $(k,\\frac{6}{5})$ lies on line $t$, so set $y=\\frac{6}{5}$: $$\\frac{6}{5}=\\frac{1}{5}(k-7).$$ Multiplying by $5$ gives $6=k-7$, so $k=13$."
     },
     {
       "title": "Confirm the value",
-      "content": "Substitute $k=11$ into the line equation: $$y=\\frac{1}{4}(11-6)=\\frac{5}{4}.$$ Therefore the value of $k$ is <strong>11</strong>."
+      "content": "Substitute $k=13$ into the line equation: $$y=\\frac{1}{5}(13-7)=\\frac{6}{5}.$$ Therefore the value of $k$ is <strong>13</strong>."
     }
   ]
 }

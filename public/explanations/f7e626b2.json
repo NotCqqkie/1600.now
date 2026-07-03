@@ -9,16 +9,16 @@
     },
     {
       "title": "Set up the surface area formula",
-      "content": "A rectangular prism has three types of faces appearing twice each. With dimensions $l = 4$, $w = 5$, and $h = 6$ inches, we calculate the sum of the three distinct rectangular face areas, then double it.",
+      "content": "A rectangular prism has three types of faces appearing twice each. With dimensions $l = 5$, $w = 6$, and $h = 7$ inches, we calculate the sum of the three distinct rectangular face areas, then double it.",
       "formula": "$$SA = 2(lw + lh + wh)$$"
     },
     {
       "title": "Calculate the three face areas",
-      "content": "<ul><li>Face 1 (4 × 5): $4 \\times 5 = 20$ square inches</li><li>Face 2 (4 × 6): $4 \\times 6 = 24$ square inches</li><li>Face 3 (5 × 6): $5 \\times 6 = 30$ square inches</li></ul>Sum: $20 + 24 + 30 = 74$ square inches."
+      "content": "<ul><li>Face 1 (5 x 6): $5 \\times 6 = 30$ square inches</li><li>Face 2 (5 x 7): $5 \\times 7 = 35$ square inches</li><li>Face 3 (6 x 7): $6 \\times 7 = 42$ square inches</li></ul>Sum: $30 + 35 + 42 = 107$ square inches."
     },
     {
       "title": "Multiply by 2 and identify the answer",
-      "content": "The total surface area accounts for two of each face:<br/>$$SA = 2 \\times 74 = 148 \\text{ square inches}$$That matches the correct answer — <strong>D</strong> is correct."
+      "content": "The total surface area accounts for two of each face:<br/>$$SA = 2 \\times 107 = 214 \\text{ square inches}$$That matches the correct answer &mdash; <strong>D</strong> is correct."
     }
   ]
 }

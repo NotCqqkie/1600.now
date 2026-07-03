@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Build line j from two points",
-      "content": "Line $k$ is $y=8x+7$, so its slope is $8$. Since line $j$ is parallel to $k$, line $j$ also has slope $8$. The point $(0,15)$ is on line $j$; moving $1$ unit right raises $y$ by $8$, so a second point is $(1,23)$."
+      "content": "Line $k$ is $y=6x+4$, so its slope is $6$. Since line $j$ is parallel to $k$, line $j$ also has slope $6$. The point $(0,13)$ is on line $j$; moving $1$ unit right raises $y$ by $6$, so a second point is $(1,19)$."
     },
     {
       "title": "Find line j from two points",
-      "content": "Use those two points directly. From $(0,15)$ to $(1,23)$, the slope is $$m=\\frac{23-15}{1-0}=8.$$ Substituting $(0,15)$ into $y=8x+b$ gives $b=15$, so line $j$ is $y=8x+15$."
+      "content": "Use those two points directly. From $(0,13)$ to $(1,19)$, the slope is $$m=\\frac{19-13}{1-0}=6.$$ Substituting $(0,13)$ into $y=6x+b$ gives $b=13$, so line $j$ is $y=6x+13$."
     },
     {
       "title": "Test all four choices",
-      "content": "<ul><li><strong>Choice A &mdash; $y=15x+7$</strong>: The slope is $15$, not $8$.</li><li><strong>Choice B &mdash; $y=-15x+7$</strong>: The slope is $-15$, not $8$.</li><li><strong>Choice C &mdash; $y=8x+15$</strong>: The slope is $8$, and the $y$-intercept is $15$.</li><li><strong>Choice D &mdash; $y=-8x+15$</strong>: The slope is $-8$, not $8$.</li></ul><strong>C</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; $y=13x+4$</strong>: The slope is $13$, not $6$.</li><li><strong>Choice B &mdash; $y=-13x+4$</strong>: The slope is $-13$, not $6$.</li><li><strong>Choice C &mdash; $y=6x+13$</strong>: The slope is $6$, and the $y$-intercept is $13$.</li><li><strong>Choice D &mdash; $y=-6x+13$</strong>: The slope is $-6$, not $6$.</li></ul><strong>C</strong> is correct."
     }
   ]
 }

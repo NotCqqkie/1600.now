@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Find the growth rate p of f(x)",
-      "content": "For $f(x) = k(1.84)^x$, increasing $x$ by 1 multiplies the output by 1.84: $$f(x+1) = k(1.84)^{x+1} = 1.84 \\cdot k(1.84)^x = 1.84 \\cdot f(x).$$ So $f(x)$ increases by $p = 84\\%$ for every unit increase in $x$."
+      "content": "For $f(x) = k(1.72)^x$, increasing $x$ by 1 multiplies the output by 1.72: $$f(x+1) = k(1.72)^{x+1} = 1.72 \\cdot k(1.72)^x = 1.72 \\cdot f(x).$$ So $f(x)$ increases by $p = 72\\%$ for every unit increase in $x$."
     },
     {
       "title": "Use the required four-unit growth",
-      "content": "For $g$, increasing $x$ by $4$ should multiply the output by $1.84$, the same growth factor that $f$ gets from a one-unit increase."
+      "content": "For $g$, increasing $x$ by $4$ should multiply the output by $1.72$, the same growth factor that $f$ gets from a one-unit increase."
     },
     {
       "title": "Pick the matching ratio",
-      "content": "<strong>Choice A &mdash; $g(x) = k (1.84^x)^{\\frac{1}{4}}$</strong> gives $1.84$ exactly:<br/>$$g(x)=k(1.84^x)^{1/4}=k(1.84)^{x/4}$$<br/>When $x$ increases by $4$, the exponent increases by $1$, so the output is multiplied by $1.84$. The formulas $g(x) = k (1.84^x)^4$, $g(x) = k (1.84)^{x-4}$, and $g(x) = k (1.84)^{x+4}$ multiply by powers other than $1.84$. <strong>Choice A &mdash; $g(x) = k (1.84^x)^{\\frac{1}{4}}$</strong>."
+      "content": "<strong>Choice A &mdash; $g(x) = k (1.72^x)^{\\frac{1}{4}}$</strong> gives $1.72$ exactly:<br/>$$g(x)=k(1.72^x)^{1/4}=k(1.72)^{x/4}$$<br/>When $x$ increases by $4$, the exponent increases by $1$, so the output is multiplied by $1.72$. The formulas $g(x) = k (1.72^x)^4$, $g(x) = k (1.72)^{x-4}$, and $g(x) = k (1.72)^{x+4}$ multiply by powers other than $1.72$. <strong>Choice A &mdash; $g(x) = k (1.72^x)^{\\frac{1}{4}}$</strong>."
     }
   ]
 }

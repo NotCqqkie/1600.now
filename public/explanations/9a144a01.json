@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Test a small positive x",
-      "content": "$$2^1 = 2$$ and $$2(1)+2 = 4$$, so $$2^x \\lt 2x+2$$ at $$x=1$$."
+      "content": "$$3^1 = 3$$ and $$3(1)+3 = 6$$, so $$3^x \\lt 3x+3$$ at $$x=1$$."
     },
     {
       "title": "Test a larger x",
-      "content": "$$2^4 = 16$$ and $$2(4)+2 = 10$$, so $$2^x \\gt 2x+2$$ at $$x=4$$.<br/><br/>Since the inequality changes from less to greater as x increases, there must be a constant c where they are equal, and for $0 \\lt x \\lt c$ the first inequality holds; for $x \\gt c$ the second holds.<br/><br/>That confirms <strong>C</strong> is correct."
+      "content": "$$3^3 = 27$$ and $$3(3)+3 = 12$$, so $$3^x \\gt 3x+3$$ at $$x=3$$.<br/><br/>Since the inequality changes from less to greater as x increases, there must be a constant c where they are equal, and for $0 \\lt x \\lt c$ the first inequality holds; for $x \\gt c$ the second holds.<br/><br/>That confirms <strong>C</strong> is correct."
     }
   ]
 }

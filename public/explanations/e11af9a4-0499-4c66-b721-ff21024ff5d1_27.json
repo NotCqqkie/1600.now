@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the functional distinction between the technologies",
-      "content": "The decisive clue is what each technology <em>does</em>. From the notes: neuromodulation <strong>influences neural activity</strong>, while neuroprostheses <strong>restore lost sensory, motor, or neural functions</strong>.<br/><br/>These are fundamentally different purposes. To contrast Thync (neuromodulation) with BrainGate (neuroprostheses), the answer must highlight this functional difference."
+      "content": "The decisive clue is what each technology <em>does</em>. From the notes: neuromodulation <strong>influences neural activity</strong>, while neuroprostheses <strong>restore lost sensory, motor, or neural functions</strong>.<br/><br/>These are fundamentally different purposes. To contrast NeuroPulse (neuromodulation) with CortexLink (neuroprostheses), the answer must highlight this functional difference."
     },
     {
       "title": "Apply the distinction to the choices",
-      "content": "C directly states the contrast: <strong>“Neuromodulation technologies influence neural activity, but they don't restore sensory, motor, or neural functions as neuroprostheses do.”</strong> This captures exactly what each technology does and why they differ.<br/><br/>The other three either misrepresent the technologies (A incorrectly calls Thync's tech a neuroprosthetic; D wrongly describes neuroprostheses as allowing thought-control of external hardware—that is what BCIs do) or fail to explain the functional distinction (B merely names the technology types without showing how they differ).<br/><br/>That matches answer <strong>C</strong> — C is correct."
+      "content": "C directly states the contrast: <strong>“Neuromodulation technologies influence neural activity, but they don't restore sensory, motor, or neural functions as neuroprostheses do.”</strong> This captures exactly what each technology does and why they differ.<br/><br/>The other three either misrepresent the technologies (A incorrectly calls NeuroPulse's tech a neuroprosthetic; D wrongly describes neuroprostheses as allowing thought-control of external hardware—that is what BCIs do) or fail to explain the functional distinction (B merely names the technology types without showing how they differ).<br/><br/>That matches answer <strong>C</strong> — C is correct."
     }
   ]
 }

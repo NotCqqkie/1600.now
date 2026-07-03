@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Simplify the given expression",
-      "content": "Since $y \\gt 0$, $\\sqrt{y^8} = y^4$. Substitute and simplify: $\\frac{3x^{17}y^5}{5x^2 y^4} = \\frac{3x^{15}y}{5}$."
+      "content": "Since $y \\gt 0$, $\\sqrt{y^{12}} = y^6$. Substitute and simplify: $\\frac{4x^{16}y^7}{7x^3 y^6} = \\frac{4x^{13}y}{7}$."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; I only</strong>: Form&nbsp;I is $\\frac{x^{14/3}y^{5/3}}{3}$. This has exponent $\\frac{14}{3}$ on $x$ and $\\frac{5}{3}$ on $y$, and a denominator of 3 &mdash; none of these match $\\frac{3x^{15}y}{5}$. Form&nbsp;I is not equivalent. &#10007;</li><li><strong>Choice B &mdash; II only</strong>: Form&nbsp;II is $\\frac{3x^{11}y^2}{5}$. The exponents $x^{11}$ and $y^2$ do not match $x^{15}$ and $y^1$ in the simplified expression. Form&nbsp;II is not equivalent. &#10007;</li><li><strong>Choice C &mdash; I and II</strong>: Since neither Form&nbsp;I nor Form&nbsp;II equals $\\frac{3x^{15}y}{5}$, both cannot be correct. &#10007;</li><li><strong>Choice D &mdash; Neither I nor II</strong>: Neither form is equivalent to the simplified expression $\\frac{3x^{15}y}{5}$. &#10003;</li></ul>That is the correct answer."
+      "content": "<ul><li><strong>Choice A &mdash; I only</strong>: Form&nbsp;I is $\\frac{x^{13/2}y^{7/2}}{4}$. This has exponent $\\frac{13}{2}$ on $x$ and $\\frac{7}{2}$ on $y$, and a denominator of 4 &mdash; none of these match $\\frac{4x^{13}y}{7}$. Form&nbsp;I is not equivalent. &#10007;</li><li><strong>Choice B &mdash; II only</strong>: Form&nbsp;II is $\\frac{4x^{10}y^2}{7}$. The exponents $x^{10}$ and $y^2$ do not match $x^{13}$ and $y^1$ in the simplified expression. Form&nbsp;II is not equivalent. &#10007;</li><li><strong>Choice C &mdash; I and II</strong>: Since neither Form&nbsp;I nor Form&nbsp;II equals $\\frac{4x^{13}y}{7}$, both cannot be correct. &#10007;</li><li><strong>Choice D &mdash; Neither I nor II</strong>: Neither form is equivalent to the simplified expression $\\frac{4x^{13}y}{7}$. &#10003;</li></ul>That is the correct answer."
     }
   ]
 }

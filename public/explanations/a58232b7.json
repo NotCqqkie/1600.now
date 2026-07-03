@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Use the domain",
-      "content": "Both functions have base $1.4\\gt1$, so they increase as $x$ increases. Since $x\\ge0$, each function has its minimum at $x=0$."
+      "content": "Both functions have base $1.3\\gt1$, so they increase as $x$ increases. Since $x\\ge0$, each function has its minimum at $x=0$."
     },
     {
       "title": "Check function g",
-      "content": "For $g(x)=18(1.16)(1.4)^{x+2}$, the minimum is $$g(0)=18(1.16)(1.4)^2$$ This value is not displayed as a single constant or coefficient in the equation for $g$."
+      "content": "For $g(x)=20(1.12)(1.3)^{x+3}$, the minimum is $$g(0)=20(1.12)(1.3)^3$$ This value is not displayed as a single constant or coefficient in the equation for $g$."
     },
     {
       "title": "Check function h",
-      "content": "For $h(x)=18(1.4)^{x+4}$, the minimum is $$h(0)=18(1.4)^4$$ This value is not displayed as a single constant or coefficient in the equation for $h$."
+      "content": "For $h(x)=20(1.3)^{x+5}$, the minimum is $$h(0)=20(1.3)^5$$ This value is not displayed as a single constant or coefficient in the equation for $h$."
     },
     {
       "title": "Confirm the choice",

@@ -1,15 +1,15 @@
 {
   "questionId": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_7",
-  "correctAnswer": "118",
+  "correctAnswer": "106",
   "section": "Math",
   "steps": [
     {
       "title": "Set profit equal to target",
-      "content": "The profit function is $p(x) = 5x - 190$. To earn a profit of &#36;400, we set:<br/>$$5x - 190 = 400$$"
+      "content": "The profit function is $p(x) = 6x - 216$. To earn a profit of &#36;420, we set:<br/>$$6x - 216 = 420$$"
     },
     {
       "title": "Solve for x",
-      "content": "Add 190 to both sides:<br/>$$5x = 590$$<br/>Divide both sides by 5:<br/>$$x = 118$$<br/>They must sell 118 car stickers to earn &#36;400 in profit."
+      "content": "Add 216 to both sides:<br/>$$6x = 636$$<br/>Divide both sides by 6:<br/>$$x = 106$$<br/>They must sell 106 car magnets to earn &#36;420 in profit."
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find the y-intercept",
-      "content": "The y-intercept occurs where $x = 0$. Substitute into the equation:<br/>$$y = 500(2)^{2(0)} = 500(2)^0 = 500 \\cdot 1 = 500$$<br/>So the y-intercept is the point $(0, 500)$, meaning 500 subscribers when $x = 0$."
+      "content": "The y-intercept occurs where $x = 0$. Substitute into the equation:<br/>$$y = 600(2)^{2(0)} = 600(2)^0 = 600 \\cdot 1 = 600$$<br/>So the y-intercept is the point $(0, 600)$, meaning 600 subscribers when $x = 0$."
     },
     {
       "title": "Interpret the starting time",
-      "content": "The problem states the equation models subscribers <em>starting from the end of January 1997</em>. This means $x = 0$ corresponds to the end of January 1997. At that time, there were 500 subscribers. <strong>B</strong> is correct."
+      "content": "The problem states the equation models subscribers <em>starting from the end of March 1998</em>. This means $x = 0$ corresponds to the end of March 1998. At that time, there were 600 subscribers. <strong>B</strong> is correct."
     }
   ]
 }

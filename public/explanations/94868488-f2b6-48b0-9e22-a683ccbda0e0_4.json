@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up",
-      "content": "Rearrange $x^2 + 13x = -9$ to standard form by adding 9 to both sides: $$x^2 + 13x + 9 = 0$$ So $a = 1$, $b = 13$, $c = 9$."
+      "content": "Rearrange $x^2 + 11x = -8$ to standard form by adding 8 to both sides: $$x^2 + 11x + 8 = 0$$ So $a = 1$, $b = 11$, $c = 8$."
     },
     {
       "title": "Solve",
-      "content": "Compute the discriminant: $b^2 - 4ac = 169 - 36 = 133$. Substitute into the quadratic formula: $$x = \\frac{-13 \\pm \\sqrt{133}}{2}$$"
+      "content": "Compute the discriminant: $b^2 - 4ac = 121 - 32 = 89$. Substitute into the quadratic formula: $$x = \\frac{-11 \\pm \\sqrt{89}}{2}$$"
     },
     {
       "title": "Answer",

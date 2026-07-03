@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Factor and set up the no-solution condition",
-      "content": "Factor the left side:<br/>$$-6x+42px=(-6+42p)x$$<br/>The equation is $(-6+42p)x=84$. Since $84\\ne0$, no solution happens only when the $x$-coefficient is $0$, producing the false statement $0=84$."
+      "content": "Factor the left side:<br/>$$-8x+48px=(-8+48p)x$$<br/>The equation is $(-8+48p)x=96$. Since $96\\ne0$, no solution happens only when the $x$-coefficient is $0$, producing the false statement $0=96$."
     },
     {
       "title": "Solve for p",
-      "content": "Set the coefficient equal to $0$:<br/>$$-6+42p=0$$<br/>$$42p=6$$<br/>$$p=\\frac{1}{7}$$<br/>That matches <strong>Choice D &mdash; $\\frac{1}{7}$</strong>."
+      "content": "Set the coefficient equal to $0$:<br/>$$-8+48p=0$$<br/>$$48p=8$$<br/>$$p=\\frac{1}{6}$$<br/>That matches <strong>Choice D &mdash; $\\frac{1}{6}$</strong>."
     }
   ]
 }

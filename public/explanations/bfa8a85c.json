@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Find the original median",
-      "content": "The original set 6, 6, 8, 8, 8, 10, 21 has 7 values. The median is the 4th value: <strong>8</strong>."
+      "content": "The original set 7, 7, 9, 9, 9, 12, 23 has 7 values. The median is the 4th value: <strong>9</strong>."
     },
     {
-      "title": "Find which choice has median 8",
+      "title": "Find which choice has median 9",
       "content": "Each choice has 6 values; its median = average of 3rd and 4th values."
     },
     {
       "title": "Evaluate all choices",
-      "content": "<ul><li><strong>$4$, $6$, $6$, $6$, $8$, $8$</strong> $4$, $6$, $6$, $6$, $8$, $8$ — median = (6+6)/2 = 6. Eliminated.</li><li><strong>$6$, $6$, $8$, $8$, $10$, $10$</strong> $6$, $6$, $8$, $8$, $10$, $10$ — median = (8+8)/2 = 8. That is the correct answer.</li><li><strong>$6$, $8$, $10$, $10$, $10$, $12$</strong> $6$, $8$, $10$, $10$, $10$, $12$ — median = (10+10)/2 = 10. Eliminated.</li><li><strong>$8$, $8$, $10$, $10$, $21$, $21$</strong> $8$, $8$, $10$, $10$, $21$, $21$ — median = (10+10)/2 = 10. Eliminated.</li></ul>"
+      "content": "<ul><li><strong>$5$, $7$, $7$, $7$, $9$, $9$</strong> $5$, $7$, $7$, $7$, $9$, $9$ - median = (7+7)/2 = 7. Eliminated.</li><li><strong>$7$, $7$, $9$, $9$, $12$, $12$</strong> $7$, $7$, $9$, $9$, $12$, $12$ - median = (9+9)/2 = 9. That confirms choice B is correct.</li><li><strong>$7$, $9$, $12$, $12$, $12$, $14$</strong> $7$, $9$, $12$, $12$, $12$, $14$ - median = (12+12)/2 = 12. Eliminated.</li><li><strong>$9$, $9$, $12$, $12$, $23$, $23$</strong> $9$, $9$, $12$, $12$, $23$, $23$ - median = (12+12)/2 = 12. Eliminated.</li></ul>"
     }
   ]
 }

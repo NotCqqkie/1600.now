@@ -8,6 +8,7 @@ import type {
   BankSearchWorkerResponse,
 } from "@/lib/bankSearchTypes";
 import type { BankSourceFilter } from "@/data/bankTypes";
+import { BANK_DATA_VERSION } from "@/lib/generated/bankDataVersion.generated";
 
 const indexCache = new Map<BankSourceFilter, Promise<BankSearchIndexRow[]>>();
 
@@ -36,7 +37,7 @@ const loadSearchIndex = (bankSource: BankSourceFilter): Promise<BankSearchIndexR
   const cached = indexCache.get(bankSource);
   if (cached) return cached;
 
-  const promise = fetch(`/generated/bank-search/${bankSource}.json`).then((response) => {
+  const promise = fetch(`/generated/bank-search/${bankSource}.json?v=${BANK_DATA_VERSION}`).then((response) => {
     if (!response.ok) throw new Error(`Failed to load bank search index: ${response.status}`);
     return response.json() as Promise<BankSearchIndexRow[]>;
   }).catch((error) => {

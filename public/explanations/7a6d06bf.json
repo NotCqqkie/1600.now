@@ -1,19 +1,19 @@
 {
   "questionId": "7a6d06bf",
-  "correctAnswer": "5",
+  "correctAnswer": "6",
   "section": "Math",
   "steps": [
     {
       "title": "Set up the quadratic equation",
-      "content": "Area = length × width, so:<br/>$$155 = (7w - 4) \\cdot w$$<br/>Expanding:<br/>$$155 = 7w^2 - 4w$$<br/>Rearranging to standard form:<br/>$$7w^2 - 4w - 155 = 0$$"
+      "content": "Area = length &times; width, so:<br/>$$186 = (6w - 5) \\cdot w$$<br/>Expanding:<br/>$$186 = 6w^2 - 5w$$<br/>Rearranging to standard form:<br/>$$6w^2 - 5w - 186 = 0$$"
     },
     {
       "title": "Factor the quadratic",
-      "content": "Look for factors in the form $(7w + a)(w + b)$.<br/>We need $ab = -155$ and $7b + a = -4$.<br/>Since $155 = 5 \\times 31$, try $a = 31$ and $b = -5$:<br/>$(7w + 31)(w - 5) = 7w^2 - 35w + 31w - 155 = 7w^2 - 4w - 155$ ✓"
+      "content": "Look for factors in the form $(6w + a)(w + b)$.<br/>We need $ab = -186$ and $6b + a = -5$.<br/>Since $186 = 6 \\times 31$, try $a = 31$ and $b = -6$:<br/>$(6w + 31)(w - 6) = 6w^2 - 36w + 31w - 186 = 6w^2 - 5w - 186$ ✓"
     },
     {
       "title": "Solve for width",
-      "content": "Setting each factor to zero:<br/>$7w + 31 = 0 \\Rightarrow w = -\\frac{31}{7}$ (reject: width cannot be negative)<br/>$w - 5 = 0 \\Rightarrow w = 5$<br/>The width of the rectangle is $5$ inches."
+      "content": "Setting each factor to zero:<br/>$6w + 31 = 0 \\Rightarrow w = -\\frac{31}{6}$ (reject: width cannot be negative)<br/>$w - 6 = 0 \\Rightarrow w = 6$<br/>The width of the rectangle is $6$ inches."
     }
   ]
 }

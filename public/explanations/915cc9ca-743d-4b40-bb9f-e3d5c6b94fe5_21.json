@@ -1,19 +1,19 @@
 {
   "questionId": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_21",
-  "correctAnswer": "638",
+  "correctAnswer": "580",
   "section": "Math",
   "steps": [
     {
       "title": "Simplify absolute values when a is negative",
-      "content": "Since $a \\lt 0$, both $15a$ and $8a$ are negative. Therefore $|15a| = -15a$ and $|8a| = -8a$. Substituting into the function:<br/>$$f(15a) = \\frac{-15a}{a} - 14 = -15 - 14 = -29$$<br/>$$f(8a) = \\frac{-8a}{a} - 14 = -8 - 14 = -22$$"
+      "content": "Since $a \\lt 0$, both $16a$ and $7a$ are negative. Therefore $|16a| = -16a$ and $|7a| = -7a$. Substituting into the function:<br/>$$f(16a) = \\frac{-16a}{a} - 13 = -16 - 13 = -29$$<br/>$$f(7a) = \\frac{-7a}{a} - 13 = -7 - 13 = -20$$"
     },
     {
       "title": "Calculate the product",
-      "content": "$$(-29) \\times (-22) = 638$$"
+      "content": "$$(-29) \\times (-20) = 580$$"
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $638$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $638$."
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $580$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $580$."
     }
   ]
 }

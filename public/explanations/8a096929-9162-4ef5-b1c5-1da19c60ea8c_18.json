@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Convert to minutes and find the growth factor",
-      "content": "120 seconds = 2 minutes. The population ratio over a 2-minute interval is:<br/>$$\\frac{N(m+2)}{N(m)} = \\frac{65Q^{\\frac{m+2}{4}}}{65Q^{\\frac{m}{4}}} = Q^{\\frac{m+2}{4} - \\frac{m}{4}} = Q^{\\frac{1}{2}}$$<br/>The population is multiplied by $Q^{\\frac{1}{2}}$ every 2 minutes."
+      "content": "120 seconds = 2 minutes. The population ratio over a 2-minute interval is:<br/>$$\\frac{N(m+2)}{N(m)} = \\frac{72Q^{\\frac{m+2}{4}}}{72Q^{\\frac{m}{4}}} = Q^{\\frac{m+2}{4} - \\frac{m}{4}} = Q^{\\frac{1}{2}}$$<br/>The population is multiplied by $Q^{\\frac{1}{2}}$ every 2 minutes."
     },
     {
       "title": "Convert the growth factor to a percentage increase",

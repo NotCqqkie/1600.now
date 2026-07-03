@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Fastest path: try the choices",
-      "content": "Because the choices give possible solutions, plug them into the equation instead of solving from scratch. The only choice that satisfies the equation is <strong>D</strong>, $36$."
+      "content": "Because the choices give possible solutions, plug them into the equation instead of solving from scratch. The only choice that satisfies the equation is <strong>D</strong>, $144$."
     },
     {
       "title": "Isolate the radical",
-      "content": "Subtract $22$ from both sides: $$\\sqrt{w}=28-22=6.$$"
+      "content": "Subtract $18$ from both sides: $$\\sqrt{w}=30-18=12.$$"
     },
     {
       "title": "Solve for the variable",
-      "content": "Square both sides: $w=36$. That confirms <strong>D</strong> is correct."
+      "content": "Square both sides: $w=144$. That confirms <strong>D</strong> is correct."
     }
   ]
 }

@@ -1,19 +1,19 @@
 {
   "questionId": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_16",
-  "correctAnswer": "5/9",
+  "correctAnswer": "2/3",
   "section": "Math",
   "steps": [
     {
       "title": "Solve the unknown directly",
-      "content": "For no solution, the $x$-coefficients must match while the constants differ. Matching the $x$-coefficients gives $r=\\frac{5}{9}$."
+      "content": "For no solution, the $x$-coefficients must match while the constants differ. Matching the $x$-coefficients gives $r=\\frac{2}{3}$."
     },
     {
       "title": "Confirm algebraically",
-      "content": "Start with $$-\\frac{3}{19}rx+\\frac{s}{8}=10-\\frac{5}{57}x.$$ Match the $x$-coefficients: $$-\\frac{3}{19}r=-\\frac{5}{57}.$$ Multiply both sides by $-1$ and solve: $$\\frac{3}{19}r=\\frac{5}{57}$$ $$r=\\frac{5}{57}\\cdot\\frac{19}{3}=\\frac{95}{171}=\\frac{5}{9}.$$"
+      "content": "Start with $$-\\frac{4}{21}rx+\\frac{s}{6}=12-\\frac{8}{63}x.$$ Match the $x$-coefficients: $$-\\frac{4}{21}r=-\\frac{8}{63}.$$ Multiply both sides by $-1$ and solve: $$\\frac{4}{21}r=\\frac{8}{63}$$ $$r=\\frac{8}{63}\\cdot\\frac{21}{4}=\\frac{168}{252}=\\frac{2}{3}.$$"
     },
     {
       "title": "Why this gives no solution",
-      "content": "With $r=\\frac{5}{9}$, the $x$-terms are identical on both sides. If the constants are different, the equation reduces to a contradiction like $\\frac{s}{8}=10$. The question only asks for the $r$ that makes no solution possible, so the answer is <strong>$\\frac{5}{9}$</strong>."
+      "content": "With $r=\\frac{2}{3}$, the $x$-terms are identical on both sides. If the constants are different, the equation reduces to a contradiction like $\\frac{s}{6}=12$. The question only asks for the $r$ that makes no solution possible, so the answer is <strong>$\\frac{2}{3}$</strong>."
     }
   ]
 }

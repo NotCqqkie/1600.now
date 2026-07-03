@@ -9,11 +9,11 @@
     },
     {
       "title": "Find all three angles in each triangle",
-      "content": "Angles in a triangle sum to $180^\\circ$. Triangle DEF has $F=180^\\circ-47^\\circ-97^\\circ=36^\\circ$. Triangle RST has $T=180^\\circ-47^\\circ-97^\\circ=36^\\circ$."
+      "content": "Angles in a triangle sum to $180^\\circ$. Triangle GHI has $I=180^\\circ-52^\\circ-83^\\circ=45^\\circ$. Triangle MNO has $O=180^\\circ-52^\\circ-83^\\circ=45^\\circ$."
     },
     {
       "title": "Apply the AA similarity criterion",
-      "content": "Two triangles are similar when two pairs of corresponding angles are equal. The problem already gives $D=R=47^\\circ$ and $E=S=97^\\circ$, so AA similarity is established immediately."
+      "content": "Two triangles are similar when two pairs of corresponding angles are equal. The problem already gives $G=M=52^\\circ$ and $H=N=83^\\circ$, so AA similarity is established immediately."
     },
     {
       "title": "Choose the statement",

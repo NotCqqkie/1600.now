@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $f(x)=(x-2)^{2}+(-324)$."
+      "content": "For an equivalent-expression question, a calculator table or graph can confirm the forms match the original function. The form that displays the minimum value as a constant is <strong>B</strong>, $f(x)=(x-4)^{2}+(-256)$."
     },
     {
       "title": "Algebra check",
@@ -17,11 +17,11 @@
     },
     {
       "title": "Complete the square",
-      "content": "Rewrite $x^2-4x-320$ by completing the square: $$x^2-4x=(x-2)^2-4$$ so $$f(x)=(x-2)^2-4-320=(x-2)^2-324$$"
+      "content": "Rewrite $x^2-8x-240$ by completing the square: $$x^2-8x=(x-4)^2-16$$ so $$f(x)=(x-4)^2-16-240=(x-4)^2-256$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "The minimum value is shown as the constant $-324$ in vertex form. <strong>Choice B &mdash; $f(x)=(x-2)^{2}+(-324)$</strong>, $(x-2)^2+(-324)$, shows that value, so <strong>B</strong> is correct."
+      "content": "The minimum value is shown as the constant $-256$ in vertex form. <strong>Choice B &mdash; $f(x)=(x-4)^{2}+(-256)$</strong>, $(x-4)^2+(-256)$, shows that value, so <strong>B</strong> is correct."
     }
   ]
 }

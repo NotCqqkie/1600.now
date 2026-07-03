@@ -5,12 +5,12 @@
   "steps": [
     {
       "title": "Identify the vertex",
-      "content": "The function $f(\\theta) = -0.28(\\theta - 27)^2 + 880$ is written in vertex form. The value inside the parentheses gives the $\\theta$-coordinate of the vertex: $\\theta = 27$.",
+      "content": "The function $f(\\theta) = -0.32(\\theta - 31)^2 + 920$ is written in vertex form. The value inside the parentheses gives the $\\theta$-coordinate of the vertex: $\\theta = 31$.",
       "formula": "$$\\text{Vertex form: } y = a(x - h)^2 + k \\text{ has vertex at } x = h$$"
     },
     {
       "title": "Confirm maximum and select answer",
-      "content": "Since $a = -0.28 \\lt 0$, the parabola opens downward, so the vertex is a maximum point. The angle that gives the greatest airflow is $\\theta = 27$ degrees. That confirms <strong>C</strong> is correct."
+      "content": "Since $a = -0.32 \\lt 0$, the parabola opens downward, so the vertex is a maximum point. The angle that gives the greatest airflow is $\\theta = 31$ degrees. That confirms <strong>C</strong> is correct."
     }
   ]
 }

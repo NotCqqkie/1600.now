@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find the roots",
-      "content": "By the zero-product property, $3x(x-4)(x+5)=0$ requires one factor to be zero. That gives $x=0$, $x=4$, or $x=-5$."
+      "content": "By the zero-product property, $5x(x-6)(x+7)=0$ requires one factor to be zero. That gives $x=0$, $x=6$, or $x=-7$."
     },
     {
       "title": "Identify a valid solution",
-      "content": "Among the choices, $0$ is a root of the equation. That matches the correct answer — <strong>B</strong> is correct."
+      "content": "Among the choices, $0$ is a root of the equation. That matches the correct answer &mdash; <strong>B</strong> is correct."
     }
   ]
 }

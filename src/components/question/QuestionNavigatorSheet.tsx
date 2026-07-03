@@ -173,7 +173,7 @@ export const QuestionNavigatorSheet = ({
               <>
                 <div className="flex items-center gap-1.5">
                   <div className="h-4 w-4 rounded border border-[#1B5E20] bg-[#C8E6C9] dark:border-[#2E7D32] dark:bg-[#1B5E20]" />
-                  <span>Correct first try</span>
+                  <span>Correct first attempt</span>
                 </div>
                 <div className="flex items-center gap-1.5">
                   <div className="h-4 w-4 rounded border border-[#E65100] bg-[#FFE0B2] dark:border-[#FB8C00] dark:bg-[#7A3B00]" />
@@ -216,7 +216,7 @@ export const QuestionNavigatorSheet = ({
                 )}
               >
                 {item.isFlagged ? (
-                  <Bookmark className="pointer-events-none absolute right-0.5 top-0.5 z-10 h-3 w-3 bookmark-flag" />
+                  <Bookmark className="pointer-events-none absolute right-0 top-0 z-10 h-3.5 w-3.5 bookmark-flag" />
                 ) : null}
                 <span className="text-foreground dark:text-white">{item.label}</span>
               </button>

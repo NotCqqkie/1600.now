@@ -1,19 +1,19 @@
 {
   "questionId": "a7146625-47ea-49cb-9061-578e226240d5_6",
-  "correctAnswer": "67",
+  "correctAnswer": "86",
   "section": "Math",
   "steps": [
     {
       "title": "Fastest path: use the function table",
-      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $67$, so the answer is <strong>$67$</strong>. This is just a one-row lookup, and the arithmetic below confirms the table value."
+      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $86$, so the answer is <strong>$86$</strong>. This is just a one-row lookup, and the arithmetic below confirms the table value."
     },
     {
-      "title": "Substitute the value x = 2",
-      "content": "Replace $x$ with $2$ in $$f(x) = x^2 + x + 61.$$ This gives $$f(2) = (2)^2 + 2 + 61.$$"
+      "title": "Substitute the value x = 3",
+      "content": "Replace $x$ with $3$ in $$f(x) = x^2 + x + 74.$$ This gives $$f(3) = (3)^2 + 3 + 74.$$"
     },
     {
       "title": "Compute the result",
-      "content": "Simplify: $$f(2) = 4 + 2 + 61 = 67.$$ The answer is <strong>67</strong>."
+      "content": "Simplify: $$f(3) = 9 + 3 + 74 = 86.$$ The answer is <strong>86</strong>."
     }
   ]
 }

@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Isolate $x + 7$",
-      "content": "Starting from $8(x+7) = 7(x+7) + 68$, subtract $7(x+7)$ from both sides: $$8(x+7) - 7(x+7) = 68$$ $$(x+7) = 68.$$"
+      "title": "Isolate $x + 6$",
+      "content": "Starting from $9(x+6) = 8(x+6) + 74$, subtract $8(x+6)$ from both sides: $$9(x+6) - 8(x+6) = 74$$ $$(x+6) = 74.$$"
     },
     {
       "title": "Compute the target value",
-      "content": "So $x+7 = 68$. <strong>C</strong> is correct."
+      "content": "So $x+6 = 74$. <strong>C</strong> is correct."
     },
     {
       "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches the correct answer, 68, and the other choices fail the same setup or substitution. Therefore <strong>C</strong> is correct."
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches the correct answer, 74, and the other choices fail the same setup or substitution. Therefore <strong>C</strong> is correct."
     }
   ]
 }

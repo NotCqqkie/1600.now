@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Write each count",
-      "content": "The number of 9-inch parts is $n$, the number of 8-inch parts is $4n$, and the number of 3-inch parts is $30$."
+      "content": "The number of 11-inch parts is $n$, the number of 7-inch parts is $3n$, and the number of 4-inch parts is $28$."
     },
     {
       "title": "Build the total",
-      "content": "The machine makes $100$ parts total, so $$4n+n+30=100$$ Combining like terms gives $$5n+30=100$$"
+      "content": "The machine makes $92$ parts total, so $$3n+n+28=92$$ Combining like terms gives $$4n+28=92$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "The correct answer is $5n+30=100$, so <strong>D</strong> is correct."
+      "content": "The correct answer is $4n+28=92$, so <strong>D</strong> is correct."
     }
   ]
 }

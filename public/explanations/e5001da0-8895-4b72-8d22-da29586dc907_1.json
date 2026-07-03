@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Convert slope into a second point",
-      "content": "Use slope-intercept form $g(x)=mx+b$. The slope is $5$, so $m=5$. The point $(2,47)$ is on the graph."
+      "content": "Use slope-intercept form $g(x)=mx+b$. The slope is $6$, so $m=6$. The point $(3,50)$ is on the graph."
     },
     {
       "title": "Fit the equation",
-      "content": "Substitute $(2,47)$ into $g(x)=5x+b$:$$47=5(2)+b$$ $$47=10+b\\Rightarrow b=37$$So the equation is $g(x)=5x+37$."
+      "content": "Substitute $(3,50)$ into $g(x)=6x+b$:$$50=6(3)+b$$ $$50=18+b\\Rightarrow b=32$$So the equation is $g(x)=6x+32$."
     },
     {
       "title": "Confirm the answer",
-      "content": "<strong>$g(x) = 37x$</strong> has slope $37$, and the remaining alternative swaps the slope and intercept. $g(x) = 5a$ is not the right expression in terms of $x$. $g(x) = 5x + 37$, $g(x)=5x+37$, has slope $5$ and gives $g(2)=47$. $g(x) = 5x + 37$ is correct."
+      "content": "<strong>$g(x) = 32x$</strong> has slope $32$, and the remaining alternative swaps the slope and intercept. $g(x) = 6a$ is not the right expression in terms of $x$. $g(x) = 6x + 32$, $g(x)=6x+32$, has slope $6$ and gives $g(3)=50$. $g(x) = 6x + 32$ is correct."
     }
   ]
 }

@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Fastest path: use the function table",
-      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $19$, so the answer is <strong>D</strong>, 19. This is just a one-row lookup, and the arithmetic below confirms the table value."
+      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $30$, so the answer is <strong>D</strong>, 30. This is just a one-row lookup, and the arithmetic below confirms the table value."
     },
     {
-      "title": "Substitute the value x = 2",
-      "content": "Replace $x$ with $2$ in $$f(x) = x^2 + 15.$$ This gives $$f(2) = (2)^2 + 15.$$"
+      "title": "Substitute the value x = 3",
+      "content": "Replace $x$ with $3$ in $$f(x) = x^2 + 21.$$ This gives $$f(3) = (3)^2 + 21.$$"
     },
     {
       "title": "Compute the result",
-      "content": "Simplify: $$f(2) = 4 + 15 = 19.$$ That is the correct answer."
+      "content": "Simplify: $$f(3) = 9 + 21 = 30.$$ That is the correct answer."
     }
   ]
 }

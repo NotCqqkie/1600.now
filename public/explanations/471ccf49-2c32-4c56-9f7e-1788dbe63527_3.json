@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $(7x)(9x)$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $(8x)(9x)$."
     },
     {
       "title": "Algebra check",
@@ -13,11 +13,11 @@
     },
     {
       "title": "Factor the coefficient and the variable part",
-      "content": "$63 = 7 \\times 9$ and $x^2 = x \\cdot x$, so:<br/>$$63x^2 = (7x)(9x)$$<br/>Verify: $7 \\cdot 9 = 63$ and $x \\cdot x = x^2$. &#10003;"
+      "content": "$72 = 8 \\times 9$ and $x^2 = x \\cdot x$, so:<br/>$$72x^2 = (8x)(9x)$$<br/>Verify: $8 \\cdot 9 = 72$ and $x \\cdot x = x^2$. &#10003;"
     },
     {
       "title": "Eliminate wrong choices",
-      "content": "<ul><li><strong>Choice A — $63(1+x^2)$</strong>: Expanding gives $63 + 63x^2 \\ne 63x^2$. The extra $63$ is not present in the original. &#10007;</li><li><strong>Choice B — $(7x)(9x)$</strong>: $7 \\times 9 = 63$ and $x \\times x = x^2$, so $(7x)(9x) = 63x^2$. &#10003;</li><li><strong>Choice C — $(7x^2)(9x^2)$</strong>: $7 \\times 9 = 63$ but $x^2 \\times x^2 = x^4 \\ne x^2$. Wrong degree. &#10007;</li><li><strong>Choice D — $(63x^2)(x)$</strong>: $63x^2 \\times x = 63x^3 \\ne 63x^2$. Wrong degree. &#10007;</li></ul><strong>B</strong> is correct."
+      "content": "<ul><li><strong>Choice A - $72(1+x^2)$</strong>: Expanding gives $72 + 72x^2 \\ne 72x^2$. The extra $72$ is not present in the original. &#10007;</li><li><strong>Choice B - $(8x)(9x)$</strong>: $8 \\times 9 = 72$ and $x \\times x = x^2$, so $(8x)(9x) = 72x^2$. &#10003;</li><li><strong>Choice C - $(8x^2)(9x^2)$</strong>: $8 \\times 9 = 72$ but $x^2 \\times x^2 = x^4 \\ne x^2$. Wrong degree. &#10007;</li><li><strong>Choice D - $(72x^2)(x)$</strong>: $72x^2 \\times x = 72x^3 \\ne 72x^2$. Wrong degree. &#10007;</li></ul><strong>B</strong> is correct."
     }
   ]
 }

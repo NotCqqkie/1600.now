@@ -1,23 +1,23 @@
 {
   "questionId": "002dba45",
-  "correctAnswer": ".1764",
+  "correctAnswer": "4/13",
   "section": "Math",
   "steps": [
     {
       "title": "Read the slope of line k",
-      "content": "The equation $y=-\\frac{17}{3}x+5$ is already in slope-intercept form, $y=mx+b$. The slope is the coefficient of $x$, so line $k$ has slope $-\\frac{17}{3}$."
+      "content": "The equation $y=-\\frac{13}{4}x+6$ is already in slope-intercept form, $y=mx+b$. The slope is the coefficient of $x$, so line $k$ has slope $-\\frac{13}{4}$."
     },
     {
       "title": "Use the perpendicular shortcut",
-      "content": "Perpendicular slopes are negative reciprocals. Flip $-\\frac{17}{3}$ to $-\\frac{3}{17}$, then change the sign:<br/>$$m_j=\\frac{3}{17}$$"
+      "content": "Perpendicular slopes are negative reciprocals. Flip $-\\frac{13}{4}$ to $-\\frac{4}{13}$, then change the sign:<br/>$$m_j=\\frac{4}{13}$$"
     },
     {
       "title": "Convert for entry",
-      "content": "$$\\frac{3}{17}=0.1764705\\ldots$$<br/>A valid decimal entry is $.1764$."
+      "content": "$$\\frac{4}{13}=0.3076923\\ldots$$<br/>A valid decimal entry is $.3076$."
     },
     {
       "title": "Answer",
-      "content": "The slope of line $j$ is $\\frac{3}{17}$, so <strong>.1764</strong> is a correct decimal entry."
+      "content": "The slope of line $j$ is $\\frac{4}{13}$, so <strong>4/13</strong> is a correct entry."
     }
   ]
 }

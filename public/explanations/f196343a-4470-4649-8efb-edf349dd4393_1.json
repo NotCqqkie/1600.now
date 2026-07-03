@@ -9,7 +9,7 @@
     },
     {
       "title": "Compute the value",
-      "content": "The speed changes by $45$ meters per second over $6$ seconds: $$a=\\frac{45}{6}=7.5.$$"
+      "content": "The speed changes by $57$ meters per second over $6$ seconds: $$a=\\frac{57}{6}=9.5.$$"
     },
     {
       "title": "Check the units",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Confirm the answer",
-      "content": "The average acceleration is $7.5$ meters per second squared, which matches the correct answer, <strong>B</strong>."
+      "content": "The average acceleration is $9.5$ meters per second squared, which matches the correct answer, <strong>B</strong>."
     }
   ]
 }

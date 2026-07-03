@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+      "title": "Fastest path: use the cylinder facts first",
+      "content": "For cylinder questions, identify the radius, height, and surface area relationship before doing algebra. Here, the height is given in terms of the radius, so each answer choice can be checked directly."
     },
     {
       "title": "Test the answer choice shortcut",
-      "content": "The question is multiple choice, and the choices are possible radius values. Start with the correct answer, $r=15$. Since the height is $6$ more than the radius, $h=15+6=21$."
+      "content": "The question is multiple choice, and the choices are possible radius values. Start with the correct answer, choice A, $r=14$. Since the height is $8$ more than the radius, $h=14+8=22$."
     },
     {
       "title": "Check the surface area",
-      "content": "A cylinder's surface area is $2\\pi r^2+2\\pi rh$. Substitute $r=15$ and $h=21$:<br/>$$2\\pi(15^2)+2\\pi(15)(21)=450\\pi+630\\pi=1080\\pi$$"
+      "content": "A cylinder's surface area is $2\\pi r^2+2\\pi rh$. Substitute $r=14$ and $h=22$:<br/>$$2\\pi(14^2)+2\\pi(14)(22)=392\\pi+616\\pi=1008\\pi$$ This confirms choice A."
     }
   ]
 }

@@ -1,15 +1,15 @@
 {
   "questionId": "4f89e4d4",
-  "correctAnswer": "224",
+  "correctAnswer": "200",
   "section": "Math",
   "steps": [
     {
       "title": "Set up the equation with the given profit",
-      "content": "We want to find how many posters must be sold to earn a profit of \\$900. Set $p(x) = 900$ in the given function:<br/>$$5x - 220 = 900$$"
+      "content": "We want to find how many buttons must be sold to earn a profit of \\$930. Set $p(x) = 930$ in the given function:<br/>$$6x - 270 = 930$$"
     },
     {
       "title": "Solve for x",
-      "content": "Add 220 to both sides:<br/>$$5x = 1120$$<br/>Divide both sides by 5:<br/>$$x = 224$$<br/>The student council must sell <strong>224</strong> posters to earn the desired profit."
+      "content": "Add 270 to both sides:<br/>$$6x = 1200$$<br/>Divide both sides by 6:<br/>$$x = 200$$<br/>The debate club must sell <strong>200</strong> buttons to earn the desired profit."
     }
   ]
 }

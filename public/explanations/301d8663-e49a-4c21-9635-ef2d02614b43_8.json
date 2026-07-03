@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $6ab$."
+      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $9mn$."
     },
     {
       "title": "Algebra check",
@@ -13,15 +13,15 @@
     },
     {
       "title": "Combine like terms",
-      "content": "$12ab$ and $6ab$ have the same variable factor, $ab$, so subtract only the coefficients: $$12ab-6ab=(12-6)ab=6ab.$$"
+      "content": "$18mn$ and $9mn$ have the same variable factor, $mn$, so subtract only the coefficients: $$18mn-9mn=(18-9)mn=9mn.$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "The equivalent expression is $6ab$, which matches the correct answer."
+      "content": "The equivalent expression is $9mn$, which matches the correct answer."
     },
     {
-      "title": "Keep the variable factor",
-      "content": "Because both terms include the same factor $ab$, the result must still include $ab$. The other choices drop the variables, and forgetting that $12-6=6$."
+      "title": "Keep the variable factor and coefficient",
+      "content": "Because both terms include the same factor $mn$, the result must still include $mn$ with the coefficient from $18-9=9$. Choices A and B drop the variables, and choice C keeps $mn$ but is missing the coefficient 9."
     }
   ]
 }

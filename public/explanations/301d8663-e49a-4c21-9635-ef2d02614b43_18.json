@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Use the rate",
-      "content": "The problem gives the point $(2,23)$ and a rate of change of $9$. That means the slope is $9$."
+      "content": "The problem gives the point $(3,26)$ and a rate of change of $7$. That means the slope is $7$."
     },
     {
       "title": "Find the intercept",
-      "content": "Use $y=9x+b$ and substitute $(2,23)$: $$23=9(2)+b$$ $$23=18+b$$ $$b=5$$ So the model is $y=9x+5$."
+      "content": "Use $y=7x+b$ and substitute $(3,26)$: $$26=7(3)+b$$ $$26=21+b$$ $$b=5$$ So the model is $y=7x+5$."
     },
     {
       "title": "Confirm the answer",
-      "content": "The correct answer is $y=9x+5$. It has the required rate of change $9$, and $9(2)+5=23$, so <strong>C</strong> is correct."
+      "content": "The correct answer is $y=7x+5$. It has the required rate of change $7$, and $7(3)+5=26$, so <strong>C</strong> is correct."
     }
   ]
 }

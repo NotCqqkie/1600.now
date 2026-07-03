@@ -4,15 +4,15 @@
   "steps": [
     {
       "title": "Step 1",
-      "content": "The sample estimate is 27.8 oz and the margin of error is 0.02 oz. The margin of error creates an interval around the estimated mean, not around individual bag weights."
+      "content": "The sample estimate is 31.6 oz and the margin of error is 0.04 oz. The margin of error creates an interval around the estimated mean, not around individual backpack weights."
     },
     {
       "title": "Step 2",
-      "content": "Lower bound: 27.8 - 0.02 = 27.78 oz. Upper bound: 27.8 + 0.02 = 27.82 oz. The interval [27.78, 27.82] oz is the plausible range for the true population mean."
+      "content": "Lower bound: 31.6 - 0.04 = 31.56 oz. Upper bound: 31.6 + 0.04 = 31.64 oz. The interval [31.56, 31.64] oz is the plausible range for the true population mean."
     },
     {
       "title": "Step 3",
-      "content": "<ul><li>A: The mean weight of all handbags is between 27.78 oz and 27.82 oz &mdash; This correctly applies the margin of error to the estimated mean. <strong>A</strong> is correct.</li><li>B: The actual weights of all handbags are between 27.78 oz and 27.82 oz &mdash; Margin of error describes uncertainty about the mean, not the spread of individual weights. Eliminated.</li><li>C: The actual weights of all handbags from the sample are between 27.78 oz and 27.82 oz &mdash; Same error as B; margin of error is not a bound on individual observations. Eliminated.</li><li>D: The mean weight is exactly 27.8 oz &mdash; This ignores the margin of error and treats the estimate as certain. Eliminated.</li></ul>"
+      "content": "<ul><li>A: The mean weight of all backpacks is between 31.56 oz and 31.64 oz &mdash; This correctly applies the margin of error to the estimated mean. <strong>A</strong> is correct.</li><li>B: The actual weights of all backpacks are between 31.56 oz and 31.64 oz &mdash; Margin of error describes uncertainty about the mean, not the spread of individual weights. Eliminated.</li><li>C: The actual weights of all backpacks from the sample are between 31.56 oz and 31.64 oz &mdash; Same error as B; margin of error is not a bound on individual observations. Eliminated.</li><li>D: The mean weight is exactly 31.6 oz &mdash; This ignores the margin of error and treats the estimate as certain. Eliminated.</li></ul>"
     }
   ],
   "correctAnswer": "A"

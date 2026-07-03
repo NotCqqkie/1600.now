@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Convert g-values into f-values",
-      "content": "Do not calculate $g(x)$ directly, because the question asks for the $y$-intercept of $f$. Since $g(x)=\\frac{f(x)}{x+3}$, multiply each $g(x)$ value by $x+3$: <ul><li>$f(-27)=3(-24)=-72$</li><li>$f(-9)=0(-6)=0$</li><li>$f(21)=5(24)=120$</li></ul>"
+      "content": "Do not calculate $g(x)$ directly, because the question asks for the $y$-intercept of $f$. Since $g(x)=\\frac{f(x)}{x+3}$, multiply each $g(x)$ value by $x+3$: <ul><li>$f(-33)=4(-30)=-120$</li><li>$f(-9)=0(-6)=0$</li><li>$f(27)=6(30)=180$</li></ul>"
     },
     {
       "title": "Find f from the points",
-      "content": "Use the two converted points $(-27,-72)$ and $(-9,0)$ to find the line for $f$:<br/>$$m=\\frac{0-(-72)}{-9-(-27)}=\\frac{72}{18}=4$$<br/>Substitute $(-9,0)$ into $f(x)=4x+b$: $$0=4(-9)+b,$$ so $b=36$. Therefore $$f(x)=4x+36.$$"
+      "content": "Use the two converted points $(-33,-120)$ and $(-9,0)$ to find the line for $f$:<br/>$$m=\\frac{0-(-120)}{-9-(-33)}=\\frac{120}{24}=5$$<br/>Substitute $(-9,0)$ into $f(x)=5x+b$: $$0=5(-9)+b,$$ so $b=45$. Therefore $$f(x)=5x+45.$$"
     },
     {
       "title": "Answer the intercept question",
-      "content": "The $y$-intercept of $y=f(x)$ is $(0,b)$, so it is $(0,36)$. That matches <strong>Choice A &mdash; $\\left(0,36\\right)$</strong>."
+      "content": "The $y$-intercept of $y=f(x)$ is $(0,b)$, so it is $(0,45)$. That matches <strong>Choice A &mdash; $\\left(0,45\\right)$</strong>."
     }
   ]
 }

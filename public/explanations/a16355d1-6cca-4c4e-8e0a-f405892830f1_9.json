@@ -1,15 +1,15 @@
 {
   "questionId": "a16355d1-6cca-4c4e-8e0a-f405892830f1_9",
-  "correctAnswer": "8",
+  "correctAnswer": "13",
   "section": "Math",
   "steps": [
     {
       "title": "Combine like terms directly",
-      "content": "All terms have the same variable part $x^6$, so add/subtract coefficients directly: $$ 7 + 9 - 8 $$"
+      "content": "All terms have the same variable part $x^5$, so add/subtract coefficients directly: $$ 8 + 11 - 6 $$"
     },
     {
       "title": "Simplify the expression",
-      "content": "Calculate the arithmetic: $ 7 + 9 = 16 $, then $ 16 - 8 = 8 $. The simplified form is $ 8x^6 $. The answer is <strong>8</strong>."
+      "content": "Calculate the arithmetic: $ 8 + 11 = 19 $, then $ 19 - 6 = 13 $. The simplified form is $ 13x^5 $. The answer is <strong>13</strong>."
     }
   ]
 }

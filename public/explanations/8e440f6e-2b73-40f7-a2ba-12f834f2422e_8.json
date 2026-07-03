@@ -1,19 +1,19 @@
 {
   "questionId": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_8",
-  "correctAnswer": "26",
+  "correctAnswer": "32",
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+      "title": "Fastest path: mark the givens first",
+      "content": "List the given angle relationships first: corresponding angles in congruent triangles, right angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are organized."
     },
     {
       "title": "Identify corresponding angles in the congruent triangles",
-      "content": "Since triangles ABC and DEF are congruent with A ↔ D and B ↔ E, the correspondence is complete: A ↔ D, B ↔ E, and C ↔ F. In triangle ABC, we know ∠A = 64° and ∠B = 90°."
+      "content": "Since triangles PQR and XYZ are congruent with P ↔ X and Q ↔ Y, the correspondence is complete: P ↔ X, Q ↔ Y, and R ↔ Z. In triangle PQR, we know ∠P = 58° and ∠Q = 90°."
     },
     {
-      "title": "Use angle sum to find angle F",
-      "content": "In triangle ABC, the sum of angles equals 180°:<br/>$$64^{\\circ} + 90^{\\circ} + \\angle C = 180^{\\circ}$$<br/>$$\\angle C = 26^{\\circ}$$<br/>Since C corresponds to F, ∠F = 26°."
+      "title": "Use angle sum to find angle Z",
+      "content": "In triangle PQR, the sum of angles equals 180°:<br/>$$58^{\\circ} + 90^{\\circ} + \\angle R = 180^{\\circ}$$<br/>$$\\angle R = 32^{\\circ}$$<br/>Since R corresponds to Z, ∠Z = 32°."
     }
   ]
 }

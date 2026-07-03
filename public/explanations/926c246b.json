@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the exponential form",
-      "content": "The equation $d = 5640 \\times (1.9)^t$ is an exponential function with the standard form $d = a \\times b^t$. Here, the coefficient $a = 5640$ and the growth factor $b = 1.9$. In exponential functions, the coefficient represents the initial value when the exponent equals zero."
+      "content": "The equation $D = 4320 \\times (1.7)^t$ is an exponential function with the standard form $D = a \\times b^t$. Here, the coefficient $a = 4320$ and the growth factor $b = 1.7$. In exponential functions, the coefficient represents the initial value when the exponent equals zero."
     },
     {
       "title": "Evaluate at t = 0 to find the initial value",
-      "content": "Since $t$ represents years after 2010, when $t = 0$ we are at the year 2010. Substituting $t = 0$:<br/>$$d = 5640 \\times (1.9)^0 = 5640 \\times 1 = 5640$$<br/>The value 5,640 terabytes is the estimated data traffic at $t = 0$, which is the year 2010. That confirms <strong>D</strong> is correct."
+      "content": "Since $t$ represents years after 2012, when $t = 0$ we are at the year 2012. Substituting $t = 0$:<br/>$$D = 4320 \\times (1.7)^0 = 4320 \\times 1 = 4320$$<br/>The value 4,320 terabytes is the estimated data traffic at $t = 0$, which is the year 2012. That confirms <strong>D</strong> is correct."
     }
   ]
 }

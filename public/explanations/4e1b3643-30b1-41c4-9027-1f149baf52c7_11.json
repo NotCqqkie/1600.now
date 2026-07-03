@@ -1,19 +1,19 @@
 {
   "questionId": "4e1b3643-30b1-41c4-9027-1f149baf52c7_11",
-  "correctAnswer": "2100",
+  "correctAnswer": "3400",
   "section": "Math",
   "steps": [
     {
       "title": "Set up the unit conversion",
-      "content": "To convert 21 meters to centimeters, we multiply by the given conversion factor: 1 meter = 100 centimeters."
+      "content": "To convert 34 meters to centimeters, we multiply by the given conversion factor: 1 meter = 100 centimeters."
     },
     {
       "title": "Calculate the result",
-      "content": "Multiply 21 by 100: $$21 \\times 100 = 2100 \\text{ centimeters}$$"
+      "content": "Multiply 34 by 100: $$34 \\times 100 = 3400 \\text{ centimeters}$$"
     },
     {
       "title": "Confirm the answer",
-      "content": "Since $21$ meters equals $2100$ centimeters, the value to enter is <strong>2100</strong>."
+      "content": "Since $34$ meters equals $3400$ centimeters, the value to enter is <strong>3400</strong>."
     }
   ]
 }

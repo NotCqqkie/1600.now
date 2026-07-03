@@ -9,11 +9,11 @@
     },
     {
       "title": "Apply the Pythagorean theorem",
-      "content": "Since angle $B$ is the right angle, $AC$ is the hypotenuse. Apply the Pythagorean theorem:<br/>$$AC^2 = (10\\sqrt{37})^2 + (24\\sqrt{37})^2$$<br/>Expand each term:<br/>$$AC^2 = 100 \\cdot 37 + 576 \\cdot 37$$<br/>Factor out 37:<br/>$$AC^2 = 37(100 + 576) = 37 \\cdot 676$$"
+      "content": "Since angle $B$ is the right angle, $AC$ is the hypotenuse. Apply the Pythagorean theorem:<br/>$$AC^2 = (7\\sqrt{41})^2 + (24\\sqrt{41})^2$$<br/>Expand each term:<br/>$$AC^2 = 49 \\cdot 41 + 576 \\cdot 41$$<br/>Factor out 41:<br/>$$AC^2 = 41(49 + 576) = 41 \\cdot 625$$"
     },
     {
       "title": "Recognize the perfect square",
-      "content": "Observe that $100 + 576 = 676 = 26^2$ (note: $10^2 + 24^2 = 26^2$, a Pythagorean triple). Therefore:<br/>$$AC^2 = 37 \\cdot 26^2 = (26\\sqrt{37})^2$$<br/>Taking the positive square root:<br/>$$AC = 26\\sqrt{37}$$<br/><strong>B</strong> is correct."
+      "content": "Observe that $49 + 576 = 625 = 25^2$ (note: $7^2 + 24^2 = 25^2$, a Pythagorean triple). Therefore:<br/>$$AC^2 = 41 \\cdot 25^2 = (25\\sqrt{41})^2$$<br/>Taking the positive square root:<br/>$$AC = 25\\sqrt{41}$$<br/><strong>B</strong> is correct."
     }
   ]
 }

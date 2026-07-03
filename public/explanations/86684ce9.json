@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Interpret increasing by 1,800%",
-      "content": "When we increase a quantity by 1,800%, we add 1,800% of the original to itself. Convert the percentage: 1,800% = $\\frac{1,800}{100} = 18$. So the result is the original plus 18 times the original: $$x + 18x = 19x$$"
+      "title": "Interpret increasing by 1,600%",
+      "content": "When we increase a quantity by 1,600%, we add 1,600% of the original to itself. Convert the percentage: 1,600% = $\\frac{1,600}{100} = 16$. So the result is the original plus 16 times the original: $$x + 16x = 17x$$"
     },
     {
       "title": "Solve for x",
-      "content": "We know the final result is 684, so: $$19x = 684$$ Divide both sides by 19: $$x = \\frac{684}{19} = 36$$ That confirms <strong>D</strong> is correct."
+      "content": "We know the final result is 544, so: $$17x = 544$$ Divide both sides by 17: $$x = \\frac{544}{17} = 32$$ That confirms <strong>D</strong> is correct."
     }
   ]
 }

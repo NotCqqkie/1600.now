@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Recognize that both equations describe the same line",
-      "content": "Multiply the first equation by 6:<br/><br/>$$6(5x+7y)=6(8)\\Rightarrow 30x+42y=48$$<br/><br/>This is exactly the second equation. So the system is really one line: $5x+7y=8$. Any point on that line satisfies both equations."
+      "content": "Multiply the first equation by 5:<br/><br/>$$5(4x+9y)=5(11)\\Rightarrow 20x+45y=55$$<br/><br/>This is exactly the second equation. So the system is really one line: $4x+9y=11$. Any point on that line satisfies both equations."
     },
     {
-      "title": "Check each choice against $5x+7y=8$",
-      "content": "A point $(x,y)$ works for every real $r$ only if substituting it into $5x+7y=8$ always gives $8$. For <strong>Choice A &mdash; $(r,-\\frac{5r}{7}+\\frac{8}{7})$</strong>, $x=r$ and $y=-\\frac{5r}{7}+\\frac{8}{7}$, so $$5r+7\\left(-\\frac{5r}{7}+\\frac{8}{7}\\right)=5r-5r+8=8.$$ <strong>Choice A &mdash; $(r,-\\frac{5r}{7}+\\frac{8}{7})$</strong> works for all $r$."
+      "title": "Check each choice against $4x+9y=11$",
+      "content": "A point $(x,y)$ works for every real $r$ only if substituting it into $4x+9y=11$ always gives $11$. For <strong>Choice A &mdash; $(r,-\\frac{4r}{9}+\\frac{11}{9})$</strong>, $x=r$ and $y=-\\frac{4r}{9}+\\frac{11}{9}$, so $$4r+9\\left(-\\frac{4r}{9}+\\frac{11}{9}\\right)=4r-4r+11=11.$$ <strong>Choice A &mdash; $(r,-\\frac{4r}{9}+\\frac{11}{9})$</strong> works for all $r$."
     },
     {
       "title": "Eliminate the others",
-      "content": "<strong>Choice B &mdash; $(-\\frac{5r}{7}+\\frac{8}{7},r)$</strong> gives $\\frac{24r+40}{7}$, which is not always $8$. Choices C and D include constants $8$ and $48$, making $5x+7y$ far larger than $8$. Therefore <strong>Choice A &mdash; $(r,-\\frac{5r}{7}+\\frac{8}{7})$</strong>."
+      "content": "<strong>Choice B &mdash; $(-\\frac{4r}{9}+\\frac{11}{9},r)$</strong> gives $\\frac{65r+44}{9}$, which is not always $11$. Choices C and D include constants $11$ and $55$, making $4x+9y$ far larger than $11$. Therefore <strong>Choice A &mdash; $(r,-\\frac{4r}{9}+\\frac{11}{9})$</strong>."
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Simplify the equation",
-      "content": "Subtract $2{,}590x$ from both sides of $2{,}590x=5{,}180x$ to get $$0=2{,}590x.$$"
+      "content": "Subtract $2{,}740x$ from both sides of $2{,}740x=5{,}480x$ to get $$0=2{,}740x.$$"
     },
     {
       "title": "Count the solutions",
-      "content": "Dividing by $2{,}590$ gives the unique solution $x=0$. <strong>B</strong> is correct."
+      "content": "Dividing by $2{,}740$ gives the unique solution $x=0$. <strong>B</strong> is correct."
     },
     {
       "title": "Confirm the answer",

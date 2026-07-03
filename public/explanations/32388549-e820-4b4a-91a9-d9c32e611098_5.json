@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up",
-      "content": "Start with $p = \\sqrt{12c} - 25$. Add 25 to both sides: $p + 25 = \\sqrt{12c}$."
+      "content": "Start with $p = \\sqrt{10c} - 16$. Add 16 to both sides: $p + 16 = \\sqrt{10c}$."
     },
     {
       "title": "Solve",
-      "content": "Square both sides: $(p+25)^2 = 12c$. Divide by 12: $c = \\dfrac{(p+25)^2}{12}$."
+      "content": "Square both sides: $(p+16)^2 = 10c$. Divide by 10: $c = \\dfrac{(p+16)^2}{10}$."
     },
     {
       "title": "Answer",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches the correct answer, $c=\\frac{(p+25)^{2}}{12}$, and the other choices fail the same setup or substitution. Therefore <strong>A</strong> is correct."
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches the correct answer, $c=\\frac{(p+16)^{2}}{10}$, and the other choices fail the same setup or substitution. Therefore <strong>A</strong> is correct."
     }
   ]
 }

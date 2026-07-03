@@ -1,19 +1,19 @@
 {
   "questionId": "1fe32f7d",
-  "correctAnswer": "51",
+  "correctAnswer": "57",
   "section": "Math",
   "steps": [
     {
       "title": "Use the maximum value",
-      "content": "The graph of $y=-x^2+bx-676$ opens downward. For the equation to have no real solutions, the graph must stay below the x-axis, so its maximum value must be less than $0$."
+      "content": "The graph of $y=-x^2+bx-841$ opens downward. For the equation to have no real solutions, the graph must stay below the x-axis, so its maximum value must be less than $0$."
     },
     {
       "title": "Find the boundary",
-      "content": "The vertex occurs at $x=\\frac{b}{2}$. Substitute that value:<br/>$$-\\left(\\frac{b}{2}\\right)^2+b\\left(\\frac{b}{2}\\right)-676=\\frac{b^2}{4}-676$$<br/>No real solutions requires $\\frac{b^2}{4}-676\\lt0$, so $b^2\\lt2704=52^2$."
+      "content": "The vertex occurs at $x=\\frac{b}{2}$. Substitute that value:<br/>$$-\\left(\\frac{b}{2}\\right)^2+b\\left(\\frac{b}{2}\\right)-841=\\frac{b^2}{4}-841$$<br/>No real solutions requires $\\frac{b^2}{4}-841\\lt0$, so $b^2\\lt3364=58^2$."
     },
     {
       "title": "Confirm the answer",
-      "content": "Because $b$ is a positive integer, $b\\lt52$. The greatest possible value is <strong>51</strong>."
+      "content": "Because $b$ is a positive integer, $b\\lt58$. The greatest possible value is <strong>57</strong>."
     }
   ]
 }

@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Interpret function notation",
-      "content": "In the function $K(v)$, the input $v$ represents speed in m/s and the output $K(v)$ represents kinetic energy in joules.<br/><br/>The notation $K(34) = 5,202$ means: when we substitute $v = 34$, the function outputs $5,202$.<br/><br/>Therefore, the object traveling at $34$ m/s has kinetic energy of $5,202$ joules.<br/><br/>That matches <strong>Choice A &mdash; The object traveling at $34$ meters per second has a kinetic energy of $5,202$ joules.</strong>."
+      "content": "In the function $K(v)$, the input $v$ represents speed in m/s and the output $K(v)$ represents kinetic energy in joules.<br/><br/>The notation $K(36) = 4,536$ means: when we substitute $v = 36$, the function outputs $4,536$.<br/><br/>Therefore, the object traveling at $36$ m/s has kinetic energy of $4,536$ joules.<br/><br/>That matches <strong>Choice A &mdash; The object traveling at $36$ meters per second has a kinetic energy of $4,536$ joules.</strong>."
     }
   ]
 }

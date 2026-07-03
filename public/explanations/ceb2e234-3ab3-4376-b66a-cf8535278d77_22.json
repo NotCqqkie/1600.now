@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Write s(t) and identify a, b, c",
-      "content": "$s(t) = r(t) + 1 = -2t^2 + 53t + 1$. So $a = -2$, $b = 53$, $c = 1$. Negative leading coefficient → parabola opens down → vertex is the maximum."
+      "content": "$s(t) = r(t) + 3 = -2t^2 + 57t + 3$. So $a = -2$, $b = 57$, $c = 3$. Negative leading coefficient → parabola opens down → vertex is the maximum."
     },
     {
       "title": "Vertex shortcut: maximum = $c - \\dfrac{b^2}{4a}$",
-      "content": "Maximum value $= c - \\dfrac{b^2}{4a} = 1 - \\dfrac{53^2}{4(-2)} = 1 + \\dfrac{2809}{8} = 1 + 2\\!\\left(\\dfrac{53}{4}\\right)^2$."
+      "content": "Maximum value $= c - \\dfrac{b^2}{4a} = 3 - \\dfrac{57^2}{4(-2)} = 3 + \\dfrac{3249}{8} = 3 + 2\\!\\left(\\dfrac{57}{4}\\right)^2$."
     },
     {
       "title": "Match the answer",
-      "content": "The maximum of $s$ is $1 + 2\\!\\left(\\dfrac{53}{4}\\right)^2$. That is the correct answer."
+      "content": "The maximum of $s$ is $3 + 2\\!\\left(\\dfrac{57}{4}\\right)^2$. That is the correct answer."
     }
   ]
 }

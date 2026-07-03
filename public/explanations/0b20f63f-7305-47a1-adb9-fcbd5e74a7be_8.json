@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Parallel lines → same slope",
-      "content": "Read slope of line $r$ directly from $6x - 5y = 6$: rearrange → $y = \\frac{6}{5}x - \\frac{6}{5}$, so slope $= \\frac{6}{5}$."
+      "content": "Read slope of line $r$ directly from $7x - 4y = 8$: rearrange → $y = \\frac{7}{4}x - 2$, so slope $= \\frac{7}{4}$."
     },
     {
       "title": "Apply parallel rule",
-      "content": "Line $s$ is parallel to line $r$, so it has the same slope: $\\frac{6}{5}$. That matches <strong>Choice D &mdash; $\\frac{6}{5}$</strong>."
+      "content": "Line $s$ is parallel to line $r$, so it has the same slope: $\\frac{7}{4}$. That matches <strong>Choice D &mdash; $\\frac{7}{4}$</strong>."
     }
   ]
 }

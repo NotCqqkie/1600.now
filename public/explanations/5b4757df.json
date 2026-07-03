@@ -1,6 +1,6 @@
 {
   "questionId": "5b4757df",
-  "correctAnswer": "14.66",
+  "correctAnswer": "50/3",
   "section": "Math",
   "steps": [
     {
@@ -9,15 +9,15 @@
     },
     {
       "title": "Use the scale shortcut: find the linear ratio",
-      "content": "Since $\\overline{LK} \\parallel \\overline{RT}$, triangle $SKL \\sim$ triangle $STR$ (AA similarity). The linear scale factor is:<br/>$$\\frac{LK}{RT} = \\frac{24}{72} = \\frac{1}{3}$$"
+      "content": "Since $\\overline{LK} \\parallel \\overline{RT}$, triangle $SKL \\sim$ triangle $STR$ (AA similarity). The linear scale factor is:<br/>$$\\frac{LK}{RT} = \\frac{28}{84} = \\frac{1}{3}$$"
     },
     {
       "title": "Recover ST from the area",
-      "content": "Right triangle area $= \\frac{1}{2} \\cdot RT \\cdot ST$:<br/>$$792 = \\frac{1}{2} \\cdot 72 \\cdot ST \\implies ST = 22$$"
+      "content": "Right triangle area $= \\frac{1}{2} \\cdot RT \\cdot ST$:<br/>$$1,050 = \\frac{1}{2} \\cdot 84 \\cdot ST \\implies ST = 25$$"
     },
     {
       "title": "Apply scale factor to find SK, then KT",
-      "content": "Corresponding sides scale by $\\frac{1}{3}$, so $SK = \\frac{1}{3} \\cdot 22 = \\frac{22}{3}$.<br/>$$KT = ST - SK = 22 - \\frac{22}{3} = \\frac{44}{3} \\approx 14.667$$<br/>The answer is <strong>14.66</strong>."
+      "content": "Corresponding sides scale by $\\frac{1}{3}$, so $SK = \\frac{1}{3} \\cdot 25 = \\frac{25}{3}$.<br/>$$KT = ST - SK = 25 - \\frac{25}{3} = \\frac{50}{3} \\approx 16.667$$<br/>The answer is <strong>50/3</strong>."
     }
   ]
 }

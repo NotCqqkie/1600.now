@@ -1,15 +1,15 @@
 {
   "questionId": "e21d10a7",
-  "correctAnswer": "1015",
+  "correctAnswer": "1023",
   "section": "Math",
   "steps": [
     {
       "title": "Set up the difference and factor",
-      "content": "The time difference is $29 \\times 287 - 29 \\times 252$. Factor out 29:\n$$29(287 - 252)$$\nCalculate the difference in orbital periods:\n$$287 - 252 = 35$$"
+      "content": "The time difference is $31 \\times 269 - 31 \\times 236$. Factor out 31:\n$$31(269 - 236)$$\nCalculate the difference in orbital periods:\n$$269 - 236 = 33$$"
     },
     {
       "title": "Multiply by the number of orbits",
-      "content": "Compute the total difference:\n$$29 \\times 35 = 1015$$\nThe second moon takes 1015 more days to orbit the planet 29 times."
+      "content": "Compute the total difference:\n$$31 \\times 33 = 1023$$\nThe second moon takes 1023 more days to orbit the planet 31 times."
     }
   ]
 }

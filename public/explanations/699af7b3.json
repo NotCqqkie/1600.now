@@ -1,19 +1,19 @@
 {
   "questionId": "699af7b3",
-  "correctAnswer": "60000",
+  "correctAnswer": "62500",
   "section": "Math",
   "steps": [
     {
       "title": "Set up equations from percentage statements",
-      "content": "From <em>A is 468% of B</em>: $A = 4.68B$<br/>From <em>A is 0.780% of C</em>: $A = 0.00780C$"
+      "content": "From <em>A is 375% of B</em>: $A = 3.75B$<br/>From <em>A is 0.600% of C</em>: $A = 0.00600C$"
     },
     {
       "title": "Equate the expressions and isolate C",
-      "content": "Since both equal $A$:<br/>$$4.68B = 0.00780C$$<br/>$$C = \\frac{4.68}{0.00780}B$$"
+      "content": "Since both equal $A$:<br/>$$3.75B = 0.00600C$$<br/>$$C = \\frac{3.75}{0.00600}B$$"
     },
     {
       "title": "Simplify the ratio to find p",
-      "content": "Evaluate $\\frac{4.68}{0.00780}$:<br/>$$\\frac{4.68}{0.00780} = \\frac{46800}{78} = 600$$<br/>So $C = 600B$. Since $C$ is $p$ percent of $B$, we write $C = \\frac{p}{100}B$. Therefore $\\frac{p}{100} = 600$, and $p = 60000$."
+      "content": "Evaluate $\\frac{3.75}{0.00600}$:<br/>$$\\frac{3.75}{0.00600} = \\frac{37500}{60} = 625$$<br/>So $C = 625B$. Since $C$ is $p$ percent of $B$, we write $C = \\frac{p}{100}B$. Therefore $\\frac{p}{100} = 625$, and $p = 62500$."
     }
   ]
 }

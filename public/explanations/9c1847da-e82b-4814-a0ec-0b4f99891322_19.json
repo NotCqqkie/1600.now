@@ -9,11 +9,11 @@
     },
     {
       "title": "Set up proportion using arc length formula",
-      "content": "The arc length $L$ relates to the circumference $C$ and central angle $\\theta$ (in degrees) by $$L = \\frac{\\theta}{360} \\cdot C.$$<br/>Substitute the given values $L = 3$ inches and $\\theta = 36^\\circ$: $$3 = \\frac{36}{360} \\cdot C.$$<br/>Simplify the fraction: $$\\frac{36}{360} = \\frac{1}{10}.$$"
+      "content": "The arc length $L$ relates to the circumference $C$ and central angle $\\theta$ (in degrees) by $$L = \\frac{\\theta}{360} \\cdot C.$$<br/>Substitute the given values $L = 4$ inches and $\\theta = 45^\\circ$: $$4 = \\frac{45}{360} \\cdot C.$$<br/>Simplify the fraction: $$\\frac{45}{360} = \\frac{1}{8}.$$"
     },
     {
       "title": "Solve for circumference",
-      "content": "From the simplified equation $$3 = \\frac{1}{10} C,$$ multiply both sides by 10 to isolate $C$: $$C = 3 \\times 10 = 30$$ inches.<br/>That confirms <strong>D</strong> is correct."
+      "content": "From the simplified equation $$4 = \\frac{1}{8} C,$$ multiply both sides by 8 to isolate $C$: $$C = 4 \\times 8 = 32$$ inches.<br/>That confirms <strong>D</strong> is correct."
     }
   ]
 }

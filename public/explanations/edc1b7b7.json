@@ -1,15 +1,15 @@
 {
   "questionId": "edc1b7b7",
-  "correctAnswer": "3",
+  "correctAnswer": "4",
   "section": "Math",
   "steps": [
     {
-      "title": "Read $8x+7y$ directly by adding/subtracting",
-      "content": "The variables appear bundled as $8x$ and $7y$ — solve for those units directly.<br/>Adding the equations cancels $8x$: $\\left(8\\right)(7y) = 24$, so $7y = 3$.<br/>Subtracting cancels $7y$: $\\left(4\\right)(8x) = 0$, so $8x = 0$."
+      "title": "Read $6x+9y$ directly by adding/subtracting",
+      "content": "The variables appear bundled as $6x$ and $9y$ &mdash; solve for those units directly.<br/>Adding the equations cancels $6x$: $\\left(10\\right)(9y) = 40$, so $9y = 4$.<br/>Subtracting cancels $9y$: $\\left(4\\right)(6x) = 0$, so $6x = 0$."
     },
     {
-      "title": "Find the value $8x + 7y$",
-      "content": "Therefore $8x + 7y = 0 + 3 = 3$. The answer is <strong>3</strong>."
+      "title": "Find the value $6x + 9y$",
+      "content": "Therefore $6x + 9y = 0 + 4 = 4$. The answer is <strong>4</strong>."
     }
   ]
 }

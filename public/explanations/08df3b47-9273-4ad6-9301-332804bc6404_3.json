@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the given equation",
-      "content": "The given equation is $m = 6(n + p)$. The question asks which choice correctly gives $m$ in terms of $n$ and $p$ — that is, which matches the given equation."
+      "content": "The given equation is $m = 8(n + p)$. The question asks which choice correctly gives $m$ in terms of $n$ and $p$ — that is, which matches the given equation."
     },
     {
       "title": "Compare each choice to the given equation",
-      "content": "<ul><li><strong>Choice A &mdash; $m = \\frac{6(n+p)}{11}$</strong>: Divides by 11, which is not in the original equation. &#10007;</li><li><strong>Choice B &mdash; $m = 6(n + p)$</strong>: Identical to the given equation. &#10003;</li><li><strong>Choice C &mdash; $m = 6(n + p) - 11$</strong>: Subtracts 11, which is not in the original equation. &#10007;</li><li><strong>Choice D &mdash; $m = 6 - n - p - 11$</strong>: Completely changes the structure; distributes incorrectly and subtracts extra terms. &#10007;</li></ul>That matches <strong>Choice B &mdash; $m = 6(n + p)$</strong>."
+      "content": "<ul><li><strong>Choice A &mdash; $m = \\frac{8(n+p)}{13}$</strong>: Divides by 13, which is not in the original equation. &#10007;</li><li><strong>Choice B &mdash; $m = 8(n + p)$</strong>: Identical to the given equation. &#10003;</li><li><strong>Choice C &mdash; $m = 8(n + p) - 13$</strong>: Subtracts 13, which is not in the original equation. &#10007;</li><li><strong>Choice D &mdash; $m = 8 - n - p - 13$</strong>: Completely changes the structure; distributes incorrectly and subtracts extra terms. &#10007;</li></ul>That matches <strong>Choice B &mdash; $m = 8(n + p)$</strong>."
     }
   ]
 }

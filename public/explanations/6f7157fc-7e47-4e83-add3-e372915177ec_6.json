@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Understand vertical translation",
-      "content": "Translating down by 8 units means every y-coordinate decreases by 8. We apply this by subtracting 8 from the right side of the equation."
+      "content": "Translating down by 6 units means every y-coordinate decreases by 6. We apply this by subtracting 6 from the right side of the equation."
     },
     {
       "title": "Write the translated equation",
-      "content": "Original equation: $y = 9x$<br/><br/>After translating down 8 units:<br/>$$y = 9x - 8$$<br/>This confirms <strong>B</strong> is correct."
+      "content": "Original equation: $y = 7x$<br/><br/>After translating down 6 units:<br/>$$y = 7x - 6$$<br/>This confirms <strong>B</strong> is correct."
     }
   ]
 }

@@ -1,15 +1,15 @@
 {
   "questionId": "2f91d920-5520-4266-8a2d-a29c925c95c0_9",
-  "correctAnswer": "-384",
+  "correctAnswer": "-338",
   "section": "Math",
   "steps": [
     {
       "title": "Use only the x-term products",
-      "content": "The question asks for $b$, the coefficient of $x$ in $ax^2+bx+c$. In $$(9x-28)(15x+4),$$ the $x$ term comes only from the cross products."
+      "content": "The question asks for $b$, the coefficient of $x$ in $ax^2+bx+c$. In $$(8x-27)(14x+5),$$ the $x$ term comes only from the cross products."
     },
     {
       "title": "Combine the cross products",
-      "content": "$$9x\\cdot4=36x$$<br/>$$-28\\cdot15x=-420x$$<br/>So the coefficient of $x$ is $$36-420=-384.$$ The answer is <strong>-384</strong>."
+      "content": "$$8x\\cdot5=40x$$<br/>$$-27\\cdot14x=-378x$$<br/>So the coefficient of $x$ is $$40-378=-338.$$ The answer is <strong>-338</strong>."
     }
   ]
 }

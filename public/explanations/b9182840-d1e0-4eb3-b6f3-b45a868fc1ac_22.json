@@ -1,6 +1,6 @@
 {
   "questionId": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_22",
-  "correctAnswer": "188.6",
+  "correctAnswer": "238.228206528",
   "section": "Math",
   "steps": [
     {
@@ -14,11 +14,11 @@
     },
     {
       "title": "Calculate the cubic conversion factor",
-      "content": "$$0.914^2 = 0.835396$$ <br/> $$0.914^3 = 0.914 \\times 0.835396 \\approx 0.7636$$"
+      "content": "$$0.914^2 = 0.835396$$ <br/> $$0.914^3 = 0.914 \\times 0.835396 = 0.763551944$$"
     },
     {
       "title": "Convert the volume to cubic meters",
-      "content": "Multiply the volume in cubic yards by the cubic conversion factor: <br/> $$247.00 \\times 0.7636 = 188.6 \\text{ cubic meters}$$"
+      "content": "Multiply the volume in cubic yards by the cubic conversion factor: <br/> $$312.00 \\times 0.763551944 = 238.228206528 \\text{ cubic meters}$$"
     }
   ]
 }

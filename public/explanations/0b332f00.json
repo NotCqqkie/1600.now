@@ -1,19 +1,19 @@
 {
   "questionId": "0b332f00",
-  "correctAnswer": "9",
+  "correctAnswer": "8",
   "section": "Math",
   "steps": [
     {
       "title": "Fastest path: use the function table",
-      "content": "Enter the function in Desmos or a calculator table and scan for the row with the output named in the question. The input that works gives <strong>$9$</strong>. This is just a table lookup, and the arithmetic below confirms the same value."
+      "content": "Enter the function in Desmos or a calculator table and scan for the row with the output named in the question. The input that works gives <strong>$8$</strong>. This is just a table lookup, and the arithmetic below confirms the same value."
     },
     {
-      "title": "Set the function equal to 54",
-      "content": "The function is $g(x)=6x$. The condition $g(x)=54$ means:<br/>$$6x=54$$"
+      "title": "Set the function equal to 64",
+      "content": "The function is $g(x)=8x$. The condition $g(x)=64$ means:<br/>$$8x=64$$"
     },
     {
       "title": "Solve for x",
-      "content": "Divide both sides by $6$:<br/>$$x=\\frac{54}{6}=9$$"
+      "content": "Divide both sides by $8$:<br/>$$x=\\frac{64}{8}=8$$"
     }
   ]
 }

@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Use vertex form",
-      "content": "A quadratic with vertex $(h,k)$ can be written as $f(t)=a(t-h)^2+k$. The maximum height occurs at $t=2.1$ and is $70.56$, so the model must include $(t-2.1)^2+70.56$."
+      "content": "A quadratic with vertex $(h,k)$ can be written as $f(t)=a(t-h)^2+k$. The maximum height occurs at $t=1.9$ and is $57.76$, so the model must include $(t-1.9)^2+57.76$."
     },
     {
       "title": "Choose the sign",
@@ -13,7 +13,7 @@
     },
     {
       "title": "Match the choice",
-      "content": "Only <strong>A</strong>, $f(t)=-16(t-2.1)^2+70.56$, has the correct vertex and opens downward."
+      "content": "Only <strong>A</strong>, $f(t)=-16(t-1.9)^2+57.76$, has the correct vertex and opens downward."
     }
   ]
 }

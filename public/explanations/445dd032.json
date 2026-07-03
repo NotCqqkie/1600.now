@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the proportional relationship",
-      "content": "When Tanya works $z$ hours, she earns $13.50z$ dollars. This establishes a direct proportion: earnings scale proportionally with hours. If the number of hours multiplies by a factor, earnings multiply by that same factor."
+      "content": "When Maya works $z$ hours, she earns $14.25z$ dollars. This establishes a direct proportion: earnings scale proportionally with hours. If the number of hours multiplies by a factor, earnings multiply by that same factor."
     },
     {
       "title": "Apply the scaling factor",
-      "content": "Tanya now works $3z$ hours, which is 3 times as many hours as $z$. Therefore, her earnings also multiply by 3:<br/>$$3 \\times (13.50z)$$<br/>This matches the correct answer — <strong>A</strong> is correct."
+      "content": "Maya now works $4z$ hours, which is 4 times as many hours as $z$. Therefore, her earnings also multiply by 4:<br/>$$4 \\times (14.25z)$$<br/>This matches the correct answer &mdash; <strong>A</strong> is correct."
     }
   ]
 }

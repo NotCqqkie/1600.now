@@ -1,19 +1,19 @@
 {
   "questionId": "9cb9beec",
-  "correctAnswer": "14.5",
+  "correctAnswer": "22.5",
   "section": "Math",
   "steps": [
     {
       "title": "Use the one-solution condition",
-      "content": "The line $y=-1.5$ and the parabola $y=x^2+8x+a$ have exactly one distinct real solution only when the line touches the parabola at its vertex."
+      "content": "The line $y=-2.5$ and the parabola $y=x^2+10x+a$ have exactly one distinct real solution only when the line touches the parabola at its vertex."
     },
     {
       "title": "Find the vertex height",
-      "content": "Complete the square: $x^2+8x+a=(x+4)^2+a-16$. The vertex has $y$-coordinate $a-16$."
+      "content": "Complete the square: $x^2+10x+a=(x+5)^2+a-25$. The vertex has $y$-coordinate $a-25$."
     },
     {
       "title": "Set the vertex on the line",
-      "content": "For one intersection, $a-16=-1.5$. Therefore $a=14.5$."
+      "content": "For one intersection, $a-25=-2.5$. Therefore $a=22.5$."
     }
   ]
 }

@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Identify the dimensions",
-      "content": "The width is $w$ feet. The length is $49$ times the width, so the length is $49w$ feet."
+      "content": "The width is $w$ feet. The length is $46$ times the width, so the length is $46w$ feet."
     },
     {
       "title": "Connect the expression to area",
-      "content": "Area is length times width. In $$y=(49w)(w)$$ the factor $w$ is the width, so the factor $49w$ is the length."
+      "content": "Area is length times width. In $$y=(46w)(w)$$ the factor $w$ is the width, so the factor $46w$ is the length."
     },
     {
       "title": "Match the choice",
-      "content": "$49w$ represents the length of the rectangle, in feet. The length of the rectangle, in feet is correct."
+      "content": "$46w$ represents the length of the rectangle, in feet. The length of the rectangle, in feet is correct."
     }
   ]
 }
