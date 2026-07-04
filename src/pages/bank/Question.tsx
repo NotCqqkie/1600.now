@@ -122,7 +122,7 @@ import {
 } from "@/lib/practice/questionUiState";
 
 const HIDDEN_MEASUREMENT_STYLE = { visibility: 'hidden', pointerEvents: 'none' } as const;
-const COUNT_UP_IDLE_PAUSE_MS = 5 * 60 * 1000;
+const COUNT_UP_IDLE_PAUSE_MS = 15 * 60 * 1000;
 const COUNT_UP_IDLE_DEMO_PAUSE_MS = 5 * 1000;
 
 const getVisibleElementWidth = (element: HTMLElement) => {
