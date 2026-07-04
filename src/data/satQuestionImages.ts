@@ -1,12 +1,41 @@
-import { questionImageMap, type QuestionImageMapEntry } from "./questionImageMap";
-import { satImageManifest } from "./satImageManifest";
-import { questionImageMap as unofficialQuestionImageMap } from "./unofficialQuestionImageMap";
-import {
-  questionImageAssetMetadataBySrc,
-  questionImageDisplaySizeBySrc,
-  type QuestionImageAssetMetadata,
-  type QuestionImageDisplaySize,
+import type { QuestionImageMapEntry } from "./questionImageMap";
+import type {
+  QuestionImageAssetMetadata,
+  QuestionImageDisplaySize,
 } from "./questionImageSizing.generated";
+
+type QuestionImageMap = Record<string, QuestionImageMapEntry>;
+
+// The four bank-wide image-metadata modules (~1.2MB of object-literal JS) are
+// loaded lazily on first use instead of at module eval. Importing questionBank
+// no longer forces their parse + the whole-bank alias-index build onto the
+// critical path — e.g. the home hero reads pre-resolved shard data and never
+// calls these resolvers, so it now pays none of that cost. Callers on the raw
+// pool path await ensureSatImageDataReady() before invoking any resolver.
+let allQuestionImageMaps: QuestionImageMap[] = [];
+let satImageManifest = new Set<string>();
+let questionImageAssetMetadataBySrc: Record<string, QuestionImageAssetMetadata> = {};
+let questionImageDisplaySizeBySrc: Record<string, QuestionImageDisplaySize> = {};
+let hydratePromise: Promise<void> | null = null;
+
+export const ensureSatImageDataReady = (): Promise<void> => {
+  hydratePromise ??= Promise.all([
+    import("./questionImageMap"),
+    import("./unofficialQuestionImageMap"),
+    import("./satImageManifest"),
+    import("./questionImageSizing.generated"),
+  ]).then(([official, unofficial, manifest, sizing]) => {
+    allQuestionImageMaps = [
+      official.questionImageMap,
+      unofficial.questionImageMap as QuestionImageMap,
+    ];
+    satImageManifest = manifest.satImageManifest;
+    questionImageAssetMetadataBySrc = sizing.questionImageAssetMetadataBySrc;
+    questionImageDisplaySizeBySrc = sizing.questionImageDisplaySizeBySrc;
+    buildImageAliasIndex();
+  });
+  return hydratePromise;
+};
 
 export interface ResolvedSatImage {
   src: string;
@@ -70,11 +99,6 @@ const registerAlias = (alias: string | undefined, targetPath: string) => {
   idAliasToManifestPath.set(normalizedAlias, targetPath);
 };
 
-const allQuestionImageMaps: Record<string, QuestionImageMapEntry>[] = [
-  questionImageMap,
-  unofficialQuestionImageMap as Record<string, QuestionImageMapEntry>,
-];
-
 const getQuestionImageEntry = (questionId: string): QuestionImageMapEntry | undefined => {
   for (const imageMap of allQuestionImageMaps) {
     const entry = imageMap[questionId];
@@ -83,27 +107,29 @@ const getQuestionImageEntry = (questionId: string): QuestionImageMapEntry | unde
   return undefined;
 };
 
-allQuestionImageMaps.forEach((imageMap) => Object.entries(imageMap).forEach(([questionId, entry]) => {
-  entry.questionImages?.forEach((image, index) => {
-    const normalizedPath = toCanonicalSatImagePath(image.src);
-    if (!normalizedPath || !satImageManifest.has(toManifestSatImagePath(normalizedPath))) return;
+const buildImageAliasIndex = () => {
+  allQuestionImageMaps.forEach((imageMap) => Object.entries(imageMap).forEach(([questionId, entry]) => {
+    entry.questionImages?.forEach((image, index) => {
+      const normalizedPath = toCanonicalSatImagePath(image.src);
+      if (!normalizedPath || !satImageManifest.has(toManifestSatImagePath(normalizedPath))) return;
 
-    const extension = getFileExtension(normalizedPath);
-    registerAlias(questionId, normalizedPath);
-    registerAlias(`${questionId}${extension}`, normalizedPath);
-    registerAlias(`${questionId}_${index + 1}`, normalizedPath);
-    registerAlias(`${questionId}_${index + 1}${extension}`, normalizedPath);
-  });
+      const extension = getFileExtension(normalizedPath);
+      registerAlias(questionId, normalizedPath);
+      registerAlias(`${questionId}${extension}`, normalizedPath);
+      registerAlias(`${questionId}_${index + 1}`, normalizedPath);
+      registerAlias(`${questionId}_${index + 1}${extension}`, normalizedPath);
+    });
 
-  Object.entries(entry.choiceImages ?? {}).forEach(([choiceId, path]) => {
-    const normalizedPath = toCanonicalSatImagePath(path);
-    if (!normalizedPath || !satImageManifest.has(toManifestSatImagePath(normalizedPath))) return;
+    Object.entries(entry.choiceImages ?? {}).forEach(([choiceId, path]) => {
+      const normalizedPath = toCanonicalSatImagePath(path);
+      if (!normalizedPath || !satImageManifest.has(toManifestSatImagePath(normalizedPath))) return;
 
-    const extension = getFileExtension(normalizedPath);
-    registerAlias(`${questionId}_${choiceId}`, normalizedPath);
-    registerAlias(`${questionId}_${choiceId}${extension}`, normalizedPath);
-  });
-}));
+      const extension = getFileExtension(normalizedPath);
+      registerAlias(`${questionId}_${choiceId}`, normalizedPath);
+      registerAlias(`${questionId}_${choiceId}${extension}`, normalizedPath);
+    });
+  }));
+};
 
 export const normalizeSatImagePath = (path: string | undefined): string | undefined => {
   if (!path) return undefined;

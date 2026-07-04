@@ -2441,38 +2441,14 @@ const HomePageBackdrop = memo(({
   const FIRST_CURVE_START_MS = 140;
   const [firstCurveEarly, setFirstCurveEarly] = useState(false);
   const firstCurveRef = useRef<SVGPathElement | null>(null);
+  const maskLayerRef = useRef<HTMLDivElement | null>(null);
+  const glowSvgRef = useRef<SVGSVGElement | null>(null);
   const readyFiredRef = useRef(false);
   const markReady = useCallback(() => {
     if (readyFiredRef.current) return;
     readyFiredRef.current = true;
     onReady?.();
   }, [onReady]);
-  useEffect(() => {
-    let raf = 0;
-    let currentVisible: boolean | null = null;
-    const update = () => {
-      raf = 0;
-      const demoTitle = document.querySelector(".home-demo-title");
-      const titleTop = demoTitle?.getBoundingClientRect().top ?? Infinity;
-      const visible = titleTop > window.innerHeight / 2;
-      if (visible === currentVisible) return;
-      currentVisible = visible;
-      document.body.classList.toggle("hp-bg-hidden", !visible);
-    };
-    const schedule = () => {
-      if (raf) return;
-      raf = requestAnimationFrame(update);
-    };
-    update();
-    window.addEventListener("scroll", schedule, { passive: true });
-    window.addEventListener("resize", schedule);
-    return () => {
-      cancelAnimationFrame(raf);
-      window.removeEventListener("scroll", schedule);
-      window.removeEventListener("resize", schedule);
-      document.body.classList.remove("hp-bg-hidden");
-    };
-  }, []);
 
   const currentEq = HP_EQUATIONS[cycle % HP_EQUATIONS.length];
   const isFirstCycle = cycle === 0;
@@ -2574,17 +2550,40 @@ const HomePageBackdrop = memo(({
 
   const lineColor = isDarkMode ? "rgba(125,211,252,0.14)" : "rgba(15,23,42,0.11)";
   const curveColor = isDarkMode ? "rgba(125,211,252,0.55)" : "rgba(125,211,252,0.78)";
-  const gridMask = "linear-gradient(to bottom, black 0%, black 100%)";
-  const [cutoutMask, setCutoutMask] = useState<string>(
-    "linear-gradient(to bottom, black 0%, black 100%)"
-  );
+  const INITIAL_CURVE_MASK = "linear-gradient(to bottom, black 0%, black 100%)";
+  // One scroll/resize-driven effect handles backdrop visibility, the glow
+  // blur scale, and the text cutout mask. The mask + blur are written straight
+  // to the DOM (no setState) so an animation-frame update never triggers a
+  // React re-render, and all measurement is skipped while the backdrop is
+  // faded out.
   useEffect(() => {
     const PAD_X = 24;
     const PAD_Y = 18;
+    const round = (value: number) => Math.round(value * 10) / 10;
     let raf = 0;
+    let currentVisible: boolean | null = null;
     let lastMask = "";
+    let lastBlur = 0;
     const update = () => {
       raf = 0;
+      const demoTitle = document.querySelector(".home-demo-title");
+      const titleTop = demoTitle?.getBoundingClientRect().top ?? Infinity;
+      const visible = titleTop > window.innerHeight / 2;
+      if (visible !== currentVisible) {
+        currentVisible = visible;
+        document.body.classList.toggle("hp-bg-hidden", !visible);
+      }
+      if (!visible) return;
+
+      // stdDeviation 6 lived in the 1400x900 viewBox, so the old SVG glow
+      // scaled with the "slice" fit; match that on the CSS-blurred glow copy.
+      const scale = Math.max(window.innerWidth / 1400, (window.innerHeight - 64) / 900);
+      const nextBlur = round(6 * scale);
+      if (nextBlur !== lastBlur && glowSvgRef.current) {
+        lastBlur = nextBlur;
+        glowSvgRef.current.style.filter = `blur(${nextBlur}px)`;
+      }
+
       const cutoutElements = document.querySelectorAll<HTMLElement>("[data-curve-cutout]");
       const viewportWidth = window.innerWidth;
       const viewportGraphHeight = window.innerHeight - 64;
@@ -2593,10 +2592,10 @@ const HomePageBackdrop = memo(({
         const elementRect = element.getBoundingClientRect();
         if (elementRect.width === 0 || elementRect.height === 0) return;
         if (elementRect.bottom < 64 || elementRect.top > window.innerHeight) return;
-        const centerX = ((elementRect.left + elementRect.right) / 2 / viewportWidth) * 100;
-        const centerY = ((elementRect.top - 64 + elementRect.height / 2) / viewportGraphHeight) * 100;
-        const radiusX = ((elementRect.width + PAD_X * 2) / 2 / viewportWidth) * 100;
-        const radiusY = ((elementRect.height + PAD_Y * 2) / 2 / viewportGraphHeight) * 100;
+        const centerX = round(((elementRect.left + elementRect.right) / 2 / viewportWidth) * 100);
+        const centerY = round(((elementRect.top - 64 + elementRect.height / 2) / viewportGraphHeight) * 100);
+        const radiusX = round(((elementRect.width + PAD_X * 2) / 2 / viewportWidth) * 100);
+        const radiusY = round(((elementRect.height + PAD_Y * 2) / 2 / viewportGraphHeight) * 100);
         gradients.push(
           `radial-gradient(ellipse ${radiusX}% ${radiusY}% at ${centerX}% ${centerY}%, rgba(0,0,0,0.02) 0%, rgba(0,0,0,0.55) 70%, black 100%)`
         );
@@ -2605,7 +2604,11 @@ const HomePageBackdrop = memo(({
       const nextMask = gradients.join(", ");
       if (nextMask === lastMask) return;
       lastMask = nextMask;
-      setCutoutMask(nextMask);
+      const layer = maskLayerRef.current;
+      if (layer) {
+        layer.style.maskImage = nextMask;
+        layer.style.webkitMaskImage = nextMask;
+      }
     };
     const schedule = () => {
       if (raf) return;
@@ -2613,7 +2616,7 @@ const HomePageBackdrop = memo(({
     };
 
     update();
-    const ro = new ResizeObserver(update);
+    const ro = new ResizeObserver(schedule);
     document
       .querySelectorAll<HTMLElement>("[data-curve-cutout]")
       .forEach((element) => ro.observe(element));
@@ -2625,9 +2628,37 @@ const HomePageBackdrop = memo(({
       ro.disconnect();
       window.removeEventListener("scroll", schedule);
       window.removeEventListener("resize", schedule);
+      document.body.classList.remove("hp-bg-hidden");
     };
   }, []);
-  const curveMask = cutoutMask;
+
+  const renderCurvePaths = (variant: "sharp" | "glow") => (
+    <>
+      {staticCurveIdx !== null && (
+        <path
+          d={HP_EQUATIONS[staticCurveIdx].path}
+          fill="none"
+          stroke={curveColor}
+          strokeWidth="4.5"
+          strokeLinecap="round"
+          className={`hp-static-curve${staticFading ? " fading" : ""}`}
+        />
+      )}
+      {animatedCurveIdx !== null && (
+        <path
+          ref={variant === "sharp" && cycle === 0 ? firstCurveRef : undefined}
+          key={cycle}
+          d={HP_EQUATIONS[animatedCurveIdx].path}
+          fill="none"
+          stroke={curveColor}
+          strokeWidth="4.5"
+          strokeLinecap="round"
+          className="hp-curve"
+          onAnimationEnd={variant === "sharp" && cycle === 0 ? markReady : undefined}
+        />
+      )}
+    </>
+  );
 
   return (
     <>
@@ -2647,11 +2678,10 @@ const HomePageBackdrop = memo(({
             linear-gradient(90deg, ${lineColor} 1px, transparent 1px)
           `,
           backgroundSize: "54px 54px",
-          WebkitMaskImage: gridMask,
-          maskImage: gridMask,
         }}
       />
       <div
+        ref={maskLayerRef}
         aria-hidden
         className="hp-fixed-layer"
         style={{
@@ -2662,52 +2692,43 @@ const HomePageBackdrop = memo(({
           height: "calc(100vh - 64px)",
           pointerEvents: "none",
           zIndex: 0,
-          WebkitMaskImage: curveMask,
-          maskImage: curveMask,
+          WebkitMaskImage: INITIAL_CURVE_MASK,
+          maskImage: INITIAL_CURVE_MASK,
           WebkitMaskComposite: "source-in",
           maskComposite: "intersect",
         }}
       >
+        {/* Glow copy: GPU-composited CSS blur replaces the SVG feGaussianBlur
+            filter, which re-rasterized the full viewport on every draw frame.
+            Blur radius tracks the viewBox slice scale (set in JS). */}
+        <svg
+          ref={glowSvgRef}
+          viewBox="0 0 1400 900"
+          preserveAspectRatio="xMidYMid slice"
+          style={{
+            position: "absolute",
+            inset: 0,
+            width: "100%",
+            height: "100%",
+            display: "block",
+            filter: "blur(6px)",
+          }}
+        >
+          {renderCurvePaths("glow")}
+        </svg>
+        {/* Sharp copy stacked on top — identical paths + animation, no filter. */}
         <svg
           viewBox="0 0 1400 900"
           preserveAspectRatio="xMidYMid slice"
-          style={{ width: "100%", height: "100%", display: "block" }}
+          style={{
+            position: "absolute",
+            inset: 0,
+            width: "100%",
+            height: "100%",
+            display: "block",
+          }}
         >
-          <defs>
-            <filter id="hp-glow" x="-20%" y="-20%" width="140%" height="140%">
-              <feGaussianBlur stdDeviation="6" />
-              <feMerge>
-                <feMergeNode />
-                <feMergeNode in="SourceGraphic" />
-              </feMerge>
-            </filter>
-          </defs>
-
-          {staticCurveIdx !== null && (
-            <path
-              d={HP_EQUATIONS[staticCurveIdx].path}
-              fill="none"
-              stroke={curveColor}
-              strokeWidth="4.5"
-              strokeLinecap="round"
-              filter="url(#hp-glow)"
-              className={`hp-static-curve${staticFading ? " fading" : ""}`}
-            />
-          )}
-          {animatedCurveIdx !== null && (
-            <path
-              ref={cycle === 0 ? firstCurveRef : undefined}
-              key={cycle}
-              d={HP_EQUATIONS[animatedCurveIdx].path}
-              fill="none"
-              stroke={curveColor}
-              strokeWidth="4.5"
-              strokeLinecap="round"
-              filter="url(#hp-glow)"
-              className="hp-curve"
-              onAnimationEnd={cycle === 0 ? markReady : undefined}
-            />
-          )}
+          {renderCurvePaths("sharp")}
         </svg>
       </div>
     </>

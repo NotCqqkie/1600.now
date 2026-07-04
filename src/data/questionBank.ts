@@ -5,6 +5,7 @@ import unofficialMathJsonUrl from "./questions/unofficial_math.json?url";
 import unofficialReadingJsonUrl from "./questions/unofficial_reading.json?url";
 import pastQuestionDifficultyMapJsonUrl from "./pastQuestionDifficultyMap.json?url";
 import {
+  ensureSatImageDataReady,
   getSatImageDisplaySize,
   getSatImageAssetMetadata,
   resolveSatChoiceImage,
@@ -799,7 +800,10 @@ const getRawSourceSubjectQuestions = async (
   const cached = rawSourceSubjectCache.get(cacheKey);
   if (cached) return cached;
 
-  const promise = loadRawSource(sourceId, subject).then((source) =>
+  const promise = Promise.all([
+    loadRawSource(sourceId, subject),
+    ensureSatImageDataReady(),
+  ]).then(([source]) =>
     source.questions.filter((question) => {
       if (!hasRenderableStem(question)) return false;
       if (hasUnsalvageableChoices(question)) return false;
@@ -838,6 +842,7 @@ const getNormalizedSourceSubjectQuestions = (
   const promise = Promise.all([
     loadRawSource(sourceId, subject),
     getRawSourceSubjectQuestions(sourceId, subject),
+    ensureSatImageDataReady(),
   ]).then(([source, questions]) =>
     questions.map((question) => normalizeQuestion(source, question, metadata)),
   );
