@@ -8,9 +8,18 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
+  SELECT_TRIGGER_BASE_CLASS,
+  SELECT_CONTENT_BASE_CLASS,
+  SELECT_ITEM_BASE_CLASS,
 } from "@/components/ui/select";
 import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@/components/ui/popover";
+import {
   Filter,
+  Check,
   ChevronDown,
   ChevronUp,
   Clock,
@@ -85,6 +94,108 @@ function FilterCard({
       </div>
       {children}
     </div>
+  );
+}
+
+type FilterSelectOption = { value: string; label: string };
+
+type FilterSelectProps = {
+  control: string;
+  value: string;
+  isActive: boolean;
+  options: FilterSelectOption[];
+  triggerClass: string;
+  portalContainer?: HTMLElement | null;
+  openProps: { open?: boolean; onOpenChange?: (open: boolean) => void };
+  onValueChange: (value: string) => void;
+};
+
+// In the home-page demo the filter menus are driven by a scripted cursor while the
+// user is free to interact with the rest of the page. Radix Select is modal — it
+// locks page scroll and disables outside pointer events while open — so we render a
+// non-modal Popover clone there. The real /bank route keeps the accessible Select.
+function DemoSelect({
+  control,
+  value,
+  options,
+  triggerClass,
+  portalContainer,
+  openProps,
+  onValueChange,
+}: FilterSelectProps) {
+  const current = options.find((option) => option.value === value);
+  return (
+    <Popover open={openProps.open} onOpenChange={openProps.onOpenChange}>
+      <PopoverTrigger asChild>
+        <button
+          type="button"
+          role="combobox"
+          aria-expanded={openProps.open}
+          data-filter-demo-control={control}
+          className={cn(SELECT_TRIGGER_BASE_CLASS, triggerClass)}
+        >
+          <span>{current?.label ?? ""}</span>
+          <ChevronDown className="h-[11px] w-[11px] text-ink-muted" />
+        </button>
+      </PopoverTrigger>
+      <PopoverContent
+        container={portalContainer}
+        className={cn(SELECT_CONTENT_BASE_CLASS, "w-[var(--radix-popover-trigger-width)] min-w-0 p-1")}
+        onOpenAutoFocus={(event) => event.preventDefault()}
+        onCloseAutoFocus={(event) => event.preventDefault()}
+      >
+        <div role="listbox">
+          {options.map((option) => {
+            const isSelected = option.value === value;
+            return (
+              <button
+                key={option.value}
+                type="button"
+                role="option"
+                aria-selected={isSelected}
+                data-filter-demo-option={`${control}:${option.value}`}
+                onMouseDown={(event) => event.preventDefault()}
+                onClick={() => onValueChange(option.value)}
+                className={cn(
+                  SELECT_ITEM_BASE_CLASS,
+                  "text-left transition-colors hover:bg-cobalt hover:text-white hover:[&_svg]:text-white",
+                  FILTER_SELECT_ITEM_CLASS,
+                )}
+              >
+                <span className="absolute left-2 flex h-3.5 w-3.5 items-center justify-center">
+                  {isSelected && <Check className="h-4 w-4" />}
+                </span>
+                {option.label}
+              </button>
+            );
+          })}
+        </div>
+      </PopoverContent>
+    </Popover>
+  );
+}
+
+function FilterSelect({ demoMode, ...props }: FilterSelectProps & { demoMode: boolean }) {
+  if (demoMode) return <DemoSelect {...props} />;
+  const { control, value, options, triggerClass, portalContainer, openProps, onValueChange } = props;
+  return (
+    <Select value={value} onValueChange={onValueChange} {...openProps}>
+      <SelectTrigger data-filter-demo-control={control} className={triggerClass}>
+        <SelectValue />
+      </SelectTrigger>
+      <SelectContent container={portalContainer} className={FILTER_SELECT_CONTENT_CLASS}>
+        {options.map((option) => (
+          <SelectItem
+            key={option.value}
+            className={FILTER_SELECT_ITEM_CLASS}
+            data-filter-demo-option={`${control}:${option.value}`}
+            value={option.value}
+          >
+            {option.label}
+          </SelectItem>
+        ))}
+      </SelectContent>
+    </Select>
   );
 }
 
@@ -219,6 +330,7 @@ export function QuestionBankFilterPanel({
                   className={cn(
                     FILTER_CONTROL_CLASS,
                     filters.difficulty.length > 0 && ACTIVE_FILTER_CONTROL_CLASS,
+                    compactLabels && filters.difficulty.length > 0 && "hover:[&_span]:!text-primary-foreground",
                   )}
                   open={homeDemoMultiOpen ? homeDemoOpenControls.includes("difficulty") : undefined}
                   onOpenChange={(nextOpen) => openHomeDemoControl("difficulty", nextOpen)}
@@ -264,84 +376,76 @@ export function QuestionBankFilterPanel({
 
               {showActivityFilter && (
                 <FilterCard icon={Zap} label={compactLabels ? "Activity" : "Question Activity"} className="min-w-0">
-                  <Select
+                  <FilterSelect
+                    demoMode={homeDemoMultiOpen}
+                    control="activity"
                     value={filters.activeQuestions}
+                    isActive={filters.activeQuestions !== "all"}
+                    triggerClass={getSelectTriggerClass(filters.activeQuestions !== "all")}
+                    portalContainer={portalContainer}
+                    openProps={homeDemoSelectOpenProps("activity")}
                     onValueChange={(v) => updateFilter("activeQuestions", v as typeof filters.activeQuestions)}
-                    {...homeDemoSelectOpenProps("activity")}
-                  >
-                    <SelectTrigger data-filter-demo-control="activity" className={getSelectTriggerClass(filters.activeQuestions !== "all")}>
-                      <SelectValue />
-                    </SelectTrigger>
-                    <SelectContent
-                      container={portalContainer}
-                      className={FILTER_SELECT_CONTENT_CLASS}
-                    >
-                      <SelectItem className={FILTER_SELECT_ITEM_CLASS} data-filter-demo-option="activity:all" value="all">{compactLabels ? "All" : "All Questions"}</SelectItem>
-                      <SelectItem className={FILTER_SELECT_ITEM_CLASS} data-filter-demo-option="activity:active" value="active">{compactLabels ? "Active" : "Active Questions"}</SelectItem>
-                      <SelectItem className={FILTER_SELECT_ITEM_CLASS} data-filter-demo-option="activity:exclude-active" value="exclude-active">{compactLabels ? "Exclude" : "Exclude Active Questions"}</SelectItem>
-                    </SelectContent>
-                  </Select>
+                    options={[
+                      { value: "all", label: compactLabels ? "All" : "All Questions" },
+                      { value: "active", label: compactLabels ? "Active" : "Active Questions" },
+                      { value: "exclude-active", label: compactLabels ? "Exclude" : "Exclude Active Questions" },
+                    ]}
+                  />
                 </FilterCard>
               )}
 
               <FilterCard icon={Bookmark} label={compactLabels ? "Marked" : "Marked for Review"} className="min-w-0">
-                <Select
+                <FilterSelect
+                  demoMode={homeDemoMultiOpen}
+                  control="marked"
                   value={filters.markedForReview}
+                  isActive={filters.markedForReview !== "all"}
+                  triggerClass={getSelectTriggerClass(filters.markedForReview !== "all")}
+                  portalContainer={portalContainer}
+                  openProps={homeDemoSelectOpenProps("marked")}
                   onValueChange={(v) => updateFilter("markedForReview", v as typeof filters.markedForReview)}
-                  {...homeDemoSelectOpenProps("marked")}
-                >
-                  <SelectTrigger data-filter-demo-control="marked" className={getSelectTriggerClass(filters.markedForReview !== "all")}>
-                    <SelectValue />
-                  </SelectTrigger>
-                  <SelectContent
-                    container={portalContainer}
-                    className={FILTER_SELECT_CONTENT_CLASS}
-                  >
-                    <SelectItem className={FILTER_SELECT_ITEM_CLASS} data-filter-demo-option="marked:all" value="all">Any</SelectItem>
-                    <SelectItem className={FILTER_SELECT_ITEM_CLASS} data-filter-demo-option="marked:yes" value="yes">Marked Only</SelectItem>
-                    <SelectItem className={FILTER_SELECT_ITEM_CLASS} data-filter-demo-option="marked:no" value="no">Not Marked</SelectItem>
-                  </SelectContent>
-                </Select>
+                  options={[
+                    { value: "all", label: "Any" },
+                    { value: "yes", label: "Marked Only" },
+                    { value: "no", label: "Not Marked" },
+                  ]}
+                />
               </FilterCard>
 
               <FilterCard icon={CheckCircle} label="Solved" className="min-w-0">
-                <Select
+                <FilterSelect
+                  demoMode={homeDemoMultiOpen}
+                  control="solved"
                   value={filters.solved}
+                  isActive={filters.solved !== "all"}
+                  triggerClass={getSelectTriggerClass(filters.solved !== "all")}
+                  portalContainer={portalContainer}
+                  openProps={homeDemoSelectOpenProps("solved")}
                   onValueChange={(v) => updateFilter("solved", v as typeof filters.solved)}
-                  {...homeDemoSelectOpenProps("solved")}
-                >
-                  <SelectTrigger data-filter-demo-control="solved" className={getSelectTriggerClass(filters.solved !== "all")}>
-                    <SelectValue />
-                  </SelectTrigger>
-                  <SelectContent
-                    container={portalContainer}
-                    className={FILTER_SELECT_CONTENT_CLASS}
-                  >
-                    <SelectItem className={FILTER_SELECT_ITEM_CLASS} data-filter-demo-option="solved:all" value="all">Any</SelectItem>
-                    <SelectItem className={FILTER_SELECT_ITEM_CLASS} data-filter-demo-option="solved:yes" value="yes">Solved Only</SelectItem>
-                    <SelectItem className={FILTER_SELECT_ITEM_CLASS} data-filter-demo-option="solved:no" value="no">Unsolved Only</SelectItem>
-                  </SelectContent>
-                </Select>
+                  options={[
+                    { value: "all", label: "Any" },
+                    { value: "yes", label: "Solved Only" },
+                    { value: "no", label: "Unsolved Only" },
+                  ]}
+                />
               </FilterCard>
 
               <FilterCard icon={Percent} label="Correct" className="min-w-0">
-                <Select
+                <FilterSelect
+                  demoMode={homeDemoMultiOpen}
+                  control="incorrect"
                   value={filters.answeredIncorrectly}
+                  isActive={filters.answeredIncorrectly !== "all"}
+                  triggerClass={getSelectTriggerClass(filters.answeredIncorrectly !== "all")}
+                  portalContainer={portalContainer}
+                  openProps={homeDemoSelectOpenProps("incorrect")}
                   onValueChange={(v) => updateFilter("answeredIncorrectly", v as typeof filters.answeredIncorrectly)}
-                  {...homeDemoSelectOpenProps("incorrect")}
-                >
-                  <SelectTrigger data-filter-demo-control="incorrect" className={getSelectTriggerClass(filters.answeredIncorrectly !== "all")}>
-                    <SelectValue />
-                  </SelectTrigger>
-                  <SelectContent
-                    container={portalContainer}
-                    className={FILTER_SELECT_CONTENT_CLASS}
-                  >
-                    <SelectItem className={FILTER_SELECT_ITEM_CLASS} data-filter-demo-option="incorrect:all" value="all">Any</SelectItem>
-                    <SelectItem className={FILTER_SELECT_ITEM_CLASS} data-filter-demo-option="incorrect:no" value="no">Correct</SelectItem>
-                    <SelectItem className={FILTER_SELECT_ITEM_CLASS} data-filter-demo-option="incorrect:yes" value="yes">Incorrect</SelectItem>
-                  </SelectContent>
-                </Select>
+                  options={[
+                    { value: "all", label: "Any" },
+                    { value: "no", label: "Correct" },
+                    { value: "yes", label: "Incorrect" },
+                  ]}
+                />
               </FilterCard>
             </div>
           </div>

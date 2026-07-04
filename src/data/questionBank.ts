@@ -1066,6 +1066,19 @@ export const loadBankQuestion = async (
   options: QuestionBankLoadOptions = {},
 ): Promise<BankQuestion | null> => (await loadBankPool(subject, bankSource, options))[questionIndex - 1] || null;
 
+// Prime the promise caches the home hero demo's embedded Question reads (route
+// refs + the route-indexed question/shard) so the embed resolves from cache
+// instead of starting a cold fetch chain when it mounts. Opportunistic: errors
+// are swallowed since the embed keeps its own real load/error path.
+export const prefetchHeroPreviewQuestion = (
+  subject: BankSubject = "math",
+  idParam = "1",
+  bankSource: BankSourceFilter = "past",
+): void => {
+  void loadBankQuestionRouteRefs(subject, bankSource).catch(() => {});
+  void loadRouteIndexedBankQuestion(subject, idParam, bankSource).catch(() => {});
+};
+
 const sourceIdIndexCache = new Map<string, Promise<Map<string, BankQuestion>>>();
 const sourceQuestionIdIndexCache = new Map<string, Promise<Map<string, BankQuestion>>>();
 

@@ -54,7 +54,7 @@ const getScoreBlockWidthClass = (
 };
 
 const getScoreLabelSizeClass = (compact?: boolean, showcase?: boolean): string =>
-  showcase ? "text-[10px] max-[480px]:text-[8px]" : compact ? "text-[10px]" : "text-[22px]";
+  showcase ? "text-[12px] max-[480px]:text-[8px]" : compact ? "text-[10px]" : "text-[22px]";
 
 const getScoreValueSizeClass = (
   compact?: boolean,
@@ -63,33 +63,33 @@ const getScoreValueSizeClass = (
 ): string => {
   if (showcase) {
     return primary
-      ? "mt-2 text-[48px] max-[480px]:text-[38px]"
-      : "mt-2 text-[32px] max-[480px]:text-[25px]";
+      ? "mt-2 text-[58px] max-[480px]:text-[38px]"
+      : "mt-2 text-[38px] max-[480px]:text-[25px]";
   }
   if (primary) return compact ? "mt-2 text-[48px]" : "mt-5 text-[112px]";
   return compact ? "mt-2 text-[32px]" : "mt-5 text-[72px]";
 };
 
 const getRangeSizeClass = (compact?: boolean, showcase?: boolean): string =>
-  showcase ? "mt-2 text-[14px] max-[480px]:text-[11px]" : compact ? "mt-2 text-[14px]" : "mt-6 text-[30px]";
+  showcase ? "mt-2 text-[16px] max-[480px]:text-[11px]" : compact ? "mt-2 text-[14px]" : "mt-6 text-[30px]";
 
 const getActionSizeClass = (compact?: boolean, showcase?: boolean): string =>
-  showcase ? "h-10 text-[14px] max-[480px]:h-9 max-[480px]:text-[12px]" : compact ? "h-10 text-[14px]" : "h-[106px] text-[30px]";
+  showcase ? "h-12 text-[16px] max-[480px]:h-9 max-[480px]:text-[12px]" : compact ? "h-10 text-[14px]" : "h-[106px] text-[30px]";
 
 const getHeaderPaddingClass = (compact?: boolean, showcase?: boolean): string =>
-  showcase ? "px-5 py-4 max-[480px]:px-4 max-[480px]:py-3" : compact ? "px-5 py-4" : "px-14 py-12";
+  showcase ? "px-6 py-5 max-[480px]:px-4 max-[480px]:py-3" : compact ? "px-5 py-4" : "px-14 py-12";
 
 const getBodyPaddingClass = (compact?: boolean, showcase?: boolean): string =>
-  showcase ? "px-5 py-5 max-[480px]:px-4 max-[480px]:py-4" : compact ? "px-5 py-5" : "px-14 py-16";
+  showcase ? "px-6 py-6 max-[480px]:px-4 max-[480px]:py-4" : compact ? "px-5 py-5" : "px-14 py-16";
 
 const getGridGapClass = (compact?: boolean, showcase?: boolean): string =>
-  showcase ? "grid-cols-[1.05fr_0.78fr_0.56fr] gap-4 max-[480px]:gap-3" : compact ? "gap-5" : "gap-8";
+  showcase ? "grid-cols-[1.05fr_0.78fr_0.56fr] gap-5 max-[480px]:gap-3" : compact ? "gap-5" : "gap-8";
 
 const getGridColumnsClass = (compact?: boolean, showcase?: boolean): string | false =>
   !showcase && (compact ? "grid-cols-1 sm:grid-cols-[1.1fr_0.85fr_0.55fr]" : "grid-cols-1 md:grid-cols-[1.45fr_0.72fr_0.55fr]");
 
 const getActionWrapClass = (compact?: boolean, showcase?: boolean): string =>
-  showcase ? "mt-5 max-[480px]:mt-4" : compact ? "mt-5" : "mt-12";
+  showcase ? "mt-6 max-[480px]:mt-4" : compact ? "mt-5" : "mt-12";
 
 const ScoreBlock = ({
   label,
@@ -160,12 +160,12 @@ export const SatScoreCard = ({
         <h3
           className={cn(
             TITLE_BASE_CLASS,
-            showcase ? "text-[24px] max-[480px]:text-[22px]" : compact ? "text-[24px]" : "text-[54px]",
+            showcase ? "text-[29px] max-[480px]:text-[22px]" : compact ? "text-[24px]" : "text-[54px]",
           )}
         >
           {title}
         </h3>
-        <div className={cn(DATE_BASE_CLASS, showcase ? "text-[16px] max-[480px]:text-[14px]" : compact ? "text-[16px]" : "text-[36px]")}>
+        <div className={cn(DATE_BASE_CLASS, showcase ? "text-[18px] max-[480px]:text-[14px]" : compact ? "text-[16px]" : "text-[36px]")}>
           {dateLabel}
         </div>
       </div>

@@ -1,4 +1,4 @@
-import { Suspense, lazy, memo, useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState, type CSSProperties } from "react";
+import { Suspense, forwardRef, lazy, memo, useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState, type CSSProperties } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "@/contexts/AuthContext";
 import { isChunkLoadError, recoverFromChunkLoadError } from "@/lib/chunkLoadRecovery";
@@ -123,7 +123,7 @@ const useForwardScrollToPage = <T extends HTMLElement>(
   }, [enabled, ref]);
 };
 
-const HERO_PREVIEW_SCALE = 0.85;
+const HERO_PREVIEW_SCALE = 1.02;
 const HERO_PREVIEW_LOGICAL_HEIGHT = 760;
 const HERO_PREVIEW_MOBILE_SCALE = 0.55;
 
@@ -369,10 +369,10 @@ const HeroQuestionPreview = memo(({
   const activeScale = isPhone ? HERO_PREVIEW_MOBILE_SCALE : HERO_PREVIEW_SCALE;
   const activeLogicalHeight = isPhone ? HERO_PREVIEW_MOBILE_LOGICAL_HEIGHT : HERO_PREVIEW_LOGICAL_HEIGHT;
   const visibleHeight = activeLogicalHeight * activeScale;
-  useForwardScrollToPage(rootRef, ready && nearViewport);
+  useForwardScrollToPage(rootRef, nearViewport);
   useEffect(() => {
-    if (!ready || !nearViewport) setPreviewLoaded(false);
-  }, [nearViewport, ready]);
+    if (!nearViewport) setPreviewLoaded(false);
+  }, [nearViewport]);
   useEffect(() => {
     if (nearViewport) return;
     const node = rootRef.current;
@@ -417,7 +417,7 @@ const HeroQuestionPreview = memo(({
     position: "relative",
   };
 
-  if (!ready || !nearViewport) {
+  if (!nearViewport) {
     return (
       <div
         ref={rootRef}
@@ -428,6 +428,12 @@ const HeroQuestionPreview = memo(({
       </div>
     );
   }
+  // Mount the embed as soon as the frame is near the viewport so it loads and
+  // renders under the skeleton during the ready-gate window; only reveal it
+  // once it has painted (previewLoaded) AND the hero intro has finished (ready),
+  // so the fade-in matches the previous visual sequence but never exposes a
+  // still-loading skeleton.
+  const revealed = previewLoaded && ready;
   return (
     <div
       ref={rootRef}
@@ -442,7 +448,7 @@ const HeroQuestionPreview = memo(({
           background: "transparent",
           transform: `scale(${activeScale})`,
           transformOrigin: "top left",
-          opacity: previewLoaded ? 1 : 0,
+          opacity: revealed ? 1 : 0,
           transition: "opacity 220ms ease",
         }}
       >
@@ -450,7 +456,7 @@ const HeroQuestionPreview = memo(({
           <EmbeddedQuestionPreview previewEmbed={previewEmbed} />
         </Suspense>
       </div>
-      {!previewLoaded && (
+      {!revealed && (
         <HomePreviewSkeleton
           isDarkMode={isDarkMode}
           variant="question"
@@ -471,10 +477,10 @@ const ExplanationFeatureSection = memo(({ isDarkMode }: { isDarkMode: boolean })
       style={{
         display: "grid",
         gridTemplateColumns: "minmax(0, 1fr) minmax(0, 1.15fr)",
-        gap: 64,
+        gap: 76,
         alignItems: "center",
-        padding: "96px 24px",
-        maxWidth: 1200,
+        padding: "110px 24px",
+        maxWidth: 1440,
         margin: "0 auto",
       }}
     >
@@ -483,7 +489,7 @@ const ExplanationFeatureSection = memo(({ isDarkMode }: { isDarkMode: boolean })
           style={{
             fontFamily: "'Geist', system-ui, sans-serif",
             fontWeight: 500,
-            fontSize: "clamp(36px, 4.6vw, 60px)",
+            fontSize: "clamp(40px, 4.9vw, 72px)",
             lineHeight: 1,
             letterSpacing: "-0.035em",
             color: "rgb(var(--ink))",
@@ -504,11 +510,11 @@ const ExplanationFeatureSection = memo(({ isDarkMode }: { isDarkMode: boolean })
         </h2>
         <p
           style={{
-            fontSize: 16,
+            fontSize: 18,
             lineHeight: 1.65,
             fontWeight: 300,
             color: isDarkMode ? "rgba(255,255,255,0.55)" : "rgba(15,23,42,0.62)",
-            maxWidth: 420,
+            maxWidth: 504,
             margin: "0 0 28px",
           }}
         >
@@ -632,7 +638,7 @@ const AnimatedExplanation = memo(({ isDarkMode, active }: { isDarkMode: boolean;
       ref={scrollRef}
       className="rounded-[14px] overflow-hidden border border-border bg-card flex flex-col"
       style={{
-        height: 528,
+        height: 634,
         boxShadow: isDarkMode
           ? "0 20px 60px rgba(0,0,0,0.5)"
           : "0 20px 50px rgba(15,23,42,0.1)",
@@ -670,16 +676,16 @@ const AnimatedExplanation = memo(({ isDarkMode, active }: { isDarkMode: boolean;
                 {currentStep + 1}
               </div>
               <div>
-                <h3 className="font-semibold text-base leading-snug">
+                <h3 className="text-lg font-semibold leading-snug">
                   {step.title}
                 </h3>
-                <span className="text-xs text-muted-foreground">
+                <span className="text-[13px] text-muted-foreground">
                   Step {currentStep + 1} of {totalSteps}
                 </span>
               </div>
             </div>
             <div
-              className="text-[15px] leading-snug pl-9 explanation-content text-foreground/90"
+              className="pl-9 text-[17px] leading-snug explanation-content text-foreground/90"
               dangerouslySetInnerHTML={{ __html: stepBodyHtml }}
             />
             {step.desmos && (
@@ -688,11 +694,11 @@ const AnimatedExplanation = memo(({ isDarkMode, active }: { isDarkMode: boolean;
                   fallback={
                     <div
                       className="rounded-lg border border-primary/20 overflow-hidden bg-background"
-                      style={{ height: 220 }}
+                      style={{ height: 264 }}
                     />
                   }
                 >
-                  <InlineDesmos expressions={step.desmos} height={220} forwardScrollToPage />
+                  <InlineDesmos expressions={step.desmos} height={264} forwardScrollToPage />
                 </Suspense>
               </div>
             )}
@@ -743,11 +749,11 @@ const FilterFeatureSection = memo(({
       className="filter-feature-row"
       style={{
         display: "grid",
-        gridTemplateColumns: "minmax(0, 1.38fr) minmax(300px, 0.82fr)",
-        gap: 72,
+        gridTemplateColumns: "minmax(0, 1.44fr) minmax(340px, 0.82fr)",
+        gap: 86,
         alignItems: "center",
-        padding: "112px 24px",
-        maxWidth: 1380,
+        padding: "126px 24px",
+        maxWidth: 1656,
         margin: "0 auto",
       }}
     >
@@ -774,7 +780,7 @@ const FilterFeatureSection = memo(({
           style={{
             fontFamily: "'Geist', system-ui, sans-serif",
             fontWeight: 500,
-            fontSize: "clamp(36px, 4.6vw, 60px)",
+            fontSize: "clamp(40px, 4.9vw, 72px)",
             lineHeight: 1,
             letterSpacing: "-0.035em",
             color: "rgb(var(--ink))",
@@ -794,11 +800,11 @@ const FilterFeatureSection = memo(({
         </h2>
         <p
           style={{
-            fontSize: 16,
+            fontSize: 18,
             lineHeight: 1.6,
             fontWeight: 300,
             color: isDarkMode ? "rgba(255,255,255,0.55)" : "rgba(15,23,42,0.62)",
-            maxWidth: 440,
+            maxWidth: 528,
             margin: "0 0 28px",
           }}
         >
@@ -816,7 +822,7 @@ const FilterFeatureSection = memo(({
             display: "inline-flex",
             alignItems: "center",
             gap: 6,
-            fontSize: 14,
+            fontSize: 15,
             fontWeight: 600,
             color: "rgb(var(--cobalt))",
             background: "transparent",
@@ -841,7 +847,7 @@ const PracticeTestScoreShowcase = memo(() => {
       className="practice-results-showcase"
       style={{
         position: "relative",
-        maxWidth: 620,
+        maxWidth: 744,
         marginLeft: "auto",
       }}
     >
@@ -873,10 +879,10 @@ const PracticeTestsFeatureSection = memo(({ isDarkMode }: { isDarkMode: boolean 
       style={{
         display: "grid",
         gridTemplateColumns: "minmax(0, 1fr) minmax(0, 1.15fr)",
-        gap: 64,
+        gap: 76,
         alignItems: "center",
-        padding: "68px 24px 54px",
-        maxWidth: 1200,
+        padding: "82px 24px 65px",
+        maxWidth: 1440,
         margin: "0 auto",
       }}
     >
@@ -885,7 +891,7 @@ const PracticeTestsFeatureSection = memo(({ isDarkMode }: { isDarkMode: boolean 
           style={{
             fontFamily: "'Geist', system-ui, sans-serif",
             fontWeight: 500,
-            fontSize: "clamp(36px, 4.6vw, 60px)",
+            fontSize: "clamp(40px, 4.9vw, 72px)",
             lineHeight: 1,
             letterSpacing: "-0.035em",
             color: "rgb(var(--ink))",
@@ -915,11 +921,11 @@ const PracticeTestsFeatureSection = memo(({ isDarkMode }: { isDarkMode: boolean 
         </h2>
         <p
           style={{
-            fontSize: 16,
+            fontSize: 18,
             lineHeight: 1.6,
             fontWeight: 300,
             color: isDarkMode ? "rgba(255,255,255,0.55)" : "rgba(15,23,42,0.62)",
-            maxWidth: 440,
+            maxWidth: 528,
             margin: "0 0 28px",
           }}
         >
@@ -937,7 +943,7 @@ const PracticeTestsFeatureSection = memo(({ isDarkMode }: { isDarkMode: boolean 
             display: "inline-flex",
             alignItems: "center",
             gap: 6,
-            fontSize: 14,
+            fontSize: 15,
             fontWeight: 600,
             color: "rgb(var(--cobalt))",
             background: "transparent",
@@ -960,22 +966,22 @@ const PracticeTestsFeatureSection = memo(({ isDarkMode }: { isDarkMode: boolean 
 });
 PracticeTestsFeatureSection.displayName = "PracticeTestsFeatureSection";
 
-const FILTER_DEMO_PREVIEW_WIDTH = 728;
-const FILTER_DEMO_PREVIEW_HEIGHT = 580;
+const FILTER_DEMO_PREVIEW_WIDTH = 874;
+const FILTER_DEMO_PREVIEW_HEIGHT = 696;
 const FILTER_DEMO_MAX_SCALE = 1;
 const FILTER_DEMO_CURSOR_MIN_DURATION_MS = 420;
 const FILTER_DEMO_CURSOR_MAX_DURATION_MS = 2400;
 const FILTER_DEMO_CURSOR_SPEED_PX_PER_MS = 0.127;
-const FILTER_DEMO_CURSOR_CLICK_PAUSE_MS = 32;
-const FILTER_DEMO_CURSOR_MENU_PAUSE_MS = 0;
+const FILTER_DEMO_CURSOR_CLICK_PAUSE_MS = 120;
+const FILTER_DEMO_CURSOR_MENU_PAUSE_MS = 200;
 const FILTER_DEMO_CURSOR_NEXT_STEP_PAUSE_MS = 360;
 const FILTER_DEMO_CURSOR_IDLE_RETRY_MS = 180;
 const FILTER_DEMO_CURSOR_CLOSE_MENU_DURATION_MS = 220;
 const FILTER_DEMO_MENU_AUTO_CLOSE_CHECK_MS = 90;
 const FILTER_DEMO_OPTION_PRESS_MS = 140;
-const FILTER_DEMO_USER_INTERACTION_PAUSE_MS = 900;
-const FILTER_DEMO_MANUAL_CLOSE_PAUSE_MS = 1800;
-const FILTER_DEMO_CURSOR_SIZE = 40;
+const FILTER_DEMO_USER_INTERACTION_PAUSE_MS = 2500;
+const FILTER_DEMO_MANUAL_CLOSE_PAUSE_MS = 2500;
+const FILTER_DEMO_CURSOR_SIZE = 34;
 const FILTER_DEMO_CURSOR_HOTSPOT_X = (48 / 128) * FILTER_DEMO_CURSOR_SIZE;
 const FILTER_DEMO_CURSOR_HOTSPOT_Y = (40 / 128) * FILTER_DEMO_CURSOR_SIZE;
 
@@ -1098,57 +1104,63 @@ const getDemoCursorBezierPoint = (
   };
 };
 
-const DemoCursor = memo(({ x, y, visible, clickKey }: DemoCursorState & { clickKey: number }) => (
-  <div
-    data-filter-demo-cursor
-    data-filter-demo-cursor-visible={visible ? "true" : "false"}
-    style={{
-      position: "absolute",
-      left: 0,
-      top: 0,
-      transform: `translate(${x}px, ${y}px)`,
-      transition: "opacity 180ms ease",
-      opacity: visible ? 1 : 0,
-      pointerEvents: "none",
-      zIndex: 45,
-      willChange: "transform",
-    }}
-  >
-    <span
-      key={clickKey}
-      className="filter-demo-click-ring"
-      style={{
-        position: "absolute",
-        left: FILTER_DEMO_CURSOR_HOTSPOT_X - 7,
-        top: FILTER_DEMO_CURSOR_HOTSPOT_Y - 7,
-        width: 14,
-        height: 14,
-        borderRadius: "50%",
-        border: "1.5px solid rgba(14,165,233,0.65)",
-        background: "rgba(14,165,233,0.12)",
-        boxShadow: "0 0 0 1px rgba(255,255,255,0.55)",
-        pointerEvents: "none",
-        animation: "demoClickPulse 260ms ease-out forwards",
-      }}
-    />
-    <img
-      src="/assets/cursors/macos-pointer.png"
-      alt=""
-      aria-hidden="true"
-      draggable={false}
-      style={{
-        position: "absolute",
-        left: 0,
-        top: 0,
-        width: FILTER_DEMO_CURSOR_SIZE,
-        minWidth: FILTER_DEMO_CURSOR_SIZE,
-        maxWidth: "none",
-        height: FILTER_DEMO_CURSOR_SIZE,
-        filter: "drop-shadow(0 2px 3px rgba(15,23,42,0.32))",
-        userSelect: "none",
-      }}
-    />
-  </div>
+const DemoCursor = memo(forwardRef<HTMLDivElement, { visible: boolean; clickKey: number; scale?: number }>(
+  ({ visible, clickKey, scale = 1 }, ref) => {
+    const size = FILTER_DEMO_CURSOR_SIZE * scale;
+    const hotspotX = FILTER_DEMO_CURSOR_HOTSPOT_X * scale;
+    const hotspotY = FILTER_DEMO_CURSOR_HOTSPOT_Y * scale;
+    const ringSize = 14 * scale;
+    return (
+      <div
+        ref={ref}
+        data-filter-demo-cursor
+        data-filter-demo-cursor-visible={visible ? "true" : "false"}
+        style={{
+          position: "absolute",
+          left: 0,
+          top: 0,
+          pointerEvents: "none",
+          zIndex: 45,
+          willChange: "transform",
+        }}
+      >
+        <span
+          key={clickKey}
+          className="filter-demo-click-ring"
+          style={{
+            position: "absolute",
+            left: hotspotX - ringSize / 2,
+            top: hotspotY - ringSize / 2,
+            width: ringSize,
+            height: ringSize,
+            borderRadius: "50%",
+            border: "1.5px solid rgba(14,165,233,0.65)",
+            background: "rgba(14,165,233,0.12)",
+            boxShadow: "0 0 0 1px rgba(255,255,255,0.55)",
+            pointerEvents: "none",
+            animation: "demoClickPulse 260ms ease-out forwards",
+          }}
+        />
+        <img
+          src="/assets/cursors/macos-pointer.png"
+          alt=""
+          aria-hidden="true"
+          draggable={false}
+          style={{
+            position: "absolute",
+            left: 0,
+            top: 0,
+            width: size,
+            minWidth: size,
+            maxWidth: "none",
+            height: size,
+            filter: "drop-shadow(0 2px 3px rgba(15,23,42,0.32))",
+            userSelect: "none",
+          }}
+        />
+      </div>
+    );
+  },
 ));
 DemoCursor.displayName = "DemoCursor";
 
@@ -1157,27 +1169,42 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
   const isNear = useIsNearViewport(containerRef, "900px 0px");
   const isVisible = useIsCurrentlyInViewport(containerRef);
   const documentVisible = useDocumentVisible();
+  const [reducedMotion] = useState(() => (
+    typeof window !== "undefined" && window.matchMedia("(prefers-reduced-motion: reduce)").matches
+  ));
   const [demoLoaded, setDemoLoaded] = useState(false);
+  const [skeletonGone, setSkeletonGone] = useState(false);
   const demoShouldMount = isNear;
-  const demoShouldRun = isNear && isVisible && documentVisible;
+  const demoShouldRun = isNear && isVisible && documentVisible && !reducedMotion;
   const [demoScale, setDemoScale] = useState(FILTER_DEMO_MAX_SCALE);
   const [filters, setFilters] = useState<QuestionBankFilters>(defaultBankFilters);
-  const [cursor, setCursor] = useState<DemoCursorState>({
+  const cursorElRef = useRef<HTMLDivElement>(null);
+  const [cursorVisible, setCursorVisible] = useState(false);
+  const cursorRef = useRef<DemoCursorState>({
     x: 28,
     y: 86,
     visible: false,
     durationMs: 0,
   });
-  const cursorRef = useRef(cursor);
+  const commitCursor = useCallback((next: DemoCursorState) => {
+    cursorRef.current = next;
+    const el = cursorElRef.current;
+    if (el) el.style.transform = `translate(${next.x}px, ${next.y}px)`;
+    setCursorVisible((prev) => (prev === next.visible ? prev : next.visible));
+  }, []);
   const cursorPathSeedRef = useRef(0);
   const userFilterPauseUntilRef = useRef(0);
   const manualResumeTimerRef = useRef<number | null>(null);
   const manualResumeTokenRef = useRef(0);
   const scriptedInteractionDepthRef = useRef(0);
   const lastManualInteractionAtRef = useRef(0);
+  const activePointerRef = useRef(false);
+  const activePointerReleaseRef = useRef<(() => void) | null>(null);
+  const demoScrollGuardUntilRef = useRef(0);
   const [clickKey, setClickKey] = useState(0);
   const [demoMode, setDemoMode] = useState<FilterDemoMode>("apply");
   const [demoTick, setDemoTick] = useState(1);
+  const [demoCloseSignal, setDemoCloseSignal] = useState(0);
   const [manualInteractionVersion, setManualInteractionVersion] = useState(0);
   const filtersRef = useRef<QuestionBankFilters>(defaultBankFilters);
   const modeRef = useRef<FilterDemoMode>(demoMode);
@@ -1222,6 +1249,20 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
   const handleBankDemoReady = useCallback(() => {
     setDemoLoaded(true);
   }, []);
+  const isPointInsideFilterArea = useCallback((x: number, y: number) => {
+    const container = containerRef.current;
+    const filterRoot = container?.querySelector<HTMLElement>('[data-tour="bank-filters"]');
+    if (!filterRoot) return false;
+    const rects = [filterRoot.getBoundingClientRect()];
+    container?.querySelectorAll<HTMLElement>('[data-radix-popper-content-wrapper]')
+      .forEach((popper) => rects.push(popper.getBoundingClientRect()));
+    return rects.some((rect) => x >= rect.left && x <= rect.right && y >= rect.top && y <= rect.bottom);
+  }, []);
+  // The demo resumes purely on inactivity: any interaction pushes the pause deadline out
+  // (see FILTER_DEMO_USER_INTERACTION_PAUSE_MS), and once that elapses the demo resumes
+  // even if a menu is still open or the mouse is still over the panel. The only hard block
+  // is an in-progress pointer hold (a live drag), which must not be fought mid-gesture.
+  const isUserEngaged = useCallback(() => activePointerRef.current, []);
   const queueManualResume = useCallback(() => {
     if (manualResumeTimerRef.current !== null) {
       window.clearTimeout(manualResumeTimerRef.current);
@@ -1232,14 +1273,20 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
     manualResumeTimerRef.current = window.setTimeout(() => {
       if (resumeToken !== manualResumeTokenRef.current) return;
       manualResumeTimerRef.current = null;
+      if (reducedMotion) return;
+      if (isUserEngaged()) {
+        userFilterPauseUntilRef.current = Date.now() + FILTER_DEMO_CURSOR_IDLE_RETRY_MS;
+        queueManualResume();
+        return;
+      }
       const resumedCursor = { ...cursorRef.current, visible: true, durationMs: 0 };
-      cursorRef.current = resumedCursor;
-      setCursor(resumedCursor);
+      commitCursor(resumedCursor);
       window.setTimeout(() => setDemoTick((tick) => tick + 1), 40);
     }, resumeDelay);
-  }, []);
+  }, [commitCursor, isUserEngaged, reducedMotion]);
   const activateScriptedElement = useCallback((element: HTMLElement) => {
     scriptedInteractionDepthRef.current += 1;
+    demoScrollGuardUntilRef.current = Date.now() + 250;
     try {
       activateDemoElement(element);
     } finally {
@@ -1268,13 +1315,26 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
     const now = Date.now();
     if (now - lastManualInteractionAtRef.current < 50) return;
     lastManualInteractionAtRef.current = now;
-    const hiddenCursor = { ...cursorRef.current, visible: false, durationMs: 0 };
-    cursorRef.current = hiddenCursor;
-    setCursor(hiddenCursor);
+    commitCursor({ ...cursorRef.current, visible: false, durationMs: 0 });
     userFilterPauseUntilRef.current = now + FILTER_DEMO_USER_INTERACTION_PAUSE_MS;
     setManualInteractionVersion((version) => version + 1);
+    if (event.type === "pointerdown" && !activePointerRef.current) {
+      activePointerRef.current = true;
+      const release = () => {
+        if (activePointerReleaseRef.current !== release) return;
+        activePointerRef.current = false;
+        activePointerReleaseRef.current = null;
+        window.removeEventListener("pointerup", release, true);
+        window.removeEventListener("pointercancel", release, true);
+        userFilterPauseUntilRef.current = Date.now() + FILTER_DEMO_USER_INTERACTION_PAUSE_MS;
+        queueManualResume();
+      };
+      activePointerReleaseRef.current = release;
+      window.addEventListener("pointerup", release, { capture: true });
+      window.addEventListener("pointercancel", release, { capture: true });
+    }
     queueManualResume();
-  }, [queueManualResume]);
+  }, [commitCursor, queueManualResume]);
   const pauseForHomeFilterMenuChange = useCallback((_control: string, open: boolean) => {
     if (scriptedInteractionDepthRef.current > 0) return;
     const scrollX = window.scrollX;
@@ -1285,9 +1345,7 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
       }
     };
     const now = Date.now();
-    const hiddenCursor = { ...cursorRef.current, visible: false, durationMs: 0 };
-    cursorRef.current = hiddenCursor;
-    setCursor(hiddenCursor);
+    commitCursor({ ...cursorRef.current, visible: false, durationMs: 0 });
     userFilterPauseUntilRef.current = now + (open
       ? FILTER_DEMO_USER_INTERACTION_PAUSE_MS
       : FILTER_DEMO_MANUAL_CLOSE_PAUSE_MS);
@@ -1298,29 +1356,59 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
     }
     setManualInteractionVersion((version) => version + 1);
     queueManualResume();
-  }, [queueManualResume]);
-
-  useEffect(() => {
-    cursorRef.current = cursor;
-  }, [cursor]);
+  }, [commitCursor, queueManualResume]);
 
   useEffect(() => () => {
     if (manualResumeTimerRef.current !== null) {
       window.clearTimeout(manualResumeTimerRef.current);
     }
+    activePointerReleaseRef.current?.();
   }, []);
+
+  useEffect(() => {
+    if (!demoLoaded) return;
+    const timer = window.setTimeout(() => setSkeletonGone(true), 260);
+    return () => window.clearTimeout(timer);
+  }, [demoLoaded]);
+
+  // Close any menu the scripted demo left open once the section is no longer running
+  // (scrolled away, tab hidden, reduced-motion), so the user never returns to a stale
+  // open dropdown. Not tied to manual interaction — that would close the user's own menu.
+  useEffect(() => {
+    if (!demoShouldRun) setDemoCloseSignal((signal) => signal + 1);
+  }, [demoShouldRun]);
 
   useEffect(() => {
     const container = containerRef.current;
     if (!container || !demoShouldMount) return;
     const ownerDocument = container.ownerDocument;
+    let lastHoverProcessedAt = 0;
+    const handleHoverMove = (event: PointerEvent) => {
+      if (event.pointerType !== "mouse") return;
+      const now = Date.now();
+      if (now - lastHoverProcessedAt < 120) return;
+      lastHoverProcessedAt = now;
+      if (scriptedInteractionDepthRef.current !== 0) return;
+      if (!isPointInsideFilterArea(event.clientX, event.clientY)) return;
+      // Every real mouse move over the panel pushes the inactivity deadline out. When the
+      // pointer goes still for FILTER_DEMO_USER_INTERACTION_PAUSE_MS the demo resumes on
+      // its own — it does not wait for the mouse to leave.
+      userFilterPauseUntilRef.current = now + FILTER_DEMO_USER_INTERACTION_PAUSE_MS;
+      if (cursorRef.current.visible) {
+        commitCursor({ ...cursorRef.current, visible: false, durationMs: 0 });
+        setManualInteractionVersion((version) => version + 1);
+      }
+      queueManualResume();
+    };
     ownerDocument.addEventListener("pointerdown", pauseForManualFilterInteraction, { capture: true });
     ownerDocument.addEventListener("mousedown", pauseForManualFilterInteraction, { capture: true });
+    ownerDocument.addEventListener("pointermove", handleHoverMove, { capture: true, passive: true });
     return () => {
       ownerDocument.removeEventListener("pointerdown", pauseForManualFilterInteraction, { capture: true });
       ownerDocument.removeEventListener("mousedown", pauseForManualFilterInteraction, { capture: true });
+      ownerDocument.removeEventListener("pointermove", handleHoverMove, { capture: true });
     };
-  }, [demoShouldMount, pauseForManualFilterInteraction]);
+  }, [commitCursor, demoShouldMount, isPointInsideFilterArea, pauseForManualFilterInteraction, queueManualResume]);
 
   useEffect(() => {
     filtersRef.current = filters;
@@ -1461,6 +1549,9 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
     if (pausedForUserMs > 0) {
       return scheduleDemoTick(pausedForUserMs);
     }
+    if (isUserEngaged()) {
+      return scheduleDemoTick(FILTER_DEMO_CURSOR_IDLE_RETRY_MS);
+    }
     const container = containerRef.current;
     if (!container) {
       return scheduleDemoTick(FILTER_DEMO_CURSOR_IDLE_RETRY_MS);
@@ -1474,8 +1565,17 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
     let protectedScrollY = window.scrollY;
     const timers: number[] = [];
     const rafs = new Set<number>();
+    const hoverEls = new Set<HTMLElement>();
     let demoInterrupted = false;
     let userScrolled = false;
+    const setDemoHover = (el: HTMLElement) => {
+      el.setAttribute("data-filter-demo-hover", "");
+      hoverEls.add(el);
+    };
+    const clearDemoHover = (el: HTMLElement) => {
+      el.removeAttribute("data-filter-demo-hover");
+      hoverEls.delete(el);
+    };
     const captureProtectedScroll = () => {
       protectedScrollX = window.scrollX;
       protectedScrollY = window.scrollY;
@@ -1500,25 +1600,36 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
     };
     const markUserScroll = () => {
       if (!isVisibleInViewport(container)) return;
+      if (demoInterrupted) return;
       demoInterrupted = true;
       userScrolled = true;
+      queueDemoRetry();
+    };
+    const onNativeScroll = () => {
+      // Scrollbar drags / middle-click autoscroll / find-in-page fire only 'scroll',
+      // not wheel/touch/key. Ignore the demo's own restoreScroll writes via the guard.
+      if (Date.now() < demoScrollGuardUntilRef.current) return;
+      markUserScroll();
     };
     const userScrollOptions = { passive: true, capture: true };
     window.addEventListener("wheel", markUserScroll, userScrollOptions);
     window.addEventListener("touchstart", markUserScroll, userScrollOptions);
     window.addEventListener("touchmove", markUserScroll, userScrollOptions);
     window.addEventListener("keydown", markUserScroll, { capture: true });
+    window.addEventListener("scroll", onNativeScroll, userScrollOptions);
     window.addEventListener(HOME_DEMO_USER_SCROLL_EVENT, markUserScroll);
     const stopWatchingScroll = () => {
       window.removeEventListener("wheel", markUserScroll, { capture: true });
       window.removeEventListener("touchstart", markUserScroll, { capture: true });
       window.removeEventListener("touchmove", markUserScroll, { capture: true });
       window.removeEventListener("keydown", markUserScroll, { capture: true });
+      window.removeEventListener("scroll", onNativeScroll, { capture: true });
       window.removeEventListener(HOME_DEMO_USER_SCROLL_EVENT, markUserScroll);
     };
     const canRunStep = (target = action.target) => (
       !demoInterrupted &&
       Date.now() >= userFilterPauseUntilRef.current &&
+      !isUserEngaged() &&
       target.isConnected &&
       isVisibleElement(target) &&
       (!isTargetInViewport(target) || isPointOnTarget(target))
@@ -1530,6 +1641,7 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
         Math.abs(window.scrollX - protectedScrollX) > 12 ||
         Math.abs(window.scrollY - protectedScrollY) > 12
       ) {
+        demoScrollGuardUntilRef.current = Date.now() + 250;
         window.scrollTo(protectedScrollX, protectedScrollY);
       }
     };
@@ -1557,11 +1669,12 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
       schedule(restoreScroll, 80);
       schedule(restoreScroll, 220);
     };
+    const cursorScale = Math.max(0.5, demoScale);
     const cursorForViewportPoint = (point: { x: number; y: number }) => {
       const currentContainerRect = container.getBoundingClientRect();
       return {
-        x: point.x - currentContainerRect.left - FILTER_DEMO_CURSOR_HOTSPOT_X,
-        y: point.y - currentContainerRect.top - FILTER_DEMO_CURSOR_HOTSPOT_Y,
+        x: point.x - currentContainerRect.left - FILTER_DEMO_CURSOR_HOTSPOT_X * cursorScale,
+        y: point.y - currentContainerRect.top - FILTER_DEMO_CURSOR_HOTSPOT_Y * cursorScale,
         visible: true,
       };
     };
@@ -1577,8 +1690,7 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
           durationMs: 0,
         };
         previous = startCursor;
-        cursorRef.current = startCursor;
-        setCursor(startCursor);
+        commitCursor(startCursor);
         entryDelay = 20;
       }
       const distance = Math.hypot(nextPoint.x - previous.x, nextPoint.y - previous.y);
@@ -1598,9 +1710,7 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
           : 0
       );
       if (durationMs <= 0 || distance <= 1) {
-        const nextCursor = { ...nextPoint, durationMs: 0 };
-        cursorRef.current = nextCursor;
-        setCursor(nextCursor);
+        commitCursor({ ...nextPoint, durationMs: 0 });
         return entryDelay;
       }
       const startedAt = performance.now() + entryDelay;
@@ -1633,20 +1743,16 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
         const easedProgress = getDemoCursorEase(progress, accelerationPower, decelerationPower);
         const pointOnCurve = getDemoCursorBezierPoint(previous, controlA, controlB, nextPoint, easedProgress);
         const jitter = Math.sin(progress * Math.PI * 2 * jitterFrequency) * Math.sin(Math.PI * progress) * jitterAmount;
-        const nextCursor = {
+        commitCursor({
           x: pointOnCurve.x + normalX * jitter,
           y: pointOnCurve.y + normalY * jitter,
           visible: true,
           durationMs: 0,
-        };
-        cursorRef.current = nextCursor;
-        setCursor(nextCursor);
+        });
         if (progress < 1) {
           raf(step);
         } else {
-          const finalCursor = { ...nextPoint, durationMs: 0 };
-          cursorRef.current = finalCursor;
-          setCursor(finalCursor);
+          commitCursor({ ...nextPoint, durationMs: 0 });
         }
       };
       raf(step);
@@ -1664,16 +1770,19 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
     const clickDemoTarget = (target: HTMLElement, afterClick?: () => void) => {
       if (!canRunStep(target)) return false;
       setCursorToPoint(viewportPointForElement(target), 0);
+      setDemoHover(target);
       setClickKey((key) => key + 1);
       if (target.hasAttribute("data-filter-demo-option")) {
         target.classList.add("filter-demo-option-press");
         schedule(() => {
           if (!canRunStep(target)) {
+            clearDemoHover(target);
             queueDemoRetry();
             return;
           }
           captureProtectedScroll();
           activateScriptedElement(target);
+          clearDemoHover(target);
           afterClick?.();
         }, FILTER_DEMO_OPTION_PRESS_MS);
         schedule(() => target.classList.remove("filter-demo-option-press"), FILTER_DEMO_OPTION_PRESS_MS + 140);
@@ -1681,6 +1790,7 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
       }
       captureProtectedScroll();
       activateScriptedElement(target);
+      schedule(() => clearDemoHover(target), 180);
       afterClick?.();
       return true;
     };
@@ -1691,6 +1801,7 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
       rangeBase: [number, number],
       setRange: (range: [number, number]) => void,
       duration = 560,
+      onFrame?: (easedProgress: number) => void,
     ) => {
       captureProtectedScroll();
       const startedAt = performance.now();
@@ -1698,7 +1809,11 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
       const step = (now: number) => {
         if (demoInterrupted || Date.now() < userFilterPauseUntilRef.current) return;
         const progress = duration <= 0 ? 1 : Math.min(1, Math.max(0, (now - startedAt) / duration));
-        const nextValue = roundDemoTimeStep(startValue + (endValue - startValue) * getDemoCursorEase(progress));
+        const eased = getDemoCursorEase(progress);
+        // Drive the ghost cursor from the same eased progress that moves the value, so it
+        // stays glued to the thumb (the thumb trails by at most half a rounding step).
+        onFrame?.(eased);
+        const nextValue = roundDemoTimeStep(startValue + (endValue - startValue) * eased);
         if (nextValue !== lastValue) {
           lastValue = nextValue;
           const nextRange: [number, number] = [rangeBase[0], rangeBase[1]];
@@ -1731,7 +1846,8 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
         const handleIndex = changedHandles[handlePosition];
         const startValue = currentRange[handleIndex];
         const endValue = to[handleIndex];
-        const moveDuration = setCursorToPoint(getDemoTimePoint(action.target, startValue));
+        const startPoint = getDemoTimePoint(action.target, startValue);
+        const moveDuration = setCursorToPoint(startPoint);
         schedule(() => {
           if (!canRunStep(action.target)) {
             queueDemoRetry();
@@ -1739,9 +1855,25 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
           }
           setClickKey((key) => key + 1);
           const animationBase: [number, number] = [currentRange[0], currentRange[1]];
-          const dragDuration = setCursorToPoint(getDemoTimePoint(action.target, endValue));
+          const endPoint = getDemoTimePoint(action.target, endValue);
+          const cursorStart = cursorForViewportPoint(startPoint);
+          const cursorEnd = cursorForViewportPoint(endPoint);
+          const dragDuration = Math.round(Math.min(
+            FILTER_DEMO_CURSOR_MAX_DURATION_MS,
+            Math.max(
+              FILTER_DEMO_CURSOR_MIN_DURATION_MS,
+              getDemoCursorDuration(Math.hypot(endPoint.x - startPoint.x, endPoint.y - startPoint.y)),
+            ),
+          ));
           captureProtectedScroll();
-          animateRangeValue(handleIndex, startValue, endValue, animationBase, setRange, dragDuration);
+          animateRangeValue(handleIndex, startValue, endValue, animationBase, setRange, dragDuration, (eased) => {
+            commitCursor({
+              x: cursorStart.x + (cursorEnd.x - cursorStart.x) * eased,
+              y: cursorStart.y + (cursorEnd.y - cursorStart.y) * eased,
+              visible: true,
+              durationMs: 0,
+            });
+          });
           schedule(() => {
             if (!canRunStep(action.target)) {
               queueDemoRetry();
@@ -1878,8 +2010,9 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
       stopWatchingScroll();
       timers.forEach((timer) => window.clearTimeout(timer));
       rafs.forEach((frame) => window.cancelAnimationFrame(frame));
+      hoverEls.forEach((el) => el.removeAttribute("data-filter-demo-hover"));
     };
-  }, [activateScriptedElement, applyDemoOptionKey, demoLoaded, demoShouldRun, demoTick, manualInteractionVersion, resolveDemoAction]);
+  }, [activateScriptedElement, applyDemoOptionKey, commitCursor, demoLoaded, demoScale, demoShouldRun, demoTick, isUserEngaged, manualInteractionVersion, resolveDemoAction]);
 
   const activePreviewHeight = demoScale < 0.65 ? 840 : FILTER_DEMO_PREVIEW_HEIGHT;
   const visibleWidth = FILTER_DEMO_PREVIEW_WIDTH * demoScale;
@@ -1915,17 +2048,24 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
               <EmbeddedBankIndexPreview
                 homeFilterDemo
                 homeFilterDemoFilters={filters}
+                homeFilterDemoCloseSignal={demoCloseSignal}
                 onHomeFilterDemoFiltersChange={applyDemoFilters}
                 onHomeFilterDemoReady={handleBankDemoReady}
                 onHomeFilterDemoControlOpenChange={pauseForHomeFilterMenuChange}
               />
             </Suspense>
           </div>
-          {!demoLoaded && (
+          {!skeletonGone && (
             <HomePreviewSkeleton
               isDarkMode={isDarkMode}
               variant="filters"
-              style={{ position: "absolute", inset: 0, zIndex: 1 }}
+              style={{
+                position: "absolute",
+                inset: 0,
+                zIndex: 1,
+                opacity: demoLoaded ? 0 : 1,
+                transition: "opacity 220ms ease",
+              }}
             />
           )}
         </>
@@ -1933,11 +2073,10 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
         <HomePreviewSkeleton isDarkMode={isDarkMode} variant="filters" />
       )}
       <DemoCursor
-        x={cursor.x}
-        y={cursor.y}
-        visible={cursor.visible}
-        durationMs={cursor.durationMs}
+        ref={cursorElRef}
+        visible={cursorVisible}
         clickKey={clickKey}
+        scale={Math.max(0.5, demoScale)}
       />
     </div>
   );
@@ -2612,6 +2751,40 @@ const Home = () => {
     return () => window.clearTimeout(id);
   }, []);
 
+  // Warm the hero demo's lazy chunks (Question + its static deps: questionBank,
+  // mathRendering) and prime its data caches during idle time after first paint,
+  // so the embed renders from cache within the ready-gate window and reveals
+  // instantly. questionBank is imported dynamically (never statically) to keep
+  // its multi-MB chunk out of the Home chunk's critical path.
+  useEffect(() => {
+    let cancelled = false;
+    const warm = () => {
+      if (cancelled) return;
+      void loadEmbeddedQuestionPreview().catch(() => {});
+      void import("@/data/questionBank")
+        .then((mod) => {
+          if (!cancelled) mod.prefetchHeroPreviewQuestion();
+        })
+        .catch(() => {});
+    };
+    const win = window as typeof window & {
+      requestIdleCallback?: (cb: () => void, opts?: { timeout: number }) => number;
+      cancelIdleCallback?: (handle: number) => void;
+    };
+    let idleId: number | null = null;
+    let timeoutId: number | null = null;
+    if (typeof win.requestIdleCallback === "function") {
+      idleId = win.requestIdleCallback(warm, { timeout: 800 });
+    } else {
+      timeoutId = window.setTimeout(warm, 300);
+    }
+    return () => {
+      cancelled = true;
+      if (idleId !== null && typeof win.cancelIdleCallback === "function") win.cancelIdleCallback(idleId);
+      if (timeoutId !== null) window.clearTimeout(timeoutId);
+    };
+  }, []);
+
   const demoTitleRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -2781,7 +2954,7 @@ const Home = () => {
           className="home-hero"
           style={{
             position: "relative",
-            maxWidth: 860,
+            maxWidth: 1032,
             margin: "0 auto",
             padding: "76px 24px 0",
             textAlign: "center",
@@ -2793,7 +2966,7 @@ const Home = () => {
             style={{
               fontFamily: "'Geist', system-ui, sans-serif",
               fontWeight: 500,
-              fontSize: "clamp(44px, 6.8vw, 96px)",
+              fontSize: "clamp(48px, 7vw, 108px)",
               lineHeight: 0.98,
               color: "rgb(var(--ink))",
               margin: "0 0 26px",
@@ -2819,9 +2992,9 @@ const Home = () => {
             data-curve-cutout
             style={{
               fontFamily: "'Geist', system-ui, sans-serif",
-              fontSize: 19,
+              fontSize: 20,
               color: "rgb(var(--ink-mid))",
-              maxWidth: 540,
+              maxWidth: 648,
               margin: "0 auto 38px",
               lineHeight: 1.55,
               fontWeight: 300,
@@ -2856,7 +3029,7 @@ const Home = () => {
                 background: "rgb(var(--ds-accent))",
                 color: "rgb(var(--ink-fixed))",
                 fontWeight: 600,
-                fontSize: 15,
+                fontSize: 16,
                 border: "none",
                 cursor: "pointer",
                 fontFamily: "'Inter', sans-serif",
@@ -2920,7 +3093,7 @@ const Home = () => {
                   ? "rgba(255,255,255,0.88)"
                   : "rgb(var(--ink))",
                 fontWeight: 600,
-                fontSize: 15,
+                fontSize: 16,
                 border: isDarkMode
                   ? "1px solid rgba(255,255,255,0.11)"
                   : "1px solid rgba(14,33,56,0.10)",
@@ -2960,7 +3133,7 @@ const Home = () => {
             <div
               className="home-count-num"
               style={{
-              fontSize: "clamp(44px, 5.2vw, 72px)",
+              fontSize: "clamp(48px, 5.4vw, 80px)",
               fontFamily: "'Inter Tight', sans-serif",
               fontWeight: 600,
               color: "rgb(var(--ink))",
@@ -2992,7 +3165,7 @@ const Home = () => {
         <div
           className="h-fade-6 home-demo-wrap"
           style={{
-            maxWidth: 1200,
+            maxWidth: 1440,
             margin: "210px auto 0",
             padding: "0 24px",
             position: "relative",
@@ -3003,14 +3176,14 @@ const Home = () => {
             style={{
               textAlign: "center",
               margin: "0 auto 28px",
-              maxWidth: 720,
+              maxWidth: 864,
             }}
           >
             <h2
               className="home-demo-title"
               style={{
                 fontFamily: "'Geist', system-ui, sans-serif",
-                fontSize: "clamp(28px, 4.4vw, 52px)",
+                fontSize: "clamp(31px, 4.6vw, 62px)",
                 fontWeight: 500,
                 letterSpacing: "-0.035em",
                 lineHeight: 1.05,
@@ -3051,11 +3224,11 @@ const Home = () => {
         className="home-cta-final"
         style={{ padding: "0px 24px 96px", position: "relative" }}
       >
-        <div style={{ position: "relative", maxWidth: 960, margin: "0 auto", textAlign: "center" }}>
+        <div style={{ position: "relative", maxWidth: 1152, margin: "0 auto", textAlign: "center" }}>
           <h2
             style={{
               fontFamily: "'Geist', system-ui, sans-serif",
-              fontSize: "clamp(36px, 5vw, 60px)",
+              fontSize: "clamp(40px, 5.2vw, 72px)",
               fontWeight: 500,
               letterSpacing: "-0.035em",
               color: "rgb(var(--ink))",
@@ -3095,7 +3268,7 @@ const Home = () => {
               background: "hsl(201,100%,74%)",
               color: "hsl(210,50%,12%)",
               fontWeight: 600,
-              fontSize: 15,
+              fontSize: 16,
               border: "none",
               cursor: "pointer",
               fontFamily: "'Geist', sans-serif",

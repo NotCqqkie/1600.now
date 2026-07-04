@@ -443,10 +443,13 @@ export const TransparentAwareImage = ({
     : undefined;
   const renderedWidth = width ?? effectiveIntrinsicSize?.width;
   const renderedHeight = height ?? effectiveIntrinsicSize?.height;
+  const accessibleLabel = alt.trim();
 
   return (
     <span
       ref={wrapperRef}
+      role={accessibleLabel ? "img" : undefined}
+      aria-label={accessibleLabel || undefined}
       className={cn(
         "inline-flex max-w-full min-w-0 box-border justify-center",
         reservedSize && !isLoaded && "question-image-loading-placeholder",
@@ -458,7 +461,8 @@ export const TransparentAwareImage = ({
       <img
         ref={imgRef}
         src={resolvedSrc}
-        alt={alt}
+        alt=""
+        aria-hidden="true"
         className={cn(imageClassName, shouldReserveWhiteBackground && "rounded-lg")}
         loading={loading}
         decoding="async"

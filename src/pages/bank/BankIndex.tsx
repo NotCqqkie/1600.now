@@ -1,4 +1,4 @@
-import { startTransition, useDeferredValue, useState, useMemo, useCallback, useEffect, useRef, type Dispatch, type SetStateAction, type SyntheticEvent } from "react";
+import { memo, startTransition, useDeferredValue, useState, useMemo, useCallback, useEffect, useRef, type Dispatch, type SetStateAction, type SyntheticEvent } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import type { BankQuestion } from "@/data/questionBank";
 import { mathDomainSkills, englishDomainSkills, allMathDomains, allEnglishDomains } from "@/data/questionCategories";
@@ -315,7 +315,7 @@ type BankIndexProps = {
   onHomeFilterDemoControlOpenChange?: (control: string, open: boolean) => void;
 };
 
-export const BankIndex = ({
+const BankIndexComponent = ({
   homeFilterDemo = false,
   homeFilterDemoFilters,
   onHomeFilterDemoFiltersChange,
@@ -742,14 +742,24 @@ export const BankIndex = ({
   }, [questionPassesFilters]);
   const [questionCounts, setQuestionCounts] = useState(() => getDefaultQuestionCountTree(bankSource));
 
+  // Reset to the unfiltered tree only when the bank source changes — not on every filter
+  // change, which would flash the default counts before the filtered tree resolves.
+  useEffect(() => {
+    setQuestionCounts(getDefaultQuestionCountTree(bankSource));
+  }, [bankSource]);
+
   useEffect(() => {
     let cancelled = false;
-    setQuestionCounts(getDefaultQuestionCountTree(bankSource));
-    loadQuestionCountTree(bankSource, filters, getMetadataProgress).then((counts) => {
-      if (!cancelled) setQuestionCounts(counts);
-    });
+    // Debounce so a streaming change (e.g. the home demo's slider drag firing ~20 value
+    // steps) coalesces into one or two recomputes instead of one per step.
+    const timer = window.setTimeout(() => {
+      loadQuestionCountTree(bankSource, filters, getMetadataProgress).then((counts) => {
+        if (!cancelled) setQuestionCounts(counts);
+      });
+    }, 80);
     return () => {
       cancelled = true;
+      window.clearTimeout(timer);
     };
   }, [bankSource, filters, getMetadataProgress]);
   const toggleSubject = useCallback((subject: "math" | "reading", checked: boolean) => {
@@ -1594,6 +1604,20 @@ export const BankIndex = ({
             .home-filter-demo-bank * {
               letter-spacing: 0 !important;
             }
+            .home-filter-demo-bank .home-filter-demo-frame {
+              box-sizing: border-box;
+              overflow: visible;
+              padding: 0.65rem;
+              border: 1px solid rgba(14, 33, 56, 0.12);
+              border-radius: 16px;
+              background: rgba(255, 255, 255, 0.5);
+              box-shadow: 0 10px 30px rgba(14, 33, 56, 0.06);
+            }
+            .dark .home-filter-demo-bank .home-filter-demo-frame {
+              border-color: rgba(232, 240, 252, 0.14);
+              background: rgba(17, 29, 46, 0.42);
+              box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+            }
             .home-filter-demo-bank .home-demo-question-list [class*="tabular-nums"] {
               display: inline-block;
               min-width: 4.25ch;
@@ -1723,7 +1747,7 @@ export const BankIndex = ({
         </style>
       )}
       <section className={isHomeFilterDemo ? "mx-auto px-0 pt-0 pb-0" : "container mx-auto px-4 pt-8 pb-12"}>
-        <div className={isHomeFilterDemo ? "max-w-6xl mx-auto space-y-2" : "max-w-6xl mx-auto space-y-6"}>
+        <div className={isHomeFilterDemo ? "home-filter-demo-frame max-w-6xl mx-auto space-y-2" : "max-w-6xl mx-auto space-y-6"}>
           {!isHomeFilterDemo && (
             <div className="flex items-center gap-4">
               <div>
@@ -1834,5 +1858,8 @@ export const BankIndex = ({
     </div>
   );
 };
+
+export const BankIndex = memo(BankIndexComponent);
+BankIndex.displayName = "BankIndex";
 
 export default BankIndex;

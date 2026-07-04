@@ -120,7 +120,7 @@ const ScoreCalculator = () => {
 
   return (
     <div className="min-h-screen" style={{ fontFamily: "'Inter', sans-serif", backgroundColor: themeColors.pageBg }}>
-      <main style={{ maxWidth: 1100, margin: "0 auto", padding: isPhone ? "20px 12px 56px" : "32px 24px 80px" }}>
+      <main style={{ maxWidth: 1100, minHeight: "100svh", boxSizing: "border-box", margin: "0 auto", padding: isPhone ? "20px 12px 56px" : "32px 24px 80px" }}>
         <div style={{ display: "flex", flexDirection: isPhone ? "column" : "row", gap: isPhone ? 18 : 28, alignItems: "stretch" }}>
           <div style={{ flex: "1 1 0", display: "flex", flexDirection: "column", gap: isPhone ? 16 : 24, minWidth: 0 }}>
             <SubjectPanel
