@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title></title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+  <meta name='ocr-system' content='tesseract 5.5.1' />
+  <meta name='ocr-capabilities' content='ocr_page ocr_carea ocr_par ocr_line ocrx_word ocrp_dir ocrp_lang ocrp_wconf'/>
+ </head>
+ <body>
+  <div class='ocr_page' id='page_1' title='image "/Users/lukefinigan/Documents/1600now/q22.png"; bbox 0 0 2613 1763; ppageno 0; scan_res 600 600'>
+   <div class='ocr_separator' id='block_1_1' title="bbox 120 204 128 1390"></div>
+   <div class='ocr_separator' id='block_1_2' title="bbox 120 1381 2509 1390"></div>
+   <div class='ocr_carea' id='block_1_3' title="bbox 459 1620 2148 1749">
+    <p class='ocr_par' id='par_1_1' lang='eng' title="bbox 459 1620 2148 1749">
+     <span class='ocr_line' id='line_1_1' title="bbox 459 1620 2148 1749; baseline 0.001 -33; x_size 130; x_descenders 33; x_ascenders 35">
+      <span class='ocrx_word' id='word_1_1' title='bbox 459 1628 739 1717; x_wconf 96'>Note:</span>
+      <span class='ocrx_word' id='word_1_2' title='bbox 782 1628 1118 1749; x_wconf 96'>Figure</span>
+      <span class='ocrx_word' id='word_1_3' title='bbox 1155 1638 1330 1717; x_wconf 96'>not</span>
+      <span class='ocrx_word' id='word_1_4' title='bbox 1366 1620 1698 1717; x_wconf 96'>drawn</span>
+      <span class='ocrx_word' id='word_1_5' title='bbox 1733 1638 1834 1717; x_wconf 96'>to</span>
+      <span class='ocrx_word' id='word_1_6' title='bbox 1875 1620 2148 1717; x_wconf 95'>scale.</span>
+     </span>
+    </p>
+   </div>
+  </div>
+ </body>
+</html>
