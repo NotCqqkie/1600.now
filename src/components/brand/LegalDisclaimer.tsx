@@ -9,6 +9,8 @@ export const LegalDisclaimer = () => {
         SAT® is a trademark registered by the College Board, which is not affiliated with, and does not endorse, this product.
       </p>
       <div className="flex items-center gap-2 text-[9px] leading-tight text-muted-foreground/45">
+        <PreloadLink to="/about" className={linkClassName}>About</PreloadLink>
+        <span aria-hidden="true">·</span>
         <PreloadLink to="/privacy" className={linkClassName}>Privacy</PreloadLink>
         <span aria-hidden="true">·</span>
         <PreloadLink to="/terms" className={linkClassName}>Terms</PreloadLink>

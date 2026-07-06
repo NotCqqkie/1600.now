@@ -62,7 +62,8 @@ const SatSkillIndex = () => {
         </h1>
         <p className="mt-3 text-lg text-muted-foreground">
           A complete list of the skills the Digital SAT tests, grouped by
-          section and domain. Click a skill to open targeted practice.
+          section and domain. Click a skill to open its guide, or jump
+          straight to targeted practice.
         </p>
       </header>
 
@@ -85,11 +86,11 @@ const SatSkillIndex = () => {
           </h2>
           <ul className="mt-4 grid gap-3 md:grid-cols-2">
             {group.list.map((skill) => (
-              <li key={skill.slug}>
-                <Link
-                  to={skillPracticeHref(skill)}
-                  className="block rounded-xl border border-border p-4 transition hover:bg-muted"
-                >
+              <li
+                key={skill.slug}
+                className="rounded-xl border border-border p-4 transition hover:bg-muted"
+              >
+                <Link to={`/sat-skill/${skill.slug}`} className="block">
                   <div className="font-semibold">{skill.name}</div>
                   <div className="mt-1 text-xs uppercase tracking-wider text-muted-foreground">
                     {skill.domain}
@@ -97,6 +98,12 @@ const SatSkillIndex = () => {
                   <p className="mt-2 text-sm text-muted-foreground">
                     {skill.shortDescription}
                   </p>
+                </Link>
+                <Link
+                  to={skillPracticeHref(skill)}
+                  className="mt-3 inline-block text-sm font-semibold underline"
+                >
+                  Practice in bank
                 </Link>
               </li>
             ))}

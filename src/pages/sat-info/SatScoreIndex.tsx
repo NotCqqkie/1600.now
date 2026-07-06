@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 
 import { PageSeo, buildBreadcrumbJsonLd } from "@/components/seo/PageSeo";
+import { allSatScores } from "@/lib/seo-data/satScoreData";
 
 const TITLE = "SAT Score Breakdowns: Every 400–1600 SAT Score Explained";
 const DESCRIPTION =
@@ -19,6 +20,11 @@ const SCORE_BANDS = [
   ["1200-1290", "Above average", "Clean up Algebra, punctuation, and pacing errors first."],
   ["400-1190", "Building", "Start with fundamentals and review every miss before adding speed."],
 ] as const;
+
+const scoresInBand = (range: string) => {
+  const [min, max] = range.split("-").map(Number);
+  return allSatScores.filter((score) => score >= min && score <= max);
+};
 
 const SCORE_BAND_QUESTIONS = [
   [
@@ -113,6 +119,44 @@ const SatScoreIndex = () => {
             </tbody>
           </table>
         </div>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold tracking-tight">
+          Every SAT score explained
+        </h2>
+        <p className="mt-3 text-muted-foreground">
+          Open the breakdown for your exact score to see its percentile,
+          typical section split, target colleges, and study plan. Not sure
+          where to aim? Read{" "}
+          <Link className="underline" to="/good-sat-score">
+            what counts as a good SAT score
+          </Link>{" "}
+          or check{" "}
+          <Link className="underline" to="/average-sat-score">
+            the average SAT score
+          </Link>
+          .
+        </p>
+        {SCORE_BANDS.map(([range, tier]) => (
+          <div key={range} className="mt-6">
+            <h3 className="font-mono text-sm font-semibold">
+              {range} · {tier}
+            </h3>
+            <ul className="mt-3 flex flex-wrap gap-2">
+              {scoresInBand(range).map((score) => (
+                <li key={score}>
+                  <Link
+                    to={`/sat-score/${score}`}
+                    className="inline-flex rounded-md border border-border px-3 py-1.5 text-sm hover:bg-muted"
+                  >
+                    {score} SAT score
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
       </section>
 
       <section className="mt-10">

@@ -1,4 +1,4 @@
-import { memo, startTransition, useDeferredValue, useState, useMemo, useCallback, useEffect, useRef, type Dispatch, type SetStateAction, type SyntheticEvent } from "react";
+import { startTransition, useDeferredValue, useState, useMemo, useCallback, useEffect, useRef, type Dispatch, type SetStateAction, type SyntheticEvent } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import type { BankQuestion } from "@/data/questionBank";
 import { mathDomainSkills, englishDomainSkills, allMathDomains, allEnglishDomains } from "@/data/questionCategories";
@@ -273,12 +273,14 @@ const TopicCheckboxSlot = ({
 );
 
 const AnimatedCount = ({ value, className }: { value: number; className?: string }) => {
-  const [displayValue, setDisplayValue] = useState(value);
-  const displayValueRef = useRef(value);
+  // Question counts must never render negative, regardless of what the caller passes in.
+  const safeValue = Math.max(0, value);
+  const [displayValue, setDisplayValue] = useState(safeValue);
+  const displayValueRef = useRef(safeValue);
 
   useEffect(() => {
     const from = displayValueRef.current;
-    if (from === value) return;
+    if (from === safeValue) return;
 
     const start = performance.now();
     const duration = 420;
@@ -287,21 +289,21 @@ const AnimatedCount = ({ value, className }: { value: number; className?: string
     const tick = (now: number) => {
       const progress = Math.min(1, (now - start) / duration);
       const eased = 1 - Math.pow(1 - progress, 3);
-      const nextValue = Math.round(from + (value - from) * eased);
+      const nextValue = Math.max(0, Math.round(from + (safeValue - from) * eased));
       displayValueRef.current = nextValue;
       setDisplayValue(nextValue);
 
       if (progress < 1) {
         frame = requestAnimationFrame(tick);
       } else {
-        displayValueRef.current = value;
-        setDisplayValue(value);
+        displayValueRef.current = safeValue;
+        setDisplayValue(safeValue);
       }
     };
 
     frame = requestAnimationFrame(tick);
     return () => cancelAnimationFrame(frame);
-  }, [value]);
+  }, [safeValue]);
 
   return <span className={className}>{displayValue.toLocaleString()}</span>;
 };
@@ -315,7 +317,7 @@ type BankIndexProps = {
   onHomeFilterDemoControlOpenChange?: (control: string, open: boolean) => void;
 };
 
-const BankIndexComponent = ({
+export const BankIndex = ({
   homeFilterDemo = false,
   homeFilterDemoFilters,
   onHomeFilterDemoFiltersChange,
@@ -742,24 +744,14 @@ const BankIndexComponent = ({
   }, [questionPassesFilters]);
   const [questionCounts, setQuestionCounts] = useState(() => getDefaultQuestionCountTree(bankSource));
 
-  // Reset to the unfiltered tree only when the bank source changes — not on every filter
-  // change, which would flash the default counts before the filtered tree resolves.
-  useEffect(() => {
-    setQuestionCounts(getDefaultQuestionCountTree(bankSource));
-  }, [bankSource]);
-
   useEffect(() => {
     let cancelled = false;
-    // Debounce so a streaming change (e.g. the home demo's slider drag firing ~20 value
-    // steps) coalesces into one or two recomputes instead of one per step.
-    const timer = window.setTimeout(() => {
-      loadQuestionCountTree(bankSource, filters, getMetadataProgress).then((counts) => {
-        if (!cancelled) setQuestionCounts(counts);
-      });
-    }, 80);
+    setQuestionCounts(getDefaultQuestionCountTree(bankSource));
+    loadQuestionCountTree(bankSource, filters, getMetadataProgress).then((counts) => {
+      if (!cancelled) setQuestionCounts(counts);
+    });
     return () => {
       cancelled = true;
-      window.clearTimeout(timer);
     };
   }, [bankSource, filters, getMetadataProgress]);
   const toggleSubject = useCallback((subject: "math" | "reading", checked: boolean) => {
@@ -1313,13 +1305,13 @@ const BankIndexComponent = ({
             const domainLabel = getTopicDisplayLabel("math", domain);
             return (
               <div key={domain} className={isHomeFilterDemo ? "px-0 py-0" : "px-1 py-1"}>
-                <div className={isHomeFilterDemo ? "group/domain-row flex items-start gap-1.5 rounded px-1.5 py-1.5 transition-colors hover:bg-muted" : "flex items-center gap-2 group/domain-row px-2 py-1.5 -mx-2 rounded hover:bg-muted transition-colors"} data-home-demo-domain-row={isHomeFilterDemo ? "true" : undefined}>
+                <div className={isHomeFilterDemo ? "group/domain-row flex items-center gap-1.5 rounded px-1.5 py-1.5 transition-colors hover:bg-muted" : "flex items-center gap-2 group/domain-row px-2 py-1.5 -mx-2 rounded hover:bg-muted transition-colors"} data-home-demo-domain-row={isHomeFilterDemo ? "true" : undefined}>
                   <TopicCheckboxSlot
                     visible={isMultiSelect}
                     checked={topicSelection.math.domains[domain]?.selected || false}
                     onCheckedChange={(checked) => toggleDomain("math", domain, checked)}
                   />
-                  <div className={isHomeFilterDemo ? "flex min-w-0 flex-1 items-start justify-between gap-1" : "flex items-center justify-between flex-1"}>
+                  <div className={isHomeFilterDemo ? "flex min-w-0 flex-1 items-center justify-between gap-1" : "flex items-center justify-between flex-1"}>
                     <span
                       className={isHomeFilterDemo ? "min-w-0 flex-1 cursor-pointer break-words py-1 font-display text-[12px] font-semibold leading-[1.18] text-ink" : "font-display text-[17px] font-semibold leading-[1.3] tracking-[-0.01em] text-ink flex-1 py-1 cursor-pointer"}
                       title={domainLabel === domain ? undefined : domain}
@@ -1371,7 +1363,7 @@ const BankIndexComponent = ({
                       return (
                         <div
                           key={skill}
-                          className={isHomeFilterDemo ? "group/skill flex min-h-[24px] cursor-pointer items-start gap-2 rounded px-1.5 py-[3px] hover:bg-muted" : "flex items-center gap-2 py-1.5 px-2 text-sm hover:bg-muted rounded group/skill cursor-pointer"}
+                          className={isHomeFilterDemo ? "group/skill flex min-h-[24px] cursor-pointer items-center gap-2 rounded px-1.5 py-[3px] hover:bg-muted" : "flex items-center gap-2 py-1.5 px-2 text-sm hover:bg-muted rounded group/skill cursor-pointer"}
                           onClick={() => {
                             if (isMultiSelect) {
                               toggleSkill("math", domain, skill, !topicSelection.math.domains[domain]?.skills[skill]);
@@ -1474,13 +1466,13 @@ const BankIndexComponent = ({
         <div className={isHomeFilterDemo ? "space-y-1.5" : "space-y-3"} data-home-demo-topic-list={isHomeFilterDemo ? "true" : undefined}>
           {readingDomainsForDisplay.map((domain) => (
             <div key={domain} className={isHomeFilterDemo ? "px-0 py-0" : "px-1 py-1"}>
-              <div className={isHomeFilterDemo ? "group/domain-row flex items-start gap-1.5 rounded px-1.5 py-1.5 transition-colors hover:bg-muted" : "flex items-center gap-2 group/domain-row px-2 py-1.5 -mx-2 rounded hover:bg-muted transition-colors"} data-home-demo-domain-row={isHomeFilterDemo ? "true" : undefined}>
+              <div className={isHomeFilterDemo ? "group/domain-row flex items-center gap-1.5 rounded px-1.5 py-1.5 transition-colors hover:bg-muted" : "flex items-center gap-2 group/domain-row px-2 py-1.5 -mx-2 rounded hover:bg-muted transition-colors"} data-home-demo-domain-row={isHomeFilterDemo ? "true" : undefined}>
                 <TopicCheckboxSlot
                   visible={isMultiSelect}
                   checked={topicSelection.reading.domains[domain]?.selected || false}
                   onCheckedChange={(checked) => toggleDomain("reading", domain, checked)}
                 />
-                <div className={isHomeFilterDemo ? "flex min-w-0 flex-1 items-start justify-between gap-1" : "flex items-center justify-between flex-1"}>
+                <div className={isHomeFilterDemo ? "flex min-w-0 flex-1 items-center justify-between gap-1" : "flex items-center justify-between flex-1"}>
                   <span
                     className={isHomeFilterDemo ? "min-w-0 flex-1 cursor-pointer break-words py-1 font-display text-[12px] font-semibold leading-[1.18] text-ink" : "font-display text-[17px] font-semibold leading-[1.3] tracking-[-0.01em] text-ink flex-1 py-1 cursor-pointer"}
                     onClick={() => {
@@ -1529,7 +1521,7 @@ const BankIndexComponent = ({
                   {getSkillsForDisplay("reading", domain).map((skill) => (
                     <div
                       key={skill}
-                      className={isHomeFilterDemo ? "group/skill flex min-h-[24px] cursor-pointer items-start gap-2 rounded px-1.5 py-[3px] hover:bg-muted" : "flex items-center gap-2 py-1.5 px-2 text-sm hover:bg-muted rounded group/skill cursor-pointer"}
+                      className={isHomeFilterDemo ? "group/skill flex min-h-[24px] cursor-pointer items-center gap-2 rounded px-1.5 py-[3px] hover:bg-muted" : "flex items-center gap-2 py-1.5 px-2 text-sm hover:bg-muted rounded group/skill cursor-pointer"}
                       onClick={() => {
                         if (isMultiSelect) {
                           toggleSkill("reading", domain, skill, !topicSelection.reading.domains[domain]?.skills[skill]);
@@ -1858,8 +1850,5 @@ const BankIndexComponent = ({
     </div>
   );
 };
-
-export const BankIndex = memo(BankIndexComponent);
-BankIndex.displayName = "BankIndex";
 
 export default BankIndex;

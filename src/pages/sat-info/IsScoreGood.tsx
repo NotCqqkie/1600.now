@@ -1,6 +1,7 @@
-import { Link, useLocation, Navigate } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { PageSeo, buildFaqJsonLd, buildBreadcrumbJsonLd } from "@/components/seo/PageSeo";
 import { getScoreProfile } from "@/lib/seo-data/satScoreData";
+import NotFound from "@/pages/NotFound";
 
 const MIN_VALID_SCORE = 400;
 const MAX_VALID_SCORE = 1600;
@@ -15,6 +16,19 @@ const VALID_SCORES = Array.from(
   { length: (MAX_VALID_SCORE - MIN_VALID_SCORE) / SCORE_INCREMENT + 1 },
   (_, index) => MIN_VALID_SCORE + index * SCORE_INCREMENT,
 );
+
+const COLLEGE_SLUG_BY_EXAMPLE: Record<string, string> = {
+  "Harvard University": "harvard-university",
+  Caltech: "california-institute-of-technology",
+  "Johns Hopkins": "johns-hopkins-university",
+  "Boston University": "boston-university",
+  "UT Austin": "the-university-of-texas-at-austin",
+  "Georgia Tech": "georgia-institute-of-technology-main-campus",
+  "Penn State": "pennsylvania-state-university-main-campus",
+  "University of Arizona": "university-of-arizona",
+  "University of Oregon": "university-of-oregon",
+  "University of Kentucky": "university-of-kentucky",
+};
 
 const verdictFor = (score: number, percentile: number) => {
   if (score >= 1500) return `Yes — a ${score} is an exceptional SAT score. At the ${percentile}th percentile, it places you in the top 2% of all SAT test takers and makes you a strong candidate at every university in the country.`;
@@ -31,7 +45,7 @@ const IsScoreGood = () => {
   const match = location.pathname.match(SCORE_ROUTE_REGEX);
   const score = match ? parseInt(match[1], 10) : NaN;
 
-  if (!VALID_SCORES.includes(score)) return <Navigate to="/score-calculator" replace />;
+  if (!VALID_SCORES.includes(score)) return <NotFound />;
 
   const profile = getScoreProfile(score);
   const verdict = verdictFor(score, profile.percentile);
@@ -92,7 +106,7 @@ const IsScoreGood = () => {
       />
 
       <nav className="text-sm text-muted-foreground">
-        <Link to="/score-calculator" className="hover:underline">SAT Score Calculator</Link>
+        <Link to="/sat-score" className="hover:underline">SAT Score Breakdowns</Link>
         <span className="mx-2">/</span>
         <span>Is a {score} a good SAT score?</span>
       </nav>
@@ -101,6 +115,11 @@ const IsScoreGood = () => {
         Is a {score} a Good SAT Score?
       </h1>
       <p className="mt-4 text-lg text-foreground/90">{verdict}</p>
+      <p className="mt-3 text-sm">
+        <Link to={`/sat-score/${score}`} className="text-foreground/80 hover:underline">
+          See the full {score} SAT score breakdown →
+        </Link>
+      </p>
 
       <div className="mt-8 grid gap-4 sm:grid-cols-3">
         {stats.map((stat) => (
@@ -119,9 +138,21 @@ const IsScoreGood = () => {
       <section className="mt-10">
         <h2 className="text-2xl font-semibold">Colleges where {score} is competitive</h2>
         <ul className="mt-3 grid gap-2 text-sm text-foreground/90 sm:grid-cols-2">
-          {profile.collegeExamples.map((college) => (
-            <li key={college} className="rounded-md border border-border bg-card px-3 py-2">{college}</li>
-          ))}
+          {profile.collegeExamples.map((college) => {
+            const collegeSlug = COLLEGE_SLUG_BY_EXAMPLE[college];
+            return collegeSlug ? (
+              <li key={college}>
+                <Link
+                  to={`/college/${collegeSlug}`}
+                  className="block rounded-md border border-border bg-card px-3 py-2 hover:underline"
+                >
+                  {college}
+                </Link>
+              </li>
+            ) : (
+              <li key={college} className="rounded-md border border-border bg-card px-3 py-2">{college}</li>
+            );
+          })}
         </ul>
         <p className="mt-3 text-sm text-muted-foreground">
           Always check each school's published middle-50% SAT range before finalizing your college list.
@@ -155,14 +186,20 @@ const IsScoreGood = () => {
 
       <section className="mt-10 flex justify-between text-sm">
         {hasLowerScore && (
-          <Link to="/score-calculator" className="text-foreground/80 hover:underline">
-            Model a lower score split
+          <Link
+            to={`/is-a-${score - SCORE_INCREMENT}-a-good-sat-score`}
+            className="text-foreground/80 hover:underline"
+          >
+            ← Is a {score - SCORE_INCREMENT} a good SAT score?
           </Link>
         )}
         <span />
         {hasHigherScore && (
-          <Link to="/bank" className="ml-auto text-foreground/80 hover:underline">
-            Drill for a higher score →
+          <Link
+            to={`/is-a-${score + SCORE_INCREMENT}-a-good-sat-score`}
+            className="ml-auto text-foreground/80 hover:underline"
+          >
+            Is a {score + SCORE_INCREMENT} a good SAT score? →
           </Link>
         )}
       </section>

@@ -9,6 +9,7 @@ import {
 import {
   countryHubByCode,
   countryPageBySlug,
+  countryPages,
 } from "@/lib/seo-data/countryHubData";
 import {
   CountryActionLink,
@@ -54,6 +55,12 @@ const CountryTopicPage = () => {
   const url = `https://1600.now/${page.slug}`;
   const hubUrl = `https://1600.now/${hub.hubSlug}`;
 
+  const countryTopics = countryPages.filter((topic) => topic.country === page.country);
+  const topicIndex = countryTopics.findIndex((topic) => topic.slug === page.slug);
+  const siblingPages = [1, 2, 3]
+    .map((offset) => countryTopics[(topicIndex + offset) % countryTopics.length])
+    .filter((sibling) => sibling.slug !== page.slug);
+
   return (
     <div className={countryPageClasses.page}>
       <PageSeo
@@ -62,10 +69,6 @@ const CountryTopicPage = () => {
         description={page.metaDescription}
         canonical={url}
         type="article"
-        alternates={[
-          { hreflang: page.language, href: url },
-          { hreflang: "x-default", href: "https://1600.now/" },
-        ]}
         jsonLd={[
           buildBreadcrumbJsonLd([
             { name: "Home", url: "https://1600.now/" },
@@ -132,6 +135,31 @@ const CountryTopicPage = () => {
       </section>
 
       <CountryFaqSection faqs={page.faqs} />
+
+      <section className={countryPageClasses.section}>
+        <h2 className={countryPageClasses.sectionTitle}>
+          More SAT guides for {hub.name} students
+        </h2>
+        <ul className="mt-4 space-y-3">
+          {siblingPages.map((sibling) => (
+            <li key={sibling.slug} className={countryPageClasses.topicCard}>
+              <Link to={`/${sibling.slug}`} className={countryPageClasses.topicLink}>
+                {sibling.headline}
+              </Link>
+              <p className={countryPageClasses.topicDescription}>
+                {sibling.metaDescription}
+              </p>
+            </li>
+          ))}
+        </ul>
+        <p className={countryPageClasses.paragraph}>
+          Browse every guide on the{" "}
+          <Link className="underline" to={`/${hub.hubSlug}`}>
+            Digital SAT in {hub.name}
+          </Link>{" "}
+          hub.
+        </p>
+      </section>
 
       <section className={countryPageClasses.card}>
         <h2 className="text-xl font-semibold tracking-tight">

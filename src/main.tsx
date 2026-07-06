@@ -9,6 +9,7 @@ import {
   recoverFromChunkLoadError,
 } from "./lib/chunkLoadRecovery";
 import { reportError } from "./lib/reportError";
+import { preloadPathname } from "./lib/routePreload";
 
 window.addEventListener("unhandledrejection", (event) => {
   if (isChunkLoadError(event.reason)) {
@@ -28,8 +29,14 @@ window.addEventListener("error", (event) => {
 
 window.addEventListener("load", clearChunkRecoveryFlag);
 
-createRoot(document.getElementById("root")!).render(
-  <ErrorBoundary>
-    <App />
-  </ErrorBoundary>
-);
+const renderApp = () =>
+  createRoot(document.getElementById("root")!).render(
+    <ErrorBoundary>
+      <App />
+    </ErrorBoundary>
+  );
+
+void Promise.race([
+  preloadPathname(window.location.pathname).catch(() => undefined),
+  new Promise((resolve) => setTimeout(resolve, 1500)),
+]).then(renderApp);

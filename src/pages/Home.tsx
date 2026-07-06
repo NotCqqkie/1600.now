@@ -1,4 +1,4 @@
-import { Suspense, forwardRef, lazy, memo, useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState, type CSSProperties } from "react";
+import { Suspense, lazy, memo, useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState, type CSSProperties } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "@/contexts/AuthContext";
 import { isChunkLoadError, recoverFromChunkLoadError } from "@/lib/chunkLoadRecovery";
@@ -972,16 +972,16 @@ const FILTER_DEMO_MAX_SCALE = 1;
 const FILTER_DEMO_CURSOR_MIN_DURATION_MS = 420;
 const FILTER_DEMO_CURSOR_MAX_DURATION_MS = 2400;
 const FILTER_DEMO_CURSOR_SPEED_PX_PER_MS = 0.127;
-const FILTER_DEMO_CURSOR_CLICK_PAUSE_MS = 120;
-const FILTER_DEMO_CURSOR_MENU_PAUSE_MS = 200;
+const FILTER_DEMO_CURSOR_CLICK_PAUSE_MS = 32;
+const FILTER_DEMO_CURSOR_MENU_PAUSE_MS = 0;
 const FILTER_DEMO_CURSOR_NEXT_STEP_PAUSE_MS = 360;
 const FILTER_DEMO_CURSOR_IDLE_RETRY_MS = 180;
 const FILTER_DEMO_CURSOR_CLOSE_MENU_DURATION_MS = 220;
 const FILTER_DEMO_MENU_AUTO_CLOSE_CHECK_MS = 90;
 const FILTER_DEMO_OPTION_PRESS_MS = 140;
-const FILTER_DEMO_USER_INTERACTION_PAUSE_MS = 2500;
-const FILTER_DEMO_MANUAL_CLOSE_PAUSE_MS = 2500;
-const FILTER_DEMO_CURSOR_SIZE = 34;
+const FILTER_DEMO_USER_INTERACTION_PAUSE_MS = 900;
+const FILTER_DEMO_MANUAL_CLOSE_PAUSE_MS = 1800;
+const FILTER_DEMO_CURSOR_SIZE = 40;
 const FILTER_DEMO_CURSOR_HOTSPOT_X = (48 / 128) * FILTER_DEMO_CURSOR_SIZE;
 const FILTER_DEMO_CURSOR_HOTSPOT_Y = (40 / 128) * FILTER_DEMO_CURSOR_SIZE;
 
@@ -1065,9 +1065,6 @@ const activateDemoElement = (element: HTMLElement) => {
 const clampDemoTimeValue = (value: number) =>
   Math.min(MAX_TIME_SPENT_FILTER_SECONDS, Math.max(0, value));
 
-const roundDemoTimeStep = (value: number) =>
-  Math.round(clampDemoTimeValue(value) / 5) * 5;
-
 const getDemoCursorDuration = (distance: number) => (
   Math.round(Math.min(
     FILTER_DEMO_CURSOR_MAX_DURATION_MS,
@@ -1104,63 +1101,57 @@ const getDemoCursorBezierPoint = (
   };
 };
 
-const DemoCursor = memo(forwardRef<HTMLDivElement, { visible: boolean; clickKey: number; scale?: number }>(
-  ({ visible, clickKey, scale = 1 }, ref) => {
-    const size = FILTER_DEMO_CURSOR_SIZE * scale;
-    const hotspotX = FILTER_DEMO_CURSOR_HOTSPOT_X * scale;
-    const hotspotY = FILTER_DEMO_CURSOR_HOTSPOT_Y * scale;
-    const ringSize = 14 * scale;
-    return (
-      <div
-        ref={ref}
-        data-filter-demo-cursor
-        data-filter-demo-cursor-visible={visible ? "true" : "false"}
-        style={{
-          position: "absolute",
-          left: 0,
-          top: 0,
-          pointerEvents: "none",
-          zIndex: 45,
-          willChange: "transform",
-        }}
-      >
-        <span
-          key={clickKey}
-          className="filter-demo-click-ring"
-          style={{
-            position: "absolute",
-            left: hotspotX - ringSize / 2,
-            top: hotspotY - ringSize / 2,
-            width: ringSize,
-            height: ringSize,
-            borderRadius: "50%",
-            border: "1.5px solid rgba(14,165,233,0.65)",
-            background: "rgba(14,165,233,0.12)",
-            boxShadow: "0 0 0 1px rgba(255,255,255,0.55)",
-            pointerEvents: "none",
-            animation: "demoClickPulse 260ms ease-out forwards",
-          }}
-        />
-        <img
-          src="/assets/cursors/macos-pointer.png"
-          alt=""
-          aria-hidden="true"
-          draggable={false}
-          style={{
-            position: "absolute",
-            left: 0,
-            top: 0,
-            width: size,
-            minWidth: size,
-            maxWidth: "none",
-            height: size,
-            filter: "drop-shadow(0 2px 3px rgba(15,23,42,0.32))",
-            userSelect: "none",
-          }}
-        />
-      </div>
-    );
-  },
+const DemoCursor = memo(({ x, y, visible, clickKey }: DemoCursorState & { clickKey: number }) => (
+  <div
+    data-filter-demo-cursor
+    data-filter-demo-cursor-visible={visible ? "true" : "false"}
+    style={{
+      position: "absolute",
+      left: 0,
+      top: 0,
+      transform: `translate(${x}px, ${y}px)`,
+      transition: "opacity 180ms ease",
+      opacity: visible ? 1 : 0,
+      pointerEvents: "none",
+      zIndex: 45,
+      willChange: "transform",
+    }}
+  >
+    <span
+      key={clickKey}
+      className="filter-demo-click-ring"
+      style={{
+        position: "absolute",
+        left: FILTER_DEMO_CURSOR_HOTSPOT_X - 7,
+        top: FILTER_DEMO_CURSOR_HOTSPOT_Y - 7,
+        width: 14,
+        height: 14,
+        borderRadius: "50%",
+        border: "1.5px solid rgba(14,165,233,0.65)",
+        background: "rgba(14,165,233,0.12)",
+        boxShadow: "0 0 0 1px rgba(255,255,255,0.55)",
+        pointerEvents: "none",
+        animation: "demoClickPulse 260ms ease-out forwards",
+      }}
+    />
+    <img
+      src="/assets/cursors/macos-pointer.png"
+      alt=""
+      aria-hidden="true"
+      draggable={false}
+      style={{
+        position: "absolute",
+        left: 0,
+        top: 0,
+        width: FILTER_DEMO_CURSOR_SIZE,
+        minWidth: FILTER_DEMO_CURSOR_SIZE,
+        maxWidth: "none",
+        height: FILTER_DEMO_CURSOR_SIZE,
+        filter: "drop-shadow(0 2px 3px rgba(15,23,42,0.32))",
+        userSelect: "none",
+      }}
+    />
+  </div>
 ));
 DemoCursor.displayName = "DemoCursor";
 
@@ -1169,42 +1160,27 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
   const isNear = useIsNearViewport(containerRef, "900px 0px");
   const isVisible = useIsCurrentlyInViewport(containerRef);
   const documentVisible = useDocumentVisible();
-  const [reducedMotion] = useState(() => (
-    typeof window !== "undefined" && window.matchMedia("(prefers-reduced-motion: reduce)").matches
-  ));
   const [demoLoaded, setDemoLoaded] = useState(false);
-  const [skeletonGone, setSkeletonGone] = useState(false);
   const demoShouldMount = isNear;
-  const demoShouldRun = isNear && isVisible && documentVisible && !reducedMotion;
+  const demoShouldRun = isNear && isVisible && documentVisible;
   const [demoScale, setDemoScale] = useState(FILTER_DEMO_MAX_SCALE);
   const [filters, setFilters] = useState<QuestionBankFilters>(defaultBankFilters);
-  const cursorElRef = useRef<HTMLDivElement>(null);
-  const [cursorVisible, setCursorVisible] = useState(false);
-  const cursorRef = useRef<DemoCursorState>({
+  const [cursor, setCursor] = useState<DemoCursorState>({
     x: 28,
     y: 86,
     visible: false,
     durationMs: 0,
   });
-  const commitCursor = useCallback((next: DemoCursorState) => {
-    cursorRef.current = next;
-    const el = cursorElRef.current;
-    if (el) el.style.transform = `translate(${next.x}px, ${next.y}px)`;
-    setCursorVisible((prev) => (prev === next.visible ? prev : next.visible));
-  }, []);
+  const cursorRef = useRef(cursor);
   const cursorPathSeedRef = useRef(0);
   const userFilterPauseUntilRef = useRef(0);
   const manualResumeTimerRef = useRef<number | null>(null);
   const manualResumeTokenRef = useRef(0);
   const scriptedInteractionDepthRef = useRef(0);
   const lastManualInteractionAtRef = useRef(0);
-  const activePointerRef = useRef(false);
-  const activePointerReleaseRef = useRef<(() => void) | null>(null);
-  const demoScrollGuardUntilRef = useRef(0);
   const [clickKey, setClickKey] = useState(0);
   const [demoMode, setDemoMode] = useState<FilterDemoMode>("apply");
   const [demoTick, setDemoTick] = useState(1);
-  const [demoCloseSignal, setDemoCloseSignal] = useState(0);
   const [manualInteractionVersion, setManualInteractionVersion] = useState(0);
   const filtersRef = useRef<QuestionBankFilters>(defaultBankFilters);
   const modeRef = useRef<FilterDemoMode>(demoMode);
@@ -1249,20 +1225,6 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
   const handleBankDemoReady = useCallback(() => {
     setDemoLoaded(true);
   }, []);
-  const isPointInsideFilterArea = useCallback((x: number, y: number) => {
-    const container = containerRef.current;
-    const filterRoot = container?.querySelector<HTMLElement>('[data-tour="bank-filters"]');
-    if (!filterRoot) return false;
-    const rects = [filterRoot.getBoundingClientRect()];
-    container?.querySelectorAll<HTMLElement>('[data-radix-popper-content-wrapper]')
-      .forEach((popper) => rects.push(popper.getBoundingClientRect()));
-    return rects.some((rect) => x >= rect.left && x <= rect.right && y >= rect.top && y <= rect.bottom);
-  }, []);
-  // The demo resumes purely on inactivity: any interaction pushes the pause deadline out
-  // (see FILTER_DEMO_USER_INTERACTION_PAUSE_MS), and once that elapses the demo resumes
-  // even if a menu is still open or the mouse is still over the panel. The only hard block
-  // is an in-progress pointer hold (a live drag), which must not be fought mid-gesture.
-  const isUserEngaged = useCallback(() => activePointerRef.current, []);
   const queueManualResume = useCallback(() => {
     if (manualResumeTimerRef.current !== null) {
       window.clearTimeout(manualResumeTimerRef.current);
@@ -1273,20 +1235,14 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
     manualResumeTimerRef.current = window.setTimeout(() => {
       if (resumeToken !== manualResumeTokenRef.current) return;
       manualResumeTimerRef.current = null;
-      if (reducedMotion) return;
-      if (isUserEngaged()) {
-        userFilterPauseUntilRef.current = Date.now() + FILTER_DEMO_CURSOR_IDLE_RETRY_MS;
-        queueManualResume();
-        return;
-      }
       const resumedCursor = { ...cursorRef.current, visible: true, durationMs: 0 };
-      commitCursor(resumedCursor);
+      cursorRef.current = resumedCursor;
+      setCursor(resumedCursor);
       window.setTimeout(() => setDemoTick((tick) => tick + 1), 40);
     }, resumeDelay);
-  }, [commitCursor, isUserEngaged, reducedMotion]);
+  }, []);
   const activateScriptedElement = useCallback((element: HTMLElement) => {
     scriptedInteractionDepthRef.current += 1;
-    demoScrollGuardUntilRef.current = Date.now() + 250;
     try {
       activateDemoElement(element);
     } finally {
@@ -1315,26 +1271,13 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
     const now = Date.now();
     if (now - lastManualInteractionAtRef.current < 50) return;
     lastManualInteractionAtRef.current = now;
-    commitCursor({ ...cursorRef.current, visible: false, durationMs: 0 });
+    const hiddenCursor = { ...cursorRef.current, visible: false, durationMs: 0 };
+    cursorRef.current = hiddenCursor;
+    setCursor(hiddenCursor);
     userFilterPauseUntilRef.current = now + FILTER_DEMO_USER_INTERACTION_PAUSE_MS;
     setManualInteractionVersion((version) => version + 1);
-    if (event.type === "pointerdown" && !activePointerRef.current) {
-      activePointerRef.current = true;
-      const release = () => {
-        if (activePointerReleaseRef.current !== release) return;
-        activePointerRef.current = false;
-        activePointerReleaseRef.current = null;
-        window.removeEventListener("pointerup", release, true);
-        window.removeEventListener("pointercancel", release, true);
-        userFilterPauseUntilRef.current = Date.now() + FILTER_DEMO_USER_INTERACTION_PAUSE_MS;
-        queueManualResume();
-      };
-      activePointerReleaseRef.current = release;
-      window.addEventListener("pointerup", release, { capture: true });
-      window.addEventListener("pointercancel", release, { capture: true });
-    }
     queueManualResume();
-  }, [commitCursor, queueManualResume]);
+  }, [queueManualResume]);
   const pauseForHomeFilterMenuChange = useCallback((_control: string, open: boolean) => {
     if (scriptedInteractionDepthRef.current > 0) return;
     const scrollX = window.scrollX;
@@ -1345,7 +1288,9 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
       }
     };
     const now = Date.now();
-    commitCursor({ ...cursorRef.current, visible: false, durationMs: 0 });
+    const hiddenCursor = { ...cursorRef.current, visible: false, durationMs: 0 };
+    cursorRef.current = hiddenCursor;
+    setCursor(hiddenCursor);
     userFilterPauseUntilRef.current = now + (open
       ? FILTER_DEMO_USER_INTERACTION_PAUSE_MS
       : FILTER_DEMO_MANUAL_CLOSE_PAUSE_MS);
@@ -1356,59 +1301,29 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
     }
     setManualInteractionVersion((version) => version + 1);
     queueManualResume();
-  }, [commitCursor, queueManualResume]);
+  }, [queueManualResume]);
+
+  useEffect(() => {
+    cursorRef.current = cursor;
+  }, [cursor]);
 
   useEffect(() => () => {
     if (manualResumeTimerRef.current !== null) {
       window.clearTimeout(manualResumeTimerRef.current);
     }
-    activePointerReleaseRef.current?.();
   }, []);
-
-  useEffect(() => {
-    if (!demoLoaded) return;
-    const timer = window.setTimeout(() => setSkeletonGone(true), 260);
-    return () => window.clearTimeout(timer);
-  }, [demoLoaded]);
-
-  // Close any menu the scripted demo left open once the section is no longer running
-  // (scrolled away, tab hidden, reduced-motion), so the user never returns to a stale
-  // open dropdown. Not tied to manual interaction — that would close the user's own menu.
-  useEffect(() => {
-    if (!demoShouldRun) setDemoCloseSignal((signal) => signal + 1);
-  }, [demoShouldRun]);
 
   useEffect(() => {
     const container = containerRef.current;
     if (!container || !demoShouldMount) return;
     const ownerDocument = container.ownerDocument;
-    let lastHoverProcessedAt = 0;
-    const handleHoverMove = (event: PointerEvent) => {
-      if (event.pointerType !== "mouse") return;
-      const now = Date.now();
-      if (now - lastHoverProcessedAt < 120) return;
-      lastHoverProcessedAt = now;
-      if (scriptedInteractionDepthRef.current !== 0) return;
-      if (!isPointInsideFilterArea(event.clientX, event.clientY)) return;
-      // Every real mouse move over the panel pushes the inactivity deadline out. When the
-      // pointer goes still for FILTER_DEMO_USER_INTERACTION_PAUSE_MS the demo resumes on
-      // its own — it does not wait for the mouse to leave.
-      userFilterPauseUntilRef.current = now + FILTER_DEMO_USER_INTERACTION_PAUSE_MS;
-      if (cursorRef.current.visible) {
-        commitCursor({ ...cursorRef.current, visible: false, durationMs: 0 });
-        setManualInteractionVersion((version) => version + 1);
-      }
-      queueManualResume();
-    };
     ownerDocument.addEventListener("pointerdown", pauseForManualFilterInteraction, { capture: true });
     ownerDocument.addEventListener("mousedown", pauseForManualFilterInteraction, { capture: true });
-    ownerDocument.addEventListener("pointermove", handleHoverMove, { capture: true, passive: true });
     return () => {
       ownerDocument.removeEventListener("pointerdown", pauseForManualFilterInteraction, { capture: true });
       ownerDocument.removeEventListener("mousedown", pauseForManualFilterInteraction, { capture: true });
-      ownerDocument.removeEventListener("pointermove", handleHoverMove, { capture: true });
     };
-  }, [commitCursor, demoShouldMount, isPointInsideFilterArea, pauseForManualFilterInteraction, queueManualResume]);
+  }, [demoShouldMount, pauseForManualFilterInteraction]);
 
   useEffect(() => {
     filtersRef.current = filters;
@@ -1549,9 +1464,6 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
     if (pausedForUserMs > 0) {
       return scheduleDemoTick(pausedForUserMs);
     }
-    if (isUserEngaged()) {
-      return scheduleDemoTick(FILTER_DEMO_CURSOR_IDLE_RETRY_MS);
-    }
     const container = containerRef.current;
     if (!container) {
       return scheduleDemoTick(FILTER_DEMO_CURSOR_IDLE_RETRY_MS);
@@ -1565,17 +1477,8 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
     let protectedScrollY = window.scrollY;
     const timers: number[] = [];
     const rafs = new Set<number>();
-    const hoverEls = new Set<HTMLElement>();
     let demoInterrupted = false;
     let userScrolled = false;
-    const setDemoHover = (el: HTMLElement) => {
-      el.setAttribute("data-filter-demo-hover", "");
-      hoverEls.add(el);
-    };
-    const clearDemoHover = (el: HTMLElement) => {
-      el.removeAttribute("data-filter-demo-hover");
-      hoverEls.delete(el);
-    };
     const captureProtectedScroll = () => {
       protectedScrollX = window.scrollX;
       protectedScrollY = window.scrollY;
@@ -1600,36 +1503,25 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
     };
     const markUserScroll = () => {
       if (!isVisibleInViewport(container)) return;
-      if (demoInterrupted) return;
       demoInterrupted = true;
       userScrolled = true;
-      queueDemoRetry();
-    };
-    const onNativeScroll = () => {
-      // Scrollbar drags / middle-click autoscroll / find-in-page fire only 'scroll',
-      // not wheel/touch/key. Ignore the demo's own restoreScroll writes via the guard.
-      if (Date.now() < demoScrollGuardUntilRef.current) return;
-      markUserScroll();
     };
     const userScrollOptions = { passive: true, capture: true };
     window.addEventListener("wheel", markUserScroll, userScrollOptions);
     window.addEventListener("touchstart", markUserScroll, userScrollOptions);
     window.addEventListener("touchmove", markUserScroll, userScrollOptions);
     window.addEventListener("keydown", markUserScroll, { capture: true });
-    window.addEventListener("scroll", onNativeScroll, userScrollOptions);
     window.addEventListener(HOME_DEMO_USER_SCROLL_EVENT, markUserScroll);
     const stopWatchingScroll = () => {
       window.removeEventListener("wheel", markUserScroll, { capture: true });
       window.removeEventListener("touchstart", markUserScroll, { capture: true });
       window.removeEventListener("touchmove", markUserScroll, { capture: true });
       window.removeEventListener("keydown", markUserScroll, { capture: true });
-      window.removeEventListener("scroll", onNativeScroll, { capture: true });
       window.removeEventListener(HOME_DEMO_USER_SCROLL_EVENT, markUserScroll);
     };
     const canRunStep = (target = action.target) => (
       !demoInterrupted &&
       Date.now() >= userFilterPauseUntilRef.current &&
-      !isUserEngaged() &&
       target.isConnected &&
       isVisibleElement(target) &&
       (!isTargetInViewport(target) || isPointOnTarget(target))
@@ -1641,7 +1533,6 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
         Math.abs(window.scrollX - protectedScrollX) > 12 ||
         Math.abs(window.scrollY - protectedScrollY) > 12
       ) {
-        demoScrollGuardUntilRef.current = Date.now() + 250;
         window.scrollTo(protectedScrollX, protectedScrollY);
       }
     };
@@ -1669,12 +1560,11 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
       schedule(restoreScroll, 80);
       schedule(restoreScroll, 220);
     };
-    const cursorScale = Math.max(0.5, demoScale);
     const cursorForViewportPoint = (point: { x: number; y: number }) => {
       const currentContainerRect = container.getBoundingClientRect();
       return {
-        x: point.x - currentContainerRect.left - FILTER_DEMO_CURSOR_HOTSPOT_X * cursorScale,
-        y: point.y - currentContainerRect.top - FILTER_DEMO_CURSOR_HOTSPOT_Y * cursorScale,
+        x: point.x - currentContainerRect.left - FILTER_DEMO_CURSOR_HOTSPOT_X,
+        y: point.y - currentContainerRect.top - FILTER_DEMO_CURSOR_HOTSPOT_Y,
         visible: true,
       };
     };
@@ -1690,7 +1580,8 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
           durationMs: 0,
         };
         previous = startCursor;
-        commitCursor(startCursor);
+        cursorRef.current = startCursor;
+        setCursor(startCursor);
         entryDelay = 20;
       }
       const distance = Math.hypot(nextPoint.x - previous.x, nextPoint.y - previous.y);
@@ -1710,7 +1601,9 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
           : 0
       );
       if (durationMs <= 0 || distance <= 1) {
-        commitCursor({ ...nextPoint, durationMs: 0 });
+        const nextCursor = { ...nextPoint, durationMs: 0 };
+        cursorRef.current = nextCursor;
+        setCursor(nextCursor);
         return entryDelay;
       }
       const startedAt = performance.now() + entryDelay;
@@ -1743,16 +1636,20 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
         const easedProgress = getDemoCursorEase(progress, accelerationPower, decelerationPower);
         const pointOnCurve = getDemoCursorBezierPoint(previous, controlA, controlB, nextPoint, easedProgress);
         const jitter = Math.sin(progress * Math.PI * 2 * jitterFrequency) * Math.sin(Math.PI * progress) * jitterAmount;
-        commitCursor({
+        const nextCursor = {
           x: pointOnCurve.x + normalX * jitter,
           y: pointOnCurve.y + normalY * jitter,
           visible: true,
           durationMs: 0,
-        });
+        };
+        cursorRef.current = nextCursor;
+        setCursor(nextCursor);
         if (progress < 1) {
           raf(step);
         } else {
-          commitCursor({ ...nextPoint, durationMs: 0 });
+          const finalCursor = { ...nextPoint, durationMs: 0 };
+          cursorRef.current = finalCursor;
+          setCursor(finalCursor);
         }
       };
       raf(step);
@@ -1770,19 +1667,16 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
     const clickDemoTarget = (target: HTMLElement, afterClick?: () => void) => {
       if (!canRunStep(target)) return false;
       setCursorToPoint(viewportPointForElement(target), 0);
-      setDemoHover(target);
       setClickKey((key) => key + 1);
       if (target.hasAttribute("data-filter-demo-option")) {
         target.classList.add("filter-demo-option-press");
         schedule(() => {
           if (!canRunStep(target)) {
-            clearDemoHover(target);
             queueDemoRetry();
             return;
           }
           captureProtectedScroll();
           activateScriptedElement(target);
-          clearDemoHover(target);
           afterClick?.();
         }, FILTER_DEMO_OPTION_PRESS_MS);
         schedule(() => target.classList.remove("filter-demo-option-press"), FILTER_DEMO_OPTION_PRESS_MS + 140);
@@ -1790,7 +1684,6 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
       }
       captureProtectedScroll();
       activateScriptedElement(target);
-      schedule(() => clearDemoHover(target), 180);
       afterClick?.();
       return true;
     };
@@ -1801,7 +1694,6 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
       rangeBase: [number, number],
       setRange: (range: [number, number]) => void,
       duration = 560,
-      onFrame?: (easedProgress: number) => void,
     ) => {
       captureProtectedScroll();
       const startedAt = performance.now();
@@ -1809,11 +1701,9 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
       const step = (now: number) => {
         if (demoInterrupted || Date.now() < userFilterPauseUntilRef.current) return;
         const progress = duration <= 0 ? 1 : Math.min(1, Math.max(0, (now - startedAt) / duration));
-        const eased = getDemoCursorEase(progress);
-        // Drive the ghost cursor from the same eased progress that moves the value, so it
-        // stays glued to the thumb (the thumb trails by at most half a rounding step).
-        onFrame?.(eased);
-        const nextValue = roundDemoTimeStep(startValue + (endValue - startValue) * eased);
+        // Interpolate continuously (no 5s-step rounding) so the thumb glides smoothly;
+        // the caller snaps to the exact stepped target once the animation completes.
+        const nextValue = clampDemoTimeValue(startValue + (endValue - startValue) * getDemoCursorEase(progress));
         if (nextValue !== lastValue) {
           lastValue = nextValue;
           const nextRange: [number, number] = [rangeBase[0], rangeBase[1]];
@@ -1846,8 +1736,7 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
         const handleIndex = changedHandles[handlePosition];
         const startValue = currentRange[handleIndex];
         const endValue = to[handleIndex];
-        const startPoint = getDemoTimePoint(action.target, startValue);
-        const moveDuration = setCursorToPoint(startPoint);
+        const moveDuration = setCursorToPoint(getDemoTimePoint(action.target, startValue));
         schedule(() => {
           if (!canRunStep(action.target)) {
             queueDemoRetry();
@@ -1855,25 +1744,9 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
           }
           setClickKey((key) => key + 1);
           const animationBase: [number, number] = [currentRange[0], currentRange[1]];
-          const endPoint = getDemoTimePoint(action.target, endValue);
-          const cursorStart = cursorForViewportPoint(startPoint);
-          const cursorEnd = cursorForViewportPoint(endPoint);
-          const dragDuration = Math.round(Math.min(
-            FILTER_DEMO_CURSOR_MAX_DURATION_MS,
-            Math.max(
-              FILTER_DEMO_CURSOR_MIN_DURATION_MS,
-              getDemoCursorDuration(Math.hypot(endPoint.x - startPoint.x, endPoint.y - startPoint.y)),
-            ),
-          ));
+          const dragDuration = setCursorToPoint(getDemoTimePoint(action.target, endValue));
           captureProtectedScroll();
-          animateRangeValue(handleIndex, startValue, endValue, animationBase, setRange, dragDuration, (eased) => {
-            commitCursor({
-              x: cursorStart.x + (cursorEnd.x - cursorStart.x) * eased,
-              y: cursorStart.y + (cursorEnd.y - cursorStart.y) * eased,
-              visible: true,
-              durationMs: 0,
-            });
-          });
+          animateRangeValue(handleIndex, startValue, endValue, animationBase, setRange, dragDuration);
           schedule(() => {
             if (!canRunStep(action.target)) {
               queueDemoRetry();
@@ -2010,9 +1883,8 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
       stopWatchingScroll();
       timers.forEach((timer) => window.clearTimeout(timer));
       rafs.forEach((frame) => window.cancelAnimationFrame(frame));
-      hoverEls.forEach((el) => el.removeAttribute("data-filter-demo-hover"));
     };
-  }, [activateScriptedElement, applyDemoOptionKey, commitCursor, demoLoaded, demoScale, demoShouldRun, demoTick, isUserEngaged, manualInteractionVersion, resolveDemoAction]);
+  }, [activateScriptedElement, applyDemoOptionKey, demoLoaded, demoShouldRun, demoTick, manualInteractionVersion, resolveDemoAction]);
 
   const activePreviewHeight = demoScale < 0.65 ? 840 : FILTER_DEMO_PREVIEW_HEIGHT;
   const visibleWidth = FILTER_DEMO_PREVIEW_WIDTH * demoScale;
@@ -2048,24 +1920,17 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
               <EmbeddedBankIndexPreview
                 homeFilterDemo
                 homeFilterDemoFilters={filters}
-                homeFilterDemoCloseSignal={demoCloseSignal}
                 onHomeFilterDemoFiltersChange={applyDemoFilters}
                 onHomeFilterDemoReady={handleBankDemoReady}
                 onHomeFilterDemoControlOpenChange={pauseForHomeFilterMenuChange}
               />
             </Suspense>
           </div>
-          {!skeletonGone && (
+          {!demoLoaded && (
             <HomePreviewSkeleton
               isDarkMode={isDarkMode}
               variant="filters"
-              style={{
-                position: "absolute",
-                inset: 0,
-                zIndex: 1,
-                opacity: demoLoaded ? 0 : 1,
-                transition: "opacity 220ms ease",
-              }}
+              style={{ position: "absolute", inset: 0, zIndex: 1 }}
             />
           )}
         </>
@@ -2073,10 +1938,11 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
         <HomePreviewSkeleton isDarkMode={isDarkMode} variant="filters" />
       )}
       <DemoCursor
-        ref={cursorElRef}
-        visible={cursorVisible}
+        x={cursor.x}
+        y={cursor.y}
+        visible={cursor.visible}
+        durationMs={cursor.durationMs}
         clickKey={clickKey}
-        scale={Math.max(0.5, demoScale)}
       />
     </div>
   );

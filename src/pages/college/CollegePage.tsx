@@ -4,12 +4,13 @@ import { Link, Navigate, useLocation } from "react-router-dom";
 import {
   PageSeo,
   buildBreadcrumbJsonLd,
-  buildFaqJsonLd,
 } from "@/components/seo/PageSeo";
 import {
   collegeBySlug,
   formatPct,
   formatUsd,
+  isSitemapEligible,
+  sitemapEligibleColleges,
   type College,
 } from "@/lib/seo-data/collegesData";
 
@@ -32,6 +33,17 @@ const carnegieLabel = (code: number | null): string => {
   if (code >= 21 && code <= 23) return "Liberal arts / baccalaureate college";
   return "Four-year college";
 };
+
+const collegeSatMid = (college: College): number =>
+  college.satMid ?? Math.round(((college.sat25 ?? 0) + (college.sat75 ?? 0)) / 2);
+
+const collegeNameCounts = new Map<string, number>();
+for (const c of sitemapEligibleColleges) {
+  collegeNameCounts.set(c.name, (collegeNameCounts.get(c.name) ?? 0) + 1);
+}
+const duplicateCollegeNames = new Set(
+  [...collegeNameCounts].filter(([, count]) => count > 1).map(([name]) => name),
+);
 
 const OUTCOME_CARD_CLASS = "rounded-xl border border-border p-4";
 const METRIC_LABEL_CLASS = "text-sm text-muted-foreground";
@@ -59,6 +71,22 @@ const CollegePage = () => {
 
   const satRange = college.sat25 && college.sat75 ? `${college.sat25}–${college.sat75}` : null;
   const satMid = satRange ? Math.round((college.sat25! + college.sat75!) / 2) : null;
+
+  const titleName =
+    duplicateCollegeNames.has(college.name) && college.state
+      ? `${displayName} (${college.state})`
+      : displayName;
+
+  const similarColleges =
+    satMid != null
+      ? sitemapEligibleColleges
+          .filter((c) => c.slug !== college.slug)
+          .sort(
+            (a, b) =>
+              Math.abs(collegeSatMid(a) - satMid) - Math.abs(collegeSatMid(b) - satMid),
+          )
+          .slice(0, 6)
+      : [];
 
   const faqs = [
     {
@@ -94,20 +122,20 @@ const CollegePage = () => {
     <div className="mx-auto max-w-3xl px-6 py-10">
       <PageSeo
         id={`college-${college.slug}`}
-        title={`${displayName}: SAT Scores, Acceptance Rate & Admissions (2026)`}
+        title={`${titleName}: SAT Scores & Admissions (2026)`}
         description={
           satRange
             ? `${displayName} admits students with an SAT middle-50% of ${satRange} and an acceptance rate of ${formatPct(college.acceptanceRate)}. Full admissions profile, tuition, and score targets.`
             : `${displayName} admissions profile: acceptance rate, SAT/ACT ranges, tuition, location, and score targets for 2026 applicants.`
         }
         canonical={url}
+        robots={isSitemapEligible(college) ? undefined : "noindex, nofollow"}
         jsonLd={[
           buildBreadcrumbJsonLd([
             { name: "Home", url: "https://1600.now/" },
             { name: "Colleges", url: "https://1600.now/college" },
             { name: displayName, url },
           ]),
-          buildFaqJsonLd(faqs),
           {
             "@context": "https://schema.org",
             "@type": "CollegeOrUniversity",
@@ -233,6 +261,24 @@ const CollegePage = () => {
           >
             Compare to other colleges →
           </Link>
+        </section>
+      )}
+
+      {similarColleges.length > 0 && (
+        <section className="mt-10">
+          <h2 className="text-2xl font-semibold tracking-tight">
+            Colleges with similar SAT scores
+          </h2>
+          <ul className="mt-3 list-disc space-y-1 pl-6 text-muted-foreground">
+            {similarColleges.map((c) => (
+              <li key={c.slug}>
+                <Link className="hover:underline" to={`/college/${c.slug}`}>
+                  {c.name}
+                </Link>
+                {c.sat25 && c.sat75 && ` · SAT ${c.sat25}–${c.sat75}`}
+              </li>
+            ))}
+          </ul>
         </section>
       )}
 

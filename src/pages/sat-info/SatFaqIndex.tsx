@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { PageSeo, buildBreadcrumbJsonLd, buildFaqJsonLd } from "@/components/seo/PageSeo";
+import { PageSeo, buildBreadcrumbJsonLd } from "@/components/seo/PageSeo";
 import { satFaqPages } from "@/lib/seo-data/satFaqData";
 
 const TITLE = "SAT FAQ: Answers to the Most Common SAT Questions";
@@ -12,9 +12,6 @@ const faqIndexJsonLd = [
     { name: "Home", url: "https://1600.now/" },
     { name: "SAT FAQ", url: SAT_FAQ_URL },
   ]),
-  buildFaqJsonLd(
-    satFaqPages.map((faqPage) => ({ question: faqPage.question, answer: faqPage.shortAnswer })),
-  ),
 ];
 
 const faqActionFor = (slug: string) => {
@@ -73,14 +70,16 @@ const SatFaqIndex = () => {
         {satFaqPages.map((faqPage) => {
           const action = faqActionFor(faqPage.slug);
           return (
-            <li key={faqPage.slug}>
-              <Link
-                to={action.href}
-                className={FAQ_CARD_CLASS}
-              >
+            <li key={faqPage.slug} className={FAQ_CARD_CLASS}>
+              <Link to={`/sat-faq/${faqPage.slug}`} className="block">
                 <div className="font-semibold">{faqPage.question}</div>
                 <p className="mt-1 text-sm text-muted-foreground">{faqPage.shortAnswer}</p>
-                <div className="mt-3 text-sm font-semibold text-foreground">{action.label}</div>
+              </Link>
+              <Link
+                to={action.href}
+                className="mt-3 inline-block text-sm font-semibold text-foreground hover:underline"
+              >
+                {action.label}
               </Link>
             </li>
           );

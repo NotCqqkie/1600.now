@@ -6,6 +6,7 @@ import {
   buildBreadcrumbJsonLd,
 } from "@/components/seo/PageSeo";
 import { blogPostBySlug, blogPosts } from "@/lib/seo-data/blogData";
+import NotFound from "@/pages/NotFound";
 
 const BLOG_URL = "https://1600.now/blog";
 const SECTION_HEADING_CLASS = "text-2xl font-semibold tracking-tight";
@@ -81,18 +82,7 @@ const BlogPost = () => {
   const post = blogPostBySlug.get(slug);
 
   if (!post) {
-    return (
-      <div className="mx-auto max-w-2xl px-6 py-20 text-center">
-        <h1 className="text-3xl font-semibold">Post not found</h1>
-        <p className="mt-3 text-muted-foreground">
-          Browse the{" "}
-          <Link className="underline" to="/blog">
-            blog index
-          </Link>
-          .
-        </p>
-      </div>
-    );
+    return <NotFound />;
   }
 
   const url = `${BLOG_URL}/${post.slug}`;

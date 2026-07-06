@@ -920,20 +920,6 @@
   color: hsl(var(--accent-foreground)) !important;
 }
 
-[data-filter-demo-cursor] {
-  opacity: 0;
-  transition: opacity 180ms ease;
-}
-
-[data-filter-demo-cursor][data-filter-demo-cursor-visible="true"] {
-  opacity: 1;
-}
-
-[data-filter-demo-hover] {
-  border-color: rgb(var(--cobalt)) !important;
-  background-color: rgba(56, 189, 248, 0.15) !important;
-}
-
 @keyframes explanationStepSlide {
   from { opacity: 0; transform: translateY(calc(22px * var(--step-dir, 1))); }
   to { opacity: 1; transform: translateY(0); }
@@ -1556,6 +1542,19 @@ body.tour-active [role="menuitemradio"][data-highlighted] {
   max-width: min(100%, var(--question-image-max-width, 100%));
   max-height: var(--question-image-max-height, none);
   object-fit: contain;
+}
+
+.question-image-frame {
+  padding: 6px;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 0 0 1px hsl(var(--border) / 0.7);
+}
+
+.question-image-frame > img {
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
 }
 
 .question-image-bank.question-image-math.question-image-compact {

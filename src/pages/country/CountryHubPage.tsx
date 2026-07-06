@@ -109,7 +109,7 @@ const CountryHubPage = () => {
                   className={countryPageClasses.topicCard}
                 >
                   <Link
-                    to={action.href}
+                    to={`/${topicPage.slug}`}
                     className={countryPageClasses.topicLink}
                   >
                     {topicPage.headline}
@@ -117,7 +117,12 @@ const CountryHubPage = () => {
                   <p className={countryPageClasses.topicDescription}>
                     {topicPage.metaDescription}
                   </p>
-                  <div className="mt-3 text-sm font-semibold">{action.label}</div>
+                  <Link
+                    to={action.href}
+                    className="mt-3 block text-sm font-semibold"
+                  >
+                    {action.label}
+                  </Link>
                 </li>
               );
             })}

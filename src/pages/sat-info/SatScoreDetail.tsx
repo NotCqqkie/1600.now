@@ -2,10 +2,14 @@ import { Link, useParams } from "react-router-dom";
 
 import {
   PageSeo,
+  buildArticleJsonLd,
   buildBreadcrumbJsonLd,
   buildFaqJsonLd,
 } from "@/components/seo/PageSeo";
 import { allSatScores, getScoreProfile } from "@/lib/seo-data/satScoreData";
+import NotFound from "@/pages/NotFound";
+
+const SCORE_PAGE_PUBLISHED = "2026-04-01";
 
 const SECTION_HEADING_CLASS = "text-2xl font-semibold tracking-tight";
 const INLINE_LINK_CLASS = "underline";
@@ -35,6 +39,19 @@ const ACTION_TABLE_ROWS = [
     "Add a checkpoint plan and practice leaving two minutes for flagged questions.",
   ],
 ] as const;
+
+const COLLEGE_SLUG_BY_EXAMPLE: Record<string, string> = {
+  "Harvard University": "harvard-university",
+  Caltech: "california-institute-of-technology",
+  "Johns Hopkins": "johns-hopkins-university",
+  "Boston University": "boston-university",
+  "UT Austin": "the-university-of-texas-at-austin",
+  "Georgia Tech": "georgia-institute-of-technology-main-campus",
+  "Penn State": "pennsylvania-state-university-main-campus",
+  "University of Arizona": "university-of-arizona",
+  "University of Oregon": "university-of-oregon",
+  "University of Kentucky": "university-of-kentucky",
+};
 
 const TOOL_LINKS = [
   { to: "/score-calculator", label: "Model section splits" },
@@ -103,18 +120,7 @@ const SatScoreDetail = () => {
   const score = Number(scoreParam);
 
   if (!Number.isFinite(score) || !allSatScores.includes(score)) {
-    return (
-      <div className="mx-auto max-w-2xl px-6 py-20 text-center">
-        <h1 className="text-3xl font-semibold">Score not found</h1>
-        <p className="mt-3 text-muted-foreground">
-          Estimate your score with the{" "}
-          <Link className={INLINE_LINK_CLASS} to="/score-calculator">
-            SAT score calculator
-          </Link>
-          .
-        </p>
-      </div>
-    );
+    return <NotFound />;
   }
 
   const profile = getScoreProfile(score);
@@ -169,15 +175,12 @@ const SatScoreDetail = () => {
             { name: `${score}`, url },
           ]),
           buildFaqJsonLd(faqs),
-          {
-            "@context": "https://schema.org",
-            "@type": "Article",
-            headline: title,
+          buildArticleJsonLd({
+            title,
             description,
             url,
-            author: { "@type": "Organization", name: "1600.now" },
-            publisher: { "@type": "Organization", name: "1600.now" },
-          },
+            datePublished: SCORE_PAGE_PUBLISHED,
+          }),
         ]}
       />
 
@@ -186,8 +189,8 @@ const SatScoreDetail = () => {
           Home
         </Link>{" "}
         ›{" "}
-        <Link className="hover:underline" to="/score-calculator">
-          SAT Score Calculator
+        <Link className="hover:underline" to="/sat-score">
+          SAT Scores
         </Link>{" "}
         › <span className="text-foreground">{score}</span>
       </nav>
@@ -205,6 +208,14 @@ const SatScoreDetail = () => {
         <p className="mt-3 text-sm">
           <Link to="/what-sat-score-do-i-need" className={INLINE_LINK_CLASS}>
             Compare this score with college target ranges →
+          </Link>
+        </p>
+        <p className="mt-2 text-sm">
+          <Link
+            to={`/is-a-${score}-a-good-sat-score`}
+            className={INLINE_LINK_CLASS}
+          >
+            Is a {score} a good SAT score? →
           </Link>
         </p>
       </header>
@@ -253,9 +264,23 @@ const SatScoreDetail = () => {
           A {score} SAT score is in range at schools including:
         </p>
         <ul className="mt-3 list-disc space-y-1 pl-6 text-muted-foreground">
-          {profile.collegeExamples.map((college) => (
-            <li key={college}>{college}</li>
-          ))}
+          {profile.collegeExamples.map((college) => {
+            const collegeSlug = COLLEGE_SLUG_BY_EXAMPLE[college];
+            return (
+              <li key={college}>
+                {collegeSlug ? (
+                  <Link
+                    className={INLINE_LINK_CLASS}
+                    to={`/college/${collegeSlug}`}
+                  >
+                    {college}
+                  </Link>
+                ) : (
+                  college
+                )}
+              </li>
+            );
+          })}
         </ul>
         <p className="mt-3 text-sm text-muted-foreground">
           Note: College admissions consider GPA, essays, extracurriculars,
@@ -346,8 +371,8 @@ const SatScoreDetail = () => {
 
       <section className="mt-10 flex items-center justify-between rounded-xl border border-border p-4">
         {score > 400 ? (
-          <Link className={FOOTER_LINK_CLASS} to="/score-calculator">
-            Estimate a lower split
+          <Link className={FOOTER_LINK_CLASS} to={`/sat-score/${score - 10}`}>
+            ← {score - 10} SAT score
           </Link>
         ) : (
           <span />
@@ -356,8 +381,8 @@ const SatScoreDetail = () => {
           Take a module
         </Link>
         {score < 1600 ? (
-          <Link className={FOOTER_LINK_CLASS} to="/bank">
-            Drill for a higher score →
+          <Link className={FOOTER_LINK_CLASS} to={`/sat-score/${score + 10}`}>
+            {score + 10} SAT score →
           </Link>
         ) : (
           <span />

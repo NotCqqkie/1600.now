@@ -311,6 +311,7 @@ export const TransparentAwareImage = ({
   const imageClassName = isTableImageAlt(alt) && !hasExplicitQuestionImageSize(className)
     ? scaleTableImageClassName(className)
     : className;
+  const shouldUseQuestionImageFrame = hasExplicitQuestionImageSize(imageClassName);
 
   useEffect(() => {
     let cancelled = false;
@@ -452,8 +453,9 @@ export const TransparentAwareImage = ({
       aria-label={accessibleLabel || undefined}
       className={cn(
         "inline-flex max-w-full min-w-0 box-border justify-center",
+        shouldUseQuestionImageFrame && "question-image-frame",
         reservedSize && !isLoaded && "question-image-loading-placeholder",
-        hasResolvedTransparency && "dark:rounded-md dark:bg-white dark:p-2",
+        hasResolvedTransparency && !shouldUseQuestionImageFrame && "dark:rounded-md dark:bg-white dark:p-2",
         wrapperClassName
       )}
       style={reserveWrapperStyle}
@@ -463,7 +465,7 @@ export const TransparentAwareImage = ({
         src={resolvedSrc}
         alt=""
         aria-hidden="true"
-        className={cn(imageClassName, shouldReserveWhiteBackground && "rounded-lg")}
+        className={cn(imageClassName, shouldReserveWhiteBackground && !shouldUseQuestionImageFrame && "rounded-lg")}
         loading={loading}
         decoding="async"
         fetchPriority={fetchPriority}

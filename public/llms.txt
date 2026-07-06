@@ -1,0 +1,19 @@
+# 1600.now
+
+1600.now is a free Digital SAT prep site: 8,000+ practice questions instantly filterable by domain, skill, and difficulty, plus full-length adaptive practice modules, a score calculator, and study tools like vocabulary review, percentile lookups, and a personalized study plan generator. No paywall — all practice content is free.
+
+## Key pages
+
+- https://1600.now/bank — Filterable Digital SAT question bank (domain, skill, difficulty)
+- https://1600.now/modules — Full-length adaptive practice modules that mirror the real Digital SAT
+- https://1600.now/score-calculator — Digital SAT score calculator (raw score to scaled score)
+- https://1600.now/sat-score — Guides to SAT scoring, score ranges, and what scores mean
+- https://1600.now/sat-skill — Skill-by-skill breakdowns of every Digital SAT domain
+- https://1600.now/sat-vocabulary — SAT vocabulary lists and review
+- https://1600.now/sat-faq — Frequently asked questions about the Digital SAT
+- https://1600.now/blog — Articles on SAT strategy, prep, and test updates
+- https://1600.now/college — College admissions info and SAT score requirements
+- https://1600.now/sat-resources — Curated list of Digital SAT prep resources
+- https://1600.now/sat-to-act-converter — SAT to ACT score conversion tool
+- https://1600.now/sat-percentile-calculator — SAT percentile calculator by section and total score
+- https://1600.now/sat-study-plan-generator — Personalized SAT study plan generator

@@ -1,8 +1,25 @@
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { BrandLogo } from "@/components/brand/BrandLogo";
 import { ArrowLeft } from "lucide-react";
 
 const NotFound = () => {
+  useEffect(() => {
+    document.title = "Page Not Found | 1600.now";
+
+    let robots = document.head.querySelector(
+      'meta[name="robots"]',
+    ) as HTMLMetaElement | null;
+    if (!robots) {
+      robots = document.createElement("meta");
+      robots.setAttribute("name", "robots");
+      document.head.appendChild(robots);
+    }
+    robots.setAttribute("content", "noindex");
+
+    document.head.querySelector('link[rel="canonical"]')?.remove();
+  }, []);
+
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-background px-6">
       <div className="mb-8">

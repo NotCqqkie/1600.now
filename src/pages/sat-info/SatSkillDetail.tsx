@@ -9,6 +9,7 @@ import {
 import { satSkillBySlug, satSkills } from "@/lib/seo-data/satSkillsData";
 import { skillSampleQuestions } from "@/lib/generated/skillSampleQuestions.generated";
 import { renderMixedContent } from "@/lib/text/mathRendering";
+import NotFound from "@/pages/NotFound";
 
 const SECTION_HEADING_CLASS = "text-2xl font-semibold tracking-tight";
 const MUTED_BLOCK_CLASS = "mt-3 text-muted-foreground";
@@ -105,22 +106,11 @@ const SatSkillDetail = () => {
   const skill = satSkillBySlug.get(slug);
 
   if (!skill) {
-    return (
-      <div className="mx-auto max-w-2xl px-6 py-20 text-center">
-        <h1 className="text-3xl font-semibold">Skill not found</h1>
-        <p className={MUTED_BLOCK_CLASS}>
-          Browse{" "}
-          <Link className={UNDERLINE_LINK_CLASS} to="/bank">
-            the question bank
-          </Link>
-          .
-        </p>
-      </div>
-    );
+    return <NotFound />;
   }
 
   const url = `https://1600.now/sat-skill/${skill.slug}`;
-  const title = `${skill.name} on the Digital SAT: Tips, Examples & Practice`;
+  const title = `${skill.name}: SAT Tips & Practice`;
   const skillNameLower = skill.name.toLowerCase();
   const practiceHref = skillPracticeHref(skill);
   const description = `${skill.shortDescription} Learn how to master ${skillNameLower} on the Digital SAT ${skill.section} section with focused tips and practice.`;
@@ -169,6 +159,7 @@ const SatSkillDetail = () => {
         name: `${skill.name} Practice Questions`,
         description: `Digital SAT ${skill.name} practice problems`,
         url,
+        educationalAlignment: { targetName: skill.officialSkill },
         questions: samples.map((sampleQuestion) => ({
           questionName: `${skill.name} sample — ${sampleQuestion.difficulty}`,
           questionText: sampleQuestion.text,
@@ -387,7 +378,7 @@ const SatSkillDetail = () => {
           {related.map((relatedSkill) => (
             <li key={relatedSkill.slug}>
               <Link
-                to={skillPracticeHref(relatedSkill)}
+                to={`/sat-skill/${relatedSkill.slug}`}
                 className="block rounded-xl border border-border p-4 transition hover:bg-muted"
               >
                 <div className="font-semibold">{relatedSkill.name}</div>

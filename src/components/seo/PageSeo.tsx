@@ -18,6 +18,7 @@ interface PageSeoProps {
   image?: string;
   imageAlt?: string;
   type?: "website" | "article";
+  robots?: string;
 }
 
 const DEFAULT_OG_IMAGE = `${BRAND_URL}/og-image.png`;
@@ -90,6 +91,7 @@ export const PageSeo = ({
   image,
   imageAlt,
   type = "website",
+  robots,
 }: PageSeoProps) => {
   useEffect(() => {
     const canonicalUrl =
@@ -99,7 +101,7 @@ export const PageSeo = ({
     const resolvedImageAlt = imageAlt ?? DEFAULT_OG_IMAGE_ALT;
 
     if (title) {
-      const finalTitle = brandedTitle(title);
+      const finalTitle = title.length >= 52 ? title : brandedTitle(title);
       document.title = finalTitle;
       upsertMetaByProperty("og:title", finalTitle);
       upsertMetaByName("twitter:title", finalTitle);
@@ -124,7 +126,9 @@ export const PageSeo = ({
     upsertMetaByName("twitter:card", "summary_large_image");
     upsertMetaByName("twitter:image", imageUrl);
     upsertMetaByName("twitter:image:alt", resolvedImageAlt);
-    upsertMetaByName("robots", "index, follow, max-image-preview:large, max-snippet:-1");
+    if (robots) {
+      upsertMetaByName("robots", robots);
+    }
     if (alternates && alternates.length > 0) {
       upsertAlternates(id, alternates);
     }
@@ -135,7 +139,7 @@ export const PageSeo = ({
         .querySelectorAll(`link[rel="alternate"][data-seo-id="${id}"]`)
         .forEach((node) => node.remove());
     };
-  }, [id, title, description, jsonLd, canonical, alternates, image, imageAlt, type]);
+  }, [id, title, description, jsonLd, canonical, alternates, image, imageAlt, type, robots]);
 
   return null;
 };
@@ -224,11 +228,15 @@ interface QuizJsonLdQuestion {
   url?: string;
 }
 
+const convertMathDelimiters = (text: string) =>
+  text.replace(/\$([^$]+)\$/g, "\\($1\\)");
+
 export const buildQuizJsonLd = (data: {
   name: string;
   description: string;
   url: string;
   questions: QuizJsonLdQuestion[];
+  educationalAlignment?: { targetName: string };
 }) => ({
   "@context": "https://schema.org",
   "@type": "Quiz",
@@ -238,27 +246,43 @@ export const buildQuizJsonLd = (data: {
     name: data.description,
   },
   url: data.url,
-  hasPart: data.questions.map((question) => ({
-    "@type": "Question",
-    name: question.questionName,
-    text: question.questionText,
-    url: question.url ?? data.url,
-    eduQuestionType: "Multiple choice",
-    learningResourceType: "Practice problem",
-    suggestedAnswer: question.choices
-      .filter((choice) => choice.id !== question.correctAnswerId)
-      .map((choice) => ({
+  ...(data.educationalAlignment
+    ? {
+        educationalAlignment: [
+          {
+            "@type": "AlignmentObject",
+            alignmentType: "educationalSubject",
+            targetName: data.educationalAlignment.targetName,
+          },
+        ],
+      }
+    : {}),
+  hasPart: data.questions.map((question) => {
+    const correctIndex = question.choices.findIndex(
+      (choice) => choice.id === question.correctAnswerId,
+    );
+    return {
+      "@type": "Question",
+      name: convertMathDelimiters(question.questionName),
+      text: convertMathDelimiters(question.questionText),
+      url: question.url ?? data.url,
+      eduQuestionType: "Multiple choice",
+      learningResourceType: "Practice problem",
+      suggestedAnswer: question.choices
+        .map((choice, idx) => ({ choice, idx }))
+        .filter(({ idx }) => idx !== correctIndex)
+        .map(({ choice, idx }) => ({
+          "@type": "Answer",
+          position: idx,
+          text: convertMathDelimiters(choice.text),
+        })),
+      acceptedAnswer: {
         "@type": "Answer",
-        position: choice.id,
-        text: choice.text,
-      })),
-    acceptedAnswer: {
-      "@type": "Answer",
-      position: question.correctAnswerId,
-      text:
-        question.choices.find((choice) => choice.id === question.correctAnswerId)?.text ?? "",
-    },
-  })),
+        position: correctIndex,
+        text: convertMathDelimiters(question.choices[correctIndex]?.text ?? ""),
+      },
+    };
+  }),
 });
 
 export const buildArticleJsonLd = (data: {

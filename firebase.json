@@ -11,7 +11,7 @@
     "rewrites": [
       {
         "source": "**",
-        "destination": "/index.html"
+        "destination": "/spa-shell.html"
       }
     ],
     "headers": [
@@ -45,6 +45,15 @@
         ]
       },
       {
+        "source": "**",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache"
+          }
+        ]
+      },
+      {
         "source": "**/*.html",
         "headers": [
           {
@@ -59,6 +68,60 @@
           {
             "key": "Cache-Control",
             "value": "no-cache"
+          }
+        ]
+      },
+      {
+        "source": "/optimized/**",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public,max-age=604800"
+          }
+        ]
+      },
+      {
+        "source": "/images/**",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public,max-age=604800"
+          }
+        ]
+      },
+      {
+        "source": "/reference-sheet/**",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public,max-age=604800"
+          }
+        ]
+      },
+      {
+        "source": "/favicon.ico",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public,max-age=604800"
+          }
+        ]
+      },
+      {
+        "source": "/og-image.png",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public,max-age=604800"
+          }
+        ]
+      },
+      {
+        "source": "/logo_b.png",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public,max-age=604800"
           }
         ]
       },

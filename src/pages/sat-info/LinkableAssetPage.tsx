@@ -397,12 +397,12 @@ const allowedProductPrefixes = [
   "/sat-study-plan-generator",
   "/what-sat-score-do-i-need",
   "/sat-test-countdown",
+  "/sat-skill",
 ];
 
 const productHrefRewrites: Record<string, ProductLink> = {
   "/sat-vocabulary": { label: "Open vocabulary practice", href: "/vocab" },
   "/sat-score": { label: "Use the score calculator", href: "/score-calculator" },
-  "/sat-skill": { label: "Open the question bank", href: "/bank" },
 };
 
 const isAllowedProductHref = (href: string) =>
@@ -793,6 +793,12 @@ const LinkableAssetPage = () => {
       .map((assetSlug) => linkableAssetBySlug.get(assetSlug))
       .filter((item): item is LinkableAsset => Boolean(item));
     const grouped = categoryGroups(hubAssets);
+    const subHubs =
+      hub.slug === "sat-resources"
+        ? ["sat-score-resources", "sat-math-resources", "sat-reading-writing-resources"]
+            .map((subHubSlug) => linkableHubBySlug.get(subHubSlug))
+            .filter((item): item is NonNullable<typeof item> => Boolean(item))
+        : [];
 
     return (
       <article className="mx-auto max-w-5xl px-6 py-10">
@@ -843,6 +849,26 @@ const LinkableAssetPage = () => {
             {hub.intro}
           </p>
         </header>
+
+        {subHubs.length > 0 && (
+          <section className="mb-10">
+            <h2 className={SECTION_HEADING_CLASS}>Browse by section</h2>
+            <div className="mt-4 grid gap-3 md:grid-cols-3">
+              {subHubs.map((subHub) => (
+                <Link
+                  key={subHub.slug}
+                  to={`/${subHub.slug}`}
+                  className="rounded-lg border border-border p-4 transition hover:bg-muted"
+                >
+                  <div className="text-sm font-semibold">{subHub.title}</div>
+                  <p className="mt-2 text-sm text-muted-foreground">
+                    {subHub.metaDescription}
+                  </p>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
 
         <div className="grid gap-8">
           {Array.from(grouped.entries()).map(([category, items]) => (

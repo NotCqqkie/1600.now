@@ -114,19 +114,25 @@ function outputPathFor(route) {
 // page.content() captures the modulepreload links Vite injects at runtime for
 // dynamically imported chunks, which bakes lazy-loaded chunks into the HTML as
 // eager preloads. Strip preloads for heavy chunks that load on demand anyway
-// (practice-set data everywhere; the home page's below-the-fold demo graph) so
-// they stop competing with the critical path. Stylesheet links are kept — the
-// captured body needs them to paint correctly before hydration.
+// (practice-set data, the practice index, and the Firebase SDK chunks
+// everywhere; the bank question graph outside /bank; the home page's
+// below-the-fold demo graph) so they stop competing with the critical path.
+// Stylesheet links are kept — the captured body needs them to paint correctly
+// before hydration.
 const HEAVY_LAZY_CHUNK_PATTERN =
-  /\/assets\/(?:bank-practice-set-|bank-data-past-|bank-data-unofficial-|pastQuestionDifficultyMap)/;
+  /\/assets\/(?:bank-practice-set-|bank-practice-index-|bank-data-past-|bank-data-unofficial-|pastQuestionDifficultyMap|index\.esm-)/;
 const HOME_DEMO_CHUNK_PATTERN =
   /\/assets\/(?:Question-|questionBank-|mathRendering-|bank-data-images|bank-data-hidden|bank-categories)/;
+const BANK_QUESTION_GRAPH_PATTERN =
+  /\/assets\/(?:questionBank-|bank-data-images-)/;
 
 function pruneHeavyPreloads(html, route) {
+  const underBank = route === "/bank" || route.startsWith("/bank/");
   const pruned = html.replace(/<link\b[^>]*rel="modulepreload"[^>]*>/g, (linkTag) => {
     const href = linkTag.match(/href="([^"]*)"/)?.[1] ?? "";
     if (HEAVY_LAZY_CHUNK_PATTERN.test(href)) return "";
     if (route === "/" && HOME_DEMO_CHUNK_PATTERN.test(href)) return "";
+    if (!underBank && BANK_QUESTION_GRAPH_PATTERN.test(href)) return "";
     return linkTag;
   });
 
@@ -145,6 +151,18 @@ async function main() {
     console.error("dist/ not found. Run `npm run build` first.");
     process.exit(1);
   }
+
+  // firebase.json's catch-all rewrite serves spa-shell.html for URLs without a
+  // static snapshot. Emit it from the raw Vite shell before the "/" snapshot
+  // overwrites dist/index.html, minus the homepage canonical/robots tags so
+  // unknown URLs don't claim to canonicalize to the homepage — the client-side
+  // Seo component sets the correct meta per route.
+  const shellHtml = readFileSync(path.join(dist, "index.html"), "utf8");
+  const spaShellHtml = shellHtml
+    .replace(/[ \t]*<link\b[^>]*rel="canonical"[^>]*>\r?\n?/g, "")
+    .replace(/[ \t]*<meta\b[^>]*name="robots"[^>]*>\r?\n?/g, "")
+    .replace(/[ \t]*<meta\b[^>]*name="googlebot"[^>]*>\r?\n?/g, "");
+  writeFileSync(path.join(dist, "spa-shell.html"), spaShellHtml);
 
   const allRoutes = urlsFromSitemap();
   const routes = allRoutes;
@@ -195,16 +213,24 @@ async function main() {
       timeout: PRERENDER_NAVIGATION_TIMEOUT_MS,
     });
     await page.waitForFunction(
-      () => {
+      (routePath) => {
         const root = document.getElementById("root");
         if (!root) return false;
         if (root.querySelector(".animate-spin")) return false;
         const text = root.textContent?.replace(/\s+/g, " ").trim() ?? "";
         const emptyRouteShell =
           root.querySelector(":scope > .min-h-screen.bg-background") && text.length < 300;
-        return !emptyRouteShell && text.length > 300 && document.title.trim().length > 0;
+        const canonicalReady =
+          routePath === "/" ||
+          Boolean(
+            document.querySelector('link[rel="canonical"]')?.href.endsWith(routePath),
+          );
+        return (
+          !emptyRouteShell && text.length > 300 && document.title.trim().length > 0 && canonicalReady
+        );
       },
       { timeout: PRERENDER_READY_TIMEOUT_MS, polling: 100 },
+      route,
     );
     await page.evaluate(() => document.documentElement.scrollHeight);
     const html = await page.content();

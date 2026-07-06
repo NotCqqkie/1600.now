@@ -2,9 +2,7 @@ import { useEffect, useMemo } from "react";
 import { matchPath, useLocation } from "react-router-dom";
 import { hreflangGroup } from "@/lib/seo-data/hreflangData";
 import {
-  BRAND_ALTERNATE,
   BRAND_NAME,
-  BRAND_SAME_AS,
   BRAND_URL,
   brandedTitle,
 } from "@/lib/brand";
@@ -39,6 +37,7 @@ const routeMetadata: RouteMetadata[] = [
     title: "SAT Module Practice | Full Module Review",
     description:
       "Work through a full SAT practice module with official-style questions, pacing, and detailed explanations.",
+    noindex: true,
   },
   {
     pattern: "/modules/:moduleId/start",
@@ -120,6 +119,7 @@ const routeMetadata: RouteMetadata[] = [
       `${formatSubject(subject)} SAT Question Bank | Browse Practice Questions`,
     description: ({ subject }) =>
       `Browse ${formatSubject(subject)} SAT practice questions with filtering by skill, difficulty, and progress.`,
+    noindex: true,
   },
   {
     pattern: "/bank/:subject/:filterType/:filterValue",
@@ -127,6 +127,7 @@ const routeMetadata: RouteMetadata[] = [
       `${formatSubject(subject)} SAT Practice Questions | Filtered Bank`,
     description: ({ subject }) =>
       `Explore filtered ${formatSubject(subject)} SAT practice questions and focus on the exact skills you want to improve.`,
+    noindex: true,
   },
   {
     pattern: "/bank/:subject/:id",
@@ -176,7 +177,7 @@ const routeMetadata: RouteMetadata[] = [
   },
   {
     pattern: "/sat-vocabulary",
-    title: "SAT Vocabulary List | 260+ Digital SAT Words in Context",
+    title: "SAT Vocabulary List | 1,800+ Digital SAT Words in Context",
     description:
       "Complete Digital SAT vocabulary list with definitions, grouped by difficulty, covering every high-frequency SAT Words-in-Context word.",
   },
@@ -470,7 +471,7 @@ export const Seo = () => {
           "Digital SAT prep with question banks, modules, score tools, and explanations.";
 
     return {
-      title: pathname === "/" ? title : brandedTitle(title),
+      title: pathname === "/" || title.length >= 52 ? title : brandedTitle(title),
       description,
       noindex: matchedRoute?.noindex ?? false,
       canonicalUrl: `${SITE_URL}${pathname === "/" ? "/" : pathname}`,
@@ -503,6 +504,10 @@ export const Seo = () => {
     upsertMeta('meta[property="og:locale"]', {
       property: "og:locale",
       content: "en_US",
+    });
+    upsertMeta('meta[property="og:type"]', {
+      property: "og:type",
+      content: "website",
     });
     upsertMeta('meta[property="og:image"]', {
       property: "og:image",
@@ -559,44 +564,6 @@ export const Seo = () => {
         document.head.appendChild(el);
       });
     }
-
-    upsertJsonLd("website", {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      name: SITE_NAME,
-      alternateName: BRAND_ALTERNATE,
-      url: SITE_URL,
-      inLanguage: "en-US",
-      potentialAction: {
-        "@type": "SearchAction",
-        target: `${SITE_URL}/bank?q={search_term_string}`,
-        "query-input": "required name=search_term_string",
-      },
-    });
-
-    upsertJsonLd("organization", {
-      "@context": "https://schema.org",
-      "@type": "EducationalOrganization",
-      name: SITE_NAME,
-      alternateName: BRAND_ALTERNATE,
-      url: SITE_URL,
-      logo: `${SITE_URL}/optimized/logo_text_b_1200.png`,
-      description:
-        "1600.now is a free Digital SAT prep platform with a filterable question bank, full practice modules, a score calculator, vocabulary review, and detailed answer explanations.",
-      knowsAbout: [
-        "Digital SAT",
-        "SAT Math",
-        "SAT Reading and Writing",
-        "SAT vocabulary",
-        "SAT score calculator",
-        "SAT practice questions",
-      ],
-      audience: {
-        "@type": "EducationalAudience",
-        educationalRole: "student",
-      },
-      ...(BRAND_SAME_AS.length > 0 ? { sameAs: BRAND_SAME_AS } : {}),
-    });
 
     upsertJsonLd("webpage", {
       "@context": "https://schema.org",

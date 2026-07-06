@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 import { readFileSync, writeFileSync, statSync } from "node:fs";
+import { execFileSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
 
@@ -22,28 +23,40 @@ const mtimeIso = (rel) => {
   }
 };
 
-const MTIME_BLOG = mtimeIso("src/lib/seo-data/blogData.ts");
-const MTIME_SKILLS = mtimeIso("src/lib/seo-data/satSkillsData.ts");
-const MTIME_FAQ = mtimeIso("src/lib/seo-data/satFaqData.ts");
-const MTIME_LANDING = mtimeIso("src/lib/seo-data/landingVariants.ts");
-const MTIME_SCORES = mtimeIso("src/lib/seo-data/satScoreData.ts");
-const MTIME_PILLARS = mtimeIso("src/lib/seo-data/pillarData.ts");
-const MTIME_SCORE_GOALS = mtimeIso("src/lib/seo-data/scoreGoalData.ts");
-const MTIME_TOOLS = mtimeIso("src/lib/seo-data/satTools.ts");
-const MTIME_ASSETS = mtimeIso("src/lib/seo-data/linkableAssets.ts");
-const MTIME_COUNTRY = mtimeIso("src/lib/seo-data/countryHubData.ts");
-const MTIME_COLLEGES = mtimeIso("src/data/colleges.json");
-const MTIME_HOME = mtimeIso("src/pages/Home.tsx");
-const MTIME_SCORE_CALC = mtimeIso("src/pages/ScoreCalculator.tsx");
-const MTIME_MODULES = mtimeIso("src/pages/modules/Modules.tsx");
-const MTIME_BANK = mtimeIso("src/pages/bank/BankIndex.tsx");
-const MTIME_VOCAB = mtimeIso("src/pages/Vocab.tsx");
-const MTIME_VOCAB_INDEX = mtimeIso("src/pages/sat-info/SatVocabularyIndex.tsx");
-const MTIME_ANALYSIS = mtimeIso("src/pages/Analysis.tsx");
-const MTIME_HARD = mtimeIso("src/pages/bank/HardQuestionsIntro.tsx");
-const MTIME_PRIVACY = mtimeIso("src/pages/legal/PrivacyPolicy.tsx");
-const MTIME_TERMS = mtimeIso("src/pages/legal/TermsOfService.tsx");
-const MTIME_BROWSE = mtimeIso("src/pages/Index.tsx");
+const gitLastmod = (rel) => {
+  try {
+    const out = execFileSync("git", ["log", "-1", "--format=%cs", "--", rel], { cwd: root })
+      .toString()
+      .trim();
+    return out || mtimeIso(rel);
+  } catch {
+    return mtimeIso(rel);
+  }
+};
+
+const MTIME_BLOG = gitLastmod("src/lib/seo-data/blogData.ts");
+const MTIME_SKILLS = gitLastmod("src/lib/seo-data/satSkillsData.ts");
+const MTIME_FAQ = gitLastmod("src/lib/seo-data/satFaqData.ts");
+const MTIME_LANDING = gitLastmod("src/lib/seo-data/landingVariants.ts");
+const MTIME_SCORES = gitLastmod("src/lib/seo-data/satScoreData.ts");
+const MTIME_PILLARS = gitLastmod("src/lib/seo-data/pillarData.ts");
+const MTIME_SCORE_GOALS = gitLastmod("src/lib/seo-data/scoreGoalData.ts");
+const MTIME_TOOLS = gitLastmod("src/lib/seo-data/satTools.ts");
+const MTIME_ASSETS = gitLastmod("src/lib/seo-data/linkableAssets.ts");
+const MTIME_COUNTRY = gitLastmod("src/lib/seo-data/countryHubData.ts");
+const MTIME_COLLEGES = gitLastmod("src/data/colleges.json");
+const MTIME_HOME = gitLastmod("src/pages/Home.tsx");
+const MTIME_SCORE_CALC = gitLastmod("src/pages/ScoreCalculator.tsx");
+const MTIME_MODULES = gitLastmod("src/pages/modules/Modules.tsx");
+const MTIME_BANK = gitLastmod("src/pages/bank/BankIndex.tsx");
+const MTIME_VOCAB = gitLastmod("src/pages/Vocab.tsx");
+const MTIME_VOCAB_INDEX = gitLastmod("src/pages/sat-info/SatVocabularyIndex.tsx");
+const MTIME_ANALYSIS = gitLastmod("src/pages/Analysis.tsx");
+const MTIME_HARD = gitLastmod("src/pages/bank/HardQuestionsIntro.tsx");
+const MTIME_PRIVACY = gitLastmod("src/pages/legal/PrivacyPolicy.tsx");
+const MTIME_TERMS = gitLastmod("src/pages/legal/TermsOfService.tsx");
+const MTIME_BROWSE = gitLastmod("src/pages/Index.tsx");
+const MTIME_ABOUT = gitLastmod("src/pages/AboutPage.tsx");
 
 
 const skillSrc = read("src/lib/seo-data/satSkillsData.ts");
@@ -54,6 +67,12 @@ const blogSrc = read("src/lib/seo-data/blogData.ts");
 const blogSlugs = [...blogSrc.matchAll(/slug:\s*"([^"]+)"/g)].map((m) => m[1]);
 const blogDateBySlug = (() => {
   const pairRegex = /slug:\s*"([^"]+)"[\s\S]*?datePublished:\s*"([0-9]{4}-[0-9]{2}-[0-9]{2})"/g;
+  const out = {};
+  for (const m of blogSrc.matchAll(pairRegex)) out[m[1]] = m[2];
+  return out;
+})();
+const blogTitleBySlug = (() => {
+  const pairRegex = /slug:\s*"([^"]+)",\s*title:\s*"([^"]+)"/g;
   const out = {};
   for (const m of blogSrc.matchAll(pairRegex)) out[m[1]] = m[2];
   return out;
@@ -131,6 +150,7 @@ const pagesBucket = [
   { url: "/sat-faq", lastmod: MTIME_FAQ },
   { url: "/privacy", lastmod: MTIME_PRIVACY },
   { url: "/terms", lastmod: MTIME_TERMS },
+  { url: "/about", lastmod: MTIME_ABOUT },
 ];
 
 const skillsBucket = skillSlugs.map((s) => ({
@@ -220,6 +240,7 @@ const priorityFor = (u) => {
     return "0.7";
   if (u === "/college") return "0.8";
   if (u.startsWith("/college/")) return "0.6";
+  if (u === "/about") return "0.3";
   return "0.6";
 };
 
@@ -285,8 +306,47 @@ const indexXml =
 
 writeFileSync(path.join(root, "public/sitemap.xml"), indexXml);
 
+const xmlEscape = (s) =>
+  s
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&apos;");
+
+const rssItems = blogSlugs
+  .slice()
+  .sort((a, b) => (blogDateBySlug[b] ?? "").localeCompare(blogDateBySlug[a] ?? ""))
+  .map((s) => {
+    const link = `${SITE}/blog/${s}`;
+    const pubDate = new Date(`${blogDateBySlug[s] ?? MTIME_BLOG}T00:00:00Z`).toUTCString();
+    return (
+      `    <item>\n` +
+      `      <title>${xmlEscape(blogTitleBySlug[s] ?? s)}</title>\n` +
+      `      <link>${link}</link>\n` +
+      `      <pubDate>${pubDate}</pubDate>\n` +
+      `      <guid>${link}</guid>\n` +
+      `    </item>`
+    );
+  })
+  .join("\n");
+
+const rssXml =
+  `<?xml version="1.0" encoding="UTF-8"?>\n` +
+  `<rss version="2.0">\n` +
+  `  <channel>\n` +
+  `    <title>1600.now Blog</title>\n` +
+  `    <link>${SITE}/blog</link>\n` +
+  `    <description>Digital SAT prep articles, study strategies, and score guides from 1600.now.</description>\n` +
+  rssItems +
+  `\n  </channel>\n` +
+  `</rss>\n`;
+
+writeFileSync(path.join(root, "public/blog-rss.xml"), rssXml);
+
 const total = childResults.reduce((n, r) => n + r.count, 0);
 console.log(
   `Generated sitemap index with ${childResults.length} child sitemaps, ${total} URLs:\n` +
-    childResults.map((r) => `  ${r.filename}  (${r.count} URLs)`).join("\n"),
+    childResults.map((r) => `  ${r.filename}  (${r.count} URLs)`).join("\n") +
+    `\n  blog-rss.xml  (${blogSlugs.length} items)`,
 );

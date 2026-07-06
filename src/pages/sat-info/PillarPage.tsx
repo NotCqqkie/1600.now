@@ -15,11 +15,6 @@ const TABLE_ROW_CLASS = "border-t border-border";
 const TABLE_CELL_CLASS = "px-4 py-3 text-muted-foreground";
 const CARD_LINK_CLASS = "block rounded-xl border border-border p-4 transition hover:bg-muted";
 
-type RelatedSkill = NonNullable<ReturnType<typeof satSkillBySlug.get>>;
-
-const skillPracticeHref = (skill: RelatedSkill) =>
-  `/bank/${skill.section === "Math" ? "math" : "reading"}/skill/${encodeURIComponent(skill.officialSkill)}`;
-
 type PracticeSessionRowProps = {
   step: string;
   work: string;
@@ -170,7 +165,7 @@ const PillarPage = () => {
             {relatedSkills.map((skill) => (
               <li key={skill.slug}>
                 <PracticeCardLink
-                  to={skillPracticeHref(skill)}
+                  to={`/sat-skill/${skill.slug}`}
                   title={skill.name}
                   description={skill.shortDescription}
                 />

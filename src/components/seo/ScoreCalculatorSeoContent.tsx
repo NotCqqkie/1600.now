@@ -142,6 +142,14 @@ export const ScoreCalculatorSeoContent = () => {
           </li>
         </ul>
         <p className="mt-3 text-muted-foreground">
+          Once you have an estimate, browse the{" "}
+          <Link className="underline" to="/sat-score">
+            SAT score guides for every score from 400 to 1600
+          </Link>{" "}
+          to see the percentile, target colleges, and study plan for your
+          exact score.
+        </p>
+        <p className="mt-3 text-muted-foreground">
           Want to connect a score to college targets? Use the{" "}
           <Link className="underline" to="/what-sat-score-do-i-need">
             college score tool

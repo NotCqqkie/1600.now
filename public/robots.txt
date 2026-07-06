@@ -26,17 +26,7 @@ Disallow: /hard/
 Disallow: /*?q=
 Disallow: /*&q=
 
-# Common crawler hints (all follow the shared rules above).
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: Twitterbot
-Allow: /
-
-User-agent: facebookexternalhit
-Allow: /
+# AI crawlers (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, CCBot)
+# intentionally follow the * rules above: allowed on all public content.
 
 Sitemap: https://1600.now/sitemap.xml

@@ -10,6 +10,7 @@ import { EmailVerificationGuard } from "@/components/auth/EmailVerificationGuard
 import { AnalyticsPageTracker } from "@/components/AnalyticsPageTracker";
 import { ScrollToTop } from "@/components/ScrollToTop";
 import { LegalDisclaimer } from "@/components/brand/LegalDisclaimer";
+import { SiteFooter } from "@/components/SiteFooter";
 import { BrandLogo } from "@/components/brand/BrandLogo";
 import { Seo } from "@/components/seo/Seo";
 import { ErrorBoundary } from "@/components/ErrorBoundary";
@@ -92,6 +93,7 @@ const SatFaqIndex = preloadableLazy(() => import("./pages/sat-info/SatFaqIndex")
 const SatFaqPage = preloadableLazy(() => import("./pages/sat-info/SatFaqPage"));
 const PrivacyPolicy = preloadableLazy(() => import("./pages/legal/PrivacyPolicy"));
 const TermsOfService = preloadableLazy(() => import("./pages/legal/TermsOfService"));
+const AboutPage = preloadableLazy(() => import("./pages/AboutPage"));
 const TopLevelSeoPage = preloadableLazy(() => import("./pages/sat-info/TopLevelSeoPage"));
 const SatToActConverter = preloadableLazy(() => import("./pages/tools/SatToActConverter"));
 const SatPercentileCalculator = preloadableLazy(() => import("./pages/tools/SatPercentileCalculator"));
@@ -2099,6 +2101,7 @@ const routePreloaders: RoutePreloader[] = [
   { match: (pathname) => /^\/is-a-\d+-a-good-sat-score$/.test(pathname), preload: shellPreload(IsScoreGood) },
   { match: exactRoute("/privacy"), preload: shellPreload(PrivacyPolicy) },
   { match: exactRoute("/terms"), preload: shellPreload(TermsOfService) },
+  { match: exactRoute("/about"), preload: shellPreload(AboutPage) },
   { match: exactRoute("/sat-to-act-converter"), preload: shellPreload(SatToActConverter) },
   { match: exactRoute("/sat-percentile-calculator"), preload: shellPreload(SatPercentileCalculator) },
   { match: exactRoute("/psat-to-sat-predictor"), preload: shellPreload(PsatToSatPredictor) },
@@ -2340,6 +2343,7 @@ const AppRoutes = ({ location }: { location: Location }) => (
     ))}
     <Route path="/privacy" element={withShellSuspense(<PrivacyPolicy />)} />
     <Route path="/terms" element={withShellSuspense(<TermsOfService />)} />
+    <Route path="/about" element={withShellSuspense(<AboutPage />)} />
     <Route path="/sat-to-act-converter" element={withShellSuspense(<SatToActConverter />)} />
     <Route path="/sat-percentile-calculator" element={withShellSuspense(<SatPercentileCalculator />)} />
     <Route path="/psat-to-sat-predictor" element={withShellSuspense(<PsatToSatPredictor />)} />
@@ -2439,6 +2443,7 @@ const StableRoutes = () => {
       <AnalyticsPageTracker />
       <DeferredOnboardingTour />
       {renderedRoutes}
+      <SiteFooter />
       <LegalDisclaimer />
       <DeferredRootEffects />
     </>

@@ -6,7 +6,12 @@ import {
   buildBreadcrumbJsonLd,
   buildFaqJsonLd,
 } from "@/components/seo/PageSeo";
-import { colleges, formatPct, type College } from "@/lib/seo-data/collegesData";
+import {
+  colleges,
+  formatPct,
+  sitemapEligibleColleges,
+  type College,
+} from "@/lib/seo-data/collegesData";
 
 const COLLEGE_INDEX_URL = "https://1600.now/college";
 const DEFAULT_RESULT_LIMIT = 60;
@@ -36,6 +41,79 @@ const COLLEGE_INDEX_JSON_LD = [
   ]),
   buildFaqJsonLd(COLLEGE_FAQS),
 ];
+
+const STATE_NAMES: Record<string, string> = {
+  AL: "Alabama",
+  AK: "Alaska",
+  AZ: "Arizona",
+  AR: "Arkansas",
+  CA: "California",
+  CO: "Colorado",
+  CT: "Connecticut",
+  DE: "Delaware",
+  DC: "District of Columbia",
+  FL: "Florida",
+  GA: "Georgia",
+  HI: "Hawaii",
+  ID: "Idaho",
+  IL: "Illinois",
+  IN: "Indiana",
+  IA: "Iowa",
+  KS: "Kansas",
+  KY: "Kentucky",
+  LA: "Louisiana",
+  ME: "Maine",
+  MD: "Maryland",
+  MA: "Massachusetts",
+  MI: "Michigan",
+  MN: "Minnesota",
+  MS: "Mississippi",
+  MO: "Missouri",
+  MT: "Montana",
+  NE: "Nebraska",
+  NV: "Nevada",
+  NH: "New Hampshire",
+  NJ: "New Jersey",
+  NM: "New Mexico",
+  NY: "New York",
+  NC: "North Carolina",
+  ND: "North Dakota",
+  OH: "Ohio",
+  OK: "Oklahoma",
+  OR: "Oregon",
+  PA: "Pennsylvania",
+  PR: "Puerto Rico",
+  RI: "Rhode Island",
+  SC: "South Carolina",
+  SD: "South Dakota",
+  TN: "Tennessee",
+  TX: "Texas",
+  UT: "Utah",
+  VT: "Vermont",
+  VA: "Virginia",
+  VI: "US Virgin Islands",
+  WA: "Washington",
+  WV: "West Virginia",
+  WI: "Wisconsin",
+  WY: "Wyoming",
+};
+
+const COLLEGE_STATE_GROUPS = (() => {
+  const groups = new Map<string, College[]>();
+  for (const college of sitemapEligibleColleges) {
+    if (!college.state) continue;
+    const group = groups.get(college.state);
+    if (group) group.push(college);
+    else groups.set(college.state, [college]);
+  }
+  return [...groups.entries()]
+    .map(([state, stateColleges]) => ({
+      state,
+      label: STATE_NAMES[state] ?? state,
+      colleges: stateColleges.sort((a, b) => a.name.localeCompare(b.name)),
+    }))
+    .sort((a, b) => a.label.localeCompare(b.label));
+})();
 
 const matchesCollegeSearch = (college: College, normalizedQuery: string) =>
   college.name.toLowerCase().includes(normalizedQuery) ||
@@ -116,6 +194,42 @@ const CollegeIndex = () => {
           broader name.
         </p>
       )}
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold tracking-tight">
+          Browse colleges by state
+        </h2>
+        <p className="mt-3 text-muted-foreground">
+          Every college in this directory with published SAT ranges and
+          acceptance rates, grouped by state.
+        </p>
+        <div className="mt-4 space-y-2">
+          {COLLEGE_STATE_GROUPS.map(({ state, label, colleges: stateColleges }) => (
+            <details
+              key={state}
+              className="rounded-lg border border-border px-4 py-3"
+            >
+              <summary className="cursor-pointer">
+                <h3 className="inline text-base font-semibold">
+                  {label} ({stateColleges.length})
+                </h3>
+              </summary>
+              <ul className="mt-2 space-y-1">
+                {stateColleges.map((college) => (
+                  <li key={college.slug}>
+                    <Link
+                      to={`/college/${college.slug}`}
+                      className="text-sm hover:underline"
+                    >
+                      {college.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </details>
+          ))}
+        </div>
+      </section>
 
       <section className="mt-10">
         <h2 className="text-2xl font-semibold tracking-tight">FAQs</h2>

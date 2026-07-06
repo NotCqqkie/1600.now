@@ -30,6 +30,11 @@ export const colleges: College[] = rawColleges as College[];
 
 export const collegeBySlug = new Map(colleges.map((college) => [college.slug, college]));
 
+export const isSitemapEligible = (college: College): boolean =>
+  Boolean(college.sat25 && college.sat75 && college.acceptanceRate != null);
+
+export const sitemapEligibleColleges = colleges.filter(isSitemapEligible);
+
 export const formatUsd = (n: number | null): string =>
   n == null ? "—" : `$${Math.round(n).toLocaleString("en-US")}`;
 
