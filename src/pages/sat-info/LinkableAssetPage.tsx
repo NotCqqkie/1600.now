@@ -524,7 +524,9 @@ const getApplicationSection = (page: LinkableAsset) => {
     return {
       heading: "How to use this on real SAT questions",
       body: [
-        `${worksheetSkill.name} questions are easiest to improve when you practice the recognition step before the calculation step. First identify the ${worksheetSkill.domain} pattern, then choose the fastest method.`,
+        worksheetSkill.section === "Math"
+          ? `${worksheetSkill.name} questions are easiest to improve when you practice the recognition step before the calculation step. First identify the ${worksheetSkill.domain} pattern, then choose the fastest method.`
+          : `${worksheetSkill.name} questions are easiest to improve when you slow down before committing to an answer. First pin down what the ${worksheetSkill.domain} question is really asking, then check each choice against the text.`,
         `Inside the bank, start untimed until you can explain why the answer works. Then rerun the same skill under time pressure and review only the misses and guesses.`,
       ],
       list: worksheetSkill.keyTips,

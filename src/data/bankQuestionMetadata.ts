@@ -2,6 +2,8 @@ import { BANK_COUNT_INDEX } from "@/lib/generated/bankCountIndex.generated";
 import {
   hasActiveQuestionBankFilters,
   MAX_TIME_SPENT_FILTER_SECONDS,
+  MIN_SCORE_BAND,
+  MAX_SCORE_BAND,
   type QuestionBankFilters,
 } from "@/lib/questionBankFilters";
 import type { BankSourceFilter, BankSubject } from "@/data/bankTypes";
@@ -16,6 +18,7 @@ type BankQuestionMetaRow = [
   difficulty: "Easy" | "Medium" | "Hard" | null,
   active: boolean,
   bankVisible: boolean,
+  scoreBand: number | null,
 ];
 
 export interface BankQuestionMeta {
@@ -30,6 +33,7 @@ export interface BankQuestionMeta {
   difficulty: "Easy" | "Medium" | "Hard" | null;
   active: boolean;
   bankVisible: boolean;
+  scoreBand: number | null;
 }
 
 interface BankQuestionProgressSnapshot {
@@ -72,6 +76,7 @@ const toMeta = (row: BankQuestionMetaRow): BankQuestionMeta => ({
   difficulty: row[6],
   active: row[7],
   bankVisible: row[8],
+  scoreBand: row[9],
 });
 
 let metaRowsPromise: Promise<BankQuestionMeta[]> | null = null;
@@ -104,10 +109,11 @@ const isAnsweredIncorrectly = (progress: BankQuestionProgressSnapshot) =>
 const matchesBankSource = (question: BankQuestionMeta, bankSource: BankSourceFilter) =>
   bankSource === "all" || question.bankType === bankSource;
 
-const matchesDifficulty = (question: BankQuestionMeta, filters: QuestionBankFilters) => {
-  if (filters.difficulty.length === 0) return true;
-  const difficulty = (question.difficulty ?? "").toLowerCase();
-  return filters.difficulty.includes(difficulty as QuestionBankFilters["difficulty"][number]);
+const matchesScoreBand = (question: BankQuestionMeta, filters: QuestionBankFilters) => {
+  const [minBand, maxBand] = filters.scoreBandRange;
+  if (minBand <= MIN_SCORE_BAND && maxBand >= MAX_SCORE_BAND) return true;
+  if (question.scoreBand == null) return false;
+  return question.scoreBand >= minBand && question.scoreBand <= maxBand;
 };
 
 const matchesActiveFilter = (question: BankQuestionMeta, filters: QuestionBankFilters) => {
@@ -121,7 +127,7 @@ const questionMetaPassesFilters = (
   filters: QuestionBankFilters,
   getProgress: BankQuestionProgressLookup,
 ) => {
-  if (!matchesDifficulty(question, filters)) return false;
+  if (!matchesScoreBand(question, filters)) return false;
   if (!matchesActiveFilter(question, filters)) return false;
 
   const progress = getProgress(question);

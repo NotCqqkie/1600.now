@@ -580,19 +580,19 @@ const PracticeTestResults = () => {
                           <span className="text-xs font-medium uppercase tracking-[0.14em] text-muted-foreground">
                             {question.skill}
                           </span>
-                          {sourceQuestion?.difficulty && (
+                          {typeof sourceQuestion?.scoreBand === "number" && (
                             <span
                               className={cn(
                                 DIFFICULTY_BADGE_BASE_CLASS,
-                                sourceQuestion.difficulty === "Easy" &&
+                                sourceQuestion.scoreBand <= 4 &&
                                   "border-emerald-500/30 bg-emerald-500/10 text-emerald-600 dark:text-emerald-400",
-                                sourceQuestion.difficulty === "Medium" &&
+                                sourceQuestion.scoreBand >= 5 && sourceQuestion.scoreBand <= 7 &&
                                   "border-amber-500/30 bg-amber-500/10 text-amber-600 dark:text-amber-400",
-                                sourceQuestion.difficulty === "Hard" &&
+                                sourceQuestion.scoreBand >= 8 &&
                                   "border-rose-500/30 bg-rose-500/10 text-rose-600 dark:text-rose-400",
                               )}
                             >
-                              {sourceQuestion.difficulty}
+                              Band {sourceQuestion.scoreBand}
                             </span>
                           )}
                         </div>

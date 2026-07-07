@@ -141,6 +141,7 @@ try {
           question.inPracticeTests === true,
           getQuestionPreviewText(question),
           getQuestionSearchText(question),
+          typeof question.scoreBand === "number" ? question.scoreBand : null,
         ]),
       );
 

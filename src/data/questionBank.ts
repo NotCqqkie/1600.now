@@ -272,6 +272,8 @@ export interface BankQuestion {
   rationale?: string | null;
   questionImages?: ResolvedSatImage[];
   difficulty?: "Easy" | "Medium" | "Hard" | null;
+  /** Objective 1-10 difficulty band. Higher = harder. */
+  scoreBand?: number | null;
   /** Whether this question is currently used in practice tests. Does NOT control visibility in the question bank. */
   inPracticeTests?: boolean | null;
   /** Source question is retained for practice/test resolution but omitted from browseable bank pools. */
@@ -775,6 +777,7 @@ const normalizeQuestion = (
     rationale: normalizedRationale,
     questionImages: normalizedQuestionImages,
     difficulty: resolveDifficulty(source, q, metadata),
+    scoreBand: typeof q.scoreBand === "number" ? q.scoreBand : null,
     inPracticeTests: q.inPracticeTests ?? null,
     hiddenFromBank,
     category,

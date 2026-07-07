@@ -31,6 +31,8 @@ import {
   createDefaultQuestionBankFilters,
   hasActiveQuestionBankFilters,
   MAX_TIME_SPENT_FILTER_SECONDS,
+  MIN_SCORE_BAND,
+  MAX_SCORE_BAND,
   normalizeQuestionBankFilters,
   type QuestionBankFilters,
 } from "@/lib/questionBankFilters";
@@ -443,9 +445,26 @@ export const BankIndex = ({
     try {
       const raw = sessionStorage.getItem("bankFilterPreset");
       if (!raw) return readStoredBankFilters() ?? createDefaultQuestionBankFilters();
-      const preset = JSON.parse(raw) as { difficulties?: string[] };
+      const preset = JSON.parse(raw) as { difficulties?: string[]; scoreBandRange?: [number, number] };
+      if (preset.scoreBandRange) {
+        return normalizeQuestionBankFilters({ scoreBandRange: preset.scoreBandRange });
+      }
       if (preset.difficulties?.length) {
-        return normalizeQuestionBankFilters({ difficulty: preset.difficulties });
+        // Back-compat: map legacy Easy/Medium/Hard presets onto the 1-10 band scale.
+        const bandsByLabel: Record<string, [number, number]> = {
+          easy: [1, 4], medium: [4, 7], hard: [8, 10],
+        };
+        const ranges = preset.difficulties
+          .map((d) => bandsByLabel[d.toLowerCase()])
+          .filter(Boolean);
+        if (ranges.length) {
+          return normalizeQuestionBankFilters({
+            scoreBandRange: [
+              Math.min(...ranges.map((r) => r[0])),
+              Math.max(...ranges.map((r) => r[1])),
+            ],
+          });
+        }
       }
     } catch {
       return readStoredBankFilters() ?? createDefaultQuestionBankFilters();
@@ -609,9 +628,9 @@ export const BankIndex = ({
   const questionPassesFilters = useCallback((q: BankQuestion): boolean => {
     const progress = getQuestionProgress(q);
 
-    if (filters.difficulty.length > 0) {
-      const normalizedDifficulty = (q.difficulty ?? "").trim().toLowerCase();
-      if (!filters.difficulty.includes(normalizedDifficulty as typeof filters.difficulty[number])) return false;
+    const [minBand, maxBand] = filters.scoreBandRange;
+    if (minBand > MIN_SCORE_BAND || maxBand < MAX_SCORE_BAND) {
+      if (q.scoreBand == null || q.scoreBand < minBand || q.scoreBand > maxBand) return false;
     }
     if (filters.markedForReview !== "all") {
       if (filters.markedForReview === "yes" && !progress.isMarkedForReview) return false;
@@ -1218,9 +1237,9 @@ export const BankIndex = ({
                         <span className="truncate text-xs font-medium text-ink-muted" title={skillLabel === question.category.skill ? undefined : question.category.skill}>
                           {skillLabel}
                         </span>
-                        {question.difficulty && (
+                        {typeof question.scoreBand === "number" && (
                           <span className="shrink-0 rounded-full border border-ds-line px-1.5 py-0.5 text-[11px] font-medium leading-none text-ink-muted">
-                            {question.difficulty}
+                            Band {question.scoreBand}
                           </span>
                         )}
                       </div>

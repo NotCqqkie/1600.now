@@ -1530,6 +1530,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       sourceId: string;
       correctAnswer?: string | null;
       difficulty?: "Easy" | "Medium" | "Hard" | null;
+      scoreBand?: number | null;
       similarityTag?: string | null;
       similarityGroupLabel?: string | null;
       category?: {
@@ -1543,7 +1544,12 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
 
     const fields: QuestionInfoField[] = [
       { label: "Section", value: subjectLabel },
-      { label: "Difficulty", value: questionWithMetadata.difficulty || "Unassigned" },
+      {
+        label: "Difficulty",
+        value: typeof questionWithMetadata.scoreBand === "number"
+          ? `${questionWithMetadata.scoreBand} / 10`
+          : "Unassigned",
+      },
       { label: "Domain", value: questionWithMetadata.category?.domain || "Unassigned" },
       { label: "Skill", value: questionWithMetadata.category?.skill || "Unassigned" },
       { label: "Similarity Tag", value: questionWithMetadata.similarityGroupLabel || questionWithMetadata.similarityTag || "Unassigned" },
