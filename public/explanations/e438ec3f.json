@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Count tall trees",
-      "content": "Count trees that are $20$ feet or taller. Birch: $4\\cdot 9=36$. Maple: $7\\cdot 6=42$."
+      "title": "Count the tall trees",
+      "content": "The condition is that the tree is $20$ feet or taller. Count only trees in that group:<br/>$$\\text{birch tall}=4\\cdot9=36$$<br/>$$\\text{maple tall}=7\\cdot6=42$$"
     },
     {
-      "title": "Form the probability",
-      "content": "Given the tree is at least $20$ feet tall, the total is $36+42=78$. The maple probability is $\\frac{42}{78}=\\frac{7}{13}$. The answer is <strong>C</strong>."
+      "title": "Form the conditional probability",
+      "content": "Among trees at least $20$ feet tall, the total is:<br/>$$36+42=78$$<br/>The probability of maple is:<br/>$$\\frac{42}{78}=\\frac{7}{13}$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Track the experiment over time",
-      "content": "The passage begins with Samuel Pierce burying bottles of seeds in 1879, then explains that researchers have continued periodic checks, including a 2021 retrieval. The main purpose is to describe a long-running experiment and its continuing findings."
+      "title": "Identify the passage's purpose",
+      "content": "The passage describes Samuel Pierce burying seed bottles in 1879 and researchers checking them over decades, including recovery in 2021."
     },
     {
-      "title": "Reject purposes not in the text",
-      "content": "<ul><li>Choice B adds plant removal, which the passage never discusses.</li><li>Choice C says two experiments are compared, but only Pierce's experiment is described.</li><li>Choice D shifts to preservation difficulties, while the passage focuses on seed viability over time.</li></ul>The answer is <strong>A</strong>."
+      "title": "Eliminate unsupported purposes",
+      "content": "Choice B targets plant removal, Choice C invents a comparison of experiments, and Choice D highlights preservation difficulties. The passage focuses on an ongoing experiment. The answer is <strong>A</strong>."
     }
   ]
 }

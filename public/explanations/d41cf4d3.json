@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Use the zero point",
-      "content": "The graph passes through $(-25,0)$:<br/>$$0=a\\sqrt{-25+b}$$<br/>Since $f(25)\\lt0$, $a\\ne0$, so<br/>$$\\sqrt{-25+b}=0$$<br/>$$b=25$$"
+      "content": "The graph passes through $(-25,0)$, so\n$$0=a\\sqrt{-25+b}$$\nBecause $f(25)<0$, $a$ cannot be $0$. Therefore,\n$$\\sqrt{-25+b}=0$$\n$$b=25$$"
     },
     {
       "title": "Use the negative output",
-      "content": "Now substitute $b=25$ into $f(25)$:<br/>$$f(25)=a\\sqrt{50}$$<br/>Since $\\sqrt{50}\\gt0$ and $f(25)\\lt0$, $a\\lt0$."
+      "content": "Substitute $$b=25$$ into the value at $$x=25$$\n$$f(25)=a\\sqrt{25+25}=a\\sqrt{50}$$\nSince $$\\sqrt{50}>0$$ and $f(25)<0$, it follows that $a<0$."
     },
     {
       "title": "Compare the constants",
-      "content": "Since $a\\lt0$ and $b=25$, it follows that $a\\lt b$. This comparison must be true for the constants. The answer is <strong>D</strong>."
+      "content": "Since $a<0$ and $$b=25$$, the required comparison is\n$$a<b$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

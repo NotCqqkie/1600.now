@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Convert the arc fraction",
-      "content": "The $45^\\circ$ arc is the same fraction of the circle as $45^\\circ$ is of $360^\\circ$.\n$$\\frac{45}{360}=\\frac{1}{8}$$"
+      "title": "Find the arc fraction",
+      "content": "The arc has measure $45^\\circ$, so it is this fraction of the whole circle:<br/>$$\\frac{45}{360}=\\frac{1}{8}$$"
     },
     {
-      "title": "Scale to the full circumference",
-      "content": "The arc length $4$ inches is $\\frac{1}{8}$ of the circumference, so the full circumference must be $8$ times the arc length.\n$$4=\\frac{1}{8}C$$\n$$C=32$$\nThe answer is <strong>D</strong>."
+      "title": "Scale to the circle",
+      "content": "The $4$-inch arc is $\\frac{1}{8}$ of the circumference, so the full circumference is $8$ times as long.<br/>$$C=4\\cdot8=32$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

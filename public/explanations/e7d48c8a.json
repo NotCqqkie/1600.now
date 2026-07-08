@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the original data",
-      "content": "From the dot plot, the ordered data set is $1$, $1$, $1$, $1$, $2$, $2$, $2$, $2$, $2$, $3$, $3$, $4$, $5$. There are $13$ values."
+      "title": "List the original data",
+      "content": "From the dot plot, the ordered data set is:<br/>$$1,1,1,1,2,2,2,2,2,3,3,4,5$$<br/>There are $13$ values."
     },
     {
       "title": "Compare the medians",
@@ -13,7 +13,7 @@
     },
     {
       "title": "Compare the means",
-      "content": "The original sum is<br/>$$4(1)+5(2)+2(3)+4+5=29$$<br/>The original mean is $\\frac{29}{13}$, and the new mean is<br/>$$\\frac{29+11}{14}=\\frac{40}{14}$$<br/>Since $11$ is greater than the original mean, adding it increases the mean. The answer is <strong>C</strong>."
+      "content": "The original sum is:<br/>$$4(1)+5(2)+2(3)+4+5=29$$<br/>The original mean is $$\\frac{29}{13}$$, and the new mean is:<br/>$$\\frac{29+11}{14}=\\frac{40}{14}$$<br/>Since $$11$$ is greater than the original mean, adding it increases the mean. The answer is <strong>C</strong>."
     }
   ]
 }

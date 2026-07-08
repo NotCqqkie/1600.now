@@ -9,7 +9,7 @@
     },
     {
       "title": "Find each count",
-      "content": "First find $U$: $U=\\frac{6{,}380}{0.44}=14{,}500$. Then find $P$: $P=\\frac{14{,}500}{0.725}=20{,}000$."
+      "content": "First find $U$ from $G=0.44U$, then find $P$ from $U=0.725P$.<br/>$$U=\\frac{6{,}380}{0.44}=14{,}500$$<br/>$$P=\\frac{14{,}500}{0.725}=20{,}000$$"
     },
     {
       "title": "Add the counts",

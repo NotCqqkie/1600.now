@@ -9,7 +9,7 @@
     },
     {
       "title": "Take the reciprocal value",
-      "content": "Since $\\frac{x}{8}=6$, the reciprocal is\n$$\n\\frac{8}{x}=\\frac{1}{6}\n$$\nThe answer is <strong>B</strong>."
+      "content": "Since $$\\frac{x}{8}=6$$, the reciprocal is\n$$\n\\frac{8}{x}=\\frac{1}{6}\n$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

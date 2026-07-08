@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Find the hypotenuse",
-      "content": "The problem gives $AB=16$ and says side $AC$ is $25$ greater than side $AB$:<br/><br/>$$AC=16+25=41$$<br/><br/>Since angle $B$ is $90^\\circ$, side $AC$ is the hypotenuse."
+      "content": "The problem gives $AB=16$ and says $AC$ is $25$ greater than $AB$.\n$$\nAC=16+25=41\n$$\nSince angle $B$ is $90^\\circ$, side $AC$ is the hypotenuse."
     },
     {
-      "title": "Use the altitude relation",
-      "content": "In a right triangle, the altitude from the right angle to the hypotenuse gives the area in two equivalent ways:<br/><br/>$$\\frac{1}{2}AB\\cdot BC=\\frac{1}{2}AC\\cdot BD$$<br/><br/>Cancel $\\frac{1}{2}$ and divide by $BD\\cdot AB$:<br/><br/>$$\\frac{BC}{BD}=\\frac{AC}{AB}$$"
+      "title": "Use equal area formulas",
+      "content": "The area can be written using legs $AB$ and $BC$, or using hypotenuse $AC$ and altitude $BD$.\n$$\n\\frac{1}{2}AB\\cdot BC=\\frac{1}{2}AC\\cdot BD\n$$\nCancel \n$$\n\\frac{1}{2}\n$$ and divide by $BD\\cdot AB$.\n$$\n\\frac{BC}{BD}=\\frac{AC}{AB}\n$$"
     },
     {
-      "title": "Substitute the side lengths",
-      "content": "Use $AC=41$ and $AB=16$:<br/><br/>$$\\frac{BC}{BD}=\\frac{41}{16}$$<br/><br/>The answer is <strong>D</strong>."
+      "title": "Substitute the lengths",
+      "content": "Use $AC=41$ and $AB=16$.\n$$\n\\frac{BC}{BD}=\\frac{41}{16}\n$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

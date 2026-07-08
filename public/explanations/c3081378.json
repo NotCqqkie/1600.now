@@ -5,12 +5,12 @@
   "steps": [
     {
       "title": "Write the line equation",
-      "content": "The line passes through $(-20,0)$ and has slope $-\\frac{3}{4}$. Use point-slope form:<br/>$$y-0=-\\frac{3}{4}(x-(-20))$$<br/>$$y=-\\frac{3}{4}(x+20)$$",
+      "content": "The line passes through $(-20,0)$ and has slope $$-\\frac{3}{4}$$ Use point-slope form.\n$$y-0=-\\frac{3}{4}(x-(-20))$$\n$$y=-\\frac{3}{4}(x+20)$$",
       "formula": "$$y - y_1 = m(x - x_1)$$"
     },
     {
       "title": "Read the intercept",
-      "content": "Expand to slope-intercept form:<br/>$$y=-\\frac{3}{4}x-\\frac{3}{4}\\cdot20$$<br/>$$y=-\\frac{3}{4}x-15$$<br/>The constant term is the $y$-coordinate of the $y$-intercept. The answer is <strong>-15</strong>.",
+      "content": "Expand to slope-intercept form.\n$$y=-\\frac{3}{4}x-\\frac{3}{4}\\cdot20$$\n$$y=-\\frac{3}{4}x-15$$\nThe constant term is the $y$-coordinate of the $y$-intercept. The answer is <strong>-15</strong>.",
       "formula": "$$y = mx + b$$"
     }
   ]

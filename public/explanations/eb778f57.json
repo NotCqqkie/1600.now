@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Substitute the input",
-      "content": "Plug $x=3$ into $f(x)=x^3+19$. This is the requested input, so the function value will be $f(3)$.\n$f(3)=3^3+19$"
+      "content": "The question asks for $f(3)$, so substitute $3$ for $x$ in the function.<br/>$$f(3)=3^3+19$$"
     },
     {
-      "title": "Compute the function value",
-      "content": "Evaluate the power first, then add.\n$f(3)=27+19=46$\nThe output is $46$. The answer is <strong>46</strong>."
+      "title": "Evaluate the function",
+      "content": "Evaluate the exponent first, then add.<br/>$$f(3)=27+19=46$$<br/>The answer is <strong>46</strong>."
     }
   ]
 }

@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Notice the same line",
-      "content": "The second equation is the first equation multiplied by $4$.\n$$4(7x+6y)=4(5)$$\n$$28x+24y=20$$\nSo any point on $7x+6y=5$ lies on both graphs."
+      "content": "The second equation is the first equation multiplied by $4$.\n$$\n4(7x+6y)=4(5)\n$$\n$$\n28x+24y=20\n$$\nSo any point on $7x+6y=5$ lies on both graphs."
     },
     {
-      "title": "Check the parameterized point",
-      "content": "Use $x=-\\frac{6r}{7}+\\frac{5}{7}$ and $y=r$ in the simpler equation.\n$$7\\bigl(-\\frac{6r}{7}+\\frac{5}{7}\\bigr)+6r=-6r+5+6r$$\n$$-6r+5+6r=5$$"
+      "title": "Use the parameter as y",
+      "content": "Let $y=r$ in the simpler equation and solve for $x$.\n$$\n7x+6r=5\n$$\n$$\n7x=5-6r\n$$\n$$\nx=-\\frac{6r}{7}+\\frac{5}{7}\n$$"
     },
     {
       "title": "Calculator shortcut",
-      "content": "Define $L(x,y)=7x+6y$ and test the parameterized points. The matching point form keeps $L(x,y)=5$ for every value of $r$. The answer is <strong>D</strong>.",
+      "content": "Define $L(x,y)=7x+6y$ and test each parameterized point. The matching point form keeps $L(x,y)=5$ for every value of $r$. The answer is <strong>D</strong>.",
       "desmosExpressions": [
         "L(x,y)=7x+6y"
       ]

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the area formula",
-      "content": "The area of a triangle is $\\frac{1}{2}bh$. Here, the base is $36$ centimeters and the height is $80$ centimeters."
+      "title": "Use the triangle formula",
+      "content": "The area of a triangle is one-half the product of its base and height."
     },
     {
       "title": "Substitute and multiply",
-      "content": "Compute the area.<br/>$$\\frac{1}{2}(36)(80)=18(80)=1{,}440$$<br/>The answer is <strong>1440</strong>."
+      "content": "Use base $36$ centimeters and height $80$ centimeters.<br/>$$\\frac{1}{2}(36)(80)=18(80)=1{,}440$$<br/>The answer is <strong>1440</strong>."
     }
   ]
 }

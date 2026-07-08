@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Use the first point",
-      "content": "Since the graph passes through $(0,10)$,<br/>$$a^0+b=10$$<br/>Because $a^0=1$,<br/>$$b=9$$"
+      "content": "Substitute $(0,10)$ into $h(x)=a^x+b$:<br/>$$a^0+b=10$$<br/>$$1+b=10$$<br/>$$b=9$$"
     },
     {
       "title": "Use the second point",
-      "content": "Substitute $(-2,\\frac{226}{25})$ into the function:<br/>$$a^{-2}+9=\\frac{226}{25}$$<br/>$$a^{-2}=\\frac{1}{25}$$<br/>Thus $a^2=25$, and since $a$ is positive, $a=5$."
+      "content": "Substitute $(-2,\\frac{226}{25})$ and use $b=9$:<br/>$$a^{-2}+9=\\frac{226}{25}$$<br/>$$a^{-2}=\\frac{1}{25}$$<br/>$$a^2=25$$<br/>Since $a$ is positive, $a=5$."
     },
     {
-      "title": "Compute the product",
-      "content": "Multiply the two constants and evaluate the product:<br/>$$ab=5\\cdot9=45$$<br/>The answer is <strong>C</strong>."
+      "title": "Multiply the constants",
+      "content": "Now multiply the two constants:<br/>$$ab=5\\cdot9=45$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

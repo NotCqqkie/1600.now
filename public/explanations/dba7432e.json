@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Find the common multiplier",
-      "content": "As $x$ increases by $1$, the function values are multiplied by $\\frac{1}{2}$:<br/>$$5,\\ \\frac{5}{2},\\ \\frac{5}{4},\\ \\frac{5}{8}$$"
+      "content": "Each time $x$ increases by $1$, the function value is multiplied by $\\frac{1}{2}$:<br/>$$5,\\ \\frac{5}{2},\\ \\frac{5}{4},\\ \\frac{5}{8}$$"
     },
     {
-      "title": "Write the exponential model",
-      "content": "The starting value at $x=0$ is $5$, and the common multiplier is $\\frac{1}{2}$. Therefore,<br/>$$f(x)=5(\\frac{1}{2})^x$$"
+      "title": "Build the model",
+      "content": "The value at $x=0$ is $5$, and the multiplier is $\\frac{1}{2}$. Therefore,<br/>$$f(x)=5(\\frac{1}{2})^x$$"
     },
     {
-      "title": "Rewrite the base",
-      "content": "Since $\\frac{1}{2}=2^{-1}$, rewrite the expression using base $2$:<br/>$$5(\\frac{1}{2})^x=5(2^{-1})^x=5\\cdot2^{-x}$$<br/>The answer is <strong>D</strong>."
+      "title": "Rewrite with base two",
+      "content": "Use $\\frac{1}{2}=2^{-1}$:<br/>$$5(\\frac{1}{2})^x=5(2^{-1})^x$$<br/>$$5(2^{-1})^x=5\\cdot2^{-x}$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

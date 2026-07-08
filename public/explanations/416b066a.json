@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Locate the angle",
-      "content": "The angle $\\frac{2\\pi}{3}$ equals $120^\\circ$, so it is in quadrant II. Its reference angle is\n$$\n\\pi-\\frac{2\\pi}{3}=\\frac{\\pi}{3}\n$$"
+      "content": "The angle \n$$\n\\frac{2\\pi}{3}\n$$ equals $120^\\circ$, so it is in quadrant II. Its reference angle is\n$$\n\\pi-\\frac{2\\pi}{3}=\\frac{\\pi}{3}\n$$"
     },
     {
       "title": "Use the sine value",

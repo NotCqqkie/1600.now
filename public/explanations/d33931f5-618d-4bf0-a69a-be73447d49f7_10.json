@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Read the graph directions",
-      "content": "The parabola opens upward, so the coefficient of $x^2$ must be positive. The line rises from left to right, so its slope must also be positive."
+      "content": "The parabola opens upward, so the coefficient of $x^2$ is positive. The line rises from left to right, so its slope is positive."
     },
     {
-      "title": "Verify the intersection",
-      "content": "At the visible intersection $(4,7)$, the positive-coefficient equations work:<br/>$$\\frac{7}{16}(4)^2=\\frac{7}{16}\\cdot 16=7$$<br/>and<br/>$$\\frac{7}{4}(4)=7$$"
+      "title": "Check the intersection",
+      "content": "At the visible intersection $(4,7)$, both positive equations give the same value.<br/>$$\\frac{7}{16}(4)^2=7$$<br/>$$\\frac{7}{4}(4)=7$$"
     },
     {
-      "title": "Choose the positive pair",
-      "content": "The system with $y=\\frac{7}{16}x^2$ and $y=\\frac{7}{4}x$ matches the graph. The answer is <strong>D</strong>."
+      "title": "Choose the matching system",
+      "content": "The matching system is<br/>$$y=\\frac{7}{16}x^2$$<br/>$$y=\\frac{7}{4}x$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

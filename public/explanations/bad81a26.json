@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find the yearly multiplier",
-      "content": "The exponent is $\\frac{x}{12}$, so one year means $x=12$ months. Then\n$$\n(0.42)^{\\frac{12}{12}}=0.42\n$$\nAfter one year, the equipment is worth $42\\%$ of its previous value."
+      "content": "The exponent is $$\\frac{x}{12}$$, so one year means $$x=12$$ months. Then\n$$(0.42)^{\\frac{12}{12}}=0.42$$\nAfter one year, the equipment is worth $42\\%$ of its previous value."
     },
     {
       "title": "Convert to percent decrease",
-      "content": "If $42\\%$ of the value remains, the percent decrease is\n$$\n100\\%-42\\%=58\\%\n$$\nSo $p=58$. The answer is <strong>D</strong>."
+      "content": "If $42\\%$ of the value remains, the percent decrease is\n$$100\\%-42\\%=58\\%$$\nSo $$p=58$$ The answer is <strong>D</strong>."
     }
   ]
 }

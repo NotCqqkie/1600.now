@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+      "title": "Use sphere volume",
+      "content": "The volume of a sphere is<br/>$$V=\\frac{4}{3}\\pi r^3$$<br/>Here, the radius is<br/>$$r=19/5$$"
     },
     {
-      "title": "Identify the sphere volume formula",
-      "content": "The volume of a sphere is $V = \\frac{4}{3}\\pi r^3$, where $r$ is the radius. We're given $r = \\frac{19}{5}$ feet."
+      "title": "Cube the radius",
+      "content": "Compute the radius cubed.<br/>$$(19/5)^3=19^3/5^3=6{,}859/125$$"
     },
     {
       "title": "Calculate the volume",
-      "content": "Compute $r^3 = \\left(\\frac{19}{5}\\right)^3 = \\frac{19^3}{5^3} = \\frac{6859}{125}$.<br/><br/>Substitute into the formula:<br/>$$V = \\frac{4}{3}\\pi \\cdot \\frac{6859}{125} = \\frac{4 \\cdot 6859}{3 \\cdot 125}\\pi = \\frac{27436}{375}\\pi$$<br/>That matches the correct answer."
+      "content": "Substitute into the volume formula.<br/>$$V=\\frac{4}{3}\\pi\\cdot\\frac{6{,}859}{125}=\\frac{27{,}436\\pi}{375}$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

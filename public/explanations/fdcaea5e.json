@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Convert miles to gallons",
-      "content": "The van gets $32$ miles per gallon, so each mile uses $\\frac{1}{32}$ gallon. Driving $d$ miles uses $$\\frac{d}{32}$$ gallons."
+      "content": "The van gets $32$ miles per gallon, so each mile uses $\\frac{1}{32}$ gallon. Driving $d$ miles uses<br/>$$\\frac{d}{32}$$<br/>gallons."
     },
     {
-      "title": "Subtract gas used",
-      "content": "The tank starts with $12$ gallons, and the function should give the amount remaining. Subtract the gallons used from the starting amount: $$f(d)=12-\\frac{d}{32}$$ The answer is <strong>C</strong>."
+      "title": "Subtract the gas used",
+      "content": "The tank starts with $12$ gallons, and the function should give the gas remaining after driving $d$ miles.<br/>$$f(d)=12-\\frac{d}{32}$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

@@ -14,7 +14,7 @@
     },
     {
       "title": "Match the coefficient",
-      "content": "The radius is given as $w\\sqrt{3}$, so match the coefficient of $\\sqrt{3}$.\n$$\nw=\\frac{286}{3}\n$$\nThe answer is <strong>286/3</strong>."
+      "content": "The radius is given as \n$$\nw\\sqrt{3}\n$$, so match the coefficient of \n$$\n\\sqrt{3}\n$$\n$$\nw=\\frac{286}{3}\n$$\nThe answer is <strong>286/3</strong>."
     }
   ]
 }

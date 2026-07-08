@@ -9,7 +9,7 @@
     },
     {
       "title": "Use surface area",
-      "content": "Use $l=\\frac{5}{2}$, $w=12t$, and $h=12$. The three different face areas are:\n$$\nlw=30t\n$$\n$$\nlh=30\n$$\n$$\nwh=144t\n$$",
+      "content": "Use \n$$\nl=\\frac{5}{2}\n$$, $w=12t$, and $h=12$. The three different face areas are:\n$$\nlw=30t\n$$\n$$\nlh=30\n$$\n$$\nwh=144t\n$$",
       "formula": "$$SA = 2(lw + lh + wh)$$"
     },
     {

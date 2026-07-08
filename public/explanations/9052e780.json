@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: use the function table",
-      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $\\frac{29}{4}$, so the answer is <strong>B</strong>, $\\frac{29}{4}$. This is just a one-row lookup, and the arithmetic below confirms the table value."
+      "title": "Substitute the input",
+      "content": "Replace $x$ with $3$ in the function.\n$$\nh(3)=18(2)^{-3}+5\n$$"
     },
     {
-      "title": "Substitute the value x = 3",
-      "content": "Replace $x$ with $3$ in $$h(x) = 18 \\cdot 2^{-x} + 5.$$ This gives $$h(3) = 18 \\cdot 2^{-3} + 5.$$"
+      "title": "Evaluate the exponent",
+      "content": "A negative exponent means take the reciprocal.\n$$\n2^{-3}=\\frac{1}{8}\n$$\nSo\n$$\nh(3)=18\\cdot\\frac{1}{8}+5\n$$"
     },
     {
-      "title": "Compute the result",
-      "content": "Simplify: $$h(3) = \\frac{18}{8} + 5 = \\frac{9}{4} + 5 = \\frac{29}{4}.$$ That matches the correct answer."
+      "title": "Compute the value",
+      "content": "Finish the arithmetic.\n$$\n18\\cdot\\frac{1}{8}+5=\\frac{18}{8}+5=\\frac{9}{4}+\\frac{20}{4}=\\frac{29}{4}\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

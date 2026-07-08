@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Look for a decline over time",
-      "content": "The claim is that some lakes saw a decline in the duration of surface ice between the early 1980s and the mid-2000s. The supporting data must compare the same lake across those two periods and show fewer ice days in the later winter."
+      "title": "Look for a later decrease",
+      "content": "The claim is that some lakes saw a decline in surface-ice duration between the early 1980s and the mid-2000s. Supporting data must compare the same lake across time and show fewer days in the later winter."
     },
     {
       "title": "Avoid unrelated comparisons",
-      "content": "Choice A compares two different lakes and latitude, not a decline over time. Choice B shows Lake Baikal had more ice days later, which is an increase. Choice D also compares two lakes and typical duration rather than the same lake across years. The answer is <strong>C</strong>."
+      "content": "A and D compare different lakes and latitude rather than a decline over time. B shows Lake Baikal had more ice days later, which is an increase. The remaining option gives the same-lake decrease the claim requires. The answer is <strong>C</strong>."
     }
   ]
 }

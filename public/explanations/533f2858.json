@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Find weekly savings",
-      "content": "Maya saves $\\frac{3}{4}$ of $240$ dollars each week:\n$$\n\\frac{3}{4}(240)=180\n$$"
+      "content": "Maya saves \n$$\n\\frac{3}{4}\n$$ of $240$ dollars each week:\n$$\n\\frac{3}{4}(240)=180\n$$"
     },
     {
       "title": "Multiply by five weeks",

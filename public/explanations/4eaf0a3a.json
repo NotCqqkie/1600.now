@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Rewrite the radical",
-      "content": "A fifth root is the same as raising to the power $\\frac{1}{5}$:\n$$\n\\sqrt[5]{x^8y^8}=(x^8y^8)^{\\frac{1}{5}}\n$$"
+      "content": "A fifth root is the same as raising to the power \n$$\n\\frac{1}{5}\n$$:\n$$\n\\sqrt[5]{x^8y^8}=(x^8y^8)^{\\frac{1}{5}}\n$$"
     },
     {
       "title": "Combine the factors",

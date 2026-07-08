@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use point slope form",
-      "content": "The line has slope $-\\frac{4}{3}$ and passes through $(-9,0)$.\n$$y-0=-\\frac{4}{3}(x-(-9))$$\n$$y=-\\frac{4}{3}(x+9)$$"
+      "title": "Use point-slope form",
+      "content": "The line has slope \n$$\n-\\frac{4}{3}\n$$ and passes through $(-9,0)$.\n$$\ny-0=-\\frac{4}{3}(x-(-9))\n$$\n$$\ny=-\\frac{4}{3}(x+9)\n$$"
     },
     {
       "title": "Find the vertical intercept",
-      "content": "Set $x=0$ to find where the line crosses the vertical axis.\n$$y=-\\frac{4}{3}(0+9)$$\n$$y=-\\frac{36}{3}=-12$$\nThe answer is <strong>-12</strong>."
+      "content": "At the $y$-intercept, $x=0$.\n$$\ny=-\\frac{4}{3}(0+9)\n$$\n$$\ny=-\\frac{36}{3}=-12\n$$\nThe answer is <strong>-12</strong>."
     }
   ]
 }

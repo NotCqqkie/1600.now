@@ -4,17 +4,17 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply the vertical shift rule",
-      "content": "When a function is shifted up by $k$ units, we add $k$ to the function value. For a shift up by 8 units, we have:<br/>$$g(x) = f(x) + 8$$",
+      "title": "Apply the vertical shift",
+      "content": "Shifting a graph up by $8$ units adds $8$ to every output.\n$$\ng(x)=f(x)+8\n$$",
       "formula": "$$g(x) = f(x) + k$$"
     },
     {
-      "title": "Substitute and simplify",
-      "content": "Substitute $f(x) = 4x + 7$:<br/>$$g(x) = (4x + 7) + 8 = 4x + 15$$"
+      "title": "Substitute the function",
+      "content": "Use $f(x)=4x+7$ in the shifted function.\n$$\ng(x)=(4x+7)+8\n$$\n$$\ng(x)=4x+7+8\n$$"
     },
     {
-      "title": "Check all choices",
-      "content": "<ul><li><strong>\"$g(x) = 4x + 7 + 8$\"</strong>: Equals $4x + 15$, which is $f(x)$ shifted up by 8 ✓</li><li><strong>\"$g(x) = 4x + 7 - 8$\"</strong>: Equals $4x - 1$, a shift down by 8, not up ✗</li><li><strong>\"$g(x) = 4x + 56$\"</strong>: Shifts $f(x)$ up by 49 units (from $4x+7$ to $4x+56$), not 8 units. Eliminated ✗</li><li><strong>\"$g(x) = 32x + 7$\"</strong>: Multiplies the slope by 8 instead of adding 8 to the output ✗</li></ul>That matches the correct answer."
+      "title": "Match the shifted equation",
+      "content": "The equation that adds $8$ to $f(x)$ is $g(x)=4x+7+8$. The answer is <strong>A</strong>."
     }
   ]
 }

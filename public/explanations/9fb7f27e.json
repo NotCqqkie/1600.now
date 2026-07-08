@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Test the first equation",
-      "content": "Multiply the original equation by $1.5$: $1.5(7x+5y=2)$ gives $10.5x+7.5y=3$. So equation I is the same line as the original equation, giving infinitely many solutions."
+      "title": "Test equation one",
+      "content": "Multiply the original equation by $1.5$.\n$$\n1.5(7x+5y)=1.5(2)\n$$\n$$\n10.5x+7.5y=3\n$$\nEquation I is the same line, so it gives infinitely many solutions."
     },
     {
-      "title": "Test the second equation",
-      "content": "The original equation has slope $-\\frac{7}{5}$. Equation II can be rewritten as\n$$\ny=\\frac{7}{5}x-\\frac{2}{5}\n$$\nThe slopes are different, so these two lines intersect in exactly one solution."
+      "title": "Test equation two",
+      "content": "The original line has slope \n$$\n-\\frac{7}{5}\n$$ Rewrite equation II.\n$$\n10.5x-7.5y=3\n$$\n$$\ny=\\frac{7}{5}x-\\frac{2}{5}\n$$\nThe slopes are different, so the lines intersect once."
     },
     {
       "title": "Calculator shortcut",
-      "content": "Graphing the original equation with equations I and II shows that equation I overlaps the original line, while equation II crosses it once. Both equations could be the other equation in a system with at least one solution. The answer is <strong>C</strong>.",
+      "content": "Graphing the original equation with equations I and II shows that equation I overlaps the original line, while equation II crosses it once. Both equations could be the other equation. The answer is <strong>C</strong>.",
       "desmosExpressions": [
         "y = \\frac{2 - 7x}{5}",
         "y = \\frac{3 - 10.5x}{7.5}",

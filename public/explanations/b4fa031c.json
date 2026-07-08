@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Use the doubling factor",
-      "content": "The function is<br/>$$f(t)=24{,}000(2)^{\\frac{t}{360}}$$The population doubles when the factor $2^{\\frac{t}{360}}$ becomes $2^1$."
+      "content": "The function is\n$$f(t)=24{,}000(2)^{\\frac{t}{360}}$$\nThe population doubles when the factor $2^{\\frac{t}{360}}$ becomes $2^1$."
     },
     {
       "title": "Solve for the time",
-      "content": "Set the exponent equal to $1$:<br/>$$\\frac{t}{360}=1$$<br/>$$t=360$$This is the number of minutes needed to double. The answer is <strong>B</strong>."
+      "content": "Set the exponent equal to $1$:\n$$\\frac{t}{360}=1$$\n$$t=360$$\nThis is the number of minutes needed to double. The answer is <strong>B</strong>."
     }
   ]
 }

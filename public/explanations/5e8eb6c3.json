@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Set up the equation",
-      "content": "Since $k(s)=\\sqrt{s+144}$ and $k(45p)=p$, substitute $45p$ for $s$.\n$$\n\\sqrt{45p+144}=p\n$$"
+      "content": "Since \n$$\nk(s)=\\sqrt{s+144}\n$$ and $k(45p)=p$, substitute $45p$ for $s$.\n$$\n\\sqrt{45p+144}=p\n$$"
     },
     {
       "title": "Form the quadratic",

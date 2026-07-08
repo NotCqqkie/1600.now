@@ -9,7 +9,7 @@
     },
     {
       "title": "Evaluate the function",
-      "content": "Find the output at $x=0$.\n$$\nf(0)=7(0)-\\frac{1}{9}=-\\frac{1}{9}\n$$\nSo the intercept is $(0,-\\frac{1}{9})$. The answer is <strong>A</strong>."
+      "content": "Find the output at $x=0$.\n$$\nf(0)=7(0)-\\frac{1}{9}=-\\frac{1}{9}\n$$\nSo the intercept is \n$$\n(0,-\\frac{1}{9})\n$$ The answer is <strong>A</strong>."
     }
   ]
 }

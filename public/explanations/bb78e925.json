@@ -4,17 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
-    },
-    {
-      "title": "Recognize the complementary angle relationship",
-      "content": "In a right triangle, the two non-right angles must sum to 90 degrees (since all three angles sum to 180 degrees and one is already 90 degrees). The problem confirms $A + B = 90^{\\circ}$, so these angles are complementary. When two angles sum to 90 degrees, there's a direct relationship between their sine and cosine:",
+      "title": "Use complementary angles",
+      "content": "In a right triangle, the two non-right angles are complementary. The problem states that $$A+B=90^\\circ$$, so\n$$B=90^\\circ-A$$",
       "formula": "$$\\sin A = \\cos(90^{\\circ} - A)$$"
     },
     {
-      "title": "Apply the complementary angle identity",
-      "content": "Since $A + B = 90^{\\circ}$, we have $B = 90^{\\circ} - A$. Therefore: $$\\sin(A) = \\cos(90^{\\circ} - A) = \\cos(B)$$ We're given that $\\sin(A) = \\frac{\\sqrt{7}}{4}$, so immediately: $$\\cos(B) = \\frac{\\sqrt{7}}{4}$$ That matches the correct answer."
+      "title": "Match sine and cosine",
+      "content": "The cosine of an angle equals the sine of its complement. Therefore\n$$\\cos B=\\cos(90^\\circ-A)=\\sin A$$\nSince $$\\sin A=\\frac{\\sqrt{7}}{4}$$, the same value equals $\\cos B$. The answer is <strong>A</strong>."
     }
   ]
 }

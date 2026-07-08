@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Find the sphere volume",
-      "content": "The volume of a sphere is $V=\\frac{4}{3}\\pi r^3$. With radius $4$, the volume is $V=\\frac{4}{3}\\pi(4)^3=\\frac{256\\pi}{3}$ cubic inches."
+      "content": "The volume of a sphere is \n$$\nV=\\frac{4}{3}\\pi r^3\n$$ With radius $4$,\n$$\nV=\\frac{4}{3}\\pi(4)^3\n$$\n$$\nV=\\frac{256\\pi}{3}\n$$"
     },
     {
-      "title": "Multiply by the density",
-      "content": "Mass equals density times volume. Use the density $48$ ounces per cubic inch: $48(\\frac{256\\pi}{3})=16(256\\pi)=4{,}096\\pi$ ounces."
+      "title": "Multiply by density",
+      "content": "Mass equals density times volume.\n$$\n48(\\frac{256\\pi}{3})=16(256\\pi)=4{,}096\\pi\n$$"
     },
     {
-      "title": "Match the mass to choices",
-      "content": "The mass is $4{,}096\\pi$ ounces, which is the same as $\\frac{4{,}096\\pi}{1}$. The answer is <strong>D</strong>."
+      "title": "Match the mass",
+      "content": "The mass is $4{,}096\\pi$ ounces, which is the same as \n$$\n\\frac{4{,}096\\pi}{1}\n$$ The answer is <strong>D</strong>."
     }
   ]
 }

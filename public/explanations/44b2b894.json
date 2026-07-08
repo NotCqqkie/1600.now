@@ -13,7 +13,7 @@
     },
     {
       "title": "Use the given area",
-      "content": "The rectangle's area is $1{,}156\\sqrt{3}$:\n$$\nab=1{,}156\\sqrt{3}\n$$\n$$\na(a\\sqrt{3})=1{,}156\\sqrt{3}\n$$\n$$\na^2=1{,}156\n$$\n$$\na=34\n$$"
+      "content": "The rectangle's area is \n$$\n1{,}156\\sqrt{3}\n$$:\n$$\nab=1{,}156\\sqrt{3}\n$$\n$$\na(a\\sqrt{3})=1{,}156\\sqrt{3}\n$$\n$$\na^2=1{,}156\n$$\n$$\na=34\n$$"
     },
     {
       "title": "Find the diameter",

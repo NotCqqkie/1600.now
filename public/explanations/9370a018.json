@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Identify input and output",
-      "content": "In $K(v)=\\frac{1}{2}(38)(v^2)$, the input $v$ is speed in meters per second, and the output $K(v)$ is kinetic energy in joules."
+      "content": "In \n$$\nK(v)=\\frac{1}{2}(38)(v^2)\n$$, the input $v$ is speed in meters per second, and the output $K(v)$ is kinetic energy in joules."
     },
     {
       "title": "Interpret the function value",

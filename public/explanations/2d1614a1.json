@@ -9,11 +9,11 @@
     },
     {
       "title": "Find the exponent change",
-      "content": "The exponent in the model is\n$$\n\\frac{4}{6}t=\\frac{2}{3}t\n$$\nOver $\\frac{3}{2}$ years, the exponent changes by\n$$\n\\frac{2}{3}\\cdot\\frac{3}{2}=1\n$$\nSo every $18$ months, the population is multiplied by $1.05$."
+      "content": "The exponent in the model is\n$$\n\\frac{4}{6}t=\\frac{2}{3}t\n$$\nOver $$\\frac{3}{2}$$ years, the exponent changes by\n$$\n\\frac{2}{3}\\cdot\\frac{3}{2}=1\n$$\nSo every $18$ months, the population is multiplied by $1.05$."
     },
     {
       "title": "Convert to percent increase",
-      "content": "A multiplier of $1.05$ means\n$$\n(1.05-1)\\cdot 100\\%=5\\%\n$$\nThe answer is <strong>C</strong>."
+      "content": "A multiplier of $1.05$ means\n$$\n(1.05-1)\\cdot 100\\%=5\\%\n$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

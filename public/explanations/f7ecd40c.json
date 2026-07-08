@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read circle information",
-      "content": "Circle $M$ has equation $(x-5)^2+(y-8)^2=9$, so its center is $(5,8)$ and its radius is<br/>$$\\sqrt{9}=3$$"
+      "title": "Read the center and radius",
+      "content": "Circle $M$ has equation<br/>$$(x-5)^2+(y-8)^2=9$$<br/>So its center is $(5,8)$ and its radius is<br/>$$\\sqrt{9}=3$$"
     },
     {
       "title": "Double the radius",
-      "content": "Circle $P$ has the same center and twice the radius of circle $M$. <br/>$$2\\cdot3=6$$<br/>The equation must use $r^2=6^2=36$ with center $(5,8)$. The answer is <strong>B</strong>."
+      "content": "Circle $P$ has the same center, but its radius is twice as large.<br/>$$2\\cdot3=6$$<br/>In a circle equation, the right side is $r^2$, so the new right side is<br/>$$6^2=36$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

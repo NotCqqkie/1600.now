@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Substitute for y",
-      "content": "Use $y=3x+9$ in the second equation.<br/>$3(3x+9)=8x-6$"
+      "content": "Use $y=3x+9$ in the second equation.<br/>$$3(3x+9)=8x-6$$"
     },
     {
-      "title": "Find both coordinates",
-      "content": "Solve for $x$, then use the first equation to find $y$.<br/>$9x+27=8x-6$<br/>$x=-33$<br/>$y=3(-33)+9=-90$"
+      "title": "Find the coordinates",
+      "content": "Solve for $x$, then use the first equation to find $y$.<br/>$$9x+27=8x-6$$<br/>$$x=-33$$<br/>$$y=3(-33)+9=-90$$"
     },
     {
       "title": "Compute the difference",
-      "content": "Now compute the requested difference.<br/>$x-y=-33-(-90)=57$<br/>The answer is <strong>D</strong>.",
+      "content": "Now subtract the coordinates in the requested order.<br/>$$x-y=-33-(-90)=57$$<br/>The answer is <strong>D</strong>.",
       "desmosExpressions": [
         "y = 3x + 9",
         "3y = 8x - 6"

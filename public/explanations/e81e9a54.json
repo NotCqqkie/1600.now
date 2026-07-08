@@ -10,7 +10,7 @@
     },
     {
       "title": "Apply the given measure",
-      "content": "Angles $r$ and $s$ are opposite angles in the diagram, so they have the same measure. Since $r=61$, $s=61$. The answer is <strong>61</strong>."
+      "content": "Angles $r$ and $s$ are opposite angles in the diagram, so:<br/>$$s=r$$<br/>Given $r=61$, The answer is <strong>61</strong>."
     }
   ]
 }

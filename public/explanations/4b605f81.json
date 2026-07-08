@@ -13,7 +13,7 @@
     },
     {
       "title": "Interpret the minimum",
-      "content": "Because $\\frac{1}{9}>0$, the parabola opens upward, so the vertex is the lowest point. Its height coordinate is $3$, meaning the toy car's minimum height was $3$ inches above the ground.\nThe answer is <strong>A</strong>."
+      "content": "Because \n$$\n\\frac{1}{9}>0\n$$, the parabola opens upward, so the vertex is the lowest point. Its height coordinate is $3$, meaning the toy car's minimum height was $3$ inches above the ground.\nThe answer is <strong>A</strong>."
     }
   ]
 }

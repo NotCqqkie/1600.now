@@ -4,7 +4,7 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the height formula",
+      "title": "Use the equilateral height",
       "content": "For an equilateral triangle with side length $s$, the height is<br/>$$h=\\frac{s\\sqrt{3}}{2}$$<br/>The given height is $49\\sqrt{3}$."
     },
     {

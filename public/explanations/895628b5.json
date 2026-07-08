@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set the equations equal",
-      "content": "Both expressions equal $y$, so set them equal:\n$$(x-3)(x+5)=8x-24$$\nFactor the right side:\n$$(x-3)(x+5)=8(x-3)$$"
+      "title": "Set equal expressions",
+      "content": "Both expressions equal $y$, so set them equal.\n$$(x-3)(x+5)=8x-24$$\nFactor the right side.\n$$(x-3)(x+5)=8(x-3)$$"
     },
     {
-      "title": "Solve for the intersection",
-      "content": "Move all terms to one side and factor:\n$$(x-3)(x+5)-8(x-3)=0$$\n$$(x-3)(x-3)=0$$\n$$x=3$$\nThen $y=8(3)-24=0$. The answer is <strong>C</strong>."
+      "title": "Solve the intersection",
+      "content": "Move all terms to one side and factor.\n$$(x-3)(x+5)-8(x-3)=0$$\n$$(x-3)(x-3)=0$$\n$$x=3$$\nThen \n$$\ny=8(3)-24=0\n$$ The answer is <strong>C</strong>."
     }
   ]
 }

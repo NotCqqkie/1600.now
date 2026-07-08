@@ -9,7 +9,7 @@
     },
     {
       "title": "Rewrite the second fraction",
-      "content": "Multiply the second fraction by $\\frac{\\pi-x}{\\pi-x}$.\n$$\n\\frac{18\\pi}{x+\\pi}=\\frac{18\\pi(\\pi-x)}{\\pi^2-x^2}\n$$"
+      "content": "Multiply the second fraction by \n$$\n\\frac{\\pi-x}{\\pi-x}\n$$\n$$\n\\frac{18\\pi}{x+\\pi}=\\frac{18\\pi(\\pi-x)}{\\pi^2-x^2}\n$$"
     },
     {
       "title": "Subtract the numerators",

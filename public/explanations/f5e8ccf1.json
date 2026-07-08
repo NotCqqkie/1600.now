@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "X-intercepts come from setting the factored form to zero",
-      "content": "X-intercepts are points where $f(x) = 0$. Since the function is already factored, each factor can be set equal to zero to find all the zeros."
+      "title": "Set each factor to zero",
+      "content": "An $x$-intercept occurs where $f(x)=0$. Since the function is already factored, set each factor equal to $0$."
     },
     {
-      "title": "Solve each factor for x",
-      "content": "Setting each of the three factors equal to zero:<br/>$$x + 5 = 0 \\quad \\Rightarrow \\quad x = -5$$<br/>$$x - 2 = 0 \\quad \\Rightarrow \\quad x = 2$$<br/>$$3x - 4 = 0 \\quad \\Rightarrow \\quad x = \\tfrac{4}{3}$$<br/>The x-intercepts are $(-5, 0)$, $(2, 0)$, and $\\left(\\tfrac{4}{3}, 0\\right)$."
+      "title": "Find the intercepts",
+      "content": "Solve each factor.<br/>$$x+5=0$$<br/>$$x=-5$$<br/>$$x-2=0$$<br/>$$x=2$$<br/>$$3x-4=0$$<br/>$$x=\\frac{4}{3}$$<br/>So the $x$-intercepts are $(-5,0)$, $(2,0)$, and $(\\frac{4}{3},0)$."
     },
     {
-      "title": "Identify the choice that is NOT an x-intercept",
-      "content": "Comparing our three zeros with the answer choices: the remaining alternative gives $\\left(-\\tfrac{3}{4}, 0\\right)$. This value does not match any of our zeros ($-5$, $2$, or $\\tfrac{4}{3}$), so it is not an x-intercept. That matches the correct answer."
+      "title": "Pick the missing intercept",
+      "content": "The point $(-\\frac{3}{4},0)$ is not in that list, so it is not an $x$-intercept of the graph. The answer is <strong>B</strong>."
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Read the yearly multiplier",
-      "content": "The exponent is $\\frac{x}{12}$, so after $12$ months the exponent increases by $1$. That means the yearly multiplier is $0.27$."
+      "content": "The exponent is $\\frac{x}{12}$, so after $12$ months the exponent increases by $1$. That means the value is multiplied by $0.27$ each year."
     },
     {
-      "title": "Convert retained value to loss",
-      "content": "A multiplier of $0.27$ means the machine keeps $27\\%$ of its value each year. The percent decrease is<br/>$$100\\%-27\\%=73\\%$$The answer is <strong>D</strong>."
+      "title": "Convert retention to decrease",
+      "content": "A multiplier of $0.27$ means the machine keeps $27\\%$ of its value each year. The percent decrease is:<br/>$$100\\%-27\\%=73\\%$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

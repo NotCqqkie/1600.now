@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Find the target count",
-      "content": "The pair must total $\\frac{2}{5}$ of the $700$ flowers:\n$$\n\\frac{2}{5}\\cdot700=280\n$$"
+      "content": "The pair must total \n$$\n\\frac{2}{5}\n$$ of the $700$ flowers:\n$$\n\\frac{2}{5}\\cdot700=280\n$$"
     },
     {
       "title": "Compare the graph values",

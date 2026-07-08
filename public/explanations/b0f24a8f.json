@@ -8,8 +8,8 @@
       "content": "If an exponential function is written as\n$$f(x)=a\\cdot64^{x/c}$$\nthen increasing $x$ by $c$ multiplies the function value by $64$:\n$$f(x+c)=a\\cdot64^{(x+c)/c}=a\\cdot64^{x/c}\\cdot64$$"
     },
     {
-      "title": "Look for the displayed coefficient",
-      "content": "The form that displays $\\frac{1}{c}$ as the coefficient of $x$ should show base $64$ with an exponent of the form $\\frac{1}{c}x$. The matching form has:\n$$(4^3)^{\\frac{1}{8}x}=64^{\\frac{1}{8}x}$$"
+      "title": "Look for the coefficient",
+      "content": "The form that displays $\\frac{1}{c}$ as the coefficient of $x$ should show base $64$ with an exponent of the form $\\frac{1}{c}x$. The matching form has\n$$(4^3)^{\\frac{1}{8}x}=64^{\\frac{1}{8}x}$$"
     },
     {
       "title": "Match the required form",

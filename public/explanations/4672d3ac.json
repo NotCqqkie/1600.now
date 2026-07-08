@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Use perpendicular slopes",
-      "content": "A tangent line is perpendicular to the radius at the point of tangency. Since the tangent slope is $\\frac{7}{4}$, the radius slope is\n$$\n-\\frac{4}{7}\n$$"
+      "content": "A tangent line is perpendicular to the radius at the point of tangency. Since the tangent slope is \n$$\n\\frac{7}{4}\n$$, the radius slope is\n$$\n-\\frac{4}{7}\n$$"
     },
     {
       "title": "Write the radius slope",
@@ -13,7 +13,7 @@
     },
     {
       "title": "Solve for a",
-      "content": "Set the radius slope equal to $-\\frac{4}{7}$:\n$$\n\\frac{-15}{a-3}=-\\frac{4}{7}\n$$\n$$\n-105=-4(a-3)\n$$\n$$\na=\\frac{117}{4}\n$$\nThe answer is <strong>D</strong>."
+      "content": "Set the radius slope equal to \n$$\n-\\frac{4}{7}\n$$:\n$$\n\\frac{-15}{a-3}=-\\frac{4}{7}\n$$\n$$\n-105=-4(a-3)\n$$\n$$\na=\\frac{117}{4}\n$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

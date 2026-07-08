@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Check the two equations",
-      "content": "The second equation is just $3$ times the first:<br/>$$15x+21y=33$$<br/>$$5x+7y=11$$So both equations describe the same line."
+      "title": "Compare the equations",
+      "content": "The second equation is $3$ times the first equation.<br/>$$3(5x+7y)=3(11)$$<br/>$$15x+21y=33$$<br/>So both equations describe the same line."
     },
     {
-      "title": "Solve for y",
-      "content": "Use the first equation and let $x=r$:<br/>$$5r+7y=11$$<br/>$$7y=11-5r$$<br/>$$y=-\\frac{5r}{7}+\\frac{11}{7}$$"
+      "title": "Write the point form",
+      "content": "Use the first equation and let $x=r$.<br/>$$5r+7y=11$$<br/>$$7y=11-5r$$<br/>$$y=-\\frac{5r}{7}+\\frac{11}{7}$$"
     },
     {
-      "title": "Write the point",
-      "content": "For each real number $r$, the point is $(r,-\\frac{5r}{7}+\\frac{11}{7})$. The answer is <strong>A</strong>."
+      "title": "Choose the matching point",
+      "content": "For each real number $r$, the point on both graphs is<br/>$$(r,-\\frac{5r}{7}+\\frac{11}{7})$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Use the side ratio",
-      "content": "In an isosceles right triangle, if the hypotenuse is $h$, then each leg is $\\frac{h}{\\sqrt{2}}$. The two legs together have length\n$$2\\cdot\\frac{h}{\\sqrt{2}}=h\\sqrt{2}$$"
+      "content": "In an isosceles right triangle, if the hypotenuse is $h$, then each leg is $$\\frac{h}{\\sqrt{2}}$$ The two legs together have length\n$$2\\cdot\\frac{h}{\\sqrt{2}}=h\\sqrt{2}$$"
     },
     {
       "title": "Match the perimeter",
-      "content": "The perimeter is\n$$h+h\\sqrt{2}=h(1+\\sqrt{2})$$\nThe given perimeter is\n$$48+48\\sqrt{2}=48(1+\\sqrt{2})$$\nSo $h=48$. The answer is <strong>C</strong>."
+      "content": "The perimeter is\n$$h+h\\sqrt{2}=h(1+\\sqrt{2})$$\nThe given perimeter is\n$$48+48\\sqrt{2}=48(1+\\sqrt{2})$$\nSo $$h=48$$ The answer is <strong>C</strong>."
     }
   ]
 }

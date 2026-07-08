@@ -9,7 +9,7 @@
     },
     {
       "title": "Use the matching values",
-      "content": "Both given expressions equal $92$, and $\\frac{x}{y}=92$.\n$$\n\\frac{c}{4}\\cdot92=92\n$$\n$$\n\\frac{c}{4}=1\n$$\n$$\nc=4\n$$\nThe answer is <strong>4</strong>."
+      "content": "Both given expressions equal $92$, and \n$$\n\\frac{x}{y}=92\n$$\n$$\n\\frac{c}{4}\\cdot92=92\n$$\n$$\n\\frac{c}{4}=1\n$$\n$$\nc=4\n$$\nThe answer is <strong>4</strong>."
     }
   ]
 }

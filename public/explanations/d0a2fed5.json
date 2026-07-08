@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve for p",
-      "content": "Subtract $21$, then multiply by $\\frac{8}{5}$:\n$$\n\\frac{5}{8}p+21=61\n$$\n$$\n\\frac{5}{8}p=40\n$$\n$$\np=64\n$$"
+      "title": "Solve for the variable",
+      "content": "Subtract $21$ and solve.<br/>$$\\frac{5}{8}p=40$$<br/>$$p=64$$"
     },
     {
-      "title": "Evaluate the target",
-      "content": "The question asks for $8p$:\n$$\n8p=8(64)=512\n$$\nThe answer is <strong>512</strong>."
+      "title": "Evaluate the requested product",
+      "content": "Multiply by $8$.<br/>$$8p=8(64)=512$$<br/>The answer is <strong>512</strong>."
     }
   ]
 }

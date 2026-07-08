@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply the equation from the given condition",
-      "content": "From $3x+5=14$ we get $3x=9$, so $x=3$."
+      "title": "Solve for x",
+      "content": "Use the given equation to find $x$.<br/>$$3x+5=14$$<br/>$$3x=9$$<br/>$$x=3$$"
     },
     {
-      "title": "Compute the target value",
-      "content": "Then $6x-2 = 18-2 = 16$. The answer is <strong>16</strong>."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The equation gives $x=3$, and using that value in $6x-2$ gives $16$. Therefore the value to enter is $16$."
+      "title": "Evaluate the expression",
+      "content": "Substitute $x=3$ into the requested expression.<br/>$$6x-2=6(3)-2=18-2=16$$<br/>The answer is <strong>16</strong>."
     }
   ]
 }

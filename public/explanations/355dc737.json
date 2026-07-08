@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Use the double root condition",
-      "content": "A quadratic has exactly one real solution when its discriminant is $0$. For the equation $x^2+\\sqrt{k-5}x+35=0$, the coefficient values are $a=1$, $b=\\sqrt{k-5}$, and $c=35$."
+      "content": "A quadratic has exactly one real solution when its discriminant is $0$. For the equation $$x^2+\\sqrt{k-5}x+35=0$$, the coefficient values are $a=1$, $$b=\\sqrt{k-5}$$, and $c=35$."
     },
     {
       "title": "Solve for the constant",
-      "content": "Set the discriminant equal to $0$.\n$$\n(\\sqrt{k-5})^2-4(1)(35)=0\n$$\n$$\nk-5-140=0\n$$\n$$\nk=145\n$$\nThe answer is <strong>A</strong>."
+      "content": "Set the discriminant equal to $0$.\n$$\n(\\sqrt{k-5})^2-4(1)(35)=0\n$$\n$$\nk-5-140=0\n$$\n$$\nk=145\n$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

@@ -5,14 +5,14 @@
   "steps": [
     {
       "title": "Read the original circle",
-      "content": "The equation $(x+2)^2+y^2=9$ has center $(-2,0)$ and radius $3$."
+      "content": "The equation<br/>$$(x+2)^2+y^2=9$$<br/>has center $(-2,0)$ and radius $3$."
     },
     {
-      "title": "Apply both transformations",
-      "content": "Shifting down $6$ units moves the center to $(-2,-6)$. Doubling the radius gives a new radius of $6$, so $r^2=36=4\\cdot9$."
+      "title": "Apply the transformations",
+      "content": "Shifting down $6$ units moves the center to $(-2,-6)$. Doubling the radius gives a new radius of $6$, so<br/>$$r^2=6^2=36=(4)(9)$$"
     },
     {
-      "title": "Write the new equation",
+      "title": "Write the equation",
       "content": "Using center $(-2,-6)$ in circle form gives<br/>$$(x+2)^2+(y+6)^2=(4)(9)$$<br/>The answer is <strong>A</strong>."
     }
   ]

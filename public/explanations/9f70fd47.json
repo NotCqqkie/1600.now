@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set the input to zero",
-      "content": "The $y$-intercept occurs where $x=0$. Substitute $x=0$ into the equation:<br/><br/>$$\\frac{5(0)}{8}=-\\frac{5y}{9}+22$$<br/>$$0=-\\frac{5y}{9}+22$$"
+      "title": "Set x to zero",
+      "content": "The $y$-intercept occurs where $x=0$.\n$$\n\\frac{5(0)}{8}=-\\frac{5y}{9}+22\n$$\n$$\n0=-\\frac{5y}{9}+22\n$$"
     },
     {
-      "title": "Solve for the coordinate",
-      "content": "Move the variable term to the other side and multiply by $\\frac{9}{5}$:<br/><br/>$$\\frac{5y}{9}=22$$<br/>$$y=22\\cdot\\frac{9}{5}=\\frac{198}{5}$$<br/><br/>The answer is <strong>198/5</strong>."
+      "title": "Solve for y",
+      "content": "Move the variable term to the other side and multiply by \n$$\n\\frac{9}{5}\n$$\n$$\n\\frac{5y}{9}=22\n$$\n$$\ny=22\\cdot\\frac{9}{5}=\\frac{198}{5}\n$$\nThe answer is <strong>198/5</strong>."
     }
   ]
 }

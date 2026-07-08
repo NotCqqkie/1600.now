@@ -9,11 +9,11 @@
     },
     {
       "title": "Calculate the interval",
-      "content": "Use the estimate $2.75$ and margin of error $0.08$:<br/>$$2.75-0.08=2.67$$<br/>$$2.75+0.08=2.83$$"
+      "content": "Use the estimate $2.75$ and margin of error $0.08$.<br/>$$2.75-0.08=2.67$$<br/>$$2.75+0.08=2.83$$"
     },
     {
-      "title": "Match the plausible statement",
-      "content": "The plausible mean price is between $\\$2.67$ and $\\$2.83$. The answer is <strong>A</strong>."
+      "title": "Match the statement",
+      "content": "The plausible mean price is between $2.67$ dollars and $2.83$ dollars. The answer is <strong>A</strong>."
     }
   ]
 }

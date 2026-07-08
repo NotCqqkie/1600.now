@@ -8,13 +8,13 @@
       "content": "The diagram shows a right triangle with leg lengths $3$ and $7$."
     },
     {
-      "title": "Apply the theorem",
-      "content": "Use the Pythagorean theorem with hypotenuse $c$:<br/>$$c^2=3^2+7^2=9+49=58$$<br/>$$c=\\sqrt{58}$$",
+      "title": "Apply the Pythagorean theorem",
+      "content": "Use the Pythagorean theorem with hypotenuse $c$:<br/>$$c^2=3^2+7^2$$<br/>$$c^2=9+49=58$$<br/>$$c=\\sqrt{58}$$",
       "formula": "$$c^2 = a^2 + b^2$$"
     },
     {
       "title": "Estimate the hypotenuse",
-      "content": "Since $7^2=49$ and $8^2=64$, $\\sqrt{58}$ is between $7$ and $8$. More precisely,<br/>$$7.6^2=57.76$$<br/>so $7.6$ is the closest choice. The answer is <strong>C</strong>."
+      "content": "Since $7^2=49$ and $8^2=64$, $\\sqrt{58}$ is between $7$ and $8$. Also,<br/>$$7.6^2=57.76$$<br/>So $7.6$ is closest. The answer is <strong>C</strong>."
     }
   ]
 }

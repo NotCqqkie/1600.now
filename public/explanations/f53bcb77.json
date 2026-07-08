@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Multiply the binomials",
-      "content": "Use distribution to multiply each term of $g(x)$ by each term of $h(x)$. This keeps all four products visible, which is important because the middle term comes from adding the two cross products.\n$$\n(\\frac{3}{8}x+\\frac{7}{4})(4x-8)\n$$"
+      "title": "Multiply the functions",
+      "content": "Use distribution to multiply each term of $g(x)$ by each term of $h(x)$.<br/>$$g(x)\\cdot h(x)=(\\frac{3}{8}x+\\frac{7}{4})(4x-8)$$"
     },
     {
-      "title": "Combine the products",
-      "content": "The four products are shown separately:\n$$\n\\frac{3}{8}x(4x)=\\frac{3}{2}x^2\n$$\n$$\n\\frac{3}{8}x(-8)=-3x\n$$\n$$\n\\frac{7}{4}(4x)=7x\n$$\n$$\n\\frac{7}{4}(-8)=-14\n$$\nSince $-3x+7x=4x$, the product is $\\frac{3}{2}x^2+4x-14$. The answer is <strong>D</strong>."
+      "title": "Combine like terms",
+      "content": "Compute the four products and combine the $x$-terms.<br/>$$\\frac{3}{8}x(4x)=\\frac{3}{2}x^2$$<br/>$$\\frac{3}{8}x(-8)=-3x$$<br/>$$\\frac{7}{4}(4x)=7x$$<br/>$$\\frac{7}{4}(-8)=-14$$<br/>$$\\frac{3}{2}x^2-3x+7x-14=\\frac{3}{2}x^2+4x-14$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

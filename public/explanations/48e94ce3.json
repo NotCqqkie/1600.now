@@ -9,7 +9,7 @@
     },
     {
       "title": "Evaluate the function values",
-      "content": "Substitute each input into $f(x)=\\frac{|x|}{a}-13$:\n$$\nf(16a)=\\frac{-16a}{a}-13=-16-13=-29\n$$\n$$\nf(7a)=\\frac{-7a}{a}-13=-7-13=-20\n$$"
+      "content": "Substitute each input into \n$$\nf(x)=\\frac{|x|}{a}-13\n$$:\n$$\nf(16a)=\\frac{-16a}{a}-13=-16-13=-29\n$$\n$$\nf(7a)=\\frac{-7a}{a}-13=-7-13=-20\n$$"
     },
     {
       "title": "Multiply the results",

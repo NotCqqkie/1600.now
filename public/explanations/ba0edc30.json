@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Complete the square",
-      "content": "Move the constant to the other side, then add $9$ to both sides because half of $-6$ is $-3$ and $(-3)^2=9$.<br/>$$x^2-6x=4$$<br/>$$x^2-6x+9=4+9$$<br/>$$(x-3)^2=13$$"
+      "content": "Move the constant to the other side, then add $9$ to both sides because half of $-6$ is $-3$.\n$$x^2-6x=4$$\n$$x^2-6x+9=4+9$$\n$$(x-3)^2=13$$"
     },
     {
       "title": "Match the radical form",
-      "content": "Take the square root and solve for $x$.<br/>$$x-3=\\pm\\sqrt{13}$$<br/>$$x=3\\pm\\sqrt{13}$$<br/>One solution has the form $3+\\sqrt{k}$, so compare $3+\\sqrt{13}$ with $3+\\sqrt{k}$. The answer is <strong>B</strong>."
+      "content": "Take the square root and solve for $x$.\n$$x-3=\\pm\\sqrt{13}$$\n$$x=3\\pm\\sqrt{13}$$\nOne solution has the form $$3+\\sqrt{k}$$, so $$k=13$$ The answer is <strong>B</strong>."
     }
   ]
 }

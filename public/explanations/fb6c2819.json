@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the ratio",
-      "content": "For the ramp angle, tangent is opposite over adjacent. The height is $22.7$ inches and the horizontal distance is $x$, so the tangent value is<br/>$$t=\\frac{22.7}{x}$$"
+      "title": "Set up the tangent ratio",
+      "content": "For the ramp angle, tangent is opposite over adjacent. The height is $22.7$ inches and the horizontal distance is $x$, so<br/>$$\\tan t=\\frac{22.7}{x}$$"
     },
     {
-      "title": "Use the legal limit",
-      "content": "The ramp must have tangent value at most $\\frac{1}{12}$. Substitute the ratio from the figure.<br/>$$\\frac{22.7}{x}\\leq\\frac{1}{12}$$"
+      "title": "Apply the legal limit",
+      "content": "The ramp must satisfy the tangent limit, so<br/>$$\\frac{22.7}{x}\\leq\\frac{1}{12}$$"
     },
     {
       "title": "Find the least distance",
-      "content": "Since $x>0$, multiply both sides by $12x$.<br/>$$12(22.7)\\leq x$$<br/>$$272.4\\leq x$$<br/>The least possible value of $x$ is $272.4$.<br/>The answer is <strong>272.4</strong>."
+      "content": "Since $x>0$, multiply both sides by $12x$.<br/>$$12(22.7)\\leq x$$<br/>$$272.4\\leq x$$<br/>The least possible value is the boundary value. The answer is <strong>272.4</strong>."
     }
   ]
 }

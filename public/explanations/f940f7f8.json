@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Put the equation in standard form",
-      "content": "Expand and simplify the equation:<br/>$$-6x(x+7)=30$$<br/>$$-6x^2-42x=30$$<br/>$$x^2+7x+5=0$$"
+      "content": "Expand and divide by $-6$.<br/>$$-6x(x+7)=30$$<br/>$$-6x^2-42x=30$$<br/>$$x^2+7x+5=0$$"
     },
     {
       "title": "Use the quadratic formula",
-      "content": "For $x^2+7x+5=0$, the discriminant is:<br/>$$7^2-4(1)(5)=29$$<br/>So the solutions are:<br/>$$x=\\frac{-7\\pm\\sqrt{29}}{2}$$"
+      "content": "For $x^2+7x+5=0$, the discriminant is<br/>$$7^2-4(1)(5)=29$$<br/>So the solutions are<br/>$$x=\\frac{-7\\pm\\sqrt{29}}{2}$$"
     },
     {
       "title": "Match the requested form",
-      "content": "The solution with the minus sign can be rewritten as:<br/>$$x=\\frac{-7-\\sqrt{29}}{2}=-\\frac{7+\\sqrt{29}}{2}$$<br/>Thus $s=7$ and $t=29$, so the requested ratio is $\\frac{7}{29}$. The answer is <strong>C</strong>."
+      "content": "The solution with the minus sign can be written as<br/>$$x=\\frac{-7-\\sqrt{29}}{2}=-\\frac{7+\\sqrt{29}}{2}$$<br/>Thus $s=7$ and $t=29$, so<br/>$$\\frac{s}{t}=\\frac{7}{29}$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

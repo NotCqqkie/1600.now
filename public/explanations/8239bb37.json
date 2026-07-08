@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Convert g to f",
-      "content": "Since $g(x)=\\frac{f(x)}{x+3}$, multiply each $g(x)$ value by $x+3$:\n$$\nf(-21)=2(-21+3)=-36\n$$\n$$\nf(-9)=0(-9+3)=0\n$$\n$$\nf(15)=4(15+3)=72\n$$"
+      "content": "Since \n$$\ng(x)=\\frac{f(x)}{x+3}\n$$, multiply each $g(x)$ value by $x+3$:\n$$\nf(-21)=2(-21+3)=-36\n$$\n$$\nf(-9)=0(-9+3)=0\n$$\n$$\nf(15)=4(15+3)=72\n$$"
     },
     {
       "title": "Find the line",

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set the height to zero",
-      "content": "An $x$-intercept occurs where $y=0$. Since $y=g(x)$, solve the equation<br/>$$\\frac{5}{8}x-30=0$$"
+      "content": "An $x$-intercept occurs where $$y=0$$ Since $$y=g(x)$$, solve\n$$\\frac{5}{8}x-30=0$$"
     },
     {
       "title": "Solve for the intercept",
-      "content": "Add $30$ to both sides, then multiply by $\\frac{8}{5}$ to undo the coefficient of $x$.<br/>$$\\frac{5}{8}x=30$$<br/>$$x=30\\cdot\\frac{8}{5}$$<br/>$$x=48$$<br/>The answer is <strong>48</strong>."
+      "content": "Add $30$ to both sides, then multiply by $$\\frac{8}{5}$$\n$$\\frac{5}{8}x=30$$\n$$x=30\\cdot\\frac{8}{5}$$\n$$x=48$$\nThe answer is <strong>48</strong>."
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Write the shifted function",
-      "content": "Since $s(t)=r(t)+3$, substitute $r(t)=57t-2t^2$:\n$$\ns(t)=-2t^2+57t+3\n$$"
+      "content": "Since $s(t)=r(t)+3$, substitute $r(t)=57t-2t^2$.<br/>$$s(t)=-2t^2+57t+3$$"
     },
     {
       "title": "Use the vertex value",
-      "content": "For $at^2+bt+c$, the maximum value is $c-\\frac{b^2}{4a}$ when $a<0$. Here $a=-2$, $b=57$, and $c=3$:\n$$\n3-\\frac{57^2}{4(-2)}=3+\\frac{57^2}{8}\n$$\n$$\n=3+2(\\frac{57}{4})^2\n$$\nThe answer is <strong>C</strong>."
+      "content": "For $at^2+bt+c$, the maximum value is $c-\\frac{b^2}{4a}$ when $a<0$. Here, $a=-2$, $b=57$, and $c=3$.<br/>$$3-\\frac{57^2}{4(-2)}=3+\\frac{57^2}{8}$$<br/>$$3+\\frac{57^2}{8}=3+2(\\frac{57}{4})^2$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

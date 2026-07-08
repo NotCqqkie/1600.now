@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recall the no-solution condition",
-      "content": "A system of two linear equations has no solution when the lines are parallel: same slope, different $y$-intercepts. So the second line must have the same slope as the equation given in the figure."
+      "title": "Use the no-solution condition",
+      "content": "A system of two linear equations has no solution when the lines are parallel and distinct. Therefore, the other line must have the same slope as the given line."
     },
     {
-      "title": "Find the slope of the given equation",
-      "content": "The equation given in the problem stem can be written in slope-intercept form $y = mx + b$. Isolating $y$: starting from $27ry - 7x = c$ (where $c$ is a constant), add $7x$ to both sides and divide by $27r$ to get $y = \\dfrac{7}{27r}x + \\dfrac{c}{27r}$. The slope is $\\dfrac{7}{27r}$. For the system to have no solution, the other equation must also have slope $\\dfrac{7}{27r}$."
+      "title": "Solve for the slope",
+      "content": "Rewrite the given equation in slope-intercept form so the coefficient of $x$ is visible.<br/>$$27ry-7x=c$$<br/>$$27ry=7x+c$$<br/>$$y=\\frac{7}{27r}x+\\frac{c}{27r}$$"
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"$-\\frac{27r}{7}$\"</strong>: This is the negative reciprocal of $\\dfrac{7}{27r}$, which would make the lines perpendicular (one solution), not parallel. ✗</li><li><strong>\"$-\\frac{27}{7r}$\"</strong>: Negative and structurally different from $\\dfrac{7}{27r}$; lines would intersect at one point. ✗</li><li><strong>\"$\\frac{7r}{27}$\"</strong>: Close but the $r$ is in the numerator instead of the denominator, making this a different value. Lines would intersect. ✗</li><li><strong>\"$\\frac{7}{27r}$\"</strong>: Matches the slope of the given equation exactly. Parallel lines, no solution. ✓</li></ul>That matches the correct answer."
+      "title": "Match the slope",
+      "content": "The slope of any parallel line is the coefficient of $x$ in that form.<br/>$$\\frac{7}{27r}$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

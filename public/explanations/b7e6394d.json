@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find cost per mile",
-      "content": "Each mile costs $\\frac{5}{32}$ dollars."
+      "content": "Each mile costs $$\\frac{5}{32}$$ dollars."
     },
     {
       "title": "Set savings equal to the goal",
-      "content": "For $m$ fewer miles, set the savings equal to $8$:<br/>$$\\frac{5}{32}m=8$$The answer is <strong>D</strong>."
+      "content": "For $m$ fewer miles, set the savings equal to $8$:\n$$\\frac{5}{32}m=8$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

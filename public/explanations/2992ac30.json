@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Interpret the exponent",
-      "content": "The base $1.03$ means one $3\\%$ increase happens each time the exponent increases by $1$. In one year, the exponent increases by\n$$\n\\frac{8}{6}=\\frac{4}{3}\n$$\nso there are $\\frac{4}{3}$ growth periods per year."
+      "content": "The base $1.03$ means one $$3\\%$$ increase happens each time the exponent increases by $1$. In one year, the exponent increases by\n$$\n\\frac{8}{6}=\\frac{4}{3}\n$$\nso there are $$\\frac{4}{3}$$ growth periods per year."
     },
     {
       "title": "Convert periods to months",
-      "content": "If each growth period is $n$ months, then one year has $\\frac{12}{n}$ periods:\n$$\n\\frac{12}{n}=\\frac{4}{3}\n$$\n$$\nn=12\\div\\frac{4}{3}=9\n$$\nThe answer is <strong>A</strong>."
+      "content": "If each growth period is $n$ months, then one year has $$\\frac{12}{n}$$ periods:\n$$\n\\frac{12}{n}=\\frac{4}{3}\n$$\n$$\nn=12\\div\\frac{4}{3}=9\n$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

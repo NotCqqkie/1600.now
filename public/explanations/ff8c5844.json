@@ -9,11 +9,11 @@
     },
     {
       "title": "Use the next table value",
-      "content": "With $a=1$, the model is $g(x)=b^x$. The table shows $g(1)=\\frac{1}{25}$, so $b=\\frac{1}{25}$."
+      "content": "With $a=1$, the model is $g(x)=b^x$. The table shows<br/>$$g(1)=\\frac{1}{25}$$<br/>so<br/>$$b=\\frac{1}{25}$$"
     },
     {
       "title": "Write the function",
-      "content": "Therefore the function is $$g(x)=(\\frac{1}{25})^x$$ Negative choices have the wrong sign, and $25^x$ has the wrong base. The answer is <strong>D</strong>."
+      "content": "Therefore, the function is<br/>$$g(x)=(\\frac{1}{25})^x$$<br/>The negative choices have the wrong sign, and $25^x$ has the wrong base. The answer is <strong>D</strong>."
     }
   ]
 }

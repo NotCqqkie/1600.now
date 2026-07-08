@@ -9,11 +9,11 @@
     },
     {
       "title": "Solve for b",
-      "content": "Multiply both sides by the reciprocal of $\\frac{5}{13}$:\n$$\nb=\\frac{13}{5}(a-10)\n$$\nDistribute the multiplier:\n$$\nb=\\frac{13}{5}a-26\n$$"
+      "content": "Multiply both sides by the reciprocal of \n$$\n\\frac{5}{13}\n$$:\n$$\nb=\\frac{13}{5}(a-10)\n$$\nDistribute the multiplier:\n$$\nb=\\frac{13}{5}a-26\n$$"
     },
     {
       "title": "Match the expression",
-      "content": "The expression with coefficient $\\frac{13}{5}$ and constant term $-26$ is the matching choice.\nThe answer is <strong>D</strong>."
+      "content": "The expression with coefficient \n$$\n\\frac{13}{5}\n$$ and constant term $-26$ is the matching choice.\nThe answer is <strong>D</strong>."
     }
   ]
 }

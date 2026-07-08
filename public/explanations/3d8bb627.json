@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Find the vertex input",
-      "content": "The parabola opens upward, so its minimum is at the vertex. For $g(x)=x^2+\\frac{27}{2}x$,\n$$\nx=-\\frac{b}{2a}=-\\frac{\\frac{27}{2}}{2}=-\\frac{27}{4}\n$$"
+      "content": "The parabola opens upward, so its minimum is at the vertex. For \n$$\ng(x)=x^2+\\frac{27}{2}x\n$$,\n$$\nx=-\\frac{b}{2a}=-\\frac{\\frac{27}{2}}{2}=-\\frac{27}{4}\n$$"
     },
     {
       "title": "Evaluate the minimum",

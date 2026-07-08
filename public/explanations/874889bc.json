@@ -9,7 +9,7 @@
     },
     {
       "title": "Find the slope",
-      "content": "Using the marked points $(0,-1)$ and $(8,-6)$, the slope is\n$$\n\\frac{-6-(-1)}{8-0}=-\\frac{5}{8}\n$$\nSo the function has slope $-\\frac{5}{8}$ and intercept $-1$.",
+      "content": "Using the marked points $(0,-1)$ and $(8,-6)$, the slope is\n$$\\frac{-6-(-1)}{8-0}=-\\frac{5}{8}$$\nSo the function has slope \n$$\n-\\frac{5}{8}\n$$ and intercept $-1$.",
       "desmosExpressions": [
         "y = \\frac{5}{8}x - 1",
         "y = \\frac{8}{5}x - 1",
@@ -19,7 +19,7 @@
     },
     {
       "title": "Match the line",
-      "content": "The matching equation is\n$$\nf(x)=-\\frac{5}{8}x-1\n$$\nThe answer is <strong>C</strong>."
+      "content": "The matching equation is\n$$f(x)=-\\frac{5}{8}x-1$$\nThe answer is <strong>C</strong>."
     }
   ]
 }

@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Rewrite both equations",
-      "content": "Put each equation in standard form.<br/>$$6x-5y=13y+4$$<br/>$$6x-18y=4$$<br/>$$ty=\\frac{3}{2}+3x$$<br/>$$-3x+ty=\\frac{3}{2}$$"
+      "title": "Put both lines in standard form",
+      "content": "Rewrite each equation so the $x$- and $y$-terms are on the left.<br/>$$6x-5y=13y+4$$<br/>$$6x-18y=4$$<br/>$$ty=\\frac{3}{2}+3x$$<br/>$$-3x+ty=\\frac{3}{2}$$"
     },
     {
-      "title": "Make the lines parallel",
-      "content": "For no solution, the two lines must be parallel and distinct. The $x$-coefficient changes from $6$ to $-3$, so the scale factor is $-\\frac{1}{2}$. Apply that to the $y$-coefficient.<br/>$$-18(-\\frac{1}{2})=9$$"
+      "title": "Match the slopes",
+      "content": "For no solution, the lines must be parallel but distinct. The $x$-coefficient changes from $6$ to $-3$, so the scale factor is $-\\frac{1}{2}$."
     },
     {
-      "title": "Check the constants",
-      "content": "The constants do not use the same scale factor because $4(-\\frac{1}{2})=-2$, not $\\frac{3}{2}$. The lines are parallel and distinct. The answer is <strong>9</strong>."
+      "title": "Scale the y coefficient",
+      "content": "Apply the same scale factor to the first equation's $y$-coefficient.<br/>$$-18(-\\frac{1}{2})=9$$<br/>The constants do not scale the same way because $4(-\\frac{1}{2})=-2$, not $\\frac{3}{2}$, so the lines are distinct. The answer is <strong>9</strong>."
     }
   ]
 }

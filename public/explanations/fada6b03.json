@@ -4,11 +4,11 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the quadratic formula",
-      "content": "For $3x^2-12x-5=0$, the coefficients are $a=3$, $b=-12$, and $c=-5$. The value under the radical is the discriminant.<br/>$$b^2-4ac=(-12)^2-4(3)(-5)=144+60=204$$"
+      "title": "Find the discriminant",
+      "content": "For $3x^2-12x-5=0$, the coefficients are $a=3$, $b=-12$, and $c=-5$. The expression under the radical in the quadratic formula is the discriminant.<br/>$$b^2-4ac=(-12)^2-4(3)(-5)=144+60=204$$"
     },
     {
-      "title": "Match the radical",
+      "title": "Match the radical value",
       "content": "The quadratic formula gives<br/>$$x=\\frac{12\\pm\\sqrt{204}}{6}$$<br/>The form $\\frac{12-\\sqrt{k}}{6}$ therefore has $k=204$. The answer is <strong>204</strong>."
     }
   ]

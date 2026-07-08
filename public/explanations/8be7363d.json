@@ -4,24 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $9mn$."
-    },
-    {
-      "title": "Algebra check",
-      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+      "title": "Compare equivalent expressions",
+      "content": "For an equivalent-expression question, the correct expression must match the original expression for every allowed input. Here, both terms in $18mn-9mn$ have the same variable factor, so they can be combined as like terms."
     },
     {
       "title": "Combine like terms",
-      "content": "$18mn$ and $9mn$ have the same variable factor, $mn$, so subtract only the coefficients: $$18mn-9mn=(18-9)mn=9mn.$$"
+      "content": "$18mn$ and $9mn$ have the same variable factor, $mn$, so subtract only the coefficients.<br/>$$18mn-9mn=(18-9)mn=9mn$$"
     },
     {
-      "title": "Confirm the choice",
-      "content": "The equivalent expression is $9mn$, which matches the correct answer."
-    },
-    {
-      "title": "Keep the variable factor and coefficient",
-      "content": "Because both terms include the same factor $mn$, the result must still include $mn$ with the coefficient from $18-9=9$. Choices A and B drop the variables, and choice C keeps $mn$ but is missing the coefficient 9."
+      "title": "Keep the variable factor",
+      "content": "The result must still include $mn$ with coefficient $9$. Choices that drop $mn$ lose the variable factor, and $mn$ alone is missing the coefficient. The answer is <strong>D</strong>."
     }
   ]
 }

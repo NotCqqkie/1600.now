@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Reduce the angle",
-      "content": "Cosine repeats every $2\\pi$. Since $2\\pi=\\frac{12\\pi}{6}$, reduce the angle by multiples of $\\frac{12\\pi}{6}$.<br/>$$\\frac{565\\pi}{6}=47(2\\pi)+\\frac{\\pi}{6}$$"
+      "content": "Cosine repeats every $2\\pi$. Since $2\\pi=\\frac{12\\pi}{6}$, reduce the angle by a multiple of $\\frac{12\\pi}{6}$.<br/>$$\\frac{565\\pi}{6}=47(2\\pi)+\\frac{\\pi}{6}$$"
     },
     {
       "title": "Use the unit circle",
-      "content": "The angle is coterminal with $\\frac{\\pi}{6}$, so the cosine value is the same.<br/>$$\\cos(\\frac{565\\pi}{6})=\\cos(\\frac{\\pi}{6})=\\frac{\\sqrt{3}}{2}$$"
+      "content": "The angle is coterminal with $\\frac{\\pi}{6}$, so it has the same cosine value.<br/>$$\\cos(\\frac{565\\pi}{6})=\\cos(\\frac{\\pi}{6})=\\frac{\\sqrt{3}}{2}$$"
     },
     {
       "title": "Calculator shortcut",
-      "content": "A calculator can also evaluate the original cosine expression directly. The answer is <strong>C</strong>.",
+      "content": "A calculator can evaluate the original cosine expression directly. The answer is <strong>C</strong>.",
       "desmosExpressions": [
         "\\cos\\left(565\\pi/6\\right)"
       ]

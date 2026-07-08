@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Use identical lines",
-      "content": "A system has infinitely many solutions only when the two equations describe the same line. That means the second equation must have the same slope as the given equation."
+      "content": "A system has infinitely many solutions only when the two equations describe the same line. Therefore, the second equation must have the same slope as the given equation."
     },
     {
-      "title": "Read the given slope",
-      "content": "The equation is in slope-intercept form:\n$$\ny=\\frac{2}{9}x+8\n$$\nThe coefficient of $x$ is the slope, so the required slope is $\\frac{2}{9}$."
+      "title": "Read the slope",
+      "content": "The equation is in slope-intercept form.\n$$\ny=\\frac{2}{9}x+8\n$$\nThe coefficient of $x$ is the slope, so the required slope is \n$$\n\\frac{2}{9}\n$$"
     },
     {
-      "title": "Match the slope",
-      "content": "The choice with slope $\\frac{2}{9}$ is Choice C. The answer is <strong>C</strong>.",
+      "title": "Calculator shortcut",
+      "content": "Graph the given line and compare slopes in the choices. The only choice with the same slope is \n$$\n\\frac{2}{9}\n$$ The answer is <strong>C</strong>.",
       "desmosExpressions": [
         "y = \\frac{2}{9}x + 8"
       ]

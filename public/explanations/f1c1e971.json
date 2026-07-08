@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Add the radian measures",
-      "content": "Angle $T$ is $\\frac{7\\pi}{12}$ radians greater than angle $R$, so add the two radian measures. Convert $\\frac{5\\pi}{6}$ to twelfths first.<br/>$$T=\\frac{5\\pi}{6}+\\frac{7\\pi}{12}$$<br/>$$T=\\frac{10\\pi}{12}+\\frac{7\\pi}{12}$$<br/>$$T=\\frac{17\\pi}{12}$$"
+      "content": "Angle $T$ is $\\frac{7\\pi}{12}$ radians greater than angle $R$.<br/>$$T=\\frac{5\\pi}{6}+\\frac{7\\pi}{12}$$<br/>$$T=\\frac{10\\pi}{12}+\\frac{7\\pi}{12}=\\frac{17\\pi}{12}$$"
     },
     {
       "title": "Convert to degrees",
-      "content": "Multiply by $\\frac{180^\\circ}{\\pi}$.<br/>$$\\frac{17\\pi}{12}\\cdot\\frac{180^\\circ}{\\pi}=17\\cdot15^\\circ=255^\\circ$$<br/>The answer is <strong>C</strong>."
+      "content": "Multiply by $\\frac{180^\\circ}{\\pi}$.<br/>$$\\frac{17\\pi}{12}\\cdot \\frac{180^\\circ}{\\pi}=17\\cdot 15^\\circ=255^\\circ$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

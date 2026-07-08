@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Use the horizontal shift",
-      "content": "Data set Q adds $540$ to every $x$-value from data set P. This shifts the scatterplot and its line of best fit $540$ units to the right. The slope stays the same."
+      "content": "Adding $540$ to every $x$-value shifts the scatterplot and its line of best fit $540$ units to the right. The slope stays the same."
     },
     {
       "title": "Shift a readable point",
@@ -13,7 +13,7 @@
     },
     {
       "title": "Check the shifted model",
-      "content": "The model with the matching slope should pass near $(640,14)$. For the candidate with slope $\\frac{35}{1{,}301}$ and intercept $-3$:\n$$\n-3+\\frac{35}{1{,}301}(640)=14.2\\text{ approximately}\n$$\nThis is near the shifted point, while the same slope with intercept $26$ is much too high.",
+      "content": "The model with slope $\\frac{35}{1{,}301}$ and intercept $-3$ passes near the shifted point.<br/>$$-3+\\frac{35}{1{,}301}(640)\\sim 14.2$$<br/>The model with the same slope and intercept $26$ is much too high.",
       "desmosExpressions": [
         "y=9+\\frac{1}{131}x",
         "y=18+\\frac{1}{131}x",
@@ -23,7 +23,7 @@
     },
     {
       "title": "Calculator shortcut",
-      "content": "Graph the candidate lines and mark the shifted point. The line with intercept $-3$ and slope $\\frac{35}{1{,}301}$ is the one that stays near $(640,14)$. The answer is <strong>A</strong>.",
+      "content": "Graph the candidate line with intercept $-3$ and slope $\\frac{35}{1{,}301}$, then mark the shifted point $(640,14)$. The line stays near the shifted point. The answer is <strong>A</strong>.",
       "desmosExpressions": [
         "y=-3+\\frac{35}{1301}x",
         "(640,14)",

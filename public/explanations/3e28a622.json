@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Substitute the input",
-      "content": "For $x=64$, substitute $64$ into $g(x)=\\sqrt{x}+250$.\n$$\ng(64)=\\sqrt{64}+250\n$$"
+      "content": "For $x=64$, substitute $64$ into \n$$\ng(x)=\\sqrt{x}+250\n$$\n$$\ng(64)=\\sqrt{64}+250\n$$"
     },
     {
       "title": "Evaluate the function",

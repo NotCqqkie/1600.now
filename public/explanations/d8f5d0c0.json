@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+      "title": "Use the point on the circle",
+      "content": "Since $(12,c)$ lies on the circle, substitute $x=12$ and $y=c$ into the circle equation:<br/>$$(x-5)^2+(y+3)^2=49$$<br/>$$(12-5)^2+(c+3)^2=49$$"
     },
     {
-      "title": "Identify the circle's center and radius",
-      "content": "From the standard form $(x-5)^2+(y+3)^2=49$, we have center $(5, -3)$ and radius $7$."
+      "title": "Solve for the coordinate",
+      "content": "Simplify the equation:<br/>$$7^2+(c+3)^2=49$$<br/>$$49+(c+3)^2=49$$<br/>$$(c+3)^2=0$$"
     },
     {
-      "title": "Substitute the point into the circle equation and solve",
-      "content": "Since $(12, c)$ lies on the circle:<br/>$$(12-5)^2+(c+3)^2=49$$<br/>$$49+(c+3)^2=49$$<br/>$$(c+3)^2=0$$<br/>$$c=-3$$"
+      "title": "Find the constant",
+      "content": "The only number with square $0$ is $0$, so:<br/>$$c+3=0$$<br/>The answer is <strong>-3</strong>."
     }
   ]
 }

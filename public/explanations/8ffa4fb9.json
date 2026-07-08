@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Read the intercept",
-      "content": "The line passes through $(0,19)$, so its $y$-intercept is $19$. The slope is given as $-\\frac{1}{4}$.",
+      "content": "The line passes through $(0,19)$, so its $y$-intercept is $19$. The slope is \n$$\n-\\frac{1}{4}\n$$",
       "desmosExpressions": [
         "x_1=[0,4]",
         "y_1=[19,18]"
       ]
     },
     {
-      "title": "Write the line equation",
-      "content": "Use slope-intercept form:\n$$\ny=mx+b\n$$\nSubstitute $m=-\\frac{1}{4}$ and $b=19$:\n$$\ny=-\\frac{1}{4}x+19\n$$\nThe answer is <strong>B</strong>."
+      "title": "Write the equation",
+      "content": "Use slope-intercept form.\n$$y=mx+b$$\nSubstitute \n$$\nm=-\\frac{1}{4}\n$$ and $b=19$.\n$$y=-\\frac{1}{4}x+19$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

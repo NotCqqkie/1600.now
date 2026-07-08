@@ -9,7 +9,7 @@
     },
     {
       "title": "Find the side length",
-      "content": "For a square with side length $s$, the diagonal is $s\\sqrt{2}$. Therefore,\n$$\ns\\sqrt{2}=92\\sqrt{2}\n$$\n$$\ns=92\n$$"
+      "content": "For a square with side length $s$, the diagonal is \n$$\ns\\sqrt{2}\n$$ Therefore,\n$$\ns\\sqrt{2}=92\\sqrt{2}\n$$\n$$\ns=92\n$$"
     },
     {
       "title": "Square the side length",

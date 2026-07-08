@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute the input",
-      "content": "Substitute $x=\\frac{1}{3}$ into the function. This input is useful because it makes the quantity inside the squared part equal to zero.<br/>$$f(\\frac{1}{3})=6(\\frac{1}{3}-\\frac{1}{3})^2+\\frac{7}{3}$$"
+      "title": "Substitute the given input",
+      "content": "Replace $x$ with the input value in the function:<br/>$$f(1/3)=6(1/3-1/3)^2+7/3$$"
     },
     {
-      "title": "Use the zero square",
-      "content": "The squared part becomes $0$, so the first term contributes nothing to the value of the function.<br/>$$f(\\frac{1}{3})=6(0)^2+\\frac{7}{3}=\\frac{7}{3}$$<br/>The constant term is all that remains. The answer is <strong>7/3</strong>."
+      "title": "Simplify the expression",
+      "content": "The quantity inside the square is $0$, so the first term becomes $0$.<br/>$$f(1/3)=6(0)^2+7/3=7/3$$<br/>The answer is <strong>7/3</strong>."
     }
   ]
 }

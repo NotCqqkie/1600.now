@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Convert the table values",
-      "content": "Since $g(x)=\\frac{f(x)}{x+4}$, multiply each $g(x)$ value by $x+4$ to get $f(x)$:$$f(-24)=3(-24+4)=-60$$$$f(-9)=0(-9+4)=0$$$$f(16)=5(16+4)=100$$"
+      "title": "Convert table values",
+      "content": "Since \n$$\ng(x)=\\frac{f(x)}{x+4}\n$$, multiply each $g(x)$ value by $x+4$ to get values of $f(x)$.\n$$f(-24)=3(-24+4)=-60$$\n$$f(-9)=0(-9+4)=0$$\n$$f(16)=5(16+4)=100$$"
     },
     {
       "title": "Find the linear rule",
-      "content": "Use the points $(-9,0)$ and $(16{,}100)$:$$m=\\frac{100-0}{16-(-9)}=\\frac{100}{25}=4$$With $f(x)=4x+b$ and $f(-9)=0$, solve:$$0=4(-9)+b$$$$b=36$$"
+      "content": "Use the table entries with $x=-9$ and $x=16$. Their $f(x)$ values are $0$ and $100$.\n$$m=\\frac{100-0}{16-(-9)}=\\frac{100}{25}=4$$\nWith $f(x)=4x+b$ and $f(-9)=0$, solve.\n$$0=4(-9)+b$$\n$$b=36$$"
     },
     {
       "title": "Read the intercept",
-      "content": "The linear function is $f(x)=4x+36$, so the y-intercept is $(0,36)$. The answer is <strong>A</strong>."
+      "content": "The linear function has $y$-intercept $(0,36)$. The answer is <strong>A</strong>."
     }
   ]
 }

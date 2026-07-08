@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Write both surface areas",
-      "content": "Let $s$ be the side length of a square base. One prism has height $80$, so<br/>$$K=2s^2+4s(80)=2s^2+320s$$<br/>After the prisms are glued along a square base, the new prism has height $160$, so its surface area is<br/>$$2s^2+4s(160)=2s^2+640s$$"
+      "content": "Let $s$ be the side length of each square base. One prism has height $80$.<br/>$$K=2s^2+4s(80)=2s^2+320s$$<br/>After gluing the prisms along a square base, the resulting prism has height $160$.<br/>$$2s^2+4s(160)=2s^2+640s$$"
     },
     {
       "title": "Use the given ratio",
-      "content": "The combined surface area is $\\frac{33}{17}K$. Set up the ratio and cancel the common factor $2s$.<br/>$$\\frac{2s^2+640s}{2s^2+320s}=\\frac{33}{17}$$<br/>$$\\frac{s+320}{s+160}=\\frac{33}{17}$$"
+      "content": "Set the combined surface area equal to $\\frac{33}{17}K$.<br/>$$\\frac{2s^2+640s}{2s^2+320s}=\\frac{33}{17}$$<br/>Cancel the common factor $2s$.<br/>$$\\frac{s+320}{s+160}=\\frac{33}{17}$$"
     },
     {
       "title": "Solve for the side length",

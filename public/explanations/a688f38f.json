@@ -4,24 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest check: compare a table",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $12x+108$."
+      "title": "Distribute the factor",
+      "content": "Multiply $12$ by each term inside the parentheses, because the whole quantity $x+9$ is being multiplied by $12$.<br/>$$12(x+9)=12\\cdot x+12\\cdot9$$"
     },
     {
-      "title": "Algebra check",
-      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
-    },
-    {
-      "title": "Apply the distributive property",
-      "content": "Distribute $12$ across the parentheses: $$12(x + 9) = 12 \\cdot x + 12 \\cdot 9.$$"
-    },
-    {
-      "title": "Simplify each term",
-      "content": "$12 \\cdot x = 12x$ and $12 \\cdot 9 = 108$, so $\\left(12\\right)(x+9) = 12x + 108$."
+      "title": "Simplify the products",
+      "content": "The variable term becomes $12x$, and the constant term becomes $108$.<br/>$$12\\cdot x+12\\cdot9=12x+108$$"
     },
     {
       "title": "Compare with the choices",
-      "content": "<ul><li>A) $12x+9$: forgot to multiply $9$ by $12$. Eliminated.</li><li>B) $12x+108$: matches the distributed expression.</li><li>C) $12x+21$: added $12+9$ instead of multiplying. Eliminated.</li><li>D) $12x+3$: subtracted instead of multiplying. Eliminated.</li></ul>That matches the correct answer."
+      "content": "Choice A leaves $9$ undistributed. Choice C adds $12$ and $9$. Choice D subtracts instead of multiplying. Choice B gives $12x+108$. The answer is <strong>B</strong>."
     }
   ]
 }

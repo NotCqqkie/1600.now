@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Isolate m",
-      "content": "The equation has $m$ multiplied by $5$, so divide both sides by $5$.<br/>$$5m=4(n+p)$$<br/>$$m=\\frac{4(n+p)}{5}$$"
+      "content": "The equation has $m$ multiplied by $5$, so divide both sides by $5$.\n$$5m=4(n+p)$$\n$$m=\\frac{4(n+p)}{5}$$"
     },
     {
       "title": "Match the equation",
-      "content": "The expression for $m$ is $\\frac{4(n+p)}{5}$ after dividing. The answer is <strong>A</strong>."
+      "content": "The expression for $m$ is $$\\frac{4(n+p)}{5}$$ after dividing. The answer is <strong>A</strong>."
     }
   ]
 }

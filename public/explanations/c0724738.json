@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Find the semicircle size",
-      "content": "Since $O$ is the center of the semicircle and $NP$ is the diameter, $PO$ is the radius. Thus the radius is $52$ feet and<br/>$NP=2(52)=104$"
+      "content": "Since $O$ is the center of the semicircle and $NP$ is the diameter, $PO$ is the radius. Thus the radius is $52$ feet, and<br/>$$NP=2(52)=104$$"
     },
     {
       "title": "Find the rectangle size",
-      "content": "Point $P$ is the midpoint of $NQ$, so $NP=PQ$. Therefore<br/>$NQ=104+104=208$<br/>The rectangle has dimensions $208$ feet by $18$ feet."
+      "content": "Point $P$ is the midpoint of $NQ$, so $NP=PQ$. Therefore<br/>$$NQ=104+104=208$$<br/>The rectangle has dimensions $208$ feet by $18$ feet."
     },
     {
       "title": "Compute the expression",
-      "content": "Add the semicircle area and the rectangle area.<br/>$\\frac{1}{2}\\pi(52)^2=1{,}352\\pi$<br/>$208(18)=3{,}744$<br/>So $a=1{,}352$ and $b=3{,}744$.<br/>$a-b=1{,}352-3{,}744=-2{,}392$<br/>The answer is <strong>-2392</strong>."
+      "content": "Add the semicircle area and the rectangle area.<br/>$$\\frac{1}{2}\\pi(52)^2=1{,}352\\pi$$<br/>$$208(18)=3{,}744$$<br/>So $a=1{,}352$ and $b=3{,}744$. Then<br/>$$a-b=1{,}352-3{,}744=-2{,}392$$<br/>The answer is <strong>-2392</strong>."
     }
   ]
 }

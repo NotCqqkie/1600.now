@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Simplify the radicals",
-      "content": "Since $x>1$, use fractional exponents directly:\n$$\n\\sqrt[5]{4^5x^{40}}=4x^8\n$$\nand\n$$\n\\sqrt[8]{3^8x}=3x^{1/8}\n$$"
+      "content": "Since $x>1$, use fractional exponents directly:\n$$\\sqrt[5]{4^5x^{40}}=4x^8$$\nand\n$$\\sqrt[8]{3^8x}=3x^{\\frac{1}{8}}$$"
     },
     {
-      "title": "Combine constants and powers",
-      "content": "Substitute the simplified radicals into the expression:\n$$\n5(4x^8)(3x^{1/8})=60x^{8+1/8}=60x^{65/8}\n$$\nSo $a=60$ and $b=\\frac{65}{8}$."
+      "title": "Combine powers of x",
+      "content": "Substitute the simplified radicals into the expression:\n$$5(4x^8)(3x^{\\frac{1}{8}})=60x^{8+\\frac{1}{8}}=60x^{\\frac{65}{8}}$$\nSo $$a=60$$ and $$b=\\frac{65}{8}$$"
     },
     {
       "title": "Add the constants",
-      "content": "Find $a+b$:\n$$\n60+\\frac{65}{8}=\\frac{480}{8}+\\frac{65}{8}=\\frac{545}{8}\n$$\nThe answer is <strong>545/8</strong>."
+      "content": "Find $a+b$:\n$$60+\\frac{65}{8}=\\frac{480}{8}+\\frac{65}{8}=\\frac{545}{8}$$\nThe answer is <strong>545/8</strong>."
     }
   ]
 }

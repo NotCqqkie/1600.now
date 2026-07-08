@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Find the slope",
-      "content": "Use the two points from the table, $(-12,-45)$ and $(6,45)$:<br/>$$m=\\frac{45-(-45)}{6-(-12)}=\\frac{90}{18}=5$$",
+      "content": "Use the two table points $(-12,-45)$ and $(6,45)$:<br/>$$m=\\frac{45-(-45)}{6-(-12)}$$<br/>$$m=\\frac{90}{18}=5$$",
       "desmosExpressions": [
         "x_1=[-12,6]",
         "y_1=[-45,45]",
@@ -13,12 +13,12 @@
       ]
     },
     {
-      "title": "Find the equation",
-      "content": "Use $y=mx+b$ with $m=5$ and the point $(6,45)$:<br/>$$45=5(6)+b$$<br/>$$b=15$$<br/>So the equation is $y=5x+15$."
+      "title": "Write the line equation",
+      "content": "Use $y=mx+b$ with $m=5$ and the point $(6,45)$:<br/>$$45=5(6)+b$$<br/>$$45=30+b$$<br/>$$b=15$$<br/>So the equation is $y=5x+15$."
     },
     {
-      "title": "Evaluate the requested value",
-      "content": "The point is $(\\frac{1}{4},a)$, so substitute $x=\\frac{1}{4}$:<br/>$$a=5\\cdot\\frac{1}{4}+15=\\frac{5}{4}+15=16.25$$<br/>The answer is <strong>16.25</strong>."
+      "title": "Evaluate the point",
+      "content": "The point is $$(\\frac{1}{4},a)$$, so substitute $$x=\\frac{1}{4}$$:<br/>$$a=5(\\frac{1}{4})+15$$<br/>$$a=\\frac{5}{4}+15=16.25$$<br/>The answer is <strong>16.25</strong>."
     }
   ]
 }

@@ -5,11 +5,15 @@
   "steps": [
     {
       "title": "Use hemisphere volume",
-      "content": "A hemisphere is half of a sphere, so its volume is\n$$\nV=\\frac{2}{3}\\pi r^3\n$$\nWith radius $79$, this becomes\n$$\nV=\\frac{2}{3}\\pi(79)^3\n$$"
+      "content": "A hemisphere is half of a sphere, so its volume is<br/>$$V=\\frac{1}{2}(\\frac{4}{3}\\pi r^3)=\\frac{2}{3}\\pi r^3$$"
     },
     {
-      "title": "Evaluate the volume",
-      "content": "Compute the power and multiply: $79^3=493{,}039$. Then $V=\\frac{2}{3}\\pi(493{,}039)$, which is about $1{,}032{,}600$. The answer is <strong>D</strong>."
+      "title": "Substitute the radius",
+      "content": "Use $r=79$ inches.<br/>$$V=\\frac{2}{3}\\pi(79)^3$$<br/>$$79^3=493{,}039$$"
+    },
+    {
+      "title": "Estimate the volume",
+      "content": "Finish the calculation and choose the closest listed value.<br/>$$\\frac{2}{3}\\pi(493{,}039)\\sim 1{,}032{,}600$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

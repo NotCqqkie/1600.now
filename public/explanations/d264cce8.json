@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use slope-intercept form",
-      "content": "A line with slope $-\\frac{1}{4}$ has the form\n$$\ny=-\\frac{1}{4}x+b\n$$"
+      "title": "Start with the slope",
+      "content": "A line with slope $$-\\frac{1}{4}$$ has the form\n$$y=-\\frac{1}{4}x+b$$"
     },
     {
       "title": "Find the intercept",
-      "content": "Substitute the point $(8{,}5)$ and solve for the missing intercept:\n$$\n5=-\\frac{1}{4}(8)+b\n$$\n$$\n5=-2+b\n$$\n$$\nb=7\n$$"
+      "content": "Substitute the point $(8,5)$ into the equation and solve for $b$.\n$$5=-\\frac{1}{4}(8)+b$$\n$$5=-2+b$$\n$$b=7$$"
     },
     {
-      "title": "Write the line equation",
-      "content": "The equation is\n$$\ny=-\\frac{x}{4}+7\n$$\nThe answer is <strong>D</strong>."
+      "title": "Write the equation",
+      "content": "The equation of the line is\n$$y=-\\frac{x}{4}+7$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

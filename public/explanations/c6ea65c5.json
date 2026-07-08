@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Find the first slope",
-      "content": "Rewrite the given line in slope-intercept form:<br/>$$x-10y=15$$<br/>$$-10y=15-x$$<br/>$$y=\\frac{1}{10}x-\\frac{3}{2}$$<br/>Its slope is $\\frac{1}{10}$."
+      "content": "Rewrite the given line in slope-intercept form.\n$$x-10y=15$$\n$$-10y=15-x$$\n$$y=\\frac{1}{10}x-\\frac{3}{2}$$\nIts slope is $$\\frac{1}{10}$$"
     },
     {
-      "title": "Use the no-solution condition",
-      "content": "A system of two linear equations has no solution when the lines are parallel and different. The second line must therefore have slope $\\frac{1}{10}$ but a different intercept."
+      "title": "Use no-solution lines",
+      "content": "A system of two linear equations has no solution when the lines are parallel and different. The second line must therefore have slope $$\\frac{1}{10}$$ but a different intercept."
     },
     {
       "title": "Check the parallel line",
-      "content": "For $\\frac{1}{2}x-5y=0$, multiply by $2$:<br/>$$x-10y=0$$<br/>This has the same slope as $x-10y=15$, but it is a different line. The answer is <strong>A</strong>."
+      "content": "For $$\\frac{1}{2}x-5y=0$$, multiply by $2$.\n$$x-10y=0$$\nThis has the same slope as $$x-10y=15$$, but it is a different line. The answer is <strong>A</strong>."
     }
   ]
 }

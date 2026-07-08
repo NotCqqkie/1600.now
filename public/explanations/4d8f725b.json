@@ -13,7 +13,7 @@
     },
     {
       "title": "Match the solution set",
-      "content": "The solution set contains $0$ and $-\\frac{20}{3}$.\nThe answer is <strong>C</strong>."
+      "content": "The solution set contains $0$ and \n$$\n-\\frac{20}{3}\n$$\nThe answer is <strong>C</strong>."
     }
   ]
 }

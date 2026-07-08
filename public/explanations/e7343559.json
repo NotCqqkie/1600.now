@@ -5,14 +5,14 @@
   "steps": [
     {
       "title": "Test the listed inputs",
-      "content": "Use the equation<br/>$$y=-4x+40$$<br/>and substitute the $x$-values shown in the tables.",
+      "content": "Use the equation and substitute the $x$-values shown in the tables:<br/>$$y=-4x+40$$",
       "desmosExpressions": [
         "y=-4x+40"
       ]
     },
     {
-      "title": "Compute the matching outputs",
-      "content": "For $x=0$, the equation gives $y=-4(0)+40=40$. For $x=1$, it gives $y=-4(1)+40=36$. For $x=2$, it gives $y=-4(2)+40=32$. The table with outputs $40$, $36$, and $32$ matches the equation. The answer is <strong>C</strong>."
+      "title": "Compute the outputs",
+      "content": "For the first three listed inputs:<br/>$$x=0:\\ y=-4(0)+40=40$$<br/>$$x=1:\\ y=-4(1)+40=36$$<br/>$$x=2:\\ y=-4(2)+40=32$$<br/>The matching table has outputs $40$, $36$, and $32$. The answer is <strong>C</strong>."
     }
   ]
 }

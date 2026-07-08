@@ -9,11 +9,11 @@
     },
     {
       "title": "Match parallel slopes",
-      "content": "For no solution, the lines must be parallel and distinct. The second equation's $x$-coefficient is $\\frac{1}{3}$ of the first equation's $x$-coefficient:\n$$\n\\frac{18}{54}=\\frac{1}{3}\n$$\nApply the same factor to the $y$-coefficient:\n$$\nr=\\frac{1}{3}(-117)=-39\n$$"
+      "content": "For no solution, the lines must be parallel and distinct. The second equation's $x$-coefficient is \n$$\n\\frac{1}{3}\n$$ of the first equation's $x$-coefficient:\n$$\n\\frac{18}{54}=\\frac{1}{3}\n$$\nApply the same factor to the $y$-coefficient:\n$$\nr=\\frac{1}{3}(-117)=-39\n$$"
     },
     {
       "title": "Check the constants",
-      "content": "The constants are not in the same ratio:\n$$\n\\frac{\\frac{1}{5}}{30}=\\frac{1}{150}\n$$\nSince $\\frac{1}{150}\\ne\\frac{1}{3}$, the lines are distinct, so the system has no solution.\nThe answer is <strong>-39</strong>."
+      "content": "The constants are not in the same ratio:\n$$\n\\frac{\\frac{1}{5}}{30}=\\frac{1}{150}\n$$\nSince \n$$\n\\frac{1}{150}\\ne\\frac{1}{3}\n$$, the lines are distinct, so the system has no solution.\nThe answer is <strong>-39</strong>."
     }
   ]
 }

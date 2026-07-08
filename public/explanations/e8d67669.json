@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute the value",
-      "content": "Plug $d=12$ into $3c+6d=72$ to get $$3c+6(12)=72.$$"
+      "title": "Substitute the dog count",
+      "content": "The business cares for $12$ dogs, so use $d=12$ in the equation for one week:<br/>$$3c+6d=72$$<br/>$$3c+6(12)=72$$"
     },
     {
-      "title": "Solve for the variable",
-      "content": "Simplify to $3c+72=72$, so $3c=0$ and $c=0$."
-    },
-    {
-      "title": "Match the choice",
-      "content": "The business can care for $0$ cats. That matches the correct answer."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above is 0, and the other choices fail the same setup or substitution. Therefore <strong>A</strong> is correct."
+      "title": "Solve for cats",
+      "content": "Simplify the dog term and solve for $c$:<br/>$$3c+72=72$$<br/>$$3c=0$$<br/>$$c=0$$<br/>The business can care for $0$ cats. The answer is <strong>A</strong>."
     }
   ]
 }

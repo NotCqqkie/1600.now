@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Compare the areas",
-      "content": "The larger square has side length $3$ times the smaller square's side length. Areas scale by the square of the side-length factor:\n+$$3^2=9$$\n+So the larger square has $9$ parts of area for every $1$ part from the smaller square."
+      "content": "The larger square has side length $3$ times the smaller square's side length. Areas scale by the square of the side-length factor.\n$$3^2=9$$\nSo the larger square has $9$ parts of area for every $1$ part from the smaller square."
     },
     {
       "title": "Use the flux fraction",
-      "content": "The larger square is $\\frac{9}{10}$ of the total area. Since the field is uniform and perpendicular to the surface, the larger square gets $\\frac{9}{10}$ of the total flux:\n+$$\\frac{9}{10}(4{,}960)=4{,}464$$\n+The answer is <strong>4464</strong>."
+      "content": "The larger square is $$\\frac{9}{10}$$ of the total area. Since the field is uniform and perpendicular to the surface, the larger square gets $$\\frac{9}{10}$$ of the total flux.\n$$\\frac{9}{10}(4{,}960)=4{,}464$$\nThe answer is <strong>4464</strong>."
     }
   ]
 }

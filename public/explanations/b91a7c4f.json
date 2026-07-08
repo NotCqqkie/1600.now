@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Rewrite the given line",
-      "content": "A system has no solution when the two lines are parallel and distinct. Rewrite the given equation:\n$$3x=45y-27$$\n$$45y=3x+27$$\n$$y=\\frac{x}{15}+\\frac{3}{5}$$\nSo the second line needs slope $\\frac{1}{15}$ and a different intercept.",
+      "content": "A system has no solution when the two lines are parallel and distinct. Rewrite the given equation:\n$$3x=45y-27$$\n$$45y=3x+27$$\n$$y=\\frac{x}{15}+\\frac{3}{5}$$\nSo the second line needs slope $$\\frac{1}{15}$$ and a different intercept.",
       "desmosExpressions": [
         "y=\\frac{x}{15}+\\frac{3}{5}"
       ]

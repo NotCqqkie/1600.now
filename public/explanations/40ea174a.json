@@ -9,7 +9,7 @@
     },
     {
       "title": "Isolate the reciprocal",
-      "content": "Add $\\frac{1}{r}$ and $\\frac{1}{s}$ to both sides.\n$$\n\\frac{1}{q}=\\frac{1}{p}+\\frac{1}{r}+\\frac{1}{s}\n$$"
+      "content": "Add \n$$\n\\frac{1}{r}\n$$ and \n$$\n\\frac{1}{s}\n$$ to both sides.\n$$\n\\frac{1}{q}=\\frac{1}{p}+\\frac{1}{r}+\\frac{1}{s}\n$$"
     },
     {
       "title": "Combine and reciprocate",

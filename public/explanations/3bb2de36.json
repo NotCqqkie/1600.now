@@ -13,7 +13,7 @@
     },
     {
       "title": "Match the radical value",
-      "content": "One solution has the form $2+\\sqrt{k}$, so $k=33$. The answer is <strong>B</strong>."
+      "content": "One solution has the form \n$$\n2+\\sqrt{k}\n$$, so $k=33$. The answer is <strong>B</strong>."
     }
   ]
 }

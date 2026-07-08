@@ -9,7 +9,7 @@
     },
     {
       "title": "Match corresponding sides",
-      "content": "The ratio $\\frac{bc}{ab}$ means $\\frac{BC}{AB}$. In triangle $ABC$, that is the leg opposite $32^{\\circ}$ over the hypotenuse. In triangle $DEF$, the matching ratio is $\\frac{DF}{DE}$, which is written as $df/de$. The answer is <strong>B</strong>."
+      "content": "The ratio \n$$\n\\frac{bc}{ab}\n$$ means \n$$\n\\frac{BC}{AB}\n$$ In triangle $ABC$, that is the leg opposite $32^{\\circ}$ over the hypotenuse. In triangle $DEF$, the matching ratio is \n$$\n\\frac{DF}{DE}\n$$, written as $df/de$. The answer is <strong>B</strong>."
     }
   ]
 }

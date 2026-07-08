@@ -4,18 +4,18 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Write the function equation",
-      "content": "The phrase $21$ more than $5$ times $x$ means $f(x)=5x+21$. An $x$-intercept occurs when $f(x)=0$, so solve $0=5x+21$.",
+      "title": "Write the function",
+      "content": "The phrase $21$ more than $5$ times $x$ means:<br/>$$f(x)=5x+21$$<br/>An $x$-intercept occurs when $f(x)=0$, so solve:<br/>$$0=5x+21$$",
       "formula": "$$0 = 5x + 21$$"
     },
     {
-      "title": "Solve for the intercept",
+      "title": "Find the intercept input",
       "content": "Subtract $21$ from both sides and divide by $5$:<br/>$$-21=5x$$<br/>$$x=-\\frac{21}{5}$$",
       "formula": "$$x = -\\frac{21}{5}$$"
     },
     {
-      "title": "Interpret the result",
-      "content": "The $x$-intercept means that when $f(x)=0$, the number is $-\\frac{21}{5}$. The answer is <strong>A</strong>."
+      "title": "Interpret the intercept",
+      "content": "The $x$-intercept means the number is $-\\frac{21}{5}$ when $f(x)=0$. The answer is <strong>A</strong>."
     }
   ]
 }

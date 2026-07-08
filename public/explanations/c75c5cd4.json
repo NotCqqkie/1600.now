@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Square both sides",
-      "content": "Start with\n$$\nr=\\sqrt{8w-3}\n$$\nSquare both sides to remove the radical:\n$$\nr^2=8w-3\n$$"
+      "content": "Start with the given equation.<br/>$$r=\\sqrt{8w-3}$$<br/>Square both sides to remove the radical.<br/>$$r^2=8w-3$$"
     },
     {
       "title": "Isolate the variable",
-      "content": "Add $3$ and divide by $8$: $r^2+3=8w$, so $w=\\frac{r^2+3}{8}=\\frac{r^2}{8}+\\frac{3}{8}$. The answer is <strong>C</strong>."
+      "content": "Add $3$ and divide by $8$.<br/>$$r^2+3=8w$$<br/>$$w=\\frac{r^2+3}{8}=\\frac{r^2}{8}+\\frac{3}{8}$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

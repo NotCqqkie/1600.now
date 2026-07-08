@@ -5,12 +5,12 @@
   "steps": [
     {
       "title": "Square the scale factor",
-      "content": "Area changes by the square of the side-length scale factor. The model's side lengths are $\\frac{1}{10}$ of the actual side lengths.",
+      "content": "Area changes by the square of the side-length scale factor. The model side lengths are \n$$\n\\frac{1}{10}\n$$ of the actual side lengths.",
       "formula": "$$\\text{Area scale factor} = k^2$$"
     },
     {
       "title": "Find the model area",
-      "content": "The area scale factor is<br/><br/>$$(\\frac{1}{10})^2=\\frac{1}{100}$$<br/><br/>Apply it to the actual area:<br/><br/>$$900\\cdot\\frac{1}{100}=9$$<br/><br/>The answer is <strong>A</strong>."
+      "content": "The area scale factor is\n$$\n(\\frac{1}{10})^2=\\frac{1}{100}\n$$\nApply it to the actual area.\n$$\n900\\cdot\\frac{1}{100}=9\n$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

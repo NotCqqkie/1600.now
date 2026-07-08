@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the slope",
+      "title": "Use the rate of change",
       "content": "The function is linear, and its slope is $\\frac{9}{5}$. That means each $1$-kelvin increase changes Fahrenheit by $\\frac{9}{5}$ degrees."
     },
     {
       "title": "Scale the increase",
-      "content": "For a $9.10$ kelvin increase,\n$$\nI=\\frac{9}{5}(9.10)=16.38\n$$\nThe answer is <strong>A</strong>.",
+      "content": "For a $9.10$ kelvin increase, multiply by the slope:\n$$\\frac{9}{5}(9.10)=16.38$$\nThe answer is <strong>A</strong>.",
       "desmosExpressions": [
         "y=(9/5)*(x-273.15)+32"
       ]

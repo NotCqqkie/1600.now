@@ -8,8 +8,8 @@
       "content": "Each data set has $9$ values, so the median is the $5$th value. A set with large high values can have a mean greater than its median because those values pull the average upward."
     },
     {
-      "title": "Check the right-skewed set",
-      "content": "For the doubling data set, the median is $48$. Its mean is\n$$\n\\frac{3+6+12+24+48+96+192+384+768}{9}=170\\frac{1}{3}\n$$\nSince $170\\frac{1}{3}>48$, its mean is greater than its median. The answer is <strong>C</strong>."
+      "title": "Check the skewed set",
+      "content": "For the doubling data set, the median is $48$. Its mean is\n$$\\frac{3+6+12+24+48+96+192+384+768}{9}=170\\frac{1}{3}$$\nSince $$170\\frac{1}{3}>48$$, its mean is greater than its median. The answer is <strong>C</strong>."
     }
   ]
 }

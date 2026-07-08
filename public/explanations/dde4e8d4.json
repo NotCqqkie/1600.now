@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Isolate the variable term",
-      "content": "Start with the given equation and subtract $7c$ from both sides. This leaves the expression involving $b$ alone on the left side.<br/>$$b^2+7c=4d$$<br/>$$b^2=4d-7c$$"
+      "content": "Subtract $7c$ from both sides of the equation:<br/>$$b^2+7c=4d$$<br/>$$b^2=4d-7c$$"
     },
     {
-      "title": "Check the radical",
-      "content": "The condition $d>\\frac{7}{4}c$ makes the quantity under the radical positive.<br/>$$4d>7c$$<br/>$$4d-7c>0$$<br/>So real values of $b$ are possible."
+      "title": "Check the radical value",
+      "content": "The condition $$d>\\frac{7}{4}c$$ makes the expression under the radical positive:<br/>$$4d>7c$$<br/>$$4d-7c>0$$"
     },
     {
-      "title": "Use both signs",
-      "content": "A number whose square is positive can be either positive or negative, so include both signs when solving for $b$.<br/>$$b=\\pm\\sqrt{4d-7c}$$<br/>The answer is <strong>C</strong>."
+      "title": "Include both signs",
+      "content": "A positive number has both a positive and a negative square root, so:<br/>$$b=\\pm\\sqrt{4d-7c}$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

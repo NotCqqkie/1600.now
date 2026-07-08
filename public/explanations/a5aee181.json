@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Use the diagonal",
-      "content": "The diagonal of a rectangle is the hypotenuse of a right triangle. One leg is $6$, and the hypotenuse is $6\\sqrt{17}$."
+      "content": "The rectangle's diagonal is the hypotenuse of a right triangle. One leg is $6$, and the hypotenuse is $6\\sqrt{17}$."
     },
     {
-      "title": "Find the other side",
-      "content": "Use the Pythagorean theorem.<br/>$$6^2+b^2=(6\\sqrt{17})^2$$<br/>$$36+b^2=612$$<br/>$$b^2=576$$<br/>$$b=24$$<br/>The answer is <strong>B</strong>."
+      "title": "Find the longer side",
+      "content": "Let $b$ be the longer side and use the Pythagorean theorem.<br/>$$6^2+b^2=(6\\sqrt{17})^2$$<br/>$$36+b^2=612$$<br/>$$b^2=576$$<br/>$$b=24$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

@@ -5,12 +5,12 @@
   "steps": [
     {
       "title": "Track the scale changes",
-      "content": "Cylinder volume is proportional to $r^2h$. Doubling the radius multiplies $r^2$ by $4$, and halving the height multiplies $h$ by $\\frac{1}{2}$.",
+      "content": "Cylinder volume is proportional to $r^2h$. Doubling the radius multiplies $r^2$ by $4$, and halving the height multiplies $h$ by \n$$\n\\frac{1}{2}\n$$",
       "formula": "$$V = \\pi r^2 h$$"
     },
     {
       "title": "Apply the net factor",
-      "content": "The total volume factor is\n$$4\\cdot\\frac{1}{2}=2$$\nSo the new volume is twice the original volume.\n$$2(28)=56$$\nThe answer is <strong>C</strong>."
+      "content": "The total volume factor is\n$$\n4\\cdot\\frac{1}{2}=2\n$$\nSo the new volume is twice the original volume.\n$$\n2(28)=56\n$$\nThe answer is <strong>C</strong>."
     }
   ]
 }

@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Treat it as a quadratic",
-      "content": "The expression is quadratic in $z^9$. If $qz^9+r$ is a factor, write $38z^{18}+bz^9+28=(qz^9+r)(az^9+c)$, where $q$, $r$, $a$, and $c$ are positive integers."
+      "content": "The expression is quadratic in $z^9$. If $qz^9+r$ is a factor, write<br/>$$38z^{18}+bz^9+28=(qz^9+r)(az^9+c)$$<br/>where $q$, $r$, $a$, and $c$ are positive integers."
     },
     {
       "title": "Match the coefficients",
-      "content": "Expanding gives $(qz^9+r)(az^9+c)=qaz^{18}+(qc+ra)z^9+rc$. Matching coefficients gives $qa=38$, $rc=28$, and $b=qc+ra$."
+      "content": "Expanding gives<br/>$$(qz^9+r)(az^9+c)=qaz^{18}+(qc+ra)z^9+rc$$<br/>Matching coefficients gives $qa=38$, $rc=28$, and $b=qc+ra$."
     },
     {
       "title": "Maximize the middle term",
-      "content": "Pair the largest factor of $38$ with the largest factor of $28$ in the cross term: $q=1$, $a=38$, $r=28$, and $c=1$. Then $b=1\\cdot 1+28\\cdot 38=1+1064=1065$. The answer is <strong>1065</strong>."
+      "content": "Pair the largest factor of $38$ with the largest factor of $28$ in the cross term: $q=1$, $a=38$, $r=28$, and $c=1$. Then<br/>$$b=1\\cdot1+28\\cdot38=1+1{,}064=1{,}065$$<br/>The answer is <strong>1065</strong>."
     }
   ]
 }

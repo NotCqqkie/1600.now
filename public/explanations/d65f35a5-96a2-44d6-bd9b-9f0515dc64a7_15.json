@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set the function $C(t)=247$",
-      "content": "$$240\\left(\\tfrac{53}{52}\\right)^{t-15}+7 = 247$$<br/>Subtract 7 from both sides:<br/>$$240\\left(\\tfrac{53}{52}\\right)^{t-15} = 240$$"
+      "title": "Set the function value",
+      "content": "Set $C(t)$ equal to $247$.<br/>$$240(53/52)^{t-15}+7=247$$"
     },
     {
-      "title": "Solve for $t$",
-      "content": "Divide by 240:<br/>$$\\left(\\tfrac{53}{52}\\right)^{t-15} = 1$$<br/>Any nonzero base raised to the $0$ power equals 1, so $t-15=0 \\Rightarrow t=15$.<br/><br/>The answer is <strong>15</strong>."
+      "title": "Isolate the exponential part",
+      "content": "Subtract $7$ and divide by $240$.<br/>$$(53/52)^{t-15}=1$$"
+    },
+    {
+      "title": "Solve the exponent",
+      "content": "The base is not $1$, so the exponent is $0$.<br/>$$t-15=0$$<br/>$$t=15$$<br/>The answer is <strong>15</strong>."
     }
   ]
 }

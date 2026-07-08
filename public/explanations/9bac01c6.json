@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Match the growth factor",
-      "content": "For $f(x)=k(1.72)^x$, increasing $x$ by $1$ multiplies the output by $1.72$. The new function must multiply by $1.72$ when $x$ increases by $\\frac{1}{3}$."
+      "content": "For $f(x)=k(1.72)^x$, increasing $x$ by $1$ multiplies the output by $1.72$. The new function must multiply by $1.72$ when $x$ increases by \n$$\n\\frac{1}{3}\n$$"
     },
     {
-      "title": "Set the new base",
-      "content": "If $g(x)=ka^x$, then increasing $x$ by $\\frac{1}{3}$ multiplies the output by $a^{1/3}$. So\n$$\na^{1/3}=1.72\n$$\n$$\na=(1.72)^3\n$$"
+      "title": "Find the new base",
+      "content": "If $g(x)=ka^x$, then increasing $x$ by \n$$\n\\frac{1}{3}\n$$ multiplies the output by $a^{1/3}$.\n$$\na^{1/3}=1.72\n$$\n$$\na=(1.72)^3\n$$"
     },
     {
       "title": "Rewrite in choice form",
-      "content": "Use exponent rules to rewrite the function in the same form as the choices.\n$$\ng(x)=k((1.72)^3)^x=k(1.72)^{3x}=k(1.72^x)^3\n$$\nThe answer is <strong>B</strong>."
+      "content": "Use exponent rules to match the answer choices.\n$$\ng(x)=k((1.72)^3)^x\n$$\n$$\ng(x)=k(1.72)^{3x}=k(1.72^x)^3\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

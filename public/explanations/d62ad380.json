@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Find the rate of change",
-      "content": "Use two table rows. When $s$ increases from $3$ to $6$, $P$ increases from $8$ to $18$:\n$$\nm=\\frac{18-8}{6-3}=\\frac{10}{3}\n$$"
+      "content": "Use two rows from the table. When $s$ increases from $3$ to $6$, $P$ increases from $8$ to $18$.\n$$m=\\frac{18-8}{6-3}=\\frac{10}{3}$$"
     },
     {
       "title": "Find the constant term",
-      "content": "Use the point $(3,8)$ in $P=\\frac{10}{3}s+b$:\n$$\n8=\\frac{10}{3}(3)+b=10+b\n$$\n$$\nb=-2\n$$"
+      "content": "Use the point $(3,8)$ in the linear model $$P=\\frac{10}{3}s+b$$\n$$8=\\frac{10}{3}(3)+b$$\n$$8=10+b$$\n$$b=-2$$"
     },
     {
-      "title": "Match the linear model",
-      "content": "The relationship is\n$$\nP=\\frac{10}{3}s-2\n$$\nThe answer is <strong>C</strong>."
+      "title": "Write the linear model",
+      "content": "The relationship is\n$$P=\\frac{10}{3}s-2$$\nThe answer is <strong>C</strong>."
     }
   ]
 }

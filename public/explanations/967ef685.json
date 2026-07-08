@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Use a common denominator",
-      "content": "The first term already has denominator $k$. Rewrite the second term with the same denominator by multiplying by $\\frac{k}{k}$:\n$$\n36ak=\\frac{36ak^2}{k}\n$$"
+      "content": "The first term already has denominator $k$. Rewrite the second term over the same denominator by multiplying by \n$$\n\\frac{k}{k}\n$$\n$$\n36ak=\\frac{36ak^2}{k}\n$$"
     },
     {
       "title": "Combine the fractions",
-      "content": "Now the terms can be added because both are written over $k$:\n$$\n\\frac{36a}{k}+\\frac{36ak^2}{k}=\\frac{36a+36ak^2}{k}\n$$"
+      "content": "Now both terms are written over $k$, so add the numerators.\n$$\n\\frac{36a}{k}+\\frac{36ak^2}{k}=\\frac{36a+36ak^2}{k}\n$$"
     },
     {
       "title": "Factor the numerator",
-      "content": "The numerator has a common factor of $36a$:\n$$\n\\frac{36a+36ak^2}{k}=\\frac{36a(k^2+1)}{k}\n$$\nThe answer is <strong>D</strong>."
+      "content": "The numerator has a common factor of $36a$.\n$$\n\\frac{36a+36ak^2}{k}=\\frac{36a(k^2+1)}{k}\n$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Use the isosceles triangle",
-      "content": "In triangle $ACD$, $AC=CD$, so the base angles are equal. Since angle $ACD$ is $108^\\circ$, $CAD=CDA=\\frac{180^\\circ-108^\\circ}{2}=36^\\circ$."
+      "content": "In triangle $ACD$, $AC=CD$, so the base angles are equal. Since angle $ACD$ is $108^\\circ$, the other two angles share the remaining $72^\\circ$.<br/>$$\\frac{180^\\circ-108^\\circ}{2}=36^\\circ$$"
     },
     {
       "title": "Find the exterior angle",
-      "content": "From the figure, angle $BCE$ measures $60^\\circ$. In triangle $BCE$, the exterior angle at $E$ is the sum of the two remote interior angles: $BED=42^\\circ+60^\\circ=102^\\circ$."
+      "content": "From the figure, angle $BCE$ measures $60^\\circ$. In triangle $BCE$, the exterior angle at $E$ is the sum of the two remote interior angles.<br/>$$42^\\circ+60^\\circ=102^\\circ$$"
     },
     {
       "title": "Use the straight line",
-      "content": "Angle $BED$ and $x$ form a straight line, so they are supplementary. Therefore $x=180^\\circ-102^\\circ=78^\\circ$. The answer is <strong>78</strong>."
+      "content": "The $102^\\circ$ angle and $x$ form a straight line, so they are supplementary.<br/>$$x=180^\\circ-102^\\circ=78^\\circ$$<br/>The answer is <strong>78</strong>."
     }
   ]
 }

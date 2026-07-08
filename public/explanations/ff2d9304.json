@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Find the radius",
-      "content": "The radius is the distance from $C(h,k)$ to $A(h+2,k+\\sqrt{237})$:\n$$\nr=\\sqrt{(h+2-h)^2+(k+\\sqrt{237}-k)^2}\n$$\n$$\nr=\\sqrt{2^2+(\\sqrt{237})^2}=\\sqrt{241}\n$$"
+      "content": "The radius is the distance from $C(h,k)$ to $A(h+2,k+\\sqrt{237})$.<br/>$$r=\\sqrt{(h+2-h)^2+(k+\\sqrt{237}-k)^2}$$<br/>$$r=\\sqrt{2^2+(\\sqrt{237})^2}=\\sqrt{241}$$"
     },
     {
       "title": "Use the right angle",
-      "content": "Both $CA$ and $CB$ are radii, so each has length $\\sqrt{241}$. Since the angle at $C$ is a right angle, triangle $ACB$ is a right triangle with legs $CA$ and $CB$:\n$$\nAB^2=(\\sqrt{241})^2+(\\sqrt{241})^2=482\n$$"
+      "content": "Both $CA$ and $CB$ are radii, so each has length $\\sqrt{241}$. Since angle $ACB$ is a right angle, triangle $ACB$ has legs $CA$ and $CB$.<br/>$$AB^2=(\\sqrt{241})^2+(\\sqrt{241})^2=482$$"
     },
     {
-      "title": "Find the length",
-      "content": "Take the positive square root because a length must be positive:\n$$\nAB=\\sqrt{482}\n$$\nThe answer is <strong>D</strong>."
+      "title": "Find the chord length",
+      "content": "A length is positive, so<br/>$$AB=\\sqrt{482}$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

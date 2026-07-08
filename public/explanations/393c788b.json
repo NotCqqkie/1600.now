@@ -9,11 +9,11 @@
     },
     {
       "title": "Check the second equation",
-      "content": "Equation II has a different slope from the given equation. Solving it for $y$ gives\n$$\n6x-7.5y=15\n$$\n$$\ny=\\frac{4}{5}x-2\n$$\nThe given line has slope $-\\frac{4}{5}$, so the two lines intersect once."
+      "content": "Equation II has a different slope from the given equation. Solving it for $y$ gives\n$$\n6x-7.5y=15\n$$\n$$\ny=\\frac{4}{5}x-2\n$$\nThe given line has slope $$-\\frac{4}{5}$$, so the two lines intersect once."
     },
     {
       "title": "Choose the valid statements",
-      "content": "Both Roman numeral equations create a system with at least one solution. The answer is <strong>C</strong>."
+      "content": "Both Roman numeral equations create a system with at least one solution.<br/>The answer is <strong>C</strong>."
     }
   ]
 }

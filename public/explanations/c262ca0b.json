@@ -4,19 +4,19 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph or solve the equation",
-      "content": "Type the equation into Desmos as written:<br/>$$x^2 + 2x = 72$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is $-1 + \\sqrt{73}$.",
+      "title": "Complete the square",
+      "content": "Add $1$ to both sides of $$x^2+2x=72$$ so the left side becomes a perfect square.\n$$x^2+2x+1=72+1$$\n$$(x+1)^2=73$$"
+    },
+    {
+      "title": "Find the positive solution",
+      "content": "Take square roots, then subtract $1$.\n$$x+1=\\pm\\sqrt{73}$$\n$$x=-1\\pm\\sqrt{73}$$\nThe positive solution uses the plus sign."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph the equation and read the positive intersection of the two sides. It corresponds to $$-1+\\sqrt{73}$$ The answer is <strong>C</strong>.",
       "desmosExpressions": [
         "x^2 + 2x = 72"
       ]
-    },
-    {
-      "title": "Complete the square",
-      "content": "Add $1$ to both sides of $x^{2}+2x=72$ so the left becomes a perfect square: $$(x+1)^{2}=73.$$"
-    },
-    {
-      "title": "Solve and match",
-      "content": "Take square roots: $x+1=\\pm\\sqrt{73}$, so $x=-1\\pm\\sqrt{73}$. The choice given is $-1+\\sqrt{73}$. That matches the correct answer."
     }
   ]
 }

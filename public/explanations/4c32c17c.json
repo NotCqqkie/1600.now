@@ -13,7 +13,7 @@
     },
     {
       "title": "Match the model",
-      "content": "The equation needs initial mass $100$, decay factor $0.76$, and exponent $\\frac{t}{22.96}$.\nThe answer is <strong>D</strong>.",
+      "content": "The equation needs initial mass $100$, decay factor $0.76$, and exponent \n$$\n\\frac{t}{22.96}\n$$\nThe answer is <strong>D</strong>.",
       "desmosExpressions": [
         "M = 100 \\cdot 0.76^{t / 22.96}"
       ]

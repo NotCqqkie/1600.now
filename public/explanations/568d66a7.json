@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Write the side relationship",
-      "content": "In an isosceles right triangle, if each leg is $a$, the hypotenuse is $a\\sqrt{2}$. The perimeter is\n$$\na+a+a\\sqrt{2}=a(2+\\sqrt{2})\n$$"
+      "content": "In an isosceles right triangle, if each leg is $a$, the hypotenuse is \n$$\na\\sqrt{2}\n$$ The perimeter is\n$$\na+a+a\\sqrt{2}=a(2+\\sqrt{2})\n$$"
     },
     {
       "title": "Solve for the leg",

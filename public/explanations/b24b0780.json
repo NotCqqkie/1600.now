@@ -9,7 +9,7 @@
     },
     {
       "title": "Match the numerator",
-      "content": "Use opposite over hypotenuse.\n$$\\sin(x^\\circ)=\\frac{28}{c}$$\nThe question gives $\\sin(x^\\circ)=\\frac{k}{c}$, so $k=28$. The answer is <strong>28</strong>."
+      "content": "Use opposite over hypotenuse:\n$$\\sin(x^\\circ)=\\frac{28}{c}$$\nThe question gives $\\sin(x^\\circ)=\\frac{k}{c}$, so $k=28$. The answer is <strong>28</strong>."
     }
   ]
 }

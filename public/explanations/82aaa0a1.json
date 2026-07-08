@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Check the vertex location",
-      "content": "Each choice opens upward. For $y=ax^2+bx+c$, the vertex has $x$-coordinate $-\\frac{b}{2a}$. With $b=-11$,\n$$\n-\\frac{-11}{2(2)}=\\frac{11}{4}=2.75\n$$\nThis is near the scatterplot's minimum, so keep the choices with $-11x$."
+      "content": "Each choice opens upward. For $y=ax^2+bx+c$, the vertex has $x$-coordinate \n$$\n-\\frac{b}{2a}\n$$ With $b=-11$,\n$$\n-\\frac{-11}{2(2)}=\\frac{11}{4}=2.75\n$$\nThis is near the scatterplot's minimum, so keep the choices with $-11x$."
     },
     {
       "title": "Use the y intercept",

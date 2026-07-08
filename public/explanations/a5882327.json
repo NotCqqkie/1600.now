@@ -8,7 +8,7 @@
       "content": "Since $g(x)=b-12x$ and $g(c+5)=\\frac{c}{3}$, substitute $x=c+5$. <br/>$$\\frac{c}{3}=b-12(c+5)$$"
     },
     {
-      "title": "Solve for the constant",
+      "title": "Isolate the constant",
       "content": "Expand and isolate $b$. <br/>$$\\frac{c}{3}=b-12c-60$$<br/>$$b=\\frac{c}{3}+12c+60$$<br/>$$b=\\frac{37c}{3}+60$$<br/>The answer is <strong>C</strong>."
     }
   ]

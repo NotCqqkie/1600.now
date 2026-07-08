@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Convert minutes to hours",
-      "content": "The speed in miles per hour is distance divided by time in hours. Since $27$ minutes is $\\frac{27}{60}$ hours, use $$\\frac{13}{27/60}$$"
+      "content": "Average speed in miles per hour is distance divided by time in hours. Since $27$ minutes is $\\frac{27}{60}$ hours, use<br/>$$\\frac{13}{27/60}$$"
     },
     {
-      "title": "Round to the nearest tenth",
-      "content": "Compute the speed: $$\\frac{13}{27/60}=\\frac{13\\cdot 60}{27}=\\frac{780}{27}\\sim 28.888\\dots$$ Rounded to the nearest tenth gives the required value. The answer is <strong>28.9</strong>."
+      "title": "Round the speed",
+      "content": "Compute the speed and round to the nearest tenth.<br/>$$\\frac{13}{27/60}=\\frac{13\\cdot60}{27}=\\frac{780}{27}$$<br/>$$\\frac{780}{27}=28.888\\dots$$<br/>The answer is <strong>28.9</strong>."
     }
   ]
 }

@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the known equation",
-      "content": "The second equation gives $3y$ directly: $3y=11$. This value can be substituted into the other equation without solving for $y$ first."
+      "title": "Use the known term",
+      "content": "The second equation gives $3y$ directly:<br/>$$3y=11$$<br/>So substitute $11$ for $3y$ in the first equation."
     },
     {
-      "title": "Substitute into the first equation",
-      "content": "Use $x+3y=29$. Replacing $3y$ with $11$ gives $x+11=29$."
-    },
-    {
-      "title": "Solve for the value",
-      "content": "Subtract $11$ from both sides of the equation: $x=29-11=18$. This is the $x$-coordinate of the system's solution. The answer is <strong>18</strong>.",
+      "title": "Solve for the coordinate",
+      "content": "Use $x+3y=29$:<br/>$$x+11=29$$<br/>$$x=29-11$$<br/>The answer is <strong>18</strong>.",
       "desmosExpressions": [
         "x+3y=29",
         "3y=11"

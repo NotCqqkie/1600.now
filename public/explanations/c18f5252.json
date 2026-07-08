@@ -5,15 +5,11 @@
   "steps": [
     {
       "title": "Substitute the ratio",
-      "content": "From $\\frac{x}{y}=4$, substitute directly into the second equation:<br/>$$\\frac{3x}{ty}=\\frac{3}{t}\\cdot\\frac{x}{y}$$<br/>$$\\frac{3}{t}\\cdot4=24$$"
+      "content": "From $$\\frac{x}{y}=4$$, rewrite the second equation using that ratio.\n$$\\frac{3x}{ty}=\\frac{3}{t}\\cdot\\frac{x}{y}$$\n$$\\frac{3}{t}\\cdot4=24$$"
     },
     {
       "title": "Solve for t",
-      "content": "Simplify and solve:<br/>$$\\frac{12}{t}=24$$<br/>$$12=24t$$<br/>$$t=\\frac{12}{24}=\\frac{1}{2}$$"
-    },
-    {
-      "title": "Match the choice",
-      "content": "The value of $t$ is $\\frac{1}{2}$, which matches choice A. The answer is <strong>A</strong>."
+      "content": "Simplify and solve.\n$$\\frac{12}{t}=24$$\n$$12=24t$$\n$$t=\\frac{1}{2}$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

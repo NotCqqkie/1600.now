@@ -9,7 +9,7 @@
     },
     {
       "title": "Use the included side",
-      "content": "Statement II gives $AC=DF$. Together with $AB=DE=7$ and angles $A$ and $D$ both measuring $50^\\circ$, the equal angle is included between the two equal sides. That proves congruence by SAS."
+      "content": "Statement II gives $AC=DF$. Together with \n$$\nAB=DE=7\n$$ and angles $A$ and $D$ both measuring $50^\\circ$, the equal angle is included between the two equal sides. That proves congruence by SAS."
     },
     {
       "title": "Reject the side case",

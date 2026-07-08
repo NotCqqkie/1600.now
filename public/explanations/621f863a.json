@@ -13,7 +13,7 @@
     },
     {
       "title": "Find the requested sum",
-      "content": "Since the coefficient sum is $\\frac{a+b+c}{4}$,\n$$\n\\frac{a+b+c}{4}=-148\n$$\n$$\na+b+c=4(-148)=-592\n$$\nThe answer is <strong>A</strong>."
+      "content": "Since the coefficient sum is \n$$\n\\frac{a+b+c}{4}\n$$,\n$$\n\\frac{a+b+c}{4}=-148\n$$\n$$\na+b+c=4(-148)=-592\n$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

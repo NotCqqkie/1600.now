@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Complete the square",
-      "content": "Factor $7$ from the terms with $x$.<br/>$7x^2-bx-6=7(x^2-\\frac{b}{7}x)-6$<br/>Half of $-\\frac{b}{7}$ is $-\\frac{b}{14}$."
+      "content": "Factor $7$ from the terms with $x$:<br/>$$7x^2-bx-6=7(x^2-\\frac{b}{7}x)-6$$<br/>Half of $-\\frac{b}{7}$ is $-\\frac{b}{14}$."
     },
     {
-      "title": "Balance the added square",
-      "content": "Add and subtract $(\\frac{b}{14})^2$ inside the parentheses.<br/>$7(x-\\frac{b}{14})^2-7(\\frac{b}{14})^2-6$<br/>Since $7\\cdot\\frac{b^2}{196}=\\frac{b^2}{28}$, the expression is $7(x-\\frac{b}{14})^2-6-\\frac{b^2}{28}$."
+      "title": "Balance the added term",
+      "content": "Add and subtract the square inside the expression:<br/>$$7(x-\\frac{b}{14})^2-7(\\frac{b}{14})^2-6$$<br/>Since $7\\cdot\\frac{b^2}{196}=\\frac{b^2}{28}$, this becomes:<br/>$$7(x-\\frac{b}{14})^2-6-\\frac{b^2}{28}$$"
     },
     {
       "title": "Calculator shortcut",

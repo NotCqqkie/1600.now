@@ -5,15 +5,11 @@
   "steps": [
     {
       "title": "Isolate the radical",
-      "content": "Subtract $27$ from both sides to get the square-root term by itself. This leaves $8$ on the right side.<br/>$$\\sqrt{w}=35-27=8$$"
+      "content": "Subtract $27$ from both sides to get the square-root term by itself.<br/>$$\\sqrt{w}=35-27=8$$"
     },
     {
       "title": "Square both sides",
-      "content": "Square both sides to undo the square root and solve for $w$.<br/>$$w=8^2=64$$"
-    },
-    {
-      "title": "Check the value",
-      "content": "Substituting $64$ back into the original equation gives $\\sqrt{64}+27=8+27=35$, so it satisfies the equation. The answer is <strong>64</strong>."
+      "content": "Square both sides to undo the square root.<br/>$$w=8^2=64$$<br/>The answer is <strong>64</strong>."
     }
   ]
 }

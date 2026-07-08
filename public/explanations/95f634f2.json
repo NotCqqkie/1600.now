@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Match the two triangles",
-      "content": "Because $AB=AC$, the base angles of triangle $ABC$ are congruent. The problem also gives angles $BED$ and $CFD$ congruent, so triangles $BED$ and $CFD$ have two matching angles and are similar."
+      "content": "Because $AB=AC$, the base angles of triangle $ABC$ are congruent. The problem also gives angles $BED$ and $CFD$ congruent, so triangles $BED$ and $CFD$ are similar."
     },
     {
       "title": "Use the side ratio",
-      "content": "Point $D$ makes $BD=\\frac{5}{8}BC$, so $DC=\\frac{3}{8}BC$. Therefore,<br/>$$\\frac{BD}{DC}=\\frac{5}{3}$$<br/>The corresponding side ratio gives<br/>$$\\frac{BE}{CF}=\\frac{5}{3}$$"
+      "content": "Point $D$ makes \n$$\nBD=\\frac{5}{8}BC\n$$, so \n$$\nDC=\\frac{3}{8}BC\n$$ Therefore,\n$$\\frac{BD}{DC}=\\frac{5}{3}$$\nThe corresponding side ratio gives\n$$\\frac{BE}{CF}=\\frac{5}{3}$$"
     },
     {
-      "title": "Solve for the missing length",
-      "content": "Substitute $BE=15$ and solve.<br/>$$\\frac{15}{CF}=\\frac{5}{3}$$<br/>$$5CF=45$$<br/>$$CF=9$$<br/>The answer is <strong>9</strong>."
+      "title": "Solve the missing length",
+      "content": "Substitute $BE=15$ and solve.\n$$\\frac{15}{CF}=\\frac{5}{3}$$\n$$5CF=45$$\n$$CF=9$$\nThe answer is <strong>9</strong>."
     }
   ]
 }

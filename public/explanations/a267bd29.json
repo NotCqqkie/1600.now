@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Complete the square",
-      "content": "Move the constant term to the other side, then add $25$ to both sides.<br/>$$w^2+10w=20$$<br/>$$w^2+10w+25=45$$<br/>$$(w+5)^2=45$$"
+      "content": "Move the constant term, then add $25$ to both sides.<br/>$$w^2+10w=20$$<br/>$$w^2+10w+25=45$$<br/>$$(w+5)^2=45$$"
     },
     {
-      "title": "Solve for w",
+      "title": "Find the roots",
       "content": "Take square roots and simplify.<br/>$$w+5=\\pm\\sqrt{45}=\\pm3\\sqrt{5}$$<br/>$$w=-5\\pm3\\sqrt{5}$$"
     },
     {
-      "title": "Match the listed solution",
-      "content": "Of the two solutions, only $-5+3\\sqrt{5}$ appears in the choices. The answer is <strong>D</strong>."
+      "title": "Match the listed root",
+      "content": "Of the two roots, only $-5+3\\sqrt{5}$ appears in the choices. The answer is <strong>D</strong>."
     }
   ]
 }

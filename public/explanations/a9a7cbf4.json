@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+      "title": "Convert degrees to radians",
+      "content": "A full circle is $360^\\circ$, which equals $2\\pi$ radians. To convert from degrees to radians, multiply by $\\frac{\\pi}{180}$.<br/>$$30\\cdot\\frac{\\pi}{180}=\\frac{30\\pi}{180}$$"
     },
     {
-      "title": "Recall the degree-to-radian conversion formula",
-      "content": "Angle Z measures 30°. To convert from degrees to radians, multiply by $\\frac{\\pi}{180}$:<br/>$$\\text{radians} = \\text{degrees} \\times \\frac{\\pi}{180}$$"
-    },
-    {
-      "title": "Substitute and simplify",
-      "content": "$$30 \\times \\frac{\\pi}{180} = \\frac{30\\pi}{180}$$<br/>Divide numerator and denominator by 30:<br/>$$\\frac{30\\pi}{180} = \\frac{\\pi}{6}$$<br/>That matches <strong>Choice B — $\\frac{1}{6} \\pi$</strong>."
+      "title": "Simplify the fraction",
+      "content": "Divide numerator and denominator by $30$.<br/>$$\\frac{30\\pi}{180}=\\frac{\\pi}{6}$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

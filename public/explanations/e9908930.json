@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the linear function",
-      "content": "Using the table points $(-4,0)$ and $(-\\frac{19}{5},1)$, the slope is<br/>$$m=\\frac{1-0}{-\\frac{19}{5}-(-4)}=\\frac{1}{\\frac{1}{5}}=5$$<br/>Substitute $(-4,0)$ into $f(x)=5x+b$:<br/>$$0=5(-4)+b$$<br/>$$b=20$$"
+      "title": "Find the slope",
+      "content": "Use the table points $$(-4,0)$$ and $$(-\\frac{19}{5},1)$$ to find the slope of the linear function.<br/>$$m=\\frac{1-0}{-\\frac{19}{5}-(-4)}=\\frac{1}{\\frac{1}{5}}=5$$"
     },
     {
-      "title": "Apply the function shift",
-      "content": "So the function from the table is $f(x)=5x+20$. Since $h(x)=f(x)-13$, subtract $13$ from the constant term:<br/>$$h(x)=(5x+20)-13=5x+7$$<br/>The answer is <strong>B</strong>."
+      "title": "Find the starting function",
+      "content": "Substitute $(-4,0)$ into $f(x)=5x+b$.<br/>$$0=5(-4)+b$$<br/>$$b=20$$<br/>So the function from the table is $f(x)=5x+20$."
+    },
+    {
+      "title": "Apply the shift",
+      "content": "Since $h(x)=f(x)-13$, subtract $13$ from the constant term of $f$.<br/>$$h(x)=(5x+20)-13=5x+7$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

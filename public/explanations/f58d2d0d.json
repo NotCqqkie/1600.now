@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the scale reduction",
-      "content": "A side length 70% shorter means the new length is 30% of the original:<br/>$$\\text{New side} = 40 \\times (1 - 0.70) = 40 \\times 0.30 = 12 \\text{ inches}$$<br/>Linear reduction factor: $\\frac{12}{40} = \\frac{3}{10}$"
+      "title": "Find the smaller side length",
+      "content": "A side length $70\\%$ shorter is $30\\%$ of the original side length.<br/>$$40(1-0.70)=40(0.30)=12$$"
     },
     {
-      "title": "Apply the inverse scale relationship",
-      "content": "When a map's physical dimensions shrink by a factor of $\\frac{3}{10}$, the same region is represented on a smaller map, so each inch must cover more miles. The scale (miles per inch) increases by the inverse factor $\\frac{10}{3}$.<br/>$$\\text{New scale} = 14 \\times \\frac{10}{3} = \\frac{140}{3} \\approx 46.67 \\text{ miles per inch}$$"
+      "title": "Use the inverse scale",
+      "content": "The same actual distance is now shown by a side length of $12$ inches instead of $40$ inches, so each inch represents more miles by the inverse factor.<br/>$$14\\cdot \\frac{40}{12}=14\\cdot \\frac{10}{3}=\\frac{140}{3}\\sim 46.67$$"
     },
     {
-      "title": "Select the closest answer",
-      "content": "Compare 46.67 mi/in to each choice: A 4.20 is off by ~42; B 8.24 is off by ~38; C 28.00 is off by ~19; D 48.67 is off by ~2. D is closest. That matches the correct answer."
+      "title": "Choose the closest value",
+      "content": "The value $46.67$ miles per inch is closest to $48.67$ among the choices. The answer is <strong>D</strong>."
     }
   ]
 }

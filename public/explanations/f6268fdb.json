@@ -8,11 +8,11 @@
       "content": "A radius to a tangent point is perpendicular to the tangent line. Since line $u$ has slope $\\frac{5}{4}$, the radius from $(2,5)$ to $(a,-4)$ has slope $-\\frac{4}{5}$."
     },
     {
-      "title": "Write the slope equation",
-      "content": "Use the slope formula for the radius.<br/>$$\\frac{-4-5}{a-2}=-\\frac{4}{5}$$<br/>So<br/>$$\\frac{-9}{a-2}=-\\frac{4}{5}$$"
+      "title": "Write the radius slope",
+      "content": "Use the slope formula with the center and tangent point.<br/>$$\\frac{-4-5}{a-2}=-\\frac{4}{5}$$<br/>$$\\frac{-9}{a-2}=-\\frac{4}{5}$$"
     },
     {
-      "title": "Solve for the coordinate",
+      "title": "Solve for a",
       "content": "Cross-multiply and solve.<br/>$$-45=-4(a-2)$$<br/>$$\\frac{45}{4}=a-2$$<br/>$$a=\\frac{53}{4}$$<br/>The answer is <strong>D</strong>."
     }
   ]

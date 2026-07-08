@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find the side length",
-      "content": "An equilateral triangle has $3$ equal sides. Divide the perimeter by $3$.<br/>$$\\frac{672}{3}=224$$"
+      "content": "An equilateral triangle has $3$ equal sides, so divide the perimeter by $3$.<br/>$$\\frac{672}{3}=224$$"
     },
     {
       "title": "Use the height formula",
-      "content": "The height of an equilateral triangle with side length $s$ is $\\frac{s\\sqrt{3}}{2}$. Substitute $s=224$. <br/>$$\\frac{224\\sqrt{3}}{2}=112\\sqrt{3}$$<br/>Since the height is $k\\sqrt{3}$, $k=112$. The answer is <strong>112</strong>.",
+      "content": "The height of an equilateral triangle with side length $s$ is $\\frac{s\\sqrt{3}}{2}$. Substitute $s=224$.<br/>$$\\frac{224\\sqrt{3}}{2}=112\\sqrt{3}$$<br/>Since the height is $k\\sqrt{3}$, the coefficient is $112$. The answer is <strong>112</strong>.",
       "formula": "$$h = \\frac{s\\sqrt{3}}{2}$$"
     }
   ]

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Rewrite as squares",
-      "content": "The expression is a difference of squares because<br/><br/>$$5=(\\sqrt{5})^2$$<br/><br/>So<br/><br/>$$x^2-5=x^2-(\\sqrt{5})^2$$"
+      "content": "The expression is a difference of squares because \n$$\n5=(\\sqrt{5})^2\n$$\n$$\nx^2-5=x^2-(\\sqrt{5})^2\n$$"
     },
     {
-      "title": "Apply the factoring pattern",
-      "content": "Use the pattern<br/><br/>$$a^2-b^2=(a+b)(a-b)$$<br/><br/>with $a=x$ and $b=\\sqrt{5}$:<br/><br/>$$x^2-(\\sqrt{5})^2=(x+\\sqrt{5})(x-\\sqrt{5})$$"
+      "title": "Apply the pattern",
+      "content": "Use $a^2-b^2=(a+b)(a-b)$ with $a=x$ and \n$$\nb=\\sqrt{5}\n$$\n$$\nx^2-(\\sqrt{5})^2=(x+\\sqrt{5})(x-\\sqrt{5})\n$$"
     },
     {
       "title": "Calculator shortcut",

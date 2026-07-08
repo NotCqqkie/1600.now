@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the coefficient",
-      "content": "The equation is in slope-intercept form, $y=mx+b$. The slope is the coefficient of $x$."
+      "title": "Use slope form",
+      "content": "A line written as $y=mx+b$ has slope $m$. If there is no separate constant term, the intercept is $0$."
     },
     {
-      "title": "Identify the slope",
-      "content": "In $y=\\frac{8}{15}x$, the coefficient of $x$ is $\\frac{8}{15}$. The answer is <strong>C</strong>."
+      "title": "Read the coefficient",
+      "content": "In the equation<br/>$$y=\\frac{8}{15}x$$<br/>the coefficient of $x$ is $\\frac{8}{15}$. The answer is <strong>C</strong>."
     }
   ]
 }

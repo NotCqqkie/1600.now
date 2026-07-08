@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the slope of line t",
-      "content": "The equation is already in slope-intercept form. In<br/>$$y=-\\frac{1}{3}x+15$$<br/>the slope of line $t$ is $-\\frac{1}{3}$."
+      "title": "Read the given slope",
+      "content": "The equation is already in slope-intercept form.\n$$\ny=-\\frac{1}{3}x+15\n$$\nSo the slope of line $t$ is \n$$\n-\\frac{1}{3}\n$$"
     },
     {
-      "title": "Take the negative reciprocal",
-      "content": "Perpendicular lines have slopes whose product is $-1$. Therefore, the slope of line $s$ is<br/>$$-\\frac{1}{-1/3}=3$$<br/>The answer is <strong>B</strong>."
+      "title": "Use perpendicular slopes",
+      "content": "Perpendicular slopes are negative reciprocals.\n$$\n-\\frac{1}{-1/3}=3\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

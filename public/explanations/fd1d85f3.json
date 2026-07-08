@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Substitute the input",
-      "content": "To find $f(8)$, replace $x$ with $8$ in the function $f(x)=\\frac{1}{2}(x+14)$:<br/>$$f(8)=\\frac{1}{2}(8+14)$$"
+      "content": "To find $f(8)$, replace $x$ with $8$ in $f(x)=\\frac{1}{2}(x+14)$.<br/>$$f(8)=\\frac{1}{2}(8+14)$$"
     },
     {
       "title": "Evaluate the function",
-      "content": "Add inside the parentheses, then multiply by $\\frac{1}{2}$:<br/>$$\\frac{1}{2}(8+14)=\\frac{1}{2}(22)=11$$<br/>The value of $f(8)$ is $11$. The answer is <strong>D</strong>."
+      "content": "Add inside the parentheses, then multiply by $\\frac{1}{2}$.<br/>$$f(8)=\\frac{1}{2}(22)=11$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

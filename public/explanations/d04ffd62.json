@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the given information first",
-      "content": "Mark the given angle relationships first: equal angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+      "title": "Use the shared angle",
+      "content": "The triangles already have one pair of congruent angles: angle $A$ and angle $P$ each measure $62$ degrees. One more matching angle pair is enough to prove similarity by angle-angle similarity."
     },
     {
-      "title": "Apply AA similarity criterion",
-      "content": "We have $$\\angle A = \\angle P = 62^{\\circ}$$. To prove triangle similarity with minimal additional information, we use the AA criterion-we need just one more pair of equal angles."
+      "title": "Test the angle information",
+      "content": "If angle $B$ measures $40$ degrees and angle $R$ measures $78$ degrees, then the missing angles are<br/>$$C=180-62-40=78$$<br/>$$Q=180-62-78=40$$"
     },
     {
-      "title": "Evaluate the candidate",
-      "content": "Given $$\\angle B = 40^{\\circ}$$ and $$\\angle R = 78^{\\circ}$$:<br/><br/>In triangle ABC: $$\\angle C = 180^{\\circ} - 62^{\\circ} - 40^{\\circ} = 78^{\\circ}$$<br/>In triangle PQR: $$\\angle Q = 180^{\\circ} - 62^{\\circ} - 78^{\\circ} = 40^{\\circ}$$<br/>Result:<ul><li>$$\\angle A = \\angle P = 62^{\\circ}$$</li><li>$$\\angle B = \\angle Q = 40^{\\circ}$$</li><li>$$\\angle C = \\angle R = 78^{\\circ}$$</li></ul>All three angles match across the correspondence A to P, B to Q, C to R. That matches the correct answer."
-    },
-    {
-      "title": "Verify other choices fail",
-      "content": "<strong>The measures of angle B and angle Q are 62 degrees and 40 degrees, respectively.</strong> creates angles 62 degrees, 62 degrees, 56 degrees in ABC but 62 degrees, 40 degrees, 78 degrees in PQR-no correspondence exists. Two other options lack the proportionality $$\\frac{AB}{AC} = \\frac{PQ}{PR}$$ that SAS similarity requires."
+      "title": "Match the corresponding angles",
+      "content": "The angle pairs match as $A$ to $P$, $B$ to $Q$, and $C$ to $R$:<br/>$$62,40,78$$<br/>This is sufficient to prove the triangles similar. The answer is <strong>C</strong>."
     }
   ]
 }

@@ -4,20 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Use Text Two response",
-      "content": "The question asks what the author of Text 2 would most likely say about the description of the first showing of <em>Arrival of the Train</em> given in Text 1. Text 2 argues that there is no contemporary evidence audiences panicked, yet the story persists because \"our belief that the coming of film was transformative is so strong that we invented and keep retelling a founding myth.\" The author of Text 2 thinks the story is driven by belief in film's significance, not by facts."
+      "title": "Use Text 2's response",
+      "content": "Text 2 says there is no contemporary evidence that the first audience of <em>Arrival of the Train</em> panicked. It argues that the story persists because people strongly believe film's arrival was culturally transformative."
     },
     {
-      "title": "Rule out off-target choices",
-      "content": "<ul><li><strong>Choice A — 'It is not based on evidence and reflects film historians' belief that they are more sophisticated than today's audiences.'</strong>: Text 2 says historians perpetuate the myth, not that they see themselves as superior to today's audiences.</li><li><strong>Choice B — 'It expresses a view about the transformative nature of film that film historians tend to regard as naïve.'</strong>: Text 2 says film historians repeat the myth; they do not dismiss the transformative view as naïve.</li></ul>"
-    },
-    {
-      "title": "Rule out the remaining choices",
-      "content": "<ul><li><strong>Choice D — 'It reflects a misconception that is widely believed because it captures early film audiences' sense that the new medium was alarming.'</strong>: Text 2 says there is no evidence early audiences were alarmed; the story is invented, not grounded in their actual reactions.</li></ul>"
-    },
-    {
-      "title": "Choose belief over evidence",
-      "content": "<ul><li><strong>Choice C — 'It is more motivated by a perception of the significance of the invention of film than by facts.'</strong>: This directly reflects Text 2's argument — the myth is sustained by belief in film's transformative significance, not by evidence.</li></ul>The answer is <strong>C</strong>."
+      "title": "Separate myth from evidence",
+      "content": "A invents a belief that historians are more sophisticated than today's audiences. B says historians regard the transformative view as naive, though they repeat the myth. D wrongly grounds the story in actual audience alarm. The remaining option captures Text 2's view that the story is driven more by perceived significance than by facts. The answer is <strong>C</strong>."
     }
   ]
 }

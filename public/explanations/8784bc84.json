@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Convert the percent",
-      "content": "Convert $30\\%$ to a fraction:\n$$30\\%=\\frac{30}{100}=\\frac{3}{10}$$"
+      "content": "Convert $30\\%$ to a fraction.\n$$\n30\\%=\\frac{30}{100}=\\frac{3}{10}\n$$"
     },
     {
       "title": "Multiply by the whole",
-      "content": "Find $\\frac{3}{10}$ of $360$:\n$$\\frac{3}{10}(360)=108$$\nThe answer is <strong>B</strong>."
+      "content": "Find \n$$\n\\frac{3}{10}\n$$ of $360$.\n$$\n\\frac{3}{10}(360)=108\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

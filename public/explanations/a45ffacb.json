@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Use the intercept",
-      "content": "For $y=f(x)-18$, substitute $x=0$ and the given $y$-intercept value.<br/>$$-\\frac{84}{5}=-a^0+b-18$$<br/>Since $a^0=1$, this becomes<br/>$$-\\frac{84}{5}=b-19$$<br/>$$b=19-\\frac{84}{5}=\\frac{11}{5}$$"
+      "content": "For $y=f(x)-18$, substitute $x=0$ and the given $y$-intercept value.<br/>$$-\\frac{84}{5}=-a^0+b-18$$<br/>$$-\\frac{84}{5}=b-19$$<br/>$$b=19-\\frac{84}{5}=\\frac{11}{5}$$"
     },
     {
       "title": "Use the product",

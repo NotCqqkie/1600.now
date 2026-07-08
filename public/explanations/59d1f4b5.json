@@ -9,7 +9,7 @@
     },
     {
       "title": "Substitute into the model",
-      "content": "Replace $t$ with $\\frac{q}{4}$ in the original equation.\n$$\nM=2{,}200(1.03)^t\n$$\n$$\nM=2{,}200(1.03)^{\\frac{q}{4}}\n$$\nThe answer is <strong>A</strong>."
+      "content": "Replace $t$ with \n$$\n\\frac{q}{4}\n$$ in the original equation.\n$$\nM=2{,}200(1.03)^t\n$$\n$$\nM=2{,}200(1.03)^{\\frac{q}{4}}\n$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Use the symmetry line",
-      "content": "The vertex is $(-2,5)$, so the axis of symmetry is the vertical line $x=-2$. The two $x$-intercepts are the same horizontal distance from this line."
+      "content": "The vertex is $(-2,5)$, so the axis of symmetry is the vertical line $$x=-2$$ The two $x$-intercepts are the same horizontal distance from this line."
     },
     {
-      "title": "Mirror the known intercept",
-      "content": "Let $r$ be the other $x$-intercept. The midpoint of the two intercepts' $x$-coordinates is $-2$.<br/>$$\\frac{-\\frac{15}{4}+r}{2}=-2$$<br/>$$-\\frac{15}{4}+r=-4$$<br/>$$r=-\\frac{1}{4}$$"
+      "title": "Mirror the intercept",
+      "content": "Let $r$ be the other $x$-intercept. The midpoint of the two intercepts' $x$-coordinates is $-2$.\n$$\\frac{-\\frac{15}{4}+r}{2}=-2$$\n$$-\\frac{15}{4}+r=-4$$\n$$r=-\\frac{1}{4}$$"
     },
     {
-      "title": "Write the other intercept",
-      "content": "The other $x$-intercept is $(-\\frac{1}{4},0)$. The answer is <strong>B</strong>."
+      "title": "Write the point",
+      "content": "The other $x$-intercept has $x$-coordinate $$-\\frac{1}{4}$$ and $y$-coordinate $0$, so the point is $$(-\\frac{1}{4},0)$$ The answer is <strong>B</strong>."
     }
   ]
 }

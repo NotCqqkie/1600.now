@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Eliminate one variable",
-      "content": "Subtract the second equation from the first so the $y$ terms cancel:<br/>$$(24x+y)-(6x+y)=48-72$$<br/>$$18x=-24$$<br/>$$x=-\\frac{4}{3}$$"
+      "content": "Subtract the second equation from the first so the $y$ terms cancel:\n$$(24x+y)-(6x+y)=48-72$$\n$$18x=-24$$\n$$x=-\\frac{4}{3}$$"
     },
     {
-      "title": "Substitute to find the output",
-      "content": "Use $6x+y=72$ and substitute $x=-\\frac{4}{3}$:<br/>$$6(-\\frac{4}{3})+y=72$$<br/>$$-8+y=72$$<br/>$$y=80$$<br/>This is the requested value of the $y$-coordinate. The answer is <strong>80</strong>.",
+      "title": "Substitute to find y",
+      "content": "Use $6x+y=72$ and substitute $x=-\\frac{4}{3}$:\n$$6(-\\frac{4}{3})+y=72$$\n$$-8+y=72$$\n$$y=80$$\nThe answer is <strong>80</strong>.",
       "desmosExpressions": [
         "24x+y=48",
         "6x+y=72"

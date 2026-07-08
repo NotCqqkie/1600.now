@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Clear the fractions",
-      "content": "Start with the equation $\\frac{1}{6xy}+xyz=\\frac{1}{5yz}$. Since $x$, $y$, and $z$ are positive, multiply every term by $30xyz$. This common multiple clears both fractions without changing the solution set."
+      "content": "Start with\n$$\n\\frac{1}{6xy}+xyz=\\frac{1}{5yz}\n$$\nSince $x$, $y$, and $z$ are positive, multiply every term by $30xyz$.\n$$\n5z+30x^2y^2z^2=6x\n$$"
     },
     {
-      "title": "Isolate the variable term",
-      "content": "After multiplying, the three terms become $5z$, $30x^2y^2z^2$, and $6x$. Collect the terms with $y^2$ and divide by $30x^2z^2$.<br/>$5z+30x^2y^2z^2=6x$<br/>$30x^2z^2y^2=6x-5z$<br/>$y^2=\\frac{6x-5z}{30x^2z^2}$"
+      "title": "Isolate the square",
+      "content": "Move $5z$ to the right side, then divide by $30x^2z^2$.\n$$\n30x^2z^2y^2=6x-5z\n$$\n$$\ny^2=\\frac{6x-5z}{30x^2z^2}\n$$"
     },
     {
       "title": "Take the positive root",
-      "content": "Because $y$ is positive, use the positive square root.<br/>$y=\\sqrt{\\frac{6x-5z}{30x^2z^2}}$<br/>The answer is <strong>B</strong>."
+      "content": "Because $y$ is positive, use the positive square root.\n$$\ny=\\sqrt{\\frac{6x-5z}{30x^2z^2}}\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

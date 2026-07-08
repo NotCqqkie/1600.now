@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Use the square diagonal",
-      "content": "For a square inscribed in a circle, the diagonal of the square is the diameter of the circle. This works because the diagonal connects two opposite vertices on the circle and passes through the center."
+      "content": "For a square inscribed in a circle, the diagonal of the square is the diameter of the circle. The diagonal connects opposite vertices on the circle and passes through the center."
     },
     {
       "title": "Find the diameter",
-      "content": "The diameter is twice the radius, so double the given radius:<br/>$$2\\cdot\\frac{18\\sqrt{2}}{2}=18\\sqrt{2}$$"
+      "content": "The diameter is twice the radius:\n$$2\\cdot\\frac{18\\sqrt{2}}{2}=18\\sqrt{2}$$"
     },
     {
       "title": "Solve for the side length",
-      "content": "If the side length is $s$, the square's diagonal is $s\\sqrt{2}$ by the Pythagorean theorem on two sides of the square. Set that equal to the circle's diameter:<br/>$$s\\sqrt{2}=18\\sqrt{2}$$<br/>$$s=18$$<br/>The side length is $18$ inches. The answer is <strong>A</strong>."
+      "content": "If the square's side length is $s$, its diagonal is $s\\sqrt{2}$. Set that equal to the circle's diameter:\n$$s\\sqrt{2}=18\\sqrt{2}$$\n$$s=18$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

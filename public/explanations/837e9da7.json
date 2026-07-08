@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Substitute the input",
-      "content": "The function is $f(x)=\\frac{1}{8x}$. Substitute $x=4$:\n$$\nf(4)=\\frac{1}{8(4)}\n$$"
+      "content": "The function is \n$$\nf(x)=\\frac{1}{8x}\n$$ Substitute $x=4$:\n$$\nf(4)=\\frac{1}{8(4)}\n$$"
     },
     {
       "title": "Simplify the denominator",

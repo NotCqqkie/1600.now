@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Use the two zeros",
-      "content": "The graph passes through $(10,0)$ and $(-6,0)$, so the zeros are $10$ and $-6$. Therefore:<br/>$f(x)=a(x-10)(x+6)$"
+      "content": "The graph passes through $(10,0)$ and $(-6,0)$, so the zeros are $10$ and $-6$. Therefore\n$$f(x)=a(x-10)(x+6)$$"
     },
     {
       "title": "Find b in terms of a",
-      "content": "Expand the factors:<br/>$f(x)=a(x^2-4x-60)=ax^2-4ax-60a$<br/>Comparing this with $ax^2+bx+c$ gives $b=-4a$."
+      "content": "Expand the factors:\n$$f(x)=a(x^2-4x-60)=ax^2-4ax-60a$$\nComparing this with $ax^2+bx+c$ gives\n$$b=-4a$$"
     },
     {
       "title": "Test the possible value",
-      "content": "Then $a+b=a-4a=-3a$. Choice D gives $a+b=-6$, so $-3a=-6$ and $a=2$. Since $2$ is an integer greater than $1$, this value is possible. The answer is <strong>D</strong>."
+      "content": "Then\n$$a+b=a-4a=-3a$$\nThe value $-6$ is possible because\n$$-3a=-6$$\n$$a=2$$\nand $2$ is an integer greater than $1$. The answer is <strong>D</strong>."
     }
   ]
 }

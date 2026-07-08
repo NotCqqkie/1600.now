@@ -9,7 +9,7 @@
     },
     {
       "title": "Use the special ratio",
-      "content": "In a $30^\\circ$-$60^\\circ$-$90^\\circ$ triangle, the sides opposite those angles are in the ratio\n$$\n1:\\sqrt{3}:2\n$$\nFor angle $A$, the opposite leg is $\\sqrt{3}$ times the adjacent leg."
+      "content": "In a $30^\\circ$-$60^\\circ$-$90^\\circ$ triangle, the sides opposite those angles are in the ratio\n$$\n1:\\sqrt{3}:2\n$$\nFor angle $A$, the opposite leg is \n$$\n\\sqrt{3}\n$$ times the adjacent leg."
     },
     {
       "title": "Apply tangent",

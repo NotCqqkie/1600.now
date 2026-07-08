@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the unit conversion",
-      "content": "We need to convert 22,704 yards per hour to miles per hour. Given that 1 mile = 1,760 yards, we divide the speed in yards by 1,760 to get the speed in miles."
+      "title": "Set up the conversion",
+      "content": "Convert yards per hour to miles per hour by dividing by $1{,}760$, since $1$ mile equals $1{,}760$ yards."
     },
     {
-      "title": "Calculate the speed in miles per hour",
-      "content": "$$\\frac{22,704}{1,760} = 12.9$$<br/>The average speed is 12.9 miles per hour."
+      "title": "Divide by yards per mile",
+      "content": "Compute the converted speed.\n$$\n\\frac{22{,}704}{1{,}760}=12.9\n$$\nThe answer is <strong>12.9</strong>."
     }
   ]
 }

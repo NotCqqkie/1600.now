@@ -13,7 +13,7 @@
     },
     {
       "title": "Subtract the similar segment",
-      "content": "The smaller similar triangle has scale factor $\\frac{1}{3}$, so\n$$\nSK=\\frac{1}{3}(25)=\\frac{25}{3}\n$$\nThen subtract from the full length.\n$$\nKT=25-\\frac{25}{3}=\\frac{50}{3}\n$$\nThe answer is <strong>50/3</strong>."
+      "content": "The smaller similar triangle has scale factor \n$$\n\\frac{1}{3}\n$$, so\n$$\nSK=\\frac{1}{3}(25)=\\frac{25}{3}\n$$\nThen subtract from the full length.\n$$\nKT=25-\\frac{25}{3}=\\frac{50}{3}\n$$\nThe answer is <strong>50/3</strong>."
     }
   ]
 }

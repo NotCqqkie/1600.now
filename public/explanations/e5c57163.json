@@ -5,16 +5,16 @@
   "steps": [
     {
       "title": "Identify the scale factor",
-      "content": "Square A's sides are $154$ times square B's, so the scale factor is $154$."
+      "content": "Square A's side lengths are $154$ times square B's side lengths."
     },
     {
       "title": "Use area scaling",
-      "content": "Areas scale by the square of the side-length scale factor, so $k=154^2$.",
+      "content": "Areas scale by the square of the side-length scale factor, so:<br/>$$k=154^2$$",
       "formula": "$$k = r^2$$"
     },
     {
       "title": "Calculate the area ratio",
-      "content": "Evaluate the square: $k=154^2=23716$. The answer is <strong>23716</strong>."
+      "content": "Evaluate the square:<br/>$$154^2=23{,}716$$<br/>The answer is <strong>23716</strong>."
     }
   ]
 }

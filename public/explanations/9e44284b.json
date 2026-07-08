@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Group and divide first",
-      "content": "Divide the equation by $2$ to make completing the square cleaner.$$x^2-5x+y^2+y=\\frac{59}{2}$$"
+      "title": "Divide the equation",
+      "content": "Divide every term by $2$ before completing the square.\n$$\nx^2-5x+y^2+y=\\frac{59}{2}\n$$"
     },
     {
-      "title": "Complete both squares",
-      "content": "Add $(\\frac{5}{2})^2$ to complete the $x$ square and add $(\\frac{1}{2})^2$ to complete the $y$ square.$$(x-\\frac{5}{2})^2+(y+\\frac{1}{2})^2=\\frac{59}{2}+\\frac{25}{4}+\\frac{1}{4}$$$$(x-\\frac{5}{2})^2+(y+\\frac{1}{2})^2=36$$"
+      "title": "Complete the squares",
+      "content": "Add \n$$\n(\\frac{5}{2})^2\n$$ for the $x$ terms and \n$$\n(\\frac{1}{2})^2\n$$ for the $y$ terms.\n$$\n(x-\\frac{5}{2})^2+(y+\\frac{1}{2})^2=\\frac{59}{2}+\\frac{25}{4}+\\frac{1}{4}\n$$\n$$\n(x-\\frac{5}{2})^2+(y+\\frac{1}{2})^2=36\n$$"
     },
     {
       "title": "Read the radius",
-      "content": "The standard form has $r^2=36$, so $r=6$. The answer is <strong>A</strong>."
+      "content": "In standard circle form, the right side is $r^2$.\n$$\nr^2=36\n$$\n$$\nr=6\n$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Simplify the original expression",
-      "content": "Because $x$ and $y$ are positive, $\\sqrt{y^{12}}=y^6$. Then simplify by subtracting exponents for like bases.<br/>$$\\frac{3x^{19}y^7}{5x^3\\sqrt{y^{12}}}=\\frac{3x^{19}y^7}{5x^3y^6}$$<br/>$$=\\frac{3}{5}x^{16}y$$"
+      "title": "Simplify the expression",
+      "content": "Because $x$ and $y$ are positive, $\\sqrt{y^{12}}=y^6$. Then simplify by subtracting exponents for like bases:\n$$\\frac{3x^{19}y^7}{5x^3\\sqrt{y^{12}}}=\\frac{3x^{19}y^7}{5x^3y^6}$$\n$$=\\frac{3}{5}x^{16}y$$"
     },
     {
       "title": "Compare both statements",

@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Use the Pythagorean theorem",
-      "content": "Let $h$ be the hypotenuse. Since the legs are $27$ and $24$, use<br/>$$h^2=27^2+24^2$$"
+      "content": "Let $h$ be the hypotenuse. The legs are $27$ and $24$, so<br/>$$h^2=27^2+24^2$$"
     },
     {
-      "title": "Factor out the square",
-      "content": "Compute and simplify the hypotenuse.<br/>$$h^2=729+576=1{,}305$$<br/>$$h=\\sqrt{1{,}305}=\\sqrt{9\\cdot145}=3\\sqrt{145}$$"
+      "title": "Simplify the hypotenuse",
+      "content": "Compute the squares and factor out a perfect square.<br/>$$h^2=729+576=1{,}305$$<br/>$$h=\\sqrt{1{,}305}=\\sqrt{9\\cdot145}=3\\sqrt{145}$$"
     },
     {
       "title": "Match the given form",
-      "content": "The hypotenuse is written as $3\\sqrt{d}$, so $d=145$. The answer is <strong>145</strong>."
+      "content": "The hypotenuse has the form $3\\sqrt{d}$, so $d=145$. The answer is <strong>145</strong>."
     }
   ]
 }

@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Use two graph points",
-      "content": "The graph shows the points $(-7,-2)$ and $(-5,-6)$ on $f(x)=\\frac{a}{x+b}$. Substitute them:\n$$\n-2=\\frac{a}{-7+b}\n$$\n$$\n-6=\\frac{a}{-5+b}\n$$",
+      "content": "The graph shows the points $(-7,-2)$ and $(-5,-6)$ on \n$$\nf(x)=\\frac{a}{x+b}\n$$ Substitute them:\n$$\n-2=\\frac{a}{-7+b}\n$$\n$$\n-6=\\frac{a}{-5+b}\n$$",
       "desmosExpressions": [
         "x_1=[-7,-5]",
         "y_1=[-2,-6]"
@@ -13,7 +13,7 @@
     },
     {
       "title": "Find the function",
-      "content": "Solve the two equations for $a$ and $b$:\n$$\na=14-2b\n$$\n$$\na=30-6b\n$$\n$$\n14-2b=30-6b\n$$\n$$\nb=4\n$$\nThen $a=6$, so $f(x)=\\frac{6}{x+4}$."
+      "content": "Solve the two equations for $a$ and $b$:\n$$\na=14-2b\n$$\n$$\na=30-6b\n$$\n$$\n14-2b=30-6b\n$$\n$$\nb=4\n$$\nThen $a=6$, so \n$$\nf(x)=\\frac{6}{x+4}\n$$"
     },
     {
       "title": "Shift the input",

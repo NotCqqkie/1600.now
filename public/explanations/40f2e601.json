@@ -9,7 +9,7 @@
     },
     {
       "title": "Isolate the variable",
-      "content": "Add $C$ to both sides, then subtract $\\frac{P}{N}$ from both sides.\n$$\nC=17-\\frac{P}{N}\n$$\nThe answer is <strong>D</strong>."
+      "content": "Add $C$ to both sides, then subtract \n$$\n\\frac{P}{N}\n$$ from both sides.\n$$\nC=17-\\frac{P}{N}\n$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

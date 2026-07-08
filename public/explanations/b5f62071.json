@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Put equations in standard form",
-      "content": "Rewrite both equations with $x$ and $y$ on the left:\n$$\n48x-64y=48y+24\n$$\nbecomes\n$$\n48x-112y=24\n$$\nand $ry=\\frac{1}{8}-12x$ becomes\n$$\n12x+ry=\\frac{1}{8}\n$$"
+      "content": "Rewrite both equations with $x$ and $y$ on the left:\n$$48x-64y=48y+24$$\n$$48x-112y=24$$\nand\n$$ry=\\frac{1}{8}-12x$$\n$$12x+ry=\\frac{1}{8}$$"
     },
     {
-      "title": "Match the parallel coefficients",
-      "content": "For no solution, the lines must be parallel and distinct. The $x$-coefficient in the second equation is $\\frac{1}{4}$ of the first:\n$$\n12=\\frac{1}{4}(48)\n$$\nSo the $y$-coefficient must use the same factor."
+      "title": "Match parallel coefficients",
+      "content": "For no solution, the lines must be parallel and distinct. The $x$-coefficient in the second equation is $\\frac{1}{4}$ of the first:\n$$12=\\frac{1}{4}(48)$$\nSo the $y$-coefficient must use the same factor."
     },
     {
       "title": "Solve for r",
-      "content": "Apply the same factor to the first equation's $y$-coefficient:\n$$\nr=\\frac{1}{4}(-112)=-28\n$$\nThe constants are not in that same ratio, so the lines are distinct. The answer is <strong>-28</strong>.",
+      "content": "Apply the same factor to the first equation's $y$-coefficient:\n$$r=\\frac{1}{4}(-112)=-28$$\nThe constants are not in that same ratio, so the lines are distinct. The answer is <strong>-28</strong>.",
       "desmosExpressions": [
         "48x-112y=24",
         "12x-28y=1/8"

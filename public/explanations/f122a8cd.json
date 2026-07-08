@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "List the solutions",
-      "content": "The factored equation gives solutions $x=0$, $x=\\frac{13}{4}$, and $x=\\frac{u}{4}$."
+      "content": "From the factored equation, the solutions are $0$, $\\frac{13}{4}$, and $\\frac{u}{4}$."
     },
     {
       "title": "Use the given sum",

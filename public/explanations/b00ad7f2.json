@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Rewrite one equation",
-      "content": "From $5x=2y$, solve for $y$ so it can be substituted into the other equation:<br/>$$y=\\frac{5}{2}x$$"
+      "content": "From $5x=2y$, solve for $y$ so it can be substituted into the other equation:\n$$y=\\frac{5}{2}x$$"
     },
     {
-      "title": "Substitute into the other equation",
-      "content": "Use $y-9x=13$ and replace $y$ with $\\frac{5}{2}x$:<br/>$$\\frac{5}{2}x-9x=13$$<br/>$$\\frac{5}{2}x-\\frac{18}{2}x=13$$<br/>$$-\\frac{13}{2}x=13$$<br/>$$x=-2$$"
+      "title": "Substitute into the system",
+      "content": "Use $y-9x=13$ and replace $y$ with $\\frac{5}{2}x$:\n$$\\frac{5}{2}x-9x=13$$\n$$\\frac{5}{2}x-\\frac{18}{2}x=13$$\n$$-\\frac{13}{2}x=13$$\n$$x=-2$$"
     },
     {
       "title": "Find the ordered pair",
-      "content": "Substitute $x=-2$ into $y=\\frac{5}{2}x$:<br/>$$y=\\frac{5}{2}(-2)=-5$$<br/>So the solution is $(-2,-5)$, with the $x$-value first and the $y$-value second. The answer is <strong>C</strong>.",
+      "content": "Substitute $x=-2$ into $y=\\frac{5}{2}x$:\n$$y=\\frac{5}{2}(-2)=-5$$\nSo the solution is $(-2,-5)$, with the $x$-value first and the $y$-value second. The answer is <strong>C</strong>.",
       "desmosExpressions": [
         "y=9x+13",
         "y=5x/2"

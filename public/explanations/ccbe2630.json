@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Find the decay factor",
-      "content": "The mass decreases by $18\\%$ every $9.42$ minutes, so the percent remaining each period is<br/>$$100\\%-18\\%=82\\%$$<br/>That gives a decay factor of $0.82$."
+      "content": "A decrease of $18\\%$ means $82\\%$ of the mass remains after each period.\n$$100\\%-18\\%=82\\%=0.82$$"
     },
     {
-      "title": "Count elapsed periods",
-      "content": "Since each decay period lasts $9.42$ minutes, the number of periods after $t$ minutes is<br/>$$\\frac{t}{9.42}$$<br/>So the model must use base $0.82$ and exponent $\\frac{t}{9.42}$."
+      "title": "Count the decay periods",
+      "content": "Each period lasts $9.42$ minutes, so after $t$ minutes the number of decay periods is\n$$\\frac{t}{9.42}$$"
     },
     {
-      "title": "Match the model",
-      "content": "The equation with that base and exponent is<br/>$$M=120(0.82)^{\\frac{t}{9.42}}$$<br/>The answer is <strong>A</strong>."
+      "title": "Match the exponential model",
+      "content": "The model must use base $0.82$ and exponent $$\\frac{t}{9.42}$$ The matching equation is\n$$M=120(0.82)^{\\frac{t}{9.42}}$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

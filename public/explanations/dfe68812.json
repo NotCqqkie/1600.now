@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the slope from the table",
-      "content": "Using the table points $(-2,19)$ and $(0,31)$, the slope is $$m=\\frac{31-19}{0-(-2)}=\\frac{12}{2}=6.$$"
+      "title": "Find the table slope",
+      "content": "Use the table points $(-2,19)$ and $(0,31)$:<br/>$$m=\\frac{31-19}{0-(-2)}$$<br/>$$m=\\frac{12}{2}=6$$"
     },
     {
-      "title": "Relate slope to A over B",
-      "content": "An equation in the form $Ax+By=C$ can be solved for $y$: $$By=-Ax+C$$ $$y=-\\frac{A}{B}x+\\frac{C}{B}.$$ Therefore, the slope is $-\\frac{A}{B}$."
+      "title": "Relate slope to coefficients",
+      "content": "Solve $Ax+By=C$ for $y$:<br/>$$By=-Ax+C$$<br/>$$y=-\\frac{A}{B}x+\\frac{C}{B}$$<br/>So the slope is $-\\frac{A}{B}$."
     },
     {
-      "title": "Solve for the requested value",
-      "content": "Since the slope is $6$, $$-\\frac{A}{B}=6.$$ Multiplying by $-1$ gives $$\\frac{A}{B}=-6.$$ The correct answer is <strong>-6</strong>."
+      "title": "Solve for the ratio",
+      "content": "Since the slope is $6$, set:<br/>$$-\\frac{A}{B}=6$$<br/>$$\\frac{A}{B}=-6$$<br/>The answer is <strong>-6</strong>."
     }
   ]
 }

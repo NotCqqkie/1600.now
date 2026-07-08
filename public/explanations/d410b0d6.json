@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up",
-      "content": "Equal ratios form a proportion: $$\\frac{168}{126} = \\frac{x}{6}$$"
+      "title": "Set up the proportion",
+      "content": "Equivalent ratios can be written as a proportion.<br/>$$\\frac{168}{126}=\\frac{x}{6}$$"
     },
     {
-      "title": "Solve",
-      "content": "Cross-multiply: $168 \\times 6 = 126x$, so $1,008 = 126x$, giving $x = \\frac{1,008}{126} = 8$.<br/><br/>The proportion keeps the corresponding sides in the same order, so the unknown length is scaled by the same factor as $168$ to $126$."
-    },
-    {
-      "title": "Answer",
-      "content": "<strong>8</strong> is correct."
+      "title": "Solve for the unknown",
+      "content": "Cross-multiply and solve.<br/>$$168\\cdot6=126x$$<br/>$$1{,}008=126x$$<br/>$$x=8$$<br/>The answer is <strong>8</strong>."
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the yearly multiplier",
-      "content": "The exponent $\\frac{x}{12}$ converts months to years. After $12$ months, the exponent is<br/>$$\\frac{12}{12}=1$$so the yearly multiplier is $0.64$."
+      "content": "The exponent $$\\frac{x}{12}$$ converts months to years. After $12$ months, the exponent is\n$$\\frac{12}{12}=1$$\nso the yearly multiplier is $0.64$."
     },
     {
       "title": "Convert retained value to loss",
-      "content": "A multiplier of $0.64$ means the equipment keeps $64\\%$ of its value each year. The percent decrease is<br/>$$100\\%-64\\%=36\\%$$The answer is <strong>C</strong>."
+      "content": "A multiplier of $0.64$ means the equipment keeps $64\\%$ of its value each year. The percent decrease is\n$$100\\%-64\\%=36\\%$$\nThe answer is <strong>C</strong>."
     }
   ]
 }

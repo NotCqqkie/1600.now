@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Parallel lines have equal slopes — read slope directly from standard form",
-      "content": "For $ax + by = c$ the slope is $-a/b$, no algebra needed.<br/>Line $j$: $5x - 8y = 24$ $\\Rightarrow$ slope $= -5/(-8) = 5/8$.<br/>Since line $k$ is parallel to line $j$, it has the same slope."
+      "title": "Find the slope of j",
+      "content": "Rewrite $5x-8y=24$ in slope-intercept form.\n$$\n-8y=-5x+24\n$$\n$$\ny=\\frac{5}{8}x-3\n$$"
     },
     {
-      "title": "State the slope of line k",
-      "content": "The slope of line $k$ is $\\dfrac{5}{8}$.<br/>The answer is $\\boxed{\\dfrac{5}{8}}$."
+      "title": "Use parallel slopes",
+      "content": "Parallel lines have the same slope. Since line $j$ has slope \n$$\n\\frac{5}{8}\n$$, line $k$ has the same slope. The answer is <strong>5/8</strong>."
     }
   ]
 }

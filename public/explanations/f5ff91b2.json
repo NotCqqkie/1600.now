@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute to isolate the common expression",
-      "content": "Let $u = x - 8$. The equation becomes $$\\frac{u}{5} = \\frac{u}{11}$$"
+      "title": "Name the repeated expression",
+      "content": "Let $u=x-8$. The equation becomes<br/>$$\\frac{u}{5}=\\frac{u}{11}$$"
     },
     {
-      "title": "Cross-multiply and solve for u",
-      "content": "Cross-multiply: $11u = 5u$. Subtract $5u$ from both sides to get $6u = 0$, so $u = 0$. Therefore, $x - 8 = 0$. This value is between $-4$ and $4$. That matches the correct answer."
+      "title": "Solve for the expression",
+      "content": "Cross-multiply and solve.<br/>$$11u=5u$$<br/>$$6u=0$$<br/>$$u=0$$<br/>Since $u=x-8$, the value of $x-8$ is $0$, which lies between $-4$ and $4$. The answer is <strong>B</strong>."
     }
   ]
 }

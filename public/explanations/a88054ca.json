@@ -5,16 +5,16 @@
   "steps": [
     {
       "title": "Find the side length",
-      "content": "An equilateral triangle has three equal sides. Since the perimeter is $894$ centimeters, divide the perimeter by $3$ to get one side length:\n$$\n\\frac{894}{3}=298\n$$\nSo each side of the equilateral triangle is $298$ centimeters."
+      "content": "An equilateral triangle has $3$ equal sides, so divide the perimeter by $3$.<br/>$$\\frac{894}{3}=298$$"
     },
     {
       "title": "Use the circumradius formula",
-      "content": "For an equilateral triangle, the radius of the circumscribed circle is the side length multiplied by $\\sqrt{3}$ and divided by $3$. This comes from the fact that the circumcenter lies two-thirds of the way along a median.",
+      "content": "For an equilateral triangle, the radius of the circumscribed circle is<br/>$$R=\\frac{s\\sqrt{3}}{3}$$<br/>Substitute $s=298$:<br/>$$R=\\frac{298\\sqrt{3}}{3}$$",
       "formula": "$$R = \\frac{s\\sqrt{3}}{3}$$"
     },
     {
-      "title": "Solve for the coefficient",
-      "content": "Substitute $s=298$ into the formula:\n$$\nR=\\frac{298\\sqrt{3}}{3}\n$$\nThe problem writes the radius as $w\\sqrt{3}$, so the coefficient of $\\sqrt{3}$ is the value of $w$:\n$$\nw=\\frac{298}{3}\n$$\nThe answer is <strong>298/3</strong>."
+      "title": "Read the coefficient",
+      "content": "The radius is written as $w\\sqrt{3}$, so $w$ is the coefficient of $\\sqrt{3}$. The answer is <strong>298/3</strong>."
     }
   ]
 }

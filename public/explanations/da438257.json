@@ -4,16 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Connect capital to import type",
-      "content": "The assertion is about limited capital resolving during the 2000s. Processing with assembly does not require firms to pay for raw materials, while processing with inputs does. A rise in processing with inputs would therefore support the idea that firms had more capital available."
+      "title": "Tie processing types to capital needs",
+      "content": "The assertion says firms initially had limited capital and that this barrier improved in the 2000s. Processing imports with assembly does not require paying for materials, while processing with inputs does. A sharp rise in inputs best supports greater capital availability."
     },
     {
-      "title": "Use the change over time",
-      "content": "The graph shows processing imports with inputs rising from about 650 hundred million dollars in 2000 to about 2,300 hundred million dollars in 2006. Processing with assembly rose much less, from about 250 to about 750 hundred million dollars."
+      "title": "Use the data trend from 2000 to 2006",
+      "content": "The graph pattern says processing imports with inputs increased far faster than processing with assembly over 2000 to 2006. That specific rise tracks exactly the claim about firms becoming less constrained by limited capital."
     },
     {
-      "title": "Eliminate weak comparisons",
-      "content": "Choice A makes a 2006 ranking claim that conflicts with the graph because ordinary imports were still greater. Choice C says both processing categories stayed below ordinary imports, but that does not show capital constraints resolving. Choice D compares different years and categories without showing the key rise. The sharper rise in processing with inputs gives the needed support. The answer is <strong>B</strong>."
+      "title": "Reject comparisons that do not show growth in inputs",
+      "content": "Choice A makes a 2006 ranking claim and conflicts with ordinary imports being higher that year. Choice C uses a static comparison and misses the needed change over time. Choice D compares categories across different years without supporting capital growth. Choice B directly captures a stronger rise in the capital-intensive category. The answer is <strong>B</strong>."
     }
   ]
 }

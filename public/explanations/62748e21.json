@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Clear the multiplier",
-      "content": "Start with the given equation and clear the fraction.\n$$\nak=\\frac{b}{15}(6+m)\n$$\nMultiply both sides by $\\frac{15}{b}$.\n$$\n\\frac{15ak}{b}=6+m\n$$"
+      "content": "Start with the given equation and clear the fraction.\n$$\nak=\\frac{b}{15}(6+m)\n$$\nMultiply both sides by \n$$\n\\frac{15}{b}\n$$\n$$\n\\frac{15ak}{b}=6+m\n$$"
     },
     {
       "title": "Isolate the variable",

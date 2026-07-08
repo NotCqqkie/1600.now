@@ -4,24 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the slope of line h",
-      "content": "Line $h$ contains $(18{,}130)$, $(23{,}160)$, and $(26{,}178)$. Use two of the points to find the slope.\n$$\\frac{160-130}{23-18}=\\frac{30}{5}=6$$",
+      "title": "Find the slope of h",
+      "content": "Line $h$ contains $(18{,}130)$, $(23{,}160)$, and $(26{,}178)$. Use two points to find the slope.\n$$\n\\frac{160-130}{23-18}=\\frac{30}{5}=6\n$$",
       "desmosExpressions": [
         "x_1=[18,23,26]",
         "y_1=[130,160,178]"
       ]
     },
     {
-      "title": "Write the original line",
-      "content": "Use $y=mx+b$ with slope $6$ and point $(18{,}130)$.\n$$130=6(18)+b$$\n$$130=108+b$$\n$$b=22$$\nSo line $h$ is $y=6x+22$."
-    },
-    {
-      "title": "Translate the line down",
-      "content": "Moving line $h$ down $5$ units subtracts $5$ from each $y$-value.\n$$y=6x+22-5$$\n$$y=6x+17$$"
+      "title": "Write the shifted line",
+      "content": "Use $y=mx+b$ with slope $6$ and point $(18{,}130)$.\n$$\n130=6(18)+b\n$$\n$$\nb=22\n$$\nSo line $h$ is $y=6x+22$. Translating down $5$ units gives\n$$\ny=6x+17\n$$"
     },
     {
       "title": "Find the intercept",
-      "content": "At the $x$-intercept, $y=0$.\n$$0=6x+17$$\n$$-17=6x$$\n$$x=-\\frac{17}{6}$$\nSo the intercept is $(-\\frac{17}{6}{,}0)$. The answer is <strong>D</strong>."
+      "content": "At the $x$-intercept, $y=0$.\n$$\n0=6x+17\n$$\n$$\nx=-\\frac{17}{6}\n$$\nSo the intercept is \n$$\n(-\\frac{17}{6},0)\n$$ The answer is <strong>D</strong>."
     }
   ]
 }

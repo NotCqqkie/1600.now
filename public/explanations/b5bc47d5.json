@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Write inches per foot",
-      "content": "The scale says $1$ model inch represents $\\frac{19}{4}$ actual feet. So $1$ actual foot corresponds to\n$$\n\\frac{1}{19/4}=\\frac{4}{19}\n$$\nmodel inches."
+      "content": "The scale says $1$ model inch represents $\\frac{19}{4}$ actual feet. So $1$ actual foot corresponds to\n$$\\frac{1}{19/4}=\\frac{4}{19}$$\nmodel inches."
     },
     {
       "title": "Multiply by actual length",
-      "content": "For $x$ actual feet, multiply by the number of model inches per actual foot:\n$$\nx\\cdot \\frac{4}{19}=\\frac{4x}{19}\n$$\nThe answer is <strong>C</strong>."
+      "content": "For $x$ actual feet, multiply by the number of model inches per actual foot:\n$$x\\cdot\\frac{4}{19}=\\frac{4x}{19}$$\nThe answer is <strong>C</strong>."
     }
   ]
 }

@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the infinite-solution condition",
+      "title": "Use the same-line condition",
       "content": "A system of two linear equations has infinitely many solutions only when both equations describe the same line."
     },
     {
-      "title": "Rewrite the first equation",
-      "content": "Multiply the first equation by $4$ so the coefficient of $y$ is $1$:<br/>$$4\\cdot\\frac{2}{5}x+4\\cdot\\frac{1}{4}y=4\\cdot\\frac{3}{8}$$<br/>$$\\frac{8}{5}x+y=\\frac{3}{2}$$"
+      "title": "Scale the first equation",
+      "content": "Make the coefficient of $y$ equal to $1$ by multiplying the first equation by $4$:<br/>$$4(\\frac{2}{5}x+\\frac{1}{4}y)=4(\\frac{3}{8})$$<br/>$$\\frac{8}{5}x+y=\\frac{3}{2}$$"
     },
     {
-      "title": "Match the coefficients",
-      "content": "The second equation is $ax+y=c$. To describe the same line, the coefficient of $x$ must be $\\frac{8}{5}$. The answer is <strong>D</strong>."
+      "title": "Match the coefficient",
+      "content": "The second equation is $ax+y=c$. To describe the same line, its coefficient of $x$ must match $\\frac{8}{5}$. The answer is <strong>D</strong>."
     }
   ]
 }
