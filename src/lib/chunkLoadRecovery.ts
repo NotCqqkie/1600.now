@@ -9,7 +9,20 @@ export const isChunkLoadError = (error: unknown): boolean => {
         : "";
 
   const normalized = message.toLowerCase();
-  return normalized.includes("dynamically imported module");
+  return (
+    normalized.includes("dynamically imported module") ||
+    normalized.includes("expected a javascript-or-wasm module script") ||
+    normalized.includes("strict mime type checking") ||
+    normalized.includes("dispatcher.usecontext") ||
+    (
+      normalized.includes("usecontext") &&
+      (
+        normalized.includes("dispatcher is null") ||
+        normalized.includes("cannot read properties of null") ||
+        normalized.includes("can't access property")
+      )
+    )
+  );
 };
 
 export const hasAttemptedChunkReload = (): boolean =>

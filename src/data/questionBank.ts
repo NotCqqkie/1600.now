@@ -81,9 +81,8 @@ export type BankQuestionSimilarityMeta = Pick<
 // isChunkLoadError-based reload recovery still handles stale-deploy 404s.
 const fetchJsonAsset = <T,>(url: string): Promise<T> =>
   fetch(url).then((response) => {
-    // A stale-deploy asset URL is rewritten to /index.html by Firebase
-    // hosting (200 + text/html), so the content-type check is what actually
-    // catches redeploys — not the status check.
+    // A stale-deploy asset URL can be served as HTML by SPA fallbacks or
+    // caches, so the content-type check is what actually catches redeploys.
     const contentType = response.headers.get("content-type") ?? "";
     if (!response.ok || !contentType.includes("json")) {
       throw new Error(`Failed to fetch dynamically imported module data: ${url} (status ${response.status})`);

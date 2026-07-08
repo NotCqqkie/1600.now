@@ -2425,8 +2425,7 @@ const StableRoutes = () => {
     setPendingLocation(actualLocation);
     setShowPendingSkeleton(false);
 
-    let skeletonTimer: ReturnType<typeof setTimeout> | undefined;
-    skeletonTimer = setTimeout(() => {
+    const skeletonTimer: ReturnType<typeof setTimeout> = setTimeout(() => {
       if (transitionIdRef.current === transitionId) {
         setShowPendingSkeleton(true);
       }

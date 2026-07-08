@@ -1101,8 +1101,8 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     const similarityMeta = similarityMetaByStableId[displayedQuestionData.stableId];
     return similarityMeta ? { ...displayedQuestionData, ...similarityMeta } : displayedQuestionData;
   }, [displayedQuestionData, similarityMetaByStableId]);
-  const canonicalBankQuestionPath = isBank && isBankQuestionWithUuid(currentQuestion)
-    ? `/bank/${currentQuestion.subject}/${currentQuestion.sourceId}`
+  const canonicalBankQuestionPath = isBank && isBankQuestionWithUuid(questionData)
+    ? `/bank/${questionData.subject}/${questionData.sourceId}`
     : null;
   const currentQuestionId = currentQuestion?.uuid;
   const resolvedQuestionNumber = (() => {
@@ -1201,8 +1201,8 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       !isBank ||
       isEmbed ||
       isAssessmentMode ||
-      !isBankQuestionWithUuid(currentQuestion) ||
-      idParam === currentQuestion.sourceId
+      !isBankQuestionWithUuid(questionData) ||
+      idParam === questionData.sourceId
     ) {
       return;
     }
@@ -1212,7 +1212,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     navigate(`${canonicalBankQuestionPath}${queryString ? `?${queryString}` : ""}`, { replace: true });
   }, [
     canonicalBankQuestionPath,
-    currentQuestion,
+    questionData,
     idParam,
     isAssessmentMode,
     isBank,

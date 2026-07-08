@@ -10,7 +10,7 @@
     ],
     "rewrites": [
       {
-        "source": "**",
+        "source": "!/@(assets|generated|images|optimized|reference-sheet|study-plan|tesseract|explanations)/**",
         "destination": "/spa-shell.html"
       }
     ],
